@@ -4,7 +4,7 @@ VALUES ('14613', 'portalbleachedskullwastessettlement', 7) /* Portal */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (14613,   1,      65536) /* ItemType - Portal */
      , (14613,  16,         32) /* ItemUseable - Remote */
-     , (14613,  93,       3084) /* PhysicsState */
+     , (14613,  93,       3084) /* PhysicsState - Ethereal, ReportCollisions, Gravity, LightingOn */
      , (14613, 111,          1) /* PortalBitmask - Unrestricted */
      , (14613, 133,          4) /* ShowableOnRadar - ShowAlways */;
 

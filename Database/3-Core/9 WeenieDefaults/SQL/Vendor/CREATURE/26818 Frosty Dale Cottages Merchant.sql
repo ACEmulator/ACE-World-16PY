@@ -10,10 +10,10 @@ VALUES (26818,   1,         16) /* ItemType - Creature */
      , (26818,  16,         32) /* ItemUseable - Remote */
      , (26818,  25,         10) /* Level */
      , (26818,  27,          0) /* ArmorType */
-     , (26818,  74,     264192) /* MerchandiseItemTypes */
+     , (26818,  74,     264192) /* MerchandiseItemTypes - Gem, PromissoryNote */
      , (26818,  75,          0) /* MerchandiseMinValue */
      , (26818,  76,    1000000) /* MerchandiseMaxValue */
-     , (26818,  93,    2098204) /* PhysicsState */
+     , (26818,  93,    2098204) /* PhysicsState - Ethereal, ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */
      , (26818, 126,        125) /* VendorHappyMean */
      , (26818, 127,        125) /* VendorHappyVariance */
      , (26818, 133,          4) /* ShowableOnRadar - ShowAlways */
@@ -97,4 +97,4 @@ VALUES (26818,  0,  4,  0,    0,    0,    0,    0,    0,    0,    0,    0,    0,
      , (26818,  8,  4,  2, 0.75,    0,    0,    0,    0,    0,    0,    0,    0,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (26818, 4, 26183, -1, 0, 0, False) /* Create Frosty Dale Cottages Portal Gem for Shop */;
+VALUES (26818, 4, 26183, -1, 0, 0, False) /* Create Frosty Dale Cottages Portal Gem (26183) for Shop */;

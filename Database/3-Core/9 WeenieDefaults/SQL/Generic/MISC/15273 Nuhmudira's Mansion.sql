@@ -4,7 +4,7 @@ VALUES ('15273', 'slumlordfakenuhmudira', 1) /* Generic */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (15273,   1,        128) /* ItemType - Misc */
      , (15273,  16,          1) /* ItemUseable - No */
-     , (15273,  93,       1048) /* PhysicsState */;
+     , (15273,  93,       1048) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (15273,   1, True ) /* Stuck */

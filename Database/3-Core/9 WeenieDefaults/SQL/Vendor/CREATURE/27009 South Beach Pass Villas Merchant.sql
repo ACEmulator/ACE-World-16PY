@@ -10,10 +10,10 @@ VALUES (27009,   1,         16) /* ItemType - Creature */
      , (27009,  16,         32) /* ItemUseable - Remote */
      , (27009,  25,         10) /* Level */
      , (27009,  27,          0) /* ArmorType */
-     , (27009,  74,     264192) /* MerchandiseItemTypes */
+     , (27009,  74,     264192) /* MerchandiseItemTypes - Gem, PromissoryNote */
      , (27009,  75,          0) /* MerchandiseMinValue */
      , (27009,  76,    1000000) /* MerchandiseMaxValue */
-     , (27009,  93,    2098204) /* PhysicsState */
+     , (27009,  93,    2098204) /* PhysicsState - Ethereal, ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */
      , (27009, 126,        125) /* VendorHappyMean */
      , (27009, 127,        125) /* VendorHappyVariance */
      , (27009, 133,          4) /* ShowableOnRadar - ShowAlways */
@@ -97,4 +97,4 @@ VALUES (27009,  0,  4,  0,    0,    0,    0,    0,    0,    0,    0,    0,    0,
      , (27009,  8,  4,  2, 0.75,    0,    0,    0,    0,    0,    0,    0,    0,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (27009, 4, 26374, -1, 0, 0, False) /* Create South Beach Pass Villas Portal Gem for Shop */;
+VALUES (27009, 4, 26374, -1, 0, 0, False) /* Create South Beach Pass Villas Portal Gem (26374) for Shop */;

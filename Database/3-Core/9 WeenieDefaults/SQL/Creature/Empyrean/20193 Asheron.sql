@@ -12,8 +12,8 @@ VALUES (20193,   1,         16) /* ItemType - Creature */
      , (20193,  25,        710) /* Level */
      , (20193,  27,          0) /* ArmorType */
      , (20193,  67,         64) /* Tolerance */
-     , (20193,  93,       1032) /* PhysicsState */
-     , (20193, 101,        131) /* AiAllowedCombatStyle */
+     , (20193,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
+     , (20193, 101,        131) /* AiAllowedCombatStyle - Unarmed, OneHanded, ThrownWeapon */
      , (20193, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (20193, 146,     131633) /* XpOverride */;
 

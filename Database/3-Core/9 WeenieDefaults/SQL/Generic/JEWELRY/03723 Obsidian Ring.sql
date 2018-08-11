@@ -10,7 +10,7 @@ VALUES (3723,   1,          8) /* ItemType - Jewelry */
      , (3723,  16,          1) /* ItemUseable - No */
      , (3723,  18,          1) /* UiEffects - Magical */
      , (3723,  19,       6000) /* Value */
-     , (3723,  93,       1044) /* PhysicsState */
+     , (3723,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (3723, 106,        210) /* ItemSpellcraft */
      , (3723, 107,        200) /* ItemCurMana */
      , (3723, 108,       1000) /* ItemMaxMana */

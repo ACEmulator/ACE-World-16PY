@@ -13,8 +13,8 @@ VALUES (27287,   1,         16) /* ItemType - Creature */
      , (27287,  27,          0) /* ArmorType */
      , (27287,  68,          3) /* TargetingTactic */
      , (27287,  72,         71) /* FriendType - Margul */
-     , (27287,  93,       1032) /* PhysicsState */
-     , (27287, 101,        183) /* AiAllowedCombatStyle */
+     , (27287,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
+     , (27287, 101,        183) /* AiAllowedCombatStyle - Unarmed, OneHanded, OneHandedAndShield, Bow, Crossbow, ThrownWeapon */
      , (27287, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (27287, 140,          1) /* AiOptions */
      , (27287, 146,      65822) /* XpOverride */;
@@ -77,7 +77,7 @@ VALUES (27287,   1,   33554433) /* Setup */
      , (27287,   7,  268435632) /* ClothingBase */
      , (27287,   8,  100670397) /* Icon */
      , (27287,  22,  872415331) /* PhysicsEffectTable */
-     , (27287,  35,        464) /* DeathTreasureType */;
+     , (27287,  35,        464) /* DeathTreasureType - Loot Tier: 5 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (27287,   1, 280, 0, 0) /* Strength */
@@ -178,9 +178,9 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,  18 /* DirectBroadcast */, 0, 1, NULL, 'Against your will, tears of sadness fill your eyes as the Pandemic Shadow Child collapses at your feet.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (27287, 9,     0,  0, 0, 0.985, False) /* Create Unknown for ContainTreasure */
-     , (27287, 9,     0,  0, 0, 0.99, False) /* Create Unknown for ContainTreasure */
-     , (27287, 9,     0,  0, 0, 0.97, False) /* Create Unknown for ContainTreasure */
-     , (27287, 9,  6058,  0, 0, 0.015, False) /* Create Dark Shard for ContainTreasure */
-     , (27287, 9, 24477,  0, 0, 0.01, False) /* Create Sturdy Steel Key for ContainTreasure */
-     , (27287, 9, 30823,  0, 0, 0.03, False) /* Create Broken Black Marrow Key for ContainTreasure */;
+VALUES (27287, 9,     0,  0, 0, 0.985, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 5 for ContainTreasure */
+     , (27287, 9,     0,  0, 0, 0.99, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 5 for ContainTreasure */
+     , (27287, 9,     0,  0, 0, 0.97, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 5 for ContainTreasure */
+     , (27287, 9,  6058,  0, 0, 0.015, False) /* Create Dark Shard (6058) for ContainTreasure */
+     , (27287, 9, 24477,  0, 0, 0.01, False) /* Create Sturdy Steel Key (24477) for ContainTreasure */
+     , (27287, 9, 30823,  0, 0, 0.03, False) /* Create Broken Black Marrow Key (30823) for ContainTreasure */;

@@ -12,8 +12,8 @@ VALUES (20633,   1,         16) /* ItemType - Creature */
      , (20633,  27,          0) /* ArmorType */
      , (20633,  40,          1) /* CombatMode - NonCombat */
      , (20633,  68,          3) /* TargetingTactic */
-     , (20633,  93,    4195336) /* PhysicsState */
-     , (20633, 101,        183) /* AiAllowedCombatStyle */
+     , (20633,  93,    4195336) /* PhysicsState - ReportCollisions, Gravity, EdgeSlide */
+     , (20633, 101,        183) /* AiAllowedCombatStyle - Unarmed, OneHanded, OneHandedAndShield, Bow, Crossbow, ThrownWeapon */
      , (20633, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (20633, 140,          1) /* AiOptions */
      , (20633, 146,      13319) /* XpOverride */;
@@ -73,8 +73,17 @@ VALUES (20633,   1,   33554839) /* Setup */
      , (20633,   7,  268435558) /* ClothingBase */
      , (20633,   8,  100667942) /* Icon */
      , (20633,  22,  872415272) /* PhysicsEffectTable */
-     , (20633,  32,        291) /* WieldedTreasureType */
-     , (20633,  35,        450) /* DeathTreasureType */;
+     , (20633,  32,        291) /* WieldedTreasureType - 
+                                   Wield 5x Frost Throwing Club (23663) | Probability: 40%
+                                   Wield 5x Throwing Club (23655) | Probability: 30%
+                                   Wield Yumi (23736) | Probability: 30%
+                                   Wield 18x Greater Arrow (5304) | Probability: 100%
+                                   Wield Frost Yari (23728) | Probability: 25%
+                                   Wield Yari (23732) | Probability: 25%
+                                   Wield Frost Spear (23694) | Probability: 15%
+                                   Wield Spear (23698) | Probability: 15%
+                                   Wield Tachi (23702) | Probability: 20% */
+     , (20633,  35,        450) /* DeathTreasureType - Loot Tier: 3 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (20633,   1, 160, 0, 0) /* Strength */
@@ -177,7 +186,7 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,  10 /* Tell */, 0, 1, NULL, 'These magics you use. They are not native. You do not have control of true Heiromancy. Feeble.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (20633, 9,     0,  0, 0, 0.98, False) /* Create Unknown for ContainTreasure */
-     , (20633, 9,     0,  0, 0, 0.97, False) /* Create Unknown for ContainTreasure */
-     , (20633, 9,  6876,  0, 0, 0.02, False) /* Create Sturdy Iron Key for ContainTreasure */
-     , (20633, 9,  7045,  0, 0, 0.03, False) /* Create Dark Revenant Thighbone for ContainTreasure */;
+VALUES (20633, 9,     0,  0, 0, 0.98, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 3 for ContainTreasure */
+     , (20633, 9,     0,  0, 0, 0.97, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 3 for ContainTreasure */
+     , (20633, 9,  6876,  0, 0, 0.02, False) /* Create Sturdy Iron Key (6876) for ContainTreasure */
+     , (20633, 9,  7045,  0, 0, 0.03, False) /* Create Dark Revenant Thighbone (7045) for ContainTreasure */;

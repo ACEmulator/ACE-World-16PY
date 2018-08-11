@@ -10,10 +10,10 @@ VALUES (411,   1,         16) /* ItemType - Creature */
      , (411,  16,         32) /* ItemUseable - Remote */
      , (411,  25,          3) /* Level */
      , (411,  27,          0) /* ArmorType */
-     , (411,  74,      18440) /* MerchandiseItemTypes */
+     , (411,  74,      18440) /* MerchandiseItemTypes - Jewelry, Gem, Key */
      , (411,  75,          0) /* MerchandiseMinValue */
      , (411,  76,     100000) /* MerchandiseMaxValue */
-     , (411,  93,    2098200) /* PhysicsState */
+     , (411,  93,    2098200) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */
      , (411, 126,        800) /* VendorHappyMean */
      , (411, 127,        500) /* VendorHappyVariance */
      , (411, 133,          4) /* ShowableOnRadar - ShowAlways */
@@ -162,17 +162,17 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 318767235 /* Nod */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (411, 2,   115,  0, 4, 0.8, False) /* Create Leather Boots for Wield */
-     , (411, 2,   127,  0, 8, 0.8, False) /* Create Pants for Wield */
-     , (411, 2,   130,  0, 8, 0.2, False) /* Create Shirt for Wield */
-     , (411, 2,   135,  0, 8, 0.75, False) /* Create Turban for Wield */
-     , (411, 4,   280, -1, 0, 0, False) /* Create Gem for Shop */
-     , (411, 4,   295, -1, 0, 0, False) /* Create Bracelet for Shop */
-     , (411, 4,   297, -1, 0, 0, False) /* Create Ring for Shop */
-     , (411, 4,   512, -1, 0, 0, False) /* Create Good Lockpick for Shop */
-     , (411, 4,   513, -1, 0, 0, False) /* Create Plain Lockpick for Shop */
-     , (411, 4,   514, -1, 0, 0, False) /* Create Excellent Lockpick for Shop */
-     , (411, 4,   515, -1, 0, 0, False) /* Create Superb Lockpick for Shop */
-     , (411, 4,   516, -1, 0, 0, False) /* Create Peerless Lockpick for Shop */
-     , (411, 4,   545, -1, 0, 0, False) /* Create Reliable Lockpick for Shop */
-     , (411, 2, 10696,  0, 9, 0.5, False) /* Create Apron for Wield */;
+VALUES (411, 2,   115,  0, 4, 0.8, False) /* Create Leather Boots (115) for Wield */
+     , (411, 2,   127,  0, 8, 0.8, False) /* Create Pants (127) for Wield */
+     , (411, 2,   130,  0, 8, 0.2, False) /* Create Shirt (130) for Wield */
+     , (411, 2,   135,  0, 8, 0.75, False) /* Create Turban (135) for Wield */
+     , (411, 4,   280, -1, 0, 0, False) /* Create Gem (280) for Shop */
+     , (411, 4,   295, -1, 0, 0, False) /* Create Bracelet (295) for Shop */
+     , (411, 4,   297, -1, 0, 0, False) /* Create Ring (297) for Shop */
+     , (411, 4,   512, -1, 0, 0, False) /* Create Good Lockpick (512) for Shop */
+     , (411, 4,   513, -1, 0, 0, False) /* Create Plain Lockpick (513) for Shop */
+     , (411, 4,   514, -1, 0, 0, False) /* Create Excellent Lockpick (514) for Shop */
+     , (411, 4,   515, -1, 0, 0, False) /* Create Superb Lockpick (515) for Shop */
+     , (411, 4,   516, -1, 0, 0, False) /* Create Peerless Lockpick (516) for Shop */
+     , (411, 4,   545, -1, 0, 0, False) /* Create Reliable Lockpick (545) for Shop */
+     , (411, 2, 10696,  0, 9, 0.5, False) /* Create Apron (10696) for Wield */;

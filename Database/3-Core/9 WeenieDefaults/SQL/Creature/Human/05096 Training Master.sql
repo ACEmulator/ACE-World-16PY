@@ -10,7 +10,7 @@ VALUES (5096,   1,         16) /* ItemType - Creature */
      , (5096,  16,         32) /* ItemUseable - Remote */
      , (5096,  25,         23) /* Level */
      , (5096,  27,          0) /* ArmorType */
-     , (5096,  93,    6292504) /* PhysicsState */
+     , (5096,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (5096,  95,          8) /* RadarBlipColor - Yellow */
      , (5096, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (5096, 134,         16) /* PlayerKillerStatus - RubberGlue */
@@ -229,6 +229,6 @@ VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 1090519043 /* Ready */, NULL, NU
      , (@parent_id,  3,  10 /* Tell */, 1, 1, NULL, 'If you have a Calling Stone, please give it to me by DRAGGING it from your inventory onto me.  Stand near me when you give me the Stone so that I can give you your reward.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (5096, 2,   130,  0, 2, 0.8, False) /* Create Shirt for Wield */
-     , (5096, 2,   132,  0, 4, 0.8, False) /* Create Shoes for Wield */
-     , (5096, 2,  2604,  0, 9, 1, False) /* Create Breeches for Wield */;
+VALUES (5096, 2,   130,  0, 2, 0.8, False) /* Create Shirt (130) for Wield */
+     , (5096, 2,   132,  0, 4, 0.8, False) /* Create Shoes (132) for Wield */
+     , (5096, 2,  2604,  0, 9, 1, False) /* Create Breeches (2604) for Wield */;

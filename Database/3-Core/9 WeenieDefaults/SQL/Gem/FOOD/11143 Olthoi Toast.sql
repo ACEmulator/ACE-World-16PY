@@ -14,7 +14,7 @@ VALUES (11143,   1,         32) /* ItemType - Food */
      , (11143,  16,          8) /* ItemUseable - Contained */
      , (11143,  18,          1) /* UiEffects - Magical */
      , (11143,  19,       8000) /* Value */
-     , (11143,  93,       1044) /* PhysicsState */
+     , (11143,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (11143, 106,        250) /* ItemSpellcraft */
      , (11143, 107,         50) /* ItemCurMana */
      , (11143, 108,         50) /* ItemMaxMana */

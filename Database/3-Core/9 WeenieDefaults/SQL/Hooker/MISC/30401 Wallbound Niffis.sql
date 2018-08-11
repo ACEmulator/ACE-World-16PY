@@ -10,7 +10,7 @@ VALUES (30401,   1,        128) /* ItemType - Misc */
      , (30401,  16,         32) /* ItemUseable - Remote */
      , (30401,  19,       2500) /* Value */
      , (30401,  33,          1) /* Bonded - Bonded */
-     , (30401,  93,       1044) /* PhysicsState */
+     , (30401,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (30401, 150,        103) /* HookPlacement - Hook */
      , (30401, 151,          2) /* HookType - Wall */
      , (30401, 197,         16) /* HookGroup */;

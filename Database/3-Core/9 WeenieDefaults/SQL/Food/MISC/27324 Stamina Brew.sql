@@ -16,9 +16,9 @@ VALUES (27324,   1,        128) /* ItemType - Misc */
      , (27324,  19,        300) /* Value */
      , (27324,  89,          4) /* BoosterEnum - Stamina */
      , (27324,  90,         85) /* BoostValue */
-     , (27324,  93,       1044) /* PhysicsState */
+     , (27324,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (27324, 150,        103) /* HookPlacement - Hook */
-     , (27324, 151,         11) /* HookType */;
+     , (27324, 151,         11) /* HookType - Floor, Wall, Yard */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (27324,   1, 'Stamina Brew') /* Name */

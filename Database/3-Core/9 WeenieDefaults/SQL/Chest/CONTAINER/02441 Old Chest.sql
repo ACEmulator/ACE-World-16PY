@@ -12,7 +12,7 @@ VALUES (2441,   1,        512) /* ItemType - Container */
      , (2441,  81,          1) /* MaxGeneratedObjects */
      , (2441,  82,          1) /* InitGeneratedObjects */
      , (2441,  83,          2) /* ActivationResponse - Use */
-     , (2441,  93,       1048) /* PhysicsState */
+     , (2441,  93,       1048) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity */
      , (2441,  96,        500) /* EncumbranceCapacity */
      , (2441, 100,          1) /* GeneratorType - Relative */;
 
@@ -44,4 +44,4 @@ VALUES (2441,   1,   33554556) /* Setup */
      , (2441,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (2441, 1, 273, 60, 1, 1, 2, 8, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0);
+VALUES (2441, 1, 273, 60, 1, 1, 2, 8, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Pyreal (273) (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: Contain */;

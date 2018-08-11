@@ -12,8 +12,8 @@ VALUES (20028,   1,         16) /* ItemType - Creature */
      , (20028,  40,          1) /* CombatMode - NonCombat */
      , (20028,  67,         64) /* Tolerance */
      , (20028,  68,         13) /* TargetingTactic */
-     , (20028,  93,       1032) /* PhysicsState */
-     , (20028, 101,        183) /* AiAllowedCombatStyle */
+     , (20028,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
+     , (20028, 101,        183) /* AiAllowedCombatStyle - Unarmed, OneHanded, OneHandedAndShield, Bow, Crossbow, ThrownWeapon */
      , (20028, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (20028, 134,         32) /* PlayerKillerStatus - Baelzharon */
      , (20028, 146,          0) /* XpOverride */;
@@ -178,4 +178,4 @@ INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
 VALUES (20028, 414) /* PLAYER_DEATH_EVENT */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (20028, 1,  8640,  1, 0, 1, False) /* Create Orb for Contain */;
+VALUES (20028, 1,  8640,  1, 0, 1, False) /* Create Orb (8640) for Contain */;

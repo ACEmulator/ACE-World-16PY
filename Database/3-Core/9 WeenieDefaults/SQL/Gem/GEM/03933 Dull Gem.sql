@@ -15,7 +15,7 @@ VALUES (3933,   1,       2048) /* ItemType - Gem */
      , (3933,  16,          8) /* ItemUseable - Contained */
      , (3933,  18,          1) /* UiEffects - Magical */
      , (3933,  19,        750) /* Value */
-     , (3933,  93,       1044) /* PhysicsState */
+     , (3933,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (3933, 106,        100) /* ItemSpellcraft */
      , (3933, 107,         30) /* ItemCurMana */
      , (3933, 108,         30) /* ItemMaxMana */

@@ -10,10 +10,10 @@ VALUES (26842,   1,         16) /* ItemType - Creature */
      , (26842,  16,         32) /* ItemUseable - Remote */
      , (26842,  25,         10) /* Level */
      , (26842,  27,          0) /* ArmorType */
-     , (26842,  74,     264192) /* MerchandiseItemTypes */
+     , (26842,  74,     264192) /* MerchandiseItemTypes - Gem, PromissoryNote */
      , (26842,  75,          0) /* MerchandiseMinValue */
      , (26842,  76,    1000000) /* MerchandiseMaxValue */
-     , (26842,  93,    2098204) /* PhysicsState */
+     , (26842,  93,    2098204) /* PhysicsState - Ethereal, ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */
      , (26842, 126,        125) /* VendorHappyMean */
      , (26842, 127,        125) /* VendorHappyVariance */
      , (26842, 133,          4) /* ShowableOnRadar - ShowAlways */
@@ -97,4 +97,4 @@ VALUES (26842,  0,  4,  0,    0,    0,    0,    0,    0,    0,    0,    0,    0,
      , (26842,  8,  4,  2, 0.75,    0,    0,    0,    0,    0,    0,    0,    0,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (26842, 4, 26207, -1, 0, 0, False) /* Create Iceea Hills Estates Portal Gem for Shop */;
+VALUES (26842, 4, 26207, -1, 0, 0, False) /* Create Iceea Hills Estates Portal Gem (26207) for Shop */;

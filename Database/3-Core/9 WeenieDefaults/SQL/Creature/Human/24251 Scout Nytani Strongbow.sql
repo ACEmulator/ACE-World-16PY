@@ -10,7 +10,7 @@ VALUES (24251,   1,         16) /* ItemType - Creature */
      , (24251,  16,         32) /* ItemUseable - Remote */
      , (24251,  25,         15) /* Level */
      , (24251,  27,          0) /* ArmorType */
-     , (24251,  93,    6292504) /* PhysicsState */
+     , (24251,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (24251,  95,          8) /* RadarBlipColor - Yellow */
      , (24251, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (24251, 134,         16) /* PlayerKillerStatus - RubberGlue */
@@ -133,11 +133,11 @@ VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 1090519043 /* Ready */, NULL, NU
      , (@parent_id,  2,  10 /* Tell */, 1, 1, NULL, 'It is fortunate you have arrived. Without help these valiant fighters might be slaughtered after having held out for so many years.  The Olthoi seem to be on the move!', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (24251, 2,    55,  0, 19, 1, False) /* Create Chainmail Gauntlets for Wield */
-     , (24251, 2,    85,  0, 14, 0.2, False) /* Create Chainmail Coif for Wield */
-     , (24251, 2,   107,  0, 39, 1, False) /* Create Sollerets for Wield */
-     , (24251, 2,   117,  0, 17, 1, False) /* Create Breeches for Wield */
-     , (24251, 2,   306,  0, 0, 0, False) /* Create Longbow for Wield */
-     , (24251, 2,  2591,  0, 9, 1, False) /* Create Shirt for Wield */
-     , (24251, 2,  6045,  0, 39, 0.5, False) /* Create Celdon Leggings for Wield */
-     , (24251, 2,  6046,  0, 39, 1, False) /* Create Amuli Coat for Wield */;
+VALUES (24251, 2,    55,  0, 19, 1, False) /* Create Chainmail Gauntlets (55) for Wield */
+     , (24251, 2,    85,  0, 14, 0.2, False) /* Create Chainmail Coif (85) for Wield */
+     , (24251, 2,   107,  0, 39, 1, False) /* Create Sollerets (107) for Wield */
+     , (24251, 2,   117,  0, 17, 1, False) /* Create Breeches (117) for Wield */
+     , (24251, 2,   306,  0, 0, 0, False) /* Create Longbow (306) for Wield */
+     , (24251, 2,  2591,  0, 9, 1, False) /* Create Shirt (2591) for Wield */
+     , (24251, 2,  6045,  0, 39, 0.5, False) /* Create Celdon Leggings (6045) for Wield */
+     , (24251, 2,  6046,  0, 39, 1, False) /* Create Amuli Coat (6046) for Wield */;

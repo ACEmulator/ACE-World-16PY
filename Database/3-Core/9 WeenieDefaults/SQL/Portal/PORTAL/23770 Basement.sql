@@ -4,8 +4,8 @@ VALUES ('23770', 'portalulgrimsdungeon', 7) /* Portal */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (23770,   1,      65536) /* ItemType - Portal */
      , (23770,  16,         32) /* ItemUseable - Remote */
-     , (23770,  93,       3084) /* PhysicsState */
-     , (23770, 111,         49) /* PortalBitmask */
+     , (23770,  93,       3084) /* PhysicsState - Ethereal, ReportCollisions, Gravity, LightingOn */
+     , (23770, 111,         49) /* PortalBitmask - Unrestricted, NoSummon, NoRecall */
      , (23770, 133,          4) /* ShowableOnRadar - ShowAlways */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)

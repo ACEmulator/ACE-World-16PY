@@ -10,10 +10,10 @@ VALUES (27012,   1,         16) /* ItemType - Creature */
      , (27012,  16,         32) /* ItemUseable - Remote */
      , (27012,  25,         10) /* Level */
      , (27012,  27,          0) /* ArmorType */
-     , (27012,  74,     264192) /* MerchandiseItemTypes */
+     , (27012,  74,     264192) /* MerchandiseItemTypes - Gem, PromissoryNote */
      , (27012,  75,          0) /* MerchandiseMinValue */
      , (27012,  76,    1000000) /* MerchandiseMaxValue */
-     , (27012,  93,    2098204) /* PhysicsState */
+     , (27012,  93,    2098204) /* PhysicsState - Ethereal, ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */
      , (27012, 126,        125) /* VendorHappyMean */
      , (27012, 127,        125) /* VendorHappyVariance */
      , (27012, 133,          4) /* ShowableOnRadar - ShowAlways */
@@ -97,4 +97,4 @@ VALUES (27012,  0,  4,  0,    0,    0,    0,    0,    0,    0,    0,    0,    0,
      , (27012,  8,  4,  2, 0.75,    0,    0,    0,    0,    0,    0,    0,    0,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (27012, 4, 26377, -1, 0, 0, False) /* Create South Hebian-To Cottages Portal Gem for Shop */;
+VALUES (27012, 4, 26377, -1, 0, 0, False) /* Create South Hebian-To Cottages Portal Gem (26377) for Shop */;

@@ -11,7 +11,7 @@ VALUES (12263,   1,         16) /* ItemType - Creature */
      , (12263,  25,        126) /* Level */
      , (12263,  27,          0) /* ArmorType */
      , (12263,  68,          3) /* TargetingTactic */
-     , (12263,  93,       1032) /* PhysicsState */
+     , (12263,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (12263, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (12263, 140,          1) /* AiOptions */
      , (12263, 146,      14000) /* XpOverride */;
@@ -69,7 +69,7 @@ VALUES (12263,   1,   33554497) /* Setup */
      , (12263,   7,  268436278) /* ClothingBase */
      , (12263,   8,  100667943) /* Icon */
      , (12263,  22,  872415273) /* PhysicsEffectTable */
-     , (12263,  35,        243) /* DeathTreasureType */;
+     , (12263,  35,        243) /* DeathTreasureType - Loot Tier: 4 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (12263,   1,  40, 0, 0) /* Strength */
@@ -214,4 +214,4 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,  10 /* Tell */, 0, 1, NULL, 'You have come to stop the construction of the New Singularity, human?  Come and meet oblivion...', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (12263, 8, 12269,  1, 0, 0, False) /* Create Shroud of Levistras for Treasure */;
+VALUES (12263, 8, 12269,  1, 0, 0, False) /* Create Shroud of Levistras (12269) for Treasure */;

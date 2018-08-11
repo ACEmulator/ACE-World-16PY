@@ -12,7 +12,7 @@ VALUES (10947,   1,         16) /* ItemType - Creature */
      , (10947,  40,          2) /* CombatMode - Melee */
      , (10947,  68,          3) /* TargetingTactic */
      , (10947,  72,         58) /* FriendType - HeaTumerok */
-     , (10947,  93,       1032) /* PhysicsState */
+     , (10947,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (10947, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (10947, 146,      20297) /* XpOverride */;
 
@@ -68,7 +68,7 @@ VALUES (10947,   1,   33554489) /* Setup */
      , (10947,   7,  268435556) /* ClothingBase */
      , (10947,   8,  100667939) /* Icon */
      , (10947,  22,  872415268) /* PhysicsEffectTable */
-     , (10947,  35,        456) /* DeathTreasureType */;
+     , (10947,  35,        456) /* DeathTreasureType - Loot Tier: 3 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (10947,   1, 300, 0, 0) /* Strength */
@@ -211,5 +211,5 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,  17 /* LocalBroadcast */, 0, 0, NULL, 'Tuperea whistles for Sahkurea to heel.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (10947, 9, 10973,  0, 0, 1, False) /* Create Sahkurea's Collar for ContainTreasure */
-     , (10947, 9, 10977,  0, 0, 1, False) /* Create Virindi Implant for ContainTreasure */;
+VALUES (10947, 9, 10973,  0, 0, 1, False) /* Create Sahkurea's Collar (10973) for ContainTreasure */
+     , (10947, 9, 10977,  0, 0, 1, False) /* Create Virindi Implant (10977) for ContainTreasure */;

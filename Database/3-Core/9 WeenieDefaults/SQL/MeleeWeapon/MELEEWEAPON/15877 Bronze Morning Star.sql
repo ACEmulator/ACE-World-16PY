@@ -18,7 +18,7 @@ VALUES (15877,   1,          1) /* ItemType - MeleeWeapon */
      , (15877,  48,          5) /* WeaponSkill - Mace */
      , (15877,  49,          5) /* WeaponTime */
      , (15877,  51,          1) /* CombatUse - Melee */
-     , (15877,  93,       1044) /* PhysicsState */
+     , (15877,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (15877, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)

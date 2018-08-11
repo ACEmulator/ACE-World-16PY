@@ -12,8 +12,8 @@ VALUES (8823,   1,         16) /* ItemType - Creature */
      , (8823,  25,        153) /* Level */
      , (8823,  27,          0) /* ArmorType */
      , (8823,  68,          3) /* TargetingTactic */
-     , (8823,  93,       1032) /* PhysicsState */
-     , (8823, 101,        183) /* AiAllowedCombatStyle */
+     , (8823,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
+     , (8823, 101,        183) /* AiAllowedCombatStyle - Unarmed, OneHanded, OneHandedAndShield, Bow, Crossbow, ThrownWeapon */
      , (8823, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (8823, 140,          1) /* AiOptions */
      , (8823, 146,      24000) /* XpOverride */;
@@ -75,7 +75,7 @@ VALUES (8823,   1,   33556251) /* Setup */
      , (8823,   7,  268435871) /* ClothingBase */
      , (8823,   8,  100670398) /* Icon */
      , (8823,  22,  872415331) /* PhysicsEffectTable */
-     , (8823,  35,        183) /* DeathTreasureType */;
+     , (8823,  35,        183) /* DeathTreasureType - Loot Tier: 5 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (8823,   1, 200, 0, 0) /* Strength */
@@ -198,7 +198,7 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,  17 /* LocalBroadcast */, 0, 0, NULL, 'A shrieking, squealing noise fills your mind, pulsating with hatred. For a moment, you are overwhelmed by the impression of corruption and putrescence. It fades quickly, leaving you nauseous and shaken.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (8823, 9,     0,  0, 0, 0.98, False) /* Create Unknown for ContainTreasure */
-     , (8823, 9,     0,  0, 0, 0.98, False) /* Create Unknown for ContainTreasure */
-     , (8823, 9,  6058,  0, 0, 0.02, False) /* Create Dark Shard for ContainTreasure */
-     , (8823, 9,  6876,  0, 0, 0.02, False) /* Create Sturdy Iron Key for ContainTreasure */;
+VALUES (8823, 9,     0,  0, 0, 0.98, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 5 for ContainTreasure */
+     , (8823, 9,     0,  0, 0, 0.98, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 5 for ContainTreasure */
+     , (8823, 9,  6058,  0, 0, 0.02, False) /* Create Dark Shard (6058) for ContainTreasure */
+     , (8823, 9,  6876,  0, 0, 0.02, False) /* Create Sturdy Iron Key (6876) for ContainTreasure */;

@@ -11,7 +11,7 @@ VALUES (26459,   1,         16) /* ItemType - Creature */
      , (26459,  16,         32) /* ItemUseable - Remote */
      , (26459,  25,         50) /* Level */
      , (26459,  27,          0) /* ArmorType */
-     , (26459,  93,    6292504) /* PhysicsState */
+     , (26459,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (26459,  95,          8) /* RadarBlipColor - Yellow */
      , (26459, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (26459, 134,         16) /* PlayerKillerStatus - RubberGlue */
@@ -287,7 +287,7 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,  10 /* Tell */, 0, 1, NULL, 'You shouldn''t never not remove those labels from mattresses. I don''t... wait, yes I do.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (26459, 2,   161,  0, 0, 0, False) /* Create Mug for Wield */
-     , (26459, 2,  2588,  0, 9, 1, False) /* Create Shirt for Wield */
-     , (26459, 2,  2597,  0, 9, 1, False) /* Create Pants for Wield */
-     , (26459, 2,  5850,  0, 4, 0.5, False) /* Create Faran Robe for Wield */;
+VALUES (26459, 2,   161,  0, 0, 0, False) /* Create Mug (161) for Wield */
+     , (26459, 2,  2588,  0, 9, 1, False) /* Create Shirt (2588) for Wield */
+     , (26459, 2,  2597,  0, 9, 1, False) /* Create Pants (2597) for Wield */
+     , (26459, 2,  5850,  0, 4, 0.5, False) /* Create Faran Robe (5850) for Wield */;

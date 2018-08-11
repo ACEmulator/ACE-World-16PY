@@ -11,8 +11,8 @@ VALUES (5656,   1,         16) /* ItemType - Creature */
      , (5656,  27,          0) /* ArmorType */
      , (5656,  40,          1) /* CombatMode - NonCombat */
      , (5656,  68,          5) /* TargetingTactic */
-     , (5656,  93,       1032) /* PhysicsState */
-     , (5656, 101,        183) /* AiAllowedCombatStyle */
+     , (5656,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
+     , (5656, 101,        183) /* AiAllowedCombatStyle - Unarmed, OneHanded, OneHandedAndShield, Bow, Crossbow, ThrownWeapon */
      , (5656, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (5656, 140,          1) /* AiOptions */
      , (5656, 146,       7721) /* XpOverride */;
@@ -66,7 +66,7 @@ VALUES (5656,   1,   33555464) /* Setup */
      , (5656,   4,  805306368) /* CombatTable */
      , (5656,   8,  100669124) /* Icon */
      , (5656,  22,  872415269) /* PhysicsEffectTable */
-     , (5656,  35,         22) /* DeathTreasureType */;
+     , (5656,  35,         22) /* DeathTreasureType - Loot Tier: 2 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (5656,   1, 160, 0, 0) /* Strength */
@@ -132,10 +132,10 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 1090519060 /* Sleeping */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (5656, 9,     0,  0, 0, 0.9, False) /* Create Unknown for ContainTreasure */
-     , (5656, 9,     0,  0, 0, 0, False) /* Create Unknown for ContainTreasure */
-     , (5656, 9,     0,  0, 0, 0, False) /* Create Unknown for ContainTreasure */
-     , (5656, 9,  3687,  0, 0, 0.1, False) /* Create Skeleton's Skull for ContainTreasure */
-     , (5656, 9,  5654,  0, 0, 1, False) /* Create Cursed Key for ContainTreasure */
-     , (5656, 9,  5655,  0, 0, 1, False) /* Create Black Gem for ContainTreasure */
-     , (5656, 10, 23708,  0, 0, 0.9, False) /* Create Fire Tachi for WieldTreasure */;
+VALUES (5656, 9,     0,  0, 0, 0.9, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 2 for ContainTreasure */
+     , (5656, 9,     0,  0, 0, 0, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 2 for ContainTreasure */
+     , (5656, 9,     0,  0, 0, 0, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 2 for ContainTreasure */
+     , (5656, 9,  3687,  0, 0, 0.1, False) /* Create Skeleton's Skull (3687) for ContainTreasure */
+     , (5656, 9,  5654,  0, 0, 1, False) /* Create Cursed Key (5654) for ContainTreasure */
+     , (5656, 9,  5655,  0, 0, 1, False) /* Create Black Gem (5655) for ContainTreasure */
+     , (5656, 10, 23708,  0, 0, 0.9, False) /* Create Fire Tachi (23708) for WieldTreasure */;

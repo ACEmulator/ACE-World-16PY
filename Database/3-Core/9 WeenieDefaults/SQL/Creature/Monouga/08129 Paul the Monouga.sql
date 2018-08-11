@@ -11,9 +11,9 @@ VALUES (8129,   1,         16) /* ItemType - Creature */
      , (8129,  25,       1334) /* Level */
      , (8129,  27,          0) /* ArmorType */
      , (8129,  40,          2) /* CombatMode - Melee */
-     , (8129,  93,    2098184) /* PhysicsState */
+     , (8129,  93,    2098184) /* PhysicsState - ReportCollisions, Gravity, ReportCollisionsAsEnvironment */
      , (8129,  95,          8) /* RadarBlipColor - Yellow */
-     , (8129, 101,        131) /* AiAllowedCombatStyle */
+     , (8129, 101,        131) /* AiAllowedCombatStyle - Unarmed, OneHanded, ThrownWeapon */
      , (8129, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (8129, 134,         16) /* PlayerKillerStatus - RubberGlue */
      , (8129, 146,          0) /* XpOverride */;
@@ -71,7 +71,7 @@ VALUES (8129,   1,   33555199) /* Setup */
      , (8129,   7,  268435726) /* ClothingBase */
      , (8129,   8,  100669117) /* Icon */
      , (8129,  22,  872415334) /* PhysicsEffectTable */
-     , (8129,  35,        116) /* DeathTreasureType */;
+     , (8129,  35,        116) /* DeathTreasureType - Loot Tier: 3 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (8129,   1, 1500, 0, 0) /* Strength */
@@ -118,4 +118,4 @@ VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 268435540 /* Twitch4 */, NULL, N
      , (@parent_id,  1,   5 /* Motion */, 1, 1, 1090519043 /* Ready */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (8129, 2,  8130,  0, 0, 0, False) /* Create Giant Monouga Axe for Wield */;
+VALUES (8129, 2,  8130,  0, 0, 0, False) /* Create Giant Monouga Axe (8130) for Wield */;

@@ -10,10 +10,10 @@ VALUES (26901,   1,         16) /* ItemType - Creature */
      , (26901,  16,         32) /* ItemUseable - Remote */
      , (26901,  25,         10) /* Level */
      , (26901,  27,          0) /* ArmorType */
-     , (26901,  74,     264192) /* MerchandiseItemTypes */
+     , (26901,  74,     264192) /* MerchandiseItemTypes - Gem, PromissoryNote */
      , (26901,  75,          0) /* MerchandiseMinValue */
      , (26901,  76,    1000000) /* MerchandiseMaxValue */
-     , (26901,  93,    2098204) /* PhysicsState */
+     , (26901,  93,    2098204) /* PhysicsState - Ethereal, ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */
      , (26901, 126,        125) /* VendorHappyMean */
      , (26901, 127,        125) /* VendorHappyVariance */
      , (26901, 133,          4) /* ShowableOnRadar - ShowAlways */
@@ -97,4 +97,4 @@ VALUES (26901,  0,  4,  0,    0,    0,    0,    0,    0,    0,    0,    0,    0,
      , (26901,  8,  4,  2, 0.75,    0,    0,    0,    0,    0,    0,    0,    0,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (26901, 4, 26266, -1, 0, 0, False) /* Create Midhill Cottages Portal Gem for Shop */;
+VALUES (26901, 4, 26266, -1, 0, 0, False) /* Create Midhill Cottages Portal Gem (26266) for Shop */;

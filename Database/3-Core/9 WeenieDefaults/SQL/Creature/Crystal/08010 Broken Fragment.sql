@@ -13,7 +13,7 @@ VALUES (8010,   1,         16) /* ItemType - Creature */
      , (8010,  40,          2) /* CombatMode - Melee */
      , (8010,  68,          5) /* TargetingTactic */
      , (8010,  69,          4) /* CombatTactic */
-     , (8010,  93,       3080) /* PhysicsState */
+     , (8010,  93,       3080) /* PhysicsState - ReportCollisions, Gravity, LightingOn */
      , (8010, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (8010, 146,       1594) /* XpOverride */;
 
@@ -73,7 +73,7 @@ VALUES (8010,   1,   33556731) /* Setup */
      , (8010,   7,  268435859) /* ClothingBase */
      , (8010,   8,  100670394) /* Icon */
      , (8010,  22,  872415348) /* PhysicsEffectTable */
-     , (8010,  35,        465) /* DeathTreasureType */;
+     , (8010,  35,        465) /* DeathTreasureType - Loot Tier: 1 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (8010,   1,  40, 0, 0) /* Strength */
@@ -129,7 +129,7 @@ VALUES (8010,  94) /* ATTACK_NOTIFICATION_EVENT */
      , (8010, 414) /* PLAYER_DEATH_EVENT */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (8010, 9,     0,  0, 0, 0.98, False) /* Create Unknown for ContainTreasure */
-     , (8010, 9,     0,  0, 0, 0.98, False) /* Create Unknown for ContainTreasure */
-     , (8010, 9,  6055,  0, 0, 0.02, False) /* Create Cracked Shard for ContainTreasure */
-     , (8010, 9, 20860,  0, 0, 0.02, False) /* Create Herald Stamp for ContainTreasure */;
+VALUES (8010, 9,     0,  0, 0, 0.98, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 1 for ContainTreasure */
+     , (8010, 9,     0,  0, 0, 0.98, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 1 for ContainTreasure */
+     , (8010, 9,  6055,  0, 0, 0.02, False) /* Create Cracked Shard (6055) for ContainTreasure */
+     , (8010, 9, 20860,  0, 0, 0.02, False) /* Create Herald Stamp (20860) for ContainTreasure */;

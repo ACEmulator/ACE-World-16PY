@@ -4,8 +4,8 @@ VALUES ('22755', 'portaltempleenlightenment', 7) /* Portal */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (22755,   1,      65536) /* ItemType - Portal */
      , (22755,  16,         32) /* ItemUseable - Remote */
-     , (22755,  93,       3084) /* PhysicsState */
-     , (22755, 111,         49) /* PortalBitmask */
+     , (22755,  93,       3084) /* PhysicsState - Ethereal, ReportCollisions, Gravity, LightingOn */
+     , (22755, 111,         49) /* PortalBitmask - Unrestricted, NoSummon, NoRecall */
      , (22755, 133,          4) /* ShowableOnRadar - ShowAlways */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)

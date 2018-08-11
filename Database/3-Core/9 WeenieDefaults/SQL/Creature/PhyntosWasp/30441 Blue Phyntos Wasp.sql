@@ -11,7 +11,7 @@ VALUES (30441,   1,         16) /* ItemType - Creature */
      , (30441,  25,          9) /* Level */
      , (30441,  40,          2) /* CombatMode - Melee */
      , (30441,  68,         13) /* TargetingTactic */
-     , (30441,  93,    4195336) /* PhysicsState */
+     , (30441,  93,    4195336) /* PhysicsState - ReportCollisions, Gravity, EdgeSlide */
      , (30441, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (30441, 146,        455) /* XpOverride */;
 
@@ -70,7 +70,7 @@ VALUES (30441,   1,   33558817) /* Setup */
      , (30441,   7,  268436836) /* ClothingBase */
      , (30441,   8,  100667450) /* Icon */
      , (30441,  22,  872415266) /* PhysicsEffectTable */
-     , (30441,  35,        465) /* DeathTreasureType */;
+     , (30441,  35,        465) /* DeathTreasureType - Loot Tier: 1 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (30441,   1,  25, 0, 0) /* Strength */
@@ -110,7 +110,7 @@ INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
 VALUES (30441, 414) /* PLAYER_DEATH_EVENT */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (30441, 9,     0,  0, 0, 0.85, False) /* Create Unknown for ContainTreasure */
-     , (30441, 9,     0,  0, 0, 0.97, False) /* Create Unknown for ContainTreasure */
-     , (30441, 9,  3699,  0, 0, 0.15, False) /* Create Blue Phyntos Wasp Wing for ContainTreasure */
-     , (30441, 9,  8701,  0, 0, 0.03, False) /* Create Lucky Gold Letter for ContainTreasure */;
+VALUES (30441, 9,     0,  0, 0, 0.85, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 1 for ContainTreasure */
+     , (30441, 9,     0,  0, 0, 0.97, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 1 for ContainTreasure */
+     , (30441, 9,  3699,  0, 0, 0.15, False) /* Create Blue Phyntos Wasp Wing (3699) for ContainTreasure */
+     , (30441, 9,  8701,  0, 0, 0.03, False) /* Create Lucky Gold Letter (8701) for ContainTreasure */;

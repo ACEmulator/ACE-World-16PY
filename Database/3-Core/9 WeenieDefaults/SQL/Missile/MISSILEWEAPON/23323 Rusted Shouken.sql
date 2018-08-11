@@ -20,7 +20,7 @@ VALUES (23323,   1,        256) /* ItemType - MissileWeapon */
      , (23323,  49,         10) /* WeaponTime */
      , (23323,  51,          2) /* CombatUse - Missle */
      , (23323,  92,        100) /* Structure */
-     , (23323,  93,     132116) /* PhysicsState */
+     , (23323,  93,     132116) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, Inelastic */
      , (23323, 105,          3) /* ItemWorkmanship */
      , (23323, 131,         57) /* MaterialType - Brass */
      , (23323, 150,        103) /* HookPlacement - Hook */

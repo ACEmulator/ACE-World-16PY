@@ -10,8 +10,8 @@ VALUES (14879,   1,         16) /* ItemType - Creature */
      , (14879,  25,        125) /* Level */
      , (14879,  27,          0) /* ArmorType */
      , (14879,  68,          5) /* TargetingTactic */
-     , (14879,  93,       3080) /* PhysicsState */
-     , (14879, 101,        183) /* AiAllowedCombatStyle */
+     , (14879,  93,       3080) /* PhysicsState - ReportCollisions, Gravity, LightingOn */
+     , (14879, 101,        183) /* AiAllowedCombatStyle - Unarmed, OneHanded, OneHandedAndShield, Bow, Crossbow, ThrownWeapon */
      , (14879, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (14879, 140,          1) /* AiOptions */
      , (14879, 146,      66258) /* XpOverride */;
@@ -67,7 +67,7 @@ VALUES (14879,   1,   33557589) /* Setup */
      , (14879,   4,  805306368) /* CombatTable */
      , (14879,   8,  100670274) /* Icon */
      , (14879,  22,  872415349) /* PhysicsEffectTable */
-     , (14879,  35,        464) /* DeathTreasureType */;
+     , (14879,  35,        464) /* DeathTreasureType - Loot Tier: 5 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (14879,   1, 340, 0, 0) /* Strength */
@@ -128,7 +128,7 @@ VALUES (14879,  94) /* ATTACK_NOTIFICATION_EVENT */
      , (14879, 414) /* PLAYER_DEATH_EVENT */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (14879, 9,     0,  0, 0, 0.96, False) /* Create Unknown for ContainTreasure */
-     , (14879, 9,  6876,  0, 0, 0.04, False) /* Create Sturdy Iron Key for ContainTreasure */
-     , (14879, 2,  7799,  3, 0, 0, False) /* Create Ball of plasma for Wield */
-     , (14879, 9, 14882,  0, 0, 1, False) /* Create Ring of a Singularity Key for ContainTreasure */;
+VALUES (14879, 9,     0,  0, 0, 0.96, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 5 for ContainTreasure */
+     , (14879, 9,  6876,  0, 0, 0.04, False) /* Create Sturdy Iron Key (6876) for ContainTreasure */
+     , (14879, 2,  7799,  3, 0, 0, False) /* Create Ball of plasma (7799) for Wield */
+     , (14879, 9, 14882,  0, 0, 1, False) /* Create Ring of a Singularity Key (14882) for ContainTreasure */;

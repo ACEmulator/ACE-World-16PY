@@ -3,7 +3,7 @@ VALUES ('4582', 'channel-yaraq', 36) /* Channel */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (4582,   3,         61) /* PaletteTemplate - White */
-     , (4582,  93,       1044) /* PhysicsState */;
+     , (4582,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (4582,   1, True ) /* Stuck */

@@ -11,8 +11,8 @@ VALUES (24661,   1,         16) /* ItemType - Creature */
      , (24661,  25,        185) /* Level */
      , (24661,  27,          0) /* ArmorType */
      , (24661,  68,          5) /* TargetingTactic */
-     , (24661,  93,       1032) /* PhysicsState */
-     , (24661, 101,        183) /* AiAllowedCombatStyle */
+     , (24661,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
+     , (24661, 101,        183) /* AiAllowedCombatStyle - Unarmed, OneHanded, OneHandedAndShield, Bow, Crossbow, ThrownWeapon */
      , (24661, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (24661, 140,          1) /* AiOptions */
      , (24661, 146,     606525) /* XpOverride */;
@@ -71,7 +71,7 @@ VALUES (24661,   1,   33554496) /* Setup */
      , (24661,   7,  268436645) /* ClothingBase */
      , (24661,   8,  100667452) /* Icon */
      , (24661,  22,  872415270) /* PhysicsEffectTable */
-     , (24661,  35,        146) /* DeathTreasureType */;
+     , (24661,  35,        146) /* DeathTreasureType - Loot Tier: 5 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (24661,   1, 330, 0, 0) /* Strength */
@@ -190,15 +190,15 @@ VALUES (24661,  94) /* ATTACK_NOTIFICATION_EVENT */
      , (24661, 414) /* PLAYER_DEATH_EVENT */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (24661, 9,     0,  0, 0, 0.95, False) /* Create Unknown for ContainTreasure */
-     , (24661, 9,     0,  0, 0, 0.95, False) /* Create Unknown for ContainTreasure */
-     , (24661, 9,     0,  0, 0, 0.95, False) /* Create Unknown for ContainTreasure */
-     , (24661, 9,     0,  0, 0, 0.1, False) /* Create Unknown for ContainTreasure */
-     , (24661, 9,     0,  0, 0, 0, False) /* Create Unknown for ContainTreasure */
-     , (24661, 9,     0,  0, 0, 0, False) /* Create Unknown for ContainTreasure */
-     , (24661, 9, 24477,  0, 0, 0.05, False) /* Create Sturdy Steel Key for ContainTreasure */
-     , (24661, 9, 24477,  0, 0, 0.05, False) /* Create Sturdy Steel Key for ContainTreasure */
-     , (24661, 9, 24477,  0, 0, 0.05, False) /* Create Sturdy Steel Key for ContainTreasure */
-     , (24661, 9, 24556,  0, 0, 1, False) /* Create Tumerok Hunting Brace for ContainTreasure */
-     , (24661, 9, 24559,  0, 0, 0.9, False) /* Create Renegade Crossbow for ContainTreasure */
-     , (24661, 9, 24559,  0, 0, 1, False) /* Create Renegade Crossbow for ContainTreasure */;
+VALUES (24661, 9,     0,  0, 0, 0.95, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 5 for ContainTreasure */
+     , (24661, 9,     0,  0, 0, 0.95, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 5 for ContainTreasure */
+     , (24661, 9,     0,  0, 0, 0.95, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 5 for ContainTreasure */
+     , (24661, 9,     0,  0, 0, 0.1, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 5 for ContainTreasure */
+     , (24661, 9,     0,  0, 0, 0, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 5 for ContainTreasure */
+     , (24661, 9,     0,  0, 0, 0, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 5 for ContainTreasure */
+     , (24661, 9, 24477,  0, 0, 0.05, False) /* Create Sturdy Steel Key (24477) for ContainTreasure */
+     , (24661, 9, 24477,  0, 0, 0.05, False) /* Create Sturdy Steel Key (24477) for ContainTreasure */
+     , (24661, 9, 24477,  0, 0, 0.05, False) /* Create Sturdy Steel Key (24477) for ContainTreasure */
+     , (24661, 9, 24556,  0, 0, 1, False) /* Create Tumerok Hunting Brace (24556) for ContainTreasure */
+     , (24661, 9, 24559,  0, 0, 0.9, False) /* Create Renegade Crossbow (24559) for ContainTreasure */
+     , (24661, 9, 24559,  0, 0, 1, False) /* Create Renegade Crossbow (24559) for ContainTreasure */;

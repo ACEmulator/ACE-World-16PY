@@ -10,10 +10,10 @@ VALUES (26915,   1,         16) /* ItemType - Creature */
      , (26915,  16,         32) /* ItemUseable - Remote */
      , (26915,  25,         10) /* Level */
      , (26915,  27,          0) /* ArmorType */
-     , (26915,  74,     264192) /* MerchandiseItemTypes */
+     , (26915,  74,     264192) /* MerchandiseItemTypes - Gem, PromissoryNote */
      , (26915,  75,          0) /* MerchandiseMinValue */
      , (26915,  76,    1000000) /* MerchandiseMaxValue */
-     , (26915,  93,    2098204) /* PhysicsState */
+     , (26915,  93,    2098204) /* PhysicsState - Ethereal, ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */
      , (26915, 126,        125) /* VendorHappyMean */
      , (26915, 127,        125) /* VendorHappyVariance */
      , (26915, 133,          4) /* ShowableOnRadar - ShowAlways */
@@ -97,4 +97,4 @@ VALUES (26915,  0,  4,  0,    0,    0,    0,    0,    0,    0,    0,    0,    0,
      , (26915,  8,  4,  2, 0.75,    0,    0,    0,    0,    0,    0,    0,    0,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (26915, 4, 26280, -1, 0, 0, False) /* Create Nal Wadi Cottages Portal Gem for Shop */;
+VALUES (26915, 4, 26280, -1, 0, 0, False) /* Create Nal Wadi Cottages Portal Gem (26280) for Shop */;

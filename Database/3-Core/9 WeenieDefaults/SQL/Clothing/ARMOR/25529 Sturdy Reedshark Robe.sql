@@ -4,7 +4,7 @@ VALUES ('25529', 'robereedsharkslasher', 2) /* Clothing */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (25529,   1,          2) /* ItemType - Armor */
      , (25529,   3,         14) /* PaletteTemplate - Red */
-     , (25529,   4,      81664) /* ClothingPriority */
+     , (25529,   4,      81664) /* ClothingPriority - OuterwearUpperLegs, OuterwearLowerLegs, OuterwearChest, OuterwearAbdomen, OuterwearUpperArms, OuterwearLowerArms, Feet */
      , (25529,   5,        550) /* EncumbranceVal */
      , (25529,   8,        340) /* Mass */
      , (25529,   9,      32512) /* ValidLocations - Armor */
@@ -12,7 +12,7 @@ VALUES (25529,   1,          2) /* ItemType - Armor */
      , (25529,  19,       5500) /* Value */
      , (25529,  27,          1) /* ArmorType */
      , (25529,  28,        150) /* ArmorLevel */
-     , (25529,  93,       1044) /* PhysicsState */
+     , (25529,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (25529, 150,        103) /* HookPlacement - Hook */
      , (25529, 151,          2) /* HookType - Wall */
      , (25529, 158,          7) /* WieldRequirements - Level */

@@ -14,7 +14,7 @@ VALUES (2397,   1,       2048) /* ItemType - Gem */
      , (2397,  15,        100) /* StackUnitValue */
      , (2397,  16,          1) /* ItemUseable - No */
      , (2397,  19,        100) /* Value */
-     , (2397,  93,       1044) /* PhysicsState */
+     , (2397,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (2397, 131,         35) /* MaterialType - RedGarnet */
      , (2397, 169,   16777216) /* TsysMutationData */;
 

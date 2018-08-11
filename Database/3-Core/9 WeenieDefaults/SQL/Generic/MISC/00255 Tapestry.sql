@@ -4,7 +4,7 @@ VALUES ('255', 'tapestry', 1) /* Generic */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (255,   1,        128) /* ItemType - Misc */
      , (255,  16,          1) /* ItemUseable - No */
-     , (255,  93,       1044) /* PhysicsState */;
+     , (255,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (255,   1, True ) /* Stuck */;

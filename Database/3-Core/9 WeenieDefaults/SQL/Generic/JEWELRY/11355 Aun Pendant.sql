@@ -9,7 +9,7 @@ VALUES (11355,   1,          8) /* ItemType - Jewelry */
      , (11355,   9,      32768) /* ValidLocations - NeckWear */
      , (11355,  16,          1) /* ItemUseable - No */
      , (11355,  19,        150) /* Value */
-     , (11355,  93,       1044) /* PhysicsState */
+     , (11355,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (11355, 150,        103) /* HookPlacement - Hook */
      , (11355, 151,          2) /* HookType - Wall */;
 

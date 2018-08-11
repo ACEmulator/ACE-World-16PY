@@ -12,13 +12,13 @@ VALUES (5767,   1,         16) /* ItemType - Creature */
      , (5767,  40,          2) /* CombatMode - Melee */
      , (5767,  67,          2) /* Tolerance */
      , (5767,  68,          2) /* TargetingTactic */
-     , (5767,  74,      17291) /* MerchandiseItemTypes */
+     , (5767,  74,      17291) /* MerchandiseItemTypes - Armor, Jewelry, Weapon, LockableMagicTarget, Key */
      , (5767,  75,          0) /* MerchandiseMinValue */
      , (5767,  76,          0) /* MerchandiseMaxValue */
      , (5767,  81,          2) /* MaxGeneratedObjects */
      , (5767,  82,          2) /* InitGeneratedObjects */
-     , (5767,  93,       1032) /* PhysicsState */
-     , (5767, 101,        131) /* AiAllowedCombatStyle */
+     , (5767,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
+     , (5767, 101,        131) /* AiAllowedCombatStyle - Unarmed, OneHanded, ThrownWeapon */
      , (5767, 103,          3) /* GeneratorDestructionType - Kill */
      , (5767, 126,       2000) /* VendorHappyMean */
      , (5767, 127,       1000) /* VendorHappyVariance */
@@ -85,7 +85,7 @@ VALUES (5767,   1,   33556222) /* Setup */
      , (5767,   4,  805306406) /* CombatTable */
      , (5767,   8,  100669125) /* Icon */
      , (5767,  22,  872415346) /* PhysicsEffectTable */
-     , (5767,  35,        460) /* DeathTreasureType */;
+     , (5767,  35,        460) /* DeathTreasureType - Loot Tier: 4 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (5767,   1, 300, 0, 0) /* Strength */
@@ -207,12 +207,12 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 268435537 /* Twitch1 */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (5767, 1,  5758,  1, 0, 1, False) /* Create Carrot for Contain */
-     , (5767, 4,  5769, -1, 0, 0, False) /* Create Iceball for Shop */
-     , (5767, 4,  5770, -1, 0, 0, False) /* Create "Enchanted" Iceball for Shop */
-     , (5767, 2,  5770, 10, 0, 1, False) /* Create "Enchanted" Iceball for Wield */
-     , (5767, 1,  5770, 14, 0, 1, False) /* Create "Enchanted" Iceball for Contain */
-     , (5767, 4, 13224, -1, 0, 0, False) /* Create A Frozen Note for Shop */;
+VALUES (5767, 1,  5758,  1, 0, 1, False) /* Create Carrot (5758) for Contain */
+     , (5767, 4,  5769, -1, 0, 0, False) /* Create Iceball (5769) for Shop */
+     , (5767, 4,  5770, -1, 0, 0, False) /* Create "Enchanted" Iceball (5770) for Shop */
+     , (5767, 2,  5770, 10, 0, 1, False) /* Create "Enchanted" Iceball (5770) for Wield */
+     , (5767, 1,  5770, 14, 0, 1, False) /* Create "Enchanted" Iceball (5770) for Contain */
+     , (5767, 4, 13224, -1, 0, 0, False) /* Create A Frozen Note (13224) for Shop */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (5767, 1, 5766, 20, 1, 2, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0);
+VALUES (5767, 1, 5766, 20, 1, 2, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Snowman (5766) (x1 up to max of 2) - Regenerate upon Destruction - Location to (re)Generate: Scatter */;

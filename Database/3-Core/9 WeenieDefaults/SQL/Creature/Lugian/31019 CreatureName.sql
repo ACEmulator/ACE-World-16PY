@@ -12,8 +12,8 @@ VALUES (31019,   1,         16) /* ItemType - Creature */
      , (31019,  27,          0) /* ArmorType */
      , (31019,  40,          2) /* CombatMode - Melee */
      , (31019,  68,          9) /* TargetingTactic */
-     , (31019,  93,       1032) /* PhysicsState */
-     , (31019, 101,        131) /* AiAllowedCombatStyle */
+     , (31019,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
+     , (31019, 101,        131) /* AiAllowedCombatStyle - Unarmed, OneHanded, ThrownWeapon */
      , (31019, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (31019, 140,          1) /* AiOptions */
      , (31019, 146,     354259) /* XpOverride */;
@@ -69,8 +69,12 @@ VALUES (31019,   1,   33557003) /* Setup */
      , (31019,   7,  268436158) /* ClothingBase */
      , (31019,   8,  100667447) /* Icon */
      , (31019,  22,  872415262) /* PhysicsEffectTable */
-     , (31019,  32,        480) /* WieldedTreasureType */
-     , (31019,  35,         26) /* DeathTreasureType */;
+     , (31019,  32,        480) /* WieldedTreasureType - 
+                                   Wield Stone Hatchet (29964) | Probability: 25%
+                                   Wield Stone Mace (29969) | Probability: 25%
+                                   Wield Stone Spear (29974) | Probability: 25%
+                                   Wield Bone Sword (29979) | Probability: 25% */
+     , (31019,  35,         26) /* DeathTreasureType - Loot Tier: 6 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (31019,   1, 465, 0, 0) /* Strength */

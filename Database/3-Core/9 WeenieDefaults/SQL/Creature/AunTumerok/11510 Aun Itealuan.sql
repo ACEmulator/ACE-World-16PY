@@ -12,8 +12,8 @@ VALUES (11510,   1,         16) /* ItemType - Creature */
      , (11510,  27,          0) /* ArmorType */
      , (11510,  67,         64) /* Tolerance */
      , (11510,  68,          5) /* TargetingTactic */
-     , (11510,  93,       1032) /* PhysicsState */
-     , (11510, 101,        183) /* AiAllowedCombatStyle */
+     , (11510,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
+     , (11510, 101,        183) /* AiAllowedCombatStyle - Unarmed, OneHanded, OneHandedAndShield, Bow, Crossbow, ThrownWeapon */
      , (11510, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (11510, 140,          1) /* AiOptions */
      , (11510, 146,       8667) /* XpOverride */;
@@ -71,8 +71,20 @@ VALUES (11510,   1,   33557117) /* Setup */
      , (11510,   7,  268436193) /* ClothingBase */
      , (11510,   8,  100671756) /* Icon */
      , (11510,  22,  872415270) /* PhysicsEffectTable */
-     , (11510,  32,        377) /* WieldedTreasureType */
-     , (11510,  35,        451) /* DeathTreasureType */;
+     , (11510,  32,        377) /* WieldedTreasureType - 
+                                   Wield Shortbow (307) | Probability: 22%
+                                   Wield 25x Greater Fire Arrow (5305) | Probability: 100%
+                                   Wield Shouyumi (341) | Probability: 23%
+                                   Wield 20x Greater Acid Arrow (5306) | Probability: 100%
+                                   Wield Light Crossbow (312) | Probability: 11%
+                                   Wield 15x Greater Armor Piercing Quarrel (5318) | Probability: 100%
+                                   Wield Longbow (306) | Probability: 16%
+                                   Wield 22x Greater Lightning Arrow (5308) | Probability: 100%
+                                   Wield Yumi (363) | Probability: 14%
+                                   Wield 20x Greater Frost Arrow (5307) | Probability: 100%
+                                   Wield Heavy Crossbow (311) | Probability: 14%
+                                   Wield 15x Greater Armor Piercing Quarrel (5318) | Probability: 100% */
+     , (11510,  35,        451) /* DeathTreasureType - Loot Tier: 2 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (11510,   1, 220, 0, 0) /* Strength */
@@ -120,7 +132,7 @@ VALUES (11510,  94) /* ATTACK_NOTIFICATION_EVENT */
      , (11510, 414) /* PLAYER_DEATH_EVENT */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (11510, 9,     0,  0, 0, 0.97, False) /* Create Unknown for ContainTreasure */
-     , (11510, 9,     0,  0, 0, 0.98, False) /* Create Unknown for ContainTreasure */
-     , (11510, 9,  6876,  0, 0, 0.02, False) /* Create Sturdy Iron Key for ContainTreasure */
-     , (11510, 9, 11355,  0, 0, 0.03, False) /* Create Aun Pendant for ContainTreasure */;
+VALUES (11510, 9,     0,  0, 0, 0.97, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 2 for ContainTreasure */
+     , (11510, 9,     0,  0, 0, 0.98, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 2 for ContainTreasure */
+     , (11510, 9,  6876,  0, 0, 0.02, False) /* Create Sturdy Iron Key (6876) for ContainTreasure */
+     , (11510, 9, 11355,  0, 0, 0.03, False) /* Create Aun Pendant (11355) for ContainTreasure */;

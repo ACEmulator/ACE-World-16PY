@@ -12,8 +12,8 @@ VALUES (19270,   1,         16) /* ItemType - Creature */
      , (19270,  25,        153) /* Level */
      , (19270,  27,          0) /* ArmorType */
      , (19270,  68,         13) /* TargetingTactic */
-     , (19270,  93,    4195336) /* PhysicsState */
-     , (19270, 101,        183) /* AiAllowedCombatStyle */
+     , (19270,  93,    4195336) /* PhysicsState - ReportCollisions, Gravity, EdgeSlide */
+     , (19270, 101,        183) /* AiAllowedCombatStyle - Unarmed, OneHanded, OneHandedAndShield, Bow, Crossbow, ThrownWeapon */
      , (19270, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (19270, 140,          1) /* AiOptions */
      , (19270, 146,      24000) /* XpOverride */;
@@ -74,8 +74,11 @@ VALUES (19270,   1,   33554433) /* Setup */
      , (19270,   7,  268435632) /* ClothingBase */
      , (19270,   8,  100670397) /* Icon */
      , (19270,  22,  872415349) /* PhysicsEffectTable */
-     , (19270,  32,        399) /* WieldedTreasureType */
-     , (19270,  35,        407) /* DeathTreasureType */;
+     , (19270,  32,        399) /* WieldedTreasureType - 
+                                   Wield Bronze Tower Shield (15865) | Probability: 100%
+                                   Wield Bronze Spear (15879) | Probability: 50%
+                                   Wield Bronze Long Sword (15880) | Probability: 50% */
+     , (19270,  35,        407) /* DeathTreasureType - Loot Tier: 5 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (19270,   1, 200, 0, 0) /* Strength */
@@ -150,5 +153,5 @@ VALUES (19270,  94) /* ATTACK_NOTIFICATION_EVENT */
      , (19270, 414) /* PLAYER_DEATH_EVENT */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (19270, 9,     0,  0, 0, 0.95, False) /* Create Unknown for ContainTreasure */
-     , (19270, 9, 19250,  0, 0, 0.05, False) /* Create Bronze Nuts and Bolts from a Statue for ContainTreasure */;
+VALUES (19270, 9,     0,  0, 0, 0.95, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 5 for ContainTreasure */
+     , (19270, 9, 19250,  0, 0, 0.05, False) /* Create Bronze Nuts and Bolts from a Statue (19250) for ContainTreasure */;

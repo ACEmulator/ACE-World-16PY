@@ -15,7 +15,7 @@ VALUES (23757,   1,          1) /* ItemType - MeleeWeapon */
      , (23757,  48,          5) /* WeaponSkill - Mace */
      , (23757,  49,         80) /* WeaponTime */
      , (23757,  51,          1) /* CombatUse - Melee */
-     , (23757,  93,       1044) /* PhysicsState */
+     , (23757,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (23757, 150,        103) /* HookPlacement - Hook */
      , (23757, 151,          2) /* HookType - Wall */;
 

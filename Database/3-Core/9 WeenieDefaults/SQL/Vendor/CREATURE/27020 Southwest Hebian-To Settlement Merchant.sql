@@ -10,10 +10,10 @@ VALUES (27020,   1,         16) /* ItemType - Creature */
      , (27020,  16,         32) /* ItemUseable - Remote */
      , (27020,  25,         10) /* Level */
      , (27020,  27,          0) /* ArmorType */
-     , (27020,  74,     264192) /* MerchandiseItemTypes */
+     , (27020,  74,     264192) /* MerchandiseItemTypes - Gem, PromissoryNote */
      , (27020,  75,          0) /* MerchandiseMinValue */
      , (27020,  76,    1000000) /* MerchandiseMaxValue */
-     , (27020,  93,    2098204) /* PhysicsState */
+     , (27020,  93,    2098204) /* PhysicsState - Ethereal, ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */
      , (27020, 126,        125) /* VendorHappyMean */
      , (27020, 127,        125) /* VendorHappyVariance */
      , (27020, 133,          4) /* ShowableOnRadar - ShowAlways */
@@ -97,4 +97,4 @@ VALUES (27020,  0,  4,  0,    0,    0,    0,    0,    0,    0,    0,    0,    0,
      , (27020,  8,  4,  2, 0.75,    0,    0,    0,    0,    0,    0,    0,    0,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (27020, 4, 26385, -1, 0, 0, False) /* Create Southwest Hebian-To Settlement Portal Gem for Shop */;
+VALUES (27020, 4, 26385, -1, 0, 0, False) /* Create Southwest Hebian-To Settlement Portal Gem (26385) for Shop */;

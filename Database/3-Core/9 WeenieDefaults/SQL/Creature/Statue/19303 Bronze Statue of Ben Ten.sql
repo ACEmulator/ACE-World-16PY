@@ -12,8 +12,8 @@ VALUES (19303,   1,         16) /* ItemType - Creature */
      , (19303,  25,         53) /* Level */
      , (19303,  27,          0) /* ArmorType */
      , (19303,  68,         13) /* TargetingTactic */
-     , (19303,  93,       1032) /* PhysicsState */
-     , (19303, 101,        131) /* AiAllowedCombatStyle */
+     , (19303,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
+     , (19303, 101,        131) /* AiAllowedCombatStyle - Unarmed, OneHanded, ThrownWeapon */
      , (19303, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (19303, 146,       8386) /* XpOverride */;
 
@@ -71,8 +71,9 @@ VALUES (19303,   1,   33554510) /* Setup */
      , (19303,   7,  268436345) /* ClothingBase */
      , (19303,   8,  100667446) /* Icon */
      , (19303,  22,  872415349) /* PhysicsEffectTable */
-     , (19303,  32,        398) /* WieldedTreasureType */
-     , (19303,  35,        451) /* DeathTreasureType */;
+     , (19303,  32,        398) /* WieldedTreasureType - 
+                                   Wield Ben Ten's Tachi (15391) | Probability: 100% */
+     , (19303,  35,        451) /* DeathTreasureType - Loot Tier: 2 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (19303,   1, 210, 0, 0) /* Strength */
@@ -118,5 +119,5 @@ VALUES (19303,  94) /* ATTACK_NOTIFICATION_EVENT */
      , (19303, 414) /* PLAYER_DEATH_EVENT */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (19303, 9,     0,  0, 0, 0.95, False) /* Create Unknown for ContainTreasure */
-     , (19303, 9, 19210,  0, 0, 0.05, False) /* Create Bronze Coil from a Statue for ContainTreasure */;
+VALUES (19303, 9,     0,  0, 0, 0.95, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 2 for ContainTreasure */
+     , (19303, 9, 19210,  0, 0, 0.05, False) /* Create Bronze Coil from a Statue (19210) for ContainTreasure */;

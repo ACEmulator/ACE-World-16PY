@@ -4,8 +4,8 @@ VALUES ('25402', 'portalolthoifoodstore3', 7) /* Portal */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (25402,   1,      65536) /* ItemType - Portal */
      , (25402,  16,         32) /* ItemUseable - Remote */
-     , (25402,  93,       3084) /* PhysicsState */
-     , (25402, 111,         49) /* PortalBitmask */
+     , (25402,  93,       3084) /* PhysicsState - Ethereal, ReportCollisions, Gravity, LightingOn */
+     , (25402, 111,         49) /* PortalBitmask - Unrestricted, NoSummon, NoRecall */
      , (25402, 133,          4) /* ShowableOnRadar - ShowAlways */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)

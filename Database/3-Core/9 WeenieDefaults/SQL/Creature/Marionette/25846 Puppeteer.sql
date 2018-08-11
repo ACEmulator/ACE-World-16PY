@@ -15,8 +15,8 @@ VALUES (25846,   1,         16) /* ItemType - Creature */
      , (25846,  72,         22) /* FriendType - Shadow */
      , (25846,  81,          3) /* MaxGeneratedObjects */
      , (25846,  82,          3) /* InitGeneratedObjects */
-     , (25846,  93,       1032) /* PhysicsState */
-     , (25846, 101,        131) /* AiAllowedCombatStyle */
+     , (25846,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
+     , (25846, 101,        131) /* AiAllowedCombatStyle - Unarmed, OneHanded, ThrownWeapon */
      , (25846, 103,          1) /* GeneratorDestructionType - Nothing */
      , (25846, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (25846, 140,          1) /* AiOptions */
@@ -79,7 +79,7 @@ VALUES (25846,   1,   33558542) /* Setup */
      , (25846,   7,  268436726) /* ClothingBase */
      , (25846,   8,  100671420) /* Icon */
      , (25846,  22,  872415372) /* PhysicsEffectTable */
-     , (25846,  35,         32) /* DeathTreasureType */;
+     , (25846,  35,         32) /* DeathTreasureType - Loot Tier: 6 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (25846,   1, 425, 0, 0) /* Strength */
@@ -152,12 +152,12 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 268435537 /* Twitch1 */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (25846, 9,     0,  0, 0, 0, False) /* Create Unknown for ContainTreasure */
-     , (25846, 9,     0,  0, 0, 0.9, False) /* Create Unknown for ContainTreasure */
-     , (25846, 9, 25895,  0, 0, 1, False) /* Create Puppeteer's Skull for ContainTreasure */
-     , (25846, 9, 30823,  0, 0, 0.1, False) /* Create Broken Black Marrow Key for ContainTreasure */;
+VALUES (25846, 9,     0,  0, 0, 0, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 6 for ContainTreasure */
+     , (25846, 9,     0,  0, 0, 0.9, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 6 for ContainTreasure */
+     , (25846, 9, 25895,  0, 0, 1, False) /* Create Puppeteer's Skull (25895) for ContainTreasure */
+     , (25846, 9, 30823,  0, 0, 0.1, False) /* Create Broken Black Marrow Key (30823) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (25846, -1, 25866, 20, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0)
-     , (25846, -1, 25865, 20, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0)
-     , (25846, -1, 25867, 20, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0);
+VALUES (25846, -1, 25866, 20, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Damned Marionette (25866) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Scatter */
+     , (25846, -1, 25865, 20, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Cursed Marionette (25865) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Scatter */
+     , (25846, -1, 25867, 20, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Malignant Marionette (25867) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Scatter */;

@@ -12,7 +12,7 @@ VALUES (25849,   1,         16) /* ItemType - Creature */
      , (25849,  40,          2) /* CombatMode - Melee */
      , (25849,  68,         13) /* TargetingTactic */
      , (25849,  72,         22) /* FriendType - Shadow */
-     , (25849,  93,       1032) /* PhysicsState */
+     , (25849,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (25849, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (25849, 146,    1031474) /* XpOverride */;
 
@@ -70,7 +70,7 @@ VALUES (25849,   1,   33555610) /* Setup */
      , (25849,   7,  268436729) /* ClothingBase */
      , (25849,   8,  100669123) /* Icon */
      , (25849,  22,  872415279) /* PhysicsEffectTable */
-     , (25849,  35,         32) /* DeathTreasureType */;
+     , (25849,  35,         32) /* DeathTreasureType - Loot Tier: 6 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (25849,   1, 440, 0, 0) /* Strength */
@@ -126,7 +126,7 @@ VALUES (25849,  94) /* ATTACK_NOTIFICATION_EVENT */
      , (25849, 414) /* PLAYER_DEATH_EVENT */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (25849, 9,     0,  0, 0, 0, False) /* Create Unknown for ContainTreasure */
-     , (25849, 9,     0,  0, 0, 0.9, False) /* Create Unknown for ContainTreasure */
-     , (25849, 9, 25904,  1, 0, 1, False) /* Create Atakir's Blade for ContainTreasure */
-     , (25849, 9, 30823,  0, 0, 0.1, False) /* Create Broken Black Marrow Key for ContainTreasure */;
+VALUES (25849, 9,     0,  0, 0, 0, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 6 for ContainTreasure */
+     , (25849, 9,     0,  0, 0, 0.9, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 6 for ContainTreasure */
+     , (25849, 9, 25904,  1, 0, 1, False) /* Create Atakir's Blade (25904) for ContainTreasure */
+     , (25849, 9, 30823,  0, 0, 0.1, False) /* Create Broken Black Marrow Key (30823) for ContainTreasure */;

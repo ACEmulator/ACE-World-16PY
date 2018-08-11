@@ -10,7 +10,7 @@ VALUES (22112,   1,         16) /* ItemType - Creature */
      , (22112,  16,          1) /* ItemUseable - No */
      , (22112,  25,        102) /* Level */
      , (22112,  27,          0) /* ArmorType */
-     , (22112,  93,    6292504) /* PhysicsState */
+     , (22112,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (22112,  95,          8) /* RadarBlipColor - Yellow */
      , (22112, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (22112, 134,         16) /* PlayerKillerStatus - RubberGlue */
@@ -112,4 +112,4 @@ VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 1090519043 /* Ready */, NULL, NU
      , (@parent_id,  5,   5 /* Motion */, 9000, 1, 1090519043 /* Ready */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (22112, 2,  5909,  0, 17, 0.4, False) /* Create Faran War Master Robe for Wield */;
+VALUES (22112, 2,  5909,  0, 17, 0.4, False) /* Create Faran War Master Robe (5909) for Wield */;

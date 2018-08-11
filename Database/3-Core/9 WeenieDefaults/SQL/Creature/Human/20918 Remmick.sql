@@ -10,7 +10,7 @@ VALUES (20918,   1,         16) /* ItemType - Creature */
      , (20918,  16,         32) /* ItemUseable - Remote */
      , (20918,  25,         16) /* Level */
      , (20918,  27,          0) /* ArmorType */
-     , (20918,  93,    6292504) /* PhysicsState */
+     , (20918,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (20918,  95,          8) /* RadarBlipColor - Yellow */
      , (20918, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (20918, 134,         16) /* PlayerKillerStatus - RubberGlue */
@@ -155,6 +155,6 @@ VALUES (@parent_id,  0,  10 /* Tell */, 1, 1, NULL, 'Everything is falling apart
      , (@parent_id,  4,  10 /* Tell */, 3, 1, NULL, 'Go talk to Hibdin, he''s the one organizing the expeditions down there.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (20918, 2,   127,  0, 9, 0, False) /* Create Pants for Wield */
-     , (20918, 2,   133,  0, 4, 0.8, False) /* Create Slippers for Wield */
-     , (20918, 2,   134,  0, 9, 1, False) /* Create Tunic for Wield */;
+VALUES (20918, 2,   127,  0, 9, 0, False) /* Create Pants (127) for Wield */
+     , (20918, 2,   133,  0, 4, 0.8, False) /* Create Slippers (133) for Wield */
+     , (20918, 2,   134,  0, 9, 1, False) /* Create Tunic (134) for Wield */;

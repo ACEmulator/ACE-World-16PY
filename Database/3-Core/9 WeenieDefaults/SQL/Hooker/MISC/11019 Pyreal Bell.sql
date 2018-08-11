@@ -8,7 +8,7 @@ VALUES (11019,   1,        128) /* ItemType - Misc */
      , (11019,   9,          0) /* ValidLocations - None */
      , (11019,  16,         32) /* ItemUseable - Remote */
      , (11019,  19,        250) /* Value */
-     , (11019,  93,       1044) /* PhysicsState */
+     , (11019,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (11019, 150,        103) /* HookPlacement - Hook */
      , (11019, 151,          4) /* HookType - Ceiling */
      , (11019, 197,          1) /* HookGroup */;

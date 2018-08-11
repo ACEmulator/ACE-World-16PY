@@ -12,8 +12,8 @@ VALUES (11509,   1,         16) /* ItemType - Creature */
      , (11509,  27,          0) /* ArmorType */
      , (11509,  67,         64) /* Tolerance */
      , (11509,  68,          3) /* TargetingTactic */
-     , (11509,  93,       1032) /* PhysicsState */
-     , (11509, 101,        183) /* AiAllowedCombatStyle */
+     , (11509,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
+     , (11509, 101,        183) /* AiAllowedCombatStyle - Unarmed, OneHanded, OneHandedAndShield, Bow, Crossbow, ThrownWeapon */
      , (11509, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (11509, 140,          1) /* AiOptions */
      , (11509, 146,       1358) /* XpOverride */;
@@ -71,8 +71,20 @@ VALUES (11509,   1,   33557117) /* Setup */
      , (11509,   7,  268436193) /* ClothingBase */
      , (11509,   8,  100671756) /* Icon */
      , (11509,  22,  872415270) /* PhysicsEffectTable */
-     , (11509,  32,        378) /* WieldedTreasureType */
-     , (11509,  35,        453) /* DeathTreasureType */;
+     , (11509,  32,        378) /* WieldedTreasureType - 
+                                   Wield Shortbow (307) | Probability: 22%
+                                   Wield 25x Armor Piercing Arrow (3598) | Probability: 100%
+                                   Wield Shouyumi (341) | Probability: 23%
+                                   Wield 20x Acid Arrow (4181) | Probability: 100%
+                                   Wield Light Crossbow (312) | Probability: 11%
+                                   Wield 15x Frost Quarrel (4186) | Probability: 100%
+                                   Wield Longbow (306) | Probability: 16%
+                                   Wield 22x Fire Arrow (1437) | Probability: 100%
+                                   Wield Yumi (363) | Probability: 14%
+                                   Wield 20x Lightning Arrow (4183) | Probability: 100%
+                                   Wield Heavy Crossbow (311) | Probability: 14%
+                                   Wield 15x Armor Piercing Quarrel (3602) | Probability: 100% */
+     , (11509,  35,        453) /* DeathTreasureType - Loot Tier: 1 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (11509,   1, 110, 0, 0) /* Strength */

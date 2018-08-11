@@ -10,8 +10,8 @@ VALUES (11921,   1,         16) /* ItemType - Creature */
      , (11921,  25,         35) /* Level */
      , (11921,  27,          0) /* ArmorType */
      , (11921,  68,          5) /* TargetingTactic */
-     , (11921,  93,       1032) /* PhysicsState */
-     , (11921, 101,        183) /* AiAllowedCombatStyle */
+     , (11921,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
+     , (11921, 101,        183) /* AiAllowedCombatStyle - Unarmed, OneHanded, OneHandedAndShield, Bow, Crossbow, ThrownWeapon */
      , (11921, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (11921, 140,          1) /* AiOptions */
      , (11921, 146,       1900) /* XpOverride */;
@@ -68,8 +68,34 @@ VALUES (11921,   1,   33554496) /* Setup */
      , (11921,   8,  100667452) /* Icon */
      , (11921,  22,  872415270) /* PhysicsEffectTable */
      , (11921,  31,      11856) /* LinkedPortalOne - Zaikhal Middle Guard Camp Portal */
-     , (11921,  32,        215) /* WieldedTreasureType */
-     , (11921,  35,        217) /* DeathTreasureType */;
+     , (11921,  32,        215) /* WieldedTreasureType - 
+                                   Wield 6x Throwing Axe (304) | Probability: 10%
+                                   Wield Nayin (334) | Probability: 10%
+                                   Wield 20x Arrow (300) | Probability: 100%
+                                   Wield Longbow (306) | Probability: 10%
+                                   Wield 20x Arrow (300) | Probability: 100%
+                                   Wield Yumi (363) | Probability: 10%
+                                   Wield Arrow (300) | Probability: 100%
+                                   Wield Heavy Crossbow (311) | Probability: 60%
+                                   Wield 15x Quarrel (305) | Probability: 100%
+                                   Wield Battle Axe (301) | Probability: 14%
+                                   Wield Broad Sword (350) | Probability: 7%
+                                   Wield Kaskara (324) | Probability: 6%
+                                   Wield Ken (327) | Probability: 6%
+                                   Wield Long Sword (351) | Probability: 6%
+                                   Wield Morning Star (332) | Probability: 10%
+                                   Wield Scimitar (339) | Probability: 6%
+                                   Wield Shamshir (340) | Probability: 6%
+                                   Wield Ono (336) | Probability: 13%
+                                   Wield Silifi (344) | Probability: 13%
+                                   Wield Tachi (353) | Probability: 6%
+                                   Wield Takuba (354) | Probability: 6%
+                                   Wield Large Kite Shield (92) | Probability: 10%
+                                   Wield Kite Shield (91) | Probability: 10%
+                                   Wield Large Round Shield (94) | Probability: 20%
+                                   Wield Round Shield (93) | Probability: 20%
+                                   Wield Tower Shield (95) | Probability: 15% */
+     , (11921,  35,        217) /* DeathTreasureType - Loot Tier: 4 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (11921,   1, 100, 0, 0) /* Strength */
@@ -151,9 +177,9 @@ VALUES (@parent_id,  0,  19 /* CastSpellInstant */, 0, 1, NULL, NULL, NULL, NULL
      , (@parent_id,  1,  17 /* LocalBroadcast */, 0, 0, NULL, 'The dying Tumerok casts a portal to the Zaikhal Middle Guard Camp dungeon as it falls!', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (11921, 9,     0,  0, 0, 0.85, False) /* Create Unknown for ContainTreasure */
-     , (11921, 9,     0,  0, 0, 0.99, False) /* Create Unknown for ContainTreasure */
-     , (11921, 9,     0,  0, 0, 0.97, False) /* Create Unknown for ContainTreasure */
-     , (11921, 9,  3695,  0, 0, 0.15, False) /* Create Gold Tumerok Insignia for ContainTreasure */
-     , (11921, 9,  6876,  0, 0, 0.01, False) /* Create Sturdy Iron Key for ContainTreasure */
-     , (11921, 9,  7825,  0, 0, 0.03, False) /* Create Brown Beans for ContainTreasure */;
+VALUES (11921, 9,     0,  0, 0, 0.85, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 4 for ContainTreasure */
+     , (11921, 9,     0,  0, 0, 0.99, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 4 for ContainTreasure */
+     , (11921, 9,     0,  0, 0, 0.97, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 4 for ContainTreasure */
+     , (11921, 9,  3695,  0, 0, 0.15, False) /* Create Gold Tumerok Insignia (3695) for ContainTreasure */
+     , (11921, 9,  6876,  0, 0, 0.01, False) /* Create Sturdy Iron Key (6876) for ContainTreasure */
+     , (11921, 9,  7825,  0, 0, 0.03, False) /* Create Brown Beans (7825) for ContainTreasure */;

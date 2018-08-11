@@ -11,10 +11,10 @@ VALUES (2041,   1,         16) /* ItemType - Creature */
      , (2041,  16,         32) /* ItemUseable - Remote */
      , (2041,  25,          9) /* Level */
      , (2041,  27,          0) /* ArmorType */
-     , (2041,  74,     270336) /* MerchandiseItemTypes */
+     , (2041,  74,     270336) /* MerchandiseItemTypes - Writable, PromissoryNote */
      , (2041,  75,          0) /* MerchandiseMinValue */
      , (2041,  76,     100000) /* MerchandiseMaxValue */
-     , (2041,  93,    2098200) /* PhysicsState */
+     , (2041,  93,    2098200) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */
      , (2041, 126,       2000) /* VendorHappyMean */
      , (2041, 127,       1000) /* VendorHappyVariance */
      , (2041, 133,          4) /* ShowableOnRadar - ShowAlways */
@@ -167,20 +167,20 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 318767235 /* Nod */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (2041, 2,   127,  0, 13, 0.5, False) /* Create Pants for Wield */
-     , (2041, 2,   130,  0, 13, 0.5, False) /* Create Shirt for Wield */
-     , (2041, 2,   132,  0, 9, 0, False) /* Create Shoes for Wield */
-     , (2041, 4,   364, -1, 0, 0, False) /* Create Book for Shop */
-     , (2041, 4,   365, -1, 0, 0, False) /* Create Parchment for Shop */
-     , (2041, 4,   367, -1, 0, 0, False) /* Create Tome for Shop */
-     , (2041, 4,  5688, -1, 0, 0, False) /* Create The Code of Pwyll for Shop */
-     , (2041, 4,  5689, -1, 0, 0, False) /* Create The Legend of Lilitha for Shop */
-     , (2041, 4,  7774, -1, 0, 0, False) /* Create Concerning the Revelations of Anti-Magic for Shop */
-     , (2041, 4,  7775, -1, 0, 0, False) /* Create Practical Applications of Chorizite for Shop */
-     , (2041, 4,  8073, -1, 0, 0, False) /* Create Shadows of My Doubts for Shop */
-     , (2041, 4,  8074, -1, 0, 0, False) /* Create The Journals of Change for Shop */
-     , (2041, 4,  8075, -1, 0, 0, False) /* Create The D00dz for Shop */
-     , (2041, 4,  9006, -1, 0, 0, False) /* Create Excerpts from the Zharalim for Shop */
-     , (2041, 4,  9122, -1, 0, 0, False) /* Create Interlude for Shop */
-     , (2041, 2, 10696,  0, 15, 1, False) /* Create Apron for Wield */
-     , (2041, 4, 10700, -1, 0, 0, False) /* Create Book of Seasons for Shop */;
+VALUES (2041, 2,   127,  0, 13, 0.5, False) /* Create Pants (127) for Wield */
+     , (2041, 2,   130,  0, 13, 0.5, False) /* Create Shirt (130) for Wield */
+     , (2041, 2,   132,  0, 9, 0, False) /* Create Shoes (132) for Wield */
+     , (2041, 4,   364, -1, 0, 0, False) /* Create Book (364) for Shop */
+     , (2041, 4,   365, -1, 0, 0, False) /* Create Parchment (365) for Shop */
+     , (2041, 4,   367, -1, 0, 0, False) /* Create Tome (367) for Shop */
+     , (2041, 4,  5688, -1, 0, 0, False) /* Create The Code of Pwyll (5688) for Shop */
+     , (2041, 4,  5689, -1, 0, 0, False) /* Create The Legend of Lilitha (5689) for Shop */
+     , (2041, 4,  7774, -1, 0, 0, False) /* Create Concerning the Revelations of Anti-Magic (7774) for Shop */
+     , (2041, 4,  7775, -1, 0, 0, False) /* Create Practical Applications of Chorizite (7775) for Shop */
+     , (2041, 4,  8073, -1, 0, 0, False) /* Create Shadows of My Doubts (8073) for Shop */
+     , (2041, 4,  8074, -1, 0, 0, False) /* Create The Journals of Change (8074) for Shop */
+     , (2041, 4,  8075, -1, 0, 0, False) /* Create The D00dz (8075) for Shop */
+     , (2041, 4,  9006, -1, 0, 0, False) /* Create Excerpts from the Zharalim (9006) for Shop */
+     , (2041, 4,  9122, -1, 0, 0, False) /* Create Interlude (9122) for Shop */
+     , (2041, 2, 10696,  0, 15, 1, False) /* Create Apron (10696) for Wield */
+     , (2041, 4, 10700, -1, 0, 0, False) /* Create Book of Seasons (10700) for Shop */;

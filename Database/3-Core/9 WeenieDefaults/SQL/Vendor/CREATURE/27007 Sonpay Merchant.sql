@@ -10,10 +10,10 @@ VALUES (27007,   1,         16) /* ItemType - Creature */
      , (27007,  16,         32) /* ItemUseable - Remote */
      , (27007,  25,         10) /* Level */
      , (27007,  27,          0) /* ArmorType */
-     , (27007,  74,     264192) /* MerchandiseItemTypes */
+     , (27007,  74,     264192) /* MerchandiseItemTypes - Gem, PromissoryNote */
      , (27007,  75,          0) /* MerchandiseMinValue */
      , (27007,  76,    1000000) /* MerchandiseMaxValue */
-     , (27007,  93,    2098204) /* PhysicsState */
+     , (27007,  93,    2098204) /* PhysicsState - Ethereal, ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */
      , (27007, 126,        125) /* VendorHappyMean */
      , (27007, 127,        125) /* VendorHappyVariance */
      , (27007, 133,          4) /* ShowableOnRadar - ShowAlways */
@@ -97,4 +97,4 @@ VALUES (27007,  0,  4,  0,    0,    0,    0,    0,    0,    0,    0,    0,    0,
      , (27007,  8,  4,  2, 0.75,    0,    0,    0,    0,    0,    0,    0,    0,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (27007, 4, 26372, -1, 0, 0, False) /* Create Sonpay Portal Gem for Shop */;
+VALUES (27007, 4, 26372, -1, 0, 0, False) /* Create Sonpay Portal Gem (26372) for Shop */;

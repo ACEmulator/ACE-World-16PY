@@ -11,7 +11,7 @@ VALUES (30440,   1,         16) /* ItemType - Creature */
      , (30440,  27,          0) /* ArmorType */
      , (30440,  40,          2) /* CombatMode - Melee */
      , (30440,  68,          5) /* TargetingTactic */
-     , (30440,  93,    4195336) /* PhysicsState */
+     , (30440,  93,    4195336) /* PhysicsState - ReportCollisions, Gravity, EdgeSlide */
      , (30440, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (30440, 146,        348) /* XpOverride */;
 
@@ -67,7 +67,7 @@ VALUES (30440,   1,   33556454) /* Setup */
      , (30440,   4,  805306376) /* CombatTable */
      , (30440,   8,  100667940) /* Icon */
      , (30440,  22,  872415330) /* PhysicsEffectTable */
-     , (30440,  35,        465) /* DeathTreasureType */;
+     , (30440,  35,        465) /* DeathTreasureType - Loot Tier: 1 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (30440,   1,  60, 0, 0) /* Strength */
@@ -134,9 +134,9 @@ VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 1090519043 /* Ready */, NULL, NU
      , (@parent_id,  1,   5 /* Motion */, 0, 1, 1090519060 /* Sleeping */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (30440, 9,     0,  0, 0, 0.99, False) /* Create Unknown for ContainTreasure */
-     , (30440, 9,     0,  0, 0, 0.97, False) /* Create Unknown for ContainTreasure */
-     , (30440, 9,     0,  0, 0, 0.95, False) /* Create Unknown for ContainTreasure */
-     , (30440, 9,  6353,  0, 0, 0.01, False) /* Create Pyreal Mote for ContainTreasure */
-     , (30440, 9, 10760,  0, 0, 0.03, False) /* Create Wet Towel for ContainTreasure */
-     , (30440, 9, 11354,  0, 0, 0.05, False) /* Create Water Golem Heart for ContainTreasure */;
+VALUES (30440, 9,     0,  0, 0, 0.99, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 1 for ContainTreasure */
+     , (30440, 9,     0,  0, 0, 0.97, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 1 for ContainTreasure */
+     , (30440, 9,     0,  0, 0, 0.95, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 1 for ContainTreasure */
+     , (30440, 9,  6353,  0, 0, 0.01, False) /* Create Pyreal Mote (6353) for ContainTreasure */
+     , (30440, 9, 10760,  0, 0, 0.03, False) /* Create Wet Towel (10760) for ContainTreasure */
+     , (30440, 9, 11354,  0, 0, 0.05, False) /* Create Water Golem Heart (11354) for ContainTreasure */;

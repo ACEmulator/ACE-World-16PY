@@ -12,8 +12,8 @@ VALUES (19309,   1,         16) /* ItemType - Creature */
      , (19309,  27,          0) /* ArmorType */
      , (19309,  40,          1) /* CombatMode - NonCombat */
      , (19309,  68,         13) /* TargetingTactic */
-     , (19309,  93,       1032) /* PhysicsState */
-     , (19309, 101,        183) /* AiAllowedCombatStyle */
+     , (19309,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
+     , (19309, 101,        183) /* AiAllowedCombatStyle - Unarmed, OneHanded, OneHandedAndShield, Bow, Crossbow, ThrownWeapon */
      , (19309, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (19309, 140,          1) /* AiOptions */
      , (19309, 146,       7827) /* XpOverride */;
@@ -71,8 +71,16 @@ VALUES (19309,   1,   33554521) /* Setup */
      , (19309,   7,  268435646) /* ClothingBase */
      , (19309,   8,  100669124) /* Icon */
      , (19309,  22,  872415349) /* PhysicsEffectTable */
-     , (19309,  32,        402) /* WieldedTreasureType */
-     , (19309,  35,        451) /* DeathTreasureType */;
+     , (19309,  32,        402) /* WieldedTreasureType - 
+                                   Wield Bronze Longbow (15873) | Probability: 67%
+                                   Wield 20x Greater Acid Arrow (5306) | Probability: 16%
+                                   Wield 20x Greater Lightning Arrow (5308) | Probability: 16%
+                                   Wield 20x Greater Fire Arrow (5305) | Probability: 17%
+                                   Wield 20x Greater Frost Arrow (5307) | Probability: 17%
+                                   Wield 20x Greater Armor Piercing Arrow (5309) | Probability: 17%
+                                   Wield 20x Greater Frog Crotch Arrow (5312) | Probability: 17%
+                                   Wield Bronze Morning Star (15877) | Probability: 100% */
+     , (19309,  35,        451) /* DeathTreasureType - Loot Tier: 2 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (19309,   1, 190, 0, 0) /* Strength */
@@ -138,5 +146,5 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 1090519060 /* Sleeping */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (19309, 9,     0,  0, 0, 0.95, False) /* Create Unknown for ContainTreasure */
-     , (19309, 9, 19212,  0, 0, 0.05, False) /* Create Bronze Coil from a Statue for ContainTreasure */;
+VALUES (19309, 9,     0,  0, 0, 0.95, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 2 for ContainTreasure */
+     , (19309, 9, 19212,  0, 0, 0.05, False) /* Create Bronze Coil from a Statue (19212) for ContainTreasure */;

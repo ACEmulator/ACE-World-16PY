@@ -14,8 +14,8 @@ VALUES (27797,   1,        128) /* ItemType - Misc */
      , (27797,  15,       1000) /* StackUnitValue */
      , (27797,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
      , (27797,  19,       1000) /* Value */
-     , (27797,  93,       1044) /* PhysicsState */
-     , (27797,  94,        130) /* TargetType */
+     , (27797,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (27797,  94,        130) /* TargetType - 130 */
      , (27797, 150,        103) /* HookPlacement - Hook */
      , (27797, 151,          2) /* HookType - Wall */;
 

@@ -10,7 +10,7 @@ VALUES (5936,   1,      32768) /* ItemType - Caster */
      , (5936,  16,          1) /* ItemUseable - No */
      , (5936,  19,          1) /* Value */
      , (5936,  33,          1) /* Bonded - Bonded */
-     , (5936,  93,       1044) /* PhysicsState */
+     , (5936,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (5936, 110,          0) /* ItemAllegianceRankLimit */
      , (5936, 150,        103) /* HookPlacement - Hook */
      , (5936, 151,          2) /* HookType - Wall */;

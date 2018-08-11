@@ -12,8 +12,8 @@ VALUES (7111,   1,         16) /* ItemType - Creature */
      , (7111,  27,          0) /* ArmorType */
      , (7111,  40,          2) /* CombatMode - Melee */
      , (7111,  68,          3) /* TargetingTactic */
-     , (7111,  93,       1032) /* PhysicsState */
-     , (7111, 101,        183) /* AiAllowedCombatStyle */
+     , (7111,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
+     , (7111, 101,        183) /* AiAllowedCombatStyle - Unarmed, OneHanded, OneHandedAndShield, Bow, Crossbow, ThrownWeapon */
      , (7111, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (7111, 140,          1) /* AiOptions */
      , (7111, 146,      21626) /* XpOverride */;
@@ -72,8 +72,22 @@ VALUES (7111,   1,   33555608) /* Setup */
      , (7111,   7,  268435727) /* ClothingBase */
      , (7111,   8,  100669120) /* Icon */
      , (7111,  22,  872415280) /* PhysicsEffectTable */
-     , (7111,  32,        284) /* WieldedTreasureType */
-     , (7111,  35,        450) /* DeathTreasureType */;
+     , (7111,  32,        284) /* WieldedTreasureType - 
+                                   Wield Yumi (23736) | Probability: 80%
+                                   Wield 14x Greater Arrow (5304) | Probability: 100%
+                                   Wield Katar (23676) | Probability: 10%
+                                   Wield Kite Shield (23686) | Probability: 100%
+                                   Wield Nekode (23682) | Probability: 10%
+                                   Wield Kite Shield (23686) | Probability: 100%
+                                   Wield Cestus (23639) | Probability: 10%
+                                   Wield Kite Shield (23686) | Probability: 100%
+                                   Wield Spear (23698) | Probability: 10%
+                                   Wield Kite Shield (23686) | Probability: 100%
+                                   Wield Tachi (23702) | Probability: 10%
+                                   Wield Kite Shield (23686) | Probability: 100%
+                                   Wield Yari (23732) | Probability: 50%
+                                   Wield Kite Shield (23686) | Probability: 100% */
+     , (7111,  35,        450) /* DeathTreasureType - Loot Tier: 3 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (7111,   1, 205, 0, 0) /* Strength */
@@ -137,21 +151,21 @@ VALUES (7111,  94) /* ATTACK_NOTIFICATION_EVENT */
      , (7111, 414) /* PLAYER_DEATH_EVENT */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (7111, 9,     0,  0, 0, 0.99, False) /* Create Unknown for ContainTreasure */
-     , (7111, 9,     0,  0, 0, 0.97, False) /* Create Unknown for ContainTreasure */
-     , (7111, 9,     0,  0, 0, 0.97, False) /* Create Unknown for ContainTreasure */
-     , (7111, 9,     0,  0, 0, 0.96, False) /* Create Unknown for ContainTreasure */
-     , (7111, 9,     0,  0, 0, 0.995, False) /* Create Unknown for ContainTreasure */
-     , (7111, 9,     0,  0, 0, 0.05, False) /* Create Unknown for ContainTreasure */
-     , (7111, 9,     0,  0, 0, 0.95, False) /* Create Unknown for ContainTreasure */
-     , (7111, 9,     0,  0, 0, 0.95, False) /* Create Unknown for ContainTreasure */
-     , (7111, 9,     0,  0, 0, 0.95, False) /* Create Unknown for ContainTreasure */
-     , (7111, 9,  6876,  0, 0, 0.01, False) /* Create Sturdy Iron Key for ContainTreasure */
-     , (7111, 9,  7046,  0, 0, 0.03, False) /* Create Sclavus Tongue for ContainTreasure */
-     , (7111, 9,  9259,  0, 0, 0.03, False) /* Create Large Sclavus Hide for ContainTreasure */
-     , (7111, 9, 12216,  0, 0, 0.05, False) /* Create Sclavus Head for ContainTreasure */
-     , (7111, 9, 20861,  0, 0, 0.04, False) /* Create Moons Stamp for ContainTreasure */
-     , (7111, 9, 22026,  0, 0, 0.05, False) /* Create Sclavus Arm for ContainTreasure */
-     , (7111, 9, 22030,  0, 0, 0.05, False) /* Create Sclavus Leg for ContainTreasure */
-     , (7111, 9, 22046,  0, 0, 0.05, False) /* Create Sclavus Torso for ContainTreasure */
-     , (7111, 9, 27386,  0, 0, 0.005, False) /* Create Gold Hill Ruins for ContainTreasure */;
+VALUES (7111, 9,     0,  0, 0, 0.99, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 3 for ContainTreasure */
+     , (7111, 9,     0,  0, 0, 0.97, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 3 for ContainTreasure */
+     , (7111, 9,     0,  0, 0, 0.97, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 3 for ContainTreasure */
+     , (7111, 9,     0,  0, 0, 0.96, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 3 for ContainTreasure */
+     , (7111, 9,     0,  0, 0, 0.995, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 3 for ContainTreasure */
+     , (7111, 9,     0,  0, 0, 0.05, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 3 for ContainTreasure */
+     , (7111, 9,     0,  0, 0, 0.95, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 3 for ContainTreasure */
+     , (7111, 9,     0,  0, 0, 0.95, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 3 for ContainTreasure */
+     , (7111, 9,     0,  0, 0, 0.95, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 3 for ContainTreasure */
+     , (7111, 9,  6876,  0, 0, 0.01, False) /* Create Sturdy Iron Key (6876) for ContainTreasure */
+     , (7111, 9,  7046,  0, 0, 0.03, False) /* Create Sclavus Tongue (7046) for ContainTreasure */
+     , (7111, 9,  9259,  0, 0, 0.03, False) /* Create Large Sclavus Hide (9259) for ContainTreasure */
+     , (7111, 9, 12216,  0, 0, 0.05, False) /* Create Sclavus Head (12216) for ContainTreasure */
+     , (7111, 9, 20861,  0, 0, 0.04, False) /* Create Moons Stamp (20861) for ContainTreasure */
+     , (7111, 9, 22026,  0, 0, 0.05, False) /* Create Sclavus Arm (22026) for ContainTreasure */
+     , (7111, 9, 22030,  0, 0, 0.05, False) /* Create Sclavus Leg (22030) for ContainTreasure */
+     , (7111, 9, 22046,  0, 0, 0.05, False) /* Create Sclavus Torso (22046) for ContainTreasure */
+     , (7111, 9, 27386,  0, 0, 0.005, False) /* Create Gold Hill Ruins (27386) for ContainTreasure */;

@@ -15,7 +15,7 @@ VALUES (14762,   1,         32) /* ItemType - Food */
      , (14762,  19,         14) /* Value */
      , (14762,  89,          4) /* BoosterEnum - Stamina */
      , (14762,  90,         50) /* BoostValue */
-     , (14762,  93,       1044) /* PhysicsState */
+     , (14762,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (14762, 150,        103) /* HookPlacement - Hook */
      , (14762, 151,          2) /* HookType - Wall */;
 

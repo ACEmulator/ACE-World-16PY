@@ -4,7 +4,7 @@ VALUES ('8871', 'dressbridesmaidsteele', 2) /* Clothing */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (8871,   1,          4) /* ItemType - Clothing */
      , (8871,   3,         14) /* PaletteTemplate - Red */
-     , (8871,   4,      81664) /* ClothingPriority */
+     , (8871,   4,      81664) /* ClothingPriority - OuterwearUpperLegs, OuterwearLowerLegs, OuterwearChest, OuterwearAbdomen, OuterwearUpperArms, OuterwearLowerArms, Feet */
      , (8871,   5,        200) /* EncumbranceVal */
      , (8871,   8,        150) /* Mass */
      , (8871,   9,      32512) /* ValidLocations - Armor */
@@ -13,7 +13,7 @@ VALUES (8871,   1,          4) /* ItemType - Clothing */
      , (8871,  27,          1) /* ArmorType */
      , (8871,  28,          0) /* ArmorLevel */
      , (8871,  33,          1) /* Bonded - Bonded */
-     , (8871,  93,       1044) /* PhysicsState */
+     , (8871,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (8871, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)

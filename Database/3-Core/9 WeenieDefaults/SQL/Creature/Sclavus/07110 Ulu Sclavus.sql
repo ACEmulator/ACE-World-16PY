@@ -12,8 +12,8 @@ VALUES (7110,   1,         16) /* ItemType - Creature */
      , (7110,  27,          0) /* ArmorType */
      , (7110,  40,          2) /* CombatMode - Melee */
      , (7110,  68,          3) /* TargetingTactic */
-     , (7110,  93,       1032) /* PhysicsState */
-     , (7110, 101,        183) /* AiAllowedCombatStyle */
+     , (7110,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
+     , (7110, 101,        183) /* AiAllowedCombatStyle - Unarmed, OneHanded, OneHandedAndShield, Bow, Crossbow, ThrownWeapon */
      , (7110, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (7110, 140,          1) /* AiOptions */
      , (7110, 146,      12341) /* XpOverride */;
@@ -72,8 +72,17 @@ VALUES (7110,   1,   33555608) /* Setup */
      , (7110,   7,  268435727) /* ClothingBase */
      , (7110,   8,  100669120) /* Icon */
      , (7110,  22,  872415280) /* PhysicsEffectTable */
-     , (7110,  32,        285) /* WieldedTreasureType */
-     , (7110,  35,        450) /* DeathTreasureType */;
+     , (7110,  32,        285) /* WieldedTreasureType - 
+                                   Wield Yumi (23736) | Probability: 60%
+                                   Wield 14x Greater Arrow (5304) | Probability: 100%
+                                   Wield Katar (23676) | Probability: 10%
+                                   Wield Nekode (23682) | Probability: 10%
+                                   Wield Cestus (23639) | Probability: 10%
+                                   Wield Spear (23698) | Probability: 10%
+                                   Wield Tachi (23702) | Probability: 10%
+                                   Wield Yari (23732) | Probability: 50%
+                                   Wield Kite Shield (23686) | Probability: 70% */
+     , (7110,  35,        450) /* DeathTreasureType - Loot Tier: 3 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (7110,   1, 190, 0, 0) /* Strength */
@@ -137,11 +146,11 @@ VALUES (7110,  94) /* ATTACK_NOTIFICATION_EVENT */
      , (7110, 414) /* PLAYER_DEATH_EVENT */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (7110, 9,     0,  0, 0, 0.99, False) /* Create Unknown for ContainTreasure */
-     , (7110, 9,     0,  0, 0, 0.97, False) /* Create Unknown for ContainTreasure */
-     , (7110, 9,     0,  0, 0, 0.97, False) /* Create Unknown for ContainTreasure */
-     , (7110, 9,     0,  0, 0, 0.97, False) /* Create Unknown for ContainTreasure */
-     , (7110, 9,  6876,  0, 0, 0.01, False) /* Create Sturdy Iron Key for ContainTreasure */
-     , (7110, 9,  7046,  0, 0, 0.03, False) /* Create Sclavus Tongue for ContainTreasure */
-     , (7110, 9,  9259,  0, 0, 0.03, False) /* Create Large Sclavus Hide for ContainTreasure */
-     , (7110, 9, 20861,  0, 0, 0.03, False) /* Create Moons Stamp for ContainTreasure */;
+VALUES (7110, 9,     0,  0, 0, 0.99, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 3 for ContainTreasure */
+     , (7110, 9,     0,  0, 0, 0.97, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 3 for ContainTreasure */
+     , (7110, 9,     0,  0, 0, 0.97, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 3 for ContainTreasure */
+     , (7110, 9,     0,  0, 0, 0.97, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 3 for ContainTreasure */
+     , (7110, 9,  6876,  0, 0, 0.01, False) /* Create Sturdy Iron Key (6876) for ContainTreasure */
+     , (7110, 9,  7046,  0, 0, 0.03, False) /* Create Sclavus Tongue (7046) for ContainTreasure */
+     , (7110, 9,  9259,  0, 0, 0.03, False) /* Create Large Sclavus Hide (9259) for ContainTreasure */
+     , (7110, 9, 20861,  0, 0, 0.03, False) /* Create Moons Stamp (20861) for ContainTreasure */;

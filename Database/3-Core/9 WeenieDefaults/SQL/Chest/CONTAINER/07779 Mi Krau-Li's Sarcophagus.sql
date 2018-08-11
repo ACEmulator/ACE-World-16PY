@@ -12,7 +12,7 @@ VALUES (7779,   1,        512) /* ItemType - Container */
      , (7779,  38,         50) /* ResistLockpick */
      , (7779,  81,          1) /* MaxGeneratedObjects */
      , (7779,  82,          1) /* InitGeneratedObjects */
-     , (7779,  93,       1048) /* PhysicsState */
+     , (7779,  93,       1048) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity */
      , (7779,  96,        500) /* EncumbranceCapacity */
      , (7779, 100,          1) /* GeneratorType - Relative */;
 
@@ -44,4 +44,4 @@ VALUES (7779,   1,   33554638) /* Setup */
      , (7779,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (7779, 1, 7776, 800, 1, 1, 2, 8, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0);
+VALUES (7779, 1, 7776, 800, 1, 1, 2, 8, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Note from Mi Krau-Li (7776) (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: Contain */;

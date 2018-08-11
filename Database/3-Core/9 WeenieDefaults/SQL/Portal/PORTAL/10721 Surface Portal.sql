@@ -4,7 +4,7 @@ VALUES ('10721', 'portalstagingcomplexexit', 7) /* Portal */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (10721,   1,      65536) /* ItemType - Portal */
      , (10721,  16,         32) /* ItemUseable - Remote */
-     , (10721,  93,       3084) /* PhysicsState */
+     , (10721,  93,       3084) /* PhysicsState - Ethereal, ReportCollisions, Gravity, LightingOn */
      , (10721, 111,          1) /* PortalBitmask - Unrestricted */
      , (10721, 133,          4) /* ShowableOnRadar - ShowAlways */;
 

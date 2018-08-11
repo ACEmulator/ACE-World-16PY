@@ -4,8 +4,8 @@ VALUES ('24166', 'portalvagabondc', 7) /* Portal */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (24166,   1,      65536) /* ItemType - Portal */
      , (24166,  16,         32) /* ItemUseable - Remote */
-     , (24166,  93,       3084) /* PhysicsState */
-     , (24166, 111,         49) /* PortalBitmask */
+     , (24166,  93,       3084) /* PhysicsState - Ethereal, ReportCollisions, Gravity, LightingOn */
+     , (24166, 111,         49) /* PortalBitmask - Unrestricted, NoSummon, NoRecall */
      , (24166, 133,          4) /* ShowableOnRadar - ShowAlways */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)

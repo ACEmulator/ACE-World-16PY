@@ -16,9 +16,9 @@ VALUES (2461,   1,        128) /* ItemType - Misc */
      , (2461,  19,       1000) /* Value */
      , (2461,  89,          6) /* BoosterEnum - Mana */
      , (2461,  90,         65) /* BoostValue */
-     , (2461,  93,       1044) /* PhysicsState */
+     , (2461,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (2461, 150,        103) /* HookPlacement - Hook */
-     , (2461, 151,         11) /* HookType */;
+     , (2461, 151,         11) /* HookType - Floor, Wall, Yard */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (2461,   1, 'Mana Elixir') /* Name */

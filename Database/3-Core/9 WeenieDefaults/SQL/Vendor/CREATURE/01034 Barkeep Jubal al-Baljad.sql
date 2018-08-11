@@ -10,10 +10,10 @@ VALUES (1034,   1,         16) /* ItemType - Creature */
      , (1034,  16,         32) /* ItemUseable - Remote */
      , (1034,  25,          5) /* Level */
      , (1034,  27,          0) /* ArmorType */
-     , (1034,  74,     262176) /* MerchandiseItemTypes */
+     , (1034,  74,     262176) /* MerchandiseItemTypes - Food, PromissoryNote */
      , (1034,  75,          0) /* MerchandiseMinValue */
      , (1034,  76,    1000000) /* MerchandiseMaxValue */
-     , (1034,  93,    2098200) /* PhysicsState */
+     , (1034,  93,    2098200) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */
      , (1034, 126,        125) /* VendorHappyMean */
      , (1034, 127,        125) /* VendorHappyVariance */
      , (1034, 133,          4) /* ShowableOnRadar - ShowAlways */
@@ -195,30 +195,30 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 318767235 /* Nod */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (1034, 2,   115,  0, 17, 1, False) /* Create Leather Boots for Wield */
-     , (1034, 2,   124,  0, 7, 0.33, False) /* Create Jerkin for Wield */
-     , (1034, 4,  1229, -1, 0, 0, False) /* Create Yaraq Tunnels Directions for Shop */
-     , (1034, 4,  1495, -1, 0, 0, False) /* Create Armoredillo Lair Directions for Shop */
-     , (1034, 4,  1510, -1, 0, 0, False) /* Create Traveler's Rumor for Shop */
-     , (1034, 4,  2459, -1, 0, 0, False) /* Create Kumiss for Shop */
-     , (1034, 4,  2465, -1, 0, 0, False) /* Create Palm Wine for Shop */
-     , (1034, 4,  2469, -1, 0, 0, False) /* Create Small Beer for Shop */
-     , (1034, 2,  2598,  0, 17, 1, False) /* Create Pants for Wield */
-     , (1034, 4,  4723, -1, 0, 0, False) /* Create Fish Kebab for Shop */
-     , (1034, 4,  4726, -1, 0, 0, False) /* Create Fish Stew for Shop */
-     , (1034, 4,  4730, -1, 0, 0, False) /* Create Fried Fish Filet for Shop */
-     , (1034, 4,  4740, -1, 0, 0, False) /* Create Pickled Fish for Shop */
-     , (1034, 4,  4746, -1, 0, 0, False) /* Create Water for Shop */
-     , (1034, 4,  5136, -1, 0, 0, False) /* Create Cove Apple Cider for Shop */
-     , (1034, 4,  5163, -1, 0, 0, False) /* Create Directions to the Sea Temple Catacombs for Shop */
-     , (1034, 4,  5371, -1, 0, 0, False) /* Create Directions to the Pillars of the Inner Sea for Shop */
-     , (1034, 4,  5602, -1, 0, 0, False) /* Create The Festival Stones of the Empyrean for Shop */
-     , (1034, 4,  6419, -1, 0, 0, False) /* Create The Meeting Halls for Shop */
-     , (1034, 4,  8209, -1, 0, 0, False) /* Create Call for Adventurers! for Shop */
-     , (1034, 4,  8378, -1, 0, 0, False) /* Create Beer Stein for Shop */
-     , (1034, 2, 10696,  0, 9, 1, False) /* Create Apron for Wield */
-     , (1034, 4, 26491, -1, 0, 0, False) /* Create Directions to the al-Luq House for Shop */
-     , (1034, 4, 26493, -1, 0, 0, False) /* Create Tumerok Camp for Shop */
-     , (1034, 4, 26494, -1, 0, 0, False) /* Create Undead Encampment for Shop */
-     , (1034, 4, 26495, -1, 0, 0, False) /* Create Directions to the Red Rat Lair for Shop */
-     , (1034, 4, 26496, -1, 0, 0, False) /* Create North and East Yaraq Outposts for Shop */;
+VALUES (1034, 2,   115,  0, 17, 1, False) /* Create Leather Boots (115) for Wield */
+     , (1034, 2,   124,  0, 7, 0.33, False) /* Create Jerkin (124) for Wield */
+     , (1034, 4,  1229, -1, 0, 0, False) /* Create Yaraq Tunnels Directions (1229) for Shop */
+     , (1034, 4,  1495, -1, 0, 0, False) /* Create Armoredillo Lair Directions (1495) for Shop */
+     , (1034, 4,  1510, -1, 0, 0, False) /* Create Traveler's Rumor (1510) for Shop */
+     , (1034, 4,  2459, -1, 0, 0, False) /* Create Kumiss (2459) for Shop */
+     , (1034, 4,  2465, -1, 0, 0, False) /* Create Palm Wine (2465) for Shop */
+     , (1034, 4,  2469, -1, 0, 0, False) /* Create Small Beer (2469) for Shop */
+     , (1034, 2,  2598,  0, 17, 1, False) /* Create Pants (2598) for Wield */
+     , (1034, 4,  4723, -1, 0, 0, False) /* Create Fish Kebab (4723) for Shop */
+     , (1034, 4,  4726, -1, 0, 0, False) /* Create Fish Stew (4726) for Shop */
+     , (1034, 4,  4730, -1, 0, 0, False) /* Create Fried Fish Filet (4730) for Shop */
+     , (1034, 4,  4740, -1, 0, 0, False) /* Create Pickled Fish (4740) for Shop */
+     , (1034, 4,  4746, -1, 0, 0, False) /* Create Water (4746) for Shop */
+     , (1034, 4,  5136, -1, 0, 0, False) /* Create Cove Apple Cider (5136) for Shop */
+     , (1034, 4,  5163, -1, 0, 0, False) /* Create Directions to the Sea Temple Catacombs (5163) for Shop */
+     , (1034, 4,  5371, -1, 0, 0, False) /* Create Directions to the Pillars of the Inner Sea (5371) for Shop */
+     , (1034, 4,  5602, -1, 0, 0, False) /* Create The Festival Stones of the Empyrean (5602) for Shop */
+     , (1034, 4,  6419, -1, 0, 0, False) /* Create The Meeting Halls (6419) for Shop */
+     , (1034, 4,  8209, -1, 0, 0, False) /* Create Call for Adventurers! (8209) for Shop */
+     , (1034, 4,  8378, -1, 0, 0, False) /* Create Beer Stein (8378) for Shop */
+     , (1034, 2, 10696,  0, 9, 1, False) /* Create Apron (10696) for Wield */
+     , (1034, 4, 26491, -1, 0, 0, False) /* Create Directions to the al-Luq House (26491) for Shop */
+     , (1034, 4, 26493, -1, 0, 0, False) /* Create Tumerok Camp (26493) for Shop */
+     , (1034, 4, 26494, -1, 0, 0, False) /* Create Undead Encampment (26494) for Shop */
+     , (1034, 4, 26495, -1, 0, 0, False) /* Create Directions to the Red Rat Lair (26495) for Shop */
+     , (1034, 4, 26496, -1, 0, 0, False) /* Create North and East Yaraq Outposts (26496) for Shop */;

@@ -14,7 +14,7 @@ VALUES (9400,   1,         16) /* ItemType - Creature */
      , (9400,  72,          5) /* FriendType - Lugian */
      , (9400,  81,          3) /* MaxGeneratedObjects */
      , (9400,  82,          3) /* InitGeneratedObjects */
-     , (9400,  93,       1032) /* PhysicsState */
+     , (9400,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (9400, 103,          1) /* GeneratorDestructionType - Nothing */
      , (9400, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (9400, 146,       4666) /* XpOverride */;
@@ -73,7 +73,7 @@ VALUES (9400,   1,   33555590) /* Setup */
      , (9400,   8,  100669121) /* Icon */
      , (9400,  22,  872415278) /* PhysicsEffectTable */
      , (9400,  30,         84) /* PhysicsScript - BreatheFlame */
-     , (9400,  35,        457) /* DeathTreasureType */;
+     , (9400,  35,        457) /* DeathTreasureType - Loot Tier: 2 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (9400,   1, 175, 0, 0) /* Strength */
@@ -173,5 +173,5 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 268435540 /* Twitch4 */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (9400, 9,     0,  0, 0, 0.98, False) /* Create Unknown for ContainTreasure */
-     , (9400, 9,  9412,  0, 0, 0.02, False) /* Create Dire Mattekar Paw for ContainTreasure */;
+VALUES (9400, 9,     0,  0, 0, 0.98, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 2 for ContainTreasure */
+     , (9400, 9,  9412,  0, 0, 0.02, False) /* Create Dire Mattekar Paw (9412) for ContainTreasure */;

@@ -12,8 +12,8 @@ VALUES (4991,   1,         16) /* ItemType - Creature */
      , (4991,  27,          0) /* ArmorType */
      , (4991,  40,          1) /* CombatMode - NonCombat */
      , (4991,  68,          9) /* TargetingTactic */
-     , (4991,  93,       1032) /* PhysicsState */
-     , (4991, 101,        183) /* AiAllowedCombatStyle */
+     , (4991,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
+     , (4991, 101,        183) /* AiAllowedCombatStyle - Unarmed, OneHanded, OneHandedAndShield, Bow, Crossbow, ThrownWeapon */
      , (4991, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (4991, 146,       3492) /* XpOverride */;
 
@@ -148,6 +148,6 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 318767226 /* Beckon */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (4991, 2,    95,  0, 0, 0, False) /* Create Tower Shield for Wield */
-     , (4991, 2,  4981,  0, 0, 0, False) /* Create Ice Heaume of Frore for Wield */
-     , (4991, 2,  4982,  0, 0, 0, False) /* Create Hammer of Frore for Wield */;
+VALUES (4991, 2,    95,  0, 0, 0, False) /* Create Tower Shield (95) for Wield */
+     , (4991, 2,  4981,  0, 0, 0, False) /* Create Ice Heaume of Frore (4981) for Wield */
+     , (4991, 2,  4982,  0, 0, 0, False) /* Create Hammer of Frore (4982) for Wield */;

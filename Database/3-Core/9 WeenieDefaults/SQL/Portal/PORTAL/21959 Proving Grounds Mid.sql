@@ -4,8 +4,8 @@ VALUES ('21959', 'portalprovinggroundssilencemid', 7) /* Portal */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (21959,   1,      65536) /* ItemType - Portal */
      , (21959,  16,         32) /* ItemUseable - Remote */
-     , (21959,  93,       3084) /* PhysicsState */
-     , (21959, 111,         49) /* PortalBitmask */
+     , (21959,  93,       3084) /* PhysicsState - Ethereal, ReportCollisions, Gravity, LightingOn */
+     , (21959, 111,         49) /* PortalBitmask - Unrestricted, NoSummon, NoRecall */
      , (21959, 133,          4) /* ShowableOnRadar - ShowAlways */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)

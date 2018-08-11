@@ -13,7 +13,7 @@ VALUES (30538,   1,        128) /* ItemType - Misc */
      , (30538,  15,        100) /* StackUnitValue */
      , (30538,  16,          1) /* ItemUseable - No */
      , (30538,  19,        100) /* Value */
-     , (30538,  93,       1044) /* PhysicsState */;
+     , (30538,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (30538,  23, True ) /* DestroyOnSell */;

@@ -11,7 +11,7 @@ VALUES (19633,   1,          8) /* ItemType - Jewelry */
      , (19633,  18,         32) /* UiEffects - Fire */
      , (19633,  19,       5000) /* Value */
      , (19633,  33,          1) /* Bonded - Bonded */
-     , (19633,  93,       1044) /* PhysicsState */
+     , (19633,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (19633, 106,        225) /* ItemSpellcraft */
      , (19633, 107,        500) /* ItemCurMana */
      , (19633, 108,        500) /* ItemMaxMana */

@@ -19,7 +19,7 @@ VALUES (7324,   1,          1) /* ItemType - MeleeWeapon */
      , (7324,  48,          5) /* WeaponSkill - Mace */
      , (7324,  49,         40) /* WeaponTime */
      , (7324,  51,          1) /* CombatUse - Melee */
-     , (7324,  93,       1044) /* PhysicsState */;
+     , (7324,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (7324,  22, True ) /* Inscribable */

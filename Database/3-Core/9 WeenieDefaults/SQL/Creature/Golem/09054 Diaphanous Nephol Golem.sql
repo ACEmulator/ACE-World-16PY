@@ -11,7 +11,7 @@ VALUES (9054,   1,         16) /* ItemType - Creature */
      , (9054,  27,          0) /* ArmorType */
      , (9054,  40,          2) /* CombatMode - Melee */
      , (9054,  68,          9) /* TargetingTactic */
-     , (9054,  93,       1032) /* PhysicsState */
+     , (9054,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (9054, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (9054, 146,      14000) /* XpOverride */;
 
@@ -143,6 +143,6 @@ VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 1090519043 /* Ready */, NULL, NU
      , (@parent_id,  1,   5 /* Motion */, 0, 1, 1090519060 /* Sleeping */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (9054, 9,     0,  0, 0, 0.98, False) /* Create Unknown for ContainTreasure */
-     , (9054, 9,  9045,  0, 0, 1, False) /* Create Pale Crystal for ContainTreasure */
-     , (9054, 9,  9046,  0, 0, 0.02, False) /* Create Sunstone Geode for ContainTreasure */;
+VALUES (9054, 9,     0,  0, 0, 0.98, False) /* Create UNKNOWN RANDOMLY GENERATED TREASURE for ContainTreasure */
+     , (9054, 9,  9045,  0, 0, 1, False) /* Create Pale Crystal (9045) for ContainTreasure */
+     , (9054, 9,  9046,  0, 0, 0.02, False) /* Create Sunstone Geode (9046) for ContainTreasure */;

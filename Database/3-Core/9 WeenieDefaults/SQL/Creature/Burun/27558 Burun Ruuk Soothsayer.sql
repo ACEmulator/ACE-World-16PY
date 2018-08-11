@@ -12,8 +12,8 @@ VALUES (27558,   1,         16) /* ItemType - Creature */
      , (27558,  27,          0) /* ArmorType */
      , (27558,  40,          2) /* CombatMode - Melee */
      , (27558,  68,         13) /* TargetingTactic */
-     , (27558,  93,       1032) /* PhysicsState */
-     , (27558, 101,        131) /* AiAllowedCombatStyle */
+     , (27558,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
+     , (27558, 101,        131) /* AiAllowedCombatStyle - Unarmed, OneHanded, ThrownWeapon */
      , (27558, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (27558, 140,          1) /* AiOptions */
      , (27558, 146,      62120) /* XpOverride */;
@@ -72,8 +72,13 @@ VALUES (27558,   1,   33558582) /* Setup */
      , (27558,   7,  268436789) /* ClothingBase */
      , (27558,   8,  100675761) /* Icon */
      , (27558,  22,  872415402) /* PhysicsEffectTable */
-     , (27558,  32,        467) /* WieldedTreasureType */
-     , (27558,  35,        452) /* DeathTreasureType */;
+     , (27558,  32,        467) /* WieldedTreasureType - 
+                                   Wield Stone Axe (26022) | Probability: 20%
+                                   Wield Bone Dagger (26031) | Probability: 20%
+                                   Wield Stone Mace (26043) | Probability: 20%
+                                   Wield Stone Spear (26048) | Probability: 20%
+                                   Wield Bone Sword (26052) | Probability: 20% */
+     , (27558,  35,        452) /* DeathTreasureType - Loot Tier: 5 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (27558,   1, 180, 0, 0) /* Strength */
@@ -216,5 +221,5 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 268435537 /* Twitch1 */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (27558, 9,     0,  0, 0, 0, False) /* Create Unknown for ContainTreasure */
-     , (27558, 9, 27526,  0, 0, 1, False) /* Create Burun Idol for ContainTreasure */;
+VALUES (27558, 9,     0,  0, 0, 0, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 5 for ContainTreasure */
+     , (27558, 9, 27526,  0, 0, 1, False) /* Create Burun Idol (27526) for ContainTreasure */;

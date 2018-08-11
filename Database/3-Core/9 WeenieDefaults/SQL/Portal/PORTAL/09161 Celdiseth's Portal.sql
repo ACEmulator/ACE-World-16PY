@@ -4,8 +4,8 @@ VALUES ('9161', 'portalfebrewardtufa', 7) /* Portal */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (9161,   1,      65536) /* ItemType - Portal */
      , (9161,  16,         32) /* ItemUseable - Remote */
-     , (9161,  93,       3084) /* PhysicsState */
-     , (9161, 111,         17) /* PortalBitmask */
+     , (9161,  93,       3084) /* PhysicsState - Ethereal, ReportCollisions, Gravity, LightingOn */
+     , (9161, 111,         17) /* PortalBitmask - Unrestricted, NoSummon */
      , (9161, 133,          4) /* ShowableOnRadar - ShowAlways */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)

@@ -10,10 +10,10 @@ VALUES (22726,   1,         16) /* ItemType - Creature */
      , (22726,  16,         32) /* ItemUseable - Remote */
      , (22726,  25,          3) /* Level */
      , (22726,  27,          0) /* ArmorType */
-     , (22726,  74,     264200) /* MerchandiseItemTypes */
+     , (22726,  74,     264200) /* MerchandiseItemTypes - Jewelry, Gem, PromissoryNote */
      , (22726,  75,          0) /* MerchandiseMinValue */
      , (22726,  76,     100000) /* MerchandiseMaxValue */
-     , (22726,  93,    2098200) /* PhysicsState */
+     , (22726,  93,    2098200) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */
      , (22726, 126,      20000) /* VendorHappyMean */
      , (22726, 127,      19000) /* VendorHappyVariance */
      , (22726, 133,          4) /* ShowableOnRadar - ShowAlways */
@@ -131,11 +131,11 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,  10 /* Tell */, 0, 1, NULL, 'Ooo oo ah.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (22726, 4,   294, -1, 0, 0, False) /* Create Amulet for Shop */
-     , (22726, 4,   297, -1, 0, 0, False) /* Create Ring for Shop */
-     , (22726, 4,  2396, -1, 0, 0, False) /* Create Jet for Shop */
-     , (22726, 4,  2426, -1, 0, 0, False) /* Create Amber  for Shop */
-     , (22726, 4,  2621, -1, 0, 0, False) /* Create Trade Note (100) for Shop */
-     , (22726, 4,  2622, -1, 0, 0, False) /* Create Trade Note (500) for Shop */
-     , (22726, 4,  2623, -1, 0, 0, False) /* Create Trade Note (1,000) for Shop */
-     , (22726, 2, 10757,  0, 8, 0.5, False) /* Create Towel for Wield */;
+VALUES (22726, 4,   294, -1, 0, 0, False) /* Create Amulet (294) for Shop */
+     , (22726, 4,   297, -1, 0, 0, False) /* Create Ring (297) for Shop */
+     , (22726, 4,  2396, -1, 0, 0, False) /* Create Jet (2396) for Shop */
+     , (22726, 4,  2426, -1, 0, 0, False) /* Create Amber  (2426) for Shop */
+     , (22726, 4,  2621, -1, 0, 0, False) /* Create Trade Note (100) (2621) for Shop */
+     , (22726, 4,  2622, -1, 0, 0, False) /* Create Trade Note (500) (2622) for Shop */
+     , (22726, 4,  2623, -1, 0, 0, False) /* Create Trade Note (1,000) (2623) for Shop */
+     , (22726, 2, 10757,  0, 8, 0.5, False) /* Create Towel (10757) for Wield */;

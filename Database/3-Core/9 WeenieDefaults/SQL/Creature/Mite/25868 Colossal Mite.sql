@@ -12,8 +12,8 @@ VALUES (25868,   1,         16) /* ItemType - Creature */
      , (25868,  27,          0) /* ArmorType */
      , (25868,  40,          2) /* CombatMode - Melee */
      , (25868,  68,          5) /* TargetingTactic */
-     , (25868,  93,       1032) /* PhysicsState */
-     , (25868, 101,        129) /* AiAllowedCombatStyle */
+     , (25868,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
+     , (25868, 101,        129) /* AiAllowedCombatStyle - Unarmed, ThrownWeapon */
      , (25868, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (25868, 146,    5000000) /* XpOverride */;
 
@@ -68,7 +68,7 @@ VALUES (25868,   1,   33558656) /* Setup */
      , (25868,   7,  268436816) /* ClothingBase */
      , (25868,   8,  100667448) /* Icon */
      , (25868,  22,  872415263) /* PhysicsEffectTable */
-     , (25868,  35,         26) /* DeathTreasureType */;
+     , (25868,  35,         26) /* DeathTreasureType - Loot Tier: 6 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (25868,   1, 500, 0, 0) /* Strength */
@@ -109,7 +109,7 @@ VALUES (25868,  94) /* ATTACK_NOTIFICATION_EVENT */
      , (25868, 414) /* PLAYER_DEATH_EVENT */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (25868, 9,     0,  0, 0, 0, False) /* Create Unknown for ContainTreasure */
-     , (25868, 9,     0,  0, 0, 0.97, False) /* Create Unknown for ContainTreasure */
-     , (25868, 9, 25899,  1, 0, 1, False) /* Create Mite Leg Bone for ContainTreasure */
-     , (25868, 9, 30823,  0, 0, 0.03, False) /* Create Broken Black Marrow Key for ContainTreasure */;
+VALUES (25868, 9,     0,  0, 0, 0, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 6 for ContainTreasure */
+     , (25868, 9,     0,  0, 0, 0.97, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 6 for ContainTreasure */
+     , (25868, 9, 25899,  1, 0, 1, False) /* Create Mite Leg Bone (25899) for ContainTreasure */
+     , (25868, 9, 30823,  0, 0, 0.03, False) /* Create Broken Black Marrow Key (30823) for ContainTreasure */;

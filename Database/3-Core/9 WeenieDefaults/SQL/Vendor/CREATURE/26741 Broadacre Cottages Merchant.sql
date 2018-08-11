@@ -10,10 +10,10 @@ VALUES (26741,   1,         16) /* ItemType - Creature */
      , (26741,  16,         32) /* ItemUseable - Remote */
      , (26741,  25,         10) /* Level */
      , (26741,  27,          0) /* ArmorType */
-     , (26741,  74,     264192) /* MerchandiseItemTypes */
+     , (26741,  74,     264192) /* MerchandiseItemTypes - Gem, PromissoryNote */
      , (26741,  75,          0) /* MerchandiseMinValue */
      , (26741,  76,    1000000) /* MerchandiseMaxValue */
-     , (26741,  93,    2098204) /* PhysicsState */
+     , (26741,  93,    2098204) /* PhysicsState - Ethereal, ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */
      , (26741, 126,        125) /* VendorHappyMean */
      , (26741, 127,        125) /* VendorHappyVariance */
      , (26741, 133,          4) /* ShowableOnRadar - ShowAlways */
@@ -97,4 +97,4 @@ VALUES (26741,  0,  4,  0,    0,    0,    0,    0,    0,    0,    0,    0,    0,
      , (26741,  8,  4,  2, 0.75,    0,    0,    0,    0,    0,    0,    0,    0,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (26741, 4, 26106, -1, 0, 0, False) /* Create Broadacre Cottages Portal Gem for Shop */;
+VALUES (26741, 4, 26106, -1, 0, 0, False) /* Create Broadacre Cottages Portal Gem (26106) for Shop */;

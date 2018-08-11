@@ -11,8 +11,8 @@ VALUES (11506,   1,         16) /* ItemType - Creature */
      , (11506,  25,        105) /* Level */
      , (11506,  27,          0) /* ArmorType */
      , (11506,  68,         13) /* TargetingTactic */
-     , (11506,  93,       1032) /* PhysicsState */
-     , (11506, 101,        131) /* AiAllowedCombatStyle */
+     , (11506,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
+     , (11506, 101,        131) /* AiAllowedCombatStyle - Unarmed, OneHanded, ThrownWeapon */
      , (11506, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (11506, 146,      18656) /* XpOverride */;
 
@@ -68,7 +68,7 @@ VALUES (11506,   1,   33554433) /* Setup */
      , (11506,   4,  805306368) /* CombatTable */
      , (11506,   8,  100667446) /* Icon */
      , (11506,  22,  872415236) /* PhysicsEffectTable */
-     , (11506,  35,        448) /* DeathTreasureType */;
+     , (11506,  35,        448) /* DeathTreasureType - Loot Tier: 4 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (11506,   1, 150, 0, 0) /* Strength */
@@ -121,20 +121,20 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 1124073753, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (11506, 10,     0,  0, 0, 0, False) /* Create Unknown for WieldTreasure */
-     , (11506, 9,     0,  0, 0, 0.98, False) /* Create Unknown for ContainTreasure */
-     , (11506, 9,     0,  0, 0, 0.95, False) /* Create Unknown for ContainTreasure */
-     , (11506, 9,  6876,  0, 0, 0.02, False) /* Create Sturdy Iron Key for ContainTreasure */
-     , (11506, 10, 12187,  0, 0, 0.1, False) /* Create Assassin's Acid Jambiya for WieldTreasure */
-     , (11506, 10, 12188,  0, 0, 0.1, False) /* Create Assassin's Jambiya for WieldTreasure */
-     , (11506, 10, 12189,  0, 0, 0.1, False) /* Create Assassin's Lightning Jambiya for WieldTreasure */
-     , (11506, 10, 12190,  0, 0, 0.1, False) /* Create Assassin's Flaming Jambiya for WieldTreasure */
-     , (11506, 10, 12191,  0, 0, 0.1, False) /* Create Assassin's Frost Jambiya for WieldTreasure */
-     , (11506, 2, 12192,  0, 0, 1, False) /* Create Shadow's Garb for Wield */
-     , (11506, 2, 12193,  0, 0, 1, False) /* Create Dho Vest and Robe for Wield */
-     , (11506, 10, 12194,  0, 0, 0.1, False) /* Create Assassin's Acid Simi for WieldTreasure */
-     , (11506, 10, 12195,  0, 0, 0.1, False) /* Create Assassin's Simi for WieldTreasure */
-     , (11506, 10, 12196,  0, 0, 0.1, False) /* Create Assassin's Lightning Simi for WieldTreasure */
-     , (11506, 10, 12197,  0, 0, 0.1, False) /* Create Assassin's Flaming Simi for WieldTreasure */
-     , (11506, 10, 12198,  0, 0, 0.1, False) /* Create Assassin's Frost Simi for WieldTreasure */
-     , (11506, 9, 25557,  0, 0, 0.05, False) /* Create Eye Patch for ContainTreasure */;
+VALUES (11506, 10,     0,  0, 0, 0, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 4 for WieldTreasure */
+     , (11506, 9,     0,  0, 0, 0.98, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 4 for ContainTreasure */
+     , (11506, 9,     0,  0, 0, 0.95, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 4 for ContainTreasure */
+     , (11506, 9,  6876,  0, 0, 0.02, False) /* Create Sturdy Iron Key (6876) for ContainTreasure */
+     , (11506, 10, 12187,  0, 0, 0.1, False) /* Create Assassin's Acid Jambiya (12187) for WieldTreasure */
+     , (11506, 10, 12188,  0, 0, 0.1, False) /* Create Assassin's Jambiya (12188) for WieldTreasure */
+     , (11506, 10, 12189,  0, 0, 0.1, False) /* Create Assassin's Lightning Jambiya (12189) for WieldTreasure */
+     , (11506, 10, 12190,  0, 0, 0.1, False) /* Create Assassin's Flaming Jambiya (12190) for WieldTreasure */
+     , (11506, 10, 12191,  0, 0, 0.1, False) /* Create Assassin's Frost Jambiya (12191) for WieldTreasure */
+     , (11506, 2, 12192,  0, 0, 1, False) /* Create Shadow's Garb (12192) for Wield */
+     , (11506, 2, 12193,  0, 0, 1, False) /* Create Dho Vest and Robe (12193) for Wield */
+     , (11506, 10, 12194,  0, 0, 0.1, False) /* Create Assassin's Acid Simi (12194) for WieldTreasure */
+     , (11506, 10, 12195,  0, 0, 0.1, False) /* Create Assassin's Simi (12195) for WieldTreasure */
+     , (11506, 10, 12196,  0, 0, 0.1, False) /* Create Assassin's Lightning Simi (12196) for WieldTreasure */
+     , (11506, 10, 12197,  0, 0, 0.1, False) /* Create Assassin's Flaming Simi (12197) for WieldTreasure */
+     , (11506, 10, 12198,  0, 0, 0.1, False) /* Create Assassin's Frost Simi (12198) for WieldTreasure */
+     , (11506, 9, 25557,  0, 0, 0.05, False) /* Create Eye Patch (25557) for ContainTreasure */;

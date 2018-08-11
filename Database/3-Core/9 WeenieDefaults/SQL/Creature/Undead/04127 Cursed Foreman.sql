@@ -13,8 +13,8 @@ VALUES (4127,   1,         16) /* ItemType - Creature */
      , (4127,  40,          1) /* CombatMode - NonCombat */
      , (4127,  68,          3) /* TargetingTactic */
      , (4127,  72,         30) /* FriendType - Skeleton */
-     , (4127,  93,       1032) /* PhysicsState */
-     , (4127, 101,        183) /* AiAllowedCombatStyle */
+     , (4127,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
+     , (4127, 101,        183) /* AiAllowedCombatStyle - Unarmed, OneHanded, OneHandedAndShield, Bow, Crossbow, ThrownWeapon */
      , (4127, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (4127, 146,       6500) /* XpOverride */;
 
@@ -71,7 +71,28 @@ VALUES (4127,   1,   33554839) /* Setup */
      , (4127,   7,  268435558) /* ClothingBase */
      , (4127,   8,  100667942) /* Icon */
      , (4127,  22,  872415272) /* PhysicsEffectTable */
-     , (4127,  32,        249) /* WieldedTreasureType */
+     , (4127,  32,        249) /* WieldedTreasureType - 
+                                   Wield 4x Throwing Club (23654) | Probability: 10%
+                                   Wield Yumi (23735) | Probability: 10%
+                                   Wield 18x Arrow (300) | Probability: 100%
+                                   Wield Yumi (23735) | Probability: 10%
+                                   Wield 20x Fire Arrow (1437) | Probability: 100%
+                                   Wield Yumi (23735) | Probability: 10%
+                                   Wield 10x Acid Arrow (4181) | Probability: 100%
+                                   Wield Heavy Crossbow (23666) | Probability: 10%
+                                   Wield 12x Quarrel (305) | Probability: 100%
+                                   Wield Heavy Crossbow (23666) | Probability: 10%
+                                   Wield 14x Fire Quarrel (4188) | Probability: 100%
+                                   Wield Heavy Crossbow (23666) | Probability: 10%
+                                   Wield 16x Acid Quarrel (4185) | Probability: 100%
+                                   Wield Katar (23675) | Probability: 15%
+                                   Wield Cestus (23638) | Probability: 15%
+                                   Wield Nekode (23681) | Probability: 15%
+                                   Wield Spear (23697) | Probability: 15%
+                                   Wield Tachi (23701) | Probability: 15%
+                                   Wield Yari (23731) | Probability: 15%
+                                   Wield Kite Shield (23685) | Probability: 50%
+                                   Wield Tower Shield (95) | Probability: 25% */
      , (4127,  33,        239) /* UnknownGuessedname */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

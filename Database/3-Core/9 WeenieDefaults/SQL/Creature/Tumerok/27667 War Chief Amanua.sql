@@ -11,8 +11,8 @@ VALUES (27667,   1,         16) /* ItemType - Creature */
      , (27667,  25,        135) /* Level */
      , (27667,  27,          0) /* ArmorType */
      , (27667,  68,          5) /* TargetingTactic */
-     , (27667,  93,       1032) /* PhysicsState */
-     , (27667, 101,        183) /* AiAllowedCombatStyle */
+     , (27667,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
+     , (27667, 101,        183) /* AiAllowedCombatStyle - Unarmed, OneHanded, OneHandedAndShield, Bow, Crossbow, ThrownWeapon */
      , (27667, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (27667, 140,          1) /* AiOptions */
      , (27667, 146,     314480) /* XpOverride */;
@@ -72,8 +72,14 @@ VALUES (27667,   1,   33554496) /* Setup */
      , (27667,   7,  268436631) /* ClothingBase */
      , (27667,   8,  100667452) /* Icon */
      , (27667,  22,  872415270) /* PhysicsEffectTable */
-     , (27667,  32,        426) /* WieldedTreasureType */
-     , (27667,  35,        449) /* DeathTreasureType */;
+     , (27667,  32,        426) /* WieldedTreasureType - 
+                                   Wield Tachi (23136) | Probability: 30%
+                                   Wield Kite Shield (23135) | Probability: 100%
+                                   Wield Yumi (23137) | Probability: 30%
+                                   Wield 20x Deadly Arrow (15429) | Probability: 100%
+                                   Wield Heavy Crossbow (23131) | Probability: 30%
+                                   Wield 50x Deadly Quarrel (15438) | Probability: 100% */
+     , (27667,  35,        449) /* DeathTreasureType - Loot Tier: 6 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (27667,   1, 320, 0, 0) /* Strength */
@@ -181,5 +187,5 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   8 /* Say */, 0, 0, NULL, 'Mighty spirits watch over my soul. What hope have you to penetrate their protection?', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (27667, 9,     0,  0, 0, 0, False) /* Create Unknown for ContainTreasure */
-     , (27667, 9, 27651,  0, 0, 1, False) /* Create Ornate Tumerok Breastplate for ContainTreasure */;
+VALUES (27667, 9,     0,  0, 0, 0, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 6 for ContainTreasure */
+     , (27667, 9, 27651,  0, 0, 1, False) /* Create Ornate Tumerok Breastplate (27651) for ContainTreasure */;

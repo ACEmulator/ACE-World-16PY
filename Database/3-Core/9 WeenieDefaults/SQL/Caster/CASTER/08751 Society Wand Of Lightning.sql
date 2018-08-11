@@ -10,8 +10,8 @@ VALUES (8751,   1,      32768) /* ItemType - Caster */
      , (8751,  16,    6291460) /* ItemUseable - SourceWieldedTargetRemoteNeverWalk */
      , (8751,  19,          1) /* Value */
      , (8751,  46,        512) /* DefaultCombatStyle - Magic */
-     , (8751,  93,       1044) /* PhysicsState */
-     , (8751,  94,         16) /* TargetType - Creature */
+     , (8751,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (8751,  94,         16) /* TargetType - Reedshark */
      , (8751, 106,        150) /* ItemSpellcraft */
      , (8751, 107,        600) /* ItemCurMana */
      , (8751, 108,        600) /* ItemMaxMana */

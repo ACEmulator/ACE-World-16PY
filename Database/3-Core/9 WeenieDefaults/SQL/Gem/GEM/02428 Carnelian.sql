@@ -14,7 +14,7 @@ VALUES (2428,   1,       2048) /* ItemType - Gem */
      , (2428,  15,         50) /* StackUnitValue */
      , (2428,  16,          1) /* ItemUseable - No */
      , (2428,  19,         50) /* Value */
-     , (2428,  93,       1044) /* PhysicsState */
+     , (2428,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (2428, 131,         18) /* MaterialType - Carnelian */
      , (2428, 169,   16777216) /* TsysMutationData */;
 

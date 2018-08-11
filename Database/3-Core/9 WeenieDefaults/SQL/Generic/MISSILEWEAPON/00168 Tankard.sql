@@ -15,7 +15,7 @@ VALUES (168,   1,        256) /* ItemType - MissileWeapon */
      , (168,  48,         12) /* WeaponSkill - ThrownWeapon */
      , (168,  49,         10) /* WeaponTime */
      , (168,  51,          2) /* CombatUse - Missle */
-     , (168,  93,     132116) /* PhysicsState */
+     , (168,  93,     132116) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, Inelastic */
      , (168, 150,        103) /* HookPlacement - Hook */
      , (168, 151,          1) /* HookType - Floor */
      , (168, 169,  268633862) /* TsysMutationData */;

@@ -4,8 +4,8 @@ VALUES ('10854', 'portallegionarynamequestexit-xp', 7) /* Portal */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (10854,   1,      65536) /* ItemType - Portal */
      , (10854,  16,         32) /* ItemUseable - Remote */
-     , (10854,  93,       3084) /* PhysicsState */
-     , (10854, 111,         49) /* PortalBitmask */
+     , (10854,  93,       3084) /* PhysicsState - Ethereal, ReportCollisions, Gravity, LightingOn */
+     , (10854, 111,         49) /* PortalBitmask - Unrestricted, NoSummon, NoRecall */
      , (10854, 133,          4) /* ShowableOnRadar - ShowAlways */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)

@@ -12,7 +12,7 @@ VALUES (23596,   1,        512) /* ItemType - Container */
      , (23596,  81,          1) /* MaxGeneratedObjects */
      , (23596,  82,          1) /* InitGeneratedObjects */
      , (23596,  83,          2) /* ActivationResponse - Use */
-     , (23596,  93,       1048) /* PhysicsState */
+     , (23596,  93,       1048) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity */
      , (23596,  96,        500) /* EncumbranceCapacity */
      , (23596, 100,          1) /* GeneratorType - Relative */;
 
@@ -41,4 +41,4 @@ VALUES (23596,   1,   33554556) /* Setup */
      , (23596,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (23596, 1, 8529, 0, 1, 1, 2, 8, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0);
+VALUES (23596, 1, 8529, 0, 1, 1, 2, 8, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Splintered Staff (8529) (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: Contain */;

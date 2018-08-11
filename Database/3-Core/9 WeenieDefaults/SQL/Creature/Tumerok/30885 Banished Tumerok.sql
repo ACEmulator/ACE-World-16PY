@@ -11,8 +11,8 @@ VALUES (30885,   1,         16) /* ItemType - Creature */
      , (30885,  25,         85) /* Level */
      , (30885,  27,          0) /* ArmorType */
      , (30885,  68,          5) /* TargetingTactic */
-     , (30885,  93,       1032) /* PhysicsState */
-     , (30885, 101,        183) /* AiAllowedCombatStyle */
+     , (30885,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
+     , (30885, 101,        183) /* AiAllowedCombatStyle - Unarmed, OneHanded, OneHandedAndShield, Bow, Crossbow, ThrownWeapon */
      , (30885, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (30885, 140,          1) /* AiOptions */
      , (30885, 146,      21305) /* XpOverride */;
@@ -71,8 +71,12 @@ VALUES (30885,   1,   33554496) /* Setup */
      , (30885,   7,  268436631) /* ClothingBase */
      , (30885,   8,  100667452) /* Icon */
      , (30885,  22,  872415270) /* PhysicsEffectTable */
-     , (30885,  32,        222) /* WieldedTreasureType */
-     , (30885,  35,        450) /* DeathTreasureType */;
+     , (30885,  32,        222) /* WieldedTreasureType - 
+                                   Wield Yumi (23736) | Probability: 50%
+                                   Wield 20x Greater Arrow (5304) | Probability: 100%
+                                   Wield Heavy Crossbow (23667) | Probability: 50%
+                                   Wield 16x Greater Quarrel (5313) | Probability: 100% */
+     , (30885,  35,        450) /* DeathTreasureType - Loot Tier: 3 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (30885,   1, 250, 0, 0) /* Strength */
@@ -149,5 +153,5 @@ VALUES (30885,  94) /* ATTACK_NOTIFICATION_EVENT */
      , (30885, 414) /* PLAYER_DEATH_EVENT */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (30885, 1,  3695,  0, 0, 1, False) /* Create Gold Tumerok Insignia for Contain */
-     , (30885, 9, 30863,  0, 0, 1, False) /* Create Banished Spear for ContainTreasure */;
+VALUES (30885, 1,  3695,  0, 0, 1, False) /* Create Gold Tumerok Insignia (3695) for Contain */
+     , (30885, 9, 30863,  0, 0, 1, False) /* Create Banished Spear (30863) for ContainTreasure */;

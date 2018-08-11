@@ -13,10 +13,10 @@ VALUES (14530,   1,       2048) /* ItemType - Gem */
      , (14530,  15,          0) /* StackUnitValue */
      , (14530,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
      , (14530,  19,          0) /* Value */
-     , (14530,  93,       1044) /* PhysicsState */
-     , (14530,  94,       2048) /* TargetType - Gem */
+     , (14530,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (14530,  94,       2048) /* TargetType - 2048 */
      , (14530, 150,        103) /* HookPlacement - Hook */
-     , (14530, 151,          9) /* HookType */;
+     , (14530, 151,          9) /* HookType - Floor, Yard */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (14530,  22, True ) /* Inscribable */;

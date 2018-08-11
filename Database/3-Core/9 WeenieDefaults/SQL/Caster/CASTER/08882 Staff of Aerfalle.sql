@@ -11,8 +11,8 @@ VALUES (8882,   1,      32768) /* ItemType - Caster */
      , (8882,  19,      10150) /* Value */
      , (8882,  33,         -1) /* Bonded - Slippery */
      , (8882,  46,        512) /* DefaultCombatStyle - Magic */
-     , (8882,  93,       3092) /* PhysicsState */
-     , (8882,  94,         16) /* TargetType - Creature */
+     , (8882,  93,       3092) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, LightingOn */
+     , (8882,  94,         16) /* TargetType - Reedshark */
      , (8882, 106,        210) /* ItemSpellcraft */
      , (8882, 107,       1428) /* ItemCurMana */
      , (8882, 108,       2975) /* ItemMaxMana */

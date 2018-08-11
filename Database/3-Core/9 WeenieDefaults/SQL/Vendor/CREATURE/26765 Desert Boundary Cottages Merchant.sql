@@ -10,10 +10,10 @@ VALUES (26765,   1,         16) /* ItemType - Creature */
      , (26765,  16,         32) /* ItemUseable - Remote */
      , (26765,  25,         10) /* Level */
      , (26765,  27,          0) /* ArmorType */
-     , (26765,  74,     264192) /* MerchandiseItemTypes */
+     , (26765,  74,     264192) /* MerchandiseItemTypes - Gem, PromissoryNote */
      , (26765,  75,          0) /* MerchandiseMinValue */
      , (26765,  76,    1000000) /* MerchandiseMaxValue */
-     , (26765,  93,    2098204) /* PhysicsState */
+     , (26765,  93,    2098204) /* PhysicsState - Ethereal, ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */
      , (26765, 126,        125) /* VendorHappyMean */
      , (26765, 127,        125) /* VendorHappyVariance */
      , (26765, 133,          4) /* ShowableOnRadar - ShowAlways */
@@ -97,4 +97,4 @@ VALUES (26765,  0,  4,  0,    0,    0,    0,    0,    0,    0,    0,    0,    0,
      , (26765,  8,  4,  2, 0.75,    0,    0,    0,    0,    0,    0,    0,    0,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (26765, 4, 26130, -1, 0, 0, False) /* Create Desert Boundary Cottages Portal Gem for Shop */;
+VALUES (26765, 4, 26130, -1, 0, 0, False) /* Create Desert Boundary Cottages Portal Gem (26130) for Shop */;

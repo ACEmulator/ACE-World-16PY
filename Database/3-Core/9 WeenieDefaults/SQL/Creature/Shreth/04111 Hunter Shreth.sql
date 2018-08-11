@@ -14,7 +14,7 @@ VALUES (4111,   1,         16) /* ItemType - Creature */
      , (4111,  68,          9) /* TargetingTactic */
      , (4111,  81,          3) /* MaxGeneratedObjects */
      , (4111,  82,          3) /* InitGeneratedObjects */
-     , (4111,  93,       1032) /* PhysicsState */
+     , (4111,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (4111, 103,          1) /* GeneratorDestructionType - Nothing */
      , (4111, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (4111, 146,        757) /* XpOverride */;
@@ -72,7 +72,7 @@ VALUES (4111,   1,   33555879) /* Setup */
      , (4111,   7,  268435808) /* ClothingBase */
      , (4111,   8,  100669720) /* Icon */
      , (4111,  22,  872415333) /* PhysicsEffectTable */
-     , (4111,  35,        459) /* DeathTreasureType */;
+     , (4111,  35,        459) /* DeathTreasureType - Loot Tier: 1 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (4111,   1,  80, 0, 0) /* Strength */
@@ -159,7 +159,7 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 268435538 /* Twitch2 */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (4111, 9,     0,  0, 0, 0.99, False) /* Create Unknown for ContainTreasure */
-     , (4111, 9,     0,  0, 0, 0.99, False) /* Create Unknown for ContainTreasure */
-     , (4111, 9, 11688,  0, 0, 0.01, False) /* Create Little Green Seeds for ContainTreasure */
-     , (4111, 9, 11689,  0, 0, 0.01, False) /* Create Little Green Seeds for ContainTreasure */;
+VALUES (4111, 9,     0,  0, 0, 0.99, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 1 for ContainTreasure */
+     , (4111, 9,     0,  0, 0, 0.99, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 1 for ContainTreasure */
+     , (4111, 9, 11688,  0, 0, 0.01, False) /* Create Little Green Seeds (11688) for ContainTreasure */
+     , (4111, 9, 11689,  0, 0, 0.01, False) /* Create Little Green Seeds (11689) for ContainTreasure */;

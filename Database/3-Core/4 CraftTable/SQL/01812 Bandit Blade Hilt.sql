@@ -11,7 +11,7 @@ VALUES (1812, True, 0, 0, 0, False, 0, 0, 0);
 SET @parent_id = LAST_INSERT_ID();
 
 INSERT INTO `recipe_mods_int` (`recipe_Mod_Id`, `stat`, `value`, `enum`, `unknown_1`)
-VALUES (@parent_id,  47, 486, 1, 1) /* AttackType */
+VALUES (@parent_id,  47, 486, 1, 1) /* AttackType - Thrust, Slash, DoubleSlash, TripleSlash, DoubleThrust, TripleThrust */
      , (@parent_id,  33, 1, 1, 1) /* Bonded - Bonded */
      , (@parent_id, 114, 1, 1, 1) /* Attuned - Attuned */
      , (@parent_id,  19, 0, 1, 1) /* Value */;

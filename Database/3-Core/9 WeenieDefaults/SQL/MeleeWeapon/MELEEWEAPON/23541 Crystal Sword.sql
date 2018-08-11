@@ -16,7 +16,7 @@ VALUES (23541,   1,          1) /* ItemType - MeleeWeapon */
      , (23541,  48,         11) /* WeaponSkill - Sword */
      , (23541,  49,         40) /* WeaponTime */
      , (23541,  51,          1) /* CombatUse - Melee */
-     , (23541,  93,       1044) /* PhysicsState */
+     , (23541,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (23541, 106,        200) /* ItemSpellcraft */
      , (23541, 107,       1500) /* ItemCurMana */
      , (23541, 108,       1500) /* ItemMaxMana */

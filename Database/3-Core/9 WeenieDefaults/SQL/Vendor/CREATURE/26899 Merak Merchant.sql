@@ -10,10 +10,10 @@ VALUES (26899,   1,         16) /* ItemType - Creature */
      , (26899,  16,         32) /* ItemUseable - Remote */
      , (26899,  25,         10) /* Level */
      , (26899,  27,          0) /* ArmorType */
-     , (26899,  74,     264192) /* MerchandiseItemTypes */
+     , (26899,  74,     264192) /* MerchandiseItemTypes - Gem, PromissoryNote */
      , (26899,  75,          0) /* MerchandiseMinValue */
      , (26899,  76,    1000000) /* MerchandiseMaxValue */
-     , (26899,  93,    2098204) /* PhysicsState */
+     , (26899,  93,    2098204) /* PhysicsState - Ethereal, ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */
      , (26899, 126,        125) /* VendorHappyMean */
      , (26899, 127,        125) /* VendorHappyVariance */
      , (26899, 133,          4) /* ShowableOnRadar - ShowAlways */
@@ -97,4 +97,4 @@ VALUES (26899,  0,  4,  0,    0,    0,    0,    0,    0,    0,    0,    0,    0,
      , (26899,  8,  4,  2, 0.75,    0,    0,    0,    0,    0,    0,    0,    0,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (26899, 4, 26264, -1, 0, 0, False) /* Create Merak Portal Gem for Shop */;
+VALUES (26899, 4, 26264, -1, 0, 0, False) /* Create Merak Portal Gem (26264) for Shop */;

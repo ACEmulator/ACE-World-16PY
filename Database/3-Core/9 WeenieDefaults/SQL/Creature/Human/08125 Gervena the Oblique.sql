@@ -10,7 +10,7 @@ VALUES (8125,   1,         16) /* ItemType - Creature */
      , (8125,  16,         32) /* ItemUseable - Remote */
      , (8125,  25,         32) /* Level */
      , (8125,  27,          0) /* ArmorType */
-     , (8125,  93,    6292504) /* PhysicsState */
+     , (8125,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (8125,  95,          8) /* RadarBlipColor - Yellow */
      , (8125, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (8125, 134,         16) /* PlayerKillerStatus - RubberGlue */
@@ -212,7 +212,7 @@ VALUES (@parent_id,  0,  10 /* Tell */, 0, 1, NULL, 'I have heard of powerful ge
      , (@parent_id,  1,  10 /* Tell */, 0, 1, NULL, 'Of course, if you are not a masterful mage, you should speak with one of my younger brothers. If you have one of my old orbs, I will improve it for you.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (8125, 2,   124,  0, 1, 0.68, False) /* Create Jerkin for Wield */
-     , (8125, 2,   127,  0, 9, 0.5, False) /* Create Pants for Wield */
-     , (8125, 2,   133,  0, 14, 0.8, False) /* Create Slippers for Wield */
-     , (8125, 2,   135,  0, 9, 1, False) /* Create Turban for Wield */;
+VALUES (8125, 2,   124,  0, 1, 0.68, False) /* Create Jerkin (124) for Wield */
+     , (8125, 2,   127,  0, 9, 0.5, False) /* Create Pants (127) for Wield */
+     , (8125, 2,   133,  0, 14, 0.8, False) /* Create Slippers (133) for Wield */
+     , (8125, 2,   135,  0, 9, 1, False) /* Create Turban (135) for Wield */;

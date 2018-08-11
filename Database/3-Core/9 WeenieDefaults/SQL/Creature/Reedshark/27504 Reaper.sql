@@ -11,7 +11,7 @@ VALUES (27504,   1,         16) /* ItemType - Creature */
      , (27504,  25,        125) /* Level */
      , (27504,  40,          2) /* CombatMode - Melee */
      , (27504,  68,         13) /* TargetingTactic */
-     , (27504,  93,       1032) /* PhysicsState */
+     , (27504,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (27504, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (27504, 146,      62004) /* XpOverride */;
 
@@ -66,7 +66,7 @@ VALUES (27504,   1,   33554489) /* Setup */
      , (27504,   7,  268435556) /* ClothingBase */
      , (27504,   8,  100667939) /* Icon */
      , (27504,  22,  872415268) /* PhysicsEffectTable */
-     , (27504,  35,        458) /* DeathTreasureType */;
+     , (27504,  35,        458) /* DeathTreasureType - Loot Tier: 5 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (27504,   1, 450, 0, 0) /* Strength */
@@ -165,7 +165,7 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 268435540 /* Twitch4 */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (27504, 9,     0,  0, 0, 0.97, False) /* Create Unknown for ContainTreasure */
-     , (27504, 9,     0,  0, 0, 0.99, False) /* Create Unknown for ContainTreasure */
-     , (27504, 9, 24847,  0, 0, 0.03, False) /* Create Reaper Reedshark Hide for ContainTreasure */
-     , (27504, 9, 27305,  0, 0, 0.01, False) /* Create Forbidden Key for ContainTreasure */;
+VALUES (27504, 9,     0,  0, 0, 0.97, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 5 for ContainTreasure */
+     , (27504, 9,     0,  0, 0, 0.99, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 5 for ContainTreasure */
+     , (27504, 9, 24847,  0, 0, 0.03, False) /* Create Reaper Reedshark Hide (24847) for ContainTreasure */
+     , (27504, 9, 27305,  0, 0, 0.01, False) /* Create Forbidden Key (27305) for ContainTreasure */;

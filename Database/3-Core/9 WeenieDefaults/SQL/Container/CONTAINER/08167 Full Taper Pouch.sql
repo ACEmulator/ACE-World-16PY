@@ -11,7 +11,7 @@ VALUES (8167,   1,        512) /* ItemType - Container */
      , (8167,   9,          0) /* ValidLocations - None */
      , (8167,  16,         56) /* ItemUseable - ContainedViewedRemote */
      , (8167,  19,          5) /* Value */
-     , (8167,  93,       1044) /* PhysicsState */
+     , (8167,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (8167,  96,        180) /* EncumbranceCapacity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
@@ -35,15 +35,15 @@ VALUES (8167,   1,   33554817) /* Setup */
      , (8167,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (8167, 1,  1643, 100, 0, 0, False) /* Create Blue Taper for Contain */
-     , (8167, 1,  1644, 100, 0, 0, False) /* Create Brown Taper for Contain */
-     , (8167, 1,  1645, 100, 0, 0, False) /* Create Green Taper for Contain */
-     , (8167, 1,  1646, 100, 0, 0, False) /* Create Grey Taper for Contain */
-     , (8167, 1,  1647, 100, 0, 0, False) /* Create Indigo Taper for Contain */
-     , (8167, 1,  1648, 100, 0, 0, False) /* Create Orange Taper for Contain */
-     , (8167, 1,  1649, 100, 0, 0, False) /* Create Pink Taper for Contain */
-     , (8167, 1,  1650, 100, 0, 0, False) /* Create Red Taper for Contain */
-     , (8167, 1,  1651, 100, 0, 0, False) /* Create Violet Taper for Contain */
-     , (8167, 1,  1652, 100, 0, 0, False) /* Create White Taper for Contain */
-     , (8167, 1,  1653, 100, 0, 0, False) /* Create Yellow Taper for Contain */
-     , (8167, 1,  1654, 100, 0, 0, False) /* Create Turquoise Taper for Contain */;
+VALUES (8167, 1,  1643, 100, 0, 0, False) /* Create Blue Taper (1643) for Contain */
+     , (8167, 1,  1644, 100, 0, 0, False) /* Create Brown Taper (1644) for Contain */
+     , (8167, 1,  1645, 100, 0, 0, False) /* Create Green Taper (1645) for Contain */
+     , (8167, 1,  1646, 100, 0, 0, False) /* Create Grey Taper (1646) for Contain */
+     , (8167, 1,  1647, 100, 0, 0, False) /* Create Indigo Taper (1647) for Contain */
+     , (8167, 1,  1648, 100, 0, 0, False) /* Create Orange Taper (1648) for Contain */
+     , (8167, 1,  1649, 100, 0, 0, False) /* Create Pink Taper (1649) for Contain */
+     , (8167, 1,  1650, 100, 0, 0, False) /* Create Red Taper (1650) for Contain */
+     , (8167, 1,  1651, 100, 0, 0, False) /* Create Violet Taper (1651) for Contain */
+     , (8167, 1,  1652, 100, 0, 0, False) /* Create White Taper (1652) for Contain */
+     , (8167, 1,  1653, 100, 0, 0, False) /* Create Yellow Taper (1653) for Contain */
+     , (8167, 1,  1654, 100, 0, 0, False) /* Create Turquoise Taper (1654) for Contain */;

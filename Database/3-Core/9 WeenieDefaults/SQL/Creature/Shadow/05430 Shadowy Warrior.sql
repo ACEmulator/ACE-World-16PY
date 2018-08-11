@@ -12,8 +12,8 @@ VALUES (5430,   1,         16) /* ItemType - Creature */
      , (5430,  25,         61) /* Level */
      , (5430,  27,          0) /* ArmorType */
      , (5430,  68,          3) /* TargetingTactic */
-     , (5430,  93,       1032) /* PhysicsState */
-     , (5430, 101,        183) /* AiAllowedCombatStyle */
+     , (5430,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
+     , (5430, 101,        183) /* AiAllowedCombatStyle - Unarmed, OneHanded, OneHandedAndShield, Bow, Crossbow, ThrownWeapon */
      , (5430, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (5430, 140,          1) /* AiOptions */
      , (5430, 146,       4132) /* XpOverride */;
@@ -74,7 +74,7 @@ VALUES (5430,   1,   33554433) /* Setup */
      , (5430,   7,  268435632) /* ClothingBase */
      , (5430,   8,  100670397) /* Icon */
      , (5430,  22,  872415350) /* PhysicsEffectTable */
-     , (5430,  35,        154) /* DeathTreasureType */;
+     , (5430,  35,        154) /* DeathTreasureType - Loot Tier: 5 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (5430,   1, 170, 0, 0) /* Strength */
@@ -154,13 +154,13 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   7 /* PhysScript */, 0, 0.5, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 117 /* UnHide */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (5430, 10,   301,  0, 0, 0.1, False) /* Create Battle Axe for WieldTreasure */
-     , (5430, 10,   322,  0, 0, 0.1, False) /* Create Jo for WieldTreasure */
-     , (5430, 10,   331,  0, 0, 0.1, False) /* Create Mace for WieldTreasure */
-     , (5430, 10,   351,  0, 0, 0.1, False) /* Create Long Sword for WieldTreasure */
-     , (5430, 10,   352,  0, 0, 0.1, False) /* Create Short Sword for WieldTreasure */
-     , (5430, 10,  3795,  0, 0, 0.05, False) /* Create Lightning Jambiya for WieldTreasure */
-     , (5430, 10,  3876,  0, 0, 0.1, False) /* Create Frost Spear for WieldTreasure */
-     , (5430, 10,  3881,  0, 0, 0.1, False) /* Create Acid Long Sword for WieldTreasure */
-     , (5430, 10,  3891,  0, 0, 0.05, False) /* Create Flaming Tachi for WieldTreasure */
-     , (5430, 10,  4190,  0, 0, 0.1, False) /* Create Cestus for WieldTreasure */;
+VALUES (5430, 10,   301,  0, 0, 0.1, False) /* Create Battle Axe (301) for WieldTreasure */
+     , (5430, 10,   322,  0, 0, 0.1, False) /* Create Jo (322) for WieldTreasure */
+     , (5430, 10,   331,  0, 0, 0.1, False) /* Create Mace (331) for WieldTreasure */
+     , (5430, 10,   351,  0, 0, 0.1, False) /* Create Long Sword (351) for WieldTreasure */
+     , (5430, 10,   352,  0, 0, 0.1, False) /* Create Short Sword (352) for WieldTreasure */
+     , (5430, 10,  3795,  0, 0, 0.05, False) /* Create Lightning Jambiya (3795) for WieldTreasure */
+     , (5430, 10,  3876,  0, 0, 0.1, False) /* Create Frost Spear (3876) for WieldTreasure */
+     , (5430, 10,  3881,  0, 0, 0.1, False) /* Create Acid Long Sword (3881) for WieldTreasure */
+     , (5430, 10,  3891,  0, 0, 0.05, False) /* Create Flaming Tachi (3891) for WieldTreasure */
+     , (5430, 10,  4190,  0, 0, 0.1, False) /* Create Cestus (4190) for WieldTreasure */;

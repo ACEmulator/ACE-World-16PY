@@ -12,8 +12,8 @@ VALUES (25874,   1,         16) /* ItemType - Creature */
      , (25874,  27,          0) /* ArmorType */
      , (25874,  40,          2) /* CombatMode - Melee */
      , (25874,  68,          9) /* TargetingTactic */
-     , (25874,  93,       1032) /* PhysicsState */
-     , (25874, 101,        131) /* AiAllowedCombatStyle */
+     , (25874,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
+     , (25874, 101,        131) /* AiAllowedCombatStyle - Unarmed, OneHanded, ThrownWeapon */
      , (25874, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (25874, 140,          1) /* AiOptions */
      , (25874, 146,     107691) /* XpOverride */;
@@ -72,7 +72,7 @@ VALUES (25874,   1,   33556774) /* Setup */
      , (25874,   7,  268436727) /* ClothingBase */
      , (25874,   8,  100670961) /* Icon */
      , (25874,  22,  872415365) /* PhysicsEffectTable */
-     , (25874,  35,        464) /* DeathTreasureType */;
+     , (25874,  35,        464) /* DeathTreasureType - Loot Tier: 5 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (25874,   1, 260, 0, 0) /* Strength */
@@ -136,7 +136,7 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 268435537 /* Twitch1 */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (25874, 9,     0,  0, 0, 0.97, False) /* Create Unknown for ContainTreasure */
-     , (25874, 9,     0,  0, 0, 0.9925, False) /* Create Unknown for ContainTreasure */
-     , (25874, 9, 25903,  0, 0, 0.0075, False) /* Create Nefane Shell for ContainTreasure */
-     , (25874, 9, 30823,  0, 0, 0.03, False) /* Create Broken Black Marrow Key for ContainTreasure */;
+VALUES (25874, 9,     0,  0, 0, 0.97, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 5 for ContainTreasure */
+     , (25874, 9,     0,  0, 0, 0.9925, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 5 for ContainTreasure */
+     , (25874, 9, 25903,  0, 0, 0.0075, False) /* Create Nefane Shell (25903) for ContainTreasure */
+     , (25874, 9, 30823,  0, 0, 0.03, False) /* Create Broken Black Marrow Key (30823) for ContainTreasure */;

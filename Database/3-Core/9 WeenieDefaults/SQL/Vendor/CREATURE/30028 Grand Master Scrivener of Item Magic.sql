@@ -10,10 +10,10 @@ VALUES (30028,   1,         16) /* ItemType - Creature */
      , (30028,  16,         32) /* ItemUseable - Remote */
      , (30028,  25,         14) /* Level */
      , (30028,  27,          0) /* ArmorType */
-     , (30028,  74,     270464) /* MerchandiseItemTypes */
+     , (30028,  74,     270464) /* MerchandiseItemTypes - Misc, Writable, PromissoryNote */
      , (30028,  75,          0) /* MerchandiseMinValue */
      , (30028,  76,     100000) /* MerchandiseMaxValue */
-     , (30028,  93,    2098200) /* PhysicsState */
+     , (30028,  93,    2098200) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */
      , (30028, 126,      10000) /* VendorHappyMean */
      , (30028, 127,       4000) /* VendorHappyVariance */
      , (30028, 133,          4) /* ShowableOnRadar - ShowAlways */
@@ -170,38 +170,38 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 318767235 /* Nod */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (30028, 2,   115,  0, 4, 0.6, False) /* Create Leather Boots for Wield */
-     , (30028, 2,   124,  0, 9, 0.5, False) /* Create Jerkin for Wield */
-     , (30028, 2,   127,  0, 3, 0.67, False) /* Create Pants for Wield */
-     , (30028, 4,  2766, -1, 0, 0, False) /* Create Scroll of Acid Bane VI for Shop */
-     , (30028, 4,  2771, -1, 0, 0, False) /* Create Scroll of Acid Lure VI for Shop */
-     , (30028, 4,  2776, -1, 0, 0, False) /* Create Scroll of Blade Bane VI for Shop */
-     , (30028, 4,  2781, -1, 0, 0, False) /* Create Scroll of Blade Lure VI for Shop */
-     , (30028, 4,  2786, -1, 0, 0, False) /* Create Blood Drinker Scroll VI for Shop */
-     , (30028, 4,  2791, -1, 0, 0, False) /* Create Scroll of Blood Loather VI for Shop */
-     , (30028, 4,  2796, -1, 0, 0, False) /* Create Scroll of Bludgeon Bane VI for Shop */
-     , (30028, 4,  2801, -1, 0, 0, False) /* Create Scroll of Bludgeon Lure VI for Shop */
-     , (30028, 4,  2806, -1, 0, 0, False) /* Create Scroll of Brittlemail VI for Shop */
-     , (30028, 4,  2811, -1, 0, 0, False) /* Create Scroll of Defender VI for Shop */
-     , (30028, 4,  2816, -1, 0, 0, False) /* Create Scroll of Flame Bane VI for Shop */
-     , (30028, 4,  2821, -1, 0, 0, False) /* Create Scroll of Flame Lure VI for Shop */
-     , (30028, 4,  2826, -1, 0, 0, False) /* Create Scroll of Frost Bane VI for Shop */
-     , (30028, 4,  2831, -1, 0, 0, False) /* Create Scroll of Frost Lure VI for Shop */
-     , (30028, 4,  2836, -1, 0, 0, False) /* Create Scroll of Heartseeker VI for Shop */
-     , (30028, 4,  2841, -1, 0, 0, False) /* Create Scroll of Hermetic Void VI for Shop */
-     , (30028, 4,  2846, -1, 0, 0, False) /* Create Scroll of Impenetrability VI for Shop */
-     , (30028, 4,  2851, -1, 0, 0, False) /* Create Scroll of Leaden Weapon VI for Shop */
-     , (30028, 4,  2856, -1, 0, 0, False) /* Create Scroll of Lightning Bane VI for Shop */
-     , (30028, 4,  2861, -1, 0, 0, False) /* Create Scroll of Lightning Lure VI for Shop */
-     , (30028, 4,  2866, -1, 0, 0, False) /* Create Scroll of Lure Blade VI for Shop */
-     , (30028, 4,  2871, -1, 0, 0, False) /* Create Scroll of Piercing Bane VI for Shop */
-     , (30028, 4,  2876, -1, 0, 0, False) /* Create Scroll of Piercing Lure VI for Shop */
-     , (30028, 4,  2881, -1, 0, 0, False) /* Create Scroll of Strengthen Lock VI for Shop */
-     , (30028, 4,  2886, -1, 0, 0, False) /* Create Scroll of Swift Killer VI for Shop */
-     , (30028, 4,  2892, -1, 0, 0, False) /* Create Scroll of Hermetic Link VI for Shop */
-     , (30028, 4,  2897, -1, 0, 0, False) /* Create Scroll of Turn Blade VI for Shop */
-     , (30028, 4,  2902, -1, 0, 0, False) /* Create Scroll of Weaken Lock VI for Shop */
-     , (30028, 4,  2906, -1, 0, 0, False) /* Create Scroll of Summon Primary Portal III for Shop */
-     , (30028, 2, 10696,  0, 13, 0.5, False) /* Create Apron for Wield */
-     , (30028, 4, 15269, -1, 0, 0, False) /* Create Foci of Artifice for Shop */
-     , (30028, 4, 20624, -1, 0, 0, False) /* Create Scroll of Summon Secondary Portal III for Shop */;
+VALUES (30028, 2,   115,  0, 4, 0.6, False) /* Create Leather Boots (115) for Wield */
+     , (30028, 2,   124,  0, 9, 0.5, False) /* Create Jerkin (124) for Wield */
+     , (30028, 2,   127,  0, 3, 0.67, False) /* Create Pants (127) for Wield */
+     , (30028, 4,  2766, -1, 0, 0, False) /* Create Scroll of Acid Bane VI (2766) for Shop */
+     , (30028, 4,  2771, -1, 0, 0, False) /* Create Scroll of Acid Lure VI (2771) for Shop */
+     , (30028, 4,  2776, -1, 0, 0, False) /* Create Scroll of Blade Bane VI (2776) for Shop */
+     , (30028, 4,  2781, -1, 0, 0, False) /* Create Scroll of Blade Lure VI (2781) for Shop */
+     , (30028, 4,  2786, -1, 0, 0, False) /* Create Blood Drinker Scroll VI (2786) for Shop */
+     , (30028, 4,  2791, -1, 0, 0, False) /* Create Scroll of Blood Loather VI (2791) for Shop */
+     , (30028, 4,  2796, -1, 0, 0, False) /* Create Scroll of Bludgeon Bane VI (2796) for Shop */
+     , (30028, 4,  2801, -1, 0, 0, False) /* Create Scroll of Bludgeon Lure VI (2801) for Shop */
+     , (30028, 4,  2806, -1, 0, 0, False) /* Create Scroll of Brittlemail VI (2806) for Shop */
+     , (30028, 4,  2811, -1, 0, 0, False) /* Create Scroll of Defender VI (2811) for Shop */
+     , (30028, 4,  2816, -1, 0, 0, False) /* Create Scroll of Flame Bane VI (2816) for Shop */
+     , (30028, 4,  2821, -1, 0, 0, False) /* Create Scroll of Flame Lure VI (2821) for Shop */
+     , (30028, 4,  2826, -1, 0, 0, False) /* Create Scroll of Frost Bane VI (2826) for Shop */
+     , (30028, 4,  2831, -1, 0, 0, False) /* Create Scroll of Frost Lure VI (2831) for Shop */
+     , (30028, 4,  2836, -1, 0, 0, False) /* Create Scroll of Heartseeker VI (2836) for Shop */
+     , (30028, 4,  2841, -1, 0, 0, False) /* Create Scroll of Hermetic Void VI (2841) for Shop */
+     , (30028, 4,  2846, -1, 0, 0, False) /* Create Scroll of Impenetrability VI (2846) for Shop */
+     , (30028, 4,  2851, -1, 0, 0, False) /* Create Scroll of Leaden Weapon VI (2851) for Shop */
+     , (30028, 4,  2856, -1, 0, 0, False) /* Create Scroll of Lightning Bane VI (2856) for Shop */
+     , (30028, 4,  2861, -1, 0, 0, False) /* Create Scroll of Lightning Lure VI (2861) for Shop */
+     , (30028, 4,  2866, -1, 0, 0, False) /* Create Scroll of Lure Blade VI (2866) for Shop */
+     , (30028, 4,  2871, -1, 0, 0, False) /* Create Scroll of Piercing Bane VI (2871) for Shop */
+     , (30028, 4,  2876, -1, 0, 0, False) /* Create Scroll of Piercing Lure VI (2876) for Shop */
+     , (30028, 4,  2881, -1, 0, 0, False) /* Create Scroll of Strengthen Lock VI (2881) for Shop */
+     , (30028, 4,  2886, -1, 0, 0, False) /* Create Scroll of Swift Killer VI (2886) for Shop */
+     , (30028, 4,  2892, -1, 0, 0, False) /* Create Scroll of Hermetic Link VI (2892) for Shop */
+     , (30028, 4,  2897, -1, 0, 0, False) /* Create Scroll of Turn Blade VI (2897) for Shop */
+     , (30028, 4,  2902, -1, 0, 0, False) /* Create Scroll of Weaken Lock VI (2902) for Shop */
+     , (30028, 4,  2906, -1, 0, 0, False) /* Create Scroll of Summon Primary Portal III (2906) for Shop */
+     , (30028, 2, 10696,  0, 13, 0.5, False) /* Create Apron (10696) for Wield */
+     , (30028, 4, 15269, -1, 0, 0, False) /* Create Foci of Artifice (15269) for Shop */
+     , (30028, 4, 20624, -1, 0, 0, False) /* Create Scroll of Summon Secondary Portal III (20624) for Shop */;

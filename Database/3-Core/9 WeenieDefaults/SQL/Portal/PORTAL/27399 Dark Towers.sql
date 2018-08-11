@@ -4,8 +4,8 @@ VALUES ('27399', 'portaldarktowers', 7) /* Portal */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (27399,   1,      65536) /* ItemType - Portal */
      , (27399,  16,         32) /* ItemUseable - Remote */
-     , (27399,  93,       3084) /* PhysicsState */
-     , (27399, 111,         49) /* PortalBitmask */
+     , (27399,  93,       3084) /* PhysicsState - Ethereal, ReportCollisions, Gravity, LightingOn */
+     , (27399, 111,         49) /* PortalBitmask - Unrestricted, NoSummon, NoRecall */
      , (27399, 133,          4) /* ShowableOnRadar - ShowAlways */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)

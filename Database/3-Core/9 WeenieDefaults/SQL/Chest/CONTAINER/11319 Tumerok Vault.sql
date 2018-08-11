@@ -12,7 +12,7 @@ VALUES (11319,   1,        512) /* ItemType - Container */
      , (11319,  38,       9999) /* ResistLockpick */
      , (11319,  81,          1) /* MaxGeneratedObjects */
      , (11319,  82,          1) /* InitGeneratedObjects */
-     , (11319,  93,       1048) /* PhysicsState */
+     , (11319,  93,       1048) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity */
      , (11319,  96,        500) /* EncumbranceCapacity */
      , (11319, 100,          1) /* GeneratorType - Relative */;
 
@@ -48,4 +48,4 @@ VALUES (11319,   1,   33557302) /* Setup */
      , (11319,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (11319, -1, 11328, 10, 1, 1, 2, 8, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0);
+VALUES (11319, -1, 11328, 10, 1, 1, 2, 8, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Tumerok Spear (11328) (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: Contain */;

@@ -10,10 +10,10 @@ VALUES (26961,   1,         16) /* ItemType - Creature */
      , (26961,  16,         32) /* ItemUseable - Remote */
      , (26961,  25,         10) /* Level */
      , (26961,  27,          0) /* ArmorType */
-     , (26961,  74,     264192) /* MerchandiseItemTypes */
+     , (26961,  74,     264192) /* MerchandiseItemTypes - Gem, PromissoryNote */
      , (26961,  75,          0) /* MerchandiseMinValue */
      , (26961,  76,    1000000) /* MerchandiseMaxValue */
-     , (26961,  93,    2098204) /* PhysicsState */
+     , (26961,  93,    2098204) /* PhysicsState - Ethereal, ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */
      , (26961, 126,        125) /* VendorHappyMean */
      , (26961, 127,        125) /* VendorHappyVariance */
      , (26961, 133,          4) /* ShowableOnRadar - ShowAlways */
@@ -97,4 +97,4 @@ VALUES (26961,  0,  4,  0,    0,    0,    0,    0,    0,    0,    0,    0,    0,
      , (26961,  8,  4,  2, 0.75,    0,    0,    0,    0,    0,    0,    0,    0,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (26961, 4, 26326, -1, 0, 0, False) /* Create Rending Talon Cottages Portal Gem for Shop */;
+VALUES (26961, 4, 26326, -1, 0, 0, False) /* Create Rending Talon Cottages Portal Gem (26326) for Shop */;

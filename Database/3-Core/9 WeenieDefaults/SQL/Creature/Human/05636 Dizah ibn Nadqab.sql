@@ -10,7 +10,7 @@ VALUES (5636,   1,         16) /* ItemType - Creature */
      , (5636,  16,         32) /* ItemUseable - Remote */
      , (5636,  25,          7) /* Level */
      , (5636,  27,          0) /* ArmorType */
-     , (5636,  93,    6292504) /* PhysicsState */
+     , (5636,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (5636,  95,          8) /* RadarBlipColor - Yellow */
      , (5636, 119,          1) /* Active */
      , (5636, 133,          4) /* ShowableOnRadar - ShowAlways */
@@ -177,11 +177,11 @@ VALUES (@parent_id,  0,  12 /* TurnToTarget */, 0, 1, NULL, NULL, NULL, NULL, NU
      , (@parent_id,  5,  10 /* Tell */, 1, 1, NULL, 'From what I was able to uncover so far, I believe this area was once a place used by powerful Gharu''ndim War Mages. Any relics you find may be difficult for you to use. Yet, perhaps you will be able to understand what I could not. You can''t go down there if you''re not level 20, in fact I wouldn''t go down there if I were you. Just forget the whole thing, you''re better off that way.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (5636, 2,    46,  0, 8, 1, False) /* Create Metal Cap for Wield */
-     , (5636, 2,    84,  0, 11, 1, False) /* Create Studded Leather Leggings for Wield */
-     , (5636, 2,   122,  0, 11, 1, False) /* Create Soft Leather Gloves for Wield */
-     , (5636, 2,   414,  0, 14, 1, False) /* Create Chainmail Breastplate for Wield */
-     , (5636, 2,   415,  0, 19, 1, False) /* Create Chainmail Girth for Wield */
-     , (5636, 2,  2587,  0, 4, 1, False) /* Create Shirt for Wield */
-     , (5636, 2,  2601,  0, 4, 1, False) /* Create Pants for Wield */
-     , (5636, 2,  2606,  0, 9, 0.8, False) /* Create Boots for Wield */;
+VALUES (5636, 2,    46,  0, 8, 1, False) /* Create Metal Cap (46) for Wield */
+     , (5636, 2,    84,  0, 11, 1, False) /* Create Studded Leather Leggings (84) for Wield */
+     , (5636, 2,   122,  0, 11, 1, False) /* Create Soft Leather Gloves (122) for Wield */
+     , (5636, 2,   414,  0, 14, 1, False) /* Create Chainmail Breastplate (414) for Wield */
+     , (5636, 2,   415,  0, 19, 1, False) /* Create Chainmail Girth (415) for Wield */
+     , (5636, 2,  2587,  0, 4, 1, False) /* Create Shirt (2587) for Wield */
+     , (5636, 2,  2601,  0, 4, 1, False) /* Create Pants (2601) for Wield */
+     , (5636, 2,  2606,  0, 9, 0.8, False) /* Create Boots (2606) for Wield */;

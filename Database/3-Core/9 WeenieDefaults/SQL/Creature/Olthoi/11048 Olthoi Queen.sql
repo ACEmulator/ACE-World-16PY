@@ -15,7 +15,7 @@ VALUES (11048,   1,         16) /* ItemType - Creature */
      , (11048,  72,         35) /* FriendType - OlthoiLarvae */
      , (11048,  81,          1) /* MaxGeneratedObjects */
      , (11048,  82,          1) /* InitGeneratedObjects */
-     , (11048,  93,       1032) /* PhysicsState */
+     , (11048,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (11048, 103,          3) /* GeneratorDestructionType - Kill */
      , (11048, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (11048, 140,          1) /* AiOptions */
@@ -74,7 +74,7 @@ VALUES (11048,   1,   33557165) /* Setup */
      , (11048,   8,  100667623) /* Icon */
      , (11048,  22,  872415379) /* PhysicsEffectTable */
      , (11048,  30,         85) /* PhysicsScript - BreatheFrost */
-     , (11048,  35,        361) /* DeathTreasureType */;
+     , (11048,  35,        361) /* DeathTreasureType - Loot Tier: 6 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (11048,   1, 1000, 0, 0) /* Strength */
@@ -196,12 +196,12 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 268435537 /* Twitch1 */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (11048, 1,  3678,  1, 0, 0, False) /* Create Olthoi Carapace for Contain */
-     , (11048, 1,  3678,  1, 0, 0, False) /* Create Olthoi Carapace for Contain */
-     , (11048, 1,  3678,  1, 0, 0, False) /* Create Olthoi Carapace for Contain */
-     , (11048, 1,  3678,  1, 0, 0, False) /* Create Olthoi Carapace for Contain */
-     , (11048, 8, 11140,  8, 0, 0.87, False) /* Create Olthoi Egg for Treasure */
-     , (11048, 1, 11150,  1, 0, 0, False) /* Create The Queen's Head for Contain */;
+VALUES (11048, 1,  3678,  1, 0, 0, False) /* Create Olthoi Carapace (3678) for Contain */
+     , (11048, 1,  3678,  1, 0, 0, False) /* Create Olthoi Carapace (3678) for Contain */
+     , (11048, 1,  3678,  1, 0, 0, False) /* Create Olthoi Carapace (3678) for Contain */
+     , (11048, 1,  3678,  1, 0, 0, False) /* Create Olthoi Carapace (3678) for Contain */
+     , (11048, 8, 11140,  8, 0, 0.87, False) /* Create Olthoi Egg (11140) for Treasure */
+     , (11048, 1, 11150,  1, 0, 0, False) /* Create The Queen's Head (11150) for Contain */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (11048, -1, 11156, 450, 1, 1, 1, 4, -1, 0, 0, 0, 0, -4, 0, -0.7071068, 0, 0, -0.7071068);
+VALUES (11048, -1, 11156, 450, 1, 1, 1, 4, -1, 0, 0, 0, 0, -4, 0, -0.7071068, 0, 0, -0.7071068) /* Generate Olthoi Queen's Egg Sac (11156) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */;

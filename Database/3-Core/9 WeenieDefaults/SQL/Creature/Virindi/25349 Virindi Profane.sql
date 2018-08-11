@@ -12,7 +12,7 @@ VALUES (25349,   1,         16) /* ItemType - Creature */
      , (25349,  27,          0) /* ArmorType */
      , (25349,  68,          3) /* TargetingTactic */
      , (25349,  72,         22) /* FriendType - Shadow */
-     , (25349,  93,       1032) /* PhysicsState */
+     , (25349,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (25349, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (25349, 140,          1) /* AiOptions */
      , (25349, 146,      51696) /* XpOverride */;
@@ -71,7 +71,7 @@ VALUES (25349,   1,   33558343) /* Setup */
      , (25349,   7,  268436609) /* ClothingBase */
      , (25349,   8,  100674323) /* Icon */
      , (25349,  22,  872415273) /* PhysicsEffectTable */
-     , (25349,  35,        348) /* DeathTreasureType */;
+     , (25349,  35,        348) /* DeathTreasureType - Loot Tier: 5 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (25349,   1, 240, 0, 0) /* Strength */
@@ -191,9 +191,9 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 268435539 /* Twitch3 */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (25349, 9,     0,  0, 0, 0.985, False) /* Create Unknown for ContainTreasure */
-     , (25349, 9,     0,  0, 0, 0.99, False) /* Create Unknown for ContainTreasure */
-     , (25349, 9,     0,  0, 0, 0.97, False) /* Create Unknown for ContainTreasure */
-     , (25349, 9,  6876,  0, 0, 0.01, False) /* Create Sturdy Iron Key for ContainTreasure */
-     , (25349, 9,  7604,  0, 0, 0.015, False) /* Create Yellow Jewel for ContainTreasure */
-     , (25349, 9,  9292,  0, 0, 0.03, False) /* Create Virindi Singularity Key for ContainTreasure */;
+VALUES (25349, 9,     0,  0, 0, 0.985, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 5 for ContainTreasure */
+     , (25349, 9,     0,  0, 0, 0.99, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 5 for ContainTreasure */
+     , (25349, 9,     0,  0, 0, 0.97, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 5 for ContainTreasure */
+     , (25349, 9,  6876,  0, 0, 0.01, False) /* Create Sturdy Iron Key (6876) for ContainTreasure */
+     , (25349, 9,  7604,  0, 0, 0.015, False) /* Create Yellow Jewel (7604) for ContainTreasure */
+     , (25349, 9,  9292,  0, 0, 0.03, False) /* Create Virindi Singularity Key (9292) for ContainTreasure */;

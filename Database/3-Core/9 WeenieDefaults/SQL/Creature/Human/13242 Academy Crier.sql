@@ -10,7 +10,7 @@ VALUES (13242,   1,         16) /* ItemType - Creature */
      , (13242,  16,         32) /* ItemUseable - Remote */
      , (13242,  25,          5) /* Level */
      , (13242,  27,          0) /* ArmorType */
-     , (13242,  93,    6292504) /* PhysicsState */
+     , (13242,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (13242,  95,          8) /* RadarBlipColor - Yellow */
      , (13242, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (13242, 134,         16) /* PlayerKillerStatus - RubberGlue */
@@ -228,6 +228,6 @@ VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 1090519043 /* Ready */, NULL, NU
      , (@parent_id,  2,  10 /* Tell */, 1, 1, NULL, 'Many items, such as potions, that you''ll find in the world are stackable. This means that they will stack on top of each other in the same slot in your inventory.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (13242, 2,  2588,  0, 9, 1, False) /* Create Shirt for Wield */
-     , (13242, 2,  2597,  0, 9, 1, False) /* Create Pants for Wield */
-     , (13242, 2,  5850,  0, 93, 0.5, False) /* Create Faran Robe for Wield */;
+VALUES (13242, 2,  2588,  0, 9, 1, False) /* Create Shirt (2588) for Wield */
+     , (13242, 2,  2597,  0, 9, 1, False) /* Create Pants (2597) for Wield */
+     , (13242, 2,  5850,  0, 93, 0.5, False) /* Create Faran Robe (5850) for Wield */;

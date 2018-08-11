@@ -10,10 +10,10 @@ VALUES (26925,   1,         16) /* ItemType - Creature */
      , (26925,  16,         32) /* ItemUseable - Remote */
      , (26925,  25,         10) /* Level */
      , (26925,  27,          0) /* ArmorType */
-     , (26925,  74,     264192) /* MerchandiseItemTypes */
+     , (26925,  74,     264192) /* MerchandiseItemTypes - Gem, PromissoryNote */
      , (26925,  75,          0) /* MerchandiseMinValue */
      , (26925,  76,    1000000) /* MerchandiseMaxValue */
-     , (26925,  93,    2098204) /* PhysicsState */
+     , (26925,  93,    2098204) /* PhysicsState - Ethereal, ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */
      , (26925, 126,        125) /* VendorHappyMean */
      , (26925, 127,        125) /* VendorHappyVariance */
      , (26925, 133,          4) /* ShowableOnRadar - ShowAlways */
@@ -97,4 +97,4 @@ VALUES (26925,  0,  4,  0,    0,    0,    0,    0,    0,    0,    0,    0,    0,
      , (26925,  8,  4,  2, 0.75,    0,    0,    0,    0,    0,    0,    0,    0,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (26925, 4, 26290, -1, 0, 0, False) /* Create Neydisa Village Portal Gem for Shop */;
+VALUES (26925, 4, 26290, -1, 0, 0, False) /* Create Neydisa Village Portal Gem (26290) for Shop */;

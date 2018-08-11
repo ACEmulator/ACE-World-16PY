@@ -14,7 +14,7 @@ VALUES (2421,   1,       2048) /* ItemType - Gem */
      , (2421,  15,        250) /* StackUnitValue */
      , (2421,  16,          1) /* ItemUseable - No */
      , (2421,  19,        250) /* Value */
-     , (2421,  93,       1044) /* PhysicsState */
+     , (2421,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (2421, 131,         13) /* MaterialType - Aquamarine */
      , (2421, 169,   16777216) /* TsysMutationData */;
 

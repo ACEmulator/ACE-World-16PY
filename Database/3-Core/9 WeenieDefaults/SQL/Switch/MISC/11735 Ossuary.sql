@@ -9,7 +9,7 @@ VALUES (11735,   1,        128) /* ItemType - Misc */
      , (11735,  16,         48) /* ItemUseable - ViewedRemote */
      , (11735,  19,          0) /* Value */
      , (11735,  83,         16) /* ActivationResponse - Talk */
-     , (11735,  93,       1032) /* PhysicsState */
+     , (11735,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (11735, 119,          1) /* Active */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)

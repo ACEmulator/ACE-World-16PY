@@ -9,7 +9,7 @@ VALUES (9686,   1,        512) /* ItemType - Container */
      , (9686,   8,          5) /* Mass */
      , (9686,  16,         48) /* ItemUseable - ViewedRemote */
      , (9686,  19,         10) /* Value */
-     , (9686,  93,         20) /* PhysicsState */
+     , (9686,  93,         20) /* PhysicsState - Ethereal, IgnoreCollisions */
      , (9686, 151,          2) /* HookType - Wall */
      , (9686, 152,         -1) /* HookItemType */;
 

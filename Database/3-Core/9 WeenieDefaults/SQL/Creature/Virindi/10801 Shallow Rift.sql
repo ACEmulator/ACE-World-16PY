@@ -14,7 +14,7 @@ VALUES (10801,   1,         16) /* ItemType - Creature */
      , (10801,  69,          4) /* CombatTactic */
      , (10801,  81,          4) /* MaxGeneratedObjects */
      , (10801,  82,          0) /* InitGeneratedObjects */
-     , (10801,  93,       3080) /* PhysicsState */
+     , (10801,  93,       3080) /* PhysicsState - ReportCollisions, Gravity, LightingOn */
      , (10801, 103,          1) /* GeneratorDestructionType - Nothing */
      , (10801, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (10801, 146,       1918) /* XpOverride */;
@@ -75,7 +75,7 @@ VALUES (10801,   1,   33557100) /* Setup */
      , (10801,   4,  805306407) /* CombatTable */
      , (10801,   8,  100671702) /* Icon */
      , (10801,  22,  872415375) /* PhysicsEffectTable */
-     , (10801,  35,        465) /* DeathTreasureType */;
+     , (10801,  35,        465) /* DeathTreasureType - Loot Tier: 1 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (10801,   1,  50, 0, 0) /* Strength */
@@ -133,7 +133,7 @@ VALUES (@parent_id,  0,  18 /* DirectBroadcast */, 0, 1, NULL, 'You feel the ene
      , (@parent_id,  1,  22 /* StampQuest */, 0, 1, NULL, 'VirindiChimera', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (10801, 0.25, 10769, 1800, 1, 1, 1, 4, -1, 0, 0, 0, -2, -1, 9, 0.8191521, 0, 0, -0.5735765)
-     , (10801, 0.5, 10769, 1800, 1, 1, 1, 4, -1, 0, 0, 0, 2.4, 3.4, 9, 0.9659258, 0, 0, -0.258819)
-     , (10801, 0.75, 10772, 1800, 1, 1, 1, 4, -1, 0, 0, 0, 2.4, -1.4, 9, 0.9961947, 0, 0, -0.08715574)
-     , (10801, 1, 10774, 1800, 1, 1, 1, 4, -1, 0, 0, 0, -2, -2, 9, 0.9961947, 0, 0, -0.08715574);
+VALUES (10801, 0.25, 10769, 1800, 1, 1, 1, 4, -1, 0, 0, 0, -2, -1, 9, 0.8191521, 0, 0, -0.5735765) /* Generate Battered Doll (10769) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
+     , (10801, 0.5, 10769, 1800, 1, 1, 1, 4, -1, 0, 0, 0, 2.4, 3.4, 9, 0.9659258, 0, 0, -0.258819) /* Generate Battered Doll (10769) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
+     , (10801, 0.75, 10772, 1800, 1, 1, 1, 4, -1, 0, 0, 0, 2.4, -1.4, 9, 0.9961947, 0, 0, -0.08715574) /* Generate Beaten Doll (10772) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
+     , (10801, 1, 10774, 1800, 1, 1, 1, 4, -1, 0, 0, 0, -2, -2, 9, 0.9961947, 0, 0, -0.08715574) /* Generate Broken Doll (10774) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */;

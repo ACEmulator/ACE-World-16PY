@@ -10,10 +10,10 @@ VALUES (866,   1,         16) /* ItemType - Creature */
      , (866,  16,         32) /* ItemUseable - Remote */
      , (866,  25,          5) /* Level */
      , (866,  27,          0) /* ArmorType */
-     , (866,  74,    4473376) /* MerchandiseItemTypes */
+     , (866,  74,    4473376) /* MerchandiseItemTypes - Food, Container, Key, PromissoryNote, CraftCookingBase */
      , (866,  75,          0) /* MerchandiseMinValue */
      , (866,  76,     100000) /* MerchandiseMaxValue */
-     , (866,  93,    2098200) /* PhysicsState */
+     , (866,  93,    2098200) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */
      , (866, 126,        500) /* VendorHappyMean */
      , (866, 127,        500) /* VendorHappyVariance */
      , (866, 133,          4) /* ShowableOnRadar - ShowAlways */
@@ -163,20 +163,20 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 318767235 /* Nod */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (866, 2,   115,  0, 17, 1, False) /* Create Leather Boots for Wield */
-     , (866, 2,   118,  0, 17, 1, False) /* Create Cap for Wield */
-     , (866, 2,   124,  0, 14, 0.8, False) /* Create Jerkin for Wield */
-     , (866, 2,   127,  0, 14, 0.8, False) /* Create Pants for Wield */
-     , (866, 4,   263, -1, 0, 0, False) /* Create Fish for Shop */
-     , (866, 4,   264, -1, 0, 0, False) /* Create Grapes for Shop */
-     , (866, 4,   512, -1, 0, 0, False) /* Create Good Lockpick for Shop */
-     , (866, 4,   513, -1, 0, 0, False) /* Create Plain Lockpick for Shop */
-     , (866, 4,   545, -1, 0, 0, False) /* Create Reliable Lockpick for Shop */
-     , (866, 4,  2463, -1, 0, 0, False) /* Create Milk for Shop */
-     , (866, 4,  4746, -1, 0, 0, False) /* Create Water for Shop */
-     , (866, 4,  4754, -1, 0, 0, False) /* Create Baking Pan for Shop */
-     , (866, 4,  4761, -1, 0, 0, False) /* Create Flour for Shop */
-     , (866, 4,  4764, -1, 0, 0, False) /* Create Noodle Cutter for Shop */
-     , (866, 4,  4766, -1, 0, 0, False) /* Create Rennet for Shop */
-     , (866, 4,  7823, -1, 0, 0, False) /* Create Heavy Grinder for Shop */
-     , (866, 2, 10696,  0, 18, 0.5, False) /* Create Apron for Wield */;
+VALUES (866, 2,   115,  0, 17, 1, False) /* Create Leather Boots (115) for Wield */
+     , (866, 2,   118,  0, 17, 1, False) /* Create Cap (118) for Wield */
+     , (866, 2,   124,  0, 14, 0.8, False) /* Create Jerkin (124) for Wield */
+     , (866, 2,   127,  0, 14, 0.8, False) /* Create Pants (127) for Wield */
+     , (866, 4,   263, -1, 0, 0, False) /* Create Fish (263) for Shop */
+     , (866, 4,   264, -1, 0, 0, False) /* Create Grapes (264) for Shop */
+     , (866, 4,   512, -1, 0, 0, False) /* Create Good Lockpick (512) for Shop */
+     , (866, 4,   513, -1, 0, 0, False) /* Create Plain Lockpick (513) for Shop */
+     , (866, 4,   545, -1, 0, 0, False) /* Create Reliable Lockpick (545) for Shop */
+     , (866, 4,  2463, -1, 0, 0, False) /* Create Milk (2463) for Shop */
+     , (866, 4,  4746, -1, 0, 0, False) /* Create Water (4746) for Shop */
+     , (866, 4,  4754, -1, 0, 0, False) /* Create Baking Pan (4754) for Shop */
+     , (866, 4,  4761, -1, 0, 0, False) /* Create Flour (4761) for Shop */
+     , (866, 4,  4764, -1, 0, 0, False) /* Create Noodle Cutter (4764) for Shop */
+     , (866, 4,  4766, -1, 0, 0, False) /* Create Rennet (4766) for Shop */
+     , (866, 4,  7823, -1, 0, 0, False) /* Create Heavy Grinder (7823) for Shop */
+     , (866, 2, 10696,  0, 18, 0.5, False) /* Create Apron (10696) for Wield */;

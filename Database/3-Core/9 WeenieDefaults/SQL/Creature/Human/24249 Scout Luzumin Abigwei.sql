@@ -10,7 +10,7 @@ VALUES (24249,   1,         16) /* ItemType - Creature */
      , (24249,  16,         32) /* ItemUseable - Remote */
      , (24249,  25,         15) /* Level */
      , (24249,  27,          0) /* ArmorType */
-     , (24249,  93,    6292504) /* PhysicsState */
+     , (24249,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (24249,  95,          8) /* RadarBlipColor - Yellow */
      , (24249, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (24249, 134,         16) /* PlayerKillerStatus - RubberGlue */
@@ -152,12 +152,12 @@ VALUES (@parent_id,  0,  10 /* Tell */, 1, 1, NULL, 'You found us! Did the High 
      , (@parent_id,  3,   3 /* Give */, 1, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0, 24259 /* A Note from a Scout */, 1, 0, 0, False, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (24249, 2,    46,  0, 8, 1, False) /* Create Metal Cap for Wield */
-     , (24249, 2,    84,  0, 11, 1, False) /* Create Studded Leather Leggings for Wield */
-     , (24249, 2,   122,  0, 11, 1, False) /* Create Soft Leather Gloves for Wield */
-     , (24249, 2,   351,  0, 0, 0, False) /* Create Long Sword for Wield */
-     , (24249, 2,   414,  0, 39, 1, False) /* Create Chainmail Breastplate for Wield */
-     , (24249, 2,   415,  0, 19, 1, False) /* Create Chainmail Girth for Wield */
-     , (24249, 2,  2587,  0, 4, 1, False) /* Create Shirt for Wield */
-     , (24249, 2,  2601,  0, 4, 1, False) /* Create Pants for Wield */
-     , (24249, 2,  2606,  0, 9, 0.8, False) /* Create Boots for Wield */;
+VALUES (24249, 2,    46,  0, 8, 1, False) /* Create Metal Cap (46) for Wield */
+     , (24249, 2,    84,  0, 11, 1, False) /* Create Studded Leather Leggings (84) for Wield */
+     , (24249, 2,   122,  0, 11, 1, False) /* Create Soft Leather Gloves (122) for Wield */
+     , (24249, 2,   351,  0, 0, 0, False) /* Create Long Sword (351) for Wield */
+     , (24249, 2,   414,  0, 39, 1, False) /* Create Chainmail Breastplate (414) for Wield */
+     , (24249, 2,   415,  0, 19, 1, False) /* Create Chainmail Girth (415) for Wield */
+     , (24249, 2,  2587,  0, 4, 1, False) /* Create Shirt (2587) for Wield */
+     , (24249, 2,  2601,  0, 4, 1, False) /* Create Pants (2601) for Wield */
+     , (24249, 2,  2606,  0, 9, 0.8, False) /* Create Boots (2606) for Wield */;

@@ -3,7 +3,7 @@ VALUES ('24059', 'chessboard-ulgrim', 1) /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (24059,   1,       2048) /* ItemType - Gem */
-     , (24059,  93,       1040) /* PhysicsState */;
+     , (24059,  93,       1040) /* PhysicsState - IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (24059,   1, True ) /* Stuck */

@@ -11,7 +11,7 @@ VALUES (19575,   1,          8) /* ItemType - Jewelry */
      , (19575,  18,        256) /* UiEffects - Acid */
      , (19575,  19,       5000) /* Value */
      , (19575,  33,          1) /* Bonded - Bonded */
-     , (19575,  93,       1044) /* PhysicsState */
+     , (19575,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (19575, 106,        225) /* ItemSpellcraft */
      , (19575, 107,        500) /* ItemCurMana */
      , (19575, 108,        500) /* ItemMaxMana */

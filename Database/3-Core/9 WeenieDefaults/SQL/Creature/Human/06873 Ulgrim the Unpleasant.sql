@@ -11,7 +11,7 @@ VALUES (6873,   1,         16) /* ItemType - Creature */
      , (6873,  16,         32) /* ItemUseable - Remote */
      , (6873,  25,         50) /* Level */
      , (6873,  27,          0) /* ArmorType */
-     , (6873,  93,    6292504) /* PhysicsState */
+     , (6873,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (6873,  95,          8) /* RadarBlipColor - Yellow */
      , (6873, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (6873, 134,         16) /* PlayerKillerStatus - RubberGlue */
@@ -1407,7 +1407,7 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,  10 /* Tell */, 0, 1, NULL, 'Thanks, but I don''t need anymore splinters.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (6873, 2,   161,  0, 0, 0, False) /* Create Mug for Wield */
-     , (6873, 2,  2588,  0, 9, 1, False) /* Create Shirt for Wield */
-     , (6873, 2,  2597,  0, 9, 1, False) /* Create Pants for Wield */
-     , (6873, 2,  5850,  0, 4, 0.5, False) /* Create Faran Robe for Wield */;
+VALUES (6873, 2,   161,  0, 0, 0, False) /* Create Mug (161) for Wield */
+     , (6873, 2,  2588,  0, 9, 1, False) /* Create Shirt (2588) for Wield */
+     , (6873, 2,  2597,  0, 9, 1, False) /* Create Pants (2597) for Wield */
+     , (6873, 2,  5850,  0, 4, 0.5, False) /* Create Faran Robe (5850) for Wield */;

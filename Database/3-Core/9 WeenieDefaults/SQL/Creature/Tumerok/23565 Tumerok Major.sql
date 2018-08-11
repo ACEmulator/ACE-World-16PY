@@ -11,8 +11,8 @@ VALUES (23565,   1,         16) /* ItemType - Creature */
      , (23565,  25,         79) /* Level */
      , (23565,  27,          0) /* ArmorType */
      , (23565,  68,          5) /* TargetingTactic */
-     , (23565,  93,       1032) /* PhysicsState */
-     , (23565, 101,        183) /* AiAllowedCombatStyle */
+     , (23565,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
+     , (23565, 101,        183) /* AiAllowedCombatStyle - Unarmed, OneHanded, OneHandedAndShield, Bow, Crossbow, ThrownWeapon */
      , (23565, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (23565, 140,          1) /* AiOptions */
      , (23565, 146,      18069) /* XpOverride */;
@@ -71,8 +71,14 @@ VALUES (23565,   1,   33554496) /* Setup */
      , (23565,   7,  268436630) /* ClothingBase */
      , (23565,   8,  100667452) /* Icon */
      , (23565,  22,  872415270) /* PhysicsEffectTable */
-     , (23565,  32,        220) /* WieldedTreasureType */
-     , (23565,  35,        450) /* DeathTreasureType */;
+     , (23565,  32,        220) /* WieldedTreasureType - 
+                                   Wield Katar (23676) | Probability: 14%
+                                   Wield Cestus (23639) | Probability: 7%
+                                   Wield Nekode (23682) | Probability: 6%
+                                   Wield Tachi (23702) | Probability: 6%
+                                   Wield Spear (23698) | Probability: 6%
+                                   Wield Kite Shield (23686) | Probability: 75% */
+     , (23565,  35,        450) /* DeathTreasureType - Loot Tier: 3 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (23565,   1, 200, 0, 0) /* Strength */
@@ -147,11 +153,11 @@ VALUES (23565,  94) /* ATTACK_NOTIFICATION_EVENT */
      , (23565, 414) /* PLAYER_DEATH_EVENT */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (23565, 9,     0,  0, 0, 0.8, False) /* Create Unknown for ContainTreasure */
-     , (23565, 9,     0,  0, 0, 0.99, False) /* Create Unknown for ContainTreasure */
-     , (23565, 9,     0,  0, 0, 0.97, False) /* Create Unknown for ContainTreasure */
-     , (23565, 9,     0,  0, 0, 0.97, False) /* Create Unknown for ContainTreasure */
-     , (23565, 9,  3695,  0, 0, 0.2, False) /* Create Gold Tumerok Insignia for ContainTreasure */
-     , (23565, 9,  6876,  0, 0, 0.01, False) /* Create Sturdy Iron Key for ContainTreasure */
-     , (23565, 9,  7825,  0, 0, 0.03, False) /* Create Brown Beans for ContainTreasure */
-     , (23565, 9, 20855,  0, 0, 0.03, False) /* Create Alchemy Stamp for ContainTreasure */;
+VALUES (23565, 9,     0,  0, 0, 0.8, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 3 for ContainTreasure */
+     , (23565, 9,     0,  0, 0, 0.99, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 3 for ContainTreasure */
+     , (23565, 9,     0,  0, 0, 0.97, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 3 for ContainTreasure */
+     , (23565, 9,     0,  0, 0, 0.97, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 3 for ContainTreasure */
+     , (23565, 9,  3695,  0, 0, 0.2, False) /* Create Gold Tumerok Insignia (3695) for ContainTreasure */
+     , (23565, 9,  6876,  0, 0, 0.01, False) /* Create Sturdy Iron Key (6876) for ContainTreasure */
+     , (23565, 9,  7825,  0, 0, 0.03, False) /* Create Brown Beans (7825) for ContainTreasure */
+     , (23565, 9, 20855,  0, 0, 0.03, False) /* Create Alchemy Stamp (20855) for ContainTreasure */;

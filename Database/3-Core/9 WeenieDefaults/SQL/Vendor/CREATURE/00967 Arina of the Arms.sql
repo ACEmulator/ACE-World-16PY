@@ -10,10 +10,10 @@ VALUES (967,   1,         16) /* ItemType - Creature */
      , (967,  16,         32) /* ItemUseable - Remote */
      , (967,  25,         14) /* Level */
      , (967,  27,          0) /* ArmorType */
-     , (967,  74, 1074003974) /* MerchandiseItemTypes */
+     , (967,  74, 1074003974) /* MerchandiseItemTypes - Vestements, PromissoryNote, TinkeringMaterial */
      , (967,  75,          0) /* MerchandiseMinValue */
      , (967,  76,      25000) /* MerchandiseMaxValue */
-     , (967,  93,    2098200) /* PhysicsState */
+     , (967,  93,    2098200) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */
      , (967, 126,       2000) /* VendorHappyMean */
      , (967, 127,       1000) /* VendorHappyVariance */
      , (967, 133,          4) /* ShowableOnRadar - ShowAlways */
@@ -171,54 +171,54 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 318767235 /* Nod */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (967, 4,    36, -1, 0, 0, False) /* Create Leather Bracers for Shop */
-     , (967, 4,    38, -1, 0, 0, False) /* Create Studded Leather Bracers for Shop */
-     , (967, 4,    39, -1, 0, 0, False) /* Create Leather Breastplate for Shop */
-     , (967, 4,    42, -1, 0, 0, False) /* Create Studded Leather Breastplate for Shop */
-     , (967, 4,    44, -1, 0, 0, False) /* Create Buckler for Shop */
-     , (967, 4,    45, -1, 0, 0, False) /* Create Leather Cap for Shop */
-     , (967, 4,    46, -1, 0, 0, False) /* Create Metal Cap for Shop */
-     , (967, 4,    47, -1, 0, 0, False) /* Create Leather Coat for Shop */
-     , (967, 4,    48, -1, 0, 0, False) /* Create Studded Leather Coat for Shop */
-     , (967, 4,    50, -1, 0, 0, False) /* Create Leather Cuirass for Shop */
-     , (967, 4,    53, -1, 0, 0, False) /* Create Studded Leather Cuirass for Shop */
-     , (967, 4,    56, -1, 0, 0, False) /* Create Leather Gauntlets for Shop */
-     , (967, 4,    59, -1, 0, 0, False) /* Create Studded Leather Gauntlets for Shop */
-     , (967, 4,    60, -1, 0, 0, False) /* Create Leather Girth for Shop */
-     , (967, 4,    63, -1, 0, 0, False) /* Create Studded Leather Girth for Shop */
-     , (967, 4,    65, -1, 0, 0, False) /* Create Leather Greaves for Shop */
-     , (967, 4,    68, -1, 0, 0, False) /* Create Studded Leather Greaves for Shop */
-     , (967, 4,    81, -1, 0, 0, False) /* Create Leather Leggings for Shop */
-     , (967, 4,    84, -1, 0, 0, False) /* Create Studded Leather Leggings for Shop */
-     , (967, 4,    85, -1, 0, 0, False) /* Create Chainmail Coif for Shop */
-     , (967, 4,    86, -1, 0, 0, False) /* Create Leather Pauldrons for Shop */
-     , (967, 4,    89, -1, 0, 0, False) /* Create Studded Leather Pauldrons for Shop */
-     , (967, 4,    91, -1, 0, 0, False) /* Create Kite Shield for Shop */
-     , (967, 4,    96, -1, 0, 0, False) /* Create Chainmail Shirt for Shop */
-     , (967, 4,    97, -1, 0, 0, False) /* Create Leather Shirt for Shop */
-     , (967, 4,    99, -1, 0, 0, False) /* Create Studded Leather Shirt for Shop */
-     , (967, 4,   102, -1, 0, 0, False) /* Create Leather Sleeves for Shop */
-     , (967, 4,   105, -1, 0, 0, False) /* Create Studded Leather Sleeves for Shop */
-     , (967, 4,   109, -1, 0, 0, False) /* Create Leather Tassets for Shop */
-     , (967, 4,   112, -1, 0, 0, False) /* Create Studded Leather Tassets for Shop */
-     , (967, 2,   115,  0, 4, 0.8, False) /* Create Leather Boots for Wield */
-     , (967, 4,   115, -1, 0, 0, False) /* Create Leather Boots for Shop */
-     , (967, 4,   116, -1, 0, 0, False) /* Create Studded Leather Boots for Shop */
-     , (967, 2,   124,  0, 5, 0, False) /* Create Jerkin for Wield */
-     , (967, 2,   127,  0, 9, 0, False) /* Create Pants for Wield */
-     , (967, 2,   314,  0, 0, 0, False) /* Create Dagger for Wield */
-     , (967, 4,   458, -1, 0, 0, False) /* Create Leather Cowl for Shop */
-     , (967, 4,   551, -1, 0, 0, False) /* Create Leather Basinet for Shop */
-     , (967, 4,   554, -1, 0, 0, False) /* Create Studded Leather Basinet for Shop */
-     , (967, 4,   723, -1, 0, 0, False) /* Create Studded Leather Cowl for Shop */
-     , (967, 4,  2621, -1, 0, 0, False) /* Create Trade Note (100) for Shop */
-     , (967, 4,  2622, -1, 0, 0, False) /* Create Trade Note (500) for Shop */
-     , (967, 4,  2623, -1, 0, 0, False) /* Create Trade Note (1,000) for Shop */
-     , (967, 4,  2624, -1, 0, 0, False) /* Create Trade Note (5,000) for Shop */
-     , (967, 4,  2625, -1, 0, 0, False) /* Create Trade Note (10,000) for Shop */
-     , (967, 4,  2626, -1, 0, 0, False) /* Create Trade Note (50,000) for Shop */
-     , (967, 4,  2627, -1, 0, 0, False) /* Create Trade Note (100,000) for Shop */
-     , (967, 2, 10696,  0, 4, 0.8, False) /* Create Apron for Wield */
-     , (967, 4, 20628, -1, 0, 0, False) /* Create Trade Note (150,000) for Shop */
-     , (967, 4, 20629, -1, 0, 0, False) /* Create Trade Note (200,000) for Shop */
-     , (967, 4, 20630, -1, 0, 0, False) /* Create Trade Note (250,000) for Shop */;
+VALUES (967, 4,    36, -1, 0, 0, False) /* Create Leather Bracers (36) for Shop */
+     , (967, 4,    38, -1, 0, 0, False) /* Create Studded Leather Bracers (38) for Shop */
+     , (967, 4,    39, -1, 0, 0, False) /* Create Leather Breastplate (39) for Shop */
+     , (967, 4,    42, -1, 0, 0, False) /* Create Studded Leather Breastplate (42) for Shop */
+     , (967, 4,    44, -1, 0, 0, False) /* Create Buckler (44) for Shop */
+     , (967, 4,    45, -1, 0, 0, False) /* Create Leather Cap (45) for Shop */
+     , (967, 4,    46, -1, 0, 0, False) /* Create Metal Cap (46) for Shop */
+     , (967, 4,    47, -1, 0, 0, False) /* Create Leather Coat (47) for Shop */
+     , (967, 4,    48, -1, 0, 0, False) /* Create Studded Leather Coat (48) for Shop */
+     , (967, 4,    50, -1, 0, 0, False) /* Create Leather Cuirass (50) for Shop */
+     , (967, 4,    53, -1, 0, 0, False) /* Create Studded Leather Cuirass (53) for Shop */
+     , (967, 4,    56, -1, 0, 0, False) /* Create Leather Gauntlets (56) for Shop */
+     , (967, 4,    59, -1, 0, 0, False) /* Create Studded Leather Gauntlets (59) for Shop */
+     , (967, 4,    60, -1, 0, 0, False) /* Create Leather Girth (60) for Shop */
+     , (967, 4,    63, -1, 0, 0, False) /* Create Studded Leather Girth (63) for Shop */
+     , (967, 4,    65, -1, 0, 0, False) /* Create Leather Greaves (65) for Shop */
+     , (967, 4,    68, -1, 0, 0, False) /* Create Studded Leather Greaves (68) for Shop */
+     , (967, 4,    81, -1, 0, 0, False) /* Create Leather Leggings (81) for Shop */
+     , (967, 4,    84, -1, 0, 0, False) /* Create Studded Leather Leggings (84) for Shop */
+     , (967, 4,    85, -1, 0, 0, False) /* Create Chainmail Coif (85) for Shop */
+     , (967, 4,    86, -1, 0, 0, False) /* Create Leather Pauldrons (86) for Shop */
+     , (967, 4,    89, -1, 0, 0, False) /* Create Studded Leather Pauldrons (89) for Shop */
+     , (967, 4,    91, -1, 0, 0, False) /* Create Kite Shield (91) for Shop */
+     , (967, 4,    96, -1, 0, 0, False) /* Create Chainmail Shirt (96) for Shop */
+     , (967, 4,    97, -1, 0, 0, False) /* Create Leather Shirt (97) for Shop */
+     , (967, 4,    99, -1, 0, 0, False) /* Create Studded Leather Shirt (99) for Shop */
+     , (967, 4,   102, -1, 0, 0, False) /* Create Leather Sleeves (102) for Shop */
+     , (967, 4,   105, -1, 0, 0, False) /* Create Studded Leather Sleeves (105) for Shop */
+     , (967, 4,   109, -1, 0, 0, False) /* Create Leather Tassets (109) for Shop */
+     , (967, 4,   112, -1, 0, 0, False) /* Create Studded Leather Tassets (112) for Shop */
+     , (967, 2,   115,  0, 4, 0.8, False) /* Create Leather Boots (115) for Wield */
+     , (967, 4,   115, -1, 0, 0, False) /* Create Leather Boots (115) for Shop */
+     , (967, 4,   116, -1, 0, 0, False) /* Create Studded Leather Boots (116) for Shop */
+     , (967, 2,   124,  0, 5, 0, False) /* Create Jerkin (124) for Wield */
+     , (967, 2,   127,  0, 9, 0, False) /* Create Pants (127) for Wield */
+     , (967, 2,   314,  0, 0, 0, False) /* Create Dagger (314) for Wield */
+     , (967, 4,   458, -1, 0, 0, False) /* Create Leather Cowl (458) for Shop */
+     , (967, 4,   551, -1, 0, 0, False) /* Create Leather Basinet (551) for Shop */
+     , (967, 4,   554, -1, 0, 0, False) /* Create Studded Leather Basinet (554) for Shop */
+     , (967, 4,   723, -1, 0, 0, False) /* Create Studded Leather Cowl (723) for Shop */
+     , (967, 4,  2621, -1, 0, 0, False) /* Create Trade Note (100) (2621) for Shop */
+     , (967, 4,  2622, -1, 0, 0, False) /* Create Trade Note (500) (2622) for Shop */
+     , (967, 4,  2623, -1, 0, 0, False) /* Create Trade Note (1,000) (2623) for Shop */
+     , (967, 4,  2624, -1, 0, 0, False) /* Create Trade Note (5,000) (2624) for Shop */
+     , (967, 4,  2625, -1, 0, 0, False) /* Create Trade Note (10,000) (2625) for Shop */
+     , (967, 4,  2626, -1, 0, 0, False) /* Create Trade Note (50,000) (2626) for Shop */
+     , (967, 4,  2627, -1, 0, 0, False) /* Create Trade Note (100,000) (2627) for Shop */
+     , (967, 2, 10696,  0, 4, 0.8, False) /* Create Apron (10696) for Wield */
+     , (967, 4, 20628, -1, 0, 0, False) /* Create Trade Note (150,000) (20628) for Shop */
+     , (967, 4, 20629, -1, 0, 0, False) /* Create Trade Note (200,000) (20629) for Shop */
+     , (967, 4, 20630, -1, 0, 0, False) /* Create Trade Note (250,000) (20630) for Shop */;

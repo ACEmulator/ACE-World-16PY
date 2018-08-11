@@ -4,16 +4,16 @@ VALUES ('9040', 'leggingsexarchsilver', 2) /* Clothing */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (9040,   1,          2) /* ItemType - Armor */
      , (9040,   3,         20) /* PaletteTemplate - Silver */
-     , (9040,   4,        768) /* ClothingPriority */
+     , (9040,   4,        768) /* ClothingPriority - OuterwearUpperLegs, OuterwearLowerLegs */
      , (9040,   5,         75) /* EncumbranceVal */
      , (9040,   8,        400) /* Mass */
-     , (9040,   9,      24576) /* ValidLocations */
+     , (9040,   9,      24576) /* ValidLocations - UpperLegArmor, LowerLegArmor */
      , (9040,  16,          1) /* ItemUseable - No */
      , (9040,  18,          1) /* UiEffects - Magical */
      , (9040,  19,       4800) /* Value */
      , (9040,  27,         32) /* ArmorType */
      , (9040,  28,          0) /* ArmorLevel */
-     , (9040,  93,       1044) /* PhysicsState */
+     , (9040,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (9040, 106,        270) /* ItemSpellcraft */
      , (9040, 107,          0) /* ItemCurMana */
      , (9040, 108,       2000) /* ItemMaxMana */

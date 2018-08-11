@@ -12,8 +12,8 @@ VALUES (4212,   1,         16) /* ItemType - Creature */
      , (4212,  27,          0) /* ArmorType */
      , (4212,  40,          2) /* CombatMode - Melee */
      , (4212,  68,          9) /* TargetingTactic */
-     , (4212,  93,       1032) /* PhysicsState */
-     , (4212, 101,        131) /* AiAllowedCombatStyle */
+     , (4212,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
+     , (4212, 101,        131) /* AiAllowedCombatStyle - Unarmed, OneHanded, ThrownWeapon */
      , (4212, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (4212, 140,          1) /* AiOptions */
      , (4212, 146,   10980993) /* XpOverride */;
@@ -69,7 +69,7 @@ VALUES (4212,   1,   33555199) /* Setup */
      , (4212,   7,  268435726) /* ClothingBase */
      , (4212,   8,  100669117) /* Icon */
      , (4212,  22,  872415257) /* PhysicsEffectTable */
-     , (4212,  35,         32) /* DeathTreasureType */;
+     , (4212,  35,         32) /* DeathTreasureType - Loot Tier: 6 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (4212,   1, 900, 0, 0) /* Strength */
@@ -107,9 +107,9 @@ VALUES (4212,  94) /* ATTACK_NOTIFICATION_EVENT */
      , (4212, 414) /* PLAYER_DEATH_EVENT */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (4212, 9,     0,  0, 0, 0.9, False) /* Create Unknown for ContainTreasure */
-     , (4212, 9,     0,  0, 0, 0.95, False) /* Create Unknown for ContainTreasure */
-     , (4212, 9,     0,  0, 0, 0.75, False) /* Create Unknown for ContainTreasure */
-     , (4212, 9, 12253, 10, 0, 0.25, False) /* Create Monougat for ContainTreasure */
-     , (4212, 9, 23107,  0, 0, 0.05, False) /* Create Mangled Dark Key for ContainTreasure */
-     , (4212, 9, 23108,  0, 0, 0.1, False) /* Create Twisted Dark Key for ContainTreasure */;
+VALUES (4212, 9,     0,  0, 0, 0.9, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 6 for ContainTreasure */
+     , (4212, 9,     0,  0, 0, 0.95, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 6 for ContainTreasure */
+     , (4212, 9,     0,  0, 0, 0.75, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 6 for ContainTreasure */
+     , (4212, 9, 12253, 10, 0, 0.25, False) /* Create Monougat (12253) for ContainTreasure */
+     , (4212, 9, 23107,  0, 0, 0.05, False) /* Create Mangled Dark Key (23107) for ContainTreasure */
+     , (4212, 9, 23108,  0, 0, 0.1, False) /* Create Twisted Dark Key (23108) for ContainTreasure */;

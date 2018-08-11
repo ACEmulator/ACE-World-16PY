@@ -10,7 +10,7 @@ VALUES (5035,   1,         16) /* ItemType - Creature */
      , (5035,  16,         32) /* ItemUseable - Remote */
      , (5035,  25,          5) /* Level */
      , (5035,  27,          0) /* ArmorType */
-     , (5035,  93,    6292504) /* PhysicsState */
+     , (5035,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (5035,  95,          8) /* RadarBlipColor - Yellow */
      , (5035, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (5035, 134,         16) /* PlayerKillerStatus - RubberGlue */
@@ -359,6 +359,6 @@ VALUES (@parent_id,  0,  12 /* TurnToTarget */, 0, 1, NULL, NULL, NULL, NULL, NU
      , (@parent_id,  1,  10 /* Tell */, 0, 1, NULL, 'Flinrala is always talking about this type of thing. Why don''t you show this to her?', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (5035, 2,   130,  0, 2, 0.8, False) /* Create Shirt for Wield */
-     , (5035, 2,   132,  0, 4, 0.8, False) /* Create Shoes for Wield */
-     , (5035, 2,  2604,  0, 9, 1, False) /* Create Breeches for Wield */;
+VALUES (5035, 2,   130,  0, 2, 0.8, False) /* Create Shirt (130) for Wield */
+     , (5035, 2,   132,  0, 4, 0.8, False) /* Create Shoes (132) for Wield */
+     , (5035, 2,  2604,  0, 9, 1, False) /* Create Breeches (2604) for Wield */;

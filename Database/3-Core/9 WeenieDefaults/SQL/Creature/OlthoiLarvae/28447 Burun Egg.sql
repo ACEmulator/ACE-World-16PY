@@ -11,7 +11,7 @@ VALUES (28447,   1,         16) /* ItemType - Creature */
      , (28447,  27,          0) /* ArmorType */
      , (28447,  40,          1) /* CombatMode - NonCombat */
      , (28447,  67,          1) /* Tolerance */
-     , (28447,  93,       1032) /* PhysicsState */
+     , (28447,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (28447, 133,          0) /* ShowableOnRadar - Undefined */
      , (28447, 146,        500) /* XpOverride */;
 

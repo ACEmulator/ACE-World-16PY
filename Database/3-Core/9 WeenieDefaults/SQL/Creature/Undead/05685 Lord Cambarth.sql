@@ -12,8 +12,8 @@ VALUES (5685,   1,         16) /* ItemType - Creature */
      , (5685,  27,          0) /* ArmorType */
      , (5685,  40,          1) /* CombatMode - NonCombat */
      , (5685,  68,          3) /* TargetingTactic */
-     , (5685,  93,       1032) /* PhysicsState */
-     , (5685, 101,        183) /* AiAllowedCombatStyle */
+     , (5685,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
+     , (5685, 101,        183) /* AiAllowedCombatStyle - Unarmed, OneHanded, OneHandedAndShield, Bow, Crossbow, ThrownWeapon */
      , (5685, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (5685, 140,          1) /* AiOptions */
      , (5685, 146,       2054) /* XpOverride */;
@@ -72,8 +72,29 @@ VALUES (5685,   1,   33554521) /* Setup */
      , (5685,   7,  268435646) /* ClothingBase */
      , (5685,   8,  100669124) /* Icon */
      , (5685,  22,  872415272) /* PhysicsEffectTable */
-     , (5685,  32,        249) /* WieldedTreasureType */
-     , (5685,  35,        239) /* DeathTreasureType */;
+     , (5685,  32,        249) /* WieldedTreasureType - 
+                                   Wield 4x Throwing Club (23654) | Probability: 10%
+                                   Wield Yumi (23735) | Probability: 10%
+                                   Wield 18x Arrow (300) | Probability: 100%
+                                   Wield Yumi (23735) | Probability: 10%
+                                   Wield 20x Fire Arrow (1437) | Probability: 100%
+                                   Wield Yumi (23735) | Probability: 10%
+                                   Wield 10x Acid Arrow (4181) | Probability: 100%
+                                   Wield Heavy Crossbow (23666) | Probability: 10%
+                                   Wield 12x Quarrel (305) | Probability: 100%
+                                   Wield Heavy Crossbow (23666) | Probability: 10%
+                                   Wield 14x Fire Quarrel (4188) | Probability: 100%
+                                   Wield Heavy Crossbow (23666) | Probability: 10%
+                                   Wield 16x Acid Quarrel (4185) | Probability: 100%
+                                   Wield Katar (23675) | Probability: 15%
+                                   Wield Cestus (23638) | Probability: 15%
+                                   Wield Nekode (23681) | Probability: 15%
+                                   Wield Spear (23697) | Probability: 15%
+                                   Wield Tachi (23701) | Probability: 15%
+                                   Wield Yari (23731) | Probability: 15%
+                                   Wield Kite Shield (23685) | Probability: 50%
+                                   Wield Tower Shield (95) | Probability: 25% */
+     , (5685,  35,        239) /* DeathTreasureType - Loot Tier: 3 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (5685,   1, 150, 0, 0) /* Strength */
@@ -157,5 +178,5 @@ VALUES (5685,  94) /* ATTACK_NOTIFICATION_EVENT */
      , (5685, 414) /* PLAYER_DEATH_EVENT */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (5685, 2,  3752,  0, 0, 0, False) /* Create Flaming Battle Axe for Wield */
-     , (5685, 1,  5679,  0, 0, 0, False) /* Create Torn Journal for Contain */;
+VALUES (5685, 2,  3752,  0, 0, 0, False) /* Create Flaming Battle Axe (3752) for Wield */
+     , (5685, 1,  5679,  0, 0, 0, False) /* Create Torn Journal (5679) for Contain */;

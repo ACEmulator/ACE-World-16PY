@@ -4,16 +4,16 @@ VALUES ('9084', 'coatthausilver', 2) /* Clothing */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (9084,   1,          2) /* ItemType - Armor */
      , (9084,   3,         20) /* PaletteTemplate - Silver */
-     , (9084,   4,      46080) /* ClothingPriority */
+     , (9084,   4,      46080) /* ClothingPriority - OuterwearChest, OuterwearUpperArms, OuterwearLowerArms, Hands */
      , (9084,   5,        100) /* EncumbranceVal */
      , (9084,   8,        750) /* Mass */
-     , (9084,   9,       6688) /* ValidLocations */
+     , (9084,   9,       6688) /* ValidLocations - HandWear, ChestArmor, UpperArmArmor, LowerArmArmor */
      , (9084,  16,          1) /* ItemUseable - No */
      , (9084,  18,          1) /* UiEffects - Magical */
      , (9084,  19,       8000) /* Value */
      , (9084,  27,         32) /* ArmorType */
      , (9084,  28,          0) /* ArmorLevel */
-     , (9084,  93,       1044) /* PhysicsState */
+     , (9084,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (9084, 106,        270) /* ItemSpellcraft */
      , (9084, 107,          0) /* ItemCurMana */
      , (9084, 108,       2000) /* ItemMaxMana */

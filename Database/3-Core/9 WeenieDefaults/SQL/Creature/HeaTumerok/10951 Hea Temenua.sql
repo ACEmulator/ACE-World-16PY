@@ -12,8 +12,8 @@ VALUES (10951,   1,         16) /* ItemType - Creature */
      , (10951,  27,          0) /* ArmorType */
      , (10951,  68,          5) /* TargetingTactic */
      , (10951,  72,         19) /* FriendType - Virindi */
-     , (10951,  93,       1032) /* PhysicsState */
-     , (10951, 101,        183) /* AiAllowedCombatStyle */
+     , (10951,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
+     , (10951, 101,        183) /* AiAllowedCombatStyle - Unarmed, OneHanded, OneHandedAndShield, Bow, Crossbow, ThrownWeapon */
      , (10951, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (10951, 140,          1) /* AiOptions */
      , (10951, 146,      21305) /* XpOverride */;
@@ -72,7 +72,7 @@ VALUES (10951,   1,   33554496) /* Setup */
      , (10951,   7,  268436628) /* ClothingBase */
      , (10951,   8,  100667452) /* Icon */
      , (10951,  22,  872415270) /* PhysicsEffectTable */
-     , (10951,  35,        450) /* DeathTreasureType */;
+     , (10951,  35,        450) /* DeathTreasureType - Loot Tier: 3 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (10951,   1, 250, 0, 0) /* Strength */
@@ -243,9 +243,9 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   8 /* Say */, 0, 0, NULL, 'Karenua? Some help.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (10951, 1, 10962,  1, 0, 1, False) /* Create Hea Totem for Contain */
-     , (10951, 2, 10998,  1, 0, 1, False) /* Create Exquisite Elari Wood Bow for Wield */
-     , (10951, 1, 10999,  1, 0, 1, False) /* Create Greenwood Haft for Contain */
-     , (10951, 1, 11000,  1, 0, 1, False) /* Create Gromnie Sinew Bowstring for Contain */
-     , (10951, 2, 11002,  1, 0, 0.5, False) /* Create Hollow Point Armor Piercing Arrow for Wield */
-     , (10951, 2, 11003,  1, 0, 0.5, False) /* Create Hollow Point Explosive Tipped Arrow for Wield */;
+VALUES (10951, 1, 10962,  1, 0, 1, False) /* Create Hea Totem (10962) for Contain */
+     , (10951, 2, 10998,  1, 0, 1, False) /* Create Exquisite Elari Wood Bow (10998) for Wield */
+     , (10951, 1, 10999,  1, 0, 1, False) /* Create Greenwood Haft (10999) for Contain */
+     , (10951, 1, 11000,  1, 0, 1, False) /* Create Gromnie Sinew Bowstring (11000) for Contain */
+     , (10951, 2, 11002,  1, 0, 0.5, False) /* Create Hollow Point Armor Piercing Arrow (11002) for Wield */
+     , (10951, 2, 11003,  1, 0, 0.5, False) /* Create Hollow Point Explosive Tipped Arrow (11003) for Wield */;

@@ -13,7 +13,7 @@ VALUES (27712,   1,         16) /* ItemType - Creature */
      , (27712,  40,          2) /* CombatMode - Melee */
      , (27712,  68,          9) /* TargetingTactic */
      , (27712,  72,         56) /* FriendType - Siraluun */
-     , (27712,  93,       1032) /* PhysicsState */
+     , (27712,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (27712, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (27712, 146,      37532) /* XpOverride */;
 
@@ -68,7 +68,7 @@ VALUES (27712,   1,   33557059) /* Setup */
      , (27712,   7,  268436194) /* ClothingBase */
      , (27712,   8,  100671751) /* Icon */
      , (27712,  22,  872415376) /* PhysicsEffectTable */
-     , (27712,  35,        458) /* DeathTreasureType */;
+     , (27712,  35,        458) /* DeathTreasureType - Loot Tier: 5 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (27712,   1, 380, 0, 0) /* Strength */
@@ -119,9 +119,9 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 268435537 /* Twitch1 */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (27712, 9,     0,  0, 0, 0.95, False) /* Create Unknown for ContainTreasure */
-     , (27712, 9,     0,  0, 0, 0.95, False) /* Create Unknown for ContainTreasure */
-     , (27712, 9,     0,  0, 0, 0.95, False) /* Create Unknown for ContainTreasure */
-     , (27712, 9, 24477,  0, 0, 0.05, False) /* Create Sturdy Steel Key for ContainTreasure */
-     , (27712, 9, 29898,  0, 0, 0.05, False) /* Create Small Bundle of Badlands Siraluun Feathers for ContainTreasure */
-     , (27712, 9, 29905,  0, 0, 0.05, False) /* Create Badlands Siraluun Claw for ContainTreasure */;
+VALUES (27712, 9,     0,  0, 0, 0.95, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 5 for ContainTreasure */
+     , (27712, 9,     0,  0, 0, 0.95, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 5 for ContainTreasure */
+     , (27712, 9,     0,  0, 0, 0.95, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 5 for ContainTreasure */
+     , (27712, 9, 24477,  0, 0, 0.05, False) /* Create Sturdy Steel Key (24477) for ContainTreasure */
+     , (27712, 9, 29898,  0, 0, 0.05, False) /* Create Small Bundle of Badlands Siraluun Feathers (29898) for ContainTreasure */
+     , (27712, 9, 29905,  0, 0, 0.05, False) /* Create Badlands Siraluun Claw (29905) for ContainTreasure */;

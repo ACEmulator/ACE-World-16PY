@@ -10,7 +10,7 @@ VALUES (15810,   1,         16) /* ItemType - Creature */
      , (15810,  16,         32) /* ItemUseable - Remote */
      , (15810,  25,          5) /* Level */
      , (15810,  27,          0) /* ArmorType */
-     , (15810,  93,    6292504) /* PhysicsState */
+     , (15810,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (15810,  95,          8) /* RadarBlipColor - Yellow */
      , (15810, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (15810, 134,         16) /* PlayerKillerStatus - RubberGlue */
@@ -359,6 +359,6 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,  10 /* Tell */, 1, 1, NULL, 'I am sorry, I believe you are not powerful enough to help me.  Please come back when you have reached Level Twenty.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (15810, 2,   132,  0, 4, 0.5, False) /* Create Shoes for Wield */
-     , (15810, 2,  2590,  0, 2, 1, False) /* Create Shirt for Wield */
-     , (15810, 2,  2597,  0, 7, 1, False) /* Create Pants for Wield */;
+VALUES (15810, 2,   132,  0, 4, 0.5, False) /* Create Shoes (132) for Wield */
+     , (15810, 2,  2590,  0, 2, 1, False) /* Create Shirt (2590) for Wield */
+     , (15810, 2,  2597,  0, 7, 1, False) /* Create Pants (2597) for Wield */;

@@ -12,8 +12,8 @@ VALUES (27715,   1,         16) /* ItemType - Creature */
      , (27715,  27,          0) /* ArmorType */
      , (27715,  40,          2) /* CombatMode - Melee */
      , (27715,  68,          9) /* TargetingTactic */
-     , (27715,  93,       1032) /* PhysicsState */
-     , (27715, 101,        131) /* AiAllowedCombatStyle */
+     , (27715,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
+     , (27715, 101,        131) /* AiAllowedCombatStyle - Unarmed, OneHanded, ThrownWeapon */
      , (27715, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (27715, 140,          1) /* AiOptions */
      , (27715, 146,      17133) /* XpOverride */;
@@ -70,7 +70,7 @@ VALUES (27715,   1,   33556773) /* Setup */
      , (27715,   7,  268436633) /* ClothingBase */
      , (27715,   8,  100670959) /* Icon */
      , (27715,  22,  872415366) /* PhysicsEffectTable */
-     , (27715,  35,        456) /* DeathTreasureType */;
+     , (27715,  35,        456) /* DeathTreasureType - Loot Tier: 3 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (27715,   1, 330, 0, 0) /* Strength */
@@ -134,5 +134,5 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 268435537 /* Twitch1 */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (27715, 9,     0,  0, 0, 0.95, False) /* Create Unknown for ContainTreasure */
-     , (27715, 9, 12219,  0, 0, 0.05, False) /* Create Ursuin Head for ContainTreasure */;
+VALUES (27715, 9,     0,  0, 0, 0.95, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 3 for ContainTreasure */
+     , (27715, 9, 12219,  0, 0, 0.05, False) /* Create Ursuin Head (12219) for ContainTreasure */;

@@ -10,10 +10,10 @@ VALUES (27043,   1,         16) /* ItemType - Creature */
      , (27043,  16,         32) /* ItemUseable - Remote */
      , (27043,  25,         10) /* Level */
      , (27043,  27,          0) /* ArmorType */
-     , (27043,  74,     264192) /* MerchandiseItemTypes */
+     , (27043,  74,     264192) /* MerchandiseItemTypes - Gem, PromissoryNote */
      , (27043,  75,          0) /* MerchandiseMinValue */
      , (27043,  76,    1000000) /* MerchandiseMaxValue */
-     , (27043,  93,    2098204) /* PhysicsState */
+     , (27043,  93,    2098204) /* PhysicsState - Ethereal, ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */
      , (27043, 126,        125) /* VendorHappyMean */
      , (27043, 127,        125) /* VendorHappyVariance */
      , (27043, 133,          4) /* ShowableOnRadar - ShowAlways */
@@ -97,4 +97,4 @@ VALUES (27043,  0,  4,  0,    0,    0,    0,    0,    0,    0,    0,    0,    0,
      , (27043,  8,  4,  2, 0.75,    0,    0,    0,    0,    0,    0,    0,    0,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (27043, 4, 26408, -1, 0, 0, False) /* Create Thyrinn Cant Cottages Portal Gem for Shop */;
+VALUES (27043, 4, 26408, -1, 0, 0, False) /* Create Thyrinn Cant Cottages Portal Gem (26408) for Shop */;

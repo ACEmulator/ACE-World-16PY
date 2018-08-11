@@ -15,7 +15,7 @@ VALUES (25578,   1,         16) /* ItemType - Creature */
      , (25578,  68,          5) /* TargetingTactic */
      , (25578,  81,          3) /* MaxGeneratedObjects */
      , (25578,  82,          0) /* InitGeneratedObjects */
-     , (25578,  93,       1032) /* PhysicsState */
+     , (25578,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (25578, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (25578, 146,         30) /* XpOverride */;
 
@@ -229,14 +229,14 @@ VALUES (@parent_id,  0,   6 /* Move */, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL
      , (@parent_id,  1,  22 /* StampQuest */, 0, 1, NULL, 'CrossedRoad', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (25578, 9,     0,  0, 0, 0.25, False) /* Create Unknown for ContainTreasure */
-     , (25578, 9,     0,  0, 0, 0.95, False) /* Create Unknown for ContainTreasure */
-     , (25578, 9,     0,  0, 0, 0.95, False) /* Create Unknown for ContainTreasure */
-     , (25578, 9,     0,  0, 0, 0.95, False) /* Create Unknown for ContainTreasure */
-     , (25578, 9,   262,  0, 0, 0.75, False) /* Create Chicken for ContainTreasure */
-     , (25578, 9,   546,  0, 0, 0.05, False) /* Create Egg for ContainTreasure */
-     , (25578, 9,   546,  0, 0, 0.05, False) /* Create Egg for ContainTreasure */
-     , (25578, 9,   546,  0, 0, 0.05, False) /* Create Egg for ContainTreasure */;
+VALUES (25578, 9,     0,  0, 0, 0.25, False) /* Create UNKNOWN RANDOMLY GENERATED TREASURE for ContainTreasure */
+     , (25578, 9,     0,  0, 0, 0.95, False) /* Create UNKNOWN RANDOMLY GENERATED TREASURE for ContainTreasure */
+     , (25578, 9,     0,  0, 0, 0.95, False) /* Create UNKNOWN RANDOMLY GENERATED TREASURE for ContainTreasure */
+     , (25578, 9,     0,  0, 0, 0.95, False) /* Create UNKNOWN RANDOMLY GENERATED TREASURE for ContainTreasure */
+     , (25578, 9,   262,  0, 0, 0.75, False) /* Create Chicken (262) for ContainTreasure */
+     , (25578, 9,   546,  0, 0, 0.05, False) /* Create Egg (546) for ContainTreasure */
+     , (25578, 9,   546,  0, 0, 0.05, False) /* Create Egg (546) for ContainTreasure */
+     , (25578, 9,   546,  0, 0, 0.05, False) /* Create Egg (546) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (25578, 0.005, 546, 20, 1, 4294967295, 2, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0);
+VALUES (25578, 0.005, 546, 20, 1, 4294967295, 2, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Egg (546) (x1 up to max of 4,294,967,295) - Regenerate upon PickUp - Location to (re)Generate: Scatter */;

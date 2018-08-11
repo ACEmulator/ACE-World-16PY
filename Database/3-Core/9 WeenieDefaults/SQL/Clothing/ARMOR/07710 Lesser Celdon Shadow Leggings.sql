@@ -4,16 +4,16 @@ VALUES ('7710', 'leggingsceldonshadowlessernew', 2) /* Clothing */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (7710,   1,          2) /* ItemType - Armor */
      , (7710,   3,         14) /* PaletteTemplate - Red */
-     , (7710,   4,        768) /* ClothingPriority */
+     , (7710,   4,        768) /* ClothingPriority - OuterwearUpperLegs, OuterwearLowerLegs */
      , (7710,   5,       2100) /* EncumbranceVal */
      , (7710,   8,       1200) /* Mass */
-     , (7710,   9,      24576) /* ValidLocations */
+     , (7710,   9,      24576) /* ValidLocations - UpperLegArmor, LowerLegArmor */
      , (7710,  16,          1) /* ItemUseable - No */
      , (7710,  19,       2140) /* Value */
      , (7710,  27,         32) /* ArmorType */
      , (7710,  28,        110) /* ArmorLevel */
      , (7710,  33,          1) /* Bonded - Bonded */
-     , (7710,  93,       1044) /* PhysicsState */;
+     , (7710,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (7710,  22, True ) /* Inscribable */

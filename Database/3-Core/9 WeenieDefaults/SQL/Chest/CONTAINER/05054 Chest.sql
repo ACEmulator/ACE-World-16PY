@@ -12,7 +12,7 @@ VALUES (5054,   1,        512) /* ItemType - Container */
      , (5054,  81,          1) /* MaxGeneratedObjects */
      , (5054,  82,          1) /* InitGeneratedObjects */
      , (5054,  83,          2) /* ActivationResponse - Use */
-     , (5054,  93,       1048) /* PhysicsState */
+     , (5054,  93,       1048) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity */
      , (5054,  96,        500) /* EncumbranceCapacity */
      , (5054, 100,          1) /* GeneratorType - Relative */;
 
@@ -44,4 +44,4 @@ VALUES (5054,   1,   33554556) /* Setup */
      , (5054,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (5054, 1, 5059, 30, 1, 1, 2, 8, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0);
+VALUES (5054, 1, 5059, 30, 1, 1, 2, 8, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Writings (5059) (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: Contain */;

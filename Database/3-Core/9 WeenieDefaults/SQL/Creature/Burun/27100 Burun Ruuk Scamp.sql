@@ -12,8 +12,8 @@ VALUES (27100,   1,         16) /* ItemType - Creature */
      , (27100,  27,          0) /* ArmorType */
      , (27100,  40,          2) /* CombatMode - Melee */
      , (27100,  68,         13) /* TargetingTactic */
-     , (27100,  93,       1032) /* PhysicsState */
-     , (27100, 101,        131) /* AiAllowedCombatStyle */
+     , (27100,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
+     , (27100, 101,        131) /* AiAllowedCombatStyle - Unarmed, OneHanded, ThrownWeapon */
      , (27100, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (27100, 140,          1) /* AiOptions */
      , (27100, 146,       4041) /* XpOverride */;
@@ -69,8 +69,13 @@ VALUES (27100,   1,   33558582) /* Setup */
      , (27100,   7,  268436789) /* ClothingBase */
      , (27100,   8,  100675761) /* Icon */
      , (27100,  22,  872415402) /* PhysicsEffectTable */
-     , (27100,  32,        469) /* WieldedTreasureType */
-     , (27100,  35,        451) /* DeathTreasureType */;
+     , (27100,  32,        469) /* WieldedTreasureType - 
+                                   Wield Stone Axe (26024) | Probability: 20%
+                                   Wield Bone Dagger (26033) | Probability: 20%
+                                   Wield Stone Mace (26045) | Probability: 20%
+                                   Wield Stone Spear (26050) | Probability: 20%
+                                   Wield Bone Sword (26054) | Probability: 20% */
+     , (27100,  35,        451) /* DeathTreasureType - Loot Tier: 2 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (27100,   1, 180, 0, 0) /* Strength */
@@ -173,17 +178,17 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 268435537 /* Twitch1 */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (27100, 9,     0,  0, 0, 0.98, False) /* Create Unknown for ContainTreasure */
-     , (27100, 9,     0,  0, 0, 0.98, False) /* Create Unknown for ContainTreasure */
-     , (27100, 9,     0,  0, 0, 0.99, False) /* Create Unknown for ContainTreasure */
-     , (27100, 9,     0,  0, 0, 0.99, False) /* Create Unknown for ContainTreasure */
-     , (27100, 9,     0,  0, 0, 0.99, False) /* Create Unknown for ContainTreasure */
-     , (27100, 9,     0,  0, 0, 0.99, False) /* Create Unknown for ContainTreasure */
-     , (27100, 9,     0,  0, 0, 0.98, False) /* Create Unknown for ContainTreasure */
-     , (27100, 9, 26660,  0, 0, 0.01, False) /* Create Scarred Fleshy Journal for ContainTreasure */
-     , (27100, 9, 26662,  0, 0, 0.01, False) /* Create Fleshy Tome for ContainTreasure */
-     , (27100, 9, 26664,  0, 0, 0.01, False) /* Create Marked Fleshy Journal for ContainTreasure */
-     , (27100, 9, 26666,  0, 0, 0.01, False) /* Create Etched Fleshy Journal for ContainTreasure */
-     , (27100, 9, 27118,  0, 0, 0.02, False) /* Create Foul-Smelling Hide for ContainTreasure */
-     , (27100, 9, 27121,  0, 0, 0.02, False) /* Create Smelly Hide for ContainTreasure */
-     , (27100, 9, 28984,  0, 0, 0.02, False) /* Create Bloodied Burun Hide for ContainTreasure */;
+VALUES (27100, 9,     0,  0, 0, 0.98, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 2 for ContainTreasure */
+     , (27100, 9,     0,  0, 0, 0.98, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 2 for ContainTreasure */
+     , (27100, 9,     0,  0, 0, 0.99, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 2 for ContainTreasure */
+     , (27100, 9,     0,  0, 0, 0.99, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 2 for ContainTreasure */
+     , (27100, 9,     0,  0, 0, 0.99, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 2 for ContainTreasure */
+     , (27100, 9,     0,  0, 0, 0.99, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 2 for ContainTreasure */
+     , (27100, 9,     0,  0, 0, 0.98, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 2 for ContainTreasure */
+     , (27100, 9, 26660,  0, 0, 0.01, False) /* Create Scarred Fleshy Journal (26660) for ContainTreasure */
+     , (27100, 9, 26662,  0, 0, 0.01, False) /* Create Fleshy Tome (26662) for ContainTreasure */
+     , (27100, 9, 26664,  0, 0, 0.01, False) /* Create Marked Fleshy Journal (26664) for ContainTreasure */
+     , (27100, 9, 26666,  0, 0, 0.01, False) /* Create Etched Fleshy Journal (26666) for ContainTreasure */
+     , (27100, 9, 27118,  0, 0, 0.02, False) /* Create Foul-Smelling Hide (27118) for ContainTreasure */
+     , (27100, 9, 27121,  0, 0, 0.02, False) /* Create Smelly Hide (27121) for ContainTreasure */
+     , (27100, 9, 28984,  0, 0, 0.02, False) /* Create Bloodied Burun Hide (28984) for ContainTreasure */;

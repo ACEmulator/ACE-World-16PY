@@ -6,9 +6,9 @@ VALUES (30737,   1,        128) /* ItemType - Misc */
      , (30737,   5,          5) /* EncumbranceVal */
      , (30737,   8,          5) /* Mass */
      , (30737,  19,       1000) /* Value */
-     , (30737,  93,       1044) /* PhysicsState */
+     , (30737,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (30737, 150,        103) /* HookPlacement - Hook */
-     , (30737, 151,         25) /* HookType */;
+     , (30737, 151,         25) /* HookType - Floor, Yard, Roof */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (30737,  22, True ) /* Inscribable */

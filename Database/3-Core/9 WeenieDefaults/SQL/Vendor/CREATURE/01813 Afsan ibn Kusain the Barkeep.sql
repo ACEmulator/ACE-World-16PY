@@ -10,10 +10,10 @@ VALUES (1813,   1,         16) /* ItemType - Creature */
      , (1813,  16,         32) /* ItemUseable - Remote */
      , (1813,  25,          9) /* Level */
      , (1813,  27,          0) /* ArmorType */
-     , (1813,  74,     262176) /* MerchandiseItemTypes */
+     , (1813,  74,     262176) /* MerchandiseItemTypes - Food, PromissoryNote */
      , (1813,  75,          0) /* MerchandiseMinValue */
      , (1813,  76,      25000) /* MerchandiseMaxValue */
-     , (1813,  93,    2098200) /* PhysicsState */
+     , (1813,  93,    2098200) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */
      , (1813, 126,        250) /* VendorHappyMean */
      , (1813, 127,        250) /* VendorHappyVariance */
      , (1813, 133,          4) /* ShowableOnRadar - ShowAlways */
@@ -171,19 +171,19 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 318767235 /* Nod */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (1813, 2,   127,  0, 18, 1, False) /* Create Pants for Wield */
-     , (1813, 2,   132,  0, 4, 0.6, False) /* Create Shoes for Wield */
-     , (1813, 2,   134,  0, 6, 0, False) /* Create Tunic for Wield */
-     , (1813, 2,   135,  0, 9, 1, False) /* Create Turban for Wield */
-     , (1813, 4,   261, -1, 0, 0, False) /* Create Cheese for Shop */
-     , (1813, 4,   620, -1, 0, 0, False) /* Create Cake for Shop */
-     , (1813, 4,  2455, -1, 0, 0, False) /* Create Grape Juice for Shop */
-     , (1813, 4,  2459, -1, 0, 0, False) /* Create Kumiss for Shop */
-     , (1813, 4,  2463, -1, 0, 0, False) /* Create Milk for Shop */
-     , (1813, 4,  2467, -1, 0, 0, False) /* Create Red Wine for Shop */
-     , (1813, 4,  2469, -1, 0, 0, False) /* Create Small Beer for Shop */
-     , (1813, 4,  4209, -1, 0, 0, False) /* Create Dungeon Binar Directions for Shop */
-     , (1813, 4,  4714, -1, 0, 0, False) /* Create Chicken Kebab for Shop */
-     , (1813, 4,  4734, -1, 0, 0, False) /* Create Meat Pie for Shop */
-     , (1813, 2, 10696,  0, 9, 0.5, False) /* Create Apron for Wield */
-     , (1813, 4, 12146, -1, 0, 0, False) /* Create Simulacra Rumor for Shop */;
+VALUES (1813, 2,   127,  0, 18, 1, False) /* Create Pants (127) for Wield */
+     , (1813, 2,   132,  0, 4, 0.6, False) /* Create Shoes (132) for Wield */
+     , (1813, 2,   134,  0, 6, 0, False) /* Create Tunic (134) for Wield */
+     , (1813, 2,   135,  0, 9, 1, False) /* Create Turban (135) for Wield */
+     , (1813, 4,   261, -1, 0, 0, False) /* Create Cheese (261) for Shop */
+     , (1813, 4,   620, -1, 0, 0, False) /* Create Cake (620) for Shop */
+     , (1813, 4,  2455, -1, 0, 0, False) /* Create Grape Juice (2455) for Shop */
+     , (1813, 4,  2459, -1, 0, 0, False) /* Create Kumiss (2459) for Shop */
+     , (1813, 4,  2463, -1, 0, 0, False) /* Create Milk (2463) for Shop */
+     , (1813, 4,  2467, -1, 0, 0, False) /* Create Red Wine (2467) for Shop */
+     , (1813, 4,  2469, -1, 0, 0, False) /* Create Small Beer (2469) for Shop */
+     , (1813, 4,  4209, -1, 0, 0, False) /* Create Dungeon Binar Directions (4209) for Shop */
+     , (1813, 4,  4714, -1, 0, 0, False) /* Create Chicken Kebab (4714) for Shop */
+     , (1813, 4,  4734, -1, 0, 0, False) /* Create Meat Pie (4734) for Shop */
+     , (1813, 2, 10696,  0, 9, 0.5, False) /* Create Apron (10696) for Wield */
+     , (1813, 4, 12146, -1, 0, 0, False) /* Create Simulacra Rumor (12146) for Shop */;

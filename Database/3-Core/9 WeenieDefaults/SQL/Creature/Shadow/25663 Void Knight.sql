@@ -13,8 +13,8 @@ VALUES (25663,   1,         16) /* ItemType - Creature */
      , (25663,  27,          0) /* ArmorType */
      , (25663,  68,          3) /* TargetingTactic */
      , (25663,  72,         44) /* FriendType - Grievver */
-     , (25663,  93,    4195336) /* PhysicsState */
-     , (25663, 101,        183) /* AiAllowedCombatStyle */
+     , (25663,  93,    4195336) /* PhysicsState - ReportCollisions, Gravity, EdgeSlide */
+     , (25663, 101,        183) /* AiAllowedCombatStyle - Unarmed, OneHanded, OneHandedAndShield, Bow, Crossbow, ThrownWeapon */
      , (25663, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (25663, 140,          1) /* AiOptions */
      , (25663, 146,     307276) /* XpOverride */;
@@ -78,8 +78,14 @@ VALUES (25663,   1,   33554433) /* Setup */
      , (25663,   7,  268435632) /* ClothingBase */
      , (25663,   8,  100670397) /* Icon */
      , (25663,  22,  872415331) /* PhysicsEffectTable */
-     , (25663,  32,        426) /* WieldedTreasureType */
-     , (25663,  35,        449) /* DeathTreasureType */;
+     , (25663,  32,        426) /* WieldedTreasureType - 
+                                   Wield Tachi (23136) | Probability: 30%
+                                   Wield Kite Shield (23135) | Probability: 100%
+                                   Wield Yumi (23137) | Probability: 30%
+                                   Wield 20x Deadly Arrow (15429) | Probability: 100%
+                                   Wield Heavy Crossbow (23131) | Probability: 30%
+                                   Wield 50x Deadly Quarrel (15438) | Probability: 100% */
+     , (25663,  35,        449) /* DeathTreasureType - Loot Tier: 6 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (25663,   1, 340, 0, 0) /* Strength */
@@ -146,9 +152,9 @@ VALUES (25663,  94) /* ATTACK_NOTIFICATION_EVENT */
      , (25663, 414) /* PLAYER_DEATH_EVENT */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (25663, 9,     0,  0, 0, 0.98, False) /* Create Unknown for ContainTreasure */
-     , (25663, 9,     0,  0, 0, 0.98, False) /* Create Unknown for ContainTreasure */
-     , (25663, 9,     0,  0, 0, 0.99, False) /* Create Unknown for ContainTreasure */
-     , (25663, 9,  6058,  0, 0, 0.02, False) /* Create Dark Shard for ContainTreasure */
-     , (25663, 9, 23107,  0, 0, 0.01, False) /* Create Mangled Dark Key for ContainTreasure */
-     , (25663, 9, 23108,  0, 0, 0.02, False) /* Create Twisted Dark Key for ContainTreasure */;
+VALUES (25663, 9,     0,  0, 0, 0.98, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 6 for ContainTreasure */
+     , (25663, 9,     0,  0, 0, 0.98, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 6 for ContainTreasure */
+     , (25663, 9,     0,  0, 0, 0.99, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 6 for ContainTreasure */
+     , (25663, 9,  6058,  0, 0, 0.02, False) /* Create Dark Shard (6058) for ContainTreasure */
+     , (25663, 9, 23107,  0, 0, 0.01, False) /* Create Mangled Dark Key (23107) for ContainTreasure */
+     , (25663, 9, 23108,  0, 0, 0.02, False) /* Create Twisted Dark Key (23108) for ContainTreasure */;

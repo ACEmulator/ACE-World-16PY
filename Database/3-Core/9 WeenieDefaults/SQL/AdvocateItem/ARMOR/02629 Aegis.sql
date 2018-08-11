@@ -13,7 +13,7 @@ VALUES (2629,   1,          2) /* ItemType - Armor */
      , (2629,  28,         50) /* ArmorLevel */
      , (2629,  33,          1) /* Bonded - Bonded */
      , (2629,  51,          4) /* CombatUse - Shield */
-     , (2629,  93,       1044) /* PhysicsState */
+     , (2629,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (2629, 114,          2) /* Attuned - Sticky */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)

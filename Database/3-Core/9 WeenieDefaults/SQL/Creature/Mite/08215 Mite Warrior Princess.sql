@@ -12,8 +12,8 @@ VALUES (8215,   1,         16) /* ItemType - Creature */
      , (8215,  27,          0) /* ArmorType */
      , (8215,  40,          2) /* CombatMode - Melee */
      , (8215,  68,          3) /* TargetingTactic */
-     , (8215,  93,       1032) /* PhysicsState */
-     , (8215, 101,        129) /* AiAllowedCombatStyle */
+     , (8215,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
+     , (8215, 101,        129) /* AiAllowedCombatStyle - Unarmed, ThrownWeapon */
      , (8215, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (8215, 146,       2091) /* XpOverride */;
 
@@ -67,7 +67,7 @@ VALUES (8215,   1,   33558657) /* Setup */
      , (8215,   7,  268436816) /* ClothingBase */
      , (8215,   8,  100667448) /* Icon */
      , (8215,  22,  872415263) /* PhysicsEffectTable */
-     , (8215,  35,        459) /* DeathTreasureType */;
+     , (8215,  35,        459) /* DeathTreasureType - Loot Tier: 1 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (8215,   1,  90, 0, 0) /* Strength */
@@ -108,4 +108,4 @@ VALUES (8215,  94) /* ATTACK_NOTIFICATION_EVENT */
      , (8215, 414) /* PLAYER_DEATH_EVENT */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (8215, 1,  8211, 40, 0, 0, False) /* Create Discus for Contain */;
+VALUES (8215, 1,  8211, 40, 0, 0, False) /* Create Discus (8211) for Contain */;

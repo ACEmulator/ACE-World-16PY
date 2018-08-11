@@ -16,7 +16,7 @@ VALUES (4889,   1,         32) /* ItemType - Food */
      , (4889,  33,          1) /* Bonded - Bonded */
      , (4889,  89,          2) /* BoosterEnum - Health */
      , (4889,  90,          4) /* BoostValue */
-     , (4889,  93,       1044) /* PhysicsState */
+     , (4889,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (4889, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)

@@ -14,7 +14,7 @@ VALUES (10953,   1,         16) /* ItemType - Creature */
      , (10953,  72,          1) /* FriendType - Olthoi */
      , (10953,  81,          4) /* MaxGeneratedObjects */
      , (10953,  82,          4) /* InitGeneratedObjects */
-     , (10953,  93,       1032) /* PhysicsState */
+     , (10953,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (10953, 103,          3) /* GeneratorDestructionType - Kill */
      , (10953, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (10953, 140,          1) /* AiOptions */
@@ -76,7 +76,7 @@ VALUES (10953,   1,   33556982) /* Setup */
      , (10953,   7,  268435649) /* ClothingBase */
      , (10953,   8,  100667943) /* Icon */
      , (10953,  22,  872415273) /* PhysicsEffectTable */
-     , (10953,  35,        348) /* DeathTreasureType */;
+     , (10953,  35,        348) /* DeathTreasureType - Loot Tier: 5 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (10953,   1, 200, 0, 0) /* Strength */
@@ -328,10 +328,10 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,  17 /* LocalBroadcast */, 0, 0, NULL, 'The Collector hums away over the blighted earth, and its powerful, bland voice booms in your mind, "We must remind the prototype to increase its watch on the upland."', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (10953, 1, 10975,  1, 0, 1, False) /* Create Habitat Portal Gem for Contain */;
+VALUES (10953, 1, 10975,  1, 0, 1, False) /* Create Habitat Portal Gem (10975) for Contain */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (10953, -1, 7089, 180, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0)
-     , (10953, -1, 7089, 180, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0)
-     , (10953, -1, 11541, 180, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0)
-     , (10953, -1, 11541, 180, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0);
+VALUES (10953, -1, 7089, 180, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Altered Drudge (7089) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Scatter */
+     , (10953, -1, 7089, 180, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Altered Drudge (7089) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Scatter */
+     , (10953, -1, 11541, 180, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Plated Tusker (11541) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Scatter */
+     , (10953, -1, 11541, 180, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Plated Tusker (11541) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Scatter */;

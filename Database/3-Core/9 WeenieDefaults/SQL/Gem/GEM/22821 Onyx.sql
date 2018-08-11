@@ -14,7 +14,7 @@ VALUES (22821,   1,       2048) /* ItemType - Gem */
      , (22821,  15,         50) /* StackUnitValue */
      , (22821,  16,          1) /* ItemUseable - No */
      , (22821,  19,         50) /* Value */
-     , (22821,  93,       1044) /* PhysicsState */
+     , (22821,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (22821, 131,         32) /* MaterialType - Onyx */
      , (22821, 169,   16777216) /* TsysMutationData */;
 

@@ -10,7 +10,7 @@ VALUES (24242,   1,         16) /* ItemType - Creature */
      , (24242,  16,         32) /* ItemUseable - Remote */
      , (24242,  25,        125) /* Level */
      , (24242,  27,          0) /* ArmorType */
-     , (24242,  93,    6292504) /* PhysicsState */
+     , (24242,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (24242,  95,          8) /* RadarBlipColor - Yellow */
      , (24242, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (24242, 134,         16) /* PlayerKillerStatus - RubberGlue */
@@ -234,5 +234,5 @@ VALUES (@parent_id,  0,  10 /* Tell */, 1, 1, NULL, 'Good leather. Need crest. H
      , (@parent_id,  1,  22 /* StampQuest */, 0, 1, NULL, 'GaveLeatherToNanoc', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (24242, 2, 24240,  0, 0, 0, False) /* Create Olthoi Acid Katar for Wield */
-     , (24242, 2, 24267,  0, 0, 0, False) /* Create Olthoi Fighter Shorts (Male) for Wield */;
+VALUES (24242, 2, 24240,  0, 0, 0, False) /* Create Olthoi Acid Katar (24240) for Wield */
+     , (24242, 2, 24267,  0, 0, 0, False) /* Create Olthoi Fighter Shorts (Male) (24267) for Wield */;

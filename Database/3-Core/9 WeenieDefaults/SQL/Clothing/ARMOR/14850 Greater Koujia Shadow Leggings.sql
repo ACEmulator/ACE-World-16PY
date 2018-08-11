@@ -4,16 +4,16 @@ VALUES ('14850', 'leggingskoujiashadowgreater3', 2) /* Clothing */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (14850,   1,          2) /* ItemType - Armor */
      , (14850,   3,         24) /* PaletteTemplate - DarkBlueMetal */
-     , (14850,   4,       2816) /* ClothingPriority */
+     , (14850,   4,       2816) /* ClothingPriority - OuterwearUpperLegs, OuterwearLowerLegs, OuterwearAbdomen */
      , (14850,   5,       2700) /* EncumbranceVal */
      , (14850,   8,       1350) /* Mass */
-     , (14850,   9,      25600) /* ValidLocations */
+     , (14850,   9,      25600) /* ValidLocations - AbdomenArmor, UpperLegArmor, LowerLegArmor */
      , (14850,  16,          1) /* ItemUseable - No */
      , (14850,  19,       3240) /* Value */
      , (14850,  27,         32) /* ArmorType */
      , (14850,  28,        195) /* ArmorLevel */
      , (14850,  33,          1) /* Bonded - Bonded */
-     , (14850,  93,       1044) /* PhysicsState */
+     , (14850,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (14850, 158,          7) /* WieldRequirements - Level */
      , (14850, 159,          1) /* WieldSkilltype - Axe */
      , (14850, 160,         30) /* WieldDifficulty */;

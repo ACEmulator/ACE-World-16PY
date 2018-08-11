@@ -10,10 +10,10 @@ VALUES (810,   1,         16) /* ItemType - Creature */
      , (810,  16,         32) /* ItemUseable - Remote */
      , (810,  25,          6) /* Level */
      , (810,  27,          0) /* ArmorType */
-     , (810,  74,     262176) /* MerchandiseItemTypes */
+     , (810,  74,     262176) /* MerchandiseItemTypes - Food, PromissoryNote */
      , (810,  75,          0) /* MerchandiseMinValue */
      , (810,  76,      25000) /* MerchandiseMaxValue */
-     , (810,  93,    2098200) /* PhysicsState */
+     , (810,  93,    2098200) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */
      , (810, 126,        125) /* VendorHappyMean */
      , (810, 127,        125) /* VendorHappyVariance */
      , (810, 133,          4) /* ShowableOnRadar - ShowAlways */
@@ -163,24 +163,24 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 318767235 /* Nod */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (810, 2,   118,  0, 13, 0.5, False) /* Create Cap for Wield */
-     , (810, 2,   127,  0, 9, 0.5, False) /* Create Pants for Wield */
-     , (810, 2,   130,  0, 9, 0, False) /* Create Shirt for Wield */
-     , (810, 2,   132,  0, 14, 0.8, False) /* Create Shoes for Wield */
-     , (810, 4,  1227, -1, 0, 0, False) /* Create Yanshi Portal Directions for Shop */
-     , (810, 4,  1401, -1, 0, 0, False) /* Create Yanshi Tunnel Directions for Shop */
-     , (810, 4,  2451, -1, 0, 0, False) /* Create Ale for Shop */
-     , (810, 4,  2456, -1, 0, 0, False) /* Create Green Tea for Shop */
-     , (810, 4,  2464, -1, 0, 0, False) /* Create Orange Juice for Shop */
-     , (810, 4,  2468, -1, 0, 0, False) /* Create Sake for Shop */
-     , (810, 4,  4731, -1, 0, 0, False) /* Create Fried Mushroom for Shop */
-     , (810, 4,  4738, -1, 0, 0, False) /* Create Mushroom Rice for Shop */
-     , (810, 4,  4740, -1, 0, 0, False) /* Create Pickled Fish for Shop */
-     , (810, 4,  4746, -1, 0, 0, False) /* Create Water for Shop */
-     , (810, 4,  5208, -1, 0, 0, False) /* Create Mushroom Stew for Shop */
-     , (810, 4,  6417, -1, 0, 0, False) /* Create A Stinging Stone for Shop */
-     , (810, 4,  6418, -1, 0, 0, False) /* Create A Fiery Stone for Shop */
-     , (810, 4,  8378, -1, 0, 0, False) /* Create Beer Stein for Shop */
-     , (810, 2, 10696,  0, 18, 1, False) /* Create Apron for Wield */
-     , (810, 4, 15808, -1, 0, 0, False) /* Create Plea for Help for Shop */
-     , (810, 4, 23614, -1, 0, 0, False) /* Create Felscuda the Scholar for Shop */;
+VALUES (810, 2,   118,  0, 13, 0.5, False) /* Create Cap (118) for Wield */
+     , (810, 2,   127,  0, 9, 0.5, False) /* Create Pants (127) for Wield */
+     , (810, 2,   130,  0, 9, 0, False) /* Create Shirt (130) for Wield */
+     , (810, 2,   132,  0, 14, 0.8, False) /* Create Shoes (132) for Wield */
+     , (810, 4,  1227, -1, 0, 0, False) /* Create Yanshi Portal Directions (1227) for Shop */
+     , (810, 4,  1401, -1, 0, 0, False) /* Create Yanshi Tunnel Directions (1401) for Shop */
+     , (810, 4,  2451, -1, 0, 0, False) /* Create Ale (2451) for Shop */
+     , (810, 4,  2456, -1, 0, 0, False) /* Create Green Tea (2456) for Shop */
+     , (810, 4,  2464, -1, 0, 0, False) /* Create Orange Juice (2464) for Shop */
+     , (810, 4,  2468, -1, 0, 0, False) /* Create Sake (2468) for Shop */
+     , (810, 4,  4731, -1, 0, 0, False) /* Create Fried Mushroom (4731) for Shop */
+     , (810, 4,  4738, -1, 0, 0, False) /* Create Mushroom Rice (4738) for Shop */
+     , (810, 4,  4740, -1, 0, 0, False) /* Create Pickled Fish (4740) for Shop */
+     , (810, 4,  4746, -1, 0, 0, False) /* Create Water (4746) for Shop */
+     , (810, 4,  5208, -1, 0, 0, False) /* Create Mushroom Stew (5208) for Shop */
+     , (810, 4,  6417, -1, 0, 0, False) /* Create A Stinging Stone (6417) for Shop */
+     , (810, 4,  6418, -1, 0, 0, False) /* Create A Fiery Stone (6418) for Shop */
+     , (810, 4,  8378, -1, 0, 0, False) /* Create Beer Stein (8378) for Shop */
+     , (810, 2, 10696,  0, 18, 1, False) /* Create Apron (10696) for Wield */
+     , (810, 4, 15808, -1, 0, 0, False) /* Create Plea for Help (15808) for Shop */
+     , (810, 4, 23614, -1, 0, 0, False) /* Create Felscuda the Scholar (23614) for Shop */;

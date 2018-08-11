@@ -11,7 +11,7 @@ VALUES (6534,   1,         16) /* ItemType - Creature */
      , (6534,  25,          4) /* Level */
      , (6534,  40,          2) /* CombatMode - Melee */
      , (6534,  68,         15) /* TargetingTactic */
-     , (6534,  93,       1032) /* PhysicsState */
+     , (6534,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (6534, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (6534, 146,        100) /* XpOverride */;
 
@@ -69,7 +69,7 @@ VALUES (6534,   1,   33555610) /* Setup */
      , (6534,   7,  268435811) /* ClothingBase */
      , (6534,   8,  100669123) /* Icon */
      , (6534,  22,  872415351) /* PhysicsEffectTable */
-     , (6534,  35,        465) /* DeathTreasureType */;
+     , (6534,  35,        465) /* DeathTreasureType - Loot Tier: 1 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (6534,   1,  15, 0, 0) /* Strength */
@@ -124,5 +124,5 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,  17 /* LocalBroadcast */, 0, 0, NULL, 'The Shadow Sprite hisses at you in hatred as its life seeps away.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (6534, 9,     0,  0, 0, 0.998, False) /* Create Unknown for ContainTreasure */
-     , (6534, 9,  6060,  0, 0, 0.002, False) /* Create Dark Speck for ContainTreasure */;
+VALUES (6534, 9,     0,  0, 0, 0.998, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 1 for ContainTreasure */
+     , (6534, 9,  6060,  0, 0, 0.002, False) /* Create Dark Speck (6060) for ContainTreasure */;

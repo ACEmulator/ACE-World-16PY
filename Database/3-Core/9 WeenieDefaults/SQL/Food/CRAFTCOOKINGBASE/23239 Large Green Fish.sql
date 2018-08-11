@@ -16,7 +16,7 @@ VALUES (23239,   1,    4194304) /* ItemType - CraftCookingBase */
      , (23239,  19,          0) /* Value */
      , (23239,  89,          4) /* BoosterEnum - Stamina */
      , (23239,  90,         40) /* BoostValue */
-     , (23239,  93,       1044) /* PhysicsState */
+     , (23239,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (23239, 150,        103) /* HookPlacement - Hook */
      , (23239, 151,          2) /* HookType - Wall */;
 

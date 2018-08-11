@@ -12,7 +12,7 @@ VALUES (1625,   1,         16) /* ItemType - Creature */
      , (1625,  27,          0) /* ArmorType */
      , (1625,  40,          2) /* CombatMode - Melee */
      , (1625,  68,          5) /* TargetingTactic */
-     , (1625,  93,       1032) /* PhysicsState */
+     , (1625,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (1625, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (1625, 146,       1482) /* XpOverride */;
 
@@ -68,7 +68,7 @@ VALUES (1625,   1,   33554493) /* Setup */
      , (1625,   8,  100667451) /* Icon */
      , (1625,  22,  872415267) /* PhysicsEffectTable */
      , (1625,  30,         83) /* PhysicsScript - PortalExit */
-     , (1625,  35,        459) /* DeathTreasureType */;
+     , (1625,  35,        459) /* DeathTreasureType - Loot Tier: 1 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (1625,   1,  70, 0, 0) /* Strength */
@@ -135,5 +135,5 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 268435538 /* Twitch2 */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (1625, 9,     0,  0, 0, 0.93, False) /* Create Unknown for ContainTreasure */
-     , (1625, 8,  5794,  0, 0, 0.07, False) /* Create Hot Pepper for Treasure */;
+VALUES (1625, 9,     0,  0, 0, 0.93, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 1 for ContainTreasure */
+     , (1625, 8,  5794,  0, 0, 0.07, False) /* Create Hot Pepper (5794) for Treasure */;

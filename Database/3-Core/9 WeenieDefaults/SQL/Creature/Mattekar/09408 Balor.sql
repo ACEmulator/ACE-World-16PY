@@ -11,7 +11,7 @@ VALUES (9408,   1,         16) /* ItemType - Creature */
      , (9408,  25,        126) /* Level */
      , (9408,  27,          0) /* ArmorType */
      , (9408,  40,          2) /* CombatMode - Melee */
-     , (9408,  93,    2098200) /* PhysicsState */
+     , (9408,  93,    2098200) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */
      , (9408,  95,          8) /* RadarBlipColor - Yellow */
      , (9408, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (9408, 134,         16) /* PlayerKillerStatus - RubberGlue */

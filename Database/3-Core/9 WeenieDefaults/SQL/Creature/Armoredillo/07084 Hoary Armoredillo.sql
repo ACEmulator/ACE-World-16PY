@@ -11,7 +11,7 @@ VALUES (7084,   1,         16) /* ItemType - Creature */
      , (7084,  25,         79) /* Level */
      , (7084,  40,          2) /* CombatMode - Melee */
      , (7084,  68,          9) /* TargetingTactic */
-     , (7084,  93,       1032) /* PhysicsState */
+     , (7084,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (7084, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (7084, 146,      16445) /* XpOverride */;
 
@@ -66,7 +66,7 @@ VALUES (7084,   1,   33554436) /* Setup */
      , (7084,   7,  268436612) /* ClothingBase */
      , (7084,   8,  100667935) /* Icon */
      , (7084,  22,  872415253) /* PhysicsEffectTable */
-     , (7084,  35,        456) /* DeathTreasureType */;
+     , (7084,  35,        456) /* DeathTreasureType - Loot Tier: 3 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (7084,   1, 220, 0, 0) /* Strength */
@@ -134,7 +134,7 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 268435538 /* Twitch2 */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (7084, 9,     0,  0, 0, 0.93, False) /* Create Unknown for ContainTreasure */
-     , (7084, 9,     0,  0, 0, 0.95, False) /* Create Unknown for ContainTreasure */
-     , (7084, 9,  4234,  0, 0, 0.05, False) /* Create Large Armoredillo Hide for ContainTreasure */
-     , (7084, 9, 22950,  0, 0, 0.07, False) /* Create Hoary Armoredillo Spine for ContainTreasure */;
+VALUES (7084, 9,     0,  0, 0, 0.93, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 3 for ContainTreasure */
+     , (7084, 9,     0,  0, 0, 0.95, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 3 for ContainTreasure */
+     , (7084, 9,  4234,  0, 0, 0.05, False) /* Create Large Armoredillo Hide (4234) for ContainTreasure */
+     , (7084, 9, 22950,  0, 0, 0.07, False) /* Create Hoary Armoredillo Spine (22950) for ContainTreasure */;

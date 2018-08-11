@@ -4,15 +4,15 @@ VALUES ('2588', 'shirtflared', 2) /* Clothing */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (2588,   1,          4) /* ItemType - Clothing */
      , (2588,   3,          8) /* PaletteTemplate - Green */
-     , (2588,   4,        104) /* ClothingPriority */
+     , (2588,   4,        104) /* ClothingPriority - UnderwearChest, UnderwearUpperArms, UnderwearLowerArms */
      , (2588,   5,         75) /* EncumbranceVal */
      , (2588,   8,         50) /* Mass */
-     , (2588,   9,         30) /* ValidLocations */
+     , (2588,   9,         30) /* ValidLocations - ChestWear, AbdomenWear, UpperArmWear, LowerArmWear */
      , (2588,  16,          1) /* ItemUseable - No */
      , (2588,  19,         15) /* Value */
      , (2588,  27,          1) /* ArmorType */
      , (2588,  28,          0) /* ArmorLevel */
-     , (2588,  93,       1044) /* PhysicsState */
+     , (2588,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (2588, 169,  201328144) /* TsysMutationData */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)

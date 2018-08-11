@@ -12,8 +12,8 @@ VALUES (8543,   1,         16) /* ItemType - Creature */
      , (8543,  27,          0) /* ArmorType */
      , (8543,  40,          1) /* CombatMode - NonCombat */
      , (8543,  68,          5) /* TargetingTactic */
-     , (8543,  93,       1032) /* PhysicsState */
-     , (8543, 101,        183) /* AiAllowedCombatStyle */
+     , (8543,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
+     , (8543, 101,        183) /* AiAllowedCombatStyle - Unarmed, OneHanded, OneHandedAndShield, Bow, Crossbow, ThrownWeapon */
      , (8543, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (8543, 140,          1) /* AiOptions */
      , (8543, 146,      15000) /* XpOverride */;
@@ -71,7 +71,12 @@ VALUES (8543,   1,   33555464) /* Setup */
      , (8543,   7,  268435646) /* ClothingBase */
      , (8543,   8,  100669124) /* Icon */
      , (8543,  22,  872415269) /* PhysicsEffectTable */
-     , (8543,  32,        288) /* WieldedTreasureType */;
+     , (8543,  32,        288) /* WieldedTreasureType - 
+                                   Wield Yumi (23734) | Probability: 50%
+                                   Wield 16x Deadly Acid Arrow (15430) | Probability: 100%
+                                   Wield Kite Shield (23684) | Probability: 50%
+                                   Wield Acid Spear (23688) | Probability: 25%
+                                   Wield Acid Yari (23722) | Probability: 25% */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (8543,   1, 275, 0, 0) /* Strength */
@@ -127,4 +132,4 @@ VALUES (8543,  94) /* ATTACK_NOTIFICATION_EVENT */
      , (8543, 414) /* PLAYER_DEATH_EVENT */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (8543, 1,  8520,  0, 0, 1, False) /* Create Broken Silver Key for Contain */;
+VALUES (8543, 1,  8520,  0, 0, 1, False) /* Create Broken Silver Key (8520) for Contain */;

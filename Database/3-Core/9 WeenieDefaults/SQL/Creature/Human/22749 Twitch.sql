@@ -11,7 +11,7 @@ VALUES (22749,   1,         16) /* ItemType - Creature */
      , (22749,  16,         32) /* ItemUseable - Remote */
      , (22749,  25,          6) /* Level */
      , (22749,  27,          0) /* ArmorType */
-     , (22749,  93,    6292504) /* PhysicsState */
+     , (22749,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (22749,  95,          8) /* RadarBlipColor - Yellow */
      , (22749, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (22749, 134,         16) /* PlayerKillerStatus - RubberGlue */
@@ -144,4 +144,4 @@ VALUES (@parent_id,  0,  10 /* Tell */, 0, 1, NULL, 'Where am I? I finally found
      , (@parent_id,  4,   5 /* Motion */, 0, 1, 318767232 /* Laugh */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (22749, 2, 10757,  0, 0, 0, False) /* Create Towel for Wield */;
+VALUES (22749, 2, 10757,  0, 0, 0, False) /* Create Towel (10757) for Wield */;

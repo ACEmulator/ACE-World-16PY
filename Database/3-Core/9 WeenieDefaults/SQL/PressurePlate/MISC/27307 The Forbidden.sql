@@ -9,7 +9,7 @@ VALUES (27307,   1,        128) /* ItemType - Misc */
      , (27307,  16,          1) /* ItemUseable - No */
      , (27307,  19,       1000) /* Value */
      , (27307,  83,       2048) /* ActivationResponse - Unk800 */
-     , (27307,  93,       1036) /* PhysicsState */
+     , (27307,  93,       1036) /* PhysicsState - Ethereal, ReportCollisions, Gravity */
      , (27307, 106,        525) /* ItemSpellcraft */
      , (27307, 119,          1) /* Active */;
 

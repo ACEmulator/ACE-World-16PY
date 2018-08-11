@@ -12,7 +12,7 @@ VALUES (4993,   1,         16) /* ItemType - Creature */
      , (4993,  27,          0) /* ArmorType */
      , (4993,  40,          1) /* CombatMode - NonCombat */
      , (4993,  68,          3) /* TargetingTactic */
-     , (4993,  93,       1032) /* PhysicsState */
+     , (4993,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (4993, 101,          4) /* AiAllowedCombatStyle - OneHandedAndShield */
      , (4993, 133,          0) /* ShowableOnRadar - Undefined */
      , (4993, 146,       3315) /* XpOverride */;
@@ -69,7 +69,7 @@ VALUES (4993,   1,   33554839) /* Setup */
      , (4993,   7,  268435558) /* ClothingBase */
      , (4993,   8,  100667942) /* Icon */
      , (4993,  22,  872415272) /* PhysicsEffectTable */
-     , (4993,  35,        238) /* DeathTreasureType */;
+     , (4993,  35,        238) /* DeathTreasureType - Loot Tier: 3 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (4993,   1, 120, 0, 0) /* Strength */
@@ -133,4 +133,4 @@ VALUES (4993,  94) /* ATTACK_NOTIFICATION_EVENT */
      , (4993, 414) /* PLAYER_DEATH_EVENT */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (4993, 1,  5871,  0, 0, 0, False) /* Create Key of Frore for Contain */;
+VALUES (4993, 1,  5871,  0, 0, 0, False) /* Create Key of Frore (5871) for Contain */;

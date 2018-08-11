@@ -12,8 +12,8 @@ VALUES (30682,   1,         16) /* ItemType - Creature */
      , (30682,  27,          0) /* ArmorType */
      , (30682,  40,          2) /* CombatMode - Melee */
      , (30682,  68,          9) /* TargetingTactic */
-     , (30682,  93,       1032) /* PhysicsState */
-     , (30682, 101,        131) /* AiAllowedCombatStyle */
+     , (30682,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
+     , (30682, 101,        131) /* AiAllowedCombatStyle - Unarmed, OneHanded, ThrownWeapon */
      , (30682, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (30682, 140,          1) /* AiOptions */
      , (30682, 146,     585880) /* XpOverride */;
@@ -70,7 +70,7 @@ VALUES (30682,   1,   33559218) /* Setup */
      , (30682,   7,  268436896) /* ClothingBase */
      , (30682,   8,  100667445) /* Icon */
      , (30682,  22,  872415258) /* PhysicsEffectTable */
-     , (30682,  35,         26) /* DeathTreasureType */;
+     , (30682,  35,         26) /* DeathTreasureType - Loot Tier: 6 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (30682,   1, 450, 0, 0) /* Strength */
@@ -202,9 +202,9 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 268435537 /* Twitch1 */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (30682, 9,     0,  0, 0, 0.96, False) /* Create Unknown for ContainTreasure */
-     , (30682, 9,     0,  0, 0, 0.98, False) /* Create Unknown for ContainTreasure */
-     , (30682, 9,     0,  0, 0, 0.9, False) /* Create Unknown for ContainTreasure */
-     , (30682, 9, 23107,  0, 0, 0.02, False) /* Create Mangled Dark Key for ContainTreasure */
-     , (30682, 9, 23108,  0, 0, 0.04, False) /* Create Twisted Dark Key for ContainTreasure */
-     , (30682, 9, 25567,  0, 0, 0.1, False) /* Create Glittering Key for ContainTreasure */;
+VALUES (30682, 9,     0,  0, 0, 0.96, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 6 for ContainTreasure */
+     , (30682, 9,     0,  0, 0, 0.98, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 6 for ContainTreasure */
+     , (30682, 9,     0,  0, 0, 0.9, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 6 for ContainTreasure */
+     , (30682, 9, 23107,  0, 0, 0.02, False) /* Create Mangled Dark Key (23107) for ContainTreasure */
+     , (30682, 9, 23108,  0, 0, 0.04, False) /* Create Twisted Dark Key (23108) for ContainTreasure */
+     , (30682, 9, 25567,  0, 0, 0.1, False) /* Create Glittering Key (25567) for ContainTreasure */;

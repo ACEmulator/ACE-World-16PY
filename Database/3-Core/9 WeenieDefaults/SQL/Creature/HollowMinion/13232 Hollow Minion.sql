@@ -12,7 +12,7 @@ VALUES (13232,   1,         16) /* ItemType - Creature */
      , (13232,  67,         64) /* Tolerance */
      , (13232,  68,          9) /* TargetingTactic */
      , (13232,  72,         19) /* FriendType - Virindi */
-     , (13232,  93,       1032) /* PhysicsState */
+     , (13232,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (13232, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (13232, 140,          1) /* AiOptions */
      , (13232, 146,         11) /* XpOverride */;

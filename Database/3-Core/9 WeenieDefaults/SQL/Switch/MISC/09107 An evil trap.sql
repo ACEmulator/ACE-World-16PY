@@ -8,7 +8,7 @@ VALUES (9107,   1,        128) /* ItemType - Misc */
      , (9107,  16,          1) /* ItemUseable - No */
      , (9107,  19,        200) /* Value */
      , (9107,  83,       4096) /* ActivationResponse - CastSpell */
-     , (9107,  93,         20) /* PhysicsState */
+     , (9107,  93,         20) /* PhysicsState - Ethereal, IgnoreCollisions */
      , (9107, 106,       1000) /* ItemSpellcraft */
      , (9107, 119,          1) /* Active */;
 

@@ -15,7 +15,7 @@ VALUES (539,   1,          1) /* ItemType - MeleeWeapon */
      , (539,  48,          9) /* WeaponSkill - Spear */
      , (539,  49,         30) /* WeaponTime */
      , (539,  51,          1) /* CombatUse - Melee */
-     , (539,  93,       1044) /* PhysicsState */
+     , (539,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (539, 150,        103) /* HookPlacement - Hook */
      , (539, 151,          2) /* HookType - Wall */;
 

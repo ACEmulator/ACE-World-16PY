@@ -12,8 +12,8 @@ VALUES (7336,   1,         16) /* ItemType - Creature */
      , (7336,  27,          0) /* ArmorType */
      , (7336,  40,          2) /* CombatMode - Melee */
      , (7336,  68,          9) /* TargetingTactic */
-     , (7336,  93,       1032) /* PhysicsState */
-     , (7336, 101,        131) /* AiAllowedCombatStyle */
+     , (7336,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
+     , (7336, 101,        131) /* AiAllowedCombatStyle - Unarmed, OneHanded, ThrownWeapon */
      , (7336, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (7336, 140,          1) /* AiOptions */
      , (7336, 146,      20012) /* XpOverride */;
@@ -72,8 +72,9 @@ VALUES (7336,   1,   33556445) /* Setup */
      , (7336,   7,  268435977) /* ClothingBase */
      , (7336,   8,  100667445) /* Icon */
      , (7336,  22,  872415258) /* PhysicsEffectTable */
-     , (7336,  32,        298) /* WieldedTreasureType */
-     , (7336,  35,        450) /* DeathTreasureType */;
+     , (7336,  32,        298) /* WieldedTreasureType - 
+                                   Wield 15x Flaming Javelin (7311) | Probability: 100% */
+     , (7336,  35,        450) /* DeathTreasureType - Loot Tier: 3 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (7336,   1, 350, 0, 0) /* Strength */

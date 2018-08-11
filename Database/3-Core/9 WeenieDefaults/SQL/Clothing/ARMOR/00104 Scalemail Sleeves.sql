@@ -4,15 +4,15 @@ VALUES ('104', 'sleevesscalemail', 2) /* Clothing */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (104,   1,          2) /* ItemType - Armor */
      , (104,   3,         20) /* PaletteTemplate - Silver */
-     , (104,   4,      12288) /* ClothingPriority */
+     , (104,   4,      12288) /* ClothingPriority - OuterwearUpperArms, OuterwearLowerArms */
      , (104,   5,        533) /* EncumbranceVal */
      , (104,   8,        320) /* Mass */
-     , (104,   9,       6144) /* ValidLocations */
+     , (104,   9,       6144) /* ValidLocations - UpperArmArmor, LowerArmArmor */
      , (104,  16,          1) /* ItemUseable - No */
      , (104,  19,        760) /* Value */
      , (104,  27,          8) /* ArmorType */
      , (104,  28,         75) /* ArmorLevel */
-     , (104,  93,       1044) /* PhysicsState */
+     , (104,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (104, 169,  118096132) /* TsysMutationData */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)

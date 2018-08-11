@@ -12,13 +12,13 @@ VALUES (24202,   1,          1) /* ItemType - MeleeWeapon */
      , (24202,  33,          1) /* Bonded - Bonded */
      , (24202,  36,       9999) /* ResistMagic */
      , (24202,  44,         26) /* Damage */
-     , (24202,  45,          3) /* DamageType */
+     , (24202,  45,          3) /* DamageType - Slash, Pierce */
      , (24202,  46,          2) /* DefaultCombatStyle - OneHanded */
-     , (24202,  47,          6) /* AttackType */
+     , (24202,  47,          6) /* AttackType - Thrust, Slash */
      , (24202,  48,          4) /* WeaponSkill - Dagger */
      , (24202,  49,         12) /* WeaponTime */
      , (24202,  51,          1) /* CombatUse - Melee */
-     , (24202,  93,       1044) /* PhysicsState */
+     , (24202,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (24202, 106,        300) /* ItemSpellcraft */
      , (24202, 107,        800) /* ItemCurMana */
      , (24202, 108,        800) /* ItemMaxMana */

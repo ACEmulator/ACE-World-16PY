@@ -12,7 +12,7 @@ VALUES (9000,   1,        512) /* ItemType - Container */
      , (9000,  19,          0) /* Value */
      , (9000,  81,         10) /* MaxGeneratedObjects */
      , (9000,  82,         10) /* InitGeneratedObjects */
-     , (9000,  93,       1048) /* PhysicsState */
+     , (9000,  93,       1048) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity */
      , (9000,  96,        500) /* EncumbranceCapacity */
      , (9000, 100,          1) /* GeneratorType - Relative */;
 
@@ -41,4 +41,4 @@ VALUES (9000,   1,   33556950) /* Setup */
      , (9000,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (9000, -1, 8909, 0, 10, 10, 2, 8, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0);
+VALUES (9000, -1, 8909, 0, 10, 10, 2, 8, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Blood of the Hopeslayer (8909) (x10 up to max of 10) - Regenerate upon PickUp - Location to (re)Generate: Contain */;

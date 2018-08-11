@@ -10,10 +10,10 @@ VALUES (2045,   1,         16) /* ItemType - Creature */
      , (2045,  16,         32) /* ItemUseable - Remote */
      , (2045,  25,         11) /* Level */
      , (2045,  27,          0) /* ArmorType */
-     , (2045,  74,     270336) /* MerchandiseItemTypes */
+     , (2045,  74,     270336) /* MerchandiseItemTypes - Writable, PromissoryNote */
      , (2045,  75,          0) /* MerchandiseMinValue */
      , (2045,  76,     100000) /* MerchandiseMaxValue */
-     , (2045,  93,    2098200) /* PhysicsState */
+     , (2045,  93,    2098200) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */
      , (2045, 126,       2000) /* VendorHappyMean */
      , (2045, 127,       1000) /* VendorHappyVariance */
      , (2045, 133,          4) /* ShowableOnRadar - ShowAlways */
@@ -163,19 +163,19 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 318767235 /* Nod */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (2045, 2,   127,  0, 14, 0, False) /* Create Pants for Wield */
-     , (2045, 2,   130,  0, 14, 0, False) /* Create Shirt for Wield */
-     , (2045, 2,   133,  0, 10, 1, False) /* Create Slippers for Wield */
-     , (2045, 4,   364, -1, 0, 0, False) /* Create Book for Shop */
-     , (2045, 4,   365, -1, 0, 0, False) /* Create Parchment for Shop */
-     , (2045, 4,   367, -1, 0, 0, False) /* Create Tome for Shop */
-     , (2045, 4,  5696, -1, 0, 0, False) /* Create Lashanda's Hand for Shop */
-     , (2045, 4,  7774, -1, 0, 0, False) /* Create Concerning the Revelations of Anti-Magic for Shop */
-     , (2045, 4,  7775, -1, 0, 0, False) /* Create Practical Applications of Chorizite for Shop */
-     , (2045, 4,  8076, -1, 0, 0, False) /* Create Midnight Revelation for Shop */
-     , (2045, 4,  8077, -1, 0, 0, False) /* Create Recalling the Calling for Shop */
-     , (2045, 4,  8078, -1, 0, 0, False) /* Create Derethian Skies for Shop */
-     , (2045, 4,  9006, -1, 0, 0, False) /* Create Excerpts from the Zharalim for Shop */
-     , (2045, 4,  9122, -1, 0, 0, False) /* Create Interlude for Shop */
-     , (2045, 2, 10696,  0, 9, 0.5, False) /* Create Apron for Wield */
-     , (2045, 4, 10700, -1, 0, 0, False) /* Create Book of Seasons for Shop */;
+VALUES (2045, 2,   127,  0, 14, 0, False) /* Create Pants (127) for Wield */
+     , (2045, 2,   130,  0, 14, 0, False) /* Create Shirt (130) for Wield */
+     , (2045, 2,   133,  0, 10, 1, False) /* Create Slippers (133) for Wield */
+     , (2045, 4,   364, -1, 0, 0, False) /* Create Book (364) for Shop */
+     , (2045, 4,   365, -1, 0, 0, False) /* Create Parchment (365) for Shop */
+     , (2045, 4,   367, -1, 0, 0, False) /* Create Tome (367) for Shop */
+     , (2045, 4,  5696, -1, 0, 0, False) /* Create Lashanda's Hand (5696) for Shop */
+     , (2045, 4,  7774, -1, 0, 0, False) /* Create Concerning the Revelations of Anti-Magic (7774) for Shop */
+     , (2045, 4,  7775, -1, 0, 0, False) /* Create Practical Applications of Chorizite (7775) for Shop */
+     , (2045, 4,  8076, -1, 0, 0, False) /* Create Midnight Revelation (8076) for Shop */
+     , (2045, 4,  8077, -1, 0, 0, False) /* Create Recalling the Calling (8077) for Shop */
+     , (2045, 4,  8078, -1, 0, 0, False) /* Create Derethian Skies (8078) for Shop */
+     , (2045, 4,  9006, -1, 0, 0, False) /* Create Excerpts from the Zharalim (9006) for Shop */
+     , (2045, 4,  9122, -1, 0, 0, False) /* Create Interlude (9122) for Shop */
+     , (2045, 2, 10696,  0, 9, 0.5, False) /* Create Apron (10696) for Wield */
+     , (2045, 4, 10700, -1, 0, 0, False) /* Create Book of Seasons (10700) for Shop */;

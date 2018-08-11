@@ -9,7 +9,7 @@ VALUES (30699,   1,        128) /* ItemType - Misc */
      , (30699,  16,          1) /* ItemUseable - No */
      , (30699,  19,        200) /* Value */
      , (30699,  33,          0) /* Bonded - Normal */
-     , (30699,  93,       1044) /* PhysicsState */
+     , (30699,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (30699, 114,          0) /* Attuned - Normal */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)

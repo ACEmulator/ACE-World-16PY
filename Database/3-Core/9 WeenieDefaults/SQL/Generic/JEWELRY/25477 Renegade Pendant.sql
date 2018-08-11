@@ -10,7 +10,7 @@ VALUES (25477,   1,          8) /* ItemType - Jewelry */
      , (25477,  16,          1) /* ItemUseable - No */
      , (25477,  19,       1500) /* Value */
      , (25477,  33,          1) /* Bonded - Bonded */
-     , (25477,  93,       1044) /* PhysicsState */
+     , (25477,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (25477, 114,          1) /* Attuned - Attuned */
      , (25477, 150,        103) /* HookPlacement - Hook */
      , (25477, 151,          2) /* HookType - Wall */;

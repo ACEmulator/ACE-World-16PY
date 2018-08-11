@@ -10,10 +10,10 @@ VALUES (27056,   1,         16) /* ItemType - Creature */
      , (27056,  16,         32) /* ItemUseable - Remote */
      , (27056,  25,         10) /* Level */
      , (27056,  27,          0) /* ArmorType */
-     , (27056,  74,     264192) /* MerchandiseItemTypes */
+     , (27056,  74,     264192) /* MerchandiseItemTypes - Gem, PromissoryNote */
      , (27056,  75,          0) /* MerchandiseMinValue */
      , (27056,  76,    1000000) /* MerchandiseMaxValue */
-     , (27056,  93,    2098204) /* PhysicsState */
+     , (27056,  93,    2098204) /* PhysicsState - Ethereal, ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */
      , (27056, 126,        125) /* VendorHappyMean */
      , (27056, 127,        125) /* VendorHappyVariance */
      , (27056, 133,          4) /* ShowableOnRadar - ShowAlways */
@@ -97,4 +97,4 @@ VALUES (27056,  0,  4,  0,    0,    0,    0,    0,    0,    0,    0,    0,    0,
      , (27056,  8,  4,  2, 0.75,    0,    0,    0,    0,    0,    0,    0,    0,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (27056, 4, 26421, -1, 0, 0, False) /* Create Village Quan Portal Gem for Shop */;
+VALUES (27056, 4, 26421, -1, 0, 0, False) /* Create Village Quan Portal Gem (26421) for Shop */;

@@ -14,7 +14,7 @@ VALUES (24909,   1,         16) /* ItemType - Creature */
      , (24909,  40,          2) /* CombatMode - Melee */
      , (24909,  68,         13) /* TargetingTactic */
      , (24909,  72,         35) /* FriendType - OlthoiLarvae */
-     , (24909,  93,       1032) /* PhysicsState */
+     , (24909,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (24909, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (24909, 140,          1) /* AiOptions */
      , (24909, 146,     172536) /* XpOverride */;
@@ -72,7 +72,7 @@ VALUES (24909,   1,   33557165) /* Setup */
      , (24909,   8,  100667623) /* Icon */
      , (24909,  22,  872415379) /* PhysicsEffectTable */
      , (24909,  30,         85) /* PhysicsScript - BreatheFrost */
-     , (24909,  35,         29) /* DeathTreasureType */;
+     , (24909,  35,         29) /* DeathTreasureType - Loot Tier: 5 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (24909,   1, 390, 0, 0) /* Strength */
@@ -126,15 +126,15 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 268435537 /* Twitch1 */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (24909, 9, 24925,  0, 0, 0.166, False) /* Create Brood Queen Elder Carapace for ContainTreasure */
-     , (24909, 9, 24925,  0, 0, 0.166, False) /* Create Brood Queen Elder Carapace for ContainTreasure */
-     , (24909, 9, 24927,  0, 0, 0.166, False) /* Create Brood Queen Elder Claw for ContainTreasure */
-     , (24909, 9, 24927,  0, 0, 0.166, False) /* Create Brood Queen Elder Claw for ContainTreasure */
-     , (24909, 9, 24929,  0, 0, 0.166, False) /* Create Brood Queen Elder Crest for ContainTreasure */
-     , (24909, 9, 24929,  0, 0, 0.166, False) /* Create Brood Queen Elder Crest for ContainTreasure */
-     , (24909, 9, 24931,  0, 0, 0.166, False) /* Create Brood Queen Elder Femur for ContainTreasure */
-     , (24909, 9, 24931,  0, 0, 0.166, False) /* Create Brood Queen Elder Femur for ContainTreasure */
-     , (24909, 9, 24933,  0, 0, 0.166, False) /* Create Brood Queen Elder Head for ContainTreasure */
-     , (24909, 9, 24933,  0, 0, 0.166, False) /* Create Brood Queen Elder Head for ContainTreasure */
-     , (24909, 9, 24935,  0, 0, 0.17, False) /* Create Brood Queen Elder Metathorax for ContainTreasure */
-     , (24909, 9, 24935,  0, 0, 0.17, False) /* Create Brood Queen Elder Metathorax for ContainTreasure */;
+VALUES (24909, 9, 24925,  0, 0, 0.166, False) /* Create Brood Queen Elder Carapace (24925) for ContainTreasure */
+     , (24909, 9, 24925,  0, 0, 0.166, False) /* Create Brood Queen Elder Carapace (24925) for ContainTreasure */
+     , (24909, 9, 24927,  0, 0, 0.166, False) /* Create Brood Queen Elder Claw (24927) for ContainTreasure */
+     , (24909, 9, 24927,  0, 0, 0.166, False) /* Create Brood Queen Elder Claw (24927) for ContainTreasure */
+     , (24909, 9, 24929,  0, 0, 0.166, False) /* Create Brood Queen Elder Crest (24929) for ContainTreasure */
+     , (24909, 9, 24929,  0, 0, 0.166, False) /* Create Brood Queen Elder Crest (24929) for ContainTreasure */
+     , (24909, 9, 24931,  0, 0, 0.166, False) /* Create Brood Queen Elder Femur (24931) for ContainTreasure */
+     , (24909, 9, 24931,  0, 0, 0.166, False) /* Create Brood Queen Elder Femur (24931) for ContainTreasure */
+     , (24909, 9, 24933,  0, 0, 0.166, False) /* Create Brood Queen Elder Head (24933) for ContainTreasure */
+     , (24909, 9, 24933,  0, 0, 0.166, False) /* Create Brood Queen Elder Head (24933) for ContainTreasure */
+     , (24909, 9, 24935,  0, 0, 0.17, False) /* Create Brood Queen Elder Metathorax (24935) for ContainTreasure */
+     , (24909, 9, 24935,  0, 0, 0.17, False) /* Create Brood Queen Elder Metathorax (24935) for ContainTreasure */;

@@ -13,8 +13,8 @@ VALUES (6772,   1,         16) /* ItemType - Creature */
      , (6772,  40,          1) /* CombatMode - NonCombat */
      , (6772,  68,          5) /* TargetingTactic */
      , (6772,  72,         14) /* FriendType - Undead */
-     , (6772,  93,       1032) /* PhysicsState */
-     , (6772, 101,        183) /* AiAllowedCombatStyle */
+     , (6772,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
+     , (6772, 101,        183) /* AiAllowedCombatStyle - Unarmed, OneHanded, OneHandedAndShield, Bow, Crossbow, ThrownWeapon */
      , (6772, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (6772, 140,          1) /* AiOptions */
      , (6772, 146,          0) /* XpOverride */;
@@ -166,4 +166,4 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 268435537 /* Twitch1 */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (6772, 8,  6662,  0, 0, 1, False) /* Create The Ruby Mahwan for Treasure */;
+VALUES (6772, 8,  6662,  0, 0, 1, False) /* Create The Ruby Mahwan (6662) for Treasure */;

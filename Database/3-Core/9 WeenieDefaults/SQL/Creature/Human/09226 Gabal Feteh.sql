@@ -10,7 +10,7 @@ VALUES (9226,   1,         16) /* ItemType - Creature */
      , (9226,  16,         32) /* ItemUseable - Remote */
      , (9226,  25,         45) /* Level */
      , (9226,  27,          0) /* ArmorType */
-     , (9226,  93,    6292504) /* PhysicsState */
+     , (9226,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (9226,  95,          8) /* RadarBlipColor - Yellow */
      , (9226, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (9226, 134,         16) /* PlayerKillerStatus - RubberGlue */
@@ -189,7 +189,7 @@ VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 1090519043 /* Ready */, NULL, NU
      , (@parent_id,  3,  10 /* Tell */, 1, 1, NULL, 'Recently the Zharalim have uncovered lore that enables us to make magical arrows.  If you trade me a mnemosyne fragment, I will be more than happy to grant you some arrowheads. You''ll have to assemble them yourself though.  You''ll need a bow like mine to use them.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (9226, 2,   134,  0, 9, 0, False) /* Create Tunic for Wield */
-     , (9226, 2,  2601,  0, 14, 0.6, False) /* Create Pants for Wield */
-     , (9226, 2,  2606,  0, 9, 1, False) /* Create Boots for Wield */
-     , (9226, 2,  8000,  0, 0, 0, False) /* Create Shendolain Crystal Bow for Wield */;
+VALUES (9226, 2,   134,  0, 9, 0, False) /* Create Tunic (134) for Wield */
+     , (9226, 2,  2601,  0, 14, 0.6, False) /* Create Pants (2601) for Wield */
+     , (9226, 2,  2606,  0, 9, 1, False) /* Create Boots (2606) for Wield */
+     , (9226, 2,  8000,  0, 0, 0, False) /* Create Shendolain Crystal Bow (8000) for Wield */;

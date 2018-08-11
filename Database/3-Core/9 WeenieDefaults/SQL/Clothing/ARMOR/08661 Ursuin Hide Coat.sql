@@ -4,15 +4,15 @@ VALUES ('8661', 'coatursuin', 2) /* Clothing */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (8661,   1,          2) /* ItemType - Armor */
      , (8661,   3,         10) /* PaletteTemplate - LightBlue */
-     , (8661,   4,      15360) /* ClothingPriority */
+     , (8661,   4,      15360) /* ClothingPriority - OuterwearChest, OuterwearAbdomen, OuterwearUpperArms, OuterwearLowerArms */
      , (8661,   5,        810) /* EncumbranceVal */
      , (8661,   8,        270) /* Mass */
-     , (8661,   9,       7680) /* ValidLocations */
+     , (8661,   9,       7680) /* ValidLocations - ChestArmor, AbdomenArmor, UpperArmArmor, LowerArmArmor */
      , (8661,  16,          1) /* ItemUseable - No */
      , (8661,  19,       2400) /* Value */
      , (8661,  27,          2) /* ArmorType */
      , (8661,  28,        120) /* ArmorLevel */
-     , (8661,  93,       1044) /* PhysicsState */
+     , (8661,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (8661, 150,        103) /* HookPlacement - Hook */
      , (8661, 151,          2) /* HookType - Wall */;
 

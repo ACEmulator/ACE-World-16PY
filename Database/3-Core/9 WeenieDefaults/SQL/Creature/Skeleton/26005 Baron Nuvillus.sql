@@ -12,8 +12,8 @@ VALUES (26005,   1,         16) /* ItemType - Creature */
      , (26005,  27,          0) /* ArmorType */
      , (26005,  40,          1) /* CombatMode - NonCombat */
      , (26005,  68,          5) /* TargetingTactic */
-     , (26005,  93,    4195336) /* PhysicsState */
-     , (26005, 101,        183) /* AiAllowedCombatStyle */
+     , (26005,  93,    4195336) /* PhysicsState - ReportCollisions, Gravity, EdgeSlide */
+     , (26005, 101,        183) /* AiAllowedCombatStyle - Unarmed, OneHanded, OneHandedAndShield, Bow, Crossbow, ThrownWeapon */
      , (26005, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (26005, 140,          1) /* AiOptions */
      , (26005, 146,      29118) /* XpOverride */;
@@ -72,7 +72,7 @@ VALUES (26005,   1,   33558576) /* Setup */
      , (26005,   7,  268436644) /* ClothingBase */
      , (26005,   8,  100669124) /* Icon */
      , (26005,  22,  872415269) /* PhysicsEffectTable */
-     , (26005,  35,        450) /* DeathTreasureType */;
+     , (26005,  35,        450) /* DeathTreasureType - Loot Tier: 3 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (26005,   1, 270, 0, 0) /* Strength */
@@ -127,5 +127,5 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 1090519059 /* Sitting */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (26005, 2,  7973,  0, 0, 0, False) /* Create Flaming Tachi for Wield */
-     , (26005, 9, 26004,  0, 0, 1, False) /* Create Crown of Bone for ContainTreasure */;
+VALUES (26005, 2,  7973,  0, 0, 0, False) /* Create Flaming Tachi (7973) for Wield */
+     , (26005, 9, 26004,  0, 0, 1, False) /* Create Crown of Bone (26004) for ContainTreasure */;

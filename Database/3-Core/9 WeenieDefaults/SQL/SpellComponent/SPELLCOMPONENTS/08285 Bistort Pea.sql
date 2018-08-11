@@ -14,7 +14,7 @@ VALUES (8285,   1,       4096) /* ItemType - SpellComponents */
      , (8285,  16,          1) /* ItemUseable - No */
      , (8285,  19,       1250) /* Value */
      , (8285,  33,          1) /* Bonded - Bonded */
-     , (8285,  93,       1044) /* PhysicsState */;
+     , (8285,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (8285,  23, True ) /* DestroyOnSell */;

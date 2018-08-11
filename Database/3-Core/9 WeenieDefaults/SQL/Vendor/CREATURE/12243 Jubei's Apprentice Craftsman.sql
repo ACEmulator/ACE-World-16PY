@@ -10,10 +10,10 @@ VALUES (12243,   1,         16) /* ItemType - Creature */
      , (12243,  16,         32) /* ItemUseable - Remote */
      , (12243,  25,          5) /* Level */
      , (12243,  27,          0) /* ArmorType */
-     , (12243,  74,     263296) /* MerchandiseItemTypes */
+     , (12243,  74,     263296) /* MerchandiseItemTypes - Misc, Useless, PromissoryNote */
      , (12243,  75,          0) /* MerchandiseMinValue */
      , (12243,  76,    1000000) /* MerchandiseMaxValue */
-     , (12243,  93,    2098200) /* PhysicsState */
+     , (12243,  93,    2098200) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */
      , (12243, 126,        125) /* VendorHappyMean */
      , (12243, 127,        125) /* VendorHappyVariance */
      , (12243, 133,          4) /* ShowableOnRadar - ShowAlways */
@@ -179,43 +179,43 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 318767235 /* Nod */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (12243, 2,   132,  0, 13, 0.5, False) /* Create Shoes for Wield */
-     , (12243, 4,   240, -1, 0, 0, False) /* Create Candelabra for Shop */
-     , (12243, 4,   241, -1, 0, 0, False) /* Create Chandelier for Shop */
-     , (12243, 4,   246, -1, 0, 0, False) /* Create Hearth for Shop */
-     , (12243, 4,   247, -1, 0, 0, False) /* Create Outcast for Shop */
-     , (12243, 4,   248, -1, 0, 0, False) /* Create Olthoi Enslavement for Shop */
-     , (12243, 4,   249, -1, 0, 0, False) /* Create Into the Unknown for Shop */
-     , (12243, 4,   250, -1, 0, 0, False) /* Create The Studious Mind for Shop */
-     , (12243, 4,   253, -1, 0, 0, False) /* Create Stool for Shop */
-     , (12243, 4,   257, -1, 0, 0, False) /* Create Workbench for Shop */
-     , (12243, 4,   267, -1, 0, 0, False) /* Create Bedroll for Shop */
-     , (12243, 4,   268, -1, 0, 0, False) /* Create Bench for Shop */
-     , (12243, 4,   272, -1, 0, 0, False) /* Create Chair for Shop */
-     , (12243, 4,   274, -1, 0, 0, False) /* Create Couch for Shop */
-     , (12243, 4,   276, -1, 0, 0, False) /* Create Desk for Shop */
-     , (12243, 4,   293, -1, 0, 0, False) /* Create Torch for Shop */
-     , (12243, 2,  2587,  0, 9, 1, False) /* Create Shirt for Wield */
-     , (12243, 2,  2602,  0, 9, 1, False) /* Create Breeches for Wield */
-     , (12243, 2, 10696,  0, 18, 1, False) /* Create Apron for Wield */
-     , (12243, 4, 13197, -1, 0, 0, False) /* Create Bed for Shop */
-     , (12243, 4, 13203, -1, 0, 0, False) /* Create Screen for Shop */
-     , (12243, 4, 15716, -1, 0, 0, False) /* Create Crystal Vase for Shop */
-     , (12243, 4, 15825, -1, 0, 0, False) /* Create Pedestal for Shop */
-     , (12243, 4, 20646, -1, 0, 0, False) /* Create Ust for Shop */
-     , (12243, 4, 21093, -1, 0, 0, False) /* Create Tinkering for Shop */
-     , (12243, 4, 22098, -1, 0, 0, False) /* Create Chess Stamp for Shop */
-     , (12243, 4, 22101, -1, 0, 0, False) /* Create Wi Stamp for Shop */
-     , (12243, 4, 22848, -1, 0, 0, False) /* Create Sho Floor Pillow for Shop */
-     , (12243, 4, 22849, -1, 0, 0, False) /* Create Falling Leaves for Shop */
-     , (12243, 4, 22850, -1, 0, 0, False) /* Create Bending Willow and Setting Sun for Shop */
-     , (12243, 4, 22856, -1, 0, 0, False) /* Create Sho Lantern for Shop */
-     , (12243, 4, 23044, -1, 0, 0, False) /* Create On the Abilities of Salvaged Ivory for Shop */
-     , (12243, 4, 25519, -1, 0, 0, False) /* Create Writ of Refuge Text for Shop */
-     , (12243, 4, 25762, -1, 0, 0, False) /* Create Jade Shrine for Shop */
-     , (12243, 4, 25765, -1, 0, 0, False) /* Create Sho Lamp for Shop */
-     , (12243, 4, 25774, -1, 0, 0, False) /* Create Fletching Table for Shop */
-     , (12243, 4, 25775, -1, 0, 0, False) /* Create Tapestry for Shop */
-     , (12243, 4, 25776, -1, 0, 0, False) /* Create Fat Vase for Shop */
-     , (12243, 4, 25776, -1, 0, 0, False) /* Create Fat Vase for Shop */
-     , (12243, 4, 25776, -1, 0, 0, False) /* Create Fat Vase for Shop */;
+VALUES (12243, 2,   132,  0, 13, 0.5, False) /* Create Shoes (132) for Wield */
+     , (12243, 4,   240, -1, 0, 0, False) /* Create Candelabra (240) for Shop */
+     , (12243, 4,   241, -1, 0, 0, False) /* Create Chandelier (241) for Shop */
+     , (12243, 4,   246, -1, 0, 0, False) /* Create Hearth (246) for Shop */
+     , (12243, 4,   247, -1, 0, 0, False) /* Create Outcast (247) for Shop */
+     , (12243, 4,   248, -1, 0, 0, False) /* Create Olthoi Enslavement (248) for Shop */
+     , (12243, 4,   249, -1, 0, 0, False) /* Create Into the Unknown (249) for Shop */
+     , (12243, 4,   250, -1, 0, 0, False) /* Create The Studious Mind (250) for Shop */
+     , (12243, 4,   253, -1, 0, 0, False) /* Create Stool (253) for Shop */
+     , (12243, 4,   257, -1, 0, 0, False) /* Create Workbench (257) for Shop */
+     , (12243, 4,   267, -1, 0, 0, False) /* Create Bedroll (267) for Shop */
+     , (12243, 4,   268, -1, 0, 0, False) /* Create Bench (268) for Shop */
+     , (12243, 4,   272, -1, 0, 0, False) /* Create Chair (272) for Shop */
+     , (12243, 4,   274, -1, 0, 0, False) /* Create Couch (274) for Shop */
+     , (12243, 4,   276, -1, 0, 0, False) /* Create Desk (276) for Shop */
+     , (12243, 4,   293, -1, 0, 0, False) /* Create Torch (293) for Shop */
+     , (12243, 2,  2587,  0, 9, 1, False) /* Create Shirt (2587) for Wield */
+     , (12243, 2,  2602,  0, 9, 1, False) /* Create Breeches (2602) for Wield */
+     , (12243, 2, 10696,  0, 18, 1, False) /* Create Apron (10696) for Wield */
+     , (12243, 4, 13197, -1, 0, 0, False) /* Create Bed (13197) for Shop */
+     , (12243, 4, 13203, -1, 0, 0, False) /* Create Screen (13203) for Shop */
+     , (12243, 4, 15716, -1, 0, 0, False) /* Create Crystal Vase (15716) for Shop */
+     , (12243, 4, 15825, -1, 0, 0, False) /* Create Pedestal (15825) for Shop */
+     , (12243, 4, 20646, -1, 0, 0, False) /* Create Ust (20646) for Shop */
+     , (12243, 4, 21093, -1, 0, 0, False) /* Create Tinkering (21093) for Shop */
+     , (12243, 4, 22098, -1, 0, 0, False) /* Create Chess Stamp (22098) for Shop */
+     , (12243, 4, 22101, -1, 0, 0, False) /* Create Wi Stamp (22101) for Shop */
+     , (12243, 4, 22848, -1, 0, 0, False) /* Create Sho Floor Pillow (22848) for Shop */
+     , (12243, 4, 22849, -1, 0, 0, False) /* Create Falling Leaves (22849) for Shop */
+     , (12243, 4, 22850, -1, 0, 0, False) /* Create Bending Willow and Setting Sun (22850) for Shop */
+     , (12243, 4, 22856, -1, 0, 0, False) /* Create Sho Lantern (22856) for Shop */
+     , (12243, 4, 23044, -1, 0, 0, False) /* Create On the Abilities of Salvaged Ivory (23044) for Shop */
+     , (12243, 4, 25519, -1, 0, 0, False) /* Create Writ of Refuge Text (25519) for Shop */
+     , (12243, 4, 25762, -1, 0, 0, False) /* Create Jade Shrine (25762) for Shop */
+     , (12243, 4, 25765, -1, 0, 0, False) /* Create Sho Lamp (25765) for Shop */
+     , (12243, 4, 25774, -1, 0, 0, False) /* Create Fletching Table (25774) for Shop */
+     , (12243, 4, 25775, -1, 0, 0, False) /* Create Tapestry (25775) for Shop */
+     , (12243, 4, 25776, -1, 0, 0, False) /* Create Fat Vase (25776) for Shop */
+     , (12243, 4, 25776, -1, 0, 0, False) /* Create Fat Vase (25776) for Shop */
+     , (12243, 4, 25776, -1, 0, 0, False) /* Create Fat Vase (25776) for Shop */;

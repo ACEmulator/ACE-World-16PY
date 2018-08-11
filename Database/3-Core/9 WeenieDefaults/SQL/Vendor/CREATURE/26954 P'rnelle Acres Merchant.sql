@@ -10,10 +10,10 @@ VALUES (26954,   1,         16) /* ItemType - Creature */
      , (26954,  16,         32) /* ItemUseable - Remote */
      , (26954,  25,         10) /* Level */
      , (26954,  27,          0) /* ArmorType */
-     , (26954,  74,     264192) /* MerchandiseItemTypes */
+     , (26954,  74,     264192) /* MerchandiseItemTypes - Gem, PromissoryNote */
      , (26954,  75,          0) /* MerchandiseMinValue */
      , (26954,  76,    1000000) /* MerchandiseMaxValue */
-     , (26954,  93,    2098204) /* PhysicsState */
+     , (26954,  93,    2098204) /* PhysicsState - Ethereal, ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */
      , (26954, 126,        125) /* VendorHappyMean */
      , (26954, 127,        125) /* VendorHappyVariance */
      , (26954, 133,          4) /* ShowableOnRadar - ShowAlways */
@@ -97,4 +97,4 @@ VALUES (26954,  0,  4,  0,    0,    0,    0,    0,    0,    0,    0,    0,    0,
      , (26954,  8,  4,  2, 0.75,    0,    0,    0,    0,    0,    0,    0,    0,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (26954, 4, 26319, -1, 0, 0, False) /* Create P'rnelle Acres Portal Gem for Shop */;
+VALUES (26954, 4, 26319, -1, 0, 0, False) /* Create P'rnelle Acres Portal Gem (26319) for Shop */;

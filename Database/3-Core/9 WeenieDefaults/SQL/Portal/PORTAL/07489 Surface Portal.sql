@@ -4,8 +4,8 @@ VALUES ('7489', 'portaltenkarrdunfoundryexit', 7) /* Portal */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (7489,   1,      65536) /* ItemType - Portal */
      , (7489,  16,         32) /* ItemUseable - Remote */
-     , (7489,  93,       2060) /* PhysicsState */
-     , (7489, 111,         49) /* PortalBitmask */
+     , (7489,  93,       2060) /* PhysicsState - Ethereal, ReportCollisions, LightingOn */
+     , (7489, 111,         49) /* PortalBitmask - Unrestricted, NoSummon, NoRecall */
      , (7489, 133,          4) /* ShowableOnRadar - ShowAlways */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)

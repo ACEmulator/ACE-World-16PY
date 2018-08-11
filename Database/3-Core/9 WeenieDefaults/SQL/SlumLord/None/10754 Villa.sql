@@ -4,7 +4,7 @@ VALUES ('10754', 'slumlordtestmoderate', 55) /* SlumLord */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (10754,  16,         32) /* ItemUseable - Remote */
      , (10754,  86,         30) /* MinLevel */
-     , (10754,  93,       1044) /* PhysicsState */
+     , (10754,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (10754, 149,          0) /* HouseStatus */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
@@ -24,7 +24,7 @@ VALUES (10754,   1,   33557167) /* Setup */
      , (10754,   8,  100671884) /* Icon */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (10754, 16,   273, 2000000, 0, 0, False) /* Create Pyreal for HouseBuy */
-     , (10754, 32,   273, 50000, 0, 0, False) /* Create Pyreal for HouseRent */
-     , (10754, 16, 11710,  5, 0, 0, False) /* Create Writ of Refuge for HouseBuy */
-     , (10754, 32, 11710,  1, 0, 0, False) /* Create Writ of Refuge for HouseRent */;
+VALUES (10754, 16,   273, 2000000, 0, 0, False) /* Create Pyreal (273) for HouseBuy */
+     , (10754, 32,   273, 50000, 0, 0, False) /* Create Pyreal (273) for HouseRent */
+     , (10754, 16, 11710,  5, 0, 0, False) /* Create Writ of Refuge (11710) for HouseBuy */
+     , (10754, 32, 11710,  1, 0, 0, False) /* Create Writ of Refuge (11710) for HouseRent */;

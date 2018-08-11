@@ -4,15 +4,15 @@ VALUES ('4230', 'sleevesmattekarhide', 2) /* Clothing */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (4230,   1,          2) /* ItemType - Armor */
      , (4230,   3,          9) /* PaletteTemplate - Grey */
-     , (4230,   4,      12288) /* ClothingPriority */
+     , (4230,   4,      12288) /* ClothingPriority - OuterwearUpperArms, OuterwearLowerArms */
      , (4230,   5,        810) /* EncumbranceVal */
      , (4230,   8,        270) /* Mass */
-     , (4230,   9,       6144) /* ValidLocations */
+     , (4230,   9,       6144) /* ValidLocations - UpperArmArmor, LowerArmArmor */
      , (4230,  16,          1) /* ItemUseable - No */
      , (4230,  19,        800) /* Value */
      , (4230,  27,          2) /* ArmorType */
      , (4230,  28,         80) /* ArmorLevel */
-     , (4230,  93,       1044) /* PhysicsState */
+     , (4230,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (4230, 150,        103) /* HookPlacement - Hook */
      , (4230, 151,          2) /* HookType - Wall */;
 

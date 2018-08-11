@@ -11,7 +11,7 @@ VALUES (9215,   1,         16) /* ItemType - Creature */
      , (9215,  16,         32) /* ItemUseable - Remote */
      , (9215,  25,         17) /* Level */
      , (9215,  27,          0) /* ArmorType */
-     , (9215,  93,    2098200) /* PhysicsState */
+     , (9215,  93,    2098200) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */
      , (9215, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (9215, 134,         16) /* PlayerKillerStatus - RubberGlue */
      , (9215, 146,        515) /* XpOverride */;
@@ -121,8 +121,8 @@ VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 1090519043 /* Ready */, NULL, NU
      , (@parent_id,  2,  10 /* Tell */, 1, 1, NULL, 'Never... in all my campaigns...', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (9215, 2,   115,  0, 4, 0.6, False) /* Create Leather Boots for Wield */
-     , (9215, 2,   119,  0, 9, 0, False) /* Create Cowl for Wield */
-     , (9215, 2,   127,  0, 4, 0.6, False) /* Create Pants for Wield */
-     , (9215, 2,   130,  0, 8, 0.5, False) /* Create Shirt for Wield */
-     , (9215, 2,   306,  0, 0, 0, False) /* Create Longbow for Wield */;
+VALUES (9215, 2,   115,  0, 4, 0.6, False) /* Create Leather Boots (115) for Wield */
+     , (9215, 2,   119,  0, 9, 0, False) /* Create Cowl (119) for Wield */
+     , (9215, 2,   127,  0, 4, 0.6, False) /* Create Pants (127) for Wield */
+     , (9215, 2,   130,  0, 8, 0.5, False) /* Create Shirt (130) for Wield */
+     , (9215, 2,   306,  0, 0, 0, False) /* Create Longbow (306) for Wield */;

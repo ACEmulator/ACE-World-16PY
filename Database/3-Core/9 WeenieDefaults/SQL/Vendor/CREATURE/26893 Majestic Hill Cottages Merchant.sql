@@ -10,10 +10,10 @@ VALUES (26893,   1,         16) /* ItemType - Creature */
      , (26893,  16,         32) /* ItemUseable - Remote */
      , (26893,  25,         10) /* Level */
      , (26893,  27,          0) /* ArmorType */
-     , (26893,  74,     264192) /* MerchandiseItemTypes */
+     , (26893,  74,     264192) /* MerchandiseItemTypes - Gem, PromissoryNote */
      , (26893,  75,          0) /* MerchandiseMinValue */
      , (26893,  76,    1000000) /* MerchandiseMaxValue */
-     , (26893,  93,    2098204) /* PhysicsState */
+     , (26893,  93,    2098204) /* PhysicsState - Ethereal, ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */
      , (26893, 126,        125) /* VendorHappyMean */
      , (26893, 127,        125) /* VendorHappyVariance */
      , (26893, 133,          4) /* ShowableOnRadar - ShowAlways */
@@ -97,4 +97,4 @@ VALUES (26893,  0,  4,  0,    0,    0,    0,    0,    0,    0,    0,    0,    0,
      , (26893,  8,  4,  2, 0.75,    0,    0,    0,    0,    0,    0,    0,    0,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (26893, 4, 26258, -1, 0, 0, False) /* Create Majestic Hill Cottages Portal Gem for Shop */;
+VALUES (26893, 4, 26258, -1, 0, 0, False) /* Create Majestic Hill Cottages Portal Gem (26258) for Shop */;

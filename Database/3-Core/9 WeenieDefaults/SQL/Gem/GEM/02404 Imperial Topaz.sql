@@ -14,7 +14,7 @@ VALUES (2404,   1,       2048) /* ItemType - Gem */
      , (2404,  15,        500) /* StackUnitValue */
      , (2404,  16,          1) /* ItemUseable - No */
      , (2404,  19,        500) /* Value */
-     , (2404,  93,       1044) /* PhysicsState */
+     , (2404,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (2404, 131,         26) /* MaterialType - ImperialTopaz */
      , (2404, 169,   16777216) /* TsysMutationData */;
 

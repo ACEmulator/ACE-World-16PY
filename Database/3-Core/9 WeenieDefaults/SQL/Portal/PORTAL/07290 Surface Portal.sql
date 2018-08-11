@@ -4,8 +4,8 @@ VALUES ('7290', 'portalaerlinthereservoirexit', 7) /* Portal */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (7290,   1,      65536) /* ItemType - Portal */
      , (7290,  16,         32) /* ItemUseable - Remote */
-     , (7290,  93,       3084) /* PhysicsState */
-     , (7290, 111,         49) /* PortalBitmask */
+     , (7290,  93,       3084) /* PhysicsState - Ethereal, ReportCollisions, Gravity, LightingOn */
+     , (7290, 111,         49) /* PortalBitmask - Unrestricted, NoSummon, NoRecall */
      , (7290, 133,          4) /* ShowableOnRadar - ShowAlways */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)

@@ -13,8 +13,8 @@ VALUES (175,   1,    4194304) /* ItemType - CraftCookingBase */
      , (175,  15,          1) /* StackUnitValue */
      , (175,  16,    2097160) /* ItemUseable - SourceContainedTargetRemote */
      , (175,  19,          1) /* Value */
-     , (175,  93,       1044) /* PhysicsState */
-     , (175,  94,    4194304) /* TargetType - CraftCookingBase */
+     , (175,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (175,  94,    4194304) /* TargetType - 4194304 */
      , (175, 150,        103) /* HookPlacement - Hook */
      , (175, 151,          2) /* HookType - Wall */;
 

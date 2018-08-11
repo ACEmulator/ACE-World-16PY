@@ -10,10 +10,10 @@ VALUES (693,   1,         16) /* ItemType - Creature */
      , (693,  16,         32) /* ItemUseable - Remote */
      , (693,  25,          7) /* Level */
      , (693,  27,          0) /* ArmorType */
-     , (693,  74,     262176) /* MerchandiseItemTypes */
+     , (693,  74,     262176) /* MerchandiseItemTypes - Food, PromissoryNote */
      , (693,  75,          0) /* MerchandiseMinValue */
      , (693,  76,     100000) /* MerchandiseMaxValue */
-     , (693,  93,    2098200) /* PhysicsState */
+     , (693,  93,    2098200) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */
      , (693, 126,        500) /* VendorHappyMean */
      , (693, 127,        500) /* VendorHappyVariance */
      , (693, 133,          4) /* ShowableOnRadar - ShowAlways */
@@ -163,20 +163,20 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 318767235 /* Nod */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (693, 2,   115,  0, 4, 0.6, False) /* Create Leather Boots for Wield */
-     , (693, 2,   127,  0, 5, 0.67, False) /* Create Pants for Wield */
-     , (693, 2,   134,  0, 9, 0.5, False) /* Create Tunic for Wield */
-     , (693, 4,   261, -1, 0, 0, False) /* Create Cheese for Shop */
-     , (693, 4,   620, -1, 0, 0, False) /* Create Cake for Shop */
-     , (693, 4,  2451, -1, 0, 0, False) /* Create Ale for Shop */
-     , (693, 4,  2462, -1, 0, 0, False) /* Create Mead for Shop */
-     , (693, 4,  2463, -1, 0, 0, False) /* Create Milk for Shop */
-     , (693, 4,  2471, -1, 0, 0, False) /* Create Stout for Shop */
-     , (693, 4,  4732, -1, 0, 0, False) /* Create Fried Steak for Shop */
-     , (693, 4,  4734, -1, 0, 0, False) /* Create Meat Pie for Shop */
-     , (693, 4,  4746, -1, 0, 0, False) /* Create Water for Shop */
-     , (693, 4,  6416, -1, 0, 0, False) /* Create A Shivering Stone for Shop */
-     , (693, 4,  6420, -1, 0, 0, False) /* Create The Obsidian Span for Shop */
-     , (693, 2, 10696,  0, 9, 1, False) /* Create Apron for Wield */
-     , (693, 4, 11929, -1, 0, 0, False) /* Create A Call To Arms for Shop */
-     , (693, 4, 24034, -1, 0, 0, False) /* Create The Lost Wish Lovers for Shop */;
+VALUES (693, 2,   115,  0, 4, 0.6, False) /* Create Leather Boots (115) for Wield */
+     , (693, 2,   127,  0, 5, 0.67, False) /* Create Pants (127) for Wield */
+     , (693, 2,   134,  0, 9, 0.5, False) /* Create Tunic (134) for Wield */
+     , (693, 4,   261, -1, 0, 0, False) /* Create Cheese (261) for Shop */
+     , (693, 4,   620, -1, 0, 0, False) /* Create Cake (620) for Shop */
+     , (693, 4,  2451, -1, 0, 0, False) /* Create Ale (2451) for Shop */
+     , (693, 4,  2462, -1, 0, 0, False) /* Create Mead (2462) for Shop */
+     , (693, 4,  2463, -1, 0, 0, False) /* Create Milk (2463) for Shop */
+     , (693, 4,  2471, -1, 0, 0, False) /* Create Stout (2471) for Shop */
+     , (693, 4,  4732, -1, 0, 0, False) /* Create Fried Steak (4732) for Shop */
+     , (693, 4,  4734, -1, 0, 0, False) /* Create Meat Pie (4734) for Shop */
+     , (693, 4,  4746, -1, 0, 0, False) /* Create Water (4746) for Shop */
+     , (693, 4,  6416, -1, 0, 0, False) /* Create A Shivering Stone (6416) for Shop */
+     , (693, 4,  6420, -1, 0, 0, False) /* Create The Obsidian Span (6420) for Shop */
+     , (693, 2, 10696,  0, 9, 1, False) /* Create Apron (10696) for Wield */
+     , (693, 4, 11929, -1, 0, 0, False) /* Create A Call To Arms (11929) for Shop */
+     , (693, 4, 24034, -1, 0, 0, False) /* Create The Lost Wish Lovers (24034) for Shop */;

@@ -18,7 +18,7 @@ VALUES (12741,   1,        256) /* ItemType - MissileWeapon */
      , (12741,  52,          2) /* ParentLocation */
      , (12741,  53,          3) /* PlacementPosition */
      , (12741,  60,        125) /* WeaponRange */
-     , (12741,  93,       1044) /* PhysicsState */
+     , (12741,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (12741, 150,        103) /* HookPlacement - Hook */
      , (12741, 151,          2) /* HookType - Wall */;
 

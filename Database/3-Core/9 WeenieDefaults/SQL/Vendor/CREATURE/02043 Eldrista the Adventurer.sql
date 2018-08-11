@@ -10,10 +10,10 @@ VALUES (2043,   1,         16) /* ItemType - Creature */
      , (2043,  16,         32) /* ItemUseable - Remote */
      , (2043,  25,          6) /* Level */
      , (2043,  27,          0) /* ArmorType */
-     , (2043,  74,     262401) /* MerchandiseItemTypes */
+     , (2043,  74,     262401) /* MerchandiseItemTypes - Weapon, PromissoryNote */
      , (2043,  75,          0) /* MerchandiseMinValue */
      , (2043,  76,     100000) /* MerchandiseMaxValue */
-     , (2043,  93,    2098200) /* PhysicsState */
+     , (2043,  93,    2098200) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */
      , (2043, 126,       2000) /* VendorHappyMean */
      , (2043, 127,       1000) /* VendorHappyVariance */
      , (2043, 133,          4) /* ShowableOnRadar - ShowAlways */
@@ -162,10 +162,10 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 318767235 /* Nod */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (2043, 2,   126,  0, 4, 0.6, False) /* Create Leggings for Wield */
-     , (2043, 2,   130,  0, 9, 0, False) /* Create Shirt for Wield */
-     , (2043, 2,   133,  0, 16, 1, False) /* Create Slippers for Wield */
-     , (2043, 2,   339,  0, 0, 0, False) /* Create Scimitar for Wield */
-     , (2043, 4,  2023, -1, 0, 0, False) /* Create Lilitha's Arrow for Shop */
-     , (2043, 4,  2055, -1, 0, 0, False) /* Create Directions to Hunter's Leap for Shop */
-     , (2043, 2, 10696,  0, 4, 0.5, False) /* Create Apron for Wield */;
+VALUES (2043, 2,   126,  0, 4, 0.6, False) /* Create Leggings (126) for Wield */
+     , (2043, 2,   130,  0, 9, 0, False) /* Create Shirt (130) for Wield */
+     , (2043, 2,   133,  0, 16, 1, False) /* Create Slippers (133) for Wield */
+     , (2043, 2,   339,  0, 0, 0, False) /* Create Scimitar (339) for Wield */
+     , (2043, 4,  2023, -1, 0, 0, False) /* Create Lilitha's Arrow (2023) for Shop */
+     , (2043, 4,  2055, -1, 0, 0, False) /* Create Directions to Hunter's Leap (2055) for Shop */
+     , (2043, 2, 10696,  0, 4, 0.5, False) /* Create Apron (10696) for Wield */;

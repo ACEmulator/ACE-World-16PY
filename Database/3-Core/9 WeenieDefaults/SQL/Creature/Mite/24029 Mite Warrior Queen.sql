@@ -12,8 +12,8 @@ VALUES (24029,   1,         16) /* ItemType - Creature */
      , (24029,  27,          0) /* ArmorType */
      , (24029,  40,          2) /* CombatMode - Melee */
      , (24029,  68,          3) /* TargetingTactic */
-     , (24029,  93,       1032) /* PhysicsState */
-     , (24029, 101,        129) /* AiAllowedCombatStyle */
+     , (24029,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
+     , (24029, 101,        129) /* AiAllowedCombatStyle - Unarmed, ThrownWeapon */
      , (24029, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (24029, 146,      13024) /* XpOverride */;
 
@@ -67,7 +67,7 @@ VALUES (24029,   1,   33558658) /* Setup */
      , (24029,   7,  268436816) /* ClothingBase */
      , (24029,   8,  100667448) /* Icon */
      , (24029,  22,  872415263) /* PhysicsEffectTable */
-     , (24029,  35,        456) /* DeathTreasureType */;
+     , (24029,  35,        456) /* DeathTreasureType - Loot Tier: 3 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (24029,   1, 180, 0, 0) /* Strength */
@@ -108,6 +108,6 @@ VALUES (24029,  94) /* ATTACK_NOTIFICATION_EVENT */
      , (24029, 414) /* PLAYER_DEATH_EVENT */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (24029, 1,  8211, 250, 0, 0, False) /* Create Discus for Contain */
-     , (24029, 1, 24033, 250, 0, 0, False) /* Create Mite Queen's Staff for Contain */
-     , (24029, 1, 24126, 250, 0, 0, False) /* Create A Crumpled Letter for Contain */;
+VALUES (24029, 1,  8211, 250, 0, 0, False) /* Create Discus (8211) for Contain */
+     , (24029, 1, 24033, 250, 0, 0, False) /* Create Mite Queen's Staff (24033) for Contain */
+     , (24029, 1, 24126, 250, 0, 0, False) /* Create A Crumpled Letter (24126) for Contain */;

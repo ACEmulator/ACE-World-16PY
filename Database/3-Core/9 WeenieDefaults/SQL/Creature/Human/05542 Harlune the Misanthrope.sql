@@ -10,7 +10,7 @@ VALUES (5542,   1,         16) /* ItemType - Creature */
      , (5542,  16,         32) /* ItemUseable - Remote */
      , (5542,  25,        100) /* Level */
      , (5542,  27,          0) /* ArmorType */
-     , (5542,  93,    6292504) /* PhysicsState */
+     , (5542,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (5542,  95,          8) /* RadarBlipColor - Yellow */
      , (5542, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (5542, 134,         16) /* PlayerKillerStatus - RubberGlue */
@@ -338,7 +338,7 @@ VALUES (@parent_id,  0,   3 /* Give */, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL
      , (@parent_id,  2,   5 /* Motion */, 1, 1, 318767240 /* Akimbo */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (5542, 2,    43,  0, 21, 1, False) /* Create Yoroi Breastplate for Wield */
-     , (5542, 2,   127,  0, 9, 0, False) /* Create Pants for Wield */
-     , (5542, 2,   132,  0, 4, 0.8, False) /* Create Shoes for Wield */
-     , (5542, 2,   134,  0, 9, 0, False) /* Create Tunic for Wield */;
+VALUES (5542, 2,    43,  0, 21, 1, False) /* Create Yoroi Breastplate (43) for Wield */
+     , (5542, 2,   127,  0, 9, 0, False) /* Create Pants (127) for Wield */
+     , (5542, 2,   132,  0, 4, 0.8, False) /* Create Shoes (132) for Wield */
+     , (5542, 2,   134,  0, 9, 0, False) /* Create Tunic (134) for Wield */;

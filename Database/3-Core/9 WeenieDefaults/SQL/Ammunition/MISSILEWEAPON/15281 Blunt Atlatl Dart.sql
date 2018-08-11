@@ -18,7 +18,7 @@ VALUES (15281,   1,        256) /* ItemType - MissileWeapon */
      , (15281,  45,          4) /* DamageType - Bludgeon */
      , (15281,  50,          4) /* AmmoType - ArrowCrystal */
      , (15281,  51,          3) /* CombatUse - Ammo */
-     , (15281,  93,     132116) /* PhysicsState */
+     , (15281,  93,     132116) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, Inelastic */
      , (15281, 150,        103) /* HookPlacement - Hook */
      , (15281, 151,          2) /* HookType - Wall */;
 

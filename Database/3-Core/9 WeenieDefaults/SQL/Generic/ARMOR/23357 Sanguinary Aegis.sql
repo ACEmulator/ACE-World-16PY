@@ -14,7 +14,7 @@ VALUES (23357,   1,          2) /* ItemType - Armor */
      , (23357,  33,          1) /* Bonded - Bonded */
      , (23357,  36,       9999) /* ResistMagic */
      , (23357,  51,          4) /* CombatUse - Shield */
-     , (23357,  93,       1044) /* PhysicsState */
+     , (23357,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (23357, 114,          0) /* Attuned - Normal */
      , (23357, 150,        103) /* HookPlacement - Hook */
      , (23357, 151,          2) /* HookType - Wall */

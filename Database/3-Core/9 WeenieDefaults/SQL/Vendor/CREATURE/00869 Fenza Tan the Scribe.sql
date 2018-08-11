@@ -10,10 +10,10 @@ VALUES (869,   1,         16) /* ItemType - Creature */
      , (869,  16,         32) /* ItemUseable - Remote */
      , (869,  25,          4) /* Level */
      , (869,  27,          0) /* ArmorType */
-     , (869,  74,     270336) /* MerchandiseItemTypes */
+     , (869,  74,     270336) /* MerchandiseItemTypes - Writable, PromissoryNote */
      , (869,  75,          0) /* MerchandiseMinValue */
      , (869,  76,     100000) /* MerchandiseMaxValue */
-     , (869,  93,    2098200) /* PhysicsState */
+     , (869,  93,    2098200) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */
      , (869, 126,       2000) /* VendorHappyMean */
      , (869, 127,       1000) /* VendorHappyVariance */
      , (869, 133,          4) /* ShowableOnRadar - ShowAlways */
@@ -163,28 +163,28 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 318767235 /* Nod */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (869, 2,   117,  0, 14, 0.8, False) /* Create Breeches for Wield */
-     , (869, 2,   132,  0, 17, 1, False) /* Create Shoes for Wield */
-     , (869, 2,   134,  0, 14, 0.8, False) /* Create Tunic for Wield */
-     , (869, 4,   364, -1, 0, 0, False) /* Create Book for Shop */
-     , (869, 4,   365, -1, 0, 0, False) /* Create Parchment for Shop */
-     , (869, 4,   367, -1, 0, 0, False) /* Create Tome for Shop */
-     , (869, 4,  5147, -1, 0, 0, False) /* Create Return to Frore for Shop */
-     , (869, 4,  5585, -1, 0, 0, False) /* Create Sho Cookbook for Shop */
-     , (869, 4,  5586, -1, 0, 0, False) /* Create Alchemy Guide for Shop */
-     , (869, 4,  5587, -1, 0, 0, False) /* Create Fletching Guide for Shop */
-     , (869, 4,  5601, -1, 0, 0, False) /* Create Altar of Asheron Rumor for Shop */
-     , (869, 4,  5602, -1, 0, 0, False) /* Create The Festival Stones of the Empyrean for Shop */
-     , (869, 4,  5675, -1, 0, 0, False) /* Create Mount Lethe Rumor for Shop */
-     , (869, 4,  5856, -1, 0, 0, False) /* Create Specialty Cookbook for Shop */
-     , (869, 4,  5881, -1, 0, 0, False) /* Create The Book of Minesh for Shop */
-     , (869, 4,  6417, -1, 0, 0, False) /* Create A Stinging Stone for Shop */
-     , (869, 4,  6419, -1, 0, 0, False) /* Create The Meeting Halls for Shop */
-     , (869, 4,  6421, -1, 0, 0, False) /* Create The Lost City of Frore for Shop */
-     , (869, 4,  6630, -1, 0, 0, False) /* Create A Treatise on the Properties of Fused Gems for Shop */
-     , (869, 4,  7884, -1, 0, 0, False) /* Create Chocolate Cookbook for Shop */
-     , (869, 4,  7936, -1, 0, 0, False) /* Create Aliester's Corollary for Shop */
-     , (869, 4,  8135, -1, 0, 0, False) /* Create Zarea's Notes on Geomancy for Shop */
-     , (869, 4,  8397, -1, 0, 0, False) /* Create The Breaking of the Crystal Core for Shop */
-     , (869, 2, 10696,  0, 18, 1, False) /* Create Apron for Wield */
-     , (869, 4, 14797, -1, 0, 0, False) /* Create Festival Cookbook for Shop */;
+VALUES (869, 2,   117,  0, 14, 0.8, False) /* Create Breeches (117) for Wield */
+     , (869, 2,   132,  0, 17, 1, False) /* Create Shoes (132) for Wield */
+     , (869, 2,   134,  0, 14, 0.8, False) /* Create Tunic (134) for Wield */
+     , (869, 4,   364, -1, 0, 0, False) /* Create Book (364) for Shop */
+     , (869, 4,   365, -1, 0, 0, False) /* Create Parchment (365) for Shop */
+     , (869, 4,   367, -1, 0, 0, False) /* Create Tome (367) for Shop */
+     , (869, 4,  5147, -1, 0, 0, False) /* Create Return to Frore (5147) for Shop */
+     , (869, 4,  5585, -1, 0, 0, False) /* Create Sho Cookbook (5585) for Shop */
+     , (869, 4,  5586, -1, 0, 0, False) /* Create Alchemy Guide (5586) for Shop */
+     , (869, 4,  5587, -1, 0, 0, False) /* Create Fletching Guide (5587) for Shop */
+     , (869, 4,  5601, -1, 0, 0, False) /* Create Altar of Asheron Rumor (5601) for Shop */
+     , (869, 4,  5602, -1, 0, 0, False) /* Create The Festival Stones of the Empyrean (5602) for Shop */
+     , (869, 4,  5675, -1, 0, 0, False) /* Create Mount Lethe Rumor (5675) for Shop */
+     , (869, 4,  5856, -1, 0, 0, False) /* Create Specialty Cookbook (5856) for Shop */
+     , (869, 4,  5881, -1, 0, 0, False) /* Create The Book of Minesh (5881) for Shop */
+     , (869, 4,  6417, -1, 0, 0, False) /* Create A Stinging Stone (6417) for Shop */
+     , (869, 4,  6419, -1, 0, 0, False) /* Create The Meeting Halls (6419) for Shop */
+     , (869, 4,  6421, -1, 0, 0, False) /* Create The Lost City of Frore (6421) for Shop */
+     , (869, 4,  6630, -1, 0, 0, False) /* Create A Treatise on the Properties of Fused Gems (6630) for Shop */
+     , (869, 4,  7884, -1, 0, 0, False) /* Create Chocolate Cookbook (7884) for Shop */
+     , (869, 4,  7936, -1, 0, 0, False) /* Create Aliester's Corollary (7936) for Shop */
+     , (869, 4,  8135, -1, 0, 0, False) /* Create Zarea's Notes on Geomancy (8135) for Shop */
+     , (869, 4,  8397, -1, 0, 0, False) /* Create The Breaking of the Crystal Core (8397) for Shop */
+     , (869, 2, 10696,  0, 18, 1, False) /* Create Apron (10696) for Wield */
+     , (869, 4, 14797, -1, 0, 0, False) /* Create Festival Cookbook (14797) for Shop */;

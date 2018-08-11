@@ -10,7 +10,7 @@ VALUES (25706,   1,        128) /* ItemType - Misc */
      , (25706,  16,          1) /* ItemUseable - No */
      , (25706,  19,          0) /* Value */
      , (25706,  33,          1) /* Bonded - Bonded */
-     , (25706,  93,       1044) /* PhysicsState */
+     , (25706,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (25706, 114,          1) /* Attuned - Attuned */
      , (25706, 150,        103) /* HookPlacement - Hook */
      , (25706, 151,          2) /* HookType - Wall */;

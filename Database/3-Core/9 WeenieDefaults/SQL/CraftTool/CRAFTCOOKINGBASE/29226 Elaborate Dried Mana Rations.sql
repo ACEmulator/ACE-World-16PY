@@ -14,7 +14,7 @@ VALUES (29226,   1,    4194304) /* ItemType - CraftCookingBase */
      , (29226,  16,          1) /* ItemUseable - No */
      , (29226,  18,          8) /* UiEffects - BoostMana */
      , (29226,  19,       2000) /* Value */
-     , (29226,  93,       1044) /* PhysicsState */;
+     , (29226,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (29226,   1, 'Elaborate Dried Mana Rations') /* Name */

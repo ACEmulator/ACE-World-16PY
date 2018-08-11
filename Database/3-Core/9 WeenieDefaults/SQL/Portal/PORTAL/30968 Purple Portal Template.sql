@@ -4,7 +4,7 @@ VALUES ('30968', 'portalforgottenchasm', 7) /* Portal */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (30968,   1,      65536) /* ItemType - Portal */
      , (30968,  16,         32) /* ItemUseable - Remote */
-     , (30968,  93,       3084) /* PhysicsState */
+     , (30968,  93,       3084) /* PhysicsState - Ethereal, ReportCollisions, Gravity, LightingOn */
      , (30968, 111,          1) /* PortalBitmask - Unrestricted */
      , (30968, 133,          4) /* ShowableOnRadar - ShowAlways */;
 

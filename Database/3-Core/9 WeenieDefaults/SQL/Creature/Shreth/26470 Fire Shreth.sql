@@ -12,7 +12,7 @@ VALUES (26470,   1,         16) /* ItemType - Creature */
      , (26470,  27,          0) /* ArmorType */
      , (26470,  40,          2) /* CombatMode - Melee */
      , (26470,  68,          9) /* TargetingTactic */
-     , (26470,  93,       1032) /* PhysicsState */
+     , (26470,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (26470, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (26470, 146,      27259) /* XpOverride */;
 
@@ -67,7 +67,7 @@ VALUES (26470,   1,   33555879) /* Setup */
      , (26470,   7,  268435808) /* ClothingBase */
      , (26470,   8,  100669720) /* Icon */
      , (26470,  22,  872415333) /* PhysicsEffectTable */
-     , (26470,  35,        454) /* DeathTreasureType */;
+     , (26470,  35,        454) /* DeathTreasureType - Loot Tier: 4 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (26470,   1, 280, 0, 0) /* Strength */
@@ -158,7 +158,7 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 268435538 /* Twitch2 */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (26470, 9,     0,  0, 0, 0.95, False) /* Create Unknown for ContainTreasure */
-     , (26470, 9,     0,  0, 0, 0.99, False) /* Create Unknown for ContainTreasure */
-     , (26470, 9, 14587,  0, 0, 0.05, False) /* Create Fire Shreth Hide for ContainTreasure */
-     , (26470, 9, 27093,  0, 0, 0.01, False) /* Create Little Green Seeds for ContainTreasure */;
+VALUES (26470, 9,     0,  0, 0, 0.95, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 4 for ContainTreasure */
+     , (26470, 9,     0,  0, 0, 0.99, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 4 for ContainTreasure */
+     , (26470, 9, 14587,  0, 0, 0.05, False) /* Create Fire Shreth Hide (14587) for ContainTreasure */
+     , (26470, 9, 27093,  0, 0, 0.01, False) /* Create Little Green Seeds (27093) for ContainTreasure */;

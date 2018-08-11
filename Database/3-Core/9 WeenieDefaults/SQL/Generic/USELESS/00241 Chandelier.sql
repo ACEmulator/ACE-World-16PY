@@ -8,7 +8,7 @@ VALUES (241,   1,       1024) /* ItemType - Useless */
      , (241,   9,          0) /* ValidLocations - None */
      , (241,  16,          1) /* ItemUseable - No */
      , (241,  19,       3226) /* Value */
-     , (241,  93,       3092) /* PhysicsState */
+     , (241,  93,       3092) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, LightingOn */
      , (241, 150,        103) /* HookPlacement - Hook */
      , (241, 151,          4) /* HookType - Ceiling */;
 

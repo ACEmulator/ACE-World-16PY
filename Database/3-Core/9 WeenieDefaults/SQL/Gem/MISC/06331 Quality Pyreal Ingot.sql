@@ -14,7 +14,7 @@ VALUES (6331,   1,        128) /* ItemType - Misc */
      , (6331,  15,       2000) /* StackUnitValue */
      , (6331,  16,          1) /* ItemUseable - No */
      , (6331,  19,       2000) /* Value */
-     , (6331,  93,       1044) /* PhysicsState */
+     , (6331,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (6331, 150,        103) /* HookPlacement - Hook */
      , (6331, 151,          2) /* HookType - Wall */;
 

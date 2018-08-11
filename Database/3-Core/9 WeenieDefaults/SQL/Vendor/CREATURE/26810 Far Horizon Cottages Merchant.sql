@@ -10,10 +10,10 @@ VALUES (26810,   1,         16) /* ItemType - Creature */
      , (26810,  16,         32) /* ItemUseable - Remote */
      , (26810,  25,         10) /* Level */
      , (26810,  27,          0) /* ArmorType */
-     , (26810,  74,     264192) /* MerchandiseItemTypes */
+     , (26810,  74,     264192) /* MerchandiseItemTypes - Gem, PromissoryNote */
      , (26810,  75,          0) /* MerchandiseMinValue */
      , (26810,  76,    1000000) /* MerchandiseMaxValue */
-     , (26810,  93,    2098204) /* PhysicsState */
+     , (26810,  93,    2098204) /* PhysicsState - Ethereal, ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */
      , (26810, 126,        125) /* VendorHappyMean */
      , (26810, 127,        125) /* VendorHappyVariance */
      , (26810, 133,          4) /* ShowableOnRadar - ShowAlways */
@@ -97,4 +97,4 @@ VALUES (26810,  0,  4,  0,    0,    0,    0,    0,    0,    0,    0,    0,    0,
      , (26810,  8,  4,  2, 0.75,    0,    0,    0,    0,    0,    0,    0,    0,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (26810, 4, 26175, -1, 0, 0, False) /* Create Far Horizon Cottages Portal Gem for Shop */;
+VALUES (26810, 4, 26175, -1, 0, 0, False) /* Create Far Horizon Cottages Portal Gem (26175) for Shop */;

@@ -11,8 +11,8 @@ VALUES (6882,   1,         16) /* ItemType - Creature */
      , (6882,  25,         67) /* Level */
      , (6882,  27,          0) /* ArmorType */
      , (6882,  68,          5) /* TargetingTactic */
-     , (6882,  93,       1032) /* PhysicsState */
-     , (6882, 101,        183) /* AiAllowedCombatStyle */
+     , (6882,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
+     , (6882, 101,        183) /* AiAllowedCombatStyle - Unarmed, OneHanded, OneHandedAndShield, Bow, Crossbow, ThrownWeapon */
      , (6882, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (6882, 140,          1) /* AiOptions */
      , (6882, 146,      11528) /* XpOverride */;
@@ -71,7 +71,7 @@ VALUES (6882,   1,   33554496) /* Setup */
      , (6882,   7,  268436630) /* ClothingBase */
      , (6882,   8,  100667452) /* Icon */
      , (6882,  22,  872415270) /* PhysicsEffectTable */
-     , (6882,  35,        450) /* DeathTreasureType */;
+     , (6882,  35,        450) /* DeathTreasureType - Loot Tier: 3 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (6882,   1, 100, 0, 0) /* Strength */
@@ -159,6 +159,6 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   8 /* Say */, 0, 0, NULL, 'Alarm!', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (6882, 9,     0,  0, 0, 0.85, False) /* Create Unknown for ContainTreasure */
-     , (6882, 9,  3695,  0, 0, 0.15, False) /* Create Gold Tumerok Insignia for ContainTreasure */
-     , (6882, 1,  6880,  0, 0, 1, False) /* Create Bone Engraved Key for Contain */;
+VALUES (6882, 9,     0,  0, 0, 0.85, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 3 for ContainTreasure */
+     , (6882, 9,  3695,  0, 0, 0.15, False) /* Create Gold Tumerok Insignia (3695) for ContainTreasure */
+     , (6882, 1,  6880,  0, 0, 1, False) /* Create Bone Engraved Key (6880) for Contain */;

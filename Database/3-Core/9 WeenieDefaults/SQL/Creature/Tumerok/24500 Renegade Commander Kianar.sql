@@ -12,8 +12,8 @@ VALUES (24500,   1,         16) /* ItemType - Creature */
      , (24500,  27,          0) /* ArmorType */
      , (24500,  68,          5) /* TargetingTactic */
      , (24500,  72,         70) /* FriendType - GotrokLugian */
-     , (24500,  93,       1032) /* PhysicsState */
-     , (24500, 101,        183) /* AiAllowedCombatStyle */
+     , (24500,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
+     , (24500, 101,        183) /* AiAllowedCombatStyle - Unarmed, OneHanded, OneHandedAndShield, Bow, Crossbow, ThrownWeapon */
      , (24500, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (24500, 140,          1) /* AiOptions */
      , (24500, 146,     599775) /* XpOverride */;
@@ -69,7 +69,7 @@ VALUES (24500,   1,   33554496) /* Setup */
      , (24500,   7,  268436645) /* ClothingBase */
      , (24500,   8,  100667452) /* Icon */
      , (24500,  22,  872415270) /* PhysicsEffectTable */
-     , (24500,  35,         26) /* DeathTreasureType */;
+     , (24500,  35,         26) /* DeathTreasureType - Loot Tier: 6 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (24500,   1, 330, 0, 0) /* Strength */
@@ -115,9 +115,9 @@ VALUES (24500,  94) /* ATTACK_NOTIFICATION_EVENT */
      , (24500, 414) /* PLAYER_DEATH_EVENT */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (24500, 9,     0,  0, 0, 0.95, False) /* Create Unknown for ContainTreasure */
-     , (24500, 2, 15431, 250, 0, 0, False) /* Create Deadly Armor Piercing Arrow for Wield */
-     , (24500, 9, 24477,  0, 0, 0.05, False) /* Create Sturdy Steel Key for ContainTreasure */
-     , (24500, 9, 24556,  0, 0, 0.335, False) /* Create Tumerok Hunting Brace for ContainTreasure */
-     , (24500, 9, 24558,  0, 0, 0.665, False) /* Create Renegade Bow for ContainTreasure */
-     , (24500, 2, 24568,  0, 0, 0, False) /* Create Renegade Bow for Wield */;
+VALUES (24500, 9,     0,  0, 0, 0.95, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 6 for ContainTreasure */
+     , (24500, 2, 15431, 250, 0, 0, False) /* Create Deadly Armor Piercing Arrow (15431) for Wield */
+     , (24500, 9, 24477,  0, 0, 0.05, False) /* Create Sturdy Steel Key (24477) for ContainTreasure */
+     , (24500, 9, 24556,  0, 0, 0.335, False) /* Create Tumerok Hunting Brace (24556) for ContainTreasure */
+     , (24500, 9, 24558,  0, 0, 0.665, False) /* Create Renegade Bow (24558) for ContainTreasure */
+     , (24500, 2, 24568,  0, 0, 0, False) /* Create Renegade Bow (24568) for Wield */;

@@ -4,17 +4,17 @@ VALUES ('23782', 'coatamulishadowscored', 2) /* Clothing */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (23782,   1,          2) /* ItemType - Armor */
      , (23782,   3,         39) /* PaletteTemplate - Black */
-     , (23782,   4,      13312) /* ClothingPriority */
+     , (23782,   4,      13312) /* ClothingPriority - OuterwearChest, OuterwearUpperArms, OuterwearLowerArms */
      , (23782,   5,       1600) /* EncumbranceVal */
      , (23782,   8,       1000) /* Mass */
-     , (23782,   9,       6656) /* ValidLocations */
+     , (23782,   9,       6656) /* ValidLocations - ChestArmor, UpperArmArmor, LowerArmArmor */
      , (23782,  16,          1) /* ItemUseable - No */
      , (23782,  18,        256) /* UiEffects - Acid */
      , (23782,  19,       2610) /* Value */
      , (23782,  27,          8) /* ArmorType */
      , (23782,  28,        240) /* ArmorLevel */
      , (23782,  33,          1) /* Bonded - Bonded */
-     , (23782,  93,       1044) /* PhysicsState */
+     , (23782,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (23782, 107,       1000) /* ItemCurMana */
      , (23782, 108,       1000) /* ItemMaxMana */
      , (23782, 109,          0) /* ItemDifficulty */

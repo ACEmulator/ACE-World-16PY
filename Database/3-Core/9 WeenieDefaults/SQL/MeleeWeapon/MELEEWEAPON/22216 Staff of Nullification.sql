@@ -13,11 +13,11 @@ VALUES (22216,   1,          1) /* ItemType - MeleeWeapon */
      , (22216,  44,          2) /* Damage */
      , (22216,  45,         16) /* DamageType - Fire */
      , (22216,  46,          2) /* DefaultCombatStyle - OneHanded */
-     , (22216,  47,          6) /* AttackType */
+     , (22216,  47,          6) /* AttackType - Thrust, Slash */
      , (22216,  48,         10) /* WeaponSkill - Staff */
      , (22216,  49,         60) /* WeaponTime */
      , (22216,  51,          1) /* CombatUse - Melee */
-     , (22216,  93,       1044) /* PhysicsState */
+     , (22216,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (22216, 150,        103) /* HookPlacement - Hook */
      , (22216, 151,          2) /* HookType - Wall */
      , (22216, 166,         68) /* SlayerCreatureType - DarkSarcophagus */

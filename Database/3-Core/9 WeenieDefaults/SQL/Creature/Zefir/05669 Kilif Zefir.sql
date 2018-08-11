@@ -11,7 +11,7 @@ VALUES (5669,   1,         16) /* ItemType - Creature */
      , (5669,  25,         16) /* Level */
      , (5669,  40,          2) /* CombatMode - Melee */
      , (5669,  68,         13) /* TargetingTactic */
-     , (5669,  93,       1032) /* PhysicsState */
+     , (5669,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (5669, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (5669, 146,        890) /* XpOverride */;
 
@@ -68,7 +68,7 @@ VALUES (5669,   1,   33555610) /* Setup */
      , (5669,   7,  268435811) /* ClothingBase */
      , (5669,   8,  100669123) /* Icon */
      , (5669,  22,  872415279) /* PhysicsEffectTable */
-     , (5669,  35,        465) /* DeathTreasureType */;
+     , (5669,  35,        465) /* DeathTreasureType - Loot Tier: 1 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (5669,   1,  90, 0, 0) /* Strength */
@@ -125,4 +125,4 @@ VALUES (5669,  94) /* ATTACK_NOTIFICATION_EVENT */
      , (5669, 414) /* PLAYER_DEATH_EVENT */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (5669, 1,  5664,  0, 0, 0, False) /* Create Stone Key for Contain */;
+VALUES (5669, 1,  5664,  0, 0, 0, False) /* Create Stone Key (5664) for Contain */;

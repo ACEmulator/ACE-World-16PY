@@ -11,7 +11,7 @@ VALUES (12264,   1,         16) /* ItemType - Creature */
      , (12264,  25,         85) /* Level */
      , (12264,  27,          0) /* ArmorType */
      , (12264,  68,          3) /* TargetingTactic */
-     , (12264,  93,       1032) /* PhysicsState */
+     , (12264,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (12264, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (12264, 140,          1) /* AiOptions */
      , (12264, 146,      14000) /* XpOverride */;
@@ -69,7 +69,7 @@ VALUES (12264,   1,   33554497) /* Setup */
      , (12264,   7,  268435649) /* ClothingBase */
      , (12264,   8,  100667943) /* Icon */
      , (12264,  22,  872415273) /* PhysicsEffectTable */
-     , (12264,  35,        243) /* DeathTreasureType */;
+     , (12264,  35,        243) /* DeathTreasureType - Loot Tier: 4 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (12264,   1,  40, 0, 0) /* Strength */
@@ -205,9 +205,9 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,  10 /* Tell */, 0, 1, NULL, 'The Director has charged me with defending our Obsidian, human.  Prepare for your destruction!', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (12264, 9,     0,  0, 0, 0.95, False) /* Create Unknown for ContainTreasure */
-     , (12264, 9,     0,  0, 0, 0.9, False) /* Create Unknown for ContainTreasure */
-     , (12264, 9,  3698,  0, 0, 0.05, False) /* Create White Jewel for ContainTreasure */
-     , (12264, 9,  8154,  0, 0, 0.1, False) /* Create Broken Virindi Mask for ContainTreasure */
-     , (12264, 8, 12252,  1, 0, 0, False) /* Create Obsidian Director's Mask for Treasure */
-     , (12264, 8, 12280,  1, 0, 0, False) /* Create Singular Obsidian Message Shard for Treasure */;
+VALUES (12264, 9,     0,  0, 0, 0.95, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 4 for ContainTreasure */
+     , (12264, 9,     0,  0, 0, 0.9, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 4 for ContainTreasure */
+     , (12264, 9,  3698,  0, 0, 0.05, False) /* Create White Jewel (3698) for ContainTreasure */
+     , (12264, 9,  8154,  0, 0, 0.1, False) /* Create Broken Virindi Mask (8154) for ContainTreasure */
+     , (12264, 8, 12252,  1, 0, 0, False) /* Create Obsidian Director's Mask (12252) for Treasure */
+     , (12264, 8, 12280,  1, 0, 0, False) /* Create Singular Obsidian Message Shard (12280) for Treasure */;

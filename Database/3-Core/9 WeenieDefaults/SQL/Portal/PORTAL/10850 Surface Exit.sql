@@ -4,8 +4,8 @@ VALUES ('10850', 'portalgardenernamequestexit-xp', 7) /* Portal */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (10850,   1,      65536) /* ItemType - Portal */
      , (10850,  16,         32) /* ItemUseable - Remote */
-     , (10850,  93,       3084) /* PhysicsState */
-     , (10850, 111,         49) /* PortalBitmask */
+     , (10850,  93,       3084) /* PhysicsState - Ethereal, ReportCollisions, Gravity, LightingOn */
+     , (10850, 111,         49) /* PortalBitmask - Unrestricted, NoSummon, NoRecall */
      , (10850, 133,          4) /* ShowableOnRadar - ShowAlways */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)

@@ -11,7 +11,7 @@ VALUES (22051,   1,         16) /* ItemType - Creature */
      , (22051,  27,          0) /* ArmorType */
      , (22051,  40,          1) /* CombatMode - NonCombat */
      , (22051,  68,          5) /* TargetingTactic */
-     , (22051,  93,       1032) /* PhysicsState */
+     , (22051,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (22051, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (22051, 146,      14000) /* XpOverride */;
 
@@ -62,8 +62,12 @@ VALUES (22051,   1,   33555465) /* Setup */
      , (22051,   4,  805306368) /* CombatTable */
      , (22051,   8,  100669124) /* Icon */
      , (22051,  22,  872415269) /* PhysicsEffectTable */
-     , (22051,  32,        287) /* WieldedTreasureType */
-     , (22051,  35,        263) /* DeathTreasureType */;
+     , (22051,  32,        287) /* WieldedTreasureType - 
+                                   Wield Yumi (23736) | Probability: 50%
+                                   Wield 16x Greater Fire Arrow (5305) | Probability: 100%
+                                   Wield Kite Shield (23686) | Probability: 50%
+                                   Wield Fire Tachi (23708) | Probability: 50% */
+     , (22051,  35,        263) /* DeathTreasureType - Loot Tier: 4 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (22051,   1, 270, 0, 0) /* Strength */
@@ -141,7 +145,7 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,  10 /* Tell */, 0, 1, NULL, 'Release...me...', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (22051, 9,     0,  0, 0, 0.9, False) /* Create Unknown for ContainTreasure */
-     , (22051, 9,     0,  0, 0, 0.96, False) /* Create Unknown for ContainTreasure */
-     , (22051, 9,  3687,  0, 0, 0.1, False) /* Create Skeleton's Skull for ContainTreasure */
-     , (22051, 2,  5753,  0, 0, 0, False) /* Create Pickaxe for Wield */;
+VALUES (22051, 9,     0,  0, 0, 0.9, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 4 for ContainTreasure */
+     , (22051, 9,     0,  0, 0, 0.96, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 4 for ContainTreasure */
+     , (22051, 9,  3687,  0, 0, 0.1, False) /* Create Skeleton's Skull (3687) for ContainTreasure */
+     , (22051, 2,  5753,  0, 0, 0, False) /* Create Pickaxe (5753) for Wield */;

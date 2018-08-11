@@ -10,10 +10,10 @@ VALUES (26715,   1,         16) /* ItemType - Creature */
      , (26715,  16,         32) /* ItemUseable - Remote */
      , (26715,  25,         10) /* Level */
      , (26715,  27,          0) /* ArmorType */
-     , (26715,  74,     264192) /* MerchandiseItemTypes */
+     , (26715,  74,     264192) /* MerchandiseItemTypes - Gem, PromissoryNote */
      , (26715,  75,          0) /* MerchandiseMinValue */
      , (26715,  76,    1000000) /* MerchandiseMaxValue */
-     , (26715,  93,    2098204) /* PhysicsState */
+     , (26715,  93,    2098204) /* PhysicsState - Ethereal, ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */
      , (26715, 126,        125) /* VendorHappyMean */
      , (26715, 127,        125) /* VendorHappyVariance */
      , (26715, 133,          4) /* ShowableOnRadar - ShowAlways */
@@ -97,4 +97,4 @@ VALUES (26715,  0,  4,  0,    0,    0,    0,    0,    0,    0,    0,    0,    0,
      , (26715,  8,  4,  2, 0.75,    0,    0,    0,    0,    0,    0,    0,    0,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (26715, 4, 26080, -1, 0, 0, False) /* Create Arrowdale Cottages Portal Gem for Shop */;
+VALUES (26715, 4, 26080, -1, 0, 0, False) /* Create Arrowdale Cottages Portal Gem (26080) for Shop */;

@@ -10,8 +10,8 @@ VALUES (7093,   1,         16) /* ItemType - Creature */
      , (7093,  25,        125) /* Level */
      , (7093,  27,          0) /* ArmorType */
      , (7093,  68,          5) /* TargetingTactic */
-     , (7093,  93,       3080) /* PhysicsState */
-     , (7093, 101,        183) /* AiAllowedCombatStyle */
+     , (7093,  93,       3080) /* PhysicsState - ReportCollisions, Gravity, LightingOn */
+     , (7093, 101,        183) /* AiAllowedCombatStyle - Unarmed, OneHanded, OneHandedAndShield, Bow, Crossbow, ThrownWeapon */
      , (7093, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (7093, 140,          1) /* AiOptions */
      , (7093, 146,      66094) /* XpOverride */;
@@ -68,7 +68,7 @@ VALUES (7093,   1,   33556637) /* Setup */
      , (7093,   4,  805306368) /* CombatTable */
      , (7093,   8,  100670274) /* Icon */
      , (7093,  22,  872415363) /* PhysicsEffectTable */
-     , (7093,  35,        464) /* DeathTreasureType */;
+     , (7093,  35,        464) /* DeathTreasureType - Loot Tier: 5 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (7093,   1, 320, 0, 0) /* Strength */
@@ -124,6 +124,6 @@ VALUES (7093,  94) /* ATTACK_NOTIFICATION_EVENT */
      , (7093, 414) /* PLAYER_DEATH_EVENT */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (7093, 9,     0,  0, 0, 0.98, False) /* Create Unknown for ContainTreasure */
-     , (7093, 9,  6876,  0, 0, 0.02, False) /* Create Sturdy Iron Key for ContainTreasure */
-     , (7093, 2,  7799,  3, 0, 0, False) /* Create Ball of plasma for Wield */;
+VALUES (7093, 9,     0,  0, 0, 0.98, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 5 for ContainTreasure */
+     , (7093, 9,  6876,  0, 0, 0.02, False) /* Create Sturdy Iron Key (6876) for ContainTreasure */
+     , (7093, 2,  7799,  3, 0, 0, False) /* Create Ball of plasma (7799) for Wield */;

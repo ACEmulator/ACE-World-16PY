@@ -5,7 +5,7 @@ INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (22314,   8,         25) /* Mass */
      , (22314,   9,          0) /* ValidLocations - None */
      , (22314,  66,          0) /* CheckpointStatus */
-     , (22314,  93,     133140) /* PhysicsState */;
+     , (22314,  93,     133140) /* PhysicsState - Ethereal, IgnoreCollisions, LightingOn, Inelastic */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (22314,   1, True ) /* Stuck */

@@ -14,11 +14,11 @@ VALUES (23714,   1,          1) /* ItemType - MeleeWeapon */
      , (23714,  44,         12) /* Damage */
      , (23714,  45,         64) /* DamageType - Electric */
      , (23714,  46,          2) /* DefaultCombatStyle - OneHanded */
-     , (23714,  47,        486) /* AttackType */
+     , (23714,  47,        486) /* AttackType - Thrust, Slash, DoubleSlash, TripleSlash, DoubleThrust, TripleThrust */
      , (23714,  48,         11) /* WeaponSkill - Sword */
      , (23714,  49,          1) /* WeaponTime */
      , (23714,  51,          1) /* CombatUse - Melee */
-     , (23714,  93,       1044) /* PhysicsState */
+     , (23714,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (23714, 106,        250) /* ItemSpellcraft */
      , (23714, 107,        500) /* ItemCurMana */
      , (23714, 108,        500) /* ItemMaxMana */

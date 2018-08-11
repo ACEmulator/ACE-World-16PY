@@ -12,8 +12,8 @@ VALUES (25756,   1,         16) /* ItemType - Creature */
      , (25756,  40,          2) /* CombatMode - Melee */
      , (25756,  67,         64) /* Tolerance */
      , (25756,  68,          9) /* TargetingTactic */
-     , (25756,  93,       1032) /* PhysicsState */
-     , (25756, 101,        131) /* AiAllowedCombatStyle */
+     , (25756,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
+     , (25756, 101,        131) /* AiAllowedCombatStyle - Unarmed, OneHanded, ThrownWeapon */
      , (25756, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (25756, 140,          1) /* AiOptions */
      , (25756, 146,       2500) /* XpOverride */;
@@ -197,6 +197,6 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,  10 /* Tell */, 0, 1, NULL, 'Take your heat somewhere else! We don''t want you violent types in our town!', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (25756, 1,  5758,  1, 0, 0, False) /* Create Carrot for Contain */
-     , (25756, 1,  5768, 24, 0, 0, False) /* Create Poofy Snowball for Contain */
-     , (25756, 1,  5769, 12, 0, 0, False) /* Create Iceball for Contain */;
+VALUES (25756, 1,  5758,  1, 0, 0, False) /* Create Carrot (5758) for Contain */
+     , (25756, 1,  5768, 24, 0, 0, False) /* Create Poofy Snowball (5768) for Contain */
+     , (25756, 1,  5769, 12, 0, 0, False) /* Create Iceball (5769) for Contain */;

@@ -13,7 +13,7 @@ VALUES (12017,   1,         16) /* ItemType - Creature */
      , (12017,  68,         13) /* TargetingTactic */
      , (12017,  81,          3) /* MaxGeneratedObjects */
      , (12017,  82,          3) /* InitGeneratedObjects */
-     , (12017,  93,       1032) /* PhysicsState */
+     , (12017,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (12017, 103,          1) /* GeneratorDestructionType - Nothing */
      , (12017, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (12017, 146,        919) /* XpOverride */;
@@ -74,7 +74,7 @@ VALUES (12017,   1,   33558817) /* Setup */
      , (12017,   7,  268436836) /* ClothingBase */
      , (12017,   8,  100667450) /* Icon */
      , (12017,  22,  872415266) /* PhysicsEffectTable */
-     , (12017,  35,         24) /* DeathTreasureType */;
+     , (12017,  35,         24) /* DeathTreasureType - Loot Tier: 1 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (12017,   1,  35, 0, 0) /* Strength */
@@ -114,12 +114,12 @@ INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
 VALUES (12017, 414) /* PLAYER_DEATH_EVENT */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (12017, 9,     0,  0, 0, 0.35, False) /* Create Unknown for ContainTreasure */
-     , (12017, 9,     0,  0, 0, 0.5, False) /* Create Unknown for ContainTreasure */
-     , (12017, 9,  3703,  0, 0, 0.65, False) /* Create Red Phyntos Wasp Wing for ContainTreasure */
-     , (12017, 9,  8701,  0, 0, 0.5, False) /* Create Lucky Gold Letter for ContainTreasure */;
+VALUES (12017, 9,     0,  0, 0, 0.35, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 1 for ContainTreasure */
+     , (12017, 9,     0,  0, 0, 0.5, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 1 for ContainTreasure */
+     , (12017, 9,  3703,  0, 0, 0.65, False) /* Create Red Phyntos Wasp Wing (3703) for ContainTreasure */
+     , (12017, 9,  8701,  0, 0, 0.5, False) /* Create Lucky Gold Letter (8701) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (12017, 0.34, 12, 20, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0)
-     , (12017, 0.67, 12, 20, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0)
-     , (12017, 1, 12, 20, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0);
+VALUES (12017, 0.34, 12, 20, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Red Phyntos Wasp (12) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Scatter */
+     , (12017, 0.67, 12, 20, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Red Phyntos Wasp (12) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Scatter */
+     , (12017, 1, 12, 20, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Red Phyntos Wasp (12) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Scatter */;

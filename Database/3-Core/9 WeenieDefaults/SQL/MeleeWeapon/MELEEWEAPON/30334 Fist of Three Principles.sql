@@ -16,7 +16,7 @@ VALUES (30334,   1,          1) /* ItemType - MeleeWeapon */
      , (30334,  48,         13) /* WeaponSkill - UnarmedCombat */
      , (30334,  49,         20) /* WeaponTime */
      , (30334,  51,          1) /* CombatUse - Melee */
-     , (30334,  93,       1044) /* PhysicsState */
+     , (30334,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (30334, 150,        103) /* HookPlacement - Hook */
      , (30334, 151,          2) /* HookType - Wall */;
 

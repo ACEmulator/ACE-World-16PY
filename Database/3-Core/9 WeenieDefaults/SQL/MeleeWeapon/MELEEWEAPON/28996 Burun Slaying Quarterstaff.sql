@@ -12,11 +12,11 @@ VALUES (28996,   1,          1) /* ItemType - MeleeWeapon */
      , (28996,  44,         22) /* Damage */
      , (28996,  45,          4) /* DamageType - Bludgeon */
      , (28996,  46,          2) /* DefaultCombatStyle - OneHanded */
-     , (28996,  47,          6) /* AttackType */
+     , (28996,  47,          6) /* AttackType - Thrust, Slash */
      , (28996,  48,         10) /* WeaponSkill - Staff */
      , (28996,  49,         25) /* WeaponTime */
      , (28996,  51,          1) /* CombatUse - Melee */
-     , (28996,  93,       1044) /* PhysicsState */
+     , (28996,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (28996, 106,        275) /* ItemSpellcraft */
      , (28996, 107,        800) /* ItemCurMana */
      , (28996, 108,        800) /* ItemMaxMana */

@@ -14,7 +14,7 @@ VALUES (687,   1,       4096) /* ItemType - SpellComponents */
      , (687,  15,        500) /* StackUnitValue */
      , (687,  16,          1) /* ItemUseable - No */
      , (687,  19,        500) /* Value */
-     , (687,  93,       1044) /* PhysicsState */
+     , (687,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (687, 150,        103) /* HookPlacement - Hook */
      , (687, 151,          2) /* HookType - Wall */;
 

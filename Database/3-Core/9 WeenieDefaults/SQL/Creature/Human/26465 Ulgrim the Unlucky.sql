@@ -11,7 +11,7 @@ VALUES (26465,   1,         16) /* ItemType - Creature */
      , (26465,  16,         32) /* ItemUseable - Remote */
      , (26465,  25,         50) /* Level */
      , (26465,  27,          0) /* ArmorType */
-     , (26465,  93,    6292504) /* PhysicsState */
+     , (26465,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (26465,  95,          8) /* RadarBlipColor - Yellow */
      , (26465, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (26465, 134,         16) /* PlayerKillerStatus - RubberGlue */
@@ -300,7 +300,7 @@ VALUES (@parent_id,  0,  12 /* TurnToTarget */, 0, 1, NULL, NULL, NULL, NULL, NU
      , (@parent_id,  4,  10 /* Tell */, 2, 1, NULL, 'She''s so nice. She said that didn''t count since I wasn''t ready. And when I was leaving her office she pretended not to notice when I tripped over that table of mugs.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (26465, 2,   161,  0, 0, 0, False) /* Create Mug for Wield */
-     , (26465, 2,  2588,  0, 9, 1, False) /* Create Shirt for Wield */
-     , (26465, 2,  2597,  0, 9, 1, False) /* Create Pants for Wield */
-     , (26465, 2,  5850,  0, 4, 0.5, False) /* Create Faran Robe for Wield */;
+VALUES (26465, 2,   161,  0, 0, 0, False) /* Create Mug (161) for Wield */
+     , (26465, 2,  2588,  0, 9, 1, False) /* Create Shirt (2588) for Wield */
+     , (26465, 2,  2597,  0, 9, 1, False) /* Create Pants (2597) for Wield */
+     , (26465, 2,  5850,  0, 4, 0.5, False) /* Create Faran Robe (5850) for Wield */;

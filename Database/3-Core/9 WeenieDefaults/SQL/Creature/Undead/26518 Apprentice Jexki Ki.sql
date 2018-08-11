@@ -12,8 +12,8 @@ VALUES (26518,   1,         16) /* ItemType - Creature */
      , (26518,  27,          0) /* ArmorType */
      , (26518,  40,          1) /* CombatMode - NonCombat */
      , (26518,  68,          3) /* TargetingTactic */
-     , (26518,  93,       1032) /* PhysicsState */
-     , (26518, 101,        183) /* AiAllowedCombatStyle */
+     , (26518,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
+     , (26518, 101,        183) /* AiAllowedCombatStyle - Unarmed, OneHanded, OneHandedAndShield, Bow, Crossbow, ThrownWeapon */
      , (26518, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (26518, 140,          1) /* AiOptions */
      , (26518, 146,    5000000) /* XpOverride */;
@@ -72,7 +72,8 @@ VALUES (26518,   1,   33558437) /* Setup */
      , (26518,   7,  268436673) /* ClothingBase */
      , (26518,   8,  100674805) /* Icon */
      , (26518,  22,  872415272) /* PhysicsEffectTable */
-     , (26518,  32,        447) /* WieldedTreasureType */;
+     , (26518,  32,        447) /* WieldedTreasureType - 
+                                   Wield Khopesh (25500) | Probability: 98% */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (26518,   1, 320, 0, 0) /* Strength */

@@ -10,7 +10,7 @@ VALUES (9673,   1,         16) /* ItemType - Creature */
      , (9673,  16,         32) /* ItemUseable - Remote */
      , (9673,  25,         15) /* Level */
      , (9673,  27,          0) /* ArmorType */
-     , (9673,  93,    6292504) /* PhysicsState */
+     , (9673,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (9673,  95,          8) /* RadarBlipColor - Yellow */
      , (9673, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (9673, 134,         16) /* PlayerKillerStatus - RubberGlue */
@@ -153,7 +153,7 @@ VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 1090519043 /* Ready */, NULL, NU
      , (@parent_id,  2,  10 /* Tell */, 1, 1, NULL, 'Take care as you travel down this road to the south. The Tumeroks seem to be heightening their activities near Dryreach!', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (9673, 2,   115,  0, 9, 0.5, False) /* Create Leather Boots for Wield */
-     , (9673, 2,  2590,  0, 9, 0.5, False) /* Create Shirt for Wield */
-     , (9673, 2,  2598,  0, 8, 0.6, False) /* Create Pants for Wield */
-     , (9673, 2,  5588,  0, 14, 0.7, False) /* Create Scribe Hat for Wield */;
+VALUES (9673, 2,   115,  0, 9, 0.5, False) /* Create Leather Boots (115) for Wield */
+     , (9673, 2,  2590,  0, 9, 0.5, False) /* Create Shirt (2590) for Wield */
+     , (9673, 2,  2598,  0, 8, 0.6, False) /* Create Pants (2598) for Wield */
+     , (9673, 2,  5588,  0, 14, 0.7, False) /* Create Scribe Hat (5588) for Wield */;

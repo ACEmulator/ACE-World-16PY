@@ -11,7 +11,7 @@ VALUES (19710,   1,          8) /* ItemType - Jewelry */
      , (19710,  18,          1) /* UiEffects - Magical */
      , (19710,  19,       5000) /* Value */
      , (19710,  33,          1) /* Bonded - Bonded */
-     , (19710,  93,       1044) /* PhysicsState */
+     , (19710,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (19710, 106,        225) /* ItemSpellcraft */
      , (19710, 107,        500) /* ItemCurMana */
      , (19710, 108,        500) /* ItemMaxMana */

@@ -10,7 +10,7 @@ VALUES (25712,   1,         16) /* ItemType - Creature */
      , (25712,  16,         32) /* ItemUseable - Remote */
      , (25712,  25,         14) /* Level */
      , (25712,  27,          0) /* ArmorType */
-     , (25712,  93,    6292504) /* PhysicsState */
+     , (25712,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (25712,  95,          8) /* RadarBlipColor - Yellow */
      , (25712, 119,          1) /* Active */
      , (25712, 133,          4) /* ShowableOnRadar - ShowAlways */
@@ -139,7 +139,7 @@ VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 1090519043 /* Ready */, NULL, NU
      , (@parent_id,  7,  13 /* TextDirect */, 0, 1, NULL, 'You think, "He was looking for a bribe. I just might have the money he needed."', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (25712, 2,   115,  0, 4, 0.4, False) /* Create Leather Boots for Wield */
-     , (25712, 2,   118,  0, 9, 0, False) /* Create Cap for Wield */
-     , (25712, 2,  2591,  0, 9, 0, False) /* Create Shirt for Wield */
-     , (25712, 2,  2597,  0, 14, 0, False) /* Create Pants for Wield */;
+VALUES (25712, 2,   115,  0, 4, 0.4, False) /* Create Leather Boots (115) for Wield */
+     , (25712, 2,   118,  0, 9, 0, False) /* Create Cap (118) for Wield */
+     , (25712, 2,  2591,  0, 9, 0, False) /* Create Shirt (2591) for Wield */
+     , (25712, 2,  2597,  0, 14, 0, False) /* Create Pants (2597) for Wield */;

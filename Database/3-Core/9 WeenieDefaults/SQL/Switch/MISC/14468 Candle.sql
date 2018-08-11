@@ -4,7 +4,7 @@ VALUES ('14468', 'levercandle', 26) /* Switch */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (14468,   1,        128) /* ItemType - Misc */
      , (14468,  16,         48) /* ItemUseable - ViewedRemote */
-     , (14468,  93,         20) /* PhysicsState */
+     , (14468,  93,         20) /* PhysicsState - Ethereal, IgnoreCollisions */
      , (14468, 119,          1) /* Active */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)

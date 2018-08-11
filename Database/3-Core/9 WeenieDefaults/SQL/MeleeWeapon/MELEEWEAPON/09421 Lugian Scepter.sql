@@ -11,13 +11,13 @@ VALUES (9421,   1,          1) /* ItemType - MeleeWeapon */
      , (9421,  19,       2500) /* Value */
      , (9421,  33,          1) /* Bonded - Bonded */
      , (9421,  44,         20) /* Damage */
-     , (9421,  45,         20) /* DamageType */
+     , (9421,  45,         20) /* DamageType - Bludgeon, Fire */
      , (9421,  46,          2) /* DefaultCombatStyle - OneHanded */
-     , (9421,  47,          6) /* AttackType */
+     , (9421,  47,          6) /* AttackType - Thrust, Slash */
      , (9421,  48,          5) /* WeaponSkill - Mace */
      , (9421,  49,         80) /* WeaponTime */
      , (9421,  51,          1) /* CombatUse - Melee */
-     , (9421,  93,       1044) /* PhysicsState */
+     , (9421,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (9421, 150,        103) /* HookPlacement - Hook */
      , (9421, 151,          2) /* HookType - Wall */;
 

@@ -15,7 +15,7 @@ VALUES (4753,   1,    4194304) /* ItemType - CraftCookingBase */
      , (4753,  19,         15) /* Value */
      , (4753,  89,          4) /* BoosterEnum - Stamina */
      , (4753,  90,          1) /* BoostValue */
-     , (4753,  93,       1044) /* PhysicsState */;
+     , (4753,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (4753,   1, 'Side of Beef') /* Name */

@@ -4,7 +4,7 @@ VALUES ('7205', 'portalcursedswampexit', 7) /* Portal */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (7205,   1,      65536) /* ItemType - Portal */
      , (7205,  16,         32) /* ItemUseable - Remote */
-     , (7205,  93,       3084) /* PhysicsState */
+     , (7205,  93,       3084) /* PhysicsState - Ethereal, ReportCollisions, Gravity, LightingOn */
      , (7205, 111,          1) /* PortalBitmask - Unrestricted */
      , (7205, 133,          4) /* ShowableOnRadar - ShowAlways */;
 

@@ -12,8 +12,8 @@ VALUES (11511,   1,         16) /* ItemType - Creature */
      , (11511,  27,          0) /* ArmorType */
      , (11511,  67,         64) /* Tolerance */
      , (11511,  68,          5) /* TargetingTactic */
-     , (11511,  93,       1032) /* PhysicsState */
-     , (11511, 101,        183) /* AiAllowedCombatStyle */
+     , (11511,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
+     , (11511, 101,        183) /* AiAllowedCombatStyle - Unarmed, OneHanded, OneHandedAndShield, Bow, Crossbow, ThrownWeapon */
      , (11511, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (11511, 140,          1) /* AiOptions */
      , (11511, 146,       8667) /* XpOverride */;
@@ -71,8 +71,18 @@ VALUES (11511,   1,   33557117) /* Setup */
      , (11511,   7,  268436193) /* ClothingBase */
      , (11511,   8,  100671756) /* Icon */
      , (11511,  22,  872415270) /* PhysicsEffectTable */
-     , (11511,  32,        381) /* WieldedTreasureType */
-     , (11511,  35,        451) /* DeathTreasureType */;
+     , (11511,  32,        381) /* WieldedTreasureType - 
+                                   Wield Palenqual's Tewhate (12111) | Probability: 17%
+                                   Wield Palenqual's Okane (12114) | Probability: 17%
+                                   Wield Palenqual's Waaika (12117) | Probability: 17%
+                                   Wield Palenqual's Taiaha (12120) | Probability: 17%
+                                   Wield Palenqual's Hoeroa (12123) | Probability: 17%
+                                   Wield Kaskara (324) | Probability: 3%
+                                   Wield Long Sword (351) | Probability: 3%
+                                   Wield Silifi (344) | Probability: 3%
+                                   Wield Tachi (353) | Probability: 3%
+                                   Wield War Hammer (359) | Probability: 3% */
+     , (11511,  35,        451) /* DeathTreasureType - Loot Tier: 2 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (11511,   1, 220, 0, 0) /* Strength */
@@ -118,7 +128,7 @@ VALUES (11511,  94) /* ATTACK_NOTIFICATION_EVENT */
      , (11511, 414) /* PLAYER_DEATH_EVENT */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (11511, 9,     0,  0, 0, 0.97, False) /* Create Unknown for ContainTreasure */
-     , (11511, 9,     0,  0, 0, 0.98, False) /* Create Unknown for ContainTreasure */
-     , (11511, 9,  6876,  0, 0, 0.02, False) /* Create Sturdy Iron Key for ContainTreasure */
-     , (11511, 9, 11355,  0, 0, 0.03, False) /* Create Aun Pendant for ContainTreasure */;
+VALUES (11511, 9,     0,  0, 0, 0.97, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 2 for ContainTreasure */
+     , (11511, 9,     0,  0, 0, 0.98, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 2 for ContainTreasure */
+     , (11511, 9,  6876,  0, 0, 0.02, False) /* Create Sturdy Iron Key (6876) for ContainTreasure */
+     , (11511, 9, 11355,  0, 0, 0.03, False) /* Create Aun Pendant (11355) for ContainTreasure */;

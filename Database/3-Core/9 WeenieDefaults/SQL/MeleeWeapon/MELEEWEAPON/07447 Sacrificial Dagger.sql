@@ -12,13 +12,13 @@ VALUES (7447,   1,          1) /* ItemType - MeleeWeapon */
      , (7447,  33,          1) /* Bonded - Bonded */
      , (7447,  36,       9999) /* ResistMagic */
      , (7447,  44,          5) /* Damage */
-     , (7447,  45,          3) /* DamageType */
+     , (7447,  45,          3) /* DamageType - Slash, Pierce */
      , (7447,  46,          2) /* DefaultCombatStyle - OneHanded */
-     , (7447,  47,          6) /* AttackType */
+     , (7447,  47,          6) /* AttackType - Thrust, Slash */
      , (7447,  48,          4) /* WeaponSkill - Dagger */
      , (7447,  49,         20) /* WeaponTime */
      , (7447,  51,          1) /* CombatUse - Melee */
-     , (7447,  93,       1044) /* PhysicsState */
+     , (7447,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (7447, 114,          1) /* Attuned - Attuned */
      , (7447, 150,        103) /* HookPlacement - Hook */
      , (7447, 151,          2) /* HookType - Wall */;

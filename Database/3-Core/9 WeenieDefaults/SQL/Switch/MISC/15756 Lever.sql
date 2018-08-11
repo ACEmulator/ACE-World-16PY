@@ -5,7 +5,7 @@ INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (15756,   1,        128) /* ItemType - Misc */
      , (15756,  16,         48) /* ItemUseable - ViewedRemote */
      , (15756,  83,       2048) /* ActivationResponse - Unk800 */
-     , (15756,  93,         20) /* PhysicsState */
+     , (15756,  93,         20) /* PhysicsState - Ethereal, IgnoreCollisions */
      , (15756, 119,          1) /* Active */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)

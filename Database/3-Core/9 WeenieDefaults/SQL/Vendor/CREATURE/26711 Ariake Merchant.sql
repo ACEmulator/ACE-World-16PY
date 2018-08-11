@@ -10,10 +10,10 @@ VALUES (26711,   1,         16) /* ItemType - Creature */
      , (26711,  16,         32) /* ItemUseable - Remote */
      , (26711,  25,         10) /* Level */
      , (26711,  27,          0) /* ArmorType */
-     , (26711,  74,     264192) /* MerchandiseItemTypes */
+     , (26711,  74,     264192) /* MerchandiseItemTypes - Gem, PromissoryNote */
      , (26711,  75,          0) /* MerchandiseMinValue */
      , (26711,  76,    1000000) /* MerchandiseMaxValue */
-     , (26711,  93,    2098204) /* PhysicsState */
+     , (26711,  93,    2098204) /* PhysicsState - Ethereal, ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */
      , (26711, 126,        125) /* VendorHappyMean */
      , (26711, 127,        125) /* VendorHappyVariance */
      , (26711, 133,          4) /* ShowableOnRadar - ShowAlways */
@@ -97,4 +97,4 @@ VALUES (26711,  0,  4,  0,    0,    0,    0,    0,    0,    0,    0,    0,    0,
      , (26711,  8,  4,  2, 0.75,    0,    0,    0,    0,    0,    0,    0,    0,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (26711, 4, 26076, -1, 0, 0, False) /* Create Ariake Portal Gem for Shop */;
+VALUES (26711, 4, 26076, -1, 0, 0, False) /* Create Ariake Portal Gem (26076) for Shop */;

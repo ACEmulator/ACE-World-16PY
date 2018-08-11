@@ -10,10 +10,10 @@ VALUES (26844,   1,         16) /* ItemType - Creature */
      , (26844,  16,         32) /* ItemUseable - Remote */
      , (26844,  25,         10) /* Level */
      , (26844,  27,          0) /* ArmorType */
-     , (26844,  74,     264192) /* MerchandiseItemTypes */
+     , (26844,  74,     264192) /* MerchandiseItemTypes - Gem, PromissoryNote */
      , (26844,  75,          0) /* MerchandiseMinValue */
      , (26844,  76,    1000000) /* MerchandiseMaxValue */
-     , (26844,  93,    2098204) /* PhysicsState */
+     , (26844,  93,    2098204) /* PhysicsState - Ethereal, ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */
      , (26844, 126,        125) /* VendorHappyMean */
      , (26844, 127,        125) /* VendorHappyVariance */
      , (26844, 133,          4) /* ShowableOnRadar - ShowAlways */
@@ -97,4 +97,4 @@ VALUES (26844,  0,  4,  0,    0,    0,    0,    0,    0,    0,    0,    0,    0,
      , (26844,  8,  4,  2, 0.75,    0,    0,    0,    0,    0,    0,    0,    0,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (26844, 4, 26209, -1, 0, 0, False) /* Create Ijaniya  Portal Gem for Shop */;
+VALUES (26844, 4, 26209, -1, 0, 0, False) /* Create Ijaniya  Portal Gem (26209) for Shop */;

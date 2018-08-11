@@ -10,10 +10,10 @@ VALUES (27034,   1,         16) /* ItemType - Creature */
      , (27034,  16,         32) /* ItemUseable - Remote */
      , (27034,  25,         10) /* Level */
      , (27034,  27,          0) /* ArmorType */
-     , (27034,  74,     264192) /* MerchandiseItemTypes */
+     , (27034,  74,     264192) /* MerchandiseItemTypes - Gem, PromissoryNote */
      , (27034,  75,          0) /* MerchandiseMinValue */
      , (27034,  76,    1000000) /* MerchandiseMaxValue */
-     , (27034,  93,    2098204) /* PhysicsState */
+     , (27034,  93,    2098204) /* PhysicsState - Ethereal, ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */
      , (27034, 126,        125) /* VendorHappyMean */
      , (27034, 127,        125) /* VendorHappyVariance */
      , (27034, 133,          4) /* ShowableOnRadar - ShowAlways */
@@ -97,4 +97,4 @@ VALUES (27034,  0,  4,  0,    0,    0,    0,    0,    0,    0,    0,    0,    0,
      , (27034,  8,  4,  2, 0.75,    0,    0,    0,    0,    0,    0,    0,    0,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (27034, 4, 26399, -1, 0, 0, False) /* Create Swamp Temple Place Portal Gem for Shop */;
+VALUES (27034, 4, 26399, -1, 0, 0, False) /* Create Swamp Temple Place Portal Gem (26399) for Shop */;

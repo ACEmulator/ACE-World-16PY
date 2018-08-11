@@ -10,7 +10,7 @@ VALUES (5694,   1,         16) /* ItemType - Creature */
      , (5694,  16,         32) /* ItemUseable - Remote */
      , (5694,  25,         65) /* Level */
      , (5694,  27,          0) /* ArmorType */
-     , (5694,  93,    6292504) /* PhysicsState */
+     , (5694,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (5694,  95,          8) /* RadarBlipColor - Yellow */
      , (5694, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (5694, 134,         16) /* PlayerKillerStatus - RubberGlue */
@@ -783,7 +783,7 @@ VALUES (@parent_id,  0,  10 /* Tell */, 0, 1, NULL, 'I never knew that Aquamarin
      , (@parent_id,  6,   3 /* Give */, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0, 27763 /* Onyx Cutting Tool */, 1, 0, 0, False, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (5694, 2,   132,  0, 4, 0.8, False) /* Create Shoes for Wield */
-     , (5694, 2,   134,  0, 16, 1, False) /* Create Tunic for Wield */
-     , (5694, 2,  2600,  0, 9, 1, False) /* Create Pantaloons for Wield */
-     , (5694, 2,  5588,  0, 0, 0, False) /* Create Scribe Hat for Wield */;
+VALUES (5694, 2,   132,  0, 4, 0.8, False) /* Create Shoes (132) for Wield */
+     , (5694, 2,   134,  0, 16, 1, False) /* Create Tunic (134) for Wield */
+     , (5694, 2,  2600,  0, 9, 1, False) /* Create Pantaloons (2600) for Wield */
+     , (5694, 2,  5588,  0, 0, 0, False) /* Create Scribe Hat (5588) for Wield */;

@@ -14,8 +14,8 @@ VALUES (5672,   1,         32) /* ItemType - Food */
      , (5672,  16,          8) /* ItemUseable - Contained */
      , (5672,  18,          1) /* UiEffects - Magical */
      , (5672,  19,        100) /* Value */
-     , (5672,  93,       1044) /* PhysicsState */
-     , (5672,  94,         16) /* TargetType - Creature */
+     , (5672,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (5672,  94,         16) /* TargetType - Reedshark */
      , (5672, 106,         50) /* ItemSpellcraft */
      , (5672, 107,         50) /* ItemCurMana */
      , (5672, 108,         50) /* ItemMaxMana */

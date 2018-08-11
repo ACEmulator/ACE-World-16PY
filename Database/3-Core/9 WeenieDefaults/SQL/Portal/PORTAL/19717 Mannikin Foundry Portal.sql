@@ -4,8 +4,8 @@ VALUES ('19717', 'portallowstatuedungeonnorestrict', 7) /* Portal */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (19717,   1,      65536) /* ItemType - Portal */
      , (19717,  16,         32) /* ItemUseable - Remote */
-     , (19717,  93,       3084) /* PhysicsState */
-     , (19717, 111,         49) /* PortalBitmask */
+     , (19717,  93,       3084) /* PhysicsState - Ethereal, ReportCollisions, Gravity, LightingOn */
+     , (19717, 111,         49) /* PortalBitmask - Unrestricted, NoSummon, NoRecall */
      , (19717, 133,          4) /* ShowableOnRadar - ShowAlways */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)

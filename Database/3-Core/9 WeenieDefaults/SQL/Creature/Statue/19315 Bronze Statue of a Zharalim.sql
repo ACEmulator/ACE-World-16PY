@@ -12,8 +12,8 @@ VALUES (19315,   1,         16) /* ItemType - Creature */
      , (19315,  25,         53) /* Level */
      , (19315,  27,          0) /* ArmorType */
      , (19315,  68,         13) /* TargetingTactic */
-     , (19315,  93,       1032) /* PhysicsState */
-     , (19315, 101,        131) /* AiAllowedCombatStyle */
+     , (19315,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
+     , (19315, 101,        131) /* AiAllowedCombatStyle - Unarmed, OneHanded, ThrownWeapon */
      , (19315, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (19315, 146,       9004) /* XpOverride */;
 
@@ -71,8 +71,22 @@ VALUES (19315,   1,   33554433) /* Setup */
      , (19315,   7,  268436405) /* ClothingBase */
      , (19315,   8,  100667446) /* Icon */
      , (19315,  22,  872415349) /* PhysicsEffectTable */
-     , (19315,  32,        404) /* WieldedTreasureType */
-     , (19315,  35,        451) /* DeathTreasureType */;
+     , (19315,  32,        404) /* WieldedTreasureType - 
+                                   Wield Bronze Longbow (15873) | Probability: 40%
+                                   Wield 20x Greater Fire Arrow (5305) | Probability: 25%
+                                   Wield 20x Greater Arrow (5304) | Probability: 25%
+                                   Wield 20x Greater Frost Arrow (5307) | Probability: 25%
+                                   Wield 20x Greater Armor Piercing Arrow (5309) | Probability: 25%
+                                   Wield Bronze Atlatl (15870) | Probability: 60%
+                                   Wield 20x Armor Piercing Atlatl Dart (15280) | Probability: 16%
+                                   Wield 20x Greater Fire Atlatl Dart (15293) | Probability: 16%
+                                   Wield 20x Greater Atlatl Dart (15287) | Probability: 17%
+                                   Wield 20x Armor Piercing Atlatl Dart (15280) | Probability: 17%
+                                   Wield 20x Greater Frost Atlatl Dart (15295) | Probability: 17%
+                                   Wield 20x Greater Lightning Atlatl Dart (15292) | Probability: 17%
+                                   Wield Bronze Zharalim Simi (15390) | Probability: 50%
+                                   Wield Bronze Quarter Staff (15878) | Probability: 50% */
+     , (19315,  35,        451) /* DeathTreasureType - Loot Tier: 2 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (19315,   1, 180, 0, 0) /* Strength */
@@ -126,5 +140,5 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 1124073753, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (19315, 9,     0,  0, 0, 0.95, False) /* Create Unknown for ContainTreasure */
-     , (19315, 9, 19214,  0, 0, 0.05, False) /* Create Bronze Coil from a Statue for ContainTreasure */;
+VALUES (19315, 9,     0,  0, 0, 0.95, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 2 for ContainTreasure */
+     , (19315, 9, 19214,  0, 0, 0.05, False) /* Create Bronze Coil from a Statue (19214) for ContainTreasure */;

@@ -12,8 +12,8 @@ VALUES (28652,   1,         16) /* ItemType - Creature */
      , (28652,  27,          0) /* ArmorType */
      , (28652,  40,          2) /* CombatMode - Melee */
      , (28652,  68,          9) /* TargetingTactic */
-     , (28652,  93,       1032) /* PhysicsState */
-     , (28652, 101,        131) /* AiAllowedCombatStyle */
+     , (28652,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
+     , (28652, 101,        131) /* AiAllowedCombatStyle - Unarmed, OneHanded, ThrownWeapon */
      , (28652, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (28652, 140,          1) /* AiOptions */
      , (28652, 146,        179) /* XpOverride */;
@@ -69,8 +69,24 @@ VALUES (28652,   1,   33556445) /* Setup */
      , (28652,   7,  268435972) /* ClothingBase */
      , (28652,   8,  100667445) /* Icon */
      , (28652,  22,  872415258) /* PhysicsEffectTable */
-     , (28652,  32,         74) /* WieldedTreasureType */
-     , (28652,  35,        453) /* DeathTreasureType */;
+     , (28652,  32,         74) /* WieldedTreasureType - 
+                                   Wield Club (309) | Probability: 5%
+                                   Wield Dabus (313) | Probability: 10%
+                                   Wield Dagger (314) | Probability: 5%
+                                   Wield Kasrullah (325) | Probability: 5%
+                                   Wield Khanjar (328) | Probability: 5%
+                                   Wield Mace (331) | Probability: 10%
+                                   Wield Short Sword (352) | Probability: 10%
+                                   Wield Simi (345) | Probability: 10%
+                                   Wield Tofun (356) | Probability: 10%
+                                   Wield Yaoji (361) | Probability: 10%
+                                   Wield Drudge Board with Nail (7767) | Probability: 15%
+                                   Wield 10x Shouken (343) | Probability: 4%
+                                   Wield 6x Throwing Dagger (315) | Probability: 5%
+                                   Wield 4x Javelin (320) | Probability: 2%
+                                   Wield Djarid (317) | Probability: 1%
+                                   Wield 4x Throwing Club (310) | Probability: 1% */
+     , (28652,  35,        453) /* DeathTreasureType - Loot Tier: 1 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (28652,   1,  30, 0, 0) /* Strength */
@@ -187,15 +203,15 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 268435537 /* Twitch1 */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (28652, 9,     0,  0, 0, 0.92, False) /* Create Unknown for ContainTreasure */
-     , (28652, 9,     0,  0, 0, 0.97, False) /* Create Unknown for ContainTreasure */
-     , (28652, 9,     0,  0, 0, 0.98, False) /* Create Unknown for ContainTreasure */
-     , (28652, 9,     0,  0, 0, 0.94, False) /* Create Unknown for ContainTreasure */
-     , (28652, 9,     0,  0, 0, 0.9, False) /* Create Unknown for ContainTreasure */
-     , (28652, 9,     0,  0, 0, 0.97, False) /* Create Unknown for ContainTreasure */
-     , (28652, 9,  3669,  0, 0, 0.08, False) /* Create Drudge Charm for ContainTreasure */
-     , (28652, 9,  7825,  0, 0, 0.03, False) /* Create Brown Beans for ContainTreasure */
-     , (28652, 9,  8701,  0, 0, 0.02, False) /* Create Lucky Gold Letter for ContainTreasure */
-     , (28652, 9,  8702,  0, 0, 0.06, False) /* Create Scarlet Red Letter for ContainTreasure */
-     , (28652, 9, 13222,  0, 0, 0.1, False) /* Create Peppermint Stick for ContainTreasure */
-     , (28652, 9, 20854,  0, 0, 0.03, False) /* Create Academy Stamp for ContainTreasure */;
+VALUES (28652, 9,     0,  0, 0, 0.92, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 1 for ContainTreasure */
+     , (28652, 9,     0,  0, 0, 0.97, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 1 for ContainTreasure */
+     , (28652, 9,     0,  0, 0, 0.98, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 1 for ContainTreasure */
+     , (28652, 9,     0,  0, 0, 0.94, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 1 for ContainTreasure */
+     , (28652, 9,     0,  0, 0, 0.9, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 1 for ContainTreasure */
+     , (28652, 9,     0,  0, 0, 0.97, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 1 for ContainTreasure */
+     , (28652, 9,  3669,  0, 0, 0.08, False) /* Create Drudge Charm (3669) for ContainTreasure */
+     , (28652, 9,  7825,  0, 0, 0.03, False) /* Create Brown Beans (7825) for ContainTreasure */
+     , (28652, 9,  8701,  0, 0, 0.02, False) /* Create Lucky Gold Letter (8701) for ContainTreasure */
+     , (28652, 9,  8702,  0, 0, 0.06, False) /* Create Scarlet Red Letter (8702) for ContainTreasure */
+     , (28652, 9, 13222,  0, 0, 0.1, False) /* Create Peppermint Stick (13222) for ContainTreasure */
+     , (28652, 9, 20854,  0, 0, 0.03, False) /* Create Academy Stamp (20854) for ContainTreasure */;

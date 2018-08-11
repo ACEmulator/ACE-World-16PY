@@ -4,17 +4,17 @@ VALUES ('7672', 'coatamullianshadownewlightning', 2) /* Clothing */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (7672,   1,          2) /* ItemType - Armor */
      , (7672,   3,         13) /* PaletteTemplate - Purple */
-     , (7672,   4,      13312) /* ClothingPriority */
+     , (7672,   4,      13312) /* ClothingPriority - OuterwearChest, OuterwearUpperArms, OuterwearLowerArms */
      , (7672,   5,       1500) /* EncumbranceVal */
      , (7672,   8,       1000) /* Mass */
-     , (7672,   9,       6656) /* ValidLocations */
+     , (7672,   9,       6656) /* ValidLocations - ChestArmor, UpperArmArmor, LowerArmArmor */
      , (7672,  16,          1) /* ItemUseable - No */
      , (7672,  19,       2610) /* Value */
      , (7672,  27,          8) /* ArmorType */
      , (7672,  28,        140) /* ArmorLevel */
      , (7672,  33,          1) /* Bonded - Bonded */
      , (7672,  36,       9999) /* ResistMagic */
-     , (7672,  93,       1044) /* PhysicsState */
+     , (7672,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (7672, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)

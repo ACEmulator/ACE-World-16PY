@@ -13,7 +13,7 @@ VALUES (14918,   1,          2) /* ItemType - Armor */
      , (14918,  28,          0) /* ArmorLevel */
      , (14918,  33,          1) /* Bonded - Bonded */
      , (14918,  51,          4) /* CombatUse - Shield */
-     , (14918,  93,       1044) /* PhysicsState */
+     , (14918,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (14918, 150,        103) /* HookPlacement - Hook */
      , (14918, 151,          2) /* HookType - Wall */;
 

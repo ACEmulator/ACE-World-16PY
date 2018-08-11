@@ -13,8 +13,8 @@ VALUES (29489,   1,         16) /* ItemType - Creature */
      , (29489,  40,          2) /* CombatMode - Melee */
      , (29489,  67,         64) /* Tolerance */
      , (29489,  68,          5) /* TargetingTactic */
-     , (29489,  93,       1032) /* PhysicsState */
-     , (29489, 101,        131) /* AiAllowedCombatStyle */
+     , (29489,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
+     , (29489, 101,        131) /* AiAllowedCombatStyle - Unarmed, OneHanded, ThrownWeapon */
      , (29489, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (29489, 140,          1) /* AiOptions */
      , (29489, 146,         81) /* XpOverride */;
@@ -70,8 +70,21 @@ VALUES (29489,   1,   33558024) /* Setup */
      , (29489,   7,  268436496) /* ClothingBase */
      , (29489,   8,  100667453) /* Icon */
      , (29489,  22,  872415255) /* PhysicsEffectTable */
-     , (29489,  32,         57) /* WieldedTreasureType */
-     , (29489,  35,        453) /* DeathTreasureType */;
+     , (29489,  32,         57) /* WieldedTreasureType - 
+                                   Wield Jo (322) | Probability: 3%
+                                   Wield Nabut (333) | Probability: 3%
+                                   Wield Quarter Staff (338) | Probability: 4%
+                                   Wield Shou-ono (342) | Probability: 8%
+                                   Wield Tungi (357) | Probability: 8%
+                                   Wield Hand Axe (303) | Probability: 9%
+                                   Wield Budiaq (308) | Probability: 12%
+                                   Wield Spear (348) | Probability: 13%
+                                   Wield Kasrullah (325) | Probability: 17%
+                                   Wield Club (309) | Probability: 38%
+                                   Wield 2x Javelin (320) | Probability: 1%
+                                   Wield 3x Throwing Club (310) | Probability: 1%
+                                   Wield Djarid (317) | Probability: 1% */
+     , (29489,  35,        453) /* DeathTreasureType - Loot Tier: 1 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (29489,   1,  50, 0, 0) /* Strength */
@@ -172,7 +185,7 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 268435537 /* Twitch1 */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (29489, 9,     0,  0, 0, 0.97, False) /* Create Unknown for ContainTreasure */
-     , (29489, 9,     0,  0, 0, 0.99, False) /* Create Unknown for ContainTreasure */
-     , (29489, 9,  7825,  0, 0, 0.03, False) /* Create Brown Beans for ContainTreasure */
-     , (29489, 9,  8701,  0, 0, 0.01, False) /* Create Lucky Gold Letter for ContainTreasure */;
+VALUES (29489, 9,     0,  0, 0, 0.97, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 1 for ContainTreasure */
+     , (29489, 9,     0,  0, 0, 0.99, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 1 for ContainTreasure */
+     , (29489, 9,  7825,  0, 0, 0.03, False) /* Create Brown Beans (7825) for ContainTreasure */
+     , (29489, 9,  8701,  0, 0, 0.01, False) /* Create Lucky Gold Letter (8701) for ContainTreasure */;

@@ -11,8 +11,8 @@ VALUES (11875,   1,         16) /* ItemType - Creature */
      , (11875,  25,         26) /* Level */
      , (11875,  27,          0) /* ArmorType */
      , (11875,  68,          5) /* TargetingTactic */
-     , (11875,  93,       1032) /* PhysicsState */
-     , (11875, 101,        183) /* AiAllowedCombatStyle */
+     , (11875,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
+     , (11875, 101,        183) /* AiAllowedCombatStyle - Unarmed, OneHanded, OneHandedAndShield, Bow, Crossbow, ThrownWeapon */
      , (11875, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (11875, 140,          1) /* AiOptions */
      , (11875, 146,       2533) /* XpOverride */;
@@ -68,8 +68,10 @@ VALUES (11875,   1,   33554496) /* Setup */
      , (11875,   7,  268435647) /* ClothingBase */
      , (11875,   8,  100667452) /* Icon */
      , (11875,  22,  872415270) /* PhysicsEffectTable */
-     , (11875,  32,        366) /* WieldedTreasureType */
-     , (11875,  35,        453) /* DeathTreasureType */;
+     , (11875,  32,        366) /* WieldedTreasureType - 
+                                   Wield Hafted Falcon Spear (11751) | Probability: 80%
+                                   Wield Reinforced Falcon Spear (11777) | Probability: 20% */
+     , (11875,  35,        453) /* DeathTreasureType - Loot Tier: 1 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (11875,   1, 110, 0, 0) /* Strength */
@@ -115,5 +117,5 @@ VALUES (11875,  94) /* ATTACK_NOTIFICATION_EVENT */
      , (11875, 414) /* PLAYER_DEATH_EVENT */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (11875, 9,     0,  0, 0, 0.95, False) /* Create Unknown for ContainTreasure */
-     , (11875, 9, 11737,  0, 0, 0.05, False) /* Create Falcon Banner for ContainTreasure */;
+VALUES (11875, 9,     0,  0, 0, 0.95, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 1 for ContainTreasure */
+     , (11875, 9, 11737,  0, 0, 0.05, False) /* Create Falcon Banner (11737) for ContainTreasure */;

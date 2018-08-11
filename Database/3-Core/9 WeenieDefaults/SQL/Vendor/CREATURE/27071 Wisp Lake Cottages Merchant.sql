@@ -10,10 +10,10 @@ VALUES (27071,   1,         16) /* ItemType - Creature */
      , (27071,  16,         32) /* ItemUseable - Remote */
      , (27071,  25,         10) /* Level */
      , (27071,  27,          0) /* ArmorType */
-     , (27071,  74,     264192) /* MerchandiseItemTypes */
+     , (27071,  74,     264192) /* MerchandiseItemTypes - Gem, PromissoryNote */
      , (27071,  75,          0) /* MerchandiseMinValue */
      , (27071,  76,    1000000) /* MerchandiseMaxValue */
-     , (27071,  93,    2098204) /* PhysicsState */
+     , (27071,  93,    2098204) /* PhysicsState - Ethereal, ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */
      , (27071, 126,        125) /* VendorHappyMean */
      , (27071, 127,        125) /* VendorHappyVariance */
      , (27071, 133,          4) /* ShowableOnRadar - ShowAlways */
@@ -97,4 +97,4 @@ VALUES (27071,  0,  4,  0,    0,    0,    0,    0,    0,    0,    0,    0,    0,
      , (27071,  8,  4,  2, 0.75,    0,    0,    0,    0,    0,    0,    0,    0,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (27071, 4, 26436, -1, 0, 0, False) /* Create Wisp Lake Cottages Portal Gem for Shop */;
+VALUES (27071, 4, 26436, -1, 0, 0, False) /* Create Wisp Lake Cottages Portal Gem (26436) for Shop */;

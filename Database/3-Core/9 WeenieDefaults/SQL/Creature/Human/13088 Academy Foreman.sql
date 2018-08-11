@@ -10,7 +10,7 @@ VALUES (13088,   1,         16) /* ItemType - Creature */
      , (13088,  16,         32) /* ItemUseable - Remote */
      , (13088,  25,          5) /* Level */
      , (13088,  27,          0) /* ArmorType */
-     , (13088,  93,    6292504) /* PhysicsState */
+     , (13088,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (13088,  95,          8) /* RadarBlipColor - Yellow */
      , (13088, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (13088, 134,         16) /* PlayerKillerStatus - RubberGlue */
@@ -543,6 +543,6 @@ VALUES (@parent_id,  0,  22 /* StampQuest */, 0, 1, NULL, 'WaspWingDone', NULL, 
      , (@parent_id,  2,  10 /* Tell */, 1, 1, NULL, 'You have already helped me enough, my friend--I''m sure from now on I''ll be able to manage these Wasps on my own. Good luck in the rest of the Academy!', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (13088, 2,   130,  0, 14, 0.8, False) /* Create Shirt for Wield */
-     , (13088, 2,   132,  0, 14, 0.8, False) /* Create Shoes for Wield */
-     , (13088, 2,  2604,  0, 17, 1, False) /* Create Breeches for Wield */;
+VALUES (13088, 2,   130,  0, 14, 0.8, False) /* Create Shirt (130) for Wield */
+     , (13088, 2,   132,  0, 14, 0.8, False) /* Create Shoes (132) for Wield */
+     , (13088, 2,  2604,  0, 17, 1, False) /* Create Breeches (2604) for Wield */;

@@ -10,7 +10,7 @@ VALUES (4796,   1,         16) /* ItemType - Creature */
      , (4796,  16,         32) /* ItemUseable - Remote */
      , (4796,  25,          8) /* Level */
      , (4796,  27,          0) /* ArmorType */
-     , (4796,  93,    6292504) /* PhysicsState */
+     , (4796,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (4796,  95,          8) /* RadarBlipColor - Yellow */
      , (4796, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (4796, 134,         16) /* PlayerKillerStatus - RubberGlue */
@@ -193,6 +193,6 @@ VALUES (@parent_id,  0,  12 /* TurnToTarget */, 0, 1, NULL, NULL, NULL, NULL, NU
      , (@parent_id,  2,   3 /* Give */, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0, 4792 /* Celcynd's Ring */, 1, 0, 0, False, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (4796, 2,  2593,  0, 1, 0.67, False) /* Create Tunic for Wield */
-     , (4796, 2,  2598,  0, 9, 1, False) /* Create Pants for Wield */
-     , (4796, 2,  2606,  0, 4, 0.8, False) /* Create Boots for Wield */;
+VALUES (4796, 2,  2593,  0, 1, 0.67, False) /* Create Tunic (2593) for Wield */
+     , (4796, 2,  2598,  0, 9, 1, False) /* Create Pants (2598) for Wield */
+     , (4796, 2,  2606,  0, 4, 0.8, False) /* Create Boots (2606) for Wield */;

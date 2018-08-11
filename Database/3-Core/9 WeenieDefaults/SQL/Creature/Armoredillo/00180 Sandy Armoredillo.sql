@@ -13,7 +13,7 @@ VALUES (180,   1,         16) /* ItemType - Creature */
      , (180,  68,          9) /* TargetingTactic */
      , (180,  81,          3) /* MaxGeneratedObjects */
      , (180,  82,          3) /* InitGeneratedObjects */
-     , (180,  93,       1032) /* PhysicsState */
+     , (180,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (180, 103,          1) /* GeneratorDestructionType - Nothing */
      , (180, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (180, 146,       1100) /* XpOverride */;
@@ -71,7 +71,7 @@ VALUES (180,   1,   33554436) /* Setup */
      , (180,   7,  268435547) /* ClothingBase */
      , (180,   8,  100667935) /* Icon */
      , (180,  22,  872415253) /* PhysicsEffectTable */
-     , (180,  35,        459) /* DeathTreasureType */;
+     , (180,  35,        459) /* DeathTreasureType - Loot Tier: 1 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (180,   1, 120, 0, 0) /* Strength */
@@ -138,7 +138,7 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 268435538 /* Twitch2 */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (180, 9,     0,  0, 0, 0.93, False) /* Create Unknown for ContainTreasure */
-     , (180, 9,     0,  0, 0, 0.95, False) /* Create Unknown for ContainTreasure */
-     , (180, 9,  3690,  0, 0, 0.07, False) /* Create Sandy Armoredillo Spine for ContainTreasure */
-     , (180, 9,  4234,  0, 0, 0.05, False) /* Create Large Armoredillo Hide for ContainTreasure */;
+VALUES (180, 9,     0,  0, 0, 0.93, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 1 for ContainTreasure */
+     , (180, 9,     0,  0, 0, 0.95, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 1 for ContainTreasure */
+     , (180, 9,  3690,  0, 0, 0.07, False) /* Create Sandy Armoredillo Spine (3690) for ContainTreasure */
+     , (180, 9,  4234,  0, 0, 0.05, False) /* Create Large Armoredillo Hide (4234) for ContainTreasure */;

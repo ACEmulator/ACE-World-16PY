@@ -7,14 +7,14 @@ VALUES (30367,   1,          2) /* ItemType - Armor */
      , (30367,   4,      65536) /* ClothingPriority - Feet */
      , (30367,   5,        420) /* EncumbranceVal */
      , (30367,   8,        140) /* Mass */
-     , (30367,   9,        384) /* ValidLocations */
+     , (30367,   9,        384) /* ValidLocations - LowerLegWear, FootWear */
      , (30367,  16,          1) /* ItemUseable - No */
      , (30367,  19,         70) /* Value */
      , (30367,  27,          2) /* ArmorType */
      , (30367,  28,         20) /* ArmorLevel */
      , (30367,  44,          1) /* Damage */
      , (30367,  45,          4) /* DamageType - Bludgeon */
-     , (30367,  93,       1044) /* PhysicsState */;
+     , (30367,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (30367,  22, True ) /* Inscribable */

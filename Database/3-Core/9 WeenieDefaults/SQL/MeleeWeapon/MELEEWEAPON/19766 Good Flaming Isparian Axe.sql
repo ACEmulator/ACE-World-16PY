@@ -19,7 +19,7 @@ VALUES (19766,   1,          1) /* ItemType - MeleeWeapon */
      , (19766,  48,          1) /* WeaponSkill - Axe */
      , (19766,  49,         55) /* WeaponTime */
      , (19766,  51,          1) /* CombatUse - Melee */
-     , (19766,  93,       1044) /* PhysicsState */
+     , (19766,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (19766, 106,        100) /* ItemSpellcraft */
      , (19766, 107,        400) /* ItemCurMana */
      , (19766, 108,        400) /* ItemMaxMana */

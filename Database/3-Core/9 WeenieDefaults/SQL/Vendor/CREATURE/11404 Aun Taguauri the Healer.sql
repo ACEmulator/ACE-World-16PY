@@ -11,10 +11,10 @@ VALUES (11404,   1,         16) /* ItemType - Creature */
      , (11404,  16,         32) /* ItemUseable - Remote */
      , (11404,  25,         16) /* Level */
      , (11404,  27,          0) /* ArmorType */
-     , (11404,  74,     262272) /* MerchandiseItemTypes */
+     , (11404,  74,     262272) /* MerchandiseItemTypes - Misc, PromissoryNote */
      , (11404,  75,          0) /* MerchandiseMinValue */
      , (11404,  76,     100000) /* MerchandiseMaxValue */
-     , (11404,  93,    2098200) /* PhysicsState */
+     , (11404,  93,    2098200) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */
      , (11404, 126,        500) /* VendorHappyMean */
      , (11404, 127,        500) /* VendorHappyVariance */
      , (11404, 133,          4) /* ShowableOnRadar - ShowAlways */
@@ -176,22 +176,22 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,  10 /* Tell */, 0, 1, NULL, 'Yet another in need of my help! Will Wharu''s invasions never cease?', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (11404, 4,   377, -1, 0, 0, False) /* Create Potion of Healing for Shop */
-     , (11404, 4,   378, -1, 0, 0, False) /* Create Stamina Potion for Shop */
-     , (11404, 4,   379, -1, 0, 0, False) /* Create Mana Potion for Shop */
-     , (11404, 4,   628, -1, 0, 0, False) /* Create Handy Healing Kit for Shop */
-     , (11404, 4,   629, -1, 0, 0, False) /* Create Adept Healing Kit for Shop */
-     , (11404, 4,   630, -1, 0, 0, False) /* Create Gifted Healing Kit for Shop */
-     , (11404, 4,   631, -1, 0, 0, False) /* Create Excellent Healing Kit for Shop */
-     , (11404, 4,  2457, -1, 0, 0, False) /* Create Health Draught for Shop */
-     , (11404, 4,  2460, -1, 0, 0, False) /* Create Mana Draught for Shop */
-     , (11404, 4,  2470, -1, 0, 0, False) /* Create Stamina Elixir for Shop */
-     , (11404, 4,  2621, -1, 0, 0, False) /* Create Trade Note (100) for Shop */
-     , (11404, 4,  2622, -1, 0, 0, False) /* Create Trade Note (500) for Shop */
-     , (11404, 4,  4450, -1, 0, 0, False) /* Create Heal Other I for Shop */
-     , (11404, 4,  4589, -1, 0, 0, False) /* Create Revitalize Other I for Shop */
-     , (11404, 4,  4593, -1, 0, 0, False) /* Create Mana Boost Other II for Shop */
-     , (11404, 4,  4602, -1, 0, 0, False) /* Create Endurance Other I for Shop */
-     , (11404, 4, 27319, -1, 0, 0, False) /* Create Health Tincture for Shop */
-     , (11404, 4, 27322, -1, 0, 0, False) /* Create Mana Tincture for Shop */
-     , (11404, 4, 27326, -1, 0, 0, False) /* Create Stamina Tincture for Shop */;
+VALUES (11404, 4,   377, -1, 0, 0, False) /* Create Potion of Healing (377) for Shop */
+     , (11404, 4,   378, -1, 0, 0, False) /* Create Stamina Potion (378) for Shop */
+     , (11404, 4,   379, -1, 0, 0, False) /* Create Mana Potion (379) for Shop */
+     , (11404, 4,   628, -1, 0, 0, False) /* Create Handy Healing Kit (628) for Shop */
+     , (11404, 4,   629, -1, 0, 0, False) /* Create Adept Healing Kit (629) for Shop */
+     , (11404, 4,   630, -1, 0, 0, False) /* Create Gifted Healing Kit (630) for Shop */
+     , (11404, 4,   631, -1, 0, 0, False) /* Create Excellent Healing Kit (631) for Shop */
+     , (11404, 4,  2457, -1, 0, 0, False) /* Create Health Draught (2457) for Shop */
+     , (11404, 4,  2460, -1, 0, 0, False) /* Create Mana Draught (2460) for Shop */
+     , (11404, 4,  2470, -1, 0, 0, False) /* Create Stamina Elixir (2470) for Shop */
+     , (11404, 4,  2621, -1, 0, 0, False) /* Create Trade Note (100) (2621) for Shop */
+     , (11404, 4,  2622, -1, 0, 0, False) /* Create Trade Note (500) (2622) for Shop */
+     , (11404, 4,  4450, -1, 0, 0, False) /* Create Heal Other I (4450) for Shop */
+     , (11404, 4,  4589, -1, 0, 0, False) /* Create Revitalize Other I (4589) for Shop */
+     , (11404, 4,  4593, -1, 0, 0, False) /* Create Mana Boost Other II (4593) for Shop */
+     , (11404, 4,  4602, -1, 0, 0, False) /* Create Endurance Other I (4602) for Shop */
+     , (11404, 4, 27319, -1, 0, 0, False) /* Create Health Tincture (27319) for Shop */
+     , (11404, 4, 27322, -1, 0, 0, False) /* Create Mana Tincture (27322) for Shop */
+     , (11404, 4, 27326, -1, 0, 0, False) /* Create Stamina Tincture (27326) for Shop */;

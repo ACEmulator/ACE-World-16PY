@@ -4,7 +4,7 @@ VALUES ('10894', 'boygrubolthoiincubatorfake-xp', 26) /* Switch */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (10894,   1,        128) /* ItemType - Misc */
      , (10894,  16,         48) /* ItemUseable - ViewedRemote */
-     , (10894,  93,         16) /* PhysicsState - IgnoreCollision */
+     , (10894,  93,         16) /* PhysicsState - IgnoreCollisions */
      , (10894, 119,          1) /* Active */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)

@@ -4,7 +4,7 @@ VALUES ('8636', 'robehoorymattekarknockoff', 2) /* Clothing */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (8636,   1,          2) /* ItemType - Armor */
      , (8636,   3,         67) /* PaletteTemplate - GreenSlime */
-     , (8636,   4,      81664) /* ClothingPriority */
+     , (8636,   4,      81664) /* ClothingPriority - OuterwearUpperLegs, OuterwearLowerLegs, OuterwearChest, OuterwearAbdomen, OuterwearUpperArms, OuterwearLowerArms, Feet */
      , (8636,   5,        300) /* EncumbranceVal */
      , (8636,   8,        340) /* Mass */
      , (8636,   9,      32512) /* ValidLocations - Armor */
@@ -12,7 +12,7 @@ VALUES (8636,   1,          2) /* ItemType - Armor */
      , (8636,  19,          1) /* Value */
      , (8636,  27,          1) /* ArmorType */
      , (8636,  28,         10) /* ArmorLevel */
-     , (8636,  93,       1044) /* PhysicsState */
+     , (8636,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (8636, 150,        103) /* HookPlacement - Hook */
      , (8636, 151,          2) /* HookType - Wall */;
 

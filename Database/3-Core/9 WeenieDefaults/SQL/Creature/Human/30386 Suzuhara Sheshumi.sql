@@ -11,7 +11,7 @@ VALUES (30386,   1,         16) /* ItemType - Creature */
      , (30386,  16,         32) /* ItemUseable - Remote */
      , (30386,  25,         37) /* Level */
      , (30386,  27,          0) /* ArmorType */
-     , (30386,  93,    6292504) /* PhysicsState */
+     , (30386,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (30386,  95,          8) /* RadarBlipColor - Yellow */
      , (30386, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (30386, 134,         16) /* PlayerKillerStatus - RubberGlue */
@@ -175,6 +175,6 @@ VALUES (@parent_id,  0,  12 /* TurnToTarget */, 0, 1, NULL, NULL, NULL, NULL, NU
      , (@parent_id,  1,  10 /* Tell */, 0, 1, NULL, 'This ocean breeze seems to be working. I feel much better now than I did before I arrived.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (30386, 2,   129,  0, 9, 0, False) /* Create Sandals for Wield */
-     , (30386, 2,  5854,  0, 4, 0.6, False) /* Create Suikan Robe for Wield */
-     , (30386, 2,  5901,  0, 8, 0, False) /* Create Kasa for Wield */;
+VALUES (30386, 2,   129,  0, 9, 0, False) /* Create Sandals (129) for Wield */
+     , (30386, 2,  5854,  0, 4, 0.6, False) /* Create Suikan Robe (5854) for Wield */
+     , (30386, 2,  5901,  0, 8, 0, False) /* Create Kasa (5901) for Wield */;

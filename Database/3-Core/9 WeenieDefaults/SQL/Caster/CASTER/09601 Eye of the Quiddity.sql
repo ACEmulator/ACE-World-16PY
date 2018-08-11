@@ -10,8 +10,8 @@ VALUES (9601,   1,      32768) /* ItemType - Caster */
      , (9601,  18,          1) /* UiEffects - Magical */
      , (9601,  19,       2000) /* Value */
      , (9601,  46,        512) /* DefaultCombatStyle - Magic */
-     , (9601,  93,       3092) /* PhysicsState */
-     , (9601,  94,         16) /* TargetType - Creature */
+     , (9601,  93,       3092) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, LightingOn */
+     , (9601,  94,         16) /* TargetType - Reedshark */
      , (9601, 106,        400) /* ItemSpellcraft */
      , (9601, 107,       1000) /* ItemCurMana */
      , (9601, 108,       1000) /* ItemMaxMana */
@@ -19,7 +19,7 @@ VALUES (9601,   1,      32768) /* ItemType - Caster */
      , (9601, 110,          0) /* ItemAllegianceRankLimit */
      , (9601, 115,        200) /* ItemSkillLevelLimit */
      , (9601, 150,        103) /* HookPlacement - Hook */
-     , (9601, 151,          6) /* HookType */;
+     , (9601, 151,          6) /* HookType - Wall, Ceiling */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (9601,  15, True ) /* LightsStatus */

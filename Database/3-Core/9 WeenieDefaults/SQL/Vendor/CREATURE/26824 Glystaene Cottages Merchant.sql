@@ -10,10 +10,10 @@ VALUES (26824,   1,         16) /* ItemType - Creature */
      , (26824,  16,         32) /* ItemUseable - Remote */
      , (26824,  25,         10) /* Level */
      , (26824,  27,          0) /* ArmorType */
-     , (26824,  74,     264192) /* MerchandiseItemTypes */
+     , (26824,  74,     264192) /* MerchandiseItemTypes - Gem, PromissoryNote */
      , (26824,  75,          0) /* MerchandiseMinValue */
      , (26824,  76,    1000000) /* MerchandiseMaxValue */
-     , (26824,  93,    2098204) /* PhysicsState */
+     , (26824,  93,    2098204) /* PhysicsState - Ethereal, ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */
      , (26824, 126,        125) /* VendorHappyMean */
      , (26824, 127,        125) /* VendorHappyVariance */
      , (26824, 133,          4) /* ShowableOnRadar - ShowAlways */
@@ -97,4 +97,4 @@ VALUES (26824,  0,  4,  0,    0,    0,    0,    0,    0,    0,    0,    0,    0,
      , (26824,  8,  4,  2, 0.75,    0,    0,    0,    0,    0,    0,    0,    0,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (26824, 4, 26189, -1, 0, 0, False) /* Create Glystaene Cottages Portal Gem for Shop */;
+VALUES (26824, 4, 26189, -1, 0, 0, False) /* Create Glystaene Cottages Portal Gem (26189) for Shop */;

@@ -11,7 +11,7 @@ VALUES (7183,   1,         16) /* ItemType - Creature */
      , (7183,  25,         61) /* Level */
      , (7183,  40,          2) /* CombatMode - Melee */
      , (7183,  68,         13) /* TargetingTactic */
-     , (7183,  93,       1032) /* PhysicsState */
+     , (7183,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (7183, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (7183, 146,       9148) /* XpOverride */;
 
@@ -69,7 +69,7 @@ VALUES (7183,   1,   33558817) /* Setup */
      , (7183,   7,  268436836) /* ClothingBase */
      , (7183,   8,  100667450) /* Icon */
      , (7183,  22,  872415266) /* PhysicsEffectTable */
-     , (7183,  35,        463) /* DeathTreasureType */;
+     , (7183,  35,        463) /* DeathTreasureType - Loot Tier: 2 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (7183,   1, 120, 0, 0) /* Strength */
@@ -109,7 +109,7 @@ INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
 VALUES (7183, 414) /* PLAYER_DEATH_EVENT */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (7183, 9,     0,  0, 0, 0.92, False) /* Create Unknown for ContainTreasure */
-     , (7183, 9,     0,  0, 0, 0.99, False) /* Create Unknown for ContainTreasure */
-     , (7183, 9,  6876,  0, 0, 0.01, False) /* Create Sturdy Iron Key for ContainTreasure */
-     , (7183, 9,  8426,  0, 0, 0.08, False) /* Create Jungle Phyntos Wasp Wing for ContainTreasure */;
+VALUES (7183, 9,     0,  0, 0, 0.92, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 2 for ContainTreasure */
+     , (7183, 9,     0,  0, 0, 0.99, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 2 for ContainTreasure */
+     , (7183, 9,  6876,  0, 0, 0.01, False) /* Create Sturdy Iron Key (6876) for ContainTreasure */
+     , (7183, 9,  8426,  0, 0, 0.08, False) /* Create Jungle Phyntos Wasp Wing (8426) for ContainTreasure */;

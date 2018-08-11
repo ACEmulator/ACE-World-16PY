@@ -14,7 +14,7 @@ VALUES (24637,   1,         16) /* ItemType - Creature */
      , (24637,  40,          2) /* CombatMode - Melee */
      , (24637,  68,         13) /* TargetingTactic */
      , (24637,  72,         35) /* FriendType - OlthoiLarvae */
-     , (24637,  93,       1032) /* PhysicsState */
+     , (24637,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (24637, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (24637, 140,          1) /* AiOptions */
      , (24637, 146,      58392) /* XpOverride */;
@@ -72,7 +72,7 @@ VALUES (24637,   1,   33557165) /* Setup */
      , (24637,   8,  100667623) /* Icon */
      , (24637,  22,  872415379) /* PhysicsEffectTable */
      , (24637,  30,         85) /* PhysicsScript - BreatheFrost */
-     , (24637,  35,        146) /* DeathTreasureType */;
+     , (24637,  35,        146) /* DeathTreasureType - Loot Tier: 5 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (24637,   1, 380, 0, 0) /* Strength */
@@ -126,6 +126,6 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 268435537 /* Twitch1 */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (24637, 9, 24642,  0, 0, 0.333, False) /* Create Adolescent Brood Matron Tail for ContainTreasure */
-     , (24637, 9, 24644,  0, 0, 0.333, False) /* Create Adolescent Brood Matron Tarsus for ContainTreasure */
-     , (24637, 9, 24646,  0, 0, 0.334, False) /* Create Adolescent Brood Matron Tibia for ContainTreasure */;
+VALUES (24637, 9, 24642,  0, 0, 0.333, False) /* Create Adolescent Brood Matron Tail (24642) for ContainTreasure */
+     , (24637, 9, 24644,  0, 0, 0.333, False) /* Create Adolescent Brood Matron Tarsus (24644) for ContainTreasure */
+     , (24637, 9, 24646,  0, 0, 0.334, False) /* Create Adolescent Brood Matron Tibia (24646) for ContainTreasure */;

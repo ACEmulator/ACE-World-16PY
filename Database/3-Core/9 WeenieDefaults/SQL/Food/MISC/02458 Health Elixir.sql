@@ -16,9 +16,9 @@ VALUES (2458,   1,        128) /* ItemType - Misc */
      , (2458,  19,       1000) /* Value */
      , (2458,  89,          2) /* BoosterEnum - Health */
      , (2458,  90,         65) /* BoostValue */
-     , (2458,  93,       1044) /* PhysicsState */
+     , (2458,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (2458, 150,        103) /* HookPlacement - Hook */
-     , (2458, 151,         11) /* HookType */;
+     , (2458, 151,         11) /* HookType - Floor, Wall, Yard */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (2458,   1, 'Health Elixir') /* Name */

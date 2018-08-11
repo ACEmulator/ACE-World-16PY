@@ -4,8 +4,8 @@ VALUES ('14489', 'portalempyreanfirepropylaeumexit', 7) /* Portal */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (14489,   1,      65536) /* ItemType - Portal */
      , (14489,  16,         32) /* ItemUseable - Remote */
-     , (14489,  93,       3084) /* PhysicsState */
-     , (14489, 111,         49) /* PortalBitmask */
+     , (14489,  93,       3084) /* PhysicsState - Ethereal, ReportCollisions, Gravity, LightingOn */
+     , (14489, 111,         49) /* PortalBitmask - Unrestricted, NoSummon, NoRecall */
      , (14489, 133,          4) /* ShowableOnRadar - ShowAlways */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)

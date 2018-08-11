@@ -4,8 +4,8 @@ VALUES ('25395', 'portalenergycrystalsurface', 7) /* Portal */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (25395,   1,      65536) /* ItemType - Portal */
      , (25395,  16,         32) /* ItemUseable - Remote */
-     , (25395,  93,       3084) /* PhysicsState */
-     , (25395, 111,         49) /* PortalBitmask */
+     , (25395,  93,       3084) /* PhysicsState - Ethereal, ReportCollisions, Gravity, LightingOn */
+     , (25395, 111,         49) /* PortalBitmask - Unrestricted, NoSummon, NoRecall */
      , (25395, 133,          4) /* ShowableOnRadar - ShowAlways */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)

@@ -11,7 +11,7 @@ VALUES (28246,   1,         16) /* ItemType - Creature */
      , (28246,  25,         70) /* Level */
      , (28246,  27,          0) /* ArmorType */
      , (28246,  68,          3) /* TargetingTactic */
-     , (28246,  93,       1032) /* PhysicsState */
+     , (28246,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (28246, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (28246, 140,          1) /* AiOptions */
      , (28246, 146,      15000) /* XpOverride */;
@@ -71,7 +71,7 @@ VALUES (28246,   1,   33558816) /* Setup */
      , (28246,   7,  268436835) /* ClothingBase */
      , (28246,   8,  100676679) /* Icon */
      , (28246,  22,  872415403) /* PhysicsEffectTable */
-     , (28246,  35,        462) /* DeathTreasureType */;
+     , (28246,  35,        462) /* DeathTreasureType - Loot Tier: 3 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (28246,   1, 100, 0, 0) /* Strength */
@@ -174,5 +174,5 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 268435539 /* Twitch3 */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (28246, 9,     0,  0, 0, 0.98, False) /* Create Unknown for ContainTreasure */
-     , (28246, 9,  6876,  0, 0, 0.02, False) /* Create Sturdy Iron Key for ContainTreasure */;
+VALUES (28246, 9,     0,  0, 0, 0.98, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 3 for ContainTreasure */
+     , (28246, 9,  6876,  0, 0, 0.02, False) /* Create Sturdy Iron Key (6876) for ContainTreasure */;

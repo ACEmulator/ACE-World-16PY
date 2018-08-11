@@ -7,7 +7,7 @@ VALUES (4414,   1,        128) /* ItemType - Misc */
      , (4414,   8,       1800) /* Mass */
      , (4414,  16,          1) /* ItemUseable - No */
      , (4414,  19,        125) /* Value */
-     , (4414,  93,       1048) /* PhysicsState */;
+     , (4414,  93,       1048) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (4414,   1, True ) /* Stuck */

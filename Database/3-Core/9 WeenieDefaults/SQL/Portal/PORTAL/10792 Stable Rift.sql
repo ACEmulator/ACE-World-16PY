@@ -7,7 +7,7 @@ VALUES (10792,   1,      65536) /* ItemType - Portal */
      , (10792,  81,          2) /* MaxGeneratedObjects */
      , (10792,  82,          2) /* InitGeneratedObjects */
      , (10792,  86,         20) /* MinLevel */
-     , (10792,  93,       3084) /* PhysicsState */
+     , (10792,  93,       3084) /* PhysicsState - Ethereal, ReportCollisions, Gravity, LightingOn */
      , (10792, 103,          3) /* GeneratorDestructionType - Kill */
      , (10792, 111,          1) /* PortalBitmask - Unrestricted */
      , (10792, 133,          4) /* ShowableOnRadar - ShowAlways */;
@@ -37,5 +37,5 @@ INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cel
 VALUES (10792, 2, 42992329, 50, 0, 0, -0.5000001, 0, 0, -0.8660254) /* Destination */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (10792, 0.5, 10801, 20, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0)
-     , (10792, 1, 10799, 20, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0);
+VALUES (10792, 0.5, 10801, 20, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Shallow Rift (10801) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Scatter */
+     , (10792, 1, 10799, 20, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Narrow Rift (10799) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Scatter */;

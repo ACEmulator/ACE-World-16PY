@@ -10,10 +10,10 @@ VALUES (26736,   1,         16) /* ItemType - Creature */
      , (26736,  16,         32) /* ItemUseable - Remote */
      , (26736,  25,         10) /* Level */
      , (26736,  27,          0) /* ArmorType */
-     , (26736,  74,     264192) /* MerchandiseItemTypes */
+     , (26736,  74,     264192) /* MerchandiseItemTypes - Gem, PromissoryNote */
      , (26736,  75,          0) /* MerchandiseMinValue */
      , (26736,  76,    1000000) /* MerchandiseMaxValue */
-     , (26736,  93,    2098204) /* PhysicsState */
+     , (26736,  93,    2098204) /* PhysicsState - Ethereal, ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */
      , (26736, 126,        125) /* VendorHappyMean */
      , (26736, 127,        125) /* VendorHappyVariance */
      , (26736, 133,          4) /* ShowableOnRadar - ShowAlways */
@@ -97,4 +97,4 @@ VALUES (26736,  0,  4,  0,    0,    0,    0,    0,    0,    0,    0,    0,    0,
      , (26736,  8,  4,  2, 0.75,    0,    0,    0,    0,    0,    0,    0,    0,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (26736, 4, 26101, -1, 0, 0, False) /* Create Brazenn Domain Portal Gem for Shop */;
+VALUES (26736, 4, 26101, -1, 0, 0, False) /* Create Brazenn Domain Portal Gem (26101) for Shop */;

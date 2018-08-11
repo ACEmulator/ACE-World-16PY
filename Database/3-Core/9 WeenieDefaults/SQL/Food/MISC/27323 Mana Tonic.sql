@@ -16,9 +16,9 @@ VALUES (27323,   1,        128) /* ItemType - Misc */
      , (27323,  19,       2000) /* Value */
      , (27323,  89,          6) /* BoosterEnum - Mana */
      , (27323,  90,         85) /* BoostValue */
-     , (27323,  93,       1044) /* PhysicsState */
+     , (27323,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (27323, 150,        103) /* HookPlacement - Hook */
-     , (27323, 151,         11) /* HookType */;
+     , (27323, 151,         11) /* HookType - Floor, Wall, Yard */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (27323,   1, 'Mana Tonic') /* Name */

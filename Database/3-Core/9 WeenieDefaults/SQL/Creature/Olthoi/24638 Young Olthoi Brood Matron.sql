@@ -14,7 +14,7 @@ VALUES (24638,   1,         16) /* ItemType - Creature */
      , (24638,  40,          2) /* CombatMode - Melee */
      , (24638,  68,         13) /* TargetingTactic */
      , (24638,  72,         35) /* FriendType - OlthoiLarvae */
-     , (24638,  93,       1032) /* PhysicsState */
+     , (24638,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (24638, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (24638, 140,          1) /* AiOptions */
      , (24638, 146,      39881) /* XpOverride */;
@@ -72,7 +72,7 @@ VALUES (24638,   1,   33557165) /* Setup */
      , (24638,   8,  100667623) /* Icon */
      , (24638,  22,  872415379) /* PhysicsEffectTable */
      , (24638,  30,         85) /* PhysicsScript - BreatheFrost */
-     , (24638,  35,        146) /* DeathTreasureType */;
+     , (24638,  35,        146) /* DeathTreasureType - Loot Tier: 5 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (24638,   1, 380, 0, 0) /* Strength */
@@ -126,6 +126,6 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 268435537 /* Twitch1 */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (24638, 9, 24643,  0, 0, 0.334, False) /* Create Young Brood Matron Tail for ContainTreasure */
-     , (24638, 9, 24645,  0, 0, 0.333, False) /* Create Young Brood Matron Tarsus for ContainTreasure */
-     , (24638, 9, 24647,  0, 0, 0.333, False) /* Create Young Brood Matron Tibia for ContainTreasure */;
+VALUES (24638, 9, 24643,  0, 0, 0.334, False) /* Create Young Brood Matron Tail (24643) for ContainTreasure */
+     , (24638, 9, 24645,  0, 0, 0.333, False) /* Create Young Brood Matron Tarsus (24645) for ContainTreasure */
+     , (24638, 9, 24647,  0, 0, 0.333, False) /* Create Young Brood Matron Tibia (24647) for ContainTreasure */;

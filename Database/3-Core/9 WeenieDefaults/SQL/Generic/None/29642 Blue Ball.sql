@@ -9,7 +9,7 @@ VALUES (29642,   3,          2) /* PaletteTemplate - Blue */
      , (29642,  16,          1) /* ItemUseable - No */
      , (29642,  19,          0) /* Value */
      , (29642,  33,          1) /* Bonded - Bonded */
-     , (29642,  93,       1044) /* PhysicsState */
+     , (29642,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (29642, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)

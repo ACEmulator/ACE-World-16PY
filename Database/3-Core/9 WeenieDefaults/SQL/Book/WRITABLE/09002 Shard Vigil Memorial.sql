@@ -7,7 +7,7 @@ VALUES (9002,   1,       8192) /* ItemType - Writable */
      , (9002,   8,      10000) /* Mass */
      , (9002,  16,         48) /* ItemUseable - ViewedRemote */
      , (9002,  19,          0) /* Value */
-     , (9002,  93,       1048) /* PhysicsState */
+     , (9002,  93,       1048) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity */
      , (9002,  95,          8) /* RadarBlipColor - Yellow */
      , (9002, 133,          4) /* ShowableOnRadar - ShowAlways */;
 

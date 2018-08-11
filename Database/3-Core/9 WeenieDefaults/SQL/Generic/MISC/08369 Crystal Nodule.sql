@@ -9,10 +9,10 @@ VALUES (8369,   1,        128) /* ItemType - Misc */
      , (8369,  16,          1) /* ItemUseable - No */
      , (8369,  18,          1) /* UiEffects - Magical */
      , (8369,  19,          5) /* Value */
-     , (8369,  93,       3092) /* PhysicsState */
+     , (8369,  93,       3092) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, LightingOn */
      , (8369, 110,          0) /* ItemAllegianceRankLimit */
      , (8369, 150,        103) /* HookPlacement - Hook */
-     , (8369, 151,         11) /* HookType */;
+     , (8369, 151,         11) /* HookType - Floor, Wall, Yard */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (8369,  15, True ) /* LightsStatus */

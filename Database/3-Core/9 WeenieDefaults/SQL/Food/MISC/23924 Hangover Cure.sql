@@ -16,9 +16,9 @@ VALUES (23924,   1,        128) /* ItemType - Misc */
      , (23924,  19,       1000) /* Value */
      , (23924,  89,          2) /* BoosterEnum - Health */
      , (23924,  90,         65) /* BoostValue */
-     , (23924,  93,       1044) /* PhysicsState */
+     , (23924,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (23924, 150,        103) /* HookPlacement - Hook */
-     , (23924, 151,         11) /* HookType */;
+     , (23924, 151,         11) /* HookType - Floor, Wall, Yard */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (23924,   1, 'Hangover Cure') /* Name */

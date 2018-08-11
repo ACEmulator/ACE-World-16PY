@@ -14,7 +14,7 @@ VALUES (28776,   1,        512) /* ItemType - Container */
      , (28776,  81,          1) /* MaxGeneratedObjects */
      , (28776,  82,          1) /* InitGeneratedObjects */
      , (28776,  83,          2) /* ActivationResponse - Use */
-     , (28776,  93,       1048) /* PhysicsState */
+     , (28776,  93,       1048) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity */
      , (28776,  96,       5000) /* EncumbranceCapacity */
      , (28776, 100,          1) /* GeneratorType - Relative */;
 
@@ -48,4 +48,4 @@ VALUES (28776,   1,   33554556) /* Setup */
      , (28776,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (28776, -1, 27904, 0, 1, 1, 2, 8, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0);
+VALUES (28776, -1, 27904, 0, 1, 1, 2, 8, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Spear of Kreerg (27904) (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: Contain */;

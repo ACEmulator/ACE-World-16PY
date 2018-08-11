@@ -14,8 +14,8 @@ VALUES (22030,   1,        128) /* ItemType - Misc */
      , (22030,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
      , (22030,  19,          0) /* Value */
      , (22030,  33,          0) /* Bonded - Normal */
-     , (22030,  93,       1044) /* PhysicsState */
-     , (22030,  94,        128) /* TargetType - Misc */
+     , (22030,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (22030,  94,        128) /* TargetType - 128 */
      , (22030, 114,          0) /* Attuned - Normal */
      , (22030, 150,        103) /* HookPlacement - Hook */
      , (22030, 151,          2) /* HookType - Wall */;

@@ -12,8 +12,8 @@ VALUES (19282,   1,         16) /* ItemType - Creature */
      , (19282,  27,          0) /* ArmorType */
      , (19282,  40,          1) /* CombatMode - NonCombat */
      , (19282,  68,         13) /* TargetingTactic */
-     , (19282,  93,       1032) /* PhysicsState */
-     , (19282, 101,        183) /* AiAllowedCombatStyle */
+     , (19282,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
+     , (19282, 101,        183) /* AiAllowedCombatStyle - Unarmed, OneHanded, OneHandedAndShield, Bow, Crossbow, ThrownWeapon */
      , (19282, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (19282, 140,          1) /* AiOptions */
      , (19282, 146,      15000) /* XpOverride */;
@@ -72,8 +72,17 @@ VALUES (19282,   1,   33554521) /* Setup */
      , (19282,   7,  268435646) /* ClothingBase */
      , (19282,   8,  100669124) /* Icon */
      , (19282,  22,  872415349) /* PhysicsEffectTable */
-     , (19282,  32,        400) /* WieldedTreasureType */
-     , (19282,  35,        406) /* DeathTreasureType */;
+     , (19282,  32,        400) /* WieldedTreasureType - 
+                                   Wield Bronze Heavy Crossbow (15875) | Probability: 67%
+                                   Wield 20x Greater Acid Quarrel (5314) | Probability: 16%
+                                   Wield 20x Greater Lightning Quarrel (5316) | Probability: 16%
+                                   Wield 20x Greater Fire Quarrel (5317) | Probability: 17%
+                                   Wield 20x Greater Frost Quarrel (5315) | Probability: 17%
+                                   Wield 20x Greater Armor Piercing Quarrel (5318) | Probability: 17%
+                                   Wield 20x Frog Crotch Quarrel (3605) | Probability: 17%
+                                   Wield Bronze Cestus (15874) | Probability: 50%
+                                   Wield Bronze Battle Axe (15871) | Probability: 50% */
+     , (19282,  35,        406) /* DeathTreasureType - Loot Tier: 4 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (19282,   1, 220, 0, 0) /* Strength */
@@ -142,5 +151,5 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 1090519060 /* Sleeping */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (19282, 9,     0,  0, 0, 0.95, False) /* Create Unknown for ContainTreasure */
-     , (19282, 9, 19254,  0, 0, 0.05, False) /* Create Bronze Spring from a Statue for ContainTreasure */;
+VALUES (19282, 9,     0,  0, 0, 0.95, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 4 for ContainTreasure */
+     , (19282, 9, 19254,  0, 0, 0.05, False) /* Create Bronze Spring from a Statue (19254) for ContainTreasure */;

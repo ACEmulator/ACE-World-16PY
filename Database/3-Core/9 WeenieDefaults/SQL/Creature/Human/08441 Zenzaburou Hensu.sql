@@ -11,7 +11,7 @@ VALUES (8441,   1,         16) /* ItemType - Creature */
      , (8441,  16,         32) /* ItemUseable - Remote */
      , (8441,  25,         61) /* Level */
      , (8441,  27,          0) /* ArmorType */
-     , (8441,  93,    6292504) /* PhysicsState */
+     , (8441,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (8441,  95,          8) /* RadarBlipColor - Yellow */
      , (8441, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (8441, 134,         16) /* PlayerKillerStatus - RubberGlue */
@@ -212,6 +212,6 @@ VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 1090519043 /* Ready */, NULL, NU
      , (@parent_id,  3,  10 /* Tell */, 1, 1, NULL, 'There are dark secrets in the heart of the jungle.  Consider yourself forewarned.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (8441, 2,   133,  0, 14, 0.68, False) /* Create Slippers for Wield */
-     , (8441, 2,  2587,  0, 14, 1, False) /* Create Shirt for Wield */
-     , (8441, 2,  2601,  0, 9, 0, False) /* Create Pants for Wield */;
+VALUES (8441, 2,   133,  0, 14, 0.68, False) /* Create Slippers (133) for Wield */
+     , (8441, 2,  2587,  0, 14, 1, False) /* Create Shirt (2587) for Wield */
+     , (8441, 2,  2601,  0, 9, 0, False) /* Create Pants (2601) for Wield */;

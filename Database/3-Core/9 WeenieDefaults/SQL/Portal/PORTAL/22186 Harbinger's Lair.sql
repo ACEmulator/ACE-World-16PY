@@ -4,8 +4,8 @@ VALUES ('22186', 'portalharbingerrepeat', 7) /* Portal */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (22186,   1,      65536) /* ItemType - Portal */
      , (22186,  16,         32) /* ItemUseable - Remote */
-     , (22186,  93,       3084) /* PhysicsState */
-     , (22186, 111,         49) /* PortalBitmask */
+     , (22186,  93,       3084) /* PhysicsState - Ethereal, ReportCollisions, Gravity, LightingOn */
+     , (22186, 111,         49) /* PortalBitmask - Unrestricted, NoSummon, NoRecall */
      , (22186, 133,          4) /* ShowableOnRadar - ShowAlways */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)

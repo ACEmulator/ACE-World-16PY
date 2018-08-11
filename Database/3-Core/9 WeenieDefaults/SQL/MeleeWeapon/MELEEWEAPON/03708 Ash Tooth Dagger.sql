@@ -12,11 +12,11 @@ VALUES (3708,   1,          1) /* ItemType - MeleeWeapon */
      , (3708,  44,         12) /* Damage */
      , (3708,  45,         64) /* DamageType - Electric */
      , (3708,  46,          2) /* DefaultCombatStyle - OneHanded */
-     , (3708,  47,          6) /* AttackType */
+     , (3708,  47,          6) /* AttackType - Thrust, Slash */
      , (3708,  48,          4) /* WeaponSkill - Dagger */
      , (3708,  49,         10) /* WeaponTime */
      , (3708,  51,          1) /* CombatUse - Melee */
-     , (3708,  93,       1044) /* PhysicsState */
+     , (3708,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (3708, 150,        103) /* HookPlacement - Hook */
      , (3708, 151,          2) /* HookType - Wall */;
 

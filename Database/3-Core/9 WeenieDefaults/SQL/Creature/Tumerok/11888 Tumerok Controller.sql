@@ -11,8 +11,8 @@ VALUES (11888,   1,         16) /* ItemType - Creature */
      , (11888,  25,         53) /* Level */
      , (11888,  27,          0) /* ArmorType */
      , (11888,  68,          3) /* TargetingTactic */
-     , (11888,  93,       1032) /* PhysicsState */
-     , (11888, 101,        183) /* AiAllowedCombatStyle */
+     , (11888,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
+     , (11888, 101,        183) /* AiAllowedCombatStyle - Unarmed, OneHanded, OneHandedAndShield, Bow, Crossbow, ThrownWeapon */
      , (11888, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (11888, 140,          1) /* AiOptions */
      , (11888, 146,       8793) /* XpOverride */;
@@ -71,8 +71,10 @@ VALUES (11888,   1,   33554496) /* Setup */
      , (11888,   7,  268435647) /* ClothingBase */
      , (11888,   8,  100667452) /* Icon */
      , (11888,  22,  872415270) /* PhysicsEffectTable */
-     , (11888,  32,        369) /* WieldedTreasureType */
-     , (11888,  35,        451) /* DeathTreasureType */;
+     , (11888,  32,        369) /* WieldedTreasureType - 
+                                   Wield Hafted Reedshark Spear (11754) | Probability: 80%
+                                   Wield Reinforced Reedshark Spear (11780) | Probability: 20% */
+     , (11888,  35,        451) /* DeathTreasureType - Loot Tier: 2 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (11888,   1, 170, 0, 0) /* Strength */
@@ -144,5 +146,5 @@ VALUES (11888,  94) /* ATTACK_NOTIFICATION_EVENT */
      , (11888, 414) /* PLAYER_DEATH_EVENT */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (11888, 9,     0,  0, 0, 0.95, False) /* Create Unknown for ContainTreasure */
-     , (11888, 9, 11815,  0, 0, 0.05, False) /* Create Reedshark Crest for ContainTreasure */;
+VALUES (11888, 9,     0,  0, 0, 0.95, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 2 for ContainTreasure */
+     , (11888, 9, 11815,  0, 0, 0.05, False) /* Create Reedshark Crest (11815) for ContainTreasure */;

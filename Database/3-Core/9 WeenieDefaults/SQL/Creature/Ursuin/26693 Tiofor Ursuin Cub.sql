@@ -13,8 +13,8 @@ VALUES (26693,   1,         16) /* ItemType - Creature */
      , (26693,  40,          2) /* CombatMode - Melee */
      , (26693,  67,         64) /* Tolerance */
      , (26693,  68,          9) /* TargetingTactic */
-     , (26693,  93,       1032) /* PhysicsState */
-     , (26693, 101,        131) /* AiAllowedCombatStyle */
+     , (26693,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
+     , (26693, 101,        131) /* AiAllowedCombatStyle - Unarmed, OneHanded, ThrownWeapon */
      , (26693, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (26693, 140,          1) /* AiOptions */
      , (26693, 146,       1158) /* XpOverride */;
@@ -70,7 +70,7 @@ VALUES (26693,   1,   33556773) /* Setup */
      , (26693,   7,  268436040) /* ClothingBase */
      , (26693,   8,  100670959) /* Icon */
      , (26693,  22,  872415366) /* PhysicsEffectTable */
-     , (26693,  35,        459) /* DeathTreasureType */;
+     , (26693,  35,        459) /* DeathTreasureType - Loot Tier: 1 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (26693,   1, 135, 0, 0) /* Strength */
@@ -134,5 +134,5 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 268435537 /* Twitch1 */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (26693, 9,     0,  0, 0, 0.99, False) /* Create Unknown for ContainTreasure */
-     , (26693, 9, 27249,  0, 0, 0.01, False) /* Create Spring Cleaner Title Token for ContainTreasure */;
+VALUES (26693, 9,     0,  0, 0, 0.99, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 1 for ContainTreasure */
+     , (26693, 9, 27249,  0, 0, 0.01, False) /* Create Spring Cleaner Title Token (27249) for ContainTreasure */;

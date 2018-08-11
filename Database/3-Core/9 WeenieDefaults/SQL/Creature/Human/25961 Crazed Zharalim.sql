@@ -11,8 +11,8 @@ VALUES (25961,   1,         16) /* ItemType - Creature */
      , (25961,  25,         79) /* Level */
      , (25961,  27,          0) /* ArmorType */
      , (25961,  68,         13) /* TargetingTactic */
-     , (25961,  93,       1032) /* PhysicsState */
-     , (25961, 101,        131) /* AiAllowedCombatStyle */
+     , (25961,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
+     , (25961, 101,        131) /* AiAllowedCombatStyle - Unarmed, OneHanded, ThrownWeapon */
      , (25961, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (25961, 146,      17932) /* XpOverride */;
 
@@ -67,8 +67,12 @@ VALUES (25961,   1,   33554433) /* Setup */
      , (25961,   4,  805306368) /* CombatTable */
      , (25961,   8,  100667446) /* Icon */
      , (25961,  22,  872415236) /* PhysicsEffectTable */
-     , (25961,  32,        222) /* WieldedTreasureType */
-     , (25961,  35,        450) /* DeathTreasureType */;
+     , (25961,  32,        222) /* WieldedTreasureType - 
+                                   Wield Yumi (23736) | Probability: 50%
+                                   Wield 20x Greater Arrow (5304) | Probability: 100%
+                                   Wield Heavy Crossbow (23667) | Probability: 50%
+                                   Wield 16x Greater Quarrel (5313) | Probability: 100% */
+     , (25961,  35,        450) /* DeathTreasureType - Loot Tier: 3 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (25961,   1, 200, 0, 0) /* Strength */
@@ -122,7 +126,7 @@ VALUES (25961,  94) /* ATTACK_NOTIFICATION_EVENT */
      , (25961, 414) /* PLAYER_DEATH_EVENT */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (25961, 9,     0,  0, 0, 0.98, False) /* Create Unknown for ContainTreasure */
-     , (25961, 9,  6876,  0, 0, 0.02, False) /* Create Sturdy Iron Key for ContainTreasure */
-     , (25961, 2, 12192,  0, 0, 1, False) /* Create Shadow's Garb for Wield */
-     , (25961, 2, 12193,  0, 14, 0, False) /* Create Dho Vest and Robe for Wield */;
+VALUES (25961, 9,     0,  0, 0, 0.98, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 3 for ContainTreasure */
+     , (25961, 9,  6876,  0, 0, 0.02, False) /* Create Sturdy Iron Key (6876) for ContainTreasure */
+     , (25961, 2, 12192,  0, 0, 1, False) /* Create Shadow's Garb (12192) for Wield */
+     , (25961, 2, 12193,  0, 14, 0, False) /* Create Dho Vest and Robe (12193) for Wield */;

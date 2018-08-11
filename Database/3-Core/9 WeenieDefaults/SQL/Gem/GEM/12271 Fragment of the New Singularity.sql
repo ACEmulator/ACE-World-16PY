@@ -13,9 +13,9 @@ VALUES (12271,   1,       2048) /* ItemType - Gem */
      , (12271,  15,          0) /* StackUnitValue */
      , (12271,  16,          1) /* ItemUseable - No */
      , (12271,  19,          0) /* Value */
-     , (12271,  93,       1044) /* PhysicsState */
+     , (12271,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (12271, 150,        103) /* HookPlacement - Hook */
-     , (12271, 151,          9) /* HookType */;
+     , (12271, 151,          9) /* HookType - Floor, Yard */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (12271,  22, True ) /* Inscribable */

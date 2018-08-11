@@ -11,7 +11,7 @@ VALUES (1211,   1,        512) /* ItemType - Container */
      , (1211,  19,          0) /* Value */
      , (1211,  81,          1) /* MaxGeneratedObjects */
      , (1211,  82,          1) /* InitGeneratedObjects */
-     , (1211,  93,       1048) /* PhysicsState */
+     , (1211,  93,       1048) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity */
      , (1211,  96,        500) /* EncumbranceCapacity */
      , (1211, 100,          1) /* GeneratorType - Relative */;
 
@@ -39,4 +39,4 @@ VALUES (1211,   1,   33556552) /* Setup */
      , (1211,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (1211, -1, 6843, 0, 1, 1, 2, 8, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0);
+VALUES (1211, -1, 6843, 0, 1, 1, 2, 8, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Mysterious Note (6843) (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: Contain */;

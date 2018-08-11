@@ -10,10 +10,10 @@ VALUES (26747,   1,         16) /* ItemType - Creature */
      , (26747,  16,         32) /* ItemUseable - Remote */
      , (26747,  25,         10) /* Level */
      , (26747,  27,          0) /* ArmorType */
-     , (26747,  74,     264192) /* MerchandiseItemTypes */
+     , (26747,  74,     264192) /* MerchandiseItemTypes - Gem, PromissoryNote */
      , (26747,  75,          0) /* MerchandiseMinValue */
      , (26747,  76,    1000000) /* MerchandiseMaxValue */
-     , (26747,  93,    2098204) /* PhysicsState */
+     , (26747,  93,    2098204) /* PhysicsState - Ethereal, ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */
      , (26747, 126,        125) /* VendorHappyMean */
      , (26747, 127,        125) /* VendorHappyVariance */
      , (26747, 133,          4) /* ShowableOnRadar - ShowAlways */
@@ -97,4 +97,4 @@ VALUES (26747,  0,  4,  0,    0,    0,    0,    0,    0,    0,    0,    0,    0,
      , (26747,  8,  4,  2, 0.75,    0,    0,    0,    0,    0,    0,    0,    0,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (26747, 4, 26112, -1, 0, 0, False) /* Create Cape Feirgard Cottages Portal Gem for Shop */;
+VALUES (26747, 4, 26112, -1, 0, 0, False) /* Create Cape Feirgard Cottages Portal Gem (26112) for Shop */;

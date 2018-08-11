@@ -11,7 +11,7 @@ VALUES (14429,   1,         16) /* ItemType - Creature */
      , (14429,  27,          0) /* ArmorType */
      , (14429,  68,          9) /* TargetingTactic */
      , (14429,  72,         59) /* FriendType - Simulacrum */
-     , (14429,  93,       1032) /* PhysicsState */
+     , (14429,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (14429, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (14429, 140,          1) /* AiOptions */
      , (14429, 146,       1860) /* XpOverride */;
@@ -65,7 +65,7 @@ VALUES (14429,   1,   33556792) /* Setup */
      , (14429,   4,  805306413) /* CombatTable */
      , (14429,   8,  100671140) /* Icon */
      , (14429,  22,  872415367) /* PhysicsEffectTable */
-     , (14429,  35,         86) /* DeathTreasureType */;
+     , (14429,  35,         86) /* DeathTreasureType - Loot Tier: 3 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (14429,   1, 160, 0, 0) /* Strength */
@@ -122,5 +122,5 @@ VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 1090519043 /* Ready */, NULL, NU
      , (@parent_id,  1,   5 /* Motion */, 0, 1, 1090519060 /* Sleeping */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (14429, 9, 14437,  0, 0, 1, False) /* Create Storage Key for ContainTreasure */
-     , (14429, 9, 14447,  0, 0, 1, False) /* Create An Unsigned Message for ContainTreasure */;
+VALUES (14429, 9, 14437,  0, 0, 1, False) /* Create Storage Key (14437) for ContainTreasure */
+     , (14429, 9, 14447,  0, 0, 1, False) /* Create An Unsigned Message (14447) for ContainTreasure */;

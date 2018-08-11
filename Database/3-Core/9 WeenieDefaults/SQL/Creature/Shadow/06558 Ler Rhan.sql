@@ -14,8 +14,8 @@ VALUES (6558,   1,         16) /* ItemType - Creature */
      , (6558,  68,          3) /* TargetingTactic */
      , (6558,  81,          3) /* MaxGeneratedObjects */
      , (6558,  82,          1) /* InitGeneratedObjects */
-     , (6558,  93,    4195336) /* PhysicsState */
-     , (6558, 101,        183) /* AiAllowedCombatStyle */
+     , (6558,  93,    4195336) /* PhysicsState - ReportCollisions, Gravity, EdgeSlide */
+     , (6558, 101,        183) /* AiAllowedCombatStyle - Unarmed, OneHanded, OneHandedAndShield, Bow, Crossbow, ThrownWeapon */
      , (6558, 103,          3) /* GeneratorDestructionType - Kill */
      , (6558, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (6558, 140,          1) /* AiOptions */
@@ -80,8 +80,22 @@ VALUES (6558,   1,   33556558) /* Setup */
      , (6558,   7,  268435991) /* ClothingBase */
      , (6558,   8,  100670397) /* Icon */
      , (6558,  22,  872415331) /* PhysicsEffectTable */
-     , (6558,  32,        175) /* WieldedTreasureType */
-     , (6558,  35,        253) /* DeathTreasureType */;
+     , (6558,  32,        175) /* WieldedTreasureType - 
+                                   Wield Yumi (23735) | Probability: 20%
+                                   Wield 14x Fire Arrow (1437) | Probability: 100%
+                                   Wield Yumi (23735) | Probability: 20%
+                                   Wield 14x Arrow (300) | Probability: 100%
+                                   Wield Katar (23675) | Probability: 10%
+                                   Wield Kite Shield (23685) | Probability: 100%
+                                   Wield Nekode (23681) | Probability: 10%
+                                   Wield Kite Shield (23685) | Probability: 100%
+                                   Wield Cestus (23638) | Probability: 10%
+                                   Wield Kite Shield (23685) | Probability: 100%
+                                   Wield Tachi (23701) | Probability: 35%
+                                   Wield Kite Shield (23685) | Probability: 100%
+                                   Wield Fire Yaoji (23719) | Probability: 35%
+                                   Wield Kite Shield (23685) | Probability: 100% */
+     , (6558,  35,        253) /* DeathTreasureType - Loot Tier: 3 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (6558,   1, 110, 0, 0) /* Strength */
@@ -162,8 +176,8 @@ VALUES (@parent_id,  0,  16 /* WorldBroadcast */, 0, 1, NULL, 'The wind brings o
      , (@parent_id,  1,  17 /* LocalBroadcast */, 0, 0, NULL, 'Ler Rhan collapses, but hisses in amusement as he falls: "So, you have defeated me, %s. Well played. Yet, I have the aid of Black Ferah, who will now take up the forces in the northern Direlands!"', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (6558, 9,     0,  0, 0, 0.99, False) /* Create Unknown for ContainTreasure */
-     , (6558, 9,  6059,  0, 0, 0.01, False) /* Create Dark Sliver for ContainTreasure */;
+VALUES (6558, 9,     0,  0, 0, 0.99, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 3 for ContainTreasure */
+     , (6558, 9,  6059,  0, 0, 0.01, False) /* Create Dark Sliver (6059) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (6558, 1, 1756, 20, 1, 2, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0);
+VALUES (6558, 1, 1756, 20, 1, 2, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Shadow Child (1756) (x1 up to max of 2) - Regenerate upon Destruction - Location to (re)Generate: Scatter */;

@@ -11,7 +11,7 @@ VALUES (9198,   1,         16) /* ItemType - Creature */
      , (9198,  25,         85) /* Level */
      , (9198,  27,          0) /* ArmorType */
      , (9198,  68,          3) /* TargetingTactic */
-     , (9198,  93,       1032) /* PhysicsState */
+     , (9198,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (9198, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (9198, 140,          1) /* AiOptions */
      , (9198, 146,      14000) /* XpOverride */;
@@ -69,7 +69,7 @@ VALUES (9198,   1,   33554497) /* Setup */
      , (9198,   7,  268435649) /* ClothingBase */
      , (9198,   8,  100667943) /* Icon */
      , (9198,  22,  872415273) /* PhysicsEffectTable */
-     , (9198,  35,        243) /* DeathTreasureType */;
+     , (9198,  35,        243) /* DeathTreasureType - Loot Tier: 4 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (9198,   1,  40, 0, 0) /* Strength */
@@ -197,9 +197,9 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 268435539 /* Twitch3 */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (9198, 9,     0,  0, 0, 0.95, False) /* Create Unknown for ContainTreasure */
-     , (9198, 9,     0,  0, 0, 0.9, False) /* Create Unknown for ContainTreasure */
-     , (9198, 9,     0,  0, 0, 0, False) /* Create Unknown for ContainTreasure */
-     , (9198, 9,  3698,  0, 0, 0.05, False) /* Create White Jewel for ContainTreasure */
-     , (9198, 9,  8154,  0, 0, 0.1, False) /* Create Broken Virindi Mask for ContainTreasure */
-     , (9198, 8,  9197,  1, 0, 1, False) /* Create Orb of Clarity for Treasure */;
+VALUES (9198, 9,     0,  0, 0, 0.95, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 4 for ContainTreasure */
+     , (9198, 9,     0,  0, 0, 0.9, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 4 for ContainTreasure */
+     , (9198, 9,     0,  0, 0, 0, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 4 for ContainTreasure */
+     , (9198, 9,  3698,  0, 0, 0.05, False) /* Create White Jewel (3698) for ContainTreasure */
+     , (9198, 9,  8154,  0, 0, 0.1, False) /* Create Broken Virindi Mask (8154) for ContainTreasure */
+     , (9198, 8,  9197,  1, 0, 1, False) /* Create Orb of Clarity (9197) for Treasure */;

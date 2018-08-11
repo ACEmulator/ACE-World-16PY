@@ -10,10 +10,10 @@ VALUES (2260,   1,         16) /* ItemType - Creature */
      , (2260,  16,         32) /* ItemUseable - Remote */
      , (2260,  25,          8) /* Level */
      , (2260,  27,          0) /* ArmorType */
-     , (2260,  74,     262148) /* MerchandiseItemTypes */
+     , (2260,  74,     262148) /* MerchandiseItemTypes - Clothing, PromissoryNote */
      , (2260,  75,          0) /* MerchandiseMinValue */
      , (2260,  76,     100000) /* MerchandiseMaxValue */
-     , (2260,  93,    2098200) /* PhysicsState */
+     , (2260,  93,    2098200) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */
      , (2260, 126,        500) /* VendorHappyMean */
      , (2260, 127,        500) /* VendorHappyVariance */
      , (2260, 133,          4) /* ShowableOnRadar - ShowAlways */
@@ -163,15 +163,15 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 318767235 /* Nod */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (2260, 2,   115,  0, 9, 1, False) /* Create Leather Boots for Wield */
-     , (2260, 2,   118,  0, 16, 1, False) /* Create Cap for Wield */
-     , (2260, 4,   118, -1, 18, 0, False) /* Create Cap for Shop */
-     , (2260, 2,   127,  0, 9, 1, False) /* Create Pants for Wield */
-     , (2260, 2,   130,  0, 18, 1, False) /* Create Shirt for Wield */
-     , (2260, 4,   132, -1, 9, 0.1, False) /* Create Shoes for Shop */
-     , (2260, 4,  2590, -1, 16, 0, False) /* Create Shirt for Shop */
-     , (2260, 4,  2597, -1, 4, 0, False) /* Create Pants for Shop */
-     , (2260, 4,  5854, -1, 0, 0, False) /* Create Suikan Robe for Shop */
-     , (2260, 4,  5901, -1, 0, 0, False) /* Create Kasa for Shop */
-     , (2260, 4,  8372, -1, 61, 1, False) /* Create Yifan Dress for Shop */
-     , (2260, 2, 10696,  0, 18, 1, False) /* Create Apron for Wield */;
+VALUES (2260, 2,   115,  0, 9, 1, False) /* Create Leather Boots (115) for Wield */
+     , (2260, 2,   118,  0, 16, 1, False) /* Create Cap (118) for Wield */
+     , (2260, 4,   118, -1, 18, 0, False) /* Create Cap (118) for Shop */
+     , (2260, 2,   127,  0, 9, 1, False) /* Create Pants (127) for Wield */
+     , (2260, 2,   130,  0, 18, 1, False) /* Create Shirt (130) for Wield */
+     , (2260, 4,   132, -1, 9, 0.1, False) /* Create Shoes (132) for Shop */
+     , (2260, 4,  2590, -1, 16, 0, False) /* Create Shirt (2590) for Shop */
+     , (2260, 4,  2597, -1, 4, 0, False) /* Create Pants (2597) for Shop */
+     , (2260, 4,  5854, -1, 0, 0, False) /* Create Suikan Robe (5854) for Shop */
+     , (2260, 4,  5901, -1, 0, 0, False) /* Create Kasa (5901) for Shop */
+     , (2260, 4,  8372, -1, 61, 1, False) /* Create Yifan Dress (8372) for Shop */
+     , (2260, 2, 10696,  0, 18, 1, False) /* Create Apron (10696) for Wield */;

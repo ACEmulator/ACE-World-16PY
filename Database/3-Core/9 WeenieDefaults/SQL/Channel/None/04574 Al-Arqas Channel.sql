@@ -3,7 +3,7 @@ VALUES ('4574', 'channel-alarqas', 36) /* Channel */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (4574,   3,         61) /* PaletteTemplate - White */
-     , (4574,  93,       1044) /* PhysicsState */;
+     , (4574,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (4574,   1, True ) /* Stuck */

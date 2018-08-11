@@ -11,8 +11,8 @@ VALUES (4,   1,         16) /* ItemType - Creature */
      , (4,  25,          1) /* Level */
      , (4,  27,          0) /* ArmorType */
      , (4,  30,          0) /* AllegianceRank */
-     , (4,  32,       2047) /* ChannelsActive */
-     , (4,  93,    4195336) /* PhysicsState */
+     , (4,  32,       2047) /* ChannelsActive - QA1, QA2, ValidChans */
+     , (4,  93,    4195336) /* PhysicsState - ReportCollisions, Gravity, EdgeSlide */
      , (4, 112,          7) /* AdvocateLevel */
      , (4, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (4, 146,        169) /* XpOverride */;

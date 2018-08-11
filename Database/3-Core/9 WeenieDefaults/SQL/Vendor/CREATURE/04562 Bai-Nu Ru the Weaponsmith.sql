@@ -10,10 +10,10 @@ VALUES (4562,   1,         16) /* ItemType - Creature */
      , (4562,  16,         32) /* ItemUseable - Remote */
      , (4562,  25,          7) /* Level */
      , (4562,  27,          0) /* ArmorType */
-     , (4562,  74, 1074022279) /* MerchandiseItemTypes */
+     , (4562,  74, 1074022279) /* MerchandiseItemTypes - Vestements, Weapon, LockableMagicTarget, Useless, Key, PromissoryNote, TinkeringMaterial */
      , (4562,  75,          0) /* MerchandiseMinValue */
      , (4562,  76,     100000) /* MerchandiseMaxValue */
-     , (4562,  93,    2098200) /* PhysicsState */
+     , (4562,  93,    2098200) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */
      , (4562, 126,       2000) /* VendorHappyMean */
      , (4562, 127,       1000) /* VendorHappyVariance */
      , (4562, 133,          4) /* ShowableOnRadar - ShowAlways */
@@ -163,25 +163,25 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 318767235 /* Nod */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (4562, 2,   117,  0, 2, 0.67, False) /* Create Breeches for Wield */
-     , (4562, 2,   124,  0, 5, 0, False) /* Create Jerkin for Wield */
-     , (4562, 2,   132,  0, 2, 0.67, False) /* Create Shoes for Wield */
-     , (4562, 4,   151, -1, 0, 0, False) /* Create Empty Flask for Shop */
-     , (4562, 4,   310, -1, 0, 0, False) /* Create Throwing Club for Shop */
-     , (4562, 4,   314, -1, 0, 0, False) /* Create Dagger for Shop */
-     , (4562, 4,   327, -1, 0, 0, False) /* Create Ken for Shop */
-     , (4562, 4,   336, -1, 0, 0, False) /* Create Ono for Shop */
-     , (4562, 4,   353, -1, 0, 0, False) /* Create Tachi for Shop */
-     , (4562, 2,   356,  0, 0, 0, False) /* Create Tofun for Wield */
-     , (4562, 4,   356, -1, 0, 0, False) /* Create Tofun for Shop */
-     , (4562, 4,   359, -1, 0, 0, False) /* Create War Hammer for Shop */
-     , (4562, 4,   362, -1, 0, 0, False) /* Create Yari for Shop */
-     , (4562, 4,   512, -1, 0, 0, False) /* Create Good Lockpick for Shop */
-     , (4562, 4,   513, -1, 0, 0, False) /* Create Plain Lockpick for Shop */
-     , (4562, 4,   545, -1, 0, 0, False) /* Create Reliable Lockpick for Shop */
-     , (4562, 4,  2621, -1, 0, 0, False) /* Create Trade Note (100) for Shop */
-     , (4562, 4,  2622, -1, 0, 0, False) /* Create Trade Note (500) for Shop */
-     , (4562, 4,  2623, -1, 0, 0, False) /* Create Trade Note (1,000) for Shop */
-     , (4562, 4,  4195, -1, 0, 0, False) /* Create Nekode for Shop */
-     , (4562, 2, 10696,  0, 4, 0.8, False) /* Create Apron for Wield */
-     , (4562, 4, 22158, -1, 0, 0, False) /* Create Jo for Shop */;
+VALUES (4562, 2,   117,  0, 2, 0.67, False) /* Create Breeches (117) for Wield */
+     , (4562, 2,   124,  0, 5, 0, False) /* Create Jerkin (124) for Wield */
+     , (4562, 2,   132,  0, 2, 0.67, False) /* Create Shoes (132) for Wield */
+     , (4562, 4,   151, -1, 0, 0, False) /* Create Empty Flask (151) for Shop */
+     , (4562, 4,   310, -1, 0, 0, False) /* Create Throwing Club (310) for Shop */
+     , (4562, 4,   314, -1, 0, 0, False) /* Create Dagger (314) for Shop */
+     , (4562, 4,   327, -1, 0, 0, False) /* Create Ken (327) for Shop */
+     , (4562, 4,   336, -1, 0, 0, False) /* Create Ono (336) for Shop */
+     , (4562, 4,   353, -1, 0, 0, False) /* Create Tachi (353) for Shop */
+     , (4562, 2,   356,  0, 0, 0, False) /* Create Tofun (356) for Wield */
+     , (4562, 4,   356, -1, 0, 0, False) /* Create Tofun (356) for Shop */
+     , (4562, 4,   359, -1, 0, 0, False) /* Create War Hammer (359) for Shop */
+     , (4562, 4,   362, -1, 0, 0, False) /* Create Yari (362) for Shop */
+     , (4562, 4,   512, -1, 0, 0, False) /* Create Good Lockpick (512) for Shop */
+     , (4562, 4,   513, -1, 0, 0, False) /* Create Plain Lockpick (513) for Shop */
+     , (4562, 4,   545, -1, 0, 0, False) /* Create Reliable Lockpick (545) for Shop */
+     , (4562, 4,  2621, -1, 0, 0, False) /* Create Trade Note (100) (2621) for Shop */
+     , (4562, 4,  2622, -1, 0, 0, False) /* Create Trade Note (500) (2622) for Shop */
+     , (4562, 4,  2623, -1, 0, 0, False) /* Create Trade Note (1,000) (2623) for Shop */
+     , (4562, 4,  4195, -1, 0, 0, False) /* Create Nekode (4195) for Shop */
+     , (4562, 2, 10696,  0, 4, 0.8, False) /* Create Apron (10696) for Wield */
+     , (4562, 4, 22158, -1, 0, 0, False) /* Create Jo (22158) for Shop */;

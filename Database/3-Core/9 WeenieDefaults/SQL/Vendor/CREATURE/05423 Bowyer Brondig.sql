@@ -10,10 +10,10 @@ VALUES (5423,   1,         16) /* ItemType - Creature */
      , (5423,  16,         32) /* ItemUseable - Remote */
      , (5423,  25,          7) /* Level */
      , (5423,  27,          0) /* ArmorType */
-     , (5423,  74,     262401) /* MerchandiseItemTypes */
+     , (5423,  74,     262401) /* MerchandiseItemTypes - Weapon, PromissoryNote */
      , (5423,  75,          0) /* MerchandiseMinValue */
      , (5423,  76,     100000) /* MerchandiseMaxValue */
-     , (5423,  93,    2098200) /* PhysicsState */
+     , (5423,  93,    2098200) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */
      , (5423, 126,        100) /* VendorHappyMean */
      , (5423, 127,        100) /* VendorHappyVariance */
      , (5423, 133,          4) /* ShowableOnRadar - ShowAlways */
@@ -179,18 +179,18 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 318767235 /* Nod */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (5423, 2,   117,  0, 16, 1, False) /* Create Breeches for Wield */
-     , (5423, 2,   134,  0, 18, 1, False) /* Create Tunic for Wield */
-     , (5423, 4,   300, -1, 0, 0, False) /* Create Arrow for Shop */
-     , (5423, 4,   305, -1, 0, 0, False) /* Create Quarrel for Shop */
-     , (5423, 2,   307,  0, 0, 0, False) /* Create Shortbow for Wield */
-     , (5423, 4,   307, -1, 0, 0, False) /* Create Shortbow for Shop */
-     , (5423, 4,   312, -1, 0, 0, False) /* Create Light Crossbow for Shop */
-     , (5423, 2,  2606,  0, 18, 1, False) /* Create Boots for Wield */
-     , (5423, 4,  2621, -1, 0, 0, False) /* Create Trade Note (100) for Shop */
-     , (5423, 4,  2622, -1, 0, 0, False) /* Create Trade Note (500) for Shop */
-     , (5423, 4,  2623, -1, 0, 0, False) /* Create Trade Note (1,000) for Shop */
-     , (5423, 4,  4585, -1, 0, 0, False) /* Create Bundle of Arrowshafts for Shop */
-     , (5423, 4,  4586, -1, 0, 0, False) /* Create Bundle of Arrowheads for Shop */
-     , (5423, 4,  5339, -1, 0, 0, False) /* Create Bundle of Quarrelshafts for Shop */
-     , (5423, 2, 10696,  0, 4, 0.5, False) /* Create Apron for Wield */;
+VALUES (5423, 2,   117,  0, 16, 1, False) /* Create Breeches (117) for Wield */
+     , (5423, 2,   134,  0, 18, 1, False) /* Create Tunic (134) for Wield */
+     , (5423, 4,   300, -1, 0, 0, False) /* Create Arrow (300) for Shop */
+     , (5423, 4,   305, -1, 0, 0, False) /* Create Quarrel (305) for Shop */
+     , (5423, 2,   307,  0, 0, 0, False) /* Create Shortbow (307) for Wield */
+     , (5423, 4,   307, -1, 0, 0, False) /* Create Shortbow (307) for Shop */
+     , (5423, 4,   312, -1, 0, 0, False) /* Create Light Crossbow (312) for Shop */
+     , (5423, 2,  2606,  0, 18, 1, False) /* Create Boots (2606) for Wield */
+     , (5423, 4,  2621, -1, 0, 0, False) /* Create Trade Note (100) (2621) for Shop */
+     , (5423, 4,  2622, -1, 0, 0, False) /* Create Trade Note (500) (2622) for Shop */
+     , (5423, 4,  2623, -1, 0, 0, False) /* Create Trade Note (1,000) (2623) for Shop */
+     , (5423, 4,  4585, -1, 0, 0, False) /* Create Bundle of Arrowshafts (4585) for Shop */
+     , (5423, 4,  4586, -1, 0, 0, False) /* Create Bundle of Arrowheads (4586) for Shop */
+     , (5423, 4,  5339, -1, 0, 0, False) /* Create Bundle of Quarrelshafts (5339) for Shop */
+     , (5423, 2, 10696,  0, 4, 0.5, False) /* Create Apron (10696) for Wield */;

@@ -10,10 +10,10 @@ VALUES (2252,   1,         16) /* ItemType - Creature */
      , (2252,  16,         32) /* ItemUseable - Remote */
      , (2252,  25,          9) /* Level */
      , (2252,  27,          0) /* ArmorType */
-     , (2252,  74,     262176) /* MerchandiseItemTypes */
+     , (2252,  74,     262176) /* MerchandiseItemTypes - Food, PromissoryNote */
      , (2252,  75,          0) /* MerchandiseMinValue */
      , (2252,  76,     100000) /* MerchandiseMaxValue */
-     , (2252,  93,    2098200) /* PhysicsState */
+     , (2252,  93,    2098200) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */
      , (2252, 126,        500) /* VendorHappyMean */
      , (2252, 127,        500) /* VendorHappyVariance */
      , (2252, 133,          4) /* ShowableOnRadar - ShowAlways */
@@ -211,21 +211,21 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 318767235 /* Nod */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (2252, 2,   115,  0, 9, 0, False) /* Create Leather Boots for Wield */
-     , (2252, 2,   117,  0, 18, 1, False) /* Create Breeches for Wield */
-     , (2252, 2,   134,  0, 9, 1, False) /* Create Tunic for Wield */
-     , (2252, 4,   261, -1, 0, 0, False) /* Create Cheese for Shop */
-     , (2252, 4,  2219, -1, 0, 0, False) /* Create Directions to Web Maze for Shop */
-     , (2252, 4,  2452, -1, 0, 0, False) /* Create Apple Juice for Shop */
-     , (2252, 4,  2456, -1, 0, 0, False) /* Create Green Tea for Shop */
-     , (2252, 4,  2467, -1, 0, 0, False) /* Create Red Wine for Shop */
-     , (2252, 4,  2468, -1, 0, 0, False) /* Create Sake for Shop */
-     , (2252, 4,  2469, -1, 0, 0, False) /* Create Small Beer for Shop */
-     , (2252, 4,  4210, -1, 0, 0, False) /* Create Dungeon Mei Directions for Shop */
-     , (2252, 4,  4731, -1, 0, 0, False) /* Create Fried Mushroom for Shop */
-     , (2252, 4,  4733, -1, 0, 0, False) /* Create Kimchi for Shop */
-     , (2252, 4,  4740, -1, 0, 0, False) /* Create Pickled Fish for Shop */
-     , (2252, 4,  8378, -1, 0, 0, False) /* Create Beer Stein for Shop */
-     , (2252, 2, 10696,  0, 18, 1, False) /* Create Apron for Wield */
-     , (2252, 4, 24222, -1, 0, 0, False) /* Create Duplicated Portals for Shop */
-     , (2252, 4, 28242, -1, 0, 0, False) /* Create Directions to the Lugian Citadels for Shop */;
+VALUES (2252, 2,   115,  0, 9, 0, False) /* Create Leather Boots (115) for Wield */
+     , (2252, 2,   117,  0, 18, 1, False) /* Create Breeches (117) for Wield */
+     , (2252, 2,   134,  0, 9, 1, False) /* Create Tunic (134) for Wield */
+     , (2252, 4,   261, -1, 0, 0, False) /* Create Cheese (261) for Shop */
+     , (2252, 4,  2219, -1, 0, 0, False) /* Create Directions to Web Maze (2219) for Shop */
+     , (2252, 4,  2452, -1, 0, 0, False) /* Create Apple Juice (2452) for Shop */
+     , (2252, 4,  2456, -1, 0, 0, False) /* Create Green Tea (2456) for Shop */
+     , (2252, 4,  2467, -1, 0, 0, False) /* Create Red Wine (2467) for Shop */
+     , (2252, 4,  2468, -1, 0, 0, False) /* Create Sake (2468) for Shop */
+     , (2252, 4,  2469, -1, 0, 0, False) /* Create Small Beer (2469) for Shop */
+     , (2252, 4,  4210, -1, 0, 0, False) /* Create Dungeon Mei Directions (4210) for Shop */
+     , (2252, 4,  4731, -1, 0, 0, False) /* Create Fried Mushroom (4731) for Shop */
+     , (2252, 4,  4733, -1, 0, 0, False) /* Create Kimchi (4733) for Shop */
+     , (2252, 4,  4740, -1, 0, 0, False) /* Create Pickled Fish (4740) for Shop */
+     , (2252, 4,  8378, -1, 0, 0, False) /* Create Beer Stein (8378) for Shop */
+     , (2252, 2, 10696,  0, 18, 1, False) /* Create Apron (10696) for Wield */
+     , (2252, 4, 24222, -1, 0, 0, False) /* Create Duplicated Portals (24222) for Shop */
+     , (2252, 4, 28242, -1, 0, 0, False) /* Create Directions to the Lugian Citadels (28242) for Shop */;

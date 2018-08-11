@@ -13,7 +13,7 @@ VALUES (20631,   1,       4096) /* ItemType - SpellComponents */
      , (20631,  15,         22) /* StackUnitValue */
      , (20631,  16,          1) /* ItemUseable - No */
      , (20631,  19,         22) /* Value */
-     , (20631,  93,       1044) /* PhysicsState */;
+     , (20631,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (20631,   1, 'Prismatic Taper') /* Name */;

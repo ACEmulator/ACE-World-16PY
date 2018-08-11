@@ -18,7 +18,7 @@ VALUES (6240,   1,          1) /* ItemType - MeleeWeapon */
      , (6240,  48,          5) /* WeaponSkill - Mace */
      , (6240,  49,         35) /* WeaponTime */
      , (6240,  51,          1) /* CombatUse - Melee */
-     , (6240,  93,       1044) /* PhysicsState */
+     , (6240,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (6240, 106,        200) /* ItemSpellcraft */
      , (6240, 107,        750) /* ItemCurMana */
      , (6240, 108,        750) /* ItemMaxMana */

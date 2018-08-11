@@ -4,7 +4,7 @@ VALUES ('1336', 'portaldrudgefamilyexit', 7) /* Portal */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (1336,   1,      65536) /* ItemType - Portal */
      , (1336,  16,         32) /* ItemUseable - Remote */
-     , (1336,  93,       3084) /* PhysicsState */
+     , (1336,  93,       3084) /* PhysicsState - Ethereal, ReportCollisions, Gravity, LightingOn */
      , (1336, 111,          1) /* PortalBitmask - Unrestricted */
      , (1336, 133,          4) /* ShowableOnRadar - ShowAlways */;
 

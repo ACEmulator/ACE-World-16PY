@@ -4,8 +4,8 @@ VALUES ('30845', 'portalshadowlugianstronghold', 7) /* Portal */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (30845,   1,      65536) /* ItemType - Portal */
      , (30845,  16,         32) /* ItemUseable - Remote */
-     , (30845,  93,       3084) /* PhysicsState */
-     , (30845, 111,         49) /* PortalBitmask */
+     , (30845,  93,       3084) /* PhysicsState - Ethereal, ReportCollisions, Gravity, LightingOn */
+     , (30845, 111,         49) /* PortalBitmask - Unrestricted, NoSummon, NoRecall */
      , (30845, 133,          4) /* ShowableOnRadar - ShowAlways */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)

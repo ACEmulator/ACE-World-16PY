@@ -4,7 +4,7 @@ VALUES ('30058', 'portalaugmentationrealmmain3', 7) /* Portal */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (30058,   1,      65536) /* ItemType - Portal */
      , (30058,  16,         32) /* ItemUseable - Remote */
-     , (30058,  93,       3084) /* PhysicsState */
+     , (30058,  93,       3084) /* PhysicsState - Ethereal, ReportCollisions, Gravity, LightingOn */
      , (30058, 111,          1) /* PortalBitmask - Unrestricted */
      , (30058, 133,          4) /* ShowableOnRadar - ShowAlways */;
 

@@ -8,7 +8,7 @@ VALUES (28574,   1,       8192) /* ItemType - Writable */
      , (28574,   9,          0) /* ValidLocations - None */
      , (28574,  16,          8) /* ItemUseable - Contained */
      , (28574,  19,          0) /* Value */
-     , (28574,  93,       1044) /* PhysicsState */;
+     , (28574,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (28574,  22, True ) /* Inscribable */

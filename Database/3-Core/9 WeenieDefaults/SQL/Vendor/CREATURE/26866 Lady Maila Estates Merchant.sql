@@ -10,10 +10,10 @@ VALUES (26866,   1,         16) /* ItemType - Creature */
      , (26866,  16,         32) /* ItemUseable - Remote */
      , (26866,  25,         10) /* Level */
      , (26866,  27,          0) /* ArmorType */
-     , (26866,  74,     264192) /* MerchandiseItemTypes */
+     , (26866,  74,     264192) /* MerchandiseItemTypes - Gem, PromissoryNote */
      , (26866,  75,          0) /* MerchandiseMinValue */
      , (26866,  76,    1000000) /* MerchandiseMaxValue */
-     , (26866,  93,    2098204) /* PhysicsState */
+     , (26866,  93,    2098204) /* PhysicsState - Ethereal, ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */
      , (26866, 126,        125) /* VendorHappyMean */
      , (26866, 127,        125) /* VendorHappyVariance */
      , (26866, 133,          4) /* ShowableOnRadar - ShowAlways */
@@ -97,4 +97,4 @@ VALUES (26866,  0,  4,  0,    0,    0,    0,    0,    0,    0,    0,    0,    0,
      , (26866,  8,  4,  2, 0.75,    0,    0,    0,    0,    0,    0,    0,    0,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (26866, 4, 26231, -1, 0, 0, False) /* Create Lady Maila Estates Portal Gem for Shop */;
+VALUES (26866, 4, 26231, -1, 0, 0, False) /* Create Lady Maila Estates Portal Gem (26231) for Shop */;

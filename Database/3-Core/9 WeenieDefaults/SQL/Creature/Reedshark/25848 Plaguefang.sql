@@ -11,7 +11,7 @@ VALUES (25848,   1,         16) /* ItemType - Creature */
      , (25848,  25,        170) /* Level */
      , (25848,  40,          2) /* CombatMode - Melee */
      , (25848,  68,         13) /* TargetingTactic */
-     , (25848,  93,       1032) /* PhysicsState */
+     , (25848,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (25848, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (25848, 146,     855132) /* XpOverride */;
 
@@ -67,7 +67,7 @@ VALUES (25848,   1,   33554489) /* Setup */
      , (25848,   7,  268436731) /* ClothingBase */
      , (25848,   8,  100667939) /* Icon */
      , (25848,  22,  872415268) /* PhysicsEffectTable */
-     , (25848,  35,         32) /* DeathTreasureType */;
+     , (25848,  35,         32) /* DeathTreasureType - Loot Tier: 6 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (25848,   1, 600, 0, 0) /* Strength */
@@ -171,7 +171,7 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 268435540 /* Twitch4 */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (25848, 9,     0,  0, 0, 0, False) /* Create Unknown for ContainTreasure */
-     , (25848, 9,     0,  0, 0, 0.9, False) /* Create Unknown for ContainTreasure */
-     , (25848, 9, 25902,  0, 0, 1, False) /* Create Plaguefang's Hide for ContainTreasure */
-     , (25848, 9, 30823,  0, 0, 0.1, False) /* Create Broken Black Marrow Key for ContainTreasure */;
+VALUES (25848, 9,     0,  0, 0, 0, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 6 for ContainTreasure */
+     , (25848, 9,     0,  0, 0, 0.9, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 6 for ContainTreasure */
+     , (25848, 9, 25902,  0, 0, 1, False) /* Create Plaguefang's Hide (25902) for ContainTreasure */
+     , (25848, 9, 30823,  0, 0, 0.1, False) /* Create Broken Black Marrow Key (30823) for ContainTreasure */;

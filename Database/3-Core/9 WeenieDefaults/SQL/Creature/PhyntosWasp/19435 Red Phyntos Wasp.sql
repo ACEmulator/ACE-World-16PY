@@ -11,7 +11,7 @@ VALUES (19435,   1,         16) /* ItemType - Creature */
      , (19435,  25,          6) /* Level */
      , (19435,  40,          4) /* CombatMode - Missile */
      , (19435,  68,         13) /* TargetingTactic */
-     , (19435,  93,       1032) /* PhysicsState */
+     , (19435,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (19435, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (19435, 146,        100) /* XpOverride */;
 
@@ -108,7 +108,7 @@ INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
 VALUES (19435, 414) /* PLAYER_DEATH_EVENT */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (19435, 9,     0,  0, 0, 0.85, False) /* Create Unknown for ContainTreasure */
-     , (19435, 9,     0,  0, 0, 0.99, False) /* Create Unknown for ContainTreasure */
-     , (19435, 9,  3703,  0, 0, 0.15, False) /* Create Red Phyntos Wasp Wing for ContainTreasure */
-     , (19435, 9,  8701,  0, 0, 0.01, False) /* Create Lucky Gold Letter for ContainTreasure */;
+VALUES (19435, 9,     0,  0, 0, 0.85, False) /* Create UNKNOWN RANDOMLY GENERATED TREASURE for ContainTreasure */
+     , (19435, 9,     0,  0, 0, 0.99, False) /* Create UNKNOWN RANDOMLY GENERATED TREASURE for ContainTreasure */
+     , (19435, 9,  3703,  0, 0, 0.15, False) /* Create Red Phyntos Wasp Wing (3703) for ContainTreasure */
+     , (19435, 9,  8701,  0, 0, 0.01, False) /* Create Lucky Gold Letter (8701) for ContainTreasure */;

@@ -12,8 +12,8 @@ VALUES (7333,   1,         16) /* ItemType - Creature */
      , (7333,  27,          0) /* ArmorType */
      , (7333,  40,          2) /* CombatMode - Melee */
      , (7333,  68,          3) /* TargetingTactic */
-     , (7333,  93,       1032) /* PhysicsState */
-     , (7333, 101,        131) /* AiAllowedCombatStyle */
+     , (7333,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
+     , (7333, 101,        131) /* AiAllowedCombatStyle - Unarmed, OneHanded, ThrownWeapon */
      , (7333, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (7333, 140,          1) /* AiOptions */
      , (7333, 146,      20623) /* XpOverride */;
@@ -73,8 +73,10 @@ VALUES (7333,   1,   33558024) /* Setup */
      , (7333,   7,  268436498) /* ClothingBase */
      , (7333,   8,  100667453) /* Icon */
      , (7333,  22,  872415255) /* PhysicsEffectTable */
-     , (7333,  32,        295) /* WieldedTreasureType */
-     , (7333,  35,        450) /* DeathTreasureType */;
+     , (7333,  32,        295) /* WieldedTreasureType - 
+                                   Wield 15x Frost Throwing Club (23663) | Probability: 50%
+                                   Wield Club (23648) | Probability: 50% */
+     , (7333,  35,        450) /* DeathTreasureType - Loot Tier: 3 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (7333,   1, 340, 0, 0) /* Strength */
@@ -189,5 +191,5 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 268435537 /* Twitch1 */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (7333, 9,     0,  0, 0, 0.95, False) /* Create Unknown for ContainTreasure */
-     , (7333, 9,  3693,  0, 0, 0.05, False) /* Create Banderling Scalp for ContainTreasure */;
+VALUES (7333, 9,     0,  0, 0, 0.95, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 3 for ContainTreasure */
+     , (7333, 9,  3693,  0, 0, 0.05, False) /* Create Banderling Scalp (3693) for ContainTreasure */;

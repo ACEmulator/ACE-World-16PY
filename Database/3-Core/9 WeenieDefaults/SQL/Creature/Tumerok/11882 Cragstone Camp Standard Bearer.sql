@@ -11,8 +11,8 @@ VALUES (11882,   1,         16) /* ItemType - Creature */
      , (11882,  25,         17) /* Level */
      , (11882,  27,          0) /* ArmorType */
      , (11882,  68,          5) /* TargetingTactic */
-     , (11882,  93,       1032) /* PhysicsState */
-     , (11882, 101,        183) /* AiAllowedCombatStyle */
+     , (11882,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
+     , (11882, 101,        183) /* AiAllowedCombatStyle - Unarmed, OneHanded, OneHandedAndShield, Bow, Crossbow, ThrownWeapon */
      , (11882, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (11882, 140,          1) /* AiOptions */
      , (11882, 146,       1100) /* XpOverride */;
@@ -69,8 +69,46 @@ VALUES (11882,   1,   33554496) /* Setup */
      , (11882,   8,  100667452) /* Icon */
      , (11882,  22,  872415270) /* PhysicsEffectTable */
      , (11882,  31,      11843) /* LinkedPortalOne - Cragstone Advance Camp Portal */
-     , (11882,  32,        226) /* WieldedTreasureType */
-     , (11882,  35,        197) /* DeathTreasureType */;
+     , (11882,  32,        226) /* WieldedTreasureType - 
+                                   Wield 5x Javelin (320) | Probability: 10%
+                                   Wield 6x Djarid (317) | Probability: 10%
+                                   Wield 4x Throwing Club (310) | Probability: 5%
+                                   Wield 6x Throwing Axe (304) | Probability: 5%
+                                   Wield Yag (360) | Probability: 5%
+                                   Wield 23x Arrow (300) | Probability: 100%
+                                   Wield Shortbow (307) | Probability: 5%
+                                   Wield 25x Arrow (300) | Probability: 100%
+                                   Wield Shouyumi (341) | Probability: 5%
+                                   Wield 20x Arrow (300) | Probability: 100%
+                                   Wield Light Crossbow (312) | Probability: 16%
+                                   Wield 15x Quarrel (305) | Probability: 100%
+                                   Wield Nayin (334) | Probability: 6%
+                                   Wield 20x Arrow (300) | Probability: 100%
+                                   Wield Longbow (306) | Probability: 11%
+                                   Wield 22x Arrow (300) | Probability: 100%
+                                   Wield Yumi (363) | Probability: 6%
+                                   Wield 20x Arrow (300) | Probability: 100%
+                                   Wield Heavy Crossbow (311) | Probability: 16%
+                                   Wield 15x Quarrel (305) | Probability: 100%
+                                   Wield Battle Axe (301) | Probability: 6%
+                                   Wield Budiaq (308) | Probability: 6%
+                                   Wield Dabus (313) | Probability: 6%
+                                   Wield Kaskara (324) | Probability: 5%
+                                   Wield Long Sword (351) | Probability: 5%
+                                   Wield Mace (331) | Probability: 7%
+                                   Wield Ono (336) | Probability: 5%
+                                   Wield Scimitar (339) | Probability: 10%
+                                   Wield Shamshir (340) | Probability: 5%
+                                   Wield Silifi (344) | Probability: 5%
+                                   Wield Spear (348) | Probability: 7%
+                                   Wield Tachi (353) | Probability: 5%
+                                   Wield Tofun (356) | Probability: 6%
+                                   Wield War Hammer (359) | Probability: 10%
+                                   Wield Yari (362) | Probability: 10%
+                                   Wield Large Kite Shield (92) | Probability: 30%
+                                   Wield Kite Shield (91) | Probability: 20%
+                                   Wield Large Round Shield (94) | Probability: 20% */
+     , (11882,  35,        197) /* DeathTreasureType - Loot Tier: 2 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (11882,   1,  80, 0, 0) /* Strength */

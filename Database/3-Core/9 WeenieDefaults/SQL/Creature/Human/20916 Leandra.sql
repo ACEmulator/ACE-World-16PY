@@ -10,7 +10,7 @@ VALUES (20916,   1,         16) /* ItemType - Creature */
      , (20916,  16,         32) /* ItemUseable - Remote */
      , (20916,  25,         96) /* Level */
      , (20916,  27,          0) /* ArmorType */
-     , (20916,  93,    6292504) /* PhysicsState */
+     , (20916,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (20916,  95,          8) /* RadarBlipColor - Yellow */
      , (20916, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (20916, 134,         16) /* PlayerKillerStatus - RubberGlue */
@@ -161,4 +161,4 @@ VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 1090519043 /* Ready */, NULL, NU
      , (@parent_id,  4,  10 /* Tell */, 3, 1, NULL, 'If you have the inclination, bring me a small amount of the highest quality refined chorizite available, and I will reward you with one application of the formula, and my notes.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (20916, 2,  5850,  0, 14, 1, False) /* Create Faran Robe for Wield */;
+VALUES (20916, 2,  5850,  0, 14, 1, False) /* Create Faran Robe (5850) for Wield */;

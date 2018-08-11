@@ -9,7 +9,7 @@ VALUES (11161,   1,        128) /* ItemType - Misc */
      , (11161,  16,          1) /* ItemUseable - No */
      , (11161,  19,         10) /* Value */
      , (11161,  33,          1) /* Bonded - Bonded */
-     , (11161,  93,       1044) /* PhysicsState */
+     , (11161,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (11161, 150,        103) /* HookPlacement - Hook */
      , (11161, 151,          2) /* HookType - Wall */;
 

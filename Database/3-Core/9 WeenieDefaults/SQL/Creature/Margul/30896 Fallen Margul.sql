@@ -13,8 +13,8 @@ VALUES (30896,   1,         16) /* ItemType - Creature */
      , (30896,  40,          2) /* CombatMode - Melee */
      , (30896,  68,          9) /* TargetingTactic */
      , (30896,  72,         22) /* FriendType - Shadow */
-     , (30896,  93,       1032) /* PhysicsState */
-     , (30896, 101,        131) /* AiAllowedCombatStyle */
+     , (30896,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
+     , (30896, 101,        131) /* AiAllowedCombatStyle - Unarmed, OneHanded, ThrownWeapon */
      , (30896, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (30896, 140,          1) /* AiOptions */
      , (30896, 146,    1000000) /* XpOverride */;
@@ -74,7 +74,7 @@ VALUES (30896,   1,   33558554) /* Setup */
      , (30896,   8,  100675661) /* Icon */
      , (30896,  22,  872415401) /* PhysicsEffectTable */
      , (30896,  30,         84) /* PhysicsScript - BreatheFlame */
-     , (30896,  35,         26) /* DeathTreasureType */;
+     , (30896,  35,         26) /* DeathTreasureType - Loot Tier: 6 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (30896,   1, 420, 0, 0) /* Strength */
@@ -176,6 +176,6 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 268435537 /* Twitch1 */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (30896, 9,     0,  0, 0, 0.5, False) /* Create Unknown for ContainTreasure */
-     , (30896, 9, 30857,  0, 0, 0.5, False) /* Create Sezzherei's Lair for ContainTreasure */
-     , (30896, 9, 30873,  0, 0, 1, False) /* Create Spear of the Fallen for ContainTreasure */;
+VALUES (30896, 9,     0,  0, 0, 0.5, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 6 for ContainTreasure */
+     , (30896, 9, 30857,  0, 0, 0.5, False) /* Create Sezzherei's Lair (30857) for ContainTreasure */
+     , (30896, 9, 30873,  0, 0, 1, False) /* Create Spear of the Fallen (30873) for ContainTreasure */;

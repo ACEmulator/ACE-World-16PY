@@ -14,7 +14,7 @@ VALUES (23827,   1,          2) /* ItemType - Armor */
      , (23827,  27,         32) /* ArmorType */
      , (23827,  28,        245) /* ArmorLevel */
      , (23827,  33,          1) /* Bonded - Bonded */
-     , (23827,  93,       1044) /* PhysicsState */
+     , (23827,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (23827, 107,       1000) /* ItemCurMana */
      , (23827, 108,       1000) /* ItemMaxMana */
      , (23827, 109,          0) /* ItemDifficulty */

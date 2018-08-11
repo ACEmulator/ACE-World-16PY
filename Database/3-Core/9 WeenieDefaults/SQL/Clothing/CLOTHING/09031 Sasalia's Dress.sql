@@ -4,7 +4,7 @@ VALUES ('9031', 'dresssasalia', 2) /* Clothing */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (9031,   1,          4) /* ItemType - Clothing */
      , (9031,   3,          2) /* PaletteTemplate - Blue */
-     , (9031,   4,      81664) /* ClothingPriority */
+     , (9031,   4,      81664) /* ClothingPriority - OuterwearUpperLegs, OuterwearLowerLegs, OuterwearChest, OuterwearAbdomen, OuterwearUpperArms, OuterwearLowerArms, Feet */
      , (9031,   5,        200) /* EncumbranceVal */
      , (9031,   8,        150) /* Mass */
      , (9031,   9,      32512) /* ValidLocations - Armor */
@@ -12,7 +12,7 @@ VALUES (9031,   1,          4) /* ItemType - Clothing */
      , (9031,  19,       4000) /* Value */
      , (9031,  27,          1) /* ArmorType */
      , (9031,  28,          0) /* ArmorLevel */
-     , (9031,  93,       1044) /* PhysicsState */
+     , (9031,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (9031, 106,        275) /* ItemSpellcraft */
      , (9031, 107,        500) /* ItemCurMana */
      , (9031, 108,       1000) /* ItemMaxMana */

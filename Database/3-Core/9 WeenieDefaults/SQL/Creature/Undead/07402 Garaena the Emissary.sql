@@ -11,7 +11,7 @@ VALUES (7402,   1,         16) /* ItemType - Creature */
      , (7402,  25,         62) /* Level */
      , (7402,  27,          0) /* ArmorType */
      , (7402,  40,          1) /* CombatMode - NonCombat */
-     , (7402,  93,    2098200) /* PhysicsState */
+     , (7402,  93,    2098200) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */
      , (7402,  95,          8) /* RadarBlipColor - Yellow */
      , (7402, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (7402, 134,         16) /* PlayerKillerStatus - RubberGlue */

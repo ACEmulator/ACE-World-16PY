@@ -13,8 +13,8 @@ VALUES (22842,   1,        128) /* ItemType - Misc */
      , (22842,  15,      10000) /* StackUnitValue */
      , (22842,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
      , (22842,  19,      10000) /* Value */
-     , (22842,  93,       1044) /* PhysicsState */
-     , (22842,  94,        128) /* TargetType - Misc */
+     , (22842,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (22842,  94,        128) /* TargetType - 128 */
      , (22842, 150,        103) /* HookPlacement - Hook */
      , (22842, 151,          1) /* HookType - Floor */;
 

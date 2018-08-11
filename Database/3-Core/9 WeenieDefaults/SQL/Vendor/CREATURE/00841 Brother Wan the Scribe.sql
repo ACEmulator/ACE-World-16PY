@@ -10,10 +10,10 @@ VALUES (841,   1,         16) /* ItemType - Creature */
      , (841,  16,         32) /* ItemUseable - Remote */
      , (841,  25,          6) /* Level */
      , (841,  27,          0) /* ArmorType */
-     , (841,  74,     270336) /* MerchandiseItemTypes */
+     , (841,  74,     270336) /* MerchandiseItemTypes - Writable, PromissoryNote */
      , (841,  75,          0) /* MerchandiseMinValue */
      , (841,  76,    1000000) /* MerchandiseMaxValue */
-     , (841,  93,    2098200) /* PhysicsState */
+     , (841,  93,    2098200) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */
      , (841, 126,        500) /* VendorHappyMean */
      , (841, 127,        250) /* VendorHappyVariance */
      , (841, 133,          4) /* ShowableOnRadar - ShowAlways */
@@ -163,10 +163,10 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 318767235 /* Nod */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (841, 2,   132,  0, 16, 1, False) /* Create Shoes for Wield */
-     , (841, 4,   364, -1, 0, 0, False) /* Create Book for Shop */
-     , (841, 4,   365, -1, 0, 0, False) /* Create Parchment for Shop */
-     , (841, 4,   367, -1, 0, 0, False) /* Create Tome for Shop */
-     , (841, 2,  2588,  0, 9, 1, False) /* Create Shirt for Wield */
-     , (841, 2,  2597,  0, 13, 0.5, False) /* Create Pants for Wield */
-     , (841, 2, 10696,  0, 6, 0, False) /* Create Apron for Wield */;
+VALUES (841, 2,   132,  0, 16, 1, False) /* Create Shoes (132) for Wield */
+     , (841, 4,   364, -1, 0, 0, False) /* Create Book (364) for Shop */
+     , (841, 4,   365, -1, 0, 0, False) /* Create Parchment (365) for Shop */
+     , (841, 4,   367, -1, 0, 0, False) /* Create Tome (367) for Shop */
+     , (841, 2,  2588,  0, 9, 1, False) /* Create Shirt (2588) for Wield */
+     , (841, 2,  2597,  0, 13, 0.5, False) /* Create Pants (2597) for Wield */
+     , (841, 2, 10696,  0, 6, 0, False) /* Create Apron (10696) for Wield */;

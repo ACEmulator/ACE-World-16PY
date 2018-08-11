@@ -10,7 +10,7 @@ VALUES (11346,   1,         16) /* ItemType - Creature */
      , (11346,  16,         32) /* ItemUseable - Remote */
      , (11346,  25,          9) /* Level */
      , (11346,  27,          0) /* ArmorType */
-     , (11346,  93,    6292504) /* PhysicsState */
+     , (11346,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (11346,  95,          8) /* RadarBlipColor - Yellow */
      , (11346, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (11346, 134,         16) /* PlayerKillerStatus - RubberGlue */
@@ -450,6 +450,6 @@ VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 1090519043 /* Ready */, NULL, NU
      , (@parent_id,  3,  10 /* Tell */, 1, 1, NULL, 'I am looking for Carenzi Burrower pelts, Littoral Siraluun claws, Drudge charms, and Sand Golem hearts. I will pay highly for them!', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (11346, 2,   115,  0, 9, 0.8, False) /* Create Leather Boots for Wield */
-     , (11346, 2,   130,  0, 8, 0.67, False) /* Create Shirt for Wield */
-     , (11346, 2,  2604,  0, 14, 0, False) /* Create Breeches for Wield */;
+VALUES (11346, 2,   115,  0, 9, 0.8, False) /* Create Leather Boots (115) for Wield */
+     , (11346, 2,   130,  0, 8, 0.67, False) /* Create Shirt (130) for Wield */
+     , (11346, 2,  2604,  0, 14, 0, False) /* Create Breeches (2604) for Wield */;

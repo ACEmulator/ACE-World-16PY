@@ -10,10 +10,10 @@ VALUES (26958,   1,         16) /* ItemType - Creature */
      , (26958,  16,         32) /* ItemUseable - Remote */
      , (26958,  25,         10) /* Level */
      , (26958,  27,          0) /* ArmorType */
-     , (26958,  74,     264192) /* MerchandiseItemTypes */
+     , (26958,  74,     264192) /* MerchandiseItemTypes - Gem, PromissoryNote */
      , (26958,  75,          0) /* MerchandiseMinValue */
      , (26958,  76,    1000000) /* MerchandiseMaxValue */
-     , (26958,  93,    2098204) /* PhysicsState */
+     , (26958,  93,    2098204) /* PhysicsState - Ethereal, ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */
      , (26958, 126,        125) /* VendorHappyMean */
      , (26958, 127,        125) /* VendorHappyVariance */
      , (26958, 133,          4) /* ShowableOnRadar - ShowAlways */
@@ -97,4 +97,4 @@ VALUES (26958,  0,  4,  0,    0,    0,    0,    0,    0,    0,    0,    0,    0,
      , (26958,  8,  4,  2, 0.75,    0,    0,    0,    0,    0,    0,    0,    0,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (26958, 4, 26323, -1, 0, 0, False) /* Create Rahvard Square Portal Gem for Shop */;
+VALUES (26958, 4, 26323, -1, 0, 0, False) /* Create Rahvard Square Portal Gem (26323) for Shop */;

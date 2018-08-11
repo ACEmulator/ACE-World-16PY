@@ -11,7 +11,7 @@ VALUES (30627,   1,         16) /* ItemType - Creature */
      , (30627,  16,         32) /* ItemUseable - Remote */
      , (30627,  25,         60) /* Level */
      , (30627,  27,          0) /* ArmorType */
-     , (30627,  93,    6292504) /* PhysicsState */
+     , (30627,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (30627,  95,          8) /* RadarBlipColor - Yellow */
      , (30627, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (30627, 134,         16) /* PlayerKillerStatus - RubberGlue */
@@ -232,11 +232,11 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,  10 /* Tell */, 0, 1, NULL, 'I need some help, but apparently so do you. Come back when you have a bit more experience under your belt.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (30627, 2,    36,  0, 7, 0.5, False) /* Create Leather Bracers for Wield */
-     , (30627, 2,    39,  0, 7, 0.6, False) /* Create Leather Breastplate for Wield */
-     , (30627, 2,    56,  0, 93, 0.5, False) /* Create Leather Gauntlets for Wield */
-     , (30627, 2,    60,  0, 6, 0.3, False) /* Create Leather Girth for Wield */
-     , (30627, 2,    65,  0, 6, 0.3, False) /* Create Leather Greaves for Wield */
-     , (30627, 2,    86,  0, 7, 0.5, False) /* Create Leather Pauldrons for Wield */
-     , (30627, 2,   109,  0, 6, 0.3, False) /* Create Leather Tassets for Wield */
-     , (30627, 2,   115,  0, 93, 0.3, False) /* Create Leather Boots for Wield */;
+VALUES (30627, 2,    36,  0, 7, 0.5, False) /* Create Leather Bracers (36) for Wield */
+     , (30627, 2,    39,  0, 7, 0.6, False) /* Create Leather Breastplate (39) for Wield */
+     , (30627, 2,    56,  0, 93, 0.5, False) /* Create Leather Gauntlets (56) for Wield */
+     , (30627, 2,    60,  0, 6, 0.3, False) /* Create Leather Girth (60) for Wield */
+     , (30627, 2,    65,  0, 6, 0.3, False) /* Create Leather Greaves (65) for Wield */
+     , (30627, 2,    86,  0, 7, 0.5, False) /* Create Leather Pauldrons (86) for Wield */
+     , (30627, 2,   109,  0, 6, 0.3, False) /* Create Leather Tassets (109) for Wield */
+     , (30627, 2,   115,  0, 93, 0.3, False) /* Create Leather Boots (115) for Wield */;

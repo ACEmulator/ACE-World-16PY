@@ -4,16 +4,16 @@ VALUES ('28068', 'robeguardian', 2) /* Clothing */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (28068,   1,          2) /* ItemType - Armor */
      , (28068,   3,         41) /* PaletteTemplate - SandyYellow */
-     , (28068,   4,      98048) /* ClothingPriority */
+     , (28068,   4,      98048) /* ClothingPriority - OuterwearUpperLegs, OuterwearLowerLegs, OuterwearChest, OuterwearAbdomen, OuterwearUpperArms, OuterwearLowerArms, Head, Feet */
      , (28068,   5,       2200) /* EncumbranceVal */
      , (28068,   8,        500) /* Mass */
-     , (28068,   9,      32513) /* ValidLocations */
+     , (28068,   9,      32513) /* ValidLocations - HeadWear, Armor */
      , (28068,  16,          1) /* ItemUseable - No */
      , (28068,  19,      16000) /* Value */
      , (28068,  27,          1) /* ArmorType */
      , (28068,  28,        200) /* ArmorLevel */
      , (28068,  33,          1) /* Bonded - Bonded */
-     , (28068,  93,       1044) /* PhysicsState */
+     , (28068,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (28068, 106,        300) /* ItemSpellcraft */
      , (28068, 107,        800) /* ItemCurMana */
      , (28068, 108,        800) /* ItemMaxMana */

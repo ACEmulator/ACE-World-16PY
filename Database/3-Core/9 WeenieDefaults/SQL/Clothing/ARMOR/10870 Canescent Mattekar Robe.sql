@@ -4,7 +4,7 @@ VALUES ('10870', 'robeharrowermattekarcanescent-xp', 2) /* Clothing */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (10870,   1,          2) /* ItemType - Armor */
      , (10870,   3,          2) /* PaletteTemplate - Blue */
-     , (10870,   4,      81664) /* ClothingPriority */
+     , (10870,   4,      81664) /* ClothingPriority - OuterwearUpperLegs, OuterwearLowerLegs, OuterwearChest, OuterwearAbdomen, OuterwearUpperArms, OuterwearLowerArms, Feet */
      , (10870,   5,        500) /* EncumbranceVal */
      , (10870,   8,        500) /* Mass */
      , (10870,   9,      32512) /* ValidLocations - Armor */
@@ -13,7 +13,7 @@ VALUES (10870,   1,          2) /* ItemType - Armor */
      , (10870,  27,          1) /* ArmorType */
      , (10870,  28,        120) /* ArmorLevel */
      , (10870,  33,          1) /* Bonded - Bonded */
-     , (10870,  93,       1044) /* PhysicsState */
+     , (10870,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (10870, 150,        103) /* HookPlacement - Hook */
      , (10870, 151,          2) /* HookType - Wall */;
 

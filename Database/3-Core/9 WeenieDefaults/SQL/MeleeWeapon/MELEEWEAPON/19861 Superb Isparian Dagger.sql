@@ -13,13 +13,13 @@ VALUES (19861,   1,          1) /* ItemType - MeleeWeapon */
      , (19861,  33,          1) /* Bonded - Bonded */
      , (19861,  36,       9999) /* ResistMagic */
      , (19861,  44,         14) /* Damage */
-     , (19861,  45,          3) /* DamageType */
+     , (19861,  45,          3) /* DamageType - Slash, Pierce */
      , (19861,  46,          2) /* DefaultCombatStyle - OneHanded */
-     , (19861,  47,          6) /* AttackType */
+     , (19861,  47,          6) /* AttackType - Thrust, Slash */
      , (19861,  48,          4) /* WeaponSkill - Dagger */
      , (19861,  49,         12) /* WeaponTime */
      , (19861,  51,          1) /* CombatUse - Melee */
-     , (19861,  93,       1044) /* PhysicsState */
+     , (19861,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (19861, 106,        100) /* ItemSpellcraft */
      , (19861, 107,        600) /* ItemCurMana */
      , (19861, 108,        600) /* ItemMaxMana */

@@ -11,7 +11,7 @@ VALUES (12232,   1,          8) /* ItemType - Jewelry */
      , (12232,  18,          1) /* UiEffects - Magical */
      , (12232,  19,       3000) /* Value */
      , (12232,  36,       9999) /* ResistMagic */
-     , (12232,  93,       1044) /* PhysicsState */
+     , (12232,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (12232, 106,        300) /* ItemSpellcraft */
      , (12232, 107,        600) /* ItemCurMana */
      , (12232, 108,        600) /* ItemMaxMana */

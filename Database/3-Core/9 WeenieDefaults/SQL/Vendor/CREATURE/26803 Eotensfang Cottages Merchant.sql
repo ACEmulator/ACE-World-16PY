@@ -10,10 +10,10 @@ VALUES (26803,   1,         16) /* ItemType - Creature */
      , (26803,  16,         32) /* ItemUseable - Remote */
      , (26803,  25,         10) /* Level */
      , (26803,  27,          0) /* ArmorType */
-     , (26803,  74,     264192) /* MerchandiseItemTypes */
+     , (26803,  74,     264192) /* MerchandiseItemTypes - Gem, PromissoryNote */
      , (26803,  75,          0) /* MerchandiseMinValue */
      , (26803,  76,    1000000) /* MerchandiseMaxValue */
-     , (26803,  93,    2098204) /* PhysicsState */
+     , (26803,  93,    2098204) /* PhysicsState - Ethereal, ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */
      , (26803, 126,        125) /* VendorHappyMean */
      , (26803, 127,        125) /* VendorHappyVariance */
      , (26803, 133,          4) /* ShowableOnRadar - ShowAlways */
@@ -97,4 +97,4 @@ VALUES (26803,  0,  4,  0,    0,    0,    0,    0,    0,    0,    0,    0,    0,
      , (26803,  8,  4,  2, 0.75,    0,    0,    0,    0,    0,    0,    0,    0,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (26803, 4, 26168, -1, 0, 0, False) /* Create Eotensfang Cottages Portal Gem for Shop */;
+VALUES (26803, 4, 26168, -1, 0, 0, False) /* Create Eotensfang Cottages Portal Gem (26168) for Shop */;

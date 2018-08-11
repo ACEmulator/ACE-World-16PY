@@ -10,8 +10,8 @@ VALUES (20025,   1,         16) /* ItemType - Creature */
      , (20025,  25,         61) /* Level */
      , (20025,  27,          0) /* ArmorType */
      , (20025,  68,          5) /* TargetingTactic */
-     , (20025,  93,    4197384) /* PhysicsState */
-     , (20025, 101,        183) /* AiAllowedCombatStyle */
+     , (20025,  93,    4197384) /* PhysicsState - ReportCollisions, Gravity, LightingOn, EdgeSlide */
+     , (20025, 101,        183) /* AiAllowedCombatStyle - Unarmed, OneHanded, OneHandedAndShield, Bow, Crossbow, ThrownWeapon */
      , (20025, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (20025, 140,          1) /* AiOptions */
      , (20025, 146,      21927) /* XpOverride */;

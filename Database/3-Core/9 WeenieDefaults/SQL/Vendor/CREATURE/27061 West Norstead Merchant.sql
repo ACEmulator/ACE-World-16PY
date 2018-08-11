@@ -10,10 +10,10 @@ VALUES (27061,   1,         16) /* ItemType - Creature */
      , (27061,  16,         32) /* ItemUseable - Remote */
      , (27061,  25,         10) /* Level */
      , (27061,  27,          0) /* ArmorType */
-     , (27061,  74,     264192) /* MerchandiseItemTypes */
+     , (27061,  74,     264192) /* MerchandiseItemTypes - Gem, PromissoryNote */
      , (27061,  75,          0) /* MerchandiseMinValue */
      , (27061,  76,    1000000) /* MerchandiseMaxValue */
-     , (27061,  93,    2098204) /* PhysicsState */
+     , (27061,  93,    2098204) /* PhysicsState - Ethereal, ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */
      , (27061, 126,        125) /* VendorHappyMean */
      , (27061, 127,        125) /* VendorHappyVariance */
      , (27061, 133,          4) /* ShowableOnRadar - ShowAlways */
@@ -97,4 +97,4 @@ VALUES (27061,  0,  4,  0,    0,    0,    0,    0,    0,    0,    0,    0,    0,
      , (27061,  8,  4,  2, 0.75,    0,    0,    0,    0,    0,    0,    0,    0,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (27061, 4, 26426, -1, 0, 0, False) /* Create West Norstead Portal Gem for Shop */;
+VALUES (27061, 4, 26426, -1, 0, 0, False) /* Create West Norstead Portal Gem (26426) for Shop */;

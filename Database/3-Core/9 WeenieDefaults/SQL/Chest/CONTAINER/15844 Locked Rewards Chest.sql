@@ -15,7 +15,7 @@ VALUES (15844,   1,        512) /* ItemType - Container */
      , (15844,  81,         20) /* MaxGeneratedObjects */
      , (15844,  82,         20) /* InitGeneratedObjects */
      , (15844,  83,          2) /* ActivationResponse - Use */
-     , (15844,  93,       1048) /* PhysicsState */
+     , (15844,  93,       1048) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity */
      , (15844,  96,        500) /* EncumbranceCapacity */
      , (15844, 100,          1) /* GeneratorType - Relative */;
 
@@ -52,4 +52,4 @@ VALUES (15844,   1,   33554556) /* Setup */
      , (15844,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (15844, -1, 15857, 30, 20, 20, 2, 8, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0);
+VALUES (15844, -1, 15857, 30, 20, 20, 2, 8, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Encrusted Bloodstone Jewel (15857) (x20 up to max of 20) - Regenerate upon PickUp - Location to (re)Generate: Contain */;

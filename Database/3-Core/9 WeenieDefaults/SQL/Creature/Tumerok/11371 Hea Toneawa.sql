@@ -11,7 +11,7 @@ VALUES (11371,   1,         16) /* ItemType - Creature */
      , (11371,  16,         32) /* ItemUseable - Remote */
      , (11371,  25,         11) /* Level */
      , (11371,  27,          0) /* ArmorType */
-     , (11371,  93,    6292504) /* PhysicsState */
+     , (11371,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (11371,  95,          8) /* RadarBlipColor - Yellow */
      , (11371, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (11371, 134,         16) /* PlayerKillerStatus - RubberGlue */
@@ -204,4 +204,4 @@ VALUES (@parent_id,  0,   5 /* Motion */, 1, 1, 318767239 /* Wave */, NULL, NULL
      , (@parent_id,  2,   3 /* Give */, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0, 11374 /* Note from Hea Toneawa to Aun Mariona */, 1, 0, 0, False, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (11371, 2, 11912,  1, 0, 1, False) /* Create Lance of the Quiddity for Wield */;
+VALUES (11371, 2, 11912,  1, 0, 1, False) /* Create Lance of the Quiddity (11912) for Wield */;

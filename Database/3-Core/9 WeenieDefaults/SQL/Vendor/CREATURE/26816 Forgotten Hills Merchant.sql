@@ -10,10 +10,10 @@ VALUES (26816,   1,         16) /* ItemType - Creature */
      , (26816,  16,         32) /* ItemUseable - Remote */
      , (26816,  25,         10) /* Level */
      , (26816,  27,          0) /* ArmorType */
-     , (26816,  74,     264192) /* MerchandiseItemTypes */
+     , (26816,  74,     264192) /* MerchandiseItemTypes - Gem, PromissoryNote */
      , (26816,  75,          0) /* MerchandiseMinValue */
      , (26816,  76,    1000000) /* MerchandiseMaxValue */
-     , (26816,  93,    2098204) /* PhysicsState */
+     , (26816,  93,    2098204) /* PhysicsState - Ethereal, ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */
      , (26816, 126,        125) /* VendorHappyMean */
      , (26816, 127,        125) /* VendorHappyVariance */
      , (26816, 133,          4) /* ShowableOnRadar - ShowAlways */
@@ -97,4 +97,4 @@ VALUES (26816,  0,  4,  0,    0,    0,    0,    0,    0,    0,    0,    0,    0,
      , (26816,  8,  4,  2, 0.75,    0,    0,    0,    0,    0,    0,    0,    0,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (26816, 4, 26181, -1, 0, 0, False) /* Create Forgotten Hills Portal Gem for Shop */;
+VALUES (26816, 4, 26181, -1, 0, 0, False) /* Create Forgotten Hills Portal Gem (26181) for Shop */;

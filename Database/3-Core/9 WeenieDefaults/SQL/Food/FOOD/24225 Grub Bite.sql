@@ -15,7 +15,7 @@ VALUES (24225,   1,         32) /* ItemType - Food */
      , (24225,  19,         10) /* Value */
      , (24225,  89,          4) /* BoosterEnum - Stamina */
      , (24225,  90,         17) /* BoostValue */
-     , (24225,  93,       1044) /* PhysicsState */;
+     , (24225,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (24225,   1, 'Grub Bite') /* Name */

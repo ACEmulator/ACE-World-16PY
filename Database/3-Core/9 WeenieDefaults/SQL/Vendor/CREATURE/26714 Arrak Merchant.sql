@@ -10,10 +10,10 @@ VALUES (26714,   1,         16) /* ItemType - Creature */
      , (26714,  16,         32) /* ItemUseable - Remote */
      , (26714,  25,         10) /* Level */
      , (26714,  27,          0) /* ArmorType */
-     , (26714,  74,     264192) /* MerchandiseItemTypes */
+     , (26714,  74,     264192) /* MerchandiseItemTypes - Gem, PromissoryNote */
      , (26714,  75,          0) /* MerchandiseMinValue */
      , (26714,  76,    1000000) /* MerchandiseMaxValue */
-     , (26714,  93,    2098204) /* PhysicsState */
+     , (26714,  93,    2098204) /* PhysicsState - Ethereal, ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */
      , (26714, 126,        125) /* VendorHappyMean */
      , (26714, 127,        125) /* VendorHappyVariance */
      , (26714, 133,          4) /* ShowableOnRadar - ShowAlways */
@@ -97,4 +97,4 @@ VALUES (26714,  0,  4,  0,    0,    0,    0,    0,    0,    0,    0,    0,    0,
      , (26714,  8,  4,  2, 0.75,    0,    0,    0,    0,    0,    0,    0,    0,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (26714, 4, 26079, -1, 0, 0, False) /* Create Arrak Portal Gem for Shop */;
+VALUES (26714, 4, 26079, -1, 0, 0, False) /* Create Arrak Portal Gem (26079) for Shop */;

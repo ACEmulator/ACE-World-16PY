@@ -7,7 +7,7 @@ VALUES (11722,   1,        128) /* ItemType - Misc */
      , (11722,  81,          2) /* MaxGeneratedObjects */
      , (11722,  82,          0) /* InitGeneratedObjects */
      , (11722,  83,      65536) /* ActivationResponse - Generate */
-     , (11722,  93,         12) /* PhysicsState */
+     , (11722,  93,         12) /* PhysicsState - Ethereal, ReportCollisions */
      , (11722, 119,          1) /* Active */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
@@ -36,4 +36,4 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (11722,  16,          0) /* ActivationTarget */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (11722, -1, 11481, 450, 2, 2, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0);
+VALUES (11722, -1, 11481, 450, 2, 2, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Olthoi Legionary (11481) (x2 up to max of 2) - Regenerate upon Destruction - Location to (re)Generate: Scatter */;

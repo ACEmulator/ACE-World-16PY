@@ -13,7 +13,7 @@ VALUES (8013,   1,         16) /* ItemType - Creature */
      , (8013,  40,          2) /* CombatMode - Melee */
      , (8013,  68,          5) /* TargetingTactic */
      , (8013,  69,          4) /* CombatTactic */
-     , (8013,  93,       3080) /* PhysicsState */
+     , (8013,  93,       3080) /* PhysicsState - ReportCollisions, Gravity, LightingOn */
      , (8013, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (8013, 146,       6900) /* XpOverride */;
 
@@ -73,7 +73,7 @@ VALUES (8013,   1,   33556732) /* Setup */
      , (8013,   7,  268435859) /* ClothingBase */
      , (8013,   8,  100670283) /* Icon */
      , (8013,  22,  872415347) /* PhysicsEffectTable */
-     , (8013,  35,         28) /* DeathTreasureType */;
+     , (8013,  35,         28) /* DeathTreasureType - Loot Tier: 2 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (8013,   1, 120, 0, 0) /* Strength */
@@ -130,13 +130,13 @@ VALUES (8013,  94) /* ATTACK_NOTIFICATION_EVENT */
      , (8013, 414) /* PLAYER_DEATH_EVENT */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (8013, 9,     0,  0, 0, 0, False) /* Create Unknown for ContainTreasure */
-     , (8013, 9,     0,  0, 0, 0, False) /* Create Unknown for ContainTreasure */
-     , (8013, 9,     0,  0, 0, 0, False) /* Create Unknown for ContainTreasure */
-     , (8013, 9,     0,  0, 0, 0, False) /* Create Unknown for ContainTreasure */
-     , (8013, 9,     0,  0, 0, 0, False) /* Create Unknown for ContainTreasure */
-     , (8013, 9,  8113,  0, 0, 1, False) /* Create Fenmalain Gem for ContainTreasure */
-     , (8013, 9,  8113,  0, 0, 1, False) /* Create Fenmalain Gem for ContainTreasure */
-     , (8013, 9,  8113,  0, 0, 1, False) /* Create Fenmalain Gem for ContainTreasure */
-     , (8013, 9,  8113,  0, 0, 1, False) /* Create Fenmalain Gem for ContainTreasure */
-     , (8013, 9,  8113,  0, 0, 1, False) /* Create Fenmalain Gem for ContainTreasure */;
+VALUES (8013, 9,     0,  0, 0, 0, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 2 for ContainTreasure */
+     , (8013, 9,     0,  0, 0, 0, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 2 for ContainTreasure */
+     , (8013, 9,     0,  0, 0, 0, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 2 for ContainTreasure */
+     , (8013, 9,     0,  0, 0, 0, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 2 for ContainTreasure */
+     , (8013, 9,     0,  0, 0, 0, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 2 for ContainTreasure */
+     , (8013, 9,  8113,  0, 0, 1, False) /* Create Fenmalain Gem (8113) for ContainTreasure */
+     , (8013, 9,  8113,  0, 0, 1, False) /* Create Fenmalain Gem (8113) for ContainTreasure */
+     , (8013, 9,  8113,  0, 0, 1, False) /* Create Fenmalain Gem (8113) for ContainTreasure */
+     , (8013, 9,  8113,  0, 0, 1, False) /* Create Fenmalain Gem (8113) for ContainTreasure */
+     , (8013, 9,  8113,  0, 0, 1, False) /* Create Fenmalain Gem (8113) for ContainTreasure */;

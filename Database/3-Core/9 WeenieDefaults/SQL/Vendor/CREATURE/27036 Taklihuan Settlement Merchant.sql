@@ -10,10 +10,10 @@ VALUES (27036,   1,         16) /* ItemType - Creature */
      , (27036,  16,         32) /* ItemUseable - Remote */
      , (27036,  25,         10) /* Level */
      , (27036,  27,          0) /* ArmorType */
-     , (27036,  74,     264192) /* MerchandiseItemTypes */
+     , (27036,  74,     264192) /* MerchandiseItemTypes - Gem, PromissoryNote */
      , (27036,  75,          0) /* MerchandiseMinValue */
      , (27036,  76,    1000000) /* MerchandiseMaxValue */
-     , (27036,  93,    2098204) /* PhysicsState */
+     , (27036,  93,    2098204) /* PhysicsState - Ethereal, ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */
      , (27036, 126,        125) /* VendorHappyMean */
      , (27036, 127,        125) /* VendorHappyVariance */
      , (27036, 133,          4) /* ShowableOnRadar - ShowAlways */
@@ -97,4 +97,4 @@ VALUES (27036,  0,  4,  0,    0,    0,    0,    0,    0,    0,    0,    0,    0,
      , (27036,  8,  4,  2, 0.75,    0,    0,    0,    0,    0,    0,    0,    0,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (27036, 4, 26401, -1, 0, 0, False) /* Create Taklihuan Settlement Portal Gem for Shop */;
+VALUES (27036, 4, 26401, -1, 0, 0, False) /* Create Taklihuan Settlement Portal Gem (26401) for Shop */;

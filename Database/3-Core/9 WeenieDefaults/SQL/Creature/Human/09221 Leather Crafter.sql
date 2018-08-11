@@ -10,7 +10,7 @@ VALUES (9221,   1,         16) /* ItemType - Creature */
      , (9221,  16,         32) /* ItemUseable - Remote */
      , (9221,  25,          8) /* Level */
      , (9221,  27,          0) /* ArmorType */
-     , (9221,  93,    6292504) /* PhysicsState */
+     , (9221,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (9221,  95,          8) /* RadarBlipColor - Yellow */
      , (9221, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (9221, 134,         16) /* PlayerKillerStatus - RubberGlue */
@@ -107,6 +107,6 @@ VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 1090519043 /* Ready */, NULL, NU
      , (@parent_id,  2,  10 /* Tell */, 1, 1, NULL, 'Flesh is... meaningless?  After the flesh?', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (9221, 2,   117,  0, 17, 1, False) /* Create Breeches for Wield */
-     , (9221, 2,  2591,  0, 9, 1, False) /* Create Shirt for Wield */
-     , (9221, 2,  2606,  0, 13, 0.5, False) /* Create Boots for Wield */;
+VALUES (9221, 2,   117,  0, 17, 1, False) /* Create Breeches (117) for Wield */
+     , (9221, 2,  2591,  0, 9, 1, False) /* Create Shirt (2591) for Wield */
+     , (9221, 2,  2606,  0, 13, 0.5, False) /* Create Boots (2606) for Wield */;

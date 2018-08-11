@@ -12,8 +12,8 @@ VALUES (1522,   1,         16) /* ItemType - Creature */
      , (1522,  27,          0) /* ArmorType */
      , (1522,  40,          1) /* CombatMode - NonCombat */
      , (1522,  68,          3) /* TargetingTactic */
-     , (1522,  93,       1032) /* PhysicsState */
-     , (1522, 101,        183) /* AiAllowedCombatStyle */
+     , (1522,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
+     , (1522, 101,        183) /* AiAllowedCombatStyle - Unarmed, OneHanded, OneHandedAndShield, Bow, Crossbow, ThrownWeapon */
      , (1522, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (1522, 140,          1) /* AiOptions */
      , (1522, 146,       2000) /* XpOverride */;
@@ -71,7 +71,7 @@ VALUES (1522,   1,   33554839) /* Setup */
      , (1522,   7,  268435558) /* ClothingBase */
      , (1522,   8,  100667942) /* Icon */
      , (1522,  22,  872415272) /* PhysicsEffectTable */
-     , (1522,  35,        462) /* DeathTreasureType */;
+     , (1522,  35,        462) /* DeathTreasureType - Loot Tier: 3 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (1522,   1, 120, 0, 0) /* Strength */
@@ -156,4 +156,4 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 318767236 /* Point */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (1522, 10,  6846,  0, 0, 1, False) /* Create Lightning Long Sword for WieldTreasure */;
+VALUES (1522, 10,  6846,  0, 0, 1, False) /* Create Lightning Long Sword (6846) for WieldTreasure */;

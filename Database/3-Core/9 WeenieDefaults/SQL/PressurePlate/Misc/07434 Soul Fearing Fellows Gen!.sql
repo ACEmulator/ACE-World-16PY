@@ -7,7 +7,7 @@ VALUES (7434,   1,        128) /* ItemType - Misc */
      , (7434,  81,          5) /* MaxGeneratedObjects */
      , (7434,  82,          0) /* InitGeneratedObjects */
      , (7434,  83,      65536) /* ActivationResponse - Generate */
-     , (7434,  93,         12) /* PhysicsState */
+     , (7434,  93,         12) /* PhysicsState - Ethereal, ReportCollisions */
      , (7434, 119,          1) /* Active */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
@@ -34,8 +34,8 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (7434,  16,          0) /* ActivationTarget */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (7434, -1, 7432, 240, 1, 1, 1, 4, -1, 0, 0, 0, 0, 0, 0, 0.7071068, 0, 0, -0.7071068)
-     , (7434, -1, 204, 240, 1, 1, 1, 4, -1, 0, 0, 0, -0.1, -0.1, 0, 0.7071068, 0, 0, -0.7071068)
-     , (7434, -1, 16, 240, 1, 1, 1, 4, -1, 0, 0, 0, 1.1, 0.1, 0, 0.7071068, 0, 0, -0.7071068)
-     , (7434, -1, 16, 240, 1, 1, 1, 4, -1, 0, 0, 0, 0.2, -0.1, 0, 0.6427876, 0, 0, -0.7660444)
-     , (7434, -1, 16, 240, 1, 1, 1, 4, -1, 0, 0, 0, -0.2, 0, 0, -4.371139E-08, 0, 0, -1);
+VALUES (7434, -1, 7432, 240, 1, 1, 1, 4, -1, 0, 0, 0, 0, 0, 0, 0.7071068, 0, 0, -0.7071068) /* Generate Lich (7432) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
+     , (7434, -1, 204, 240, 1, 1, 1, 4, -1, 0, 0, 0, -0.1, -0.1, 0, 0.7071068, 0, 0, -0.7071068) /* Generate Lich (204) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
+     , (7434, -1, 16, 240, 1, 1, 1, 4, -1, 0, 0, 0, 1.1, 0.1, 0, 0.7071068, 0, 0, -0.7071068) /* Generate Undead (16) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
+     , (7434, -1, 16, 240, 1, 1, 1, 4, -1, 0, 0, 0, 0.2, -0.1, 0, 0.6427876, 0, 0, -0.7660444) /* Generate Undead (16) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
+     , (7434, -1, 16, 240, 1, 1, 1, 4, -1, 0, 0, 0, -0.2, 0, 0, -4.371139E-08, 0, 0, -1) /* Generate Undead (16) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */;

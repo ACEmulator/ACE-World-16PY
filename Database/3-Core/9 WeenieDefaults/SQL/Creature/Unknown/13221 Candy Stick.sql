@@ -11,7 +11,7 @@ VALUES (13221,   1,         16) /* ItemType - Creature */
      , (13221,  27,          0) /* ArmorType */
      , (13221,  40,          2) /* CombatMode - Melee */
      , (13221,  68,          1) /* TargetingTactic */
-     , (13221,  93,    2098192) /* PhysicsState */
+     , (13221,  93,    2098192) /* PhysicsState - IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */
      , (13221,  95,          8) /* RadarBlipColor - Yellow */
      , (13221, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (13221, 146,          0) /* XpOverride */;
@@ -71,7 +71,7 @@ VALUES (13221,   1,   33557441) /* Setup */
      , (13221,   4,  805306398) /* CombatTable */
      , (13221,   8,  100672416) /* Icon */
      , (13221,  22,  872415274) /* PhysicsEffectTable */
-     , (13221,  35,         91) /* DeathTreasureType */;
+     , (13221,  35,         91) /* DeathTreasureType - Loot Tier: 2 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (13221,   1,  10, 0, 0) /* Strength */
@@ -124,4 +124,4 @@ VALUES (13221,  94) /* ATTACK_NOTIFICATION_EVENT */
      , (13221, 414) /* PLAYER_DEATH_EVENT */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (13221, 1, 13222, 10, 0, 0, False) /* Create Peppermint Stick for Contain */;
+VALUES (13221, 1, 13222, 10, 0, 0, False) /* Create Peppermint Stick (13222) for Contain */;

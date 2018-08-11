@@ -15,9 +15,9 @@ VALUES (11140,   1,         32) /* ItemType - Food */
      , (11140,  19,      10000) /* Value */
      , (11140,  89,          2) /* BoosterEnum - Health */
      , (11140,  90,        120) /* BoostValue */
-     , (11140,  93,       1044) /* PhysicsState */
+     , (11140,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (11140, 150,        103) /* HookPlacement - Hook */
-     , (11140, 151,          9) /* HookType */;
+     , (11140, 151,          9) /* HookType - Floor, Yard */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (11140,  23, True ) /* DestroyOnSell */;

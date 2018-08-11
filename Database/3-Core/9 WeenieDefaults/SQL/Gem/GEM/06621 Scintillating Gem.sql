@@ -14,7 +14,7 @@ VALUES (6621,   1,       2048) /* ItemType - Gem */
      , (6621,  15,          0) /* StackUnitValue */
      , (6621,  16,          1) /* ItemUseable - No */
      , (6621,  19,          0) /* Value */
-     , (6621,  93,       1044) /* PhysicsState */
+     , (6621,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (6621, 150,        103) /* HookPlacement - Hook */
      , (6621, 151,          2) /* HookType - Wall */;
 

@@ -4,8 +4,8 @@ VALUES ('11323', 'portaltanuacave-xp', 7) /* Portal */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (11323,   1,      65536) /* ItemType - Portal */
      , (11323,  16,         32) /* ItemUseable - Remote */
-     , (11323,  93,       3084) /* PhysicsState */
-     , (11323, 111,         49) /* PortalBitmask */
+     , (11323,  93,       3084) /* PhysicsState - Ethereal, ReportCollisions, Gravity, LightingOn */
+     , (11323, 111,         49) /* PortalBitmask - Unrestricted, NoSummon, NoRecall */
      , (11323, 133,          4) /* ShowableOnRadar - ShowAlways */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)

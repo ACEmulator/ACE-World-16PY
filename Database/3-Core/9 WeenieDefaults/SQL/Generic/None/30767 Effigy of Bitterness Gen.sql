@@ -4,7 +4,7 @@ VALUES ('30767', 'eventpvphate20effigygen', 1) /* Generic */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (30767,  81,          1) /* MaxGeneratedObjects */
      , (30767,  82,          1) /* InitGeneratedObjects */
-     , (30767,  93,       1044) /* PhysicsState */
+     , (30767,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (30767, 142,          3) /* GeneratorTimeType - Event */
      , (30767, 145,          2) /* GeneratorEndDestructionType - Destroy */;
 
@@ -27,4 +27,4 @@ VALUES (30767,   1,   33555051) /* Setup */
      , (30767,   8,  100667494) /* Icon */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (30767, -1, 30780, 10, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0);
+VALUES (30767, -1, 30780, 10, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Effigy of Bitterness (30780) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Scatter */;

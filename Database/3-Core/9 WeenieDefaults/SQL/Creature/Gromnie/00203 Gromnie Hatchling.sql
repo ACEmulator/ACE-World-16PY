@@ -11,7 +11,7 @@ VALUES (203,   1,         16) /* ItemType - Creature */
      , (203,  27,          0) /* ArmorType */
      , (203,  40,          2) /* CombatMode - Melee */
      , (203,  68,          9) /* TargetingTactic */
-     , (203,  93,       1032) /* PhysicsState */
+     , (203,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (203, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (203, 146,        121) /* XpOverride */;
 

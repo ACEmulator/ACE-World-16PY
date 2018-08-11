@@ -7,7 +7,7 @@ VALUES (29034,   1,        128) /* ItemType - Misc */
      , (29034,   8,         25) /* Mass */
      , (29034,  16,         32) /* ItemUseable - Remote */
      , (29034,  19,          0) /* Value */
-     , (29034,  93,       1040) /* PhysicsState */
+     , (29034,  93,       1040) /* PhysicsState - IgnoreCollisions, Gravity */
      , (29034,  99,          1) /* PkLevelModifier */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)

@@ -10,10 +10,10 @@ VALUES (4703,   1,         16) /* ItemType - Creature */
      , (4703,  16,         32) /* ItemUseable - Remote */
      , (4703,  25,         10) /* Level */
      , (4703,  27,          0) /* ArmorType */
-     , (4703,  74,     262148) /* MerchandiseItemTypes */
+     , (4703,  74,     262148) /* MerchandiseItemTypes - Clothing, PromissoryNote */
      , (4703,  75,          0) /* MerchandiseMinValue */
      , (4703,  76,     100000) /* MerchandiseMaxValue */
-     , (4703,  93,    2098200) /* PhysicsState */
+     , (4703,  93,    2098200) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */
      , (4703, 126,        250) /* VendorHappyMean */
      , (4703, 127,        250) /* VendorHappyVariance */
      , (4703, 133,          4) /* ShowableOnRadar - ShowAlways */
@@ -163,23 +163,23 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 318767235 /* Nod */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (4703, 2,   128,  0, 14, 0.8, False) /* Create Qafiya for Wield */
-     , (4703, 4,   133, -1, 18, 1, False) /* Create Slippers for Shop */
-     , (4703, 4,   133, -1, 14, 0.8, False) /* Create Slippers for Shop */
-     , (4703, 4,   133, -1, 16, 1, False) /* Create Slippers for Shop */
-     , (4703, 4,   135, -1, 18, 1, False) /* Create Turban for Shop */
-     , (4703, 4,   135, -1, 14, 0.8, False) /* Create Turban for Shop */
-     , (4703, 4,   135, -1, 16, 1, False) /* Create Turban for Shop */
-     , (4703, 2,  2587,  0, 18, 1, False) /* Create Shirt for Wield */
-     , (4703, 4,  2587, -1, 18, 1, False) /* Create Shirt for Shop */
-     , (4703, 4,  2587, -1, 14, 0.8, False) /* Create Shirt for Shop */
-     , (4703, 4,  2587, -1, 16, 1, False) /* Create Shirt for Shop */
-     , (4703, 4,  2598, -1, 18, 1, False) /* Create Pants for Shop */
-     , (4703, 4,  2598, -1, 14, 0.8, False) /* Create Pants for Shop */
-     , (4703, 4,  2598, -1, 16, 1, False) /* Create Pants for Shop */
-     , (4703, 2,  2601,  0, 16, 1, False) /* Create Pants for Wield */
-     , (4703, 2,  2606,  0, 16, 1, False) /* Create Boots for Wield */
-     , (4703, 4,  5852, -1, 0, 0, False) /* Create Dho Vest and Robe for Shop */
-     , (4703, 4,  5894, -1, 0, 0, False) /* Create Fez for Shop */
-     , (4703, 4,  8373, -1, 16, 0.5, False) /* Create Kiyafa Robe for Shop */
-     , (4703, 2, 10696,  0, 4, 0.5, False) /* Create Apron for Wield */;
+VALUES (4703, 2,   128,  0, 14, 0.8, False) /* Create Qafiya (128) for Wield */
+     , (4703, 4,   133, -1, 18, 1, False) /* Create Slippers (133) for Shop */
+     , (4703, 4,   133, -1, 14, 0.8, False) /* Create Slippers (133) for Shop */
+     , (4703, 4,   133, -1, 16, 1, False) /* Create Slippers (133) for Shop */
+     , (4703, 4,   135, -1, 18, 1, False) /* Create Turban (135) for Shop */
+     , (4703, 4,   135, -1, 14, 0.8, False) /* Create Turban (135) for Shop */
+     , (4703, 4,   135, -1, 16, 1, False) /* Create Turban (135) for Shop */
+     , (4703, 2,  2587,  0, 18, 1, False) /* Create Shirt (2587) for Wield */
+     , (4703, 4,  2587, -1, 18, 1, False) /* Create Shirt (2587) for Shop */
+     , (4703, 4,  2587, -1, 14, 0.8, False) /* Create Shirt (2587) for Shop */
+     , (4703, 4,  2587, -1, 16, 1, False) /* Create Shirt (2587) for Shop */
+     , (4703, 4,  2598, -1, 18, 1, False) /* Create Pants (2598) for Shop */
+     , (4703, 4,  2598, -1, 14, 0.8, False) /* Create Pants (2598) for Shop */
+     , (4703, 4,  2598, -1, 16, 1, False) /* Create Pants (2598) for Shop */
+     , (4703, 2,  2601,  0, 16, 1, False) /* Create Pants (2601) for Wield */
+     , (4703, 2,  2606,  0, 16, 1, False) /* Create Boots (2606) for Wield */
+     , (4703, 4,  5852, -1, 0, 0, False) /* Create Dho Vest and Robe (5852) for Shop */
+     , (4703, 4,  5894, -1, 0, 0, False) /* Create Fez (5894) for Shop */
+     , (4703, 4,  8373, -1, 16, 0.5, False) /* Create Kiyafa Robe (8373) for Shop */
+     , (4703, 2, 10696,  0, 4, 0.5, False) /* Create Apron (10696) for Wield */;

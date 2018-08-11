@@ -12,7 +12,7 @@ VALUES (13220,   1,         16) /* ItemType - Creature */
      , (13220,  67,         64) /* Tolerance */
      , (13220,  68,          9) /* TargetingTactic */
      , (13220,  72,         19) /* FriendType - Virindi */
-     , (13220,  93,       1032) /* PhysicsState */
+     , (13220,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (13220, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (13220, 140,          1) /* AiOptions */
      , (13220, 146,         16) /* XpOverride */;
@@ -110,5 +110,5 @@ VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 1090519043 /* Ready */, NULL, NU
      , (@parent_id,  1,   5 /* Motion */, 0, 1, 1090519060 /* Sleeping */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (13220, 9,     0,  0, 0, 0, False) /* Create Unknown for ContainTreasure */
-     , (13220, 9, 13225,  0, 0, 1, False) /* Create A Crumpled Note for ContainTreasure */;
+VALUES (13220, 9,     0,  0, 0, 0, False) /* Create UNKNOWN RANDOMLY GENERATED TREASURE for ContainTreasure */
+     , (13220, 9, 13225,  0, 0, 1, False) /* Create A Crumpled Note (13225) for ContainTreasure */;

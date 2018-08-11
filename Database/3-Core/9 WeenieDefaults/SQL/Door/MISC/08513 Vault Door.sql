@@ -9,7 +9,7 @@ VALUES (8513,   1,        128) /* ItemType - Misc */
      , (8513,  37,        200) /* ResistItemAppraisal */
      , (8513,  38,        500) /* ResistLockpick */
      , (8513,  83,         16) /* ActivationResponse - Talk */
-     , (8513,  93,         24) /* PhysicsState */
+     , (8513,  93,         24) /* PhysicsState - ReportCollisions, IgnoreCollisions */
      , (8513, 119,          1) /* Active */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)

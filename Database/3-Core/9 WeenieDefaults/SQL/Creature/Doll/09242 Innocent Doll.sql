@@ -11,7 +11,7 @@ VALUES (9242,   1,         16) /* ItemType - Creature */
      , (9242,  25,         53) /* Level */
      , (9242,  68,          9) /* TargetingTactic */
      , (9242,  72,         19) /* FriendType - Virindi */
-     , (9242,  93,       1032) /* PhysicsState */
+     , (9242,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (9242, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (9242, 140,          1) /* AiOptions */
      , (9242, 146,       8917) /* XpOverride */;
@@ -71,7 +71,7 @@ VALUES (9242,   1,   33556996) /* Setup */
      , (9242,   8,  100671421) /* Icon */
      , (9242,  22,  872415373) /* PhysicsEffectTable */
      , (9242,  30,         86) /* PhysicsScript - BreatheAcid */
-     , (9242,  35,        463) /* DeathTreasureType */;
+     , (9242,  35,        463) /* DeathTreasureType - Loot Tier: 2 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (9242,   1, 150, 0, 0) /* Strength */
@@ -173,5 +173,5 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 268435539 /* Twitch3 */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (9242, 9,     0,  0, 0, 0.97, False) /* Create Unknown for ContainTreasure */
-     , (9242, 9,  9225,  0, 0, 0.03, False) /* Create Obsidian Shard for ContainTreasure */;
+VALUES (9242, 9,     0,  0, 0, 0.97, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 2 for ContainTreasure */
+     , (9242, 9,  9225,  0, 0, 0.03, False) /* Create Obsidian Shard (9225) for ContainTreasure */;

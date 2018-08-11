@@ -14,7 +14,7 @@ VALUES (27659,   1,        512) /* ItemType - Container */
      , (27659,  81,          3) /* MaxGeneratedObjects */
      , (27659,  82,          3) /* InitGeneratedObjects */
      , (27659,  83,       4096) /* ActivationResponse - CastSpell */
-     , (27659,  93,       1048) /* PhysicsState */
+     , (27659,  93,       1048) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity */
      , (27659,  96,       5000) /* EncumbranceCapacity */
      , (27659, 100,          1) /* GeneratorType - Relative */
      , (27659, 106,        400) /* ItemSpellcraft */
@@ -50,6 +50,6 @@ VALUES (27659,   1,   33558692) /* Setup */
      , (27659,  28,         85) /* Spell - Flame Bolt VI */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (27659, -1, 27654, 0, 1, 1, 2, 8, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0)
-     , (27659, -1, 27706, 0, 1, 1, 2, 8, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0)
-     , (27659, -1, 27670, 0, 1, 1, 2, 8, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0);
+VALUES (27659, -1, 27654, 0, 1, 1, 2, 8, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Coarse Hide Shirt (27654) (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: Contain */
+     , (27659, -1, 27706, 0, 1, 1, 2, 8, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Mana Oil (27706) (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: Contain */
+     , (27659, -1, 27670, 0, 1, 1, 2, 8, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Distilled Mana Potion (27670) (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: Contain */;

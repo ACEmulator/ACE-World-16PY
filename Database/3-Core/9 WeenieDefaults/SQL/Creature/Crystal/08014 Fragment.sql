@@ -13,7 +13,7 @@ VALUES (8014,   1,         16) /* ItemType - Creature */
      , (8014,  40,          2) /* CombatMode - Melee */
      , (8014,  68,          5) /* TargetingTactic */
      , (8014,  69,          4) /* CombatTactic */
-     , (8014,  93,       3080) /* PhysicsState */
+     , (8014,  93,       3080) /* PhysicsState - ReportCollisions, Gravity, LightingOn */
      , (8014, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (8014, 146,       4347) /* XpOverride */;
 
@@ -73,7 +73,7 @@ VALUES (8014,   1,   33556729) /* Setup */
      , (8014,   7,  268435859) /* ClothingBase */
      , (8014,   8,  100670396) /* Icon */
      , (8014,  22,  872415348) /* PhysicsEffectTable */
-     , (8014,  35,        463) /* DeathTreasureType */;
+     , (8014,  35,        463) /* DeathTreasureType - Loot Tier: 2 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (8014,   1,  90, 0, 0) /* Strength */
@@ -129,9 +129,9 @@ VALUES (8014,  94) /* ATTACK_NOTIFICATION_EVENT */
      , (8014, 414) /* PLAYER_DEATH_EVENT */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (8014, 9,     0,  0, 0, 0.98, False) /* Create Unknown for ContainTreasure */
-     , (8014, 9,     0,  0, 0, 0.98, False) /* Create Unknown for ContainTreasure */
-     , (8014, 9,     0,  0, 0, 0.97, False) /* Create Unknown for ContainTreasure */
-     , (8014, 9,  6055,  0, 0, 0.02, False) /* Create Cracked Shard for ContainTreasure */
-     , (8014, 9,  6057,  0, 0, 0.02, False) /* Create Tiny Shard for ContainTreasure */
-     , (8014, 9, 20860,  0, 0, 0.03, False) /* Create Herald Stamp for ContainTreasure */;
+VALUES (8014, 9,     0,  0, 0, 0.98, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 2 for ContainTreasure */
+     , (8014, 9,     0,  0, 0, 0.98, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 2 for ContainTreasure */
+     , (8014, 9,     0,  0, 0, 0.97, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 2 for ContainTreasure */
+     , (8014, 9,  6055,  0, 0, 0.02, False) /* Create Cracked Shard (6055) for ContainTreasure */
+     , (8014, 9,  6057,  0, 0, 0.02, False) /* Create Tiny Shard (6057) for ContainTreasure */
+     , (8014, 9, 20860,  0, 0, 0.03, False) /* Create Herald Stamp (20860) for ContainTreasure */;

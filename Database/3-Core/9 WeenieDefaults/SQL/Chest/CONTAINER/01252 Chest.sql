@@ -14,7 +14,7 @@ VALUES (1252,   1,        512) /* ItemType - Container */
      , (1252,  81,          1) /* MaxGeneratedObjects */
      , (1252,  82,          1) /* InitGeneratedObjects */
      , (1252,  83,       4096) /* ActivationResponse - CastSpell */
-     , (1252,  93,       1048) /* PhysicsState */
+     , (1252,  93,       1048) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity */
      , (1252,  96,        500) /* EncumbranceCapacity */
      , (1252, 100,          1) /* GeneratorType - Relative */
      , (1252, 106,        200) /* ItemSpellcraft */
@@ -50,4 +50,4 @@ VALUES (1252,   1,   33554556) /* Setup */
      , (1252,  28,       1418) /* Spell - Slowness Other IV */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (1252, 1, 93, 30, 1, 1, 2, 72, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0);
+VALUES (1252, 1, 93, 30, 1, 1, 2, 72, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate UNKNOWN RANDOMLY GENERATED TREASURE (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: ContainTreasure */;

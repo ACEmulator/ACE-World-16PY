@@ -10,10 +10,10 @@ VALUES (26926,   1,         16) /* ItemType - Creature */
      , (26926,  16,         32) /* ItemUseable - Remote */
      , (26926,  25,         10) /* Level */
      , (26926,  27,          0) /* ArmorType */
-     , (26926,  74,     264192) /* MerchandiseItemTypes */
+     , (26926,  74,     264192) /* MerchandiseItemTypes - Gem, PromissoryNote */
      , (26926,  75,          0) /* MerchandiseMinValue */
      , (26926,  76,    1000000) /* MerchandiseMaxValue */
-     , (26926,  93,    2098204) /* PhysicsState */
+     , (26926,  93,    2098204) /* PhysicsState - Ethereal, ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */
      , (26926, 126,        125) /* VendorHappyMean */
      , (26926, 127,        125) /* VendorHappyVariance */
      , (26926, 133,          4) /* ShowableOnRadar - ShowAlways */
@@ -97,4 +97,4 @@ VALUES (26926,  0,  4,  0,    0,    0,    0,    0,    0,    0,    0,    0,    0,
      , (26926,  8,  4,  2, 0.75,    0,    0,    0,    0,    0,    0,    0,    0,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (26926, 4, 26291, -1, 0, 0, False) /* Create Nidal-Taraq Villas Portal Gem for Shop */;
+VALUES (26926, 4, 26291, -1, 0, 0, False) /* Create Nidal-Taraq Villas Portal Gem (26291) for Shop */;

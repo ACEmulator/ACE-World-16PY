@@ -10,10 +10,10 @@ VALUES (26934,   1,         16) /* ItemType - Creature */
      , (26934,  16,         32) /* ItemUseable - Remote */
      , (26934,  25,         10) /* Level */
      , (26934,  27,          0) /* ArmorType */
-     , (26934,  74,     264192) /* MerchandiseItemTypes */
+     , (26934,  74,     264192) /* MerchandiseItemTypes - Gem, PromissoryNote */
      , (26934,  75,          0) /* MerchandiseMinValue */
      , (26934,  76,    1000000) /* MerchandiseMaxValue */
-     , (26934,  93,    2098204) /* PhysicsState */
+     , (26934,  93,    2098204) /* PhysicsState - Ethereal, ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */
      , (26934, 126,        125) /* VendorHappyMean */
      , (26934, 127,        125) /* VendorHappyVariance */
      , (26934, 133,          4) /* ShowableOnRadar - ShowAlways */
@@ -97,4 +97,4 @@ VALUES (26934,  0,  4,  0,    0,    0,    0,    0,    0,    0,    0,    0,    0,
      , (26934,  8,  4,  2, 0.75,    0,    0,    0,    0,    0,    0,    0,    0,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (26934, 4, 26299, -1, 0, 0, False) /* Create Northreach Portal Gem for Shop */;
+VALUES (26934, 4, 26299, -1, 0, 0, False) /* Create Northreach Portal Gem (26299) for Shop */;

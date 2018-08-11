@@ -11,7 +11,7 @@ VALUES (28253,   1,         16) /* ItemType - Creature */
      , (28253,  25,        105) /* Level */
      , (28253,  40,          2) /* CombatMode - Melee */
      , (28253,  68,         13) /* TargetingTactic */
-     , (28253,  93,       1032) /* PhysicsState */
+     , (28253,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (28253, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (28253, 146,      34720) /* XpOverride */;
 
@@ -69,7 +69,7 @@ VALUES (28253,   1,   33558817) /* Setup */
      , (28253,   7,  268436836) /* ClothingBase */
      , (28253,   8,  100667450) /* Icon */
      , (28253,  22,  872415266) /* PhysicsEffectTable */
-     , (28253,  35,        460) /* DeathTreasureType */;
+     , (28253,  35,        460) /* DeathTreasureType - Loot Tier: 4 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (28253,   1, 190, 0, 0) /* Strength */
@@ -111,5 +111,5 @@ INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
 VALUES (28253, 414) /* PLAYER_DEATH_EVENT */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (28253, 9,     0,  0, 0, 0.99, False) /* Create Unknown for ContainTreasure */
-     , (28253, 9, 24477,  0, 0, 0.01, False) /* Create Sturdy Steel Key for ContainTreasure */;
+VALUES (28253, 9,     0,  0, 0, 0.99, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 4 for ContainTreasure */
+     , (28253, 9, 24477,  0, 0, 0.01, False) /* Create Sturdy Steel Key (24477) for ContainTreasure */;

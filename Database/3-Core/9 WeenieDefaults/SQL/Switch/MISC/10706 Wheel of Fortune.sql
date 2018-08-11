@@ -5,7 +5,7 @@ INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (10706,   1,        128) /* ItemType - Misc */
      , (10706,  16,         32) /* ItemUseable - Remote */
      , (10706,  83,          2) /* ActivationResponse - Use */
-     , (10706,  93,         16) /* PhysicsState - IgnoreCollision */;
+     , (10706,  93,         16) /* PhysicsState - IgnoreCollisions */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (10706,   1, True ) /* Stuck */

@@ -14,8 +14,8 @@ VALUES (7061,   1,        128) /* ItemType - Misc */
      , (7061,  15,          0) /* StackUnitValue */
      , (7061,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
      , (7061,  19,          0) /* Value */
-     , (7061,  93,       1044) /* PhysicsState */
-     , (7061,  94,        128) /* TargetType - Misc */;
+     , (7061,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (7061,  94,        128) /* TargetType - 128 */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (7061,  22, True ) /* Inscribable */

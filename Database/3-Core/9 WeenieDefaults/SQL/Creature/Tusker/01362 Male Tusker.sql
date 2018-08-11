@@ -12,7 +12,7 @@ VALUES (1362,   1,         16) /* ItemType - Creature */
      , (1362,  27,          0) /* ArmorType */
      , (1362,  40,          2) /* CombatMode - Melee */
      , (1362,  68,          9) /* TargetingTactic */
-     , (1362,  93,       1032) /* PhysicsState */
+     , (1362,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (1362, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (1362, 146,        762) /* XpOverride */;
 
@@ -66,7 +66,7 @@ VALUES (1362,   1,   33556836) /* Setup */
      , (1362,   7,  268436059) /* ClothingBase */
      , (1362,   8,  100667443) /* Icon */
      , (1362,  22,  872415271) /* PhysicsEffectTable */
-     , (1362,  35,        232) /* DeathTreasureType */;
+     , (1362,  35,        232) /* DeathTreasureType - Loot Tier: 2 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (1362,   1, 200, 0, 0) /* Strength */
@@ -138,6 +138,6 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 268435538 /* Twitch2 */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (1362, 9,     0,  0, 0, 0.98, False) /* Create Unknown for ContainTreasure */
-     , (1362, 9,    46,  0, 0, 0.2, False) /* Create Metal Cap for ContainTreasure */
-     , (1362, 1,  1361,  0, 0, 1, False) /* Create Worn Key for Contain */;
+VALUES (1362, 9,     0,  0, 0, 0.98, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 2 for ContainTreasure */
+     , (1362, 9,    46,  0, 0, 0.2, False) /* Create Metal Cap (46) for ContainTreasure */
+     , (1362, 1,  1361,  0, 0, 1, False) /* Create Worn Key (1361) for Contain */;

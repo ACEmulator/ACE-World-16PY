@@ -14,7 +14,7 @@ VALUES (10802,   1,         16) /* ItemType - Creature */
      , (10802,  69,          4) /* CombatTactic */
      , (10802,  81,          4) /* MaxGeneratedObjects */
      , (10802,  82,          0) /* InitGeneratedObjects */
-     , (10802,  93,       3080) /* PhysicsState */
+     , (10802,  93,       3080) /* PhysicsState - ReportCollisions, Gravity, LightingOn */
      , (10802, 103,          1) /* GeneratorDestructionType - Nothing */
      , (10802, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (10802, 146,      43789) /* XpOverride */;
@@ -75,7 +75,7 @@ VALUES (10802,   1,   33557098) /* Setup */
      , (10802,   4,  805306407) /* CombatTable */
      , (10802,   8,  100671702) /* Icon */
      , (10802,  22,  872415375) /* PhysicsEffectTable */
-     , (10802,  35,        460) /* DeathTreasureType */;
+     , (10802,  35,        460) /* DeathTreasureType - Loot Tier: 4 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (10802,   1, 140, 0, 0) /* Strength */
@@ -123,7 +123,7 @@ VALUES (10802,  94) /* ATTACK_NOTIFICATION_EVENT */
      , (10802, 414) /* PLAYER_DEATH_EVENT */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (10802, 0.5, 10808, 1800, 1, 1, 1, 4, -1, 0, 0, 0, -2, -1, 9, 0.8191521, 0, 0, -0.5735765)
-     , (10802, 0.75, 10775, 1800, 1, 1, 1, 4, -1, 0, 0, 0, 2.4, 3.4, 9, 0.9659258, 0, 0, -0.258819)
-     , (10802, 0.85, 10778, 1800, 1, 1, 1, 4, -1, 0, 0, 0, 2.4, -1.4, 9, 0.9961947, 0, 0, -0.08715574)
-     , (10802, 0.9, 10818, 1800, 1, 1, 1, 4, -1, 0, 0, 0, -2, -2, 9, 0.9961947, 0, 0, -0.08715574);
+VALUES (10802, 0.5, 10808, 1800, 1, 1, 1, 4, -1, 0, 0, 0, -2, -1, 9, 0.8191521, 0, 0, -0.5735765) /* Generate Augmented Tumerok (10808) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
+     , (10802, 0.75, 10775, 1800, 1, 1, 1, 4, -1, 0, 0, 0, 2.4, 3.4, 9, 0.9659258, 0, 0, -0.258819) /* Generate Augmented Drudge (10775) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
+     , (10802, 0.85, 10778, 1800, 1, 1, 1, 4, -1, 0, 0, 0, 2.4, -1.4, 9, 0.9961947, 0, 0, -0.08715574) /* Generate Unconquered Drudge (10778) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
+     , (10802, 0.9, 10818, 1800, 1, 1, 1, 4, -1, 0, 0, 0, -2, -2, 9, 0.9961947, 0, 0, -0.08715574) /* Generate Virindi Executor (10818) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */;

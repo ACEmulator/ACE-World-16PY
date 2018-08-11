@@ -14,7 +14,7 @@ VALUES (8028,   1,          2) /* ItemType - Armor */
      , (8028,  28,        140) /* ArmorLevel */
      , (8028,  36,       9999) /* ResistMagic */
      , (8028,  51,          4) /* CombatUse - Shield */
-     , (8028,  93,       1044) /* PhysicsState */
+     , (8028,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (8028, 106,        150) /* ItemSpellcraft */
      , (8028, 107,        300) /* ItemCurMana */
      , (8028, 108,        350) /* ItemMaxMana */

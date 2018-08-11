@@ -4,15 +4,15 @@ VALUES ('13241', 'leggingsleatheracademy', 2) /* Clothing */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (13241,   1,          2) /* ItemType - Armor */
      , (13241,   3,          4) /* PaletteTemplate - Brown */
-     , (13241,   4,        768) /* ClothingPriority */
+     , (13241,   4,        768) /* ClothingPriority - OuterwearUpperLegs, OuterwearLowerLegs */
      , (13241,   5,        960) /* EncumbranceVal */
      , (13241,   8,        320) /* Mass */
-     , (13241,   9,      24576) /* ValidLocations */
+     , (13241,   9,      24576) /* ValidLocations - UpperLegArmor, LowerLegArmor */
      , (13241,  16,          1) /* ItemUseable - No */
      , (13241,  19,          0) /* Value */
      , (13241,  27,          2) /* ArmorType */
      , (13241,  28,         20) /* ArmorLevel */
-     , (13241,  93,       1044) /* PhysicsState */;
+     , (13241,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (13241,  22, True ) /* Inscribable */;

@@ -10,10 +10,10 @@ VALUES (26719,   1,         16) /* ItemType - Creature */
      , (26719,  16,         32) /* ItemUseable - Remote */
      , (26719,  25,         10) /* Level */
      , (26719,  27,          0) /* ArmorType */
-     , (26719,  74,     264192) /* MerchandiseItemTypes */
+     , (26719,  74,     264192) /* MerchandiseItemTypes - Gem, PromissoryNote */
      , (26719,  75,          0) /* MerchandiseMinValue */
      , (26719,  76,    1000000) /* MerchandiseMaxValue */
-     , (26719,  93,    2098204) /* PhysicsState */
+     , (26719,  93,    2098204) /* PhysicsState - Ethereal, ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */
      , (26719, 126,        125) /* VendorHappyMean */
      , (26719, 127,        125) /* VendorHappyVariance */
      , (26719, 133,          4) /* ShowableOnRadar - ShowAlways */
@@ -97,4 +97,4 @@ VALUES (26719,  0,  4,  0,    0,    0,    0,    0,    0,    0,    0,    0,    0,
      , (26719,  8,  4,  2, 0.75,    0,    0,    0,    0,    0,    0,    0,    0,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (26719, 4, 26084, -1, 0, 0, False) /* Create Auralla Settlement Portal Gem for Shop */;
+VALUES (26719, 4, 26084, -1, 0, 0, False) /* Create Auralla Settlement Portal Gem (26084) for Shop */;

@@ -11,7 +11,7 @@ VALUES (8054,   1,         16) /* ItemType - Creature */
      , (8054,  25,          2) /* Level */
      , (8054,  40,          2) /* CombatMode - Melee */
      , (8054,  68,         15) /* TargetingTactic */
-     , (8054,  93,       1032) /* PhysicsState */
+     , (8054,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (8054, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (8054, 146,         25) /* XpOverride */;
 
@@ -123,5 +123,5 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,  17 /* LocalBroadcast */, 0, 0, NULL, 'The Shadow Sprite hisses at you in hatred as its life seeps away.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (8054, 9,     0,  0, 0, 0.998, False) /* Create Unknown for ContainTreasure */
-     , (8054, 9,  6060,  0, 0, 0.002, False) /* Create Dark Speck for ContainTreasure */;
+VALUES (8054, 9,     0,  0, 0, 0.998, False) /* Create UNKNOWN RANDOMLY GENERATED TREASURE for ContainTreasure */
+     , (8054, 9,  6060,  0, 0, 0.002, False) /* Create Dark Speck (6060) for ContainTreasure */;

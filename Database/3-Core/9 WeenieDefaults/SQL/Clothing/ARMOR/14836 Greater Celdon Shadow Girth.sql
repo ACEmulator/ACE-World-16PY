@@ -13,7 +13,7 @@ VALUES (14836,   1,          2) /* ItemType - Armor */
      , (14836,  27,         32) /* ArmorType */
      , (14836,  28,        210) /* ArmorLevel */
      , (14836,  33,          1) /* Bonded - Bonded */
-     , (14836,  93,       1044) /* PhysicsState */
+     , (14836,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (14836, 158,          7) /* WieldRequirements - Level */
      , (14836, 159,          1) /* WieldSkilltype - Axe */
      , (14836, 160,         30) /* WieldDifficulty */;

@@ -9,7 +9,7 @@ VALUES (22863,   1,       8192) /* ItemType - Writable */
      , (22863,  16,          8) /* ItemUseable - Contained */
      , (22863,  19,         20) /* Value */
      , (22863,  33,          1) /* Bonded - Bonded */
-     , (22863,  93,       1044) /* PhysicsState */
+     , (22863,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (22863, 150,        103) /* HookPlacement - Hook */
      , (22863, 151,          2) /* HookType - Wall */;
 

@@ -10,10 +10,10 @@ VALUES (657,   1,         16) /* ItemType - Creature */
      , (657,  16,         32) /* ItemUseable - Remote */
      , (657,  25,          6) /* Level */
      , (657,  27,          0) /* ArmorType */
-     , (657,  74,     288679) /* MerchandiseItemTypes */
+     , (657,  74,     288679) /* MerchandiseItemTypes - Vestements, Food, Weapon, LockableMagicTarget, Useless, Writable, Key, PromissoryNote */
      , (657,  75,          0) /* MerchandiseMinValue */
      , (657,  76,     100000) /* MerchandiseMaxValue */
-     , (657,  93,    2098200) /* PhysicsState */
+     , (657,  93,    2098200) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */
      , (657, 126,        500) /* VendorHappyMean */
      , (657, 127,        500) /* VendorHappyVariance */
      , (657, 133,          4) /* ShowableOnRadar - ShowAlways */
@@ -163,40 +163,40 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 318767235 /* Nod */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (657, 4,    36, -1, 0, 0, False) /* Create Leather Bracers for Shop */
-     , (657, 4,    39, -1, 0, 0, False) /* Create Leather Breastplate for Shop */
-     , (657, 4,    44, -1, 0, 0, False) /* Create Buckler for Shop */
-     , (657, 4,    45, -1, 0, 0, False) /* Create Leather Cap for Shop */
-     , (657, 4,    65, -1, 0, 0, False) /* Create Leather Greaves for Shop */
-     , (657, 4,   109, -1, 0, 0, False) /* Create Leather Tassets for Shop */
-     , (657, 4,   119, -1, 0, 0, False) /* Create Cowl for Shop */
-     , (657, 2,   124,  0, 5, 0, False) /* Create Jerkin for Wield */
-     , (657, 2,   127,  0, 2, 0.67, False) /* Create Pants for Wield */
-     , (657, 4,   127, -1, 0, 0, False) /* Create Pants for Shop */
-     , (657, 4,   130, -1, 0, 0, False) /* Create Shirt for Shop */
-     , (657, 2,   132,  0, 5, 0, False) /* Create Shoes for Wield */
-     , (657, 4,   132, -1, 0, 0, False) /* Create Shoes for Shop */
-     , (657, 4,   136, -1, 8, 1, False) /* Create Pack for Shop */
-     , (657, 4,   139, -1, 84, 0, False) /* Create Small Belt Pouch for Shop */
-     , (657, 4,   258, -1, 0, 0, False) /* Create Apple for Shop */
-     , (657, 4,   259, -1, 0, 0, False) /* Create Bread for Shop */
-     , (657, 4,   261, -1, 0, 0, False) /* Create Cheese for Shop */
-     , (657, 4,   300, -1, 0, 0, False) /* Create Arrow for Shop */
-     , (657, 4,   303, -1, 0, 0, False) /* Create Hand Axe for Shop */
-     , (657, 4,   309, -1, 0, 0, False) /* Create Club for Shop */
-     , (657, 4,   314, -1, 0, 0, False) /* Create Dagger for Shop */
-     , (657, 4,   316, -1, 0, 0, False) /* Create Throwing Dart for Shop */
-     , (657, 4,   329, -1, 0, 0, False) /* Create Knife for Shop */
-     , (657, 4,   365, -1, 0, 0, False) /* Create Parchment for Shop */
-     , (657, 4,  2451, -1, 0, 0, False) /* Create Ale for Shop */
-     , (657, 4,  2452, -1, 0, 0, False) /* Create Apple Juice for Shop */
-     , (657, 4,  2453, -1, 0, 0, False) /* Create Cider for Shop */
-     , (657, 4,  2454, -1, 0, 0, False) /* Create Coffee for Shop */
-     , (657, 4,  2455, -1, 0, 0, False) /* Create Grape Juice for Shop */
-     , (657, 4,  2456, -1, 0, 0, False) /* Create Green Tea for Shop */
-     , (657, 4,  2459, -1, 0, 0, False) /* Create Kumiss for Shop */
-     , (657, 4,  2462, -1, 0, 0, False) /* Create Mead for Shop */
-     , (657, 4,  2463, -1, 0, 0, False) /* Create Milk for Shop */
-     , (657, 4,  2621, -1, 0, 0, False) /* Create Trade Note (100) for Shop */
-     , (657, 2, 10696,  0, 9, 1, False) /* Create Apron for Wield */
-     , (657, 4, 22168, -1, 0, 0, False) /* Create Quarter Staff for Shop */;
+VALUES (657, 4,    36, -1, 0, 0, False) /* Create Leather Bracers (36) for Shop */
+     , (657, 4,    39, -1, 0, 0, False) /* Create Leather Breastplate (39) for Shop */
+     , (657, 4,    44, -1, 0, 0, False) /* Create Buckler (44) for Shop */
+     , (657, 4,    45, -1, 0, 0, False) /* Create Leather Cap (45) for Shop */
+     , (657, 4,    65, -1, 0, 0, False) /* Create Leather Greaves (65) for Shop */
+     , (657, 4,   109, -1, 0, 0, False) /* Create Leather Tassets (109) for Shop */
+     , (657, 4,   119, -1, 0, 0, False) /* Create Cowl (119) for Shop */
+     , (657, 2,   124,  0, 5, 0, False) /* Create Jerkin (124) for Wield */
+     , (657, 2,   127,  0, 2, 0.67, False) /* Create Pants (127) for Wield */
+     , (657, 4,   127, -1, 0, 0, False) /* Create Pants (127) for Shop */
+     , (657, 4,   130, -1, 0, 0, False) /* Create Shirt (130) for Shop */
+     , (657, 2,   132,  0, 5, 0, False) /* Create Shoes (132) for Wield */
+     , (657, 4,   132, -1, 0, 0, False) /* Create Shoes (132) for Shop */
+     , (657, 4,   136, -1, 8, 1, False) /* Create Pack (136) for Shop */
+     , (657, 4,   139, -1, 84, 0, False) /* Create Small Belt Pouch (139) for Shop */
+     , (657, 4,   258, -1, 0, 0, False) /* Create Apple (258) for Shop */
+     , (657, 4,   259, -1, 0, 0, False) /* Create Bread (259) for Shop */
+     , (657, 4,   261, -1, 0, 0, False) /* Create Cheese (261) for Shop */
+     , (657, 4,   300, -1, 0, 0, False) /* Create Arrow (300) for Shop */
+     , (657, 4,   303, -1, 0, 0, False) /* Create Hand Axe (303) for Shop */
+     , (657, 4,   309, -1, 0, 0, False) /* Create Club (309) for Shop */
+     , (657, 4,   314, -1, 0, 0, False) /* Create Dagger (314) for Shop */
+     , (657, 4,   316, -1, 0, 0, False) /* Create Throwing Dart (316) for Shop */
+     , (657, 4,   329, -1, 0, 0, False) /* Create Knife (329) for Shop */
+     , (657, 4,   365, -1, 0, 0, False) /* Create Parchment (365) for Shop */
+     , (657, 4,  2451, -1, 0, 0, False) /* Create Ale (2451) for Shop */
+     , (657, 4,  2452, -1, 0, 0, False) /* Create Apple Juice (2452) for Shop */
+     , (657, 4,  2453, -1, 0, 0, False) /* Create Cider (2453) for Shop */
+     , (657, 4,  2454, -1, 0, 0, False) /* Create Coffee (2454) for Shop */
+     , (657, 4,  2455, -1, 0, 0, False) /* Create Grape Juice (2455) for Shop */
+     , (657, 4,  2456, -1, 0, 0, False) /* Create Green Tea (2456) for Shop */
+     , (657, 4,  2459, -1, 0, 0, False) /* Create Kumiss (2459) for Shop */
+     , (657, 4,  2462, -1, 0, 0, False) /* Create Mead (2462) for Shop */
+     , (657, 4,  2463, -1, 0, 0, False) /* Create Milk (2463) for Shop */
+     , (657, 4,  2621, -1, 0, 0, False) /* Create Trade Note (100) (2621) for Shop */
+     , (657, 2, 10696,  0, 9, 1, False) /* Create Apron (10696) for Wield */
+     , (657, 4, 22168, -1, 0, 0, False) /* Create Quarter Staff (22168) for Shop */;

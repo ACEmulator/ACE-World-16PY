@@ -4,8 +4,8 @@ VALUES ('4149', 'portaltalismanreturn', 7) /* Portal */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (4149,   1,      65536) /* ItemType - Portal */
      , (4149,  16,         32) /* ItemUseable - Remote */
-     , (4149,  93,       3084) /* PhysicsState */
-     , (4149, 111,         17) /* PortalBitmask */
+     , (4149,  93,       3084) /* PhysicsState - Ethereal, ReportCollisions, Gravity, LightingOn */
+     , (4149, 111,         17) /* PortalBitmask - Unrestricted, NoSummon */
      , (4149, 133,          4) /* ShowableOnRadar - ShowAlways */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)

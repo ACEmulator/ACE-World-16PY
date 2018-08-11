@@ -12,7 +12,7 @@ VALUES (15266,   1,         16) /* ItemType - Creature */
      , (15266,  27,          0) /* ArmorType */
      , (15266,  40,          2) /* CombatMode - Melee */
      , (15266,  68,          9) /* TargetingTactic */
-     , (15266,  93,       1032) /* PhysicsState */
+     , (15266,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (15266, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (15266, 146,      30332) /* XpOverride */;
 
@@ -71,7 +71,7 @@ VALUES (15266,   1,   33556426) /* Setup */
      , (15266,   7,  268436009) /* ClothingBase */
      , (15266,   8,  100667940) /* Icon */
      , (15266,  22,  872415323) /* PhysicsEffectTable */
-     , (15266,  35,        460) /* DeathTreasureType */;
+     , (15266,  35,        460) /* DeathTreasureType - Loot Tier: 4 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (15266,   1, 370, 0, 0) /* Strength */
@@ -142,9 +142,9 @@ VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 1090519043 /* Ready */, NULL, NU
      , (@parent_id,  1,   5 /* Motion */, 0, 1, 1090519060 /* Sleeping */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (15266, 9,     0,  0, 0, 0.96, False) /* Create Unknown for ContainTreasure */
-     , (15266, 9,     0,  0, 0, 0.95, False) /* Create Unknown for ContainTreasure */
-     , (15266, 9,     0,  0, 0, 0.95, False) /* Create Unknown for ContainTreasure */
-     , (15266, 9,  6353,  0, 0, 0.04, False) /* Create Pyreal Mote for ContainTreasure */
-     , (15266, 9,  7605,  0, 0, 0.05, False) /* Create Coral Heart for ContainTreasure */
-     , (15266, 9, 30909,  0, 0, 0.05, False) /* Create Halaetan Magic Page 4 for ContainTreasure */;
+VALUES (15266, 9,     0,  0, 0, 0.96, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 4 for ContainTreasure */
+     , (15266, 9,     0,  0, 0, 0.95, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 4 for ContainTreasure */
+     , (15266, 9,     0,  0, 0, 0.95, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 4 for ContainTreasure */
+     , (15266, 9,  6353,  0, 0, 0.04, False) /* Create Pyreal Mote (6353) for ContainTreasure */
+     , (15266, 9,  7605,  0, 0, 0.05, False) /* Create Coral Heart (7605) for ContainTreasure */
+     , (15266, 9, 30909,  0, 0, 0.05, False) /* Create Halaetan Magic Page 4 (30909) for ContainTreasure */;

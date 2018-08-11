@@ -4,8 +4,8 @@ VALUES ('6653', 'portalshadowspireplainsexit', 7) /* Portal */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (6653,   1,      65536) /* ItemType - Portal */
      , (6653,  16,         32) /* ItemUseable - Remote */
-     , (6653,  93,       3084) /* PhysicsState */
-     , (6653, 111,         17) /* PortalBitmask */
+     , (6653,  93,       3084) /* PhysicsState - Ethereal, ReportCollisions, Gravity, LightingOn */
+     , (6653, 111,         17) /* PortalBitmask - Unrestricted, NoSummon */
      , (6653, 133,          4) /* ShowableOnRadar - ShowAlways */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)

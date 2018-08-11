@@ -10,10 +10,10 @@ VALUES (26757,   1,         16) /* ItemType - Creature */
      , (26757,  16,         32) /* ItemUseable - Remote */
      , (26757,  25,         10) /* Level */
      , (26757,  27,          0) /* ArmorType */
-     , (26757,  74,     264192) /* MerchandiseItemTypes */
+     , (26757,  74,     264192) /* MerchandiseItemTypes - Gem, PromissoryNote */
      , (26757,  75,          0) /* MerchandiseMinValue */
      , (26757,  76,    1000000) /* MerchandiseMaxValue */
-     , (26757,  93,    2098204) /* PhysicsState */
+     , (26757,  93,    2098204) /* PhysicsState - Ethereal, ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */
      , (26757, 126,        125) /* VendorHappyMean */
      , (26757, 127,        125) /* VendorHappyVariance */
      , (26757, 133,          4) /* ShowableOnRadar - ShowAlways */
@@ -97,4 +97,4 @@ VALUES (26757,  0,  4,  0,    0,    0,    0,    0,    0,    0,    0,    0,    0,
      , (26757,  8,  4,  2, 0.75,    0,    0,    0,    0,    0,    0,    0,    0,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (26757, 4, 26122, -1, 0, 0, False) /* Create Crescent Ridge Cottages Portal Gem for Shop */;
+VALUES (26757, 4, 26122, -1, 0, 0, False) /* Create Crescent Ridge Cottages Portal Gem (26122) for Shop */;

@@ -12,8 +12,8 @@ VALUES (1465,   1,         16) /* ItemType - Creature */
      , (1465,  27,          0) /* ArmorType */
      , (1465,  40,          1) /* CombatMode - NonCombat */
      , (1465,  68,          3) /* TargetingTactic */
-     , (1465,  93,       1032) /* PhysicsState */
-     , (1465, 101,        183) /* AiAllowedCombatStyle */
+     , (1465,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
+     , (1465, 101,        183) /* AiAllowedCombatStyle - Unarmed, OneHanded, OneHandedAndShield, Bow, Crossbow, ThrownWeapon */
      , (1465, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (1465, 140,          1) /* AiOptions */
      , (1465, 146,       2000) /* XpOverride */;
@@ -70,8 +70,10 @@ VALUES (1465,   1,   33554839) /* Setup */
      , (1465,   7,  268435558) /* ClothingBase */
      , (1465,   8,  100667942) /* Icon */
      , (1465,  22,  872415272) /* PhysicsEffectTable */
-     , (1465,  32,        237) /* WieldedTreasureType */
-     , (1465,  35,        236) /* DeathTreasureType */;
+     , (1465,  32,        237) /* WieldedTreasureType - 
+                                   Wield Fiery Shield (1517) | Probability: 100%
+                                   Wield Superior Helmet (1518) | Probability: 100% */
+     , (1465,  35,        236) /* DeathTreasureType - Loot Tier: 3 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (1465,   1, 120, 0, 0) /* Strength */
@@ -156,5 +158,5 @@ VALUES (1465,  94) /* ATTACK_NOTIFICATION_EVENT */
      , (1465, 414) /* PLAYER_DEATH_EVENT */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (1465, 9,  1517,  0, 0, 1, False) /* Create Fiery Shield for ContainTreasure */
-     , (1465, 9,  1518,  0, 0, 1, False) /* Create Superior Helmet for ContainTreasure */;
+VALUES (1465, 9,  1517,  0, 0, 1, False) /* Create Fiery Shield (1517) for ContainTreasure */
+     , (1465, 9,  1518,  0, 0, 1, False) /* Create Superior Helmet (1518) for ContainTreasure */;

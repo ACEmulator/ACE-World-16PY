@@ -12,7 +12,7 @@ VALUES (7400,   1,          2) /* ItemType - Armor */
      , (7400,  19,       6952) /* Value */
      , (7400,  27,         32) /* ArmorType */
      , (7400,  28,        150) /* ArmorLevel */
-     , (7400,  93,       1044) /* PhysicsState */
+     , (7400,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (7400, 106,        248) /* ItemSpellcraft */
      , (7400, 107,        299) /* ItemCurMana */
      , (7400, 108,        711) /* ItemMaxMana */

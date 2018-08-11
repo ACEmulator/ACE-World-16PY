@@ -13,8 +13,8 @@ VALUES (1242,   1,         16) /* ItemType - Creature */
      , (1242,  40,          2) /* CombatMode - Melee */
      , (1242,  68,          9) /* TargetingTactic */
      , (1242,  72,          6) /* FriendType - Tumerok */
-     , (1242,  93,       1032) /* PhysicsState */
-     , (1242, 101,        131) /* AiAllowedCombatStyle */
+     , (1242,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
+     , (1242, 101,        131) /* AiAllowedCombatStyle - Unarmed, OneHanded, ThrownWeapon */
      , (1242, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (1242, 140,          1) /* AiOptions */
      , (1242, 146,       1137) /* XpOverride */;
@@ -70,8 +70,34 @@ VALUES (1242,   1,   33556445) /* Setup */
      , (1242,   7,  268435971) /* ClothingBase */
      , (1242,   8,  100667445) /* Icon */
      , (1242,  22,  872415258) /* PhysicsEffectTable */
-     , (1242,  32,         68) /* WieldedTreasureType */
-     , (1242,  35,         69) /* DeathTreasureType */;
+     , (1242,  32,         68) /* WieldedTreasureType - 
+                                   Wield Budiaq (308) | Probability: 3%
+                                   Wield Club (309) | Probability: 3%
+                                   Wield Dabus (313) | Probability: 3%
+                                   Wield Dagger (314) | Probability: 3%
+                                   Wield Hand Axe (303) | Probability: 3%
+                                   Wield Jambiya (319) | Probability: 1%
+                                   Wield Jitte (321) | Probability: 3%
+                                   Wield Kasrullah (325) | Probability: 3%
+                                   Wield Katar (326) | Probability: 3%
+                                   Wield Khanjar (328) | Probability: 3%
+                                   Wield Knife (329) | Probability: 2%
+                                   Wield Mace (331) | Probability: 3%
+                                   Wield Short Sword (352) | Probability: 3%
+                                   Wield Shou-ono (342) | Probability: 3%
+                                   Wield Simi (345) | Probability: 3%
+                                   Wield Spear (348) | Probability: 3%
+                                   Wield Tofun (356) | Probability: 5%
+                                   Wield Yaoji (361) | Probability: 5%
+                                   Wield Yari (362) | Probability: 3%
+                                   Wield 10x Throwing Dart (316) | Probability: 2%
+                                   Wield 10x Shouken (343) | Probability: 3%
+                                   Wield 6x Throwing Dagger (315) | Probability: 3%
+                                   Wield 4x Javelin (320) | Probability: 5%
+                                   Wield Djarid (317) | Probability: 5%
+                                   Wield 5x Throwing Club (310) | Probability: 5%
+                                   Wield 5x Throwing Axe (304) | Probability: 5% */
+     , (1242,  35,         69) /* DeathTreasureType - Loot Tier: 2 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (1242,   1,  45, 0, 0) /* Strength */
@@ -188,16 +214,16 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 268435537 /* Twitch1 */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (1242, 9,     0,  0, 0, 0.92, False) /* Create Unknown for ContainTreasure */
-     , (1242, 9,     0,  0, 0, 0.95, False) /* Create Unknown for ContainTreasure */
-     , (1242, 9,     0,  0, 0, 0.94, False) /* Create Unknown for ContainTreasure */
-     , (1242, 9,     0,  0, 0, 0.92, False) /* Create Unknown for ContainTreasure */
-     , (1242, 9,     0,  0, 0, 0.95, False) /* Create Unknown for ContainTreasure */
-     , (1242, 9,     0,  0, 0, 0.97, False) /* Create Unknown for ContainTreasure */
-     , (1242, 1,  1248,  0, 0, 0, False) /* Create Key for Contain */
-     , (1242, 9,  3669,  0, 0, 0.08, False) /* Create Drudge Charm for ContainTreasure */
-     , (1242, 9,  7825,  0, 0, 0.05, False) /* Create Brown Beans for ContainTreasure */
-     , (1242, 9,  8701,  0, 0, 0.06, False) /* Create Lucky Gold Letter for ContainTreasure */
-     , (1242, 9,  8702,  0, 0, 0.08, False) /* Create Scarlet Red Letter for ContainTreasure */
-     , (1242, 9, 13222,  0, 0, 0.05, False) /* Create Peppermint Stick for ContainTreasure */
-     , (1242, 9, 20854,  0, 0, 0.03, False) /* Create Academy Stamp for ContainTreasure */;
+VALUES (1242, 9,     0,  0, 0, 0.92, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 2 for ContainTreasure */
+     , (1242, 9,     0,  0, 0, 0.95, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 2 for ContainTreasure */
+     , (1242, 9,     0,  0, 0, 0.94, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 2 for ContainTreasure */
+     , (1242, 9,     0,  0, 0, 0.92, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 2 for ContainTreasure */
+     , (1242, 9,     0,  0, 0, 0.95, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 2 for ContainTreasure */
+     , (1242, 9,     0,  0, 0, 0.97, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 2 for ContainTreasure */
+     , (1242, 1,  1248,  0, 0, 0, False) /* Create Key (1248) for Contain */
+     , (1242, 9,  3669,  0, 0, 0.08, False) /* Create Drudge Charm (3669) for ContainTreasure */
+     , (1242, 9,  7825,  0, 0, 0.05, False) /* Create Brown Beans (7825) for ContainTreasure */
+     , (1242, 9,  8701,  0, 0, 0.06, False) /* Create Lucky Gold Letter (8701) for ContainTreasure */
+     , (1242, 9,  8702,  0, 0, 0.08, False) /* Create Scarlet Red Letter (8702) for ContainTreasure */
+     , (1242, 9, 13222,  0, 0, 0.05, False) /* Create Peppermint Stick (13222) for ContainTreasure */
+     , (1242, 9, 20854,  0, 0, 0.03, False) /* Create Academy Stamp (20854) for ContainTreasure */;

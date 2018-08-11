@@ -12,8 +12,8 @@ VALUES (23487,   1,         16) /* ItemType - Creature */
      , (23487,  27,          0) /* ArmorType */
      , (23487,  40,          2) /* CombatMode - Melee */
      , (23487,  68,          3) /* TargetingTactic */
-     , (23487,  93,       1032) /* PhysicsState */
-     , (23487, 101,        183) /* AiAllowedCombatStyle */
+     , (23487,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
+     , (23487, 101,        183) /* AiAllowedCombatStyle - Unarmed, OneHanded, OneHandedAndShield, Bow, Crossbow, ThrownWeapon */
      , (23487, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (23487, 140,          1) /* AiOptions */
      , (23487, 146,      51564) /* XpOverride */;
@@ -72,8 +72,22 @@ VALUES (23487,   1,   33555608) /* Setup */
      , (23487,   7,  268435727) /* ClothingBase */
      , (23487,   8,  100669120) /* Icon */
      , (23487,  22,  872415280) /* PhysicsEffectTable */
-     , (23487,  32,        165) /* WieldedTreasureType */
-     , (23487,  35,        448) /* DeathTreasureType */;
+     , (23487,  32,        165) /* WieldedTreasureType - 
+                                   Wield Yumi (23734) | Probability: 80%
+                                   Wield 14x Deadly Arrow (15429) | Probability: 100%
+                                   Wield Katar (23674) | Probability: 10%
+                                   Wield Kite Shield (23684) | Probability: 100%
+                                   Wield Nekode (23680) | Probability: 10%
+                                   Wield Kite Shield (23684) | Probability: 100%
+                                   Wield Cestus (23637) | Probability: 10%
+                                   Wield Kite Shield (23684) | Probability: 100%
+                                   Wield Spear (23696) | Probability: 10%
+                                   Wield Kite Shield (23684) | Probability: 100%
+                                   Wield Tachi (23700) | Probability: 10%
+                                   Wield Kite Shield (23684) | Probability: 100%
+                                   Wield Yari (23730) | Probability: 50%
+                                   Wield Kite Shield (23684) | Probability: 100% */
+     , (23487,  35,        448) /* DeathTreasureType - Loot Tier: 4 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (23487,   1, 250, 0, 0) /* Strength */
@@ -132,9 +146,9 @@ VALUES (23487,  94) /* ATTACK_NOTIFICATION_EVENT */
      , (23487, 414) /* PLAYER_DEATH_EVENT */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (23487, 9,     0,  0, 0, 0.97, False) /* Create Unknown for ContainTreasure */
-     , (23487, 9,     0,  0, 0, 0.99, False) /* Create Unknown for ContainTreasure */
-     , (23487, 9,     0,  0, 0, 0.98, False) /* Create Unknown for ContainTreasure */
-     , (23487, 9,  7046,  0, 0, 0.03, False) /* Create Sclavus Tongue for ContainTreasure */
-     , (23487, 9,  9259,  0, 0, 0.01, False) /* Create Large Sclavus Hide for ContainTreasure */
-     , (23487, 9, 20861,  0, 0, 0.02, False) /* Create Moons Stamp for ContainTreasure */;
+VALUES (23487, 9,     0,  0, 0, 0.97, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 4 for ContainTreasure */
+     , (23487, 9,     0,  0, 0, 0.99, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 4 for ContainTreasure */
+     , (23487, 9,     0,  0, 0, 0.98, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 4 for ContainTreasure */
+     , (23487, 9,  7046,  0, 0, 0.03, False) /* Create Sclavus Tongue (7046) for ContainTreasure */
+     , (23487, 9,  9259,  0, 0, 0.01, False) /* Create Large Sclavus Hide (9259) for ContainTreasure */
+     , (23487, 9, 20861,  0, 0, 0.02, False) /* Create Moons Stamp (20861) for ContainTreasure */;

@@ -15,7 +15,7 @@ VALUES (11987,   1,         16) /* ItemType - Creature */
      , (11987,  69,          4) /* CombatTactic */
      , (11987,  81,          4) /* MaxGeneratedObjects */
      , (11987,  82,          4) /* InitGeneratedObjects */
-     , (11987,  93,       3080) /* PhysicsState */
+     , (11987,  93,       3080) /* PhysicsState - ReportCollisions, Gravity, LightingOn */
      , (11987, 103,          1) /* GeneratorDestructionType - Nothing */
      , (11987, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (11987, 146,      28015) /* XpOverride */;
@@ -77,7 +77,7 @@ VALUES (11987,   1,   33556226) /* Setup */
      , (11987,   7,  268435869) /* ClothingBase */
      , (11987,   8,  100670395) /* Icon */
      , (11987,  22,  872415348) /* PhysicsEffectTable */
-     , (11987,  35,         21) /* DeathTreasureType */;
+     , (11987,  35,         21) /* DeathTreasureType - Loot Tier: 3 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (11987,   1, 160, 0, 0) /* Strength */
@@ -133,13 +133,13 @@ VALUES (11987,  94) /* ATTACK_NOTIFICATION_EVENT */
      , (11987, 414) /* PLAYER_DEATH_EVENT */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (11987, 9,     0,  0, 0, 0.5, False) /* Create Unknown for ContainTreasure */
-     , (11987, 9,     0,  0, 0, 0.7, False) /* Create Unknown for ContainTreasure */
-     , (11987, 9,  6056,  0, 0, 0.5, False) /* Create Small Shard for ContainTreasure */
-     , (11987, 9, 23541,  0, 0, 0.3, False) /* Create Crystal Sword for ContainTreasure */;
+VALUES (11987, 9,     0,  0, 0, 0.5, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 3 for ContainTreasure */
+     , (11987, 9,     0,  0, 0, 0.7, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 3 for ContainTreasure */
+     , (11987, 9,  6056,  0, 0, 0.5, False) /* Create Small Shard (6056) for ContainTreasure */
+     , (11987, 9, 23541,  0, 0, 0.3, False) /* Create Crystal Sword (23541) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (11987, 0.25, 6041, 20, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0)
-     , (11987, 0.5, 6041, 20, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0)
-     , (11987, 0.75, 6041, 20, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0)
-     , (11987, 1, 6041, 20, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0);
+VALUES (11987, 0.25, 6041, 20, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Dual Fragment (6041) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Scatter */
+     , (11987, 0.5, 6041, 20, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Dual Fragment (6041) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Scatter */
+     , (11987, 0.75, 6041, 20, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Dual Fragment (6041) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Scatter */
+     , (11987, 1, 6041, 20, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Dual Fragment (6041) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Scatter */;

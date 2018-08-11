@@ -4,8 +4,8 @@ VALUES ('27404', 'portalrelic', 7) /* Portal */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (27404,   1,      65536) /* ItemType - Portal */
      , (27404,  16,         32) /* ItemUseable - Remote */
-     , (27404,  93,       3084) /* PhysicsState */
-     , (27404, 111,         49) /* PortalBitmask */
+     , (27404,  93,       3084) /* PhysicsState - Ethereal, ReportCollisions, Gravity, LightingOn */
+     , (27404, 111,         49) /* PortalBitmask - Unrestricted, NoSummon, NoRecall */
      , (27404, 133,          4) /* ShowableOnRadar - ShowAlways */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)

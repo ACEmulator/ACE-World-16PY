@@ -12,7 +12,7 @@ VALUES (5599,   1,         16) /* ItemType - Creature */
      , (5599,  27,          0) /* ArmorType */
      , (5599,  40,          2) /* CombatMode - Melee */
      , (5599,  68,          1) /* TargetingTactic */
-     , (5599,  93,    2098200) /* PhysicsState */
+     , (5599,  93,    2098200) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */
      , (5599, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (5599, 146,        912) /* XpOverride */;
 
@@ -165,5 +165,5 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 268435538 /* Twitch2 */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (5599, 9,     0,  0, 0, 0.99, False) /* Create Unknown for ContainTreasure */
-     , (5599, 9, 22578,  0, 0, 0.01, False) /* Create Bunch of Nanners for ContainTreasure */;
+VALUES (5599, 9,     0,  0, 0, 0.99, False) /* Create UNKNOWN RANDOMLY GENERATED TREASURE for ContainTreasure */
+     , (5599, 9, 22578,  0, 0, 0.01, False) /* Create Bunch of Nanners (22578) for ContainTreasure */;

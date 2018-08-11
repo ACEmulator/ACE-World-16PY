@@ -10,10 +10,10 @@ VALUES (27039,   1,         16) /* ItemType - Creature */
      , (27039,  16,         32) /* ItemUseable - Remote */
      , (27039,  25,         10) /* Level */
      , (27039,  27,          0) /* ArmorType */
-     , (27039,  74,     264192) /* MerchandiseItemTypes */
+     , (27039,  74,     264192) /* MerchandiseItemTypes - Gem, PromissoryNote */
      , (27039,  75,          0) /* MerchandiseMinValue */
      , (27039,  76,    1000000) /* MerchandiseMaxValue */
-     , (27039,  93,    2098204) /* PhysicsState */
+     , (27039,  93,    2098204) /* PhysicsState - Ethereal, ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */
      , (27039, 126,        125) /* VendorHappyMean */
      , (27039, 127,        125) /* VendorHappyVariance */
      , (27039, 133,          4) /* ShowableOnRadar - ShowAlways */
@@ -97,4 +97,4 @@ VALUES (27039,  0,  4,  0,    0,    0,    0,    0,    0,    0,    0,    0,    0,
      , (27039,  8,  4,  2, 0.75,    0,    0,    0,    0,    0,    0,    0,    0,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (27039, 4, 26404, -1, 0, 0, False) /* Create Tarn Vinara Villas Portal Gem for Shop */;
+VALUES (27039, 4, 26404, -1, 0, 0, False) /* Create Tarn Vinara Villas Portal Gem (26404) for Shop */;

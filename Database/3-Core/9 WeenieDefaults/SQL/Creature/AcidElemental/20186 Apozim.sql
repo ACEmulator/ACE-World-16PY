@@ -10,8 +10,8 @@ VALUES (20186,   1,         16) /* ItemType - Creature */
      , (20186,  25,         70) /* Level */
      , (20186,  27,          0) /* ArmorType */
      , (20186,  68,          5) /* TargetingTactic */
-     , (20186,  93,       3080) /* PhysicsState */
-     , (20186, 101,        183) /* AiAllowedCombatStyle */
+     , (20186,  93,       3080) /* PhysicsState - ReportCollisions, Gravity, LightingOn */
+     , (20186, 101,        183) /* AiAllowedCombatStyle - Unarmed, OneHanded, OneHandedAndShield, Bow, Crossbow, ThrownWeapon */
      , (20186, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (20186, 140,          1) /* AiOptions */
      , (20186, 146,      14274) /* XpOverride */;
@@ -68,7 +68,7 @@ VALUES (20186,   1,   33557486) /* Setup */
      , (20186,   4,  805306368) /* CombatTable */
      , (20186,   8,  100672513) /* Icon */
      , (20186,  22,  872415349) /* PhysicsEffectTable */
-     , (20186,  35,        462) /* DeathTreasureType */;
+     , (20186,  35,        462) /* DeathTreasureType - Loot Tier: 3 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (20186,   1, 160, 0, 0) /* Strength */
@@ -124,5 +124,5 @@ VALUES (20186,  94) /* ATTACK_NOTIFICATION_EVENT */
      , (20186, 414) /* PLAYER_DEATH_EVENT */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (20186, 9,     0,  0, 0, 0.99, False) /* Create Unknown for ContainTreasure */
-     , (20186, 9,  6876,  0, 0, 0.01, False) /* Create Sturdy Iron Key for ContainTreasure */;
+VALUES (20186, 9,     0,  0, 0, 0.99, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 3 for ContainTreasure */
+     , (20186, 9,  6876,  0, 0, 0.01, False) /* Create Sturdy Iron Key (6876) for ContainTreasure */;

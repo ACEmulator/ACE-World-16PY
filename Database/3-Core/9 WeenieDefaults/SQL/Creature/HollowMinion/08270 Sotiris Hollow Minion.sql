@@ -11,7 +11,7 @@ VALUES (8270,   1,         16) /* ItemType - Creature */
      , (8270,  27,          0) /* ArmorType */
      , (8270,  68,          3) /* TargetingTactic */
      , (8270,  72,         19) /* FriendType - Virindi */
-     , (8270,  93,       1032) /* PhysicsState */
+     , (8270,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (8270, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (8270, 140,          1) /* AiOptions */
      , (8270, 146,       6846) /* XpOverride */;
@@ -65,7 +65,7 @@ VALUES (8270,   1,   33556792) /* Setup */
      , (8270,   4,  805306413) /* CombatTable */
      , (8270,   8,  100671140) /* Icon */
      , (8270,  22,  872415367) /* PhysicsEffectTable */
-     , (8270,  35,        463) /* DeathTreasureType */;
+     , (8270,  35,        463) /* DeathTreasureType - Loot Tier: 2 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (8270,   1, 180, 0, 0) /* Strength */
@@ -119,5 +119,5 @@ VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 1090519043 /* Ready */, NULL, NU
      , (@parent_id,  1,   5 /* Motion */, 0, 1, 1090519060 /* Sleeping */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (8270, 9,     0,  0, 0, 0.95, False) /* Create Unknown for ContainTreasure */
-     , (8270, 9, 25559,  0, 0, 0.05, False) /* Create Hollow Minion's Face for ContainTreasure */;
+VALUES (8270, 9,     0,  0, 0, 0.95, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 2 for ContainTreasure */
+     , (8270, 9, 25559,  0, 0, 0.05, False) /* Create Hollow Minion's Face (25559) for ContainTreasure */;

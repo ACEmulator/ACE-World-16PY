@@ -18,7 +18,7 @@ VALUES (28224,   1,        256) /* ItemType - MissileWeapon */
      , (28224,  50,          4) /* AmmoType - ArrowCrystal */
      , (28224,  51,          2) /* CombatUse - Missle */
      , (28224,  60,        120) /* WeaponRange */
-     , (28224,  93,       1044) /* PhysicsState */
+     , (28224,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (28224, 150,        103) /* HookPlacement - Hook */
      , (28224, 151,          2) /* HookType - Wall */
      , (28224, 169,  101189386) /* TsysMutationData */

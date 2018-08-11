@@ -9,8 +9,8 @@ VALUES (4615,   1,     524288) /* ItemType - ManaStone */
      , (4615,  16,     655368) /* ItemUseable - SourceContainedTargetSelfOrContained */
      , (4615,  18,          1) /* UiEffects - Magical */
      , (4615,  19,       2500) /* Value */
-     , (4615,  93,       1044) /* PhysicsState */
-     , (4615,  94,      35103) /* TargetType */
+     , (4615,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (4615,  94,      35103) /* TargetType - 35103 */
      , (4615, 107,        500) /* ItemCurMana */
      , (4615, 108,        500) /* ItemMaxMana */
      , (4615, 150,        103) /* HookPlacement - Hook */

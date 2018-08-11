@@ -11,8 +11,8 @@ VALUES (7180,   1,         16) /* ItemType - Creature */
      , (7180,  27,          0) /* ArmorType */
      , (7180,  40,          2) /* CombatMode - Melee */
      , (7180,  68,         13) /* TargetingTactic */
-     , (7180,  93,       1032) /* PhysicsState */
-     , (7180, 101,        131) /* AiAllowedCombatStyle */
+     , (7180,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
+     , (7180, 101,        131) /* AiAllowedCombatStyle - Unarmed, OneHanded, ThrownWeapon */
      , (7180, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (7180, 140,          1) /* AiOptions */
      , (7180, 146,       2753) /* XpOverride */;
@@ -66,7 +66,7 @@ VALUES (7180,   1,   33556882) /* Setup */
      , (7180,   4,  805306403) /* CombatTable */
      , (7180,   8,  100671185) /* Icon */
      , (7180,  22,  872415337) /* PhysicsEffectTable */
-     , (7180,  35,        463) /* DeathTreasureType */;
+     , (7180,  35,        463) /* DeathTreasureType - Loot Tier: 2 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (7180,   1, 125, 0, 0) /* Strength */
@@ -168,5 +168,5 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 268435537 /* Twitch1 */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (7180, 9,     0,  0, 0, 0.95, False) /* Create Unknown for ContainTreasure */
-     , (7180, 9, 25561,  0, 0, 0.05, False) /* Create Moarsman Head for ContainTreasure */;
+VALUES (7180, 9,     0,  0, 0, 0.95, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 2 for ContainTreasure */
+     , (7180, 9, 25561,  0, 0, 0.05, False) /* Create Moarsman Head (25561) for ContainTreasure */;

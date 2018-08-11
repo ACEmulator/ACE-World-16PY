@@ -9,7 +9,7 @@ VALUES (11827,   1,       2048) /* ItemType - Gem */
      , (11827,   9,          0) /* ValidLocations - None */
      , (11827,  16,          1) /* ItemUseable - No */
      , (11827,  19,       2500) /* Value */
-     , (11827,  93,       1044) /* PhysicsState */;
+     , (11827,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (11827,  22, True ) /* Inscribable */;

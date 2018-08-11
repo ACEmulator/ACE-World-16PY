@@ -4,7 +4,7 @@ VALUES ('6387', 'testbanderlingeventgen', 1) /* Generic */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (6387,  81,          3) /* MaxGeneratedObjects */
      , (6387,  82,          3) /* InitGeneratedObjects */
-     , (6387,  93,       1044) /* PhysicsState */
+     , (6387,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (6387, 142,          3) /* GeneratorTimeType - Event */
      , (6387, 145,          2) /* GeneratorEndDestructionType - Destroy */;
 
@@ -26,4 +26,4 @@ VALUES (6387,   1,   33555051) /* Setup */
      , (6387,   8,  100667494) /* Icon */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (6387, 1, 184, 10, 1, 4294967295, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0);
+VALUES (6387, 1, 184, 10, 1, 4294967295, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Banderling Captain (184) (x1 up to max of 4,294,967,295) - Regenerate upon Destruction - Location to (re)Generate: Scatter */;

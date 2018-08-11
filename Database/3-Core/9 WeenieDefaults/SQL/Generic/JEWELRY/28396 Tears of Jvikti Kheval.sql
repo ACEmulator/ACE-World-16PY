@@ -10,7 +10,7 @@ VALUES (28396,   1,          8) /* ItemType - Jewelry */
      , (28396,  16,          1) /* ItemUseable - No */
      , (28396,  18,          1) /* UiEffects - Magical */
      , (28396,  19,       2500) /* Value */
-     , (28396,  93,       1044) /* PhysicsState */
+     , (28396,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (28396, 106,        275) /* ItemSpellcraft */
      , (28396, 107,        800) /* ItemCurMana */
      , (28396, 108,        800) /* ItemMaxMana */

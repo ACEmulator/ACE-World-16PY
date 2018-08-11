@@ -4,8 +4,8 @@ VALUES ('15779', 'portaloubliette', 7) /* Portal */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (15779,   1,      65536) /* ItemType - Portal */
      , (15779,  16,         32) /* ItemUseable - Remote */
-     , (15779,  93,       3084) /* PhysicsState */
-     , (15779, 111,         49) /* PortalBitmask */
+     , (15779,  93,       3084) /* PhysicsState - Ethereal, ReportCollisions, Gravity, LightingOn */
+     , (15779, 111,         49) /* PortalBitmask - Unrestricted, NoSummon, NoRecall */
      , (15779, 133,          4) /* ShowableOnRadar - ShowAlways */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)

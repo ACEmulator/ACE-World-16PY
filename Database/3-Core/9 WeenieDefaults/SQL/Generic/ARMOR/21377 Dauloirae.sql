@@ -13,7 +13,7 @@ VALUES (21377,   1,          2) /* ItemType - Armor */
      , (21377,  28,        200) /* ArmorLevel */
      , (21377,  36,       9999) /* ResistMagic */
      , (21377,  51,          4) /* CombatUse - Shield */
-     , (21377,  93,       1044) /* PhysicsState */
+     , (21377,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (21377, 106,        250) /* ItemSpellcraft */
      , (21377, 107,       1000) /* ItemCurMana */
      , (21377, 108,       1000) /* ItemMaxMana */

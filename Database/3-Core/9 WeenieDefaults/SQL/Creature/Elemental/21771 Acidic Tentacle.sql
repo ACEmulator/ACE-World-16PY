@@ -13,8 +13,8 @@ VALUES (21771,   1,         16) /* ItemType - Creature */
      , (21771,  40,          2) /* CombatMode - Melee */
      , (21771,  68,          1) /* TargetingTactic */
      , (21771,  72,         62) /* FriendType - Elemental */
-     , (21771,  93,    2098184) /* PhysicsState */
-     , (21771, 101,        183) /* AiAllowedCombatStyle */
+     , (21771,  93,    2098184) /* PhysicsState - ReportCollisions, Gravity, ReportCollisionsAsEnvironment */
+     , (21771, 101,        183) /* AiAllowedCombatStyle - Unarmed, OneHanded, OneHandedAndShield, Bow, Crossbow, ThrownWeapon */
      , (21771, 133,          0) /* ShowableOnRadar - Undefined */
      , (21771, 146,          0) /* XpOverride */;
 

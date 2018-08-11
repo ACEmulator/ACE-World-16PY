@@ -10,13 +10,13 @@ VALUES (1951,   1,          1) /* ItemType - MeleeWeapon */
      , (1951,  16,          1) /* ItemUseable - No */
      , (1951,  19,        300) /* Value */
      , (1951,  44,          9) /* Damage */
-     , (1951,  45,          3) /* DamageType */
+     , (1951,  45,          3) /* DamageType - Slash, Pierce */
      , (1951,  46,          2) /* DefaultCombatStyle - OneHanded */
-     , (1951,  47,          6) /* AttackType */
+     , (1951,  47,          6) /* AttackType - Thrust, Slash */
      , (1951,  48,          4) /* WeaponSkill - Dagger */
      , (1951,  49,         20) /* WeaponTime */
      , (1951,  51,          1) /* CombatUse - Melee */
-     , (1951,  93,       1044) /* PhysicsState */
+     , (1951,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (1951, 150,        103) /* HookPlacement - Hook */
      , (1951, 151,          2) /* HookType - Wall */;
 

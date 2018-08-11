@@ -10,7 +10,7 @@ VALUES (14414,   1,         16) /* ItemType - Creature */
      , (14414,  16,         32) /* ItemUseable - Remote */
      , (14414,  25,         45) /* Level */
      , (14414,  27,          0) /* ArmorType */
-     , (14414,  93,    6292504) /* PhysicsState */
+     , (14414,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (14414,  95,          8) /* RadarBlipColor - Yellow */
      , (14414, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (14414, 134,         16) /* PlayerKillerStatus - RubberGlue */
@@ -632,5 +632,5 @@ VALUES (@parent_id,  0,  18 /* DirectBroadcast */, 1, 1, NULL, 'Sir Tenshin read
      , (@parent_id,  4,  22 /* StampQuest */, 0, 1, NULL, 'ShoushiGreetingGiven', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (14414, 2,   118,  0, 14, 1, False) /* Create Cap for Wield */
-     , (14414, 2, 10870,  0, 17, 0.7, False) /* Create Canescent Mattekar Robe for Wield */;
+VALUES (14414, 2,   118,  0, 14, 1, False) /* Create Cap (118) for Wield */
+     , (14414, 2, 10870,  0, 17, 0.7, False) /* Create Canescent Mattekar Robe (10870) for Wield */;

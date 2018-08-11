@@ -8,9 +8,9 @@ VALUES (24842,   1,        128) /* ItemType - Misc */
      , (24842,   9,          0) /* ValidLocations - None */
      , (24842,  16,          1) /* ItemUseable - No */
      , (24842,  19,         15) /* Value */
-     , (24842,  93,       1044) /* PhysicsState */
+     , (24842,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (24842, 150,        103) /* HookPlacement - Hook */
-     , (24842, 151,         11) /* HookType */;
+     , (24842, 151,         11) /* HookType - Floor, Wall, Yard */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (24842,  22, True ) /* Inscribable */

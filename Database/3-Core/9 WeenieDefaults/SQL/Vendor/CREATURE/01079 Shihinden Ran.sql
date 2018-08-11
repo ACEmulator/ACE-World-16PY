@@ -10,10 +10,10 @@ VALUES (1079,   1,         16) /* ItemType - Creature */
      , (1079,  16,         32) /* ItemUseable - Remote */
      , (1079,  25,          9) /* Level */
      , (1079,  27,          0) /* ArmorType */
-     , (1079,  74,     288679) /* MerchandiseItemTypes */
+     , (1079,  74,     288679) /* MerchandiseItemTypes - Vestements, Food, Weapon, LockableMagicTarget, Useless, Writable, Key, PromissoryNote */
      , (1079,  75,          0) /* MerchandiseMinValue */
      , (1079,  76,     100000) /* MerchandiseMaxValue */
-     , (1079,  93,    2098200) /* PhysicsState */
+     , (1079,  93,    2098200) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */
      , (1079, 126,        250) /* VendorHappyMean */
      , (1079, 127,        250) /* VendorHappyVariance */
      , (1079, 133,          4) /* ShowableOnRadar - ShowAlways */
@@ -162,51 +162,51 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 318767235 /* Nod */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (1079, 4,    36, -1, 0, 0, False) /* Create Leather Bracers for Shop */
-     , (1079, 4,    39, -1, 0, 0, False) /* Create Leather Breastplate for Shop */
-     , (1079, 4,    44, -1, 0, 0, False) /* Create Buckler for Shop */
-     , (1079, 4,    45, -1, 0, 0, False) /* Create Leather Cap for Shop */
-     , (1079, 4,    65, -1, 0, 0, False) /* Create Leather Greaves for Shop */
-     , (1079, 4,   109, -1, 0, 0, False) /* Create Leather Tassets for Shop */
-     , (1079, 2,   115,  0, 9, 0.5, False) /* Create Leather Boots for Wield */
-     , (1079, 2,   118,  0, 4, 0.5, False) /* Create Cap for Wield */
-     , (1079, 4,   118, -1, 0, 0, False) /* Create Cap for Shop */
-     , (1079, 4,   120, -1, 0, 0, False) /* Create Quilted Drawers for Shop */
-     , (1079, 2,   127,  0, 4, 0.5, False) /* Create Pants for Wield */
-     , (1079, 2,   130,  0, 9, 0.5, False) /* Create Shirt for Wield */
-     , (1079, 4,   132, -1, 0, 0, False) /* Create Shoes for Shop */
-     , (1079, 4,   134, -1, 0, 0, False) /* Create Tunic for Shop */
-     , (1079, 4,   136, -1, 21, 1, False) /* Create Pack for Shop */
-     , (1079, 4,   136, -1, 14, 1, False) /* Create Pack for Shop */
-     , (1079, 4,   136, -1, 77, 1, False) /* Create Pack for Shop */
-     , (1079, 4,   137, -1, 0, 0, False) /* Create Basket for Shop */
-     , (1079, 4,   151, -1, 0, 0, False) /* Create Empty Flask for Shop */
-     , (1079, 4,   166, -1, 21, 1, False) /* Create Sack for Shop */
-     , (1079, 4,   166, -1, 14, 1, False) /* Create Sack for Shop */
-     , (1079, 4,   166, -1, 77, 1, False) /* Create Sack for Shop */
-     , (1079, 4,   259, -1, 0, 0, False) /* Create Bread for Shop */
-     , (1079, 4,   261, -1, 0, 0, False) /* Create Cheese for Shop */
-     , (1079, 4,   300, -1, 0, 0, False) /* Create Arrow for Shop */
-     , (1079, 4,   314, -1, 0, 0, False) /* Create Dagger for Shop */
-     , (1079, 4,   321, -1, 0, 0, False) /* Create Jitte for Shop */
-     , (1079, 4,   329, -1, 0, 0, False) /* Create Knife for Shop */
-     , (1079, 4,   342, -1, 0, 0, False) /* Create Shou-ono for Shop */
-     , (1079, 4,   343, -1, 0, 0, False) /* Create Shouken for Shop */
-     , (1079, 4,   365, -1, 0, 0, False) /* Create Parchment for Shop */
-     , (1079, 4,   377, -1, 0, 0, False) /* Create Potion of Healing for Shop */
-     , (1079, 4,   378, -1, 0, 0, False) /* Create Stamina Potion for Shop */
-     , (1079, 4,   379, -1, 0, 0, False) /* Create Mana Potion for Shop */
-     , (1079, 4,   512, -1, 0, 0, False) /* Create Good Lockpick for Shop */
-     , (1079, 4,   513, -1, 0, 0, False) /* Create Plain Lockpick for Shop */
-     , (1079, 4,   545, -1, 0, 0, False) /* Create Reliable Lockpick for Shop */
-     , (1079, 4,   628, -1, 0, 0, False) /* Create Handy Healing Kit for Shop */
-     , (1079, 4,   629, -1, 0, 0, False) /* Create Adept Healing Kit for Shop */
-     , (1079, 4,   630, -1, 0, 0, False) /* Create Gifted Healing Kit for Shop */
-     , (1079, 4,  2457, -1, 0, 0, False) /* Create Health Draught for Shop */
-     , (1079, 4,  2460, -1, 0, 0, False) /* Create Mana Draught for Shop */
-     , (1079, 4,  2470, -1, 0, 0, False) /* Create Stamina Elixir for Shop */
-     , (1079, 2, 10696,  0, 4, 0.8, False) /* Create Apron for Wield */
-     , (1079, 4, 22158, -1, 0, 0, False) /* Create Jo for Shop */
-     , (1079, 4, 27319, -1, 0, 0, False) /* Create Health Tincture for Shop */
-     , (1079, 4, 27322, -1, 0, 0, False) /* Create Mana Tincture for Shop */
-     , (1079, 4, 27326, -1, 0, 0, False) /* Create Stamina Tincture for Shop */;
+VALUES (1079, 4,    36, -1, 0, 0, False) /* Create Leather Bracers (36) for Shop */
+     , (1079, 4,    39, -1, 0, 0, False) /* Create Leather Breastplate (39) for Shop */
+     , (1079, 4,    44, -1, 0, 0, False) /* Create Buckler (44) for Shop */
+     , (1079, 4,    45, -1, 0, 0, False) /* Create Leather Cap (45) for Shop */
+     , (1079, 4,    65, -1, 0, 0, False) /* Create Leather Greaves (65) for Shop */
+     , (1079, 4,   109, -1, 0, 0, False) /* Create Leather Tassets (109) for Shop */
+     , (1079, 2,   115,  0, 9, 0.5, False) /* Create Leather Boots (115) for Wield */
+     , (1079, 2,   118,  0, 4, 0.5, False) /* Create Cap (118) for Wield */
+     , (1079, 4,   118, -1, 0, 0, False) /* Create Cap (118) for Shop */
+     , (1079, 4,   120, -1, 0, 0, False) /* Create Quilted Drawers (120) for Shop */
+     , (1079, 2,   127,  0, 4, 0.5, False) /* Create Pants (127) for Wield */
+     , (1079, 2,   130,  0, 9, 0.5, False) /* Create Shirt (130) for Wield */
+     , (1079, 4,   132, -1, 0, 0, False) /* Create Shoes (132) for Shop */
+     , (1079, 4,   134, -1, 0, 0, False) /* Create Tunic (134) for Shop */
+     , (1079, 4,   136, -1, 21, 1, False) /* Create Pack (136) for Shop */
+     , (1079, 4,   136, -1, 14, 1, False) /* Create Pack (136) for Shop */
+     , (1079, 4,   136, -1, 77, 1, False) /* Create Pack (136) for Shop */
+     , (1079, 4,   137, -1, 0, 0, False) /* Create Basket (137) for Shop */
+     , (1079, 4,   151, -1, 0, 0, False) /* Create Empty Flask (151) for Shop */
+     , (1079, 4,   166, -1, 21, 1, False) /* Create Sack (166) for Shop */
+     , (1079, 4,   166, -1, 14, 1, False) /* Create Sack (166) for Shop */
+     , (1079, 4,   166, -1, 77, 1, False) /* Create Sack (166) for Shop */
+     , (1079, 4,   259, -1, 0, 0, False) /* Create Bread (259) for Shop */
+     , (1079, 4,   261, -1, 0, 0, False) /* Create Cheese (261) for Shop */
+     , (1079, 4,   300, -1, 0, 0, False) /* Create Arrow (300) for Shop */
+     , (1079, 4,   314, -1, 0, 0, False) /* Create Dagger (314) for Shop */
+     , (1079, 4,   321, -1, 0, 0, False) /* Create Jitte (321) for Shop */
+     , (1079, 4,   329, -1, 0, 0, False) /* Create Knife (329) for Shop */
+     , (1079, 4,   342, -1, 0, 0, False) /* Create Shou-ono (342) for Shop */
+     , (1079, 4,   343, -1, 0, 0, False) /* Create Shouken (343) for Shop */
+     , (1079, 4,   365, -1, 0, 0, False) /* Create Parchment (365) for Shop */
+     , (1079, 4,   377, -1, 0, 0, False) /* Create Potion of Healing (377) for Shop */
+     , (1079, 4,   378, -1, 0, 0, False) /* Create Stamina Potion (378) for Shop */
+     , (1079, 4,   379, -1, 0, 0, False) /* Create Mana Potion (379) for Shop */
+     , (1079, 4,   512, -1, 0, 0, False) /* Create Good Lockpick (512) for Shop */
+     , (1079, 4,   513, -1, 0, 0, False) /* Create Plain Lockpick (513) for Shop */
+     , (1079, 4,   545, -1, 0, 0, False) /* Create Reliable Lockpick (545) for Shop */
+     , (1079, 4,   628, -1, 0, 0, False) /* Create Handy Healing Kit (628) for Shop */
+     , (1079, 4,   629, -1, 0, 0, False) /* Create Adept Healing Kit (629) for Shop */
+     , (1079, 4,   630, -1, 0, 0, False) /* Create Gifted Healing Kit (630) for Shop */
+     , (1079, 4,  2457, -1, 0, 0, False) /* Create Health Draught (2457) for Shop */
+     , (1079, 4,  2460, -1, 0, 0, False) /* Create Mana Draught (2460) for Shop */
+     , (1079, 4,  2470, -1, 0, 0, False) /* Create Stamina Elixir (2470) for Shop */
+     , (1079, 2, 10696,  0, 4, 0.8, False) /* Create Apron (10696) for Wield */
+     , (1079, 4, 22158, -1, 0, 0, False) /* Create Jo (22158) for Shop */
+     , (1079, 4, 27319, -1, 0, 0, False) /* Create Health Tincture (27319) for Shop */
+     , (1079, 4, 27322, -1, 0, 0, False) /* Create Mana Tincture (27322) for Shop */
+     , (1079, 4, 27326, -1, 0, 0, False) /* Create Stamina Tincture (27326) for Shop */;

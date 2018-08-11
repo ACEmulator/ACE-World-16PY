@@ -20,7 +20,7 @@ VALUES (6910,   1,        256) /* ItemType - MissileWeapon */
      , (6910,  52,          2) /* ParentLocation */
      , (6910,  53,          3) /* PlacementPosition */
      , (6910,  60,        192) /* WeaponRange */
-     , (6910,  93,       1044) /* PhysicsState */
+     , (6910,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (6910, 106,        200) /* ItemSpellcraft */
      , (6910, 107,          0) /* ItemCurMana */
      , (6910, 108,        500) /* ItemMaxMana */

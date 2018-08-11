@@ -12,7 +12,7 @@ VALUES (28069,   1,          4) /* ItemType - Clothing */
      , (28069,  19,       6000) /* Value */
      , (28069,  27,          1) /* ArmorType */
      , (28069,  28,          0) /* ArmorLevel */
-     , (28069,  93,       1044) /* PhysicsState */
+     , (28069,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (28069, 106,        250) /* ItemSpellcraft */
      , (28069, 107,       1000) /* ItemCurMana */
      , (28069, 108,       1000) /* ItemMaxMana */

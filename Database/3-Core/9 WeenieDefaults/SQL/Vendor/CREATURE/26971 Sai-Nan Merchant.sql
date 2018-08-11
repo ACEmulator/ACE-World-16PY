@@ -10,10 +10,10 @@ VALUES (26971,   1,         16) /* ItemType - Creature */
      , (26971,  16,         32) /* ItemUseable - Remote */
      , (26971,  25,         10) /* Level */
      , (26971,  27,          0) /* ArmorType */
-     , (26971,  74,     264192) /* MerchandiseItemTypes */
+     , (26971,  74,     264192) /* MerchandiseItemTypes - Gem, PromissoryNote */
      , (26971,  75,          0) /* MerchandiseMinValue */
      , (26971,  76,    1000000) /* MerchandiseMaxValue */
-     , (26971,  93,    2098204) /* PhysicsState */
+     , (26971,  93,    2098204) /* PhysicsState - Ethereal, ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */
      , (26971, 126,        125) /* VendorHappyMean */
      , (26971, 127,        125) /* VendorHappyVariance */
      , (26971, 133,          4) /* ShowableOnRadar - ShowAlways */
@@ -97,4 +97,4 @@ VALUES (26971,  0,  4,  0,    0,    0,    0,    0,    0,    0,    0,    0,    0,
      , (26971,  8,  4,  2, 0.75,    0,    0,    0,    0,    0,    0,    0,    0,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (26971, 4, 26336, -1, 0, 0, False) /* Create Sai-Nan Portal Gem for Shop */;
+VALUES (26971, 4, 26336, -1, 0, 0, False) /* Create Sai-Nan Portal Gem (26336) for Shop */;

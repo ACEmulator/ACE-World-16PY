@@ -12,7 +12,7 @@ VALUES (11497,   1,         16) /* ItemType - Creature */
      , (11497,  40,          2) /* CombatMode - Melee */
      , (11497,  68,          5) /* TargetingTactic */
      , (11497,  72,         55) /* FriendType - Carenzi */
-     , (11497,  93,       1032) /* PhysicsState */
+     , (11497,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (11497, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (11497, 146,       9582) /* XpOverride */;
 
@@ -64,7 +64,7 @@ VALUES (11497,   1,   33557141) /* Setup */
      , (11497,   4,  805306375) /* CombatTable */
      , (11497,   8,  100671754) /* Icon */
      , (11497,  22,  872415377) /* PhysicsEffectTable */
-     , (11497,  35,        457) /* DeathTreasureType */;
+     , (11497,  35,        457) /* DeathTreasureType - Loot Tier: 2 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (11497,   1, 150, 0, 0) /* Strength */
@@ -115,5 +115,5 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 268435537 /* Twitch1 */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (11497, 9,     0,  0, 0, 0.95, False) /* Create Unknown for ContainTreasure */
-     , (11497, 9, 12235,  0, 0, 0.05, False) /* Create Carenzi Stalker Pelt for ContainTreasure */;
+VALUES (11497, 9,     0,  0, 0, 0.95, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 2 for ContainTreasure */
+     , (11497, 9, 12235,  0, 0, 0.05, False) /* Create Carenzi Stalker Pelt (12235) for ContainTreasure */;

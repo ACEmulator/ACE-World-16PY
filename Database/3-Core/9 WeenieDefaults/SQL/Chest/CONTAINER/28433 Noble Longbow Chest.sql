@@ -14,7 +14,7 @@ VALUES (28433,   1,        512) /* ItemType - Container */
      , (28433,  81,          2) /* MaxGeneratedObjects */
      , (28433,  82,          2) /* InitGeneratedObjects */
      , (28433,  83,          2) /* ActivationResponse - Use */
-     , (28433,  93,       1048) /* PhysicsState */
+     , (28433,  93,       1048) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity */
      , (28433,  96,        500) /* EncumbranceCapacity */
      , (28433, 100,          1) /* GeneratorType - Relative */;
 
@@ -48,5 +48,5 @@ VALUES (28433,   1,   33558857) /* Setup */
      , (28433,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (28433, -1, 341, 10, 1, 1, 2, 72, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0)
-     , (28433, -1, 28491, 10, 1, 1, 2, 8, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0);
+VALUES (28433, -1, 341, 10, 1, 1, 2, 72, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate RANDOMLY GENERATED TREASURE from Loot Tier 5 (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: ContainTreasure */
+     , (28433, -1, 28491, 10, 1, 1, 2, 8, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Noble Longbow (28491) (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: Contain */;

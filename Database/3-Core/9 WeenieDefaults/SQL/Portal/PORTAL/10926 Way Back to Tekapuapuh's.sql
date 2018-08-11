@@ -4,8 +4,8 @@ VALUES ('10926', 'portalgrubhatcheryexit-xp', 7) /* Portal */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (10926,   1,      65536) /* ItemType - Portal */
      , (10926,  16,         32) /* ItemUseable - Remote */
-     , (10926,  93,       3084) /* PhysicsState */
-     , (10926, 111,         49) /* PortalBitmask */
+     , (10926,  93,       3084) /* PhysicsState - Ethereal, ReportCollisions, Gravity, LightingOn */
+     , (10926, 111,         49) /* PortalBitmask - Unrestricted, NoSummon, NoRecall */
      , (10926, 133,          4) /* ShowableOnRadar - ShowAlways */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)

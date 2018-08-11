@@ -13,7 +13,7 @@ VALUES (9533,   1,         16) /* ItemType - Creature */
      , (9533,  40,          2) /* CombatMode - Melee */
      , (9533,  67,          2) /* Tolerance */
      , (9533,  68,          9) /* TargetingTactic */
-     , (9533,  93,       1032) /* PhysicsState */
+     , (9533,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (9533, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (9533, 146,       5954) /* XpOverride */;
 
@@ -117,5 +117,5 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 268435537 /* Twitch1 */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (9533, 9,     0,  0, 0, 0.95, False) /* Create Unknown for ContainTreasure */
-     , (9533, 9,  9541,  0, 0, 0.05, False) /* Create Pink Marshmallow Eep for ContainTreasure */;
+VALUES (9533, 9,     0,  0, 0, 0.95, False) /* Create UNKNOWN RANDOMLY GENERATED TREASURE for ContainTreasure */
+     , (9533, 9,  9541,  0, 0, 0.05, False) /* Create Pink Marshmallow Eep (9541) for ContainTreasure */;

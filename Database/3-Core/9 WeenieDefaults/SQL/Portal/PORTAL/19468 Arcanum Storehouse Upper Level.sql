@@ -4,8 +4,8 @@ VALUES ('19468', 'portalarcanumstorehouselow', 7) /* Portal */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (19468,   1,      65536) /* ItemType - Portal */
      , (19468,  86,         15) /* MinLevel */
-     , (19468,  93,       3084) /* PhysicsState */
-     , (19468, 111,         49) /* PortalBitmask */
+     , (19468,  93,       3084) /* PhysicsState - Ethereal, ReportCollisions, Gravity, LightingOn */
+     , (19468, 111,         49) /* PortalBitmask - Unrestricted, NoSummon, NoRecall */
      , (19468, 133,          4) /* ShowableOnRadar - ShowAlways */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)

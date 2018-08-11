@@ -10,10 +10,10 @@ VALUES (1391,   1,         16) /* ItemType - Creature */
      , (1391,  16,         32) /* ItemUseable - Remote */
      , (1391,  25,          9) /* Level */
      , (1391,  27,          0) /* ArmorType */
-     , (1391,  74, 1074030613) /* MerchandiseItemTypes */
+     , (1391,  74, 1074030613) /* MerchandiseItemTypes - MeleeWeapon, Clothing, Creature, Gem, Writable, Key, PromissoryNote, TinkeringMaterial */
      , (1391,  75,          0) /* MerchandiseMinValue */
      , (1391,  76,     100000) /* MerchandiseMaxValue */
-     , (1391,  93,    2098200) /* PhysicsState */
+     , (1391,  93,    2098200) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */
      , (1391, 126,        250) /* VendorHappyMean */
      , (1391, 127,        250) /* VendorHappyVariance */
      , (1391, 133,          4) /* ShowableOnRadar - ShowAlways */
@@ -162,40 +162,40 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 318767235 /* Nod */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (1391, 4,    36, -1, 0, 0, False) /* Create Leather Bracers for Shop */
-     , (1391, 4,    39, -1, 0, 0, False) /* Create Leather Breastplate for Shop */
-     , (1391, 4,    44, -1, 0, 0, False) /* Create Buckler for Shop */
-     , (1391, 4,    45, -1, 0, 0, False) /* Create Leather Cap for Shop */
-     , (1391, 4,    65, -1, 0, 0, False) /* Create Leather Greaves for Shop */
-     , (1391, 4,   109, -1, 0, 0, False) /* Create Leather Tassets for Shop */
-     , (1391, 2,   115,  0, 5, 0, False) /* Create Leather Boots for Wield */
-     , (1391, 4,   119, -1, 0, 0, False) /* Create Cowl for Shop */
-     , (1391, 4,   124, -1, 0, 0, False) /* Create Jerkin for Shop */
-     , (1391, 2,   127,  0, 9, 1, False) /* Create Pants for Wield */
-     , (1391, 4,   128, -1, 0, 0, False) /* Create Qafiya for Shop */
-     , (1391, 4,   129, -1, 0, 0, False) /* Create Sandals for Shop */
-     , (1391, 2,   130,  0, 9, 1, False) /* Create Shirt for Wield */
-     , (1391, 4,   135, -1, 0, 0, False) /* Create Turban for Shop */
-     , (1391, 4,   136, -1, 77, 0, False) /* Create Pack for Shop */
-     , (1391, 4,   137, -1, 0, 0, False) /* Create Basket for Shop */
-     , (1391, 4,   151, -1, 0, 0, False) /* Create Empty Flask for Shop */
-     , (1391, 4,   166, -1, 77, 1, False) /* Create Sack for Shop */
-     , (1391, 4,   258, -1, 0, 0, False) /* Create Apple for Shop */
-     , (1391, 4,   259, -1, 0, 0, False) /* Create Bread for Shop */
-     , (1391, 4,   261, -1, 0, 0, False) /* Create Cheese for Shop */
-     , (1391, 4,   264, -1, 0, 0, False) /* Create Grapes for Shop */
-     , (1391, 4,   300, -1, 0, 0, False) /* Create Arrow for Shop */
-     , (1391, 4,   316, -1, 0, 0, False) /* Create Throwing Dart for Shop */
-     , (1391, 4,   319, -1, 0, 0, False) /* Create Jambiya for Shop */
-     , (1391, 4,   325, -1, 0, 0, False) /* Create Kasrullah for Shop */
-     , (1391, 4,   328, -1, 0, 0, False) /* Create Khanjar for Shop */
-     , (1391, 4,   357, -1, 0, 0, False) /* Create Tungi for Shop */
-     , (1391, 4,   365, -1, 0, 0, False) /* Create Parchment for Shop */
-     , (1391, 4,   511, -1, 0, 0, False) /* Create Crude Lockpick for Shop */
-     , (1391, 4,   513, -1, 0, 0, False) /* Create Plain Lockpick for Shop */
-     , (1391, 4,   628, -1, 0, 0, False) /* Create Handy Healing Kit for Shop */
-     , (1391, 4,   629, -1, 0, 0, False) /* Create Adept Healing Kit for Shop */
-     , (1391, 4,  2621, -1, 0, 0, False) /* Create Trade Note (100) for Shop */
-     , (1391, 4,  2622, -1, 0, 0, False) /* Create Trade Note (500) for Shop */
-     , (1391, 2, 10696,  0, 9, 1, False) /* Create Apron for Wield */
-     , (1391, 4, 22163, -1, 0, 0, False) /* Create Nabut for Shop */;
+VALUES (1391, 4,    36, -1, 0, 0, False) /* Create Leather Bracers (36) for Shop */
+     , (1391, 4,    39, -1, 0, 0, False) /* Create Leather Breastplate (39) for Shop */
+     , (1391, 4,    44, -1, 0, 0, False) /* Create Buckler (44) for Shop */
+     , (1391, 4,    45, -1, 0, 0, False) /* Create Leather Cap (45) for Shop */
+     , (1391, 4,    65, -1, 0, 0, False) /* Create Leather Greaves (65) for Shop */
+     , (1391, 4,   109, -1, 0, 0, False) /* Create Leather Tassets (109) for Shop */
+     , (1391, 2,   115,  0, 5, 0, False) /* Create Leather Boots (115) for Wield */
+     , (1391, 4,   119, -1, 0, 0, False) /* Create Cowl (119) for Shop */
+     , (1391, 4,   124, -1, 0, 0, False) /* Create Jerkin (124) for Shop */
+     , (1391, 2,   127,  0, 9, 1, False) /* Create Pants (127) for Wield */
+     , (1391, 4,   128, -1, 0, 0, False) /* Create Qafiya (128) for Shop */
+     , (1391, 4,   129, -1, 0, 0, False) /* Create Sandals (129) for Shop */
+     , (1391, 2,   130,  0, 9, 1, False) /* Create Shirt (130) for Wield */
+     , (1391, 4,   135, -1, 0, 0, False) /* Create Turban (135) for Shop */
+     , (1391, 4,   136, -1, 77, 0, False) /* Create Pack (136) for Shop */
+     , (1391, 4,   137, -1, 0, 0, False) /* Create Basket (137) for Shop */
+     , (1391, 4,   151, -1, 0, 0, False) /* Create Empty Flask (151) for Shop */
+     , (1391, 4,   166, -1, 77, 1, False) /* Create Sack (166) for Shop */
+     , (1391, 4,   258, -1, 0, 0, False) /* Create Apple (258) for Shop */
+     , (1391, 4,   259, -1, 0, 0, False) /* Create Bread (259) for Shop */
+     , (1391, 4,   261, -1, 0, 0, False) /* Create Cheese (261) for Shop */
+     , (1391, 4,   264, -1, 0, 0, False) /* Create Grapes (264) for Shop */
+     , (1391, 4,   300, -1, 0, 0, False) /* Create Arrow (300) for Shop */
+     , (1391, 4,   316, -1, 0, 0, False) /* Create Throwing Dart (316) for Shop */
+     , (1391, 4,   319, -1, 0, 0, False) /* Create Jambiya (319) for Shop */
+     , (1391, 4,   325, -1, 0, 0, False) /* Create Kasrullah (325) for Shop */
+     , (1391, 4,   328, -1, 0, 0, False) /* Create Khanjar (328) for Shop */
+     , (1391, 4,   357, -1, 0, 0, False) /* Create Tungi (357) for Shop */
+     , (1391, 4,   365, -1, 0, 0, False) /* Create Parchment (365) for Shop */
+     , (1391, 4,   511, -1, 0, 0, False) /* Create Crude Lockpick (511) for Shop */
+     , (1391, 4,   513, -1, 0, 0, False) /* Create Plain Lockpick (513) for Shop */
+     , (1391, 4,   628, -1, 0, 0, False) /* Create Handy Healing Kit (628) for Shop */
+     , (1391, 4,   629, -1, 0, 0, False) /* Create Adept Healing Kit (629) for Shop */
+     , (1391, 4,  2621, -1, 0, 0, False) /* Create Trade Note (100) (2621) for Shop */
+     , (1391, 4,  2622, -1, 0, 0, False) /* Create Trade Note (500) (2622) for Shop */
+     , (1391, 2, 10696,  0, 9, 1, False) /* Create Apron (10696) for Wield */
+     , (1391, 4, 22163, -1, 0, 0, False) /* Create Nabut (22163) for Shop */;

@@ -13,8 +13,8 @@ VALUES (1255,   1,         16) /* ItemType - Creature */
      , (1255,  40,          2) /* CombatMode - Melee */
      , (1255,  68,          9) /* TargetingTactic */
      , (1255,  72,          6) /* FriendType - Tumerok */
-     , (1255,  93,       1032) /* PhysicsState */
-     , (1255, 101,        131) /* AiAllowedCombatStyle */
+     , (1255,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
+     , (1255, 101,        131) /* AiAllowedCombatStyle - Unarmed, OneHanded, ThrownWeapon */
      , (1255, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (1255, 140,          1) /* AiOptions */
      , (1255, 146,       1137) /* XpOverride */;
@@ -70,8 +70,34 @@ VALUES (1255,   1,   33556445) /* Setup */
      , (1255,   7,  268435971) /* ClothingBase */
      , (1255,   8,  100667445) /* Icon */
      , (1255,  22,  872415258) /* PhysicsEffectTable */
-     , (1255,  32,         68) /* WieldedTreasureType */
-     , (1255,  35,         69) /* DeathTreasureType */;
+     , (1255,  32,         68) /* WieldedTreasureType - 
+                                   Wield Budiaq (308) | Probability: 3%
+                                   Wield Club (309) | Probability: 3%
+                                   Wield Dabus (313) | Probability: 3%
+                                   Wield Dagger (314) | Probability: 3%
+                                   Wield Hand Axe (303) | Probability: 3%
+                                   Wield Jambiya (319) | Probability: 1%
+                                   Wield Jitte (321) | Probability: 3%
+                                   Wield Kasrullah (325) | Probability: 3%
+                                   Wield Katar (326) | Probability: 3%
+                                   Wield Khanjar (328) | Probability: 3%
+                                   Wield Knife (329) | Probability: 2%
+                                   Wield Mace (331) | Probability: 3%
+                                   Wield Short Sword (352) | Probability: 3%
+                                   Wield Shou-ono (342) | Probability: 3%
+                                   Wield Simi (345) | Probability: 3%
+                                   Wield Spear (348) | Probability: 3%
+                                   Wield Tofun (356) | Probability: 5%
+                                   Wield Yaoji (361) | Probability: 5%
+                                   Wield Yari (362) | Probability: 3%
+                                   Wield 10x Throwing Dart (316) | Probability: 2%
+                                   Wield 10x Shouken (343) | Probability: 3%
+                                   Wield 6x Throwing Dagger (315) | Probability: 3%
+                                   Wield 4x Javelin (320) | Probability: 5%
+                                   Wield Djarid (317) | Probability: 5%
+                                   Wield 5x Throwing Club (310) | Probability: 5%
+                                   Wield 5x Throwing Axe (304) | Probability: 5% */
+     , (1255,  35,         69) /* DeathTreasureType - Loot Tier: 2 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (1255,   1,  45, 0, 0) /* Strength */
@@ -188,5 +214,5 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 268435537 /* Twitch1 */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (1255, 9,     0,  0, 0, 0, False) /* Create Unknown for ContainTreasure */
-     , (1255, 9,  1265,  0, 0, 1, False) /* Create Key for ContainTreasure */;
+VALUES (1255, 9,     0,  0, 0, 0, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 2 for ContainTreasure */
+     , (1255, 9,  1265,  0, 0, 1, False) /* Create Key (1265) for ContainTreasure */;

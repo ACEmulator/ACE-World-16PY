@@ -11,7 +11,7 @@ VALUES (9216,   1,         16) /* ItemType - Creature */
      , (9216,  16,         32) /* ItemUseable - Remote */
      , (9216,  25,         14) /* Level */
      , (9216,  27,          0) /* ArmorType */
-     , (9216,  93,    6292504) /* PhysicsState */
+     , (9216,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (9216,  95,          8) /* RadarBlipColor - Yellow */
      , (9216, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (9216, 134,         16) /* PlayerKillerStatus - RubberGlue */
@@ -224,7 +224,7 @@ VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 1090519043 /* Ready */, NULL, NU
      , (@parent_id,  4,   5 /* Motion */, 0, 1, 1090519043 /* Ready */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (9216, 2,   161,  0, 0, 0, False) /* Create Mug for Wield */
-     , (9216, 2,  2588,  0, 9, 1, False) /* Create Shirt for Wield */
-     , (9216, 2,  2597,  0, 9, 1, False) /* Create Pants for Wield */
-     , (9216, 2,  5850,  0, 4, 0.5, False) /* Create Faran Robe for Wield */;
+VALUES (9216, 2,   161,  0, 0, 0, False) /* Create Mug (161) for Wield */
+     , (9216, 2,  2588,  0, 9, 1, False) /* Create Shirt (2588) for Wield */
+     , (9216, 2,  2597,  0, 9, 1, False) /* Create Pants (2597) for Wield */
+     , (9216, 2,  5850,  0, 4, 0.5, False) /* Create Faran Robe (5850) for Wield */;

@@ -14,7 +14,7 @@ VALUES (3697,   1,       2048) /* ItemType - Gem */
      , (3697,  15,        200) /* StackUnitValue */
      , (3697,  16,          1) /* ItemUseable - No */
      , (3697,  19,        200) /* Value */
-     , (3697,  93,       1044) /* PhysicsState */;
+     , (3697,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (3697,  22, True ) /* Inscribable */

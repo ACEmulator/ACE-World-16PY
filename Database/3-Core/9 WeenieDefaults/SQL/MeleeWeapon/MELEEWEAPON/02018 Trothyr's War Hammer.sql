@@ -16,7 +16,7 @@ VALUES (2018,   1,          1) /* ItemType - MeleeWeapon */
      , (2018,  48,          1) /* WeaponSkill - Axe */
      , (2018,  49,         40) /* WeaponTime */
      , (2018,  51,          1) /* CombatUse - Melee */
-     , (2018,  93,       1044) /* PhysicsState */
+     , (2018,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (2018, 150,        103) /* HookPlacement - Hook */
      , (2018, 151,          2) /* HookType - Wall */;
 

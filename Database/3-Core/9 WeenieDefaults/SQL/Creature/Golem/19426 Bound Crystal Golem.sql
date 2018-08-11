@@ -12,7 +12,7 @@ VALUES (19426,   1,         16) /* ItemType - Creature */
      , (19426,  27,          0) /* ArmorType */
      , (19426,  40,          2) /* CombatMode - Melee */
      , (19426,  68,          3) /* TargetingTactic */
-     , (19426,  93,       1032) /* PhysicsState */
+     , (19426,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (19426, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (19426, 146,      30000) /* XpOverride */;
 

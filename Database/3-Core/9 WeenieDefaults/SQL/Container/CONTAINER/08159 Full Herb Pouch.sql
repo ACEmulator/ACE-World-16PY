@@ -11,7 +11,7 @@ VALUES (8159,   1,        512) /* ItemType - Container */
      , (8159,   9,          0) /* ValidLocations - None */
      , (8159,  16,         56) /* ItemUseable - ContainedViewedRemote */
      , (8159,  19,          5) /* Value */
-     , (8159,  93,       1044) /* PhysicsState */
+     , (8159,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (8159,  96,        180) /* EncumbranceCapacity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
@@ -35,21 +35,21 @@ VALUES (8159,   1,   33554817) /* Setup */
      , (8159,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (8159, 1,   625, 100, 0, 0, False) /* Create Ginseng for Contain */
-     , (8159, 1,   765, 100, 0, 0, False) /* Create Amaranth for Contain */
-     , (8159, 1,   766, 100, 0, 0, False) /* Create Bistort for Contain */
-     , (8159, 1,   767, 100, 0, 0, False) /* Create Comfrey for Contain */
-     , (8159, 1,   768, 100, 0, 0, False) /* Create Damiana for Contain */
-     , (8159, 1,   769, 100, 0, 0, False) /* Create Dragonsblood for Contain */
-     , (8159, 1,   770, 100, 0, 0, False) /* Create Eyebright for Contain */
-     , (8159, 1,   771, 100, 0, 0, False) /* Create Frankincense for Contain */
-     , (8159, 1,   772, 100, 0, 0, False) /* Create Hawthorn for Contain */
-     , (8159, 1,   773, 100, 0, 0, False) /* Create Henbane for Contain */
-     , (8159, 1,   774, 100, 0, 0, False) /* Create Hyssop for Contain */
-     , (8159, 1,   775, 100, 0, 0, False) /* Create Mandrake for Contain */
-     , (8159, 1,   776, 100, 0, 0, False) /* Create Mugwort for Contain */
-     , (8159, 1,   777, 100, 0, 0, False) /* Create Myrrh for Contain */
-     , (8159, 1,   778, 100, 0, 0, False) /* Create Saffron for Contain */
-     , (8159, 1,   779, 100, 0, 0, False) /* Create Vervain for Contain */
-     , (8159, 1,   780, 100, 0, 0, False) /* Create Wormwood for Contain */
-     , (8159, 1,   781, 100, 0, 0, False) /* Create Yarrow for Contain */;
+VALUES (8159, 1,   625, 100, 0, 0, False) /* Create Ginseng (625) for Contain */
+     , (8159, 1,   765, 100, 0, 0, False) /* Create Amaranth (765) for Contain */
+     , (8159, 1,   766, 100, 0, 0, False) /* Create Bistort (766) for Contain */
+     , (8159, 1,   767, 100, 0, 0, False) /* Create Comfrey (767) for Contain */
+     , (8159, 1,   768, 100, 0, 0, False) /* Create Damiana (768) for Contain */
+     , (8159, 1,   769, 100, 0, 0, False) /* Create Dragonsblood (769) for Contain */
+     , (8159, 1,   770, 100, 0, 0, False) /* Create Eyebright (770) for Contain */
+     , (8159, 1,   771, 100, 0, 0, False) /* Create Frankincense (771) for Contain */
+     , (8159, 1,   772, 100, 0, 0, False) /* Create Hawthorn (772) for Contain */
+     , (8159, 1,   773, 100, 0, 0, False) /* Create Henbane (773) for Contain */
+     , (8159, 1,   774, 100, 0, 0, False) /* Create Hyssop (774) for Contain */
+     , (8159, 1,   775, 100, 0, 0, False) /* Create Mandrake (775) for Contain */
+     , (8159, 1,   776, 100, 0, 0, False) /* Create Mugwort (776) for Contain */
+     , (8159, 1,   777, 100, 0, 0, False) /* Create Myrrh (777) for Contain */
+     , (8159, 1,   778, 100, 0, 0, False) /* Create Saffron (778) for Contain */
+     , (8159, 1,   779, 100, 0, 0, False) /* Create Vervain (779) for Contain */
+     , (8159, 1,   780, 100, 0, 0, False) /* Create Wormwood (780) for Contain */
+     , (8159, 1,   781, 100, 0, 0, False) /* Create Yarrow (781) for Contain */;

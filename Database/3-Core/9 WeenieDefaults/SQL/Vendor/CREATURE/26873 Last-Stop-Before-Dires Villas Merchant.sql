@@ -10,10 +10,10 @@ VALUES (26873,   1,         16) /* ItemType - Creature */
      , (26873,  16,         32) /* ItemUseable - Remote */
      , (26873,  25,         10) /* Level */
      , (26873,  27,          0) /* ArmorType */
-     , (26873,  74,     264192) /* MerchandiseItemTypes */
+     , (26873,  74,     264192) /* MerchandiseItemTypes - Gem, PromissoryNote */
      , (26873,  75,          0) /* MerchandiseMinValue */
      , (26873,  76,    1000000) /* MerchandiseMaxValue */
-     , (26873,  93,    2098204) /* PhysicsState */
+     , (26873,  93,    2098204) /* PhysicsState - Ethereal, ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */
      , (26873, 126,        125) /* VendorHappyMean */
      , (26873, 127,        125) /* VendorHappyVariance */
      , (26873, 133,          4) /* ShowableOnRadar - ShowAlways */
@@ -97,4 +97,4 @@ VALUES (26873,  0,  4,  0,    0,    0,    0,    0,    0,    0,    0,    0,    0,
      , (26873,  8,  4,  2, 0.75,    0,    0,    0,    0,    0,    0,    0,    0,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (26873, 4, 26238, -1, 0, 0, False) /* Create Last-Stop-Before-Dires Villas Portal Gem for Shop */;
+VALUES (26873, 4, 26238, -1, 0, 0, False) /* Create Last-Stop-Before-Dires Villas Portal Gem (26238) for Shop */;

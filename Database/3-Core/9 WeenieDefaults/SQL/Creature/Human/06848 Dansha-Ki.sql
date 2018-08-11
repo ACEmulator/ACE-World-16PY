@@ -10,7 +10,7 @@ VALUES (6848,   1,         16) /* ItemType - Creature */
      , (6848,  16,         32) /* ItemUseable - Remote */
      , (6848,  25,         21) /* Level */
      , (6848,  27,          0) /* ArmorType */
-     , (6848,  93,    6292504) /* PhysicsState */
+     , (6848,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (6848,  95,          8) /* RadarBlipColor - Yellow */
      , (6848, 133,          1) /* ShowableOnRadar - ShowNever */
      , (6848, 134,         16) /* PlayerKillerStatus - RubberGlue */
@@ -189,4 +189,4 @@ VALUES (@parent_id,  0,   7 /* PhysScript */, 1, 1, NULL, NULL, NULL, NULL, NULL
      , (@parent_id,  5,  24 /* StopEvent */, 0, 1, NULL, 'DryreachRescue', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (6848, 2,  5914,  0, 0, 0.5, False) /* Create Suikan Item Master Robe for Wield */;
+VALUES (6848, 2,  5914,  0, 0, 0.5, False) /* Create Suikan Item Master Robe (5914) for Wield */;

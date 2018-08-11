@@ -12,8 +12,8 @@ VALUES (23331,   1,         16) /* ItemType - Creature */
      , (23331,  27,          0) /* ArmorType */
      , (23331,  40,          2) /* CombatMode - Melee */
      , (23331,  68,         13) /* TargetingTactic */
-     , (23331,  93,       1032) /* PhysicsState */
-     , (23331, 101,        131) /* AiAllowedCombatStyle */
+     , (23331,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
+     , (23331, 101,        131) /* AiAllowedCombatStyle - Unarmed, OneHanded, ThrownWeapon */
      , (23331, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (23331, 140,          1) /* AiOptions */
      , (23331, 146,       2500) /* XpOverride */;
@@ -71,7 +71,7 @@ VALUES (23331,   1,   33556882) /* Setup */
      , (23331,   8,  100671185) /* Icon */
      , (23331,  22,  872415337) /* PhysicsEffectTable */
      , (23331,  30,         83) /* PhysicsScript - PortalExit */
-     , (23331,  35,        115) /* DeathTreasureType */;
+     , (23331,  35,        115) /* DeathTreasureType - Loot Tier: 3 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (23331,   1, 200, 0, 0) /* Strength */
@@ -174,5 +174,5 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 268435537 /* Twitch1 */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (23331, 9,     0,  0, 0, 0.97, False) /* Create Unknown for ContainTreasure */
-     , (23331, 9, 20858,  0, 0, 0.03, False) /* Create Fish Stamp for ContainTreasure */;
+VALUES (23331, 9,     0,  0, 0, 0.97, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 3 for ContainTreasure */
+     , (23331, 9, 20858,  0, 0, 0.03, False) /* Create Fish Stamp (20858) for ContainTreasure */;

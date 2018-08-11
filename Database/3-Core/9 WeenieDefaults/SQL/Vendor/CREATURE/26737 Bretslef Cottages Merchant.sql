@@ -10,10 +10,10 @@ VALUES (26737,   1,         16) /* ItemType - Creature */
      , (26737,  16,         32) /* ItemUseable - Remote */
      , (26737,  25,         10) /* Level */
      , (26737,  27,          0) /* ArmorType */
-     , (26737,  74,     264192) /* MerchandiseItemTypes */
+     , (26737,  74,     264192) /* MerchandiseItemTypes - Gem, PromissoryNote */
      , (26737,  75,          0) /* MerchandiseMinValue */
      , (26737,  76,    1000000) /* MerchandiseMaxValue */
-     , (26737,  93,    2098204) /* PhysicsState */
+     , (26737,  93,    2098204) /* PhysicsState - Ethereal, ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */
      , (26737, 126,        125) /* VendorHappyMean */
      , (26737, 127,        125) /* VendorHappyVariance */
      , (26737, 133,          4) /* ShowableOnRadar - ShowAlways */
@@ -97,4 +97,4 @@ VALUES (26737,  0,  4,  0,    0,    0,    0,    0,    0,    0,    0,    0,    0,
      , (26737,  8,  4,  2, 0.75,    0,    0,    0,    0,    0,    0,    0,    0,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (26737, 4, 26102, -1, 0, 0, False) /* Create Bretslef Cottages Portal Gem for Shop */;
+VALUES (26737, 4, 26102, -1, 0, 0, False) /* Create Bretslef Cottages Portal Gem (26102) for Shop */;

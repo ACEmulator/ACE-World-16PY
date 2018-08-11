@@ -10,7 +10,7 @@ VALUES (28972,   1,         16) /* ItemType - Creature */
      , (28972,  16,         32) /* ItemUseable - Remote */
      , (28972,  25,        275) /* Level */
      , (28972,  27,          0) /* ArmorType */
-     , (28972,  93,    6292504) /* PhysicsState */
+     , (28972,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (28972,  95,          8) /* RadarBlipColor - Yellow */
      , (28972, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (28972, 134,         16) /* PlayerKillerStatus - RubberGlue */
@@ -491,4 +491,4 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,  10 /* Tell */, 0, 1, NULL, 'Interesting, how did you come by this? it is a very nice gift. Thank you.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (28972, 2, 21483,  0, 0, 0, False) /* Create Nuhumudira's Robe for Wield */;
+VALUES (28972, 2, 21483,  0, 0, 0, False) /* Create Nuhumudira's Robe (21483) for Wield */;

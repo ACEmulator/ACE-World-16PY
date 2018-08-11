@@ -13,7 +13,7 @@ VALUES (25802,   1,         16) /* ItemType - Creature */
      , (25802,  40,          2) /* CombatMode - Melee */
      , (25802,  68,         13) /* TargetingTactic */
      , (25802,  72,         35) /* FriendType - OlthoiLarvae */
-     , (25802,  93,    4195336) /* PhysicsState */
+     , (25802,  93,    4195336) /* PhysicsState - ReportCollisions, Gravity, EdgeSlide */
      , (25802, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (25802, 140,          1) /* AiOptions */
      , (25802, 146,      21594) /* XpOverride */;
@@ -68,7 +68,7 @@ VALUES (25802,   1,   33557046) /* Setup */
      , (25802,   8,  100667623) /* Icon */
      , (25802,  22,  872415378) /* PhysicsEffectTable */
      , (25802,  30,         85) /* PhysicsScript - BreatheFrost */
-     , (25802,  35,        358) /* DeathTreasureType */;
+     , (25802,  35,        358) /* DeathTreasureType - Loot Tier: 5 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (25802,   1, 350, 0, 0) /* Strength */
@@ -121,7 +121,7 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 268435537 /* Twitch1 */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (25802, 9,     0,  0, 0, 0.97, False) /* Create Unknown for ContainTreasure */
-     , (25802, 9,     0,  0, 0, 0.98, False) /* Create Unknown for ContainTreasure */
-     , (25802, 9,  6876,  0, 0, 0.03, False) /* Create Sturdy Iron Key for ContainTreasure */
-     , (25802, 9, 22059,  0, 0, 0.02, False) /* Create Eviscerator Head for ContainTreasure */;
+VALUES (25802, 9,     0,  0, 0, 0.97, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 5 for ContainTreasure */
+     , (25802, 9,     0,  0, 0, 0.98, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 5 for ContainTreasure */
+     , (25802, 9,  6876,  0, 0, 0.03, False) /* Create Sturdy Iron Key (6876) for ContainTreasure */
+     , (25802, 9, 22059,  0, 0, 0.02, False) /* Create Eviscerator Head (22059) for ContainTreasure */;

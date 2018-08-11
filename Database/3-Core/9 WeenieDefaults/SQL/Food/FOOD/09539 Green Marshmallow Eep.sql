@@ -16,9 +16,9 @@ VALUES (9539,   1,         32) /* ItemType - Food */
      , (9539,  19,          1) /* Value */
      , (9539,  89,          4) /* BoosterEnum - Stamina */
      , (9539,  90,          4) /* BoostValue */
-     , (9539,  93,       1044) /* PhysicsState */
+     , (9539,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (9539, 150,        103) /* HookPlacement - Hook */
-     , (9539, 151,          9) /* HookType */;
+     , (9539, 151,          9) /* HookType - Floor, Yard */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (9539,  22, True ) /* Inscribable */

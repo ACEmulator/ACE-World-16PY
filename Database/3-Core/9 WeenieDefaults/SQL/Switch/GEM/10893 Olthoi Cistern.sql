@@ -6,7 +6,7 @@ VALUES (10893,   1,       2048) /* ItemType - Gem */
      , (10893,  16,         48) /* ItemUseable - ViewedRemote */
      , (10893,  19,          0) /* Value */
      , (10893,  83,       2048) /* ActivationResponse - Unk800 */
-     , (10893,  93,         16) /* PhysicsState - IgnoreCollision */
+     , (10893,  93,         16) /* PhysicsState - IgnoreCollisions */
      , (10893, 119,          1) /* Active */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)

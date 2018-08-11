@@ -11,8 +11,8 @@ VALUES (8675,   1,         16) /* ItemType - Creature */
      , (8675,  25,        710) /* Level */
      , (8675,  27,          0) /* ArmorType */
      , (8675,  67,         64) /* Tolerance */
-     , (8675,  93,       1032) /* PhysicsState */
-     , (8675, 101,        131) /* AiAllowedCombatStyle */
+     , (8675,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
+     , (8675, 101,        131) /* AiAllowedCombatStyle - Unarmed, OneHanded, ThrownWeapon */
      , (8675, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (8675, 146,      50593) /* XpOverride */;
 
@@ -163,4 +163,4 @@ INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
 VALUES (8675, 414) /* PLAYER_DEATH_EVENT */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (8675, 1,  2548,  1, 0, 1, False) /* Create Sceptre for Contain */;
+VALUES (8675, 1,  2548,  1, 0, 1, False) /* Create Sceptre (2548) for Contain */;

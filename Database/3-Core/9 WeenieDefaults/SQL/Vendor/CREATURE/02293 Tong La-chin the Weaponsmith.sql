@@ -10,10 +10,10 @@ VALUES (2293,   1,         16) /* ItemType - Creature */
      , (2293,  16,         32) /* ItemUseable - Remote */
      , (2293,  25,         17) /* Level */
      , (2293,  27,          0) /* ArmorType */
-     , (2293,  74, 1074005895) /* MerchandiseItemTypes */
+     , (2293,  74, 1074005895) /* MerchandiseItemTypes - Vestements, Weapon, LockableMagicTarget, Useless, PromissoryNote, TinkeringMaterial */
      , (2293,  75,          0) /* MerchandiseMinValue */
      , (2293,  76,     100000) /* MerchandiseMaxValue */
-     , (2293,  93,    2098200) /* PhysicsState */
+     , (2293,  93,    2098200) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */
      , (2293, 126,       2000) /* VendorHappyMean */
      , (2293, 127,       1000) /* VendorHappyVariance */
      , (2293, 133,          4) /* ShowableOnRadar - ShowAlways */
@@ -163,29 +163,29 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 318767235 /* Nod */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (2293, 2,   117,  0, 2, 0.5, False) /* Create Breeches for Wield */
-     , (2293, 2,   118,  0, 4, 0.8, False) /* Create Cap for Wield */
-     , (2293, 2,   124,  0, 17, 1, False) /* Create Jerkin for Wield */
-     , (2293, 2,   132,  0, 4, 0.8, False) /* Create Shoes for Wield */
-     , (2293, 4,   310, -1, 0, 0, False) /* Create Throwing Club for Shop */
-     , (2293, 4,   314, -1, 0, 0, False) /* Create Dagger for Shop */
-     , (2293, 4,   327, -1, 0, 0, False) /* Create Ken for Shop */
-     , (2293, 4,   336, -1, 0, 0, False) /* Create Ono for Shop */
-     , (2293, 4,   353, -1, 0, 0, False) /* Create Tachi for Shop */
-     , (2293, 2,   356,  0, 0, 0, False) /* Create Tofun for Wield */
-     , (2293, 4,   356, -1, 0, 0, False) /* Create Tofun for Shop */
-     , (2293, 4,   359, -1, 0, 0, False) /* Create War Hammer for Shop */
-     , (2293, 4,   362, -1, 0, 0, False) /* Create Yari for Shop */
-     , (2293, 4,  2621, -1, 0, 0, False) /* Create Trade Note (100) for Shop */
-     , (2293, 4,  2622, -1, 0, 0, False) /* Create Trade Note (500) for Shop */
-     , (2293, 4,  2623, -1, 0, 0, False) /* Create Trade Note (1,000) for Shop */
-     , (2293, 4,  2624, -1, 0, 0, False) /* Create Trade Note (5,000) for Shop */
-     , (2293, 4,  2625, -1, 0, 0, False) /* Create Trade Note (10,000) for Shop */
-     , (2293, 4,  2626, -1, 0, 0, False) /* Create Trade Note (50,000) for Shop */
-     , (2293, 4,  2627, -1, 0, 0, False) /* Create Trade Note (100,000) for Shop */
-     , (2293, 4,  4195, -1, 0, 0, False) /* Create Nekode for Shop */
-     , (2293, 2, 10696,  0, 9, 0.5, False) /* Create Apron for Wield */
-     , (2293, 4, 20628, -1, 0, 0, False) /* Create Trade Note (150,000) for Shop */
-     , (2293, 4, 20629, -1, 0, 0, False) /* Create Trade Note (200,000) for Shop */
-     , (2293, 4, 20630, -1, 0, 0, False) /* Create Trade Note (250,000) for Shop */
-     , (2293, 4, 22158, -1, 0, 0, False) /* Create Jo for Shop */;
+VALUES (2293, 2,   117,  0, 2, 0.5, False) /* Create Breeches (117) for Wield */
+     , (2293, 2,   118,  0, 4, 0.8, False) /* Create Cap (118) for Wield */
+     , (2293, 2,   124,  0, 17, 1, False) /* Create Jerkin (124) for Wield */
+     , (2293, 2,   132,  0, 4, 0.8, False) /* Create Shoes (132) for Wield */
+     , (2293, 4,   310, -1, 0, 0, False) /* Create Throwing Club (310) for Shop */
+     , (2293, 4,   314, -1, 0, 0, False) /* Create Dagger (314) for Shop */
+     , (2293, 4,   327, -1, 0, 0, False) /* Create Ken (327) for Shop */
+     , (2293, 4,   336, -1, 0, 0, False) /* Create Ono (336) for Shop */
+     , (2293, 4,   353, -1, 0, 0, False) /* Create Tachi (353) for Shop */
+     , (2293, 2,   356,  0, 0, 0, False) /* Create Tofun (356) for Wield */
+     , (2293, 4,   356, -1, 0, 0, False) /* Create Tofun (356) for Shop */
+     , (2293, 4,   359, -1, 0, 0, False) /* Create War Hammer (359) for Shop */
+     , (2293, 4,   362, -1, 0, 0, False) /* Create Yari (362) for Shop */
+     , (2293, 4,  2621, -1, 0, 0, False) /* Create Trade Note (100) (2621) for Shop */
+     , (2293, 4,  2622, -1, 0, 0, False) /* Create Trade Note (500) (2622) for Shop */
+     , (2293, 4,  2623, -1, 0, 0, False) /* Create Trade Note (1,000) (2623) for Shop */
+     , (2293, 4,  2624, -1, 0, 0, False) /* Create Trade Note (5,000) (2624) for Shop */
+     , (2293, 4,  2625, -1, 0, 0, False) /* Create Trade Note (10,000) (2625) for Shop */
+     , (2293, 4,  2626, -1, 0, 0, False) /* Create Trade Note (50,000) (2626) for Shop */
+     , (2293, 4,  2627, -1, 0, 0, False) /* Create Trade Note (100,000) (2627) for Shop */
+     , (2293, 4,  4195, -1, 0, 0, False) /* Create Nekode (4195) for Shop */
+     , (2293, 2, 10696,  0, 9, 0.5, False) /* Create Apron (10696) for Wield */
+     , (2293, 4, 20628, -1, 0, 0, False) /* Create Trade Note (150,000) (20628) for Shop */
+     , (2293, 4, 20629, -1, 0, 0, False) /* Create Trade Note (200,000) (20629) for Shop */
+     , (2293, 4, 20630, -1, 0, 0, False) /* Create Trade Note (250,000) (20630) for Shop */
+     , (2293, 4, 22158, -1, 0, 0, False) /* Create Jo (22158) for Shop */;

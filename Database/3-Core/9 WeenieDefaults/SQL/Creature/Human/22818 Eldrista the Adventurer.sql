@@ -11,7 +11,7 @@ VALUES (22818,   1,         16) /* ItemType - Creature */
      , (22818,  16,         32) /* ItemUseable - Remote */
      , (22818,  25,          6) /* Level */
      , (22818,  27,          0) /* ArmorType */
-     , (22818,  93,    6292504) /* PhysicsState */
+     , (22818,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (22818,  95,          8) /* RadarBlipColor - Yellow */
      , (22818, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (22818, 134,         16) /* PlayerKillerStatus - RubberGlue */
@@ -181,8 +181,8 @@ VALUES (@parent_id,  0,  12 /* TurnToTarget */, 0, 1, NULL, NULL, NULL, NULL, NU
      , (@parent_id,  2,   3 /* Give */, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0, 2024 /* Lilitha's Bow */, 1, 0, 0, False, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (22818, 2,   126,  0, 4, 0.6, False) /* Create Leggings for Wield */
-     , (22818, 2,   130,  0, 9, 0, False) /* Create Shirt for Wield */
-     , (22818, 2,   133,  0, 16, 1, False) /* Create Slippers for Wield */
-     , (22818, 2,   339,  0, 0, 0, False) /* Create Scimitar for Wield */
-     , (22818, 2, 10696,  0, 4, 0.5, False) /* Create Apron for Wield */;
+VALUES (22818, 2,   126,  0, 4, 0.6, False) /* Create Leggings (126) for Wield */
+     , (22818, 2,   130,  0, 9, 0, False) /* Create Shirt (130) for Wield */
+     , (22818, 2,   133,  0, 16, 1, False) /* Create Slippers (133) for Wield */
+     , (22818, 2,   339,  0, 0, 0, False) /* Create Scimitar (339) for Wield */
+     , (22818, 2, 10696,  0, 4, 0.5, False) /* Create Apron (10696) for Wield */;

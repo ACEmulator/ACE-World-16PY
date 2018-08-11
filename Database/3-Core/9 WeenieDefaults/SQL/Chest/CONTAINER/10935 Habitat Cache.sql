@@ -16,7 +16,7 @@ VALUES (10935,   1,        512) /* ItemType - Container */
      , (10935,  81,          2) /* MaxGeneratedObjects */
      , (10935,  82,          2) /* InitGeneratedObjects */
      , (10935,  83,         16) /* ActivationResponse - Talk */
-     , (10935,  93,       1048) /* PhysicsState */
+     , (10935,  93,       1048) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity */
      , (10935,  96,        500) /* EncumbranceCapacity */
      , (10935, 100,          1) /* GeneratorType - Relative */
      , (10935, 119,          1) /* Active */;
@@ -55,5 +55,5 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (10935,  16,          0) /* ActivationTarget */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (10935, -1, 11006, 0, 1, 1, 2, 8, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0)
-     , (10935, -1, 11005, 0, 1, 1, 2, 8, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0);
+VALUES (10935, -1, 11006, 0, 1, 1, 2, 8, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Flimsy Hilt (11006) (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: Contain */
+     , (10935, -1, 11005, 0, 1, 1, 2, 8, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Glittering Blade (11005) (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: Contain */;

@@ -12,8 +12,8 @@ VALUES (1464,   1,         16) /* ItemType - Creature */
      , (1464,  27,          0) /* ArmorType */
      , (1464,  40,          2) /* CombatMode - Melee */
      , (1464,  68,          5) /* TargetingTactic */
-     , (1464,  93,       1032) /* PhysicsState */
-     , (1464, 101,        131) /* AiAllowedCombatStyle */
+     , (1464,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
+     , (1464, 101,        131) /* AiAllowedCombatStyle - Unarmed, OneHanded, ThrownWeapon */
      , (1464, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (1464, 140,          1) /* AiOptions */
      , (1464, 146,        179) /* XpOverride */;
@@ -69,7 +69,7 @@ VALUES (1464,   1,   33556445) /* Setup */
      , (1464,   7,  268435972) /* ClothingBase */
      , (1464,   8,  100667445) /* Icon */
      , (1464,  22,  872415258) /* PhysicsEffectTable */
-     , (1464,  35,        453) /* DeathTreasureType */;
+     , (1464,  35,        453) /* DeathTreasureType - Loot Tier: 1 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (1464,   1,  30, 0, 0) /* Strength */
@@ -188,13 +188,13 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 268435537 /* Twitch1 */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (1464, 9,     0,  0, 0, 0.97, False) /* Create Unknown for ContainTreasure */
-     , (1464, 9,     0,  0, 0, 0.99, False) /* Create Unknown for ContainTreasure */
-     , (1464, 9,     0,  0, 0, 0.9, False) /* Create Unknown for ContainTreasure */
-     , (1464, 9,     0,  0, 0, 0.97, False) /* Create Unknown for ContainTreasure */
-     , (1464, 9,     0,  0, 0, 0.94, False) /* Create Unknown for ContainTreasure */
-     , (1464, 9,  3669,  0, 0, 0.01, False) /* Create Drudge Charm for ContainTreasure */
-     , (1464, 9,  7825,  0, 0, 0.03, False) /* Create Brown Beans for ContainTreasure */
-     , (1464, 9,  8701,  0, 0, 0.03, False) /* Create Lucky Gold Letter for ContainTreasure */
-     , (1464, 9,  8702,  0, 0, 0.06, False) /* Create Scarlet Red Letter for ContainTreasure */
-     , (1464, 9, 13222,  0, 0, 0.1, False) /* Create Peppermint Stick for ContainTreasure */;
+VALUES (1464, 9,     0,  0, 0, 0.97, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 1 for ContainTreasure */
+     , (1464, 9,     0,  0, 0, 0.99, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 1 for ContainTreasure */
+     , (1464, 9,     0,  0, 0, 0.9, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 1 for ContainTreasure */
+     , (1464, 9,     0,  0, 0, 0.97, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 1 for ContainTreasure */
+     , (1464, 9,     0,  0, 0, 0.94, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 1 for ContainTreasure */
+     , (1464, 9,  3669,  0, 0, 0.01, False) /* Create Drudge Charm (3669) for ContainTreasure */
+     , (1464, 9,  7825,  0, 0, 0.03, False) /* Create Brown Beans (7825) for ContainTreasure */
+     , (1464, 9,  8701,  0, 0, 0.03, False) /* Create Lucky Gold Letter (8701) for ContainTreasure */
+     , (1464, 9,  8702,  0, 0, 0.06, False) /* Create Scarlet Red Letter (8702) for ContainTreasure */
+     , (1464, 9, 13222,  0, 0, 0.1, False) /* Create Peppermint Stick (13222) for ContainTreasure */;

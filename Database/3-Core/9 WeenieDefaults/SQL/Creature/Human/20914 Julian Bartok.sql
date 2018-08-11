@@ -10,7 +10,7 @@ VALUES (20914,   1,         16) /* ItemType - Creature */
      , (20914,  16,         32) /* ItemUseable - Remote */
      , (20914,  25,         24) /* Level */
      , (20914,  27,          0) /* ArmorType */
-     , (20914,  93,    6292504) /* PhysicsState */
+     , (20914,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (20914,  95,          8) /* RadarBlipColor - Yellow */
      , (20914, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (20914, 134,         16) /* PlayerKillerStatus - RubberGlue */
@@ -112,6 +112,6 @@ VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 1090519043 /* Ready */, NULL, NU
      , (@parent_id,  3,  10 /* Tell */, 1, 1, NULL, 'It''s starting to become a chore to keep them in line. But so far so good. Hibdin is a good man, but the things down there don''t listen to him the same.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (20914, 2,   127,  0, 9, 0, False) /* Create Pants for Wield */
-     , (20914, 2,   133,  0, 4, 0.8, False) /* Create Slippers for Wield */
-     , (20914, 2,   134,  0, 13, 1, False) /* Create Tunic for Wield */;
+VALUES (20914, 2,   127,  0, 9, 0, False) /* Create Pants (127) for Wield */
+     , (20914, 2,   133,  0, 4, 0.8, False) /* Create Slippers (133) for Wield */
+     , (20914, 2,   134,  0, 13, 1, False) /* Create Tunic (134) for Wield */;

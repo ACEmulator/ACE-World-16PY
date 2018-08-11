@@ -13,7 +13,7 @@ VALUES (27713,   1,         16) /* ItemType - Creature */
      , (27713,  40,          2) /* CombatMode - Melee */
      , (27713,  68,          9) /* TargetingTactic */
      , (27713,  72,         56) /* FriendType - Siraluun */
-     , (27713,  93,       1032) /* PhysicsState */
+     , (27713,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (27713, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (27713, 146,      31191) /* XpOverride */;
 
@@ -68,7 +68,7 @@ VALUES (27713,   1,   33557059) /* Setup */
      , (27713,   7,  268436194) /* ClothingBase */
      , (27713,   8,  100671751) /* Icon */
      , (27713,  22,  872415376) /* PhysicsEffectTable */
-     , (27713,  35,        454) /* DeathTreasureType */;
+     , (27713,  35,        454) /* DeathTreasureType - Loot Tier: 4 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (27713,   1, 350, 0, 0) /* Strength */
@@ -119,11 +119,11 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 268435537 /* Twitch1 */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (27713, 9,     0,  0, 0, 0.95, False) /* Create Unknown for ContainTreasure */
-     , (27713, 9,     0,  0, 0, 0.95, False) /* Create Unknown for ContainTreasure */
-     , (27713, 9,     0,  0, 0, 0.95, False) /* Create Unknown for ContainTreasure */
-     , (27713, 9,     0,  0, 0, 0.98, False) /* Create Unknown for ContainTreasure */
-     , (27713, 9,  6876,  0, 0, 0.05, False) /* Create Sturdy Iron Key for ContainTreasure */
-     , (27713, 9, 24477,  0, 0, 0.02, False) /* Create Sturdy Steel Key for ContainTreasure */
-     , (27713, 9, 29904,  0, 0, 0.05, False) /* Create Small Bundle of Untamed Siraluun Feathers for ContainTreasure */
-     , (27713, 9, 29907,  0, 0, 0.05, False) /* Create Untamed Siraluun Claw for ContainTreasure */;
+VALUES (27713, 9,     0,  0, 0, 0.95, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 4 for ContainTreasure */
+     , (27713, 9,     0,  0, 0, 0.95, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 4 for ContainTreasure */
+     , (27713, 9,     0,  0, 0, 0.95, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 4 for ContainTreasure */
+     , (27713, 9,     0,  0, 0, 0.98, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 4 for ContainTreasure */
+     , (27713, 9,  6876,  0, 0, 0.05, False) /* Create Sturdy Iron Key (6876) for ContainTreasure */
+     , (27713, 9, 24477,  0, 0, 0.02, False) /* Create Sturdy Steel Key (24477) for ContainTreasure */
+     , (27713, 9, 29904,  0, 0, 0.05, False) /* Create Small Bundle of Untamed Siraluun Feathers (29904) for ContainTreasure */
+     , (27713, 9, 29907,  0, 0, 0.05, False) /* Create Untamed Siraluun Claw (29907) for ContainTreasure */;

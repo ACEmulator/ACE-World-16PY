@@ -4,15 +4,15 @@ VALUES ('24361', 'raimentasheronextremecoordination', 2) /* Clothing */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (24361,   1,          4) /* ItemType - Clothing */
      , (24361,   3,         61) /* PaletteTemplate - White */
-     , (24361,   4,        126) /* ClothingPriority */
+     , (24361,   4,        126) /* ClothingPriority - UnderwearUpperLegs, UnderwearLowerLegs, UnderwearChest, UnderwearAbdomen, UnderwearUpperArms, UnderwearLowerArms */
      , (24361,   5,        800) /* EncumbranceVal */
      , (24361,   8,         90) /* Mass */
-     , (24361,   9,        222) /* ValidLocations */
+     , (24361,   9,        222) /* ValidLocations - ChestWear, AbdomenWear, UpperArmWear, LowerArmWear, UpperLegWear, LowerLegWear */
      , (24361,  16,          1) /* ItemUseable - No */
      , (24361,  19,       5000) /* Value */
      , (24361,  27,          1) /* ArmorType */
      , (24361,  28,          0) /* ArmorLevel */
-     , (24361,  93,       1044) /* PhysicsState */
+     , (24361,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (24361, 106,        300) /* ItemSpellcraft */
      , (24361, 107,        800) /* ItemCurMana */
      , (24361, 108,        800) /* ItemMaxMana */

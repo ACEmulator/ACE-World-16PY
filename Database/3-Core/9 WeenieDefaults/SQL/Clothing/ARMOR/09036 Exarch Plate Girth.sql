@@ -13,7 +13,7 @@ VALUES (9036,   1,          2) /* ItemType - Armor */
      , (9036,  19,       2400) /* Value */
      , (9036,  27,         32) /* ArmorType */
      , (9036,  28,          0) /* ArmorLevel */
-     , (9036,  93,       1044) /* PhysicsState */
+     , (9036,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (9036, 106,        270) /* ItemSpellcraft */
      , (9036, 107,          0) /* ItemCurMana */
      , (9036, 108,       2000) /* ItemMaxMana */

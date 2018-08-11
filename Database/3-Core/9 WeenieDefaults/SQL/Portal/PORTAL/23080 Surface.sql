@@ -4,8 +4,8 @@ VALUES ('23080', 'portalshatteredsoulexit', 7) /* Portal */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (23080,   1,      65536) /* ItemType - Portal */
      , (23080,  16,         32) /* ItemUseable - Remote */
-     , (23080,  93,       3084) /* PhysicsState */
-     , (23080, 111,         49) /* PortalBitmask */
+     , (23080,  93,       3084) /* PhysicsState - Ethereal, ReportCollisions, Gravity, LightingOn */
+     , (23080, 111,         49) /* PortalBitmask - Unrestricted, NoSummon, NoRecall */
      , (23080, 133,          4) /* ShowableOnRadar - ShowAlways */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)

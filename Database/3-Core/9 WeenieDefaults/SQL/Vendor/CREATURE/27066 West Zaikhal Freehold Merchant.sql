@@ -10,10 +10,10 @@ VALUES (27066,   1,         16) /* ItemType - Creature */
      , (27066,  16,         32) /* ItemUseable - Remote */
      , (27066,  25,         10) /* Level */
      , (27066,  27,          0) /* ArmorType */
-     , (27066,  74,     264192) /* MerchandiseItemTypes */
+     , (27066,  74,     264192) /* MerchandiseItemTypes - Gem, PromissoryNote */
      , (27066,  75,          0) /* MerchandiseMinValue */
      , (27066,  76,    1000000) /* MerchandiseMaxValue */
-     , (27066,  93,    2098204) /* PhysicsState */
+     , (27066,  93,    2098204) /* PhysicsState - Ethereal, ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */
      , (27066, 126,        125) /* VendorHappyMean */
      , (27066, 127,        125) /* VendorHappyVariance */
      , (27066, 133,          4) /* ShowableOnRadar - ShowAlways */
@@ -97,4 +97,4 @@ VALUES (27066,  0,  4,  0,    0,    0,    0,    0,    0,    0,    0,    0,    0,
      , (27066,  8,  4,  2, 0.75,    0,    0,    0,    0,    0,    0,    0,    0,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (27066, 4, 26431, -1, 0, 0, False) /* Create West Zaikhal Freehold Portal Gem for Shop */;
+VALUES (27066, 4, 26431, -1, 0, 0, False) /* Create West Zaikhal Freehold Portal Gem (26431) for Shop */;

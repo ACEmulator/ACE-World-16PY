@@ -14,15 +14,15 @@ VALUES (8997,   1,         32) /* ItemType - Food */
      , (8997,  16,          8) /* ItemUseable - Contained */
      , (8997,  18,          1) /* UiEffects - Magical */
      , (8997,  19,       1000) /* Value */
-     , (8997,  93,       1044) /* PhysicsState */
-     , (8997,  94,         16) /* TargetType - Creature */
+     , (8997,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (8997,  94,         16) /* TargetType - Reedshark */
      , (8997, 106,         50) /* ItemSpellcraft */
      , (8997, 107,         30) /* ItemCurMana */
      , (8997, 108,         30) /* ItemMaxMana */
      , (8997, 109,         10) /* ItemDifficulty */
      , (8997, 110,          0) /* ItemAllegianceRankLimit */
      , (8997, 150,        103) /* HookPlacement - Hook */
-     , (8997, 151,         11) /* HookType */;
+     , (8997, 151,         11) /* HookType - Floor, Wall, Yard */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (8997,  22, True ) /* Inscribable */

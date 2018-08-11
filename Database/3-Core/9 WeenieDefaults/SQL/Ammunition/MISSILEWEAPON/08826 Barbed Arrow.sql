@@ -18,7 +18,7 @@ VALUES (8826,   1,        256) /* ItemType - MissileWeapon */
      , (8826,  45,          2) /* DamageType - Pierce */
      , (8826,  50,          1) /* AmmoType - Arrow */
      , (8826,  51,          3) /* CombatUse - Ammo */
-     , (8826,  93,     132116) /* PhysicsState */
+     , (8826,  93,     132116) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, Inelastic */
      , (8826, 150,        103) /* HookPlacement - Hook */
      , (8826, 151,          2) /* HookType - Wall */;
 

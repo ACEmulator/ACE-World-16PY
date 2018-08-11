@@ -11,7 +11,7 @@ VALUES (14571,   1,         16) /* ItemType - Creature */
      , (14571,  16,         32) /* ItemUseable - Remote */
      , (14571,  25,         50) /* Level */
      , (14571,  27,          0) /* ArmorType */
-     , (14571,  93,    6292504) /* PhysicsState */
+     , (14571,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (14571,  95,          8) /* RadarBlipColor - Yellow */
      , (14571, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (14571, 134,         16) /* PlayerKillerStatus - RubberGlue */

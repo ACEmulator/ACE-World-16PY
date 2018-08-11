@@ -14,7 +14,7 @@ VALUES (24908,   1,         16) /* ItemType - Creature */
      , (24908,  40,          2) /* CombatMode - Melee */
      , (24908,  68,         13) /* TargetingTactic */
      , (24908,  72,         35) /* FriendType - OlthoiLarvae */
-     , (24908,  93,       1032) /* PhysicsState */
+     , (24908,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (24908, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (24908, 140,          1) /* AiOptions */
      , (24908, 146,      58392) /* XpOverride */;
@@ -72,7 +72,7 @@ VALUES (24908,   1,   33557165) /* Setup */
      , (24908,   8,  100667623) /* Icon */
      , (24908,  22,  872415379) /* PhysicsEffectTable */
      , (24908,  30,         85) /* PhysicsScript - BreatheFrost */
-     , (24908,  35,        146) /* DeathTreasureType */;
+     , (24908,  35,        146) /* DeathTreasureType - Loot Tier: 5 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (24908,   1, 380, 0, 0) /* Strength */
@@ -126,6 +126,6 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 268435537 /* Twitch1 */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (24908, 9, 24920,  0, 0, 0.333, False) /* Create Brood Matron Nymph Tail for ContainTreasure */
-     , (24908, 9, 24922,  0, 0, 0.333, False) /* Create Brood Matron Nymph Tarsus for ContainTreasure */
-     , (24908, 9, 24924,  0, 0, 0.334, False) /* Create Brood Matron Nymph Tibia for ContainTreasure */;
+VALUES (24908, 9, 24920,  0, 0, 0.333, False) /* Create Brood Matron Nymph Tail (24920) for ContainTreasure */
+     , (24908, 9, 24922,  0, 0, 0.333, False) /* Create Brood Matron Nymph Tarsus (24922) for ContainTreasure */
+     , (24908, 9, 24924,  0, 0, 0.334, False) /* Create Brood Matron Nymph Tibia (24924) for ContainTreasure */;

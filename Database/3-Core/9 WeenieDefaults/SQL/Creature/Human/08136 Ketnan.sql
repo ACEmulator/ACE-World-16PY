@@ -10,7 +10,7 @@ VALUES (8136,   1,         16) /* ItemType - Creature */
      , (8136,  16,         32) /* ItemUseable - Remote */
      , (8136,  25,          8) /* Level */
      , (8136,  27,          0) /* ArmorType */
-     , (8136,  93,    6292504) /* PhysicsState */
+     , (8136,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (8136,  95,          8) /* RadarBlipColor - Yellow */
      , (8136, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (8136, 134,         16) /* PlayerKillerStatus - RubberGlue */
@@ -142,7 +142,7 @@ VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 1090519043 /* Ready */, NULL, NU
      , (@parent_id,  2,  10 /* Tell */, 0, 1, NULL, 'I think it''s time I moved out of Arwic soon.  There are too many unsavory types around.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (8136, 2,   132,  0, 2, 0.5, False) /* Create Shoes for Wield */
-     , (8136, 2,  2590,  0, 8, 1, False) /* Create Shirt for Wield */
-     , (8136, 2,  2598,  0, 4, 0.8, False) /* Create Pants for Wield */
-     , (8136, 2,  5905,  0, 2, 0.8, False) /* Create Hood for Wield */;
+VALUES (8136, 2,   132,  0, 2, 0.5, False) /* Create Shoes (132) for Wield */
+     , (8136, 2,  2590,  0, 8, 1, False) /* Create Shirt (2590) for Wield */
+     , (8136, 2,  2598,  0, 4, 0.8, False) /* Create Pants (2598) for Wield */
+     , (8136, 2,  5905,  0, 2, 0.8, False) /* Create Hood (5905) for Wield */;

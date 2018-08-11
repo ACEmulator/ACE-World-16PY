@@ -4,8 +4,8 @@ VALUES ('14448', 'portalhallofhallowsregicideexit', 7) /* Portal */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (14448,   1,      65536) /* ItemType - Portal */
      , (14448,  16,         32) /* ItemUseable - Remote */
-     , (14448,  93,       3084) /* PhysicsState */
-     , (14448, 111,         49) /* PortalBitmask */
+     , (14448,  93,       3084) /* PhysicsState - Ethereal, ReportCollisions, Gravity, LightingOn */
+     , (14448, 111,         49) /* PortalBitmask - Unrestricted, NoSummon, NoRecall */
      , (14448, 133,          4) /* ShowableOnRadar - ShowAlways */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)

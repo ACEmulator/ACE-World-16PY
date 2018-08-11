@@ -10,17 +10,17 @@ VALUES (6385,   1,          1) /* ItemType - MeleeWeapon */
      , (6385,  18,          2) /* UiEffects - Poisoned */
      , (6385,  19,       9800) /* Value */
      , (6385,  44,         80) /* Damage */
-     , (6385,  45,          3) /* DamageType */
+     , (6385,  45,          3) /* DamageType - Slash, Pierce */
      , (6385,  46,          2) /* DefaultCombatStyle - OneHanded */
-     , (6385,  47,          6) /* AttackType */
+     , (6385,  47,          6) /* AttackType - Thrust, Slash */
      , (6385,  48,         11) /* WeaponSkill - Sword */
      , (6385,  49,         30) /* WeaponTime */
      , (6385,  51,          1) /* CombatUse - Melee */
-     , (6385,  93,       1044) /* PhysicsState */
+     , (6385,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (6385, 106,        250) /* ItemSpellcraft */
      , (6385, 107,      50000) /* ItemCurMana */
      , (6385, 108,      50000) /* ItemMaxMana */
-     , (6385, 179,         28) /* ImbuedEffect */;
+     , (6385, 179,         28) /* ImbuedEffect - ArmorRending, SlashRending, PierceRending */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (6385,  22, True ) /* Inscribable */

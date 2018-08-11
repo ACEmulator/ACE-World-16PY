@@ -12,8 +12,8 @@ VALUES (6810,   1,         16) /* ItemType - Creature */
      , (6810,  25,        155) /* Level */
      , (6810,  27,          0) /* ArmorType */
      , (6810,  68,          3) /* TargetingTactic */
-     , (6810,  93,    4195336) /* PhysicsState */
-     , (6810, 101,        183) /* AiAllowedCombatStyle */
+     , (6810,  93,    4195336) /* PhysicsState - ReportCollisions, Gravity, EdgeSlide */
+     , (6810, 101,        183) /* AiAllowedCombatStyle - Unarmed, OneHanded, OneHandedAndShield, Bow, Crossbow, ThrownWeapon */
      , (6810, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (6810, 140,          1) /* AiOptions */
      , (6810, 146,      12000) /* XpOverride */;
@@ -76,7 +76,7 @@ VALUES (6810,   1,   33556251) /* Setup */
      , (6810,   7,  268435871) /* ClothingBase */
      , (6810,   8,  100670398) /* Icon */
      , (6810,  22,  872415331) /* PhysicsEffectTable */
-     , (6810,  35,        257) /* DeathTreasureType */;
+     , (6810,  35,        257) /* DeathTreasureType - Loot Tier: 5 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (6810,   1, 190, 0, 0) /* Strength */
@@ -159,7 +159,7 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   8 /* Say */, 0, 0, NULL, 'It is glorious to fall in the service of Ler Rahn and our Dark Master!', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (6810, 9,     0,  0, 0, 0.98, False) /* Create Unknown for ContainTreasure */
-     , (6810, 9,     0,  0, 0, 0.98, False) /* Create Unknown for ContainTreasure */
-     , (6810, 9,  6058,  0, 0, 0.02, False) /* Create Dark Shard for ContainTreasure */
-     , (6810, 9,  6876,  0, 0, 0.02, False) /* Create Sturdy Iron Key for ContainTreasure */;
+VALUES (6810, 9,     0,  0, 0, 0.98, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 5 for ContainTreasure */
+     , (6810, 9,     0,  0, 0, 0.98, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 5 for ContainTreasure */
+     , (6810, 9,  6058,  0, 0, 0.02, False) /* Create Dark Shard (6058) for ContainTreasure */
+     , (6810, 9,  6876,  0, 0, 0.02, False) /* Create Sturdy Iron Key (6876) for ContainTreasure */;

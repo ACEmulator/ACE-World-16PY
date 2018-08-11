@@ -14,7 +14,7 @@ VALUES (20,   1,         16) /* ItemType - Creature */
      , (20,  67,         64) /* Tolerance */
      , (20,  68,          5) /* TargetingTactic */
      , (20,  72,         12) /* FriendType - Cow */
-     , (20,  93,       1032) /* PhysicsState */
+     , (20,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (20, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (20, 146,        420) /* XpOverride */;
 
@@ -69,7 +69,7 @@ VALUES (20,   1,   33554478) /* Setup */
      , (20,   7,  268435548) /* ClothingBase */
      , (20,   8,  100667936) /* Icon */
      , (20,  22,  872415254) /* PhysicsEffectTable */
-     , (20,  35,        459) /* DeathTreasureType */;
+     , (20,  35,        459) /* DeathTreasureType - Loot Tier: 1 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (20,   1, 135, 0, 0) /* Strength */
@@ -139,7 +139,7 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 268435538 /* Twitch2 */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (20, 9,     0,  0, 0, 0.95, False) /* Create Unknown for ContainTreasure */
-     , (20, 9,     0,  0, 0, 0.97, False) /* Create Unknown for ContainTreasure */
-     , (20, 9,   266,  0, 0, 0.05, False) /* Create Auroch Horn for ContainTreasure */
-     , (20, 9, 20857,  0, 0, 0.03, False) /* Create Cooking Stamp for ContainTreasure */;
+VALUES (20, 9,     0,  0, 0, 0.95, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 1 for ContainTreasure */
+     , (20, 9,     0,  0, 0, 0.97, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 1 for ContainTreasure */
+     , (20, 9,   266,  0, 0, 0.05, False) /* Create Auroch Horn (266) for ContainTreasure */
+     , (20, 9, 20857,  0, 0, 0.03, False) /* Create Cooking Stamp (20857) for ContainTreasure */;

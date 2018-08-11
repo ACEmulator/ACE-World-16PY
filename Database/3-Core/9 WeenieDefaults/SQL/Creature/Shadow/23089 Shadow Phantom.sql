@@ -12,8 +12,8 @@ VALUES (23089,   1,         16) /* ItemType - Creature */
      , (23089,  25,        120) /* Level */
      , (23089,  27,          0) /* ArmorType */
      , (23089,  68,          3) /* TargetingTactic */
-     , (23089,  93,    4195336) /* PhysicsState */
-     , (23089, 101,        183) /* AiAllowedCombatStyle */
+     , (23089,  93,    4195336) /* PhysicsState - ReportCollisions, Gravity, EdgeSlide */
+     , (23089, 101,        183) /* AiAllowedCombatStyle - Unarmed, OneHanded, OneHandedAndShield, Bow, Crossbow, ThrownWeapon */
      , (23089, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (23089, 140,          1) /* AiOptions */
      , (23089, 146,      60764) /* XpOverride */;
@@ -76,8 +76,14 @@ VALUES (23089,   1,   33554433) /* Setup */
      , (23089,   7,  268435632) /* ClothingBase */
      , (23089,   8,  100670397) /* Icon */
      , (23089,  22,  872415331) /* PhysicsEffectTable */
-     , (23089,  32,        426) /* WieldedTreasureType */
-     , (23089,  35,        464) /* DeathTreasureType */;
+     , (23089,  32,        426) /* WieldedTreasureType - 
+                                   Wield Tachi (23136) | Probability: 30%
+                                   Wield Kite Shield (23135) | Probability: 100%
+                                   Wield Yumi (23137) | Probability: 30%
+                                   Wield 20x Deadly Arrow (15429) | Probability: 100%
+                                   Wield Heavy Crossbow (23131) | Probability: 30%
+                                   Wield 50x Deadly Quarrel (15438) | Probability: 100% */
+     , (23089,  35,        464) /* DeathTreasureType - Loot Tier: 5 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (23089,   1, 280, 0, 0) /* Strength */
@@ -144,9 +150,9 @@ VALUES (23089,  94) /* ATTACK_NOTIFICATION_EVENT */
      , (23089, 414) /* PLAYER_DEATH_EVENT */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (23089, 9,     0,  0, 0, 0.96, False) /* Create Unknown for ContainTreasure */
-     , (23089, 9,     0,  0, 0, 0.96, False) /* Create Unknown for ContainTreasure */
-     , (23089, 9,     0,  0, 0, 0.995, False) /* Create Unknown for ContainTreasure */
-     , (23089, 9,  6058,  0, 0, 0.04, False) /* Create Dark Shard for ContainTreasure */
-     , (23089, 9,  6876,  0, 0, 0.04, False) /* Create Sturdy Iron Key for ContainTreasure */
-     , (23089, 9, 27388,  0, 0, 0.005, False) /* Create Dark Towers for ContainTreasure */;
+VALUES (23089, 9,     0,  0, 0, 0.96, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 5 for ContainTreasure */
+     , (23089, 9,     0,  0, 0, 0.96, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 5 for ContainTreasure */
+     , (23089, 9,     0,  0, 0, 0.995, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 5 for ContainTreasure */
+     , (23089, 9,  6058,  0, 0, 0.04, False) /* Create Dark Shard (6058) for ContainTreasure */
+     , (23089, 9,  6876,  0, 0, 0.04, False) /* Create Sturdy Iron Key (6876) for ContainTreasure */
+     , (23089, 9, 27388,  0, 0, 0.005, False) /* Create Dark Towers (27388) for ContainTreasure */;

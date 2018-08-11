@@ -4,7 +4,7 @@ VALUES ('9323', 'portalsaelardungeonexit', 7) /* Portal */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (9323,   1,      65536) /* ItemType - Portal */
      , (9323,  16,         32) /* ItemUseable - Remote */
-     , (9323,  93,       3084) /* PhysicsState */
+     , (9323,  93,       3084) /* PhysicsState - Ethereal, ReportCollisions, Gravity, LightingOn */
      , (9323, 111,          1) /* PortalBitmask - Unrestricted */
      , (9323, 133,          4) /* ShowableOnRadar - ShowAlways */;
 

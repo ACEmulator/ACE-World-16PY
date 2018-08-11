@@ -10,10 +10,10 @@ VALUES (26911,   1,         16) /* ItemType - Creature */
      , (26911,  16,         32) /* ItemUseable - Remote */
      , (26911,  25,         10) /* Level */
      , (26911,  27,          0) /* ArmorType */
-     , (26911,  74,     264192) /* MerchandiseItemTypes */
+     , (26911,  74,     264192) /* MerchandiseItemTypes - Gem, PromissoryNote */
      , (26911,  75,          0) /* MerchandiseMinValue */
      , (26911,  76,    1000000) /* MerchandiseMaxValue */
-     , (26911,  93,    2098204) /* PhysicsState */
+     , (26911,  93,    2098204) /* PhysicsState - Ethereal, ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */
      , (26911, 126,        125) /* VendorHappyMean */
      , (26911, 127,        125) /* VendorHappyVariance */
      , (26911, 133,          4) /* ShowableOnRadar - ShowAlways */
@@ -97,4 +97,4 @@ VALUES (26911,  0,  4,  0,    0,    0,    0,    0,    0,    0,    0,    0,    0,
      , (26911,  8,  4,  2, 0.75,    0,    0,    0,    0,    0,    0,    0,    0,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (26911, 4, 26276, -1, 0, 0, False) /* Create Mountain Ridge Abodes Portal Gem for Shop */;
+VALUES (26911, 4, 26276, -1, 0, 0, False) /* Create Mountain Ridge Abodes Portal Gem (26276) for Shop */;

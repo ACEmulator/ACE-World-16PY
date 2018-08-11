@@ -4,7 +4,7 @@ VALUES ('11362', 'dresssiraluun-xp', 2) /* Clothing */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (11362,   1,          4) /* ItemType - Clothing */
      , (11362,   3,         14) /* PaletteTemplate - Red */
-     , (11362,   4,      81664) /* ClothingPriority */
+     , (11362,   4,      81664) /* ClothingPriority - OuterwearUpperLegs, OuterwearLowerLegs, OuterwearChest, OuterwearAbdomen, OuterwearUpperArms, OuterwearLowerArms, Feet */
      , (11362,   5,       1000) /* EncumbranceVal */
      , (11362,   8,        150) /* Mass */
      , (11362,   9,      32512) /* ValidLocations - Armor */
@@ -14,7 +14,7 @@ VALUES (11362,   1,          4) /* ItemType - Clothing */
      , (11362,  27,          1) /* ArmorType */
      , (11362,  28,         40) /* ArmorLevel */
      , (11362,  33,          1) /* Bonded - Bonded */
-     , (11362,  93,       1044) /* PhysicsState */
+     , (11362,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (11362, 107,        800) /* ItemCurMana */
      , (11362, 108,        800) /* ItemMaxMana */
      , (11362, 109,        150) /* ItemDifficulty */

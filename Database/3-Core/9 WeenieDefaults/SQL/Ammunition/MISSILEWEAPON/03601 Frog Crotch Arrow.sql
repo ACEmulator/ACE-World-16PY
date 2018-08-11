@@ -18,7 +18,7 @@ VALUES (3601,   1,        256) /* ItemType - MissileWeapon */
      , (3601,  45,          1) /* DamageType - Slash */
      , (3601,  50,          1) /* AmmoType - Arrow */
      , (3601,  51,          3) /* CombatUse - Ammo */
-     , (3601,  93,     132116) /* PhysicsState */
+     , (3601,  93,     132116) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, Inelastic */
      , (3601, 150,        103) /* HookPlacement - Hook */
      , (3601, 151,          2) /* HookType - Wall */;
 

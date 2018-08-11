@@ -17,7 +17,7 @@ VALUES (2023,   1,        256) /* ItemType - MissileWeapon */
      , (2023,  45,          2) /* DamageType - Pierce */
      , (2023,  50,          1) /* AmmoType - Arrow */
      , (2023,  51,          3) /* CombatUse - Ammo */
-     , (2023,  93,       1044) /* PhysicsState */
+     , (2023,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (2023, 150,        103) /* HookPlacement - Hook */
      , (2023, 151,          2) /* HookType - Wall */;
 

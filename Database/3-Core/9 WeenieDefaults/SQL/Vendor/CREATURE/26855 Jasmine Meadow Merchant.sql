@@ -10,10 +10,10 @@ VALUES (26855,   1,         16) /* ItemType - Creature */
      , (26855,  16,         32) /* ItemUseable - Remote */
      , (26855,  25,         10) /* Level */
      , (26855,  27,          0) /* ArmorType */
-     , (26855,  74,     264192) /* MerchandiseItemTypes */
+     , (26855,  74,     264192) /* MerchandiseItemTypes - Gem, PromissoryNote */
      , (26855,  75,          0) /* MerchandiseMinValue */
      , (26855,  76,    1000000) /* MerchandiseMaxValue */
-     , (26855,  93,    2098204) /* PhysicsState */
+     , (26855,  93,    2098204) /* PhysicsState - Ethereal, ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */
      , (26855, 126,        125) /* VendorHappyMean */
      , (26855, 127,        125) /* VendorHappyVariance */
      , (26855, 133,          4) /* ShowableOnRadar - ShowAlways */
@@ -97,4 +97,4 @@ VALUES (26855,  0,  4,  0,    0,    0,    0,    0,    0,    0,    0,    0,    0,
      , (26855,  8,  4,  2, 0.75,    0,    0,    0,    0,    0,    0,    0,    0,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (26855, 4, 26220, -1, 0, 0, False) /* Create Jasmine Meadow Portal Gem for Shop */;
+VALUES (26855, 4, 26220, -1, 0, 0, False) /* Create Jasmine Meadow Portal Gem (26220) for Shop */;

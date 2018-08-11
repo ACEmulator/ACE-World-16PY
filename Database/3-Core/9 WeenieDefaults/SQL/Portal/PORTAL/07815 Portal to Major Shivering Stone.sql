@@ -4,8 +4,8 @@ VALUES ('7815', 'portalmajorshiveringstone', 7) /* Portal */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (7815,   1,      65536) /* ItemType - Portal */
      , (7815,  16,         32) /* ItemUseable - Remote */
-     , (7815,  93,       3084) /* PhysicsState */
-     , (7815, 111,         17) /* PortalBitmask */
+     , (7815,  93,       3084) /* PhysicsState - Ethereal, ReportCollisions, Gravity, LightingOn */
+     , (7815, 111,         17) /* PortalBitmask - Unrestricted, NoSummon */
      , (7815, 133,          4) /* ShowableOnRadar - ShowAlways */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)

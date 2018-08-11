@@ -10,10 +10,10 @@ VALUES (26722,   1,         16) /* ItemType - Creature */
      , (26722,  16,         32) /* ItemUseable - Remote */
      , (26722,  25,         10) /* Level */
      , (26722,  27,          0) /* ArmorType */
-     , (26722,  74,     264192) /* MerchandiseItemTypes */
+     , (26722,  74,     264192) /* MerchandiseItemTypes - Gem, PromissoryNote */
      , (26722,  75,          0) /* MerchandiseMinValue */
      , (26722,  76,    1000000) /* MerchandiseMaxValue */
-     , (26722,  93,    2098204) /* PhysicsState */
+     , (26722,  93,    2098204) /* PhysicsState - Ethereal, ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */
      , (26722, 126,        125) /* VendorHappyMean */
      , (26722, 127,        125) /* VendorHappyVariance */
      , (26722, 133,          4) /* ShowableOnRadar - ShowAlways */
@@ -97,4 +97,4 @@ VALUES (26722,  0,  4,  0,    0,    0,    0,    0,    0,    0,    0,    0,    0,
      , (26722,  8,  4,  2, 0.75,    0,    0,    0,    0,    0,    0,    0,    0,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (26722, 4, 26087, -1, 0, 0, False) /* Create Axefall Glen Portal Gem for Shop */;
+VALUES (26722, 4, 26087, -1, 0, 0, False) /* Create Axefall Glen Portal Gem (26087) for Shop */;

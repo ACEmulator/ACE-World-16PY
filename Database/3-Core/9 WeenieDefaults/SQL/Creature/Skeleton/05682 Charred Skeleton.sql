@@ -12,8 +12,8 @@ VALUES (5682,   1,         16) /* ItemType - Creature */
      , (5682,  27,          0) /* ArmorType */
      , (5682,  40,          1) /* CombatMode - NonCombat */
      , (5682,  68,          5) /* TargetingTactic */
-     , (5682,  93,       1032) /* PhysicsState */
-     , (5682, 101,        183) /* AiAllowedCombatStyle */
+     , (5682,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
+     , (5682, 101,        183) /* AiAllowedCombatStyle - Unarmed, OneHanded, OneHandedAndShield, Bow, Crossbow, ThrownWeapon */
      , (5682, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (5682, 140,          1) /* AiOptions */
      , (5682, 146,        997) /* XpOverride */;
@@ -68,8 +68,32 @@ VALUES (5682,   1,   33554521) /* Setup */
      , (5682,   7,  268435646) /* ClothingBase */
      , (5682,   8,  100669124) /* Icon */
      , (5682,  22,  872415269) /* PhysicsEffectTable */
-     , (5682,  32,        192) /* WieldedTreasureType */
-     , (5682,  35,        453) /* DeathTreasureType */;
+     , (5682,  32,        192) /* WieldedTreasureType - 
+                                   Wield 6x Throwing Axe (304) | Probability: 10%
+                                   Wield Nayin (334) | Probability: 10%
+                                   Wield 20x Arrow (300) | Probability: 100%
+                                   Wield Longbow (306) | Probability: 10%
+                                   Wield 20x Arrow (300) | Probability: 100%
+                                   Wield Yumi (363) | Probability: 10%
+                                   Wield 14x Arrow (300) | Probability: 100%
+                                   Wield Heavy Crossbow (311) | Probability: 60%
+                                   Wield 15x Quarrel (305) | Probability: 100%
+                                   Wield Battle Axe (301) | Probability: 14%
+                                   Wield Broad Sword (350) | Probability: 7%
+                                   Wield Kaskara (324) | Probability: 6%
+                                   Wield Ken (327) | Probability: 6%
+                                   Wield Long Sword (351) | Probability: 6%
+                                   Wield Morning Star (332) | Probability: 10%
+                                   Wield Scimitar (339) | Probability: 6%
+                                   Wield Shamshir (340) | Probability: 6%
+                                   Wield Ono (336) | Probability: 13%
+                                   Wield Silifi (344) | Probability: 13%
+                                   Wield Tachi (353) | Probability: 6%
+                                   Wield Takuba (354) | Probability: 6%
+                                   Wield Buckler (44) | Probability: 20%
+                                   Wield Kite Shield (91) | Probability: 10%
+                                   Wield Round Shield (93) | Probability: 10% */
+     , (5682,  35,        453) /* DeathTreasureType - Loot Tier: 1 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (5682,   1,  60, 0, 0) /* Strength */
@@ -123,5 +147,5 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 1090519060 /* Sleeping */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (5682, 9,     0,  0, 0, 0.95, False) /* Create Unknown for ContainTreasure */
-     , (5682, 9,  3687,  0, 0, 0.05, False) /* Create Skeleton's Skull for ContainTreasure */;
+VALUES (5682, 9,     0,  0, 0, 0.95, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 1 for ContainTreasure */
+     , (5682, 9,  3687,  0, 0, 0.05, False) /* Create Skeleton's Skull (3687) for ContainTreasure */;

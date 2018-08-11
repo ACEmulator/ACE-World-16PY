@@ -11,7 +11,7 @@ VALUES (24134,   1,         16) /* ItemType - Creature */
      , (24134,  25,        105) /* Level */
      , (24134,  40,          2) /* CombatMode - Melee */
      , (24134,  68,         13) /* TargetingTactic */
-     , (24134,  93,       1032) /* PhysicsState */
+     , (24134,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (24134, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (24134, 146,      43313) /* XpOverride */;
 
@@ -66,7 +66,7 @@ VALUES (24134,   1,   33554489) /* Setup */
      , (24134,   7,  268435556) /* ClothingBase */
      , (24134,   8,  100667939) /* Icon */
      , (24134,  22,  872415268) /* PhysicsEffectTable */
-     , (24134,  35,         23) /* DeathTreasureType */;
+     , (24134,  35,         23) /* DeathTreasureType - Loot Tier: 5 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (24134,   1, 220, 0, 0) /* Strength */
@@ -165,5 +165,5 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 268435540 /* Twitch4 */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (24134, 9,     0,  0, 0, 0.97, False) /* Create Unknown for ContainTreasure */
-     , (24134, 9, 24848,  0, 0, 0.03, False) /* Create Slasher Reedshark Hide for ContainTreasure */;
+VALUES (24134, 9,     0,  0, 0, 0.97, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 5 for ContainTreasure */
+     , (24134, 9, 24848,  0, 0, 0.03, False) /* Create Slasher Reedshark Hide (24848) for ContainTreasure */;

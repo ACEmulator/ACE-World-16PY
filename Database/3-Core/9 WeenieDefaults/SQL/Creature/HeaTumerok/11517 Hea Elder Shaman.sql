@@ -11,8 +11,8 @@ VALUES (11517,   1,         16) /* ItemType - Creature */
      , (11517,  25,        107) /* Level */
      , (11517,  27,          0) /* ArmorType */
      , (11517,  68,          5) /* TargetingTactic */
-     , (11517,  93,       1032) /* PhysicsState */
-     , (11517, 101,        183) /* AiAllowedCombatStyle */
+     , (11517,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
+     , (11517, 101,        183) /* AiAllowedCombatStyle - Unarmed, OneHanded, OneHandedAndShield, Bow, Crossbow, ThrownWeapon */
      , (11517, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (11517, 140,          1) /* AiOptions */
      , (11517, 146,      48438) /* XpOverride */;
@@ -71,8 +71,33 @@ VALUES (11517,   1,   33554496) /* Setup */
      , (11517,   7,  268436631) /* ClothingBase */
      , (11517,   8,  100667452) /* Icon */
      , (11517,  22,  872415270) /* PhysicsEffectTable */
-     , (11517,  32,        199) /* WieldedTreasureType */
-     , (11517,  35,        448) /* DeathTreasureType */;
+     , (11517,  32,        199) /* WieldedTreasureType - 
+                                   Wield Yumi (23733) | Probability: 6%
+                                   Wield 20x Deadly Armor Piercing Arrow (15431) | Probability: 100%
+                                   Wield Yumi (23733) | Probability: 6%
+                                   Wield 17x Deadly Arrow (15429) | Probability: 100%
+                                   Wield Heavy Crossbow (23664) | Probability: 6%
+                                   Wield 20x Deadly Quarrel (15438) | Probability: 100%
+                                   Wield Heavy Crossbow (23664) | Probability: 6%
+                                   Wield 16x Deadly Armor Piercing Quarrel (15440) | Probability: 100%
+                                   Wield Yumi (23733) | Probability: 6%
+                                   Wield 20x Deadly Broadhead Arrow (15433) | Probability: 100%
+                                   Wield Yumi (23733) | Probability: 6%
+                                   Wield 17x Deadly Blunt Arrow (15432) | Probability: 100%
+                                   Wield Heavy Crossbow (23664) | Probability: 6%
+                                   Wield 20x Deadly Broadhead Quarrel (15442) | Probability: 100%
+                                   Wield Heavy Crossbow (23664) | Probability: 6%
+                                   Wield 16x Deadly Blunt Quarrel (15441) | Probability: 100%
+                                   Wield Katar (23673) | Probability: 12%
+                                   Wield Cestus (23636) | Probability: 12%
+                                   Wield Nekode (23679) | Probability: 12%
+                                   Wield Tachi (23699) | Probability: 12%
+                                   Wield Spear (23695) | Probability: 12%
+                                   Wield Fire Yaoji (23717) | Probability: 12%
+                                   Wield Yaoji (23709) | Probability: 12%
+                                   Wield Fire Tachi (23706) | Probability: 12%
+                                   Wield Kite Shield (23683) | Probability: 75% */
+     , (11517,  35,        448) /* DeathTreasureType - Loot Tier: 4 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (11517,   1, 250, 0, 0) /* Strength */
@@ -161,5 +186,5 @@ VALUES (11517,  94) /* ATTACK_NOTIFICATION_EVENT */
      , (11517, 414) /* PLAYER_DEATH_EVENT */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (11517, 9,     0,  0, 0, 0.97, False) /* Create Unknown for ContainTreasure */
-     , (11517, 9,  6876,  0, 0, 0.03, False) /* Create Sturdy Iron Key for ContainTreasure */;
+VALUES (11517, 9,     0,  0, 0, 0.97, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 4 for ContainTreasure */
+     , (11517, 9,  6876,  0, 0, 0.03, False) /* Create Sturdy Iron Key (6876) for ContainTreasure */;

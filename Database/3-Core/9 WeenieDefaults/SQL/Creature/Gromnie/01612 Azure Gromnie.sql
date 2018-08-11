@@ -11,7 +11,7 @@ VALUES (1612,   1,         16) /* ItemType - Creature */
      , (1612,  27,          0) /* ArmorType */
      , (1612,  40,          2) /* CombatMode - Melee */
      , (1612,  68,          9) /* TargetingTactic */
-     , (1612,  93,       1032) /* PhysicsState */
+     , (1612,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (1612, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (1612, 146,        497) /* XpOverride */;
 
@@ -62,7 +62,7 @@ VALUES (1612,   1,   33554487) /* Setup */
      , (1612,   8,  100667938) /* Icon */
      , (1612,  22,  872415260) /* PhysicsEffectTable */
      , (1612,  30,         85) /* PhysicsScript - BreatheFrost */
-     , (1612,  35,        459) /* DeathTreasureType */;
+     , (1612,  35,        459) /* DeathTreasureType - Loot Tier: 1 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (1612,   1,  85, 0, 0) /* Strength */
@@ -135,7 +135,7 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 268435538 /* Twitch2 */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (1612, 9,     0,  0, 0, 0.95, False) /* Create Unknown for ContainTreasure */
-     , (1612, 9,     0,  0, 0, 0.95, False) /* Create Unknown for ContainTreasure */
-     , (1612, 9,  4235,  0, 0, 0.05, False) /* Create Thin Gromnie Hide for ContainTreasure */
-     , (1612, 9, 28205,  0, 0, 0.05, False) /* Create Azure Gromnie Tooth for ContainTreasure */;
+VALUES (1612, 9,     0,  0, 0, 0.95, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 1 for ContainTreasure */
+     , (1612, 9,     0,  0, 0, 0.95, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 1 for ContainTreasure */
+     , (1612, 9,  4235,  0, 0, 0.05, False) /* Create Thin Gromnie Hide (4235) for ContainTreasure */
+     , (1612, 9, 28205,  0, 0, 0.05, False) /* Create Azure Gromnie Tooth (28205) for ContainTreasure */;

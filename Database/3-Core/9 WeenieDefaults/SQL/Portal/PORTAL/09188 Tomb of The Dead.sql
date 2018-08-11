@@ -4,7 +4,7 @@ VALUES ('9188', 'portaltombofthedead', 7) /* Portal */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (9188,   1,      65536) /* ItemType - Portal */
      , (9188,  16,         32) /* ItemUseable - Remote */
-     , (9188,  93,       3084) /* PhysicsState */
+     , (9188,  93,       3084) /* PhysicsState - Ethereal, ReportCollisions, Gravity, LightingOn */
      , (9188, 111,          1) /* PortalBitmask - Unrestricted */
      , (9188, 133,          4) /* ShowableOnRadar - ShowAlways */;
 

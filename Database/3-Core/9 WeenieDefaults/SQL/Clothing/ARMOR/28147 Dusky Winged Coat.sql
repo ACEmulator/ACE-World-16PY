@@ -4,15 +4,15 @@ VALUES ('28147', 'coatgromniewinged', 2) /* Clothing */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (28147,   1,          2) /* ItemType - Armor */
      , (28147,   3,          9) /* PaletteTemplate - Grey */
-     , (28147,   4,      13312) /* ClothingPriority */
+     , (28147,   4,      13312) /* ClothingPriority - OuterwearChest, OuterwearUpperArms, OuterwearLowerArms */
      , (28147,   5,        900) /* EncumbranceVal */
      , (28147,   8,       1000) /* Mass */
-     , (28147,   9,       6656) /* ValidLocations */
+     , (28147,   9,       6656) /* ValidLocations - ChestArmor, UpperArmArmor, LowerArmArmor */
      , (28147,  16,          1) /* ItemUseable - No */
      , (28147,  19,       8000) /* Value */
      , (28147,  27,          8) /* ArmorType */
      , (28147,  28,        290) /* ArmorLevel */
-     , (28147,  93,       1044) /* PhysicsState */
+     , (28147,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (28147, 106,        400) /* ItemSpellcraft */
      , (28147, 107,       1000) /* ItemCurMana */
      , (28147, 108,       1000) /* ItemMaxMana */

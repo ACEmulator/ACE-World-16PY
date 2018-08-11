@@ -10,10 +10,10 @@ VALUES (26781,   1,         16) /* ItemType - Creature */
      , (26781,  16,         32) /* ItemUseable - Remote */
      , (26781,  25,         10) /* Level */
      , (26781,  27,          0) /* ArmorType */
-     , (26781,  74,     264192) /* MerchandiseItemTypes */
+     , (26781,  74,     264192) /* MerchandiseItemTypes - Gem, PromissoryNote */
      , (26781,  75,          0) /* MerchandiseMinValue */
      , (26781,  76,    1000000) /* MerchandiseMaxValue */
-     , (26781,  93,    2098204) /* PhysicsState */
+     , (26781,  93,    2098204) /* PhysicsState - Ethereal, ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */
      , (26781, 126,        125) /* VendorHappyMean */
      , (26781, 127,        125) /* VendorHappyVariance */
      , (26781, 133,          4) /* ShowableOnRadar - ShowAlways */
@@ -97,4 +97,4 @@ VALUES (26781,  0,  4,  0,    0,    0,    0,    0,    0,    0,    0,    0,    0,
      , (26781,  8,  4,  2, 0.75,    0,    0,    0,    0,    0,    0,    0,    0,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (26781, 4, 26146, -1, 0, 0, False) /* Create Drytree Settlement Portal Gem for Shop */;
+VALUES (26781, 4, 26146, -1, 0, 0, False) /* Create Drytree Settlement Portal Gem (26146) for Shop */;

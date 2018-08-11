@@ -4,8 +4,8 @@ VALUES ('14348', 'portaljumpentry', 7) /* Portal */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (14348,   1,      65536) /* ItemType - Portal */
      , (14348,  16,         32) /* ItemUseable - Remote */
-     , (14348,  93,       3084) /* PhysicsState */
-     , (14348, 111,         49) /* PortalBitmask */
+     , (14348,  93,       3084) /* PhysicsState - Ethereal, ReportCollisions, Gravity, LightingOn */
+     , (14348, 111,         49) /* PortalBitmask - Unrestricted, NoSummon, NoRecall */
      , (14348, 133,          4) /* ShowableOnRadar - ShowAlways */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)

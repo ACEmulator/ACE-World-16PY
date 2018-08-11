@@ -9,7 +9,7 @@ VALUES (23318,   1,         16) /* ItemType - Creature */
      , (23318,  16,         32) /* ItemUseable - Remote */
      , (23318,  25,          5) /* Level */
      , (23318,  27,          0) /* ArmorType */
-     , (23318,  93,    2098200) /* PhysicsState */
+     , (23318,  93,    2098200) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */
      , (23318, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (23318, 134,         16) /* PlayerKillerStatus - RubberGlue */
      , (23318, 146,         24) /* XpOverride */;

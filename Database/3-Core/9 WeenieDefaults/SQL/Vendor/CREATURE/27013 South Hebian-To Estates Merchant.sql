@@ -10,10 +10,10 @@ VALUES (27013,   1,         16) /* ItemType - Creature */
      , (27013,  16,         32) /* ItemUseable - Remote */
      , (27013,  25,         10) /* Level */
      , (27013,  27,          0) /* ArmorType */
-     , (27013,  74,     264192) /* MerchandiseItemTypes */
+     , (27013,  74,     264192) /* MerchandiseItemTypes - Gem, PromissoryNote */
      , (27013,  75,          0) /* MerchandiseMinValue */
      , (27013,  76,    1000000) /* MerchandiseMaxValue */
-     , (27013,  93,    2098204) /* PhysicsState */
+     , (27013,  93,    2098204) /* PhysicsState - Ethereal, ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */
      , (27013, 126,        125) /* VendorHappyMean */
      , (27013, 127,        125) /* VendorHappyVariance */
      , (27013, 133,          4) /* ShowableOnRadar - ShowAlways */
@@ -97,4 +97,4 @@ VALUES (27013,  0,  4,  0,    0,    0,    0,    0,    0,    0,    0,    0,    0,
      , (27013,  8,  4,  2, 0.75,    0,    0,    0,    0,    0,    0,    0,    0,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (27013, 4, 26378, -1, 0, 0, False) /* Create South Hebian-To Estates Portal Gem for Shop */;
+VALUES (27013, 4, 26378, -1, 0, 0, False) /* Create South Hebian-To Estates Portal Gem (26378) for Shop */;

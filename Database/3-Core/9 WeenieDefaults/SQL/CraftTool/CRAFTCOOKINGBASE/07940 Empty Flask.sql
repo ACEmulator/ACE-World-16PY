@@ -14,8 +14,8 @@ VALUES (7940,   1,    4194304) /* ItemType - CraftCookingBase */
      , (7940,  15,          1) /* StackUnitValue */
      , (7940,  16,    2097160) /* ItemUseable - SourceContainedTargetRemote */
      , (7940,  19,          1) /* Value */
-     , (7940,  93,       1044) /* PhysicsState */
-     , (7940,  94,    4194304) /* TargetType - CraftCookingBase */
+     , (7940,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (7940,  94,    4194304) /* TargetType - 4194304 */
      , (7940, 150,        103) /* HookPlacement - Hook */
      , (7940, 151,          1) /* HookType - Floor */
      , (7940, 169,     197638) /* TsysMutationData */;

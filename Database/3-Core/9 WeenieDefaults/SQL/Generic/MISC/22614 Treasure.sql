@@ -8,7 +8,7 @@ VALUES (22614,   1,        128) /* ItemType - Misc */
      , (22614,  16,          1) /* ItemUseable - No */
      , (22614,  19,     200000) /* Value */
      , (22614,  92,        100) /* Structure */
-     , (22614,  93,       1044) /* PhysicsState */
+     , (22614,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (22614, 105,         10) /* ItemWorkmanship */
      , (22614, 131,         60) /* MaterialType - Gold */
      , (22614, 150,        103) /* HookPlacement - Hook */

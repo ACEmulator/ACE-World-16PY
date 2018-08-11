@@ -13,8 +13,8 @@ VALUES (30835,   1,         16) /* ItemType - Creature */
      , (30835,  27,          0) /* ArmorType */
      , (30835,  40,          2) /* CombatMode - Melee */
      , (30835,  68,         13) /* TargetingTactic */
-     , (30835,  93,    4195336) /* PhysicsState */
-     , (30835, 101,        131) /* AiAllowedCombatStyle */
+     , (30835,  93,    4195336) /* PhysicsState - ReportCollisions, Gravity, EdgeSlide */
+     , (30835, 101,        131) /* AiAllowedCombatStyle - Unarmed, OneHanded, ThrownWeapon */
      , (30835, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (30835, 140,          1) /* AiOptions */
      , (30835, 146,     224688) /* XpOverride */;
@@ -72,8 +72,11 @@ VALUES (30835,   1,   33557003) /* Setup */
      , (30835,   7,  268436892) /* ClothingBase */
      , (30835,   8,  100677374) /* Icon */
      , (30835,  22,  872415262) /* PhysicsEffectTable */
-     , (30835,  32,        492) /* WieldedTreasureType */
-     , (30835,  35,        452) /* DeathTreasureType */;
+     , (30835,  32,        492) /* WieldedTreasureType - 
+                                   Wield 10x Rock (31033) | Probability: 100%
+                                   Wield Lugian Axe (24884) | Probability: 50%
+                                   Wield Lugian Mace (24886) | Probability: 50% */
+     , (30835,  35,        452) /* DeathTreasureType - Loot Tier: 5 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (30835,   1, 390, 0, 0) /* Strength */
@@ -172,9 +175,9 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 268435539 /* Twitch3 */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (30835, 9, 30829,  0, 0, 1, False) /* Create A Patch of Balor's Fur for ContainTreasure */
-     , (30835, 9, 30829,  0, 0, 1, False) /* Create A Patch of Balor's Fur for ContainTreasure */
-     , (30835, 9, 30829,  0, 0, 1, False) /* Create A Patch of Balor's Fur for ContainTreasure */
-     , (30835, 9, 30829,  0, 0, 1, False) /* Create A Patch of Balor's Fur for ContainTreasure */
-     , (30835, 9, 30829,  0, 0, 1, False) /* Create A Patch of Balor's Fur for ContainTreasure */
-     , (30835, 9, 30830,  0, 0, 1, False) /* Create Coda for ContainTreasure */;
+VALUES (30835, 9, 30829,  0, 0, 1, False) /* Create A Patch of Balor's Fur (30829) for ContainTreasure */
+     , (30835, 9, 30829,  0, 0, 1, False) /* Create A Patch of Balor's Fur (30829) for ContainTreasure */
+     , (30835, 9, 30829,  0, 0, 1, False) /* Create A Patch of Balor's Fur (30829) for ContainTreasure */
+     , (30835, 9, 30829,  0, 0, 1, False) /* Create A Patch of Balor's Fur (30829) for ContainTreasure */
+     , (30835, 9, 30829,  0, 0, 1, False) /* Create A Patch of Balor's Fur (30829) for ContainTreasure */
+     , (30835, 9, 30830,  0, 0, 1, False) /* Create Coda (30830) for ContainTreasure */;

@@ -4,8 +4,8 @@ VALUES ('21889', 'portalconsumingflamesexit', 7) /* Portal */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (21889,   1,      65536) /* ItemType - Portal */
      , (21889,  16,         32) /* ItemUseable - Remote */
-     , (21889,  93,       3084) /* PhysicsState */
-     , (21889, 111,         49) /* PortalBitmask */
+     , (21889,  93,       3084) /* PhysicsState - Ethereal, ReportCollisions, Gravity, LightingOn */
+     , (21889, 111,         49) /* PortalBitmask - Unrestricted, NoSummon, NoRecall */
      , (21889, 133,          4) /* ShowableOnRadar - ShowAlways */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)

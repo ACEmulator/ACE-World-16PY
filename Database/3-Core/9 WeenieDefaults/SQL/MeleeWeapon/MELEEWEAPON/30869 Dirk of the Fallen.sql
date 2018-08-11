@@ -11,11 +11,11 @@ VALUES (30869,   1,          1) /* ItemType - MeleeWeapon */
      , (30869,  44,         27) /* Damage */
      , (30869,  45,          2) /* DamageType - Pierce */
      , (30869,  46,          2) /* DefaultCombatStyle - OneHanded */
-     , (30869,  47,          6) /* AttackType */
+     , (30869,  47,          6) /* AttackType - Thrust, Slash */
      , (30869,  48,          4) /* WeaponSkill - Dagger */
      , (30869,  49,         20) /* WeaponTime */
      , (30869,  51,          1) /* CombatUse - Melee */
-     , (30869,  93,       1044) /* PhysicsState */
+     , (30869,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (30869, 106,        250) /* ItemSpellcraft */
      , (30869, 107,       1000) /* ItemCurMana */
      , (30869, 108,       1000) /* ItemMaxMana */

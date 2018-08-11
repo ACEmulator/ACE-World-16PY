@@ -11,8 +11,8 @@ VALUES (25963,   1,         16) /* ItemType - Creature */
      , (25963,  25,         79) /* Level */
      , (25963,  27,          0) /* ArmorType */
      , (25963,  68,         13) /* TargetingTactic */
-     , (25963,  93,       1032) /* PhysicsState */
-     , (25963, 101,        131) /* AiAllowedCombatStyle */
+     , (25963,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
+     , (25963, 101,        131) /* AiAllowedCombatStyle - Unarmed, OneHanded, ThrownWeapon */
      , (25963, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (25963, 146,      18022) /* XpOverride */;
 
@@ -67,8 +67,18 @@ VALUES (25963,   1,   33554433) /* Setup */
      , (25963,   4,  805306368) /* CombatTable */
      , (25963,   8,  100667446) /* Icon */
      , (25963,  22,  872415236) /* PhysicsEffectTable */
-     , (25963,  32,        419) /* WieldedTreasureType */
-     , (25963,  35,        450) /* DeathTreasureType */;
+     , (25963,  32,        419) /* WieldedTreasureType - 
+                                   Wield Clean, Dry Towel (10758) | Palette: Blue (2) | Probability: 50%
+                                   Wield Clean, Dry Towel (10758) | Palette: Green (8) | Probability: 50%
+                                   Wield Bandit Dagger (22778) | Probability: 12.5%
+                                   Wield Jambiya (22781) | Probability: 12.5%
+                                   Wield Khanjar (22784) | Probability: 12.5%
+                                   Wield Knife (22787) | Probability: 12.5%
+                                   Wield Bandit Simi (22790) | Probability: 12.5%
+                                   Wield Bandit Rapier (22793) | Probability: 12.5%
+                                   Wield Bandit Short Sword (22796) | Probability: 12.5%
+                                   Wield Bandit Yaoji (22799) | Probability: 12.5% */
+     , (25963,  35,        450) /* DeathTreasureType - Loot Tier: 3 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (25963,   1, 210, 0, 0) /* Strength */
@@ -134,7 +144,7 @@ VALUES (25963,  94) /* ATTACK_NOTIFICATION_EVENT */
      , (25963, 414) /* PLAYER_DEATH_EVENT */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (25963, 9,     0,  0, 0, 0.98, False) /* Create Unknown for ContainTreasure */
-     , (25963, 9,  6876,  0, 0, 0.02, False) /* Create Sturdy Iron Key for ContainTreasure */
-     , (25963, 2, 12192,  0, 0, 1, False) /* Create Shadow's Garb for Wield */
-     , (25963, 2, 12193,  0, 14, 0, False) /* Create Dho Vest and Robe for Wield */;
+VALUES (25963, 9,     0,  0, 0, 0.98, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 3 for ContainTreasure */
+     , (25963, 9,  6876,  0, 0, 0.02, False) /* Create Sturdy Iron Key (6876) for ContainTreasure */
+     , (25963, 2, 12192,  0, 0, 1, False) /* Create Shadow's Garb (12192) for Wield */
+     , (25963, 2, 12193,  0, 14, 0, False) /* Create Dho Vest and Robe (12193) for Wield */;

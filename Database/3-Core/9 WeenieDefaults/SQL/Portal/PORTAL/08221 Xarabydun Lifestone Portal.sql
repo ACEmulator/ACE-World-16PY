@@ -6,7 +6,7 @@ VALUES (8221,   1,      65536) /* ItemType - Portal */
      , (8221,  16,         32) /* ItemUseable - Remote */
      , (8221,  86,          1) /* MinLevel */
      , (8221,  87,         25) /* MaxLevel */
-     , (8221,  93,       3084) /* PhysicsState */
+     , (8221,  93,       3084) /* PhysicsState - Ethereal, ReportCollisions, Gravity, LightingOn */
      , (8221, 111,          1) /* PortalBitmask - Unrestricted */
      , (8221, 133,          4) /* ShowableOnRadar - ShowAlways */;
 

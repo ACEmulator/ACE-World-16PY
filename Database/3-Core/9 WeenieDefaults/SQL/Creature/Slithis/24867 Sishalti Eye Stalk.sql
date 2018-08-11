@@ -13,7 +13,7 @@ VALUES (24867,   1,         16) /* ItemType - Creature */
      , (24867,  68,         13) /* TargetingTactic */
      , (24867,  81,          6) /* MaxGeneratedObjects */
      , (24867,  82,          6) /* InitGeneratedObjects */
-     , (24867,  93,       1032) /* PhysicsState */
+     , (24867,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (24867, 103,          1) /* GeneratorDestructionType - Nothing */
      , (24867, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (24867, 146,      41633) /* XpOverride */;
@@ -73,7 +73,7 @@ VALUES (24867,   1,   33555670) /* Setup */
      , (24867,   4,  805306404) /* CombatTable */
      , (24867,   8,  100671186) /* Icon */
      , (24867,  22,  872415332) /* PhysicsEffectTable */
-     , (24867,  35,        464) /* DeathTreasureType */;
+     , (24867,  35,        464) /* DeathTreasureType - Loot Tier: 5 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (24867,   1, 240, 0, 0) /* Strength */
@@ -119,10 +119,10 @@ VALUES (24867,  94) /* ATTACK_NOTIFICATION_EVENT */
      , (24867, 414) /* PLAYER_DEATH_EVENT */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (24867, 9,     0,  0, 0, 0.99, False) /* Create Unknown for ContainTreasure */
-     , (24867, 2, 22545, 10, 0, 0, False) /* Create Obsidian Spines for Wield */
-     , (24867, 9, 24477,  0, 0, 0.01, False) /* Create Sturdy Steel Key for ContainTreasure */;
+VALUES (24867, 9,     0,  0, 0, 0.99, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 5 for ContainTreasure */
+     , (24867, 2, 22545, 10, 0, 0, False) /* Create Obsidian Spines (22545) for Wield */
+     , (24867, 9, 24477,  0, 0, 0.01, False) /* Create Sturdy Steel Key (24477) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (24867, -1, 24869, 5, 3, 3, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0)
-     , (24867, -1, 24868, 5, 3, 3, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0);
+VALUES (24867, -1, 24869, 5, 3, 3, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Sishalti Tentacle (24869) (x3 up to max of 3) - Regenerate upon Destruction - Location to (re)Generate: Scatter */
+     , (24867, -1, 24868, 5, 3, 3, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Sishalti Tendril (24868) (x3 up to max of 3) - Regenerate upon Destruction - Location to (re)Generate: Scatter */;

@@ -16,7 +16,7 @@ VALUES (11981,   1,         16) /* ItemType - Creature */
      , (11981,  72,         12) /* FriendType - Cow */
      , (11981,  81,          4) /* MaxGeneratedObjects */
      , (11981,  82,          4) /* InitGeneratedObjects */
-     , (11981,  93,       1032) /* PhysicsState */
+     , (11981,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (11981, 103,          1) /* GeneratorDestructionType - Nothing */
      , (11981, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (11981, 146,       2799) /* XpOverride */;
@@ -75,7 +75,7 @@ VALUES (11981,   1,   33554478) /* Setup */
      , (11981,   8,  100667936) /* Icon */
      , (11981,  22,  872415254) /* PhysicsEffectTable */
      , (11981,  30,         83) /* PhysicsScript - PortalExit */
-     , (11981,  35,         24) /* DeathTreasureType */;
+     , (11981,  35,         24) /* DeathTreasureType - Loot Tier: 1 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (11981,   1, 180, 0, 0) /* Strength */
@@ -146,11 +146,11 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 268435538 /* Twitch2 */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (11981, 9,     0,  0, 0, 0.75, False) /* Create Unknown for ContainTreasure */
-     , (11981, 9,  7039,  0, 0, 0.25, False) /* Create Fire Auroch Horn for ContainTreasure */;
+VALUES (11981, 9,     0,  0, 0, 0.75, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 1 for ContainTreasure */
+     , (11981, 9,  7039,  0, 0, 0.25, False) /* Create Fire Auroch Horn (7039) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (11981, 0.25, 1606, 20, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0)
-     , (11981, 0.5, 1605, 20, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0)
-     , (11981, 0.75, 1606, 20, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0)
-     , (11981, 1, 1607, 20, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0);
+VALUES (11981, 0.25, 1606, 20, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Auroch Fire Cow (1606) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Scatter */
+     , (11981, 0.5, 1605, 20, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Auroch Fire Yearling (1605) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Scatter */
+     , (11981, 0.75, 1606, 20, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Auroch Fire Cow (1606) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Scatter */
+     , (11981, 1, 1607, 20, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Auroch Fire Bull (1607) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Scatter */;

@@ -11,7 +11,7 @@ VALUES (19568,   1,          8) /* ItemType - Jewelry */
      , (19568,  18,         64) /* UiEffects - Lightning */
      , (19568,  19,       5000) /* Value */
      , (19568,  33,          1) /* Bonded - Bonded */
-     , (19568,  93,       1044) /* PhysicsState */
+     , (19568,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (19568, 106,        225) /* ItemSpellcraft */
      , (19568, 107,        500) /* ItemCurMana */
      , (19568, 108,        500) /* ItemMaxMana */

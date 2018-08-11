@@ -11,8 +11,8 @@ VALUES (230,   1,         16) /* ItemType - Creature */
      , (230,  25,         85) /* Level */
      , (230,  27,          0) /* ArmorType */
      , (230,  68,          5) /* TargetingTactic */
-     , (230,  93,       1032) /* PhysicsState */
-     , (230, 101,        183) /* AiAllowedCombatStyle */
+     , (230,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
+     , (230, 101,        183) /* AiAllowedCombatStyle - Unarmed, OneHanded, OneHandedAndShield, Bow, Crossbow, ThrownWeapon */
      , (230, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (230, 140,          1) /* AiOptions */
      , (230, 146,      21305) /* XpOverride */;
@@ -71,8 +71,12 @@ VALUES (230,   1,   33554496) /* Setup */
      , (230,   7,  268436631) /* ClothingBase */
      , (230,   8,  100667452) /* Icon */
      , (230,  22,  872415270) /* PhysicsEffectTable */
-     , (230,  32,        222) /* WieldedTreasureType */
-     , (230,  35,        450) /* DeathTreasureType */;
+     , (230,  32,        222) /* WieldedTreasureType - 
+                                   Wield Yumi (23736) | Probability: 50%
+                                   Wield 20x Greater Arrow (5304) | Probability: 100%
+                                   Wield Heavy Crossbow (23667) | Probability: 50%
+                                   Wield 16x Greater Quarrel (5313) | Probability: 100% */
+     , (230,  35,        450) /* DeathTreasureType - Loot Tier: 3 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (230,   1, 250, 0, 0) /* Strength */
@@ -149,4 +153,4 @@ VALUES (230,  94) /* ATTACK_NOTIFICATION_EVENT */
      , (230, 414) /* PLAYER_DEATH_EVENT */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (230, 1,  3695,  0, 0, 1, False) /* Create Gold Tumerok Insignia for Contain */;
+VALUES (230, 1,  3695,  0, 0, 1, False) /* Create Gold Tumerok Insignia (3695) for Contain */;

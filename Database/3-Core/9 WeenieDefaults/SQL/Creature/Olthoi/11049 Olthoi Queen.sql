@@ -13,7 +13,7 @@ VALUES (11049,   1,         16) /* ItemType - Creature */
      , (11049,  40,          2) /* CombatMode - Melee */
      , (11049,  68,         13) /* TargetingTactic */
      , (11049,  72,         35) /* FriendType - OlthoiLarvae */
-     , (11049,  93,       1032) /* PhysicsState */
+     , (11049,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (11049, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (11049, 140,          1) /* AiOptions */
      , (11049, 146,     750000) /* XpOverride */;

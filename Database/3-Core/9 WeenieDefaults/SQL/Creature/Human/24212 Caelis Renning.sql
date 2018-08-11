@@ -10,7 +10,7 @@ VALUES (24212,   1,         16) /* ItemType - Creature */
      , (24212,  16,         32) /* ItemUseable - Remote */
      , (24212,  25,         76) /* Level */
      , (24212,  27,          0) /* ArmorType */
-     , (24212,  93,    6292504) /* PhysicsState */
+     , (24212,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (24212,  95,          8) /* RadarBlipColor - Yellow */
      , (24212, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (24212, 134,         16) /* PlayerKillerStatus - RubberGlue */
@@ -1021,10 +1021,10 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,  30 /* InqQuestSolves */, 0, 1, NULL, 'StrongholdHumanBuilder@1', NULL, 0, 49, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (24212, 2,    57,  0, 8, 1, False) /* Create Platemail Gauntlets for Wield */
-     , (24212, 2,    72,  0, 14, 1, False) /* Create Platemail Hauberk for Wield */
-     , (24212, 2,    75,  0, 8, 1, False) /* Create Helmet for Wield */
-     , (24212, 2,    82,  0, 14, 1, False) /* Create Platemail Leggings for Wield */
-     , (24212, 2,   107,  0, 8, 1, False) /* Create Sollerets for Wield */
-     , (24212, 2,   117,  0, 17, 1, False) /* Create Breeches for Wield */
-     , (24212, 2,  2591,  0, 9, 1, False) /* Create Shirt for Wield */;
+VALUES (24212, 2,    57,  0, 8, 1, False) /* Create Platemail Gauntlets (57) for Wield */
+     , (24212, 2,    72,  0, 14, 1, False) /* Create Platemail Hauberk (72) for Wield */
+     , (24212, 2,    75,  0, 8, 1, False) /* Create Helmet (75) for Wield */
+     , (24212, 2,    82,  0, 14, 1, False) /* Create Platemail Leggings (82) for Wield */
+     , (24212, 2,   107,  0, 8, 1, False) /* Create Sollerets (107) for Wield */
+     , (24212, 2,   117,  0, 17, 1, False) /* Create Breeches (117) for Wield */
+     , (24212, 2,  2591,  0, 9, 1, False) /* Create Shirt (2591) for Wield */;

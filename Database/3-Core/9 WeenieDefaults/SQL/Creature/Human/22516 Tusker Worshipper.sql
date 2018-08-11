@@ -12,8 +12,8 @@ VALUES (22516,   1,         16) /* ItemType - Creature */
      , (22516,  27,          0) /* ArmorType */
      , (22516,  68,         13) /* TargetingTactic */
      , (22516,  72,          8) /* FriendType - Tusker */
-     , (22516,  93,       1032) /* PhysicsState */
-     , (22516, 101,        131) /* AiAllowedCombatStyle */
+     , (22516,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
+     , (22516, 101,        131) /* AiAllowedCombatStyle - Unarmed, OneHanded, ThrownWeapon */
      , (22516, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (22516, 146,       9951) /* XpOverride */;
 
@@ -69,8 +69,10 @@ VALUES (22516,   1,   33554433) /* Setup */
      , (22516,   4,  805306368) /* CombatTable */
      , (22516,   8,  100667446) /* Icon */
      , (22516,  22,  872415236) /* PhysicsEffectTable */
-     , (22516,  32,        416) /* WieldedTreasureType */
-     , (22516,  35,        450) /* DeathTreasureType */;
+     , (22516,  32,        416) /* WieldedTreasureType - 
+                                   Wield Clean, Dry Towel (10758) | Palette: Blue (2) | Probability: 50%
+                                   Wield Clean, Dry Towel (10758) | Palette: Green (8) | Probability: 50% */
+     , (22516,  35,        450) /* DeathTreasureType - Loot Tier: 3 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (22516,   1, 120, 0, 0) /* Strength */

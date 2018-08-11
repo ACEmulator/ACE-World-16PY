@@ -15,8 +15,8 @@ VALUES (25958,   1,       2048) /* ItemType - Gem */
      , (25958,  18,          1) /* UiEffects - Magical */
      , (25958,  19,          0) /* Value */
      , (25958,  33,          1) /* Bonded - Bonded */
-     , (25958,  93,       1044) /* PhysicsState */
-     , (25958,  94,          2) /* TargetType - Armor */
+     , (25958,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (25958,  94,          2) /* TargetType - Banderling */
      , (25958, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)

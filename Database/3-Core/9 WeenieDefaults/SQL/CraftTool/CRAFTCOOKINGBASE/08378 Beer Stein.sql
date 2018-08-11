@@ -13,8 +13,8 @@ VALUES (8378,   1,    4194304) /* ItemType - CraftCookingBase */
      , (8378,  15,         10) /* StackUnitValue */
      , (8378,  16,    2097160) /* ItemUseable - SourceContainedTargetRemote */
      , (8378,  19,         10) /* Value */
-     , (8378,  93,       1044) /* PhysicsState */
-     , (8378,  94,    4194304) /* TargetType - CraftCookingBase */
+     , (8378,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (8378,  94,    4194304) /* TargetType - 4194304 */
      , (8378, 150,        103) /* HookPlacement - Hook */
      , (8378, 151,          1) /* HookType - Floor */;
 

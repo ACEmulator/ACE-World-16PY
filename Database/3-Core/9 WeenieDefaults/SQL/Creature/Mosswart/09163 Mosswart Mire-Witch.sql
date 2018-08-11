@@ -13,8 +13,8 @@ VALUES (9163,   1,         16) /* ItemType - Creature */
      , (9163,  40,          2) /* CombatMode - Melee */
      , (9163,  68,         13) /* TargetingTactic */
      , (9163,  72,         50) /* FriendType - Idol */
-     , (9163,  93,       1032) /* PhysicsState */
-     , (9163, 101,        131) /* AiAllowedCombatStyle */
+     , (9163,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
+     , (9163, 101,        131) /* AiAllowedCombatStyle - Unarmed, OneHanded, ThrownWeapon */
      , (9163, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (9163, 140,          1) /* AiOptions */
      , (9163, 146,      14736) /* XpOverride */;
@@ -72,8 +72,11 @@ VALUES (9163,   1,   33557327) /* Setup */
      , (9163,   7,  268436295) /* ClothingBase */
      , (9163,   8,  100667449) /* Icon */
      , (9163,  22,  872415264) /* PhysicsEffectTable */
-     , (9163,  32,        281) /* WieldedTreasureType */
-     , (9163,  35,        450) /* DeathTreasureType */;
+     , (9163,  32,        281) /* WieldedTreasureType - 
+                                   Wield Spear (23698) | Probability: 35%
+                                   Wield Tachi (23702) | Probability: 25%
+                                   Wield Yari (23732) | Probability: 40% */
+     , (9163,  35,        450) /* DeathTreasureType - Loot Tier: 3 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (9163,   1, 185, 0, 0) /* Strength */
@@ -198,13 +201,13 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 268435537 /* Twitch1 */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (9163, 9,     0,  0, 0, 0.75, False) /* Create Unknown for ContainTreasure */
-     , (9163, 9,     0,  0, 0, 0.95, False) /* Create Unknown for ContainTreasure */
-     , (9163, 9,     0,  0, 0, 0.98, False) /* Create Unknown for ContainTreasure */
-     , (9163, 9,     0,  0, 0, 0, False) /* Create Unknown for ContainTreasure */
-     , (9163, 9,     0,  0, 0, 0, False) /* Create Unknown for ContainTreasure */
-     , (9163, 9,  3694,  0, 0, 0.25, False) /* Create Swamp Stone for ContainTreasure */
-     , (9163, 9,  6876,  0, 0, 0.02, False) /* Create Sturdy Iron Key for ContainTreasure */
-     , (9163, 9,  7825,  0, 0, 0.05, False) /* Create Brown Beans for ContainTreasure */
-     , (9163, 9,  9117,  0, 0, 1, False) /* Create Tattered Virindi Cloak for ContainTreasure */
-     , (9163, 9,  9119,  0, 0, 1, False) /* Create Facilitation for ContainTreasure */;
+VALUES (9163, 9,     0,  0, 0, 0.75, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 3 for ContainTreasure */
+     , (9163, 9,     0,  0, 0, 0.95, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 3 for ContainTreasure */
+     , (9163, 9,     0,  0, 0, 0.98, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 3 for ContainTreasure */
+     , (9163, 9,     0,  0, 0, 0, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 3 for ContainTreasure */
+     , (9163, 9,     0,  0, 0, 0, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 3 for ContainTreasure */
+     , (9163, 9,  3694,  0, 0, 0.25, False) /* Create Swamp Stone (3694) for ContainTreasure */
+     , (9163, 9,  6876,  0, 0, 0.02, False) /* Create Sturdy Iron Key (6876) for ContainTreasure */
+     , (9163, 9,  7825,  0, 0, 0.05, False) /* Create Brown Beans (7825) for ContainTreasure */
+     , (9163, 9,  9117,  0, 0, 1, False) /* Create Tattered Virindi Cloak (9117) for ContainTreasure */
+     , (9163, 9,  9119,  0, 0, 1, False) /* Create Facilitation (9119) for ContainTreasure */;

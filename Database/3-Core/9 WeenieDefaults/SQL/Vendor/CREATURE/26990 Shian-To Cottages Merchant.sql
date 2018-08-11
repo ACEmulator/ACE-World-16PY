@@ -10,10 +10,10 @@ VALUES (26990,   1,         16) /* ItemType - Creature */
      , (26990,  16,         32) /* ItemUseable - Remote */
      , (26990,  25,         10) /* Level */
      , (26990,  27,          0) /* ArmorType */
-     , (26990,  74,     264192) /* MerchandiseItemTypes */
+     , (26990,  74,     264192) /* MerchandiseItemTypes - Gem, PromissoryNote */
      , (26990,  75,          0) /* MerchandiseMinValue */
      , (26990,  76,    1000000) /* MerchandiseMaxValue */
-     , (26990,  93,    2098204) /* PhysicsState */
+     , (26990,  93,    2098204) /* PhysicsState - Ethereal, ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */
      , (26990, 126,        125) /* VendorHappyMean */
      , (26990, 127,        125) /* VendorHappyVariance */
      , (26990, 133,          4) /* ShowableOnRadar - ShowAlways */
@@ -97,4 +97,4 @@ VALUES (26990,  0,  4,  0,    0,    0,    0,    0,    0,    0,    0,    0,    0,
      , (26990,  8,  4,  2, 0.75,    0,    0,    0,    0,    0,    0,    0,    0,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (26990, 4, 26355, -1, 0, 0, False) /* Create Shian-To Cottages Portal Gem for Shop */;
+VALUES (26990, 4, 26355, -1, 0, 0, False) /* Create Shian-To Cottages Portal Gem (26355) for Shop */;

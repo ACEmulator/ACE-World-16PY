@@ -4,7 +4,7 @@ VALUES ('14672', 'portalstormbrow', 7) /* Portal */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (14672,   1,      65536) /* ItemType - Portal */
      , (14672,  16,         32) /* ItemUseable - Remote */
-     , (14672,  93,       3084) /* PhysicsState */
+     , (14672,  93,       3084) /* PhysicsState - Ethereal, ReportCollisions, Gravity, LightingOn */
      , (14672, 111,          1) /* PortalBitmask - Unrestricted */
      , (14672, 133,          4) /* ShowableOnRadar - ShowAlways */;
 

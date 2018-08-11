@@ -10,10 +10,10 @@ VALUES (27075,   1,         16) /* ItemType - Creature */
      , (27075,  16,         32) /* ItemUseable - Remote */
      , (27075,  25,         10) /* Level */
      , (27075,  27,          0) /* ArmorType */
-     , (27075,  74,     264192) /* MerchandiseItemTypes */
+     , (27075,  74,     264192) /* MerchandiseItemTypes - Gem, PromissoryNote */
      , (27075,  75,          0) /* MerchandiseMinValue */
      , (27075,  76,    1000000) /* MerchandiseMaxValue */
-     , (27075,  93,    2098204) /* PhysicsState */
+     , (27075,  93,    2098204) /* PhysicsState - Ethereal, ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */
      , (27075, 126,        125) /* VendorHappyMean */
      , (27075, 127,        125) /* VendorHappyVariance */
      , (27075, 133,          4) /* ShowableOnRadar - ShowAlways */
@@ -97,4 +97,4 @@ VALUES (27075,  0,  4,  0,    0,    0,    0,    0,    0,    0,    0,    0,    0,
      , (27075,  8,  4,  2, 0.75,    0,    0,    0,    0,    0,    0,    0,    0,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (27075, 4, 26440, -1, 0, 0, False) /* Create Xinh Portal Gem for Shop */;
+VALUES (27075, 4, 26440, -1, 0, 0, False) /* Create Xinh Portal Gem (26440) for Shop */;

@@ -10,10 +10,10 @@ VALUES (27074,   1,         16) /* ItemType - Creature */
      , (27074,  16,         32) /* ItemUseable - Remote */
      , (27074,  25,         10) /* Level */
      , (27074,  27,          0) /* ArmorType */
-     , (27074,  74,     264192) /* MerchandiseItemTypes */
+     , (27074,  74,     264192) /* MerchandiseItemTypes - Gem, PromissoryNote */
      , (27074,  75,          0) /* MerchandiseMinValue */
      , (27074,  76,    1000000) /* MerchandiseMaxValue */
-     , (27074,  93,    2098204) /* PhysicsState */
+     , (27074,  93,    2098204) /* PhysicsState - Ethereal, ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */
      , (27074, 126,        125) /* VendorHappyMean */
      , (27074, 127,        125) /* VendorHappyVariance */
      , (27074, 133,          4) /* ShowableOnRadar - ShowAlways */
@@ -97,4 +97,4 @@ VALUES (27074,  0,  4,  0,    0,    0,    0,    0,    0,    0,    0,    0,    0,
      , (27074,  8,  4,  2, 0.75,    0,    0,    0,    0,    0,    0,    0,    0,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (27074, 4, 26439, -1, 0, 0, False) /* Create Woodshore Cottages Portal Gem for Shop */;
+VALUES (27074, 4, 26439, -1, 0, 0, False) /* Create Woodshore Cottages Portal Gem (26439) for Shop */;

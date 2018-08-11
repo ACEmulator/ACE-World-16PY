@@ -15,7 +15,7 @@ VALUES (24894,   1,          2) /* ItemType - Armor */
      , (24894,  36,       9999) /* ResistMagic */
      , (24894,  44,          3) /* Damage */
      , (24894,  45,          4) /* DamageType - Bludgeon */
-     , (24894,  93,       1044) /* PhysicsState */
+     , (24894,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (24894, 158,          7) /* WieldRequirements - Level */
      , (24894, 159,          1) /* WieldSkilltype - Axe */
      , (24894, 160,         20) /* WieldDifficulty */

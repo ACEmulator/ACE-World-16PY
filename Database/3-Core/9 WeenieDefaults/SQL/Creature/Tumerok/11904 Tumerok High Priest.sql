@@ -11,8 +11,8 @@ VALUES (11904,   1,         16) /* ItemType - Creature */
      , (11904,  25,         95) /* Level */
      , (11904,  27,          0) /* ArmorType */
      , (11904,  68,          5) /* TargetingTactic */
-     , (11904,  93,       1032) /* PhysicsState */
-     , (11904, 101,        183) /* AiAllowedCombatStyle */
+     , (11904,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
+     , (11904, 101,        183) /* AiAllowedCombatStyle - Unarmed, OneHanded, OneHandedAndShield, Bow, Crossbow, ThrownWeapon */
      , (11904, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (11904, 140,          1) /* AiOptions */
      , (11904, 146,      36608) /* XpOverride */;
@@ -71,8 +71,34 @@ VALUES (11904,   1,   33554496) /* Setup */
      , (11904,   7,  268436631) /* ClothingBase */
      , (11904,   8,  100667452) /* Icon */
      , (11904,  22,  872415270) /* PhysicsEffectTable */
-     , (11904,  32,        372) /* WieldedTreasureType */
-     , (11904,  35,        448) /* DeathTreasureType */;
+     , (11904,  32,        372) /* WieldedTreasureType - 
+                                   Wield 5x Javelin (320) | Probability: 10%
+                                   Wield 5x Djarid (317) | Probability: 10%
+                                   Wield 4x Throwing Club (310) | Probability: 5%
+                                   Wield 6x Throwing Axe (304) | Probability: 5%
+                                   Wield Shortbow (307) | Probability: 3%
+                                   Wield 25x Arrow (300) | Probability: 100%
+                                   Wield Shouyumi (341) | Probability: 3%
+                                   Wield 20x Arrow (300) | Probability: 100%
+                                   Wield Light Crossbow (312) | Probability: 11%
+                                   Wield 15x Quarrel (305) | Probability: 100%
+                                   Wield Balister of the Quiddity (11892) | Probability: 26%
+                                   Wield 20x Quarrel (305) | Probability: 100%
+                                   Wield Longbow (306) | Probability: 6%
+                                   Wield 22x Arrow (300) | Probability: 100%
+                                   Wield Yumi (363) | Probability: 4%
+                                   Wield 20x Arrow (300) | Probability: 100%
+                                   Wield Heavy Crossbow (311) | Probability: 14%
+                                   Wield 15x Quarrel (305) | Probability: 100%
+                                   Wield Blade of the Quiddity (11916) | Probability: 25%
+                                   Wield Lance of the Quiddity (11913) | Probability: 25%
+                                   Wield Mace of the Quiddity (11907) | Probability: 25%
+                                   Wield Kaskara (324) | Probability: 3%
+                                   Wield Long Sword (351) | Probability: 3%
+                                   Wield Silifi (344) | Probability: 5%
+                                   Wield Tachi (353) | Probability: 5%
+                                   Wield War Hammer (359) | Probability: 5% */
+     , (11904,  35,        448) /* DeathTreasureType - Loot Tier: 4 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (11904,   1, 240, 0, 0) /* Strength */
@@ -154,7 +180,7 @@ VALUES (11904,  94) /* ATTACK_NOTIFICATION_EVENT */
      , (11904, 414) /* PLAYER_DEATH_EVENT */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (11904, 9,     0,  0, 0, 0.9, False) /* Create Unknown for ContainTreasure */
-     , (11904, 9,     0,  0, 0, 0.97, False) /* Create Unknown for ContainTreasure */
-     , (11904, 9,  3695,  0, 0, 0.1, False) /* Create Gold Tumerok Insignia for ContainTreasure */
-     , (11904, 9,  7825,  0, 0, 0.03, False) /* Create Brown Beans for ContainTreasure */;
+VALUES (11904, 9,     0,  0, 0, 0.9, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 4 for ContainTreasure */
+     , (11904, 9,     0,  0, 0, 0.97, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 4 for ContainTreasure */
+     , (11904, 9,  3695,  0, 0, 0.1, False) /* Create Gold Tumerok Insignia (3695) for ContainTreasure */
+     , (11904, 9,  7825,  0, 0, 0.03, False) /* Create Brown Beans (7825) for ContainTreasure */;

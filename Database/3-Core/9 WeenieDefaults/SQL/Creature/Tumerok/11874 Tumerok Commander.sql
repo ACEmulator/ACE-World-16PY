@@ -11,8 +11,8 @@ VALUES (11874,   1,         16) /* ItemType - Creature */
      , (11874,  25,         53) /* Level */
      , (11874,  27,          0) /* ArmorType */
      , (11874,  68,          3) /* TargetingTactic */
-     , (11874,  93,       1032) /* PhysicsState */
-     , (11874, 101,        183) /* AiAllowedCombatStyle */
+     , (11874,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
+     , (11874, 101,        183) /* AiAllowedCombatStyle - Unarmed, OneHanded, OneHandedAndShield, Bow, Crossbow, ThrownWeapon */
      , (11874, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (11874, 140,          1) /* AiOptions */
      , (11874, 146,       8793) /* XpOverride */;
@@ -71,8 +71,10 @@ VALUES (11874,   1,   33554496) /* Setup */
      , (11874,   7,  268435647) /* ClothingBase */
      , (11874,   8,  100667452) /* Icon */
      , (11874,  22,  872415270) /* PhysicsEffectTable */
-     , (11874,  32,        371) /* WieldedTreasureType */
-     , (11874,  35,        451) /* DeathTreasureType */;
+     , (11874,  32,        371) /* WieldedTreasureType - 
+                                   Wield Hafted Shreth Spear (11756) | Probability: 80%
+                                   Wield Reinforced Shreth Spear (11782) | Probability: 20% */
+     , (11874,  35,        451) /* DeathTreasureType - Loot Tier: 2 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (11874,   1, 170, 0, 0) /* Strength */
@@ -144,6 +146,6 @@ VALUES (11874,  94) /* ATTACK_NOTIFICATION_EVENT */
      , (11874, 414) /* PLAYER_DEATH_EVENT */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (11874, 9,     0,  0, 0, 0.9, False) /* Create Unknown for ContainTreasure */
-     , (11874, 9, 11865,  0, 0, 0.05, False) /* Create Shreth Spear-Head for ContainTreasure */
-     , (11874, 9, 11866,  0, 0, 0.05, False) /* Create Shreth Symbol for ContainTreasure */;
+VALUES (11874, 9,     0,  0, 0, 0.9, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 2 for ContainTreasure */
+     , (11874, 9, 11865,  0, 0, 0.05, False) /* Create Shreth Spear-Head (11865) for ContainTreasure */
+     , (11874, 9, 11866,  0, 0, 0.05, False) /* Create Shreth Symbol (11866) for ContainTreasure */;

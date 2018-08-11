@@ -13,7 +13,7 @@ VALUES (8011,   1,         16) /* ItemType - Creature */
      , (8011,  40,          2) /* CombatMode - Melee */
      , (8011,  68,          5) /* TargetingTactic */
      , (8011,  69,          4) /* CombatTactic */
-     , (8011,  93,       3080) /* PhysicsState */
+     , (8011,  93,       3080) /* PhysicsState - ReportCollisions, Gravity, LightingOn */
      , (8011, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (8011, 146,      16000) /* XpOverride */;
 
@@ -72,7 +72,7 @@ VALUES (8011,   1,   33556732) /* Setup */
      , (8011,   7,  268435859) /* ClothingBase */
      , (8011,   8,  100670283) /* Icon */
      , (8011,  22,  872415347) /* PhysicsEffectTable */
-     , (8011,  35,         27) /* DeathTreasureType */;
+     , (8011,  35,         27) /* DeathTreasureType - Loot Tier: 3 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (8011,   1, 150, 0, 0) /* Strength */
@@ -127,13 +127,13 @@ VALUES (8011,  94) /* ATTACK_NOTIFICATION_EVENT */
      , (8011, 414) /* PLAYER_DEATH_EVENT */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (8011, 9,     0,  0, 0, 0, False) /* Create Unknown for ContainTreasure */
-     , (8011, 9,     0,  0, 0, 0, False) /* Create Unknown for ContainTreasure */
-     , (8011, 9,     0,  0, 0, 0, False) /* Create Unknown for ContainTreasure */
-     , (8011, 9,     0,  0, 0, 0, False) /* Create Unknown for ContainTreasure */
-     , (8011, 9,     0,  0, 0, 0, False) /* Create Unknown for ContainTreasure */
-     , (8011, 9,  8111,  0, 0, 1, False) /* Create Caulnalain Gem for ContainTreasure */
-     , (8011, 9,  8111,  0, 0, 1, False) /* Create Caulnalain Gem for ContainTreasure */
-     , (8011, 9,  8111,  0, 0, 1, False) /* Create Caulnalain Gem for ContainTreasure */
-     , (8011, 9,  8111,  0, 0, 1, False) /* Create Caulnalain Gem for ContainTreasure */
-     , (8011, 9,  8111,  0, 0, 1, False) /* Create Caulnalain Gem for ContainTreasure */;
+VALUES (8011, 9,     0,  0, 0, 0, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 3 for ContainTreasure */
+     , (8011, 9,     0,  0, 0, 0, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 3 for ContainTreasure */
+     , (8011, 9,     0,  0, 0, 0, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 3 for ContainTreasure */
+     , (8011, 9,     0,  0, 0, 0, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 3 for ContainTreasure */
+     , (8011, 9,     0,  0, 0, 0, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 3 for ContainTreasure */
+     , (8011, 9,  8111,  0, 0, 1, False) /* Create Caulnalain Gem (8111) for ContainTreasure */
+     , (8011, 9,  8111,  0, 0, 1, False) /* Create Caulnalain Gem (8111) for ContainTreasure */
+     , (8011, 9,  8111,  0, 0, 1, False) /* Create Caulnalain Gem (8111) for ContainTreasure */
+     , (8011, 9,  8111,  0, 0, 1, False) /* Create Caulnalain Gem (8111) for ContainTreasure */
+     , (8011, 9,  8111,  0, 0, 1, False) /* Create Caulnalain Gem (8111) for ContainTreasure */;

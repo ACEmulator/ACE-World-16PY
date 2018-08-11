@@ -8,7 +8,7 @@ VALUES (15993,   1,        128) /* ItemType - Misc */
      , (15993,   9,          0) /* ValidLocations - None */
      , (15993,  16,          1) /* ItemUseable - No */
      , (15993,  19,          0) /* Value */
-     , (15993,  93,         52) /* PhysicsState */
+     , (15993,  93,         52) /* PhysicsState - Ethereal, IgnoreCollisions, NoDraw */
      , (15993, 155,          4) /* HouseType - Apartment */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)

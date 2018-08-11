@@ -14,7 +14,7 @@ VALUES (764,   1,       4096) /* ItemType - SpellComponents */
      , (764,  15,          5) /* StackUnitValue */
      , (764,  16,          1) /* ItemUseable - No */
      , (764,  19,          5) /* Value */
-     , (764,  93,       1044) /* PhysicsState */;
+     , (764,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (764,   1, 'Vitriol') /* Name */

@@ -4,7 +4,7 @@ VALUES ('15169', 'portallaststopbeforediresvillas', 7) /* Portal */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (15169,   1,      65536) /* ItemType - Portal */
      , (15169,  16,         32) /* ItemUseable - Remote */
-     , (15169,  93,       3084) /* PhysicsState */
+     , (15169,  93,       3084) /* PhysicsState - Ethereal, ReportCollisions, Gravity, LightingOn */
      , (15169, 111,          1) /* PortalBitmask - Unrestricted */
      , (15169, 133,          4) /* ShowableOnRadar - ShowAlways */;
 

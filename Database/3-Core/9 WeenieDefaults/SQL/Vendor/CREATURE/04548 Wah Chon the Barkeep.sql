@@ -10,10 +10,10 @@ VALUES (4548,   1,         16) /* ItemType - Creature */
      , (4548,  16,         32) /* ItemUseable - Remote */
      , (4548,  25,          5) /* Level */
      , (4548,  27,          0) /* ArmorType */
-     , (4548,  74,     262176) /* MerchandiseItemTypes */
+     , (4548,  74,     262176) /* MerchandiseItemTypes - Food, PromissoryNote */
      , (4548,  75,          0) /* MerchandiseMinValue */
      , (4548,  76,      25000) /* MerchandiseMaxValue */
-     , (4548,  93,    2098200) /* PhysicsState */
+     , (4548,  93,    2098200) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */
      , (4548, 126,        125) /* VendorHappyMean */
      , (4548, 127,        125) /* VendorHappyVariance */
      , (4548, 133,          4) /* ShowableOnRadar - ShowAlways */
@@ -171,22 +171,22 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 318767235 /* Nod */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (4548, 2,   118,  0, 13, 0.67, False) /* Create Cap for Wield */
-     , (4548, 2,   127,  0, 16, 1, False) /* Create Pants for Wield */
-     , (4548, 2,   130,  0, 18, 1, False) /* Create Shirt for Wield */
-     , (4548, 2,   132,  0, 16, 1, False) /* Create Shoes for Wield */
-     , (4548, 4,   261, -1, 0, 0, False) /* Create Cheese for Shop */
-     , (4548, 4,  2452, -1, 0, 0, False) /* Create Apple Juice for Shop */
-     , (4548, 4,  2456, -1, 0, 0, False) /* Create Green Tea for Shop */
-     , (4548, 4,  2468, -1, 0, 0, False) /* Create Sake for Shop */
-     , (4548, 4,  2469, -1, 0, 0, False) /* Create Small Beer for Shop */
-     , (4548, 4,  4729, -1, 0, 0, False) /* Create Fried Egg for Shop */
-     , (4548, 4,  4731, -1, 0, 0, False) /* Create Fried Mushroom for Shop */
-     , (4548, 4,  4738, -1, 0, 0, False) /* Create Mushroom Rice for Shop */
-     , (4548, 4,  4746, -1, 0, 0, False) /* Create Water for Shop */
-     , (4548, 4,  5002, -1, 0, 0, False) /* Create Nanto Portal Directions for Shop */
-     , (4548, 4,  5005, -1, 0, 0, False) /* Create Empyrean Garrison Directions for Shop */
-     , (4548, 4,  8378, -1, 0, 0, False) /* Create Beer Stein for Shop */
-     , (4548, 2, 10696,  0, 4, 0.6, False) /* Create Apron for Wield */
-     , (4548, 4, 23126, -1, 0, 0, False) /* Create Wah Chon's Winter Lager for Shop */
-     , (4548, 4, 24223, -1, 0, 0, False) /* Create A Sparking Stone for Shop */;
+VALUES (4548, 2,   118,  0, 13, 0.67, False) /* Create Cap (118) for Wield */
+     , (4548, 2,   127,  0, 16, 1, False) /* Create Pants (127) for Wield */
+     , (4548, 2,   130,  0, 18, 1, False) /* Create Shirt (130) for Wield */
+     , (4548, 2,   132,  0, 16, 1, False) /* Create Shoes (132) for Wield */
+     , (4548, 4,   261, -1, 0, 0, False) /* Create Cheese (261) for Shop */
+     , (4548, 4,  2452, -1, 0, 0, False) /* Create Apple Juice (2452) for Shop */
+     , (4548, 4,  2456, -1, 0, 0, False) /* Create Green Tea (2456) for Shop */
+     , (4548, 4,  2468, -1, 0, 0, False) /* Create Sake (2468) for Shop */
+     , (4548, 4,  2469, -1, 0, 0, False) /* Create Small Beer (2469) for Shop */
+     , (4548, 4,  4729, -1, 0, 0, False) /* Create Fried Egg (4729) for Shop */
+     , (4548, 4,  4731, -1, 0, 0, False) /* Create Fried Mushroom (4731) for Shop */
+     , (4548, 4,  4738, -1, 0, 0, False) /* Create Mushroom Rice (4738) for Shop */
+     , (4548, 4,  4746, -1, 0, 0, False) /* Create Water (4746) for Shop */
+     , (4548, 4,  5002, -1, 0, 0, False) /* Create Nanto Portal Directions (5002) for Shop */
+     , (4548, 4,  5005, -1, 0, 0, False) /* Create Empyrean Garrison Directions (5005) for Shop */
+     , (4548, 4,  8378, -1, 0, 0, False) /* Create Beer Stein (8378) for Shop */
+     , (4548, 2, 10696,  0, 4, 0.6, False) /* Create Apron (10696) for Wield */
+     , (4548, 4, 23126, -1, 0, 0, False) /* Create Wah Chon's Winter Lager (23126) for Shop */
+     , (4548, 4, 24223, -1, 0, 0, False) /* Create A Sparking Stone (24223) for Shop */;

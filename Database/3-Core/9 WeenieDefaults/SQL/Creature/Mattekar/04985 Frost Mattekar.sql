@@ -11,7 +11,7 @@ VALUES (4985,   1,         16) /* ItemType - Creature */
      , (4985,  25,         94) /* Level */
      , (4985,  40,          2) /* CombatMode - Melee */
      , (4985,  68,          3) /* TargetingTactic */
-     , (4985,  93,       1032) /* PhysicsState */
+     , (4985,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (4985, 133,          0) /* ShowableOnRadar - Undefined */
      , (4985, 146,       8516) /* XpOverride */;
 
@@ -66,7 +66,7 @@ VALUES (4985,   1,   33555590) /* Setup */
      , (4985,   7,  268435729) /* ClothingBase */
      , (4985,   8,  100669121) /* Icon */
      , (4985,  22,  872415278) /* PhysicsEffectTable */
-     , (4985,  35,        113) /* DeathTreasureType */;
+     , (4985,  35,        113) /* DeathTreasureType - Loot Tier: 3 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (4985,   1, 205, 0, 0) /* Strength */
@@ -133,5 +133,5 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 268435540 /* Twitch4 */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (4985, 9,     0,  0, 0, 0.95, False) /* Create Unknown for ContainTreasure */
-     , (4985, 9,  4240,  0, 0, 0.05, False) /* Create Small Mattekar Hide for ContainTreasure */;
+VALUES (4985, 9,     0,  0, 0, 0.95, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 3 for ContainTreasure */
+     , (4985, 9,  4240,  0, 0, 0.05, False) /* Create Small Mattekar Hide (4240) for ContainTreasure */;

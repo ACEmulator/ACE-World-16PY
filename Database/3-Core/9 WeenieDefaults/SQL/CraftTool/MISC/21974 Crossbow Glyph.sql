@@ -13,10 +13,10 @@ VALUES (21974,   1,        128) /* ItemType - Misc */
      , (21974,  15,       5000) /* StackUnitValue */
      , (21974,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
      , (21974,  19,       5000) /* Value */
-     , (21974,  93,       1044) /* PhysicsState */
-     , (21974,  94,        128) /* TargetType - Misc */
+     , (21974,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (21974,  94,        128) /* TargetType - 128 */
      , (21974, 150,        103) /* HookPlacement - Hook */
-     , (21974, 151,         11) /* HookType */;
+     , (21974, 151,         11) /* HookType - Floor, Wall, Yard */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (21974,  22, True ) /* Inscribable */

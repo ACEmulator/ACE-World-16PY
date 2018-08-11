@@ -4,7 +4,7 @@ VALUES ('22258', 'flagverdentine', 1) /* Generic */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (22258,   1,          4) /* ItemType - Clothing */
      , (22258,   3,         85) /* PaletteTemplate - DyeDarkRed */
-     , (22258,   4,          0) /* ClothingPriority */
+     , (22258,   4,          0) /* ClothingPriority - 0 */
      , (22258,   5,         50) /* EncumbranceVal */
      , (22258,   8,         50) /* Mass */
      , (22258,   9,   16777216) /* ValidLocations - Held */
@@ -12,9 +12,9 @@ VALUES (22258,   1,          4) /* ItemType - Clothing */
      , (22258,  19,        500) /* Value */
      , (22258,  27,          1) /* ArmorType */
      , (22258,  28,          0) /* ArmorLevel */
-     , (22258,  93,       1044) /* PhysicsState */
+     , (22258,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (22258, 150,        103) /* HookPlacement - Hook */
-     , (22258, 151,         24) /* HookType */;
+     , (22258, 151,         24) /* HookType - Yard, Roof */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (22258,   1, True ) /* Stuck */

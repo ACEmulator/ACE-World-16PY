@@ -10,8 +10,8 @@ VALUES (11877,   1,         16) /* ItemType - Creature */
      , (11877,  25,         26) /* Level */
      , (11877,  27,          0) /* ArmorType */
      , (11877,  68,          5) /* TargetingTactic */
-     , (11877,  93,       1032) /* PhysicsState */
-     , (11877, 101,        183) /* AiAllowedCombatStyle */
+     , (11877,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
+     , (11877, 101,        183) /* AiAllowedCombatStyle - Unarmed, OneHanded, OneHandedAndShield, Bow, Crossbow, ThrownWeapon */
      , (11877, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (11877, 140,          1) /* AiOptions */
      , (11877, 146,       2533) /* XpOverride */;
@@ -65,8 +65,10 @@ VALUES (11877,   1,   33554496) /* Setup */
      , (11877,   4,  805306380) /* CombatTable */
      , (11877,   8,  100667452) /* Icon */
      , (11877,  22,  872415270) /* PhysicsEffectTable */
-     , (11877,  32,        368) /* WieldedTreasureType */
-     , (11877,  35,        453) /* DeathTreasureType */;
+     , (11877,  32,        368) /* WieldedTreasureType - 
+                                   Wield Hafted Mask Spear (11753) | Probability: 80%
+                                   Wield Reinforced Mask Spear (11779) | Probability: 20% */
+     , (11877,  35,        453) /* DeathTreasureType - Loot Tier: 1 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (11877,   1, 110, 0, 0) /* Strength */
@@ -117,9 +119,9 @@ VALUES (11877,  94) /* ATTACK_NOTIFICATION_EVENT */
      , (11877, 414) /* PLAYER_DEATH_EVENT */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (11877, 9,     0,  0, 0, 0.9, False) /* Create Unknown for ContainTreasure */
-     , (11877, 9,     0,  0, 0, 0.97, False) /* Create Unknown for ContainTreasure */
-     , (11877, 9,     0,  0, 0, 0.95, False) /* Create Unknown for ContainTreasure */
-     , (11877, 9,  3695,  0, 0, 0.1, False) /* Create Gold Tumerok Insignia for ContainTreasure */
-     , (11877, 9,  7825,  0, 0, 0.03, False) /* Create Brown Beans for ContainTreasure */
-     , (11877, 9, 11763,  0, 0, 0.05, False) /* Create Mask Banner for ContainTreasure */;
+VALUES (11877, 9,     0,  0, 0, 0.9, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 1 for ContainTreasure */
+     , (11877, 9,     0,  0, 0, 0.97, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 1 for ContainTreasure */
+     , (11877, 9,     0,  0, 0, 0.95, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 1 for ContainTreasure */
+     , (11877, 9,  3695,  0, 0, 0.1, False) /* Create Gold Tumerok Insignia (3695) for ContainTreasure */
+     , (11877, 9,  7825,  0, 0, 0.03, False) /* Create Brown Beans (7825) for ContainTreasure */
+     , (11877, 9, 11763,  0, 0, 0.05, False) /* Create Mask Banner (11763) for ContainTreasure */;

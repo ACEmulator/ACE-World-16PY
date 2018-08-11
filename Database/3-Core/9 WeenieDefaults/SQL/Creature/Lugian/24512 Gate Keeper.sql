@@ -11,7 +11,7 @@ VALUES (24512,   1,         16) /* ItemType - Creature */
      , (24512,  16,         32) /* ItemUseable - Remote */
      , (24512,  25,        108) /* Level */
      , (24512,  27,          0) /* ArmorType */
-     , (24512,  93,    6292504) /* PhysicsState */
+     , (24512,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (24512,  95,          8) /* RadarBlipColor - Yellow */
      , (24512, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (24512, 134,         16) /* PlayerKillerStatus - RubberGlue */
@@ -168,4 +168,4 @@ VALUES (@parent_id,  0,  12 /* TurnToTarget */, 0, 1, NULL, NULL, NULL, NULL, NU
      , (@parent_id,  1,  10 /* Tell */, 0, 1, NULL, 'We are guarding the gates against intruders. Please move on.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (24512, 2, 23754,  0, 0, 0, False) /* Create Lugian Hammer for Wield */;
+VALUES (24512, 2, 23754,  0, 0, 0, False) /* Create Lugian Hammer (23754) for Wield */;

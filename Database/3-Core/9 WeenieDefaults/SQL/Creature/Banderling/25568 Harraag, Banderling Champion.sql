@@ -12,9 +12,9 @@ VALUES (25568,   1,         16) /* ItemType - Creature */
      , (25568,  27,          0) /* ArmorType */
      , (25568,  40,          2) /* CombatMode - Melee */
      , (25568,  68,          3) /* TargetingTactic */
-     , (25568,  93,       1032) /* PhysicsState */
+     , (25568,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (25568,  95,          8) /* RadarBlipColor - Yellow */
-     , (25568, 101,        131) /* AiAllowedCombatStyle */
+     , (25568, 101,        131) /* AiAllowedCombatStyle - Unarmed, OneHanded, ThrownWeapon */
      , (25568, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (25568, 134,         16) /* PlayerKillerStatus - RubberGlue */
      , (25568, 140,          1) /* AiOptions */
@@ -74,8 +74,12 @@ VALUES (25568,   1,   33558024) /* Setup */
      , (25568,   7,  268436610) /* ClothingBase */
      , (25568,   8,  100667453) /* Icon */
      , (25568,  22,  872415255) /* PhysicsEffectTable */
-     , (25568,  32,        423) /* WieldedTreasureType */
-     , (25568,  35,        420) /* DeathTreasureType */;
+     , (25568,  32,        423) /* WieldedTreasureType - 
+                                   Wield 25x Frost Throwing Club (23130) | Probability: 20%
+                                   Wield 25x Fire Throwing Club (23129) | Probability: 20%
+                                   Wield Flaming Club (23127) | Probability: 25%
+                                   Wield Frost Club (23128) | Probability: 25% */
+     , (25568,  35,        420) /* DeathTreasureType - Loot Tier: 6 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (25568,   1, 450, 0, 0) /* Strength */

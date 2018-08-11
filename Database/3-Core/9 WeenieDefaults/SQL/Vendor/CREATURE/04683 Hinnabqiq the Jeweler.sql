@@ -10,10 +10,10 @@ VALUES (4683,   1,         16) /* ItemType - Creature */
      , (4683,  16,         32) /* ItemUseable - Remote */
      , (4683,  25,         10) /* Level */
      , (4683,  27,          0) /* ArmorType */
-     , (4683,  74,     264200) /* MerchandiseItemTypes */
+     , (4683,  74,     264200) /* MerchandiseItemTypes - Jewelry, Gem, PromissoryNote */
      , (4683,  75,          0) /* MerchandiseMinValue */
      , (4683,  76,      25000) /* MerchandiseMaxValue */
-     , (4683,  93,    2098200) /* PhysicsState */
+     , (4683,  93,    2098200) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */
      , (4683, 126,        400) /* VendorHappyMean */
      , (4683, 127,        250) /* VendorHappyVariance */
      , (4683, 133,          4) /* ShowableOnRadar - ShowAlways */
@@ -171,22 +171,22 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 318767235 /* Nod */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (4683, 2,   133,  0, 9, 1, False) /* Create Slippers for Wield */
-     , (4683, 2,   134,  0, 9, 1, False) /* Create Tunic for Wield */
-     , (4683, 2,   135,  0, 7, 0.33, False) /* Create Turban for Wield */
-     , (4683, 4,   294, -1, 0, 0, False) /* Create Amulet for Shop */
-     , (4683, 4,   297, -1, 0, 0, False) /* Create Ring for Shop */
-     , (4683, 4,   513, -1, 0, 0, False) /* Create Plain Lockpick for Shop */
-     , (4683, 4,   545, -1, 0, 0, False) /* Create Reliable Lockpick for Shop */
-     , (4683, 4,  2414, -1, 0, 0, False) /* Create Azurite for Shop */
-     , (4683, 4,  2420, -1, 0, 0, False) /* Create White Quartz for Shop */
-     , (4683, 2,  2603,  0, 18, 1, False) /* Create Breeches for Wield */
-     , (4683, 4,  2621, -1, 0, 0, False) /* Create Trade Note (100) for Shop */
-     , (4683, 4,  2622, -1, 0, 0, False) /* Create Trade Note (500) for Shop */
-     , (4683, 4,  2623, -1, 0, 0, False) /* Create Trade Note (1,000) for Shop */
-     , (4683, 4,  9295, -1, 0, 0, False) /* Create Intricate Carving Tool for Shop */
-     , (4683, 2, 10696,  0, 9, 0.5, False) /* Create Apron for Wield */
-     , (4683, 4, 20646, -1, 0, 0, False) /* Create Ust for Shop */
-     , (4683, 4, 21093, -1, 0, 0, False) /* Create Tinkering for Shop */
-     , (4683, 4, 23044, -1, 0, 0, False) /* Create On the Abilities of Salvaged Ivory for Shop */
-     , (4683, 4, 23204, -1, 0, 0, False) /* Create Carving Keys and Keyrings for Shop */;
+VALUES (4683, 2,   133,  0, 9, 1, False) /* Create Slippers (133) for Wield */
+     , (4683, 2,   134,  0, 9, 1, False) /* Create Tunic (134) for Wield */
+     , (4683, 2,   135,  0, 7, 0.33, False) /* Create Turban (135) for Wield */
+     , (4683, 4,   294, -1, 0, 0, False) /* Create Amulet (294) for Shop */
+     , (4683, 4,   297, -1, 0, 0, False) /* Create Ring (297) for Shop */
+     , (4683, 4,   513, -1, 0, 0, False) /* Create Plain Lockpick (513) for Shop */
+     , (4683, 4,   545, -1, 0, 0, False) /* Create Reliable Lockpick (545) for Shop */
+     , (4683, 4,  2414, -1, 0, 0, False) /* Create Azurite (2414) for Shop */
+     , (4683, 4,  2420, -1, 0, 0, False) /* Create White Quartz (2420) for Shop */
+     , (4683, 2,  2603,  0, 18, 1, False) /* Create Breeches (2603) for Wield */
+     , (4683, 4,  2621, -1, 0, 0, False) /* Create Trade Note (100) (2621) for Shop */
+     , (4683, 4,  2622, -1, 0, 0, False) /* Create Trade Note (500) (2622) for Shop */
+     , (4683, 4,  2623, -1, 0, 0, False) /* Create Trade Note (1,000) (2623) for Shop */
+     , (4683, 4,  9295, -1, 0, 0, False) /* Create Intricate Carving Tool (9295) for Shop */
+     , (4683, 2, 10696,  0, 9, 0.5, False) /* Create Apron (10696) for Wield */
+     , (4683, 4, 20646, -1, 0, 0, False) /* Create Ust (20646) for Shop */
+     , (4683, 4, 21093, -1, 0, 0, False) /* Create Tinkering (21093) for Shop */
+     , (4683, 4, 23044, -1, 0, 0, False) /* Create On the Abilities of Salvaged Ivory (23044) for Shop */
+     , (4683, 4, 23204, -1, 0, 0, False) /* Create Carving Keys and Keyrings (23204) for Shop */;

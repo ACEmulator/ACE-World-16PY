@@ -11,7 +11,7 @@ VALUES (9136,   1,          8) /* ItemType - Jewelry */
      , (9136,  18,          1) /* UiEffects - Magical */
      , (9136,  19,       1500) /* Value */
      , (9136,  36,       9999) /* ResistMagic */
-     , (9136,  93,       1044) /* PhysicsState */
+     , (9136,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (9136, 106,        150) /* ItemSpellcraft */
      , (9136, 107,        400) /* ItemCurMana */
      , (9136, 108,        400) /* ItemMaxMana */

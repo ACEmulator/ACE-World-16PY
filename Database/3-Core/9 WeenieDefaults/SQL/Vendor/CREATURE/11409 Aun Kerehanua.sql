@@ -11,10 +11,10 @@ VALUES (11409,   1,         16) /* ItemType - Creature */
      , (11409,  16,         32) /* ItemUseable - Remote */
      , (11409,  25,         30) /* Level */
      , (11409,  27,          0) /* ArmorType */
-     , (11409,  74,     295169) /* MerchandiseItemTypes */
+     , (11409,  74,     295169) /* MerchandiseItemTypes - WeaponOrCaster, PromissoryNote */
      , (11409,  75,          0) /* MerchandiseMinValue */
      , (11409,  76,     100000) /* MerchandiseMaxValue */
-     , (11409,  93,    2098200) /* PhysicsState */
+     , (11409,  93,    2098200) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */
      , (11409, 126,       2000) /* VendorHappyMean */
      , (11409, 127,       1000) /* VendorHappyVariance */
      , (11409, 133,          4) /* ShowableOnRadar - ShowAlways */
@@ -156,16 +156,16 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,  10 /* Tell */, 0, 1, NULL, 'Perfect. I hope you''ve chosen your totems well--fused with the proper triple totem, this weapon will be a powerful ally to you. And if you''ve forgotten how to finish its creation, may I suggest that you purchase Aun Shimauri''s tome? He''s giving them away for free..but I, for one, have my children to think about.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (11409, 4, 11463, -1, 0, 0, False) /* Create Tewhate for Shop */
-     , (11409, 4, 11464, -1, 0, 0, False) /* Create Okane for Shop */
-     , (11409, 4, 11465, -1, 0, 0, False) /* Create Waaika for Shop */
-     , (11409, 4, 11466, -1, 0, 0, False) /* Create Taiaha for Shop */
-     , (11409, 4, 11467, -1, 0, 0, False) /* Create Hoeroa for Shop */
-     , (11409, 4, 11974, -1, 0, 0, False) /* Create Aun Shimauri's Instructions for Shop */
-     , (11409, 2, 12123,  1, 0, 1, False) /* Create Palenqual's Hoeroa for Wield */
-     , (11409, 4, 27368, -1, 0, 0, False) /* Create Atlatl for Shop */
-     , (11409, 4, 27369, -1, 0, 0, False) /* Create Panaq for Shop */
-     , (11409, 4, 27370, -1, 0, 0, False) /* Create Korua for Shop */
-     , (11409, 4, 27371, -1, 0, 0, False) /* Create Buadren for Shop */
-     , (11409, 4, 27372, -1, 0, 0, False) /* Create Ukira for Shop */
-     , (11409, 4, 27373, -1, 0, 0, False) /* Create Kalindan for Shop */;
+VALUES (11409, 4, 11463, -1, 0, 0, False) /* Create Tewhate (11463) for Shop */
+     , (11409, 4, 11464, -1, 0, 0, False) /* Create Okane (11464) for Shop */
+     , (11409, 4, 11465, -1, 0, 0, False) /* Create Waaika (11465) for Shop */
+     , (11409, 4, 11466, -1, 0, 0, False) /* Create Taiaha (11466) for Shop */
+     , (11409, 4, 11467, -1, 0, 0, False) /* Create Hoeroa (11467) for Shop */
+     , (11409, 4, 11974, -1, 0, 0, False) /* Create Aun Shimauri's Instructions (11974) for Shop */
+     , (11409, 2, 12123,  1, 0, 1, False) /* Create Palenqual's Hoeroa (12123) for Wield */
+     , (11409, 4, 27368, -1, 0, 0, False) /* Create Atlatl (27368) for Shop */
+     , (11409, 4, 27369, -1, 0, 0, False) /* Create Panaq (27369) for Shop */
+     , (11409, 4, 27370, -1, 0, 0, False) /* Create Korua (27370) for Shop */
+     , (11409, 4, 27371, -1, 0, 0, False) /* Create Buadren (27371) for Shop */
+     , (11409, 4, 27372, -1, 0, 0, False) /* Create Ukira (27372) for Shop */
+     , (11409, 4, 27373, -1, 0, 0, False) /* Create Kalindan (27373) for Shop */;

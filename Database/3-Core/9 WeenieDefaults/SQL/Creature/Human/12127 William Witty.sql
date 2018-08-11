@@ -10,7 +10,7 @@ VALUES (12127,   1,         16) /* ItemType - Creature */
      , (12127,  16,         32) /* ItemUseable - Remote */
      , (12127,  25,         50) /* Level */
      , (12127,  27,          0) /* ArmorType */
-     , (12127,  93,    6292504) /* PhysicsState */
+     , (12127,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (12127,  95,          8) /* RadarBlipColor - Yellow */
      , (12127, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (12127, 134,         16) /* PlayerKillerStatus - RubberGlue */
@@ -187,6 +187,6 @@ VALUES (@parent_id,  0,  10 /* Tell */, 1, 1, NULL, 'Ah, you''re back--and you''
      , (@parent_id,  4,  10 /* Tell */, 1, 1, NULL, 'There ya go! Gotta warn you though--only one per customer. What...you were expecting a pair? Silly rabbit, have you ever seen a two-headed bunny? But I already showed you how to do it--next time you find a rabbit carcass, use this slipper on it and you''ll get your pair. Happy hunting and good speed!', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (12127, 2,   130,  0, 2, 0.8, False) /* Create Shirt for Wield */
-     , (12127, 2,  2604,  0, 9, 1, False) /* Create Breeches for Wield */
-     , (12127, 2, 12156,  0, 0, 0, False) /* Create White Bunny Slippers for Wield */;
+VALUES (12127, 2,   130,  0, 2, 0.8, False) /* Create Shirt (130) for Wield */
+     , (12127, 2,  2604,  0, 9, 1, False) /* Create Breeches (2604) for Wield */
+     , (12127, 2, 12156,  0, 0, 0, False) /* Create White Bunny Slippers (12156) for Wield */;

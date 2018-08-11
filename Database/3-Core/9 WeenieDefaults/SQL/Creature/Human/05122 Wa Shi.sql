@@ -10,7 +10,7 @@ VALUES (5122,   1,         16) /* ItemType - Creature */
      , (5122,  16,         32) /* ItemUseable - Remote */
      , (5122,  25,         10) /* Level */
      , (5122,  27,          0) /* ArmorType */
-     , (5122,  93,    6292504) /* PhysicsState */
+     , (5122,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (5122,  95,          8) /* RadarBlipColor - Yellow */
      , (5122, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (5122, 134,         16) /* PlayerKillerStatus - RubberGlue */
@@ -201,6 +201,6 @@ VALUES (@parent_id,  0,  12 /* TurnToTarget */, 0, 1, NULL, NULL, NULL, NULL, NU
      , (@parent_id,  4,  10 /* Tell */, 1.5, 1, NULL, 'I do know of a small lair of rats southwest of the waterfalls.  Do not go if you hate rats.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (5122, 2,   107,  0, 0, 0, False) /* Create Sollerets for Wield */
-     , (5122, 2,  2587,  0, 17, 1, False) /* Create Shirt for Wield */
-     , (5122, 2,  2604,  0, 18, 1, False) /* Create Breeches for Wield */;
+VALUES (5122, 2,   107,  0, 0, 0, False) /* Create Sollerets (107) for Wield */
+     , (5122, 2,  2587,  0, 17, 1, False) /* Create Shirt (2587) for Wield */
+     , (5122, 2,  2604,  0, 18, 1, False) /* Create Breeches (2604) for Wield */;

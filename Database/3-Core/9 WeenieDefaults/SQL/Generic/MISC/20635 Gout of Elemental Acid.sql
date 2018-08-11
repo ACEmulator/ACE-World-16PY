@@ -7,7 +7,7 @@ VALUES (20635,   1,        128) /* ItemType - Misc */
      , (20635,   8,          0) /* Mass */
      , (20635,  16,          1) /* ItemUseable - No */
      , (20635,  19,          0) /* Value */
-     , (20635,  93,       2068) /* PhysicsState */;
+     , (20635,  93,       2068) /* PhysicsState - Ethereal, IgnoreCollisions, LightingOn */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (20635,   1, True ) /* Stuck */

@@ -12,8 +12,8 @@ VALUES (27714,   1,         16) /* ItemType - Creature */
      , (27714,  27,          0) /* ArmorType */
      , (27714,  68,          5) /* TargetingTactic */
      , (27714,  72,          6) /* FriendType - Tumerok */
-     , (27714,  93,       1032) /* PhysicsState */
-     , (27714, 101,        183) /* AiAllowedCombatStyle */
+     , (27714,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
+     , (27714, 101,        183) /* AiAllowedCombatStyle - Unarmed, OneHanded, OneHandedAndShield, Bow, Crossbow, ThrownWeapon */
      , (27714, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (27714, 140,          1) /* AiOptions */
      , (27714, 146,      47056) /* XpOverride */;
@@ -73,8 +73,21 @@ VALUES (27714,   1,   33554496) /* Setup */
      , (27714,   7,  268436631) /* ClothingBase */
      , (27714,   8,  100667452) /* Icon */
      , (27714,  22,  872415270) /* PhysicsEffectTable */
-     , (27714,  32,        203) /* WieldedTreasureType */
-     , (27714,  35,        448) /* DeathTreasureType */;
+     , (27714,  32,        203) /* WieldedTreasureType - 
+                                   Wield Yumi (23734) | Probability: 20%
+                                   Wield 20x Deadly Arrow (15429) | Probability: 100%
+                                   Wield Heavy Crossbow (23665) | Probability: 40%
+                                   Wield 20x Deadly Quarrel (15438) | Probability: 100%
+                                   Wield Katar (23674) | Probability: 12%
+                                   Wield Cestus (23637) | Probability: 12%
+                                   Wield Nekode (23680) | Probability: 12%
+                                   Wield Tachi (23700) | Probability: 12%
+                                   Wield Spear (23696) | Probability: 12%
+                                   Wield Fire Yaoji (23718) | Probability: 12%
+                                   Wield Yaoji (23710) | Probability: 12%
+                                   Wield Fire Tachi (23707) | Probability: 12%
+                                   Wield Kite Shield (23684) | Probability: 75% */
+     , (27714,  35,        448) /* DeathTreasureType - Loot Tier: 4 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (27714,   1, 280, 0, 0) /* Strength */
@@ -151,4 +164,4 @@ VALUES (27714,  94) /* ATTACK_NOTIFICATION_EVENT */
      , (27714, 414) /* PLAYER_DEATH_EVENT */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (27714, 10,    91,  0, 0, 1, False) /* Create Kite Shield for WieldTreasure */;
+VALUES (27714, 10,    91,  0, 0, 1, False) /* Create Kite Shield (91) for WieldTreasure */;

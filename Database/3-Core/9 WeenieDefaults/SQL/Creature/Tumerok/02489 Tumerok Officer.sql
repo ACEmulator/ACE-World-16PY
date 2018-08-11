@@ -10,8 +10,8 @@ VALUES (2489,   1,         16) /* ItemType - Creature */
      , (2489,  25,         16) /* Level */
      , (2489,  27,          0) /* ArmorType */
      , (2489,  68,          5) /* TargetingTactic */
-     , (2489,  93,       1032) /* PhysicsState */
-     , (2489, 101,        183) /* AiAllowedCombatStyle */
+     , (2489,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
+     , (2489, 101,        183) /* AiAllowedCombatStyle - Unarmed, OneHanded, OneHandedAndShield, Bow, Crossbow, ThrownWeapon */
      , (2489, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (2489, 146,        803) /* XpOverride */;
 
@@ -63,8 +63,34 @@ VALUES (2489,   1,   33554496) /* Setup */
      , (2489,   4,  805306380) /* CombatTable */
      , (2489,   8,  100667452) /* Icon */
      , (2489,  22,  872415270) /* PhysicsEffectTable */
-     , (2489,  32,        215) /* WieldedTreasureType */
-     , (2489,  35,        217) /* DeathTreasureType */;
+     , (2489,  32,        215) /* WieldedTreasureType - 
+                                   Wield 6x Throwing Axe (304) | Probability: 10%
+                                   Wield Nayin (334) | Probability: 10%
+                                   Wield 20x Arrow (300) | Probability: 100%
+                                   Wield Longbow (306) | Probability: 10%
+                                   Wield 20x Arrow (300) | Probability: 100%
+                                   Wield Yumi (363) | Probability: 10%
+                                   Wield Arrow (300) | Probability: 100%
+                                   Wield Heavy Crossbow (311) | Probability: 60%
+                                   Wield 15x Quarrel (305) | Probability: 100%
+                                   Wield Battle Axe (301) | Probability: 14%
+                                   Wield Broad Sword (350) | Probability: 7%
+                                   Wield Kaskara (324) | Probability: 6%
+                                   Wield Ken (327) | Probability: 6%
+                                   Wield Long Sword (351) | Probability: 6%
+                                   Wield Morning Star (332) | Probability: 10%
+                                   Wield Scimitar (339) | Probability: 6%
+                                   Wield Shamshir (340) | Probability: 6%
+                                   Wield Ono (336) | Probability: 13%
+                                   Wield Silifi (344) | Probability: 13%
+                                   Wield Tachi (353) | Probability: 6%
+                                   Wield Takuba (354) | Probability: 6%
+                                   Wield Large Kite Shield (92) | Probability: 10%
+                                   Wield Kite Shield (91) | Probability: 10%
+                                   Wield Large Round Shield (94) | Probability: 20%
+                                   Wield Round Shield (93) | Probability: 20%
+                                   Wield Tower Shield (95) | Probability: 15% */
+     , (2489,  35,        217) /* DeathTreasureType - Loot Tier: 4 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (2489,   1, 100, 0, 0) /* Strength */
@@ -177,4 +203,4 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 268435537 /* Twitch1 */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (2489, 1,  2475,  0, 0, 0, False) /* Create Crude Tumerok Key for Contain */;
+VALUES (2489, 1,  2475,  0, 0, 0, False) /* Create Crude Tumerok Key (2475) for Contain */;

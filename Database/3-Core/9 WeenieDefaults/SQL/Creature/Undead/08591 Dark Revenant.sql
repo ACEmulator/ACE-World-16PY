@@ -13,8 +13,8 @@ VALUES (8591,   1,         16) /* ItemType - Creature */
      , (8591,  40,          1) /* CombatMode - NonCombat */
      , (8591,  67,         64) /* Tolerance */
      , (8591,  68,         13) /* TargetingTactic */
-     , (8591,  93,       1032) /* PhysicsState */
-     , (8591, 101,        183) /* AiAllowedCombatStyle */
+     , (8591,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
+     , (8591, 101,        183) /* AiAllowedCombatStyle - Unarmed, OneHanded, OneHandedAndShield, Bow, Crossbow, ThrownWeapon */
      , (8591, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (8591, 140,          1) /* AiOptions */
      , (8591, 146,      14552) /* XpOverride */;
@@ -72,8 +72,13 @@ VALUES (8591,   1,   33558541) /* Setup */
      , (8591,   7,  268436726) /* ClothingBase */
      , (8591,   8,  100667942) /* Icon */
      , (8591,  22,  872415272) /* PhysicsEffectTable */
-     , (8591,  32,        250) /* WieldedTreasureType */
-     , (8591,  35,        450) /* DeathTreasureType */;
+     , (8591,  32,        250) /* WieldedTreasureType - 
+                                   Wield Katar (23675) | Probability: 25%
+                                   Wield Nekode (23681) | Probability: 25%
+                                   Wield Cestus (23638) | Probability: 25%
+                                   Wield Tachi (23701) | Probability: 25%
+                                   Wield Kite Shield (23685) | Probability: 85% */
+     , (8591,  35,        450) /* DeathTreasureType - Loot Tier: 3 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (8591,   1, 230, 0, 0) /* Strength */
@@ -155,9 +160,9 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 1124073753, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (8591, 9,     0,  0, 0, 0.98, False) /* Create Unknown for ContainTreasure */
-     , (8591, 9,     0,  0, 0, 0.98, False) /* Create Unknown for ContainTreasure */
-     , (8591, 9,     0,  0, 0, 0.99, False) /* Create Unknown for ContainTreasure */
-     , (8591, 9,  5873,  0, 0, 0.01, False) /* Create Seal for ContainTreasure */
-     , (8591, 9,  6876,  0, 0, 0.02, False) /* Create Sturdy Iron Key for ContainTreasure */
-     , (8591, 9,  7045,  0, 0, 0.03, False) /* Create Dark Revenant Thighbone for ContainTreasure */;
+VALUES (8591, 9,     0,  0, 0, 0.98, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 3 for ContainTreasure */
+     , (8591, 9,     0,  0, 0, 0.98, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 3 for ContainTreasure */
+     , (8591, 9,     0,  0, 0, 0.99, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 3 for ContainTreasure */
+     , (8591, 9,  5873,  0, 0, 0.01, False) /* Create Seal (5873) for ContainTreasure */
+     , (8591, 9,  6876,  0, 0, 0.02, False) /* Create Sturdy Iron Key (6876) for ContainTreasure */
+     , (8591, 9,  7045,  0, 0, 0.03, False) /* Create Dark Revenant Thighbone (7045) for ContainTreasure */;

@@ -15,8 +15,8 @@ VALUES (23974,   1,        128) /* ItemType - Misc */
      , (23974,  16,    2097160) /* ItemUseable - SourceContainedTargetRemote */
      , (23974,  19,          0) /* Value */
      , (23974,  33,          1) /* Bonded - Bonded */
-     , (23974,  93,       1044) /* PhysicsState */
-     , (23974,  94,        128) /* TargetType - Misc */
+     , (23974,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (23974,  94,        128) /* TargetType - 128 */
      , (23974, 114,          1) /* Attuned - Attuned */
      , (23974, 150,        103) /* HookPlacement - Hook */
      , (23974, 151,          2) /* HookType - Wall */;

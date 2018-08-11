@@ -9,7 +9,7 @@ VALUES (5010,   1,          8) /* ItemType - Jewelry */
      , (5010,   9,      32768) /* ValidLocations - NeckWear */
      , (5010,  16,          1) /* ItemUseable - No */
      , (5010,  19,         20) /* Value */
-     , (5010,  93,       1044) /* PhysicsState */;
+     , (5010,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (5010,  22, True ) /* Inscribable */;

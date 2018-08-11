@@ -4,8 +4,8 @@ VALUES ('8611', 'portalbaelzharon', 7) /* Portal */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (8611,   1,      65536) /* ItemType - Portal */
      , (8611,  16,         32) /* ItemUseable - Remote */
-     , (8611,  93,       3084) /* PhysicsState */
-     , (8611, 111,         17) /* PortalBitmask */
+     , (8611,  93,       3084) /* PhysicsState - Ethereal, ReportCollisions, Gravity, LightingOn */
+     , (8611, 111,         17) /* PortalBitmask - Unrestricted, NoSummon */
      , (8611, 133,          4) /* ShowableOnRadar - ShowAlways */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)

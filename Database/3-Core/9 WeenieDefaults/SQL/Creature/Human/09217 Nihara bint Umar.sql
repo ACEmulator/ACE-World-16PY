@@ -11,7 +11,7 @@ VALUES (9217,   1,         16) /* ItemType - Creature */
      , (9217,  16,         32) /* ItemUseable - Remote */
      , (9217,  25,          9) /* Level */
      , (9217,  27,          0) /* ArmorType */
-     , (9217,  93,    2098200) /* PhysicsState */
+     , (9217,  93,    2098200) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */
      , (9217, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (9217, 134,         16) /* PlayerKillerStatus - RubberGlue */
      , (9217, 146,        133) /* XpOverride */;
@@ -118,6 +118,6 @@ VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 1090519043 /* Ready */, NULL, NU
      , (@parent_id,  2,  10 /* Tell */, 1, 1, NULL, 'Not a puppet...', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (9217, 2,   117,  0, 4, 0.6, False) /* Create Breeches for Wield */
-     , (9217, 2,   130,  0, 18, 1, False) /* Create Shirt for Wield */
-     , (9217, 2,   133,  0, 16, 1, False) /* Create Slippers for Wield */;
+VALUES (9217, 2,   117,  0, 4, 0.6, False) /* Create Breeches (117) for Wield */
+     , (9217, 2,   130,  0, 18, 1, False) /* Create Shirt (130) for Wield */
+     , (9217, 2,   133,  0, 16, 1, False) /* Create Slippers (133) for Wield */;

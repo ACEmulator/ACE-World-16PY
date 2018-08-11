@@ -10,10 +10,10 @@ VALUES (701,   1,         16) /* ItemType - Creature */
      , (701,  16,         32) /* ItemUseable - Remote */
      , (701,  25,          5) /* Level */
      , (701,  27,          0) /* ArmorType */
-     , (701,  74,     270336) /* MerchandiseItemTypes */
+     , (701,  74,     270336) /* MerchandiseItemTypes - Writable, PromissoryNote */
      , (701,  75,          0) /* MerchandiseMinValue */
      , (701,  76,     100000) /* MerchandiseMaxValue */
-     , (701,  93,    2098200) /* PhysicsState */
+     , (701,  93,    2098200) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */
      , (701, 126,       2000) /* VendorHappyMean */
      , (701, 127,       1000) /* VendorHappyVariance */
      , (701, 133,          4) /* ShowableOnRadar - ShowAlways */
@@ -163,22 +163,22 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 318767235 /* Nod */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (701, 2,   127,  0, 10, 1, False) /* Create Pants for Wield */
-     , (701, 2,   130,  0, 16, 1, False) /* Create Shirt for Wield */
-     , (701, 2,   132,  0, 14, 0.5, False) /* Create Shoes for Wield */
-     , (701, 2,   135,  0, 10, 1, False) /* Create Turban for Wield */
-     , (701, 4,   364, -1, 0, 0, False) /* Create Book for Shop */
-     , (701, 4,   365, -1, 0, 0, False) /* Create Parchment for Shop */
-     , (701, 4,   367, -1, 0, 0, False) /* Create Tome for Shop */
-     , (701, 4,  4170, -1, 0, 0, False) /* Create Bloodshed Rumor for Shop */
-     , (701, 4,  5583, -1, 0, 0, False) /* Create Aluvian Cookbook for Shop */
-     , (701, 4,  5586, -1, 0, 0, False) /* Create Alchemy Guide for Shop */
-     , (701, 4,  5587, -1, 0, 0, False) /* Create Fletching Guide for Shop */
-     , (701, 4,  5601, -1, 0, 0, False) /* Create Altar of Asheron Rumor for Shop */
-     , (701, 4,  5602, -1, 0, 0, False) /* Create The Festival Stones of the Empyrean for Shop */
-     , (701, 4,  5677, -1, 0, 0, False) /* Create The Reclusive Mage for Shop */
-     , (701, 4,  5856, -1, 0, 0, False) /* Create Specialty Cookbook for Shop */
-     , (701, 4,  6419, -1, 0, 0, False) /* Create The Meeting Halls for Shop */
-     , (701, 4,  7884, -1, 0, 0, False) /* Create Chocolate Cookbook for Shop */
-     , (701, 2, 10696,  0, 18, 1, False) /* Create Apron for Wield */
-     , (701, 4, 14797, -1, 0, 0, False) /* Create Festival Cookbook for Shop */;
+VALUES (701, 2,   127,  0, 10, 1, False) /* Create Pants (127) for Wield */
+     , (701, 2,   130,  0, 16, 1, False) /* Create Shirt (130) for Wield */
+     , (701, 2,   132,  0, 14, 0.5, False) /* Create Shoes (132) for Wield */
+     , (701, 2,   135,  0, 10, 1, False) /* Create Turban (135) for Wield */
+     , (701, 4,   364, -1, 0, 0, False) /* Create Book (364) for Shop */
+     , (701, 4,   365, -1, 0, 0, False) /* Create Parchment (365) for Shop */
+     , (701, 4,   367, -1, 0, 0, False) /* Create Tome (367) for Shop */
+     , (701, 4,  4170, -1, 0, 0, False) /* Create Bloodshed Rumor (4170) for Shop */
+     , (701, 4,  5583, -1, 0, 0, False) /* Create Aluvian Cookbook (5583) for Shop */
+     , (701, 4,  5586, -1, 0, 0, False) /* Create Alchemy Guide (5586) for Shop */
+     , (701, 4,  5587, -1, 0, 0, False) /* Create Fletching Guide (5587) for Shop */
+     , (701, 4,  5601, -1, 0, 0, False) /* Create Altar of Asheron Rumor (5601) for Shop */
+     , (701, 4,  5602, -1, 0, 0, False) /* Create The Festival Stones of the Empyrean (5602) for Shop */
+     , (701, 4,  5677, -1, 0, 0, False) /* Create The Reclusive Mage (5677) for Shop */
+     , (701, 4,  5856, -1, 0, 0, False) /* Create Specialty Cookbook (5856) for Shop */
+     , (701, 4,  6419, -1, 0, 0, False) /* Create The Meeting Halls (6419) for Shop */
+     , (701, 4,  7884, -1, 0, 0, False) /* Create Chocolate Cookbook (7884) for Shop */
+     , (701, 2, 10696,  0, 18, 1, False) /* Create Apron (10696) for Wield */
+     , (701, 4, 14797, -1, 0, 0, False) /* Create Festival Cookbook (14797) for Shop */;

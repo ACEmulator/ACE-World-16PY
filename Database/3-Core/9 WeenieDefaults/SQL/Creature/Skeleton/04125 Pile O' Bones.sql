@@ -14,8 +14,8 @@ VALUES (4125,   1,         16) /* ItemType - Creature */
      , (4125,  67,         64) /* Tolerance */
      , (4125,  68,          5) /* TargetingTactic */
      , (4125,  72,         14) /* FriendType - Undead */
-     , (4125,  93,       1032) /* PhysicsState */
-     , (4125, 101,        183) /* AiAllowedCombatStyle */
+     , (4125,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
+     , (4125, 101,        183) /* AiAllowedCombatStyle - Unarmed, OneHanded, OneHandedAndShield, Bow, Crossbow, ThrownWeapon */
      , (4125, 133,          1) /* ShowableOnRadar - ShowNever */
      , (4125, 146,        131) /* XpOverride */;
 
@@ -69,7 +69,31 @@ VALUES (4125,   1,   33554521) /* Setup */
      , (4125,   7,  268435646) /* ClothingBase */
      , (4125,   8,  100669124) /* Icon */
      , (4125,  22,  872415269) /* PhysicsEffectTable */
-     , (4125,  32,        192) /* WieldedTreasureType */
+     , (4125,  32,        192) /* WieldedTreasureType - 
+                                   Wield 6x Throwing Axe (304) | Probability: 10%
+                                   Wield Nayin (334) | Probability: 10%
+                                   Wield 20x Arrow (300) | Probability: 100%
+                                   Wield Longbow (306) | Probability: 10%
+                                   Wield 20x Arrow (300) | Probability: 100%
+                                   Wield Yumi (363) | Probability: 10%
+                                   Wield 14x Arrow (300) | Probability: 100%
+                                   Wield Heavy Crossbow (311) | Probability: 60%
+                                   Wield 15x Quarrel (305) | Probability: 100%
+                                   Wield Battle Axe (301) | Probability: 14%
+                                   Wield Broad Sword (350) | Probability: 7%
+                                   Wield Kaskara (324) | Probability: 6%
+                                   Wield Ken (327) | Probability: 6%
+                                   Wield Long Sword (351) | Probability: 6%
+                                   Wield Morning Star (332) | Probability: 10%
+                                   Wield Scimitar (339) | Probability: 6%
+                                   Wield Shamshir (340) | Probability: 6%
+                                   Wield Ono (336) | Probability: 13%
+                                   Wield Silifi (344) | Probability: 13%
+                                   Wield Tachi (353) | Probability: 6%
+                                   Wield Takuba (354) | Probability: 6%
+                                   Wield Buckler (44) | Probability: 20%
+                                   Wield Kite Shield (91) | Probability: 10%
+                                   Wield Round Shield (93) | Probability: 10% */
      , (4125,  33,        193) /* UnknownGuessedname */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

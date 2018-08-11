@@ -4,7 +4,7 @@ VALUES ('30393', 'girthflameprotection', 2) /* Clothing */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (30393,   1,          2) /* ItemType - Armor */
      , (30393,   3,         14) /* PaletteTemplate - Red */
-     , (30393,   4,       2304) /* ClothingPriority */
+     , (30393,   4,       2304) /* ClothingPriority - OuterwearUpperLegs, OuterwearAbdomen */
      , (30393,   5,        250) /* EncumbranceVal */
      , (30393,   8,         90) /* Mass */
      , (30393,   9,       1024) /* ValidLocations - AbdomenArmor */
@@ -12,7 +12,7 @@ VALUES (30393,   1,          2) /* ItemType - Armor */
      , (30393,  19,       2500) /* Value */
      , (30393,  27,          2) /* ArmorType */
      , (30393,  28,        230) /* ArmorLevel */
-     , (30393,  93,       1044) /* PhysicsState */
+     , (30393,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (30393, 106,        125) /* ItemSpellcraft */
      , (30393, 107,        900) /* ItemCurMana */
      , (30393, 108,        900) /* ItemMaxMana */

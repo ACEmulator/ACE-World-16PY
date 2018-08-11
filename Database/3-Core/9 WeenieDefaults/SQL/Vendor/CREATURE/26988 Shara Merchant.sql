@@ -10,10 +10,10 @@ VALUES (26988,   1,         16) /* ItemType - Creature */
      , (26988,  16,         32) /* ItemUseable - Remote */
      , (26988,  25,         10) /* Level */
      , (26988,  27,          0) /* ArmorType */
-     , (26988,  74,     264192) /* MerchandiseItemTypes */
+     , (26988,  74,     264192) /* MerchandiseItemTypes - Gem, PromissoryNote */
      , (26988,  75,          0) /* MerchandiseMinValue */
      , (26988,  76,    1000000) /* MerchandiseMaxValue */
-     , (26988,  93,    2098204) /* PhysicsState */
+     , (26988,  93,    2098204) /* PhysicsState - Ethereal, ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */
      , (26988, 126,        125) /* VendorHappyMean */
      , (26988, 127,        125) /* VendorHappyVariance */
      , (26988, 133,          4) /* ShowableOnRadar - ShowAlways */
@@ -97,4 +97,4 @@ VALUES (26988,  0,  4,  0,    0,    0,    0,    0,    0,    0,    0,    0,    0,
      , (26988,  8,  4,  2, 0.75,    0,    0,    0,    0,    0,    0,    0,    0,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (26988, 4, 26353, -1, 0, 0, False) /* Create Shara Portal Gem for Shop */;
+VALUES (26988, 4, 26353, -1, 0, 0, False) /* Create Shara Portal Gem (26353) for Shop */;

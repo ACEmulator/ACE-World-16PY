@@ -4,7 +4,7 @@ VALUES ('8457', 'portalmoarsmenhideoutexit', 7) /* Portal */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (8457,   1,      65536) /* ItemType - Portal */
      , (8457,  16,         32) /* ItemUseable - Remote */
-     , (8457,  93,       3084) /* PhysicsState */
+     , (8457,  93,       3084) /* PhysicsState - Ethereal, ReportCollisions, Gravity, LightingOn */
      , (8457, 111,          1) /* PortalBitmask - Unrestricted */
      , (8457, 133,          4) /* ShowableOnRadar - ShowAlways */;
 

@@ -10,7 +10,7 @@ VALUES (6781,   1,         16) /* ItemType - Creature */
      , (6781,  16,         32) /* ItemUseable - Remote */
      , (6781,  25,         15) /* Level */
      , (6781,  27,          0) /* ArmorType */
-     , (6781,  93,    6292504) /* PhysicsState */
+     , (6781,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (6781,  95,          8) /* RadarBlipColor - Yellow */
      , (6781, 133,          1) /* ShowableOnRadar - ShowNever */
      , (6781, 134,         16) /* PlayerKillerStatus - RubberGlue */
@@ -153,4 +153,4 @@ VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 1090519043 /* Ready */, NULL, NU
      , (@parent_id,  3,  10 /* Tell */, 1, 1, NULL, 'I was taken prisoner by a group of Tumeroks and locked in this cell. If you can find my talisman I can use it to portal out of this dungeon. The talisman should be with the rest of my belongings somewhere in this dungeon.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (6781, 2,  5914,  0, 0, 0.5, False) /* Create Suikan Item Master Robe for Wield */;
+VALUES (6781, 2,  5914,  0, 0, 0.5, False) /* Create Suikan Item Master Robe (5914) for Wield */;

@@ -12,8 +12,8 @@ VALUES (8122,   1,         16) /* ItemType - Creature */
      , (8122,  27,          0) /* ArmorType */
      , (8122,  40,          1) /* CombatMode - NonCombat */
      , (8122,  68,          3) /* TargetingTactic */
-     , (8122,  93,       1032) /* PhysicsState */
-     , (8122, 101,        183) /* AiAllowedCombatStyle */
+     , (8122,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
+     , (8122, 101,        183) /* AiAllowedCombatStyle - Unarmed, OneHanded, OneHandedAndShield, Bow, Crossbow, ThrownWeapon */
      , (8122, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (8122, 140,          1) /* AiOptions */
      , (8122, 146,       6500) /* XpOverride */;
@@ -71,7 +71,7 @@ VALUES (8122,   1,   33554839) /* Setup */
      , (8122,   7,  268435558) /* ClothingBase */
      , (8122,   8,  100667942) /* Icon */
      , (8122,  22,  872415272) /* PhysicsEffectTable */
-     , (8122,  35,        451) /* DeathTreasureType */;
+     , (8122,  35,        451) /* DeathTreasureType - Loot Tier: 2 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (8122,   1, 145, 0, 0) /* Strength */
@@ -147,6 +147,6 @@ VALUES (8122,  94) /* ATTACK_NOTIFICATION_EVENT */
      , (8122, 414) /* PLAYER_DEATH_EVENT */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (8122, 9,     0,  0, 0, 0, False) /* Create Unknown for ContainTreasure */
-     , (8122, 10,  7973,  0, 0, 1, False) /* Create Flaming Tachi for WieldTreasure */
-     , (8122, 9,  8087,  0, 0, 1, False) /* Create Urgently Written Note for ContainTreasure */;
+VALUES (8122, 9,     0,  0, 0, 0, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 2 for ContainTreasure */
+     , (8122, 10,  7973,  0, 0, 1, False) /* Create Flaming Tachi (7973) for WieldTreasure */
+     , (8122, 9,  8087,  0, 0, 1, False) /* Create Urgently Written Note (8087) for ContainTreasure */;

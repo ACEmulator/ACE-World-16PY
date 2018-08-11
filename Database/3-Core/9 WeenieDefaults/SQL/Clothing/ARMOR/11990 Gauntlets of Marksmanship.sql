@@ -14,7 +14,7 @@ VALUES (11990,   1,          2) /* ItemType - Armor */
      , (11990,  28,        130) /* ArmorLevel */
      , (11990,  44,          2) /* Damage */
      , (11990,  45,          4) /* DamageType - Bludgeon */
-     , (11990,  93,       1044) /* PhysicsState */
+     , (11990,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (11990, 106,        150) /* ItemSpellcraft */
      , (11990, 107,        350) /* ItemCurMana */
      , (11990, 108,        350) /* ItemMaxMana */

@@ -11,7 +11,7 @@ VALUES (10772,   1,         16) /* ItemType - Creature */
      , (10772,  25,         26) /* Level */
      , (10772,  68,          9) /* TargetingTactic */
      , (10772,  72,         19) /* FriendType - Virindi */
-     , (10772,  93,       1032) /* PhysicsState */
+     , (10772,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (10772, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (10772, 140,          1) /* AiOptions */
      , (10772, 146,       2565) /* XpOverride */;
@@ -68,7 +68,7 @@ VALUES (10772,   1,   33557063) /* Setup */
      , (10772,   8,  100671421) /* Icon */
      , (10772,  22,  872415373) /* PhysicsEffectTable */
      , (10772,  30,         86) /* PhysicsScript - BreatheAcid */
-     , (10772,  35,        465) /* DeathTreasureType */;
+     , (10772,  35,        465) /* DeathTreasureType - Loot Tier: 1 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (10772,   1, 140, 0, 0) /* Strength */

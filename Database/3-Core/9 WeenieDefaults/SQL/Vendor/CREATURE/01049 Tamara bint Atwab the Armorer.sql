@@ -10,10 +10,10 @@ VALUES (1049,   1,         16) /* ItemType - Creature */
      , (1049,  16,         32) /* ItemUseable - Remote */
      , (1049,  25,         17) /* Level */
      , (1049,  27,          0) /* ArmorType */
-     , (1049,  74, 1074005767) /* MerchandiseItemTypes */
+     , (1049,  74, 1074005767) /* MerchandiseItemTypes - Vestements, Weapon, Container, Useless, PromissoryNote, TinkeringMaterial */
      , (1049,  75,          0) /* MerchandiseMinValue */
      , (1049,  76,     100000) /* MerchandiseMaxValue */
-     , (1049,  93,    2098200) /* PhysicsState */
+     , (1049,  93,    2098200) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */
      , (1049, 126,       4000) /* VendorHappyMean */
      , (1049, 127,       2000) /* VendorHappyVariance */
      , (1049, 133,          4) /* ShowableOnRadar - ShowAlways */
@@ -163,43 +163,43 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 318767235 /* Nod */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (1049, 4,    35, -1, 0, 0, False) /* Create Chainmail Basinet for Shop */
-     , (1049, 4,    37, -1, 0, 0, False) /* Create Scalemail Bracers for Shop */
-     , (1049, 4,    41, -1, 0, 0, False) /* Create Scalemail Breastplate for Shop */
-     , (1049, 4,    55, -1, 0, 0, False) /* Create Chainmail Gauntlets for Shop */
-     , (1049, 4,    58, -1, 0, 0, False) /* Create Scalemail Gauntlets for Shop */
-     , (1049, 4,    62, -1, 0, 0, False) /* Create Scalemail Girth for Shop */
-     , (1049, 4,    67, -1, 0, 0, False) /* Create Scalemail Greaves for Shop */
-     , (1049, 4,    80, -1, 0, 0, False) /* Create Chainmail Leggings for Shop */
-     , (1049, 4,    83, -1, 0, 0, False) /* Create Scalemail Leggings for Shop */
-     , (1049, 4,    85, -1, 0, 0, False) /* Create Chainmail Coif for Shop */
-     , (1049, 4,    88, -1, 0, 0, False) /* Create Scalemail Pauldrons for Shop */
-     , (1049, 4,    94, -1, 0, 0, False) /* Create Large Round Shield for Shop */
-     , (1049, 4,    95, -1, 0, 0, False) /* Create Tower Shield for Shop */
-     , (1049, 4,   108, -1, 0, 0, False) /* Create Chainmail Tassets for Shop */
-     , (1049, 4,   111, -1, 0, 0, False) /* Create Scalemail Tassets for Shop */
-     , (1049, 4,   116, -1, 0, 0, False) /* Create Studded Leather Boots for Shop */
-     , (1049, 2,   127,  0, 14, 0.8, False) /* Create Pants for Wield */
-     , (1049, 2,   133,  0, 14, 0.8, False) /* Create Slippers for Wield */
-     , (1049, 2,   134,  0, 9, 0.5, False) /* Create Tunic for Wield */
-     , (1049, 2,   135,  0, 9, 1, False) /* Create Turban for Wield */
-     , (1049, 2,   352,  0, 0, 0, False) /* Create Short Sword for Wield */
-     , (1049, 4,   413, -1, 0, 0, False) /* Create Chainmail Bracers for Shop */
-     , (1049, 4,   414, -1, 0, 0, False) /* Create Chainmail Breastplate for Shop */
-     , (1049, 4,   415, -1, 0, 0, False) /* Create Chainmail Girth for Shop */
-     , (1049, 4,   416, -1, 0, 0, False) /* Create Chainmail Pauldrons for Shop */
-     , (1049, 4,   550, -1, 0, 0, False) /* Create Baigha for Shop */
-     , (1049, 4,   552, -1, 0, 0, False) /* Create Scalemail Basinet for Shop */
-     , (1049, 4,   554, -1, 0, 0, False) /* Create Studded Leather Basinet for Shop */
-     , (1049, 4,  2605, -1, 0, 0, False) /* Create Chainmail Greaves for Shop */
-     , (1049, 4,  2621, -1, 0, 0, False) /* Create Trade Note (100) for Shop */
-     , (1049, 4,  2622, -1, 0, 0, False) /* Create Trade Note (500) for Shop */
-     , (1049, 4,  2623, -1, 0, 0, False) /* Create Trade Note (1,000) for Shop */
-     , (1049, 4,  2624, -1, 0, 0, False) /* Create Trade Note (5,000) for Shop */
-     , (1049, 4,  2625, -1, 0, 0, False) /* Create Trade Note (10,000) for Shop */
-     , (1049, 4,  2626, -1, 0, 0, False) /* Create Trade Note (50,000) for Shop */
-     , (1049, 4,  2627, -1, 0, 0, False) /* Create Trade Note (100,000) for Shop */
-     , (1049, 2, 10696,  0, 4, 0.8, False) /* Create Apron for Wield */
-     , (1049, 4, 20628, -1, 0, 0, False) /* Create Trade Note (150,000) for Shop */
-     , (1049, 4, 20629, -1, 0, 0, False) /* Create Trade Note (200,000) for Shop */
-     , (1049, 4, 20630, -1, 0, 0, False) /* Create Trade Note (250,000) for Shop */;
+VALUES (1049, 4,    35, -1, 0, 0, False) /* Create Chainmail Basinet (35) for Shop */
+     , (1049, 4,    37, -1, 0, 0, False) /* Create Scalemail Bracers (37) for Shop */
+     , (1049, 4,    41, -1, 0, 0, False) /* Create Scalemail Breastplate (41) for Shop */
+     , (1049, 4,    55, -1, 0, 0, False) /* Create Chainmail Gauntlets (55) for Shop */
+     , (1049, 4,    58, -1, 0, 0, False) /* Create Scalemail Gauntlets (58) for Shop */
+     , (1049, 4,    62, -1, 0, 0, False) /* Create Scalemail Girth (62) for Shop */
+     , (1049, 4,    67, -1, 0, 0, False) /* Create Scalemail Greaves (67) for Shop */
+     , (1049, 4,    80, -1, 0, 0, False) /* Create Chainmail Leggings (80) for Shop */
+     , (1049, 4,    83, -1, 0, 0, False) /* Create Scalemail Leggings (83) for Shop */
+     , (1049, 4,    85, -1, 0, 0, False) /* Create Chainmail Coif (85) for Shop */
+     , (1049, 4,    88, -1, 0, 0, False) /* Create Scalemail Pauldrons (88) for Shop */
+     , (1049, 4,    94, -1, 0, 0, False) /* Create Large Round Shield (94) for Shop */
+     , (1049, 4,    95, -1, 0, 0, False) /* Create Tower Shield (95) for Shop */
+     , (1049, 4,   108, -1, 0, 0, False) /* Create Chainmail Tassets (108) for Shop */
+     , (1049, 4,   111, -1, 0, 0, False) /* Create Scalemail Tassets (111) for Shop */
+     , (1049, 4,   116, -1, 0, 0, False) /* Create Studded Leather Boots (116) for Shop */
+     , (1049, 2,   127,  0, 14, 0.8, False) /* Create Pants (127) for Wield */
+     , (1049, 2,   133,  0, 14, 0.8, False) /* Create Slippers (133) for Wield */
+     , (1049, 2,   134,  0, 9, 0.5, False) /* Create Tunic (134) for Wield */
+     , (1049, 2,   135,  0, 9, 1, False) /* Create Turban (135) for Wield */
+     , (1049, 2,   352,  0, 0, 0, False) /* Create Short Sword (352) for Wield */
+     , (1049, 4,   413, -1, 0, 0, False) /* Create Chainmail Bracers (413) for Shop */
+     , (1049, 4,   414, -1, 0, 0, False) /* Create Chainmail Breastplate (414) for Shop */
+     , (1049, 4,   415, -1, 0, 0, False) /* Create Chainmail Girth (415) for Shop */
+     , (1049, 4,   416, -1, 0, 0, False) /* Create Chainmail Pauldrons (416) for Shop */
+     , (1049, 4,   550, -1, 0, 0, False) /* Create Baigha (550) for Shop */
+     , (1049, 4,   552, -1, 0, 0, False) /* Create Scalemail Basinet (552) for Shop */
+     , (1049, 4,   554, -1, 0, 0, False) /* Create Studded Leather Basinet (554) for Shop */
+     , (1049, 4,  2605, -1, 0, 0, False) /* Create Chainmail Greaves (2605) for Shop */
+     , (1049, 4,  2621, -1, 0, 0, False) /* Create Trade Note (100) (2621) for Shop */
+     , (1049, 4,  2622, -1, 0, 0, False) /* Create Trade Note (500) (2622) for Shop */
+     , (1049, 4,  2623, -1, 0, 0, False) /* Create Trade Note (1,000) (2623) for Shop */
+     , (1049, 4,  2624, -1, 0, 0, False) /* Create Trade Note (5,000) (2624) for Shop */
+     , (1049, 4,  2625, -1, 0, 0, False) /* Create Trade Note (10,000) (2625) for Shop */
+     , (1049, 4,  2626, -1, 0, 0, False) /* Create Trade Note (50,000) (2626) for Shop */
+     , (1049, 4,  2627, -1, 0, 0, False) /* Create Trade Note (100,000) (2627) for Shop */
+     , (1049, 2, 10696,  0, 4, 0.8, False) /* Create Apron (10696) for Wield */
+     , (1049, 4, 20628, -1, 0, 0, False) /* Create Trade Note (150,000) (20628) for Shop */
+     , (1049, 4, 20629, -1, 0, 0, False) /* Create Trade Note (200,000) (20629) for Shop */
+     , (1049, 4, 20630, -1, 0, 0, False) /* Create Trade Note (250,000) (20630) for Shop */;

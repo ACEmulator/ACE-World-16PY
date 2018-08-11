@@ -12,8 +12,8 @@ VALUES (5658,   1,         16) /* ItemType - Creature */
      , (5658,  27,          0) /* ArmorType */
      , (5658,  40,          2) /* CombatMode - Melee */
      , (5658,  68,          3) /* TargetingTactic */
-     , (5658,  93,       1032) /* PhysicsState */
-     , (5658, 101,        131) /* AiAllowedCombatStyle */
+     , (5658,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
+     , (5658, 101,        131) /* AiAllowedCombatStyle - Unarmed, OneHanded, ThrownWeapon */
      , (5658, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (5658, 140,          1) /* AiOptions */
      , (5658, 146,        982) /* XpOverride */;
@@ -69,8 +69,21 @@ VALUES (5658,   1,   33558024) /* Setup */
      , (5658,   7,  268436498) /* ClothingBase */
      , (5658,   8,  100667453) /* Icon */
      , (5658,  22,  872415255) /* PhysicsEffectTable */
-     , (5658,  32,         47) /* WieldedTreasureType */
-     , (5658,  35,        453) /* DeathTreasureType */;
+     , (5658,  32,         47) /* WieldedTreasureType - 
+                                   Wield 3x Throwing Axe (304) | Probability: 1%
+                                   Wield 3x Throwing Club (310) | Probability: 1%
+                                   Wield Battle Axe (301) | Probability: 15%
+                                   Wield Club (309) | Probability: 5%
+                                   Wield Dabus (313) | Probability: 10%
+                                   Wield Jo (322) | Probability: 3%
+                                   Wield Kasrullah (325) | Probability: 5%
+                                   Wield Mace (331) | Probability: 10%
+                                   Wield Morning Star (332) | Probability: 15%
+                                   Wield Nabut (333) | Probability: 3%
+                                   Wield Shou-ono (342) | Probability: 10%
+                                   Wield Silifi (344) | Probability: 10%
+                                   Wield Tofun (356) | Probability: 10% */
+     , (5658,  35,        453) /* DeathTreasureType - Loot Tier: 1 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (5658,   1, 100, 0, 0) /* Strength */
@@ -186,8 +199,8 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 268435537 /* Twitch1 */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (5658, 9,     0,  0, 0, 0.96, False) /* Create Unknown for ContainTreasure */
-     , (5658, 9,     0,  0, 0, 0.97, False) /* Create Unknown for ContainTreasure */
-     , (5658, 9,  3693,  0, 0, 0.04, False) /* Create Banderling Scalp for ContainTreasure */
-     , (5658, 9,  5663,  0, 0, 1, False) /* Create Old Key for ContainTreasure */
-     , (5658, 9,  7825,  0, 0, 0.03, False) /* Create Brown Beans for ContainTreasure */;
+VALUES (5658, 9,     0,  0, 0, 0.96, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 1 for ContainTreasure */
+     , (5658, 9,     0,  0, 0, 0.97, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 1 for ContainTreasure */
+     , (5658, 9,  3693,  0, 0, 0.04, False) /* Create Banderling Scalp (3693) for ContainTreasure */
+     , (5658, 9,  5663,  0, 0, 1, False) /* Create Old Key (5663) for ContainTreasure */
+     , (5658, 9,  7825,  0, 0, 0.03, False) /* Create Brown Beans (7825) for ContainTreasure */;

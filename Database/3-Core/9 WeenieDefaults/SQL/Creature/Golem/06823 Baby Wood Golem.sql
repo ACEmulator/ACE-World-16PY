@@ -12,7 +12,7 @@ VALUES (6823,   1,         16) /* ItemType - Creature */
      , (6823,  40,          2) /* CombatMode - Melee */
      , (6823,  67,          1) /* Tolerance */
      , (6823,  68,          3) /* TargetingTactic */
-     , (6823,  93,       1032) /* PhysicsState */
+     , (6823,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (6823, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (6823, 146,    2000000) /* XpOverride */;
 
@@ -64,7 +64,7 @@ VALUES (6823,   1,   33556428) /* Setup */
      , (6823,   4,  805306376) /* CombatTable */
      , (6823,   8,  100667940) /* Icon */
      , (6823,  22,  872415326) /* PhysicsEffectTable */
-     , (6823,  35,         35) /* DeathTreasureType */;
+     , (6823,  35,         35) /* DeathTreasureType - Loot Tier: 5 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (6823,   1,  80, 0, 0) /* Strength */
@@ -193,7 +193,7 @@ VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 1090519043 /* Ready */, NULL, NU
      , (@parent_id,  2,   8 /* Say */, 0, 0, NULL, 'AIEE!! Bright light, bright light!', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (6823, 9,     0,  0, 0, 0.95, False) /* Create Unknown for ContainTreasure */
-     , (6823, 9,     0,  0, 0, 0.95, False) /* Create Unknown for ContainTreasure */
-     , (6823, 9,  3673,  0, 0, 0.05, False) /* Create Wood Heart for ContainTreasure */
-     , (6823, 9,  6353,  0, 0, 0.05, False) /* Create Pyreal Mote for ContainTreasure */;
+VALUES (6823, 9,     0,  0, 0, 0.95, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 5 for ContainTreasure */
+     , (6823, 9,     0,  0, 0, 0.95, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 5 for ContainTreasure */
+     , (6823, 9,  3673,  0, 0, 0.05, False) /* Create Wood Heart (3673) for ContainTreasure */
+     , (6823, 9,  6353,  0, 0, 0.05, False) /* Create Pyreal Mote (6353) for ContainTreasure */;

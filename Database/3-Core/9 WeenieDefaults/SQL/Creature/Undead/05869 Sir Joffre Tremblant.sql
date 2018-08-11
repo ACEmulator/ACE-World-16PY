@@ -12,8 +12,8 @@ VALUES (5869,   1,         16) /* ItemType - Creature */
      , (5869,  27,          0) /* ArmorType */
      , (5869,  40,          1) /* CombatMode - NonCombat */
      , (5869,  68,          3) /* TargetingTactic */
-     , (5869,  93,       1032) /* PhysicsState */
-     , (5869, 101,        183) /* AiAllowedCombatStyle */
+     , (5869,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
+     , (5869, 101,        183) /* AiAllowedCombatStyle - Unarmed, OneHanded, OneHandedAndShield, Bow, Crossbow, ThrownWeapon */
      , (5869, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (5869, 140,          1) /* AiOptions */
      , (5869, 146,       5673) /* XpOverride */;
@@ -69,7 +69,7 @@ VALUES (5869,   1,   33554839) /* Setup */
      , (5869,   7,  268435558) /* ClothingBase */
      , (5869,   8,  100667942) /* Icon */
      , (5869,  22,  872415272) /* PhysicsEffectTable */
-     , (5869,  35,        240) /* DeathTreasureType */;
+     , (5869,  35,        240) /* DeathTreasureType - Loot Tier: 4 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (5869,   1, 175, 0, 0) /* Strength */
@@ -181,5 +181,5 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 318767237 /* ShakeHead */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (5869, 8,  5880,  0, 0, 1, False) /* Create An Old Book for Treasure */
-     , (5869, 2,  5943,  0, 61, 1, False) /* Create Tremblant's Ivory Staff for Wield */;
+VALUES (5869, 8,  5880,  0, 0, 1, False) /* Create An Old Book (5880) for Treasure */
+     , (5869, 2,  5943,  0, 61, 1, False) /* Create Tremblant's Ivory Staff (5943) for Wield */;

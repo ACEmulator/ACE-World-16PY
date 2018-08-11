@@ -12,8 +12,8 @@ VALUES (8563,   1,         16) /* ItemType - Creature */
      , (8563,  27,          0) /* ArmorType */
      , (8563,  40,          1) /* CombatMode - NonCombat */
      , (8563,  68,          3) /* TargetingTactic */
-     , (8563,  93,       1032) /* PhysicsState */
-     , (8563, 101,        183) /* AiAllowedCombatStyle */
+     , (8563,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
+     , (8563, 101,        183) /* AiAllowedCombatStyle - Unarmed, OneHanded, OneHandedAndShield, Bow, Crossbow, ThrownWeapon */
      , (8563, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (8563, 140,          1) /* AiOptions */
      , (8563, 146,       1989) /* XpOverride */;
@@ -73,8 +73,10 @@ VALUES (8563,   1,   33554839) /* Setup */
      , (8563,   7,  268435558) /* ClothingBase */
      , (8563,   8,  100667942) /* Icon */
      , (8563,  22,  872415272) /* PhysicsEffectTable */
-     , (8563,  32,        336) /* WieldedTreasureType */
-     , (8563,  35,        453) /* DeathTreasureType */;
+     , (8563,  32,        336) /* WieldedTreasureType - 
+                                   Wield Dericostian Longbow (8560) | Probability: 100%
+                                   Wield 20x Arrow (300) | Probability: 100% */
+     , (8563,  35,        453) /* DeathTreasureType - Loot Tier: 1 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (8563,   1, 120, 0, 0) /* Strength */
@@ -190,4 +192,4 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,  17 /* LocalBroadcast */, 0, 0, NULL, 'As the undead archer falls to the floor of its Skytower, it groans the name of Asmolum.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (8563, 2,  8560,  0, 0, 0, False) /* Create Dericostian Longbow for Wield */;
+VALUES (8563, 2,  8560,  0, 0, 0, False) /* Create Dericostian Longbow (8560) for Wield */;

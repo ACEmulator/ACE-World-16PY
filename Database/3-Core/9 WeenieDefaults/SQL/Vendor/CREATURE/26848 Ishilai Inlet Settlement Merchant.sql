@@ -10,10 +10,10 @@ VALUES (26848,   1,         16) /* ItemType - Creature */
      , (26848,  16,         32) /* ItemUseable - Remote */
      , (26848,  25,         10) /* Level */
      , (26848,  27,          0) /* ArmorType */
-     , (26848,  74,     264192) /* MerchandiseItemTypes */
+     , (26848,  74,     264192) /* MerchandiseItemTypes - Gem, PromissoryNote */
      , (26848,  75,          0) /* MerchandiseMinValue */
      , (26848,  76,    1000000) /* MerchandiseMaxValue */
-     , (26848,  93,    2098204) /* PhysicsState */
+     , (26848,  93,    2098204) /* PhysicsState - Ethereal, ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */
      , (26848, 126,        125) /* VendorHappyMean */
      , (26848, 127,        125) /* VendorHappyVariance */
      , (26848, 133,          4) /* ShowableOnRadar - ShowAlways */
@@ -97,4 +97,4 @@ VALUES (26848,  0,  4,  0,    0,    0,    0,    0,    0,    0,    0,    0,    0,
      , (26848,  8,  4,  2, 0.75,    0,    0,    0,    0,    0,    0,    0,    0,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (26848, 4, 26213, -1, 0, 0, False) /* Create Ishilai Inlet Settlement Portal Gem for Shop */;
+VALUES (26848, 4, 26213, -1, 0, 0, False) /* Create Ishilai Inlet Settlement Portal Gem (26213) for Shop */;

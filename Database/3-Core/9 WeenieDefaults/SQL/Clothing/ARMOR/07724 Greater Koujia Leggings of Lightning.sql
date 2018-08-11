@@ -4,17 +4,17 @@ VALUES ('7724', 'leggingskoujiashadowgreaternewlightning', 2) /* Clothing */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (7724,   1,          2) /* ItemType - Armor */
      , (7724,   3,         13) /* PaletteTemplate - Purple */
-     , (7724,   4,       2816) /* ClothingPriority */
+     , (7724,   4,       2816) /* ClothingPriority - OuterwearUpperLegs, OuterwearLowerLegs, OuterwearAbdomen */
      , (7724,   5,       2200) /* EncumbranceVal */
      , (7724,   8,       1350) /* Mass */
-     , (7724,   9,      25600) /* ValidLocations */
+     , (7724,   9,      25600) /* ValidLocations - AbdomenArmor, UpperLegArmor, LowerLegArmor */
      , (7724,  16,          1) /* ItemUseable - No */
      , (7724,  19,       3240) /* Value */
      , (7724,  27,         32) /* ArmorType */
      , (7724,  28,        175) /* ArmorLevel */
      , (7724,  33,          1) /* Bonded - Bonded */
      , (7724,  36,       9999) /* ResistMagic */
-     , (7724,  93,       1044) /* PhysicsState */
+     , (7724,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (7724, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)

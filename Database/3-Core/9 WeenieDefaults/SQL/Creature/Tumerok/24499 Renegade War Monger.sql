@@ -12,8 +12,8 @@ VALUES (24499,   1,         16) /* ItemType - Creature */
      , (24499,  27,          0) /* ArmorType */
      , (24499,  68,          5) /* TargetingTactic */
      , (24499,  72,         70) /* FriendType - GotrokLugian */
-     , (24499,  93,       1032) /* PhysicsState */
-     , (24499, 101,        183) /* AiAllowedCombatStyle */
+     , (24499,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
+     , (24499, 101,        183) /* AiAllowedCombatStyle - Unarmed, OneHanded, OneHandedAndShield, Bow, Crossbow, ThrownWeapon */
      , (24499, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (24499, 140,          1) /* AiOptions */
      , (24499, 146,      66560) /* XpOverride */;
@@ -72,8 +72,16 @@ VALUES (24499,   1,   33554496) /* Setup */
      , (24499,   7,  268436631) /* ClothingBase */
      , (24499,   8,  100667452) /* Icon */
      , (24499,  22,  872415270) /* PhysicsEffectTable */
-     , (24499,  32,        202) /* WieldedTreasureType */
-     , (24499,  35,        452) /* DeathTreasureType */;
+     , (24499,  32,        202) /* WieldedTreasureType - 
+                                   Wield Yumi (23734) | Probability: 25%
+                                   Wield 20x Deadly Armor Piercing Arrow (15431) | Probability: 100%
+                                   Wield Yumi (23734) | Probability: 25%
+                                   Wield 17x Deadly Arrow (15429) | Probability: 100%
+                                   Wield Heavy Crossbow (23665) | Probability: 25%
+                                   Wield 20x Deadly Quarrel (15438) | Probability: 100%
+                                   Wield Heavy Crossbow (23665) | Probability: 25%
+                                   Wield 16x Deadly Armor Piercing Quarrel (15440) | Probability: 100% */
+     , (24499,  35,        452) /* DeathTreasureType - Loot Tier: 5 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (24499,   1, 320, 0, 0) /* Strength */
@@ -172,5 +180,5 @@ VALUES (@parent_id,  0,  22 /* StampQuest */, 0, 1, NULL, 'RenegadeRanForward', 
      , (@parent_id,  2,  57 /* ResetHomePosition */, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (24499, 9,     0,  0, 0, 0.95, False) /* Create Unknown for ContainTreasure */
-     , (24499, 9,  6876,  0, 0, 0.05, False) /* Create Sturdy Iron Key for ContainTreasure */;
+VALUES (24499, 9,     0,  0, 0, 0.95, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 5 for ContainTreasure */
+     , (24499, 9,  6876,  0, 0, 0.05, False) /* Create Sturdy Iron Key (6876) for ContainTreasure */;

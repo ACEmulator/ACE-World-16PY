@@ -4,7 +4,7 @@ VALUES ('5501', 'portalsmugglershideaway', 7) /* Portal */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (5501,   1,      65536) /* ItemType - Portal */
      , (5501,  16,         32) /* ItemUseable - Remote */
-     , (5501,  93,       3084) /* PhysicsState */
+     , (5501,  93,       3084) /* PhysicsState - Ethereal, ReportCollisions, Gravity, LightingOn */
      , (5501, 111,          1) /* PortalBitmask - Unrestricted */
      , (5501, 133,          4) /* ShowableOnRadar - ShowAlways */;
 

@@ -10,10 +10,10 @@ VALUES (27016,   1,         16) /* ItemType - Creature */
      , (27016,  16,         32) /* ItemUseable - Remote */
      , (27016,  25,         10) /* Level */
      , (27016,  27,          0) /* ArmorType */
-     , (27016,  74,     264192) /* MerchandiseItemTypes */
+     , (27016,  74,     264192) /* MerchandiseItemTypes - Gem, PromissoryNote */
      , (27016,  75,          0) /* MerchandiseMinValue */
      , (27016,  76,    1000000) /* MerchandiseMaxValue */
-     , (27016,  93,    2098204) /* PhysicsState */
+     , (27016,  93,    2098204) /* PhysicsState - Ethereal, ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */
      , (27016, 126,        125) /* VendorHappyMean */
      , (27016, 127,        125) /* VendorHappyVariance */
      , (27016, 133,          4) /* ShowableOnRadar - ShowAlways */
@@ -97,4 +97,4 @@ VALUES (27016,  0,  4,  0,    0,    0,    0,    0,    0,    0,    0,    0,    0,
      , (27016,  8,  4,  2, 0.75,    0,    0,    0,    0,    0,    0,    0,    0,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (27016, 4, 26381, -1, 0, 0, False) /* Create South Shoushi Villas Portal Gem for Shop */;
+VALUES (27016, 4, 26381, -1, 0, 0, False) /* Create South Shoushi Villas Portal Gem (26381) for Shop */;

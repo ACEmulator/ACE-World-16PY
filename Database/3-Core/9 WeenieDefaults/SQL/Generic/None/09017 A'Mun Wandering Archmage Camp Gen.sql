@@ -4,7 +4,7 @@ VALUES ('9017', 'amunvendorgen', 1) /* Generic */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (9017,  81,          6) /* MaxGeneratedObjects */
      , (9017,  82,          6) /* InitGeneratedObjects */
-     , (9017,  93,       1044) /* PhysicsState */;
+     , (9017,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (9017,   1, True ) /* Stuck */
@@ -23,9 +23,9 @@ VALUES (9017,   1,   33555051) /* Setup */
      , (9017,   8,  100667494) /* Icon */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (9017, -1, 9024, 1800, 1, 1, 1, 4, -1, 0, 0, 0, 1, 0, 1, 1, 0, 0, 0)
-     , (9017, -1, 4179, 1800, 1, 1, 1, 4, -1, 0, 0, 0, 1, 0, 0, 1, 0, 0, 0)
-     , (9017, -1, 9019, 1800, 1, 1, 1, 4, -1, 0, 0, 0, 1, 1, 0, 0.6427876, 0, 0, -0.7660444)
-     , (9017, -1, 9061, 1800, 1, 1, 1, 4, -1, 0, 0, 0, 1.4, -2.4, 0, 0.9659258, 0, 0, -0.258819)
-     , (9017, -1, 9016, 1800, 1, 1, 1, 4, -1, 0, 0, 0, 2.4, 2.4, 0, 0.4226182, 0, 0, -0.9063078)
-     , (9017, -1, 9018, 1800, 1, 1, 1, 4, -1, 0, 0, 0, 2, 1, 0, 1, 0, 0, 0);
+VALUES (9017, -1, 9024, 1800, 1, 1, 1, 4, -1, 0, 0, 0, 1, 0, 1, 1, 0, 0, 0) /* Generate Cooking Gear (9024) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
+     , (9017, -1, 4179, 1800, 1, 1, 1, 4, -1, 0, 0, 0, 1, 0, 0, 1, 0, 0, 0) /* Generate Bonfire (4179) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
+     , (9017, -1, 9019, 1800, 1, 1, 1, 4, -1, 0, 0, 0, 1, 1, 0, 0.6427876, 0, 0, -0.7660444) /* Generate Wandering Vendor Backback (9019) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
+     , (9017, -1, 9061, 1800, 1, 1, 1, 4, -1, 0, 0, 0, 1.4, -2.4, 0, 0.9659258, 0, 0, -0.258819) /* Generate Hasina's Mortar and Pestle (9061) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
+     , (9017, -1, 9016, 1800, 1, 1, 1, 4, -1, 0, 0, 0, 2.4, 2.4, 0, 0.4226182, 0, 0, -0.9063078) /* Generate Hasina's Alembic (9016) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
+     , (9017, -1, 9018, 1800, 1, 1, 1, 4, -1, 0, 0, 0, 2, 1, 0, 1, 0, 0, 0) /* Generate Hasina bint Rira (9018) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */;

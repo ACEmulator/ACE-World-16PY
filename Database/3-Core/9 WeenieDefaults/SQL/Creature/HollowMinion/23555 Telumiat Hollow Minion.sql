@@ -12,7 +12,7 @@ VALUES (23555,   1,         16) /* ItemType - Creature */
      , (23555,  27,          0) /* ArmorType */
      , (23555,  68,          3) /* TargetingTactic */
      , (23555,  72,         19) /* FriendType - Virindi */
-     , (23555,  93,       1032) /* PhysicsState */
+     , (23555,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (23555, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (23555, 140,          1) /* AiOptions */
      , (23555, 146,      61933) /* XpOverride */;
@@ -69,7 +69,7 @@ VALUES (23555,   1,   33556792) /* Setup */
      , (23555,   7,  268436617) /* ClothingBase */
      , (23555,   8,  100671140) /* Icon */
      , (23555,  22,  872415367) /* PhysicsEffectTable */
-     , (23555,  35,        464) /* DeathTreasureType */;
+     , (23555,  35,        464) /* DeathTreasureType - Loot Tier: 5 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (23555,   1, 300, 0, 0) /* Strength */
@@ -123,9 +123,9 @@ VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 1090519043 /* Ready */, NULL, NU
      , (@parent_id,  1,   5 /* Motion */, 0, 1, 1090519060 /* Sleeping */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (23555, 9,     0,  0, 0, 0.92, False) /* Create Unknown for ContainTreasure */
-     , (23555, 9,     0,  0, 0, 0.97, False) /* Create Unknown for ContainTreasure */
-     , (23555, 9,     0,  0, 0, 0.95, False) /* Create Unknown for ContainTreasure */
-     , (23555, 9,  9292,  0, 0, 0.08, False) /* Create Virindi Singularity Key for ContainTreasure */
-     , (23555, 9, 24842,  0, 0, 0.03, False) /* Create Telumiat Hollow Minion Essence for ContainTreasure */
-     , (23555, 9, 25559,  0, 0, 0.05, False) /* Create Hollow Minion's Face for ContainTreasure */;
+VALUES (23555, 9,     0,  0, 0, 0.92, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 5 for ContainTreasure */
+     , (23555, 9,     0,  0, 0, 0.97, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 5 for ContainTreasure */
+     , (23555, 9,     0,  0, 0, 0.95, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 5 for ContainTreasure */
+     , (23555, 9,  9292,  0, 0, 0.08, False) /* Create Virindi Singularity Key (9292) for ContainTreasure */
+     , (23555, 9, 24842,  0, 0, 0.03, False) /* Create Telumiat Hollow Minion Essence (24842) for ContainTreasure */
+     , (23555, 9, 25559,  0, 0, 0.05, False) /* Create Hollow Minion's Face (25559) for ContainTreasure */;

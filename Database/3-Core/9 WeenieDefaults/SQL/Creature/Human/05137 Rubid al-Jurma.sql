@@ -10,7 +10,7 @@ VALUES (5137,   1,         16) /* ItemType - Creature */
      , (5137,  16,         32) /* ItemUseable - Remote */
      , (5137,  25,          4) /* Level */
      , (5137,  27,          0) /* ArmorType */
-     , (5137,  93,    6292504) /* PhysicsState */
+     , (5137,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (5137,  95,          8) /* RadarBlipColor - Yellow */
      , (5137, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (5137, 134,         16) /* PlayerKillerStatus - RubberGlue */
@@ -450,5 +450,5 @@ VALUES (@parent_id,  0,  12 /* TurnToTarget */, 0, 1, NULL, NULL, NULL, NULL, NU
      , (@parent_id,  1,  10 /* Tell */, 1, 1, NULL, 'You will get nothing from me for this. Go explore and find more towns.  The Society Agents in the Sho towns will exchange a piece of jewelry or a wand for this. If you take this to one of the Aluvian towns, you will receive a piece of armor.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (5137, 2, 12309,  0, 0, 0, False) /* Create Society Explorer Hat for Wield */
-     , (5137, 2, 12310,  0, 0, 0, False) /* Create Explorer Society Robe for Wield */;
+VALUES (5137, 2, 12309,  0, 0, 0, False) /* Create Society Explorer Hat (12309) for Wield */
+     , (5137, 2, 12310,  0, 0, 0, False) /* Create Explorer Society Robe (12310) for Wield */;

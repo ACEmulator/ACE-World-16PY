@@ -14,8 +14,8 @@ VALUES (6329,   1,        128) /* ItemType - Misc */
      , (6329,  15,        500) /* StackUnitValue */
      , (6329,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
      , (6329,  19,        500) /* Value */
-     , (6329,  93,       1044) /* PhysicsState */
-     , (6329,  94,        128) /* TargetType - Misc */
+     , (6329,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (6329,  94,        128) /* TargetType - 128 */
      , (6329, 150,        103) /* HookPlacement - Hook */
      , (6329, 151,          2) /* HookType - Wall */;
 

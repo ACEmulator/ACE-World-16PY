@@ -9,7 +9,7 @@ VALUES (22635,   1,       8192) /* ItemType - Writable */
      , (22635,  16,         48) /* ItemUseable - ViewedRemote */
      , (22635,  19,       5000) /* Value */
      , (22635,  33,          1) /* Bonded - Bonded */
-     , (22635,  93,       1052) /* PhysicsState */
+     , (22635,  93,       1052) /* PhysicsState - Ethereal, ReportCollisions, IgnoreCollisions, Gravity */
      , (22635, 150,        103) /* HookPlacement - Hook */
      , (22635, 151,          2) /* HookType - Wall */;
 

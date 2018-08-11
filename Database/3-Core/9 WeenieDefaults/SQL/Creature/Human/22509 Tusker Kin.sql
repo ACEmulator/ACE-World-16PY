@@ -12,8 +12,8 @@ VALUES (22509,   1,         16) /* ItemType - Creature */
      , (22509,  27,          0) /* ArmorType */
      , (22509,  68,         13) /* TargetingTactic */
      , (22509,  72,          8) /* FriendType - Tusker */
-     , (22509,  93,       1032) /* PhysicsState */
-     , (22509, 101,        131) /* AiAllowedCombatStyle */
+     , (22509,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
+     , (22509, 101,        131) /* AiAllowedCombatStyle - Unarmed, OneHanded, ThrownWeapon */
      , (22509, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (22509, 146,        294) /* XpOverride */;
 
@@ -65,8 +65,18 @@ VALUES (22509,   1,   33554510) /* Setup */
      , (22509,   4,  805306368) /* CombatTable */
      , (22509,   8,  100667446) /* Icon */
      , (22509,  22,  872415236) /* PhysicsEffectTable */
-     , (22509,  32,        415) /* WieldedTreasureType */
-     , (22509,  35,        453) /* DeathTreasureType */;
+     , (22509,  32,        415) /* WieldedTreasureType - 
+                                   Wield Towel (10757) | Palette: Blue (2) | Probability: 50%
+                                   Wield Towel (10757) | Palette: Green (8) | Probability: 50%
+                                   Wield Bandit Dagger (12052) | Probability: 12.5%
+                                   Wield Bandit Jambiya (12057) | Probability: 12.5%
+                                   Wield Bandit Khanjar (12062) | Probability: 12.5%
+                                   Wield Bandit Knife (12067) | Probability: 12.5%
+                                   Wield Bandit Simi (12072) | Probability: 12.5%
+                                   Wield Bandit Rapier (12076) | Probability: 2.77%
+                                   Wield Bandit Short Sword (12078) | Probability: 12.5%
+                                   Wield Bandit Yaoji (12083) | Probability: 12.5% */
+     , (22509,  35,        453) /* DeathTreasureType - Loot Tier: 1 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (22509,   1,  90, 0, 0) /* Strength */

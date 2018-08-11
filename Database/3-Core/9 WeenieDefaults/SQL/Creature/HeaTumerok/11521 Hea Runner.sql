@@ -11,8 +11,8 @@ VALUES (11521,   1,         16) /* ItemType - Creature */
      , (11521,  25,         11) /* Level */
      , (11521,  27,          0) /* ArmorType */
      , (11521,  68,          5) /* TargetingTactic */
-     , (11521,  93,       1032) /* PhysicsState */
-     , (11521, 101,        183) /* AiAllowedCombatStyle */
+     , (11521,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
+     , (11521, 101,        183) /* AiAllowedCombatStyle - Unarmed, OneHanded, OneHandedAndShield, Bow, Crossbow, ThrownWeapon */
      , (11521, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (11521, 140,          1) /* AiOptions */
      , (11521, 146,        514) /* XpOverride */;
@@ -68,8 +68,20 @@ VALUES (11521,   1,   33554496) /* Setup */
      , (11521,   7,  268436629) /* ClothingBase */
      , (11521,   8,  100667452) /* Icon */
      , (11521,  22,  872415270) /* PhysicsEffectTable */
-     , (11521,  32,        388) /* WieldedTreasureType */
-     , (11521,  35,        453) /* DeathTreasureType */;
+     , (11521,  32,        388) /* WieldedTreasureType - 
+                                   Wield Blade of the Quiddity (11915) | Probability: 25%
+                                   Wield Lance of the Quiddity (11912) | Probability: 25%
+                                   Wield Mace of the Quiddity (11906) | Probability: 25%
+                                   Wield Kaskara (324) | Probability: 3%
+                                   Wield Long Sword (351) | Probability: 3%
+                                   Wield Silifi (344) | Probability: 3%
+                                   Wield Tachi (353) | Probability: 2%
+                                   Wield War Hammer (359) | Probability: 2%
+                                   Wield 5x Javelin (320) | Probability: 3%
+                                   Wield 5x Djarid (317) | Probability: 3%
+                                   Wield 4x Throwing Club (310) | Probability: 3%
+                                   Wield 6x Throwing Axe (304) | Probability: 3% */
+     , (11521,  35,        453) /* DeathTreasureType - Loot Tier: 1 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (11521,   1,  60, 0, 0) /* Strength */
@@ -115,5 +127,5 @@ VALUES (11521,  94) /* ATTACK_NOTIFICATION_EVENT */
      , (11521, 414) /* PLAYER_DEATH_EVENT */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (11521, 9,     0,  0, 0, 0.97, False) /* Create Unknown for ContainTreasure */
-     , (11521, 9,  7825,  0, 0, 0.03, False) /* Create Brown Beans for ContainTreasure */;
+VALUES (11521, 9,     0,  0, 0, 0.97, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 1 for ContainTreasure */
+     , (11521, 9,  7825,  0, 0, 0.03, False) /* Create Brown Beans (7825) for ContainTreasure */;

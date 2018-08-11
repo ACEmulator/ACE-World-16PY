@@ -7,7 +7,7 @@ VALUES (11638,   1,       8192) /* ItemType - Writable */
      , (11638,   8,       5800) /* Mass */
      , (11638,  16,          1) /* ItemUseable - No */
      , (11638,  19,          0) /* Value */
-     , (11638,  93,       1048) /* PhysicsState */
+     , (11638,  93,       1048) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity */
      , (11638,  95,          8) /* RadarBlipColor - Yellow */
      , (11638, 133,          4) /* ShowableOnRadar - ShowAlways */;
 

@@ -13,8 +13,8 @@ VALUES (19439,   1,         16) /* ItemType - Creature */
      , (19439,  68,          9) /* TargetingTactic */
      , (19439,  81,          3) /* MaxGeneratedObjects */
      , (19439,  82,          3) /* InitGeneratedObjects */
-     , (19439,  93,       1032) /* PhysicsState */
-     , (19439, 101,        131) /* AiAllowedCombatStyle */
+     , (19439,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
+     , (19439, 101,        131) /* AiAllowedCombatStyle - Unarmed, OneHanded, ThrownWeapon */
      , (19439, 103,          1) /* GeneratorDestructionType - Nothing */
      , (19439, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (19439, 140,          1) /* AiOptions */
@@ -70,7 +70,7 @@ VALUES (19439,   1,   33556773) /* Setup */
      , (19439,   4,  805306409) /* CombatTable */
      , (19439,   8,  100670959) /* Icon */
      , (19439,  22,  872415366) /* PhysicsEffectTable */
-     , (19439,  35,        457) /* DeathTreasureType */;
+     , (19439,  35,        457) /* DeathTreasureType - Loot Tier: 2 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (19439,   1, 230, 0, 0) /* Strength */
@@ -134,5 +134,5 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 268435537 /* Twitch1 */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (19439, 9,     0,  0, 0, 0.97, False) /* Create Unknown for ContainTreasure */
-     , (19439, 9, 19475,  0, 0, 0.03, False) /* Create Large Ursuin Hide with head for ContainTreasure */;
+VALUES (19439, 9,     0,  0, 0, 0.97, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 2 for ContainTreasure */
+     , (19439, 9, 19475,  0, 0, 0.03, False) /* Create Large Ursuin Hide with head (19475) for ContainTreasure */;

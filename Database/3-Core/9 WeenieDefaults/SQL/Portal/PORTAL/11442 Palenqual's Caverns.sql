@@ -4,8 +4,8 @@ VALUES ('11442', 'portalpalenquall-xp', 7) /* Portal */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (11442,   1,      65536) /* ItemType - Portal */
      , (11442,  16,         32) /* ItemUseable - Remote */
-     , (11442,  93,       3084) /* PhysicsState */
-     , (11442, 111,         49) /* PortalBitmask */
+     , (11442,  93,       3084) /* PhysicsState - Ethereal, ReportCollisions, Gravity, LightingOn */
+     , (11442, 111,         49) /* PortalBitmask - Unrestricted, NoSummon, NoRecall */
      , (11442, 133,          4) /* ShowableOnRadar - ShowAlways */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)

@@ -4,7 +4,7 @@ VALUES ('11954', 'portalgreenspire-xp', 7) /* Portal */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (11954,   1,      65536) /* ItemType - Portal */
      , (11954,  16,         32) /* ItemUseable - Remote */
-     , (11954,  93,       3084) /* PhysicsState */
+     , (11954,  93,       3084) /* PhysicsState - Ethereal, ReportCollisions, Gravity, LightingOn */
      , (11954, 111,          1) /* PortalBitmask - Unrestricted */
      , (11954, 133,          4) /* ShowableOnRadar - ShowAlways */;
 

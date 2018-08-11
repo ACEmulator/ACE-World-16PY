@@ -10,10 +10,10 @@ VALUES (26922,   1,         16) /* ItemType - Creature */
      , (26922,  16,         32) /* ItemUseable - Remote */
      , (26922,  25,         10) /* Level */
      , (26922,  27,          0) /* ArmorType */
-     , (26922,  74,     264192) /* MerchandiseItemTypes */
+     , (26922,  74,     264192) /* MerchandiseItemTypes - Gem, PromissoryNote */
      , (26922,  75,          0) /* MerchandiseMinValue */
      , (26922,  76,    1000000) /* MerchandiseMaxValue */
-     , (26922,  93,    2098204) /* PhysicsState */
+     , (26922,  93,    2098204) /* PhysicsState - Ethereal, ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */
      , (26922, 126,        125) /* VendorHappyMean */
      , (26922, 127,        125) /* VendorHappyVariance */
      , (26922, 133,          4) /* ShowableOnRadar - ShowAlways */
@@ -97,4 +97,4 @@ VALUES (26922,  0,  4,  0,    0,    0,    0,    0,    0,    0,    0,    0,    0,
      , (26922,  8,  4,  2, 0.75,    0,    0,    0,    0,    0,    0,    0,    0,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (26922, 4, 26287, -1, 0, 0, False) /* Create New Colier Portal Gem for Shop */;
+VALUES (26922, 4, 26287, -1, 0, 0, False) /* Create New Colier Portal Gem (26287) for Shop */;

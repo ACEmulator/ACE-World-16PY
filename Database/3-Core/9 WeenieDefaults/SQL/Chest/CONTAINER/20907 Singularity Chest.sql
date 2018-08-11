@@ -15,7 +15,7 @@ VALUES (20907,   1,        512) /* ItemType - Container */
      , (20907,  81,         20) /* MaxGeneratedObjects */
      , (20907,  82,         20) /* InitGeneratedObjects */
      , (20907,  83,          2) /* ActivationResponse - Use */
-     , (20907,  93,       1048) /* PhysicsState */
+     , (20907,  93,       1048) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity */
      , (20907,  96,        500) /* EncumbranceCapacity */
      , (20907, 100,          1) /* GeneratorType - Relative */;
 
@@ -50,4 +50,4 @@ VALUES (20907,   1,   33557001) /* Setup */
      , (20907,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (20907, -1, 20909, 59, 20, 20, 2, 8, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0);
+VALUES (20907, -1, 20909, 59, 20, 20, 2, 8, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Unfashioned Prismatic Stone (20909) (x20 up to max of 20) - Regenerate upon PickUp - Location to (re)Generate: Contain */;

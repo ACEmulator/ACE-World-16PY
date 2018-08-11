@@ -13,7 +13,7 @@ VALUES (11478,   1,         16) /* ItemType - Creature */
      , (11478,  40,          2) /* CombatMode - Melee */
      , (11478,  68,         13) /* TargetingTactic */
      , (11478,  72,         35) /* FriendType - OlthoiLarvae */
-     , (11478,  93,       1032) /* PhysicsState */
+     , (11478,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (11478, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (11478, 140,          1) /* AiOptions */
      , (11478, 146,      21594) /* XpOverride */;
@@ -67,7 +67,7 @@ VALUES (11478,   1,   33557046) /* Setup */
      , (11478,   8,  100667623) /* Icon */
      , (11478,  22,  872415378) /* PhysicsEffectTable */
      , (11478,  30,         85) /* PhysicsScript - BreatheFrost */
-     , (11478,  35,        450) /* DeathTreasureType */;
+     , (11478,  35,        450) /* DeathTreasureType - Loot Tier: 3 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (11478,   1, 350, 0, 0) /* Strength */
@@ -120,9 +120,9 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 268435537 /* Twitch1 */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (11478, 9,     0,  0, 0, 0.97, False) /* Create Unknown for ContainTreasure */
-     , (11478, 9,     0,  0, 0, 0.97, False) /* Create Unknown for ContainTreasure */
-     , (11478, 9,     0,  0, 0, 0.98, False) /* Create Unknown for ContainTreasure */
-     , (11478, 9,  6876,  0, 0, 0.03, False) /* Create Sturdy Iron Key for ContainTreasure */
-     , (11478, 9, 10864,  0, 0, 0.03, False) /* Create Olthoi Ichor for ContainTreasure */
-     , (11478, 9, 22059,  0, 0, 0.02, False) /* Create Eviscerator Head for ContainTreasure */;
+VALUES (11478, 9,     0,  0, 0, 0.97, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 3 for ContainTreasure */
+     , (11478, 9,     0,  0, 0, 0.97, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 3 for ContainTreasure */
+     , (11478, 9,     0,  0, 0, 0.98, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 3 for ContainTreasure */
+     , (11478, 9,  6876,  0, 0, 0.03, False) /* Create Sturdy Iron Key (6876) for ContainTreasure */
+     , (11478, 9, 10864,  0, 0, 0.03, False) /* Create Olthoi Ichor (10864) for ContainTreasure */
+     , (11478, 9, 22059,  0, 0, 0.02, False) /* Create Eviscerator Head (22059) for ContainTreasure */;

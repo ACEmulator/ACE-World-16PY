@@ -10,7 +10,7 @@ VALUES (3932,   1,         16) /* ItemType - Creature */
      , (3932,  16,         32) /* ItemUseable - Remote */
      , (3932,  25,          8) /* Level */
      , (3932,  27,          0) /* ArmorType */
-     , (3932,  93,    6292504) /* PhysicsState */
+     , (3932,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (3932,  95,          8) /* RadarBlipColor - Yellow */
      , (3932, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (3932, 134,         16) /* PlayerKillerStatus - RubberGlue */
@@ -439,6 +439,6 @@ VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 1090519043 /* Ready */, NULL, NU
      , (@parent_id,  3,  10 /* Tell */, 1, 1, NULL, 'I am interested in armoredillo spines and golem hearts of all kinds.  If you give me one I will craft an item from it, or give you something else of value.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (3932, 2,   127,  0, 17, 1, False) /* Create Pants for Wield */
-     , (3932, 2,   134,  0, 5, 0.67, False) /* Create Tunic for Wield */
-     , (3932, 2,  2606,  0, 4, 0.8, False) /* Create Boots for Wield */;
+VALUES (3932, 2,   127,  0, 17, 1, False) /* Create Pants (127) for Wield */
+     , (3932, 2,   134,  0, 5, 0.67, False) /* Create Tunic (134) for Wield */
+     , (3932, 2,  2606,  0, 4, 0.8, False) /* Create Boots (2606) for Wield */;

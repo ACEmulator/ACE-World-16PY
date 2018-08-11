@@ -8,7 +8,7 @@ VALUES (27700,   1,       8192) /* ItemType - Writable */
      , (27700,   9,          0) /* ValidLocations - None */
      , (27700,  16,          8) /* ItemUseable - Contained */
      , (27700,  19,         10) /* Value */
-     , (27700,  93,       1044) /* PhysicsState */
+     , (27700,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (27700, 150,        103) /* HookPlacement - Hook */
      , (27700, 151,          2) /* HookType - Wall */;
 

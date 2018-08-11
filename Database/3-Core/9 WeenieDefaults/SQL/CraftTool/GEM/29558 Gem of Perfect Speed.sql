@@ -14,8 +14,8 @@ VALUES (29558,   1,       2048) /* ItemType - Gem */
      , (29558,  15,          0) /* StackUnitValue */
      , (29558,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
      , (29558,  19,          0) /* Value */
-     , (29558,  93,       1044) /* PhysicsState */
-     , (29558,  94,       2050) /* TargetType */
+     , (29558,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (29558,  94,       2050) /* TargetType - 2050 */
      , (29558, 150,        103) /* HookPlacement - Hook */
      , (29558, 151,          2) /* HookType - Wall */;
 

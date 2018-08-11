@@ -4,7 +4,7 @@ VALUES ('4896', 'portallostdistilleryexit', 7) /* Portal */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (4896,   1,      65536) /* ItemType - Portal */
      , (4896,  16,         32) /* ItemUseable - Remote */
-     , (4896,  93,       3084) /* PhysicsState */
+     , (4896,  93,       3084) /* PhysicsState - Ethereal, ReportCollisions, Gravity, LightingOn */
      , (4896, 111,          1) /* PortalBitmask - Unrestricted */
      , (4896, 133,          4) /* ShowableOnRadar - ShowAlways */;
 

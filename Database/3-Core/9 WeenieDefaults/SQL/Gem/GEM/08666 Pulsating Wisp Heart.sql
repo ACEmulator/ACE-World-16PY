@@ -14,7 +14,7 @@ VALUES (8666,   1,       2048) /* ItemType - Gem */
      , (8666,  15,          0) /* StackUnitValue */
      , (8666,  16,          1) /* ItemUseable - No */
      , (8666,  19,          0) /* Value */
-     , (8666,  93,       3092) /* PhysicsState */;
+     , (8666,  93,       3092) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, LightingOn */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (8666,  14, True ) /* GravityStatus */

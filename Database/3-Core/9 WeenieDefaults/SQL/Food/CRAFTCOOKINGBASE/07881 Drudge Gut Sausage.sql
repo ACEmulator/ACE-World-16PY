@@ -15,7 +15,7 @@ VALUES (7881,   1,    4194304) /* ItemType - CraftCookingBase */
      , (7881,  19,        220) /* Value */
      , (7881,  89,          6) /* BoosterEnum - Mana */
      , (7881,  90,         30) /* BoostValue */
-     , (7881,  93,       1044) /* PhysicsState */;
+     , (7881,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (7881,  69, False) /* IsSellable */;

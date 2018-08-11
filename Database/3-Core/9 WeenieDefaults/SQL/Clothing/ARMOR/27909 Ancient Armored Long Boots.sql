@@ -7,7 +7,7 @@ VALUES (27909,   1,          2) /* ItemType - Armor */
      , (27909,   4,      65536) /* ClothingPriority - Feet */
      , (27909,   5,        225) /* EncumbranceVal */
      , (27909,   8,        360) /* Mass */
-     , (27909,   9,        384) /* ValidLocations */
+     , (27909,   9,        384) /* ValidLocations - LowerLegWear, FootWear */
      , (27909,  16,          1) /* ItemUseable - No */
      , (27909,  18,          1) /* UiEffects - Magical */
      , (27909,  19,       6000) /* Value */
@@ -15,12 +15,12 @@ VALUES (27909,   1,          2) /* ItemType - Armor */
      , (27909,  28,        260) /* ArmorLevel */
      , (27909,  44,         13) /* Damage */
      , (27909,  45,          4) /* DamageType - Bludgeon */
-     , (27909,  93,       1044) /* PhysicsState */
+     , (27909,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (27909, 106,        275) /* ItemSpellcraft */
      , (27909, 107,        800) /* ItemCurMana */
      , (27909, 108,        800) /* ItemMaxMana */
      , (27909, 150,        103) /* HookPlacement - Hook */
-     , (27909, 151,          9) /* HookType */
+     , (27909, 151,          9) /* HookType - Floor, Yard */
      , (27909, 158,          7) /* WieldRequirements - Level */
      , (27909, 159,          1) /* WieldSkilltype - Axe */
      , (27909, 160,         40) /* WieldDifficulty */;

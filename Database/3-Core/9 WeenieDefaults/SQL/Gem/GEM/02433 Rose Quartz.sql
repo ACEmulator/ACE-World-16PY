@@ -14,7 +14,7 @@ VALUES (2433,   1,       2048) /* ItemType - Gem */
      , (2433,  15,         50) /* StackUnitValue */
      , (2433,  16,          1) /* ItemUseable - No */
      , (2433,  19,         50) /* Value */
-     , (2433,  93,       1044) /* PhysicsState */
+     , (2433,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (2433, 131,         37) /* MaterialType - RoseQuartz */
      , (2433, 169,   16777216) /* TsysMutationData */;
 

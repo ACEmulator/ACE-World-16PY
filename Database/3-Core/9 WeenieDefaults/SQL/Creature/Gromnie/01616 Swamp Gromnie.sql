@@ -12,7 +12,7 @@ VALUES (1616,   1,         16) /* ItemType - Creature */
      , (1616,  27,          0) /* ArmorType */
      , (1616,  40,          2) /* CombatMode - Melee */
      , (1616,  68,          9) /* TargetingTactic */
-     , (1616,  93,       1032) /* PhysicsState */
+     , (1616,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (1616, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (1616, 146,        813) /* XpOverride */;
 
@@ -66,7 +66,7 @@ VALUES (1616,   1,   33554487) /* Setup */
      , (1616,   8,  100667938) /* Icon */
      , (1616,  22,  872415260) /* PhysicsEffectTable */
      , (1616,  30,         85) /* PhysicsScript - BreatheFrost */
-     , (1616,  35,        459) /* DeathTreasureType */;
+     , (1616,  35,        459) /* DeathTreasureType - Loot Tier: 1 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (1616,   1,  90, 0, 0) /* Strength */
@@ -139,9 +139,9 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 268435538 /* Twitch2 */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (1616, 9,     0,  0, 0, 0.95, False) /* Create Unknown for ContainTreasure */
-     , (1616, 9,     0,  0, 0, 0.95, False) /* Create Unknown for ContainTreasure */
-     , (1616, 9,     0,  0, 0, 0.999, False) /* Create Unknown for ContainTreasure */
-     , (1616, 9,  3677,  0, 0, 0.05, False) /* Create Swamp Gromnie Tooth for ContainTreasure */
-     , (1616, 9,  4237,  0, 0, 0.05, False) /* Create Thick Gromnie Hide for ContainTreasure */
-     , (1616, 9, 23307,  0, 0, 0.001, False) /* Create Ball of Gunk for ContainTreasure */;
+VALUES (1616, 9,     0,  0, 0, 0.95, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 1 for ContainTreasure */
+     , (1616, 9,     0,  0, 0, 0.95, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 1 for ContainTreasure */
+     , (1616, 9,     0,  0, 0, 0.999, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 1 for ContainTreasure */
+     , (1616, 9,  3677,  0, 0, 0.05, False) /* Create Swamp Gromnie Tooth (3677) for ContainTreasure */
+     , (1616, 9,  4237,  0, 0, 0.05, False) /* Create Thick Gromnie Hide (4237) for ContainTreasure */
+     , (1616, 9, 23307,  0, 0, 0.001, False) /* Create Ball of Gunk (23307) for ContainTreasure */;

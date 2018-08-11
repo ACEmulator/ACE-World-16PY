@@ -14,7 +14,7 @@ VALUES (22040,   1,        128) /* ItemType - Misc */
      , (22040,  16,          1) /* ItemUseable - No */
      , (22040,  19,          0) /* Value */
      , (22040,  33,          0) /* Bonded - Normal */
-     , (22040,  93,       1044) /* PhysicsState */
+     , (22040,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (22040, 114,          0) /* Attuned - Normal */
      , (22040, 150,        103) /* HookPlacement - Hook */
      , (22040, 151,          2) /* HookType - Wall */;

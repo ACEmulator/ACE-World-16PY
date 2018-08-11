@@ -7,14 +7,14 @@ VALUES (9241,   1,          2) /* ItemType - Armor */
      , (9241,   4,      65536) /* ClothingPriority - Feet */
      , (9241,   5,        420) /* EncumbranceVal */
      , (9241,   8,        140) /* Mass */
-     , (9241,   9,        384) /* ValidLocations */
+     , (9241,   9,        384) /* ValidLocations - LowerLegWear, FootWear */
      , (9241,  16,          1) /* ItemUseable - No */
      , (9241,  19,        700) /* Value */
      , (9241,  27,          2) /* ArmorType */
      , (9241,  28,         80) /* ArmorLevel */
      , (9241,  44,          2) /* Damage */
      , (9241,  45,          4) /* DamageType - Bludgeon */
-     , (9241,  93,       1044) /* PhysicsState */
+     , (9241,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (9241, 150,        103) /* HookPlacement - Hook */
      , (9241, 151,          1) /* HookType - Floor */;
 

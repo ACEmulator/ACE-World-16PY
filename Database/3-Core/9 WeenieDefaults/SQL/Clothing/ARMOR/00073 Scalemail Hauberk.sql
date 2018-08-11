@@ -4,15 +4,15 @@ VALUES ('73', 'hauberkscalemail', 2) /* Clothing */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (73,   1,          2) /* ItemType - Armor */
      , (73,   3,         20) /* PaletteTemplate - Silver */
-     , (73,   4,      15360) /* ClothingPriority */
+     , (73,   4,      15360) /* ClothingPriority - OuterwearChest, OuterwearAbdomen, OuterwearUpperArms, OuterwearLowerArms */
      , (73,   5,       1831) /* EncumbranceVal */
      , (73,   8,       1100) /* Mass */
-     , (73,   9,       7680) /* ValidLocations */
+     , (73,   9,       7680) /* ValidLocations - ChestArmor, AbdomenArmor, UpperArmArmor, LowerArmArmor */
      , (73,  16,          1) /* ItemUseable - No */
      , (73,  19,       1951) /* Value */
      , (73,  27,          8) /* ArmorType */
      , (73,  28,         75) /* ArmorLevel */
-     , (73,  93,       1044) /* PhysicsState */
+     , (73,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (73, 169,  118097668) /* TsysMutationData */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)

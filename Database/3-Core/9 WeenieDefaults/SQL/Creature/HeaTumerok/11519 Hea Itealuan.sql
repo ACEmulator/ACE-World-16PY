@@ -11,8 +11,8 @@ VALUES (11519,   1,         16) /* ItemType - Creature */
      , (11519,  25,         77) /* Level */
      , (11519,  27,          0) /* ArmorType */
      , (11519,  68,          5) /* TargetingTactic */
-     , (11519,  93,       1032) /* PhysicsState */
-     , (11519, 101,        183) /* AiAllowedCombatStyle */
+     , (11519,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
+     , (11519, 101,        183) /* AiAllowedCombatStyle - Unarmed, OneHanded, OneHandedAndShield, Bow, Crossbow, ThrownWeapon */
      , (11519, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (11519, 140,          1) /* AiOptions */
      , (11519, 146,      16638) /* XpOverride */;
@@ -70,8 +70,12 @@ VALUES (11519,   1,   33554496) /* Setup */
      , (11519,   7,  268436630) /* ClothingBase */
      , (11519,   8,  100667452) /* Icon */
      , (11519,  22,  872415270) /* PhysicsEffectTable */
-     , (11519,  32,        222) /* WieldedTreasureType */
-     , (11519,  35,        450) /* DeathTreasureType */;
+     , (11519,  32,        222) /* WieldedTreasureType - 
+                                   Wield Yumi (23736) | Probability: 50%
+                                   Wield 20x Greater Arrow (5304) | Probability: 100%
+                                   Wield Heavy Crossbow (23667) | Probability: 50%
+                                   Wield 16x Greater Quarrel (5313) | Probability: 100% */
+     , (11519,  35,        450) /* DeathTreasureType - Loot Tier: 3 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (11519,   1, 220, 0, 0) /* Strength */
@@ -119,11 +123,11 @@ VALUES (11519,  94) /* ATTACK_NOTIFICATION_EVENT */
      , (11519, 414) /* PLAYER_DEATH_EVENT */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (11519, 9,     0,  0, 0, 0.98, False) /* Create Unknown for ContainTreasure */
-     , (11519, 9,     0,  0, 0, 0.98, False) /* Create Unknown for ContainTreasure */
-     , (11519, 9,     0,  0, 0, 0.98, False) /* Create Unknown for ContainTreasure */
-     , (11519, 9,     0,  0, 0, 0.98, False) /* Create Unknown for ContainTreasure */
-     , (11519, 9,  6876,  0, 0, 0.02, False) /* Create Sturdy Iron Key for ContainTreasure */
-     , (11519, 9, 11454,  0, 0, 0.02, False) /* Create Totem of Audetaunga for ContainTreasure */
-     , (11519, 9, 11455,  0, 0, 0.02, False) /* Create Totem of Tanae for ContainTreasure */
-     , (11519, 9, 11456,  0, 0, 0.02, False) /* Create Totem of Volkama for ContainTreasure */;
+VALUES (11519, 9,     0,  0, 0, 0.98, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 3 for ContainTreasure */
+     , (11519, 9,     0,  0, 0, 0.98, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 3 for ContainTreasure */
+     , (11519, 9,     0,  0, 0, 0.98, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 3 for ContainTreasure */
+     , (11519, 9,     0,  0, 0, 0.98, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 3 for ContainTreasure */
+     , (11519, 9,  6876,  0, 0, 0.02, False) /* Create Sturdy Iron Key (6876) for ContainTreasure */
+     , (11519, 9, 11454,  0, 0, 0.02, False) /* Create Totem of Audetaunga (11454) for ContainTreasure */
+     , (11519, 9, 11455,  0, 0, 0.02, False) /* Create Totem of Tanae (11455) for ContainTreasure */
+     , (11519, 9, 11456,  0, 0, 0.02, False) /* Create Totem of Volkama (11456) for ContainTreasure */;

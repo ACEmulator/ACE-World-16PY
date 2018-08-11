@@ -8,7 +8,7 @@ VALUES (9093,   1,        128) /* ItemType - Misc */
      , (9093,  16,          1) /* ItemUseable - No */
      , (9093,  19,        200) /* Value */
      , (9093,  83,       4096) /* ActivationResponse - CastSpell */
-     , (9093,  93,         20) /* PhysicsState */
+     , (9093,  93,         20) /* PhysicsState - Ethereal, IgnoreCollisions */
      , (9093, 106,       1000) /* ItemSpellcraft */
      , (9093, 119,          1) /* Active */;
 

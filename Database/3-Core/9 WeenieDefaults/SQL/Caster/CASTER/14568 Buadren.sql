@@ -12,15 +12,15 @@ VALUES (14568,   1,      32768) /* ItemType - Caster */
      , (14568,  19,          0) /* Value */
      , (14568,  33,          1) /* Bonded - Bonded */
      , (14568,  46,        512) /* DefaultCombatStyle - Magic */
-     , (14568,  93,       1044) /* PhysicsState */
-     , (14568,  94,         16) /* TargetType - Creature */
+     , (14568,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (14568,  94,         16) /* TargetType - Reedshark */
      , (14568, 106,        320) /* ItemSpellcraft */
      , (14568, 107,       2000) /* ItemCurMana */
      , (14568, 108,       2000) /* ItemMaxMana */
      , (14568, 109,        200) /* ItemDifficulty */
      , (14568, 110,          0) /* ItemAllegianceRankLimit */
      , (14568, 150,        103) /* HookPlacement - Hook */
-     , (14568, 151,          3) /* HookType */
+     , (14568, 151,          3) /* HookType - Floor, Wall */
      , (14568, 158,          7) /* WieldRequirements - Level */
      , (14568, 159,          1) /* WieldSkilltype - Axe */
      , (14568, 160,         50) /* WieldDifficulty */;

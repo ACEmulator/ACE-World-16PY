@@ -10,10 +10,10 @@ VALUES (27030,   1,         16) /* ItemType - Creature */
      , (27030,  16,         32) /* ItemUseable - Remote */
      , (27030,  25,         10) /* Level */
      , (27030,  27,          0) /* ArmorType */
-     , (27030,  74,     264192) /* MerchandiseItemTypes */
+     , (27030,  74,     264192) /* MerchandiseItemTypes - Gem, PromissoryNote */
      , (27030,  75,          0) /* MerchandiseMinValue */
      , (27030,  76,    1000000) /* MerchandiseMaxValue */
-     , (27030,  93,    2098204) /* PhysicsState */
+     , (27030,  93,    2098204) /* PhysicsState - Ethereal, ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */
      , (27030, 126,        125) /* VendorHappyMean */
      , (27030, 127,        125) /* VendorHappyVariance */
      , (27030, 133,          4) /* ShowableOnRadar - ShowAlways */
@@ -97,4 +97,4 @@ VALUES (27030,  0,  4,  0,    0,    0,    0,    0,    0,    0,    0,    0,    0,
      , (27030,  8,  4,  2, 0.75,    0,    0,    0,    0,    0,    0,    0,    0,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (27030, 4, 26395, -1, 0, 0, False) /* Create Stone Triad Dell Portal Gem for Shop */;
+VALUES (27030, 4, 26395, -1, 0, 0, False) /* Create Stone Triad Dell Portal Gem (26395) for Shop */;

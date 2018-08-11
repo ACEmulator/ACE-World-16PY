@@ -14,8 +14,8 @@ VALUES (9594,   1,        128) /* ItemType - Misc */
      , (9594,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
      , (9594,  19,          0) /* Value */
      , (9594,  33,         -2) /* Bonded - Destroy */
-     , (9594,  93,       1044) /* PhysicsState */
-     , (9594,  94,        128) /* TargetType - Misc */
+     , (9594,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (9594,  94,        128) /* TargetType - 128 */
      , (9594, 150,        103) /* HookPlacement - Hook */
      , (9594, 151,          2) /* HookType - Wall */;
 

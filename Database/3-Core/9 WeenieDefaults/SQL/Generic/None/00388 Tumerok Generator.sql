@@ -4,7 +4,7 @@ VALUES ('388', 'tumerok-generator', 1) /* Generic */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (388,  81,          1) /* MaxGeneratedObjects */
      , (388,  82,          1) /* InitGeneratedObjects */
-     , (388,  93,       1044) /* PhysicsState */;
+     , (388,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (388,   1, True ) /* Stuck */
@@ -23,4 +23,4 @@ VALUES (388,   1,   33555051) /* Setup */
      , (388,   8,  100667494) /* Icon */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (388, 1, 226, 800, 1, 2, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0);
+VALUES (388, 1, 226, 800, 1, 2, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate High Tumerok (226) (x1 up to max of 2) - Regenerate upon Destruction - Location to (re)Generate: Scatter */;

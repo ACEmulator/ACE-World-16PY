@@ -13,8 +13,8 @@ VALUES (1764,   1,         16) /* ItemType - Creature */
      , (1764,  40,          1) /* CombatMode - NonCombat */
      , (1764,  68,          5) /* TargetingTactic */
      , (1764,  72,         14) /* FriendType - Undead */
-     , (1764,  93,       1032) /* PhysicsState */
-     , (1764, 101,        183) /* AiAllowedCombatStyle */
+     , (1764,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
+     , (1764, 101,        183) /* AiAllowedCombatStyle - Unarmed, OneHanded, OneHandedAndShield, Bow, Crossbow, ThrownWeapon */
      , (1764, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (1764, 140,          1) /* AiOptions */
      , (1764, 146,       1519) /* XpOverride */;
@@ -74,7 +74,7 @@ VALUES (1764,   1,   33554433) /* Setup */
      , (1764,   7,  268435645) /* ClothingBase */
      , (1764,   8,  100669122) /* Icon */
      , (1764,  22,  872415272) /* PhysicsEffectTable */
-     , (1764,  35,        465) /* DeathTreasureType */;
+     , (1764,  35,        465) /* DeathTreasureType - Loot Tier: 1 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (1764,   1, 145, 0, 0) /* Strength */
@@ -163,13 +163,13 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 268435537 /* Twitch1 */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (1764, 9,     0,  0, 0, 0.93, False) /* Create Unknown for ContainTreasure */
-     , (1764, 9,     0,  0, 0, 0.95, False) /* Create Unknown for ContainTreasure */
-     , (1764, 9,     0,  0, 0, 0.95, False) /* Create Unknown for ContainTreasure */
-     , (1764, 9,     0,  0, 0, 0.95, False) /* Create Unknown for ContainTreasure */
-     , (1764, 9,     0,  0, 0, 0.95, False) /* Create Unknown for ContainTreasure */
-     , (1764, 9,  9314,  0, 0, 0.07, False) /* Create A Tiny Mnemosyne for ContainTreasure */
-     , (1764, 9, 22025,  0, 0, 0.05, False) /* Create Mu-miyah Arm for ContainTreasure */
-     , (1764, 9, 22029,  0, 0, 0.05, False) /* Create Mu-miyah Leg for ContainTreasure */
-     , (1764, 9, 22045,  0, 0, 0.05, False) /* Create Mu-miyah Torso for ContainTreasure */
-     , (1764, 9, 22060,  0, 0, 0.05, False) /* Create Mu-miyah Torso with a Head for ContainTreasure */;
+VALUES (1764, 9,     0,  0, 0, 0.93, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 1 for ContainTreasure */
+     , (1764, 9,     0,  0, 0, 0.95, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 1 for ContainTreasure */
+     , (1764, 9,     0,  0, 0, 0.95, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 1 for ContainTreasure */
+     , (1764, 9,     0,  0, 0, 0.95, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 1 for ContainTreasure */
+     , (1764, 9,     0,  0, 0, 0.95, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 1 for ContainTreasure */
+     , (1764, 9,  9314,  0, 0, 0.07, False) /* Create A Tiny Mnemosyne (9314) for ContainTreasure */
+     , (1764, 9, 22025,  0, 0, 0.05, False) /* Create Mu-miyah Arm (22025) for ContainTreasure */
+     , (1764, 9, 22029,  0, 0, 0.05, False) /* Create Mu-miyah Leg (22029) for ContainTreasure */
+     , (1764, 9, 22045,  0, 0, 0.05, False) /* Create Mu-miyah Torso (22045) for ContainTreasure */
+     , (1764, 9, 22060,  0, 0, 0.05, False) /* Create Mu-miyah Torso with a Head (22060) for ContainTreasure */;

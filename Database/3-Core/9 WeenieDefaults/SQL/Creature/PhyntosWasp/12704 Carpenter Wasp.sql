@@ -12,7 +12,7 @@ VALUES (12704,   1,         16) /* ItemType - Creature */
      , (12704,  40,          2) /* CombatMode - Melee */
      , (12704,  67,         64) /* Tolerance */
      , (12704,  68,          9) /* TargetingTactic */
-     , (12704,  93,       1032) /* PhysicsState */
+     , (12704,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (12704, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (12704, 146,          0) /* XpOverride */;
 
@@ -91,5 +91,5 @@ INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
 VALUES (12704, 414) /* PLAYER_DEATH_EVENT */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (12704, 9,     0,  0, 0, 0, False) /* Create Unknown for ContainTreasure */
-     , (12704, 9, 13089,  0, 0, 1, False) /* Create Carpenter Wasp Wing for ContainTreasure */;
+VALUES (12704, 9,     0,  0, 0, 0, False) /* Create UNKNOWN RANDOMLY GENERATED TREASURE for ContainTreasure */
+     , (12704, 9, 13089,  0, 0, 1, False) /* Create Carpenter Wasp Wing (13089) for ContainTreasure */;

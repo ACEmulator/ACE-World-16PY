@@ -10,7 +10,7 @@ VALUES (20912,   1,         16) /* ItemType - Creature */
      , (20912,  16,         32) /* ItemUseable - Remote */
      , (20912,  25,         36) /* Level */
      , (20912,  27,          0) /* ArmorType */
-     , (20912,  93,    6292504) /* PhysicsState */
+     , (20912,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (20912,  95,          8) /* RadarBlipColor - Yellow */
      , (20912, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (20912, 134,         16) /* PlayerKillerStatus - RubberGlue */
@@ -185,6 +185,6 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,  10 /* Tell */, 0, 1, NULL, 'This should not be possible.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (20912, 2,   127,  0, 14, 0, False) /* Create Pants for Wield */
-     , (20912, 2,   133,  0, 4, 0.8, False) /* Create Slippers for Wield */
-     , (20912, 2,   134,  0, 2, 1, False) /* Create Tunic for Wield */;
+VALUES (20912, 2,   127,  0, 14, 0, False) /* Create Pants (127) for Wield */
+     , (20912, 2,   133,  0, 4, 0.8, False) /* Create Slippers (133) for Wield */
+     , (20912, 2,   134,  0, 2, 1, False) /* Create Tunic (134) for Wield */;

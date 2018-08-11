@@ -10,7 +10,7 @@ VALUES (3929,   1,         16) /* ItemType - Creature */
      , (3929,  16,         32) /* ItemUseable - Remote */
      , (3929,  25,          6) /* Level */
      , (3929,  27,          0) /* ArmorType */
-     , (3929,  93,    6292504) /* PhysicsState */
+     , (3929,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (3929,  95,          8) /* RadarBlipColor - Yellow */
      , (3929, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (3929, 134,         16) /* PlayerKillerStatus - RubberGlue */
@@ -187,6 +187,6 @@ VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 1090519043 /* Ready */, NULL, NU
      , (@parent_id,  3,  10 /* Tell */, 1, 1, NULL, 'My specialty is creating magic adornments from certain pieces of crafted obsidian.  If you have such an item, give it to me and I will return a useful and rare item.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (3929, 2,   115,  0, 9, 0, False) /* Create Leather Boots for Wield */
-     , (3929, 2,   134,  0, 17, 1, False) /* Create Tunic for Wield */
-     , (3929, 2,  2601,  0, 17, 1, False) /* Create Pants for Wield */;
+VALUES (3929, 2,   115,  0, 9, 0, False) /* Create Leather Boots (115) for Wield */
+     , (3929, 2,   134,  0, 17, 1, False) /* Create Tunic (134) for Wield */
+     , (3929, 2,  2601,  0, 17, 1, False) /* Create Pants (2601) for Wield */;

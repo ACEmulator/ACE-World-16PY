@@ -12,7 +12,7 @@ VALUES (27710,   1,         16) /* ItemType - Creature */
      , (27710,  27,          0) /* ArmorType */
      , (27710,  40,          2) /* CombatMode - Melee */
      , (27710,  68,          3) /* TargetingTactic */
-     , (27710,  93,       1032) /* PhysicsState */
+     , (27710,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (27710, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (27710, 146,      36445) /* XpOverride */;
 
@@ -68,7 +68,7 @@ VALUES (27710,   1,   33554487) /* Setup */
      , (27710,   8,  100667938) /* Icon */
      , (27710,  22,  872415260) /* PhysicsEffectTable */
      , (27710,  30,         86) /* PhysicsScript - BreatheAcid */
-     , (27710,  35,        458) /* DeathTreasureType */;
+     , (27710,  35,        458) /* DeathTreasureType - Loot Tier: 5 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (27710,   1, 300, 0, 0) /* Strength */
@@ -141,9 +141,9 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 268435538 /* Twitch2 */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (27710, 9,     0,  0, 0, 0.95, False) /* Create Unknown for ContainTreasure */
-     , (27710, 9,     0,  0, 0, 0.95, False) /* Create Unknown for ContainTreasure */
-     , (27710, 9,     0,  0, 0, 0.99, False) /* Create Unknown for ContainTreasure */
-     , (27710, 9, 24477,  0, 0, 0.01, False) /* Create Sturdy Steel Key for ContainTreasure */
-     , (27710, 9, 28199,  0, 0, 0.05, False) /* Create Rugged Gromnie Hide for ContainTreasure */
-     , (27710, 9, 28206,  0, 0, 0.05, False) /* Create Brass Gromnie Tooth for ContainTreasure */;
+VALUES (27710, 9,     0,  0, 0, 0.95, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 5 for ContainTreasure */
+     , (27710, 9,     0,  0, 0, 0.95, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 5 for ContainTreasure */
+     , (27710, 9,     0,  0, 0, 0.99, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 5 for ContainTreasure */
+     , (27710, 9, 24477,  0, 0, 0.01, False) /* Create Sturdy Steel Key (24477) for ContainTreasure */
+     , (27710, 9, 28199,  0, 0, 0.05, False) /* Create Rugged Gromnie Hide (28199) for ContainTreasure */
+     , (27710, 9, 28206,  0, 0, 0.05, False) /* Create Brass Gromnie Tooth (28206) for ContainTreasure */;

@@ -14,7 +14,7 @@ VALUES (751,   1,       4096) /* ItemType - SpellComponents */
      , (751,  15,          5) /* StackUnitValue */
      , (751,  16,          1) /* ItemUseable - No */
      , (751,  19,          5) /* Value */
-     , (751,  93,       1044) /* PhysicsState */;
+     , (751,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (751,   1, 'Willow Talisman') /* Name */;

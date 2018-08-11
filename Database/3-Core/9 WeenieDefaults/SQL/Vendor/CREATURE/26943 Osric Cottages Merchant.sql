@@ -10,10 +10,10 @@ VALUES (26943,   1,         16) /* ItemType - Creature */
      , (26943,  16,         32) /* ItemUseable - Remote */
      , (26943,  25,         10) /* Level */
      , (26943,  27,          0) /* ArmorType */
-     , (26943,  74,     264192) /* MerchandiseItemTypes */
+     , (26943,  74,     264192) /* MerchandiseItemTypes - Gem, PromissoryNote */
      , (26943,  75,          0) /* MerchandiseMinValue */
      , (26943,  76,    1000000) /* MerchandiseMaxValue */
-     , (26943,  93,    2098204) /* PhysicsState */
+     , (26943,  93,    2098204) /* PhysicsState - Ethereal, ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */
      , (26943, 126,        125) /* VendorHappyMean */
      , (26943, 127,        125) /* VendorHappyVariance */
      , (26943, 133,          4) /* ShowableOnRadar - ShowAlways */
@@ -97,4 +97,4 @@ VALUES (26943,  0,  4,  0,    0,    0,    0,    0,    0,    0,    0,    0,    0,
      , (26943,  8,  4,  2, 0.75,    0,    0,    0,    0,    0,    0,    0,    0,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (26943, 4, 26308, -1, 0, 0, False) /* Create Osric Cottages Portal Gem for Shop */;
+VALUES (26943, 4, 26308, -1, 0, 0, False) /* Create Osric Cottages Portal Gem (26308) for Shop */;

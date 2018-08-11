@@ -10,10 +10,10 @@ VALUES (26865,   1,         16) /* ItemType - Creature */
      , (26865,  16,         32) /* ItemUseable - Remote */
      , (26865,  25,         10) /* Level */
      , (26865,  27,          0) /* ArmorType */
-     , (26865,  74,     264192) /* MerchandiseItemTypes */
+     , (26865,  74,     264192) /* MerchandiseItemTypes - Gem, PromissoryNote */
      , (26865,  75,          0) /* MerchandiseMinValue */
      , (26865,  76,    1000000) /* MerchandiseMaxValue */
-     , (26865,  93,    2098204) /* PhysicsState */
+     , (26865,  93,    2098204) /* PhysicsState - Ethereal, ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */
      , (26865, 126,        125) /* VendorHappyMean */
      , (26865, 127,        125) /* VendorHappyVariance */
      , (26865, 133,          4) /* ShowableOnRadar - ShowAlways */
@@ -97,4 +97,4 @@ VALUES (26865,  0,  4,  0,    0,    0,    0,    0,    0,    0,    0,    0,    0,
      , (26865,  8,  4,  2, 0.75,    0,    0,    0,    0,    0,    0,    0,    0,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (26865, 4, 26230, -1, 0, 0, False) /* Create Kuyiza Portal Gem for Shop */;
+VALUES (26865, 4, 26230, -1, 0, 0, False) /* Create Kuyiza Portal Gem (26230) for Shop */;

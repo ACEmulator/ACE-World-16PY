@@ -18,7 +18,7 @@ VALUES (21963,   1,        256) /* ItemType - MissileWeapon */
      , (21963,  50,        256) /* AmmoType */
      , (21963,  51,          2) /* CombatUse - Missle */
      , (21963,  60,        120) /* WeaponRange */
-     , (21963,  93,       3092) /* PhysicsState */
+     , (21963,  93,       3092) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, LightingOn */
      , (21963, 114,          1) /* Attuned - Attuned */
      , (21963, 150,        103) /* HookPlacement - Hook */
      , (21963, 151,          2) /* HookType - Wall */

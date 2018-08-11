@@ -13,7 +13,7 @@ VALUES (1053,   1,         16) /* ItemType - Creature */
      , (1053,  74,    4481568) /* MerchandiseItemTypes - VendorGrocer */
      , (1053,  75,          0) /* MerchandiseMinValue */
      , (1053,  76,     100000) /* MerchandiseMaxValue */
-     , (1053,  93,    2098200) /* PhysicsState */
+     , (1053,  93,    2098200) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */
      , (1053, 126,        500) /* VendorHappyMean */
      , (1053, 127,        500) /* VendorHappyVariance */
      , (1053, 133,          4) /* ShowableOnRadar - ShowAlways */
@@ -163,20 +163,20 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 318767235 /* Nod */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (1053, 2,   127,  0, 9, 0.5, False) /* Create Pants for Wield */
-     , (1053, 2,   128,  0, 9, 0, False) /* Create Qafiya for Wield */
-     , (1053, 2,   133,  0, 14, 0.8, False) /* Create Slippers for Wield */
-     , (1053, 2,   134,  0, 14, 0.8, False) /* Create Tunic for Wield */
-     , (1053, 4,   136, -1, 14, 1, False) /* Create Pack for Shop */
-     , (1053, 4,   138, -1, 85, 1, False) /* Create Belt Pouch for Shop */
-     , (1053, 4,   139, -1, 85, 1, False) /* Create Small Belt Pouch for Shop */
-     , (1053, 4,   260, -1, 0, 0, False) /* Create Cabbage for Shop */
-     , (1053, 4,  4753, -1, 0, 0, False) /* Create Side of Beef for Shop */
-     , (1053, 4,  4755, -1, 0, 0, False) /* Create Brine for Shop */
-     , (1053, 4,  4759, -1, 0, 0, False) /* Create Cooking Pot for Shop */
-     , (1053, 4,  4763, -1, 0, 0, False) /* Create Honey for Shop */
-     , (1053, 4,  4766, -1, 0, 0, False) /* Create Rennet for Shop */
-     , (1053, 4,  4767, -1, 0, 0, False) /* Create Skewer for Shop */
-     , (1053, 2, 10696,  0, 18, 1, False) /* Create Apron for Wield */
-     , (1053, 4, 23326, -1, 0, 0, False) /* Create Elaborate Dried Rations for Shop */
-     , (1053, 4, 23327, -1, 0, 0, False) /* Create Simple Dried Rations for Shop */;
+VALUES (1053, 2,   127,  0, 9, 0.5, False) /* Create Pants (127) for Wield */
+     , (1053, 2,   128,  0, 9, 0, False) /* Create Qafiya (128) for Wield */
+     , (1053, 2,   133,  0, 14, 0.8, False) /* Create Slippers (133) for Wield */
+     , (1053, 2,   134,  0, 14, 0.8, False) /* Create Tunic (134) for Wield */
+     , (1053, 4,   136, -1, 14, 1, False) /* Create Pack (136) for Shop */
+     , (1053, 4,   138, -1, 85, 1, False) /* Create Belt Pouch (138) for Shop */
+     , (1053, 4,   139, -1, 85, 1, False) /* Create Small Belt Pouch (139) for Shop */
+     , (1053, 4,   260, -1, 0, 0, False) /* Create Cabbage (260) for Shop */
+     , (1053, 4,  4753, -1, 0, 0, False) /* Create Side of Beef (4753) for Shop */
+     , (1053, 4,  4755, -1, 0, 0, False) /* Create Brine (4755) for Shop */
+     , (1053, 4,  4759, -1, 0, 0, False) /* Create Cooking Pot (4759) for Shop */
+     , (1053, 4,  4763, -1, 0, 0, False) /* Create Honey (4763) for Shop */
+     , (1053, 4,  4766, -1, 0, 0, False) /* Create Rennet (4766) for Shop */
+     , (1053, 4,  4767, -1, 0, 0, False) /* Create Skewer (4767) for Shop */
+     , (1053, 2, 10696,  0, 18, 1, False) /* Create Apron (10696) for Wield */
+     , (1053, 4, 23326, -1, 0, 0, False) /* Create Elaborate Dried Rations (23326) for Shop */
+     , (1053, 4, 23327, -1, 0, 0, False) /* Create Simple Dried Rations (23327) for Shop */;

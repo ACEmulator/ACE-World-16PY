@@ -11,8 +11,8 @@ VALUES (22208,   1,         16) /* ItemType - Creature */
      , (22208,  27,          0) /* ArmorType */
      , (22208,  40,          1) /* CombatMode - NonCombat */
      , (22208,  68,          5) /* TargetingTactic */
-     , (22208,  93,       1032) /* PhysicsState */
-     , (22208, 101,        183) /* AiAllowedCombatStyle */
+     , (22208,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
+     , (22208, 101,        183) /* AiAllowedCombatStyle - Unarmed, OneHanded, OneHandedAndShield, Bow, Crossbow, ThrownWeapon */
      , (22208, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (22208, 140,          1) /* AiOptions */
      , (22208, 146,       6250) /* XpOverride */;
@@ -68,8 +68,32 @@ VALUES (22208,   1,   33555464) /* Setup */
      , (22208,   4,  805306368) /* CombatTable */
      , (22208,   8,  100669124) /* Icon */
      , (22208,  22,  872415269) /* PhysicsEffectTable */
-     , (22208,  32,        189) /* WieldedTreasureType */
-     , (22208,  35,        451) /* DeathTreasureType */;
+     , (22208,  32,        189) /* WieldedTreasureType - 
+                                   Wield Battle Axe (301) | Probability: 9%
+                                   Wield Broad Sword (350) | Probability: 4%
+                                   Wield Kaskara (324) | Probability: 4%
+                                   Wield Ken (327) | Probability: 4%
+                                   Wield Long Sword (351) | Probability: 4%
+                                   Wield Morning Star (332) | Probability: 6%
+                                   Wield Scimitar (339) | Probability: 4%
+                                   Wield Shamshir (340) | Probability: 4%
+                                   Wield Ono (336) | Probability: 8%
+                                   Wield Silifi (344) | Probability: 8%
+                                   Wield Tachi (353) | Probability: 5%
+                                   Wield Takuba (354) | Probability: 5%
+                                   Wield 6x Throwing Axe (304) | Probability: 6%
+                                   Wield Nayin (334) | Probability: 6%
+                                   Wield 16x Arrow (300) | Probability: 100%
+                                   Wield Longbow (306) | Probability: 6%
+                                   Wield 20x Arrow (300) | Probability: 100%
+                                   Wield Yumi (363) | Probability: 6%
+                                   Wield 20x Arrow (300) | Probability: 100%
+                                   Wield Heavy Crossbow (311) | Probability: 11%
+                                   Wield 16x Quarrel (305) | Probability: 100%
+                                   Wield Large Kite Shield (92) | Probability: 30%
+                                   Wield Kite Shield (91) | Probability: 20%
+                                   Wield Large Round Shield (94) | Probability: 20% */
+     , (22208,  35,        451) /* DeathTreasureType - Loot Tier: 2 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (22208,   1, 135, 0, 0) /* Strength */
@@ -135,11 +159,11 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 1090519060 /* Sleeping */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (22208, 9,     0,  0, 0, 0.9, False) /* Create Unknown for ContainTreasure */
-     , (22208, 9,     0,  0, 0, 0.95, False) /* Create Unknown for ContainTreasure */
-     , (22208, 9,     0,  0, 0, 0.95, False) /* Create Unknown for ContainTreasure */
-     , (22208, 9,     0,  0, 0, 0.95, False) /* Create Unknown for ContainTreasure */
-     , (22208, 9,  3687,  0, 0, 0.1, False) /* Create Skeleton's Skull for ContainTreasure */
-     , (22208, 9, 22027,  0, 0, 0.05, False) /* Create Skeletal Arm for ContainTreasure */
-     , (22208, 9, 22031,  0, 0, 0.05, False) /* Create Skeletal Leg for ContainTreasure */
-     , (22208, 9, 22047,  0, 0, 0.05, False) /* Create Skeletal Torso for ContainTreasure */;
+VALUES (22208, 9,     0,  0, 0, 0.9, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 2 for ContainTreasure */
+     , (22208, 9,     0,  0, 0, 0.95, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 2 for ContainTreasure */
+     , (22208, 9,     0,  0, 0, 0.95, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 2 for ContainTreasure */
+     , (22208, 9,     0,  0, 0, 0.95, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 2 for ContainTreasure */
+     , (22208, 9,  3687,  0, 0, 0.1, False) /* Create Skeleton's Skull (3687) for ContainTreasure */
+     , (22208, 9, 22027,  0, 0, 0.05, False) /* Create Skeletal Arm (22027) for ContainTreasure */
+     , (22208, 9, 22031,  0, 0, 0.05, False) /* Create Skeletal Leg (22031) for ContainTreasure */
+     , (22208, 9, 22047,  0, 0, 0.05, False) /* Create Skeletal Torso (22047) for ContainTreasure */;

@@ -10,10 +10,10 @@ VALUES (26881,   1,         16) /* ItemType - Creature */
      , (26881,  16,         32) /* ItemUseable - Remote */
      , (26881,  25,         10) /* Level */
      , (26881,  27,          0) /* ArmorType */
-     , (26881,  74,     264192) /* MerchandiseItemTypes */
+     , (26881,  74,     264192) /* MerchandiseItemTypes - Gem, PromissoryNote */
      , (26881,  75,          0) /* MerchandiseMinValue */
      , (26881,  76,    1000000) /* MerchandiseMaxValue */
-     , (26881,  93,    2098204) /* PhysicsState */
+     , (26881,  93,    2098204) /* PhysicsState - Ethereal, ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */
      , (26881, 126,        125) /* VendorHappyMean */
      , (26881, 127,        125) /* VendorHappyVariance */
      , (26881, 133,          4) /* ShowableOnRadar - ShowAlways */
@@ -97,4 +97,4 @@ VALUES (26881,  0,  4,  0,    0,    0,    0,    0,    0,    0,    0,    0,    0,
      , (26881,  8,  4,  2, 0.75,    0,    0,    0,    0,    0,    0,    0,    0,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (26881, 4, 26246, -1, 0, 0, False) /* Create Lithaenean Cottages Portal Gem for Shop */;
+VALUES (26881, 4, 26246, -1, 0, 0, False) /* Create Lithaenean Cottages Portal Gem (26246) for Shop */;

@@ -10,7 +10,7 @@ VALUES (6438,   1,          8) /* ItemType - Jewelry */
      , (6438,  16,          1) /* ItemUseable - No */
      , (6438,  19,          0) /* Value */
      , (6438,  33,          1) /* Bonded - Bonded */
-     , (6438,  93,       1044) /* PhysicsState */;
+     , (6438,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (6438,  22, True ) /* Inscribable */

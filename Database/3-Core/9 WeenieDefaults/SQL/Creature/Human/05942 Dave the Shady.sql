@@ -10,7 +10,7 @@ VALUES (5942,   1,         16) /* ItemType - Creature */
      , (5942,  16,         32) /* ItemUseable - Remote */
      , (5942,  25,         15) /* Level */
      , (5942,  27,          0) /* ArmorType */
-     , (5942,  93,    6292504) /* PhysicsState */
+     , (5942,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (5942,  95,          8) /* RadarBlipColor - Yellow */
      , (5942, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (5942, 134,         16) /* PlayerKillerStatus - RubberGlue */
@@ -164,6 +164,6 @@ VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 1090519043 /* Ready */, NULL, NU
      , (@parent_id,  4,   5 /* Motion */, 1, 1, 1090519043 /* Ready */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (5942, 2,   130,  0, 2, 0.8, False) /* Create Shirt for Wield */
-     , (5942, 2,  2604,  0, 9, 1, False) /* Create Breeches for Wield */
-     , (5942, 2,  5851,  0, 3, 0, False) /* Create Faran Robe with Hood for Wield */;
+VALUES (5942, 2,   130,  0, 2, 0.8, False) /* Create Shirt (130) for Wield */
+     , (5942, 2,  2604,  0, 9, 1, False) /* Create Breeches (2604) for Wield */
+     , (5942, 2,  5851,  0, 3, 0, False) /* Create Faran Robe with Hood (5851) for Wield */;

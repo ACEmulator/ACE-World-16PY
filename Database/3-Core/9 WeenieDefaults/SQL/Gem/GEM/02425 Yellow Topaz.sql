@@ -14,7 +14,7 @@ VALUES (2425,   1,       2048) /* ItemType - Gem */
      , (2425,  15,        250) /* StackUnitValue */
      , (2425,  16,          1) /* ItemUseable - No */
      , (2425,  19,        250) /* Value */
-     , (2425,  93,       1044) /* PhysicsState */
+     , (2425,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (2425, 131,         49) /* MaterialType - YellowTopaz */
      , (2425, 169,   16777216) /* TsysMutationData */;
 

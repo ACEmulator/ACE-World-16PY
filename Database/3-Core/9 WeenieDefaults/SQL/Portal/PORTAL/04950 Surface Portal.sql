@@ -4,7 +4,7 @@ VALUES ('4950', 'portalrecoveredtempleexit', 7) /* Portal */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (4950,   1,      65536) /* ItemType - Portal */
      , (4950,  16,         32) /* ItemUseable - Remote */
-     , (4950,  93,       3084) /* PhysicsState */
+     , (4950,  93,       3084) /* PhysicsState - Ethereal, ReportCollisions, Gravity, LightingOn */
      , (4950, 111,          1) /* PortalBitmask - Unrestricted */
      , (4950, 133,          4) /* ShowableOnRadar - ShowAlways */;
 

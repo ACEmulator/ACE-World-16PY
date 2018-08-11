@@ -4,15 +4,15 @@ VALUES ('120', 'drawersquilted', 2) /* Clothing */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (120,   1,          4) /* ItemType - Clothing */
      , (120,   3,          4) /* PaletteTemplate - Brown */
-     , (120,   4,          7) /* ClothingPriority */
+     , (120,   4,          7) /* ClothingPriority - 7 */
      , (120,   5,        135) /* EncumbranceVal */
      , (120,   8,         90) /* Mass */
-     , (120,   9,        196) /* ValidLocations */
+     , (120,   9,        196) /* ValidLocations - AbdomenWear, UpperLegWear, LowerLegWear */
      , (120,  16,          1) /* ItemUseable - No */
      , (120,  19,         30) /* Value */
      , (120,  27,          1) /* ArmorType */
      , (120,  28,          0) /* ArmorLevel */
-     , (120,  93,       1044) /* PhysicsState */;
+     , (120,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (120,  22, True ) /* Inscribable */

@@ -11,7 +11,7 @@ VALUES (19611,   1,          8) /* ItemType - Jewelry */
      , (19611,  18,        128) /* UiEffects - Frost */
      , (19611,  19,       5000) /* Value */
      , (19611,  33,          1) /* Bonded - Bonded */
-     , (19611,  93,       1044) /* PhysicsState */
+     , (19611,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (19611, 106,        225) /* ItemSpellcraft */
      , (19611, 107,        500) /* ItemCurMana */
      , (19611, 108,        500) /* ItemMaxMana */

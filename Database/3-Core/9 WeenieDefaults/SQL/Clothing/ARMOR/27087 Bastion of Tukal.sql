@@ -4,15 +4,15 @@ VALUES ('27087', 'hauberkbastionnew', 2) /* Clothing */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (27087,   1,          2) /* ItemType - Armor */
      , (27087,   3,         13) /* PaletteTemplate - Purple */
-     , (27087,   4,      15360) /* ClothingPriority */
+     , (27087,   4,      15360) /* ClothingPriority - OuterwearChest, OuterwearAbdomen, OuterwearUpperArms, OuterwearLowerArms */
      , (27087,   5,       2000) /* EncumbranceVal */
      , (27087,   8,       1100) /* Mass */
-     , (27087,   9,       7680) /* ValidLocations */
+     , (27087,   9,       7680) /* ValidLocations - ChestArmor, AbdomenArmor, UpperArmArmor, LowerArmArmor */
      , (27087,  16,          1) /* ItemUseable - No */
      , (27087,  19,       2500) /* Value */
      , (27087,  27,         32) /* ArmorType */
      , (27087,  28,        210) /* ArmorLevel */
-     , (27087,  93,       1044) /* PhysicsState */
+     , (27087,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (27087, 106,        200) /* ItemSpellcraft */
      , (27087, 107,        200) /* ItemCurMana */
      , (27087, 108,        200) /* ItemMaxMana */

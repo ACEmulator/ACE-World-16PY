@@ -10,10 +10,10 @@ VALUES (26966,   1,         16) /* ItemType - Creature */
      , (26966,  16,         32) /* ItemUseable - Remote */
      , (26966,  25,         10) /* Level */
      , (26966,  27,          0) /* ArmorType */
-     , (26966,  74,     264192) /* MerchandiseItemTypes */
+     , (26966,  74,     264192) /* MerchandiseItemTypes - Gem, PromissoryNote */
      , (26966,  75,          0) /* MerchandiseMinValue */
      , (26966,  76,    1000000) /* MerchandiseMaxValue */
-     , (26966,  93,    2098204) /* PhysicsState */
+     , (26966,  93,    2098204) /* PhysicsState - Ethereal, ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */
      , (26966, 126,        125) /* VendorHappyMean */
      , (26966, 127,        125) /* VendorHappyVariance */
      , (26966, 133,          4) /* ShowableOnRadar - ShowAlways */
@@ -97,4 +97,4 @@ VALUES (26966,  0,  4,  0,    0,    0,    0,    0,    0,    0,    0,    0,    0,
      , (26966,  8,  4,  2, 0.75,    0,    0,    0,    0,    0,    0,    0,    0,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (26966, 4, 26331, -1, 0, 0, False) /* Create Ring of Crystals Estates Portal Gem for Shop */;
+VALUES (26966, 4, 26331, -1, 0, 0, False) /* Create Ring of Crystals Estates Portal Gem (26331) for Shop */;

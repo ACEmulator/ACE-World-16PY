@@ -10,10 +10,10 @@ VALUES (27008,   1,         16) /* ItemType - Creature */
      , (27008,  16,         32) /* ItemUseable - Remote */
      , (27008,  25,         10) /* Level */
      , (27008,  27,          0) /* ArmorType */
-     , (27008,  74,     264192) /* MerchandiseItemTypes */
+     , (27008,  74,     264192) /* MerchandiseItemTypes - Gem, PromissoryNote */
      , (27008,  75,          0) /* MerchandiseMinValue */
      , (27008,  76,    1000000) /* MerchandiseMaxValue */
-     , (27008,  93,    2098204) /* PhysicsState */
+     , (27008,  93,    2098204) /* PhysicsState - Ethereal, ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */
      , (27008, 126,        125) /* VendorHappyMean */
      , (27008, 127,        125) /* VendorHappyVariance */
      , (27008, 133,          4) /* ShowableOnRadar - ShowAlways */
@@ -97,4 +97,4 @@ VALUES (27008,  0,  4,  0,    0,    0,    0,    0,    0,    0,    0,    0,    0,
      , (27008,  8,  4,  2, 0.75,    0,    0,    0,    0,    0,    0,    0,    0,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (27008, 4, 26373, -1, 0, 0, False) /* Create South Adjamaer Cottages Portal Gem for Shop */;
+VALUES (27008, 4, 26373, -1, 0, 0, False) /* Create South Adjamaer Cottages Portal Gem (26373) for Shop */;

@@ -10,7 +10,7 @@ VALUES (28968,   1,         16) /* ItemType - Creature */
      , (28968,  16,         32) /* ItemUseable - Remote */
      , (28968,  25,        115) /* Level */
      , (28968,  27,          0) /* ArmorType */
-     , (28968,  93,    6292504) /* PhysicsState */
+     , (28968,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (28968,  95,          8) /* RadarBlipColor - Yellow */
      , (28968, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (28968, 134,         16) /* PlayerKillerStatus - RubberGlue */
@@ -144,5 +144,5 @@ VALUES (@parent_id,  0,  10 /* Tell */, 0, 1, NULL, 'We still need to collect mo
      , (@parent_id,  1,  10 /* Tell */, 2, 1, NULL, 'See if you can get her student to talk about what she knows of that night that Oswald tried to kill the High Queen. If you learn anything visit Guard Chandler Hammett in Lytelthorpe, Guard Gabrielle in Rithwic, or Emissary Ydnew in Yanshi. They will reward you for your service and they can be trusted.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (28968, 2,   118,  0, 14, 1, False) /* Create Cap for Wield */
-     , (28968, 2, 10870,  0, 17, 0.7, False) /* Create Canescent Mattekar Robe for Wield */;
+VALUES (28968, 2,   118,  0, 14, 1, False) /* Create Cap (118) for Wield */
+     , (28968, 2, 10870,  0, 17, 0.7, False) /* Create Canescent Mattekar Robe (10870) for Wield */;

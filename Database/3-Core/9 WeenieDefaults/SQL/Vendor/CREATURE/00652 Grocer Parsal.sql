@@ -13,7 +13,7 @@ VALUES (652,   1,         16) /* ItemType - Creature */
      , (652,  74,    4481568) /* MerchandiseItemTypes - VendorGrocer */
      , (652,  75,          0) /* MerchandiseMinValue */
      , (652,  76,     100000) /* MerchandiseMaxValue */
-     , (652,  93,    2098200) /* PhysicsState */
+     , (652,  93,    2098200) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */
      , (652, 126,        500) /* VendorHappyMean */
      , (652, 127,        500) /* VendorHappyVariance */
      , (652, 133,          4) /* ShowableOnRadar - ShowAlways */
@@ -163,18 +163,18 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 318767235 /* Nod */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (652, 2,   119,  0, 2, 0.9, False) /* Create Cowl for Wield */
-     , (652, 2,   127,  0, 4, 0.8, False) /* Create Pants for Wield */
-     , (652, 2,   130,  0, 5, 0, False) /* Create Shirt for Wield */
-     , (652, 2,   132,  0, 5, 0, False) /* Create Shoes for Wield */
-     , (652, 4,   136, -1, 8, 1, False) /* Create Pack for Shop */
-     , (652, 4,   139, -1, 84, 0, False) /* Create Small Belt Pouch for Shop */
-     , (652, 4,   260, -1, 0, 0, False) /* Create Cabbage for Shop */
-     , (652, 4,   262, -1, 0, 0, False) /* Create Chicken for Shop */
-     , (652, 4,   263, -1, 0, 0, False) /* Create Fish for Shop */
-     , (652, 4,   546, -1, 0, 0, False) /* Create Egg for Shop */
-     , (652, 4,  4746, -1, 0, 0, False) /* Create Water for Shop */
-     , (652, 4,  4761, -1, 0, 0, False) /* Create Flour for Shop */
-     , (652, 4,  4762, -1, 0, 0, False) /* Create Frying Pan for Shop */
-     , (652, 4,  4763, -1, 0, 0, False) /* Create Honey for Shop */
-     , (652, 2, 10696,  0, 9, 0.5, False) /* Create Apron for Wield */;
+VALUES (652, 2,   119,  0, 2, 0.9, False) /* Create Cowl (119) for Wield */
+     , (652, 2,   127,  0, 4, 0.8, False) /* Create Pants (127) for Wield */
+     , (652, 2,   130,  0, 5, 0, False) /* Create Shirt (130) for Wield */
+     , (652, 2,   132,  0, 5, 0, False) /* Create Shoes (132) for Wield */
+     , (652, 4,   136, -1, 8, 1, False) /* Create Pack (136) for Shop */
+     , (652, 4,   139, -1, 84, 0, False) /* Create Small Belt Pouch (139) for Shop */
+     , (652, 4,   260, -1, 0, 0, False) /* Create Cabbage (260) for Shop */
+     , (652, 4,   262, -1, 0, 0, False) /* Create Chicken (262) for Shop */
+     , (652, 4,   263, -1, 0, 0, False) /* Create Fish (263) for Shop */
+     , (652, 4,   546, -1, 0, 0, False) /* Create Egg (546) for Shop */
+     , (652, 4,  4746, -1, 0, 0, False) /* Create Water (4746) for Shop */
+     , (652, 4,  4761, -1, 0, 0, False) /* Create Flour (4761) for Shop */
+     , (652, 4,  4762, -1, 0, 0, False) /* Create Frying Pan (4762) for Shop */
+     , (652, 4,  4763, -1, 0, 0, False) /* Create Honey (4763) for Shop */
+     , (652, 2, 10696,  0, 9, 0.5, False) /* Create Apron (10696) for Wield */;

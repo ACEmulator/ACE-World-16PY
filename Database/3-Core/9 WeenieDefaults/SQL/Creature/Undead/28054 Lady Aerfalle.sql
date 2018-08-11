@@ -12,8 +12,8 @@ VALUES (28054,   1,         16) /* ItemType - Creature */
      , (28054,  27,          0) /* ArmorType */
      , (28054,  40,          1) /* CombatMode - NonCombat */
      , (28054,  68,          3) /* TargetingTactic */
-     , (28054,  93,       1032) /* PhysicsState */
-     , (28054, 101,        183) /* AiAllowedCombatStyle */
+     , (28054,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
+     , (28054, 101,        183) /* AiAllowedCombatStyle - Unarmed, OneHanded, OneHandedAndShield, Bow, Crossbow, ThrownWeapon */
      , (28054, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (28054, 140,          1) /* AiOptions */
      , (28054, 146,     500000) /* XpOverride */;
@@ -74,7 +74,7 @@ VALUES (28054,   1,   33558819) /* Setup */
      , (28054,   7,  268436837) /* ClothingBase */
      , (28054,   8,  100667942) /* Icon */
      , (28054,  22,  872415272) /* PhysicsEffectTable */
-     , (28054,  35,         29) /* DeathTreasureType */;
+     , (28054,  35,         29) /* DeathTreasureType - Loot Tier: 5 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (28054,   1, 220, 0, 0) /* Strength */
@@ -333,23 +333,23 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,  17 /* LocalBroadcast */, 0, 0, NULL, 'A coolly amused voice seeps across your mind, "Is that the extent of thy powers, child? I shall show thee true power!"', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (28054, 9,     0,  0, 0, 0, False) /* Create Unknown for ContainTreasure */
-     , (28054, 9,     0,  0, 0, 0, False) /* Create Unknown for ContainTreasure */
-     , (28054, 9,     0,  0, 0, 0, False) /* Create Unknown for ContainTreasure */
-     , (28054, 9,     0,  0, 0, 0, False) /* Create Unknown for ContainTreasure */
-     , (28054, 9,     0,  0, 0, 0, False) /* Create Unknown for ContainTreasure */
-     , (28054, 9,     0,  0, 0, 0, False) /* Create Unknown for ContainTreasure */
-     , (28054, 9,     0,  0, 0, 0, False) /* Create Unknown for ContainTreasure */
-     , (28054, 9,     0,  0, 0, 0, False) /* Create Unknown for ContainTreasure */
-     , (28054, 9,     0,  0, 0, 0, False) /* Create Unknown for ContainTreasure */
-     , (28054, 9,     0,  0, 0, 0, False) /* Create Unknown for ContainTreasure */
-     , (28054, 9,  7380,  0, 0, 1, False) /* Create Sheets of Paper for ContainTreasure */
-     , (28054, 9, 28057,  1, 0, 1, False) /* Create Ornate Ashen Key for ContainTreasure */
-     , (28054, 9, 28057,  1, 0, 1, False) /* Create Ornate Ashen Key for ContainTreasure */
-     , (28054, 9, 28057,  1, 0, 1, False) /* Create Ornate Ashen Key for ContainTreasure */
-     , (28054, 9, 28057,  1, 0, 1, False) /* Create Ornate Ashen Key for ContainTreasure */
-     , (28054, 9, 28057,  1, 0, 1, False) /* Create Ornate Ashen Key for ContainTreasure */
-     , (28054, 9, 28057,  1, 0, 1, False) /* Create Ornate Ashen Key for ContainTreasure */
-     , (28054, 9, 28057,  1, 0, 1, False) /* Create Ornate Ashen Key for ContainTreasure */
-     , (28054, 9, 28057,  1, 0, 1, False) /* Create Ornate Ashen Key for ContainTreasure */
-     , (28054, 9, 28057,  1, 0, 1, False) /* Create Ornate Ashen Key for ContainTreasure */;
+VALUES (28054, 9,     0,  0, 0, 0, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 5 for ContainTreasure */
+     , (28054, 9,     0,  0, 0, 0, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 5 for ContainTreasure */
+     , (28054, 9,     0,  0, 0, 0, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 5 for ContainTreasure */
+     , (28054, 9,     0,  0, 0, 0, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 5 for ContainTreasure */
+     , (28054, 9,     0,  0, 0, 0, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 5 for ContainTreasure */
+     , (28054, 9,     0,  0, 0, 0, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 5 for ContainTreasure */
+     , (28054, 9,     0,  0, 0, 0, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 5 for ContainTreasure */
+     , (28054, 9,     0,  0, 0, 0, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 5 for ContainTreasure */
+     , (28054, 9,     0,  0, 0, 0, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 5 for ContainTreasure */
+     , (28054, 9,     0,  0, 0, 0, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 5 for ContainTreasure */
+     , (28054, 9,  7380,  0, 0, 1, False) /* Create Sheets of Paper (7380) for ContainTreasure */
+     , (28054, 9, 28057,  1, 0, 1, False) /* Create Ornate Ashen Key (28057) for ContainTreasure */
+     , (28054, 9, 28057,  1, 0, 1, False) /* Create Ornate Ashen Key (28057) for ContainTreasure */
+     , (28054, 9, 28057,  1, 0, 1, False) /* Create Ornate Ashen Key (28057) for ContainTreasure */
+     , (28054, 9, 28057,  1, 0, 1, False) /* Create Ornate Ashen Key (28057) for ContainTreasure */
+     , (28054, 9, 28057,  1, 0, 1, False) /* Create Ornate Ashen Key (28057) for ContainTreasure */
+     , (28054, 9, 28057,  1, 0, 1, False) /* Create Ornate Ashen Key (28057) for ContainTreasure */
+     , (28054, 9, 28057,  1, 0, 1, False) /* Create Ornate Ashen Key (28057) for ContainTreasure */
+     , (28054, 9, 28057,  1, 0, 1, False) /* Create Ornate Ashen Key (28057) for ContainTreasure */
+     , (28054, 9, 28057,  1, 0, 1, False) /* Create Ornate Ashen Key (28057) for ContainTreasure */;

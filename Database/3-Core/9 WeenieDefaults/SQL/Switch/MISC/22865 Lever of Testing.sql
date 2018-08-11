@@ -4,7 +4,7 @@ VALUES ('22865', 'levertuskerdoor', 26) /* Switch */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (22865,   1,        128) /* ItemType - Misc */
      , (22865,  16,         48) /* ItemUseable - ViewedRemote */
-     , (22865,  93,         20) /* PhysicsState */
+     , (22865,  93,         20) /* PhysicsState - Ethereal, IgnoreCollisions */
      , (22865, 119,          1) /* Active */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)

@@ -4,7 +4,7 @@ VALUES ('4054', 'portalminesofdespairexit', 7) /* Portal */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (4054,   1,      65536) /* ItemType - Portal */
      , (4054,  16,         32) /* ItemUseable - Remote */
-     , (4054,  93,       3084) /* PhysicsState */
+     , (4054,  93,       3084) /* PhysicsState - Ethereal, ReportCollisions, Gravity, LightingOn */
      , (4054, 111,          1) /* PortalBitmask - Unrestricted */
      , (4054, 133,          4) /* ShowableOnRadar - ShowAlways */;
 

@@ -10,10 +10,10 @@ VALUES (813,   1,         16) /* ItemType - Creature */
      , (813,  16,         32) /* ItemUseable - Remote */
      , (813,  25,          5) /* Level */
      , (813,  27,          0) /* ArmorType */
-     , (813,  74, 1074005895) /* MerchandiseItemTypes */
+     , (813,  74, 1074005895) /* MerchandiseItemTypes - Vestements, Weapon, LockableMagicTarget, Useless, PromissoryNote, TinkeringMaterial */
      , (813,  75,          0) /* MerchandiseMinValue */
      , (813,  76,      25000) /* MerchandiseMaxValue */
-     , (813,  93,    2098200) /* PhysicsState */
+     , (813,  93,    2098200) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */
      , (813, 126,       1000) /* VendorHappyMean */
      , (813, 127,        500) /* VendorHappyVariance */
      , (813, 133,          4) /* ShowableOnRadar - ShowAlways */
@@ -163,21 +163,21 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 318767235 /* Nod */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (813, 2,   115,  0, 9, 0, False) /* Create Leather Boots for Wield */
-     , (813, 2,   117,  0, 13, 0.5, False) /* Create Breeches for Wield */
-     , (813, 2,   118,  0, 9, 0, False) /* Create Cap for Wield */
-     , (813, 2,   134,  0, 9, 0.5, False) /* Create Tunic for Wield */
-     , (813, 2,   303,  0, 0, 0, False) /* Create Hand Axe for Wield */
-     , (813, 4,   314, -1, 0, 0, False) /* Create Dagger for Shop */
-     , (813, 4,   315, -1, 0, 0, False) /* Create Throwing Dagger for Shop */
-     , (813, 4,   342, -1, 0, 0, False) /* Create Shou-ono for Shop */
-     , (813, 4,   343, -1, 0, 0, False) /* Create Shouken for Shop */
-     , (813, 4,   356, -1, 0, 0, False) /* Create Tofun for Shop */
-     , (813, 4,   361, -1, 0, 0, False) /* Create Yaoji for Shop */
-     , (813, 4,   362, -1, 0, 0, False) /* Create Yari for Shop */
-     , (813, 4,  2621, -1, 0, 0, False) /* Create Trade Note (100) for Shop */
-     , (813, 4,  2622, -1, 0, 0, False) /* Create Trade Note (500) for Shop */
-     , (813, 4,  2623, -1, 0, 0, False) /* Create Trade Note (1,000) for Shop */
-     , (813, 4,  4195, -1, 0, 0, False) /* Create Nekode for Shop */
-     , (813, 2, 10696,  0, 9, 0, False) /* Create Apron for Wield */
-     , (813, 4, 22158, -1, 0, 0, False) /* Create Jo for Shop */;
+VALUES (813, 2,   115,  0, 9, 0, False) /* Create Leather Boots (115) for Wield */
+     , (813, 2,   117,  0, 13, 0.5, False) /* Create Breeches (117) for Wield */
+     , (813, 2,   118,  0, 9, 0, False) /* Create Cap (118) for Wield */
+     , (813, 2,   134,  0, 9, 0.5, False) /* Create Tunic (134) for Wield */
+     , (813, 2,   303,  0, 0, 0, False) /* Create Hand Axe (303) for Wield */
+     , (813, 4,   314, -1, 0, 0, False) /* Create Dagger (314) for Shop */
+     , (813, 4,   315, -1, 0, 0, False) /* Create Throwing Dagger (315) for Shop */
+     , (813, 4,   342, -1, 0, 0, False) /* Create Shou-ono (342) for Shop */
+     , (813, 4,   343, -1, 0, 0, False) /* Create Shouken (343) for Shop */
+     , (813, 4,   356, -1, 0, 0, False) /* Create Tofun (356) for Shop */
+     , (813, 4,   361, -1, 0, 0, False) /* Create Yaoji (361) for Shop */
+     , (813, 4,   362, -1, 0, 0, False) /* Create Yari (362) for Shop */
+     , (813, 4,  2621, -1, 0, 0, False) /* Create Trade Note (100) (2621) for Shop */
+     , (813, 4,  2622, -1, 0, 0, False) /* Create Trade Note (500) (2622) for Shop */
+     , (813, 4,  2623, -1, 0, 0, False) /* Create Trade Note (1,000) (2623) for Shop */
+     , (813, 4,  4195, -1, 0, 0, False) /* Create Nekode (4195) for Shop */
+     , (813, 2, 10696,  0, 9, 0, False) /* Create Apron (10696) for Wield */
+     , (813, 4, 22158, -1, 0, 0, False) /* Create Jo (22158) for Shop */;

@@ -12,7 +12,7 @@ VALUES (5939,   1,    4194304) /* ItemType - CraftCookingBase */
      , (5939,  14,         40) /* StackUnitMass */
      , (5939,  15,         10) /* StackUnitValue */
      , (5939,  19,         10) /* Value */
-     , (5939,  93,       1044) /* PhysicsState */;
+     , (5939,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (5939,  22, True ) /* Inscribable */

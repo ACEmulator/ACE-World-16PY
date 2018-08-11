@@ -10,13 +10,13 @@ VALUES (28992,   1,          1) /* ItemType - MeleeWeapon */
      , (28992,  18,         16) /* UiEffects - BoostStamina */
      , (28992,  19,       6000) /* Value */
      , (28992,  44,         18) /* Damage */
-     , (28992,  45,          3) /* DamageType */
+     , (28992,  45,          3) /* DamageType - Slash, Pierce */
      , (28992,  46,          1) /* DefaultCombatStyle - Unarmed */
      , (28992,  47,          1) /* AttackType - Punch */
      , (28992,  48,         13) /* WeaponSkill - UnarmedCombat */
      , (28992,  49,         10) /* WeaponTime */
      , (28992,  51,          1) /* CombatUse - Melee */
-     , (28992,  93,       1044) /* PhysicsState */
+     , (28992,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (28992, 106,        275) /* ItemSpellcraft */
      , (28992, 107,        800) /* ItemCurMana */
      , (28992, 108,        800) /* ItemMaxMana */

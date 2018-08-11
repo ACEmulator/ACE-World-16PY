@@ -14,7 +14,7 @@ VALUES (14873,   1,         16) /* ItemType - Creature */
      , (14873,  40,          2) /* CombatMode - Melee */
      , (14873,  68,         13) /* TargetingTactic */
      , (14873,  72,         35) /* FriendType - OlthoiLarvae */
-     , (14873,  93,       1032) /* PhysicsState */
+     , (14873,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (14873, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (14873, 140,          1) /* AiOptions */
      , (14873, 146,      25746) /* XpOverride */;
@@ -74,7 +74,7 @@ VALUES (14873,   1,   33557587) /* Setup */
      , (14873,   8,  100667623) /* Icon */
      , (14873,  22,  872415265) /* PhysicsEffectTable */
      , (14873,  30,         86) /* PhysicsScript - BreatheAcid */
-     , (14873,  35,        450) /* DeathTreasureType */;
+     , (14873,  35,        450) /* DeathTreasureType - Loot Tier: 3 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (14873,   1, 300, 0, 0) /* Strength */
@@ -175,8 +175,8 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,  10 /* Tell */, 0, 1, NULL, 'A voice echoes through your mind as the darkness takes you. ''The Old Man will suffer, I will see it done.''', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (14873, 9,     0,  0, 0, 0.98, False) /* Create Unknown for ContainTreasure */
-     , (14873, 9,     0,  0, 0, 0.98, False) /* Create Unknown for ContainTreasure */
-     , (14873, 9,  6876,  0, 0, 0.02, False) /* Create Sturdy Iron Key for ContainTreasure */
-     , (14873, 9,  9292,  0, 0, 0.02, False) /* Create Virindi Singularity Key for ContainTreasure */
-     , (14873, 9, 14883,  0, 0, 1, False) /* Create Teeth of a Singularity Key for ContainTreasure */;
+VALUES (14873, 9,     0,  0, 0, 0.98, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 3 for ContainTreasure */
+     , (14873, 9,     0,  0, 0, 0.98, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 3 for ContainTreasure */
+     , (14873, 9,  6876,  0, 0, 0.02, False) /* Create Sturdy Iron Key (6876) for ContainTreasure */
+     , (14873, 9,  9292,  0, 0, 0.02, False) /* Create Virindi Singularity Key (9292) for ContainTreasure */
+     , (14873, 9, 14883,  0, 0, 1, False) /* Create Teeth of a Singularity Key (14883) for ContainTreasure */;

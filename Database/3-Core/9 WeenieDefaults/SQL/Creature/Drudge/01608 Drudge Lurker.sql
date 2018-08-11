@@ -12,8 +12,8 @@ VALUES (1608,   1,         16) /* ItemType - Creature */
      , (1608,  27,          0) /* ArmorType */
      , (1608,  40,          2) /* CombatMode - Melee */
      , (1608,  68,          3) /* TargetingTactic */
-     , (1608,  93,       1032) /* PhysicsState */
-     , (1608, 101,        131) /* AiAllowedCombatStyle */
+     , (1608,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
+     , (1608, 101,        131) /* AiAllowedCombatStyle - Unarmed, OneHanded, ThrownWeapon */
      , (1608, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (1608, 140,          1) /* AiOptions */
      , (1608, 146,       5774) /* XpOverride */;
@@ -72,8 +72,11 @@ VALUES (1608,   1,   33556445) /* Setup */
      , (1608,   7,  268435976) /* ClothingBase */
      , (1608,   8,  100667445) /* Icon */
      , (1608,  22,  872415258) /* PhysicsEffectTable */
-     , (1608,  32,         71) /* WieldedTreasureType */
-     , (1608,  35,        451) /* DeathTreasureType */;
+     , (1608,  32,         71) /* WieldedTreasureType - 
+                                   Wield Yari (23731) | Probability: 50%
+                                   Wield Tachi (23701) | Probability: 25%
+                                   Wield Spear (23697) | Probability: 25% */
+     , (1608,  35,        451) /* DeathTreasureType - Loot Tier: 2 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (1608,   1, 180, 0, 0) /* Strength */
@@ -205,9 +208,9 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 268435537 /* Twitch1 */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (1608, 9,     0,  0, 0, 0.97, False) /* Create Unknown for ContainTreasure */
-     , (1608, 9,     0,  0, 0, 0.98, False) /* Create Unknown for ContainTreasure */
-     , (1608, 9,     0,  0, 0, 0.995, False) /* Create Unknown for ContainTreasure */
-     , (1608, 9,  7825,  0, 0, 0.03, False) /* Create Brown Beans for ContainTreasure */
-     , (1608, 9, 15760,  0, 0, 0.02, False) /* Create Ruined Amulet of the Atlatl for ContainTreasure */
-     , (1608, 9, 27390,  0, 0, 0.005, False) /* Create Drudge Fight for ContainTreasure */;
+VALUES (1608, 9,     0,  0, 0, 0.97, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 2 for ContainTreasure */
+     , (1608, 9,     0,  0, 0, 0.98, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 2 for ContainTreasure */
+     , (1608, 9,     0,  0, 0, 0.995, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 2 for ContainTreasure */
+     , (1608, 9,  7825,  0, 0, 0.03, False) /* Create Brown Beans (7825) for ContainTreasure */
+     , (1608, 9, 15760,  0, 0, 0.02, False) /* Create Ruined Amulet of the Atlatl (15760) for ContainTreasure */
+     , (1608, 9, 27390,  0, 0, 0.005, False) /* Create Drudge Fight (27390) for ContainTreasure */;

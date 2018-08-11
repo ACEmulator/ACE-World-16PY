@@ -12,8 +12,8 @@ VALUES (27426,   1,         16) /* ItemType - Creature */
      , (27426,  25,        135) /* Level */
      , (27426,  27,          0) /* ArmorType */
      , (27426,  68,          3) /* TargetingTactic */
-     , (27426,  93,    4195336) /* PhysicsState */
-     , (27426, 101,        183) /* AiAllowedCombatStyle */
+     , (27426,  93,    4195336) /* PhysicsState - ReportCollisions, Gravity, EdgeSlide */
+     , (27426, 101,        183) /* AiAllowedCombatStyle - Unarmed, OneHanded, OneHandedAndShield, Bow, Crossbow, ThrownWeapon */
      , (27426, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (27426, 140,          1) /* AiOptions */
      , (27426, 146,      74448) /* XpOverride */;
@@ -76,7 +76,7 @@ VALUES (27426,   1,   33556251) /* Setup */
      , (27426,   7,  268435871) /* ClothingBase */
      , (27426,   8,  100670398) /* Icon */
      , (27426,  22,  872415331) /* PhysicsEffectTable */
-     , (27426,  35,        461) /* DeathTreasureType */;
+     , (27426,  35,        461) /* DeathTreasureType - Loot Tier: 6 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (27426,   1, 280, 0, 0) /* Strength */
@@ -152,9 +152,9 @@ VALUES (27426,  94) /* ATTACK_NOTIFICATION_EVENT */
      , (27426, 414) /* PLAYER_DEATH_EVENT */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (27426, 9,     0,  0, 0, 0.95, False) /* Create Unknown for ContainTreasure */
-     , (27426, 9,     0,  0, 0, 0.95, False) /* Create Unknown for ContainTreasure */
-     , (27426, 9,     0,  0, 0, 0.99, False) /* Create Unknown for ContainTreasure */
-     , (27426, 9,  6058,  0, 0, 0.05, False) /* Create Dark Shard for ContainTreasure */
-     , (27426, 9,  6876,  0, 0, 0.05, False) /* Create Sturdy Iron Key for ContainTreasure */
-     , (27426, 9, 23108,  0, 0, 0.01, False) /* Create Twisted Dark Key for ContainTreasure */;
+VALUES (27426, 9,     0,  0, 0, 0.95, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 6 for ContainTreasure */
+     , (27426, 9,     0,  0, 0, 0.95, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 6 for ContainTreasure */
+     , (27426, 9,     0,  0, 0, 0.99, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 6 for ContainTreasure */
+     , (27426, 9,  6058,  0, 0, 0.05, False) /* Create Dark Shard (6058) for ContainTreasure */
+     , (27426, 9,  6876,  0, 0, 0.05, False) /* Create Sturdy Iron Key (6876) for ContainTreasure */
+     , (27426, 9, 23108,  0, 0, 0.01, False) /* Create Twisted Dark Key (23108) for ContainTreasure */;

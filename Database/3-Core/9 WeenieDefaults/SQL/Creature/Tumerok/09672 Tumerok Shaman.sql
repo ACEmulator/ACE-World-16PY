@@ -10,8 +10,8 @@ VALUES (9672,   1,         16) /* ItemType - Creature */
      , (9672,  25,         20) /* Level */
      , (9672,  27,          0) /* ArmorType */
      , (9672,  68,          5) /* TargetingTactic */
-     , (9672,  93,       1032) /* PhysicsState */
-     , (9672, 101,        183) /* AiAllowedCombatStyle */
+     , (9672,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
+     , (9672, 101,        183) /* AiAllowedCombatStyle - Unarmed, OneHanded, OneHandedAndShield, Bow, Crossbow, ThrownWeapon */
      , (9672, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (9672, 140,          1) /* AiOptions */
      , (9672, 146,       1263) /* XpOverride */;
@@ -66,8 +66,21 @@ VALUES (9672,   1,   33554496) /* Setup */
      , (9672,   4,  805306380) /* CombatTable */
      , (9672,   8,  100667452) /* Icon */
      , (9672,  22,  872415270) /* PhysicsEffectTable */
-     , (9672,  32,        203) /* WieldedTreasureType */
-     , (9672,  35,        204) /* DeathTreasureType */;
+     , (9672,  32,        203) /* WieldedTreasureType - 
+                                   Wield Yumi (23734) | Probability: 20%
+                                   Wield 20x Deadly Arrow (15429) | Probability: 100%
+                                   Wield Heavy Crossbow (23665) | Probability: 40%
+                                   Wield 20x Deadly Quarrel (15438) | Probability: 100%
+                                   Wield Katar (23674) | Probability: 12%
+                                   Wield Cestus (23637) | Probability: 12%
+                                   Wield Nekode (23680) | Probability: 12%
+                                   Wield Tachi (23700) | Probability: 12%
+                                   Wield Spear (23696) | Probability: 12%
+                                   Wield Fire Yaoji (23718) | Probability: 12%
+                                   Wield Yaoji (23710) | Probability: 12%
+                                   Wield Fire Tachi (23707) | Probability: 12%
+                                   Wield Kite Shield (23684) | Probability: 75% */
+     , (9672,  35,        204) /* DeathTreasureType - Loot Tier: 5 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (9672,   1, 100, 0, 0) /* Strength */
@@ -140,9 +153,9 @@ VALUES (9672,  94) /* ATTACK_NOTIFICATION_EVENT */
      , (9672, 414) /* PLAYER_DEATH_EVENT */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (9672, 9,     0,  0, 0, 0.85, False) /* Create Unknown for ContainTreasure */
-     , (9672, 9,     0,  0, 0, 0.99, False) /* Create Unknown for ContainTreasure */
-     , (9672, 9,     0,  0, 0, 0.97, False) /* Create Unknown for ContainTreasure */
-     , (9672, 9,  3695,  0, 0, 0.15, False) /* Create Gold Tumerok Insignia for ContainTreasure */
-     , (9672, 9,  6876,  0, 0, 0.01, False) /* Create Sturdy Iron Key for ContainTreasure */
-     , (9672, 9,  7825,  0, 0, 0.03, False) /* Create Brown Beans for ContainTreasure */;
+VALUES (9672, 9,     0,  0, 0, 0.85, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 5 for ContainTreasure */
+     , (9672, 9,     0,  0, 0, 0.99, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 5 for ContainTreasure */
+     , (9672, 9,     0,  0, 0, 0.97, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 5 for ContainTreasure */
+     , (9672, 9,  3695,  0, 0, 0.15, False) /* Create Gold Tumerok Insignia (3695) for ContainTreasure */
+     , (9672, 9,  6876,  0, 0, 0.01, False) /* Create Sturdy Iron Key (6876) for ContainTreasure */
+     , (9672, 9,  7825,  0, 0, 0.03, False) /* Create Brown Beans (7825) for ContainTreasure */;

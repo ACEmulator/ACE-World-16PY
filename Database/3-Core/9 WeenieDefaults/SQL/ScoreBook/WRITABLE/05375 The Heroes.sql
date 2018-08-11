@@ -7,7 +7,7 @@ VALUES (5375,   1,       8192) /* ItemType - Writable */
      , (5375,   8,       1800) /* Mass */
      , (5375,  16,         48) /* ItemUseable - ViewedRemote */
      , (5375,  19,         25) /* Value */
-     , (5375,  93,       1048) /* PhysicsState */
+     , (5375,  93,       1048) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity */
      , (5375, 136,          2) /* ScorePageNum */
      , (5375, 137,          0) /* ScoreConfigNum */
      , (5375, 138,         10) /* ScoreNumScores */;

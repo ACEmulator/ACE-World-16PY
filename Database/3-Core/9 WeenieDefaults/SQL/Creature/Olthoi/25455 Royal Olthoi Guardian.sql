@@ -14,7 +14,7 @@ VALUES (25455,   1,         16) /* ItemType - Creature */
      , (25455,  40,          2) /* CombatMode - Melee */
      , (25455,  68,         13) /* TargetingTactic */
      , (25455,  72,         35) /* FriendType - OlthoiLarvae */
-     , (25455,  93,       1032) /* PhysicsState */
+     , (25455,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (25455, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (25455, 140,          1) /* AiOptions */
      , (25455, 146,      43794) /* XpOverride */;
@@ -71,7 +71,7 @@ VALUES (25455,   1,   33557046) /* Setup */
      , (25455,   8,  100667623) /* Icon */
      , (25455,  22,  872415378) /* PhysicsEffectTable */
      , (25455,  30,         85) /* PhysicsScript - BreatheFrost */
-     , (25455,  35,        452) /* DeathTreasureType */;
+     , (25455,  35,        452) /* DeathTreasureType - Loot Tier: 5 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (25455,   1, 380, 0, 0) /* Strength */
@@ -124,4 +124,4 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 268435537 /* Twitch1 */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (25455, 1, 25482,  0, 0, 0, False) /* Create Smelly Olthoi Gland for Contain */;
+VALUES (25455, 1, 25482,  0, 0, 0, False) /* Create Smelly Olthoi Gland (25482) for Contain */;

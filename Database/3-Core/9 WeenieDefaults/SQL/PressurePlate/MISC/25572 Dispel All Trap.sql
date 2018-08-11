@@ -8,7 +8,7 @@ VALUES (25572,   1,        128) /* ItemType - Misc */
      , (25572,  16,          1) /* ItemUseable - No */
      , (25572,  19,        200) /* Value */
      , (25572,  83,       2048) /* ActivationResponse - Unk800 */
-     , (25572,  93,       1036) /* PhysicsState */
+     , (25572,  93,       1036) /* PhysicsState - Ethereal, ReportCollisions, Gravity */
      , (25572, 106,        500) /* ItemSpellcraft */
      , (25572, 119,          1) /* Active */;
 

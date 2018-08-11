@@ -12,8 +12,8 @@ VALUES (26453,   1,         16) /* ItemType - Creature */
      , (26453,  25,         85) /* Level */
      , (26453,  27,          0) /* ArmorType */
      , (26453,  68,         13) /* TargetingTactic */
-     , (26453,  93,       1032) /* PhysicsState */
-     , (26453, 101,        131) /* AiAllowedCombatStyle */
+     , (26453,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
+     , (26453, 101,        131) /* AiAllowedCombatStyle - Unarmed, OneHanded, ThrownWeapon */
      , (26453, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (26453, 146,      13394) /* XpOverride */;
 
@@ -70,7 +70,7 @@ VALUES (26453,   1,   33554433) /* Setup */
      , (26453,   7,  268435545) /* ClothingBase */
      , (26453,   8,  100667446) /* Icon */
      , (26453,  22,  872415236) /* PhysicsEffectTable */
-     , (26453,  35,        450) /* DeathTreasureType */;
+     , (26453,  35,        450) /* DeathTreasureType - Loot Tier: 3 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (26453,   1, 160, 0, 0) /* Strength */
@@ -236,9 +236,9 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,  10 /* Tell */, 0, 1, NULL, 'Gettem!', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (26453, 9,     0,  0, 0, 0.9, False) /* Create Unknown for ContainTreasure */
-     , (26453, 2,   161,  0, 0, 0, False) /* Create Mug for Wield */
-     , (26453, 2,  2588,  0, 9, 1, False) /* Create Shirt for Wield */
-     , (26453, 2,  2597,  0, 9, 1, False) /* Create Pants for Wield */
-     , (26453, 2,  5850,  0, 4, 0.5, False) /* Create Faran Robe for Wield */
-     , (26453, 9, 26467,  0, 0, 0.1, False) /* Create Splinter of Wood for ContainTreasure */;
+VALUES (26453, 9,     0,  0, 0, 0.9, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 3 for ContainTreasure */
+     , (26453, 2,   161,  0, 0, 0, False) /* Create Mug (161) for Wield */
+     , (26453, 2,  2588,  0, 9, 1, False) /* Create Shirt (2588) for Wield */
+     , (26453, 2,  2597,  0, 9, 1, False) /* Create Pants (2597) for Wield */
+     , (26453, 2,  5850,  0, 4, 0.5, False) /* Create Faran Robe (5850) for Wield */
+     , (26453, 9, 26467,  0, 0, 0.1, False) /* Create Splinter of Wood (26467) for ContainTreasure */;

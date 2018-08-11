@@ -16,9 +16,9 @@ VALUES (27318,   1,        128) /* ItemType - Misc */
      , (27318,  19,       5000) /* Value */
      , (27318,  89,          2) /* BoosterEnum - Health */
      , (27318,  90,        100) /* BoostValue */
-     , (27318,  93,       1044) /* PhysicsState */
+     , (27318,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (27318, 150,        103) /* HookPlacement - Hook */
-     , (27318, 151,         11) /* HookType */;
+     , (27318, 151,         11) /* HookType - Floor, Wall, Yard */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (27318,   1, 'Health Philtre') /* Name */

@@ -11,10 +11,10 @@ VALUES (24596,   1,         16) /* ItemType - Creature */
      , (24596,  16,         32) /* ItemUseable - Remote */
      , (24596,  25,        126) /* Level */
      , (24596,  27,          0) /* ArmorType */
-     , (24596,  74, 1074004231) /* MerchandiseItemTypes */
+     , (24596,  74, 1074004231) /* MerchandiseItemTypes - Vestements, Weapon, PromissoryNote, TinkeringMaterial */
      , (24596,  75,          0) /* MerchandiseMinValue */
      , (24596,  76,    1000000) /* MerchandiseMaxValue */
-     , (24596,  93,    2098200) /* PhysicsState */
+     , (24596,  93,    2098200) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */
      , (24596, 126,      50000) /* VendorHappyMean */
      , (24596, 127,      45000) /* VendorHappyVariance */
      , (24596, 133,          4) /* ShowableOnRadar - ShowAlways */
@@ -206,67 +206,67 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,  10 /* Tell */, 0, 1, NULL, 'Feel the weight on that. A fine purchase.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (24596, 4,    40, -1, 0, 0, False) /* Create Platemail Breastplate for Shop */
-     , (24596, 4,    57, -1, 0, 0, False) /* Create Platemail Gauntlets for Shop */
-     , (24596, 4,    61, -1, 0, 0, False) /* Create Platemail Girth for Shop */
-     , (24596, 4,    66, -1, 0, 0, False) /* Create Platemail Greaves for Shop */
-     , (24596, 4,    75, -1, 0, 0, False) /* Create Helmet for Shop */
-     , (24596, 4,    76, -1, 0, 0, False) /* Create Horned Helm for Shop */
-     , (24596, 4,    82, -1, 0, 0, False) /* Create Platemail Leggings for Shop */
-     , (24596, 4,    87, -1, 0, 0, False) /* Create Platemail Pauldrons for Shop */
-     , (24596, 4,    92, -1, 0, 0, False) /* Create Large Kite Shield for Shop */
-     , (24596, 4,    95, -1, 0, 0, False) /* Create Tower Shield for Shop */
-     , (24596, 4,   107, -1, 0, 0, False) /* Create Sollerets for Shop */
-     , (24596, 4,   110, -1, 0, 0, False) /* Create Platemail Tassets for Shop */
-     , (24596, 4,   114, -1, 0, 0, False) /* Create Platemail Vambraces for Shop */
-     , (24596, 4,   300, -1, 0, 0, False) /* Create Arrow for Shop */
-     , (24596, 4,   301, -1, 0, 0, False) /* Create Battle Axe for Shop */
-     , (24596, 4,   305, -1, 0, 0, False) /* Create Quarrel for Shop */
-     , (24596, 4,   306, -1, 0, 0, False) /* Create Longbow for Shop */
-     , (24596, 4,   309, -1, 0, 0, False) /* Create Club for Shop */
-     , (24596, 4,   311, -1, 0, 0, False) /* Create Heavy Crossbow for Shop */
-     , (24596, 4,   331, -1, 0, 0, False) /* Create Mace for Shop */
-     , (24596, 4,   332, -1, 0, 0, False) /* Create Morning Star for Shop */
-     , (24596, 4,   350, -1, 0, 0, False) /* Create Broad Sword for Shop */
-     , (24596, 4,   351, -1, 0, 0, False) /* Create Long Sword for Shop */
-     , (24596, 4,   353, -1, 0, 0, False) /* Create Tachi for Shop */
-     , (24596, 4,   359, -1, 0, 0, False) /* Create War Hammer for Shop */
-     , (24596, 4,   540, -1, 0, 0, False) /* Create Lugian Axe for Shop */
-     , (24596, 4,   541, -1, 0, 0, False) /* Create Lugian Club for Shop */
-     , (24596, 4,   543, -1, 0, 0, False) /* Create Lugian Mace for Shop */
-     , (24596, 4,   544, -1, 0, 0, False) /* Create Lugian Morning Star for Shop */
-     , (24596, 4,  2621, -1, 0, 0, False) /* Create Trade Note (100) for Shop */
-     , (24596, 4,  2622, -1, 0, 0, False) /* Create Trade Note (500) for Shop */
-     , (24596, 4,  2623, -1, 0, 0, False) /* Create Trade Note (1,000) for Shop */
-     , (24596, 4,  2624, -1, 0, 0, False) /* Create Trade Note (5,000) for Shop */
-     , (24596, 4,  2625, -1, 0, 0, False) /* Create Trade Note (10,000) for Shop */
-     , (24596, 4,  2626, -1, 0, 0, False) /* Create Trade Note (50,000) for Shop */
-     , (24596, 4,  2627, -1, 0, 0, False) /* Create Trade Note (100,000) for Shop */
-     , (24596, 4,  3598, -1, 0, 0, False) /* Create Armor Piercing Arrow for Shop */
-     , (24596, 4,  3599, -1, 0, 0, False) /* Create Blunt Arrow for Shop */
-     , (24596, 4,  3601, -1, 0, 0, False) /* Create Frog Crotch Arrow for Shop */
-     , (24596, 4,  3602, -1, 0, 0, False) /* Create Armor Piercing Quarrel for Shop */
-     , (24596, 4,  3603, -1, 0, 0, False) /* Create Blunt Quarrel for Shop */
-     , (24596, 4,  3605, -1, 0, 0, False) /* Create Frog Crotch Quarrel for Shop */
-     , (24596, 4,  4585, -1, 0, 0, False) /* Create Bundle of Arrowshafts for Shop */
-     , (24596, 4,  4586, -1, 0, 0, False) /* Create Bundle of Arrowheads for Shop */
-     , (24596, 4,  5339, -1, 0, 0, False) /* Create Bundle of Quarrelshafts for Shop */
-     , (24596, 4,  8488, -1, 0, 0, False) /* Create Armet for Shop */
-     , (24596, 4,  8489, -1, 0, 0, False) /* Create Heaume for Shop */
-     , (24596, 4,  9359, -1, 0, 0, False) /* Create Wrapped Bundle of Arrowheads for Shop */
-     , (24596, 4,  9361, -1, 0, 0, False) /* Create Wrapped Bundle of Armor Piercing Arrowheads for Shop */
-     , (24596, 4,  9362, -1, 0, 0, False) /* Create Wrapped Bundle of Blunt Arrowheads for Shop */
-     , (24596, 4,  9363, -1, 0, 0, False) /* Create Wrapped Bundle of Broad Arrowheads for Shop */
-     , (24596, 4,  9366, -1, 0, 0, False) /* Create Wrapped Bundle of Frog Crotch Arrowheads for Shop */
-     , (24596, 4,  9377, -1, 0, 0, False) /* Create Wrapped Bundle of Arrowshafts for Shop */
-     , (24596, 4,  9378, -1, 0, 0, False) /* Create Wrapped Bundle of Quarrelshafts for Shop */
-     , (24596, 4, 12463, -1, 0, 0, False) /* Create Atlatl for Shop */
-     , (24596, 4, 12464, -1, 0, 0, False) /* Create Atlatl Dart for Shop */
-     , (24596, 4, 15296, -1, 0, 0, False) /* Create Bundle of Atlatl Dart Shafts for Shop */
-     , (24596, 4, 15298, -1, 0, 0, False) /* Create Wrapped Bundle of Atlatl Dartshafts for Shop */
-     , (24596, 4, 20628, -1, 0, 0, False) /* Create Trade Note (150,000) for Shop */
-     , (24596, 4, 20629, -1, 0, 0, False) /* Create Trade Note (200,000) for Shop */
-     , (24596, 4, 20630, -1, 0, 0, False) /* Create Trade Note (250,000) for Shop */
-     , (24596, 2, 23757,  0, 0, 0, False) /* Create Lugian Mace for Wield */
-     , (24596, 4, 23857, -1, 0, 0, False) /* Create Bundle of Spiketails for Shop */
-     , (24596, 4, 23858, -1, 0, 0, False) /* Create Bundle of Wrapped Spiketails for Shop */;
+VALUES (24596, 4,    40, -1, 0, 0, False) /* Create Platemail Breastplate (40) for Shop */
+     , (24596, 4,    57, -1, 0, 0, False) /* Create Platemail Gauntlets (57) for Shop */
+     , (24596, 4,    61, -1, 0, 0, False) /* Create Platemail Girth (61) for Shop */
+     , (24596, 4,    66, -1, 0, 0, False) /* Create Platemail Greaves (66) for Shop */
+     , (24596, 4,    75, -1, 0, 0, False) /* Create Helmet (75) for Shop */
+     , (24596, 4,    76, -1, 0, 0, False) /* Create Horned Helm (76) for Shop */
+     , (24596, 4,    82, -1, 0, 0, False) /* Create Platemail Leggings (82) for Shop */
+     , (24596, 4,    87, -1, 0, 0, False) /* Create Platemail Pauldrons (87) for Shop */
+     , (24596, 4,    92, -1, 0, 0, False) /* Create Large Kite Shield (92) for Shop */
+     , (24596, 4,    95, -1, 0, 0, False) /* Create Tower Shield (95) for Shop */
+     , (24596, 4,   107, -1, 0, 0, False) /* Create Sollerets (107) for Shop */
+     , (24596, 4,   110, -1, 0, 0, False) /* Create Platemail Tassets (110) for Shop */
+     , (24596, 4,   114, -1, 0, 0, False) /* Create Platemail Vambraces (114) for Shop */
+     , (24596, 4,   300, -1, 0, 0, False) /* Create Arrow (300) for Shop */
+     , (24596, 4,   301, -1, 0, 0, False) /* Create Battle Axe (301) for Shop */
+     , (24596, 4,   305, -1, 0, 0, False) /* Create Quarrel (305) for Shop */
+     , (24596, 4,   306, -1, 0, 0, False) /* Create Longbow (306) for Shop */
+     , (24596, 4,   309, -1, 0, 0, False) /* Create Club (309) for Shop */
+     , (24596, 4,   311, -1, 0, 0, False) /* Create Heavy Crossbow (311) for Shop */
+     , (24596, 4,   331, -1, 0, 0, False) /* Create Mace (331) for Shop */
+     , (24596, 4,   332, -1, 0, 0, False) /* Create Morning Star (332) for Shop */
+     , (24596, 4,   350, -1, 0, 0, False) /* Create Broad Sword (350) for Shop */
+     , (24596, 4,   351, -1, 0, 0, False) /* Create Long Sword (351) for Shop */
+     , (24596, 4,   353, -1, 0, 0, False) /* Create Tachi (353) for Shop */
+     , (24596, 4,   359, -1, 0, 0, False) /* Create War Hammer (359) for Shop */
+     , (24596, 4,   540, -1, 0, 0, False) /* Create Lugian Axe (540) for Shop */
+     , (24596, 4,   541, -1, 0, 0, False) /* Create Lugian Club (541) for Shop */
+     , (24596, 4,   543, -1, 0, 0, False) /* Create Lugian Mace (543) for Shop */
+     , (24596, 4,   544, -1, 0, 0, False) /* Create Lugian Morning Star (544) for Shop */
+     , (24596, 4,  2621, -1, 0, 0, False) /* Create Trade Note (100) (2621) for Shop */
+     , (24596, 4,  2622, -1, 0, 0, False) /* Create Trade Note (500) (2622) for Shop */
+     , (24596, 4,  2623, -1, 0, 0, False) /* Create Trade Note (1,000) (2623) for Shop */
+     , (24596, 4,  2624, -1, 0, 0, False) /* Create Trade Note (5,000) (2624) for Shop */
+     , (24596, 4,  2625, -1, 0, 0, False) /* Create Trade Note (10,000) (2625) for Shop */
+     , (24596, 4,  2626, -1, 0, 0, False) /* Create Trade Note (50,000) (2626) for Shop */
+     , (24596, 4,  2627, -1, 0, 0, False) /* Create Trade Note (100,000) (2627) for Shop */
+     , (24596, 4,  3598, -1, 0, 0, False) /* Create Armor Piercing Arrow (3598) for Shop */
+     , (24596, 4,  3599, -1, 0, 0, False) /* Create Blunt Arrow (3599) for Shop */
+     , (24596, 4,  3601, -1, 0, 0, False) /* Create Frog Crotch Arrow (3601) for Shop */
+     , (24596, 4,  3602, -1, 0, 0, False) /* Create Armor Piercing Quarrel (3602) for Shop */
+     , (24596, 4,  3603, -1, 0, 0, False) /* Create Blunt Quarrel (3603) for Shop */
+     , (24596, 4,  3605, -1, 0, 0, False) /* Create Frog Crotch Quarrel (3605) for Shop */
+     , (24596, 4,  4585, -1, 0, 0, False) /* Create Bundle of Arrowshafts (4585) for Shop */
+     , (24596, 4,  4586, -1, 0, 0, False) /* Create Bundle of Arrowheads (4586) for Shop */
+     , (24596, 4,  5339, -1, 0, 0, False) /* Create Bundle of Quarrelshafts (5339) for Shop */
+     , (24596, 4,  8488, -1, 0, 0, False) /* Create Armet (8488) for Shop */
+     , (24596, 4,  8489, -1, 0, 0, False) /* Create Heaume (8489) for Shop */
+     , (24596, 4,  9359, -1, 0, 0, False) /* Create Wrapped Bundle of Arrowheads (9359) for Shop */
+     , (24596, 4,  9361, -1, 0, 0, False) /* Create Wrapped Bundle of Armor Piercing Arrowheads (9361) for Shop */
+     , (24596, 4,  9362, -1, 0, 0, False) /* Create Wrapped Bundle of Blunt Arrowheads (9362) for Shop */
+     , (24596, 4,  9363, -1, 0, 0, False) /* Create Wrapped Bundle of Broad Arrowheads (9363) for Shop */
+     , (24596, 4,  9366, -1, 0, 0, False) /* Create Wrapped Bundle of Frog Crotch Arrowheads (9366) for Shop */
+     , (24596, 4,  9377, -1, 0, 0, False) /* Create Wrapped Bundle of Arrowshafts (9377) for Shop */
+     , (24596, 4,  9378, -1, 0, 0, False) /* Create Wrapped Bundle of Quarrelshafts (9378) for Shop */
+     , (24596, 4, 12463, -1, 0, 0, False) /* Create Atlatl (12463) for Shop */
+     , (24596, 4, 12464, -1, 0, 0, False) /* Create Atlatl Dart (12464) for Shop */
+     , (24596, 4, 15296, -1, 0, 0, False) /* Create Bundle of Atlatl Dart Shafts (15296) for Shop */
+     , (24596, 4, 15298, -1, 0, 0, False) /* Create Wrapped Bundle of Atlatl Dartshafts (15298) for Shop */
+     , (24596, 4, 20628, -1, 0, 0, False) /* Create Trade Note (150,000) (20628) for Shop */
+     , (24596, 4, 20629, -1, 0, 0, False) /* Create Trade Note (200,000) (20629) for Shop */
+     , (24596, 4, 20630, -1, 0, 0, False) /* Create Trade Note (250,000) (20630) for Shop */
+     , (24596, 2, 23757,  0, 0, 0, False) /* Create Lugian Mace (23757) for Wield */
+     , (24596, 4, 23857, -1, 0, 0, False) /* Create Bundle of Spiketails (23857) for Shop */
+     , (24596, 4, 23858, -1, 0, 0, False) /* Create Bundle of Wrapped Spiketails (23858) for Shop */;

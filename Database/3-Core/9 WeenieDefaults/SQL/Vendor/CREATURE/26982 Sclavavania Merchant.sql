@@ -10,10 +10,10 @@ VALUES (26982,   1,         16) /* ItemType - Creature */
      , (26982,  16,         32) /* ItemUseable - Remote */
      , (26982,  25,         10) /* Level */
      , (26982,  27,          0) /* ArmorType */
-     , (26982,  74,     264192) /* MerchandiseItemTypes */
+     , (26982,  74,     264192) /* MerchandiseItemTypes - Gem, PromissoryNote */
      , (26982,  75,          0) /* MerchandiseMinValue */
      , (26982,  76,    1000000) /* MerchandiseMaxValue */
-     , (26982,  93,    2098204) /* PhysicsState */
+     , (26982,  93,    2098204) /* PhysicsState - Ethereal, ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */
      , (26982, 126,        125) /* VendorHappyMean */
      , (26982, 127,        125) /* VendorHappyVariance */
      , (26982, 133,          4) /* ShowableOnRadar - ShowAlways */
@@ -97,4 +97,4 @@ VALUES (26982,  0,  4,  0,    0,    0,    0,    0,    0,    0,    0,    0,    0,
      , (26982,  8,  4,  2, 0.75,    0,    0,    0,    0,    0,    0,    0,    0,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (26982, 4, 26347, -1, 0, 0, False) /* Create Sclavavania Portal Gem for Shop */;
+VALUES (26982, 4, 26347, -1, 0, 0, False) /* Create Sclavavania Portal Gem (26347) for Shop */;

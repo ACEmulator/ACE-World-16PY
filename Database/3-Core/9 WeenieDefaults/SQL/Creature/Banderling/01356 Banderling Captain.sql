@@ -12,8 +12,8 @@ VALUES (1356,   1,         16) /* ItemType - Creature */
      , (1356,  27,          0) /* ArmorType */
      , (1356,  40,          2) /* CombatMode - Melee */
      , (1356,  68,          3) /* TargetingTactic */
-     , (1356,  93,       1032) /* PhysicsState */
-     , (1356, 101,        131) /* AiAllowedCombatStyle */
+     , (1356,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
+     , (1356, 101,        131) /* AiAllowedCombatStyle - Unarmed, OneHanded, ThrownWeapon */
      , (1356, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (1356, 146,        518) /* XpOverride */;
 
@@ -68,8 +68,21 @@ VALUES (1356,   1,   33558024) /* Setup */
      , (1356,   7,  268436498) /* ClothingBase */
      , (1356,   8,  100667453) /* Icon */
      , (1356,  22,  872415255) /* PhysicsEffectTable */
-     , (1356,  32,         47) /* WieldedTreasureType */
-     , (1356,  35,         48) /* DeathTreasureType */;
+     , (1356,  32,         47) /* WieldedTreasureType - 
+                                   Wield 3x Throwing Axe (304) | Probability: 1%
+                                   Wield 3x Throwing Club (310) | Probability: 1%
+                                   Wield Battle Axe (301) | Probability: 15%
+                                   Wield Club (309) | Probability: 5%
+                                   Wield Dabus (313) | Probability: 10%
+                                   Wield Jo (322) | Probability: 3%
+                                   Wield Kasrullah (325) | Probability: 5%
+                                   Wield Mace (331) | Probability: 10%
+                                   Wield Morning Star (332) | Probability: 15%
+                                   Wield Nabut (333) | Probability: 3%
+                                   Wield Shou-ono (342) | Probability: 10%
+                                   Wield Silifi (344) | Probability: 10%
+                                   Wield Tofun (356) | Probability: 10% */
+     , (1356,  35,         48) /* DeathTreasureType - Loot Tier: 3 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (1356,   1, 100, 0, 0) /* Strength */
@@ -162,4 +175,4 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 268435537 /* Twitch1 */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (1356, 8,  1358,  0, 0, 1, False) /* Create Worn Key for Treasure */;
+VALUES (1356, 8,  1358,  0, 0, 1, False) /* Create Worn Key (1358) for Treasure */;

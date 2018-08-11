@@ -12,8 +12,8 @@ VALUES (619,   1,         16) /* ItemType - Creature */
      , (619,  27,          0) /* ArmorType */
      , (619,  40,          1) /* CombatMode - NonCombat */
      , (619,  68,          3) /* TargetingTactic */
-     , (619,  93,       1032) /* PhysicsState */
-     , (619, 101,        183) /* AiAllowedCombatStyle */
+     , (619,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
+     , (619, 101,        183) /* AiAllowedCombatStyle - Unarmed, OneHanded, OneHandedAndShield, Bow, Crossbow, ThrownWeapon */
      , (619, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (619, 140,          1) /* AiOptions */
      , (619, 146,      12057) /* XpOverride */;
@@ -72,8 +72,13 @@ VALUES (619,   1,   33558541) /* Setup */
      , (619,   7,  268436726) /* ClothingBase */
      , (619,   8,  100667942) /* Icon */
      , (619,  22,  872415272) /* PhysicsEffectTable */
-     , (619,  32,        250) /* WieldedTreasureType */
-     , (619,  35,        451) /* DeathTreasureType */;
+     , (619,  32,        250) /* WieldedTreasureType - 
+                                   Wield Katar (23675) | Probability: 25%
+                                   Wield Nekode (23681) | Probability: 25%
+                                   Wield Cestus (23638) | Probability: 25%
+                                   Wield Tachi (23701) | Probability: 25%
+                                   Wield Kite Shield (23685) | Probability: 85% */
+     , (619,  35,        451) /* DeathTreasureType - Loot Tier: 2 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (619,   1, 175, 0, 0) /* Strength */
@@ -163,17 +168,17 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,  17 /* LocalBroadcast */, 0, 0, NULL, 'As it collapses into a mass of bone and rot, the ancient mage moans, "All our powers come to dust. Is this how it shall end for proud Dericost?"', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (619, 9,     0,  0, 0, 0.97, False) /* Create Unknown for ContainTreasure */
-     , (619, 9,     0,  0, 0, 0.99, False) /* Create Unknown for ContainTreasure */
-     , (619, 9,     0,  0, 0, 0.99, False) /* Create Unknown for ContainTreasure */
-     , (619, 9,     0,  0, 0, 0.97, False) /* Create Unknown for ContainTreasure */
-     , (619, 9,     0,  0, 0, 0.95, False) /* Create Unknown for ContainTreasure */
-     , (619, 9,     0,  0, 0, 0.95, False) /* Create Unknown for ContainTreasure */
-     , (619, 9,     0,  0, 0, 0.95, False) /* Create Unknown for ContainTreasure */
-     , (619, 9,  5873,  0, 0, 0.01, False) /* Create Seal for ContainTreasure */
-     , (619, 9,  6876,  0, 0, 0.01, False) /* Create Sturdy Iron Key for ContainTreasure */
-     , (619, 9,  7041,  0, 0, 0.03, False) /* Create Undead Thighbone for ContainTreasure */
-     , (619, 9,  9310,  0, 0, 0.03, False) /* Create A Large Mnemosyne for ContainTreasure */
-     , (619, 9, 28872,  0, 0, 0.05, False) /* Create Armored Undead Arm  for ContainTreasure */
-     , (619, 9, 28875,  0, 0, 0.05, False) /* Create Armored Undead Legs for ContainTreasure */
-     , (619, 9, 28893,  0, 0, 0.05, False) /* Create Armored Undead Torso for ContainTreasure */;
+VALUES (619, 9,     0,  0, 0, 0.97, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 2 for ContainTreasure */
+     , (619, 9,     0,  0, 0, 0.99, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 2 for ContainTreasure */
+     , (619, 9,     0,  0, 0, 0.99, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 2 for ContainTreasure */
+     , (619, 9,     0,  0, 0, 0.97, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 2 for ContainTreasure */
+     , (619, 9,     0,  0, 0, 0.95, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 2 for ContainTreasure */
+     , (619, 9,     0,  0, 0, 0.95, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 2 for ContainTreasure */
+     , (619, 9,     0,  0, 0, 0.95, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 2 for ContainTreasure */
+     , (619, 9,  5873,  0, 0, 0.01, False) /* Create Seal (5873) for ContainTreasure */
+     , (619, 9,  6876,  0, 0, 0.01, False) /* Create Sturdy Iron Key (6876) for ContainTreasure */
+     , (619, 9,  7041,  0, 0, 0.03, False) /* Create Undead Thighbone (7041) for ContainTreasure */
+     , (619, 9,  9310,  0, 0, 0.03, False) /* Create A Large Mnemosyne (9310) for ContainTreasure */
+     , (619, 9, 28872,  0, 0, 0.05, False) /* Create Armored Undead Arm  (28872) for ContainTreasure */
+     , (619, 9, 28875,  0, 0, 0.05, False) /* Create Armored Undead Legs (28875) for ContainTreasure */
+     , (619, 9, 28893,  0, 0, 0.05, False) /* Create Armored Undead Torso (28893) for ContainTreasure */;

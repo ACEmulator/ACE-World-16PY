@@ -10,7 +10,7 @@ VALUES (30459,   1,          8) /* ItemType - Jewelry */
      , (30459,  16,          1) /* ItemUseable - No */
      , (30459,  19,       2000) /* Value */
      , (30459,  33,          1) /* Bonded - Bonded */
-     , (30459,  93,       1044) /* PhysicsState */
+     , (30459,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (30459, 106,        200) /* ItemSpellcraft */
      , (30459, 107,        700) /* ItemCurMana */
      , (30459, 108,        700) /* ItemMaxMana */

@@ -9,7 +9,7 @@ VALUES (3703,   1,        128) /* ItemType - Misc */
      , (3703,   9,          0) /* ValidLocations - None */
      , (3703,  16,          1) /* ItemUseable - No */
      , (3703,  19,          5) /* Value */
-     , (3703,  93,       1044) /* PhysicsState */
+     , (3703,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (3703, 150,        103) /* HookPlacement - Hook */
      , (3703, 151,          2) /* HookType - Wall */;
 

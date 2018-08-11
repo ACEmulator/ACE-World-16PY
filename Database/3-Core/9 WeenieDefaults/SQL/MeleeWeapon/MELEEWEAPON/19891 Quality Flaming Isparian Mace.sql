@@ -19,7 +19,7 @@ VALUES (19891,   1,          1) /* ItemType - MeleeWeapon */
      , (19891,  48,          5) /* WeaponSkill - Mace */
      , (19891,  49,         35) /* WeaponTime */
      , (19891,  51,          1) /* CombatUse - Melee */
-     , (19891,  93,       1044) /* PhysicsState */
+     , (19891,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (19891, 106,        300) /* ItemSpellcraft */
      , (19891, 107,        300) /* ItemCurMana */
      , (19891, 108,        300) /* ItemMaxMana */

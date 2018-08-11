@@ -12,8 +12,8 @@ VALUES (21032,   1,      32768) /* ItemType - Caster */
      , (21032,  33,          1) /* Bonded - Bonded */
      , (21032,  36,       9999) /* ResistMagic */
      , (21032,  46,        512) /* DefaultCombatStyle - Magic */
-     , (21032,  93,       1044) /* PhysicsState */
-     , (21032,  94,         16) /* TargetType - Creature */
+     , (21032,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (21032,  94,         16) /* TargetType - Reedshark */
      , (21032, 106,        300) /* ItemSpellcraft */
      , (21032, 107,        300) /* ItemCurMana */
      , (21032, 108,        300) /* ItemMaxMana */

@@ -10,7 +10,7 @@ VALUES (11926,   1,         16) /* ItemType - Creature */
      , (11926,  16,          1) /* ItemUseable - No */
      , (11926,  25,         40) /* Level */
      , (11926,  68,          9) /* TargetingTactic */
-     , (11926,  93,    4195336) /* PhysicsState */
+     , (11926,  93,    4195336) /* PhysicsState - ReportCollisions, Gravity, EdgeSlide */
      , (11926, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (11926, 140,          1) /* AiOptions */
      , (11926, 146,       3108) /* XpOverride */;
@@ -67,7 +67,7 @@ VALUES (11926,   1,   33554497) /* Setup */
      , (11926,   7,  268435648) /* ClothingBase */
      , (11926,   8,  100667943) /* Icon */
      , (11926,  22,  872415273) /* PhysicsEffectTable */
-     , (11926,  35,        244) /* DeathTreasureType */;
+     , (11926,  35,        244) /* DeathTreasureType - Loot Tier: 3 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (11926,   1, 150, 0, 0) /* Strength */
@@ -196,7 +196,7 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 268435539 /* Twitch3 */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (11926, 9,     0,  0, 0, 0.95, False) /* Create Unknown for ContainTreasure */
-     , (11926, 9,     0,  0, 0, 0.98, False) /* Create Unknown for ContainTreasure */
-     , (11926, 9,  3697,  0, 0, 0.05, False) /* Create Red Jewel for ContainTreasure */
-     , (11926, 9,  9291,  0, 0, 0.02, False) /* Create Virindi Master Key for ContainTreasure */;
+VALUES (11926, 9,     0,  0, 0, 0.95, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 3 for ContainTreasure */
+     , (11926, 9,     0,  0, 0, 0.98, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 3 for ContainTreasure */
+     , (11926, 9,  3697,  0, 0, 0.05, False) /* Create Red Jewel (3697) for ContainTreasure */
+     , (11926, 9,  9291,  0, 0, 0.02, False) /* Create Virindi Master Key (9291) for ContainTreasure */;

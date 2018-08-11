@@ -15,7 +15,7 @@ VALUES (8032,   1,          2) /* ItemType - Armor */
      , (8032,  33,          1) /* Bonded - Bonded */
      , (8032,  36,       9999) /* ResistMagic */
      , (8032,  51,          4) /* CombatUse - Shield */
-     , (8032,  93,       1044) /* PhysicsState */
+     , (8032,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (8032, 106,        150) /* ItemSpellcraft */
      , (8032, 107,        250) /* ItemCurMana */
      , (8032, 108,        300) /* ItemMaxMana */

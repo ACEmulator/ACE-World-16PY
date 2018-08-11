@@ -4,15 +4,15 @@ VALUES ('2017', 'greenmirescalehauberk', 2) /* Clothing */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (2017,   1,          2) /* ItemType - Armor */
      , (2017,   3,          8) /* PaletteTemplate - Green */
-     , (2017,   4,       3072) /* ClothingPriority */
+     , (2017,   4,       3072) /* ClothingPriority - OuterwearChest, OuterwearAbdomen */
      , (2017,   5,        915) /* EncumbranceVal */
      , (2017,   8,        800) /* Mass */
-     , (2017,   9,       1536) /* ValidLocations */
+     , (2017,   9,       1536) /* ValidLocations - ChestArmor, AbdomenArmor */
      , (2017,  16,          1) /* ItemUseable - No */
      , (2017,  19,       2100) /* Value */
      , (2017,  27,         32) /* ArmorType */
      , (2017,  28,        120) /* ArmorLevel */
-     , (2017,  93,       1044) /* PhysicsState */
+     , (2017,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (2017, 106,        110) /* ItemSpellcraft */
      , (2017, 107,        320) /* ItemCurMana */
      , (2017, 108,        320) /* ItemMaxMana */

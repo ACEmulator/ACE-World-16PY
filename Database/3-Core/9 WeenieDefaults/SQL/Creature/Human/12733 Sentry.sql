@@ -10,7 +10,7 @@ VALUES (12733,   1,         16) /* ItemType - Creature */
      , (12733,  16,         32) /* ItemUseable - Remote */
      , (12733,  25,         35) /* Level */
      , (12733,  27,          0) /* ArmorType */
-     , (12733,  93,    6292504) /* PhysicsState */
+     , (12733,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (12733,  95,          8) /* RadarBlipColor - Yellow */
      , (12733, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (12733, 134,         16) /* PlayerKillerStatus - RubberGlue */
@@ -432,5 +432,5 @@ VALUES (@parent_id,  0,   2 /* AwardXP */, 0, 1, NULL, NULL, NULL, NULL, NULL, N
      , (@parent_id,  5,  10 /* Tell */, 1, 1, NULL, 'She is the Explorer Society Agent in Holtburg; you can recognize her by her green robes. You will find her in the bar, which will be ahead of you and very slightly to the right when you exit the portal.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (12733, 2,   118,  0, 14, 0.7, False) /* Create Cap for Wield */
-     , (12733, 2, 10870,  0, 17, 0.7, False) /* Create Canescent Mattekar Robe for Wield */;
+VALUES (12733, 2,   118,  0, 14, 0.7, False) /* Create Cap (118) for Wield */
+     , (12733, 2, 10870,  0, 17, 0.7, False) /* Create Canescent Mattekar Robe (10870) for Wield */;

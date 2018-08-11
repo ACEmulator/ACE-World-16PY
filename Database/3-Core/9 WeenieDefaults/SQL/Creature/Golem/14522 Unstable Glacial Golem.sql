@@ -12,7 +12,7 @@ VALUES (14522,   1,         16) /* ItemType - Creature */
      , (14522,  27,          0) /* ArmorType */
      , (14522,  40,          2) /* CombatMode - Melee */
      , (14522,  68,          9) /* TargetingTactic */
-     , (14522,  93,       3080) /* PhysicsState */
+     , (14522,  93,       3080) /* PhysicsState - ReportCollisions, Gravity, LightingOn */
      , (14522, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (14522, 146,       6192) /* XpOverride */;
 
@@ -72,7 +72,7 @@ VALUES (14522,   1,   33557484) /* Setup */
      , (14522,   7,  268436246) /* ClothingBase */
      , (14522,   8,  100667940) /* Icon */
      , (14522,  22,  872415325) /* PhysicsEffectTable */
-     , (14522,  35,         90) /* DeathTreasureType */;
+     , (14522,  35,         90) /* DeathTreasureType - Loot Tier: 3 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (14522,   1, 150, 0, 0) /* Strength */
@@ -149,5 +149,5 @@ VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 1090519043 /* Ready */, NULL, NU
      , (@parent_id,  1,   5 /* Motion */, 0, 1, 1090519060 /* Sleeping */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (14522, 9,     0,  0, 0, 0.99, False) /* Create Unknown for ContainTreasure */
-     , (14522, 9,  6353,  0, 0, 0.01, False) /* Create Pyreal Mote for ContainTreasure */;
+VALUES (14522, 9,     0,  0, 0, 0.99, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 3 for ContainTreasure */
+     , (14522, 9,  6353,  0, 0, 0.01, False) /* Create Pyreal Mote (6353) for ContainTreasure */;

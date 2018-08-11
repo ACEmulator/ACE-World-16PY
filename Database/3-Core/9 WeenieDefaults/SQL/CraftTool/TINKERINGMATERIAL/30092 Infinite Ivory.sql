@@ -15,10 +15,10 @@ VALUES (30092,   1, 1073741824) /* ItemType - TinkeringMaterial */
      , (30092,  16,          1) /* ItemUseable - No */
      , (30092,  19,          0) /* Value */
      , (30092,  91,        100) /* MaxStructure */
-     , (30092,  93,       1044) /* PhysicsState */
+     , (30092,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (30092, 131,         11) /* MaterialType - Amber */
      , (30092, 150,        103) /* HookPlacement - Hook */
-     , (30092, 151,          9) /* HookType */;
+     , (30092, 151,          9) /* HookType - Floor, Yard */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (30092,  22, True ) /* Inscribable */;

@@ -12,7 +12,7 @@ VALUES (15296,   1,  134217728) /* ItemType - CraftFletchingIntermediate */
      , (15296,  14,          5) /* StackUnitMass */
      , (15296,  15,          5) /* StackUnitValue */
      , (15296,  19,          5) /* Value */
-     , (15296,  93,       1044) /* PhysicsState */;
+     , (15296,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (15296,  69, False) /* IsSellable */;

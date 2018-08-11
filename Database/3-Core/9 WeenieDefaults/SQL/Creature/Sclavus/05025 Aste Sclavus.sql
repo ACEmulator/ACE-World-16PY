@@ -11,8 +11,8 @@ VALUES (5025,   1,         16) /* ItemType - Creature */
      , (5025,  27,          0) /* ArmorType */
      , (5025,  40,          2) /* CombatMode - Melee */
      , (5025,  68,          3) /* TargetingTactic */
-     , (5025,  93,       1032) /* PhysicsState */
-     , (5025, 101,        183) /* AiAllowedCombatStyle */
+     , (5025,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
+     , (5025, 101,        183) /* AiAllowedCombatStyle - Unarmed, OneHanded, OneHandedAndShield, Bow, Crossbow, ThrownWeapon */
      , (5025, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (5025, 146,        621) /* XpOverride */;
 
@@ -66,8 +66,22 @@ VALUES (5025,   1,   33555608) /* Setup */
      , (5025,   4,  805306393) /* CombatTable */
      , (5025,   8,  100669120) /* Icon */
      , (5025,  22,  872415280) /* PhysicsEffectTable */
-     , (5025,  32,        165) /* WieldedTreasureType */
-     , (5025,  35,        166) /* DeathTreasureType */;
+     , (5025,  32,        165) /* WieldedTreasureType - 
+                                   Wield Yumi (23734) | Probability: 80%
+                                   Wield 14x Deadly Arrow (15429) | Probability: 100%
+                                   Wield Katar (23674) | Probability: 10%
+                                   Wield Kite Shield (23684) | Probability: 100%
+                                   Wield Nekode (23680) | Probability: 10%
+                                   Wield Kite Shield (23684) | Probability: 100%
+                                   Wield Cestus (23637) | Probability: 10%
+                                   Wield Kite Shield (23684) | Probability: 100%
+                                   Wield Spear (23696) | Probability: 10%
+                                   Wield Kite Shield (23684) | Probability: 100%
+                                   Wield Tachi (23700) | Probability: 10%
+                                   Wield Kite Shield (23684) | Probability: 100%
+                                   Wield Yari (23730) | Probability: 50%
+                                   Wield Kite Shield (23684) | Probability: 100% */
+     , (5025,  35,        166) /* DeathTreasureType - Loot Tier: 3 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (5025,   1, 120, 0, 0) /* Strength */
@@ -127,5 +141,5 @@ VALUES (5025,  94) /* ATTACK_NOTIFICATION_EVENT */
      , (5025, 414) /* PLAYER_DEATH_EVENT */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (5025, 1,  5017,  0, 0, 0, False) /* Create Dagger of Tikola for Contain */
-     , (5025, 1,  5022,  0, 0, 0, False) /* Create Key for Contain */;
+VALUES (5025, 1,  5017,  0, 0, 0, False) /* Create Dagger of Tikola (5017) for Contain */
+     , (5025, 1,  5022,  0, 0, 0, False) /* Create Key (5022) for Contain */;

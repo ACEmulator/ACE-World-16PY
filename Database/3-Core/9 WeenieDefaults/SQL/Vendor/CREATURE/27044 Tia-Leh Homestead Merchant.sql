@@ -10,10 +10,10 @@ VALUES (27044,   1,         16) /* ItemType - Creature */
      , (27044,  16,         32) /* ItemUseable - Remote */
      , (27044,  25,         10) /* Level */
      , (27044,  27,          0) /* ArmorType */
-     , (27044,  74,     264192) /* MerchandiseItemTypes */
+     , (27044,  74,     264192) /* MerchandiseItemTypes - Gem, PromissoryNote */
      , (27044,  75,          0) /* MerchandiseMinValue */
      , (27044,  76,    1000000) /* MerchandiseMaxValue */
-     , (27044,  93,    2098204) /* PhysicsState */
+     , (27044,  93,    2098204) /* PhysicsState - Ethereal, ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */
      , (27044, 126,        125) /* VendorHappyMean */
      , (27044, 127,        125) /* VendorHappyVariance */
      , (27044, 133,          4) /* ShowableOnRadar - ShowAlways */
@@ -97,4 +97,4 @@ VALUES (27044,  0,  4,  0,    0,    0,    0,    0,    0,    0,    0,    0,    0,
      , (27044,  8,  4,  2, 0.75,    0,    0,    0,    0,    0,    0,    0,    0,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (27044, 4, 26409, -1, 0, 0, False) /* Create Tia-Leh Homestead Portal Gem for Shop */;
+VALUES (27044, 4, 26409, -1, 0, 0, False) /* Create Tia-Leh Homestead Portal Gem (26409) for Shop */;

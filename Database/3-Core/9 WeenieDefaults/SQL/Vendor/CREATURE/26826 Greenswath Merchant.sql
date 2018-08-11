@@ -10,10 +10,10 @@ VALUES (26826,   1,         16) /* ItemType - Creature */
      , (26826,  16,         32) /* ItemUseable - Remote */
      , (26826,  25,         10) /* Level */
      , (26826,  27,          0) /* ArmorType */
-     , (26826,  74,     264192) /* MerchandiseItemTypes */
+     , (26826,  74,     264192) /* MerchandiseItemTypes - Gem, PromissoryNote */
      , (26826,  75,          0) /* MerchandiseMinValue */
      , (26826,  76,    1000000) /* MerchandiseMaxValue */
-     , (26826,  93,    2098204) /* PhysicsState */
+     , (26826,  93,    2098204) /* PhysicsState - Ethereal, ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */
      , (26826, 126,        125) /* VendorHappyMean */
      , (26826, 127,        125) /* VendorHappyVariance */
      , (26826, 133,          4) /* ShowableOnRadar - ShowAlways */
@@ -97,4 +97,4 @@ VALUES (26826,  0,  4,  0,    0,    0,    0,    0,    0,    0,    0,    0,    0,
      , (26826,  8,  4,  2, 0.75,    0,    0,    0,    0,    0,    0,    0,    0,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (26826, 4, 26191, -1, 0, 0, False) /* Create Greenswath Portal Gem for Shop */;
+VALUES (26826, 4, 26191, -1, 0, 0, False) /* Create Greenswath Portal Gem (26191) for Shop */;

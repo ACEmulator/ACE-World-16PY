@@ -12,7 +12,7 @@ VALUES (614,   1,        512) /* ItemType - Container */
      , (614,  37,         50) /* ResistItemAppraisal */
      , (614,  38,        120) /* ResistLockpick */
      , (614,  83,          2) /* ActivationResponse - Use */
-     , (614,  93,       1048) /* PhysicsState */
+     , (614,  93,       1048) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity */
      , (614,  96,        500) /* EncumbranceCapacity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)

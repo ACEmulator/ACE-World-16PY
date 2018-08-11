@@ -10,10 +10,10 @@ VALUES (26830,   1,         16) /* ItemType - Creature */
      , (26830,  16,         32) /* ItemUseable - Remote */
      , (26830,  25,         10) /* Level */
      , (26830,  27,          0) /* ArmorType */
-     , (26830,  74,     264192) /* MerchandiseItemTypes */
+     , (26830,  74,     264192) /* MerchandiseItemTypes - Gem, PromissoryNote */
      , (26830,  75,          0) /* MerchandiseMinValue */
      , (26830,  76,    1000000) /* MerchandiseMaxValue */
-     , (26830,  93,    2098204) /* PhysicsState */
+     , (26830,  93,    2098204) /* PhysicsState - Ethereal, ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */
      , (26830, 126,        125) /* VendorHappyMean */
      , (26830, 127,        125) /* VendorHappyVariance */
      , (26830, 133,          4) /* ShowableOnRadar - ShowAlways */
@@ -97,4 +97,4 @@ VALUES (26830,  0,  4,  0,    0,    0,    0,    0,    0,    0,    0,    0,    0,
      , (26830,  8,  4,  2, 0.75,    0,    0,    0,    0,    0,    0,    0,    0,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (26830, 4, 26195, -1, 0, 0, False) /* Create Hand-on-Sword Cottages Portal Gem for Shop */;
+VALUES (26830, 4, 26195, -1, 0, 0, False) /* Create Hand-on-Sword Cottages Portal Gem (26195) for Shop */;

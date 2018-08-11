@@ -4,8 +4,8 @@ VALUES ('30471', 'portalpowerforgewestexit', 7) /* Portal */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (30471,   1,      65536) /* ItemType - Portal */
      , (30471,  16,         32) /* ItemUseable - Remote */
-     , (30471,  93,       3084) /* PhysicsState */
-     , (30471, 111,         49) /* PortalBitmask */
+     , (30471,  93,       3084) /* PhysicsState - Ethereal, ReportCollisions, Gravity, LightingOn */
+     , (30471, 111,         49) /* PortalBitmask - Unrestricted, NoSummon, NoRecall */
      , (30471, 133,          4) /* ShowableOnRadar - ShowAlways */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)

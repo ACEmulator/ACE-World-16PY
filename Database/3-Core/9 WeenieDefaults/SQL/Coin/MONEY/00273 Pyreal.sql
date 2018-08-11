@@ -13,7 +13,7 @@ VALUES (273,   1,         64) /* ItemType - Money */
      , (273,  16,          1) /* ItemUseable - No */
      , (273,  19,          1) /* Value */
      , (273,  20,          1) /* CoinValue */
-     , (273,  93,       1044) /* PhysicsState */;
+     , (273,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (273,   1, 'Pyreal') /* Name */;

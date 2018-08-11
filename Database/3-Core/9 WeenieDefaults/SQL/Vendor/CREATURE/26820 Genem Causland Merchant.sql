@@ -10,10 +10,10 @@ VALUES (26820,   1,         16) /* ItemType - Creature */
      , (26820,  16,         32) /* ItemUseable - Remote */
      , (26820,  25,         10) /* Level */
      , (26820,  27,          0) /* ArmorType */
-     , (26820,  74,     264192) /* MerchandiseItemTypes */
+     , (26820,  74,     264192) /* MerchandiseItemTypes - Gem, PromissoryNote */
      , (26820,  75,          0) /* MerchandiseMinValue */
      , (26820,  76,    1000000) /* MerchandiseMaxValue */
-     , (26820,  93,    2098204) /* PhysicsState */
+     , (26820,  93,    2098204) /* PhysicsState - Ethereal, ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */
      , (26820, 126,        125) /* VendorHappyMean */
      , (26820, 127,        125) /* VendorHappyVariance */
      , (26820, 133,          4) /* ShowableOnRadar - ShowAlways */
@@ -97,4 +97,4 @@ VALUES (26820,  0,  4,  0,    0,    0,    0,    0,    0,    0,    0,    0,    0,
      , (26820,  8,  4,  2, 0.75,    0,    0,    0,    0,    0,    0,    0,    0,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (26820, 4, 26185, -1, 0, 0, False) /* Create Genem Causland Portal Gem for Shop */;
+VALUES (26820, 4, 26185, -1, 0, 0, False) /* Create Genem Causland Portal Gem (26185) for Shop */;

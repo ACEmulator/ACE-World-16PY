@@ -10,7 +10,7 @@ VALUES (25463,   1,        512) /* ItemType - Container */
      , (25463,   8,        120) /* Mass */
      , (25463,  16,         48) /* ItemUseable - ViewedRemote */
      , (25463,  19,          0) /* Value */
-     , (25463,  93,       1044) /* PhysicsState */
+     , (25463,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (25463,  96,       4000) /* EncumbranceCapacity */
      , (25463, 156,          0) /* PickupEmoteOffset */;
 

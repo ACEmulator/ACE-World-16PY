@@ -15,10 +15,10 @@ VALUES (30163,   1,       2048) /* ItemType - Gem */
      , (30163,  16,          8) /* ItemUseable - Contained */
      , (30163,  18,          1) /* UiEffects - Magical */
      , (30163,  19,          0) /* Value */
-     , (30163,  93,       1044) /* PhysicsState */
-     , (30163,  94,         16) /* TargetType - Creature */
+     , (30163,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (30163,  94,         16) /* TargetType - Reedshark */
      , (30163, 150,        103) /* HookPlacement - Hook */
-     , (30163, 151,         11) /* HookType */;
+     , (30163, 151,         11) /* HookType - Floor, Wall, Yard */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (30163,  22, True ) /* Inscribable */;

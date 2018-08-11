@@ -6,8 +6,8 @@ VALUES (21524,   1,      65536) /* ItemType - Portal */
      , (21524,   9,          0) /* ValidLocations - None */
      , (21524,  16,          1) /* ItemUseable - No */
      , (21524,  83,       4096) /* ActivationResponse - CastSpell */
-     , (21524,  93,       2060) /* PhysicsState */
-     , (21524, 111,         49) /* PortalBitmask */;
+     , (21524,  93,       2060) /* PhysicsState - Ethereal, ReportCollisions, LightingOn */
+     , (21524, 111,         49) /* PortalBitmask - Unrestricted, NoSummon, NoRecall */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (21524,   1, True ) /* Stuck */

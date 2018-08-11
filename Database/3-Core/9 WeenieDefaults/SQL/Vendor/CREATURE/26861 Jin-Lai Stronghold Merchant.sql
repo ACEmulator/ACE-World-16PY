@@ -10,10 +10,10 @@ VALUES (26861,   1,         16) /* ItemType - Creature */
      , (26861,  16,         32) /* ItemUseable - Remote */
      , (26861,  25,         10) /* Level */
      , (26861,  27,          0) /* ArmorType */
-     , (26861,  74,     264192) /* MerchandiseItemTypes */
+     , (26861,  74,     264192) /* MerchandiseItemTypes - Gem, PromissoryNote */
      , (26861,  75,          0) /* MerchandiseMinValue */
      , (26861,  76,    1000000) /* MerchandiseMaxValue */
-     , (26861,  93,    2098204) /* PhysicsState */
+     , (26861,  93,    2098204) /* PhysicsState - Ethereal, ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */
      , (26861, 126,        125) /* VendorHappyMean */
      , (26861, 127,        125) /* VendorHappyVariance */
      , (26861, 133,          4) /* ShowableOnRadar - ShowAlways */
@@ -97,4 +97,4 @@ VALUES (26861,  0,  4,  0,    0,    0,    0,    0,    0,    0,    0,    0,    0,
      , (26861,  8,  4,  2, 0.75,    0,    0,    0,    0,    0,    0,    0,    0,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (26861, 4, 26226, -1, 0, 0, False) /* Create Jin-Lai Stronghold Portal Gem for Shop */;
+VALUES (26861, 4, 26226, -1, 0, 0, False) /* Create Jin-Lai Stronghold Portal Gem (26226) for Shop */;

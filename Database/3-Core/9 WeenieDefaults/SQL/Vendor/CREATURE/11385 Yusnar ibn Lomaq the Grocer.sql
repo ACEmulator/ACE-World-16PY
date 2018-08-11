@@ -10,10 +10,10 @@ VALUES (11385,   1,         16) /* ItemType - Creature */
      , (11385,  16,         32) /* ItemUseable - Remote */
      , (11385,  25,          4) /* Level */
      , (11385,  27,          0) /* ArmorType */
-     , (11385,  74,    4465312) /* MerchandiseItemTypes */
+     , (11385,  74,    4465312) /* MerchandiseItemTypes - Food, LockableMagicTarget, Writable, PromissoryNote, CraftCookingBase */
      , (11385,  75,          0) /* MerchandiseMinValue */
      , (11385,  76,      25000) /* MerchandiseMaxValue */
-     , (11385,  93,    2098200) /* PhysicsState */
+     , (11385,  93,    2098200) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */
      , (11385, 126,       2000) /* VendorHappyMean */
      , (11385, 127,       1000) /* VendorHappyVariance */
      , (11385, 133,          4) /* ShowableOnRadar - ShowAlways */
@@ -163,38 +163,38 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 318767235 /* Nod */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (11385, 2,   117,  0, 14, 0.8, False) /* Create Breeches for Wield */
-     , (11385, 2,   132,  0, 12, 1, False) /* Create Shoes for Wield */
-     , (11385, 2,   134,  0, 14, 0.8, False) /* Create Tunic for Wield */
-     , (11385, 4,   136, -1, 2, 1, False) /* Create Pack for Shop */
-     , (11385, 4,   260, -1, 0, 0, False) /* Create Cabbage for Shop */
-     , (11385, 4,   262, -1, 0, 0, False) /* Create Chicken for Shop */
-     , (11385, 4,   264, -1, 0, 0, False) /* Create Grapes for Shop */
-     , (11385, 4,   547, -1, 0, 0, False) /* Create Brimstone-cap Mushroom for Shop */
-     , (11385, 4,  2463, -1, 0, 0, False) /* Create Milk for Shop */
-     , (11385, 4,  4753, -1, 0, 0, False) /* Create Side of Beef for Shop */
-     , (11385, 4,  4754, -1, 0, 0, False) /* Create Baking Pan for Shop */
-     , (11385, 4,  4755, -1, 0, 0, False) /* Create Brine for Shop */
-     , (11385, 4,  4757, -1, 0, 0, False) /* Create Carving Knife for Shop */
-     , (11385, 4,  4759, -1, 0, 0, False) /* Create Cooking Pot for Shop */
-     , (11385, 4,  4763, -1, 0, 0, False) /* Create Honey for Shop */
-     , (11385, 4,  4763, -1, 0, 0, False) /* Create Honey for Shop */
-     , (11385, 4,  4766, -1, 0, 0, False) /* Create Rennet for Shop */
-     , (11385, 4,  4767, -1, 0, 0, False) /* Create Skewer for Shop */
-     , (11385, 4,  5583, -1, 0, 0, False) /* Create Aluvian Cookbook for Shop */
-     , (11385, 4,  5584, -1, 0, 0, False) /* Create Gharu'ndim Cookbook for Shop */
-     , (11385, 4,  5585, -1, 0, 0, False) /* Create Sho Cookbook for Shop */
-     , (11385, 4,  5586, -1, 0, 0, False) /* Create Alchemy Guide for Shop */
-     , (11385, 4,  5587, -1, 0, 0, False) /* Create Fletching Guide for Shop */
-     , (11385, 4,  5758, -1, 0, 0, False) /* Create Carrot for Shop */
-     , (11385, 4,  5856, -1, 0, 0, False) /* Create Specialty Cookbook for Shop */
-     , (11385, 4,  7823, -1, 0, 0, False) /* Create Heavy Grinder for Shop */
-     , (11385, 4,  7884, -1, 0, 0, False) /* Create Chocolate Cookbook for Shop */
-     , (11385, 2, 10696,  0, 1, 1, False) /* Create Apron for Wield */
-     , (11385, 4, 14797, -1, 0, 0, False) /* Create Festival Cookbook for Shop */
-     , (11385, 4, 23326, -1, 0, 0, False) /* Create Elaborate Dried Rations for Shop */
-     , (11385, 4, 23327, -1, 0, 0, False) /* Create Simple Dried Rations for Shop */;
+VALUES (11385, 2,   117,  0, 14, 0.8, False) /* Create Breeches (117) for Wield */
+     , (11385, 2,   132,  0, 12, 1, False) /* Create Shoes (132) for Wield */
+     , (11385, 2,   134,  0, 14, 0.8, False) /* Create Tunic (134) for Wield */
+     , (11385, 4,   136, -1, 2, 1, False) /* Create Pack (136) for Shop */
+     , (11385, 4,   260, -1, 0, 0, False) /* Create Cabbage (260) for Shop */
+     , (11385, 4,   262, -1, 0, 0, False) /* Create Chicken (262) for Shop */
+     , (11385, 4,   264, -1, 0, 0, False) /* Create Grapes (264) for Shop */
+     , (11385, 4,   547, -1, 0, 0, False) /* Create Brimstone-cap Mushroom (547) for Shop */
+     , (11385, 4,  2463, -1, 0, 0, False) /* Create Milk (2463) for Shop */
+     , (11385, 4,  4753, -1, 0, 0, False) /* Create Side of Beef (4753) for Shop */
+     , (11385, 4,  4754, -1, 0, 0, False) /* Create Baking Pan (4754) for Shop */
+     , (11385, 4,  4755, -1, 0, 0, False) /* Create Brine (4755) for Shop */
+     , (11385, 4,  4757, -1, 0, 0, False) /* Create Carving Knife (4757) for Shop */
+     , (11385, 4,  4759, -1, 0, 0, False) /* Create Cooking Pot (4759) for Shop */
+     , (11385, 4,  4763, -1, 0, 0, False) /* Create Honey (4763) for Shop */
+     , (11385, 4,  4763, -1, 0, 0, False) /* Create Honey (4763) for Shop */
+     , (11385, 4,  4766, -1, 0, 0, False) /* Create Rennet (4766) for Shop */
+     , (11385, 4,  4767, -1, 0, 0, False) /* Create Skewer (4767) for Shop */
+     , (11385, 4,  5583, -1, 0, 0, False) /* Create Aluvian Cookbook (5583) for Shop */
+     , (11385, 4,  5584, -1, 0, 0, False) /* Create Gharu'ndim Cookbook (5584) for Shop */
+     , (11385, 4,  5585, -1, 0, 0, False) /* Create Sho Cookbook (5585) for Shop */
+     , (11385, 4,  5586, -1, 0, 0, False) /* Create Alchemy Guide (5586) for Shop */
+     , (11385, 4,  5587, -1, 0, 0, False) /* Create Fletching Guide (5587) for Shop */
+     , (11385, 4,  5758, -1, 0, 0, False) /* Create Carrot (5758) for Shop */
+     , (11385, 4,  5856, -1, 0, 0, False) /* Create Specialty Cookbook (5856) for Shop */
+     , (11385, 4,  7823, -1, 0, 0, False) /* Create Heavy Grinder (7823) for Shop */
+     , (11385, 4,  7884, -1, 0, 0, False) /* Create Chocolate Cookbook (7884) for Shop */
+     , (11385, 2, 10696,  0, 1, 1, False) /* Create Apron (10696) for Wield */
+     , (11385, 4, 14797, -1, 0, 0, False) /* Create Festival Cookbook (14797) for Shop */
+     , (11385, 4, 23326, -1, 0, 0, False) /* Create Elaborate Dried Rations (23326) for Shop */
+     , (11385, 4, 23327, -1, 0, 0, False) /* Create Simple Dried Rations (23327) for Shop */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (11385, -1, 4746, 60, 25, 75, 2, 32, 1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0)
-     , (11385, -1, 4761, 60, 25, 75, 2, 32, 1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0);
+VALUES (11385, -1, 4746, 60, 25, 75, 2, 32, 1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Water (4746) (x25 up to max of 75) - Regenerate upon PickUp - Location to (re)Generate: Shop */
+     , (11385, -1, 4761, 60, 25, 75, 2, 32, 1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Flour (4761) (x25 up to max of 75) - Regenerate upon PickUp - Location to (re)Generate: Shop */;

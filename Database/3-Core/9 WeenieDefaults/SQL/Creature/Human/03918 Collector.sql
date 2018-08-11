@@ -10,7 +10,7 @@ VALUES (3918,   1,         16) /* ItemType - Creature */
      , (3918,  16,         32) /* ItemUseable - Remote */
      , (3918,  25,          4) /* Level */
      , (3918,  27,          0) /* ArmorType */
-     , (3918,  93,    6292504) /* PhysicsState */
+     , (3918,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (3918,  95,          8) /* RadarBlipColor - Yellow */
      , (3918, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (3918, 134,         16) /* PlayerKillerStatus - RubberGlue */
@@ -1039,6 +1039,6 @@ VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 1090519043 /* Ready */, NULL, NU
      , (@parent_id,  2,  10 /* Tell */, 1, 1, NULL, 'I''m interested in monster trophies from common rats,  red phyntos wasps, armoredillos, drudges, mosswarts and banderlings. If you give me such an item, I will reward you with money or an item. Sorry, but I don''t deal in hides.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (3918, 2,   132,  0, 4, 0.8, False) /* Create Shoes for Wield */
-     , (3918, 2,  2596,  0, 9, 1, False) /* Create Doublet for Wield */
-     , (3918, 2,  2604,  0, 9, 1, False) /* Create Breeches for Wield */;
+VALUES (3918, 2,   132,  0, 4, 0.8, False) /* Create Shoes (132) for Wield */
+     , (3918, 2,  2596,  0, 9, 1, False) /* Create Doublet (2596) for Wield */
+     , (3918, 2,  2604,  0, 9, 1, False) /* Create Breeches (2604) for Wield */;

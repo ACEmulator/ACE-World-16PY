@@ -11,7 +11,7 @@ VALUES (19127,   1,         16) /* ItemType - Creature */
      , (19127,  16,         32) /* ItemUseable - Remote */
      , (19127,  25,         28) /* Level */
      , (19127,  27,          0) /* ArmorType */
-     , (19127,  93,    6292504) /* PhysicsState */
+     , (19127,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (19127,  95,          8) /* RadarBlipColor - Yellow */
      , (19127, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (19127, 134,         16) /* PlayerKillerStatus - RubberGlue */
@@ -738,12 +738,12 @@ VALUES (@parent_id,  0,  18 /* DirectBroadcast */, 0, 1, NULL, 'Verdentine studi
      , (@parent_id,  9,   5 /* Motion */, 1, 1, 1090519043 /* Ready */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (19127, 2,    57,  0, 14, 0.46, False) /* Create Platemail Gauntlets for Wield */
-     , (19127, 2,    64,  0, 2, 0.47, False) /* Create Yoroi Girth for Wield */
-     , (19127, 2,   106,  0, 14, 0.66, False) /* Create Yoroi Sleeves for Wield */
-     , (19127, 2,  2437,  0, 2, 0.66, False) /* Create Yoroi Leggings for Wield */
-     , (19127, 2,  2592,  0, 2, 0.580248, False) /* Create Tunic for Wield */
-     , (19127, 2,  2597,  0, 2, 0.484848, False) /* Create Pants for Wield */
-     , (19127, 2,  6598,  0, 14, 0.8, False) /* Create Lesser Koujia Shadow Breastplate for Wield */
-     , (19127, 2,  7897,  0, 14, 0.8, False) /* Create Steel Toed Boots for Wield */
-     , (19127, 2,  8394,  0, 14, 0.3321, False) /* Create Olthoi Helm for Wield */;
+VALUES (19127, 2,    57,  0, 14, 0.46, False) /* Create Platemail Gauntlets (57) for Wield */
+     , (19127, 2,    64,  0, 2, 0.47, False) /* Create Yoroi Girth (64) for Wield */
+     , (19127, 2,   106,  0, 14, 0.66, False) /* Create Yoroi Sleeves (106) for Wield */
+     , (19127, 2,  2437,  0, 2, 0.66, False) /* Create Yoroi Leggings (2437) for Wield */
+     , (19127, 2,  2592,  0, 2, 0.580248, False) /* Create Tunic (2592) for Wield */
+     , (19127, 2,  2597,  0, 2, 0.484848, False) /* Create Pants (2597) for Wield */
+     , (19127, 2,  6598,  0, 14, 0.8, False) /* Create Lesser Koujia Shadow Breastplate (6598) for Wield */
+     , (19127, 2,  7897,  0, 14, 0.8, False) /* Create Steel Toed Boots (7897) for Wield */
+     , (19127, 2,  8394,  0, 14, 0.3321, False) /* Create Olthoi Helm (8394) for Wield */;

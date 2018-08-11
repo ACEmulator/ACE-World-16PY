@@ -11,7 +11,7 @@ VALUES (30387,   1,         16) /* ItemType - Creature */
      , (30387,  16,         32) /* ItemUseable - Remote */
      , (30387,  25,         47) /* Level */
      , (30387,  27,          0) /* ArmorType */
-     , (30387,  93,    6292504) /* PhysicsState */
+     , (30387,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (30387,  95,          8) /* RadarBlipColor - Yellow */
      , (30387, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (30387, 134,         16) /* PlayerKillerStatus - RubberGlue */
@@ -145,6 +145,6 @@ VALUES (@parent_id,  0,  12 /* TurnToTarget */, 0, 1, NULL, NULL, NULL, NULL, NU
      , (@parent_id,  4,  10 /* Tell */, 0.5, 1, NULL, 'I fear I am not strong enough to re-enter the Pit. But perhaps you could do it! Go to the Pit at 64N, 23W. Find the package, then take it to my brother at the Beach Fort at 76N, 49W!', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (30387, 2,  2587,  0, 4, 0.6, False) /* Create Shirt for Wield */
-     , (30387, 2,  2603,  0, 9, 0, False) /* Create Breeches for Wield */
-     , (30387, 2,  2606,  0, 9, 0, False) /* Create Boots for Wield */;
+VALUES (30387, 2,  2587,  0, 4, 0.6, False) /* Create Shirt (2587) for Wield */
+     , (30387, 2,  2603,  0, 9, 0, False) /* Create Breeches (2603) for Wield */
+     , (30387, 2,  2606,  0, 9, 0, False) /* Create Boots (2606) for Wield */;

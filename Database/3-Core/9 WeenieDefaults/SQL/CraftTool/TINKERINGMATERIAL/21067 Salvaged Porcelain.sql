@@ -16,11 +16,11 @@ VALUES (21067,   1, 1073741824) /* ItemType - TinkeringMaterial */
      , (21067,  19,         10) /* Value */
      , (21067,  33,          1) /* Bonded - Bonded */
      , (21067,  91,        100) /* MaxStructure */
-     , (21067,  93,       1044) /* PhysicsState */
-     , (21067,  94,      35215) /* TargetType */
+     , (21067,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (21067,  94,      35215) /* TargetType - 35215 */
      , (21067, 131,          2) /* MaterialType - Porcelain */
      , (21067, 150,        103) /* HookPlacement - Hook */
-     , (21067, 151,          9) /* HookType */;
+     , (21067, 151,          9) /* HookType - Floor, Yard */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (21067,  22, True ) /* Inscribable */

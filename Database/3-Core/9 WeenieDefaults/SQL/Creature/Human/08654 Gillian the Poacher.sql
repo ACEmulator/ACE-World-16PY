@@ -10,7 +10,7 @@ VALUES (8654,   1,         16) /* ItemType - Creature */
      , (8654,  16,         32) /* ItemUseable - Remote */
      , (8654,  25,         45) /* Level */
      , (8654,  27,          0) /* ArmorType */
-     , (8654,  93,    6292504) /* PhysicsState */
+     , (8654,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (8654,  95,          8) /* RadarBlipColor - Yellow */
      , (8654, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (8654, 134,         16) /* PlayerKillerStatus - RubberGlue */
@@ -695,6 +695,6 @@ VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 1090519043 /* Ready */, NULL, NU
      , (@parent_id,  2,  10 /* Tell */, 1, 1, NULL, 'It seems like Dereth is going downhill pretty rapidly.  That''s why I''m up here in the Bandit Castle.  After its all over, we''ll pick up the pieces.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (8654, 2,   117,  0, 17, 1, False) /* Create Breeches for Wield */
-     , (8654, 2,  2591,  0, 9, 1, False) /* Create Shirt for Wield */
-     , (8654, 2,  7897,  0, 13, 0.5, False) /* Create Steel Toed Boots for Wield */;
+VALUES (8654, 2,   117,  0, 17, 1, False) /* Create Breeches (117) for Wield */
+     , (8654, 2,  2591,  0, 9, 1, False) /* Create Shirt (2591) for Wield */
+     , (8654, 2,  7897,  0, 13, 0.5, False) /* Create Steel Toed Boots (7897) for Wield */;

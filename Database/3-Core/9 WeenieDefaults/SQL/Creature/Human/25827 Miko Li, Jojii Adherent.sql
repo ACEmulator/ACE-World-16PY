@@ -10,7 +10,7 @@ VALUES (25827,   1,         16) /* ItemType - Creature */
      , (25827,  16,         32) /* ItemUseable - Remote */
      , (25827,  25,         53) /* Level */
      , (25827,  27,          0) /* ArmorType */
-     , (25827,  93,    6292504) /* PhysicsState */
+     , (25827,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (25827,  95,          8) /* RadarBlipColor - Yellow */
      , (25827, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (25827, 134,         16) /* PlayerKillerStatus - RubberGlue */
@@ -256,6 +256,6 @@ VALUES (@parent_id,  0,  10 /* Tell */, 0, 1, NULL, 'Though I try to live my lif
      , (@parent_id,  1,  10 /* Tell */, 3, 1, NULL, 'I wish to assist those who wish to bring the colors of the rainbow to the armor he makes. If you hand me vials of Lapyan, Hennacin and Relanim dyes, I will make them into paints that will stay upon the shadow armor that has been enhanced with the new magical shards.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (25827, 2,   115,  0, 4, 0.8, False) /* Create Leather Boots for Wield */
-     , (25827, 2,   130,  0, 2, 0.67, False) /* Create Shirt for Wield */
-     , (25827, 2,  2604,  0, 9, 0, False) /* Create Breeches for Wield */;
+VALUES (25827, 2,   115,  0, 4, 0.8, False) /* Create Leather Boots (115) for Wield */
+     , (25827, 2,   130,  0, 2, 0.67, False) /* Create Shirt (130) for Wield */
+     , (25827, 2,  2604,  0, 9, 0, False) /* Create Breeches (2604) for Wield */;

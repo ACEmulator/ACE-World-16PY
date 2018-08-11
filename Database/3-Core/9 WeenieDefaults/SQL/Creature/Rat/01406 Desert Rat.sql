@@ -12,7 +12,7 @@ VALUES (1406,   1,         16) /* ItemType - Creature */
      , (1406,  27,          0) /* ArmorType */
      , (1406,  40,          2) /* CombatMode - Melee */
      , (1406,  68,          5) /* TargetingTactic */
-     , (1406,  93,       1032) /* PhysicsState */
+     , (1406,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (1406, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (1406, 146,       1067) /* XpOverride */;
 
@@ -68,7 +68,7 @@ VALUES (1406,   1,   33554493) /* Setup */
      , (1406,   8,  100667451) /* Icon */
      , (1406,  22,  872415267) /* PhysicsEffectTable */
      , (1406,  30,         84) /* PhysicsScript - BreatheFlame */
-     , (1406,  35,        159) /* DeathTreasureType */;
+     , (1406,  35,        159) /* DeathTreasureType - Loot Tier: 3 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (1406,   1,  50, 0, 0) /* Strength */
@@ -135,4 +135,4 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 268435538 /* Twitch2 */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (1406, 1,  1422,  0, 0, 0, False) /* Create Worn Odd Key for Contain */;
+VALUES (1406, 1,  1422,  0, 0, 0, False) /* Create Worn Odd Key (1422) for Contain */;

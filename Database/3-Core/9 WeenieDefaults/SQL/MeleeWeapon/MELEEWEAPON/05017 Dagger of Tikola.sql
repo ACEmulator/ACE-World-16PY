@@ -14,11 +14,11 @@ VALUES (5017,   1,          1) /* ItemType - MeleeWeapon */
      , (5017,  44,         12) /* Damage */
      , (5017,  45,         16) /* DamageType - Fire */
      , (5017,  46,          2) /* DefaultCombatStyle - OneHanded */
-     , (5017,  47,          6) /* AttackType */
+     , (5017,  47,          6) /* AttackType - Thrust, Slash */
      , (5017,  48,          4) /* WeaponSkill - Dagger */
      , (5017,  49,         20) /* WeaponTime */
      , (5017,  51,          1) /* CombatUse - Melee */
-     , (5017,  93,       1044) /* PhysicsState */
+     , (5017,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (5017, 106,        105) /* ItemSpellcraft */
      , (5017, 107,       1000) /* ItemCurMana */
      , (5017, 108,       1000) /* ItemMaxMana */

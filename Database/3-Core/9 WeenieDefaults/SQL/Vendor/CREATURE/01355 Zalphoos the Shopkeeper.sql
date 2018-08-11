@@ -10,10 +10,10 @@ VALUES (1355,   1,         16) /* ItemType - Creature */
      , (1355,  16,         32) /* ItemUseable - Remote */
      , (1355,  25,         10) /* Level */
      , (1355,  27,          0) /* ArmorType */
-     , (1355,  74,      25511) /* MerchandiseItemTypes */
+     , (1355,  74,      25511) /* MerchandiseItemTypes - Vestements, Food, Weapon, LockableMagicTarget, Writable, Key */
      , (1355,  75,          0) /* MerchandiseMinValue */
      , (1355,  76,     100000) /* MerchandiseMaxValue */
-     , (1355,  93,    2098200) /* PhysicsState */
+     , (1355,  93,    2098200) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */
      , (1355, 126,        250) /* VendorHappyMean */
      , (1355, 127,        250) /* VendorHappyVariance */
      , (1355, 133,          4) /* ShowableOnRadar - ShowAlways */
@@ -162,57 +162,57 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 318767235 /* Nod */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (1355, 4,    36, -1, 0, 0, False) /* Create Leather Bracers for Shop */
-     , (1355, 4,    39, -1, 0, 0, False) /* Create Leather Breastplate for Shop */
-     , (1355, 4,    44, -1, 0, 0, False) /* Create Buckler for Shop */
-     , (1355, 4,    45, -1, 0, 0, False) /* Create Leather Cap for Shop */
-     , (1355, 4,    65, -1, 0, 0, False) /* Create Leather Greaves for Shop */
-     , (1355, 4,   109, -1, 0, 0, False) /* Create Leather Tassets for Shop */
-     , (1355, 4,   117, -1, 0, 0, False) /* Create Breeches for Shop */
-     , (1355, 4,   124, -1, 0, 0, False) /* Create Jerkin for Shop */
-     , (1355, 2,   127,  0, 14, 0.8, False) /* Create Pants for Wield */
-     , (1355, 2,   128,  0, 9, 0, False) /* Create Qafiya for Wield */
-     , (1355, 4,   128, -1, 0, 0, False) /* Create Qafiya for Shop */
-     , (1355, 4,   129, -1, 0, 0, False) /* Create Sandals for Shop */
-     , (1355, 2,   133,  0, 9, 0, False) /* Create Slippers for Wield */
-     , (1355, 2,   134,  0, 14, 0.8, False) /* Create Tunic for Wield */
-     , (1355, 4,   135, -1, 0, 0, False) /* Create Turban for Shop */
-     , (1355, 4,   136, -1, 17, 1, False) /* Create Pack for Shop */
-     , (1355, 4,   136, -1, 8, 1, False) /* Create Pack for Shop */
-     , (1355, 4,   136, -1, 2, 1, False) /* Create Pack for Shop */
-     , (1355, 4,   166, -1, 17, 1, False) /* Create Sack for Shop */
-     , (1355, 4,   166, -1, 8, 1, False) /* Create Sack for Shop */
-     , (1355, 4,   166, -1, 2, 1, False) /* Create Sack for Shop */
-     , (1355, 4,   259, -1, 0, 0, False) /* Create Bread for Shop */
-     , (1355, 4,   264, -1, 0, 0, False) /* Create Grapes for Shop */
-     , (1355, 4,   300, -1, 0, 0, False) /* Create Arrow for Shop */
-     , (1355, 4,   316, -1, 0, 0, False) /* Create Throwing Dart for Shop */
-     , (1355, 4,   319, -1, 0, 0, False) /* Create Jambiya for Shop */
-     , (1355, 4,   325, -1, 0, 0, False) /* Create Kasrullah for Shop */
-     , (1355, 4,   328, -1, 0, 0, False) /* Create Khanjar for Shop */
-     , (1355, 4,   357, -1, 0, 0, False) /* Create Tungi for Shop */
-     , (1355, 4,   377, -1, 0, 0, False) /* Create Potion of Healing for Shop */
-     , (1355, 4,   378, -1, 0, 0, False) /* Create Stamina Potion for Shop */
-     , (1355, 4,   379, -1, 0, 0, False) /* Create Mana Potion for Shop */
-     , (1355, 4,   512, -1, 0, 0, False) /* Create Good Lockpick for Shop */
-     , (1355, 4,   513, -1, 0, 0, False) /* Create Plain Lockpick for Shop */
-     , (1355, 4,   514, -1, 0, 0, False) /* Create Excellent Lockpick for Shop */
-     , (1355, 4,   515, -1, 0, 0, False) /* Create Superb Lockpick for Shop */
-     , (1355, 4,   516, -1, 0, 0, False) /* Create Peerless Lockpick for Shop */
-     , (1355, 4,   545, -1, 0, 0, False) /* Create Reliable Lockpick for Shop */
-     , (1355, 4,   628, -1, 0, 0, False) /* Create Handy Healing Kit for Shop */
-     , (1355, 4,   629, -1, 0, 0, False) /* Create Adept Healing Kit for Shop */
-     , (1355, 4,   630, -1, 0, 0, False) /* Create Gifted Healing Kit for Shop */
-     , (1355, 4,   631, -1, 0, 0, False) /* Create Excellent Healing Kit for Shop */
-     , (1355, 4,   632, -1, 0, 0, False) /* Create Peerless Healing Kit for Shop */
-     , (1355, 4,  1352, -1, 0, 0, False) /* Create Zalphoos' Key for Shop */
-     , (1355, 4,  1353, -1, 0, 0, False) /* Create Zalphoos Guidebook for Shop */
-     , (1355, 4,  2457, -1, 0, 0, False) /* Create Health Draught for Shop */
-     , (1355, 4,  2460, -1, 0, 0, False) /* Create Mana Draught for Shop */
-     , (1355, 4,  2470, -1, 0, 0, False) /* Create Stamina Elixir for Shop */
-     , (1355, 4,  5778, -1, 0, 0, False) /* Create Whittling Knife for Shop */
-     , (1355, 2, 10696,  0, 9, 0.5, False) /* Create Apron for Wield */
-     , (1355, 4, 22163, -1, 0, 0, False) /* Create Nabut for Shop */
-     , (1355, 4, 27319, -1, 0, 0, False) /* Create Health Tincture for Shop */
-     , (1355, 4, 27322, -1, 0, 0, False) /* Create Mana Tincture for Shop */
-     , (1355, 4, 27326, -1, 0, 0, False) /* Create Stamina Tincture for Shop */;
+VALUES (1355, 4,    36, -1, 0, 0, False) /* Create Leather Bracers (36) for Shop */
+     , (1355, 4,    39, -1, 0, 0, False) /* Create Leather Breastplate (39) for Shop */
+     , (1355, 4,    44, -1, 0, 0, False) /* Create Buckler (44) for Shop */
+     , (1355, 4,    45, -1, 0, 0, False) /* Create Leather Cap (45) for Shop */
+     , (1355, 4,    65, -1, 0, 0, False) /* Create Leather Greaves (65) for Shop */
+     , (1355, 4,   109, -1, 0, 0, False) /* Create Leather Tassets (109) for Shop */
+     , (1355, 4,   117, -1, 0, 0, False) /* Create Breeches (117) for Shop */
+     , (1355, 4,   124, -1, 0, 0, False) /* Create Jerkin (124) for Shop */
+     , (1355, 2,   127,  0, 14, 0.8, False) /* Create Pants (127) for Wield */
+     , (1355, 2,   128,  0, 9, 0, False) /* Create Qafiya (128) for Wield */
+     , (1355, 4,   128, -1, 0, 0, False) /* Create Qafiya (128) for Shop */
+     , (1355, 4,   129, -1, 0, 0, False) /* Create Sandals (129) for Shop */
+     , (1355, 2,   133,  0, 9, 0, False) /* Create Slippers (133) for Wield */
+     , (1355, 2,   134,  0, 14, 0.8, False) /* Create Tunic (134) for Wield */
+     , (1355, 4,   135, -1, 0, 0, False) /* Create Turban (135) for Shop */
+     , (1355, 4,   136, -1, 17, 1, False) /* Create Pack (136) for Shop */
+     , (1355, 4,   136, -1, 8, 1, False) /* Create Pack (136) for Shop */
+     , (1355, 4,   136, -1, 2, 1, False) /* Create Pack (136) for Shop */
+     , (1355, 4,   166, -1, 17, 1, False) /* Create Sack (166) for Shop */
+     , (1355, 4,   166, -1, 8, 1, False) /* Create Sack (166) for Shop */
+     , (1355, 4,   166, -1, 2, 1, False) /* Create Sack (166) for Shop */
+     , (1355, 4,   259, -1, 0, 0, False) /* Create Bread (259) for Shop */
+     , (1355, 4,   264, -1, 0, 0, False) /* Create Grapes (264) for Shop */
+     , (1355, 4,   300, -1, 0, 0, False) /* Create Arrow (300) for Shop */
+     , (1355, 4,   316, -1, 0, 0, False) /* Create Throwing Dart (316) for Shop */
+     , (1355, 4,   319, -1, 0, 0, False) /* Create Jambiya (319) for Shop */
+     , (1355, 4,   325, -1, 0, 0, False) /* Create Kasrullah (325) for Shop */
+     , (1355, 4,   328, -1, 0, 0, False) /* Create Khanjar (328) for Shop */
+     , (1355, 4,   357, -1, 0, 0, False) /* Create Tungi (357) for Shop */
+     , (1355, 4,   377, -1, 0, 0, False) /* Create Potion of Healing (377) for Shop */
+     , (1355, 4,   378, -1, 0, 0, False) /* Create Stamina Potion (378) for Shop */
+     , (1355, 4,   379, -1, 0, 0, False) /* Create Mana Potion (379) for Shop */
+     , (1355, 4,   512, -1, 0, 0, False) /* Create Good Lockpick (512) for Shop */
+     , (1355, 4,   513, -1, 0, 0, False) /* Create Plain Lockpick (513) for Shop */
+     , (1355, 4,   514, -1, 0, 0, False) /* Create Excellent Lockpick (514) for Shop */
+     , (1355, 4,   515, -1, 0, 0, False) /* Create Superb Lockpick (515) for Shop */
+     , (1355, 4,   516, -1, 0, 0, False) /* Create Peerless Lockpick (516) for Shop */
+     , (1355, 4,   545, -1, 0, 0, False) /* Create Reliable Lockpick (545) for Shop */
+     , (1355, 4,   628, -1, 0, 0, False) /* Create Handy Healing Kit (628) for Shop */
+     , (1355, 4,   629, -1, 0, 0, False) /* Create Adept Healing Kit (629) for Shop */
+     , (1355, 4,   630, -1, 0, 0, False) /* Create Gifted Healing Kit (630) for Shop */
+     , (1355, 4,   631, -1, 0, 0, False) /* Create Excellent Healing Kit (631) for Shop */
+     , (1355, 4,   632, -1, 0, 0, False) /* Create Peerless Healing Kit (632) for Shop */
+     , (1355, 4,  1352, -1, 0, 0, False) /* Create Zalphoos' Key (1352) for Shop */
+     , (1355, 4,  1353, -1, 0, 0, False) /* Create Zalphoos Guidebook (1353) for Shop */
+     , (1355, 4,  2457, -1, 0, 0, False) /* Create Health Draught (2457) for Shop */
+     , (1355, 4,  2460, -1, 0, 0, False) /* Create Mana Draught (2460) for Shop */
+     , (1355, 4,  2470, -1, 0, 0, False) /* Create Stamina Elixir (2470) for Shop */
+     , (1355, 4,  5778, -1, 0, 0, False) /* Create Whittling Knife (5778) for Shop */
+     , (1355, 2, 10696,  0, 9, 0.5, False) /* Create Apron (10696) for Wield */
+     , (1355, 4, 22163, -1, 0, 0, False) /* Create Nabut (22163) for Shop */
+     , (1355, 4, 27319, -1, 0, 0, False) /* Create Health Tincture (27319) for Shop */
+     , (1355, 4, 27322, -1, 0, 0, False) /* Create Mana Tincture (27322) for Shop */
+     , (1355, 4, 27326, -1, 0, 0, False) /* Create Stamina Tincture (27326) for Shop */;

@@ -9,7 +9,7 @@ VALUES (8665,   1,        128) /* ItemType - Misc */
      , (8665,   9,          0) /* ValidLocations - None */
      , (8665,  16,          1) /* ItemUseable - No */
      , (8665,  19,          0) /* Value */
-     , (8665,  93,       1044) /* PhysicsState */
+     , (8665,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (8665, 150,        103) /* HookPlacement - Hook */
      , (8665, 151,          2) /* HookType - Wall */;
 

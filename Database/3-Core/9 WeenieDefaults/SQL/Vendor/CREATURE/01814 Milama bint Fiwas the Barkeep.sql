@@ -10,10 +10,10 @@ VALUES (1814,   1,         16) /* ItemType - Creature */
      , (1814,  16,         32) /* ItemUseable - Remote */
      , (1814,  25,         10) /* Level */
      , (1814,  27,          0) /* ArmorType */
-     , (1814,  74,     262176) /* MerchandiseItemTypes */
+     , (1814,  74,     262176) /* MerchandiseItemTypes - Food, PromissoryNote */
      , (1814,  75,          0) /* MerchandiseMinValue */
      , (1814,  76,      25000) /* MerchandiseMaxValue */
-     , (1814,  93,    2098200) /* PhysicsState */
+     , (1814,  93,    2098200) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */
      , (1814, 126,        250) /* VendorHappyMean */
      , (1814, 127,        250) /* VendorHappyVariance */
      , (1814, 133,          4) /* ShowableOnRadar - ShowAlways */
@@ -163,28 +163,28 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 318767235 /* Nod */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (1814, 2,   124,  0, 4, 0.6, False) /* Create Jerkin for Wield */
-     , (1814, 2,   127,  0, 9, 1, False) /* Create Pants for Wield */
-     , (1814, 2,   128,  0, 9, 0, False) /* Create Qafiya for Wield */
-     , (1814, 2,   133,  0, 6, 0, False) /* Create Slippers for Wield */
-     , (1814, 4,   258, -1, 0, 0, False) /* Create Apple for Shop */
-     , (1814, 4,   259, -1, 0, 0, False) /* Create Bread for Shop */
-     , (1814, 4,   260, -1, 0, 0, False) /* Create Cabbage for Shop */
-     , (1814, 4,   261, -1, 0, 0, False) /* Create Cheese for Shop */
-     , (1814, 4,   262, -1, 0, 0, False) /* Create Chicken for Shop */
-     , (1814, 4,   263, -1, 0, 0, False) /* Create Fish for Shop */
-     , (1814, 4,   264, -1, 0, 0, False) /* Create Grapes for Shop */
-     , (1814, 4,   265, -1, 0, 0, False) /* Create Meat for Shop */
-     , (1814, 4,   546, -1, 0, 0, False) /* Create Egg for Shop */
-     , (1814, 4,   548, -1, 0, 0, False) /* Create Bowl of Rice for Shop */
-     , (1814, 4,   549, -1, 0, 0, False) /* Create Bowl of Stew for Shop */
-     , (1814, 4,   620, -1, 0, 0, False) /* Create Cake for Shop */
-     , (1814, 4,  2451, -1, 0, 0, False) /* Create Ale for Shop */
-     , (1814, 4,  2452, -1, 0, 0, False) /* Create Apple Juice for Shop */
-     , (1814, 4,  2453, -1, 0, 0, False) /* Create Cider for Shop */
-     , (1814, 4,  2454, -1, 0, 0, False) /* Create Coffee for Shop */
-     , (1814, 4,  2455, -1, 0, 0, False) /* Create Grape Juice for Shop */
-     , (1814, 4,  2456, -1, 0, 0, False) /* Create Green Tea for Shop */
-     , (1814, 4,  2459, -1, 0, 0, False) /* Create Kumiss for Shop */
-     , (1814, 4,  2471, -1, 0, 0, False) /* Create Stout for Shop */
-     , (1814, 2, 10696,  0, 9, 1, False) /* Create Apron for Wield */;
+VALUES (1814, 2,   124,  0, 4, 0.6, False) /* Create Jerkin (124) for Wield */
+     , (1814, 2,   127,  0, 9, 1, False) /* Create Pants (127) for Wield */
+     , (1814, 2,   128,  0, 9, 0, False) /* Create Qafiya (128) for Wield */
+     , (1814, 2,   133,  0, 6, 0, False) /* Create Slippers (133) for Wield */
+     , (1814, 4,   258, -1, 0, 0, False) /* Create Apple (258) for Shop */
+     , (1814, 4,   259, -1, 0, 0, False) /* Create Bread (259) for Shop */
+     , (1814, 4,   260, -1, 0, 0, False) /* Create Cabbage (260) for Shop */
+     , (1814, 4,   261, -1, 0, 0, False) /* Create Cheese (261) for Shop */
+     , (1814, 4,   262, -1, 0, 0, False) /* Create Chicken (262) for Shop */
+     , (1814, 4,   263, -1, 0, 0, False) /* Create Fish (263) for Shop */
+     , (1814, 4,   264, -1, 0, 0, False) /* Create Grapes (264) for Shop */
+     , (1814, 4,   265, -1, 0, 0, False) /* Create Meat (265) for Shop */
+     , (1814, 4,   546, -1, 0, 0, False) /* Create Egg (546) for Shop */
+     , (1814, 4,   548, -1, 0, 0, False) /* Create Bowl of Rice (548) for Shop */
+     , (1814, 4,   549, -1, 0, 0, False) /* Create Bowl of Stew (549) for Shop */
+     , (1814, 4,   620, -1, 0, 0, False) /* Create Cake (620) for Shop */
+     , (1814, 4,  2451, -1, 0, 0, False) /* Create Ale (2451) for Shop */
+     , (1814, 4,  2452, -1, 0, 0, False) /* Create Apple Juice (2452) for Shop */
+     , (1814, 4,  2453, -1, 0, 0, False) /* Create Cider (2453) for Shop */
+     , (1814, 4,  2454, -1, 0, 0, False) /* Create Coffee (2454) for Shop */
+     , (1814, 4,  2455, -1, 0, 0, False) /* Create Grape Juice (2455) for Shop */
+     , (1814, 4,  2456, -1, 0, 0, False) /* Create Green Tea (2456) for Shop */
+     , (1814, 4,  2459, -1, 0, 0, False) /* Create Kumiss (2459) for Shop */
+     , (1814, 4,  2471, -1, 0, 0, False) /* Create Stout (2471) for Shop */
+     , (1814, 2, 10696,  0, 9, 1, False) /* Create Apron (10696) for Wield */;

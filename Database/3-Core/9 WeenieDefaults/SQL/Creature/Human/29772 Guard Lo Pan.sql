@@ -10,7 +10,7 @@ VALUES (29772,   1,         16) /* ItemType - Creature */
      , (29772,  16,         32) /* ItemUseable - Remote */
      , (29772,  25,        126) /* Level */
      , (29772,  27,          0) /* ArmorType */
-     , (29772,  93,    6292504) /* PhysicsState */
+     , (29772,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (29772,  95,          8) /* RadarBlipColor - Yellow */
      , (29772, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (29772, 134,         16) /* PlayerKillerStatus - RubberGlue */
@@ -238,5 +238,5 @@ VALUES (@parent_id,  0,  31 /* EraseQuest */, 0, 1, NULL, 'RehirBeaten', NULL, N
      , (@parent_id,  4,  10 /* Tell */, 0, 1, NULL, 'This is for your efforts against the Burun Kukuur, King Rehir. You will need to wait three weeks before returning to me for another reward. If you wish to change your title and you have a scrap of Rehir''s hide I will accept the hide and give you a token that can be used to rename you to Rehir Killer!', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (29772, 2,   118,  0, 14, 1, False) /* Create Cap for Wield */
-     , (29772, 2, 10870,  0, 17, 0.7, False) /* Create Canescent Mattekar Robe for Wield */;
+VALUES (29772, 2,   118,  0, 14, 1, False) /* Create Cap (118) for Wield */
+     , (29772, 2, 10870,  0, 17, 0.7, False) /* Create Canescent Mattekar Robe (10870) for Wield */;

@@ -10,10 +10,10 @@ VALUES (648,   1,         16) /* ItemType - Creature */
      , (648,  16,         32) /* ItemUseable - Remote */
      , (648,  25,          6) /* Level */
      , (648,  27,          0) /* ArmorType */
-     , (648,  74,     278560) /* MerchandiseItemTypes */
+     , (648,  74,     278560) /* MerchandiseItemTypes - Food, Key, PromissoryNote */
      , (648,  75,          0) /* MerchandiseMinValue */
      , (648,  76,     100000) /* MerchandiseMaxValue */
-     , (648,  93,    2098200) /* PhysicsState */
+     , (648,  93,    2098200) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */
      , (648, 126,        500) /* VendorHappyMean */
      , (648, 127,        500) /* VendorHappyVariance */
      , (648, 133,          4) /* ShowableOnRadar - ShowAlways */
@@ -163,20 +163,20 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 318767235 /* Nod */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (648, 2,   117,  0, 8, 0, False) /* Create Breeches for Wield */
-     , (648, 2,   132,  0, 4, 0.6, False) /* Create Shoes for Wield */
-     , (648, 2,   134,  0, 5, 0, False) /* Create Tunic for Wield */
-     , (648, 4,   261, -1, 0, 0, False) /* Create Cheese for Shop */
-     , (648, 4,   512, -1, 0, 0, False) /* Create Good Lockpick for Shop */
-     , (648, 4,   513, -1, 0, 0, False) /* Create Plain Lockpick for Shop */
-     , (648, 4,   545, -1, 0, 0, False) /* Create Reliable Lockpick for Shop */
-     , (648, 4,  2453, -1, 0, 0, False) /* Create Cider for Shop */
-     , (648, 4,  2463, -1, 0, 0, False) /* Create Milk for Shop */
-     , (648, 4,  2465, -1, 0, 0, False) /* Create Palm Wine for Shop */
-     , (648, 4,  2469, -1, 0, 0, False) /* Create Small Beer for Shop */
-     , (648, 4,  4725, -1, 0, 0, False) /* Create Fish Pie for Shop */
-     , (648, 4,  4730, -1, 0, 0, False) /* Create Fried Fish Filet for Shop */
-     , (648, 4,  4734, -1, 0, 0, False) /* Create Meat Pie for Shop */
-     , (648, 4,  4746, -1, 0, 0, False) /* Create Water for Shop */
-     , (648, 4,  8378, -1, 0, 0, False) /* Create Beer Stein for Shop */
-     , (648, 2, 10696,  0, 9, 0.5, False) /* Create Apron for Wield */;
+VALUES (648, 2,   117,  0, 8, 0, False) /* Create Breeches (117) for Wield */
+     , (648, 2,   132,  0, 4, 0.6, False) /* Create Shoes (132) for Wield */
+     , (648, 2,   134,  0, 5, 0, False) /* Create Tunic (134) for Wield */
+     , (648, 4,   261, -1, 0, 0, False) /* Create Cheese (261) for Shop */
+     , (648, 4,   512, -1, 0, 0, False) /* Create Good Lockpick (512) for Shop */
+     , (648, 4,   513, -1, 0, 0, False) /* Create Plain Lockpick (513) for Shop */
+     , (648, 4,   545, -1, 0, 0, False) /* Create Reliable Lockpick (545) for Shop */
+     , (648, 4,  2453, -1, 0, 0, False) /* Create Cider (2453) for Shop */
+     , (648, 4,  2463, -1, 0, 0, False) /* Create Milk (2463) for Shop */
+     , (648, 4,  2465, -1, 0, 0, False) /* Create Palm Wine (2465) for Shop */
+     , (648, 4,  2469, -1, 0, 0, False) /* Create Small Beer (2469) for Shop */
+     , (648, 4,  4725, -1, 0, 0, False) /* Create Fish Pie (4725) for Shop */
+     , (648, 4,  4730, -1, 0, 0, False) /* Create Fried Fish Filet (4730) for Shop */
+     , (648, 4,  4734, -1, 0, 0, False) /* Create Meat Pie (4734) for Shop */
+     , (648, 4,  4746, -1, 0, 0, False) /* Create Water (4746) for Shop */
+     , (648, 4,  8378, -1, 0, 0, False) /* Create Beer Stein (8378) for Shop */
+     , (648, 2, 10696,  0, 9, 0.5, False) /* Create Apron (10696) for Wield */;

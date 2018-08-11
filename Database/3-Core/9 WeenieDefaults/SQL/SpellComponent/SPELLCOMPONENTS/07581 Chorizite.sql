@@ -14,7 +14,7 @@ VALUES (7581,   1,       4096) /* ItemType - SpellComponents */
      , (7581,  15,          5) /* StackUnitValue */
      , (7581,  16,          1) /* ItemUseable - No */
      , (7581,  19,          5) /* Value */
-     , (7581,  93,       1044) /* PhysicsState */;
+     , (7581,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (7581,   1, 'Chorizite') /* Name */

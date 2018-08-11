@@ -16,10 +16,10 @@ VALUES (21050,   1, 1073741824) /* ItemType - TinkeringMaterial */
      , (21050,  19,         10) /* Value */
      , (21050,  33,          1) /* Bonded - Bonded */
      , (21050,  91,        100) /* MaxStructure */
-     , (21050,  93,       1044) /* PhysicsState */
+     , (21050,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (21050, 131,         23) /* MaterialType - GreenGarnet */
      , (21050, 150,        103) /* HookPlacement - Hook */
-     , (21050, 151,          9) /* HookType */;
+     , (21050, 151,          9) /* HookType - Floor, Yard */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (21050,  22, True ) /* Inscribable */

@@ -4,7 +4,7 @@ VALUES ('5524', 'portalmountnaipensetexit1', 7) /* Portal */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (5524,   1,      65536) /* ItemType - Portal */
      , (5524,  16,         32) /* ItemUseable - Remote */
-     , (5524,  93,       3084) /* PhysicsState */
+     , (5524,  93,       3084) /* PhysicsState - Ethereal, ReportCollisions, Gravity, LightingOn */
      , (5524, 111,          1) /* PortalBitmask - Unrestricted */
      , (5524, 133,          4) /* ShowableOnRadar - ShowAlways */;
 

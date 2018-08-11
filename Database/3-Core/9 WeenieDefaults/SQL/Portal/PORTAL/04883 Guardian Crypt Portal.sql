@@ -4,7 +4,7 @@ VALUES ('4883', 'portalguardiancrypt', 7) /* Portal */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (4883,   1,      65536) /* ItemType - Portal */
      , (4883,  16,         32) /* ItemUseable - Remote */
-     , (4883,  93,       3084) /* PhysicsState */
+     , (4883,  93,       3084) /* PhysicsState - Ethereal, ReportCollisions, Gravity, LightingOn */
      , (4883, 111,          1) /* PortalBitmask - Unrestricted */
      , (4883, 133,          4) /* ShowableOnRadar - ShowAlways */;
 

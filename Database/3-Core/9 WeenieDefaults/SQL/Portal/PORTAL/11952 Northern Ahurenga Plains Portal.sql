@@ -4,8 +4,8 @@ VALUES ('11952', 'portalahurengaplains-xp', 7) /* Portal */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (11952,   1,      65536) /* ItemType - Portal */
      , (11952,  16,         32) /* ItemUseable - Remote */
-     , (11952,  93,       3084) /* PhysicsState */
-     , (11952, 111,         49) /* PortalBitmask */
+     , (11952,  93,       3084) /* PhysicsState - Ethereal, ReportCollisions, Gravity, LightingOn */
+     , (11952, 111,         49) /* PortalBitmask - Unrestricted, NoSummon, NoRecall */
      , (11952, 133,          4) /* ShowableOnRadar - ShowAlways */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)

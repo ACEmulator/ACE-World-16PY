@@ -14,7 +14,7 @@ VALUES (2422,   1,       2048) /* ItemType - Gem */
      , (2422,  15,        250) /* StackUnitValue */
      , (2422,  16,          1) /* ItemUseable - No */
      , (2422,  19,        250) /* Value */
-     , (2422,  93,       1044) /* PhysicsState */
+     , (2422,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (2422, 131,         23) /* MaterialType - GreenGarnet */
      , (2422, 169,   16777216) /* TsysMutationData */;
 

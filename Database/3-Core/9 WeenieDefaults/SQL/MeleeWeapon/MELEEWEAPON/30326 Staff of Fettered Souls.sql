@@ -12,11 +12,11 @@ VALUES (30326,   1,          1) /* ItemType - MeleeWeapon */
      , (30326,  44,          7) /* Damage */
      , (30326,  45,          4) /* DamageType - Bludgeon */
      , (30326,  46,          2) /* DefaultCombatStyle - OneHanded */
-     , (30326,  47,          6) /* AttackType */
+     , (30326,  47,          6) /* AttackType - Thrust, Slash */
      , (30326,  48,         10) /* WeaponSkill - Staff */
      , (30326,  49,         30) /* WeaponTime */
      , (30326,  51,          1) /* CombatUse - Melee */
-     , (30326,  93,       1044) /* PhysicsState */
+     , (30326,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (30326, 150,        103) /* HookPlacement - Hook */
      , (30326, 151,          2) /* HookType - Wall */;
 

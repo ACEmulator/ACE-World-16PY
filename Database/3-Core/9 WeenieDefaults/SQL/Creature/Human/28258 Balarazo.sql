@@ -10,7 +10,7 @@ VALUES (28258,   1,         16) /* ItemType - Creature */
      , (28258,  16,         32) /* ItemUseable - Remote */
      , (28258,  25,         33) /* Level */
      , (28258,  27,          0) /* ArmorType */
-     , (28258,  93,    6292504) /* PhysicsState */
+     , (28258,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (28258,  95,          8) /* RadarBlipColor - Yellow */
      , (28258, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (28258, 134,         16) /* PlayerKillerStatus - RubberGlue */
@@ -157,4 +157,4 @@ VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 1090519043 /* Ready */, NULL, NU
      , (@parent_id,  3,  10 /* Tell */, 2, 1, NULL, 'I noticed there was a stockpile of older Canescent robe patterns laying around here.  If you have a new or old style Canescent robe, I will gladly exchange it for you, free of charge!', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (28258, 2, 28256,  0, 0, 0, False) /* Create Canescent Mattekar Robe for Wield */;
+VALUES (28258, 2, 28256,  0, 0, 0, False) /* Create Canescent Mattekar Robe (28256) for Wield */;

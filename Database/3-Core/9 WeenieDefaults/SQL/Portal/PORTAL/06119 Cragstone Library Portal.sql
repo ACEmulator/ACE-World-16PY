@@ -4,7 +4,7 @@ VALUES ('6119', 'portalcragstonelibrary', 7) /* Portal */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (6119,   1,      65536) /* ItemType - Portal */
      , (6119,  16,         32) /* ItemUseable - Remote */
-     , (6119,  93,       3084) /* PhysicsState */
+     , (6119,  93,       3084) /* PhysicsState - Ethereal, ReportCollisions, Gravity, LightingOn */
      , (6119, 111,          1) /* PortalBitmask - Unrestricted */
      , (6119, 133,          4) /* ShowableOnRadar - ShowAlways */;
 

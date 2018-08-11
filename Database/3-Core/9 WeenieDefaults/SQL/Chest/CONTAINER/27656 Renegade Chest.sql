@@ -14,7 +14,7 @@ VALUES (27656,   1,        512) /* ItemType - Container */
      , (27656,  81,          3) /* MaxGeneratedObjects */
      , (27656,  82,          3) /* InitGeneratedObjects */
      , (27656,  83,       4096) /* ActivationResponse - CastSpell */
-     , (27656,  93,       1048) /* PhysicsState */
+     , (27656,  93,       1048) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity */
      , (27656,  96,       5000) /* EncumbranceCapacity */
      , (27656, 100,          1) /* GeneratorType - Relative */
      , (27656, 106,        400) /* ItemSpellcraft */
@@ -50,6 +50,6 @@ VALUES (27656,   1,   33558692) /* Setup */
      , (27656,  28,         85) /* Spell - Flame Bolt VI */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (27656, -1, 27653, 0, 1, 1, 2, 8, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0)
-     , (27656, -1, 27703, 0, 1, 1, 2, 8, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0)
-     , (27656, -1, 27660, 0, 1, 1, 2, 8, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0);
+VALUES (27656, -1, 27653, 0, 1, 1, 2, 8, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Chorizite Veined Shield (27653) (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: Contain */
+     , (27656, -1, 27703, 0, 1, 1, 2, 8, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Chorizite Ore (27703) (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: Contain */
+     , (27656, -1, 27660, 0, 1, 1, 2, 8, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Refined Chorizite Chunk (27660) (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: Contain */;

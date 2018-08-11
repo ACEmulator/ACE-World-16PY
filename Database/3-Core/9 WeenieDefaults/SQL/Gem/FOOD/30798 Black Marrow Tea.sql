@@ -13,8 +13,8 @@ VALUES (30798,   1,         32) /* ItemType - Food */
      , (30798,  15,        100) /* StackUnitValue */
      , (30798,  16,          8) /* ItemUseable - Contained */
      , (30798,  19,        100) /* Value */
-     , (30798,  93,       1044) /* PhysicsState */
-     , (30798,  94,         16) /* TargetType - Creature */
+     , (30798,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (30798,  94,         16) /* TargetType - Reedshark */
      , (30798, 106,        600) /* ItemSpellcraft */
      , (30798, 107,         50) /* ItemCurMana */
      , (30798, 108,         50) /* ItemMaxMana */

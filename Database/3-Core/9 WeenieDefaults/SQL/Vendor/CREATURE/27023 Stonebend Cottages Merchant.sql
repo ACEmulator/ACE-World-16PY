@@ -10,10 +10,10 @@ VALUES (27023,   1,         16) /* ItemType - Creature */
      , (27023,  16,         32) /* ItemUseable - Remote */
      , (27023,  25,         10) /* Level */
      , (27023,  27,          0) /* ArmorType */
-     , (27023,  74,     264192) /* MerchandiseItemTypes */
+     , (27023,  74,     264192) /* MerchandiseItemTypes - Gem, PromissoryNote */
      , (27023,  75,          0) /* MerchandiseMinValue */
      , (27023,  76,    1000000) /* MerchandiseMaxValue */
-     , (27023,  93,    2098204) /* PhysicsState */
+     , (27023,  93,    2098204) /* PhysicsState - Ethereal, ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */
      , (27023, 126,        125) /* VendorHappyMean */
      , (27023, 127,        125) /* VendorHappyVariance */
      , (27023, 133,          4) /* ShowableOnRadar - ShowAlways */
@@ -97,4 +97,4 @@ VALUES (27023,  0,  4,  0,    0,    0,    0,    0,    0,    0,    0,    0,    0,
      , (27023,  8,  4,  2, 0.75,    0,    0,    0,    0,    0,    0,    0,    0,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (27023, 4, 26388, -1, 0, 0, False) /* Create Stonebend Cottages Portal Gem for Shop */;
+VALUES (27023, 4, 26388, -1, 0, 0, False) /* Create Stonebend Cottages Portal Gem (26388) for Shop */;

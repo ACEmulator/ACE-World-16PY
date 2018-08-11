@@ -3,7 +3,7 @@ VALUES ('4578', 'channel-rithwic', 36) /* Channel */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (4578,   3,         61) /* PaletteTemplate - White */
-     , (4578,  93,       1044) /* PhysicsState */;
+     , (4578,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (4578,   1, True ) /* Stuck */

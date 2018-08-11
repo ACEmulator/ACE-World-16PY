@@ -13,8 +13,8 @@ VALUES (4768,   1,    4194304) /* ItemType - CraftCookingBase */
      , (4768,  15,          2) /* StackUnitValue */
      , (4768,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
      , (4768,  19,          2) /* Value */
-     , (4768,  93,       1044) /* PhysicsState */
-     , (4768,  94,    4194336) /* TargetType */;
+     , (4768,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (4768,  94,    4194336) /* TargetType - 4194336 */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (4768,   1, 'Uncooked Rice') /* Name */

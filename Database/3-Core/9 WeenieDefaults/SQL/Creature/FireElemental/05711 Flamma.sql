@@ -12,8 +12,8 @@ VALUES (5711,   1,         16) /* ItemType - Creature */
      , (5711,  68,          5) /* TargetingTactic */
      , (5711,  81,          1) /* MaxGeneratedObjects */
      , (5711,  82,          1) /* InitGeneratedObjects */
-     , (5711,  93,       3080) /* PhysicsState */
-     , (5711, 101,        183) /* AiAllowedCombatStyle */
+     , (5711,  93,       3080) /* PhysicsState - ReportCollisions, Gravity, LightingOn */
+     , (5711, 101,        183) /* AiAllowedCombatStyle - Unarmed, OneHanded, OneHandedAndShield, Bow, Crossbow, ThrownWeapon */
      , (5711, 103,          3) /* GeneratorDestructionType - Kill */
      , (5711, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (5711, 140,          1) /* AiOptions */
@@ -73,7 +73,7 @@ VALUES (5711,   1,   33556131) /* Setup */
      , (5711,   4,  805306368) /* CombatTable */
      , (5711,   8,  100670274) /* Icon */
      , (5711,  22,  872415344) /* PhysicsEffectTable */
-     , (5711,  35,        463) /* DeathTreasureType */;
+     , (5711,  35,        463) /* DeathTreasureType - Loot Tier: 2 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (5711,   1, 145, 0, 0) /* Strength */
@@ -129,4 +129,4 @@ VALUES (5711,  94) /* ATTACK_NOTIFICATION_EVENT */
      , (5711, 414) /* PLAYER_DEATH_EVENT */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (5711, 1, 5710, 20, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0);
+VALUES (5711, 1, 5710, 20, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Flare (5710) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Scatter */;

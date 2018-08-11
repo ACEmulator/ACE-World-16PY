@@ -14,7 +14,7 @@ VALUES (2411,   1,       2048) /* ItemType - Gem */
      , (2411,  15,       1000) /* StackUnitValue */
      , (2411,  16,          1) /* ItemUseable - No */
      , (2411,  19,       1000) /* Value */
-     , (2411,  93,       1044) /* PhysicsState */
+     , (2411,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (2411, 131,         38) /* MaterialType - Ruby */
      , (2411, 169,   16777216) /* TsysMutationData */;
 

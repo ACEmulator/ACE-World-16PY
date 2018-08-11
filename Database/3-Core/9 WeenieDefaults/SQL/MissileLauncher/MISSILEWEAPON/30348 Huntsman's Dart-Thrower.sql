@@ -16,7 +16,7 @@ VALUES (30348,   1,        256) /* ItemType - MissileWeapon */
      , (30348,  50,          4) /* AmmoType - ArrowCrystal */
      , (30348,  51,          2) /* CombatUse - Missle */
      , (30348,  60,        120) /* WeaponRange */
-     , (30348,  93,       1044) /* PhysicsState */
+     , (30348,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (30348, 150,        103) /* HookPlacement - Hook */
      , (30348, 151,          2) /* HookType - Wall */;
 

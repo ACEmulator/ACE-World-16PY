@@ -10,10 +10,10 @@ VALUES (11393,   1,         16) /* ItemType - Creature */
      , (11393,  16,         32) /* ItemUseable - Remote */
      , (11393,  25,          4) /* Level */
      , (11393,  27,          0) /* ArmorType */
-     , (11393,  74, 1078223008) /* MerchandiseItemTypes */
+     , (11393,  74, 1078223008) /* MerchandiseItemTypes - Food, Misc, Writable, Key, PromissoryNote, CraftCookingBase, TinkeringMaterial */
      , (11393,  75,          0) /* MerchandiseMinValue */
      , (11393,  76,      25000) /* MerchandiseMaxValue */
-     , (11393,  93,    2098200) /* PhysicsState */
+     , (11393,  93,    2098200) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */
      , (11393, 126,       2000) /* VendorHappyMean */
      , (11393, 127,       1000) /* VendorHappyVariance */
      , (11393, 133,          4) /* ShowableOnRadar - ShowAlways */
@@ -163,35 +163,35 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 318767235 /* Nod */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (11393, 2,   117,  0, 14, 0.8, False) /* Create Breeches for Wield */
-     , (11393, 2,   132,  0, 17, 1, False) /* Create Shoes for Wield */
-     , (11393, 2,   134,  0, 14, 0.8, False) /* Create Tunic for Wield */
-     , (11393, 4,   136, -1, 8, 1, False) /* Create Pack for Shop */
-     , (11393, 4,   262, -1, 0, 0, False) /* Create Chicken for Shop */
-     , (11393, 4,   264, -1, 0, 0, False) /* Create Grapes for Shop */
-     , (11393, 4,   364, -1, 0, 0, False) /* Create Book for Shop */
-     , (11393, 4,   365, -1, 0, 0, False) /* Create Parchment for Shop */
-     , (11393, 4,   367, -1, 0, 0, False) /* Create Tome for Shop */
-     , (11393, 4,   377, -1, 0, 0, False) /* Create Potion of Healing for Shop */
-     , (11393, 4,   378, -1, 0, 0, False) /* Create Stamina Potion for Shop */
-     , (11393, 4,   379, -1, 0, 0, False) /* Create Mana Potion for Shop */
-     , (11393, 4,   547, -1, 0, 0, False) /* Create Brimstone-cap Mushroom for Shop */
-     , (11393, 4,   628, -1, 0, 0, False) /* Create Handy Healing Kit for Shop */
-     , (11393, 4,   629, -1, 0, 0, False) /* Create Adept Healing Kit for Shop */
-     , (11393, 4,  2457, -1, 0, 0, False) /* Create Health Draught for Shop */
-     , (11393, 4,  2460, -1, 0, 0, False) /* Create Mana Draught for Shop */
-     , (11393, 4,  4746, -1, 0, 0, False) /* Create Water for Shop */
-     , (11393, 4,  4754, -1, 0, 0, False) /* Create Baking Pan for Shop */
-     , (11393, 4,  4757, -1, 0, 0, False) /* Create Carving Knife for Shop */
-     , (11393, 4,  4761, -1, 0, 0, False) /* Create Flour for Shop */
-     , (11393, 4,  4763, -1, 0, 0, False) /* Create Honey for Shop */
-     , (11393, 4,  5584, -1, 0, 0, False) /* Create Gharu'ndim Cookbook for Shop */
-     , (11393, 4,  5586, -1, 0, 0, False) /* Create Alchemy Guide for Shop */
-     , (11393, 4,  5587, -1, 0, 0, False) /* Create Fletching Guide for Shop */
-     , (11393, 4,  5758, -1, 0, 0, False) /* Create Carrot for Shop */
-     , (11393, 4,  5856, -1, 0, 0, False) /* Create Specialty Cookbook for Shop */
-     , (11393, 4,  7823, -1, 0, 0, False) /* Create Heavy Grinder for Shop */
-     , (11393, 4,  7884, -1, 0, 0, False) /* Create Chocolate Cookbook for Shop */
-     , (11393, 2, 10696,  0, 18, 1, False) /* Create Apron for Wield */
-     , (11393, 4, 14797, -1, 0, 0, False) /* Create Festival Cookbook for Shop */
-     , (11393, 4, 27326, -1, 0, 0, False) /* Create Stamina Tincture for Shop */;
+VALUES (11393, 2,   117,  0, 14, 0.8, False) /* Create Breeches (117) for Wield */
+     , (11393, 2,   132,  0, 17, 1, False) /* Create Shoes (132) for Wield */
+     , (11393, 2,   134,  0, 14, 0.8, False) /* Create Tunic (134) for Wield */
+     , (11393, 4,   136, -1, 8, 1, False) /* Create Pack (136) for Shop */
+     , (11393, 4,   262, -1, 0, 0, False) /* Create Chicken (262) for Shop */
+     , (11393, 4,   264, -1, 0, 0, False) /* Create Grapes (264) for Shop */
+     , (11393, 4,   364, -1, 0, 0, False) /* Create Book (364) for Shop */
+     , (11393, 4,   365, -1, 0, 0, False) /* Create Parchment (365) for Shop */
+     , (11393, 4,   367, -1, 0, 0, False) /* Create Tome (367) for Shop */
+     , (11393, 4,   377, -1, 0, 0, False) /* Create Potion of Healing (377) for Shop */
+     , (11393, 4,   378, -1, 0, 0, False) /* Create Stamina Potion (378) for Shop */
+     , (11393, 4,   379, -1, 0, 0, False) /* Create Mana Potion (379) for Shop */
+     , (11393, 4,   547, -1, 0, 0, False) /* Create Brimstone-cap Mushroom (547) for Shop */
+     , (11393, 4,   628, -1, 0, 0, False) /* Create Handy Healing Kit (628) for Shop */
+     , (11393, 4,   629, -1, 0, 0, False) /* Create Adept Healing Kit (629) for Shop */
+     , (11393, 4,  2457, -1, 0, 0, False) /* Create Health Draught (2457) for Shop */
+     , (11393, 4,  2460, -1, 0, 0, False) /* Create Mana Draught (2460) for Shop */
+     , (11393, 4,  4746, -1, 0, 0, False) /* Create Water (4746) for Shop */
+     , (11393, 4,  4754, -1, 0, 0, False) /* Create Baking Pan (4754) for Shop */
+     , (11393, 4,  4757, -1, 0, 0, False) /* Create Carving Knife (4757) for Shop */
+     , (11393, 4,  4761, -1, 0, 0, False) /* Create Flour (4761) for Shop */
+     , (11393, 4,  4763, -1, 0, 0, False) /* Create Honey (4763) for Shop */
+     , (11393, 4,  5584, -1, 0, 0, False) /* Create Gharu'ndim Cookbook (5584) for Shop */
+     , (11393, 4,  5586, -1, 0, 0, False) /* Create Alchemy Guide (5586) for Shop */
+     , (11393, 4,  5587, -1, 0, 0, False) /* Create Fletching Guide (5587) for Shop */
+     , (11393, 4,  5758, -1, 0, 0, False) /* Create Carrot (5758) for Shop */
+     , (11393, 4,  5856, -1, 0, 0, False) /* Create Specialty Cookbook (5856) for Shop */
+     , (11393, 4,  7823, -1, 0, 0, False) /* Create Heavy Grinder (7823) for Shop */
+     , (11393, 4,  7884, -1, 0, 0, False) /* Create Chocolate Cookbook (7884) for Shop */
+     , (11393, 2, 10696,  0, 18, 1, False) /* Create Apron (10696) for Wield */
+     , (11393, 4, 14797, -1, 0, 0, False) /* Create Festival Cookbook (14797) for Shop */
+     , (11393, 4, 27326, -1, 0, 0, False) /* Create Stamina Tincture (27326) for Shop */;

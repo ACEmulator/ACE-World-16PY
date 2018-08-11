@@ -12,8 +12,8 @@ VALUES (30754,   1,         16) /* ItemType - Creature */
      , (30754,  27,          0) /* ArmorType */
      , (30754,  40,          2) /* CombatMode - Melee */
      , (30754,  68,          3) /* TargetingTactic */
-     , (30754,  93,       1032) /* PhysicsState */
-     , (30754, 101,        131) /* AiAllowedCombatStyle */
+     , (30754,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
+     , (30754, 101,        131) /* AiAllowedCombatStyle - Unarmed, OneHanded, ThrownWeapon */
      , (30754, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (30754, 140,          1) /* AiOptions */
      , (30754, 146,      26525) /* XpOverride */;
@@ -73,8 +73,10 @@ VALUES (30754,   1,   33558024) /* Setup */
      , (30754,   7,  268436611) /* ClothingBase */
      , (30754,   8,  100667453) /* Icon */
      , (30754,  22,  872415255) /* PhysicsEffectTable */
-     , (30754,  32,        295) /* WieldedTreasureType */
-     , (30754,  35,        448) /* DeathTreasureType */;
+     , (30754,  32,        295) /* WieldedTreasureType - 
+                                   Wield 15x Frost Throwing Club (23663) | Probability: 50%
+                                   Wield Club (23648) | Probability: 50% */
+     , (30754,  35,        448) /* DeathTreasureType - Loot Tier: 4 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (30754,   1, 300, 0, 0) /* Strength */

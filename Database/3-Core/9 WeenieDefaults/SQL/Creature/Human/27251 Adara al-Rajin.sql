@@ -11,7 +11,7 @@ VALUES (27251,   1,         16) /* ItemType - Creature */
      , (27251,  16,         32) /* ItemUseable - Remote */
      , (27251,  25,         11) /* Level */
      , (27251,  27,          0) /* ArmorType */
-     , (27251,  93,    6292504) /* PhysicsState */
+     , (27251,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (27251,  95,          8) /* RadarBlipColor - Yellow */
      , (27251, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (27251, 134,         16) /* PlayerKillerStatus - RubberGlue */
@@ -262,4 +262,4 @@ VALUES (@parent_id,  0,   3 /* Give */, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL
      , (@parent_id,  2,  31 /* EraseQuest */, 0, 1, NULL, 'DeservesRealaidainRaiment', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (27251, 2, 27250,  0, 61, 0.5, False) /* Create Realaidain Raiment for Wield */;
+VALUES (27251, 2, 27250,  0, 61, 0.5, False) /* Create Realaidain Raiment (27250) for Wield */;

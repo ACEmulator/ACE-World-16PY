@@ -10,10 +10,10 @@ VALUES (26999,   1,         16) /* ItemType - Creature */
      , (26999,  16,         32) /* ItemUseable - Remote */
      , (26999,  25,         10) /* Level */
      , (26999,  27,          0) /* ArmorType */
-     , (26999,  74,     264192) /* MerchandiseItemTypes */
+     , (26999,  74,     264192) /* MerchandiseItemTypes - Gem, PromissoryNote */
      , (26999,  75,          0) /* MerchandiseMinValue */
      , (26999,  76,    1000000) /* MerchandiseMaxValue */
-     , (26999,  93,    2098204) /* PhysicsState */
+     , (26999,  93,    2098204) /* PhysicsState - Ethereal, ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */
      , (26999, 126,        125) /* VendorHappyMean */
      , (26999, 127,        125) /* VendorHappyVariance */
      , (26999, 133,          4) /* ShowableOnRadar - ShowAlways */
@@ -97,4 +97,4 @@ VALUES (26999,  0,  4,  0,    0,    0,    0,    0,    0,    0,    0,    0,    0,
      , (26999,  8,  4,  2, 0.75,    0,    0,    0,    0,    0,    0,    0,    0,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (26999, 4, 26364, -1, 0, 0, False) /* Create Slinker Meadows Portal Gem for Shop */;
+VALUES (26999, 4, 26364, -1, 0, 0, False) /* Create Slinker Meadows Portal Gem (26364) for Shop */;

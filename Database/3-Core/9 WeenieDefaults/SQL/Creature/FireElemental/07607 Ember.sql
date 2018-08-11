@@ -10,8 +10,8 @@ VALUES (7607,   1,         16) /* ItemType - Creature */
      , (7607,  25,         79) /* Level */
      , (7607,  27,          0) /* ArmorType */
      , (7607,  68,          5) /* TargetingTactic */
-     , (7607,  93,       3080) /* PhysicsState */
-     , (7607, 101,        183) /* AiAllowedCombatStyle */
+     , (7607,  93,       3080) /* PhysicsState - ReportCollisions, Gravity, LightingOn */
+     , (7607, 101,        183) /* AiAllowedCombatStyle - Unarmed, OneHanded, OneHandedAndShield, Bow, Crossbow, ThrownWeapon */
      , (7607, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (7607, 140,          1) /* AiOptions */
      , (7607, 146,      16641) /* XpOverride */;
@@ -68,7 +68,7 @@ VALUES (7607,   1,   33556131) /* Setup */
      , (7607,   4,  805306368) /* CombatTable */
      , (7607,   8,  100670274) /* Icon */
      , (7607,  22,  872415344) /* PhysicsEffectTable */
-     , (7607,  35,        462) /* DeathTreasureType */;
+     , (7607,  35,        462) /* DeathTreasureType - Loot Tier: 3 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (7607,   1, 170, 0, 0) /* Strength */
@@ -124,6 +124,6 @@ VALUES (7607,  94) /* ATTACK_NOTIFICATION_EVENT */
      , (7607, 414) /* PLAYER_DEATH_EVENT */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (7607, 9,     0,  0, 0, 0.98, False) /* Create Unknown for ContainTreasure */
-     , (7607, 2,  5709,  3, 0, 0, False) /* Create Ball of fire for Wield */
-     , (7607, 9,  6876,  0, 0, 0.02, False) /* Create Sturdy Iron Key for ContainTreasure */;
+VALUES (7607, 9,     0,  0, 0, 0.98, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 3 for ContainTreasure */
+     , (7607, 2,  5709,  3, 0, 0, False) /* Create Ball of fire (5709) for Wield */
+     , (7607, 9,  6876,  0, 0, 0.02, False) /* Create Sturdy Iron Key (6876) for ContainTreasure */;

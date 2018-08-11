@@ -14,8 +14,8 @@ VALUES (6126,   1,       2048) /* ItemType - Gem */
      , (6126,  15,       5000) /* StackUnitValue */
      , (6126,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
      , (6126,  19,       5000) /* Value */
-     , (6126,  93,       1044) /* PhysicsState */
-     , (6126,  94,      33027) /* TargetType */;
+     , (6126,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (6126,  94,      33027) /* TargetType - 33027 */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (6126,  22, True ) /* Inscribable */

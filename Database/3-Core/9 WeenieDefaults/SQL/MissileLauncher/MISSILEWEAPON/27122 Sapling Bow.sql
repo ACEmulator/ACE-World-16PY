@@ -20,7 +20,7 @@ VALUES (27122,   1,        256) /* ItemType - MissileWeapon */
      , (27122,  52,          2) /* ParentLocation */
      , (27122,  53,          3) /* PlacementPosition */
      , (27122,  60,        192) /* WeaponRange */
-     , (27122,  93,       1044) /* PhysicsState */
+     , (27122,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (27122, 106,        200) /* ItemSpellcraft */
      , (27122, 107,        500) /* ItemCurMana */
      , (27122, 108,        500) /* ItemMaxMana */

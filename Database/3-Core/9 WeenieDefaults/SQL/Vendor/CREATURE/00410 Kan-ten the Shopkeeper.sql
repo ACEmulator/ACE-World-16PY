@@ -10,10 +10,10 @@ VALUES (410,   1,         16) /* ItemType - Creature */
      , (410,  16,         32) /* ItemUseable - Remote */
      , (410,  25,          5) /* Level */
      , (410,  27,          0) /* ArmorType */
-     , (410,  74,        551) /* MerchandiseItemTypes */
+     , (410,  74,        551) /* MerchandiseItemTypes - MeleeWeapon, Vestements, Food, Container */
      , (410,  75,          0) /* MerchandiseMinValue */
      , (410,  76,     100000) /* MerchandiseMaxValue */
-     , (410,  93,    2098200) /* PhysicsState */
+     , (410,  93,    2098200) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */
      , (410, 126,        250) /* VendorHappyMean */
      , (410, 127,        250) /* VendorHappyVariance */
      , (410, 133,          4) /* ShowableOnRadar - ShowAlways */
@@ -162,25 +162,25 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 318767235 /* Nod */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (410, 4,    44, -1, 14, 0.1, False) /* Create Buckler for Shop */
-     , (410, 4,    46, -1, 14, 0.1, False) /* Create Metal Cap for Shop */
-     , (410, 4,    93, -1, 14, 0.1, False) /* Create Round Shield for Shop */
-     , (410, 2,   115,  0, 4, 0.8, False) /* Create Leather Boots for Wield */
-     , (410, 4,   117, -1, 14, 0.1, False) /* Create Breeches for Shop */
-     , (410, 2,   127,  0, 8, 0.8, False) /* Create Pants for Wield */
-     , (410, 2,   130,  0, 8, 0.2, False) /* Create Shirt for Wield */
-     , (410, 4,   130, -1, 14, 0.1, False) /* Create Shirt for Shop */
-     , (410, 4,   132, -1, 14, 0.1, False) /* Create Shoes for Shop */
-     , (410, 4,   258, -1, 0, 0, False) /* Create Apple for Shop */
-     , (410, 4,   260, -1, 0, 0, False) /* Create Cabbage for Shop */
-     , (410, 4,   264, -1, 0, 0, False) /* Create Grapes for Shop */
-     , (410, 4,   300, -1, 14, 0.1, False) /* Create Arrow for Shop */
-     , (410, 4,   307, -1, 14, 0.1, False) /* Create Shortbow for Shop */
-     , (410, 4,   314, -1, 14, 0.1, False) /* Create Dagger for Shop */
-     , (410, 4,   316, -1, 0, 0.1, False) /* Create Throwing Dart for Shop */
-     , (410, 4,   320, -1, 0, 0.1, False) /* Create Javelin for Shop */
-     , (410, 4,   329, -1, 14, 0.1, False) /* Create Knife for Shop */
-     , (410, 4,   342, -1, 14, 0.1, False) /* Create Shou-ono for Shop */
-     , (410, 4,   343, -1, 0, 0.1, False) /* Create Shouken for Shop */
-     , (410, 4,   352, -1, 14, 0.1, False) /* Create Short Sword for Shop */
-     , (410, 2, 10696,  0, 9, 0.5, False) /* Create Apron for Wield */;
+VALUES (410, 4,    44, -1, 14, 0.1, False) /* Create Buckler (44) for Shop */
+     , (410, 4,    46, -1, 14, 0.1, False) /* Create Metal Cap (46) for Shop */
+     , (410, 4,    93, -1, 14, 0.1, False) /* Create Round Shield (93) for Shop */
+     , (410, 2,   115,  0, 4, 0.8, False) /* Create Leather Boots (115) for Wield */
+     , (410, 4,   117, -1, 14, 0.1, False) /* Create Breeches (117) for Shop */
+     , (410, 2,   127,  0, 8, 0.8, False) /* Create Pants (127) for Wield */
+     , (410, 2,   130,  0, 8, 0.2, False) /* Create Shirt (130) for Wield */
+     , (410, 4,   130, -1, 14, 0.1, False) /* Create Shirt (130) for Shop */
+     , (410, 4,   132, -1, 14, 0.1, False) /* Create Shoes (132) for Shop */
+     , (410, 4,   258, -1, 0, 0, False) /* Create Apple (258) for Shop */
+     , (410, 4,   260, -1, 0, 0, False) /* Create Cabbage (260) for Shop */
+     , (410, 4,   264, -1, 0, 0, False) /* Create Grapes (264) for Shop */
+     , (410, 4,   300, -1, 14, 0.1, False) /* Create Arrow (300) for Shop */
+     , (410, 4,   307, -1, 14, 0.1, False) /* Create Shortbow (307) for Shop */
+     , (410, 4,   314, -1, 14, 0.1, False) /* Create Dagger (314) for Shop */
+     , (410, 4,   316, -1, 0, 0.1, False) /* Create Throwing Dart (316) for Shop */
+     , (410, 4,   320, -1, 0, 0.1, False) /* Create Javelin (320) for Shop */
+     , (410, 4,   329, -1, 14, 0.1, False) /* Create Knife (329) for Shop */
+     , (410, 4,   342, -1, 14, 0.1, False) /* Create Shou-ono (342) for Shop */
+     , (410, 4,   343, -1, 0, 0.1, False) /* Create Shouken (343) for Shop */
+     , (410, 4,   352, -1, 14, 0.1, False) /* Create Short Sword (352) for Shop */
+     , (410, 2, 10696,  0, 9, 0.5, False) /* Create Apron (10696) for Wield */;

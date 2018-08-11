@@ -13,7 +13,7 @@ VALUES (14434,   1,        512) /* ItemType - Container */
      , (14434,  81,          1) /* MaxGeneratedObjects */
      , (14434,  82,          1) /* InitGeneratedObjects */
      , (14434,  83,       4096) /* ActivationResponse - CastSpell */
-     , (14434,  93,       1048) /* PhysicsState */
+     , (14434,  93,       1048) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity */
      , (14434,  96,        500) /* EncumbranceCapacity */
      , (14434, 100,          1) /* GeneratorType - Relative */
      , (14434, 119,      65535) /* Active */;
@@ -50,4 +50,4 @@ VALUES (14434,   1,   33554556) /* Setup */
      , (14434,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (14434, -1, 14422, 15, 1, 1, 2, 8, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0);
+VALUES (14434, -1, 14422, 15, 1, 1, 2, 8, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Human Husk (14422) (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: Contain */;

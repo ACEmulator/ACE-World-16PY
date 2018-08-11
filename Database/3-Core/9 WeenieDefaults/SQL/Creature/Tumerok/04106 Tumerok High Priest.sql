@@ -11,8 +11,8 @@ VALUES (4106,   1,         16) /* ItemType - Creature */
      , (4106,  25,         95) /* Level */
      , (4106,  27,          0) /* ArmorType */
      , (4106,  68,          5) /* TargetingTactic */
-     , (4106,  93,       1032) /* PhysicsState */
-     , (4106, 101,        183) /* AiAllowedCombatStyle */
+     , (4106,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
+     , (4106, 101,        183) /* AiAllowedCombatStyle - Unarmed, OneHanded, OneHandedAndShield, Bow, Crossbow, ThrownWeapon */
      , (4106, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (4106, 140,          1) /* AiOptions */
      , (4106, 146,      36608) /* XpOverride */;
@@ -71,8 +71,16 @@ VALUES (4106,   1,   33554496) /* Setup */
      , (4106,   7,  268436631) /* ClothingBase */
      , (4106,   8,  100667452) /* Icon */
      , (4106,  22,  872415270) /* PhysicsEffectTable */
-     , (4106,  32,        202) /* WieldedTreasureType */
-     , (4106,  35,        448) /* DeathTreasureType */;
+     , (4106,  32,        202) /* WieldedTreasureType - 
+                                   Wield Yumi (23734) | Probability: 25%
+                                   Wield 20x Deadly Armor Piercing Arrow (15431) | Probability: 100%
+                                   Wield Yumi (23734) | Probability: 25%
+                                   Wield 17x Deadly Arrow (15429) | Probability: 100%
+                                   Wield Heavy Crossbow (23665) | Probability: 25%
+                                   Wield 20x Deadly Quarrel (15438) | Probability: 100%
+                                   Wield Heavy Crossbow (23665) | Probability: 25%
+                                   Wield 16x Deadly Armor Piercing Quarrel (15440) | Probability: 100% */
+     , (4106,  35,        448) /* DeathTreasureType - Loot Tier: 4 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (4106,   1, 240, 0, 0) /* Strength */
@@ -154,7 +162,7 @@ VALUES (4106,  94) /* ATTACK_NOTIFICATION_EVENT */
      , (4106, 414) /* PLAYER_DEATH_EVENT */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (4106, 9,     0,  0, 0, 0.9, False) /* Create Unknown for ContainTreasure */
-     , (4106, 9,     0,  0, 0, 0.97, False) /* Create Unknown for ContainTreasure */
-     , (4106, 9,  3695,  0, 0, 0.1, False) /* Create Gold Tumerok Insignia for ContainTreasure */
-     , (4106, 9,  7825,  0, 0, 0.03, False) /* Create Brown Beans for ContainTreasure */;
+VALUES (4106, 9,     0,  0, 0, 0.9, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 4 for ContainTreasure */
+     , (4106, 9,     0,  0, 0, 0.97, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 4 for ContainTreasure */
+     , (4106, 9,  3695,  0, 0, 0.1, False) /* Create Gold Tumerok Insignia (3695) for ContainTreasure */
+     , (4106, 9,  7825,  0, 0, 0.03, False) /* Create Brown Beans (7825) for ContainTreasure */;

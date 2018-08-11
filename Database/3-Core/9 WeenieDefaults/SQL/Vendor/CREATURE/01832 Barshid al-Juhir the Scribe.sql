@@ -10,10 +10,10 @@ VALUES (1832,   1,         16) /* ItemType - Creature */
      , (1832,  16,         32) /* ItemUseable - Remote */
      , (1832,  25,         11) /* Level */
      , (1832,  27,          0) /* ArmorType */
-     , (1832,  74,     270336) /* MerchandiseItemTypes */
+     , (1832,  74,     270336) /* MerchandiseItemTypes - Writable, PromissoryNote */
      , (1832,  75,          0) /* MerchandiseMinValue */
      , (1832,  76,     100000) /* MerchandiseMaxValue */
-     , (1832,  93,    2098200) /* PhysicsState */
+     , (1832,  93,    2098200) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */
      , (1832, 126,       2000) /* VendorHappyMean */
      , (1832, 127,       1000) /* VendorHappyVariance */
      , (1832, 133,          4) /* ShowableOnRadar - ShowAlways */
@@ -163,19 +163,19 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 318767235 /* Nod */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (1832, 2,   117,  0, 14, 0, False) /* Create Breeches for Wield */
-     , (1832, 2,   124,  0, 17, 1, False) /* Create Jerkin for Wield */
-     , (1832, 2,   128,  0, 16, 1, False) /* Create Qafiya for Wield */
-     , (1832, 2,   133,  0, 14, 0, False) /* Create Slippers for Wield */
-     , (1832, 4,   364, -1, 0, 0, False) /* Create Book for Shop */
-     , (1832, 4,   365, -1, 0, 0, False) /* Create Parchment for Shop */
-     , (1832, 4,   367, -1, 0, 0, False) /* Create Tome for Shop */
-     , (1832, 4,  5584, -1, 0, 0, False) /* Create Gharu'ndim Cookbook for Shop */
-     , (1832, 4,  5586, -1, 0, 0, False) /* Create Alchemy Guide for Shop */
-     , (1832, 4,  5587, -1, 0, 0, False) /* Create Fletching Guide for Shop */
-     , (1832, 4,  5602, -1, 0, 0, False) /* Create The Festival Stones of the Empyrean for Shop */
-     , (1832, 4,  5856, -1, 0, 0, False) /* Create Specialty Cookbook for Shop */
-     , (1832, 4,  6419, -1, 0, 0, False) /* Create The Meeting Halls for Shop */
-     , (1832, 4,  7884, -1, 0, 0, False) /* Create Chocolate Cookbook for Shop */
-     , (1832, 2, 10696,  0, 9, 0.5, False) /* Create Apron for Wield */
-     , (1832, 4, 14797, -1, 0, 0, False) /* Create Festival Cookbook for Shop */;
+VALUES (1832, 2,   117,  0, 14, 0, False) /* Create Breeches (117) for Wield */
+     , (1832, 2,   124,  0, 17, 1, False) /* Create Jerkin (124) for Wield */
+     , (1832, 2,   128,  0, 16, 1, False) /* Create Qafiya (128) for Wield */
+     , (1832, 2,   133,  0, 14, 0, False) /* Create Slippers (133) for Wield */
+     , (1832, 4,   364, -1, 0, 0, False) /* Create Book (364) for Shop */
+     , (1832, 4,   365, -1, 0, 0, False) /* Create Parchment (365) for Shop */
+     , (1832, 4,   367, -1, 0, 0, False) /* Create Tome (367) for Shop */
+     , (1832, 4,  5584, -1, 0, 0, False) /* Create Gharu'ndim Cookbook (5584) for Shop */
+     , (1832, 4,  5586, -1, 0, 0, False) /* Create Alchemy Guide (5586) for Shop */
+     , (1832, 4,  5587, -1, 0, 0, False) /* Create Fletching Guide (5587) for Shop */
+     , (1832, 4,  5602, -1, 0, 0, False) /* Create The Festival Stones of the Empyrean (5602) for Shop */
+     , (1832, 4,  5856, -1, 0, 0, False) /* Create Specialty Cookbook (5856) for Shop */
+     , (1832, 4,  6419, -1, 0, 0, False) /* Create The Meeting Halls (6419) for Shop */
+     , (1832, 4,  7884, -1, 0, 0, False) /* Create Chocolate Cookbook (7884) for Shop */
+     , (1832, 2, 10696,  0, 9, 0.5, False) /* Create Apron (10696) for Wield */
+     , (1832, 4, 14797, -1, 0, 0, False) /* Create Festival Cookbook (14797) for Shop */;

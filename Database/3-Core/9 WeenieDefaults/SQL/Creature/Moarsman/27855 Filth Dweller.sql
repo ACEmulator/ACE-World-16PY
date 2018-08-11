@@ -12,8 +12,8 @@ VALUES (27855,   1,         16) /* ItemType - Creature */
      , (27855,  27,          0) /* ArmorType */
      , (27855,  40,          2) /* CombatMode - Melee */
      , (27855,  68,         13) /* TargetingTactic */
-     , (27855,  93,       1032) /* PhysicsState */
-     , (27855, 101,        131) /* AiAllowedCombatStyle */
+     , (27855,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
+     , (27855, 101,        131) /* AiAllowedCombatStyle - Unarmed, OneHanded, ThrownWeapon */
      , (27855, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (27855, 140,          1) /* AiOptions */
      , (27855, 146,      44714) /* XpOverride */;
@@ -71,7 +71,7 @@ VALUES (27855,   1,   33556882) /* Setup */
      , (27855,   8,  100671185) /* Icon */
      , (27855,  22,  872415337) /* PhysicsEffectTable */
      , (27855,  30,         83) /* PhysicsScript - PortalExit */
-     , (27855,  35,        449) /* DeathTreasureType */;
+     , (27855,  35,        449) /* DeathTreasureType - Loot Tier: 6 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (27855,   1, 460, 0, 0) /* Strength */
@@ -174,5 +174,5 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 268435537 /* Twitch1 */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (27855, 9,     0,  0, 0, 0.98, False) /* Create Unknown for ContainTreasure */
-     , (27855, 9, 24477,  0, 0, 0.02, False) /* Create Sturdy Steel Key for ContainTreasure */;
+VALUES (27855, 9,     0,  0, 0, 0.98, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 6 for ContainTreasure */
+     , (27855, 9, 24477,  0, 0, 0.02, False) /* Create Sturdy Steel Key (24477) for ContainTreasure */;

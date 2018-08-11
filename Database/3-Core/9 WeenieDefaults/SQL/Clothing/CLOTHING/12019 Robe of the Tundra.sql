@@ -4,15 +4,15 @@ VALUES ('12019', 'robemattekarboss', 2) /* Clothing */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (12019,   1,          4) /* ItemType - Clothing */
      , (12019,   3,         46) /* PaletteTemplate - Tan */
-     , (12019,   4,      98048) /* ClothingPriority */
+     , (12019,   4,      98048) /* ClothingPriority - OuterwearUpperLegs, OuterwearLowerLegs, OuterwearChest, OuterwearAbdomen, OuterwearUpperArms, OuterwearLowerArms, Head, Feet */
      , (12019,   5,        500) /* EncumbranceVal */
      , (12019,   8,        150) /* Mass */
-     , (12019,   9,      32513) /* ValidLocations */
+     , (12019,   9,      32513) /* ValidLocations - HeadWear, Armor */
      , (12019,  16,          1) /* ItemUseable - No */
      , (12019,  19,       6000) /* Value */
      , (12019,  27,          1) /* ArmorType */
      , (12019,  28,          0) /* ArmorLevel */
-     , (12019,  93,       1044) /* PhysicsState */
+     , (12019,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (12019, 150,        103) /* HookPlacement - Hook */
      , (12019, 151,          2) /* HookType - Wall */;
 

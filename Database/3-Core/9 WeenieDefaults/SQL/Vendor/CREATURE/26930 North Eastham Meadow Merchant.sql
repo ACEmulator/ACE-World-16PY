@@ -10,10 +10,10 @@ VALUES (26930,   1,         16) /* ItemType - Creature */
      , (26930,  16,         32) /* ItemUseable - Remote */
      , (26930,  25,         10) /* Level */
      , (26930,  27,          0) /* ArmorType */
-     , (26930,  74,     264192) /* MerchandiseItemTypes */
+     , (26930,  74,     264192) /* MerchandiseItemTypes - Gem, PromissoryNote */
      , (26930,  75,          0) /* MerchandiseMinValue */
      , (26930,  76,    1000000) /* MerchandiseMaxValue */
-     , (26930,  93,    2098204) /* PhysicsState */
+     , (26930,  93,    2098204) /* PhysicsState - Ethereal, ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */
      , (26930, 126,        125) /* VendorHappyMean */
      , (26930, 127,        125) /* VendorHappyVariance */
      , (26930, 133,          4) /* ShowableOnRadar - ShowAlways */
@@ -97,4 +97,4 @@ VALUES (26930,  0,  4,  0,    0,    0,    0,    0,    0,    0,    0,    0,    0,
      , (26930,  8,  4,  2, 0.75,    0,    0,    0,    0,    0,    0,    0,    0,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (26930, 4, 26295, -1, 0, 0, False) /* Create North Eastham Meadow Portal Gem for Shop */;
+VALUES (26930, 4, 26295, -1, 0, 0, False) /* Create North Eastham Meadow Portal Gem (26295) for Shop */;

@@ -15,7 +15,7 @@ VALUES (5209,   1,         32) /* ItemType - Food */
      , (5209,  19,         20) /* Value */
      , (5209,  89,          4) /* BoosterEnum - Stamina */
      , (5209,  90,         12) /* BoostValue */
-     , (5209,  93,       1044) /* PhysicsState */;
+     , (5209,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (5209,   1, 'Rabbit Kebab') /* Name */

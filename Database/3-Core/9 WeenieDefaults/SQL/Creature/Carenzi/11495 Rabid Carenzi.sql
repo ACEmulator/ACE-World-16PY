@@ -13,7 +13,7 @@ VALUES (11495,   1,         16) /* ItemType - Creature */
      , (11495,  40,          2) /* CombatMode - Melee */
      , (11495,  68,          5) /* TargetingTactic */
      , (11495,  72,         55) /* FriendType - Carenzi */
-     , (11495,  93,       1032) /* PhysicsState */
+     , (11495,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (11495, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (11495, 146,      14962) /* XpOverride */;
 
@@ -68,7 +68,7 @@ VALUES (11495,   1,   33557141) /* Setup */
      , (11495,   7,  268436195) /* ClothingBase */
      , (11495,   8,  100671754) /* Icon */
      , (11495,  22,  872415377) /* PhysicsEffectTable */
-     , (11495,  35,        456) /* DeathTreasureType */;
+     , (11495,  35,        456) /* DeathTreasureType - Loot Tier: 3 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (11495,   1, 180, 0, 0) /* Strength */
@@ -119,7 +119,7 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 268435537 /* Twitch1 */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (11495, 9,     0,  0, 0, 0.95, False) /* Create Unknown for ContainTreasure */
-     , (11495, 9,     0,  0, 0, 0.99, False) /* Create Unknown for ContainTreasure */
-     , (11495, 9,  6876,  0, 0, 0.01, False) /* Create Sturdy Iron Key for ContainTreasure */
-     , (11495, 9, 11341,  0, 0, 0.05, False) /* Create Rabid Carenzi Pelt for ContainTreasure */;
+VALUES (11495, 9,     0,  0, 0, 0.95, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 3 for ContainTreasure */
+     , (11495, 9,     0,  0, 0, 0.99, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 3 for ContainTreasure */
+     , (11495, 9,  6876,  0, 0, 0.01, False) /* Create Sturdy Iron Key (6876) for ContainTreasure */
+     , (11495, 9, 11341,  0, 0, 0.05, False) /* Create Rabid Carenzi Pelt (11341) for ContainTreasure */;

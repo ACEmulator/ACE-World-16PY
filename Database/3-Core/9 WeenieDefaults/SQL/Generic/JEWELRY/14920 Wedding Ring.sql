@@ -10,7 +10,7 @@ VALUES (14920,   1,          8) /* ItemType - Jewelry */
      , (14920,  16,          1) /* ItemUseable - No */
      , (14920,  19,          0) /* Value */
      , (14920,  33,          1) /* Bonded - Bonded */
-     , (14920,  93,       1044) /* PhysicsState */
+     , (14920,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (14920, 114,          1) /* Attuned - Attuned */
      , (14920, 150,        103) /* HookPlacement - Hook */
      , (14920, 151,          2) /* HookType - Wall */;

@@ -13,7 +13,7 @@ VALUES (7908,   1,        128) /* ItemType - Misc */
      , (7908,  15,         20) /* StackUnitValue */
      , (7908,  19,         20) /* Value */
      , (7908,  33,          1) /* Bonded - Bonded */
-     , (7908,  93,       1044) /* PhysicsState */;
+     , (7908,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (7908,  22, True ) /* Inscribable */

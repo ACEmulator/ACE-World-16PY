@@ -11,8 +11,8 @@ VALUES (6014,   1,         16) /* ItemType - Creature */
      , (6014,  25,         44) /* Level */
      , (6014,  27,          0) /* ArmorType */
      , (6014,  68,          5) /* TargetingTactic */
-     , (6014,  93,    4195336) /* PhysicsState */
-     , (6014, 101,        183) /* AiAllowedCombatStyle */
+     , (6014,  93,    4195336) /* PhysicsState - ReportCollisions, Gravity, EdgeSlide */
+     , (6014, 101,        183) /* AiAllowedCombatStyle - Unarmed, OneHanded, OneHandedAndShield, Bow, Crossbow, ThrownWeapon */
      , (6014, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (6014, 140,          1) /* AiOptions */
      , (6014, 146,       6305) /* XpOverride */;
@@ -72,8 +72,16 @@ VALUES (6014,   1,   33554496) /* Setup */
      , (6014,   7,  268436629) /* ClothingBase */
      , (6014,   8,  100667452) /* Icon */
      , (6014,  22,  872415270) /* PhysicsEffectTable */
-     , (6014,  32,        216) /* WieldedTreasureType */
-     , (6014,  35,        451) /* DeathTreasureType */;
+     , (6014,  32,        216) /* WieldedTreasureType - 
+                                   Wield Nayin (334) | Probability: 25%
+                                   Wield 20x Arrow (300) | Probability: 100%
+                                   Wield Longbow (306) | Probability: 25%
+                                   Wield 18x Arrow (300) | Probability: 100%
+                                   Wield Yumi (363) | Probability: 25%
+                                   Wield 20x Arrow (300) | Probability: 100%
+                                   Wield Heavy Crossbow (311) | Probability: 25%
+                                   Wield 15x Quarrel (305) | Probability: 100% */
+     , (6014,  35,        451) /* DeathTreasureType - Loot Tier: 2 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (6014,   1, 100, 0, 0) /* Strength */
@@ -146,21 +154,21 @@ VALUES (6014,  94) /* ATTACK_NOTIFICATION_EVENT */
      , (6014, 414) /* PLAYER_DEATH_EVENT */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (6014, 9,     0,  0, 0, 0.99, False) /* Create Unknown for ContainTreasure */
-     , (6014, 9,     0,  0, 0, 0.85, False) /* Create Unknown for ContainTreasure */
-     , (6014, 9,     0,  0, 0, 0.97, False) /* Create Unknown for ContainTreasure */
-     , (6014, 8,   301,  0, 0, 0.14, False) /* Create Battle Axe for Treasure */
-     , (6014, 8,   324,  0, 0, 0.06, False) /* Create Kaskara for Treasure */
-     , (6014, 8,   327,  0, 0, 0.06, False) /* Create Ken for Treasure */
-     , (6014, 8,   332,  0, 0, 0.08, False) /* Create Morning Star for Treasure */
-     , (6014, 8,   336,  0, 0, 0.13, False) /* Create Ono for Treasure */
-     , (6014, 8,   339,  0, 0, 0.06, False) /* Create Scimitar for Treasure */
-     , (6014, 8,   340,  0, 0, 0.06, False) /* Create Shamshir for Treasure */
-     , (6014, 8,   344,  0, 0, 0.13, False) /* Create Silifi for Treasure */
-     , (6014, 8,   350,  0, 0, 0.07, False) /* Create Broad Sword for Treasure */
-     , (6014, 8,   351,  0, 0, 0.06, False) /* Create Long Sword for Treasure */
-     , (6014, 8,   353,  0, 0, 0.06, False) /* Create Tachi for Treasure */
-     , (6014, 8,   354,  0, 0, 0.06, False) /* Create Takuba for Treasure */
-     , (6014, 9,  3695,  0, 0, 0.15, False) /* Create Gold Tumerok Insignia for ContainTreasure */
-     , (6014, 9,  6876,  0, 0, 0.01, False) /* Create Sturdy Iron Key for ContainTreasure */
-     , (6014, 9,  7825,  0, 0, 0.03, False) /* Create Brown Beans for ContainTreasure */;
+VALUES (6014, 9,     0,  0, 0, 0.99, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 2 for ContainTreasure */
+     , (6014, 9,     0,  0, 0, 0.85, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 2 for ContainTreasure */
+     , (6014, 9,     0,  0, 0, 0.97, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 2 for ContainTreasure */
+     , (6014, 8,   301,  0, 0, 0.14, False) /* Create Battle Axe (301) for Treasure */
+     , (6014, 8,   324,  0, 0, 0.06, False) /* Create Kaskara (324) for Treasure */
+     , (6014, 8,   327,  0, 0, 0.06, False) /* Create Ken (327) for Treasure */
+     , (6014, 8,   332,  0, 0, 0.08, False) /* Create Morning Star (332) for Treasure */
+     , (6014, 8,   336,  0, 0, 0.13, False) /* Create Ono (336) for Treasure */
+     , (6014, 8,   339,  0, 0, 0.06, False) /* Create Scimitar (339) for Treasure */
+     , (6014, 8,   340,  0, 0, 0.06, False) /* Create Shamshir (340) for Treasure */
+     , (6014, 8,   344,  0, 0, 0.13, False) /* Create Silifi (344) for Treasure */
+     , (6014, 8,   350,  0, 0, 0.07, False) /* Create Broad Sword (350) for Treasure */
+     , (6014, 8,   351,  0, 0, 0.06, False) /* Create Long Sword (351) for Treasure */
+     , (6014, 8,   353,  0, 0, 0.06, False) /* Create Tachi (353) for Treasure */
+     , (6014, 8,   354,  0, 0, 0.06, False) /* Create Takuba (354) for Treasure */
+     , (6014, 9,  3695,  0, 0, 0.15, False) /* Create Gold Tumerok Insignia (3695) for ContainTreasure */
+     , (6014, 9,  6876,  0, 0, 0.01, False) /* Create Sturdy Iron Key (6876) for ContainTreasure */
+     , (6014, 9,  7825,  0, 0, 0.03, False) /* Create Brown Beans (7825) for ContainTreasure */;

@@ -14,8 +14,8 @@ VALUES (12020,   1,         16) /* ItemType - Creature */
      , (12020,  68,          3) /* TargetingTactic */
      , (12020,  81,          2) /* MaxGeneratedObjects */
      , (12020,  82,          2) /* InitGeneratedObjects */
-     , (12020,  93,       1032) /* PhysicsState */
-     , (12020, 101,        183) /* AiAllowedCombatStyle */
+     , (12020,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
+     , (12020, 101,        183) /* AiAllowedCombatStyle - Unarmed, OneHanded, OneHandedAndShield, Bow, Crossbow, ThrownWeapon */
      , (12020, 103,          1) /* GeneratorDestructionType - Nothing */
      , (12020, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (12020, 140,          1) /* AiOptions */
@@ -77,8 +77,15 @@ VALUES (12020,   1,   33555608) /* Setup */
      , (12020,   7,  268435727) /* ClothingBase */
      , (12020,   8,  100669120) /* Icon */
      , (12020,  22,  872415280) /* PhysicsEffectTable */
-     , (12020,  32,        376) /* WieldedTreasureType */
-     , (12020,  35,         19) /* DeathTreasureType */;
+     , (12020,  32,        376) /* WieldedTreasureType - 
+                                   Wield 5x Javelin (8620) | Probability: 25%
+                                   Wield 4x Acid Javelin (8621) | Probability: 25%
+                                   Wield Serpent's Fang (12028) | Probability: 100%
+                                   Wield Large Kite Shield (92) | Probability: 10%
+                                   Wield Kite Shield (91) | Probability: 10%
+                                   Wield Large Round Shield (94) | Probability: 20%
+                                   Wield Tower Shield (95) | Probability: 15% */
+     , (12020,  35,         19) /* DeathTreasureType - Loot Tier: 4 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (12020,   1, 265, 0, 0) /* Strength */
@@ -142,15 +149,15 @@ VALUES (12020,  94) /* ATTACK_NOTIFICATION_EVENT */
      , (12020, 414) /* PLAYER_DEATH_EVENT */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (12020, 9,     0,  0, 0, 0.4, False) /* Create Unknown for ContainTreasure */
-     , (12020, 9,     0,  0, 0, 0.25, False) /* Create Unknown for ContainTreasure */
-     , (12020, 9,     0,  0, 0, 0.15, False) /* Create Unknown for ContainTreasure */
-     , (12020, 9,     0,  0, 0, 0.7, False) /* Create Unknown for ContainTreasure */
-     , (12020, 9,  6876,  0, 0, 0.6, False) /* Create Sturdy Iron Key for ContainTreasure */
-     , (12020, 9,  7046,  0, 0, 0.75, False) /* Create Sclavus Tongue for ContainTreasure */
-     , (12020, 9,  9259,  0, 0, 0.85, False) /* Create Large Sclavus Hide for ContainTreasure */
-     , (12020, 9, 23539,  0, 0, 0.3, False) /* Create Serpent's Fang for ContainTreasure */;
+VALUES (12020, 9,     0,  0, 0, 0.4, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 4 for ContainTreasure */
+     , (12020, 9,     0,  0, 0, 0.25, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 4 for ContainTreasure */
+     , (12020, 9,     0,  0, 0, 0.15, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 4 for ContainTreasure */
+     , (12020, 9,     0,  0, 0, 0.7, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 4 for ContainTreasure */
+     , (12020, 9,  6876,  0, 0, 0.6, False) /* Create Sturdy Iron Key (6876) for ContainTreasure */
+     , (12020, 9,  7046,  0, 0, 0.75, False) /* Create Sclavus Tongue (7046) for ContainTreasure */
+     , (12020, 9,  9259,  0, 0, 0.85, False) /* Create Large Sclavus Hide (9259) for ContainTreasure */
+     , (12020, 9, 23539,  0, 0, 0.3, False) /* Create Serpent's Fang (23539) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (12020, 0.5, 7112, 20, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0)
-     , (12020, 1, 7112, 20, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0);
+VALUES (12020, 0.5, 7112, 20, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Chomu Sclavus (7112) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Scatter */
+     , (12020, 1, 7112, 20, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Chomu Sclavus (7112) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Scatter */;

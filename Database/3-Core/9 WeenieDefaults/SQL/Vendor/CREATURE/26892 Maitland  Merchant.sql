@@ -10,10 +10,10 @@ VALUES (26892,   1,         16) /* ItemType - Creature */
      , (26892,  16,         32) /* ItemUseable - Remote */
      , (26892,  25,         10) /* Level */
      , (26892,  27,          0) /* ArmorType */
-     , (26892,  74,     264192) /* MerchandiseItemTypes */
+     , (26892,  74,     264192) /* MerchandiseItemTypes - Gem, PromissoryNote */
      , (26892,  75,          0) /* MerchandiseMinValue */
      , (26892,  76,    1000000) /* MerchandiseMaxValue */
-     , (26892,  93,    2098204) /* PhysicsState */
+     , (26892,  93,    2098204) /* PhysicsState - Ethereal, ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */
      , (26892, 126,        125) /* VendorHappyMean */
      , (26892, 127,        125) /* VendorHappyVariance */
      , (26892, 133,          4) /* ShowableOnRadar - ShowAlways */
@@ -97,4 +97,4 @@ VALUES (26892,  0,  4,  0,    0,    0,    0,    0,    0,    0,    0,    0,    0,
      , (26892,  8,  4,  2, 0.75,    0,    0,    0,    0,    0,    0,    0,    0,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (26892, 4, 26257, -1, 0, 0, False) /* Create Maitland  Portal Gem for Shop */;
+VALUES (26892, 4, 26257, -1, 0, 0, False) /* Create Maitland  Portal Gem (26257) for Shop */;

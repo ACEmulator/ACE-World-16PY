@@ -10,10 +10,10 @@ VALUES (26764,   1,         16) /* ItemType - Creature */
      , (26764,  16,         32) /* ItemUseable - Remote */
      , (26764,  25,         10) /* Level */
      , (26764,  27,          0) /* ArmorType */
-     , (26764,  74,     264192) /* MerchandiseItemTypes */
+     , (26764,  74,     264192) /* MerchandiseItemTypes - Gem, PromissoryNote */
      , (26764,  75,          0) /* MerchandiseMinValue */
      , (26764,  76,    1000000) /* MerchandiseMaxValue */
-     , (26764,  93,    2098204) /* PhysicsState */
+     , (26764,  93,    2098204) /* PhysicsState - Ethereal, ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */
      , (26764, 126,        125) /* VendorHappyMean */
      , (26764, 127,        125) /* VendorHappyVariance */
      , (26764, 133,          4) /* ShowableOnRadar - ShowAlways */
@@ -97,4 +97,4 @@ VALUES (26764,  0,  4,  0,    0,    0,    0,    0,    0,    0,    0,    0,    0,
      , (26764,  8,  4,  2, 0.75,    0,    0,    0,    0,    0,    0,    0,    0,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (26764, 4, 26129, -1, 0, 0, False) /* Create Demonsbane Cottages Portal Gem for Shop */;
+VALUES (26764, 4, 26129, -1, 0, 0, False) /* Create Demonsbane Cottages Portal Gem (26129) for Shop */;

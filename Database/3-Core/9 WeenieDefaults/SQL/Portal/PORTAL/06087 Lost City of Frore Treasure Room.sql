@@ -4,7 +4,7 @@ VALUES ('6087', 'portallostcityfroretreasureroom', 7) /* Portal */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (6087,   1,      65536) /* ItemType - Portal */
      , (6087,  16,         32) /* ItemUseable - Remote */
-     , (6087,  93,       3084) /* PhysicsState */
+     , (6087,  93,       3084) /* PhysicsState - Ethereal, ReportCollisions, Gravity, LightingOn */
      , (6087, 111,          0) /* PortalBitmask - Undef */
      , (6087, 133,          4) /* ShowableOnRadar - ShowAlways */;
 

@@ -11,8 +11,8 @@ VALUES (2483,   1,         16) /* ItemType - Creature */
      , (2483,  25,         74) /* Level */
      , (2483,  27,          0) /* ArmorType */
      , (2483,  68,          5) /* TargetingTactic */
-     , (2483,  93,       1032) /* PhysicsState */
-     , (2483, 101,        183) /* AiAllowedCombatStyle */
+     , (2483,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
+     , (2483, 101,        183) /* AiAllowedCombatStyle - Unarmed, OneHanded, OneHandedAndShield, Bow, Crossbow, ThrownWeapon */
      , (2483, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (2483, 140,          1) /* AiOptions */
      , (2483, 146,      14470) /* XpOverride */;
@@ -68,8 +68,33 @@ VALUES (2483,   1,   33554496) /* Setup */
      , (2483,   7,  268435647) /* ClothingBase */
      , (2483,   8,  100667452) /* Icon */
      , (2483,  22,  872415270) /* PhysicsEffectTable */
-     , (2483,  32,        199) /* WieldedTreasureType */
-     , (2483,  35,        200) /* DeathTreasureType */;
+     , (2483,  32,        199) /* WieldedTreasureType - 
+                                   Wield Yumi (23733) | Probability: 6%
+                                   Wield 20x Deadly Armor Piercing Arrow (15431) | Probability: 100%
+                                   Wield Yumi (23733) | Probability: 6%
+                                   Wield 17x Deadly Arrow (15429) | Probability: 100%
+                                   Wield Heavy Crossbow (23664) | Probability: 6%
+                                   Wield 20x Deadly Quarrel (15438) | Probability: 100%
+                                   Wield Heavy Crossbow (23664) | Probability: 6%
+                                   Wield 16x Deadly Armor Piercing Quarrel (15440) | Probability: 100%
+                                   Wield Yumi (23733) | Probability: 6%
+                                   Wield 20x Deadly Broadhead Arrow (15433) | Probability: 100%
+                                   Wield Yumi (23733) | Probability: 6%
+                                   Wield 17x Deadly Blunt Arrow (15432) | Probability: 100%
+                                   Wield Heavy Crossbow (23664) | Probability: 6%
+                                   Wield 20x Deadly Broadhead Quarrel (15442) | Probability: 100%
+                                   Wield Heavy Crossbow (23664) | Probability: 6%
+                                   Wield 16x Deadly Blunt Quarrel (15441) | Probability: 100%
+                                   Wield Katar (23673) | Probability: 12%
+                                   Wield Cestus (23636) | Probability: 12%
+                                   Wield Nekode (23679) | Probability: 12%
+                                   Wield Tachi (23699) | Probability: 12%
+                                   Wield Spear (23695) | Probability: 12%
+                                   Wield Fire Yaoji (23717) | Probability: 12%
+                                   Wield Yaoji (23709) | Probability: 12%
+                                   Wield Fire Tachi (23706) | Probability: 12%
+                                   Wield Kite Shield (23683) | Probability: 75% */
+     , (2483,  35,        200) /* DeathTreasureType - Loot Tier: 5 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (2483,   1, 150, 0, 0) /* Strength */
@@ -116,4 +141,4 @@ VALUES (2483,  94) /* ATTACK_NOTIFICATION_EVENT */
      , (2483, 414) /* PLAYER_DEATH_EVENT */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (2483, 1,  2203,  0, 0, 1, False) /* Create Tumerok Gladiator's Key for Contain */;
+VALUES (2483, 1,  2203,  0, 0, 1, False) /* Create Tumerok Gladiator's Key (2203) for Contain */;

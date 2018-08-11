@@ -14,7 +14,7 @@ VALUES (9480,   1,        128) /* ItemType - Misc */
      , (9480,  16,          1) /* ItemUseable - No */
      , (9480,  19,      10000) /* Value */
      , (9480,  33,          1) /* Bonded - Bonded */
-     , (9480,  93,       1044) /* PhysicsState */;
+     , (9480,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (9480,  23, True ) /* DestroyOnSell */;

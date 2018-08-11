@@ -4,7 +4,7 @@ VALUES ('26452', 'robebathulgrim', 2) /* Clothing */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (26452,   1,          4) /* ItemType - Clothing */
      , (26452,   3,          1) /* PaletteTemplate - AquaBlue */
-     , (26452,   4,      16128) /* ClothingPriority */
+     , (26452,   4,      16128) /* ClothingPriority - OuterwearUpperLegs, OuterwearLowerLegs, OuterwearChest, OuterwearAbdomen, OuterwearUpperArms, OuterwearLowerArms */
      , (26452,   5,        200) /* EncumbranceVal */
      , (26452,   8,        150) /* Mass */
      , (26452,   9,      32512) /* ValidLocations - Armor */
@@ -12,7 +12,7 @@ VALUES (26452,   1,          4) /* ItemType - Clothing */
      , (26452,  19,       1000) /* Value */
      , (26452,  27,          1) /* ArmorType */
      , (26452,  28,         50) /* ArmorLevel */
-     , (26452,  93,       1044) /* PhysicsState */
+     , (26452,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (26452, 150,        103) /* HookPlacement - Hook */
      , (26452, 151,          2) /* HookType - Wall */;
 

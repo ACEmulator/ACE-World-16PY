@@ -10,10 +10,10 @@ VALUES (27042,   1,         16) /* ItemType - Creature */
      , (27042,  16,         32) /* ItemUseable - Remote */
      , (27042,  25,         10) /* Level */
      , (27042,  27,          0) /* ArmorType */
-     , (27042,  74,     264192) /* MerchandiseItemTypes */
+     , (27042,  74,     264192) /* MerchandiseItemTypes - Gem, PromissoryNote */
      , (27042,  75,          0) /* MerchandiseMinValue */
      , (27042,  76,    1000000) /* MerchandiseMaxValue */
-     , (27042,  93,    2098204) /* PhysicsState */
+     , (27042,  93,    2098204) /* PhysicsState - Ethereal, ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */
      , (27042, 126,        125) /* VendorHappyMean */
      , (27042, 127,        125) /* VendorHappyVariance */
      , (27042, 133,          4) /* ShowableOnRadar - ShowAlways */
@@ -97,4 +97,4 @@ VALUES (27042,  0,  4,  0,    0,    0,    0,    0,    0,    0,    0,    0,    0,
      , (27042,  8,  4,  2, 0.75,    0,    0,    0,    0,    0,    0,    0,    0,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (27042, 4, 26407, -1, 0, 0, False) /* Create Thasali Cottages Portal Gem for Shop */;
+VALUES (27042, 4, 26407, -1, 0, 0, False) /* Create Thasali Cottages Portal Gem (26407) for Shop */;

@@ -10,8 +10,8 @@ VALUES (21167,   1,         16) /* ItemType - Creature */
      , (21167,  25,        115) /* Level */
      , (21167,  27,          0) /* ArmorType */
      , (21167,  68,          5) /* TargetingTactic */
-     , (21167,  93,       3080) /* PhysicsState */
-     , (21167, 101,        183) /* AiAllowedCombatStyle */
+     , (21167,  93,       3080) /* PhysicsState - ReportCollisions, Gravity, LightingOn */
+     , (21167, 101,        183) /* AiAllowedCombatStyle - Unarmed, OneHanded, OneHandedAndShield, Bow, Crossbow, ThrownWeapon */
      , (21167, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (21167, 140,          1) /* AiOptions */
      , (21167, 146,      56230) /* XpOverride */;
@@ -67,7 +67,7 @@ VALUES (21167,   1,   33557487) /* Setup */
      , (21167,   4,  805306368) /* CombatTable */
      , (21167,   8,  100672514) /* Icon */
      , (21167,  22,  872415349) /* PhysicsEffectTable */
-     , (21167,  35,        464) /* DeathTreasureType */;
+     , (21167,  35,        464) /* DeathTreasureType - Loot Tier: 5 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (21167,   1, 250, 0, 0) /* Strength */
@@ -141,5 +141,5 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,  10 /* Tell */, 0, 1, NULL, 'We are the memories of the first given form. You cannot defeat us for our souls live on. Remember well this chill for it will be with you always.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (21167, 9,     0,  0, 0, 0.97, False) /* Create Unknown for ContainTreasure */
-     , (21167, 9,  6876,  0, 0, 0.03, False) /* Create Sturdy Iron Key for ContainTreasure */;
+VALUES (21167, 9,     0,  0, 0, 0.97, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 5 for ContainTreasure */
+     , (21167, 9,  6876,  0, 0, 0.03, False) /* Create Sturdy Iron Key (6876) for ContainTreasure */;

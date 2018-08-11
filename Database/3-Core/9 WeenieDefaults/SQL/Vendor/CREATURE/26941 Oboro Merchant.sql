@@ -10,10 +10,10 @@ VALUES (26941,   1,         16) /* ItemType - Creature */
      , (26941,  16,         32) /* ItemUseable - Remote */
      , (26941,  25,         10) /* Level */
      , (26941,  27,          0) /* ArmorType */
-     , (26941,  74,     264192) /* MerchandiseItemTypes */
+     , (26941,  74,     264192) /* MerchandiseItemTypes - Gem, PromissoryNote */
      , (26941,  75,          0) /* MerchandiseMinValue */
      , (26941,  76,    1000000) /* MerchandiseMaxValue */
-     , (26941,  93,    2098204) /* PhysicsState */
+     , (26941,  93,    2098204) /* PhysicsState - Ethereal, ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */
      , (26941, 126,        125) /* VendorHappyMean */
      , (26941, 127,        125) /* VendorHappyVariance */
      , (26941, 133,          4) /* ShowableOnRadar - ShowAlways */
@@ -97,4 +97,4 @@ VALUES (26941,  0,  4,  0,    0,    0,    0,    0,    0,    0,    0,    0,    0,
      , (26941,  8,  4,  2, 0.75,    0,    0,    0,    0,    0,    0,    0,    0,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (26941, 4, 26306, -1, 0, 0, False) /* Create Oboro Portal Gem for Shop */;
+VALUES (26941, 4, 26306, -1, 0, 0, False) /* Create Oboro Portal Gem (26306) for Shop */;

@@ -13,7 +13,7 @@ VALUES (8806,   1,          2) /* ItemType - Armor */
      , (8806,  27,         32) /* ArmorType */
      , (8806,  28,         10) /* ArmorLevel */
      , (8806,  33,          1) /* Bonded - Bonded */
-     , (8806,  93,       1044) /* PhysicsState */
+     , (8806,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (8806, 114,          1) /* Attuned - Attuned */
      , (8806, 150,        103) /* HookPlacement - Hook */
      , (8806, 151,          2) /* HookType - Wall */;

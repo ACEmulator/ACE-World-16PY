@@ -10,7 +10,7 @@ VALUES (29766,   1,         16) /* ItemType - Creature */
      , (29766,  16,         32) /* ItemUseable - Remote */
      , (29766,  25,        126) /* Level */
      , (29766,  27,          0) /* ArmorType */
-     , (29766,  93,    6292504) /* PhysicsState */
+     , (29766,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (29766,  95,          8) /* RadarBlipColor - Yellow */
      , (29766, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (29766, 134,         16) /* PlayerKillerStatus - RubberGlue */
@@ -238,5 +238,5 @@ VALUES (@parent_id,  0,  31 /* EraseQuest */, 0, 1, NULL, 'BrooduBeaten', NULL, 
      , (@parent_id,  4,  10 /* Tell */, 0, 1, NULL, 'This is for your efforts against the Burun Kukuur, King Broodu. You will need to wait three weeks before returning to me for another reward. If you wish to change your title and you have a scrap of Broodu''s hide I will accept the hide and give you a token that can be used to rename you to Broodu Killer!', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (29766, 2,   118,  0, 14, 1, False) /* Create Cap for Wield */
-     , (29766, 2, 10870,  0, 17, 0.7, False) /* Create Canescent Mattekar Robe for Wield */;
+VALUES (29766, 2,   118,  0, 14, 1, False) /* Create Cap (118) for Wield */
+     , (29766, 2, 10870,  0, 17, 0.7, False) /* Create Canescent Mattekar Robe (10870) for Wield */;

@@ -13,7 +13,7 @@ VALUES (23317,   1,         16) /* ItemType - Creature */
      , (23317,  81,          2) /* MaxGeneratedObjects */
      , (23317,  82,          0) /* InitGeneratedObjects */
      , (23317,  83,      65536) /* ActivationResponse - Generate */
-     , (23317,  93,    2098204) /* PhysicsState */
+     , (23317,  93,    2098204) /* PhysicsState - Ethereal, ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */
      , (23317,  95,          1) /* RadarBlipColor - LifeStone */
      , (23317, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (23317, 134,         16) /* PlayerKillerStatus - RubberGlue */
@@ -2860,5 +2860,5 @@ VALUES (@parent_id,  0,  17 /* LocalBroadcast */, 0, 0, NULL, 'Something rises f
      , (@parent_id,  1,  15 /* Activate */, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (23317, 0.5, 4246, 10, 1, 2, 1, 4, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0)
-     , (23317, 1, 7984, 10, 1, 2, 1, 4, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0);
+VALUES (23317, 0.5, 4246, 10, 1, 2, 1, 4, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Rank Moarsman (4246) (x1 up to max of 2) - Regenerate upon Destruction - Location to (re)Generate: Specific */
+     , (23317, 1, 7984, 10, 1, 2, 1, 4, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Parfal Niffis (7984) (x1 up to max of 2) - Regenerate upon Destruction - Location to (re)Generate: Specific */;

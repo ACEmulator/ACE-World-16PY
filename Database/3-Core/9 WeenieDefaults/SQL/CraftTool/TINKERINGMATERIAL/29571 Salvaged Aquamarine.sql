@@ -17,12 +17,12 @@ VALUES (29571,   1, 1073741824) /* ItemType - TinkeringMaterial */
      , (29571,  33,          1) /* Bonded - Bonded */
      , (29571,  91,        100) /* MaxStructure */
      , (29571,  92,        100) /* Structure */
-     , (29571,  93,       1044) /* PhysicsState */
-     , (29571,  94,      33025) /* TargetType - WeaponOrCaster */
+     , (29571,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (29571,  94,      33025) /* TargetType - 33025 */
      , (29571, 105,        100) /* ItemWorkmanship */
      , (29571, 131,         13) /* MaterialType - Aquamarine */
      , (29571, 150,        103) /* HookPlacement - Hook */
-     , (29571, 151,          9) /* HookType */
+     , (29571, 151,          9) /* HookType - Floor, Yard */
      , (29571, 170,         10) /* NumItemsInMaterial */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)

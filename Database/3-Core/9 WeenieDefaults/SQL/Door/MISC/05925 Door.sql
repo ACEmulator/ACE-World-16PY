@@ -7,7 +7,7 @@ VALUES (5925,   1,        128) /* ItemType - Misc */
      , (5925,  16,         32) /* ItemUseable - Remote */
      , (5925,  19,          0) /* Value */
      , (5925,  38,        999) /* ResistLockpick */
-     , (5925,  93,         24) /* PhysicsState */;
+     , (5925,  93,         24) /* PhysicsState - ReportCollisions, IgnoreCollisions */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (5925,   1, True ) /* Stuck */

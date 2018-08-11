@@ -14,8 +14,8 @@ VALUES (24941,   1,         16) /* ItemType - Creature */
      , (24941,  40,          2) /* CombatMode - Melee */
      , (24941,  68,         13) /* TargetingTactic */
      , (24941,  72,          6) /* FriendType - Tumerok */
-     , (24941,  93,       1032) /* PhysicsState */
-     , (24941, 101,        131) /* AiAllowedCombatStyle */
+     , (24941,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
+     , (24941, 101,        131) /* AiAllowedCombatStyle - Unarmed, OneHanded, ThrownWeapon */
      , (24941, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (24941, 140,          1) /* AiOptions */
      , (24941, 146,       1143) /* XpOverride */;
@@ -71,8 +71,15 @@ VALUES (24941,   1,   33557003) /* Setup */
      , (24941,   7,  268436152) /* ClothingBase */
      , (24941,   8,  100667447) /* Icon */
      , (24941,  22,  872415262) /* PhysicsEffectTable */
-     , (24941,  32,        440) /* WieldedTreasureType */
-     , (24941,  35,        453) /* DeathTreasureType */;
+     , (24941,  32,        440) /* WieldedTreasureType - 
+                                   Wield Rock (23747) | Probability: 65%
+                                   Wield Rock (7578) | Probability: 10%
+                                   Wield Lugian Axe (23741) | Probability: 18%
+                                   Wield Lugian Hammer (23755) | Probability: 18%
+                                   Wield Lugian Morning Star (23767) | Probability: 18%
+                                   Wield Lugian Club (23751) | Probability: 11%
+                                   Wield Lugian Axe (7577) | Probability: 10% */
+     , (24941,  35,        453) /* DeathTreasureType - Loot Tier: 1 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (24941,   1, 150, 0, 0) /* Strength */

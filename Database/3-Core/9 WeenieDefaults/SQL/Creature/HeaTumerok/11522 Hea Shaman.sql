@@ -10,8 +10,8 @@ VALUES (11522,   1,         16) /* ItemType - Creature */
      , (11522,  25,         95) /* Level */
      , (11522,  27,          0) /* ArmorType */
      , (11522,  68,          5) /* TargetingTactic */
-     , (11522,  93,       1032) /* PhysicsState */
-     , (11522, 101,        183) /* AiAllowedCombatStyle */
+     , (11522,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
+     , (11522, 101,        183) /* AiAllowedCombatStyle - Unarmed, OneHanded, OneHandedAndShield, Bow, Crossbow, ThrownWeapon */
      , (11522, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (11522, 140,          1) /* AiOptions */
      , (11522, 146,      36608) /* XpOverride */;
@@ -67,8 +67,21 @@ VALUES (11522,   1,   33554496) /* Setup */
      , (11522,   4,  805306380) /* CombatTable */
      , (11522,   8,  100667452) /* Icon */
      , (11522,  22,  872415270) /* PhysicsEffectTable */
-     , (11522,  32,        203) /* WieldedTreasureType */
-     , (11522,  35,        448) /* DeathTreasureType */;
+     , (11522,  32,        203) /* WieldedTreasureType - 
+                                   Wield Yumi (23734) | Probability: 20%
+                                   Wield 20x Deadly Arrow (15429) | Probability: 100%
+                                   Wield Heavy Crossbow (23665) | Probability: 40%
+                                   Wield 20x Deadly Quarrel (15438) | Probability: 100%
+                                   Wield Katar (23674) | Probability: 12%
+                                   Wield Cestus (23637) | Probability: 12%
+                                   Wield Nekode (23680) | Probability: 12%
+                                   Wield Tachi (23700) | Probability: 12%
+                                   Wield Spear (23696) | Probability: 12%
+                                   Wield Fire Yaoji (23718) | Probability: 12%
+                                   Wield Yaoji (23710) | Probability: 12%
+                                   Wield Fire Tachi (23707) | Probability: 12%
+                                   Wield Kite Shield (23684) | Probability: 75% */
+     , (11522,  35,        448) /* DeathTreasureType - Loot Tier: 4 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (11522,   1, 240, 0, 0) /* Strength */
@@ -135,11 +148,11 @@ VALUES (11522,  94) /* ATTACK_NOTIFICATION_EVENT */
      , (11522, 414) /* PLAYER_DEATH_EVENT */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (11522, 9,     0,  0, 0, 0.96, False) /* Create Unknown for ContainTreasure */
-     , (11522, 9,     0,  0, 0, 0.96, False) /* Create Unknown for ContainTreasure */
-     , (11522, 9,     0,  0, 0, 0.96, False) /* Create Unknown for ContainTreasure */
-     , (11522, 9,     0,  0, 0, 0.99, False) /* Create Unknown for ContainTreasure */
-     , (11522, 9,  6876,  0, 0, 0.01, False) /* Create Sturdy Iron Key for ContainTreasure */
-     , (11522, 9, 11454,  0, 0, 0.04, False) /* Create Totem of Audetaunga for ContainTreasure */
-     , (11522, 9, 11455,  0, 0, 0.04, False) /* Create Totem of Tanae for ContainTreasure */
-     , (11522, 9, 11456,  0, 0, 0.04, False) /* Create Totem of Volkama for ContainTreasure */;
+VALUES (11522, 9,     0,  0, 0, 0.96, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 4 for ContainTreasure */
+     , (11522, 9,     0,  0, 0, 0.96, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 4 for ContainTreasure */
+     , (11522, 9,     0,  0, 0, 0.96, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 4 for ContainTreasure */
+     , (11522, 9,     0,  0, 0, 0.99, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 4 for ContainTreasure */
+     , (11522, 9,  6876,  0, 0, 0.01, False) /* Create Sturdy Iron Key (6876) for ContainTreasure */
+     , (11522, 9, 11454,  0, 0, 0.04, False) /* Create Totem of Audetaunga (11454) for ContainTreasure */
+     , (11522, 9, 11455,  0, 0, 0.04, False) /* Create Totem of Tanae (11455) for ContainTreasure */
+     , (11522, 9, 11456,  0, 0, 0.04, False) /* Create Totem of Volkama (11456) for ContainTreasure */;

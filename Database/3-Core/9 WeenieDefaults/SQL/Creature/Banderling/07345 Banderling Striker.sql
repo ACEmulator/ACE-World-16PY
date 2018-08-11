@@ -12,8 +12,8 @@ VALUES (7345,   1,         16) /* ItemType - Creature */
      , (7345,  27,          0) /* ArmorType */
      , (7345,  40,          2) /* CombatMode - Melee */
      , (7345,  68,          3) /* TargetingTactic */
-     , (7345,  93,       1032) /* PhysicsState */
-     , (7345, 101,        131) /* AiAllowedCombatStyle */
+     , (7345,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
+     , (7345, 101,        131) /* AiAllowedCombatStyle - Unarmed, OneHanded, ThrownWeapon */
      , (7345, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (7345, 140,          1) /* AiOptions */
      , (7345, 146,       8329) /* XpOverride */;
@@ -73,7 +73,7 @@ VALUES (7345,   1,   33558024) /* Setup */
      , (7345,   7,  268436497) /* ClothingBase */
      , (7345,   8,  100667453) /* Icon */
      , (7345,  22,  872415255) /* PhysicsEffectTable */
-     , (7345,  35,        451) /* DeathTreasureType */;
+     , (7345,  35,        451) /* DeathTreasureType - Loot Tier: 2 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (7345,   1, 120, 0, 0) /* Strength */
@@ -184,11 +184,11 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 268435537 /* Twitch1 */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (7345, 9,     0,  0, 0, 0.95, False) /* Create Unknown for ContainTreasure */
-     , (7345, 9,     0,  0, 0, 0.99, False) /* Create Unknown for ContainTreasure */
-     , (7345, 9,     0,  0, 0, 0.97, False) /* Create Unknown for ContainTreasure */
-     , (7345, 9,     0,  0, 0, 0.98, False) /* Create Unknown for ContainTreasure */
-     , (7345, 9,  3693,  0, 0, 0.05, False) /* Create Banderling Scalp for ContainTreasure */
-     , (7345, 9,  6876,  0, 0, 0.01, False) /* Create Sturdy Iron Key for ContainTreasure */
-     , (7345, 9,  7825,  0, 0, 0.03, False) /* Create Brown Beans for ContainTreasure */
-     , (7345, 9, 15762,  0, 0, 0.02, False) /* Create Ruined Amulet of the Bow for ContainTreasure */;
+VALUES (7345, 9,     0,  0, 0, 0.95, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 2 for ContainTreasure */
+     , (7345, 9,     0,  0, 0, 0.99, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 2 for ContainTreasure */
+     , (7345, 9,     0,  0, 0, 0.97, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 2 for ContainTreasure */
+     , (7345, 9,     0,  0, 0, 0.98, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 2 for ContainTreasure */
+     , (7345, 9,  3693,  0, 0, 0.05, False) /* Create Banderling Scalp (3693) for ContainTreasure */
+     , (7345, 9,  6876,  0, 0, 0.01, False) /* Create Sturdy Iron Key (6876) for ContainTreasure */
+     , (7345, 9,  7825,  0, 0, 0.03, False) /* Create Brown Beans (7825) for ContainTreasure */
+     , (7345, 9, 15762,  0, 0, 0.02, False) /* Create Ruined Amulet of the Bow (15762) for ContainTreasure */;

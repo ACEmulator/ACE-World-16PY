@@ -14,7 +14,7 @@ VALUES (25453,   1,         16) /* ItemType - Creature */
      , (25453,  40,          2) /* CombatMode - Melee */
      , (25453,  68,         13) /* TargetingTactic */
      , (25453,  72,         35) /* FriendType - OlthoiLarvae */
-     , (25453,  93,       1032) /* PhysicsState */
+     , (25453,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (25453, 119,          1) /* Active */
      , (25453, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (25453, 140,          1) /* AiOptions */
@@ -72,7 +72,7 @@ VALUES (25453,   1,   33557165) /* Setup */
      , (25453,   8,  100667623) /* Icon */
      , (25453,  22,  872415379) /* PhysicsEffectTable */
      , (25453,  30,         85) /* PhysicsScript - BreatheFrost */
-     , (25453,  35,        452) /* DeathTreasureType */;
+     , (25453,  35,        452) /* DeathTreasureType - Loot Tier: 5 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (25453,  16, 1980010563) /* ActivationTarget */;
@@ -138,18 +138,18 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 268435537 /* Twitch1 */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (25453, 1, 25498,  1, 0, 0, False) /* Create Olthoi Chitin for Contain */
-     , (25453, 1, 25498,  1, 0, 0, False) /* Create Olthoi Chitin for Contain */
-     , (25453, 1, 25498,  1, 0, 0, False) /* Create Olthoi Chitin for Contain */
-     , (25453, 1, 25498,  1, 0, 0, False) /* Create Olthoi Chitin for Contain */
-     , (25453, 1, 25498,  1, 0, 0, False) /* Create Olthoi Chitin for Contain */
-     , (25453, 1, 25498,  1, 0, 0, False) /* Create Olthoi Chitin for Contain */
-     , (25453, 1, 25498,  1, 0, 0, False) /* Create Olthoi Chitin for Contain */
-     , (25453, 1, 25498,  1, 0, 0, False) /* Create Olthoi Chitin for Contain */
-     , (25453, 1, 25498,  1, 0, 0, False) /* Create Olthoi Chitin for Contain */
-     , (25453, 1, 25498,  1, 0, 0, False) /* Create Olthoi Chitin for Contain */
-     , (25453, 1, 25498,  1, 0, 0, False) /* Create Olthoi Chitin for Contain */
-     , (25453, 1, 25498,  1, 0, 0, False) /* Create Olthoi Chitin for Contain */
-     , (25453, 1, 25498,  1, 0, 0, False) /* Create Olthoi Chitin for Contain */
-     , (25453, 1, 25498,  1, 0, 0, False) /* Create Olthoi Chitin for Contain */
-     , (25453, 1, 25498,  1, 0, 0, False) /* Create Olthoi Chitin for Contain */;
+VALUES (25453, 1, 25498,  1, 0, 0, False) /* Create Olthoi Chitin (25498) for Contain */
+     , (25453, 1, 25498,  1, 0, 0, False) /* Create Olthoi Chitin (25498) for Contain */
+     , (25453, 1, 25498,  1, 0, 0, False) /* Create Olthoi Chitin (25498) for Contain */
+     , (25453, 1, 25498,  1, 0, 0, False) /* Create Olthoi Chitin (25498) for Contain */
+     , (25453, 1, 25498,  1, 0, 0, False) /* Create Olthoi Chitin (25498) for Contain */
+     , (25453, 1, 25498,  1, 0, 0, False) /* Create Olthoi Chitin (25498) for Contain */
+     , (25453, 1, 25498,  1, 0, 0, False) /* Create Olthoi Chitin (25498) for Contain */
+     , (25453, 1, 25498,  1, 0, 0, False) /* Create Olthoi Chitin (25498) for Contain */
+     , (25453, 1, 25498,  1, 0, 0, False) /* Create Olthoi Chitin (25498) for Contain */
+     , (25453, 1, 25498,  1, 0, 0, False) /* Create Olthoi Chitin (25498) for Contain */
+     , (25453, 1, 25498,  1, 0, 0, False) /* Create Olthoi Chitin (25498) for Contain */
+     , (25453, 1, 25498,  1, 0, 0, False) /* Create Olthoi Chitin (25498) for Contain */
+     , (25453, 1, 25498,  1, 0, 0, False) /* Create Olthoi Chitin (25498) for Contain */
+     , (25453, 1, 25498,  1, 0, 0, False) /* Create Olthoi Chitin (25498) for Contain */
+     , (25453, 1, 25498,  1, 0, 0, False) /* Create Olthoi Chitin (25498) for Contain */;

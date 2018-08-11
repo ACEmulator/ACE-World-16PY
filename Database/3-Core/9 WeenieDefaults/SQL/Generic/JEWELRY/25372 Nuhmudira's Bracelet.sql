@@ -12,7 +12,7 @@ VALUES (25372,   1,          8) /* ItemType - Jewelry */
      , (25372,  19,       5000) /* Value */
      , (25372,  33,          1) /* Bonded - Bonded */
      , (25372,  36,       9999) /* ResistMagic */
-     , (25372,  93,       1044) /* PhysicsState */
+     , (25372,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (25372, 106,        300) /* ItemSpellcraft */
      , (25372, 107,        800) /* ItemCurMana */
      , (25372, 108,        800) /* ItemMaxMana */

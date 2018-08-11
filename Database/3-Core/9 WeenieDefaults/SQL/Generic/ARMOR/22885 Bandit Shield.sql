@@ -12,7 +12,7 @@ VALUES (22885,   1,          2) /* ItemType - Armor */
      , (22885,  27,          2) /* ArmorType */
      , (22885,  28,        150) /* ArmorLevel */
      , (22885,  51,          4) /* CombatUse - Shield */
-     , (22885,  93,       1044) /* PhysicsState */
+     , (22885,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (22885, 106,        200) /* ItemSpellcraft */
      , (22885, 107,       1000) /* ItemCurMana */
      , (22885, 108,       1000) /* ItemMaxMana */

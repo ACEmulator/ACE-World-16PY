@@ -11,7 +11,7 @@ VALUES (27495,   1,         16) /* ItemType - Creature */
      , (27495,  27,          0) /* ArmorType */
      , (27495,  40,          2) /* CombatMode - Melee */
      , (27495,  68,          9) /* TargetingTactic */
-     , (27495,  93,       1032) /* PhysicsState */
+     , (27495,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (27495, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (27495, 146,      67979) /* XpOverride */;
 
@@ -67,7 +67,7 @@ VALUES (27495,   1,   33556644) /* Setup */
      , (27495,   4,  805306376) /* CombatTable */
      , (27495,   8,  100667940) /* Icon */
      , (27495,  22,  872415322) /* PhysicsEffectTable */
-     , (27495,  35,        464) /* DeathTreasureType */;
+     , (27495,  35,        464) /* DeathTreasureType - Loot Tier: 5 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (27495,   1, 390, 0, 0) /* Strength */
@@ -140,11 +140,11 @@ VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 1090519043 /* Ready */, NULL, NU
      , (@parent_id,  1,   5 /* Motion */, 0, 1, 1090519060 /* Sleeping */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (27495, 9,     0,  0, 0, 0.95, False) /* Create Unknown for ContainTreasure */
-     , (27495, 9,     0,  0, 0, 0.98, False) /* Create Unknown for ContainTreasure */
-     , (27495, 9,     0,  0, 0, 0.96, False) /* Create Unknown for ContainTreasure */
-     , (27495, 9,     0,  0, 0, 0.99, False) /* Create Unknown for ContainTreasure */
-     , (27495, 9,  3686,  0, 0, 0.05, False) /* Create Black Rock for ContainTreasure */
-     , (27495, 9,  6353,  0, 0, 0.04, False) /* Create Pyreal Mote for ContainTreasure */
-     , (27495, 9,  6876,  0, 0, 0.02, False) /* Create Sturdy Iron Key for ContainTreasure */
-     , (27495, 9, 27305,  0, 0, 0.01, False) /* Create Forbidden Key for ContainTreasure */;
+VALUES (27495, 9,     0,  0, 0, 0.95, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 5 for ContainTreasure */
+     , (27495, 9,     0,  0, 0, 0.98, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 5 for ContainTreasure */
+     , (27495, 9,     0,  0, 0, 0.96, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 5 for ContainTreasure */
+     , (27495, 9,     0,  0, 0, 0.99, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 5 for ContainTreasure */
+     , (27495, 9,  3686,  0, 0, 0.05, False) /* Create Black Rock (3686) for ContainTreasure */
+     , (27495, 9,  6353,  0, 0, 0.04, False) /* Create Pyreal Mote (6353) for ContainTreasure */
+     , (27495, 9,  6876,  0, 0, 0.02, False) /* Create Sturdy Iron Key (6876) for ContainTreasure */
+     , (27495, 9, 27305,  0, 0, 0.01, False) /* Create Forbidden Key (27305) for ContainTreasure */;

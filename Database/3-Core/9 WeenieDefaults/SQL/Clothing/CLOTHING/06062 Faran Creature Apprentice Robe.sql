@@ -4,7 +4,7 @@ VALUES ('6062', 'robesuckcreaturealuvian', 2) /* Clothing */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (6062,   1,          4) /* ItemType - Clothing */
      , (6062,   3,         18) /* PaletteTemplate - YellowBrown */
-     , (6062,   4,      81664) /* ClothingPriority */
+     , (6062,   4,      81664) /* ClothingPriority - OuterwearUpperLegs, OuterwearLowerLegs, OuterwearChest, OuterwearAbdomen, OuterwearUpperArms, OuterwearLowerArms, Feet */
      , (6062,   5,        200) /* EncumbranceVal */
      , (6062,   8,        150) /* Mass */
      , (6062,   9,      32512) /* ValidLocations - Armor */
@@ -13,7 +13,7 @@ VALUES (6062,   1,          4) /* ItemType - Clothing */
      , (6062,  19,       1120) /* Value */
      , (6062,  27,          1) /* ArmorType */
      , (6062,  28,          0) /* ArmorLevel */
-     , (6062,  93,       1044) /* PhysicsState */
+     , (6062,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (6062, 106,        270) /* ItemSpellcraft */
      , (6062, 107,        250) /* ItemCurMana */
      , (6062, 108,        250) /* ItemMaxMana */

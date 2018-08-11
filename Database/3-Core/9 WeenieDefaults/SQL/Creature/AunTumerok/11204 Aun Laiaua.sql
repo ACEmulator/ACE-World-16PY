@@ -11,7 +11,7 @@ VALUES (11204,   1,         16) /* ItemType - Creature */
      , (11204,  16,         32) /* ItemUseable - Remote */
      , (11204,  25,        183) /* Level */
      , (11204,  27,          0) /* ArmorType */
-     , (11204,  93,    6292504) /* PhysicsState */
+     , (11204,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (11204,  95,          8) /* RadarBlipColor - Yellow */
      , (11204, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (11204, 134,         16) /* PlayerKillerStatus - RubberGlue */
@@ -307,4 +307,4 @@ VALUES (@parent_id,  0,  10 /* Tell */, 0, 1, NULL, 'You are selfless, Isparian.
      , (@parent_id,  2,   3 /* Give */, 1, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0, 11152 /* Rubble */, 1, 0, 0, False, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (11204, 2, 11971,  0, 0, 1, False) /* Create Buadren for Wield */;
+VALUES (11204, 2, 11971,  0, 0, 1, False) /* Create Buadren (11971) for Wield */;

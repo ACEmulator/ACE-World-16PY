@@ -2,7 +2,7 @@ INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
 VALUES ('4177', 'lspelleconomy', 43) /* LSpellEconomy */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (4177,  93,       1044) /* PhysicsState */;
+VALUES (4177,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (4177,   1, True ) /* Stuck */

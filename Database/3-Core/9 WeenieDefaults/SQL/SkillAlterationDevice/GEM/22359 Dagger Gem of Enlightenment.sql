@@ -8,7 +8,7 @@ VALUES (22359,   1,       2048) /* ItemType - Gem */
      , (22359,  16,          8) /* ItemUseable - Contained */
      , (22359,  19,          0) /* Value */
      , (22359,  33,          1) /* Bonded - Bonded */
-     , (22359,  93,       1044) /* PhysicsState */
+     , (22359,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (22359, 114,          1) /* Attuned - Attuned */
      , (22359, 185,          1) /* TypeOfAlteration */
      , (22359, 186,          4) /* SkillToBeAltered */;

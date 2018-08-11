@@ -9,7 +9,7 @@ VALUES (623,   1,          8) /* ItemType - Jewelry */
      , (623,   9,      32768) /* ValidLocations - NeckWear */
      , (623,  16,          1) /* ItemUseable - No */
      , (623,  19,        100) /* Value */
-     , (623,  93,       1044) /* PhysicsState */
+     , (623,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (623, 169,   33687556) /* TsysMutationData */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)

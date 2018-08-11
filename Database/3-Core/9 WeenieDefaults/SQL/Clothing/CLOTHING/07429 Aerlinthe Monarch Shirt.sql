@@ -4,15 +4,15 @@ VALUES ('7429', 'shirtaerlinthemonarch', 2) /* Clothing */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (7429,   1,          4) /* ItemType - Clothing */
      , (7429,   3,         61) /* PaletteTemplate - White */
-     , (7429,   4,         56) /* ClothingPriority */
+     , (7429,   4,         56) /* ClothingPriority - UnderwearChest, UnderwearAbdomen, UnderwearUpperArms */
      , (7429,   5,         57) /* EncumbranceVal */
      , (7429,   8,         38) /* Mass */
-     , (7429,   9,         10) /* ValidLocations */
+     , (7429,   9,         10) /* ValidLocations - ChestWear, UpperArmWear */
      , (7429,  16,          1) /* ItemUseable - No */
      , (7429,  19,       2449) /* Value */
      , (7429,  27,          1) /* ArmorType */
      , (7429,  28,          0) /* ArmorLevel */
-     , (7429,  93,       1044) /* PhysicsState */
+     , (7429,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (7429, 106,        155) /* ItemSpellcraft */
      , (7429, 107,        317) /* ItemCurMana */
      , (7429, 108,        467) /* ItemMaxMana */

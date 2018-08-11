@@ -4,15 +4,15 @@ VALUES ('2038', 'leggingsplatefeather', 2) /* Clothing */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (2038,   1,          2) /* ItemType - Armor */
      , (2038,   3,         20) /* PaletteTemplate - Silver */
-     , (2038,   4,        768) /* ClothingPriority */
+     , (2038,   4,        768) /* ClothingPriority - OuterwearUpperLegs, OuterwearLowerLegs */
      , (2038,   5,       1000) /* EncumbranceVal */
      , (2038,   8,       1100) /* Mass */
-     , (2038,   9,      24576) /* ValidLocations */
+     , (2038,   9,      24576) /* ValidLocations - UpperLegArmor, LowerLegArmor */
      , (2038,  16,          1) /* ItemUseable - No */
      , (2038,  19,       4200) /* Value */
      , (2038,  27,         32) /* ArmorType */
      , (2038,  28,        100) /* ArmorLevel */
-     , (2038,  93,       1044) /* PhysicsState */;
+     , (2038,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (2038,  22, True ) /* Inscribable */;

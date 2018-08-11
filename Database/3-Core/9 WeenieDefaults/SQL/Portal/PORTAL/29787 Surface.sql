@@ -4,8 +4,8 @@ VALUES ('29787', 'portalsteamyfontexit', 7) /* Portal */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (29787,   1,      65536) /* ItemType - Portal */
      , (29787,  16,         32) /* ItemUseable - Remote */
-     , (29787,  93,       3084) /* PhysicsState */
-     , (29787, 111,         49) /* PortalBitmask */
+     , (29787,  93,       3084) /* PhysicsState - Ethereal, ReportCollisions, Gravity, LightingOn */
+     , (29787, 111,         49) /* PortalBitmask - Unrestricted, NoSummon, NoRecall */
      , (29787, 133,          4) /* ShowableOnRadar - ShowAlways */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)

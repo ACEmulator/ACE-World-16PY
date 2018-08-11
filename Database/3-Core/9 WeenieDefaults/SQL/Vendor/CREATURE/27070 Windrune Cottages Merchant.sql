@@ -10,10 +10,10 @@ VALUES (27070,   1,         16) /* ItemType - Creature */
      , (27070,  16,         32) /* ItemUseable - Remote */
      , (27070,  25,         10) /* Level */
      , (27070,  27,          0) /* ArmorType */
-     , (27070,  74,     264192) /* MerchandiseItemTypes */
+     , (27070,  74,     264192) /* MerchandiseItemTypes - Gem, PromissoryNote */
      , (27070,  75,          0) /* MerchandiseMinValue */
      , (27070,  76,    1000000) /* MerchandiseMaxValue */
-     , (27070,  93,    2098204) /* PhysicsState */
+     , (27070,  93,    2098204) /* PhysicsState - Ethereal, ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */
      , (27070, 126,        125) /* VendorHappyMean */
      , (27070, 127,        125) /* VendorHappyVariance */
      , (27070, 133,          4) /* ShowableOnRadar - ShowAlways */
@@ -97,4 +97,4 @@ VALUES (27070,  0,  4,  0,    0,    0,    0,    0,    0,    0,    0,    0,    0,
      , (27070,  8,  4,  2, 0.75,    0,    0,    0,    0,    0,    0,    0,    0,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (27070, 4, 26435, -1, 0, 0, False) /* Create Windrune Cottages Portal Gem for Shop */;
+VALUES (27070, 4, 26435, -1, 0, 0, False) /* Create Windrune Cottages Portal Gem (26435) for Shop */;

@@ -14,7 +14,7 @@ VALUES (7312,   1,          2) /* ItemType - Armor */
      , (7312,  33,         -2) /* Bonded - Destroy */
      , (7312,  37,       9999) /* ResistItemAppraisal */
      , (7312,  51,          4) /* CombatUse - Shield */
-     , (7312,  93,       1044) /* PhysicsState */;
+     , (7312,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (7312,  22, True ) /* Inscribable */;

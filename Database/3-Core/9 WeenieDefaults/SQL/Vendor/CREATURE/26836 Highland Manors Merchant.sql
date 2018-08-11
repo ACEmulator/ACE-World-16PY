@@ -10,10 +10,10 @@ VALUES (26836,   1,         16) /* ItemType - Creature */
      , (26836,  16,         32) /* ItemUseable - Remote */
      , (26836,  25,         10) /* Level */
      , (26836,  27,          0) /* ArmorType */
-     , (26836,  74,     264192) /* MerchandiseItemTypes */
+     , (26836,  74,     264192) /* MerchandiseItemTypes - Gem, PromissoryNote */
      , (26836,  75,          0) /* MerchandiseMinValue */
      , (26836,  76,    1000000) /* MerchandiseMaxValue */
-     , (26836,  93,    2098204) /* PhysicsState */
+     , (26836,  93,    2098204) /* PhysicsState - Ethereal, ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */
      , (26836, 126,        125) /* VendorHappyMean */
      , (26836, 127,        125) /* VendorHappyVariance */
      , (26836, 133,          4) /* ShowableOnRadar - ShowAlways */
@@ -97,4 +97,4 @@ VALUES (26836,  0,  4,  0,    0,    0,    0,    0,    0,    0,    0,    0,    0,
      , (26836,  8,  4,  2, 0.75,    0,    0,    0,    0,    0,    0,    0,    0,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (26836, 4, 26201, -1, 0, 0, False) /* Create Highland Manors Portal Gem for Shop */;
+VALUES (26836, 4, 26201, -1, 0, 0, False) /* Create Highland Manors Portal Gem (26201) for Shop */;

@@ -13,8 +13,8 @@ VALUES (30706,   1,         16) /* ItemType - Creature */
      , (30706,  27,          0) /* ArmorType */
      , (30706,  40,          2) /* CombatMode - Melee */
      , (30706,  68,         13) /* TargetingTactic */
-     , (30706,  93,       1032) /* PhysicsState */
-     , (30706, 101,        131) /* AiAllowedCombatStyle */
+     , (30706,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
+     , (30706, 101,        131) /* AiAllowedCombatStyle - Unarmed, OneHanded, ThrownWeapon */
      , (30706, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (30706, 140,          1) /* AiOptions */
      , (30706, 146,     149382) /* XpOverride */;
@@ -70,8 +70,11 @@ VALUES (30706,   1,   33557003) /* Setup */
      , (30706,   7,  268436618) /* ClothingBase */
      , (30706,   8,  100667447) /* Icon */
      , (30706,  22,  872415262) /* PhysicsEffectTable */
-     , (30706,  32,        436) /* WieldedTreasureType */
-     , (30706,  35,        448) /* DeathTreasureType */;
+     , (30706,  32,        436) /* WieldedTreasureType - 
+                                   Wield Rock (24885) | Probability: 100%
+                                   Wield Lugian Axe (24884) | Probability: 50%
+                                   Wield Lugian Mace (24886) | Probability: 50% */
+     , (30706,  35,        448) /* DeathTreasureType - Loot Tier: 4 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (30706,   1, 350, 0, 0) /* Strength */
@@ -170,13 +173,13 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 268435539 /* Twitch3 */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (30706, 9, 30701,  0, 0, 1, False) /* Create Tursh Totem Shard for ContainTreasure */
-     , (30706, 9, 30701,  0, 0, 1, False) /* Create Tursh Totem Shard for ContainTreasure */
-     , (30706, 9, 30701,  0, 0, 1, False) /* Create Tursh Totem Shard for ContainTreasure */
-     , (30706, 9, 30701,  0, 0, 1, False) /* Create Tursh Totem Shard for ContainTreasure */
-     , (30706, 9, 30701,  0, 0, 1, False) /* Create Tursh Totem Shard for ContainTreasure */
-     , (30706, 9, 30701,  0, 0, 1, False) /* Create Tursh Totem Shard for ContainTreasure */
-     , (30706, 9, 30701,  0, 0, 1, False) /* Create Tursh Totem Shard for ContainTreasure */
-     , (30706, 9, 30701,  0, 0, 1, False) /* Create Tursh Totem Shard for ContainTreasure */
-     , (30706, 9, 30701,  0, 0, 1, False) /* Create Tursh Totem Shard for ContainTreasure */
-     , (30706, 9, 30701,  0, 0, 1, False) /* Create Tursh Totem Shard for ContainTreasure */;
+VALUES (30706, 9, 30701,  0, 0, 1, False) /* Create Tursh Totem Shard (30701) for ContainTreasure */
+     , (30706, 9, 30701,  0, 0, 1, False) /* Create Tursh Totem Shard (30701) for ContainTreasure */
+     , (30706, 9, 30701,  0, 0, 1, False) /* Create Tursh Totem Shard (30701) for ContainTreasure */
+     , (30706, 9, 30701,  0, 0, 1, False) /* Create Tursh Totem Shard (30701) for ContainTreasure */
+     , (30706, 9, 30701,  0, 0, 1, False) /* Create Tursh Totem Shard (30701) for ContainTreasure */
+     , (30706, 9, 30701,  0, 0, 1, False) /* Create Tursh Totem Shard (30701) for ContainTreasure */
+     , (30706, 9, 30701,  0, 0, 1, False) /* Create Tursh Totem Shard (30701) for ContainTreasure */
+     , (30706, 9, 30701,  0, 0, 1, False) /* Create Tursh Totem Shard (30701) for ContainTreasure */
+     , (30706, 9, 30701,  0, 0, 1, False) /* Create Tursh Totem Shard (30701) for ContainTreasure */
+     , (30706, 9, 30701,  0, 0, 1, False) /* Create Tursh Totem Shard (30701) for ContainTreasure */;

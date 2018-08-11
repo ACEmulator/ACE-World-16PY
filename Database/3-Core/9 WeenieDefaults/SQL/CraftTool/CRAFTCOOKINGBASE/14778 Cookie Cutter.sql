@@ -13,8 +13,8 @@ VALUES (14778,   1,    4194304) /* ItemType - CraftCookingBase */
      , (14778,  15,         25) /* StackUnitValue */
      , (14778,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
      , (14778,  19,         25) /* Value */
-     , (14778,  93,       1044) /* PhysicsState */
-     , (14778,  94,    4194592) /* TargetType */
+     , (14778,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (14778,  94,    4194592) /* TargetType - 4194592 */
      , (14778, 150,        103) /* HookPlacement - Hook */
      , (14778, 151,          2) /* HookType - Wall */;
 

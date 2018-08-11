@@ -14,8 +14,8 @@ VALUES (11127,   1,         32) /* ItemType - Food */
      , (11127,  16,          8) /* ItemUseable - Contained */
      , (11127,  18,          1) /* UiEffects - Magical */
      , (11127,  19,       5000) /* Value */
-     , (11127,  93,       1044) /* PhysicsState */
-     , (11127,  94,         16) /* TargetType - Creature */
+     , (11127,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (11127,  94,         16) /* TargetType - Reedshark */
      , (11127, 106,        250) /* ItemSpellcraft */
      , (11127, 107,         50) /* ItemCurMana */
      , (11127, 108,         50) /* ItemMaxMana */

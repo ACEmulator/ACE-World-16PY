@@ -13,8 +13,8 @@ VALUES (8539,   1,         16) /* ItemType - Creature */
      , (8539,  40,          1) /* CombatMode - NonCombat */
      , (8539,  68,          5) /* TargetingTactic */
      , (8539,  72,         14) /* FriendType - Undead */
-     , (8539,  93,       1032) /* PhysicsState */
-     , (8539, 101,        183) /* AiAllowedCombatStyle */
+     , (8539,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
+     , (8539, 101,        183) /* AiAllowedCombatStyle - Unarmed, OneHanded, OneHandedAndShield, Bow, Crossbow, ThrownWeapon */
      , (8539, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (8539, 140,          1) /* AiOptions */
      , (8539, 146,          0) /* XpOverride */;
@@ -183,9 +183,9 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 268435537 /* Twitch1 */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (8539, 9,     0,  0, 0, 0.98, False) /* Create Unknown for ContainTreasure */
-     , (8539, 9,  6876,  0, 0, 0.02, False) /* Create Sturdy Iron Key for ContainTreasure */
-     , (8539, 9,  8507,  0, 0, 1, False) /* Create Heavy Book of Notes for ContainTreasure */
-     , (8539, 2,  8527,  0, 0, 0, False) /* Create Staff of the Nomads for Wield */
-     , (8539, 9,  8528,  0, 0, 1, False) /* Create Splintered Staff for ContainTreasure */
-     , (8539, 9,  8529,  0, 0, 1, False) /* Create Splintered Staff for ContainTreasure */;
+VALUES (8539, 9,     0,  0, 0, 0.98, False) /* Create UNKNOWN RANDOMLY GENERATED TREASURE for ContainTreasure */
+     , (8539, 9,  6876,  0, 0, 0.02, False) /* Create Sturdy Iron Key (6876) for ContainTreasure */
+     , (8539, 9,  8507,  0, 0, 1, False) /* Create Heavy Book of Notes (8507) for ContainTreasure */
+     , (8539, 2,  8527,  0, 0, 0, False) /* Create Staff of the Nomads (8527) for Wield */
+     , (8539, 9,  8528,  0, 0, 1, False) /* Create Splintered Staff (8528) for ContainTreasure */
+     , (8539, 9,  8529,  0, 0, 1, False) /* Create Splintered Staff (8529) for ContainTreasure */;

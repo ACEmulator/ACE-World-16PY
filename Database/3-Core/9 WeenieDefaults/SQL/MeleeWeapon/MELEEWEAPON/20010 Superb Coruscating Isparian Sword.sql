@@ -15,11 +15,11 @@ VALUES (20010,   1,          1) /* ItemType - MeleeWeapon */
      , (20010,  44,         35) /* Damage */
      , (20010,  45,         64) /* DamageType - Electric */
      , (20010,  46,          2) /* DefaultCombatStyle - OneHanded */
-     , (20010,  47,          6) /* AttackType */
+     , (20010,  47,          6) /* AttackType - Thrust, Slash */
      , (20010,  48,         11) /* WeaponSkill - Sword */
      , (20010,  49,         35) /* WeaponTime */
      , (20010,  51,          1) /* CombatUse - Melee */
-     , (20010,  93,       1044) /* PhysicsState */
+     , (20010,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (20010, 106,        300) /* ItemSpellcraft */
      , (20010, 107,        600) /* ItemCurMana */
      , (20010, 108,        600) /* ItemMaxMana */

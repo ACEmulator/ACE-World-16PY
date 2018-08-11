@@ -4,16 +4,16 @@ VALUES ('13217', 'coatacademycolor8', 2) /* Clothing */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (13217,   1,          2) /* ItemType - Armor */
      , (13217,   3,         13) /* PaletteTemplate - Purple */
-     , (13217,   4,      15360) /* ClothingPriority */
+     , (13217,   4,      15360) /* ClothingPriority - OuterwearChest, OuterwearAbdomen, OuterwearUpperArms, OuterwearLowerArms */
      , (13217,   5,        600) /* EncumbranceVal */
      , (13217,   8,        600) /* Mass */
-     , (13217,   9,       7680) /* ValidLocations */
+     , (13217,   9,       7680) /* ValidLocations - ChestArmor, AbdomenArmor, UpperArmArmor, LowerArmArmor */
      , (13217,  16,          1) /* ItemUseable - No */
      , (13217,  19,        150) /* Value */
      , (13217,  27,          2) /* ArmorType */
      , (13217,  28,         30) /* ArmorLevel */
      , (13217,  33,          1) /* Bonded - Bonded */
-     , (13217,  93,       1044) /* PhysicsState */;
+     , (13217,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (13217,  22, True ) /* Inscribable */;

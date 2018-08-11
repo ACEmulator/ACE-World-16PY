@@ -12,7 +12,7 @@ VALUES (22522,   1,         16) /* ItemType - Creature */
      , (22522,  27,          0) /* ArmorType */
      , (22522,  40,          2) /* CombatMode - Melee */
      , (22522,  68,          9) /* TargetingTactic */
-     , (22522,  93,       1032) /* PhysicsState */
+     , (22522,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (22522, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (22522, 146,      13561) /* XpOverride */;
 
@@ -66,7 +66,7 @@ VALUES (22522,   1,   33556836) /* Setup */
      , (22522,   7,  268436064) /* ClothingBase */
      , (22522,   8,  100667443) /* Icon */
      , (22522,  22,  872415271) /* PhysicsEffectTable */
-     , (22522,  35,        456) /* DeathTreasureType */;
+     , (22522,  35,        456) /* DeathTreasureType - Loot Tier: 3 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (22522,   1, 200, 0, 0) /* Strength */
@@ -171,8 +171,8 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 268435538 /* Twitch2 */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (22522, 9,     0,  0, 0, 0.99, False) /* Create Unknown for ContainTreasure */
-     , (22522, 9,     0,  0, 0, 0.999, False) /* Create Unknown for ContainTreasure */
-     , (22522, 2, 22547,  0, 0, 0, False) /* Create Coconut for Wield */
-     , (22522, 9, 22578,  0, 0, 0.01, False) /* Create Bunch of Nanners for ContainTreasure */
-     , (22522, 9, 22728,  0, 0, 0.001, False) /* Create Coconut for ContainTreasure */;
+VALUES (22522, 9,     0,  0, 0, 0.99, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 3 for ContainTreasure */
+     , (22522, 9,     0,  0, 0, 0.999, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 3 for ContainTreasure */
+     , (22522, 2, 22547,  0, 0, 0, False) /* Create Coconut (22547) for Wield */
+     , (22522, 9, 22578,  0, 0, 0.01, False) /* Create Bunch of Nanners (22578) for ContainTreasure */
+     , (22522, 9, 22728,  0, 0, 0.001, False) /* Create Coconut (22728) for ContainTreasure */;

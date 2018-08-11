@@ -11,10 +11,10 @@ VALUES (9423,   1,         16) /* ItemType - Creature */
      , (9423,  16,         32) /* ItemUseable - Remote */
      , (9423,  25,         42) /* Level */
      , (9423,  27,          0) /* ArmorType */
-     , (9423,  74,       2056) /* MerchandiseItemTypes */
+     , (9423,  74,       2056) /* MerchandiseItemTypes - Jewelry, Gem */
      , (9423,  75,          0) /* MerchandiseMinValue */
      , (9423,  76,      25000) /* MerchandiseMaxValue */
-     , (9423,  93,    2098200) /* PhysicsState */
+     , (9423,  93,    2098200) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */
      , (9423, 126,      10000) /* VendorHappyMean */
      , (9423, 127,       4000) /* VendorHappyVariance */
      , (9423, 133,          4) /* ShowableOnRadar - ShowAlways */
@@ -140,12 +140,12 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,  10 /* Tell */, 0, 1, NULL, 'You will find that to be of good service to you in the future.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (9423, 4,  9425, -1, 0, 0, False) /* Create Acid Emerald for Shop */
-     , (9423, 4,  9426, -1, 0, 0, False) /* Create Armor Diamond for Shop */
-     , (9423, 4,  9427, -1, 0, 0, False) /* Create Force Opal for Shop */
-     , (9423, 4,  9428, -1, 0, 0, False) /* Create Cold Moonstone for Shop */
-     , (9423, 4,  9429, -1, 0, 0, False) /* Create Fire Ruby for Shop */
-     , (9423, 4,  9430, -1, 0, 0, False) /* Create Lightning Sapphire for Shop */
-     , (9423, 4,  9431, -1, 0, 0, False) /* Create Thorned Garnet for Shop */
-     , (9423, 4,  9432, -1, 0, 0, False) /* Create Sharp Topaz for Shop */
-     , (9423, 4,  9475, -1, 0, 0, False) /* Create Benevolent Calm for Shop */;
+VALUES (9423, 4,  9425, -1, 0, 0, False) /* Create Acid Emerald (9425) for Shop */
+     , (9423, 4,  9426, -1, 0, 0, False) /* Create Armor Diamond (9426) for Shop */
+     , (9423, 4,  9427, -1, 0, 0, False) /* Create Force Opal (9427) for Shop */
+     , (9423, 4,  9428, -1, 0, 0, False) /* Create Cold Moonstone (9428) for Shop */
+     , (9423, 4,  9429, -1, 0, 0, False) /* Create Fire Ruby (9429) for Shop */
+     , (9423, 4,  9430, -1, 0, 0, False) /* Create Lightning Sapphire (9430) for Shop */
+     , (9423, 4,  9431, -1, 0, 0, False) /* Create Thorned Garnet (9431) for Shop */
+     , (9423, 4,  9432, -1, 0, 0, False) /* Create Sharp Topaz (9432) for Shop */
+     , (9423, 4,  9475, -1, 0, 0, False) /* Create Benevolent Calm (9475) for Shop */;

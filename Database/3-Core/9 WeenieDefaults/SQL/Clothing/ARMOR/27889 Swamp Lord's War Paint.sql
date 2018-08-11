@@ -4,15 +4,15 @@ VALUES ('27889', 'tattooswamplord', 2) /* Clothing */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (27889,   1,          2) /* ItemType - Armor */
      , (27889,   3,         17) /* PaletteTemplate - Yellow */
-     , (27889,   4,      14080) /* ClothingPriority */
+     , (27889,   4,      14080) /* ClothingPriority - OuterwearUpperLegs, OuterwearLowerLegs, OuterwearChest, OuterwearUpperArms, OuterwearLowerArms */
      , (27889,   5,        100) /* EncumbranceVal */
      , (27889,   8,        910) /* Mass */
-     , (27889,   9,      31232) /* ValidLocations */
+     , (27889,   9,      31232) /* ValidLocations - ChestArmor, UpperArmArmor, LowerArmArmor, UpperLegArmor, LowerLegArmor */
      , (27889,  16,          1) /* ItemUseable - No */
      , (27889,  19,       1500) /* Value */
      , (27889,  27,         16) /* ArmorType */
      , (27889,  28,        190) /* ArmorLevel */
-     , (27889,  93,       1044) /* PhysicsState */
+     , (27889,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (27889, 106,        150) /* ItemSpellcraft */
      , (27889, 107,        650) /* ItemCurMana */
      , (27889, 108,        650) /* ItemMaxMana */

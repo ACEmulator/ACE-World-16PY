@@ -10,10 +10,10 @@ VALUES (27028,   1,         16) /* ItemType - Creature */
      , (27028,  16,         32) /* ItemUseable - Remote */
      , (27028,  25,         10) /* Level */
      , (27028,  27,          0) /* ArmorType */
-     , (27028,  74,     264192) /* MerchandiseItemTypes */
+     , (27028,  74,     264192) /* MerchandiseItemTypes - Gem, PromissoryNote */
      , (27028,  75,          0) /* MerchandiseMinValue */
      , (27028,  76,    1000000) /* MerchandiseMaxValue */
-     , (27028,  93,    2098204) /* PhysicsState */
+     , (27028,  93,    2098204) /* PhysicsState - Ethereal, ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */
      , (27028, 126,        125) /* VendorHappyMean */
      , (27028, 127,        125) /* VendorHappyVariance */
      , (27028, 133,          4) /* ShowableOnRadar - ShowAlways */
@@ -97,4 +97,4 @@ VALUES (27028,  0,  4,  0,    0,    0,    0,    0,    0,    0,    0,    0,    0,
      , (27028,  8,  4,  2, 0.75,    0,    0,    0,    0,    0,    0,    0,    0,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (27028, 4, 26393, -1, 0, 0, False) /* Create Stone Scar Settlement Portal Gem for Shop */;
+VALUES (27028, 4, 26393, -1, 0, 0, False) /* Create Stone Scar Settlement Portal Gem (26393) for Shop */;

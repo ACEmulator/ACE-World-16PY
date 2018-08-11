@@ -4,16 +4,16 @@ VALUES ('28601', 'solleretsbalancetestextreme', 2) /* Clothing */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (28601,   1,          4) /* ItemType - Clothing */
      , (28601,   3,         61) /* PaletteTemplate - White */
-     , (28601,   4,        126) /* ClothingPriority */
+     , (28601,   4,        126) /* ClothingPriority - UnderwearUpperLegs, UnderwearLowerLegs, UnderwearChest, UnderwearAbdomen, UnderwearUpperArms, UnderwearLowerArms */
      , (28601,   5,        500) /* EncumbranceVal */
      , (28601,   8,         90) /* Mass */
-     , (28601,   9,        222) /* ValidLocations */
+     , (28601,   9,        222) /* ValidLocations - ChestWear, AbdomenWear, UpperArmWear, LowerArmWear, UpperLegWear, LowerLegWear */
      , (28601,  16,          1) /* ItemUseable - No */
      , (28601,  19,          0) /* Value */
      , (28601,  27,          1) /* ArmorType */
      , (28601,  28,          0) /* ArmorLevel */
      , (28601,  33,          1) /* Bonded - Bonded */
-     , (28601,  93,       1044) /* PhysicsState */
+     , (28601,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (28601, 106,        350) /* ItemSpellcraft */
      , (28601, 108,       4000) /* ItemMaxMana */
      , (28601, 114,          1) /* Attuned - Attuned */;

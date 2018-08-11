@@ -4,7 +4,7 @@ VALUES ('14423', 'robecanescentregicideunuseable', 1) /* Generic */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (14423,   1,          2) /* ItemType - Armor */
      , (14423,   3,         17) /* PaletteTemplate - Yellow */
-     , (14423,   4,      81664) /* ClothingPriority */
+     , (14423,   4,      81664) /* ClothingPriority - OuterwearUpperLegs, OuterwearLowerLegs, OuterwearChest, OuterwearAbdomen, OuterwearUpperArms, OuterwearLowerArms, Feet */
      , (14423,   5,        500) /* EncumbranceVal */
      , (14423,   8,        500) /* Mass */
      , (14423,   9,          0) /* ValidLocations - None */
@@ -13,7 +13,7 @@ VALUES (14423,   1,          2) /* ItemType - Armor */
      , (14423,  27,          1) /* ArmorType */
      , (14423,  28,         40) /* ArmorLevel */
      , (14423,  33,          1) /* Bonded - Bonded */
-     , (14423,  93,       1044) /* PhysicsState */
+     , (14423,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (14423, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)

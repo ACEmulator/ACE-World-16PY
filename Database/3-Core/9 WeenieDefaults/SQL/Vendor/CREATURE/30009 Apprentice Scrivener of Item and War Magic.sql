@@ -10,10 +10,10 @@ VALUES (30009,   1,         16) /* ItemType - Creature */
      , (30009,  16,         32) /* ItemUseable - Remote */
      , (30009,  25,         14) /* Level */
      , (30009,  27,          0) /* ArmorType */
-     , (30009,  74,     270464) /* MerchandiseItemTypes */
+     , (30009,  74,     270464) /* MerchandiseItemTypes - Misc, Writable, PromissoryNote */
      , (30009,  75,          0) /* MerchandiseMinValue */
      , (30009,  76,     100000) /* MerchandiseMaxValue */
-     , (30009,  93,    2098200) /* PhysicsState */
+     , (30009,  93,    2098200) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */
      , (30009, 126,      10000) /* VendorHappyMean */
      , (30009, 127,       4000) /* VendorHappyVariance */
      , (30009, 133,          4) /* ShowableOnRadar - ShowAlways */
@@ -170,58 +170,58 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 318767235 /* Nod */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (30009, 2,   115,  0, 14, 0.6, False) /* Create Leather Boots for Wield */
-     , (30009, 2,   124,  0, 14, 0.5, False) /* Create Jerkin for Wield */
-     , (30009, 2,   127,  0, 3, 0.67, False) /* Create Pants for Wield */
-     , (30009, 4,  1552, -1, 0, 0, False) /* Create Scroll of Blade Bane for Shop */
-     , (30009, 4,  1553, -1, 0, 0, False) /* Create Scroll of Blade Lure for Shop */
-     , (30009, 4,  1569, -1, 0, 0, False) /* Create Scroll of Flame Bolt for Shop */
-     , (30009, 4,  1573, -1, 0, 0, False) /* Create Scroll of Frost Bolt for Shop */
-     , (30009, 4,  1588, -1, 0, 0, False) /* Create Blood Drinker Scroll for Shop */
-     , (30009, 4,  1589, -1, 0, 0, False) /* Create Scroll of Blood Loather for Shop */
-     , (30009, 4,  1638, -1, 0, 0, False) /* Create Scroll of Acid Stream for Shop */
-     , (30009, 4,  1639, -1, 0, 0, False) /* Create Scroll of Force Bolt for Shop */
-     , (30009, 4,  1640, -1, 0, 0, False) /* Create Scroll of Lightning Bolt for Shop */
-     , (30009, 4,  1641, -1, 0, 0, False) /* Create Scroll of Shock Wave for Shop */
-     , (30009, 4,  1642, -1, 0, 0, False) /* Create Scroll of Whirling Blade for Shop */
-     , (30009, 4,  1875, -1, 0, 0, False) /* Create Scroll of Acid Bane for Shop */
-     , (30009, 4,  1876, -1, 0, 0, False) /* Create Scroll of Acid Lure for Shop */
-     , (30009, 4,  1877, -1, 0, 0, False) /* Create Scroll of Bludgeon Bane for Shop */
-     , (30009, 4,  1878, -1, 0, 0, False) /* Create Scroll of Bludgeon Lure for Shop */
-     , (30009, 4,  1879, -1, 0, 0, False) /* Create Scroll of Brittlemail for Shop */
-     , (30009, 4,  1880, -1, 0, 0, False) /* Create Scroll of Defender for Shop */
-     , (30009, 4,  1881, -1, 0, 0, False) /* Create Scroll of Flame Bane for Shop */
-     , (30009, 4,  1882, -1, 0, 0, False) /* Create Scroll of Flame Lure for Shop */
-     , (30009, 4,  1883, -1, 0, 0, False) /* Create Scroll of Frost Bane for Shop */
-     , (30009, 4,  1884, -1, 0, 0, False) /* Create Scroll of Frost Lure for Shop */
-     , (30009, 4,  1885, -1, 0, 0, False) /* Create Scroll of Heartseeker for Shop */
-     , (30009, 4,  1886, -1, 0, 0, False) /* Create Scroll of Hermetic Void for Shop */
-     , (30009, 4,  1887, -1, 0, 0, False) /* Create Scroll of Impenetrability for Shop */
-     , (30009, 4,  1888, -1, 0, 0, False) /* Create Scroll of Leaden Weapon for Shop */
-     , (30009, 4,  1889, -1, 0, 0, False) /* Create Scroll of Lightning Bane for Shop */
-     , (30009, 4,  1890, -1, 0, 0, False) /* Create Scroll of Lightning Lure for Shop */
-     , (30009, 4,  1891, -1, 0, 0, False) /* Create Scroll of Lure Blade for Shop */
-     , (30009, 4,  1892, -1, 0, 0, False) /* Create Scroll of Piercing Bane for Shop */
-     , (30009, 4,  1893, -1, 0, 0, False) /* Create Scroll of Piercing Lure for Shop */
-     , (30009, 4,  1894, -1, 0, 0, False) /* Create Scroll of Strengthen Lock for Shop */
-     , (30009, 4,  1895, -1, 0, 0, False) /* Create Scroll of Swift Killer for Shop */
-     , (30009, 4,  1896, -1, 0, 0, False) /* Create Scroll of Hermetic Link for Shop */
-     , (30009, 4,  1897, -1, 0, 0, False) /* Create Scroll of Turn Blade for Shop */
-     , (30009, 4,  1898, -1, 0, 0, False) /* Create Scroll of Weaken Lock for Shop */
-     , (30009, 4,  8914, -1, 0, 0, False) /* Create Scroll of Acid Streak for Shop */
-     , (30009, 4,  8920, -1, 0, 0, False) /* Create Scroll of Flame Streak for Shop */
-     , (30009, 4,  8929, -1, 0, 0, False) /* Create Scroll of Force Streak for Shop */
-     , (30009, 4,  8935, -1, 0, 0, False) /* Create Scroll of Frost Streak for Shop */
-     , (30009, 4,  8941, -1, 0, 0, False) /* Create Scroll of Lightning Streak for Shop */
-     , (30009, 4,  8947, -1, 0, 0, False) /* Create Scroll of Shock Wave Streak for Shop */
-     , (30009, 4,  8953, -1, 0, 0, False) /* Create Scroll of Whirling Blade Streak for Shop */
-     , (30009, 2, 10696,  0, 13, 0.5, False) /* Create Apron for Wield */
-     , (30009, 4, 15269, -1, 0, 0, False) /* Create Foci of Artifice for Shop */
-     , (30009, 4, 15271, -1, 0, 0, False) /* Create Foci of Strife for Shop */
-     , (30009, 4, 21288, -1, 0, 0, False) /* Create Scroll of Acid Arc I for Shop */
-     , (30009, 4, 21295, -1, 0, 0, False) /* Create Scroll of Blade Arc I for Shop */
-     , (30009, 4, 21302, -1, 0, 0, False) /* Create Scroll of Flame Arc I for Shop */
-     , (30009, 4, 21309, -1, 0, 0, False) /* Create Scroll of Force Arc I for Shop */
-     , (30009, 4, 21316, -1, 0, 0, False) /* Create Scroll of Frost Arc I for Shop */
-     , (30009, 4, 21323, -1, 0, 0, False) /* Create Scroll of Lightning Arc I for Shop */
-     , (30009, 4, 21330, -1, 0, 0, False) /* Create Scroll of Shock Arc I for Shop */;
+VALUES (30009, 2,   115,  0, 14, 0.6, False) /* Create Leather Boots (115) for Wield */
+     , (30009, 2,   124,  0, 14, 0.5, False) /* Create Jerkin (124) for Wield */
+     , (30009, 2,   127,  0, 3, 0.67, False) /* Create Pants (127) for Wield */
+     , (30009, 4,  1552, -1, 0, 0, False) /* Create Scroll of Blade Bane (1552) for Shop */
+     , (30009, 4,  1553, -1, 0, 0, False) /* Create Scroll of Blade Lure (1553) for Shop */
+     , (30009, 4,  1569, -1, 0, 0, False) /* Create Scroll of Flame Bolt (1569) for Shop */
+     , (30009, 4,  1573, -1, 0, 0, False) /* Create Scroll of Frost Bolt (1573) for Shop */
+     , (30009, 4,  1588, -1, 0, 0, False) /* Create Blood Drinker Scroll (1588) for Shop */
+     , (30009, 4,  1589, -1, 0, 0, False) /* Create Scroll of Blood Loather (1589) for Shop */
+     , (30009, 4,  1638, -1, 0, 0, False) /* Create Scroll of Acid Stream (1638) for Shop */
+     , (30009, 4,  1639, -1, 0, 0, False) /* Create Scroll of Force Bolt (1639) for Shop */
+     , (30009, 4,  1640, -1, 0, 0, False) /* Create Scroll of Lightning Bolt (1640) for Shop */
+     , (30009, 4,  1641, -1, 0, 0, False) /* Create Scroll of Shock Wave (1641) for Shop */
+     , (30009, 4,  1642, -1, 0, 0, False) /* Create Scroll of Whirling Blade (1642) for Shop */
+     , (30009, 4,  1875, -1, 0, 0, False) /* Create Scroll of Acid Bane (1875) for Shop */
+     , (30009, 4,  1876, -1, 0, 0, False) /* Create Scroll of Acid Lure (1876) for Shop */
+     , (30009, 4,  1877, -1, 0, 0, False) /* Create Scroll of Bludgeon Bane (1877) for Shop */
+     , (30009, 4,  1878, -1, 0, 0, False) /* Create Scroll of Bludgeon Lure (1878) for Shop */
+     , (30009, 4,  1879, -1, 0, 0, False) /* Create Scroll of Brittlemail (1879) for Shop */
+     , (30009, 4,  1880, -1, 0, 0, False) /* Create Scroll of Defender (1880) for Shop */
+     , (30009, 4,  1881, -1, 0, 0, False) /* Create Scroll of Flame Bane (1881) for Shop */
+     , (30009, 4,  1882, -1, 0, 0, False) /* Create Scroll of Flame Lure (1882) for Shop */
+     , (30009, 4,  1883, -1, 0, 0, False) /* Create Scroll of Frost Bane (1883) for Shop */
+     , (30009, 4,  1884, -1, 0, 0, False) /* Create Scroll of Frost Lure (1884) for Shop */
+     , (30009, 4,  1885, -1, 0, 0, False) /* Create Scroll of Heartseeker (1885) for Shop */
+     , (30009, 4,  1886, -1, 0, 0, False) /* Create Scroll of Hermetic Void (1886) for Shop */
+     , (30009, 4,  1887, -1, 0, 0, False) /* Create Scroll of Impenetrability (1887) for Shop */
+     , (30009, 4,  1888, -1, 0, 0, False) /* Create Scroll of Leaden Weapon (1888) for Shop */
+     , (30009, 4,  1889, -1, 0, 0, False) /* Create Scroll of Lightning Bane (1889) for Shop */
+     , (30009, 4,  1890, -1, 0, 0, False) /* Create Scroll of Lightning Lure (1890) for Shop */
+     , (30009, 4,  1891, -1, 0, 0, False) /* Create Scroll of Lure Blade (1891) for Shop */
+     , (30009, 4,  1892, -1, 0, 0, False) /* Create Scroll of Piercing Bane (1892) for Shop */
+     , (30009, 4,  1893, -1, 0, 0, False) /* Create Scroll of Piercing Lure (1893) for Shop */
+     , (30009, 4,  1894, -1, 0, 0, False) /* Create Scroll of Strengthen Lock (1894) for Shop */
+     , (30009, 4,  1895, -1, 0, 0, False) /* Create Scroll of Swift Killer (1895) for Shop */
+     , (30009, 4,  1896, -1, 0, 0, False) /* Create Scroll of Hermetic Link (1896) for Shop */
+     , (30009, 4,  1897, -1, 0, 0, False) /* Create Scroll of Turn Blade (1897) for Shop */
+     , (30009, 4,  1898, -1, 0, 0, False) /* Create Scroll of Weaken Lock (1898) for Shop */
+     , (30009, 4,  8914, -1, 0, 0, False) /* Create Scroll of Acid Streak (8914) for Shop */
+     , (30009, 4,  8920, -1, 0, 0, False) /* Create Scroll of Flame Streak (8920) for Shop */
+     , (30009, 4,  8929, -1, 0, 0, False) /* Create Scroll of Force Streak (8929) for Shop */
+     , (30009, 4,  8935, -1, 0, 0, False) /* Create Scroll of Frost Streak (8935) for Shop */
+     , (30009, 4,  8941, -1, 0, 0, False) /* Create Scroll of Lightning Streak (8941) for Shop */
+     , (30009, 4,  8947, -1, 0, 0, False) /* Create Scroll of Shock Wave Streak (8947) for Shop */
+     , (30009, 4,  8953, -1, 0, 0, False) /* Create Scroll of Whirling Blade Streak (8953) for Shop */
+     , (30009, 2, 10696,  0, 13, 0.5, False) /* Create Apron (10696) for Wield */
+     , (30009, 4, 15269, -1, 0, 0, False) /* Create Foci of Artifice (15269) for Shop */
+     , (30009, 4, 15271, -1, 0, 0, False) /* Create Foci of Strife (15271) for Shop */
+     , (30009, 4, 21288, -1, 0, 0, False) /* Create Scroll of Acid Arc I (21288) for Shop */
+     , (30009, 4, 21295, -1, 0, 0, False) /* Create Scroll of Blade Arc I (21295) for Shop */
+     , (30009, 4, 21302, -1, 0, 0, False) /* Create Scroll of Flame Arc I (21302) for Shop */
+     , (30009, 4, 21309, -1, 0, 0, False) /* Create Scroll of Force Arc I (21309) for Shop */
+     , (30009, 4, 21316, -1, 0, 0, False) /* Create Scroll of Frost Arc I (21316) for Shop */
+     , (30009, 4, 21323, -1, 0, 0, False) /* Create Scroll of Lightning Arc I (21323) for Shop */
+     , (30009, 4, 21330, -1, 0, 0, False) /* Create Scroll of Shock Arc I (21330) for Shop */;

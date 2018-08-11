@@ -10,7 +10,7 @@ VALUES (14460,   1,         16) /* ItemType - Creature */
      , (14460,  16,         32) /* ItemUseable - Remote */
      , (14460,  25,         35) /* Level */
      , (14460,  27,          0) /* ArmorType */
-     , (14460,  93,    6292504) /* PhysicsState */
+     , (14460,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (14460,  95,          8) /* RadarBlipColor - Yellow */
      , (14460, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (14460, 134,         16) /* PlayerKillerStatus - RubberGlue */
@@ -152,5 +152,5 @@ VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 1090519043 /* Ready */, NULL, NU
      , (@parent_id,  2,  10 /* Tell */, 1, 1, NULL, 'We are here to guard the people of this town against any future attacks. If you have any questions, you should talk to the Senior Guard assigned to lead our garrison.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (14460, 2,   118,  0, 14, 1, False) /* Create Cap for Wield */
-     , (14460, 2, 10870,  0, 17, 0.7, False) /* Create Canescent Mattekar Robe for Wield */;
+VALUES (14460, 2,   118,  0, 14, 1, False) /* Create Cap (118) for Wield */
+     , (14460, 2, 10870,  0, 17, 0.7, False) /* Create Canescent Mattekar Robe (10870) for Wield */;

@@ -4,15 +4,15 @@ VALUES ('3706', 'cuirassolthoi', 2) /* Clothing */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (3706,   1,          2) /* ItemType - Armor */
      , (3706,   3,         13) /* PaletteTemplate - Purple */
-     , (3706,   4,       3072) /* ClothingPriority */
+     , (3706,   4,       3072) /* ClothingPriority - OuterwearChest, OuterwearAbdomen */
      , (3706,   5,       2400) /* EncumbranceVal */
      , (3706,   8,        800) /* Mass */
-     , (3706,   9,       1536) /* ValidLocations */
+     , (3706,   9,       1536) /* ValidLocations - ChestArmor, AbdomenArmor */
      , (3706,  16,          1) /* ItemUseable - No */
      , (3706,  19,       6000) /* Value */
      , (3706,  27,         32) /* ArmorType */
      , (3706,  28,        280) /* ArmorLevel */
-     , (3706,  93,       1044) /* PhysicsState */;
+     , (3706,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (3706,  22, True ) /* Inscribable */;

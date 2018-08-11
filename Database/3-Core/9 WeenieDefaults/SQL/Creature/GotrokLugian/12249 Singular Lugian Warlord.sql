@@ -13,8 +13,8 @@ VALUES (12249,   1,         16) /* ItemType - Creature */
      , (12249,  27,          0) /* ArmorType */
      , (12249,  40,          2) /* CombatMode - Melee */
      , (12249,  68,         13) /* TargetingTactic */
-     , (12249,  93,       1032) /* PhysicsState */
-     , (12249, 101,        131) /* AiAllowedCombatStyle */
+     , (12249,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
+     , (12249, 101,        131) /* AiAllowedCombatStyle - Unarmed, OneHanded, ThrownWeapon */
      , (12249, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (12249, 140,          1) /* AiOptions */
      , (12249, 146,      28009) /* XpOverride */;
@@ -70,8 +70,11 @@ VALUES (12249,   1,   33557003) /* Setup */
      , (12249,   7,  268436157) /* ClothingBase */
      , (12249,   8,  100667447) /* Icon */
      , (12249,  22,  872415262) /* PhysicsEffectTable */
-     , (12249,  32,        326) /* WieldedTreasureType */
-     , (12249,  35,        448) /* DeathTreasureType */;
+     , (12249,  32,        326) /* WieldedTreasureType - 
+                                   Wield Rock (23746) | Probability: 100%
+                                   Wield Lugian Axe (23740) | Probability: 60%
+                                   Wield Lugian Morning Star (23764) | Probability: 40% */
+     , (12249,  35,        448) /* DeathTreasureType - Loot Tier: 4 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (12249,   1, 290, 0, 0) /* Strength */
@@ -177,9 +180,9 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,  10 /* Tell */, 0, 1, NULL, 'Human weakling!  Have you come to plunder our stocks of minerals?  You will not leave here alive!', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (12249, 9,     0,  0, 0, 0.98, False) /* Create Unknown for ContainTreasure */
-     , (12249, 9,     0,  0, 0, 0.97, False) /* Create Unknown for ContainTreasure */
-     , (12249, 9,  6876,  0, 0, 0.02, False) /* Create Sturdy Iron Key for ContainTreasure */
-     , (12249, 9,  7043,  0, 0, 0.03, False) /* Create Large Lugian Sinew for ContainTreasure */
-     , (12249, 8, 12250,  1, 0, 0, False) /* Create Lugian Warlord's Scepter for Treasure */
-     , (12249, 8, 12278,  1, 0, 0, False) /* Create Singular Chorizite Message Shard for Treasure */;
+VALUES (12249, 9,     0,  0, 0, 0.98, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 4 for ContainTreasure */
+     , (12249, 9,     0,  0, 0, 0.97, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 4 for ContainTreasure */
+     , (12249, 9,  6876,  0, 0, 0.02, False) /* Create Sturdy Iron Key (6876) for ContainTreasure */
+     , (12249, 9,  7043,  0, 0, 0.03, False) /* Create Large Lugian Sinew (7043) for ContainTreasure */
+     , (12249, 8, 12250,  1, 0, 0, False) /* Create Lugian Warlord's Scepter (12250) for Treasure */
+     , (12249, 8, 12278,  1, 0, 0, False) /* Create Singular Chorizite Message Shard (12278) for Treasure */;

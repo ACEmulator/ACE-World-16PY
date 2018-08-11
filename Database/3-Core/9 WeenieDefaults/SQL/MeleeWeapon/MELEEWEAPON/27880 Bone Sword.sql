@@ -10,13 +10,13 @@ VALUES (27880,   1,          1) /* ItemType - MeleeWeapon */
      , (27880,  19,        750) /* Value */
      , (27880,  37,       9999) /* ResistItemAppraisal */
      , (27880,  44,        100) /* Damage */
-     , (27880,  45,          3) /* DamageType */
+     , (27880,  45,          3) /* DamageType - Slash, Pierce */
      , (27880,  46,          2) /* DefaultCombatStyle - OneHanded */
      , (27880,  47,          4) /* AttackType - Slash */
      , (27880,  48,          1) /* WeaponSkill - Axe */
      , (27880,  49,         60) /* WeaponTime */
      , (27880,  51,          1) /* CombatUse - Melee */
-     , (27880,  93,       1044) /* PhysicsState */
+     , (27880,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (27880, 106,        250) /* ItemSpellcraft */
      , (27880, 107,        500) /* ItemCurMana */
      , (27880, 108,        500) /* ItemMaxMana */

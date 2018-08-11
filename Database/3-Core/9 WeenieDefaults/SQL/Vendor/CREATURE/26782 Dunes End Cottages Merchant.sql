@@ -10,10 +10,10 @@ VALUES (26782,   1,         16) /* ItemType - Creature */
      , (26782,  16,         32) /* ItemUseable - Remote */
      , (26782,  25,         10) /* Level */
      , (26782,  27,          0) /* ArmorType */
-     , (26782,  74,     264192) /* MerchandiseItemTypes */
+     , (26782,  74,     264192) /* MerchandiseItemTypes - Gem, PromissoryNote */
      , (26782,  75,          0) /* MerchandiseMinValue */
      , (26782,  76,    1000000) /* MerchandiseMaxValue */
-     , (26782,  93,    2098204) /* PhysicsState */
+     , (26782,  93,    2098204) /* PhysicsState - Ethereal, ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */
      , (26782, 126,        125) /* VendorHappyMean */
      , (26782, 127,        125) /* VendorHappyVariance */
      , (26782, 133,          4) /* ShowableOnRadar - ShowAlways */
@@ -97,4 +97,4 @@ VALUES (26782,  0,  4,  0,    0,    0,    0,    0,    0,    0,    0,    0,    0,
      , (26782,  8,  4,  2, 0.75,    0,    0,    0,    0,    0,    0,    0,    0,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (26782, 4, 26147, -1, 0, 0, False) /* Create Dunes End Cottages Portal Gem for Shop */;
+VALUES (26782, 4, 26147, -1, 0, 0, False) /* Create Dunes End Cottages Portal Gem (26147) for Shop */;

@@ -16,7 +16,7 @@ VALUES (25276,   1,       2048) /* ItemType - Gem */
      , (25276,  19,          0) /* Value */
      , (25276,  33,          1) /* Bonded - Bonded */
      , (25276,  37,         10) /* ResistItemAppraisal */
-     , (25276,  93,       1044) /* PhysicsState */
+     , (25276,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (25276, 114,          1) /* Attuned - Attuned */
      , (25276, 150,        103) /* HookPlacement - Hook */
      , (25276, 151,          2) /* HookType - Wall */;

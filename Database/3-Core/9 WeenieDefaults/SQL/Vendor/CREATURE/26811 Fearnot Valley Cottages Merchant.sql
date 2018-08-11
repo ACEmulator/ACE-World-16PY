@@ -10,10 +10,10 @@ VALUES (26811,   1,         16) /* ItemType - Creature */
      , (26811,  16,         32) /* ItemUseable - Remote */
      , (26811,  25,         10) /* Level */
      , (26811,  27,          0) /* ArmorType */
-     , (26811,  74,     264192) /* MerchandiseItemTypes */
+     , (26811,  74,     264192) /* MerchandiseItemTypes - Gem, PromissoryNote */
      , (26811,  75,          0) /* MerchandiseMinValue */
      , (26811,  76,    1000000) /* MerchandiseMaxValue */
-     , (26811,  93,    2098204) /* PhysicsState */
+     , (26811,  93,    2098204) /* PhysicsState - Ethereal, ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */
      , (26811, 126,        125) /* VendorHappyMean */
      , (26811, 127,        125) /* VendorHappyVariance */
      , (26811, 133,          4) /* ShowableOnRadar - ShowAlways */
@@ -97,4 +97,4 @@ VALUES (26811,  0,  4,  0,    0,    0,    0,    0,    0,    0,    0,    0,    0,
      , (26811,  8,  4,  2, 0.75,    0,    0,    0,    0,    0,    0,    0,    0,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (26811, 4, 26176, -1, 0, 0, False) /* Create Fearnot Valley Cottages Portal Gem for Shop */;
+VALUES (26811, 4, 26176, -1, 0, 0, False) /* Create Fearnot Valley Cottages Portal Gem (26176) for Shop */;

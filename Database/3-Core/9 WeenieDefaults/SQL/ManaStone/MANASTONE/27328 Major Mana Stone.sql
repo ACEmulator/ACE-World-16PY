@@ -8,8 +8,8 @@ VALUES (27328,   1,     524288) /* ItemType - ManaStone */
      , (27328,   9,          0) /* ValidLocations - None */
      , (27328,  16,     655368) /* ItemUseable - SourceContainedTargetSelfOrContained */
      , (27328,  19,       7500) /* Value */
-     , (27328,  93,       1044) /* PhysicsState */
-     , (27328,  94,      35103) /* TargetType */
+     , (27328,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (27328,  94,      35103) /* TargetType - 35103 */
      , (27328, 150,        103) /* HookPlacement - Hook */
      , (27328, 151,          2) /* HookType - Wall */;
 

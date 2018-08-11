@@ -19,7 +19,7 @@ VALUES (21348,   1,        256) /* ItemType - MissileWeapon */
      , (21348,  45,          2) /* DamageType - Pierce */
      , (21348,  50,         64) /* AmmoType */
      , (21348,  51,          3) /* CombatUse - Ammo */
-     , (21348,  93,     132116) /* PhysicsState */
+     , (21348,  93,     132116) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, Inelastic */
      , (21348, 150,        103) /* HookPlacement - Hook */
      , (21348, 151,          2) /* HookType - Wall */
      , (21348, 158,          2) /* WieldRequirements - RawSkill */

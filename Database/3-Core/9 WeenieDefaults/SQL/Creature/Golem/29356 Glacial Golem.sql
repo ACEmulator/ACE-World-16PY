@@ -12,7 +12,7 @@ VALUES (29356,   1,         16) /* ItemType - Creature */
      , (29356,  27,          0) /* ArmorType */
      , (29356,  40,          2) /* CombatMode - Melee */
      , (29356,  68,          9) /* TargetingTactic */
-     , (29356,  93,       1032) /* PhysicsState */
+     , (29356,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (29356, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (29356, 146,       8527) /* XpOverride */;
 
@@ -72,7 +72,7 @@ VALUES (29356,   1,   33557484) /* Setup */
      , (29356,   7,  268436246) /* ClothingBase */
      , (29356,   8,  100667940) /* Icon */
      , (29356,  22,  872415323) /* PhysicsEffectTable */
-     , (29356,  35,        463) /* DeathTreasureType */;
+     , (29356,  35,        463) /* DeathTreasureType - Loot Tier: 2 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (29356,   1, 150, 0, 0) /* Strength */
@@ -139,7 +139,7 @@ VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 1090519043 /* Ready */, NULL, NU
      , (@parent_id,  1,   5 /* Motion */, 0, 1, 1090519060 /* Sleeping */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (29356, 9,     0,  0, 0, 0.98, False) /* Create Unknown for ContainTreasure */
-     , (29356, 9,     0,  0, 0, 0.95, False) /* Create Unknown for ContainTreasure */
-     , (29356, 9,  6353,  0, 0, 0.02, False) /* Create Pyreal Mote for ContainTreasure */
-     , (29356, 9, 23201,  0, 0, 0.05, False) /* Create Glacial Golem Heart for ContainTreasure */;
+VALUES (29356, 9,     0,  0, 0, 0.98, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 2 for ContainTreasure */
+     , (29356, 9,     0,  0, 0, 0.95, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 2 for ContainTreasure */
+     , (29356, 9,  6353,  0, 0, 0.02, False) /* Create Pyreal Mote (6353) for ContainTreasure */
+     , (29356, 9, 23201,  0, 0, 0.05, False) /* Create Glacial Golem Heart (23201) for ContainTreasure */;

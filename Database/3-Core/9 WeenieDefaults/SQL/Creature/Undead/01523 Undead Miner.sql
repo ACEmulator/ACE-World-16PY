@@ -12,8 +12,8 @@ VALUES (1523,   1,         16) /* ItemType - Creature */
      , (1523,  27,          0) /* ArmorType */
      , (1523,  40,          1) /* CombatMode - NonCombat */
      , (1523,  68,          3) /* TargetingTactic */
-     , (1523,  93,       1032) /* PhysicsState */
-     , (1523, 101,        183) /* AiAllowedCombatStyle */
+     , (1523,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
+     , (1523, 101,        183) /* AiAllowedCombatStyle - Unarmed, OneHanded, OneHandedAndShield, Bow, Crossbow, ThrownWeapon */
      , (1523, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (1523, 140,          1) /* AiOptions */
      , (1523, 146,        650) /* XpOverride */;
@@ -70,7 +70,7 @@ VALUES (1523,   1,   33554839) /* Setup */
      , (1523,   7,  268435558) /* ClothingBase */
      , (1523,   8,  100667942) /* Icon */
      , (1523,  22,  872415272) /* PhysicsEffectTable */
-     , (1523,  35,         16) /* DeathTreasureType */;
+     , (1523,  35,         16) /* DeathTreasureType - Loot Tier: 2 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (1523,   1,  65, 0, 0) /* Strength */
@@ -140,12 +140,12 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 318767226 /* Beckon */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (1523, 9,     0,  0, 0, 0, False) /* Create Unknown for ContainTreasure */
-     , (1523, 9,     0,  0, 0, 0, False) /* Create Unknown for ContainTreasure */
-     , (1523, 10,   301,  0, 0, 0.1, False) /* Create Battle Axe for WieldTreasure */
-     , (1523, 10,   331,  0, 0, 0.1, False) /* Create Mace for WieldTreasure */
-     , (1523, 10,   352,  0, 0, 0.1, False) /* Create Short Sword for WieldTreasure */
-     , (1523, 9,  1532,  0, 0, 1, False) /* Create The Baron's Key for ContainTreasure */
-     , (1523, 9,  1538,  0, 0, 1, False) /* Create Scratched Key for ContainTreasure */
-     , (1523, 10,  4190,  0, 0, 0.1, False) /* Create Cestus for WieldTreasure */
-     , (1523, 10,  5753,  0, 0, 0.1, False) /* Create Pickaxe for WieldTreasure */;
+VALUES (1523, 9,     0,  0, 0, 0, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 2 for ContainTreasure */
+     , (1523, 9,     0,  0, 0, 0, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 2 for ContainTreasure */
+     , (1523, 10,   301,  0, 0, 0.1, False) /* Create Battle Axe (301) for WieldTreasure */
+     , (1523, 10,   331,  0, 0, 0.1, False) /* Create Mace (331) for WieldTreasure */
+     , (1523, 10,   352,  0, 0, 0.1, False) /* Create Short Sword (352) for WieldTreasure */
+     , (1523, 9,  1532,  0, 0, 1, False) /* Create The Baron's Key (1532) for ContainTreasure */
+     , (1523, 9,  1538,  0, 0, 1, False) /* Create Scratched Key (1538) for ContainTreasure */
+     , (1523, 10,  4190,  0, 0, 0.1, False) /* Create Cestus (4190) for WieldTreasure */
+     , (1523, 10,  5753,  0, 0, 0.1, False) /* Create Pickaxe (5753) for WieldTreasure */;

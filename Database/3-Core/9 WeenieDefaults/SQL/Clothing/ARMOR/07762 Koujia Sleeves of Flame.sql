@@ -4,17 +4,17 @@ VALUES ('7762', 'sleeveskoujiashadownewfire', 2) /* Clothing */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (7762,   1,          2) /* ItemType - Armor */
      , (7762,   3,         14) /* PaletteTemplate - Red */
-     , (7762,   4,      12288) /* ClothingPriority */
+     , (7762,   4,      12288) /* ClothingPriority - OuterwearUpperArms, OuterwearLowerArms */
      , (7762,   5,        825) /* EncumbranceVal */
      , (7762,   8,        550) /* Mass */
-     , (7762,   9,       6144) /* ValidLocations */
+     , (7762,   9,       6144) /* ValidLocations - UpperArmArmor, LowerArmArmor */
      , (7762,  16,          1) /* ItemUseable - No */
      , (7762,  19,       1620) /* Value */
      , (7762,  27,          2) /* ArmorType */
      , (7762,  28,        145) /* ArmorLevel */
      , (7762,  33,          1) /* Bonded - Bonded */
      , (7762,  36,       9999) /* ResistMagic */
-     , (7762,  93,       1044) /* PhysicsState */
+     , (7762,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (7762, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)

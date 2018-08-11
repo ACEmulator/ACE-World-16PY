@@ -10,10 +10,10 @@ VALUES (9206,   1,         16) /* ItemType - Creature */
      , (9206,  16,         32) /* ItemUseable - Remote */
      , (9206,  25,         45) /* Level */
      , (9206,  27,          0) /* ArmorType */
-     , (9206,  74,     262178) /* MerchandiseItemTypes */
+     , (9206,  74,     262178) /* MerchandiseItemTypes - Armor, Food, PromissoryNote */
      , (9206,  75,          0) /* MerchandiseMinValue */
      , (9206,  76,     100000) /* MerchandiseMaxValue */
-     , (9206,  93,    2098200) /* PhysicsState */
+     , (9206,  93,    2098200) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */
      , (9206, 126,        500) /* VendorHappyMean */
      , (9206, 127,        500) /* VendorHappyVariance */
      , (9206, 133,          4) /* ShowableOnRadar - ShowAlways */
@@ -167,5 +167,5 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 268435539 /* Twitch3 */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (9206, 4,   261, -1, 0, 0, False) /* Create Cheese for Shop */
-     , (9206, 4,  2467, -1, 0, 0, False) /* Create Red Wine for Shop */;
+VALUES (9206, 4,   261, -1, 0, 0, False) /* Create Cheese (261) for Shop */
+     , (9206, 4,  2467, -1, 0, 0, False) /* Create Red Wine (2467) for Shop */;

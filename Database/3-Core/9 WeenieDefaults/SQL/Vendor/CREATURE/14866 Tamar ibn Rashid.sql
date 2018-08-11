@@ -10,10 +10,10 @@ VALUES (14866,   1,         16) /* ItemType - Creature */
      , (14866,  16,         32) /* ItemUseable - Remote */
      , (14866,  25,         17) /* Level */
      , (14866,  27,          0) /* ArmorType */
-     , (14866,  74,     262272) /* MerchandiseItemTypes */
+     , (14866,  74,     262272) /* MerchandiseItemTypes - Misc, PromissoryNote */
      , (14866,  75,          0) /* MerchandiseMinValue */
      , (14866,  76,    1000000) /* MerchandiseMaxValue */
-     , (14866,  93,    2098200) /* PhysicsState */
+     , (14866,  93,    2098200) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */
      , (14866, 126,        250) /* VendorHappyMean */
      , (14866, 127,        250) /* VendorHappyVariance */
      , (14866, 133,          4) /* ShowableOnRadar - ShowAlways */
@@ -162,11 +162,11 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 318767235 /* Nod */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (14866, 2,    47,  0, 6, 0.67, False) /* Create Leather Coat for Wield */
-     , (14866, 2,   115,  0, 4, 1, False) /* Create Leather Boots for Wield */
-     , (14866, 2,   122,  0, 84, 0.5, False) /* Create Soft Leather Gloves for Wield */
-     , (14866, 2,   127,  0, 7, 0.1, False) /* Create Pants for Wield */
-     , (14866, 2, 10696,  0, 11, 0.5, False) /* Create Apron for Wield */
-     , (14866, 4, 14868, -1, 0, 0, False) /* Create Red Shadow Dye for Shop */
-     , (14866, 4, 14869, -1, 0, 0, False) /* Create Green Shadow Dye for Shop */
-     , (14866, 4, 14870, -1, 0, 0, False) /* Create Blue Shadow Dye for Shop */;
+VALUES (14866, 2,    47,  0, 6, 0.67, False) /* Create Leather Coat (47) for Wield */
+     , (14866, 2,   115,  0, 4, 1, False) /* Create Leather Boots (115) for Wield */
+     , (14866, 2,   122,  0, 84, 0.5, False) /* Create Soft Leather Gloves (122) for Wield */
+     , (14866, 2,   127,  0, 7, 0.1, False) /* Create Pants (127) for Wield */
+     , (14866, 2, 10696,  0, 11, 0.5, False) /* Create Apron (10696) for Wield */
+     , (14866, 4, 14868, -1, 0, 0, False) /* Create Red Shadow Dye (14868) for Shop */
+     , (14866, 4, 14869, -1, 0, 0, False) /* Create Green Shadow Dye (14869) for Shop */
+     , (14866, 4, 14870, -1, 0, 0, False) /* Create Blue Shadow Dye (14870) for Shop */;

@@ -11,7 +11,7 @@ VALUES (19637,   1,          8) /* ItemType - Jewelry */
      , (19637,  18,        128) /* UiEffects - Frost */
      , (19637,  19,       5000) /* Value */
      , (19637,  33,          1) /* Bonded - Bonded */
-     , (19637,  93,       1044) /* PhysicsState */
+     , (19637,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (19637, 106,        225) /* ItemSpellcraft */
      , (19637, 107,        500) /* ItemCurMana */
      , (19637, 108,        500) /* ItemMaxMana */

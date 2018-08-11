@@ -12,8 +12,8 @@ VALUES (29350,   1,         16) /* ItemType - Creature */
      , (29350,  27,          0) /* ArmorType */
      , (29350,  40,          2) /* CombatMode - Melee */
      , (29350,  68,          9) /* TargetingTactic */
-     , (29350,  93,       1032) /* PhysicsState */
-     , (29350, 101,        131) /* AiAllowedCombatStyle */
+     , (29350,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
+     , (29350, 101,        131) /* AiAllowedCombatStyle - Unarmed, OneHanded, ThrownWeapon */
      , (29350, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (29350, 140,          1) /* AiOptions */
      , (29350, 146,      11305) /* XpOverride */;
@@ -73,7 +73,7 @@ VALUES (29350,   1,   33556774) /* Setup */
      , (29350,   7,  268436039) /* ClothingBase */
      , (29350,   8,  100670961) /* Icon */
      , (29350,  22,  872415365) /* PhysicsEffectTable */
-     , (29350,  35,        463) /* DeathTreasureType */;
+     , (29350,  35,        463) /* DeathTreasureType - Loot Tier: 2 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (29350,   1, 180, 0, 0) /* Strength */
@@ -142,5 +142,5 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 268435537 /* Twitch1 */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (29350, 9,     0,  0, 0, 0.97, False) /* Create Unknown for ContainTreasure */
-     , (29350, 9, 10705,  0, 0, 0.03, False) /* Create Niffis Pearl for ContainTreasure */;
+VALUES (29350, 9,     0,  0, 0, 0.97, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 2 for ContainTreasure */
+     , (29350, 9, 10705,  0, 0, 0.03, False) /* Create Niffis Pearl (10705) for ContainTreasure */;

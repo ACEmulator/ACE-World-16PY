@@ -13,8 +13,8 @@ VALUES (19267,   1,         16) /* ItemType - Creature */
      , (19267,  40,          2) /* CombatMode - Melee */
      , (19267,  68,         13) /* TargetingTactic */
      , (19267,  72,         22) /* FriendType - Shadow */
-     , (19267,  93,       1032) /* PhysicsState */
-     , (19267, 101,        131) /* AiAllowedCombatStyle */
+     , (19267,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
+     , (19267, 101,        131) /* AiAllowedCombatStyle - Unarmed, OneHanded, ThrownWeapon */
      , (19267, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (19267, 140,          1) /* AiOptions */
      , (19267, 146,      12000) /* XpOverride */;
@@ -74,7 +74,7 @@ VALUES (19267,   1,   33556698) /* Setup */
      , (19267,   8,  100670960) /* Icon */
      , (19267,  22,  872415387) /* PhysicsEffectTable */
      , (19267,  30,         85) /* PhysicsScript - BreatheFrost */
-     , (19267,  35,        407) /* DeathTreasureType */;
+     , (19267,  35,        407) /* DeathTreasureType - Loot Tier: 5 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (19267,   1, 350, 0, 0) /* Strength */
@@ -161,5 +161,5 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 268435537 /* Twitch1 */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (19267, 9,     0,  0, 0, 0.95, False) /* Create Unknown for ContainTreasure */
-     , (19267, 9, 19249,  0, 0, 0.05, False) /* Create Bronze Nuts and Bolts from a Statue for ContainTreasure */;
+VALUES (19267, 9,     0,  0, 0, 0.95, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 5 for ContainTreasure */
+     , (19267, 9, 19249,  0, 0, 0.05, False) /* Create Bronze Nuts and Bolts from a Statue (19249) for ContainTreasure */;

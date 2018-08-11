@@ -8,7 +8,7 @@ VALUES (23060,   1,        128) /* ItemType - Misc */
      , (23060,  16,          8) /* ItemUseable - Contained */
      , (23060,  19,          0) /* Value */
      , (23060,  33,          1) /* Bonded - Bonded */
-     , (23060,  93,       1044) /* PhysicsState */
+     , (23060,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (23060, 114,          1) /* Attuned - Attuned */
      , (23060, 189,          3) /* TransferFromAttribute */
      , (23060, 190,          4) /* TransferToAttribute */;

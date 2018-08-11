@@ -4,7 +4,7 @@ VALUES ('8870', 'dressbridesteele', 2) /* Clothing */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (8870,   1,          4) /* ItemType - Clothing */
      , (8870,   3,         14) /* PaletteTemplate - Red */
-     , (8870,   4,      81664) /* ClothingPriority */
+     , (8870,   4,      81664) /* ClothingPriority - OuterwearUpperLegs, OuterwearLowerLegs, OuterwearChest, OuterwearAbdomen, OuterwearUpperArms, OuterwearLowerArms, Feet */
      , (8870,   5,        200) /* EncumbranceVal */
      , (8870,   8,        150) /* Mass */
      , (8870,   9,      32512) /* ValidLocations - Armor */
@@ -13,7 +13,7 @@ VALUES (8870,   1,          4) /* ItemType - Clothing */
      , (8870,  27,          1) /* ArmorType */
      , (8870,  28,          0) /* ArmorLevel */
      , (8870,  33,          1) /* Bonded - Bonded */
-     , (8870,  93,       1044) /* PhysicsState */
+     , (8870,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (8870, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)

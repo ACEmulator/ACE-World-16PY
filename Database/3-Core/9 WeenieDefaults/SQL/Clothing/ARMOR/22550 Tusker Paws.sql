@@ -15,9 +15,9 @@ VALUES (22550,   1,          2) /* ItemType - Armor */
      , (22550,  44,         12) /* Damage */
      , (22550,  45,          4) /* DamageType - Bludgeon */
      , (22550,  49,        100) /* WeaponTime */
-     , (22550,  93,       1044) /* PhysicsState */
+     , (22550,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (22550, 150,        103) /* HookPlacement - Hook */
-     , (22550, 151,          6) /* HookType */
+     , (22550, 151,          6) /* HookType - Wall, Ceiling */
      , (22550, 158,          7) /* WieldRequirements - Level */
      , (22550, 159,          1) /* WieldSkilltype - Axe */
      , (22550, 160,         60) /* WieldDifficulty */;

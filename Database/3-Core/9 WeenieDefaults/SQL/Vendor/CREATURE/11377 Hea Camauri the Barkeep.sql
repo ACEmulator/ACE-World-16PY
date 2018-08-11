@@ -11,10 +11,10 @@ VALUES (11377,   1,         16) /* ItemType - Creature */
      , (11377,  16,         32) /* ItemUseable - Remote */
      , (11377,  25,         10) /* Level */
      , (11377,  27,          0) /* ArmorType */
-     , (11377,  74,     270368) /* MerchandiseItemTypes */
+     , (11377,  74,     270368) /* MerchandiseItemTypes - Food, Writable, PromissoryNote */
      , (11377,  75,          0) /* MerchandiseMinValue */
      , (11377,  76,     100000) /* MerchandiseMaxValue */
-     , (11377,  93,    2098200) /* PhysicsState */
+     , (11377,  93,    2098200) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */
      , (11377, 126,        500) /* VendorHappyMean */
      , (11377, 127,        500) /* VendorHappyVariance */
      , (11377, 133,          4) /* ShowableOnRadar - ShowAlways */
@@ -164,29 +164,29 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 318767235 /* Nod */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (11377, 4,   261, -1, 0, 0, False) /* Create Cheese for Shop */
-     , (11377, 4,  2451, -1, 0, 0, False) /* Create Ale for Shop */
-     , (11377, 4,  2454, -1, 0, 0, False) /* Create Coffee for Shop */
-     , (11377, 4,  2462, -1, 0, 0, False) /* Create Mead for Shop */
-     , (11377, 4,  2463, -1, 0, 0, False) /* Create Milk for Shop */
-     , (11377, 4,  2464, -1, 0, 0, False) /* Create Orange Juice for Shop */
-     , (11377, 4,  2465, -1, 0, 0, False) /* Create Palm Wine for Shop */
-     , (11377, 4,  2469, -1, 0, 0, False) /* Create Small Beer for Shop */
-     , (11377, 4,  4712, -1, 0, 0, False) /* Create Beef Rice for Shop */
-     , (11377, 4,  4718, -1, 0, 0, False) /* Create Chicken Rice for Shop */
-     , (11377, 4,  4723, -1, 0, 0, False) /* Create Fish Kebab for Shop */
-     , (11377, 4,  8378, -1, 0, 0, False) /* Create Beer Stein for Shop */
-     , (11377, 4, 27596, -1, 0, 0, False) /* Create Hea Toneawa for Shop */
-     , (11377, 4, 27597, -1, 0, 0, False) /* Create Hea Riketura for Shop */
-     , (11377, 4, 27598, -1, 0, 0, False) /* Create Aun Enemies for Shop */
-     , (11377, 4, 27599, -1, 0, 0, False) /* Create Palenqual's Caverns for Shop */
-     , (11377, 4, 27600, -1, 0, 0, False) /* Create Leaving Palenqual for Shop */
-     , (11377, 4, 27601, -1, 0, 0, False) /* Create Hea Arantah for Shop */
-     , (11377, 4, 27602, -1, 0, 0, False) /* Create The Tah of Ahurenga for Shop */
-     , (11377, 4, 27603, -1, 0, 0, False) /* Create Hea Tuperea's Reedsharks for Shop */
-     , (11377, 4, 27604, -1, 0, 0, False) /* Create Aun Ralirea for Shop */
-     , (11377, 4, 27605, -1, 0, 0, False) /* Create The One Named Lilitha for Shop */
-     , (11377, 4, 27606, -1, 0, 0, False) /* Create Atual Arutoa for Shop */
-     , (11377, 4, 27607, -1, 0, 0, False) /* Create The Children of Wharu for Shop */
-     , (11377, 4, 27608, -1, 0, 0, False) /* Create The Aun Menhir Rings for Shop */
-     , (11377, 4, 27609, -1, 0, 0, False) /* Create Wharu for Shop */;
+VALUES (11377, 4,   261, -1, 0, 0, False) /* Create Cheese (261) for Shop */
+     , (11377, 4,  2451, -1, 0, 0, False) /* Create Ale (2451) for Shop */
+     , (11377, 4,  2454, -1, 0, 0, False) /* Create Coffee (2454) for Shop */
+     , (11377, 4,  2462, -1, 0, 0, False) /* Create Mead (2462) for Shop */
+     , (11377, 4,  2463, -1, 0, 0, False) /* Create Milk (2463) for Shop */
+     , (11377, 4,  2464, -1, 0, 0, False) /* Create Orange Juice (2464) for Shop */
+     , (11377, 4,  2465, -1, 0, 0, False) /* Create Palm Wine (2465) for Shop */
+     , (11377, 4,  2469, -1, 0, 0, False) /* Create Small Beer (2469) for Shop */
+     , (11377, 4,  4712, -1, 0, 0, False) /* Create Beef Rice (4712) for Shop */
+     , (11377, 4,  4718, -1, 0, 0, False) /* Create Chicken Rice (4718) for Shop */
+     , (11377, 4,  4723, -1, 0, 0, False) /* Create Fish Kebab (4723) for Shop */
+     , (11377, 4,  8378, -1, 0, 0, False) /* Create Beer Stein (8378) for Shop */
+     , (11377, 4, 27596, -1, 0, 0, False) /* Create Hea Toneawa (27596) for Shop */
+     , (11377, 4, 27597, -1, 0, 0, False) /* Create Hea Riketura (27597) for Shop */
+     , (11377, 4, 27598, -1, 0, 0, False) /* Create Aun Enemies (27598) for Shop */
+     , (11377, 4, 27599, -1, 0, 0, False) /* Create Palenqual's Caverns (27599) for Shop */
+     , (11377, 4, 27600, -1, 0, 0, False) /* Create Leaving Palenqual (27600) for Shop */
+     , (11377, 4, 27601, -1, 0, 0, False) /* Create Hea Arantah (27601) for Shop */
+     , (11377, 4, 27602, -1, 0, 0, False) /* Create The Tah of Ahurenga (27602) for Shop */
+     , (11377, 4, 27603, -1, 0, 0, False) /* Create Hea Tuperea's Reedsharks (27603) for Shop */
+     , (11377, 4, 27604, -1, 0, 0, False) /* Create Aun Ralirea (27604) for Shop */
+     , (11377, 4, 27605, -1, 0, 0, False) /* Create The One Named Lilitha (27605) for Shop */
+     , (11377, 4, 27606, -1, 0, 0, False) /* Create Atual Arutoa (27606) for Shop */
+     , (11377, 4, 27607, -1, 0, 0, False) /* Create The Children of Wharu (27607) for Shop */
+     , (11377, 4, 27608, -1, 0, 0, False) /* Create The Aun Menhir Rings (27608) for Shop */
+     , (11377, 4, 27609, -1, 0, 0, False) /* Create Wharu (27609) for Shop */;

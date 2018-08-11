@@ -11,7 +11,7 @@ VALUES (6645,   1,         16) /* ItemType - Creature */
      , (6645,  27,          0) /* ArmorType */
      , (6645,  40,          2) /* CombatMode - Melee */
      , (6645,  68,          9) /* TargetingTactic */
-     , (6645,  93,    4197384) /* PhysicsState */
+     , (6645,  93,    4197384) /* PhysicsState - ReportCollisions, Gravity, LightingOn, EdgeSlide */
      , (6645, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (6645, 146,       8645) /* XpOverride */;
 
@@ -70,7 +70,7 @@ VALUES (6645,   1,   33556427) /* Setup */
      , (6645,   4,  805306376) /* CombatTable */
      , (6645,   8,  100667940) /* Icon */
      , (6645,  22,  872415325) /* PhysicsEffectTable */
-     , (6645,  35,        463) /* DeathTreasureType */;
+     , (6645,  35,        463) /* DeathTreasureType - Loot Tier: 2 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (6645,   1, 150, 0, 0) /* Strength */
@@ -154,7 +154,7 @@ VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 1090519043 /* Ready */, NULL, NU
      , (@parent_id,  1,   5 /* Motion */, 0, 1, 1090519060 /* Sleeping */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (6645, 9,     0,  0, 0, 0.95, False) /* Create Unknown for ContainTreasure */
-     , (6645, 9,     0,  0, 0, 0.99, False) /* Create Unknown for ContainTreasure */
-     , (6645, 9,  3686,  0, 0, 0.05, False) /* Create Black Rock for ContainTreasure */
-     , (6645, 9,  6353,  0, 0, 0.01, False) /* Create Pyreal Mote for ContainTreasure */;
+VALUES (6645, 9,     0,  0, 0, 0.95, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 2 for ContainTreasure */
+     , (6645, 9,     0,  0, 0, 0.99, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 2 for ContainTreasure */
+     , (6645, 9,  3686,  0, 0, 0.05, False) /* Create Black Rock (3686) for ContainTreasure */
+     , (6645, 9,  6353,  0, 0, 0.01, False) /* Create Pyreal Mote (6353) for ContainTreasure */;

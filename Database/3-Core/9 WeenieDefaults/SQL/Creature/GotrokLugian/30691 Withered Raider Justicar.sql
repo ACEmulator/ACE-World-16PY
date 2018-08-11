@@ -13,8 +13,8 @@ VALUES (30691,   1,         16) /* ItemType - Creature */
      , (30691,  27,          0) /* ArmorType */
      , (30691,  40,          2) /* CombatMode - Melee */
      , (30691,  68,         13) /* TargetingTactic */
-     , (30691,  93,       1032) /* PhysicsState */
-     , (30691, 101,        131) /* AiAllowedCombatStyle */
+     , (30691,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
+     , (30691, 101,        131) /* AiAllowedCombatStyle - Unarmed, OneHanded, ThrownWeapon */
      , (30691, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (30691, 140,          1) /* AiOptions */
      , (30691, 146,     392931) /* XpOverride */;
@@ -71,8 +71,11 @@ VALUES (30691,   1,   33559219) /* Setup */
      , (30691,   7,  268436895) /* ClothingBase */
      , (30691,   8,  100667447) /* Icon */
      , (30691,  22,  872415262) /* PhysicsEffectTable */
-     , (30691,  32,        424) /* WieldedTreasureType */
-     , (30691,  35,        449) /* DeathTreasureType */;
+     , (30691,  32,        424) /* WieldedTreasureType - 
+                                   Wield 10x Rock (23133) | Probability: 20%
+                                   Wield Lugian Morning Star (23134) | Probability: 40%
+                                   Wield Lugian Axe (23132) | Probability: 40% */
+     , (30691,  35,        449) /* DeathTreasureType - Loot Tier: 6 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (30691,   1, 340, 0, 0) /* Strength */
@@ -187,7 +190,7 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,  10 /* Tell */, 0, 1, NULL, 'Cruath Quafeth.  Your kind says that often when hunting us.  Does it mean kill me now?', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (30691, 9,     0,  0, 0, 0.98, False) /* Create Unknown for ContainTreasure */
-     , (30691, 9,     0,  0, 0, 0.99, False) /* Create Unknown for ContainTreasure */
-     , (30691, 9, 23107,  0, 0, 0.01, False) /* Create Mangled Dark Key for ContainTreasure */
-     , (30691, 9, 23108,  0, 0, 0.02, False) /* Create Twisted Dark Key for ContainTreasure */;
+VALUES (30691, 9,     0,  0, 0, 0.98, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 6 for ContainTreasure */
+     , (30691, 9,     0,  0, 0, 0.99, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 6 for ContainTreasure */
+     , (30691, 9, 23107,  0, 0, 0.01, False) /* Create Mangled Dark Key (23107) for ContainTreasure */
+     , (30691, 9, 23108,  0, 0, 0.02, False) /* Create Twisted Dark Key (23108) for ContainTreasure */;

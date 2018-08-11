@@ -4,15 +4,15 @@ VALUES ('126', 'leggingswoolen', 2) /* Clothing */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (126,   1,          4) /* ItemType - Clothing */
      , (126,   3,          9) /* PaletteTemplate - Grey */
-     , (126,   4,          7) /* ClothingPriority */
+     , (126,   4,          7) /* ClothingPriority - 7 */
      , (126,   5,        135) /* EncumbranceVal */
      , (126,   8,         90) /* Mass */
-     , (126,   9,        196) /* ValidLocations */
+     , (126,   9,        196) /* ValidLocations - AbdomenWear, UpperLegWear, LowerLegWear */
      , (126,  16,          1) /* ItemUseable - No */
      , (126,  19,         30) /* Value */
      , (126,  27,          1) /* ArmorType */
      , (126,  28,          0) /* ArmorLevel */
-     , (126,  93,       1044) /* PhysicsState */;
+     , (126,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (126,  22, True ) /* Inscribable */

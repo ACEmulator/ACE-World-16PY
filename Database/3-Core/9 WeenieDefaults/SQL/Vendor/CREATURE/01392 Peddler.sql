@@ -10,10 +10,10 @@ VALUES (1392,   1,         16) /* ItemType - Creature */
      , (1392,  16,         32) /* ItemUseable - Remote */
      , (1392,  25,          7) /* Level */
      , (1392,  27,          0) /* ArmorType */
-     , (1392,  74, 1074030613) /* MerchandiseItemTypes */
+     , (1392,  74, 1074030613) /* MerchandiseItemTypes - MeleeWeapon, Clothing, Creature, Gem, Writable, Key, PromissoryNote, TinkeringMaterial */
      , (1392,  75,          0) /* MerchandiseMinValue */
      , (1392,  76,     100000) /* MerchandiseMaxValue */
-     , (1392,  93,    2098200) /* PhysicsState */
+     , (1392,  93,    2098200) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */
      , (1392, 126,        250) /* VendorHappyMean */
      , (1392, 127,        250) /* VendorHappyVariance */
      , (1392, 133,          4) /* ShowableOnRadar - ShowAlways */
@@ -162,36 +162,36 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 318767235 /* Nod */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (1392, 4,    36, -1, 0, 0, False) /* Create Leather Bracers for Shop */
-     , (1392, 4,    39, -1, 0, 0, False) /* Create Leather Breastplate for Shop */
-     , (1392, 4,    44, -1, 0, 0, False) /* Create Buckler for Shop */
-     , (1392, 4,    45, -1, 0, 0, False) /* Create Leather Cap for Shop */
-     , (1392, 4,    65, -1, 0, 0, False) /* Create Leather Greaves for Shop */
-     , (1392, 4,   109, -1, 0, 0, False) /* Create Leather Tassets for Shop */
-     , (1392, 2,   117,  0, 9, 0.5, False) /* Create Breeches for Wield */
-     , (1392, 2,   118,  0, 9, 1, False) /* Create Cap for Wield */
-     , (1392, 4,   118, -1, 0, 0, False) /* Create Cap for Shop */
-     , (1392, 4,   120, -1, 0, 0, False) /* Create Quilted Drawers for Shop */
-     , (1392, 2,   124,  0, 8, 0.2, False) /* Create Jerkin for Wield */
-     , (1392, 2,   132,  0, 9, 0, False) /* Create Shoes for Wield */
-     , (1392, 4,   132, -1, 0, 0, False) /* Create Shoes for Shop */
-     , (1392, 4,   134, -1, 0, 0, False) /* Create Tunic for Shop */
-     , (1392, 4,   136, -1, 21, 1, False) /* Create Pack for Shop */
-     , (1392, 4,   137, -1, 0, 0, False) /* Create Basket for Shop */
-     , (1392, 4,   151, -1, 0, 0, False) /* Create Empty Flask for Shop */
-     , (1392, 4,   166, -1, 21, 1, False) /* Create Sack for Shop */
-     , (1392, 4,   259, -1, 0, 0, False) /* Create Bread for Shop */
-     , (1392, 4,   261, -1, 0, 0, False) /* Create Cheese for Shop */
-     , (1392, 4,   300, -1, 0, 0, False) /* Create Arrow for Shop */
-     , (1392, 4,   314, -1, 0, 0, False) /* Create Dagger for Shop */
-     , (1392, 4,   321, -1, 0, 0, False) /* Create Jitte for Shop */
-     , (1392, 4,   329, -1, 0, 0, False) /* Create Knife for Shop */
-     , (1392, 4,   365, -1, 0, 0, False) /* Create Parchment for Shop */
-     , (1392, 4,   511, -1, 0, 0, False) /* Create Crude Lockpick for Shop */
-     , (1392, 4,   513, -1, 0, 0, False) /* Create Plain Lockpick for Shop */
-     , (1392, 4,   628, -1, 0, 0, False) /* Create Handy Healing Kit for Shop */
-     , (1392, 4,   629, -1, 0, 0, False) /* Create Adept Healing Kit for Shop */
-     , (1392, 4,  2621, -1, 0, 0, False) /* Create Trade Note (100) for Shop */
-     , (1392, 4,  2622, -1, 0, 0, False) /* Create Trade Note (500) for Shop */
-     , (1392, 2, 10696,  0, 8, 0.8, False) /* Create Apron for Wield */
-     , (1392, 4, 22158, -1, 0, 0, False) /* Create Jo for Shop */;
+VALUES (1392, 4,    36, -1, 0, 0, False) /* Create Leather Bracers (36) for Shop */
+     , (1392, 4,    39, -1, 0, 0, False) /* Create Leather Breastplate (39) for Shop */
+     , (1392, 4,    44, -1, 0, 0, False) /* Create Buckler (44) for Shop */
+     , (1392, 4,    45, -1, 0, 0, False) /* Create Leather Cap (45) for Shop */
+     , (1392, 4,    65, -1, 0, 0, False) /* Create Leather Greaves (65) for Shop */
+     , (1392, 4,   109, -1, 0, 0, False) /* Create Leather Tassets (109) for Shop */
+     , (1392, 2,   117,  0, 9, 0.5, False) /* Create Breeches (117) for Wield */
+     , (1392, 2,   118,  0, 9, 1, False) /* Create Cap (118) for Wield */
+     , (1392, 4,   118, -1, 0, 0, False) /* Create Cap (118) for Shop */
+     , (1392, 4,   120, -1, 0, 0, False) /* Create Quilted Drawers (120) for Shop */
+     , (1392, 2,   124,  0, 8, 0.2, False) /* Create Jerkin (124) for Wield */
+     , (1392, 2,   132,  0, 9, 0, False) /* Create Shoes (132) for Wield */
+     , (1392, 4,   132, -1, 0, 0, False) /* Create Shoes (132) for Shop */
+     , (1392, 4,   134, -1, 0, 0, False) /* Create Tunic (134) for Shop */
+     , (1392, 4,   136, -1, 21, 1, False) /* Create Pack (136) for Shop */
+     , (1392, 4,   137, -1, 0, 0, False) /* Create Basket (137) for Shop */
+     , (1392, 4,   151, -1, 0, 0, False) /* Create Empty Flask (151) for Shop */
+     , (1392, 4,   166, -1, 21, 1, False) /* Create Sack (166) for Shop */
+     , (1392, 4,   259, -1, 0, 0, False) /* Create Bread (259) for Shop */
+     , (1392, 4,   261, -1, 0, 0, False) /* Create Cheese (261) for Shop */
+     , (1392, 4,   300, -1, 0, 0, False) /* Create Arrow (300) for Shop */
+     , (1392, 4,   314, -1, 0, 0, False) /* Create Dagger (314) for Shop */
+     , (1392, 4,   321, -1, 0, 0, False) /* Create Jitte (321) for Shop */
+     , (1392, 4,   329, -1, 0, 0, False) /* Create Knife (329) for Shop */
+     , (1392, 4,   365, -1, 0, 0, False) /* Create Parchment (365) for Shop */
+     , (1392, 4,   511, -1, 0, 0, False) /* Create Crude Lockpick (511) for Shop */
+     , (1392, 4,   513, -1, 0, 0, False) /* Create Plain Lockpick (513) for Shop */
+     , (1392, 4,   628, -1, 0, 0, False) /* Create Handy Healing Kit (628) for Shop */
+     , (1392, 4,   629, -1, 0, 0, False) /* Create Adept Healing Kit (629) for Shop */
+     , (1392, 4,  2621, -1, 0, 0, False) /* Create Trade Note (100) (2621) for Shop */
+     , (1392, 4,  2622, -1, 0, 0, False) /* Create Trade Note (500) (2622) for Shop */
+     , (1392, 2, 10696,  0, 8, 0.8, False) /* Create Apron (10696) for Wield */
+     , (1392, 4, 22158, -1, 0, 0, False) /* Create Jo (22158) for Shop */;

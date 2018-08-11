@@ -4,15 +4,15 @@ VALUES ('25953', 'cowlsand', 2) /* Clothing */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (25953,   1,          2) /* ItemType - Armor */
      , (25953,   3,         17) /* PaletteTemplate - Yellow */
-     , (25953,   4,      21504) /* ClothingPriority */
+     , (25953,   4,      21504) /* ClothingPriority - OuterwearChest, OuterwearUpperArms, Head */
      , (25953,   5,        800) /* EncumbranceVal */
      , (25953,   8,        270) /* Mass */
-     , (25953,   9,       2561) /* ValidLocations */
+     , (25953,   9,       2561) /* ValidLocations - HeadWear, ChestArmor, UpperArmArmor */
      , (25953,  16,          1) /* ItemUseable - No */
      , (25953,  19,       5000) /* Value */
      , (25953,  27,          2) /* ArmorType */
      , (25953,  28,        220) /* ArmorLevel */
-     , (25953,  93,       1044) /* PhysicsState */
+     , (25953,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (25953, 106,        350) /* ItemSpellcraft */
      , (25953, 107,        800) /* ItemCurMana */
      , (25953, 108,        800) /* ItemMaxMana */

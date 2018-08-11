@@ -10,10 +10,10 @@ VALUES (731,   1,         16) /* ItemType - Creature */
      , (731,  16,         32) /* ItemUseable - Remote */
      , (731,  25,          3) /* Level */
      , (731,  27,          0) /* ArmorType */
-     , (731,  74,     262176) /* MerchandiseItemTypes */
+     , (731,  74,     262176) /* MerchandiseItemTypes - Food, PromissoryNote */
      , (731,  75,          0) /* MerchandiseMinValue */
      , (731,  76,     100000) /* MerchandiseMaxValue */
-     , (731,  93,    2098200) /* PhysicsState */
+     , (731,  93,    2098200) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */
      , (731, 126,        250) /* VendorHappyMean */
      , (731, 127,        250) /* VendorHappyVariance */
      , (731, 133,          4) /* ShowableOnRadar - ShowAlways */
@@ -163,31 +163,31 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 318767235 /* Nod */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (731, 2,   127,  0, 18, 1, False) /* Create Pants for Wield */
-     , (731, 2,   132,  0, 7, 0.33, False) /* Create Shoes for Wield */
-     , (731, 2,   134,  0, 6, 0, False) /* Create Tunic for Wield */
-     , (731, 4,  1490, -1, 0, 0, False) /* Create Glenden Dungeon Directions for Shop */
-     , (731, 4,  1508, -1, 0, 0, False) /* Create Alphus Range Directions for Shop */
-     , (731, 4,  2053, -1, 0, 0, False) /* Create Directions to Fort Witshire for Shop */
-     , (731, 4,  2059, -1, 0, 0, False) /* Create History of Fort Witshire for Shop */
-     , (731, 4,  2453, -1, 0, 0, False) /* Create Cider for Shop */
-     , (731, 4,  2462, -1, 0, 0, False) /* Create Mead for Shop */
-     , (731, 4,  2469, -1, 0, 0, False) /* Create Small Beer for Shop */
-     , (731, 4,  2471, -1, 0, 0, False) /* Create Stout for Shop */
-     , (731, 4,  4211, -1, 0, 0, False) /* Create Daiklos Legend for Shop */
-     , (731, 4,  4731, -1, 0, 0, False) /* Create Fried Mushroom for Shop */
-     , (731, 4,  4737, -1, 0, 0, False) /* Create Mushroom Pie for Shop */
-     , (731, 4,  4739, -1, 0, 0, False) /* Create Pickled Egg for Shop */
-     , (731, 4,  4740, -1, 0, 0, False) /* Create Pickled Fish for Shop */
-     , (731, 4,  4746, -1, 0, 0, False) /* Create Water for Shop */
-     , (731, 4,  5583, -1, 0, 0, False) /* Create Aluvian Cookbook for Shop */
-     , (731, 4,  5586, -1, 0, 0, False) /* Create Alchemy Guide for Shop */
-     , (731, 4,  5587, -1, 0, 0, False) /* Create Fletching Guide for Shop */
-     , (731, 4,  5856, -1, 0, 0, False) /* Create Specialty Cookbook for Shop */
-     , (731, 4,  7884, -1, 0, 0, False) /* Create Chocolate Cookbook for Shop */
-     , (731, 4,  8378, -1, 0, 0, False) /* Create Beer Stein for Shop */
-     , (731, 2, 10696,  0, 9, 1, False) /* Create Apron for Wield */
-     , (731, 4, 14797, -1, 0, 0, False) /* Create Festival Cookbook for Shop */
-     , (731, 4, 15808, -1, 0, 0, False) /* Create Plea for Help for Shop */
-     , (731, 4, 20229, -1, 0, 0, False) /* Create Rumor of an Artifact for Shop */
-     , (731, 4, 24222, -1, 0, 0, False) /* Create Duplicated Portals for Shop */;
+VALUES (731, 2,   127,  0, 18, 1, False) /* Create Pants (127) for Wield */
+     , (731, 2,   132,  0, 7, 0.33, False) /* Create Shoes (132) for Wield */
+     , (731, 2,   134,  0, 6, 0, False) /* Create Tunic (134) for Wield */
+     , (731, 4,  1490, -1, 0, 0, False) /* Create Glenden Dungeon Directions (1490) for Shop */
+     , (731, 4,  1508, -1, 0, 0, False) /* Create Alphus Range Directions (1508) for Shop */
+     , (731, 4,  2053, -1, 0, 0, False) /* Create Directions to Fort Witshire (2053) for Shop */
+     , (731, 4,  2059, -1, 0, 0, False) /* Create History of Fort Witshire (2059) for Shop */
+     , (731, 4,  2453, -1, 0, 0, False) /* Create Cider (2453) for Shop */
+     , (731, 4,  2462, -1, 0, 0, False) /* Create Mead (2462) for Shop */
+     , (731, 4,  2469, -1, 0, 0, False) /* Create Small Beer (2469) for Shop */
+     , (731, 4,  2471, -1, 0, 0, False) /* Create Stout (2471) for Shop */
+     , (731, 4,  4211, -1, 0, 0, False) /* Create Daiklos Legend (4211) for Shop */
+     , (731, 4,  4731, -1, 0, 0, False) /* Create Fried Mushroom (4731) for Shop */
+     , (731, 4,  4737, -1, 0, 0, False) /* Create Mushroom Pie (4737) for Shop */
+     , (731, 4,  4739, -1, 0, 0, False) /* Create Pickled Egg (4739) for Shop */
+     , (731, 4,  4740, -1, 0, 0, False) /* Create Pickled Fish (4740) for Shop */
+     , (731, 4,  4746, -1, 0, 0, False) /* Create Water (4746) for Shop */
+     , (731, 4,  5583, -1, 0, 0, False) /* Create Aluvian Cookbook (5583) for Shop */
+     , (731, 4,  5586, -1, 0, 0, False) /* Create Alchemy Guide (5586) for Shop */
+     , (731, 4,  5587, -1, 0, 0, False) /* Create Fletching Guide (5587) for Shop */
+     , (731, 4,  5856, -1, 0, 0, False) /* Create Specialty Cookbook (5856) for Shop */
+     , (731, 4,  7884, -1, 0, 0, False) /* Create Chocolate Cookbook (7884) for Shop */
+     , (731, 4,  8378, -1, 0, 0, False) /* Create Beer Stein (8378) for Shop */
+     , (731, 2, 10696,  0, 9, 1, False) /* Create Apron (10696) for Wield */
+     , (731, 4, 14797, -1, 0, 0, False) /* Create Festival Cookbook (14797) for Shop */
+     , (731, 4, 15808, -1, 0, 0, False) /* Create Plea for Help (15808) for Shop */
+     , (731, 4, 20229, -1, 0, 0, False) /* Create Rumor of an Artifact (20229) for Shop */
+     , (731, 4, 24222, -1, 0, 0, False) /* Create Duplicated Portals (24222) for Shop */;

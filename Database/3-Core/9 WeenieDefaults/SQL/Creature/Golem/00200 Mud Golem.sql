@@ -12,7 +12,7 @@ VALUES (200,   1,         16) /* ItemType - Creature */
      , (200,  27,          0) /* ArmorType */
      , (200,  40,          2) /* CombatMode - Melee */
      , (200,  68,          9) /* TargetingTactic */
-     , (200,  93,       1032) /* PhysicsState */
+     , (200,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (200, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (200, 146,        383) /* XpOverride */;
 
@@ -69,7 +69,7 @@ VALUES (200,   1,   33556426) /* Setup */
      , (200,   7,  268435982) /* ClothingBase */
      , (200,   8,  100667940) /* Icon */
      , (200,  22,  872415326) /* PhysicsEffectTable */
-     , (200,  35,        465) /* DeathTreasureType */;
+     , (200,  35,        465) /* DeathTreasureType - Loot Tier: 1 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (200,   1,  50, 0, 0) /* Strength */
@@ -135,9 +135,9 @@ VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 1090519043 /* Ready */, NULL, NU
      , (@parent_id,  1,   5 /* Motion */, 0, 1, 1090519060 /* Sleeping */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (200, 9,     0,  0, 0, 0.95, False) /* Create Unknown for ContainTreasure */
-     , (200, 9,     0,  0, 0, 0.995, False) /* Create Unknown for ContainTreasure */
-     , (200, 9,     0,  0, 0, 0.97, False) /* Create Unknown for ContainTreasure */
-     , (200, 9,  6353,  0, 0, 0.005, False) /* Create Pyreal Mote for ContainTreasure */
-     , (200, 9, 10759,  0, 0, 0.03, False) /* Create Muddy Towel for ContainTreasure */
-     , (200, 9, 11351,  0, 0, 0.05, False) /* Create Mud Golem Heart for ContainTreasure */;
+VALUES (200, 9,     0,  0, 0, 0.95, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 1 for ContainTreasure */
+     , (200, 9,     0,  0, 0, 0.995, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 1 for ContainTreasure */
+     , (200, 9,     0,  0, 0, 0.97, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 1 for ContainTreasure */
+     , (200, 9,  6353,  0, 0, 0.005, False) /* Create Pyreal Mote (6353) for ContainTreasure */
+     , (200, 9, 10759,  0, 0, 0.03, False) /* Create Muddy Towel (10759) for ContainTreasure */
+     , (200, 9, 11351,  0, 0, 0.05, False) /* Create Mud Golem Heart (11351) for ContainTreasure */;

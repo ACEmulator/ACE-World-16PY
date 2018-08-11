@@ -13,7 +13,7 @@ VALUES (11490,   1,         16) /* ItemType - Creature */
      , (11490,  40,          2) /* CombatMode - Melee */
      , (11490,  68,          9) /* TargetingTactic */
      , (11490,  72,         56) /* FriendType - Siraluun */
-     , (11490,  93,       1032) /* PhysicsState */
+     , (11490,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (11490, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (11490, 146,        296) /* XpOverride */;
 
@@ -68,7 +68,7 @@ VALUES (11490,   1,   33557059) /* Setup */
      , (11490,   7,  268436194) /* ClothingBase */
      , (11490,   8,  100671751) /* Icon */
      , (11490,  22,  872415376) /* PhysicsEffectTable */
-     , (11490,  35,        459) /* DeathTreasureType */;
+     , (11490,  35,        459) /* DeathTreasureType - Loot Tier: 1 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (11490,   1,  60, 0, 0) /* Strength */
@@ -119,7 +119,7 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 268435537 /* Twitch1 */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (11490, 9,     0,  0, 0, 0.95, False) /* Create Unknown for ContainTreasure */
-     , (11490, 9,     0,  0, 0, 0.95, False) /* Create Unknown for ContainTreasure */
-     , (11490, 9, 11369,  0, 0, 0.05, False) /* Create Tidal Siraluun Claw for ContainTreasure */
-     , (11490, 9, 29902,  0, 0, 0.05, False) /* Create Small Bundle of Tidal Siraluun Feathers for ContainTreasure */;
+VALUES (11490, 9,     0,  0, 0, 0.95, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 1 for ContainTreasure */
+     , (11490, 9,     0,  0, 0, 0.95, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 1 for ContainTreasure */
+     , (11490, 9, 11369,  0, 0, 0.05, False) /* Create Tidal Siraluun Claw (11369) for ContainTreasure */
+     , (11490, 9, 29902,  0, 0, 0.05, False) /* Create Small Bundle of Tidal Siraluun Feathers (29902) for ContainTreasure */;

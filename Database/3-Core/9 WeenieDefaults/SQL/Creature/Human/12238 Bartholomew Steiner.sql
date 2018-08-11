@@ -10,7 +10,7 @@ VALUES (12238,   1,         16) /* ItemType - Creature */
      , (12238,  16,         32) /* ItemUseable - Remote */
      , (12238,  25,         28) /* Level */
      , (12238,  27,          0) /* ArmorType */
-     , (12238,  93,    6292504) /* PhysicsState */
+     , (12238,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (12238,  95,          8) /* RadarBlipColor - Yellow */
      , (12238, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (12238, 134,         16) /* PlayerKillerStatus - RubberGlue */
@@ -226,6 +226,6 @@ VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 1090519043 /* Ready */, NULL, NU
      , (@parent_id,  3,  10 /* Tell */, 1, 1, NULL, 'There''s nothing finer, than wares made by Steiner!', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (12238, 2,   117,  0, 2, 1, False) /* Create Breeches for Wield */
-     , (12238, 2,  2596,  0, 14, 0.8, False) /* Create Doublet for Wield */
-     , (12238, 2,  7897,  0, 2, 0.8, False) /* Create Steel Toed Boots for Wield */;
+VALUES (12238, 2,   117,  0, 2, 1, False) /* Create Breeches (117) for Wield */
+     , (12238, 2,  2596,  0, 14, 0.8, False) /* Create Doublet (2596) for Wield */
+     , (12238, 2,  7897,  0, 2, 0.8, False) /* Create Steel Toed Boots (7897) for Wield */;

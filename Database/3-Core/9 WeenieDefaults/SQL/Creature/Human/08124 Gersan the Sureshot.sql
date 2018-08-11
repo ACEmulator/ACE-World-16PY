@@ -10,7 +10,7 @@ VALUES (8124,   1,         16) /* ItemType - Creature */
      , (8124,  16,         32) /* ItemUseable - Remote */
      , (8124,  25,         30) /* Level */
      , (8124,  27,          0) /* ArmorType */
-     , (8124,  93,    6292504) /* PhysicsState */
+     , (8124,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (8124,  95,          8) /* RadarBlipColor - Yellow */
      , (8124, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (8124, 134,         16) /* PlayerKillerStatus - RubberGlue */
@@ -334,7 +334,7 @@ VALUES (@parent_id,  0,  10 /* Tell */, 0, 1, NULL, 'If you can find a gem more 
      , (@parent_id,  1,  10 /* Tell */, 0, 1, NULL, 'I am not a crossbow maker, however, so if you need a crossbow you will have to attach a stock to the bow yourself.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (8124, 2,   135,  0, 14, 0.6, False) /* Create Turban for Wield */
-     , (8124, 2,  2593,  0, 14, 0, False) /* Create Tunic for Wield */
-     , (8124, 2,  2601,  0, 17, 1, False) /* Create Pants for Wield */
-     , (8124, 2,  7897,  0, 17, 1, False) /* Create Steel Toed Boots for Wield */;
+VALUES (8124, 2,   135,  0, 14, 0.6, False) /* Create Turban (135) for Wield */
+     , (8124, 2,  2593,  0, 14, 0, False) /* Create Tunic (2593) for Wield */
+     , (8124, 2,  2601,  0, 17, 1, False) /* Create Pants (2601) for Wield */
+     , (8124, 2,  7897,  0, 17, 1, False) /* Create Steel Toed Boots (7897) for Wield */;

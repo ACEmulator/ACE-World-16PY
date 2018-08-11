@@ -12,8 +12,8 @@ VALUES (2583,   1,         16) /* ItemType - Creature */
      , (2583,  27,          0) /* ArmorType */
      , (2583,  40,          2) /* CombatMode - Melee */
      , (2583,  68,          3) /* TargetingTactic */
-     , (2583,  93,       1032) /* PhysicsState */
-     , (2583, 101,        183) /* AiAllowedCombatStyle */
+     , (2583,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
+     , (2583, 101,        183) /* AiAllowedCombatStyle - Unarmed, OneHanded, OneHandedAndShield, Bow, Crossbow, ThrownWeapon */
      , (2583, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (2583, 140,          1) /* AiOptions */
      , (2583, 146,       1144) /* XpOverride */;
@@ -72,8 +72,16 @@ VALUES (2583,   1,   33555608) /* Setup */
      , (2583,   7,  268435727) /* ClothingBase */
      , (2583,   8,  100669120) /* Icon */
      , (2583,  22,  872415280) /* PhysicsEffectTable */
-     , (2583,  32,        169) /* WieldedTreasureType */
-     , (2583,  35,        453) /* DeathTreasureType */;
+     , (2583,  32,        169) /* WieldedTreasureType - 
+                                   Wield 5x Javelin (320) | Probability: 60%
+                                   Wield 4x Djarid (317) | Probability: 40%
+                                   Wield Budiaq (308) | Probability: 25%
+                                   Wield Spear (348) | Probability: 50%
+                                   Wield Yari (362) | Probability: 50%
+                                   Wield Large Kite Shield (92) | Probability: 30%
+                                   Wield Kite Shield (91) | Probability: 20%
+                                   Wield Large Round Shield (94) | Probability: 20% */
+     , (2583,  35,        453) /* DeathTreasureType - Loot Tier: 1 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (2583,   1, 110, 0, 0) /* Strength */
@@ -133,7 +141,7 @@ VALUES (2583,  94) /* ATTACK_NOTIFICATION_EVENT */
      , (2583, 414) /* PLAYER_DEATH_EVENT */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (2583, 9,     0,  0, 0, 0.97, False) /* Create Unknown for ContainTreasure */
-     , (2583, 9,     0,  0, 0, 0.99, False) /* Create Unknown for ContainTreasure */
-     , (2583, 9,  9260,  0, 0, 0.03, False) /* Create Small Sclavus Hide for ContainTreasure */
-     , (2583, 9, 20861,  0, 0, 0.01, False) /* Create Moons Stamp for ContainTreasure */;
+VALUES (2583, 9,     0,  0, 0, 0.97, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 1 for ContainTreasure */
+     , (2583, 9,     0,  0, 0, 0.99, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 1 for ContainTreasure */
+     , (2583, 9,  9260,  0, 0, 0.03, False) /* Create Small Sclavus Hide (9260) for ContainTreasure */
+     , (2583, 9, 20861,  0, 0, 0.01, False) /* Create Moons Stamp (20861) for ContainTreasure */;

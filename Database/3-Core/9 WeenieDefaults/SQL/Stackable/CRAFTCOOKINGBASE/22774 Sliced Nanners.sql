@@ -13,7 +13,7 @@ VALUES (22774,   1,    4194304) /* ItemType - CraftCookingBase */
      , (22774,  15,         60) /* StackUnitValue */
      , (22774,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
      , (22774,  19,         60) /* Value */
-     , (22774,  93,       1044) /* PhysicsState */
+     , (22774,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (22774, 150,        103) /* HookPlacement - Hook */
      , (22774, 151,          2) /* HookType - Wall */;
 

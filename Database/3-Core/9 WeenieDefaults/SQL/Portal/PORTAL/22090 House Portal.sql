@@ -4,8 +4,8 @@ VALUES ('22090', 'portalhauntedmansiondungeonexit', 7) /* Portal */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (22090,   1,      65536) /* ItemType - Portal */
      , (22090,  16,         32) /* ItemUseable - Remote */
-     , (22090,  93,       3084) /* PhysicsState */
-     , (22090, 111,         49) /* PortalBitmask */
+     , (22090,  93,       3084) /* PhysicsState - Ethereal, ReportCollisions, Gravity, LightingOn */
+     , (22090, 111,         49) /* PortalBitmask - Unrestricted, NoSummon, NoRecall */
      , (22090, 133,          4) /* ShowableOnRadar - ShowAlways */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)

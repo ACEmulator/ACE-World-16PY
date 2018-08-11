@@ -11,8 +11,8 @@ VALUES (11884,   1,         16) /* ItemType - Creature */
      , (11884,  25,         65) /* Level */
      , (11884,  27,          0) /* ArmorType */
      , (11884,  68,          5) /* TargetingTactic */
-     , (11884,  93,       1032) /* PhysicsState */
-     , (11884, 101,        183) /* AiAllowedCombatStyle */
+     , (11884,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
+     , (11884, 101,        183) /* AiAllowedCombatStyle - Unarmed, OneHanded, OneHandedAndShield, Bow, Crossbow, ThrownWeapon */
      , (11884, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (11884, 140,          1) /* AiOptions */
      , (11884, 146,       8500) /* XpOverride */;
@@ -72,8 +72,18 @@ VALUES (11884,   1,   33554496) /* Setup */
      , (11884,   8,  100667452) /* Icon */
      , (11884,  22,  872415270) /* PhysicsEffectTable */
      , (11884,  31,      11845) /* LinkedPortalOne - Cragstone Reinforcements Camp Portal */
-     , (11884,  32,        195) /* WieldedTreasureType */
-     , (11884,  35,        201) /* DeathTreasureType */;
+     , (11884,  32,        195) /* WieldedTreasureType - 
+                                   Wield Yumi (23735) | Probability: 20%
+                                   Wield 20x Arrow (300) | Probability: 100%
+                                   Wield Heavy Crossbow (23666) | Probability: 40%
+                                   Wield 20x Quarrel (305) | Probability: 100%
+                                   Wield Katar (23675) | Probability: 14%
+                                   Wield Cestus (23638) | Probability: 7%
+                                   Wield Nekode (23681) | Probability: 6%
+                                   Wield Tachi (23701) | Probability: 6%
+                                   Wield Spear (23697) | Probability: 6%
+                                   Wield Kite Shield (23685) | Probability: 75% */
+     , (11884,  35,        201) /* DeathTreasureType - Loot Tier: 4 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (11884,   1, 170, 0, 0) /* Strength */
@@ -158,9 +168,9 @@ VALUES (@parent_id,  0,  19 /* CastSpellInstant */, 0, 1, NULL, NULL, NULL, NULL
      , (@parent_id,  1,  17 /* LocalBroadcast */, 0, 0, NULL, 'The dying Tumerok casts a portal to the Cragstone Reinforcements Camp dungeon as it falls!', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (11884, 9,     0,  0, 0, 0.8, False) /* Create Unknown for ContainTreasure */
-     , (11884, 9,     0,  0, 0, 0.99, False) /* Create Unknown for ContainTreasure */
-     , (11884, 9,     0,  0, 0, 0.97, False) /* Create Unknown for ContainTreasure */
-     , (11884, 9,  3695,  0, 0, 0.2, False) /* Create Gold Tumerok Insignia for ContainTreasure */
-     , (11884, 9,  6876,  0, 0, 0.01, False) /* Create Sturdy Iron Key for ContainTreasure */
-     , (11884, 9,  7825,  0, 0, 0.03, False) /* Create Brown Beans for ContainTreasure */;
+VALUES (11884, 9,     0,  0, 0, 0.8, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 4 for ContainTreasure */
+     , (11884, 9,     0,  0, 0, 0.99, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 4 for ContainTreasure */
+     , (11884, 9,     0,  0, 0, 0.97, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 4 for ContainTreasure */
+     , (11884, 9,  3695,  0, 0, 0.2, False) /* Create Gold Tumerok Insignia (3695) for ContainTreasure */
+     , (11884, 9,  6876,  0, 0, 0.01, False) /* Create Sturdy Iron Key (6876) for ContainTreasure */
+     , (11884, 9,  7825,  0, 0, 0.03, False) /* Create Brown Beans (7825) for ContainTreasure */;

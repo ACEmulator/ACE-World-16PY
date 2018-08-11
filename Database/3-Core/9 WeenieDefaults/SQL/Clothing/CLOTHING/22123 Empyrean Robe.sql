@@ -4,7 +4,7 @@ VALUES ('22123', 'robeempyrean', 2) /* Clothing */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (22123,   1,          4) /* ItemType - Clothing */
      , (22123,   3,         22) /* PaletteTemplate - Aqua */
-     , (22123,   4,      81664) /* ClothingPriority */
+     , (22123,   4,      81664) /* ClothingPriority - OuterwearUpperLegs, OuterwearLowerLegs, OuterwearChest, OuterwearAbdomen, OuterwearUpperArms, OuterwearLowerArms, Feet */
      , (22123,   5,        200) /* EncumbranceVal */
      , (22123,   8,        150) /* Mass */
      , (22123,   9,      32512) /* ValidLocations - Armor */
@@ -12,7 +12,7 @@ VALUES (22123,   1,          4) /* ItemType - Clothing */
      , (22123,  19,         50) /* Value */
      , (22123,  27,          1) /* ArmorType */
      , (22123,  28,          0) /* ArmorLevel */
-     , (22123,  93,       1044) /* PhysicsState */;
+     , (22123,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (22123,  22, True ) /* Inscribable */;

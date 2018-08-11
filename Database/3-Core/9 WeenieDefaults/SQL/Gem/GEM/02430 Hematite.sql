@@ -14,7 +14,7 @@ VALUES (2430,   1,       2048) /* ItemType - Gem */
      , (2430,  15,         50) /* StackUnitValue */
      , (2430,  16,          1) /* ItemUseable - No */
      , (2430,  19,         50) /* Value */
-     , (2430,  93,       1044) /* PhysicsState */
+     , (2430,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (2430, 131,         25) /* MaterialType - Hematite */
      , (2430, 169,   16777216) /* TsysMutationData */;
 

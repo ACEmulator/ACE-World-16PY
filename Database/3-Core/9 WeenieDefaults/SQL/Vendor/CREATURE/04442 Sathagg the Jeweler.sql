@@ -10,10 +10,10 @@ VALUES (4442,   1,         16) /* ItemType - Creature */
      , (4442,  16,         32) /* ItemUseable - Remote */
      , (4442,  25,          3) /* Level */
      , (4442,  27,          0) /* ArmorType */
-     , (4442,  74,     264200) /* MerchandiseItemTypes */
+     , (4442,  74,     264200) /* MerchandiseItemTypes - Jewelry, Gem, PromissoryNote */
      , (4442,  75,          0) /* MerchandiseMinValue */
      , (4442,  76,      25000) /* MerchandiseMaxValue */
-     , (4442,  93,    2098200) /* PhysicsState */
+     , (4442,  93,    2098200) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */
      , (4442, 126,        400) /* VendorHappyMean */
      , (4442, 127,        250) /* VendorHappyVariance */
      , (4442, 133,          4) /* ShowableOnRadar - ShowAlways */
@@ -163,21 +163,21 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 318767235 /* Nod */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (4442, 2,   127,  0, 6, 0, False) /* Create Pants for Wield */
-     , (4442, 2,   130,  0, 5, 0.67, False) /* Create Shirt for Wield */
-     , (4442, 4,   297, -1, 0, 0, False) /* Create Ring for Shop */
-     , (4442, 4,   622, -1, 0, 0, False) /* Create Necklace for Shop */
-     , (4442, 4,  2414, -1, 0, 0, False) /* Create Azurite for Shop */
-     , (4442, 4,  2427, -1, 0, 0, False) /* Create Bloodstone for Shop */
-     , (4442, 2,  2606,  0, 2, 1, False) /* Create Boots for Wield */
-     , (4442, 4,  2621, -1, 0, 0, False) /* Create Trade Note (100) for Shop */
-     , (4442, 4,  2622, -1, 0, 0, False) /* Create Trade Note (500) for Shop */
-     , (4442, 4,  2623, -1, 0, 0, False) /* Create Trade Note (1,000) for Shop */
-     , (4442, 4,  2624, -1, 0, 0, False) /* Create Trade Note (5,000) for Shop */
-     , (4442, 4,  2625, -1, 0, 0, False) /* Create Trade Note (10,000) for Shop */
-     , (4442, 4,  2626, -1, 0, 0, False) /* Create Trade Note (50,000) for Shop */
-     , (4442, 4,  2627, -1, 0, 0, False) /* Create Trade Note (100,000) for Shop */
-     , (4442, 2, 10696,  0, 9, 0.5, False) /* Create Apron for Wield */
-     , (4442, 4, 20628, -1, 0, 0, False) /* Create Trade Note (150,000) for Shop */
-     , (4442, 4, 20629, -1, 0, 0, False) /* Create Trade Note (200,000) for Shop */
-     , (4442, 4, 20630, -1, 0, 0, False) /* Create Trade Note (250,000) for Shop */;
+VALUES (4442, 2,   127,  0, 6, 0, False) /* Create Pants (127) for Wield */
+     , (4442, 2,   130,  0, 5, 0.67, False) /* Create Shirt (130) for Wield */
+     , (4442, 4,   297, -1, 0, 0, False) /* Create Ring (297) for Shop */
+     , (4442, 4,   622, -1, 0, 0, False) /* Create Necklace (622) for Shop */
+     , (4442, 4,  2414, -1, 0, 0, False) /* Create Azurite (2414) for Shop */
+     , (4442, 4,  2427, -1, 0, 0, False) /* Create Bloodstone (2427) for Shop */
+     , (4442, 2,  2606,  0, 2, 1, False) /* Create Boots (2606) for Wield */
+     , (4442, 4,  2621, -1, 0, 0, False) /* Create Trade Note (100) (2621) for Shop */
+     , (4442, 4,  2622, -1, 0, 0, False) /* Create Trade Note (500) (2622) for Shop */
+     , (4442, 4,  2623, -1, 0, 0, False) /* Create Trade Note (1,000) (2623) for Shop */
+     , (4442, 4,  2624, -1, 0, 0, False) /* Create Trade Note (5,000) (2624) for Shop */
+     , (4442, 4,  2625, -1, 0, 0, False) /* Create Trade Note (10,000) (2625) for Shop */
+     , (4442, 4,  2626, -1, 0, 0, False) /* Create Trade Note (50,000) (2626) for Shop */
+     , (4442, 4,  2627, -1, 0, 0, False) /* Create Trade Note (100,000) (2627) for Shop */
+     , (4442, 2, 10696,  0, 9, 0.5, False) /* Create Apron (10696) for Wield */
+     , (4442, 4, 20628, -1, 0, 0, False) /* Create Trade Note (150,000) (20628) for Shop */
+     , (4442, 4, 20629, -1, 0, 0, False) /* Create Trade Note (200,000) (20629) for Shop */
+     , (4442, 4, 20630, -1, 0, 0, False) /* Create Trade Note (250,000) (20630) for Shop */;

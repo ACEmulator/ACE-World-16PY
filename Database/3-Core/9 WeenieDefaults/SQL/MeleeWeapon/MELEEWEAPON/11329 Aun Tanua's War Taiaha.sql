@@ -17,7 +17,7 @@ VALUES (11329,   1,          1) /* ItemType - MeleeWeapon */
      , (11329,  48,          9) /* WeaponSkill - Spear */
      , (11329,  49,         25) /* WeaponTime */
      , (11329,  51,          1) /* CombatUse - Melee */
-     , (11329,  93,       1044) /* PhysicsState */
+     , (11329,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (11329, 106,        150) /* ItemSpellcraft */
      , (11329, 107,        700) /* ItemCurMana */
      , (11329, 108,        700) /* ItemMaxMana */

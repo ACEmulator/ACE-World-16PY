@@ -10,7 +10,7 @@ VALUES (23348,   1,         16) /* ItemType - Creature */
      , (23348,  16,         32) /* ItemUseable - Remote */
      , (23348,  25,         15) /* Level */
      , (23348,  27,          0) /* ArmorType */
-     , (23348,  93,    6292504) /* PhysicsState */
+     , (23348,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (23348,  95,          8) /* RadarBlipColor - Yellow */
      , (23348, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (23348, 134,         16) /* PlayerKillerStatus - RubberGlue */
@@ -255,4 +255,4 @@ VALUES (@parent_id,  0,   5 /* Motion */, 1, 1, 1073741852 /* Reading */, NULL, 
      , (@parent_id,  5,   2 /* AwardXP */, 1, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 20000, 0, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (23348, 2,  8399,  0, 14, 0.6, False) /* Create Kireth Gown with Band for Wield */;
+VALUES (23348, 2,  8399,  0, 14, 0.6, False) /* Create Kireth Gown with Band (8399) for Wield */;

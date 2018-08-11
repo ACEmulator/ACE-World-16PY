@@ -18,7 +18,7 @@ VALUES (300,   1,        256) /* ItemType - MissileWeapon */
      , (300,  45,          2) /* DamageType - Pierce */
      , (300,  50,          1) /* AmmoType - Arrow */
      , (300,  51,          3) /* CombatUse - Ammo */
-     , (300,  93,     132116) /* PhysicsState */
+     , (300,  93,     132116) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, Inelastic */
      , (300, 150,        103) /* HookPlacement - Hook */
      , (300, 151,          2) /* HookType - Wall */;
 

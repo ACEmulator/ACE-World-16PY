@@ -13,7 +13,7 @@ VALUES (24175,   1,        512) /* ItemType - Container */
      , (24175,  81,          2) /* MaxGeneratedObjects */
      , (24175,  82,          2) /* InitGeneratedObjects */
      , (24175,  83,          2) /* ActivationResponse - Use */
-     , (24175,  93,       1048) /* PhysicsState */
+     , (24175,  93,       1048) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity */
      , (24175,  96,        500) /* EncumbranceCapacity */
      , (24175, 100,          1) /* GeneratorType - Relative */;
 
@@ -46,5 +46,5 @@ VALUES (24175,   1,   33558320) /* Setup */
      , (24175,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (24175, -1, 24174, 30, 1, 1, 2, 8, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0)
-     , (24175, -1, 24173, 30, 1, 1, 2, 8, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0);
+VALUES (24175, -1, 24174, 30, 1, 1, 2, 8, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Jaleh's Chain Shirt (24174) (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: Contain */
+     , (24175, -1, 24173, 30, 1, 1, 2, 8, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Jaleh's Leggings (24173) (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: Contain */;

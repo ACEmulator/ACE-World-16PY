@@ -15,7 +15,7 @@ VALUES (265,   1,    4194304) /* ItemType - CraftCookingBase */
      , (265,  19,         20) /* Value */
      , (265,  89,          4) /* BoosterEnum - Stamina */
      , (265,  90,         10) /* BoostValue */
-     , (265,  93,       1044) /* PhysicsState */;
+     , (265,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (265,   1, 'Meat') /* Name */

@@ -18,7 +18,7 @@ VALUES (22977,   1,          1) /* ItemType - MeleeWeapon */
      , (22977,  48,          1) /* WeaponSkill - Axe */
      , (22977,  49,         70) /* WeaponTime */
      , (22977,  51,          1) /* CombatUse - Melee */
-     , (22977,  93,       1044) /* PhysicsState */
+     , (22977,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (22977, 114,          1) /* Attuned - Attuned */
      , (22977, 158,          2) /* WieldRequirements - RawSkill */
      , (22977, 159,          1) /* WieldSkilltype - Axe */

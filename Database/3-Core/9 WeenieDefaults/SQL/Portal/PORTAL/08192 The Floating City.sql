@@ -4,8 +4,8 @@ VALUES ('8192', 'portalfloatingcityc', 7) /* Portal */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (8192,   1,      65536) /* ItemType - Portal */
      , (8192,  16,         32) /* ItemUseable - Remote */
-     , (8192,  93,       3084) /* PhysicsState */
-     , (8192, 111,         17) /* PortalBitmask */
+     , (8192,  93,       3084) /* PhysicsState - Ethereal, ReportCollisions, Gravity, LightingOn */
+     , (8192, 111,         17) /* PortalBitmask - Unrestricted, NoSummon */
      , (8192, 133,          4) /* ShowableOnRadar - ShowAlways */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)

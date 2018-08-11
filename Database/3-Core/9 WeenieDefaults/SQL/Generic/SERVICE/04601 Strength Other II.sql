@@ -8,7 +8,7 @@ VALUES (4601,   1,    1048576) /* ItemType - Service */
      , (4601,   9,          0) /* ValidLocations - None */
      , (4601,  16,          1) /* ItemUseable - No */
      , (4601,  19,        200) /* Value */
-     , (4601,  93,       1044) /* PhysicsState */;
+     , (4601,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (4601,  22, False) /* Inscribable */

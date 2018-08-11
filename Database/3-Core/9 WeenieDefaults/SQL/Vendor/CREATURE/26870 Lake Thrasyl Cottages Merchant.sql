@@ -10,10 +10,10 @@ VALUES (26870,   1,         16) /* ItemType - Creature */
      , (26870,  16,         32) /* ItemUseable - Remote */
      , (26870,  25,         10) /* Level */
      , (26870,  27,          0) /* ArmorType */
-     , (26870,  74,     264192) /* MerchandiseItemTypes */
+     , (26870,  74,     264192) /* MerchandiseItemTypes - Gem, PromissoryNote */
      , (26870,  75,          0) /* MerchandiseMinValue */
      , (26870,  76,    1000000) /* MerchandiseMaxValue */
-     , (26870,  93,    2098204) /* PhysicsState */
+     , (26870,  93,    2098204) /* PhysicsState - Ethereal, ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */
      , (26870, 126,        125) /* VendorHappyMean */
      , (26870, 127,        125) /* VendorHappyVariance */
      , (26870, 133,          4) /* ShowableOnRadar - ShowAlways */
@@ -97,4 +97,4 @@ VALUES (26870,  0,  4,  0,    0,    0,    0,    0,    0,    0,    0,    0,    0,
      , (26870,  8,  4,  2, 0.75,    0,    0,    0,    0,    0,    0,    0,    0,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (26870, 4, 26235, -1, 0, 0, False) /* Create Lake Thrasyl Cottages Portal Gem for Shop */;
+VALUES (26870, 4, 26235, -1, 0, 0, False) /* Create Lake Thrasyl Cottages Portal Gem (26235) for Shop */;

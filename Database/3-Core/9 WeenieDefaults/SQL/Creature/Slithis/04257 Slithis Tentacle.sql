@@ -12,7 +12,7 @@ VALUES (4257,   1,         16) /* ItemType - Creature */
      , (4257,  27,          0) /* ArmorType */
      , (4257,  40,          2) /* CombatMode - Melee */
      , (4257,  68,         13) /* TargetingTactic */
-     , (4257,  93,       1032) /* PhysicsState */
+     , (4257,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (4257, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (4257, 146,       1662) /* XpOverride */;
 
@@ -71,7 +71,7 @@ VALUES (4257,   1,   33555670) /* Setup */
      , (4257,   7,  268436087) /* ClothingBase */
      , (4257,   8,  100671186) /* Icon */
      , (4257,  22,  872415332) /* PhysicsEffectTable */
-     , (4257,  35,        465) /* DeathTreasureType */;
+     , (4257,  35,        465) /* DeathTreasureType - Loot Tier: 1 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (4257,   1, 140, 0, 0) /* Strength */
@@ -116,4 +116,4 @@ VALUES (4257,  94) /* ATTACK_NOTIFICATION_EVENT */
      , (4257, 414) /* PLAYER_DEATH_EVENT */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (4257, 2,  8619, 10, 0, 0, False) /* Create Slithis Splinter for Wield */;
+VALUES (4257, 2,  8619, 10, 0, 0, False) /* Create Slithis Splinter (8619) for Wield */;

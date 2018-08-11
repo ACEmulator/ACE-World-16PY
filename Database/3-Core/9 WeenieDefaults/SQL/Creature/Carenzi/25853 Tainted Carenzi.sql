@@ -13,7 +13,7 @@ VALUES (25853,   1,         16) /* ItemType - Creature */
      , (25853,  40,          2) /* CombatMode - Melee */
      , (25853,  68,          5) /* TargetingTactic */
      , (25853,  72,         55) /* FriendType - Carenzi */
-     , (25853,  93,       1032) /* PhysicsState */
+     , (25853,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (25853, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (25853, 146,     266409) /* XpOverride */;
 
@@ -68,7 +68,7 @@ VALUES (25853,   1,   33558553) /* Setup */
      , (25853,   7,  268436732) /* ClothingBase */
      , (25853,   8,  100671754) /* Icon */
      , (25853,  22,  872415377) /* PhysicsEffectTable */
-     , (25853,  35,        455) /* DeathTreasureType */;
+     , (25853,  35,        455) /* DeathTreasureType - Loot Tier: 6 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (25853,   1, 500, 0, 0) /* Strength */
@@ -119,7 +119,7 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 268435537 /* Twitch1 */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (25853, 9,     0,  0, 0, 0.995, False) /* Create Unknown for ContainTreasure */
-     , (25853, 9,     0,  0, 0, 0.99, False) /* Create Unknown for ContainTreasure */
-     , (25853, 9, 25897,  0, 0, 0.005, False) /* Create Carenzi Fangs for ContainTreasure */
-     , (25853, 9, 30823,  0, 0, 0.01, False) /* Create Broken Black Marrow Key for ContainTreasure */;
+VALUES (25853, 9,     0,  0, 0, 0.995, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 6 for ContainTreasure */
+     , (25853, 9,     0,  0, 0, 0.99, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 6 for ContainTreasure */
+     , (25853, 9, 25897,  0, 0, 0.005, False) /* Create Carenzi Fangs (25897) for ContainTreasure */
+     , (25853, 9, 30823,  0, 0, 0.01, False) /* Create Broken Black Marrow Key (30823) for ContainTreasure */;

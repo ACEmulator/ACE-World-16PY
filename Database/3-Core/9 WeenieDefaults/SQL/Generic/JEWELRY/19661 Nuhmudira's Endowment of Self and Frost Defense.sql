@@ -11,7 +11,7 @@ VALUES (19661,   1,          8) /* ItemType - Jewelry */
      , (19661,  18,        128) /* UiEffects - Frost */
      , (19661,  19,       5000) /* Value */
      , (19661,  33,          1) /* Bonded - Bonded */
-     , (19661,  93,       1044) /* PhysicsState */
+     , (19661,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (19661, 106,        225) /* ItemSpellcraft */
      , (19661, 107,        500) /* ItemCurMana */
      , (19661, 108,        500) /* ItemMaxMana */

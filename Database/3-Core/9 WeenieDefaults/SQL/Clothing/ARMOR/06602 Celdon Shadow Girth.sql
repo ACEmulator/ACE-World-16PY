@@ -13,7 +13,7 @@ VALUES (6602,   1,          2) /* ItemType - Armor */
      , (6602,  27,         32) /* ArmorType */
      , (6602,  28,        150) /* ArmorLevel */
      , (6602,  33,          1) /* Bonded - Bonded */
-     , (6602,  93,       1044) /* PhysicsState */;
+     , (6602,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (6602,  22, True ) /* Inscribable */

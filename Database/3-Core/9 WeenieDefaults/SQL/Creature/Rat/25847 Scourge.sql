@@ -14,7 +14,7 @@ VALUES (25847,   1,         16) /* ItemType - Creature */
      , (25847,  68,          3) /* TargetingTactic */
      , (25847,  81,          5) /* MaxGeneratedObjects */
      , (25847,  82,          5) /* InitGeneratedObjects */
-     , (25847,  93,       1032) /* PhysicsState */
+     , (25847,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (25847, 103,          1) /* GeneratorDestructionType - Nothing */
      , (25847, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (25847, 146,     725423) /* XpOverride */;
@@ -74,7 +74,7 @@ VALUES (25847,   1,   33554493) /* Setup */
      , (25847,   8,  100667451) /* Icon */
      , (25847,  22,  872415267) /* PhysicsEffectTable */
      , (25847,  30,         83) /* PhysicsScript - PortalExit */
-     , (25847,  35,         32) /* DeathTreasureType */;
+     , (25847,  35,         32) /* DeathTreasureType - Loot Tier: 6 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (25847,   1, 340, 0, 0) /* Strength */
@@ -146,12 +146,12 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 268435538 /* Twitch2 */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (25847, 9,     0,  0, 0, 0, False) /* Create Unknown for ContainTreasure */
-     , (25847, 9,     0,  0, 0, 0.9, False) /* Create Unknown for ContainTreasure */
-     , (25847, 9, 25900,  0, 0, 1, False) /* Create Scourge's Hide for ContainTreasure */
-     , (25847, 9, 30823,  0, 0, 0.1, False) /* Create Broken Black Marrow Key for ContainTreasure */;
+VALUES (25847, 9,     0,  0, 0, 0, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 6 for ContainTreasure */
+     , (25847, 9,     0,  0, 0, 0.9, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 6 for ContainTreasure */
+     , (25847, 9, 25900,  0, 0, 1, False) /* Create Scourge's Hide (25900) for ContainTreasure */
+     , (25847, 9, 30823,  0, 0, 0.1, False) /* Create Broken Black Marrow Key (30823) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (25847, -1, 25877, 20, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0)
-     , (25847, -1, 25879, 20, 2, 2, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0)
-     , (25847, -1, 25878, 20, 2, 2, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0);
+VALUES (25847, -1, 25877, 20, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Contagion Rat (25877) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Scatter */
+     , (25847, -1, 25879, 20, 2, 2, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Pestilence Rat (25879) (x2 up to max of 2) - Regenerate upon Destruction - Location to (re)Generate: Scatter */
+     , (25847, -1, 25878, 20, 2, 2, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Infested Rat (25878) (x2 up to max of 2) - Regenerate upon Destruction - Location to (re)Generate: Scatter */;

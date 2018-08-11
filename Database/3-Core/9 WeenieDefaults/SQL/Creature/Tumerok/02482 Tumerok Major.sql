@@ -11,8 +11,8 @@ VALUES (2482,   1,         16) /* ItemType - Creature */
      , (2482,  25,         79) /* Level */
      , (2482,  27,          0) /* ArmorType */
      , (2482,  68,          5) /* TargetingTactic */
-     , (2482,  93,       1032) /* PhysicsState */
-     , (2482, 101,        183) /* AiAllowedCombatStyle */
+     , (2482,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
+     , (2482, 101,        183) /* AiAllowedCombatStyle - Unarmed, OneHanded, OneHandedAndShield, Bow, Crossbow, ThrownWeapon */
      , (2482, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (2482, 140,          1) /* AiOptions */
      , (2482, 146,      18069) /* XpOverride */;
@@ -71,8 +71,18 @@ VALUES (2482,   1,   33554496) /* Setup */
      , (2482,   7,  268435647) /* ClothingBase */
      , (2482,   8,  100667452) /* Icon */
      , (2482,  22,  872415270) /* PhysicsEffectTable */
-     , (2482,  32,        195) /* WieldedTreasureType */
-     , (2482,  35,        201) /* DeathTreasureType */;
+     , (2482,  32,        195) /* WieldedTreasureType - 
+                                   Wield Yumi (23735) | Probability: 20%
+                                   Wield 20x Arrow (300) | Probability: 100%
+                                   Wield Heavy Crossbow (23666) | Probability: 40%
+                                   Wield 20x Quarrel (305) | Probability: 100%
+                                   Wield Katar (23675) | Probability: 14%
+                                   Wield Cestus (23638) | Probability: 7%
+                                   Wield Nekode (23681) | Probability: 6%
+                                   Wield Tachi (23701) | Probability: 6%
+                                   Wield Spear (23697) | Probability: 6%
+                                   Wield Kite Shield (23685) | Probability: 75% */
+     , (2482,  35,        201) /* DeathTreasureType - Loot Tier: 4 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (2482,   1, 200, 0, 0) /* Strength */
@@ -147,12 +157,12 @@ VALUES (2482,  94) /* ATTACK_NOTIFICATION_EVENT */
      , (2482, 414) /* PLAYER_DEATH_EVENT */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (2482, 9,     0,  0, 0, 0.8, False) /* Create Unknown for ContainTreasure */
-     , (2482, 9,     0,  0, 0, 0.99, False) /* Create Unknown for ContainTreasure */
-     , (2482, 9,     0,  0, 0, 0.97, False) /* Create Unknown for ContainTreasure */
-     , (2482, 9,     0,  0, 0, 0.97, False) /* Create Unknown for ContainTreasure */
-     , (2482, 1,  2202,  0, 0, 1, False) /* Create Tumerok Major's Key for Contain */
-     , (2482, 9,  3695,  0, 0, 0.2, False) /* Create Gold Tumerok Insignia for ContainTreasure */
-     , (2482, 9,  6876,  0, 0, 0.01, False) /* Create Sturdy Iron Key for ContainTreasure */
-     , (2482, 9,  7825,  0, 0, 0.03, False) /* Create Brown Beans for ContainTreasure */
-     , (2482, 9, 20855,  0, 0, 0.03, False) /* Create Alchemy Stamp for ContainTreasure */;
+VALUES (2482, 9,     0,  0, 0, 0.8, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 4 for ContainTreasure */
+     , (2482, 9,     0,  0, 0, 0.99, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 4 for ContainTreasure */
+     , (2482, 9,     0,  0, 0, 0.97, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 4 for ContainTreasure */
+     , (2482, 9,     0,  0, 0, 0.97, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 4 for ContainTreasure */
+     , (2482, 1,  2202,  0, 0, 1, False) /* Create Tumerok Major's Key (2202) for Contain */
+     , (2482, 9,  3695,  0, 0, 0.2, False) /* Create Gold Tumerok Insignia (3695) for ContainTreasure */
+     , (2482, 9,  6876,  0, 0, 0.01, False) /* Create Sturdy Iron Key (6876) for ContainTreasure */
+     , (2482, 9,  7825,  0, 0, 0.03, False) /* Create Brown Beans (7825) for ContainTreasure */
+     , (2482, 9, 20855,  0, 0, 0.03, False) /* Create Alchemy Stamp (20855) for ContainTreasure */;

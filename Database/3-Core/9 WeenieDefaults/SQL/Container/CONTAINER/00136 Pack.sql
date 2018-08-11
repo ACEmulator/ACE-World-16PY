@@ -11,7 +11,7 @@ VALUES (136,   1,        512) /* ItemType - Container */
      , (136,   9,          0) /* ValidLocations - None */
      , (136,  16,         56) /* ItemUseable - ContainedViewedRemote */
      , (136,  19,         65) /* Value */
-     , (136,  93,       1044) /* PhysicsState */
+     , (136,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (136,  96,       2000) /* EncumbranceCapacity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)

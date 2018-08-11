@@ -11,8 +11,8 @@ VALUES (11885,   1,         16) /* ItemType - Creature */
      , (11885,  25,         53) /* Level */
      , (11885,  27,          0) /* ArmorType */
      , (11885,  68,          5) /* TargetingTactic */
-     , (11885,  93,       1032) /* PhysicsState */
-     , (11885, 101,        183) /* AiAllowedCombatStyle */
+     , (11885,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
+     , (11885, 101,        183) /* AiAllowedCombatStyle - Unarmed, OneHanded, OneHandedAndShield, Bow, Crossbow, ThrownWeapon */
      , (11885, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (11885, 140,          1) /* AiOptions */
      , (11885, 146,       8793) /* XpOverride */;
@@ -71,8 +71,10 @@ VALUES (11885,   1,   33554496) /* Setup */
      , (11885,   7,  268435647) /* ClothingBase */
      , (11885,   8,  100667452) /* Icon */
      , (11885,  22,  872415270) /* PhysicsEffectTable */
-     , (11885,  32,        366) /* WieldedTreasureType */
-     , (11885,  35,        451) /* DeathTreasureType */;
+     , (11885,  32,        366) /* WieldedTreasureType - 
+                                   Wield Hafted Falcon Spear (11751) | Probability: 80%
+                                   Wield Reinforced Falcon Spear (11777) | Probability: 20% */
+     , (11885,  35,        451) /* DeathTreasureType - Loot Tier: 2 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (11885,   1, 170, 0, 0) /* Strength */
@@ -144,5 +146,5 @@ VALUES (11885,  94) /* ATTACK_NOTIFICATION_EVENT */
      , (11885, 414) /* PLAYER_DEATH_EVENT */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (11885, 9,     0,  0, 0, 0.95, False) /* Create Unknown for ContainTreasure */
-     , (11885, 9, 11812,  0, 0, 0.05, False) /* Create Falcon Crest for ContainTreasure */;
+VALUES (11885, 9,     0,  0, 0, 0.95, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 2 for ContainTreasure */
+     , (11885, 9, 11812,  0, 0, 0.05, False) /* Create Falcon Crest (11812) for ContainTreasure */;

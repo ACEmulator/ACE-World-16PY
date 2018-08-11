@@ -10,10 +10,10 @@ VALUES (26862,   1,         16) /* ItemType - Creature */
      , (26862,  16,         32) /* ItemUseable - Remote */
      , (26862,  25,         10) /* Level */
      , (26862,  27,          0) /* ArmorType */
-     , (26862,  74,     264192) /* MerchandiseItemTypes */
+     , (26862,  74,     264192) /* MerchandiseItemTypes - Gem, PromissoryNote */
      , (26862,  75,          0) /* MerchandiseMinValue */
      , (26862,  76,    1000000) /* MerchandiseMaxValue */
-     , (26862,  93,    2098204) /* PhysicsState */
+     , (26862,  93,    2098204) /* PhysicsState - Ethereal, ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */
      , (26862, 126,        125) /* VendorHappyMean */
      , (26862, 127,        125) /* VendorHappyVariance */
      , (26862, 133,          4) /* ShowableOnRadar - ShowAlways */
@@ -97,4 +97,4 @@ VALUES (26862,  0,  4,  0,    0,    0,    0,    0,    0,    0,    0,    0,    0,
      , (26862,  8,  4,  2, 0.75,    0,    0,    0,    0,    0,    0,    0,    0,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (26862, 4, 26227, -1, 0, 0, False) /* Create Kanasa Portal Gem for Shop */;
+VALUES (26862, 4, 26227, -1, 0, 0, False) /* Create Kanasa Portal Gem (26227) for Shop */;

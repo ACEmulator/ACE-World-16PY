@@ -13,7 +13,7 @@ VALUES (404,   1,         16) /* ItemType - Creature */
      , (404,  74,    4481568) /* MerchandiseItemTypes - VendorGrocer */
      , (404,  75,          0) /* MerchandiseMinValue */
      , (404,  76,     100000) /* MerchandiseMaxValue */
-     , (404,  93,    2098200) /* PhysicsState */
+     , (404,  93,    2098200) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */
      , (404, 126,        250) /* VendorHappyMean */
      , (404, 127,        250) /* VendorHappyVariance */
      , (404, 133,          4) /* ShowableOnRadar - ShowAlways */
@@ -162,20 +162,20 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 318767235 /* Nod */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (404, 2,   115,  0, 4, 0.8, False) /* Create Leather Boots for Wield */
-     , (404, 2,   127,  0, 8, 0.8, False) /* Create Pants for Wield */
-     , (404, 2,   130,  0, 4, 0.2, False) /* Create Shirt for Wield */
-     , (404, 4,   166, -1, 21, 1, False) /* Create Sack for Shop */
-     , (404, 4,   166, -1, 14, 1, False) /* Create Sack for Shop */
-     , (404, 4,   166, -1, 17, 1, False) /* Create Sack for Shop */
-     , (404, 4,   166, -1, 8, 1, False) /* Create Sack for Shop */
-     , (404, 4,   166, -1, 2, 1, False) /* Create Sack for Shop */
-     , (404, 4,   166, -1, 39, 1, False) /* Create Sack for Shop */
-     , (404, 4,   166, -1, 13, 1, False) /* Create Sack for Shop */
-     , (404, 4,   166, -1, 9, 1, False) /* Create Sack for Shop */
-     , (404, 4,   166, -1, 61, 1, False) /* Create Sack for Shop */
-     , (404, 4,   166, -1, 77, 1, False) /* Create Sack for Shop */
-     , (404, 4,   258, -1, 0, 0, False) /* Create Apple for Shop */
-     , (404, 4,   259, -1, 0, 0, False) /* Create Bread for Shop */
-     , (404, 4,   261, -1, 0, 0, False) /* Create Cheese for Shop */
-     , (404, 2, 10696,  0, 9, 0.5, False) /* Create Apron for Wield */;
+VALUES (404, 2,   115,  0, 4, 0.8, False) /* Create Leather Boots (115) for Wield */
+     , (404, 2,   127,  0, 8, 0.8, False) /* Create Pants (127) for Wield */
+     , (404, 2,   130,  0, 4, 0.2, False) /* Create Shirt (130) for Wield */
+     , (404, 4,   166, -1, 21, 1, False) /* Create Sack (166) for Shop */
+     , (404, 4,   166, -1, 14, 1, False) /* Create Sack (166) for Shop */
+     , (404, 4,   166, -1, 17, 1, False) /* Create Sack (166) for Shop */
+     , (404, 4,   166, -1, 8, 1, False) /* Create Sack (166) for Shop */
+     , (404, 4,   166, -1, 2, 1, False) /* Create Sack (166) for Shop */
+     , (404, 4,   166, -1, 39, 1, False) /* Create Sack (166) for Shop */
+     , (404, 4,   166, -1, 13, 1, False) /* Create Sack (166) for Shop */
+     , (404, 4,   166, -1, 9, 1, False) /* Create Sack (166) for Shop */
+     , (404, 4,   166, -1, 61, 1, False) /* Create Sack (166) for Shop */
+     , (404, 4,   166, -1, 77, 1, False) /* Create Sack (166) for Shop */
+     , (404, 4,   258, -1, 0, 0, False) /* Create Apple (258) for Shop */
+     , (404, 4,   259, -1, 0, 0, False) /* Create Bread (259) for Shop */
+     , (404, 4,   261, -1, 0, 0, False) /* Create Cheese (261) for Shop */
+     , (404, 2, 10696,  0, 9, 0.5, False) /* Create Apron (10696) for Wield */;

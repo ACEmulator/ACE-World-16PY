@@ -12,13 +12,13 @@ VALUES (10888,   1,          1) /* ItemType - MeleeWeapon */
      , (10888,  19,          0) /* Value */
      , (10888,  33,         -2) /* Bonded - Destroy */
      , (10888,  44,          7) /* Damage */
-     , (10888,  45,          3) /* DamageType */
+     , (10888,  45,          3) /* DamageType - Slash, Pierce */
      , (10888,  46,          1) /* DefaultCombatStyle - Unarmed */
      , (10888,  47,          1) /* AttackType - Punch */
      , (10888,  48,         13) /* WeaponSkill - UnarmedCombat */
      , (10888,  49,         20) /* WeaponTime */
      , (10888,  51,          1) /* CombatUse - Melee */
-     , (10888,  93,       1044) /* PhysicsState */
+     , (10888,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (10888, 106,        150) /* ItemSpellcraft */
      , (10888, 107,        700) /* ItemCurMana */
      , (10888, 108,        700) /* ItemMaxMana */

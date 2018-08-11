@@ -4,7 +4,7 @@ VALUES ('22118', 'slumlordhauntedmansion', 1) /* Generic */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (22118,   1,        128) /* ItemType - Misc */
      , (22118,  16,          1) /* ItemUseable - No */
-     , (22118,  93,       1048) /* PhysicsState */;
+     , (22118,  93,       1048) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (22118,   1, True ) /* Stuck */

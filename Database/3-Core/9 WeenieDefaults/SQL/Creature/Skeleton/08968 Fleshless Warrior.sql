@@ -12,8 +12,8 @@ VALUES (8968,   1,         16) /* ItemType - Creature */
      , (8968,  27,          0) /* ArmorType */
      , (8968,  40,          1) /* CombatMode - NonCombat */
      , (8968,  68,          5) /* TargetingTactic */
-     , (8968,  93,       1032) /* PhysicsState */
-     , (8968, 101,        183) /* AiAllowedCombatStyle */
+     , (8968,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
+     , (8968, 101,        183) /* AiAllowedCombatStyle - Unarmed, OneHanded, OneHandedAndShield, Bow, Crossbow, ThrownWeapon */
      , (8968, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (8968, 140,          1) /* AiOptions */
      , (8968, 146,      17687) /* XpOverride */;
@@ -72,8 +72,13 @@ VALUES (8968,   1,   33555464) /* Setup */
      , (8968,   7,  268435646) /* ClothingBase */
      , (8968,   8,  100669124) /* Icon */
      , (8968,  22,  872415269) /* PhysicsEffectTable */
-     , (8968,  32,        286) /* WieldedTreasureType */
-     , (8968,  35,        450) /* DeathTreasureType */;
+     , (8968,  32,        286) /* WieldedTreasureType - 
+                                   Wield Yumi (23736) | Probability: 50%
+                                   Wield 16x Greater Acid Arrow (5306) | Probability: 100%
+                                   Wield Kite Shield (23686) | Probability: 50%
+                                   Wield Acid Spear (23690) | Probability: 25%
+                                   Wield Acid Yari (23724) | Probability: 25% */
+     , (8968,  35,        450) /* DeathTreasureType - Loot Tier: 3 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (8968,   1, 220, 0, 0) /* Strength */
@@ -133,7 +138,7 @@ VALUES (8968,  94) /* ATTACK_NOTIFICATION_EVENT */
      , (8968, 414) /* PLAYER_DEATH_EVENT */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (8968, 9,     0,  0, 0, 0.9, False) /* Create Unknown for ContainTreasure */
-     , (8968, 9,     0,  0, 0, 0.98, False) /* Create Unknown for ContainTreasure */
-     , (8968, 9,  3687,  0, 0, 0.1, False) /* Create Skeleton's Skull for ContainTreasure */
-     , (8968, 9,  6876,  0, 0, 0.02, False) /* Create Sturdy Iron Key for ContainTreasure */;
+VALUES (8968, 9,     0,  0, 0, 0.9, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 3 for ContainTreasure */
+     , (8968, 9,     0,  0, 0, 0.98, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 3 for ContainTreasure */
+     , (8968, 9,  3687,  0, 0, 0.1, False) /* Create Skeleton's Skull (3687) for ContainTreasure */
+     , (8968, 9,  6876,  0, 0, 0.02, False) /* Create Sturdy Iron Key (6876) for ContainTreasure */;

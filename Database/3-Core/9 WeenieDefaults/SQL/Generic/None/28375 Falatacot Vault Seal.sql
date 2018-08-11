@@ -2,7 +2,7 @@ INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
 VALUES ('28375', 'templekiviklircap', 1) /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (28375,  93,       1032) /* PhysicsState */;
+VALUES (28375,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (28375,   1, True ) /* Stuck */

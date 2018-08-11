@@ -14,7 +14,7 @@ VALUES (24307,   1,         16) /* ItemType - Creature */
      , (24307,  40,          2) /* CombatMode - Melee */
      , (24307,  68,         13) /* TargetingTactic */
      , (24307,  72,         35) /* FriendType - OlthoiLarvae */
-     , (24307,  93,       1032) /* PhysicsState */
+     , (24307,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (24307, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (24307, 140,          1) /* AiOptions */
      , (24307, 146,      43794) /* XpOverride */;
@@ -72,7 +72,7 @@ VALUES (24307,   1,   33557161) /* Setup */
      , (24307,   8,  100667623) /* Icon */
      , (24307,  22,  872415265) /* PhysicsEffectTable */
      , (24307,  30,         85) /* PhysicsScript - BreatheFrost */
-     , (24307,  35,        452) /* DeathTreasureType */;
+     , (24307,  35,        452) /* DeathTreasureType - Loot Tier: 5 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (24307,   1, 380, 0, 0) /* Strength */
@@ -125,9 +125,9 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 268435537 /* Twitch1 */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (24307, 9,     0,  0, 0, 0.96, False) /* Create Unknown for ContainTreasure */
-     , (24307, 9,     0,  0, 0, 0.97, False) /* Create Unknown for ContainTreasure */
-     , (24307, 9,     0,  0, 0, 0.92, False) /* Create Unknown for ContainTreasure */
-     , (24307, 9,  6876,  0, 0, 0.04, False) /* Create Sturdy Iron Key for ContainTreasure */
-     , (24307, 9, 20862,  0, 0, 0.03, False) /* Create Olthoi Stamp for ContainTreasure */
-     , (24307, 9, 24236,  0, 0, 0.08, False) /* Create Olthoi Long Claw for ContainTreasure */;
+VALUES (24307, 9,     0,  0, 0, 0.96, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 5 for ContainTreasure */
+     , (24307, 9,     0,  0, 0, 0.97, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 5 for ContainTreasure */
+     , (24307, 9,     0,  0, 0, 0.92, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 5 for ContainTreasure */
+     , (24307, 9,  6876,  0, 0, 0.04, False) /* Create Sturdy Iron Key (6876) for ContainTreasure */
+     , (24307, 9, 20862,  0, 0, 0.03, False) /* Create Olthoi Stamp (20862) for ContainTreasure */
+     , (24307, 9, 24236,  0, 0, 0.08, False) /* Create Olthoi Long Claw (24236) for ContainTreasure */;

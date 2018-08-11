@@ -13,8 +13,8 @@ VALUES (27424,   1,         16) /* ItemType - Creature */
      , (27424,  40,          1) /* CombatMode - NonCombat */
      , (27424,  68,          5) /* TargetingTactic */
      , (27424,  72,         14) /* FriendType - Undead */
-     , (27424,  93,       1032) /* PhysicsState */
-     , (27424, 101,        183) /* AiAllowedCombatStyle */
+     , (27424,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
+     , (27424, 101,        183) /* AiAllowedCombatStyle - Unarmed, OneHanded, OneHandedAndShield, Bow, Crossbow, ThrownWeapon */
      , (27424, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (27424, 140,          1) /* AiOptions */
      , (27424, 146,      41921) /* XpOverride */;
@@ -70,7 +70,7 @@ VALUES (27424,   1,   33554433) /* Setup */
      , (27424,   7,  268435645) /* ClothingBase */
      , (27424,   8,  100669122) /* Icon */
      , (27424,  22,  872415272) /* PhysicsEffectTable */
-     , (27424,  35,        464) /* DeathTreasureType */;
+     , (27424,  35,        464) /* DeathTreasureType - Loot Tier: 5 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (27424,   1, 240, 0, 0) /* Strength */
@@ -152,5 +152,5 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 268435537 /* Twitch1 */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (27424, 9,     0,  0, 0, 0.98, False) /* Create Unknown for ContainTreasure */
-     , (27424, 9,  6876,  0, 0, 0.02, False) /* Create Sturdy Iron Key for ContainTreasure */;
+VALUES (27424, 9,     0,  0, 0, 0.98, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 5 for ContainTreasure */
+     , (27424, 9,  6876,  0, 0, 0.02, False) /* Create Sturdy Iron Key (6876) for ContainTreasure */;

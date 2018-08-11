@@ -10,7 +10,7 @@ VALUES (25826,   1,         16) /* ItemType - Creature */
      , (25826,  16,         32) /* ItemUseable - Remote */
      , (25826,  25,        101) /* Level */
      , (25826,  27,          0) /* ArmorType */
-     , (25826,  93,    6292504) /* PhysicsState */
+     , (25826,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (25826,  95,          8) /* RadarBlipColor - Yellow */
      , (25826, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (25826, 134,         16) /* PlayerKillerStatus - RubberGlue */
@@ -296,6 +296,6 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,  10 /* Tell */, 0, 1, NULL, 'You must now find the grace of the Unicorn and the splendor of the Firebird.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (25826, 2,   115,  0, 4, 0.8, False) /* Create Leather Boots for Wield */
-     , (25826, 2,   130,  0, 2, 0.67, False) /* Create Shirt for Wield */
-     , (25826, 2,  2604,  0, 9, 0, False) /* Create Breeches for Wield */;
+VALUES (25826, 2,   115,  0, 4, 0.8, False) /* Create Leather Boots (115) for Wield */
+     , (25826, 2,   130,  0, 2, 0.67, False) /* Create Shirt (130) for Wield */
+     , (25826, 2,  2604,  0, 9, 0, False) /* Create Breeches (2604) for Wield */;

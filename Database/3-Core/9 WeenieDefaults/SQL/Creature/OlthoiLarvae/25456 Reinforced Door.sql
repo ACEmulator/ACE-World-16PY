@@ -12,8 +12,8 @@ VALUES (25456,   1,         16) /* ItemType - Creature */
      , (25456,  40,          1) /* CombatMode - NonCombat */
      , (25456,  67,          1) /* Tolerance */
      , (25456,  68,          5) /* TargetingTactic */
-     , (25456,  93,       1032) /* PhysicsState */
-     , (25456, 101,        131) /* AiAllowedCombatStyle */
+     , (25456,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
+     , (25456, 101,        131) /* AiAllowedCombatStyle - Unarmed, OneHanded, ThrownWeapon */
      , (25456, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (25456, 146,          0) /* XpOverride */;
 

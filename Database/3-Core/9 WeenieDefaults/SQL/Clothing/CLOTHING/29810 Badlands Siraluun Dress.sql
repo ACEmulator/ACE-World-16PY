@@ -4,7 +4,7 @@ VALUES ('29810', 'dresssiraluunbadlands', 2) /* Clothing */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (29810,   1,          4) /* ItemType - Clothing */
      , (29810,   3,         16) /* PaletteTemplate - Rose */
-     , (29810,   4,      81664) /* ClothingPriority */
+     , (29810,   4,      81664) /* ClothingPriority - OuterwearUpperLegs, OuterwearLowerLegs, OuterwearChest, OuterwearAbdomen, OuterwearUpperArms, OuterwearLowerArms, Feet */
      , (29810,   5,       1000) /* EncumbranceVal */
      , (29810,   8,        150) /* Mass */
      , (29810,   9,      32512) /* ValidLocations - Armor */
@@ -13,7 +13,7 @@ VALUES (29810,   1,          4) /* ItemType - Clothing */
      , (29810,  19,       8500) /* Value */
      , (29810,  27,          1) /* ArmorType */
      , (29810,  28,        200) /* ArmorLevel */
-     , (29810,  93,       1044) /* PhysicsState */
+     , (29810,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (29810, 107,        800) /* ItemCurMana */
      , (29810, 108,        800) /* ItemMaxMana */
      , (29810, 109,        190) /* ItemDifficulty */

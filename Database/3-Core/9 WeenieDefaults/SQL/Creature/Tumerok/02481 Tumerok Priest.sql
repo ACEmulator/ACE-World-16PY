@@ -11,8 +11,8 @@ VALUES (2481,   1,         16) /* ItemType - Creature */
      , (2481,  25,         70) /* Level */
      , (2481,  27,          0) /* ArmorType */
      , (2481,  68,          5) /* TargetingTactic */
-     , (2481,  93,       1032) /* PhysicsState */
-     , (2481, 101,        183) /* AiAllowedCombatStyle */
+     , (2481,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
+     , (2481, 101,        183) /* AiAllowedCombatStyle - Unarmed, OneHanded, OneHandedAndShield, Bow, Crossbow, ThrownWeapon */
      , (2481, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (2481, 140,          1) /* AiOptions */
      , (2481, 146,      13833) /* XpOverride */;
@@ -71,8 +71,12 @@ VALUES (2481,   1,   33554496) /* Setup */
      , (2481,   7,  268435647) /* ClothingBase */
      , (2481,   8,  100667452) /* Icon */
      , (2481,  22,  872415270) /* PhysicsEffectTable */
-     , (2481,  32,        222) /* WieldedTreasureType */
-     , (2481,  35,        221) /* DeathTreasureType */;
+     , (2481,  32,        222) /* WieldedTreasureType - 
+                                   Wield Yumi (23736) | Probability: 50%
+                                   Wield 20x Greater Arrow (5304) | Probability: 100%
+                                   Wield Heavy Crossbow (23667) | Probability: 50%
+                                   Wield 16x Greater Quarrel (5313) | Probability: 100% */
+     , (2481,  35,        221) /* DeathTreasureType - Loot Tier: 4 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (2481,   1,  80, 0, 0) /* Strength */
@@ -154,8 +158,8 @@ VALUES (2481,  94) /* ATTACK_NOTIFICATION_EVENT */
      , (2481, 414) /* PLAYER_DEATH_EVENT */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (2481, 9,     0,  0, 0, 0.97, False) /* Create Unknown for ContainTreasure */
-     , (2481, 9,     0,  0, 0, 0.97, False) /* Create Unknown for ContainTreasure */
-     , (2481, 1,  2201,  0, 0, 1, False) /* Create Tumerok Priest's Key for Contain */
-     , (2481, 9,  7825,  0, 0, 0.03, False) /* Create Brown Beans for ContainTreasure */
-     , (2481, 9, 20855,  0, 0, 0.03, False) /* Create Alchemy Stamp for ContainTreasure */;
+VALUES (2481, 9,     0,  0, 0, 0.97, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 4 for ContainTreasure */
+     , (2481, 9,     0,  0, 0, 0.97, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 4 for ContainTreasure */
+     , (2481, 1,  2201,  0, 0, 1, False) /* Create Tumerok Priest's Key (2201) for Contain */
+     , (2481, 9,  7825,  0, 0, 0.03, False) /* Create Brown Beans (7825) for ContainTreasure */
+     , (2481, 9, 20855,  0, 0, 0.03, False) /* Create Alchemy Stamp (20855) for ContainTreasure */;

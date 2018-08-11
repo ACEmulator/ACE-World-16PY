@@ -10,7 +10,7 @@ VALUES (6626,   1,         16) /* ItemType - Creature */
      , (6626,  16,         32) /* ItemUseable - Remote */
      , (6626,  25,         53) /* Level */
      , (6626,  27,          0) /* ArmorType */
-     , (6626,  93,    6292504) /* PhysicsState */
+     , (6626,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (6626,  95,          8) /* RadarBlipColor - Yellow */
      , (6626, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (6626, 134,         16) /* PlayerKillerStatus - RubberGlue */
@@ -623,6 +623,6 @@ VALUES (@parent_id,  0,  10 /* Tell */, 0, 1, NULL, 'Regrettably I have reached 
      , (@parent_id,  5,  10 /* Tell */, 0, 1, NULL, 'If you *insist* on another suit of this quality, give this gem back to me and I''ll see what I can do.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (6626, 2,   115,  0, 4, 0.8, False) /* Create Leather Boots for Wield */
-     , (6626, 2,   130,  0, 2, 0.67, False) /* Create Shirt for Wield */
-     , (6626, 2,  2604,  0, 9, 0, False) /* Create Breeches for Wield */;
+VALUES (6626, 2,   115,  0, 4, 0.8, False) /* Create Leather Boots (115) for Wield */
+     , (6626, 2,   130,  0, 2, 0.67, False) /* Create Shirt (130) for Wield */
+     , (6626, 2,  2604,  0, 9, 0, False) /* Create Breeches (2604) for Wield */;

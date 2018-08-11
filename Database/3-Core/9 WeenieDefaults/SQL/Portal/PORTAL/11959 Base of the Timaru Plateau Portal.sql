@@ -4,8 +4,8 @@ VALUES ('11959', 'portalmarescenttimarudown-xp', 7) /* Portal */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (11959,   1,      65536) /* ItemType - Portal */
      , (11959,  16,         32) /* ItemUseable - Remote */
-     , (11959,  93,       3084) /* PhysicsState */
-     , (11959, 111,         49) /* PortalBitmask */
+     , (11959,  93,       3084) /* PhysicsState - Ethereal, ReportCollisions, Gravity, LightingOn */
+     , (11959, 111,         49) /* PortalBitmask - Unrestricted, NoSummon, NoRecall */
      , (11959, 133,          4) /* ShowableOnRadar - ShowAlways */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)

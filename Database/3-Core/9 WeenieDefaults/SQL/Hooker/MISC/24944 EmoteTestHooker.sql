@@ -7,8 +7,8 @@ VALUES (24944,   1,        128) /* ItemType - Misc */
      , (24944,   8,        100) /* Mass */
      , (24944,  16,         32) /* ItemUseable - Remote */
      , (24944,  19,       9800) /* Value */
-     , (24944,  93,       1044) /* PhysicsState */
-     , (24944, 151,         31) /* HookType */
+     , (24944,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (24944, 151,         31) /* HookType - Floor, Wall, Ceiling, Yard, Roof */
      , (24944, 197,          2) /* HookGroup */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)

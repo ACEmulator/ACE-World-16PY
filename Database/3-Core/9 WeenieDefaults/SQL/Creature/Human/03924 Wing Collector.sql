@@ -10,7 +10,7 @@ VALUES (3924,   1,         16) /* ItemType - Creature */
      , (3924,  16,         32) /* ItemUseable - Remote */
      , (3924,  25,          6) /* Level */
      , (3924,  27,          0) /* ArmorType */
-     , (3924,  93,    6292504) /* PhysicsState */
+     , (3924,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (3924,  95,          8) /* RadarBlipColor - Yellow */
      , (3924, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (3924, 134,         16) /* PlayerKillerStatus - RubberGlue */
@@ -255,6 +255,6 @@ VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 1090519043 /* Ready */, NULL, NU
      , (@parent_id,  3,  10 /* Tell */, 1, 1, NULL, 'I collect only phyntos wasp wings.  If you happen to have any, I''ll pay you for them in pyreals.  If you get me a gold wasp wing, I will reward you with a little extra experience.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (3924, 2,   127,  0, 4, 0.8, False) /* Create Pants for Wield */
-     , (3924, 2,   132,  0, 9, 1, False) /* Create Shoes for Wield */
-     , (3924, 2,  2587,  0, 9, 0, False) /* Create Shirt for Wield */;
+VALUES (3924, 2,   127,  0, 4, 0.8, False) /* Create Pants (127) for Wield */
+     , (3924, 2,   132,  0, 9, 1, False) /* Create Shoes (132) for Wield */
+     , (3924, 2,  2587,  0, 9, 0, False) /* Create Shirt (2587) for Wield */;

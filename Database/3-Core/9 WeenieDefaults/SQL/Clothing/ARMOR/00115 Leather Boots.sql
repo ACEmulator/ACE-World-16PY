@@ -7,14 +7,14 @@ VALUES (115,   1,          2) /* ItemType - Armor */
      , (115,   4,      65536) /* ClothingPriority - Feet */
      , (115,   5,        420) /* EncumbranceVal */
      , (115,   8,        140) /* Mass */
-     , (115,   9,        384) /* ValidLocations */
+     , (115,   9,        384) /* ValidLocations - LowerLegWear, FootWear */
      , (115,  16,          1) /* ItemUseable - No */
      , (115,  19,         70) /* Value */
      , (115,  27,          2) /* ArmorType */
      , (115,  28,         20) /* ArmorLevel */
      , (115,  44,          1) /* Damage */
      , (115,  45,          4) /* DamageType - Bludgeon */
-     , (115,  93,       1044) /* PhysicsState */
+     , (115,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (115, 169,  185271566) /* TsysMutationData */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)

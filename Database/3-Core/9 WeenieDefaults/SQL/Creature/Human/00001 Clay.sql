@@ -11,7 +11,7 @@ VALUES (1,   1,         16) /* ItemType - Creature */
      , (1,  25,          1) /* Level */
      , (1,  27,          0) /* ArmorType */
      , (1,  30,          0) /* AllegianceRank */
-     , (1,  93,    4195336) /* PhysicsState */
+     , (1,  93,    4195336) /* PhysicsState - ReportCollisions, Gravity, EdgeSlide */
      , (1, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (1, 146,         30) /* XpOverride */;
 
@@ -121,8 +121,8 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 318767243 /* ScratchHead */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (1, 1,    44,  0, 0, 0, False) /* Create Buckler for Contain */
-     , (1, 1,   273,  5, 0, 0, False) /* Create Pyreal for Contain */
-     , (1, 1,   300, 30, 0, 0, False) /* Create Arrow for Contain */
-     , (1, 2,   320, 10, 0, 0, False) /* Create Javelin for Wield */
-     , (1, 1,   329,  0, 0, 0, False) /* Create Knife for Contain */;
+VALUES (1, 1,    44,  0, 0, 0, False) /* Create Buckler (44) for Contain */
+     , (1, 1,   273,  5, 0, 0, False) /* Create Pyreal (273) for Contain */
+     , (1, 1,   300, 30, 0, 0, False) /* Create Arrow (300) for Contain */
+     , (1, 2,   320, 10, 0, 0, False) /* Create Javelin (320) for Wield */
+     , (1, 1,   329,  0, 0, 0, False) /* Create Knife (329) for Contain */;

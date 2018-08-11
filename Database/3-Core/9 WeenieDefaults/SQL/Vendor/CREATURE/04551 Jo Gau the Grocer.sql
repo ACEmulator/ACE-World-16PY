@@ -13,7 +13,7 @@ VALUES (4551,   1,         16) /* ItemType - Creature */
      , (4551,  74,    4481568) /* MerchandiseItemTypes - VendorGrocer */
      , (4551,  75,          0) /* MerchandiseMinValue */
      , (4551,  76,      25000) /* MerchandiseMaxValue */
-     , (4551,  93,    2098200) /* PhysicsState */
+     , (4551,  93,    2098200) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */
      , (4551, 126,        125) /* VendorHappyMean */
      , (4551, 127,        125) /* VendorHappyVariance */
      , (4551, 133,          4) /* ShowableOnRadar - ShowAlways */
@@ -163,17 +163,17 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 318767235 /* Nod */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (4551, 2,   127,  0, 16, 1, False) /* Create Pants for Wield */
-     , (4551, 2,   134,  0, 18, 1, False) /* Create Tunic for Wield */
-     , (4551, 4,   260, -1, 0, 0, False) /* Create Cabbage for Shop */
-     , (4551, 4,   546, -1, 0, 0, False) /* Create Egg for Shop */
-     , (4551, 4,  2463, -1, 0, 0, False) /* Create Milk for Shop */
-     , (4551, 2,  2606,  0, 18, 1, False) /* Create Boots for Wield */
-     , (4551, 4,  4746, -1, 0, 0, False) /* Create Water for Shop */
-     , (4551, 4,  4754, -1, 0, 0, False) /* Create Baking Pan for Shop */
-     , (4551, 4,  4759, -1, 0, 0, False) /* Create Cooking Pot for Shop */
-     , (4551, 4,  4763, -1, 0, 0, False) /* Create Honey for Shop */
-     , (4551, 4,  5758, -1, 0, 0, False) /* Create Carrot for Shop */
-     , (4551, 2, 10696,  0, 14, 0.8, False) /* Create Apron for Wield */
-     , (4551, 4, 23326, -1, 0, 0, False) /* Create Elaborate Dried Rations for Shop */
-     , (4551, 4, 23327, -1, 0, 0, False) /* Create Simple Dried Rations for Shop */;
+VALUES (4551, 2,   127,  0, 16, 1, False) /* Create Pants (127) for Wield */
+     , (4551, 2,   134,  0, 18, 1, False) /* Create Tunic (134) for Wield */
+     , (4551, 4,   260, -1, 0, 0, False) /* Create Cabbage (260) for Shop */
+     , (4551, 4,   546, -1, 0, 0, False) /* Create Egg (546) for Shop */
+     , (4551, 4,  2463, -1, 0, 0, False) /* Create Milk (2463) for Shop */
+     , (4551, 2,  2606,  0, 18, 1, False) /* Create Boots (2606) for Wield */
+     , (4551, 4,  4746, -1, 0, 0, False) /* Create Water (4746) for Shop */
+     , (4551, 4,  4754, -1, 0, 0, False) /* Create Baking Pan (4754) for Shop */
+     , (4551, 4,  4759, -1, 0, 0, False) /* Create Cooking Pot (4759) for Shop */
+     , (4551, 4,  4763, -1, 0, 0, False) /* Create Honey (4763) for Shop */
+     , (4551, 4,  5758, -1, 0, 0, False) /* Create Carrot (5758) for Shop */
+     , (4551, 2, 10696,  0, 14, 0.8, False) /* Create Apron (10696) for Wield */
+     , (4551, 4, 23326, -1, 0, 0, False) /* Create Elaborate Dried Rations (23326) for Shop */
+     , (4551, 4, 23327, -1, 0, 0, False) /* Create Simple Dried Rations (23327) for Shop */;

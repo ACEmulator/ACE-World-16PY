@@ -4,15 +4,15 @@ VALUES ('27453', 'hauberklugianrenegade', 2) /* Clothing */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (27453,   1,          2) /* ItemType - Armor */
      , (27453,   3,         14) /* PaletteTemplate - Red */
-     , (27453,   4,      15360) /* ClothingPriority */
+     , (27453,   4,      15360) /* ClothingPriority - OuterwearChest, OuterwearAbdomen, OuterwearUpperArms, OuterwearLowerArms */
      , (27453,   5,       1550) /* EncumbranceVal */
      , (27453,   8,       1100) /* Mass */
-     , (27453,   9,       7680) /* ValidLocations */
+     , (27453,   9,       7680) /* ValidLocations - ChestArmor, AbdomenArmor, UpperArmArmor, LowerArmArmor */
      , (27453,  16,          1) /* ItemUseable - No */
      , (27453,  19,       6000) /* Value */
      , (27453,  27,         32) /* ArmorType */
      , (27453,  28,        380) /* ArmorLevel */
-     , (27453,  93,       1044) /* PhysicsState */
+     , (27453,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (27453, 158,          4) /* WieldRequirements - RawAttrib */
      , (27453, 159,          1) /* WieldSkilltype - Axe */
      , (27453, 160,        200) /* WieldDifficulty */;

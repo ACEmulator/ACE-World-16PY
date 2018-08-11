@@ -11,7 +11,7 @@ VALUES (7105,   1,         16) /* ItemType - Creature */
      , (7105,  25,         85) /* Level */
      , (7105,  40,          2) /* CombatMode - Melee */
      , (7105,  68,         13) /* TargetingTactic */
-     , (7105,  93,       1032) /* PhysicsState */
+     , (7105,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (7105, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (7105, 146,      20527) /* XpOverride */;
 
@@ -69,7 +69,7 @@ VALUES (7105,   1,   33558817) /* Setup */
      , (7105,   7,  268436836) /* ClothingBase */
      , (7105,   8,  100667450) /* Icon */
      , (7105,  22,  872415266) /* PhysicsEffectTable */
-     , (7105,  35,        462) /* DeathTreasureType */;
+     , (7105,  35,        462) /* DeathTreasureType - Loot Tier: 3 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (7105,   1, 155, 0, 0) /* Strength */
@@ -109,7 +109,7 @@ INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
 VALUES (7105, 414) /* PLAYER_DEATH_EVENT */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (7105, 9,     0,  0, 0, 0.92, False) /* Create Unknown for ContainTreasure */
-     , (7105, 9,     0,  0, 0, 0.99, False) /* Create Unknown for ContainTreasure */
-     , (7105, 9,  6876,  0, 0, 0.01, False) /* Create Sturdy Iron Key for ContainTreasure */
-     , (7105, 9,  7603,  0, 0, 0.08, False) /* Create White Phyntos Wasp Wing for ContainTreasure */;
+VALUES (7105, 9,     0,  0, 0, 0.92, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 3 for ContainTreasure */
+     , (7105, 9,     0,  0, 0, 0.99, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 3 for ContainTreasure */
+     , (7105, 9,  6876,  0, 0, 0.01, False) /* Create Sturdy Iron Key (6876) for ContainTreasure */
+     , (7105, 9,  7603,  0, 0, 0.08, False) /* Create White Phyntos Wasp Wing (7603) for ContainTreasure */;

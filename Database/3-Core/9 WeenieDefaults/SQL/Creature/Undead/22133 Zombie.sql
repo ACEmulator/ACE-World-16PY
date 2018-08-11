@@ -12,8 +12,8 @@ VALUES (22133,   1,         16) /* ItemType - Creature */
      , (22133,  27,          0) /* ArmorType */
      , (22133,  40,          1) /* CombatMode - NonCombat */
      , (22133,  68,          3) /* TargetingTactic */
-     , (22133,  93,       1032) /* PhysicsState */
-     , (22133, 101,        183) /* AiAllowedCombatStyle */
+     , (22133,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
+     , (22133, 101,        183) /* AiAllowedCombatStyle - Unarmed, OneHanded, OneHandedAndShield, Bow, Crossbow, ThrownWeapon */
      , (22133, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (22133, 140,          1) /* AiOptions */
      , (22133, 146,       6752) /* XpOverride */;
@@ -72,8 +72,29 @@ VALUES (22133,   1,   33554839) /* Setup */
      , (22133,   7,  268435558) /* ClothingBase */
      , (22133,   8,  100667942) /* Icon */
      , (22133,  22,  872415272) /* PhysicsEffectTable */
-     , (22133,  32,        249) /* WieldedTreasureType */
-     , (22133,  35,        451) /* DeathTreasureType */;
+     , (22133,  32,        249) /* WieldedTreasureType - 
+                                   Wield 4x Throwing Club (23654) | Probability: 10%
+                                   Wield Yumi (23735) | Probability: 10%
+                                   Wield 18x Arrow (300) | Probability: 100%
+                                   Wield Yumi (23735) | Probability: 10%
+                                   Wield 20x Fire Arrow (1437) | Probability: 100%
+                                   Wield Yumi (23735) | Probability: 10%
+                                   Wield 10x Acid Arrow (4181) | Probability: 100%
+                                   Wield Heavy Crossbow (23666) | Probability: 10%
+                                   Wield 12x Quarrel (305) | Probability: 100%
+                                   Wield Heavy Crossbow (23666) | Probability: 10%
+                                   Wield 14x Fire Quarrel (4188) | Probability: 100%
+                                   Wield Heavy Crossbow (23666) | Probability: 10%
+                                   Wield 16x Acid Quarrel (4185) | Probability: 100%
+                                   Wield Katar (23675) | Probability: 15%
+                                   Wield Cestus (23638) | Probability: 15%
+                                   Wield Nekode (23681) | Probability: 15%
+                                   Wield Spear (23697) | Probability: 15%
+                                   Wield Tachi (23701) | Probability: 15%
+                                   Wield Yari (23731) | Probability: 15%
+                                   Wield Kite Shield (23685) | Probability: 50%
+                                   Wield Tower Shield (95) | Probability: 25% */
+     , (22133,  35,        451) /* DeathTreasureType - Loot Tier: 2 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (22133,   1, 150, 0, 0) /* Strength */
@@ -157,8 +178,8 @@ VALUES (22133,  94) /* ATTACK_NOTIFICATION_EVENT */
      , (22133, 414) /* PLAYER_DEATH_EVENT */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (22133, 9,     0,  0, 0, 0.98, False) /* Create Unknown for ContainTreasure */
-     , (22133, 9,     0,  0, 0, 0.95, False) /* Create Unknown for ContainTreasure */
-     , (22133, 9,  7041,  0, 0, 0.02, False) /* Create Undead Thighbone for ContainTreasure */
-     , (22133, 9, 19477,  0, 0, 0.05, False) /* Create Undead Femur bone for ContainTreasure */
-     , (22133, 9, 22093,  0, 0, 1, False) /* Create An Old Chronicle for ContainTreasure */;
+VALUES (22133, 9,     0,  0, 0, 0.98, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 2 for ContainTreasure */
+     , (22133, 9,     0,  0, 0, 0.95, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 2 for ContainTreasure */
+     , (22133, 9,  7041,  0, 0, 0.02, False) /* Create Undead Thighbone (7041) for ContainTreasure */
+     , (22133, 9, 19477,  0, 0, 0.05, False) /* Create Undead Femur bone (19477) for ContainTreasure */
+     , (22133, 9, 22093,  0, 0, 1, False) /* Create An Old Chronicle (22093) for ContainTreasure */;

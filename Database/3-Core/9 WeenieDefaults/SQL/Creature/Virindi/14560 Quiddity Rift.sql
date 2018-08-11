@@ -14,7 +14,7 @@ VALUES (14560,   1,         16) /* ItemType - Creature */
      , (14560,  69,          4) /* CombatTactic */
      , (14560,  81,          3) /* MaxGeneratedObjects */
      , (14560,  82,          3) /* InitGeneratedObjects */
-     , (14560,  93,       3080) /* PhysicsState */
+     , (14560,  93,       3080) /* PhysicsState - ReportCollisions, Gravity, LightingOn */
      , (14560, 103,          1) /* GeneratorDestructionType - Nothing */
      , (14560, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (14560, 146,      47709) /* XpOverride */;
@@ -75,7 +75,7 @@ VALUES (14560,   1,   33557520) /* Setup */
      , (14560,   4,  805306407) /* CombatTable */
      , (14560,   8,  100672522) /* Icon */
      , (14560,  22,  872415375) /* PhysicsEffectTable */
-     , (14560,  35,        460) /* DeathTreasureType */;
+     , (14560,  35,        460) /* DeathTreasureType - Loot Tier: 4 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (14560,   1, 140, 0, 0) /* Strength */
@@ -123,6 +123,6 @@ VALUES (14560,  94) /* ATTACK_NOTIFICATION_EVENT */
      , (14560, 414) /* PLAYER_DEATH_EVENT */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (14560, -1, 14555, 30, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0)
-     , (14560, -1, 14555, 30, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0)
-     , (14560, -1, 14555, 30, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0);
+VALUES (14560, -1, 14555, 30, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Blinding Virindi Energy Cluster (14555) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Scatter */
+     , (14560, -1, 14555, 30, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Blinding Virindi Energy Cluster (14555) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Scatter */
+     , (14560, -1, 14555, 30, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Blinding Virindi Energy Cluster (14555) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Scatter */;

@@ -14,8 +14,8 @@ VALUES (6537,   1,         16) /* ItemType - Creature */
      , (6537,  68,          9) /* TargetingTactic */
      , (6537,  81,          3) /* MaxGeneratedObjects */
      , (6537,  82,          1) /* InitGeneratedObjects */
-     , (6537,  93,       1032) /* PhysicsState */
-     , (6537, 101,        183) /* AiAllowedCombatStyle */
+     , (6537,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
+     , (6537, 101,        183) /* AiAllowedCombatStyle - Unarmed, OneHanded, OneHandedAndShield, Bow, Crossbow, ThrownWeapon */
      , (6537, 103,          3) /* GeneratorDestructionType - Kill */
      , (6537, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (6537, 140,          1) /* AiOptions */
@@ -79,8 +79,43 @@ VALUES (6537,   1,   33556558) /* Setup */
      , (6537,   7,  268435992) /* ClothingBase */
      , (6537,   8,  100670397) /* Icon */
      , (6537,  22,  872415331) /* PhysicsEffectTable */
-     , (6537,  32,        170) /* WieldedTreasureType */
-     , (6537,  35,        182) /* DeathTreasureType */;
+     , (6537,  32,        170) /* WieldedTreasureType - 
+                                   Wield 10x Throwing Dart (316) | Probability: 5%
+                                   Wield 10x Shouken (343) | Probability: 5%
+                                   Wield 10x Throwing Dagger (315) | Probability: 8%
+                                   Wield 5x Javelin (320) | Probability: 8%
+                                   Wield Djarid (317) | Probability: 8%
+                                   Wield 6x Throwing Axe (304) | Probability: 8%
+                                   Wield 4x Throwing Club (310) | Probability: 8%
+                                   Wield Yag (360) | Probability: 8%
+                                   Wield 20x Arrow (300) | Probability: 100%
+                                   Wield Shortbow (307) | Probability: 9%
+                                   Wield 17x Arrow (300) | Probability: 100%
+                                   Wield Shouyumi (341) | Probability: 8%
+                                   Wield 20x Arrow (300) | Probability: 100%
+                                   Wield Light Crossbow (312) | Probability: 20%
+                                   Wield 16x Quarrel (305) | Probability: 100%
+                                   Wield Budiaq (308) | Probability: 5%
+                                   Wield Club (309) | Probability: 5%
+                                   Wield Dabus (313) | Probability: 5%
+                                   Wield Dagger (314) | Probability: 5%
+                                   Wield Hand Axe (303) | Probability: 5%
+                                   Wield Jambiya (319) | Probability: 2%
+                                   Wield Jitte (321) | Probability: 5%
+                                   Wield Kasrullah (325) | Probability: 5%
+                                   Wield Katar (326) | Probability: 5%
+                                   Wield Khanjar (328) | Probability: 5%
+                                   Wield Knife (329) | Probability: 3%
+                                   Wield Mace (331) | Probability: 5%
+                                   Wield Short Sword (352) | Probability: 5%
+                                   Wield Shou-ono (342) | Probability: 5%
+                                   Wield Simi (345) | Probability: 5%
+                                   Wield Spear (348) | Probability: 5%
+                                   Wield Tofun (356) | Probability: 5%
+                                   Wield Tungi (357) | Probability: 5%
+                                   Wield Yaoji (361) | Probability: 5%
+                                   Wield Yari (362) | Probability: 5% */
+     , (6537,  35,        182) /* DeathTreasureType - Loot Tier: 3 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (6537,   1,  80, 0, 0) /* Strength */
@@ -160,8 +195,8 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,  17 /* LocalBroadcast */, 0, 0, NULL, '%s has slain the Spire''s shadow child!', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (6537, 9,     0,  0, 0, 0.98, False) /* Create Unknown for ContainTreasure */
-     , (6537, 9,  6060,  0, 0, 0.02, False) /* Create Dark Speck for ContainTreasure */;
+VALUES (6537, 9,     0,  0, 0, 0.98, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 3 for ContainTreasure */
+     , (6537, 9,  6060,  0, 0, 0.02, False) /* Create Dark Speck (6060) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (6537, 1, 6535, 20, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0);
+VALUES (6537, 1, 6535, 20, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Small Shadow Child (6535) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Scatter */;

@@ -4,16 +4,16 @@ VALUES ('26007', 'robegeliditenew', 2) /* Clothing */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (26007,   1,          4) /* ItemType - Clothing */
      , (26007,   3,          1) /* PaletteTemplate - AquaBlue */
-     , (26007,   4,      98048) /* ClothingPriority */
+     , (26007,   4,      98048) /* ClothingPriority - OuterwearUpperLegs, OuterwearLowerLegs, OuterwearChest, OuterwearAbdomen, OuterwearUpperArms, OuterwearLowerArms, Head, Feet */
      , (26007,   5,        600) /* EncumbranceVal */
      , (26007,   8,        150) /* Mass */
-     , (26007,   9,      32513) /* ValidLocations */
+     , (26007,   9,      32513) /* ValidLocations - HeadWear, Armor */
      , (26007,  16,          1) /* ItemUseable - No */
      , (26007,  18,          1) /* UiEffects - Magical */
      , (26007,  19,       8000) /* Value */
      , (26007,  27,          1) /* ArmorType */
      , (26007,  28,        160) /* ArmorLevel */
-     , (26007,  93,       1044) /* PhysicsState */
+     , (26007,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (26007, 106,        300) /* ItemSpellcraft */
      , (26007, 107,        800) /* ItemCurMana */
      , (26007, 108,        800) /* ItemMaxMana */

@@ -12,7 +12,7 @@ VALUES (11489,   1,         16) /* ItemType - Creature */
      , (11489,  40,          2) /* CombatMode - Melee */
      , (11489,  68,          9) /* TargetingTactic */
      , (11489,  72,         56) /* FriendType - Siraluun */
-     , (11489,  93,       1032) /* PhysicsState */
+     , (11489,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (11489, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (11489, 146,      11566) /* XpOverride */;
 
@@ -64,7 +64,7 @@ VALUES (11489,   1,   33557059) /* Setup */
      , (11489,   4,  805306421) /* CombatTable */
      , (11489,   8,  100671751) /* Icon */
      , (11489,  22,  872415376) /* PhysicsEffectTable */
-     , (11489,  35,        457) /* DeathTreasureType */;
+     , (11489,  35,        457) /* DeathTreasureType - Loot Tier: 2 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (11489,   1, 280, 0, 0) /* Strength */
@@ -115,9 +115,9 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 268435537 /* Twitch1 */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (11489, 9,     0,  0, 0, 0.95, False) /* Create Unknown for ContainTreasure */
-     , (11489, 9,     0,  0, 0, 0.95, False) /* Create Unknown for ContainTreasure */
-     , (11489, 9,     0,  0, 0, 0.99, False) /* Create Unknown for ContainTreasure */
-     , (11489, 9,  6876,  0, 0, 0.01, False) /* Create Sturdy Iron Key for ContainTreasure */
-     , (11489, 9, 11368,  0, 0, 0.05, False) /* Create Strand Siraluun Claw for ContainTreasure */
-     , (11489, 9, 29901,  0, 0, 0.05, False) /* Create Small Bundle of Strand Siraluun Feathers for ContainTreasure */;
+VALUES (11489, 9,     0,  0, 0, 0.95, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 2 for ContainTreasure */
+     , (11489, 9,     0,  0, 0, 0.95, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 2 for ContainTreasure */
+     , (11489, 9,     0,  0, 0, 0.99, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 2 for ContainTreasure */
+     , (11489, 9,  6876,  0, 0, 0.01, False) /* Create Sturdy Iron Key (6876) for ContainTreasure */
+     , (11489, 9, 11368,  0, 0, 0.05, False) /* Create Strand Siraluun Claw (11368) for ContainTreasure */
+     , (11489, 9, 29901,  0, 0, 0.05, False) /* Create Small Bundle of Strand Siraluun Feathers (29901) for ContainTreasure */;

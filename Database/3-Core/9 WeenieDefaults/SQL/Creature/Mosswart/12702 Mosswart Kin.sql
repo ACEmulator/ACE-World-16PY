@@ -13,7 +13,7 @@ VALUES (12702,   1,         16) /* ItemType - Creature */
      , (12702,  40,          2) /* CombatMode - Melee */
      , (12702,  67,         64) /* Tolerance */
      , (12702,  68,          9) /* TargetingTactic */
-     , (12702,  93,       1032) /* PhysicsState */
+     , (12702,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (12702, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (12702, 146,          0) /* XpOverride */;
 
@@ -68,8 +68,15 @@ VALUES (12702,   1,   33557327) /* Setup */
      , (12702,   7,  268436292) /* ClothingBase */
      , (12702,   8,  100667449) /* Icon */
      , (12702,  22,  872415264) /* PhysicsEffectTable */
-     , (12702,  32,        129) /* WieldedTreasureType */
-     , (12702,  35,        142) /* DeathTreasureType */;
+     , (12702,  32,        129) /* WieldedTreasureType - 
+                                   Wield Budiaq (308) | Probability: 12%
+                                   Wield Khanjar (328) | Probability: 25%
+                                   Wield Spear (348) | Probability: 13%
+                                   Wield 10x Throwing Dart (316) | Probability: 5%
+                                   Wield 10x Shouken (343) | Probability: 5%
+                                   Wield 6x Throwing Dagger (315) | Probability: 5%
+                                   Wield Djarid (317) | Probability: 10% */
+     , (12702,  35,        142) /* DeathTreasureType - Loot Tier: 1 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (12702,   1,  15, 0, 0) /* Strength */

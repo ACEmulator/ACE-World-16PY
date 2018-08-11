@@ -8,7 +8,7 @@ VALUES (7562,   1,        128) /* ItemType - Misc */
      , (7562,  16,          1) /* ItemUseable - No */
      , (7562,  19,        200) /* Value */
      , (7562,  83,       4096) /* ActivationResponse - CastSpell */
-     , (7562,  93,         20) /* PhysicsState */
+     , (7562,  93,         20) /* PhysicsState - Ethereal, IgnoreCollisions */
      , (7562, 106,       9999) /* ItemSpellcraft */
      , (7562, 119,          1) /* Active */
      , (7562, 134,          8) /* PlayerKillerStatus - Creature */;

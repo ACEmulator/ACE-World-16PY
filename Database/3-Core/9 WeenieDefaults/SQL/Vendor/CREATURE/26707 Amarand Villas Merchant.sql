@@ -10,10 +10,10 @@ VALUES (26707,   1,         16) /* ItemType - Creature */
      , (26707,  16,         32) /* ItemUseable - Remote */
      , (26707,  25,         10) /* Level */
      , (26707,  27,          0) /* ArmorType */
-     , (26707,  74,     264192) /* MerchandiseItemTypes */
+     , (26707,  74,     264192) /* MerchandiseItemTypes - Gem, PromissoryNote */
      , (26707,  75,          0) /* MerchandiseMinValue */
      , (26707,  76,    1000000) /* MerchandiseMaxValue */
-     , (26707,  93,    2098204) /* PhysicsState */
+     , (26707,  93,    2098204) /* PhysicsState - Ethereal, ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */
      , (26707, 126,        125) /* VendorHappyMean */
      , (26707, 127,        125) /* VendorHappyVariance */
      , (26707, 133,          4) /* ShowableOnRadar - ShowAlways */
@@ -97,4 +97,4 @@ VALUES (26707,  0,  4,  0,    0,    0,    0,    0,    0,    0,    0,    0,    0,
      , (26707,  8,  4,  2, 0.75,    0,    0,    0,    0,    0,    0,    0,    0,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (26707, 4, 26072, -1, 0, 0, False) /* Create Amarand Villas Portal Gem for Shop */;
+VALUES (26707, 4, 26072, -1, 0, 0, False) /* Create Amarand Villas Portal Gem (26072) for Shop */;

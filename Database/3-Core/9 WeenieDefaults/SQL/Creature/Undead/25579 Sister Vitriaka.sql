@@ -14,8 +14,8 @@ VALUES (25579,   1,         16) /* ItemType - Creature */
      , (25579,  68,          3) /* TargetingTactic */
      , (25579,  81,         20) /* MaxGeneratedObjects */
      , (25579,  82,         20) /* InitGeneratedObjects */
-     , (25579,  93,       1032) /* PhysicsState */
-     , (25579, 101,        183) /* AiAllowedCombatStyle */
+     , (25579,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
+     , (25579, 101,        183) /* AiAllowedCombatStyle - Unarmed, OneHanded, OneHandedAndShield, Bow, Crossbow, ThrownWeapon */
      , (25579, 103,          1) /* GeneratorDestructionType - Nothing */
      , (25579, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (25579, 140,          1) /* AiOptions */
@@ -77,8 +77,9 @@ VALUES (25579,   1,   33558437) /* Setup */
      , (25579,   7,  268436673) /* ClothingBase */
      , (25579,   8,  100674805) /* Icon */
      , (25579,  22,  872415272) /* PhysicsEffectTable */
-     , (25579,  32,        446) /* WieldedTreasureType */
-     , (25579,  35,        146) /* DeathTreasureType */;
+     , (25579,  32,        446) /* WieldedTreasureType - 
+                                   Wield Khopesh (25499) | Probability: 98% */
+     , (25579,  35,        146) /* DeathTreasureType - Loot Tier: 5 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (25579,   1, 340, 0, 0) /* Strength */
@@ -163,8 +164,8 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   8 /* Say */, 0, 0, NULL, 'Ek, taivti Tik Vaiktu Kiktij tiu ikni arkvikt.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (25579, 1, 25594,  0, 0, 1, False) /* Create Scrap of Paper for Contain */;
+VALUES (25579, 1, 25594,  0, 0, 1, False) /* Create Scrap of Paper (25594) for Contain */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (25579, -1, 23484, 5, 10, 10, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0)
-     , (25579, -1, 23486, 5, 10, 10, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0);
+VALUES (25579, -1, 23484, 5, 10, 10, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Chomu Sclavus Lord (23484) (x10 up to max of 10) - Regenerate upon Destruction - Location to (re)Generate: Scatter */
+     , (25579, -1, 23486, 5, 10, 10, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Faisi Sclavus Lord (23486) (x10 up to max of 10) - Regenerate upon Destruction - Location to (re)Generate: Scatter */;

@@ -10,10 +10,10 @@ VALUES (8493,   1,         16) /* ItemType - Creature */
      , (8493,  16,         32) /* ItemUseable - Remote */
      , (8493,  25,         28) /* Level */
      , (8493,  27,          0) /* ArmorType */
-     , (8493,  74,    5027976) /* MerchandiseItemTypes */
+     , (8493,  74,    5027976) /* MerchandiseItemTypes - Jewelry, Misc, Gem, SpellComponents, Writable, Caster, PromissoryNote, ManaStone, CraftCookingBase */
      , (8493,  75,          0) /* MerchandiseMinValue */
      , (8493,  76,     100000) /* MerchandiseMaxValue */
-     , (8493,  93,    2098200) /* PhysicsState */
+     , (8493,  93,    2098200) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */
      , (8493, 126,      10000) /* VendorHappyMean */
      , (8493, 127,       4000) /* VendorHappyVariance */
      , (8493, 133,          4) /* ShowableOnRadar - ShowAlways */
@@ -163,33 +163,33 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 318767235 /* Nod */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (8493, 2,   130,  0, 8, 0.5, False) /* Create Shirt for Wield */
-     , (8493, 4,   259, -1, 0, 0, False) /* Create Bread for Shop */
-     , (8493, 4,   364, -1, 0, 0, False) /* Create Book for Shop */
-     , (8493, 4,   365, -1, 0, 0, False) /* Create Parchment for Shop */
-     , (8493, 4,   512, -1, 0, 0, False) /* Create Good Lockpick for Shop */
-     , (8493, 4,   513, -1, 0, 0, False) /* Create Plain Lockpick for Shop */
-     , (8493, 4,   514, -1, 0, 0, False) /* Create Excellent Lockpick for Shop */
-     , (8493, 4,   545, -1, 0, 0, False) /* Create Reliable Lockpick for Shop */
-     , (8493, 4,  2453, -1, 0, 0, False) /* Create Cider for Shop */
-     , (8493, 4,  2462, -1, 0, 0, False) /* Create Mead for Shop */
-     , (8493, 4,  2463, -1, 0, 0, False) /* Create Milk for Shop */
-     , (8493, 4,  2471, -1, 0, 0, False) /* Create Stout for Shop */
-     , (8493, 2,  2597,  0, 9, 0.6, False) /* Create Pants for Wield */
-     , (8493, 4,  2621, -1, 0, 0, False) /* Create Trade Note (100) for Shop */
-     , (8493, 4,  2622, -1, 0, 0, False) /* Create Trade Note (500) for Shop */
-     , (8493, 4,  2623, -1, 0, 0, False) /* Create Trade Note (1,000) for Shop */
-     , (8493, 4,  2624, -1, 0, 0, False) /* Create Trade Note (5,000) for Shop */
-     , (8493, 4,  2625, -1, 0, 0, False) /* Create Trade Note (10,000) for Shop */
-     , (8493, 4,  4713, -1, 0, 0, False) /* Create Beef Stew for Shop */
-     , (8493, 4,  4725, -1, 0, 0, False) /* Create Fish Pie for Shop */
-     , (8493, 4,  4741, -1, 0, 0, False) /* Create Pizza for Shop */
-     , (8493, 4,  4746, -1, 0, 0, False) /* Create Water for Shop */
-     , (8493, 4,  7878, -1, 0, 0, False) /* Create Sausage for Shop */
-     , (8493, 2,  7897,  0, 9, 0, False) /* Create Steel Toed Boots for Wield */
-     , (8493, 4,  8378, -1, 0, 0, False) /* Create Beer Stein for Shop */
-     , (8493, 4,  8556, -1, 0, 0, False) /* Create The History of the Vesayen Isles for Shop */
-     , (8493, 4,  8557, -1, 0, 0, False) /* Create Mosswart Feud Rumor for Shop */
-     , (8493, 4,  8558, -1, 0, 0, False) /* Create Rumuba Rumor for Shop */
-     , (8493, 2, 10696,  0, 6, 0, False) /* Create Apron for Wield */
-     , (8493, 4, 27792, -1, 0, 0, False) /* Create The Moars for Shop */;
+VALUES (8493, 2,   130,  0, 8, 0.5, False) /* Create Shirt (130) for Wield */
+     , (8493, 4,   259, -1, 0, 0, False) /* Create Bread (259) for Shop */
+     , (8493, 4,   364, -1, 0, 0, False) /* Create Book (364) for Shop */
+     , (8493, 4,   365, -1, 0, 0, False) /* Create Parchment (365) for Shop */
+     , (8493, 4,   512, -1, 0, 0, False) /* Create Good Lockpick (512) for Shop */
+     , (8493, 4,   513, -1, 0, 0, False) /* Create Plain Lockpick (513) for Shop */
+     , (8493, 4,   514, -1, 0, 0, False) /* Create Excellent Lockpick (514) for Shop */
+     , (8493, 4,   545, -1, 0, 0, False) /* Create Reliable Lockpick (545) for Shop */
+     , (8493, 4,  2453, -1, 0, 0, False) /* Create Cider (2453) for Shop */
+     , (8493, 4,  2462, -1, 0, 0, False) /* Create Mead (2462) for Shop */
+     , (8493, 4,  2463, -1, 0, 0, False) /* Create Milk (2463) for Shop */
+     , (8493, 4,  2471, -1, 0, 0, False) /* Create Stout (2471) for Shop */
+     , (8493, 2,  2597,  0, 9, 0.6, False) /* Create Pants (2597) for Wield */
+     , (8493, 4,  2621, -1, 0, 0, False) /* Create Trade Note (100) (2621) for Shop */
+     , (8493, 4,  2622, -1, 0, 0, False) /* Create Trade Note (500) (2622) for Shop */
+     , (8493, 4,  2623, -1, 0, 0, False) /* Create Trade Note (1,000) (2623) for Shop */
+     , (8493, 4,  2624, -1, 0, 0, False) /* Create Trade Note (5,000) (2624) for Shop */
+     , (8493, 4,  2625, -1, 0, 0, False) /* Create Trade Note (10,000) (2625) for Shop */
+     , (8493, 4,  4713, -1, 0, 0, False) /* Create Beef Stew (4713) for Shop */
+     , (8493, 4,  4725, -1, 0, 0, False) /* Create Fish Pie (4725) for Shop */
+     , (8493, 4,  4741, -1, 0, 0, False) /* Create Pizza (4741) for Shop */
+     , (8493, 4,  4746, -1, 0, 0, False) /* Create Water (4746) for Shop */
+     , (8493, 4,  7878, -1, 0, 0, False) /* Create Sausage (7878) for Shop */
+     , (8493, 2,  7897,  0, 9, 0, False) /* Create Steel Toed Boots (7897) for Wield */
+     , (8493, 4,  8378, -1, 0, 0, False) /* Create Beer Stein (8378) for Shop */
+     , (8493, 4,  8556, -1, 0, 0, False) /* Create The History of the Vesayen Isles (8556) for Shop */
+     , (8493, 4,  8557, -1, 0, 0, False) /* Create Mosswart Feud Rumor (8557) for Shop */
+     , (8493, 4,  8558, -1, 0, 0, False) /* Create Rumuba Rumor (8558) for Shop */
+     , (8493, 2, 10696,  0, 6, 0, False) /* Create Apron (10696) for Wield */
+     , (8493, 4, 27792, -1, 0, 0, False) /* Create The Moars (27792) for Shop */;

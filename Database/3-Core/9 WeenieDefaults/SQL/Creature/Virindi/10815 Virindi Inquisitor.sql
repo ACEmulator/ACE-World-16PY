@@ -11,7 +11,7 @@ VALUES (10815,   1,         16) /* ItemType - Creature */
      , (10815,  25,        105) /* Level */
      , (10815,  27,          0) /* ArmorType */
      , (10815,  68,          3) /* TargetingTactic */
-     , (10815,  93,       1032) /* PhysicsState */
+     , (10815,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (10815, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (10815, 140,          1) /* AiOptions */
      , (10815, 146,      58073) /* XpOverride */;
@@ -69,7 +69,7 @@ VALUES (10815,   1,   33556982) /* Setup */
      , (10815,   7,  268435649) /* ClothingBase */
      , (10815,   8,  100667943) /* Icon */
      , (10815,  22,  872415273) /* PhysicsEffectTable */
-     , (10815,  35,        460) /* DeathTreasureType */;
+     , (10815,  35,        460) /* DeathTreasureType - Loot Tier: 4 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (10815,   1, 250, 0, 0) /* Strength */
@@ -218,9 +218,9 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,  17 /* LocalBroadcast */, 0, 0, NULL, 'The air becomes heavy with ozone, and another creature spawns from the rift!', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (10815, 9,     0,  0, 0, 0.2, False) /* Create Unknown for ContainTreasure */
-     , (10815, 9,     0,  0, 0, 0.2, False) /* Create Unknown for ContainTreasure */
-     , (10815, 9,     0,  0, 0, 0.97, False) /* Create Unknown for ContainTreasure */
-     , (10815, 9,  6876,  0, 0, 0.8, False) /* Create Sturdy Iron Key for ContainTreasure */
-     , (10815, 9,  9292,  0, 0, 0.03, False) /* Create Virindi Singularity Key for ContainTreasure */
-     , (10815, 9, 10804,  0, 0, 0.8, False) /* Create Obsidian Shard for ContainTreasure */;
+VALUES (10815, 9,     0,  0, 0, 0.2, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 4 for ContainTreasure */
+     , (10815, 9,     0,  0, 0, 0.2, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 4 for ContainTreasure */
+     , (10815, 9,     0,  0, 0, 0.97, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 4 for ContainTreasure */
+     , (10815, 9,  6876,  0, 0, 0.8, False) /* Create Sturdy Iron Key (6876) for ContainTreasure */
+     , (10815, 9,  9292,  0, 0, 0.03, False) /* Create Virindi Singularity Key (9292) for ContainTreasure */
+     , (10815, 9, 10804,  0, 0, 0.8, False) /* Create Obsidian Shard (10804) for ContainTreasure */;

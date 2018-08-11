@@ -14,7 +14,7 @@ VALUES (757,   1,       4096) /* ItemType - SpellComponents */
      , (757,  15,          5) /* StackUnitValue */
      , (757,  16,          1) /* ItemUseable - No */
      , (757,  19,          5) /* Value */
-     , (757,  93,       1044) /* PhysicsState */;
+     , (757,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (757,   1, 'Colcothar') /* Name */

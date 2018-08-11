@@ -11,8 +11,8 @@ VALUES (22923,   1,      16384) /* ItemType - Key */
      , (22923,  33,          1) /* Bonded - Bonded */
      , (22923,  91,          1) /* MaxStructure */
      , (22923,  92,          1) /* Structure */
-     , (22923,  93,       1044) /* PhysicsState */
-     , (22923,  94,        640) /* TargetType - LockableMagicTarget */
+     , (22923,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (22923,  94,        640) /* TargetType - 640 */
      , (22923, 114,          1) /* Attuned - Attuned */
      , (22923, 150,        103) /* HookPlacement - Hook */
      , (22923, 151,          2) /* HookType - Wall */;

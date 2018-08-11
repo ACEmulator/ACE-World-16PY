@@ -11,7 +11,7 @@ VALUES (7619,   1,         16) /* ItemType - Creature */
      , (7619,  27,          0) /* ArmorType */
      , (7619,  40,          2) /* CombatMode - Melee */
      , (7619,  68,          3) /* TargetingTactic */
-     , (7619,  93,       1032) /* PhysicsState */
+     , (7619,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (7619, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (7619, 146,       2674) /* XpOverride */;
 
@@ -65,7 +65,7 @@ VALUES (7619,   1,   33556426) /* Setup */
      , (7619,   4,  805306376) /* CombatTable */
      , (7619,   8,  100667940) /* Icon */
      , (7619,  22,  872415328) /* PhysicsEffectTable */
-     , (7619,  35,         88) /* DeathTreasureType */;
+     , (7619,  35,         88) /* DeathTreasureType - Loot Tier: 3 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (7619,   1, 100, 0, 0) /* Strength */
@@ -137,7 +137,7 @@ VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 1090519043 /* Ready */, NULL, NU
      , (@parent_id,  1,   5 /* Motion */, 0, 1, 1090519060 /* Sleeping */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (7619, 9,     0,  0, 0, 0.98, False) /* Create Unknown for ContainTreasure */
-     , (7619, 9,     0,  0, 0, 0.97, False) /* Create Unknown for ContainTreasure */
-     , (7619, 9,  3671,  0, 0, 0.02, False) /* Create Granite Heart for ContainTreasure */
-     , (7619, 9,  6353,  0, 0, 0.03, False) /* Create Pyreal Mote for ContainTreasure */;
+VALUES (7619, 9,     0,  0, 0, 0.98, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 3 for ContainTreasure */
+     , (7619, 9,     0,  0, 0, 0.97, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 3 for ContainTreasure */
+     , (7619, 9,  3671,  0, 0, 0.02, False) /* Create Granite Heart (3671) for ContainTreasure */
+     , (7619, 9,  6353,  0, 0, 0.03, False) /* Create Pyreal Mote (6353) for ContainTreasure */;

@@ -3,7 +3,7 @@ VALUES ('4576', 'channel-lytelthorpe', 36) /* Channel */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (4576,   3,         61) /* PaletteTemplate - White */
-     , (4576,  93,       1044) /* PhysicsState */;
+     , (4576,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (4576,   1, True ) /* Stuck */

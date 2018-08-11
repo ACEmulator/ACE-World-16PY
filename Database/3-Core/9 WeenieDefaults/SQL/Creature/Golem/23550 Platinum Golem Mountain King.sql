@@ -14,7 +14,7 @@ VALUES (23550,   1,         16) /* ItemType - Creature */
      , (23550,  68,          9) /* TargetingTactic */
      , (23550,  81,          6) /* MaxGeneratedObjects */
      , (23550,  82,          6) /* InitGeneratedObjects */
-     , (23550,  93,       1032) /* PhysicsState */
+     , (23550,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (23550, 103,          3) /* GeneratorDestructionType - Kill */
      , (23550, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (23550, 146,    4357299) /* XpOverride */;
@@ -76,7 +76,7 @@ VALUES (23550,   1,   33556426) /* Setup */
      , (23550,   7,  268436615) /* ClothingBase */
      , (23550,   8,  100667940) /* Icon */
      , (23550,  22,  872415322) /* PhysicsEffectTable */
-     , (23550,  35,         32) /* DeathTreasureType */;
+     , (23550,  35,         32) /* DeathTreasureType - Loot Tier: 6 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (23550,   1, 490, 0, 0) /* Strength */
@@ -165,4 +165,4 @@ VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 1090519043 /* Ready */, NULL, NU
      , (@parent_id,  1,   5 /* Motion */, 0, 1, 1090519060 /* Sleeping */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (23550, -1, 7097, 90, 6, 6, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0);
+VALUES (23550, -1, 7097, 90, 6, 6, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Platinum Golem (7097) (x6 up to max of 6) - Regenerate upon Destruction - Location to (re)Generate: Scatter */;

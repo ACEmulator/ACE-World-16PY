@@ -9,7 +9,7 @@ VALUES (11734,   1,        128) /* ItemType - Misc */
      , (11734,  16,          1) /* ItemUseable - No */
      , (11734,  19,          0) /* Value */
      , (11734,  46,        128) /* DefaultCombatStyle - ThrownWeapon */
-     , (11734,  93,       1044) /* PhysicsState */;
+     , (11734,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (11734,   1, True ) /* Stuck */

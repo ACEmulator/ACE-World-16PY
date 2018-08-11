@@ -17,7 +17,7 @@ VALUES (23319,   1,          1) /* ItemType - MeleeWeapon */
      , (23319,  49,         60) /* WeaponTime */
      , (23319,  51,          1) /* CombatUse - Melee */
      , (23319,  92,        100) /* Structure */
-     , (23319,  93,       1044) /* PhysicsState */
+     , (23319,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (23319, 105,          3) /* ItemWorkmanship */
      , (23319, 131,         59) /* MaterialType - Copper */
      , (23319, 150,        103) /* HookPlacement - Hook */

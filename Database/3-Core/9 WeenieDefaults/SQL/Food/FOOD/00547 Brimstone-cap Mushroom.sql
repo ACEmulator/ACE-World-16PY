@@ -15,7 +15,7 @@ VALUES (547,   1,         32) /* ItemType - Food */
      , (547,  19,          6) /* Value */
      , (547,  89,          4) /* BoosterEnum - Stamina */
      , (547,  90,          4) /* BoostValue */
-     , (547,  93,       1044) /* PhysicsState */;
+     , (547,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (547,   1, 'Brimstone-cap Mushroom') /* Name */

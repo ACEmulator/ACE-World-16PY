@@ -12,8 +12,8 @@ VALUES (6644,   1,         16) /* ItemType - Creature */
      , (6644,  27,          0) /* ArmorType */
      , (6644,  40,          2) /* CombatMode - Melee */
      , (6644,  68,          5) /* TargetingTactic */
-     , (6644,  93,       1032) /* PhysicsState */
-     , (6644, 101,        131) /* AiAllowedCombatStyle */
+     , (6644,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
+     , (6644, 101,        131) /* AiAllowedCombatStyle - Unarmed, OneHanded, ThrownWeapon */
      , (6644, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (6644, 140,          1) /* AiOptions */
      , (6644, 146,         25) /* XpOverride */;

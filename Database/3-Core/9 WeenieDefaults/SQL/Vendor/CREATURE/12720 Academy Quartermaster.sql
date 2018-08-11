@@ -13,7 +13,7 @@ VALUES (12720,   1,         16) /* ItemType - Creature */
      , (12720,  74,          0) /* MerchandiseItemTypes - None */
      , (12720,  75,          0) /* MerchandiseMinValue */
      , (12720,  76,      10000) /* MerchandiseMaxValue */
-     , (12720,  93,    2098200) /* PhysicsState */
+     , (12720,  93,    2098200) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */
      , (12720, 126,       1000) /* VendorHappyMean */
      , (12720, 127,        500) /* VendorHappyVariance */
      , (12720, 133,          4) /* ShowableOnRadar - ShowAlways */
@@ -130,20 +130,20 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,  10 /* Tell */, 0, 1, NULL, 'Good choice! Now, you can improve this item by pouring the Blacksmith''s Oil of Rendering on it. Double-click on the Oil, then click on the item you just bought. Good luck!', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (12720, 2,   115,  0, 14, 0.5, False) /* Create Leather Boots for Wield */
-     , (12720, 2,   124,  0, 14, 0, False) /* Create Jerkin for Wield */
-     , (12720, 2,   135,  0, 17, 1, False) /* Create Turban for Wield */
-     , (12720, 2,  2603,  0, 17, 1, False) /* Create Breeches for Wield */
-     , (12720, 2, 10696,  0, 14, 0.5, False) /* Create Apron for Wield */
-     , (12720, 4, 12739, -1, 0, 0, False) /* Create Training Dagger for Shop */
-     , (12720, 4, 12740, -1, 0, 0, False) /* Create Training Hand Axe for Shop */
-     , (12720, 4, 12741, -1, 0, 0, False) /* Create Training Shortbow for Shop */
-     , (12720, 4, 12742, -1, 0, 0, False) /* Create Training Cestus for Shop */
-     , (12720, 4, 12743, -1, 0, 0, False) /* Create Training Staff for Shop */
-     , (12720, 4, 12744, -1, 0, 0, False) /* Create Training Mace for Shop */
-     , (12720, 4, 12745, -1, 0, 0, False) /* Create Training Spear for Shop */
-     , (12720, 4, 12746, -1, 0, 0, False) /* Create Training Atlatl for Shop */
-     , (12720, 4, 12747, -1, 0, 0, False) /* Create Training Short Sword for Shop */
-     , (12720, 4, 12748, -1, 0, 0, False) /* Create Training Wand for Shop */
-     , (12720, 4, 12749, -1, 0, 0, False) /* Create Light Training Crossbow for Shop */
-     , (12720, 2, 12758,  0, 0, 0, False) /* Create Academy Short Sword for Wield */;
+VALUES (12720, 2,   115,  0, 14, 0.5, False) /* Create Leather Boots (115) for Wield */
+     , (12720, 2,   124,  0, 14, 0, False) /* Create Jerkin (124) for Wield */
+     , (12720, 2,   135,  0, 17, 1, False) /* Create Turban (135) for Wield */
+     , (12720, 2,  2603,  0, 17, 1, False) /* Create Breeches (2603) for Wield */
+     , (12720, 2, 10696,  0, 14, 0.5, False) /* Create Apron (10696) for Wield */
+     , (12720, 4, 12739, -1, 0, 0, False) /* Create Training Dagger (12739) for Shop */
+     , (12720, 4, 12740, -1, 0, 0, False) /* Create Training Hand Axe (12740) for Shop */
+     , (12720, 4, 12741, -1, 0, 0, False) /* Create Training Shortbow (12741) for Shop */
+     , (12720, 4, 12742, -1, 0, 0, False) /* Create Training Cestus (12742) for Shop */
+     , (12720, 4, 12743, -1, 0, 0, False) /* Create Training Staff (12743) for Shop */
+     , (12720, 4, 12744, -1, 0, 0, False) /* Create Training Mace (12744) for Shop */
+     , (12720, 4, 12745, -1, 0, 0, False) /* Create Training Spear (12745) for Shop */
+     , (12720, 4, 12746, -1, 0, 0, False) /* Create Training Atlatl (12746) for Shop */
+     , (12720, 4, 12747, -1, 0, 0, False) /* Create Training Short Sword (12747) for Shop */
+     , (12720, 4, 12748, -1, 0, 0, False) /* Create Training Wand (12748) for Shop */
+     , (12720, 4, 12749, -1, 0, 0, False) /* Create Light Training Crossbow (12749) for Shop */
+     , (12720, 2, 12758,  0, 0, 0, False) /* Create Academy Short Sword (12758) for Wield */;

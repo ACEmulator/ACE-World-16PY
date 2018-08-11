@@ -11,8 +11,8 @@ VALUES (9691,   1,         16) /* ItemType - Creature */
      , (9691,  25,         74) /* Level */
      , (9691,  27,          0) /* ArmorType */
      , (9691,  68,          5) /* TargetingTactic */
-     , (9691,  93,       1032) /* PhysicsState */
-     , (9691, 101,        183) /* AiAllowedCombatStyle */
+     , (9691,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
+     , (9691, 101,        183) /* AiAllowedCombatStyle - Unarmed, OneHanded, OneHandedAndShield, Bow, Crossbow, ThrownWeapon */
      , (9691, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (9691, 140,          1) /* AiOptions */
      , (9691, 146,      14470) /* XpOverride */;
@@ -68,8 +68,14 @@ VALUES (9691,   1,   33554496) /* Setup */
      , (9691,   7,  268436630) /* ClothingBase */
      , (9691,   8,  100667452) /* Icon */
      , (9691,  22,  872415270) /* PhysicsEffectTable */
-     , (9691,  32,        220) /* WieldedTreasureType */
-     , (9691,  35,        450) /* DeathTreasureType */;
+     , (9691,  32,        220) /* WieldedTreasureType - 
+                                   Wield Katar (23676) | Probability: 14%
+                                   Wield Cestus (23639) | Probability: 7%
+                                   Wield Nekode (23682) | Probability: 6%
+                                   Wield Tachi (23702) | Probability: 6%
+                                   Wield Spear (23698) | Probability: 6%
+                                   Wield Kite Shield (23686) | Probability: 75% */
+     , (9691,  35,        450) /* DeathTreasureType - Loot Tier: 3 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (9691,   1, 150, 0, 0) /* Strength */
@@ -116,7 +122,7 @@ VALUES (9691,  94) /* ATTACK_NOTIFICATION_EVENT */
      , (9691, 414) /* PLAYER_DEATH_EVENT */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (9691, 9,     0,  0, 0, 0, False) /* Create Unknown for ContainTreasure */
-     , (9691, 9,     0,  0, 0, 0.97, False) /* Create Unknown for ContainTreasure */
-     , (9691, 9,  7825,  0, 0, 0.03, False) /* Create Brown Beans for ContainTreasure */
-     , (9691, 9,  9690,  0, 0, 1, False) /* Create Tumerok Altar Key for ContainTreasure */;
+VALUES (9691, 9,     0,  0, 0, 0, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 3 for ContainTreasure */
+     , (9691, 9,     0,  0, 0, 0.97, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 3 for ContainTreasure */
+     , (9691, 9,  7825,  0, 0, 0.03, False) /* Create Brown Beans (7825) for ContainTreasure */
+     , (9691, 9,  9690,  0, 0, 1, False) /* Create Tumerok Altar Key (9690) for ContainTreasure */;

@@ -12,8 +12,8 @@ VALUES (1470,   1,         16) /* ItemType - Creature */
      , (1470,  27,          0) /* ArmorType */
      , (1470,  40,          2) /* CombatMode - Melee */
      , (1470,  68,         13) /* TargetingTactic */
-     , (1470,  93,       1032) /* PhysicsState */
-     , (1470, 101,        131) /* AiAllowedCombatStyle */
+     , (1470,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
+     , (1470, 101,        131) /* AiAllowedCombatStyle - Unarmed, OneHanded, ThrownWeapon */
      , (1470, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (1470, 140,          1) /* AiOptions */
      , (1470, 146,        307) /* XpOverride */;
@@ -69,7 +69,7 @@ VALUES (1470,   1,   33557327) /* Setup */
      , (1470,   7,  268436292) /* ClothingBase */
      , (1470,   8,  100667449) /* Icon */
      , (1470,  22,  872415264) /* PhysicsEffectTable */
-     , (1470,  35,        453) /* DeathTreasureType */;
+     , (1470,  35,        453) /* DeathTreasureType - Loot Tier: 1 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (1470,   1,  50, 0, 0) /* Strength */
@@ -172,10 +172,10 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 268435537 /* Twitch1 */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (1470, 9,     0,  0, 0, 0.97, False) /* Create Unknown for ContainTreasure */
-     , (1470, 9,     0,  0, 0, 0.97, False) /* Create Unknown for ContainTreasure */
-     , (1470, 9,  7825,  0, 0, 0.03, False) /* Create Brown Beans for ContainTreasure */
-     , (1470, 9, 20854,  0, 0, 0.03, False) /* Create Academy Stamp for ContainTreasure */;
+VALUES (1470, 9,     0,  0, 0, 0.97, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 1 for ContainTreasure */
+     , (1470, 9,     0,  0, 0, 0.97, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 1 for ContainTreasure */
+     , (1470, 9,  7825,  0, 0, 0.03, False) /* Create Brown Beans (7825) for ContainTreasure */
+     , (1470, 9, 20854,  0, 0, 0.03, False) /* Create Academy Stamp (20854) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (1470, 1, 131, 600, 1, 1, 2, 72, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0);
+VALUES (1470, 1, 131, 600, 1, 1, 2, 72, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate UNKNOWN RANDOMLY GENERATED TREASURE (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: ContainTreasure */;

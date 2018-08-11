@@ -4,17 +4,17 @@ VALUES ('23820', 'sleevesceldonshadowhardened', 2) /* Clothing */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (23820,   1,          2) /* ItemType - Armor */
      , (23820,   3,         39) /* PaletteTemplate - Black */
-     , (23820,   4,      12288) /* ClothingPriority */
+     , (23820,   4,      12288) /* ClothingPriority - OuterwearUpperArms, OuterwearLowerArms */
      , (23820,   5,       1600) /* EncumbranceVal */
      , (23820,   8,        700) /* Mass */
-     , (23820,   9,       6144) /* ValidLocations */
+     , (23820,   9,       6144) /* ValidLocations - UpperArmArmor, LowerArmArmor */
      , (23820,  16,          1) /* ItemUseable - No */
      , (23820,  18,          1) /* UiEffects - Magical */
      , (23820,  19,       1870) /* Value */
      , (23820,  27,         32) /* ArmorType */
      , (23820,  28,        260) /* ArmorLevel */
      , (23820,  33,          1) /* Bonded - Bonded */
-     , (23820,  93,       1044) /* PhysicsState */
+     , (23820,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (23820, 107,       1000) /* ItemCurMana */
      , (23820, 108,       1000) /* ItemMaxMana */
      , (23820, 109,          0) /* ItemDifficulty */

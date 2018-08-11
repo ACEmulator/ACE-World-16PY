@@ -4,8 +4,8 @@ VALUES ('8534', 'portalcoipk', 7) /* Portal */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (8534,   1,      65536) /* ItemType - Portal */
      , (8534,  16,         32) /* ItemUseable - Remote */
-     , (8534,  93,       3084) /* PhysicsState */
-     , (8534, 111,         25) /* PortalBitmask */
+     , (8534,  93,       3084) /* PhysicsState - Ethereal, ReportCollisions, Gravity, LightingOn */
+     , (8534, 111,         25) /* PortalBitmask - Unrestricted, NoNPK, NoSummon */
      , (8534, 133,          4) /* ShowableOnRadar - ShowAlways */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)

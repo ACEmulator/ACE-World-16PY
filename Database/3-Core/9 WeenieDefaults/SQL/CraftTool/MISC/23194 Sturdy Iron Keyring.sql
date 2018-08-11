@@ -16,8 +16,8 @@ VALUES (23194,   1,        128) /* ItemType - Misc */
      , (23194,  19,         10) /* Value */
      , (23194,  91,         50) /* MaxStructure */
      , (23194,  92,         50) /* Structure */
-     , (23194,  93,       1044) /* PhysicsState */
-     , (23194,  94,      16384) /* TargetType - Key */
+     , (23194,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (23194,  94,      16384) /* TargetType - 16384 */
      , (23194, 150,        103) /* HookPlacement - Hook */
      , (23194, 151,          2) /* HookType - Wall */;
 

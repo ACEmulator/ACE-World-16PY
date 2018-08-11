@@ -14,8 +14,8 @@ VALUES (7835,   1,    4194304) /* ItemType - CraftCookingBase */
      , (7835,  15,         25) /* StackUnitValue */
      , (7835,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
      , (7835,  19,         25) /* Value */
-     , (7835,  93,       1044) /* PhysicsState */
-     , (7835,  94,    4194592) /* TargetType */;
+     , (7835,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (7835,  94,    4194592) /* TargetType - 4194592 */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (7835,  39,     0.8) /* DefaultScale */;

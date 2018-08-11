@@ -4,7 +4,7 @@ VALUES ('375', 'portalbelligtowertop', 7) /* Portal */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (375,   1,      65536) /* ItemType - Portal */
      , (375,  16,         32) /* ItemUseable - Remote */
-     , (375,  93,       3084) /* PhysicsState */
+     , (375,  93,       3084) /* PhysicsState - Ethereal, ReportCollisions, Gravity, LightingOn */
      , (375, 111,          1) /* PortalBitmask - Unrestricted */
      , (375, 133,          4) /* ShowableOnRadar - ShowAlways */;
 

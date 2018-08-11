@@ -10,10 +10,10 @@ VALUES (27035,   1,         16) /* ItemType - Creature */
      , (27035,  16,         32) /* ItemUseable - Remote */
      , (27035,  25,         10) /* Level */
      , (27035,  27,          0) /* ArmorType */
-     , (27035,  74,     264192) /* MerchandiseItemTypes */
+     , (27035,  74,     264192) /* MerchandiseItemTypes - Gem, PromissoryNote */
      , (27035,  75,          0) /* MerchandiseMinValue */
      , (27035,  76,    1000000) /* MerchandiseMaxValue */
-     , (27035,  93,    2098204) /* PhysicsState */
+     , (27035,  93,    2098204) /* PhysicsState - Ethereal, ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */
      , (27035, 126,        125) /* VendorHappyMean */
      , (27035, 127,        125) /* VendorHappyVariance */
      , (27035, 133,          4) /* ShowableOnRadar - ShowAlways */
@@ -97,4 +97,4 @@ VALUES (27035,  0,  4,  0,    0,    0,    0,    0,    0,    0,    0,    0,    0,
      , (27035,  8,  4,  2, 0.75,    0,    0,    0,    0,    0,    0,    0,    0,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (27035, 4, 26400, -1, 0, 0, False) /* Create Sweet Maple Cottages Portal Gem for Shop */;
+VALUES (27035, 4, 26400, -1, 0, 0, False) /* Create Sweet Maple Cottages Portal Gem (26400) for Shop */;

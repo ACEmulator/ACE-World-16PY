@@ -4,7 +4,7 @@ VALUES ('25810', 'robeshomonsteronly', 2) /* Clothing */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (25810,   1,          4) /* ItemType - Clothing */
      , (25810,   3,         17) /* PaletteTemplate - Yellow */
-     , (25810,   4,      81664) /* ClothingPriority */
+     , (25810,   4,      81664) /* ClothingPriority - OuterwearUpperLegs, OuterwearLowerLegs, OuterwearChest, OuterwearAbdomen, OuterwearUpperArms, OuterwearLowerArms, Feet */
      , (25810,   5,        200) /* EncumbranceVal */
      , (25810,   8,        150) /* Mass */
      , (25810,   9,      32512) /* ValidLocations - Armor */
@@ -13,7 +13,7 @@ VALUES (25810,   1,          4) /* ItemType - Clothing */
      , (25810,  27,          1) /* ArmorType */
      , (25810,  28,          0) /* ArmorLevel */
      , (25810,  33,         -2) /* Bonded - Destroy */
-     , (25810,  93,       1044) /* PhysicsState */;
+     , (25810,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (25810,  22, True ) /* Inscribable */

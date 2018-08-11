@@ -11,8 +11,8 @@ VALUES (4915,   1,      32768) /* ItemType - Caster */
      , (4915,  18,          1) /* UiEffects - Magical */
      , (4915,  19,         10) /* Value */
      , (4915,  46,        512) /* DefaultCombatStyle - Magic */
-     , (4915,  93,       1044) /* PhysicsState */
-     , (4915,  94,         16) /* TargetType - Creature */
+     , (4915,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (4915,  94,         16) /* TargetType - Reedshark */
      , (4915, 110,          0) /* ItemAllegianceRankLimit */
      , (4915, 150,        103) /* HookPlacement - Hook */
      , (4915, 151,          2) /* HookType - Wall */;

@@ -7,7 +7,7 @@ VALUES (5411,   1,       8192) /* ItemType - Writable */
      , (5411,   8,          5) /* Mass */
      , (5411,  16,          8) /* ItemUseable - Contained */
      , (5411,  19,         25) /* Value */
-     , (5411,  93,       1048) /* PhysicsState */
+     , (5411,  93,       1048) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity */
      , (5411, 136,          2) /* ScorePageNum */
      , (5411, 137,          3) /* ScoreConfigNum */
      , (5411, 138,         10) /* ScoreNumScores */;

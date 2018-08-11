@@ -4,7 +4,7 @@ VALUES ('29815', 'dresssiraluuntidal', 2) /* Clothing */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (29815,   1,          4) /* ItemType - Clothing */
      , (29815,   3,          9) /* PaletteTemplate - Grey */
-     , (29815,   4,      81664) /* ClothingPriority */
+     , (29815,   4,      81664) /* ClothingPriority - OuterwearUpperLegs, OuterwearLowerLegs, OuterwearChest, OuterwearAbdomen, OuterwearUpperArms, OuterwearLowerArms, Feet */
      , (29815,   5,        500) /* EncumbranceVal */
      , (29815,   8,        150) /* Mass */
      , (29815,   9,      32512) /* ValidLocations - Armor */
@@ -13,7 +13,7 @@ VALUES (29815,   1,          4) /* ItemType - Clothing */
      , (29815,  19,       2500) /* Value */
      , (29815,  27,          1) /* ArmorType */
      , (29815,  28,         75) /* ArmorLevel */
-     , (29815,  93,       1044) /* PhysicsState */
+     , (29815,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (29815, 107,        800) /* ItemCurMana */
      , (29815, 108,        800) /* ItemMaxMana */
      , (29815, 109,         50) /* ItemDifficulty */

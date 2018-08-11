@@ -12,8 +12,8 @@ VALUES (1467,   1,         16) /* ItemType - Creature */
      , (1467,  27,          0) /* ArmorType */
      , (1467,  40,          2) /* CombatMode - Melee */
      , (1467,  68,          5) /* TargetingTactic */
-     , (1467,  93,       1032) /* PhysicsState */
-     , (1467, 101,        129) /* AiAllowedCombatStyle */
+     , (1467,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
+     , (1467, 101,        129) /* AiAllowedCombatStyle - Unarmed, ThrownWeapon */
      , (1467, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (1467, 146,        319) /* XpOverride */;
 
@@ -67,7 +67,7 @@ VALUES (1467,   1,   33558656) /* Setup */
      , (1467,   7,  268436816) /* ClothingBase */
      , (1467,   8,  100667448) /* Icon */
      , (1467,  22,  872415263) /* PhysicsEffectTable */
-     , (1467,  35,        459) /* DeathTreasureType */;
+     , (1467,  35,        459) /* DeathTreasureType - Loot Tier: 1 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (1467,   1,  40, 0, 0) /* Strength */
@@ -108,4 +108,4 @@ VALUES (1467,  94) /* ATTACK_NOTIFICATION_EVENT */
      , (1467, 414) /* PLAYER_DEATH_EVENT */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (1467, 1, 114, 600, 1, 1, 2, 72, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0);
+VALUES (1467, 1, 114, 600, 1, 1, 2, 72, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate UNKNOWN RANDOMLY GENERATED TREASURE (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: ContainTreasure */;

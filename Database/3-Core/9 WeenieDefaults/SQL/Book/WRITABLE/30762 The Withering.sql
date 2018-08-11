@@ -9,7 +9,7 @@ VALUES (30762,   1,       8192) /* ItemType - Writable */
      , (30762,  16,          8) /* ItemUseable - Contained */
      , (30762,  19,        100) /* Value */
      , (30762,  33,          0) /* Bonded - Normal */
-     , (30762,  93,       1044) /* PhysicsState */
+     , (30762,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (30762, 114,          0) /* Attuned - Normal */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)

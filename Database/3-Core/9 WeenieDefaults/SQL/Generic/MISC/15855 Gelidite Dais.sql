@@ -5,7 +5,7 @@ INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (15855,   1,        128) /* ItemType - Misc */
      , (15855,   8,          0) /* Mass */
      , (15855,  16,          1) /* ItemUseable - No */
-     , (15855,  93,       1044) /* PhysicsState */;
+     , (15855,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (15855,  22, True ) /* Inscribable */;

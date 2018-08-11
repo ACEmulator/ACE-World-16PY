@@ -4,8 +4,8 @@ VALUES ('21405', 'portalcitadelvalleyice', 7) /* Portal */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (21405,   1,      65536) /* ItemType - Portal */
      , (21405,  16,         32) /* ItemUseable - Remote */
-     , (21405,  93,       3084) /* PhysicsState */
-     , (21405, 111,         49) /* PortalBitmask */
+     , (21405,  93,       3084) /* PhysicsState - Ethereal, ReportCollisions, Gravity, LightingOn */
+     , (21405, 111,         49) /* PortalBitmask - Unrestricted, NoSummon, NoRecall */
      , (21405, 133,          4) /* ShowableOnRadar - ShowAlways */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)

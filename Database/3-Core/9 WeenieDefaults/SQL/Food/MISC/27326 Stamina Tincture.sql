@@ -16,9 +16,9 @@ VALUES (27326,   1,        128) /* ItemType - Misc */
      , (27326,  19,        100) /* Value */
      , (27326,  89,          4) /* BoosterEnum - Stamina */
      , (27326,  90,         60) /* BoostValue */
-     , (27326,  93,       1044) /* PhysicsState */
+     , (27326,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (27326, 150,        103) /* HookPlacement - Hook */
-     , (27326, 151,         11) /* HookType */;
+     , (27326, 151,         11) /* HookType - Floor, Wall, Yard */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (27326,   1, 'Stamina Tincture') /* Name */

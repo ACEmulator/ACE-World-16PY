@@ -11,8 +11,8 @@ VALUES (8562,   1,         16) /* ItemType - Creature */
      , (8562,  27,          0) /* ArmorType */
      , (8562,  40,          1) /* CombatMode - NonCombat */
      , (8562,  68,          5) /* TargetingTactic */
-     , (8562,  93,       1032) /* PhysicsState */
-     , (8562, 101,        183) /* AiAllowedCombatStyle */
+     , (8562,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
+     , (8562, 101,        183) /* AiAllowedCombatStyle - Unarmed, OneHanded, OneHandedAndShield, Bow, Crossbow, ThrownWeapon */
      , (8562, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (8562, 140,          1) /* AiOptions */
      , (8562, 146,       4292) /* XpOverride */;
@@ -67,8 +67,10 @@ VALUES (8562,   1,   33555464) /* Setup */
      , (8562,   4,  805306368) /* CombatTable */
      , (8562,   8,  100669124) /* Icon */
      , (8562,  22,  872415269) /* PhysicsEffectTable */
-     , (8562,  32,        336) /* WieldedTreasureType */
-     , (8562,  35,        451) /* DeathTreasureType */;
+     , (8562,  32,        336) /* WieldedTreasureType - 
+                                   Wield Dericostian Longbow (8560) | Probability: 100%
+                                   Wield 20x Arrow (300) | Probability: 100% */
+     , (8562,  35,        451) /* DeathTreasureType - Loot Tier: 2 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (8562,   1, 135, 0, 0) /* Strength */
@@ -174,4 +176,4 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 1090519060 /* Sleeping */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (8562, 2,  8560,  0, 0, 0, False) /* Create Dericostian Longbow for Wield */;
+VALUES (8562, 2,  8560,  0, 0, 0, False) /* Create Dericostian Longbow (8560) for Wield */;

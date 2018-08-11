@@ -14,13 +14,13 @@ VALUES (25543,   1,        128) /* ItemType - Misc */
      , (25543,  15,        500) /* StackUnitValue */
      , (25543,  16,          8) /* ItemUseable - Contained */
      , (25543,  19,        500) /* Value */
-     , (25543,  93,       1044) /* PhysicsState */
+     , (25543,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (25543, 106,        300) /* ItemSpellcraft */
      , (25543, 107,        100) /* ItemCurMana */
      , (25543, 108,        100) /* ItemMaxMana */
      , (25543, 109,          0) /* ItemDifficulty */
      , (25543, 150,        103) /* HookPlacement - Hook */
-     , (25543, 151,         11) /* HookType */;
+     , (25543, 151,         11) /* HookType - Floor, Wall, Yard */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (25543,   1, 'Potion of Destiny''s Wind') /* Name */

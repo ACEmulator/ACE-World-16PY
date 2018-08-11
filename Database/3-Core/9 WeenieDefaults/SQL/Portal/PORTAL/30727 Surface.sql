@@ -4,8 +4,8 @@ VALUES ('30727', 'portalassaultroyalvaultweakenedexit', 7) /* Portal */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (30727,   1,      65536) /* ItemType - Portal */
      , (30727,  16,         32) /* ItemUseable - Remote */
-     , (30727,  93,       3084) /* PhysicsState */
-     , (30727, 111,         49) /* PortalBitmask */
+     , (30727,  93,       3084) /* PhysicsState - Ethereal, ReportCollisions, Gravity, LightingOn */
+     , (30727, 111,         49) /* PortalBitmask - Unrestricted, NoSummon, NoRecall */
      , (30727, 133,          4) /* ShowableOnRadar - ShowAlways */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)

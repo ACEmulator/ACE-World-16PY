@@ -10,10 +10,10 @@ VALUES (717,   1,         16) /* ItemType - Creature */
      , (717,  16,         32) /* ItemUseable - Remote */
      , (717,  25,          3) /* Level */
      , (717,  27,          0) /* ArmorType */
-     , (717,  74,     270336) /* MerchandiseItemTypes */
+     , (717,  74,     270336) /* MerchandiseItemTypes - Writable, PromissoryNote */
      , (717,  75,          0) /* MerchandiseMinValue */
      , (717,  76,    1000000) /* MerchandiseMaxValue */
-     , (717,  93,    2098200) /* PhysicsState */
+     , (717,  93,    2098200) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */
      , (717, 126,        500) /* VendorHappyMean */
      , (717, 127,        250) /* VendorHappyVariance */
      , (717, 133,          4) /* ShowableOnRadar - ShowAlways */
@@ -163,22 +163,22 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 318767235 /* Nod */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (717, 2,   115,  0, 4, 0.6, False) /* Create Leather Boots for Wield */
-     , (717, 2,   127,  0, 8, 0.67, False) /* Create Pants for Wield */
-     , (717, 2,   134,  0, 8, 0.67, False) /* Create Tunic for Wield */
-     , (717, 4,   364, -1, 0, 0, False) /* Create Book for Shop */
-     , (717, 4,   365, -1, 0, 0, False) /* Create Parchment for Shop */
-     , (717, 4,   367, -1, 0, 0, False) /* Create Tome for Shop */
-     , (717, 4,  5583, -1, 0, 0, False) /* Create Aluvian Cookbook for Shop */
-     , (717, 4,  5586, -1, 0, 0, False) /* Create Alchemy Guide for Shop */
-     , (717, 4,  5587, -1, 0, 0, False) /* Create Fletching Guide for Shop */
-     , (717, 4,  5602, -1, 0, 0, False) /* Create The Festival Stones of the Empyrean for Shop */
-     , (717, 4,  5856, -1, 0, 0, False) /* Create Specialty Cookbook for Shop */
-     , (717, 4,  6419, -1, 0, 0, False) /* Create The Meeting Halls for Shop */
-     , (717, 4,  7884, -1, 0, 0, False) /* Create Chocolate Cookbook for Shop */
-     , (717, 4,  9118, -1, 0, 0, False) /* Create Puppet Show for Shop */
-     , (717, 4,  9124, -1, 0, 0, False) /* Create The Beginning for Shop */
-     , (717, 4,  9319, -1, 0, 0, False) /* Create Mnemosynes and the Art of Lockpicking for Shop */
-     , (717, 2, 10696,  0, 18, 1, False) /* Create Apron for Wield */
-     , (717, 4, 14797, -1, 0, 0, False) /* Create Festival Cookbook for Shop */
-     , (717, 4, 27851, -1, 0, 0, False) /* Create The Weapons of the Singularity for Shop */;
+VALUES (717, 2,   115,  0, 4, 0.6, False) /* Create Leather Boots (115) for Wield */
+     , (717, 2,   127,  0, 8, 0.67, False) /* Create Pants (127) for Wield */
+     , (717, 2,   134,  0, 8, 0.67, False) /* Create Tunic (134) for Wield */
+     , (717, 4,   364, -1, 0, 0, False) /* Create Book (364) for Shop */
+     , (717, 4,   365, -1, 0, 0, False) /* Create Parchment (365) for Shop */
+     , (717, 4,   367, -1, 0, 0, False) /* Create Tome (367) for Shop */
+     , (717, 4,  5583, -1, 0, 0, False) /* Create Aluvian Cookbook (5583) for Shop */
+     , (717, 4,  5586, -1, 0, 0, False) /* Create Alchemy Guide (5586) for Shop */
+     , (717, 4,  5587, -1, 0, 0, False) /* Create Fletching Guide (5587) for Shop */
+     , (717, 4,  5602, -1, 0, 0, False) /* Create The Festival Stones of the Empyrean (5602) for Shop */
+     , (717, 4,  5856, -1, 0, 0, False) /* Create Specialty Cookbook (5856) for Shop */
+     , (717, 4,  6419, -1, 0, 0, False) /* Create The Meeting Halls (6419) for Shop */
+     , (717, 4,  7884, -1, 0, 0, False) /* Create Chocolate Cookbook (7884) for Shop */
+     , (717, 4,  9118, -1, 0, 0, False) /* Create Puppet Show (9118) for Shop */
+     , (717, 4,  9124, -1, 0, 0, False) /* Create The Beginning (9124) for Shop */
+     , (717, 4,  9319, -1, 0, 0, False) /* Create Mnemosynes and the Art of Lockpicking (9319) for Shop */
+     , (717, 2, 10696,  0, 18, 1, False) /* Create Apron (10696) for Wield */
+     , (717, 4, 14797, -1, 0, 0, False) /* Create Festival Cookbook (14797) for Shop */
+     , (717, 4, 27851, -1, 0, 0, False) /* Create The Weapons of the Singularity (27851) for Shop */;

@@ -12,8 +12,8 @@ VALUES (1322,   1,         16) /* ItemType - Creature */
      , (1322,  27,          0) /* ArmorType */
      , (1322,  40,          2) /* CombatMode - Melee */
      , (1322,  68,          5) /* TargetingTactic */
-     , (1322,  93,       1032) /* PhysicsState */
-     , (1322, 101,        131) /* AiAllowedCombatStyle */
+     , (1322,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
+     , (1322, 101,        131) /* AiAllowedCombatStyle - Unarmed, OneHanded, ThrownWeapon */
      , (1322, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (1322, 146,         21) /* XpOverride */;
 
@@ -68,8 +68,24 @@ VALUES (1322,   1,   33556445) /* Setup */
      , (1322,   7,  268435973) /* ClothingBase */
      , (1322,   8,  100667445) /* Icon */
      , (1322,  22,  872415258) /* PhysicsEffectTable */
-     , (1322,  32,         84) /* WieldedTreasureType */
-     , (1322,  35,         83) /* DeathTreasureType */;
+     , (1322,  32,         84) /* WieldedTreasureType - 
+                                   Wield Club (309) | Probability: 15%
+                                   Wield Dabus (313) | Probability: 3%
+                                   Wield Dagger (314) | Probability: 10%
+                                   Wield Kasrullah (325) | Probability: 15%
+                                   Wield Khanjar (328) | Probability: 10%
+                                   Wield Mace (331) | Probability: 4%
+                                   Wield Short Sword (352) | Probability: 7%
+                                   Wield Simi (345) | Probability: 7%
+                                   Wield Tofun (356) | Probability: 3%
+                                   Wield Yaoji (361) | Probability: 6%
+                                   Wield 10x Throwing Dart (316) | Probability: 5%
+                                   Wield 10x Shouken (343) | Probability: 4%
+                                   Wield 6x Throwing Dagger (315) | Probability: 5%
+                                   Wield 4x Javelin (320) | Probability: 2%
+                                   Wield Djarid (317) | Probability: 1%
+                                   Wield 4x Throwing Club (310) | Probability: 1% */
+     , (1322,  35,         83) /* DeathTreasureType - Loot Tier: 1 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (1322,   1,  30, 0, 0) /* Strength */
@@ -147,4 +163,4 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 268435537 /* Twitch1 */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (1322, 1,  1319,  0, 0, 0, False) /* Create Key for Contain */;
+VALUES (1322, 1,  1319,  0, 0, 0, False) /* Create Key (1319) for Contain */;

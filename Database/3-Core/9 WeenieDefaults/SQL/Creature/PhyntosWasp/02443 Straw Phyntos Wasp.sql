@@ -12,7 +12,7 @@ VALUES (2443,   1,         16) /* ItemType - Creature */
      , (2443,  40,          2) /* CombatMode - Melee */
      , (2443,  67,          1) /* Tolerance */
      , (2443,  68,         15) /* TargetingTactic */
-     , (2443,  93,       1032) /* PhysicsState */
+     , (2443,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (2443, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (2443, 146,          0) /* XpOverride */;
 

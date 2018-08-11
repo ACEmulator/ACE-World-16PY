@@ -4,8 +4,8 @@ VALUES ('30817', 'portalcauloasis', 7) /* Portal */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (30817,   1,      65536) /* ItemType - Portal */
      , (30817,  16,         32) /* ItemUseable - Remote */
-     , (30817,  93,       3084) /* PhysicsState */
-     , (30817, 111,         49) /* PortalBitmask */
+     , (30817,  93,       3084) /* PhysicsState - Ethereal, ReportCollisions, Gravity, LightingOn */
+     , (30817, 111,         49) /* PortalBitmask - Unrestricted, NoSummon, NoRecall */
      , (30817, 133,          4) /* ShowableOnRadar - ShowAlways */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)

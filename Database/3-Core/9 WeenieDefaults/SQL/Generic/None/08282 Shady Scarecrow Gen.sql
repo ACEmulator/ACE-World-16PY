@@ -4,7 +4,7 @@ VALUES ('8282', 'scarecrowshadygen', 1) /* Generic */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (8282,  81,          1) /* MaxGeneratedObjects */
      , (8282,  82,          1) /* InitGeneratedObjects */
-     , (8282,  93,       1044) /* PhysicsState */;
+     , (8282,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (8282,   1, True ) /* Stuck */
@@ -23,5 +23,5 @@ VALUES (8282,   1,   33555051) /* Setup */
      , (8282,   8,  100667494) /* Icon */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (8282, 0.3, 8274, 1800, 1, 1, 1, 4, -1, 0, 0, 0, -5, 3.5, 0, -0.08715577, 0, 0, -0.9961947)
-     , (8282, 1, 8278, 1800, 1, 1, 1, 4, -1, 0, 0, 0, -3, -3.5, 0, -0.08715577, 0, 0, -0.9961947);
+VALUES (8282, 0.3, 8274, 1800, 1, 1, 1, 4, -1, 0, 0, 0, -5, 3.5, 0, -0.08715577, 0, 0, -0.9961947) /* Generate Shady Scarecrow (8274) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
+     , (8282, 1, 8278, 1800, 1, 1, 1, 4, -1, 0, 0, 0, -3, -3.5, 0, -0.08715577, 0, 0, -0.9961947) /* Generate Scarecrow (8278) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */;

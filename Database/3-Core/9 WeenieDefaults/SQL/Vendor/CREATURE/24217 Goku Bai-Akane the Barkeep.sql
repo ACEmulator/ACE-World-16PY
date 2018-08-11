@@ -10,10 +10,10 @@ VALUES (24217,   1,         16) /* ItemType - Creature */
      , (24217,  16,         32) /* ItemUseable - Remote */
      , (24217,  25,          6) /* Level */
      , (24217,  27,          0) /* ArmorType */
-     , (24217,  74,     278560) /* MerchandiseItemTypes */
+     , (24217,  74,     278560) /* MerchandiseItemTypes - Food, Key, PromissoryNote */
      , (24217,  75,          0) /* MerchandiseMinValue */
      , (24217,  76,    1000000) /* MerchandiseMaxValue */
-     , (24217,  93,    2098200) /* PhysicsState */
+     , (24217,  93,    2098200) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */
      , (24217, 126,        250) /* VendorHappyMean */
      , (24217, 127,        250) /* VendorHappyVariance */
      , (24217, 133,          4) /* ShowableOnRadar - ShowAlways */
@@ -272,18 +272,18 @@ VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 318767229 /* BowDeep */, NULL, N
      , (@parent_id,  1,  10 /* Tell */, 0, 1, NULL, 'May the Unicorn grace you with a compassionate eye, so you may seek those in need and help them.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (24217, 2,   117,  0, 9, 0.5, False) /* Create Breeches for Wield */
-     , (24217, 2,   134,  0, 9, 0.5, False) /* Create Tunic for Wield */
-     , (24217, 4,  2451, -1, 0, 0, False) /* Create Ale for Shop */
-     , (24217, 4,  2456, -1, 0, 0, False) /* Create Green Tea for Shop */
-     , (24217, 4,  2463, -1, 0, 0, False) /* Create Milk for Shop */
-     , (24217, 4,  2468, -1, 0, 0, False) /* Create Sake for Shop */
-     , (24217, 2,  2606,  0, 14, 0.8, False) /* Create Boots for Wield */
-     , (24217, 4,  4711, -1, 0, 0, False) /* Create Beef Noodle for Shop */
-     , (24217, 4,  4733, -1, 0, 0, False) /* Create Kimchi for Shop */
-     , (24217, 4,  4738, -1, 0, 0, False) /* Create Mushroom Rice for Shop */
-     , (24217, 4,  4746, -1, 0, 0, False) /* Create Water for Shop */
-     , (24217, 4,  8378, -1, 0, 0, False) /* Create Beer Stein for Shop */
-     , (24217, 2, 10696,  0, 16, 0.5, False) /* Create Apron for Wield */
-     , (24217, 4, 30742, -1, 0, 0, False) /* Create The Littlest Niffis for Shop */
-     , (24217, 4, 30743, -1, 0, 0, False) /* Create Suzuhara Baijin's Delivery for Shop */;
+VALUES (24217, 2,   117,  0, 9, 0.5, False) /* Create Breeches (117) for Wield */
+     , (24217, 2,   134,  0, 9, 0.5, False) /* Create Tunic (134) for Wield */
+     , (24217, 4,  2451, -1, 0, 0, False) /* Create Ale (2451) for Shop */
+     , (24217, 4,  2456, -1, 0, 0, False) /* Create Green Tea (2456) for Shop */
+     , (24217, 4,  2463, -1, 0, 0, False) /* Create Milk (2463) for Shop */
+     , (24217, 4,  2468, -1, 0, 0, False) /* Create Sake (2468) for Shop */
+     , (24217, 2,  2606,  0, 14, 0.8, False) /* Create Boots (2606) for Wield */
+     , (24217, 4,  4711, -1, 0, 0, False) /* Create Beef Noodle (4711) for Shop */
+     , (24217, 4,  4733, -1, 0, 0, False) /* Create Kimchi (4733) for Shop */
+     , (24217, 4,  4738, -1, 0, 0, False) /* Create Mushroom Rice (4738) for Shop */
+     , (24217, 4,  4746, -1, 0, 0, False) /* Create Water (4746) for Shop */
+     , (24217, 4,  8378, -1, 0, 0, False) /* Create Beer Stein (8378) for Shop */
+     , (24217, 2, 10696,  0, 16, 0.5, False) /* Create Apron (10696) for Wield */
+     , (24217, 4, 30742, -1, 0, 0, False) /* Create The Littlest Niffis (30742) for Shop */
+     , (24217, 4, 30743, -1, 0, 0, False) /* Create Suzuhara Baijin's Delivery (30743) for Shop */;

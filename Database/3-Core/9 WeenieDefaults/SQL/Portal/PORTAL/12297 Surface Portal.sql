@@ -4,7 +4,7 @@ VALUES ('12297', 'portalpyrealrepositoryexit', 7) /* Portal */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (12297,   1,      65536) /* ItemType - Portal */
      , (12297,  16,         32) /* ItemUseable - Remote */
-     , (12297,  93,       3084) /* PhysicsState */
+     , (12297,  93,       3084) /* PhysicsState - Ethereal, ReportCollisions, Gravity, LightingOn */
      , (12297, 111,          1) /* PortalBitmask - Unrestricted */
      , (12297, 133,          4) /* ShowableOnRadar - ShowAlways */;
 

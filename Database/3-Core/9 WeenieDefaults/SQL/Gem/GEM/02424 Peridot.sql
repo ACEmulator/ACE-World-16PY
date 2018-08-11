@@ -14,7 +14,7 @@ VALUES (2424,   1,       2048) /* ItemType - Gem */
      , (2424,  15,        250) /* StackUnitValue */
      , (2424,  16,          1) /* ItemUseable - No */
      , (2424,  19,        250) /* Value */
-     , (2424,  93,       1044) /* PhysicsState */
+     , (2424,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (2424, 131,         34) /* MaterialType - Peridot */
      , (2424, 169,   16777216) /* TsysMutationData */;
 

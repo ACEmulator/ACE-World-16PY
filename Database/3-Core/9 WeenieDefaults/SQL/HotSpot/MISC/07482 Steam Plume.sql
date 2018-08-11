@@ -10,7 +10,7 @@ VALUES (7482,   1,        128) /* ItemType - Misc */
      , (7482,  19,          1) /* Value */
      , (7482,  44,          9) /* Damage */
      , (7482,  45,         16) /* DamageType - Fire */
-     , (7482,  93,         12) /* PhysicsState */
+     , (7482,  93,         12) /* PhysicsState - Ethereal, ReportCollisions */
      , (7482, 119,          0) /* Active */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)

@@ -11,7 +11,7 @@ VALUES (23570,   1,         16) /* ItemType - Creature */
      , (23570,  25,        235) /* Level */
      , (23570,  27,          0) /* ArmorType */
      , (23570,  68,          3) /* TargetingTactic */
-     , (23570,  93,       1032) /* PhysicsState */
+     , (23570,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (23570, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (23570, 140,          1) /* AiOptions */
      , (23570, 146,    1292189) /* XpOverride */;
@@ -69,7 +69,7 @@ VALUES (23570,   1,   33558343) /* Setup */
      , (23570,   7,  268436609) /* ClothingBase */
      , (23570,   8,  100674323) /* Icon */
      , (23570,  22,  872415273) /* PhysicsEffectTable */
-     , (23570,  35,         26) /* DeathTreasureType */;
+     , (23570,  35,         26) /* DeathTreasureType - Loot Tier: 6 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (23570,   1, 340, 0, 0) /* Strength */
@@ -202,11 +202,11 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,  10 /* Tell */, 0, 1, NULL, '"Your soul creeps away for another day. But soon it shall be claimed in the name of the sheltering dark."', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (23570, 9,     0,  0, 0, 0.96, False) /* Create Unknown for ContainTreasure */
-     , (23570, 9,     0,  0, 0, 0.94, False) /* Create Unknown for ContainTreasure */
-     , (23570, 9,     0,  0, 0, 0.98, False) /* Create Unknown for ContainTreasure */
-     , (23570, 9,     0,  0, 0, 0.99, False) /* Create Unknown for ContainTreasure */
-     , (23570, 9,  7604,  0, 0, 0.04, False) /* Create Yellow Jewel for ContainTreasure */
-     , (23570, 9,  9292,  0, 0, 0.06, False) /* Create Virindi Singularity Key for ContainTreasure */
-     , (23570, 9, 23107,  0, 0, 0.01, False) /* Create Mangled Dark Key for ContainTreasure */
-     , (23570, 9, 23108,  0, 0, 0.02, False) /* Create Twisted Dark Key for ContainTreasure */;
+VALUES (23570, 9,     0,  0, 0, 0.96, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 6 for ContainTreasure */
+     , (23570, 9,     0,  0, 0, 0.94, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 6 for ContainTreasure */
+     , (23570, 9,     0,  0, 0, 0.98, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 6 for ContainTreasure */
+     , (23570, 9,     0,  0, 0, 0.99, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 6 for ContainTreasure */
+     , (23570, 9,  7604,  0, 0, 0.04, False) /* Create Yellow Jewel (7604) for ContainTreasure */
+     , (23570, 9,  9292,  0, 0, 0.06, False) /* Create Virindi Singularity Key (9292) for ContainTreasure */
+     , (23570, 9, 23107,  0, 0, 0.01, False) /* Create Mangled Dark Key (23107) for ContainTreasure */
+     , (23570, 9, 23108,  0, 0, 0.02, False) /* Create Twisted Dark Key (23108) for ContainTreasure */;

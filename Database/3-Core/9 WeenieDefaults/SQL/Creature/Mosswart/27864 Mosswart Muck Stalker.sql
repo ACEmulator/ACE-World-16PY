@@ -13,8 +13,8 @@ VALUES (27864,   1,         16) /* ItemType - Creature */
      , (27864,  40,          2) /* CombatMode - Melee */
      , (27864,  68,         13) /* TargetingTactic */
      , (27864,  72,         50) /* FriendType - Idol */
-     , (27864,  93,       1032) /* PhysicsState */
-     , (27864, 101,        131) /* AiAllowedCombatStyle */
+     , (27864,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
+     , (27864, 101,        131) /* AiAllowedCombatStyle - Unarmed, OneHanded, ThrownWeapon */
      , (27864, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (27864, 140,          1) /* AiOptions */
      , (27864, 146,      20197) /* XpOverride */;
@@ -70,7 +70,7 @@ VALUES (27864,   1,   33557327) /* Setup */
      , (27864,   7,  268436295) /* ClothingBase */
      , (27864,   8,  100667449) /* Icon */
      , (27864,  22,  872415264) /* PhysicsEffectTable */
-     , (27864,  35,        450) /* DeathTreasureType */;
+     , (27864,  35,        450) /* DeathTreasureType - Loot Tier: 3 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (27864,   1, 230, 0, 0) /* Strength */
@@ -177,16 +177,16 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 268435537 /* Twitch1 */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (27864, 9,     0,  0, 0, 0.75, False) /* Create Unknown for ContainTreasure */
-     , (27864, 9,     0,  0, 0, 0.95, False) /* Create Unknown for ContainTreasure */
-     , (27864, 9,     0,  0, 0, 0.98, False) /* Create Unknown for ContainTreasure */
-     , (27864, 9,     0,  0, 0, 0.97, False) /* Create Unknown for ContainTreasure */
-     , (27864, 9,  3694,  0, 0, 0.25, False) /* Create Swamp Stone for ContainTreasure */
-     , (27864, 9,  6876,  0, 0, 0.02, False) /* Create Sturdy Iron Key for ContainTreasure */
-     , (27864, 9,  7825,  0, 0, 0.05, False) /* Create Brown Beans for ContainTreasure */
-     , (27864, 9, 20854,  0, 0, 0.03, False) /* Create Academy Stamp for ContainTreasure */
-     , (27864, 10, 23676,  0, 0, 0.2, False) /* Create Katar for WieldTreasure */
-     , (27864, 10, 23690,  0, 0, 0.2, False) /* Create Acid Spear for WieldTreasure */
-     , (27864, 10, 23694,  0, 0, 0.2, False) /* Create Frost Spear for WieldTreasure */
-     , (27864, 10, 23702,  0, 0, 0.2, False) /* Create Tachi for WieldTreasure */
-     , (27864, 10, 23708,  0, 0, 0.2, False) /* Create Fire Tachi for WieldTreasure */;
+VALUES (27864, 9,     0,  0, 0, 0.75, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 3 for ContainTreasure */
+     , (27864, 9,     0,  0, 0, 0.95, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 3 for ContainTreasure */
+     , (27864, 9,     0,  0, 0, 0.98, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 3 for ContainTreasure */
+     , (27864, 9,     0,  0, 0, 0.97, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 3 for ContainTreasure */
+     , (27864, 9,  3694,  0, 0, 0.25, False) /* Create Swamp Stone (3694) for ContainTreasure */
+     , (27864, 9,  6876,  0, 0, 0.02, False) /* Create Sturdy Iron Key (6876) for ContainTreasure */
+     , (27864, 9,  7825,  0, 0, 0.05, False) /* Create Brown Beans (7825) for ContainTreasure */
+     , (27864, 9, 20854,  0, 0, 0.03, False) /* Create Academy Stamp (20854) for ContainTreasure */
+     , (27864, 10, 23676,  0, 0, 0.2, False) /* Create Katar (23676) for WieldTreasure */
+     , (27864, 10, 23690,  0, 0, 0.2, False) /* Create Acid Spear (23690) for WieldTreasure */
+     , (27864, 10, 23694,  0, 0, 0.2, False) /* Create Frost Spear (23694) for WieldTreasure */
+     , (27864, 10, 23702,  0, 0, 0.2, False) /* Create Tachi (23702) for WieldTreasure */
+     , (27864, 10, 23708,  0, 0, 0.2, False) /* Create Fire Tachi (23708) for WieldTreasure */;

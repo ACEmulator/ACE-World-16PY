@@ -10,7 +10,7 @@ VALUES (11810,   1,         16) /* ItemType - Creature */
      , (11810,  16,         32) /* ItemUseable - Remote */
      , (11810,  25,         33) /* Level */
      , (11810,  27,          0) /* ArmorType */
-     , (11810,  93,    6292504) /* PhysicsState */
+     , (11810,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (11810,  95,          8) /* RadarBlipColor - Yellow */
      , (11810, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (11810, 134,         16) /* PlayerKillerStatus - RubberGlue */
@@ -1201,10 +1201,10 @@ VALUES (@parent_id,  0,   3 /* Give */, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL
      , (@parent_id,  2,   3 /* Give */, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0, 22447 /* Treated Hyssop */, 10, 0, 0, False, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (11810, 2,    55,  0, 14, 1, False) /* Create Chainmail Gauntlets for Wield */
-     , (11810, 2,    85,  0, 14, 0.2, False) /* Create Chainmail Coif for Wield */
-     , (11810, 2,   107,  0, 14, 0.2, False) /* Create Sollerets for Wield */
-     , (11810, 2,   117,  0, 17, 1, False) /* Create Breeches for Wield */
-     , (11810, 2,  2591,  0, 9, 1, False) /* Create Shirt for Wield */
-     , (11810, 2,  6046,  0, 14, 0.5, False) /* Create Amuli Coat for Wield */
-     , (11810, 2,  6047,  0, 14, 0.5, False) /* Create Amuli Leggings for Wield */;
+VALUES (11810, 2,    55,  0, 14, 1, False) /* Create Chainmail Gauntlets (55) for Wield */
+     , (11810, 2,    85,  0, 14, 0.2, False) /* Create Chainmail Coif (85) for Wield */
+     , (11810, 2,   107,  0, 14, 0.2, False) /* Create Sollerets (107) for Wield */
+     , (11810, 2,   117,  0, 17, 1, False) /* Create Breeches (117) for Wield */
+     , (11810, 2,  2591,  0, 9, 1, False) /* Create Shirt (2591) for Wield */
+     , (11810, 2,  6046,  0, 14, 0.5, False) /* Create Amuli Coat (6046) for Wield */
+     , (11810, 2,  6047,  0, 14, 0.5, False) /* Create Amuli Leggings (6047) for Wield */;

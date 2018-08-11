@@ -4,7 +4,7 @@ VALUES ('22019', 'costumesclavus', 2) /* Clothing */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (22019,   1,          4) /* ItemType - Clothing */
      , (22019,   3,          4) /* PaletteTemplate - Brown */
-     , (22019,   4,      81664) /* ClothingPriority */
+     , (22019,   4,      81664) /* ClothingPriority - OuterwearUpperLegs, OuterwearLowerLegs, OuterwearChest, OuterwearAbdomen, OuterwearUpperArms, OuterwearLowerArms, Feet */
      , (22019,   5,       1400) /* EncumbranceVal */
      , (22019,   8,        150) /* Mass */
      , (22019,   9,      32512) /* ValidLocations - Armor */
@@ -12,9 +12,9 @@ VALUES (22019,   1,          4) /* ItemType - Clothing */
      , (22019,  19,       1000) /* Value */
      , (22019,  27,          1) /* ArmorType */
      , (22019,  28,         10) /* ArmorLevel */
-     , (22019,  93,       1044) /* PhysicsState */
+     , (22019,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (22019, 150,        103) /* HookPlacement - Hook */
-     , (22019, 151,          9) /* HookType */;
+     , (22019, 151,          9) /* HookType - Floor, Yard */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (22019,  22, True ) /* Inscribable */;

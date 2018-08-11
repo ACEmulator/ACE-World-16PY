@@ -12,8 +12,8 @@ VALUES (27506,   1,         16) /* ItemType - Creature */
      , (27506,  27,          0) /* ArmorType */
      , (27506,  68,          5) /* TargetingTactic */
      , (27506,  72,          6) /* FriendType - Tumerok */
-     , (27506,  93,       1032) /* PhysicsState */
-     , (27506, 101,        183) /* AiAllowedCombatStyle */
+     , (27506,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
+     , (27506, 101,        183) /* AiAllowedCombatStyle - Unarmed, OneHanded, OneHandedAndShield, Bow, Crossbow, ThrownWeapon */
      , (27506, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (27506, 140,          1) /* AiOptions */
      , (27506, 146,     292525) /* XpOverride */;
@@ -72,8 +72,14 @@ VALUES (27506,   1,   33554496) /* Setup */
      , (27506,   7,  268436631) /* ClothingBase */
      , (27506,   8,  100667452) /* Icon */
      , (27506,  22,  872415270) /* PhysicsEffectTable */
-     , (27506,  32,        426) /* WieldedTreasureType */
-     , (27506,  35,        449) /* DeathTreasureType */;
+     , (27506,  32,        426) /* WieldedTreasureType - 
+                                   Wield Tachi (23136) | Probability: 30%
+                                   Wield Kite Shield (23135) | Probability: 100%
+                                   Wield Yumi (23137) | Probability: 30%
+                                   Wield 20x Deadly Arrow (15429) | Probability: 100%
+                                   Wield Heavy Crossbow (23131) | Probability: 30%
+                                   Wield 50x Deadly Quarrel (15438) | Probability: 100% */
+     , (27506,  35,        449) /* DeathTreasureType - Loot Tier: 6 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (27506,   1, 300, 0, 0) /* Strength */
@@ -146,5 +152,5 @@ VALUES (27506,  94) /* ATTACK_NOTIFICATION_EVENT */
      , (27506, 414) /* PLAYER_DEATH_EVENT */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (27506, 9,     0,  0, 0, 0.985, False) /* Create Unknown for ContainTreasure */
-     , (27506, 9, 27305,  0, 0, 0.015, False) /* Create Forbidden Key for ContainTreasure */;
+VALUES (27506, 9,     0,  0, 0, 0.985, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 6 for ContainTreasure */
+     , (27506, 9, 27305,  0, 0, 0.015, False) /* Create Forbidden Key (27305) for ContainTreasure */;

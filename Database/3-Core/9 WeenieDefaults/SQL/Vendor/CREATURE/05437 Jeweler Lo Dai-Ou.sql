@@ -10,10 +10,10 @@ VALUES (5437,   1,         16) /* ItemType - Creature */
      , (5437,  16,         32) /* ItemUseable - Remote */
      , (5437,  25,          6) /* Level */
      , (5437,  27,          0) /* ArmorType */
-     , (5437,  74,     264200) /* MerchandiseItemTypes */
+     , (5437,  74,     264200) /* MerchandiseItemTypes - Jewelry, Gem, PromissoryNote */
      , (5437,  75,          0) /* MerchandiseMinValue */
      , (5437,  76,     100000) /* MerchandiseMaxValue */
-     , (5437,  93,    2098200) /* PhysicsState */
+     , (5437,  93,    2098200) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */
      , (5437, 126,        400) /* VendorHappyMean */
      , (5437, 127,        250) /* VendorHappyVariance */
      , (5437, 133,          4) /* ShowableOnRadar - ShowAlways */
@@ -163,15 +163,15 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 318767235 /* Nod */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (5437, 2,   118,  0, 16, 1, False) /* Create Cap for Wield */
-     , (5437, 2,   132,  0, 16, 1, False) /* Create Shoes for Wield */
-     , (5437, 4,   295, -1, 0, 0, False) /* Create Bracelet for Shop */
-     , (5437, 4,   297, -1, 0, 0, False) /* Create Ring for Shop */
-     , (5437, 4,  2393, -1, 0, 0, False) /* Create Amethyst for Shop */
-     , (5437, 4,  2413, -1, 0, 0, False) /* Create Agate for Shop */
-     , (5437, 2,  2587,  0, 9, 0.5, False) /* Create Shirt for Wield */
-     , (5437, 2,  2598,  0, 9, 0, False) /* Create Pants for Wield */
-     , (5437, 4,  2621, -1, 0, 0, False) /* Create Trade Note (100) for Shop */
-     , (5437, 4,  2622, -1, 0, 0, False) /* Create Trade Note (500) for Shop */
-     , (5437, 4,  2623, -1, 0, 0, False) /* Create Trade Note (1,000) for Shop */
-     , (5437, 2, 10696,  0, 9, 0, False) /* Create Apron for Wield */;
+VALUES (5437, 2,   118,  0, 16, 1, False) /* Create Cap (118) for Wield */
+     , (5437, 2,   132,  0, 16, 1, False) /* Create Shoes (132) for Wield */
+     , (5437, 4,   295, -1, 0, 0, False) /* Create Bracelet (295) for Shop */
+     , (5437, 4,   297, -1, 0, 0, False) /* Create Ring (297) for Shop */
+     , (5437, 4,  2393, -1, 0, 0, False) /* Create Amethyst (2393) for Shop */
+     , (5437, 4,  2413, -1, 0, 0, False) /* Create Agate (2413) for Shop */
+     , (5437, 2,  2587,  0, 9, 0.5, False) /* Create Shirt (2587) for Wield */
+     , (5437, 2,  2598,  0, 9, 0, False) /* Create Pants (2598) for Wield */
+     , (5437, 4,  2621, -1, 0, 0, False) /* Create Trade Note (100) (2621) for Shop */
+     , (5437, 4,  2622, -1, 0, 0, False) /* Create Trade Note (500) (2622) for Shop */
+     , (5437, 4,  2623, -1, 0, 0, False) /* Create Trade Note (1,000) (2623) for Shop */
+     , (5437, 2, 10696,  0, 9, 0, False) /* Create Apron (10696) for Wield */;

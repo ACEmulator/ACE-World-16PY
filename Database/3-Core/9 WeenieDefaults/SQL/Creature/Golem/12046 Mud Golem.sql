@@ -12,7 +12,7 @@ VALUES (12046,   1,         16) /* ItemType - Creature */
      , (12046,  27,          0) /* ArmorType */
      , (12046,  40,          2) /* CombatMode - Melee */
      , (12046,  68,          9) /* TargetingTactic */
-     , (12046,  93,       1032) /* PhysicsState */
+     , (12046,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (12046, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (12046, 146,        152) /* XpOverride */;
 
@@ -67,7 +67,7 @@ VALUES (12046,   1,   33556426) /* Setup */
      , (12046,   7,  268435982) /* ClothingBase */
      , (12046,   8,  100667940) /* Icon */
      , (12046,  22,  872415326) /* PhysicsEffectTable */
-     , (12046,  35,        465) /* DeathTreasureType */;
+     , (12046,  35,        465) /* DeathTreasureType - Loot Tier: 1 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (12046,   1,  50, 0, 0) /* Strength */
@@ -117,9 +117,9 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 268435537 /* Twitch1 */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (12046, 9,     0,  0, 0, 0, False) /* Create Unknown for ContainTreasure */
-     , (12046, 9,     0,  0, 0, 0, False) /* Create Unknown for ContainTreasure */
-     , (12046, 9,     0,  0, 0, 0, False) /* Create Unknown for ContainTreasure */
-     , (12046, 9,  6353,  1, 0, 1, False) /* Create Pyreal Mote for ContainTreasure */
-     , (12046, 9, 12049,  0, 0, 1, False) /* Create Rotted Golem Tooth for ContainTreasure */
-     , (12046, 9, 13222,  5, 0, 1, False) /* Create Peppermint Stick for ContainTreasure */;
+VALUES (12046, 9,     0,  0, 0, 0, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 1 for ContainTreasure */
+     , (12046, 9,     0,  0, 0, 0, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 1 for ContainTreasure */
+     , (12046, 9,     0,  0, 0, 0, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 1 for ContainTreasure */
+     , (12046, 9,  6353,  1, 0, 1, False) /* Create Pyreal Mote (6353) for ContainTreasure */
+     , (12046, 9, 12049,  0, 0, 1, False) /* Create Rotted Golem Tooth (12049) for ContainTreasure */
+     , (12046, 9, 13222,  5, 0, 1, False) /* Create Peppermint Stick (13222) for ContainTreasure */;

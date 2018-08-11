@@ -10,7 +10,7 @@ VALUES (7560,   1,         16) /* ItemType - Creature */
      , (7560,  16,         32) /* ItemUseable - Remote */
      , (7560,  25,         58) /* Level */
      , (7560,  27,          0) /* ArmorType */
-     , (7560,  93,    6292504) /* PhysicsState */
+     , (7560,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (7560,  95,          8) /* RadarBlipColor - Yellow */
      , (7560, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (7560, 134,         16) /* PlayerKillerStatus - RubberGlue */
@@ -463,7 +463,7 @@ VALUES (@parent_id,  0,  12 /* TurnToTarget */, 0, 1, NULL, NULL, NULL, NULL, NU
      , (@parent_id,  2,   3 /* Give */, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0, 7530 /* Chunk of High-Grade Chorizite */, 1, 0, 0, False, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (7560, 2,   115,  0, 4, 0.4, False) /* Create Leather Boots for Wield */
-     , (7560, 2,   130,  0, 4, 0, False) /* Create Shirt for Wield */
-     , (7560, 2,  2597,  0, 14, 0, False) /* Create Pants for Wield */
-     , (7560, 2,  5894,  0, 2, 0, False) /* Create Fez for Wield */;
+VALUES (7560, 2,   115,  0, 4, 0.4, False) /* Create Leather Boots (115) for Wield */
+     , (7560, 2,   130,  0, 4, 0, False) /* Create Shirt (130) for Wield */
+     , (7560, 2,  2597,  0, 14, 0, False) /* Create Pants (2597) for Wield */
+     , (7560, 2,  5894,  0, 2, 0, False) /* Create Fez (5894) for Wield */;

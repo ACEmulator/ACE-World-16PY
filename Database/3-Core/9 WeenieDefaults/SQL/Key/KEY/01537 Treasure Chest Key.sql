@@ -10,8 +10,8 @@ VALUES (1537,   1,      16384) /* ItemType - Key */
      , (1537,  33,          1) /* Bonded - Bonded */
      , (1537,  91,          1) /* MaxStructure */
      , (1537,  92,          1) /* Structure */
-     , (1537,  93,       1044) /* PhysicsState */
-     , (1537,  94,        640) /* TargetType - LockableMagicTarget */
+     , (1537,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (1537,  94,        640) /* TargetType - 640 */
      , (1537, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)

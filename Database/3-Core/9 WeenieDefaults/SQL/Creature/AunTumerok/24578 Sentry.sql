@@ -11,7 +11,7 @@ VALUES (24578,   1,         16) /* ItemType - Creature */
      , (24578,  16,         32) /* ItemUseable - Remote */
      , (24578,  25,         60) /* Level */
      , (24578,  27,          0) /* ArmorType */
-     , (24578,  93,    6292504) /* PhysicsState */
+     , (24578,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (24578,  95,          8) /* RadarBlipColor - Yellow */
      , (24578, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (24578, 134,         16) /* PlayerKillerStatus - RubberGlue */
@@ -134,4 +134,4 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,  10 /* Tell */, 0, 1, NULL, 'Go bug the gate guard or something. Can''t you see I''m trying to defend the town from hordes of creatures bent upon our destruction?', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (24578, 2,   311,  0, 0, 0, False) /* Create Heavy Crossbow for Wield */;
+VALUES (24578, 2,   311,  0, 0, 0, False) /* Create Heavy Crossbow (311) for Wield */;

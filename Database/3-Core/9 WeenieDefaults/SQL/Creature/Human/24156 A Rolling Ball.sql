@@ -10,7 +10,7 @@ VALUES (24156,   1,         16) /* ItemType - Creature */
      , (24156,  16,          1) /* ItemUseable - No */
      , (24156,  25,         28) /* Level */
      , (24156,  27,          0) /* ArmorType */
-     , (24156,  93,    6292508) /* PhysicsState */
+     , (24156,  93,    6292508) /* PhysicsState - Ethereal, ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (24156,  95,          8) /* RadarBlipColor - Yellow */
      , (24156, 133,          0) /* ShowableOnRadar - Undefined */
      , (24156, 134,         16) /* PlayerKillerStatus - RubberGlue */

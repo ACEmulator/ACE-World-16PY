@@ -13,8 +13,8 @@ VALUES (20855,   1,        128) /* ItemType - Misc */
      , (20855,  15,        100) /* StackUnitValue */
      , (20855,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
      , (20855,  19,        100) /* Value */
-     , (20855,  93,       1044) /* PhysicsState */
-     , (20855,  94,          6) /* TargetType - Vestements */
+     , (20855,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (20855,  94,          6) /* TargetType - Tumerok */
      , (20855, 150,        103) /* HookPlacement - Hook */
      , (20855, 151,          2) /* HookType - Wall */;
 

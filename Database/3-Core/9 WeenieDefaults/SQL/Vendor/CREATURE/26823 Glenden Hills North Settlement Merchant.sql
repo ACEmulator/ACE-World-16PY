@@ -10,10 +10,10 @@ VALUES (26823,   1,         16) /* ItemType - Creature */
      , (26823,  16,         32) /* ItemUseable - Remote */
      , (26823,  25,         10) /* Level */
      , (26823,  27,          0) /* ArmorType */
-     , (26823,  74,     264192) /* MerchandiseItemTypes */
+     , (26823,  74,     264192) /* MerchandiseItemTypes - Gem, PromissoryNote */
      , (26823,  75,          0) /* MerchandiseMinValue */
      , (26823,  76,    1000000) /* MerchandiseMaxValue */
-     , (26823,  93,    2098204) /* PhysicsState */
+     , (26823,  93,    2098204) /* PhysicsState - Ethereal, ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */
      , (26823, 126,        125) /* VendorHappyMean */
      , (26823, 127,        125) /* VendorHappyVariance */
      , (26823, 133,          4) /* ShowableOnRadar - ShowAlways */
@@ -97,4 +97,4 @@ VALUES (26823,  0,  4,  0,    0,    0,    0,    0,    0,    0,    0,    0,    0,
      , (26823,  8,  4,  2, 0.75,    0,    0,    0,    0,    0,    0,    0,    0,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (26823, 4, 26188, -1, 0, 0, False) /* Create Glenden Hills North Settlement Portal Gem for Shop */;
+VALUES (26823, 4, 26188, -1, 0, 0, False) /* Create Glenden Hills North Settlement Portal Gem (26188) for Shop */;

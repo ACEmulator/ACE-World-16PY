@@ -13,8 +13,8 @@ VALUES (7401,   1,         16) /* ItemType - Creature */
      , (7401,  67,         64) /* Tolerance */
      , (7401,  68,          5) /* TargetingTactic */
      , (7401,  69,          4) /* CombatTactic */
-     , (7401,  93,       1032) /* PhysicsState */
-     , (7401, 101,        183) /* AiAllowedCombatStyle */
+     , (7401,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
+     , (7401, 101,        183) /* AiAllowedCombatStyle - Unarmed, OneHanded, OneHandedAndShield, Bow, Crossbow, ThrownWeapon */
      , (7401, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (7401, 140,          1) /* AiOptions */
      , (7401, 146,      26000) /* XpOverride */;
@@ -66,8 +66,12 @@ VALUES (7401,   1,   33555465) /* Setup */
      , (7401,   4,  805306368) /* CombatTable */
      , (7401,   8,  100669124) /* Icon */
      , (7401,  22,  872415269) /* PhysicsEffectTable */
-     , (7401,  32,        311) /* WieldedTreasureType */
-     , (7401,  35,        448) /* DeathTreasureType */;
+     , (7401,  32,        311) /* WieldedTreasureType - 
+                                   Wield Yumi (23736) | Probability: 50%
+                                   Wield 16x Greater Fire Arrow (5305) | Probability: 100%
+                                   Wield Kite Shield (23686) | Probability: 50%
+                                   Wield Fire Tachi (23708) | Probability: 50% */
+     , (7401,  35,        448) /* DeathTreasureType - Loot Tier: 4 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (7401,   1, 300, 0, 0) /* Strength */
@@ -216,5 +220,5 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,  17 /* LocalBroadcast */, 0, 0, NULL, 'In your mind, the dusty voice of Ejan whispers, "Yes, Mistress? I come."', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (7401, 9,     0,  0, 0, 0, False) /* Create Unknown for ContainTreasure */
-     , (7401, 9,  7379,  0, 0, 1, False) /* Create Singed Note for ContainTreasure */;
+VALUES (7401, 9,     0,  0, 0, 0, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 4 for ContainTreasure */
+     , (7401, 9,  7379,  0, 0, 1, False) /* Create Singed Note (7379) for ContainTreasure */;

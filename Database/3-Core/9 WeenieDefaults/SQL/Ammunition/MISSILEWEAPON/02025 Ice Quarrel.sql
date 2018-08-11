@@ -18,7 +18,7 @@ VALUES (2025,   1,        256) /* ItemType - MissileWeapon */
      , (2025,  45,          8) /* DamageType - Cold */
      , (2025,  50,          2) /* AmmoType - Bolt */
      , (2025,  51,          3) /* CombatUse - Ammo */
-     , (2025,  93,     132116) /* PhysicsState */
+     , (2025,  93,     132116) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, Inelastic */
      , (2025, 150,        103) /* HookPlacement - Hook */
      , (2025, 151,          2) /* HookType - Wall */;
 

@@ -15,7 +15,7 @@ VALUES (10766,   1,          2) /* ItemType - Armor */
      , (10766,  28,        140) /* ArmorLevel */
      , (10766,  33,          1) /* Bonded - Bonded */
      , (10766,  36,       9999) /* ResistMagic */
-     , (10766,  93,       1044) /* PhysicsState */
+     , (10766,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (10766, 106,        230) /* ItemSpellcraft */
      , (10766, 107,        250) /* ItemCurMana */
      , (10766, 108,       2000) /* ItemMaxMana */

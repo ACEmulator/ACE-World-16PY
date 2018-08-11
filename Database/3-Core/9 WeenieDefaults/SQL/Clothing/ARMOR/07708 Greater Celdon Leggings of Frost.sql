@@ -4,17 +4,17 @@ VALUES ('7708', 'leggingsceldonshadowgreaternewfrost', 2) /* Clothing */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (7708,   1,          2) /* ItemType - Armor */
      , (7708,   3,          2) /* PaletteTemplate - Blue */
-     , (7708,   4,        768) /* ClothingPriority */
+     , (7708,   4,        768) /* ClothingPriority - OuterwearUpperLegs, OuterwearLowerLegs */
      , (7708,   5,       2100) /* EncumbranceVal */
      , (7708,   8,       1200) /* Mass */
-     , (7708,   9,      24576) /* ValidLocations */
+     , (7708,   9,      24576) /* ValidLocations - UpperLegArmor, LowerLegArmor */
      , (7708,  16,          1) /* ItemUseable - No */
      , (7708,  19,       2140) /* Value */
      , (7708,  27,         32) /* ArmorType */
      , (7708,  28,        190) /* ArmorLevel */
      , (7708,  33,          1) /* Bonded - Bonded */
      , (7708,  36,       9999) /* ResistMagic */
-     , (7708,  93,       1044) /* PhysicsState */
+     , (7708,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (7708, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)

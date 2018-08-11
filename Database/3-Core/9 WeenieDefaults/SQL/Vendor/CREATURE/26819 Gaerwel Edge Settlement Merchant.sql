@@ -10,10 +10,10 @@ VALUES (26819,   1,         16) /* ItemType - Creature */
      , (26819,  16,         32) /* ItemUseable - Remote */
      , (26819,  25,         10) /* Level */
      , (26819,  27,          0) /* ArmorType */
-     , (26819,  74,     264192) /* MerchandiseItemTypes */
+     , (26819,  74,     264192) /* MerchandiseItemTypes - Gem, PromissoryNote */
      , (26819,  75,          0) /* MerchandiseMinValue */
      , (26819,  76,    1000000) /* MerchandiseMaxValue */
-     , (26819,  93,    2098204) /* PhysicsState */
+     , (26819,  93,    2098204) /* PhysicsState - Ethereal, ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */
      , (26819, 126,        125) /* VendorHappyMean */
      , (26819, 127,        125) /* VendorHappyVariance */
      , (26819, 133,          4) /* ShowableOnRadar - ShowAlways */
@@ -97,4 +97,4 @@ VALUES (26819,  0,  4,  0,    0,    0,    0,    0,    0,    0,    0,    0,    0,
      , (26819,  8,  4,  2, 0.75,    0,    0,    0,    0,    0,    0,    0,    0,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (26819, 4, 26184, -1, 0, 0, False) /* Create Gaerwel Edge Settlement Portal Gem for Shop */;
+VALUES (26819, 4, 26184, -1, 0, 0, False) /* Create Gaerwel Edge Settlement Portal Gem (26184) for Shop */;

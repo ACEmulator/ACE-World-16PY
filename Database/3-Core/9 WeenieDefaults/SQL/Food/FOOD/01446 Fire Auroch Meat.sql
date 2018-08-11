@@ -16,7 +16,7 @@ VALUES (1446,   1,         32) /* ItemType - Food */
      , (1446,  19,         20) /* Value */
      , (1446,  89,          2) /* BoosterEnum - Health */
      , (1446,  90,          4) /* BoostValue */
-     , (1446,  93,       1044) /* PhysicsState */;
+     , (1446,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (1446,   1, 'Fire Auroch Meat') /* Name */

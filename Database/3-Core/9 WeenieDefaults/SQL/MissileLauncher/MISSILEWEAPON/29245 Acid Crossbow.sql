@@ -20,7 +20,7 @@ VALUES (29245,   1,        256) /* ItemType - MissileWeapon */
      , (29245,  52,          2) /* ParentLocation */
      , (29245,  53,          3) /* PlacementPosition */
      , (29245,  60,        192) /* WeaponRange */
-     , (29245,  93,       1044) /* PhysicsState */
+     , (29245,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (29245, 150,        103) /* HookPlacement - Hook */
      , (29245, 151,          2) /* HookType - Wall */
      , (29245, 158,          2) /* WieldRequirements - RawSkill */

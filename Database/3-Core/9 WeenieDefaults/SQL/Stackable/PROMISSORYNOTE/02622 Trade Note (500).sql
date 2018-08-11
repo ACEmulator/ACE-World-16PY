@@ -14,7 +14,7 @@ VALUES (2622,   1,     262144) /* ItemType - PromissoryNote */
      , (2622,  16,          1) /* ItemUseable - No */
      , (2622,  19,        500) /* Value */
      , (2622,  33,          1) /* Bonded - Bonded */
-     , (2622,  93,       1044) /* PhysicsState */;
+     , (2622,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (2622,  23, True ) /* DestroyOnSell */;

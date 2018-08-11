@@ -12,8 +12,8 @@ VALUES (30899,   1,         16) /* ItemType - Creature */
      , (30899,  27,          0) /* ArmorType */
      , (30899,  40,          2) /* CombatMode - Melee */
      , (30899,  68,          9) /* TargetingTactic */
-     , (30899,  93,       1032) /* PhysicsState */
-     , (30899, 101,        131) /* AiAllowedCombatStyle */
+     , (30899,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
+     , (30899, 101,        131) /* AiAllowedCombatStyle - Unarmed, OneHanded, ThrownWeapon */
      , (30899, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (30899, 140,          1) /* AiOptions */
      , (30899, 146,      20012) /* XpOverride */;
@@ -73,8 +73,12 @@ VALUES (30899,   1,   33556445) /* Setup */
      , (30899,   7,  268435977) /* ClothingBase */
      , (30899,   8,  100667445) /* Icon */
      , (30899,  22,  872415258) /* PhysicsEffectTable */
-     , (30899,  32,        274) /* WieldedTreasureType */
-     , (30899,  35,        450) /* DeathTreasureType */;
+     , (30899,  32,        274) /* WieldedTreasureType - 
+                                   Wield Fire Tachi (23708) | Probability: 25%
+                                   Wield Tachi (23702) | Probability: 25%
+                                   Wield Fire Yaoji (23720) | Probability: 25%
+                                   Wield Yaoji (23712) | Probability: 25% */
+     , (30899,  35,        450) /* DeathTreasureType - Loot Tier: 3 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (30899,   1, 350, 0, 0) /* Strength */
@@ -204,6 +208,6 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 268435537 /* Twitch1 */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (30899, 9,     0,  0, 0, 0.95, False) /* Create Unknown for ContainTreasure */
-     , (30899, 9,  8145,  0, 0, 0.05, False) /* Create Drudge Head for ContainTreasure */
-     , (30899, 9, 30880,  0, 0, 1, False) /* Create Banished Staff for ContainTreasure */;
+VALUES (30899, 9,     0,  0, 0, 0.95, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 3 for ContainTreasure */
+     , (30899, 9,  8145,  0, 0, 0.05, False) /* Create Drudge Head (8145) for ContainTreasure */
+     , (30899, 9, 30880,  0, 0, 1, False) /* Create Banished Staff (30880) for ContainTreasure */;

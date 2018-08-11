@@ -4,7 +4,7 @@ VALUES ('2090', 'portalrockycryptexit', 7) /* Portal */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (2090,   1,      65536) /* ItemType - Portal */
      , (2090,  16,         32) /* ItemUseable - Remote */
-     , (2090,  93,       3084) /* PhysicsState */
+     , (2090,  93,       3084) /* PhysicsState - Ethereal, ReportCollisions, Gravity, LightingOn */
      , (2090, 111,          1) /* PortalBitmask - Unrestricted */
      , (2090, 133,          4) /* ShowableOnRadar - ShowAlways */;
 

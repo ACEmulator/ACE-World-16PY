@@ -10,10 +10,10 @@ VALUES (26838,   1,         16) /* ItemType - Creature */
      , (26838,  16,         32) /* ItemUseable - Remote */
      , (26838,  25,         10) /* Level */
      , (26838,  27,          0) /* ArmorType */
-     , (26838,  74,     264192) /* MerchandiseItemTypes */
+     , (26838,  74,     264192) /* MerchandiseItemTypes - Gem, PromissoryNote */
      , (26838,  75,          0) /* MerchandiseMinValue */
      , (26838,  76,    1000000) /* MerchandiseMaxValue */
-     , (26838,  93,    2098204) /* PhysicsState */
+     , (26838,  93,    2098204) /* PhysicsState - Ethereal, ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */
      , (26838, 126,        125) /* VendorHappyMean */
      , (26838, 127,        125) /* VendorHappyVariance */
      , (26838, 133,          4) /* ShowableOnRadar - ShowAlways */
@@ -97,4 +97,4 @@ VALUES (26838,  0,  4,  0,    0,    0,    0,    0,    0,    0,    0,    0,    0,
      , (26838,  8,  4,  2, 0.75,    0,    0,    0,    0,    0,    0,    0,    0,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (26838, 4, 26203, -1, 0, 0, False) /* Create Hopevale Portal Gem for Shop */;
+VALUES (26838, 4, 26203, -1, 0, 0, False) /* Create Hopevale Portal Gem (26203) for Shop */;

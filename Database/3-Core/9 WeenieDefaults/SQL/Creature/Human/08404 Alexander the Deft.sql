@@ -10,7 +10,7 @@ VALUES (8404,   1,         16) /* ItemType - Creature */
      , (8404,  16,         32) /* ItemUseable - Remote */
      , (8404,  25,         28) /* Level */
      , (8404,  27,          0) /* ArmorType */
-     , (8404,  93,    6292504) /* PhysicsState */
+     , (8404,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (8404,  95,          8) /* RadarBlipColor - Yellow */
      , (8404, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (8404, 134,         16) /* PlayerKillerStatus - RubberGlue */
@@ -1145,6 +1145,6 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   3 /* Give */, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0, 25554 /* Knath Head */, 1, 2, 0, False, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (8404, 2,   117,  0, 2, 1, False) /* Create Breeches for Wield */
-     , (8404, 2,  2596,  0, 14, 0.8, False) /* Create Doublet for Wield */
-     , (8404, 2,  7897,  0, 2, 0.8, False) /* Create Steel Toed Boots for Wield */;
+VALUES (8404, 2,   117,  0, 2, 1, False) /* Create Breeches (117) for Wield */
+     , (8404, 2,  2596,  0, 14, 0.8, False) /* Create Doublet (2596) for Wield */
+     , (8404, 2,  7897,  0, 2, 0.8, False) /* Create Steel Toed Boots (7897) for Wield */;

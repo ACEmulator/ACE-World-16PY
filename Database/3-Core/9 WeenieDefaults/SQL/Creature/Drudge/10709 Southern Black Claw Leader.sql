@@ -12,8 +12,8 @@ VALUES (10709,   1,         16) /* ItemType - Creature */
      , (10709,  27,          0) /* ArmorType */
      , (10709,  40,          2) /* CombatMode - Melee */
      , (10709,  68,          3) /* TargetingTactic */
-     , (10709,  93,       1032) /* PhysicsState */
-     , (10709, 101,        131) /* AiAllowedCombatStyle */
+     , (10709,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
+     , (10709, 101,        131) /* AiAllowedCombatStyle - Unarmed, OneHanded, ThrownWeapon */
      , (10709, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (10709, 140,          1) /* AiOptions */
      , (10709, 146,      13721) /* XpOverride */;
@@ -71,8 +71,11 @@ VALUES (10709,   1,   33556445) /* Setup */
      , (10709,   7,  268435977) /* ClothingBase */
      , (10709,   8,  100667445) /* Icon */
      , (10709,  22,  872415258) /* PhysicsEffectTable */
-     , (10709,  32,         78) /* WieldedTreasureType */
-     , (10709,  35,        450) /* DeathTreasureType */;
+     , (10709,  32,         78) /* WieldedTreasureType - 
+                                   Wield Yari (23732) | Probability: 50%
+                                   Wield Tachi (23702) | Probability: 25%
+                                   Wield Spear (23698) | Probability: 25% */
+     , (10709,  35,        450) /* DeathTreasureType - Loot Tier: 3 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (10709,   1, 190, 0, 0) /* Strength */
@@ -207,8 +210,8 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 268435537 /* Twitch1 */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (10709, 9,     0,  0, 0, 0.99, False) /* Create Unknown for ContainTreasure */
-     , (10709, 9,     0,  0, 0, 0.97, False) /* Create Unknown for ContainTreasure */
-     , (10709, 9,  6876,  0, 0, 0.01, False) /* Create Sturdy Iron Key for ContainTreasure */
-     , (10709, 9,  7040,  0, 0, 0.03, False) /* Create Ravener Guts for ContainTreasure */
-     , (10709, 9, 10713,  0, 0, 1, False) /* Create Southern Quiddity Fragment for ContainTreasure */;
+VALUES (10709, 9,     0,  0, 0, 0.99, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 3 for ContainTreasure */
+     , (10709, 9,     0,  0, 0, 0.97, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 3 for ContainTreasure */
+     , (10709, 9,  6876,  0, 0, 0.01, False) /* Create Sturdy Iron Key (6876) for ContainTreasure */
+     , (10709, 9,  7040,  0, 0, 0.03, False) /* Create Ravener Guts (7040) for ContainTreasure */
+     , (10709, 9, 10713,  0, 0, 1, False) /* Create Southern Quiddity Fragment (10713) for ContainTreasure */;

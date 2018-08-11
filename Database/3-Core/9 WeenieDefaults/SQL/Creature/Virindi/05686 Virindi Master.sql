@@ -11,7 +11,7 @@ VALUES (5686,   1,         16) /* ItemType - Creature */
      , (5686,  25,         69) /* Level */
      , (5686,  27,          0) /* ArmorType */
      , (5686,  68,          3) /* TargetingTactic */
-     , (5686,  93,       1032) /* PhysicsState */
+     , (5686,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (5686, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (5686, 140,          1) /* AiOptions */
      , (5686, 146,      13500) /* XpOverride */;
@@ -69,7 +69,7 @@ VALUES (5686,   1,   33554497) /* Setup */
      , (5686,   7,  268435649) /* ClothingBase */
      , (5686,   8,  100667943) /* Icon */
      , (5686,  22,  872415273) /* PhysicsEffectTable */
-     , (5686,  35,        243) /* DeathTreasureType */;
+     , (5686,  35,        243) /* DeathTreasureType - Loot Tier: 4 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (5686,   1,  30, 0, 0) /* Strength */
@@ -197,10 +197,10 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 268435539 /* Twitch3 */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (5686, 9,     0,  0, 0, 0.95, False) /* Create Unknown for ContainTreasure */
-     , (5686, 9,     0,  0, 0, 0.98, False) /* Create Unknown for ContainTreasure */
-     , (5686, 9,     0,  0, 0, 0.95, False) /* Create Unknown for ContainTreasure */
-     , (5686, 9,  3698,  0, 0, 0.05, False) /* Create White Jewel for ContainTreasure */
-     , (5686, 1,  5680,  0, 0, 1, False) /* Create Torn Journal for Contain */
-     , (5686, 9,  6876,  0, 0, 0.02, False) /* Create Sturdy Iron Key for ContainTreasure */
-     , (5686, 9,  8154,  0, 0, 0.05, False) /* Create Broken Virindi Mask for ContainTreasure */;
+VALUES (5686, 9,     0,  0, 0, 0.95, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 4 for ContainTreasure */
+     , (5686, 9,     0,  0, 0, 0.98, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 4 for ContainTreasure */
+     , (5686, 9,     0,  0, 0, 0.95, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 4 for ContainTreasure */
+     , (5686, 9,  3698,  0, 0, 0.05, False) /* Create White Jewel (3698) for ContainTreasure */
+     , (5686, 1,  5680,  0, 0, 1, False) /* Create Torn Journal (5680) for Contain */
+     , (5686, 9,  6876,  0, 0, 0.02, False) /* Create Sturdy Iron Key (6876) for ContainTreasure */
+     , (5686, 9,  8154,  0, 0, 0.05, False) /* Create Broken Virindi Mask (8154) for ContainTreasure */;

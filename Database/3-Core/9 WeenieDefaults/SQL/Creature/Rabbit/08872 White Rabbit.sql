@@ -14,7 +14,7 @@ VALUES (8872,   1,         16) /* ItemType - Creature */
      , (8872,  67,          2) /* Tolerance */
      , (8872,  68,          5) /* TargetingTactic */
      , (8872,  72,         41) /* FriendType - Bunny */
-     , (8872,  93,       1032) /* PhysicsState */
+     , (8872,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (8872, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (8872, 146,     200000) /* XpOverride */;
 
@@ -74,7 +74,7 @@ VALUES (8872,   1,   33555579) /* Setup */
      , (8872,   8,  100669116) /* Icon */
      , (8872,  22,  872415277) /* PhysicsEffectTable */
      , (8872,  30,         86) /* PhysicsScript - BreatheAcid */
-     , (8872,  35,        157) /* DeathTreasureType */;
+     , (8872,  35,        157) /* DeathTreasureType - Loot Tier: 5 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (8872,   1, 666, 0, 0) /* Strength */
@@ -181,6 +181,6 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 268435537 /* Twitch1 */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (8872, 9,     0,  0, 0, 0, False) /* Create Unknown for ContainTreasure */
-     , (8872, 9,  6876,  0, 0, 1, False) /* Create Sturdy Iron Key for ContainTreasure */
-     , (8872, 1,  8400,  0, 0, 1, False) /* Create Orb of the Bunny Booty for Contain */;
+VALUES (8872, 9,     0,  0, 0, 0, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 5 for ContainTreasure */
+     , (8872, 9,  6876,  0, 0, 1, False) /* Create Sturdy Iron Key (6876) for ContainTreasure */
+     , (8872, 1,  8400,  0, 0, 1, False) /* Create Orb of the Bunny Booty (8400) for Contain */;

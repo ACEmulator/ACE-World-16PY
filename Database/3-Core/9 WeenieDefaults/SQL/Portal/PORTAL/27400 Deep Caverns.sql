@@ -4,8 +4,8 @@ VALUES ('27400', 'portaldeepcaverns', 7) /* Portal */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (27400,   1,      65536) /* ItemType - Portal */
      , (27400,  16,         32) /* ItemUseable - Remote */
-     , (27400,  93,       3084) /* PhysicsState */
-     , (27400, 111,         49) /* PortalBitmask */
+     , (27400,  93,       3084) /* PhysicsState - Ethereal, ReportCollisions, Gravity, LightingOn */
+     , (27400, 111,         49) /* PortalBitmask - Unrestricted, NoSummon, NoRecall */
      , (27400, 133,          4) /* ShowableOnRadar - ShowAlways */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)

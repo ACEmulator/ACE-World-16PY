@@ -10,10 +10,10 @@ VALUES (26746,   1,         16) /* ItemType - Creature */
      , (26746,  16,         32) /* ItemUseable - Remote */
      , (26746,  25,         10) /* Level */
      , (26746,  27,          0) /* ArmorType */
-     , (26746,  74,     264192) /* MerchandiseItemTypes */
+     , (26746,  74,     264192) /* MerchandiseItemTypes - Gem, PromissoryNote */
      , (26746,  75,          0) /* MerchandiseMinValue */
      , (26746,  76,    1000000) /* MerchandiseMaxValue */
-     , (26746,  93,    2098204) /* PhysicsState */
+     , (26746,  93,    2098204) /* PhysicsState - Ethereal, ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */
      , (26746, 126,        125) /* VendorHappyMean */
      , (26746, 127,        125) /* VendorHappyVariance */
      , (26746, 133,          4) /* ShowableOnRadar - ShowAlways */
@@ -97,4 +97,4 @@ VALUES (26746,  0,  4,  0,    0,    0,    0,    0,    0,    0,    0,    0,    0,
      , (26746,  8,  4,  2, 0.75,    0,    0,    0,    0,    0,    0,    0,    0,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (26746, 4, 26111, -1, 0, 0, False) /* Create Caerlin Cottages Portal Gem for Shop */;
+VALUES (26746, 4, 26111, -1, 0, 0, False) /* Create Caerlin Cottages Portal Gem (26111) for Shop */;
