@@ -9,7 +9,7 @@ VALUES (12003,   1,        128) /* ItemType - Misc */
      , (12003,   9,          0) /* ValidLocations - None */
      , (12003,  16,          1) /* ItemUseable - No */
      , (12003,  19,        200) /* Value */
-     , (12003,  93,       1044) /* PhysicsState */
+     , (12003,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (12003, 150,        103) /* HookPlacement - Hook */
      , (12003, 151,          1) /* HookType - Floor */;
 

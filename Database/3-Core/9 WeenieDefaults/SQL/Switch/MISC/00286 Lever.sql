@@ -4,7 +4,7 @@ VALUES ('286', 'levergearswitch', 26) /* Switch */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (286,   1,        128) /* ItemType - Misc */
      , (286,  16,         48) /* ItemUseable - ViewedRemote */
-     , (286,  93,         20) /* PhysicsState */
+     , (286,  93,         20) /* PhysicsState - Ethereal, IgnoreCollisions */
      , (286, 119,          1) /* Active */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)

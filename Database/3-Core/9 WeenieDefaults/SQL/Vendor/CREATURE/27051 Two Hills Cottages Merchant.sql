@@ -10,10 +10,10 @@ VALUES (27051,   1,         16) /* ItemType - Creature */
      , (27051,  16,         32) /* ItemUseable - Remote */
      , (27051,  25,         10) /* Level */
      , (27051,  27,          0) /* ArmorType */
-     , (27051,  74,     264192) /* MerchandiseItemTypes */
+     , (27051,  74,     264192) /* MerchandiseItemTypes - Gem, PromissoryNote */
      , (27051,  75,          0) /* MerchandiseMinValue */
      , (27051,  76,    1000000) /* MerchandiseMaxValue */
-     , (27051,  93,    2098204) /* PhysicsState */
+     , (27051,  93,    2098204) /* PhysicsState - Ethereal, ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */
      , (27051, 126,        125) /* VendorHappyMean */
      , (27051, 127,        125) /* VendorHappyVariance */
      , (27051, 133,          4) /* ShowableOnRadar - ShowAlways */
@@ -97,4 +97,4 @@ VALUES (27051,  0,  4,  0,    0,    0,    0,    0,    0,    0,    0,    0,    0,
      , (27051,  8,  4,  2, 0.75,    0,    0,    0,    0,    0,    0,    0,    0,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (27051, 4, 26416, -1, 0, 0, False) /* Create Two Hills Cottages Portal Gem for Shop */;
+VALUES (27051, 4, 26416, -1, 0, 0, False) /* Create Two Hills Cottages Portal Gem (26416) for Shop */;

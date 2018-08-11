@@ -15,7 +15,7 @@ VALUES (23126,   1,         32) /* ItemType - Food */
      , (23126,  19,        300) /* Value */
      , (23126,  89,          4) /* BoosterEnum - Stamina */
      , (23126,  90,         60) /* BoostValue */
-     , (23126,  93,       1044) /* PhysicsState */;
+     , (23126,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (23126,   1, 'Wah Chon''s Winter Lager') /* Name */

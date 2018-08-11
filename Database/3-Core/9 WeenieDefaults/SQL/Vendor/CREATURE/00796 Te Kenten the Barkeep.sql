@@ -10,10 +10,10 @@ VALUES (796,   1,         16) /* ItemType - Creature */
      , (796,  16,         32) /* ItemUseable - Remote */
      , (796,  25,          6) /* Level */
      , (796,  27,          0) /* ArmorType */
-     , (796,  74,     262176) /* MerchandiseItemTypes */
+     , (796,  74,     262176) /* MerchandiseItemTypes - Food, PromissoryNote */
      , (796,  75,          0) /* MerchandiseMinValue */
      , (796,  76,     100000) /* MerchandiseMaxValue */
-     , (796,  93,    2098200) /* PhysicsState */
+     , (796,  93,    2098200) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */
      , (796, 126,        500) /* VendorHappyMean */
      , (796, 127,        500) /* VendorHappyVariance */
      , (796, 133,          4) /* ShowableOnRadar - ShowAlways */
@@ -163,21 +163,21 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 318767235 /* Nod */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (796, 2,   127,  0, 16, 1, False) /* Create Pants for Wield */
-     , (796, 2,   132,  0, 9, 0.5, False) /* Create Shoes for Wield */
-     , (796, 2,   134,  0, 9, 0, False) /* Create Tunic for Wield */
-     , (796, 4,  1506, -1, 0, 0, False) /* Create Legend of the Undead Defender for Shop */
-     , (796, 4,  2451, -1, 0, 0, False) /* Create Ale for Shop */
-     , (796, 4,  2455, -1, 0, 0, False) /* Create Grape Juice for Shop */
-     , (796, 4,  2466, -1, 0, 0, False) /* Create Red Tea for Shop */
-     , (796, 4,  2467, -1, 0, 0, False) /* Create Red Wine for Shop */
-     , (796, 4,  2468, -1, 0, 0, False) /* Create Sake for Shop */
-     , (796, 4,  4726, -1, 0, 0, False) /* Create Fish Stew for Shop */
-     , (796, 4,  4730, -1, 0, 0, False) /* Create Fried Fish Filet for Shop */
-     , (796, 4,  4739, -1, 0, 0, False) /* Create Pickled Egg for Shop */
-     , (796, 4,  8378, -1, 0, 0, False) /* Create Beer Stein for Shop */
-     , (796, 2, 10696,  0, 18, 1, False) /* Create Apron for Wield */
-     , (796, 4, 15808, -1, 0, 0, False) /* Create Plea for Help for Shop */
-     , (796, 4, 20229, -1, 0, 0, False) /* Create Rumor of an Artifact for Shop */
-     , (796, 4, 24222, -1, 0, 0, False) /* Create Duplicated Portals for Shop */
-     , (796, 4, 24223, -1, 0, 0, False) /* Create A Sparking Stone for Shop */;
+VALUES (796, 2,   127,  0, 16, 1, False) /* Create Pants (127) for Wield */
+     , (796, 2,   132,  0, 9, 0.5, False) /* Create Shoes (132) for Wield */
+     , (796, 2,   134,  0, 9, 0, False) /* Create Tunic (134) for Wield */
+     , (796, 4,  1506, -1, 0, 0, False) /* Create Legend of the Undead Defender (1506) for Shop */
+     , (796, 4,  2451, -1, 0, 0, False) /* Create Ale (2451) for Shop */
+     , (796, 4,  2455, -1, 0, 0, False) /* Create Grape Juice (2455) for Shop */
+     , (796, 4,  2466, -1, 0, 0, False) /* Create Red Tea (2466) for Shop */
+     , (796, 4,  2467, -1, 0, 0, False) /* Create Red Wine (2467) for Shop */
+     , (796, 4,  2468, -1, 0, 0, False) /* Create Sake (2468) for Shop */
+     , (796, 4,  4726, -1, 0, 0, False) /* Create Fish Stew (4726) for Shop */
+     , (796, 4,  4730, -1, 0, 0, False) /* Create Fried Fish Filet (4730) for Shop */
+     , (796, 4,  4739, -1, 0, 0, False) /* Create Pickled Egg (4739) for Shop */
+     , (796, 4,  8378, -1, 0, 0, False) /* Create Beer Stein (8378) for Shop */
+     , (796, 2, 10696,  0, 18, 1, False) /* Create Apron (10696) for Wield */
+     , (796, 4, 15808, -1, 0, 0, False) /* Create Plea for Help (15808) for Shop */
+     , (796, 4, 20229, -1, 0, 0, False) /* Create Rumor of an Artifact (20229) for Shop */
+     , (796, 4, 24222, -1, 0, 0, False) /* Create Duplicated Portals (24222) for Shop */
+     , (796, 4, 24223, -1, 0, 0, False) /* Create A Sparking Stone (24223) for Shop */;

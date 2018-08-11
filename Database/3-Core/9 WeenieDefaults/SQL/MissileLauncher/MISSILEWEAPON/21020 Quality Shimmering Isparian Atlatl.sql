@@ -18,7 +18,7 @@ VALUES (21020,   1,        256) /* ItemType - MissileWeapon */
      , (21020,  50,          4) /* AmmoType - ArrowCrystal */
      , (21020,  51,          2) /* CombatUse - Missle */
      , (21020,  60,        120) /* WeaponRange */
-     , (21020,  93,       1044) /* PhysicsState */
+     , (21020,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (21020, 106,        300) /* ItemSpellcraft */
      , (21020, 107,        300) /* ItemCurMana */
      , (21020, 108,        300) /* ItemMaxMana */

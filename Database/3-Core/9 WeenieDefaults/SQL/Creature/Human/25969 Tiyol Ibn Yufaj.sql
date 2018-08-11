@@ -11,8 +11,8 @@ VALUES (25969,   1,         16) /* ItemType - Creature */
      , (25969,  25,         79) /* Level */
      , (25969,  27,          0) /* ArmorType */
      , (25969,  68,         13) /* TargetingTactic */
-     , (25969,  93,       1032) /* PhysicsState */
-     , (25969, 101,        131) /* AiAllowedCombatStyle */
+     , (25969,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
+     , (25969, 101,        131) /* AiAllowedCombatStyle - Unarmed, OneHanded, ThrownWeapon */
      , (25969, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (25969, 146,      18022) /* XpOverride */;
 
@@ -67,7 +67,7 @@ VALUES (25969,   1,   33554433) /* Setup */
      , (25969,   4,  805306368) /* CombatTable */
      , (25969,   8,  100667446) /* Icon */
      , (25969,  22,  872415236) /* PhysicsEffectTable */
-     , (25969,  35,        450) /* DeathTreasureType */;
+     , (25969,  35,        450) /* DeathTreasureType - Loot Tier: 3 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (25969,   1, 210, 0, 0) /* Strength */
@@ -122,21 +122,21 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 1124073753, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (25969, 9,     0,  0, 0, 0.98, False) /* Create Unknown for ContainTreasure */
-     , (25969, 10,  4912,  0, 0, 0.2, False) /* Create Overlord's Sword for WieldTreasure */
-     , (25969, 9,  6876,  0, 0, 0.02, False) /* Create Sturdy Iron Key for ContainTreasure */
-     , (25969, 2, 12192,  0, 0, 1, False) /* Create Shadow's Garb for Wield */
-     , (25969, 2, 12193,  0, 39, 1, False) /* Create Dho Vest and Robe for Wield */
-     , (25969, 10, 23700,  0, 0, 0.2, False) /* Create Tachi for WieldTreasure */
-     , (25969, 10, 23707,  0, 0, 0.2, False) /* Create Fire Tachi for WieldTreasure */
-     , (25969, 10, 23710,  0, 0, 0.2, False) /* Create Yaoji for WieldTreasure */
-     , (25969, 9, 25959,  0, 0, 1, False) /* Create Woven Tassel of Discord for ContainTreasure */
-     , (25969, 9, 25959,  0, 0, 1, False) /* Create Woven Tassel of Discord for ContainTreasure */
-     , (25969, 9, 25959,  0, 0, 1, False) /* Create Woven Tassel of Discord for ContainTreasure */
-     , (25969, 9, 25959,  0, 0, 1, False) /* Create Woven Tassel of Discord for ContainTreasure */
-     , (25969, 9, 25959,  0, 0, 1, False) /* Create Woven Tassel of Discord for ContainTreasure */
-     , (25969, 9, 25959,  0, 0, 1, False) /* Create Woven Tassel of Discord for ContainTreasure */
-     , (25969, 9, 25959,  0, 0, 1, False) /* Create Woven Tassel of Discord for ContainTreasure */
-     , (25969, 9, 25959,  0, 0, 1, False) /* Create Woven Tassel of Discord for ContainTreasure */
-     , (25969, 9, 25959,  0, 0, 1, False) /* Create Woven Tassel of Discord for ContainTreasure */
-     , (25969, 9, 25959,  0, 0, 1, False) /* Create Woven Tassel of Discord for ContainTreasure */;
+VALUES (25969, 9,     0,  0, 0, 0.98, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 3 for ContainTreasure */
+     , (25969, 10,  4912,  0, 0, 0.2, False) /* Create Overlord's Sword (4912) for WieldTreasure */
+     , (25969, 9,  6876,  0, 0, 0.02, False) /* Create Sturdy Iron Key (6876) for ContainTreasure */
+     , (25969, 2, 12192,  0, 0, 1, False) /* Create Shadow's Garb (12192) for Wield */
+     , (25969, 2, 12193,  0, 39, 1, False) /* Create Dho Vest and Robe (12193) for Wield */
+     , (25969, 10, 23700,  0, 0, 0.2, False) /* Create Tachi (23700) for WieldTreasure */
+     , (25969, 10, 23707,  0, 0, 0.2, False) /* Create Fire Tachi (23707) for WieldTreasure */
+     , (25969, 10, 23710,  0, 0, 0.2, False) /* Create Yaoji (23710) for WieldTreasure */
+     , (25969, 9, 25959,  0, 0, 1, False) /* Create Woven Tassel of Discord (25959) for ContainTreasure */
+     , (25969, 9, 25959,  0, 0, 1, False) /* Create Woven Tassel of Discord (25959) for ContainTreasure */
+     , (25969, 9, 25959,  0, 0, 1, False) /* Create Woven Tassel of Discord (25959) for ContainTreasure */
+     , (25969, 9, 25959,  0, 0, 1, False) /* Create Woven Tassel of Discord (25959) for ContainTreasure */
+     , (25969, 9, 25959,  0, 0, 1, False) /* Create Woven Tassel of Discord (25959) for ContainTreasure */
+     , (25969, 9, 25959,  0, 0, 1, False) /* Create Woven Tassel of Discord (25959) for ContainTreasure */
+     , (25969, 9, 25959,  0, 0, 1, False) /* Create Woven Tassel of Discord (25959) for ContainTreasure */
+     , (25969, 9, 25959,  0, 0, 1, False) /* Create Woven Tassel of Discord (25959) for ContainTreasure */
+     , (25969, 9, 25959,  0, 0, 1, False) /* Create Woven Tassel of Discord (25959) for ContainTreasure */
+     , (25969, 9, 25959,  0, 0, 1, False) /* Create Woven Tassel of Discord (25959) for ContainTreasure */;

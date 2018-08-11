@@ -14,7 +14,7 @@ VALUES (30892,   1,         16) /* ItemType - Creature */
      , (30892,  69,          4) /* CombatTactic */
      , (30892,  81,          4) /* MaxGeneratedObjects */
      , (30892,  82,          0) /* InitGeneratedObjects */
-     , (30892,  93,       3080) /* PhysicsState */
+     , (30892,  93,       3080) /* PhysicsState - ReportCollisions, Gravity, LightingOn */
      , (30892, 103,          1) /* GeneratorDestructionType - Nothing */
      , (30892, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (30892, 146,     100328) /* XpOverride */;
@@ -75,7 +75,7 @@ VALUES (30892,   1,   33558550) /* Setup */
      , (30892,   4,  805306407) /* CombatTable */
      , (30892,   8,  100671702) /* Icon */
      , (30892,  22,  872415375) /* PhysicsEffectTable */
-     , (30892,  35,        461) /* DeathTreasureType */;
+     , (30892,  35,        461) /* DeathTreasureType - Loot Tier: 6 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (30892,   1, 180, 0, 0) /* Strength */
@@ -124,12 +124,12 @@ VALUES (30892,  94) /* ATTACK_NOTIFICATION_EVENT */
      , (30892, 414) /* PLAYER_DEATH_EVENT */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (30892, 9,     0,  0, 0, 0.5, False) /* Create Unknown for ContainTreasure */
-     , (30892, 9, 30857,  0, 0, 0.5, False) /* Create Sezzherei's Lair for ContainTreasure */
-     , (30892, 9, 30868,  0, 0, 1, False) /* Create Crossbow of the Fallen for ContainTreasure */;
+VALUES (30892, 9,     0,  0, 0, 0.5, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 6 for ContainTreasure */
+     , (30892, 9, 30857,  0, 0, 0.5, False) /* Create Sezzherei's Lair (30857) for ContainTreasure */
+     , (30892, 9, 30868,  0, 0, 1, False) /* Create Crossbow of the Fallen (30868) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (30892, 0.25, 25852, 1800, 1, 1, 1, 4, -1, 0, 0, 0, -2, -1, 9, 0.8191521, 0, 0, -0.5735765)
-     , (30892, 0.5, 25887, 1800, 1, 1, 1, 4, -1, 0, 0, 0, 2.4, 3.4, 9, 0.9659258, 0, 0, -0.258819)
-     , (30892, 0.75, 25866, 1800, 1, 1, 1, 4, -1, 0, 0, 0, 2.4, -1.4, 9, 0.9961947, 0, 0, -0.08715574)
-     , (30892, 1, 23570, 1800, 1, 1, 1, 4, -1, 0, 0, 0, -2, -2, 9, 0.9961947, 0, 0, -0.08715574);
+VALUES (30892, 0.25, 25852, 1800, 1, 1, 1, 4, -1, 0, 0, 0, -2, -1, 9, 0.8191521, 0, 0, -0.5735765) /* Generate Ravager (25852) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
+     , (30892, 0.5, 25887, 1800, 1, 1, 1, 4, -1, 0, 0, 0, 2.4, 3.4, 9, 0.9659258, 0, 0, -0.258819) /* Generate Infernal Zefir (25887) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
+     , (30892, 0.75, 25866, 1800, 1, 1, 1, 4, -1, 0, 0, 0, 2.4, -1.4, 9, 0.9961947, 0, 0, -0.08715574) /* Generate Damned Marionette (25866) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
+     , (30892, 1, 23570, 1800, 1, 1, 1, 4, -1, 0, 0, 0, -2, -2, 9, 0.9961947, 0, 0, -0.08715574) /* Generate Virindi Paradox (23570) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */;

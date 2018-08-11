@@ -17,7 +17,7 @@ VALUES (2024,   1,        256) /* ItemType - MissileWeapon */
      , (2024,  52,          2) /* ParentLocation */
      , (2024,  53,          3) /* PlacementPosition */
      , (2024,  60,        280) /* WeaponRange */
-     , (2024,  93,       1044) /* PhysicsState */
+     , (2024,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (2024, 150,        103) /* HookPlacement - Hook */
      , (2024, 151,          2) /* HookType - Wall */;
 

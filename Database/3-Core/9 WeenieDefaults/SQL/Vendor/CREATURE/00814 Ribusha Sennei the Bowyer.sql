@@ -10,10 +10,10 @@ VALUES (814,   1,         16) /* ItemType - Creature */
      , (814,  16,         32) /* ItemUseable - Remote */
      , (814,  25,          7) /* Level */
      , (814,  27,          0) /* ArmorType */
-     , (814,  74,  134480129) /* MerchandiseItemTypes */
+     , (814,  74,  134480129) /* MerchandiseItemTypes - Weapon, PromissoryNote, CraftFletchingIntermediate */
      , (814,  75,          0) /* MerchandiseMinValue */
      , (814,  76,      25000) /* MerchandiseMaxValue */
-     , (814,  93,    2098200) /* PhysicsState */
+     , (814,  93,    2098200) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */
      , (814, 126,       1000) /* VendorHappyMean */
      , (814, 127,        500) /* VendorHappyVariance */
      , (814, 133,          4) /* ShowableOnRadar - ShowAlways */
@@ -163,43 +163,43 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 318767235 /* Nod */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (814, 2,   124,  0, 9, 0, False) /* Create Jerkin for Wield */
-     , (814, 2,   127,  0, 9, 0.5, False) /* Create Pants for Wield */
-     , (814, 2,   132,  0, 13, 0.5, False) /* Create Shoes for Wield */
-     , (814, 4,   300, -1, 0, 0, False) /* Create Arrow for Shop */
-     , (814, 4,   304, -1, 0, 0, False) /* Create Throwing Axe for Shop */
-     , (814, 4,   305, -1, 0, 0, False) /* Create Quarrel for Shop */
-     , (814, 4,   310, -1, 0, 0, False) /* Create Throwing Club for Shop */
-     , (814, 4,   312, -1, 0, 0, False) /* Create Light Crossbow for Shop */
-     , (814, 4,   316, -1, 0, 0, False) /* Create Throwing Dart for Shop */
-     , (814, 4,   320, -1, 0, 0, False) /* Create Javelin for Shop */
-     , (814, 2,   341,  0, 0, 0, False) /* Create Shouyumi for Wield */
-     , (814, 4,   341, -1, 0, 0, False) /* Create Shouyumi for Shop */
-     , (814, 4,  2621, -1, 0, 0, False) /* Create Trade Note (100) for Shop */
-     , (814, 4,  2622, -1, 0, 0, False) /* Create Trade Note (500) for Shop */
-     , (814, 4,  2623, -1, 0, 0, False) /* Create Trade Note (1,000) for Shop */
-     , (814, 4,  3758, -1, 0, 0, False) /* Create Acid Throwing Axe for Shop */
-     , (814, 4,  3759, -1, 0, 0, False) /* Create Lightning Throwing Axe for Shop */
-     , (814, 4,  3760, -1, 0, 0, False) /* Create Flaming Throwing Axe for Shop */
-     , (814, 4,  3761, -1, 0, 0, False) /* Create Frost Throwing Axe for Shop */
-     , (814, 4,  3786, -1, 0, 0, False) /* Create Throwing Acid Dart for Shop */
-     , (814, 4,  3787, -1, 0, 0, False) /* Create Throwing Lightning Dart for Shop */
-     , (814, 4,  3788, -1, 0, 0, False) /* Create Throwing Fire Dart for Shop */
-     , (814, 4,  3789, -1, 0, 0, False) /* Create Throwing Frost Dart for Shop */
-     , (814, 4,  4585, -1, 0, 0, False) /* Create Bundle of Arrowshafts for Shop */
-     , (814, 4,  4586, -1, 0, 0, False) /* Create Bundle of Arrowheads for Shop */
-     , (814, 4,  5339, -1, 0, 0, False) /* Create Bundle of Quarrelshafts for Shop */
-     , (814, 4,  5344, -1, 0, 0, False) /* Create Bundle of Blunt Arrowheads for Shop */
-     , (814, 4,  5345, -1, 0, 0, False) /* Create Bundle of Broad Arrowheads for Shop */
-     , (814, 4,  9359, -1, 0, 0, False) /* Create Wrapped Bundle of Arrowheads for Shop */
-     , (814, 4,  9362, -1, 0, 0, False) /* Create Wrapped Bundle of Blunt Arrowheads for Shop */
-     , (814, 4,  9363, -1, 0, 0, False) /* Create Wrapped Bundle of Broad Arrowheads for Shop */
-     , (814, 4,  9377, -1, 0, 0, False) /* Create Wrapped Bundle of Arrowshafts for Shop */
-     , (814, 4,  9378, -1, 0, 0, False) /* Create Wrapped Bundle of Quarrelshafts for Shop */
-     , (814, 2, 10696,  0, 13, 0.5, False) /* Create Apron for Wield */
-     , (814, 4, 12463, -1, 0, 0, False) /* Create Atlatl for Shop */
-     , (814, 4, 12464, -1, 0, 0, False) /* Create Atlatl Dart for Shop */
-     , (814, 4, 15296, -1, 0, 0, False) /* Create Bundle of Atlatl Dart Shafts for Shop */
-     , (814, 4, 15298, -1, 0, 0, False) /* Create Wrapped Bundle of Atlatl Dartshafts for Shop */
-     , (814, 4, 23857, -1, 0, 0, False) /* Create Bundle of Spiketails for Shop */
-     , (814, 4, 23858, -1, 0, 0, False) /* Create Bundle of Wrapped Spiketails for Shop */;
+VALUES (814, 2,   124,  0, 9, 0, False) /* Create Jerkin (124) for Wield */
+     , (814, 2,   127,  0, 9, 0.5, False) /* Create Pants (127) for Wield */
+     , (814, 2,   132,  0, 13, 0.5, False) /* Create Shoes (132) for Wield */
+     , (814, 4,   300, -1, 0, 0, False) /* Create Arrow (300) for Shop */
+     , (814, 4,   304, -1, 0, 0, False) /* Create Throwing Axe (304) for Shop */
+     , (814, 4,   305, -1, 0, 0, False) /* Create Quarrel (305) for Shop */
+     , (814, 4,   310, -1, 0, 0, False) /* Create Throwing Club (310) for Shop */
+     , (814, 4,   312, -1, 0, 0, False) /* Create Light Crossbow (312) for Shop */
+     , (814, 4,   316, -1, 0, 0, False) /* Create Throwing Dart (316) for Shop */
+     , (814, 4,   320, -1, 0, 0, False) /* Create Javelin (320) for Shop */
+     , (814, 2,   341,  0, 0, 0, False) /* Create Shouyumi (341) for Wield */
+     , (814, 4,   341, -1, 0, 0, False) /* Create Shouyumi (341) for Shop */
+     , (814, 4,  2621, -1, 0, 0, False) /* Create Trade Note (100) (2621) for Shop */
+     , (814, 4,  2622, -1, 0, 0, False) /* Create Trade Note (500) (2622) for Shop */
+     , (814, 4,  2623, -1, 0, 0, False) /* Create Trade Note (1,000) (2623) for Shop */
+     , (814, 4,  3758, -1, 0, 0, False) /* Create Acid Throwing Axe (3758) for Shop */
+     , (814, 4,  3759, -1, 0, 0, False) /* Create Lightning Throwing Axe (3759) for Shop */
+     , (814, 4,  3760, -1, 0, 0, False) /* Create Flaming Throwing Axe (3760) for Shop */
+     , (814, 4,  3761, -1, 0, 0, False) /* Create Frost Throwing Axe (3761) for Shop */
+     , (814, 4,  3786, -1, 0, 0, False) /* Create Throwing Acid Dart (3786) for Shop */
+     , (814, 4,  3787, -1, 0, 0, False) /* Create Throwing Lightning Dart (3787) for Shop */
+     , (814, 4,  3788, -1, 0, 0, False) /* Create Throwing Fire Dart (3788) for Shop */
+     , (814, 4,  3789, -1, 0, 0, False) /* Create Throwing Frost Dart (3789) for Shop */
+     , (814, 4,  4585, -1, 0, 0, False) /* Create Bundle of Arrowshafts (4585) for Shop */
+     , (814, 4,  4586, -1, 0, 0, False) /* Create Bundle of Arrowheads (4586) for Shop */
+     , (814, 4,  5339, -1, 0, 0, False) /* Create Bundle of Quarrelshafts (5339) for Shop */
+     , (814, 4,  5344, -1, 0, 0, False) /* Create Bundle of Blunt Arrowheads (5344) for Shop */
+     , (814, 4,  5345, -1, 0, 0, False) /* Create Bundle of Broad Arrowheads (5345) for Shop */
+     , (814, 4,  9359, -1, 0, 0, False) /* Create Wrapped Bundle of Arrowheads (9359) for Shop */
+     , (814, 4,  9362, -1, 0, 0, False) /* Create Wrapped Bundle of Blunt Arrowheads (9362) for Shop */
+     , (814, 4,  9363, -1, 0, 0, False) /* Create Wrapped Bundle of Broad Arrowheads (9363) for Shop */
+     , (814, 4,  9377, -1, 0, 0, False) /* Create Wrapped Bundle of Arrowshafts (9377) for Shop */
+     , (814, 4,  9378, -1, 0, 0, False) /* Create Wrapped Bundle of Quarrelshafts (9378) for Shop */
+     , (814, 2, 10696,  0, 13, 0.5, False) /* Create Apron (10696) for Wield */
+     , (814, 4, 12463, -1, 0, 0, False) /* Create Atlatl (12463) for Shop */
+     , (814, 4, 12464, -1, 0, 0, False) /* Create Atlatl Dart (12464) for Shop */
+     , (814, 4, 15296, -1, 0, 0, False) /* Create Bundle of Atlatl Dart Shafts (15296) for Shop */
+     , (814, 4, 15298, -1, 0, 0, False) /* Create Wrapped Bundle of Atlatl Dartshafts (15298) for Shop */
+     , (814, 4, 23857, -1, 0, 0, False) /* Create Bundle of Spiketails (23857) for Shop */
+     , (814, 4, 23858, -1, 0, 0, False) /* Create Bundle of Wrapped Spiketails (23858) for Shop */;

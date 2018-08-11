@@ -4,7 +4,7 @@ VALUES ('5637', 'portaldryreachshortcut', 7) /* Portal */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (5637,   1,      65536) /* ItemType - Portal */
      , (5637,  16,         32) /* ItemUseable - Remote */
-     , (5637,  93,       3084) /* PhysicsState */
+     , (5637,  93,       3084) /* PhysicsState - Ethereal, ReportCollisions, Gravity, LightingOn */
      , (5637, 111,          1) /* PortalBitmask - Unrestricted */
      , (5637, 133,          4) /* ShowableOnRadar - ShowAlways */;
 

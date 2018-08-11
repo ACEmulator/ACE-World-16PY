@@ -14,7 +14,7 @@ VALUES (24451,   1,         16) /* ItemType - Creature */
      , (24451,  40,          2) /* CombatMode - Melee */
      , (24451,  68,         13) /* TargetingTactic */
      , (24451,  72,         35) /* FriendType - OlthoiLarvae */
-     , (24451,  93,       1032) /* PhysicsState */
+     , (24451,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (24451, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (24451, 140,          1) /* AiOptions */
      , (24451, 146,      24684) /* XpOverride */;
@@ -72,7 +72,7 @@ VALUES (24451,   1,   33557165) /* Setup */
      , (24451,   8,  100667623) /* Icon */
      , (24451,  22,  872415379) /* PhysicsEffectTable */
      , (24451,  30,         85) /* PhysicsScript - BreatheFrost */
-     , (24451,  35,        146) /* DeathTreasureType */;
+     , (24451,  35,        146) /* DeathTreasureType - Loot Tier: 5 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (24451,   1, 380, 0, 0) /* Strength */
@@ -126,5 +126,5 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 268435537 /* Twitch1 */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (24451, 9,     0,  0, 0, 0, False) /* Create Unknown for ContainTreasure */
-     , (24451, 9, 24355,  0, 0, 1, False) /* Create Brood Matron Claw for ContainTreasure */;
+VALUES (24451, 9,     0,  0, 0, 0, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 5 for ContainTreasure */
+     , (24451, 9, 24355,  0, 0, 1, False) /* Create Brood Matron Claw (24355) for ContainTreasure */;

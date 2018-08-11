@@ -19,7 +19,7 @@ VALUES (15437,   1,        256) /* ItemType - MissileWeapon */
      , (15437,  45,          8) /* DamageType - Cold */
      , (15437,  50,          1) /* AmmoType - Arrow */
      , (15437,  51,          3) /* CombatUse - Ammo */
-     , (15437,  93,     132116) /* PhysicsState */
+     , (15437,  93,     132116) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, Inelastic */
      , (15437, 150,        103) /* HookPlacement - Hook */
      , (15437, 151,          2) /* HookType - Wall */
      , (15437, 158,          2) /* WieldRequirements - RawSkill */

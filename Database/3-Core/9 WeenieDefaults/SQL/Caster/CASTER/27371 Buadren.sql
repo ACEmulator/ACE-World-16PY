@@ -10,8 +10,8 @@ VALUES (27371,   1,      32768) /* ItemType - Caster */
      , (27371,  19,      10000) /* Value */
      , (27371,  33,          1) /* Bonded - Bonded */
      , (27371,  46,        512) /* DefaultCombatStyle - Magic */
-     , (27371,  93,       1044) /* PhysicsState */
-     , (27371,  94,         16) /* TargetType - Creature */
+     , (27371,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (27371,  94,         16) /* TargetType - Reedshark */
      , (27371, 114,          1) /* Attuned - Attuned */
      , (27371, 150,        103) /* HookPlacement - Hook */
      , (27371, 151,          2) /* HookType - Wall */;

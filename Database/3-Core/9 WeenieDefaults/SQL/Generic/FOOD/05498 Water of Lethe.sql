@@ -8,9 +8,9 @@ VALUES (5498,   1,         32) /* ItemType - Food */
      , (5498,   9,          0) /* ValidLocations - None */
      , (5498,  16,          1) /* ItemUseable - No */
      , (5498,  19,          2) /* Value */
-     , (5498,  93,       1044) /* PhysicsState */
+     , (5498,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (5498, 150,        103) /* HookPlacement - Hook */
-     , (5498, 151,         11) /* HookType */;
+     , (5498, 151,         11) /* HookType - Floor, Wall, Yard */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (5498,  22, True ) /* Inscribable */

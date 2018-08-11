@@ -13,8 +13,8 @@ VALUES (1497,   1,         16) /* ItemType - Creature */
      , (1497,  40,          2) /* CombatMode - Melee */
      , (1497,  67,         64) /* Tolerance */
      , (1497,  68,          9) /* TargetingTactic */
-     , (1497,  93,       1032) /* PhysicsState */
-     , (1497, 101,        131) /* AiAllowedCombatStyle */
+     , (1497,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
+     , (1497, 101,        131) /* AiAllowedCombatStyle - Unarmed, OneHanded, ThrownWeapon */
      , (1497, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (1497, 146,        365) /* XpOverride */;
 
@@ -69,7 +69,18 @@ VALUES (1497,   1,   33558024) /* Setup */
      , (1497,   7,  268436497) /* ClothingBase */
      , (1497,   8,  100667453) /* Icon */
      , (1497,  22,  872415255) /* PhysicsEffectTable */
-     , (1497,  32,         52) /* WieldedTreasureType */;
+     , (1497,  32,         52) /* WieldedTreasureType - 
+                                   Wield Battle Axe (301) | Probability: 10%
+                                   Wield Club (309) | Probability: 8%
+                                   Wield Dabus (313) | Probability: 10%
+                                   Wield Kasrullah (325) | Probability: 7%
+                                   Wield Mace (331) | Probability: 10%
+                                   Wield Morning Star (332) | Probability: 20%
+                                   Wield Shou-ono (342) | Probability: 10%
+                                   Wield Silifi (344) | Probability: 10%
+                                   Wield Tofun (356) | Probability: 10%
+                                   Wield 4x Throwing Axe (304) | Probability: 1%
+                                   Wield 4x Throwing Club (310) | Probability: 1% */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (1497,   1, 130, 0, 0) /* Strength */
@@ -144,4 +155,4 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 268435537 /* Twitch1 */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (1497, 8,   273, 100, 0, 0.85, False) /* Create Pyreal for Treasure */;
+VALUES (1497, 8,   273, 100, 0, 0.85, False) /* Create Pyreal (273) for Treasure */;

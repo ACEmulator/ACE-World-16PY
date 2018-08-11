@@ -12,7 +12,7 @@ VALUES (27653,   1,          2) /* ItemType - Armor */
      , (27653,  28,        310) /* ArmorLevel */
      , (27653,  36,       9999) /* ResistMagic */
      , (27653,  51,          4) /* CombatUse - Shield */
-     , (27653,  93,       1044) /* PhysicsState */
+     , (27653,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (27653, 106,        500) /* ItemSpellcraft */
      , (27653, 107,        500) /* ItemCurMana */
      , (27653, 108,        500) /* ItemMaxMana */

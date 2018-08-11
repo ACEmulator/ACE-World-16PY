@@ -13,8 +13,8 @@ VALUES (6816,   1,       2048) /* ItemType - Gem */
      , (6816,  15,          0) /* StackUnitValue */
      , (6816,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
      , (6816,  19,          0) /* Value */
-     , (6816,  93,       1044) /* PhysicsState */
-     , (6816,  94,       2048) /* TargetType - Gem */
+     , (6816,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (6816,  94,       2048) /* TargetType - 2048 */
      , (6816, 150,        103) /* HookPlacement - Hook */
      , (6816, 151,          2) /* HookType - Wall */;
 

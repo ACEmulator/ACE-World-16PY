@@ -12,8 +12,8 @@ VALUES (6402,   1,         16) /* ItemType - Creature */
      , (6402,  25,        155) /* Level */
      , (6402,  27,          0) /* ArmorType */
      , (6402,  68,          3) /* TargetingTactic */
-     , (6402,  93,       1032) /* PhysicsState */
-     , (6402, 101,        183) /* AiAllowedCombatStyle */
+     , (6402,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
+     , (6402, 101,        183) /* AiAllowedCombatStyle - Unarmed, OneHanded, OneHandedAndShield, Bow, Crossbow, ThrownWeapon */
      , (6402, 133,          1) /* ShowableOnRadar - ShowNever */
      , (6402, 140,          1) /* AiOptions */
      , (6402, 146,      13288) /* XpOverride */;
@@ -74,7 +74,7 @@ VALUES (6402,   1,   33556251) /* Setup */
      , (6402,   7,  268435871) /* ClothingBase */
      , (6402,   8,  100670398) /* Icon */
      , (6402,  22,  872415331) /* PhysicsEffectTable */
-     , (6402,  35,        179) /* DeathTreasureType */;
+     , (6402,  35,        179) /* DeathTreasureType - Loot Tier: 4 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (6402,   1, 190, 0, 0) /* Strength */
@@ -149,7 +149,7 @@ VALUES (6402,  94) /* ATTACK_NOTIFICATION_EVENT */
      , (6402, 414) /* PLAYER_DEATH_EVENT */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (6402, 9,     0,  0, 0, 0.98, False) /* Create Unknown for ContainTreasure */
-     , (6402, 9,     0,  0, 0, 0.98, False) /* Create Unknown for ContainTreasure */
-     , (6402, 9,  6058,  0, 0, 0.02, False) /* Create Dark Shard for ContainTreasure */
-     , (6402, 9,  6876,  0, 0, 0.02, False) /* Create Sturdy Iron Key for ContainTreasure */;
+VALUES (6402, 9,     0,  0, 0, 0.98, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 4 for ContainTreasure */
+     , (6402, 9,     0,  0, 0, 0.98, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 4 for ContainTreasure */
+     , (6402, 9,  6058,  0, 0, 0.02, False) /* Create Dark Shard (6058) for ContainTreasure */
+     , (6402, 9,  6876,  0, 0, 0.02, False) /* Create Sturdy Iron Key (6876) for ContainTreasure */;

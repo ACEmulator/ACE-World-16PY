@@ -4,8 +4,8 @@ VALUES ('6392', 'portalartifexvaultexit', 7) /* Portal */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (6392,   1,      65536) /* ItemType - Portal */
      , (6392,  16,         32) /* ItemUseable - Remote */
-     , (6392,  93,       3084) /* PhysicsState */
-     , (6392, 111,         17) /* PortalBitmask */
+     , (6392,  93,       3084) /* PhysicsState - Ethereal, ReportCollisions, Gravity, LightingOn */
+     , (6392, 111,         17) /* PortalBitmask - Unrestricted, NoSummon */
      , (6392, 133,          4) /* ShowableOnRadar - ShowAlways */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)

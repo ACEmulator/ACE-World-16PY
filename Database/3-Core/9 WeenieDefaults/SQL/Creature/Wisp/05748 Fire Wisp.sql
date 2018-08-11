@@ -11,7 +11,7 @@ VALUES (5748,   1,         16) /* ItemType - Creature */
      , (5748,  27,          0) /* ArmorType */
      , (5748,  40,          2) /* CombatMode - Melee */
      , (5748,  68,          9) /* TargetingTactic */
-     , (5748,  93,       1032) /* PhysicsState */
+     , (5748,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (5748, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (5748, 146,      18563) /* XpOverride */;
 
@@ -68,7 +68,7 @@ VALUES (5748,   1,   33556633) /* Setup */
      , (5748,   4,  805306398) /* CombatTable */
      , (5748,   8,  100668442) /* Icon */
      , (5748,  22,  872415274) /* PhysicsEffectTable */
-     , (5748,  35,        462) /* DeathTreasureType */;
+     , (5748,  35,        462) /* DeathTreasureType - Loot Tier: 3 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (5748,   1, 110, 0, 0) /* Strength */
@@ -120,7 +120,7 @@ VALUES (5748,  94) /* ATTACK_NOTIFICATION_EVENT */
      , (5748, 414) /* PLAYER_DEATH_EVENT */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (5748, 9,     0,  0, 0, 0.99, False) /* Create Unknown for ContainTreasure */
-     , (5748, 9,     0,  0, 0, 0.97, False) /* Create Unknown for ContainTreasure */
-     , (5748, 9,  6876,  0, 0, 0.01, False) /* Create Sturdy Iron Key for ContainTreasure */
-     , (5748, 9,  8666,  0, 0, 0.03, False) /* Create Pulsating Wisp Heart for ContainTreasure */;
+VALUES (5748, 9,     0,  0, 0, 0.99, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 3 for ContainTreasure */
+     , (5748, 9,     0,  0, 0, 0.97, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 3 for ContainTreasure */
+     , (5748, 9,  6876,  0, 0, 0.01, False) /* Create Sturdy Iron Key (6876) for ContainTreasure */
+     , (5748, 9,  8666,  0, 0, 0.03, False) /* Create Pulsating Wisp Heart (8666) for ContainTreasure */;

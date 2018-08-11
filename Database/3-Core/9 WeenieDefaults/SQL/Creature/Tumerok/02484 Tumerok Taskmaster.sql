@@ -11,8 +11,8 @@ VALUES (2484,   1,         16) /* ItemType - Creature */
      , (2484,  25,         85) /* Level */
      , (2484,  27,          0) /* ArmorType */
      , (2484,  68,          5) /* TargetingTactic */
-     , (2484,  93,       1032) /* PhysicsState */
-     , (2484, 101,        183) /* AiAllowedCombatStyle */
+     , (2484,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
+     , (2484, 101,        183) /* AiAllowedCombatStyle - Unarmed, OneHanded, OneHandedAndShield, Bow, Crossbow, ThrownWeapon */
      , (2484, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (2484, 140,          1) /* AiOptions */
      , (2484, 146,      21206) /* XpOverride */;
@@ -160,4 +160,4 @@ VALUES (2484,  94) /* ATTACK_NOTIFICATION_EVENT */
      , (2484, 414) /* PLAYER_DEATH_EVENT */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (2484, 1,  2204,  0, 0, 1, False) /* Create Tumerok Taskmaster's Key for Contain */;
+VALUES (2484, 1,  2204,  0, 0, 1, False) /* Create Tumerok Taskmaster's Key (2204) for Contain */;

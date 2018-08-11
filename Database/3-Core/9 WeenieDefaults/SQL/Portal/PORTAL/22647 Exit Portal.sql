@@ -4,8 +4,8 @@ VALUES ('22647', 'portaltuskeremporiumexit', 7) /* Portal */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (22647,   1,      65536) /* ItemType - Portal */
      , (22647,  16,         32) /* ItemUseable - Remote */
-     , (22647,  93,       3084) /* PhysicsState */
-     , (22647, 111,         49) /* PortalBitmask */
+     , (22647,  93,       3084) /* PhysicsState - Ethereal, ReportCollisions, Gravity, LightingOn */
+     , (22647, 111,         49) /* PortalBitmask - Unrestricted, NoSummon, NoRecall */
      , (22647, 133,          4) /* ShowableOnRadar - ShowAlways */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)

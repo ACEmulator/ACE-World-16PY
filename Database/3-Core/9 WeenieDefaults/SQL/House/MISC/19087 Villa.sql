@@ -8,7 +8,7 @@ VALUES (19087,   1,        128) /* ItemType - Misc */
      , (19087,   9,          0) /* ValidLocations - None */
      , (19087,  16,          1) /* ItemUseable - No */
      , (19087,  19,          0) /* Value */
-     , (19087,  93,         52) /* PhysicsState */
+     , (19087,  93,         52) /* PhysicsState - Ethereal, IgnoreCollisions, NoDraw */
      , (19087, 155,          2) /* HouseType - Villa */
      , (19087, 161,         50) /* HouseMaxHooksUsable */;
 

@@ -14,7 +14,7 @@ VALUES (2401,   1,       2048) /* ItemType - Gem */
      , (2401,  15,        100) /* StackUnitValue */
      , (2401,  16,          1) /* ItemUseable - No */
      , (2401,  19,        100) /* Value */
-     , (2401,  93,       1044) /* PhysicsState */
+     , (2401,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (2401, 131,         50) /* MaterialType - Zircon */
      , (2401, 169,   16777216) /* TsysMutationData */;
 

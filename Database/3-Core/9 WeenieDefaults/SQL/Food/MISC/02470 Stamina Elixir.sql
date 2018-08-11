@@ -16,9 +16,9 @@ VALUES (2470,   1,        128) /* ItemType - Misc */
      , (2470,  19,        150) /* Value */
      , (2470,  89,          4) /* BoosterEnum - Stamina */
      , (2470,  90,         65) /* BoostValue */
-     , (2470,  93,       1044) /* PhysicsState */
+     , (2470,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (2470, 150,        103) /* HookPlacement - Hook */
-     , (2470, 151,         11) /* HookType */;
+     , (2470, 151,         11) /* HookType - Floor, Wall, Yard */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (2470,   1, 'Stamina Elixir') /* Name */

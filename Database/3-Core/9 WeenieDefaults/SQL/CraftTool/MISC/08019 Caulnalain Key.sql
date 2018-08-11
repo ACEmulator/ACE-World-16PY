@@ -13,8 +13,8 @@ VALUES (8019,   1,        128) /* ItemType - Misc */
      , (8019,  15,          0) /* StackUnitValue */
      , (8019,  16,    2097160) /* ItemUseable - SourceContainedTargetRemote */
      , (8019,  19,          0) /* Value */
-     , (8019,  93,       1044) /* PhysicsState */
-     , (8019,  94,        128) /* TargetType - Misc */
+     , (8019,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (8019,  94,        128) /* TargetType - 128 */
      , (8019, 150,        103) /* HookPlacement - Hook */
      , (8019, 151,          2) /* HookType - Wall */;
 

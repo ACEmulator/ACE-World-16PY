@@ -11,8 +11,8 @@ VALUES (11525,   1,         16) /* ItemType - Creature */
      , (11525,  25,          9) /* Level */
      , (11525,  27,          0) /* ArmorType */
      , (11525,  68,          5) /* TargetingTactic */
-     , (11525,  93,       1032) /* PhysicsState */
-     , (11525, 101,        183) /* AiAllowedCombatStyle */
+     , (11525,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
+     , (11525, 101,        183) /* AiAllowedCombatStyle - Unarmed, OneHanded, OneHandedAndShield, Bow, Crossbow, ThrownWeapon */
      , (11525, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (11525, 140,          1) /* AiOptions */
      , (11525, 146,        450) /* XpOverride */;
@@ -68,8 +68,34 @@ VALUES (11525,   1,   33554496) /* Setup */
      , (11525,   7,  268435647) /* ClothingBase */
      , (11525,   8,  100667452) /* Icon */
      , (11525,  22,  872415270) /* PhysicsEffectTable */
-     , (11525,  32,        229) /* WieldedTreasureType */
-     , (11525,  35,        230) /* DeathTreasureType */;
+     , (11525,  32,        229) /* WieldedTreasureType - 
+                                   Wield 10x Throwing Dart (316) | Probability: 10%
+                                   Wield 10x Shouken (343) | Probability: 5%
+                                   Wield 6x Throwing Dagger (315) | Probability: 10%
+                                   Wield 4x Javelin (320) | Probability: 10%
+                                   Wield 3x Djarid (317) | Probability: 10%
+                                   Wield 5x Throwing Club (310) | Probability: 25%
+                                   Wield 5x Throwing Axe (304) | Probability: 25%
+                                   Wield Budiaq (308) | Probability: 5%
+                                   Wield Tumerok Board with Nail (7766) | Probability: 5%
+                                   Wield Dabus (313) | Probability: 5%
+                                   Wield Dagger (314) | Probability: 5%
+                                   Wield Hand Axe (303) | Probability: 5%
+                                   Wield Jambiya (319) | Probability: 2%
+                                   Wield Jitte (321) | Probability: 5%
+                                   Wield Kasrullah (325) | Probability: 5%
+                                   Wield Katar (326) | Probability: 5%
+                                   Wield Khanjar (328) | Probability: 5%
+                                   Wield Knife (329) | Probability: 3%
+                                   Wield Mace (331) | Probability: 5%
+                                   Wield Short Sword (352) | Probability: 5%
+                                   Wield Shou-ono (342) | Probability: 5%
+                                   Wield Simi (345) | Probability: 5%
+                                   Wield Spear (348) | Probability: 5%
+                                   Wield Tofun (356) | Probability: 10%
+                                   Wield Yaoji (361) | Probability: 15%
+                                   Wield Yari (362) | Probability: 5% */
+     , (11525,  35,        230) /* DeathTreasureType - Loot Tier: 2 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (11525,   1,  70, 0, 0) /* Strength */

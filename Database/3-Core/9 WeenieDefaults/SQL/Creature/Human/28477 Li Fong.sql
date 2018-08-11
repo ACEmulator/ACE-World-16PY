@@ -10,7 +10,7 @@ VALUES (28477,   1,         16) /* ItemType - Creature */
      , (28477,  16,         32) /* ItemUseable - Remote */
      , (28477,  25,        120) /* Level */
      , (28477,  27,          0) /* ArmorType */
-     , (28477,  93,    6292504) /* PhysicsState */
+     , (28477,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (28477,  95,          8) /* RadarBlipColor - Yellow */
      , (28477, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (28477, 134,         16) /* PlayerKillerStatus - RubberGlue */
@@ -234,5 +234,5 @@ VALUES (@parent_id,  0,  18 /* DirectBroadcast */, 0, 1, NULL, 'Li Fong exclaims
      , (@parent_id, 11,  18 /* DirectBroadcast */, 0, 1, NULL, 'Li Fong says, "That is the final reward I have for you. You have become a hero to all of Dereth, %tn. I shall never forget your name or your deeds."', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (28477, 2,   118,  0, 14, 1, False) /* Create Cap for Wield */
-     , (28477, 2, 10870,  0, 17, 0.7, False) /* Create Canescent Mattekar Robe for Wield */;
+VALUES (28477, 2,   118,  0, 14, 1, False) /* Create Cap (118) for Wield */
+     , (28477, 2, 10870,  0, 17, 0.7, False) /* Create Canescent Mattekar Robe (10870) for Wield */;

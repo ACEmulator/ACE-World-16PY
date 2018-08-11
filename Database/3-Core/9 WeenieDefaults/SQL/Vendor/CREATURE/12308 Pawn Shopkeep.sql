@@ -10,10 +10,10 @@ VALUES (12308,   1,         16) /* ItemType - Creature */
      , (12308,  16,         32) /* ItemUseable - Remote */
      , (12308,  25,          7) /* Level */
      , (12308,  27,          0) /* ArmorType */
-     , (12308,  74,  134770607) /* MerchandiseItemTypes */
+     , (12308,  74,  134770607) /* MerchandiseItemTypes - Vestements, Jewelry, Food, Weapon, LockableMagicTarget, Useless, Gem, Writable, Key, ManaStone, CraftFletchingIntermediate */
      , (12308,  75,          0) /* MerchandiseMinValue */
      , (12308,  76,     100000) /* MerchandiseMaxValue */
-     , (12308,  93,    2098200) /* PhysicsState */
+     , (12308,  93,    2098200) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */
      , (12308, 126,        125) /* VendorHappyMean */
      , (12308, 127,        125) /* VendorHappyVariance */
      , (12308, 133,          4) /* ShowableOnRadar - ShowAlways */
@@ -235,77 +235,77 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 318767235 /* Nod */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (12308, 4,    36, -1, 0, 0, False) /* Create Leather Bracers for Shop */
-     , (12308, 4,    39, -1, 0, 0, False) /* Create Leather Breastplate for Shop */
-     , (12308, 4,    44, -1, 0, 0, False) /* Create Buckler for Shop */
-     , (12308, 4,    45, -1, 0, 0, False) /* Create Leather Cap for Shop */
-     , (12308, 4,    56, -1, 0, 0, False) /* Create Leather Gauntlets for Shop */
-     , (12308, 4,    60, -1, 0, 0, False) /* Create Leather Girth for Shop */
-     , (12308, 4,    65, -1, 0, 0, False) /* Create Leather Greaves for Shop */
-     , (12308, 4,    81, -1, 0, 0, False) /* Create Leather Leggings for Shop */
-     , (12308, 4,    86, -1, 0, 0, False) /* Create Leather Pauldrons for Shop */
-     , (12308, 4,   109, -1, 0, 0, False) /* Create Leather Tassets for Shop */
-     , (12308, 4,   115, -1, 0, 0, False) /* Create Leather Boots for Shop */
-     , (12308, 2,   117,  0, 7, 0.33, False) /* Create Breeches for Wield */
-     , (12308, 2,   130,  0, 8, 1, False) /* Create Shirt for Wield */
-     , (12308, 4,   136, -1, 17, 1, False) /* Create Pack for Shop */
-     , (12308, 4,   136, -1, 8, 1, False) /* Create Pack for Shop */
-     , (12308, 4,   151, -1, 0, 0, False) /* Create Empty Flask for Shop */
-     , (12308, 4,   166, -1, 17, 1, False) /* Create Sack for Shop */
-     , (12308, 4,   166, -1, 8, 1, False) /* Create Sack for Shop */
-     , (12308, 4,   258, -1, 0, 0, False) /* Create Apple for Shop */
-     , (12308, 4,   293, -1, 0, 0, False) /* Create Torch for Shop */
-     , (12308, 4,   295, -1, 0, 0, False) /* Create Bracelet for Shop */
-     , (12308, 4,   297, -1, 0, 0, False) /* Create Ring for Shop */
-     , (12308, 4,   300, -1, 0, 0, False) /* Create Arrow for Shop */
-     , (12308, 4,   303, -1, 0, 0, False) /* Create Hand Axe for Shop */
-     , (12308, 4,   307, -1, 0, 0, False) /* Create Shortbow for Shop */
-     , (12308, 4,   309, -1, 0, 0, False) /* Create Club for Shop */
-     , (12308, 4,   316, -1, 0, 0, False) /* Create Throwing Dart for Shop */
-     , (12308, 4,   329, -1, 0, 0, False) /* Create Knife for Shop */
-     , (12308, 4,   348, -1, 0, 0, False) /* Create Spear for Shop */
-     , (12308, 4,   352, -1, 0, 0, False) /* Create Short Sword for Shop */
-     , (12308, 4,   365, -1, 0, 0, False) /* Create Parchment for Shop */
-     , (12308, 4,   377, -1, 0, 0, False) /* Create Potion of Healing for Shop */
-     , (12308, 4,   378, -1, 0, 0, False) /* Create Stamina Potion for Shop */
-     , (12308, 4,   379, -1, 0, 0, False) /* Create Mana Potion for Shop */
-     , (12308, 4,   458, -1, 0, 0, False) /* Create Leather Cowl for Shop */
-     , (12308, 4,   513, -1, 0, 0, False) /* Create Plain Lockpick for Shop */
-     , (12308, 4,   545, -1, 0, 0, False) /* Create Reliable Lockpick for Shop */
-     , (12308, 4,   551, -1, 0, 0, False) /* Create Leather Basinet for Shop */
-     , (12308, 4,   628, -1, 0, 0, False) /* Create Handy Healing Kit for Shop */
-     , (12308, 4,   629, -1, 0, 0, False) /* Create Adept Healing Kit for Shop */
-     , (12308, 4,  2428, -1, 0, 0, False) /* Create Carnelian for Shop */
-     , (12308, 4,  2431, -1, 0, 0, False) /* Create Moonstone for Shop */
-     , (12308, 4,  2434, -1, 0, 0, False) /* Create Lesser Mana Stone for Shop */
-     , (12308, 4,  2457, -1, 0, 0, False) /* Create Health Draught for Shop */
-     , (12308, 4,  2460, -1, 0, 0, False) /* Create Mana Draught for Shop */
-     , (12308, 4,  2470, -1, 0, 0, False) /* Create Stamina Elixir for Shop */
-     , (12308, 2,  2606,  0, 7, 0.33, False) /* Create Boots for Wield */
-     , (12308, 4,  2621, -1, 0, 0, False) /* Create Trade Note (100) for Shop */
-     , (12308, 4,  2622, -1, 0, 0, False) /* Create Trade Note (500) for Shop */
-     , (12308, 4,  2623, -1, 0, 0, False) /* Create Trade Note (1,000) for Shop */
-     , (12308, 4,  2624, -1, 0, 0, False) /* Create Trade Note (5,000) for Shop */
-     , (12308, 4,  2625, -1, 0, 0, False) /* Create Trade Note (10,000) for Shop */
-     , (12308, 4,  2626, -1, 0, 0, False) /* Create Trade Note (50,000) for Shop */
-     , (12308, 4,  2627, -1, 0, 0, False) /* Create Trade Note (100,000) for Shop */
-     , (12308, 4,  4585, -1, 0, 0, False) /* Create Bundle of Arrowshafts for Shop */
-     , (12308, 4,  4586, -1, 0, 0, False) /* Create Bundle of Arrowheads for Shop */
-     , (12308, 4,  4612, -1, 0, 0, False) /* Create Tiny Mana Charge for Shop */
-     , (12308, 4,  4613, -1, 0, 0, False) /* Create Small Mana Charge for Shop */
-     , (12308, 4,  4614, -1, 0, 0, False) /* Create Moderate Mana Charge for Shop */
-     , (12308, 4,  4615, -1, 0, 0, False) /* Create High Mana Charge for Shop */
-     , (12308, 4,  4746, -1, 0, 0, False) /* Create Water for Shop */
-     , (12308, 4,  4757, -1, 0, 0, False) /* Create Carving Knife for Shop */
-     , (12308, 4,  4761, -1, 0, 0, False) /* Create Flour for Shop */
-     , (12308, 4,  4762, -1, 0, 0, False) /* Create Frying Pan for Shop */
-     , (12308, 4,  5339, -1, 0, 0, False) /* Create Bundle of Quarrelshafts for Shop */
-     , (12308, 4,  5778, -1, 0, 0, False) /* Create Whittling Knife for Shop */
-     , (12308, 4,  5778, -1, 0, 0, False) /* Create Whittling Knife for Shop */
-     , (12308, 2, 10696,  0, 18, 1, False) /* Create Apron for Wield */
-     , (12308, 4, 20628, -1, 0, 0, False) /* Create Trade Note (150,000) for Shop */
-     , (12308, 4, 20629, -1, 0, 0, False) /* Create Trade Note (200,000) for Shop */
-     , (12308, 4, 20630, -1, 0, 0, False) /* Create Trade Note (250,000) for Shop */
-     , (12308, 4, 22168, -1, 0, 0, False) /* Create Quarter Staff for Shop */
-     , (12308, 4, 27326, -1, 0, 0, False) /* Create Stamina Tincture for Shop */
-     , (12308, 4, 27331, -1, 0, 0, False) /* Create Minor Mana Stone for Shop */;
+VALUES (12308, 4,    36, -1, 0, 0, False) /* Create Leather Bracers (36) for Shop */
+     , (12308, 4,    39, -1, 0, 0, False) /* Create Leather Breastplate (39) for Shop */
+     , (12308, 4,    44, -1, 0, 0, False) /* Create Buckler (44) for Shop */
+     , (12308, 4,    45, -1, 0, 0, False) /* Create Leather Cap (45) for Shop */
+     , (12308, 4,    56, -1, 0, 0, False) /* Create Leather Gauntlets (56) for Shop */
+     , (12308, 4,    60, -1, 0, 0, False) /* Create Leather Girth (60) for Shop */
+     , (12308, 4,    65, -1, 0, 0, False) /* Create Leather Greaves (65) for Shop */
+     , (12308, 4,    81, -1, 0, 0, False) /* Create Leather Leggings (81) for Shop */
+     , (12308, 4,    86, -1, 0, 0, False) /* Create Leather Pauldrons (86) for Shop */
+     , (12308, 4,   109, -1, 0, 0, False) /* Create Leather Tassets (109) for Shop */
+     , (12308, 4,   115, -1, 0, 0, False) /* Create Leather Boots (115) for Shop */
+     , (12308, 2,   117,  0, 7, 0.33, False) /* Create Breeches (117) for Wield */
+     , (12308, 2,   130,  0, 8, 1, False) /* Create Shirt (130) for Wield */
+     , (12308, 4,   136, -1, 17, 1, False) /* Create Pack (136) for Shop */
+     , (12308, 4,   136, -1, 8, 1, False) /* Create Pack (136) for Shop */
+     , (12308, 4,   151, -1, 0, 0, False) /* Create Empty Flask (151) for Shop */
+     , (12308, 4,   166, -1, 17, 1, False) /* Create Sack (166) for Shop */
+     , (12308, 4,   166, -1, 8, 1, False) /* Create Sack (166) for Shop */
+     , (12308, 4,   258, -1, 0, 0, False) /* Create Apple (258) for Shop */
+     , (12308, 4,   293, -1, 0, 0, False) /* Create Torch (293) for Shop */
+     , (12308, 4,   295, -1, 0, 0, False) /* Create Bracelet (295) for Shop */
+     , (12308, 4,   297, -1, 0, 0, False) /* Create Ring (297) for Shop */
+     , (12308, 4,   300, -1, 0, 0, False) /* Create Arrow (300) for Shop */
+     , (12308, 4,   303, -1, 0, 0, False) /* Create Hand Axe (303) for Shop */
+     , (12308, 4,   307, -1, 0, 0, False) /* Create Shortbow (307) for Shop */
+     , (12308, 4,   309, -1, 0, 0, False) /* Create Club (309) for Shop */
+     , (12308, 4,   316, -1, 0, 0, False) /* Create Throwing Dart (316) for Shop */
+     , (12308, 4,   329, -1, 0, 0, False) /* Create Knife (329) for Shop */
+     , (12308, 4,   348, -1, 0, 0, False) /* Create Spear (348) for Shop */
+     , (12308, 4,   352, -1, 0, 0, False) /* Create Short Sword (352) for Shop */
+     , (12308, 4,   365, -1, 0, 0, False) /* Create Parchment (365) for Shop */
+     , (12308, 4,   377, -1, 0, 0, False) /* Create Potion of Healing (377) for Shop */
+     , (12308, 4,   378, -1, 0, 0, False) /* Create Stamina Potion (378) for Shop */
+     , (12308, 4,   379, -1, 0, 0, False) /* Create Mana Potion (379) for Shop */
+     , (12308, 4,   458, -1, 0, 0, False) /* Create Leather Cowl (458) for Shop */
+     , (12308, 4,   513, -1, 0, 0, False) /* Create Plain Lockpick (513) for Shop */
+     , (12308, 4,   545, -1, 0, 0, False) /* Create Reliable Lockpick (545) for Shop */
+     , (12308, 4,   551, -1, 0, 0, False) /* Create Leather Basinet (551) for Shop */
+     , (12308, 4,   628, -1, 0, 0, False) /* Create Handy Healing Kit (628) for Shop */
+     , (12308, 4,   629, -1, 0, 0, False) /* Create Adept Healing Kit (629) for Shop */
+     , (12308, 4,  2428, -1, 0, 0, False) /* Create Carnelian (2428) for Shop */
+     , (12308, 4,  2431, -1, 0, 0, False) /* Create Moonstone (2431) for Shop */
+     , (12308, 4,  2434, -1, 0, 0, False) /* Create Lesser Mana Stone (2434) for Shop */
+     , (12308, 4,  2457, -1, 0, 0, False) /* Create Health Draught (2457) for Shop */
+     , (12308, 4,  2460, -1, 0, 0, False) /* Create Mana Draught (2460) for Shop */
+     , (12308, 4,  2470, -1, 0, 0, False) /* Create Stamina Elixir (2470) for Shop */
+     , (12308, 2,  2606,  0, 7, 0.33, False) /* Create Boots (2606) for Wield */
+     , (12308, 4,  2621, -1, 0, 0, False) /* Create Trade Note (100) (2621) for Shop */
+     , (12308, 4,  2622, -1, 0, 0, False) /* Create Trade Note (500) (2622) for Shop */
+     , (12308, 4,  2623, -1, 0, 0, False) /* Create Trade Note (1,000) (2623) for Shop */
+     , (12308, 4,  2624, -1, 0, 0, False) /* Create Trade Note (5,000) (2624) for Shop */
+     , (12308, 4,  2625, -1, 0, 0, False) /* Create Trade Note (10,000) (2625) for Shop */
+     , (12308, 4,  2626, -1, 0, 0, False) /* Create Trade Note (50,000) (2626) for Shop */
+     , (12308, 4,  2627, -1, 0, 0, False) /* Create Trade Note (100,000) (2627) for Shop */
+     , (12308, 4,  4585, -1, 0, 0, False) /* Create Bundle of Arrowshafts (4585) for Shop */
+     , (12308, 4,  4586, -1, 0, 0, False) /* Create Bundle of Arrowheads (4586) for Shop */
+     , (12308, 4,  4612, -1, 0, 0, False) /* Create Tiny Mana Charge (4612) for Shop */
+     , (12308, 4,  4613, -1, 0, 0, False) /* Create Small Mana Charge (4613) for Shop */
+     , (12308, 4,  4614, -1, 0, 0, False) /* Create Moderate Mana Charge (4614) for Shop */
+     , (12308, 4,  4615, -1, 0, 0, False) /* Create High Mana Charge (4615) for Shop */
+     , (12308, 4,  4746, -1, 0, 0, False) /* Create Water (4746) for Shop */
+     , (12308, 4,  4757, -1, 0, 0, False) /* Create Carving Knife (4757) for Shop */
+     , (12308, 4,  4761, -1, 0, 0, False) /* Create Flour (4761) for Shop */
+     , (12308, 4,  4762, -1, 0, 0, False) /* Create Frying Pan (4762) for Shop */
+     , (12308, 4,  5339, -1, 0, 0, False) /* Create Bundle of Quarrelshafts (5339) for Shop */
+     , (12308, 4,  5778, -1, 0, 0, False) /* Create Whittling Knife (5778) for Shop */
+     , (12308, 4,  5778, -1, 0, 0, False) /* Create Whittling Knife (5778) for Shop */
+     , (12308, 2, 10696,  0, 18, 1, False) /* Create Apron (10696) for Wield */
+     , (12308, 4, 20628, -1, 0, 0, False) /* Create Trade Note (150,000) (20628) for Shop */
+     , (12308, 4, 20629, -1, 0, 0, False) /* Create Trade Note (200,000) (20629) for Shop */
+     , (12308, 4, 20630, -1, 0, 0, False) /* Create Trade Note (250,000) (20630) for Shop */
+     , (12308, 4, 22168, -1, 0, 0, False) /* Create Quarter Staff (22168) for Shop */
+     , (12308, 4, 27326, -1, 0, 0, False) /* Create Stamina Tincture (27326) for Shop */
+     , (12308, 4, 27331, -1, 0, 0, False) /* Create Minor Mana Stone (27331) for Shop */;

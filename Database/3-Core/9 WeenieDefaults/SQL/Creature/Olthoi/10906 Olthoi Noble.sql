@@ -13,7 +13,7 @@ VALUES (10906,   1,         16) /* ItemType - Creature */
      , (10906,  40,          2) /* CombatMode - Melee */
      , (10906,  68,         13) /* TargetingTactic */
      , (10906,  72,         35) /* FriendType - OlthoiLarvae */
-     , (10906,  93,    4195336) /* PhysicsState */
+     , (10906,  93,    4195336) /* PhysicsState - ReportCollisions, Gravity, EdgeSlide */
      , (10906, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (10906, 140,          1) /* AiOptions */
      , (10906, 146,      11826) /* XpOverride */;
@@ -69,7 +69,7 @@ VALUES (10906,   1,   33557046) /* Setup */
      , (10906,   8,  100667623) /* Icon */
      , (10906,  22,  872415378) /* PhysicsEffectTable */
      , (10906,  30,         85) /* PhysicsScript - BreatheFrost */
-     , (10906,  35,        146) /* DeathTreasureType */;
+     , (10906,  35,        146) /* DeathTreasureType - Loot Tier: 5 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (10906,   1, 300, 0, 0) /* Strength */
@@ -122,4 +122,4 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 268435537 /* Twitch1 */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (10906, 2, 11731,  3, 0, 0, False) /* Create Spitball for Wield */;
+VALUES (10906, 2, 11731,  3, 0, 0, False) /* Create Spitball (11731) for Wield */;

@@ -12,7 +12,7 @@ VALUES (30448,   1,         16) /* ItemType - Creature */
      , (30448,  27,          0) /* ArmorType */
      , (30448,  68,          3) /* TargetingTactic */
      , (30448,  72,         22) /* FriendType - Shadow */
-     , (30448,  93,       1032) /* PhysicsState */
+     , (30448,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (30448, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (30448, 140,          1) /* AiOptions */
      , (30448, 146,     664899) /* XpOverride */;
@@ -70,7 +70,7 @@ VALUES (30448,   1,   33558343) /* Setup */
      , (30448,   7,  268436609) /* ClothingBase */
      , (30448,   8,  100674323) /* Icon */
      , (30448,  22,  872415273) /* PhysicsEffectTable */
-     , (30448,  35,         29) /* DeathTreasureType */;
+     , (30448,  35,         29) /* DeathTreasureType - Loot Tier: 5 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (30448,   1, 310, 0, 0) /* Strength */
@@ -181,17 +181,17 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 268435539 /* Twitch3 */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (30448, 9,     0,  0, 0, 0, False) /* Create Unknown for ContainTreasure */
-     , (30448, 9,     0,  0, 0, 0, False) /* Create Unknown for ContainTreasure */
-     , (30448, 9,     0,  0, 0, 0, False) /* Create Unknown for ContainTreasure */
-     , (30448, 9,     0,  0, 0, 0, False) /* Create Unknown for ContainTreasure */
-     , (30448, 9,     0,  0, 0, 0, False) /* Create Unknown for ContainTreasure */
-     , (30448, 9,     0,  0, 0, 0, False) /* Create Unknown for ContainTreasure */
-     , (30448, 9,     0,  0, 0, 0, False) /* Create Unknown for ContainTreasure */
-     , (30448, 9, 30457,  0, 0, 1, False) /* Create Circlet of Shielding for ContainTreasure */
-     , (30448, 9, 30457,  0, 0, 1, False) /* Create Circlet of Shielding for ContainTreasure */
-     , (30448, 9, 30457,  0, 0, 1, False) /* Create Circlet of Shielding for ContainTreasure */
-     , (30448, 9, 30474,  0, 0, 1, False) /* Create Southern Forge Essence for ContainTreasure */
-     , (30448, 9, 30474,  0, 0, 1, False) /* Create Southern Forge Essence for ContainTreasure */
-     , (30448, 9, 30474,  0, 0, 1, False) /* Create Southern Forge Essence for ContainTreasure */
-     , (30448, 9, 30477,  0, 0, 1, False) /* Create Inner Sea Directive for ContainTreasure */;
+VALUES (30448, 9,     0,  0, 0, 0, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 5 for ContainTreasure */
+     , (30448, 9,     0,  0, 0, 0, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 5 for ContainTreasure */
+     , (30448, 9,     0,  0, 0, 0, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 5 for ContainTreasure */
+     , (30448, 9,     0,  0, 0, 0, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 5 for ContainTreasure */
+     , (30448, 9,     0,  0, 0, 0, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 5 for ContainTreasure */
+     , (30448, 9,     0,  0, 0, 0, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 5 for ContainTreasure */
+     , (30448, 9,     0,  0, 0, 0, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 5 for ContainTreasure */
+     , (30448, 9, 30457,  0, 0, 1, False) /* Create Circlet of Shielding (30457) for ContainTreasure */
+     , (30448, 9, 30457,  0, 0, 1, False) /* Create Circlet of Shielding (30457) for ContainTreasure */
+     , (30448, 9, 30457,  0, 0, 1, False) /* Create Circlet of Shielding (30457) for ContainTreasure */
+     , (30448, 9, 30474,  0, 0, 1, False) /* Create Southern Forge Essence (30474) for ContainTreasure */
+     , (30448, 9, 30474,  0, 0, 1, False) /* Create Southern Forge Essence (30474) for ContainTreasure */
+     , (30448, 9, 30474,  0, 0, 1, False) /* Create Southern Forge Essence (30474) for ContainTreasure */
+     , (30448, 9, 30477,  0, 0, 1, False) /* Create Inner Sea Directive (30477) for ContainTreasure */;

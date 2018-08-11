@@ -10,10 +10,10 @@ VALUES (27014,   1,         16) /* ItemType - Creature */
      , (27014,  16,         32) /* ItemUseable - Remote */
      , (27014,  25,         10) /* Level */
      , (27014,  27,          0) /* ArmorType */
-     , (27014,  74,     264192) /* MerchandiseItemTypes */
+     , (27014,  74,     264192) /* MerchandiseItemTypes - Gem, PromissoryNote */
      , (27014,  75,          0) /* MerchandiseMinValue */
      , (27014,  76,    1000000) /* MerchandiseMaxValue */
-     , (27014,  93,    2098204) /* PhysicsState */
+     , (27014,  93,    2098204) /* PhysicsState - Ethereal, ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */
      , (27014, 126,        125) /* VendorHappyMean */
      , (27014, 127,        125) /* VendorHappyVariance */
      , (27014, 133,          4) /* ShowableOnRadar - ShowAlways */
@@ -97,4 +97,4 @@ VALUES (27014,  0,  4,  0,    0,    0,    0,    0,    0,    0,    0,    0,    0,
      , (27014,  8,  4,  2, 0.75,    0,    0,    0,    0,    0,    0,    0,    0,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (27014, 4, 26379, -1, 0, 0, False) /* Create South Khayyaban Cottages Portal Gem for Shop */;
+VALUES (27014, 4, 26379, -1, 0, 0, False) /* Create South Khayyaban Cottages Portal Gem (26379) for Shop */;

@@ -12,7 +12,7 @@ VALUES (10936,   1,         16) /* ItemType - Creature */
      , (10936,  27,          0) /* ArmorType */
      , (10936,  40,          2) /* CombatMode - Melee */
      , (10936,  68,          3) /* TargetingTactic */
-     , (10936,  93,       1032) /* PhysicsState */
+     , (10936,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (10936, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (10936, 146,      30000) /* XpOverride */;
 
@@ -74,7 +74,7 @@ VALUES (10936,   1,   33556439) /* Setup */
      , (10936,   7,  268435983) /* ClothingBase */
      , (10936,   8,  100667940) /* Icon */
      , (10936,  22,  872415322) /* PhysicsEffectTable */
-     , (10936,  35,         87) /* DeathTreasureType */;
+     , (10936,  35,         87) /* DeathTreasureType - Loot Tier: 5 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (10936,   1, 360, 0, 0) /* Strength */
@@ -162,9 +162,9 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,  10 /* Tell */, 0, 1, NULL, 'They''re ALL out to get you, you know.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (10936, 9,     0,  0, 0, 0, False) /* Create Unknown for ContainTreasure */
-     , (10936, 9,     0,  0, 0, 0, False) /* Create Unknown for ContainTreasure */
-     , (10936, 9,     0,  0, 0, 0, False) /* Create Unknown for ContainTreasure */
-     , (10936, 9,  6353,  0, 0, 1, False) /* Create Pyreal Mote for ContainTreasure */
-     , (10936, 9,  6876,  0, 0, 1, False) /* Create Sturdy Iron Key for ContainTreasure */
-     , (10936, 9,  7338,  0, 0, 1, False) /* Create Diamond Heart for ContainTreasure */;
+VALUES (10936, 9,     0,  0, 0, 0, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 5 for ContainTreasure */
+     , (10936, 9,     0,  0, 0, 0, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 5 for ContainTreasure */
+     , (10936, 9,     0,  0, 0, 0, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 5 for ContainTreasure */
+     , (10936, 9,  6353,  0, 0, 1, False) /* Create Pyreal Mote (6353) for ContainTreasure */
+     , (10936, 9,  6876,  0, 0, 1, False) /* Create Sturdy Iron Key (6876) for ContainTreasure */
+     , (10936, 9,  7338,  0, 0, 1, False) /* Create Diamond Heart (7338) for ContainTreasure */;

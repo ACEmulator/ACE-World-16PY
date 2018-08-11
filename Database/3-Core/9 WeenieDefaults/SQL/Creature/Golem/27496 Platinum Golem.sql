@@ -12,7 +12,7 @@ VALUES (27496,   1,         16) /* ItemType - Creature */
      , (27496,  27,          0) /* ArmorType */
      , (27496,  40,          2) /* CombatMode - Melee */
      , (27496,  68,          9) /* TargetingTactic */
-     , (27496,  93,       1032) /* PhysicsState */
+     , (27496,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (27496, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (27496, 146,      74050) /* XpOverride */;
 
@@ -74,7 +74,7 @@ VALUES (27496,   1,   33556426) /* Setup */
      , (27496,   7,  268436615) /* ClothingBase */
      , (27496,   8,  100667940) /* Icon */
      , (27496,  22,  872415325) /* PhysicsEffectTable */
-     , (27496,  35,        461) /* DeathTreasureType */;
+     , (27496,  35,        461) /* DeathTreasureType - Loot Tier: 6 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (27496,   1, 390, 0, 0) /* Strength */
@@ -157,11 +157,11 @@ VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 1090519043 /* Ready */, NULL, NU
      , (@parent_id,  1,   5 /* Motion */, 0, 1, 1090519060 /* Sleeping */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (27496, 9,     0,  0, 0, 0.95, False) /* Create Unknown for ContainTreasure */
-     , (27496, 9,     0,  0, 0, 0.95, False) /* Create Unknown for ContainTreasure */
-     , (27496, 9,     0,  0, 0, 0.95, False) /* Create Unknown for ContainTreasure */
-     , (27496, 9,     0,  0, 0, 0.99, False) /* Create Unknown for ContainTreasure */
-     , (27496, 9,  6355,  0, 0, 0.05, False) /* Create Pyreal Sliver for ContainTreasure */
-     , (27496, 9,  6876,  0, 0, 0.05, False) /* Create Sturdy Iron Key for ContainTreasure */
-     , (27496, 9, 23202,  0, 0, 0.05, False) /* Create Platinum Golem Heart for ContainTreasure */
-     , (27496, 9, 27305,  0, 0, 0.01, False) /* Create Forbidden Key for ContainTreasure */;
+VALUES (27496, 9,     0,  0, 0, 0.95, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 6 for ContainTreasure */
+     , (27496, 9,     0,  0, 0, 0.95, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 6 for ContainTreasure */
+     , (27496, 9,     0,  0, 0, 0.95, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 6 for ContainTreasure */
+     , (27496, 9,     0,  0, 0, 0.99, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 6 for ContainTreasure */
+     , (27496, 9,  6355,  0, 0, 0.05, False) /* Create Pyreal Sliver (6355) for ContainTreasure */
+     , (27496, 9,  6876,  0, 0, 0.05, False) /* Create Sturdy Iron Key (6876) for ContainTreasure */
+     , (27496, 9, 23202,  0, 0, 0.05, False) /* Create Platinum Golem Heart (23202) for ContainTreasure */
+     , (27496, 9, 27305,  0, 0, 0.01, False) /* Create Forbidden Key (27305) for ContainTreasure */;

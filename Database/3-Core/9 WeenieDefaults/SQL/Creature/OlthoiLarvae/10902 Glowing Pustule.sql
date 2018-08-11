@@ -11,7 +11,7 @@ VALUES (10902,   1,         16) /* ItemType - Creature */
      , (10902,  27,          0) /* ArmorType */
      , (10902,  40,          1) /* CombatMode - NonCombat */
      , (10902,  67,          1) /* Tolerance */
-     , (10902,  93,       1032) /* PhysicsState */
+     , (10902,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (10902, 133,          0) /* ShowableOnRadar - Undefined */
      , (10902, 146,          0) /* XpOverride */;
 

@@ -13,8 +13,8 @@ VALUES (8431,   1,         16) /* ItemType - Creature */
      , (8431,  40,          1) /* CombatMode - NonCombat */
      , (8431,  68,          5) /* TargetingTactic */
      , (8431,  72,         14) /* FriendType - Undead */
-     , (8431,  93,       1032) /* PhysicsState */
-     , (8431, 101,        183) /* AiAllowedCombatStyle */
+     , (8431,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
+     , (8431, 101,        183) /* AiAllowedCombatStyle - Unarmed, OneHanded, OneHandedAndShield, Bow, Crossbow, ThrownWeapon */
      , (8431, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (8431, 140,          1) /* AiOptions */
      , (8431, 146,      31416) /* XpOverride */;
@@ -74,8 +74,15 @@ VALUES (8431,   1,   33554433) /* Setup */
      , (8431,   7,  268435645) /* ClothingBase */
      , (8431,   8,  100669122) /* Icon */
      , (8431,  22,  872415272) /* PhysicsEffectTable */
-     , (8431,  32,        335) /* WieldedTreasureType */
-     , (8431,  35,        460) /* DeathTreasureType */;
+     , (8431,  32,        335) /* WieldedTreasureType - 
+                                   Wield Acid Yari (23722) | Probability: 20%
+                                   Wield Yari (23730) | Probability: 25%
+                                   Wield Acid Spear (23688) | Probability: 10%
+                                   Wield Spear (23696) | Probability: 10%
+                                   Wield Fire Tachi (23707) | Probability: 10%
+                                   Wield Tachi (23700) | Probability: 10%
+                                   Wield Kite Shield (23684) | Probability: 55% */
+     , (8431,  35,        460) /* DeathTreasureType - Loot Tier: 4 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (8431,   1, 240, 0, 0) /* Strength */
@@ -179,5 +186,5 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 268435537 /* Twitch1 */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (8431, 9,     0,  0, 0, 0.98, False) /* Create Unknown for ContainTreasure */
-     , (8431, 9,  6876,  0, 0, 0.02, False) /* Create Sturdy Iron Key for ContainTreasure */;
+VALUES (8431, 9,     0,  0, 0, 0.98, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 4 for ContainTreasure */
+     , (8431, 9,  6876,  0, 0, 0.02, False) /* Create Sturdy Iron Key (6876) for ContainTreasure */;

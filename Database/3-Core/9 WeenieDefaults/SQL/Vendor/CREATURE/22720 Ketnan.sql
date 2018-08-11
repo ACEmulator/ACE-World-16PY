@@ -10,10 +10,10 @@ VALUES (22720,   1,         16) /* ItemType - Creature */
      , (22720,  16,         32) /* ItemUseable - Remote */
      , (22720,  25,          8) /* Level */
      , (22720,  27,          0) /* ArmorType */
-     , (22720,  74,     278447) /* MerchandiseItemTypes */
+     , (22720,  74,     278447) /* MerchandiseItemTypes - Vestements, Jewelry, Food, Weapon, LockableMagicTarget, Useless, Gem, SpellComponents, Writable, PromissoryNote */
      , (22720,  75,          0) /* MerchandiseMinValue */
      , (22720,  76,     100000) /* MerchandiseMaxValue */
-     , (22720,  93,    2098200) /* PhysicsState */
+     , (22720,  93,    2098200) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */
      , (22720, 126,        250) /* VendorHappyMean */
      , (22720, 127,        250) /* VendorHappyVariance */
      , (22720, 133,          4) /* ShowableOnRadar - ShowAlways */
@@ -209,17 +209,17 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 318767235 /* Nod */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (22720, 2,   132,  0, 2, 0.5, False) /* Create Shoes for Wield */
-     , (22720, 4,  2451, -1, 0, 0, False) /* Create Ale for Shop */
-     , (22720, 4,  2454, -1, 0, 0, False) /* Create Coffee for Shop */
-     , (22720, 4,  2465, -1, 0, 0, False) /* Create Palm Wine for Shop */
-     , (22720, 2,  2590,  0, 8, 1, False) /* Create Shirt for Wield */
-     , (22720, 2,  2598,  0, 4, 0.8, False) /* Create Pants for Wield */
-     , (22720, 4,  4734, -1, 0, 0, False) /* Create Meat Pie for Shop */
-     , (22720, 4,  4746, -1, 0, 0, False) /* Create Water for Shop */
-     , (22720, 2,  5905,  0, 2, 0.8, False) /* Create Hood for Wield */
-     , (22720, 4, 22565, -1, 0, 0, False) /* Create Tusker Island Shirt for Shop */
-     , (22720, 4, 22620, -1, 0, 0, False) /* Create Carved Tusker Statue for Shop */
-     , (22720, 4, 22635, -1, 0, 0, False) /* Create I survived the Tusker Emporium for Shop */
-     , (22720, 4, 22637, -1, 0, 0, False) /* Create Refreshing Umbrella Drink for Shop */
-     , (22720, 4, 22857, -1, 0, 0, False) /* Create Tiki Torch for Shop */;
+VALUES (22720, 2,   132,  0, 2, 0.5, False) /* Create Shoes (132) for Wield */
+     , (22720, 4,  2451, -1, 0, 0, False) /* Create Ale (2451) for Shop */
+     , (22720, 4,  2454, -1, 0, 0, False) /* Create Coffee (2454) for Shop */
+     , (22720, 4,  2465, -1, 0, 0, False) /* Create Palm Wine (2465) for Shop */
+     , (22720, 2,  2590,  0, 8, 1, False) /* Create Shirt (2590) for Wield */
+     , (22720, 2,  2598,  0, 4, 0.8, False) /* Create Pants (2598) for Wield */
+     , (22720, 4,  4734, -1, 0, 0, False) /* Create Meat Pie (4734) for Shop */
+     , (22720, 4,  4746, -1, 0, 0, False) /* Create Water (4746) for Shop */
+     , (22720, 2,  5905,  0, 2, 0.8, False) /* Create Hood (5905) for Wield */
+     , (22720, 4, 22565, -1, 0, 0, False) /* Create Tusker Island Shirt (22565) for Shop */
+     , (22720, 4, 22620, -1, 0, 0, False) /* Create Carved Tusker Statue (22620) for Shop */
+     , (22720, 4, 22635, -1, 0, 0, False) /* Create I survived the Tusker Emporium (22635) for Shop */
+     , (22720, 4, 22637, -1, 0, 0, False) /* Create Refreshing Umbrella Drink (22637) for Shop */
+     , (22720, 4, 22857, -1, 0, 0, False) /* Create Tiki Torch (22857) for Shop */;

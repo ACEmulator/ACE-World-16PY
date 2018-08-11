@@ -13,8 +13,8 @@ VALUES (11123,   1,    4194304) /* ItemType - CraftCookingBase */
      , (11123,  15,         20) /* StackUnitValue */
      , (11123,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
      , (11123,  19,         20) /* Value */
-     , (11123,  93,       1044) /* PhysicsState */
-     , (11123,  94,    4194336) /* TargetType */;
+     , (11123,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (11123,  94,    4194336) /* TargetType - 4194336 */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (11123,  23, True ) /* DestroyOnSell */

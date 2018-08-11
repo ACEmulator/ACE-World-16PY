@@ -14,7 +14,7 @@ VALUES (7427,   1,         16) /* ItemType - Creature */
      , (7427,  74,     262144) /* MerchandiseItemTypes - PromissoryNote */
      , (7427,  75,          0) /* MerchandiseMinValue */
      , (7427,  76,     100000) /* MerchandiseMaxValue */
-     , (7427,  93,    2098200) /* PhysicsState */
+     , (7427,  93,    2098200) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */
      , (7427, 126,        500) /* VendorHappyMean */
      , (7427, 127,        500) /* VendorHappyVariance */
      , (7427, 133,          4) /* ShowableOnRadar - ShowAlways */
@@ -175,11 +175,11 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 318767235 /* Nod */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (7427, 2,   115,  0, 4, 1, False) /* Create Leather Boots for Wield */
-     , (7427, 4,   262, -1, 0, 0, False) /* Create Chicken for Shop */
-     , (7427, 2,  5901,  0, 8, 0.8, False) /* Create Kasa for Wield */
-     , (7427, 2,  6612,  0, 21, 1, False) /* Create Greater Koujia Shadow Leggings for Wield */
-     , (7427, 2,  6754,  0, 0, 0, False) /* Create Silifi of Crimson Stars for Wield */
-     , (7427, 4,  7428, -1, 0, 0, False) /* Create Aerlinthe Patron Shirt for Shop */
-     , (7427, 2,  7429,  0, 0, 0, False) /* Create Aerlinthe Monarch Shirt for Wield */
-     , (7427, 4,  7429, -1, 0, 0, False) /* Create Aerlinthe Monarch Shirt for Shop */;
+VALUES (7427, 2,   115,  0, 4, 1, False) /* Create Leather Boots (115) for Wield */
+     , (7427, 4,   262, -1, 0, 0, False) /* Create Chicken (262) for Shop */
+     , (7427, 2,  5901,  0, 8, 0.8, False) /* Create Kasa (5901) for Wield */
+     , (7427, 2,  6612,  0, 21, 1, False) /* Create Greater Koujia Shadow Leggings (6612) for Wield */
+     , (7427, 2,  6754,  0, 0, 0, False) /* Create Silifi of Crimson Stars (6754) for Wield */
+     , (7427, 4,  7428, -1, 0, 0, False) /* Create Aerlinthe Patron Shirt (7428) for Shop */
+     , (7427, 2,  7429,  0, 0, 0, False) /* Create Aerlinthe Monarch Shirt (7429) for Wield */
+     , (7427, 4,  7429, -1, 0, 0, False) /* Create Aerlinthe Monarch Shirt (7429) for Shop */;

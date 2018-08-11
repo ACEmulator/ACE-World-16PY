@@ -10,7 +10,7 @@ VALUES (12050,   1,         16) /* ItemType - Creature */
      , (12050,  16,         32) /* ItemUseable - Remote */
      , (12050,  25,         75) /* Level */
      , (12050,  27,          0) /* ArmorType */
-     , (12050,  93,    6292504) /* PhysicsState */
+     , (12050,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (12050,  95,          8) /* RadarBlipColor - Yellow */
      , (12050, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (12050, 134,         16) /* PlayerKillerStatus - RubberGlue */
@@ -875,4 +875,4 @@ VALUES (@parent_id,  0,  10 /* Tell */, 1, 1, NULL, 'I see that you have visited
      , (@parent_id,  5,  10 /* Tell */, 1, 1, NULL, 'If you hand the token back to me I will make sure that you are recognized for your efforts. The madness of his reign is over and now we can move forward.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (12050, 2,  5913,  0, 5, 0, False) /* Create Dho Item Master Robe for Wield */;
+VALUES (12050, 2,  5913,  0, 5, 0, False) /* Create Dho Item Master Robe (5913) for Wield */;

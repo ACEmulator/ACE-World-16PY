@@ -10,7 +10,7 @@ VALUES (27112,   1,          8) /* ItemType - Jewelry */
      , (27112,  16,          1) /* ItemUseable - No */
      , (27112,  18,          1) /* UiEffects - Magical */
      , (27112,  19,       1000) /* Value */
-     , (27112,  93,       1044) /* PhysicsState */
+     , (27112,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (27112, 106,        125) /* ItemSpellcraft */
      , (27112, 107,        600) /* ItemCurMana */
      , (27112, 108,        600) /* ItemMaxMana */

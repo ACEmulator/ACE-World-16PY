@@ -13,7 +13,7 @@ VALUES (8470,   1,         16) /* ItemType - Creature */
      , (8470,  68,         13) /* TargetingTactic */
      , (8470,  81,          6) /* MaxGeneratedObjects */
      , (8470,  82,          6) /* InitGeneratedObjects */
-     , (8470,  93,       1032) /* PhysicsState */
+     , (8470,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (8470, 103,          1) /* GeneratorDestructionType - Nothing */
      , (8470, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (8470, 146,      26942) /* XpOverride */;
@@ -73,7 +73,7 @@ VALUES (8470,   1,   33555670) /* Setup */
      , (8470,   4,  805306404) /* CombatTable */
      , (8470,   8,  100671186) /* Icon */
      , (8470,  22,  872415332) /* PhysicsEffectTable */
-     , (8470,  35,        460) /* DeathTreasureType */;
+     , (8470,  35,        460) /* DeathTreasureType - Loot Tier: 4 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (8470,   1, 200, 0, 0) /* Strength */
@@ -119,10 +119,10 @@ VALUES (8470,  94) /* ATTACK_NOTIFICATION_EVENT */
      , (8470, 414) /* PLAYER_DEATH_EVENT */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (8470, 9,     0,  0, 0, 0.98, False) /* Create Unknown for ContainTreasure */
-     , (8470, 2,  4804, 10, 0, 0, False) /* Create Slithis Spine for Wield */
-     , (8470, 9,  6876,  0, 0, 0.02, False) /* Create Sturdy Iron Key for ContainTreasure */;
+VALUES (8470, 9,     0,  0, 0, 0.98, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 4 for ContainTreasure */
+     , (8470, 2,  4804, 10, 0, 0, False) /* Create Slithis Spine (4804) for Wield */
+     , (8470, 9,  6876,  0, 0, 0.02, False) /* Create Sturdy Iron Key (6876) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (8470, -1, 8469, 5, 3, 3, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0)
-     , (8470, -1, 8468, 5, 3, 3, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0);
+VALUES (8470, -1, 8469, 5, 3, 3, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Sulthis Tentacle (8469) (x3 up to max of 3) - Regenerate upon Destruction - Location to (re)Generate: Scatter */
+     , (8470, -1, 8468, 5, 3, 3, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Sulthis Tendril (8468) (x3 up to max of 3) - Regenerate upon Destruction - Location to (re)Generate: Scatter */;

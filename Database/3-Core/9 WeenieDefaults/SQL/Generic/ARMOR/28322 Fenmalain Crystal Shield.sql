@@ -14,7 +14,7 @@ VALUES (28322,   1,          2) /* ItemType - Armor */
      , (28322,  28,        150) /* ArmorLevel */
      , (28322,  36,       9999) /* ResistMagic */
      , (28322,  51,          4) /* CombatUse - Shield */
-     , (28322,  93,       1044) /* PhysicsState */
+     , (28322,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (28322, 106,        150) /* ItemSpellcraft */
      , (28322, 107,        250) /* ItemCurMana */
      , (28322, 108,        250) /* ItemMaxMana */

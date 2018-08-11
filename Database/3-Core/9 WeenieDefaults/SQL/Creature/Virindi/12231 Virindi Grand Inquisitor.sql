@@ -13,7 +13,7 @@ VALUES (12231,   1,         16) /* ItemType - Creature */
      , (12231,  68,          3) /* TargetingTactic */
      , (12231,  81,          1) /* MaxGeneratedObjects */
      , (12231,  82,          1) /* InitGeneratedObjects */
-     , (12231,  93,       1032) /* PhysicsState */
+     , (12231,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (12231, 103,          1) /* GeneratorDestructionType - Nothing */
      , (12231, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (12231, 140,          1) /* AiOptions */
@@ -75,7 +75,7 @@ VALUES (12231,   1,   33556982) /* Setup */
      , (12231,   7,  268435649) /* ClothingBase */
      , (12231,   8,  100667943) /* Icon */
      , (12231,  22,  872415273) /* PhysicsEffectTable */
-     , (12231,  35,        355) /* DeathTreasureType */;
+     , (12231,  35,        355) /* DeathTreasureType - Loot Tier: 5 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (12231,   1, 250, 0, 0) /* Strength */
@@ -241,14 +241,14 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,  10 /* Tell */, 0, 1, NULL, 'Is that what you call magic, flesh puppet?  Your dependence on flesh makes your efforts pathetic!', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (12231, 9,     0,  0, 0, 0.8, False) /* Create Unknown for ContainTreasure */
-     , (12231, 9,     0,  0, 0, 0.4, False) /* Create Unknown for ContainTreasure */
-     , (12231, 9,     0,  0, 0, 0.97, False) /* Create Unknown for ContainTreasure */
-     , (12231, 9,     0,  0, 0, 0.2, False) /* Create Unknown for ContainTreasure */
-     , (12231, 9,  6876,  0, 0, 0.6, False) /* Create Sturdy Iron Key for ContainTreasure */
-     , (12231, 9, 10804,  0, 0, 0.8, False) /* Create Obsidian Shard for ContainTreasure */
-     , (12231, 9, 11999,  0, 0, 0.03, False) /* Create Broken Virindi Inquisitor Mask for ContainTreasure */
-     , (12231, 9, 12236,  0, 0, 0.2, False) /* Create Energy Crystal for ContainTreasure */;
+VALUES (12231, 9,     0,  0, 0, 0.8, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 5 for ContainTreasure */
+     , (12231, 9,     0,  0, 0, 0.4, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 5 for ContainTreasure */
+     , (12231, 9,     0,  0, 0, 0.97, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 5 for ContainTreasure */
+     , (12231, 9,     0,  0, 0, 0.2, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 5 for ContainTreasure */
+     , (12231, 9,  6876,  0, 0, 0.6, False) /* Create Sturdy Iron Key (6876) for ContainTreasure */
+     , (12231, 9, 10804,  0, 0, 0.8, False) /* Create Obsidian Shard (10804) for ContainTreasure */
+     , (12231, 9, 11999,  0, 0, 0.03, False) /* Create Broken Virindi Inquisitor Mask (11999) for ContainTreasure */
+     , (12231, 9, 12236,  0, 0, 0.2, False) /* Create Energy Crystal (12236) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (12231, 1, 10814, 20, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0);
+VALUES (12231, 1, 10814, 20, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Virindi Inquisitor (10814) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Scatter */;

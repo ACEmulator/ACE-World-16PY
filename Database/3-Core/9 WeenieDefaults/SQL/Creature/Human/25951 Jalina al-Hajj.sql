@@ -11,7 +11,7 @@ VALUES (25951,   1,         16) /* ItemType - Creature */
      , (25951,  16,         32) /* ItemUseable - Remote */
      , (25951,  25,         11) /* Level */
      , (25951,  27,          0) /* ArmorType */
-     , (25951,  93,    6292504) /* PhysicsState */
+     , (25951,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (25951,  95,          8) /* RadarBlipColor - Yellow */
      , (25951, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (25951, 134,         16) /* PlayerKillerStatus - RubberGlue */
@@ -263,4 +263,4 @@ VALUES (@parent_id,  0,   3 /* Give */, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL
      , (@parent_id,  2,  31 /* EraseQuest */, 0, 1, NULL, 'DeservesHomecomingFlag', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (25951, 2,  5852,  0, 92, 0, False) /* Create Dho Vest and Robe for Wield */;
+VALUES (25951, 2,  5852,  0, 92, 0, False) /* Create Dho Vest and Robe (5852) for Wield */;

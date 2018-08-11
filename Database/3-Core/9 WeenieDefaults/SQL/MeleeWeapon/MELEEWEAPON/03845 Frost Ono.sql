@@ -17,7 +17,7 @@ VALUES (3845,   1,          1) /* ItemType - MeleeWeapon */
      , (3845,  48,          1) /* WeaponSkill - Axe */
      , (3845,  49,         50) /* WeaponTime */
      , (3845,  51,          1) /* CombatUse - Melee */
-     , (3845,  93,       1044) /* PhysicsState */
+     , (3845,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (3845, 150,        103) /* HookPlacement - Hook */
      , (3845, 151,          2) /* HookType - Wall */
      , (3845, 169,  101188618) /* TsysMutationData */;

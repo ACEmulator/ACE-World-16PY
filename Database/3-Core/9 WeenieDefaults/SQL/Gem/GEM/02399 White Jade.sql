@@ -14,7 +14,7 @@ VALUES (2399,   1,       2048) /* ItemType - Gem */
      , (2399,  15,        100) /* StackUnitValue */
      , (2399,  16,          1) /* ItemUseable - No */
      , (2399,  19,        100) /* Value */
-     , (2399,  93,       1044) /* PhysicsState */
+     , (2399,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (2399, 131,         45) /* MaterialType - WhiteJade */
      , (2399, 169,   16777216) /* TsysMutationData */;
 

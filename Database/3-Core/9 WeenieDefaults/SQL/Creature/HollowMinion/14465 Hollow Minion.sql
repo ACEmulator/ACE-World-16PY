@@ -12,7 +12,7 @@ VALUES (14465,   1,         16) /* ItemType - Creature */
      , (14465,  27,          0) /* ArmorType */
      , (14465,  68,          9) /* TargetingTactic */
      , (14465,  72,         59) /* FriendType - Simulacrum */
-     , (14465,  93,       1032) /* PhysicsState */
+     , (14465,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (14465, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (14465, 140,          1) /* AiOptions */
      , (14465, 146,       1189) /* XpOverride */;
@@ -66,7 +66,7 @@ VALUES (14465,   1,   33556792) /* Setup */
      , (14465,   4,  805306413) /* CombatTable */
      , (14465,   8,  100671140) /* Icon */
      , (14465,  22,  872415367) /* PhysicsEffectTable */
-     , (14465,  35,         72) /* DeathTreasureType */;
+     , (14465,  35,         72) /* DeathTreasureType - Loot Tier: 3 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (14465,   1, 150, 0, 0) /* Strength */
@@ -123,4 +123,4 @@ VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 1090519043 /* Ready */, NULL, NU
      , (@parent_id,  1,   5 /* Motion */, 0, 1, 1090519060 /* Sleeping */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (14465, 1, 14445,  1, 0, 0, False) /* Create A Cryptic Note for Contain */;
+VALUES (14465, 1, 14445,  1, 0, 0, False) /* Create A Cryptic Note (14445) for Contain */;

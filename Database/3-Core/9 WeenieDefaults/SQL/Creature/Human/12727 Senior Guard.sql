@@ -10,7 +10,7 @@ VALUES (12727,   1,         16) /* ItemType - Creature */
      , (12727,  16,         32) /* ItemUseable - Remote */
      , (12727,  25,         45) /* Level */
      , (12727,  27,          0) /* ArmorType */
-     , (12727,  93,    6292504) /* PhysicsState */
+     , (12727,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (12727,  95,          8) /* RadarBlipColor - Yellow */
      , (12727, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (12727, 134,         16) /* PlayerKillerStatus - RubberGlue */
@@ -514,5 +514,5 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,  10 /* Tell */, 1, 1, NULL, 'Greetings! As you can see, we are still fortifying this area. We are still unprepared to give proper training drills, but you can do much to help us prepare the Academy for others! Feel free to explore this area--we have hidden chests filled with goodies for you to discover. Also, talk to the others who work here with me--they all enjoy meeting new arrivals and will have tasks for you. When you have finished those tasks, come back to see me--I would love to see your progress.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (12727, 2,   118,  0, 14, 1, False) /* Create Cap for Wield */
-     , (12727, 2, 10870,  0, 17, 0.7, False) /* Create Canescent Mattekar Robe for Wield */;
+VALUES (12727, 2,   118,  0, 14, 1, False) /* Create Cap (118) for Wield */
+     , (12727, 2, 10870,  0, 17, 0.7, False) /* Create Canescent Mattekar Robe (10870) for Wield */;

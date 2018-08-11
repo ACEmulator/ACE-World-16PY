@@ -18,7 +18,7 @@ VALUES (6152,   1,          1) /* ItemType - MeleeWeapon */
      , (6152,  48,          1) /* WeaponSkill - Axe */
      , (6152,  49,         55) /* WeaponTime */
      , (6152,  51,          1) /* CombatUse - Melee */
-     , (6152,  93,       1044) /* PhysicsState */
+     , (6152,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (6152, 106,        100) /* ItemSpellcraft */
      , (6152, 107,        500) /* ItemCurMana */
      , (6152, 108,        500) /* ItemMaxMana */

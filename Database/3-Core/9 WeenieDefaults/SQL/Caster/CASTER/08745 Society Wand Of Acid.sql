@@ -10,8 +10,8 @@ VALUES (8745,   1,      32768) /* ItemType - Caster */
      , (8745,  16,    6291460) /* ItemUseable - SourceWieldedTargetRemoteNeverWalk */
      , (8745,  19,          1) /* Value */
      , (8745,  46,        512) /* DefaultCombatStyle - Magic */
-     , (8745,  93,       1044) /* PhysicsState */
-     , (8745,  94,         16) /* TargetType - Creature */
+     , (8745,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (8745,  94,         16) /* TargetType - Reedshark */
      , (8745, 106,        150) /* ItemSpellcraft */
      , (8745, 107,        600) /* ItemCurMana */
      , (8745, 108,        600) /* ItemMaxMana */

@@ -7,12 +7,12 @@ VALUES (28866,   1,          2) /* ItemType - Armor */
      , (28866,   4,      65536) /* ClothingPriority - Feet */
      , (28866,   5,        200) /* EncumbranceVal */
      , (28866,   8,        140) /* Mass */
-     , (28866,   9,        384) /* ValidLocations */
+     , (28866,   9,        384) /* ValidLocations - LowerLegWear, FootWear */
      , (28866,  16,          1) /* ItemUseable - No */
      , (28866,  19,        500) /* Value */
      , (28866,  27,          2) /* ArmorType */
      , (28866,  28,         10) /* ArmorLevel */
-     , (28866,  93,       1044) /* PhysicsState */
+     , (28866,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (28866, 150,        103) /* HookPlacement - Hook */
      , (28866, 151,          2) /* HookType - Wall */;
 

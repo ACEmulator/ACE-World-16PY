@@ -4,8 +4,8 @@ VALUES ('30542', 'portalcasinonightclub', 7) /* Portal */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (30542,   1,      65536) /* ItemType - Portal */
      , (30542,  16,         32) /* ItemUseable - Remote */
-     , (30542,  93,       3084) /* PhysicsState */
-     , (30542, 111,         49) /* PortalBitmask */
+     , (30542,  93,       3084) /* PhysicsState - Ethereal, ReportCollisions, Gravity, LightingOn */
+     , (30542, 111,         49) /* PortalBitmask - Unrestricted, NoSummon, NoRecall */
      , (30542, 133,          4) /* ShowableOnRadar - ShowAlways */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)

@@ -8,7 +8,7 @@ VALUES (14416,   1,        128) /* ItemType - Misc */
      , (14416,  16,         48) /* ItemUseable - ViewedRemote */
      , (14416,  19,        200) /* Value */
      , (14416,  83,       4096) /* ActivationResponse - CastSpell */
-     , (14416,  93,         16) /* PhysicsState - IgnoreCollision */
+     , (14416,  93,         16) /* PhysicsState - IgnoreCollisions */
      , (14416, 106,       1000) /* ItemSpellcraft */
      , (14416, 119,          1) /* Active */;
 

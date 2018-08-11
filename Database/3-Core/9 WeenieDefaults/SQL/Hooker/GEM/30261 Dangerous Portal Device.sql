@@ -8,9 +8,9 @@ VALUES (30261,   1,       2048) /* ItemType - Gem */
      , (30261,   9,          0) /* ValidLocations - None */
      , (30261,  16,          1) /* ItemUseable - No */
      , (30261,  19,     100000) /* Value */
-     , (30261,  93,       1044) /* PhysicsState */
+     , (30261,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (30261, 150,        103) /* HookPlacement - Hook */
-     , (30261, 151,          9) /* HookType */
+     , (30261, 151,          9) /* HookType - Floor, Yard */
      , (30261, 197,          4) /* HookGroup */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)

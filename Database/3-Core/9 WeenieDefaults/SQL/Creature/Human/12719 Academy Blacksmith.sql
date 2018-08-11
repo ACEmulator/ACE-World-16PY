@@ -10,7 +10,7 @@ VALUES (12719,   1,         16) /* ItemType - Creature */
      , (12719,  16,         32) /* ItemUseable - Remote */
      , (12719,  25,         30) /* Level */
      , (12719,  27,          0) /* ArmorType */
-     , (12719,  93,    6292504) /* PhysicsState */
+     , (12719,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (12719,  95,          8) /* RadarBlipColor - Yellow */
      , (12719, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (12719, 134,         16) /* PlayerKillerStatus - RubberGlue */
@@ -513,6 +513,6 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,  10 /* Tell */, 1, 1, NULL, 'Wonderful! A new arrival! You should visit the Academy Foreman--he''s been having a world of trouble with the Carpenter Wasps over in his construction area. He''s nearly at his wit''s end...and will be glad to see you.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (12719, 2,   130,  0, 17, 0.8, False) /* Create Shirt for Wield */
-     , (12719, 2,   132,  0, 17, 0.8, False) /* Create Shoes for Wield */
-     , (12719, 2,  2604,  0, 14, 1, False) /* Create Breeches for Wield */;
+VALUES (12719, 2,   130,  0, 17, 0.8, False) /* Create Shirt (130) for Wield */
+     , (12719, 2,   132,  0, 17, 0.8, False) /* Create Shoes (132) for Wield */
+     , (12719, 2,  2604,  0, 14, 1, False) /* Create Breeches (2604) for Wield */;

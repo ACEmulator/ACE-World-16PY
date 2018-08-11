@@ -10,10 +10,10 @@ VALUES (26917,   1,         16) /* ItemType - Creature */
      , (26917,  16,         32) /* ItemUseable - Remote */
      , (26917,  25,         10) /* Level */
      , (26917,  27,          0) /* ArmorType */
-     , (26917,  74,     264192) /* MerchandiseItemTypes */
+     , (26917,  74,     264192) /* MerchandiseItemTypes - Gem, PromissoryNote */
      , (26917,  75,          0) /* MerchandiseMinValue */
      , (26917,  76,    1000000) /* MerchandiseMaxValue */
-     , (26917,  93,    2098204) /* PhysicsState */
+     , (26917,  93,    2098204) /* PhysicsState - Ethereal, ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */
      , (26917, 126,        125) /* VendorHappyMean */
      , (26917, 127,        125) /* VendorHappyVariance */
      , (26917, 133,          4) /* ShowableOnRadar - ShowAlways */
@@ -97,4 +97,4 @@ VALUES (26917,  0,  4,  0,    0,    0,    0,    0,    0,    0,    0,    0,    0,
      , (26917,  8,  4,  2, 0.75,    0,    0,    0,    0,    0,    0,    0,    0,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (26917, 4, 26282, -1, 0, 0, False) /* Create Naqut Dreams Villas Portal Gem for Shop */;
+VALUES (26917, 4, 26282, -1, 0, 0, False) /* Create Naqut Dreams Villas Portal Gem (26282) for Shop */;

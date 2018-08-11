@@ -4,7 +4,7 @@ VALUES ('28779', 'portalfrozenlibraryexit', 7) /* Portal */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (28779,   1,      65536) /* ItemType - Portal */
      , (28779,  16,         32) /* ItemUseable - Remote */
-     , (28779,  93,       3084) /* PhysicsState */
+     , (28779,  93,       3084) /* PhysicsState - Ethereal, ReportCollisions, Gravity, LightingOn */
      , (28779, 111,          1) /* PortalBitmask - Unrestricted */
      , (28779, 133,          4) /* ShowableOnRadar - ShowAlways */;
 

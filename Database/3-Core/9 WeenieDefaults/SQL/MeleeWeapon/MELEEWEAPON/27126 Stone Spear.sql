@@ -17,7 +17,7 @@ VALUES (27126,   1,          1) /* ItemType - MeleeWeapon */
      , (27126,  48,          9) /* WeaponSkill - Spear */
      , (27126,  49,         30) /* WeaponTime */
      , (27126,  51,          1) /* CombatUse - Melee */
-     , (27126,  93,       1044) /* PhysicsState */
+     , (27126,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (27126, 106,        250) /* ItemSpellcraft */
      , (27126, 107,        500) /* ItemCurMana */
      , (27126, 108,        500) /* ItemMaxMana */

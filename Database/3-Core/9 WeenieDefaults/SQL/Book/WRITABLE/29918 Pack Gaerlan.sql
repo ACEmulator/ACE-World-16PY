@@ -10,10 +10,10 @@ VALUES (29918,   1,       8192) /* ItemType - Writable */
      , (29918,  16,          8) /* ItemUseable - Contained */
      , (29918,  19,       5000) /* Value */
      , (29918,  33,          1) /* Bonded - Bonded */
-     , (29918,  93,       1044) /* PhysicsState */
+     , (29918,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (29918, 114,          0) /* Attuned - Normal */
      , (29918, 150,        103) /* HookPlacement - Hook */
-     , (29918, 151,          9) /* HookType */;
+     , (29918, 151,          9) /* HookType - Floor, Yard */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (29918,  22, False) /* Inscribable */

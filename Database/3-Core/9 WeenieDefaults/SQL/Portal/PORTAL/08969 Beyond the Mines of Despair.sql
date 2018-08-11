@@ -4,8 +4,8 @@ VALUES ('8969', 'portalminesofdespairtunnels', 7) /* Portal */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (8969,   1,      65536) /* ItemType - Portal */
      , (8969,  16,         32) /* ItemUseable - Remote */
-     , (8969,  93,       3084) /* PhysicsState */
-     , (8969, 111,         17) /* PortalBitmask */
+     , (8969,  93,       3084) /* PhysicsState - Ethereal, ReportCollisions, Gravity, LightingOn */
+     , (8969, 111,         17) /* PortalBitmask - Unrestricted, NoSummon */
      , (8969, 133,          4) /* ShowableOnRadar - ShowAlways */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)

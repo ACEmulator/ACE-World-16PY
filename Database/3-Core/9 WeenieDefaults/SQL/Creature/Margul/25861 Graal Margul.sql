@@ -13,8 +13,8 @@ VALUES (25861,   1,         16) /* ItemType - Creature */
      , (25861,  40,          2) /* CombatMode - Melee */
      , (25861,  68,          9) /* TargetingTactic */
      , (25861,  72,         22) /* FriendType - Shadow */
-     , (25861,  93,       1032) /* PhysicsState */
-     , (25861, 101,        131) /* AiAllowedCombatStyle */
+     , (25861,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
+     , (25861, 101,        131) /* AiAllowedCombatStyle - Unarmed, OneHanded, ThrownWeapon */
      , (25861, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (25861, 140,          1) /* AiOptions */
      , (25861, 146,     600000) /* XpOverride */;
@@ -75,7 +75,7 @@ VALUES (25861,   1,   33558554) /* Setup */
      , (25861,   8,  100675661) /* Icon */
      , (25861,  22,  872415401) /* PhysicsEffectTable */
      , (25861,  30,         85) /* PhysicsScript - BreatheFrost */
-     , (25861,  35,        461) /* DeathTreasureType */;
+     , (25861,  35,        461) /* DeathTreasureType - Loot Tier: 6 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (25861,   1, 300, 0, 0) /* Strength */
@@ -173,5 +173,5 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 268435537 /* Twitch1 */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (25861, 9,     0,  0, 0, 0.97, False) /* Create Unknown for ContainTreasure */
-     , (25861, 9, 30823,  0, 0, 0.03, False) /* Create Broken Black Marrow Key for ContainTreasure */;
+VALUES (25861, 9,     0,  0, 0, 0.97, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 6 for ContainTreasure */
+     , (25861, 9, 30823,  0, 0, 0.03, False) /* Create Broken Black Marrow Key (30823) for ContainTreasure */;

@@ -16,8 +16,8 @@ VALUES (20019,   1,       2048) /* ItemType - Gem */
      , (20019,  18,          1) /* UiEffects - Magical */
      , (20019,  19,          0) /* Value */
      , (20019,  33,          1) /* Bonded - Bonded */
-     , (20019,  93,       3092) /* PhysicsState */
-     , (20019,  94,         16) /* TargetType - Creature */
+     , (20019,  93,       3092) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, LightingOn */
+     , (20019,  94,         16) /* TargetType - Reedshark */
      , (20019, 106,        210) /* ItemSpellcraft */
      , (20019, 107,         70) /* ItemCurMana */
      , (20019, 108,         70) /* ItemMaxMana */

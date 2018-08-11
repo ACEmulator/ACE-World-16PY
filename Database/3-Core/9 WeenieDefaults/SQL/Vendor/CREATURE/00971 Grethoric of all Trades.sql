@@ -10,10 +10,10 @@ VALUES (971,   1,         16) /* ItemType - Creature */
      , (971,  16,         32) /* ItemUseable - Remote */
      , (971,  25,         13) /* Level */
      , (971,  27,          0) /* ArmorType */
-     , (971,  74,     288679) /* MerchandiseItemTypes */
+     , (971,  74,     288679) /* MerchandiseItemTypes - Vestements, Food, Weapon, LockableMagicTarget, Useless, Writable, Key, PromissoryNote */
      , (971,  75,          0) /* MerchandiseMinValue */
      , (971,  76,      25000) /* MerchandiseMaxValue */
-     , (971,  93,    2098200) /* PhysicsState */
+     , (971,  93,    2098200) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */
      , (971, 126,        250) /* VendorHappyMean */
      , (971, 127,        250) /* VendorHappyVariance */
      , (971, 133,          4) /* ShowableOnRadar - ShowAlways */
@@ -179,47 +179,47 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 318767235 /* Nod */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (971, 4,    36, -1, 0, 0, False) /* Create Leather Bracers for Shop */
-     , (971, 4,    39, -1, 0, 0, False) /* Create Leather Breastplate for Shop */
-     , (971, 4,    44, -1, 0, 0, False) /* Create Buckler for Shop */
-     , (971, 4,    45, -1, 0, 0, False) /* Create Leather Cap for Shop */
-     , (971, 4,    65, -1, 0, 0, False) /* Create Leather Greaves for Shop */
-     , (971, 4,   109, -1, 0, 0, False) /* Create Leather Tassets for Shop */
-     , (971, 2,   115,  0, 4, 0.8, False) /* Create Leather Boots for Wield */
-     , (971, 4,   118, -1, 0, 0, False) /* Create Cap for Shop */
-     , (971, 4,   120, -1, 0, 0, False) /* Create Quilted Drawers for Shop */
-     , (971, 2,   126,  0, 8, 0.8, False) /* Create Leggings for Wield */
-     , (971, 2,   130,  0, 10, 1, False) /* Create Shirt for Wield */
-     , (971, 4,   132, -1, 0, 0, False) /* Create Shoes for Shop */
-     , (971, 4,   134, -1, 0, 0, False) /* Create Tunic for Shop */
-     , (971, 4,   136, -1, 39, 1, False) /* Create Pack for Shop */
-     , (971, 4,   137, -1, 0, 0, False) /* Create Basket for Shop */
-     , (971, 4,   166, -1, 39, 1, False) /* Create Sack for Shop */
-     , (971, 4,   259, -1, 0, 0, False) /* Create Bread for Shop */
-     , (971, 4,   261, -1, 0, 0, False) /* Create Cheese for Shop */
-     , (971, 4,   300, 175, 0, 0, False) /* Create Arrow for Shop */
-     , (971, 4,   314, -1, 0, 0, False) /* Create Dagger for Shop */
-     , (971, 4,   321, -1, 0, 0, False) /* Create Jitte for Shop */
-     , (971, 4,   329, -1, 0, 0, False) /* Create Knife for Shop */
-     , (971, 4,   342, -1, 0, 0, False) /* Create Shou-ono for Shop */
-     , (971, 4,   343, -1, 0, 0, False) /* Create Shouken for Shop */
-     , (971, 4,   365, -1, 0, 0, False) /* Create Parchment for Shop */
-     , (971, 4,   513, -1, 0, 0, False) /* Create Plain Lockpick for Shop */
-     , (971, 4,   545, -1, 0, 0, False) /* Create Reliable Lockpick for Shop */
-     , (971, 4,  2621, -1, 0, 0, False) /* Create Trade Note (100) for Shop */
-     , (971, 4,  2622, -1, 0, 0, False) /* Create Trade Note (500) for Shop */
-     , (971, 4,  2623, -1, 0, 0, False) /* Create Trade Note (1,000) for Shop */
-     , (971, 4,  2624, -1, 0, 0, False) /* Create Trade Note (5,000) for Shop */
-     , (971, 4,  2625, -1, 0, 0, False) /* Create Trade Note (10,000) for Shop */
-     , (971, 4,  2626, -1, 0, 0, False) /* Create Trade Note (50,000) for Shop */
-     , (971, 4,  2627, -1, 0, 0, False) /* Create Trade Note (100,000) for Shop */
-     , (971, 4,  9295, -1, 0, 0, False) /* Create Intricate Carving Tool for Shop */
-     , (971, 2, 10696,  0, 4, 0.8, False) /* Create Apron for Wield */
-     , (971, 4, 20628, -1, 0, 0, False) /* Create Trade Note (150,000) for Shop */
-     , (971, 4, 20629, -1, 0, 0, False) /* Create Trade Note (200,000) for Shop */
-     , (971, 4, 20630, -1, 0, 0, False) /* Create Trade Note (250,000) for Shop */
-     , (971, 4, 20646, -1, 0, 0, False) /* Create Ust for Shop */
-     , (971, 4, 21093, -1, 0, 0, False) /* Create Tinkering for Shop */
-     , (971, 4, 22158, -1, 0, 0, False) /* Create Jo for Shop */
-     , (971, 4, 23044, -1, 0, 0, False) /* Create On the Abilities of Salvaged Ivory for Shop */
-     , (971, 4, 23204, -1, 0, 0, False) /* Create Carving Keys and Keyrings for Shop */;
+VALUES (971, 4,    36, -1, 0, 0, False) /* Create Leather Bracers (36) for Shop */
+     , (971, 4,    39, -1, 0, 0, False) /* Create Leather Breastplate (39) for Shop */
+     , (971, 4,    44, -1, 0, 0, False) /* Create Buckler (44) for Shop */
+     , (971, 4,    45, -1, 0, 0, False) /* Create Leather Cap (45) for Shop */
+     , (971, 4,    65, -1, 0, 0, False) /* Create Leather Greaves (65) for Shop */
+     , (971, 4,   109, -1, 0, 0, False) /* Create Leather Tassets (109) for Shop */
+     , (971, 2,   115,  0, 4, 0.8, False) /* Create Leather Boots (115) for Wield */
+     , (971, 4,   118, -1, 0, 0, False) /* Create Cap (118) for Shop */
+     , (971, 4,   120, -1, 0, 0, False) /* Create Quilted Drawers (120) for Shop */
+     , (971, 2,   126,  0, 8, 0.8, False) /* Create Leggings (126) for Wield */
+     , (971, 2,   130,  0, 10, 1, False) /* Create Shirt (130) for Wield */
+     , (971, 4,   132, -1, 0, 0, False) /* Create Shoes (132) for Shop */
+     , (971, 4,   134, -1, 0, 0, False) /* Create Tunic (134) for Shop */
+     , (971, 4,   136, -1, 39, 1, False) /* Create Pack (136) for Shop */
+     , (971, 4,   137, -1, 0, 0, False) /* Create Basket (137) for Shop */
+     , (971, 4,   166, -1, 39, 1, False) /* Create Sack (166) for Shop */
+     , (971, 4,   259, -1, 0, 0, False) /* Create Bread (259) for Shop */
+     , (971, 4,   261, -1, 0, 0, False) /* Create Cheese (261) for Shop */
+     , (971, 4,   300, 175, 0, 0, False) /* Create Arrow (300) for Shop */
+     , (971, 4,   314, -1, 0, 0, False) /* Create Dagger (314) for Shop */
+     , (971, 4,   321, -1, 0, 0, False) /* Create Jitte (321) for Shop */
+     , (971, 4,   329, -1, 0, 0, False) /* Create Knife (329) for Shop */
+     , (971, 4,   342, -1, 0, 0, False) /* Create Shou-ono (342) for Shop */
+     , (971, 4,   343, -1, 0, 0, False) /* Create Shouken (343) for Shop */
+     , (971, 4,   365, -1, 0, 0, False) /* Create Parchment (365) for Shop */
+     , (971, 4,   513, -1, 0, 0, False) /* Create Plain Lockpick (513) for Shop */
+     , (971, 4,   545, -1, 0, 0, False) /* Create Reliable Lockpick (545) for Shop */
+     , (971, 4,  2621, -1, 0, 0, False) /* Create Trade Note (100) (2621) for Shop */
+     , (971, 4,  2622, -1, 0, 0, False) /* Create Trade Note (500) (2622) for Shop */
+     , (971, 4,  2623, -1, 0, 0, False) /* Create Trade Note (1,000) (2623) for Shop */
+     , (971, 4,  2624, -1, 0, 0, False) /* Create Trade Note (5,000) (2624) for Shop */
+     , (971, 4,  2625, -1, 0, 0, False) /* Create Trade Note (10,000) (2625) for Shop */
+     , (971, 4,  2626, -1, 0, 0, False) /* Create Trade Note (50,000) (2626) for Shop */
+     , (971, 4,  2627, -1, 0, 0, False) /* Create Trade Note (100,000) (2627) for Shop */
+     , (971, 4,  9295, -1, 0, 0, False) /* Create Intricate Carving Tool (9295) for Shop */
+     , (971, 2, 10696,  0, 4, 0.8, False) /* Create Apron (10696) for Wield */
+     , (971, 4, 20628, -1, 0, 0, False) /* Create Trade Note (150,000) (20628) for Shop */
+     , (971, 4, 20629, -1, 0, 0, False) /* Create Trade Note (200,000) (20629) for Shop */
+     , (971, 4, 20630, -1, 0, 0, False) /* Create Trade Note (250,000) (20630) for Shop */
+     , (971, 4, 20646, -1, 0, 0, False) /* Create Ust (20646) for Shop */
+     , (971, 4, 21093, -1, 0, 0, False) /* Create Tinkering (21093) for Shop */
+     , (971, 4, 22158, -1, 0, 0, False) /* Create Jo (22158) for Shop */
+     , (971, 4, 23044, -1, 0, 0, False) /* Create On the Abilities of Salvaged Ivory (23044) for Shop */
+     , (971, 4, 23204, -1, 0, 0, False) /* Create Carving Keys and Keyrings (23204) for Shop */;

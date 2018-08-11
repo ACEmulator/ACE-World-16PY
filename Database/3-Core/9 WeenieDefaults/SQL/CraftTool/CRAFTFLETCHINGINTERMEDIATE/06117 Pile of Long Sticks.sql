@@ -13,8 +13,8 @@ VALUES (6117,   1,  134217728) /* ItemType - CraftFletchingIntermediate */
      , (6117,  15,          5) /* StackUnitValue */
      , (6117,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
      , (6117,  19,          5) /* Value */
-     , (6117,  93,       1044) /* PhysicsState */
-     , (6117,  94,  134217728) /* TargetType - CraftFletchingIntermediate */;
+     , (6117,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (6117,  94,  134217728) /* TargetType - 134217728 */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (6117,  39,       1) /* DefaultScale */;

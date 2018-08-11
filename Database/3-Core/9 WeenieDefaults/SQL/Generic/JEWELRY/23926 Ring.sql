@@ -9,7 +9,7 @@ VALUES (23926,   1,          8) /* ItemType - Jewelry */
      , (23926,   9,     786432) /* ValidLocations - FingerWear */
      , (23926,  16,          1) /* ItemUseable - No */
      , (23926,  19,         50) /* Value */
-     , (23926,  93,       1044) /* PhysicsState */
+     , (23926,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (23926, 150,        103) /* HookPlacement - Hook */
      , (23926, 151,          2) /* HookType - Wall */;
 

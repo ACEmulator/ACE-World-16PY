@@ -14,7 +14,7 @@ VALUES (25552,   1,         16) /* ItemType - Creature */
      , (25552,  40,          2) /* CombatMode - Melee */
      , (25552,  68,         13) /* TargetingTactic */
      , (25552,  72,         35) /* FriendType - OlthoiLarvae */
-     , (25552,  93,       1032) /* PhysicsState */
+     , (25552,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (25552, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (25552, 140,          1) /* AiOptions */
      , (25552, 146,     499196) /* XpOverride */;
@@ -71,7 +71,7 @@ VALUES (25552,   1,   33558451) /* Setup */
      , (25552,   8,  100674878) /* Icon */
      , (25552,  22,  872415400) /* PhysicsEffectTable */
      , (25552,  30,         85) /* PhysicsScript - BreatheFrost */
-     , (25552,  35,        420) /* DeathTreasureType */;
+     , (25552,  35,        420) /* DeathTreasureType - Loot Tier: 6 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (25552,   1, 600, 0, 0) /* Strength */
@@ -124,6 +124,6 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 268435537 /* Twitch1 */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (25552, 9, 25551,  1, 0, 0, False) /* Create Olthoi Abdomen Fragment for ContainTreasure */
-     , (25552, 9, 25551,  1, 0, 0, False) /* Create Olthoi Abdomen Fragment for ContainTreasure */
-     , (25552, 9, 25551,  1, 0, 0, False) /* Create Olthoi Abdomen Fragment for ContainTreasure */;
+VALUES (25552, 9, 25551,  1, 0, 0, False) /* Create Olthoi Abdomen Fragment (25551) for ContainTreasure */
+     , (25552, 9, 25551,  1, 0, 0, False) /* Create Olthoi Abdomen Fragment (25551) for ContainTreasure */
+     , (25552, 9, 25551,  1, 0, 0, False) /* Create Olthoi Abdomen Fragment (25551) for ContainTreasure */;

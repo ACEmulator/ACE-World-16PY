@@ -4,8 +4,8 @@ VALUES ('24337', 'portalblackdeathtopst5', 7) /* Portal */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (24337,   1,      65536) /* ItemType - Portal */
      , (24337,  16,         32) /* ItemUseable - Remote */
-     , (24337,  93,       3084) /* PhysicsState */
-     , (24337, 111,         49) /* PortalBitmask */
+     , (24337,  93,       3084) /* PhysicsState - Ethereal, ReportCollisions, Gravity, LightingOn */
+     , (24337, 111,         49) /* PortalBitmask - Unrestricted, NoSummon, NoRecall */
      , (24337, 133,          4) /* ShowableOnRadar - ShowAlways */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)

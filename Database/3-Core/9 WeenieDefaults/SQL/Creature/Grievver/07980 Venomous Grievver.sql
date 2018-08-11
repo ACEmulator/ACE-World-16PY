@@ -13,8 +13,8 @@ VALUES (7980,   1,         16) /* ItemType - Creature */
      , (7980,  40,          2) /* CombatMode - Melee */
      , (7980,  68,          3) /* TargetingTactic */
      , (7980,  72,         22) /* FriendType - Shadow */
-     , (7980,  93,       1032) /* PhysicsState */
-     , (7980, 101,        131) /* AiAllowedCombatStyle */
+     , (7980,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
+     , (7980, 101,        131) /* AiAllowedCombatStyle - Unarmed, OneHanded, ThrownWeapon */
      , (7980, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (7980, 140,          1) /* AiOptions */
      , (7980, 146,      17223) /* XpOverride */;
@@ -75,7 +75,7 @@ VALUES (7980,   1,   33556698) /* Setup */
      , (7980,   8,  100670960) /* Icon */
      , (7980,  22,  872415364) /* PhysicsEffectTable */
      , (7980,  30,         86) /* PhysicsScript - BreatheAcid */
-     , (7980,  35,        462) /* DeathTreasureType */;
+     , (7980,  35,        462) /* DeathTreasureType - Loot Tier: 3 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (7980,   1, 250, 0, 0) /* Strength */
@@ -162,7 +162,7 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 268435537 /* Twitch1 */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (7980, 9,     0,  0, 0, 0.97, False) /* Create Unknown for ContainTreasure */
-     , (7980, 9,     0,  0, 0, 0.95, False) /* Create Unknown for ContainTreasure */
-     , (7980, 9,  8021,  0, 0, 0.03, False) /* Create Shendolain Key for ContainTreasure */
-     , (7980, 9,  9098,  0, 0, 0.05, False) /* Create Vial of Organic Acid for ContainTreasure */;
+VALUES (7980, 9,     0,  0, 0, 0.97, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 3 for ContainTreasure */
+     , (7980, 9,     0,  0, 0, 0.95, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 3 for ContainTreasure */
+     , (7980, 9,  8021,  0, 0, 0.03, False) /* Create Shendolain Key (8021) for ContainTreasure */
+     , (7980, 9,  9098,  0, 0, 0.05, False) /* Create Vial of Organic Acid (9098) for ContainTreasure */;

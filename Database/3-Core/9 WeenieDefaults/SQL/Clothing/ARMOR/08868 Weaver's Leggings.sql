@@ -4,16 +4,16 @@ VALUES ('8868', 'leggingsamullianweavers', 2) /* Clothing */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (8868,   1,          2) /* ItemType - Armor */
      , (8868,   3,          2) /* PaletteTemplate - Blue */
-     , (8868,   4,       2816) /* ClothingPriority */
+     , (8868,   4,       2816) /* ClothingPriority - OuterwearUpperLegs, OuterwearLowerLegs, OuterwearAbdomen */
      , (8868,   5,         10) /* EncumbranceVal */
      , (8868,   8,         10) /* Mass */
-     , (8868,   9,      25600) /* ValidLocations */
+     , (8868,   9,      25600) /* ValidLocations - AbdomenArmor, UpperLegArmor, LowerLegArmor */
      , (8868,  16,          1) /* ItemUseable - No */
      , (8868,  19,          1) /* Value */
      , (8868,  27,          2) /* ArmorType */
      , (8868,  28,        240) /* ArmorLevel */
      , (8868,  33,          1) /* Bonded - Bonded */
-     , (8868,  93,       1044) /* PhysicsState */
+     , (8868,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (8868, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)

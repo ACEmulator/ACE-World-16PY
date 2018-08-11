@@ -12,8 +12,8 @@ VALUES (22114,   1,         16) /* ItemType - Creature */
      , (22114,  27,          0) /* ArmorType */
      , (22114,  40,          1) /* CombatMode - NonCombat */
      , (22114,  68,          3) /* TargetingTactic */
-     , (22114,  93,       1032) /* PhysicsState */
-     , (22114, 101,        183) /* AiAllowedCombatStyle */
+     , (22114,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
+     , (22114, 101,        183) /* AiAllowedCombatStyle - Unarmed, OneHanded, OneHandedAndShield, Bow, Crossbow, ThrownWeapon */
      , (22114, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (22114, 140,          1) /* AiOptions */
      , (22114, 146,       6752) /* XpOverride */;
@@ -72,8 +72,29 @@ VALUES (22114,   1,   33554839) /* Setup */
      , (22114,   7,  268435558) /* ClothingBase */
      , (22114,   8,  100667942) /* Icon */
      , (22114,  22,  872415272) /* PhysicsEffectTable */
-     , (22114,  32,        249) /* WieldedTreasureType */
-     , (22114,  35,        451) /* DeathTreasureType */;
+     , (22114,  32,        249) /* WieldedTreasureType - 
+                                   Wield 4x Throwing Club (23654) | Probability: 10%
+                                   Wield Yumi (23735) | Probability: 10%
+                                   Wield 18x Arrow (300) | Probability: 100%
+                                   Wield Yumi (23735) | Probability: 10%
+                                   Wield 20x Fire Arrow (1437) | Probability: 100%
+                                   Wield Yumi (23735) | Probability: 10%
+                                   Wield 10x Acid Arrow (4181) | Probability: 100%
+                                   Wield Heavy Crossbow (23666) | Probability: 10%
+                                   Wield 12x Quarrel (305) | Probability: 100%
+                                   Wield Heavy Crossbow (23666) | Probability: 10%
+                                   Wield 14x Fire Quarrel (4188) | Probability: 100%
+                                   Wield Heavy Crossbow (23666) | Probability: 10%
+                                   Wield 16x Acid Quarrel (4185) | Probability: 100%
+                                   Wield Katar (23675) | Probability: 15%
+                                   Wield Cestus (23638) | Probability: 15%
+                                   Wield Nekode (23681) | Probability: 15%
+                                   Wield Spear (23697) | Probability: 15%
+                                   Wield Tachi (23701) | Probability: 15%
+                                   Wield Yari (23731) | Probability: 15%
+                                   Wield Kite Shield (23685) | Probability: 50%
+                                   Wield Tower Shield (95) | Probability: 25% */
+     , (22114,  35,        451) /* DeathTreasureType - Loot Tier: 2 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (22114,   1, 150, 0, 0) /* Strength */
@@ -157,5 +178,5 @@ VALUES (22114,  94) /* ATTACK_NOTIFICATION_EVENT */
      , (22114, 414) /* PLAYER_DEATH_EVENT */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (22114, 9,     0,  0, 0, 0, False) /* Create Unknown for ContainTreasure */
-     , (22114, 9, 22216,  0, 0, 1, False) /* Create Staff of Nullification for ContainTreasure */;
+VALUES (22114, 9,     0,  0, 0, 0, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 2 for ContainTreasure */
+     , (22114, 9, 22216,  0, 0, 1, False) /* Create Staff of Nullification (22216) for ContainTreasure */;

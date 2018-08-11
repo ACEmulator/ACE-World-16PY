@@ -11,7 +11,7 @@ VALUES (4180,   1,        512) /* ItemType - Container */
      , (4180,  19,          0) /* Value */
      , (4180,  81,          1) /* MaxGeneratedObjects */
      , (4180,  82,          1) /* InitGeneratedObjects */
-     , (4180,  93,       1052) /* PhysicsState */
+     , (4180,  93,       1052) /* PhysicsState - Ethereal, ReportCollisions, IgnoreCollisions, Gravity */
      , (4180,  96,        500) /* EncumbranceCapacity */
      , (4180, 100,          1) /* GeneratorType - Relative */;
 
@@ -37,7 +37,7 @@ VALUES (4180,   1,   33556617) /* Setup */
      , (4180,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (4180, 0.1, 4586, 1000, 1, 1, 2, 8, 6, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0)
-     , (4180, 0.2, 4767, 1200, 1, 1, 2, 8, 1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0)
-     , (4180, 0.3, 4748, 1200, 1, 1, 2, 8, 3, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0)
-     , (4180, 1, 457, 1200, 1, 1, 2, 72, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0);
+VALUES (4180, 0.1, 4586, 1000, 1, 1, 2, 8, 6, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Bundle of Arrowheads (4586) (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: Contain */
+     , (4180, 0.2, 4767, 1200, 1, 1, 2, 8, 1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Skewer (4767) (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: Contain */
+     , (4180, 0.3, 4748, 1200, 1, 1, 2, 8, 3, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Aqua Incanta (4748) (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: Contain */
+     , (4180, 1, 457, 1200, 1, 1, 2, 72, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate RANDOMLY GENERATED TREASURE from Loot Tier 2 (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: ContainTreasure */;

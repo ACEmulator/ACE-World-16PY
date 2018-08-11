@@ -15,7 +15,7 @@ VALUES (5831,   1,         32) /* ItemType - Food */
      , (5831,  19,         20) /* Value */
      , (5831,  89,          4) /* BoosterEnum - Stamina */
      , (5831,  90,         10) /* BoostValue */
-     , (5831,  93,       1044) /* PhysicsState */;
+     , (5831,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (5831,   1, 'Nelvaine''s Olde Ispar Stout') /* Name */

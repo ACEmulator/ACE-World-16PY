@@ -10,10 +10,10 @@ VALUES (26888,   1,         16) /* ItemType - Creature */
      , (26888,  16,         32) /* ItemUseable - Remote */
      , (26888,  25,         10) /* Level */
      , (26888,  27,          0) /* ArmorType */
-     , (26888,  74,     264192) /* MerchandiseItemTypes */
+     , (26888,  74,     264192) /* MerchandiseItemTypes - Gem, PromissoryNote */
      , (26888,  75,          0) /* MerchandiseMinValue */
      , (26888,  76,    1000000) /* MerchandiseMaxValue */
-     , (26888,  93,    2098204) /* PhysicsState */
+     , (26888,  93,    2098204) /* PhysicsState - Ethereal, ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */
      , (26888, 126,        125) /* VendorHappyMean */
      , (26888, 127,        125) /* VendorHappyVariance */
      , (26888, 133,          4) /* ShowableOnRadar - ShowAlways */
@@ -97,4 +97,4 @@ VALUES (26888,  0,  4,  0,    0,    0,    0,    0,    0,    0,    0,    0,    0,
      , (26888,  8,  4,  2, 0.75,    0,    0,    0,    0,    0,    0,    0,    0,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (26888, 4, 26253, -1, 0, 0, False) /* Create Lyceum View Cottages Portal Gem for Shop */;
+VALUES (26888, 4, 26253, -1, 0, 0, False) /* Create Lyceum View Cottages Portal Gem (26253) for Shop */;

@@ -4,17 +4,17 @@ VALUES ('28597', 'leggingsbalancetestextreme', 2) /* Clothing */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (28597,   1,          2) /* ItemType - Armor */
      , (28597,   3,         93) /* PaletteTemplate - DyeSpringBlack */
-     , (28597,   4,       2816) /* ClothingPriority */
+     , (28597,   4,       2816) /* ClothingPriority - OuterwearUpperLegs, OuterwearLowerLegs, OuterwearAbdomen */
      , (28597,   5,       2288) /* EncumbranceVal */
      , (28597,   8,       1275) /* Mass */
-     , (28597,   9,      25600) /* ValidLocations */
+     , (28597,   9,      25600) /* ValidLocations - AbdomenArmor, UpperLegArmor, LowerLegArmor */
      , (28597,  16,          1) /* ItemUseable - No */
      , (28597,  18,          1) /* UiEffects - Magical */
      , (28597,  19,       3040) /* Value */
      , (28597,  27,          2) /* ArmorType */
      , (28597,  28,        400) /* ArmorLevel */
      , (28597,  33,          1) /* Bonded - Bonded */
-     , (28597,  93,       1044) /* PhysicsState */
+     , (28597,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (28597, 107,       4000) /* ItemCurMana */
      , (28597, 108,       4000) /* ItemMaxMana */
      , (28597, 114,          1) /* Attuned - Attuned */;

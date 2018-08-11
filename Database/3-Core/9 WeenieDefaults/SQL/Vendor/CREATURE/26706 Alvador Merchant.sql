@@ -10,10 +10,10 @@ VALUES (26706,   1,         16) /* ItemType - Creature */
      , (26706,  16,         32) /* ItemUseable - Remote */
      , (26706,  25,         10) /* Level */
      , (26706,  27,          0) /* ArmorType */
-     , (26706,  74,     264192) /* MerchandiseItemTypes */
+     , (26706,  74,     264192) /* MerchandiseItemTypes - Gem, PromissoryNote */
      , (26706,  75,          0) /* MerchandiseMinValue */
      , (26706,  76,    1000000) /* MerchandiseMaxValue */
-     , (26706,  93,    2098204) /* PhysicsState */
+     , (26706,  93,    2098204) /* PhysicsState - Ethereal, ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */
      , (26706, 126,        125) /* VendorHappyMean */
      , (26706, 127,        125) /* VendorHappyVariance */
      , (26706, 133,          4) /* ShowableOnRadar - ShowAlways */
@@ -97,4 +97,4 @@ VALUES (26706,  0,  4,  0,    0,    0,    0,    0,    0,    0,    0,    0,    0,
      , (26706,  8,  4,  2, 0.75,    0,    0,    0,    0,    0,    0,    0,    0,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (26706, 4, 26071, -1, 0, 0, False) /* Create Alvador Portal Gem for Shop */;
+VALUES (26706, 4, 26071, -1, 0, 0, False) /* Create Alvador Portal Gem (26071) for Shop */;

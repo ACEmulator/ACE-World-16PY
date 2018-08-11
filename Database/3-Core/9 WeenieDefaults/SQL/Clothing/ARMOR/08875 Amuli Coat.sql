@@ -4,16 +4,16 @@ VALUES ('8875', 'coatamulliangroomsteele', 2) /* Clothing */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (8875,   1,          2) /* ItemType - Armor */
      , (8875,   3,         20) /* PaletteTemplate - Silver */
-     , (8875,   4,      13312) /* ClothingPriority */
+     , (8875,   4,      13312) /* ClothingPriority - OuterwearChest, OuterwearUpperArms, OuterwearLowerArms */
      , (8875,   5,       2500) /* EncumbranceVal */
      , (8875,   8,       1000) /* Mass */
-     , (8875,   9,       6656) /* ValidLocations */
+     , (8875,   9,       6656) /* ValidLocations - ChestArmor, UpperArmArmor, LowerArmArmor */
      , (8875,  16,          1) /* ItemUseable - No */
      , (8875,  19,       2610) /* Value */
      , (8875,  27,          8) /* ArmorType */
      , (8875,  28,         90) /* ArmorLevel */
      , (8875,  33,          1) /* Bonded - Bonded */
-     , (8875,  93,       1044) /* PhysicsState */
+     , (8875,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (8875, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)

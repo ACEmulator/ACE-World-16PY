@@ -11,8 +11,8 @@ VALUES (11887,   1,         16) /* ItemType - Creature */
      , (11887,  25,         53) /* Level */
      , (11887,  27,          0) /* ArmorType */
      , (11887,  68,          5) /* TargetingTactic */
-     , (11887,  93,       1032) /* PhysicsState */
-     , (11887, 101,        183) /* AiAllowedCombatStyle */
+     , (11887,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
+     , (11887, 101,        183) /* AiAllowedCombatStyle - Unarmed, OneHanded, OneHandedAndShield, Bow, Crossbow, ThrownWeapon */
      , (11887, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (11887, 140,          1) /* AiOptions */
      , (11887, 146,       8793) /* XpOverride */;
@@ -71,8 +71,10 @@ VALUES (11887,   1,   33554496) /* Setup */
      , (11887,   7,  268435647) /* ClothingBase */
      , (11887,   8,  100667452) /* Icon */
      , (11887,  22,  872415270) /* PhysicsEffectTable */
-     , (11887,  32,        368) /* WieldedTreasureType */
-     , (11887,  35,        451) /* DeathTreasureType */;
+     , (11887,  32,        368) /* WieldedTreasureType - 
+                                   Wield Hafted Mask Spear (11753) | Probability: 80%
+                                   Wield Reinforced Mask Spear (11779) | Probability: 20% */
+     , (11887,  35,        451) /* DeathTreasureType - Loot Tier: 2 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (11887,   1, 170, 0, 0) /* Strength */
@@ -145,7 +147,7 @@ VALUES (11887,  94) /* ATTACK_NOTIFICATION_EVENT */
      , (11887, 414) /* PLAYER_DEATH_EVENT */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (11887, 9,     0,  0, 0, 0.2, False) /* Create Unknown for ContainTreasure */
-     , (11887, 9,     0,  0, 0, 0.95, False) /* Create Unknown for ContainTreasure */
-     , (11887, 1,  3695,  0, 0, 0.8, False) /* Create Gold Tumerok Insignia for Contain */
-     , (11887, 9, 11814,  0, 0, 0.05, False) /* Create Mask Crest for ContainTreasure */;
+VALUES (11887, 9,     0,  0, 0, 0.2, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 2 for ContainTreasure */
+     , (11887, 9,     0,  0, 0, 0.95, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 2 for ContainTreasure */
+     , (11887, 1,  3695,  0, 0, 0.8, False) /* Create Gold Tumerok Insignia (3695) for Contain */
+     , (11887, 9, 11814,  0, 0, 0.05, False) /* Create Mask Crest (11814) for ContainTreasure */;

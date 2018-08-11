@@ -5,8 +5,8 @@ INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (11207,   1,      65536) /* ItemType - Portal */
      , (11207,  16,         32) /* ItemUseable - Remote */
      , (11207,  86,         70) /* MinLevel */
-     , (11207,  93,       3084) /* PhysicsState */
-     , (11207, 111,         49) /* PortalBitmask */
+     , (11207,  93,       3084) /* PhysicsState - Ethereal, ReportCollisions, Gravity, LightingOn */
+     , (11207, 111,         49) /* PortalBitmask - Unrestricted, NoSummon, NoRecall */
      , (11207, 133,          4) /* ShowableOnRadar - ShowAlways */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)

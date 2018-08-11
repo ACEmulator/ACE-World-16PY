@@ -12,8 +12,8 @@ VALUES (7432,   1,         16) /* ItemType - Creature */
      , (7432,  27,          0) /* ArmorType */
      , (7432,  40,          1) /* CombatMode - NonCombat */
      , (7432,  68,          3) /* TargetingTactic */
-     , (7432,  93,    4195336) /* PhysicsState */
-     , (7432, 101,        183) /* AiAllowedCombatStyle */
+     , (7432,  93,    4195336) /* PhysicsState - ReportCollisions, Gravity, EdgeSlide */
+     , (7432, 101,        183) /* AiAllowedCombatStyle - Unarmed, OneHanded, OneHandedAndShield, Bow, Crossbow, ThrownWeapon */
      , (7432, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (7432, 140,          1) /* AiOptions */
      , (7432, 146,       1989) /* XpOverride */;
@@ -74,8 +74,32 @@ VALUES (7432,   1,   33554839) /* Setup */
      , (7432,   7,  268435558) /* ClothingBase */
      , (7432,   8,  100667942) /* Icon */
      , (7432,  22,  872415272) /* PhysicsEffectTable */
-     , (7432,  32,        248) /* WieldedTreasureType */
-     , (7432,  35,        453) /* DeathTreasureType */;
+     , (7432,  32,        248) /* WieldedTreasureType - 
+                                   Wield 6x Throwing Axe (304) | Probability: 10%
+                                   Wield Nayin (334) | Probability: 10%
+                                   Wield 20x Arrow (300) | Probability: 100%
+                                   Wield Longbow (306) | Probability: 10%
+                                   Wield 20x Arrow (300) | Probability: 100%
+                                   Wield Yumi (363) | Probability: 10%
+                                   Wield 14x Arrow (300) | Probability: 100%
+                                   Wield Heavy Crossbow (311) | Probability: 60%
+                                   Wield 15x Quarrel (305) | Probability: 100%
+                                   Wield Battle Axe (301) | Probability: 14%
+                                   Wield Broad Sword (350) | Probability: 7%
+                                   Wield Kaskara (324) | Probability: 6%
+                                   Wield Ken (327) | Probability: 6%
+                                   Wield Long Sword (351) | Probability: 6%
+                                   Wield Morning Star (332) | Probability: 10%
+                                   Wield Scimitar (339) | Probability: 6%
+                                   Wield Shamshir (340) | Probability: 6%
+                                   Wield Ono (336) | Probability: 13%
+                                   Wield Silifi (344) | Probability: 13%
+                                   Wield Tachi (353) | Probability: 6%
+                                   Wield Takuba (354) | Probability: 6%
+                                   Wield Large Kite Shield (92) | Probability: 30%
+                                   Wield Kite Shield (91) | Probability: 20%
+                                   Wield Large Round Shield (94) | Probability: 20% */
+     , (7432,  35,        453) /* DeathTreasureType - Loot Tier: 1 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (7432,  16, 1997606914) /* ActivationTarget */;

@@ -9,13 +9,13 @@ VALUES (9420,   1,          1) /* ItemType - MeleeWeapon */
      , (9420,  16,          1) /* ItemUseable - No */
      , (9420,  19,       1100) /* Value */
      , (9420,  44,         10) /* Damage */
-     , (9420,  45,         17) /* DamageType */
+     , (9420,  45,         17) /* DamageType - Slash, Fire */
      , (9420,  46,          1) /* DefaultCombatStyle - Unarmed */
      , (9420,  47,          1) /* AttackType - Punch */
      , (9420,  48,         13) /* WeaponSkill - UnarmedCombat */
      , (9420,  49,         25) /* WeaponTime */
      , (9420,  51,          1) /* CombatUse - Melee */
-     , (9420,  93,       1044) /* PhysicsState */
+     , (9420,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (9420, 150,        103) /* HookPlacement - Hook */
      , (9420, 151,          2) /* HookType - Wall */;
 

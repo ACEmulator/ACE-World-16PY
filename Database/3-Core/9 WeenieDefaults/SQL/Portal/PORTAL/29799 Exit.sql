@@ -4,8 +4,8 @@ VALUES ('29799', 'portalthreebagsexit', 7) /* Portal */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (29799,   1,      65536) /* ItemType - Portal */
      , (29799,  16,         32) /* ItemUseable - Remote */
-     , (29799,  93,       3084) /* PhysicsState */
-     , (29799, 111,         49) /* PortalBitmask */
+     , (29799,  93,       3084) /* PhysicsState - Ethereal, ReportCollisions, Gravity, LightingOn */
+     , (29799, 111,         49) /* PortalBitmask - Unrestricted, NoSummon, NoRecall */
      , (29799, 133,          4) /* ShowableOnRadar - ShowAlways */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)

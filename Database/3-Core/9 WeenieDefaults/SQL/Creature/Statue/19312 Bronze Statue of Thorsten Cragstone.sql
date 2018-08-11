@@ -12,8 +12,8 @@ VALUES (19312,   1,         16) /* ItemType - Creature */
      , (19312,  25,         53) /* Level */
      , (19312,  27,          0) /* ArmorType */
      , (19312,  68,         13) /* TargetingTactic */
-     , (19312,  93,       1032) /* PhysicsState */
-     , (19312, 101,        131) /* AiAllowedCombatStyle */
+     , (19312,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
+     , (19312, 101,        131) /* AiAllowedCombatStyle - Unarmed, OneHanded, ThrownWeapon */
      , (19312, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (19312, 146,       8715) /* XpOverride */;
 
@@ -71,8 +71,10 @@ VALUES (19312,   1,   33554433) /* Setup */
      , (19312,   7,  268436347) /* ClothingBase */
      , (19312,   8,  100667446) /* Icon */
      , (19312,  22,  872415349) /* PhysicsEffectTable */
-     , (19312,  32,        403) /* WieldedTreasureType */
-     , (19312,  35,        451) /* DeathTreasureType */;
+     , (19312,  32,        403) /* WieldedTreasureType - 
+                                   Wield Cragstone's Axe (15389) | Probability: 100%
+                                   Wield Cragstone's Shield (15402) | Probability: 100% */
+     , (19312,  35,        451) /* DeathTreasureType - Loot Tier: 2 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (19312,   1, 230, 0, 0) /* Strength */
@@ -118,5 +120,5 @@ VALUES (19312,  94) /* ATTACK_NOTIFICATION_EVENT */
      , (19312, 414) /* PLAYER_DEATH_EVENT */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (19312, 9,     0,  0, 0, 0.95, False) /* Create Unknown for ContainTreasure */
-     , (19312, 9, 19213,  0, 0, 0.05, False) /* Create Bronze Coil from a Statue for ContainTreasure */;
+VALUES (19312, 9,     0,  0, 0, 0.95, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 2 for ContainTreasure */
+     , (19312, 9, 19213,  0, 0, 0.05, False) /* Create Bronze Coil from a Statue (19213) for ContainTreasure */;

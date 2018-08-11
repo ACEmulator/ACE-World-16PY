@@ -14,7 +14,7 @@ VALUES (8660,   1,          2) /* ItemType - Armor */
      , (8660,  28,        100) /* ArmorLevel */
      , (8660,  44,          4) /* Damage */
      , (8660,  45,          4) /* DamageType - Bludgeon */
-     , (8660,  93,       1044) /* PhysicsState */;
+     , (8660,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (8660,  22, True ) /* Inscribable */;

@@ -13,8 +13,8 @@ VALUES (8233,   1,    4194304) /* ItemType - CraftCookingBase */
      , (8233,  15,         15) /* StackUnitValue */
      , (8233,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
      , (8233,  19,         15) /* Value */
-     , (8233,  93,       1044) /* PhysicsState */
-     , (8233,  94,    4194336) /* TargetType */;
+     , (8233,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (8233,  94,    4194336) /* TargetType - 4194336 */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (8233,  69, False) /* IsSellable */;

@@ -10,7 +10,7 @@ VALUES (25585,   1,         16) /* ItemType - Creature */
      , (25585,  16,         32) /* ItemUseable - Remote */
      , (25585,  25,         83) /* Level */
      , (25585,  27,          0) /* ArmorType */
-     , (25585,  93,    6292504) /* PhysicsState */
+     , (25585,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (25585,  95,          8) /* RadarBlipColor - Yellow */
      , (25585, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (25585, 134,         16) /* PlayerKillerStatus - RubberGlue */
@@ -297,9 +297,9 @@ VALUES (@parent_id,  0,  12 /* TurnToTarget */, 0, 1, NULL, NULL, NULL, NULL, NU
      , (@parent_id,  6,   5 /* Motion */, 0, 1, 318767235 /* Nod */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (25585, 2, 21150,  0, 20, 0.1, False) /* Create Covenant Sollerets for Wield */
-     , (25585, 2, 21153,  0, 20, 0.1, False) /* Create Covenant Gauntlets for Wield */
-     , (25585, 2, 23789,  0, 0, 0, False) /* Create Plated Amuli Leggings for Wield */
-     , (25585, 2, 23797,  0, 0, 0, False) /* Create Plated Celdon Breastplate for Wield */
-     , (25585, 2, 23845,  0, 0, 0, False) /* Create Plated Koujia Sleeves for Wield */
-     , (25585, 2, 25557,  0, 0, 0, False) /* Create Eye Patch for Wield */;
+VALUES (25585, 2, 21150,  0, 20, 0.1, False) /* Create Covenant Sollerets (21150) for Wield */
+     , (25585, 2, 21153,  0, 20, 0.1, False) /* Create Covenant Gauntlets (21153) for Wield */
+     , (25585, 2, 23789,  0, 0, 0, False) /* Create Plated Amuli Leggings (23789) for Wield */
+     , (25585, 2, 23797,  0, 0, 0, False) /* Create Plated Celdon Breastplate (23797) for Wield */
+     , (25585, 2, 23845,  0, 0, 0, False) /* Create Plated Koujia Sleeves (23845) for Wield */
+     , (25585, 2, 25557,  0, 0, 0, False) /* Create Eye Patch (25557) for Wield */;

@@ -4,8 +4,8 @@ VALUES ('29793', 'portalnumberpuzzleexit', 7) /* Portal */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (29793,   1,      65536) /* ItemType - Portal */
      , (29793,  16,         32) /* ItemUseable - Remote */
-     , (29793,  93,       3084) /* PhysicsState */
-     , (29793, 111,         49) /* PortalBitmask */
+     , (29793,  93,       3084) /* PhysicsState - Ethereal, ReportCollisions, Gravity, LightingOn */
+     , (29793, 111,         49) /* PortalBitmask - Unrestricted, NoSummon, NoRecall */
      , (29793, 133,          4) /* ShowableOnRadar - ShowAlways */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)

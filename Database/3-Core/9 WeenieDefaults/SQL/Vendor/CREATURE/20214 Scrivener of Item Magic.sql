@@ -10,10 +10,10 @@ VALUES (20214,   1,         16) /* ItemType - Creature */
      , (20214,  16,         32) /* ItemUseable - Remote */
      , (20214,  25,         14) /* Level */
      , (20214,  27,          0) /* ArmorType */
-     , (20214,  74,     270464) /* MerchandiseItemTypes */
+     , (20214,  74,     270464) /* MerchandiseItemTypes - Misc, Writable, PromissoryNote */
      , (20214,  75,          0) /* MerchandiseMinValue */
      , (20214,  76,     100000) /* MerchandiseMaxValue */
-     , (20214,  93,    2098200) /* PhysicsState */
+     , (20214,  93,    2098200) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */
      , (20214, 126,      10000) /* VendorHappyMean */
      , (20214, 127,       4000) /* VendorHappyVariance */
      , (20214, 133,          4) /* ShowableOnRadar - ShowAlways */
@@ -169,38 +169,38 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 318767235 /* Nod */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (20214, 2,   115,  0, 4, 0.6, False) /* Create Leather Boots for Wield */
-     , (20214, 2,   124,  0, 9, 0.5, False) /* Create Jerkin for Wield */
-     , (20214, 2,   127,  0, 3, 0.67, False) /* Create Pants for Wield */
-     , (20214, 4,  2764, -1, 0, 0, False) /* Create Scroll of Acid Bane IV for Shop */
-     , (20214, 4,  2769, -1, 0, 0, False) /* Create Scroll of Acid Lure IV for Shop */
-     , (20214, 4,  2774, -1, 0, 0, False) /* Create Scroll of Blade Bane IV for Shop */
-     , (20214, 4,  2779, -1, 0, 0, False) /* Create Scroll of Blade Lure IV for Shop */
-     , (20214, 4,  2784, -1, 0, 0, False) /* Create Blood Drinker Scroll IV for Shop */
-     , (20214, 4,  2789, -1, 0, 0, False) /* Create Scroll of Blood Loather IV for Shop */
-     , (20214, 4,  2794, -1, 0, 0, False) /* Create Scroll of Bludgeon Bane IV for Shop */
-     , (20214, 4,  2799, -1, 0, 0, False) /* Create Scroll of Bludgeon Lure IV for Shop */
-     , (20214, 4,  2804, -1, 0, 0, False) /* Create Scroll of Brittlemail IV for Shop */
-     , (20214, 4,  2809, -1, 0, 0, False) /* Create Scroll of Defender IV for Shop */
-     , (20214, 4,  2814, -1, 0, 0, False) /* Create Scroll of Flame Bane IV for Shop */
-     , (20214, 4,  2819, -1, 0, 0, False) /* Create Scroll of Flame Lure IV for Shop */
-     , (20214, 4,  2824, -1, 0, 0, False) /* Create Scroll of Frost Bane IV for Shop */
-     , (20214, 4,  2829, -1, 0, 0, False) /* Create Scroll of Frost Lure IV for Shop */
-     , (20214, 4,  2834, -1, 0, 0, False) /* Create Scroll of Heartseeker IV for Shop */
-     , (20214, 4,  2839, -1, 0, 0, False) /* Create Scroll of Hermetic Void IV for Shop */
-     , (20214, 4,  2844, -1, 0, 0, False) /* Create Scroll of Impenetrability IV for Shop */
-     , (20214, 4,  2849, -1, 0, 0, False) /* Create Scroll of Leaden Weapon IV for Shop */
-     , (20214, 4,  2854, -1, 0, 0, False) /* Create Scroll of Lightning Bane IV for Shop */
-     , (20214, 4,  2859, -1, 0, 0, False) /* Create Scroll of Lightning Lure IV for Shop */
-     , (20214, 4,  2864, -1, 0, 0, False) /* Create Scroll of Lure Blade IV for Shop */
-     , (20214, 4,  2869, -1, 0, 0, False) /* Create Scroll of Piercing Bane IV for Shop */
-     , (20214, 4,  2874, -1, 0, 0, False) /* Create Scroll of Piercing Lure IV for Shop */
-     , (20214, 4,  2879, -1, 0, 0, False) /* Create Scroll of Strengthen Lock IV for Shop */
-     , (20214, 4,  2884, -1, 0, 0, False) /* Create Scroll of Swift Killer IV for Shop */
-     , (20214, 4,  2889, -1, 0, 0, False) /* Create Scroll of Hermetic Link IV for Shop */
-     , (20214, 4,  2895, -1, 0, 0, False) /* Create Scroll of Turn Blade IV for Shop */
-     , (20214, 4,  2900, -1, 0, 0, False) /* Create Scroll of Weaken Lock IV for Shop */
-     , (20214, 4,  2904, -1, 0, 0, False) /* Create Scroll of Summon Primary Portal I for Shop */
-     , (20214, 2, 10696,  0, 13, 0.5, False) /* Create Apron for Wield */
-     , (20214, 4, 15269, -1, 0, 0, False) /* Create Foci of Artifice for Shop */
-     , (20214, 4, 20622, -1, 0, 0, False) /* Create Scroll of Summon Secondary Portal I for Shop */;
+VALUES (20214, 2,   115,  0, 4, 0.6, False) /* Create Leather Boots (115) for Wield */
+     , (20214, 2,   124,  0, 9, 0.5, False) /* Create Jerkin (124) for Wield */
+     , (20214, 2,   127,  0, 3, 0.67, False) /* Create Pants (127) for Wield */
+     , (20214, 4,  2764, -1, 0, 0, False) /* Create Scroll of Acid Bane IV (2764) for Shop */
+     , (20214, 4,  2769, -1, 0, 0, False) /* Create Scroll of Acid Lure IV (2769) for Shop */
+     , (20214, 4,  2774, -1, 0, 0, False) /* Create Scroll of Blade Bane IV (2774) for Shop */
+     , (20214, 4,  2779, -1, 0, 0, False) /* Create Scroll of Blade Lure IV (2779) for Shop */
+     , (20214, 4,  2784, -1, 0, 0, False) /* Create Blood Drinker Scroll IV (2784) for Shop */
+     , (20214, 4,  2789, -1, 0, 0, False) /* Create Scroll of Blood Loather IV (2789) for Shop */
+     , (20214, 4,  2794, -1, 0, 0, False) /* Create Scroll of Bludgeon Bane IV (2794) for Shop */
+     , (20214, 4,  2799, -1, 0, 0, False) /* Create Scroll of Bludgeon Lure IV (2799) for Shop */
+     , (20214, 4,  2804, -1, 0, 0, False) /* Create Scroll of Brittlemail IV (2804) for Shop */
+     , (20214, 4,  2809, -1, 0, 0, False) /* Create Scroll of Defender IV (2809) for Shop */
+     , (20214, 4,  2814, -1, 0, 0, False) /* Create Scroll of Flame Bane IV (2814) for Shop */
+     , (20214, 4,  2819, -1, 0, 0, False) /* Create Scroll of Flame Lure IV (2819) for Shop */
+     , (20214, 4,  2824, -1, 0, 0, False) /* Create Scroll of Frost Bane IV (2824) for Shop */
+     , (20214, 4,  2829, -1, 0, 0, False) /* Create Scroll of Frost Lure IV (2829) for Shop */
+     , (20214, 4,  2834, -1, 0, 0, False) /* Create Scroll of Heartseeker IV (2834) for Shop */
+     , (20214, 4,  2839, -1, 0, 0, False) /* Create Scroll of Hermetic Void IV (2839) for Shop */
+     , (20214, 4,  2844, -1, 0, 0, False) /* Create Scroll of Impenetrability IV (2844) for Shop */
+     , (20214, 4,  2849, -1, 0, 0, False) /* Create Scroll of Leaden Weapon IV (2849) for Shop */
+     , (20214, 4,  2854, -1, 0, 0, False) /* Create Scroll of Lightning Bane IV (2854) for Shop */
+     , (20214, 4,  2859, -1, 0, 0, False) /* Create Scroll of Lightning Lure IV (2859) for Shop */
+     , (20214, 4,  2864, -1, 0, 0, False) /* Create Scroll of Lure Blade IV (2864) for Shop */
+     , (20214, 4,  2869, -1, 0, 0, False) /* Create Scroll of Piercing Bane IV (2869) for Shop */
+     , (20214, 4,  2874, -1, 0, 0, False) /* Create Scroll of Piercing Lure IV (2874) for Shop */
+     , (20214, 4,  2879, -1, 0, 0, False) /* Create Scroll of Strengthen Lock IV (2879) for Shop */
+     , (20214, 4,  2884, -1, 0, 0, False) /* Create Scroll of Swift Killer IV (2884) for Shop */
+     , (20214, 4,  2889, -1, 0, 0, False) /* Create Scroll of Hermetic Link IV (2889) for Shop */
+     , (20214, 4,  2895, -1, 0, 0, False) /* Create Scroll of Turn Blade IV (2895) for Shop */
+     , (20214, 4,  2900, -1, 0, 0, False) /* Create Scroll of Weaken Lock IV (2900) for Shop */
+     , (20214, 4,  2904, -1, 0, 0, False) /* Create Scroll of Summon Primary Portal I (2904) for Shop */
+     , (20214, 2, 10696,  0, 13, 0.5, False) /* Create Apron (10696) for Wield */
+     , (20214, 4, 15269, -1, 0, 0, False) /* Create Foci of Artifice (15269) for Shop */
+     , (20214, 4, 20622, -1, 0, 0, False) /* Create Scroll of Summon Secondary Portal I (20622) for Shop */;

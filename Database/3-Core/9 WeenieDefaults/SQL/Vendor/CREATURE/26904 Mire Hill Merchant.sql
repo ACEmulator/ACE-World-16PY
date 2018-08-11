@@ -10,10 +10,10 @@ VALUES (26904,   1,         16) /* ItemType - Creature */
      , (26904,  16,         32) /* ItemUseable - Remote */
      , (26904,  25,         10) /* Level */
      , (26904,  27,          0) /* ArmorType */
-     , (26904,  74,     264192) /* MerchandiseItemTypes */
+     , (26904,  74,     264192) /* MerchandiseItemTypes - Gem, PromissoryNote */
      , (26904,  75,          0) /* MerchandiseMinValue */
      , (26904,  76,    1000000) /* MerchandiseMaxValue */
-     , (26904,  93,    2098204) /* PhysicsState */
+     , (26904,  93,    2098204) /* PhysicsState - Ethereal, ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */
      , (26904, 126,        125) /* VendorHappyMean */
      , (26904, 127,        125) /* VendorHappyVariance */
      , (26904, 133,          4) /* ShowableOnRadar - ShowAlways */
@@ -97,4 +97,4 @@ VALUES (26904,  0,  4,  0,    0,    0,    0,    0,    0,    0,    0,    0,    0,
      , (26904,  8,  4,  2, 0.75,    0,    0,    0,    0,    0,    0,    0,    0,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (26904, 4, 26269, -1, 0, 0, False) /* Create Mire Hill Portal Gem for Shop */;
+VALUES (26904, 4, 26269, -1, 0, 0, False) /* Create Mire Hill Portal Gem (26269) for Shop */;

@@ -10,10 +10,10 @@ VALUES (26791,   1,         16) /* ItemType - Creature */
      , (26791,  16,         32) /* ItemUseable - Remote */
      , (26791,  25,         10) /* Level */
      , (26791,  27,          0) /* ArmorType */
-     , (26791,  74,     264192) /* MerchandiseItemTypes */
+     , (26791,  74,     264192) /* MerchandiseItemTypes - Gem, PromissoryNote */
      , (26791,  75,          0) /* MerchandiseMinValue */
      , (26791,  76,    1000000) /* MerchandiseMaxValue */
-     , (26791,  93,    2098204) /* PhysicsState */
+     , (26791,  93,    2098204) /* PhysicsState - Ethereal, ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */
      , (26791, 126,        125) /* VendorHappyMean */
      , (26791, 127,        125) /* VendorHappyVariance */
      , (26791, 133,          4) /* ShowableOnRadar - ShowAlways */
@@ -97,4 +97,4 @@ VALUES (26791,  0,  4,  0,    0,    0,    0,    0,    0,    0,    0,    0,    0,
      , (26791,  8,  4,  2, 0.75,    0,    0,    0,    0,    0,    0,    0,    0,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (26791, 4, 26156, -1, 0, 0, False) /* Create East Morntide Villas Portal Gem for Shop */;
+VALUES (26791, 4, 26156, -1, 0, 0, False) /* Create East Morntide Villas Portal Gem (26156) for Shop */;

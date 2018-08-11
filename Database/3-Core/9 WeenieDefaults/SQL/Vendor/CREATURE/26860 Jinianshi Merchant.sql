@@ -10,10 +10,10 @@ VALUES (26860,   1,         16) /* ItemType - Creature */
      , (26860,  16,         32) /* ItemUseable - Remote */
      , (26860,  25,         10) /* Level */
      , (26860,  27,          0) /* ArmorType */
-     , (26860,  74,     264192) /* MerchandiseItemTypes */
+     , (26860,  74,     264192) /* MerchandiseItemTypes - Gem, PromissoryNote */
      , (26860,  75,          0) /* MerchandiseMinValue */
      , (26860,  76,    1000000) /* MerchandiseMaxValue */
-     , (26860,  93,    2098204) /* PhysicsState */
+     , (26860,  93,    2098204) /* PhysicsState - Ethereal, ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */
      , (26860, 126,        125) /* VendorHappyMean */
      , (26860, 127,        125) /* VendorHappyVariance */
      , (26860, 133,          4) /* ShowableOnRadar - ShowAlways */
@@ -97,4 +97,4 @@ VALUES (26860,  0,  4,  0,    0,    0,    0,    0,    0,    0,    0,    0,    0,
      , (26860,  8,  4,  2, 0.75,    0,    0,    0,    0,    0,    0,    0,    0,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (26860, 4, 26225, -1, 0, 0, False) /* Create Jinianshi Portal Gem for Shop */;
+VALUES (26860, 4, 26225, -1, 0, 0, False) /* Create Jinianshi Portal Gem (26225) for Shop */;

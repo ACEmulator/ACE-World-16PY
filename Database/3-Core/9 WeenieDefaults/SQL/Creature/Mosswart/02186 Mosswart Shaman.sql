@@ -12,8 +12,8 @@ VALUES (2186,   1,         16) /* ItemType - Creature */
      , (2186,  27,          0) /* ArmorType */
      , (2186,  40,          2) /* CombatMode - Melee */
      , (2186,  68,         13) /* TargetingTactic */
-     , (2186,  93,       1032) /* PhysicsState */
-     , (2186, 101,        131) /* AiAllowedCombatStyle */
+     , (2186,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
+     , (2186, 101,        131) /* AiAllowedCombatStyle - Unarmed, OneHanded, ThrownWeapon */
      , (2186, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (2186, 146,        411) /* XpOverride */;
 
@@ -69,8 +69,16 @@ VALUES (2186,   1,   33557327) /* Setup */
      , (2186,   7,  268436295) /* ClothingBase */
      , (2186,   8,  100667449) /* Icon */
      , (2186,  22,  872415264) /* PhysicsEffectTable */
-     , (2186,  32,        139) /* WieldedTreasureType */
-     , (2186,  35,        140) /* DeathTreasureType */;
+     , (2186,  32,        139) /* WieldedTreasureType - 
+                                   Wield Budiaq (308) | Probability: 10%
+                                   Wield Scimitar (339) | Probability: 10%
+                                   Wield Shamshir (340) | Probability: 10%
+                                   Wield Spear (348) | Probability: 20%
+                                   Wield Tachi (353) | Probability: 10%
+                                   Wield Yari (362) | Probability: 40%
+                                   Wield 4x Javelin (320) | Probability: 5%
+                                   Wield Djarid (317) | Probability: 5% */
+     , (2186,  35,        140) /* DeathTreasureType - Loot Tier: 3 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (2186,   1, 120, 0, 0) /* Strength */
@@ -161,4 +169,4 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 268435537 /* Twitch1 */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (2186, 8,  2189,  0, 0, 1, False) /* Create Skull-shaped key for Treasure */;
+VALUES (2186, 8,  2189,  0, 0, 1, False) /* Create Skull-shaped key (2189) for Treasure */;

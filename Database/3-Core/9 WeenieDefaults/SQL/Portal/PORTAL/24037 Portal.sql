@@ -4,8 +4,8 @@ VALUES ('24037', 'portal-lpath1', 7) /* Portal */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (24037,   1,      65536) /* ItemType - Portal */
      , (24037,  16,         32) /* ItemUseable - Remote */
-     , (24037,  93,       3084) /* PhysicsState */
-     , (24037, 111,         49) /* PortalBitmask */
+     , (24037,  93,       3084) /* PhysicsState - Ethereal, ReportCollisions, Gravity, LightingOn */
+     , (24037, 111,         49) /* PortalBitmask - Unrestricted, NoSummon, NoRecall */
      , (24037, 133,          4) /* ShowableOnRadar - ShowAlways */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)

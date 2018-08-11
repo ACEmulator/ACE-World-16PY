@@ -7,12 +7,12 @@ VALUES (2596,   1,          4) /* ItemType - Clothing */
      , (2596,   4,          8) /* ClothingPriority - UnderwearChest */
      , (2596,   5,         38) /* EncumbranceVal */
      , (2596,   8,         25) /* Mass */
-     , (2596,   9,          6) /* ValidLocations */
+     , (2596,   9,          6) /* ValidLocations - ChestWear, AbdomenWear */
      , (2596,  16,          1) /* ItemUseable - No */
      , (2596,  19,         10) /* Value */
      , (2596,  27,          1) /* ArmorType */
      , (2596,  28,          0) /* ArmorLevel */
-     , (2596,  93,       1044) /* PhysicsState */
+     , (2596,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (2596, 169,  201328144) /* TsysMutationData */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)

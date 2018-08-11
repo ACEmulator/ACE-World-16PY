@@ -12,8 +12,8 @@ VALUES (7124,   1,         16) /* ItemType - Creature */
      , (7124,  27,          0) /* ArmorType */
      , (7124,  40,          1) /* CombatMode - NonCombat */
      , (7124,  68,          3) /* TargetingTactic */
-     , (7124,  93,       1032) /* PhysicsState */
-     , (7124, 101,        183) /* AiAllowedCombatStyle */
+     , (7124,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
+     , (7124, 101,        183) /* AiAllowedCombatStyle - Unarmed, OneHanded, OneHandedAndShield, Bow, Crossbow, ThrownWeapon */
      , (7124, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (7124, 140,          1) /* AiOptions */
      , (7124, 146,      17788) /* XpOverride */;
@@ -72,8 +72,17 @@ VALUES (7124,   1,   33554839) /* Setup */
      , (7124,   7,  268435558) /* ClothingBase */
      , (7124,   8,  100667942) /* Icon */
      , (7124,  22,  872415272) /* PhysicsEffectTable */
-     , (7124,  32,        291) /* WieldedTreasureType */
-     , (7124,  35,        450) /* DeathTreasureType */;
+     , (7124,  32,        291) /* WieldedTreasureType - 
+                                   Wield 5x Frost Throwing Club (23663) | Probability: 40%
+                                   Wield 5x Throwing Club (23655) | Probability: 30%
+                                   Wield Yumi (23736) | Probability: 30%
+                                   Wield 18x Greater Arrow (5304) | Probability: 100%
+                                   Wield Frost Yari (23728) | Probability: 25%
+                                   Wield Yari (23732) | Probability: 25%
+                                   Wield Frost Spear (23694) | Probability: 15%
+                                   Wield Spear (23698) | Probability: 15%
+                                   Wield Tachi (23702) | Probability: 20% */
+     , (7124,  35,        450) /* DeathTreasureType - Loot Tier: 3 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (7124,   1, 230, 0, 0) /* Strength */
@@ -147,11 +156,11 @@ VALUES (7124,  94) /* ATTACK_NOTIFICATION_EVENT */
      , (7124, 414) /* PLAYER_DEATH_EVENT */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (7124, 9,     0,  0, 0, 0.98, False) /* Create Unknown for ContainTreasure */
-     , (7124, 9,     0,  0, 0, 0.97, False) /* Create Unknown for ContainTreasure */
-     , (7124, 9,     0,  0, 0, 0.93, False) /* Create Unknown for ContainTreasure */
-     , (7124, 9,     0,  0, 0, 0.95, False) /* Create Unknown for ContainTreasure */
-     , (7124, 9,  6876,  0, 0, 0.02, False) /* Create Sturdy Iron Key for ContainTreasure */
-     , (7124, 9,  7045,  0, 0, 0.03, False) /* Create Dark Revenant Thighbone for ContainTreasure */
-     , (7124, 9,  9310,  0, 0, 0.07, False) /* Create A Large Mnemosyne for ContainTreasure */
-     , (7124, 9, 12225,  0, 0, 0.05, False) /* Create Zombie Head for ContainTreasure */;
+VALUES (7124, 9,     0,  0, 0, 0.98, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 3 for ContainTreasure */
+     , (7124, 9,     0,  0, 0, 0.97, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 3 for ContainTreasure */
+     , (7124, 9,     0,  0, 0, 0.93, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 3 for ContainTreasure */
+     , (7124, 9,     0,  0, 0, 0.95, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 3 for ContainTreasure */
+     , (7124, 9,  6876,  0, 0, 0.02, False) /* Create Sturdy Iron Key (6876) for ContainTreasure */
+     , (7124, 9,  7045,  0, 0, 0.03, False) /* Create Dark Revenant Thighbone (7045) for ContainTreasure */
+     , (7124, 9,  9310,  0, 0, 0.07, False) /* Create A Large Mnemosyne (9310) for ContainTreasure */
+     , (7124, 9, 12225,  0, 0, 0.05, False) /* Create Zombie Head (12225) for ContainTreasure */;

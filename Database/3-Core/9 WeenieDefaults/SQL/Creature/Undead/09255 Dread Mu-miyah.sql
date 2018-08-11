@@ -13,8 +13,8 @@ VALUES (9255,   1,         16) /* ItemType - Creature */
      , (9255,  40,          1) /* CombatMode - NonCombat */
      , (9255,  68,          5) /* TargetingTactic */
      , (9255,  72,         14) /* FriendType - Undead */
-     , (9255,  93,       1032) /* PhysicsState */
-     , (9255, 101,        183) /* AiAllowedCombatStyle */
+     , (9255,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
+     , (9255, 101,        183) /* AiAllowedCombatStyle - Unarmed, OneHanded, OneHandedAndShield, Bow, Crossbow, ThrownWeapon */
      , (9255, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (9255, 140,          1) /* AiOptions */
      , (9255, 146,      13540) /* XpOverride */;
@@ -74,7 +74,7 @@ VALUES (9255,   1,   33554433) /* Setup */
      , (9255,   7,  268435645) /* ClothingBase */
      , (9255,   8,  100669122) /* Icon */
      , (9255,  22,  872415272) /* PhysicsEffectTable */
-     , (9255,  35,        462) /* DeathTreasureType */;
+     , (9255,  35,        462) /* DeathTreasureType - Loot Tier: 3 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (9255,   1, 230, 0, 0) /* Strength */
@@ -153,5 +153,5 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 268435537 /* Twitch1 */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (9255, 9,     0,  0, 0, 0.96, False) /* Create Unknown for ContainTreasure */
-     , (9255, 9,  9312,  0, 0, 0.04, False) /* Create A Small Mnemosyne for ContainTreasure */;
+VALUES (9255, 9,     0,  0, 0, 0.96, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 3 for ContainTreasure */
+     , (9255, 9,  9312,  0, 0, 0.04, False) /* Create A Small Mnemosyne (9312) for ContainTreasure */;

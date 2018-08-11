@@ -10,7 +10,7 @@ VALUES (28979,   1,         16) /* ItemType - Creature */
      , (28979,  16,         32) /* ItemUseable - Remote */
      , (28979,  25,        126) /* Level */
      , (28979,  27,          0) /* ArmorType */
-     , (28979,  93,    6292504) /* PhysicsState */
+     , (28979,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (28979,  95,          8) /* RadarBlipColor - Yellow */
      , (28979, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (28979, 134,         16) /* PlayerKillerStatus - RubberGlue */
@@ -450,4 +450,4 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,  10 /* Tell */, 0, 1, NULL, 'Interesting, how did you come by this? It is a very nice gift. Thank you.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (28979, 2,  5916,  0, 0, 0, False) /* Create Dho Creature Master Robe for Wield */;
+VALUES (28979, 2,  5916,  0, 0, 0, False) /* Create Dho Creature Master Robe (5916) for Wield */;

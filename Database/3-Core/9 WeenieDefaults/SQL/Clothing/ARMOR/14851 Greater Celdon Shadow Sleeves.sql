@@ -4,16 +4,16 @@ VALUES ('14851', 'sleevesceldonshadowgreater0', 2) /* Clothing */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (14851,   1,          2) /* ItemType - Armor */
      , (14851,   3,         20) /* PaletteTemplate - Silver */
-     , (14851,   4,      12288) /* ClothingPriority */
+     , (14851,   4,      12288) /* ClothingPriority - OuterwearUpperArms, OuterwearLowerArms */
      , (14851,   5,       1600) /* EncumbranceVal */
      , (14851,   8,        700) /* Mass */
-     , (14851,   9,       6144) /* ValidLocations */
+     , (14851,   9,       6144) /* ValidLocations - UpperArmArmor, LowerArmArmor */
      , (14851,  16,          1) /* ItemUseable - No */
      , (14851,  19,       1870) /* Value */
      , (14851,  27,         32) /* ArmorType */
      , (14851,  28,        210) /* ArmorLevel */
      , (14851,  33,          1) /* Bonded - Bonded */
-     , (14851,  93,       1044) /* PhysicsState */
+     , (14851,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (14851, 158,          7) /* WieldRequirements - Level */
      , (14851, 159,          1) /* WieldSkilltype - Axe */
      , (14851, 160,         30) /* WieldDifficulty */;

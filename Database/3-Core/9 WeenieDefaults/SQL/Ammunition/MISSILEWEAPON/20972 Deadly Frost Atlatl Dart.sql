@@ -19,7 +19,7 @@ VALUES (20972,   1,        256) /* ItemType - MissileWeapon */
      , (20972,  45,          8) /* DamageType - Cold */
      , (20972,  50,          4) /* AmmoType - ArrowCrystal */
      , (20972,  51,          3) /* CombatUse - Ammo */
-     , (20972,  93,     132116) /* PhysicsState */
+     , (20972,  93,     132116) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, Inelastic */
      , (20972, 150,        103) /* HookPlacement - Hook */
      , (20972, 151,          2) /* HookType - Wall */
      , (20972, 158,          2) /* WieldRequirements - RawSkill */

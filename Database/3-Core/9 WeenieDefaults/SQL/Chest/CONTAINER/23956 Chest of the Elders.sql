@@ -14,7 +14,7 @@ VALUES (23956,   1,        512) /* ItemType - Container */
      , (23956,  81,          1) /* MaxGeneratedObjects */
      , (23956,  82,          1) /* InitGeneratedObjects */
      , (23956,  83,          2) /* ActivationResponse - Use */
-     , (23956,  93,       1048) /* PhysicsState */
+     , (23956,  93,       1048) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity */
      , (23956,  96,       5000) /* EncumbranceCapacity */
      , (23956, 100,          1) /* GeneratorType - Relative */;
 
@@ -49,4 +49,4 @@ VALUES (23956,   1,   33554556) /* Setup */
      , (23956,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (23956, -1, 24027, 30, 1, 1, 2, 8, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0);
+VALUES (23956, -1, 24027, 30, 1, 1, 2, 8, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Scepter of Thunderous Might (24027) (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: Contain */;

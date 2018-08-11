@@ -2,7 +2,7 @@ INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
 VALUES ('6143', 'eventcoordinator', 49) /* EventCoordinator */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (6143,  93,       1044) /* PhysicsState */;
+VALUES (6143,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (6143,   1, True ) /* Stuck */

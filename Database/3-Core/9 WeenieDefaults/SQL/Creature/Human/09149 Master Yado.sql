@@ -11,7 +11,7 @@ VALUES (9149,   1,         16) /* ItemType - Creature */
      , (9149,  16,         32) /* ItemUseable - Remote */
      , (9149,  25,         11) /* Level */
      , (9149,  27,          0) /* ArmorType */
-     , (9149,  93,    6292504) /* PhysicsState */
+     , (9149,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (9149,  95,          8) /* RadarBlipColor - Yellow */
      , (9149, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (9149, 134,         16) /* PlayerKillerStatus - RubberGlue */
@@ -2495,4 +2495,4 @@ VALUES (@parent_id,  0,  27 /* TeachSpell */, 0.1, 1, NULL, NULL, NULL, NULL, NU
      , (@parent_id, 35,  10 /* Tell */, 0.1, 1, NULL, 'I have taught you all dispel spells I have.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (9149, 2,  8636,  0, 0, 1, False) /* Create Hoory Mattekar Robe for Wield */;
+VALUES (9149, 2,  8636,  0, 0, 1, False) /* Create Hoory Mattekar Robe (8636) for Wield */;

@@ -10,7 +10,7 @@ VALUES (24511,   1,         16) /* ItemType - Creature */
      , (24511,  16,         32) /* ItemUseable - Remote */
      , (24511,  25,         85) /* Level */
      , (24511,  27,          0) /* ArmorType */
-     , (24511,  93,    6292504) /* PhysicsState */
+     , (24511,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (24511,  95,          8) /* RadarBlipColor - Yellow */
      , (24511, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (24511, 134,         16) /* PlayerKillerStatus - RubberGlue */
@@ -182,9 +182,9 @@ VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 1090519043 /* Ready */, NULL, NU
      , (@parent_id,  2,  10 /* Tell */, 0, 1, NULL, 'The kiln operators stopped work when the Lugians stacked the stone incorrectly. It seems the Tumeroks won''t supply them with enough water which the kiln operators have in their contract as exclusively supplied to them, lest they stop work.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (24511, 2,   127,  0, 2, 0.7, False) /* Create Pants for Wield */
-     , (24511, 2,   130,  0, 9, 1, False) /* Create Shirt for Wield */
-     , (24511, 2,   359,  0, 14, 1, False) /* Create War Hammer for Wield */
-     , (24511, 2,  7897,  0, 9, 0, False) /* Create Steel Toed Boots for Wield */
-     , (24511, 2, 10696,  0, 9, 0, False) /* Create Apron for Wield */
-     , (24511, 2, 24261,  0, 0, 1, False) /* Create Timberman's Hat for Wield */;
+VALUES (24511, 2,   127,  0, 2, 0.7, False) /* Create Pants (127) for Wield */
+     , (24511, 2,   130,  0, 9, 1, False) /* Create Shirt (130) for Wield */
+     , (24511, 2,   359,  0, 14, 1, False) /* Create War Hammer (359) for Wield */
+     , (24511, 2,  7897,  0, 9, 0, False) /* Create Steel Toed Boots (7897) for Wield */
+     , (24511, 2, 10696,  0, 9, 0, False) /* Create Apron (10696) for Wield */
+     , (24511, 2, 24261,  0, 0, 1, False) /* Create Timberman's Hat (24261) for Wield */;

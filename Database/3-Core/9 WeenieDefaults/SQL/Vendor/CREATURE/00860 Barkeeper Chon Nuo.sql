@@ -10,10 +10,10 @@ VALUES (860,   1,         16) /* ItemType - Creature */
      , (860,  16,         32) /* ItemUseable - Remote */
      , (860,  25,          5) /* Level */
      , (860,  27,          0) /* ArmorType */
-     , (860,  74,     262176) /* MerchandiseItemTypes */
+     , (860,  74,     262176) /* MerchandiseItemTypes - Food, PromissoryNote */
      , (860,  75,          0) /* MerchandiseMinValue */
      , (860,  76,     100000) /* MerchandiseMaxValue */
-     , (860,  93,    2098200) /* PhysicsState */
+     , (860,  93,    2098200) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */
      , (860, 126,        500) /* VendorHappyMean */
      , (860, 127,        500) /* VendorHappyVariance */
      , (860, 133,          4) /* ShowableOnRadar - ShowAlways */
@@ -163,21 +163,21 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 318767235 /* Nod */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (860, 2,   117,  0, 17, 1, False) /* Create Breeches for Wield */
-     , (860, 2,   118,  0, 5, 0, False) /* Create Cap for Wield */
-     , (860, 2,   124,  0, 14, 0.8, False) /* Create Jerkin for Wield */
-     , (860, 2,   132,  0, 14, 0.8, False) /* Create Shoes for Wield */
-     , (860, 4,  2451, -1, 0, 0, False) /* Create Ale for Shop */
-     , (860, 4,  2456, -1, 0, 0, False) /* Create Green Tea for Shop */
-     , (860, 4,  2466, -1, 0, 0, False) /* Create Red Tea for Shop */
-     , (860, 4,  2468, -1, 0, 0, False) /* Create Sake for Shop */
-     , (860, 4,  4718, -1, 0, 0, False) /* Create Chicken Rice for Shop */
-     , (860, 4,  4728, -1, 0, 0, False) /* Create Fried Chicken for Shop */
-     , (860, 4,  4730, -1, 0, 0, False) /* Create Fried Fish Filet for Shop */
-     , (860, 4,  4739, -1, 0, 0, False) /* Create Pickled Egg for Shop */
-     , (860, 4,  4744, -1, 0, 0, False) /* Create Sushi for Shop */
-     , (860, 4,  4746, -1, 0, 0, False) /* Create Water for Shop */
-     , (860, 4,  8378, -1, 0, 0, False) /* Create Beer Stein for Shop */
-     , (860, 2, 10696,  0, 10, 0.5, False) /* Create Apron for Wield */
-     , (860, 4, 13202, -1, 0, 0, False) /* Create Sho Festival Light for Shop */
-     , (860, 4, 22730, -1, 0, 0, False) /* Create Holiday Pole for Shop */;
+VALUES (860, 2,   117,  0, 17, 1, False) /* Create Breeches (117) for Wield */
+     , (860, 2,   118,  0, 5, 0, False) /* Create Cap (118) for Wield */
+     , (860, 2,   124,  0, 14, 0.8, False) /* Create Jerkin (124) for Wield */
+     , (860, 2,   132,  0, 14, 0.8, False) /* Create Shoes (132) for Wield */
+     , (860, 4,  2451, -1, 0, 0, False) /* Create Ale (2451) for Shop */
+     , (860, 4,  2456, -1, 0, 0, False) /* Create Green Tea (2456) for Shop */
+     , (860, 4,  2466, -1, 0, 0, False) /* Create Red Tea (2466) for Shop */
+     , (860, 4,  2468, -1, 0, 0, False) /* Create Sake (2468) for Shop */
+     , (860, 4,  4718, -1, 0, 0, False) /* Create Chicken Rice (4718) for Shop */
+     , (860, 4,  4728, -1, 0, 0, False) /* Create Fried Chicken (4728) for Shop */
+     , (860, 4,  4730, -1, 0, 0, False) /* Create Fried Fish Filet (4730) for Shop */
+     , (860, 4,  4739, -1, 0, 0, False) /* Create Pickled Egg (4739) for Shop */
+     , (860, 4,  4744, -1, 0, 0, False) /* Create Sushi (4744) for Shop */
+     , (860, 4,  4746, -1, 0, 0, False) /* Create Water (4746) for Shop */
+     , (860, 4,  8378, -1, 0, 0, False) /* Create Beer Stein (8378) for Shop */
+     , (860, 2, 10696,  0, 10, 0.5, False) /* Create Apron (10696) for Wield */
+     , (860, 4, 13202, -1, 0, 0, False) /* Create Sho Festival Light (13202) for Shop */
+     , (860, 4, 22730, -1, 0, 0, False) /* Create Holiday Pole (22730) for Shop */;

@@ -11,7 +11,7 @@ VALUES (10922,   1,         16) /* ItemType - Creature */
      , (10922,  16,         32) /* ItemUseable - Remote */
      , (10922,  25,         27) /* Level */
      , (10922,  27,          0) /* ArmorType */
-     , (10922,  93,    6292504) /* PhysicsState */
+     , (10922,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (10922,  95,          8) /* RadarBlipColor - Yellow */
      , (10922, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (10922, 134,         16) /* PlayerKillerStatus - RubberGlue */
@@ -153,6 +153,6 @@ VALUES (@parent_id,  0,  12 /* TurnToTarget */, 0, 1, NULL, NULL, NULL, NULL, NU
      , (@parent_id,  1,  10 /* Tell */, 0, 1, NULL, 'I''d tell you more but, ah, I''m a little parched. Need a little ale.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (10922, 2,   134,  0, 9, 1, False) /* Create Tunic for Wield */
-     , (10922, 2,  2604,  0, 4, 1, False) /* Create Breeches for Wield */
-     , (10922, 2,  2606,  0, 9, 1, False) /* Create Boots for Wield */;
+VALUES (10922, 2,   134,  0, 9, 1, False) /* Create Tunic (134) for Wield */
+     , (10922, 2,  2604,  0, 4, 1, False) /* Create Breeches (2604) for Wield */
+     , (10922, 2,  2606,  0, 9, 1, False) /* Create Boots (2606) for Wield */;

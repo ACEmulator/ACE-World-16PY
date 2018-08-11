@@ -11,8 +11,8 @@ VALUES (11524,   1,         16) /* ItemType - Creature */
      , (11524,  25,         53) /* Level */
      , (11524,  27,          0) /* ArmorType */
      , (11524,  68,          5) /* TargetingTactic */
-     , (11524,  93,       1032) /* PhysicsState */
-     , (11524, 101,        183) /* AiAllowedCombatStyle */
+     , (11524,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
+     , (11524, 101,        183) /* AiAllowedCombatStyle - Unarmed, OneHanded, OneHandedAndShield, Bow, Crossbow, ThrownWeapon */
      , (11524, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (11524, 140,          1) /* AiOptions */
      , (11524, 146,       8127) /* XpOverride */;
@@ -68,8 +68,22 @@ VALUES (11524,   1,   33554496) /* Setup */
      , (11524,   7,  268436629) /* ClothingBase */
      , (11524,   8,  100667452) /* Icon */
      , (11524,  22,  872415270) /* PhysicsEffectTable */
-     , (11524,  32,        384) /* WieldedTreasureType */
-     , (11524,  35,        451) /* DeathTreasureType */;
+     , (11524,  32,        384) /* WieldedTreasureType - 
+                                   Wield Shortbow (307) | Probability: 5%
+                                   Wield 25x Arrow (300) | Probability: 100%
+                                   Wield Shouyumi (341) | Probability: 5%
+                                   Wield 20x Arrow (300) | Probability: 100%
+                                   Wield Light Crossbow (312) | Probability: 10%
+                                   Wield 15x Quarrel (305) | Probability: 100%
+                                   Wield Balister of the Quiddity (11892) | Probability: 45%
+                                   Wield 20x Quarrel (305) | Probability: 100%
+                                   Wield Longbow (306) | Probability: 10%
+                                   Wield 22x Arrow (300) | Probability: 100%
+                                   Wield Yumi (363) | Probability: 10%
+                                   Wield 20x Arrow (300) | Probability: 100%
+                                   Wield Heavy Crossbow (311) | Probability: 15%
+                                   Wield 15x Quarrel (305) | Probability: 100% */
+     , (11524,  35,        451) /* DeathTreasureType - Loot Tier: 2 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (11524,   1, 140, 0, 0) /* Strength */

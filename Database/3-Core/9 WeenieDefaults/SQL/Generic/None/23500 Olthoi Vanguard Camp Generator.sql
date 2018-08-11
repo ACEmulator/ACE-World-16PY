@@ -4,7 +4,7 @@ VALUES ('23500', 'olthoivanguardcampgen', 1) /* Generic */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (23500,  81,          6) /* MaxGeneratedObjects */
      , (23500,  82,          4) /* InitGeneratedObjects */
-     , (23500,  93,       1044) /* PhysicsState */;
+     , (23500,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (23500,   1, True ) /* Stuck */
@@ -23,6 +23,6 @@ VALUES (23500,   1,   33555051) /* Setup */
      , (23500,   8,  100667494) /* Icon */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (23500, 0.34, 23482, 1800, 2, 2, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0)
-     , (23500, 0.67, 11478, 1800, 2, 2, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0)
-     , (23500, 1, 24958, 1800, 2, 2, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0);
+VALUES (23500, 0.34, 23482, 1800, 2, 2, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Olthoi Warrior (23482) (x2 up to max of 2) - Regenerate upon Destruction - Location to (re)Generate: Scatter */
+     , (23500, 0.67, 11478, 1800, 2, 2, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Olthoi Eviscerator (11478) (x2 up to max of 2) - Regenerate upon Destruction - Location to (re)Generate: Scatter */
+     , (23500, 1, 24958, 1800, 2, 2, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Olthoi Lancer (24958) (x2 up to max of 2) - Regenerate upon Destruction - Location to (re)Generate: Scatter */;

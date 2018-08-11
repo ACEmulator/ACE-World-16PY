@@ -11,7 +11,7 @@ VALUES (19599,   1,          8) /* ItemType - Jewelry */
      , (19599,  18,        256) /* UiEffects - Acid */
      , (19599,  19,       5000) /* Value */
      , (19599,  33,          1) /* Bonded - Bonded */
-     , (19599,  93,       1044) /* PhysicsState */
+     , (19599,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (19599, 106,        225) /* ItemSpellcraft */
      , (19599, 107,        500) /* ItemCurMana */
      , (19599, 108,        500) /* ItemMaxMana */

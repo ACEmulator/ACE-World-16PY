@@ -14,7 +14,7 @@ VALUES (25884,   1,         16) /* ItemType - Creature */
      , (25884,  69,          4) /* CombatTactic */
      , (25884,  81,          4) /* MaxGeneratedObjects */
      , (25884,  82,          0) /* InitGeneratedObjects */
-     , (25884,  93,       3080) /* PhysicsState */
+     , (25884,  93,       3080) /* PhysicsState - ReportCollisions, Gravity, LightingOn */
      , (25884, 103,          1) /* GeneratorDestructionType - Nothing */
      , (25884, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (25884, 146,      94740) /* XpOverride */;
@@ -75,7 +75,7 @@ VALUES (25884,   1,   33558551) /* Setup */
      , (25884,   4,  805306407) /* CombatTable */
      , (25884,   8,  100671702) /* Icon */
      , (25884,  22,  872415375) /* PhysicsEffectTable */
-     , (25884,  35,        461) /* DeathTreasureType */;
+     , (25884,  35,        461) /* DeathTreasureType - Loot Tier: 6 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (25884,   1, 180, 0, 0) /* Strength */
@@ -124,11 +124,11 @@ VALUES (25884,  94) /* ATTACK_NOTIFICATION_EVENT */
      , (25884, 414) /* PLAYER_DEATH_EVENT */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (25884, 9,     0,  0, 0, 0.95, False) /* Create Unknown for ContainTreasure */
-     , (25884, 9, 30823,  0, 0, 0.05, False) /* Create Broken Black Marrow Key for ContainTreasure */;
+VALUES (25884, 9,     0,  0, 0, 0.95, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 6 for ContainTreasure */
+     , (25884, 9, 30823,  0, 0, 0.05, False) /* Create Broken Black Marrow Key (30823) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (25884, 0.25, 25880, 1800, 1, 1, 1, 4, -1, 0, 0, 0, -2, -1, 9, 0.8191521, 0, 0, -0.5735765)
-     , (25884, 0.5, 25880, 1800, 1, 1, 1, 4, -1, 0, 0, 0, 2.4, 3.4, 9, 0.9659258, 0, 0, -0.258819)
-     , (25884, 0.75, 23570, 1800, 1, 1, 1, 4, -1, 0, 0, 0, 2.4, -1.4, 9, 0.9961947, 0, 0, -0.08715574)
-     , (25884, 1, 23570, 1800, 1, 1, 1, 4, -1, 0, 0, 0, -2, -2, 9, 0.9961947, 0, 0, -0.08715574);
+VALUES (25884, 0.25, 25880, 1800, 1, 1, 1, 4, -1, 0, 0, 0, -2, -1, 9, 0.8191521, 0, 0, -0.5735765) /* Generate Doomshark (25880) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
+     , (25884, 0.5, 25880, 1800, 1, 1, 1, 4, -1, 0, 0, 0, 2.4, 3.4, 9, 0.9659258, 0, 0, -0.258819) /* Generate Doomshark (25880) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
+     , (25884, 0.75, 23570, 1800, 1, 1, 1, 4, -1, 0, 0, 0, 2.4, -1.4, 9, 0.9961947, 0, 0, -0.08715574) /* Generate Virindi Paradox (23570) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
+     , (25884, 1, 23570, 1800, 1, 1, 1, 4, -1, 0, 0, 0, -2, -2, 9, 0.9961947, 0, 0, -0.08715574) /* Generate Virindi Paradox (23570) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */;

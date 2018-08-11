@@ -10,7 +10,7 @@ VALUES (8402,   1,         16) /* ItemType - Creature */
      , (8402,  16,         32) /* ItemUseable - Remote */
      , (8402,  25,         28) /* Level */
      , (8402,  27,          0) /* ArmorType */
-     , (8402,  93,    6292504) /* PhysicsState */
+     , (8402,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (8402,  95,          8) /* RadarBlipColor - Yellow */
      , (8402, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (8402, 134,         16) /* PlayerKillerStatus - RubberGlue */
@@ -1144,7 +1144,7 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   3 /* Give */, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0, 25554 /* Knath Head */, 1, 2, 0, False, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (8402, 2,   130,  0, 2, 0.8, False) /* Create Shirt for Wield */
-     , (8402, 2,   132,  0, 9, 0.8, False) /* Create Shoes for Wield */
-     , (8402, 2,  2604,  0, 9, 1, False) /* Create Breeches for Wield */
-     , (8402, 2,  5901,  0, 9, 1, False) /* Create Kasa for Wield */;
+VALUES (8402, 2,   130,  0, 2, 0.8, False) /* Create Shirt (130) for Wield */
+     , (8402, 2,   132,  0, 9, 0.8, False) /* Create Shoes (132) for Wield */
+     , (8402, 2,  2604,  0, 9, 1, False) /* Create Breeches (2604) for Wield */
+     , (8402, 2,  5901,  0, 9, 1, False) /* Create Kasa (5901) for Wield */;

@@ -13,8 +13,8 @@ VALUES (30900,   1,         16) /* ItemType - Creature */
      , (30900,  40,          2) /* CombatMode - Melee */
      , (30900,  68,          3) /* TargetingTactic */
      , (30900,  72,         22) /* FriendType - Shadow */
-     , (30900,  93,       1032) /* PhysicsState */
-     , (30900, 101,        131) /* AiAllowedCombatStyle */
+     , (30900,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
+     , (30900, 101,        131) /* AiAllowedCombatStyle - Unarmed, OneHanded, ThrownWeapon */
      , (30900, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (30900, 140,          1) /* AiOptions */
      , (30900, 146,      20849) /* XpOverride */;
@@ -74,7 +74,7 @@ VALUES (30900,   1,   33556698) /* Setup */
      , (30900,   8,  100670960) /* Icon */
      , (30900,  22,  872415364) /* PhysicsEffectTable */
      , (30900,  30,         86) /* PhysicsScript - BreatheAcid */
-     , (30900,  35,        462) /* DeathTreasureType */;
+     , (30900,  35,        462) /* DeathTreasureType - Loot Tier: 3 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (30900,   1, 250, 0, 0) /* Strength */
@@ -161,5 +161,5 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 268435537 /* Twitch1 */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (30900, 1, 16921,  1, 0, 0, False) /* Create Silk for Contain */
-     , (30900, 9, 30877,  0, 0, 1, False) /* Create Banished Atlatl for ContainTreasure */;
+VALUES (30900, 1, 16921,  1, 0, 0, False) /* Create Silk (16921) for Contain */
+     , (30900, 9, 30877,  0, 0, 1, False) /* Create Banished Atlatl (30877) for ContainTreasure */;

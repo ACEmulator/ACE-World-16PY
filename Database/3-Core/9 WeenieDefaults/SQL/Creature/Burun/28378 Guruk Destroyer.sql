@@ -12,7 +12,7 @@ VALUES (28378,   1,         16) /* ItemType - Creature */
      , (28378,  27,          0) /* ArmorType */
      , (28378,  40,          2) /* CombatMode - Melee */
      , (28378,  68,         13) /* TargetingTactic */
-     , (28378,  93,       1032) /* PhysicsState */
+     , (28378,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (28378, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (28378, 146,      66021) /* XpOverride */;
 
@@ -67,8 +67,12 @@ VALUES (28378,   1,   33558749) /* Setup */
      , (28378,   7,  268436827) /* ClothingBase */
      , (28378,   8,  100676549) /* Icon */
      , (28378,  22,  872415402) /* PhysicsEffectTable */
-     , (28378,  32,        474) /* WieldedTreasureType */
-     , (28378,  35,        452) /* DeathTreasureType */;
+     , (28378,  32,        474) /* WieldedTreasureType - 
+                                   Wield Stone Axe (27867) | Probability: 22%
+                                   Wield 10x Muck Ball (27875) | Probability: 22%
+                                   Wield Tree Trunk (27871) | Probability: 22%
+                                   Wield Bone Sword (27879) | Probability: 22% */
+     , (28378,  35,        452) /* DeathTreasureType - Loot Tier: 5 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (28378,   1, 460, 0, 0) /* Strength */
@@ -176,6 +180,6 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 268435537 /* Twitch1 */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (28378, 9,     0,  0, 0, 0.95, False) /* Create Unknown for ContainTreasure */
-     , (28378, 9, 28340,  0, 0, 1, False) /* Create Small Bloodstone Fragment for ContainTreasure */
-     , (28378, 9, 28984,  0, 0, 0.05, False) /* Create Bloodied Burun Hide for ContainTreasure */;
+VALUES (28378, 9,     0,  0, 0, 0.95, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 5 for ContainTreasure */
+     , (28378, 9, 28340,  0, 0, 1, False) /* Create Small Bloodstone Fragment (28340) for ContainTreasure */
+     , (28378, 9, 28984,  0, 0, 0.05, False) /* Create Bloodied Burun Hide (28984) for ContainTreasure */;

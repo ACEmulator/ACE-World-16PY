@@ -20,9 +20,9 @@ VALUES (22251,   1,        256) /* ItemType - MissileWeapon */
      , (22251,  48,         12) /* WeaponSkill - ThrownWeapon */
      , (22251,  49,         10) /* WeaponTime */
      , (22251,  51,          2) /* CombatUse - Missle */
-     , (22251,  93,     134164) /* PhysicsState */
+     , (22251,  93,     134164) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, LightingOn, Inelastic */
      , (22251, 150,        103) /* HookPlacement - Hook */
-     , (22251, 151,         11) /* HookType */;
+     , (22251, 151,         11) /* HookType - Floor, Wall, Yard */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (22251,  15, True ) /* LightsStatus */

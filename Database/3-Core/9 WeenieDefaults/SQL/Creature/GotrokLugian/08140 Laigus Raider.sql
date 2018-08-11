@@ -13,8 +13,8 @@ VALUES (8140,   1,         16) /* ItemType - Creature */
      , (8140,  27,          0) /* ArmorType */
      , (8140,  40,          2) /* CombatMode - Melee */
      , (8140,  68,         13) /* TargetingTactic */
-     , (8140,  93,       1032) /* PhysicsState */
-     , (8140, 101,        131) /* AiAllowedCombatStyle */
+     , (8140,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
+     , (8140, 101,        131) /* AiAllowedCombatStyle - Unarmed, OneHanded, ThrownWeapon */
      , (8140, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (8140, 140,          1) /* AiOptions */
      , (8140, 146,       4301) /* XpOverride */;
@@ -70,8 +70,10 @@ VALUES (8140,   1,   33557003) /* Setup */
      , (8140,   7,  268436152) /* ClothingBase */
      , (8140,   8,  100667447) /* Icon */
      , (8140,  22,  872415262) /* PhysicsEffectTable */
-     , (8140,  32,        324) /* WieldedTreasureType */
-     , (8140,  35,        451) /* DeathTreasureType */;
+     , (8140,  32,        324) /* WieldedTreasureType - 
+                                   Wield Rock (7578) | Probability: 75%
+                                   Wield Lugian Axe (7577) | Probability: 90% */
+     , (8140,  35,        451) /* DeathTreasureType - Loot Tier: 2 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (8140,   1, 150, 0, 0) /* Strength */

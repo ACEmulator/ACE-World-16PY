@@ -14,8 +14,8 @@ VALUES (28249,   1,         16) /* ItemType - Creature */
      , (28249,  68,          5) /* TargetingTactic */
      , (28249,  81,          3) /* MaxGeneratedObjects */
      , (28249,  82,          2) /* InitGeneratedObjects */
-     , (28249,  93,       1032) /* PhysicsState */
-     , (28249, 101,        131) /* AiAllowedCombatStyle */
+     , (28249,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
+     , (28249, 101,        131) /* AiAllowedCombatStyle - Unarmed, OneHanded, ThrownWeapon */
      , (28249, 103,          1) /* GeneratorDestructionType - Nothing */
      , (28249, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (28249, 146,      24705) /* XpOverride */;
@@ -74,7 +74,7 @@ VALUES (28249,   1,   33558821) /* Setup */
      , (28249,   4,  805306372) /* CombatTable */
      , (28249,   8,  100676680) /* Icon */
      , (28249,  22,  872415339) /* PhysicsEffectTable */
-     , (28249,  35,        462) /* DeathTreasureType */;
+     , (28249,  35,        462) /* DeathTreasureType - Loot Tier: 3 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (28249,   1, 180, 0, 0) /* Strength */
@@ -110,6 +110,6 @@ VALUES (28249,  94) /* ATTACK_NOTIFICATION_EVENT */
      , (28249, 414) /* PLAYER_DEATH_EVENT */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (28249, -1, 28250, 30, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0)
-     , (28249, -1, 28250, 30, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0)
-     , (28249, -1, 28250, 30, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0);
+VALUES (28249, -1, 28250, 30, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Black Phyntos Swarm (28250) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Scatter */
+     , (28249, -1, 28250, 30, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Black Phyntos Swarm (28250) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Scatter */
+     , (28249, -1, 28250, 30, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Black Phyntos Swarm (28250) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Scatter */;

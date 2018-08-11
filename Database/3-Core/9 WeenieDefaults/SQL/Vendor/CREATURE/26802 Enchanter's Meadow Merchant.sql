@@ -10,10 +10,10 @@ VALUES (26802,   1,         16) /* ItemType - Creature */
      , (26802,  16,         32) /* ItemUseable - Remote */
      , (26802,  25,         10) /* Level */
      , (26802,  27,          0) /* ArmorType */
-     , (26802,  74,     264192) /* MerchandiseItemTypes */
+     , (26802,  74,     264192) /* MerchandiseItemTypes - Gem, PromissoryNote */
      , (26802,  75,          0) /* MerchandiseMinValue */
      , (26802,  76,    1000000) /* MerchandiseMaxValue */
-     , (26802,  93,    2098204) /* PhysicsState */
+     , (26802,  93,    2098204) /* PhysicsState - Ethereal, ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */
      , (26802, 126,        125) /* VendorHappyMean */
      , (26802, 127,        125) /* VendorHappyVariance */
      , (26802, 133,          4) /* ShowableOnRadar - ShowAlways */
@@ -97,4 +97,4 @@ VALUES (26802,  0,  4,  0,    0,    0,    0,    0,    0,    0,    0,    0,    0,
      , (26802,  8,  4,  2, 0.75,    0,    0,    0,    0,    0,    0,    0,    0,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (26802, 4, 26167, -1, 0, 0, False) /* Create Enchanter's Meadow Portal Gem for Shop */;
+VALUES (26802, 4, 26167, -1, 0, 0, False) /* Create Enchanter's Meadow Portal Gem (26167) for Shop */;

@@ -12,8 +12,8 @@ VALUES (8123,   1,         16) /* ItemType - Creature */
      , (8123,  27,          0) /* ArmorType */
      , (8123,  40,          1) /* CombatMode - NonCombat */
      , (8123,  68,          3) /* TargetingTactic */
-     , (8123,  93,       1032) /* PhysicsState */
-     , (8123, 101,        183) /* AiAllowedCombatStyle */
+     , (8123,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
+     , (8123, 101,        183) /* AiAllowedCombatStyle - Unarmed, OneHanded, OneHandedAndShield, Bow, Crossbow, ThrownWeapon */
      , (8123, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (8123, 140,          1) /* AiOptions */
      , (8123, 146,      30000) /* XpOverride */;
@@ -71,7 +71,7 @@ VALUES (8123,   1,   33554839) /* Setup */
      , (8123,   7,  268435558) /* ClothingBase */
      , (8123,   8,  100667942) /* Icon */
      , (8123,  22,  872415272) /* PhysicsEffectTable */
-     , (8123,  35,        448) /* DeathTreasureType */;
+     , (8123,  35,        448) /* DeathTreasureType - Loot Tier: 4 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (8123,   1, 270, 0, 0) /* Strength */
@@ -151,6 +151,6 @@ VALUES (8123,  94) /* ATTACK_NOTIFICATION_EVENT */
      , (8123, 414) /* PLAYER_DEATH_EVENT */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (8123, 9,     0,  0, 0, 0, False) /* Create Unknown for ContainTreasure */
-     , (8123, 9,  8089,  0, 0, 1, False) /* Create Petulantly Written Note for ContainTreasure */
-     , (8123, 10, 23708,  0, 0, 1, False) /* Create Fire Tachi for WieldTreasure */;
+VALUES (8123, 9,     0,  0, 0, 0, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 4 for ContainTreasure */
+     , (8123, 9,  8089,  0, 0, 1, False) /* Create Petulantly Written Note (8089) for ContainTreasure */
+     , (8123, 10, 23708,  0, 0, 1, False) /* Create Fire Tachi (23708) for WieldTreasure */;

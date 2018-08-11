@@ -12,7 +12,7 @@ VALUES (27709,   1,         16) /* ItemType - Creature */
      , (27709,  27,          0) /* ArmorType */
      , (27709,  40,          2) /* CombatMode - Melee */
      , (27709,  68,          9) /* TargetingTactic */
-     , (27709,  93,       1032) /* PhysicsState */
+     , (27709,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (27709, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (27709, 146,      70000) /* XpOverride */;
 
@@ -75,7 +75,7 @@ VALUES (27709,   1,   33556428) /* Setup */
      , (27709,   7,  268436247) /* ClothingBase */
      , (27709,   8,  100667940) /* Icon */
      , (27709,  22,  872415322) /* PhysicsEffectTable */
-     , (27709,  35,         19) /* DeathTreasureType */;
+     , (27709,  35,         19) /* DeathTreasureType - Loot Tier: 4 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (27709,   1, 400, 0, 0) /* Strength */
@@ -147,9 +147,9 @@ VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 1090519043 /* Ready */, NULL, NU
      , (@parent_id,  1,   5 /* Motion */, 0, 1, 1090519060 /* Sleeping */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (27709, 9,     0,  0, 0, 0.98, False) /* Create Unknown for ContainTreasure */
-     , (27709, 9,     0,  0, 0, 0.95, False) /* Create Unknown for ContainTreasure */
-     , (27709, 9,     0,  0, 0, 0.93, False) /* Create Unknown for ContainTreasure */
-     , (27709, 9,  6353,  0, 0, 0.05, False) /* Create Pyreal Mote for ContainTreasure */
-     , (27709, 9,  6876,  0, 0, 0.02, False) /* Create Sturdy Iron Key for ContainTreasure */
-     , (27709, 9, 27808,  0, 0, 0.07, False) /* Create Great Elariwood Idol for ContainTreasure */;
+VALUES (27709, 9,     0,  0, 0, 0.98, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 4 for ContainTreasure */
+     , (27709, 9,     0,  0, 0, 0.95, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 4 for ContainTreasure */
+     , (27709, 9,     0,  0, 0, 0.93, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 4 for ContainTreasure */
+     , (27709, 9,  6353,  0, 0, 0.05, False) /* Create Pyreal Mote (6353) for ContainTreasure */
+     , (27709, 9,  6876,  0, 0, 0.02, False) /* Create Sturdy Iron Key (6876) for ContainTreasure */
+     , (27709, 9, 27808,  0, 0, 0.07, False) /* Create Great Elariwood Idol (27808) for ContainTreasure */;

@@ -4,7 +4,7 @@ VALUES ('6090', 'portalallegiancehallarwic', 7) /* Portal */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (6090,   1,      65536) /* ItemType - Portal */
      , (6090,  16,         32) /* ItemUseable - Remote */
-     , (6090,  93,       3084) /* PhysicsState */
+     , (6090,  93,       3084) /* PhysicsState - Ethereal, ReportCollisions, Gravity, LightingOn */
      , (6090, 111,          1) /* PortalBitmask - Unrestricted */
      , (6090, 133,          4) /* ShowableOnRadar - ShowAlways */;
 

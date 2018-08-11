@@ -10,7 +10,7 @@ VALUES (3930,   1,         16) /* ItemType - Creature */
      , (3930,  16,         32) /* ItemUseable - Remote */
      , (3930,  25,          9) /* Level */
      , (3930,  27,          0) /* ArmorType */
-     , (3930,  93,    6292504) /* PhysicsState */
+     , (3930,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (3930,  95,          8) /* RadarBlipColor - Yellow */
      , (3930, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (3930, 134,         16) /* PlayerKillerStatus - RubberGlue */
@@ -894,6 +894,6 @@ VALUES (@parent_id,  0,  10 /* Tell */, 1, 1, NULL, 'The Olthoi Sentinel is trul
      , (@parent_id,  2,  10 /* Tell */, 1, 1, NULL, 'Take care.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (3930, 2,  2594,  0, 14, 0.5, False) /* Create Tunic for Wield */
-     , (3930, 2,  2598,  0, 9, 1, False) /* Create Pants for Wield */
-     , (3930, 2,  2606,  0, 6, 0, False) /* Create Boots for Wield */;
+VALUES (3930, 2,  2594,  0, 14, 0.5, False) /* Create Tunic (2594) for Wield */
+     , (3930, 2,  2598,  0, 9, 1, False) /* Create Pants (2598) for Wield */
+     , (3930, 2,  2606,  0, 6, 0, False) /* Create Boots (2606) for Wield */;

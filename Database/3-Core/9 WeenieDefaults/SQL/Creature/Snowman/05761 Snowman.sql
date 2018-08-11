@@ -12,8 +12,8 @@ VALUES (5761,   1,         16) /* ItemType - Creature */
      , (5761,  40,          2) /* CombatMode - Melee */
      , (5761,  67,         64) /* Tolerance */
      , (5761,  68,          9) /* TargetingTactic */
-     , (5761,  93,       1032) /* PhysicsState */
-     , (5761, 101,        131) /* AiAllowedCombatStyle */
+     , (5761,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
+     , (5761, 101,        131) /* AiAllowedCombatStyle - Unarmed, OneHanded, ThrownWeapon */
      , (5761, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (5761, 140,          1) /* AiOptions */
      , (5761, 146,        382) /* XpOverride */;
@@ -69,7 +69,7 @@ VALUES (5761,   1,   33556221) /* Setup */
      , (5761,   4,  805306406) /* CombatTable */
      , (5761,   8,  100669125) /* Icon */
      , (5761,  22,  872415346) /* PhysicsEffectTable */
-     , (5761,  35,        465) /* DeathTreasureType */;
+     , (5761,  35,        465) /* DeathTreasureType - Loot Tier: 1 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (5761,   1,  25, 0, 0) /* Strength */
@@ -149,8 +149,8 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 268435537 /* Twitch1 */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (5761, 9,     0,  0, 0, 0.9, False) /* Create Unknown for ContainTreasure */
-     , (5761, 1,  5758,  1, 0, 0, False) /* Create Carrot for Contain */
-     , (5761, 2,  5762,  9, 0, 0, False) /* Create Snowball for Wield */
-     , (5761, 1,  5768,  1, 0, 0, False) /* Create Poofy Snowball for Contain */
-     , (5761, 9, 22825,  0, 0, 0.1, False) /* Create A Lump of Coal for ContainTreasure */;
+VALUES (5761, 9,     0,  0, 0, 0.9, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 1 for ContainTreasure */
+     , (5761, 1,  5758,  1, 0, 0, False) /* Create Carrot (5758) for Contain */
+     , (5761, 2,  5762,  9, 0, 0, False) /* Create Snowball (5762) for Wield */
+     , (5761, 1,  5768,  1, 0, 0, False) /* Create Poofy Snowball (5768) for Contain */
+     , (5761, 9, 22825,  0, 0, 0.1, False) /* Create A Lump of Coal (22825) for ContainTreasure */;

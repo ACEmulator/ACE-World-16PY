@@ -13,7 +13,7 @@ VALUES (14538,   1,        512) /* ItemType - Container */
      , (14538,  81,          1) /* MaxGeneratedObjects */
      , (14538,  82,          1) /* InitGeneratedObjects */
      , (14538,  83,       4096) /* ActivationResponse - CastSpell */
-     , (14538,  93,       1048) /* PhysicsState */
+     , (14538,  93,       1048) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity */
      , (14538,  96,        500) /* EncumbranceCapacity */
      , (14538, 100,          1) /* GeneratorType - Relative */
      , (14538, 119,      65535) /* Active */;
@@ -59,4 +59,4 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,  18 /* DirectBroadcast */, 0, 1, NULL, '"The Prism Shakes and you hear a rushing sound from outside of the room."', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (14538, -1, 14523, 15, 1, 1, 2, 8, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0);
+VALUES (14538, -1, 14523, 15, 1, 1, 2, 8, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Fragment of the Acid Prism (14523) (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: Contain */;

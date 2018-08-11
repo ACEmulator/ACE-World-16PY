@@ -10,10 +10,10 @@ VALUES (26963,   1,         16) /* ItemType - Creature */
      , (26963,  16,         32) /* ItemUseable - Remote */
      , (26963,  25,         10) /* Level */
      , (26963,  27,          0) /* ArmorType */
-     , (26963,  74,     264192) /* MerchandiseItemTypes */
+     , (26963,  74,     264192) /* MerchandiseItemTypes - Gem, PromissoryNote */
      , (26963,  75,          0) /* MerchandiseMinValue */
      , (26963,  76,    1000000) /* MerchandiseMaxValue */
-     , (26963,  93,    2098204) /* PhysicsState */
+     , (26963,  93,    2098204) /* PhysicsState - Ethereal, ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */
      , (26963, 126,        125) /* VendorHappyMean */
      , (26963, 127,        125) /* VendorHappyVariance */
      , (26963, 133,          4) /* ShowableOnRadar - ShowAlways */
@@ -97,4 +97,4 @@ VALUES (26963,  0,  4,  0,    0,    0,    0,    0,    0,    0,    0,    0,    0,
      , (26963,  8,  4,  2, 0.75,    0,    0,    0,    0,    0,    0,    0,    0,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (26963, 4, 26328, -1, 0, 0, False) /* Create Return of Mumiyah Cottages Portal Gem for Shop */;
+VALUES (26963, 4, 26328, -1, 0, 0, False) /* Create Return of Mumiyah Cottages Portal Gem (26328) for Shop */;

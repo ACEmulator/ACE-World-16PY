@@ -13,8 +13,8 @@ VALUES (20154,   1,      32768) /* ItemType - Caster */
      , (20154,  33,          1) /* Bonded - Bonded */
      , (20154,  36,       9999) /* ResistMagic */
      , (20154,  46,        512) /* DefaultCombatStyle - Magic */
-     , (20154,  93,       1044) /* PhysicsState */
-     , (20154,  94,         16) /* TargetType - Creature */
+     , (20154,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (20154,  94,         16) /* TargetType - Reedshark */
      , (20154, 106,        150) /* ItemSpellcraft */
      , (20154, 107,       1200) /* ItemCurMana */
      , (20154, 108,       1200) /* ItemMaxMana */

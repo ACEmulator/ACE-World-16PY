@@ -7,9 +7,9 @@ VALUES (22844,   1,        128) /* ItemType - Misc */
      , (22844,   8,        200) /* Mass */
      , (22844,  16,          1) /* ItemUseable - No */
      , (22844,  19,       5000) /* Value */
-     , (22844,  93,       1052) /* PhysicsState */
+     , (22844,  93,       1052) /* PhysicsState - Ethereal, ReportCollisions, IgnoreCollisions, Gravity */
      , (22844, 150,        103) /* HookPlacement - Hook */
-     , (22844, 151,          9) /* HookType */;
+     , (22844, 151,          9) /* HookType - Floor, Yard */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (22844,  12, True ) /* ReportCollisions */

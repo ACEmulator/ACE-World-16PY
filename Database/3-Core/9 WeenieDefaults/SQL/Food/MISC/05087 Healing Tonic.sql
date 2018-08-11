@@ -16,9 +16,9 @@ VALUES (5087,   1,        128) /* ItemType - Misc */
      , (5087,  19,          1) /* Value */
      , (5087,  89,          2) /* BoosterEnum - Health */
      , (5087,  90,          7) /* BoostValue */
-     , (5087,  93,       1044) /* PhysicsState */
+     , (5087,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (5087, 150,        103) /* HookPlacement - Hook */
-     , (5087, 151,         11) /* HookType */;
+     , (5087, 151,         11) /* HookType - Floor, Wall, Yard */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (5087,  23, True ) /* DestroyOnSell */;

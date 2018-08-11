@@ -7,8 +7,8 @@ VALUES (7532,   1,        128) /* ItemType - Misc */
      , (7532,   8,       3000) /* Mass */
      , (7532,  16,         48) /* ItemUseable - ViewedRemote */
      , (7532,  19,        200) /* Value */
-     , (7532,  93,       1048) /* PhysicsState */
-     , (7532,  94,        128) /* TargetType - Misc */;
+     , (7532,  93,       1048) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity */
+     , (7532,  94,        128) /* TargetType - 128 */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (7532,   1, True ) /* Stuck */

@@ -10,10 +10,10 @@ VALUES (26951,   1,         16) /* ItemType - Creature */
      , (26951,  16,         32) /* ItemUseable - Remote */
      , (26951,  25,         10) /* Level */
      , (26951,  27,          0) /* ArmorType */
-     , (26951,  74,     264192) /* MerchandiseItemTypes */
+     , (26951,  74,     264192) /* MerchandiseItemTypes - Gem, PromissoryNote */
      , (26951,  75,          0) /* MerchandiseMinValue */
      , (26951,  76,    1000000) /* MerchandiseMaxValue */
-     , (26951,  93,    2098204) /* PhysicsState */
+     , (26951,  93,    2098204) /* PhysicsState - Ethereal, ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */
      , (26951, 126,        125) /* VendorHappyMean */
      , (26951, 127,        125) /* VendorHappyVariance */
      , (26951, 133,          4) /* ShowableOnRadar - ShowAlways */
@@ -97,4 +97,4 @@ VALUES (26951,  0,  4,  0,    0,    0,    0,    0,    0,    0,    0,    0,    0,
      , (26951,  8,  4,  2, 0.75,    0,    0,    0,    0,    0,    0,    0,    0,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (26951, 4, 26316, -1, 0, 0, False) /* Create Plainsview Cottages Portal Gem for Shop */;
+VALUES (26951, 4, 26316, -1, 0, 0, False) /* Create Plainsview Cottages Portal Gem (26316) for Shop */;

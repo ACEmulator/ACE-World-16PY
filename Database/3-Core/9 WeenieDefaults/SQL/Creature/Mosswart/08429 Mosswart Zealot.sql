@@ -13,8 +13,8 @@ VALUES (8429,   1,         16) /* ItemType - Creature */
      , (8429,  40,          2) /* CombatMode - Melee */
      , (8429,  68,         13) /* TargetingTactic */
      , (8429,  72,         50) /* FriendType - Idol */
-     , (8429,  93,       1032) /* PhysicsState */
-     , (8429, 101,        131) /* AiAllowedCombatStyle */
+     , (8429,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
+     , (8429, 101,        131) /* AiAllowedCombatStyle - Unarmed, OneHanded, ThrownWeapon */
      , (8429, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (8429, 140,          1) /* AiOptions */
      , (8429, 146,       6336) /* XpOverride */;
@@ -72,8 +72,10 @@ VALUES (8429,   1,   33557327) /* Setup */
      , (8429,   7,  268436294) /* ClothingBase */
      , (8429,   8,  100667449) /* Icon */
      , (8429,  22,  872415264) /* PhysicsEffectTable */
-     , (8429,  32,        332) /* WieldedTreasureType */
-     , (8429,  35,        451) /* DeathTreasureType */;
+     , (8429,  32,        332) /* WieldedTreasureType - 
+                                   Wield Fire Yaoji (23719) | Probability: 95%
+                                   Wield Tachi (23701) | Probability: 5% */
+     , (8429,  35,        451) /* DeathTreasureType - Loot Tier: 2 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (8429,   1, 170, 0, 0) /* Strength */
@@ -177,11 +179,11 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 268435537 /* Twitch1 */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (8429, 9,     0,  0, 0, 0.75, False) /* Create Unknown for ContainTreasure */
-     , (8429, 9,     0,  0, 0, 0.95, False) /* Create Unknown for ContainTreasure */
-     , (8429, 9,     0,  0, 0, 0.98, False) /* Create Unknown for ContainTreasure */
-     , (8429, 9,     0,  0, 0, 0.95, False) /* Create Unknown for ContainTreasure */
-     , (8429, 9,  3694,  0, 0, 0.25, False) /* Create Swamp Stone for ContainTreasure */
-     , (8429, 9,  7825,  0, 0, 0.05, False) /* Create Brown Beans for ContainTreasure */
-     , (8429, 9,  8146,  0, 0, 0.05, False) /* Create Mosswart Head for ContainTreasure */
-     , (8429, 9, 15766,  0, 0, 0.02, False) /* Create Ruined Amulet of the Right Hand for ContainTreasure */;
+VALUES (8429, 9,     0,  0, 0, 0.75, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 2 for ContainTreasure */
+     , (8429, 9,     0,  0, 0, 0.95, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 2 for ContainTreasure */
+     , (8429, 9,     0,  0, 0, 0.98, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 2 for ContainTreasure */
+     , (8429, 9,     0,  0, 0, 0.95, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 2 for ContainTreasure */
+     , (8429, 9,  3694,  0, 0, 0.25, False) /* Create Swamp Stone (3694) for ContainTreasure */
+     , (8429, 9,  7825,  0, 0, 0.05, False) /* Create Brown Beans (7825) for ContainTreasure */
+     , (8429, 9,  8146,  0, 0, 0.05, False) /* Create Mosswart Head (8146) for ContainTreasure */
+     , (8429, 9, 15766,  0, 0, 0.02, False) /* Create Ruined Amulet of the Right Hand (15766) for ContainTreasure */;

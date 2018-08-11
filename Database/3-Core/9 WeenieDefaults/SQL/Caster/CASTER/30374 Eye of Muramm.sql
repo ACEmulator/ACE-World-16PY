@@ -10,8 +10,8 @@ VALUES (30374,   1,      32768) /* ItemType - Caster */
      , (30374,  16,          1) /* ItemUseable - No */
      , (30374,  19,        200) /* Value */
      , (30374,  46,        512) /* DefaultCombatStyle - Magic */
-     , (30374,  93,       1044) /* PhysicsState */
-     , (30374,  94,         16) /* TargetType - Creature */
+     , (30374,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (30374,  94,         16) /* TargetType - Reedshark */
      , (30374, 150,        103) /* HookPlacement - Hook */
      , (30374, 151,          2) /* HookType - Wall */;
 

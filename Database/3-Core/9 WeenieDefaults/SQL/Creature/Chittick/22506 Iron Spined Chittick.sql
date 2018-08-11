@@ -12,7 +12,7 @@ VALUES (22506,   1,         16) /* ItemType - Creature */
      , (22506,  40,          2) /* CombatMode - Melee */
      , (22506,  68,          9) /* TargetingTactic */
      , (22506,  72,         33) /* FriendType - Chittick */
-     , (22506,  93,       1032) /* PhysicsState */
+     , (22506,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (22506, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (22506, 146,      52390) /* XpOverride */;
 
@@ -66,7 +66,7 @@ VALUES (22506,   1,   33558118) /* Setup */
      , (22506,   7,  268436515) /* ClothingBase */
      , (22506,   8,  100669115) /* Icon */
      , (22506,  22,  872415336) /* PhysicsEffectTable */
-     , (22506,  35,        458) /* DeathTreasureType */;
+     , (22506,  35,        458) /* DeathTreasureType - Loot Tier: 5 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (22506,   1, 240, 0, 0) /* Strength */
@@ -119,6 +119,6 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 268435537 /* Twitch1 */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (22506, 9,     0,  0, 0, 0.95, False) /* Create Unknown for ContainTreasure */
-     , (22506, 2, 22544,  0, 0, 0, False) /* Create Lightning Spines for Wield */
-     , (22506, 9, 28888,  0, 0, 0.05, False) /* Create Chittick Head for ContainTreasure */;
+VALUES (22506, 9,     0,  0, 0, 0.95, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 5 for ContainTreasure */
+     , (22506, 2, 22544,  0, 0, 0, False) /* Create Lightning Spines (22544) for Wield */
+     , (22506, 9, 28888,  0, 0, 0.05, False) /* Create Chittick Head (28888) for ContainTreasure */;

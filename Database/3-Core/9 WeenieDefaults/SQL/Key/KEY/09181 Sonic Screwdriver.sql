@@ -8,8 +8,8 @@ VALUES (9181,   1,      16384) /* ItemType - Key */
      , (9181,  16,    2097160) /* ItemUseable - SourceContainedTargetRemote */
      , (9181,  19,          0) /* Value */
      , (9181,  33,          1) /* Bonded - Bonded */
-     , (9181,  93,       1044) /* PhysicsState */
-     , (9181,  94,        640) /* TargetType - LockableMagicTarget */
+     , (9181,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (9181,  94,        640) /* TargetType - 640 */
      , (9181, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)

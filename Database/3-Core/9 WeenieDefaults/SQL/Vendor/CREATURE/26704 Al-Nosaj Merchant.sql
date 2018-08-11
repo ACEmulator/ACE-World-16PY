@@ -10,10 +10,10 @@ VALUES (26704,   1,         16) /* ItemType - Creature */
      , (26704,  16,         32) /* ItemUseable - Remote */
      , (26704,  25,         10) /* Level */
      , (26704,  27,          0) /* ArmorType */
-     , (26704,  74,     264192) /* MerchandiseItemTypes */
+     , (26704,  74,     264192) /* MerchandiseItemTypes - Gem, PromissoryNote */
      , (26704,  75,          0) /* MerchandiseMinValue */
      , (26704,  76,    1000000) /* MerchandiseMaxValue */
-     , (26704,  93,    2098204) /* PhysicsState */
+     , (26704,  93,    2098204) /* PhysicsState - Ethereal, ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */
      , (26704, 126,        125) /* VendorHappyMean */
      , (26704, 127,        125) /* VendorHappyVariance */
      , (26704, 133,          4) /* ShowableOnRadar - ShowAlways */
@@ -97,4 +97,4 @@ VALUES (26704,  0,  4,  0,    0,    0,    0,    0,    0,    0,    0,    0,    0,
      , (26704,  8,  4,  2, 0.75,    0,    0,    0,    0,    0,    0,    0,    0,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (26704, 4, 26069, -1, 0, 0, False) /* Create Al-Nosaj Portal Gem for Shop */;
+VALUES (26704, 4, 26069, -1, 0, 0, False) /* Create Al-Nosaj Portal Gem (26069) for Shop */;

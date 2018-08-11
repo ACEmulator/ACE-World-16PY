@@ -13,7 +13,7 @@ VALUES (7785,   1,        512) /* ItemType - Container */
      , (7785,  81,          1) /* MaxGeneratedObjects */
      , (7785,  82,          1) /* InitGeneratedObjects */
      , (7785,  83,       4096) /* ActivationResponse - CastSpell */
-     , (7785,  93,       1048) /* PhysicsState */
+     , (7785,  93,       1048) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity */
      , (7785,  96,        500) /* EncumbranceCapacity */
      , (7785, 100,          1) /* GeneratorType - Relative */
      , (7785, 106,        500) /* ItemSpellcraft */
@@ -45,4 +45,4 @@ VALUES (7785,   1,   33554556) /* Setup */
      , (7785,  28,       1993) /* Spell - Camping Ineptitude */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (7785, 1, 463, 0, 1, 1, 2, 72, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0);
+VALUES (7785, 1, 463, 0, 1, 1, 2, 72, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate RANDOMLY GENERATED TREASURE from Loot Tier 2 (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: ContainTreasure */;

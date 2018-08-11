@@ -10,10 +10,10 @@ VALUES (26885,   1,         16) /* ItemType - Creature */
      , (26885,  16,         32) /* ItemUseable - Remote */
      , (26885,  25,         10) /* Level */
      , (26885,  27,          0) /* ArmorType */
-     , (26885,  74,     264192) /* MerchandiseItemTypes */
+     , (26885,  74,     264192) /* MerchandiseItemTypes - Gem, PromissoryNote */
      , (26885,  75,          0) /* MerchandiseMinValue */
      , (26885,  76,    1000000) /* MerchandiseMaxValue */
-     , (26885,  93,    2098204) /* PhysicsState */
+     , (26885,  93,    2098204) /* PhysicsState - Ethereal, ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */
      , (26885, 126,        125) /* VendorHappyMean */
      , (26885, 127,        125) /* VendorHappyVariance */
      , (26885, 133,          4) /* ShowableOnRadar - ShowAlways */
@@ -97,4 +97,4 @@ VALUES (26885,  0,  4,  0,    0,    0,    0,    0,    0,    0,    0,    0,    0,
      , (26885,  8,  4,  2, 0.75,    0,    0,    0,    0,    0,    0,    0,    0,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (26885, 4, 26250, -1, 0, 0, False) /* Create Lost Realm Cottages Portal Gem for Shop */;
+VALUES (26885, 4, 26250, -1, 0, 0, False) /* Create Lost Realm Cottages Portal Gem (26250) for Shop */;

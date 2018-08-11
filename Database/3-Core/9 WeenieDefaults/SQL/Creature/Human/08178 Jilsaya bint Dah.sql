@@ -11,7 +11,7 @@ VALUES (8178,   1,         16) /* ItemType - Creature */
      , (8178,  16,         32) /* ItemUseable - Remote */
      , (8178,  25,         11) /* Level */
      , (8178,  27,          0) /* ArmorType */
-     , (8178,  93,    6292504) /* PhysicsState */
+     , (8178,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (8178,  95,          8) /* RadarBlipColor - Yellow */
      , (8178, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (8178, 134,         16) /* PlayerKillerStatus - RubberGlue */
@@ -198,7 +198,7 @@ VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 1090519043 /* Ready */, NULL, NU
      , (@parent_id,  2,  10 /* Tell */, 1, 1, NULL, 'Greetings.  I hope you enjoy your stay in Al-Arqas.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (8178, 2,   133,  0, 18, 1, False) /* Create Slippers for Wield */
-     , (8178, 2,   135,  0, 18, 1, False) /* Create Turban for Wield */
-     , (8178, 2,  2587,  0, 18, 1, False) /* Create Shirt for Wield */
-     , (8178, 2,  2601,  0, 4, 0.8, False) /* Create Pants for Wield */;
+VALUES (8178, 2,   133,  0, 18, 1, False) /* Create Slippers (133) for Wield */
+     , (8178, 2,   135,  0, 18, 1, False) /* Create Turban (135) for Wield */
+     , (8178, 2,  2587,  0, 18, 1, False) /* Create Shirt (2587) for Wield */
+     , (8178, 2,  2601,  0, 4, 0.8, False) /* Create Pants (2601) for Wield */;

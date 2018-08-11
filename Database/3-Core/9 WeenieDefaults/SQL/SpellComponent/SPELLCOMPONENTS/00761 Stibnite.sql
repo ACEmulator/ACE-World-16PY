@@ -14,7 +14,7 @@ VALUES (761,   1,       4096) /* ItemType - SpellComponents */
      , (761,  15,          5) /* StackUnitValue */
      , (761,  16,          1) /* ItemUseable - No */
      , (761,  19,          5) /* Value */
-     , (761,  93,       1044) /* PhysicsState */;
+     , (761,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (761,   1, 'Stibnite') /* Name */

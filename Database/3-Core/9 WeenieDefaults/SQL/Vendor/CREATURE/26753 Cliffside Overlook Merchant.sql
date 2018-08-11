@@ -10,10 +10,10 @@ VALUES (26753,   1,         16) /* ItemType - Creature */
      , (26753,  16,         32) /* ItemUseable - Remote */
      , (26753,  25,         10) /* Level */
      , (26753,  27,          0) /* ArmorType */
-     , (26753,  74,     264192) /* MerchandiseItemTypes */
+     , (26753,  74,     264192) /* MerchandiseItemTypes - Gem, PromissoryNote */
      , (26753,  75,          0) /* MerchandiseMinValue */
      , (26753,  76,    1000000) /* MerchandiseMaxValue */
-     , (26753,  93,    2098204) /* PhysicsState */
+     , (26753,  93,    2098204) /* PhysicsState - Ethereal, ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */
      , (26753, 126,        125) /* VendorHappyMean */
      , (26753, 127,        125) /* VendorHappyVariance */
      , (26753, 133,          4) /* ShowableOnRadar - ShowAlways */
@@ -97,4 +97,4 @@ VALUES (26753,  0,  4,  0,    0,    0,    0,    0,    0,    0,    0,    0,    0,
      , (26753,  8,  4,  2, 0.75,    0,    0,    0,    0,    0,    0,    0,    0,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (26753, 4, 26118, -1, 0, 0, False) /* Create Cliffside Overlook Portal Gem for Shop */;
+VALUES (26753, 4, 26118, -1, 0, 0, False) /* Create Cliffside Overlook Portal Gem (26118) for Shop */;

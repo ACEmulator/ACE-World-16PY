@@ -13,7 +13,7 @@ VALUES (12703,   1,         16) /* ItemType - Creature */
      , (12703,  40,          2) /* CombatMode - Melee */
      , (12703,  67,         64) /* Tolerance */
      , (12703,  68,          9) /* TargetingTactic */
-     , (12703,  93,       1032) /* PhysicsState */
+     , (12703,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (12703, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (12703, 146,          0) /* XpOverride */;
 
@@ -68,7 +68,14 @@ VALUES (12703,   1,   33557327) /* Setup */
      , (12703,   7,  268436295) /* ClothingBase */
      , (12703,   8,  100667449) /* Icon */
      , (12703,  22,  872415264) /* PhysicsEffectTable */
-     , (12703,  32,        128) /* WieldedTreasureType */;
+     , (12703,  32,        128) /* WieldedTreasureType - 
+                                   Wield Budiaq (308) | Probability: 12%
+                                   Wield Khanjar (328) | Probability: 25%
+                                   Wield Spear (348) | Probability: 13%
+                                   Wield 10x Throwing Dart (316) | Probability: 5%
+                                   Wield 10x Shouken (343) | Probability: 5%
+                                   Wield 6x Throwing Dagger (315) | Probability: 5%
+                                   Wield Djarid (317) | Probability: 10% */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (12703,   1,  15, 0, 0) /* Strength */
@@ -154,5 +161,5 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 268435537 /* Twitch1 */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (12703, 9,     0,  0, 0, 0, False) /* Create Unknown for ContainTreasure */
-     , (12703, 9, 12710,  0, 0, 1, False) /* Create Bellows for ContainTreasure */;
+VALUES (12703, 9,     0,  0, 0, 0, False) /* Create 1x Budiaq (308), 1x Khanjar (328), 1x Spear (348), 10x Throwing Dart (316), 10x Shouken (343), 6x Throwing Dagger (315), 1x Djarid (317) from Wielded Treasure Table for ContainTreasure */
+     , (12703, 9, 12710,  0, 0, 1, False) /* Create Bellows (12710) for ContainTreasure */;

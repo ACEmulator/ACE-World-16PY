@@ -10,7 +10,7 @@ VALUES (24244,   1,         16) /* ItemType - Creature */
      , (24244,  16,         32) /* ItemUseable - Remote */
      , (24244,  25,        119) /* Level */
      , (24244,  27,          0) /* ArmorType */
-     , (24244,  93,    6292504) /* PhysicsState */
+     , (24244,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (24244,  95,          8) /* RadarBlipColor - Yellow */
      , (24244, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (24244, 134,         16) /* PlayerKillerStatus - RubberGlue */
@@ -256,7 +256,7 @@ VALUES (@parent_id,  0,  10 /* Tell */, 1, 1, NULL, 'You found a stabbing claw. 
      , (@parent_id,  1,  22 /* StampQuest */, 0, 1, NULL, 'GaveStabClawToDanta', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (24244, 2,   116,  0, 13, 0, False) /* Create Studded Leather Boots for Wield */
-     , (24244, 2, 24238,  0, 0, 0, False) /* Create Olthoi Atlatl for Wield */
-     , (24244, 2, 24264,  0, 0, 0, False) /* Create Olthoi Fighter Shirt (Female) for Wield */
-     , (24244, 2, 24266,  0, 0, 0, False) /* Create Olthoi Fighter Shorts (Female) for Wield */;
+VALUES (24244, 2,   116,  0, 13, 0, False) /* Create Studded Leather Boots (116) for Wield */
+     , (24244, 2, 24238,  0, 0, 0, False) /* Create Olthoi Atlatl (24238) for Wield */
+     , (24244, 2, 24264,  0, 0, 0, False) /* Create Olthoi Fighter Shirt (Female) (24264) for Wield */
+     , (24244, 2, 24266,  0, 0, 0, False) /* Create Olthoi Fighter Shorts (Female) (24266) for Wield */;

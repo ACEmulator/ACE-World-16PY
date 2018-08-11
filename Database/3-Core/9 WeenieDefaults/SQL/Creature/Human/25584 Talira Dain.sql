@@ -10,7 +10,7 @@ VALUES (25584,   1,         16) /* ItemType - Creature */
      , (25584,  16,         32) /* ItemUseable - Remote */
      , (25584,  25,        126) /* Level */
      , (25584,  27,          0) /* ArmorType */
-     , (25584,  93,    6292504) /* PhysicsState */
+     , (25584,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (25584,  95,          8) /* RadarBlipColor - Yellow */
      , (25584, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (25584, 134,         16) /* PlayerKillerStatus - RubberGlue */
@@ -364,7 +364,7 @@ VALUES (@parent_id,  0,  12 /* TurnToTarget */, 0, 1, NULL, NULL, NULL, NULL, NU
      , (@parent_id, 18,  22 /* StampQuest */, 0, 1, NULL, 'DainAlive', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (25584, 2,  8904,  0, 0, 0, False) /* Create Focusing Stone for Wield */
-     , (25584, 2, 21150,  0, 21, 0.5, False) /* Create Covenant Sollerets for Wield */
-     , (25584, 2, 23591,  0, 0, 0, False) /* Create Energy Crown for Wield */
-     , (25584, 2, 24363,  0, 85, 0.33, False) /* Create Asheron's Supreme Raiment for Wield */;
+VALUES (25584, 2,  8904,  0, 0, 0, False) /* Create Focusing Stone (8904) for Wield */
+     , (25584, 2, 21150,  0, 21, 0.5, False) /* Create Covenant Sollerets (21150) for Wield */
+     , (25584, 2, 23591,  0, 0, 0, False) /* Create Energy Crown (23591) for Wield */
+     , (25584, 2, 24363,  0, 85, 0.33, False) /* Create Asheron's Supreme Raiment (24363) for Wield */;

@@ -18,7 +18,7 @@ VALUES (8527,   1,          1) /* ItemType - MeleeWeapon */
      , (8527,  48,         10) /* WeaponSkill - Staff */
      , (8527,  49,         40) /* WeaponTime */
      , (8527,  51,          1) /* CombatUse - Melee */
-     , (8527,  93,       1044) /* PhysicsState */
+     , (8527,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (8527, 106,        260) /* ItemSpellcraft */
      , (8527, 107,        854) /* ItemCurMana */
      , (8527, 108,        854) /* ItemMaxMana */

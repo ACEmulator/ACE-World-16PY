@@ -4,7 +4,7 @@ VALUES ('30644', 'portalbanderlingshrineexit', 7) /* Portal */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (30644,   1,      65536) /* ItemType - Portal */
      , (30644,  16,         32) /* ItemUseable - Remote */
-     , (30644,  93,       3084) /* PhysicsState */
+     , (30644,  93,       3084) /* PhysicsState - Ethereal, ReportCollisions, Gravity, LightingOn */
      , (30644, 111,          1) /* PortalBitmask - Unrestricted */
      , (30644, 133,          4) /* ShowableOnRadar - ShowAlways */;
 

@@ -4,8 +4,8 @@ VALUES ('24163', 'portaloswaldsurface', 7) /* Portal */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (24163,   1,      65536) /* ItemType - Portal */
      , (24163,  16,         32) /* ItemUseable - Remote */
-     , (24163,  93,       3084) /* PhysicsState */
-     , (24163, 111,         49) /* PortalBitmask */
+     , (24163,  93,       3084) /* PhysicsState - Ethereal, ReportCollisions, Gravity, LightingOn */
+     , (24163, 111,         49) /* PortalBitmask - Unrestricted, NoSummon, NoRecall */
      , (24163, 133,          4) /* ShowableOnRadar - ShowAlways */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)

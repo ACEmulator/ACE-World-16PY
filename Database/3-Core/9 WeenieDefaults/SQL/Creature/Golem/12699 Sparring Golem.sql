@@ -13,7 +13,7 @@ VALUES (12699,   1,         16) /* ItemType - Creature */
      , (12699,  40,          2) /* CombatMode - Melee */
      , (12699,  67,         64) /* Tolerance */
      , (12699,  68,          9) /* TargetingTactic */
-     , (12699,  93,       1032) /* PhysicsState */
+     , (12699,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (12699, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (12699, 146,          0) /* XpOverride */;
 
@@ -68,7 +68,7 @@ VALUES (12699,   1,   33556428) /* Setup */
      , (12699,   7,  268436247) /* ClothingBase */
      , (12699,   8,  100667940) /* Icon */
      , (12699,  22,  872415326) /* PhysicsEffectTable */
-     , (12699,  35,        156) /* DeathTreasureType */;
+     , (12699,  35,        156) /* DeathTreasureType - Loot Tier: 1 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (12699,   1,  10, 0, 0) /* Strength */
@@ -137,5 +137,5 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,  10 /* Tell */, 0, 1, NULL, 'Press the [Backspace] key to select your closest attacker. You can also use the [-] and [+] keys to cycle through nearby targets.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (12699, 9,     0,  0, 0, 0.5, False) /* Create Unknown for ContainTreasure */
-     , (12699, 9, 12762,  0, 0, 0.5, False) /* Create Guide to Healing for ContainTreasure */;
+VALUES (12699, 9,     0,  0, 0, 0.5, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 1 for ContainTreasure */
+     , (12699, 9, 12762,  0, 0, 0.5, False) /* Create Guide to Healing (12762) for ContainTreasure */;

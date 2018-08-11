@@ -14,7 +14,7 @@ VALUES (5902,   1,        512) /* ItemType - Container */
      , (5902,  81,          4) /* MaxGeneratedObjects */
      , (5902,  82,          4) /* InitGeneratedObjects */
      , (5902,  83,          2) /* ActivationResponse - Use */
-     , (5902,  93,       1048) /* PhysicsState */
+     , (5902,  93,       1048) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity */
      , (5902,  96,         -1) /* EncumbranceCapacity */
      , (5902, 100,          1) /* GeneratorType - Relative */;
 
@@ -49,7 +49,7 @@ VALUES (5902,   1,   33554556) /* Setup */
      , (5902,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (5902, -1, 26007, 0, 1, 1, 2, 8, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0)
-     , (5902, -1, 26009, 0, 1, 1, 2, 8, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0)
-     , (5902, -1, 26006, 0, 1, 1, 2, 8, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0)
-     , (5902, -1, 59, 0, 1, 1, 2, 72, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0);
+VALUES (5902, -1, 26007, 0, 1, 1, 2, 8, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Gelidite Robe (26007) (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: Contain */
+     , (5902, -1, 26009, 0, 1, 1, 2, 8, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Hammer of Frore (26009) (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: Contain */
+     , (5902, -1, 26006, 0, 1, 1, 2, 8, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Ice Heaume of Frore (26006) (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: Contain */
+     , (5902, -1, 59, 0, 1, 1, 2, 72, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate RANDOMLY GENERATED TREASURE from Loot Tier 4 (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: ContainTreasure */;

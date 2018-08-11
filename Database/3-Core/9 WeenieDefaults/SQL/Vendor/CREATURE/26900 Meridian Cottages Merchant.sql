@@ -10,10 +10,10 @@ VALUES (26900,   1,         16) /* ItemType - Creature */
      , (26900,  16,         32) /* ItemUseable - Remote */
      , (26900,  25,         10) /* Level */
      , (26900,  27,          0) /* ArmorType */
-     , (26900,  74,     264192) /* MerchandiseItemTypes */
+     , (26900,  74,     264192) /* MerchandiseItemTypes - Gem, PromissoryNote */
      , (26900,  75,          0) /* MerchandiseMinValue */
      , (26900,  76,    1000000) /* MerchandiseMaxValue */
-     , (26900,  93,    2098204) /* PhysicsState */
+     , (26900,  93,    2098204) /* PhysicsState - Ethereal, ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */
      , (26900, 126,        125) /* VendorHappyMean */
      , (26900, 127,        125) /* VendorHappyVariance */
      , (26900, 133,          4) /* ShowableOnRadar - ShowAlways */
@@ -97,4 +97,4 @@ VALUES (26900,  0,  4,  0,    0,    0,    0,    0,    0,    0,    0,    0,    0,
      , (26900,  8,  4,  2, 0.75,    0,    0,    0,    0,    0,    0,    0,    0,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (26900, 4, 26265, -1, 0, 0, False) /* Create Meridian Cottages Portal Gem for Shop */;
+VALUES (26900, 4, 26265, -1, 0, 0, False) /* Create Meridian Cottages Portal Gem (26265) for Shop */;

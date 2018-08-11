@@ -12,7 +12,7 @@ VALUES (22004,   1,         16) /* ItemType - Creature */
      , (22004,  40,          2) /* CombatMode - Melee */
      , (22004,  68,          9) /* TargetingTactic */
      , (22004,  72,         13) /* FriendType - Golem */
-     , (22004,  93,    4197384) /* PhysicsState */
+     , (22004,  93,    4197384) /* PhysicsState - ReportCollisions, Gravity, LightingOn, EdgeSlide */
      , (22004, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (22004, 146,     190435) /* XpOverride */;
 
@@ -72,7 +72,7 @@ VALUES (22004,   1,   33556427) /* Setup */
      , (22004,   8,  100667940) /* Icon */
      , (22004,  22,  872415325) /* PhysicsEffectTable */
      , (22004,  31,      21404) /* LinkedPortalOne - Citadel Valley */
-     , (22004,  35,        460) /* DeathTreasureType */;
+     , (22004,  35,        460) /* DeathTreasureType - Loot Tier: 4 */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (22004, 12, 1480786196, 10.121, -32.81, -5.995, -4.371139E-08, 0, 0, -1) /* PortalSummonLoc */;
@@ -159,5 +159,5 @@ VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 1090519043 /* Ready */, NULL, NU
      , (@parent_id,  1,   5 /* Motion */, 0, 1, 1090519060 /* Sleeping */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (22004, 9,     0,  0, 0, 0.8, False) /* Create Unknown for ContainTreasure */
-     , (22004, 9,  6354,  0, 0, 0.2, False) /* Create Pyreal Nugget for ContainTreasure */;
+VALUES (22004, 9,     0,  0, 0, 0.8, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 4 for ContainTreasure */
+     , (22004, 9,  6354,  0, 0, 0.2, False) /* Create Pyreal Nugget (6354) for ContainTreasure */;

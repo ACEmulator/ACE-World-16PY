@@ -15,7 +15,7 @@ VALUES (293,   1,        128) /* ItemType - Misc */
      , (293,  48,          5) /* WeaponSkill - Mace */
      , (293,  49,         40) /* WeaponTime */
      , (293,  51,          1) /* CombatUse - Melee */
-     , (293,  93,       3092) /* PhysicsState */
+     , (293,  93,       3092) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, LightingOn */
      , (293, 150,        103) /* HookPlacement - Hook */
      , (293, 151,          2) /* HookType - Wall */;
 

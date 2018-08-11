@@ -12,8 +12,8 @@ VALUES (30680,   1,         16) /* ItemType - Creature */
      , (30680,  27,          0) /* ArmorType */
      , (30680,  40,          2) /* CombatMode - Melee */
      , (30680,  68,          9) /* TargetingTactic */
-     , (30680,  93,       1032) /* PhysicsState */
-     , (30680, 101,        131) /* AiAllowedCombatStyle */
+     , (30680,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
+     , (30680, 101,        131) /* AiAllowedCombatStyle - Unarmed, OneHanded, ThrownWeapon */
      , (30680, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (30680, 140,          1) /* AiOptions */
      , (30680, 146,     303487) /* XpOverride */;
@@ -70,8 +70,12 @@ VALUES (30680,   1,   33559218) /* Setup */
      , (30680,   7,  268436896) /* ClothingBase */
      , (30680,   8,  100667445) /* Icon */
      , (30680,  22,  872415258) /* PhysicsEffectTable */
-     , (30680,  32,        423) /* WieldedTreasureType */
-     , (30680,  35,        449) /* DeathTreasureType */;
+     , (30680,  32,        423) /* WieldedTreasureType - 
+                                   Wield 25x Frost Throwing Club (23130) | Probability: 20%
+                                   Wield 25x Fire Throwing Club (23129) | Probability: 20%
+                                   Wield Flaming Club (23127) | Probability: 25%
+                                   Wield Frost Club (23128) | Probability: 25% */
+     , (30680,  35,        449) /* DeathTreasureType - Loot Tier: 6 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (30680,   1, 440, 0, 0) /* Strength */
@@ -203,9 +207,9 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 268435537 /* Twitch1 */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (30680, 9,     0,  0, 0, 0.98, False) /* Create Unknown for ContainTreasure */
-     , (30680, 9,     0,  0, 0, 0.99, False) /* Create Unknown for ContainTreasure */
-     , (30680, 9,     0,  0, 0, 0.97, False) /* Create Unknown for ContainTreasure */
-     , (30680, 9,  3669,  0, 0, 0.03, False) /* Create Drudge Charm for ContainTreasure */
-     , (30680, 9, 23107,  0, 0, 0.01, False) /* Create Mangled Dark Key for ContainTreasure */
-     , (30680, 9, 23108,  0, 0, 0.02, False) /* Create Twisted Dark Key for ContainTreasure */;
+VALUES (30680, 9,     0,  0, 0, 0.98, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 6 for ContainTreasure */
+     , (30680, 9,     0,  0, 0, 0.99, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 6 for ContainTreasure */
+     , (30680, 9,     0,  0, 0, 0.97, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 6 for ContainTreasure */
+     , (30680, 9,  3669,  0, 0, 0.03, False) /* Create Drudge Charm (3669) for ContainTreasure */
+     , (30680, 9, 23107,  0, 0, 0.01, False) /* Create Mangled Dark Key (23107) for ContainTreasure */
+     , (30680, 9, 23108,  0, 0, 0.02, False) /* Create Twisted Dark Key (23108) for ContainTreasure */;

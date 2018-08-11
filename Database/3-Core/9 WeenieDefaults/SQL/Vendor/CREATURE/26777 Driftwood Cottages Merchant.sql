@@ -10,10 +10,10 @@ VALUES (26777,   1,         16) /* ItemType - Creature */
      , (26777,  16,         32) /* ItemUseable - Remote */
      , (26777,  25,         10) /* Level */
      , (26777,  27,          0) /* ArmorType */
-     , (26777,  74,     264192) /* MerchandiseItemTypes */
+     , (26777,  74,     264192) /* MerchandiseItemTypes - Gem, PromissoryNote */
      , (26777,  75,          0) /* MerchandiseMinValue */
      , (26777,  76,    1000000) /* MerchandiseMaxValue */
-     , (26777,  93,    2098204) /* PhysicsState */
+     , (26777,  93,    2098204) /* PhysicsState - Ethereal, ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */
      , (26777, 126,        125) /* VendorHappyMean */
      , (26777, 127,        125) /* VendorHappyVariance */
      , (26777, 133,          4) /* ShowableOnRadar - ShowAlways */
@@ -97,4 +97,4 @@ VALUES (26777,  0,  4,  0,    0,    0,    0,    0,    0,    0,    0,    0,    0,
      , (26777,  8,  4,  2, 0.75,    0,    0,    0,    0,    0,    0,    0,    0,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (26777, 4, 26142, -1, 0, 0, False) /* Create Driftwood Cottages Portal Gem for Shop */;
+VALUES (26777, 4, 26142, -1, 0, 0, False) /* Create Driftwood Cottages Portal Gem (26142) for Shop */;

@@ -12,8 +12,8 @@ VALUES (6554,   1,         16) /* ItemType - Creature */
      , (6554,  25,        155) /* Level */
      , (6554,  27,          0) /* ArmorType */
      , (6554,  68,          3) /* TargetingTactic */
-     , (6554,  93,    4195336) /* PhysicsState */
-     , (6554, 101,        183) /* AiAllowedCombatStyle */
+     , (6554,  93,    4195336) /* PhysicsState - ReportCollisions, Gravity, EdgeSlide */
+     , (6554, 101,        183) /* AiAllowedCombatStyle - Unarmed, OneHanded, OneHandedAndShield, Bow, Crossbow, ThrownWeapon */
      , (6554, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (6554, 140,          1) /* AiOptions */
      , (6554, 146,      12000) /* XpOverride */;
@@ -158,7 +158,7 @@ VALUES (@parent_id,  0,  16 /* WorldBroadcast */, 0, 1, NULL, 'The darkness has 
      , (@parent_id,  1,  17 /* LocalBroadcast */, 0, 0, NULL, 'The dying Shadow Captain cackles, the hateful sound echoing from the walls of Fort Tethana.  "You may have sent me to my doom, %s, but the Generals are here, and they shall see your people weeping in despair!"', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (6554, 9,     0,  0, 0, 0.99, False) /* Create Unknown for ContainTreasure */
-     , (6554, 9,     0,  0, 0, 0.98, False) /* Create Unknown for ContainTreasure */
-     , (6554, 9,  6058,  0, 0, 0.01, False) /* Create Dark Shard for ContainTreasure */
-     , (6554, 9,  6876,  0, 0, 0.02, False) /* Create Sturdy Iron Key for ContainTreasure */;
+VALUES (6554, 9,     0,  0, 0, 0.99, False) /* Create UNKNOWN RANDOMLY GENERATED TREASURE for ContainTreasure */
+     , (6554, 9,     0,  0, 0, 0.98, False) /* Create UNKNOWN RANDOMLY GENERATED TREASURE for ContainTreasure */
+     , (6554, 9,  6058,  0, 0, 0.01, False) /* Create Dark Shard (6058) for ContainTreasure */
+     , (6554, 9,  6876,  0, 0, 0.02, False) /* Create Sturdy Iron Key (6876) for ContainTreasure */;

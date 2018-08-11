@@ -12,7 +12,7 @@ VALUES (25587,   1,         16) /* ItemType - Creature */
      , (25587,  19,         10) /* Value */
      , (25587,  25,        155) /* Level */
      , (25587,  27,          0) /* ArmorType */
-     , (25587,  93,    6294552) /* PhysicsState */
+     , (25587,  93,    6294552) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, LightingOn, ReportCollisionsAsEnvironment, EdgeSlide */
      , (25587,  95,          3) /* RadarBlipColor - White */
      , (25587, 119,          1) /* Active */
      , (25587, 133,          0) /* ShowableOnRadar - Undefined */

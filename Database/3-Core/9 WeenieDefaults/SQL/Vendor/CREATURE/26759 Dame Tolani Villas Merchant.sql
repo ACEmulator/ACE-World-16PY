@@ -10,10 +10,10 @@ VALUES (26759,   1,         16) /* ItemType - Creature */
      , (26759,  16,         32) /* ItemUseable - Remote */
      , (26759,  25,         10) /* Level */
      , (26759,  27,          0) /* ArmorType */
-     , (26759,  74,     264192) /* MerchandiseItemTypes */
+     , (26759,  74,     264192) /* MerchandiseItemTypes - Gem, PromissoryNote */
      , (26759,  75,          0) /* MerchandiseMinValue */
      , (26759,  76,    1000000) /* MerchandiseMaxValue */
-     , (26759,  93,    2098204) /* PhysicsState */
+     , (26759,  93,    2098204) /* PhysicsState - Ethereal, ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */
      , (26759, 126,        125) /* VendorHappyMean */
      , (26759, 127,        125) /* VendorHappyVariance */
      , (26759, 133,          4) /* ShowableOnRadar - ShowAlways */
@@ -97,4 +97,4 @@ VALUES (26759,  0,  4,  0,    0,    0,    0,    0,    0,    0,    0,    0,    0,
      , (26759,  8,  4,  2, 0.75,    0,    0,    0,    0,    0,    0,    0,    0,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (26759, 4, 26124, -1, 0, 0, False) /* Create Dame Tolani Villas Portal Gem for Shop */;
+VALUES (26759, 4, 26124, -1, 0, 0, False) /* Create Dame Tolani Villas Portal Gem (26124) for Shop */;

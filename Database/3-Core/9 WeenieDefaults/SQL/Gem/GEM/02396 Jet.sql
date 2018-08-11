@@ -14,7 +14,7 @@ VALUES (2396,   1,       2048) /* ItemType - Gem */
      , (2396,  15,        100) /* StackUnitValue */
      , (2396,  16,          1) /* ItemUseable - No */
      , (2396,  19,        100) /* Value */
-     , (2396,  93,       1044) /* PhysicsState */
+     , (2396,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (2396, 131,         27) /* MaterialType - Jet */
      , (2396, 169,   16777216) /* TsysMutationData */;
 

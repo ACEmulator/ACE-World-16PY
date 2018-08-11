@@ -11,8 +11,8 @@ VALUES (6009,   1,         16) /* ItemType - Creature */
      , (6009,  25,         18) /* Level */
      , (6009,  27,          0) /* ArmorType */
      , (6009,  68,          5) /* TargetingTactic */
-     , (6009,  93,    4195336) /* PhysicsState */
-     , (6009, 101,        183) /* AiAllowedCombatStyle */
+     , (6009,  93,    4195336) /* PhysicsState - ReportCollisions, Gravity, EdgeSlide */
+     , (6009, 101,        183) /* AiAllowedCombatStyle - Unarmed, OneHanded, OneHandedAndShield, Bow, Crossbow, ThrownWeapon */
      , (6009, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (6009, 140,          1) /* AiOptions */
      , (6009, 146,       1305) /* XpOverride */;
@@ -69,8 +69,46 @@ VALUES (6009,   1,   33554496) /* Setup */
      , (6009,   7,  268436629) /* ClothingBase */
      , (6009,   8,  100667452) /* Icon */
      , (6009,  22,  872415270) /* PhysicsEffectTable */
-     , (6009,  32,        226) /* WieldedTreasureType */
-     , (6009,  35,        453) /* DeathTreasureType */;
+     , (6009,  32,        226) /* WieldedTreasureType - 
+                                   Wield 5x Javelin (320) | Probability: 10%
+                                   Wield 6x Djarid (317) | Probability: 10%
+                                   Wield 4x Throwing Club (310) | Probability: 5%
+                                   Wield 6x Throwing Axe (304) | Probability: 5%
+                                   Wield Yag (360) | Probability: 5%
+                                   Wield 23x Arrow (300) | Probability: 100%
+                                   Wield Shortbow (307) | Probability: 5%
+                                   Wield 25x Arrow (300) | Probability: 100%
+                                   Wield Shouyumi (341) | Probability: 5%
+                                   Wield 20x Arrow (300) | Probability: 100%
+                                   Wield Light Crossbow (312) | Probability: 16%
+                                   Wield 15x Quarrel (305) | Probability: 100%
+                                   Wield Nayin (334) | Probability: 6%
+                                   Wield 20x Arrow (300) | Probability: 100%
+                                   Wield Longbow (306) | Probability: 11%
+                                   Wield 22x Arrow (300) | Probability: 100%
+                                   Wield Yumi (363) | Probability: 6%
+                                   Wield 20x Arrow (300) | Probability: 100%
+                                   Wield Heavy Crossbow (311) | Probability: 16%
+                                   Wield 15x Quarrel (305) | Probability: 100%
+                                   Wield Battle Axe (301) | Probability: 6%
+                                   Wield Budiaq (308) | Probability: 6%
+                                   Wield Dabus (313) | Probability: 6%
+                                   Wield Kaskara (324) | Probability: 5%
+                                   Wield Long Sword (351) | Probability: 5%
+                                   Wield Mace (331) | Probability: 7%
+                                   Wield Ono (336) | Probability: 5%
+                                   Wield Scimitar (339) | Probability: 10%
+                                   Wield Shamshir (340) | Probability: 5%
+                                   Wield Silifi (344) | Probability: 5%
+                                   Wield Spear (348) | Probability: 7%
+                                   Wield Tachi (353) | Probability: 5%
+                                   Wield Tofun (356) | Probability: 6%
+                                   Wield War Hammer (359) | Probability: 10%
+                                   Wield Yari (362) | Probability: 10%
+                                   Wield Large Kite Shield (92) | Probability: 30%
+                                   Wield Kite Shield (91) | Probability: 20%
+                                   Wield Large Round Shield (94) | Probability: 20% */
+     , (6009,  35,        453) /* DeathTreasureType - Loot Tier: 1 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (6009,   1,  80, 0, 0) /* Strength */

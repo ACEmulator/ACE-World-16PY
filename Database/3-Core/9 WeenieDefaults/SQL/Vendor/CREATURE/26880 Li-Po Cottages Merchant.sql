@@ -10,10 +10,10 @@ VALUES (26880,   1,         16) /* ItemType - Creature */
      , (26880,  16,         32) /* ItemUseable - Remote */
      , (26880,  25,         10) /* Level */
      , (26880,  27,          0) /* ArmorType */
-     , (26880,  74,     264192) /* MerchandiseItemTypes */
+     , (26880,  74,     264192) /* MerchandiseItemTypes - Gem, PromissoryNote */
      , (26880,  75,          0) /* MerchandiseMinValue */
      , (26880,  76,    1000000) /* MerchandiseMaxValue */
-     , (26880,  93,    2098204) /* PhysicsState */
+     , (26880,  93,    2098204) /* PhysicsState - Ethereal, ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */
      , (26880, 126,        125) /* VendorHappyMean */
      , (26880, 127,        125) /* VendorHappyVariance */
      , (26880, 133,          4) /* ShowableOnRadar - ShowAlways */
@@ -97,4 +97,4 @@ VALUES (26880,  0,  4,  0,    0,    0,    0,    0,    0,    0,    0,    0,    0,
      , (26880,  8,  4,  2, 0.75,    0,    0,    0,    0,    0,    0,    0,    0,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (26880, 4, 26245, -1, 0, 0, False) /* Create Li-Po Cottages Portal Gem for Shop */;
+VALUES (26880, 4, 26245, -1, 0, 0, False) /* Create Li-Po Cottages Portal Gem (26245) for Shop */;

@@ -11,7 +11,7 @@ VALUES (9328,   1,         16) /* ItemType - Creature */
      , (9328,  16,         32) /* ItemUseable - Remote */
      , (9328,  25,         59) /* Level */
      , (9328,  27,          0) /* ArmorType */
-     , (9328,  93,    6292504) /* PhysicsState */
+     , (9328,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (9328,  95,          8) /* RadarBlipColor - Yellow */
      , (9328, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (9328, 134,         16) /* PlayerKillerStatus - RubberGlue */
@@ -146,7 +146,7 @@ VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 1090519043 /* Ready */, NULL, NU
      , (@parent_id,  3,  10 /* Tell */, 1, 1, NULL, 'I grieve for proud Ayan Baqur.  I was not strong enough to defend it from the waves of cloaked fiends.  I have tried to locate my people... I think the Virindi are holding them in an underground complex to the east of town.  I am not strong enough to rescue them myself... Please, friend, do what you can to help them.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (9328, 2,   128,  0, 9, 1, False) /* Create Qafiya for Wield */
-     , (9328, 2,   133,  0, 4, 0.68, False) /* Create Slippers for Wield */
-     , (9328, 2,  2587,  0, 9, 1, False) /* Create Shirt for Wield */
-     , (9328, 2,  2601,  0, 9, 0, False) /* Create Pants for Wield */;
+VALUES (9328, 2,   128,  0, 9, 1, False) /* Create Qafiya (128) for Wield */
+     , (9328, 2,   133,  0, 4, 0.68, False) /* Create Slippers (133) for Wield */
+     , (9328, 2,  2587,  0, 9, 1, False) /* Create Shirt (2587) for Wield */
+     , (9328, 2,  2601,  0, 9, 0, False) /* Create Pants (2601) for Wield */;

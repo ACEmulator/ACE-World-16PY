@@ -13,8 +13,8 @@ VALUES (8540,   1,         16) /* ItemType - Creature */
      , (8540,  27,          0) /* ArmorType */
      , (8540,  68,          3) /* TargetingTactic */
      , (8540,  72,         22) /* FriendType - Shadow */
-     , (8540,  93,       1032) /* PhysicsState */
-     , (8540, 101,        183) /* AiAllowedCombatStyle */
+     , (8540,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
+     , (8540, 101,        183) /* AiAllowedCombatStyle - Unarmed, OneHanded, OneHandedAndShield, Bow, Crossbow, ThrownWeapon */
      , (8540, 133,          1) /* ShowableOnRadar - ShowNever */
      , (8540, 140,          1) /* AiOptions */
      , (8540, 146,      25000) /* XpOverride */;
@@ -74,7 +74,7 @@ VALUES (8540,   1,   33554839) /* Setup */
      , (8540,   7,  268435558) /* ClothingBase */
      , (8540,   8,  100667942) /* Icon */
      , (8540,  22,  872415272) /* PhysicsEffectTable */
-     , (8540,  35,        183) /* DeathTreasureType */;
+     , (8540,  35,        183) /* DeathTreasureType - Loot Tier: 5 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (8540,   1, 200, 0, 0) /* Strength */
@@ -181,5 +181,5 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,  17 /* LocalBroadcast */, 0, 0, NULL, 'As the undead falls, its rotting flesh ripples and sloughs away, revealing the ebon form of a Shadow! "Your little victory matters not," it cackles. "We already altered the path so none may follow but our own!"', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (8540, 9,     0,  0, 0, 0.98, False) /* Create Unknown for ContainTreasure */
-     , (8540, 9,  6876,  0, 0, 0.02, False) /* Create Sturdy Iron Key for ContainTreasure */;
+VALUES (8540, 9,     0,  0, 0, 0.98, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 5 for ContainTreasure */
+     , (8540, 9,  6876,  0, 0, 0.02, False) /* Create Sturdy Iron Key (6876) for ContainTreasure */;

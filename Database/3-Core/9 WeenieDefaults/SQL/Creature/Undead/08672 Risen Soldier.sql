@@ -12,8 +12,8 @@ VALUES (8672,   1,         16) /* ItemType - Creature */
      , (8672,  27,          0) /* ArmorType */
      , (8672,  40,          1) /* CombatMode - NonCombat */
      , (8672,  68,          3) /* TargetingTactic */
-     , (8672,  93,    4195336) /* PhysicsState */
-     , (8672, 101,        183) /* AiAllowedCombatStyle */
+     , (8672,  93,    4195336) /* PhysicsState - ReportCollisions, Gravity, EdgeSlide */
+     , (8672, 101,        183) /* AiAllowedCombatStyle - Unarmed, OneHanded, OneHandedAndShield, Bow, Crossbow, ThrownWeapon */
      , (8672, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (8672, 140,          1) /* AiOptions */
      , (8672, 146,       3860) /* XpOverride */;
@@ -73,8 +73,32 @@ VALUES (8672,   1,   33554839) /* Setup */
      , (8672,   7,  268435558) /* ClothingBase */
      , (8672,   8,  100667942) /* Icon */
      , (8672,  22,  872415272) /* PhysicsEffectTable */
-     , (8672,  32,        248) /* WieldedTreasureType */
-     , (8672,  35,        451) /* DeathTreasureType */;
+     , (8672,  32,        248) /* WieldedTreasureType - 
+                                   Wield 6x Throwing Axe (304) | Probability: 10%
+                                   Wield Nayin (334) | Probability: 10%
+                                   Wield 20x Arrow (300) | Probability: 100%
+                                   Wield Longbow (306) | Probability: 10%
+                                   Wield 20x Arrow (300) | Probability: 100%
+                                   Wield Yumi (363) | Probability: 10%
+                                   Wield 14x Arrow (300) | Probability: 100%
+                                   Wield Heavy Crossbow (311) | Probability: 60%
+                                   Wield 15x Quarrel (305) | Probability: 100%
+                                   Wield Battle Axe (301) | Probability: 14%
+                                   Wield Broad Sword (350) | Probability: 7%
+                                   Wield Kaskara (324) | Probability: 6%
+                                   Wield Ken (327) | Probability: 6%
+                                   Wield Long Sword (351) | Probability: 6%
+                                   Wield Morning Star (332) | Probability: 10%
+                                   Wield Scimitar (339) | Probability: 6%
+                                   Wield Shamshir (340) | Probability: 6%
+                                   Wield Ono (336) | Probability: 13%
+                                   Wield Silifi (344) | Probability: 13%
+                                   Wield Tachi (353) | Probability: 6%
+                                   Wield Takuba (354) | Probability: 6%
+                                   Wield Large Kite Shield (92) | Probability: 30%
+                                   Wield Kite Shield (91) | Probability: 20%
+                                   Wield Large Round Shield (94) | Probability: 20% */
+     , (8672,  35,        451) /* DeathTreasureType - Loot Tier: 2 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (8672,   1, 130, 0, 0) /* Strength */
@@ -121,7 +145,7 @@ VALUES (8672,  94) /* ATTACK_NOTIFICATION_EVENT */
      , (8672, 414) /* PLAYER_DEATH_EVENT */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (8672, 9,     0,  0, 0, 0.97, False) /* Create Unknown for ContainTreasure */
-     , (8672, 9,     0,  0, 0, 0.97, False) /* Create Unknown for ContainTreasure */
-     , (8672, 9,  5873,  0, 0, 0.03, False) /* Create Seal for ContainTreasure */
-     , (8672, 9,  7041,  0, 0, 0.03, False) /* Create Undead Thighbone for ContainTreasure */;
+VALUES (8672, 9,     0,  0, 0, 0.97, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 2 for ContainTreasure */
+     , (8672, 9,     0,  0, 0, 0.97, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 2 for ContainTreasure */
+     , (8672, 9,  5873,  0, 0, 0.03, False) /* Create Seal (5873) for ContainTreasure */
+     , (8672, 9,  7041,  0, 0, 0.03, False) /* Create Undead Thighbone (7041) for ContainTreasure */;

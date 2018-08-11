@@ -18,7 +18,7 @@ VALUES (29256,   1,        256) /* ItemType - MissileWeapon */
      , (29256,  50,          4) /* AmmoType - ArrowCrystal */
      , (29256,  51,          2) /* CombatUse - Missle */
      , (29256,  60,        120) /* WeaponRange */
-     , (29256,  93,       1044) /* PhysicsState */
+     , (29256,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (29256, 150,        103) /* HookPlacement - Hook */
      , (29256, 151,          2) /* HookType - Wall */
      , (29256, 158,          2) /* WieldRequirements - RawSkill */

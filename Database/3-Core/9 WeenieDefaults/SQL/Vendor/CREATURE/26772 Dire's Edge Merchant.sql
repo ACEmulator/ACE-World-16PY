@@ -10,10 +10,10 @@ VALUES (26772,   1,         16) /* ItemType - Creature */
      , (26772,  16,         32) /* ItemUseable - Remote */
      , (26772,  25,         10) /* Level */
      , (26772,  27,          0) /* ArmorType */
-     , (26772,  74,     264192) /* MerchandiseItemTypes */
+     , (26772,  74,     264192) /* MerchandiseItemTypes - Gem, PromissoryNote */
      , (26772,  75,          0) /* MerchandiseMinValue */
      , (26772,  76,    1000000) /* MerchandiseMaxValue */
-     , (26772,  93,    2098204) /* PhysicsState */
+     , (26772,  93,    2098204) /* PhysicsState - Ethereal, ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */
      , (26772, 126,        125) /* VendorHappyMean */
      , (26772, 127,        125) /* VendorHappyVariance */
      , (26772, 133,          4) /* ShowableOnRadar - ShowAlways */
@@ -97,4 +97,4 @@ VALUES (26772,  0,  4,  0,    0,    0,    0,    0,    0,    0,    0,    0,    0,
      , (26772,  8,  4,  2, 0.75,    0,    0,    0,    0,    0,    0,    0,    0,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (26772, 4, 26137, -1, 0, 0, False) /* Create Dire's Edge Portal Gem for Shop */;
+VALUES (26772, 4, 26137, -1, 0, 0, False) /* Create Dire's Edge Portal Gem (26137) for Shop */;

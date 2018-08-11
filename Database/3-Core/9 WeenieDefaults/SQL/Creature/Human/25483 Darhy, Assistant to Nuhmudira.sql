@@ -10,7 +10,7 @@ VALUES (25483,   1,         16) /* ItemType - Creature */
      , (25483,  16,         32) /* ItemUseable - Remote */
      , (25483,  25,          5) /* Level */
      , (25483,  27,          0) /* ArmorType */
-     , (25483,  93,    6292504) /* PhysicsState */
+     , (25483,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (25483,  95,          8) /* RadarBlipColor - Yellow */
      , (25483, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (25483, 134,         16) /* PlayerKillerStatus - RubberGlue */
@@ -172,4 +172,4 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   3 /* Give */, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0, 25481 /* Scintillating Crystal Ring */, 1, 0, 0, False, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (25483, 2,  5916,  0, 0, 0, False) /* Create Dho Creature Master Robe for Wield */;
+VALUES (25483, 2,  5916,  0, 0, 0, False) /* Create Dho Creature Master Robe (5916) for Wield */;

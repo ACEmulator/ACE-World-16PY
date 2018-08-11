@@ -10,10 +10,10 @@ VALUES (26789,   1,         16) /* ItemType - Creature */
      , (26789,  16,         32) /* ItemUseable - Remote */
      , (26789,  25,         10) /* Level */
      , (26789,  27,          0) /* ArmorType */
-     , (26789,  74,     264192) /* MerchandiseItemTypes */
+     , (26789,  74,     264192) /* MerchandiseItemTypes - Gem, PromissoryNote */
      , (26789,  75,          0) /* MerchandiseMinValue */
      , (26789,  76,    1000000) /* MerchandiseMaxValue */
-     , (26789,  93,    2098204) /* PhysicsState */
+     , (26789,  93,    2098204) /* PhysicsState - Ethereal, ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */
      , (26789, 126,        125) /* VendorHappyMean */
      , (26789, 127,        125) /* VendorHappyVariance */
      , (26789, 133,          4) /* ShowableOnRadar - ShowAlways */
@@ -97,4 +97,4 @@ VALUES (26789,  0,  4,  0,    0,    0,    0,    0,    0,    0,    0,    0,    0,
      , (26789,  8,  4,  2, 0.75,    0,    0,    0,    0,    0,    0,    0,    0,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (26789, 4, 26154, -1, 0, 0, False) /* Create East Lytelthorpe Settlement Portal Gem for Shop */;
+VALUES (26789, 4, 26154, -1, 0, 0, False) /* Create East Lytelthorpe Settlement Portal Gem (26154) for Shop */;

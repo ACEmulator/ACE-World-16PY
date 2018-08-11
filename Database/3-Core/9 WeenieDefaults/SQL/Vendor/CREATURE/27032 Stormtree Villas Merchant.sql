@@ -10,10 +10,10 @@ VALUES (27032,   1,         16) /* ItemType - Creature */
      , (27032,  16,         32) /* ItemUseable - Remote */
      , (27032,  25,         10) /* Level */
      , (27032,  27,          0) /* ArmorType */
-     , (27032,  74,     264192) /* MerchandiseItemTypes */
+     , (27032,  74,     264192) /* MerchandiseItemTypes - Gem, PromissoryNote */
      , (27032,  75,          0) /* MerchandiseMinValue */
      , (27032,  76,    1000000) /* MerchandiseMaxValue */
-     , (27032,  93,    2098204) /* PhysicsState */
+     , (27032,  93,    2098204) /* PhysicsState - Ethereal, ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */
      , (27032, 126,        125) /* VendorHappyMean */
      , (27032, 127,        125) /* VendorHappyVariance */
      , (27032, 133,          4) /* ShowableOnRadar - ShowAlways */
@@ -97,4 +97,4 @@ VALUES (27032,  0,  4,  0,    0,    0,    0,    0,    0,    0,    0,    0,    0,
      , (27032,  8,  4,  2, 0.75,    0,    0,    0,    0,    0,    0,    0,    0,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (27032, 4, 26397, -1, 0, 0, False) /* Create Stormtree Villas Portal Gem for Shop */;
+VALUES (27032, 4, 26397, -1, 0, 0, False) /* Create Stormtree Villas Portal Gem (26397) for Shop */;

@@ -10,7 +10,7 @@ VALUES (26463,   1,         16) /* ItemType - Creature */
      , (26463,  16,         32) /* ItemUseable - Remote */
      , (26463,  25,         50) /* Level */
      , (26463,  27,          0) /* ArmorType */
-     , (26463,  93,    6292504) /* PhysicsState */
+     , (26463,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (26463,  95,          8) /* RadarBlipColor - Yellow */
      , (26463, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (26463, 134,         16) /* PlayerKillerStatus - RubberGlue */
@@ -312,4 +312,4 @@ VALUES (@parent_id,  0,  12 /* TurnToTarget */, 0, 1, NULL, NULL, NULL, NULL, NU
      , (@parent_id,  2,  10 /* Tell */, 0, 1, NULL, 'Nope, it''s just a nanner.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (26463, 2,   161,  0, 0, 0, False) /* Create Mug for Wield */;
+VALUES (26463, 2,   161,  0, 0, 0, False) /* Create Mug (161) for Wield */;

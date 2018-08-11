@@ -7,7 +7,7 @@ VALUES (8377,   1,    4194304) /* ItemType - CraftCookingBase */
      , (8377,   8,       1000) /* Mass */
      , (8377,  16,         48) /* ItemUseable - ViewedRemote */
      , (8377,  19,          0) /* Value */
-     , (8377,  93,       1048) /* PhysicsState */;
+     , (8377,  93,       1048) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (8377,   1, True ) /* Stuck */

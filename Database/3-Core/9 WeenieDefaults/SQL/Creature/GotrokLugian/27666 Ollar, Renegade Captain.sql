@@ -13,8 +13,8 @@ VALUES (27666,   1,         16) /* ItemType - Creature */
      , (27666,  27,          0) /* ArmorType */
      , (27666,  40,          2) /* CombatMode - Melee */
      , (27666,  68,         13) /* TargetingTactic */
-     , (27666,  93,       1032) /* PhysicsState */
-     , (27666, 101,        131) /* AiAllowedCombatStyle */
+     , (27666,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
+     , (27666, 101,        131) /* AiAllowedCombatStyle - Unarmed, OneHanded, ThrownWeapon */
      , (27666, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (27666, 140,          1) /* AiOptions */
      , (27666, 146,      28009) /* XpOverride */;
@@ -71,8 +71,11 @@ VALUES (27666,   1,   33557003) /* Setup */
      , (27666,   7,  268436157) /* ClothingBase */
      , (27666,   8,  100667447) /* Icon */
      , (27666,  22,  872415262) /* PhysicsEffectTable */
-     , (27666,  32,        326) /* WieldedTreasureType */
-     , (27666,  35,        448) /* DeathTreasureType */;
+     , (27666,  32,        326) /* WieldedTreasureType - 
+                                   Wield Rock (23746) | Probability: 100%
+                                   Wield Lugian Axe (23740) | Probability: 60%
+                                   Wield Lugian Morning Star (23764) | Probability: 40% */
+     , (27666,  35,        448) /* DeathTreasureType - Loot Tier: 4 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (27666,   1, 290, 0, 0) /* Strength */
@@ -194,15 +197,15 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,  10 /* Tell */, 0, 1, NULL, 'This magic you speak of, when will you begin to utilize it?', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (27666, 9,     0,  0, 0, 0, False) /* Create Unknown for ContainTreasure */
-     , (27666, 9,     0,  0, 0, 0, False) /* Create Unknown for ContainTreasure */
-     , (27666, 9,     0,  0, 0, 0, False) /* Create Unknown for ContainTreasure */
-     , (27666, 9,     0,  0, 0, 0, False) /* Create Unknown for ContainTreasure */
-     , (27666, 9,     0,  0, 0, 0, False) /* Create Unknown for ContainTreasure */
-     , (27666, 9,     0,  0, 0, 0, False) /* Create Unknown for ContainTreasure */
-     , (27666, 9, 27688,  1, 0, 1, False) /* Create Strong Iron Key for ContainTreasure */
-     , (27666, 9, 27688,  1, 0, 1, False) /* Create Strong Iron Key for ContainTreasure */
-     , (27666, 9, 27688,  1, 0, 1, False) /* Create Strong Iron Key for ContainTreasure */
-     , (27666, 9, 27688,  1, 0, 1, False) /* Create Strong Iron Key for ContainTreasure */
-     , (27666, 9, 27688,  1, 0, 1, False) /* Create Strong Iron Key for ContainTreasure */
-     , (27666, 9, 27688,  1, 0, 1, False) /* Create Strong Iron Key for ContainTreasure */;
+VALUES (27666, 9,     0,  0, 0, 0, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 4 for ContainTreasure */
+     , (27666, 9,     0,  0, 0, 0, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 4 for ContainTreasure */
+     , (27666, 9,     0,  0, 0, 0, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 4 for ContainTreasure */
+     , (27666, 9,     0,  0, 0, 0, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 4 for ContainTreasure */
+     , (27666, 9,     0,  0, 0, 0, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 4 for ContainTreasure */
+     , (27666, 9,     0,  0, 0, 0, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 4 for ContainTreasure */
+     , (27666, 9, 27688,  1, 0, 1, False) /* Create Strong Iron Key (27688) for ContainTreasure */
+     , (27666, 9, 27688,  1, 0, 1, False) /* Create Strong Iron Key (27688) for ContainTreasure */
+     , (27666, 9, 27688,  1, 0, 1, False) /* Create Strong Iron Key (27688) for ContainTreasure */
+     , (27666, 9, 27688,  1, 0, 1, False) /* Create Strong Iron Key (27688) for ContainTreasure */
+     , (27666, 9, 27688,  1, 0, 1, False) /* Create Strong Iron Key (27688) for ContainTreasure */
+     , (27666, 9, 27688,  1, 0, 1, False) /* Create Strong Iron Key (27688) for ContainTreasure */;

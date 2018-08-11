@@ -13,8 +13,8 @@ VALUES (7550,   1,         16) /* ItemType - Creature */
      , (7550,  27,          0) /* ArmorType */
      , (7550,  40,          2) /* CombatMode - Melee */
      , (7550,  68,         13) /* TargetingTactic */
-     , (7550,  93,       1032) /* PhysicsState */
-     , (7550, 101,        131) /* AiAllowedCombatStyle */
+     , (7550,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
+     , (7550, 101,        131) /* AiAllowedCombatStyle - Unarmed, OneHanded, ThrownWeapon */
      , (7550, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (7550, 140,          1) /* AiOptions */
      , (7550, 146,       2000) /* XpOverride */;
@@ -70,8 +70,11 @@ VALUES (7550,   1,   33557003) /* Setup */
      , (7550,   7,  268436156) /* ClothingBase */
      , (7550,   8,  100667447) /* Icon */
      , (7550,  22,  872415262) /* PhysicsEffectTable */
-     , (7550,  32,        302) /* WieldedTreasureType */
-     , (7550,  35,        106) /* DeathTreasureType */;
+     , (7550,  32,        302) /* WieldedTreasureType - 
+                                   Wield Rock (7578) | Probability: 90%
+                                   Wield Lugian Morning Star (23765) | Probability: 40%
+                                   Wield Lugian Axe (7577) | Probability: 40% */
+     , (7550,  35,        106) /* DeathTreasureType - Loot Tier: 3 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (7550,   1, 200, 0, 0) /* Strength */
@@ -170,7 +173,7 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 268435539 /* Twitch3 */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (7550, 9,     0,  0, 0, 0.98, False) /* Create Unknown for ContainTreasure */
-     , (7550, 9,     0,  0, 0, 0.8, False) /* Create Unknown for ContainTreasure */
-     , (7550, 9,  7042,  0, 0, 0.02, False) /* Create Small Lugian Sinew for ContainTreasure */
-     , (7550, 9,  7549,  0, 0, 0.2, False) /* Create Lugian Pick Axe for ContainTreasure */;
+VALUES (7550, 9,     0,  0, 0, 0.98, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 3 for ContainTreasure */
+     , (7550, 9,     0,  0, 0, 0.8, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 3 for ContainTreasure */
+     , (7550, 9,  7042,  0, 0, 0.02, False) /* Create Small Lugian Sinew (7042) for ContainTreasure */
+     , (7550, 9,  7549,  0, 0, 0.2, False) /* Create Lugian Pick Axe (7549) for ContainTreasure */;

@@ -11,7 +11,7 @@ VALUES (8468,   1,         16) /* ItemType - Creature */
      , (8468,  27,          0) /* ArmorType */
      , (8468,  40,          2) /* CombatMode - Melee */
      , (8468,  68,         13) /* TargetingTactic */
-     , (8468,  93,       1032) /* PhysicsState */
+     , (8468,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (8468, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (8468, 146,      20885) /* XpOverride */;
 
@@ -68,7 +68,7 @@ VALUES (8468,   1,   33555670) /* Setup */
      , (8468,   4,  805306404) /* CombatTable */
      , (8468,   8,  100671186) /* Icon */
      , (8468,  22,  872415332) /* PhysicsEffectTable */
-     , (8468,  35,        462) /* DeathTreasureType */;
+     , (8468,  35,        462) /* DeathTreasureType - Loot Tier: 3 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (8468,   1, 200, 0, 0) /* Strength */
@@ -113,4 +113,4 @@ VALUES (8468,  94) /* ATTACK_NOTIFICATION_EVENT */
      , (8468, 414) /* PLAYER_DEATH_EVENT */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (8468, 2,  4804, 10, 0, 0, False) /* Create Slithis Spine for Wield */;
+VALUES (8468, 2,  4804, 10, 0, 0, False) /* Create Slithis Spine (4804) for Wield */;

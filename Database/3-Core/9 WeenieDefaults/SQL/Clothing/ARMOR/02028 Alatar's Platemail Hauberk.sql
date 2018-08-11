@@ -4,15 +4,15 @@ VALUES ('2028', 'hauberkplatealatar', 2) /* Clothing */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (2028,   1,          2) /* ItemType - Armor */
      , (2028,   3,         20) /* PaletteTemplate - Silver */
-     , (2028,   4,      15360) /* ClothingPriority */
+     , (2028,   4,      15360) /* ClothingPriority - OuterwearChest, OuterwearAbdomen, OuterwearUpperArms, OuterwearLowerArms */
      , (2028,   5,       3300) /* EncumbranceVal */
      , (2028,   8,       1800) /* Mass */
-     , (2028,   9,       6656) /* ValidLocations */
+     , (2028,   9,       6656) /* ValidLocations - ChestArmor, UpperArmArmor, LowerArmArmor */
      , (2028,  16,          1) /* ItemUseable - No */
      , (2028,  19,       6000) /* Value */
      , (2028,  27,         32) /* ArmorType */
      , (2028,  28,        100) /* ArmorLevel */
-     , (2028,  93,       1044) /* PhysicsState */;
+     , (2028,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (2028,  22, True ) /* Inscribable */;

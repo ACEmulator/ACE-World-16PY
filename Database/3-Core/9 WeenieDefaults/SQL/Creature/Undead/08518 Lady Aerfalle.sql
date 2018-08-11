@@ -12,8 +12,8 @@ VALUES (8518,   1,         16) /* ItemType - Creature */
      , (8518,  27,          0) /* ArmorType */
      , (8518,  40,          1) /* CombatMode - NonCombat */
      , (8518,  68,          3) /* TargetingTactic */
-     , (8518,  93,       1032) /* PhysicsState */
-     , (8518, 101,        183) /* AiAllowedCombatStyle */
+     , (8518,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
+     , (8518, 101,        183) /* AiAllowedCombatStyle - Unarmed, OneHanded, OneHandedAndShield, Bow, Crossbow, ThrownWeapon */
      , (8518, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (8518, 140,          1) /* AiOptions */
      , (8518, 146,          0) /* XpOverride */;
@@ -164,6 +164,6 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,  17 /* LocalBroadcast */, 0, 0, NULL, 'The cold, luminous eyesockets of the Lady of Aerlinthe regard you balefully. "Fools!" she hisses. "You will destroy us all! If you must have the key, protect that which we do!" So saying, the light in her rotted skull dies, and her spirit wafts back to the north to gather its strength.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (8518, 9,     0,  0, 0, 0.97, False) /* Create Unknown for ContainTreasure */
-     , (8518, 9,  7045,  0, 0, 0.03, False) /* Create Dark Revenant Thighbone for ContainTreasure */
-     , (8518, 1,  8521,  0, 0, 1, False) /* Create Snapped Silver Key for Contain */;
+VALUES (8518, 9,     0,  0, 0, 0.97, False) /* Create UNKNOWN RANDOMLY GENERATED TREASURE for ContainTreasure */
+     , (8518, 9,  7045,  0, 0, 0.03, False) /* Create Dark Revenant Thighbone (7045) for ContainTreasure */
+     , (8518, 1,  8521,  0, 0, 1, False) /* Create Snapped Silver Key (8521) for Contain */;

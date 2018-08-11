@@ -10,10 +10,10 @@ VALUES (15780,   1,         16) /* ItemType - Creature */
      , (15780,  16,         32) /* ItemUseable - Remote */
      , (15780,  25,          9) /* Level */
      , (15780,  27,          0) /* ArmorType */
-     , (15780,  74,     831488) /* MerchandiseItemTypes */
+     , (15780,  74,     831488) /* MerchandiseItemTypes - SpellComponents, Writable, Caster, PromissoryNote, ManaStone */
      , (15780,  75,          0) /* MerchandiseMinValue */
      , (15780,  76,     100000) /* MerchandiseMaxValue */
-     , (15780,  93,    2098200) /* PhysicsState */
+     , (15780,  93,    2098200) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */
      , (15780, 126,       1000) /* VendorHappyMean */
      , (15780, 127,        500) /* VendorHappyVariance */
      , (15780, 133,          4) /* ShowableOnRadar - ShowAlways */
@@ -170,5 +170,5 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 318767235 /* Nod */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (15780, 2,  8372,  0, 17, 1, False) /* Create Yifan Dress for Wield */
-     , (15780, 4, 15716, -1, 0, 0, False) /* Create Crystal Vase for Shop */;
+VALUES (15780, 2,  8372,  0, 17, 1, False) /* Create Yifan Dress (8372) for Wield */
+     , (15780, 4, 15716, -1, 0, 0, False) /* Create Crystal Vase (15716) for Shop */;

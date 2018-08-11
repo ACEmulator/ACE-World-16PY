@@ -13,8 +13,8 @@ VALUES (19294,   1,         16) /* ItemType - Creature */
      , (19294,  40,          2) /* CombatMode - Melee */
      , (19294,  67,         64) /* Tolerance */
      , (19294,  68,         13) /* TargetingTactic */
-     , (19294,  93,       1032) /* PhysicsState */
-     , (19294, 101,        131) /* AiAllowedCombatStyle */
+     , (19294,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
+     , (19294, 101,        131) /* AiAllowedCombatStyle - Unarmed, OneHanded, ThrownWeapon */
      , (19294, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (19294, 140,          1) /* AiOptions */
      , (19294, 146,        800) /* XpOverride */;
@@ -70,7 +70,7 @@ VALUES (19294,   1,   33557327) /* Setup */
      , (19294,   7,  268436295) /* ClothingBase */
      , (19294,   8,  100667449) /* Icon */
      , (19294,  22,  872415264) /* PhysicsEffectTable */
-     , (19294,  35,        453) /* DeathTreasureType */;
+     , (19294,  35,        453) /* DeathTreasureType - Loot Tier: 1 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (19294,   1, 125, 0, 0) /* Strength */
@@ -173,5 +173,5 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 268435537 /* Twitch1 */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (19294, 9,     0,  0, 0, 0.95, False) /* Create Unknown for ContainTreasure */
-     , (19294, 9, 19217,  0, 0, 0.05, False) /* Create Bronze Gear from a Statue for ContainTreasure */;
+VALUES (19294, 9,     0,  0, 0, 0.95, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 1 for ContainTreasure */
+     , (19294, 9, 19217,  0, 0, 0.05, False) /* Create Bronze Gear from a Statue (19217) for ContainTreasure */;

@@ -4,7 +4,7 @@ VALUES ('23929', 'wheeloffortune-ulgrim', 26) /* Switch */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (23929,   1,        128) /* ItemType - Misc */
      , (23929,  16,         32) /* ItemUseable - Remote */
-     , (23929,  93,         16) /* PhysicsState - IgnoreCollision */;
+     , (23929,  93,         16) /* PhysicsState - IgnoreCollisions */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (23929,   1, True ) /* Stuck */

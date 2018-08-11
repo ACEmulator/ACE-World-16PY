@@ -11,7 +11,7 @@ VALUES (2565,   1,         16) /* ItemType - Creature */
      , (2565,  25,         26) /* Level */
      , (2565,  40,          2) /* CombatMode - Melee */
      , (2565,  68,         13) /* TargetingTactic */
-     , (2565,  93,       1032) /* PhysicsState */
+     , (2565,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (2565, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (2565, 146,       2276) /* XpOverride */;
 
@@ -66,7 +66,7 @@ VALUES (2565,   1,   33554436) /* Setup */
      , (2565,   7,  268435547) /* ClothingBase */
      , (2565,   8,  100667935) /* Icon */
      , (2565,  22,  872415253) /* PhysicsEffectTable */
-     , (2565,  35,        459) /* DeathTreasureType */;
+     , (2565,  35,        459) /* DeathTreasureType - Loot Tier: 1 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (2565,   1, 145, 0, 0) /* Strength */
@@ -133,9 +133,9 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 268435538 /* Twitch2 */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (2565, 9,     0,  0, 0, 0.92, False) /* Create Unknown for ContainTreasure */
-     , (2565, 9,     0,  0, 0, 0.95, False) /* Create Unknown for ContainTreasure */
-     , (2565, 9,     0,  0, 0, 0.97, False) /* Create Unknown for ContainTreasure */
-     , (2565, 9,  3691,  0, 0, 0.08, False) /* Create Shore Armoredillo Spine for ContainTreasure */
-     , (2565, 9,  4234,  0, 0, 0.05, False) /* Create Large Armoredillo Hide for ContainTreasure */
-     , (2565, 9, 20858,  0, 0, 0.03, False) /* Create Fish Stamp for ContainTreasure */;
+VALUES (2565, 9,     0,  0, 0, 0.92, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 1 for ContainTreasure */
+     , (2565, 9,     0,  0, 0, 0.95, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 1 for ContainTreasure */
+     , (2565, 9,     0,  0, 0, 0.97, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 1 for ContainTreasure */
+     , (2565, 9,  3691,  0, 0, 0.08, False) /* Create Shore Armoredillo Spine (3691) for ContainTreasure */
+     , (2565, 9,  4234,  0, 0, 0.05, False) /* Create Large Armoredillo Hide (4234) for ContainTreasure */
+     , (2565, 9, 20858,  0, 0, 0.03, False) /* Create Fish Stamp (20858) for ContainTreasure */;

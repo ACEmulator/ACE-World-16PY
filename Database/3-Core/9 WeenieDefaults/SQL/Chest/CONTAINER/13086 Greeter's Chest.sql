@@ -12,7 +12,7 @@ VALUES (13086,   1,        512) /* ItemType - Container */
      , (13086,  81,          5) /* MaxGeneratedObjects */
      , (13086,  82,          5) /* InitGeneratedObjects */
      , (13086,  83,          2) /* ActivationResponse - Use */
-     , (13086,  93,       1048) /* PhysicsState */
+     , (13086,  93,       1048) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity */
      , (13086,  96,        500) /* EncumbranceCapacity */
      , (13086, 100,          1) /* GeneratorType - Relative */;
 
@@ -42,8 +42,8 @@ VALUES (13086,   1,   33554556) /* Setup */
      , (13086,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (13086, -1, 13236, 5, 1, 1, 2, 8, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0)
-     , (13086, -1, 13236, 5, 1, 1, 2, 8, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0)
-     , (13086, -1, 13236, 5, 1, 1, 2, 8, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0)
-     , (13086, -1, 13236, 5, 1, 1, 2, 8, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0)
-     , (13086, -1, 13236, 5, 1, 1, 2, 8, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0);
+VALUES (13086, -1, 13236, 5, 1, 1, 2, 8, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Application Form (13236) (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: Contain */
+     , (13086, -1, 13236, 5, 1, 1, 2, 8, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Application Form (13236) (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: Contain */
+     , (13086, -1, 13236, 5, 1, 1, 2, 8, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Application Form (13236) (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: Contain */
+     , (13086, -1, 13236, 5, 1, 1, 2, 8, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Application Form (13236) (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: Contain */
+     , (13086, -1, 13236, 5, 1, 1, 2, 8, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Application Form (13236) (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: Contain */;

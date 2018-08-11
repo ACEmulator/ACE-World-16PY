@@ -12,7 +12,7 @@ VALUES (22591,   1,         16) /* ItemType - Creature */
      , (22591,  27,          0) /* ArmorType */
      , (22591,  40,          2) /* CombatMode - Melee */
      , (22591,  68,          9) /* TargetingTactic */
-     , (22591,  93,       1032) /* PhysicsState */
+     , (22591,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (22591, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (22591, 146,       1847) /* XpOverride */;
 
@@ -66,7 +66,7 @@ VALUES (22591,   1,   33556836) /* Setup */
      , (22591,   7,  268436061) /* ClothingBase */
      , (22591,   8,  100667443) /* Icon */
      , (22591,  22,  872415271) /* PhysicsEffectTable */
-     , (22591,  35,        457) /* DeathTreasureType */;
+     , (22591,  35,        457) /* DeathTreasureType - Loot Tier: 2 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (22591,   1, 220, 0, 0) /* Strength */
@@ -170,7 +170,7 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 268435538 /* Twitch2 */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (22591, 9,     0,  0, 0, 0.99, False) /* Create Unknown for ContainTreasure */
-     , (22591, 8,    46,  0, 20, 0.2, False) /* Create Metal Cap for Treasure */
-     , (22591, 1, 22424,  1, 0, 0, False) /* Create Goldenback Tusker Tusk for Contain */
-     , (22591, 9, 22578,  0, 0, 0.01, False) /* Create Bunch of Nanners for ContainTreasure */;
+VALUES (22591, 9,     0,  0, 0, 0.99, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 2 for ContainTreasure */
+     , (22591, 8,    46,  0, 20, 0.2, False) /* Create Metal Cap (46) for Treasure */
+     , (22591, 1, 22424,  1, 0, 0, False) /* Create Goldenback Tusker Tusk (22424) for Contain */
+     , (22591, 9, 22578,  0, 0, 0.01, False) /* Create Bunch of Nanners (22578) for ContainTreasure */;

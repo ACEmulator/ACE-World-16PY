@@ -4,8 +4,8 @@ VALUES ('10853', 'portalharvesternamequest-xp', 7) /* Portal */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (10853,   1,      65536) /* ItemType - Portal */
      , (10853,  16,         32) /* ItemUseable - Remote */
-     , (10853,  93,       3084) /* PhysicsState */
-     , (10853, 111,         49) /* PortalBitmask */
+     , (10853,  93,       3084) /* PhysicsState - Ethereal, ReportCollisions, Gravity, LightingOn */
+     , (10853, 111,         49) /* PortalBitmask - Unrestricted, NoSummon, NoRecall */
      , (10853, 133,          4) /* ShowableOnRadar - ShowAlways */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)

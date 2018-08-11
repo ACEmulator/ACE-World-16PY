@@ -11,7 +11,7 @@ VALUES (9382,   1,         16) /* ItemType - Creature */
      , (9382,  25,         69) /* Level */
      , (9382,  27,          0) /* ArmorType */
      , (9382,  68,          3) /* TargetingTactic */
-     , (9382,  93,       1032) /* PhysicsState */
+     , (9382,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (9382, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (9382, 140,          1) /* AiOptions */
      , (9382, 146,          0) /* XpOverride */;
@@ -69,7 +69,7 @@ VALUES (9382,   1,   33554497) /* Setup */
      , (9382,   7,  268435649) /* ClothingBase */
      , (9382,   8,  100667943) /* Icon */
      , (9382,  22,  872415273) /* PhysicsEffectTable */
-     , (9382,  35,        243) /* DeathTreasureType */;
+     , (9382,  35,        243) /* DeathTreasureType - Loot Tier: 4 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (9382,   1,  30, 0, 0) /* Strength */
@@ -196,4 +196,4 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 268435539 /* Twitch3 */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (9382, 1,  8810,  0, 0, 1, False) /* Create Geraux's Life Magic Scroll for Contain */;
+VALUES (9382, 1,  8810,  0, 0, 1, False) /* Create Geraux's Life Magic Scroll (8810) for Contain */;

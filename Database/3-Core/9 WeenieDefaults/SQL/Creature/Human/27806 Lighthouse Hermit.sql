@@ -10,7 +10,7 @@ VALUES (27806,   1,         16) /* ItemType - Creature */
      , (27806,  16,         32) /* ItemUseable - Remote */
      , (27806,  25,        101) /* Level */
      , (27806,  27,          0) /* ArmorType */
-     , (27806,  93,    6292504) /* PhysicsState */
+     , (27806,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (27806,  95,          8) /* RadarBlipColor - Yellow */
      , (27806, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (27806, 134,         16) /* PlayerKillerStatus - RubberGlue */
@@ -365,7 +365,7 @@ VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 1090519043 /* Ready */, NULL, NU
      , (@parent_id, 13,   5 /* Motion */, 1, 1, 1090519043 /* Ready */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (27806, 2,    57,  1, 13, 0.66, False) /* Create Platemail Gauntlets for Wield */
-     , (27806, 2,   312,  1, 82, 0, False) /* Create Light Crossbow for Wield */
-     , (27806, 2,  3715,  1, 0, 0, False) /* Create Olthoi Helm for Wield */
-     , (27806, 2,  5893,  1, 0, 0, False) /* Create Hoary Mattekar Robe for Wield */;
+VALUES (27806, 2,    57,  1, 13, 0.66, False) /* Create Platemail Gauntlets (57) for Wield */
+     , (27806, 2,   312,  1, 82, 0, False) /* Create Light Crossbow (312) for Wield */
+     , (27806, 2,  3715,  1, 0, 0, False) /* Create Olthoi Helm (3715) for Wield */
+     , (27806, 2,  5893,  1, 0, 0, False) /* Create Hoary Mattekar Robe (5893) for Wield */;

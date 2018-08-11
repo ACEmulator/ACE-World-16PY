@@ -10,10 +10,10 @@ VALUES (401,   1,         16) /* ItemType - Creature */
      , (401,  16,         32) /* ItemUseable - Remote */
      , (401,  25,          7) /* Level */
      , (401,  27,          0) /* ArmorType */
-     , (401,  74,        259) /* MerchandiseItemTypes */
+     , (401,  74,        259) /* MerchandiseItemTypes - Armor, Weapon */
      , (401,  75,          0) /* MerchandiseMinValue */
      , (401,  76,     100000) /* MerchandiseMaxValue */
-     , (401,  93,    2098200) /* PhysicsState */
+     , (401,  93,    2098200) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */
      , (401, 126,       2000) /* VendorHappyMean */
      , (401, 127,       1000) /* VendorHappyVariance */
      , (401, 133,          4) /* ShowableOnRadar - ShowAlways */
@@ -162,32 +162,32 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 318767235 /* Nod */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (401, 4,    37, -1, 0, 0, False) /* Create Scalemail Bracers for Shop */
-     , (401, 4,    41, -1, 0, 0, False) /* Create Scalemail Breastplate for Shop */
-     , (401, 4,    44, -1, 0, 0, False) /* Create Buckler for Shop */
-     , (401, 4,    45, -1, 0, 0, False) /* Create Leather Cap for Shop */
-     , (401, 4,    83, -1, 0, 0, False) /* Create Scalemail Leggings for Shop */
-     , (401, 4,    93, -1, 0, 0, False) /* Create Round Shield for Shop */
-     , (401, 4,    94, -1, 0, 0, False) /* Create Large Round Shield for Shop */
-     , (401, 2,   115,  0, 4, 0.8, False) /* Create Leather Boots for Wield */
-     , (401, 2,   127,  0, 8, 0.8, False) /* Create Pants for Wield */
-     , (401, 2,   130,  0, 8, 0.2, False) /* Create Shirt for Wield */
-     , (401, 4,   308, -1, 0, 0, False) /* Create Budiaq for Shop */
-     , (401, 2,   313,  0, 0, 0, False) /* Create Dabus for Wield */
-     , (401, 4,   313, -1, 0, 0, False) /* Create Dabus for Shop */
-     , (401, 4,   317, -1, 0, 0, False) /* Create Djarid for Shop */
-     , (401, 4,   319, -1, 0, 0, False) /* Create Jambiya for Shop */
-     , (401, 4,   324, -1, 0, 0, False) /* Create Kaskara for Shop */
-     , (401, 4,   325, -1, 0, 0, False) /* Create Kasrullah for Shop */
-     , (401, 4,   326, -1, 0, 0, False) /* Create Katar for Shop */
-     , (401, 4,   328, -1, 0, 0, False) /* Create Khanjar for Shop */
-     , (401, 4,   334, -1, 0, 0, False) /* Create Nayin for Shop */
-     , (401, 4,   339, -1, 0, 0, False) /* Create Scimitar for Shop */
-     , (401, 4,   340, -1, 0, 0, False) /* Create Shamshir for Shop */
-     , (401, 4,   344, -1, 0, 0, False) /* Create Silifi for Shop */
-     , (401, 4,   345, -1, 0, 0, False) /* Create Simi for Shop */
-     , (401, 4,   354, -1, 0, 0, False) /* Create Takuba for Shop */
-     , (401, 4,   357, -1, 0, 0, False) /* Create Tungi for Shop */
-     , (401, 4,   360,  5, 0, 0, False) /* Create Yag for Shop */
-     , (401, 2, 10696,  0, 9, 0, False) /* Create Apron for Wield */
-     , (401, 4, 22163, -1, 0, 0, False) /* Create Nabut for Shop */;
+VALUES (401, 4,    37, -1, 0, 0, False) /* Create Scalemail Bracers (37) for Shop */
+     , (401, 4,    41, -1, 0, 0, False) /* Create Scalemail Breastplate (41) for Shop */
+     , (401, 4,    44, -1, 0, 0, False) /* Create Buckler (44) for Shop */
+     , (401, 4,    45, -1, 0, 0, False) /* Create Leather Cap (45) for Shop */
+     , (401, 4,    83, -1, 0, 0, False) /* Create Scalemail Leggings (83) for Shop */
+     , (401, 4,    93, -1, 0, 0, False) /* Create Round Shield (93) for Shop */
+     , (401, 4,    94, -1, 0, 0, False) /* Create Large Round Shield (94) for Shop */
+     , (401, 2,   115,  0, 4, 0.8, False) /* Create Leather Boots (115) for Wield */
+     , (401, 2,   127,  0, 8, 0.8, False) /* Create Pants (127) for Wield */
+     , (401, 2,   130,  0, 8, 0.2, False) /* Create Shirt (130) for Wield */
+     , (401, 4,   308, -1, 0, 0, False) /* Create Budiaq (308) for Shop */
+     , (401, 2,   313,  0, 0, 0, False) /* Create Dabus (313) for Wield */
+     , (401, 4,   313, -1, 0, 0, False) /* Create Dabus (313) for Shop */
+     , (401, 4,   317, -1, 0, 0, False) /* Create Djarid (317) for Shop */
+     , (401, 4,   319, -1, 0, 0, False) /* Create Jambiya (319) for Shop */
+     , (401, 4,   324, -1, 0, 0, False) /* Create Kaskara (324) for Shop */
+     , (401, 4,   325, -1, 0, 0, False) /* Create Kasrullah (325) for Shop */
+     , (401, 4,   326, -1, 0, 0, False) /* Create Katar (326) for Shop */
+     , (401, 4,   328, -1, 0, 0, False) /* Create Khanjar (328) for Shop */
+     , (401, 4,   334, -1, 0, 0, False) /* Create Nayin (334) for Shop */
+     , (401, 4,   339, -1, 0, 0, False) /* Create Scimitar (339) for Shop */
+     , (401, 4,   340, -1, 0, 0, False) /* Create Shamshir (340) for Shop */
+     , (401, 4,   344, -1, 0, 0, False) /* Create Silifi (344) for Shop */
+     , (401, 4,   345, -1, 0, 0, False) /* Create Simi (345) for Shop */
+     , (401, 4,   354, -1, 0, 0, False) /* Create Takuba (354) for Shop */
+     , (401, 4,   357, -1, 0, 0, False) /* Create Tungi (357) for Shop */
+     , (401, 4,   360,  5, 0, 0, False) /* Create Yag (360) for Shop */
+     , (401, 2, 10696,  0, 9, 0, False) /* Create Apron (10696) for Wield */
+     , (401, 4, 22163, -1, 0, 0, False) /* Create Nabut (22163) for Shop */;

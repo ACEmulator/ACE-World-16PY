@@ -13,7 +13,7 @@ VALUES (14433,   1,        512) /* ItemType - Container */
      , (14433,  81,          1) /* MaxGeneratedObjects */
      , (14433,  82,          1) /* InitGeneratedObjects */
      , (14433,  83,       4096) /* ActivationResponse - CastSpell */
-     , (14433,  93,       1048) /* PhysicsState */
+     , (14433,  93,       1048) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity */
      , (14433,  96,        500) /* EncumbranceCapacity */
      , (14433, 100,          1) /* GeneratorType - Relative */
      , (14433, 119,      65535) /* Active */;
@@ -50,4 +50,4 @@ VALUES (14433,   1,   33554556) /* Setup */
      , (14433,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (14433, -1, 14424, 15, 1, 1, 2, 8, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0);
+VALUES (14433, -1, 14424, 15, 1, 1, 2, 8, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Glass Spherule (14424) (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: Contain */;

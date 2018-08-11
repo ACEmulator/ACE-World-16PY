@@ -15,7 +15,7 @@ VALUES (260,   1,         32) /* ItemType - Food */
      , (260,  19,         12) /* Value */
      , (260,  89,          4) /* BoosterEnum - Stamina */
      , (260,  90,          6) /* BoostValue */
-     , (260,  93,       1044) /* PhysicsState */;
+     , (260,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (260,   1, 'Cabbage') /* Name */

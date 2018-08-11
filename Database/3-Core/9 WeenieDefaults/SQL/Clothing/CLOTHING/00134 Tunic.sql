@@ -4,15 +4,15 @@ VALUES ('134', 'tunic', 2) /* Clothing */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (134,   1,          4) /* ItemType - Clothing */
      , (134,   3,          8) /* PaletteTemplate - Green */
-     , (134,   4,         56) /* ClothingPriority */
+     , (134,   4,         56) /* ClothingPriority - UnderwearChest, UnderwearAbdomen, UnderwearUpperArms */
      , (134,   5,         57) /* EncumbranceVal */
      , (134,   8,         38) /* Mass */
-     , (134,   9,         14) /* ValidLocations */
+     , (134,   9,         14) /* ValidLocations - ChestWear, AbdomenWear, UpperArmWear */
      , (134,  16,          1) /* ItemUseable - No */
      , (134,  19,         12) /* Value */
      , (134,  27,          1) /* ArmorType */
      , (134,  28,          0) /* ArmorLevel */
-     , (134,  93,       1044) /* PhysicsState */
+     , (134,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (134, 169,  201328144) /* TsysMutationData */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)

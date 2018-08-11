@@ -4,7 +4,7 @@ VALUES ('245', 'greatmachine', 17) /* Machine */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (245,   1,        128) /* ItemType - Misc */
      , (245,  16,         32) /* ItemUseable - Remote */
-     , (245,  93,       1048) /* PhysicsState */;
+     , (245,  93,       1048) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (245,   1, True ) /* Stuck */

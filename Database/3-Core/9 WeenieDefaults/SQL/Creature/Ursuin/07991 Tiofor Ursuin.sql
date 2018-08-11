@@ -14,8 +14,8 @@ VALUES (7991,   1,         16) /* ItemType - Creature */
      , (7991,  68,          9) /* TargetingTactic */
      , (7991,  81,          3) /* MaxGeneratedObjects */
      , (7991,  82,          3) /* InitGeneratedObjects */
-     , (7991,  93,       1032) /* PhysicsState */
-     , (7991, 101,        131) /* AiAllowedCombatStyle */
+     , (7991,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
+     , (7991, 101,        131) /* AiAllowedCombatStyle - Unarmed, OneHanded, ThrownWeapon */
      , (7991, 103,          1) /* GeneratorDestructionType - Nothing */
      , (7991, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (7991, 140,          1) /* AiOptions */
@@ -74,7 +74,7 @@ VALUES (7991,   1,   33556773) /* Setup */
      , (7991,   7,  268436040) /* ClothingBase */
      , (7991,   8,  100670959) /* Icon */
      , (7991,  22,  872415366) /* PhysicsEffectTable */
-     , (7991,  35,        459) /* DeathTreasureType */;
+     , (7991,  35,        459) /* DeathTreasureType - Loot Tier: 1 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (7991,   1, 135, 0, 0) /* Strength */
@@ -138,5 +138,5 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 268435537 /* Twitch1 */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (7991, 9,     0,  0, 0, 0.97, False) /* Create Unknown for ContainTreasure */
-     , (7991, 9,  8674,  0, 0, 0.03, False) /* Create Small Ursuin Hide for ContainTreasure */;
+VALUES (7991, 9,     0,  0, 0, 0.97, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 1 for ContainTreasure */
+     , (7991, 9,  8674,  0, 0, 0.03, False) /* Create Small Ursuin Hide (8674) for ContainTreasure */;

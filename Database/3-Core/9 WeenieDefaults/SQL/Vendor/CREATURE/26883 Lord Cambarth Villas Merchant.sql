@@ -10,10 +10,10 @@ VALUES (26883,   1,         16) /* ItemType - Creature */
      , (26883,  16,         32) /* ItemUseable - Remote */
      , (26883,  25,         10) /* Level */
      , (26883,  27,          0) /* ArmorType */
-     , (26883,  74,     264192) /* MerchandiseItemTypes */
+     , (26883,  74,     264192) /* MerchandiseItemTypes - Gem, PromissoryNote */
      , (26883,  75,          0) /* MerchandiseMinValue */
      , (26883,  76,    1000000) /* MerchandiseMaxValue */
-     , (26883,  93,    2098204) /* PhysicsState */
+     , (26883,  93,    2098204) /* PhysicsState - Ethereal, ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */
      , (26883, 126,        125) /* VendorHappyMean */
      , (26883, 127,        125) /* VendorHappyVariance */
      , (26883, 133,          4) /* ShowableOnRadar - ShowAlways */
@@ -97,4 +97,4 @@ VALUES (26883,  0,  4,  0,    0,    0,    0,    0,    0,    0,    0,    0,    0,
      , (26883,  8,  4,  2, 0.75,    0,    0,    0,    0,    0,    0,    0,    0,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (26883, 4, 26248, -1, 0, 0, False) /* Create Lord Cambarth Villas Portal Gem for Shop */;
+VALUES (26883, 4, 26248, -1, 0, 0, False) /* Create Lord Cambarth Villas Portal Gem (26248) for Shop */;

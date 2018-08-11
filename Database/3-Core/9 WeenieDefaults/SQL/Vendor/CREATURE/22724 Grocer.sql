@@ -13,7 +13,7 @@ VALUES (22724,   1,         16) /* ItemType - Creature */
      , (22724,  74,    4481568) /* MerchandiseItemTypes - VendorGrocer */
      , (22724,  75,          0) /* MerchandiseMinValue */
      , (22724,  76,     100000) /* MerchandiseMaxValue */
-     , (22724,  93,    2098200) /* PhysicsState */
+     , (22724,  93,    2098200) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */
      , (22724, 126,      20000) /* VendorHappyMean */
      , (22724, 127,      19000) /* VendorHappyVariance */
      , (22724, 133,          4) /* ShowableOnRadar - ShowAlways */
@@ -131,18 +131,18 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,  10 /* Tell */, 0, 1, NULL, 'Ooo oo ah.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (22724, 4,   166, -1, 77, 1, False) /* Create Sack for Shop */
-     , (22724, 4,   262, -1, 0, 0, False) /* Create Chicken for Shop */
-     , (22724, 4,   264, -1, 0, 0, False) /* Create Grapes for Shop */
-     , (22724, 4,   512, -1, 0, 0, False) /* Create Good Lockpick for Shop */
-     , (22724, 4,   513, -1, 0, 0, False) /* Create Plain Lockpick for Shop */
-     , (22724, 4,   545, -1, 0, 0, False) /* Create Reliable Lockpick for Shop */
-     , (22724, 4,  4746, -1, 0, 0, False) /* Create Water for Shop */
-     , (22724, 4,  4753, -1, 0, 0, False) /* Create Side of Beef for Shop */
-     , (22724, 4,  4757, -1, 0, 0, False) /* Create Carving Knife for Shop */
-     , (22724, 4,  9295, -1, 0, 0, False) /* Create Intricate Carving Tool for Shop */
-     , (22724, 2, 10757,  0, 8, 0.5, False) /* Create Towel for Wield */
-     , (22724, 4, 20646, -1, 0, 0, False) /* Create Ust for Shop */
-     , (22724, 4, 21093, -1, 0, 0, False) /* Create Tinkering for Shop */
-     , (22724, 4, 23044, -1, 0, 0, False) /* Create On the Abilities of Salvaged Ivory for Shop */
-     , (22724, 4, 23204, -1, 0, 0, False) /* Create Carving Keys and Keyrings for Shop */;
+VALUES (22724, 4,   166, -1, 77, 1, False) /* Create Sack (166) for Shop */
+     , (22724, 4,   262, -1, 0, 0, False) /* Create Chicken (262) for Shop */
+     , (22724, 4,   264, -1, 0, 0, False) /* Create Grapes (264) for Shop */
+     , (22724, 4,   512, -1, 0, 0, False) /* Create Good Lockpick (512) for Shop */
+     , (22724, 4,   513, -1, 0, 0, False) /* Create Plain Lockpick (513) for Shop */
+     , (22724, 4,   545, -1, 0, 0, False) /* Create Reliable Lockpick (545) for Shop */
+     , (22724, 4,  4746, -1, 0, 0, False) /* Create Water (4746) for Shop */
+     , (22724, 4,  4753, -1, 0, 0, False) /* Create Side of Beef (4753) for Shop */
+     , (22724, 4,  4757, -1, 0, 0, False) /* Create Carving Knife (4757) for Shop */
+     , (22724, 4,  9295, -1, 0, 0, False) /* Create Intricate Carving Tool (9295) for Shop */
+     , (22724, 2, 10757,  0, 8, 0.5, False) /* Create Towel (10757) for Wield */
+     , (22724, 4, 20646, -1, 0, 0, False) /* Create Ust (20646) for Shop */
+     , (22724, 4, 21093, -1, 0, 0, False) /* Create Tinkering (21093) for Shop */
+     , (22724, 4, 23044, -1, 0, 0, False) /* Create On the Abilities of Salvaged Ivory (23044) for Shop */
+     , (22724, 4, 23204, -1, 0, 0, False) /* Create Carving Keys and Keyrings (23204) for Shop */;

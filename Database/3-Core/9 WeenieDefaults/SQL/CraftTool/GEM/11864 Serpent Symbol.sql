@@ -13,8 +13,8 @@ VALUES (11864,   1,       2048) /* ItemType - Gem */
      , (11864,  15,          0) /* StackUnitValue */
      , (11864,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
      , (11864,  19,          0) /* Value */
-     , (11864,  93,       1044) /* PhysicsState */
-     , (11864,  94,        128) /* TargetType - Misc */
+     , (11864,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (11864,  94,        128) /* TargetType - 128 */
      , (11864, 150,        103) /* HookPlacement - Hook */
      , (11864, 151,          2) /* HookType - Wall */;
 

@@ -11,7 +11,7 @@ VALUES (5181,   1,       1024) /* ItemType - Useless */
      , (5181,  18,         16) /* UiEffects - BoostStamina */
      , (5181,  19,          0) /* Value */
      , (5181,  33,          1) /* Bonded - Bonded */
-     , (5181,  93,       3092) /* PhysicsState */
+     , (5181,  93,       3092) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, LightingOn */
      , (5181, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)

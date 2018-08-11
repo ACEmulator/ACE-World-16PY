@@ -13,7 +13,7 @@ VALUES (6040,   1,         16) /* ItemType - Creature */
      , (6040,  40,          2) /* CombatMode - Melee */
      , (6040,  68,          5) /* TargetingTactic */
      , (6040,  69,          4) /* CombatTactic */
-     , (6040,  93,       3080) /* PhysicsState */
+     , (6040,  93,       3080) /* PhysicsState - ReportCollisions, Gravity, LightingOn */
      , (6040, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (6040, 146,       4000) /* XpOverride */;
 
@@ -73,7 +73,7 @@ VALUES (6040,   1,   33556241) /* Setup */
      , (6040,   7,  268435870) /* ClothingBase */
      , (6040,   8,  100670396) /* Icon */
      , (6040,  22,  872415348) /* PhysicsEffectTable */
-     , (6040,  35,        463) /* DeathTreasureType */;
+     , (6040,  35,        463) /* DeathTreasureType - Loot Tier: 2 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (6040,   1,  90, 0, 0) /* Strength */
@@ -129,7 +129,7 @@ VALUES (6040,  94) /* ATTACK_NOTIFICATION_EVENT */
      , (6040, 414) /* PLAYER_DEATH_EVENT */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (6040, 9,     0,  0, 0, 0.98, False) /* Create Unknown for ContainTreasure */
-     , (6040, 9,     0,  0, 0, 0.98, False) /* Create Unknown for ContainTreasure */
-     , (6040, 9,  6055,  0, 0, 0.02, False) /* Create Cracked Shard for ContainTreasure */
-     , (6040, 9,  6057,  0, 0, 0.02, False) /* Create Tiny Shard for ContainTreasure */;
+VALUES (6040, 9,     0,  0, 0, 0.98, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 2 for ContainTreasure */
+     , (6040, 9,     0,  0, 0, 0.98, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 2 for ContainTreasure */
+     , (6040, 9,  6055,  0, 0, 0.02, False) /* Create Cracked Shard (6055) for ContainTreasure */
+     , (6040, 9,  6057,  0, 0, 0.02, False) /* Create Tiny Shard (6057) for ContainTreasure */;

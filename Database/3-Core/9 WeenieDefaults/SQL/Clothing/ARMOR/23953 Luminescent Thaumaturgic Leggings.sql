@@ -4,17 +4,17 @@ VALUES ('23953', 'leggingslumingreen', 2) /* Clothing */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (23953,   1,          2) /* ItemType - Armor */
      , (23953,   3,          8) /* PaletteTemplate - Green */
-     , (23953,   4,        768) /* ClothingPriority */
+     , (23953,   4,        768) /* ClothingPriority - OuterwearUpperLegs, OuterwearLowerLegs */
      , (23953,   5,        250) /* EncumbranceVal */
      , (23953,   8,        500) /* Mass */
-     , (23953,   9,      24576) /* ValidLocations */
+     , (23953,   9,      24576) /* ValidLocations - UpperLegArmor, LowerLegArmor */
      , (23953,  16,          1) /* ItemUseable - No */
      , (23953,  18,          1) /* UiEffects - Magical */
      , (23953,  19,       6800) /* Value */
      , (23953,  27,         32) /* ArmorType */
      , (23953,  28,        200) /* ArmorLevel */
      , (23953,  36,       9999) /* ResistMagic */
-     , (23953,  93,       1044) /* PhysicsState */
+     , (23953,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (23953, 106,        300) /* ItemSpellcraft */
      , (23953, 107,       4000) /* ItemCurMana */
      , (23953, 108,       4000) /* ItemMaxMana */

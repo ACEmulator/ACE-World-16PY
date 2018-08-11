@@ -14,7 +14,7 @@ VALUES (22728,   1,    4194304) /* ItemType - CraftCookingBase */
      , (22728,  15,          7) /* StackUnitValue */
      , (22728,  16,          1) /* ItemUseable - No */
      , (22728,  19,          7) /* Value */
-     , (22728,  93,       1044) /* PhysicsState */
+     , (22728,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (22728, 150,        103) /* HookPlacement - Hook */
      , (22728, 151,          2) /* HookType - Wall */;
 

@@ -13,8 +13,8 @@ VALUES (8596,   1,         16) /* ItemType - Creature */
      , (8596,  40,          1) /* CombatMode - NonCombat */
      , (8596,  67,         64) /* Tolerance */
      , (8596,  68,         13) /* TargetingTactic */
-     , (8596,  93,       1032) /* PhysicsState */
-     , (8596, 101,        183) /* AiAllowedCombatStyle */
+     , (8596,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
+     , (8596, 101,        183) /* AiAllowedCombatStyle - Unarmed, OneHanded, OneHandedAndShield, Bow, Crossbow, ThrownWeapon */
      , (8596, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (8596, 140,          1) /* AiOptions */
      , (8596, 146,          0) /* XpOverride */;
@@ -173,6 +173,6 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 1124073753, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (8596, 9,     0,  0, 0, 0.97, False) /* Create Unknown for ContainTreasure */
-     , (8596, 9,  7045,  0, 0, 0.03, False) /* Create Dark Revenant Thighbone for ContainTreasure */
-     , (8596, 1,  8521,  0, 0, 1, False) /* Create Snapped Silver Key for Contain */;
+VALUES (8596, 9,     0,  0, 0, 0.97, False) /* Create UNKNOWN RANDOMLY GENERATED TREASURE for ContainTreasure */
+     , (8596, 9,  7045,  0, 0, 0.03, False) /* Create Dark Revenant Thighbone (7045) for ContainTreasure */
+     , (8596, 1,  8521,  0, 0, 1, False) /* Create Snapped Silver Key (8521) for Contain */;

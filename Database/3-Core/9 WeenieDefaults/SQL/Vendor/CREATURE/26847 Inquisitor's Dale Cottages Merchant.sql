@@ -10,10 +10,10 @@ VALUES (26847,   1,         16) /* ItemType - Creature */
      , (26847,  16,         32) /* ItemUseable - Remote */
      , (26847,  25,         10) /* Level */
      , (26847,  27,          0) /* ArmorType */
-     , (26847,  74,     264192) /* MerchandiseItemTypes */
+     , (26847,  74,     264192) /* MerchandiseItemTypes - Gem, PromissoryNote */
      , (26847,  75,          0) /* MerchandiseMinValue */
      , (26847,  76,    1000000) /* MerchandiseMaxValue */
-     , (26847,  93,    2098204) /* PhysicsState */
+     , (26847,  93,    2098204) /* PhysicsState - Ethereal, ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */
      , (26847, 126,        125) /* VendorHappyMean */
      , (26847, 127,        125) /* VendorHappyVariance */
      , (26847, 133,          4) /* ShowableOnRadar - ShowAlways */
@@ -97,4 +97,4 @@ VALUES (26847,  0,  4,  0,    0,    0,    0,    0,    0,    0,    0,    0,    0,
      , (26847,  8,  4,  2, 0.75,    0,    0,    0,    0,    0,    0,    0,    0,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (26847, 4, 26212, -1, 0, 0, False) /* Create Inquisitor's Dale Cottages Portal Gem for Shop */;
+VALUES (26847, 4, 26212, -1, 0, 0, False) /* Create Inquisitor's Dale Cottages Portal Gem (26212) for Shop */;

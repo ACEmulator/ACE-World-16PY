@@ -13,7 +13,7 @@ VALUES (8035,   1,         16) /* ItemType - Creature */
      , (8035,  40,          2) /* CombatMode - Melee */
      , (8035,  68,          5) /* TargetingTactic */
      , (8035,  69,          4) /* CombatTactic */
-     , (8035,  93,       3080) /* PhysicsState */
+     , (8035,  93,       3080) /* PhysicsState - ReportCollisions, Gravity, LightingOn */
      , (8035, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (8035, 146,       2500) /* XpOverride */;
 
@@ -72,7 +72,7 @@ VALUES (8035,   1,   33556732) /* Setup */
      , (8035,   7,  268435859) /* ClothingBase */
      , (8035,   8,  100670283) /* Icon */
      , (8035,  22,  872415347) /* PhysicsEffectTable */
-     , (8035,  35,        462) /* DeathTreasureType */;
+     , (8035,  35,        462) /* DeathTreasureType - Loot Tier: 3 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (8035,   1, 150, 0, 0) /* Strength */
@@ -134,4 +134,4 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,  16 /* WorldBroadcast */, 0, 1, NULL, '%s has shattered the Fenmalain Soul Crystal! The crystal''s released energy ripples across the landscape of Dereth, causing fluxes along the island''s ley lines!', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (8035, 8,  8114,  0, 0, 1, False) /* Create Fenmalain Soul Gem for Treasure */;
+VALUES (8035, 8,  8114,  0, 0, 1, False) /* Create Fenmalain Soul Gem (8114) for Treasure */;

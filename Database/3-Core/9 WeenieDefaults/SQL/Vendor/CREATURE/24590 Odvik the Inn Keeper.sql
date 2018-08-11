@@ -11,10 +11,10 @@ VALUES (24590,   1,         16) /* ItemType - Creature */
      , (24590,  16,         32) /* ItemUseable - Remote */
      , (24590,  25,         58) /* Level */
      , (24590,  27,          0) /* ArmorType */
-     , (24590,  74,     262176) /* MerchandiseItemTypes */
+     , (24590,  74,     262176) /* MerchandiseItemTypes - Food, PromissoryNote */
      , (24590,  75,          0) /* MerchandiseMinValue */
      , (24590,  76,     100000) /* MerchandiseMaxValue */
-     , (24590,  93,    2098200) /* PhysicsState */
+     , (24590,  93,    2098200) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */
      , (24590, 126,        250) /* VendorHappyMean */
      , (24590, 127,        250) /* VendorHappyVariance */
      , (24590, 133,          4) /* ShowableOnRadar - ShowAlways */
@@ -254,25 +254,25 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,  10 /* Tell */, 0, 1, NULL, 'I''m a bit short tempered when it comes to my height if you know what I mean. Look I don''t make twig-man jokes about you humans.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (24590, 4,  2453, -1, 0, 0, False) /* Create Cider for Shop */
-     , (24590, 4,  2462, -1, 0, 0, False) /* Create Mead for Shop */
-     , (24590, 4,  2469, -1, 0, 0, False) /* Create Small Beer for Shop */
-     , (24590, 4,  2471, -1, 0, 0, False) /* Create Stout for Shop */
-     , (24590, 4,  4731, -1, 0, 0, False) /* Create Fried Mushroom for Shop */
-     , (24590, 4,  4737, -1, 0, 0, False) /* Create Mushroom Pie for Shop */
-     , (24590, 4,  4739, -1, 0, 0, False) /* Create Pickled Egg for Shop */
-     , (24590, 4,  4740, -1, 0, 0, False) /* Create Pickled Fish for Shop */
-     , (24590, 4,  4746, -1, 0, 0, False) /* Create Water for Shop */
-     , (24590, 4,  5583, -1, 0, 0, False) /* Create Aluvian Cookbook for Shop */
-     , (24590, 4,  5586, -1, 0, 0, False) /* Create Alchemy Guide for Shop */
-     , (24590, 4,  5587, -1, 0, 0, False) /* Create Fletching Guide for Shop */
-     , (24590, 4,  5856, -1, 0, 0, False) /* Create Specialty Cookbook for Shop */
-     , (24590, 4,  7884, -1, 0, 0, False) /* Create Chocolate Cookbook for Shop */
-     , (24590, 4,  8378, -1, 0, 0, False) /* Create Beer Stein for Shop */
-     , (24590, 4, 14797, -1, 0, 0, False) /* Create Festival Cookbook for Shop */
-     , (24590, 4, 25983, -1, 0, 0, False) /* Create Sparring Pants for Shop */
-     , (24590, 4, 25984, -1, 0, 0, False) /* Create Sparring Shirt for Shop */
-     , (24590, 4, 28242, -1, 0, 0, False) /* Create Directions to the Lugian Citadels for Shop */
-     , (24590, 4, 30742, -1, 0, 0, False) /* Create The Littlest Niffis for Shop */
-     , (24590, 4, 30743, -1, 0, 0, False) /* Create Suzuhara Baijin's Delivery for Shop */
-     , (24590, 4, 30761, -1, 0, 0, False) /* Create The Withered Atoll for Shop */;
+VALUES (24590, 4,  2453, -1, 0, 0, False) /* Create Cider (2453) for Shop */
+     , (24590, 4,  2462, -1, 0, 0, False) /* Create Mead (2462) for Shop */
+     , (24590, 4,  2469, -1, 0, 0, False) /* Create Small Beer (2469) for Shop */
+     , (24590, 4,  2471, -1, 0, 0, False) /* Create Stout (2471) for Shop */
+     , (24590, 4,  4731, -1, 0, 0, False) /* Create Fried Mushroom (4731) for Shop */
+     , (24590, 4,  4737, -1, 0, 0, False) /* Create Mushroom Pie (4737) for Shop */
+     , (24590, 4,  4739, -1, 0, 0, False) /* Create Pickled Egg (4739) for Shop */
+     , (24590, 4,  4740, -1, 0, 0, False) /* Create Pickled Fish (4740) for Shop */
+     , (24590, 4,  4746, -1, 0, 0, False) /* Create Water (4746) for Shop */
+     , (24590, 4,  5583, -1, 0, 0, False) /* Create Aluvian Cookbook (5583) for Shop */
+     , (24590, 4,  5586, -1, 0, 0, False) /* Create Alchemy Guide (5586) for Shop */
+     , (24590, 4,  5587, -1, 0, 0, False) /* Create Fletching Guide (5587) for Shop */
+     , (24590, 4,  5856, -1, 0, 0, False) /* Create Specialty Cookbook (5856) for Shop */
+     , (24590, 4,  7884, -1, 0, 0, False) /* Create Chocolate Cookbook (7884) for Shop */
+     , (24590, 4,  8378, -1, 0, 0, False) /* Create Beer Stein (8378) for Shop */
+     , (24590, 4, 14797, -1, 0, 0, False) /* Create Festival Cookbook (14797) for Shop */
+     , (24590, 4, 25983, -1, 0, 0, False) /* Create Sparring Pants (25983) for Shop */
+     , (24590, 4, 25984, -1, 0, 0, False) /* Create Sparring Shirt (25984) for Shop */
+     , (24590, 4, 28242, -1, 0, 0, False) /* Create Directions to the Lugian Citadels (28242) for Shop */
+     , (24590, 4, 30742, -1, 0, 0, False) /* Create The Littlest Niffis (30742) for Shop */
+     , (24590, 4, 30743, -1, 0, 0, False) /* Create Suzuhara Baijin's Delivery (30743) for Shop */
+     , (24590, 4, 30761, -1, 0, 0, False) /* Create The Withered Atoll (30761) for Shop */;

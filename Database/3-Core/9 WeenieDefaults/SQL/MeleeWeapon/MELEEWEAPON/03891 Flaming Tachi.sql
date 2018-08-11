@@ -13,11 +13,11 @@ VALUES (3891,   1,          1) /* ItemType - MeleeWeapon */
      , (3891,  44,         10) /* Damage */
      , (3891,  45,         16) /* DamageType - Fire */
      , (3891,  46,          2) /* DefaultCombatStyle - OneHanded */
-     , (3891,  47,          6) /* AttackType */
+     , (3891,  47,          6) /* AttackType - Thrust, Slash */
      , (3891,  48,         11) /* WeaponSkill - Sword */
      , (3891,  49,         35) /* WeaponTime */
      , (3891,  51,          1) /* CombatUse - Melee */
-     , (3891,  93,       1044) /* PhysicsState */
+     , (3891,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (3891, 150,        103) /* HookPlacement - Hook */
      , (3891, 151,          2) /* HookType - Wall */
      , (3891, 169,  101254146) /* TsysMutationData */;

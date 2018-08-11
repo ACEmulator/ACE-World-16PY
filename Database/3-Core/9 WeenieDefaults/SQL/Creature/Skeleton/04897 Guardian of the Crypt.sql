@@ -11,8 +11,8 @@ VALUES (4897,   1,         16) /* ItemType - Creature */
      , (4897,  27,          0) /* ArmorType */
      , (4897,  40,          1) /* CombatMode - NonCombat */
      , (4897,  68,          5) /* TargetingTactic */
-     , (4897,  93,       1032) /* PhysicsState */
-     , (4897, 101,        183) /* AiAllowedCombatStyle */
+     , (4897,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
+     , (4897, 101,        183) /* AiAllowedCombatStyle - Unarmed, OneHanded, OneHandedAndShield, Bow, Crossbow, ThrownWeapon */
      , (4897, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (4897, 146,        752) /* XpOverride */;
 
@@ -63,7 +63,31 @@ VALUES (4897,   1,   33555465) /* Setup */
      , (4897,   4,  805306368) /* CombatTable */
      , (4897,   8,  100669124) /* Icon */
      , (4897,  22,  872415269) /* PhysicsEffectTable */
-     , (4897,  32,        185) /* WieldedTreasureType */
+     , (4897,  32,        185) /* WieldedTreasureType - 
+                                   Wield 6x Throwing Axe (304) | Probability: 10%
+                                   Wield Nayin (334) | Probability: 10%
+                                   Wield 20x Arrow (300) | Probability: 100%
+                                   Wield Longbow (306) | Probability: 10%
+                                   Wield 20x Arrow (300) | Probability: 100%
+                                   Wield Yumi (363) | Probability: 10%
+                                   Wield 14x Arrow (300) | Probability: 100%
+                                   Wield Heavy Crossbow (311) | Probability: 60%
+                                   Wield 15x Quarrel (305) | Probability: 100%
+                                   Wield Battle Axe (301) | Probability: 14%
+                                   Wield Broad Sword (350) | Probability: 7%
+                                   Wield Kaskara (324) | Probability: 6%
+                                   Wield Ken (327) | Probability: 6%
+                                   Wield Long Sword (351) | Probability: 6%
+                                   Wield Morning Star (332) | Probability: 10%
+                                   Wield Scimitar (339) | Probability: 6%
+                                   Wield Shamshir (340) | Probability: 6%
+                                   Wield Ono (336) | Probability: 13%
+                                   Wield Silifi (344) | Probability: 13%
+                                   Wield Tachi (353) | Probability: 6%
+                                   Wield Takuba (354) | Probability: 6%
+                                   Wield Large Kite Shield (92) | Probability: 30%
+                                   Wield Kite Shield (91) | Probability: 20%
+                                   Wield Large Round Shield (94) | Probability: 20% */
      , (4897,  35,        187) /* DeathTreasureType */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
@@ -118,7 +142,7 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 1090519060 /* Sleeping */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (4897, 9,     0,  0, 0, 0.9, False) /* Create Unknown for ContainTreasure */
-     , (4897, 9,     0,  0, 0, 0.98, False) /* Create Unknown for ContainTreasure */
-     , (4897, 9,  3687,  0, 0, 0.1, False) /* Create Skeleton's Skull for ContainTreasure */
-     , (4897, 9,  6876,  0, 0, 0.02, False) /* Create Sturdy Iron Key for ContainTreasure */;
+VALUES (4897, 9,     0,  0, 0, 0.9, False) /* Create UNKNOWN RANDOMLY GENERATED TREASURE for ContainTreasure */
+     , (4897, 9,     0,  0, 0, 0.98, False) /* Create UNKNOWN RANDOMLY GENERATED TREASURE for ContainTreasure */
+     , (4897, 9,  3687,  0, 0, 0.1, False) /* Create Skeleton's Skull (3687) for ContainTreasure */
+     , (4897, 9,  6876,  0, 0, 0.02, False) /* Create Sturdy Iron Key (6876) for ContainTreasure */;

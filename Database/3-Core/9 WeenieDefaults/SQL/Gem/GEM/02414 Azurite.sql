@@ -14,7 +14,7 @@ VALUES (2414,   1,       2048) /* ItemType - Gem */
      , (2414,  15,         10) /* StackUnitValue */
      , (2414,  16,          1) /* ItemUseable - No */
      , (2414,  19,         10) /* Value */
-     , (2414,  93,       1044) /* PhysicsState */
+     , (2414,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (2414, 131,         14) /* MaterialType - Azurite */
      , (2414, 169,   16777216) /* TsysMutationData */;
 

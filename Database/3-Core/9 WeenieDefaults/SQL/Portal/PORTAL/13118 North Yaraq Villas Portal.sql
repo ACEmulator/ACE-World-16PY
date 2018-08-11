@@ -4,7 +4,7 @@ VALUES ('13118', 'portalnorthyaraqvillas', 7) /* Portal */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (13118,   1,      65536) /* ItemType - Portal */
      , (13118,  16,         32) /* ItemUseable - Remote */
-     , (13118,  93,       3084) /* PhysicsState */
+     , (13118,  93,       3084) /* PhysicsState - Ethereal, ReportCollisions, Gravity, LightingOn */
      , (13118, 111,          1) /* PortalBitmask - Unrestricted */
      , (13118, 133,          4) /* ShowableOnRadar - ShowAlways */;
 

@@ -13,7 +13,7 @@ VALUES (30883,   1,         16) /* ItemType - Creature */
      , (30883,  40,          2) /* CombatMode - Melee */
      , (30883,  68,          9) /* TargetingTactic */
      , (30883,  72,         19) /* FriendType - Virindi */
-     , (30883,  93,       1032) /* PhysicsState */
+     , (30883,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (30883, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (30883, 146,      20429) /* XpOverride */;
 
@@ -67,7 +67,7 @@ VALUES (30883,   1,   33556836) /* Setup */
      , (30883,   7,  268436063) /* ClothingBase */
      , (30883,   8,  100667443) /* Icon */
      , (30883,  22,  872415271) /* PhysicsEffectTable */
-     , (30883,  35,        456) /* DeathTreasureType */;
+     , (30883,  35,        456) /* DeathTreasureType - Loot Tier: 3 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (30883,   1, 350, 0, 0) /* Strength */
@@ -171,8 +171,8 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 268435538 /* Twitch2 */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (30883, 9,     0,  0, 0, 0.95, False) /* Create Unknown for ContainTreasure */
-     , (30883, 9,     0,  0, 0, 0.99, False) /* Create Unknown for ContainTreasure */
-     , (30883, 9,  8147,  0, 0, 0.05, False) /* Create Tusker Head for ContainTreasure */
-     , (30883, 9, 22578,  0, 0, 0.01, False) /* Create Bunch of Nanners for ContainTreasure */
-     , (30883, 9, 30861,  0, 0, 1, False) /* Create Banished Point for ContainTreasure */;
+VALUES (30883, 9,     0,  0, 0, 0.95, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 3 for ContainTreasure */
+     , (30883, 9,     0,  0, 0, 0.99, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 3 for ContainTreasure */
+     , (30883, 9,  8147,  0, 0, 0.05, False) /* Create Tusker Head (8147) for ContainTreasure */
+     , (30883, 9, 22578,  0, 0, 0.01, False) /* Create Bunch of Nanners (22578) for ContainTreasure */
+     , (30883, 9, 30861,  0, 0, 1, False) /* Create Banished Point (30861) for ContainTreasure */;

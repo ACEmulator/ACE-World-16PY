@@ -10,7 +10,7 @@ VALUES (5365,   1,         16) /* ItemType - Creature */
      , (5365,  16,         32) /* ItemUseable - Remote */
      , (5365,  25,          4) /* Level */
      , (5365,  27,          0) /* ArmorType */
-     , (5365,  93,    6292504) /* PhysicsState */
+     , (5365,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (5365,  95,          8) /* RadarBlipColor - Yellow */
      , (5365, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (5365, 134,         16) /* PlayerKillerStatus - RubberGlue */
@@ -335,7 +335,7 @@ VALUES (@parent_id,  0,  12 /* TurnToTarget */, 0, 1, NULL, NULL, NULL, NULL, NU
      , (@parent_id,  1,  10 /* Tell */, 0, 1, NULL, 'Mara al-Luq is always talking about this type of thing. Why don''t you show this to her?', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (5365, 2,   124,  0, 10, 0.06, False) /* Create Jerkin for Wield */
-     , (5365, 2,   133,  0, 7, 0.8, False) /* Create Slippers for Wield */
-     , (5365, 2,   135,  0, 14, 0.8, False) /* Create Turban for Wield */
-     , (5365, 2,  2604,  0, 11, 1, False) /* Create Breeches for Wield */;
+VALUES (5365, 2,   124,  0, 10, 0.06, False) /* Create Jerkin (124) for Wield */
+     , (5365, 2,   133,  0, 7, 0.8, False) /* Create Slippers (133) for Wield */
+     , (5365, 2,   135,  0, 14, 0.8, False) /* Create Turban (135) for Wield */
+     , (5365, 2,  2604,  0, 11, 1, False) /* Create Breeches (2604) for Wield */;

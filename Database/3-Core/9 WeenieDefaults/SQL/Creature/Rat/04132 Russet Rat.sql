@@ -13,7 +13,7 @@ VALUES (4132,   1,         16) /* ItemType - Creature */
      , (4132,  40,          2) /* CombatMode - Melee */
      , (4132,  67,         64) /* Tolerance */
      , (4132,  68,          5) /* TargetingTactic */
-     , (4132,  93,       1032) /* PhysicsState */
+     , (4132,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (4132, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (4132, 146,         74) /* XpOverride */;
 
@@ -68,7 +68,7 @@ VALUES (4132,   1,   33554493) /* Setup */
      , (4132,   7,  268435555) /* ClothingBase */
      , (4132,   8,  100667451) /* Icon */
      , (4132,  22,  872415267) /* PhysicsEffectTable */
-     , (4132,  35,        459) /* DeathTreasureType */;
+     , (4132,  35,        459) /* DeathTreasureType - Loot Tier: 1 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (4132,   1,  15, 0, 0) /* Strength */
@@ -133,5 +133,5 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 268435538 /* Twitch2 */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (4132, 9,     0,  0, 0, 0.85, False) /* Create Unknown for ContainTreasure */
-     , (4132, 9,  4134,  0, 0, 0.15, False) /* Create Russet Rat Tail for ContainTreasure */;
+VALUES (4132, 9,     0,  0, 0, 0.85, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 1 for ContainTreasure */
+     , (4132, 9,  4134,  0, 0, 0.15, False) /* Create Russet Rat Tail (4134) for ContainTreasure */;

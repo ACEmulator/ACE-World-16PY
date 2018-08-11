@@ -12,8 +12,8 @@ VALUES (11513,   1,         16) /* ItemType - Creature */
      , (11513,  27,          0) /* ArmorType */
      , (11513,  67,         64) /* Tolerance */
      , (11513,  68,          5) /* TargetingTactic */
-     , (11513,  93,       1032) /* PhysicsState */
-     , (11513, 101,        183) /* AiAllowedCombatStyle */
+     , (11513,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
+     , (11513, 101,        183) /* AiAllowedCombatStyle - Unarmed, OneHanded, OneHandedAndShield, Bow, Crossbow, ThrownWeapon */
      , (11513, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (11513, 140,          1) /* AiOptions */
      , (11513, 146,      14207) /* XpOverride */;
@@ -72,8 +72,9 @@ VALUES (11513,   1,   33557175) /* Setup */
      , (11513,   7,  268436193) /* ClothingBase */
      , (11513,   8,  100671756) /* Icon */
      , (11513,  22,  872415270) /* PhysicsEffectTable */
-     , (11513,  32,        380) /* WieldedTreasureType */
-     , (11513,  35,        450) /* DeathTreasureType */;
+     , (11513,  32,        380) /* WieldedTreasureType - 
+                                   Wield Buadren (11971) | Probability: 100% */
+     , (11513,  35,        450) /* DeathTreasureType - Loot Tier: 3 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (11513,   1,  80, 0, 0) /* Strength */
@@ -157,6 +158,6 @@ VALUES (@parent_id,  0,   4 /* MoveHome */, 0, 1, NULL, NULL, NULL, NULL, NULL, 
      , (@parent_id,  2,   5 /* Motion */, 0, 1, 1124073752 /* SnowAngelState */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (11513, 9,     0,  0, 0, 0.98, False) /* Create Unknown for ContainTreasure */
-     , (11513, 9,  6876,  0, 0, 0.02, False) /* Create Sturdy Iron Key for ContainTreasure */
-     , (11513, 2, 11971,  0, 0, 1, False) /* Create Buadren for Wield */;
+VALUES (11513, 9,     0,  0, 0, 0.98, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 3 for ContainTreasure */
+     , (11513, 9,  6876,  0, 0, 0.02, False) /* Create Sturdy Iron Key (6876) for ContainTreasure */
+     , (11513, 2, 11971,  0, 0, 1, False) /* Create Buadren (11971) for Wield */;

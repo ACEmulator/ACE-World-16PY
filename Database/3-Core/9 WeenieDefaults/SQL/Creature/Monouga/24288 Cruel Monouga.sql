@@ -12,8 +12,8 @@ VALUES (24288,   1,         16) /* ItemType - Creature */
      , (24288,  27,          0) /* ArmorType */
      , (24288,  40,          2) /* CombatMode - Melee */
      , (24288,  68,          9) /* TargetingTactic */
-     , (24288,  93,    4195336) /* PhysicsState */
-     , (24288, 101,        131) /* AiAllowedCombatStyle */
+     , (24288,  93,    4195336) /* PhysicsState - ReportCollisions, Gravity, EdgeSlide */
+     , (24288, 101,        131) /* AiAllowedCombatStyle - Unarmed, OneHanded, ThrownWeapon */
      , (24288, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (24288, 140,          1) /* AiOptions */
      , (24288, 146,      14051) /* XpOverride */;
@@ -70,8 +70,10 @@ VALUES (24288,   1,   33555199) /* Setup */
      , (24288,   7,  268436620) /* ClothingBase */
      , (24288,   8,  100669117) /* Icon */
      , (24288,  22,  872415257) /* PhysicsEffectTable */
-     , (24288,  32,        271) /* WieldedTreasureType */
-     , (24288,  35,        450) /* DeathTreasureType */;
+     , (24288,  32,        271) /* WieldedTreasureType - 
+                                   Wield Club (23646) | Probability: 30%
+                                   Wield Club (23649) | Probability: 30% */
+     , (24288,  35,        450) /* DeathTreasureType - Loot Tier: 3 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (24288,   1, 220, 0, 0) /* Strength */
@@ -148,5 +150,5 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 268435538 /* Twitch2 */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (24288, 9,     0,  0, 0, 0.91, False) /* Create Unknown for ContainTreasure */
-     , (24288, 9, 12253,  0, 0, 0.09, False) /* Create Monougat for ContainTreasure */;
+VALUES (24288, 9,     0,  0, 0, 0.91, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 3 for ContainTreasure */
+     , (24288, 9, 12253,  0, 0, 0.09, False) /* Create Monougat (12253) for ContainTreasure */;

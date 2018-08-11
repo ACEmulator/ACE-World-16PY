@@ -11,8 +11,8 @@ VALUES (11889,   1,         16) /* ItemType - Creature */
      , (11889,  25,         53) /* Level */
      , (11889,  27,          0) /* ArmorType */
      , (11889,  68,          5) /* TargetingTactic */
-     , (11889,  93,       1032) /* PhysicsState */
-     , (11889, 101,        183) /* AiAllowedCombatStyle */
+     , (11889,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
+     , (11889, 101,        183) /* AiAllowedCombatStyle - Unarmed, OneHanded, OneHandedAndShield, Bow, Crossbow, ThrownWeapon */
      , (11889, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (11889, 140,          1) /* AiOptions */
      , (11889, 146,       8793) /* XpOverride */;
@@ -71,8 +71,10 @@ VALUES (11889,   1,   33554496) /* Setup */
      , (11889,   7,  268435647) /* ClothingBase */
      , (11889,   8,  100667452) /* Icon */
      , (11889,  22,  872415270) /* PhysicsEffectTable */
-     , (11889,  32,        370) /* WieldedTreasureType */
-     , (11889,  35,        451) /* DeathTreasureType */;
+     , (11889,  32,        370) /* WieldedTreasureType - 
+                                   Wield Hafted Serpent Spear (11755) | Probability: 80%
+                                   Wield Reinforced Serpent Spear (11781) | Probability: 20% */
+     , (11889,  35,        451) /* DeathTreasureType - Loot Tier: 2 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (11889,   1, 170, 0, 0) /* Strength */
@@ -144,5 +146,5 @@ VALUES (11889,  94) /* ATTACK_NOTIFICATION_EVENT */
      , (11889, 414) /* PLAYER_DEATH_EVENT */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (11889, 9,     0,  0, 0, 0.95, False) /* Create Unknown for ContainTreasure */
-     , (11889, 9, 11816,  0, 0, 0.05, False) /* Create Serpent Crest for ContainTreasure */;
+VALUES (11889, 9,     0,  0, 0, 0.95, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 2 for ContainTreasure */
+     , (11889, 9, 11816,  0, 0, 0.05, False) /* Create Serpent Crest (11816) for ContainTreasure */;

@@ -13,8 +13,8 @@ VALUES (10778,   1,         16) /* ItemType - Creature */
      , (10778,  40,          2) /* CombatMode - Melee */
      , (10778,  68,          9) /* TargetingTactic */
      , (10778,  72,         19) /* FriendType - Virindi */
-     , (10778,  93,       1032) /* PhysicsState */
-     , (10778, 101,        131) /* AiAllowedCombatStyle */
+     , (10778,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
+     , (10778, 101,        131) /* AiAllowedCombatStyle - Unarmed, OneHanded, ThrownWeapon */
      , (10778, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (10778, 140,          1) /* AiOptions */
      , (10778, 146,      56156) /* XpOverride */;
@@ -73,8 +73,11 @@ VALUES (10778,   1,   33556445) /* Setup */
      , (10778,   7,  268436614) /* ClothingBase */
      , (10778,   8,  100667445) /* Icon */
      , (10778,  22,  872415258) /* PhysicsEffectTable */
-     , (10778,  32,        297) /* WieldedTreasureType */
-     , (10778,  35,        452) /* DeathTreasureType */;
+     , (10778,  32,        297) /* WieldedTreasureType - 
+                                   Wield Tachi (23699) | Probability: 33%
+                                   Wield Yaoji (23709) | Probability: 33%
+                                   Wield Acid Yari (23721) | Probability: 34% */
+     , (10778,  35,        452) /* DeathTreasureType - Loot Tier: 5 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (10778,   1, 380, 0, 0) /* Strength */

@@ -18,7 +18,7 @@ VALUES (15888,   1,        256) /* ItemType - MissileWeapon */
      , (15888,  52,          2) /* ParentLocation */
      , (15888,  53,          3) /* PlacementPosition */
      , (15888,  60,        192) /* WeaponRange */
-     , (15888,  93,       1044) /* PhysicsState */
+     , (15888,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (15888, 150,        104) /* HookPlacement - XXXUnknown68 */
      , (15888, 151,          2) /* HookType - Wall */;
 

@@ -7,7 +7,7 @@ VALUES (10898,   1,        128) /* ItemType - Misc */
      , (10898,  81,          1) /* MaxGeneratedObjects */
      , (10898,  82,          0) /* InitGeneratedObjects */
      , (10898,  83,      65552) /* ActivationResponse */
-     , (10898,  93,         12) /* PhysicsState */
+     , (10898,  93,         12) /* PhysicsState - Ethereal, ReportCollisions */
      , (10898, 119,          1) /* Active */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
@@ -36,4 +36,4 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (10898,  16,          0) /* ActivationTarget */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (10898, -1, 10905, 120, 1, 1, 1, 4, -1, 0, 0, 0, 0, 3, 0, -4.371139E-08, 0, 0, -1);
+VALUES (10898, -1, 10905, 120, 1, 1, 1, 4, -1, 0, 0, 0, 0, 3, 0, -4.371139E-08, 0, 0, -1) /* Generate Olthoi Noble (10905) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */;

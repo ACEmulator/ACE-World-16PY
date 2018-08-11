@@ -13,10 +13,10 @@ VALUES (4751,   1,   67108864) /* ItemType - CraftAlchemyIntermediate */
      , (4751,  15,         10) /* StackUnitValue */
      , (4751,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
      , (4751,  19,         10) /* Value */
-     , (4751,  93,       1044) /* PhysicsState */
-     , (4751,  94,    4201088) /* TargetType */
+     , (4751,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (4751,  94,    4201088) /* TargetType - 4201088 */
      , (4751, 150,        103) /* HookPlacement - Hook */
-     , (4751, 151,          9) /* HookType */;
+     , (4751, 151,          9) /* HookType - Floor, Yard */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (4751,   1, 'Mortar and Pestle') /* Name */

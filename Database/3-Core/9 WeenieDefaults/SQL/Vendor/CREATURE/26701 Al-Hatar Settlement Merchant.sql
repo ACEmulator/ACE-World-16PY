@@ -10,10 +10,10 @@ VALUES (26701,   1,         16) /* ItemType - Creature */
      , (26701,  16,         32) /* ItemUseable - Remote */
      , (26701,  25,         10) /* Level */
      , (26701,  27,          0) /* ArmorType */
-     , (26701,  74,     264192) /* MerchandiseItemTypes */
+     , (26701,  74,     264192) /* MerchandiseItemTypes - Gem, PromissoryNote */
      , (26701,  75,          0) /* MerchandiseMinValue */
      , (26701,  76,    1000000) /* MerchandiseMaxValue */
-     , (26701,  93,    2098204) /* PhysicsState */
+     , (26701,  93,    2098204) /* PhysicsState - Ethereal, ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */
      , (26701, 126,        125) /* VendorHappyMean */
      , (26701, 127,        125) /* VendorHappyVariance */
      , (26701, 133,          4) /* ShowableOnRadar - ShowAlways */
@@ -97,4 +97,4 @@ VALUES (26701,  0,  4,  0,    0,    0,    0,    0,    0,    0,    0,    0,    0,
      , (26701,  8,  4,  2, 0.75,    0,    0,    0,    0,    0,    0,    0,    0,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (26701, 4, 26066, -1, 0, 0, False) /* Create Al-Hatar Settlement Portal Gem for Shop */;
+VALUES (26701, 4, 26066, -1, 0, 0, False) /* Create Al-Hatar Settlement Portal Gem (26066) for Shop */;

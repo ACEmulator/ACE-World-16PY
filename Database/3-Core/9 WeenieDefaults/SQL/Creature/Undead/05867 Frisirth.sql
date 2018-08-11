@@ -14,8 +14,8 @@ VALUES (5867,   1,         16) /* ItemType - Creature */
      , (5867,  68,          3) /* TargetingTactic */
      , (5867,  81,          1) /* MaxGeneratedObjects */
      , (5867,  82,          1) /* InitGeneratedObjects */
-     , (5867,  93,       1032) /* PhysicsState */
-     , (5867, 101,        183) /* AiAllowedCombatStyle */
+     , (5867,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
+     , (5867, 101,        183) /* AiAllowedCombatStyle - Unarmed, OneHanded, OneHandedAndShield, Bow, Crossbow, ThrownWeapon */
      , (5867, 103,          3) /* GeneratorDestructionType - Kill */
      , (5867, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (5867, 140,          1) /* AiOptions */
@@ -76,8 +76,13 @@ VALUES (5867,   1,   33554839) /* Setup */
      , (5867,   7,  268435558) /* ClothingBase */
      , (5867,   8,  100667942) /* Icon */
      , (5867,  22,  872415272) /* PhysicsEffectTable */
-     , (5867,  32,        250) /* WieldedTreasureType */
-     , (5867,  35,        235) /* DeathTreasureType */;
+     , (5867,  32,        250) /* WieldedTreasureType - 
+                                   Wield Katar (23675) | Probability: 25%
+                                   Wield Nekode (23681) | Probability: 25%
+                                   Wield Cestus (23638) | Probability: 25%
+                                   Wield Tachi (23701) | Probability: 25%
+                                   Wield Kite Shield (23685) | Probability: 85% */
+     , (5867,  35,        235) /* DeathTreasureType - Loot Tier: 4 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (5867,   1, 230, 0, 0) /* Strength */
@@ -144,9 +149,9 @@ VALUES (5867,  94) /* ATTACK_NOTIFICATION_EVENT */
      , (5867, 414) /* PLAYER_DEATH_EVENT */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (5867, 9,     0,  0, 0, 0.98, False) /* Create Unknown for ContainTreasure */
-     , (5867, 1,  5882,  0, 0, 1, False) /* Create An Ancient Book for Contain */
-     , (5867, 9,  6876,  0, 0, 0.02, False) /* Create Sturdy Iron Key for ContainTreasure */;
+VALUES (5867, 9,     0,  0, 0, 0.98, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 4 for ContainTreasure */
+     , (5867, 1,  5882,  0, 0, 1, False) /* Create An Ancient Book (5882) for Contain */
+     , (5867, 9,  6876,  0, 0, 0.02, False) /* Create Sturdy Iron Key (6876) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (5867, 1, 5869, 3600, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0);
+VALUES (5867, 1, 5869, 3600, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Sir Joffre Tremblant (5869) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Scatter */;

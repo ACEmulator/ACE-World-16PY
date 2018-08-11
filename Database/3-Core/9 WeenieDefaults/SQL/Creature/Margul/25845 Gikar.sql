@@ -15,8 +15,8 @@ VALUES (25845,   1,         16) /* ItemType - Creature */
      , (25845,  72,         22) /* FriendType - Shadow */
      , (25845,  81,          4) /* MaxGeneratedObjects */
      , (25845,  82,          4) /* InitGeneratedObjects */
-     , (25845,  93,       1032) /* PhysicsState */
-     , (25845, 101,        131) /* AiAllowedCombatStyle */
+     , (25845,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
+     , (25845, 101,        131) /* AiAllowedCombatStyle - Unarmed, OneHanded, ThrownWeapon */
      , (25845, 103,          1) /* GeneratorDestructionType - Nothing */
      , (25845, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (25845, 140,          1) /* AiOptions */
@@ -80,7 +80,7 @@ VALUES (25845,   1,   33558554) /* Setup */
      , (25845,   8,  100675661) /* Icon */
      , (25845,  22,  872415401) /* PhysicsEffectTable */
      , (25845,  30,         83) /* PhysicsScript - PortalExit */
-     , (25845,  35,         32) /* DeathTreasureType */;
+     , (25845,  35,         32) /* DeathTreasureType - Loot Tier: 6 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (25845,   1, 450, 0, 0) /* Strength */
@@ -182,13 +182,13 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 268435537 /* Twitch1 */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (25845, 9,     0,  0, 0, 0, False) /* Create Unknown for ContainTreasure */
-     , (25845, 9,     0,  0, 0, 0.85, False) /* Create Unknown for ContainTreasure */
-     , (25845, 9, 25907,  1, 0, 1, False) /* Create Gikar's Dream for ContainTreasure */
-     , (25845, 9, 30823,  0, 0, 0.15, False) /* Create Broken Black Marrow Key for ContainTreasure */;
+VALUES (25845, 9,     0,  0, 0, 0, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 6 for ContainTreasure */
+     , (25845, 9,     0,  0, 0, 0.85, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 6 for ContainTreasure */
+     , (25845, 9, 25907,  1, 0, 1, False) /* Create Gikar's Dream (25907) for ContainTreasure */
+     , (25845, 9, 30823,  0, 0, 0.15, False) /* Create Broken Black Marrow Key (30823) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (25845, -1, 25862, 20, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0)
-     , (25845, -1, 25863, 20, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0)
-     , (25845, -1, 25859, 20, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0)
-     , (25845, -1, 25861, 20, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0);
+VALUES (25845, -1, 25862, 20, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Helcan Margul (25862) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Scatter */
+     , (25845, -1, 25863, 20, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Hellion (25863) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Scatter */
+     , (25845, -1, 25859, 20, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Biaka (25859) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Scatter */
+     , (25845, -1, 25861, 20, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Graal Margul (25861) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Scatter */;

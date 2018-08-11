@@ -19,7 +19,7 @@ VALUES (5305,   1,        256) /* ItemType - MissileWeapon */
      , (5305,  45,         16) /* DamageType - Fire */
      , (5305,  50,          1) /* AmmoType - Arrow */
      , (5305,  51,          3) /* CombatUse - Ammo */
-     , (5305,  93,     132116) /* PhysicsState */
+     , (5305,  93,     132116) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, Inelastic */
      , (5305, 150,        103) /* HookPlacement - Hook */
      , (5305, 151,          2) /* HookType - Wall */;
 

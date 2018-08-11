@@ -5,7 +5,7 @@ INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (22170,   1,        128) /* ItemType - Misc */
      , (22170,  16,          1) /* ItemUseable - No */
      , (22170,  66,          1) /* CheckpointStatus */
-     , (22170,  93,         24) /* PhysicsState */;
+     , (22170,  93,         24) /* PhysicsState - ReportCollisions, IgnoreCollisions */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (22170,   1, True ) /* Stuck */

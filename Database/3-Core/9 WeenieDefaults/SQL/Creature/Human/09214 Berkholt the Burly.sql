@@ -11,7 +11,7 @@ VALUES (9214,   1,         16) /* ItemType - Creature */
      , (9214,  16,         32) /* ItemUseable - Remote */
      , (9214,  25,         11) /* Level */
      , (9214,  27,          0) /* ArmorType */
-     , (9214,  93,    2098200) /* PhysicsState */
+     , (9214,  93,    2098200) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */
      , (9214, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (9214, 134,         16) /* PlayerKillerStatus - RubberGlue */
      , (9214, 146,        323) /* XpOverride */;
@@ -118,6 +118,6 @@ VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 1090519043 /* Ready */, NULL, NU
      , (@parent_id,  2,  10 /* Tell */, 1, 1, NULL, 'Should''ve stayed in Arwic...', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (9214, 2,   115,  0, 9, 0, False) /* Create Leather Boots for Wield */
-     , (9214, 2,   127,  0, 5, 0.67, False) /* Create Pants for Wield */
-     , (9214, 2,   134,  0, 4, 0.6, False) /* Create Tunic for Wield */;
+VALUES (9214, 2,   115,  0, 9, 0, False) /* Create Leather Boots (115) for Wield */
+     , (9214, 2,   127,  0, 5, 0.67, False) /* Create Pants (127) for Wield */
+     , (9214, 2,   134,  0, 4, 0.6, False) /* Create Tunic (134) for Wield */;

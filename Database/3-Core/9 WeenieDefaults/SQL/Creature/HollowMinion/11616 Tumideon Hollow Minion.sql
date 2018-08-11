@@ -12,7 +12,7 @@ VALUES (11616,   1,         16) /* ItemType - Creature */
      , (11616,  27,          0) /* ArmorType */
      , (11616,  68,          3) /* TargetingTactic */
      , (11616,  72,         19) /* FriendType - Virindi */
-     , (11616,  93,       1032) /* PhysicsState */
+     , (11616,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (11616, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (11616, 140,          1) /* AiOptions */
      , (11616, 146,       6000) /* XpOverride */;
@@ -69,7 +69,7 @@ VALUES (11616,   1,   33556792) /* Setup */
      , (11616,   7,  268436085) /* ClothingBase */
      , (11616,   8,  100671140) /* Icon */
      , (11616,  22,  872415367) /* PhysicsEffectTable */
-     , (11616,  35,        328) /* DeathTreasureType */;
+     , (11616,  35,        328) /* DeathTreasureType - Loot Tier: 4 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (11616,   1, 200, 0, 0) /* Strength */
@@ -123,7 +123,7 @@ VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 1090519043 /* Ready */, NULL, NU
      , (@parent_id,  1,   5 /* Motion */, 0, 1, 1090519060 /* Sleeping */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (11616, 9,     0,  0, 0, 0.96, False) /* Create Unknown for ContainTreasure */
-     , (11616, 9,  9292,  0, 0, 0.04, False) /* Create Virindi Singularity Key for ContainTreasure */
-     , (11616, 9, 11626,  0, 0, 1, False) /* Create Quiddity Ingot for ContainTreasure */
-     , (11616, 9, 11626,  0, 0, 1, False) /* Create Quiddity Ingot for ContainTreasure */;
+VALUES (11616, 9,     0,  0, 0, 0.96, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 4 for ContainTreasure */
+     , (11616, 9,  9292,  0, 0, 0.04, False) /* Create Virindi Singularity Key (9292) for ContainTreasure */
+     , (11616, 9, 11626,  0, 0, 1, False) /* Create Quiddity Ingot (11626) for ContainTreasure */
+     , (11616, 9, 11626,  0, 0, 1, False) /* Create Quiddity Ingot (11626) for ContainTreasure */;

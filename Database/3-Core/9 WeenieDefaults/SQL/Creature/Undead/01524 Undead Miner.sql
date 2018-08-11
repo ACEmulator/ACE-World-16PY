@@ -12,8 +12,8 @@ VALUES (1524,   1,         16) /* ItemType - Creature */
      , (1524,  27,          0) /* ArmorType */
      , (1524,  40,          1) /* CombatMode - NonCombat */
      , (1524,  68,          3) /* TargetingTactic */
-     , (1524,  93,       1032) /* PhysicsState */
-     , (1524, 101,        183) /* AiAllowedCombatStyle */
+     , (1524,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
+     , (1524, 101,        183) /* AiAllowedCombatStyle - Unarmed, OneHanded, OneHandedAndShield, Bow, Crossbow, ThrownWeapon */
      , (1524, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (1524, 140,          1) /* AiOptions */
      , (1524, 146,        650) /* XpOverride */;
@@ -70,7 +70,7 @@ VALUES (1524,   1,   33554839) /* Setup */
      , (1524,   7,  268435558) /* ClothingBase */
      , (1524,   8,  100667942) /* Icon */
      , (1524,  22,  872415272) /* PhysicsEffectTable */
-     , (1524,  35,         16) /* DeathTreasureType */;
+     , (1524,  35,         16) /* DeathTreasureType - Loot Tier: 2 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (1524,   1,  85, 0, 0) /* Strength */
@@ -148,8 +148,8 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 318767235 /* Nod */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (1524, 10,   301,  0, 0, 0.1, False) /* Create Battle Axe for WieldTreasure */
-     , (1524, 10,   331,  0, 0, 0.1, False) /* Create Mace for WieldTreasure */
-     , (1524, 10,   352,  0, 0, 0.1, False) /* Create Short Sword for WieldTreasure */
-     , (1524, 10,  4190,  0, 0, 0.1, False) /* Create Cestus for WieldTreasure */
-     , (1524, 10,  5753,  0, 0, 0.1, False) /* Create Pickaxe for WieldTreasure */;
+VALUES (1524, 10,   301,  0, 0, 0.1, False) /* Create Battle Axe (301) for WieldTreasure */
+     , (1524, 10,   331,  0, 0, 0.1, False) /* Create Mace (331) for WieldTreasure */
+     , (1524, 10,   352,  0, 0, 0.1, False) /* Create Short Sword (352) for WieldTreasure */
+     , (1524, 10,  4190,  0, 0, 0.1, False) /* Create Cestus (4190) for WieldTreasure */
+     , (1524, 10,  5753,  0, 0, 0.1, False) /* Create Pickaxe (5753) for WieldTreasure */;

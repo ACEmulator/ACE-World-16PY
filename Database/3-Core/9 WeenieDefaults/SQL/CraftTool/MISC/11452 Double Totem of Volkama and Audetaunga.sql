@@ -14,11 +14,11 @@ VALUES (11452,   1,        128) /* ItemType - Misc */
      , (11452,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
      , (11452,  19,          0) /* Value */
      , (11452,  33,          0) /* Bonded - Normal */
-     , (11452,  93,       1044) /* PhysicsState */
-     , (11452,  94,        128) /* TargetType - Misc */
+     , (11452,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (11452,  94,        128) /* TargetType - 128 */
      , (11452, 114,          0) /* Attuned - Normal */
      , (11452, 150,        103) /* HookPlacement - Hook */
-     , (11452, 151,         11) /* HookType */;
+     , (11452, 151,         11) /* HookType - Floor, Wall, Yard */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (11452,  22, True ) /* Inscribable */

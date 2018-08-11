@@ -10,10 +10,10 @@ VALUES (26828,   1,         16) /* ItemType - Creature */
      , (26828,  16,         32) /* ItemUseable - Remote */
      , (26828,  25,         10) /* Level */
      , (26828,  27,          0) /* ArmorType */
-     , (26828,  74,     264192) /* MerchandiseItemTypes */
+     , (26828,  74,     264192) /* MerchandiseItemTypes - Gem, PromissoryNote */
      , (26828,  75,          0) /* MerchandiseMinValue */
      , (26828,  76,    1000000) /* MerchandiseMaxValue */
-     , (26828,  93,    2098204) /* PhysicsState */
+     , (26828,  93,    2098204) /* PhysicsState - Ethereal, ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */
      , (26828, 126,        125) /* VendorHappyMean */
      , (26828, 127,        125) /* VendorHappyVariance */
      , (26828, 133,          4) /* ShowableOnRadar - ShowAlways */
@@ -97,4 +97,4 @@ VALUES (26828,  0,  4,  0,    0,    0,    0,    0,    0,    0,    0,    0,    0,
      , (26828,  8,  4,  2, 0.75,    0,    0,    0,    0,    0,    0,    0,    0,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (26828, 4, 26193, -1, 0, 0, False) /* Create Haliana Portal Gem for Shop */;
+VALUES (26828, 4, 26193, -1, 0, 0, False) /* Create Haliana Portal Gem (26193) for Shop */;

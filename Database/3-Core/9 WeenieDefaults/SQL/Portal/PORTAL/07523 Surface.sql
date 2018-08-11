@@ -4,7 +4,7 @@ VALUES ('7523', 'portalpkarenapkjudge', 7) /* Portal */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (7523,   1,      65536) /* ItemType - Portal */
      , (7523,  16,         32) /* ItemUseable - Remote */
-     , (7523,  93,       3084) /* PhysicsState */
+     , (7523,  93,       3084) /* PhysicsState - Ethereal, ReportCollisions, Gravity, LightingOn */
      , (7523, 111,          1) /* PortalBitmask - Unrestricted */
      , (7523, 133,          4) /* ShowableOnRadar - ShowAlways */;
 

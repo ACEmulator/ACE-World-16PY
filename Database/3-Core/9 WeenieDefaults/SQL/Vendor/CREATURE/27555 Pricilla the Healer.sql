@@ -10,10 +10,10 @@ VALUES (27555,   1,         16) /* ItemType - Creature */
      , (27555,  16,         32) /* ItemUseable - Remote */
      , (27555,  25,          9) /* Level */
      , (27555,  27,          0) /* ArmorType */
-     , (27555,  74,     281993) /* MerchandiseItemTypes */
+     , (27555,  74,     281993) /* MerchandiseItemTypes - Jewelry, Misc, Weapon, Useless, Gem, Key, PromissoryNote */
      , (27555,  75,          0) /* MerchandiseMinValue */
      , (27555,  76,     100000) /* MerchandiseMaxValue */
-     , (27555,  93,    2098200) /* PhysicsState */
+     , (27555,  93,    2098200) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */
      , (27555, 126,       2000) /* VendorHappyMean */
      , (27555, 127,       1000) /* VendorHappyVariance */
      , (27555, 133,          4) /* ShowableOnRadar - ShowAlways */
@@ -163,31 +163,31 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 318767235 /* Nod */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (27555, 2,   115,  0, 4, 0.8, False) /* Create Leather Boots for Wield */
-     , (27555, 2,   127,  0, 4, 0.8, False) /* Create Pants for Wield */
-     , (27555, 2,   130,  0, 14, 0.6, False) /* Create Shirt for Wield */
-     , (27555, 2,   307,  0, 0, 0, False) /* Create Shortbow for Wield */
-     , (27555, 4,   377, -1, 0, 0, False) /* Create Potion of Healing for Shop */
-     , (27555, 4,   378, -1, 0, 0, False) /* Create Stamina Potion for Shop */
-     , (27555, 4,   379, -1, 0, 0, False) /* Create Mana Potion for Shop */
-     , (27555, 4,   628, -1, 0, 0, False) /* Create Handy Healing Kit for Shop */
-     , (27555, 4,   629, -1, 0, 0, False) /* Create Adept Healing Kit for Shop */
-     , (27555, 4,   630, -1, 0, 0, False) /* Create Gifted Healing Kit for Shop */
-     , (27555, 4,   631, -1, 0, 0, False) /* Create Excellent Healing Kit for Shop */
-     , (27555, 4,  2457, -1, 0, 0, False) /* Create Health Draught for Shop */
-     , (27555, 4,  2460, -1, 0, 0, False) /* Create Mana Draught for Shop */
-     , (27555, 4,  2470, -1, 0, 0, False) /* Create Stamina Elixir for Shop */
-     , (27555, 4,  2621, -1, 0, 0, False) /* Create Trade Note (100) for Shop */
-     , (27555, 4,  2622, -1, 0, 0, False) /* Create Trade Note (500) for Shop */
-     , (27555, 4,  2623, -1, 0, 0, False) /* Create Trade Note (1,000) for Shop */
-     , (27555, 4,  2624, -1, 0, 0, False) /* Create Trade Note (5,000) for Shop */
-     , (27555, 4,  2625, -1, 0, 0, False) /* Create Trade Note (10,000) for Shop */
-     , (27555, 4,  2626, -1, 0, 0, False) /* Create Trade Note (50,000) for Shop */
-     , (27555, 4,  2627, -1, 0, 0, False) /* Create Trade Note (100,000) for Shop */
-     , (27555, 2, 10696,  0, 2, 0.5, False) /* Create Apron for Wield */
-     , (27555, 4, 20628, -1, 0, 0, False) /* Create Trade Note (150,000) for Shop */
-     , (27555, 4, 20629, -1, 0, 0, False) /* Create Trade Note (200,000) for Shop */
-     , (27555, 4, 20630, -1, 0, 0, False) /* Create Trade Note (250,000) for Shop */
-     , (27555, 4, 27319, -1, 0, 0, False) /* Create Health Tincture for Shop */
-     , (27555, 4, 27322, -1, 0, 0, False) /* Create Mana Tincture for Shop */
-     , (27555, 4, 27326, -1, 0, 0, False) /* Create Stamina Tincture for Shop */;
+VALUES (27555, 2,   115,  0, 4, 0.8, False) /* Create Leather Boots (115) for Wield */
+     , (27555, 2,   127,  0, 4, 0.8, False) /* Create Pants (127) for Wield */
+     , (27555, 2,   130,  0, 14, 0.6, False) /* Create Shirt (130) for Wield */
+     , (27555, 2,   307,  0, 0, 0, False) /* Create Shortbow (307) for Wield */
+     , (27555, 4,   377, -1, 0, 0, False) /* Create Potion of Healing (377) for Shop */
+     , (27555, 4,   378, -1, 0, 0, False) /* Create Stamina Potion (378) for Shop */
+     , (27555, 4,   379, -1, 0, 0, False) /* Create Mana Potion (379) for Shop */
+     , (27555, 4,   628, -1, 0, 0, False) /* Create Handy Healing Kit (628) for Shop */
+     , (27555, 4,   629, -1, 0, 0, False) /* Create Adept Healing Kit (629) for Shop */
+     , (27555, 4,   630, -1, 0, 0, False) /* Create Gifted Healing Kit (630) for Shop */
+     , (27555, 4,   631, -1, 0, 0, False) /* Create Excellent Healing Kit (631) for Shop */
+     , (27555, 4,  2457, -1, 0, 0, False) /* Create Health Draught (2457) for Shop */
+     , (27555, 4,  2460, -1, 0, 0, False) /* Create Mana Draught (2460) for Shop */
+     , (27555, 4,  2470, -1, 0, 0, False) /* Create Stamina Elixir (2470) for Shop */
+     , (27555, 4,  2621, -1, 0, 0, False) /* Create Trade Note (100) (2621) for Shop */
+     , (27555, 4,  2622, -1, 0, 0, False) /* Create Trade Note (500) (2622) for Shop */
+     , (27555, 4,  2623, -1, 0, 0, False) /* Create Trade Note (1,000) (2623) for Shop */
+     , (27555, 4,  2624, -1, 0, 0, False) /* Create Trade Note (5,000) (2624) for Shop */
+     , (27555, 4,  2625, -1, 0, 0, False) /* Create Trade Note (10,000) (2625) for Shop */
+     , (27555, 4,  2626, -1, 0, 0, False) /* Create Trade Note (50,000) (2626) for Shop */
+     , (27555, 4,  2627, -1, 0, 0, False) /* Create Trade Note (100,000) (2627) for Shop */
+     , (27555, 2, 10696,  0, 2, 0.5, False) /* Create Apron (10696) for Wield */
+     , (27555, 4, 20628, -1, 0, 0, False) /* Create Trade Note (150,000) (20628) for Shop */
+     , (27555, 4, 20629, -1, 0, 0, False) /* Create Trade Note (200,000) (20629) for Shop */
+     , (27555, 4, 20630, -1, 0, 0, False) /* Create Trade Note (250,000) (20630) for Shop */
+     , (27555, 4, 27319, -1, 0, 0, False) /* Create Health Tincture (27319) for Shop */
+     , (27555, 4, 27322, -1, 0, 0, False) /* Create Mana Tincture (27322) for Shop */
+     , (27555, 4, 27326, -1, 0, 0, False) /* Create Stamina Tincture (27326) for Shop */;

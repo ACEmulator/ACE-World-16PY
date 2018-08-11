@@ -10,7 +10,7 @@ VALUES (12203,   1,         16) /* ItemType - Creature */
      , (12203,  16,         32) /* ItemUseable - Remote */
      , (12203,  25,         20) /* Level */
      , (12203,  27,          0) /* ArmorType */
-     , (12203,  93,    6292504) /* PhysicsState */
+     , (12203,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (12203,  95,          8) /* RadarBlipColor - Yellow */
      , (12203, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (12203, 134,         16) /* PlayerKillerStatus - RubberGlue */
@@ -362,6 +362,6 @@ VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 1090519043 /* Ready */, NULL, NU
      , (@parent_id,  2,  10 /* Tell */, 0, 1, NULL, 'Alexander doesn''t know it yet, but I am working on a side project that I hope will pad my pockets a bit better once I get better at it. Give me your Sunstone Gauntlets and I''ll see about bringing out a nice orange color in them!', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (12203, 2,   132,  0, 2, 0.5, False) /* Create Shoes for Wield */
-     , (12203, 2,  2590,  0, 14, 1, False) /* Create Shirt for Wield */
-     , (12203, 2,  2598,  0, 4, 0.8, False) /* Create Pants for Wield */;
+VALUES (12203, 2,   132,  0, 2, 0.5, False) /* Create Shoes (132) for Wield */
+     , (12203, 2,  2590,  0, 14, 1, False) /* Create Shirt (2590) for Wield */
+     , (12203, 2,  2598,  0, 4, 0.8, False) /* Create Pants (2598) for Wield */;

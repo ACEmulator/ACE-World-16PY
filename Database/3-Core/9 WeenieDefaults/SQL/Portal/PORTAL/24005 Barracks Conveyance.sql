@@ -6,8 +6,8 @@ VALUES (24005,   1,      65536) /* ItemType - Portal */
      , (24005,   9,          0) /* ValidLocations - None */
      , (24005,  16,          1) /* ItemUseable - No */
      , (24005,  83,       4096) /* ActivationResponse - CastSpell */
-     , (24005,  93,       2060) /* PhysicsState */
-     , (24005, 111,         49) /* PortalBitmask */
+     , (24005,  93,       2060) /* PhysicsState - Ethereal, ReportCollisions, LightingOn */
+     , (24005, 111,         49) /* PortalBitmask - Unrestricted, NoSummon, NoRecall */
      , (24005, 133,          4) /* ShowableOnRadar - ShowAlways */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)

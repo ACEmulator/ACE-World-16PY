@@ -4,16 +4,16 @@ VALUES ('8785', 'shirtscalemailempyrean', 2) /* Clothing */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (8785,   1,          2) /* ItemType - Armor */
      , (8785,   3,         20) /* PaletteTemplate - Silver */
-     , (8785,   4,       7168) /* ClothingPriority */
+     , (8785,   4,       7168) /* ClothingPriority - OuterwearChest, OuterwearAbdomen, OuterwearUpperArms */
      , (8785,   5,       1200) /* EncumbranceVal */
      , (8785,   8,       1000) /* Mass */
-     , (8785,   9,       3584) /* ValidLocations */
+     , (8785,   9,       3584) /* ValidLocations - ChestArmor, AbdomenArmor, UpperArmArmor */
      , (8785,  16,          1) /* ItemUseable - No */
      , (8785,  18,          1) /* UiEffects - Magical */
      , (8785,  19,       6000) /* Value */
      , (8785,  27,          8) /* ArmorType */
      , (8785,  28,        150) /* ArmorLevel */
-     , (8785,  93,       1044) /* PhysicsState */
+     , (8785,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (8785, 106,        150) /* ItemSpellcraft */
      , (8785, 107,        350) /* ItemCurMana */
      , (8785, 108,        350) /* ItemMaxMana */

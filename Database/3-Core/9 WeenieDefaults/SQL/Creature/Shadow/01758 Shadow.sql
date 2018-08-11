@@ -12,8 +12,8 @@ VALUES (1758,   1,         16) /* ItemType - Creature */
      , (1758,  25,         26) /* Level */
      , (1758,  27,          0) /* ArmorType */
      , (1758,  68,          3) /* TargetingTactic */
-     , (1758,  93,       1032) /* PhysicsState */
-     , (1758, 101,        183) /* AiAllowedCombatStyle */
+     , (1758,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
+     , (1758, 101,        183) /* AiAllowedCombatStyle - Unarmed, OneHanded, OneHandedAndShield, Bow, Crossbow, ThrownWeapon */
      , (1758, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (1758, 140,          1) /* AiOptions */
      , (1758, 146,       2793) /* XpOverride */;
@@ -76,8 +76,22 @@ VALUES (1758,   1,   33554433) /* Setup */
      , (1758,   7,  268435632) /* ClothingBase */
      , (1758,   8,  100670397) /* Icon */
      , (1758,  22,  872415331) /* PhysicsEffectTable */
-     , (1758,  32,        175) /* WieldedTreasureType */
-     , (1758,  35,        453) /* DeathTreasureType */;
+     , (1758,  32,        175) /* WieldedTreasureType - 
+                                   Wield Yumi (23735) | Probability: 20%
+                                   Wield 14x Fire Arrow (1437) | Probability: 100%
+                                   Wield Yumi (23735) | Probability: 20%
+                                   Wield 14x Arrow (300) | Probability: 100%
+                                   Wield Katar (23675) | Probability: 10%
+                                   Wield Kite Shield (23685) | Probability: 100%
+                                   Wield Nekode (23681) | Probability: 10%
+                                   Wield Kite Shield (23685) | Probability: 100%
+                                   Wield Cestus (23638) | Probability: 10%
+                                   Wield Kite Shield (23685) | Probability: 100%
+                                   Wield Tachi (23701) | Probability: 35%
+                                   Wield Kite Shield (23685) | Probability: 100%
+                                   Wield Fire Yaoji (23719) | Probability: 35%
+                                   Wield Kite Shield (23685) | Probability: 100% */
+     , (1758,  35,        453) /* DeathTreasureType - Loot Tier: 1 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (1758,   1, 110, 0, 0) /* Strength */
@@ -149,7 +163,7 @@ VALUES (1758,  94) /* ATTACK_NOTIFICATION_EVENT */
      , (1758, 414) /* PLAYER_DEATH_EVENT */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (1758, 9,     0,  0, 0, 0.98, False) /* Create Unknown for ContainTreasure */
-     , (1758, 9,     0,  0, 0, 0.95, False) /* Create Unknown for ContainTreasure */
-     , (1758, 9,  6059,  0, 0, 0.02, False) /* Create Dark Sliver for ContainTreasure */
-     , (1758, 9,  8020,  0, 0, 0.05, False) /* Create Fenmalain Key for ContainTreasure */;
+VALUES (1758, 9,     0,  0, 0, 0.98, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 1 for ContainTreasure */
+     , (1758, 9,     0,  0, 0, 0.95, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 1 for ContainTreasure */
+     , (1758, 9,  6059,  0, 0, 0.02, False) /* Create Dark Sliver (6059) for ContainTreasure */
+     , (1758, 9,  8020,  0, 0, 0.05, False) /* Create Fenmalain Key (8020) for ContainTreasure */;

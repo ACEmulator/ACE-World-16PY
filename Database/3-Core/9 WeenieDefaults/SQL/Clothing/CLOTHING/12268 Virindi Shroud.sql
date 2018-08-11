@@ -4,7 +4,7 @@ VALUES ('12268', 'shroudvirindi', 2) /* Clothing */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (12268,   1,          4) /* ItemType - Clothing */
      , (12268,   3,          3) /* PaletteTemplate - BluePurple */
-     , (12268,   4,      81664) /* ClothingPriority */
+     , (12268,   4,      81664) /* ClothingPriority - OuterwearUpperLegs, OuterwearLowerLegs, OuterwearChest, OuterwearAbdomen, OuterwearUpperArms, OuterwearLowerArms, Feet */
      , (12268,   5,        250) /* EncumbranceVal */
      , (12268,   8,        150) /* Mass */
      , (12268,   9,      32512) /* ValidLocations - Armor */
@@ -12,7 +12,7 @@ VALUES (12268,   1,          4) /* ItemType - Clothing */
      , (12268,  19,       6000) /* Value */
      , (12268,  27,          1) /* ArmorType */
      , (12268,  28,          0) /* ArmorLevel */
-     , (12268,  93,       1044) /* PhysicsState */
+     , (12268,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (12268, 106,        200) /* ItemSpellcraft */
      , (12268, 107,        800) /* ItemCurMana */
      , (12268, 108,        800) /* ItemMaxMana */

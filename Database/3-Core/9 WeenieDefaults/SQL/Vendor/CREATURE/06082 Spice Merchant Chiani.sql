@@ -13,7 +13,7 @@ VALUES (6082,   1,         16) /* ItemType - Creature */
      , (6082,  74,    4194304) /* MerchandiseItemTypes - CraftCookingBase */
      , (6082,  75,          0) /* MerchandiseMinValue */
      , (6082,  76,     100000) /* MerchandiseMaxValue */
-     , (6082,  93,    2098200) /* PhysicsState */
+     , (6082,  93,    2098200) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */
      , (6082, 126,        500) /* VendorHappyMean */
      , (6082, 127,        500) /* VendorHappyVariance */
      , (6082, 133,          4) /* ShowableOnRadar - ShowAlways */
@@ -163,10 +163,10 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 318767235 /* Nod */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (6082, 2,   115,  0, 9, 1, False) /* Create Leather Boots for Wield */
-     , (6082, 2,  2590,  0, 18, 0.5, False) /* Create Shirt for Wield */
-     , (6082, 2,  2604,  0, 9, 1, False) /* Create Breeches for Wield */
-     , (6082, 4,  5780, -1, 0, 0, False) /* Create Cinnamon Bark for Shop */
-     , (6082, 4,  5795, -1, 0, 0, False) /* Create Hot Sauce for Shop */
-     , (6082, 4,  5803, -1, 0, 0, False) /* Create Oregano for Shop */
-     , (6082, 2, 10696,  0, 18, 1, False) /* Create Apron for Wield */;
+VALUES (6082, 2,   115,  0, 9, 1, False) /* Create Leather Boots (115) for Wield */
+     , (6082, 2,  2590,  0, 18, 0.5, False) /* Create Shirt (2590) for Wield */
+     , (6082, 2,  2604,  0, 9, 1, False) /* Create Breeches (2604) for Wield */
+     , (6082, 4,  5780, -1, 0, 0, False) /* Create Cinnamon Bark (5780) for Shop */
+     , (6082, 4,  5795, -1, 0, 0, False) /* Create Hot Sauce (5795) for Shop */
+     , (6082, 4,  5803, -1, 0, 0, False) /* Create Oregano (5803) for Shop */
+     , (6082, 2, 10696,  0, 18, 1, False) /* Create Apron (10696) for Wield */;

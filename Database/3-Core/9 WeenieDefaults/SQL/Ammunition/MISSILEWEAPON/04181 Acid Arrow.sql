@@ -19,7 +19,7 @@ VALUES (4181,   1,        256) /* ItemType - MissileWeapon */
      , (4181,  45,         32) /* DamageType - Acid */
      , (4181,  50,          1) /* AmmoType - Arrow */
      , (4181,  51,          3) /* CombatUse - Ammo */
-     , (4181,  93,     132116) /* PhysicsState */
+     , (4181,  93,     132116) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, Inelastic */
      , (4181, 150,        103) /* HookPlacement - Hook */
      , (4181, 151,          2) /* HookType - Wall */;
 

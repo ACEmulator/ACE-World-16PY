@@ -12,7 +12,7 @@ VALUES (44,   1,          2) /* ItemType - Armor */
      , (44,  27,          2) /* ArmorType */
      , (44,  28,         10) /* ArmorLevel */
      , (44,  51,          4) /* CombatUse - Shield */
-     , (44,  93,       1044) /* PhysicsState */
+     , (44,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (44, 150,        103) /* HookPlacement - Hook */
      , (44, 151,          2) /* HookType - Wall */
      , (44, 169,  134284292) /* TsysMutationData */;

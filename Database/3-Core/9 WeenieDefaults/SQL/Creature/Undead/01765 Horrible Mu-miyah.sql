@@ -13,8 +13,8 @@ VALUES (1765,   1,         16) /* ItemType - Creature */
      , (1765,  40,          1) /* CombatMode - NonCombat */
      , (1765,  68,          5) /* TargetingTactic */
      , (1765,  72,         14) /* FriendType - Undead */
-     , (1765,  93,       1032) /* PhysicsState */
-     , (1765, 101,        183) /* AiAllowedCombatStyle */
+     , (1765,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
+     , (1765, 101,        183) /* AiAllowedCombatStyle - Unarmed, OneHanded, OneHandedAndShield, Bow, Crossbow, ThrownWeapon */
      , (1765, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (1765, 140,          1) /* AiOptions */
      , (1765, 146,       7640) /* XpOverride */;
@@ -74,7 +74,7 @@ VALUES (1765,   1,   33554433) /* Setup */
      , (1765,   7,  268435645) /* ClothingBase */
      , (1765,   8,  100669122) /* Icon */
      , (1765,  22,  872415272) /* PhysicsEffectTable */
-     , (1765,  35,        463) /* DeathTreasureType */;
+     , (1765,  35,        463) /* DeathTreasureType - Loot Tier: 2 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (1765,   1, 220, 0, 0) /* Strength */
@@ -178,7 +178,7 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 268435537 /* Twitch1 */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (1765, 9,     0,  0, 0, 0.99, False) /* Create Unknown for ContainTreasure */
-     , (1765, 9,     0,  0, 0, 0.975, False) /* Create Unknown for ContainTreasure */
-     , (1765, 9,  6876,  0, 0, 0.01, False) /* Create Sturdy Iron Key for ContainTreasure */
-     , (1765, 9,  7898,  0, 0, 0.025, False) /* Create Tattered Note for ContainTreasure */;
+VALUES (1765, 9,     0,  0, 0, 0.99, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 2 for ContainTreasure */
+     , (1765, 9,     0,  0, 0, 0.975, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 2 for ContainTreasure */
+     , (1765, 9,  6876,  0, 0, 0.01, False) /* Create Sturdy Iron Key (6876) for ContainTreasure */
+     , (1765, 9,  7898,  0, 0, 0.025, False) /* Create Tattered Note (7898) for ContainTreasure */;

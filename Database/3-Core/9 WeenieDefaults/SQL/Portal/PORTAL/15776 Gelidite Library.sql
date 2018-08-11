@@ -4,8 +4,8 @@ VALUES ('15776', 'portalgeliditelibrary', 7) /* Portal */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (15776,   1,      65536) /* ItemType - Portal */
      , (15776,  16,         32) /* ItemUseable - Remote */
-     , (15776,  93,       3084) /* PhysicsState */
-     , (15776, 111,         49) /* PortalBitmask */
+     , (15776,  93,       3084) /* PhysicsState - Ethereal, ReportCollisions, Gravity, LightingOn */
+     , (15776, 111,         49) /* PortalBitmask - Unrestricted, NoSummon, NoRecall */
      , (15776, 133,          4) /* ShowableOnRadar - ShowAlways */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)

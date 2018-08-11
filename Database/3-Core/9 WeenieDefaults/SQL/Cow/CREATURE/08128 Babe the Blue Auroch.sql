@@ -12,7 +12,7 @@ VALUES (8128,   1,         16) /* ItemType - Creature */
      , (8128,  27,          0) /* ArmorType */
      , (8128,  40,          2) /* CombatMode - Melee */
      , (8128,  72,         12) /* FriendType - Cow */
-     , (8128,  93,    2098184) /* PhysicsState */
+     , (8128,  93,    2098184) /* PhysicsState - ReportCollisions, Gravity, ReportCollisionsAsEnvironment */
      , (8128,  95,          8) /* RadarBlipColor - Yellow */
      , (8128, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (8128, 134,         16) /* PlayerKillerStatus - RubberGlue */

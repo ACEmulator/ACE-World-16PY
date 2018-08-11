@@ -14,8 +14,8 @@ VALUES (10952,   1,         16) /* ItemType - Creature */
      , (10952,  72,         16) /* FriendType - Reedshark */
      , (10952,  81,          4) /* MaxGeneratedObjects */
      , (10952,  82,          4) /* InitGeneratedObjects */
-     , (10952,  93,       1032) /* PhysicsState */
-     , (10952, 101,        183) /* AiAllowedCombatStyle */
+     , (10952,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
+     , (10952, 101,        183) /* AiAllowedCombatStyle - Unarmed, OneHanded, OneHandedAndShield, Bow, Crossbow, ThrownWeapon */
      , (10952, 103,          3) /* GeneratorDestructionType - Kill */
      , (10952, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (10952, 140,          1) /* AiOptions */
@@ -77,7 +77,7 @@ VALUES (10952,   1,   33554496) /* Setup */
      , (10952,   7,  268436628) /* ClothingBase */
      , (10952,   8,  100667452) /* Icon */
      , (10952,  22,  872415270) /* PhysicsEffectTable */
-     , (10952,  35,        450) /* DeathTreasureType */;
+     , (10952,  35,        450) /* DeathTreasureType - Loot Tier: 3 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (10952,   1, 250, 0, 0) /* Strength */
@@ -230,13 +230,13 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,  17 /* LocalBroadcast */, 0, 0, NULL, 'As %s''s feeble spell is repulsed by Tuperea, he is heard to mutter, "Bah. A shaman. They always have such stringy meat..."', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (10952, 9, 10958,  4, 0, 1, False) /* Create Pouch of Dried Meat for ContainTreasure */
-     , (10952, 1, 10991,  1, 0, 1, False) /* Create Crop Handle for Contain */
-     , (10952, 1, 10992,  1, 0, 1, False) /* Create Crop End for Contain */
-     , (10952, 2, 10993,  1, 0, 1, False) /* Create Crop for Wield */;
+VALUES (10952, 9, 10958,  4, 0, 1, False) /* Create Pouch of Dried Meat (10958) for ContainTreasure */
+     , (10952, 1, 10991,  1, 0, 1, False) /* Create Crop Handle (10991) for Contain */
+     , (10952, 1, 10992,  1, 0, 1, False) /* Create Crop End (10992) for Contain */
+     , (10952, 2, 10993,  1, 0, 1, False) /* Create Crop (10993) for Wield */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (10952, -1, 10947, 86400, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0)
-     , (10952, -1, 10946, 86400, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0)
-     , (10952, -1, 10945, 86400, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0)
-     , (10952, -1, 10944, 86400, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0);
+VALUES (10952, -1, 10947, 86400, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Sahkurea (10947) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Scatter */
+     , (10952, -1, 10946, 86400, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Utelari (10946) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Scatter */
+     , (10952, -1, 10945, 86400, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Reshalra (10945) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Scatter */
+     , (10952, -1, 10944, 86400, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Manuaka (10944) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Scatter */;

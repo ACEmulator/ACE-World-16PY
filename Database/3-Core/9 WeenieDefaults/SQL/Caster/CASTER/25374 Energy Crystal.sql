@@ -11,15 +11,15 @@ VALUES (25374,   1,      32768) /* ItemType - Caster */
      , (25374,  19,          0) /* Value */
      , (25374,  33,          1) /* Bonded - Bonded */
      , (25374,  46,        512) /* DefaultCombatStyle - Magic */
-     , (25374,  93,       3092) /* PhysicsState */
-     , (25374,  94,         16) /* TargetType - Creature */
+     , (25374,  93,       3092) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, LightingOn */
+     , (25374,  94,         16) /* TargetType - Reedshark */
      , (25374, 106,        170) /* ItemSpellcraft */
      , (25374, 107,       1200) /* ItemCurMana */
      , (25374, 108,       1200) /* ItemMaxMana */
      , (25374, 109,          0) /* ItemDifficulty */
      , (25374, 114,          1) /* Attuned - Attuned */
      , (25374, 150,        104) /* HookPlacement - XXXUnknown68 */
-     , (25374, 151,         11) /* HookType */;
+     , (25374, 151,         11) /* HookType - Floor, Wall, Yard */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (25374,  15, True ) /* LightsStatus */

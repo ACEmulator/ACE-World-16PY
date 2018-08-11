@@ -10,10 +10,10 @@ VALUES (26699,   1,         16) /* ItemType - Creature */
      , (26699,  16,         32) /* ItemUseable - Remote */
      , (26699,  25,         10) /* Level */
      , (26699,  27,          0) /* ArmorType */
-     , (26699,  74,     264192) /* MerchandiseItemTypes */
+     , (26699,  74,     264192) /* MerchandiseItemTypes - Gem, PromissoryNote */
      , (26699,  75,          0) /* MerchandiseMinValue */
      , (26699,  76,    1000000) /* MerchandiseMaxValue */
-     , (26699,  93,    2098204) /* PhysicsState */
+     , (26699,  93,    2098204) /* PhysicsState - Ethereal, ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */
      , (26699, 126,        125) /* VendorHappyMean */
      , (26699, 127,        125) /* VendorHappyVariance */
      , (26699, 133,          4) /* ShowableOnRadar - ShowAlways */
@@ -97,4 +97,4 @@ VALUES (26699,  0,  4,  0,    0,    0,    0,    0,    0,    0,    0,    0,    0,
      , (26699,  8,  4,  2, 0.75,    0,    0,    0,    0,    0,    0,    0,    0,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (26699, 4, 26064, -1, 0, 0, False) /* Create Al-Arqis Cottages Portal Gem for Shop */;
+VALUES (26699, 4, 26064, -1, 0, 0, False) /* Create Al-Arqis Cottages Portal Gem (26064) for Shop */;

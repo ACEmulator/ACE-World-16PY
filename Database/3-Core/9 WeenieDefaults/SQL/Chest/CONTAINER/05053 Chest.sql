@@ -12,7 +12,7 @@ VALUES (5053,   1,        512) /* ItemType - Container */
      , (5053,  81,          2) /* MaxGeneratedObjects */
      , (5053,  82,          2) /* InitGeneratedObjects */
      , (5053,  83,          2) /* ActivationResponse - Use */
-     , (5053,  93,       1048) /* PhysicsState */
+     , (5053,  93,       1048) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity */
      , (5053,  96,        500) /* EncumbranceCapacity */
      , (5053, 100,          1) /* GeneratorType - Relative */;
 
@@ -44,4 +44,4 @@ VALUES (5053,   1,   33554556) /* Setup */
      , (5053,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (5053, -1, 5052, 30, 1, 1, 2, 8, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0);
+VALUES (5053, -1, 5052, 30, 1, 1, 2, 8, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Lou Ei's bracelet (5052) (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: Contain */;

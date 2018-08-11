@@ -16,7 +16,7 @@ VALUES (1445,   1,         32) /* ItemType - Food */
      , (1445,  19,         15) /* Value */
      , (1445,  89,          4) /* BoosterEnum - Stamina */
      , (1445,  90,         18) /* BoostValue */
-     , (1445,  93,       1044) /* PhysicsState */;
+     , (1445,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (1445,   1, 'Fresh Fish') /* Name */

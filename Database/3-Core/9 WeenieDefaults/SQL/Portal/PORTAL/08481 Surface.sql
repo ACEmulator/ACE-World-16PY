@@ -4,8 +4,8 @@ VALUES ('8481', 'portalvesayensmalltemplebexit', 7) /* Portal */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (8481,   1,      65536) /* ItemType - Portal */
      , (8481,  16,         32) /* ItemUseable - Remote */
-     , (8481,  93,       3084) /* PhysicsState */
-     , (8481, 111,         17) /* PortalBitmask */
+     , (8481,  93,       3084) /* PhysicsState - Ethereal, ReportCollisions, Gravity, LightingOn */
+     , (8481, 111,         17) /* PortalBitmask - Unrestricted, NoSummon */
      , (8481, 133,          4) /* ShowableOnRadar - ShowAlways */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)

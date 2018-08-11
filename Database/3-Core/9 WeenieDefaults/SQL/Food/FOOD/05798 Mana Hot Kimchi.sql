@@ -16,7 +16,7 @@ VALUES (5798,   1,         32) /* ItemType - Food */
      , (5798,  19,         75) /* Value */
      , (5798,  89,          6) /* BoosterEnum - Mana */
      , (5798,  90,         27) /* BoostValue */
-     , (5798,  93,       1044) /* PhysicsState */;
+     , (5798,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (5798,  69, False) /* IsSellable */;

@@ -8,7 +8,7 @@ VALUES (13234,   1,        128) /* ItemType - Misc */
      , (13234,   9,          0) /* ValidLocations - None */
      , (13234,  16,          1) /* ItemUseable - No */
      , (13234,  19,          0) /* Value */
-     , (13234,  93,         52) /* PhysicsState */
+     , (13234,  93,         52) /* PhysicsState - Ethereal, IgnoreCollisions, NoDraw */
      , (13234, 149,         -1) /* HouseStatus */
      , (13234, 155,          1) /* HouseType - Cottage */;
 

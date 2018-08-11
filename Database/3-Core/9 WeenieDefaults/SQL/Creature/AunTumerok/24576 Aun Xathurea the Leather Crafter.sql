@@ -11,7 +11,7 @@ VALUES (24576,   1,         16) /* ItemType - Creature */
      , (24576,  16,         32) /* ItemUseable - Remote */
      , (24576,  25,         78) /* Level */
      , (24576,  27,          0) /* ArmorType */
-     , (24576,  93,    6292504) /* PhysicsState */
+     , (24576,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (24576,  95,          8) /* RadarBlipColor - Yellow */
      , (24576, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (24576, 134,         16) /* PlayerKillerStatus - RubberGlue */
@@ -697,6 +697,6 @@ VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 1090519043 /* Ready */, NULL, NU
      , (@parent_id,  3,  10 /* Tell */, 1, 1, NULL, 'If you give me the hide of an armoredillo, gromnie, reedshark, or mattekar, I can make something with it that you may find useful.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (24576, 2,   117,  0, 17, 1, False) /* Create Breeches for Wield */
-     , (24576, 2,  2591,  0, 9, 1, False) /* Create Shirt for Wield */
-     , (24576, 2,  2606,  0, 13, 0.5, False) /* Create Boots for Wield */;
+VALUES (24576, 2,   117,  0, 17, 1, False) /* Create Breeches (117) for Wield */
+     , (24576, 2,  2591,  0, 9, 1, False) /* Create Shirt (2591) for Wield */
+     , (24576, 2,  2606,  0, 13, 0.5, False) /* Create Boots (2606) for Wield */;

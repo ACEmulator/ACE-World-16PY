@@ -12,8 +12,8 @@ VALUES (5921,   1,         16) /* ItemType - Creature */
      , (5921,  27,          0) /* ArmorType */
      , (5921,  40,          1) /* CombatMode - NonCombat */
      , (5921,  68,          3) /* TargetingTactic */
-     , (5921,  93,       1032) /* PhysicsState */
-     , (5921, 101,        183) /* AiAllowedCombatStyle */
+     , (5921,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
+     , (5921, 101,        183) /* AiAllowedCombatStyle - Unarmed, OneHanded, OneHandedAndShield, Bow, Crossbow, ThrownWeapon */
      , (5921, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (5921, 140,          1) /* AiOptions */
      , (5921, 146,       8800) /* XpOverride */;
@@ -71,8 +71,12 @@ VALUES (5921,   1,   33554839) /* Setup */
      , (5921,   7,  268435558) /* ClothingBase */
      , (5921,   8,  100667942) /* Icon */
      , (5921,  22,  872415272) /* PhysicsEffectTable */
-     , (5921,  32,        287) /* WieldedTreasureType */
-     , (5921,  35,        451) /* DeathTreasureType */;
+     , (5921,  32,        287) /* WieldedTreasureType - 
+                                   Wield Yumi (23736) | Probability: 50%
+                                   Wield 16x Greater Fire Arrow (5305) | Probability: 100%
+                                   Wield Kite Shield (23686) | Probability: 50%
+                                   Wield Fire Tachi (23708) | Probability: 50% */
+     , (5921,  35,        451) /* DeathTreasureType - Loot Tier: 2 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (5921,   1, 170, 0, 0) /* Strength */
@@ -145,11 +149,11 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   8 /* Say */, 0, 0, NULL, 'Flee from this fate and into the arms of my awaiting minions...', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (5921, 9,     0,  0, 0, 0, False) /* Create Unknown for ContainTreasure */
-     , (5921, 9,     0,  0, 0, 0, False) /* Create Unknown for ContainTreasure */
-     , (5921, 9,  3751,  0, 0, 0.2, False) /* Create Lightning Battle Axe for ContainTreasure */
-     , (5921, 9,  3791,  0, 0, 0.2, False) /* Create Lightning Djarid for ContainTreasure */
-     , (5921, 9,  3839,  0, 0, 0.2, False) /* Create Lightning Nabut for ContainTreasure */
-     , (5921, 9,  3850,  0, 0, 0.2, False) /* Create Lightning Scimitar for ContainTreasure */
-     , (5921, 9,  3914,  0, 0, 0.2, False) /* Create Lightning Yari for ContainTreasure */
-     , (5921, 9,  5936,  0, 0, 1, False) /* Create Broken Staff for ContainTreasure */;
+VALUES (5921, 9,     0,  0, 0, 0, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 2 for ContainTreasure */
+     , (5921, 9,     0,  0, 0, 0, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 2 for ContainTreasure */
+     , (5921, 9,  3751,  0, 0, 0.2, False) /* Create Lightning Battle Axe (3751) for ContainTreasure */
+     , (5921, 9,  3791,  0, 0, 0.2, False) /* Create Lightning Djarid (3791) for ContainTreasure */
+     , (5921, 9,  3839,  0, 0, 0.2, False) /* Create Lightning Nabut (3839) for ContainTreasure */
+     , (5921, 9,  3850,  0, 0, 0.2, False) /* Create Lightning Scimitar (3850) for ContainTreasure */
+     , (5921, 9,  3914,  0, 0, 0.2, False) /* Create Lightning Yari (3914) for ContainTreasure */
+     , (5921, 9,  5936,  0, 0, 1, False) /* Create Broken Staff (5936) for ContainTreasure */;

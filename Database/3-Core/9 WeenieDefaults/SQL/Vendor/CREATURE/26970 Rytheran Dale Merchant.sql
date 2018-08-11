@@ -10,10 +10,10 @@ VALUES (26970,   1,         16) /* ItemType - Creature */
      , (26970,  16,         32) /* ItemUseable - Remote */
      , (26970,  25,         10) /* Level */
      , (26970,  27,          0) /* ArmorType */
-     , (26970,  74,     264192) /* MerchandiseItemTypes */
+     , (26970,  74,     264192) /* MerchandiseItemTypes - Gem, PromissoryNote */
      , (26970,  75,          0) /* MerchandiseMinValue */
      , (26970,  76,    1000000) /* MerchandiseMaxValue */
-     , (26970,  93,    2098204) /* PhysicsState */
+     , (26970,  93,    2098204) /* PhysicsState - Ethereal, ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */
      , (26970, 126,        125) /* VendorHappyMean */
      , (26970, 127,        125) /* VendorHappyVariance */
      , (26970, 133,          4) /* ShowableOnRadar - ShowAlways */
@@ -97,4 +97,4 @@ VALUES (26970,  0,  4,  0,    0,    0,    0,    0,    0,    0,    0,    0,    0,
      , (26970,  8,  4,  2, 0.75,    0,    0,    0,    0,    0,    0,    0,    0,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (26970, 4, 26335, -1, 0, 0, False) /* Create Rytheran Dale Portal Gem for Shop */;
+VALUES (26970, 4, 26335, -1, 0, 0, False) /* Create Rytheran Dale Portal Gem (26335) for Shop */;

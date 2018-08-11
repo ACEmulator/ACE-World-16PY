@@ -14,7 +14,7 @@ VALUES (758,   1,       4096) /* ItemType - SpellComponents */
      , (758,  15,          5) /* StackUnitValue */
      , (758,  16,          1) /* ItemUseable - No */
      , (758,  19,          5) /* Value */
-     , (758,  93,       1044) /* PhysicsState */;
+     , (758,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (758,   1, 'Gypsum') /* Name */

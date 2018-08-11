@@ -4,15 +4,15 @@ VALUES ('51', 'cuirassplatemail', 2) /* Clothing */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (51,   1,          2) /* ItemType - Armor */
      , (51,   3,         20) /* PaletteTemplate - Silver */
-     , (51,   4,       3072) /* ClothingPriority */
+     , (51,   4,       3072) /* ClothingPriority - OuterwearChest, OuterwearAbdomen */
      , (51,   5,       2798) /* EncumbranceVal */
      , (51,   8,       1400) /* Mass */
-     , (51,   9,       1536) /* ValidLocations */
+     , (51,   9,       1536) /* ValidLocations - ChestArmor, AbdomenArmor */
      , (51,  16,          1) /* ItemUseable - No */
      , (51,  19,       2284) /* Value */
      , (51,  27,         32) /* ArmorType */
      , (51,  28,        100) /* ArmorLevel */
-     , (51,  93,       1044) /* PhysicsState */
+     , (51,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (51, 169,  118097668) /* TsysMutationData */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)

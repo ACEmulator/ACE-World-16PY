@@ -11,7 +11,7 @@ VALUES (10980,   1,         16) /* ItemType - Creature */
      , (10980,  16,         32) /* ItemUseable - Remote */
      , (10980,  25,        309) /* Level */
      , (10980,  27,          0) /* ArmorType */
-     , (10980,  93,    6292504) /* PhysicsState */
+     , (10980,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (10980,  95,          8) /* RadarBlipColor - Yellow */
      , (10980, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (10980, 134,         16) /* PlayerKillerStatus - RubberGlue */
@@ -1693,4 +1693,4 @@ VALUES (@parent_id,  0,  18 /* DirectBroadcast */, 0, 1, NULL, 'Aun Hareltah tur
      , (@parent_id,  2,   3 /* Give */, 1, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0, 11190 /* War Magic Tessera */, 1, 0, 0, False, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (10980, 2,   338,  0, 0, 0, False) /* Create Quarter Staff for Wield */;
+VALUES (10980, 2,   338,  0, 0, 0, False) /* Create Quarter Staff (338) for Wield */;

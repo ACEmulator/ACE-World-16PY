@@ -4,8 +4,8 @@ VALUES ('23077', 'portaldarktreecrystalmineexit', 7) /* Portal */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (23077,   1,      65536) /* ItemType - Portal */
      , (23077,  16,         32) /* ItemUseable - Remote */
-     , (23077,  93,       3084) /* PhysicsState */
-     , (23077, 111,         49) /* PortalBitmask */
+     , (23077,  93,       3084) /* PhysicsState - Ethereal, ReportCollisions, Gravity, LightingOn */
+     , (23077, 111,         49) /* PortalBitmask - Unrestricted, NoSummon, NoRecall */
      , (23077, 133,          4) /* ShowableOnRadar - ShowAlways */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)

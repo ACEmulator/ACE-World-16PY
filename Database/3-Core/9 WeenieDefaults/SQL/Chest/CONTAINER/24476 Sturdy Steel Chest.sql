@@ -14,7 +14,7 @@ VALUES (24476,   1,        512) /* ItemType - Container */
      , (24476,  81,          3) /* MaxGeneratedObjects */
      , (24476,  82,          3) /* InitGeneratedObjects */
      , (24476,  83,          2) /* ActivationResponse - Use */
-     , (24476,  93,       1048) /* PhysicsState */
+     , (24476,  93,       1048) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity */
      , (24476,  96,        500) /* EncumbranceCapacity */
      , (24476, 100,          1) /* GeneratorType - Relative */;
 
@@ -47,6 +47,6 @@ VALUES (24476,   1,   33558394) /* Setup */
      , (24476,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (24476, -1, 449, 0, 1, 1, 2, 72, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0)
-     , (24476, -1, 449, 0, 1, 1, 2, 72, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0)
-     , (24476, -1, 449, 0, 1, 1, 2, 72, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0);
+VALUES (24476, -1, 449, 0, 1, 1, 2, 72, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate RANDOMLY GENERATED TREASURE from Loot Tier 6 (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: ContainTreasure */
+     , (24476, -1, 449, 0, 1, 1, 2, 72, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate RANDOMLY GENERATED TREASURE from Loot Tier 6 (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: ContainTreasure */
+     , (24476, -1, 449, 0, 1, 1, 2, 72, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate RANDOMLY GENERATED TREASURE from Loot Tier 6 (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: ContainTreasure */;

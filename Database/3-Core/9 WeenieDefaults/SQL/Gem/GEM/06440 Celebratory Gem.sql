@@ -15,8 +15,8 @@ VALUES (6440,   1,       2048) /* ItemType - Gem */
      , (6440,  16,          8) /* ItemUseable - Contained */
      , (6440,  19,          0) /* Value */
      , (6440,  33,          1) /* Bonded - Bonded */
-     , (6440,  93,       1044) /* PhysicsState */
-     , (6440,  94,         16) /* TargetType - Creature */
+     , (6440,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (6440,  94,         16) /* TargetType - Reedshark */
      , (6440, 106,         90) /* ItemSpellcraft */
      , (6440, 107,         50) /* ItemCurMana */
      , (6440, 108,         50) /* ItemMaxMana */

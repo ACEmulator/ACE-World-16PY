@@ -13,8 +13,8 @@ VALUES (8423,   1,         16) /* ItemType - Creature */
      , (8423,  27,          0) /* ArmorType */
      , (8423,  67,          2) /* Tolerance */
      , (8423,  68,          9) /* TargetingTactic */
-     , (8423,  93,    4195336) /* PhysicsState */
-     , (8423, 101,        183) /* AiAllowedCombatStyle */
+     , (8423,  93,    4195336) /* PhysicsState - ReportCollisions, Gravity, EdgeSlide */
+     , (8423, 101,        183) /* AiAllowedCombatStyle - Unarmed, OneHanded, OneHandedAndShield, Bow, Crossbow, ThrownWeapon */
      , (8423, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (8423, 140,          1) /* AiOptions */
      , (8423, 146,        220) /* XpOverride */;
@@ -78,7 +78,7 @@ VALUES (8423,   1,   33554433) /* Setup */
      , (8423,   7,  268435632) /* ClothingBase */
      , (8423,   8,  100670397) /* Icon */
      , (8423,  22,  872415331) /* PhysicsEffectTable */
-     , (8423,  35,        172) /* DeathTreasureType */;
+     , (8423,  35,        172) /* DeathTreasureType - Loot Tier: 2 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (8423,   1,  30, 0, 0) /* Strength */
@@ -177,5 +177,5 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 1124073753, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (8423, 9,     0,  0, 0, 0.99, False) /* Create Unknown for ContainTreasure */
-     , (8423, 9,  6060,  0, 0, 0.01, False) /* Create Dark Speck for ContainTreasure */;
+VALUES (8423, 9,     0,  0, 0, 0.99, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 2 for ContainTreasure */
+     , (8423, 9,  6060,  0, 0, 0.01, False) /* Create Dark Speck (6060) for ContainTreasure */;

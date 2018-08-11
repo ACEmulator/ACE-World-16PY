@@ -14,7 +14,7 @@ VALUES (6080,   1,         16) /* ItemType - Creature */
      , (6080,  67,          2) /* Tolerance */
      , (6080,  68,          9) /* TargetingTactic */
      , (6080,  72,         25) /* FriendType - Rabbit */
-     , (6080,  93,       1032) /* PhysicsState */
+     , (6080,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (6080, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (6080, 146,     117255) /* XpOverride */;
 
@@ -70,7 +70,7 @@ VALUES (6080,   1,   33558659) /* Setup */
      , (6080,   8,  100669116) /* Icon */
      , (6080,  22,  872415277) /* PhysicsEffectTable */
      , (6080,  30,         86) /* PhysicsScript - BreatheAcid */
-     , (6080,  35,        464) /* DeathTreasureType */;
+     , (6080,  35,        464) /* DeathTreasureType - Loot Tier: 5 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (6080,   1, 250, 0, 0) /* Strength */
@@ -133,9 +133,9 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 268435537 /* Twitch1 */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (6080, 9,     0,  0, 0, 0.99, False) /* Create Unknown for ContainTreasure */
-     , (6080, 9,     0,  0, 0, 0.75, False) /* Create Unknown for ContainTreasure */
-     , (6080, 9,     0,  0, 0, 0.98, False) /* Create Unknown for ContainTreasure */
-     , (6080, 9,  6876,  0, 0, 0.02, False) /* Create Sturdy Iron Key for ContainTreasure */
-     , (6080, 9, 12128,  0, 0, 0.25, False) /* Create White Rabbit Carcass for ContainTreasure */
-     , (6080, 9, 27249,  0, 0, 0.01, False) /* Create Spring Cleaner Title Token for ContainTreasure */;
+VALUES (6080, 9,     0,  0, 0, 0.99, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 5 for ContainTreasure */
+     , (6080, 9,     0,  0, 0, 0.75, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 5 for ContainTreasure */
+     , (6080, 9,     0,  0, 0, 0.98, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 5 for ContainTreasure */
+     , (6080, 9,  6876,  0, 0, 0.02, False) /* Create Sturdy Iron Key (6876) for ContainTreasure */
+     , (6080, 9, 12128,  0, 0, 0.25, False) /* Create White Rabbit Carcass (12128) for ContainTreasure */
+     , (6080, 9, 27249,  0, 0, 0.01, False) /* Create Spring Cleaner Title Token (27249) for ContainTreasure */;

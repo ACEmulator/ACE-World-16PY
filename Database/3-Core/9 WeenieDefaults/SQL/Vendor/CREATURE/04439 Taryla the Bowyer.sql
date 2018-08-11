@@ -10,10 +10,10 @@ VALUES (4439,   1,         16) /* ItemType - Creature */
      , (4439,  16,         32) /* ItemUseable - Remote */
      , (4439,  25,          4) /* Level */
      , (4439,  27,          0) /* ArmorType */
-     , (4439,  74,  134480129) /* MerchandiseItemTypes */
+     , (4439,  74,  134480129) /* MerchandiseItemTypes - Weapon, PromissoryNote, CraftFletchingIntermediate */
      , (4439,  75,          0) /* MerchandiseMinValue */
      , (4439,  76,      25000) /* MerchandiseMaxValue */
-     , (4439,  93,    2098200) /* PhysicsState */
+     , (4439,  93,    2098200) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */
      , (4439, 126,       1000) /* VendorHappyMean */
      , (4439, 127,        500) /* VendorHappyVariance */
      , (4439, 133,          4) /* ShowableOnRadar - ShowAlways */
@@ -179,43 +179,43 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 318767235 /* Nod */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (4439, 2,   127,  0, 5, 0.67, False) /* Create Pants for Wield */
-     , (4439, 2,   130,  0, 4, 0.6, False) /* Create Shirt for Wield */
-     , (4439, 4,   300, -1, 0, 0, False) /* Create Arrow for Shop */
-     , (4439, 4,   304, -1, 0, 0, False) /* Create Throwing Axe for Shop */
-     , (4439, 4,   305, -1, 0, 0, False) /* Create Quarrel for Shop */
-     , (4439, 2,   307,  0, 0, 0, False) /* Create Shortbow for Wield */
-     , (4439, 4,   307, -1, 0, 0, False) /* Create Shortbow for Shop */
-     , (4439, 4,   310, -1, 0, 0, False) /* Create Throwing Club for Shop */
-     , (4439, 4,   312, -1, 0, 0, False) /* Create Light Crossbow for Shop */
-     , (4439, 4,   316, -1, 0, 0, False) /* Create Throwing Dart for Shop */
-     , (4439, 4,   320, -1, 0, 0, False) /* Create Javelin for Shop */
-     , (4439, 2,  2606,  0, 9, 0.5, False) /* Create Boots for Wield */
-     , (4439, 4,  2621, -1, 0, 0, False) /* Create Trade Note (100) for Shop */
-     , (4439, 4,  2622, -1, 0, 0, False) /* Create Trade Note (500) for Shop */
-     , (4439, 4,  2623, -1, 0, 0, False) /* Create Trade Note (1,000) for Shop */
-     , (4439, 4,  3758, -1, 0, 0, False) /* Create Acid Throwing Axe for Shop */
-     , (4439, 4,  3759, -1, 0, 0, False) /* Create Lightning Throwing Axe for Shop */
-     , (4439, 4,  3760, -1, 0, 0, False) /* Create Flaming Throwing Axe for Shop */
-     , (4439, 4,  3761, -1, 0, 0, False) /* Create Frost Throwing Axe for Shop */
-     , (4439, 4,  3786, -1, 0, 0, False) /* Create Throwing Acid Dart for Shop */
-     , (4439, 4,  3787, -1, 0, 0, False) /* Create Throwing Lightning Dart for Shop */
-     , (4439, 4,  3788, -1, 0, 0, False) /* Create Throwing Fire Dart for Shop */
-     , (4439, 4,  3789, -1, 0, 0, False) /* Create Throwing Frost Dart for Shop */
-     , (4439, 4,  4585, -1, 0, 0, False) /* Create Bundle of Arrowshafts for Shop */
-     , (4439, 4,  4586, -1, 0, 0, False) /* Create Bundle of Arrowheads for Shop */
-     , (4439, 4,  5339, -1, 0, 0, False) /* Create Bundle of Quarrelshafts for Shop */
-     , (4439, 4,  5344, -1, 0, 0, False) /* Create Bundle of Blunt Arrowheads for Shop */
-     , (4439, 4,  5345, -1, 0, 0, False) /* Create Bundle of Broad Arrowheads for Shop */
-     , (4439, 4,  9359, -1, 0, 0, False) /* Create Wrapped Bundle of Arrowheads for Shop */
-     , (4439, 4,  9362, -1, 0, 0, False) /* Create Wrapped Bundle of Blunt Arrowheads for Shop */
-     , (4439, 4,  9363, -1, 0, 0, False) /* Create Wrapped Bundle of Broad Arrowheads for Shop */
-     , (4439, 4,  9377, -1, 0, 0, False) /* Create Wrapped Bundle of Arrowshafts for Shop */
-     , (4439, 4,  9378, -1, 0, 0, False) /* Create Wrapped Bundle of Quarrelshafts for Shop */
-     , (4439, 2, 10696,  0, 18, 1, False) /* Create Apron for Wield */
-     , (4439, 4, 12463, -1, 0, 0, False) /* Create Atlatl for Shop */
-     , (4439, 4, 12464, -1, 0, 0, False) /* Create Atlatl Dart for Shop */
-     , (4439, 4, 15296, -1, 0, 0, False) /* Create Bundle of Atlatl Dart Shafts for Shop */
-     , (4439, 4, 15298, -1, 0, 0, False) /* Create Wrapped Bundle of Atlatl Dartshafts for Shop */
-     , (4439, 4, 23857, -1, 0, 0, False) /* Create Bundle of Spiketails for Shop */
-     , (4439, 4, 23858, -1, 0, 0, False) /* Create Bundle of Wrapped Spiketails for Shop */;
+VALUES (4439, 2,   127,  0, 5, 0.67, False) /* Create Pants (127) for Wield */
+     , (4439, 2,   130,  0, 4, 0.6, False) /* Create Shirt (130) for Wield */
+     , (4439, 4,   300, -1, 0, 0, False) /* Create Arrow (300) for Shop */
+     , (4439, 4,   304, -1, 0, 0, False) /* Create Throwing Axe (304) for Shop */
+     , (4439, 4,   305, -1, 0, 0, False) /* Create Quarrel (305) for Shop */
+     , (4439, 2,   307,  0, 0, 0, False) /* Create Shortbow (307) for Wield */
+     , (4439, 4,   307, -1, 0, 0, False) /* Create Shortbow (307) for Shop */
+     , (4439, 4,   310, -1, 0, 0, False) /* Create Throwing Club (310) for Shop */
+     , (4439, 4,   312, -1, 0, 0, False) /* Create Light Crossbow (312) for Shop */
+     , (4439, 4,   316, -1, 0, 0, False) /* Create Throwing Dart (316) for Shop */
+     , (4439, 4,   320, -1, 0, 0, False) /* Create Javelin (320) for Shop */
+     , (4439, 2,  2606,  0, 9, 0.5, False) /* Create Boots (2606) for Wield */
+     , (4439, 4,  2621, -1, 0, 0, False) /* Create Trade Note (100) (2621) for Shop */
+     , (4439, 4,  2622, -1, 0, 0, False) /* Create Trade Note (500) (2622) for Shop */
+     , (4439, 4,  2623, -1, 0, 0, False) /* Create Trade Note (1,000) (2623) for Shop */
+     , (4439, 4,  3758, -1, 0, 0, False) /* Create Acid Throwing Axe (3758) for Shop */
+     , (4439, 4,  3759, -1, 0, 0, False) /* Create Lightning Throwing Axe (3759) for Shop */
+     , (4439, 4,  3760, -1, 0, 0, False) /* Create Flaming Throwing Axe (3760) for Shop */
+     , (4439, 4,  3761, -1, 0, 0, False) /* Create Frost Throwing Axe (3761) for Shop */
+     , (4439, 4,  3786, -1, 0, 0, False) /* Create Throwing Acid Dart (3786) for Shop */
+     , (4439, 4,  3787, -1, 0, 0, False) /* Create Throwing Lightning Dart (3787) for Shop */
+     , (4439, 4,  3788, -1, 0, 0, False) /* Create Throwing Fire Dart (3788) for Shop */
+     , (4439, 4,  3789, -1, 0, 0, False) /* Create Throwing Frost Dart (3789) for Shop */
+     , (4439, 4,  4585, -1, 0, 0, False) /* Create Bundle of Arrowshafts (4585) for Shop */
+     , (4439, 4,  4586, -1, 0, 0, False) /* Create Bundle of Arrowheads (4586) for Shop */
+     , (4439, 4,  5339, -1, 0, 0, False) /* Create Bundle of Quarrelshafts (5339) for Shop */
+     , (4439, 4,  5344, -1, 0, 0, False) /* Create Bundle of Blunt Arrowheads (5344) for Shop */
+     , (4439, 4,  5345, -1, 0, 0, False) /* Create Bundle of Broad Arrowheads (5345) for Shop */
+     , (4439, 4,  9359, -1, 0, 0, False) /* Create Wrapped Bundle of Arrowheads (9359) for Shop */
+     , (4439, 4,  9362, -1, 0, 0, False) /* Create Wrapped Bundle of Blunt Arrowheads (9362) for Shop */
+     , (4439, 4,  9363, -1, 0, 0, False) /* Create Wrapped Bundle of Broad Arrowheads (9363) for Shop */
+     , (4439, 4,  9377, -1, 0, 0, False) /* Create Wrapped Bundle of Arrowshafts (9377) for Shop */
+     , (4439, 4,  9378, -1, 0, 0, False) /* Create Wrapped Bundle of Quarrelshafts (9378) for Shop */
+     , (4439, 2, 10696,  0, 18, 1, False) /* Create Apron (10696) for Wield */
+     , (4439, 4, 12463, -1, 0, 0, False) /* Create Atlatl (12463) for Shop */
+     , (4439, 4, 12464, -1, 0, 0, False) /* Create Atlatl Dart (12464) for Shop */
+     , (4439, 4, 15296, -1, 0, 0, False) /* Create Bundle of Atlatl Dart Shafts (15296) for Shop */
+     , (4439, 4, 15298, -1, 0, 0, False) /* Create Wrapped Bundle of Atlatl Dartshafts (15298) for Shop */
+     , (4439, 4, 23857, -1, 0, 0, False) /* Create Bundle of Spiketails (23857) for Shop */
+     , (4439, 4, 23858, -1, 0, 0, False) /* Create Bundle of Wrapped Spiketails (23858) for Shop */;

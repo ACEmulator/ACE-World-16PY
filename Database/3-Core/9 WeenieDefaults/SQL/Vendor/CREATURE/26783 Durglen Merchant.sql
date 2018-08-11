@@ -10,10 +10,10 @@ VALUES (26783,   1,         16) /* ItemType - Creature */
      , (26783,  16,         32) /* ItemUseable - Remote */
      , (26783,  25,         10) /* Level */
      , (26783,  27,          0) /* ArmorType */
-     , (26783,  74,     264192) /* MerchandiseItemTypes */
+     , (26783,  74,     264192) /* MerchandiseItemTypes - Gem, PromissoryNote */
      , (26783,  75,          0) /* MerchandiseMinValue */
      , (26783,  76,    1000000) /* MerchandiseMaxValue */
-     , (26783,  93,    2098204) /* PhysicsState */
+     , (26783,  93,    2098204) /* PhysicsState - Ethereal, ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */
      , (26783, 126,        125) /* VendorHappyMean */
      , (26783, 127,        125) /* VendorHappyVariance */
      , (26783, 133,          4) /* ShowableOnRadar - ShowAlways */
@@ -97,4 +97,4 @@ VALUES (26783,  0,  4,  0,    0,    0,    0,    0,    0,    0,    0,    0,    0,
      , (26783,  8,  4,  2, 0.75,    0,    0,    0,    0,    0,    0,    0,    0,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (26783, 4, 26148, -1, 0, 0, False) /* Create Durglen Portal Gem for Shop */;
+VALUES (26783, 4, 26148, -1, 0, 0, False) /* Create Durglen Portal Gem (26148) for Shop */;

@@ -14,10 +14,10 @@ VALUES (7534,   1,       2048) /* ItemType - Gem */
      , (7534,  15,          0) /* StackUnitValue */
      , (7534,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
      , (7534,  19,          0) /* Value */
-     , (7534,  93,       1044) /* PhysicsState */
-     , (7534,  94,       4096) /* TargetType - SpellComponents */
+     , (7534,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (7534,  94,       4096) /* TargetType - 4096 */
      , (7534, 150,        103) /* HookPlacement - Hook */
-     , (7534, 151,          9) /* HookType */;
+     , (7534, 151,          9) /* HookType - Floor, Yard */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (7534,  23, True ) /* DestroyOnSell */

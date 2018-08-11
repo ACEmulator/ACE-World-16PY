@@ -11,8 +11,8 @@ VALUES (11872,   1,         16) /* ItemType - Creature */
      , (11872,  25,         53) /* Level */
      , (11872,  27,          0) /* ArmorType */
      , (11872,  68,          3) /* TargetingTactic */
-     , (11872,  93,       1032) /* PhysicsState */
-     , (11872, 101,        183) /* AiAllowedCombatStyle */
+     , (11872,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
+     , (11872, 101,        183) /* AiAllowedCombatStyle - Unarmed, OneHanded, OneHandedAndShield, Bow, Crossbow, ThrownWeapon */
      , (11872, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (11872, 140,          1) /* AiOptions */
      , (11872, 146,       8793) /* XpOverride */;
@@ -71,8 +71,10 @@ VALUES (11872,   1,   33554496) /* Setup */
      , (11872,   7,  268435647) /* ClothingBase */
      , (11872,   8,  100667452) /* Icon */
      , (11872,  22,  872415270) /* PhysicsEffectTable */
-     , (11872,  32,        369) /* WieldedTreasureType */
-     , (11872,  35,        451) /* DeathTreasureType */;
+     , (11872,  32,        369) /* WieldedTreasureType - 
+                                   Wield Hafted Reedshark Spear (11754) | Probability: 80%
+                                   Wield Reinforced Reedshark Spear (11780) | Probability: 20% */
+     , (11872,  35,        451) /* DeathTreasureType - Loot Tier: 2 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (11872,   1, 170, 0, 0) /* Strength */
@@ -144,6 +146,6 @@ VALUES (11872,  94) /* ATTACK_NOTIFICATION_EVENT */
      , (11872, 414) /* PLAYER_DEATH_EVENT */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (11872, 9,     0,  0, 0, 0.9, False) /* Create Unknown for ContainTreasure */
-     , (11872, 9, 11861,  0, 0, 0.05, False) /* Create Reedshark Spear-Head for ContainTreasure */
-     , (11872, 9, 11862,  0, 0, 0.05, False) /* Create Reedshark Symbol for ContainTreasure */;
+VALUES (11872, 9,     0,  0, 0, 0.9, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 2 for ContainTreasure */
+     , (11872, 9, 11861,  0, 0, 0.05, False) /* Create Reedshark Spear-Head (11861) for ContainTreasure */
+     , (11872, 9, 11862,  0, 0, 0.05, False) /* Create Reedshark Symbol (11862) for ContainTreasure */;

@@ -8,7 +8,7 @@ VALUES (23208,   1,        128) /* ItemType - Misc */
      , (23208,   9,          0) /* ValidLocations - None */
      , (23208,  16,          1) /* ItemUseable - No */
      , (23208,  19,          0) /* Value */
-     , (23208,  93,       1044) /* PhysicsState */
+     , (23208,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (23208, 150,        103) /* HookPlacement - Hook */
      , (23208, 151,          2) /* HookType - Wall */;
 

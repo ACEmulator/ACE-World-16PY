@@ -13,8 +13,8 @@ VALUES (22911,   1,         16) /* ItemType - Creature */
      , (22911,  27,          0) /* ArmorType */
      , (22911,  68,          3) /* TargetingTactic */
      , (22911,  72,         19) /* FriendType - Virindi */
-     , (22911,  93,       1032) /* PhysicsState */
-     , (22911, 101,        183) /* AiAllowedCombatStyle */
+     , (22911,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
+     , (22911, 101,        183) /* AiAllowedCombatStyle - Unarmed, OneHanded, OneHandedAndShield, Bow, Crossbow, ThrownWeapon */
      , (22911, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (22911, 140,          1) /* AiOptions */
      , (22911, 146,      25191) /* XpOverride */;
@@ -76,7 +76,7 @@ VALUES (22911,   1,   33558345) /* Setup */
      , (22911,   7,  268436623) /* ClothingBase */
      , (22911,   8,  100674327) /* Icon */
      , (22911,  22,  872415331) /* PhysicsEffectTable */
-     , (22911,  35,        462) /* DeathTreasureType */;
+     , (22911,  35,        462) /* DeathTreasureType - Loot Tier: 3 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (22911,   1, 200, 0, 0) /* Strength */
@@ -171,9 +171,9 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,  19 /* CastSpellInstant */, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 1844 /* Os' Wall */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (22911, 9,     0,  0, 0, 0.985, False) /* Create Unknown for ContainTreasure */
-     , (22911, 9,     0,  0, 0, 0.01, False) /* Create Unknown for ContainTreasure */
-     , (22911, 9,     0,  0, 0, 0.99, False) /* Create Unknown for ContainTreasure */
-     , (22911, 9,  6058,  0, 0, 0.015, False) /* Create Dark Shard for ContainTreasure */
-     , (22911, 9,  6876,  0, 0, 0.01, False) /* Create Sturdy Iron Key for ContainTreasure */
-     , (22911, 9,  9292,  0, 0, 0.01, False) /* Create Virindi Singularity Key for ContainTreasure */;
+VALUES (22911, 9,     0,  0, 0, 0.985, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 3 for ContainTreasure */
+     , (22911, 9,     0,  0, 0, 0.01, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 3 for ContainTreasure */
+     , (22911, 9,     0,  0, 0, 0.99, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 3 for ContainTreasure */
+     , (22911, 9,  6058,  0, 0, 0.015, False) /* Create Dark Shard (6058) for ContainTreasure */
+     , (22911, 9,  6876,  0, 0, 0.01, False) /* Create Sturdy Iron Key (6876) for ContainTreasure */
+     , (22911, 9,  9292,  0, 0, 0.01, False) /* Create Virindi Singularity Key (9292) for ContainTreasure */;

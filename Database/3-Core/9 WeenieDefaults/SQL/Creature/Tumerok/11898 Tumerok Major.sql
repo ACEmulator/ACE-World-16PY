@@ -10,8 +10,8 @@ VALUES (11898,   1,         16) /* ItemType - Creature */
      , (11898,  25,         44) /* Level */
      , (11898,  27,          0) /* ArmorType */
      , (11898,  68,          5) /* TargetingTactic */
-     , (11898,  93,       1032) /* PhysicsState */
-     , (11898, 101,        183) /* AiAllowedCombatStyle */
+     , (11898,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
+     , (11898, 101,        183) /* AiAllowedCombatStyle - Unarmed, OneHanded, OneHandedAndShield, Bow, Crossbow, ThrownWeapon */
      , (11898, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (11898, 140,          1) /* AiOptions */
      , (11898, 146,       6305) /* XpOverride */;
@@ -67,8 +67,34 @@ VALUES (11898,   1,   33554496) /* Setup */
      , (11898,   4,  805306380) /* CombatTable */
      , (11898,   8,  100667452) /* Icon */
      , (11898,  22,  872415270) /* PhysicsEffectTable */
-     , (11898,  32,        374) /* WieldedTreasureType */
-     , (11898,  35,        451) /* DeathTreasureType */;
+     , (11898,  32,        374) /* WieldedTreasureType - 
+                                   Wield 5x Javelin (320) | Probability: 10%
+                                   Wield 5x Djarid (317) | Probability: 10%
+                                   Wield 4x Throwing Club (310) | Probability: 5%
+                                   Wield 6x Throwing Axe (304) | Probability: 5%
+                                   Wield Shortbow (307) | Probability: 3%
+                                   Wield 25x Arrow (300) | Probability: 100%
+                                   Wield Shouyumi (341) | Probability: 3%
+                                   Wield 20x Arrow (300) | Probability: 100%
+                                   Wield Light Crossbow (312) | Probability: 11%
+                                   Wield 15x Quarrel (305) | Probability: 100%
+                                   Wield Balister of the Quiddity (11893) | Probability: 26%
+                                   Wield 20x Quarrel (305) | Probability: 100%
+                                   Wield Longbow (306) | Probability: 6%
+                                   Wield 22x Arrow (300) | Probability: 100%
+                                   Wield Yumi (363) | Probability: 4%
+                                   Wield 20x Arrow (300) | Probability: 100%
+                                   Wield Heavy Crossbow (311) | Probability: 14%
+                                   Wield 15x Quarrel (305) | Probability: 100%
+                                   Wield Blade of the Quiddity (11917) | Probability: 25%
+                                   Wield Lance of the Quiddity (11914) | Probability: 25%
+                                   Wield Mace of the Quiddity (11908) | Probability: 25%
+                                   Wield Kaskara (324) | Probability: 3%
+                                   Wield Long Sword (351) | Probability: 3%
+                                   Wield Silifi (344) | Probability: 5%
+                                   Wield Tachi (353) | Probability: 5%
+                                   Wield War Hammer (359) | Probability: 5% */
+     , (11898,  35,        451) /* DeathTreasureType - Loot Tier: 2 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (11898,   1, 100, 0, 0) /* Strength */
@@ -140,7 +166,7 @@ VALUES (11898,  94) /* ATTACK_NOTIFICATION_EVENT */
      , (11898, 414) /* PLAYER_DEATH_EVENT */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (11898, 9,     0,  0, 0, 0.95, False) /* Create Unknown for ContainTreasure */
-     , (11898, 9,     0,  0, 0, 0.97, False) /* Create Unknown for ContainTreasure */
-     , (11898, 9,  7825,  0, 0, 0.03, False) /* Create Brown Beans for ContainTreasure */
-     , (11898, 9, 11837,  0, 0, 0.05, False) /* Create Plated Banner Haft for ContainTreasure */;
+VALUES (11898, 9,     0,  0, 0, 0.95, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 2 for ContainTreasure */
+     , (11898, 9,     0,  0, 0, 0.97, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 2 for ContainTreasure */
+     , (11898, 9,  7825,  0, 0, 0.03, False) /* Create Brown Beans (7825) for ContainTreasure */
+     , (11898, 9, 11837,  0, 0, 0.05, False) /* Create Plated Banner Haft (11837) for ContainTreasure */;

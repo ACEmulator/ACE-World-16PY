@@ -13,8 +13,8 @@ VALUES (4766,   1,    4194304) /* ItemType - CraftCookingBase */
      , (4766,  15,          2) /* StackUnitValue */
      , (4766,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
      , (4766,  19,          2) /* Value */
-     , (4766,  93,       1044) /* PhysicsState */
-     , (4766,  94,    4194336) /* TargetType */;
+     , (4766,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (4766,  94,    4194336) /* TargetType - 4194336 */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (4766,   1, 'Rennet') /* Name */

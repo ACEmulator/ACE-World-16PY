@@ -4,7 +4,7 @@ VALUES ('30967', 'portalfeedingtubesexit', 7) /* Portal */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (30967,   1,      65536) /* ItemType - Portal */
      , (30967,  16,         32) /* ItemUseable - Remote */
-     , (30967,  93,       3084) /* PhysicsState */
+     , (30967,  93,       3084) /* PhysicsState - Ethereal, ReportCollisions, Gravity, LightingOn */
      , (30967, 111,          1) /* PortalBitmask - Unrestricted */
      , (30967, 133,          4) /* ShowableOnRadar - ShowAlways */;
 

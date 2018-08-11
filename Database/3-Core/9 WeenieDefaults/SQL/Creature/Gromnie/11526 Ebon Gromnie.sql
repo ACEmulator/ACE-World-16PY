@@ -12,7 +12,7 @@ VALUES (11526,   1,         16) /* ItemType - Creature */
      , (11526,  27,          0) /* ArmorType */
      , (11526,  40,          2) /* CombatMode - Melee */
      , (11526,  68,          3) /* TargetingTactic */
-     , (11526,  93,       1032) /* PhysicsState */
+     , (11526,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (11526, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (11526, 146,      18321) /* XpOverride */;
 
@@ -68,7 +68,7 @@ VALUES (11526,   1,   33554487) /* Setup */
      , (11526,   8,  100667938) /* Icon */
      , (11526,  22,  872415260) /* PhysicsEffectTable */
      , (11526,  30,         86) /* PhysicsScript - BreatheAcid */
-     , (11526,  35,        456) /* DeathTreasureType */;
+     , (11526,  35,        456) /* DeathTreasureType - Loot Tier: 3 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (11526,   1, 220, 0, 0) /* Strength */
@@ -142,9 +142,9 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 268435538 /* Twitch2 */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (11526, 9,     0,  0, 0, 0.95, False) /* Create Unknown for ContainTreasure */
-     , (11526, 9,     0,  0, 0, 0.95, False) /* Create Unknown for ContainTreasure */
-     , (11526, 9,     0,  0, 0, 0.98, False) /* Create Unknown for ContainTreasure */
-     , (11526, 9,  6876,  0, 0, 0.02, False) /* Create Sturdy Iron Key for ContainTreasure */
-     , (11526, 9, 28201,  0, 0, 0.05, False) /* Create Hardy Gromnie Hide for ContainTreasure */
-     , (11526, 9, 28208,  0, 0, 0.05, False) /* Create Ebon Gromnie Tooth for ContainTreasure */;
+VALUES (11526, 9,     0,  0, 0, 0.95, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 3 for ContainTreasure */
+     , (11526, 9,     0,  0, 0, 0.95, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 3 for ContainTreasure */
+     , (11526, 9,     0,  0, 0, 0.98, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 3 for ContainTreasure */
+     , (11526, 9,  6876,  0, 0, 0.02, False) /* Create Sturdy Iron Key (6876) for ContainTreasure */
+     , (11526, 9, 28201,  0, 0, 0.05, False) /* Create Hardy Gromnie Hide (28201) for ContainTreasure */
+     , (11526, 9, 28208,  0, 0, 0.05, False) /* Create Ebon Gromnie Tooth (28208) for ContainTreasure */;

@@ -12,7 +12,7 @@ VALUES (25597,   1,         16) /* ItemType - Creature */
      , (25597,  27,          0) /* ArmorType */
      , (25597,  40,          2) /* CombatMode - Melee */
      , (25597,  68,          3) /* TargetingTactic */
-     , (25597,  93,       1032) /* PhysicsState */
+     , (25597,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (25597, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (25597, 146,      40000) /* XpOverride */;
 
@@ -68,7 +68,7 @@ VALUES (25597,   1,   33554487) /* Setup */
      , (25597,   8,  100667938) /* Icon */
      , (25597,  22,  872415260) /* PhysicsEffectTable */
      , (25597,  30,         85) /* PhysicsScript - BreatheFrost */
-     , (25597,  35,        458) /* DeathTreasureType */;
+     , (25597,  35,        458) /* DeathTreasureType - Loot Tier: 5 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (25597,   1, 320, 0, 0) /* Strength */
@@ -141,7 +141,7 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 268435538 /* Twitch2 */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (25597, 9,     0,  0, 0, 0.97, False) /* Create Unknown for ContainTreasure */
-     , (25597, 9,     0,  0, 0, 0.99, False) /* Create Unknown for ContainTreasure */
-     , (25597, 9, 24477,  0, 0, 0.01, False) /* Create Sturdy Steel Key for ContainTreasure */
-     , (25597, 9, 28194,  0, 0, 0.03, False) /* Create Emerald Gromnie Eye for ContainTreasure */;
+VALUES (25597, 9,     0,  0, 0, 0.97, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 5 for ContainTreasure */
+     , (25597, 9,     0,  0, 0, 0.99, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 5 for ContainTreasure */
+     , (25597, 9, 24477,  0, 0, 0.01, False) /* Create Sturdy Steel Key (24477) for ContainTreasure */
+     , (25597, 9, 28194,  0, 0, 0.03, False) /* Create Emerald Gromnie Eye (28194) for ContainTreasure */;

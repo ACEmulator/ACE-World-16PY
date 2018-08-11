@@ -12,7 +12,7 @@ VALUES (11331,   1,        512) /* ItemType - Container */
      , (11331,  38,       5000) /* ResistLockpick */
      , (11331,  81,          1) /* MaxGeneratedObjects */
      , (11331,  82,          1) /* InitGeneratedObjects */
-     , (11331,  93,       1048) /* PhysicsState */
+     , (11331,  93,       1048) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity */
      , (11331,  96,        500) /* EncumbranceCapacity */
      , (11331, 100,          1) /* GeneratorType - Relative */;
 
@@ -47,4 +47,4 @@ VALUES (11331,   1,   33554556) /* Setup */
      , (11331,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (11331, -1, 11335, 60, 1, 1, 2, 8, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0);
+VALUES (11331, -1, 11335, 60, 1, 1, 2, 8, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Aun Papileona's Amulet (11335) (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: Contain */;

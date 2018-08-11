@@ -4,7 +4,7 @@ VALUES ('369', 'portalzabooltop', 7) /* Portal */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (369,   1,      65536) /* ItemType - Portal */
      , (369,  16,         32) /* ItemUseable - Remote */
-     , (369,  93,       3084) /* PhysicsState */
+     , (369,  93,       3084) /* PhysicsState - Ethereal, ReportCollisions, Gravity, LightingOn */
      , (369, 111,          1) /* PortalBitmask - Unrestricted */
      , (369, 133,          4) /* ShowableOnRadar - ShowAlways */;
 

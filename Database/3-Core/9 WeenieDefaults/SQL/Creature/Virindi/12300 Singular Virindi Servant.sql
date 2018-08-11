@@ -10,7 +10,7 @@ VALUES (12300,   1,         16) /* ItemType - Creature */
      , (12300,  25,         45) /* Level */
      , (12300,  27,          0) /* ArmorType */
      , (12300,  68,          3) /* TargetingTactic */
-     , (12300,  93,       1032) /* PhysicsState */
+     , (12300,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (12300, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (12300, 140,          1) /* AiOptions */
      , (12300, 146,       3313) /* XpOverride */;
@@ -65,7 +65,7 @@ VALUES (12300,   1,   33554497) /* Setup */
      , (12300,   4,  805306381) /* CombatTable */
      , (12300,   8,  100667943) /* Icon */
      , (12300,  22,  872415273) /* PhysicsEffectTable */
-     , (12300,  35,        245) /* DeathTreasureType */;
+     , (12300,  35,        245) /* DeathTreasureType - Loot Tier: 4 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (12300,   1,  30, 0, 0) /* Strength */
@@ -201,9 +201,9 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 268435539 /* Twitch3 */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (12300, 9,     0,  0, 0, 0.95, False) /* Create Unknown for ContainTreasure */
-     , (12300, 9,     0,  0, 0, 0.99, False) /* Create Unknown for ContainTreasure */
-     , (12300, 9,     0,  0, 0, 0.97, False) /* Create Unknown for ContainTreasure */
-     , (12300, 9,  3696,  0, 0, 0.05, False) /* Create Blue Gem for ContainTreasure */
-     , (12300, 9,  6876,  0, 0, 0.01, False) /* Create Sturdy Iron Key for ContainTreasure */
-     , (12300, 9,  9291,  0, 0, 0.03, False) /* Create Virindi Master Key for ContainTreasure */;
+VALUES (12300, 9,     0,  0, 0, 0.95, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 4 for ContainTreasure */
+     , (12300, 9,     0,  0, 0, 0.99, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 4 for ContainTreasure */
+     , (12300, 9,     0,  0, 0, 0.97, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 4 for ContainTreasure */
+     , (12300, 9,  3696,  0, 0, 0.05, False) /* Create Blue Gem (3696) for ContainTreasure */
+     , (12300, 9,  6876,  0, 0, 0.01, False) /* Create Sturdy Iron Key (6876) for ContainTreasure */
+     , (12300, 9,  9291,  0, 0, 0.03, False) /* Create Virindi Master Key (9291) for ContainTreasure */;

@@ -12,7 +12,7 @@ VALUES (24260,   1,          4) /* ItemType - Clothing */
      , (24260,  19,       6000) /* Value */
      , (24260,  27,          1) /* ArmorType */
      , (24260,  28,        240) /* ArmorLevel */
-     , (24260,  93,       1044) /* PhysicsState */
+     , (24260,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (24260, 150,        103) /* HookPlacement - Hook */
      , (24260, 151,          2) /* HookType - Wall */;
 

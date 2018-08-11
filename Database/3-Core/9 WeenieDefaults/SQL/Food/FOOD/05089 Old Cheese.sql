@@ -15,7 +15,7 @@ VALUES (5089,   1,         32) /* ItemType - Food */
      , (5089,  19,          0) /* Value */
      , (5089,  89,          4) /* BoosterEnum - Stamina */
      , (5089,  90,          3) /* BoostValue */
-     , (5089,  93,       1044) /* PhysicsState */;
+     , (5089,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (5089,  23, True ) /* DestroyOnSell */;

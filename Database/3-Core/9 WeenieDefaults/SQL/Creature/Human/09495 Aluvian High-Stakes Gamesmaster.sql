@@ -10,7 +10,7 @@ VALUES (9495,   1,         16) /* ItemType - Creature */
      , (9495,  16,         32) /* ItemUseable - Remote */
      , (9495,  25,         16) /* Level */
      , (9495,  27,          0) /* ArmorType */
-     , (9495,  93,    6292504) /* PhysicsState */
+     , (9495,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (9495,  95,          8) /* RadarBlipColor - Yellow */
      , (9495, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (9495, 134,         16) /* PlayerKillerStatus - RubberGlue */
@@ -280,7 +280,7 @@ VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 1090519043 /* Ready */, NULL, NU
      , (@parent_id,  3,  10 /* Tell */, 1, 1, NULL, 'I manage the games of chance with the red tokens.  Give me a red token and see what you win!', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (9495, 2,   132,  0, 9, 0, False) /* Create Shoes for Wield */
-     , (9495, 2,  2596,  0, 9, 1, False) /* Create Doublet for Wield */
-     , (9495, 2,  2604,  0, 9, 0, False) /* Create Breeches for Wield */
-     , (9495, 2, 10697,  0, 8, 0.5, False) /* Create Visor for Wield */;
+VALUES (9495, 2,   132,  0, 9, 0, False) /* Create Shoes (132) for Wield */
+     , (9495, 2,  2596,  0, 9, 1, False) /* Create Doublet (2596) for Wield */
+     , (9495, 2,  2604,  0, 9, 0, False) /* Create Breeches (2604) for Wield */
+     , (9495, 2, 10697,  0, 8, 0.5, False) /* Create Visor (10697) for Wield */;

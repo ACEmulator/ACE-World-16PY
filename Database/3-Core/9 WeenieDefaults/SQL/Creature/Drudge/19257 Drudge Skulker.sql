@@ -13,8 +13,8 @@ VALUES (19257,   1,         16) /* ItemType - Creature */
      , (19257,  40,          2) /* CombatMode - Melee */
      , (19257,  67,         64) /* Tolerance */
      , (19257,  68,          5) /* TargetingTactic */
-     , (19257,  93,       1032) /* PhysicsState */
-     , (19257, 101,        131) /* AiAllowedCombatStyle */
+     , (19257,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
+     , (19257, 101,        131) /* AiAllowedCombatStyle - Unarmed, OneHanded, ThrownWeapon */
      , (19257, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (19257, 140,          1) /* AiOptions */
      , (19257, 146,         45) /* XpOverride */;
@@ -70,8 +70,13 @@ VALUES (19257,   1,   33556445) /* Setup */
      , (19257,   7,  268435974) /* ClothingBase */
      , (19257,   8,  100667445) /* Icon */
      , (19257,  22,  872415258) /* PhysicsEffectTable */
-     , (19257,  32,         80) /* WieldedTreasureType */
-     , (19257,  35,        453) /* DeathTreasureType */;
+     , (19257,  32,         80) /* WieldedTreasureType - 
+                                   Wield Jambiya (319) | Probability: 16%
+                                   Wield Knife (329) | Probability: 17%
+                                   Wield 10x Throwing Dart (316) | Probability: 5%
+                                   Wield 10x Shouken (343) | Probability: 4%
+                                   Wield 6x Throwing Dagger (315) | Probability: 5% */
+     , (19257,  35,        453) /* DeathTreasureType - Loot Tier: 1 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (19257,   1,  20, 0, 0) /* Strength */
@@ -186,9 +191,9 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 268435537 /* Twitch1 */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (19257, 9,     0,  0, 0, 0.98, False) /* Create Unknown for ContainTreasure */
-     , (19257, 9,     0,  0, 0, 0.98, False) /* Create Unknown for ContainTreasure */
-     , (19257, 9,     0,  0, 0, 0.9, False) /* Create Unknown for ContainTreasure */
-     , (19257, 9,  3669,  0, 0, 0.02, False) /* Create Drudge Charm for ContainTreasure */
-     , (19257, 9,  8702,  0, 0, 0.02, False) /* Create Scarlet Red Letter for ContainTreasure */
-     , (19257, 9, 13222,  0, 0, 0.1, False) /* Create Peppermint Stick for ContainTreasure */;
+VALUES (19257, 9,     0,  0, 0, 0.98, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 1 for ContainTreasure */
+     , (19257, 9,     0,  0, 0, 0.98, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 1 for ContainTreasure */
+     , (19257, 9,     0,  0, 0, 0.9, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 1 for ContainTreasure */
+     , (19257, 9,  3669,  0, 0, 0.02, False) /* Create Drudge Charm (3669) for ContainTreasure */
+     , (19257, 9,  8702,  0, 0, 0.02, False) /* Create Scarlet Red Letter (8702) for ContainTreasure */
+     , (19257, 9, 13222,  0, 0, 0.1, False) /* Create Peppermint Stick (13222) for ContainTreasure */;

@@ -12,8 +12,8 @@ VALUES (30894,   1,         16) /* ItemType - Creature */
      , (30894,  27,          0) /* ArmorType */
      , (30894,  40,          2) /* CombatMode - Melee */
      , (30894,  68,          5) /* TargetingTactic */
-     , (30894,  93,       1032) /* PhysicsState */
-     , (30894, 101,        129) /* AiAllowedCombatStyle */
+     , (30894,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
+     , (30894, 101,        129) /* AiAllowedCombatStyle - Unarmed, ThrownWeapon */
      , (30894, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (30894, 146,     413312) /* XpOverride */;
 
@@ -68,7 +68,7 @@ VALUES (30894,   1,   33558656) /* Setup */
      , (30894,   7,  268436816) /* ClothingBase */
      , (30894,   8,  100667448) /* Icon */
      , (30894,  22,  872415263) /* PhysicsEffectTable */
-     , (30894,  35,         26) /* DeathTreasureType */;
+     , (30894,  35,         26) /* DeathTreasureType - Loot Tier: 6 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (30894,   1, 420, 0, 0) /* Strength */
@@ -109,6 +109,6 @@ VALUES (30894,  94) /* ATTACK_NOTIFICATION_EVENT */
      , (30894, 414) /* PLAYER_DEATH_EVENT */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (30894, 9,     0,  0, 0, 0.5, False) /* Create Unknown for ContainTreasure */
-     , (30894, 9, 30857,  0, 0, 0.5, False) /* Create Sezzherei's Lair for ContainTreasure */
-     , (30894, 9, 30869,  0, 0, 1, False) /* Create Dirk of the Fallen for ContainTreasure */;
+VALUES (30894, 9,     0,  0, 0, 0.5, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 6 for ContainTreasure */
+     , (30894, 9, 30857,  0, 0, 0.5, False) /* Create Sezzherei's Lair (30857) for ContainTreasure */
+     , (30894, 9, 30869,  0, 0, 1, False) /* Create Dirk of the Fallen (30869) for ContainTreasure */;

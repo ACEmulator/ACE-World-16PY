@@ -10,10 +10,10 @@ VALUES (26914,   1,         16) /* ItemType - Creature */
      , (26914,  16,         32) /* ItemUseable - Remote */
      , (26914,  25,         10) /* Level */
      , (26914,  27,          0) /* ArmorType */
-     , (26914,  74,     264192) /* MerchandiseItemTypes */
+     , (26914,  74,     264192) /* MerchandiseItemTypes - Gem, PromissoryNote */
      , (26914,  75,          0) /* MerchandiseMinValue */
      , (26914,  76,    1000000) /* MerchandiseMaxValue */
-     , (26914,  93,    2098204) /* PhysicsState */
+     , (26914,  93,    2098204) /* PhysicsState - Ethereal, ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */
      , (26914, 126,        125) /* VendorHappyMean */
      , (26914, 127,        125) /* VendorHappyVariance */
      , (26914, 133,          4) /* ShowableOnRadar - ShowAlways */
@@ -97,4 +97,4 @@ VALUES (26914,  0,  4,  0,    0,    0,    0,    0,    0,    0,    0,    0,    0,
      , (26914,  8,  4,  2, 0.75,    0,    0,    0,    0,    0,    0,    0,    0,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (26914, 4, 26279, -1, 0, 0, False) /* Create Nalib Cavana Settlement Portal Gem for Shop */;
+VALUES (26914, 4, 26279, -1, 0, 0, False) /* Create Nalib Cavana Settlement Portal Gem (26279) for Shop */;

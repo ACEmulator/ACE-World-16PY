@@ -10,8 +10,8 @@ VALUES (11876,   1,         16) /* ItemType - Creature */
      , (11876,  25,         26) /* Level */
      , (11876,  27,          0) /* ArmorType */
      , (11876,  68,          5) /* TargetingTactic */
-     , (11876,  93,       1032) /* PhysicsState */
-     , (11876, 101,        183) /* AiAllowedCombatStyle */
+     , (11876,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
+     , (11876, 101,        183) /* AiAllowedCombatStyle - Unarmed, OneHanded, OneHandedAndShield, Bow, Crossbow, ThrownWeapon */
      , (11876, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (11876, 140,          1) /* AiOptions */
      , (11876, 146,       2533) /* XpOverride */;
@@ -65,8 +65,10 @@ VALUES (11876,   1,   33554496) /* Setup */
      , (11876,   4,  805306380) /* CombatTable */
      , (11876,   8,  100667452) /* Icon */
      , (11876,  22,  872415270) /* PhysicsEffectTable */
-     , (11876,  32,        367) /* WieldedTreasureType */
-     , (11876,  35,        453) /* DeathTreasureType */;
+     , (11876,  32,        367) /* WieldedTreasureType - 
+                                   Wield Hafted Gromnie Spear (11752) | Probability: 80%
+                                   Wield Reinforced Gromnie Spear (11778) | Probability: 20% */
+     , (11876,  35,        453) /* DeathTreasureType - Loot Tier: 1 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (11876,   1, 110, 0, 0) /* Strength */
@@ -117,9 +119,9 @@ VALUES (11876,  94) /* ATTACK_NOTIFICATION_EVENT */
      , (11876, 414) /* PLAYER_DEATH_EVENT */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (11876, 9,     0,  0, 0, 0.9, False) /* Create Unknown for ContainTreasure */
-     , (11876, 9,     0,  0, 0, 0.97, False) /* Create Unknown for ContainTreasure */
-     , (11876, 9,     0,  0, 0, 0.95, False) /* Create Unknown for ContainTreasure */
-     , (11876, 9,  3695,  0, 0, 0.1, False) /* Create Gold Tumerok Insignia for ContainTreasure */
-     , (11876, 9,  7825,  0, 0, 0.03, False) /* Create Brown Beans for ContainTreasure */
-     , (11876, 9, 11738,  0, 0, 0.05, False) /* Create Gromnie Banner for ContainTreasure */;
+VALUES (11876, 9,     0,  0, 0, 0.9, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 1 for ContainTreasure */
+     , (11876, 9,     0,  0, 0, 0.97, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 1 for ContainTreasure */
+     , (11876, 9,     0,  0, 0, 0.95, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 1 for ContainTreasure */
+     , (11876, 9,  3695,  0, 0, 0.1, False) /* Create Gold Tumerok Insignia (3695) for ContainTreasure */
+     , (11876, 9,  7825,  0, 0, 0.03, False) /* Create Brown Beans (7825) for ContainTreasure */
+     , (11876, 9, 11738,  0, 0, 0.05, False) /* Create Gromnie Banner (11738) for ContainTreasure */;

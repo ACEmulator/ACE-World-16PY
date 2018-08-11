@@ -4,16 +4,16 @@ VALUES ('26636', 'robeantius', 2) /* Clothing */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (26636,   1,          4) /* ItemType - Clothing */
      , (26636,   3,          2) /* PaletteTemplate - Blue */
-     , (26636,   4,      98048) /* ClothingPriority */
+     , (26636,   4,      98048) /* ClothingPriority - OuterwearUpperLegs, OuterwearLowerLegs, OuterwearChest, OuterwearAbdomen, OuterwearUpperArms, OuterwearLowerArms, Head, Feet */
      , (26636,   5,        450) /* EncumbranceVal */
      , (26636,   8,        450) /* Mass */
-     , (26636,   9,      32513) /* ValidLocations */
+     , (26636,   9,      32513) /* ValidLocations - HeadWear, Armor */
      , (26636,  16,          1) /* ItemUseable - No */
      , (26636,  19,       5000) /* Value */
      , (26636,  27,          1) /* ArmorType */
      , (26636,  28,         30) /* ArmorLevel */
      , (26636,  33,         -2) /* Bonded - Destroy */
-     , (26636,  93,       1044) /* PhysicsState */;
+     , (26636,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (26636,  22, True ) /* Inscribable */

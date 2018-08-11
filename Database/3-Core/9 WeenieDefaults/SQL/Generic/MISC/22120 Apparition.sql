@@ -5,7 +5,7 @@ INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (22120,   1,        128) /* ItemType - Misc */
      , (22120,   3,         67) /* PaletteTemplate - GreenSlime */
      , (22120,  16,          1) /* ItemUseable - No */
-     , (22120,  93,       1044) /* PhysicsState */
+     , (22120,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (22120, 133,          1) /* ShowableOnRadar - ShowNever */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)

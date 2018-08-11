@@ -14,8 +14,8 @@ VALUES (7985,   1,         16) /* ItemType - Creature */
      , (7985,  68,          9) /* TargetingTactic */
      , (7985,  81,          3) /* MaxGeneratedObjects */
      , (7985,  82,          3) /* InitGeneratedObjects */
-     , (7985,  93,       1032) /* PhysicsState */
-     , (7985, 101,        131) /* AiAllowedCombatStyle */
+     , (7985,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
+     , (7985, 101,        131) /* AiAllowedCombatStyle - Unarmed, OneHanded, ThrownWeapon */
      , (7985, 103,          1) /* GeneratorDestructionType - Nothing */
      , (7985, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (7985, 140,          1) /* AiOptions */
@@ -78,7 +78,7 @@ VALUES (7985,   1,   33556774) /* Setup */
      , (7985,   7,  268436039) /* ClothingBase */
      , (7985,   8,  100670961) /* Icon */
      , (7985,  22,  872415365) /* PhysicsEffectTable */
-     , (7985,  35,        465) /* DeathTreasureType */;
+     , (7985,  35,        465) /* DeathTreasureType - Loot Tier: 1 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (7985,   1,  70, 0, 0) /* Strength */
@@ -147,5 +147,5 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 268435537 /* Twitch1 */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (7985, 9,     0,  0, 0, 0.97, False) /* Create Unknown for ContainTreasure */
-     , (7985, 9, 10704,  0, 0, 0.03, False) /* Create Small Niffis Shell for ContainTreasure */;
+VALUES (7985, 9,     0,  0, 0, 0.97, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 1 for ContainTreasure */
+     , (7985, 9, 10704,  0, 0, 0.03, False) /* Create Small Niffis Shell (10704) for ContainTreasure */;

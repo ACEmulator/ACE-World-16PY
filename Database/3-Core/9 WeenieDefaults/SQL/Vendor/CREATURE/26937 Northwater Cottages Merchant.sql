@@ -10,10 +10,10 @@ VALUES (26937,   1,         16) /* ItemType - Creature */
      , (26937,  16,         32) /* ItemUseable - Remote */
      , (26937,  25,         10) /* Level */
      , (26937,  27,          0) /* ArmorType */
-     , (26937,  74,     264192) /* MerchandiseItemTypes */
+     , (26937,  74,     264192) /* MerchandiseItemTypes - Gem, PromissoryNote */
      , (26937,  75,          0) /* MerchandiseMinValue */
      , (26937,  76,    1000000) /* MerchandiseMaxValue */
-     , (26937,  93,    2098204) /* PhysicsState */
+     , (26937,  93,    2098204) /* PhysicsState - Ethereal, ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */
      , (26937, 126,        125) /* VendorHappyMean */
      , (26937, 127,        125) /* VendorHappyVariance */
      , (26937, 133,          4) /* ShowableOnRadar - ShowAlways */
@@ -97,4 +97,4 @@ VALUES (26937,  0,  4,  0,    0,    0,    0,    0,    0,    0,    0,    0,    0,
      , (26937,  8,  4,  2, 0.75,    0,    0,    0,    0,    0,    0,    0,    0,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (26937, 4, 26302, -1, 0, 0, False) /* Create Northwater Cottages Portal Gem for Shop */;
+VALUES (26937, 4, 26302, -1, 0, 0, False) /* Create Northwater Cottages Portal Gem (26302) for Shop */;

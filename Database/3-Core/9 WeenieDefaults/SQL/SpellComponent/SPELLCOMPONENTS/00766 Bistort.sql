@@ -14,7 +14,7 @@ VALUES (766,   1,       4096) /* ItemType - SpellComponents */
      , (766,  15,         10) /* StackUnitValue */
      , (766,  16,          1) /* ItemUseable - No */
      , (766,  19,         10) /* Value */
-     , (766,  93,       1044) /* PhysicsState */;
+     , (766,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (766,  39,     0.4) /* DefaultScale */;

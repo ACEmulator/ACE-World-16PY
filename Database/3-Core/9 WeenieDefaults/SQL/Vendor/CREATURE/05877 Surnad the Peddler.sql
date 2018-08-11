@@ -10,10 +10,10 @@ VALUES (5877,   1,         16) /* ItemType - Creature */
      , (5877,  16,         32) /* ItemUseable - Remote */
      , (5877,  25,          7) /* Level */
      , (5877,  27,          0) /* ArmorType */
-     , (5877,  74,     288789) /* MerchandiseItemTypes */
+     , (5877,  74,     288789) /* MerchandiseItemTypes - MeleeWeapon, Clothing, Creature, Gem, Writable, Key, PromissoryNote */
      , (5877,  75,          0) /* MerchandiseMinValue */
      , (5877,  76,      10000) /* MerchandiseMaxValue */
-     , (5877,  93,    2098200) /* PhysicsState */
+     , (5877,  93,    2098200) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */
      , (5877, 126,        250) /* VendorHappyMean */
      , (5877, 127,        250) /* VendorHappyVariance */
      , (5877, 133,          4) /* ShowableOnRadar - ShowAlways */
@@ -162,65 +162,65 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 318767235 /* Nod */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (5877, 4,    35, -1, 0, 0, False) /* Create Chainmail Basinet for Shop */
-     , (5877, 4,    36, -1, 0, 0, False) /* Create Leather Bracers for Shop */
-     , (5877, 4,    39, -1, 0, 0, False) /* Create Leather Breastplate for Shop */
-     , (5877, 4,    43, -1, 0, 0, False) /* Create Yoroi Breastplate for Shop */
-     , (5877, 4,    44, -1, 0, 0, False) /* Create Buckler for Shop */
-     , (5877, 4,    45, -1, 0, 0, False) /* Create Leather Cap for Shop */
-     , (5877, 4,    55, -1, 0, 0, False) /* Create Chainmail Gauntlets for Shop */
-     , (5877, 4,    64, -1, 0, 0, False) /* Create Yoroi Girth for Shop */
-     , (5877, 4,    65, -1, 0, 0, False) /* Create Leather Greaves for Shop */
-     , (5877, 4,    77, -1, 0, 0, False) /* Create Kabuton for Shop */
-     , (5877, 4,    78, -1, 0, 0, False) /* Create Kote for Shop */
-     , (5877, 4,    80, -1, 0, 0, False) /* Create Chainmail Leggings for Shop */
-     , (5877, 4,    85, -1, 0, 0, False) /* Create Chainmail Coif for Shop */
-     , (5877, 4,    90, -1, 0, 0, False) /* Create Yoroi Pauldrons for Shop */
-     , (5877, 4,    94, -1, 0, 0, False) /* Create Large Round Shield for Shop */
-     , (5877, 4,    95, -1, 0, 0, False) /* Create Tower Shield for Shop */
-     , (5877, 4,    96, -1, 0, 0, False) /* Create Chainmail Shirt for Shop */
-     , (5877, 4,   108, -1, 0, 0, False) /* Create Chainmail Tassets for Shop */
-     , (5877, 4,   109, -1, 0, 0, False) /* Create Leather Tassets for Shop */
-     , (5877, 2,   115,  0, 4, 0.8, False) /* Create Leather Boots for Wield */
-     , (5877, 4,   116, -1, 0, 0, False) /* Create Studded Leather Boots for Shop */
-     , (5877, 2,   118,  0, 2, 0.9, False) /* Create Cap for Wield */
-     , (5877, 4,   119, -1, 0, 0, False) /* Create Cowl for Shop */
-     , (5877, 2,   127,  0, 14, 0.8, False) /* Create Pants for Wield */
-     , (5877, 4,   127, -1, 0, 0, False) /* Create Pants for Shop */
-     , (5877, 2,   130,  0, 9, 0.5, False) /* Create Shirt for Wield */
-     , (5877, 4,   130, -1, 0, 0, False) /* Create Shirt for Shop */
-     , (5877, 4,   132, -1, 0, 0, False) /* Create Shoes for Shop */
-     , (5877, 4,   136, -1, 21, 1, False) /* Create Pack for Shop */
-     , (5877, 4,   136, -1, 8, 1, False) /* Create Pack for Shop */
-     , (5877, 4,   136, -1, 39, 1, False) /* Create Pack for Shop */
-     , (5877, 4,   137, -1, 0, 0, False) /* Create Basket for Shop */
-     , (5877, 4,   151, -1, 0, 0, False) /* Create Empty Flask for Shop */
-     , (5877, 4,   166, -1, 21, 1, False) /* Create Sack for Shop */
-     , (5877, 4,   166, -1, 8, 1, False) /* Create Sack for Shop */
-     , (5877, 4,   166, -1, 39, 1, False) /* Create Sack for Shop */
-     , (5877, 4,   258, -1, 0, 0, False) /* Create Apple for Shop */
-     , (5877, 4,   259, -1, 0, 0, False) /* Create Bread for Shop */
-     , (5877, 4,   261, -1, 0, 0, False) /* Create Cheese for Shop */
-     , (5877, 4,   300, -1, 0, 0, False) /* Create Arrow for Shop */
-     , (5877, 4,   303, -1, 0, 0, False) /* Create Hand Axe for Shop */
-     , (5877, 4,   309, -1, 0, 0, False) /* Create Club for Shop */
-     , (5877, 4,   314, -1, 0, 0, False) /* Create Dagger for Shop */
-     , (5877, 4,   316, -1, 0, 0, False) /* Create Throwing Dart for Shop */
-     , (5877, 4,   329, -1, 0, 0, False) /* Create Knife for Shop */
-     , (5877, 4,   365, -1, 0, 0, False) /* Create Parchment for Shop */
-     , (5877, 4,   413, -1, 0, 0, False) /* Create Chainmail Bracers for Shop */
-     , (5877, 4,   414, -1, 0, 0, False) /* Create Chainmail Breastplate for Shop */
-     , (5877, 4,   415, -1, 0, 0, False) /* Create Chainmail Girth for Shop */
-     , (5877, 4,   416, -1, 0, 0, False) /* Create Chainmail Pauldrons for Shop */
-     , (5877, 4,   512, -1, 0, 0, False) /* Create Good Lockpick for Shop */
-     , (5877, 4,   513, -1, 0, 0, False) /* Create Plain Lockpick for Shop */
-     , (5877, 4,   514, -1, 0, 0, False) /* Create Excellent Lockpick for Shop */
-     , (5877, 4,   515, -1, 0, 0, False) /* Create Superb Lockpick for Shop */
-     , (5877, 4,   516, -1, 0, 0, False) /* Create Peerless Lockpick for Shop */
-     , (5877, 4,   545, -1, 0, 0, False) /* Create Reliable Lockpick for Shop */
-     , (5877, 4,   554, -1, 0, 0, False) /* Create Studded Leather Basinet for Shop */
-     , (5877, 4,  2437, -1, 0, 0, False) /* Create Yoroi Leggings for Shop */
-     , (5877, 4,  2605, -1, 0, 0, False) /* Create Chainmail Greaves for Shop */
-     , (5877, 2, 10696,  0, 4, 0.8, False) /* Create Apron for Wield */
-     , (5877, 4, 22168, -1, 0, 0, False) /* Create Quarter Staff for Shop */
-     , (5877, 4, 24035, -1, 0, 0, False) /* Create The Blazing Staff of Branith for Shop */;
+VALUES (5877, 4,    35, -1, 0, 0, False) /* Create Chainmail Basinet (35) for Shop */
+     , (5877, 4,    36, -1, 0, 0, False) /* Create Leather Bracers (36) for Shop */
+     , (5877, 4,    39, -1, 0, 0, False) /* Create Leather Breastplate (39) for Shop */
+     , (5877, 4,    43, -1, 0, 0, False) /* Create Yoroi Breastplate (43) for Shop */
+     , (5877, 4,    44, -1, 0, 0, False) /* Create Buckler (44) for Shop */
+     , (5877, 4,    45, -1, 0, 0, False) /* Create Leather Cap (45) for Shop */
+     , (5877, 4,    55, -1, 0, 0, False) /* Create Chainmail Gauntlets (55) for Shop */
+     , (5877, 4,    64, -1, 0, 0, False) /* Create Yoroi Girth (64) for Shop */
+     , (5877, 4,    65, -1, 0, 0, False) /* Create Leather Greaves (65) for Shop */
+     , (5877, 4,    77, -1, 0, 0, False) /* Create Kabuton (77) for Shop */
+     , (5877, 4,    78, -1, 0, 0, False) /* Create Kote (78) for Shop */
+     , (5877, 4,    80, -1, 0, 0, False) /* Create Chainmail Leggings (80) for Shop */
+     , (5877, 4,    85, -1, 0, 0, False) /* Create Chainmail Coif (85) for Shop */
+     , (5877, 4,    90, -1, 0, 0, False) /* Create Yoroi Pauldrons (90) for Shop */
+     , (5877, 4,    94, -1, 0, 0, False) /* Create Large Round Shield (94) for Shop */
+     , (5877, 4,    95, -1, 0, 0, False) /* Create Tower Shield (95) for Shop */
+     , (5877, 4,    96, -1, 0, 0, False) /* Create Chainmail Shirt (96) for Shop */
+     , (5877, 4,   108, -1, 0, 0, False) /* Create Chainmail Tassets (108) for Shop */
+     , (5877, 4,   109, -1, 0, 0, False) /* Create Leather Tassets (109) for Shop */
+     , (5877, 2,   115,  0, 4, 0.8, False) /* Create Leather Boots (115) for Wield */
+     , (5877, 4,   116, -1, 0, 0, False) /* Create Studded Leather Boots (116) for Shop */
+     , (5877, 2,   118,  0, 2, 0.9, False) /* Create Cap (118) for Wield */
+     , (5877, 4,   119, -1, 0, 0, False) /* Create Cowl (119) for Shop */
+     , (5877, 2,   127,  0, 14, 0.8, False) /* Create Pants (127) for Wield */
+     , (5877, 4,   127, -1, 0, 0, False) /* Create Pants (127) for Shop */
+     , (5877, 2,   130,  0, 9, 0.5, False) /* Create Shirt (130) for Wield */
+     , (5877, 4,   130, -1, 0, 0, False) /* Create Shirt (130) for Shop */
+     , (5877, 4,   132, -1, 0, 0, False) /* Create Shoes (132) for Shop */
+     , (5877, 4,   136, -1, 21, 1, False) /* Create Pack (136) for Shop */
+     , (5877, 4,   136, -1, 8, 1, False) /* Create Pack (136) for Shop */
+     , (5877, 4,   136, -1, 39, 1, False) /* Create Pack (136) for Shop */
+     , (5877, 4,   137, -1, 0, 0, False) /* Create Basket (137) for Shop */
+     , (5877, 4,   151, -1, 0, 0, False) /* Create Empty Flask (151) for Shop */
+     , (5877, 4,   166, -1, 21, 1, False) /* Create Sack (166) for Shop */
+     , (5877, 4,   166, -1, 8, 1, False) /* Create Sack (166) for Shop */
+     , (5877, 4,   166, -1, 39, 1, False) /* Create Sack (166) for Shop */
+     , (5877, 4,   258, -1, 0, 0, False) /* Create Apple (258) for Shop */
+     , (5877, 4,   259, -1, 0, 0, False) /* Create Bread (259) for Shop */
+     , (5877, 4,   261, -1, 0, 0, False) /* Create Cheese (261) for Shop */
+     , (5877, 4,   300, -1, 0, 0, False) /* Create Arrow (300) for Shop */
+     , (5877, 4,   303, -1, 0, 0, False) /* Create Hand Axe (303) for Shop */
+     , (5877, 4,   309, -1, 0, 0, False) /* Create Club (309) for Shop */
+     , (5877, 4,   314, -1, 0, 0, False) /* Create Dagger (314) for Shop */
+     , (5877, 4,   316, -1, 0, 0, False) /* Create Throwing Dart (316) for Shop */
+     , (5877, 4,   329, -1, 0, 0, False) /* Create Knife (329) for Shop */
+     , (5877, 4,   365, -1, 0, 0, False) /* Create Parchment (365) for Shop */
+     , (5877, 4,   413, -1, 0, 0, False) /* Create Chainmail Bracers (413) for Shop */
+     , (5877, 4,   414, -1, 0, 0, False) /* Create Chainmail Breastplate (414) for Shop */
+     , (5877, 4,   415, -1, 0, 0, False) /* Create Chainmail Girth (415) for Shop */
+     , (5877, 4,   416, -1, 0, 0, False) /* Create Chainmail Pauldrons (416) for Shop */
+     , (5877, 4,   512, -1, 0, 0, False) /* Create Good Lockpick (512) for Shop */
+     , (5877, 4,   513, -1, 0, 0, False) /* Create Plain Lockpick (513) for Shop */
+     , (5877, 4,   514, -1, 0, 0, False) /* Create Excellent Lockpick (514) for Shop */
+     , (5877, 4,   515, -1, 0, 0, False) /* Create Superb Lockpick (515) for Shop */
+     , (5877, 4,   516, -1, 0, 0, False) /* Create Peerless Lockpick (516) for Shop */
+     , (5877, 4,   545, -1, 0, 0, False) /* Create Reliable Lockpick (545) for Shop */
+     , (5877, 4,   554, -1, 0, 0, False) /* Create Studded Leather Basinet (554) for Shop */
+     , (5877, 4,  2437, -1, 0, 0, False) /* Create Yoroi Leggings (2437) for Shop */
+     , (5877, 4,  2605, -1, 0, 0, False) /* Create Chainmail Greaves (2605) for Shop */
+     , (5877, 2, 10696,  0, 4, 0.8, False) /* Create Apron (10696) for Wield */
+     , (5877, 4, 22168, -1, 0, 0, False) /* Create Quarter Staff (22168) for Shop */
+     , (5877, 4, 24035, -1, 0, 0, False) /* Create The Blazing Staff of Branith (24035) for Shop */;

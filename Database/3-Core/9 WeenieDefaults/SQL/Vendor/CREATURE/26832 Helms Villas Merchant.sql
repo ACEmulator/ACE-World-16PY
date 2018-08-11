@@ -10,10 +10,10 @@ VALUES (26832,   1,         16) /* ItemType - Creature */
      , (26832,  16,         32) /* ItemUseable - Remote */
      , (26832,  25,         10) /* Level */
      , (26832,  27,          0) /* ArmorType */
-     , (26832,  74,     264192) /* MerchandiseItemTypes */
+     , (26832,  74,     264192) /* MerchandiseItemTypes - Gem, PromissoryNote */
      , (26832,  75,          0) /* MerchandiseMinValue */
      , (26832,  76,    1000000) /* MerchandiseMaxValue */
-     , (26832,  93,    2098204) /* PhysicsState */
+     , (26832,  93,    2098204) /* PhysicsState - Ethereal, ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */
      , (26832, 126,        125) /* VendorHappyMean */
      , (26832, 127,        125) /* VendorHappyVariance */
      , (26832, 133,          4) /* ShowableOnRadar - ShowAlways */
@@ -97,4 +97,4 @@ VALUES (26832,  0,  4,  0,    0,    0,    0,    0,    0,    0,    0,    0,    0,
      , (26832,  8,  4,  2, 0.75,    0,    0,    0,    0,    0,    0,    0,    0,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (26832, 4, 26197, -1, 0, 0, False) /* Create Helms Villas Portal Gem for Shop */;
+VALUES (26832, 4, 26197, -1, 0, 0, False) /* Create Helms Villas Portal Gem (26197) for Shop */;

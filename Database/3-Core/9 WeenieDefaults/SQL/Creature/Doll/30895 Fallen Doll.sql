@@ -10,7 +10,7 @@ VALUES (30895,   1,         16) /* ItemType - Creature */
      , (30895,  25,        145) /* Level */
      , (30895,  68,          9) /* TargetingTactic */
      , (30895,  72,         19) /* FriendType - Virindi */
-     , (30895,  93,       1032) /* PhysicsState */
+     , (30895,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (30895, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (30895, 140,          1) /* AiOptions */
      , (30895, 146,     129088) /* XpOverride */;
@@ -67,7 +67,7 @@ VALUES (30895,   1,   33558545) /* Setup */
      , (30895,   8,  100671421) /* Icon */
      , (30895,  22,  872415373) /* PhysicsEffectTable */
      , (30895,  30,         86) /* PhysicsScript - BreatheAcid */
-     , (30895,  35,        461) /* DeathTreasureType */;
+     , (30895,  35,        461) /* DeathTreasureType - Loot Tier: 6 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (30895,   1, 190, 0, 0) /* Strength */
@@ -167,8 +167,8 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 268435539 /* Twitch3 */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (30895, 9,     0,  0, 0, 0.9925, False) /* Create Unknown for ContainTreasure */
-     , (30895, 9,     0,  0, 0, 0.5, False) /* Create Unknown for ContainTreasure */
-     , (30895, 9, 25893,  0, 0, 0.0075, False) /* Create Doll's Eye for ContainTreasure */
-     , (30895, 9, 30857,  0, 0, 0.5, False) /* Create Sezzherei's Lair for ContainTreasure */
-     , (30895, 9, 30870,  0, 0, 1, False) /* Create Katar of the Fallen for ContainTreasure */;
+VALUES (30895, 9,     0,  0, 0, 0.9925, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 6 for ContainTreasure */
+     , (30895, 9,     0,  0, 0, 0.5, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 6 for ContainTreasure */
+     , (30895, 9, 25893,  0, 0, 0.0075, False) /* Create Doll's Eye (25893) for ContainTreasure */
+     , (30895, 9, 30857,  0, 0, 0.5, False) /* Create Sezzherei's Lair (30857) for ContainTreasure */
+     , (30895, 9, 30870,  0, 0, 1, False) /* Create Katar of the Fallen (30870) for ContainTreasure */;

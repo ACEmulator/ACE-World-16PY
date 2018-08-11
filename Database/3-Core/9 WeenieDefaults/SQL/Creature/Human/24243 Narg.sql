@@ -10,7 +10,7 @@ VALUES (24243,   1,         16) /* ItemType - Creature */
      , (24243,  16,         32) /* ItemUseable - Remote */
      , (24243,  25,         98) /* Level */
      , (24243,  27,          0) /* ArmorType */
-     , (24243,  93,    6292504) /* PhysicsState */
+     , (24243,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (24243,  95,          8) /* RadarBlipColor - Yellow */
      , (24243, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (24243, 134,         16) /* PlayerKillerStatus - RubberGlue */
@@ -254,8 +254,8 @@ VALUES (@parent_id,  0,  10 /* Tell */, 1, 1, NULL, 'Nice quarterstaff. Bop a bu
      , (@parent_id,  1,  22 /* StampQuest */, 0, 1, NULL, 'GaveWoodToNarg', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (24243, 2,    45,  0, 13, 1, False) /* Create Leather Cap for Wield */
-     , (24243, 2, 24239,  0, 0, 0, False) /* Create Acid Olthoi Axe for Wield */
-     , (24243, 2, 24264,  0, 0, 0, False) /* Create Olthoi Fighter Shirt (Female) for Wield */
-     , (24243, 2, 24267,  0, 0, 0, False) /* Create Olthoi Fighter Shorts (Male) for Wield */
-     , (24243, 2, 24268,  0, 0, 0, False) /* Create Olthoi Fighter Sleeves for Wield */;
+VALUES (24243, 2,    45,  0, 13, 1, False) /* Create Leather Cap (45) for Wield */
+     , (24243, 2, 24239,  0, 0, 0, False) /* Create Acid Olthoi Axe (24239) for Wield */
+     , (24243, 2, 24264,  0, 0, 0, False) /* Create Olthoi Fighter Shirt (Female) (24264) for Wield */
+     , (24243, 2, 24267,  0, 0, 0, False) /* Create Olthoi Fighter Shorts (Male) (24267) for Wield */
+     , (24243, 2, 24268,  0, 0, 0, False) /* Create Olthoi Fighter Sleeves (24268) for Wield */;

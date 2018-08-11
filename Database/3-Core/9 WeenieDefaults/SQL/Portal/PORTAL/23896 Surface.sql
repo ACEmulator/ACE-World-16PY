@@ -4,7 +4,7 @@ VALUES ('23896', 'portaltumerokwarmaskexit', 7) /* Portal */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (23896,   1,      65536) /* ItemType - Portal */
      , (23896,  16,         32) /* ItemUseable - Remote */
-     , (23896,  93,       3084) /* PhysicsState */
+     , (23896,  93,       3084) /* PhysicsState - Ethereal, ReportCollisions, Gravity, LightingOn */
      , (23896, 111,          1) /* PortalBitmask - Unrestricted */
      , (23896, 133,          4) /* ShowableOnRadar - ShowAlways */;
 

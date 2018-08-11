@@ -14,8 +14,8 @@ VALUES (11327,   1,        128) /* ItemType - Misc */
      , (11327,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
      , (11327,  19,         20) /* Value */
      , (11327,  33,          0) /* Bonded - Normal */
-     , (11327,  93,       1044) /* PhysicsState */
-     , (11327,  94,          1) /* TargetType - MeleeWeapon */
+     , (11327,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (11327,  94,          1) /* TargetType - Olthoi */
      , (11327, 114,          0) /* Attuned - Normal */
      , (11327, 150,        103) /* HookPlacement - Hook */
      , (11327, 151,          2) /* HookType - Wall */;

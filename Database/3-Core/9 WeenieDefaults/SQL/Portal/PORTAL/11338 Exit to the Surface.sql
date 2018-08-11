@@ -4,8 +4,8 @@ VALUES ('11338', 'portalbutterflybethelexit-xp', 7) /* Portal */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (11338,   1,      65536) /* ItemType - Portal */
      , (11338,  16,         32) /* ItemUseable - Remote */
-     , (11338,  93,       3084) /* PhysicsState */
-     , (11338, 111,         49) /* PortalBitmask */
+     , (11338,  93,       3084) /* PhysicsState - Ethereal, ReportCollisions, Gravity, LightingOn */
+     , (11338, 111,         49) /* PortalBitmask - Unrestricted, NoSummon, NoRecall */
      , (11338, 133,          4) /* ShowableOnRadar - ShowAlways */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)

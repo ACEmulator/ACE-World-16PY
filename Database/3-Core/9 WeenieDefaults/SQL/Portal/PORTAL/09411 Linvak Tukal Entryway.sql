@@ -4,7 +4,7 @@ VALUES ('9411', 'portallinvaktukalentryway', 7) /* Portal */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (9411,   1,      65536) /* ItemType - Portal */
      , (9411,  16,         32) /* ItemUseable - Remote */
-     , (9411,  93,       3084) /* PhysicsState */
+     , (9411,  93,       3084) /* PhysicsState - Ethereal, ReportCollisions, Gravity, LightingOn */
      , (9411, 111,          1) /* PortalBitmask - Unrestricted */
      , (9411, 133,          4) /* ShowableOnRadar - ShowAlways */;
 

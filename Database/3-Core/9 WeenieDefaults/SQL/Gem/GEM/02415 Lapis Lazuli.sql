@@ -14,7 +14,7 @@ VALUES (2415,   1,       2048) /* ItemType - Gem */
      , (2415,  15,         10) /* StackUnitValue */
      , (2415,  16,          1) /* ItemUseable - No */
      , (2415,  19,         10) /* Value */
-     , (2415,  93,       1044) /* PhysicsState */
+     , (2415,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (2415, 131,         28) /* MaterialType - LapisLazuli */
      , (2415, 169,   16777216) /* TsysMutationData */;
 

@@ -8,9 +8,9 @@ VALUES (25818,   1,        128) /* ItemType - Misc */
      , (25818,   9,          0) /* ValidLocations - None */
      , (25818,  16,         32) /* ItemUseable - Remote */
      , (25818,  19,      24000) /* Value */
-     , (25818,  93,       1044) /* PhysicsState */
+     , (25818,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (25818, 150,        103) /* HookPlacement - Hook */
-     , (25818, 151,          9) /* HookType */
+     , (25818, 151,          9) /* HookType - Floor, Yard */
      , (25818, 197,          1) /* HookGroup */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)

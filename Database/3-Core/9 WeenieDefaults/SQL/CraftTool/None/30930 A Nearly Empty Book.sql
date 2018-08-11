@@ -13,8 +13,8 @@ VALUES (30930,   5,         50) /* EncumbranceVal */
      , (30930,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
      , (30930,  19,          0) /* Value */
      , (30930,  33,          1) /* Bonded - Bonded */
-     , (30930,  93,       1044) /* PhysicsState */
-     , (30930,  94,       8192) /* TargetType - Writable */
+     , (30930,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (30930,  94,       8192) /* TargetType - 8192 */
      , (30930, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)

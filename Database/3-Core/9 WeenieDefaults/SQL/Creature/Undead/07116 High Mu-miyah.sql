@@ -13,8 +13,8 @@ VALUES (7116,   1,         16) /* ItemType - Creature */
      , (7116,  40,          1) /* CombatMode - NonCombat */
      , (7116,  68,          5) /* TargetingTactic */
      , (7116,  72,         14) /* FriendType - Undead */
-     , (7116,  93,       1032) /* PhysicsState */
-     , (7116, 101,        183) /* AiAllowedCombatStyle */
+     , (7116,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
+     , (7116, 101,        183) /* AiAllowedCombatStyle - Unarmed, OneHanded, OneHandedAndShield, Bow, Crossbow, ThrownWeapon */
      , (7116, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (7116, 140,          1) /* AiOptions */
      , (7116, 146,      17772) /* XpOverride */;
@@ -74,7 +74,7 @@ VALUES (7116,   1,   33554433) /* Setup */
      , (7116,   7,  268435645) /* ClothingBase */
      , (7116,   8,  100669122) /* Icon */
      , (7116,  22,  872415272) /* PhysicsEffectTable */
-     , (7116,  35,        462) /* DeathTreasureType */;
+     , (7116,  35,        462) /* DeathTreasureType - Loot Tier: 3 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (7116,   1, 220, 0, 0) /* Strength */
@@ -178,5 +178,5 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 268435537 /* Twitch1 */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (7116, 9,     0,  0, 0, 0.98, False) /* Create Unknown for ContainTreasure */
-     , (7116, 9,  6876,  0, 0, 0.02, False) /* Create Sturdy Iron Key for ContainTreasure */;
+VALUES (7116, 9,     0,  0, 0, 0.98, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 3 for ContainTreasure */
+     , (7116, 9,  6876,  0, 0, 0.02, False) /* Create Sturdy Iron Key (6876) for ContainTreasure */;

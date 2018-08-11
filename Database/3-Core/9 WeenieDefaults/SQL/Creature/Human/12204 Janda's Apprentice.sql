@@ -10,7 +10,7 @@ VALUES (12204,   1,         16) /* ItemType - Creature */
      , (12204,  16,         32) /* ItemUseable - Remote */
      , (12204,  25,         20) /* Level */
      , (12204,  27,          0) /* ArmorType */
-     , (12204,  93,    6292504) /* PhysicsState */
+     , (12204,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (12204,  95,          8) /* RadarBlipColor - Yellow */
      , (12204, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (12204, 134,         16) /* PlayerKillerStatus - RubberGlue */
@@ -354,6 +354,6 @@ VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 1090519043 /* Ready */, NULL, NU
      , (@parent_id,  2,  10 /* Tell */, 0, 1, NULL, 'Making masks is a noble pursuit.  While researching it, I learned how to bring out the inner magic in skeleton skulls.  This ability also works on scarecrow heads, but only during the Festival Season.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (12204, 2,   132,  0, 14, 0.5, False) /* Create Shoes for Wield */
-     , (12204, 2,  2590,  0, 10, 1, False) /* Create Shirt for Wield */
-     , (12204, 2,  2598,  0, 4, 0.8, False) /* Create Pants for Wield */;
+VALUES (12204, 2,   132,  0, 14, 0.5, False) /* Create Shoes (132) for Wield */
+     , (12204, 2,  2590,  0, 10, 1, False) /* Create Shirt (2590) for Wield */
+     , (12204, 2,  2598,  0, 4, 0.8, False) /* Create Pants (2598) for Wield */;

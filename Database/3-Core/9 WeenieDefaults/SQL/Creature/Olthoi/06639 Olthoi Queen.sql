@@ -13,7 +13,7 @@ VALUES (6639,   1,         16) /* ItemType - Creature */
      , (6639,  40,          2) /* CombatMode - Melee */
      , (6639,  68,         13) /* TargetingTactic */
      , (6639,  72,         35) /* FriendType - OlthoiLarvae */
-     , (6639,  93,    4195336) /* PhysicsState */
+     , (6639,  93,    4195336) /* PhysicsState - ReportCollisions, Gravity, EdgeSlide */
      , (6639, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (6639, 140,          1) /* AiOptions */
      , (6639, 146,      16311) /* XpOverride */;
@@ -69,7 +69,7 @@ VALUES (6639,   1,   33555481) /* Setup */
      , (6639,   8,  100667623) /* Icon */
      , (6639,  22,  872415265) /* PhysicsEffectTable */
      , (6639,  30,         85) /* PhysicsScript - BreatheFrost */
-     , (6639,  35,        149) /* DeathTreasureType */;
+     , (6639,  35,        149) /* DeathTreasureType - Loot Tier: 5 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (6639,   1, 300, 0, 0) /* Strength */
@@ -122,6 +122,6 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 268435537 /* Twitch1 */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (6639, 9,     0,  0, 0, 0.98, False) /* Create Unknown for ContainTreasure */
-     , (6639, 1,  3678,  0, 0, 1, False) /* Create Olthoi Carapace for Contain */
-     , (6639, 9,  6876,  0, 0, 0.02, False) /* Create Sturdy Iron Key for ContainTreasure */;
+VALUES (6639, 9,     0,  0, 0, 0.98, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 5 for ContainTreasure */
+     , (6639, 1,  3678,  0, 0, 1, False) /* Create Olthoi Carapace (3678) for Contain */
+     , (6639, 9,  6876,  0, 0, 0.02, False) /* Create Sturdy Iron Key (6876) for ContainTreasure */;

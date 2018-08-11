@@ -13,7 +13,7 @@ VALUES (8015,   1,         16) /* ItemType - Creature */
      , (8015,  40,          2) /* CombatMode - Melee */
      , (8015,  68,          5) /* TargetingTactic */
      , (8015,  69,          4) /* CombatTactic */
-     , (8015,  93,       3080) /* PhysicsState */
+     , (8015,  93,       3080) /* PhysicsState - ReportCollisions, Gravity, LightingOn */
      , (8015, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (8015, 146,      38000) /* XpOverride */;
 
@@ -73,7 +73,7 @@ VALUES (8015,   1,   33556732) /* Setup */
      , (8015,   7,  268435859) /* ClothingBase */
      , (8015,   8,  100670283) /* Icon */
      , (8015,  22,  872415347) /* PhysicsEffectTable */
-     , (8015,  35,         25) /* DeathTreasureType */;
+     , (8015,  35,         25) /* DeathTreasureType - Loot Tier: 4 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (8015,   1, 270, 0, 0) /* Strength */
@@ -128,13 +128,13 @@ VALUES (8015,  94) /* ATTACK_NOTIFICATION_EVENT */
      , (8015, 414) /* PLAYER_DEATH_EVENT */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (8015, 9,     0,  0, 0, 0, False) /* Create Unknown for ContainTreasure */
-     , (8015, 9,     0,  0, 0, 0, False) /* Create Unknown for ContainTreasure */
-     , (8015, 9,     0,  0, 0, 0, False) /* Create Unknown for ContainTreasure */
-     , (8015, 9,     0,  0, 0, 0, False) /* Create Unknown for ContainTreasure */
-     , (8015, 9,     0,  0, 0, 0, False) /* Create Unknown for ContainTreasure */
-     , (8015, 9,  8118,  0, 0, 1, False) /* Create Shendolain Gem for ContainTreasure */
-     , (8015, 9,  8118,  0, 0, 1, False) /* Create Shendolain Gem for ContainTreasure */
-     , (8015, 9,  8118,  0, 0, 1, False) /* Create Shendolain Gem for ContainTreasure */
-     , (8015, 9,  8118,  0, 0, 1, False) /* Create Shendolain Gem for ContainTreasure */
-     , (8015, 9,  8118,  0, 0, 1, False) /* Create Shendolain Gem for ContainTreasure */;
+VALUES (8015, 9,     0,  0, 0, 0, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 4 for ContainTreasure */
+     , (8015, 9,     0,  0, 0, 0, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 4 for ContainTreasure */
+     , (8015, 9,     0,  0, 0, 0, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 4 for ContainTreasure */
+     , (8015, 9,     0,  0, 0, 0, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 4 for ContainTreasure */
+     , (8015, 9,     0,  0, 0, 0, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 4 for ContainTreasure */
+     , (8015, 9,  8118,  0, 0, 1, False) /* Create Shendolain Gem (8118) for ContainTreasure */
+     , (8015, 9,  8118,  0, 0, 1, False) /* Create Shendolain Gem (8118) for ContainTreasure */
+     , (8015, 9,  8118,  0, 0, 1, False) /* Create Shendolain Gem (8118) for ContainTreasure */
+     , (8015, 9,  8118,  0, 0, 1, False) /* Create Shendolain Gem (8118) for ContainTreasure */
+     , (8015, 9,  8118,  0, 0, 1, False) /* Create Shendolain Gem (8118) for ContainTreasure */;

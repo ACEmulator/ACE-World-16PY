@@ -12,7 +12,7 @@ VALUES (1243,   1,         16) /* ItemType - Creature */
      , (1243,  27,          0) /* ArmorType */
      , (1243,  40,          2) /* CombatMode - Melee */
      , (1243,  68,          3) /* TargetingTactic */
-     , (1243,  93,       1032) /* PhysicsState */
+     , (1243,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (1243, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (1243, 146,       4283) /* XpOverride */;
 
@@ -68,7 +68,7 @@ VALUES (1243,   1,   33554493) /* Setup */
      , (1243,   8,  100667451) /* Icon */
      , (1243,  22,  872415267) /* PhysicsEffectTable */
      , (1243,  30,         85) /* PhysicsScript - BreatheFrost */
-     , (1243,  35,        161) /* DeathTreasureType */;
+     , (1243,  35,        161) /* DeathTreasureType - Loot Tier: 4 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (1243,   1, 100, 0, 0) /* Strength */
@@ -135,6 +135,6 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 268435538 /* Twitch2 */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (1243, 9,     0,  0, 0, 0.99, False) /* Create Unknown for ContainTreasure */
-     , (1243, 1,  1250,  0, 0, 0, False) /* Create Key for Contain */
-     , (1243, 9,  6876,  0, 0, 0.01, False) /* Create Sturdy Iron Key for ContainTreasure */;
+VALUES (1243, 9,     0,  0, 0, 0.99, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 4 for ContainTreasure */
+     , (1243, 1,  1250,  0, 0, 0, False) /* Create Key (1250) for Contain */
+     , (1243, 9,  6876,  0, 0, 0.01, False) /* Create Sturdy Iron Key (6876) for ContainTreasure */;

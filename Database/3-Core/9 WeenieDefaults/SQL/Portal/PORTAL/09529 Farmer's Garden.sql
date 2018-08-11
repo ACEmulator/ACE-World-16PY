@@ -4,8 +4,8 @@ VALUES ('9529', 'portalbunnygarden', 7) /* Portal */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (9529,   1,      65536) /* ItemType - Portal */
      , (9529,  16,         32) /* ItemUseable - Remote */
-     , (9529,  93,       3084) /* PhysicsState */
-     , (9529, 111,         17) /* PortalBitmask */
+     , (9529,  93,       3084) /* PhysicsState - Ethereal, ReportCollisions, Gravity, LightingOn */
+     , (9529, 111,         17) /* PortalBitmask - Unrestricted, NoSummon */
      , (9529, 133,          4) /* ShowableOnRadar - ShowAlways */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)

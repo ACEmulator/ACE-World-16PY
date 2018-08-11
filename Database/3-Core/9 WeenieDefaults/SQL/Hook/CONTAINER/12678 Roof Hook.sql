@@ -9,7 +9,7 @@ VALUES (12678,   1,        512) /* ItemType - Container */
      , (12678,   8,          5) /* Mass */
      , (12678,  16,         48) /* ItemUseable - ViewedRemote */
      , (12678,  19,         10) /* Value */
-     , (12678,  93,         20) /* PhysicsState */
+     , (12678,  93,         20) /* PhysicsState - Ethereal, IgnoreCollisions */
      , (12678, 151,         16) /* HookType - Roof */
      , (12678, 152,         -1) /* HookItemType */;
 

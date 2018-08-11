@@ -14,7 +14,7 @@ VALUES (756,   1,       4096) /* ItemType - SpellComponents */
      , (756,  15,          5) /* StackUnitValue */
      , (756,  16,          1) /* ItemUseable - No */
      , (756,  19,          5) /* Value */
-     , (756,  93,       1044) /* PhysicsState */;
+     , (756,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (756,   1, 'Cobalt') /* Name */

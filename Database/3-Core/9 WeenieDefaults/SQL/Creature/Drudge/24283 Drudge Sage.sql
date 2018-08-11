@@ -12,8 +12,8 @@ VALUES (24283,   1,         16) /* ItemType - Creature */
      , (24283,  27,          0) /* ArmorType */
      , (24283,  40,          2) /* CombatMode - Melee */
      , (24283,  68,          9) /* TargetingTactic */
-     , (24283,  93,       1032) /* PhysicsState */
-     , (24283, 101,        131) /* AiAllowedCombatStyle */
+     , (24283,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
+     , (24283, 101,        131) /* AiAllowedCombatStyle - Unarmed, OneHanded, ThrownWeapon */
      , (24283, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (24283, 140,          1) /* AiOptions */
      , (24283, 146,      30110) /* XpOverride */;
@@ -73,8 +73,11 @@ VALUES (24283,   1,   33556445) /* Setup */
      , (24283,   7,  268436614) /* ClothingBase */
      , (24283,   8,  100667445) /* Icon */
      , (24283,  22,  872415258) /* PhysicsEffectTable */
-     , (24283,  32,        297) /* WieldedTreasureType */
-     , (24283,  35,        448) /* DeathTreasureType */;
+     , (24283,  32,        297) /* WieldedTreasureType - 
+                                   Wield Tachi (23699) | Probability: 33%
+                                   Wield Yaoji (23709) | Probability: 33%
+                                   Wield Acid Yari (23721) | Probability: 34% */
+     , (24283,  35,        448) /* DeathTreasureType - Loot Tier: 4 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (24283,   1, 350, 0, 0) /* Strength */
@@ -206,7 +209,7 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 268435537 /* Twitch1 */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (24283, 9,     0,  0, 0, 0.99, False) /* Create Unknown for ContainTreasure */
-     , (24283, 9,     0,  0, 0, 0.97, False) /* Create Unknown for ContainTreasure */
-     , (24283, 9,  6876,  0, 0, 0.01, False) /* Create Sturdy Iron Key for ContainTreasure */
-     , (24283, 9, 24841,  0, 0, 0.03, False) /* Create Sage Drudge Charm for ContainTreasure */;
+VALUES (24283, 9,     0,  0, 0, 0.99, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 4 for ContainTreasure */
+     , (24283, 9,     0,  0, 0, 0.97, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 4 for ContainTreasure */
+     , (24283, 9,  6876,  0, 0, 0.01, False) /* Create Sturdy Iron Key (6876) for ContainTreasure */
+     , (24283, 9, 24841,  0, 0, 0.03, False) /* Create Sage Drudge Charm (24841) for ContainTreasure */;

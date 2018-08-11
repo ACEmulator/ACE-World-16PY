@@ -4,8 +4,8 @@ VALUES ('24089', 'portal-rb5', 7) /* Portal */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (24089,   1,      65536) /* ItemType - Portal */
      , (24089,  16,         32) /* ItemUseable - Remote */
-     , (24089,  93,       3084) /* PhysicsState */
-     , (24089, 111,         49) /* PortalBitmask */
+     , (24089,  93,       3084) /* PhysicsState - Ethereal, ReportCollisions, Gravity, LightingOn */
+     , (24089, 111,         49) /* PortalBitmask - Unrestricted, NoSummon, NoRecall */
      , (24089, 133,          4) /* ShowableOnRadar - ShowAlways */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)

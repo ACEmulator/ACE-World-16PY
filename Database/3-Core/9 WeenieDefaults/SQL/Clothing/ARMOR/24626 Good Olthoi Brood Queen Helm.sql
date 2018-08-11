@@ -13,7 +13,7 @@ VALUES (24626,   1,          2) /* ItemType - Armor */
      , (24626,  27,         32) /* ArmorType */
      , (24626,  28,        400) /* ArmorLevel */
      , (24626,  36,       9999) /* ResistMagic */
-     , (24626,  93,       1044) /* PhysicsState */
+     , (24626,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (24626, 150,        103) /* HookPlacement - Hook */
      , (24626, 151,          2) /* HookType - Wall */
      , (24626, 158,          7) /* WieldRequirements - Level */

@@ -13,7 +13,7 @@ VALUES (24303,   1,         16) /* ItemType - Creature */
      , (24303,  40,          2) /* CombatMode - Melee */
      , (24303,  68,         13) /* TargetingTactic */
      , (24303,  72,         35) /* FriendType - OlthoiLarvae */
-     , (24303,  93,       1032) /* PhysicsState */
+     , (24303,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (24303, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (24303, 140,          1) /* AiOptions */
      , (24303, 146,      82958) /* XpOverride */;
@@ -68,7 +68,7 @@ VALUES (24303,   1,   33557165) /* Setup */
      , (24303,   8,  100667623) /* Icon */
      , (24303,  22,  872415379) /* PhysicsEffectTable */
      , (24303,  30,         85) /* PhysicsScript - BreatheFrost */
-     , (24303,  35,        449) /* DeathTreasureType */;
+     , (24303,  35,        449) /* DeathTreasureType - Loot Tier: 6 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (24303,   1, 380, 0, 0) /* Strength */

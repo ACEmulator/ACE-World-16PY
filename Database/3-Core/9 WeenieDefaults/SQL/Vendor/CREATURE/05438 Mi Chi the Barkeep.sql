@@ -10,10 +10,10 @@ VALUES (5438,   1,         16) /* ItemType - Creature */
      , (5438,  16,         32) /* ItemUseable - Remote */
      , (5438,  25,          7) /* Level */
      , (5438,  27,          0) /* ArmorType */
-     , (5438,  74,     262176) /* MerchandiseItemTypes */
+     , (5438,  74,     262176) /* MerchandiseItemTypes - Food, PromissoryNote */
      , (5438,  75,          0) /* MerchandiseMinValue */
      , (5438,  76,     100000) /* MerchandiseMaxValue */
-     , (5438,  93,    2098200) /* PhysicsState */
+     , (5438,  93,    2098200) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */
      , (5438, 126,        125) /* VendorHappyMean */
      , (5438, 127,        125) /* VendorHappyVariance */
      , (5438, 133,          4) /* ShowableOnRadar - ShowAlways */
@@ -163,25 +163,25 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 318767235 /* Nod */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (5438, 2,   115,  0, 9, 1, False) /* Create Leather Boots for Wield */
-     , (5438, 2,   117,  0, 5, 0, False) /* Create Breeches for Wield */
-     , (5438, 2,   134,  0, 5, 0, False) /* Create Tunic for Wield */
-     , (5438, 4,   263, -1, 0, 0, False) /* Create Fish for Shop */
-     , (5438, 4,   264, -1, 0, 0, False) /* Create Grapes for Shop */
-     , (5438, 4,  2451, -1, 0, 0, False) /* Create Ale for Shop */
-     , (5438, 4,  2455, -1, 0, 0, False) /* Create Grape Juice for Shop */
-     , (5438, 4,  2456, -1, 0, 0, False) /* Create Green Tea for Shop */
-     , (5438, 4,  2468, -1, 0, 0, False) /* Create Sake for Shop */
-     , (5438, 4,  2469, -1, 0, 0, False) /* Create Small Beer for Shop */
-     , (5438, 4,  4709, -1, 0, 0, False) /* Create Apple Pie for Shop */
-     , (5438, 4,  4728, -1, 0, 0, False) /* Create Fried Chicken for Shop */
-     , (5438, 4,  5533, -1, 0, 0, False) /* Create Damp Cave Rumor for Shop */
-     , (5438, 4,  5535, -1, 0, 0, False) /* Create Mountain Sewer Directions for Shop */
-     , (5438, 4,  5537, -1, 0, 0, False) /* Create Smugglers' Fort Directions for Shop */
-     , (5438, 4,  8378, -1, 0, 0, False) /* Create Beer Stein for Shop */
-     , (5438, 2, 10696,  0, 18, 1, False) /* Create Apron for Wield */
-     , (5438, 4, 11929, -1, 0, 0, False) /* Create A Call To Arms for Shop */
-     , (5438, 4, 15808, -1, 0, 0, False) /* Create Plea for Help for Shop */
-     , (5438, 4, 20229, -1, 0, 0, False) /* Create Rumor of an Artifact for Shop */
-     , (5438, 4, 25983, -1, 0, 0, False) /* Create Sparring Pants for Shop */
-     , (5438, 4, 25984, -1, 0, 0, False) /* Create Sparring Shirt for Shop */;
+VALUES (5438, 2,   115,  0, 9, 1, False) /* Create Leather Boots (115) for Wield */
+     , (5438, 2,   117,  0, 5, 0, False) /* Create Breeches (117) for Wield */
+     , (5438, 2,   134,  0, 5, 0, False) /* Create Tunic (134) for Wield */
+     , (5438, 4,   263, -1, 0, 0, False) /* Create Fish (263) for Shop */
+     , (5438, 4,   264, -1, 0, 0, False) /* Create Grapes (264) for Shop */
+     , (5438, 4,  2451, -1, 0, 0, False) /* Create Ale (2451) for Shop */
+     , (5438, 4,  2455, -1, 0, 0, False) /* Create Grape Juice (2455) for Shop */
+     , (5438, 4,  2456, -1, 0, 0, False) /* Create Green Tea (2456) for Shop */
+     , (5438, 4,  2468, -1, 0, 0, False) /* Create Sake (2468) for Shop */
+     , (5438, 4,  2469, -1, 0, 0, False) /* Create Small Beer (2469) for Shop */
+     , (5438, 4,  4709, -1, 0, 0, False) /* Create Apple Pie (4709) for Shop */
+     , (5438, 4,  4728, -1, 0, 0, False) /* Create Fried Chicken (4728) for Shop */
+     , (5438, 4,  5533, -1, 0, 0, False) /* Create Damp Cave Rumor (5533) for Shop */
+     , (5438, 4,  5535, -1, 0, 0, False) /* Create Mountain Sewer Directions (5535) for Shop */
+     , (5438, 4,  5537, -1, 0, 0, False) /* Create Smugglers' Fort Directions (5537) for Shop */
+     , (5438, 4,  8378, -1, 0, 0, False) /* Create Beer Stein (8378) for Shop */
+     , (5438, 2, 10696,  0, 18, 1, False) /* Create Apron (10696) for Wield */
+     , (5438, 4, 11929, -1, 0, 0, False) /* Create A Call To Arms (11929) for Shop */
+     , (5438, 4, 15808, -1, 0, 0, False) /* Create Plea for Help (15808) for Shop */
+     , (5438, 4, 20229, -1, 0, 0, False) /* Create Rumor of an Artifact (20229) for Shop */
+     , (5438, 4, 25983, -1, 0, 0, False) /* Create Sparring Pants (25983) for Shop */
+     , (5438, 4, 25984, -1, 0, 0, False) /* Create Sparring Shirt (25984) for Shop */;

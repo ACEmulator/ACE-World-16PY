@@ -4,8 +4,8 @@ VALUES ('23043', 'portalcrystalwarehouserobbed', 7) /* Portal */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (23043,   1,      65536) /* ItemType - Portal */
      , (23043,  16,         32) /* ItemUseable - Remote */
-     , (23043,  93,       3084) /* PhysicsState */
-     , (23043, 111,         49) /* PortalBitmask */
+     , (23043,  93,       3084) /* PhysicsState - Ethereal, ReportCollisions, Gravity, LightingOn */
+     , (23043, 111,         49) /* PortalBitmask - Unrestricted, NoSummon, NoRecall */
      , (23043, 133,          4) /* ShowableOnRadar - ShowAlways */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)

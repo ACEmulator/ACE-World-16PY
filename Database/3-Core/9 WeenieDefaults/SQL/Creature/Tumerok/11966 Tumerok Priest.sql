@@ -11,8 +11,8 @@ VALUES (11966,   1,         16) /* ItemType - Creature */
      , (11966,  25,         35) /* Level */
      , (11966,  27,          0) /* ArmorType */
      , (11966,  68,          5) /* TargetingTactic */
-     , (11966,  93,       1032) /* PhysicsState */
-     , (11966, 101,        183) /* AiAllowedCombatStyle */
+     , (11966,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
+     , (11966, 101,        183) /* AiAllowedCombatStyle - Unarmed, OneHanded, OneHandedAndShield, Bow, Crossbow, ThrownWeapon */
      , (11966, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (11966, 140,          1) /* AiOptions */
      , (11966, 146,       1500) /* XpOverride */;
@@ -71,8 +71,19 @@ VALUES (11966,   1,   33554496) /* Setup */
      , (11966,   7,  268435647) /* ClothingBase */
      , (11966,   8,  100667452) /* Icon */
      , (11966,  22,  872415270) /* PhysicsEffectTable */
-     , (11966,  32,         52) /* WieldedTreasureType */
-     , (11966,  35,        221) /* DeathTreasureType */;
+     , (11966,  32,         52) /* WieldedTreasureType - 
+                                   Wield Battle Axe (301) | Probability: 10%
+                                   Wield Club (309) | Probability: 8%
+                                   Wield Dabus (313) | Probability: 10%
+                                   Wield Kasrullah (325) | Probability: 7%
+                                   Wield Mace (331) | Probability: 10%
+                                   Wield Morning Star (332) | Probability: 20%
+                                   Wield Shou-ono (342) | Probability: 10%
+                                   Wield Silifi (344) | Probability: 10%
+                                   Wield Tofun (356) | Probability: 10%
+                                   Wield 4x Throwing Axe (304) | Probability: 1%
+                                   Wield 4x Throwing Club (310) | Probability: 1% */
+     , (11966,  35,        221) /* DeathTreasureType - Loot Tier: 4 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (11966,   1,  80, 0, 0) /* Strength */
@@ -162,5 +173,5 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   7 /* PhysScript */, 0, 0.5, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 8 /* AttribUpOrange */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (11966, 9,     0,  0, 0, 0.97, False) /* Create Unknown for ContainTreasure */
-     , (11966, 9,  7825,  0, 0, 0.03, False) /* Create Brown Beans for ContainTreasure */;
+VALUES (11966, 9,     0,  0, 0, 0.97, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 4 for ContainTreasure */
+     , (11966, 9,  7825,  0, 0, 0.03, False) /* Create Brown Beans (7825) for ContainTreasure */;

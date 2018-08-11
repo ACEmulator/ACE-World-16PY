@@ -10,10 +10,10 @@ VALUES (26833,   1,         16) /* ItemType - Creature */
      , (26833,  16,         32) /* ItemUseable - Remote */
      , (26833,  25,         10) /* Level */
      , (26833,  27,          0) /* ArmorType */
-     , (26833,  74,     264192) /* MerchandiseItemTypes */
+     , (26833,  74,     264192) /* MerchandiseItemTypes - Gem, PromissoryNote */
      , (26833,  75,          0) /* MerchandiseMinValue */
      , (26833,  76,    1000000) /* MerchandiseMaxValue */
-     , (26833,  93,    2098204) /* PhysicsState */
+     , (26833,  93,    2098204) /* PhysicsState - Ethereal, ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */
      , (26833, 126,        125) /* VendorHappyMean */
      , (26833, 127,        125) /* VendorHappyVariance */
      , (26833, 133,          4) /* ShowableOnRadar - ShowAlways */
@@ -97,4 +97,4 @@ VALUES (26833,  0,  4,  0,    0,    0,    0,    0,    0,    0,    0,    0,    0,
      , (26833,  8,  4,  2, 0.75,    0,    0,    0,    0,    0,    0,    0,    0,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (26833, 4, 26198, -1, 0, 0, False) /* Create Hermit Hill Cottages Portal Gem for Shop */;
+VALUES (26833, 4, 26198, -1, 0, 0, False) /* Create Hermit Hill Cottages Portal Gem (26198) for Shop */;

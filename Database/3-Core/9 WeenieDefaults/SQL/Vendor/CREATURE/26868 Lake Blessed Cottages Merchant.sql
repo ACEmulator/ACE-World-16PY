@@ -10,10 +10,10 @@ VALUES (26868,   1,         16) /* ItemType - Creature */
      , (26868,  16,         32) /* ItemUseable - Remote */
      , (26868,  25,         10) /* Level */
      , (26868,  27,          0) /* ArmorType */
-     , (26868,  74,     264192) /* MerchandiseItemTypes */
+     , (26868,  74,     264192) /* MerchandiseItemTypes - Gem, PromissoryNote */
      , (26868,  75,          0) /* MerchandiseMinValue */
      , (26868,  76,    1000000) /* MerchandiseMaxValue */
-     , (26868,  93,    2098204) /* PhysicsState */
+     , (26868,  93,    2098204) /* PhysicsState - Ethereal, ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */
      , (26868, 126,        125) /* VendorHappyMean */
      , (26868, 127,        125) /* VendorHappyVariance */
      , (26868, 133,          4) /* ShowableOnRadar - ShowAlways */
@@ -97,4 +97,4 @@ VALUES (26868,  0,  4,  0,    0,    0,    0,    0,    0,    0,    0,    0,    0,
      , (26868,  8,  4,  2, 0.75,    0,    0,    0,    0,    0,    0,    0,    0,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (26868, 4, 26233, -1, 0, 0, False) /* Create Lake Blessed Cottages Portal Gem for Shop */;
+VALUES (26868, 4, 26233, -1, 0, 0, False) /* Create Lake Blessed Cottages Portal Gem (26233) for Shop */;

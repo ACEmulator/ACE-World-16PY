@@ -15,7 +15,7 @@ VALUES (23904,   1,       2048) /* ItemType - Gem */
      , (23904,  16,          1) /* ItemUseable - No */
      , (23904,  19,        500) /* Value */
      , (23904,  33,          1) /* Bonded - Bonded */
-     , (23904,  93,       1044) /* PhysicsState */
+     , (23904,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (23904, 114,          1) /* Attuned - Attuned */
      , (23904, 150,        103) /* HookPlacement - Hook */
      , (23904, 151,          2) /* HookType - Wall */;

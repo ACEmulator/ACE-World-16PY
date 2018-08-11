@@ -4,7 +4,7 @@ VALUES ('8475', 'portalmudcaveexit', 7) /* Portal */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (8475,   1,      65536) /* ItemType - Portal */
      , (8475,  16,         32) /* ItemUseable - Remote */
-     , (8475,  93,       3084) /* PhysicsState */
+     , (8475,  93,       3084) /* PhysicsState - Ethereal, ReportCollisions, Gravity, LightingOn */
      , (8475, 111,          1) /* PortalBitmask - Unrestricted */
      , (8475, 133,          4) /* ShowableOnRadar - ShowAlways */;
 

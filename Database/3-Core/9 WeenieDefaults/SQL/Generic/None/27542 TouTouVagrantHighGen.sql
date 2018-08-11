@@ -4,7 +4,7 @@ VALUES ('27542', 'toutouvagranthighgen', 1) /* Generic */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (27542,  81,          2) /* MaxGeneratedObjects */
      , (27542,  82,          2) /* InitGeneratedObjects */
-     , (27542,  93,       1044) /* PhysicsState */
+     , (27542,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (27542, 142,          3) /* GeneratorTimeType - Event */
      , (27542, 145,          2) /* GeneratorEndDestructionType - Destroy */;
 
@@ -27,5 +27,5 @@ VALUES (27542,   1,   33555051) /* Setup */
      , (27542,   8,  100667494) /* Icon */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (27542, 0.5, 27518, 120, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0)
-     , (27542, 1, 27516, 120, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0);
+VALUES (27542, 0.5, 27518, 120, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Burun Ruuk Seer (27518) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Scatter */
+     , (27542, 1, 27516, 120, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Burun Ruuk Lout (27516) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Scatter */;

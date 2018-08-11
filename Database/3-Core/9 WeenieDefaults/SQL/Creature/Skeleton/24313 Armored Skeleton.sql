@@ -12,8 +12,8 @@ VALUES (24313,   1,         16) /* ItemType - Creature */
      , (24313,  27,          0) /* ArmorType */
      , (24313,  40,          1) /* CombatMode - NonCombat */
      , (24313,  68,          5) /* TargetingTactic */
-     , (24313,  93,       1032) /* PhysicsState */
-     , (24313, 101,        183) /* AiAllowedCombatStyle */
+     , (24313,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
+     , (24313, 101,        183) /* AiAllowedCombatStyle - Unarmed, OneHanded, OneHandedAndShield, Bow, Crossbow, ThrownWeapon */
      , (24313, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (24313, 140,          1) /* AiOptions */
      , (24313, 146,      31088) /* XpOverride */;
@@ -68,8 +68,21 @@ VALUES (24313,   1,   33558396) /* Setup */
      , (24313,   7,  268436644) /* ClothingBase */
      , (24313,   8,  100669124) /* Icon */
      , (24313,  22,  872415269) /* PhysicsEffectTable */
-     , (24313,  32,        203) /* WieldedTreasureType */
-     , (24313,  35,        448) /* DeathTreasureType */;
+     , (24313,  32,        203) /* WieldedTreasureType - 
+                                   Wield Yumi (23734) | Probability: 20%
+                                   Wield 20x Deadly Arrow (15429) | Probability: 100%
+                                   Wield Heavy Crossbow (23665) | Probability: 40%
+                                   Wield 20x Deadly Quarrel (15438) | Probability: 100%
+                                   Wield Katar (23674) | Probability: 12%
+                                   Wield Cestus (23637) | Probability: 12%
+                                   Wield Nekode (23680) | Probability: 12%
+                                   Wield Tachi (23700) | Probability: 12%
+                                   Wield Spear (23696) | Probability: 12%
+                                   Wield Fire Yaoji (23718) | Probability: 12%
+                                   Wield Yaoji (23710) | Probability: 12%
+                                   Wield Fire Tachi (23707) | Probability: 12%
+                                   Wield Kite Shield (23684) | Probability: 75% */
+     , (24313,  35,        448) /* DeathTreasureType - Loot Tier: 4 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (24313,   1, 270, 0, 0) /* Strength */
@@ -123,13 +136,13 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 1090519060 /* Sleeping */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (24313, 9,     0,  0, 0, 0.9, False) /* Create Unknown for ContainTreasure */
-     , (24313, 9,     0,  0, 0, 0.96, False) /* Create Unknown for ContainTreasure */
-     , (24313, 9,     0,  0, 0, 0.95, False) /* Create Unknown for ContainTreasure */
-     , (24313, 9,     0,  0, 0, 0.95, False) /* Create Unknown for ContainTreasure */
-     , (24313, 9,     0,  0, 0, 0.95, False) /* Create Unknown for ContainTreasure */
-     , (24313, 9,  3687,  0, 0, 0.1, False) /* Create Skeleton's Skull for ContainTreasure */
-     , (24313, 9,  9310,  0, 0, 0.04, False) /* Create A Large Mnemosyne for ContainTreasure */
-     , (24313, 9, 28871,  0, 0, 0.05, False) /* Create Armored Skeletal Arm  for ContainTreasure */
-     , (24313, 9, 28874,  0, 0, 0.05, False) /* Create Armored Skeletal Legs for ContainTreasure */
-     , (24313, 9, 28892,  0, 0, 0.05, False) /* Create Armored Skeletal Torso for ContainTreasure */;
+VALUES (24313, 9,     0,  0, 0, 0.9, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 4 for ContainTreasure */
+     , (24313, 9,     0,  0, 0, 0.96, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 4 for ContainTreasure */
+     , (24313, 9,     0,  0, 0, 0.95, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 4 for ContainTreasure */
+     , (24313, 9,     0,  0, 0, 0.95, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 4 for ContainTreasure */
+     , (24313, 9,     0,  0, 0, 0.95, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 4 for ContainTreasure */
+     , (24313, 9,  3687,  0, 0, 0.1, False) /* Create Skeleton's Skull (3687) for ContainTreasure */
+     , (24313, 9,  9310,  0, 0, 0.04, False) /* Create A Large Mnemosyne (9310) for ContainTreasure */
+     , (24313, 9, 28871,  0, 0, 0.05, False) /* Create Armored Skeletal Arm  (28871) for ContainTreasure */
+     , (24313, 9, 28874,  0, 0, 0.05, False) /* Create Armored Skeletal Legs (28874) for ContainTreasure */
+     , (24313, 9, 28892,  0, 0, 0.05, False) /* Create Armored Skeletal Torso (28892) for ContainTreasure */;

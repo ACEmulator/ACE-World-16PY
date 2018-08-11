@@ -10,10 +10,10 @@ VALUES (5640,   1,         16) /* ItemType - Creature */
      , (5640,  16,         32) /* ItemUseable - Remote */
      , (5640,  25,          7) /* Level */
      , (5640,  27,          0) /* ArmorType */
-     , (5640,  74,     262688) /* MerchandiseItemTypes */
+     , (5640,  74,     262688) /* MerchandiseItemTypes - Food, Container, PromissoryNote */
      , (5640,  75,          0) /* MerchandiseMinValue */
      , (5640,  76,      25000) /* MerchandiseMaxValue */
-     , (5640,  93,    2098200) /* PhysicsState */
+     , (5640,  93,    2098200) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */
      , (5640, 126,        125) /* VendorHappyMean */
      , (5640, 127,        125) /* VendorHappyVariance */
      , (5640, 133,          4) /* ShowableOnRadar - ShowAlways */
@@ -179,14 +179,14 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 318767235 /* Nod */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (5640, 2,   115,  0, 4, 0.8, False) /* Create Leather Boots for Wield */
-     , (5640, 4,   260, -1, 0, 0, False) /* Create Cabbage for Shop */
-     , (5640, 4,   547, -1, 0, 0, False) /* Create Brimstone-cap Mushroom for Shop */
-     , (5640, 2,  2590,  0, 9, 0, False) /* Create Shirt for Wield */
-     , (5640, 2,  2604,  0, 9, 0.5, False) /* Create Breeches for Wield */
-     , (5640, 4,  4746, -1, 0, 0, False) /* Create Water for Shop */
-     , (5640, 4,  4761, -1, 0, 0, False) /* Create Flour for Shop */
-     , (5640, 4,  4762, -1, 0, 0, False) /* Create Frying Pan for Shop */
-     , (5640, 4,  4763, -1, 0, 0, False) /* Create Honey for Shop */
-     , (5640, 4,  4767, -1, 0, 0, False) /* Create Skewer for Shop */
-     , (5640, 2, 10696,  0, 6, 0, False) /* Create Apron for Wield */;
+VALUES (5640, 2,   115,  0, 4, 0.8, False) /* Create Leather Boots (115) for Wield */
+     , (5640, 4,   260, -1, 0, 0, False) /* Create Cabbage (260) for Shop */
+     , (5640, 4,   547, -1, 0, 0, False) /* Create Brimstone-cap Mushroom (547) for Shop */
+     , (5640, 2,  2590,  0, 9, 0, False) /* Create Shirt (2590) for Wield */
+     , (5640, 2,  2604,  0, 9, 0.5, False) /* Create Breeches (2604) for Wield */
+     , (5640, 4,  4746, -1, 0, 0, False) /* Create Water (4746) for Shop */
+     , (5640, 4,  4761, -1, 0, 0, False) /* Create Flour (4761) for Shop */
+     , (5640, 4,  4762, -1, 0, 0, False) /* Create Frying Pan (4762) for Shop */
+     , (5640, 4,  4763, -1, 0, 0, False) /* Create Honey (4763) for Shop */
+     , (5640, 4,  4767, -1, 0, 0, False) /* Create Skewer (4767) for Shop */
+     , (5640, 2, 10696,  0, 6, 0, False) /* Create Apron (10696) for Wield */;

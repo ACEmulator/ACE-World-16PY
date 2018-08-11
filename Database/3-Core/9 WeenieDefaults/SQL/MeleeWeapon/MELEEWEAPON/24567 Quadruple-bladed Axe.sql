@@ -18,7 +18,7 @@ VALUES (24567,   1,          1) /* ItemType - MeleeWeapon */
      , (24567,  48,          1) /* WeaponSkill - Axe */
      , (24567,  49,         55) /* WeaponTime */
      , (24567,  51,          1) /* CombatUse - Melee */
-     , (24567,  93,       1044) /* PhysicsState */
+     , (24567,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (24567, 107,       1000) /* ItemCurMana */
      , (24567, 108,       1000) /* ItemMaxMana */
      , (24567, 150,        103) /* HookPlacement - Hook */

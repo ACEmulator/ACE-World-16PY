@@ -18,7 +18,7 @@ VALUES (23529,   1,        256) /* ItemType - MissileWeapon */
      , (23529,  50,         32) /* AmmoType */
      , (23529,  51,          2) /* CombatUse - Missle */
      , (23529,  60,        120) /* WeaponRange */
-     , (23529,  93,       1044) /* PhysicsState */
+     , (23529,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (23529, 106,        200) /* ItemSpellcraft */
      , (23529, 107,        500) /* ItemCurMana */
      , (23529, 108,        500) /* ItemMaxMana */

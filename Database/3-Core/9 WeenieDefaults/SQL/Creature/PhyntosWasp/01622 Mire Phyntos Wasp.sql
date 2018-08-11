@@ -11,7 +11,7 @@ VALUES (1622,   1,         16) /* ItemType - Creature */
      , (1622,  25,         12) /* Level */
      , (1622,  40,          2) /* CombatMode - Melee */
      , (1622,  68,         13) /* TargetingTactic */
-     , (1622,  93,       1032) /* PhysicsState */
+     , (1622,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (1622, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (1622, 146,        756) /* XpOverride */;
 
@@ -69,7 +69,7 @@ VALUES (1622,   1,   33558817) /* Setup */
      , (1622,   7,  268436836) /* ClothingBase */
      , (1622,   8,  100667450) /* Icon */
      , (1622,  22,  872415266) /* PhysicsEffectTable */
-     , (1622,  35,        465) /* DeathTreasureType */;
+     , (1622,  35,        465) /* DeathTreasureType - Loot Tier: 1 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (1622,   1,  25, 0, 0) /* Strength */
@@ -109,5 +109,5 @@ INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
 VALUES (1622, 414) /* PLAYER_DEATH_EVENT */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (1622, 9,     0,  0, 0, 0.85, False) /* Create Unknown for ContainTreasure */
-     , (1622, 9,  3702,  0, 0, 0.15, False) /* Create Mire Phyntos Wasp Wing for ContainTreasure */;
+VALUES (1622, 9,     0,  0, 0, 0.85, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 1 for ContainTreasure */
+     , (1622, 9,  3702,  0, 0, 0.15, False) /* Create Mire Phyntos Wasp Wing (3702) for ContainTreasure */;

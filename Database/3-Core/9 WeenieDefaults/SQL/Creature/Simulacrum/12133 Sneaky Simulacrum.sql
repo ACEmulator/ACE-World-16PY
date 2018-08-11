@@ -11,8 +11,8 @@ VALUES (12133,   1,         16) /* ItemType - Creature */
      , (12133,  25,         14) /* Level */
      , (12133,  27,          0) /* ArmorType */
      , (12133,  68,         13) /* TargetingTactic */
-     , (12133,  93,       1032) /* PhysicsState */
-     , (12133, 101,        131) /* AiAllowedCombatStyle */
+     , (12133,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
+     , (12133, 101,        131) /* AiAllowedCombatStyle - Unarmed, OneHanded, ThrownWeapon */
      , (12133, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (12133, 146,       1112) /* XpOverride */;
 
@@ -64,8 +64,17 @@ VALUES (12133,   1,   33554433) /* Setup */
      , (12133,   4,  805306368) /* CombatTable */
      , (12133,   8,  100667446) /* Icon */
      , (12133,  22,  872415381) /* PhysicsEffectTable */
-     , (12133,  32,        394) /* WieldedTreasureType */
-     , (12133,  35,        453) /* DeathTreasureType */;
+     , (12133,  32,        394) /* WieldedTreasureType - 
+                                   Wield Bow of the Quiddity (9597) | Probability: 100%
+                                   Wield 20x Arrow (300) | Probability: 100%
+                                   Wield Blade of the Quiddity (11916) | Probability: 34%
+                                   Wield Lance of the Quiddity (11913) | Probability: 33%
+                                   Wield Mace of the Quiddity (11907) | Probability: 33%
+                                   Wield Chainmail Leggings (80) | Palette: Purple (13) | Shade: 0.6 | Probability: 100%
+                                   Wield Chainmail Hauberk (71) | Palette: Purple (13) | Shade: 0.6 | Probability: 100%
+                                   Wield Pants (12254) | Palette: Purple (13) | Shade: 0.6 | Probability: 100%
+                                   Wield Steel Toed Boots (7897) | Palette: Brown (4) | Shade: 0.6 | Probability: 100% */
+     , (12133,  35,        453) /* DeathTreasureType - Loot Tier: 1 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (12133,   1,  70, 0, 0) /* Strength */

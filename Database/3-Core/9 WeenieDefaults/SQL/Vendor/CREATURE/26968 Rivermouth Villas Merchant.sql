@@ -10,10 +10,10 @@ VALUES (26968,   1,         16) /* ItemType - Creature */
      , (26968,  16,         32) /* ItemUseable - Remote */
      , (26968,  25,         10) /* Level */
      , (26968,  27,          0) /* ArmorType */
-     , (26968,  74,     264192) /* MerchandiseItemTypes */
+     , (26968,  74,     264192) /* MerchandiseItemTypes - Gem, PromissoryNote */
      , (26968,  75,          0) /* MerchandiseMinValue */
      , (26968,  76,    1000000) /* MerchandiseMaxValue */
-     , (26968,  93,    2098204) /* PhysicsState */
+     , (26968,  93,    2098204) /* PhysicsState - Ethereal, ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */
      , (26968, 126,        125) /* VendorHappyMean */
      , (26968, 127,        125) /* VendorHappyVariance */
      , (26968, 133,          4) /* ShowableOnRadar - ShowAlways */
@@ -97,4 +97,4 @@ VALUES (26968,  0,  4,  0,    0,    0,    0,    0,    0,    0,    0,    0,    0,
      , (26968,  8,  4,  2, 0.75,    0,    0,    0,    0,    0,    0,    0,    0,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (26968, 4, 26333, -1, 0, 0, False) /* Create Rivermouth Villas Portal Gem for Shop */;
+VALUES (26968, 4, 26333, -1, 0, 0, False) /* Create Rivermouth Villas Portal Gem (26333) for Shop */;

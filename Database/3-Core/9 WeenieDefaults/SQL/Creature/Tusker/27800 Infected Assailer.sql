@@ -13,7 +13,7 @@ VALUES (27800,   1,         16) /* ItemType - Creature */
      , (27800,  40,          2) /* CombatMode - Melee */
      , (27800,  68,          9) /* TargetingTactic */
      , (27800,  72,          8) /* FriendType - Tusker */
-     , (27800,  93,       1032) /* PhysicsState */
+     , (27800,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (27800, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (27800, 146,      58000) /* XpOverride */;
 
@@ -68,7 +68,7 @@ VALUES (27800,   1,   33556836) /* Setup */
      , (27800,   7,  268436483) /* ClothingBase */
      , (27800,   8,  100667443) /* Icon */
      , (27800,  22,  872415271) /* PhysicsEffectTable */
-     , (27800,  35,        458) /* DeathTreasureType */;
+     , (27800,  35,        458) /* DeathTreasureType - Loot Tier: 5 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (27800,   1, 420, 0, 0) /* Strength */
@@ -172,9 +172,9 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 268435538 /* Twitch2 */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (27800, 9,     0,  0, 0, 0.98, False) /* Create Unknown for ContainTreasure */
-     , (27800, 9,     0,  0, 0, 0.99, False) /* Create Unknown for ContainTreasure */
-     , (27800, 9,     0,  0, 0, 0.93, False) /* Create Unknown for ContainTreasure */
-     , (27800, 9, 11692,  0, 0, 0.02, False) /* Create Little Green Seeds for ContainTreasure */
-     , (27800, 9, 22578,  0, 0, 0.01, False) /* Create Bunch of Nanners for ContainTreasure */
-     , (27800, 9, 27809,  0, 0, 0.07, False) /* Create Infected Assailer Fur for ContainTreasure */;
+VALUES (27800, 9,     0,  0, 0, 0.98, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 5 for ContainTreasure */
+     , (27800, 9,     0,  0, 0, 0.99, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 5 for ContainTreasure */
+     , (27800, 9,     0,  0, 0, 0.93, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 5 for ContainTreasure */
+     , (27800, 9, 11692,  0, 0, 0.02, False) /* Create Little Green Seeds (11692) for ContainTreasure */
+     , (27800, 9, 22578,  0, 0, 0.01, False) /* Create Bunch of Nanners (22578) for ContainTreasure */
+     , (27800, 9, 27809,  0, 0, 0.07, False) /* Create Infected Assailer Fur (27809) for ContainTreasure */;

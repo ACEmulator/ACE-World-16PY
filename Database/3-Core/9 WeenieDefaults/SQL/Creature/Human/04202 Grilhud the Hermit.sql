@@ -10,7 +10,7 @@ VALUES (4202,   1,         16) /* ItemType - Creature */
      , (4202,  16,         32) /* ItemUseable - Remote */
      , (4202,  25,         14) /* Level */
      , (4202,  27,          0) /* ArmorType */
-     , (4202,  93,    6292504) /* PhysicsState */
+     , (4202,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (4202,  95,          8) /* RadarBlipColor - Yellow */
      , (4202, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (4202, 134,         16) /* PlayerKillerStatus - RubberGlue */
@@ -177,6 +177,6 @@ VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 1090519043 /* Ready */, NULL, NU
      , (@parent_id,  6,  10 /* Tell */, 1, 1, NULL, 'Bring me the Broken Sigil from the dungeon to the south, and I will give you the shortcut you desire!', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (4202, 2,   127,  0, 9, 0, False) /* Create Pants for Wield */
-     , (4202, 2,   130,  0, 9, 1, False) /* Create Shirt for Wield */
-     , (4202, 2,   132,  0, 4, 0.8, False) /* Create Shoes for Wield */;
+VALUES (4202, 2,   127,  0, 9, 0, False) /* Create Pants (127) for Wield */
+     , (4202, 2,   130,  0, 9, 1, False) /* Create Shirt (130) for Wield */
+     , (4202, 2,   132,  0, 4, 0.8, False) /* Create Shoes (132) for Wield */;

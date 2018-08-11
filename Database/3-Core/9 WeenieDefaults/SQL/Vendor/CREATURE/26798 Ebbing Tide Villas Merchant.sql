@@ -10,10 +10,10 @@ VALUES (26798,   1,         16) /* ItemType - Creature */
      , (26798,  16,         32) /* ItemUseable - Remote */
      , (26798,  25,         10) /* Level */
      , (26798,  27,          0) /* ArmorType */
-     , (26798,  74,     264192) /* MerchandiseItemTypes */
+     , (26798,  74,     264192) /* MerchandiseItemTypes - Gem, PromissoryNote */
      , (26798,  75,          0) /* MerchandiseMinValue */
      , (26798,  76,    1000000) /* MerchandiseMaxValue */
-     , (26798,  93,    2098204) /* PhysicsState */
+     , (26798,  93,    2098204) /* PhysicsState - Ethereal, ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */
      , (26798, 126,        125) /* VendorHappyMean */
      , (26798, 127,        125) /* VendorHappyVariance */
      , (26798, 133,          4) /* ShowableOnRadar - ShowAlways */
@@ -97,4 +97,4 @@ VALUES (26798,  0,  4,  0,    0,    0,    0,    0,    0,    0,    0,    0,    0,
      , (26798,  8,  4,  2, 0.75,    0,    0,    0,    0,    0,    0,    0,    0,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (26798, 4, 26163, -1, 0, 0, False) /* Create Ebbing Tide Villas Portal Gem for Shop */;
+VALUES (26798, 4, 26163, -1, 0, 0, False) /* Create Ebbing Tide Villas Portal Gem (26163) for Shop */;

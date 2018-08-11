@@ -9,7 +9,7 @@ VALUES (1443,   1,          8) /* ItemType - Jewelry */
      , (1443,   9,     786432) /* ValidLocations - FingerWear */
      , (1443,  16,          1) /* ItemUseable - No */
      , (1443,  19,        100) /* Value */
-     , (1443,  93,       1044) /* PhysicsState */;
+     , (1443,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (1443,  22, True ) /* Inscribable */;

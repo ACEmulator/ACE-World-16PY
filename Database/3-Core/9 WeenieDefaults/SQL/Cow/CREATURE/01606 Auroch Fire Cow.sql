@@ -13,7 +13,7 @@ VALUES (1606,   1,         16) /* ItemType - Creature */
      , (1606,  67,         64) /* Tolerance */
      , (1606,  68,          5) /* TargetingTactic */
      , (1606,  72,         12) /* FriendType - Cow */
-     , (1606,  93,       1032) /* PhysicsState */
+     , (1606,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (1606, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (1606, 146,       1327) /* XpOverride */;
 
@@ -66,7 +66,7 @@ VALUES (1606,   1,   33555220) /* Setup */
      , (1606,   8,  100667936) /* Icon */
      , (1606,  22,  872415254) /* PhysicsEffectTable */
      , (1606,  30,         83) /* PhysicsScript - PortalExit */
-     , (1606,  35,        459) /* DeathTreasureType */;
+     , (1606,  35,        459) /* DeathTreasureType - Loot Tier: 1 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (1606,   1, 130, 0, 0) /* Strength */
@@ -137,7 +137,7 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 268435538 /* Twitch2 */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (1606, 9,     0,  0, 0, 0.8, False) /* Create Unknown for ContainTreasure */
-     , (1606, 9,     0,  0, 0, 0.96, False) /* Create Unknown for ContainTreasure */
-     , (1606, 9,   266,  0, 0, 0.2, False) /* Create Auroch Horn for ContainTreasure */
-     , (1606, 9, 20857,  0, 0, 0.04, False) /* Create Cooking Stamp for ContainTreasure */;
+VALUES (1606, 9,     0,  0, 0, 0.8, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 1 for ContainTreasure */
+     , (1606, 9,     0,  0, 0, 0.96, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 1 for ContainTreasure */
+     , (1606, 9,   266,  0, 0, 0.2, False) /* Create Auroch Horn (266) for ContainTreasure */
+     , (1606, 9, 20857,  0, 0, 0.04, False) /* Create Cooking Stamp (20857) for ContainTreasure */;

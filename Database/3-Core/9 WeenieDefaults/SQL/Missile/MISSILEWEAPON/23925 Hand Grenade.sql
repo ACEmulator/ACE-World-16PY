@@ -21,7 +21,7 @@ VALUES (23925,   1,        256) /* ItemType - MissileWeapon */
      , (23925,  48,         12) /* WeaponSkill - ThrownWeapon */
      , (23925,  49,          3) /* WeaponTime */
      , (23925,  51,          2) /* CombatUse - Missle */
-     , (23925,  93,     131092) /* PhysicsState */
+     , (23925,  93,     131092) /* PhysicsState - Ethereal, IgnoreCollisions, Inelastic */
      , (23925, 158,          8) /* WieldRequirements - Training */
      , (23925, 159,         35) /* WieldSkilltype - Leadership */
      , (23925, 160,          2) /* WieldDifficulty */

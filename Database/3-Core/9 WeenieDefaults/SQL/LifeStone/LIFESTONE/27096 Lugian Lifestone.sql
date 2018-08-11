@@ -4,7 +4,7 @@ VALUES ('27096', 'lifestonelugian', 25) /* LifeStone */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (27096,   1,  268435456) /* ItemType - LifeStone */
      , (27096,  16,         32) /* ItemUseable - Remote */
-     , (27096,  93,       1040) /* PhysicsState */
+     , (27096,  93,       1040) /* PhysicsState - IgnoreCollisions, Gravity */
      , (27096, 133,          4) /* ShowableOnRadar - ShowAlways */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)

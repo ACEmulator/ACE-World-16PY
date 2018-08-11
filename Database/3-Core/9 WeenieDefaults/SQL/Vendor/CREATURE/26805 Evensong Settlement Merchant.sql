@@ -10,10 +10,10 @@ VALUES (26805,   1,         16) /* ItemType - Creature */
      , (26805,  16,         32) /* ItemUseable - Remote */
      , (26805,  25,         10) /* Level */
      , (26805,  27,          0) /* ArmorType */
-     , (26805,  74,     264192) /* MerchandiseItemTypes */
+     , (26805,  74,     264192) /* MerchandiseItemTypes - Gem, PromissoryNote */
      , (26805,  75,          0) /* MerchandiseMinValue */
      , (26805,  76,    1000000) /* MerchandiseMaxValue */
-     , (26805,  93,    2098204) /* PhysicsState */
+     , (26805,  93,    2098204) /* PhysicsState - Ethereal, ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */
      , (26805, 126,        125) /* VendorHappyMean */
      , (26805, 127,        125) /* VendorHappyVariance */
      , (26805, 133,          4) /* ShowableOnRadar - ShowAlways */
@@ -97,4 +97,4 @@ VALUES (26805,  0,  4,  0,    0,    0,    0,    0,    0,    0,    0,    0,    0,
      , (26805,  8,  4,  2, 0.75,    0,    0,    0,    0,    0,    0,    0,    0,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (26805, 4, 26170, -1, 0, 0, False) /* Create Evensong Settlement Portal Gem for Shop */;
+VALUES (26805, 4, 26170, -1, 0, 0, False) /* Create Evensong Settlement Portal Gem (26170) for Shop */;

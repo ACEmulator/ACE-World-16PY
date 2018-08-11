@@ -4,7 +4,7 @@ VALUES ('15199', 'portaltinkeloholdvillas', 7) /* Portal */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (15199,   1,      65536) /* ItemType - Portal */
      , (15199,  16,         32) /* ItemUseable - Remote */
-     , (15199,  93,       3084) /* PhysicsState */
+     , (15199,  93,       3084) /* PhysicsState - Ethereal, ReportCollisions, Gravity, LightingOn */
      , (15199, 111,          1) /* PortalBitmask - Unrestricted */
      , (15199, 133,          4) /* ShowableOnRadar - ShowAlways */;
 

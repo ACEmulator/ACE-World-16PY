@@ -16,9 +16,9 @@ VALUES (27670,   1,        128) /* ItemType - Misc */
      , (27670,  19,      50000) /* Value */
      , (27670,  89,          6) /* BoosterEnum - Mana */
      , (27670,  90,        120) /* BoostValue */
-     , (27670,  93,       1044) /* PhysicsState */
+     , (27670,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (27670, 150,        103) /* HookPlacement - Hook */
-     , (27670, 151,         11) /* HookType */;
+     , (27670, 151,         11) /* HookType - Floor, Wall, Yard */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (27670,   1, 'Distilled Mana Potion') /* Name */

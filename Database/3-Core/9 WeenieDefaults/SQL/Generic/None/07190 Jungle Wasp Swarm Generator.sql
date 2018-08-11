@@ -4,7 +4,7 @@ VALUES ('7190', 'waspjungleswarmgen', 1) /* Generic */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (7190,  81,          4) /* MaxGeneratedObjects */
      , (7190,  82,          4) /* InitGeneratedObjects */
-     , (7190,  93,       1044) /* PhysicsState */;
+     , (7190,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (7190,   1, True ) /* Stuck */
@@ -23,4 +23,4 @@ VALUES (7190,   1,   33555051) /* Setup */
      , (7190,   8,  100667494) /* Icon */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (7190, 1, 7183, 2400, 1, 4294967295, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0);
+VALUES (7190, 1, 7183, 2400, 1, 4294967295, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Jungle Phyntos Wasp (7183) (x1 up to max of 4,294,967,295) - Regenerate upon Destruction - Location to (re)Generate: Scatter */;

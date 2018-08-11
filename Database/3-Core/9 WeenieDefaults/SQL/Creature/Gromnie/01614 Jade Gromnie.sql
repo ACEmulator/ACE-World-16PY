@@ -12,7 +12,7 @@ VALUES (1614,   1,         16) /* ItemType - Creature */
      , (1614,  27,          0) /* ArmorType */
      , (1614,  40,          2) /* CombatMode - Melee */
      , (1614,  68,          5) /* TargetingTactic */
-     , (1614,  93,       1032) /* PhysicsState */
+     , (1614,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (1614, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (1614, 146,        767) /* XpOverride */;
 
@@ -66,7 +66,7 @@ VALUES (1614,   1,   33554487) /* Setup */
      , (1614,   8,  100667938) /* Icon */
      , (1614,  22,  872415260) /* PhysicsEffectTable */
      , (1614,  30,         86) /* PhysicsScript - BreatheAcid */
-     , (1614,  35,        459) /* DeathTreasureType */;
+     , (1614,  35,        459) /* DeathTreasureType - Loot Tier: 1 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (1614,   1,  75, 0, 0) /* Strength */
@@ -139,7 +139,7 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 268435538 /* Twitch2 */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (1614, 9,     0,  0, 0, 0.95, False) /* Create Unknown for ContainTreasure */
-     , (1614, 9,     0,  0, 0, 0.95, False) /* Create Unknown for ContainTreasure */
-     , (1614, 9,  3676,  0, 0, 0.05, False) /* Create Jade Gromnie Tooth for ContainTreasure */
-     , (1614, 9, 28202,  0, 0, 0.05, False) /* Create Durable Gromnie Hide for ContainTreasure */;
+VALUES (1614, 9,     0,  0, 0, 0.95, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 1 for ContainTreasure */
+     , (1614, 9,     0,  0, 0, 0.95, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 1 for ContainTreasure */
+     , (1614, 9,  3676,  0, 0, 0.05, False) /* Create Jade Gromnie Tooth (3676) for ContainTreasure */
+     , (1614, 9, 28202,  0, 0, 0.05, False) /* Create Durable Gromnie Hide (28202) for ContainTreasure */;

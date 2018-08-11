@@ -10,10 +10,10 @@ VALUES (27079,   1,         16) /* ItemType - Creature */
      , (27079,  16,         32) /* ItemUseable - Remote */
      , (27079,  25,         10) /* Level */
      , (27079,  27,          0) /* ArmorType */
-     , (27079,  74,     264192) /* MerchandiseItemTypes */
+     , (27079,  74,     264192) /* MerchandiseItemTypes - Gem, PromissoryNote */
      , (27079,  75,          0) /* MerchandiseMinValue */
      , (27079,  76,    1000000) /* MerchandiseMaxValue */
-     , (27079,  93,    2098204) /* PhysicsState */
+     , (27079,  93,    2098204) /* PhysicsState - Ethereal, ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */
      , (27079, 126,        125) /* VendorHappyMean */
      , (27079, 127,        125) /* VendorHappyVariance */
      , (27079, 133,          4) /* ShowableOnRadar - ShowAlways */
@@ -97,4 +97,4 @@ VALUES (27079,  0,  4,  0,    0,    0,    0,    0,    0,    0,    0,    0,    0,
      , (27079,  8,  4,  2, 0.75,    0,    0,    0,    0,    0,    0,    0,    0,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (27079, 4, 26444, -1, 0, 0, False) /* Create Yukikaze  Portal Gem for Shop */;
+VALUES (27079, 4, 26444, -1, 0, 0, False) /* Create Yukikaze  Portal Gem (26444) for Shop */;

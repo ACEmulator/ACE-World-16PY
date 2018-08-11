@@ -13,7 +13,7 @@ VALUES (837,   1,         16) /* ItemType - Creature */
      , (837,  74,    4481568) /* MerchandiseItemTypes - VendorGrocer */
      , (837,  75,          0) /* MerchandiseMinValue */
      , (837,  76,    1000000) /* MerchandiseMaxValue */
-     , (837,  93,    2098200) /* PhysicsState */
+     , (837,  93,    2098200) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */
      , (837, 126,        125) /* VendorHappyMean */
      , (837, 127,        125) /* VendorHappyVariance */
      , (837, 133,          4) /* ShowableOnRadar - ShowAlways */
@@ -163,17 +163,17 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 318767235 /* Nod */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (837, 2,   115,  0, 4, 0.8, False) /* Create Leather Boots for Wield */
-     , (837, 4,   263, -1, 0, 0, False) /* Create Fish for Shop */
-     , (837, 4,   264, -1, 0, 0, False) /* Create Grapes for Shop */
-     , (837, 2,  2596,  0, 13, 0.5, False) /* Create Doublet for Wield */
-     , (837, 2,  2597,  0, 9, 1, False) /* Create Pants for Wield */
-     , (837, 4,  4753, -1, 0, 0, False) /* Create Side of Beef for Shop */
-     , (837, 4,  4757, -1, 0, 0, False) /* Create Carving Knife for Shop */
-     , (837, 4,  4761, -1, 0, 0, False) /* Create Flour for Shop */
-     , (837, 4,  4763, -1, 0, 0, False) /* Create Honey for Shop */
-     , (837, 4,  4764, -1, 0, 0, False) /* Create Noodle Cutter for Shop */
-     , (837, 4,  5758, -1, 0, 0, False) /* Create Carrot for Shop */
-     , (837, 2,  5901,  0, 9, 0.5, False) /* Create Kasa for Wield */
-     , (837, 2, 10696,  0, 6, 0, False) /* Create Apron for Wield */
-     , (837, 4, 30734, -1, 0, 0, False) /* Create Bowl of Black-Eyed Peas for Shop */;
+VALUES (837, 2,   115,  0, 4, 0.8, False) /* Create Leather Boots (115) for Wield */
+     , (837, 4,   263, -1, 0, 0, False) /* Create Fish (263) for Shop */
+     , (837, 4,   264, -1, 0, 0, False) /* Create Grapes (264) for Shop */
+     , (837, 2,  2596,  0, 13, 0.5, False) /* Create Doublet (2596) for Wield */
+     , (837, 2,  2597,  0, 9, 1, False) /* Create Pants (2597) for Wield */
+     , (837, 4,  4753, -1, 0, 0, False) /* Create Side of Beef (4753) for Shop */
+     , (837, 4,  4757, -1, 0, 0, False) /* Create Carving Knife (4757) for Shop */
+     , (837, 4,  4761, -1, 0, 0, False) /* Create Flour (4761) for Shop */
+     , (837, 4,  4763, -1, 0, 0, False) /* Create Honey (4763) for Shop */
+     , (837, 4,  4764, -1, 0, 0, False) /* Create Noodle Cutter (4764) for Shop */
+     , (837, 4,  5758, -1, 0, 0, False) /* Create Carrot (5758) for Shop */
+     , (837, 2,  5901,  0, 9, 0.5, False) /* Create Kasa (5901) for Wield */
+     , (837, 2, 10696,  0, 6, 0, False) /* Create Apron (10696) for Wield */
+     , (837, 4, 30734, -1, 0, 0, False) /* Create Bowl of Black-Eyed Peas (30734) for Shop */;

@@ -12,7 +12,7 @@ VALUES (19276,   1,         16) /* ItemType - Creature */
      , (19276,  27,          0) /* ArmorType */
      , (19276,  40,          2) /* CombatMode - Melee */
      , (19276,  68,         13) /* TargetingTactic */
-     , (19276,  93,       1032) /* PhysicsState */
+     , (19276,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (19276, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (19276, 146,       5985) /* XpOverride */;
 
@@ -72,7 +72,7 @@ VALUES (19276,   1,   33556426) /* Setup */
      , (19276,   7,  268435984) /* ClothingBase */
      , (19276,   8,  100667940) /* Icon */
      , (19276,  22,  872415323) /* PhysicsEffectTable */
-     , (19276,  35,        406) /* DeathTreasureType */;
+     , (19276,  35,        406) /* DeathTreasureType - Loot Tier: 4 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (19276,   1, 250, 0, 0) /* Strength */
@@ -144,5 +144,5 @@ VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 1090519043 /* Ready */, NULL, NU
      , (@parent_id,  1,   5 /* Motion */, 0, 1, 1090519060 /* Sleeping */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (19276, 9,     0,  0, 0, 0.95, False) /* Create Unknown for ContainTreasure */
-     , (19276, 9, 19252,  0, 0, 0.05, False) /* Create Bronze Spring from a Statue for ContainTreasure */;
+VALUES (19276, 9,     0,  0, 0, 0.95, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 4 for ContainTreasure */
+     , (19276, 9, 19252,  0, 0, 0.05, False) /* Create Bronze Spring from a Statue (19252) for ContainTreasure */;

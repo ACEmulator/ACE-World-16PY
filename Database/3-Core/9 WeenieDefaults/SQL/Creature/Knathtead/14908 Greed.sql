@@ -11,7 +11,7 @@ VALUES (14908,   1,         16) /* ItemType - Creature */
      , (14908,  27,          0) /* ArmorType */
      , (14908,  40,          1) /* CombatMode - NonCombat */
      , (14908,  68,          5) /* TargetingTactic */
-     , (14908,  93,       1032) /* PhysicsState */
+     , (14908,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (14908, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (14908, 146,          0) /* XpOverride */;
 
@@ -66,7 +66,7 @@ VALUES (14908,   1,   33557622) /* Setup */
      , (14908,   4,  805306394) /* CombatTable */
      , (14908,   8,  100668443) /* Icon */
      , (14908,  22,  872415261) /* PhysicsEffectTable */
-     , (14908,  35,         96) /* DeathTreasureType */;
+     , (14908,  35,         96) /* DeathTreasureType - Loot Tier: 2 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (14908,   1,  35, 0, 0) /* Strength */
@@ -126,4 +126,4 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 268435537 /* Twitch1 */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (14908, 1, 14901,  1, 0, 0, False) /* Create Symbol of Honor for Contain */;
+VALUES (14908, 1, 14901,  1, 0, 0, False) /* Create Symbol of Honor (14901) for Contain */;

@@ -11,7 +11,7 @@ VALUES (22105,   1,         16) /* ItemType - Creature */
      , (22105,  16,          1) /* ItemUseable - No */
      , (22105,  25,        126) /* Level */
      , (22105,  27,          0) /* ArmorType */
-     , (22105,  93,    6292504) /* PhysicsState */
+     , (22105,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (22105,  95,          8) /* RadarBlipColor - Yellow */
      , (22105, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (22105, 134,         16) /* PlayerKillerStatus - RubberGlue */
@@ -160,4 +160,4 @@ VALUES (@parent_id,  0,   6 /* Move */, 2, 1, NULL, NULL, NULL, NULL, NULL, NULL
      , (@parent_id, 18,   5 /* Motion */, 9000, 1, 1090519043 /* Ready */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (22105, 2,  8891,  0, 0, 0, False) /* Create Elysa's Longbow for Wield */;
+VALUES (22105, 2,  8891,  0, 0, 0, False) /* Create Elysa's Longbow (8891) for Wield */;

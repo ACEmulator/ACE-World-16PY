@@ -10,10 +10,10 @@ VALUES (26918,   1,         16) /* ItemType - Creature */
      , (26918,  16,         32) /* ItemUseable - Remote */
      , (26918,  25,         10) /* Level */
      , (26918,  27,          0) /* ArmorType */
-     , (26918,  74,     264192) /* MerchandiseItemTypes */
+     , (26918,  74,     264192) /* MerchandiseItemTypes - Gem, PromissoryNote */
      , (26918,  75,          0) /* MerchandiseMinValue */
      , (26918,  76,    1000000) /* MerchandiseMaxValue */
-     , (26918,  93,    2098204) /* PhysicsState */
+     , (26918,  93,    2098204) /* PhysicsState - Ethereal, ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */
      , (26918, 126,        125) /* VendorHappyMean */
      , (26918, 127,        125) /* VendorHappyVariance */
      , (26918, 133,          4) /* ShowableOnRadar - ShowAlways */
@@ -97,4 +97,4 @@ VALUES (26918,  0,  4,  0,    0,    0,    0,    0,    0,    0,    0,    0,    0,
      , (26918,  8,  4,  2, 0.75,    0,    0,    0,    0,    0,    0,    0,    0,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (26918, 4, 26283, -1, 0, 0, False) /* Create Narsys Portal Gem for Shop */;
+VALUES (26918, 4, 26283, -1, 0, 0, False) /* Create Narsys Portal Gem (26283) for Shop */;

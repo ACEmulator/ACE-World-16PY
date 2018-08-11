@@ -10,10 +10,10 @@ VALUES (26939,   1,         16) /* ItemType - Creature */
      , (26939,  16,         32) /* ItemUseable - Remote */
      , (26939,  25,         10) /* Level */
      , (26939,  27,          0) /* ArmorType */
-     , (26939,  74,     264192) /* MerchandiseItemTypes */
+     , (26939,  74,     264192) /* MerchandiseItemTypes - Gem, PromissoryNote */
      , (26939,  75,          0) /* MerchandiseMinValue */
      , (26939,  76,    1000000) /* MerchandiseMaxValue */
-     , (26939,  93,    2098204) /* PhysicsState */
+     , (26939,  93,    2098204) /* PhysicsState - Ethereal, ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */
      , (26939, 126,        125) /* VendorHappyMean */
      , (26939, 127,        125) /* VendorHappyVariance */
      , (26939, 133,          4) /* ShowableOnRadar - ShowAlways */
@@ -97,4 +97,4 @@ VALUES (26939,  0,  4,  0,    0,    0,    0,    0,    0,    0,    0,    0,    0,
      , (26939,  8,  4,  2, 0.75,    0,    0,    0,    0,    0,    0,    0,    0,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (26939, 4, 26304, -1, 0, 0, False) /* Create North Yaraq Villas Portal Gem for Shop */;
+VALUES (26939, 4, 26304, -1, 0, 0, False) /* Create North Yaraq Villas Portal Gem (26304) for Shop */;

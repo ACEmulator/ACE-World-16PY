@@ -14,8 +14,8 @@ VALUES (6538,   1,         16) /* ItemType - Creature */
      , (6538,  68,          9) /* TargetingTactic */
      , (6538,  81,          3) /* MaxGeneratedObjects */
      , (6538,  82,          1) /* InitGeneratedObjects */
-     , (6538,  93,    4195336) /* PhysicsState */
-     , (6538, 101,        183) /* AiAllowedCombatStyle */
+     , (6538,  93,    4195336) /* PhysicsState - ReportCollisions, Gravity, EdgeSlide */
+     , (6538, 101,        183) /* AiAllowedCombatStyle - Unarmed, OneHanded, OneHandedAndShield, Bow, Crossbow, ThrownWeapon */
      , (6538, 103,          3) /* GeneratorDestructionType - Kill */
      , (6538, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (6538, 140,          1) /* AiOptions */
@@ -80,7 +80,7 @@ VALUES (6538,   1,   33554433) /* Setup */
      , (6538,   7,  268435632) /* ClothingBase */
      , (6538,   8,  100670397) /* Icon */
      , (6538,  22,  872415331) /* PhysicsEffectTable */
-     , (6538,  35,        174) /* DeathTreasureType */;
+     , (6538,  35,        174) /* DeathTreasureType - Loot Tier: 3 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (6538,   1, 110, 0, 0) /* Strength */
@@ -152,8 +152,8 @@ VALUES (6538,  94) /* ATTACK_NOTIFICATION_EVENT */
      , (6538, 414) /* PLAYER_DEATH_EVENT */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (6538, 9,     0,  0, 0, 0.98, False) /* Create Unknown for ContainTreasure */
-     , (6538, 9,  6059,  0, 0, 0.02, False) /* Create Dark Sliver for ContainTreasure */;
+VALUES (6538, 9,     0,  0, 0, 0.98, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 3 for ContainTreasure */
+     , (6538, 9,  6059,  0, 0, 0.02, False) /* Create Dark Sliver (6059) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (6538, 1, 1756, 60, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0);
+VALUES (6538, 1, 1756, 60, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Shadow Child (1756) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Scatter */;

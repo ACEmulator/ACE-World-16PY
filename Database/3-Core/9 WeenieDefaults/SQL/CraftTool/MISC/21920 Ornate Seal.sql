@@ -14,7 +14,7 @@ VALUES (21920,   1,        128) /* ItemType - Misc */
      , (21920,  16,          1) /* ItemUseable - No */
      , (21920,  19,          0) /* Value */
      , (21920,  33,          1) /* Bonded - Bonded */
-     , (21920,  93,       1044) /* PhysicsState */
+     , (21920,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (21920, 150,        103) /* HookPlacement - Hook */
      , (21920, 151,          2) /* HookType - Wall */;
 

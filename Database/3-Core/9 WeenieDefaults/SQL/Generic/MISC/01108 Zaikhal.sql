@@ -9,7 +9,7 @@ VALUES (1108,   1,        128) /* ItemType - Misc */
      , (1108,  19,        125) /* Value */
      , (1108,  81,          1) /* MaxGeneratedObjects */
      , (1108,  82,          1) /* InitGeneratedObjects */
-     , (1108,  93,       1048) /* PhysicsState */;
+     , (1108,  93,       1048) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (1108,   1, True ) /* Stuck */
@@ -30,4 +30,4 @@ VALUES (1108,   1,   33556201) /* Setup */
      , (1108,   8,  100668115) /* Icon */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (1108, 1, 5774, 20, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0);
+VALUES (1108, 1, 5774, 20, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Town Crier (5774) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Scatter */;

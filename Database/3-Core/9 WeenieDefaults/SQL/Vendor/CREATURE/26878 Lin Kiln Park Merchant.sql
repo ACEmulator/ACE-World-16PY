@@ -10,10 +10,10 @@ VALUES (26878,   1,         16) /* ItemType - Creature */
      , (26878,  16,         32) /* ItemUseable - Remote */
      , (26878,  25,         10) /* Level */
      , (26878,  27,          0) /* ArmorType */
-     , (26878,  74,     264192) /* MerchandiseItemTypes */
+     , (26878,  74,     264192) /* MerchandiseItemTypes - Gem, PromissoryNote */
      , (26878,  75,          0) /* MerchandiseMinValue */
      , (26878,  76,    1000000) /* MerchandiseMaxValue */
-     , (26878,  93,    2098204) /* PhysicsState */
+     , (26878,  93,    2098204) /* PhysicsState - Ethereal, ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */
      , (26878, 126,        125) /* VendorHappyMean */
      , (26878, 127,        125) /* VendorHappyVariance */
      , (26878, 133,          4) /* ShowableOnRadar - ShowAlways */
@@ -97,4 +97,4 @@ VALUES (26878,  0,  4,  0,    0,    0,    0,    0,    0,    0,    0,    0,    0,
      , (26878,  8,  4,  2, 0.75,    0,    0,    0,    0,    0,    0,    0,    0,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (26878, 4, 26243, -1, 0, 0, False) /* Create Lin Kiln Park Portal Gem for Shop */;
+VALUES (26878, 4, 26243, -1, 0, 0, False) /* Create Lin Kiln Park Portal Gem (26243) for Shop */;

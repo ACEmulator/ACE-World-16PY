@@ -4,15 +4,15 @@ VALUES ('30546', 'coatalduressadefender', 2) /* Clothing */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (30546,   1,          2) /* ItemType - Armor */
      , (30546,   3,         20) /* PaletteTemplate - Silver */
-     , (30546,   4,      13312) /* ClothingPriority */
+     , (30546,   4,      13312) /* ClothingPriority - OuterwearChest, OuterwearUpperArms, OuterwearLowerArms */
      , (30546,   5,       6570) /* EncumbranceVal */
      , (30546,   8,       1000) /* Mass */
-     , (30546,   9,       6656) /* ValidLocations */
+     , (30546,   9,       6656) /* ValidLocations - ChestArmor, UpperArmArmor, LowerArmArmor */
      , (30546,  16,          1) /* ItemUseable - No */
      , (30546,  19,       7960) /* Value */
      , (30546,  27,          8) /* ArmorType */
      , (30546,  28,        200) /* ArmorLevel */
-     , (30546,  93,       1044) /* PhysicsState */
+     , (30546,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (30546, 169,  118097668) /* TsysMutationData */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)

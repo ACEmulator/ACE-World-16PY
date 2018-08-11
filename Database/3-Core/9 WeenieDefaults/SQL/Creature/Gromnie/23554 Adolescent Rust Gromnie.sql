@@ -13,7 +13,7 @@ VALUES (23554,   1,         16) /* ItemType - Creature */
      , (23554,  40,          2) /* CombatMode - Melee */
      , (23554,  68,          9) /* TargetingTactic */
      , (23554,  72,         15) /* FriendType - Gromnie */
-     , (23554,  93,       1032) /* PhysicsState */
+     , (23554,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (23554, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (23554, 146,     396837) /* XpOverride */;
 
@@ -67,7 +67,7 @@ VALUES (23554,   1,   33554487) /* Setup */
      , (23554,   8,  100667938) /* Icon */
      , (23554,  22,  872415260) /* PhysicsEffectTable */
      , (23554,  30,         84) /* PhysicsScript - BreatheFlame */
-     , (23554,  35,        455) /* DeathTreasureType */;
+     , (23554,  35,        455) /* DeathTreasureType - Loot Tier: 6 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (23554,   1, 310, 0, 0) /* Strength */
@@ -141,15 +141,15 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 268435538 /* Twitch2 */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (23554, 9,     0,  0, 0, 0.97, False) /* Create Unknown for ContainTreasure */
-     , (23554, 9,     0,  0, 0, 0.97, False) /* Create Unknown for ContainTreasure */
-     , (23554, 9,     0,  0, 0, 0.75, False) /* Create Unknown for ContainTreasure */
-     , (23554, 9,     0,  0, 0, 0.75, False) /* Create Unknown for ContainTreasure */
-     , (23554, 9,     0,  0, 0, 0.98, False) /* Create Unknown for ContainTreasure */
-     , (23554, 9,     0,  0, 0, 0.99, False) /* Create Unknown for ContainTreasure */
-     , (23554, 9, 23107,  0, 0, 0.01, False) /* Create Mangled Dark Key for ContainTreasure */
-     , (23554, 9, 23108,  0, 0, 0.02, False) /* Create Twisted Dark Key for ContainTreasure */
-     , (23554, 9, 28197,  0, 0, 0.03, False) /* Create Adolescent Rust Gromnie Eye for ContainTreasure */
-     , (23554, 9, 28203,  0, 0, 0.25, False) /* Create Ruddy Gromnie Hide for ContainTreasure */
-     , (23554, 9, 28209,  0, 0, 0.25, False) /* Create Rust Gromnie Tooth for ContainTreasure */
-     , (23554, 9, 28214,  0, 0, 0.03, False) /* Create Rust Gromnie Wings for ContainTreasure */;
+VALUES (23554, 9,     0,  0, 0, 0.97, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 6 for ContainTreasure */
+     , (23554, 9,     0,  0, 0, 0.97, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 6 for ContainTreasure */
+     , (23554, 9,     0,  0, 0, 0.75, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 6 for ContainTreasure */
+     , (23554, 9,     0,  0, 0, 0.75, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 6 for ContainTreasure */
+     , (23554, 9,     0,  0, 0, 0.98, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 6 for ContainTreasure */
+     , (23554, 9,     0,  0, 0, 0.99, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 6 for ContainTreasure */
+     , (23554, 9, 23107,  0, 0, 0.01, False) /* Create Mangled Dark Key (23107) for ContainTreasure */
+     , (23554, 9, 23108,  0, 0, 0.02, False) /* Create Twisted Dark Key (23108) for ContainTreasure */
+     , (23554, 9, 28197,  0, 0, 0.03, False) /* Create Adolescent Rust Gromnie Eye (28197) for ContainTreasure */
+     , (23554, 9, 28203,  0, 0, 0.25, False) /* Create Ruddy Gromnie Hide (28203) for ContainTreasure */
+     , (23554, 9, 28209,  0, 0, 0.25, False) /* Create Rust Gromnie Tooth (28209) for ContainTreasure */
+     , (23554, 9, 28214,  0, 0, 0.03, False) /* Create Rust Gromnie Wings (28214) for ContainTreasure */;

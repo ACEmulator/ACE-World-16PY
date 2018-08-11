@@ -14,8 +14,8 @@ VALUES (24495,   1,         16) /* ItemType - Creature */
      , (24495,  40,          2) /* CombatMode - Melee */
      , (24495,  68,         13) /* TargetingTactic */
      , (24495,  72,          6) /* FriendType - Tumerok */
-     , (24495,  93,       1032) /* PhysicsState */
-     , (24495, 101,        131) /* AiAllowedCombatStyle */
+     , (24495,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
+     , (24495, 101,        131) /* AiAllowedCombatStyle - Unarmed, OneHanded, ThrownWeapon */
      , (24495, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (24495, 140,          1) /* AiOptions */
      , (24495, 146,      63831) /* XpOverride */;
@@ -71,8 +71,11 @@ VALUES (24495,   1,   33557003) /* Setup */
      , (24495,   7,  268436618) /* ClothingBase */
      , (24495,   8,  100667447) /* Icon */
      , (24495,  22,  872415262) /* PhysicsEffectTable */
-     , (24495,  32,        436) /* WieldedTreasureType */
-     , (24495,  35,        452) /* DeathTreasureType */;
+     , (24495,  32,        436) /* WieldedTreasureType - 
+                                   Wield Rock (24885) | Probability: 100%
+                                   Wield Lugian Axe (24884) | Probability: 50%
+                                   Wield Lugian Mace (24886) | Probability: 50% */
+     , (24495,  35,        452) /* DeathTreasureType - Loot Tier: 5 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (24495,   1, 360, 0, 0) /* Strength */
@@ -139,5 +142,5 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,  10 /* Tell */, 0, 1, NULL, 'A magic lightshow? You should probably run now mage.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (24495, 9,     0,  0, 0, 0.97, False) /* Create Unknown for ContainTreasure */
-     , (24495, 9, 24477,  0, 0, 0.03, False) /* Create Sturdy Steel Key for ContainTreasure */;
+VALUES (24495, 9,     0,  0, 0, 0.97, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 5 for ContainTreasure */
+     , (24495, 9, 24477,  0, 0, 0.03, False) /* Create Sturdy Steel Key (24477) for ContainTreasure */;

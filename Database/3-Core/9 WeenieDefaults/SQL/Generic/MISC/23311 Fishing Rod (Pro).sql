@@ -9,7 +9,7 @@ VALUES (23311,   1,        128) /* ItemType - Misc */
      , (23311,   9,   16777216) /* ValidLocations - Held */
      , (23311,  16,          1) /* ItemUseable - No */
      , (23311,  19,       2000) /* Value */
-     , (23311,  93,       1044) /* PhysicsState */
+     , (23311,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (23311, 150,        103) /* HookPlacement - Hook */
      , (23311, 151,          2) /* HookType - Wall */;
 

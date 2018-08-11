@@ -13,8 +13,8 @@ VALUES (7103,   1,         16) /* ItemType - Creature */
      , (7103,  40,          2) /* CombatMode - Melee */
      , (7103,  68,         13) /* TargetingTactic */
      , (7103,  72,         50) /* FriendType - Idol */
-     , (7103,  93,       1032) /* PhysicsState */
-     , (7103, 101,        131) /* AiAllowedCombatStyle */
+     , (7103,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
+     , (7103, 101,        131) /* AiAllowedCombatStyle - Unarmed, OneHanded, ThrownWeapon */
      , (7103, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (7103, 140,          1) /* AiOptions */
      , (7103, 146,      13448) /* XpOverride */;
@@ -73,8 +73,16 @@ VALUES (7103,   1,   33557327) /* Setup */
      , (7103,   7,  268436294) /* ClothingBase */
      , (7103,   8,  100667449) /* Icon */
      , (7103,  22,  872415264) /* PhysicsEffectTable */
-     , (7103,  32,        280) /* WieldedTreasureType */
-     , (7103,  35,        450) /* DeathTreasureType */;
+     , (7103,  32,        280) /* WieldedTreasureType - 
+                                   Wield 5x Fire Throwing Club (23659) | Probability: 25%
+                                   Wield 4x Frost Throwing Club (23662) | Probability: 25%
+                                   Wield Acid Yari (23723) | Probability: 15%
+                                   Wield Yari (23731) | Probability: 25%
+                                   Wield Tachi (23701) | Probability: 15%
+                                   Wield Acid Spear (23689) | Probability: 15%
+                                   Wield Spear (23697) | Probability: 15%
+                                   Wield Fire Yaoji (23719) | Probability: 15% */
+     , (7103,  35,        450) /* DeathTreasureType - Loot Tier: 3 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (7103,   1, 195, 0, 0) /* Strength */
@@ -194,9 +202,9 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 268435537 /* Twitch1 */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (7103, 9,     0,  0, 0, 0.75, False) /* Create Unknown for ContainTreasure */
-     , (7103, 9,     0,  0, 0, 0.95, False) /* Create Unknown for ContainTreasure */
-     , (7103, 9,     0,  0, 0, 0.99, False) /* Create Unknown for ContainTreasure */
-     , (7103, 9,  3694,  0, 0, 0.25, False) /* Create Swamp Stone for ContainTreasure */
-     , (7103, 9,  6876,  0, 0, 0.01, False) /* Create Sturdy Iron Key for ContainTreasure */
-     , (7103, 9,  7825,  0, 0, 0.05, False) /* Create Brown Beans for ContainTreasure */;
+VALUES (7103, 9,     0,  0, 0, 0.75, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 3 for ContainTreasure */
+     , (7103, 9,     0,  0, 0, 0.95, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 3 for ContainTreasure */
+     , (7103, 9,     0,  0, 0, 0.99, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 3 for ContainTreasure */
+     , (7103, 9,  3694,  0, 0, 0.25, False) /* Create Swamp Stone (3694) for ContainTreasure */
+     , (7103, 9,  6876,  0, 0, 0.01, False) /* Create Sturdy Iron Key (6876) for ContainTreasure */
+     , (7103, 9,  7825,  0, 0, 0.05, False) /* Create Brown Beans (7825) for ContainTreasure */;

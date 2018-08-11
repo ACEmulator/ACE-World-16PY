@@ -4,15 +4,15 @@ VALUES ('4224', 'coatarmoredillohide', 2) /* Clothing */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (4224,   1,          2) /* ItemType - Armor */
      , (4224,   3,          4) /* PaletteTemplate - Brown */
-     , (4224,   4,      15360) /* ClothingPriority */
+     , (4224,   4,      15360) /* ClothingPriority - OuterwearChest, OuterwearAbdomen, OuterwearUpperArms, OuterwearLowerArms */
      , (4224,   5,        810) /* EncumbranceVal */
      , (4224,   8,        270) /* Mass */
-     , (4224,   9,       7680) /* ValidLocations */
+     , (4224,   9,       7680) /* ValidLocations - ChestArmor, AbdomenArmor, UpperArmArmor, LowerArmArmor */
      , (4224,  16,          1) /* ItemUseable - No */
      , (4224,  19,       1000) /* Value */
      , (4224,  27,          2) /* ArmorType */
      , (4224,  28,         70) /* ArmorLevel */
-     , (4224,  93,       1044) /* PhysicsState */;
+     , (4224,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (4224,  22, True ) /* Inscribable */

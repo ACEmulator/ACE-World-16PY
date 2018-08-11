@@ -11,7 +11,7 @@ VALUES (11408,   1,         16) /* ItemType - Creature */
      , (11408,  16,         32) /* ItemUseable - Remote */
      , (11408,  25,         50) /* Level */
      , (11408,  27,          0) /* ArmorType */
-     , (11408,  93,    6292504) /* PhysicsState */
+     , (11408,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (11408,  95,          8) /* RadarBlipColor - Yellow */
      , (11408, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (11408, 134,         16) /* PlayerKillerStatus - RubberGlue */
@@ -322,4 +322,4 @@ VALUES (@parent_id,  0,  10 /* Tell */, 1, 1, NULL, 'Just a moment...', NULL, NU
      , (@parent_id,  9,  10 /* Tell */, 1, 1, NULL, 'Now, don''t forget--this weapon will only gain its full magical potential once you fuse it with one of our sacred totems. Wield it with our blessings...and remember always that the Aun have extended their friendship to you. I''m afraid that after you leave this place, you will not be able to return to visit me for a month or so--the Hea are ever vigilant, and we must do our best to keep this place a secret from them. You should take care to leave this place as soon as possible--for should the worst befall you as you leave our hiding place, you will not be able to return.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (11408, 2, 12111,  1, 0, 1, False) /* Create Palenqual's Tewhate for Wield */;
+VALUES (11408, 2, 12111,  1, 0, 1, False) /* Create Palenqual's Tewhate (12111) for Wield */;

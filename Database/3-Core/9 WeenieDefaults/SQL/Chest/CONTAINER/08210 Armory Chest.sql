@@ -12,7 +12,7 @@ VALUES (8210,   1,        512) /* ItemType - Container */
      , (8210,  81,          2) /* MaxGeneratedObjects */
      , (8210,  82,          2) /* InitGeneratedObjects */
      , (8210,  83,          2) /* ActivationResponse - Use */
-     , (8210,  93,       1048) /* PhysicsState */
+     , (8210,  93,       1048) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity */
      , (8210,  96,        500) /* EncumbranceCapacity */
      , (8210, 100,          1) /* GeneratorType - Relative */;
 
@@ -43,5 +43,5 @@ VALUES (8210,   1,   33554556) /* Setup */
      , (8210,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (8210, -1, 8208, 1000, 1, 1, 2, 8, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0)
-     , (8210, -1, 457, 1000, 1, 1, 2, 72, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0);
+VALUES (8210, -1, 8208, 1000, 1, 1, 2, 8, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Forgotten Text (8208) (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: Contain */
+     , (8210, -1, 457, 1000, 1, 1, 2, 72, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate RANDOMLY GENERATED TREASURE from Loot Tier 2 (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: ContainTreasure */;

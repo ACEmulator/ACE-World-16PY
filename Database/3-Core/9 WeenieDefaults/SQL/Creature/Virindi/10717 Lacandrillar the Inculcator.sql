@@ -11,7 +11,7 @@ VALUES (10717,   1,         16) /* ItemType - Creature */
      , (10717,  25,         85) /* Level */
      , (10717,  27,          0) /* ArmorType */
      , (10717,  68,          3) /* TargetingTactic */
-     , (10717,  93,       1032) /* PhysicsState */
+     , (10717,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (10717, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (10717, 140,          1) /* AiOptions */
      , (10717, 146,      14000) /* XpOverride */;
@@ -69,7 +69,7 @@ VALUES (10717,   1,   33554497) /* Setup */
      , (10717,   7,  268435649) /* ClothingBase */
      , (10717,   8,  100667943) /* Icon */
      , (10717,  22,  872415273) /* PhysicsEffectTable */
-     , (10717,  35,        243) /* DeathTreasureType */;
+     , (10717,  35,        243) /* DeathTreasureType - Loot Tier: 4 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (10717,   1,  40, 0, 0) /* Strength */
@@ -197,4 +197,4 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 268435539 /* Twitch3 */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (10717, 8, 10728,  1, 0, 0, False) /* Create Inculcation Cells Message Shard for Treasure */;
+VALUES (10717, 8, 10728,  1, 0, 0, False) /* Create Inculcation Cells Message Shard (10728) for Treasure */;

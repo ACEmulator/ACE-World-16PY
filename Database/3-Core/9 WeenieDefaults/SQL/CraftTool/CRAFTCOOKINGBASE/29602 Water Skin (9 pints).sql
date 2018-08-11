@@ -13,8 +13,8 @@ VALUES (29602,   1,    4194304) /* ItemType - CraftCookingBase */
      , (29602,  15,          0) /* StackUnitValue */
      , (29602,  16,    2097160) /* ItemUseable - SourceContainedTargetRemote */
      , (29602,  19,          0) /* Value */
-     , (29602,  93,       1044) /* PhysicsState */
-     , (29602,  94,    4194304) /* TargetType - CraftCookingBase */;
+     , (29602,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (29602,  94,    4194304) /* TargetType - 4194304 */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (29602,  22, True ) /* Inscribable */;

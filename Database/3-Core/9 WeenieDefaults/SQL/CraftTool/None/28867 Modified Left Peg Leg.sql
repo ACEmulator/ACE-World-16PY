@@ -12,8 +12,8 @@ VALUES (28867,   5,        200) /* EncumbranceVal */
      , (28867,  15,          0) /* StackUnitValue */
      , (28867,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
      , (28867,  19,          0) /* Value */
-     , (28867,  93,       1044) /* PhysicsState */
-     , (28867,  94,          2) /* TargetType - Armor */;
+     , (28867,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (28867,  94,          2) /* TargetType - Banderling */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (28867,  13, True ) /* Ethereal */

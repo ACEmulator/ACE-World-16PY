@@ -10,10 +10,10 @@ VALUES (27029,   1,         16) /* ItemType - Creature */
      , (27029,  16,         32) /* ItemUseable - Remote */
      , (27029,  25,         10) /* Level */
      , (27029,  27,          0) /* ArmorType */
-     , (27029,  74,     264192) /* MerchandiseItemTypes */
+     , (27029,  74,     264192) /* MerchandiseItemTypes - Gem, PromissoryNote */
      , (27029,  75,          0) /* MerchandiseMinValue */
      , (27029,  76,    1000000) /* MerchandiseMaxValue */
-     , (27029,  93,    2098204) /* PhysicsState */
+     , (27029,  93,    2098204) /* PhysicsState - Ethereal, ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */
      , (27029, 126,        125) /* VendorHappyMean */
      , (27029, 127,        125) /* VendorHappyVariance */
      , (27029, 133,          4) /* ShowableOnRadar - ShowAlways */
@@ -97,4 +97,4 @@ VALUES (27029,  0,  4,  0,    0,    0,    0,    0,    0,    0,    0,    0,    0,
      , (27029,  8,  4,  2, 0.75,    0,    0,    0,    0,    0,    0,    0,    0,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (27029, 4, 26394, -1, 0, 0, False) /* Create Stone Scythe Stronghold Portal Gem for Shop */;
+VALUES (27029, 4, 26394, -1, 0, 0, False) /* Create Stone Scythe Stronghold Portal Gem (26394) for Shop */;

@@ -9,12 +9,12 @@ VALUES (5392,   1,        128) /* ItemType - Misc */
      , (5392,  19,          0) /* Value */
      , (5392,  81,          1) /* MaxGeneratedObjects */
      , (5392,  82,          1) /* InitGeneratedObjects */
-     , (5392,  93,       1048) /* PhysicsState */
+     , (5392,  93,       1048) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity */
      , (5392,  95,          8) /* RadarBlipColor - Yellow */
      , (5392, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (5392, 142,          1) /* GeneratorTimeType - RealTime */
-     , (5392, 143, 1036213260) /* GeneratorStartTime - 11/02/2002 11:01:00 */
-     , (5392, 144, 1036558740) /* GeneratorEndTime - 11/06/2002 10:59:00 */
+     , (5392, 143, 1036213260) /* GeneratorStartTime - 11/02/2002 10:01:00 */
+     , (5392, 144, 1036558740) /* GeneratorEndTime - 11/06/2002 09:59:00 */
      , (5392, 145,          2) /* GeneratorEndDestructionType - Destroy */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
@@ -36,4 +36,4 @@ VALUES (5392,   1,   33556034) /* Setup */
      , (5392,   8,  100670208) /* Icon */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (5392, -1, 8359, 60, 1, 1, 1, 4, -1, 0, 0, 0, 0, 0, 8, 1, 0, 0, 0);
+VALUES (5392, -1, 8359, 60, 1, 1, 1, 4, -1, 0, 0, 0, 0, 0, 8, 1, 0, 0, 0) /* Generate Anniversary Effect (8359) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */;

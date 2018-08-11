@@ -4,7 +4,7 @@ VALUES ('8442', 'portaltreacheroustunnels', 7) /* Portal */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (8442,   1,      65536) /* ItemType - Portal */
      , (8442,  16,         32) /* ItemUseable - Remote */
-     , (8442,  93,       3084) /* PhysicsState */
+     , (8442,  93,       3084) /* PhysicsState - Ethereal, ReportCollisions, Gravity, LightingOn */
      , (8442, 111,          1) /* PortalBitmask - Unrestricted */
      , (8442, 133,          4) /* ShowableOnRadar - ShowAlways */;
 

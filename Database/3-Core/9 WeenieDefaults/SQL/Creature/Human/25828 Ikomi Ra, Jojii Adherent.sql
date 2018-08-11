@@ -10,7 +10,7 @@ VALUES (25828,   1,         16) /* ItemType - Creature */
      , (25828,  16,         32) /* ItemUseable - Remote */
      , (25828,  25,         53) /* Level */
      , (25828,  27,          0) /* ArmorType */
-     , (25828,  93,    6292504) /* PhysicsState */
+     , (25828,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (25828,  95,          8) /* RadarBlipColor - Yellow */
      , (25828, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (25828, 134,         16) /* PlayerKillerStatus - RubberGlue */
@@ -163,6 +163,6 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,  10 /* Tell */, 0, 1, NULL, 'Grace allows us to walk through life in perfection.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (25828, 2,   115,  0, 4, 0.8, False) /* Create Leather Boots for Wield */
-     , (25828, 2,   130,  0, 2, 0.67, False) /* Create Shirt for Wield */
-     , (25828, 2,  2604,  0, 9, 0, False) /* Create Breeches for Wield */;
+VALUES (25828, 2,   115,  0, 4, 0.8, False) /* Create Leather Boots (115) for Wield */
+     , (25828, 2,   130,  0, 2, 0.67, False) /* Create Shirt (130) for Wield */
+     , (25828, 2,  2604,  0, 9, 0, False) /* Create Breeches (2604) for Wield */;

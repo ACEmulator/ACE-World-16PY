@@ -12,7 +12,7 @@ VALUES (29006,   1,         16) /* ItemType - Creature */
      , (29006,  27,          0) /* ArmorType */
      , (29006,  40,          2) /* CombatMode - Melee */
      , (29006,  68,          3) /* TargetingTactic */
-     , (29006,  93,       1032) /* PhysicsState */
+     , (29006,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (29006, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (29006, 146,   12000000) /* XpOverride */;
 
@@ -72,8 +72,12 @@ VALUES (29006,   1,   33558982) /* Setup */
      , (29006,   7,  268436827) /* ClothingBase */
      , (29006,   8,  100676549) /* Icon */
      , (29006,  22,  872415402) /* PhysicsEffectTable */
-     , (29006,  32,        476) /* WieldedTreasureType */
-     , (29006,  35,         32) /* DeathTreasureType */;
+     , (29006,  32,        476) /* WieldedTreasureType - 
+                                   Wield Stone Axe (27868) | Probability: 22%
+                                   Wield 10x Muck Ball (27876) | Probability: 22%
+                                   Wield Tree Trunk (27872) | Probability: 22%
+                                   Wield Bone Sword (27880) | Probability: 22% */
+     , (29006,  35,         32) /* DeathTreasureType - Loot Tier: 6 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (29006,   1, 800, 0, 0) /* Strength */

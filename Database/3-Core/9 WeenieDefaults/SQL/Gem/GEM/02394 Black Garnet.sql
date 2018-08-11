@@ -14,7 +14,7 @@ VALUES (2394,   1,       2048) /* ItemType - Gem */
      , (2394,  15,        100) /* StackUnitValue */
      , (2394,  16,          1) /* ItemUseable - No */
      , (2394,  19,        100) /* Value */
-     , (2394,  93,       1044) /* PhysicsState */
+     , (2394,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (2394, 131,         15) /* MaterialType - BlackGarnet */
      , (2394, 169,   16777216) /* TsysMutationData */;
 

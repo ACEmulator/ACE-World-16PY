@@ -13,8 +13,8 @@ VALUES (30838,   1,         16) /* ItemType - Creature */
      , (30838,  27,          0) /* ArmorType */
      , (30838,  40,          2) /* CombatMode - Melee */
      , (30838,  68,         13) /* TargetingTactic */
-     , (30838,  93,       1032) /* PhysicsState */
-     , (30838, 101,        131) /* AiAllowedCombatStyle */
+     , (30838,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
+     , (30838, 101,        131) /* AiAllowedCombatStyle - Unarmed, OneHanded, ThrownWeapon */
      , (30838, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (30838, 140,          1) /* AiOptions */
      , (30838, 146,      62481) /* XpOverride */;
@@ -71,8 +71,11 @@ VALUES (30838,   1,   33557003) /* Setup */
      , (30838,   7,  268436892) /* ClothingBase */
      , (30838,   8,  100677374) /* Icon */
      , (30838,  22,  872415262) /* PhysicsEffectTable */
-     , (30838,  32,        492) /* WieldedTreasureType */
-     , (30838,  35,        452) /* DeathTreasureType */;
+     , (30838,  32,        492) /* WieldedTreasureType - 
+                                   Wield 10x Rock (31033) | Probability: 100%
+                                   Wield Lugian Axe (24884) | Probability: 50%
+                                   Wield Lugian Mace (24886) | Probability: 50% */
+     , (30838,  35,        452) /* DeathTreasureType - Loot Tier: 5 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (30838,   1, 360, 0, 0) /* Strength */
@@ -171,9 +174,9 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 268435539 /* Twitch3 */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (30838, 9,     0,  0, 0, 0.97, False) /* Create Unknown for ContainTreasure */
-     , (30838, 9,     0,  0, 0, 0.97, False) /* Create Unknown for ContainTreasure */
-     , (30838, 9,     0,  0, 0, 0.95, False) /* Create Unknown for ContainTreasure */
-     , (30838, 9,  7043,  0, 0, 0.03, False) /* Create Large Lugian Sinew for ContainTreasure */
-     , (30838, 9, 24477,  0, 0, 0.03, False) /* Create Sturdy Steel Key for ContainTreasure */
-     , (30838, 9, 30831,  0, 0, 0.05, False) /* Create Shadow Lugian Stronghold Portal Gem for ContainTreasure */;
+VALUES (30838, 9,     0,  0, 0, 0.97, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 5 for ContainTreasure */
+     , (30838, 9,     0,  0, 0, 0.97, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 5 for ContainTreasure */
+     , (30838, 9,     0,  0, 0, 0.95, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 5 for ContainTreasure */
+     , (30838, 9,  7043,  0, 0, 0.03, False) /* Create Large Lugian Sinew (7043) for ContainTreasure */
+     , (30838, 9, 24477,  0, 0, 0.03, False) /* Create Sturdy Steel Key (24477) for ContainTreasure */
+     , (30838, 9, 30831,  0, 0, 0.05, False) /* Create Shadow Lugian Stronghold Portal Gem (30831) for ContainTreasure */;

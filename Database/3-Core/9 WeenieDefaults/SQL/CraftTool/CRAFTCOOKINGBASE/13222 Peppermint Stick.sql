@@ -13,10 +13,10 @@ VALUES (13222,   1,    4194304) /* ItemType - CraftCookingBase */
      , (13222,  15,         14) /* StackUnitValue */
      , (13222,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
      , (13222,  19,         14) /* Value */
-     , (13222,  93,       1044) /* PhysicsState */
-     , (13222,  94,    4194464) /* TargetType */
+     , (13222,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (13222,  94,    4194464) /* TargetType - 4194464 */
      , (13222, 150,        103) /* HookPlacement - Hook */
-     , (13222, 151,          9) /* HookType */;
+     , (13222, 151,          9) /* HookType - Floor, Yard */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (13222,   1, 'Peppermint Stick') /* Name */

@@ -4,7 +4,7 @@ VALUES ('22209', 'hugeskull', 1) /* Generic */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (22209,   1,        128) /* ItemType - Misc */
      , (22209,  16,          1) /* ItemUseable - No */
-     , (22209,  93,         20) /* PhysicsState */
+     , (22209,  93,         20) /* PhysicsState - Ethereal, IgnoreCollisions */
      , (22209, 133,          1) /* ShowableOnRadar - ShowNever */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)

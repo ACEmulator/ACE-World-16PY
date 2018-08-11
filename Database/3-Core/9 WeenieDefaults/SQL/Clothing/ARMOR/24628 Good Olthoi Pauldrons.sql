@@ -13,7 +13,7 @@ VALUES (24628,   1,          2) /* ItemType - Armor */
      , (24628,  27,         32) /* ArmorType */
      , (24628,  28,        400) /* ArmorLevel */
      , (24628,  36,       9999) /* ResistMagic */
-     , (24628,  93,       1044) /* PhysicsState */
+     , (24628,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (24628, 158,          7) /* WieldRequirements - Level */
      , (24628, 159,          1) /* WieldSkilltype - Axe */
      , (24628, 160,         40) /* WieldDifficulty */

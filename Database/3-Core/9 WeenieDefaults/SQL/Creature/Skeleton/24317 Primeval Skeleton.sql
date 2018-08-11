@@ -12,8 +12,8 @@ VALUES (24317,   1,         16) /* ItemType - Creature */
      , (24317,  27,          0) /* ArmorType */
      , (24317,  40,          1) /* CombatMode - NonCombat */
      , (24317,  68,          5) /* TargetingTactic */
-     , (24317,  93,       1032) /* PhysicsState */
-     , (24317, 101,        183) /* AiAllowedCombatStyle */
+     , (24317,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
+     , (24317, 101,        183) /* AiAllowedCombatStyle - Unarmed, OneHanded, OneHandedAndShield, Bow, Crossbow, ThrownWeapon */
      , (24317, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (24317, 140,          1) /* AiOptions */
      , (24317, 146,      41939) /* XpOverride */;
@@ -72,8 +72,21 @@ VALUES (24317,   1,   33555464) /* Setup */
      , (24317,   7,  268436625) /* ClothingBase */
      , (24317,   8,  100669124) /* Icon */
      , (24317,  22,  872415269) /* PhysicsEffectTable */
-     , (24317,  32,        203) /* WieldedTreasureType */
-     , (24317,  35,        452) /* DeathTreasureType */;
+     , (24317,  32,        203) /* WieldedTreasureType - 
+                                   Wield Yumi (23734) | Probability: 20%
+                                   Wield 20x Deadly Arrow (15429) | Probability: 100%
+                                   Wield Heavy Crossbow (23665) | Probability: 40%
+                                   Wield 20x Deadly Quarrel (15438) | Probability: 100%
+                                   Wield Katar (23674) | Probability: 12%
+                                   Wield Cestus (23637) | Probability: 12%
+                                   Wield Nekode (23680) | Probability: 12%
+                                   Wield Tachi (23700) | Probability: 12%
+                                   Wield Spear (23696) | Probability: 12%
+                                   Wield Fire Yaoji (23718) | Probability: 12%
+                                   Wield Yaoji (23710) | Probability: 12%
+                                   Wield Fire Tachi (23707) | Probability: 12%
+                                   Wield Kite Shield (23684) | Probability: 75% */
+     , (24317,  35,        452) /* DeathTreasureType - Loot Tier: 5 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (24317,   1, 260, 0, 0) /* Strength */
@@ -131,15 +144,15 @@ VALUES (24317,  94) /* ATTACK_NOTIFICATION_EVENT */
      , (24317, 414) /* PLAYER_DEATH_EVENT */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (24317, 9,     0,  0, 0, 0.94, False) /* Create Unknown for ContainTreasure */
-     , (24317, 9,     0,  0, 0, 0.98, False) /* Create Unknown for ContainTreasure */
-     , (24317, 9,     0,  0, 0, 0.97, False) /* Create Unknown for ContainTreasure */
-     , (24317, 9,     0,  0, 0, 0.95, False) /* Create Unknown for ContainTreasure */
-     , (24317, 9,     0,  0, 0, 0.95, False) /* Create Unknown for ContainTreasure */
-     , (24317, 9,     0,  0, 0, 0.95, False) /* Create Unknown for ContainTreasure */
-     , (24317, 9,  9310,  0, 0, 0.06, False) /* Create A Large Mnemosyne for ContainTreasure */
-     , (24317, 9, 22027,  0, 0, 0.05, False) /* Create Skeletal Arm for ContainTreasure */
-     , (24317, 9, 22031,  0, 0, 0.05, False) /* Create Skeletal Leg for ContainTreasure */
-     , (24317, 9, 22047,  0, 0, 0.05, False) /* Create Skeletal Torso for ContainTreasure */
-     , (24317, 9, 24477,  0, 0, 0.02, False) /* Create Sturdy Steel Key for ContainTreasure */
-     , (24317, 9, 24851,  0, 0, 0.03, False) /* Create Primeval Skeleton Shin Bone for ContainTreasure */;
+VALUES (24317, 9,     0,  0, 0, 0.94, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 5 for ContainTreasure */
+     , (24317, 9,     0,  0, 0, 0.98, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 5 for ContainTreasure */
+     , (24317, 9,     0,  0, 0, 0.97, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 5 for ContainTreasure */
+     , (24317, 9,     0,  0, 0, 0.95, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 5 for ContainTreasure */
+     , (24317, 9,     0,  0, 0, 0.95, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 5 for ContainTreasure */
+     , (24317, 9,     0,  0, 0, 0.95, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 5 for ContainTreasure */
+     , (24317, 9,  9310,  0, 0, 0.06, False) /* Create A Large Mnemosyne (9310) for ContainTreasure */
+     , (24317, 9, 22027,  0, 0, 0.05, False) /* Create Skeletal Arm (22027) for ContainTreasure */
+     , (24317, 9, 22031,  0, 0, 0.05, False) /* Create Skeletal Leg (22031) for ContainTreasure */
+     , (24317, 9, 22047,  0, 0, 0.05, False) /* Create Skeletal Torso (22047) for ContainTreasure */
+     , (24317, 9, 24477,  0, 0, 0.02, False) /* Create Sturdy Steel Key (24477) for ContainTreasure */
+     , (24317, 9, 24851,  0, 0, 0.03, False) /* Create Primeval Skeleton Shin Bone (24851) for ContainTreasure */;

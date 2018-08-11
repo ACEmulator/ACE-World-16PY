@@ -10,10 +10,10 @@ VALUES (7883,   1,         16) /* ItemType - Creature */
      , (7883,  16,         32) /* ItemUseable - Remote */
      , (7883,  25,        186) /* Level */
      , (7883,  27,          0) /* ArmorType */
-     , (7883,  74,    4456480) /* MerchandiseItemTypes */
+     , (7883,  74,    4456480) /* MerchandiseItemTypes - Food, PromissoryNote, CraftCookingBase */
      , (7883,  75,          0) /* MerchandiseMinValue */
      , (7883,  76,     100000) /* MerchandiseMaxValue */
-     , (7883,  93,    2098200) /* PhysicsState */
+     , (7883,  93,    2098200) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */
      , (7883, 126,        500) /* VendorHappyMean */
      , (7883, 127,        500) /* VendorHappyVariance */
      , (7883, 133,          4) /* ShowableOnRadar - ShowAlways */
@@ -202,5 +202,5 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 318767235 /* Nod */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (7883, 4,  7835, -1, 0, 0, False) /* Create Magic Iceball for Shop */
-     , (7883, 4, 13224, -1, 0, 0, False) /* Create A Frozen Note for Shop */;
+VALUES (7883, 4,  7835, -1, 0, 0, False) /* Create Magic Iceball (7835) for Shop */
+     , (7883, 4, 13224, -1, 0, 0, False) /* Create A Frozen Note (13224) for Shop */;

@@ -10,7 +10,7 @@ VALUES (15774,   1,         16) /* ItemType - Creature */
      , (15774,  16,         32) /* ItemUseable - Remote */
      , (15774,  25,         55) /* Level */
      , (15774,  27,          0) /* ArmorType */
-     , (15774,  93,    6292504) /* PhysicsState */
+     , (15774,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (15774,  95,          8) /* RadarBlipColor - Yellow */
      , (15774, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (15774, 134,         16) /* PlayerKillerStatus - RubberGlue */
@@ -405,5 +405,5 @@ VALUES (@parent_id,  0,  18 /* DirectBroadcast */, 0, 1, NULL, '%n snaps to atte
      , (@parent_id,  4,  10 /* Tell */, 1, 1, NULL, 'I do not know you, Isparian. And I fear that trust is in short supply these days. I must ask you to prove yourself before I can accept your assistance. If you journey to Stonehold and there choose to support Nuhmudira with the sacrifice of your own life essence, then I will know that you are truly on our side.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (15774, 2,   118,  0, 14, 1, False) /* Create Cap for Wield */
-     , (15774, 2, 10870,  0, 17, 0.7, False) /* Create Canescent Mattekar Robe for Wield */;
+VALUES (15774, 2,   118,  0, 14, 1, False) /* Create Cap (118) for Wield */
+     , (15774, 2, 10870,  0, 17, 0.7, False) /* Create Canescent Mattekar Robe (10870) for Wield */;

@@ -15,10 +15,10 @@ VALUES (9341,   1,   67108864) /* ItemType - CraftAlchemyIntermediate */
      , (9341,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
      , (9341,  19,        750) /* Value */
      , (9341,  33,          1) /* Bonded - Bonded */
-     , (9341,  93,       1044) /* PhysicsState */
-     , (9341,  94,  134218784) /* TargetType */
+     , (9341,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (9341,  94,  134218784) /* TargetType - 134218784 */
      , (9341, 150,        103) /* HookPlacement - Hook */
-     , (9341, 151,         11) /* HookType */;
+     , (9341, 151,         11) /* HookType - Floor, Wall, Yard */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (9341,  23, True ) /* DestroyOnSell */

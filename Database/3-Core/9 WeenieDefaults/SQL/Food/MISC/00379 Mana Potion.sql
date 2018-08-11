@@ -16,9 +16,9 @@ VALUES (379,   1,        128) /* ItemType - Misc */
      , (379,  19,        170) /* Value */
      , (379,  89,          6) /* BoosterEnum - Mana */
      , (379,  90,         25) /* BoostValue */
-     , (379,  93,       1044) /* PhysicsState */
+     , (379,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (379, 150,        103) /* HookPlacement - Hook */
-     , (379, 151,         11) /* HookType */;
+     , (379, 151,         11) /* HookType - Floor, Wall, Yard */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (379,  69, False) /* IsSellable */;

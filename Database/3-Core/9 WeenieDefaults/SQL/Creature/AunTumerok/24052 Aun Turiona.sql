@@ -11,7 +11,7 @@ VALUES (24052,   1,         16) /* ItemType - Creature */
      , (24052,  16,         32) /* ItemUseable - Remote */
      , (24052,  25,         11) /* Level */
      , (24052,  27,          0) /* ArmorType */
-     , (24052,  93,    6292504) /* PhysicsState */
+     , (24052,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (24052,  95,          8) /* RadarBlipColor - Yellow */
      , (24052, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (24052, 134,         16) /* PlayerKillerStatus - RubberGlue */
@@ -206,4 +206,4 @@ VALUES (@parent_id,  0,  10 /* Tell */, 0, 1, NULL, 'The Totem of Temepuh! Aun H
      , (@parent_id,  3,   3 /* Give */, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0, 10962 /* Hea Totem */, 1, 0, 0, False, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (24052, 2, 11306,  0, 0, 0, False) /* Create Kalindan of Palenqual for Wield */;
+VALUES (24052, 2, 11306,  0, 0, 0, False) /* Create Kalindan of Palenqual (11306) for Wield */;

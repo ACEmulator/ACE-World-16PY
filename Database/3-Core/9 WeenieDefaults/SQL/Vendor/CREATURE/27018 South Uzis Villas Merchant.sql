@@ -10,10 +10,10 @@ VALUES (27018,   1,         16) /* ItemType - Creature */
      , (27018,  16,         32) /* ItemUseable - Remote */
      , (27018,  25,         10) /* Level */
      , (27018,  27,          0) /* ArmorType */
-     , (27018,  74,     264192) /* MerchandiseItemTypes */
+     , (27018,  74,     264192) /* MerchandiseItemTypes - Gem, PromissoryNote */
      , (27018,  75,          0) /* MerchandiseMinValue */
      , (27018,  76,    1000000) /* MerchandiseMaxValue */
-     , (27018,  93,    2098204) /* PhysicsState */
+     , (27018,  93,    2098204) /* PhysicsState - Ethereal, ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */
      , (27018, 126,        125) /* VendorHappyMean */
      , (27018, 127,        125) /* VendorHappyVariance */
      , (27018, 133,          4) /* ShowableOnRadar - ShowAlways */
@@ -97,4 +97,4 @@ VALUES (27018,  0,  4,  0,    0,    0,    0,    0,    0,    0,    0,    0,    0,
      , (27018,  8,  4,  2, 0.75,    0,    0,    0,    0,    0,    0,    0,    0,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (27018, 4, 26383, -1, 0, 0, False) /* Create South Uzis Villas Portal Gem for Shop */;
+VALUES (27018, 4, 26383, -1, 0, 0, False) /* Create South Uzis Villas Portal Gem (26383) for Shop */;

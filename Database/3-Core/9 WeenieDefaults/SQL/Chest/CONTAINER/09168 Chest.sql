@@ -14,7 +14,7 @@ VALUES (9168,   1,        512) /* ItemType - Container */
      , (9168,  81,          3) /* MaxGeneratedObjects */
      , (9168,  82,          3) /* InitGeneratedObjects */
      , (9168,  83,          2) /* ActivationResponse - Use */
-     , (9168,  93,       1048) /* PhysicsState */
+     , (9168,  93,       1048) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity */
      , (9168,  96,        500) /* EncumbranceCapacity */
      , (9168, 100,          1) /* GeneratorType - Relative */;
 
@@ -47,6 +47,6 @@ VALUES (9168,   1,   33554556) /* Setup */
      , (9168,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (9168, -1, 9120, 0, 1, 1, 2, 8, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0)
-     , (9168, -1, 9125, 0, 1, 1, 2, 8, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0)
-     , (9168, -1, 460, 0, 1, 1, 2, 72, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0);
+VALUES (9168, -1, 9120, 0, 1, 1, 2, 8, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate A Meeting (9120) (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: Contain */
+     , (9168, -1, 9125, 0, 1, 1, 2, 8, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Virindi Essence (9125) (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: Contain */
+     , (9168, -1, 460, 0, 1, 1, 2, 72, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate RANDOMLY GENERATED TREASURE from Loot Tier 4 (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: ContainTreasure */;

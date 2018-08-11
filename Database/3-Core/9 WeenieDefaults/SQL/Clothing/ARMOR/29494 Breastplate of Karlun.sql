@@ -13,7 +13,7 @@ VALUES (29494,   1,          2) /* ItemType - Armor */
      , (29494,  27,         32) /* ArmorType */
      , (29494,  28,        260) /* ArmorLevel */
      , (29494,  33,          1) /* Bonded - Bonded */
-     , (29494,  93,       1044) /* PhysicsState */
+     , (29494,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (29494, 106,        270) /* ItemSpellcraft */
      , (29494, 107,        900) /* ItemCurMana */
      , (29494, 108,        900) /* ItemMaxMana */

@@ -11,7 +11,7 @@ VALUES (24036,   1,         16) /* ItemType - Creature */
      , (24036,  25,         95) /* Level */
      , (24036,  27,          0) /* ArmorType */
      , (24036,  68,          3) /* TargetingTactic */
-     , (24036,  93,       1032) /* PhysicsState */
+     , (24036,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (24036, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (24036, 140,          1) /* AiOptions */
      , (24036, 146,      46682) /* XpOverride */;
@@ -70,7 +70,7 @@ VALUES (24036,   1,   33554497) /* Setup */
      , (24036,   7,  268435649) /* ClothingBase */
      , (24036,   8,  100667943) /* Icon */
      , (24036,  22,  872415273) /* PhysicsEffectTable */
-     , (24036,  35,        460) /* DeathTreasureType */;
+     , (24036,  35,        460) /* DeathTreasureType - Loot Tier: 4 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (24036,   1, 200, 0, 0) /* Strength */
@@ -213,7 +213,7 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,  10 /* Tell */, 0, 1, NULL, 'Your mind fragments easily. You have alligned yourself against us with our unenlightened brethren and paid the price.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (24036, 9,     0,  0, 0, 0.97, False) /* Create Unknown for ContainTreasure */
-     , (24036, 9,     0,  0, 0, 0.6, False) /* Create Unknown for ContainTreasure */
-     , (24036, 9,  9290,  0, 0, 0.03, False) /* Create Virindi Directive Key for ContainTreasure */
-     , (24036, 9, 24128,  1, 0, 0.4, False) /* Create A Virindi Signet for ContainTreasure */;
+VALUES (24036, 9,     0,  0, 0, 0.97, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 4 for ContainTreasure */
+     , (24036, 9,     0,  0, 0, 0.6, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 4 for ContainTreasure */
+     , (24036, 9,  9290,  0, 0, 0.03, False) /* Create Virindi Directive Key (9290) for ContainTreasure */
+     , (24036, 9, 24128,  1, 0, 0.4, False) /* Create A Virindi Signet (24128) for ContainTreasure */;

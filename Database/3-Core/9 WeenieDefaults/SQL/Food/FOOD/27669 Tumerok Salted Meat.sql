@@ -15,7 +15,7 @@ VALUES (27669,   1,         32) /* ItemType - Food */
      , (27669,  19,      10000) /* Value */
      , (27669,  89,          2) /* BoosterEnum - Health */
      , (27669,  90,        120) /* BoostValue */
-     , (27669,  93,       1044) /* PhysicsState */;
+     , (27669,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (27669,   1, 'Tumerok Salted Meat') /* Name */

@@ -13,7 +13,7 @@ VALUES (22002,   1,         16) /* ItemType - Creature */
      , (22002,  40,          2) /* CombatMode - Melee */
      , (22002,  68,          9) /* TargetingTactic */
      , (22002,  72,         13) /* FriendType - Golem */
-     , (22002,  93,       1032) /* PhysicsState */
+     , (22002,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (22002, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (22002, 146,     542850) /* XpOverride */;
 
@@ -75,7 +75,7 @@ VALUES (22002,   1,   33556439) /* Setup */
      , (22002,   8,  100667940) /* Icon */
      , (22002,  22,  872415322) /* PhysicsEffectTable */
      , (22002,  31,      21406) /* LinkedPortalOne - Citadel Valley */
-     , (22002,  35,        461) /* DeathTreasureType */;
+     , (22002,  35,        461) /* DeathTreasureType - Loot Tier: 6 */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (22002, 12, 1514340628, 10.121, -32.81, -5.995, -4.371139E-08, 0, 0, -1) /* PortalSummonLoc */;
@@ -158,5 +158,5 @@ VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 1090519043 /* Ready */, NULL, NU
      , (@parent_id,  1,   5 /* Motion */, 0, 1, 1090519060 /* Sleeping */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (22002, 9,     0,  0, 0, 0.8, False) /* Create Unknown for ContainTreasure */
-     , (22002, 9,  6354,  0, 0, 0.2, False) /* Create Pyreal Nugget for ContainTreasure */;
+VALUES (22002, 9,     0,  0, 0, 0.8, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 6 for ContainTreasure */
+     , (22002, 9,  6354,  0, 0, 0.2, False) /* Create Pyreal Nugget (6354) for ContainTreasure */;

@@ -4,8 +4,8 @@ VALUES ('9159', 'portalfebrewardobsidianspan', 7) /* Portal */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (9159,   1,      65536) /* ItemType - Portal */
      , (9159,  16,         32) /* ItemUseable - Remote */
-     , (9159,  93,       3084) /* PhysicsState */
-     , (9159, 111,         17) /* PortalBitmask */
+     , (9159,  93,       3084) /* PhysicsState - Ethereal, ReportCollisions, Gravity, LightingOn */
+     , (9159, 111,         17) /* PortalBitmask - Unrestricted, NoSummon */
      , (9159, 133,          4) /* ShowableOnRadar - ShowAlways */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)

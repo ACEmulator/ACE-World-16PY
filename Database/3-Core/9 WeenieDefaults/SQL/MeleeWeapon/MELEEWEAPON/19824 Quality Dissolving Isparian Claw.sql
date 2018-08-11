@@ -19,7 +19,7 @@ VALUES (19824,   1,          1) /* ItemType - MeleeWeapon */
      , (19824,  48,         13) /* WeaponSkill - UnarmedCombat */
      , (19824,  49,         12) /* WeaponTime */
      , (19824,  51,          1) /* CombatUse - Melee */
-     , (19824,  93,       1044) /* PhysicsState */
+     , (19824,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (19824, 106,        100) /* ItemSpellcraft */
      , (19824, 107,        300) /* ItemCurMana */
      , (19824, 108,        300) /* ItemMaxMana */

@@ -9,7 +9,7 @@ VALUES (22060,   1,        128) /* ItemType - Misc */
      , (22060,   9,          0) /* ValidLocations - None */
      , (22060,  16,          1) /* ItemUseable - No */
      , (22060,  19,          0) /* Value */
-     , (22060,  93,       1044) /* PhysicsState */
+     , (22060,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (22060, 150,        103) /* HookPlacement - Hook */
      , (22060, 151,          2) /* HookType - Wall */;
 

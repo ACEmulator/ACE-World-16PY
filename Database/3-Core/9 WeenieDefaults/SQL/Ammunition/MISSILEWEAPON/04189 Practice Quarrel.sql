@@ -17,7 +17,7 @@ VALUES (4189,   1,        256) /* ItemType - MissileWeapon */
      , (4189,  45,          2) /* DamageType - Pierce */
      , (4189,  50,          2) /* AmmoType - Bolt */
      , (4189,  51,          3) /* CombatUse - Ammo */
-     , (4189,  93,     132116) /* PhysicsState */
+     , (4189,  93,     132116) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, Inelastic */
      , (4189, 150,        103) /* HookPlacement - Hook */
      , (4189, 151,          2) /* HookType - Wall */;
 

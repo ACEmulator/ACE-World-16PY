@@ -15,7 +15,7 @@ VALUES (3722,   1,         32) /* ItemType - Food */
      , (3722,  19,       2000) /* Value */
      , (3722,  89,          2) /* BoosterEnum - Health */
      , (3722,  90,        100) /* BoostValue */
-     , (3722,  93,       1044) /* PhysicsState */;
+     , (3722,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (3722,   1, 'Potion of Black Fire') /* Name */

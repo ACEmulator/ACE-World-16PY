@@ -14,8 +14,8 @@ VALUES (6560,   1,         16) /* ItemType - Creature */
      , (6560,  68,          2) /* TargetingTactic */
      , (6560,  81,          2) /* MaxGeneratedObjects */
      , (6560,  82,          1) /* InitGeneratedObjects */
-     , (6560,  93,    4195336) /* PhysicsState */
-     , (6560, 101,        183) /* AiAllowedCombatStyle */
+     , (6560,  93,    4195336) /* PhysicsState - ReportCollisions, Gravity, EdgeSlide */
+     , (6560, 101,        183) /* AiAllowedCombatStyle - Unarmed, OneHanded, OneHandedAndShield, Bow, Crossbow, ThrownWeapon */
      , (6560, 103,          3) /* GeneratorDestructionType - Kill */
      , (6560, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (6560, 140,          1) /* AiOptions */
@@ -162,10 +162,10 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,  16 /* WorldBroadcast */, 0, 1, NULL, 'A voice calls out to all upon the wind: Set back by %s, Isin Dule is withdrawing into the dark center of all shadow, even while the shadows spring up all across the world.  Use his key to reach him there, and free all of Dereth at last from the dark armies!', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (6560, 9,     0,  0, 0, 0.99, False) /* Create Unknown for ContainTreasure */
-     , (6560, 9,     0,  0, 0, 0.98, False) /* Create Unknown for ContainTreasure */
-     , (6560, 9,  6058,  0, 0, 0.01, False) /* Create Dark Shard for ContainTreasure */
-     , (6560, 9,  6876,  0, 0, 0.02, False) /* Create Sturdy Iron Key for ContainTreasure */;
+VALUES (6560, 9,     0,  0, 0, 0.99, False) /* Create UNKNOWN RANDOMLY GENERATED TREASURE for ContainTreasure */
+     , (6560, 9,     0,  0, 0, 0.98, False) /* Create UNKNOWN RANDOMLY GENERATED TREASURE for ContainTreasure */
+     , (6560, 9,  6058,  0, 0, 0.01, False) /* Create Dark Shard (6058) for ContainTreasure */
+     , (6560, 9,  6876,  0, 0, 0.02, False) /* Create Sturdy Iron Key (6876) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (6560, 1, 4254, 20, 1, 2, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0);
+VALUES (6560, 1, 4254, 20, 1, 2, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Umbris Shadow (4254) (x1 up to max of 2) - Regenerate upon Destruction - Location to (re)Generate: Scatter */;

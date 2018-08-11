@@ -11,7 +11,7 @@ VALUES (25880,   1,         16) /* ItemType - Creature */
      , (25880,  25,        155) /* Level */
      , (25880,  40,          2) /* CombatMode - Melee */
      , (25880,  68,         13) /* TargetingTactic */
-     , (25880,  93,       1032) /* PhysicsState */
+     , (25880,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (25880, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (25880, 146,     558686) /* XpOverride */;
 
@@ -66,7 +66,7 @@ VALUES (25880,   1,   33554489) /* Setup */
      , (25880,   7,  268436731) /* ClothingBase */
      , (25880,   8,  100667939) /* Icon */
      , (25880,  22,  872415268) /* PhysicsEffectTable */
-     , (25880,  35,         26) /* DeathTreasureType */;
+     , (25880,  35,         26) /* DeathTreasureType - Loot Tier: 6 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (25880,   1, 500, 0, 0) /* Strength */
@@ -165,7 +165,7 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 268435540 /* Twitch4 */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (25880, 9,     0,  0, 0, 0.99, False) /* Create Unknown for ContainTreasure */
-     , (25880, 9,     0,  0, 0, 0.97, False) /* Create Unknown for ContainTreasure */
-     , (25880, 9, 25901,  0, 0, 0.01, False) /* Create Doomshark Hide for ContainTreasure */
-     , (25880, 9, 30823,  0, 0, 0.03, False) /* Create Broken Black Marrow Key for ContainTreasure */;
+VALUES (25880, 9,     0,  0, 0, 0.99, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 6 for ContainTreasure */
+     , (25880, 9,     0,  0, 0, 0.97, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 6 for ContainTreasure */
+     , (25880, 9, 25901,  0, 0, 0.01, False) /* Create Doomshark Hide (25901) for ContainTreasure */
+     , (25880, 9, 30823,  0, 0, 0.03, False) /* Create Broken Black Marrow Key (30823) for ContainTreasure */;

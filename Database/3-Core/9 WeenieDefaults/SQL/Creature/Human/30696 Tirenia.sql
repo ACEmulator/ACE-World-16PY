@@ -11,7 +11,7 @@ VALUES (30696,   1,         16) /* ItemType - Creature */
      , (30696,  16,         32) /* ItemUseable - Remote */
      , (30696,  25,        245) /* Level */
      , (30696,  27,          0) /* ArmorType */
-     , (30696,  93,    6292504) /* PhysicsState */
+     , (30696,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (30696,  95,          8) /* RadarBlipColor - Yellow */
      , (30696, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (30696, 134,         16) /* PlayerKillerStatus - RubberGlue */
@@ -246,5 +246,5 @@ VALUES (@parent_id,  0,  12 /* TurnToTarget */, 0, 1, NULL, NULL, NULL, NULL, NU
      , (@parent_id,  2,   5 /* Motion */, 0, 1, 318767229 /* BowDeep */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (30696, 2,   118,  0, 14, 1, False) /* Create Cap for Wield */
-     , (30696, 2, 10870,  0, 17, 0.9, False) /* Create Canescent Mattekar Robe for Wield */;
+VALUES (30696, 2,   118,  0, 14, 1, False) /* Create Cap (118) for Wield */
+     , (30696, 2, 10870,  0, 17, 0.9, False) /* Create Canescent Mattekar Robe (10870) for Wield */;

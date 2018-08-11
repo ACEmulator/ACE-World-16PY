@@ -12,8 +12,8 @@ VALUES (6824,   1,         16) /* ItemType - Creature */
      , (6824,  27,          0) /* ArmorType */
      , (6824,  40,          2) /* CombatMode - Melee */
      , (6824,  68,         13) /* TargetingTactic */
-     , (6824,  93,       1032) /* PhysicsState */
-     , (6824, 101,        131) /* AiAllowedCombatStyle */
+     , (6824,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
+     , (6824, 101,        131) /* AiAllowedCombatStyle - Unarmed, OneHanded, ThrownWeapon */
      , (6824, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (6824, 140,          1) /* AiOptions */
      , (6824, 146,    1000000) /* XpOverride */;
@@ -70,7 +70,7 @@ VALUES (6824,   1,   33557327) /* Setup */
      , (6824,   7,  268436290) /* ClothingBase */
      , (6824,   8,  100667449) /* Icon */
      , (6824,  22,  872415264) /* PhysicsEffectTable */
-     , (6824,  35,         31) /* DeathTreasureType */;
+     , (6824,  35,         31) /* DeathTreasureType - Loot Tier: 4 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (6824,   1,  95, 0, 0) /* Strength */
@@ -133,5 +133,5 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   8 /* Say */, 0, 0, NULL, 'Booga-loo, booga-loo!', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (6824, 9,     0,  0, 0, 0.95, False) /* Create Unknown for ContainTreasure */
-     , (6824, 9,  3694,  0, 0, 0.05, False) /* Create Swamp Stone for ContainTreasure */;
+VALUES (6824, 9,     0,  0, 0, 0.95, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 4 for ContainTreasure */
+     , (6824, 9,  3694,  0, 0, 0.05, False) /* Create Swamp Stone (3694) for ContainTreasure */;

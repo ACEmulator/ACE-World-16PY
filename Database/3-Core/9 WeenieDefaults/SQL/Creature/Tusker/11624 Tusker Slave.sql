@@ -13,7 +13,7 @@ VALUES (11624,   1,         16) /* ItemType - Creature */
      , (11624,  40,          2) /* CombatMode - Melee */
      , (11624,  68,          9) /* TargetingTactic */
      , (11624,  72,         19) /* FriendType - Virindi */
-     , (11624,  93,       1032) /* PhysicsState */
+     , (11624,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (11624, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (11624, 146,      10689) /* XpOverride */;
 
@@ -67,7 +67,7 @@ VALUES (11624,   1,   33556836) /* Setup */
      , (11624,   7,  268436061) /* ClothingBase */
      , (11624,   8,  100667443) /* Icon */
      , (11624,  22,  872415271) /* PhysicsEffectTable */
-     , (11624,  35,        233) /* DeathTreasureType */;
+     , (11624,  35,        233) /* DeathTreasureType - Loot Tier: 3 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (11624,   1, 320, 0, 0) /* Strength */
@@ -171,6 +171,6 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 268435538 /* Twitch2 */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (11624, 9,     0,  0, 0, 0.9, False) /* Create Unknown for ContainTreasure */
-     , (11624, 9,    46,  0, 0, 0.1, False) /* Create Metal Cap for ContainTreasure */
-     , (11624, 9, 11626,  0, 0, 1, False) /* Create Quiddity Ingot for ContainTreasure */;
+VALUES (11624, 9,     0,  0, 0, 0.9, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 3 for ContainTreasure */
+     , (11624, 9,    46,  0, 0, 0.1, False) /* Create Metal Cap (46) for ContainTreasure */
+     , (11624, 9, 11626,  0, 0, 1, False) /* Create Quiddity Ingot (11626) for ContainTreasure */;

@@ -12,7 +12,7 @@ VALUES (21528,   1,        512) /* ItemType - Container */
      , (21528,  81,         10) /* MaxGeneratedObjects */
      , (21528,  82,         10) /* InitGeneratedObjects */
      , (21528,  83,          2) /* ActivationResponse - Use */
-     , (21528,  93,       1048) /* PhysicsState */
+     , (21528,  93,       1048) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity */
      , (21528,  96,        500) /* EncumbranceCapacity */
      , (21528, 100,          1) /* GeneratorType - Relative */;
 
@@ -42,4 +42,4 @@ VALUES (21528,   1,   33554556) /* Setup */
      , (21528,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (21528, 1, 21380, 5, 10, 10, 2, 8, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0);
+VALUES (21528, 1, 21380, 5, 10, 10, 2, 8, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Seal Fragment (21380) (x10 up to max of 10) - Regenerate upon PickUp - Location to (re)Generate: Contain */;

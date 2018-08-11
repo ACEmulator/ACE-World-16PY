@@ -12,8 +12,8 @@ VALUES (28016,   1,         16) /* ItemType - Creature */
      , (28016,  27,          0) /* ArmorType */
      , (28016,  40,          1) /* CombatMode - NonCombat */
      , (28016,  68,          3) /* TargetingTactic */
-     , (28016,  93,       1032) /* PhysicsState */
-     , (28016, 101,        183) /* AiAllowedCombatStyle */
+     , (28016,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
+     , (28016, 101,        183) /* AiAllowedCombatStyle - Unarmed, OneHanded, OneHandedAndShield, Bow, Crossbow, ThrownWeapon */
      , (28016, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (28016, 140,          1) /* AiOptions */
      , (28016, 146,      35111) /* XpOverride */;
@@ -72,8 +72,9 @@ VALUES (28016,   1,   33558814) /* Setup */
      , (28016,   7,  268436834) /* ClothingBase */
      , (28016,   8,  100676639) /* Icon */
      , (28016,  22,  872415272) /* PhysicsEffectTable */
-     , (28016,  32,        446) /* WieldedTreasureType */
-     , (28016,  35,        448) /* DeathTreasureType */;
+     , (28016,  32,        446) /* WieldedTreasureType - 
+                                   Wield Khopesh (25499) | Probability: 98% */
+     , (28016,  35,        448) /* DeathTreasureType - Loot Tier: 4 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (28016,   1, 290, 0, 0) /* Strength */
@@ -142,5 +143,5 @@ VALUES (28016,  94) /* ATTACK_NOTIFICATION_EVENT */
      , (28016, 414) /* PLAYER_DEATH_EVENT */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (28016, 9,     0,  0, 0, 0, False) /* Create Unknown for ContainTreasure */
-     , (28016, 9, 28023,  0, 0, 1, False) /* Create A Worn Prison Master's Key for ContainTreasure */;
+VALUES (28016, 9,     0,  0, 0, 0, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 4 for ContainTreasure */
+     , (28016, 9, 28023,  0, 0, 1, False) /* Create A Worn Prison Master's Key (28023) for ContainTreasure */;

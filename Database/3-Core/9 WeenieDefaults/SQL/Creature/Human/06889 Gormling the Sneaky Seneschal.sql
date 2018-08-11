@@ -10,7 +10,7 @@ VALUES (6889,   1,         16) /* ItemType - Creature */
      , (6889,  16,         32) /* ItemUseable - Remote */
      , (6889,  25,         17) /* Level */
      , (6889,  27,          0) /* ArmorType */
-     , (6889,  93,    6292504) /* PhysicsState */
+     , (6889,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (6889,  95,          8) /* RadarBlipColor - Yellow */
      , (6889, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (6889, 134,         16) /* PlayerKillerStatus - RubberGlue */
@@ -171,7 +171,7 @@ VALUES (@parent_id,  0,  12 /* TurnToTarget */, 0, 1, NULL, NULL, NULL, NULL, NU
      , (@parent_id,  2,   3 /* Give */, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0, 5831 /* Nelvaine's Olde Ispar Stout */, 1, 0, 0, False, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (6889, 2,   115,  0, 9, 0, False) /* Create Leather Boots for Wield */
-     , (6889, 2,   118,  0, 9, 0, False) /* Create Cap for Wield */
-     , (6889, 2,  2588,  0, 9, 0, False) /* Create Shirt for Wield */
-     , (6889, 2,  2597,  0, 9, 0, False) /* Create Pants for Wield */;
+VALUES (6889, 2,   115,  0, 9, 0, False) /* Create Leather Boots (115) for Wield */
+     , (6889, 2,   118,  0, 9, 0, False) /* Create Cap (118) for Wield */
+     , (6889, 2,  2588,  0, 9, 0, False) /* Create Shirt (2588) for Wield */
+     , (6889, 2,  2597,  0, 9, 0, False) /* Create Pants (2597) for Wield */;

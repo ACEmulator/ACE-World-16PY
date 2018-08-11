@@ -4,8 +4,8 @@ VALUES ('25511', 'portalcrystalminerot2exit', 7) /* Portal */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (25511,   1,      65536) /* ItemType - Portal */
      , (25511,  16,         32) /* ItemUseable - Remote */
-     , (25511,  93,       3084) /* PhysicsState */
-     , (25511, 111,         49) /* PortalBitmask */
+     , (25511,  93,       3084) /* PhysicsState - Ethereal, ReportCollisions, Gravity, LightingOn */
+     , (25511, 111,         49) /* PortalBitmask - Unrestricted, NoSummon, NoRecall */
      , (25511, 133,          4) /* ShowableOnRadar - ShowAlways */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)

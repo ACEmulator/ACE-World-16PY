@@ -9,7 +9,7 @@ VALUES (10973,   1,          8) /* ItemType - Jewelry */
      , (10973,  16,          1) /* ItemUseable - No */
      , (10973,  18,          1) /* UiEffects - Magical */
      , (10973,  19,       5800) /* Value */
-     , (10973,  93,       1044) /* PhysicsState */
+     , (10973,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (10973, 106,        225) /* ItemSpellcraft */
      , (10973, 107,       1400) /* ItemCurMana */
      , (10973, 108,       1400) /* ItemMaxMana */

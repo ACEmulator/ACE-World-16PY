@@ -12,8 +12,8 @@ VALUES (8904,   1,      32768) /* ItemType - Caster */
      , (8904,  19,       3000) /* Value */
      , (8904,  33,          1) /* Bonded - Bonded */
      , (8904,  46,        512) /* DefaultCombatStyle - Magic */
-     , (8904,  93,       3092) /* PhysicsState */
-     , (8904,  94,         16) /* TargetType - Creature */
+     , (8904,  93,       3092) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, LightingOn */
+     , (8904,  94,         16) /* TargetType - Reedshark */
      , (8904, 106,        200) /* ItemSpellcraft */
      , (8904, 107,          0) /* ItemCurMana */
      , (8904, 108,      13131) /* ItemMaxMana */

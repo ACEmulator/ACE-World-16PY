@@ -4,7 +4,7 @@ VALUES ('22119', 'undeadhangingtranslucent', 1) /* Generic */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (22119,   1,        128) /* ItemType - Misc */
      , (22119,  16,          1) /* ItemUseable - No */
-     , (22119,  93,       1044) /* PhysicsState */
+     , (22119,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (22119, 133,          1) /* ShowableOnRadar - ShowNever */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)

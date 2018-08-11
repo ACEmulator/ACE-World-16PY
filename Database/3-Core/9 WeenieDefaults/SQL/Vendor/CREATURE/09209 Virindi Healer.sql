@@ -10,12 +10,12 @@ VALUES (9209,   1,         16) /* ItemType - Creature */
      , (9209,  16,         32) /* ItemUseable - Remote */
      , (9209,  25,         45) /* Level */
      , (9209,  27,          0) /* ArmorType */
-     , (9209,  74,     266368) /* MerchandiseItemTypes */
+     , (9209,  74,     266368) /* MerchandiseItemTypes - Misc, SpellComponents, PromissoryNote */
      , (9209,  75,          0) /* MerchandiseMinValue */
      , (9209,  76,     100000) /* MerchandiseMaxValue */
      , (9209,  81,         75) /* MaxGeneratedObjects */
      , (9209,  82,         10) /* InitGeneratedObjects */
-     , (9209,  93,    2098200) /* PhysicsState */
+     , (9209,  93,    2098200) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */
      , (9209, 126,        500) /* VendorHappyMean */
      , (9209, 127,        500) /* VendorHappyVariance */
      , (9209, 133,          4) /* ShowableOnRadar - ShowAlways */
@@ -174,27 +174,27 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 268435539 /* Twitch3 */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (9209, 4,   630, -1, 0, 0, False) /* Create Gifted Healing Kit for Shop */
-     , (9209, 4,   753, -1, 0, 0, False) /* Create Brimstone for Shop */
-     , (9209, 4,   754, -1, 0, 0, False) /* Create Cadmia for Shop */
-     , (9209, 4,   755, -1, 0, 0, False) /* Create Cinnabar for Shop */
-     , (9209, 4,   756, -1, 0, 0, False) /* Create Cobalt for Shop */
-     , (9209, 4,   757, -1, 0, 0, False) /* Create Colcothar for Shop */
-     , (9209, 4,   758, -1, 0, 0, False) /* Create Gypsum for Shop */
-     , (9209, 4,   759, -1, 0, 0, False) /* Create Quicksilver for Shop */
-     , (9209, 4,   760, -1, 0, 0, False) /* Create Realgar for Shop */
-     , (9209, 4,   761, -1, 0, 0, False) /* Create Stibnite for Shop */
-     , (9209, 4,   762, -1, 0, 0, False) /* Create Turpeth for Shop */
-     , (9209, 4,   763, -1, 0, 0, False) /* Create Verdigris for Shop */
-     , (9209, 4,   764, -1, 0, 0, False) /* Create Vitriol for Shop */
-     , (9209, 4,  2621, -1, 0, 0, False) /* Create Trade Note (100) for Shop */
-     , (9209, 4,  2622, -1, 0, 0, False) /* Create Trade Note (500) for Shop */
-     , (9209, 4,  4587, -1, 0, 0, False) /* Create Heal Other II for Shop */
-     , (9209, 4,  4593, -1, 0, 0, False) /* Create Mana Boost Other II for Shop */
-     , (9209, 4,  4596, -1, 0, 0, False) /* Create Regeneration Other II for Shop */;
+VALUES (9209, 4,   630, -1, 0, 0, False) /* Create Gifted Healing Kit (630) for Shop */
+     , (9209, 4,   753, -1, 0, 0, False) /* Create Brimstone (753) for Shop */
+     , (9209, 4,   754, -1, 0, 0, False) /* Create Cadmia (754) for Shop */
+     , (9209, 4,   755, -1, 0, 0, False) /* Create Cinnabar (755) for Shop */
+     , (9209, 4,   756, -1, 0, 0, False) /* Create Cobalt (756) for Shop */
+     , (9209, 4,   757, -1, 0, 0, False) /* Create Colcothar (757) for Shop */
+     , (9209, 4,   758, -1, 0, 0, False) /* Create Gypsum (758) for Shop */
+     , (9209, 4,   759, -1, 0, 0, False) /* Create Quicksilver (759) for Shop */
+     , (9209, 4,   760, -1, 0, 0, False) /* Create Realgar (760) for Shop */
+     , (9209, 4,   761, -1, 0, 0, False) /* Create Stibnite (761) for Shop */
+     , (9209, 4,   762, -1, 0, 0, False) /* Create Turpeth (762) for Shop */
+     , (9209, 4,   763, -1, 0, 0, False) /* Create Verdigris (763) for Shop */
+     , (9209, 4,   764, -1, 0, 0, False) /* Create Vitriol (764) for Shop */
+     , (9209, 4,  2621, -1, 0, 0, False) /* Create Trade Note (100) (2621) for Shop */
+     , (9209, 4,  2622, -1, 0, 0, False) /* Create Trade Note (500) (2622) for Shop */
+     , (9209, 4,  4587, -1, 0, 0, False) /* Create Heal Other II (4587) for Shop */
+     , (9209, 4,  4593, -1, 0, 0, False) /* Create Mana Boost Other II (4593) for Shop */
+     , (9209, 4,  4596, -1, 0, 0, False) /* Create Regeneration Other II (4596) for Shop */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (9209, -1, 2470, 120, 10, 25, 2, 32, 1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0)
-     , (9209, -1, 379, 120, 10, 25, 2, 32, 1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0)
-     , (9209, -1, 377, 120, 10, 25, 2, 32, 1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0)
-     , (9209, -1, 631, 120, 10, 25, 2, 32, 1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0);
+VALUES (9209, -1, 2470, 120, 10, 25, 2, 32, 1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Stamina Elixir (2470) (x10 up to max of 25) - Regenerate upon PickUp - Location to (re)Generate: Shop */
+     , (9209, -1, 379, 120, 10, 25, 2, 32, 1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Mana Potion (379) (x10 up to max of 25) - Regenerate upon PickUp - Location to (re)Generate: Shop */
+     , (9209, -1, 377, 120, 10, 25, 2, 32, 1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Potion of Healing (377) (x10 up to max of 25) - Regenerate upon PickUp - Location to (re)Generate: Shop */
+     , (9209, -1, 631, 120, 10, 25, 2, 32, 1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Excellent Healing Kit (631) (x10 up to max of 25) - Regenerate upon PickUp - Location to (re)Generate: Shop */;

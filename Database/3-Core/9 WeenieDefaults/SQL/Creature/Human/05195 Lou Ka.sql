@@ -10,7 +10,7 @@ VALUES (5195,   1,         16) /* ItemType - Creature */
      , (5195,  16,         32) /* ItemUseable - Remote */
      , (5195,  25,          5) /* Level */
      , (5195,  27,          0) /* ArmorType */
-     , (5195,  93,    6292504) /* PhysicsState */
+     , (5195,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (5195,  95,          8) /* RadarBlipColor - Yellow */
      , (5195, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (5195, 134,         16) /* PlayerKillerStatus - RubberGlue */
@@ -358,6 +358,6 @@ VALUES (@parent_id,  0,  12 /* TurnToTarget */, 0, 1, NULL, NULL, NULL, NULL, NU
      , (@parent_id,  1,  10 /* Tell */, 0, 1, NULL, 'Oi-Tong Ye is always talking about this type of thing. Why don''t you show this to him?', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (5195, 2,   133,  0, 16, 1, False) /* Create Slippers for Wield */
-     , (5195, 2,  2596,  0, 4, 0.8, False) /* Create Doublet for Wield */
-     , (5195, 2,  2603,  0, 14, 0.8, False) /* Create Breeches for Wield */;
+VALUES (5195, 2,   133,  0, 16, 1, False) /* Create Slippers (133) for Wield */
+     , (5195, 2,  2596,  0, 4, 0.8, False) /* Create Doublet (2596) for Wield */
+     , (5195, 2,  2603,  0, 14, 0.8, False) /* Create Breeches (2603) for Wield */;

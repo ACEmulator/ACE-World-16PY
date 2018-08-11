@@ -10,10 +10,10 @@ VALUES (26906,   1,         16) /* ItemType - Creature */
      , (26906,  16,         32) /* ItemUseable - Remote */
      , (26906,  25,         10) /* Level */
      , (26906,  27,          0) /* ArmorType */
-     , (26906,  74,     264192) /* MerchandiseItemTypes */
+     , (26906,  74,     264192) /* MerchandiseItemTypes - Gem, PromissoryNote */
      , (26906,  75,          0) /* MerchandiseMinValue */
      , (26906,  76,    1000000) /* MerchandiseMaxValue */
-     , (26906,  93,    2098204) /* PhysicsState */
+     , (26906,  93,    2098204) /* PhysicsState - Ethereal, ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */
      , (26906, 126,        125) /* VendorHappyMean */
      , (26906, 127,        125) /* VendorHappyVariance */
      , (26906, 133,          4) /* ShowableOnRadar - ShowAlways */
@@ -97,4 +97,4 @@ VALUES (26906,  0,  4,  0,    0,    0,    0,    0,    0,    0,    0,    0,    0,
      , (26906,  8,  4,  2, 0.75,    0,    0,    0,    0,    0,    0,    0,    0,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (26906, 4, 26271, -1, 0, 0, False) /* Create Monument Sands Settlement Portal Gem for Shop */;
+VALUES (26906, 4, 26271, -1, 0, 0, False) /* Create Monument Sands Settlement Portal Gem (26271) for Shop */;

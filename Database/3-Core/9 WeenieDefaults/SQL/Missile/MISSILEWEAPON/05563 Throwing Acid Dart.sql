@@ -20,7 +20,7 @@ VALUES (5563,   1,        256) /* ItemType - MissileWeapon */
      , (5563,  48,         12) /* WeaponSkill - ThrownWeapon */
      , (5563,  49,         10) /* WeaponTime */
      , (5563,  51,          2) /* CombatUse - Missle */
-     , (5563,  93,     132116) /* PhysicsState */
+     , (5563,  93,     132116) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, Inelastic */
      , (5563, 150,        103) /* HookPlacement - Hook */
      , (5563, 151,          2) /* HookType - Wall */;
 

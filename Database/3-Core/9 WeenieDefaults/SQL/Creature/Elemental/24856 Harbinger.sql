@@ -13,8 +13,8 @@ VALUES (24856,   1,         16) /* ItemType - Creature */
      , (24856,  68,         13) /* TargetingTactic */
      , (24856,  69,         30) /* CombatTactic */
      , (24856,  72,         62) /* FriendType - Elemental */
-     , (24856,  93,       1032) /* PhysicsState */
-     , (24856, 101,        183) /* AiAllowedCombatStyle */
+     , (24856,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
+     , (24856, 101,        183) /* AiAllowedCombatStyle - Unarmed, OneHanded, OneHandedAndShield, Bow, Crossbow, ThrownWeapon */
      , (24856, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (24856, 146,    1241063) /* XpOverride */;
 
@@ -181,23 +181,23 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,  18 /* DirectBroadcast */, 0, 1, NULL, '"Another victim fallen into the stream that floods this world in form. You are no more. Not possible, I sense that your form returns. Perhaps the same will be of mine."', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (24856, 9,     0,  0, 0, 0, False) /* Create Unknown for ContainTreasure */
-     , (24856, 9,     0,  0, 0, 0, False) /* Create Unknown for ContainTreasure */
-     , (24856, 9,     0,  0, 0, 0, False) /* Create Unknown for ContainTreasure */
-     , (24856, 9,     0,  0, 0, 0, False) /* Create Unknown for ContainTreasure */
-     , (24856, 9,     0,  0, 0, 0, False) /* Create Unknown for ContainTreasure */
-     , (24856, 9,     0,  0, 0, 0, False) /* Create Unknown for ContainTreasure */
-     , (24856, 9,     0,  0, 0, 0, False) /* Create Unknown for ContainTreasure */
-     , (24856, 9,     0,  0, 0, 0, False) /* Create Unknown for ContainTreasure */
-     , (24856, 9,     0,  0, 0, 0, False) /* Create Unknown for ContainTreasure */
-     , (24856, 9,     0,  0, 0, 0, False) /* Create Unknown for ContainTreasure */
-     , (24856, 9, 22132,  0, 0, 1, False) /* Create Harbinger Arm Token for ContainTreasure */
-     , (24856, 9, 22132,  0, 0, 1, False) /* Create Harbinger Arm Token for ContainTreasure */
-     , (24856, 9, 22132,  0, 0, 1, False) /* Create Harbinger Arm Token for ContainTreasure */
-     , (24856, 9, 22132,  0, 0, 1, False) /* Create Harbinger Arm Token for ContainTreasure */
-     , (24856, 9, 22132,  0, 0, 1, False) /* Create Harbinger Arm Token for ContainTreasure */
-     , (24856, 9, 22132,  0, 0, 1, False) /* Create Harbinger Arm Token for ContainTreasure */
-     , (24856, 9, 22132,  0, 0, 1, False) /* Create Harbinger Arm Token for ContainTreasure */
-     , (24856, 9, 22132,  0, 0, 1, False) /* Create Harbinger Arm Token for ContainTreasure */
-     , (24856, 9, 22132,  0, 0, 1, False) /* Create Harbinger Arm Token for ContainTreasure */
-     , (24856, 9, 22132,  0, 0, 1, False) /* Create Harbinger Arm Token for ContainTreasure */;
+VALUES (24856, 9,     0,  0, 0, 0, False) /* Create UNKNOWN RANDOMLY GENERATED TREASURE for ContainTreasure */
+     , (24856, 9,     0,  0, 0, 0, False) /* Create UNKNOWN RANDOMLY GENERATED TREASURE for ContainTreasure */
+     , (24856, 9,     0,  0, 0, 0, False) /* Create UNKNOWN RANDOMLY GENERATED TREASURE for ContainTreasure */
+     , (24856, 9,     0,  0, 0, 0, False) /* Create UNKNOWN RANDOMLY GENERATED TREASURE for ContainTreasure */
+     , (24856, 9,     0,  0, 0, 0, False) /* Create UNKNOWN RANDOMLY GENERATED TREASURE for ContainTreasure */
+     , (24856, 9,     0,  0, 0, 0, False) /* Create UNKNOWN RANDOMLY GENERATED TREASURE for ContainTreasure */
+     , (24856, 9,     0,  0, 0, 0, False) /* Create UNKNOWN RANDOMLY GENERATED TREASURE for ContainTreasure */
+     , (24856, 9,     0,  0, 0, 0, False) /* Create UNKNOWN RANDOMLY GENERATED TREASURE for ContainTreasure */
+     , (24856, 9,     0,  0, 0, 0, False) /* Create UNKNOWN RANDOMLY GENERATED TREASURE for ContainTreasure */
+     , (24856, 9,     0,  0, 0, 0, False) /* Create UNKNOWN RANDOMLY GENERATED TREASURE for ContainTreasure */
+     , (24856, 9, 22132,  0, 0, 1, False) /* Create Harbinger Arm Token (22132) for ContainTreasure */
+     , (24856, 9, 22132,  0, 0, 1, False) /* Create Harbinger Arm Token (22132) for ContainTreasure */
+     , (24856, 9, 22132,  0, 0, 1, False) /* Create Harbinger Arm Token (22132) for ContainTreasure */
+     , (24856, 9, 22132,  0, 0, 1, False) /* Create Harbinger Arm Token (22132) for ContainTreasure */
+     , (24856, 9, 22132,  0, 0, 1, False) /* Create Harbinger Arm Token (22132) for ContainTreasure */
+     , (24856, 9, 22132,  0, 0, 1, False) /* Create Harbinger Arm Token (22132) for ContainTreasure */
+     , (24856, 9, 22132,  0, 0, 1, False) /* Create Harbinger Arm Token (22132) for ContainTreasure */
+     , (24856, 9, 22132,  0, 0, 1, False) /* Create Harbinger Arm Token (22132) for ContainTreasure */
+     , (24856, 9, 22132,  0, 0, 1, False) /* Create Harbinger Arm Token (22132) for ContainTreasure */
+     , (24856, 9, 22132,  0, 0, 1, False) /* Create Harbinger Arm Token (22132) for ContainTreasure */;

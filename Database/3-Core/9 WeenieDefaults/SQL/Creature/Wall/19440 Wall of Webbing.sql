@@ -12,7 +12,7 @@ VALUES (19440,   1,         16) /* ItemType - Creature */
      , (19440,  27,          0) /* ArmorType */
      , (19440,  40,          2) /* CombatMode - Melee */
      , (19440,  68,          1) /* TargetingTactic */
-     , (19440,  93,    2098192) /* PhysicsState */
+     , (19440,  93,    2098192) /* PhysicsState - IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */
      , (19440,  95,          8) /* RadarBlipColor - Yellow */
      , (19440, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (19440, 146,          0) /* XpOverride */;

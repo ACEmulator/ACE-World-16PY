@@ -12,7 +12,7 @@ VALUES (6892,   1,        512) /* ItemType - Container */
      , (6892,  81,          1) /* MaxGeneratedObjects */
      , (6892,  82,          1) /* InitGeneratedObjects */
      , (6892,  83,          2) /* ActivationResponse - Use */
-     , (6892,  93,       1048) /* PhysicsState */
+     , (6892,  93,       1048) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity */
      , (6892,  96,        500) /* EncumbranceCapacity */
      , (6892, 100,          1) /* GeneratorType - Relative */;
 
@@ -43,4 +43,4 @@ VALUES (6892,   1,   33554556) /* Setup */
      , (6892,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (6892, -1, 6891, 30, 1, 1, 2, 8, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0);
+VALUES (6892, -1, 6891, 30, 1, 1, 2, 8, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Reflections of a Portal (6891) (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: Contain */;

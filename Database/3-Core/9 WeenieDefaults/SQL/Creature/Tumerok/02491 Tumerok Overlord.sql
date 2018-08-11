@@ -11,8 +11,8 @@ VALUES (2491,   1,         16) /* ItemType - Creature */
      , (2491,  25,        120) /* Level */
      , (2491,  27,          0) /* ArmorType */
      , (2491,  68,          5) /* TargetingTactic */
-     , (2491,  93,       1032) /* PhysicsState */
-     , (2491, 101,        183) /* AiAllowedCombatStyle */
+     , (2491,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
+     , (2491, 101,        183) /* AiAllowedCombatStyle - Unarmed, OneHanded, OneHandedAndShield, Bow, Crossbow, ThrownWeapon */
      , (2491, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (2491, 146,      60822) /* XpOverride */;
 
@@ -67,7 +67,7 @@ VALUES (2491,   1,   33554496) /* Setup */
      , (2491,   7,  268436628) /* ClothingBase */
      , (2491,   8,  100667452) /* Icon */
      , (2491,  22,  872415270) /* PhysicsEffectTable */
-     , (2491,  35,        452) /* DeathTreasureType */;
+     , (2491,  35,        452) /* DeathTreasureType - Loot Tier: 5 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (2491,   1, 300, 0, 0) /* Strength */
@@ -182,7 +182,7 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 268435537 /* Twitch1 */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (2491, 10,    91,  0, 0, 1, False) /* Create Kite Shield for WieldTreasure */
-     , (2491, 10,  4912,  0, 0, 1, False) /* Create Overlord's Sword for WieldTreasure */
-     , (2491, 1,  8985,  0, 0, 1, False) /* Create Overlord's Key for Contain */
-     , (2491, 8, 23522,  0, 0, 1, False) /* Create Overlord's Sword for Treasure */;
+VALUES (2491, 10,    91,  0, 0, 1, False) /* Create Kite Shield (91) for WieldTreasure */
+     , (2491, 10,  4912,  0, 0, 1, False) /* Create Overlord's Sword (4912) for WieldTreasure */
+     , (2491, 1,  8985,  0, 0, 1, False) /* Create Overlord's Key (8985) for Contain */
+     , (2491, 8, 23522,  0, 0, 1, False) /* Create Overlord's Sword (23522) for Treasure */;

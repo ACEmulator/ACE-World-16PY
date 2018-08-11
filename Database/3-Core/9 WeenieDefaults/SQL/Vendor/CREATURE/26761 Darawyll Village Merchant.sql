@@ -10,10 +10,10 @@ VALUES (26761,   1,         16) /* ItemType - Creature */
      , (26761,  16,         32) /* ItemUseable - Remote */
      , (26761,  25,         10) /* Level */
      , (26761,  27,          0) /* ArmorType */
-     , (26761,  74,     264192) /* MerchandiseItemTypes */
+     , (26761,  74,     264192) /* MerchandiseItemTypes - Gem, PromissoryNote */
      , (26761,  75,          0) /* MerchandiseMinValue */
      , (26761,  76,    1000000) /* MerchandiseMaxValue */
-     , (26761,  93,    2098204) /* PhysicsState */
+     , (26761,  93,    2098204) /* PhysicsState - Ethereal, ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */
      , (26761, 126,        125) /* VendorHappyMean */
      , (26761, 127,        125) /* VendorHappyVariance */
      , (26761, 133,          4) /* ShowableOnRadar - ShowAlways */
@@ -97,4 +97,4 @@ VALUES (26761,  0,  4,  0,    0,    0,    0,    0,    0,    0,    0,    0,    0,
      , (26761,  8,  4,  2, 0.75,    0,    0,    0,    0,    0,    0,    0,    0,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (26761, 4, 26126, -1, 0, 0, False) /* Create Darawyll Village Portal Gem for Shop */;
+VALUES (26761, 4, 26126, -1, 0, 0, False) /* Create Darawyll Village Portal Gem (26126) for Shop */;

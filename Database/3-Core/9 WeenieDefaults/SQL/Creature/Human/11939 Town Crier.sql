@@ -10,7 +10,7 @@ VALUES (11939,   1,         16) /* ItemType - Creature */
      , (11939,  16,         32) /* ItemUseable - Remote */
      , (11939,  25,         20) /* Level */
      , (11939,  27,          0) /* ArmorType */
-     , (11939,  93,    6292504) /* PhysicsState */
+     , (11939,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (11939,  95,          8) /* RadarBlipColor - Yellow */
      , (11939, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (11939, 134,         16) /* PlayerKillerStatus - RubberGlue */
@@ -327,6 +327,6 @@ VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 1090519043 /* Ready */, NULL, NU
      , (@parent_id,  2,  10 /* Tell */, 1, 1, NULL, 'Every once in a while we hear a rumor that Virindi were spotted up on the plateau. If there are any of them, they hide themselves well. I can''t imagine what they want there.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (11939, 2,  2596,  0, 9, 1, False) /* Create Doublet for Wield */
-     , (11939, 2,  2604,  0, 9, 1, False) /* Create Breeches for Wield */
-     , (11939, 2,  5854,  0, 92, 0.5, False) /* Create Suikan Robe for Wield */;
+VALUES (11939, 2,  2596,  0, 9, 1, False) /* Create Doublet (2596) for Wield */
+     , (11939, 2,  2604,  0, 9, 1, False) /* Create Breeches (2604) for Wield */
+     , (11939, 2,  5854,  0, 92, 0.5, False) /* Create Suikan Robe (5854) for Wield */;

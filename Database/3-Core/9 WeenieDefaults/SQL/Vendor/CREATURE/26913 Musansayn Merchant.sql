@@ -10,10 +10,10 @@ VALUES (26913,   1,         16) /* ItemType - Creature */
      , (26913,  16,         32) /* ItemUseable - Remote */
      , (26913,  25,         10) /* Level */
      , (26913,  27,          0) /* ArmorType */
-     , (26913,  74,     264192) /* MerchandiseItemTypes */
+     , (26913,  74,     264192) /* MerchandiseItemTypes - Gem, PromissoryNote */
      , (26913,  75,          0) /* MerchandiseMinValue */
      , (26913,  76,    1000000) /* MerchandiseMaxValue */
-     , (26913,  93,    2098204) /* PhysicsState */
+     , (26913,  93,    2098204) /* PhysicsState - Ethereal, ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */
      , (26913, 126,        125) /* VendorHappyMean */
      , (26913, 127,        125) /* VendorHappyVariance */
      , (26913, 133,          4) /* ShowableOnRadar - ShowAlways */
@@ -97,4 +97,4 @@ VALUES (26913,  0,  4,  0,    0,    0,    0,    0,    0,    0,    0,    0,    0,
      , (26913,  8,  4,  2, 0.75,    0,    0,    0,    0,    0,    0,    0,    0,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (26913, 4, 26278, -1, 0, 0, False) /* Create Musansayn Portal Gem for Shop */;
+VALUES (26913, 4, 26278, -1, 0, 0, False) /* Create Musansayn Portal Gem (26278) for Shop */;

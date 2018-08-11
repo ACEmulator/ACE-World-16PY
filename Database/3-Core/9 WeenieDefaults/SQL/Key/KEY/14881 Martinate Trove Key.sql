@@ -10,8 +10,8 @@ VALUES (14881,   1,      16384) /* ItemType - Key */
      , (14881,  19,          0) /* Value */
      , (14881,  91,          1) /* MaxStructure */
      , (14881,  92,          1) /* Structure */
-     , (14881,  93,       1044) /* PhysicsState */
-     , (14881,  94,        640) /* TargetType - LockableMagicTarget */
+     , (14881,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (14881,  94,        640) /* TargetType - 640 */
      , (14881, 150,        103) /* HookPlacement - Hook */
      , (14881, 151,          2) /* HookType - Wall */;
 

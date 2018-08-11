@@ -13,7 +13,7 @@ VALUES (9104,   1,        512) /* ItemType - Container */
      , (9104,  81,          1) /* MaxGeneratedObjects */
      , (9104,  82,          1) /* InitGeneratedObjects */
      , (9104,  83,      65552) /* ActivationResponse */
-     , (9104,  93,       1048) /* PhysicsState */
+     , (9104,  93,       1048) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity */
      , (9104,  96,        500) /* EncumbranceCapacity */
      , (9104, 100,          1) /* GeneratorType - Relative */
      , (9104, 119,          1) /* Active */;
@@ -51,4 +51,4 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (9104,  16,          0) /* ActivationTarget */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (9104, -1, 9031, 60, 1, 1, 2, 8, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0);
+VALUES (9104, -1, 9031, 60, 1, 1, 2, 8, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Sasalia's Dress (9031) (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: Contain */;

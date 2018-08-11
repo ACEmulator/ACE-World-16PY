@@ -12,8 +12,8 @@ VALUES (4248,   1,         16) /* ItemType - Creature */
      , (4248,  27,          0) /* ArmorType */
      , (4248,  40,          2) /* CombatMode - Melee */
      , (4248,  68,         13) /* TargetingTactic */
-     , (4248,  93,       1032) /* PhysicsState */
-     , (4248, 101,        131) /* AiAllowedCombatStyle */
+     , (4248,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
+     , (4248, 101,        131) /* AiAllowedCombatStyle - Unarmed, OneHanded, ThrownWeapon */
      , (4248, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (4248, 140,          1) /* AiOptions */
      , (4248, 146,      27947) /* XpOverride */;
@@ -71,7 +71,7 @@ VALUES (4248,   1,   33556882) /* Setup */
      , (4248,   8,  100671185) /* Icon */
      , (4248,  22,  872415337) /* PhysicsEffectTable */
      , (4248,  30,         83) /* PhysicsScript - PortalExit */
-     , (4248,  35,        460) /* DeathTreasureType */;
+     , (4248,  35,        460) /* DeathTreasureType - Loot Tier: 4 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (4248,   1, 240, 0, 0) /* Strength */
@@ -174,9 +174,9 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 268435537 /* Twitch1 */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (4248, 9,     0,  0, 0, 0.99, False) /* Create Unknown for ContainTreasure */
-     , (4248, 9,     0,  0, 0, 0.97, False) /* Create Unknown for ContainTreasure */
-     , (4248, 9,     0,  0, 0, 0.95, False) /* Create Unknown for ContainTreasure */
-     , (4248, 9,  6876,  0, 0, 0.01, False) /* Create Sturdy Iron Key for ContainTreasure */
-     , (4248, 9, 20858,  0, 0, 0.03, False) /* Create Fish Stamp for ContainTreasure */
-     , (4248, 9, 25561,  0, 0, 0.05, False) /* Create Moarsman Head for ContainTreasure */;
+VALUES (4248, 9,     0,  0, 0, 0.99, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 4 for ContainTreasure */
+     , (4248, 9,     0,  0, 0, 0.97, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 4 for ContainTreasure */
+     , (4248, 9,     0,  0, 0, 0.95, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 4 for ContainTreasure */
+     , (4248, 9,  6876,  0, 0, 0.01, False) /* Create Sturdy Iron Key (6876) for ContainTreasure */
+     , (4248, 9, 20858,  0, 0, 0.03, False) /* Create Fish Stamp (20858) for ContainTreasure */
+     , (4248, 9, 25561,  0, 0, 0.05, False) /* Create Moarsman Head (25561) for ContainTreasure */;

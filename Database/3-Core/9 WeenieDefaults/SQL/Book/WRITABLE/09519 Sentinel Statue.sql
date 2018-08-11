@@ -9,7 +9,7 @@ VALUES (9519,   1,       8192) /* ItemType - Writable */
      , (9519,  16,         32) /* ItemUseable - Remote */
      , (9519,  19,          0) /* Value */
      , (9519,  83,          4) /* ActivationResponse - Animate */
-     , (9519,  93,       1040) /* PhysicsState */
+     , (9519,  93,       1040) /* PhysicsState - IgnoreCollisions, Gravity */
      , (9519, 119,          1) /* Active */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)

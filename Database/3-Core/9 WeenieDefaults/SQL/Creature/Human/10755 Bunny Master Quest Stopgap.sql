@@ -10,7 +10,7 @@ VALUES (10755,   1,         16) /* ItemType - Creature */
      , (10755,  16,         32) /* ItemUseable - Remote */
      , (10755,  25,         29) /* Level */
      , (10755,  27,          0) /* ArmorType */
-     , (10755,  93,    6292508) /* PhysicsState */
+     , (10755,  93,    6292508) /* PhysicsState - Ethereal, ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (10755,  95,          8) /* RadarBlipColor - Yellow */
      , (10755, 133,          0) /* ShowableOnRadar - Undefined */
      , (10755, 134,         16) /* PlayerKillerStatus - RubberGlue */
@@ -95,9 +95,9 @@ VALUES (10755,  0,  4,  0,    0,    0,    0,    0,    0,    0,    0,    0,    0,
      , (10755,  8,  4,  2, 0.75,    0,    0,    0,    0,    0,    0,    0,    0,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (10755, 2,    46,  0, 0, 0, False) /* Create Metal Cap for Wield */
-     , (10755, 2,    84,  0, 0, 0, False) /* Create Studded Leather Leggings for Wield */
-     , (10755, 2,    99,  0, 0, 0, False) /* Create Studded Leather Shirt for Wield */
-     , (10755, 2,  2596,  0, 0, 0, False) /* Create Doublet for Wield */
-     , (10755, 2,  2604,  0, 0, 0, False) /* Create Breeches for Wield */
-     , (10755, 2,  2606,  0, 0, 0.8, False) /* Create Boots for Wield */;
+VALUES (10755, 2,    46,  0, 0, 0, False) /* Create Metal Cap (46) for Wield */
+     , (10755, 2,    84,  0, 0, 0, False) /* Create Studded Leather Leggings (84) for Wield */
+     , (10755, 2,    99,  0, 0, 0, False) /* Create Studded Leather Shirt (99) for Wield */
+     , (10755, 2,  2596,  0, 0, 0, False) /* Create Doublet (2596) for Wield */
+     , (10755, 2,  2604,  0, 0, 0, False) /* Create Breeches (2604) for Wield */
+     , (10755, 2,  2606,  0, 0, 0.8, False) /* Create Boots (2606) for Wield */;

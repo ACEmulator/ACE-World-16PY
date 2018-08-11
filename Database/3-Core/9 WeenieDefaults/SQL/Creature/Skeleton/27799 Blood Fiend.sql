@@ -12,8 +12,8 @@ VALUES (27799,   1,         16) /* ItemType - Creature */
      , (27799,  27,          0) /* ArmorType */
      , (27799,  40,          1) /* CombatMode - NonCombat */
      , (27799,  68,          5) /* TargetingTactic */
-     , (27799,  93,       1032) /* PhysicsState */
-     , (27799, 101,        183) /* AiAllowedCombatStyle */
+     , (27799,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
+     , (27799, 101,        183) /* AiAllowedCombatStyle - Unarmed, OneHanded, OneHandedAndShield, Bow, Crossbow, ThrownWeapon */
      , (27799, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (27799, 140,          1) /* AiOptions */
      , (27799, 146,      70000) /* XpOverride */;
@@ -72,7 +72,7 @@ VALUES (27799,   1,   33558396) /* Setup */
      , (27799,   7,  268436644) /* ClothingBase */
      , (27799,   8,  100669124) /* Icon */
      , (27799,  22,  872415269) /* PhysicsEffectTable */
-     , (27799,  35,         19) /* DeathTreasureType */;
+     , (27799,  35,         19) /* DeathTreasureType - Loot Tier: 4 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (27799,   1, 350, 0, 0) /* Strength */
@@ -140,14 +140,14 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 1090519060 /* Sleeping */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (27799, 10,     0,  0, 0, 0.9, False) /* Create Unknown for WieldTreasure */
-     , (27799, 9,     0,  0, 0, 0.95, False) /* Create Unknown for ContainTreasure */
-     , (27799, 9,     0,  0, 0, 0.98, False) /* Create Unknown for ContainTreasure */
-     , (27799, 9,     0,  0, 0, 0.93, False) /* Create Unknown for ContainTreasure */
-     , (27799, 10,  7312,  0, 0, 0.1, False) /* Create Kite Shield for WieldTreasure */
-     , (27799, 9,  9310,  0, 0, 0.05, False) /* Create A Large Mnemosyne for ContainTreasure */
-     , (27799, 10, 23699,  0, 0, 0.3, False) /* Create Tachi for WieldTreasure */
-     , (27799, 10, 23703,  0, 0, 0.3, False) /* Create Lightning Tachi for WieldTreasure */
-     , (27799, 10, 23706,  0, 0, 0.4, False) /* Create Fire Tachi for WieldTreasure */
-     , (27799, 9, 24477,  0, 0, 0.02, False) /* Create Sturdy Steel Key for ContainTreasure */
-     , (27799, 9, 27810,  0, 0, 0.07, False) /* Create Warding Ring for ContainTreasure */;
+VALUES (27799, 10,     0,  0, 0, 0.9, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 4 for WieldTreasure */
+     , (27799, 9,     0,  0, 0, 0.95, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 4 for ContainTreasure */
+     , (27799, 9,     0,  0, 0, 0.98, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 4 for ContainTreasure */
+     , (27799, 9,     0,  0, 0, 0.93, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 4 for ContainTreasure */
+     , (27799, 10,  7312,  0, 0, 0.1, False) /* Create Kite Shield (7312) for WieldTreasure */
+     , (27799, 9,  9310,  0, 0, 0.05, False) /* Create A Large Mnemosyne (9310) for ContainTreasure */
+     , (27799, 10, 23699,  0, 0, 0.3, False) /* Create Tachi (23699) for WieldTreasure */
+     , (27799, 10, 23703,  0, 0, 0.3, False) /* Create Lightning Tachi (23703) for WieldTreasure */
+     , (27799, 10, 23706,  0, 0, 0.4, False) /* Create Fire Tachi (23706) for WieldTreasure */
+     , (27799, 9, 24477,  0, 0, 0.02, False) /* Create Sturdy Steel Key (24477) for ContainTreasure */
+     , (27799, 9, 27810,  0, 0, 0.07, False) /* Create Warding Ring (27810) for ContainTreasure */;

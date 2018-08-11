@@ -10,7 +10,7 @@ VALUES (5695,   1,         16) /* ItemType - Creature */
      , (5695,  16,         32) /* ItemUseable - Remote */
      , (5695,  25,         65) /* Level */
      , (5695,  27,          0) /* ArmorType */
-     , (5695,  93,    6292504) /* PhysicsState */
+     , (5695,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (5695,  95,          8) /* RadarBlipColor - Yellow */
      , (5695, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (5695, 134,         16) /* PlayerKillerStatus - RubberGlue */
@@ -740,7 +740,7 @@ VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 1090519043 /* Ready */, NULL, NU
      , (@parent_id,  3,  10 /* Tell */, 0, 1, NULL, 'I am a scholar of a certain era of Empyrean history, the time of the Millennium War.  If your text is of Dericost, Haebrous, or early Yalain, I may be able to translate it.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (5695, 2,  2596,  0, 6, 0, False) /* Create Doublet for Wield */
-     , (5695, 2,  2604,  0, 9, 0, False) /* Create Breeches for Wield */
-     , (5695, 2,  2606,  0, 4, 0.8, False) /* Create Boots for Wield */
-     , (5695, 2,  5588,  0, 0, 0, False) /* Create Scribe Hat for Wield */;
+VALUES (5695, 2,  2596,  0, 6, 0, False) /* Create Doublet (2596) for Wield */
+     , (5695, 2,  2604,  0, 9, 0, False) /* Create Breeches (2604) for Wield */
+     , (5695, 2,  2606,  0, 4, 0.8, False) /* Create Boots (2606) for Wield */
+     , (5695, 2,  5588,  0, 0, 0, False) /* Create Scribe Hat (5588) for Wield */;

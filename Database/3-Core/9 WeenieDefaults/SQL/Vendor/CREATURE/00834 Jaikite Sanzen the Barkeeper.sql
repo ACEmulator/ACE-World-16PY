@@ -13,7 +13,7 @@ VALUES (834,   1,         16) /* ItemType - Creature */
      , (834,  74,     262144) /* MerchandiseItemTypes - PromissoryNote */
      , (834,  75,          0) /* MerchandiseMinValue */
      , (834,  76,    1000000) /* MerchandiseMaxValue */
-     , (834,  93,    2098200) /* PhysicsState */
+     , (834,  93,    2098200) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */
      , (834, 126,        125) /* VendorHappyMean */
      , (834, 127,        125) /* VendorHappyVariance */
      , (834, 133,          4) /* ShowableOnRadar - ShowAlways */
@@ -163,39 +163,39 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 318767235 /* Nod */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (834, 2,   132,  0, 13, 0.5, False) /* Create Shoes for Wield */
-     , (834, 4,   620, -1, 0, 0, False) /* Create Cake for Shop */
-     , (834, 4,  1225, -1, 0, 0, False) /* Create Shoushi Grotto Directions for Shop */
-     , (834, 4,  1493, -1, 0, 0, False) /* Create Green Mire Camp Directions for Shop */
-     , (834, 4,  1509, -1, 0, 0, False) /* Create Drudge Rumor for Shop */
-     , (834, 4,  2451, -1, 0, 0, False) /* Create Ale for Shop */
-     , (834, 4,  2455, -1, 0, 0, False) /* Create Grape Juice for Shop */
-     , (834, 4,  2456, -1, 0, 0, False) /* Create Green Tea for Shop */
-     , (834, 4,  2467, -1, 0, 0, False) /* Create Red Wine for Shop */
-     , (834, 4,  2469, -1, 0, 0, False) /* Create Small Beer for Shop */
-     , (834, 2,  2587,  0, 9, 1, False) /* Create Shirt for Wield */
-     , (834, 2,  2602,  0, 9, 1, False) /* Create Breeches for Wield */
-     , (834, 4,  4210, -1, 0, 0, False) /* Create Dungeon Mei Directions for Shop */
-     , (834, 4,  4709, -1, 0, 0, False) /* Create Apple Pie for Shop */
-     , (834, 4,  4728, -1, 0, 0, False) /* Create Fried Chicken for Shop */
-     , (834, 4,  4732, -1, 0, 0, False) /* Create Fried Steak for Shop */
-     , (834, 4,  5602, -1, 0, 0, False) /* Create The Festival Stones of the Empyrean for Shop */
-     , (834, 4,  6419, -1, 0, 0, False) /* Create The Meeting Halls for Shop */
-     , (834, 4,  8378, -1, 0, 0, False) /* Create Beer Stein for Shop */
-     , (834, 2, 10696,  0, 18, 1, False) /* Create Apron for Wield */
-     , (834, 4, 25997, -1, 0, 0, False) /* Create The Broken Hall for Shop */
-     , (834, 4, 25998, -1, 0, 0, False) /* Create The Cursed Swamp for Shop */
-     , (834, 4, 25999, -1, 0, 0, False) /* Create Caves in the Foothills for Shop */
-     , (834, 4, 25999, -1, 0, 0, False) /* Create Caves in the Foothills for Shop */
-     , (834, 4, 26000, -1, 0, 0, False) /* Create Mosswart Hangout for Shop */
-     , (834, 4, 26001, -1, 0, 0, False) /* Create Braid Manor Ruin for Shop */
-     , (834, 4, 26002, -1, 0, 0, False) /* Create Shoushi Drudge Temple for Shop */
-     , (834, 4, 26003, -1, 0, 0, False) /* Create Shoushi Banderling Camp for Shop */
-     , (834, 4, 26480, -1, 0, 0, False) /* Create Fort Aimaru for Shop */
-     , (834, 4, 26481, -1, 0, 0, False) /* Create Ancient Warrior's Tower for Shop */
-     , (834, 4, 26482, -1, 0, 0, False) /* Create Mosswart Temple for Shop */
-     , (834, 4, 26483, -1, 0, 0, False) /* Create Directions to Nen Ai's House for Shop */
-     , (834, 4, 26484, -1, 0, 0, False) /* Create Rat Cave for Shop */
-     , (834, 4, 26486, -1, 0, 0, False) /* Create Bulletin for Shop */
-     , (834, 4, 26487, -1, 0, 0, False) /* Create Directions to the Shreth Hive for Shop */
-     , (834, 4, 26644, -1, 0, 0, False) /* Create Skeleton Castle Rumor for Shop */;
+VALUES (834, 2,   132,  0, 13, 0.5, False) /* Create Shoes (132) for Wield */
+     , (834, 4,   620, -1, 0, 0, False) /* Create Cake (620) for Shop */
+     , (834, 4,  1225, -1, 0, 0, False) /* Create Shoushi Grotto Directions (1225) for Shop */
+     , (834, 4,  1493, -1, 0, 0, False) /* Create Green Mire Camp Directions (1493) for Shop */
+     , (834, 4,  1509, -1, 0, 0, False) /* Create Drudge Rumor (1509) for Shop */
+     , (834, 4,  2451, -1, 0, 0, False) /* Create Ale (2451) for Shop */
+     , (834, 4,  2455, -1, 0, 0, False) /* Create Grape Juice (2455) for Shop */
+     , (834, 4,  2456, -1, 0, 0, False) /* Create Green Tea (2456) for Shop */
+     , (834, 4,  2467, -1, 0, 0, False) /* Create Red Wine (2467) for Shop */
+     , (834, 4,  2469, -1, 0, 0, False) /* Create Small Beer (2469) for Shop */
+     , (834, 2,  2587,  0, 9, 1, False) /* Create Shirt (2587) for Wield */
+     , (834, 2,  2602,  0, 9, 1, False) /* Create Breeches (2602) for Wield */
+     , (834, 4,  4210, -1, 0, 0, False) /* Create Dungeon Mei Directions (4210) for Shop */
+     , (834, 4,  4709, -1, 0, 0, False) /* Create Apple Pie (4709) for Shop */
+     , (834, 4,  4728, -1, 0, 0, False) /* Create Fried Chicken (4728) for Shop */
+     , (834, 4,  4732, -1, 0, 0, False) /* Create Fried Steak (4732) for Shop */
+     , (834, 4,  5602, -1, 0, 0, False) /* Create The Festival Stones of the Empyrean (5602) for Shop */
+     , (834, 4,  6419, -1, 0, 0, False) /* Create The Meeting Halls (6419) for Shop */
+     , (834, 4,  8378, -1, 0, 0, False) /* Create Beer Stein (8378) for Shop */
+     , (834, 2, 10696,  0, 18, 1, False) /* Create Apron (10696) for Wield */
+     , (834, 4, 25997, -1, 0, 0, False) /* Create The Broken Hall (25997) for Shop */
+     , (834, 4, 25998, -1, 0, 0, False) /* Create The Cursed Swamp (25998) for Shop */
+     , (834, 4, 25999, -1, 0, 0, False) /* Create Caves in the Foothills (25999) for Shop */
+     , (834, 4, 25999, -1, 0, 0, False) /* Create Caves in the Foothills (25999) for Shop */
+     , (834, 4, 26000, -1, 0, 0, False) /* Create Mosswart Hangout (26000) for Shop */
+     , (834, 4, 26001, -1, 0, 0, False) /* Create Braid Manor Ruin (26001) for Shop */
+     , (834, 4, 26002, -1, 0, 0, False) /* Create Shoushi Drudge Temple (26002) for Shop */
+     , (834, 4, 26003, -1, 0, 0, False) /* Create Shoushi Banderling Camp (26003) for Shop */
+     , (834, 4, 26480, -1, 0, 0, False) /* Create Fort Aimaru (26480) for Shop */
+     , (834, 4, 26481, -1, 0, 0, False) /* Create Ancient Warrior's Tower (26481) for Shop */
+     , (834, 4, 26482, -1, 0, 0, False) /* Create Mosswart Temple (26482) for Shop */
+     , (834, 4, 26483, -1, 0, 0, False) /* Create Directions to Nen Ai's House (26483) for Shop */
+     , (834, 4, 26484, -1, 0, 0, False) /* Create Rat Cave (26484) for Shop */
+     , (834, 4, 26486, -1, 0, 0, False) /* Create Bulletin (26486) for Shop */
+     , (834, 4, 26487, -1, 0, 0, False) /* Create Directions to the Shreth Hive (26487) for Shop */
+     , (834, 4, 26644, -1, 0, 0, False) /* Create Skeleton Castle Rumor (26644) for Shop */;

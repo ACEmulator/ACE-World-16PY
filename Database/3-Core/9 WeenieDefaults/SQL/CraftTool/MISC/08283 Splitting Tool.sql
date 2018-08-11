@@ -15,8 +15,8 @@ VALUES (8283,   1,        128) /* ItemType - Misc */
      , (8283,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
      , (8283,  19,      40000) /* Value */
      , (8283,  33,          1) /* Bonded - Bonded */
-     , (8283,  93,       1044) /* PhysicsState */
-     , (8283,  94,  134221952) /* TargetType */
+     , (8283,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (8283,  94,  134221952) /* TargetType - 134221952 */
      , (8283, 150,        103) /* HookPlacement - Hook */
      , (8283, 151,          2) /* HookType - Wall */;
 

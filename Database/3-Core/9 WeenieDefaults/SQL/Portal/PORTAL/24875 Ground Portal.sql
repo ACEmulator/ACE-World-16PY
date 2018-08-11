@@ -4,8 +4,8 @@ VALUES ('24875', 'portalcandethkeeptreeexit', 7) /* Portal */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (24875,   1,      65536) /* ItemType - Portal */
      , (24875,  16,         32) /* ItemUseable - Remote */
-     , (24875,  93,       2060) /* PhysicsState */
-     , (24875, 111,         49) /* PortalBitmask */
+     , (24875,  93,       2060) /* PhysicsState - Ethereal, ReportCollisions, LightingOn */
+     , (24875, 111,         49) /* PortalBitmask - Unrestricted, NoSummon, NoRecall */
      , (24875, 133,          4) /* ShowableOnRadar - ShowAlways */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)

@@ -15,11 +15,11 @@ VALUES (19848,   1,          1) /* ItemType - MeleeWeapon */
      , (19848,  44,         15) /* Damage */
      , (19848,  45,         16) /* DamageType - Fire */
      , (19848,  46,          2) /* DefaultCombatStyle - OneHanded */
-     , (19848,  47,          6) /* AttackType */
+     , (19848,  47,          6) /* AttackType - Thrust, Slash */
      , (19848,  48,          4) /* WeaponSkill - Dagger */
      , (19848,  49,         12) /* WeaponTime */
      , (19848,  51,          1) /* CombatUse - Melee */
-     , (19848,  93,       1044) /* PhysicsState */
+     , (19848,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (19848, 106,        100) /* ItemSpellcraft */
      , (19848, 107,       1200) /* ItemCurMana */
      , (19848, 108,       1200) /* ItemMaxMana */

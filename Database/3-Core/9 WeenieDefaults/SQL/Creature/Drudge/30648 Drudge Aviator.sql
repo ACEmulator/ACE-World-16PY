@@ -13,8 +13,8 @@ VALUES (30648,   1,         16) /* ItemType - Creature */
      , (30648,  40,          2) /* CombatMode - Melee */
      , (30648,  68,          9) /* TargetingTactic */
      , (30648,  72,         19) /* FriendType - Virindi */
-     , (30648,  93,    4195336) /* PhysicsState */
-     , (30648, 101,        131) /* AiAllowedCombatStyle */
+     , (30648,  93,    4195336) /* PhysicsState - ReportCollisions, Gravity, EdgeSlide */
+     , (30648, 101,        131) /* AiAllowedCombatStyle - Unarmed, OneHanded, ThrownWeapon */
      , (30648, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (30648, 140,          1) /* AiOptions */
      , (30648, 146,      69298) /* XpOverride */;
@@ -75,8 +75,15 @@ VALUES (30648,   1,   33556445) /* Setup */
      , (30648,   7,  268435975) /* ClothingBase */
      , (30648,   8,  100667445) /* Icon */
      , (30648,  22,  872415258) /* PhysicsEffectTable */
-     , (30648,  32,        273) /* WieldedTreasureType */
-     , (30648,  35,        452) /* DeathTreasureType */;
+     , (30648,  32,        273) /* WieldedTreasureType - 
+                                   Wield 10x Frost Throwing Club (23660) | Probability: 33%
+                                   Wield 10x Fire Throwing Club (23656) | Probability: 33%
+                                   Wield 10x Throwing Club (23652) | Probability: 34%
+                                   Wield Lightning Tachi (23703) | Probability: 25%
+                                   Wield Yaoji (23709) | Probability: 25%
+                                   Wield Fire Tachi (23706) | Probability: 25%
+                                   Wield Tachi (23699) | Probability: 25% */
+     , (30648,  35,        452) /* DeathTreasureType - Loot Tier: 5 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (30648,   1, 350, 0, 0) /* Strength */
@@ -208,5 +215,5 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 268435537 /* Twitch1 */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (30648, 9, 30658,  0, 0, 1, False) /* Create Flying Machine Instructions for ContainTreasure */
-     , (30648, 9, 30659,  0, 0, 1, False) /* Create Flying Machine Plans for ContainTreasure */;
+VALUES (30648, 9, 30658,  0, 0, 1, False) /* Create Flying Machine Instructions (30658) for ContainTreasure */
+     , (30648, 9, 30659,  0, 0, 1, False) /* Create Flying Machine Plans (30659) for ContainTreasure */;

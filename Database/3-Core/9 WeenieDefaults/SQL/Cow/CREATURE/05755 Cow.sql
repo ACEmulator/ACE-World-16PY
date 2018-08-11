@@ -13,7 +13,7 @@ VALUES (5755,   1,         16) /* ItemType - Creature */
      , (5755,  40,          2) /* CombatMode - Melee */
      , (5755,  67,         64) /* Tolerance */
      , (5755,  68,          5) /* TargetingTactic */
-     , (5755,  93,    2098200) /* PhysicsState */
+     , (5755,  93,    2098200) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */
      , (5755, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (5755, 146,         19) /* XpOverride */;
 

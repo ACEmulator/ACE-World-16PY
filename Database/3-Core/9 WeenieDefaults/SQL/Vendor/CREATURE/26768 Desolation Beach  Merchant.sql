@@ -10,10 +10,10 @@ VALUES (26768,   1,         16) /* ItemType - Creature */
      , (26768,  16,         32) /* ItemUseable - Remote */
      , (26768,  25,         10) /* Level */
      , (26768,  27,          0) /* ArmorType */
-     , (26768,  74,     264192) /* MerchandiseItemTypes */
+     , (26768,  74,     264192) /* MerchandiseItemTypes - Gem, PromissoryNote */
      , (26768,  75,          0) /* MerchandiseMinValue */
      , (26768,  76,    1000000) /* MerchandiseMaxValue */
-     , (26768,  93,    2098204) /* PhysicsState */
+     , (26768,  93,    2098204) /* PhysicsState - Ethereal, ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */
      , (26768, 126,        125) /* VendorHappyMean */
      , (26768, 127,        125) /* VendorHappyVariance */
      , (26768, 133,          4) /* ShowableOnRadar - ShowAlways */
@@ -97,4 +97,4 @@ VALUES (26768,  0,  4,  0,    0,    0,    0,    0,    0,    0,    0,    0,    0,
      , (26768,  8,  4,  2, 0.75,    0,    0,    0,    0,    0,    0,    0,    0,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (26768, 4, 26133, -1, 0, 0, False) /* Create Desolation Beach  Portal Gem for Shop */;
+VALUES (26768, 4, 26133, -1, 0, 0, False) /* Create Desolation Beach  Portal Gem (26133) for Shop */;

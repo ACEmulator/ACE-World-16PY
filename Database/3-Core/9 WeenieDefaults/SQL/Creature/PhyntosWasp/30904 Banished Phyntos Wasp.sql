@@ -11,7 +11,7 @@ VALUES (30904,   1,         16) /* ItemType - Creature */
      , (30904,  25,         85) /* Level */
      , (30904,  40,          2) /* CombatMode - Melee */
      , (30904,  68,         13) /* TargetingTactic */
-     , (30904,  93,       1032) /* PhysicsState */
+     , (30904,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (30904, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (30904, 146,      21176) /* XpOverride */;
 
@@ -69,7 +69,7 @@ VALUES (30904,   1,   33558817) /* Setup */
      , (30904,   7,  268436836) /* ClothingBase */
      , (30904,   8,  100667450) /* Icon */
      , (30904,  22,  872415266) /* PhysicsEffectTable */
-     , (30904,  35,        462) /* DeathTreasureType */;
+     , (30904,  35,        462) /* DeathTreasureType - Loot Tier: 3 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (30904,   1, 155, 0, 0) /* Strength */
@@ -111,6 +111,6 @@ INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
 VALUES (30904, 414) /* PLAYER_DEATH_EVENT */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (30904, 9,     0,  0, 0, 0.99, False) /* Create Unknown for ContainTreasure */
-     , (30904, 9,  6876,  0, 0, 0.01, False) /* Create Sturdy Iron Key for ContainTreasure */
-     , (30904, 9, 30879,  0, 0, 1, False) /* Create Banished Crossbow for ContainTreasure */;
+VALUES (30904, 9,     0,  0, 0, 0.99, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 3 for ContainTreasure */
+     , (30904, 9,  6876,  0, 0, 0.01, False) /* Create Sturdy Iron Key (6876) for ContainTreasure */
+     , (30904, 9, 30879,  0, 0, 1, False) /* Create Banished Crossbow (30879) for ContainTreasure */;

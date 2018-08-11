@@ -9,7 +9,7 @@ VALUES (11697,   1,        512) /* ItemType - Container */
      , (11697,   8,          5) /* Mass */
      , (11697,  16,         48) /* ItemUseable - ViewedRemote */
      , (11697,  19,         10) /* Value */
-     , (11697,  93,         20) /* PhysicsState */
+     , (11697,  93,         20) /* PhysicsState - Ethereal, IgnoreCollisions */
      , (11697, 151,          1) /* HookType - Floor */
      , (11697, 152,         -1) /* HookItemType */;
 

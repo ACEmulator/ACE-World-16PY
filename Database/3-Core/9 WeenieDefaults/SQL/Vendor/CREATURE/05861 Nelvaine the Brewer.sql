@@ -10,10 +10,10 @@ VALUES (5861,   1,         16) /* ItemType - Creature */
      , (5861,  16,         32) /* ItemUseable - Remote */
      , (5861,  25,         12) /* Level */
      , (5861,  27,          0) /* ArmorType */
-     , (5861,  74,     831488) /* MerchandiseItemTypes */
+     , (5861,  74,     831488) /* MerchandiseItemTypes - SpellComponents, Writable, Caster, PromissoryNote, ManaStone */
      , (5861,  75,          0) /* MerchandiseMinValue */
      , (5861,  76,     100000) /* MerchandiseMaxValue */
-     , (5861,  93,    2098200) /* PhysicsState */
+     , (5861,  93,    2098200) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */
      , (5861, 126,      10000) /* VendorHappyMean */
      , (5861, 127,       4000) /* VendorHappyVariance */
      , (5861, 133,          4) /* ShowableOnRadar - ShowAlways */
@@ -163,14 +163,14 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 318767235 /* Nod */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (5861, 2,   115,  0, 4, 0.8, False) /* Create Leather Boots for Wield */
-     , (5861, 2,   130,  0, 4, 0.5, False) /* Create Shirt for Wield */
-     , (5861, 4,  2451, -1, 0, 0, False) /* Create Ale for Shop */
-     , (5861, 4,  2469, -1, 0, 0, False) /* Create Small Beer for Shop */
-     , (5861, 4,  2471, -1, 0, 0, False) /* Create Stout for Shop */
-     , (5861, 2,  2597,  0, 14, 0, False) /* Create Pants for Wield */
-     , (5861, 4,  5831, -1, 0, 0, False) /* Create Nelvaine's Olde Ispar Stout for Shop */
-     , (5861, 4,  8378, -1, 0, 0, False) /* Create Beer Stein for Shop */
-     , (5861, 2, 10696,  0, 18, 1, False) /* Create Apron for Wield */
-     , (5861, 4, 22765, -1, 0, 0, False) /* Create The Empyrean Temples for Shop */
-     , (5861, 4, 26479, -1, 0, 0, False) /* Create Tumerok Akiekie for Shop */;
+VALUES (5861, 2,   115,  0, 4, 0.8, False) /* Create Leather Boots (115) for Wield */
+     , (5861, 2,   130,  0, 4, 0.5, False) /* Create Shirt (130) for Wield */
+     , (5861, 4,  2451, -1, 0, 0, False) /* Create Ale (2451) for Shop */
+     , (5861, 4,  2469, -1, 0, 0, False) /* Create Small Beer (2469) for Shop */
+     , (5861, 4,  2471, -1, 0, 0, False) /* Create Stout (2471) for Shop */
+     , (5861, 2,  2597,  0, 14, 0, False) /* Create Pants (2597) for Wield */
+     , (5861, 4,  5831, -1, 0, 0, False) /* Create Nelvaine's Olde Ispar Stout (5831) for Shop */
+     , (5861, 4,  8378, -1, 0, 0, False) /* Create Beer Stein (8378) for Shop */
+     , (5861, 2, 10696,  0, 18, 1, False) /* Create Apron (10696) for Wield */
+     , (5861, 4, 22765, -1, 0, 0, False) /* Create The Empyrean Temples (22765) for Shop */
+     , (5861, 4, 26479, -1, 0, 0, False) /* Create Tumerok Akiekie (26479) for Shop */;

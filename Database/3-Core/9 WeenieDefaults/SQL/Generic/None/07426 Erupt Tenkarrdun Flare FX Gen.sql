@@ -4,7 +4,7 @@ VALUES ('7426', 'erupttenkarrdunflarefxgen', 1) /* Generic */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (7426,  81,          2) /* MaxGeneratedObjects */
      , (7426,  82,          2) /* InitGeneratedObjects */
-     , (7426,  93,       1044) /* PhysicsState */
+     , (7426,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (7426, 142,          3) /* GeneratorTimeType - Event */
      , (7426, 145,          2) /* GeneratorEndDestructionType - Destroy */;
 
@@ -27,5 +27,5 @@ VALUES (7426,   1,   33555051) /* Setup */
      , (7426,   8,  100667494) /* Icon */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (7426, -1, 5749, 60, 1, 1, 1, 4, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0)
-     , (7426, -1, 7481, 60, 1, 1, 1, 4, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0);
+VALUES (7426, -1, 5749, 60, 1, 1, 1, 4, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Volcano Heat (5749) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
+     , (7426, -1, 7481, 60, 1, 1, 1, 4, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Fire Plume (7481) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */;

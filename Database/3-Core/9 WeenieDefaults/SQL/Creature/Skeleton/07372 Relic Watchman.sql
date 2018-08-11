@@ -13,8 +13,8 @@ VALUES (7372,   1,         16) /* ItemType - Creature */
      , (7372,  68,          5) /* TargetingTactic */
      , (7372,  81,          2) /* MaxGeneratedObjects */
      , (7372,  82,          2) /* InitGeneratedObjects */
-     , (7372,  93,       1032) /* PhysicsState */
-     , (7372, 101,        183) /* AiAllowedCombatStyle */
+     , (7372,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
+     , (7372, 101,        183) /* AiAllowedCombatStyle - Unarmed, OneHanded, OneHandedAndShield, Bow, Crossbow, ThrownWeapon */
      , (7372, 103,          3) /* GeneratorDestructionType - Kill */
      , (7372, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (7372, 140,          1) /* AiOptions */
@@ -73,8 +73,12 @@ VALUES (7372,   1,   33555465) /* Setup */
      , (7372,   8,  100669124) /* Icon */
      , (7372,  22,  872415269) /* PhysicsEffectTable */
      , (7372,  31,       7417) /* LinkedPortalOne - Aerfalle Keep Portal */
-     , (7372,  32,        289) /* WieldedTreasureType */
-     , (7372,  35,         25) /* DeathTreasureType */;
+     , (7372,  32,        289) /* WieldedTreasureType - 
+                                   Wield Yumi (23736) | Probability: 50%
+                                   Wield 16x Greater Fire Arrow (5305) | Probability: 100%
+                                   Wield Kite Shield (23686) | Probability: 50%
+                                   Wield Fire Tachi (23708) | Probability: 50% */
+     , (7372,  35,         25) /* DeathTreasureType - Loot Tier: 4 */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (7372, 12, 3102408716, 47, 95, 36, 0.9238795, 0, 0, -0.3826835) /* PortalSummonLoc */;
@@ -153,11 +157,11 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 1090519060 /* Sleeping */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (7372, 9,     0,  0, 0, 0.9, False) /* Create Unknown for ContainTreasure */
-     , (7372, 9,     0,  0, 0, 0, False) /* Create Unknown for ContainTreasure */
-     , (7372, 9,  3687,  0, 0, 0.1, False) /* Create Skeleton's Skull for ContainTreasure */
-     , (7372, 9, 28056,  0, 0, 1, False) /* Create Ring of the Watchman for ContainTreasure */;
+VALUES (7372, 9,     0,  0, 0, 0.9, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 4 for ContainTreasure */
+     , (7372, 9,     0,  0, 0, 0, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 4 for ContainTreasure */
+     , (7372, 9,  3687,  0, 0, 0.1, False) /* Create Skeleton's Skull (3687) for ContainTreasure */
+     , (7372, 9, 28056,  0, 0, 1, False) /* Create Ring of the Watchman (28056) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (7372, 0.5, 7179, 20, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0)
-     , (7372, 1, 7179, 20, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0);
+VALUES (7372, 0.5, 7179, 20, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Relic Bones (7179) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Scatter */
+     , (7372, 1, 7179, 20, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Relic Bones (7179) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Scatter */;

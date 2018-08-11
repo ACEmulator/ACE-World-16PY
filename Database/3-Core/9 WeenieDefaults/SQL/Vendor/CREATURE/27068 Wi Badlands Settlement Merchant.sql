@@ -10,10 +10,10 @@ VALUES (27068,   1,         16) /* ItemType - Creature */
      , (27068,  16,         32) /* ItemUseable - Remote */
      , (27068,  25,         10) /* Level */
      , (27068,  27,          0) /* ArmorType */
-     , (27068,  74,     264192) /* MerchandiseItemTypes */
+     , (27068,  74,     264192) /* MerchandiseItemTypes - Gem, PromissoryNote */
      , (27068,  75,          0) /* MerchandiseMinValue */
      , (27068,  76,    1000000) /* MerchandiseMaxValue */
-     , (27068,  93,    2098204) /* PhysicsState */
+     , (27068,  93,    2098204) /* PhysicsState - Ethereal, ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */
      , (27068, 126,        125) /* VendorHappyMean */
      , (27068, 127,        125) /* VendorHappyVariance */
      , (27068, 133,          4) /* ShowableOnRadar - ShowAlways */
@@ -97,4 +97,4 @@ VALUES (27068,  0,  4,  0,    0,    0,    0,    0,    0,    0,    0,    0,    0,
      , (27068,  8,  4,  2, 0.75,    0,    0,    0,    0,    0,    0,    0,    0,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (27068, 4, 26433, -1, 0, 0, False) /* Create Wi Badlands Settlement Portal Gem for Shop */;
+VALUES (27068, 4, 26433, -1, 0, 0, False) /* Create Wi Badlands Settlement Portal Gem (26433) for Shop */;

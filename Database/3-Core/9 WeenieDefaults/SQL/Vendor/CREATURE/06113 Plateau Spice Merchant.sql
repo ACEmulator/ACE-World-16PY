@@ -13,7 +13,7 @@ VALUES (6113,   1,         16) /* ItemType - Creature */
      , (6113,  74,    4194304) /* MerchandiseItemTypes - CraftCookingBase */
      , (6113,  75,          0) /* MerchandiseMinValue */
      , (6113,  76,     100000) /* MerchandiseMaxValue */
-     , (6113,  93,    2098200) /* PhysicsState */
+     , (6113,  93,    2098200) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */
      , (6113, 126,        500) /* VendorHappyMean */
      , (6113, 127,        500) /* VendorHappyVariance */
      , (6113, 133,          4) /* ShowableOnRadar - ShowAlways */
@@ -163,11 +163,11 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 318767235 /* Nod */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (6113, 2,   115,  0, 4, 0.6, False) /* Create Leather Boots for Wield */
-     , (6113, 2,  2595,  0, 9, 1, False) /* Create Tunic for Wield */
-     , (6113, 2,  2600,  0, 4, 0.6, False) /* Create Pantaloons for Wield */
-     , (6113, 4,  5781, -1, 0, 0, False) /* Create Cinnamon for Shop */
-     , (6113, 4,  5794, -1, 0, 0, False) /* Create Hot Pepper for Shop */
-     , (6113, 4,  5803, -1, 0, 0, False) /* Create Oregano for Shop */
-     , (6113, 2,  5894,  0, 13, 0.4, False) /* Create Fez for Wield */
-     , (6113, 2, 10696,  0, 18, 0.5, False) /* Create Apron for Wield */;
+VALUES (6113, 2,   115,  0, 4, 0.6, False) /* Create Leather Boots (115) for Wield */
+     , (6113, 2,  2595,  0, 9, 1, False) /* Create Tunic (2595) for Wield */
+     , (6113, 2,  2600,  0, 4, 0.6, False) /* Create Pantaloons (2600) for Wield */
+     , (6113, 4,  5781, -1, 0, 0, False) /* Create Cinnamon (5781) for Shop */
+     , (6113, 4,  5794, -1, 0, 0, False) /* Create Hot Pepper (5794) for Shop */
+     , (6113, 4,  5803, -1, 0, 0, False) /* Create Oregano (5803) for Shop */
+     , (6113, 2,  5894,  0, 13, 0.4, False) /* Create Fez (5894) for Wield */
+     , (6113, 2, 10696,  0, 18, 0.5, False) /* Create Apron (10696) for Wield */;

@@ -4,8 +4,8 @@ VALUES ('28062', 'portalcoraltunnelseastexit', 7) /* Portal */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (28062,   1,      65536) /* ItemType - Portal */
      , (28062,  16,         32) /* ItemUseable - Remote */
-     , (28062,  93,       3084) /* PhysicsState */
-     , (28062, 111,         49) /* PortalBitmask */
+     , (28062,  93,       3084) /* PhysicsState - Ethereal, ReportCollisions, Gravity, LightingOn */
+     , (28062, 111,         49) /* PortalBitmask - Unrestricted, NoSummon, NoRecall */
      , (28062, 133,          4) /* ShowableOnRadar - ShowAlways */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)

@@ -9,7 +9,7 @@ VALUES (11970,   1,       8192) /* ItemType - Writable */
      , (11970,  16,         48) /* ItemUseable - ViewedRemote */
      , (11970,  19,      10000) /* Value */
      , (11970,  33,          1) /* Bonded - Bonded */
-     , (11970,  93,       1044) /* PhysicsState */
+     , (11970,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (11970, 150,        103) /* HookPlacement - Hook */
      , (11970, 151,          2) /* HookType - Wall */;
 

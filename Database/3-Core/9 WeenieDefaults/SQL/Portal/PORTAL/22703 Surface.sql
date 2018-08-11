@@ -4,8 +4,8 @@ VALUES ('22703', 'portaltuskertunnelsexit', 7) /* Portal */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (22703,   1,      65536) /* ItemType - Portal */
      , (22703,  16,         32) /* ItemUseable - Remote */
-     , (22703,  93,       3084) /* PhysicsState */
-     , (22703, 111,         49) /* PortalBitmask */
+     , (22703,  93,       3084) /* PhysicsState - Ethereal, ReportCollisions, Gravity, LightingOn */
+     , (22703, 111,         49) /* PortalBitmask - Unrestricted, NoSummon, NoRecall */
      , (22703, 133,          4) /* ShowableOnRadar - ShowAlways */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)

@@ -10,7 +10,7 @@ VALUES (8550,   1,    4194304) /* ItemType - CraftCookingBase */
      , (8550,  81,          1) /* MaxGeneratedObjects */
      , (8550,  82,          1) /* InitGeneratedObjects */
      , (8550,  83,       4096) /* ActivationResponse - CastSpell */
-     , (8550,  93,       1048) /* PhysicsState */
+     , (8550,  93,       1048) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity */
      , (8550, 103,          3) /* GeneratorDestructionType - Kill */
      , (8550, 119,          1) /* Active */;
 
@@ -43,4 +43,4 @@ VALUES (8550,   1,   33554712) /* Setup */
      , (8550,  28,        686) /* Spell - Arcane Enlightenment Other III */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (8550, 1, 8971, 30, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0);
+VALUES (8550, 1, 8971, 30, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Well Bucket (8971) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Scatter */;

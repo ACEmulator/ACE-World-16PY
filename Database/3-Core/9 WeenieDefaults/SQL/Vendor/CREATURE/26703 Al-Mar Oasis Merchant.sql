@@ -10,10 +10,10 @@ VALUES (26703,   1,         16) /* ItemType - Creature */
      , (26703,  16,         32) /* ItemUseable - Remote */
      , (26703,  25,         10) /* Level */
      , (26703,  27,          0) /* ArmorType */
-     , (26703,  74,     264192) /* MerchandiseItemTypes */
+     , (26703,  74,     264192) /* MerchandiseItemTypes - Gem, PromissoryNote */
      , (26703,  75,          0) /* MerchandiseMinValue */
      , (26703,  76,    1000000) /* MerchandiseMaxValue */
-     , (26703,  93,    2098204) /* PhysicsState */
+     , (26703,  93,    2098204) /* PhysicsState - Ethereal, ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */
      , (26703, 126,        125) /* VendorHappyMean */
      , (26703, 127,        125) /* VendorHappyVariance */
      , (26703, 133,          4) /* ShowableOnRadar - ShowAlways */
@@ -97,4 +97,4 @@ VALUES (26703,  0,  4,  0,    0,    0,    0,    0,    0,    0,    0,    0,    0,
      , (26703,  8,  4,  2, 0.75,    0,    0,    0,    0,    0,    0,    0,    0,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (26703, 4, 26068, -1, 0, 0, False) /* Create Al-Mar Oasis Portal Gem for Shop */;
+VALUES (26703, 4, 26068, -1, 0, 0, False) /* Create Al-Mar Oasis Portal Gem (26068) for Shop */;

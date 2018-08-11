@@ -4,8 +4,8 @@ VALUES ('9684', 'portaldanbyoutpost', 7) /* Portal */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (9684,   1,      65536) /* ItemType - Portal */
      , (9684,  16,         32) /* ItemUseable - Remote */
-     , (9684,  93,       3084) /* PhysicsState */
-     , (9684, 111,         17) /* PortalBitmask */
+     , (9684,  93,       3084) /* PhysicsState - Ethereal, ReportCollisions, Gravity, LightingOn */
+     , (9684, 111,         17) /* PortalBitmask - Unrestricted, NoSummon */
      , (9684, 133,          4) /* ShowableOnRadar - ShowAlways */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)

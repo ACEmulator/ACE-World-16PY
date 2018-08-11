@@ -10,10 +10,10 @@ VALUES (26859,   1,         16) /* ItemType - Creature */
      , (26859,  16,         32) /* ItemUseable - Remote */
      , (26859,  25,         10) /* Level */
      , (26859,  27,          0) /* ArmorType */
-     , (26859,  74,     264192) /* MerchandiseItemTypes */
+     , (26859,  74,     264192) /* MerchandiseItemTypes - Gem, PromissoryNote */
      , (26859,  75,          0) /* MerchandiseMinValue */
      , (26859,  76,    1000000) /* MerchandiseMaxValue */
-     , (26859,  93,    2098204) /* PhysicsState */
+     , (26859,  93,    2098204) /* PhysicsState - Ethereal, ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */
      , (26859, 126,        125) /* VendorHappyMean */
      , (26859, 127,        125) /* VendorHappyVariance */
      , (26859, 133,          4) /* ShowableOnRadar - ShowAlways */
@@ -97,4 +97,4 @@ VALUES (26859,  0,  4,  0,    0,    0,    0,    0,    0,    0,    0,    0,    0,
      , (26859,  8,  4,  2, 0.75,    0,    0,    0,    0,    0,    0,    0,    0,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (26859, 4, 26224, -1, 0, 0, False) /* Create Jhalalabhan Portal Gem for Shop */;
+VALUES (26859, 4, 26224, -1, 0, 0, False) /* Create Jhalalabhan Portal Gem (26224) for Shop */;

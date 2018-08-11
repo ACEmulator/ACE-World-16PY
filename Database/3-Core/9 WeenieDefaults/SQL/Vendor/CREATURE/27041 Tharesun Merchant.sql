@@ -10,10 +10,10 @@ VALUES (27041,   1,         16) /* ItemType - Creature */
      , (27041,  16,         32) /* ItemUseable - Remote */
      , (27041,  25,         10) /* Level */
      , (27041,  27,          0) /* ArmorType */
-     , (27041,  74,     264192) /* MerchandiseItemTypes */
+     , (27041,  74,     264192) /* MerchandiseItemTypes - Gem, PromissoryNote */
      , (27041,  75,          0) /* MerchandiseMinValue */
      , (27041,  76,    1000000) /* MerchandiseMaxValue */
-     , (27041,  93,    2098204) /* PhysicsState */
+     , (27041,  93,    2098204) /* PhysicsState - Ethereal, ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */
      , (27041, 126,        125) /* VendorHappyMean */
      , (27041, 127,        125) /* VendorHappyVariance */
      , (27041, 133,          4) /* ShowableOnRadar - ShowAlways */
@@ -97,4 +97,4 @@ VALUES (27041,  0,  4,  0,    0,    0,    0,    0,    0,    0,    0,    0,    0,
      , (27041,  8,  4,  2, 0.75,    0,    0,    0,    0,    0,    0,    0,    0,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (27041, 4, 26406, -1, 0, 0, False) /* Create Tharesun Portal Gem for Shop */;
+VALUES (27041, 4, 26406, -1, 0, 0, False) /* Create Tharesun Portal Gem (26406) for Shop */;

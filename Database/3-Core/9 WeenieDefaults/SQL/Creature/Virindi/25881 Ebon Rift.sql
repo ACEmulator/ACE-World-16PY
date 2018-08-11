@@ -14,7 +14,7 @@ VALUES (25881,   1,         16) /* ItemType - Creature */
      , (25881,  69,          4) /* CombatTactic */
      , (25881,  81,          4) /* MaxGeneratedObjects */
      , (25881,  82,          0) /* InitGeneratedObjects */
-     , (25881,  93,       3080) /* PhysicsState */
+     , (25881,  93,       3080) /* PhysicsState - ReportCollisions, Gravity, LightingOn */
      , (25881, 103,          1) /* GeneratorDestructionType - Nothing */
      , (25881, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (25881, 146,      75240) /* XpOverride */;
@@ -75,7 +75,7 @@ VALUES (25881,   1,   33558549) /* Setup */
      , (25881,   4,  805306407) /* CombatTable */
      , (25881,   8,  100671702) /* Icon */
      , (25881,  22,  872415375) /* PhysicsEffectTable */
-     , (25881,  35,        461) /* DeathTreasureType */;
+     , (25881,  35,        461) /* DeathTreasureType - Loot Tier: 6 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (25881,   1, 160, 0, 0) /* Strength */
@@ -124,11 +124,11 @@ VALUES (25881,  94) /* ATTACK_NOTIFICATION_EVENT */
      , (25881, 414) /* PLAYER_DEATH_EVENT */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (25881, 9,     0,  0, 0, 0.97, False) /* Create Unknown for ContainTreasure */
-     , (25881, 9, 30823,  0, 0, 0.03, False) /* Create Broken Black Marrow Key for ContainTreasure */;
+VALUES (25881, 9,     0,  0, 0, 0.97, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 6 for ContainTreasure */
+     , (25881, 9, 30823,  0, 0, 0.03, False) /* Create Broken Black Marrow Key (30823) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (25881, 0.25, 25858, 1800, 1, 1, 1, 4, -1, 0, 0, 0, -2, -1, 9, 0.8191521, 0, 0, -0.5735765)
-     , (25881, 0.5, 25855, 1800, 1, 1, 1, 4, -1, 0, 0, 0, 2.4, 3.4, 9, 0.9659258, 0, 0, -0.258819)
-     , (25881, 0.75, 25878, 1800, 1, 1, 1, 4, -1, 0, 0, 0, 2.4, -1.4, 9, 0.9961947, 0, 0, -0.08715574)
-     , (25881, 1, 25873, 1800, 1, 1, 1, 4, -1, 0, 0, 0, -2, -2, 9, 0.9961947, 0, 0, -0.08715574);
+VALUES (25881, 0.25, 25858, 1800, 1, 1, 1, 4, -1, 0, 0, 0, -2, -1, 9, 0.8191521, 0, 0, -0.5735765) /* Generate Soiled Doll (25858) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
+     , (25881, 0.5, 25855, 1800, 1, 1, 1, 4, -1, 0, 0, 0, 2.4, 3.4, 9, 0.9659258, 0, 0, -0.258819) /* Generate Cosseted Doll (25855) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
+     , (25881, 0.75, 25878, 1800, 1, 1, 1, 4, -1, 0, 0, 0, 2.4, -1.4, 9, 0.9961947, 0, 0, -0.08715574) /* Generate Infested Rat (25878) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
+     , (25881, 1, 25873, 1800, 1, 1, 1, 4, -1, 0, 0, 0, -2, -2, 9, 0.9961947, 0, 0, -0.08715574) /* Generate Glissnal Nefane (25873) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */;

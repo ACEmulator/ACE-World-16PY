@@ -12,8 +12,8 @@ VALUES (24275,   1,         16) /* ItemType - Creature */
      , (24275,  27,          0) /* ArmorType */
      , (24275,  40,          2) /* CombatMode - Melee */
      , (24275,  68,          3) /* TargetingTactic */
-     , (24275,  93,       1032) /* PhysicsState */
-     , (24275, 101,        131) /* AiAllowedCombatStyle */
+     , (24275,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
+     , (24275, 101,        131) /* AiAllowedCombatStyle - Unarmed, OneHanded, ThrownWeapon */
      , (24275, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (24275, 140,          1) /* AiOptions */
      , (24275, 146,      26525) /* XpOverride */;
@@ -73,8 +73,10 @@ VALUES (24275,   1,   33558024) /* Setup */
      , (24275,   7,  268436610) /* ClothingBase */
      , (24275,   8,  100667453) /* Icon */
      , (24275,  22,  872415255) /* PhysicsEffectTable */
-     , (24275,  32,        295) /* WieldedTreasureType */
-     , (24275,  35,        448) /* DeathTreasureType */;
+     , (24275,  32,        295) /* WieldedTreasureType - 
+                                   Wield 15x Frost Throwing Club (23663) | Probability: 50%
+                                   Wield Club (23648) | Probability: 50% */
+     , (24275,  35,        448) /* DeathTreasureType - Loot Tier: 4 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (24275,   1, 300, 0, 0) /* Strength */
@@ -189,5 +191,5 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 268435537 /* Twitch1 */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (24275, 9,     0,  0, 0, 0.97, False) /* Create Unknown for ContainTreasure */
-     , (24275, 9, 24832,  0, 0, 0.03, False) /* Create Banderling Antagonist Scalp for ContainTreasure */;
+VALUES (24275, 9,     0,  0, 0, 0.97, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 4 for ContainTreasure */
+     , (24275, 9, 24832,  0, 0, 0.03, False) /* Create Banderling Antagonist Scalp (24832) for ContainTreasure */;

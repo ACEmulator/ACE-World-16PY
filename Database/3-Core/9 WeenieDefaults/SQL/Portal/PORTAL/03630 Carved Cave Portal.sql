@@ -4,8 +4,8 @@ VALUES ('3630', 'portalcarvedcave', 7) /* Portal */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (3630,   1,      65536) /* ItemType - Portal */
      , (3630,  16,         32) /* ItemUseable - Remote */
-     , (3630,  93,       3084) /* PhysicsState */
-     , (3630, 111,         17) /* PortalBitmask */
+     , (3630,  93,       3084) /* PhysicsState - Ethereal, ReportCollisions, Gravity, LightingOn */
+     , (3630, 111,         17) /* PortalBitmask - Unrestricted, NoSummon */
      , (3630, 133,          4) /* ShowableOnRadar - ShowAlways */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)

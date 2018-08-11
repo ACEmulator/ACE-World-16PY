@@ -11,7 +11,7 @@ VALUES (9213,   1,         16) /* ItemType - Creature */
      , (9213,  16,         32) /* ItemUseable - Remote */
      , (9213,  25,         15) /* Level */
      , (9213,  27,          0) /* ArmorType */
-     , (9213,  93,    2098200) /* PhysicsState */
+     , (9213,  93,    2098200) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */
      , (9213, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (9213, 134,         16) /* PlayerKillerStatus - RubberGlue */
      , (9213, 146,        650) /* XpOverride */;
@@ -119,7 +119,7 @@ VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 1090519043 /* Ready */, NULL, NU
      , (@parent_id,  2,  10 /* Tell */, 1, 1, NULL, 'Servitude... Wretched...', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (9213, 2,   115,  0, 9, 0, False) /* Create Leather Boots for Wield */
-     , (9213, 2,   127,  0, 9, 0, False) /* Create Pants for Wield */
-     , (9213, 2,   130,  0, 4, 0.8, False) /* Create Shirt for Wield */
-     , (9213, 2,   352,  0, 0, 0, False) /* Create Short Sword for Wield */;
+VALUES (9213, 2,   115,  0, 9, 0, False) /* Create Leather Boots (115) for Wield */
+     , (9213, 2,   127,  0, 9, 0, False) /* Create Pants (127) for Wield */
+     , (9213, 2,   130,  0, 4, 0.8, False) /* Create Shirt (130) for Wield */
+     , (9213, 2,   352,  0, 0, 0, False) /* Create Short Sword (352) for Wield */;

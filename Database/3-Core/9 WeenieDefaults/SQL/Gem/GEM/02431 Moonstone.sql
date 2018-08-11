@@ -14,7 +14,7 @@ VALUES (2431,   1,       2048) /* ItemType - Gem */
      , (2431,  15,         50) /* StackUnitValue */
      , (2431,  16,          1) /* ItemUseable - No */
      , (2431,  19,         50) /* Value */
-     , (2431,  93,       1044) /* PhysicsState */
+     , (2431,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (2431, 131,         31) /* MaterialType - Moonstone */
      , (2431, 169,   16777216) /* TsysMutationData */;
 

@@ -4,16 +4,16 @@ VALUES ('6619', 'sleeveskoujiashadowlesser', 2) /* Clothing */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (6619,   1,          2) /* ItemType - Armor */
      , (6619,   3,         14) /* PaletteTemplate - Red */
-     , (6619,   4,      12288) /* ClothingPriority */
+     , (6619,   4,      12288) /* ClothingPriority - OuterwearUpperArms, OuterwearLowerArms */
      , (6619,   5,       1050) /* EncumbranceVal */
      , (6619,   8,        550) /* Mass */
-     , (6619,   9,       6144) /* ValidLocations */
+     , (6619,   9,       6144) /* ValidLocations - UpperArmArmor, LowerArmArmor */
      , (6619,  16,          1) /* ItemUseable - No */
      , (6619,  19,       1620) /* Value */
      , (6619,  27,          2) /* ArmorType */
      , (6619,  28,         85) /* ArmorLevel */
      , (6619,  33,          1) /* Bonded - Bonded */
-     , (6619,  93,       1044) /* PhysicsState */;
+     , (6619,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (6619,  22, True ) /* Inscribable */

@@ -12,8 +12,8 @@ VALUES (25805,   1,         16) /* ItemType - Creature */
      , (25805,  27,          0) /* ArmorType */
      , (25805,  40,          1) /* CombatMode - NonCombat */
      , (25805,  68,          5) /* TargetingTactic */
-     , (25805,  93,       1032) /* PhysicsState */
-     , (25805, 101,        183) /* AiAllowedCombatStyle */
+     , (25805,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
+     , (25805, 101,        183) /* AiAllowedCombatStyle - Unarmed, OneHanded, OneHandedAndShield, Bow, Crossbow, ThrownWeapon */
      , (25805, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (25805, 140,          1) /* AiOptions */
      , (25805, 146,      45924) /* XpOverride */;
@@ -69,8 +69,33 @@ VALUES (25805,   1,   33555464) /* Setup */
      , (25805,   7,  268436625) /* ClothingBase */
      , (25805,   8,  100669124) /* Icon */
      , (25805,  22,  872415269) /* PhysicsEffectTable */
-     , (25805,  32,        199) /* WieldedTreasureType */
-     , (25805,  35,        452) /* DeathTreasureType */;
+     , (25805,  32,        199) /* WieldedTreasureType - 
+                                   Wield Yumi (23733) | Probability: 6%
+                                   Wield 20x Deadly Armor Piercing Arrow (15431) | Probability: 100%
+                                   Wield Yumi (23733) | Probability: 6%
+                                   Wield 17x Deadly Arrow (15429) | Probability: 100%
+                                   Wield Heavy Crossbow (23664) | Probability: 6%
+                                   Wield 20x Deadly Quarrel (15438) | Probability: 100%
+                                   Wield Heavy Crossbow (23664) | Probability: 6%
+                                   Wield 16x Deadly Armor Piercing Quarrel (15440) | Probability: 100%
+                                   Wield Yumi (23733) | Probability: 6%
+                                   Wield 20x Deadly Broadhead Arrow (15433) | Probability: 100%
+                                   Wield Yumi (23733) | Probability: 6%
+                                   Wield 17x Deadly Blunt Arrow (15432) | Probability: 100%
+                                   Wield Heavy Crossbow (23664) | Probability: 6%
+                                   Wield 20x Deadly Broadhead Quarrel (15442) | Probability: 100%
+                                   Wield Heavy Crossbow (23664) | Probability: 6%
+                                   Wield 16x Deadly Blunt Quarrel (15441) | Probability: 100%
+                                   Wield Katar (23673) | Probability: 12%
+                                   Wield Cestus (23636) | Probability: 12%
+                                   Wield Nekode (23679) | Probability: 12%
+                                   Wield Tachi (23699) | Probability: 12%
+                                   Wield Spear (23695) | Probability: 12%
+                                   Wield Fire Yaoji (23717) | Probability: 12%
+                                   Wield Yaoji (23709) | Probability: 12%
+                                   Wield Fire Tachi (23706) | Probability: 12%
+                                   Wield Kite Shield (23683) | Probability: 75% */
+     , (25805,  35,        452) /* DeathTreasureType - Loot Tier: 5 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (25805,   1, 300, 0, 0) /* Strength */
@@ -124,9 +149,9 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 1090519060 /* Sleeping */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (25805, 9,     0,  0, 0, 0.9, False) /* Create Unknown for ContainTreasure */
-     , (25805, 9,     0,  0, 0, 0.95, False) /* Create Unknown for ContainTreasure */
-     , (25805, 9,     0,  0, 0, 0.98, False) /* Create Unknown for ContainTreasure */
-     , (25805, 9,  3687,  0, 0, 0.1, False) /* Create Skeleton's Skull for ContainTreasure */
-     , (25805, 9,  9310,  0, 0, 0.05, False) /* Create A Large Mnemosyne for ContainTreasure */
-     , (25805, 9, 24477,  0, 0, 0.02, False) /* Create Sturdy Steel Key for ContainTreasure */;
+VALUES (25805, 9,     0,  0, 0, 0.9, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 5 for ContainTreasure */
+     , (25805, 9,     0,  0, 0, 0.95, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 5 for ContainTreasure */
+     , (25805, 9,     0,  0, 0, 0.98, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 5 for ContainTreasure */
+     , (25805, 9,  3687,  0, 0, 0.1, False) /* Create Skeleton's Skull (3687) for ContainTreasure */
+     , (25805, 9,  9310,  0, 0, 0.05, False) /* Create A Large Mnemosyne (9310) for ContainTreasure */
+     , (25805, 9, 24477,  0, 0, 0.02, False) /* Create Sturdy Steel Key (24477) for ContainTreasure */;

@@ -9,8 +9,8 @@ VALUES (24872,   1,       2048) /* ItemType - Gem */
      , (24872,   9,          0) /* ValidLocations - None */
      , (24872,  16,          1) /* ItemUseable - No */
      , (24872,  19,         10) /* Value */
-     , (24872,  93,       1044) /* PhysicsState */
-     , (24872,  94,         16) /* TargetType - Creature */;
+     , (24872,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (24872,  94,         16) /* TargetType - Reedshark */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (24872,   1, True ) /* Stuck */

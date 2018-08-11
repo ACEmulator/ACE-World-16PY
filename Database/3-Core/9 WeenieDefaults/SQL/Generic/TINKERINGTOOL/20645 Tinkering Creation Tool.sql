@@ -8,7 +8,7 @@ VALUES (20645,   1,  536870912) /* ItemType - TinkeringTool */
      , (20645,   9,          0) /* ValidLocations - None */
      , (20645,  16,          1) /* ItemUseable - No */
      , (20645,  19,       3226) /* Value */
-     , (20645,  93,       1044) /* PhysicsState */
+     , (20645,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (20645, 150,        103) /* HookPlacement - Hook */
      , (20645, 151,          2) /* HookType - Wall */;
 

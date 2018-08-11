@@ -15,8 +15,8 @@ VALUES (9192,   1,       2048) /* ItemType - Gem */
      , (9192,  16,          8) /* ItemUseable - Contained */
      , (9192,  18,          1) /* UiEffects - Magical */
      , (9192,  19,        500) /* Value */
-     , (9192,  93,       1044) /* PhysicsState */
-     , (9192,  94,         16) /* TargetType - Creature */
+     , (9192,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (9192,  94,         16) /* TargetType - Reedshark */
      , (9192, 106,        210) /* ItemSpellcraft */
      , (9192, 107,        100) /* ItemCurMana */
      , (9192, 108,        200) /* ItemMaxMana */

@@ -10,10 +10,10 @@ VALUES (26780,   1,         16) /* ItemType - Creature */
      , (26780,  16,         32) /* ItemUseable - Remote */
      , (26780,  25,         10) /* Level */
      , (26780,  27,          0) /* ArmorType */
-     , (26780,  74,     264192) /* MerchandiseItemTypes */
+     , (26780,  74,     264192) /* MerchandiseItemTypes - Gem, PromissoryNote */
      , (26780,  75,          0) /* MerchandiseMinValue */
      , (26780,  76,    1000000) /* MerchandiseMaxValue */
-     , (26780,  93,    2098204) /* PhysicsState */
+     , (26780,  93,    2098204) /* PhysicsState - Ethereal, ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */
      , (26780, 126,        125) /* VendorHappyMean */
      , (26780, 127,        125) /* VendorHappyVariance */
      , (26780, 133,          4) /* ShowableOnRadar - ShowAlways */
@@ -97,4 +97,4 @@ VALUES (26780,  0,  4,  0,    0,    0,    0,    0,    0,    0,    0,    0,    0,
      , (26780,  8,  4,  2, 0.75,    0,    0,    0,    0,    0,    0,    0,    0,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (26780, 4, 26145, -1, 0, 0, False) /* Create Dryreach Beach Manors Portal Gem for Shop */;
+VALUES (26780, 4, 26145, -1, 0, 0, False) /* Create Dryreach Beach Manors Portal Gem (26145) for Shop */;

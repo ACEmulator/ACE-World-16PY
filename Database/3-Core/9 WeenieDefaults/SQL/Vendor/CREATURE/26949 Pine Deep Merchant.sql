@@ -10,10 +10,10 @@ VALUES (26949,   1,         16) /* ItemType - Creature */
      , (26949,  16,         32) /* ItemUseable - Remote */
      , (26949,  25,         10) /* Level */
      , (26949,  27,          0) /* ArmorType */
-     , (26949,  74,     264192) /* MerchandiseItemTypes */
+     , (26949,  74,     264192) /* MerchandiseItemTypes - Gem, PromissoryNote */
      , (26949,  75,          0) /* MerchandiseMinValue */
      , (26949,  76,    1000000) /* MerchandiseMaxValue */
-     , (26949,  93,    2098204) /* PhysicsState */
+     , (26949,  93,    2098204) /* PhysicsState - Ethereal, ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */
      , (26949, 126,        125) /* VendorHappyMean */
      , (26949, 127,        125) /* VendorHappyVariance */
      , (26949, 133,          4) /* ShowableOnRadar - ShowAlways */
@@ -97,4 +97,4 @@ VALUES (26949,  0,  4,  0,    0,    0,    0,    0,    0,    0,    0,    0,    0,
      , (26949,  8,  4,  2, 0.75,    0,    0,    0,    0,    0,    0,    0,    0,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (26949, 4, 26314, -1, 0, 0, False) /* Create Pine Deep Portal Gem for Shop */;
+VALUES (26949, 4, 26314, -1, 0, 0, False) /* Create Pine Deep Portal Gem (26314) for Shop */;

@@ -4,7 +4,7 @@ VALUES ('14933', 'trenchcoat', 2) /* Clothing */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (14933,   1,          4) /* ItemType - Clothing */
      , (14933,   3,         17) /* PaletteTemplate - Yellow */
-     , (14933,   4,      81664) /* ClothingPriority */
+     , (14933,   4,      81664) /* ClothingPriority - OuterwearUpperLegs, OuterwearLowerLegs, OuterwearChest, OuterwearAbdomen, OuterwearUpperArms, OuterwearLowerArms, Feet */
      , (14933,   5,        200) /* EncumbranceVal */
      , (14933,   8,        150) /* Mass */
      , (14933,   9,      32512) /* ValidLocations - Armor */
@@ -12,7 +12,7 @@ VALUES (14933,   1,          4) /* ItemType - Clothing */
      , (14933,  19,         50) /* Value */
      , (14933,  27,          1) /* ArmorType */
      , (14933,  28,          0) /* ArmorLevel */
-     , (14933,  93,       1044) /* PhysicsState */;
+     , (14933,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (14933,  22, True ) /* Inscribable */;

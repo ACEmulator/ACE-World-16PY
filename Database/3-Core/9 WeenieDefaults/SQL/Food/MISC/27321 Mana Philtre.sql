@@ -16,9 +16,9 @@ VALUES (27321,   1,        128) /* ItemType - Misc */
      , (27321,  19,       5000) /* Value */
      , (27321,  89,          6) /* BoosterEnum - Mana */
      , (27321,  90,        100) /* BoostValue */
-     , (27321,  93,       1044) /* PhysicsState */
+     , (27321,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (27321, 150,        103) /* HookPlacement - Hook */
-     , (27321, 151,         11) /* HookType */;
+     , (27321, 151,         11) /* HookType - Floor, Wall, Yard */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (27321,   1, 'Mana Philtre') /* Name */

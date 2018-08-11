@@ -14,10 +14,10 @@ VALUES (8650,   1,    4194304) /* ItemType - CraftCookingBase */
      , (8650,  15,        100) /* StackUnitValue */
      , (8650,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
      , (8650,  19,        100) /* Value */
-     , (8650,  93,       1044) /* PhysicsState */
-     , (8650,  94,        134) /* TargetType */
+     , (8650,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (8650,  94,        134) /* TargetType - 134 */
      , (8650, 150,        103) /* HookPlacement - Hook */
-     , (8650, 151,          9) /* HookType */;
+     , (8650, 151,          9) /* HookType - Floor, Yard */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (8650,  69, False) /* IsSellable */;

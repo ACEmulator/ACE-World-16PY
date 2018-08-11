@@ -4,8 +4,8 @@ VALUES ('1431', 'portallostlightexit', 7) /* Portal */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (1431,   1,      65536) /* ItemType - Portal */
      , (1431,  16,         32) /* ItemUseable - Remote */
-     , (1431,  93,       3084) /* PhysicsState */
-     , (1431, 111,         17) /* PortalBitmask */
+     , (1431,  93,       3084) /* PhysicsState - Ethereal, ReportCollisions, Gravity, LightingOn */
+     , (1431, 111,         17) /* PortalBitmask - Unrestricted, NoSummon */
      , (1431, 133,          4) /* ShowableOnRadar - ShowAlways */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)

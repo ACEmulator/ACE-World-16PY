@@ -12,8 +12,8 @@ VALUES (25709,   1,         16) /* ItemType - Creature */
      , (25709,  27,          0) /* ArmorType */
      , (25709,  67,         64) /* Tolerance */
      , (25709,  68,         13) /* TargetingTactic */
-     , (25709,  93,       1032) /* PhysicsState */
-     , (25709, 101,        131) /* AiAllowedCombatStyle */
+     , (25709,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
+     , (25709, 101,        131) /* AiAllowedCombatStyle - Unarmed, OneHanded, ThrownWeapon */
      , (25709, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (25709, 140,          1) /* AiOptions */
      , (25709, 146,        154) /* XpOverride */;
@@ -66,7 +66,7 @@ VALUES (25709,   1,   33554433) /* Setup */
      , (25709,   4,  805306368) /* CombatTable */
      , (25709,   8,  100667446) /* Icon */
      , (25709,  22,  872415236) /* PhysicsEffectTable */
-     , (25709,  35,        356) /* DeathTreasureType */;
+     , (25709,  35,        356) /* DeathTreasureType - Loot Tier: 2 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (25709,   1,  90, 0, 0) /* Strength */
@@ -128,7 +128,7 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,  10 /* Tell */, 0, 1, NULL, 'We''re under Attack!', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (25709, 2,   117,  0, 8, 1, False) /* Create Breeches for Wield */
-     , (25709, 2,   133,  0, 14, 0, False) /* Create Slippers for Wield */
-     , (25709, 2,  2591,  0, 14, 1, False) /* Create Shirt for Wield */
-     , (25709, 2, 25702,  0, 0, 0, False) /* Create Bandit Mask for Wield */;
+VALUES (25709, 2,   117,  0, 8, 1, False) /* Create Breeches (117) for Wield */
+     , (25709, 2,   133,  0, 14, 0, False) /* Create Slippers (133) for Wield */
+     , (25709, 2,  2591,  0, 14, 1, False) /* Create Shirt (2591) for Wield */
+     , (25709, 2, 25702,  0, 0, 0, False) /* Create Bandit Mask (25702) for Wield */;

@@ -4,7 +4,7 @@ VALUES ('8894', 'dyeplantlowmountaingen', 1) /* Generic */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (8894,  81,          1) /* MaxGeneratedObjects */
      , (8894,  82,          1) /* InitGeneratedObjects */
-     , (8894,  93,       1044) /* PhysicsState */;
+     , (8894,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (8894,   1, True ) /* Stuck */
@@ -23,4 +23,4 @@ VALUES (8894,   1,   33555051) /* Setup */
      , (8894,   8,  100667494) /* Icon */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (8894, 1, 8646, 9000, 1, 1, 2, 4, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0);
+VALUES (8894, 1, 8646, 9000, 1, 1, 2, 4, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Minalim Plant (8646) (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: Specific */;

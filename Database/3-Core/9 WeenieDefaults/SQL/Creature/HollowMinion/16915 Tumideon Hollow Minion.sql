@@ -12,7 +12,7 @@ VALUES (16915,   1,         16) /* ItemType - Creature */
      , (16915,  27,          0) /* ArmorType */
      , (16915,  68,          3) /* TargetingTactic */
      , (16915,  72,         19) /* FriendType - Virindi */
-     , (16915,  93,    4195336) /* PhysicsState */
+     , (16915,  93,    4195336) /* PhysicsState - ReportCollisions, Gravity, EdgeSlide */
      , (16915, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (16915, 140,          1) /* AiOptions */
      , (16915, 146,      12571) /* XpOverride */;
@@ -70,7 +70,7 @@ VALUES (16915,   1,   33556792) /* Setup */
      , (16915,   7,  268436085) /* ClothingBase */
      , (16915,   8,  100671140) /* Icon */
      , (16915,  22,  872415367) /* PhysicsEffectTable */
-     , (16915,  35,        463) /* DeathTreasureType */;
+     , (16915,  35,        463) /* DeathTreasureType - Loot Tier: 2 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (16915,   1, 200, 0, 0) /* Strength */
@@ -124,5 +124,5 @@ VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 1090519043 /* Ready */, NULL, NU
      , (@parent_id,  1,   5 /* Motion */, 0, 1, 1090519060 /* Sleeping */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (16915, 9,     0,  0, 0, 0.96, False) /* Create Unknown for ContainTreasure */
-     , (16915, 9,  9292,  0, 0, 0.04, False) /* Create Virindi Singularity Key for ContainTreasure */;
+VALUES (16915, 9,     0,  0, 0, 0.96, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 2 for ContainTreasure */
+     , (16915, 9,  9292,  0, 0, 0.04, False) /* Create Virindi Singularity Key (9292) for ContainTreasure */;

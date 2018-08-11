@@ -10,10 +10,10 @@ VALUES (26799,   1,         16) /* ItemType - Creature */
      , (26799,  16,         32) /* ItemUseable - Remote */
      , (26799,  25,         10) /* Level */
      , (26799,  27,          0) /* ArmorType */
-     , (26799,  74,     264192) /* MerchandiseItemTypes */
+     , (26799,  74,     264192) /* MerchandiseItemTypes - Gem, PromissoryNote */
      , (26799,  75,          0) /* MerchandiseMinValue */
      , (26799,  76,    1000000) /* MerchandiseMaxValue */
-     , (26799,  93,    2098204) /* PhysicsState */
+     , (26799,  93,    2098204) /* PhysicsState - Ethereal, ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */
      , (26799, 126,        125) /* VendorHappyMean */
      , (26799, 127,        125) /* VendorHappyVariance */
      , (26799, 133,          4) /* ShowableOnRadar - ShowAlways */
@@ -97,4 +97,4 @@ VALUES (26799,  0,  4,  0,    0,    0,    0,    0,    0,    0,    0,    0,    0,
      , (26799,  8,  4,  2, 0.75,    0,    0,    0,    0,    0,    0,    0,    0,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (26799, 4, 26164, -1, 0, 0, False) /* Create Embara Portal Gem for Shop */;
+VALUES (26799, 4, 26164, -1, 0, 0, False) /* Create Embara Portal Gem (26164) for Shop */;

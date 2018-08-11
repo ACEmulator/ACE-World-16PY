@@ -10,10 +10,10 @@ VALUES (26957,   1,         16) /* ItemType - Creature */
      , (26957,  16,         32) /* ItemUseable - Remote */
      , (26957,  25,         10) /* Level */
      , (26957,  27,          0) /* ArmorType */
-     , (26957,  74,     264192) /* MerchandiseItemTypes */
+     , (26957,  74,     264192) /* MerchandiseItemTypes - Gem, PromissoryNote */
      , (26957,  75,          0) /* MerchandiseMinValue */
      , (26957,  76,    1000000) /* MerchandiseMaxValue */
-     , (26957,  93,    2098204) /* PhysicsState */
+     , (26957,  93,    2098204) /* PhysicsState - Ethereal, ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */
      , (26957, 126,        125) /* VendorHappyMean */
      , (26957, 127,        125) /* VendorHappyVariance */
      , (26957, 133,          4) /* ShowableOnRadar - ShowAlways */
@@ -97,4 +97,4 @@ VALUES (26957,  0,  4,  0,    0,    0,    0,    0,    0,    0,    0,    0,    0,
      , (26957,  8,  4,  2, 0.75,    0,    0,    0,    0,    0,    0,    0,    0,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (26957, 4, 26322, -1, 0, 0, False) /* Create Qalaba'r Seaside Villas Portal Gem for Shop */;
+VALUES (26957, 4, 26322, -1, 0, 0, False) /* Create Qalaba'r Seaside Villas Portal Gem (26322) for Shop */;

@@ -12,8 +12,8 @@ VALUES (19300,   1,         16) /* ItemType - Creature */
      , (19300,  27,          0) /* ArmorType */
      , (19300,  40,          2) /* CombatMode - Melee */
      , (19300,  68,         13) /* TargetingTactic */
-     , (19300,  93,       1032) /* PhysicsState */
-     , (19300, 101,        131) /* AiAllowedCombatStyle */
+     , (19300,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
+     , (19300, 101,        131) /* AiAllowedCombatStyle - Unarmed, OneHanded, ThrownWeapon */
      , (19300, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (19300, 140,          1) /* AiOptions */
      , (19300, 146,       5197) /* XpOverride */;
@@ -68,8 +68,10 @@ VALUES (19300,   1,   33554481) /* Setup */
      , (19300,   7,  268435549) /* ClothingBase */
      , (19300,   8,  100667453) /* Icon */
      , (19300,  22,  872415383) /* PhysicsEffectTable */
-     , (19300,  32,        401) /* WieldedTreasureType */
-     , (19300,  35,        451) /* DeathTreasureType */;
+     , (19300,  32,        401) /* WieldedTreasureType - 
+                                   Wield Bronze Dagger (15876) | Probability: 50%
+                                   Wield Bronze Short Sword (15881) | Probability: 50% */
+     , (19300,  35,        451) /* DeathTreasureType - Loot Tier: 2 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (19300,   1, 150, 0, 0) /* Strength */
@@ -171,5 +173,5 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 268435537 /* Twitch1 */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (19300, 9,     0,  0, 0, 0.95, False) /* Create Unknown for ContainTreasure */
-     , (19300, 9, 19209,  0, 0, 0.05, False) /* Create Bronze Coil from a Statue for ContainTreasure */;
+VALUES (19300, 9,     0,  0, 0, 0.95, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 2 for ContainTreasure */
+     , (19300, 9, 19209,  0, 0, 0.05, False) /* Create Bronze Coil from a Statue (19209) for ContainTreasure */;

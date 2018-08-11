@@ -10,10 +10,10 @@ VALUES (26846,   1,         16) /* ItemType - Creature */
      , (26846,  16,         32) /* ItemUseable - Remote */
      , (26846,  25,         10) /* Level */
      , (26846,  27,          0) /* ArmorType */
-     , (26846,  74,     264192) /* MerchandiseItemTypes */
+     , (26846,  74,     264192) /* MerchandiseItemTypes - Gem, PromissoryNote */
      , (26846,  75,          0) /* MerchandiseMinValue */
      , (26846,  76,    1000000) /* MerchandiseMaxValue */
-     , (26846,  93,    2098204) /* PhysicsState */
+     , (26846,  93,    2098204) /* PhysicsState - Ethereal, ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */
      , (26846, 126,        125) /* VendorHappyMean */
      , (26846, 127,        125) /* VendorHappyVariance */
      , (26846, 133,          4) /* ShowableOnRadar - ShowAlways */
@@ -97,4 +97,4 @@ VALUES (26846,  0,  4,  0,    0,    0,    0,    0,    0,    0,    0,    0,    0,
      , (26846,  8,  4,  2, 0.75,    0,    0,    0,    0,    0,    0,    0,    0,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (26846, 4, 26211, -1, 0, 0, False) /* Create Imuth Maer Cottages Portal Gem for Shop */;
+VALUES (26846, 4, 26211, -1, 0, 0, False) /* Create Imuth Maer Cottages Portal Gem (26211) for Shop */;

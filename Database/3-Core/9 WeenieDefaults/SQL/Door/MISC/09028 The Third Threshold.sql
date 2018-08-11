@@ -7,7 +7,7 @@ VALUES (9028,   1,        128) /* ItemType - Misc */
      , (9028,  16,         32) /* ItemUseable - Remote */
      , (9028,  19,          0) /* Value */
      , (9028,  83,         16) /* ActivationResponse - Talk */
-     , (9028,  93,         24) /* PhysicsState */
+     , (9028,  93,         24) /* PhysicsState - ReportCollisions, IgnoreCollisions */
      , (9028, 119,          1) /* Active */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)

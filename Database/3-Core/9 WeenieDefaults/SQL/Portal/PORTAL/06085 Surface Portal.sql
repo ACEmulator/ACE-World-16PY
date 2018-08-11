@@ -4,7 +4,7 @@ VALUES ('6085', 'portalempyreanfoundryexit', 7) /* Portal */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (6085,   1,      65536) /* ItemType - Portal */
      , (6085,  16,         32) /* ItemUseable - Remote */
-     , (6085,  93,       3084) /* PhysicsState */
+     , (6085,  93,       3084) /* PhysicsState - Ethereal, ReportCollisions, Gravity, LightingOn */
      , (6085, 111,          1) /* PortalBitmask - Unrestricted */
      , (6085, 133,          4) /* ShowableOnRadar - ShowAlways */;
 

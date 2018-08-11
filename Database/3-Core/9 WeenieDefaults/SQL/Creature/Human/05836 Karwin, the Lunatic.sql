@@ -10,7 +10,7 @@ VALUES (5836,   1,         16) /* ItemType - Creature */
      , (5836,  16,         32) /* ItemUseable - Remote */
      , (5836,  25,          8) /* Level */
      , (5836,  27,          0) /* ArmorType */
-     , (5836,  93,    6292504) /* PhysicsState */
+     , (5836,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (5836,  95,          8) /* RadarBlipColor - Yellow */
      , (5836, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (5836, 134,         16) /* PlayerKillerStatus - RubberGlue */
@@ -153,7 +153,7 @@ VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 1090519043 /* Ready */, NULL, NU
      , (@parent_id,  3,  10 /* Tell */, 1, 1, NULL, 'There''s something really strange about those caves north of here.  Gives me the shakes just to think about it... Hey, be a nice kid and get me a bowl of Carrot Soup, and I''ll tell you what''s what, all right?', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (5836, 2,   115,  0, 4, 0.4, False) /* Create Leather Boots for Wield */
-     , (5836, 2,   118,  0, 9, 0, False) /* Create Cap for Wield */
-     , (5836, 2,   130,  0, 9, 0, False) /* Create Shirt for Wield */
-     , (5836, 2,  2597,  0, 14, 0, False) /* Create Pants for Wield */;
+VALUES (5836, 2,   115,  0, 4, 0.4, False) /* Create Leather Boots (115) for Wield */
+     , (5836, 2,   118,  0, 9, 0, False) /* Create Cap (118) for Wield */
+     , (5836, 2,   130,  0, 9, 0, False) /* Create Shirt (130) for Wield */
+     , (5836, 2,  2597,  0, 14, 0, False) /* Create Pants (2597) for Wield */;

@@ -8,7 +8,7 @@ VALUES (152,   1,    4194304) /* ItemType - CraftCookingBase */
      , (152,  16,         48) /* ItemUseable - ViewedRemote */
      , (152,  19,        200) /* Value */
      , (152,  83,       4096) /* ActivationResponse - CastSpell */
-     , (152,  93,       1048) /* PhysicsState */
+     , (152,  93,       1048) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity */
      , (152, 119,          1) /* Active */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)

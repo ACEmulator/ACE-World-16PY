@@ -11,7 +11,7 @@ VALUES (16910,   1,         16) /* ItemType - Creature */
      , (16910,  27,          0) /* ArmorType */
      , (16910,  40,          2) /* CombatMode - Melee */
      , (16910,  68,          3) /* TargetingTactic */
-     , (16910,  93,    4195336) /* PhysicsState */
+     , (16910,  93,    4195336) /* PhysicsState - ReportCollisions, Gravity, EdgeSlide */
      , (16910, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (16910, 146,      11131) /* XpOverride */;
 
@@ -68,7 +68,7 @@ VALUES (16910,   1,   33556440) /* Setup */
      , (16910,   4,  805306376) /* CombatTable */
      , (16910,   8,  100667940) /* Icon */
      , (16910,  22,  872415327) /* PhysicsEffectTable */
-     , (16910,  35,        463) /* DeathTreasureType */;
+     , (16910,  35,        463) /* DeathTreasureType - Loot Tier: 2 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (16910,   1, 200, 0, 0) /* Strength */
@@ -150,11 +150,11 @@ VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 1090519043 /* Ready */, NULL, NU
      , (@parent_id,  1,   5 /* Motion */, 0, 1, 1090519060 /* Sleeping */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (16910, 9,     0,  0, 0, 0.97, False) /* Create Unknown for ContainTreasure */
-     , (16910, 9,     0,  0, 0, 0.97, False) /* Create Unknown for ContainTreasure */
-     , (16910, 9,     0,  0, 0, 0.99, False) /* Create Unknown for ContainTreasure */
-     , (16910, 9,     0,  0, 0, 0.9, False) /* Create Unknown for ContainTreasure */
-     , (16910, 9,  3692,  0, 0, 0.03, False) /* Create Black Stone for ContainTreasure */
-     , (16910, 9,  6353,  0, 0, 0.03, False) /* Create Pyreal Mote for ContainTreasure */
-     , (16910, 9,  6876,  0, 0, 0.01, False) /* Create Sturdy Iron Key for ContainTreasure */
-     , (16910, 9,  9324,  0, 0, 0.1, False) /* Create Obsidian Heart for ContainTreasure */;
+VALUES (16910, 9,     0,  0, 0, 0.97, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 2 for ContainTreasure */
+     , (16910, 9,     0,  0, 0, 0.97, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 2 for ContainTreasure */
+     , (16910, 9,     0,  0, 0, 0.99, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 2 for ContainTreasure */
+     , (16910, 9,     0,  0, 0, 0.9, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 2 for ContainTreasure */
+     , (16910, 9,  3692,  0, 0, 0.03, False) /* Create Black Stone (3692) for ContainTreasure */
+     , (16910, 9,  6353,  0, 0, 0.03, False) /* Create Pyreal Mote (6353) for ContainTreasure */
+     , (16910, 9,  6876,  0, 0, 0.01, False) /* Create Sturdy Iron Key (6876) for ContainTreasure */
+     , (16910, 9,  9324,  0, 0, 0.1, False) /* Create Obsidian Heart (9324) for ContainTreasure */;

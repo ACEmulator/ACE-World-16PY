@@ -10,10 +10,10 @@ VALUES (2049,   1,         16) /* ItemType - Creature */
      , (2049,  16,         32) /* ItemUseable - Remote */
      , (2049,  25,          3) /* Level */
      , (2049,  27,          0) /* ArmorType */
-     , (2049,  74,        544) /* MerchandiseItemTypes */
+     , (2049,  74,        544) /* MerchandiseItemTypes - Food, Container */
      , (2049,  75,          0) /* MerchandiseMinValue */
      , (2049,  76,     100000) /* MerchandiseMaxValue */
-     , (2049,  93,    2098200) /* PhysicsState */
+     , (2049,  93,    2098200) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */
      , (2049,  95,          8) /* RadarBlipColor - Yellow */
      , (2049, 126,        250) /* VendorHappyMean */
      , (2049, 127,        250) /* VendorHappyVariance */
@@ -229,9 +229,9 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 318767248 /* YawnStretch */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (2049, 2,   132,  0, 4, 0.8, False) /* Create Shoes for Wield */
-     , (2049, 4,  2244, -1, 0, 0, False) /* Create Dryreach Key for Shop */
-     , (2049, 4,  2245, -1, 0, 0, False) /* Create Dryreach Rumor for Shop */
-     , (2049, 2,  2588,  0, 9, 1, False) /* Create Shirt for Wield */
-     , (2049, 2,  2600,  0, 4, 0.6, False) /* Create Pantaloons for Wield */
-     , (2049, 2, 10696,  0, 5, 0.8, False) /* Create Apron for Wield */;
+VALUES (2049, 2,   132,  0, 4, 0.8, False) /* Create Shoes (132) for Wield */
+     , (2049, 4,  2244, -1, 0, 0, False) /* Create Dryreach Key (2244) for Shop */
+     , (2049, 4,  2245, -1, 0, 0, False) /* Create Dryreach Rumor (2245) for Shop */
+     , (2049, 2,  2588,  0, 9, 1, False) /* Create Shirt (2588) for Wield */
+     , (2049, 2,  2600,  0, 4, 0.6, False) /* Create Pantaloons (2600) for Wield */
+     , (2049, 2, 10696,  0, 5, 0.8, False) /* Create Apron (10696) for Wield */;

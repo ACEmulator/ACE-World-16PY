@@ -10,7 +10,7 @@ VALUES (10932,   1,         16) /* ItemType - Creature */
      , (10932,  16,          1) /* ItemUseable - No */
      , (10932,  25,       9798) /* Level */
      , (10932,  27,          0) /* ArmorType */
-     , (10932,  93,    6292504) /* PhysicsState */
+     , (10932,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (10932, 133,          1) /* ShowableOnRadar - ShowNever */
      , (10932, 134,         16) /* PlayerKillerStatus - RubberGlue */
      , (10932, 146,     940046) /* XpOverride */;

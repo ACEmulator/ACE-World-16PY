@@ -12,7 +12,7 @@ VALUES (28050,   1,         16) /* ItemType - Creature */
      , (28050,  27,          0) /* ArmorType */
      , (28050,  40,          2) /* CombatMode - Melee */
      , (28050,  68,          9) /* TargetingTactic */
-     , (28050,  93,       1032) /* PhysicsState */
+     , (28050,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (28050, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (28050, 146,      55000) /* XpOverride */;
 
@@ -73,7 +73,7 @@ VALUES (28050,   1,   33558578) /* Setup */
      , (28050,   7,  268436838) /* ClothingBase */
      , (28050,   8,  100667940) /* Icon */
      , (28050,  22,  872415322) /* PhysicsEffectTable */
-     , (28050,  35,        464) /* DeathTreasureType */;
+     , (28050,  35,        464) /* DeathTreasureType - Loot Tier: 5 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (28050,   1, 410, 0, 0) /* Strength */
@@ -145,9 +145,9 @@ VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 1090519043 /* Ready */, NULL, NU
      , (@parent_id,  1,   5 /* Motion */, 0, 1, 1090519060 /* Sleeping */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (28050, 9,     0,  0, 0, 0.97, False) /* Create Unknown for ContainTreasure */
-     , (28050, 9,     0,  0, 0, 0.95, False) /* Create Unknown for ContainTreasure */
-     , (28050, 9,     0,  0, 0, 0.93, False) /* Create Unknown for ContainTreasure */
-     , (28050, 9,  6353,  0, 0, 0.05, False) /* Create Pyreal Mote for ContainTreasure */
-     , (28050, 9,  7605,  0, 0, 0.07, False) /* Create Coral Heart for ContainTreasure */
-     , (28050, 9, 24477,  0, 0, 0.03, False) /* Create Sturdy Steel Key for ContainTreasure */;
+VALUES (28050, 9,     0,  0, 0, 0.97, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 5 for ContainTreasure */
+     , (28050, 9,     0,  0, 0, 0.95, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 5 for ContainTreasure */
+     , (28050, 9,     0,  0, 0, 0.93, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 5 for ContainTreasure */
+     , (28050, 9,  6353,  0, 0, 0.05, False) /* Create Pyreal Mote (6353) for ContainTreasure */
+     , (28050, 9,  7605,  0, 0, 0.07, False) /* Create Coral Heart (7605) for ContainTreasure */
+     , (28050, 9, 24477,  0, 0, 0.03, False) /* Create Sturdy Steel Key (24477) for ContainTreasure */;

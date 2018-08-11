@@ -11,8 +11,8 @@ VALUES (3648,   1,         16) /* ItemType - Creature */
      , (3648,  25,          1) /* Level */
      , (3648,  27,          0) /* ArmorType */
      , (3648,  30,          0) /* AllegianceRank */
-     , (3648,  32,       1597) /* ChannelsActive */
-     , (3648,  93,    4195336) /* PhysicsState */
+     , (3648,  32,       1597) /* ChannelsActive - Audit, Advocate1, Advocate2, Advocate3, Sentinel, AllBroadcast */
+     , (3648,  93,    4195336) /* PhysicsState - ReportCollisions, Gravity, EdgeSlide */
      , (3648, 112,          6) /* AdvocateLevel */
      , (3648, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (3648, 146,        169) /* XpOverride */;

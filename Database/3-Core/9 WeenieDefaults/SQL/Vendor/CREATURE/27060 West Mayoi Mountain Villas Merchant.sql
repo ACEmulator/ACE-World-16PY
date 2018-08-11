@@ -10,10 +10,10 @@ VALUES (27060,   1,         16) /* ItemType - Creature */
      , (27060,  16,         32) /* ItemUseable - Remote */
      , (27060,  25,         10) /* Level */
      , (27060,  27,          0) /* ArmorType */
-     , (27060,  74,     264192) /* MerchandiseItemTypes */
+     , (27060,  74,     264192) /* MerchandiseItemTypes - Gem, PromissoryNote */
      , (27060,  75,          0) /* MerchandiseMinValue */
      , (27060,  76,    1000000) /* MerchandiseMaxValue */
-     , (27060,  93,    2098204) /* PhysicsState */
+     , (27060,  93,    2098204) /* PhysicsState - Ethereal, ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */
      , (27060, 126,        125) /* VendorHappyMean */
      , (27060, 127,        125) /* VendorHappyVariance */
      , (27060, 133,          4) /* ShowableOnRadar - ShowAlways */
@@ -97,4 +97,4 @@ VALUES (27060,  0,  4,  0,    0,    0,    0,    0,    0,    0,    0,    0,    0,
      , (27060,  8,  4,  2, 0.75,    0,    0,    0,    0,    0,    0,    0,    0,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (27060, 4, 26425, -1, 0, 0, False) /* Create West Mayoi Mountain Villas Portal Gem for Shop */;
+VALUES (27060, 4, 26425, -1, 0, 0, False) /* Create West Mayoi Mountain Villas Portal Gem (26425) for Shop */;

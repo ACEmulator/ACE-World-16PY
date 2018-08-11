@@ -14,7 +14,7 @@ VALUES (2413,   1,       2048) /* ItemType - Gem */
      , (2413,  15,         10) /* StackUnitValue */
      , (2413,  16,          1) /* ItemUseable - No */
      , (2413,  19,         10) /* Value */
-     , (2413,  93,       1044) /* PhysicsState */
+     , (2413,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (2413, 131,         10) /* MaterialType - Agate */
      , (2413, 169,   16777216) /* TsysMutationData */;
 

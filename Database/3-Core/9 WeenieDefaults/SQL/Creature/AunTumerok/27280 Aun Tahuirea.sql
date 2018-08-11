@@ -11,7 +11,7 @@ VALUES (27280,   1,         16) /* ItemType - Creature */
      , (27280,  16,         32) /* ItemUseable - Remote */
      , (27280,  25,        120) /* Level */
      , (27280,  27,          0) /* ArmorType */
-     , (27280,  93,    6292504) /* PhysicsState */
+     , (27280,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (27280,  95,          8) /* RadarBlipColor - Yellow */
      , (27280, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (27280, 134,         16) /* PlayerKillerStatus - RubberGlue */
@@ -157,4 +157,4 @@ VALUES (@parent_id,  0,  18 /* DirectBroadcast */, 0, 1, NULL, 'You tell Tahuire
      , (@parent_id,  3,  22 /* StampQuest */, 0, 1, NULL, 'CrystalLordHunterComplete', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (27280, 2,   311,  0, 0, 0, False) /* Create Heavy Crossbow for Wield */;
+VALUES (27280, 2,   311,  0, 0, 0, False) /* Create Heavy Crossbow (311) for Wield */;

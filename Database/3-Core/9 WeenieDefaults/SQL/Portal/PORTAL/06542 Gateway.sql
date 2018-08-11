@@ -6,8 +6,8 @@ VALUES (6542,   1,      65536) /* ItemType - Portal */
      , (6542,  16,         32) /* ItemUseable - Remote */
      , (6542,  86,          6) /* MinLevel */
      , (6542,  87,         15) /* MaxLevel */
-     , (6542,  93,       3084) /* PhysicsState */
-     , (6542, 111,         17) /* PortalBitmask */
+     , (6542,  93,       3084) /* PhysicsState - Ethereal, ReportCollisions, Gravity, LightingOn */
+     , (6542, 111,         17) /* PortalBitmask - Unrestricted, NoSummon */
      , (6542, 133,          4) /* ShowableOnRadar - ShowAlways */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)

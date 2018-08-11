@@ -12,8 +12,8 @@ VALUES (1521,   1,         16) /* ItemType - Creature */
      , (1521,  27,          0) /* ArmorType */
      , (1521,  40,          2) /* CombatMode - Melee */
      , (1521,  68,          5) /* TargetingTactic */
-     , (1521,  93,       1032) /* PhysicsState */
-     , (1521, 101,        131) /* AiAllowedCombatStyle */
+     , (1521,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
+     , (1521, 101,        131) /* AiAllowedCombatStyle - Unarmed, OneHanded, ThrownWeapon */
      , (1521, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (1521, 140,          1) /* AiOptions */
      , (1521, 146,         71) /* XpOverride */;
@@ -69,8 +69,24 @@ VALUES (1521,   1,   33556445) /* Setup */
      , (1521,   7,  268435972) /* ClothingBase */
      , (1521,   8,  100667445) /* Icon */
      , (1521,  22,  872415258) /* PhysicsEffectTable */
-     , (1521,  32,         74) /* WieldedTreasureType */
-     , (1521,  35,         77) /* DeathTreasureType */;
+     , (1521,  32,         74) /* WieldedTreasureType - 
+                                   Wield Club (309) | Probability: 5%
+                                   Wield Dabus (313) | Probability: 10%
+                                   Wield Dagger (314) | Probability: 5%
+                                   Wield Kasrullah (325) | Probability: 5%
+                                   Wield Khanjar (328) | Probability: 5%
+                                   Wield Mace (331) | Probability: 10%
+                                   Wield Short Sword (352) | Probability: 10%
+                                   Wield Simi (345) | Probability: 10%
+                                   Wield Tofun (356) | Probability: 10%
+                                   Wield Yaoji (361) | Probability: 10%
+                                   Wield Drudge Board with Nail (7767) | Probability: 15%
+                                   Wield 10x Shouken (343) | Probability: 4%
+                                   Wield 6x Throwing Dagger (315) | Probability: 5%
+                                   Wield 4x Javelin (320) | Probability: 2%
+                                   Wield Djarid (317) | Probability: 1%
+                                   Wield 4x Throwing Club (310) | Probability: 1% */
+     , (1521,  35,         77) /* DeathTreasureType - Loot Tier: 2 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (1521,   1,  30, 0, 0) /* Strength */
@@ -149,5 +165,5 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 268435537 /* Twitch1 */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (1521, 9,     0,  0, 0, 0, False) /* Create Unknown for ContainTreasure */
-     , (1521, 9,  1531,  0, 0, 1, False) /* Create Cell Key for ContainTreasure */;
+VALUES (1521, 9,     0,  0, 0, 0, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 2 for ContainTreasure */
+     , (1521, 9,  1531,  0, 0, 1, False) /* Create Cell Key (1531) for ContainTreasure */;

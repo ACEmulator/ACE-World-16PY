@@ -10,7 +10,7 @@ VALUES (14410,   1,         16) /* ItemType - Creature */
      , (14410,  16,         32) /* ItemUseable - Remote */
      , (14410,  25,         45) /* Level */
      , (14410,  27,          0) /* ArmorType */
-     , (14410,  93,    6292504) /* PhysicsState */
+     , (14410,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (14410,  95,          8) /* RadarBlipColor - Yellow */
      , (14410, 133,          0) /* ShowableOnRadar - Undefined */
      , (14410, 134,         16) /* PlayerKillerStatus - RubberGlue */
@@ -144,6 +144,6 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,  10 /* Tell */, 1, 1, NULL, 'Greetings, stranger. I''ve done many things to be ashamed of in the past, but I''ve come here to make a new start near the fair town of Holtburg. I enjoy the peace and quiet of these parts. Would you mind if I asked you to be on your way? I am entertaining some important guests, and I don''t want them to be disturbed.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (14410, 2,   115,  0, 4, 0.6, False) /* Create Leather Boots for Wield */
-     , (14410, 2,   124,  0, 9, 0.5, False) /* Create Jerkin for Wield */
-     , (14410, 2,   127,  0, 5, 0.67, False) /* Create Pants for Wield */;
+VALUES (14410, 2,   115,  0, 4, 0.6, False) /* Create Leather Boots (115) for Wield */
+     , (14410, 2,   124,  0, 9, 0.5, False) /* Create Jerkin (124) for Wield */
+     , (14410, 2,   127,  0, 5, 0.67, False) /* Create Pants (127) for Wield */;

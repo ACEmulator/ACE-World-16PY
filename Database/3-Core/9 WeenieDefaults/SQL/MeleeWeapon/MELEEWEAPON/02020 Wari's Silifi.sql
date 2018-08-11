@@ -15,7 +15,7 @@ VALUES (2020,   1,          1) /* ItemType - MeleeWeapon */
      , (2020,  48,          1) /* WeaponSkill - Axe */
      , (2020,  49,         50) /* WeaponTime */
      , (2020,  51,          1) /* CombatUse - Melee */
-     , (2020,  93,       1044) /* PhysicsState */
+     , (2020,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (2020, 150,        103) /* HookPlacement - Hook */
      , (2020, 151,          2) /* HookType - Wall */;
 

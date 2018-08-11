@@ -4,7 +4,7 @@ VALUES ('2123', 'cluenewbieshogen', 1) /* Generic */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (2123,  81,          1) /* MaxGeneratedObjects */
      , (2123,  82,          1) /* InitGeneratedObjects */
-     , (2123,  93,       1044) /* PhysicsState */;
+     , (2123,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (2123,   1, True ) /* Stuck */

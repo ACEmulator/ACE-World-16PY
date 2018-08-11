@@ -13,7 +13,7 @@ VALUES (28552,   1,         16) /* ItemType - Creature */
      , (28552,  40,          2) /* CombatMode - Melee */
      , (28552,  68,          5) /* TargetingTactic */
      , (28552,  69,          4) /* CombatTactic */
-     , (28552,  93,       3080) /* PhysicsState */
+     , (28552,  93,       3080) /* PhysicsState - ReportCollisions, Gravity, LightingOn */
      , (28552, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (28552, 146,       6400) /* XpOverride */;
 
@@ -73,7 +73,7 @@ VALUES (28552,   1,   33556241) /* Setup */
      , (28552,   7,  268435870) /* ClothingBase */
      , (28552,   8,  100670396) /* Icon */
      , (28552,  22,  872415348) /* PhysicsEffectTable */
-     , (28552,  35,        463) /* DeathTreasureType */;
+     , (28552,  35,        463) /* DeathTreasureType - Loot Tier: 2 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (28552,   1, 100, 0, 0) /* Strength */
@@ -129,5 +129,5 @@ VALUES (28552,  94) /* ATTACK_NOTIFICATION_EVENT */
      , (28552, 414) /* PLAYER_DEATH_EVENT */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (28552, 9,     0,  0, 0, 0.98, False) /* Create Unknown for ContainTreasure */
-     , (28552, 9,  6057,  0, 0, 0.02, False) /* Create Tiny Shard for ContainTreasure */;
+VALUES (28552, 9,     0,  0, 0, 0.98, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 2 for ContainTreasure */
+     , (28552, 9,  6057,  0, 0, 0.02, False) /* Create Tiny Shard (6057) for ContainTreasure */;

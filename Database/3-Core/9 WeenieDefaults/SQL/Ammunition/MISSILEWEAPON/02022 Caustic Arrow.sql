@@ -18,7 +18,7 @@ VALUES (2022,   1,        256) /* ItemType - MissileWeapon */
      , (2022,  45,         32) /* DamageType - Acid */
      , (2022,  50,          1) /* AmmoType - Arrow */
      , (2022,  51,          3) /* CombatUse - Ammo */
-     , (2022,  93,     132116) /* PhysicsState */
+     , (2022,  93,     132116) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, Inelastic */
      , (2022, 150,        103) /* HookPlacement - Hook */
      , (2022, 151,          2) /* HookType - Wall */;
 

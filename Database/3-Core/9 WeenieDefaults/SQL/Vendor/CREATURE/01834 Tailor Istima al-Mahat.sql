@@ -10,10 +10,10 @@ VALUES (1834,   1,         16) /* ItemType - Creature */
      , (1834,  16,         32) /* ItemUseable - Remote */
      , (1834,  25,         12) /* Level */
      , (1834,  27,          0) /* ArmorType */
-     , (1834,  74,     262148) /* MerchandiseItemTypes */
+     , (1834,  74,     262148) /* MerchandiseItemTypes - Clothing, PromissoryNote */
      , (1834,  75,          0) /* MerchandiseMinValue */
      , (1834,  76,     100000) /* MerchandiseMaxValue */
-     , (1834,  93,    2098200) /* PhysicsState */
+     , (1834,  93,    2098200) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */
      , (1834, 126,        500) /* VendorHappyMean */
      , (1834, 127,        500) /* VendorHappyVariance */
      , (1834, 133,          4) /* ShowableOnRadar - ShowAlways */
@@ -163,23 +163,23 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 318767235 /* Nod */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (1834, 2,   115,  0, 4, 0.6, False) /* Create Leather Boots for Wield */
-     , (1834, 2,   127,  0, 14, 0, False) /* Create Pants for Wield */
-     , (1834, 2,   128,  0, 14, 0.8, False) /* Create Qafiya for Wield */
-     , (1834, 2,   130,  0, 17, 1, False) /* Create Shirt for Wield */
-     , (1834, 4,   133, -1, 17, 1, False) /* Create Slippers for Shop */
-     , (1834, 4,   133, -1, 14, 0, False) /* Create Slippers for Shop */
-     , (1834, 4,   133, -1, 16, 1, False) /* Create Slippers for Shop */
-     , (1834, 4,   135, -1, 17, 1, False) /* Create Turban for Shop */
-     , (1834, 4,   135, -1, 14, 0, False) /* Create Turban for Shop */
-     , (1834, 4,   135, -1, 16, 1, False) /* Create Turban for Shop */
-     , (1834, 4,  2587, -1, 17, 1, False) /* Create Shirt for Shop */
-     , (1834, 4,  2587, -1, 14, 0, False) /* Create Shirt for Shop */
-     , (1834, 4,  2587, -1, 16, 1, False) /* Create Shirt for Shop */
-     , (1834, 4,  2598, -1, 17, 1, False) /* Create Pants for Shop */
-     , (1834, 4,  2598, -1, 14, 0, False) /* Create Pants for Shop */
-     , (1834, 4,  2598, -1, 16, 1, False) /* Create Pants for Shop */
-     , (1834, 4,  5852, -1, 0, 0, False) /* Create Dho Vest and Robe for Shop */
-     , (1834, 4,  5894, -1, 0, 0, False) /* Create Fez for Shop */
-     , (1834, 4,  8373, -1, 17, 1, False) /* Create Kiyafa Robe for Shop */
-     , (1834, 2, 10696,  0, 4, 0.8, False) /* Create Apron for Wield */;
+VALUES (1834, 2,   115,  0, 4, 0.6, False) /* Create Leather Boots (115) for Wield */
+     , (1834, 2,   127,  0, 14, 0, False) /* Create Pants (127) for Wield */
+     , (1834, 2,   128,  0, 14, 0.8, False) /* Create Qafiya (128) for Wield */
+     , (1834, 2,   130,  0, 17, 1, False) /* Create Shirt (130) for Wield */
+     , (1834, 4,   133, -1, 17, 1, False) /* Create Slippers (133) for Shop */
+     , (1834, 4,   133, -1, 14, 0, False) /* Create Slippers (133) for Shop */
+     , (1834, 4,   133, -1, 16, 1, False) /* Create Slippers (133) for Shop */
+     , (1834, 4,   135, -1, 17, 1, False) /* Create Turban (135) for Shop */
+     , (1834, 4,   135, -1, 14, 0, False) /* Create Turban (135) for Shop */
+     , (1834, 4,   135, -1, 16, 1, False) /* Create Turban (135) for Shop */
+     , (1834, 4,  2587, -1, 17, 1, False) /* Create Shirt (2587) for Shop */
+     , (1834, 4,  2587, -1, 14, 0, False) /* Create Shirt (2587) for Shop */
+     , (1834, 4,  2587, -1, 16, 1, False) /* Create Shirt (2587) for Shop */
+     , (1834, 4,  2598, -1, 17, 1, False) /* Create Pants (2598) for Shop */
+     , (1834, 4,  2598, -1, 14, 0, False) /* Create Pants (2598) for Shop */
+     , (1834, 4,  2598, -1, 16, 1, False) /* Create Pants (2598) for Shop */
+     , (1834, 4,  5852, -1, 0, 0, False) /* Create Dho Vest and Robe (5852) for Shop */
+     , (1834, 4,  5894, -1, 0, 0, False) /* Create Fez (5894) for Shop */
+     , (1834, 4,  8373, -1, 17, 1, False) /* Create Kiyafa Robe (8373) for Shop */
+     , (1834, 2, 10696,  0, 4, 0.8, False) /* Create Apron (10696) for Wield */;

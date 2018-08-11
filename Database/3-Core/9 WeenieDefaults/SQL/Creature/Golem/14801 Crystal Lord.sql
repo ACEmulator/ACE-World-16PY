@@ -14,7 +14,7 @@ VALUES (14801,   1,         16) /* ItemType - Creature */
      , (14801,  68,          9) /* TargetingTactic */
      , (14801,  81,         15) /* MaxGeneratedObjects */
      , (14801,  82,         15) /* InitGeneratedObjects */
-     , (14801,  93,       1032) /* PhysicsState */
+     , (14801,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (14801, 103,          3) /* GeneratorDestructionType - Kill */
      , (14801, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (14801, 146,    1148364) /* XpOverride */;
@@ -78,7 +78,7 @@ VALUES (14801,   1,   33556439) /* Setup */
      , (14801,   7,  268435983) /* ClothingBase */
      , (14801,   8,  100667940) /* Icon */
      , (14801,  22,  872415322) /* PhysicsEffectTable */
-     , (14801,  35,         32) /* DeathTreasureType */;
+     , (14801,  35,         32) /* DeathTreasureType - Loot Tier: 6 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (14801,   1, 400, 0, 0) /* Strength */
@@ -167,4 +167,4 @@ VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 1090519043 /* Ready */, NULL, NU
      , (@parent_id,  1,   5 /* Motion */, 0, 1, 1090519060 /* Sleeping */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (14801, -1, 14802, 5, 15, 15, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0);
+VALUES (14801, -1, 14802, 5, 15, 15, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Crystal Minion (14802) (x15 up to max of 15) - Regenerate upon Destruction - Location to (re)Generate: Scatter */;

@@ -14,8 +14,8 @@ VALUES (12004,   1,         16) /* ItemType - Creature */
      , (12004,  68,          9) /* TargetingTactic */
      , (12004,  81,          3) /* MaxGeneratedObjects */
      , (12004,  82,          3) /* InitGeneratedObjects */
-     , (12004,  93,       1032) /* PhysicsState */
-     , (12004, 101,        131) /* AiAllowedCombatStyle */
+     , (12004,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
+     , (12004, 101,        131) /* AiAllowedCombatStyle - Unarmed, OneHanded, ThrownWeapon */
      , (12004, 103,          1) /* GeneratorDestructionType - Nothing */
      , (12004, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (12004, 140,          1) /* AiOptions */
@@ -74,8 +74,15 @@ VALUES (12004,   1,   33555199) /* Setup */
      , (12004,   7,  268435726) /* ClothingBase */
      , (12004,   8,  100669117) /* Icon */
      , (12004,  22,  872415257) /* PhysicsEffectTable */
-     , (12004,  32,        118) /* WieldedTreasureType */
-     , (12004,  35,         24) /* DeathTreasureType */;
+     , (12004,  32,        118) /* WieldedTreasureType - 
+                                   Wield Club (3943) | Probability: 20%
+                                   Wield Dabus (3944) | Probability: 10%
+                                   Wield Kasrullah (3945) | Probability: 10%
+                                   Wield Mace (3947) | Probability: 10%
+                                   Wield Morning Star (3948) | Probability: 20%
+                                   Wield Tofun (3946) | Probability: 10%
+                                   Wield 10x Throwing Club (310) | Probability: 20% */
+     , (12004,  35,         24) /* DeathTreasureType - Loot Tier: 1 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (12004,   1,  70, 0, 0) /* Strength */
@@ -152,6 +159,6 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 268435538 /* Twitch2 */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (12004, 0.34, 2612, 20, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0)
-     , (12004, 0.67, 2612, 20, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0)
-     , (12004, 1, 2612, 20, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0);
+VALUES (12004, 0.34, 2612, 20, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Outcast Monouga (2612) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Scatter */
+     , (12004, 0.67, 2612, 20, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Outcast Monouga (2612) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Scatter */
+     , (12004, 1, 2612, 20, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Outcast Monouga (2612) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Scatter */;

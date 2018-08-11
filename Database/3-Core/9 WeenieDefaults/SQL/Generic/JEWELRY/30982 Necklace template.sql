@@ -9,7 +9,7 @@ VALUES (30982,   1,          8) /* ItemType - Jewelry */
      , (30982,   9,      32768) /* ValidLocations - NeckWear */
      , (30982,  16,          1) /* ItemUseable - No */
      , (30982,  19,         50) /* Value */
-     , (30982,  93,       1044) /* PhysicsState */
+     , (30982,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (30982, 169,   33687300) /* TsysMutationData */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)

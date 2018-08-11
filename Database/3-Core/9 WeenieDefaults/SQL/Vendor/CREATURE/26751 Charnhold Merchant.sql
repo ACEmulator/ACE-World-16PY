@@ -10,10 +10,10 @@ VALUES (26751,   1,         16) /* ItemType - Creature */
      , (26751,  16,         32) /* ItemUseable - Remote */
      , (26751,  25,         10) /* Level */
      , (26751,  27,          0) /* ArmorType */
-     , (26751,  74,     264192) /* MerchandiseItemTypes */
+     , (26751,  74,     264192) /* MerchandiseItemTypes - Gem, PromissoryNote */
      , (26751,  75,          0) /* MerchandiseMinValue */
      , (26751,  76,    1000000) /* MerchandiseMaxValue */
-     , (26751,  93,    2098204) /* PhysicsState */
+     , (26751,  93,    2098204) /* PhysicsState - Ethereal, ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */
      , (26751, 126,        125) /* VendorHappyMean */
      , (26751, 127,        125) /* VendorHappyVariance */
      , (26751, 133,          4) /* ShowableOnRadar - ShowAlways */
@@ -97,4 +97,4 @@ VALUES (26751,  0,  4,  0,    0,    0,    0,    0,    0,    0,    0,    0,    0,
      , (26751,  8,  4,  2, 0.75,    0,    0,    0,    0,    0,    0,    0,    0,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (26751, 4, 26116, -1, 0, 0, False) /* Create Charnhold Portal Gem for Shop */;
+VALUES (26751, 4, 26116, -1, 0, 0, False) /* Create Charnhold Portal Gem (26116) for Shop */;

@@ -13,7 +13,7 @@ VALUES (696,   1,         16) /* ItemType - Creature */
      , (696,  74,    4481568) /* MerchandiseItemTypes - VendorGrocer */
      , (696,  75,          0) /* MerchandiseMinValue */
      , (696,  76,     100000) /* MerchandiseMaxValue */
-     , (696,  93,    2098200) /* PhysicsState */
+     , (696,  93,    2098200) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */
      , (696, 126,        500) /* VendorHappyMean */
      , (696, 127,        500) /* VendorHappyVariance */
      , (696, 133,          4) /* ShowableOnRadar - ShowAlways */
@@ -163,15 +163,15 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 318767235 /* Nod */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (696, 2,   115,  0, 9, 0.5, False) /* Create Leather Boots for Wield */
-     , (696, 2,   117,  0, 10, 1, False) /* Create Breeches for Wield */
-     , (696, 2,   118,  0, 9, 0.5, False) /* Create Cap for Wield */
-     , (696, 2,   130,  0, 9, 0.5, False) /* Create Shirt for Wield */
-     , (696, 4,   262, -1, 0, 0, False) /* Create Chicken for Shop */
-     , (696, 4,  2463, -1, 0, 0, False) /* Create Milk for Shop */
-     , (696, 4,  4746, -1, 0, 0, False) /* Create Water for Shop */
-     , (696, 4,  4753, -1, 0, 0, False) /* Create Side of Beef for Shop */
-     , (696, 4,  4754, -1, 0, 0, False) /* Create Baking Pan for Shop */
-     , (696, 4,  4761, -1, 0, 0, False) /* Create Flour for Shop */
-     , (696, 4,  4766, -1, 0, 0, False) /* Create Rennet for Shop */
-     , (696, 2, 10696,  0, 18, 1, False) /* Create Apron for Wield */;
+VALUES (696, 2,   115,  0, 9, 0.5, False) /* Create Leather Boots (115) for Wield */
+     , (696, 2,   117,  0, 10, 1, False) /* Create Breeches (117) for Wield */
+     , (696, 2,   118,  0, 9, 0.5, False) /* Create Cap (118) for Wield */
+     , (696, 2,   130,  0, 9, 0.5, False) /* Create Shirt (130) for Wield */
+     , (696, 4,   262, -1, 0, 0, False) /* Create Chicken (262) for Shop */
+     , (696, 4,  2463, -1, 0, 0, False) /* Create Milk (2463) for Shop */
+     , (696, 4,  4746, -1, 0, 0, False) /* Create Water (4746) for Shop */
+     , (696, 4,  4753, -1, 0, 0, False) /* Create Side of Beef (4753) for Shop */
+     , (696, 4,  4754, -1, 0, 0, False) /* Create Baking Pan (4754) for Shop */
+     , (696, 4,  4761, -1, 0, 0, False) /* Create Flour (4761) for Shop */
+     , (696, 4,  4766, -1, 0, 0, False) /* Create Rennet (4766) for Shop */
+     , (696, 2, 10696,  0, 18, 1, False) /* Create Apron (10696) for Wield */;

@@ -11,13 +11,13 @@ VALUES (8744,   1,          1) /* ItemType - MeleeWeapon */
      , (8744,  18,          1) /* UiEffects - Magical */
      , (8744,  19,          1) /* Value */
      , (8744,  44,         18) /* Damage */
-     , (8744,  45,          3) /* DamageType */
+     , (8744,  45,          3) /* DamageType - Slash, Pierce */
      , (8744,  46,          2) /* DefaultCombatStyle - OneHanded */
-     , (8744,  47,          6) /* AttackType */
+     , (8744,  47,          6) /* AttackType - Thrust, Slash */
      , (8744,  48,         11) /* WeaponSkill - Sword */
      , (8744,  49,         40) /* WeaponTime */
      , (8744,  51,          1) /* CombatUse - Melee */
-     , (8744,  93,       1044) /* PhysicsState */
+     , (8744,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (8744, 106,        150) /* ItemSpellcraft */
      , (8744, 107,        400) /* ItemCurMana */
      , (8744, 108,        400) /* ItemMaxMana */

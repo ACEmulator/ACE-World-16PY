@@ -11,7 +11,7 @@ VALUES (24574,   1,         16) /* ItemType - Creature */
      , (24574,  16,         32) /* ItemUseable - Remote */
      , (24574,  25,         96) /* Level */
      , (24574,  27,          0) /* ArmorType */
-     , (24574,  93,    6292504) /* PhysicsState */
+     , (24574,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (24574,  95,          8) /* RadarBlipColor - Yellow */
      , (24574, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (24574, 134,         16) /* PlayerKillerStatus - RubberGlue */
@@ -616,4 +616,4 @@ VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 1090519043 /* Ready */, NULL, NU
      , (@parent_id,  3,  10 /* Tell */, 1, 1, NULL, 'I''ll also take banderling trophies.  But what I really specialize in are the rare black rocks, black stones, and the repair of Sunstone Gauntlets.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (24574, 2,  7580,  0, 0, 0, False) /* Create Pickaxe for Wield */;
+VALUES (24574, 2,  7580,  0, 0, 0, False) /* Create Pickaxe (7580) for Wield */;

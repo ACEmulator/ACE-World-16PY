@@ -13,8 +13,8 @@ VALUES (8503,   1,         16) /* ItemType - Creature */
      , (8503,  40,          1) /* CombatMode - NonCombat */
      , (8503,  67,         64) /* Tolerance */
      , (8503,  68,         13) /* TargetingTactic */
-     , (8503,  93,       1032) /* PhysicsState */
-     , (8503, 101,        183) /* AiAllowedCombatStyle */
+     , (8503,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
+     , (8503, 101,        183) /* AiAllowedCombatStyle - Unarmed, OneHanded, OneHandedAndShield, Bow, Crossbow, ThrownWeapon */
      , (8503, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (8503, 146,          0) /* XpOverride */;
 
@@ -179,4 +179,4 @@ INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
 VALUES (8503, 414) /* PLAYER_DEATH_EVENT */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (8503, 1,  8640,  1, 0, 1, False) /* Create Orb for Contain */;
+VALUES (8503, 1,  8640,  1, 0, 1, False) /* Create Orb (8640) for Contain */;

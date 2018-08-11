@@ -4,7 +4,7 @@ VALUES ('5504', 'portaldampcavernsexit', 7) /* Portal */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (5504,   1,      65536) /* ItemType - Portal */
      , (5504,  16,         32) /* ItemUseable - Remote */
-     , (5504,  93,       3084) /* PhysicsState */
+     , (5504,  93,       3084) /* PhysicsState - Ethereal, ReportCollisions, Gravity, LightingOn */
      , (5504, 111,          1) /* PortalBitmask - Unrestricted */
      , (5504, 133,          4) /* ShowableOnRadar - ShowAlways */;
 

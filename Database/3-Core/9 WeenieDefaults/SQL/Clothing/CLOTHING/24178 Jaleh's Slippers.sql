@@ -15,7 +15,7 @@ VALUES (24178,   1,          4) /* ItemType - Clothing */
      , (24178,  33,          1) /* Bonded - Bonded */
      , (24178,  44,          1) /* Damage */
      , (24178,  45,          4) /* DamageType - Bludgeon */
-     , (24178,  93,       1044) /* PhysicsState */
+     , (24178,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (24178, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)

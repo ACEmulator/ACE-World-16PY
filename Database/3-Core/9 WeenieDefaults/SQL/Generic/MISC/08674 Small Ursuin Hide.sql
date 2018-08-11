@@ -9,7 +9,7 @@ VALUES (8674,   1,        128) /* ItemType - Misc */
      , (8674,   9,          0) /* ValidLocations - None */
      , (8674,  16,          1) /* ItemUseable - No */
      , (8674,  19,          0) /* Value */
-     , (8674,  93,       1044) /* PhysicsState */
+     , (8674,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (8674, 150,        103) /* HookPlacement - Hook */
      , (8674, 151,          1) /* HookType - Floor */;
 

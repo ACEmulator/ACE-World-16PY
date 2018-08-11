@@ -4,15 +4,15 @@ VALUES ('125', 'kimonotop', 2) /* Clothing */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (125,   1,          4) /* ItemType - Clothing */
      , (125,   3,          2) /* PaletteTemplate - Blue */
-     , (125,   4,        120) /* ClothingPriority */
+     , (125,   4,        120) /* ClothingPriority - UnderwearChest, UnderwearAbdomen, UnderwearUpperArms, UnderwearLowerArms */
      , (125,   5,         75) /* EncumbranceVal */
      , (125,   8,         50) /* Mass */
-     , (125,   9,         30) /* ValidLocations */
+     , (125,   9,         30) /* ValidLocations - ChestWear, AbdomenWear, UpperArmWear, LowerArmWear */
      , (125,  16,          1) /* ItemUseable - No */
      , (125,  19,         15) /* Value */
      , (125,  27,          1) /* ArmorType */
      , (125,  28,          0) /* ArmorLevel */
-     , (125,  93,       1044) /* PhysicsState */;
+     , (125,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (125,  22, True ) /* Inscribable */

@@ -13,7 +13,7 @@ VALUES (4251,   1,         16) /* ItemType - Creature */
      , (4251,  27,          0) /* ArmorType */
      , (4251,  40,          2) /* CombatMode - Melee */
      , (4251,  68,         13) /* TargetingTactic */
-     , (4251,  93,       1032) /* PhysicsState */
+     , (4251,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (4251, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (4251, 146,       1156) /* XpOverride */;
 
@@ -70,7 +70,7 @@ VALUES (4251,   1,   33555668) /* Setup */
      , (4251,   8,  100669119) /* Icon */
      , (4251,  22,  872415265) /* PhysicsEffectTable */
      , (4251,  30,         85) /* PhysicsScript - BreatheFrost */
-     , (4251,  35,        145) /* DeathTreasureType */;
+     , (4251,  35,        145) /* DeathTreasureType - Loot Tier: 2 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (4251,   1, 130, 0, 0) /* Strength */

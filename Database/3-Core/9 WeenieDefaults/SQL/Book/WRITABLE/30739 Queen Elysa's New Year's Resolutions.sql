@@ -9,7 +9,7 @@ VALUES (30739,   1,       8192) /* ItemType - Writable */
      , (30739,  16,          8) /* ItemUseable - Contained */
      , (30739,  19,        100) /* Value */
      , (30739,  33,          0) /* Bonded - Normal */
-     , (30739,  93,       1044) /* PhysicsState */
+     , (30739,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (30739, 114,          0) /* Attuned - Normal */
      , (30739, 150,         99) /* HookPlacement - XXXUnknown63 */
      , (30739, 151,          2) /* HookType - Wall */;

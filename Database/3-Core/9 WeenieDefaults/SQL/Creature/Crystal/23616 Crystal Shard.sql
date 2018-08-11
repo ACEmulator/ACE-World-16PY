@@ -13,7 +13,7 @@ VALUES (23616,   1,         16) /* ItemType - Creature */
      , (23616,  40,          2) /* CombatMode - Melee */
      , (23616,  68,          5) /* TargetingTactic */
      , (23616,  69,          4) /* CombatTactic */
-     , (23616,  93,       1032) /* PhysicsState */
+     , (23616,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (23616, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (23616, 146,      37390) /* XpOverride */;
 
@@ -72,7 +72,7 @@ VALUES (23616,   1,   33556732) /* Setup */
      , (23616,   7,  268435859) /* ClothingBase */
      , (23616,   8,  100670283) /* Icon */
      , (23616,  22,  872415347) /* PhysicsEffectTable */
-     , (23616,  35,        460) /* DeathTreasureType */;
+     , (23616,  35,        460) /* DeathTreasureType - Loot Tier: 4 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (23616,   1, 190, 0, 0) /* Strength */
@@ -123,12 +123,12 @@ VALUES (23616,  94) /* ATTACK_NOTIFICATION_EVENT */
      , (23616, 414) /* PLAYER_DEATH_EVENT */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (23616, 9,     0,  0, 0, 0.95, False) /* Create Unknown for ContainTreasure */
-     , (23616, 9, 23849,  0, 0, 0.00625, False) /* Create Scored Shard for ContainTreasure */
-     , (23616, 9, 23850,  0, 0, 0.00625, False) /* Create Brilliant Shard for ContainTreasure */
-     , (23616, 9, 23851,  0, 0, 0.00625, False) /* Create Solid Shard for ContainTreasure */
-     , (23616, 9, 23852,  0, 0, 0.00625, False) /* Create Plated Shard for ContainTreasure */
-     , (23616, 9, 23853,  0, 0, 0.00625, False) /* Create Seared Shard for ContainTreasure */
-     , (23616, 9, 23854,  0, 0, 0.00625, False) /* Create Chilled Shard for ContainTreasure */
-     , (23616, 9, 23855,  0, 0, 0.00625, False) /* Create Charged Shard for ContainTreasure */
-     , (23616, 9, 23856,  0, 0, 0.00625, False) /* Create Hardened Shard for ContainTreasure */;
+VALUES (23616, 9,     0,  0, 0, 0.95, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 4 for ContainTreasure */
+     , (23616, 9, 23849,  0, 0, 0.00625, False) /* Create Scored Shard (23849) for ContainTreasure */
+     , (23616, 9, 23850,  0, 0, 0.00625, False) /* Create Brilliant Shard (23850) for ContainTreasure */
+     , (23616, 9, 23851,  0, 0, 0.00625, False) /* Create Solid Shard (23851) for ContainTreasure */
+     , (23616, 9, 23852,  0, 0, 0.00625, False) /* Create Plated Shard (23852) for ContainTreasure */
+     , (23616, 9, 23853,  0, 0, 0.00625, False) /* Create Seared Shard (23853) for ContainTreasure */
+     , (23616, 9, 23854,  0, 0, 0.00625, False) /* Create Chilled Shard (23854) for ContainTreasure */
+     , (23616, 9, 23855,  0, 0, 0.00625, False) /* Create Charged Shard (23855) for ContainTreasure */
+     , (23616, 9, 23856,  0, 0, 0.00625, False) /* Create Hardened Shard (23856) for ContainTreasure */;

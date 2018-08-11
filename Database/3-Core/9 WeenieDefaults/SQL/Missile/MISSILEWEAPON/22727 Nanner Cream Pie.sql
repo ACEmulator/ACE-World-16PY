@@ -19,7 +19,7 @@ VALUES (22727,   1,        256) /* ItemType - MissileWeapon */
      , (22727,  48,         12) /* WeaponSkill - ThrownWeapon */
      , (22727,  49,         20) /* WeaponTime */
      , (22727,  51,          2) /* CombatUse - Missle */
-     , (22727,  93,     132116) /* PhysicsState */;
+     , (22727,  93,     132116) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, Inelastic */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (22727,  17, True ) /* Inelastic */

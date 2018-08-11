@@ -4,8 +4,8 @@ VALUES ('7247', 'portalblackdrudgespawnshoexit', 7) /* Portal */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (7247,   1,      65536) /* ItemType - Portal */
      , (7247,  16,         32) /* ItemUseable - Remote */
-     , (7247,  93,       3084) /* PhysicsState */
-     , (7247, 111,         17) /* PortalBitmask */
+     , (7247,  93,       3084) /* PhysicsState - Ethereal, ReportCollisions, Gravity, LightingOn */
+     , (7247, 111,         17) /* PortalBitmask - Unrestricted, NoSummon */
      , (7247, 133,          4) /* ShowableOnRadar - ShowAlways */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)

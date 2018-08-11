@@ -12,7 +12,7 @@ VALUES (2613,   1,        512) /* ItemType - Container */
      , (2613,  81,          1) /* MaxGeneratedObjects */
      , (2613,  82,          1) /* InitGeneratedObjects */
      , (2613,  83,          2) /* ActivationResponse - Use */
-     , (2613,  93,       1048) /* PhysicsState */
+     , (2613,  93,       1048) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity */
      , (2613,  96,        500) /* EncumbranceCapacity */
      , (2613, 100,          1) /* GeneratorType - Relative */;
 
@@ -42,4 +42,4 @@ VALUES (2613,   1,   33554556) /* Setup */
      , (2613,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (2613, 1, 2617, 0, 1, 1, 2, 8, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0);
+VALUES (2613, 1, 2617, 0, 1, 1, 2, 8, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Carved Key (2617) (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: Contain */;

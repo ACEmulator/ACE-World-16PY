@@ -13,7 +13,7 @@ VALUES (29820,   1,          2) /* ItemType - Armor */
      , (29820,  19,       1500) /* Value */
      , (29820,  27,         32) /* ArmorType */
      , (29820,  28,        175) /* ArmorLevel */
-     , (29820,  93,       1044) /* PhysicsState */
+     , (29820,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (29820, 107,        800) /* ItemCurMana */
      , (29820, 108,        800) /* ItemMaxMana */
      , (29820, 109,         80) /* ItemDifficulty */

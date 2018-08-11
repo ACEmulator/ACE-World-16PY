@@ -12,8 +12,8 @@ VALUES (1619,   1,         16) /* ItemType - Creature */
      , (1619,  27,          0) /* ArmorType */
      , (1619,  40,          2) /* CombatMode - Melee */
      , (1619,  68,         13) /* TargetingTactic */
-     , (1619,  93,       1032) /* PhysicsState */
-     , (1619, 101,        131) /* AiAllowedCombatStyle */
+     , (1619,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
+     , (1619, 101,        131) /* AiAllowedCombatStyle - Unarmed, OneHanded, ThrownWeapon */
      , (1619, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (1619, 140,          1) /* AiOptions */
      , (1619, 146,       1355) /* XpOverride */;
@@ -71,8 +71,16 @@ VALUES (1619,   1,   33557327) /* Setup */
      , (1619,   7,  268436295) /* ClothingBase */
      , (1619,   8,  100667449) /* Icon */
      , (1619,  22,  872415264) /* PhysicsEffectTable */
-     , (1619,  32,        139) /* WieldedTreasureType */
-     , (1619,  35,        453) /* DeathTreasureType */;
+     , (1619,  32,        139) /* WieldedTreasureType - 
+                                   Wield Budiaq (308) | Probability: 10%
+                                   Wield Scimitar (339) | Probability: 10%
+                                   Wield Shamshir (340) | Probability: 10%
+                                   Wield Spear (348) | Probability: 20%
+                                   Wield Tachi (353) | Probability: 10%
+                                   Wield Yari (362) | Probability: 40%
+                                   Wield 4x Javelin (320) | Probability: 5%
+                                   Wield Djarid (317) | Probability: 5% */
+     , (1619,  35,        453) /* DeathTreasureType - Loot Tier: 1 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (1619,   1, 120, 0, 0) /* Strength */
@@ -202,9 +210,9 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   7 /* PhysScript */, 0, 0.5, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 6 /* AttribUpRed */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (1619, 9,     0,  0, 0, 0.94, False) /* Create Unknown for ContainTreasure */
-     , (1619, 9,     0,  0, 0, 0.95, False) /* Create Unknown for ContainTreasure */
-     , (1619, 9,     0,  0, 0, 0.97, False) /* Create Unknown for ContainTreasure */
-     , (1619, 9,  3694,  0, 0, 0.06, False) /* Create Swamp Stone for ContainTreasure */
-     , (1619, 9,  7825,  0, 0, 0.05, False) /* Create Brown Beans for ContainTreasure */
-     , (1619, 9, 20854,  0, 0, 0.03, False) /* Create Academy Stamp for ContainTreasure */;
+VALUES (1619, 9,     0,  0, 0, 0.94, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 1 for ContainTreasure */
+     , (1619, 9,     0,  0, 0, 0.95, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 1 for ContainTreasure */
+     , (1619, 9,     0,  0, 0, 0.97, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 1 for ContainTreasure */
+     , (1619, 9,  3694,  0, 0, 0.06, False) /* Create Swamp Stone (3694) for ContainTreasure */
+     , (1619, 9,  7825,  0, 0, 0.05, False) /* Create Brown Beans (7825) for ContainTreasure */
+     , (1619, 9, 20854,  0, 0, 0.03, False) /* Create Academy Stamp (20854) for ContainTreasure */;

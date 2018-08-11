@@ -10,10 +10,10 @@ VALUES (27080,   1,         16) /* ItemType - Creature */
      , (27080,  16,         32) /* ItemUseable - Remote */
      , (27080,  25,         10) /* Level */
      , (27080,  27,          0) /* ArmorType */
-     , (27080,  74,     264192) /* MerchandiseItemTypes */
+     , (27080,  74,     264192) /* MerchandiseItemTypes - Gem, PromissoryNote */
      , (27080,  75,          0) /* MerchandiseMinValue */
      , (27080,  76,    1000000) /* MerchandiseMaxValue */
-     , (27080,  93,    2098204) /* PhysicsState */
+     , (27080,  93,    2098204) /* PhysicsState - Ethereal, ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */
      , (27080, 126,        125) /* VendorHappyMean */
      , (27080, 127,        125) /* VendorHappyVariance */
      , (27080, 133,          4) /* ShowableOnRadar - ShowAlways */
@@ -97,4 +97,4 @@ VALUES (27080,  0,  4,  0,    0,    0,    0,    0,    0,    0,    0,    0,    0,
      , (27080,  8,  4,  2, 0.75,    0,    0,    0,    0,    0,    0,    0,    0,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (27080, 4, 26445, -1, 0, 0, False) /* Create Yushad Ridge Cottages Portal Gem for Shop */;
+VALUES (27080, 4, 26445, -1, 0, 0, False) /* Create Yushad Ridge Cottages Portal Gem (26445) for Shop */;

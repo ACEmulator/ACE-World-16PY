@@ -11,7 +11,7 @@ VALUES (14578,   1,         16) /* ItemType - Creature */
      , (14578,  16,         32) /* ItemUseable - Remote */
      , (14578,  25,         50) /* Level */
      , (14578,  27,          0) /* ArmorType */
-     , (14578,  93,    6292504) /* PhysicsState */
+     , (14578,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (14578,  95,          8) /* RadarBlipColor - Yellow */
      , (14578, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (14578, 134,         16) /* PlayerKillerStatus - RubberGlue */
@@ -69,7 +69,19 @@ VALUES (14578,   1,   33557117) /* Setup */
      , (14578,   6,   67113280) /* PaletteBase */
      , (14578,   7,  268436193) /* ClothingBase */
      , (14578,   8,  100671756) /* Icon */
-     , (14578,  32,        379) /* WieldedTreasureType */;
+     , (14578,  32,        379) /* WieldedTreasureType - 
+                                   Wield Shortbow (307) | Probability: 22%
+                                   Wield 25x Greater Armor Piercing Arrow (5309) | Probability: 100%
+                                   Wield Shouyumi (341) | Probability: 23%
+                                   Wield 20x Greater Acid Arrow (5306) | Probability: 100%
+                                   Wield Light Crossbow (312) | Probability: 11%
+                                   Wield 15x Greater Frost Quarrel (5315) | Probability: 100%
+                                   Wield Longbow (306) | Probability: 16%
+                                   Wield 22x Greater Fire Arrow (5305) | Probability: 100%
+                                   Wield Yumi (363) | Probability: 14%
+                                   Wield 20x Greater Lightning Arrow (5308) | Probability: 100%
+                                   Wield Heavy Crossbow (311) | Probability: 14%
+                                   Wield 15x Greater Armor Piercing Quarrel (5318) | Probability: 100% */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (14578,   1, 240, 0, 0) /* Strength */

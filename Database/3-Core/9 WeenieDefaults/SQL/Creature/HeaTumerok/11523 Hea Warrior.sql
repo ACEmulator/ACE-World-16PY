@@ -11,8 +11,8 @@ VALUES (11523,   1,         16) /* ItemType - Creature */
      , (11523,  25,         35) /* Level */
      , (11523,  27,          0) /* ArmorType */
      , (11523,  68,          5) /* TargetingTactic */
-     , (11523,  93,       1032) /* PhysicsState */
-     , (11523, 101,        183) /* AiAllowedCombatStyle */
+     , (11523,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
+     , (11523, 101,        183) /* AiAllowedCombatStyle - Unarmed, OneHanded, OneHandedAndShield, Bow, Crossbow, ThrownWeapon */
      , (11523, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (11523, 140,          1) /* AiOptions */
      , (11523, 146,       4175) /* XpOverride */;
@@ -68,8 +68,20 @@ VALUES (11523,   1,   33554496) /* Setup */
      , (11523,   7,  268436630) /* ClothingBase */
      , (11523,   8,  100667452) /* Icon */
      , (11523,  22,  872415270) /* PhysicsEffectTable */
-     , (11523,  32,        389) /* WieldedTreasureType */
-     , (11523,  35,        451) /* DeathTreasureType */;
+     , (11523,  32,        389) /* WieldedTreasureType - 
+                                   Wield Blade of the Quiddity (11917) | Probability: 25%
+                                   Wield Lance of the Quiddity (11914) | Probability: 25%
+                                   Wield Mace of the Quiddity (11908) | Probability: 25%
+                                   Wield Kaskara (324) | Probability: 3%
+                                   Wield Long Sword (351) | Probability: 3%
+                                   Wield Silifi (344) | Probability: 3%
+                                   Wield Tachi (353) | Probability: 2%
+                                   Wield War Hammer (359) | Probability: 2%
+                                   Wield 5x Javelin (320) | Probability: 3%
+                                   Wield 5x Djarid (317) | Probability: 3%
+                                   Wield 4x Throwing Club (310) | Probability: 3%
+                                   Wield 6x Throwing Axe (304) | Probability: 3% */
+     , (11523,  35,        451) /* DeathTreasureType - Loot Tier: 2 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (11523,   1, 150, 0, 0) /* Strength */
@@ -114,9 +126,9 @@ VALUES (11523,  94) /* ATTACK_NOTIFICATION_EVENT */
      , (11523, 414) /* PLAYER_DEATH_EVENT */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (11523, 9,     0,  0, 0, 0.97, False) /* Create Unknown for ContainTreasure */
-     , (11523, 9,     0,  0, 0, 0.97, False) /* Create Unknown for ContainTreasure */
-     , (11523, 9,     0,  0, 0, 0.97, False) /* Create Unknown for ContainTreasure */
-     , (11523, 9, 11454,  0, 0, 0.03, False) /* Create Totem of Audetaunga for ContainTreasure */
-     , (11523, 9, 11455,  0, 0, 0.03, False) /* Create Totem of Tanae for ContainTreasure */
-     , (11523, 9, 11456,  0, 0, 0.03, False) /* Create Totem of Volkama for ContainTreasure */;
+VALUES (11523, 9,     0,  0, 0, 0.97, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 2 for ContainTreasure */
+     , (11523, 9,     0,  0, 0, 0.97, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 2 for ContainTreasure */
+     , (11523, 9,     0,  0, 0, 0.97, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 2 for ContainTreasure */
+     , (11523, 9, 11454,  0, 0, 0.03, False) /* Create Totem of Audetaunga (11454) for ContainTreasure */
+     , (11523, 9, 11455,  0, 0, 0.03, False) /* Create Totem of Tanae (11455) for ContainTreasure */
+     , (11523, 9, 11456,  0, 0, 0.03, False) /* Create Totem of Volkama (11456) for ContainTreasure */;

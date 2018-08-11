@@ -4,7 +4,7 @@ VALUES ('2554', 'portalcraterpathtop', 7) /* Portal */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (2554,   1,      65536) /* ItemType - Portal */
      , (2554,  16,         32) /* ItemUseable - Remote */
-     , (2554,  93,       3084) /* PhysicsState */
+     , (2554,  93,       3084) /* PhysicsState - Ethereal, ReportCollisions, Gravity, LightingOn */
      , (2554, 111,          1) /* PortalBitmask - Unrestricted */
      , (2554, 133,          4) /* ShowableOnRadar - ShowAlways */;
 

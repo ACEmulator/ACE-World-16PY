@@ -14,8 +14,8 @@ VALUES (12228,   1,         16) /* ItemType - Creature */
      , (12228,  68,          3) /* TargetingTactic */
      , (12228,  81,          2) /* MaxGeneratedObjects */
      , (12228,  82,          4) /* InitGeneratedObjects */
-     , (12228,  93,       1032) /* PhysicsState */
-     , (12228, 101,        183) /* AiAllowedCombatStyle */
+     , (12228,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
+     , (12228, 101,        183) /* AiAllowedCombatStyle - Unarmed, OneHanded, OneHandedAndShield, Bow, Crossbow, ThrownWeapon */
      , (12228, 103,          1) /* GeneratorDestructionType - Nothing */
      , (12228, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (12228, 140,          1) /* AiOptions */
@@ -80,8 +80,22 @@ VALUES (12228,   1,   33554433) /* Setup */
      , (12228,   7,  268435632) /* ClothingBase */
      , (12228,   8,  100670397) /* Icon */
      , (12228,  22,  872415331) /* PhysicsEffectTable */
-     , (12228,  32,        178) /* WieldedTreasureType */
-     , (12228,  35,        183) /* DeathTreasureType */;
+     , (12228,  32,        178) /* WieldedTreasureType - 
+                                   Wield Yumi (23734) | Probability: 20%
+                                   Wield 14x Deadly Fire Arrow (15435) | Probability: 100%
+                                   Wield Yumi (23734) | Probability: 20%
+                                   Wield 14x Deadly Arrow (15429) | Probability: 100%
+                                   Wield Katar (23674) | Probability: 10%
+                                   Wield Kite Shield (23684) | Probability: 100%
+                                   Wield Nekode (23680) | Probability: 10%
+                                   Wield Kite Shield (23684) | Probability: 100%
+                                   Wield Cestus (23637) | Probability: 10%
+                                   Wield Kite Shield (23684) | Probability: 100%
+                                   Wield Tachi (23700) | Probability: 35%
+                                   Wield Kite Shield (23684) | Probability: 100%
+                                   Wield Fire Tachi (23707) | Probability: 35%
+                                   Wield Kite Shield (23684) | Probability: 100% */
+     , (12228,  35,        183) /* DeathTreasureType - Loot Tier: 5 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (12228,   1, 200, 0, 0) /* Strength */
@@ -164,14 +178,14 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,  17 /* LocalBroadcast */, 0, 0, NULL, 'The sun seems to dim, and you can see your own breath for an instant.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (12228, 9,     0,  0, 0, 0.92, False) /* Create Unknown for ContainTreasure */
-     , (12228, 9,     0,  0, 0, 0.98, False) /* Create Unknown for ContainTreasure */
-     , (12228, 9,     0,  0, 0, 0.98, False) /* Create Unknown for ContainTreasure */
-     , (12228, 9,  6058,  0, 0, 0.02, False) /* Create Dark Shard for ContainTreasure */
-     , (12228, 9,  6876,  0, 0, 0.02, False) /* Create Sturdy Iron Key for ContainTreasure */
-     , (12228, 9, 12255,  0, 0, 0.08, False) /* Create Mummified Piece of Skin for ContainTreasure */;
+VALUES (12228, 9,     0,  0, 0, 0.92, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 5 for ContainTreasure */
+     , (12228, 9,     0,  0, 0, 0.98, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 5 for ContainTreasure */
+     , (12228, 9,     0,  0, 0, 0.98, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 5 for ContainTreasure */
+     , (12228, 9,  6058,  0, 0, 0.02, False) /* Create Dark Shard (6058) for ContainTreasure */
+     , (12228, 9,  6876,  0, 0, 0.02, False) /* Create Sturdy Iron Key (6876) for ContainTreasure */
+     , (12228, 9, 12255,  0, 0, 0.08, False) /* Create Mummified Piece of Skin (12255) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (12228, 0.33, 4254, 20, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0)
-     , (12228, 0.66, 4254, 20, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0)
-     , (12228, 1, 4253, 20, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0);
+VALUES (12228, 0.33, 4254, 20, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Umbris Shadow (4254) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Scatter */
+     , (12228, 0.66, 4254, 20, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Umbris Shadow (4254) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Scatter */
+     , (12228, 1, 4253, 20, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Panumbris Shadow (4253) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Scatter */;

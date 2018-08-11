@@ -10,7 +10,7 @@ VALUES (21135,   1,         16) /* ItemType - Creature */
      , (21135,  16,         32) /* ItemUseable - Remote */
      , (21135,  25,        126) /* Level */
      , (21135,  27,          0) /* ArmorType */
-     , (21135,  93,    6292504) /* PhysicsState */
+     , (21135,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (21135,  95,          8) /* RadarBlipColor - Yellow */
      , (21135, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (21135, 134,         16) /* PlayerKillerStatus - RubberGlue */
@@ -194,6 +194,6 @@ VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 1090519043 /* Ready */, NULL, NU
      , (@parent_id,  4,   8 /* Say */, 0, 0, NULL, 'I don''t know. I think if we succeed at driving Gaerlan away, and destroying whatever this thing is we should change our focus to learning instead of simply doing.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (21135, 2,   127,  0, 2, 0, False) /* Create Pants for Wield */
-     , (21135, 2,   130,  0, 2, 1, False) /* Create Shirt for Wield */
-     , (21135, 2,  2606,  0, 2, 0.8, False) /* Create Boots for Wield */;
+VALUES (21135, 2,   127,  0, 2, 0, False) /* Create Pants (127) for Wield */
+     , (21135, 2,   130,  0, 2, 1, False) /* Create Shirt (130) for Wield */
+     , (21135, 2,  2606,  0, 2, 0.8, False) /* Create Boots (2606) for Wield */;

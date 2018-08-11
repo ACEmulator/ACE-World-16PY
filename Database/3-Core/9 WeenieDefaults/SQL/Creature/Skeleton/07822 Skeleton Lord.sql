@@ -11,8 +11,8 @@ VALUES (7822,   1,         16) /* ItemType - Creature */
      , (7822,  27,          0) /* ArmorType */
      , (7822,  40,          1) /* CombatMode - NonCombat */
      , (7822,  68,          5) /* TargetingTactic */
-     , (7822,  93,       1032) /* PhysicsState */
-     , (7822, 101,        183) /* AiAllowedCombatStyle */
+     , (7822,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
+     , (7822, 101,        183) /* AiAllowedCombatStyle - Unarmed, OneHanded, OneHandedAndShield, Bow, Crossbow, ThrownWeapon */
      , (7822, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (7822, 140,          1) /* AiOptions */
      , (7822, 146,       4292) /* XpOverride */;
@@ -64,8 +64,23 @@ VALUES (7822,   1,   33555464) /* Setup */
      , (7822,   4,  805306368) /* CombatTable */
      , (7822,   8,  100669124) /* Icon */
      , (7822,  22,  872415269) /* PhysicsEffectTable */
-     , (7822,  32,        466) /* WieldedTreasureType */
-     , (7822,  35,        451) /* DeathTreasureType */;
+     , (7822,  32,        466) /* WieldedTreasureType - 
+                                   Wield Broad Sword (350) | Probability: 8%
+                                   Wield Long Sword (351) | Probability: 8%
+                                   Wield Ken (327) | Probability: 8%
+                                   Wield Scimitar (339) | Probability: 8%
+                                   Wield Tachi (353) | Probability: 8%
+                                   Wield Takuba (354) | Probability: 8%
+                                   Wield Kaskara (324) | Probability: 8%
+                                   Wield Shamshir (340) | Probability: 8%
+                                   Wield Battle Axe (301) | Probability: 8%
+                                   Wield Silifi (344) | Probability: 8%
+                                   Wield Ono (336) | Probability: 8%
+                                   Wield Morning Star (332) | Probability: 8%
+                                   Wield Large Kite Shield (92) | Probability: 30%
+                                   Wield Large Round Shield (94) | Probability: 30%
+                                   Wield Kite Shield (91) | Probability: 20% */
+     , (7822,  35,        451) /* DeathTreasureType - Loot Tier: 2 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (7822,   1, 135, 0, 0) /* Strength */
@@ -120,9 +135,9 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 1090519060 /* Sleeping */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (7822, 9,     0,  0, 0, 0.9, False) /* Create Unknown for ContainTreasure */
-     , (7822, 9,     0,  0, 0, 0.95, False) /* Create Unknown for ContainTreasure */
-     , (7822, 9,     0,  0, 0, 0.99, False) /* Create Unknown for ContainTreasure */
-     , (7822, 9,  3687,  0, 0, 0.1, False) /* Create Skeleton's Skull for ContainTreasure */
-     , (7822, 9,  9312,  0, 0, 0.05, False) /* Create A Small Mnemosyne for ContainTreasure */
-     , (7822, 9, 22100,  0, 0, 0.01, False) /* Create Skull Stamp for ContainTreasure */;
+VALUES (7822, 9,     0,  0, 0, 0.9, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 2 for ContainTreasure */
+     , (7822, 9,     0,  0, 0, 0.95, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 2 for ContainTreasure */
+     , (7822, 9,     0,  0, 0, 0.99, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 2 for ContainTreasure */
+     , (7822, 9,  3687,  0, 0, 0.1, False) /* Create Skeleton's Skull (3687) for ContainTreasure */
+     , (7822, 9,  9312,  0, 0, 0.05, False) /* Create A Small Mnemosyne (9312) for ContainTreasure */
+     , (7822, 9, 22100,  0, 0, 0.01, False) /* Create Skull Stamp (22100) for ContainTreasure */;

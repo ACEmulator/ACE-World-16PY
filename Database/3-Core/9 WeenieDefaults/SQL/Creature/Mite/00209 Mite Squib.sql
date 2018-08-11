@@ -12,8 +12,8 @@ VALUES (209,   1,         16) /* ItemType - Creature */
      , (209,  27,          0) /* ArmorType */
      , (209,  40,          2) /* CombatMode - Melee */
      , (209,  68,          5) /* TargetingTactic */
-     , (209,  93,       1032) /* PhysicsState */
-     , (209, 101,        129) /* AiAllowedCombatStyle */
+     , (209,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
+     , (209, 101,        129) /* AiAllowedCombatStyle - Unarmed, ThrownWeapon */
      , (209, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (209, 146,        895) /* XpOverride */;
 
@@ -68,7 +68,7 @@ VALUES (209,   1,   33558656) /* Setup */
      , (209,   7,  268436816) /* ClothingBase */
      , (209,   8,  100667448) /* Icon */
      , (209,  22,  872415263) /* PhysicsEffectTable */
-     , (209,  35,        459) /* DeathTreasureType */;
+     , (209,  35,        459) /* DeathTreasureType - Loot Tier: 1 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (209,   1,  80, 0, 0) /* Strength */

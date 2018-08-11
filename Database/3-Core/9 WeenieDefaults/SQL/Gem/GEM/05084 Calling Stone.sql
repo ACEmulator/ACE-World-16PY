@@ -14,7 +14,7 @@ VALUES (5084,   1,       2048) /* ItemType - Gem */
      , (5084,  15,          5) /* StackUnitValue */
      , (5084,  16,          1) /* ItemUseable - No */
      , (5084,  19,          5) /* Value */
-     , (5084,  93,       1044) /* PhysicsState */
+     , (5084,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (5084, 150,        103) /* HookPlacement - Hook */
      , (5084, 151,          2) /* HookType - Wall */;
 

@@ -12,8 +12,8 @@ VALUES (27429,   1,         16) /* ItemType - Creature */
      , (27429,  25,        155) /* Level */
      , (27429,  27,          0) /* ArmorType */
      , (27429,  68,          3) /* TargetingTactic */
-     , (27429,  93,    4195336) /* PhysicsState */
-     , (27429, 101,        183) /* AiAllowedCombatStyle */
+     , (27429,  93,    4195336) /* PhysicsState - ReportCollisions, Gravity, EdgeSlide */
+     , (27429, 101,        183) /* AiAllowedCombatStyle - Unarmed, OneHanded, OneHandedAndShield, Bow, Crossbow, ThrownWeapon */
      , (27429, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (27429, 140,          1) /* AiOptions */
      , (27429, 146,     200000) /* XpOverride */;
@@ -76,7 +76,7 @@ VALUES (27429,   1,   33556251) /* Setup */
      , (27429,   7,  268435871) /* ClothingBase */
      , (27429,   8,  100670398) /* Icon */
      , (27429,  22,  872415331) /* PhysicsEffectTable */
-     , (27429,  35,        461) /* DeathTreasureType */;
+     , (27429,  35,        461) /* DeathTreasureType - Loot Tier: 6 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (27429,   1, 320, 0, 0) /* Strength */
@@ -151,14 +151,14 @@ VALUES (27429,  94) /* ATTACK_NOTIFICATION_EVENT */
      , (27429, 414) /* PLAYER_DEATH_EVENT */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (27429, 9,     0,  0, 0, 0.95, False) /* Create Unknown for ContainTreasure */
-     , (27429, 9,     0,  0, 0, 0.95, False) /* Create Unknown for ContainTreasure */
-     , (27429, 9,     0,  0, 0, 0.99, False) /* Create Unknown for ContainTreasure */
-     , (27429, 9,  6058,  0, 0, 0.05, False) /* Create Dark Shard for ContainTreasure */
-     , (27429, 9,  6876,  0, 0, 0.05, False) /* Create Sturdy Iron Key for ContainTreasure */
-     , (27429, 9, 23108,  0, 0, 0.01, False) /* Create Twisted Dark Key for ContainTreasure */
-     , (27429, 9, 27445,  0, 0, 1, False) /* Create Shadow Stone Necklace for ContainTreasure */
-     , (27429, 9, 27445,  0, 0, 1, False) /* Create Shadow Stone Necklace for ContainTreasure */
-     , (27429, 9, 27445,  0, 0, 1, False) /* Create Shadow Stone Necklace for ContainTreasure */
-     , (27429, 9, 27445,  0, 0, 1, False) /* Create Shadow Stone Necklace for ContainTreasure */
-     , (27429, 9, 27445,  0, 0, 1, False) /* Create Shadow Stone Necklace for ContainTreasure */;
+VALUES (27429, 9,     0,  0, 0, 0.95, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 6 for ContainTreasure */
+     , (27429, 9,     0,  0, 0, 0.95, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 6 for ContainTreasure */
+     , (27429, 9,     0,  0, 0, 0.99, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 6 for ContainTreasure */
+     , (27429, 9,  6058,  0, 0, 0.05, False) /* Create Dark Shard (6058) for ContainTreasure */
+     , (27429, 9,  6876,  0, 0, 0.05, False) /* Create Sturdy Iron Key (6876) for ContainTreasure */
+     , (27429, 9, 23108,  0, 0, 0.01, False) /* Create Twisted Dark Key (23108) for ContainTreasure */
+     , (27429, 9, 27445,  0, 0, 1, False) /* Create Shadow Stone Necklace (27445) for ContainTreasure */
+     , (27429, 9, 27445,  0, 0, 1, False) /* Create Shadow Stone Necklace (27445) for ContainTreasure */
+     , (27429, 9, 27445,  0, 0, 1, False) /* Create Shadow Stone Necklace (27445) for ContainTreasure */
+     , (27429, 9, 27445,  0, 0, 1, False) /* Create Shadow Stone Necklace (27445) for ContainTreasure */
+     , (27429, 9, 27445,  0, 0, 1, False) /* Create Shadow Stone Necklace (27445) for ContainTreasure */;

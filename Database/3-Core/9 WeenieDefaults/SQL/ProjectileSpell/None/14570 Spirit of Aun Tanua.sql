@@ -6,7 +6,7 @@ VALUES (14570,   3,         14) /* PaletteTemplate - Red */
      , (14570,   8,         25) /* Mass */
      , (14570,   9,          0) /* ValidLocations - None */
      , (14570,  66,          0) /* CheckpointStatus */
-     , (14570,  93,     133140) /* PhysicsState */;
+     , (14570,  93,     133140) /* PhysicsState - Ethereal, IgnoreCollisions, LightingOn, Inelastic */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (14570,   1, True ) /* Stuck */

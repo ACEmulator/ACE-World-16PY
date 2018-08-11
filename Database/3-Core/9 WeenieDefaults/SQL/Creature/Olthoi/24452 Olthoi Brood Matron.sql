@@ -14,7 +14,7 @@ VALUES (24452,   1,         16) /* ItemType - Creature */
      , (24452,  40,          2) /* CombatMode - Melee */
      , (24452,  68,         13) /* TargetingTactic */
      , (24452,  72,         35) /* FriendType - OlthoiLarvae */
-     , (24452,  93,       1032) /* PhysicsState */
+     , (24452,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (24452, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (24452, 140,          1) /* AiOptions */
      , (24452, 146,      39881) /* XpOverride */;
@@ -72,7 +72,7 @@ VALUES (24452,   1,   33557165) /* Setup */
      , (24452,   8,  100667623) /* Icon */
      , (24452,  22,  872415379) /* PhysicsEffectTable */
      , (24452,  30,         85) /* PhysicsScript - BreatheFrost */
-     , (24452,  35,        146) /* DeathTreasureType */;
+     , (24452,  35,        146) /* DeathTreasureType - Loot Tier: 5 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (24452,   1, 380, 0, 0) /* Strength */
@@ -126,5 +126,5 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 268435537 /* Twitch1 */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (24452, 9,     0,  0, 0, 0, False) /* Create Unknown for ContainTreasure */
-     , (24452, 9, 24357,  0, 0, 1, False) /* Create Brood Matron Pincer for ContainTreasure */;
+VALUES (24452, 9,     0,  0, 0, 0, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 5 for ContainTreasure */
+     , (24452, 9, 24357,  0, 0, 1, False) /* Create Brood Matron Pincer (24357) for ContainTreasure */;

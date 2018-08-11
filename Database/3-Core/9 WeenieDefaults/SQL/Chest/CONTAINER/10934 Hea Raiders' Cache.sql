@@ -16,7 +16,7 @@ VALUES (10934,   1,        512) /* ItemType - Container */
      , (10934,  81,          8) /* MaxGeneratedObjects */
      , (10934,  82,          8) /* InitGeneratedObjects */
      , (10934,  83,       4096) /* ActivationResponse - CastSpell */
-     , (10934,  93,       1048) /* PhysicsState */
+     , (10934,  93,       1048) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity */
      , (10934,  96,        500) /* EncumbranceCapacity */
      , (10934, 100,          1) /* GeneratorType - Relative */
      , (10934, 106,        600) /* ItemSpellcraft */
@@ -57,11 +57,11 @@ VALUES (10934,   1,   33557001) /* Setup */
      , (10934,  28,       2636) /* Spell - Karenua's Curse */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (10934, -1, 10959, 0, 1, 1, 2, 8, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0)
-     , (10934, -1, 10959, 0, 1, 1, 2, 8, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0)
-     , (10934, -1, 10959, 0, 1, 1, 2, 8, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0)
-     , (10934, -1, 10959, 0, 1, 1, 2, 8, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0)
-     , (10934, -1, 10974, 0, 1, 1, 2, 8, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0)
-     , (10934, -1, 10974, 0, 1, 1, 2, 8, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0)
-     , (10934, -1, 10974, 0, 1, 1, 2, 8, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0)
-     , (10934, -1, 365, 0, 1, 1, 2, 72, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0);
+VALUES (10934, -1, 10959, 0, 1, 1, 2, 8, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Pepper Jack Cheese (10959) (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: Contain */
+     , (10934, -1, 10959, 0, 1, 1, 2, 8, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Pepper Jack Cheese (10959) (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: Contain */
+     , (10934, -1, 10959, 0, 1, 1, 2, 8, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Pepper Jack Cheese (10959) (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: Contain */
+     , (10934, -1, 10959, 0, 1, 1, 2, 8, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Pepper Jack Cheese (10959) (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: Contain */
+     , (10934, -1, 10974, 0, 1, 1, 2, 8, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Ahruenga Portal Gem (10974) (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: Contain */
+     , (10934, -1, 10974, 0, 1, 1, 2, 8, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Ahruenga Portal Gem (10974) (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: Contain */
+     , (10934, -1, 10974, 0, 1, 1, 2, 8, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Ahruenga Portal Gem (10974) (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: Contain */
+     , (10934, -1, 365, 0, 1, 1, 2, 72, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate RANDOMLY GENERATED TREASURE from Loot Tier 3 (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: ContainTreasure */;

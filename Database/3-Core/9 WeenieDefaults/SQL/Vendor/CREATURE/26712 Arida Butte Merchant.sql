@@ -10,10 +10,10 @@ VALUES (26712,   1,         16) /* ItemType - Creature */
      , (26712,  16,         32) /* ItemUseable - Remote */
      , (26712,  25,         10) /* Level */
      , (26712,  27,          0) /* ArmorType */
-     , (26712,  74,     264192) /* MerchandiseItemTypes */
+     , (26712,  74,     264192) /* MerchandiseItemTypes - Gem, PromissoryNote */
      , (26712,  75,          0) /* MerchandiseMinValue */
      , (26712,  76,    1000000) /* MerchandiseMaxValue */
-     , (26712,  93,    2098204) /* PhysicsState */
+     , (26712,  93,    2098204) /* PhysicsState - Ethereal, ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */
      , (26712, 126,        125) /* VendorHappyMean */
      , (26712, 127,        125) /* VendorHappyVariance */
      , (26712, 133,          4) /* ShowableOnRadar - ShowAlways */
@@ -97,4 +97,4 @@ VALUES (26712,  0,  4,  0,    0,    0,    0,    0,    0,    0,    0,    0,    0,
      , (26712,  8,  4,  2, 0.75,    0,    0,    0,    0,    0,    0,    0,    0,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (26712, 4, 26077, -1, 0, 0, False) /* Create Arida Butte Portal Gem for Shop */;
+VALUES (26712, 4, 26077, -1, 0, 0, False) /* Create Arida Butte Portal Gem (26077) for Shop */;

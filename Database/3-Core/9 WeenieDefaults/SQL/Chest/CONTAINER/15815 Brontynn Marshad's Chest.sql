@@ -14,7 +14,7 @@ VALUES (15815,   1,        512) /* ItemType - Container */
      , (15815,  81,          2) /* MaxGeneratedObjects */
      , (15815,  82,          2) /* InitGeneratedObjects */
      , (15815,  83,          2) /* ActivationResponse - Use */
-     , (15815,  93,       1048) /* PhysicsState */
+     , (15815,  93,       1048) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity */
      , (15815,  96,        500) /* EncumbranceCapacity */
      , (15815, 100,          1) /* GeneratorType - Relative */;
 
@@ -49,5 +49,5 @@ VALUES (15815,   1,   33554556) /* Setup */
      , (15815,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (15815, -1, 15799, 30, 1, 1, 2, 8, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0)
-     , (15815, -1, 15807, 30, 1, 1, 2, 8, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0);
+VALUES (15815, -1, 15799, 30, 1, 1, 2, 8, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate A Letter of Grief (15799) (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: Contain */
+     , (15815, -1, 15807, 30, 1, 1, 2, 8, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate A tightly scrawled Note (15807) (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: Contain */;

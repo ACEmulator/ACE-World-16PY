@@ -18,7 +18,7 @@ VALUES (30625,   1,        256) /* ItemType - MissileWeapon */
      , (30625,  52,          2) /* ParentLocation */
      , (30625,  53,          3) /* PlacementPosition */
      , (30625,  60,        175) /* WeaponRange */
-     , (30625,  93,       1044) /* PhysicsState */
+     , (30625,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (30625, 150,        103) /* HookPlacement - Hook */
      , (30625, 151,          2) /* HookType - Wall */
      , (30625, 169,  101188618) /* TsysMutationData */;

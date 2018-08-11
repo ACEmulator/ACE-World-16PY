@@ -13,7 +13,7 @@ VALUES (25850,   1,         16) /* ItemType - Creature */
      , (25850,  40,          2) /* CombatMode - Melee */
      , (25850,  68,          5) /* TargetingTactic */
      , (25850,  72,         55) /* FriendType - Carenzi */
-     , (25850,  93,       1032) /* PhysicsState */
+     , (25850,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (25850, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (25850, 146,      99583) /* XpOverride */;
 
@@ -68,7 +68,7 @@ VALUES (25850,   1,   33558553) /* Setup */
      , (25850,   7,  268436732) /* ClothingBase */
      , (25850,   8,  100671754) /* Icon */
      , (25850,  22,  872415377) /* PhysicsEffectTable */
-     , (25850,  35,        458) /* DeathTreasureType */;
+     , (25850,  35,        458) /* DeathTreasureType - Loot Tier: 5 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (25850,   1, 460, 0, 0) /* Strength */
@@ -119,5 +119,5 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 268435537 /* Twitch1 */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (25850, 9,     0,  0, 0, 0.99, False) /* Create Unknown for ContainTreasure */
-     , (25850, 9, 30823,  0, 0, 0.01, False) /* Create Broken Black Marrow Key for ContainTreasure */;
+VALUES (25850, 9,     0,  0, 0, 0.99, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 5 for ContainTreasure */
+     , (25850, 9, 30823,  0, 0, 0.01, False) /* Create Broken Black Marrow Key (30823) for ContainTreasure */;

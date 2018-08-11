@@ -10,10 +10,10 @@ VALUES (7882,   1,         16) /* ItemType - Creature */
      , (7882,  16,         32) /* ItemUseable - Remote */
      , (7882,  25,         21) /* Level */
      , (7882,  27,          0) /* ArmorType */
-     , (7882,  74,    4456480) /* MerchandiseItemTypes */
+     , (7882,  74,    4456480) /* MerchandiseItemTypes - Food, PromissoryNote, CraftCookingBase */
      , (7882,  75,          0) /* MerchandiseMinValue */
      , (7882,  76,     100000) /* MerchandiseMaxValue */
-     , (7882,  93,    2098200) /* PhysicsState */
+     , (7882,  93,    2098200) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */
      , (7882, 126,        500) /* VendorHappyMean */
      , (7882, 127,        500) /* VendorHappyVariance */
      , (7882, 133,          4) /* ShowableOnRadar - ShowAlways */
@@ -162,6 +162,6 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 318767235 /* Nod */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (7882, 4,  1449, -1, 0, 0, False) /* Create Royal Cabbage for Shop */
-     , (7882, 4,  5758, -1, 0, 0, False) /* Create Carrot for Shop */
-     , (7882, 2,  5914,  0, 0, 0.5, False) /* Create Suikan Item Master Robe for Wield */;
+VALUES (7882, 4,  1449, -1, 0, 0, False) /* Create Royal Cabbage (1449) for Shop */
+     , (7882, 4,  5758, -1, 0, 0, False) /* Create Carrot (5758) for Shop */
+     , (7882, 2,  5914,  0, 0, 0.5, False) /* Create Suikan Item Master Robe (5914) for Wield */;

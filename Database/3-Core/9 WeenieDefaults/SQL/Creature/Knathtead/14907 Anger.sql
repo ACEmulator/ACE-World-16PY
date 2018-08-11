@@ -11,7 +11,7 @@ VALUES (14907,   1,         16) /* ItemType - Creature */
      , (14907,  27,          0) /* ArmorType */
      , (14907,  40,          1) /* CombatMode - NonCombat */
      , (14907,  68,          5) /* TargetingTactic */
-     , (14907,  93,       1032) /* PhysicsState */
+     , (14907,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (14907, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (14907, 146,          0) /* XpOverride */;
 
@@ -66,7 +66,7 @@ VALUES (14907,   1,   33557624) /* Setup */
      , (14907,   4,  805306394) /* CombatTable */
      , (14907,   8,  100672735) /* Icon */
      , (14907,  22,  872415261) /* PhysicsEffectTable */
-     , (14907,  35,         96) /* DeathTreasureType */;
+     , (14907,  35,         96) /* DeathTreasureType - Loot Tier: 2 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (14907,   1,  35, 0, 0) /* Strength */
@@ -128,4 +128,4 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 268435537 /* Twitch1 */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (14907, 1, 14902,  1, 0, 0, False) /* Create Symbol of Love for Contain */;
+VALUES (14907, 1, 14902,  1, 0, 0, False) /* Create Symbol of Love (14902) for Contain */;

@@ -10,10 +10,10 @@ VALUES (27025,   1,         16) /* ItemType - Creature */
      , (27025,  16,         32) /* ItemUseable - Remote */
      , (27025,  25,         10) /* Level */
      , (27025,  27,          0) /* ArmorType */
-     , (27025,  74,     264192) /* MerchandiseItemTypes */
+     , (27025,  74,     264192) /* MerchandiseItemTypes - Gem, PromissoryNote */
      , (27025,  75,          0) /* MerchandiseMinValue */
      , (27025,  76,    1000000) /* MerchandiseMaxValue */
-     , (27025,  93,    2098204) /* PhysicsState */
+     , (27025,  93,    2098204) /* PhysicsState - Ethereal, ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */
      , (27025, 126,        125) /* VendorHappyMean */
      , (27025, 127,        125) /* VendorHappyVariance */
      , (27025, 133,          4) /* ShowableOnRadar - ShowAlways */
@@ -97,4 +97,4 @@ VALUES (27025,  0,  4,  0,    0,    0,    0,    0,    0,    0,    0,    0,    0,
      , (27025,  8,  4,  2, 0.75,    0,    0,    0,    0,    0,    0,    0,    0,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (27025, 4, 26390, -1, 0, 0, False) /* Create Stone Hollow Portal Gem for Shop */;
+VALUES (27025, 4, 26390, -1, 0, 0, False) /* Create Stone Hollow Portal Gem (26390) for Shop */;

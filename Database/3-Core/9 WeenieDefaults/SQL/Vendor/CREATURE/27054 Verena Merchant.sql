@@ -10,10 +10,10 @@ VALUES (27054,   1,         16) /* ItemType - Creature */
      , (27054,  16,         32) /* ItemUseable - Remote */
      , (27054,  25,         10) /* Level */
      , (27054,  27,          0) /* ArmorType */
-     , (27054,  74,     264192) /* MerchandiseItemTypes */
+     , (27054,  74,     264192) /* MerchandiseItemTypes - Gem, PromissoryNote */
      , (27054,  75,          0) /* MerchandiseMinValue */
      , (27054,  76,    1000000) /* MerchandiseMaxValue */
-     , (27054,  93,    2098204) /* PhysicsState */
+     , (27054,  93,    2098204) /* PhysicsState - Ethereal, ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */
      , (27054, 126,        125) /* VendorHappyMean */
      , (27054, 127,        125) /* VendorHappyVariance */
      , (27054, 133,          4) /* ShowableOnRadar - ShowAlways */
@@ -97,4 +97,4 @@ VALUES (27054,  0,  4,  0,    0,    0,    0,    0,    0,    0,    0,    0,    0,
      , (27054,  8,  4,  2, 0.75,    0,    0,    0,    0,    0,    0,    0,    0,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (27054, 4, 26419, -1, 0, 0, False) /* Create Verena Portal Gem for Shop */;
+VALUES (27054, 4, 26419, -1, 0, 0, False) /* Create Verena Portal Gem (26419) for Shop */;

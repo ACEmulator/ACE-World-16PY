@@ -10,7 +10,7 @@ VALUES (9228,   1,         16) /* ItemType - Creature */
      , (9228,  16,         32) /* ItemUseable - Remote */
      , (9228,  25,         45) /* Level */
      , (9228,  27,          0) /* ArmorType */
-     , (9228,  93,    6292504) /* PhysicsState */
+     , (9228,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (9228,  95,          8) /* RadarBlipColor - Yellow */
      , (9228, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (9228, 134,         16) /* PlayerKillerStatus - RubberGlue */
@@ -204,8 +204,8 @@ VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 1090519043 /* Ready */, NULL, NU
      , (@parent_id,  3,  10 /* Tell */, 1, 1, NULL, 'There are healing kits even more potent than the ones dropped mainly by Lugians.  The Zharalim have recently uncovered lore that enables them to treat these kits in order to make them more potent.  If you trade me a mnemosyne fragment, I will reward you in turn, depending on the quality of the fragment.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (9228, 2,   134,  0, 9, 0, False) /* Create Tunic for Wield */
-     , (9228, 2,  2601,  0, 2, 0.6, False) /* Create Pants for Wield */
-     , (9228, 2,  2606,  0, 9, 1, False) /* Create Boots for Wield */
-     , (9228, 2,  8030,  0, 0, 0, False) /* Create Shendolain Crystal Shield for Wield */
-     , (9228, 2,  8526,  0, 0, 0, False) /* Create Staff of the Nomads for Wield */;
+VALUES (9228, 2,   134,  0, 9, 0, False) /* Create Tunic (134) for Wield */
+     , (9228, 2,  2601,  0, 2, 0.6, False) /* Create Pants (2601) for Wield */
+     , (9228, 2,  2606,  0, 9, 1, False) /* Create Boots (2606) for Wield */
+     , (9228, 2,  8030,  0, 0, 0, False) /* Create Shendolain Crystal Shield (8030) for Wield */
+     , (9228, 2,  8526,  0, 0, 0, False) /* Create Staff of the Nomads (8526) for Wield */;

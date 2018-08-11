@@ -18,7 +18,7 @@ VALUES (23018,   1,          1) /* ItemType - MeleeWeapon */
      , (23018,  48,          1) /* WeaponSkill - Axe */
      , (23018,  49,         70) /* WeaponTime */
      , (23018,  51,          1) /* CombatUse - Melee */
-     , (23018,  93,       1044) /* PhysicsState */
+     , (23018,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (23018, 106,        170) /* ItemSpellcraft */
      , (23018, 107,        900) /* ItemCurMana */
      , (23018, 108,        900) /* ItemMaxMana */

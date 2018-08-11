@@ -4,7 +4,7 @@ VALUES ('29099', 'portalsteaminghovel', 7) /* Portal */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (29099,   1,      65536) /* ItemType - Portal */
      , (29099,  16,         32) /* ItemUseable - Remote */
-     , (29099,  93,       3084) /* PhysicsState */
+     , (29099,  93,       3084) /* PhysicsState - Ethereal, ReportCollisions, Gravity, LightingOn */
      , (29099, 111,          1) /* PortalBitmask - Unrestricted */
      , (29099, 133,          4) /* ShowableOnRadar - ShowAlways */;
 

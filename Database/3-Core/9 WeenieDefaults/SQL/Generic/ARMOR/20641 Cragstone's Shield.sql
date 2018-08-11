@@ -14,7 +14,7 @@ VALUES (20641,   1,          2) /* ItemType - Armor */
      , (20641,  33,         -2) /* Bonded - Destroy */
      , (20641,  37,       9999) /* ResistItemAppraisal */
      , (20641,  51,          4) /* CombatUse - Shield */
-     , (20641,  93,       1044) /* PhysicsState */
+     , (20641,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (20641, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)

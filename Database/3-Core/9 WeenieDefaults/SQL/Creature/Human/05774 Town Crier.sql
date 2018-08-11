@@ -10,7 +10,7 @@ VALUES (5774,   1,         16) /* ItemType - Creature */
      , (5774,  16,         32) /* ItemUseable - Remote */
      , (5774,  25,         17) /* Level */
      , (5774,  27,          0) /* ArmorType */
-     , (5774,  93,    6292504) /* PhysicsState */
+     , (5774,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (5774,  95,          8) /* RadarBlipColor - Yellow */
      , (5774, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (5774, 134,         16) /* PlayerKillerStatus - RubberGlue */
@@ -383,8 +383,8 @@ VALUES (@parent_id,  0,  12 /* TurnToTarget */, 0, 1, NULL, NULL, NULL, NULL, NU
      , (@parent_id,  2,  10 /* Tell */, 1, 1, NULL, 'So I''m sure you''ve noticed that I haven''t left this spot in nearly four years. Yeah it''s a tough life, standing here all day. Sure... sometimes people are nice enough to give me Shackles of Obedience. But I was wondering...Need a patron?', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (5774, 2,   121,  0, 92, 0.8, False) /* Create Gloves for Wield */
-     , (5774, 2,  2594,  0, 9, 1, False) /* Create Tunic for Wield */
-     , (5774, 2,  2600,  0, 9, 0.5, False) /* Create Pantaloons for Wield */
-     , (5774, 2,  5852,  0, 2, 0.5, False) /* Create Dho Vest and Robe for Wield */
-     , (5774, 2,  5894,  0, 12, 0.5, False) /* Create Fez for Wield */;
+VALUES (5774, 2,   121,  0, 92, 0.8, False) /* Create Gloves (121) for Wield */
+     , (5774, 2,  2594,  0, 9, 1, False) /* Create Tunic (2594) for Wield */
+     , (5774, 2,  2600,  0, 9, 0.5, False) /* Create Pantaloons (2600) for Wield */
+     , (5774, 2,  5852,  0, 2, 0.5, False) /* Create Dho Vest and Robe (5852) for Wield */
+     , (5774, 2,  5894,  0, 12, 0.5, False) /* Create Fez (5894) for Wield */;

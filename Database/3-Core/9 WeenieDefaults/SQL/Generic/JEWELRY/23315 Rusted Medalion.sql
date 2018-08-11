@@ -10,7 +10,7 @@ VALUES (23315,   1,          8) /* ItemType - Jewelry */
      , (23315,  16,          1) /* ItemUseable - No */
      , (23315,  19,         50) /* Value */
      , (23315,  92,        100) /* Structure */
-     , (23315,  93,       1044) /* PhysicsState */
+     , (23315,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (23315, 105,          6) /* ItemWorkmanship */
      , (23315, 131,         60) /* MaterialType - Gold */;
 

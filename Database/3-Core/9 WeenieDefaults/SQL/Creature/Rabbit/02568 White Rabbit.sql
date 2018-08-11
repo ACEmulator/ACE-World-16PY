@@ -16,7 +16,7 @@ VALUES (2568,   1,         16) /* ItemType - Creature */
      , (2568,  72,         41) /* FriendType - Bunny */
      , (2568,  81,          1) /* MaxGeneratedObjects */
      , (2568,  82,          1) /* InitGeneratedObjects */
-     , (2568,  93,       1032) /* PhysicsState */
+     , (2568,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (2568, 103,          1) /* GeneratorDestructionType - Nothing */
      , (2568, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (2568, 146,    1302592) /* XpOverride */;
@@ -185,9 +185,9 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 268435537 /* Twitch1 */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (2568, 9,     0,  0, 0, 0, False) /* Create Unknown for ContainTreasure */
-     , (2568, 9,     0,  0, 0, 0.5, False) /* Create Unknown for ContainTreasure */
-     , (2568, 9,     0,  0, 0, 0.5, False) /* Create Unknown for ContainTreasure */
-     , (2568, 9,  6876,  0, 0, 1, False) /* Create Sturdy Iron Key for ContainTreasure */
-     , (2568, 1,  8400,  0, 0, 0.5, False) /* Create Orb of the Bunny Booty for Contain */
-     , (2568, 9, 12128,  0, 0, 0.5, False) /* Create White Rabbit Carcass for ContainTreasure */;
+VALUES (2568, 9,     0,  0, 0, 0, False) /* Create UNKNOWN RANDOMLY GENERATED TREASURE for ContainTreasure */
+     , (2568, 9,     0,  0, 0, 0.5, False) /* Create UNKNOWN RANDOMLY GENERATED TREASURE for ContainTreasure */
+     , (2568, 9,     0,  0, 0, 0.5, False) /* Create UNKNOWN RANDOMLY GENERATED TREASURE for ContainTreasure */
+     , (2568, 9,  6876,  0, 0, 1, False) /* Create Sturdy Iron Key (6876) for ContainTreasure */
+     , (2568, 1,  8400,  0, 0, 0.5, False) /* Create Orb of the Bunny Booty (8400) for Contain */
+     , (2568, 9, 12128,  0, 0, 0.5, False) /* Create White Rabbit Carcass (12128) for ContainTreasure */;

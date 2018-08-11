@@ -6,12 +6,12 @@ VALUES (27115,   1,      32768) /* ItemType - Caster */
      , (27115,   5,         15) /* EncumbranceVal */
      , (27115,   8,         10) /* Mass */
      , (27115,   9,   16777216) /* ValidLocations - Held */
-     , (27115,  16,     655364) /* ItemUseable */
+     , (27115,  16,     655364) /* ItemUseable - 655364 */
      , (27115,  18,          1) /* UiEffects - Magical */
      , (27115,  19,        700) /* Value */
      , (27115,  46,        512) /* DefaultCombatStyle - Magic */
-     , (27115,  93,       3092) /* PhysicsState */
-     , (27115,  94,         16) /* TargetType - Creature */
+     , (27115,  93,       3092) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, LightingOn */
+     , (27115,  94,         16) /* TargetType - Reedshark */
      , (27115, 106,        100) /* ItemSpellcraft */
      , (27115, 107,        400) /* ItemCurMana */
      , (27115, 108,        400) /* ItemMaxMana */

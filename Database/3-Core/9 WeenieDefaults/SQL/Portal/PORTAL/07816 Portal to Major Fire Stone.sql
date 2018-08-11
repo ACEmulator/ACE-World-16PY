@@ -4,8 +4,8 @@ VALUES ('7816', 'portalmajorfirestone', 7) /* Portal */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (7816,   1,      65536) /* ItemType - Portal */
      , (7816,  16,         32) /* ItemUseable - Remote */
-     , (7816,  93,       3084) /* PhysicsState */
-     , (7816, 111,         17) /* PortalBitmask */
+     , (7816,  93,       3084) /* PhysicsState - Ethereal, ReportCollisions, Gravity, LightingOn */
+     , (7816, 111,         17) /* PortalBitmask - Unrestricted, NoSummon */
      , (7816, 133,          4) /* ShowableOnRadar - ShowAlways */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)

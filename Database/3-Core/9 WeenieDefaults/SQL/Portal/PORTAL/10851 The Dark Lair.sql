@@ -4,8 +4,8 @@ VALUES ('10851', 'portalgardenernamequest-xp', 7) /* Portal */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (10851,   1,      65536) /* ItemType - Portal */
      , (10851,  16,         32) /* ItemUseable - Remote */
-     , (10851,  93,       3084) /* PhysicsState */
-     , (10851, 111,         49) /* PortalBitmask */
+     , (10851,  93,       3084) /* PhysicsState - Ethereal, ReportCollisions, Gravity, LightingOn */
+     , (10851, 111,         49) /* PortalBitmask - Unrestricted, NoSummon, NoRecall */
      , (10851, 133,          4) /* ShowableOnRadar - ShowAlways */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)

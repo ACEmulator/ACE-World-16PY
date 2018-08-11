@@ -4,7 +4,7 @@ VALUES ('8421', 'switchleaftree', 26) /* Switch */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (8421,   1,        128) /* ItemType - Misc */
      , (8421,  16,         48) /* ItemUseable - ViewedRemote */
-     , (8421,  93,         16) /* PhysicsState - IgnoreCollision */
+     , (8421,  93,         16) /* PhysicsState - IgnoreCollisions */
      , (8421, 119,          1) /* Active */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)

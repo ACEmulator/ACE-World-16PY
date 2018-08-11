@@ -15,8 +15,8 @@ VALUES (11996,   1,         16) /* ItemType - Creature */
      , (11996,  68,         13) /* TargetingTactic */
      , (11996,  81,          4) /* MaxGeneratedObjects */
      , (11996,  82,          4) /* InitGeneratedObjects */
-     , (11996,  93,       1032) /* PhysicsState */
-     , (11996, 101,        131) /* AiAllowedCombatStyle */
+     , (11996,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
+     , (11996, 101,        131) /* AiAllowedCombatStyle - Unarmed, OneHanded, ThrownWeapon */
      , (11996, 103,          1) /* GeneratorDestructionType - Nothing */
      , (11996, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (11996, 140,          1) /* AiOptions */
@@ -75,8 +75,13 @@ VALUES (11996,   1,   33557003) /* Setup */
      , (11996,   7,  268436153) /* ClothingBase */
      , (11996,   8,  100667447) /* Icon */
      , (11996,  22,  872415262) /* PhysicsEffectTable */
-     , (11996,  32,        107) /* WieldedTreasureType */
-     , (11996,  35,         22) /* DeathTreasureType */;
+     , (11996,  32,        107) /* WieldedTreasureType - 
+                                   Wield Rock (23747) | Probability: 100%
+                                   Wield Lugian Axe (23741) | Probability: 40%
+                                   Wield Lugian Mace (23759) | Probability: 20%
+                                   Wield Lugian Hammer (23755) | Probability: 20%
+                                   Wield Lugian Morning Star (23767) | Probability: 20% */
+     , (11996,  35,         22) /* DeathTreasureType - Loot Tier: 2 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (11996,   1, 270, 0, 0) /* Strength */
@@ -175,15 +180,15 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 268435539 /* Twitch3 */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (11996, 9,     0,  0, 0, 0.99, False) /* Create Unknown for ContainTreasure */
-     , (11996, 9,     0,  0, 0, 0.67, False) /* Create Unknown for ContainTreasure */
-     , (11996, 9,     0,  0, 0, 0.7, False) /* Create Unknown for ContainTreasure */
-     , (11996, 9,  6876,  0, 0, 0.01, False) /* Create Sturdy Iron Key for ContainTreasure */
-     , (11996, 9,  7043,  0, 0, 0.33, False) /* Create Large Lugian Sinew for ContainTreasure */
-     , (11996, 9, 23540,  0, 0, 0.3, False) /* Create Soul Staff for ContainTreasure */;
+VALUES (11996, 9,     0,  0, 0, 0.99, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 2 for ContainTreasure */
+     , (11996, 9,     0,  0, 0, 0.67, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 2 for ContainTreasure */
+     , (11996, 9,     0,  0, 0, 0.7, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 2 for ContainTreasure */
+     , (11996, 9,  6876,  0, 0, 0.01, False) /* Create Sturdy Iron Key (6876) for ContainTreasure */
+     , (11996, 9,  7043,  0, 0, 0.33, False) /* Create Large Lugian Sinew (7043) for ContainTreasure */
+     , (11996, 9, 23540,  0, 0, 0.3, False) /* Create Soul Staff (23540) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (11996, 0.25, 24940, 20, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0)
-     , (11996, 0.5, 24940, 20, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0)
-     , (11996, 0.75, 24940, 20, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0)
-     , (11996, 1, 9401, 20, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0);
+VALUES (11996, 0.25, 24940, 20, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Gotrok Gigas (24940) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Scatter */
+     , (11996, 0.5, 24940, 20, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Gotrok Gigas (24940) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Scatter */
+     , (11996, 0.75, 24940, 20, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Gotrok Gigas (24940) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Scatter */
+     , (11996, 1, 9401, 20, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Dread Mattekar (9401) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Scatter */;

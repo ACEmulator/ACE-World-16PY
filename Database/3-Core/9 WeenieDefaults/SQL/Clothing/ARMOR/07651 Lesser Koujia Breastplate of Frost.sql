@@ -14,7 +14,7 @@ VALUES (7651,   1,          2) /* ItemType - Armor */
      , (7651,  28,        115) /* ArmorLevel */
      , (7651,  33,          1) /* Bonded - Bonded */
      , (7651,  36,       9999) /* ResistMagic */
-     , (7651,  93,       1044) /* PhysicsState */
+     , (7651,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (7651, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)

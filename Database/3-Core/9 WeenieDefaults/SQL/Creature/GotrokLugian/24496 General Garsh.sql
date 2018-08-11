@@ -14,8 +14,8 @@ VALUES (24496,   1,         16) /* ItemType - Creature */
      , (24496,  40,          2) /* CombatMode - Melee */
      , (24496,  68,         13) /* TargetingTactic */
      , (24496,  72,          6) /* FriendType - Tumerok */
-     , (24496,  93,       1032) /* PhysicsState */
-     , (24496, 101,        131) /* AiAllowedCombatStyle */
+     , (24496,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
+     , (24496, 101,        131) /* AiAllowedCombatStyle - Unarmed, OneHanded, ThrownWeapon */
      , (24496, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (24496, 140,          1) /* AiOptions */
      , (24496, 146,     744593) /* XpOverride */;
@@ -72,7 +72,7 @@ VALUES (24496,   1,   33557003) /* Setup */
      , (24496,   7,  268436632) /* ClothingBase */
      , (24496,   8,  100667447) /* Icon */
      , (24496,  22,  872415262) /* PhysicsEffectTable */
-     , (24496,  35,         26) /* DeathTreasureType */;
+     , (24496,  35,         26) /* DeathTreasureType - Loot Tier: 6 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (24496,   1, 380, 0, 0) /* Strength */
@@ -115,8 +115,8 @@ VALUES (24496,  94) /* ATTACK_NOTIFICATION_EVENT */
      , (24496, 414) /* PLAYER_DEATH_EVENT */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (24496, 9,     0,  0, 0, 0.95, False) /* Create Unknown for ContainTreasure */
-     , (24496, 9,     0,  0, 0, 0, False) /* Create Unknown for ContainTreasure */
-     , (24496, 9, 24477,  0, 0, 0.05, False) /* Create Sturdy Steel Key for ContainTreasure */
-     , (24496, 9, 24557,  0, 0, 1, False) /* Create Quadruple-bladed Axe for ContainTreasure */
-     , (24496, 2, 24567,  0, 0, 0, False) /* Create Quadruple-bladed Axe for Wield */;
+VALUES (24496, 9,     0,  0, 0, 0.95, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 6 for ContainTreasure */
+     , (24496, 9,     0,  0, 0, 0, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 6 for ContainTreasure */
+     , (24496, 9, 24477,  0, 0, 0.05, False) /* Create Sturdy Steel Key (24477) for ContainTreasure */
+     , (24496, 9, 24557,  0, 0, 1, False) /* Create Quadruple-bladed Axe (24557) for ContainTreasure */
+     , (24496, 2, 24567,  0, 0, 0, False) /* Create Quadruple-bladed Axe (24567) for Wield */;

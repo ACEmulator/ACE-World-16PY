@@ -7,7 +7,7 @@ VALUES (2616,   1,        128) /* ItemType - Misc */
      , (2616,  16,         32) /* ItemUseable - Remote */
      , (2616,  19,          0) /* Value */
      , (2616,  38,        550) /* ResistLockpick */
-     , (2616,  93,         24) /* PhysicsState */;
+     , (2616,  93,         24) /* PhysicsState - ReportCollisions, IgnoreCollisions */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (2616,   1, True ) /* Stuck */

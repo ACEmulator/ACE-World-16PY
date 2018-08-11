@@ -4,7 +4,7 @@ VALUES ('11955', 'portalkarabdelta-xp', 7) /* Portal */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (11955,   1,      65536) /* ItemType - Portal */
      , (11955,  16,         32) /* ItemUseable - Remote */
-     , (11955,  93,       3084) /* PhysicsState */
+     , (11955,  93,       3084) /* PhysicsState - Ethereal, ReportCollisions, Gravity, LightingOn */
      , (11955, 111,          1) /* PortalBitmask - Unrestricted */
      , (11955, 133,          4) /* ShowableOnRadar - ShowAlways */;
 

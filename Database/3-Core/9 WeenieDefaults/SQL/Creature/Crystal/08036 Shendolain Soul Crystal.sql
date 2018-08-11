@@ -13,7 +13,7 @@ VALUES (8036,   1,         16) /* ItemType - Creature */
      , (8036,  40,          2) /* CombatMode - Melee */
      , (8036,  68,          5) /* TargetingTactic */
      , (8036,  69,          4) /* CombatTactic */
-     , (8036,  93,       3080) /* PhysicsState */
+     , (8036,  93,       3080) /* PhysicsState - ReportCollisions, Gravity, LightingOn */
      , (8036, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (8036, 146,      10000) /* XpOverride */;
 
@@ -72,7 +72,7 @@ VALUES (8036,   1,   33556732) /* Setup */
      , (8036,   7,  268435859) /* ClothingBase */
      , (8036,   8,  100670283) /* Icon */
      , (8036,  22,  872415347) /* PhysicsEffectTable */
-     , (8036,  35,        461) /* DeathTreasureType */;
+     , (8036,  35,        461) /* DeathTreasureType - Loot Tier: 6 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (8036,   1, 350, 0, 0) /* Strength */
@@ -133,4 +133,4 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,  16 /* WorldBroadcast */, 0, 1, NULL, '%s has shattered the Shendolain Soul Crystal! The crystal''s released energy ripples across the landscape of Dereth, causing fluxes along the island''s ley lines!', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (8036, 8,  8119,  0, 0, 1, False) /* Create Shendolain Soul Gem for Treasure */;
+VALUES (8036, 8,  8119,  0, 0, 1, False) /* Create Shendolain Soul Gem (8119) for Treasure */;

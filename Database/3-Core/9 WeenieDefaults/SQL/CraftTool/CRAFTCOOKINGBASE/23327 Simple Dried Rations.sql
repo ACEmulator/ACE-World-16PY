@@ -13,7 +13,7 @@ VALUES (23327,   1,    4194304) /* ItemType - CraftCookingBase */
      , (23327,  15,       1500) /* StackUnitValue */
      , (23327,  16,          1) /* ItemUseable - No */
      , (23327,  19,       1500) /* Value */
-     , (23327,  93,       1044) /* PhysicsState */;
+     , (23327,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (23327,   1, 'Simple Dried Rations') /* Name */

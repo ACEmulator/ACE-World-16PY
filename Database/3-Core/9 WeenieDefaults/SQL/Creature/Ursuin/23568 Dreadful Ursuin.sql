@@ -12,8 +12,8 @@ VALUES (23568,   1,         16) /* ItemType - Creature */
      , (23568,  27,          0) /* ArmorType */
      , (23568,  40,          2) /* CombatMode - Melee */
      , (23568,  68,          9) /* TargetingTactic */
-     , (23568,  93,       1032) /* PhysicsState */
-     , (23568, 101,        131) /* AiAllowedCombatStyle */
+     , (23568,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
+     , (23568, 101,        131) /* AiAllowedCombatStyle - Unarmed, OneHanded, ThrownWeapon */
      , (23568, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (23568, 140,          1) /* AiOptions */
      , (23568, 146,     500000) /* XpOverride */;
@@ -69,7 +69,7 @@ VALUES (23568,   1,   33556773) /* Setup */
      , (23568,   7,  268436633) /* ClothingBase */
      , (23568,   8,  100670959) /* Icon */
      , (23568,  22,  872415366) /* PhysicsEffectTable */
-     , (23568,  35,        455) /* DeathTreasureType */;
+     , (23568,  35,        455) /* DeathTreasureType - Loot Tier: 6 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (23568,   1, 360, 0, 0) /* Strength */
@@ -133,7 +133,7 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 268435537 /* Twitch1 */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (23568, 9,     0,  0, 0, 0.95, False) /* Create Unknown for ContainTreasure */
-     , (23568, 9,     0,  0, 0, 0.95, False) /* Create Unknown for ContainTreasure */
-     , (23568, 9,  8665,  0, 0, 0.05, False) /* Create Ursuin Scalp for ContainTreasure */
-     , (23568, 9, 12219,  0, 0, 0.05, False) /* Create Ursuin Head for ContainTreasure */;
+VALUES (23568, 9,     0,  0, 0, 0.95, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 6 for ContainTreasure */
+     , (23568, 9,     0,  0, 0, 0.95, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 6 for ContainTreasure */
+     , (23568, 9,  8665,  0, 0, 0.05, False) /* Create Ursuin Scalp (8665) for ContainTreasure */
+     , (23568, 9, 12219,  0, 0, 0.05, False) /* Create Ursuin Head (12219) for ContainTreasure */;

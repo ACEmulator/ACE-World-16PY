@@ -16,7 +16,7 @@ VALUES (29923,   1,        256) /* ItemType - MissileWeapon */
      , (29923,  50,          4) /* AmmoType - ArrowCrystal */
      , (29923,  51,          2) /* CombatUse - Missle */
      , (29923,  60,        120) /* WeaponRange */
-     , (29923,  93,       1044) /* PhysicsState */
+     , (29923,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (29923, 106,        275) /* ItemSpellcraft */
      , (29923, 107,        800) /* ItemCurMana */
      , (29923, 108,        800) /* ItemMaxMana */

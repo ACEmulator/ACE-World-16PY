@@ -11,7 +11,7 @@ VALUES (23557,   1,         16) /* ItemType - Creature */
      , (23557,  27,          0) /* ArmorType */
      , (23557,  40,          1) /* CombatMode - NonCombat */
      , (23557,  68,          3) /* TargetingTactic */
-     , (23557,  93,       1032) /* PhysicsState */
+     , (23557,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (23557, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (23557, 146,     223920) /* XpOverride */;
 
@@ -67,7 +67,7 @@ VALUES (23557,   1,   33555626) /* Setup */
      , (23557,   4,  805306394) /* CombatTable */
      , (23557,   8,  100668443) /* Icon */
      , (23557,  22,  872415261) /* PhysicsEffectTable */
-     , (23557,  35,        461) /* DeathTreasureType */;
+     , (23557,  35,        461) /* DeathTreasureType - Loot Tier: 6 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (23557,   1, 150, 0, 0) /* Strength */
@@ -123,11 +123,11 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 268435537 /* Twitch1 */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (23557, 9,     0,  0, 0, 0.5, False) /* Create Unknown for ContainTreasure */
-     , (23557, 9,     0,  0, 0, 0.98, False) /* Create Unknown for ContainTreasure */
-     , (23557, 9,     0,  0, 0, 0.99, False) /* Create Unknown for ContainTreasure */
-     , (23557, 9,     0,  0, 0, 0.95, False) /* Create Unknown for ContainTreasure */
-     , (23557, 9,  5789,  0, 0, 0.5, False) /* Create Brown Lump for ContainTreasure */
-     , (23557, 9, 23107,  0, 0, 0.01, False) /* Create Mangled Dark Key for ContainTreasure */
-     , (23557, 9, 23108,  0, 0, 0.02, False) /* Create Twisted Dark Key for ContainTreasure */
-     , (23557, 9, 25560,  0, 0, 0.05, False) /* Create Knath Husk for ContainTreasure */;
+VALUES (23557, 9,     0,  0, 0, 0.5, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 6 for ContainTreasure */
+     , (23557, 9,     0,  0, 0, 0.98, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 6 for ContainTreasure */
+     , (23557, 9,     0,  0, 0, 0.99, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 6 for ContainTreasure */
+     , (23557, 9,     0,  0, 0, 0.95, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 6 for ContainTreasure */
+     , (23557, 9,  5789,  0, 0, 0.5, False) /* Create Brown Lump (5789) for ContainTreasure */
+     , (23557, 9, 23107,  0, 0, 0.01, False) /* Create Mangled Dark Key (23107) for ContainTreasure */
+     , (23557, 9, 23108,  0, 0, 0.02, False) /* Create Twisted Dark Key (23108) for ContainTreasure */
+     , (23557, 9, 25560,  0, 0, 0.05, False) /* Create Knath Husk (25560) for ContainTreasure */;

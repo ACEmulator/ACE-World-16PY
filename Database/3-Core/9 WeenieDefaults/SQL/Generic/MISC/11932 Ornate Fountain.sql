@@ -9,9 +9,9 @@ VALUES (11932,   1,        128) /* ItemType - Misc */
      , (11932,  16,          1) /* ItemUseable - No */
      , (11932,  19,      20000) /* Value */
      , (11932,  33,          1) /* Bonded - Bonded */
-     , (11932,  93,       1044) /* PhysicsState */
+     , (11932,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (11932, 150,        103) /* HookPlacement - Hook */
-     , (11932, 151,          9) /* HookType */;
+     , (11932, 151,          9) /* HookType - Floor, Yard */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (11932,  13, True ) /* Ethereal */

@@ -18,7 +18,7 @@ VALUES (20967,   1,        256) /* ItemType - MissileWeapon */
      , (20967,  45,          4) /* DamageType - Bludgeon */
      , (20967,  50,          4) /* AmmoType - ArrowCrystal */
      , (20967,  51,          3) /* CombatUse - Ammo */
-     , (20967,  93,     132116) /* PhysicsState */
+     , (20967,  93,     132116) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, Inelastic */
      , (20967, 150,        103) /* HookPlacement - Hook */
      , (20967, 151,          2) /* HookType - Wall */
      , (20967, 158,          2) /* WieldRequirements - RawSkill */

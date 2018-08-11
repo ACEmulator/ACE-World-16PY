@@ -10,10 +10,10 @@ VALUES (2440,   1,         16) /* ItemType - Creature */
      , (2440,  16,         32) /* ItemUseable - Remote */
      , (2440,  25,         10) /* Level */
      , (2440,  27,          0) /* ArmorType */
-     , (2440,  74,      16801) /* MerchandiseItemTypes */
+     , (2440,  74,      16801) /* MerchandiseItemTypes - Food, Misc, Weapon, Key */
      , (2440,  75,          0) /* MerchandiseMinValue */
      , (2440,  76,     100000) /* MerchandiseMaxValue */
-     , (2440,  93,    2098200) /* PhysicsState */
+     , (2440,  93,    2098200) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */
      , (2440, 126,        250) /* VendorHappyMean */
      , (2440, 127,        250) /* VendorHappyVariance */
      , (2440, 133,          4) /* ShowableOnRadar - ShowAlways */
@@ -162,14 +162,14 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 318767235 /* Nod */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (2440, 2,   117,  0, 14, 0.5, False) /* Create Breeches for Wield */
-     , (2440, 2,   130,  0, 5, 0.67, False) /* Create Shirt for Wield */
-     , (2440, 2,   132,  0, 9, 1, False) /* Create Shoes for Wield */
-     , (2440, 4,   258, -1, 0, 0, False) /* Create Apple for Shop */
-     , (2440, 4,   300, -1, 0, 0, False) /* Create Arrow for Shop */
-     , (2440, 4,   305, -1, 0, 0, False) /* Create Quarrel for Shop */
-     , (2440, 4,   314, -1, 0, 0, False) /* Create Dagger for Shop */
-     , (2440, 4,   511, -1, 0, 0, False) /* Create Crude Lockpick for Shop */
-     , (2440, 4,   628, -1, 0, 0, False) /* Create Handy Healing Kit for Shop */
-     , (2440, 4,  2447, -1, 0, 0, False) /* Create Training Hall Key for Shop */
-     , (2440, 2, 10696,  0, 4, 0.8, False) /* Create Apron for Wield */;
+VALUES (2440, 2,   117,  0, 14, 0.5, False) /* Create Breeches (117) for Wield */
+     , (2440, 2,   130,  0, 5, 0.67, False) /* Create Shirt (130) for Wield */
+     , (2440, 2,   132,  0, 9, 1, False) /* Create Shoes (132) for Wield */
+     , (2440, 4,   258, -1, 0, 0, False) /* Create Apple (258) for Shop */
+     , (2440, 4,   300, -1, 0, 0, False) /* Create Arrow (300) for Shop */
+     , (2440, 4,   305, -1, 0, 0, False) /* Create Quarrel (305) for Shop */
+     , (2440, 4,   314, -1, 0, 0, False) /* Create Dagger (314) for Shop */
+     , (2440, 4,   511, -1, 0, 0, False) /* Create Crude Lockpick (511) for Shop */
+     , (2440, 4,   628, -1, 0, 0, False) /* Create Handy Healing Kit (628) for Shop */
+     , (2440, 4,  2447, -1, 0, 0, False) /* Create Training Hall Key (2447) for Shop */
+     , (2440, 2, 10696,  0, 4, 0.8, False) /* Create Apron (10696) for Wield */;

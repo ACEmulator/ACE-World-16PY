@@ -10,10 +10,10 @@ VALUES (20213,   1,         16) /* ItemType - Creature */
      , (20213,  16,         32) /* ItemUseable - Remote */
      , (20213,  25,         14) /* Level */
      , (20213,  27,          0) /* ArmorType */
-     , (20213,  74,     270464) /* MerchandiseItemTypes */
+     , (20213,  74,     270464) /* MerchandiseItemTypes - Misc, Writable, PromissoryNote */
      , (20213,  75,          0) /* MerchandiseMinValue */
      , (20213,  76,     100000) /* MerchandiseMaxValue */
-     , (20213,  93,    2098200) /* PhysicsState */
+     , (20213,  93,    2098200) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */
      , (20213, 126,      10000) /* VendorHappyMean */
      , (20213, 127,       4000) /* VendorHappyVariance */
      , (20213, 133,          4) /* ShowableOnRadar - ShowAlways */
@@ -170,43 +170,43 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 318767235 /* Nod */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (20213, 2,   115,  0, 4, 0.6, False) /* Create Leather Boots for Wield */
-     , (20213, 2,   124,  0, 9, 0.5, False) /* Create Jerkin for Wield */
-     , (20213, 2,   127,  0, 3, 0.67, False) /* Create Pants for Wield */
-     , (20213, 4,  1564, -1, 0, 0, False) /* Create Scroll of Portal Recall for Shop */
-     , (20213, 4,  1565, -1, 0, 0, False) /* Create Scroll of Primary Portal Tie for Shop */
-     , (20213, 4,  2763, -1, 0, 0, False) /* Create Scroll of Acid Bane III for Shop */
-     , (20213, 4,  2768, -1, 0, 0, False) /* Create Scroll of Acid Lure III for Shop */
-     , (20213, 4,  2773, -1, 0, 0, False) /* Create Scroll of Blade Bane III for Shop */
-     , (20213, 4,  2778, -1, 0, 0, False) /* Create Scroll of Blade Lure III for Shop */
-     , (20213, 4,  2783, -1, 0, 0, False) /* Create Blood Drinker Scroll III for Shop */
-     , (20213, 4,  2788, -1, 0, 0, False) /* Create Scroll of Blood Loather III for Shop */
-     , (20213, 4,  2793, -1, 0, 0, False) /* Create Scroll of Bludgeon Bane III for Shop */
-     , (20213, 4,  2798, -1, 0, 0, False) /* Create Scroll of Bludgeon Lure III for Shop */
-     , (20213, 4,  2803, -1, 0, 0, False) /* Create Scroll of Brittlemail III for Shop */
-     , (20213, 4,  2808, -1, 0, 0, False) /* Create Scroll of Defender III for Shop */
-     , (20213, 4,  2813, -1, 0, 0, False) /* Create Scroll of Flame Bane III for Shop */
-     , (20213, 4,  2818, -1, 0, 0, False) /* Create Scroll of Flame Lure III for Shop */
-     , (20213, 4,  2823, -1, 0, 0, False) /* Create Scroll of Frost Bane III for Shop */
-     , (20213, 4,  2828, -1, 0, 0, False) /* Create Scroll of Frost Lure III for Shop */
-     , (20213, 4,  2833, -1, 0, 0, False) /* Create Scroll of Heartseeker III for Shop */
-     , (20213, 4,  2838, -1, 0, 0, False) /* Create Scroll of Hermetic Void III for Shop */
-     , (20213, 4,  2843, -1, 0, 0, False) /* Create Scroll of Impenetrability III for Shop */
-     , (20213, 4,  2848, -1, 0, 0, False) /* Create Scroll of Leaden Weapon III for Shop */
-     , (20213, 4,  2853, -1, 0, 0, False) /* Create Scroll of Lightning Bane III for Shop */
-     , (20213, 4,  2858, -1, 0, 0, False) /* Create Scroll of Lightning Lure III for Shop */
-     , (20213, 4,  2863, -1, 0, 0, False) /* Create Scroll of Lure Blade III for Shop */
-     , (20213, 4,  2868, -1, 0, 0, False) /* Create Scroll of Piercing Bane III for Shop */
-     , (20213, 4,  2873, -1, 0, 0, False) /* Create Scroll of Piercing Lure III for Shop */
-     , (20213, 4,  2878, -1, 0, 0, False) /* Create Scroll of Strengthen Lock III for Shop */
-     , (20213, 4,  2883, -1, 0, 0, False) /* Create Scroll of Swift Killer III for Shop */
-     , (20213, 4,  2888, -1, 0, 0, False) /* Create Scroll of Hermetic Link III for Shop */
-     , (20213, 4,  2894, -1, 0, 0, False) /* Create Scroll of Turn Blade III for Shop */
-     , (20213, 4,  2899, -1, 0, 0, False) /* Create Scroll of Weaken Lock III for Shop */
-     , (20213, 4,  2903, -1, 0, 0, False) /* Create Scroll of Lifestone Recall for Shop */
-     , (20213, 2, 10696,  0, 13, 0.5, False) /* Create Apron for Wield */
-     , (20213, 4, 15269, -1, 0, 0, False) /* Create Foci of Artifice for Shop */
-     , (20213, 4, 20618, -1, 0, 0, False) /* Create Scroll of Lifestone Tie for Shop */
-     , (20213, 4, 20619, -1, 0, 0, False) /* Create Scroll of Secondary Portal Tie for Shop */
-     , (20213, 4, 20620, -1, 0, 0, False) /* Create Scroll of Primary Portal Recall for Shop */
-     , (20213, 4, 20621, -1, 0, 0, False) /* Create Scroll of Secondary Portal Recall for Shop */;
+VALUES (20213, 2,   115,  0, 4, 0.6, False) /* Create Leather Boots (115) for Wield */
+     , (20213, 2,   124,  0, 9, 0.5, False) /* Create Jerkin (124) for Wield */
+     , (20213, 2,   127,  0, 3, 0.67, False) /* Create Pants (127) for Wield */
+     , (20213, 4,  1564, -1, 0, 0, False) /* Create Scroll of Portal Recall (1564) for Shop */
+     , (20213, 4,  1565, -1, 0, 0, False) /* Create Scroll of Primary Portal Tie (1565) for Shop */
+     , (20213, 4,  2763, -1, 0, 0, False) /* Create Scroll of Acid Bane III (2763) for Shop */
+     , (20213, 4,  2768, -1, 0, 0, False) /* Create Scroll of Acid Lure III (2768) for Shop */
+     , (20213, 4,  2773, -1, 0, 0, False) /* Create Scroll of Blade Bane III (2773) for Shop */
+     , (20213, 4,  2778, -1, 0, 0, False) /* Create Scroll of Blade Lure III (2778) for Shop */
+     , (20213, 4,  2783, -1, 0, 0, False) /* Create Blood Drinker Scroll III (2783) for Shop */
+     , (20213, 4,  2788, -1, 0, 0, False) /* Create Scroll of Blood Loather III (2788) for Shop */
+     , (20213, 4,  2793, -1, 0, 0, False) /* Create Scroll of Bludgeon Bane III (2793) for Shop */
+     , (20213, 4,  2798, -1, 0, 0, False) /* Create Scroll of Bludgeon Lure III (2798) for Shop */
+     , (20213, 4,  2803, -1, 0, 0, False) /* Create Scroll of Brittlemail III (2803) for Shop */
+     , (20213, 4,  2808, -1, 0, 0, False) /* Create Scroll of Defender III (2808) for Shop */
+     , (20213, 4,  2813, -1, 0, 0, False) /* Create Scroll of Flame Bane III (2813) for Shop */
+     , (20213, 4,  2818, -1, 0, 0, False) /* Create Scroll of Flame Lure III (2818) for Shop */
+     , (20213, 4,  2823, -1, 0, 0, False) /* Create Scroll of Frost Bane III (2823) for Shop */
+     , (20213, 4,  2828, -1, 0, 0, False) /* Create Scroll of Frost Lure III (2828) for Shop */
+     , (20213, 4,  2833, -1, 0, 0, False) /* Create Scroll of Heartseeker III (2833) for Shop */
+     , (20213, 4,  2838, -1, 0, 0, False) /* Create Scroll of Hermetic Void III (2838) for Shop */
+     , (20213, 4,  2843, -1, 0, 0, False) /* Create Scroll of Impenetrability III (2843) for Shop */
+     , (20213, 4,  2848, -1, 0, 0, False) /* Create Scroll of Leaden Weapon III (2848) for Shop */
+     , (20213, 4,  2853, -1, 0, 0, False) /* Create Scroll of Lightning Bane III (2853) for Shop */
+     , (20213, 4,  2858, -1, 0, 0, False) /* Create Scroll of Lightning Lure III (2858) for Shop */
+     , (20213, 4,  2863, -1, 0, 0, False) /* Create Scroll of Lure Blade III (2863) for Shop */
+     , (20213, 4,  2868, -1, 0, 0, False) /* Create Scroll of Piercing Bane III (2868) for Shop */
+     , (20213, 4,  2873, -1, 0, 0, False) /* Create Scroll of Piercing Lure III (2873) for Shop */
+     , (20213, 4,  2878, -1, 0, 0, False) /* Create Scroll of Strengthen Lock III (2878) for Shop */
+     , (20213, 4,  2883, -1, 0, 0, False) /* Create Scroll of Swift Killer III (2883) for Shop */
+     , (20213, 4,  2888, -1, 0, 0, False) /* Create Scroll of Hermetic Link III (2888) for Shop */
+     , (20213, 4,  2894, -1, 0, 0, False) /* Create Scroll of Turn Blade III (2894) for Shop */
+     , (20213, 4,  2899, -1, 0, 0, False) /* Create Scroll of Weaken Lock III (2899) for Shop */
+     , (20213, 4,  2903, -1, 0, 0, False) /* Create Scroll of Lifestone Recall (2903) for Shop */
+     , (20213, 2, 10696,  0, 13, 0.5, False) /* Create Apron (10696) for Wield */
+     , (20213, 4, 15269, -1, 0, 0, False) /* Create Foci of Artifice (15269) for Shop */
+     , (20213, 4, 20618, -1, 0, 0, False) /* Create Scroll of Lifestone Tie (20618) for Shop */
+     , (20213, 4, 20619, -1, 0, 0, False) /* Create Scroll of Secondary Portal Tie (20619) for Shop */
+     , (20213, 4, 20620, -1, 0, 0, False) /* Create Scroll of Primary Portal Recall (20620) for Shop */
+     , (20213, 4, 20621, -1, 0, 0, False) /* Create Scroll of Secondary Portal Recall (20621) for Shop */;

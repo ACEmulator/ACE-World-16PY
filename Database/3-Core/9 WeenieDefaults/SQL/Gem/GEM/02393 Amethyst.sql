@@ -14,7 +14,7 @@ VALUES (2393,   1,       2048) /* ItemType - Gem */
      , (2393,  15,        100) /* StackUnitValue */
      , (2393,  16,          1) /* ItemUseable - No */
      , (2393,  19,        100) /* Value */
-     , (2393,  93,       1044) /* PhysicsState */
+     , (2393,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (2393, 131,         12) /* MaterialType - Amethyst */
      , (2393, 169,   16777216) /* TsysMutationData */;
 

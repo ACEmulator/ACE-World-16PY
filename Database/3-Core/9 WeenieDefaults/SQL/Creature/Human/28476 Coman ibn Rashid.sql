@@ -10,7 +10,7 @@ VALUES (28476,   1,         16) /* ItemType - Creature */
      , (28476,  16,         32) /* ItemUseable - Remote */
      , (28476,  25,        120) /* Level */
      , (28476,  27,          0) /* ArmorType */
-     , (28476,  93,    6292504) /* PhysicsState */
+     , (28476,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (28476,  95,          8) /* RadarBlipColor - Yellow */
      , (28476, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (28476, 134,         16) /* PlayerKillerStatus - RubberGlue */
@@ -234,5 +234,5 @@ VALUES (@parent_id,  0,  18 /* DirectBroadcast */, 0, 1, NULL, 'Coman ibn Rashid
      , (@parent_id, 11,  18 /* DirectBroadcast */, 0, 1, NULL, 'Coman ibn Rashid says, "That is the final reward I have for you. You have become a hero to all of Dereth, %tn. I shall never forget your name or your deeds."', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (28476, 2,   118,  0, 14, 1, False) /* Create Cap for Wield */
-     , (28476, 2, 10870,  0, 17, 0.7, False) /* Create Canescent Mattekar Robe for Wield */;
+VALUES (28476, 2,   118,  0, 14, 1, False) /* Create Cap (118) for Wield */
+     , (28476, 2, 10870,  0, 17, 0.7, False) /* Create Canescent Mattekar Robe (10870) for Wield */;

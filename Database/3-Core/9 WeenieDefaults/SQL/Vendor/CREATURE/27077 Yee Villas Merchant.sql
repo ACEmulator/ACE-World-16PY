@@ -10,10 +10,10 @@ VALUES (27077,   1,         16) /* ItemType - Creature */
      , (27077,  16,         32) /* ItemUseable - Remote */
      , (27077,  25,         10) /* Level */
      , (27077,  27,          0) /* ArmorType */
-     , (27077,  74,     264192) /* MerchandiseItemTypes */
+     , (27077,  74,     264192) /* MerchandiseItemTypes - Gem, PromissoryNote */
      , (27077,  75,          0) /* MerchandiseMinValue */
      , (27077,  76,    1000000) /* MerchandiseMaxValue */
-     , (27077,  93,    2098204) /* PhysicsState */
+     , (27077,  93,    2098204) /* PhysicsState - Ethereal, ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */
      , (27077, 126,        125) /* VendorHappyMean */
      , (27077, 127,        125) /* VendorHappyVariance */
      , (27077, 133,          4) /* ShowableOnRadar - ShowAlways */
@@ -97,4 +97,4 @@ VALUES (27077,  0,  4,  0,    0,    0,    0,    0,    0,    0,    0,    0,    0,
      , (27077,  8,  4,  2, 0.75,    0,    0,    0,    0,    0,    0,    0,    0,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (27077, 4, 26442, -1, 0, 0, False) /* Create Yee Villas Portal Gem for Shop */;
+VALUES (27077, 4, 26442, -1, 0, 0, False) /* Create Yee Villas Portal Gem (26442) for Shop */;

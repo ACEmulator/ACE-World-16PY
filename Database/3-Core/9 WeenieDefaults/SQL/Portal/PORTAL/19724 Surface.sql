@@ -4,8 +4,8 @@ VALUES ('19724', 'portalfathomlesschasmexit', 7) /* Portal */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (19724,   1,      65536) /* ItemType - Portal */
      , (19724,  16,         32) /* ItemUseable - Remote */
-     , (19724,  93,       3084) /* PhysicsState */
-     , (19724, 111,         49) /* PortalBitmask */
+     , (19724,  93,       3084) /* PhysicsState - Ethereal, ReportCollisions, Gravity, LightingOn */
+     , (19724, 111,         49) /* PortalBitmask - Unrestricted, NoSummon, NoRecall */
      , (19724, 133,          4) /* ShowableOnRadar - ShowAlways */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)

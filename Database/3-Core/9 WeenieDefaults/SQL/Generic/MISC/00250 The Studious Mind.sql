@@ -8,7 +8,7 @@ VALUES (250,   1,        128) /* ItemType - Misc */
      , (250,   9,          0) /* ValidLocations - None */
      , (250,  16,          1) /* ItemUseable - No */
      , (250,  19,      12904) /* Value */
-     , (250,  93,       1044) /* PhysicsState */
+     , (250,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (250, 150,        103) /* HookPlacement - Hook */
      , (250, 151,          2) /* HookType - Wall */;
 

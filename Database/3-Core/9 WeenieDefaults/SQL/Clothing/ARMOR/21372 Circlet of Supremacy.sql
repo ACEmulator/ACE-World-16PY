@@ -14,7 +14,7 @@ VALUES (21372,   1,          2) /* ItemType - Armor */
      , (21372,  27,         32) /* ArmorType */
      , (21372,  28,        100) /* ArmorLevel */
      , (21372,  36,       9999) /* ResistMagic */
-     , (21372,  93,       1044) /* PhysicsState */
+     , (21372,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (21372, 106,        225) /* ItemSpellcraft */
      , (21372, 107,        500) /* ItemCurMana */
      , (21372, 108,        500) /* ItemMaxMana */

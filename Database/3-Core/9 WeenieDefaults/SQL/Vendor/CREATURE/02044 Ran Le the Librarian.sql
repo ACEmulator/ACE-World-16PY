@@ -10,10 +10,10 @@ VALUES (2044,   1,         16) /* ItemType - Creature */
      , (2044,  16,         32) /* ItemUseable - Remote */
      , (2044,  25,         11) /* Level */
      , (2044,  27,          0) /* ArmorType */
-     , (2044,  74,     270336) /* MerchandiseItemTypes */
+     , (2044,  74,     270336) /* MerchandiseItemTypes - Writable, PromissoryNote */
      , (2044,  75,          0) /* MerchandiseMinValue */
      , (2044,  76,     100000) /* MerchandiseMaxValue */
-     , (2044,  93,    2098200) /* PhysicsState */
+     , (2044,  93,    2098200) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */
      , (2044, 126,       2000) /* VendorHappyMean */
      , (2044, 127,       1000) /* VendorHappyVariance */
      , (2044, 133,          4) /* ShowableOnRadar - ShowAlways */
@@ -171,20 +171,20 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 318767235 /* Nod */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (2044, 2,   117,  0, 14, 0.8, False) /* Create Breeches for Wield */
-     , (2044, 2,   132,  0, 17, 1, False) /* Create Shoes for Wield */
-     , (2044, 2,   134,  0, 17, 1, False) /* Create Tunic for Wield */
-     , (2044, 4,   364, -1, 0, 0, False) /* Create Book for Shop */
-     , (2044, 4,   365, -1, 0, 0, False) /* Create Parchment for Shop */
-     , (2044, 4,   367, -1, 0, 0, False) /* Create Tome for Shop */
-     , (2044, 4,  5699, -1, 0, 0, False) /* Create On the Four Stones and Three Elders for Shop */
-     , (2044, 4,  5700, -1, 0, 0, False) /* Create The Story of Koji's Sword for Shop */
-     , (2044, 4,  7774, -1, 0, 0, False) /* Create Concerning the Revelations of Anti-Magic for Shop */
-     , (2044, 4,  7775, -1, 0, 0, False) /* Create Practical Applications of Chorizite for Shop */
-     , (2044, 4,  8079, -1, 0, 0, False) /* Create Loka Jii Learns to Hunt for Shop */
-     , (2044, 4,  8080, -1, 0, 0, False) /* Create The Emperor's Blade for Shop */
-     , (2044, 4,  8081, -1, 0, 0, False) /* Create The Journal of Nandesu Ka for Shop */
-     , (2044, 4,  9006, -1, 0, 0, False) /* Create Excerpts from the Zharalim for Shop */
-     , (2044, 4,  9122, -1, 0, 0, False) /* Create Interlude for Shop */
-     , (2044, 2, 10696,  0, 18, 0.5, False) /* Create Apron for Wield */
-     , (2044, 4, 10700, -1, 0, 0, False) /* Create Book of Seasons for Shop */;
+VALUES (2044, 2,   117,  0, 14, 0.8, False) /* Create Breeches (117) for Wield */
+     , (2044, 2,   132,  0, 17, 1, False) /* Create Shoes (132) for Wield */
+     , (2044, 2,   134,  0, 17, 1, False) /* Create Tunic (134) for Wield */
+     , (2044, 4,   364, -1, 0, 0, False) /* Create Book (364) for Shop */
+     , (2044, 4,   365, -1, 0, 0, False) /* Create Parchment (365) for Shop */
+     , (2044, 4,   367, -1, 0, 0, False) /* Create Tome (367) for Shop */
+     , (2044, 4,  5699, -1, 0, 0, False) /* Create On the Four Stones and Three Elders (5699) for Shop */
+     , (2044, 4,  5700, -1, 0, 0, False) /* Create The Story of Koji's Sword (5700) for Shop */
+     , (2044, 4,  7774, -1, 0, 0, False) /* Create Concerning the Revelations of Anti-Magic (7774) for Shop */
+     , (2044, 4,  7775, -1, 0, 0, False) /* Create Practical Applications of Chorizite (7775) for Shop */
+     , (2044, 4,  8079, -1, 0, 0, False) /* Create Loka Jii Learns to Hunt (8079) for Shop */
+     , (2044, 4,  8080, -1, 0, 0, False) /* Create The Emperor's Blade (8080) for Shop */
+     , (2044, 4,  8081, -1, 0, 0, False) /* Create The Journal of Nandesu Ka (8081) for Shop */
+     , (2044, 4,  9006, -1, 0, 0, False) /* Create Excerpts from the Zharalim (9006) for Shop */
+     , (2044, 4,  9122, -1, 0, 0, False) /* Create Interlude (9122) for Shop */
+     , (2044, 2, 10696,  0, 18, 0.5, False) /* Create Apron (10696) for Wield */
+     , (2044, 4, 10700, -1, 0, 0, False) /* Create Book of Seasons (10700) for Shop */;

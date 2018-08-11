@@ -12,8 +12,8 @@ VALUES (27664,   1,         16) /* ItemType - Creature */
      , (27664,  27,          0) /* ArmorType */
      , (27664,  68,          5) /* TargetingTactic */
      , (27664,  72,         70) /* FriendType - GotrokLugian */
-     , (27664,  93,       1032) /* PhysicsState */
-     , (27664, 101,        183) /* AiAllowedCombatStyle */
+     , (27664,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
+     , (27664, 101,        183) /* AiAllowedCombatStyle - Unarmed, OneHanded, OneHandedAndShield, Bow, Crossbow, ThrownWeapon */
      , (27664, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (27664, 140,          1) /* AiOptions */
      , (27664, 146,     946242) /* XpOverride */;
@@ -73,8 +73,14 @@ VALUES (27664,   1,   33554496) /* Setup */
      , (27664,   7,  268436645) /* ClothingBase */
      , (27664,   8,  100667452) /* Icon */
      , (27664,  22,  872415270) /* PhysicsEffectTable */
-     , (27664,  32,        426) /* WieldedTreasureType */
-     , (27664,  35,         32) /* DeathTreasureType */;
+     , (27664,  32,        426) /* WieldedTreasureType - 
+                                   Wield Tachi (23136) | Probability: 30%
+                                   Wield Kite Shield (23135) | Probability: 100%
+                                   Wield Yumi (23137) | Probability: 30%
+                                   Wield 20x Deadly Arrow (15429) | Probability: 100%
+                                   Wield Heavy Crossbow (23131) | Probability: 30%
+                                   Wield 50x Deadly Quarrel (15438) | Probability: 100% */
+     , (27664,  35,         32) /* DeathTreasureType - Loot Tier: 6 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (27664,   1, 350, 0, 0) /* Strength */

@@ -12,7 +12,7 @@ VALUES (9100,   1,         16) /* ItemType - Creature */
      , (9100,  40,          2) /* CombatMode - Melee */
      , (9100,  68,          1) /* TargetingTactic */
      , (9100,  72,          2) /* FriendType - Banderling */
-     , (9100,  93,       1036) /* PhysicsState */
+     , (9100,  93,       1036) /* PhysicsState - Ethereal, ReportCollisions, Gravity */
      , (9100, 133,          3) /* ShowableOnRadar - ShowAttacking */
      , (9100, 146,          0) /* XpOverride */;
 

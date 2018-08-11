@@ -10,7 +10,7 @@ VALUES (12735,   1,         16) /* ItemType - Creature */
      , (12735,  16,         32) /* ItemUseable - Remote */
      , (12735,  25,         35) /* Level */
      , (12735,  27,          0) /* ArmorType */
-     , (12735,  93,    6292504) /* PhysicsState */
+     , (12735,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (12735,  95,          8) /* RadarBlipColor - Yellow */
      , (12735, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (12735, 134,         16) /* PlayerKillerStatus - RubberGlue */
@@ -432,5 +432,5 @@ VALUES (@parent_id,  0,   2 /* AwardXP */, 0, 1, NULL, NULL, NULL, NULL, NULL, N
      , (@parent_id,  5,  10 /* Tell */, 1, 1, NULL, 'He is the Explorer Society Agent in Shoushi; you can recognize him by his green robes. You will find him in the bar, which will be some fifty paces to the east when you exit the portal.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (12735, 2,   118,  0, 14, 0.7, False) /* Create Cap for Wield */
-     , (12735, 2, 10870,  0, 17, 0.7, False) /* Create Canescent Mattekar Robe for Wield */;
+VALUES (12735, 2,   118,  0, 14, 0.7, False) /* Create Cap (118) for Wield */
+     , (12735, 2, 10870,  0, 17, 0.7, False) /* Create Canescent Mattekar Robe (10870) for Wield */;

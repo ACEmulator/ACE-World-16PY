@@ -11,8 +11,8 @@ VALUES (12130,   1,         16) /* ItemType - Creature */
      , (12130,  25,         18) /* Level */
      , (12130,  27,          0) /* ArmorType */
      , (12130,  68,         13) /* TargetingTactic */
-     , (12130,  93,       1032) /* PhysicsState */
-     , (12130, 101,        131) /* AiAllowedCombatStyle */
+     , (12130,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
+     , (12130, 101,        131) /* AiAllowedCombatStyle - Unarmed, OneHanded, ThrownWeapon */
      , (12130, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (12130, 146,       1426) /* XpOverride */;
 
@@ -64,8 +64,17 @@ VALUES (12130,   1,   33554433) /* Setup */
      , (12130,   4,  805306368) /* CombatTable */
      , (12130,   8,  100667446) /* Icon */
      , (12130,  22,  872415381) /* PhysicsEffectTable */
-     , (12130,  32,        393) /* WieldedTreasureType */
-     , (12130,  35,        453) /* DeathTreasureType */;
+     , (12130,  32,        393) /* WieldedTreasureType - 
+                                   Wield Bow of the Quiddity (9597) | Probability: 100%
+                                   Wield 20x Arrow (300) | Probability: 100%
+                                   Wield Blade of the Quiddity (11916) | Probability: 34%
+                                   Wield Lance of the Quiddity (11913) | Probability: 33%
+                                   Wield Mace of the Quiddity (11907) | Probability: 33%
+                                   Wield Chainmail Leggings (80) | Palette: Blue (2) | Shade: 0.6 | Probability: 100%
+                                   Wield Chainmail Hauberk (71) | Palette: Blue (2) | Shade: 0.6 | Probability: 100%
+                                   Wield Pants (12254) | Palette: Purple (13) | Shade: 0.6 | Probability: 100%
+                                   Wield Steel Toed Boots (7897) | Palette: Brown (4) | Shade: 0.6 | Probability: 100% */
+     , (12130,  35,        453) /* DeathTreasureType - Loot Tier: 1 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (12130,   1, 105, 0, 0) /* Strength */

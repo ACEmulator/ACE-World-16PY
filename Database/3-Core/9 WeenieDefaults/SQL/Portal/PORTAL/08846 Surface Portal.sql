@@ -4,8 +4,8 @@ VALUES ('8846', 'portalempyreanmausoleumexit', 7) /* Portal */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (8846,   1,      65536) /* ItemType - Portal */
      , (8846,  16,         32) /* ItemUseable - Remote */
-     , (8846,  93,       3084) /* PhysicsState */
-     , (8846, 111,         17) /* PortalBitmask */
+     , (8846,  93,       3084) /* PhysicsState - Ethereal, ReportCollisions, Gravity, LightingOn */
+     , (8846, 111,         17) /* PortalBitmask - Unrestricted, NoSummon */
      , (8846, 133,          4) /* ShowableOnRadar - ShowAlways */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)

@@ -14,8 +14,8 @@ VALUES (10948,   1,         16) /* ItemType - Creature */
      , (10948,  72,         19) /* FriendType - Virindi */
      , (10948,  81,          3) /* MaxGeneratedObjects */
      , (10948,  82,          3) /* InitGeneratedObjects */
-     , (10948,  93,       1032) /* PhysicsState */
-     , (10948, 101,        183) /* AiAllowedCombatStyle */
+     , (10948,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
+     , (10948, 101,        183) /* AiAllowedCombatStyle - Unarmed, OneHanded, OneHandedAndShield, Bow, Crossbow, ThrownWeapon */
      , (10948, 103,          3) /* GeneratorDestructionType - Kill */
      , (10948, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (10948, 140,          1) /* AiOptions */
@@ -80,7 +80,7 @@ VALUES (10948,   1,   33554496) /* Setup */
      , (10948,   7,  268436628) /* ClothingBase */
      , (10948,   8,  100667452) /* Icon */
      , (10948,  22,  872415270) /* PhysicsEffectTable */
-     , (10948,  35,        450) /* DeathTreasureType */;
+     , (10948,  35,        450) /* DeathTreasureType - Loot Tier: 3 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (10948,   1, 250, 0, 0) /* Strength */
@@ -178,7 +178,7 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,  17 /* LocalBroadcast */, 0, 0, NULL, 'As the drum-speaker Hea Kanokeh falls, the Nualuan warriors of Temenua''s party lose heart, and quickly leave the field of battle.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (10948, 2, 11004,  1, 0, 1, False) /* Create Kotiae for Wield */;
+VALUES (10948, 2, 11004,  1, 0, 1, False) /* Create Kotiae (11004) for Wield */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (10948, 1, 10937, 90, 3, 3, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0);
+VALUES (10948, 1, 10937, 90, 3, 3, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Hea Nualuan (10937) (x3 up to max of 3) - Regenerate upon Destruction - Location to (re)Generate: Scatter */;

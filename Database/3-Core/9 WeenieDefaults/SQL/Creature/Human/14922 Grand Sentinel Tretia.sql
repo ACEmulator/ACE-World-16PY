@@ -10,7 +10,7 @@ VALUES (14922,   1,         16) /* ItemType - Creature */
      , (14922,  16,         32) /* ItemUseable - Remote */
      , (14922,  25,        126) /* Level */
      , (14922,  27,          0) /* ArmorType */
-     , (14922,  93,    6292504) /* PhysicsState */
+     , (14922,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (14922,  95,          8) /* RadarBlipColor - Yellow */
      , (14922, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (14922, 134,         16) /* PlayerKillerStatus - RubberGlue */
@@ -204,4 +204,4 @@ VALUES (@parent_id,  0,   8 /* Say */, 1, 0, NULL, 'Welcome, friends and family!
      , (@parent_id,  9,   8 /* Say */, 2, 0, NULL, 'Use this Promise Gem as a final demonstration of your love.  When used, the of Marriage becomes complete.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (14922, 2,  5532,  0, 10, 0.5, False) /* Create Sentinel Jumpsuit for Wield */;
+VALUES (14922, 2,  5532,  0, 10, 0.5, False) /* Create Sentinel Jumpsuit (5532) for Wield */;

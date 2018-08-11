@@ -13,7 +13,7 @@ VALUES (22592,   1,         16) /* ItemType - Creature */
      , (22592,  40,          2) /* CombatMode - Melee */
      , (22592,  68,          9) /* TargetingTactic */
      , (22592,  72,         19) /* FriendType - Virindi */
-     , (22592,  93,    4195336) /* PhysicsState */
+     , (22592,  93,    4195336) /* PhysicsState - ReportCollisions, Gravity, EdgeSlide */
      , (22592, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (22592, 146,      20429) /* XpOverride */;
 
@@ -68,7 +68,7 @@ VALUES (22592,   1,   33556836) /* Setup */
      , (22592,   7,  268436063) /* ClothingBase */
      , (22592,   8,  100667443) /* Icon */
      , (22592,  22,  872415271) /* PhysicsEffectTable */
-     , (22592,  35,        456) /* DeathTreasureType */;
+     , (22592,  35,        456) /* DeathTreasureType - Loot Tier: 3 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (22592,   1, 350, 0, 0) /* Strength */
@@ -172,5 +172,5 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 268435538 /* Twitch2 */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (22592, 9,     0,  0, 0, 0.99, False) /* Create Unknown for ContainTreasure */
-     , (22592, 9, 22578,  0, 0, 0.01, False) /* Create Bunch of Nanners for ContainTreasure */;
+VALUES (22592, 9,     0,  0, 0, 0.99, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 3 for ContainTreasure */
+     , (22592, 9, 22578,  0, 0, 0.01, False) /* Create Bunch of Nanners (22578) for ContainTreasure */;

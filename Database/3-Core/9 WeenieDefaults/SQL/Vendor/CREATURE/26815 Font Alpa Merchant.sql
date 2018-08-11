@@ -10,10 +10,10 @@ VALUES (26815,   1,         16) /* ItemType - Creature */
      , (26815,  16,         32) /* ItemUseable - Remote */
      , (26815,  25,         10) /* Level */
      , (26815,  27,          0) /* ArmorType */
-     , (26815,  74,     264192) /* MerchandiseItemTypes */
+     , (26815,  74,     264192) /* MerchandiseItemTypes - Gem, PromissoryNote */
      , (26815,  75,          0) /* MerchandiseMinValue */
      , (26815,  76,    1000000) /* MerchandiseMaxValue */
-     , (26815,  93,    2098204) /* PhysicsState */
+     , (26815,  93,    2098204) /* PhysicsState - Ethereal, ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */
      , (26815, 126,        125) /* VendorHappyMean */
      , (26815, 127,        125) /* VendorHappyVariance */
      , (26815, 133,          4) /* ShowableOnRadar - ShowAlways */
@@ -97,4 +97,4 @@ VALUES (26815,  0,  4,  0,    0,    0,    0,    0,    0,    0,    0,    0,    0,
      , (26815,  8,  4,  2, 0.75,    0,    0,    0,    0,    0,    0,    0,    0,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (26815, 4, 26180, -1, 0, 0, False) /* Create Font Alpa Portal Gem for Shop */;
+VALUES (26815, 4, 26180, -1, 0, 0, False) /* Create Font Alpa Portal Gem (26180) for Shop */;

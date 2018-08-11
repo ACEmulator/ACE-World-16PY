@@ -7,7 +7,7 @@ VALUES (29606,   1,    4194304) /* ItemType - CraftCookingBase */
      , (29606,   8,       3000) /* Mass */
      , (29606,  16,          1) /* ItemUseable - No */
      , (29606,  19,        200) /* Value */
-     , (29606,  93,       1048) /* PhysicsState */;
+     , (29606,  93,       1048) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (29606,   1, True ) /* Stuck */

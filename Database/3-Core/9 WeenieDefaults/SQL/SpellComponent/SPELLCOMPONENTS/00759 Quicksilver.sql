@@ -14,7 +14,7 @@ VALUES (759,   1,       4096) /* ItemType - SpellComponents */
      , (759,  15,          5) /* StackUnitValue */
      , (759,  16,          1) /* ItemUseable - No */
      , (759,  19,          5) /* Value */
-     , (759,  93,       1044) /* PhysicsState */;
+     , (759,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (759,   1, 'Quicksilver') /* Name */

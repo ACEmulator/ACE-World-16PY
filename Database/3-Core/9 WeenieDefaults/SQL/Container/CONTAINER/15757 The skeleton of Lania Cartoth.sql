@@ -11,7 +11,7 @@ VALUES (15757,   1,        512) /* ItemType - Container */
      , (15757,  19,          0) /* Value */
      , (15757,  81,          1) /* MaxGeneratedObjects */
      , (15757,  82,          1) /* InitGeneratedObjects */
-     , (15757,  93,       1048) /* PhysicsState */
+     , (15757,  93,       1048) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity */
      , (15757,  96,        500) /* EncumbranceCapacity */
      , (15757, 100,          1) /* GeneratorType - Relative */;
 
@@ -40,4 +40,4 @@ VALUES (15757,   1,   33555405) /* Setup */
      , (15757,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (15757, -1, 15804, 10, 1, 1, 2, 8, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0);
+VALUES (15757, -1, 15804, 10, 1, 1, 2, 8, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Elysa Strathelar's Letter to Lania Cartoth (15804) (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: Contain */;

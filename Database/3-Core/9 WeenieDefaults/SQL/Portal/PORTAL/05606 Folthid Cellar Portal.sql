@@ -5,7 +5,7 @@ INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (5606,   1,      65536) /* ItemType - Portal */
      , (5606,  16,         32) /* ItemUseable - Remote */
      , (5606,  86,         12) /* MinLevel */
-     , (5606,  93,       3084) /* PhysicsState */
+     , (5606,  93,       3084) /* PhysicsState - Ethereal, ReportCollisions, Gravity, LightingOn */
      , (5606, 111,          1) /* PortalBitmask - Unrestricted */
      , (5606, 133,          4) /* ShowableOnRadar - ShowAlways */;
 

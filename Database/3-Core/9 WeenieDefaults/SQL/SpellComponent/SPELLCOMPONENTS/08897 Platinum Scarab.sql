@@ -15,7 +15,7 @@ VALUES (8897,   1,       4096) /* ItemType - SpellComponents */
      , (8897,  16,          1) /* ItemUseable - No */
      , (8897,  19,      40000) /* Value */
      , (8897,  33,          1) /* Bonded - Bonded */
-     , (8897,  93,       1044) /* PhysicsState */
+     , (8897,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (8897, 150,        103) /* HookPlacement - Hook */
      , (8897, 151,          2) /* HookType - Wall */;
 

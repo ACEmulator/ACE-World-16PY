@@ -8,7 +8,7 @@ VALUES (25798,   1,        128) /* ItemType - Misc */
      , (25798,  16,          1) /* ItemUseable - No */
      , (25798,  19,        100) /* Value */
      , (25798,  33,          1) /* Bonded - Bonded */
-     , (25798,  93,       1044) /* PhysicsState */
+     , (25798,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (25798, 114,          1) /* Attuned - Attuned */
      , (25798, 150,        103) /* HookPlacement - Hook */
      , (25798, 151,          2) /* HookType - Wall */;

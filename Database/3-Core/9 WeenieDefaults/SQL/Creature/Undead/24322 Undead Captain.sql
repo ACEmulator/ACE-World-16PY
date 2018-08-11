@@ -12,8 +12,8 @@ VALUES (24322,   1,         16) /* ItemType - Creature */
      , (24322,  27,          0) /* ArmorType */
      , (24322,  40,          1) /* CombatMode - NonCombat */
      , (24322,  68,          3) /* TargetingTactic */
-     , (24322,  93,    4195336) /* PhysicsState */
-     , (24322, 101,        183) /* AiAllowedCombatStyle */
+     , (24322,  93,    4195336) /* PhysicsState - ReportCollisions, Gravity, EdgeSlide */
+     , (24322, 101,        183) /* AiAllowedCombatStyle - Unarmed, OneHanded, OneHandedAndShield, Bow, Crossbow, ThrownWeapon */
      , (24322, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (24322, 140,          1) /* AiOptions */
      , (24322, 146,      30683) /* XpOverride */;
@@ -72,8 +72,21 @@ VALUES (24322,   1,   33554839) /* Setup */
      , (24322,   7,  268436626) /* ClothingBase */
      , (24322,   8,  100667942) /* Icon */
      , (24322,  22,  872415272) /* PhysicsEffectTable */
-     , (24322,  32,        203) /* WieldedTreasureType */
-     , (24322,  35,        448) /* DeathTreasureType */;
+     , (24322,  32,        203) /* WieldedTreasureType - 
+                                   Wield Yumi (23734) | Probability: 20%
+                                   Wield 20x Deadly Arrow (15429) | Probability: 100%
+                                   Wield Heavy Crossbow (23665) | Probability: 40%
+                                   Wield 20x Deadly Quarrel (15438) | Probability: 100%
+                                   Wield Katar (23674) | Probability: 12%
+                                   Wield Cestus (23637) | Probability: 12%
+                                   Wield Nekode (23680) | Probability: 12%
+                                   Wield Tachi (23700) | Probability: 12%
+                                   Wield Spear (23696) | Probability: 12%
+                                   Wield Fire Yaoji (23718) | Probability: 12%
+                                   Wield Yaoji (23710) | Probability: 12%
+                                   Wield Fire Tachi (23707) | Probability: 12%
+                                   Wield Kite Shield (23684) | Probability: 75% */
+     , (24322,  35,        448) /* DeathTreasureType - Loot Tier: 4 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (24322,   1, 280, 0, 0) /* Strength */
@@ -160,5 +173,5 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,  10 /* Tell */, 0, 1, NULL, 'Your blow was a telling one, but these dead men tell tales and ours are not at an end yet.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (24322, 9,     0,  0, 0, 0.98, False) /* Create Unknown for ContainTreasure */
-     , (24322, 9,  6876,  0, 0, 0.02, False) /* Create Sturdy Iron Key for ContainTreasure */;
+VALUES (24322, 9,     0,  0, 0, 0.98, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 4 for ContainTreasure */
+     , (24322, 9,  6876,  0, 0, 0.02, False) /* Create Sturdy Iron Key (6876) for ContainTreasure */;

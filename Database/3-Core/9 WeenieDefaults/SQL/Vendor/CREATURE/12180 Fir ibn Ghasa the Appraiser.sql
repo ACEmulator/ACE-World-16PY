@@ -13,7 +13,7 @@ VALUES (12180,   1,         16) /* ItemType - Creature */
      , (12180,  74,     262144) /* MerchandiseItemTypes - PromissoryNote */
      , (12180,  75,          0) /* MerchandiseMinValue */
      , (12180,  76,     100000) /* MerchandiseMaxValue */
-     , (12180,  93,    2098200) /* PhysicsState */
+     , (12180,  93,    2098200) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */
      , (12180, 126,        500) /* VendorHappyMean */
      , (12180, 127,        500) /* VendorHappyVariance */
      , (12180, 133,          4) /* ShowableOnRadar - ShowAlways */
@@ -167,20 +167,20 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 318767235 /* Nod */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (12180, 2,  5850,  0, 14, 0.67, False) /* Create Faran Robe for Wield */
-     , (12180, 4,  9550, -1, 0, 0, False) /* Create Armor Expertise III for Shop */
-     , (12180, 4,  9551, -1, 0, 0, False) /* Create Armor Expertise IV for Shop */
-     , (12180, 4,  9552, -1, 0, 0, False) /* Create Armor Expertise V for Shop */
-     , (12180, 4,  9553, -1, 0, 0, False) /* Create Armor Expertise VI for Shop */
-     , (12180, 4,  9554, -1, 0, 0, False) /* Create Magic Item Expertise III for Shop */
-     , (12180, 4,  9555, -1, 0, 0, False) /* Create Magic Item Expertise IV for Shop */
-     , (12180, 4,  9556, -1, 0, 0, False) /* Create Magic Item Expertise V for Shop */
-     , (12180, 4,  9557, -1, 0, 0, False) /* Create Magic Item Expertise VI for Shop */
-     , (12180, 4,  9558, -1, 0, 0, False) /* Create Weapon Expertise III for Shop */
-     , (12180, 4,  9559, -1, 0, 0, False) /* Create Weapon Expertise IV for Shop */
-     , (12180, 4,  9560, -1, 0, 0, False) /* Create Weapon Expertise V for Shop */
-     , (12180, 4,  9561, -1, 0, 0, False) /* Create Weapon Expertise VI for Shop */
-     , (12180, 4, 12181, -1, 0, 0, False) /* Create Item Expertise III for Shop */
-     , (12180, 4, 12182, -1, 0, 0, False) /* Create Item Expertise IV for Shop */
-     , (12180, 4, 12183, -1, 0, 0, False) /* Create Item Expertise V for Shop */
-     , (12180, 4, 12184, -1, 0, 0, False) /* Create Item Expertise VI for Shop */;
+VALUES (12180, 2,  5850,  0, 14, 0.67, False) /* Create Faran Robe (5850) for Wield */
+     , (12180, 4,  9550, -1, 0, 0, False) /* Create Armor Expertise III (9550) for Shop */
+     , (12180, 4,  9551, -1, 0, 0, False) /* Create Armor Expertise IV (9551) for Shop */
+     , (12180, 4,  9552, -1, 0, 0, False) /* Create Armor Expertise V (9552) for Shop */
+     , (12180, 4,  9553, -1, 0, 0, False) /* Create Armor Expertise VI (9553) for Shop */
+     , (12180, 4,  9554, -1, 0, 0, False) /* Create Magic Item Expertise III (9554) for Shop */
+     , (12180, 4,  9555, -1, 0, 0, False) /* Create Magic Item Expertise IV (9555) for Shop */
+     , (12180, 4,  9556, -1, 0, 0, False) /* Create Magic Item Expertise V (9556) for Shop */
+     , (12180, 4,  9557, -1, 0, 0, False) /* Create Magic Item Expertise VI (9557) for Shop */
+     , (12180, 4,  9558, -1, 0, 0, False) /* Create Weapon Expertise III (9558) for Shop */
+     , (12180, 4,  9559, -1, 0, 0, False) /* Create Weapon Expertise IV (9559) for Shop */
+     , (12180, 4,  9560, -1, 0, 0, False) /* Create Weapon Expertise V (9560) for Shop */
+     , (12180, 4,  9561, -1, 0, 0, False) /* Create Weapon Expertise VI (9561) for Shop */
+     , (12180, 4, 12181, -1, 0, 0, False) /* Create Item Expertise III (12181) for Shop */
+     , (12180, 4, 12182, -1, 0, 0, False) /* Create Item Expertise IV (12182) for Shop */
+     , (12180, 4, 12183, -1, 0, 0, False) /* Create Item Expertise V (12183) for Shop */
+     , (12180, 4, 12184, -1, 0, 0, False) /* Create Item Expertise VI (12184) for Shop */;

@@ -12,8 +12,8 @@ VALUES (24276,   1,         16) /* ItemType - Creature */
      , (24276,  27,          0) /* ArmorType */
      , (24276,  40,          2) /* CombatMode - Melee */
      , (24276,  68,          3) /* TargetingTactic */
-     , (24276,  93,       1032) /* PhysicsState */
-     , (24276, 101,        131) /* AiAllowedCombatStyle */
+     , (24276,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
+     , (24276, 101,        131) /* AiAllowedCombatStyle - Unarmed, OneHanded, ThrownWeapon */
      , (24276, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (24276, 140,          1) /* AiOptions */
      , (24276, 146,      71915) /* XpOverride */;
@@ -73,7 +73,7 @@ VALUES (24276,   1,   33558024) /* Setup */
      , (24276,   7,  268436611) /* ClothingBase */
      , (24276,   8,  100667453) /* Icon */
      , (24276,  22,  872415255) /* PhysicsEffectTable */
-     , (24276,  35,        452) /* DeathTreasureType */;
+     , (24276,  35,        452) /* DeathTreasureType - Loot Tier: 5 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (24276,   1, 370, 0, 0) /* Strength */
@@ -183,9 +183,9 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 268435537 /* Twitch1 */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (24276, 9,     0,  0, 0, 0.97, False) /* Create Unknown for ContainTreasure */
-     , (24276, 9,     0,  0, 0, 0.97, False) /* Create Unknown for ContainTreasure */
-     , (24276, 9,     0,  0, 0, 0.995, False) /* Create Unknown for ContainTreasure */
-     , (24276, 9, 24477,  0, 0, 0.03, False) /* Create Sturdy Steel Key for ContainTreasure */
-     , (24276, 9, 24829,  0, 0, 0.03, False) /* Create Banderling Savage Arm for ContainTreasure */
-     , (24276, 9, 30400,  0, 0, 0.005, False) /* Create Niffis Fighting Pits for ContainTreasure */;
+VALUES (24276, 9,     0,  0, 0, 0.97, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 5 for ContainTreasure */
+     , (24276, 9,     0,  0, 0, 0.97, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 5 for ContainTreasure */
+     , (24276, 9,     0,  0, 0, 0.995, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 5 for ContainTreasure */
+     , (24276, 9, 24477,  0, 0, 0.03, False) /* Create Sturdy Steel Key (24477) for ContainTreasure */
+     , (24276, 9, 24829,  0, 0, 0.03, False) /* Create Banderling Savage Arm (24829) for ContainTreasure */
+     , (24276, 9, 30400,  0, 0, 0.005, False) /* Create Niffis Fighting Pits (30400) for ContainTreasure */;

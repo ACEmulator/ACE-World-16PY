@@ -4,15 +4,15 @@ VALUES ('24174', 'shirtchainjaleh', 2) /* Clothing */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (24174,   1,          2) /* ItemType - Armor */
      , (24174,   3,          2) /* PaletteTemplate - Blue */
-     , (24174,   4,       5120) /* ClothingPriority */
+     , (24174,   4,       5120) /* ClothingPriority - OuterwearChest, OuterwearUpperArms */
      , (24174,   5,        240) /* EncumbranceVal */
      , (24174,   8,        680) /* Mass */
-     , (24174,   9,       2560) /* ValidLocations */
+     , (24174,   9,       2560) /* ValidLocations - ChestArmor, UpperArmArmor */
      , (24174,  16,          1) /* ItemUseable - No */
      , (24174,  19,      12500) /* Value */
      , (24174,  27,         16) /* ArmorType */
      , (24174,  28,        210) /* ArmorLevel */
-     , (24174,  93,       1044) /* PhysicsState */
+     , (24174,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (24174, 106,        250) /* ItemSpellcraft */
      , (24174, 107,       1320) /* ItemCurMana */
      , (24174, 108,       1320) /* ItemMaxMana */

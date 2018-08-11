@@ -11,7 +11,7 @@ VALUES (30629,   1,         16) /* ItemType - Creature */
      , (30629,  16,         32) /* ItemUseable - Remote */
      , (30629,  25,         80) /* Level */
      , (30629,  27,          0) /* ArmorType */
-     , (30629,  93,    6292504) /* PhysicsState */
+     , (30629,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (30629,  95,          8) /* RadarBlipColor - Yellow */
      , (30629, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (30629, 134,         16) /* PlayerKillerStatus - RubberGlue */
@@ -238,8 +238,8 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,  10 /* Tell */, 0, 1, NULL, 'I am searching for someone to do some scouting for me. Unfortunately, you are as yet too weak to complete this task.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (30629, 2,   362,  0, 0, 0, False) /* Create Yari for Wield */
-     , (30629, 2,  8660,  0, 0, 0, False) /* Create Shreth Hide Shoes for Wield */
-     , (30629, 2,  8663,  0, 0, 0, False) /* Create Ursuin Hide Helmet for Wield */
-     , (30629, 2, 23780,  0, 0, 0, False) /* Create Hardened Amuli Coat for Wield */
-     , (30629, 2, 23788,  0, 0, 0, False) /* Create Hardened Amuli Leggings for Wield */;
+VALUES (30629, 2,   362,  0, 0, 0, False) /* Create Yari (362) for Wield */
+     , (30629, 2,  8660,  0, 0, 0, False) /* Create Shreth Hide Shoes (8660) for Wield */
+     , (30629, 2,  8663,  0, 0, 0, False) /* Create Ursuin Hide Helmet (8663) for Wield */
+     , (30629, 2, 23780,  0, 0, 0, False) /* Create Hardened Amuli Coat (23780) for Wield */
+     , (30629, 2, 23788,  0, 0, 0, False) /* Create Hardened Amuli Leggings (23788) for Wield */;

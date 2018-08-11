@@ -14,7 +14,7 @@ VALUES (10798,   1,         16) /* ItemType - Creature */
      , (10798,  69,          4) /* CombatTactic */
      , (10798,  81,          4) /* MaxGeneratedObjects */
      , (10798,  82,          0) /* InitGeneratedObjects */
-     , (10798,  93,       3080) /* PhysicsState */
+     , (10798,  93,       3080) /* PhysicsState - ReportCollisions, Gravity, LightingOn */
      , (10798, 103,          1) /* GeneratorDestructionType - Nothing */
      , (10798, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (10798, 146,      22211) /* XpOverride */;
@@ -75,7 +75,7 @@ VALUES (10798,   1,   33557097) /* Setup */
      , (10798,   4,  805306407) /* CombatTable */
      , (10798,   8,  100671702) /* Icon */
      , (10798,  22,  872415375) /* PhysicsEffectTable */
-     , (10798,  35,        462) /* DeathTreasureType */;
+     , (10798,  35,        462) /* DeathTreasureType - Loot Tier: 3 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (10798,   1, 140, 0, 0) /* Strength */
@@ -123,7 +123,7 @@ VALUES (10798,  94) /* ATTACK_NOTIFICATION_EVENT */
      , (10798, 414) /* PLAYER_DEATH_EVENT */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (10798, 0.5, 10789, 1800, 1, 1, 1, 4, -1, 0, 0, 0, -2, -1, 9, 0.8191521, 0, 0, -0.5735765)
-     , (10798, 0.75, 10825, 1800, 1, 1, 1, 4, -1, 0, 0, 0, 2.4, 3.4, 9, 0.9659258, 0, 0, -0.258819)
-     , (10798, 0.85, 10790, 1800, 1, 1, 1, 4, -1, 0, 0, 0, 2.4, -1.4, 9, 0.9961947, 0, 0, -0.08715574)
-     , (10798, 0.9, 10775, 1800, 1, 1, 1, 4, -1, 0, 0, 0, -2, -2, 9, 0.9961947, 0, 0, -0.08715574);
+VALUES (10798, 0.5, 10789, 1800, 1, 1, 1, 4, -1, 0, 0, 0, -2, -1, 9, 0.8191521, 0, 0, -0.5735765) /* Generate Terebrous Hollow Minion (10789) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
+     , (10798, 0.75, 10825, 1800, 1, 1, 1, 4, -1, 0, 0, 0, 2.4, 3.4, 9, 0.9659258, 0, 0, -0.258819) /* Generate Virindi Observer (10825) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
+     , (10798, 0.85, 10790, 1800, 1, 1, 1, 4, -1, 0, 0, 0, 2.4, -1.4, 9, 0.9961947, 0, 0, -0.08715574) /* Generate Tumideon Hollow Minion (10790) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
+     , (10798, 0.9, 10775, 1800, 1, 1, 1, 4, -1, 0, 0, 0, -2, -2, 9, 0.9961947, 0, 0, -0.08715574) /* Generate Augmented Drudge (10775) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */;

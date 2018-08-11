@@ -11,7 +11,7 @@ VALUES (22642,   1,         16) /* ItemType - Creature */
      , (22642,  16,         32) /* ItemUseable - Remote */
      , (22642,  25,         18) /* Level */
      , (22642,  27,          0) /* ArmorType */
-     , (22642,  93,    6292504) /* PhysicsState */
+     , (22642,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (22642,  95,          8) /* RadarBlipColor - Yellow */
      , (22642, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (22642, 134,         16) /* PlayerKillerStatus - RubberGlue */
@@ -549,4 +549,4 @@ VALUES (@parent_id,  0,  10 /* Tell */, 0, 1, NULL, 'I''m Brighteyes. I can''t r
      , (@parent_id,  6,  10 /* Tell */, 4.5, 1, NULL, 'Give me one of their tusks and I''ll be sure to reward you well.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (22642, 2, 10757,  0, 0, 0, False) /* Create Towel for Wield */;
+VALUES (22642, 2, 10757,  0, 0, 0, False) /* Create Towel (10757) for Wield */;

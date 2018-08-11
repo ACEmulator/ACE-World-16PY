@@ -4,8 +4,8 @@ VALUES ('6634', 'portalsubterraneancavernvault', 7) /* Portal */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (6634,   1,      65536) /* ItemType - Portal */
      , (6634,  16,         32) /* ItemUseable - Remote */
-     , (6634,  93,       2060) /* PhysicsState */
-     , (6634, 111,         17) /* PortalBitmask */
+     , (6634,  93,       2060) /* PhysicsState - Ethereal, ReportCollisions, LightingOn */
+     , (6634, 111,         17) /* PortalBitmask - Unrestricted, NoSummon */
      , (6634, 133,          1) /* ShowableOnRadar - ShowNever */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)

@@ -12,8 +12,8 @@ VALUES (27661,   1,         16) /* ItemType - Creature */
      , (27661,  27,          0) /* ArmorType */
      , (27661,  40,          2) /* CombatMode - Melee */
      , (27661,  68,         13) /* TargetingTactic */
-     , (27661,  93,       1032) /* PhysicsState */
-     , (27661, 101,        131) /* AiAllowedCombatStyle */
+     , (27661,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
+     , (27661, 101,        131) /* AiAllowedCombatStyle - Unarmed, OneHanded, ThrownWeapon */
      , (27661, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (27661, 140,          1) /* AiOptions */
      , (27661, 146,    5000000) /* XpOverride */;
@@ -70,7 +70,7 @@ VALUES (27661,   1,   33558747) /* Setup */
      , (27661,   7,  268436789) /* ClothingBase */
      , (27661,   8,  100675761) /* Icon */
      , (27661,  22,  872415264) /* PhysicsEffectTable */
-     , (27661,  35,         32) /* DeathTreasureType */;
+     , (27661,  35,         32) /* DeathTreasureType - Loot Tier: 6 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (27661,   1, 400, 0, 0) /* Strength */
@@ -183,25 +183,25 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 268435537 /* Twitch1 */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (27661, 9,     0,  0, 0, 0, False) /* Create Unknown for ContainTreasure */
-     , (27661, 9,     0,  0, 0, 0, False) /* Create Unknown for ContainTreasure */
-     , (27661, 9,     0,  0, 0, 0, False) /* Create Unknown for ContainTreasure */
-     , (27661, 9,     0,  0, 0, 0, False) /* Create Unknown for ContainTreasure */
-     , (27661, 9,     0,  0, 0, 0, False) /* Create Unknown for ContainTreasure */
-     , (27661, 9,     0,  0, 0, 0, False) /* Create Unknown for ContainTreasure */
-     , (27661, 9,     0,  0, 0, 0, False) /* Create Unknown for ContainTreasure */
-     , (27661, 9,     0,  0, 0, 0, False) /* Create Unknown for ContainTreasure */
-     , (27661, 9,     0,  0, 0, 0, False) /* Create Unknown for ContainTreasure */
-     , (27661, 9,     0,  0, 0, 0, False) /* Create Unknown for ContainTreasure */
-     , (27661, 9,     0,  0, 0, 0, False) /* Create Unknown for ContainTreasure */
-     , (27661, 9, 28487,  1, 0, 1, False) /* Create Morgluuk's Head for ContainTreasure */
-     , (27661, 9, 28488,  1, 0, 1, False) /* Create Morgluuk's Flesh for ContainTreasure */
-     , (27661, 9, 28488,  1, 0, 1, False) /* Create Morgluuk's Flesh for ContainTreasure */
-     , (27661, 9, 28488,  1, 0, 1, False) /* Create Morgluuk's Flesh for ContainTreasure */
-     , (27661, 9, 28488,  1, 0, 1, False) /* Create Morgluuk's Flesh for ContainTreasure */
-     , (27661, 9, 28488,  1, 0, 1, False) /* Create Morgluuk's Flesh for ContainTreasure */
-     , (27661, 9, 28488,  1, 0, 1, False) /* Create Morgluuk's Flesh for ContainTreasure */
-     , (27661, 9, 28488,  1, 0, 1, False) /* Create Morgluuk's Flesh for ContainTreasure */
-     , (27661, 9, 28488,  1, 0, 1, False) /* Create Morgluuk's Flesh for ContainTreasure */
-     , (27661, 9, 28488,  1, 0, 1, False) /* Create Morgluuk's Flesh for ContainTreasure */
-     , (27661, 9, 28488,  1, 0, 1, False) /* Create Morgluuk's Flesh for ContainTreasure */;
+VALUES (27661, 9,     0,  0, 0, 0, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 6 for ContainTreasure */
+     , (27661, 9,     0,  0, 0, 0, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 6 for ContainTreasure */
+     , (27661, 9,     0,  0, 0, 0, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 6 for ContainTreasure */
+     , (27661, 9,     0,  0, 0, 0, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 6 for ContainTreasure */
+     , (27661, 9,     0,  0, 0, 0, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 6 for ContainTreasure */
+     , (27661, 9,     0,  0, 0, 0, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 6 for ContainTreasure */
+     , (27661, 9,     0,  0, 0, 0, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 6 for ContainTreasure */
+     , (27661, 9,     0,  0, 0, 0, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 6 for ContainTreasure */
+     , (27661, 9,     0,  0, 0, 0, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 6 for ContainTreasure */
+     , (27661, 9,     0,  0, 0, 0, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 6 for ContainTreasure */
+     , (27661, 9,     0,  0, 0, 0, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 6 for ContainTreasure */
+     , (27661, 9, 28487,  1, 0, 1, False) /* Create Morgluuk's Head (28487) for ContainTreasure */
+     , (27661, 9, 28488,  1, 0, 1, False) /* Create Morgluuk's Flesh (28488) for ContainTreasure */
+     , (27661, 9, 28488,  1, 0, 1, False) /* Create Morgluuk's Flesh (28488) for ContainTreasure */
+     , (27661, 9, 28488,  1, 0, 1, False) /* Create Morgluuk's Flesh (28488) for ContainTreasure */
+     , (27661, 9, 28488,  1, 0, 1, False) /* Create Morgluuk's Flesh (28488) for ContainTreasure */
+     , (27661, 9, 28488,  1, 0, 1, False) /* Create Morgluuk's Flesh (28488) for ContainTreasure */
+     , (27661, 9, 28488,  1, 0, 1, False) /* Create Morgluuk's Flesh (28488) for ContainTreasure */
+     , (27661, 9, 28488,  1, 0, 1, False) /* Create Morgluuk's Flesh (28488) for ContainTreasure */
+     , (27661, 9, 28488,  1, 0, 1, False) /* Create Morgluuk's Flesh (28488) for ContainTreasure */
+     , (27661, 9, 28488,  1, 0, 1, False) /* Create Morgluuk's Flesh (28488) for ContainTreasure */
+     , (27661, 9, 28488,  1, 0, 1, False) /* Create Morgluuk's Flesh (28488) for ContainTreasure */;

@@ -13,11 +13,11 @@ VALUES (22791,   1,          1) /* ItemType - MeleeWeapon */
      , (22791,  44,         30) /* Damage */
      , (22791,  45,          2) /* DamageType - Pierce */
      , (22791,  46,          2) /* DefaultCombatStyle - OneHanded */
-     , (22791,  47,        130) /* AttackType */
+     , (22791,  47,        130) /* AttackType - Thrust, DoubleThrust */
      , (22791,  48,         11) /* WeaponSkill - Sword */
      , (22791,  49,          1) /* WeaponTime */
      , (22791,  51,          1) /* CombatUse - Melee */
-     , (22791,  93,       1044) /* PhysicsState */
+     , (22791,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (22791, 114,          1) /* Attuned - Attuned */
      , (22791, 179,          4) /* ImbuedEffect - ArmorRending */;
 

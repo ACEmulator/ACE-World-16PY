@@ -9,7 +9,7 @@ VALUES (25284,   1,       8192) /* ItemType - Writable */
      , (25284,  16,         48) /* ItemUseable - ViewedRemote */
      , (25284,  19,      50000) /* Value */
      , (25284,  33,          1) /* Bonded - Bonded */
-     , (25284,  93,       1044) /* PhysicsState */
+     , (25284,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (25284, 150,        103) /* HookPlacement - Hook */
      , (25284, 151,          2) /* HookType - Wall */
      , (25284, 197,          8) /* HookGroup */;

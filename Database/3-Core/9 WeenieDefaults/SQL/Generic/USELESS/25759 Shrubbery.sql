@@ -7,7 +7,7 @@ VALUES (25759,   1,       1024) /* ItemType - Useless */
      , (25759,   8,        500) /* Mass */
      , (25759,  16,          1) /* ItemUseable - No */
      , (25759,  19,       6000) /* Value */
-     , (25759,  93,       1044) /* PhysicsState */
+     , (25759,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (25759, 150,        103) /* HookPlacement - Hook */
      , (25759, 151,          8) /* HookType - Yard */;
 

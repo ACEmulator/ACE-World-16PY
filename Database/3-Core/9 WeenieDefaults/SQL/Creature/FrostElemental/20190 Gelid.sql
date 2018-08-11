@@ -12,8 +12,8 @@ VALUES (20190,   1,         16) /* ItemType - Creature */
      , (20190,  68,          5) /* TargetingTactic */
      , (20190,  81,          2) /* MaxGeneratedObjects */
      , (20190,  82,          2) /* InitGeneratedObjects */
-     , (20190,  93,       3080) /* PhysicsState */
-     , (20190, 101,        183) /* AiAllowedCombatStyle */
+     , (20190,  93,       3080) /* PhysicsState - ReportCollisions, Gravity, LightingOn */
+     , (20190, 101,        183) /* AiAllowedCombatStyle - Unarmed, OneHanded, OneHandedAndShield, Bow, Crossbow, ThrownWeapon */
      , (20190, 103,          3) /* GeneratorDestructionType - Kill */
      , (20190, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (20190, 140,          1) /* AiOptions */
@@ -73,7 +73,7 @@ VALUES (20190,   1,   33557487) /* Setup */
      , (20190,   4,  805306368) /* CombatTable */
      , (20190,   8,  100672514) /* Icon */
      , (20190,  22,  872415349) /* PhysicsEffectTable */
-     , (20190,  35,        464) /* DeathTreasureType */;
+     , (20190,  35,        464) /* DeathTreasureType - Loot Tier: 5 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (20190,   1, 250, 0, 0) /* Strength */
@@ -147,9 +147,9 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,  10 /* Tell */, 0, 1, NULL, 'We are the memories of the first given form. You cannot defeat us for our souls live on. Remember well this chill for it will be with you always.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (20190, 9,     0,  0, 0, 0.97, False) /* Create Unknown for ContainTreasure */
-     , (20190, 9,  6876,  0, 0, 0.03, False) /* Create Sturdy Iron Key for ContainTreasure */;
+VALUES (20190, 9,     0,  0, 0, 0.97, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 5 for ContainTreasure */
+     , (20190, 9,  6876,  0, 0, 0.03, False) /* Create Sturdy Iron Key (6876) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (20190, -1, 14517, 20, 3, 3, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0)
-     , (20190, -1, 20191, 20, 3, 3, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0);
+VALUES (20190, -1, 14517, 20, 3, 3, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Frost (14517) (x3 up to max of 3) - Regenerate upon Destruction - Location to (re)Generate: Scatter */
+     , (20190, -1, 20191, 20, 3, 3, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Horripal (20191) (x3 up to max of 3) - Regenerate upon Destruction - Location to (re)Generate: Scatter */;

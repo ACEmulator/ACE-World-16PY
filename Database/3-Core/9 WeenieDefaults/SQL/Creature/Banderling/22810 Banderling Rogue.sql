@@ -12,8 +12,8 @@ VALUES (22810,   1,         16) /* ItemType - Creature */
      , (22810,  27,          0) /* ArmorType */
      , (22810,  40,          2) /* CombatMode - Melee */
      , (22810,  68,          3) /* TargetingTactic */
-     , (22810,  93,       1032) /* PhysicsState */
-     , (22810, 101,        131) /* AiAllowedCombatStyle */
+     , (22810,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
+     , (22810, 101,        131) /* AiAllowedCombatStyle - Unarmed, OneHanded, ThrownWeapon */
      , (22810, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (22810, 140,          1) /* AiOptions */
      , (22810, 146,      10472) /* XpOverride */;
@@ -69,8 +69,12 @@ VALUES (22810,   1,   33558024) /* Setup */
      , (22810,   7,  268436496) /* ClothingBase */
      , (22810,   8,  100667453) /* Icon */
      , (22810,  22,  872415255) /* PhysicsEffectTable */
-     , (22810,  32,        300) /* WieldedTreasureType */
-     , (22810,  35,        451) /* DeathTreasureType */;
+     , (22810,  32,        300) /* WieldedTreasureType - 
+                                   Wield Club (23647) | Probability: 20%
+                                   Wield 15x Frost Throwing Club (23662) | Probability: 20%
+                                   Wield 15x Throwing Club (23654) | Probability: 20%
+                                   Wield Club (23650) | Probability: 20% */
+     , (22810,  35,        451) /* DeathTreasureType - Loot Tier: 2 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (22810,   1, 225, 0, 0) /* Strength */
@@ -174,5 +178,5 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 268435537 /* Twitch1 */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (22810, 9,     0,  0, 0, 0.97, False) /* Create Unknown for ContainTreasure */
-     , (22810, 9,  7825,  0, 0, 0.03, False) /* Create Brown Beans for ContainTreasure */;
+VALUES (22810, 9,     0,  0, 0, 0.97, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 2 for ContainTreasure */
+     , (22810, 9,  7825,  0, 0, 0.03, False) /* Create Brown Beans (7825) for ContainTreasure */;

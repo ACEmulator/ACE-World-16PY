@@ -4,7 +4,7 @@ VALUES ('29813', 'dresssiraluunmarsh', 2) /* Clothing */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (29813,   1,          4) /* ItemType - Clothing */
      , (29813,   3,          1) /* PaletteTemplate - AquaBlue */
-     , (29813,   4,      81664) /* ClothingPriority */
+     , (29813,   4,      81664) /* ClothingPriority - OuterwearUpperLegs, OuterwearLowerLegs, OuterwearChest, OuterwearAbdomen, OuterwearUpperArms, OuterwearLowerArms, Feet */
      , (29813,   5,        500) /* EncumbranceVal */
      , (29813,   8,        150) /* Mass */
      , (29813,   9,      32512) /* ValidLocations - Armor */
@@ -13,7 +13,7 @@ VALUES (29813,   1,          4) /* ItemType - Clothing */
      , (29813,  19,       2000) /* Value */
      , (29813,  27,          1) /* ArmorType */
      , (29813,  28,         50) /* ArmorLevel */
-     , (29813,  93,       1044) /* PhysicsState */
+     , (29813,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (29813, 107,        800) /* ItemCurMana */
      , (29813, 108,        800) /* ItemMaxMana */
      , (29813, 109,         25) /* ItemDifficulty */

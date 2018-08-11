@@ -12,8 +12,8 @@ VALUES (24319,   1,         16) /* ItemType - Creature */
      , (24319,  27,          0) /* ArmorType */
      , (24319,  40,          1) /* CombatMode - NonCombat */
      , (24319,  68,          3) /* TargetingTactic */
-     , (24319,  93,       1032) /* PhysicsState */
-     , (24319, 101,        183) /* AiAllowedCombatStyle */
+     , (24319,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
+     , (24319, 101,        183) /* AiAllowedCombatStyle - Unarmed, OneHanded, OneHandedAndShield, Bow, Crossbow, ThrownWeapon */
      , (24319, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (24319, 140,          1) /* AiOptions */
      , (24319, 146,      30683) /* XpOverride */;
@@ -72,8 +72,17 @@ VALUES (24319,   1,   33554839) /* Setup */
      , (24319,   7,  268436626) /* ClothingBase */
      , (24319,   8,  100667942) /* Icon */
      , (24319,  22,  872415272) /* PhysicsEffectTable */
-     , (24319,  32,        291) /* WieldedTreasureType */
-     , (24319,  35,        448) /* DeathTreasureType */;
+     , (24319,  32,        291) /* WieldedTreasureType - 
+                                   Wield 5x Frost Throwing Club (23663) | Probability: 40%
+                                   Wield 5x Throwing Club (23655) | Probability: 30%
+                                   Wield Yumi (23736) | Probability: 30%
+                                   Wield 18x Greater Arrow (5304) | Probability: 100%
+                                   Wield Frost Yari (23728) | Probability: 25%
+                                   Wield Yari (23732) | Probability: 25%
+                                   Wield Frost Spear (23694) | Probability: 15%
+                                   Wield Spear (23698) | Probability: 15%
+                                   Wield Tachi (23702) | Probability: 20% */
+     , (24319,  35,        448) /* DeathTreasureType - Loot Tier: 4 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (24319,   1, 280, 0, 0) /* Strength */
@@ -148,13 +157,13 @@ VALUES (24319,  94) /* ATTACK_NOTIFICATION_EVENT */
      , (24319, 414) /* PLAYER_DEATH_EVENT */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (24319, 9,     0,  0, 0, 0.98, False) /* Create Unknown for ContainTreasure */
-     , (24319, 9,     0,  0, 0, 0.97, False) /* Create Unknown for ContainTreasure */
-     , (24319, 9,     0,  0, 0, 0.93, False) /* Create Unknown for ContainTreasure */
-     , (24319, 9,     0,  0, 0, 0.97, False) /* Create Unknown for ContainTreasure */
-     , (24319, 9,     0,  0, 0, 0.95, False) /* Create Unknown for ContainTreasure */
-     , (24319, 9,  5873,  0, 0, 0.03, False) /* Create Seal for ContainTreasure */
-     , (24319, 9,  6876,  0, 0, 0.02, False) /* Create Sturdy Iron Key for ContainTreasure */
-     , (24319, 9,  9310,  0, 0, 0.07, False) /* Create A Large Mnemosyne for ContainTreasure */
-     , (24319, 9, 12225,  0, 0, 0.05, False) /* Create Zombie Head for ContainTreasure */
-     , (24319, 9, 24854,  0, 0, 0.03, False) /* Create Skull of a Dark Master for ContainTreasure */;
+VALUES (24319, 9,     0,  0, 0, 0.98, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 4 for ContainTreasure */
+     , (24319, 9,     0,  0, 0, 0.97, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 4 for ContainTreasure */
+     , (24319, 9,     0,  0, 0, 0.93, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 4 for ContainTreasure */
+     , (24319, 9,     0,  0, 0, 0.97, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 4 for ContainTreasure */
+     , (24319, 9,     0,  0, 0, 0.95, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 4 for ContainTreasure */
+     , (24319, 9,  5873,  0, 0, 0.03, False) /* Create Seal (5873) for ContainTreasure */
+     , (24319, 9,  6876,  0, 0, 0.02, False) /* Create Sturdy Iron Key (6876) for ContainTreasure */
+     , (24319, 9,  9310,  0, 0, 0.07, False) /* Create A Large Mnemosyne (9310) for ContainTreasure */
+     , (24319, 9, 12225,  0, 0, 0.05, False) /* Create Zombie Head (12225) for ContainTreasure */
+     , (24319, 9, 24854,  0, 0, 0.03, False) /* Create Skull of a Dark Master (24854) for ContainTreasure */;

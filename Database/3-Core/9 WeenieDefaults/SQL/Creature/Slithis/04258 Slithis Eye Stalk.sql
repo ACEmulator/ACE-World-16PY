@@ -14,7 +14,7 @@ VALUES (4258,   1,         16) /* ItemType - Creature */
      , (4258,  68,         13) /* TargetingTactic */
      , (4258,  81,          3) /* MaxGeneratedObjects */
      , (4258,  82,          3) /* InitGeneratedObjects */
-     , (4258,  93,       1032) /* PhysicsState */
+     , (4258,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (4258, 103,          1) /* GeneratorDestructionType - Nothing */
      , (4258, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (4258, 146,       4328) /* XpOverride */;
@@ -77,7 +77,7 @@ VALUES (4258,   1,   33555670) /* Setup */
      , (4258,   7,  268436087) /* ClothingBase */
      , (4258,   8,  100671186) /* Icon */
      , (4258,  22,  872415332) /* PhysicsEffectTable */
-     , (4258,  35,        463) /* DeathTreasureType */;
+     , (4258,  35,        463) /* DeathTreasureType - Loot Tier: 2 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (4258,   1, 140, 0, 0) /* Strength */
@@ -123,8 +123,8 @@ VALUES (4258,  94) /* ATTACK_NOTIFICATION_EVENT */
      , (4258, 414) /* PLAYER_DEATH_EVENT */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (4258, 2,  8619, 10, 0, 0, False) /* Create Slithis Splinter for Wield */;
+VALUES (4258, 2,  8619, 10, 0, 0, False) /* Create Slithis Splinter (8619) for Wield */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (4258, -1, 4257, 5, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0)
-     , (4258, -1, 4256, 5, 2, 2, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0);
+VALUES (4258, -1, 4257, 5, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Slithis Tentacle (4257) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Scatter */
+     , (4258, -1, 4256, 5, 2, 2, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Slithis Tendril (4256) (x2 up to max of 2) - Regenerate upon Destruction - Location to (re)Generate: Scatter */;

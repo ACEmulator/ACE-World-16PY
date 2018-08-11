@@ -14,8 +14,8 @@ VALUES (24494,   1,         16) /* ItemType - Creature */
      , (24494,  40,          2) /* CombatMode - Melee */
      , (24494,  68,         13) /* TargetingTactic */
      , (24494,  72,          6) /* FriendType - Tumerok */
-     , (24494,  93,       1032) /* PhysicsState */
-     , (24494, 101,        131) /* AiAllowedCombatStyle */
+     , (24494,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
+     , (24494, 101,        131) /* AiAllowedCombatStyle - Unarmed, OneHanded, ThrownWeapon */
      , (24494, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (24494, 140,          1) /* AiOptions */
      , (24494, 146,      21766) /* XpOverride */;
@@ -71,8 +71,16 @@ VALUES (24494,   1,   33557003) /* Setup */
      , (24494,   7,  268436157) /* ClothingBase */
      , (24494,   8,  100667447) /* Icon */
      , (24494,  22,  872415262) /* PhysicsEffectTable */
-     , (24494,  32,        438) /* WieldedTreasureType */
-     , (24494,  35,        450) /* DeathTreasureType */;
+     , (24494,  32,        438) /* WieldedTreasureType - 
+                                   Wield Rock (23748) | Probability: 90%
+                                   Wield Rock (23746) | Probability: 10%
+                                   Wield Lugian Axe (23742) | Probability: 17.5%
+                                   Wield Lugian Morning Star (23768) | Probability: 17.5%
+                                   Wield Lugian Club (23752) | Probability: 17.5%
+                                   Wield Lugian Mace (23760) | Probability: 17.5%
+                                   Wield Lugian Axe (23740) | Probability: 5%
+                                   Wield Lugian Morning Star (23766) | Probability: 5% */
+     , (24494,  35,        450) /* DeathTreasureType - Loot Tier: 3 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (24494,   1, 290, 0, 0) /* Strength */
@@ -195,7 +203,7 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,  10 /* Tell */, 0, 1, NULL, 'I gather you are not a mighty wizard among your kind.  It would be best if you learned your role.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (24494, 9,     0,  0, 0, 0.98, False) /* Create Unknown for ContainTreasure */
-     , (24494, 9,     0,  0, 0, 0.97, False) /* Create Unknown for ContainTreasure */
-     , (24494, 9,  6876,  0, 0, 0.02, False) /* Create Sturdy Iron Key for ContainTreasure */
-     , (24494, 9,  7043,  0, 0, 0.03, False) /* Create Large Lugian Sinew for ContainTreasure */;
+VALUES (24494, 9,     0,  0, 0, 0.98, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 3 for ContainTreasure */
+     , (24494, 9,     0,  0, 0, 0.97, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 3 for ContainTreasure */
+     , (24494, 9,  6876,  0, 0, 0.02, False) /* Create Sturdy Iron Key (6876) for ContainTreasure */
+     , (24494, 9,  7043,  0, 0, 0.03, False) /* Create Large Lugian Sinew (7043) for ContainTreasure */;

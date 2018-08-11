@@ -3,7 +3,7 @@ VALUES ('19465', 'portalarcanumstorehouseexit', 7) /* Portal */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (19465,   1,      65536) /* ItemType - Portal */
-     , (19465,  93,       3084) /* PhysicsState */
+     , (19465,  93,       3084) /* PhysicsState - Ethereal, ReportCollisions, Gravity, LightingOn */
      , (19465, 111,          1) /* PortalBitmask - Unrestricted */
      , (19465, 133,          4) /* ShowableOnRadar - ShowAlways */;
 

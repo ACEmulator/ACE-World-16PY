@@ -14,8 +14,8 @@ VALUES (11989,   1,         16) /* ItemType - Creature */
      , (11989,  68,          9) /* TargetingTactic */
      , (11989,  81,          4) /* MaxGeneratedObjects */
      , (11989,  82,          4) /* InitGeneratedObjects */
-     , (11989,  93,       1032) /* PhysicsState */
-     , (11989, 101,        131) /* AiAllowedCombatStyle */
+     , (11989,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
+     , (11989, 101,        131) /* AiAllowedCombatStyle - Unarmed, OneHanded, ThrownWeapon */
      , (11989, 103,          1) /* GeneratorDestructionType - Nothing */
      , (11989, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (11989, 140,          1) /* AiOptions */
@@ -74,8 +74,24 @@ VALUES (11989,   1,   33556445) /* Setup */
      , (11989,   7,  268435972) /* ClothingBase */
      , (11989,   8,  100667445) /* Icon */
      , (11989,  22,  872415258) /* PhysicsEffectTable */
-     , (11989,  32,         74) /* WieldedTreasureType */
-     , (11989,  35,         24) /* DeathTreasureType */;
+     , (11989,  32,         74) /* WieldedTreasureType - 
+                                   Wield Club (309) | Probability: 5%
+                                   Wield Dabus (313) | Probability: 10%
+                                   Wield Dagger (314) | Probability: 5%
+                                   Wield Kasrullah (325) | Probability: 5%
+                                   Wield Khanjar (328) | Probability: 5%
+                                   Wield Mace (331) | Probability: 10%
+                                   Wield Short Sword (352) | Probability: 10%
+                                   Wield Simi (345) | Probability: 10%
+                                   Wield Tofun (356) | Probability: 10%
+                                   Wield Yaoji (361) | Probability: 10%
+                                   Wield Drudge Board with Nail (7767) | Probability: 15%
+                                   Wield 10x Shouken (343) | Probability: 4%
+                                   Wield 6x Throwing Dagger (315) | Probability: 5%
+                                   Wield 4x Javelin (320) | Probability: 2%
+                                   Wield Djarid (317) | Probability: 1%
+                                   Wield 4x Throwing Club (310) | Probability: 1% */
+     , (11989,  35,         24) /* DeathTreasureType - Loot Tier: 1 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (11989,   1,  45, 0, 0) /* Strength */
@@ -192,15 +208,15 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 268435537 /* Twitch1 */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (11989, 9,     0,  0, 0, 0.1, False) /* Create Unknown for ContainTreasure */
-     , (11989, 9,     0,  0, 0, 0.97, False) /* Create Unknown for ContainTreasure */
-     , (11989, 9,     0,  0, 0, 0.25, False) /* Create Unknown for ContainTreasure */
-     , (11989, 9,  3669,  0, 0, 0.9, False) /* Create Drudge Charm for ContainTreasure */
-     , (11989, 9,  7825,  0, 0, 0.03, False) /* Create Brown Beans for ContainTreasure */
-     , (11989, 9,  8701,  0, 0, 0.75, False) /* Create Lucky Gold Letter for ContainTreasure */;
+VALUES (11989, 9,     0,  0, 0, 0.1, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 1 for ContainTreasure */
+     , (11989, 9,     0,  0, 0, 0.97, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 1 for ContainTreasure */
+     , (11989, 9,     0,  0, 0, 0.25, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 1 for ContainTreasure */
+     , (11989, 9,  3669,  0, 0, 0.9, False) /* Create Drudge Charm (3669) for ContainTreasure */
+     , (11989, 9,  7825,  0, 0, 0.03, False) /* Create Brown Beans (7825) for ContainTreasure */
+     , (11989, 9,  8701,  0, 0, 0.75, False) /* Create Lucky Gold Letter (8701) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (11989, 0.25, 1464, 20, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0)
-     , (11989, 0.5, 192, 20, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0)
-     , (11989, 0.75, 7, 20, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0)
-     , (11989, 1, 940, 20, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0);
+VALUES (11989, 0.25, 1464, 20, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Drudge Robber (1464) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Scatter */
+     , (11989, 0.5, 192, 20, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Drudge Prowler (192) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Scatter */
+     , (11989, 0.75, 7, 20, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Drudge Skulker (7) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Scatter */
+     , (11989, 1, 940, 20, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Drudge Sneaker (940) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Scatter */;

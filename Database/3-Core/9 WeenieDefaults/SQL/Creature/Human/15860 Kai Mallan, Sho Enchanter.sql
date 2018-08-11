@@ -10,7 +10,7 @@ VALUES (15860,   1,         16) /* ItemType - Creature */
      , (15860,  16,         32) /* ItemUseable - Remote */
      , (15860,  25,         42) /* Level */
      , (15860,  27,          0) /* ArmorType */
-     , (15860,  93,    6292504) /* PhysicsState */
+     , (15860,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (15860,  95,          8) /* RadarBlipColor - Yellow */
      , (15860, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (15860, 134,         16) /* PlayerKillerStatus - RubberGlue */
@@ -246,7 +246,7 @@ VALUES (@parent_id,  0,  10 /* Tell */, 0, 1, NULL, 'Very well. I shall give you
      , (@parent_id,  3,   3 /* Give */, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0, 20019 /* Portal Gem to the Callous Heart */, 1, 0, 0, False, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (15860, 2,   132,  0, 2, 0.5, False) /* Create Shoes for Wield */
-     , (15860, 2,  2590,  0, 8, 1, False) /* Create Shirt for Wield */
-     , (15860, 2,  2598,  0, 4, 0.8, False) /* Create Pants for Wield */
-     , (15860, 2,  5905,  0, 2, 0.8, False) /* Create Hood for Wield */;
+VALUES (15860, 2,   132,  0, 2, 0.5, False) /* Create Shoes (132) for Wield */
+     , (15860, 2,  2590,  0, 8, 1, False) /* Create Shirt (2590) for Wield */
+     , (15860, 2,  2598,  0, 4, 0.8, False) /* Create Pants (2598) for Wield */
+     , (15860, 2,  5905,  0, 2, 0.8, False) /* Create Hood (5905) for Wield */;

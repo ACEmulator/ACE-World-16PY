@@ -12,8 +12,8 @@ VALUES (8053,   1,         16) /* ItemType - Creature */
      , (8053,  25,         31) /* Level */
      , (8053,  27,          0) /* ArmorType */
      , (8053,  68,          3) /* TargetingTactic */
-     , (8053,  93,       1032) /* PhysicsState */
-     , (8053, 101,        183) /* AiAllowedCombatStyle */
+     , (8053,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
+     , (8053, 101,        183) /* AiAllowedCombatStyle - Unarmed, OneHanded, OneHandedAndShield, Bow, Crossbow, ThrownWeapon */
      , (8053, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (8053, 140,          1) /* AiOptions */
      , (8053, 146,       3125) /* XpOverride */;
@@ -75,7 +75,21 @@ VALUES (8053,   1,   33554433) /* Setup */
      , (8053,   7,  268435632) /* ClothingBase */
      , (8053,   8,  100670397) /* Icon */
      , (8053,  22,  872415331) /* PhysicsEffectTable */
-     , (8053,  32,        175) /* WieldedTreasureType */;
+     , (8053,  32,        175) /* WieldedTreasureType - 
+                                   Wield Yumi (23735) | Probability: 20%
+                                   Wield 14x Fire Arrow (1437) | Probability: 100%
+                                   Wield Yumi (23735) | Probability: 20%
+                                   Wield 14x Arrow (300) | Probability: 100%
+                                   Wield Katar (23675) | Probability: 10%
+                                   Wield Kite Shield (23685) | Probability: 100%
+                                   Wield Nekode (23681) | Probability: 10%
+                                   Wield Kite Shield (23685) | Probability: 100%
+                                   Wield Cestus (23638) | Probability: 10%
+                                   Wield Kite Shield (23685) | Probability: 100%
+                                   Wield Tachi (23701) | Probability: 35%
+                                   Wield Kite Shield (23685) | Probability: 100%
+                                   Wield Fire Yaoji (23719) | Probability: 35%
+                                   Wield Kite Shield (23685) | Probability: 100% */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (8053,   1, 110, 0, 0) /* Strength */
@@ -187,5 +201,5 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,  17 /* LocalBroadcast */, 0, 0, NULL, 'As it falls, the Shadow blinks its blood red eyes. You seem to hear a tired voice say, "Have you seen my Lord Atlan? What happened after the watchfires went out..?"', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (8053, 9,     0,  0, 0, 0.98, False) /* Create Unknown for ContainTreasure */
-     , (8053, 9,  6059,  0, 0, 0.02, False) /* Create Dark Sliver for ContainTreasure */;
+VALUES (8053, 9,     0,  0, 0, 0.98, False) /* Create 1x Yumi (23735), 14x Fire Arrow (1437), 1x Yumi (23735), 14x Arrow (300), 1x Katar (23675), 1x Kite Shield (23685), 1x Nekode (23681), 1x Kite Shield (23685), 1x Cestus (23638), 1x Kite Shield (23685), 1x Tachi (23701), 1x Kite Shield (23685), 1x Fire Yaoji (23719), 1x Kite Shield (23685) from Wielded Treasure Table for ContainTreasure */
+     , (8053, 9,  6059,  0, 0, 0.02, False) /* Create Dark Sliver (6059) for ContainTreasure */;

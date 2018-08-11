@@ -12,7 +12,7 @@ VALUES (7626,   1,         16) /* ItemType - Creature */
      , (7626,  27,          0) /* ArmorType */
      , (7626,  40,          2) /* CombatMode - Melee */
      , (7626,  68,          9) /* TargetingTactic */
-     , (7626,  93,       1032) /* PhysicsState */
+     , (7626,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (7626, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (7626, 146,      24475) /* XpOverride */;
 
@@ -71,7 +71,7 @@ VALUES (7626,   1,   33556426) /* Setup */
      , (7626,   7,  268436009) /* ClothingBase */
      , (7626,   8,  100667940) /* Icon */
      , (7626,  22,  872415323) /* PhysicsEffectTable */
-     , (7626,  35,        312) /* DeathTreasureType */;
+     , (7626,  35,        312) /* DeathTreasureType - Loot Tier: 5 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (7626,   1, 370, 0, 0) /* Strength */
@@ -143,7 +143,7 @@ VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 1090519043 /* Ready */, NULL, NU
      , (@parent_id,  1,   5 /* Motion */, 0, 1, 1090519060 /* Sleeping */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (7626, 9,     0,  0, 0, 0.96, False) /* Create Unknown for ContainTreasure */
-     , (7626, 9,     0,  0, 0, 0.95, False) /* Create Unknown for ContainTreasure */
-     , (7626, 9,  6353,  0, 0, 0.04, False) /* Create Pyreal Mote for ContainTreasure */
-     , (7626, 9,  7605,  0, 0, 0.05, False) /* Create Coral Heart for ContainTreasure */;
+VALUES (7626, 9,     0,  0, 0, 0.96, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 5 for ContainTreasure */
+     , (7626, 9,     0,  0, 0, 0.95, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 5 for ContainTreasure */
+     , (7626, 9,  6353,  0, 0, 0.04, False) /* Create Pyreal Mote (6353) for ContainTreasure */
+     , (7626, 9,  7605,  0, 0, 0.05, False) /* Create Coral Heart (7605) for ContainTreasure */;

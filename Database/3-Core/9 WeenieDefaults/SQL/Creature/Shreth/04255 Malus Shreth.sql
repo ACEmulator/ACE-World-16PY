@@ -12,7 +12,7 @@ VALUES (4255,   1,         16) /* ItemType - Creature */
      , (4255,  27,          0) /* ArmorType */
      , (4255,  40,          2) /* CombatMode - Melee */
      , (4255,  68,          9) /* TargetingTactic */
-     , (4255,  93,       1032) /* PhysicsState */
+     , (4255,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (4255, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (4255, 146,      12605) /* XpOverride */;
 
@@ -67,7 +67,7 @@ VALUES (4255,   1,   33555879) /* Setup */
      , (4255,   7,  268435808) /* ClothingBase */
      , (4255,   8,  100669720) /* Icon */
      , (4255,  22,  872415333) /* PhysicsEffectTable */
-     , (4255,  35,        456) /* DeathTreasureType */;
+     , (4255,  35,        456) /* DeathTreasureType - Loot Tier: 3 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (4255,   1, 250, 0, 0) /* Strength */
@@ -158,9 +158,9 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 268435538 /* Twitch2 */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (4255, 9,     0,  0, 0, 0.99, False) /* Create Unknown for ContainTreasure */
-     , (4255, 9,     0,  0, 0, 0.99, False) /* Create Unknown for ContainTreasure */
-     , (4255, 9,     0,  0, 0, 0.99, False) /* Create Unknown for ContainTreasure */
-     , (4255, 9,  6876,  0, 0, 0.01, False) /* Create Sturdy Iron Key for ContainTreasure */
-     , (4255, 9, 11690,  0, 0, 0.01, False) /* Create Little Green Seeds for ContainTreasure */
-     , (4255, 9, 11691,  0, 0, 0.01, False) /* Create Little Green Seeds for ContainTreasure */;
+VALUES (4255, 9,     0,  0, 0, 0.99, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 3 for ContainTreasure */
+     , (4255, 9,     0,  0, 0, 0.99, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 3 for ContainTreasure */
+     , (4255, 9,     0,  0, 0, 0.99, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 3 for ContainTreasure */
+     , (4255, 9,  6876,  0, 0, 0.01, False) /* Create Sturdy Iron Key (6876) for ContainTreasure */
+     , (4255, 9, 11690,  0, 0, 0.01, False) /* Create Little Green Seeds (11690) for ContainTreasure */
+     , (4255, 9, 11691,  0, 0, 0.01, False) /* Create Little Green Seeds (11691) for ContainTreasure */;

@@ -11,7 +11,7 @@ VALUES (10718,   1,         16) /* ItemType - Creature */
      , (10718,  25,         85) /* Level */
      , (10718,  27,          0) /* ArmorType */
      , (10718,  68,          3) /* TargetingTactic */
-     , (10718,  93,       1032) /* PhysicsState */
+     , (10718,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (10718, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (10718, 140,          1) /* AiOptions */
      , (10718, 146,      14000) /* XpOverride */;
@@ -69,7 +69,7 @@ VALUES (10718,   1,   33554497) /* Setup */
      , (10718,   7,  268435649) /* ClothingBase */
      , (10718,   8,  100667943) /* Icon */
      , (10718,  22,  872415273) /* PhysicsEffectTable */
-     , (10718,  35,        243) /* DeathTreasureType */;
+     , (10718,  35,        243) /* DeathTreasureType - Loot Tier: 4 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (10718,   1,  40, 0, 0) /* Strength */
@@ -205,4 +205,4 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,  10 /* Tell */, 0, 1, NULL, 'Flesh puppet!  You are not one of my Black Claw servants!', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (10718, 8, 10729,  1, 0, 0, False) /* Create Staging Complex Message Shard for Treasure */;
+VALUES (10718, 8, 10729,  1, 0, 0, False) /* Create Staging Complex Message Shard (10729) for Treasure */;

@@ -12,7 +12,7 @@ VALUES (29011,   1,         16) /* ItemType - Creature */
      , (29011,  27,          0) /* ArmorType */
      , (29011,  40,          2) /* CombatMode - Melee */
      , (29011,  68,          3) /* TargetingTactic */
-     , (29011,  93,       1032) /* PhysicsState */
+     , (29011,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (29011, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (29011, 146,   25000000) /* XpOverride */;
 
@@ -75,7 +75,7 @@ VALUES (29011,   1,   33558882) /* Setup */
      , (29011,   7,  268436860) /* ClothingBase */
      , (29011,   8,  100677029) /* Icon */
      , (29011,  22,  872415402) /* PhysicsEffectTable */
-     , (29011,  35,         32) /* DeathTreasureType */;
+     , (29011,  35,         32) /* DeathTreasureType - Loot Tier: 6 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (29011,   1, 1800, 0, 0) /* Strength */
@@ -451,4 +451,4 @@ VALUES (@parent_id,  0,  18 /* DirectBroadcast */, 0, 1, NULL, 'Reeshan rears ba
      , (@parent_id,  1,  19 /* CastSpellInstant */, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 3606 /* Eaten! */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (29011, 2, 29047,  0, 0, 0, False) /* Create Repugnant Staff for Wield */;
+VALUES (29011, 2, 29047,  0, 0, 0, False) /* Create Repugnant Staff (29047) for Wield */;

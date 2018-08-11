@@ -10,10 +10,10 @@ VALUES (27085,   1,         16) /* ItemType - Creature */
      , (27085,  16,         32) /* ItemUseable - Remote */
      , (27085,  25,         10) /* Level */
      , (27085,  27,          0) /* ArmorType */
-     , (27085,  74,     264192) /* MerchandiseItemTypes */
+     , (27085,  74,     264192) /* MerchandiseItemTypes - Gem, PromissoryNote */
      , (27085,  75,          0) /* MerchandiseMinValue */
      , (27085,  76,    1000000) /* MerchandiseMaxValue */
-     , (27085,  93,    2098204) /* PhysicsState */
+     , (27085,  93,    2098204) /* PhysicsState - Ethereal, ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */
      , (27085, 126,        125) /* VendorHappyMean */
      , (27085, 127,        125) /* VendorHappyVariance */
      , (27085, 133,          4) /* ShowableOnRadar - ShowAlways */
@@ -97,4 +97,4 @@ VALUES (27085,  0,  4,  0,    0,    0,    0,    0,    0,    0,    0,    0,    0,
      , (27085,  8,  4,  2, 0.75,    0,    0,    0,    0,    0,    0,    0,    0,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (27085, 4, 26450, -1, 0, 0, False) /* Create Zoe's Place Portal Gem for Shop */;
+VALUES (27085, 4, 26450, -1, 0, 0, False) /* Create Zoe's Place Portal Gem (26450) for Shop */;

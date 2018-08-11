@@ -10,7 +10,7 @@ VALUES (5693,   1,         16) /* ItemType - Creature */
      , (5693,  16,         32) /* ItemUseable - Remote */
      , (5693,  25,         62) /* Level */
      , (5693,  27,          0) /* ArmorType */
-     , (5693,  93,    6292504) /* PhysicsState */
+     , (5693,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (5693,  95,          8) /* RadarBlipColor - Yellow */
      , (5693, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (5693, 134,         16) /* PlayerKillerStatus - RubberGlue */
@@ -767,7 +767,7 @@ VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 1090519043 /* Ready */, NULL, NU
      , (@parent_id,  3,  10 /* Tell */, 0, 1, NULL, 'I study Empyrean history of Lord Asheron''s era, which we call the Empyrean Era of Lore.  If you have a text from that time, perhaps I may be of service.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (5693, 2,   127,  0, 4, 0.8, False) /* Create Pants for Wield */
-     , (5693, 2,  2591,  0, 18, 1, False) /* Create Shirt for Wield */
-     , (5693, 2,  2606,  0, 9, 0.5, False) /* Create Boots for Wield */
-     , (5693, 2,  5588,  0, 0, 0, False) /* Create Scribe Hat for Wield */;
+VALUES (5693, 2,   127,  0, 4, 0.8, False) /* Create Pants (127) for Wield */
+     , (5693, 2,  2591,  0, 18, 1, False) /* Create Shirt (2591) for Wield */
+     , (5693, 2,  2606,  0, 9, 0.5, False) /* Create Boots (2606) for Wield */
+     , (5693, 2,  5588,  0, 0, 0, False) /* Create Scribe Hat (5588) for Wield */;

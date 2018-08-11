@@ -10,7 +10,7 @@ VALUES (25486,   1,         16) /* ItemType - Creature */
      , (25486,  16,         32) /* ItemUseable - Remote */
      , (25486,  25,         15) /* Level */
      , (25486,  27,          0) /* ArmorType */
-     , (25486,  93,    6292504) /* PhysicsState */
+     , (25486,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (25486,  95,          8) /* RadarBlipColor - Yellow */
      , (25486, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (25486, 134,         16) /* PlayerKillerStatus - RubberGlue */
@@ -154,6 +154,6 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,  10 /* Tell */, 1, 1, NULL, 'Yeah, I like the beer here, so what?  I''ll do some alchemy later. I could mine some crystals if I had my pickaxe...', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (25486, 2,  2590,  0, 2, 1, False) /* Create Shirt for Wield */
-     , (25486, 2,  2597,  0, 7, 1, False) /* Create Pants for Wield */
-     , (25486, 2,  2606,  0, 9, 0.8, False) /* Create Boots for Wield */;
+VALUES (25486, 2,  2590,  0, 2, 1, False) /* Create Shirt (2590) for Wield */
+     , (25486, 2,  2597,  0, 7, 1, False) /* Create Pants (2597) for Wield */
+     , (25486, 2,  2606,  0, 9, 0.8, False) /* Create Boots (2606) for Wield */;

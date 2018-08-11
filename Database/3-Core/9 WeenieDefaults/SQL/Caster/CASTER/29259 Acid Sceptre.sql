@@ -12,8 +12,8 @@ VALUES (29259,   1,      32768) /* ItemType - Caster */
      , (29259,  19,        200) /* Value */
      , (29259,  45,         32) /* DamageType - Acid */
      , (29259,  46,        512) /* DefaultCombatStyle - Magic */
-     , (29259,  93,       1044) /* PhysicsState */
-     , (29259,  94,         16) /* TargetType - Creature */
+     , (29259,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (29259,  94,         16) /* TargetType - Reedshark */
      , (29259, 150,        103) /* HookPlacement - Hook */
      , (29259, 151,          2) /* HookType - Wall */
      , (29259, 158,          2) /* WieldRequirements - RawSkill */

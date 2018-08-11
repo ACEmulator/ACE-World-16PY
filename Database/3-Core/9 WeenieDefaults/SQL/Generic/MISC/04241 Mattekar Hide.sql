@@ -9,7 +9,7 @@ VALUES (4241,   1,        128) /* ItemType - Misc */
      , (4241,   9,          0) /* ValidLocations - None */
      , (4241,  16,          1) /* ItemUseable - No */
      , (4241,  19,         75) /* Value */
-     , (4241,  93,       1044) /* PhysicsState */
+     , (4241,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (4241, 150,        103) /* HookPlacement - Hook */
      , (4241, 151,          1) /* HookType - Floor */;
 

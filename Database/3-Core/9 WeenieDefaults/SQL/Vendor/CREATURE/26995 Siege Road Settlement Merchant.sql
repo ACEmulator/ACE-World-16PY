@@ -10,10 +10,10 @@ VALUES (26995,   1,         16) /* ItemType - Creature */
      , (26995,  16,         32) /* ItemUseable - Remote */
      , (26995,  25,         10) /* Level */
      , (26995,  27,          0) /* ArmorType */
-     , (26995,  74,     264192) /* MerchandiseItemTypes */
+     , (26995,  74,     264192) /* MerchandiseItemTypes - Gem, PromissoryNote */
      , (26995,  75,          0) /* MerchandiseMinValue */
      , (26995,  76,    1000000) /* MerchandiseMaxValue */
-     , (26995,  93,    2098204) /* PhysicsState */
+     , (26995,  93,    2098204) /* PhysicsState - Ethereal, ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */
      , (26995, 126,        125) /* VendorHappyMean */
      , (26995, 127,        125) /* VendorHappyVariance */
      , (26995, 133,          4) /* ShowableOnRadar - ShowAlways */
@@ -97,4 +97,4 @@ VALUES (26995,  0,  4,  0,    0,    0,    0,    0,    0,    0,    0,    0,    0,
      , (26995,  8,  4,  2, 0.75,    0,    0,    0,    0,    0,    0,    0,    0,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (26995, 4, 26360, -1, 0, 0, False) /* Create Siege Road Settlement Portal Gem for Shop */;
+VALUES (26995, 4, 26360, -1, 0, 0, False) /* Create Siege Road Settlement Portal Gem (26360) for Shop */;

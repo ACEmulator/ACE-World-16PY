@@ -12,7 +12,7 @@ VALUES (13082,   1,        512) /* ItemType - Container */
      , (13082,  81,          3) /* MaxGeneratedObjects */
      , (13082,  82,          3) /* InitGeneratedObjects */
      , (13082,  83,          2) /* ActivationResponse - Use */
-     , (13082,  93,       1048) /* PhysicsState */
+     , (13082,  93,       1048) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity */
      , (13082,  96,        500) /* EncumbranceCapacity */
      , (13082, 100,          1) /* GeneratorType - Relative */;
 
@@ -42,6 +42,6 @@ VALUES (13082,   1,   33554556) /* Setup */
      , (13082,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (13082, -1, 13229, 30, 1, 1, 2, 8, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0)
-     , (13082, -1, 13231, 30, 1, 1, 2, 8, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0)
-     , (13082, -1, 13230, 30, 1, 1, 2, 8, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0);
+VALUES (13082, -1, 13229, 30, 1, 1, 2, 8, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Academy Healing Potion (13229) (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: Contain */
+     , (13082, -1, 13231, 30, 1, 1, 2, 8, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Academy Stamina Potion (13231) (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: Contain */
+     , (13082, -1, 13230, 30, 1, 1, 2, 8, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Academy Mana Potion (13230) (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: Contain */;

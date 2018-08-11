@@ -11,7 +11,7 @@ VALUES (11619,   1,         16) /* ItemType - Creature */
      , (11619,  25,         43) /* Level */
      , (11619,  68,          9) /* TargetingTactic */
      , (11619,  72,         19) /* FriendType - Virindi */
-     , (11619,  93,       1032) /* PhysicsState */
+     , (11619,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (11619, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (11619, 140,          1) /* AiOptions */
      , (11619, 146,       2800) /* XpOverride */;
@@ -71,7 +71,7 @@ VALUES (11619,   1,   33556996) /* Setup */
      , (11619,   8,  100671421) /* Icon */
      , (11619,  22,  872415373) /* PhysicsEffectTable */
      , (11619,  30,         86) /* PhysicsScript - BreatheAcid */
-     , (11619,  35,        342) /* DeathTreasureType */;
+     , (11619,  35,        342) /* DeathTreasureType - Loot Tier: 3 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (11619,   1, 150, 0, 0) /* Strength */
@@ -175,4 +175,4 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 268435539 /* Twitch3 */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (11619, 9, 11626,  0, 0, 1, False) /* Create Quiddity Ingot for ContainTreasure */;
+VALUES (11619, 9, 11626,  0, 0, 1, False) /* Create Quiddity Ingot (11626) for ContainTreasure */;

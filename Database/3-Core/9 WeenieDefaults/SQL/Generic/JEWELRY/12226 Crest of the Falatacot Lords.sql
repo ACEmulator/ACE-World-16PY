@@ -10,7 +10,7 @@ VALUES (12226,   1,          8) /* ItemType - Jewelry */
      , (12226,  18,          1) /* UiEffects - Magical */
      , (12226,  19,          0) /* Value */
      , (12226,  33,          1) /* Bonded - Bonded */
-     , (12226,  93,       1044) /* PhysicsState */
+     , (12226,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (12226, 106,        200) /* ItemSpellcraft */
      , (12226, 107,        100) /* ItemCurMana */
      , (12226, 108,        210) /* ItemMaxMana */

@@ -10,10 +10,10 @@ VALUES (27005,   1,         16) /* ItemType - Creature */
      , (27005,  16,         32) /* ItemUseable - Remote */
      , (27005,  25,         10) /* Level */
      , (27005,  27,          0) /* ArmorType */
-     , (27005,  74,     264192) /* MerchandiseItemTypes */
+     , (27005,  74,     264192) /* MerchandiseItemTypes - Gem, PromissoryNote */
      , (27005,  75,          0) /* MerchandiseMinValue */
      , (27005,  76,    1000000) /* MerchandiseMaxValue */
-     , (27005,  93,    2098204) /* PhysicsState */
+     , (27005,  93,    2098204) /* PhysicsState - Ethereal, ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */
      , (27005, 126,        125) /* VendorHappyMean */
      , (27005, 127,        125) /* VendorHappyVariance */
      , (27005, 133,          4) /* ShowableOnRadar - ShowAlways */
@@ -97,4 +97,4 @@ VALUES (27005,  0,  4,  0,    0,    0,    0,    0,    0,    0,    0,    0,    0,
      , (27005,  8,  4,  2, 0.75,    0,    0,    0,    0,    0,    0,    0,    0,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (27005, 4, 26370, -1, 0, 0, False) /* Create Sonel Portal Gem for Shop */;
+VALUES (27005, 4, 26370, -1, 0, 0, False) /* Create Sonel Portal Gem (26370) for Shop */;

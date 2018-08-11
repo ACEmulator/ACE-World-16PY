@@ -14,7 +14,7 @@ VALUES (29470,   1,        512) /* ItemType - Container */
      , (29470,  81,          5) /* MaxGeneratedObjects */
      , (29470,  82,          5) /* InitGeneratedObjects */
      , (29470,  83,          2) /* ActivationResponse - Use */
-     , (29470,  93,       1048) /* PhysicsState */
+     , (29470,  93,       1048) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity */
      , (29470,  96,        500) /* EncumbranceCapacity */
      , (29470, 100,          1) /* GeneratorType - Relative */;
 
@@ -48,8 +48,8 @@ VALUES (29470,   1,   33554556) /* Setup */
      , (29470,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (29470, -1, 9010, 0, 1, 1, 2, 8, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0)
-     , (29470, -1, 28058, 0, 1, 1, 2, 8, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0)
-     , (29470, -1, 28045, 0, 1, 1, 2, 8, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0)
-     , (29470, -1, 28066, 0, 1, 1, 2, 8, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0)
-     , (29470, -1, 317, 0, 1, 1, 2, 72, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0);
+VALUES (29470, -1, 9010, 0, 1, 1, 2, 8, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Unreadable Scroll (9010) (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: Contain */
+     , (29470, -1, 28058, 0, 1, 1, 2, 8, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Staff of Aerfalle (28058) (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: Contain */
+     , (29470, -1, 28045, 0, 1, 1, 2, 8, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Aerfalle's Pallium (28045) (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: Contain */
+     , (29470, -1, 28066, 0, 1, 1, 2, 8, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Ashbane (28066) (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: Contain */
+     , (29470, -1, 317, 0, 1, 1, 2, 72, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate RANDOMLY GENERATED TREASURE from Loot Tier 5 (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: ContainTreasure */;

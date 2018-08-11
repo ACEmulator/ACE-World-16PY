@@ -10,10 +10,10 @@ VALUES (26857,   1,         16) /* ItemType - Creature */
      , (26857,  16,         32) /* ItemUseable - Remote */
      , (26857,  25,         10) /* Level */
      , (26857,  27,          0) /* ArmorType */
-     , (26857,  74,     264192) /* MerchandiseItemTypes */
+     , (26857,  74,     264192) /* MerchandiseItemTypes - Gem, PromissoryNote */
      , (26857,  75,          0) /* MerchandiseMinValue */
      , (26857,  76,    1000000) /* MerchandiseMaxValue */
-     , (26857,  93,    2098204) /* PhysicsState */
+     , (26857,  93,    2098204) /* PhysicsState - Ethereal, ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */
      , (26857, 126,        125) /* VendorHappyMean */
      , (26857, 127,        125) /* VendorHappyVariance */
      , (26857, 133,          4) /* ShowableOnRadar - ShowAlways */
@@ -97,4 +97,4 @@ VALUES (26857,  0,  4,  0,    0,    0,    0,    0,    0,    0,    0,    0,    0,
      , (26857,  8,  4,  2, 0.75,    0,    0,    0,    0,    0,    0,    0,    0,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (26857, 4, 26222, -1, 0, 0, False) /* Create Jeweled Thorn Estates Portal Gem for Shop */;
+VALUES (26857, 4, 26222, -1, 0, 0, False) /* Create Jeweled Thorn Estates Portal Gem (26222) for Shop */;

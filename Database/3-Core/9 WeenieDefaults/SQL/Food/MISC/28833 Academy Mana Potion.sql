@@ -16,9 +16,9 @@ VALUES (28833,   1,        128) /* ItemType - Misc */
      , (28833,  19,         75) /* Value */
      , (28833,  89,          6) /* BoosterEnum - Mana */
      , (28833,  90,         25) /* BoostValue */
-     , (28833,  93,       1044) /* PhysicsState */
+     , (28833,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (28833, 150,        103) /* HookPlacement - Hook */
-     , (28833, 151,         11) /* HookType */;
+     , (28833, 151,         11) /* HookType - Floor, Wall, Yard */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (28833,  22, True ) /* Inscribable */;

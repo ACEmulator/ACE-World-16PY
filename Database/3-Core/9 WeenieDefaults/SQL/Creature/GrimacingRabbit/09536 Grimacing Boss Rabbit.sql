@@ -13,7 +13,7 @@ VALUES (9536,   1,         16) /* ItemType - Creature */
      , (9536,  40,          2) /* CombatMode - Melee */
      , (9536,  67,          2) /* Tolerance */
      , (9536,  68,          9) /* TargetingTactic */
-     , (9536,  93,       1032) /* PhysicsState */
+     , (9536,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (9536, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (9536, 146,       5954) /* XpOverride */;
 
@@ -69,7 +69,7 @@ VALUES (9536,   1,   33555579) /* Setup */
      , (9536,   7,  268435725) /* ClothingBase */
      , (9536,   8,  100669116) /* Icon */
      , (9536,  22,  872415277) /* PhysicsEffectTable */
-     , (9536,  35,        156) /* DeathTreasureType */;
+     , (9536,  35,        156) /* DeathTreasureType - Loot Tier: 1 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (9536,   1, 200, 0, 0) /* Strength */
@@ -118,6 +118,6 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 268435537 /* Twitch1 */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (9536, 9,     0,  0, 0, 0.95, False) /* Create Unknown for ContainTreasure */
-     , (9536, 9,  9540,  0, 0, 0.05, False) /* Create Purple Marshmallow Eep for ContainTreasure */
-     , (9536, 9, 25995,  0, 13, 1, False) /* Create Lucky Rabbit's Foot for ContainTreasure */;
+VALUES (9536, 9,     0,  0, 0, 0.95, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 1 for ContainTreasure */
+     , (9536, 9,  9540,  0, 0, 0.05, False) /* Create Purple Marshmallow Eep (9540) for ContainTreasure */
+     , (9536, 9, 25995,  0, 13, 1, False) /* Create Lucky Rabbit's Foot (25995) for ContainTreasure */;

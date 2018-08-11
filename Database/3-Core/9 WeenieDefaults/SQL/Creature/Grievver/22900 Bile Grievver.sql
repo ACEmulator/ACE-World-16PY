@@ -13,8 +13,8 @@ VALUES (22900,   1,         16) /* ItemType - Creature */
      , (22900,  40,          2) /* CombatMode - Melee */
      , (22900,  68,          3) /* TargetingTactic */
      , (22900,  72,         22) /* FriendType - Shadow */
-     , (22900,  93,       1032) /* PhysicsState */
-     , (22900, 101,        131) /* AiAllowedCombatStyle */
+     , (22900,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
+     , (22900, 101,        131) /* AiAllowedCombatStyle - Unarmed, OneHanded, ThrownWeapon */
      , (22900, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (22900, 140,          1) /* AiOptions */
      , (22900, 146,     298904) /* XpOverride */;
@@ -75,7 +75,7 @@ VALUES (22900,   1,   33556698) /* Setup */
      , (22900,   8,  100670960) /* Icon */
      , (22900,  22,  872415364) /* PhysicsEffectTable */
      , (22900,  30,         85) /* PhysicsScript - BreatheFrost */
-     , (22900,  35,        461) /* DeathTreasureType */;
+     , (22900,  35,        461) /* DeathTreasureType - Loot Tier: 6 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (22900,   1, 380, 0, 0) /* Strength */
@@ -159,9 +159,9 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 268435537 /* Twitch1 */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (22900, 9,     0,  0, 0, 0.95, False) /* Create Unknown for ContainTreasure */
-     , (22900, 9,     0,  0, 0, 0.98, False) /* Create Unknown for ContainTreasure */
-     , (22900, 9,     0,  0, 0, 0.99, False) /* Create Unknown for ContainTreasure */
-     , (22900, 9,  9098,  0, 0, 0.05, False) /* Create Vial of Organic Acid for ContainTreasure */
-     , (22900, 9, 23107,  0, 0, 0.01, False) /* Create Mangled Dark Key for ContainTreasure */
-     , (22900, 9, 23108,  0, 0, 0.02, False) /* Create Twisted Dark Key for ContainTreasure */;
+VALUES (22900, 9,     0,  0, 0, 0.95, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 6 for ContainTreasure */
+     , (22900, 9,     0,  0, 0, 0.98, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 6 for ContainTreasure */
+     , (22900, 9,     0,  0, 0, 0.99, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 6 for ContainTreasure */
+     , (22900, 9,  9098,  0, 0, 0.05, False) /* Create Vial of Organic Acid (9098) for ContainTreasure */
+     , (22900, 9, 23107,  0, 0, 0.01, False) /* Create Mangled Dark Key (23107) for ContainTreasure */
+     , (22900, 9, 23108,  0, 0, 0.02, False) /* Create Twisted Dark Key (23108) for ContainTreasure */;

@@ -14,7 +14,7 @@ VALUES (182,   1,         16) /* ItemType - Creature */
      , (182,  67,         64) /* Tolerance */
      , (182,  68,          5) /* TargetingTactic */
      , (182,  72,         12) /* FriendType - Cow */
-     , (182,  93,       1032) /* PhysicsState */
+     , (182,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (182, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (182, 146,        108) /* XpOverride */;
 
@@ -69,7 +69,7 @@ VALUES (182,   1,   33555220) /* Setup */
      , (182,   7,  268435569) /* ClothingBase */
      , (182,   8,  100667936) /* Icon */
      , (182,  22,  872415254) /* PhysicsEffectTable */
-     , (182,  35,        459) /* DeathTreasureType */;
+     , (182,  35,        459) /* DeathTreasureType - Loot Tier: 1 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (182,   1,  80, 0, 0) /* Strength */

@@ -11,8 +11,8 @@ VALUES (3663,   1,         16) /* ItemType - Creature */
      , (3663,  27,          0) /* ArmorType */
      , (3663,  40,          1) /* CombatMode - NonCombat */
      , (3663,  68,          3) /* TargetingTactic */
-     , (3663,  93,       1032) /* PhysicsState */
-     , (3663, 101,        183) /* AiAllowedCombatStyle */
+     , (3663,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
+     , (3663, 101,        183) /* AiAllowedCombatStyle - Unarmed, OneHanded, OneHandedAndShield, Bow, Crossbow, ThrownWeapon */
      , (3663, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (3663, 146,         29) /* XpOverride */;
 
@@ -161,4 +161,4 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 1090519043 /* Ready */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (3663, 1,  3662,  0, 0, 0, False) /* Create Small Key for Contain */;
+VALUES (3663, 1,  3662,  0, 0, 0, False) /* Create Small Key (3662) for Contain */;

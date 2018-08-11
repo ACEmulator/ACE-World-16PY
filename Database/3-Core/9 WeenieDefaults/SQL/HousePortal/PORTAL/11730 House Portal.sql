@@ -4,8 +4,8 @@ VALUES ('11730', 'houseportal', 59) /* HousePortal */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (11730,   1,      65536) /* ItemType - Portal */
      , (11730,  16,         32) /* ItemUseable - Remote */
-     , (11730,  93,       3076) /* PhysicsState */
-     , (11730, 111,         49) /* PortalBitmask */
+     , (11730,  93,       3076) /* PhysicsState - Ethereal, Gravity, LightingOn */
+     , (11730, 111,         49) /* PortalBitmask - Unrestricted, NoSummon, NoRecall */
      , (11730, 133,          4) /* ShowableOnRadar - ShowAlways */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)

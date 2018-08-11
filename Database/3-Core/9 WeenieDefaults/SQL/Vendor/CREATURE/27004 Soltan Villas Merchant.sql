@@ -10,10 +10,10 @@ VALUES (27004,   1,         16) /* ItemType - Creature */
      , (27004,  16,         32) /* ItemUseable - Remote */
      , (27004,  25,         10) /* Level */
      , (27004,  27,          0) /* ArmorType */
-     , (27004,  74,     264192) /* MerchandiseItemTypes */
+     , (27004,  74,     264192) /* MerchandiseItemTypes - Gem, PromissoryNote */
      , (27004,  75,          0) /* MerchandiseMinValue */
      , (27004,  76,    1000000) /* MerchandiseMaxValue */
-     , (27004,  93,    2098204) /* PhysicsState */
+     , (27004,  93,    2098204) /* PhysicsState - Ethereal, ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */
      , (27004, 126,        125) /* VendorHappyMean */
      , (27004, 127,        125) /* VendorHappyVariance */
      , (27004, 133,          4) /* ShowableOnRadar - ShowAlways */
@@ -97,4 +97,4 @@ VALUES (27004,  0,  4,  0,    0,    0,    0,    0,    0,    0,    0,    0,    0,
      , (27004,  8,  4,  2, 0.75,    0,    0,    0,    0,    0,    0,    0,    0,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (27004, 4, 26369, -1, 0, 0, False) /* Create Soltan Villas Portal Gem for Shop */;
+VALUES (27004, 4, 26369, -1, 0, 0, False) /* Create Soltan Villas Portal Gem (26369) for Shop */;

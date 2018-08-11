@@ -10,7 +10,7 @@ VALUES (19713,   1,         16) /* ItemType - Creature */
      , (19713,  16,         32) /* ItemUseable - Remote */
      , (19713,  25,        126) /* Level */
      , (19713,  27,          0) /* ArmorType */
-     , (19713,  93,    6292504) /* PhysicsState */
+     , (19713,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (19713,  95,          8) /* RadarBlipColor - Yellow */
      , (19713, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (19713, 134,         16) /* PlayerKillerStatus - RubberGlue */
@@ -122,4 +122,4 @@ VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 1090519043 /* Ready */, NULL, NU
      , (@parent_id,  5,  10 /* Tell */, 1, 1, NULL, 'Oh, and if you''ve come about the Isparian weapons, you should speak with my apprentice Alaine.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (19713, 2,  5913,  0, 5, 0, False) /* Create Dho Item Master Robe for Wield */;
+VALUES (19713, 2,  5913,  0, 5, 0, False) /* Create Dho Item Master Robe (5913) for Wield */;

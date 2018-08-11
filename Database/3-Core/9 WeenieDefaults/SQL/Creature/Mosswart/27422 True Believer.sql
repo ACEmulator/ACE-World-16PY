@@ -13,8 +13,8 @@ VALUES (27422,   1,         16) /* ItemType - Creature */
      , (27422,  40,          2) /* CombatMode - Melee */
      , (27422,  68,         13) /* TargetingTactic */
      , (27422,  72,         50) /* FriendType - Idol */
-     , (27422,  93,       1032) /* PhysicsState */
-     , (27422, 101,        131) /* AiAllowedCombatStyle */
+     , (27422,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
+     , (27422, 101,        131) /* AiAllowedCombatStyle - Unarmed, OneHanded, ThrownWeapon */
      , (27422, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (27422, 140,          1) /* AiOptions */
      , (27422, 146,      35567) /* XpOverride */;
@@ -73,7 +73,7 @@ VALUES (27422,   1,   33557327) /* Setup */
      , (27422,   7,  268436294) /* ClothingBase */
      , (27422,   8,  100667449) /* Icon */
      , (27422,  22,  872415264) /* PhysicsEffectTable */
-     , (27422,  35,        448) /* DeathTreasureType */;
+     , (27422,  35,        448) /* DeathTreasureType - Loot Tier: 4 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (27422,   1, 180, 0, 0) /* Strength */
@@ -192,7 +192,7 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 268435537 /* Twitch1 */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (27422, 9,     0,  0, 0, 0.999, False) /* Create Unknown for ContainTreasure */
-     , (27422, 10, 23688,  0, 0, 0.4, False) /* Create Acid Spear for WieldTreasure */
-     , (27422, 10, 23692,  0, 0, 0.4, False) /* Create Frost Spear for WieldTreasure */
-     , (27422, 9, 27391,  0, 0, 0.001, False) /* Create Lair of The Homunculus for ContainTreasure */;
+VALUES (27422, 9,     0,  0, 0, 0.999, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 4 for ContainTreasure */
+     , (27422, 10, 23688,  0, 0, 0.4, False) /* Create Acid Spear (23688) for WieldTreasure */
+     , (27422, 10, 23692,  0, 0, 0.4, False) /* Create Frost Spear (23692) for WieldTreasure */
+     , (27422, 9, 27391,  0, 0, 0.001, False) /* Create Lair of The Homunculus (27391) for ContainTreasure */;

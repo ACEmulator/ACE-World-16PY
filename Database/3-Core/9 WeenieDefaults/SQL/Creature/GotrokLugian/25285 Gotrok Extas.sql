@@ -14,8 +14,8 @@ VALUES (25285,   1,         16) /* ItemType - Creature */
      , (25285,  40,          2) /* CombatMode - Melee */
      , (25285,  68,         13) /* TargetingTactic */
      , (25285,  72,          6) /* FriendType - Tumerok */
-     , (25285,  93,       1032) /* PhysicsState */
-     , (25285, 101,        131) /* AiAllowedCombatStyle */
+     , (25285,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
+     , (25285, 101,        131) /* AiAllowedCombatStyle - Unarmed, OneHanded, ThrownWeapon */
      , (25285, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (25285, 140,          1) /* AiOptions */
      , (25285, 146,      35485) /* XpOverride */;
@@ -71,8 +71,11 @@ VALUES (25285,   1,   33557003) /* Setup */
      , (25285,   7,  268436157) /* ClothingBase */
      , (25285,   8,  100667447) /* Icon */
      , (25285,  22,  872415262) /* PhysicsEffectTable */
-     , (25285,  32,        321) /* WieldedTreasureType */
-     , (25285,  35,        320) /* DeathTreasureType */;
+     , (25285,  32,        321) /* WieldedTreasureType - 
+                                   Wield Rock (23745) | Probability: 100%
+                                   Wield Lugian Axe (23739) | Probability: 50%
+                                   Wield Lugian Morning Star (23763) | Probability: 50% */
+     , (25285,  35,        320) /* DeathTreasureType - Loot Tier: 4 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (25285,   1, 340, 0, 0) /* Strength */
@@ -165,5 +168,5 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,  10 /* Tell */, 0, 1, NULL, 'Your spells fail, weak human.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (25285, 9,     0,  0, 0, 0.95, False) /* Create Unknown for ContainTreasure */
-     , (25285, 9,  6876,  0, 0, 0.05, False) /* Create Sturdy Iron Key for ContainTreasure */;
+VALUES (25285, 9,     0,  0, 0, 0.95, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 4 for ContainTreasure */
+     , (25285, 9,  6876,  0, 0, 0.05, False) /* Create Sturdy Iron Key (6876) for ContainTreasure */;

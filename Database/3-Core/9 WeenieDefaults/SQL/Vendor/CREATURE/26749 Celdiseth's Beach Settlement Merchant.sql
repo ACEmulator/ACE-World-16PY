@@ -10,10 +10,10 @@ VALUES (26749,   1,         16) /* ItemType - Creature */
      , (26749,  16,         32) /* ItemUseable - Remote */
      , (26749,  25,         10) /* Level */
      , (26749,  27,          0) /* ArmorType */
-     , (26749,  74,     264192) /* MerchandiseItemTypes */
+     , (26749,  74,     264192) /* MerchandiseItemTypes - Gem, PromissoryNote */
      , (26749,  75,          0) /* MerchandiseMinValue */
      , (26749,  76,    1000000) /* MerchandiseMaxValue */
-     , (26749,  93,    2098204) /* PhysicsState */
+     , (26749,  93,    2098204) /* PhysicsState - Ethereal, ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */
      , (26749, 126,        125) /* VendorHappyMean */
      , (26749, 127,        125) /* VendorHappyVariance */
      , (26749, 133,          4) /* ShowableOnRadar - ShowAlways */
@@ -97,4 +97,4 @@ VALUES (26749,  0,  4,  0,    0,    0,    0,    0,    0,    0,    0,    0,    0,
      , (26749,  8,  4,  2, 0.75,    0,    0,    0,    0,    0,    0,    0,    0,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (26749, 4, 26114, -1, 0, 0, False) /* Create Celdiseth's Beach Settlement Portal Gem for Shop */;
+VALUES (26749, 4, 26114, -1, 0, 0, False) /* Create Celdiseth's Beach Settlement Portal Gem (26114) for Shop */;

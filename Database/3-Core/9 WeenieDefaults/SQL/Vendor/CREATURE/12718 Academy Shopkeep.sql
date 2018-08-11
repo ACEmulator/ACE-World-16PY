@@ -10,10 +10,10 @@ VALUES (12718,   1,         16) /* ItemType - Creature */
      , (12718,  16,         32) /* ItemUseable - Remote */
      , (12718,  25,          8) /* Level */
      , (12718,  27,          0) /* ArmorType */
-     , (12718,  74,  138426022) /* MerchandiseItemTypes */
+     , (12718,  74,  138426022) /* MerchandiseItemTypes - Vestements, Food, LockableMagicTarget, Useless, SpellComponents, Writable, CraftCookingBase, CraftFletchingIntermediate */
      , (12718,  75,          0) /* MerchandiseMinValue */
      , (12718,  76,      10000) /* MerchandiseMaxValue */
-     , (12718,  93,    2098200) /* PhysicsState */
+     , (12718,  93,    2098200) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */
      , (12718, 126,        125) /* VendorHappyMean */
      , (12718, 127,        125) /* VendorHappyVariance */
      , (12718, 133,          4) /* ShowableOnRadar - ShowAlways */
@@ -131,95 +131,95 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,  10 /* Tell */, 0, 1, NULL, 'That is a good one--lots of people are snapping those up these days.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (12718, 4,    36, -1, 0, 0, False) /* Create Leather Bracers for Shop */
-     , (12718, 4,    39, -1, 0, 0, False) /* Create Leather Breastplate for Shop */
-     , (12718, 4,    44, -1, 0, 0, False) /* Create Buckler for Shop */
-     , (12718, 4,    45, -1, 0, 0, False) /* Create Leather Cap for Shop */
-     , (12718, 4,    56, -1, 0, 0, False) /* Create Leather Gauntlets for Shop */
-     , (12718, 4,    60, -1, 0, 0, False) /* Create Leather Girth for Shop */
-     , (12718, 4,    65, -1, 0, 0, False) /* Create Leather Greaves for Shop */
-     , (12718, 4,    81, -1, 0, 0, False) /* Create Leather Leggings for Shop */
-     , (12718, 4,    86, -1, 0, 0, False) /* Create Leather Pauldrons for Shop */
-     , (12718, 4,   115, -1, 0, 0, False) /* Create Leather Boots for Shop */
-     , (12718, 2,   127,  0, 17, 0.67, False) /* Create Pants for Wield */
-     , (12718, 2,   128,  0, 17, 0.6, False) /* Create Qafiya for Wield */
-     , (12718, 2,   130,  0, 14, 0, False) /* Create Shirt for Wield */
-     , (12718, 2,   133,  0, 14, 0, False) /* Create Slippers for Wield */
-     , (12718, 4,   136, -1, 17, 1, False) /* Create Pack for Shop */
-     , (12718, 4,   166, -1, 14, 1, False) /* Create Sack for Shop */
-     , (12718, 4,   258, -1, 0, 0, False) /* Create Apple for Shop */
-     , (12718, 4,   261, -1, 0, 0, False) /* Create Cheese for Shop */
-     , (12718, 4,   293, -1, 0, 0, False) /* Create Torch for Shop */
-     , (12718, 4,   300, -1, 0, 0, False) /* Create Arrow for Shop */
-     , (12718, 4,   305, -1, 0, 0, False) /* Create Quarrel for Shop */
-     , (12718, 4,   343, -1, 0, 0, False) /* Create Shouken for Shop */
-     , (12718, 4,   365, -1, 0, 0, False) /* Create Parchment for Shop */
-     , (12718, 4,   378, -1, 0, 0, False) /* Create Stamina Potion for Shop */
-     , (12718, 4,   458, -1, 0, 0, False) /* Create Leather Cowl for Shop */
-     , (12718, 4,   513, -1, 0, 0, False) /* Create Plain Lockpick for Shop */
-     , (12718, 4,   551, -1, 0, 0, False) /* Create Leather Basinet for Shop */
-     , (12718, 4,   625, -1, 0, 0, False) /* Create Ginseng for Shop */
-     , (12718, 4,   626, -1, 0, 0, False) /* Create Powdered Hematite for Shop */
-     , (12718, 4,   627, -1, 0, 0, False) /* Create Alder Talisman for Shop */
-     , (12718, 4,   691, -1, 0, 0, False) /* Create Lead Scarab for Shop */
-     , (12718, 4,   740, -1, 0, 0, False) /* Create Ashwood Talisman for Shop */
-     , (12718, 4,   741, -1, 0, 0, False) /* Create Birch Talisman for Shop */
-     , (12718, 4,   742, -1, 0, 0, False) /* Create Blackthorn Talisman for Shop */
-     , (12718, 4,   743, -1, 0, 0, False) /* Create Cedar Talisman for Shop */
-     , (12718, 4,   744, -1, 0, 0, False) /* Create Ebony Talisman for Shop */
-     , (12718, 4,   745, -1, 0, 0, False) /* Create Elder Talisman for Shop */
-     , (12718, 4,   746, -1, 0, 0, False) /* Create Hazel Talisman for Shop */
-     , (12718, 4,   747, -1, 0, 0, False) /* Create Hemlock Talisman for Shop */
-     , (12718, 4,   748, -1, 0, 0, False) /* Create Oak Talisman for Shop */
-     , (12718, 4,   749, -1, 0, 0, False) /* Create Poplar Talisman for Shop */
-     , (12718, 4,   750, -1, 0, 0, False) /* Create Rowan Talisman for Shop */
-     , (12718, 4,   751, -1, 0, 0, False) /* Create Willow Talisman for Shop */
-     , (12718, 4,   752, -1, 0, 0, False) /* Create Yew Talisman for Shop */
-     , (12718, 4,   753, -1, 0, 0, False) /* Create Brimstone for Shop */
-     , (12718, 4,   754, -1, 0, 0, False) /* Create Cadmia for Shop */
-     , (12718, 4,   755, -1, 0, 0, False) /* Create Cinnabar for Shop */
-     , (12718, 4,   756, -1, 0, 0, False) /* Create Cobalt for Shop */
-     , (12718, 4,   757, -1, 0, 0, False) /* Create Colcothar for Shop */
-     , (12718, 4,   758, -1, 0, 0, False) /* Create Gypsum for Shop */
-     , (12718, 4,   759, -1, 0, 0, False) /* Create Quicksilver for Shop */
-     , (12718, 4,   760, -1, 0, 0, False) /* Create Realgar for Shop */
-     , (12718, 4,   761, -1, 0, 0, False) /* Create Stibnite for Shop */
-     , (12718, 4,   762, -1, 0, 0, False) /* Create Turpeth for Shop */
-     , (12718, 4,   763, -1, 0, 0, False) /* Create Verdigris for Shop */
-     , (12718, 4,   764, -1, 0, 0, False) /* Create Vitriol for Shop */
-     , (12718, 4,   765, -1, 0, 0, False) /* Create Amaranth for Shop */
-     , (12718, 4,   766, -1, 0, 0, False) /* Create Bistort for Shop */
-     , (12718, 4,   767, -1, 0, 0, False) /* Create Comfrey for Shop */
-     , (12718, 4,   768, -1, 0, 0, False) /* Create Damiana for Shop */
-     , (12718, 4,   769, -1, 0, 0, False) /* Create Dragonsblood for Shop */
-     , (12718, 4,   770, -1, 0, 0, False) /* Create Eyebright for Shop */
-     , (12718, 4,   771, -1, 0, 0, False) /* Create Frankincense for Shop */
-     , (12718, 4,   772, -1, 0, 0, False) /* Create Hawthorn for Shop */
-     , (12718, 4,   773, -1, 0, 0, False) /* Create Henbane for Shop */
-     , (12718, 4,   774, -1, 0, 0, False) /* Create Hyssop for Shop */
-     , (12718, 4,   775, -1, 0, 0, False) /* Create Mandrake for Shop */
-     , (12718, 4,   776, -1, 0, 0, False) /* Create Mugwort for Shop */
-     , (12718, 4,   777, -1, 0, 0, False) /* Create Myrrh for Shop */
-     , (12718, 4,   778, -1, 0, 0, False) /* Create Saffron for Shop */
-     , (12718, 4,   779, -1, 0, 0, False) /* Create Vervain for Shop */
-     , (12718, 4,   780, -1, 0, 0, False) /* Create Wormwood for Shop */
-     , (12718, 4,   781, -1, 0, 0, False) /* Create Yarrow for Shop */
-     , (12718, 4,   782, -1, 0, 0, False) /* Create Powdered Agate for Shop */
-     , (12718, 4,   783, -1, 0, 0, False) /* Create Powdered Amber for Shop */
-     , (12718, 4,   784, -1, 0, 0, False) /* Create Powdered Azurite for Shop */
-     , (12718, 4,   785, -1, 0, 0, False) /* Create Powdered Bloodstone for Shop */
-     , (12718, 4,   786, -1, 0, 0, False) /* Create Powdered Carnelian for Shop */
-     , (12718, 4,   787, -1, 0, 0, False) /* Create Powdered Lapis Lazuli for Shop */
-     , (12718, 4,   788, -1, 0, 0, False) /* Create Powdered Malachite for Shop */
-     , (12718, 4,   789, -1, 0, 0, False) /* Create Powdered Moonstone for Shop */
-     , (12718, 4,   790, -1, 0, 0, False) /* Create Powdered Onyx for Shop */
-     , (12718, 4,   791, -1, 0, 0, False) /* Create Powdered Quartz for Shop */
-     , (12718, 4,   792, -1, 0, 0, False) /* Create Powdered Turquoise for Shop */
-     , (12718, 4,  2457, -1, 0, 0, False) /* Create Health Draught for Shop */
-     , (12718, 4,  2460, -1, 0, 0, False) /* Create Mana Draught for Shop */
-     , (12718, 4,  4612, -1, 0, 0, False) /* Create Tiny Mana Charge for Shop */
-     , (12718, 4,  8378, -1, 0, 0, False) /* Create Beer Stein for Shop */
-     , (12718, 2, 10696,  0, 14, 0.5, False) /* Create Apron for Wield */
-     , (12718, 4, 12464, -1, 0, 0, False) /* Create Atlatl Dart for Shop */
-     , (12718, 4, 20631, -1, 0, 0, False) /* Create Prismatic Taper for Shop */
-     , (12718, 4, 27331, -1, 0, 0, False) /* Create Minor Mana Stone for Shop */;
+VALUES (12718, 4,    36, -1, 0, 0, False) /* Create Leather Bracers (36) for Shop */
+     , (12718, 4,    39, -1, 0, 0, False) /* Create Leather Breastplate (39) for Shop */
+     , (12718, 4,    44, -1, 0, 0, False) /* Create Buckler (44) for Shop */
+     , (12718, 4,    45, -1, 0, 0, False) /* Create Leather Cap (45) for Shop */
+     , (12718, 4,    56, -1, 0, 0, False) /* Create Leather Gauntlets (56) for Shop */
+     , (12718, 4,    60, -1, 0, 0, False) /* Create Leather Girth (60) for Shop */
+     , (12718, 4,    65, -1, 0, 0, False) /* Create Leather Greaves (65) for Shop */
+     , (12718, 4,    81, -1, 0, 0, False) /* Create Leather Leggings (81) for Shop */
+     , (12718, 4,    86, -1, 0, 0, False) /* Create Leather Pauldrons (86) for Shop */
+     , (12718, 4,   115, -1, 0, 0, False) /* Create Leather Boots (115) for Shop */
+     , (12718, 2,   127,  0, 17, 0.67, False) /* Create Pants (127) for Wield */
+     , (12718, 2,   128,  0, 17, 0.6, False) /* Create Qafiya (128) for Wield */
+     , (12718, 2,   130,  0, 14, 0, False) /* Create Shirt (130) for Wield */
+     , (12718, 2,   133,  0, 14, 0, False) /* Create Slippers (133) for Wield */
+     , (12718, 4,   136, -1, 17, 1, False) /* Create Pack (136) for Shop */
+     , (12718, 4,   166, -1, 14, 1, False) /* Create Sack (166) for Shop */
+     , (12718, 4,   258, -1, 0, 0, False) /* Create Apple (258) for Shop */
+     , (12718, 4,   261, -1, 0, 0, False) /* Create Cheese (261) for Shop */
+     , (12718, 4,   293, -1, 0, 0, False) /* Create Torch (293) for Shop */
+     , (12718, 4,   300, -1, 0, 0, False) /* Create Arrow (300) for Shop */
+     , (12718, 4,   305, -1, 0, 0, False) /* Create Quarrel (305) for Shop */
+     , (12718, 4,   343, -1, 0, 0, False) /* Create Shouken (343) for Shop */
+     , (12718, 4,   365, -1, 0, 0, False) /* Create Parchment (365) for Shop */
+     , (12718, 4,   378, -1, 0, 0, False) /* Create Stamina Potion (378) for Shop */
+     , (12718, 4,   458, -1, 0, 0, False) /* Create Leather Cowl (458) for Shop */
+     , (12718, 4,   513, -1, 0, 0, False) /* Create Plain Lockpick (513) for Shop */
+     , (12718, 4,   551, -1, 0, 0, False) /* Create Leather Basinet (551) for Shop */
+     , (12718, 4,   625, -1, 0, 0, False) /* Create Ginseng (625) for Shop */
+     , (12718, 4,   626, -1, 0, 0, False) /* Create Powdered Hematite (626) for Shop */
+     , (12718, 4,   627, -1, 0, 0, False) /* Create Alder Talisman (627) for Shop */
+     , (12718, 4,   691, -1, 0, 0, False) /* Create Lead Scarab (691) for Shop */
+     , (12718, 4,   740, -1, 0, 0, False) /* Create Ashwood Talisman (740) for Shop */
+     , (12718, 4,   741, -1, 0, 0, False) /* Create Birch Talisman (741) for Shop */
+     , (12718, 4,   742, -1, 0, 0, False) /* Create Blackthorn Talisman (742) for Shop */
+     , (12718, 4,   743, -1, 0, 0, False) /* Create Cedar Talisman (743) for Shop */
+     , (12718, 4,   744, -1, 0, 0, False) /* Create Ebony Talisman (744) for Shop */
+     , (12718, 4,   745, -1, 0, 0, False) /* Create Elder Talisman (745) for Shop */
+     , (12718, 4,   746, -1, 0, 0, False) /* Create Hazel Talisman (746) for Shop */
+     , (12718, 4,   747, -1, 0, 0, False) /* Create Hemlock Talisman (747) for Shop */
+     , (12718, 4,   748, -1, 0, 0, False) /* Create Oak Talisman (748) for Shop */
+     , (12718, 4,   749, -1, 0, 0, False) /* Create Poplar Talisman (749) for Shop */
+     , (12718, 4,   750, -1, 0, 0, False) /* Create Rowan Talisman (750) for Shop */
+     , (12718, 4,   751, -1, 0, 0, False) /* Create Willow Talisman (751) for Shop */
+     , (12718, 4,   752, -1, 0, 0, False) /* Create Yew Talisman (752) for Shop */
+     , (12718, 4,   753, -1, 0, 0, False) /* Create Brimstone (753) for Shop */
+     , (12718, 4,   754, -1, 0, 0, False) /* Create Cadmia (754) for Shop */
+     , (12718, 4,   755, -1, 0, 0, False) /* Create Cinnabar (755) for Shop */
+     , (12718, 4,   756, -1, 0, 0, False) /* Create Cobalt (756) for Shop */
+     , (12718, 4,   757, -1, 0, 0, False) /* Create Colcothar (757) for Shop */
+     , (12718, 4,   758, -1, 0, 0, False) /* Create Gypsum (758) for Shop */
+     , (12718, 4,   759, -1, 0, 0, False) /* Create Quicksilver (759) for Shop */
+     , (12718, 4,   760, -1, 0, 0, False) /* Create Realgar (760) for Shop */
+     , (12718, 4,   761, -1, 0, 0, False) /* Create Stibnite (761) for Shop */
+     , (12718, 4,   762, -1, 0, 0, False) /* Create Turpeth (762) for Shop */
+     , (12718, 4,   763, -1, 0, 0, False) /* Create Verdigris (763) for Shop */
+     , (12718, 4,   764, -1, 0, 0, False) /* Create Vitriol (764) for Shop */
+     , (12718, 4,   765, -1, 0, 0, False) /* Create Amaranth (765) for Shop */
+     , (12718, 4,   766, -1, 0, 0, False) /* Create Bistort (766) for Shop */
+     , (12718, 4,   767, -1, 0, 0, False) /* Create Comfrey (767) for Shop */
+     , (12718, 4,   768, -1, 0, 0, False) /* Create Damiana (768) for Shop */
+     , (12718, 4,   769, -1, 0, 0, False) /* Create Dragonsblood (769) for Shop */
+     , (12718, 4,   770, -1, 0, 0, False) /* Create Eyebright (770) for Shop */
+     , (12718, 4,   771, -1, 0, 0, False) /* Create Frankincense (771) for Shop */
+     , (12718, 4,   772, -1, 0, 0, False) /* Create Hawthorn (772) for Shop */
+     , (12718, 4,   773, -1, 0, 0, False) /* Create Henbane (773) for Shop */
+     , (12718, 4,   774, -1, 0, 0, False) /* Create Hyssop (774) for Shop */
+     , (12718, 4,   775, -1, 0, 0, False) /* Create Mandrake (775) for Shop */
+     , (12718, 4,   776, -1, 0, 0, False) /* Create Mugwort (776) for Shop */
+     , (12718, 4,   777, -1, 0, 0, False) /* Create Myrrh (777) for Shop */
+     , (12718, 4,   778, -1, 0, 0, False) /* Create Saffron (778) for Shop */
+     , (12718, 4,   779, -1, 0, 0, False) /* Create Vervain (779) for Shop */
+     , (12718, 4,   780, -1, 0, 0, False) /* Create Wormwood (780) for Shop */
+     , (12718, 4,   781, -1, 0, 0, False) /* Create Yarrow (781) for Shop */
+     , (12718, 4,   782, -1, 0, 0, False) /* Create Powdered Agate (782) for Shop */
+     , (12718, 4,   783, -1, 0, 0, False) /* Create Powdered Amber (783) for Shop */
+     , (12718, 4,   784, -1, 0, 0, False) /* Create Powdered Azurite (784) for Shop */
+     , (12718, 4,   785, -1, 0, 0, False) /* Create Powdered Bloodstone (785) for Shop */
+     , (12718, 4,   786, -1, 0, 0, False) /* Create Powdered Carnelian (786) for Shop */
+     , (12718, 4,   787, -1, 0, 0, False) /* Create Powdered Lapis Lazuli (787) for Shop */
+     , (12718, 4,   788, -1, 0, 0, False) /* Create Powdered Malachite (788) for Shop */
+     , (12718, 4,   789, -1, 0, 0, False) /* Create Powdered Moonstone (789) for Shop */
+     , (12718, 4,   790, -1, 0, 0, False) /* Create Powdered Onyx (790) for Shop */
+     , (12718, 4,   791, -1, 0, 0, False) /* Create Powdered Quartz (791) for Shop */
+     , (12718, 4,   792, -1, 0, 0, False) /* Create Powdered Turquoise (792) for Shop */
+     , (12718, 4,  2457, -1, 0, 0, False) /* Create Health Draught (2457) for Shop */
+     , (12718, 4,  2460, -1, 0, 0, False) /* Create Mana Draught (2460) for Shop */
+     , (12718, 4,  4612, -1, 0, 0, False) /* Create Tiny Mana Charge (4612) for Shop */
+     , (12718, 4,  8378, -1, 0, 0, False) /* Create Beer Stein (8378) for Shop */
+     , (12718, 2, 10696,  0, 14, 0.5, False) /* Create Apron (10696) for Wield */
+     , (12718, 4, 12464, -1, 0, 0, False) /* Create Atlatl Dart (12464) for Shop */
+     , (12718, 4, 20631, -1, 0, 0, False) /* Create Prismatic Taper (20631) for Shop */
+     , (12718, 4, 27331, -1, 0, 0, False) /* Create Minor Mana Stone (27331) for Shop */;

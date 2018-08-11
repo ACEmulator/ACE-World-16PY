@@ -15,7 +15,7 @@ VALUES (264,   1,         32) /* ItemType - Food */
      , (264,  19,          7) /* Value */
      , (264,  89,          4) /* BoosterEnum - Stamina */
      , (264,  90,          4) /* BoostValue */
-     , (264,  93,       1044) /* PhysicsState */
+     , (264,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (264, 150,        103) /* HookPlacement - Hook */
      , (264, 151,          2) /* HookType - Wall */;
 

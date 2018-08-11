@@ -7,7 +7,7 @@ VALUES (9058,   1,        128) /* ItemType - Misc */
      , (9058,  81,          1) /* MaxGeneratedObjects */
      , (9058,  82,          0) /* InitGeneratedObjects */
      , (9058,  83,      65552) /* ActivationResponse */
-     , (9058,  93,         12) /* PhysicsState */
+     , (9058,  93,         12) /* PhysicsState - Ethereal, ReportCollisions */
      , (9058, 119,          1) /* Active */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
@@ -36,4 +36,4 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (9058,  16,          0) /* ActivationTarget */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (9058, -1, 9099, 900, 1, 1, 1, 4, -1, 0, 0, 0, 0, 0.5, 2.5, 0.7071068, 0, 0, -0.7071068);
+VALUES (9058, -1, 9099, 900, 1, 1, 1, 4, -1, 0, 0, 0, 0, 0.5, 2.5, 0.7071068, 0, 0, -0.7071068) /* Generate Summoned Pulsar Wisp (9099) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */;

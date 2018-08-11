@@ -11,7 +11,7 @@ VALUES (19693,   1,          8) /* ItemType - Jewelry */
      , (19693,  18,          1) /* UiEffects - Magical */
      , (19693,  19,       5000) /* Value */
      , (19693,  33,          1) /* Bonded - Bonded */
-     , (19693,  93,       1044) /* PhysicsState */
+     , (19693,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (19693, 106,        225) /* ItemSpellcraft */
      , (19693, 107,        500) /* ItemCurMana */
      , (19693, 108,        500) /* ItemMaxMana */

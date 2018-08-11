@@ -2,7 +2,7 @@ INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
 VALUES ('2353', 'channel-qa1', 36) /* Channel */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (2353,  93,       1044) /* PhysicsState */;
+VALUES (2353,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (2353,   1, True ) /* Stuck */

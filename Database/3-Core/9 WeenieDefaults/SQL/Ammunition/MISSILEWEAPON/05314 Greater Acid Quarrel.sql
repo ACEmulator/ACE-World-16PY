@@ -19,7 +19,7 @@ VALUES (5314,   1,        256) /* ItemType - MissileWeapon */
      , (5314,  45,         32) /* DamageType - Acid */
      , (5314,  50,          2) /* AmmoType - Bolt */
      , (5314,  51,          3) /* CombatUse - Ammo */
-     , (5314,  93,     132116) /* PhysicsState */
+     , (5314,  93,     132116) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, Inelastic */
      , (5314, 150,        103) /* HookPlacement - Hook */
      , (5314, 151,          2) /* HookType - Wall */;
 

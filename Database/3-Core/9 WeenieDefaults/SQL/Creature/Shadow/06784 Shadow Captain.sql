@@ -12,8 +12,8 @@ VALUES (6784,   1,         16) /* ItemType - Creature */
      , (6784,  25,        155) /* Level */
      , (6784,  27,          0) /* ArmorType */
      , (6784,  68,          3) /* TargetingTactic */
-     , (6784,  93,    4195336) /* PhysicsState */
-     , (6784, 101,        183) /* AiAllowedCombatStyle */
+     , (6784,  93,    4195336) /* PhysicsState - ReportCollisions, Gravity, EdgeSlide */
+     , (6784, 101,        183) /* AiAllowedCombatStyle - Unarmed, OneHanded, OneHandedAndShield, Bow, Crossbow, ThrownWeapon */
      , (6784, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (6784, 140,          1) /* AiOptions */
      , (6784, 146,      12000) /* XpOverride */;
@@ -158,7 +158,7 @@ VALUES (@parent_id,  0,  16 /* WorldBroadcast */, 0, 1, NULL, 'The northlands tr
      , (@parent_id,  1,  17 /* LocalBroadcast */, 0, 0, NULL, 'The dying Shadow Captain laughs.  "Savor this little victory, %s. The Generals are come, meat-puppets, and they shall fall upon your puny hovels like a storm-tide!"', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (6784, 9,     0,  0, 0, 0.99, False) /* Create Unknown for ContainTreasure */
-     , (6784, 9,     0,  0, 0, 0.98, False) /* Create Unknown for ContainTreasure */
-     , (6784, 9,  6058,  0, 0, 0.01, False) /* Create Dark Shard for ContainTreasure */
-     , (6784, 9,  6876,  0, 0, 0.02, False) /* Create Sturdy Iron Key for ContainTreasure */;
+VALUES (6784, 9,     0,  0, 0, 0.99, False) /* Create UNKNOWN RANDOMLY GENERATED TREASURE for ContainTreasure */
+     , (6784, 9,     0,  0, 0, 0.98, False) /* Create UNKNOWN RANDOMLY GENERATED TREASURE for ContainTreasure */
+     , (6784, 9,  6058,  0, 0, 0.01, False) /* Create Dark Shard (6058) for ContainTreasure */
+     , (6784, 9,  6876,  0, 0, 0.02, False) /* Create Sturdy Iron Key (6876) for ContainTreasure */;

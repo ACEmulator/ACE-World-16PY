@@ -13,7 +13,7 @@ VALUES (9103,   1,        512) /* ItemType - Container */
      , (9103,  81,          2) /* MaxGeneratedObjects */
      , (9103,  82,          2) /* InitGeneratedObjects */
      , (9103,  83,       4096) /* ActivationResponse - CastSpell */
-     , (9103,  93,       1048) /* PhysicsState */
+     , (9103,  93,       1048) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity */
      , (9103,  96,        500) /* EncumbranceCapacity */
      , (9103, 100,          1) /* GeneratorType - Relative */
      , (9103, 119,      65535) /* Active */;
@@ -47,5 +47,5 @@ VALUES (9103,   1,   33554556) /* Setup */
      , (9103,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (9103, -1, 9102, 60, 1, 1, 2, 8, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0)
-     , (9103, -1, 9101, 60, 1, 1, 2, 8, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0);
+VALUES (9103, -1, 9102, 60, 1, 1, 2, 8, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Another Boot (9102) (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: Contain */
+     , (9103, -1, 9101, 60, 1, 1, 2, 8, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate A Boot (9101) (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: Contain */;

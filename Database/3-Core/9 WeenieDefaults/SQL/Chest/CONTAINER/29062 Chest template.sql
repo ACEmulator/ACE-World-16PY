@@ -10,7 +10,7 @@ VALUES (29062,   1,        512) /* ItemType - Container */
      , (29062,  16,         48) /* ItemUseable - ViewedRemote */
      , (29062,  19,        200) /* Value */
      , (29062,  83,          2) /* ActivationResponse - Use */
-     , (29062,  93,       1048) /* PhysicsState */
+     , (29062,  93,       1048) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity */
      , (29062,  96,        500) /* EncumbranceCapacity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)

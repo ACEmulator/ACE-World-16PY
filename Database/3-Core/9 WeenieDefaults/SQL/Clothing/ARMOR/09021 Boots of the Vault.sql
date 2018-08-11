@@ -7,7 +7,7 @@ VALUES (9021,   1,          2) /* ItemType - Armor */
      , (9021,   4,      65536) /* ClothingPriority - Feet */
      , (9021,   5,        500) /* EncumbranceVal */
      , (9021,   8,        230) /* Mass */
-     , (9021,   9,        384) /* ValidLocations */
+     , (9021,   9,        384) /* ValidLocations - LowerLegWear, FootWear */
      , (9021,  16,          1) /* ItemUseable - No */
      , (9021,  18,          1) /* UiEffects - Magical */
      , (9021,  19,       5520) /* Value */
@@ -15,7 +15,7 @@ VALUES (9021,   1,          2) /* ItemType - Armor */
      , (9021,  28,         50) /* ArmorLevel */
      , (9021,  44,          3) /* Damage */
      , (9021,  45,          4) /* DamageType - Bludgeon */
-     , (9021,  93,       1044) /* PhysicsState */
+     , (9021,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (9021, 106,        275) /* ItemSpellcraft */
      , (9021, 107,        190) /* ItemCurMana */
      , (9021, 108,        760) /* ItemMaxMana */

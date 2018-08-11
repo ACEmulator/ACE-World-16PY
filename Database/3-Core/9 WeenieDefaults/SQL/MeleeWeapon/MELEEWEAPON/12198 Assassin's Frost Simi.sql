@@ -15,11 +15,11 @@ VALUES (12198,   1,          1) /* ItemType - MeleeWeapon */
      , (12198,  44,         31) /* Damage */
      , (12198,  45,          8) /* DamageType - Cold */
      , (12198,  46,          2) /* DefaultCombatStyle - OneHanded */
-     , (12198,  47,        486) /* AttackType */
+     , (12198,  47,        486) /* AttackType - Thrust, Slash, DoubleSlash, TripleSlash, DoubleThrust, TripleThrust */
      , (12198,  48,         11) /* WeaponSkill - Sword */
      , (12198,  49,          1) /* WeaponTime */
      , (12198,  51,          1) /* CombatUse - Melee */
-     , (12198,  93,       1044) /* PhysicsState */
+     , (12198,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (12198, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)

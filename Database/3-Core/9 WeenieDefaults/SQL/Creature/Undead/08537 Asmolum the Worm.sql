@@ -12,8 +12,8 @@ VALUES (8537,   1,         16) /* ItemType - Creature */
      , (8537,  27,          0) /* ArmorType */
      , (8537,  40,          1) /* CombatMode - NonCombat */
      , (8537,  68,          3) /* TargetingTactic */
-     , (8537,  93,    4195336) /* PhysicsState */
-     , (8537, 101,        183) /* AiAllowedCombatStyle */
+     , (8537,  93,    4195336) /* PhysicsState - ReportCollisions, Gravity, EdgeSlide */
+     , (8537, 101,        183) /* AiAllowedCombatStyle - Unarmed, OneHanded, OneHandedAndShield, Bow, Crossbow, ThrownWeapon */
      , (8537, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (8537, 140,          1) /* AiOptions */
      , (8537, 146,      24917) /* XpOverride */;
@@ -73,7 +73,9 @@ VALUES (8537,   1,   33554839) /* Setup */
      , (8537,   7,  268435558) /* ClothingBase */
      , (8537,   8,  100667942) /* Icon */
      , (8537,  22,  872415272) /* PhysicsEffectTable */
-     , (8537,  32,        337) /* WieldedTreasureType */;
+     , (8537,  32,        337) /* WieldedTreasureType - 
+                                   Wield 2x Asmolum's Throwing Dagger (8525) | Probability: 100%
+                                   Wield Asmolum's Dagger (8524) | Probability: 100% */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (8537,   1, 230, 0, 0) /* Strength */
@@ -145,12 +147,12 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,  17 /* LocalBroadcast */, 0, 0, NULL, 'The undead spymaster croaks, "Your incaution will ruin us all!"', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (8537, 9,     0,  0, 0, 0.98, False) /* Create Unknown for ContainTreasure */
-     , (8537, 9,     0,  0, 0, 0.98, False) /* Create Unknown for ContainTreasure */
-     , (8537, 9,  6876,  0, 0, 0.02, False) /* Create Sturdy Iron Key for ContainTreasure */
-     , (8537, 9,  7045,  0, 0, 0.03, False) /* Create Dark Revenant Thighbone for ContainTreasure */
-     , (8537, 1,  8505,  1, 0, 1, False) /* Create Damp Scroll for Contain */
-     , (8537, 1,  8511,  1, 0, 1, False) /* Create Ancient Key for Contain */
-     , (8537, 9,  8524,  1, 0, 1, False) /* Create Asmolum's Dagger for ContainTreasure */
-     , (8537, 2,  8525,  1, 0, 1, False) /* Create Asmolum's Throwing Dagger for Wield */
-     , (8537, 9,  8525, 10, 0, 1, False) /* Create Asmolum's Throwing Dagger for ContainTreasure */;
+VALUES (8537, 9,     0,  0, 0, 0.98, False) /* Create 2x Asmolum's Throwing Dagger (8525), 1x Asmolum's Dagger (8524) from Wielded Treasure Table for ContainTreasure */
+     , (8537, 9,     0,  0, 0, 0.98, False) /* Create 2x Asmolum's Throwing Dagger (8525), 1x Asmolum's Dagger (8524) from Wielded Treasure Table for ContainTreasure */
+     , (8537, 9,  6876,  0, 0, 0.02, False) /* Create Sturdy Iron Key (6876) for ContainTreasure */
+     , (8537, 9,  7045,  0, 0, 0.03, False) /* Create Dark Revenant Thighbone (7045) for ContainTreasure */
+     , (8537, 1,  8505,  1, 0, 1, False) /* Create Damp Scroll (8505) for Contain */
+     , (8537, 1,  8511,  1, 0, 1, False) /* Create Ancient Key (8511) for Contain */
+     , (8537, 9,  8524,  1, 0, 1, False) /* Create Asmolum's Dagger (8524) for ContainTreasure */
+     , (8537, 2,  8525,  1, 0, 1, False) /* Create Asmolum's Throwing Dagger (8525) for Wield */
+     , (8537, 9,  8525, 10, 0, 1, False) /* Create Asmolum's Throwing Dagger (8525) for ContainTreasure */;

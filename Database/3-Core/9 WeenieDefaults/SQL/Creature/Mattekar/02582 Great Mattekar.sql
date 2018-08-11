@@ -13,7 +13,7 @@ VALUES (2582,   1,         16) /* ItemType - Creature */
      , (2582,  68,          3) /* TargetingTactic */
      , (2582,  81,          1) /* MaxGeneratedObjects */
      , (2582,  82,          1) /* InitGeneratedObjects */
-     , (2582,  93,       1032) /* PhysicsState */
+     , (2582,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (2582, 103,          1) /* GeneratorDestructionType - Nothing */
      , (2582, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (2582, 146,       1488) /* XpOverride */;
@@ -71,7 +71,7 @@ VALUES (2582,   1,   33555590) /* Setup */
      , (2582,   7,  268435729) /* ClothingBase */
      , (2582,   8,  100669121) /* Icon */
      , (2582,  22,  872415278) /* PhysicsEffectTable */
-     , (2582,  35,        459) /* DeathTreasureType */;
+     , (2582,  35,        459) /* DeathTreasureType - Loot Tier: 1 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (2582,   1, 115, 0, 0) /* Strength */
@@ -170,7 +170,7 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 268435540 /* Twitch4 */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (2582, 9,     0,  0, 0, 0.98, False) /* Create Unknown for ContainTreasure */
-     , (2582, 9,     0,  0, 0, 0.98, False) /* Create Unknown for ContainTreasure */
-     , (2582, 9,  4241,  0, 0, 0.02, False) /* Create Mattekar Hide for ContainTreasure */
-     , (2582, 9,  7044,  0, 0, 0.02, False) /* Create Great Mattekar Horn for ContainTreasure */;
+VALUES (2582, 9,     0,  0, 0, 0.98, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 1 for ContainTreasure */
+     , (2582, 9,     0,  0, 0, 0.98, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 1 for ContainTreasure */
+     , (2582, 9,  4241,  0, 0, 0.02, False) /* Create Mattekar Hide (4241) for ContainTreasure */
+     , (2582, 9,  7044,  0, 0, 0.02, False) /* Create Great Mattekar Horn (7044) for ContainTreasure */;

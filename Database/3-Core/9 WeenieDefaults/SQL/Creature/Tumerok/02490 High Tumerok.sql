@@ -11,8 +11,8 @@ VALUES (2490,   1,         16) /* ItemType - Creature */
      , (2490,  25,         41) /* Level */
      , (2490,  27,          0) /* ArmorType */
      , (2490,  68,          5) /* TargetingTactic */
-     , (2490,  93,       1032) /* PhysicsState */
-     , (2490, 101,        183) /* AiAllowedCombatStyle */
+     , (2490,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
+     , (2490, 101,        183) /* AiAllowedCombatStyle - Unarmed, OneHanded, OneHandedAndShield, Bow, Crossbow, ThrownWeapon */
      , (2490, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (2490, 146,       2477) /* XpOverride */;
 
@@ -67,8 +67,18 @@ VALUES (2490,   1,   33554496) /* Setup */
      , (2490,   7,  268435647) /* ClothingBase */
      , (2490,   8,  100667452) /* Icon */
      , (2490,  22,  872415270) /* PhysicsEffectTable */
-     , (2490,  32,        195) /* WieldedTreasureType */
-     , (2490,  35,        201) /* DeathTreasureType */;
+     , (2490,  32,        195) /* WieldedTreasureType - 
+                                   Wield Yumi (23735) | Probability: 20%
+                                   Wield 20x Arrow (300) | Probability: 100%
+                                   Wield Heavy Crossbow (23666) | Probability: 40%
+                                   Wield 20x Quarrel (305) | Probability: 100%
+                                   Wield Katar (23675) | Probability: 14%
+                                   Wield Cestus (23638) | Probability: 7%
+                                   Wield Nekode (23681) | Probability: 6%
+                                   Wield Tachi (23701) | Probability: 6%
+                                   Wield Spear (23697) | Probability: 6%
+                                   Wield Kite Shield (23685) | Probability: 75% */
+     , (2490,  35,        201) /* DeathTreasureType - Loot Tier: 4 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (2490,   1, 170, 0, 0) /* Strength */
@@ -184,4 +194,4 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 268435537 /* Twitch1 */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (2490, 1,  2476,  0, 0, 0, False) /* Create Plain Tumerok Key for Contain */;
+VALUES (2490, 1,  2476,  0, 0, 0, False) /* Create Plain Tumerok Key (2476) for Contain */;

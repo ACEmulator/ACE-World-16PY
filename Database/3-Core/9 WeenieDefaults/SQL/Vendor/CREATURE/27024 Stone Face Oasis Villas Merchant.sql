@@ -10,10 +10,10 @@ VALUES (27024,   1,         16) /* ItemType - Creature */
      , (27024,  16,         32) /* ItemUseable - Remote */
      , (27024,  25,         10) /* Level */
      , (27024,  27,          0) /* ArmorType */
-     , (27024,  74,     264192) /* MerchandiseItemTypes */
+     , (27024,  74,     264192) /* MerchandiseItemTypes - Gem, PromissoryNote */
      , (27024,  75,          0) /* MerchandiseMinValue */
      , (27024,  76,    1000000) /* MerchandiseMaxValue */
-     , (27024,  93,    2098204) /* PhysicsState */
+     , (27024,  93,    2098204) /* PhysicsState - Ethereal, ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */
      , (27024, 126,        125) /* VendorHappyMean */
      , (27024, 127,        125) /* VendorHappyVariance */
      , (27024, 133,          4) /* ShowableOnRadar - ShowAlways */
@@ -97,4 +97,4 @@ VALUES (27024,  0,  4,  0,    0,    0,    0,    0,    0,    0,    0,    0,    0,
      , (27024,  8,  4,  2, 0.75,    0,    0,    0,    0,    0,    0,    0,    0,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (27024, 4, 26389, -1, 0, 0, False) /* Create Stone Face Oasis Villas Portal Gem for Shop */;
+VALUES (27024, 4, 26389, -1, 0, 0, False) /* Create Stone Face Oasis Villas Portal Gem (26389) for Shop */;

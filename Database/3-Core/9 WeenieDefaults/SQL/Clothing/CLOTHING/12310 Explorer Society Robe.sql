@@ -4,7 +4,7 @@ VALUES ('12310', 'robeexplorersociety', 2) /* Clothing */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (12310,   1,          4) /* ItemType - Clothing */
      , (12310,   3,          7) /* PaletteTemplate - DeepGreen */
-     , (12310,   4,      81664) /* ClothingPriority */
+     , (12310,   4,      81664) /* ClothingPriority - OuterwearUpperLegs, OuterwearLowerLegs, OuterwearChest, OuterwearAbdomen, OuterwearUpperArms, OuterwearLowerArms, Feet */
      , (12310,   5,        200) /* EncumbranceVal */
      , (12310,   8,        150) /* Mass */
      , (12310,   9,      32512) /* ValidLocations - Armor */
@@ -12,7 +12,7 @@ VALUES (12310,   1,          4) /* ItemType - Clothing */
      , (12310,  19,         50) /* Value */
      , (12310,  27,          1) /* ArmorType */
      , (12310,  28,          0) /* ArmorLevel */
-     , (12310,  93,       1044) /* PhysicsState */;
+     , (12310,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (12310,  22, True ) /* Inscribable */;

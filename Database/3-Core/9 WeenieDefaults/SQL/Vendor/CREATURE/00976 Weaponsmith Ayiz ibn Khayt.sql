@@ -10,10 +10,10 @@ VALUES (976,   1,         16) /* ItemType - Creature */
      , (976,  16,         32) /* ItemUseable - Remote */
      , (976,  25,         11) /* Level */
      , (976,  27,          0) /* ArmorType */
-     , (976,  74, 1074005895) /* MerchandiseItemTypes */
+     , (976,  74, 1074005895) /* MerchandiseItemTypes - Vestements, Weapon, LockableMagicTarget, Useless, PromissoryNote, TinkeringMaterial */
      , (976,  75,          0) /* MerchandiseMinValue */
      , (976,  76,      25000) /* MerchandiseMaxValue */
-     , (976,  93,    2098200) /* PhysicsState */
+     , (976,  93,    2098200) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */
      , (976, 126,       1000) /* VendorHappyMean */
      , (976, 127,        500) /* VendorHappyVariance */
      , (976, 133,          4) /* ShowableOnRadar - ShowAlways */
@@ -163,21 +163,21 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 318767235 /* Nod */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (976, 2,   117,  0, 9, 0, False) /* Create Breeches for Wield */
-     , (976, 2,   124,  0, 1, 0.67, False) /* Create Jerkin for Wield */
-     , (976, 2,   128,  0, 1, 0.67, False) /* Create Qafiya for Wield */
-     , (976, 2,   133,  0, 9, 0, False) /* Create Slippers for Wield */
-     , (976, 4,   308, -1, 0, 0, False) /* Create Budiaq for Shop */
-     , (976, 2,   313,  0, 0, 0, False) /* Create Dabus for Wield */
-     , (976, 4,   313, -1, 0, 0, False) /* Create Dabus for Shop */
-     , (976, 4,   315, -1, 0, 0, False) /* Create Throwing Dagger for Shop */
-     , (976, 4,   316, -1, 0, 0, False) /* Create Throwing Dart for Shop */
-     , (976, 4,   326, -1, 0, 0, False) /* Create Katar for Shop */
-     , (976, 4,   328, -1, 0, 0, False) /* Create Khanjar for Shop */
-     , (976, 4,   345, -1, 0, 0, False) /* Create Simi for Shop */
-     , (976, 4,   357, -1, 0, 0, False) /* Create Tungi for Shop */
-     , (976, 4,  2621, -1, 0, 0, False) /* Create Trade Note (100) for Shop */
-     , (976, 4,  2622, -1, 0, 0, False) /* Create Trade Note (500) for Shop */
-     , (976, 4,  2623, -1, 0, 0, False) /* Create Trade Note (1,000) for Shop */
-     , (976, 2, 10696,  0, 4, 0.8, False) /* Create Apron for Wield */
-     , (976, 4, 22163, -1, 0, 0, False) /* Create Nabut for Shop */;
+VALUES (976, 2,   117,  0, 9, 0, False) /* Create Breeches (117) for Wield */
+     , (976, 2,   124,  0, 1, 0.67, False) /* Create Jerkin (124) for Wield */
+     , (976, 2,   128,  0, 1, 0.67, False) /* Create Qafiya (128) for Wield */
+     , (976, 2,   133,  0, 9, 0, False) /* Create Slippers (133) for Wield */
+     , (976, 4,   308, -1, 0, 0, False) /* Create Budiaq (308) for Shop */
+     , (976, 2,   313,  0, 0, 0, False) /* Create Dabus (313) for Wield */
+     , (976, 4,   313, -1, 0, 0, False) /* Create Dabus (313) for Shop */
+     , (976, 4,   315, -1, 0, 0, False) /* Create Throwing Dagger (315) for Shop */
+     , (976, 4,   316, -1, 0, 0, False) /* Create Throwing Dart (316) for Shop */
+     , (976, 4,   326, -1, 0, 0, False) /* Create Katar (326) for Shop */
+     , (976, 4,   328, -1, 0, 0, False) /* Create Khanjar (328) for Shop */
+     , (976, 4,   345, -1, 0, 0, False) /* Create Simi (345) for Shop */
+     , (976, 4,   357, -1, 0, 0, False) /* Create Tungi (357) for Shop */
+     , (976, 4,  2621, -1, 0, 0, False) /* Create Trade Note (100) (2621) for Shop */
+     , (976, 4,  2622, -1, 0, 0, False) /* Create Trade Note (500) (2622) for Shop */
+     , (976, 4,  2623, -1, 0, 0, False) /* Create Trade Note (1,000) (2623) for Shop */
+     , (976, 2, 10696,  0, 4, 0.8, False) /* Create Apron (10696) for Wield */
+     , (976, 4, 22163, -1, 0, 0, False) /* Create Nabut (22163) for Shop */;

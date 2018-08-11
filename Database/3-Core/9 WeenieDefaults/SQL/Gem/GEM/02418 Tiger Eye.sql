@@ -14,7 +14,7 @@ VALUES (2418,   1,       2048) /* ItemType - Gem */
      , (2418,  15,         10) /* StackUnitValue */
      , (2418,  16,          1) /* ItemUseable - No */
      , (2418,  19,         10) /* Value */
-     , (2418,  93,       1044) /* PhysicsState */
+     , (2418,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (2418, 131,         42) /* MaterialType - TigerEye */
      , (2418, 169,   16777216) /* TsysMutationData */;
 

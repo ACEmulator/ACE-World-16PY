@@ -18,7 +18,7 @@ VALUES (7769,   1,          1) /* ItemType - MeleeWeapon */
      , (7769,  48,          5) /* WeaponSkill - Mace */
      , (7769,  49,         25) /* WeaponTime */
      , (7769,  51,          1) /* CombatUse - Melee */
-     , (7769,  93,       1044) /* PhysicsState */
+     , (7769,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (7769, 106,        150) /* ItemSpellcraft */
      , (7769, 107,        600) /* ItemCurMana */
      , (7769, 108,        600) /* ItemMaxMana */

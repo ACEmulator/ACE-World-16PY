@@ -15,8 +15,8 @@ VALUES (9077,   1,        128) /* ItemType - Misc */
      , (9077,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
      , (9077,  19,         50) /* Value */
      , (9077,  33,          1) /* Bonded - Bonded */
-     , (9077,  93,       1044) /* PhysicsState */
-     , (9077,  94,          2) /* TargetType - Armor */
+     , (9077,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (9077,  94,          2) /* TargetType - Banderling */
      , (9077, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)

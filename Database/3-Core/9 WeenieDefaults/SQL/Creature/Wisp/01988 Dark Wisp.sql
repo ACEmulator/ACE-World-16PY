@@ -11,7 +11,7 @@ VALUES (1988,   1,         16) /* ItemType - Creature */
      , (1988,  27,          0) /* ArmorType */
      , (1988,  40,          2) /* CombatMode - Melee */
      , (1988,  68,          9) /* TargetingTactic */
-     , (1988,  93,       1032) /* PhysicsState */
+     , (1988,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (1988, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (1988, 146,       1357) /* XpOverride */;
 
@@ -67,7 +67,7 @@ VALUES (1988,   1,   33555869) /* Setup */
      , (1988,   4,  805306398) /* CombatTable */
      , (1988,   8,  100668442) /* Icon */
      , (1988,  22,  872415274) /* PhysicsEffectTable */
-     , (1988,  35,        465) /* DeathTreasureType */;
+     , (1988,  35,        465) /* DeathTreasureType - Loot Tier: 1 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (1988,   1,  70, 0, 0) /* Strength */
@@ -120,5 +120,5 @@ VALUES (1988,  94) /* ATTACK_NOTIFICATION_EVENT */
      , (1988, 414) /* PLAYER_DEATH_EVENT */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (1988, 9,     0,  0, 0, 0.97, False) /* Create Unknown for ContainTreasure */
-     , (1988, 9,  8668,  0, 0, 0.03, False) /* Create Sickly Wisp Heart for ContainTreasure */;
+VALUES (1988, 9,     0,  0, 0, 0.97, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 1 for ContainTreasure */
+     , (1988, 9,  8668,  0, 0, 0.03, False) /* Create Sickly Wisp Heart (8668) for ContainTreasure */;

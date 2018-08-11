@@ -15,8 +15,8 @@ VALUES (8213,   1,       2048) /* ItemType - Gem */
      , (8213,  18,          1) /* UiEffects - Magical */
      , (8213,  19,       1000) /* Value */
      , (8213,  33,          1) /* Bonded - Bonded */
-     , (8213,  93,       3092) /* PhysicsState */
-     , (8213,  94,         16) /* TargetType - Creature */
+     , (8213,  93,       3092) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, LightingOn */
+     , (8213,  94,         16) /* TargetType - Reedshark */
      , (8213, 106,        210) /* ItemSpellcraft */
      , (8213, 107,         70) /* ItemCurMana */
      , (8213, 108,         70) /* ItemMaxMana */

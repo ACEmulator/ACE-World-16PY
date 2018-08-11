@@ -8,7 +8,7 @@ VALUES (10021,   1,        128) /* ItemType - Misc */
      , (10021,   9,          0) /* ValidLocations - None */
      , (10021,  16,          1) /* ItemUseable - No */
      , (10021,  19,          0) /* Value */
-     , (10021,  93,         52) /* PhysicsState */
+     , (10021,  93,         52) /* PhysicsState - Ethereal, IgnoreCollisions, NoDraw */
      , (10021, 155,          1) /* HouseType - Cottage */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)

@@ -12,7 +12,7 @@ VALUES (22887,   1,          4) /* ItemType - Clothing */
      , (22887,  19,        200) /* Value */
      , (22887,  27,          1) /* ArmorType */
      , (22887,  28,          0) /* ArmorLevel */
-     , (22887,  93,       1044) /* PhysicsState */
+     , (22887,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (22887, 106,         30) /* ItemSpellcraft */
      , (22887, 107,        100) /* ItemCurMana */
      , (22887, 108,        200) /* ItemMaxMana */

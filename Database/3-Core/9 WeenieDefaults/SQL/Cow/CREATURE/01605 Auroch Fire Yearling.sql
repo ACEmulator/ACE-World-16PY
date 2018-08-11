@@ -14,7 +14,7 @@ VALUES (1605,   1,         16) /* ItemType - Creature */
      , (1605,  67,         64) /* Tolerance */
      , (1605,  68,          5) /* TargetingTactic */
      , (1605,  72,         12) /* FriendType - Cow */
-     , (1605,  93,       1032) /* PhysicsState */
+     , (1605,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (1605, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (1605, 146,        534) /* XpOverride */;
 
@@ -70,7 +70,7 @@ VALUES (1605,   1,   33555220) /* Setup */
      , (1605,   8,  100667936) /* Icon */
      , (1605,  22,  872415254) /* PhysicsEffectTable */
      , (1605,  30,         83) /* PhysicsScript - PortalExit */
-     , (1605,  35,        459) /* DeathTreasureType */;
+     , (1605,  35,        459) /* DeathTreasureType - Loot Tier: 1 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (1605,   1,  90, 0, 0) /* Strength */
@@ -141,5 +141,5 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 268435538 /* Twitch2 */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (1605, 9,     0,  0, 0, 0.9, False) /* Create Unknown for ContainTreasure */
-     , (1605, 9,   266,  0, 0, 0.1, False) /* Create Auroch Horn for ContainTreasure */;
+VALUES (1605, 9,     0,  0, 0, 0.9, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 1 for ContainTreasure */
+     , (1605, 9,   266,  0, 0, 0.1, False) /* Create Auroch Horn (266) for ContainTreasure */;

@@ -10,8 +10,8 @@ VALUES (2031,   1,      32768) /* ItemType - Caster */
      , (2031,  18,          1) /* UiEffects - Magical */
      , (2031,  19,       1500) /* Value */
      , (2031,  46,        512) /* DefaultCombatStyle - Magic */
-     , (2031,  93,       1044) /* PhysicsState */
-     , (2031,  94,         16) /* TargetType - Creature */
+     , (2031,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (2031,  94,         16) /* TargetType - Reedshark */
      , (2031, 106,        200) /* ItemSpellcraft */
      , (2031, 107,        600) /* ItemCurMana */
      , (2031, 108,        600) /* ItemMaxMana */

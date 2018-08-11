@@ -10,10 +10,10 @@ VALUES (26869,   1,         16) /* ItemType - Creature */
      , (26869,  16,         32) /* ItemUseable - Remote */
      , (26869,  25,         10) /* Level */
      , (26869,  27,          0) /* ArmorType */
-     , (26869,  74,     264192) /* MerchandiseItemTypes */
+     , (26869,  74,     264192) /* MerchandiseItemTypes - Gem, PromissoryNote */
      , (26869,  75,          0) /* MerchandiseMinValue */
      , (26869,  76,    1000000) /* MerchandiseMaxValue */
-     , (26869,  93,    2098204) /* PhysicsState */
+     , (26869,  93,    2098204) /* PhysicsState - Ethereal, ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */
      , (26869, 126,        125) /* VendorHappyMean */
      , (26869, 127,        125) /* VendorHappyVariance */
      , (26869, 133,          4) /* ShowableOnRadar - ShowAlways */
@@ -97,4 +97,4 @@ VALUES (26869,  0,  4,  0,    0,    0,    0,    0,    0,    0,    0,    0,    0,
      , (26869,  8,  4,  2, 0.75,    0,    0,    0,    0,    0,    0,    0,    0,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (26869, 4, 26234, -1, 0, 0, False) /* Create Lake NemuelSettlement Portal Gem for Shop */;
+VALUES (26869, 4, 26234, -1, 0, 0, False) /* Create Lake NemuelSettlement Portal Gem (26234) for Shop */;

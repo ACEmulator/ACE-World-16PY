@@ -11,7 +11,7 @@ VALUES (10978,   1,         16) /* ItemType - Creature */
      , (10978,  16,         32) /* ItemUseable - Remote */
      , (10978,  25,        188) /* Level */
      , (10978,  27,          0) /* ArmorType */
-     , (10978,  93,    6292504) /* PhysicsState */
+     , (10978,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (10978,  95,          8) /* RadarBlipColor - Yellow */
      , (10978, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (10978, 134,         16) /* PlayerKillerStatus - RubberGlue */
@@ -520,4 +520,4 @@ VALUES (@parent_id,  0,  10 /* Tell */, 0, 1, NULL, 'What? Are you KIDDING? I al
      , (@parent_id,  4,  19 /* CastSpellInstant */, 1, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 1174 /* Harm Other IV */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (10978, 2,   254,  0, 0, 0, False) /* Create Stoup for Wield */;
+VALUES (10978, 2,   254,  0, 0, 0, False) /* Create Stoup (254) for Wield */;

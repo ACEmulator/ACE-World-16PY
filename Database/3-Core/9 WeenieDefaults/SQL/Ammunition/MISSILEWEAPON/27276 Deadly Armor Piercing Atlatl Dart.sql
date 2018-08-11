@@ -18,7 +18,7 @@ VALUES (27276,   1,        256) /* ItemType - MissileWeapon */
      , (27276,  45,          2) /* DamageType - Pierce */
      , (27276,  50,          4) /* AmmoType - ArrowCrystal */
      , (27276,  51,          3) /* CombatUse - Ammo */
-     , (27276,  93,     132116) /* PhysicsState */
+     , (27276,  93,     132116) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, Inelastic */
      , (27276, 150,        103) /* HookPlacement - Hook */
      , (27276, 151,          2) /* HookType - Wall */
      , (27276, 158,          2) /* WieldRequirements - RawSkill */

@@ -10,10 +10,10 @@ VALUES (27058,   1,         16) /* ItemType - Creature */
      , (27058,  16,         32) /* ItemUseable - Remote */
      , (27058,  25,         10) /* Level */
      , (27058,  27,          0) /* ArmorType */
-     , (27058,  74,     264192) /* MerchandiseItemTypes */
+     , (27058,  74,     264192) /* MerchandiseItemTypes - Gem, PromissoryNote */
      , (27058,  75,          0) /* MerchandiseMinValue */
      , (27058,  76,    1000000) /* MerchandiseMaxValue */
-     , (27058,  93,    2098204) /* PhysicsState */
+     , (27058,  93,    2098204) /* PhysicsState - Ethereal, ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */
      , (27058, 126,        125) /* VendorHappyMean */
      , (27058, 127,        125) /* VendorHappyVariance */
      , (27058, 133,          4) /* ShowableOnRadar - ShowAlways */
@@ -97,4 +97,4 @@ VALUES (27058,  0,  4,  0,    0,    0,    0,    0,    0,    0,    0,    0,    0,
      , (27058,  8,  4,  2, 0.75,    0,    0,    0,    0,    0,    0,    0,    0,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (27058, 4, 26423, -1, 0, 0, False) /* Create Vulture's Eye Villas Portal Gem for Shop */;
+VALUES (27058, 4, 26423, -1, 0, 0, False) /* Create Vulture's Eye Villas Portal Gem (26423) for Shop */;

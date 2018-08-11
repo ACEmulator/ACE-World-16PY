@@ -11,7 +11,7 @@ VALUES (11528,   1,         16) /* ItemType - Creature */
      , (11528,  27,          0) /* ArmorType */
      , (11528,  40,          2) /* CombatMode - Melee */
      , (11528,  68,          3) /* TargetingTactic */
-     , (11528,  93,       1032) /* PhysicsState */
+     , (11528,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (11528, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (11528, 146,       1481) /* XpOverride */;
 
@@ -65,7 +65,7 @@ VALUES (11528,   1,   33556428) /* Setup */
      , (11528,   4,  805306376) /* CombatTable */
      , (11528,   8,  100667940) /* Icon */
      , (11528,  22,  872415326) /* PhysicsEffectTable */
-     , (11528,  35,        465) /* DeathTreasureType */;
+     , (11528,  35,        465) /* DeathTreasureType - Loot Tier: 1 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (11528,   1, 130, 0, 0) /* Strength */
@@ -126,9 +126,9 @@ VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 1090519043 /* Ready */, NULL, NU
      , (@parent_id,  1,   5 /* Motion */, 0, 1, 1090519060 /* Sleeping */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (11528, 9,     0,  0, 0, 0.95, False) /* Create Unknown for ContainTreasure */
-     , (11528, 9,     0,  0, 0, 0.985, False) /* Create Unknown for ContainTreasure */
-     , (11528, 9,     0,  0, 0, 0.97, False) /* Create Unknown for ContainTreasure */
-     , (11528, 9,  6353,  0, 0, 0.015, False) /* Create Pyreal Mote for ContainTreasure */
-     , (11528, 9, 11350,  0, 0, 0.05, False) /* Create Elaniwood Golem Heart for ContainTreasure */
-     , (11528, 9, 20859,  0, 0, 0.03, False) /* Create Fletching Stamp for ContainTreasure */;
+VALUES (11528, 9,     0,  0, 0, 0.95, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 1 for ContainTreasure */
+     , (11528, 9,     0,  0, 0, 0.985, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 1 for ContainTreasure */
+     , (11528, 9,     0,  0, 0, 0.97, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 1 for ContainTreasure */
+     , (11528, 9,  6353,  0, 0, 0.015, False) /* Create Pyreal Mote (6353) for ContainTreasure */
+     , (11528, 9, 11350,  0, 0, 0.05, False) /* Create Elaniwood Golem Heart (11350) for ContainTreasure */
+     , (11528, 9, 20859,  0, 0, 0.03, False) /* Create Fletching Stamp (20859) for ContainTreasure */;

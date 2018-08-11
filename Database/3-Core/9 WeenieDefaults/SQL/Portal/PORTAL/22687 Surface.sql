@@ -4,8 +4,8 @@ VALUES ('22687', 'portaltuskerlacunaexit', 7) /* Portal */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (22687,   1,      65536) /* ItemType - Portal */
      , (22687,  16,         32) /* ItemUseable - Remote */
-     , (22687,  93,       3084) /* PhysicsState */
-     , (22687, 111,         49) /* PortalBitmask */
+     , (22687,  93,       3084) /* PhysicsState - Ethereal, ReportCollisions, Gravity, LightingOn */
+     , (22687, 111,         49) /* PortalBitmask - Unrestricted, NoSummon, NoRecall */
      , (22687, 133,          4) /* ShowableOnRadar - ShowAlways */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)

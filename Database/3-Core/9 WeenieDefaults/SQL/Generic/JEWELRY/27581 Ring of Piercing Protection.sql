@@ -11,7 +11,7 @@ VALUES (27581,   1,          8) /* ItemType - Jewelry */
      , (27581,  18,          1) /* UiEffects - Magical */
      , (27581,  19,          0) /* Value */
      , (27581,  33,          1) /* Bonded - Bonded */
-     , (27581,  93,       1044) /* PhysicsState */
+     , (27581,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (27581, 106,        150) /* ItemSpellcraft */
      , (27581, 107,        600) /* ItemCurMana */
      , (27581, 108,        600) /* ItemMaxMana */

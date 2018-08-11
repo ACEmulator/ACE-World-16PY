@@ -10,10 +10,10 @@ VALUES (26872,   1,         16) /* ItemType - Creature */
      , (26872,  16,         32) /* ItemUseable - Remote */
      , (26872,  25,         10) /* Level */
      , (26872,  27,          0) /* ArmorType */
-     , (26872,  74,     264192) /* MerchandiseItemTypes */
+     , (26872,  74,     264192) /* MerchandiseItemTypes - Gem, PromissoryNote */
      , (26872,  75,          0) /* MerchandiseMinValue */
      , (26872,  76,    1000000) /* MerchandiseMaxValue */
-     , (26872,  93,    2098204) /* PhysicsState */
+     , (26872,  93,    2098204) /* PhysicsState - Ethereal, ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */
      , (26872, 126,        125) /* VendorHappyMean */
      , (26872, 127,        125) /* VendorHappyVariance */
      , (26872, 133,          4) /* ShowableOnRadar - ShowAlways */
@@ -97,4 +97,4 @@ VALUES (26872,  0,  4,  0,    0,    0,    0,    0,    0,    0,    0,    0,    0,
      , (26872,  8,  4,  2, 0.75,    0,    0,    0,    0,    0,    0,    0,    0,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (26872, 4, 26237, -1, 0, 0, False) /* Create Land Bridge Villas Portal Gem for Shop */;
+VALUES (26872, 4, 26237, -1, 0, 0, False) /* Create Land Bridge Villas Portal Gem (26237) for Shop */;

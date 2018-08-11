@@ -7,7 +7,7 @@ VALUES (8681,   1,          2) /* ItemType - Armor */
      , (8681,   4,      65536) /* ClothingPriority - Feet */
      , (8681,   5,        300) /* EncumbranceVal */
      , (8681,   8,        140) /* Mass */
-     , (8681,   9,        384) /* ValidLocations */
+     , (8681,   9,        384) /* ValidLocations - LowerLegWear, FootWear */
      , (8681,  16,          1) /* ItemUseable - No */
      , (8681,  18,          1) /* UiEffects - Magical */
      , (8681,  19,          1) /* Value */
@@ -15,7 +15,7 @@ VALUES (8681,   1,          2) /* ItemType - Armor */
      , (8681,  28,        100) /* ArmorLevel */
      , (8681,  44,          1) /* Damage */
      , (8681,  45,          4) /* DamageType - Bludgeon */
-     , (8681,  93,       1044) /* PhysicsState */
+     , (8681,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (8681, 106,        100) /* ItemSpellcraft */
      , (8681, 107,        400) /* ItemCurMana */
      , (8681, 108,        400) /* ItemMaxMana */

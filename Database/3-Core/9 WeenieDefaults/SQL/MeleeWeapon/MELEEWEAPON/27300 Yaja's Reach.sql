@@ -10,13 +10,13 @@ VALUES (27300,   1,          1) /* ItemType - MeleeWeapon */
      , (27300,  18,          1) /* UiEffects - Magical */
      , (27300,  19,       4500) /* Value */
      , (27300,  44,         42) /* Damage */
-     , (27300,  45,          3) /* DamageType */
+     , (27300,  45,          3) /* DamageType - Slash, Pierce */
      , (27300,  46,          2) /* DefaultCombatStyle - OneHanded */
-     , (27300,  47,          6) /* AttackType */
+     , (27300,  47,          6) /* AttackType - Thrust, Slash */
      , (27300,  48,          9) /* WeaponSkill - Spear */
      , (27300,  49,         30) /* WeaponTime */
      , (27300,  51,          1) /* CombatUse - Melee */
-     , (27300,  93,       1044) /* PhysicsState */
+     , (27300,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (27300, 106,        400) /* ItemSpellcraft */
      , (27300, 107,        800) /* ItemCurMana */
      , (27300, 108,        800) /* ItemMaxMana */

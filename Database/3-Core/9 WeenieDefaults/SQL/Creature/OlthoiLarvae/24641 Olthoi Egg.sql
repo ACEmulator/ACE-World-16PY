@@ -11,7 +11,7 @@ VALUES (24641,   1,         16) /* ItemType - Creature */
      , (24641,  27,          0) /* ArmorType */
      , (24641,  40,          1) /* CombatMode - NonCombat */
      , (24641,  67,          1) /* Tolerance */
-     , (24641,  93,       1032) /* PhysicsState */
+     , (24641,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (24641, 133,          0) /* ShowableOnRadar - Undefined */
      , (24641, 146,          0) /* XpOverride */;
 
@@ -97,5 +97,5 @@ VALUES (24641,  0,  4, 35, 0.75,   90,   56,   72,   54,   56,   56,   29,   10,
      , (24641, 22, 32, 30,  0.5,    0,    0,    0,    0,    0,    0,    0,    0,    0, 0,    0,    0,    0,    0,    0,    0,    0,    0,    0,    0,    0,    0) /* Breath */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (24641, 9,     0,  0, 0, 0.8, False) /* Create Unknown for ContainTreasure */
-     , (24641, 9, 24269,  0, 0, 0.2, False) /* Create Small Olthoi Grub for ContainTreasure */;
+VALUES (24641, 9,     0,  0, 0, 0.8, False) /* Create UNKNOWN RANDOMLY GENERATED TREASURE for ContainTreasure */
+     , (24641, 9, 24269,  0, 0, 0.2, False) /* Create Small Olthoi Grub (24269) for ContainTreasure */;

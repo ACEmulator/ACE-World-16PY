@@ -11,8 +11,8 @@ VALUES (6015,   1,         16) /* ItemType - Creature */
      , (6015,  25,         44) /* Level */
      , (6015,  27,          0) /* ArmorType */
      , (6015,  68,          5) /* TargetingTactic */
-     , (6015,  93,    4195336) /* PhysicsState */
-     , (6015, 101,        183) /* AiAllowedCombatStyle */
+     , (6015,  93,    4195336) /* PhysicsState - ReportCollisions, Gravity, EdgeSlide */
+     , (6015, 101,        183) /* AiAllowedCombatStyle - Unarmed, OneHanded, OneHandedAndShield, Bow, Crossbow, ThrownWeapon */
      , (6015, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (6015, 140,          1) /* AiOptions */
      , (6015, 146,       6305) /* XpOverride */;
@@ -72,8 +72,34 @@ VALUES (6015,   1,   33554496) /* Setup */
      , (6015,   7,  268436629) /* ClothingBase */
      , (6015,   8,  100667452) /* Icon */
      , (6015,  22,  872415270) /* PhysicsEffectTable */
-     , (6015,  32,        215) /* WieldedTreasureType */
-     , (6015,  35,        451) /* DeathTreasureType */;
+     , (6015,  32,        215) /* WieldedTreasureType - 
+                                   Wield 6x Throwing Axe (304) | Probability: 10%
+                                   Wield Nayin (334) | Probability: 10%
+                                   Wield 20x Arrow (300) | Probability: 100%
+                                   Wield Longbow (306) | Probability: 10%
+                                   Wield 20x Arrow (300) | Probability: 100%
+                                   Wield Yumi (363) | Probability: 10%
+                                   Wield Arrow (300) | Probability: 100%
+                                   Wield Heavy Crossbow (311) | Probability: 60%
+                                   Wield 15x Quarrel (305) | Probability: 100%
+                                   Wield Battle Axe (301) | Probability: 14%
+                                   Wield Broad Sword (350) | Probability: 7%
+                                   Wield Kaskara (324) | Probability: 6%
+                                   Wield Ken (327) | Probability: 6%
+                                   Wield Long Sword (351) | Probability: 6%
+                                   Wield Morning Star (332) | Probability: 10%
+                                   Wield Scimitar (339) | Probability: 6%
+                                   Wield Shamshir (340) | Probability: 6%
+                                   Wield Ono (336) | Probability: 13%
+                                   Wield Silifi (344) | Probability: 13%
+                                   Wield Tachi (353) | Probability: 6%
+                                   Wield Takuba (354) | Probability: 6%
+                                   Wield Large Kite Shield (92) | Probability: 10%
+                                   Wield Kite Shield (91) | Probability: 10%
+                                   Wield Large Round Shield (94) | Probability: 20%
+                                   Wield Round Shield (93) | Probability: 20%
+                                   Wield Tower Shield (95) | Probability: 15% */
+     , (6015,  35,        451) /* DeathTreasureType - Loot Tier: 2 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (6015,   1, 100, 0, 0) /* Strength */
@@ -146,9 +172,9 @@ VALUES (6015,  94) /* ATTACK_NOTIFICATION_EVENT */
      , (6015, 414) /* PLAYER_DEATH_EVENT */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (6015, 9,     0,  0, 0, 0.85, False) /* Create Unknown for ContainTreasure */
-     , (6015, 9,     0,  0, 0, 0.99, False) /* Create Unknown for ContainTreasure */
-     , (6015, 9,     0,  0, 0, 0.97, False) /* Create Unknown for ContainTreasure */
-     , (6015, 9,  3695,  0, 0, 0.15, False) /* Create Gold Tumerok Insignia for ContainTreasure */
-     , (6015, 9,  6876,  0, 0, 0.01, False) /* Create Sturdy Iron Key for ContainTreasure */
-     , (6015, 9,  7825,  0, 0, 0.03, False) /* Create Brown Beans for ContainTreasure */;
+VALUES (6015, 9,     0,  0, 0, 0.85, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 2 for ContainTreasure */
+     , (6015, 9,     0,  0, 0, 0.99, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 2 for ContainTreasure */
+     , (6015, 9,     0,  0, 0, 0.97, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 2 for ContainTreasure */
+     , (6015, 9,  3695,  0, 0, 0.15, False) /* Create Gold Tumerok Insignia (3695) for ContainTreasure */
+     , (6015, 9,  6876,  0, 0, 0.01, False) /* Create Sturdy Iron Key (6876) for ContainTreasure */
+     , (6015, 9,  7825,  0, 0, 0.03, False) /* Create Brown Beans (7825) for ContainTreasure */;

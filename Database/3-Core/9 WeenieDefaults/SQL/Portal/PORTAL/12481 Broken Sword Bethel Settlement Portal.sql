@@ -4,7 +4,7 @@ VALUES ('12481', 'portalbrokenswordbethelsettlement', 7) /* Portal */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (12481,   1,      65536) /* ItemType - Portal */
      , (12481,  16,         32) /* ItemUseable - Remote */
-     , (12481,  93,       3084) /* PhysicsState */
+     , (12481,  93,       3084) /* PhysicsState - Ethereal, ReportCollisions, Gravity, LightingOn */
      , (12481, 111,          1) /* PortalBitmask - Unrestricted */
      , (12481, 133,          4) /* ShowableOnRadar - ShowAlways */;
 

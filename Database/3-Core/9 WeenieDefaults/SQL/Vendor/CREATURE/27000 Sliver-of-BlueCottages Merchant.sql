@@ -10,10 +10,10 @@ VALUES (27000,   1,         16) /* ItemType - Creature */
      , (27000,  16,         32) /* ItemUseable - Remote */
      , (27000,  25,         10) /* Level */
      , (27000,  27,          0) /* ArmorType */
-     , (27000,  74,     264192) /* MerchandiseItemTypes */
+     , (27000,  74,     264192) /* MerchandiseItemTypes - Gem, PromissoryNote */
      , (27000,  75,          0) /* MerchandiseMinValue */
      , (27000,  76,    1000000) /* MerchandiseMaxValue */
-     , (27000,  93,    2098204) /* PhysicsState */
+     , (27000,  93,    2098204) /* PhysicsState - Ethereal, ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */
      , (27000, 126,        125) /* VendorHappyMean */
      , (27000, 127,        125) /* VendorHappyVariance */
      , (27000, 133,          4) /* ShowableOnRadar - ShowAlways */
@@ -97,4 +97,4 @@ VALUES (27000,  0,  4,  0,    0,    0,    0,    0,    0,    0,    0,    0,    0,
      , (27000,  8,  4,  2, 0.75,    0,    0,    0,    0,    0,    0,    0,    0,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (27000, 4, 26365, -1, 0, 0, False) /* Create Sliver-of-BlueCottages Portal Gem for Shop */;
+VALUES (27000, 4, 26365, -1, 0, 0, False) /* Create Sliver-of-BlueCottages Portal Gem (26365) for Shop */;

@@ -12,8 +12,8 @@ VALUES (8791,   1,      32768) /* ItemType - Caster */
      , (8791,  19,          0) /* Value */
      , (8791,  33,          1) /* Bonded - Bonded */
      , (8791,  46,        512) /* DefaultCombatStyle - Magic */
-     , (8791,  93,       1044) /* PhysicsState */
-     , (8791,  94,         16) /* TargetType - Creature */
+     , (8791,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (8791,  94,         16) /* TargetType - Reedshark */
      , (8791, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)

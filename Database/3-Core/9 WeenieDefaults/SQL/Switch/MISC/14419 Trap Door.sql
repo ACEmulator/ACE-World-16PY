@@ -4,7 +4,7 @@ VALUES ('14419', 'doortrapregicideexit', 26) /* Switch */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (14419,   1,        128) /* ItemType - Misc */
      , (14419,  16,         48) /* ItemUseable - ViewedRemote */
-     , (14419,  93,         16) /* PhysicsState - IgnoreCollision */
+     , (14419,  93,         16) /* PhysicsState - IgnoreCollisions */
      , (14419, 119,          1) /* Active */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)

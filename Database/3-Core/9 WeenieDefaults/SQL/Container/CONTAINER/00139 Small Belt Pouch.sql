@@ -10,7 +10,7 @@ VALUES (139,   1,        512) /* ItemType - Container */
      , (139,   9,          0) /* ValidLocations - None */
      , (139,  16,         56) /* ItemUseable - ContainedViewedRemote */
      , (139,  19,         65) /* Value */
-     , (139,  93,       1044) /* PhysicsState */;
+     , (139,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (139,  22, True ) /* Inscribable */;

@@ -12,8 +12,8 @@ VALUES (204,   1,         16) /* ItemType - Creature */
      , (204,  27,          0) /* ArmorType */
      , (204,  40,          1) /* CombatMode - NonCombat */
      , (204,  68,          3) /* TargetingTactic */
-     , (204,  93,       1032) /* PhysicsState */
-     , (204, 101,        183) /* AiAllowedCombatStyle */
+     , (204,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
+     , (204, 101,        183) /* AiAllowedCombatStyle - Unarmed, OneHanded, OneHandedAndShield, Bow, Crossbow, ThrownWeapon */
      , (204, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (204, 140,          1) /* AiOptions */
      , (204, 146,       1989) /* XpOverride */;
@@ -72,8 +72,32 @@ VALUES (204,   1,   33554839) /* Setup */
      , (204,   7,  268435558) /* ClothingBase */
      , (204,   8,  100667942) /* Icon */
      , (204,  22,  872415272) /* PhysicsEffectTable */
-     , (204,  32,        248) /* WieldedTreasureType */
-     , (204,  35,        453) /* DeathTreasureType */;
+     , (204,  32,        248) /* WieldedTreasureType - 
+                                   Wield 6x Throwing Axe (304) | Probability: 10%
+                                   Wield Nayin (334) | Probability: 10%
+                                   Wield 20x Arrow (300) | Probability: 100%
+                                   Wield Longbow (306) | Probability: 10%
+                                   Wield 20x Arrow (300) | Probability: 100%
+                                   Wield Yumi (363) | Probability: 10%
+                                   Wield 14x Arrow (300) | Probability: 100%
+                                   Wield Heavy Crossbow (311) | Probability: 60%
+                                   Wield 15x Quarrel (305) | Probability: 100%
+                                   Wield Battle Axe (301) | Probability: 14%
+                                   Wield Broad Sword (350) | Probability: 7%
+                                   Wield Kaskara (324) | Probability: 6%
+                                   Wield Ken (327) | Probability: 6%
+                                   Wield Long Sword (351) | Probability: 6%
+                                   Wield Morning Star (332) | Probability: 10%
+                                   Wield Scimitar (339) | Probability: 6%
+                                   Wield Shamshir (340) | Probability: 6%
+                                   Wield Ono (336) | Probability: 13%
+                                   Wield Silifi (344) | Probability: 13%
+                                   Wield Tachi (353) | Probability: 6%
+                                   Wield Takuba (354) | Probability: 6%
+                                   Wield Large Kite Shield (92) | Probability: 30%
+                                   Wield Kite Shield (91) | Probability: 20%
+                                   Wield Large Round Shield (94) | Probability: 20% */
+     , (204,  35,        453) /* DeathTreasureType - Loot Tier: 1 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (204,   1, 120, 0, 0) /* Strength */
@@ -150,15 +174,15 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,  17 /* LocalBroadcast */, 0, 0, NULL, 'As the ancient creature collapses into viscera and rot, it groans the name of Avoren.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (204, 9,     0,  0, 0, 0.98, False) /* Create Unknown for ContainTreasure */
-     , (204, 9,     0,  0, 0, 0.97, False) /* Create Unknown for ContainTreasure */
-     , (204, 9,     0,  0, 0, 0.95, False) /* Create Unknown for ContainTreasure */
-     , (204, 9,     0,  0, 0, 0.95, False) /* Create Unknown for ContainTreasure */
-     , (204, 9,     0,  0, 0, 0.95, False) /* Create Unknown for ContainTreasure */
-     , (204, 9,     0,  0, 0, 0.95, False) /* Create Unknown for ContainTreasure */
-     , (204, 9,  7041,  0, 0, 0.02, False) /* Create Undead Thighbone for ContainTreasure */
-     , (204, 9,  9312,  0, 0, 0.03, False) /* Create A Small Mnemosyne for ContainTreasure */
-     , (204, 9, 12225,  0, 0, 0.05, False) /* Create Zombie Head for ContainTreasure */
-     , (204, 9, 22028,  0, 0, 0.05, False) /* Create Undead Arm for ContainTreasure */
-     , (204, 9, 22032,  0, 0, 0.05, False) /* Create Undead Leg for ContainTreasure */
-     , (204, 9, 22048,  0, 0, 0.05, False) /* Create Undead Torso for ContainTreasure */;
+VALUES (204, 9,     0,  0, 0, 0.98, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 1 for ContainTreasure */
+     , (204, 9,     0,  0, 0, 0.97, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 1 for ContainTreasure */
+     , (204, 9,     0,  0, 0, 0.95, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 1 for ContainTreasure */
+     , (204, 9,     0,  0, 0, 0.95, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 1 for ContainTreasure */
+     , (204, 9,     0,  0, 0, 0.95, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 1 for ContainTreasure */
+     , (204, 9,     0,  0, 0, 0.95, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 1 for ContainTreasure */
+     , (204, 9,  7041,  0, 0, 0.02, False) /* Create Undead Thighbone (7041) for ContainTreasure */
+     , (204, 9,  9312,  0, 0, 0.03, False) /* Create A Small Mnemosyne (9312) for ContainTreasure */
+     , (204, 9, 12225,  0, 0, 0.05, False) /* Create Zombie Head (12225) for ContainTreasure */
+     , (204, 9, 22028,  0, 0, 0.05, False) /* Create Undead Arm (22028) for ContainTreasure */
+     , (204, 9, 22032,  0, 0, 0.05, False) /* Create Undead Leg (22032) for ContainTreasure */
+     , (204, 9, 22048,  0, 0, 0.05, False) /* Create Undead Torso (22048) for ContainTreasure */;

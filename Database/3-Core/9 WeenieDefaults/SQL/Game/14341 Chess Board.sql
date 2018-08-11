@@ -3,7 +3,7 @@ VALUES ('14341', 'chessboard', 60) /* Game */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (14341,   1, -2147483648) /* ItemType */
-     , (14341,  93,       1040) /* PhysicsState */;
+     , (14341,  93,       1040) /* PhysicsState - IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (14341,   1, True ) /* Stuck */

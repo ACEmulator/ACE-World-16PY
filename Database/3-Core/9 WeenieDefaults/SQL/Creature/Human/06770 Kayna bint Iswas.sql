@@ -10,7 +10,7 @@ VALUES (6770,   1,         16) /* ItemType - Creature */
      , (6770,  16,         32) /* ItemUseable - Remote */
      , (6770,  25,         74) /* Level */
      , (6770,  27,          0) /* ArmorType */
-     , (6770,  93,    6292504) /* PhysicsState */
+     , (6770,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (6770,  95,          8) /* RadarBlipColor - Yellow */
      , (6770, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (6770, 134,         16) /* PlayerKillerStatus - RubberGlue */
@@ -188,4 +188,4 @@ VALUES (@parent_id,  0,  12 /* TurnToTarget */, 0, 1, NULL, NULL, NULL, NULL, NU
      , (@parent_id,  2,   3 /* Give */, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0, 6778 /* Repaired Haft */, 1, 0, 0, False, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (6770, 2,  5913,  0, 0, 0, False) /* Create Dho Item Master Robe for Wield */;
+VALUES (6770, 2,  5913,  0, 0, 0, False) /* Create Dho Item Master Robe (5913) for Wield */;

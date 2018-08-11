@@ -12,8 +12,8 @@ VALUES (25347,   1,         16) /* ItemType - Creature */
      , (25347,  27,          0) /* ArmorType */
      , (25347,  40,          1) /* CombatMode - NonCombat */
      , (25347,  68,          3) /* TargetingTactic */
-     , (25347,  93,       1032) /* PhysicsState */
-     , (25347, 101,        183) /* AiAllowedCombatStyle */
+     , (25347,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
+     , (25347, 101,        183) /* AiAllowedCombatStyle - Unarmed, OneHanded, OneHandedAndShield, Bow, Crossbow, ThrownWeapon */
      , (25347, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (25347, 140,          1) /* AiOptions */
      , (25347, 146,      77430) /* XpOverride */;
@@ -72,8 +72,9 @@ VALUES (25347,   1,   33558437) /* Setup */
      , (25347,   7,  268436673) /* ClothingBase */
      , (25347,   8,  100674805) /* Icon */
      , (25347,  22,  872415272) /* PhysicsEffectTable */
-     , (25347,  32,        447) /* WieldedTreasureType */
-     , (25347,  35,        449) /* DeathTreasureType */;
+     , (25347,  32,        447) /* WieldedTreasureType - 
+                                   Wield Khopesh (25500) | Probability: 98% */
+     , (25347,  35,        449) /* DeathTreasureType - Loot Tier: 6 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (25347,   1, 360, 0, 0) /* Strength */
@@ -150,5 +151,5 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   8 /* Say */, 0, 0, NULL, 'Ekta livaik ikti vik ilkian, ia klia livaik ix vik iak.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (25347, 9,     0,  0, 0, 0.98, False) /* Create Unknown for ContainTreasure */
-     , (25347, 9, 24477,  0, 0, 0.02, False) /* Create Sturdy Steel Key for ContainTreasure */;
+VALUES (25347, 9,     0,  0, 0, 0.98, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 6 for ContainTreasure */
+     , (25347, 9, 24477,  0, 0, 0.02, False) /* Create Sturdy Steel Key (24477) for ContainTreasure */;

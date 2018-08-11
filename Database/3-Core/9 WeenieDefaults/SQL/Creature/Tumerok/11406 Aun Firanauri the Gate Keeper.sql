@@ -11,7 +11,7 @@ VALUES (11406,   1,         16) /* ItemType - Creature */
      , (11406,  16,         32) /* ItemUseable - Remote */
      , (11406,  25,         18) /* Level */
      , (11406,  27,          0) /* ArmorType */
-     , (11406,  93,    6292504) /* PhysicsState */
+     , (11406,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (11406,  95,          8) /* RadarBlipColor - Yellow */
      , (11406, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (11406, 134,         16) /* PlayerKillerStatus - RubberGlue */
@@ -69,7 +69,8 @@ VALUES (11406,   1,   33557175) /* Setup */
      , (11406,   6,   67113280) /* PaletteBase */
      , (11406,   7,  268436193) /* ClothingBase */
      , (11406,   8,  100671756) /* Icon */
-     , (11406,  32,        380) /* WieldedTreasureType */;
+     , (11406,  32,        380) /* WieldedTreasureType - 
+                                   Wield Buadren (11971) | Probability: 100% */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (11406,   1, 100, 0, 0) /* Strength */

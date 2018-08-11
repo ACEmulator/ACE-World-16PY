@@ -14,9 +14,9 @@ VALUES (8039,   1,    4194304) /* ItemType - CraftCookingBase */
      , (8039,  15,         10) /* StackUnitValue */
      , (8039,  16,          1) /* ItemUseable - No */
      , (8039,  19,         10) /* Value */
-     , (8039,  93,       1044) /* PhysicsState */
+     , (8039,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (8039, 150,        103) /* HookPlacement - Hook */
-     , (8039, 151,          9) /* HookType */;
+     , (8039, 151,          9) /* HookType - Floor, Yard */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (8039,  39,     1.2) /* DefaultScale */;

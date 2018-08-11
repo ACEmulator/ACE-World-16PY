@@ -11,7 +11,7 @@ VALUES (11976,   1,        512) /* ItemType - Container */
      , (11976,  19,          0) /* Value */
      , (11976,  81,          1) /* MaxGeneratedObjects */
      , (11976,  82,          1) /* InitGeneratedObjects */
-     , (11976,  93,       1040) /* PhysicsState */
+     , (11976,  93,       1040) /* PhysicsState - IgnoreCollisions, Gravity */
      , (11976,  96,       2000) /* EncumbranceCapacity */
      , (11976, 100,          1) /* GeneratorType - Relative */;
 
@@ -37,4 +37,4 @@ VALUES (11976,   1,   33556844) /* Setup */
      , (11976,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (11976, -1, 11975, 60, 1, 1, 2, 8, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0);
+VALUES (11976, -1, 11975, 60, 1, 1, 2, 8, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Bachus Flufen's Journal (11975) (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: Contain */;

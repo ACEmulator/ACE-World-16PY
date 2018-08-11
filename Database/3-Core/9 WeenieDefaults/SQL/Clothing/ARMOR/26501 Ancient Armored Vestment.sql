@@ -4,15 +4,15 @@ VALUES ('26501', 'shirtfalatacot1', 2) /* Clothing */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (26501,   1,          2) /* ItemType - Armor */
      , (26501,   3,         84) /* PaletteTemplate - DyeDarkGreen */
-     , (26501,   4,       5120) /* ClothingPriority */
+     , (26501,   4,       5120) /* ClothingPriority - OuterwearChest, OuterwearUpperArms */
      , (26501,   5,        550) /* EncumbranceVal */
      , (26501,   8,       1000) /* Mass */
-     , (26501,   9,       2560) /* ValidLocations */
+     , (26501,   9,       2560) /* ValidLocations - ChestArmor, UpperArmArmor */
      , (26501,  16,          1) /* ItemUseable - No */
      , (26501,  19,       6000) /* Value */
      , (26501,  27,          8) /* ArmorType */
      , (26501,  28,        240) /* ArmorLevel */
-     , (26501,  93,       1044) /* PhysicsState */
+     , (26501,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (26501, 106,        275) /* ItemSpellcraft */
      , (26501, 107,        800) /* ItemCurMana */
      , (26501, 108,        800) /* ItemMaxMana */

@@ -10,10 +10,10 @@ VALUES (27063,   1,         16) /* ItemType - Creature */
      , (27063,  16,         32) /* ItemUseable - Remote */
      , (27063,  25,         10) /* Level */
      , (27063,  27,          0) /* ArmorType */
-     , (27063,  74,     264192) /* MerchandiseItemTypes */
+     , (27063,  74,     264192) /* MerchandiseItemTypes - Gem, PromissoryNote */
      , (27063,  75,          0) /* MerchandiseMinValue */
      , (27063,  76,    1000000) /* MerchandiseMaxValue */
-     , (27063,  93,    2098204) /* PhysicsState */
+     , (27063,  93,    2098204) /* PhysicsState - Ethereal, ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */
      , (27063, 126,        125) /* VendorHappyMean */
      , (27063, 127,        125) /* VendorHappyVariance */
      , (27063, 133,          4) /* ShowableOnRadar - ShowAlways */
@@ -97,4 +97,4 @@ VALUES (27063,  0,  4,  0,    0,    0,    0,    0,    0,    0,    0,    0,    0,
      , (27063,  8,  4,  2, 0.75,    0,    0,    0,    0,    0,    0,    0,    0,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (27063, 4, 26428, -1, 0, 0, False) /* Create Westshore Cottages Portal Gem for Shop */;
+VALUES (27063, 4, 26428, -1, 0, 0, False) /* Create Westshore Cottages Portal Gem (26428) for Shop */;

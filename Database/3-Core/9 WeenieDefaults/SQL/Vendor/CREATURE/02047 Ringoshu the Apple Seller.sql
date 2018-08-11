@@ -10,10 +10,10 @@ VALUES (2047,   1,         16) /* ItemType - Creature */
      , (2047,  16,         32) /* ItemUseable - Remote */
      , (2047,  25,         10) /* Level */
      , (2047,  27,          0) /* ArmorType */
-     , (2047,  74,        544) /* MerchandiseItemTypes */
+     , (2047,  74,        544) /* MerchandiseItemTypes - Food, Container */
      , (2047,  75,          0) /* MerchandiseMinValue */
      , (2047,  76,     100000) /* MerchandiseMaxValue */
-     , (2047,  93,    2098200) /* PhysicsState */
+     , (2047,  93,    2098200) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */
      , (2047, 126,        250) /* VendorHappyMean */
      , (2047, 127,        250) /* VendorHappyVariance */
      , (2047, 133,          4) /* ShowableOnRadar - ShowAlways */
@@ -175,12 +175,12 @@ VALUES (@parent_id,  0,  10 /* Tell */, 0, 1, NULL, 'I''m cold.', NULL, NULL, NU
      , (@parent_id,  5,  10 /* Tell */, 0, 1, NULL, 'I''m home.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (2047, 2,   117,  0, 13, 0.5, False) /* Create Breeches for Wield */
-     , (2047, 2,   130,  0, 5, 0.67, False) /* Create Shirt for Wield */
-     , (2047, 2,   132,  0, 9, 1, False) /* Create Shoes for Wield */
-     , (2047, 4,   137, -1, 0, 0, False) /* Create Basket for Shop */
-     , (2047, 4,   258, -1, 0, 0, False) /* Create Apple for Shop */
-     , (2047, 4,  1447, -1, 0, 0, False) /* Create Tart Apple for Shop */
-     , (2047, 4,  2193, -1, 0, 0, False) /* Create Trothyr's Rest Key for Shop */
-     , (2047, 4,  2327, -1, 0, 0, False) /* Create Trothyr's Rest Rumor for Shop */
-     , (2047, 2, 10696,  0, 13, 0.5, False) /* Create Apron for Wield */;
+VALUES (2047, 2,   117,  0, 13, 0.5, False) /* Create Breeches (117) for Wield */
+     , (2047, 2,   130,  0, 5, 0.67, False) /* Create Shirt (130) for Wield */
+     , (2047, 2,   132,  0, 9, 1, False) /* Create Shoes (132) for Wield */
+     , (2047, 4,   137, -1, 0, 0, False) /* Create Basket (137) for Shop */
+     , (2047, 4,   258, -1, 0, 0, False) /* Create Apple (258) for Shop */
+     , (2047, 4,  1447, -1, 0, 0, False) /* Create Tart Apple (1447) for Shop */
+     , (2047, 4,  2193, -1, 0, 0, False) /* Create Trothyr's Rest Key (2193) for Shop */
+     , (2047, 4,  2327, -1, 0, 0, False) /* Create Trothyr's Rest Rumor (2327) for Shop */
+     , (2047, 2, 10696,  0, 13, 0.5, False) /* Create Apron (10696) for Wield */;

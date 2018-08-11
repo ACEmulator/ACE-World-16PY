@@ -12,8 +12,8 @@ VALUES (30637,   1,         16) /* ItemType - Creature */
      , (30637,  27,          0) /* ArmorType */
      , (30637,  40,          2) /* CombatMode - Melee */
      , (30637,  68,          3) /* TargetingTactic */
-     , (30637,  93,       1032) /* PhysicsState */
-     , (30637, 101,        131) /* AiAllowedCombatStyle */
+     , (30637,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
+     , (30637, 101,        131) /* AiAllowedCombatStyle - Unarmed, OneHanded, ThrownWeapon */
      , (30637, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (30637, 140,          1) /* AiOptions */
      , (30637, 146,      16549) /* XpOverride */;
@@ -73,8 +73,10 @@ VALUES (30637,   1,   33558024) /* Setup */
      , (30637,   7,  268436497) /* ClothingBase */
      , (30637,   8,  100667453) /* Icon */
      , (30637,  22,  872415255) /* PhysicsEffectTable */
-     , (30637,  32,        295) /* WieldedTreasureType */
-     , (30637,  35,        448) /* DeathTreasureType */;
+     , (30637,  32,        295) /* WieldedTreasureType - 
+                                   Wield 15x Frost Throwing Club (23663) | Probability: 50%
+                                   Wield Club (23648) | Probability: 50% */
+     , (30637,  35,        448) /* DeathTreasureType - Loot Tier: 4 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (30637,   1, 300, 0, 0) /* Strength */
@@ -190,4 +192,4 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 268435537 /* Twitch1 */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (30637, 9, 30630,  0, 0, 1, False) /* Create Murky Gem for ContainTreasure */;
+VALUES (30637, 9, 30630,  0, 0, 1, False) /* Create Murky Gem (30630) for ContainTreasure */;

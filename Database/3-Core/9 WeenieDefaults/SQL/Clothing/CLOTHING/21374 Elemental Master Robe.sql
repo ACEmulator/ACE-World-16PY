@@ -4,17 +4,17 @@ VALUES ('21374', 'robegaerlanblack', 2) /* Clothing */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (21374,   1,          4) /* ItemType - Clothing */
      , (21374,   3,         39) /* PaletteTemplate - Black */
-     , (21374,   4,      98048) /* ClothingPriority */
+     , (21374,   4,      98048) /* ClothingPriority - OuterwearUpperLegs, OuterwearLowerLegs, OuterwearChest, OuterwearAbdomen, OuterwearUpperArms, OuterwearLowerArms, Head, Feet */
      , (21374,   5,        450) /* EncumbranceVal */
      , (21374,   8,        450) /* Mass */
-     , (21374,   9,      32513) /* ValidLocations */
+     , (21374,   9,      32513) /* ValidLocations - HeadWear, Armor */
      , (21374,  16,          1) /* ItemUseable - No */
      , (21374,  18,          1) /* UiEffects - Magical */
      , (21374,  19,       4000) /* Value */
      , (21374,  27,          1) /* ArmorType */
      , (21374,  28,         80) /* ArmorLevel */
      , (21374,  36,       9999) /* ResistMagic */
-     , (21374,  93,       1044) /* PhysicsState */
+     , (21374,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (21374, 106,        400) /* ItemSpellcraft */
      , (21374, 107,       2000) /* ItemCurMana */
      , (21374, 108,       2000) /* ItemMaxMana */

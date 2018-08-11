@@ -10,13 +10,13 @@ VALUES (15895,   1,          1) /* ItemType - MeleeWeapon */
      , (15895,  16,          1) /* ItemUseable - No */
      , (15895,  19,        160) /* Value */
      , (15895,  44,          7) /* Damage */
-     , (15895,  45,          3) /* DamageType */
+     , (15895,  45,          3) /* DamageType - Slash, Pierce */
      , (15895,  46,          2) /* DefaultCombatStyle - OneHanded */
-     , (15895,  47,          6) /* AttackType */
+     , (15895,  47,          6) /* AttackType - Thrust, Slash */
      , (15895,  48,         11) /* WeaponSkill - Sword */
      , (15895,  49,        300) /* WeaponTime */
      , (15895,  51,          1) /* CombatUse - Melee */
-     , (15895,  93,       1044) /* PhysicsState */
+     , (15895,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (15895, 150,        104) /* HookPlacement - XXXUnknown68 */
      , (15895, 151,          2) /* HookType - Wall */;
 

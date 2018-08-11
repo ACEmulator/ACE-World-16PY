@@ -10,10 +10,10 @@ VALUES (27033,   1,         16) /* ItemType - Creature */
      , (27033,  16,         32) /* ItemUseable - Remote */
      , (27033,  25,         10) /* Level */
      , (27033,  27,          0) /* ArmorType */
-     , (27033,  74,     264192) /* MerchandiseItemTypes */
+     , (27033,  74,     264192) /* MerchandiseItemTypes - Gem, PromissoryNote */
      , (27033,  75,          0) /* MerchandiseMinValue */
      , (27033,  76,    1000000) /* MerchandiseMaxValue */
-     , (27033,  93,    2098204) /* PhysicsState */
+     , (27033,  93,    2098204) /* PhysicsState - Ethereal, ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */
      , (27033, 126,        125) /* VendorHappyMean */
      , (27033, 127,        125) /* VendorHappyVariance */
      , (27033, 133,          4) /* ShowableOnRadar - ShowAlways */
@@ -97,4 +97,4 @@ VALUES (27033,  0,  4,  0,    0,    0,    0,    0,    0,    0,    0,    0,    0,
      , (27033,  8,  4,  2, 0.75,    0,    0,    0,    0,    0,    0,    0,    0,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (27033, 4, 26398, -1, 0, 0, False) /* Create Strathelar's Watch Cottages Portal Gem for Shop */;
+VALUES (27033, 4, 26398, -1, 0, 0, False) /* Create Strathelar's Watch Cottages Portal Gem (26398) for Shop */;

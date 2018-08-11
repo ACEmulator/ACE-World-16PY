@@ -7,7 +7,7 @@ VALUES (6388,   1,       8192) /* ItemType - Writable */
      , (6388,   8,       5800) /* Mass */
      , (6388,  16,         48) /* ItemUseable - ViewedRemote */
      , (6388,  19,          0) /* Value */
-     , (6388,  93,       1048) /* PhysicsState */
+     , (6388,  93,       1048) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity */
      , (6388,  95,          8) /* RadarBlipColor - Yellow */
      , (6388, 133,          4) /* ShowableOnRadar - ShowAlways */;
 

@@ -13,7 +13,7 @@ VALUES (734,   1,         16) /* ItemType - Creature */
      , (734,  74,    4481568) /* MerchandiseItemTypes - VendorGrocer */
      , (734,  75,          0) /* MerchandiseMinValue */
      , (734,  76,     100000) /* MerchandiseMaxValue */
-     , (734,  93,    2098200) /* PhysicsState */
+     , (734,  93,    2098200) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */
      , (734, 126,        250) /* VendorHappyMean */
      , (734, 127,        250) /* VendorHappyVariance */
      , (734, 133,          4) /* ShowableOnRadar - ShowAlways */
@@ -163,17 +163,17 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 318767235 /* Nod */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (734, 2,   118,  0, 18, 1, False) /* Create Cap for Wield */
-     , (734, 2,   124,  0, 6, 0, False) /* Create Jerkin for Wield */
-     , (734, 2,   127,  0, 18, 1, False) /* Create Pants for Wield */
-     , (734, 2,   132,  0, 7, 0.33, False) /* Create Shoes for Wield */
-     , (734, 4,   260, -1, 0, 0, False) /* Create Cabbage for Shop */
-     , (734, 4,   264, -1, 0, 0, False) /* Create Grapes for Shop */
-     , (734, 4,   547, -1, 0, 0, False) /* Create Brimstone-cap Mushroom for Shop */
-     , (734, 4,  4746, -1, 0, 0, False) /* Create Water for Shop */
-     , (734, 4,  4753, -1, 0, 0, False) /* Create Side of Beef for Shop */
-     , (734, 4,  4759, -1, 0, 0, False) /* Create Cooking Pot for Shop */
-     , (734, 4,  4761, -1, 0, 0, False) /* Create Flour for Shop */
-     , (734, 2, 10696,  0, 18, 1, False) /* Create Apron for Wield */
-     , (734, 4, 23326, -1, 0, 0, False) /* Create Elaborate Dried Rations for Shop */
-     , (734, 4, 23327, -1, 0, 0, False) /* Create Simple Dried Rations for Shop */;
+VALUES (734, 2,   118,  0, 18, 1, False) /* Create Cap (118) for Wield */
+     , (734, 2,   124,  0, 6, 0, False) /* Create Jerkin (124) for Wield */
+     , (734, 2,   127,  0, 18, 1, False) /* Create Pants (127) for Wield */
+     , (734, 2,   132,  0, 7, 0.33, False) /* Create Shoes (132) for Wield */
+     , (734, 4,   260, -1, 0, 0, False) /* Create Cabbage (260) for Shop */
+     , (734, 4,   264, -1, 0, 0, False) /* Create Grapes (264) for Shop */
+     , (734, 4,   547, -1, 0, 0, False) /* Create Brimstone-cap Mushroom (547) for Shop */
+     , (734, 4,  4746, -1, 0, 0, False) /* Create Water (4746) for Shop */
+     , (734, 4,  4753, -1, 0, 0, False) /* Create Side of Beef (4753) for Shop */
+     , (734, 4,  4759, -1, 0, 0, False) /* Create Cooking Pot (4759) for Shop */
+     , (734, 4,  4761, -1, 0, 0, False) /* Create Flour (4761) for Shop */
+     , (734, 2, 10696,  0, 18, 1, False) /* Create Apron (10696) for Wield */
+     , (734, 4, 23326, -1, 0, 0, False) /* Create Elaborate Dried Rations (23326) for Shop */
+     , (734, 4, 23327, -1, 0, 0, False) /* Create Simple Dried Rations (23327) for Shop */;

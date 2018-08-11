@@ -10,10 +10,10 @@ VALUES (27053,   1,         16) /* ItemType - Creature */
      , (27053,  16,         32) /* ItemUseable - Remote */
      , (27053,  25,         10) /* Level */
      , (27053,  27,          0) /* ArmorType */
-     , (27053,  74,     264192) /* MerchandiseItemTypes */
+     , (27053,  74,     264192) /* MerchandiseItemTypes - Gem, PromissoryNote */
      , (27053,  75,          0) /* MerchandiseMinValue */
      , (27053,  76,    1000000) /* MerchandiseMaxValue */
-     , (27053,  93,    2098204) /* PhysicsState */
+     , (27053,  93,    2098204) /* PhysicsState - Ethereal, ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */
      , (27053, 126,        125) /* VendorHappyMean */
      , (27053, 127,        125) /* VendorHappyVariance */
      , (27053, 133,          4) /* ShowableOnRadar - ShowAlways */
@@ -97,4 +97,4 @@ VALUES (27053,  0,  4,  0,    0,    0,    0,    0,    0,    0,    0,    0,    0,
      , (27053,  8,  4,  2, 0.75,    0,    0,    0,    0,    0,    0,    0,    0,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (27053, 4, 26418, -1, 0, 0, False) /* Create Unified Heart Villas Portal Gem for Shop */;
+VALUES (27053, 4, 26418, -1, 0, 0, False) /* Create Unified Heart Villas Portal Gem (26418) for Shop */;

@@ -12,7 +12,7 @@ VALUES (4992,   1,         16) /* ItemType - Creature */
      , (4992,  27,          0) /* ArmorType */
      , (4992,  40,          1) /* CombatMode - NonCombat */
      , (4992,  68,          3) /* TargetingTactic */
-     , (4992,  93,       1032) /* PhysicsState */
+     , (4992,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (4992, 101,          4) /* AiAllowedCombatStyle - OneHandedAndShield */
      , (4992, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (4992, 146,       3315) /* XpOverride */;
@@ -138,5 +138,5 @@ VALUES (4992,  94) /* ATTACK_NOTIFICATION_EVENT */
      , (4992, 414) /* PLAYER_DEATH_EVENT */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (4992, 2,   338,  0, 0, 0, False) /* Create Quarter Staff for Wield */
-     , (4992, 1,  4990,  0, 0, 0, False) /* Create Key of Frore for Contain */;
+VALUES (4992, 2,   338,  0, 0, 0, False) /* Create Quarter Staff (338) for Wield */
+     , (4992, 1,  4990,  0, 0, 0, False) /* Create Key of Frore (4990) for Contain */;

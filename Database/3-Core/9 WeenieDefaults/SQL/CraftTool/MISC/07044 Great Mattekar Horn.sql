@@ -14,8 +14,8 @@ VALUES (7044,   1,        128) /* ItemType - Misc */
      , (7044,  15,          0) /* StackUnitValue */
      , (7044,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
      , (7044,  19,          0) /* Value */
-     , (7044,  93,       1044) /* PhysicsState */
-     , (7044,  94,        128) /* TargetType - Misc */
+     , (7044,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (7044,  94,        128) /* TargetType - 128 */
      , (7044, 150,        103) /* HookPlacement - Hook */
      , (7044, 151,          2) /* HookType - Wall */;
 

@@ -10,7 +10,7 @@ VALUES (12723,   1,         16) /* ItemType - Creature */
      , (12723,  16,         32) /* ItemUseable - Remote */
      , (12723,  25,         45) /* Level */
      , (12723,  27,          0) /* ArmorType */
-     , (12723,  93,    6292504) /* PhysicsState */
+     , (12723,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (12723,  95,          8) /* RadarBlipColor - Yellow */
      , (12723, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (12723, 134,         16) /* PlayerKillerStatus - RubberGlue */
@@ -207,5 +207,5 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,  10 /* Tell */, 1, 1, NULL, 'Hail, fellow Isparian! The kingdom is in danger, and we need more brave adventurers like you. But first, we must train you. Click on the Backpack in the lower right corner of your screen to open your Inventory. Click on the blue Calling Stone, and drag it to me.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (12723, 2,   118,  0, 14, 1, False) /* Create Cap for Wield */
-     , (12723, 2, 10870,  0, 17, 0.7, False) /* Create Canescent Mattekar Robe for Wield */;
+VALUES (12723, 2,   118,  0, 14, 1, False) /* Create Cap (118) for Wield */
+     , (12723, 2, 10870,  0, 17, 0.7, False) /* Create Canescent Mattekar Robe (10870) for Wield */;

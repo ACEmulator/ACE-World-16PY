@@ -12,8 +12,8 @@ VALUES (8055,   1,         16) /* ItemType - Creature */
      , (8055,  25,         12) /* Level */
      , (8055,  27,          0) /* ArmorType */
      , (8055,  68,          9) /* TargetingTactic */
-     , (8055,  93,    4195336) /* PhysicsState */
-     , (8055, 101,        183) /* AiAllowedCombatStyle */
+     , (8055,  93,    4195336) /* PhysicsState - ReportCollisions, Gravity, EdgeSlide */
+     , (8055, 101,        183) /* AiAllowedCombatStyle - Unarmed, OneHanded, OneHandedAndShield, Bow, Crossbow, ThrownWeapon */
      , (8055, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (8055, 140,          1) /* AiOptions */
      , (8055, 146,       1000) /* XpOverride */;
@@ -76,7 +76,23 @@ VALUES (8055,   1,   33554433) /* Setup */
      , (8055,   7,  268435632) /* ClothingBase */
      , (8055,   8,  100670397) /* Icon */
      , (8055,  22,  872415331) /* PhysicsEffectTable */
-     , (8055,  32,         84) /* WieldedTreasureType */;
+     , (8055,  32,         84) /* WieldedTreasureType - 
+                                   Wield Club (309) | Probability: 15%
+                                   Wield Dabus (313) | Probability: 3%
+                                   Wield Dagger (314) | Probability: 10%
+                                   Wield Kasrullah (325) | Probability: 15%
+                                   Wield Khanjar (328) | Probability: 10%
+                                   Wield Mace (331) | Probability: 4%
+                                   Wield Short Sword (352) | Probability: 7%
+                                   Wield Simi (345) | Probability: 7%
+                                   Wield Tofun (356) | Probability: 3%
+                                   Wield Yaoji (361) | Probability: 6%
+                                   Wield 10x Throwing Dart (316) | Probability: 5%
+                                   Wield 10x Shouken (343) | Probability: 4%
+                                   Wield 6x Throwing Dagger (315) | Probability: 5%
+                                   Wield 4x Javelin (320) | Probability: 2%
+                                   Wield Djarid (317) | Probability: 1%
+                                   Wield 4x Throwing Club (310) | Probability: 1% */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (8055,   1,  80, 0, 0) /* Strength */
@@ -172,5 +188,5 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,  17 /* LocalBroadcast */, 0, 0, NULL, 'You hear a childish voice say, "They wait...we wait..."', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (8055, 9,     0,  0, 0, 0.98, False) /* Create Unknown for ContainTreasure */
-     , (8055, 9,  6060,  0, 0, 0.02, False) /* Create Dark Speck for ContainTreasure */;
+VALUES (8055, 9,     0,  0, 0, 0.98, False) /* Create 1x Club (309), 1x Dabus (313), 1x Dagger (314), 1x Kasrullah (325), 1x Khanjar (328), 1x Mace (331), 1x Short Sword (352), 1x Simi (345), 1x Tofun (356), 1x Yaoji (361), 10x Throwing Dart (316), 10x Shouken (343), 6x Throwing Dagger (315), 4x Javelin (320), 1x Djarid (317), 4x Throwing Club (310) from Wielded Treasure Table for ContainTreasure */
+     , (8055, 9,  6060,  0, 0, 0.02, False) /* Create Dark Speck (6060) for ContainTreasure */;

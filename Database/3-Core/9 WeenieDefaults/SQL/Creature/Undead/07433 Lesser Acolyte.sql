@@ -12,8 +12,8 @@ VALUES (7433,   1,         16) /* ItemType - Creature */
      , (7433,  27,          0) /* ArmorType */
      , (7433,  40,          1) /* CombatMode - NonCombat */
      , (7433,  68,          3) /* TargetingTactic */
-     , (7433,  93,    4195336) /* PhysicsState */
-     , (7433, 101,        183) /* AiAllowedCombatStyle */
+     , (7433,  93,    4195336) /* PhysicsState - ReportCollisions, Gravity, EdgeSlide */
+     , (7433, 101,        183) /* AiAllowedCombatStyle - Unarmed, OneHanded, OneHandedAndShield, Bow, Crossbow, ThrownWeapon */
      , (7433, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (7433, 140,          1) /* AiOptions */
      , (7433, 146,       1989) /* XpOverride */;
@@ -74,8 +74,13 @@ VALUES (7433,   1,   33554839) /* Setup */
      , (7433,   8,  100667942) /* Icon */
      , (7433,  22,  872415272) /* PhysicsEffectTable */
      , (7433,  31,       7341) /* LinkedPortalOne - Soul-Fearing Vestry Dungeon */
-     , (7433,  32,        296) /* WieldedTreasureType */
-     , (7433,  35,        453) /* DeathTreasureType */;
+     , (7433,  32,        296) /* WieldedTreasureType - 
+                                   Wield Yumi (23735) | Probability: 50%
+                                   Wield 16x Acid Arrow (4181) | Probability: 100%
+                                   Wield Kite Shield (23685) | Probability: 50%
+                                   Wield Acid Spear (23689) | Probability: 25%
+                                   Wield Acid Yari (23723) | Probability: 25% */
+     , (7433,  35,        453) /* DeathTreasureType - Loot Tier: 1 */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (7433, 12, 1896939577, 190.1, 21.1, 94, -0.7071068, 0, 0, -0.7071068) /* PortalSummonLoc */;

@@ -10,10 +10,10 @@ VALUES (9615,   1,         16) /* ItemType - Creature */
      , (9615,  16,         32) /* ItemUseable - Remote */
      , (9615,  25,          7) /* Level */
      , (9615,  27,          0) /* ArmorType */
-     , (9615,  74,     270464) /* MerchandiseItemTypes */
+     , (9615,  74,     270464) /* MerchandiseItemTypes - Misc, Writable, PromissoryNote */
      , (9615,  75,          0) /* MerchandiseMinValue */
      , (9615,  76,     100000) /* MerchandiseMaxValue */
-     , (9615,  93,    2098200) /* PhysicsState */
+     , (9615,  93,    2098200) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */
      , (9615, 126,        500) /* VendorHappyMean */
      , (9615, 127,        500) /* VendorHappyVariance */
      , (9615, 133,          4) /* ShowableOnRadar - ShowAlways */
@@ -163,43 +163,43 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 318767235 /* Nod */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (9615, 2,   118,  0, 9, 0, False) /* Create Cap for Wield */
-     , (9615, 2,   127,  0, 9, 1, False) /* Create Pants for Wield */
-     , (9615, 2,   132,  0, 4, 0.6, False) /* Create Shoes for Wield */
-     , (9615, 2,   134,  0, 9, 1, False) /* Create Tunic for Wield */
-     , (9615, 4,  9562, -1, 0, 0, False) /* Create Alchemy Skill Puzzle Piece for Shop */
-     , (9615, 4,  9563, -1, 0, 0, False) /* Create Axe Skill Puzzle Piece for Shop */
-     , (9615, 4,  9564, -1, 0, 0, False) /* Create Bow Skill Puzzle Piece for Shop */
-     , (9615, 4,  9581, -1, 0, 0, False) /* Create Cooking Skill Puzzle Piece for Shop */
-     , (9615, 4,  9582, -1, 0, 0, False) /* Create Creature Enchantment Skill Puzzle Piece for Shop */
-     , (9615, 4,  9583, -1, 0, 0, False) /* Create Fletching Skill Puzzle Piece for Shop */
-     , (9615, 4,  9584, -1, 0, 0, False) /* Create Item Enchantment Skill Puzzle Piece for Shop */
-     , (9615, 4,  9585, -1, 0, 0, False) /* Create Life Magic Skill Puzzle Piece for Shop */
-     , (9615, 4,  9586, -1, 0, 0, False) /* Create Mace Skill Puzzle Piece for Shop */
-     , (9615, 4,  9587, -1, 0, 0, False) /* Create Spear Skill Puzzle Piece for Shop */
-     , (9615, 4,  9588, -1, 0, 0, False) /* Create Staff Skill Puzzle Piece for Shop */
-     , (9615, 4,  9589, -1, 0, 0, False) /* Create Sword Skill Puzzle Piece for Shop */
-     , (9615, 4,  9590, -1, 0, 0, False) /* Create Thrown Weapons Skill Puzzle Piece for Shop */
-     , (9615, 4,  9591, -1, 0, 0, False) /* Create Unarmed Combat Skill Puzzle Piece for Shop */
-     , (9615, 4,  9592, -1, 0, 0, False) /* Create War Magic Skill Puzzle Piece for Shop */
-     , (9615, 4,  9593, -1, 0, 0, False) /* Create Crossbow Skill Puzzle Piece for Shop */
-     , (9615, 4,  9595, -1, 0, 0, False) /* Create Handbook of the Bestowers' Guild for Shop */
-     , (9615, 4,  9619, -1, 0, 0, False) /* Create Dagger Skill Puzzle Piece for Shop */
-     , (9615, 2, 10696,  0, 14, 0.5, False) /* Create Apron for Wield */
-     , (9615, 4, 11640, -1, 0, 0, False) /* Create Advanced Spear Skill Puzzle Piece for Shop */
-     , (9615, 4, 11641, -1, 0, 0, False) /* Create Advanced Mace Skill Puzzle Piece for Shop */
-     , (9615, 4, 11642, -1, 0, 0, False) /* Create Advanced Life Magic Skill Puzzle Piece for Shop */
-     , (9615, 4, 11643, -1, 0, 0, False) /* Create Advanced Item Enchantment Skill Puzzle Piece for Shop */
-     , (9615, 4, 11644, -1, 0, 0, False) /* Create Advanced Fletching Skill Puzzle Piece for Shop */
-     , (9615, 4, 11645, -1, 0, 0, False) /* Create Advanced Dagger Skill Puzzle Piece for Shop */
-     , (9615, 4, 11646, -1, 0, 0, False) /* Create Advanced Creature Enchantment Skill Puzzle Piece for Shop */
-     , (9615, 4, 11647, -1, 0, 0, False) /* Create Advanced Cooking Skill Puzzle Piece for Shop */
-     , (9615, 4, 11648, -1, 0, 0, False) /* Create Advanced Bow Skill Puzzle Piece for Shop */
-     , (9615, 4, 11649, -1, 0, 0, False) /* Create Advanced Axe Skill Puzzle Piece for Shop */
-     , (9615, 4, 11650, -1, 0, 0, False) /* Create Advanced Crossbow Skill Puzzle Piece for Shop */
-     , (9615, 4, 11651, -1, 0, 0, False) /* Create Advanced War Magic Skill Puzzle Piece for Shop */
-     , (9615, 4, 11652, -1, 0, 0, False) /* Create Advanced Unarmed Combat Skill Puzzle Piece for Shop */
-     , (9615, 4, 11653, -1, 0, 0, False) /* Create Advanced Thrown Weapons Skill Puzzle Piece for Shop */
-     , (9615, 4, 11654, -1, 0, 0, False) /* Create Advanced Sword Skill Puzzle Piece for Shop */
-     , (9615, 4, 11655, -1, 0, 0, False) /* Create Advanced Staff Skill Puzzle Piece for Shop */
-     , (9615, 4, 11675, -1, 0, 0, False) /* Create Advanced Alchemy Skill Puzzle Piece for Shop */;
+VALUES (9615, 2,   118,  0, 9, 0, False) /* Create Cap (118) for Wield */
+     , (9615, 2,   127,  0, 9, 1, False) /* Create Pants (127) for Wield */
+     , (9615, 2,   132,  0, 4, 0.6, False) /* Create Shoes (132) for Wield */
+     , (9615, 2,   134,  0, 9, 1, False) /* Create Tunic (134) for Wield */
+     , (9615, 4,  9562, -1, 0, 0, False) /* Create Alchemy Skill Puzzle Piece (9562) for Shop */
+     , (9615, 4,  9563, -1, 0, 0, False) /* Create Axe Skill Puzzle Piece (9563) for Shop */
+     , (9615, 4,  9564, -1, 0, 0, False) /* Create Bow Skill Puzzle Piece (9564) for Shop */
+     , (9615, 4,  9581, -1, 0, 0, False) /* Create Cooking Skill Puzzle Piece (9581) for Shop */
+     , (9615, 4,  9582, -1, 0, 0, False) /* Create Creature Enchantment Skill Puzzle Piece (9582) for Shop */
+     , (9615, 4,  9583, -1, 0, 0, False) /* Create Fletching Skill Puzzle Piece (9583) for Shop */
+     , (9615, 4,  9584, -1, 0, 0, False) /* Create Item Enchantment Skill Puzzle Piece (9584) for Shop */
+     , (9615, 4,  9585, -1, 0, 0, False) /* Create Life Magic Skill Puzzle Piece (9585) for Shop */
+     , (9615, 4,  9586, -1, 0, 0, False) /* Create Mace Skill Puzzle Piece (9586) for Shop */
+     , (9615, 4,  9587, -1, 0, 0, False) /* Create Spear Skill Puzzle Piece (9587) for Shop */
+     , (9615, 4,  9588, -1, 0, 0, False) /* Create Staff Skill Puzzle Piece (9588) for Shop */
+     , (9615, 4,  9589, -1, 0, 0, False) /* Create Sword Skill Puzzle Piece (9589) for Shop */
+     , (9615, 4,  9590, -1, 0, 0, False) /* Create Thrown Weapons Skill Puzzle Piece (9590) for Shop */
+     , (9615, 4,  9591, -1, 0, 0, False) /* Create Unarmed Combat Skill Puzzle Piece (9591) for Shop */
+     , (9615, 4,  9592, -1, 0, 0, False) /* Create War Magic Skill Puzzle Piece (9592) for Shop */
+     , (9615, 4,  9593, -1, 0, 0, False) /* Create Crossbow Skill Puzzle Piece (9593) for Shop */
+     , (9615, 4,  9595, -1, 0, 0, False) /* Create Handbook of the Bestowers' Guild (9595) for Shop */
+     , (9615, 4,  9619, -1, 0, 0, False) /* Create Dagger Skill Puzzle Piece (9619) for Shop */
+     , (9615, 2, 10696,  0, 14, 0.5, False) /* Create Apron (10696) for Wield */
+     , (9615, 4, 11640, -1, 0, 0, False) /* Create Advanced Spear Skill Puzzle Piece (11640) for Shop */
+     , (9615, 4, 11641, -1, 0, 0, False) /* Create Advanced Mace Skill Puzzle Piece (11641) for Shop */
+     , (9615, 4, 11642, -1, 0, 0, False) /* Create Advanced Life Magic Skill Puzzle Piece (11642) for Shop */
+     , (9615, 4, 11643, -1, 0, 0, False) /* Create Advanced Item Enchantment Skill Puzzle Piece (11643) for Shop */
+     , (9615, 4, 11644, -1, 0, 0, False) /* Create Advanced Fletching Skill Puzzle Piece (11644) for Shop */
+     , (9615, 4, 11645, -1, 0, 0, False) /* Create Advanced Dagger Skill Puzzle Piece (11645) for Shop */
+     , (9615, 4, 11646, -1, 0, 0, False) /* Create Advanced Creature Enchantment Skill Puzzle Piece (11646) for Shop */
+     , (9615, 4, 11647, -1, 0, 0, False) /* Create Advanced Cooking Skill Puzzle Piece (11647) for Shop */
+     , (9615, 4, 11648, -1, 0, 0, False) /* Create Advanced Bow Skill Puzzle Piece (11648) for Shop */
+     , (9615, 4, 11649, -1, 0, 0, False) /* Create Advanced Axe Skill Puzzle Piece (11649) for Shop */
+     , (9615, 4, 11650, -1, 0, 0, False) /* Create Advanced Crossbow Skill Puzzle Piece (11650) for Shop */
+     , (9615, 4, 11651, -1, 0, 0, False) /* Create Advanced War Magic Skill Puzzle Piece (11651) for Shop */
+     , (9615, 4, 11652, -1, 0, 0, False) /* Create Advanced Unarmed Combat Skill Puzzle Piece (11652) for Shop */
+     , (9615, 4, 11653, -1, 0, 0, False) /* Create Advanced Thrown Weapons Skill Puzzle Piece (11653) for Shop */
+     , (9615, 4, 11654, -1, 0, 0, False) /* Create Advanced Sword Skill Puzzle Piece (11654) for Shop */
+     , (9615, 4, 11655, -1, 0, 0, False) /* Create Advanced Staff Skill Puzzle Piece (11655) for Shop */
+     , (9615, 4, 11675, -1, 0, 0, False) /* Create Advanced Alchemy Skill Puzzle Piece (11675) for Shop */;

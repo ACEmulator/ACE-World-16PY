@@ -10,7 +10,7 @@ VALUES (5777,   1,         16) /* ItemType - Creature */
      , (5777,  16,         32) /* ItemUseable - Remote */
      , (5777,  25,         16) /* Level */
      , (5777,  27,          0) /* ArmorType */
-     , (5777,  93,    6292504) /* PhysicsState */
+     , (5777,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (5777,  95,          8) /* RadarBlipColor - Yellow */
      , (5777, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (5777, 134,         16) /* PlayerKillerStatus - RubberGlue */
@@ -383,7 +383,7 @@ VALUES (@parent_id,  0,  12 /* TurnToTarget */, 0, 1, NULL, NULL, NULL, NULL, NU
      , (@parent_id,  2,  10 /* Tell */, 1, 1, NULL, 'So I''m sure you''ve noticed that I haven''t left this spot in nearly four years. Yeah it''s a tough life, standing here all day. Sure... sometimes people are nice enough to give me Shackles of Obedience. But I was wondering...Need a patron?', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (5777, 2,   121,  0, 91, 0.8, False) /* Create Gloves for Wield */
-     , (5777, 2,  2590,  0, 9, 1, False) /* Create Shirt for Wield */
-     , (5777, 2,  2601,  0, 9, 1, False) /* Create Pants for Wield */
-     , (5777, 2,  5854,  0, 2, 0.5, False) /* Create Suikan Robe for Wield */;
+VALUES (5777, 2,   121,  0, 91, 0.8, False) /* Create Gloves (121) for Wield */
+     , (5777, 2,  2590,  0, 9, 1, False) /* Create Shirt (2590) for Wield */
+     , (5777, 2,  2601,  0, 9, 1, False) /* Create Pants (2601) for Wield */
+     , (5777, 2,  5854,  0, 2, 0.5, False) /* Create Suikan Robe (5854) for Wield */;

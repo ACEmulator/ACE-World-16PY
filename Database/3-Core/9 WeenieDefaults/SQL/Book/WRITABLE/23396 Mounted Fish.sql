@@ -8,7 +8,7 @@ VALUES (23396,   1,       8192) /* ItemType - Writable */
      , (23396,   9,          0) /* ValidLocations - None */
      , (23396,  16,         48) /* ItemUseable - ViewedRemote */
      , (23396,  19,         15) /* Value */
-     , (23396,  93,       1044) /* PhysicsState */
+     , (23396,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (23396, 150,        103) /* HookPlacement - Hook */
      , (23396, 151,          2) /* HookType - Wall */;
 

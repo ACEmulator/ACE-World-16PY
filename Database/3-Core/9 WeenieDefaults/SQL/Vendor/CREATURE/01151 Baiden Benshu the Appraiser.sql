@@ -10,10 +10,10 @@ VALUES (1151,   1,         16) /* ItemType - Creature */
      , (1151,  16,         32) /* ItemUseable - Remote */
      , (1151,  25,          7) /* Level */
      , (1151,  27,          0) /* ArmorType */
-     , (1151,  74,     264200) /* MerchandiseItemTypes */
+     , (1151,  74,     264200) /* MerchandiseItemTypes - Jewelry, Gem, PromissoryNote */
      , (1151,  75,          0) /* MerchandiseMinValue */
      , (1151,  76,    1000000) /* MerchandiseMaxValue */
-     , (1151,  93,    2098200) /* PhysicsState */
+     , (1151,  93,    2098200) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */
      , (1151, 126,        400) /* VendorHappyMean */
      , (1151, 127,        250) /* VendorHappyVariance */
      , (1151, 133,          4) /* ShowableOnRadar - ShowAlways */
@@ -163,15 +163,15 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 318767235 /* Nod */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (1151, 2,   132,  0, 9, 1, False) /* Create Shoes for Wield */
-     , (1151, 4,   295, -1, 0, 0, False) /* Create Bracelet for Shop */
-     , (1151, 4,   297, -1, 0, 0, False) /* Create Ring for Shop */
-     , (1151, 4,  2415, -1, 0, 0, False) /* Create Lapis Lazuli for Shop */
-     , (1151, 4,  2419, -1, 0, 0, False) /* Create Turquoise for Shop */
-     , (1151, 2,  2594,  0, 9, 1, False) /* Create Tunic for Wield */
-     , (1151, 2,  2602,  0, 9, 1, False) /* Create Breeches for Wield */
-     , (1151, 4,  2621, -1, 0, 0, False) /* Create Trade Note (100) for Shop */
-     , (1151, 4,  2622, -1, 0, 0, False) /* Create Trade Note (500) for Shop */
-     , (1151, 4,  2623, -1, 0, 0, False) /* Create Trade Note (1,000) for Shop */
-     , (1151, 2,  5901,  0, 5, 0.67, False) /* Create Kasa for Wield */
-     , (1151, 2, 10696,  0, 9, 0.5, False) /* Create Apron for Wield */;
+VALUES (1151, 2,   132,  0, 9, 1, False) /* Create Shoes (132) for Wield */
+     , (1151, 4,   295, -1, 0, 0, False) /* Create Bracelet (295) for Shop */
+     , (1151, 4,   297, -1, 0, 0, False) /* Create Ring (297) for Shop */
+     , (1151, 4,  2415, -1, 0, 0, False) /* Create Lapis Lazuli (2415) for Shop */
+     , (1151, 4,  2419, -1, 0, 0, False) /* Create Turquoise (2419) for Shop */
+     , (1151, 2,  2594,  0, 9, 1, False) /* Create Tunic (2594) for Wield */
+     , (1151, 2,  2602,  0, 9, 1, False) /* Create Breeches (2602) for Wield */
+     , (1151, 4,  2621, -1, 0, 0, False) /* Create Trade Note (100) (2621) for Shop */
+     , (1151, 4,  2622, -1, 0, 0, False) /* Create Trade Note (500) (2622) for Shop */
+     , (1151, 4,  2623, -1, 0, 0, False) /* Create Trade Note (1,000) (2623) for Shop */
+     , (1151, 2,  5901,  0, 5, 0.67, False) /* Create Kasa (5901) for Wield */
+     , (1151, 2, 10696,  0, 9, 0.5, False) /* Create Apron (10696) for Wield */;

@@ -7,7 +7,7 @@ VALUES (22836,   1,        128) /* ItemType - Misc */
      , (22836,   8,         70) /* Mass */
      , (22836,  16,          1) /* ItemUseable - No */
      , (22836,  19,      10000) /* Value */
-     , (22836,  93,       1044) /* PhysicsState */
+     , (22836,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (22836, 150,        103) /* HookPlacement - Hook */
      , (22836, 151,          1) /* HookType - Floor */;
 

@@ -15,7 +15,7 @@ VALUES (26633,   1,       2048) /* ItemType - Gem */
      , (26633,  16,          1) /* ItemUseable - No */
      , (26633,  19,          0) /* Value */
      , (26633,  33,          1) /* Bonded - Bonded */
-     , (26633,  93,       1044) /* PhysicsState */
+     , (26633,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (26633, 114,          1) /* Attuned - Attuned */
      , (26633, 131,         41) /* MaterialType - Sunstone */;
 

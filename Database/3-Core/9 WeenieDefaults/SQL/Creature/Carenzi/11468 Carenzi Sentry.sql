@@ -13,7 +13,7 @@ VALUES (11468,   1,         16) /* ItemType - Creature */
      , (11468,  40,          2) /* CombatMode - Melee */
      , (11468,  68,          5) /* TargetingTactic */
      , (11468,  72,         55) /* FriendType - Carenzi */
-     , (11468,  93,       1032) /* PhysicsState */
+     , (11468,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (11468, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (11468, 146,        142) /* XpOverride */;
 
@@ -68,7 +68,7 @@ VALUES (11468,   1,   33557141) /* Setup */
      , (11468,   7,  268436195) /* ClothingBase */
      , (11468,   8,  100671754) /* Icon */
      , (11468,  22,  872415377) /* PhysicsEffectTable */
-     , (11468,  35,        459) /* DeathTreasureType */;
+     , (11468,  35,        459) /* DeathTreasureType - Loot Tier: 1 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (11468,   1,  60, 0, 0) /* Strength */
@@ -135,8 +135,8 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,  24 /* StopEvent */, 0, 1, NULL, 'ButterflySwarmEvent', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (11468, 9,     0,  0, 0, 0.95, False) /* Create Unknown for ContainTreasure */
-     , (11468, 9, 11332,  0, 0, 1, False) /* Create Aun Papileona's Key for ContainTreasure */
-     , (11468, 9, 11332,  0, 0, 1, False) /* Create Aun Papileona's Key for ContainTreasure */
-     , (11468, 9, 11332,  0, 0, 1, False) /* Create Aun Papileona's Key for ContainTreasure */
-     , (11468, 9, 11342,  0, 0, 0.05, False) /* Create Carenzi Sentry Pelt for ContainTreasure */;
+VALUES (11468, 9,     0,  0, 0, 0.95, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 1 for ContainTreasure */
+     , (11468, 9, 11332,  0, 0, 1, False) /* Create Aun Papileona's Key (11332) for ContainTreasure */
+     , (11468, 9, 11332,  0, 0, 1, False) /* Create Aun Papileona's Key (11332) for ContainTreasure */
+     , (11468, 9, 11332,  0, 0, 1, False) /* Create Aun Papileona's Key (11332) for ContainTreasure */
+     , (11468, 9, 11342,  0, 0, 0.05, False) /* Create Carenzi Sentry Pelt (11342) for ContainTreasure */;

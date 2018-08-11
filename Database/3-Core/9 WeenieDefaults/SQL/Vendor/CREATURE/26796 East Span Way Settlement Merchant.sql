@@ -10,10 +10,10 @@ VALUES (26796,   1,         16) /* ItemType - Creature */
      , (26796,  16,         32) /* ItemUseable - Remote */
      , (26796,  25,         10) /* Level */
      , (26796,  27,          0) /* ArmorType */
-     , (26796,  74,     264192) /* MerchandiseItemTypes */
+     , (26796,  74,     264192) /* MerchandiseItemTypes - Gem, PromissoryNote */
      , (26796,  75,          0) /* MerchandiseMinValue */
      , (26796,  76,    1000000) /* MerchandiseMaxValue */
-     , (26796,  93,    2098204) /* PhysicsState */
+     , (26796,  93,    2098204) /* PhysicsState - Ethereal, ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */
      , (26796, 126,        125) /* VendorHappyMean */
      , (26796, 127,        125) /* VendorHappyVariance */
      , (26796, 133,          4) /* ShowableOnRadar - ShowAlways */
@@ -97,4 +97,4 @@ VALUES (26796,  0,  4,  0,    0,    0,    0,    0,    0,    0,    0,    0,    0,
      , (26796,  8,  4,  2, 0.75,    0,    0,    0,    0,    0,    0,    0,    0,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (26796, 4, 26161, -1, 0, 0, False) /* Create East Span Way Settlement Portal Gem for Shop */;
+VALUES (26796, 4, 26161, -1, 0, 0, False) /* Create East Span Way Settlement Portal Gem (26161) for Shop */;

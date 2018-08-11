@@ -10,7 +10,7 @@ VALUES (25518,   1,         16) /* ItemType - Creature */
      , (25518,  16,         32) /* ItemUseable - Remote */
      , (25518,  25,          5) /* Level */
      , (25518,  27,          0) /* ArmorType */
-     , (25518,  93,    6292504) /* PhysicsState */
+     , (25518,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (25518,  95,          8) /* RadarBlipColor - Yellow */
      , (25518, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (25518, 134,         16) /* PlayerKillerStatus - RubberGlue */
@@ -209,6 +209,6 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   8 /* Say */, 0, 0, NULL, 'QuestNoFellow - You are not in a fellowship', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (25518, 2,   130,  0, 2, 0.8, False) /* Create Shirt for Wield */
-     , (25518, 2,   132,  0, 4, 0.8, False) /* Create Shoes for Wield */
-     , (25518, 2,  2604,  0, 9, 1, False) /* Create Breeches for Wield */;
+VALUES (25518, 2,   130,  0, 2, 0.8, False) /* Create Shirt (130) for Wield */
+     , (25518, 2,   132,  0, 4, 0.8, False) /* Create Shoes (132) for Wield */
+     , (25518, 2,  2604,  0, 9, 1, False) /* Create Breeches (2604) for Wield */;

@@ -4,7 +4,7 @@ VALUES ('441', 'portalbaseofsyliphb', 7) /* Portal */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (441,   1,      65536) /* ItemType - Portal */
      , (441,  16,         32) /* ItemUseable - Remote */
-     , (441,  93,       3084) /* PhysicsState */
+     , (441,  93,       3084) /* PhysicsState - Ethereal, ReportCollisions, Gravity, LightingOn */
      , (441, 111,          1) /* PortalBitmask - Unrestricted */
      , (441, 133,          4) /* ShowableOnRadar - ShowAlways */;
 

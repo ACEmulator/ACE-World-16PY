@@ -4,8 +4,8 @@ VALUES ('29794', 'portalrainbowpuzzleenter', 7) /* Portal */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (29794,   1,      65536) /* ItemType - Portal */
      , (29794,  16,         32) /* ItemUseable - Remote */
-     , (29794,  93,       3084) /* PhysicsState */
-     , (29794, 111,         49) /* PortalBitmask */
+     , (29794,  93,       3084) /* PhysicsState - Ethereal, ReportCollisions, Gravity, LightingOn */
+     , (29794, 111,         49) /* PortalBitmask - Unrestricted, NoSummon, NoRecall */
      , (29794, 133,          4) /* ShowableOnRadar - ShowAlways */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)

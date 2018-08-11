@@ -9,7 +9,7 @@ VALUES (7886,   1,          8) /* ItemType - Jewelry */
      , (7886,  16,          1) /* ItemUseable - No */
      , (7886,  18,          1) /* UiEffects - Magical */
      , (7886,  19,       2300) /* Value */
-     , (7886,  93,       1044) /* PhysicsState */
+     , (7886,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (7886, 106,         45) /* ItemSpellcraft */
      , (7886, 107,        190) /* ItemCurMana */
      , (7886, 108,        230) /* ItemMaxMana */

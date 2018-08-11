@@ -11,7 +11,7 @@ VALUES (16917,   1,         16) /* ItemType - Creature */
      , (16917,  25,         44) /* Level */
      , (16917,  27,          0) /* ArmorType */
      , (16917,  68,          3) /* TargetingTactic */
-     , (16917,  93,    4195336) /* PhysicsState */
+     , (16917,  93,    4195336) /* PhysicsState - ReportCollisions, Gravity, EdgeSlide */
      , (16917, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (16917, 140,          1) /* AiOptions */
      , (16917, 146,      11290) /* XpOverride */;
@@ -70,7 +70,7 @@ VALUES (16917,   1,   33554497) /* Setup */
      , (16917,   7,  268435649) /* ClothingBase */
      , (16917,   8,  100667943) /* Icon */
      , (16917,  22,  872415273) /* PhysicsEffectTable */
-     , (16917,  35,        463) /* DeathTreasureType */;
+     , (16917,  35,        463) /* DeathTreasureType - Loot Tier: 2 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (16917,   1,  40, 0, 0) /* Strength */
@@ -206,4 +206,4 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,  10 /* Tell */, 0, 1, NULL, 'Your kind slew Levistras, meatling, but we will continue to build our New Singularity, against all resistance!', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (16917, 8, 12268,  1, 0, 0, False) /* Create Virindi Shroud for Treasure */;
+VALUES (16917, 8, 12268,  1, 0, 0, False) /* Create Virindi Shroud (12268) for Treasure */;

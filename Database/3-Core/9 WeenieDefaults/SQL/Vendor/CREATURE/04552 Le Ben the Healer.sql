@@ -10,10 +10,10 @@ VALUES (4552,   1,         16) /* ItemType - Creature */
      , (4552,  16,         32) /* ItemUseable - Remote */
      , (4552,  25,          8) /* Level */
      , (4552,  27,          0) /* ArmorType */
-     , (4552,  74,     262272) /* MerchandiseItemTypes */
+     , (4552,  74,     262272) /* MerchandiseItemTypes - Misc, PromissoryNote */
      , (4552,  75,          0) /* MerchandiseMinValue */
      , (4552,  76,      25000) /* MerchandiseMaxValue */
-     , (4552,  93,    2098200) /* PhysicsState */
+     , (4552,  93,    2098200) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */
      , (4552, 126,        125) /* VendorHappyMean */
      , (4552, 127,        125) /* VendorHappyVariance */
      , (4552, 133,          4) /* ShowableOnRadar - ShowAlways */
@@ -188,29 +188,29 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 318767235 /* Nod */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (4552, 2,   117,  0, 18, 1, False) /* Create Breeches for Wield */
-     , (4552, 2,   124,  0, 18, 1, False) /* Create Jerkin for Wield */
-     , (4552, 4,   377, -1, 0, 0, False) /* Create Potion of Healing for Shop */
-     , (4552, 4,   378, -1, 0, 0, False) /* Create Stamina Potion for Shop */
-     , (4552, 4,   379, -1, 0, 0, False) /* Create Mana Potion for Shop */
-     , (4552, 4,   628, -1, 0, 0, False) /* Create Handy Healing Kit for Shop */
-     , (4552, 4,   629, -1, 0, 0, False) /* Create Adept Healing Kit for Shop */
-     , (4552, 4,  2457, -1, 0, 0, False) /* Create Health Draught for Shop */
-     , (4552, 4,  2460, -1, 0, 0, False) /* Create Mana Draught for Shop */
-     , (4552, 2,  2606,  0, 18, 1, False) /* Create Boots for Wield */
-     , (4552, 4,  2621, -1, 0, 0, False) /* Create Trade Note (100) for Shop */
-     , (4552, 4,  2622, -1, 0, 0, False) /* Create Trade Note (500) for Shop */
-     , (4552, 4,  4384, -1, 0, 0, False) /* Create Strength Other I for Shop */
-     , (4552, 4,  4450, -1, 0, 0, False) /* Create Heal Other I for Shop */
-     , (4552, 4,  4589, -1, 0, 0, False) /* Create Revitalize Other I for Shop */
-     , (4552, 4,  4592, -1, 0, 0, False) /* Create Mana Boost Other I for Shop */
-     , (4552, 4,  4595, -1, 0, 0, False) /* Create Regeneration Other I for Shop */
-     , (4552, 4,  4597, -1, 0, 0, False) /* Create Rejuvenation Other I for Shop */
-     , (4552, 4,  4599, -1, 0, 0, False) /* Create Mana Renewal Other I for Shop */
-     , (4552, 4,  4602, -1, 0, 0, False) /* Create Endurance Other I for Shop */
-     , (4552, 4,  4604, -1, 0, 0, False) /* Create Coordination Other I for Shop */
-     , (4552, 4,  4606, -1, 0, 0, False) /* Create Quickness Other I for Shop */
-     , (4552, 4,  4608, -1, 0, 0, False) /* Create Focus Other I for Shop */
-     , (4552, 4,  4610, -1, 0, 0, False) /* Create Willpower Other I for Shop */
-     , (4552, 2, 10696,  0, 9, 0.5, False) /* Create Apron for Wield */
-     , (4552, 4, 27326, -1, 0, 0, False) /* Create Stamina Tincture for Shop */;
+VALUES (4552, 2,   117,  0, 18, 1, False) /* Create Breeches (117) for Wield */
+     , (4552, 2,   124,  0, 18, 1, False) /* Create Jerkin (124) for Wield */
+     , (4552, 4,   377, -1, 0, 0, False) /* Create Potion of Healing (377) for Shop */
+     , (4552, 4,   378, -1, 0, 0, False) /* Create Stamina Potion (378) for Shop */
+     , (4552, 4,   379, -1, 0, 0, False) /* Create Mana Potion (379) for Shop */
+     , (4552, 4,   628, -1, 0, 0, False) /* Create Handy Healing Kit (628) for Shop */
+     , (4552, 4,   629, -1, 0, 0, False) /* Create Adept Healing Kit (629) for Shop */
+     , (4552, 4,  2457, -1, 0, 0, False) /* Create Health Draught (2457) for Shop */
+     , (4552, 4,  2460, -1, 0, 0, False) /* Create Mana Draught (2460) for Shop */
+     , (4552, 2,  2606,  0, 18, 1, False) /* Create Boots (2606) for Wield */
+     , (4552, 4,  2621, -1, 0, 0, False) /* Create Trade Note (100) (2621) for Shop */
+     , (4552, 4,  2622, -1, 0, 0, False) /* Create Trade Note (500) (2622) for Shop */
+     , (4552, 4,  4384, -1, 0, 0, False) /* Create Strength Other I (4384) for Shop */
+     , (4552, 4,  4450, -1, 0, 0, False) /* Create Heal Other I (4450) for Shop */
+     , (4552, 4,  4589, -1, 0, 0, False) /* Create Revitalize Other I (4589) for Shop */
+     , (4552, 4,  4592, -1, 0, 0, False) /* Create Mana Boost Other I (4592) for Shop */
+     , (4552, 4,  4595, -1, 0, 0, False) /* Create Regeneration Other I (4595) for Shop */
+     , (4552, 4,  4597, -1, 0, 0, False) /* Create Rejuvenation Other I (4597) for Shop */
+     , (4552, 4,  4599, -1, 0, 0, False) /* Create Mana Renewal Other I (4599) for Shop */
+     , (4552, 4,  4602, -1, 0, 0, False) /* Create Endurance Other I (4602) for Shop */
+     , (4552, 4,  4604, -1, 0, 0, False) /* Create Coordination Other I (4604) for Shop */
+     , (4552, 4,  4606, -1, 0, 0, False) /* Create Quickness Other I (4606) for Shop */
+     , (4552, 4,  4608, -1, 0, 0, False) /* Create Focus Other I (4608) for Shop */
+     , (4552, 4,  4610, -1, 0, 0, False) /* Create Willpower Other I (4610) for Shop */
+     , (4552, 2, 10696,  0, 9, 0.5, False) /* Create Apron (10696) for Wield */
+     , (4552, 4, 27326, -1, 0, 0, False) /* Create Stamina Tincture (27326) for Shop */;

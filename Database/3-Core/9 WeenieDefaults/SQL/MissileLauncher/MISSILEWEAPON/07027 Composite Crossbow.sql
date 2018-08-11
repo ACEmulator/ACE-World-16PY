@@ -19,7 +19,7 @@ VALUES (7027,   1,        256) /* ItemType - MissileWeapon */
      , (7027,  52,          2) /* ParentLocation */
      , (7027,  53,          3) /* PlacementPosition */
      , (7027,  60,        192) /* WeaponRange */
-     , (7027,  93,       1044) /* PhysicsState */
+     , (7027,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (7027, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)

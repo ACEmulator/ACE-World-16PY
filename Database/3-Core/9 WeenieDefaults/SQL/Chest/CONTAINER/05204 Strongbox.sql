@@ -12,7 +12,7 @@ VALUES (5204,   1,        512) /* ItemType - Container */
      , (5204,  81,          2) /* MaxGeneratedObjects */
      , (5204,  82,          2) /* InitGeneratedObjects */
      , (5204,  83,          2) /* ActivationResponse - Use */
-     , (5204,  93,       1048) /* PhysicsState */
+     , (5204,  93,       1048) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity */
      , (5204,  96,        500) /* EncumbranceCapacity */
      , (5204, 100,          1) /* GeneratorType - Relative */;
 
@@ -42,5 +42,5 @@ VALUES (5204,   1,   33554556) /* Setup */
      , (5204,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (5204, -1, 457, 1000, 1, 1, 2, 72, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0)
-     , (5204, -1, 5175, 30, 1, 1, 2, 8, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0);
+VALUES (5204, -1, 457, 1000, 1, 1, 2, 72, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate RANDOMLY GENERATED TREASURE from Loot Tier 2 (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: ContainTreasure */
+     , (5204, -1, 5175, 30, 1, 1, 2, 8, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Perfectly Aged Cider (5175) (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: Contain */;

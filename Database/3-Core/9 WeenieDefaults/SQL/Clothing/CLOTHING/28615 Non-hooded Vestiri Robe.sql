@@ -4,7 +4,7 @@ VALUES ('28615', 'robeviamontiannohood', 2) /* Clothing */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (28615,   1,          4) /* ItemType - Clothing */
      , (28615,   3,          4) /* PaletteTemplate - Brown */
-     , (28615,   4,      81664) /* ClothingPriority */
+     , (28615,   4,      81664) /* ClothingPriority - OuterwearUpperLegs, OuterwearLowerLegs, OuterwearChest, OuterwearAbdomen, OuterwearUpperArms, OuterwearLowerArms, Feet */
      , (28615,   5,        200) /* EncumbranceVal */
      , (28615,   8,        150) /* Mass */
      , (28615,   9,      32512) /* ValidLocations - Armor */
@@ -12,7 +12,7 @@ VALUES (28615,   1,          4) /* ItemType - Clothing */
      , (28615,  19,         50) /* Value */
      , (28615,  27,          1) /* ArmorType */
      , (28615,  28,          0) /* ArmorLevel */
-     , (28615,  93,       1044) /* PhysicsState */;
+     , (28615,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (28615,  22, True ) /* Inscribable */

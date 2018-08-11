@@ -4,8 +4,8 @@ VALUES ('7342', 'portalsoulfearingvestryexit', 7) /* Portal */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (7342,   1,      65536) /* ItemType - Portal */
      , (7342,  16,         32) /* ItemUseable - Remote */
-     , (7342,  93,       3084) /* PhysicsState */
-     , (7342, 111,         17) /* PortalBitmask */
+     , (7342,  93,       3084) /* PhysicsState - Ethereal, ReportCollisions, Gravity, LightingOn */
+     , (7342, 111,         17) /* PortalBitmask - Unrestricted, NoSummon */
      , (7342, 133,          4) /* ShowableOnRadar - ShowAlways */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)

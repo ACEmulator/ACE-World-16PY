@@ -4,8 +4,8 @@ VALUES ('23513', 'portalsmallarchiveexit', 7) /* Portal */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (23513,   1,      65536) /* ItemType - Portal */
      , (23513,  16,         32) /* ItemUseable - Remote */
-     , (23513,  93,       3084) /* PhysicsState */
-     , (23513, 111,         49) /* PortalBitmask */
+     , (23513,  93,       3084) /* PhysicsState - Ethereal, ReportCollisions, Gravity, LightingOn */
+     , (23513, 111,         49) /* PortalBitmask - Unrestricted, NoSummon, NoRecall */
      , (23513, 133,          4) /* ShowableOnRadar - ShowAlways */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)

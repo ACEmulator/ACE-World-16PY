@@ -15,7 +15,7 @@ VALUES (11023,   1,         16) /* ItemType - Creature */
      , (11023,  72,         35) /* FriendType - OlthoiLarvae */
      , (11023,  81,          2) /* MaxGeneratedObjects */
      , (11023,  82,          2) /* InitGeneratedObjects */
-     , (11023,  93,       1032) /* PhysicsState */
+     , (11023,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (11023, 103,          3) /* GeneratorDestructionType - Kill */
      , (11023, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (11023, 140,          1) /* AiOptions */
@@ -72,7 +72,7 @@ VALUES (11023,   1,   33557046) /* Setup */
      , (11023,   8,  100667623) /* Icon */
      , (11023,  22,  872415378) /* PhysicsEffectTable */
      , (11023,  30,         85) /* PhysicsScript - BreatheFrost */
-     , (11023,  35,        452) /* DeathTreasureType */;
+     , (11023,  35,        452) /* DeathTreasureType - Loot Tier: 5 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (11023,   1, 360, 0, 0) /* Strength */
@@ -135,42 +135,42 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 268435537 /* Twitch1 */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (11023, 9, 11157,  0, 0, 0.03, False) /* Create Alchemy Tessera for ContainTreasure */
-     , (11023, 9, 11158,  0, 0, 0.03, False) /* Create Arcane Lore Tessera for ContainTreasure */
-     , (11023, 9, 11159,  0, 0, 0.02, False) /* Create Armor Tinkering Tessera for ContainTreasure */
-     , (11023, 9, 11160,  0, 0, 0.03, False) /* Create Axe Tessera for ContainTreasure */
-     , (11023, 9, 11161,  0, 0, 0.03, False) /* Create Bow Tessera for ContainTreasure */
-     , (11023, 9, 11162,  0, 0, 0.03, False) /* Create Cooking Tessera for ContainTreasure */
-     , (11023, 9, 11163,  0, 0, 0.02, False) /* Create Creature Assessment Tessera for ContainTreasure */
-     , (11023, 9, 11164,  0, 0, 0.03, False) /* Create Creature Enchantment Tessera for ContainTreasure */
-     , (11023, 9, 11165,  0, 0, 0.03, False) /* Create Crossbow Tessera for ContainTreasure */
-     , (11023, 9, 11166,  0, 0, 0.03, False) /* Create Dagger Tessera for ContainTreasure */
-     , (11023, 9, 11167,  0, 0, 0.03, False) /* Create Deception Tessera for ContainTreasure */
-     , (11023, 9, 11168,  0, 0, 0.03, False) /* Create Fletching Tessera for ContainTreasure */
-     , (11023, 9, 11169,  0, 0, 0.03, False) /* Create Healing Tessera for ContainTreasure */
-     , (11023, 9, 11170,  0, 0, 0.03, False) /* Create Item Tinkering Tessera for ContainTreasure */
-     , (11023, 9, 11171,  0, 0, 0.03, False) /* Create Item Enchantment Tessera for ContainTreasure */
-     , (11023, 9, 11172,  0, 0, 0.03, False) /* Create Jump Tessera for ContainTreasure */
-     , (11023, 9, 11173,  0, 0, 0.03, False) /* Create Leadership Tessera for ContainTreasure */
-     , (11023, 9, 11174,  0, 0, 0.03, False) /* Create Life Magic Tessera for ContainTreasure */
-     , (11023, 9, 11175,  0, 0, 0.03, False) /* Create Lockpick Tessera for ContainTreasure */
-     , (11023, 9, 11176,  0, 0, 0.03, False) /* Create Loyalty Tessera for ContainTreasure */
-     , (11023, 9, 11177,  0, 0, 0.03, False) /* Create Mace Tessera for ContainTreasure */
-     , (11023, 9, 11178,  0, 0, 0.02, False) /* Create Magic Item Tinkering Tessera for ContainTreasure */
-     , (11023, 9, 11179,  0, 0, 0.03, False) /* Create Magic Resistance Tessera for ContainTreasure */
-     , (11023, 9, 11180,  0, 0, 0.03, False) /* Create Mana Conversion Tessera for ContainTreasure */
-     , (11023, 9, 11181,  0, 0, 0.03, False) /* Create Melee Defense Tessera for ContainTreasure */
-     , (11023, 9, 11182,  0, 0, 0.03, False) /* Create Missile Defense Tessera for ContainTreasure */
-     , (11023, 9, 11183,  0, 0, 0.02, False) /* Create Person Assessment Tessera for ContainTreasure */
-     , (11023, 9, 11184,  0, 0, 0.03, False) /* Create Run Tessera for ContainTreasure */
-     , (11023, 9, 11185,  0, 0, 0.03, False) /* Create Spear Tessera for ContainTreasure */
-     , (11023, 9, 11186,  0, 0, 0.03, False) /* Create Staff Tessera for ContainTreasure */
-     , (11023, 9, 11187,  0, 0, 0.03, False) /* Create Sword Tessera for ContainTreasure */
-     , (11023, 9, 11188,  0, 0, 0.03, False) /* Create Thrown Weapons Tessera for ContainTreasure */
-     , (11023, 9, 11189,  0, 0, 0.03, False) /* Create Unarmed Combat Tessera for ContainTreasure */
-     , (11023, 9, 11190,  0, 0, 0.03, False) /* Create War Magic Tessera for ContainTreasure */
-     , (11023, 9, 11191,  0, 0, 0.02, False) /* Create Weapon Tinkering Tessera for ContainTreasure */;
+VALUES (11023, 9, 11157,  0, 0, 0.03, False) /* Create Alchemy Tessera (11157) for ContainTreasure */
+     , (11023, 9, 11158,  0, 0, 0.03, False) /* Create Arcane Lore Tessera (11158) for ContainTreasure */
+     , (11023, 9, 11159,  0, 0, 0.02, False) /* Create Armor Tinkering Tessera (11159) for ContainTreasure */
+     , (11023, 9, 11160,  0, 0, 0.03, False) /* Create Axe Tessera (11160) for ContainTreasure */
+     , (11023, 9, 11161,  0, 0, 0.03, False) /* Create Bow Tessera (11161) for ContainTreasure */
+     , (11023, 9, 11162,  0, 0, 0.03, False) /* Create Cooking Tessera (11162) for ContainTreasure */
+     , (11023, 9, 11163,  0, 0, 0.02, False) /* Create Creature Assessment Tessera (11163) for ContainTreasure */
+     , (11023, 9, 11164,  0, 0, 0.03, False) /* Create Creature Enchantment Tessera (11164) for ContainTreasure */
+     , (11023, 9, 11165,  0, 0, 0.03, False) /* Create Crossbow Tessera (11165) for ContainTreasure */
+     , (11023, 9, 11166,  0, 0, 0.03, False) /* Create Dagger Tessera (11166) for ContainTreasure */
+     , (11023, 9, 11167,  0, 0, 0.03, False) /* Create Deception Tessera (11167) for ContainTreasure */
+     , (11023, 9, 11168,  0, 0, 0.03, False) /* Create Fletching Tessera (11168) for ContainTreasure */
+     , (11023, 9, 11169,  0, 0, 0.03, False) /* Create Healing Tessera (11169) for ContainTreasure */
+     , (11023, 9, 11170,  0, 0, 0.03, False) /* Create Item Tinkering Tessera (11170) for ContainTreasure */
+     , (11023, 9, 11171,  0, 0, 0.03, False) /* Create Item Enchantment Tessera (11171) for ContainTreasure */
+     , (11023, 9, 11172,  0, 0, 0.03, False) /* Create Jump Tessera (11172) for ContainTreasure */
+     , (11023, 9, 11173,  0, 0, 0.03, False) /* Create Leadership Tessera (11173) for ContainTreasure */
+     , (11023, 9, 11174,  0, 0, 0.03, False) /* Create Life Magic Tessera (11174) for ContainTreasure */
+     , (11023, 9, 11175,  0, 0, 0.03, False) /* Create Lockpick Tessera (11175) for ContainTreasure */
+     , (11023, 9, 11176,  0, 0, 0.03, False) /* Create Loyalty Tessera (11176) for ContainTreasure */
+     , (11023, 9, 11177,  0, 0, 0.03, False) /* Create Mace Tessera (11177) for ContainTreasure */
+     , (11023, 9, 11178,  0, 0, 0.02, False) /* Create Magic Item Tinkering Tessera (11178) for ContainTreasure */
+     , (11023, 9, 11179,  0, 0, 0.03, False) /* Create Magic Resistance Tessera (11179) for ContainTreasure */
+     , (11023, 9, 11180,  0, 0, 0.03, False) /* Create Mana Conversion Tessera (11180) for ContainTreasure */
+     , (11023, 9, 11181,  0, 0, 0.03, False) /* Create Melee Defense Tessera (11181) for ContainTreasure */
+     , (11023, 9, 11182,  0, 0, 0.03, False) /* Create Missile Defense Tessera (11182) for ContainTreasure */
+     , (11023, 9, 11183,  0, 0, 0.02, False) /* Create Person Assessment Tessera (11183) for ContainTreasure */
+     , (11023, 9, 11184,  0, 0, 0.03, False) /* Create Run Tessera (11184) for ContainTreasure */
+     , (11023, 9, 11185,  0, 0, 0.03, False) /* Create Spear Tessera (11185) for ContainTreasure */
+     , (11023, 9, 11186,  0, 0, 0.03, False) /* Create Staff Tessera (11186) for ContainTreasure */
+     , (11023, 9, 11187,  0, 0, 0.03, False) /* Create Sword Tessera (11187) for ContainTreasure */
+     , (11023, 9, 11188,  0, 0, 0.03, False) /* Create Thrown Weapons Tessera (11188) for ContainTreasure */
+     , (11023, 9, 11189,  0, 0, 0.03, False) /* Create Unarmed Combat Tessera (11189) for ContainTreasure */
+     , (11023, 9, 11190,  0, 0, 0.03, False) /* Create War Magic Tessera (11190) for ContainTreasure */
+     , (11023, 9, 11191,  0, 0, 0.02, False) /* Create Weapon Tinkering Tessera (11191) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (11023, -1, 11025, 60, 1, 1, 1, 4, -1, 0, 0, 0, -3, 5, 20, -4.371139E-08, 0, 0, -1)
-     , (11023, -1, 11025, 60, 1, 1, 1, 4, -1, 0, 0, 0, 1, -5, 20, 1, 0, 0, 0);
+VALUES (11023, -1, 11025, 60, 1, 1, 1, 4, -1, 0, 0, 0, -3, 5, 20, -4.371139E-08, 0, 0, -1) /* Generate Olthoi Brood Noble (11025) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
+     , (11023, -1, 11025, 60, 1, 1, 1, 4, -1, 0, 0, 0, 1, -5, 20, 1, 0, 0, 0) /* Generate Olthoi Brood Noble (11025) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */;

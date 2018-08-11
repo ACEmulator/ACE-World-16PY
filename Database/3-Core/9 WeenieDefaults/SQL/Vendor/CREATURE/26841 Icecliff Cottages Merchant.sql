@@ -10,10 +10,10 @@ VALUES (26841,   1,         16) /* ItemType - Creature */
      , (26841,  16,         32) /* ItemUseable - Remote */
      , (26841,  25,         10) /* Level */
      , (26841,  27,          0) /* ArmorType */
-     , (26841,  74,     264192) /* MerchandiseItemTypes */
+     , (26841,  74,     264192) /* MerchandiseItemTypes - Gem, PromissoryNote */
      , (26841,  75,          0) /* MerchandiseMinValue */
      , (26841,  76,    1000000) /* MerchandiseMaxValue */
-     , (26841,  93,    2098204) /* PhysicsState */
+     , (26841,  93,    2098204) /* PhysicsState - Ethereal, ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */
      , (26841, 126,        125) /* VendorHappyMean */
      , (26841, 127,        125) /* VendorHappyVariance */
      , (26841, 133,          4) /* ShowableOnRadar - ShowAlways */
@@ -97,4 +97,4 @@ VALUES (26841,  0,  4,  0,    0,    0,    0,    0,    0,    0,    0,    0,    0,
      , (26841,  8,  4,  2, 0.75,    0,    0,    0,    0,    0,    0,    0,    0,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (26841, 4, 26206, -1, 0, 0, False) /* Create Icecliff Cottages Portal Gem for Shop */;
+VALUES (26841, 4, 26206, -1, 0, 0, False) /* Create Icecliff Cottages Portal Gem (26206) for Shop */;

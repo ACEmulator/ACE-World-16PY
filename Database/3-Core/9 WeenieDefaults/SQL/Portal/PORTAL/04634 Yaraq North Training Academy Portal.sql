@@ -6,7 +6,7 @@ VALUES (4634,   1,      65536) /* ItemType - Portal */
      , (4634,  16,         32) /* ItemUseable - Remote */
      , (4634,  86,          1) /* MinLevel */
      , (4634,  87,          5) /* MaxLevel */
-     , (4634,  93,       3084) /* PhysicsState */
+     , (4634,  93,       3084) /* PhysicsState - Ethereal, ReportCollisions, Gravity, LightingOn */
      , (4634, 111,          1) /* PortalBitmask - Unrestricted */
      , (4634, 133,          4) /* ShowableOnRadar - ShowAlways */;
 

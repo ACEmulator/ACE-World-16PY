@@ -11,7 +11,7 @@ VALUES (942,   1,         16) /* ItemType - Creature */
      , (942,  27,          0) /* ArmorType */
      , (942,  40,          2) /* CombatMode - Melee */
      , (942,  68,          3) /* TargetingTactic */
-     , (942,  93,       1032) /* PhysicsState */
+     , (942,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (942, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (942, 146,        477) /* XpOverride */;
 
@@ -65,7 +65,7 @@ VALUES (942,   1,   33556428) /* Setup */
      , (942,   4,  805306376) /* CombatTable */
      , (942,   8,  100667940) /* Icon */
      , (942,  22,  872415326) /* PhysicsEffectTable */
-     , (942,  35,        465) /* DeathTreasureType */;
+     , (942,  35,        465) /* DeathTreasureType - Loot Tier: 1 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (942,   1,  80, 0, 0) /* Strength */
@@ -131,11 +131,11 @@ VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 1090519043 /* Ready */, NULL, NU
      , (@parent_id,  1,   5 /* Motion */, 0, 1, 1090519060 /* Sleeping */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (942, 9,     0,  0, 0, 0.9, False) /* Create Unknown for ContainTreasure */
-     , (942, 9,     0,  0, 0, 0.95, False) /* Create Unknown for ContainTreasure */
-     , (942, 9,     0,  0, 0, 0.995, False) /* Create Unknown for ContainTreasure */
-     , (942, 9,     0,  0, 0, 0.97, False) /* Create Unknown for ContainTreasure */
-     , (942, 9,  3673,  0, 0, 0.1, False) /* Create Wood Heart for ContainTreasure */
-     , (942, 9,  5779,  0, 0, 0.05, False) /* Create Strange Stick for ContainTreasure */
-     , (942, 9,  6353,  0, 0, 0.005, False) /* Create Pyreal Mote for ContainTreasure */
-     , (942, 9, 20859,  0, 0, 0.03, False) /* Create Fletching Stamp for ContainTreasure */;
+VALUES (942, 9,     0,  0, 0, 0.9, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 1 for ContainTreasure */
+     , (942, 9,     0,  0, 0, 0.95, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 1 for ContainTreasure */
+     , (942, 9,     0,  0, 0, 0.995, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 1 for ContainTreasure */
+     , (942, 9,     0,  0, 0, 0.97, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 1 for ContainTreasure */
+     , (942, 9,  3673,  0, 0, 0.1, False) /* Create Wood Heart (3673) for ContainTreasure */
+     , (942, 9,  5779,  0, 0, 0.05, False) /* Create Strange Stick (5779) for ContainTreasure */
+     , (942, 9,  6353,  0, 0, 0.005, False) /* Create Pyreal Mote (6353) for ContainTreasure */
+     , (942, 9, 20859,  0, 0, 0.03, False) /* Create Fletching Stamp (20859) for ContainTreasure */;

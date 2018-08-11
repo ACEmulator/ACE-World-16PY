@@ -10,10 +10,10 @@ VALUES (26697,   1,         16) /* ItemType - Creature */
      , (26697,  16,         32) /* ItemUseable - Remote */
      , (26697,  25,         10) /* Level */
      , (26697,  27,          0) /* ArmorType */
-     , (26697,  74,     264192) /* MerchandiseItemTypes */
+     , (26697,  74,     264192) /* MerchandiseItemTypes - Gem, PromissoryNote */
      , (26697,  75,          0) /* MerchandiseMinValue */
      , (26697,  76,    1000000) /* MerchandiseMaxValue */
-     , (26697,  93,    2098204) /* PhysicsState */
+     , (26697,  93,    2098204) /* PhysicsState - Ethereal, ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */
      , (26697, 126,        125) /* VendorHappyMean */
      , (26697, 127,        125) /* VendorHappyVariance */
      , (26697, 133,          4) /* ShowableOnRadar - ShowAlways */
@@ -97,4 +97,4 @@ VALUES (26697,  0,  4,  0,    0,    0,    0,    0,    0,    0,    0,    0,    0,
      , (26697,  8,  4,  2, 0.75,    0,    0,    0,    0,    0,    0,    0,    0,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (26697, 4, 26062, -1, 0, 0, False) /* Create Ahr-Zona Portal Gem for Shop */;
+VALUES (26697, 4, 26062, -1, 0, 0, False) /* Create Ahr-Zona Portal Gem (26062) for Shop */;

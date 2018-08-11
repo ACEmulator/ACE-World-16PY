@@ -13,8 +13,8 @@ VALUES (27524,   1,         16) /* ItemType - Creature */
      , (27524,  40,          2) /* CombatMode - Melee */
      , (27524,  68,         13) /* TargetingTactic */
      , (27524,  72,         50) /* FriendType - Idol */
-     , (27524,  93,       1032) /* PhysicsState */
-     , (27524, 101,        131) /* AiAllowedCombatStyle */
+     , (27524,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
+     , (27524, 101,        131) /* AiAllowedCombatStyle - Unarmed, OneHanded, ThrownWeapon */
      , (27524, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (27524, 140,          1) /* AiOptions */
      , (27524, 146,      26607) /* XpOverride */;
@@ -73,7 +73,7 @@ VALUES (27524,   1,   33557327) /* Setup */
      , (27524,   7,  268436294) /* ClothingBase */
      , (27524,   8,  100667449) /* Icon */
      , (27524,  22,  872415264) /* PhysicsEffectTable */
-     , (27524,  35,        448) /* DeathTreasureType */;
+     , (27524,  35,        448) /* DeathTreasureType - Loot Tier: 4 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (27524,   1, 248, 0, 0) /* Strength */
@@ -215,9 +215,9 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 268435537 /* Twitch1 */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (27524, 9,     0,  0, 0, 0.75, False) /* Create Unknown for ContainTreasure */
-     , (27524, 9,     0,  0, 0, 0.95, False) /* Create Unknown for ContainTreasure */
-     , (27524, 9,     0,  0, 0, 0.99, False) /* Create Unknown for ContainTreasure */
-     , (27524, 9,  3694,  0, 0, 0.25, False) /* Create Swamp Stone for ContainTreasure */
-     , (27524, 9,  6876,  0, 0, 0.01, False) /* Create Sturdy Iron Key for ContainTreasure */
-     , (27524, 9,  7825,  0, 0, 0.05, False) /* Create Brown Beans for ContainTreasure */;
+VALUES (27524, 9,     0,  0, 0, 0.75, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 4 for ContainTreasure */
+     , (27524, 9,     0,  0, 0, 0.95, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 4 for ContainTreasure */
+     , (27524, 9,     0,  0, 0, 0.99, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 4 for ContainTreasure */
+     , (27524, 9,  3694,  0, 0, 0.25, False) /* Create Swamp Stone (3694) for ContainTreasure */
+     , (27524, 9,  6876,  0, 0, 0.01, False) /* Create Sturdy Iron Key (6876) for ContainTreasure */
+     , (27524, 9,  7825,  0, 0, 0.05, False) /* Create Brown Beans (7825) for ContainTreasure */;

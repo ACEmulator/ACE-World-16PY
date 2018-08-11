@@ -11,8 +11,8 @@ VALUES (11890,   1,         16) /* ItemType - Creature */
      , (11890,  25,         53) /* Level */
      , (11890,  27,          0) /* ArmorType */
      , (11890,  68,          3) /* TargetingTactic */
-     , (11890,  93,       1032) /* PhysicsState */
-     , (11890, 101,        183) /* AiAllowedCombatStyle */
+     , (11890,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
+     , (11890, 101,        183) /* AiAllowedCombatStyle - Unarmed, OneHanded, OneHandedAndShield, Bow, Crossbow, ThrownWeapon */
      , (11890, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (11890, 140,          1) /* AiOptions */
      , (11890, 146,       8793) /* XpOverride */;
@@ -71,8 +71,10 @@ VALUES (11890,   1,   33554496) /* Setup */
      , (11890,   7,  268435647) /* ClothingBase */
      , (11890,   8,  100667452) /* Icon */
      , (11890,  22,  872415270) /* PhysicsEffectTable */
-     , (11890,  32,        371) /* WieldedTreasureType */
-     , (11890,  35,        451) /* DeathTreasureType */;
+     , (11890,  32,        371) /* WieldedTreasureType - 
+                                   Wield Hafted Shreth Spear (11756) | Probability: 80%
+                                   Wield Reinforced Shreth Spear (11782) | Probability: 20% */
+     , (11890,  35,        451) /* DeathTreasureType - Loot Tier: 2 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (11890,   1, 170, 0, 0) /* Strength */
@@ -144,5 +146,5 @@ VALUES (11890,  94) /* ATTACK_NOTIFICATION_EVENT */
      , (11890, 414) /* PLAYER_DEATH_EVENT */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (11890, 9,     0,  0, 0, 0.95, False) /* Create Unknown for ContainTreasure */
-     , (11890, 9, 11817,  0, 0, 0.05, False) /* Create Shreth Crest for ContainTreasure */;
+VALUES (11890, 9,     0,  0, 0, 0.95, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 2 for ContainTreasure */
+     , (11890, 9, 11817,  0, 0, 0.05, False) /* Create Shreth Crest (11817) for ContainTreasure */;

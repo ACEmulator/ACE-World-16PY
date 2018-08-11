@@ -4,8 +4,8 @@ VALUES ('30469', 'portalpowerforgesouthexit', 7) /* Portal */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (30469,   1,      65536) /* ItemType - Portal */
      , (30469,  16,         32) /* ItemUseable - Remote */
-     , (30469,  93,       3084) /* PhysicsState */
-     , (30469, 111,         49) /* PortalBitmask */
+     , (30469,  93,       3084) /* PhysicsState - Ethereal, ReportCollisions, Gravity, LightingOn */
+     , (30469, 111,         49) /* PortalBitmask - Unrestricted, NoSummon, NoRecall */
      , (30469, 133,          4) /* ShowableOnRadar - ShowAlways */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)

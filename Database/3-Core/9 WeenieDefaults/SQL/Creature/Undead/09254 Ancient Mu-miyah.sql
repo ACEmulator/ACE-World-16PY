@@ -13,8 +13,8 @@ VALUES (9254,   1,         16) /* ItemType - Creature */
      , (9254,  40,          1) /* CombatMode - NonCombat */
      , (9254,  68,          5) /* TargetingTactic */
      , (9254,  72,         14) /* FriendType - Undead */
-     , (9254,  93,       1032) /* PhysicsState */
-     , (9254, 101,        183) /* AiAllowedCombatStyle */
+     , (9254,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
+     , (9254, 101,        183) /* AiAllowedCombatStyle - Unarmed, OneHanded, OneHandedAndShield, Bow, Crossbow, ThrownWeapon */
      , (9254, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (9254, 140,          1) /* AiOptions */
      , (9254, 146,       8524) /* XpOverride */;
@@ -75,7 +75,7 @@ VALUES (9254,   1,   33554433) /* Setup */
      , (9254,   7,  268435645) /* ClothingBase */
      , (9254,   8,  100669122) /* Icon */
      , (9254,  22,  872415272) /* PhysicsEffectTable */
-     , (9254,  35,        463) /* DeathTreasureType */;
+     , (9254,  35,        463) /* DeathTreasureType - Loot Tier: 2 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (9254,   1, 100, 0, 0) /* Strength */
@@ -176,15 +176,15 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 268435537 /* Twitch1 */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (9254, 9,     0,  0, 0, 0.99, False) /* Create Unknown for ContainTreasure */
-     , (9254, 9,     0,  0, 0, 0.93, False) /* Create Unknown for ContainTreasure */
-     , (9254, 9,     0,  0, 0, 0.95, False) /* Create Unknown for ContainTreasure */
-     , (9254, 9,     0,  0, 0, 0.95, False) /* Create Unknown for ContainTreasure */
-     , (9254, 9,     0,  0, 0, 0.95, False) /* Create Unknown for ContainTreasure */
-     , (9254, 9,     0,  0, 0, 0.95, False) /* Create Unknown for ContainTreasure */
-     , (9254, 9,  6876,  0, 0, 0.01, False) /* Create Sturdy Iron Key for ContainTreasure */
-     , (9254, 9,  9312,  0, 0, 0.07, False) /* Create A Small Mnemosyne for ContainTreasure */
-     , (9254, 9, 22025,  0, 0, 0.05, False) /* Create Mu-miyah Arm for ContainTreasure */
-     , (9254, 9, 22029,  0, 0, 0.05, False) /* Create Mu-miyah Leg for ContainTreasure */
-     , (9254, 9, 22045,  0, 0, 0.05, False) /* Create Mu-miyah Torso for ContainTreasure */
-     , (9254, 9, 22060,  0, 0, 0.05, False) /* Create Mu-miyah Torso with a Head for ContainTreasure */;
+VALUES (9254, 9,     0,  0, 0, 0.99, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 2 for ContainTreasure */
+     , (9254, 9,     0,  0, 0, 0.93, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 2 for ContainTreasure */
+     , (9254, 9,     0,  0, 0, 0.95, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 2 for ContainTreasure */
+     , (9254, 9,     0,  0, 0, 0.95, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 2 for ContainTreasure */
+     , (9254, 9,     0,  0, 0, 0.95, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 2 for ContainTreasure */
+     , (9254, 9,     0,  0, 0, 0.95, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 2 for ContainTreasure */
+     , (9254, 9,  6876,  0, 0, 0.01, False) /* Create Sturdy Iron Key (6876) for ContainTreasure */
+     , (9254, 9,  9312,  0, 0, 0.07, False) /* Create A Small Mnemosyne (9312) for ContainTreasure */
+     , (9254, 9, 22025,  0, 0, 0.05, False) /* Create Mu-miyah Arm (22025) for ContainTreasure */
+     , (9254, 9, 22029,  0, 0, 0.05, False) /* Create Mu-miyah Leg (22029) for ContainTreasure */
+     , (9254, 9, 22045,  0, 0, 0.05, False) /* Create Mu-miyah Torso (22045) for ContainTreasure */
+     , (9254, 9, 22060,  0, 0, 0.05, False) /* Create Mu-miyah Torso with a Head (22060) for ContainTreasure */;

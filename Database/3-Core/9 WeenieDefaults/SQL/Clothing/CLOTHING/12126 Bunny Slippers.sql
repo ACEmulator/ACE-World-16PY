@@ -14,7 +14,7 @@ VALUES (12126,   1,          4) /* ItemType - Clothing */
      , (12126,  28,         10) /* ArmorLevel */
      , (12126,  44,          3) /* Damage */
      , (12126,  45,          4) /* DamageType - Bludgeon */
-     , (12126,  93,       1044) /* PhysicsState */
+     , (12126,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (12126, 106,         30) /* ItemSpellcraft */
      , (12126, 107,        500) /* ItemCurMana */
      , (12126, 108,        500) /* ItemMaxMana */

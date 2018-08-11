@@ -14,7 +14,7 @@ VALUES (762,   1,       4096) /* ItemType - SpellComponents */
      , (762,  15,          5) /* StackUnitValue */
      , (762,  16,          1) /* ItemUseable - No */
      , (762,  19,          5) /* Value */
-     , (762,  93,       1044) /* PhysicsState */;
+     , (762,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (762,   1, 'Turpeth') /* Name */

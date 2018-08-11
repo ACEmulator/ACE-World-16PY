@@ -12,7 +12,7 @@ VALUES (19425,   1,         16) /* ItemType - Creature */
      , (19425,  27,          0) /* ArmorType */
      , (19425,  40,          2) /* CombatMode - Melee */
      , (19425,  68,          9) /* TargetingTactic */
-     , (19425,  93,       1032) /* PhysicsState */
+     , (19425,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (19425, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (19425, 146,      30000) /* XpOverride */;
 

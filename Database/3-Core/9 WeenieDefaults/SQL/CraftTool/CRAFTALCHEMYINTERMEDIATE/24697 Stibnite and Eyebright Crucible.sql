@@ -13,10 +13,10 @@ VALUES (24697,   1,   67108864) /* ItemType - CraftAlchemyIntermediate */
      , (24697,  15,        500) /* StackUnitValue */
      , (24697,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
      , (24697,  19,        500) /* Value */
-     , (24697,  93,       1044) /* PhysicsState */
-     , (24697,  94,    4196992) /* TargetType */
+     , (24697,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (24697,  94,    4196992) /* TargetType - 4196992 */
      , (24697, 150,        103) /* HookPlacement - Hook */
-     , (24697, 151,          9) /* HookType */;
+     , (24697, 151,          9) /* HookType - Floor, Yard */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (24697,  22, True ) /* Inscribable */

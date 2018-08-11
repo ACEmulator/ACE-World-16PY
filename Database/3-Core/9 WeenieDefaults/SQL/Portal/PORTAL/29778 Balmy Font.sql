@@ -4,8 +4,8 @@ VALUES ('29778', 'portalbalmyfont', 7) /* Portal */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (29778,   1,      65536) /* ItemType - Portal */
      , (29778,  16,         32) /* ItemUseable - Remote */
-     , (29778,  93,       3084) /* PhysicsState */
-     , (29778, 111,         49) /* PortalBitmask */
+     , (29778,  93,       3084) /* PhysicsState - Ethereal, ReportCollisions, Gravity, LightingOn */
+     , (29778, 111,         49) /* PortalBitmask - Unrestricted, NoSummon, NoRecall */
      , (29778, 133,          4) /* ShowableOnRadar - ShowAlways */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)

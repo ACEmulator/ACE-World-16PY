@@ -10,10 +10,10 @@ VALUES (27040,   1,         16) /* ItemType - Creature */
      , (27040,  16,         32) /* ItemUseable - Remote */
      , (27040,  25,         10) /* Level */
      , (27040,  27,          0) /* ArmorType */
-     , (27040,  74,     264192) /* MerchandiseItemTypes */
+     , (27040,  74,     264192) /* MerchandiseItemTypes - Gem, PromissoryNote */
      , (27040,  75,          0) /* MerchandiseMinValue */
      , (27040,  76,    1000000) /* MerchandiseMaxValue */
-     , (27040,  93,    2098204) /* PhysicsState */
+     , (27040,  93,    2098204) /* PhysicsState - Ethereal, ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */
      , (27040, 126,        125) /* VendorHappyMean */
      , (27040, 127,        125) /* VendorHappyVariance */
      , (27040, 133,          4) /* ShowableOnRadar - ShowAlways */
@@ -97,4 +97,4 @@ VALUES (27040,  0,  4,  0,    0,    0,    0,    0,    0,    0,    0,    0,    0,
      , (27040,  8,  4,  2, 0.75,    0,    0,    0,    0,    0,    0,    0,    0,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (27040, 4, 26405, -1, 0, 0, False) /* Create Tattered Ridge Portal Gem for Shop */;
+VALUES (27040, 4, 26405, -1, 0, 0, False) /* Create Tattered Ridge Portal Gem (26405) for Shop */;

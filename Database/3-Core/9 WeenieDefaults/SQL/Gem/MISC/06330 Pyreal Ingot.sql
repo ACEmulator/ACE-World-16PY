@@ -14,7 +14,7 @@ VALUES (6330,   1,        128) /* ItemType - Misc */
      , (6330,  15,       1000) /* StackUnitValue */
      , (6330,  16,          1) /* ItemUseable - No */
      , (6330,  19,       1000) /* Value */
-     , (6330,  93,       1044) /* PhysicsState */
+     , (6330,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (6330, 150,        103) /* HookPlacement - Hook */
      , (6330, 151,          2) /* HookType - Wall */;
 

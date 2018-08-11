@@ -12,7 +12,7 @@ VALUES (2197,   1,          2) /* ItemType - Armor */
      , (2197,  19,        400) /* Value */
      , (2197,  27,         32) /* ArmorType */
      , (2197,  28,         30) /* ArmorLevel */
-     , (2197,  93,       1044) /* PhysicsState */
+     , (2197,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (2197, 150,        103) /* HookPlacement - Hook */
      , (2197, 151,          2) /* HookType - Wall */;
 

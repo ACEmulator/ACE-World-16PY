@@ -14,8 +14,8 @@ VALUES (30400,   1,       2048) /* ItemType - Gem */
      , (30400,  15,        500) /* StackUnitValue */
      , (30400,  16,          8) /* ItemUseable - Contained */
      , (30400,  19,        500) /* Value */
-     , (30400,  93,       3092) /* PhysicsState */
-     , (30400,  94,         16) /* TargetType - Creature */
+     , (30400,  93,       3092) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, LightingOn */
+     , (30400,  94,         16) /* TargetType - Reedshark */
      , (30400, 106,        210) /* ItemSpellcraft */
      , (30400, 107,         50) /* ItemCurMana */
      , (30400, 108,         50) /* ItemMaxMana */

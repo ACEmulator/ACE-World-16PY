@@ -13,7 +13,7 @@ VALUES (27416,   1,         16) /* ItemType - Creature */
      , (27416,  68,          9) /* TargetingTactic */
      , (27416,  81,          6) /* MaxGeneratedObjects */
      , (27416,  82,          6) /* InitGeneratedObjects */
-     , (27416,  93,    4197384) /* PhysicsState */
+     , (27416,  93,    4197384) /* PhysicsState - ReportCollisions, Gravity, LightingOn, EdgeSlide */
      , (27416, 103,          3) /* GeneratorDestructionType - Kill */
      , (27416, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (27416, 146,     190435) /* XpOverride */;
@@ -76,7 +76,7 @@ VALUES (27416,   1,   33556427) /* Setup */
      , (27416,   4,  805306376) /* CombatTable */
      , (27416,   8,  100667940) /* Icon */
      , (27416,  22,  872415325) /* PhysicsEffectTable */
-     , (27416,  35,         31) /* DeathTreasureType */;
+     , (27416,  35,         31) /* DeathTreasureType - Loot Tier: 4 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (27416,   1, 250, 0, 0) /* Strength */
@@ -151,10 +151,10 @@ VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 1090519043 /* Ready */, NULL, NU
      , (@parent_id,  1,   5 /* Motion */, 0, 1, 1090519060 /* Sleeping */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (27416, 9,     0,  0, 0, 0.99, False) /* Create Unknown for ContainTreasure */
-     , (27416, 9,     0,  0, 0, 0.99, False) /* Create Unknown for ContainTreasure */
-     , (27416, 9,  6353,  0, 0, 0.01, False) /* Create Pyreal Mote for ContainTreasure */
-     , (27416, 9,  6876,  0, 0, 0.01, False) /* Create Sturdy Iron Key for ContainTreasure */;
+VALUES (27416, 9,     0,  0, 0, 0.99, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 4 for ContainTreasure */
+     , (27416, 9,     0,  0, 0, 0.99, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 4 for ContainTreasure */
+     , (27416, 9,  6353,  0, 0, 0.01, False) /* Create Pyreal Mote (6353) for ContainTreasure */
+     , (27416, 9,  6876,  0, 0, 0.01, False) /* Create Sturdy Iron Key (6876) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (27416, -1, 8405, 10, 6, 6, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0);
+VALUES (27416, -1, 8405, 10, 6, 6, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Flamma (8405) (x6 up to max of 6) - Regenerate upon Destruction - Location to (re)Generate: Scatter */;

@@ -15,7 +15,7 @@ VALUES (9208,   1,         16) /* ItemType - Creature */
      , (9208,  76,     100000) /* MerchandiseMaxValue */
      , (9208,  81,         75) /* MaxGeneratedObjects */
      , (9208,  82,         25) /* InitGeneratedObjects */
-     , (9208,  93,    2098200) /* PhysicsState */
+     , (9208,  93,    2098200) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */
      , (9208, 126,        250) /* VendorHappyMean */
      , (9208, 127,        250) /* VendorHappyVariance */
      , (9208, 133,          4) /* ShowableOnRadar - ShowAlways */
@@ -170,16 +170,16 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 268435539 /* Twitch3 */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (9208, 4,   166, -1, 21, 1, False) /* Create Sack for Shop */
-     , (9208, 4,   262, -1, 0, 0, False) /* Create Chicken for Shop */
-     , (9208, 4,   264, -1, 0, 0, False) /* Create Grapes for Shop */
-     , (9208, 4,   547, -1, 0, 0, False) /* Create Brimstone-cap Mushroom for Shop */
-     , (9208, 4,  4754, -1, 0, 0, False) /* Create Baking Pan for Shop */
-     , (9208, 4,  4757, -1, 0, 0, False) /* Create Carving Knife for Shop */
-     , (9208, 4,  4763, -1, 0, 0, False) /* Create Honey for Shop */
-     , (9208, 4,  5758, -1, 0, 0, False) /* Create Carrot for Shop */
-     , (9208, 4,  7823, -1, 0, 0, False) /* Create Heavy Grinder for Shop */;
+VALUES (9208, 4,   166, -1, 21, 1, False) /* Create Sack (166) for Shop */
+     , (9208, 4,   262, -1, 0, 0, False) /* Create Chicken (262) for Shop */
+     , (9208, 4,   264, -1, 0, 0, False) /* Create Grapes (264) for Shop */
+     , (9208, 4,   547, -1, 0, 0, False) /* Create Brimstone-cap Mushroom (547) for Shop */
+     , (9208, 4,  4754, -1, 0, 0, False) /* Create Baking Pan (4754) for Shop */
+     , (9208, 4,  4757, -1, 0, 0, False) /* Create Carving Knife (4757) for Shop */
+     , (9208, 4,  4763, -1, 0, 0, False) /* Create Honey (4763) for Shop */
+     , (9208, 4,  5758, -1, 0, 0, False) /* Create Carrot (5758) for Shop */
+     , (9208, 4,  7823, -1, 0, 0, False) /* Create Heavy Grinder (7823) for Shop */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (9208, -1, 4746, 60, 25, 75, 2, 32, 1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0)
-     , (9208, -1, 4761, 60, 25, 75, 2, 32, 1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0);
+VALUES (9208, -1, 4746, 60, 25, 75, 2, 32, 1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Water (4746) (x25 up to max of 75) - Regenerate upon PickUp - Location to (re)Generate: Shop */
+     , (9208, -1, 4761, 60, 25, 75, 2, 32, 1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Flour (4761) (x25 up to max of 75) - Regenerate upon PickUp - Location to (re)Generate: Shop */;

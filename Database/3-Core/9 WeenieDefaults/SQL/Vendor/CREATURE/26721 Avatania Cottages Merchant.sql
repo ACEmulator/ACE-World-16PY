@@ -10,10 +10,10 @@ VALUES (26721,   1,         16) /* ItemType - Creature */
      , (26721,  16,         32) /* ItemUseable - Remote */
      , (26721,  25,         10) /* Level */
      , (26721,  27,          0) /* ArmorType */
-     , (26721,  74,     264192) /* MerchandiseItemTypes */
+     , (26721,  74,     264192) /* MerchandiseItemTypes - Gem, PromissoryNote */
      , (26721,  75,          0) /* MerchandiseMinValue */
      , (26721,  76,    1000000) /* MerchandiseMaxValue */
-     , (26721,  93,    2098204) /* PhysicsState */
+     , (26721,  93,    2098204) /* PhysicsState - Ethereal, ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */
      , (26721, 126,        125) /* VendorHappyMean */
      , (26721, 127,        125) /* VendorHappyVariance */
      , (26721, 133,          4) /* ShowableOnRadar - ShowAlways */
@@ -97,4 +97,4 @@ VALUES (26721,  0,  4,  0,    0,    0,    0,    0,    0,    0,    0,    0,    0,
      , (26721,  8,  4,  2, 0.75,    0,    0,    0,    0,    0,    0,    0,    0,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (26721, 4, 26086, -1, 0, 0, False) /* Create Avatania Cottages Portal Gem for Shop */;
+VALUES (26721, 4, 26086, -1, 0, 0, False) /* Create Avatania Cottages Portal Gem (26086) for Shop */;

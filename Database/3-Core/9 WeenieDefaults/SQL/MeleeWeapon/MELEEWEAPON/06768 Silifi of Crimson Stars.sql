@@ -18,7 +18,7 @@ VALUES (6768,   1,          1) /* ItemType - MeleeWeapon */
      , (6768,  48,          1) /* WeaponSkill - Axe */
      , (6768,  49,         70) /* WeaponTime */
      , (6768,  51,          1) /* CombatUse - Melee */
-     , (6768,  93,       1044) /* PhysicsState */
+     , (6768,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (6768, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)

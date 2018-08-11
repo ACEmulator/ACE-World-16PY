@@ -8,7 +8,7 @@ VALUES (14453,   1,        128) /* ItemType - Misc */
      , (14453,  16,          1) /* ItemUseable - No */
      , (14453,  19,        200) /* Value */
      , (14453,  83,       4096) /* ActivationResponse - CastSpell */
-     , (14453,  93,         20) /* PhysicsState */
+     , (14453,  93,         20) /* PhysicsState - Ethereal, IgnoreCollisions */
      , (14453, 106,       1000) /* ItemSpellcraft */
      , (14453, 119,          1) /* Active */;
 

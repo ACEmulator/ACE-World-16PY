@@ -4,8 +4,8 @@ VALUES ('10840', 'portalsawatohousetest', 7) /* Portal */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (10840,   1,      65536) /* ItemType - Portal */
      , (10840,  16,         32) /* ItemUseable - Remote */
-     , (10840,  93,       3084) /* PhysicsState */
-     , (10840, 111,         17) /* PortalBitmask */
+     , (10840,  93,       3084) /* PhysicsState - Ethereal, ReportCollisions, Gravity, LightingOn */
+     , (10840, 111,         17) /* PortalBitmask - Unrestricted, NoSummon */
      , (10840, 133,          4) /* ShowableOnRadar - ShowAlways */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)

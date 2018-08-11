@@ -10,7 +10,7 @@ VALUES (4122,   1,         16) /* ItemType - Creature */
      , (4122,  16,         32) /* ItemUseable - Remote */
      , (4122,  25,         33) /* Level */
      , (4122,  27,          0) /* ArmorType */
-     , (4122,  93,    6292504) /* PhysicsState */
+     , (4122,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (4122,  95,          8) /* RadarBlipColor - Yellow */
      , (4122, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (4122, 134,         16) /* PlayerKillerStatus - RubberGlue */
@@ -197,7 +197,7 @@ VALUES (@parent_id,  0,   8 /* Say */, 0, 0, NULL, 'Lemme alone.  And keep my do
      , (@parent_id,  1,   5 /* Motion */, 0, 1, 318767225 /* ShakeFist */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (4122, 2,   118,  0, 2, 0.7, False) /* Create Cap for Wield */
-     , (4122, 2,  2587,  0, 4, 1, False) /* Create Shirt for Wield */
-     , (4122, 2,  2601,  0, 4, 1, False) /* Create Pants for Wield */
-     , (4122, 2,  2606,  0, 9, 0.8, False) /* Create Boots for Wield */;
+VALUES (4122, 2,   118,  0, 2, 0.7, False) /* Create Cap (118) for Wield */
+     , (4122, 2,  2587,  0, 4, 1, False) /* Create Shirt (2587) for Wield */
+     , (4122, 2,  2601,  0, 4, 1, False) /* Create Pants (2601) for Wield */
+     , (4122, 2,  2606,  0, 9, 0.8, False) /* Create Boots (2606) for Wield */;

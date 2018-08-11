@@ -10,10 +10,10 @@ VALUES (26955,   1,         16) /* ItemType - Creature */
      , (26955,  16,         32) /* ItemUseable - Remote */
      , (26955,  25,         10) /* Level */
      , (26955,  27,          0) /* ArmorType */
-     , (26955,  74,     264192) /* MerchandiseItemTypes */
+     , (26955,  74,     264192) /* MerchandiseItemTypes - Gem, PromissoryNote */
      , (26955,  75,          0) /* MerchandiseMinValue */
      , (26955,  76,    1000000) /* MerchandiseMaxValue */
-     , (26955,  93,    2098204) /* PhysicsState */
+     , (26955,  93,    2098204) /* PhysicsState - Ethereal, ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */
      , (26955, 126,        125) /* VendorHappyMean */
      , (26955, 127,        125) /* VendorHappyVariance */
      , (26955, 133,          4) /* ShowableOnRadar - ShowAlways */
@@ -97,4 +97,4 @@ VALUES (26955,  0,  4,  0,    0,    0,    0,    0,    0,    0,    0,    0,    0,
      , (26955,  8,  4,  2, 0.75,    0,    0,    0,    0,    0,    0,    0,    0,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (26955, 4, 26320, -1, 0, 0, False) /* Create Prosper River Headwaters Portal Gem for Shop */;
+VALUES (26955, 4, 26320, -1, 0, 0, False) /* Create Prosper River Headwaters Portal Gem (26320) for Shop */;

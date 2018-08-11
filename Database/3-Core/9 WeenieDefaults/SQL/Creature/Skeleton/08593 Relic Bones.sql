@@ -12,8 +12,8 @@ VALUES (8593,   1,         16) /* ItemType - Creature */
      , (8593,  40,          1) /* CombatMode - NonCombat */
      , (8593,  67,         64) /* Tolerance */
      , (8593,  68,         13) /* TargetingTactic */
-     , (8593,  93,       1032) /* PhysicsState */
-     , (8593, 101,        183) /* AiAllowedCombatStyle */
+     , (8593,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
+     , (8593, 101,        183) /* AiAllowedCombatStyle - Unarmed, OneHanded, OneHandedAndShield, Bow, Crossbow, ThrownWeapon */
      , (8593, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (8593, 140,          1) /* AiOptions */
      , (8593, 146,      14000) /* XpOverride */;
@@ -68,8 +68,12 @@ VALUES (8593,   1,   33555465) /* Setup */
      , (8593,   4,  805306368) /* CombatTable */
      , (8593,   8,  100669124) /* Icon */
      , (8593,  22,  872415269) /* PhysicsEffectTable */
-     , (8593,  32,        289) /* WieldedTreasureType */
-     , (8593,  35,        264) /* DeathTreasureType */;
+     , (8593,  32,        289) /* WieldedTreasureType - 
+                                   Wield Yumi (23736) | Probability: 50%
+                                   Wield 16x Greater Fire Arrow (5305) | Probability: 100%
+                                   Wield Kite Shield (23686) | Probability: 50%
+                                   Wield Fire Tachi (23708) | Probability: 50% */
+     , (8593,  35,        264) /* DeathTreasureType - Loot Tier: 5 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (8593,   1, 300, 0, 0) /* Strength */
@@ -128,5 +132,5 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 1124073753, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (8593, 9,     0,  0, 0, 0.9, False) /* Create Unknown for ContainTreasure */
-     , (8593, 9,  3687,  0, 0, 0.1, False) /* Create Skeleton's Skull for ContainTreasure */;
+VALUES (8593, 9,     0,  0, 0, 0.9, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 5 for ContainTreasure */
+     , (8593, 9,  3687,  0, 0, 0.1, False) /* Create Skeleton's Skull (3687) for ContainTreasure */;

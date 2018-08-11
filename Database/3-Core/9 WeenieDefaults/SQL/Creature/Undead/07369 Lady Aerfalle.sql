@@ -12,8 +12,8 @@ VALUES (7369,   1,         16) /* ItemType - Creature */
      , (7369,  27,          0) /* ArmorType */
      , (7369,  40,          1) /* CombatMode - NonCombat */
      , (7369,  68,          3) /* TargetingTactic */
-     , (7369,  93,       1032) /* PhysicsState */
-     , (7369, 101,        183) /* AiAllowedCombatStyle */
+     , (7369,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
+     , (7369, 101,        183) /* AiAllowedCombatStyle - Unarmed, OneHanded, OneHandedAndShield, Bow, Crossbow, ThrownWeapon */
      , (7369, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (7369, 140,          1) /* AiOptions */
      , (7369, 146,      50000) /* XpOverride */;
@@ -73,7 +73,7 @@ VALUES (7369,   1,   33554839) /* Setup */
      , (7369,   7,  268436018) /* ClothingBase */
      , (7369,   8,  100667942) /* Icon */
      , (7369,  22,  872415272) /* PhysicsEffectTable */
-     , (7369,  35,         25) /* DeathTreasureType */;
+     , (7369,  35,         25) /* DeathTreasureType - Loot Tier: 4 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (7369,   1, 220, 0, 0) /* Strength */
@@ -338,23 +338,23 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,  17 /* LocalBroadcast */, 0, 0, NULL, 'A coolly amused voice seeps across your mind, "Is that the extent of thy powers, child? I shall show thee true power!"', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (7369, 9,     0,  0, 0, 0, False) /* Create Unknown for ContainTreasure */
-     , (7369, 9,     0,  0, 0, 0, False) /* Create Unknown for ContainTreasure */
-     , (7369, 9,     0,  0, 0, 0, False) /* Create Unknown for ContainTreasure */
-     , (7369, 9,     0,  0, 0, 0, False) /* Create Unknown for ContainTreasure */
-     , (7369, 9,     0,  0, 0, 0, False) /* Create Unknown for ContainTreasure */
-     , (7369, 9,     0,  0, 0, 0, False) /* Create Unknown for ContainTreasure */
-     , (7369, 9,     0,  0, 0, 0, False) /* Create Unknown for ContainTreasure */
-     , (7369, 9,     0,  0, 0, 0, False) /* Create Unknown for ContainTreasure */
-     , (7369, 9,     0,  0, 0, 0, False) /* Create Unknown for ContainTreasure */
-     , (7369, 9,     0,  0, 0, 0, False) /* Create Unknown for ContainTreasure */
-     , (7369, 9,  7380,  0, 0, 1, False) /* Create Sheets of Paper for ContainTreasure */
-     , (7369, 9,  7409,  1, 0, 1, False) /* Create Ashen Key for ContainTreasure */
-     , (7369, 9,  7409,  1, 0, 1, False) /* Create Ashen Key for ContainTreasure */
-     , (7369, 9,  7409,  1, 0, 1, False) /* Create Ashen Key for ContainTreasure */
-     , (7369, 9,  7409,  1, 0, 1, False) /* Create Ashen Key for ContainTreasure */
-     , (7369, 9,  7409,  1, 0, 1, False) /* Create Ashen Key for ContainTreasure */
-     , (7369, 9,  7409,  1, 0, 1, False) /* Create Ashen Key for ContainTreasure */
-     , (7369, 9,  7409,  1, 0, 1, False) /* Create Ashen Key for ContainTreasure */
-     , (7369, 9,  7409,  1, 0, 1, False) /* Create Ashen Key for ContainTreasure */
-     , (7369, 9,  7409,  1, 0, 1, False) /* Create Ashen Key for ContainTreasure */;
+VALUES (7369, 9,     0,  0, 0, 0, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 4 for ContainTreasure */
+     , (7369, 9,     0,  0, 0, 0, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 4 for ContainTreasure */
+     , (7369, 9,     0,  0, 0, 0, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 4 for ContainTreasure */
+     , (7369, 9,     0,  0, 0, 0, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 4 for ContainTreasure */
+     , (7369, 9,     0,  0, 0, 0, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 4 for ContainTreasure */
+     , (7369, 9,     0,  0, 0, 0, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 4 for ContainTreasure */
+     , (7369, 9,     0,  0, 0, 0, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 4 for ContainTreasure */
+     , (7369, 9,     0,  0, 0, 0, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 4 for ContainTreasure */
+     , (7369, 9,     0,  0, 0, 0, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 4 for ContainTreasure */
+     , (7369, 9,     0,  0, 0, 0, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 4 for ContainTreasure */
+     , (7369, 9,  7380,  0, 0, 1, False) /* Create Sheets of Paper (7380) for ContainTreasure */
+     , (7369, 9,  7409,  1, 0, 1, False) /* Create Ashen Key (7409) for ContainTreasure */
+     , (7369, 9,  7409,  1, 0, 1, False) /* Create Ashen Key (7409) for ContainTreasure */
+     , (7369, 9,  7409,  1, 0, 1, False) /* Create Ashen Key (7409) for ContainTreasure */
+     , (7369, 9,  7409,  1, 0, 1, False) /* Create Ashen Key (7409) for ContainTreasure */
+     , (7369, 9,  7409,  1, 0, 1, False) /* Create Ashen Key (7409) for ContainTreasure */
+     , (7369, 9,  7409,  1, 0, 1, False) /* Create Ashen Key (7409) for ContainTreasure */
+     , (7369, 9,  7409,  1, 0, 1, False) /* Create Ashen Key (7409) for ContainTreasure */
+     , (7369, 9,  7409,  1, 0, 1, False) /* Create Ashen Key (7409) for ContainTreasure */
+     , (7369, 9,  7409,  1, 0, 1, False) /* Create Ashen Key (7409) for ContainTreasure */;

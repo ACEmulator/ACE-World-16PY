@@ -15,11 +15,11 @@ VALUES (25628,   1,          1) /* ItemType - MeleeWeapon */
      , (25628,  44,         25) /* Damage */
      , (25628,  45,         64) /* DamageType - Electric */
      , (25628,  46,          2) /* DefaultCombatStyle - OneHanded */
-     , (25628,  47,          6) /* AttackType */
+     , (25628,  47,          6) /* AttackType - Thrust, Slash */
      , (25628,  48,         10) /* WeaponSkill - Staff */
      , (25628,  49,         20) /* WeaponTime */
      , (25628,  51,          1) /* CombatUse - Melee */
-     , (25628,  93,       1044) /* PhysicsState */
+     , (25628,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (25628, 106,        300) /* ItemSpellcraft */
      , (25628, 107,        800) /* ItemCurMana */
      , (25628, 108,        800) /* ItemMaxMana */

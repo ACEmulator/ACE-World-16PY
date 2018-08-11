@@ -10,10 +10,10 @@ VALUES (26920,   1,         16) /* ItemType - Creature */
      , (26920,  16,         32) /* ItemUseable - Remote */
      , (26920,  25,         10) /* Level */
      , (26920,  27,          0) /* ArmorType */
-     , (26920,  74,     264192) /* MerchandiseItemTypes */
+     , (26920,  74,     264192) /* MerchandiseItemTypes - Gem, PromissoryNote */
      , (26920,  75,          0) /* MerchandiseMinValue */
      , (26920,  76,    1000000) /* MerchandiseMaxValue */
-     , (26920,  93,    2098204) /* PhysicsState */
+     , (26920,  93,    2098204) /* PhysicsState - Ethereal, ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */
      , (26920, 126,        125) /* VendorHappyMean */
      , (26920, 127,        125) /* VendorHappyVariance */
      , (26920, 133,          4) /* ShowableOnRadar - ShowAlways */
@@ -97,4 +97,4 @@ VALUES (26920,  0,  4,  0,    0,    0,    0,    0,    0,    0,    0,    0,    0,
      , (26920,  8,  4,  2, 0.75,    0,    0,    0,    0,    0,    0,    0,    0,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (26920, 4, 26285, -1, 0, 0, False) /* Create Neu Gerz Villas Portal Gem for Shop */;
+VALUES (26920, 4, 26285, -1, 0, 0, False) /* Create Neu Gerz Villas Portal Gem (26285) for Shop */;

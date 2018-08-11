@@ -11,7 +11,7 @@ VALUES (9395,   1,          2) /* ItemType - Armor */
      , (9395,  27,          2) /* ArmorType */
      , (9395,  28,        100) /* ArmorLevel */
      , (9395,  51,          4) /* CombatUse - Shield */
-     , (9395,  93,       1044) /* PhysicsState */
+     , (9395,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (9395, 106,        200) /* ItemSpellcraft */
      , (9395, 107,        200) /* ItemCurMana */
      , (9395, 108,        200) /* ItemMaxMana */

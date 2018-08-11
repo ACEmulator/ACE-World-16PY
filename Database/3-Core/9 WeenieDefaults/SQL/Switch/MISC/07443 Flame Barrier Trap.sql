@@ -8,7 +8,7 @@ VALUES (7443,   1,        128) /* ItemType - Misc */
      , (7443,  16,          1) /* ItemUseable - No */
      , (7443,  19,        200) /* Value */
      , (7443,  83,       4096) /* ActivationResponse - CastSpell */
-     , (7443,  93,         20) /* PhysicsState */
+     , (7443,  93,         20) /* PhysicsState - Ethereal, IgnoreCollisions */
      , (7443, 106,        100) /* ItemSpellcraft */
      , (7443, 119,          1) /* Active */
      , (7443, 134,          8) /* PlayerKillerStatus - Creature */;

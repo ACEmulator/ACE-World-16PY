@@ -12,8 +12,8 @@ VALUES (27428,   1,         16) /* ItemType - Creature */
      , (27428,  25,        125) /* Level */
      , (27428,  27,          0) /* ArmorType */
      , (27428,  68,          3) /* TargetingTactic */
-     , (27428,  93,    4195336) /* PhysicsState */
-     , (27428, 101,        183) /* AiAllowedCombatStyle */
+     , (27428,  93,    4195336) /* PhysicsState - ReportCollisions, Gravity, EdgeSlide */
+     , (27428, 101,        183) /* AiAllowedCombatStyle - Unarmed, OneHanded, OneHandedAndShield, Bow, Crossbow, ThrownWeapon */
      , (27428, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (27428, 140,          1) /* AiOptions */
      , (27428, 146,     100000) /* XpOverride */;
@@ -77,8 +77,14 @@ VALUES (27428,   1,   33554433) /* Setup */
      , (27428,   8,  100670397) /* Icon */
      , (27428,  22,  872415331) /* PhysicsEffectTable */
      , (27428,  31,      27559) /* LinkedPortalOne - Second Tower */
-     , (27428,  32,        426) /* WieldedTreasureType */
-     , (27428,  35,        464) /* DeathTreasureType */;
+     , (27428,  32,        426) /* WieldedTreasureType - 
+                                   Wield Tachi (23136) | Probability: 30%
+                                   Wield Kite Shield (23135) | Probability: 100%
+                                   Wield Yumi (23137) | Probability: 30%
+                                   Wield 20x Deadly Arrow (15429) | Probability: 100%
+                                   Wield Heavy Crossbow (23131) | Probability: 30%
+                                   Wield 50x Deadly Quarrel (15438) | Probability: 100% */
+     , (27428,  35,        464) /* DeathTreasureType - Loot Tier: 5 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (27428,   1, 290, 0, 0) /* Strength */
@@ -153,7 +159,7 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,  19 /* CastSpellInstant */, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 157 /* Summon Primary Portal I */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (27428, 9,     0,  0, 0, 0.96, False) /* Create Unknown for ContainTreasure */
-     , (27428, 9,     0,  0, 0, 0.96, False) /* Create Unknown for ContainTreasure */
-     , (27428, 9,  6058,  0, 0, 0.04, False) /* Create Dark Shard for ContainTreasure */
-     , (27428, 9,  6876,  0, 0, 0.04, False) /* Create Sturdy Iron Key for ContainTreasure */;
+VALUES (27428, 9,     0,  0, 0, 0.96, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 5 for ContainTreasure */
+     , (27428, 9,     0,  0, 0, 0.96, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 5 for ContainTreasure */
+     , (27428, 9,  6058,  0, 0, 0.04, False) /* Create Dark Shard (6058) for ContainTreasure */
+     , (27428, 9,  6876,  0, 0, 0.04, False) /* Create Sturdy Iron Key (6876) for ContainTreasure */;

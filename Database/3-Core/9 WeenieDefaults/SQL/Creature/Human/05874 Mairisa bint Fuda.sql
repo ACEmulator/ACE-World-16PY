@@ -10,7 +10,7 @@ VALUES (5874,   1,         16) /* ItemType - Creature */
      , (5874,  16,         32) /* ItemUseable - Remote */
      , (5874,  25,         22) /* Level */
      , (5874,  27,          0) /* ArmorType */
-     , (5874,  93,    6292504) /* PhysicsState */
+     , (5874,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (5874,  95,          8) /* RadarBlipColor - Yellow */
      , (5874, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (5874, 134,         16) /* PlayerKillerStatus - RubberGlue */
@@ -143,6 +143,6 @@ VALUES (@parent_id,  0,  10 /* Tell */, 1, 1, NULL, 'I came here to be free of t
      , (@parent_id,  1,  10 /* Tell */, 1, 1, NULL, 'If you are another seeking the lost City of Frore, be warned - you will need a substantial party to survive. Should you die, you will be unable to reenter the caves to recover your equipment. Be certain you are prepared.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (5874, 2,  2590,  0, 4, 0.5, False) /* Create Shirt for Wield */
-     , (5874, 2,  2600,  0, 1, 1, False) /* Create Pantaloons for Wield */
-     , (5874, 2,  2606,  0, 9, 0.1, False) /* Create Boots for Wield */;
+VALUES (5874, 2,  2590,  0, 4, 0.5, False) /* Create Shirt (2590) for Wield */
+     , (5874, 2,  2600,  0, 1, 1, False) /* Create Pantaloons (2600) for Wield */
+     , (5874, 2,  2606,  0, 9, 0.1, False) /* Create Boots (2606) for Wield */;

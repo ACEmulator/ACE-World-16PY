@@ -13,7 +13,7 @@ VALUES (1651,   1,       4096) /* ItemType - SpellComponents */
      , (1651,  15,         25) /* StackUnitValue */
      , (1651,  16,          1) /* ItemUseable - No */
      , (1651,  19,         25) /* Value */
-     , (1651,  93,       1044) /* PhysicsState */;
+     , (1651,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (1651,   1, 'Violet Taper') /* Name */;

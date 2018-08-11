@@ -19,7 +19,7 @@ VALUES (5316,   1,        256) /* ItemType - MissileWeapon */
      , (5316,  45,         64) /* DamageType - Electric */
      , (5316,  50,          2) /* AmmoType - Bolt */
      , (5316,  51,          3) /* CombatUse - Ammo */
-     , (5316,  93,     132116) /* PhysicsState */
+     , (5316,  93,     132116) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, Inelastic */
      , (5316, 150,        103) /* HookPlacement - Hook */
      , (5316, 151,          2) /* HookType - Wall */;
 

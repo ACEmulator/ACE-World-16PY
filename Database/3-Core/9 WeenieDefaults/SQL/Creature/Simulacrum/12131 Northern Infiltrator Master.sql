@@ -11,8 +11,8 @@ VALUES (12131,   1,         16) /* ItemType - Creature */
      , (12131,  25,         70) /* Level */
      , (12131,  27,          0) /* ArmorType */
      , (12131,  68,         13) /* TargetingTactic */
-     , (12131,  93,       1032) /* PhysicsState */
-     , (12131, 101,        183) /* AiAllowedCombatStyle */
+     , (12131,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
+     , (12131, 101,        183) /* AiAllowedCombatStyle - Unarmed, OneHanded, OneHandedAndShield, Bow, Crossbow, ThrownWeapon */
      , (12131, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (12131, 140,          1) /* AiOptions */
      , (12131, 146,      19150) /* XpOverride */;
@@ -69,8 +69,34 @@ VALUES (12131,   1,   33554433) /* Setup */
      , (12131,   4,  805306368) /* CombatTable */
      , (12131,   8,  100667446) /* Icon */
      , (12131,  22,  872415381) /* PhysicsEffectTable */
-     , (12131,  32,        372) /* WieldedTreasureType */
-     , (12131,  35,        391) /* DeathTreasureType */;
+     , (12131,  32,        372) /* WieldedTreasureType - 
+                                   Wield 5x Javelin (320) | Probability: 10%
+                                   Wield 5x Djarid (317) | Probability: 10%
+                                   Wield 4x Throwing Club (310) | Probability: 5%
+                                   Wield 6x Throwing Axe (304) | Probability: 5%
+                                   Wield Shortbow (307) | Probability: 3%
+                                   Wield 25x Arrow (300) | Probability: 100%
+                                   Wield Shouyumi (341) | Probability: 3%
+                                   Wield 20x Arrow (300) | Probability: 100%
+                                   Wield Light Crossbow (312) | Probability: 11%
+                                   Wield 15x Quarrel (305) | Probability: 100%
+                                   Wield Balister of the Quiddity (11892) | Probability: 26%
+                                   Wield 20x Quarrel (305) | Probability: 100%
+                                   Wield Longbow (306) | Probability: 6%
+                                   Wield 22x Arrow (300) | Probability: 100%
+                                   Wield Yumi (363) | Probability: 4%
+                                   Wield 20x Arrow (300) | Probability: 100%
+                                   Wield Heavy Crossbow (311) | Probability: 14%
+                                   Wield 15x Quarrel (305) | Probability: 100%
+                                   Wield Blade of the Quiddity (11916) | Probability: 25%
+                                   Wield Lance of the Quiddity (11913) | Probability: 25%
+                                   Wield Mace of the Quiddity (11907) | Probability: 25%
+                                   Wield Kaskara (324) | Probability: 3%
+                                   Wield Long Sword (351) | Probability: 3%
+                                   Wield Silifi (344) | Probability: 5%
+                                   Wield Tachi (353) | Probability: 5%
+                                   Wield War Hammer (359) | Probability: 5% */
+     , (12131,  35,        391) /* DeathTreasureType - Loot Tier: 5 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (12131,   1, 210, 0, 0) /* Strength */
@@ -175,8 +201,8 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,  10 /* Tell */, 0, 1, NULL, 'Do you think me to be as weak in magic as your own race?  Your magic is still too feeble to hurt me.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (12131, 2,   132,  0, 9, 0, False) /* Create Shoes for Wield */
-     , (12131, 2,  6046,  0, 2, 0.6, False) /* Create Amuli Coat for Wield */
-     , (12131, 2,  6047,  0, 2, 0.6, False) /* Create Amuli Leggings for Wield */
-     , (12131, 1, 12143,  0, 0, 0, False) /* Create Northern Infiltrator Message Shard for Contain */
-     , (12131, 1, 12155,  0, 0, 0, False) /* Create Shield of the Simulacra for Contain */;
+VALUES (12131, 2,   132,  0, 9, 0, False) /* Create Shoes (132) for Wield */
+     , (12131, 2,  6046,  0, 2, 0.6, False) /* Create Amuli Coat (6046) for Wield */
+     , (12131, 2,  6047,  0, 2, 0.6, False) /* Create Amuli Leggings (6047) for Wield */
+     , (12131, 1, 12143,  0, 0, 0, False) /* Create Northern Infiltrator Message Shard (12143) for Contain */
+     , (12131, 1, 12155,  0, 0, 0, False) /* Create Shield of the Simulacra (12155) for Contain */;

@@ -15,8 +15,8 @@ VALUES (8052,   1,         16) /* ItemType - Creature */
      , (8052,  72,         22) /* FriendType - Shadow */
      , (8052,  81,          6) /* MaxGeneratedObjects */
      , (8052,  82,          6) /* InitGeneratedObjects */
-     , (8052,  93,       1032) /* PhysicsState */
-     , (8052, 101,        131) /* AiAllowedCombatStyle */
+     , (8052,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
+     , (8052, 101,        131) /* AiAllowedCombatStyle - Unarmed, OneHanded, ThrownWeapon */
      , (8052, 103,          3) /* GeneratorDestructionType - Kill */
      , (8052, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (8052, 140,          1) /* AiOptions */
@@ -79,7 +79,7 @@ VALUES (8052,   1,   33556698) /* Setup */
      , (8052,   8,  100670960) /* Icon */
      , (8052,  22,  872415364) /* PhysicsEffectTable */
      , (8052,  30,         86) /* PhysicsScript - BreatheAcid */
-     , (8052,  35,        314) /* DeathTreasureType */;
+     , (8052,  35,        314) /* DeathTreasureType - Loot Tier: 3 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (8052,   1, 150, 0, 0) /* Strength */
@@ -174,6 +174,6 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 268435537 /* Twitch1 */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (8052, -1, 8054, 20, 2, 2, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0)
-     , (8052, -1, 8055, 20, 2, 2, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0)
-     , (8052, -1, 8053, 20, 2, 2, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0);
+VALUES (8052, -1, 8054, 20, 2, 2, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Shadow Sprite (8054) (x2 up to max of 2) - Regenerate upon Destruction - Location to (re)Generate: Scatter */
+     , (8052, -1, 8055, 20, 2, 2, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Shadow Child (8055) (x2 up to max of 2) - Regenerate upon Destruction - Location to (re)Generate: Scatter */
+     , (8052, -1, 8053, 20, 2, 2, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Shadow (8053) (x2 up to max of 2) - Regenerate upon Destruction - Location to (re)Generate: Scatter */;

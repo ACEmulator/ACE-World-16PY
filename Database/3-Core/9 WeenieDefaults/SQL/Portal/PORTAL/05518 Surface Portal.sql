@@ -4,7 +4,7 @@ VALUES ('5518', 'portalforbiddencryptsexit', 7) /* Portal */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (5518,   1,      65536) /* ItemType - Portal */
      , (5518,  16,         32) /* ItemUseable - Remote */
-     , (5518,  93,       3084) /* PhysicsState */
+     , (5518,  93,       3084) /* PhysicsState - Ethereal, ReportCollisions, Gravity, LightingOn */
      , (5518, 111,          1) /* PortalBitmask - Unrestricted */
      , (5518, 133,          4) /* ShowableOnRadar - ShowAlways */;
 

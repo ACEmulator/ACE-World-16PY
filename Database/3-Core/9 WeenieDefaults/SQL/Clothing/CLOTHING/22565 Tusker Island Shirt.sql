@@ -4,15 +4,15 @@ VALUES ('22565', 'shirttuskeremporium', 2) /* Clothing */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (22565,   1,          4) /* ItemType - Clothing */
      , (22565,   3,          8) /* PaletteTemplate - Green */
-     , (22565,   4,         40) /* ClothingPriority */
+     , (22565,   4,         40) /* ClothingPriority - UnderwearChest, UnderwearUpperArms */
      , (22565,   5,         57) /* EncumbranceVal */
      , (22565,   8,         38) /* Mass */
-     , (22565,   9,         10) /* ValidLocations */
+     , (22565,   9,         10) /* ValidLocations - ChestWear, UpperArmWear */
      , (22565,  16,          1) /* ItemUseable - No */
      , (22565,  19,       9000) /* Value */
      , (22565,  27,          1) /* ArmorType */
      , (22565,  28,          0) /* ArmorLevel */
-     , (22565,  93,       1044) /* PhysicsState */;
+     , (22565,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (22565,  22, True ) /* Inscribable */;

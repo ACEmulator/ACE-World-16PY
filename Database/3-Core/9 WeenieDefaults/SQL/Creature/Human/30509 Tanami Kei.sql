@@ -11,7 +11,7 @@ VALUES (30509,   1,         16) /* ItemType - Creature */
      , (30509,  16,         32) /* ItemUseable - Remote */
      , (30509,  25,         97) /* Level */
      , (30509,  27,          0) /* ArmorType */
-     , (30509,  93,    6292504) /* PhysicsState */
+     , (30509,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (30509,  95,          8) /* RadarBlipColor - Yellow */
      , (30509, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (30509, 134,         16) /* PlayerKillerStatus - RubberGlue */
@@ -156,6 +156,6 @@ VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 1090519043 /* Ready */, NULL, NU
      , (@parent_id,  5,  10 /* Tell */, 1, 1, NULL, 'Berkholt, in the bar, sells directions to this miscreant''s dwelling. Please, friend, help me restore my reputation!', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (30509, 2,   115,  0, 13, 0, False) /* Create Leather Boots for Wield */
-     , (30509, 2,  2587,  0, 2, 0.6, False) /* Create Shirt for Wield */
-     , (30509, 2,  2601,  0, 2, 0, False) /* Create Pants for Wield */;
+VALUES (30509, 2,   115,  0, 13, 0, False) /* Create Leather Boots (115) for Wield */
+     , (30509, 2,  2587,  0, 2, 0.6, False) /* Create Shirt (2587) for Wield */
+     , (30509, 2,  2601,  0, 2, 0, False) /* Create Pants (2601) for Wield */;

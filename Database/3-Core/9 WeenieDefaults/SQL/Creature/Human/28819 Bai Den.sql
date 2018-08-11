@@ -10,7 +10,7 @@ VALUES (28819,   1,         16) /* ItemType - Creature */
      , (28819,  16,         32) /* ItemUseable - Remote */
      , (28819,  25,          6) /* Level */
      , (28819,  27,          0) /* ArmorType */
-     , (28819,  93,    6292504) /* PhysicsState */
+     , (28819,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (28819,  95,          8) /* RadarBlipColor - Yellow */
      , (28819, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (28819, 134,         16) /* PlayerKillerStatus - RubberGlue */
@@ -165,6 +165,6 @@ VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 1090519043 /* Ready */, NULL, NU
      , (@parent_id,  4,  10 /* Tell */, 1, 1, NULL, 'Off to the east, over the river, is a ruin where I used to live before I was offered this place to stay.  Could you retrieve my old treasure, a flawed gem that is precious to none but myself?', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (28819, 2,    81,  0, 5, 1, False) /* Create Leather Leggings for Wield */
-     , (28819, 2,   134,  0, 9, 0, False) /* Create Tunic for Wield */
-     , (28819, 2,  2606,  0, 9, 0, False) /* Create Boots for Wield */;
+VALUES (28819, 2,    81,  0, 5, 1, False) /* Create Leather Leggings (81) for Wield */
+     , (28819, 2,   134,  0, 9, 0, False) /* Create Tunic (134) for Wield */
+     , (28819, 2,  2606,  0, 9, 0, False) /* Create Boots (2606) for Wield */;

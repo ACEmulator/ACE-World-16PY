@@ -7,7 +7,7 @@ VALUES (26553,   1,        128) /* ItemType - Misc */
      , (26553,  16,          1) /* ItemUseable - No */
      , (26553,  19,          0) /* Value */
      , (26553,  83,          2) /* ActivationResponse - Use */
-     , (26553,  93,         24) /* PhysicsState */;
+     , (26553,  93,         24) /* PhysicsState - ReportCollisions, IgnoreCollisions */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (26553,   1, True ) /* Stuck */

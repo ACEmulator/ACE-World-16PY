@@ -14,8 +14,8 @@ VALUES (6620,   1,       2048) /* ItemType - Gem */
      , (6620,  15,          0) /* StackUnitValue */
      , (6620,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
      , (6620,  19,          0) /* Value */
-     , (6620,  93,       1044) /* PhysicsState */
-     , (6620,  94,       2048) /* TargetType - Gem */
+     , (6620,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (6620,  94,       2048) /* TargetType - 2048 */
      , (6620, 150,        103) /* HookPlacement - Hook */
      , (6620, 151,          2) /* HookType - Wall */;
 

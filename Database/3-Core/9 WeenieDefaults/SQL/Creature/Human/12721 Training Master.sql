@@ -10,7 +10,7 @@ VALUES (12721,   1,         16) /* ItemType - Creature */
      , (12721,  16,         32) /* ItemUseable - Remote */
      , (12721,  25,         45) /* Level */
      , (12721,  27,          0) /* ArmorType */
-     , (12721,  93,    6292504) /* PhysicsState */
+     , (12721,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (12721,  95,          8) /* RadarBlipColor - Yellow */
      , (12721, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (12721, 134,         16) /* PlayerKillerStatus - RubberGlue */
@@ -132,5 +132,5 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,  10 /* Tell */, 1, 1, NULL, 'As you proceed through the Practice Area, warriors should read the signs on the left. Spellcasters should read the signs on the right. There are three chests filled with goodies hidden in this room--see if you can find them all!', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (12721, 2,   118,  0, 14, 1, False) /* Create Cap for Wield */
-     , (12721, 2, 10870,  0, 17, 0.7, False) /* Create Canescent Mattekar Robe for Wield */;
+VALUES (12721, 2,   118,  0, 14, 1, False) /* Create Cap (118) for Wield */
+     , (12721, 2, 10870,  0, 17, 0.7, False) /* Create Canescent Mattekar Robe (10870) for Wield */;

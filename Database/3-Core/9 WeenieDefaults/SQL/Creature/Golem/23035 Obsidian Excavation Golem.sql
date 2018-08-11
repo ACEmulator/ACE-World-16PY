@@ -11,7 +11,7 @@ VALUES (23035,   1,         16) /* ItemType - Creature */
      , (23035,  27,          0) /* ArmorType */
      , (23035,  40,          2) /* CombatMode - Melee */
      , (23035,  68,          3) /* TargetingTactic */
-     , (23035,  93,    4195336) /* PhysicsState */
+     , (23035,  93,    4195336) /* PhysicsState - ReportCollisions, Gravity, EdgeSlide */
      , (23035, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (23035, 146,      11131) /* XpOverride */;
 
@@ -68,7 +68,7 @@ VALUES (23035,   1,   33556440) /* Setup */
      , (23035,   4,  805306376) /* CombatTable */
      , (23035,   8,  100667940) /* Icon */
      , (23035,  22,  872415327) /* PhysicsEffectTable */
-     , (23035,  35,        463) /* DeathTreasureType */;
+     , (23035,  35,        463) /* DeathTreasureType - Loot Tier: 2 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (23035,   1, 200, 0, 0) /* Strength */
@@ -150,11 +150,11 @@ VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 1090519043 /* Ready */, NULL, NU
      , (@parent_id,  1,   5 /* Motion */, 0, 1, 1090519060 /* Sleeping */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (23035, 9,     0,  0, 0, 0.97, False) /* Create Unknown for ContainTreasure */
-     , (23035, 9,     0,  0, 0, 0.97, False) /* Create Unknown for ContainTreasure */
-     , (23035, 9,     0,  0, 0, 0.9, False) /* Create Unknown for ContainTreasure */
-     , (23035, 9,     0,  0, 0, 0.97, False) /* Create Unknown for ContainTreasure */
-     , (23035, 9,  3692,  0, 0, 0.03, False) /* Create Black Stone for ContainTreasure */
-     , (23035, 9,  6353,  0, 0, 0.03, False) /* Create Pyreal Mote for ContainTreasure */
-     , (23035, 9,  9324,  0, 0, 0.1, False) /* Create Obsidian Heart for ContainTreasure */
-     , (23035, 9, 23038,  0, 0, 0.4, False) /* Create Valara Crystal for ContainTreasure */;
+VALUES (23035, 9,     0,  0, 0, 0.97, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 2 for ContainTreasure */
+     , (23035, 9,     0,  0, 0, 0.97, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 2 for ContainTreasure */
+     , (23035, 9,     0,  0, 0, 0.9, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 2 for ContainTreasure */
+     , (23035, 9,     0,  0, 0, 0.97, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 2 for ContainTreasure */
+     , (23035, 9,  3692,  0, 0, 0.03, False) /* Create Black Stone (3692) for ContainTreasure */
+     , (23035, 9,  6353,  0, 0, 0.03, False) /* Create Pyreal Mote (6353) for ContainTreasure */
+     , (23035, 9,  9324,  0, 0, 0.1, False) /* Create Obsidian Heart (9324) for ContainTreasure */
+     , (23035, 9, 23038,  0, 0, 0.4, False) /* Create Valara Crystal (23038) for ContainTreasure */;

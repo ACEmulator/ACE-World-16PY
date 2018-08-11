@@ -4,8 +4,8 @@ VALUES ('10848', 'portalbutchernamequestexit-xp', 7) /* Portal */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (10848,   1,      65536) /* ItemType - Portal */
      , (10848,  16,         32) /* ItemUseable - Remote */
-     , (10848,  93,       3084) /* PhysicsState */
-     , (10848, 111,         49) /* PortalBitmask */
+     , (10848,  93,       3084) /* PhysicsState - Ethereal, ReportCollisions, Gravity, LightingOn */
+     , (10848, 111,         49) /* PortalBitmask - Unrestricted, NoSummon, NoRecall */
      , (10848, 133,          4) /* ShowableOnRadar - ShowAlways */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)

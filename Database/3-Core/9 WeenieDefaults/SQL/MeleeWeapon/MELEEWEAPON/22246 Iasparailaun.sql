@@ -14,11 +14,11 @@ VALUES (22246,   1,          1) /* ItemType - MeleeWeapon */
      , (22246,  44,         50) /* Damage */
      , (22246,  45,         16) /* DamageType - Fire */
      , (22246,  46,          2) /* DefaultCombatStyle - OneHanded */
-     , (22246,  47,         66) /* AttackType */
+     , (22246,  47,         66) /* AttackType - Thrust, TripleSlash */
      , (22246,  48,         11) /* WeaponSkill - Sword */
      , (22246,  49,         30) /* WeaponTime */
      , (22246,  51,          1) /* CombatUse - Melee */
-     , (22246,  93,       1044) /* PhysicsState */
+     , (22246,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (22246, 114,          0) /* Attuned - Normal */
      , (22246, 150,        103) /* HookPlacement - Hook */
      , (22246, 151,          2) /* HookType - Wall */

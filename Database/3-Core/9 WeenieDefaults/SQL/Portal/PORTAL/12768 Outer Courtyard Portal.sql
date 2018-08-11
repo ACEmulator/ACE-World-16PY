@@ -4,7 +4,7 @@ VALUES ('12768', 'portalareabshoushiw', 7) /* Portal */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (12768,   1,      65536) /* ItemType - Portal */
      , (12768,  16,         32) /* ItemUseable - Remote */
-     , (12768,  93,       3084) /* PhysicsState */
+     , (12768,  93,       3084) /* PhysicsState - Ethereal, ReportCollisions, Gravity, LightingOn */
      , (12768, 111,          1) /* PortalBitmask - Unrestricted */
      , (12768, 133,          4) /* ShowableOnRadar - ShowAlways */;
 

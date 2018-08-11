@@ -14,7 +14,7 @@ VALUES (14542,   1,        512) /* ItemType - Container */
      , (14542,  81,          1) /* MaxGeneratedObjects */
      , (14542,  82,          1) /* InitGeneratedObjects */
      , (14542,  83,          2) /* ActivationResponse - Use */
-     , (14542,  93,       1048) /* PhysicsState */
+     , (14542,  93,       1048) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity */
      , (14542,  96,        500) /* EncumbranceCapacity */
      , (14542, 100,          1) /* GeneratorType - Relative */;
 
@@ -48,4 +48,4 @@ VALUES (14542,   1,   33554556) /* Setup */
      , (14542,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (14542, -1, 14504, 30, 1, 1, 2, 8, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0);
+VALUES (14542, -1, 14504, 30, 1, 1, 2, 8, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Ebuillant Bracelet (14504) (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: Contain */;

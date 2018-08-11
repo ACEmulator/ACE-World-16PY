@@ -10,10 +10,10 @@ VALUES (26695,   1,         16) /* ItemType - Creature */
      , (26695,  16,         32) /* ItemUseable - Remote */
      , (26695,  25,         10) /* Level */
      , (26695,  27,          0) /* ArmorType */
-     , (26695,  74,     264192) /* MerchandiseItemTypes */
+     , (26695,  74,     264192) /* MerchandiseItemTypes - Gem, PromissoryNote */
      , (26695,  75,          0) /* MerchandiseMinValue */
      , (26695,  76,    1000000) /* MerchandiseMaxValue */
-     , (26695,  93,    2098204) /* PhysicsState */
+     , (26695,  93,    2098204) /* PhysicsState - Ethereal, ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */
      , (26695, 126,        125) /* VendorHappyMean */
      , (26695, 127,        125) /* VendorHappyVariance */
      , (26695, 133,          4) /* ShowableOnRadar - ShowAlways */
@@ -97,4 +97,4 @@ VALUES (26695,  0,  4,  0,    0,    0,    0,    0,    0,    0,    0,    0,    0,
      , (26695,  8,  4,  2, 0.75,    0,    0,    0,    0,    0,    0,    0,    0,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (26695, 4, 26060, -1, 0, 0, False) /* Create Adept's Domain Portal Gem for Shop */;
+VALUES (26695, 4, 26060, -1, 0, 0, False) /* Create Adept's Domain Portal Gem (26060) for Shop */;

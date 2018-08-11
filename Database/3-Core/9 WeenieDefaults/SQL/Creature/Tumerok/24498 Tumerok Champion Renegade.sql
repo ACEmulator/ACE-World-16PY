@@ -12,8 +12,8 @@ VALUES (24498,   1,         16) /* ItemType - Creature */
      , (24498,  27,          0) /* ArmorType */
      , (24498,  68,          5) /* TargetingTactic */
      , (24498,  72,         70) /* FriendType - GotrokLugian */
-     , (24498,  93,       1032) /* PhysicsState */
-     , (24498, 101,        183) /* AiAllowedCombatStyle */
+     , (24498,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
+     , (24498, 101,        183) /* AiAllowedCombatStyle - Unarmed, OneHanded, OneHandedAndShield, Bow, Crossbow, ThrownWeapon */
      , (24498, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (24498, 140,          1) /* AiOptions */
      , (24498, 146,      47240) /* XpOverride */;
@@ -72,8 +72,33 @@ VALUES (24498,   1,   33554496) /* Setup */
      , (24498,   7,  268436631) /* ClothingBase */
      , (24498,   8,  100667452) /* Icon */
      , (24498,  22,  872415270) /* PhysicsEffectTable */
-     , (24498,  32,        199) /* WieldedTreasureType */
-     , (24498,  35,        448) /* DeathTreasureType */;
+     , (24498,  32,        199) /* WieldedTreasureType - 
+                                   Wield Yumi (23733) | Probability: 6%
+                                   Wield 20x Deadly Armor Piercing Arrow (15431) | Probability: 100%
+                                   Wield Yumi (23733) | Probability: 6%
+                                   Wield 17x Deadly Arrow (15429) | Probability: 100%
+                                   Wield Heavy Crossbow (23664) | Probability: 6%
+                                   Wield 20x Deadly Quarrel (15438) | Probability: 100%
+                                   Wield Heavy Crossbow (23664) | Probability: 6%
+                                   Wield 16x Deadly Armor Piercing Quarrel (15440) | Probability: 100%
+                                   Wield Yumi (23733) | Probability: 6%
+                                   Wield 20x Deadly Broadhead Arrow (15433) | Probability: 100%
+                                   Wield Yumi (23733) | Probability: 6%
+                                   Wield 17x Deadly Blunt Arrow (15432) | Probability: 100%
+                                   Wield Heavy Crossbow (23664) | Probability: 6%
+                                   Wield 20x Deadly Broadhead Quarrel (15442) | Probability: 100%
+                                   Wield Heavy Crossbow (23664) | Probability: 6%
+                                   Wield 16x Deadly Blunt Quarrel (15441) | Probability: 100%
+                                   Wield Katar (23673) | Probability: 12%
+                                   Wield Cestus (23636) | Probability: 12%
+                                   Wield Nekode (23679) | Probability: 12%
+                                   Wield Tachi (23699) | Probability: 12%
+                                   Wield Spear (23695) | Probability: 12%
+                                   Wield Fire Yaoji (23717) | Probability: 12%
+                                   Wield Yaoji (23709) | Probability: 12%
+                                   Wield Fire Tachi (23706) | Probability: 12%
+                                   Wield Kite Shield (23683) | Probability: 75% */
+     , (24498,  35,        448) /* DeathTreasureType - Loot Tier: 4 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (24498,   1, 280, 0, 0) /* Strength */
@@ -153,6 +178,6 @@ VALUES (24498,  94) /* ATTACK_NOTIFICATION_EVENT */
      , (24498, 414) /* PLAYER_DEATH_EVENT */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (24498, 9,     0,  0, 0, 0.95, False) /* Create Unknown for ContainTreasure */
-     , (24498, 10,    91,  0, 0, 1, False) /* Create Kite Shield for WieldTreasure */
-     , (24498, 9,  6876,  0, 0, 0.05, False) /* Create Sturdy Iron Key for ContainTreasure */;
+VALUES (24498, 9,     0,  0, 0, 0.95, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 4 for ContainTreasure */
+     , (24498, 10,    91,  0, 0, 1, False) /* Create Kite Shield (91) for WieldTreasure */
+     , (24498, 9,  6876,  0, 0, 0.05, False) /* Create Sturdy Iron Key (6876) for ContainTreasure */;

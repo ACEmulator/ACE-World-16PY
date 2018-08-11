@@ -8,7 +8,7 @@ VALUES (164,   1,        128) /* ItemType - Misc */
      , (164,   9,          0) /* ValidLocations - None */
      , (164,  16,          1) /* ItemUseable - No */
      , (164,  19,         65) /* Value */
-     , (164,  93,       1044) /* PhysicsState */
+     , (164,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (164, 150,        103) /* HookPlacement - Hook */
      , (164, 151,          1) /* HookType - Floor */;
 

@@ -14,7 +14,7 @@ VALUES (11474,   1,    8388608) /* ItemType - CraftAlchemyBase */
      , (11474,  15,         10) /* StackUnitValue */
      , (11474,  16,          1) /* ItemUseable - No */
      , (11474,  19,         10) /* Value */
-     , (11474,  93,       1044) /* PhysicsState */;
+     , (11474,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (11474,  69, False) /* IsSellable */;

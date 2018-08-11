@@ -11,8 +11,8 @@ VALUES (6019,   1,         16) /* ItemType - Creature */
      , (6019,  25,         16) /* Level */
      , (6019,  27,          0) /* ArmorType */
      , (6019,  68,          5) /* TargetingTactic */
-     , (6019,  93,    4195336) /* PhysicsState */
-     , (6019, 101,        183) /* AiAllowedCombatStyle */
+     , (6019,  93,    4195336) /* PhysicsState - ReportCollisions, Gravity, EdgeSlide */
+     , (6019, 101,        183) /* AiAllowedCombatStyle - Unarmed, OneHanded, OneHandedAndShield, Bow, Crossbow, ThrownWeapon */
      , (6019, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (6019, 140,          1) /* AiOptions */
      , (6019, 146,        893) /* XpOverride */;
@@ -69,8 +69,46 @@ VALUES (6019,   1,   33554496) /* Setup */
      , (6019,   7,  268436629) /* ClothingBase */
      , (6019,   8,  100667452) /* Icon */
      , (6019,  22,  872415270) /* PhysicsEffectTable */
-     , (6019,  32,        224) /* WieldedTreasureType */
-     , (6019,  35,        453) /* DeathTreasureType */;
+     , (6019,  32,        224) /* WieldedTreasureType - 
+                                   Wield 10x Throwing Dart (316) | Probability: 5%
+                                   Wield 10x Shouken (343) | Probability: 5%
+                                   Wield 10x Throwing Dagger (315) | Probability: 8%
+                                   Wield 5x Javelin (320) | Probability: 8%
+                                   Wield 4x Djarid (317) | Probability: 8%
+                                   Wield 4x Throwing Club (310) | Probability: 8%
+                                   Wield 6x Throwing Axe (304) | Probability: 8%
+                                   Wield Yag (360) | Probability: 8%
+                                   Wield 20x Arrow (300) | Probability: 100%
+                                   Wield Shortbow (307) | Probability: 9%
+                                   Wield 17x Arrow (300) | Probability: 100%
+                                   Wield Shouyumi (341) | Probability: 8%
+                                   Wield 20x Arrow (300) | Probability: 100%
+                                   Wield Light Crossbow (312) | Probability: 20%
+                                   Wield 16x Quarrel (305) | Probability: 100%
+                                   Wield Budiaq (308) | Probability: 5%
+                                   Wield Club (309) | Probability: 5%
+                                   Wield Dabus (313) | Probability: 5%
+                                   Wield Dagger (314) | Probability: 5%
+                                   Wield Hand Axe (303) | Probability: 5%
+                                   Wield Jambiya (319) | Probability: 2%
+                                   Wield Jitte (321) | Probability: 5%
+                                   Wield Kasrullah (325) | Probability: 5%
+                                   Wield Katar (326) | Probability: 5%
+                                   Wield Khanjar (328) | Probability: 5%
+                                   Wield Knife (329) | Probability: 3%
+                                   Wield Mace (331) | Probability: 5%
+                                   Wield Short Sword (352) | Probability: 5%
+                                   Wield Shou-ono (342) | Probability: 5%
+                                   Wield Simi (345) | Probability: 5%
+                                   Wield Spear (348) | Probability: 5%
+                                   Wield Tofun (356) | Probability: 5%
+                                   Wield Tungi (357) | Probability: 5%
+                                   Wield Yaoji (361) | Probability: 5%
+                                   Wield Yari (362) | Probability: 5%
+                                   Wield Buckler (44) | Probability: 20%
+                                   Wield Kite Shield (91) | Probability: 10%
+                                   Wield Round Shield (93) | Probability: 10% */
+     , (6019,  35,        453) /* DeathTreasureType - Loot Tier: 1 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (6019,   1,  60, 0, 0) /* Strength */
@@ -116,5 +154,5 @@ VALUES (6019,  94) /* ATTACK_NOTIFICATION_EVENT */
      , (6019, 414) /* PLAYER_DEATH_EVENT */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (6019, 9,     0,  0, 0, 0.97, False) /* Create Unknown for ContainTreasure */
-     , (6019, 9,  7825,  0, 0, 0.03, False) /* Create Brown Beans for ContainTreasure */;
+VALUES (6019, 9,     0,  0, 0, 0.97, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 1 for ContainTreasure */
+     , (6019, 9,  7825,  0, 0, 0.03, False) /* Create Brown Beans (7825) for ContainTreasure */;

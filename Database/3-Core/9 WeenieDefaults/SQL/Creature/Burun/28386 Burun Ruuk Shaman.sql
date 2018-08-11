@@ -12,8 +12,8 @@ VALUES (28386,   1,         16) /* ItemType - Creature */
      , (28386,  27,          0) /* ArmorType */
      , (28386,  40,          2) /* CombatMode - Melee */
      , (28386,  68,         13) /* TargetingTactic */
-     , (28386,  93,       1032) /* PhysicsState */
-     , (28386, 101,        131) /* AiAllowedCombatStyle */
+     , (28386,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
+     , (28386, 101,        131) /* AiAllowedCombatStyle - Unarmed, OneHanded, ThrownWeapon */
      , (28386, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (28386, 140,          1) /* AiOptions */
      , (28386, 146,      82693) /* XpOverride */;
@@ -72,8 +72,13 @@ VALUES (28386,   1,   33558582) /* Setup */
      , (28386,   7,  268436789) /* ClothingBase */
      , (28386,   8,  100675761) /* Icon */
      , (28386,  22,  872415264) /* PhysicsEffectTable */
-     , (28386,  32,        471) /* WieldedTreasureType */
-     , (28386,  35,        449) /* DeathTreasureType */;
+     , (28386,  32,        471) /* WieldedTreasureType - 
+                                   Wield Stone Axe (26026) | Probability: 20%
+                                   Wield Bone Dagger (27123) | Probability: 20%
+                                   Wield Stone Mace (26047) | Probability: 20%
+                                   Wield Stone Spear (27126) | Probability: 20%
+                                   Wield Bone Sword (27127) | Probability: 20% */
+     , (28386,  35,        449) /* DeathTreasureType - Loot Tier: 6 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (28386,   1, 180, 0, 0) /* Strength */
@@ -193,6 +198,6 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 268435537 /* Twitch1 */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (28386, 9,     0,  0, 0, 0.95, False) /* Create Unknown for ContainTreasure */
-     , (28386, 9, 28342,  0, 0, 1, False) /* Create Small Bloodstone Shard for ContainTreasure */
-     , (28386, 9, 28984,  0, 0, 0.05, False) /* Create Bloodied Burun Hide for ContainTreasure */;
+VALUES (28386, 9,     0,  0, 0, 0.95, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 6 for ContainTreasure */
+     , (28386, 9, 28342,  0, 0, 1, False) /* Create Small Bloodstone Shard (28342) for ContainTreasure */
+     , (28386, 9, 28984,  0, 0, 0.05, False) /* Create Bloodied Burun Hide (28984) for ContainTreasure */;

@@ -4,7 +4,7 @@ VALUES ('5516', 'portalburialtempleexit', 7) /* Portal */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (5516,   1,      65536) /* ItemType - Portal */
      , (5516,  16,         32) /* ItemUseable - Remote */
-     , (5516,  93,       3084) /* PhysicsState */
+     , (5516,  93,       3084) /* PhysicsState - Ethereal, ReportCollisions, Gravity, LightingOn */
      , (5516, 111,          1) /* PortalBitmask - Unrestricted */
      , (5516, 133,          4) /* ShowableOnRadar - ShowAlways */;
 

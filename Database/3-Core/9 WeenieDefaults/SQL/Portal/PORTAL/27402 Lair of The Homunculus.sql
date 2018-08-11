@@ -4,8 +4,8 @@ VALUES ('27402', 'portalhomunculus', 7) /* Portal */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (27402,   1,      65536) /* ItemType - Portal */
      , (27402,  16,         32) /* ItemUseable - Remote */
-     , (27402,  93,       3084) /* PhysicsState */
-     , (27402, 111,         49) /* PortalBitmask */
+     , (27402,  93,       3084) /* PhysicsState - Ethereal, ReportCollisions, Gravity, LightingOn */
+     , (27402, 111,         49) /* PortalBitmask - Unrestricted, NoSummon, NoRecall */
      , (27402, 133,          4) /* ShowableOnRadar - ShowAlways */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)

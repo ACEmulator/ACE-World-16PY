@@ -12,8 +12,8 @@ VALUES (27283,   1,         16) /* ItemType - Creature */
      , (27283,  40,          2) /* CombatMode - Melee */
      , (27283,  68,          9) /* TargetingTactic */
      , (27283,  72,         22) /* FriendType - Shadow */
-     , (27283,  93,       1032) /* PhysicsState */
-     , (27283, 101,        131) /* AiAllowedCombatStyle */
+     , (27283,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
+     , (27283, 101,        131) /* AiAllowedCombatStyle - Unarmed, OneHanded, ThrownWeapon */
      , (27283, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (27283, 140,          1) /* AiOptions */
      , (27283, 146,     687624) /* XpOverride */;
@@ -72,7 +72,7 @@ VALUES (27283,   1,   33558542) /* Setup */
      , (27283,   4,  805306410) /* CombatTable */
      , (27283,   8,  100671420) /* Icon */
      , (27283,  22,  872415372) /* PhysicsEffectTable */
-     , (27283,  35,         20) /* DeathTreasureType */;
+     , (27283,  35,         20) /* DeathTreasureType - Loot Tier: 6 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (27283,   1, 400, 0, 0) /* Strength */
@@ -144,7 +144,7 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 268435537 /* Twitch1 */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (27283, 9,     0,  0, 0, 0.97, False) /* Create Unknown for ContainTreasure */
-     , (27283, 9, 27300,  0, 0, 1, False) /* Create Yaja's Reach for ContainTreasure */
-     , (27283, 9, 27300,  0, 0, 1, False) /* Create Yaja's Reach for ContainTreasure */
-     , (27283, 9, 30823,  0, 0, 0.03, False) /* Create Broken Black Marrow Key for ContainTreasure */;
+VALUES (27283, 9,     0,  0, 0, 0.97, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 6 for ContainTreasure */
+     , (27283, 9, 27300,  0, 0, 1, False) /* Create Yaja's Reach (27300) for ContainTreasure */
+     , (27283, 9, 27300,  0, 0, 1, False) /* Create Yaja's Reach (27300) for ContainTreasure */
+     , (27283, 9, 30823,  0, 0, 0.03, False) /* Create Broken Black Marrow Key (30823) for ContainTreasure */;

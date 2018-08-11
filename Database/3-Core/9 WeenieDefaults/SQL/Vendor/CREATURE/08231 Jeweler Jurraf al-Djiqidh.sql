@@ -10,10 +10,10 @@ VALUES (8231,   1,         16) /* ItemType - Creature */
      , (8231,  16,         32) /* ItemUseable - Remote */
      , (8231,  25,         11) /* Level */
      , (8231,  27,          0) /* ArmorType */
-     , (8231,  74,     264200) /* MerchandiseItemTypes */
+     , (8231,  74,     264200) /* MerchandiseItemTypes - Jewelry, Gem, PromissoryNote */
      , (8231,  75,          0) /* MerchandiseMinValue */
      , (8231,  76,      25000) /* MerchandiseMaxValue */
-     , (8231,  93,    2098200) /* PhysicsState */
+     , (8231,  93,    2098200) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */
      , (8231, 126,       1600) /* VendorHappyMean */
      , (8231, 127,       1000) /* VendorHappyVariance */
      , (8231, 133,          4) /* ShowableOnRadar - ShowAlways */
@@ -171,23 +171,23 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 318767235 /* Nod */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (8231, 2,   115,  0, 18, 1, False) /* Create Leather Boots for Wield */
-     , (8231, 2,   127,  0, 16, 1, False) /* Create Pants for Wield */
-     , (8231, 2,   134,  0, 16, 1, False) /* Create Tunic for Wield */
-     , (8231, 4,   294, -1, 0, 0, False) /* Create Amulet for Shop */
-     , (8231, 4,   295, -1, 0, 0, False) /* Create Bracelet for Shop */
-     , (8231, 4,   513, -1, 0, 0, False) /* Create Plain Lockpick for Shop */
-     , (8231, 4,   545, -1, 0, 0, False) /* Create Reliable Lockpick for Shop */
-     , (8231, 4,  2413, -1, 0, 0, False) /* Create Agate for Shop */
-     , (8231, 4,  2414, -1, 0, 0, False) /* Create Azurite for Shop */
-     , (8231, 4,  2431, -1, 0, 0, False) /* Create Moonstone for Shop */
-     , (8231, 4,  2621, -1, 0, 0, False) /* Create Trade Note (100) for Shop */
-     , (8231, 4,  2622, -1, 0, 0, False) /* Create Trade Note (500) for Shop */
-     , (8231, 4,  2623, -1, 0, 0, False) /* Create Trade Note (1,000) for Shop */
-     , (8231, 4,  2624, -1, 0, 0, False) /* Create Trade Note (5,000) for Shop */
-     , (8231, 4,  2625, -1, 0, 0, False) /* Create Trade Note (10,000) for Shop */
-     , (8231, 4,  2626, -1, 0, 0, False) /* Create Trade Note (50,000) for Shop */
-     , (8231, 2, 10696,  0, 9, 0.5, False) /* Create Apron for Wield */
-     , (8231, 4, 20628, -1, 0, 0, False) /* Create Trade Note (150,000) for Shop */
-     , (8231, 4, 20629, -1, 0, 0, False) /* Create Trade Note (200,000) for Shop */
-     , (8231, 4, 20630, -1, 0, 0, False) /* Create Trade Note (250,000) for Shop */;
+VALUES (8231, 2,   115,  0, 18, 1, False) /* Create Leather Boots (115) for Wield */
+     , (8231, 2,   127,  0, 16, 1, False) /* Create Pants (127) for Wield */
+     , (8231, 2,   134,  0, 16, 1, False) /* Create Tunic (134) for Wield */
+     , (8231, 4,   294, -1, 0, 0, False) /* Create Amulet (294) for Shop */
+     , (8231, 4,   295, -1, 0, 0, False) /* Create Bracelet (295) for Shop */
+     , (8231, 4,   513, -1, 0, 0, False) /* Create Plain Lockpick (513) for Shop */
+     , (8231, 4,   545, -1, 0, 0, False) /* Create Reliable Lockpick (545) for Shop */
+     , (8231, 4,  2413, -1, 0, 0, False) /* Create Agate (2413) for Shop */
+     , (8231, 4,  2414, -1, 0, 0, False) /* Create Azurite (2414) for Shop */
+     , (8231, 4,  2431, -1, 0, 0, False) /* Create Moonstone (2431) for Shop */
+     , (8231, 4,  2621, -1, 0, 0, False) /* Create Trade Note (100) (2621) for Shop */
+     , (8231, 4,  2622, -1, 0, 0, False) /* Create Trade Note (500) (2622) for Shop */
+     , (8231, 4,  2623, -1, 0, 0, False) /* Create Trade Note (1,000) (2623) for Shop */
+     , (8231, 4,  2624, -1, 0, 0, False) /* Create Trade Note (5,000) (2624) for Shop */
+     , (8231, 4,  2625, -1, 0, 0, False) /* Create Trade Note (10,000) (2625) for Shop */
+     , (8231, 4,  2626, -1, 0, 0, False) /* Create Trade Note (50,000) (2626) for Shop */
+     , (8231, 2, 10696,  0, 9, 0.5, False) /* Create Apron (10696) for Wield */
+     , (8231, 4, 20628, -1, 0, 0, False) /* Create Trade Note (150,000) (20628) for Shop */
+     , (8231, 4, 20629, -1, 0, 0, False) /* Create Trade Note (200,000) (20629) for Shop */
+     , (8231, 4, 20630, -1, 0, 0, False) /* Create Trade Note (250,000) (20630) for Shop */;

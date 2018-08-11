@@ -10,10 +10,10 @@ VALUES (27017,   1,         16) /* ItemType - Creature */
      , (27017,  16,         32) /* ItemUseable - Remote */
      , (27017,  25,         10) /* Level */
      , (27017,  27,          0) /* ArmorType */
-     , (27017,  74,     264192) /* MerchandiseItemTypes */
+     , (27017,  74,     264192) /* MerchandiseItemTypes - Gem, PromissoryNote */
      , (27017,  75,          0) /* MerchandiseMinValue */
      , (27017,  76,    1000000) /* MerchandiseMaxValue */
-     , (27017,  93,    2098204) /* PhysicsState */
+     , (27017,  93,    2098204) /* PhysicsState - Ethereal, ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */
      , (27017, 126,        125) /* VendorHappyMean */
      , (27017, 127,        125) /* VendorHappyVariance */
      , (27017, 133,          4) /* ShowableOnRadar - ShowAlways */
@@ -97,4 +97,4 @@ VALUES (27017,  0,  4,  0,    0,    0,    0,    0,    0,    0,    0,    0,    0,
      , (27017,  8,  4,  2, 0.75,    0,    0,    0,    0,    0,    0,    0,    0,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (27017, 4, 26382, -1, 0, 0, False) /* Create South Siege Villas Portal Gem for Shop */;
+VALUES (27017, 4, 26382, -1, 0, 0, False) /* Create South Siege Villas Portal Gem (26382) for Shop */;

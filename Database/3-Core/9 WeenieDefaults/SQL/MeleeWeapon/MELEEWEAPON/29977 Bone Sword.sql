@@ -11,13 +11,13 @@ VALUES (29977,   1,          1) /* ItemType - MeleeWeapon */
      , (29977,  33,         -2) /* Bonded - Destroy */
      , (29977,  37,       9999) /* ResistItemAppraisal */
      , (29977,  44,         16) /* Damage */
-     , (29977,  45,          3) /* DamageType */
+     , (29977,  45,          3) /* DamageType - Slash, Pierce */
      , (29977,  46,          2) /* DefaultCombatStyle - OneHanded */
-     , (29977,  47,          6) /* AttackType */
+     , (29977,  47,          6) /* AttackType - Thrust, Slash */
      , (29977,  48,         11) /* WeaponSkill - Sword */
      , (29977,  49,         40) /* WeaponTime */
      , (29977,  51,          1) /* CombatUse - Melee */
-     , (29977,  93,       1044) /* PhysicsState */
+     , (29977,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (29977, 106,        250) /* ItemSpellcraft */
      , (29977, 107,        500) /* ItemCurMana */
      , (29977, 108,        500) /* ItemMaxMana */

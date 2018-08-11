@@ -14,11 +14,11 @@ VALUES (6225,   1,          1) /* ItemType - MeleeWeapon */
      , (6225,  44,         12) /* Damage */
      , (6225,  45,         32) /* DamageType - Acid */
      , (6225,  46,          2) /* DefaultCombatStyle - OneHanded */
-     , (6225,  47,          6) /* AttackType */
+     , (6225,  47,          6) /* AttackType - Thrust, Slash */
      , (6225,  48,          4) /* WeaponSkill - Dagger */
      , (6225,  49,         15) /* WeaponTime */
      , (6225,  51,          1) /* CombatUse - Melee */
-     , (6225,  93,       1044) /* PhysicsState */
+     , (6225,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (6225, 106,        100) /* ItemSpellcraft */
      , (6225, 107,        500) /* ItemCurMana */
      , (6225, 108,        500) /* ItemMaxMana */

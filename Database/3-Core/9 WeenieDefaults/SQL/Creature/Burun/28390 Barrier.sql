@@ -15,8 +15,8 @@ VALUES (28390,   1,         16) /* ItemType - Creature */
      , (28390,  72,         75) /* FriendType - Burun */
      , (28390,  81,         13) /* MaxGeneratedObjects */
      , (28390,  82,         13) /* InitGeneratedObjects */
-     , (28390,  93,       1032) /* PhysicsState */
-     , (28390, 101,        131) /* AiAllowedCombatStyle */
+     , (28390,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
+     , (28390, 101,        131) /* AiAllowedCombatStyle - Unarmed, OneHanded, ThrownWeapon */
      , (28390, 103,          3) /* GeneratorDestructionType - Kill */
      , (28390, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (28390, 146,          0) /* XpOverride */;
@@ -110,16 +110,16 @@ VALUES (28390,  94) /* ATTACK_NOTIFICATION_EVENT */
      , (28390, 414) /* PLAYER_DEATH_EVENT */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (28390, -1, 26020, 1, 1, 1, 1, 4, -1, 0, 0, 41353797, 188.1, -11.5, 6, -4.371139E-08, 0, 0, -1)
-     , (28390, -1, 26020, 1, 1, 1, 1, 4, -1, 0, 0, 41353797, 191.2, -11.4, 6, -4.371139E-08, 0, 0, -1)
-     , (28390, -1, 27986, 1, 1, 1, 1, 4, -1, 0, 0, 41353686, 190.2, -27.4, 0, -4.371139E-08, 0, 0, -1)
-     , (28390, -1, 27986, 1, 1, 1, 1, 4, -1, 0, 0, 41353668, 170, -40, 0.005, -4.371139E-08, 0, 0, -1)
-     , (28390, -1, 27986, 1, 1, 1, 1, 4, -1, 0, 0, 41353708, 210, -40, 0.005, -4.371139E-08, 0, 0, -1)
-     , (28390, -1, 27990, 1, 1, 1, 1, 4, -1, 0, 0, 41353710, 210, -50, 0.005, -0.7071068, 0, 0, -0.7071068)
-     , (28390, -1, 27990, 1, 1, 1, 1, 4, -1, 0, 0, 41353670, 170, -50, 0.005, 0.7071068, 0, 0, -0.7071068)
-     , (28390, -1, 27980, 1, 1, 1, 1, 4, -1, 0, 0, 41353677, 179.371, -40, 0.005, -4.371139E-08, 0, 0, -1)
-     , (28390, -1, 27980, 1, 1, 1, 1, 4, -1, 0, 0, 41353677, 183.09, -40, 0.005, -4.371139E-08, 0, 0, -1)
-     , (28390, -1, 27980, 1, 1, 1, 1, 4, -1, 0, 0, 41353693, 196.148, -40, 0.005, -4.371139E-08, 0, 0, -1)
-     , (28390, -1, 27980, 1, 1, 1, 1, 4, -1, 0, 0, 41353693, 200.629, -40, 0.005, -4.371139E-08, 0, 0, -1)
-     , (28390, -1, 26020, 1, 1, 1, 1, 4, -1, 0, 0, 41353687, 192.386, -40, 0.045, -4.371139E-08, 0, 0, -1)
-     , (28390, -1, 26020, 1, 1, 1, 1, 4, -1, 0, 0, 41353687, 187.839, -40, 0.045, -4.371139E-08, 0, 0, -1);
+VALUES (28390, -1, 26020, 1, 1, 1, 1, 4, -1, 0, 0, 41353797, 188.1, -11.5, 6, -4.371139E-08, 0, 0, -1) /* Generate Burun Ruuk Shaman (26020) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
+     , (28390, -1, 26020, 1, 1, 1, 1, 4, -1, 0, 0, 41353797, 191.2, -11.4, 6, -4.371139E-08, 0, 0, -1) /* Generate Burun Ruuk Shaman (26020) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
+     , (28390, -1, 27986, 1, 1, 1, 1, 4, -1, 0, 0, 41353686, 190.2, -27.4, 0, -4.371139E-08, 0, 0, -1) /* Generate Guruk Gorefiend (27986) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
+     , (28390, -1, 27986, 1, 1, 1, 1, 4, -1, 0, 0, 41353668, 170, -40, 0.005, -4.371139E-08, 0, 0, -1) /* Generate Guruk Gorefiend (27986) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
+     , (28390, -1, 27986, 1, 1, 1, 1, 4, -1, 0, 0, 41353708, 210, -40, 0.005, -4.371139E-08, 0, 0, -1) /* Generate Guruk Gorefiend (27986) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
+     , (28390, -1, 27990, 1, 1, 1, 1, 4, -1, 0, 0, 41353710, 210, -50, 0.005, -0.7071068, 0, 0, -0.7071068) /* Generate Guruk Titan (27990) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
+     , (28390, -1, 27990, 1, 1, 1, 1, 4, -1, 0, 0, 41353670, 170, -50, 0.005, 0.7071068, 0, 0, -0.7071068) /* Generate Guruk Titan (27990) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
+     , (28390, -1, 27980, 1, 1, 1, 1, 4, -1, 0, 0, 41353677, 179.371, -40, 0.005, -4.371139E-08, 0, 0, -1) /* Generate Guruk Behemoth (27980) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
+     , (28390, -1, 27980, 1, 1, 1, 1, 4, -1, 0, 0, 41353677, 183.09, -40, 0.005, -4.371139E-08, 0, 0, -1) /* Generate Guruk Behemoth (27980) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
+     , (28390, -1, 27980, 1, 1, 1, 1, 4, -1, 0, 0, 41353693, 196.148, -40, 0.005, -4.371139E-08, 0, 0, -1) /* Generate Guruk Behemoth (27980) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
+     , (28390, -1, 27980, 1, 1, 1, 1, 4, -1, 0, 0, 41353693, 200.629, -40, 0.005, -4.371139E-08, 0, 0, -1) /* Generate Guruk Behemoth (27980) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
+     , (28390, -1, 26020, 1, 1, 1, 1, 4, -1, 0, 0, 41353687, 192.386, -40, 0.045, -4.371139E-08, 0, 0, -1) /* Generate Burun Ruuk Shaman (26020) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
+     , (28390, -1, 26020, 1, 1, 1, 1, 4, -1, 0, 0, 41353687, 187.839, -40, 0.045, -4.371139E-08, 0, 0, -1) /* Generate Burun Ruuk Shaman (26020) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */;

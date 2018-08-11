@@ -4,7 +4,7 @@ VALUES ('10988', 'portalhouseqalabar-xp', 7) /* Portal */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (10988,   1,      65536) /* ItemType - Portal */
      , (10988,  16,         32) /* ItemUseable - Remote */
-     , (10988,  93,       3084) /* PhysicsState */
+     , (10988,  93,       3084) /* PhysicsState - Ethereal, ReportCollisions, Gravity, LightingOn */
      , (10988, 111,          1) /* PortalBitmask - Unrestricted */
      , (10988, 133,          4) /* ShowableOnRadar - ShowAlways */;
 

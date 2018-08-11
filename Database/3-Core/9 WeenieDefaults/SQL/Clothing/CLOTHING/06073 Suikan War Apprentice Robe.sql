@@ -4,7 +4,7 @@ VALUES ('6073', 'robesuckwarsho', 2) /* Clothing */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (6073,   1,          4) /* ItemType - Clothing */
      , (6073,   3,         18) /* PaletteTemplate - YellowBrown */
-     , (6073,   4,      81664) /* ClothingPriority */
+     , (6073,   4,      81664) /* ClothingPriority - OuterwearUpperLegs, OuterwearLowerLegs, OuterwearChest, OuterwearAbdomen, OuterwearUpperArms, OuterwearLowerArms, Feet */
      , (6073,   5,        200) /* EncumbranceVal */
      , (6073,   8,        150) /* Mass */
      , (6073,   9,      32512) /* ValidLocations - Armor */
@@ -13,7 +13,7 @@ VALUES (6073,   1,          4) /* ItemType - Clothing */
      , (6073,  19,       1120) /* Value */
      , (6073,  27,          1) /* ArmorType */
      , (6073,  28,          0) /* ArmorLevel */
-     , (6073,  93,       1044) /* PhysicsState */
+     , (6073,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (6073, 106,        270) /* ItemSpellcraft */
      , (6073, 107,        250) /* ItemCurMana */
      , (6073, 108,        250) /* ItemMaxMana */

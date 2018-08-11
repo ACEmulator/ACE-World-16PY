@@ -4,8 +4,8 @@ VALUES ('30934', 'portalpvphate80accursed', 7) /* Portal */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (30934,   1,      65536) /* ItemType - Portal */
      , (30934,  16,         32) /* ItemUseable - Remote */
-     , (30934,  93,       3084) /* PhysicsState */
-     , (30934, 111,         61) /* PortalBitmask */
+     , (30934,  93,       3084) /* PhysicsState - Ethereal, ReportCollisions, Gravity, LightingOn */
+     , (30934, 111,         61) /* PortalBitmask - Unrestricted, NoPKLite, NoNPK, NoSummon, NoRecall */
      , (30934, 133,          4) /* ShowableOnRadar - ShowAlways */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)

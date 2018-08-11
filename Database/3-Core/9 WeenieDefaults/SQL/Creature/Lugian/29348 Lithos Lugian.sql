@@ -14,8 +14,8 @@ VALUES (29348,   1,         16) /* ItemType - Creature */
      , (29348,  40,          2) /* CombatMode - Melee */
      , (29348,  67,         64) /* Tolerance */
      , (29348,  68,         13) /* TargetingTactic */
-     , (29348,  93,       1032) /* PhysicsState */
-     , (29348, 101,        131) /* AiAllowedCombatStyle */
+     , (29348,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
+     , (29348, 101,        131) /* AiAllowedCombatStyle - Unarmed, OneHanded, ThrownWeapon */
      , (29348, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (29348, 140,          1) /* AiOptions */
      , (29348, 146,       3936) /* XpOverride */;
@@ -71,8 +71,12 @@ VALUES (29348,   1,   33557003) /* Setup */
      , (29348,   7,  268436158) /* ClothingBase */
      , (29348,   8,  100667447) /* Icon */
      , (29348,  22,  872415262) /* PhysicsEffectTable */
-     , (29348,  32,        110) /* WieldedTreasureType */
-     , (29348,  35,        451) /* DeathTreasureType */;
+     , (29348,  32,        110) /* WieldedTreasureType - 
+                                   Wield Lugian Axe (23741) | Probability: 40%
+                                   Wield Lugian Mace (23759) | Probability: 20%
+                                   Wield Lugian Hammer (23755) | Probability: 15%
+                                   Wield Lugian Morning Star (23767) | Probability: 20% */
+     , (29348,  35,        451) /* DeathTreasureType - Loot Tier: 2 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (29348,   1, 250, 0, 0) /* Strength */
@@ -275,5 +279,5 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,  10 /* Tell */, 0, 1, NULL, 'Do you wish to incite a war between our people? I must teach you a lesson for your own good.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (29348, 9,     0,  0, 0, 0.98, False) /* Create Unknown for ContainTreasure */
-     , (29348, 9,  7042,  0, 0, 0.02, False) /* Create Small Lugian Sinew for ContainTreasure */;
+VALUES (29348, 9,     0,  0, 0, 0.98, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 2 for ContainTreasure */
+     , (29348, 9,  7042,  0, 0, 0.02, False) /* Create Small Lugian Sinew (7042) for ContainTreasure */;

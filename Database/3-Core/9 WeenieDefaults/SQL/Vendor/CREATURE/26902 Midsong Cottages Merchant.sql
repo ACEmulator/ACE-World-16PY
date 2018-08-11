@@ -10,10 +10,10 @@ VALUES (26902,   1,         16) /* ItemType - Creature */
      , (26902,  16,         32) /* ItemUseable - Remote */
      , (26902,  25,         10) /* Level */
      , (26902,  27,          0) /* ArmorType */
-     , (26902,  74,     264192) /* MerchandiseItemTypes */
+     , (26902,  74,     264192) /* MerchandiseItemTypes - Gem, PromissoryNote */
      , (26902,  75,          0) /* MerchandiseMinValue */
      , (26902,  76,    1000000) /* MerchandiseMaxValue */
-     , (26902,  93,    2098204) /* PhysicsState */
+     , (26902,  93,    2098204) /* PhysicsState - Ethereal, ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */
      , (26902, 126,        125) /* VendorHappyMean */
      , (26902, 127,        125) /* VendorHappyVariance */
      , (26902, 133,          4) /* ShowableOnRadar - ShowAlways */
@@ -97,4 +97,4 @@ VALUES (26902,  0,  4,  0,    0,    0,    0,    0,    0,    0,    0,    0,    0,
      , (26902,  8,  4,  2, 0.75,    0,    0,    0,    0,    0,    0,    0,    0,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (26902, 4, 26267, -1, 0, 0, False) /* Create Midsong Cottages Portal Gem for Shop */;
+VALUES (26902, 4, 26267, -1, 0, 0, False) /* Create Midsong Cottages Portal Gem (26267) for Shop */;

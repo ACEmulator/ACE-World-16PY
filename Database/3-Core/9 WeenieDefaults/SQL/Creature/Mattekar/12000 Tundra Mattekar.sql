@@ -14,7 +14,7 @@ VALUES (12000,   1,         16) /* ItemType - Creature */
      , (12000,  72,          5) /* FriendType - Lugian */
      , (12000,  81,          3) /* MaxGeneratedObjects */
      , (12000,  82,          3) /* InitGeneratedObjects */
-     , (12000,  93,       1032) /* PhysicsState */
+     , (12000,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (12000, 103,          1) /* GeneratorDestructionType - Nothing */
      , (12000, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (12000, 146,      18711) /* XpOverride */;
@@ -73,7 +73,7 @@ VALUES (12000,   1,   33555590) /* Setup */
      , (12000,   8,  100669121) /* Icon */
      , (12000,  22,  872415278) /* PhysicsEffectTable */
      , (12000,  30,         84) /* PhysicsScript - BreatheFlame */
-     , (12000,  35,         21) /* DeathTreasureType */;
+     , (12000,  35,         21) /* DeathTreasureType - Loot Tier: 3 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (12000,   1, 185, 0, 0) /* Strength */
@@ -173,12 +173,12 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 268435540 /* Twitch4 */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (12000, 9,     0,  0, 0, 0.58, False) /* Create Unknown for ContainTreasure */
-     , (12000, 9,     0,  0, 0, 0.3, False) /* Create Unknown for ContainTreasure */
-     , (12000, 9,  9412,  0, 0, 0.42, False) /* Create Dire Mattekar Paw for ContainTreasure */
-     , (12000, 9, 23593,  0, 0, 0.3, False) /* Create Robe of the Tundra for ContainTreasure */;
+VALUES (12000, 9,     0,  0, 0, 0.58, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 3 for ContainTreasure */
+     , (12000, 9,     0,  0, 0, 0.3, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 3 for ContainTreasure */
+     , (12000, 9,  9412,  0, 0, 0.42, False) /* Create Dire Mattekar Paw (9412) for ContainTreasure */
+     , (12000, 9, 23593,  0, 0, 0.3, False) /* Create Robe of the Tundra (23593) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (12000, 0.33, 9400, 20, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0)
-     , (12000, 0.66, 9400, 20, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0)
-     , (12000, 1, 9400, 20, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0);
+VALUES (12000, 0.33, 9400, 20, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Dire Mattekar (9400) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Scatter */
+     , (12000, 0.66, 9400, 20, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Dire Mattekar (9400) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Scatter */
+     , (12000, 1, 9400, 20, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Dire Mattekar (9400) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Scatter */;

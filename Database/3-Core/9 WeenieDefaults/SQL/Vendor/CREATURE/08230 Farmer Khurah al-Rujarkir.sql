@@ -13,7 +13,7 @@ VALUES (8230,   1,         16) /* ItemType - Creature */
      , (8230,  74,    4481568) /* MerchandiseItemTypes - VendorGrocer */
      , (8230,  75,          0) /* MerchandiseMinValue */
      , (8230,  76,      25000) /* MerchandiseMaxValue */
-     , (8230,  93,    2098200) /* PhysicsState */
+     , (8230,  93,    2098200) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */
      , (8230, 126,        250) /* VendorHappyMean */
      , (8230, 127,        250) /* VendorHappyVariance */
      , (8230, 133,          4) /* ShowableOnRadar - ShowAlways */
@@ -179,29 +179,29 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 318767235 /* Nod */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (8230, 2,   115,  0, 9, 1, False) /* Create Leather Boots for Wield */
-     , (8230, 2,   117,  0, 16, 1, False) /* Create Breeches for Wield */
-     , (8230, 2,   130,  0, 16, 1, False) /* Create Shirt for Wield */
-     , (8230, 4,   136, -1, 21, 1, False) /* Create Pack for Shop */
-     , (8230, 4,   139, -1, 86, 0, False) /* Create Small Belt Pouch for Shop */
-     , (8230, 4,   262, -1, 0, 0, False) /* Create Chicken for Shop */
-     , (8230, 4,   264, -1, 0, 0, False) /* Create Grapes for Shop */
-     , (8230, 4,   293, -1, 0, 0, False) /* Create Torch for Shop */
-     , (8230, 4,   377, -1, 0, 0, False) /* Create Potion of Healing for Shop */
-     , (8230, 4,   378, -1, 0, 0, False) /* Create Stamina Potion for Shop */
-     , (8230, 4,   379, -1, 0, 0, False) /* Create Mana Potion for Shop */
-     , (8230, 4,   547, -1, 0, 0, False) /* Create Brimstone-cap Mushroom for Shop */
-     , (8230, 4,   628, -1, 0, 0, False) /* Create Handy Healing Kit for Shop */
-     , (8230, 4,   629, -1, 0, 0, False) /* Create Adept Healing Kit for Shop */
-     , (8230, 4,  1449, -1, 0, 0, False) /* Create Royal Cabbage for Shop */
-     , (8230, 4,  2457, -1, 0, 0, False) /* Create Health Draught for Shop */
-     , (8230, 4,  2460, -1, 0, 0, False) /* Create Mana Draught for Shop */
-     , (8230, 4,  4746, -1, 0, 0, False) /* Create Water for Shop */
-     , (8230, 4,  4754, -1, 0, 0, False) /* Create Baking Pan for Shop */
-     , (8230, 4,  4757, -1, 0, 0, False) /* Create Carving Knife for Shop */
-     , (8230, 4,  4761, -1, 0, 0, False) /* Create Flour for Shop */
-     , (8230, 4,  4763, -1, 0, 0, False) /* Create Honey for Shop */
-     , (8230, 4,  5758, -1, 0, 0, False) /* Create Carrot for Shop */
-     , (8230, 2, 10696,  0, 12, 0.8, False) /* Create Apron for Wield */
-     , (8230, 4, 14777, -1, 0, 0, False) /* Create Cookie Cutter for Shop */
-     , (8230, 4, 27326, -1, 0, 0, False) /* Create Stamina Tincture for Shop */;
+VALUES (8230, 2,   115,  0, 9, 1, False) /* Create Leather Boots (115) for Wield */
+     , (8230, 2,   117,  0, 16, 1, False) /* Create Breeches (117) for Wield */
+     , (8230, 2,   130,  0, 16, 1, False) /* Create Shirt (130) for Wield */
+     , (8230, 4,   136, -1, 21, 1, False) /* Create Pack (136) for Shop */
+     , (8230, 4,   139, -1, 86, 0, False) /* Create Small Belt Pouch (139) for Shop */
+     , (8230, 4,   262, -1, 0, 0, False) /* Create Chicken (262) for Shop */
+     , (8230, 4,   264, -1, 0, 0, False) /* Create Grapes (264) for Shop */
+     , (8230, 4,   293, -1, 0, 0, False) /* Create Torch (293) for Shop */
+     , (8230, 4,   377, -1, 0, 0, False) /* Create Potion of Healing (377) for Shop */
+     , (8230, 4,   378, -1, 0, 0, False) /* Create Stamina Potion (378) for Shop */
+     , (8230, 4,   379, -1, 0, 0, False) /* Create Mana Potion (379) for Shop */
+     , (8230, 4,   547, -1, 0, 0, False) /* Create Brimstone-cap Mushroom (547) for Shop */
+     , (8230, 4,   628, -1, 0, 0, False) /* Create Handy Healing Kit (628) for Shop */
+     , (8230, 4,   629, -1, 0, 0, False) /* Create Adept Healing Kit (629) for Shop */
+     , (8230, 4,  1449, -1, 0, 0, False) /* Create Royal Cabbage (1449) for Shop */
+     , (8230, 4,  2457, -1, 0, 0, False) /* Create Health Draught (2457) for Shop */
+     , (8230, 4,  2460, -1, 0, 0, False) /* Create Mana Draught (2460) for Shop */
+     , (8230, 4,  4746, -1, 0, 0, False) /* Create Water (4746) for Shop */
+     , (8230, 4,  4754, -1, 0, 0, False) /* Create Baking Pan (4754) for Shop */
+     , (8230, 4,  4757, -1, 0, 0, False) /* Create Carving Knife (4757) for Shop */
+     , (8230, 4,  4761, -1, 0, 0, False) /* Create Flour (4761) for Shop */
+     , (8230, 4,  4763, -1, 0, 0, False) /* Create Honey (4763) for Shop */
+     , (8230, 4,  5758, -1, 0, 0, False) /* Create Carrot (5758) for Shop */
+     , (8230, 2, 10696,  0, 12, 0.8, False) /* Create Apron (10696) for Wield */
+     , (8230, 4, 14777, -1, 0, 0, False) /* Create Cookie Cutter (14777) for Shop */
+     , (8230, 4, 27326, -1, 0, 0, False) /* Create Stamina Tincture (27326) for Shop */;

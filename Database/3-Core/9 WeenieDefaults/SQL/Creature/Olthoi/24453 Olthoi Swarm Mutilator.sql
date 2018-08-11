@@ -14,7 +14,7 @@ VALUES (24453,   1,         16) /* ItemType - Creature */
      , (24453,  40,          2) /* CombatMode - Melee */
      , (24453,  68,         13) /* TargetingTactic */
      , (24453,  72,         35) /* FriendType - OlthoiLarvae */
-     , (24453,  93,       1032) /* PhysicsState */
+     , (24453,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (24453, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (24453, 140,          1) /* AiOptions */
      , (24453, 146,     117023) /* XpOverride */;
@@ -72,7 +72,7 @@ VALUES (24453,   1,   33557161) /* Setup */
      , (24453,   8,  100667623) /* Icon */
      , (24453,  22,  872415265) /* PhysicsEffectTable */
      , (24453,  30,         85) /* PhysicsScript - BreatheFrost */
-     , (24453,  35,        449) /* DeathTreasureType */;
+     , (24453,  35,        449) /* DeathTreasureType - Loot Tier: 6 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (24453,   1, 380, 0, 0) /* Strength */
@@ -125,7 +125,7 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 268435537 /* Twitch1 */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (24453, 9,     0,  0, 0, 0.94, False) /* Create Unknown for ContainTreasure */
-     , (24453, 9,     0,  0, 0, 0.96, False) /* Create Unknown for ContainTreasure */
-     , (24453, 9,  6876,  0, 0, 0.06, False) /* Create Sturdy Iron Key for ContainTreasure */
-     , (24453, 9, 24477,  0, 0, 0.04, False) /* Create Sturdy Steel Key for ContainTreasure */;
+VALUES (24453, 9,     0,  0, 0, 0.94, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 6 for ContainTreasure */
+     , (24453, 9,     0,  0, 0, 0.96, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 6 for ContainTreasure */
+     , (24453, 9,  6876,  0, 0, 0.06, False) /* Create Sturdy Iron Key (6876) for ContainTreasure */
+     , (24453, 9, 24477,  0, 0, 0.04, False) /* Create Sturdy Steel Key (24477) for ContainTreasure */;

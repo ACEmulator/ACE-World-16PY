@@ -12,7 +12,7 @@ VALUES (15857,   1,          8) /* ItemType - Jewelry */
      , (15857,  19,       8000) /* Value */
      , (15857,  33,          1) /* Bonded - Bonded */
      , (15857,  36,       9999) /* ResistMagic */
-     , (15857,  93,       1044) /* PhysicsState */
+     , (15857,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (15857, 106,        300) /* ItemSpellcraft */
      , (15857, 107,        150) /* ItemCurMana */
      , (15857, 108,        230) /* ItemMaxMana */

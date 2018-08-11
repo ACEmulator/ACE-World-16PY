@@ -4,16 +4,16 @@ VALUES ('9390', 'hauberklugian', 2) /* Clothing */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (9390,   1,          2) /* ItemType - Armor */
      , (9390,   3,          2) /* PaletteTemplate - Blue */
-     , (9390,   4,      15360) /* ClothingPriority */
+     , (9390,   4,      15360) /* ClothingPriority - OuterwearChest, OuterwearAbdomen, OuterwearUpperArms, OuterwearLowerArms */
      , (9390,   5,       2000) /* EncumbranceVal */
      , (9390,   8,       1100) /* Mass */
-     , (9390,   9,       7680) /* ValidLocations */
+     , (9390,   9,       7680) /* ValidLocations - ChestArmor, AbdomenArmor, UpperArmArmor, LowerArmArmor */
      , (9390,  16,          1) /* ItemUseable - No */
      , (9390,  19,       2300) /* Value */
      , (9390,  27,         32) /* ArmorType */
      , (9390,  28,        160) /* ArmorLevel */
      , (9390,  33,          1) /* Bonded - Bonded */
-     , (9390,  93,       1044) /* PhysicsState */;
+     , (9390,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (9390,  22, True ) /* Inscribable */

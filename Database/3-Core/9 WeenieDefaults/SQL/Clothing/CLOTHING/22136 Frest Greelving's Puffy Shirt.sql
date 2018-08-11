@@ -4,16 +4,16 @@ VALUES ('22136', 'shirtpuffyhauntedmansion', 2) /* Clothing */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (22136,   1,          4) /* ItemType - Clothing */
      , (22136,   3,          8) /* PaletteTemplate - Green */
-     , (22136,   4,        104) /* ClothingPriority */
+     , (22136,   4,        104) /* ClothingPriority - UnderwearChest, UnderwearUpperArms, UnderwearLowerArms */
      , (22136,   5,         75) /* EncumbranceVal */
      , (22136,   8,         50) /* Mass */
-     , (22136,   9,         30) /* ValidLocations */
+     , (22136,   9,         30) /* ValidLocations - ChestWear, AbdomenWear, UpperArmWear, LowerArmWear */
      , (22136,  16,          1) /* ItemUseable - No */
      , (22136,  19,         15) /* Value */
      , (22136,  27,          1) /* ArmorType */
      , (22136,  28,          0) /* ArmorLevel */
      , (22136,  33,          1) /* Bonded - Bonded */
-     , (22136,  93,       1044) /* PhysicsState */
+     , (22136,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (22136, 114,          1) /* Attuned - Attuned */
      , (22136, 169,  201328144) /* TsysMutationData */;
 

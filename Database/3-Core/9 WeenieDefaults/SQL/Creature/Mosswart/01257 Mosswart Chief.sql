@@ -12,8 +12,8 @@ VALUES (1257,   1,         16) /* ItemType - Creature */
      , (1257,  27,          0) /* ArmorType */
      , (1257,  40,          2) /* CombatMode - Melee */
      , (1257,  68,         13) /* TargetingTactic */
-     , (1257,  93,       1032) /* PhysicsState */
-     , (1257, 101,        131) /* AiAllowedCombatStyle */
+     , (1257,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
+     , (1257, 101,        131) /* AiAllowedCombatStyle - Unarmed, OneHanded, ThrownWeapon */
      , (1257, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (1257, 146,        822) /* XpOverride */;
 
@@ -68,8 +68,16 @@ VALUES (1257,   1,   33557327) /* Setup */
      , (1257,   7,  268436293) /* ClothingBase */
      , (1257,   8,  100667449) /* Icon */
      , (1257,  22,  872415264) /* PhysicsEffectTable */
-     , (1257,  32,        124) /* WieldedTreasureType */
-     , (1257,  35,        126) /* DeathTreasureType */;
+     , (1257,  32,        124) /* WieldedTreasureType - 
+                                   Wield Budiaq (308) | Probability: 10%
+                                   Wield Scimitar (339) | Probability: 10%
+                                   Wield Shamshir (340) | Probability: 10%
+                                   Wield Spear (348) | Probability: 20%
+                                   Wield Tachi (353) | Probability: 10%
+                                   Wield Yari (362) | Probability: 40%
+                                   Wield 4x Javelin (320) | Probability: 5%
+                                   Wield Djarid (317) | Probability: 5% */
+     , (1257,  35,        126) /* DeathTreasureType - Loot Tier: 3 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (1257,   1, 120, 0, 0) /* Strength */
@@ -141,4 +149,4 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 268435537 /* Twitch1 */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (1257, 1,  1264,  0, 0, 0, False) /* Create Key for Contain */;
+VALUES (1257, 1,  1264,  0, 0, 0, False) /* Create Key (1264) for Contain */;

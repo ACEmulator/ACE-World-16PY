@@ -13,8 +13,8 @@ VALUES (9317,   1,        128) /* ItemType - Misc */
      , (9317,  15,          0) /* StackUnitValue */
      , (9317,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
      , (9317,  19,          0) /* Value */
-     , (9317,  93,       1044) /* PhysicsState */
-     , (9317,  94,        128) /* TargetType - Misc */
+     , (9317,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (9317,  94,        128) /* TargetType - 128 */
      , (9317, 150,        103) /* HookPlacement - Hook */
      , (9317, 151,          2) /* HookType - Wall */;
 

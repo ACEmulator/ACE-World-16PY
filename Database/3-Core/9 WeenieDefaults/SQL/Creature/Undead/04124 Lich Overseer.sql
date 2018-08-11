@@ -15,8 +15,8 @@ VALUES (4124,   1,         16) /* ItemType - Creature */
      , (4124,  72,         30) /* FriendType - Skeleton */
      , (4124,  81,          4) /* MaxGeneratedObjects */
      , (4124,  82,          4) /* InitGeneratedObjects */
-     , (4124,  93,       1032) /* PhysicsState */
-     , (4124, 101,        183) /* AiAllowedCombatStyle */
+     , (4124,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
+     , (4124, 101,        183) /* AiAllowedCombatStyle - Unarmed, OneHanded, OneHandedAndShield, Bow, Crossbow, ThrownWeapon */
      , (4124, 103,          3) /* GeneratorDestructionType - Kill */
      , (4124, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (4124, 146,       6000) /* XpOverride */;
@@ -76,7 +76,28 @@ VALUES (4124,   1,   33554839) /* Setup */
      , (4124,   7,  268435558) /* ClothingBase */
      , (4124,   8,  100667942) /* Icon */
      , (4124,  22,  872415272) /* PhysicsEffectTable */
-     , (4124,  32,        249) /* WieldedTreasureType */
+     , (4124,  32,        249) /* WieldedTreasureType - 
+                                   Wield 4x Throwing Club (23654) | Probability: 10%
+                                   Wield Yumi (23735) | Probability: 10%
+                                   Wield 18x Arrow (300) | Probability: 100%
+                                   Wield Yumi (23735) | Probability: 10%
+                                   Wield 20x Fire Arrow (1437) | Probability: 100%
+                                   Wield Yumi (23735) | Probability: 10%
+                                   Wield 10x Acid Arrow (4181) | Probability: 100%
+                                   Wield Heavy Crossbow (23666) | Probability: 10%
+                                   Wield 12x Quarrel (305) | Probability: 100%
+                                   Wield Heavy Crossbow (23666) | Probability: 10%
+                                   Wield 14x Fire Quarrel (4188) | Probability: 100%
+                                   Wield Heavy Crossbow (23666) | Probability: 10%
+                                   Wield 16x Acid Quarrel (4185) | Probability: 100%
+                                   Wield Katar (23675) | Probability: 15%
+                                   Wield Cestus (23638) | Probability: 15%
+                                   Wield Nekode (23681) | Probability: 15%
+                                   Wield Spear (23697) | Probability: 15%
+                                   Wield Tachi (23701) | Probability: 15%
+                                   Wield Yari (23731) | Probability: 15%
+                                   Wield Kite Shield (23685) | Probability: 50%
+                                   Wield Tower Shield (95) | Probability: 25% */
      , (4124,  33,        239) /* UnknownGuessedname */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
@@ -232,7 +253,7 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,  10 /* Tell */, 0, 1, NULL, 'Soon you will fall into the endless slumber of death.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (4124, 1,  8903,  0, 0, 0, False) /* Create Focusing Stone for Contain */;
+VALUES (4124, 1,  8903,  0, 0, 0, False) /* Create Focusing Stone (8903) for Contain */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (4124, 1, 1759, 20, 1, 4, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0);
+VALUES (4124, 1, 1759, 20, 1, 4, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Skeleton (1759) (x1 up to max of 4) - Regenerate upon Destruction - Location to (re)Generate: Scatter */;

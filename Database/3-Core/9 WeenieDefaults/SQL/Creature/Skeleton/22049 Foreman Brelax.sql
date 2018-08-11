@@ -12,7 +12,7 @@ VALUES (22049,   1,         16) /* ItemType - Creature */
      , (22049,  27,          0) /* ArmorType */
      , (22049,  40,          1) /* CombatMode - NonCombat */
      , (22049,  68,          3) /* TargetingTactic */
-     , (22049,  93,       1032) /* PhysicsState */
+     , (22049,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (22049, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (22049, 146,      28000) /* XpOverride */;
 
@@ -70,8 +70,12 @@ VALUES (22049,   1,   33555464) /* Setup */
      , (22049,   7,  268435646) /* ClothingBase */
      , (22049,   8,  100669124) /* Icon */
      , (22049,  22,  872415269) /* PhysicsEffectTable */
-     , (22049,  32,        289) /* WieldedTreasureType */
-     , (22049,  35,        375) /* DeathTreasureType */;
+     , (22049,  32,        289) /* WieldedTreasureType - 
+                                   Wield Yumi (23736) | Probability: 50%
+                                   Wield 16x Greater Fire Arrow (5305) | Probability: 100%
+                                   Wield Kite Shield (23686) | Probability: 50%
+                                   Wield Fire Tachi (23708) | Probability: 50% */
+     , (22049,  35,        375) /* DeathTreasureType - Loot Tier: 5 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (22049,   1, 320, 0, 0) /* Strength */
@@ -146,6 +150,6 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,  10 /* Tell */, 0, 1, NULL, 'Serve...Cambarth', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (22049, 9,     0,  0, 0, 0.9, False) /* Create Unknown for ContainTreasure */
-     , (22049, 9,  3687,  0, 0, 0.1, False) /* Create Skeleton's Skull for ContainTreasure */
-     , (22049, 2,  7973,  0, 0, 0, False) /* Create Flaming Tachi for Wield */;
+VALUES (22049, 9,     0,  0, 0, 0.9, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 5 for ContainTreasure */
+     , (22049, 9,  3687,  0, 0, 0.1, False) /* Create Skeleton's Skull (3687) for ContainTreasure */
+     , (22049, 2,  7973,  0, 0, 0, False) /* Create Flaming Tachi (7973) for Wield */;

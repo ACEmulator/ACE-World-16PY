@@ -16,8 +16,8 @@ VALUES (23991,   1,       2048) /* ItemType - Gem */
      , (23991,  18,          1) /* UiEffects - Magical */
      , (23991,  19,          0) /* Value */
      , (23991,  33,          1) /* Bonded - Bonded */
-     , (23991,  93,       3092) /* PhysicsState */
-     , (23991,  94,         16) /* TargetType - Creature */
+     , (23991,  93,       3092) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, LightingOn */
+     , (23991,  94,         16) /* TargetType - Reedshark */
      , (23991, 106,        300) /* ItemSpellcraft */
      , (23991, 107,        150) /* ItemCurMana */
      , (23991, 108,        150) /* ItemMaxMana */

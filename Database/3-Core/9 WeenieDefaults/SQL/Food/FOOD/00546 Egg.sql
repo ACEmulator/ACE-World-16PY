@@ -15,9 +15,9 @@ VALUES (546,   1,         32) /* ItemType - Food */
      , (546,  19,          6) /* Value */
      , (546,  89,          4) /* BoosterEnum - Stamina */
      , (546,  90,          4) /* BoostValue */
-     , (546,  93,       1044) /* PhysicsState */
+     , (546,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (546, 150,        103) /* HookPlacement - Hook */
-     , (546, 151,         15) /* HookType */;
+     , (546, 151,         15) /* HookType - Floor, Wall, Ceiling, Yard */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (546,   1, 'Egg') /* Name */

@@ -12,8 +12,8 @@ VALUES (30639,   1,         16) /* ItemType - Creature */
      , (30639,  27,          0) /* ArmorType */
      , (30639,  40,          2) /* CombatMode - Melee */
      , (30639,  68,          3) /* TargetingTactic */
-     , (30639,  93,       1032) /* PhysicsState */
-     , (30639, 101,        131) /* AiAllowedCombatStyle */
+     , (30639,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
+     , (30639, 101,        131) /* AiAllowedCombatStyle - Unarmed, OneHanded, ThrownWeapon */
      , (30639, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (30639, 140,          1) /* AiOptions */
      , (30639, 146,          0) /* XpOverride */;
@@ -74,7 +74,7 @@ VALUES (30639,   1,   33559206) /* Setup */
      , (30639,   7,  268436893) /* ClothingBase */
      , (30639,   8,  100667453) /* Icon */
      , (30639,  22,  872415255) /* PhysicsEffectTable */
-     , (30639,  35,        448) /* DeathTreasureType */;
+     , (30639,  35,        448) /* DeathTreasureType - Loot Tier: 4 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (30639,   1, 310, 0, 0) /* Strength */
@@ -243,4 +243,4 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 268435537 /* Twitch1 */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (30639, 9, 30747,  0, 0, 1, False) /* Create Oily Stone for ContainTreasure */;
+VALUES (30639, 9, 30747,  0, 0, 1, False) /* Create Oily Stone (30747) for ContainTreasure */;

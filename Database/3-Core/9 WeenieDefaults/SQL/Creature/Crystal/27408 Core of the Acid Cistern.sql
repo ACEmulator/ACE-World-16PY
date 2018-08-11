@@ -13,8 +13,8 @@ VALUES (27408,   1,         16) /* ItemType - Creature */
      , (27408,  40,          2) /* CombatMode - Melee */
      , (27408,  67,          1) /* Tolerance */
      , (27408,  68,          5) /* TargetingTactic */
-     , (27408,  93,       1032) /* PhysicsState */
-     , (27408, 101,        131) /* AiAllowedCombatStyle */
+     , (27408,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
+     , (27408, 101,        131) /* AiAllowedCombatStyle - Unarmed, OneHanded, ThrownWeapon */
      , (27408, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (27408, 146,          0) /* XpOverride */;
 

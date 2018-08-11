@@ -14,8 +14,8 @@ VALUES (5868,   1,         16) /* ItemType - Creature */
      , (5868,  68,          3) /* TargetingTactic */
      , (5868,  81,          1) /* MaxGeneratedObjects */
      , (5868,  82,          1) /* InitGeneratedObjects */
-     , (5868,  93,       1032) /* PhysicsState */
-     , (5868, 101,        183) /* AiAllowedCombatStyle */
+     , (5868,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
+     , (5868, 101,        183) /* AiAllowedCombatStyle - Unarmed, OneHanded, OneHandedAndShield, Bow, Crossbow, ThrownWeapon */
      , (5868, 103,          3) /* GeneratorDestructionType - Kill */
      , (5868, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (5868, 140,          1) /* AiOptions */
@@ -76,8 +76,17 @@ VALUES (5868,   1,   33554839) /* Setup */
      , (5868,   7,  268436788) /* ClothingBase */
      , (5868,   8,  100667942) /* Icon */
      , (5868,  22,  872415272) /* PhysicsEffectTable */
-     , (5868,  32,        291) /* WieldedTreasureType */
-     , (5868,  35,        266) /* DeathTreasureType */;
+     , (5868,  32,        291) /* WieldedTreasureType - 
+                                   Wield 5x Frost Throwing Club (23663) | Probability: 40%
+                                   Wield 5x Throwing Club (23655) | Probability: 30%
+                                   Wield Yumi (23736) | Probability: 30%
+                                   Wield 18x Greater Arrow (5304) | Probability: 100%
+                                   Wield Frost Yari (23728) | Probability: 25%
+                                   Wield Yari (23732) | Probability: 25%
+                                   Wield Frost Spear (23694) | Probability: 15%
+                                   Wield Spear (23698) | Probability: 15%
+                                   Wield Tachi (23702) | Probability: 20% */
+     , (5868,  35,        266) /* DeathTreasureType - Loot Tier: 5 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (5868,   1, 280, 0, 0) /* Strength */
@@ -151,4 +160,4 @@ VALUES (5868,  94) /* ATTACK_NOTIFICATION_EVENT */
      , (5868, 414) /* PLAYER_DEATH_EVENT */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (5868, 1, 26008, 240, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0);
+VALUES (5868, 1, 26008, 240, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Gelidite Golem (26008) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Scatter */;

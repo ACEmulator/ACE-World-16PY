@@ -12,8 +12,8 @@ VALUES (27860,   1,         16) /* ItemType - Creature */
      , (27860,  27,          0) /* ArmorType */
      , (27860,  40,          2) /* CombatMode - Melee */
      , (27860,  68,         13) /* TargetingTactic */
-     , (27860,  93,       1032) /* PhysicsState */
-     , (27860, 101,        131) /* AiAllowedCombatStyle */
+     , (27860,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
+     , (27860, 101,        131) /* AiAllowedCombatStyle - Unarmed, OneHanded, ThrownWeapon */
      , (27860, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (27860, 140,          1) /* AiOptions */
      , (27860, 146,        900) /* XpOverride */;
@@ -71,7 +71,7 @@ VALUES (27860,   1,   33556882) /* Setup */
      , (27860,   8,  100671185) /* Icon */
      , (27860,  22,  872415337) /* PhysicsEffectTable */
      , (27860,  30,         83) /* PhysicsScript - PortalExit */
-     , (27860,  35,        453) /* DeathTreasureType */;
+     , (27860,  35,        453) /* DeathTreasureType - Loot Tier: 1 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (27860,   1,  95, 0, 0) /* Strength */
@@ -175,5 +175,5 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 268435537 /* Twitch1 */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (27860, 9,     0,  0, 0, 0.97, False) /* Create Unknown for ContainTreasure */
-     , (27860, 9,  7825,  0, 0, 0.03, False) /* Create Brown Beans for ContainTreasure */;
+VALUES (27860, 9,     0,  0, 0, 0.97, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 1 for ContainTreasure */
+     , (27860, 9,  7825,  0, 0, 0.03, False) /* Create Brown Beans (7825) for ContainTreasure */;

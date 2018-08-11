@@ -10,10 +10,10 @@ VALUES (27038,   1,         16) /* ItemType - Creature */
      , (27038,  16,         32) /* ItemUseable - Remote */
      , (27038,  25,         10) /* Level */
      , (27038,  27,          0) /* ArmorType */
-     , (27038,  74,     264192) /* MerchandiseItemTypes */
+     , (27038,  74,     264192) /* MerchandiseItemTypes - Gem, PromissoryNote */
      , (27038,  75,          0) /* MerchandiseMinValue */
      , (27038,  76,    1000000) /* MerchandiseMaxValue */
-     , (27038,  93,    2098204) /* PhysicsState */
+     , (27038,  93,    2098204) /* PhysicsState - Ethereal, ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */
      , (27038, 126,        125) /* VendorHappyMean */
      , (27038, 127,        125) /* VendorHappyVariance */
      , (27038, 133,          4) /* ShowableOnRadar - ShowAlways */
@@ -97,4 +97,4 @@ VALUES (27038,  0,  4,  0,    0,    0,    0,    0,    0,    0,    0,    0,    0,
      , (27038,  8,  4,  2, 0.75,    0,    0,    0,    0,    0,    0,    0,    0,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (27038, 4, 26403, -1, 0, 0, False) /* Create Taralla Portal Gem for Shop */;
+VALUES (27038, 4, 26403, -1, 0, 0, False) /* Create Taralla Portal Gem (26403) for Shop */;

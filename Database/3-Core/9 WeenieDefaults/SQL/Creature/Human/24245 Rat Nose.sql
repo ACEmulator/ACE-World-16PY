@@ -10,7 +10,7 @@ VALUES (24245,   1,         16) /* ItemType - Creature */
      , (24245,  16,         32) /* ItemUseable - Remote */
      , (24245,  25,        118) /* Level */
      , (24245,  27,          0) /* ArmorType */
-     , (24245,  93,    6292504) /* PhysicsState */
+     , (24245,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (24245,  95,          8) /* RadarBlipColor - Yellow */
      , (24245, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (24245, 134,         16) /* PlayerKillerStatus - RubberGlue */
@@ -166,8 +166,8 @@ VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 1090519043 /* Ready */, NULL, NU
      , (@parent_id,  2,  10 /* Tell */, 1, 1, NULL, 'Hey, they call me Rat Nose.  Because I bit off a rat''s nose once.  None of your business, but I was hungry if ya must know.  Or maybe I just wanted to. Anyway, I''m glad ya brought weapons.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (24245, 2, 22013,  0, 0, 0, False) /* Create Olthoi Helm for Wield */
-     , (24245, 2, 24238,  0, 0, 0, False) /* Create Olthoi Atlatl for Wield */
-     , (24245, 2, 24265,  0, 0, 0, False) /* Create Olthoi Fighter Shirt (Male) for Wield */
-     , (24245, 2, 24267,  0, 0, 0, False) /* Create Olthoi Fighter Shorts (Male) for Wield */
-     , (24245, 2, 24268,  0, 0, 0, False) /* Create Olthoi Fighter Sleeves for Wield */;
+VALUES (24245, 2, 22013,  0, 0, 0, False) /* Create Olthoi Helm (22013) for Wield */
+     , (24245, 2, 24238,  0, 0, 0, False) /* Create Olthoi Atlatl (24238) for Wield */
+     , (24245, 2, 24265,  0, 0, 0, False) /* Create Olthoi Fighter Shirt (Male) (24265) for Wield */
+     , (24245, 2, 24267,  0, 0, 0, False) /* Create Olthoi Fighter Shorts (Male) (24267) for Wield */
+     , (24245, 2, 24268,  0, 0, 0, False) /* Create Olthoi Fighter Sleeves (24268) for Wield */;

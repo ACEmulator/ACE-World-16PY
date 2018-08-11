@@ -9,7 +9,7 @@ VALUES (27923,   1,        128) /* ItemType - Misc */
      , (27923,  16,          1) /* ItemUseable - No */
      , (27923,  19,          0) /* Value */
      , (27923,  33,          1) /* Bonded - Bonded */
-     , (27923,  93,       1044) /* PhysicsState */
+     , (27923,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (27923, 114,          1) /* Attuned - Attuned */
      , (27923, 150,        103) /* HookPlacement - Hook */
      , (27923, 151,          1) /* HookType - Floor */;

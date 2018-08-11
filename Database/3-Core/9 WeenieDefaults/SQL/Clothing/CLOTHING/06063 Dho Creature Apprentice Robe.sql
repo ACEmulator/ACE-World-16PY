@@ -4,7 +4,7 @@ VALUES ('6063', 'robesuckcreaturegharundim', 2) /* Clothing */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (6063,   1,          4) /* ItemType - Clothing */
      , (6063,   3,         18) /* PaletteTemplate - YellowBrown */
-     , (6063,   4,      81664) /* ClothingPriority */
+     , (6063,   4,      81664) /* ClothingPriority - OuterwearUpperLegs, OuterwearLowerLegs, OuterwearChest, OuterwearAbdomen, OuterwearUpperArms, OuterwearLowerArms, Feet */
      , (6063,   5,        200) /* EncumbranceVal */
      , (6063,   8,        150) /* Mass */
      , (6063,   9,      32512) /* ValidLocations - Armor */
@@ -13,7 +13,7 @@ VALUES (6063,   1,          4) /* ItemType - Clothing */
      , (6063,  19,       1120) /* Value */
      , (6063,  27,          1) /* ArmorType */
      , (6063,  28,          0) /* ArmorLevel */
-     , (6063,  93,       1044) /* PhysicsState */
+     , (6063,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (6063, 106,        270) /* ItemSpellcraft */
      , (6063, 107,        250) /* ItemCurMana */
      , (6063, 108,        250) /* ItemMaxMana */

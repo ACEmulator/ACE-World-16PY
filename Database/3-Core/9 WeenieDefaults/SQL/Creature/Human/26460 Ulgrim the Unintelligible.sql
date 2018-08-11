@@ -11,7 +11,7 @@ VALUES (26460,   1,         16) /* ItemType - Creature */
      , (26460,  16,         32) /* ItemUseable - Remote */
      , (26460,  25,         50) /* Level */
      , (26460,  27,          0) /* ArmorType */
-     , (26460,  93,    6292504) /* PhysicsState */
+     , (26460,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (26460,  95,          8) /* RadarBlipColor - Yellow */
      , (26460, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (26460, 134,         16) /* PlayerKillerStatus - RubberGlue */
@@ -288,7 +288,7 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,  10 /* Tell */, 0, 1, NULL, 'Sodding jackson ring! Feh! Dumb electric criers!', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (26460, 2,  2588,  0, 9, 1, False) /* Create Shirt for Wield */
-     , (26460, 2,  2597,  0, 9, 1, False) /* Create Pants for Wield */
-     , (26460, 2,  5850,  0, 4, 0.5, False) /* Create Faran Robe for Wield */
-     , (26460, 2, 22256,  0, 0, 0, False) /* Create Fishing Pole for Wield */;
+VALUES (26460, 2,  2588,  0, 9, 1, False) /* Create Shirt (2588) for Wield */
+     , (26460, 2,  2597,  0, 9, 1, False) /* Create Pants (2597) for Wield */
+     , (26460, 2,  5850,  0, 4, 0.5, False) /* Create Faran Robe (5850) for Wield */
+     , (26460, 2, 22256,  0, 0, 0, False) /* Create Fishing Pole (22256) for Wield */;

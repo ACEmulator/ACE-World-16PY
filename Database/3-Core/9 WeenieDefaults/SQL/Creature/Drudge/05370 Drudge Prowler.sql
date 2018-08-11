@@ -12,8 +12,8 @@ VALUES (5370,   1,         16) /* ItemType - Creature */
      , (5370,  27,          0) /* ArmorType */
      , (5370,  40,          2) /* CombatMode - Melee */
      , (5370,  68,          5) /* TargetingTactic */
-     , (5370,  93,       1032) /* PhysicsState */
-     , (5370, 101,        131) /* AiAllowedCombatStyle */
+     , (5370,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
+     , (5370, 101,        131) /* AiAllowedCombatStyle - Unarmed, OneHanded, ThrownWeapon */
      , (5370, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (5370, 140,          1) /* AiOptions */
      , (5370, 146,        179) /* XpOverride */;
@@ -69,7 +69,7 @@ VALUES (5370,   1,   33556445) /* Setup */
      , (5370,   7,  268435970) /* ClothingBase */
      , (5370,   8,  100667445) /* Icon */
      , (5370,  22,  872415258) /* PhysicsEffectTable */
-     , (5370,  35,        453) /* DeathTreasureType */;
+     , (5370,  35,        453) /* DeathTreasureType - Loot Tier: 1 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (5370,   1,  30, 0, 0) /* Strength */
@@ -188,4 +188,4 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 268435537 /* Twitch1 */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (5370, 1,  5363,  0, 0, 0, False) /* Create Scrawled Note for Contain */;
+VALUES (5370, 1,  5363,  0, 0, 0, False) /* Create Scrawled Note (5363) for Contain */;

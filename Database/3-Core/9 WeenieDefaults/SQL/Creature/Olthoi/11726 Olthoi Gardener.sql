@@ -14,7 +14,7 @@ VALUES (11726,   1,         16) /* ItemType - Creature */
      , (11726,  40,          2) /* CombatMode - Melee */
      , (11726,  68,         13) /* TargetingTactic */
      , (11726,  72,         35) /* FriendType - OlthoiLarvae */
-     , (11726,  93,       1032) /* PhysicsState */
+     , (11726,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (11726, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (11726, 140,          1) /* AiOptions */
      , (11726, 146,       2555) /* XpOverride */;
@@ -71,7 +71,7 @@ VALUES (11726,   1,   33557164) /* Setup */
      , (11726,   8,  100667623) /* Icon */
      , (11726,  22,  872415265) /* PhysicsEffectTable */
      , (11726,  30,         85) /* PhysicsScript - BreatheFrost */
-     , (11726,  35,        453) /* DeathTreasureType */;
+     , (11726,  35,        453) /* DeathTreasureType - Loot Tier: 1 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (11726,   1, 120, 0, 0) /* Strength */
@@ -124,5 +124,5 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 268435537 /* Twitch1 */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (11726, 9,     0,  0, 0, 0, False) /* Create Unknown for ContainTreasure */
-     , (11726, 9, 10844,  0, 0, 1, False) /* Create Gardener Pincer for ContainTreasure */;
+VALUES (11726, 9,     0,  0, 0, 0, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 1 for ContainTreasure */
+     , (11726, 9, 10844,  0, 0, 1, False) /* Create Gardener Pincer (10844) for ContainTreasure */;

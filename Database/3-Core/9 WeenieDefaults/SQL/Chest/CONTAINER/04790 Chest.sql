@@ -12,7 +12,7 @@ VALUES (4790,   1,        512) /* ItemType - Container */
      , (4790,  81,          2) /* MaxGeneratedObjects */
      , (4790,  82,          2) /* InitGeneratedObjects */
      , (4790,  83,          2) /* ActivationResponse - Use */
-     , (4790,  93,       1048) /* PhysicsState */
+     , (4790,  93,       1048) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity */
      , (4790,  96,        500) /* EncumbranceCapacity */
      , (4790, 100,          1) /* GeneratorType - Relative */;
 
@@ -43,5 +43,5 @@ VALUES (4790,   1,   33554556) /* Setup */
      , (4790,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (4790, -1, 273, 1200, 1, 1, 2, 8, 75, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0)
-     , (4790, -1, 4793, 30, 1, 1, 2, 8, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0);
+VALUES (4790, -1, 273, 1200, 1, 1, 2, 8, 75, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Pyreal (273) (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: Contain */
+     , (4790, -1, 4793, 30, 1, 1, 2, 8, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Brentsella's Key (4793) (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: Contain */;

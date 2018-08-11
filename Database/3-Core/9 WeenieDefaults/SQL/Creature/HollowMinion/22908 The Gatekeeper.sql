@@ -12,7 +12,7 @@ VALUES (22908,   1,         16) /* ItemType - Creature */
      , (22908,  27,          0) /* ArmorType */
      , (22908,  68,          3) /* TargetingTactic */
      , (22908,  72,         19) /* FriendType - Virindi */
-     , (22908,  93,       1032) /* PhysicsState */
+     , (22908,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (22908, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (22908, 140,          1) /* AiOptions */
      , (22908, 146,     109351) /* XpOverride */;
@@ -69,7 +69,7 @@ VALUES (22908,   1,   33556792) /* Setup */
      , (22908,   7,  268436617) /* ClothingBase */
      , (22908,   8,  100671140) /* Icon */
      , (22908,  22,  872415367) /* PhysicsEffectTable */
-     , (22908,  35,        355) /* DeathTreasureType */;
+     , (22908,  35,        355) /* DeathTreasureType - Loot Tier: 5 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (22908,   1, 350, 0, 0) /* Strength */
@@ -131,45 +131,45 @@ VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 1090519043 /* Ready */, NULL, NU
      , (@parent_id,  1,   5 /* Motion */, 0, 1, 1090519060 /* Sleeping */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (22908, 9,     0,  0, 0, 0.95, False) /* Create Unknown for ContainTreasure */
-     , (22908, 9,     0,  0, 0, 0, False) /* Create Unknown for ContainTreasure */
-     , (22908, 9,     0,  0, 0, 0, False) /* Create Unknown for ContainTreasure */
-     , (22908, 9,     0,  0, 0, 0, False) /* Create Unknown for ContainTreasure */
-     , (22908, 9,     0,  0, 0, 0, False) /* Create Unknown for ContainTreasure */
-     , (22908, 9,     0,  0, 0, 0, False) /* Create Unknown for ContainTreasure */
-     , (22908, 9,     0,  0, 0, 0, False) /* Create Unknown for ContainTreasure */
-     , (22908, 9,     0,  0, 0, 0, False) /* Create Unknown for ContainTreasure */
-     , (22908, 9,     0,  0, 0, 0, False) /* Create Unknown for ContainTreasure */
-     , (22908, 9,     0,  0, 0, 0, False) /* Create Unknown for ContainTreasure */
-     , (22908, 9,     0,  0, 0, 0, False) /* Create Unknown for ContainTreasure */
-     , (22908, 9,     0,  0, 0, 0, False) /* Create Unknown for ContainTreasure */
-     , (22908, 9,     0,  0, 0, 0, False) /* Create Unknown for ContainTreasure */
-     , (22908, 9,     0,  0, 0, 0, False) /* Create Unknown for ContainTreasure */
-     , (22908, 9,     0,  0, 0, 0, False) /* Create Unknown for ContainTreasure */
-     , (22908, 9,     0,  0, 0, 0, False) /* Create Unknown for ContainTreasure */
-     , (22908, 9,     0,  0, 0, 0, False) /* Create Unknown for ContainTreasure */
-     , (22908, 9,     0,  0, 0, 0, False) /* Create Unknown for ContainTreasure */
-     , (22908, 9,     0,  0, 0, 0, False) /* Create Unknown for ContainTreasure */
-     , (22908, 9,     0,  0, 0, 0, False) /* Create Unknown for ContainTreasure */
-     , (22908, 9,     0,  0, 0, 0, False) /* Create Unknown for ContainTreasure */
-     , (22908, 9,  9292,  0, 0, 0.05, False) /* Create Virindi Singularity Key for ContainTreasure */
-     , (22908, 9, 22922,  0, 0, 1, False) /* Create Asylum Chest Key for ContainTreasure */
-     , (22908, 9, 22922,  0, 0, 1, False) /* Create Asylum Chest Key for ContainTreasure */
-     , (22908, 9, 22922,  0, 0, 1, False) /* Create Asylum Chest Key for ContainTreasure */
-     , (22908, 9, 22922,  0, 0, 1, False) /* Create Asylum Chest Key for ContainTreasure */
-     , (22908, 9, 22922,  0, 0, 1, False) /* Create Asylum Chest Key for ContainTreasure */
-     , (22908, 9, 22922,  0, 0, 1, False) /* Create Asylum Chest Key for ContainTreasure */
-     , (22908, 9, 22922,  0, 0, 1, False) /* Create Asylum Chest Key for ContainTreasure */
-     , (22908, 9, 22922,  0, 0, 1, False) /* Create Asylum Chest Key for ContainTreasure */
-     , (22908, 9, 22922,  0, 0, 1, False) /* Create Asylum Chest Key for ContainTreasure */
-     , (22908, 9, 22922,  0, 0, 1, False) /* Create Asylum Chest Key for ContainTreasure */
-     , (22908, 9, 25947,  0, 0, 1, False) /* Create Dark Ruby Ring for ContainTreasure */
-     , (22908, 9, 25947,  0, 0, 1, False) /* Create Dark Ruby Ring for ContainTreasure */
-     , (22908, 9, 25947,  0, 0, 1, False) /* Create Dark Ruby Ring for ContainTreasure */
-     , (22908, 9, 25947,  0, 0, 1, False) /* Create Dark Ruby Ring for ContainTreasure */
-     , (22908, 9, 25947,  0, 0, 1, False) /* Create Dark Ruby Ring for ContainTreasure */
-     , (22908, 9, 25947,  0, 0, 1, False) /* Create Dark Ruby Ring for ContainTreasure */
-     , (22908, 9, 25947,  0, 0, 1, False) /* Create Dark Ruby Ring for ContainTreasure */
-     , (22908, 9, 25947,  0, 0, 1, False) /* Create Dark Ruby Ring for ContainTreasure */
-     , (22908, 9, 25947,  0, 0, 1, False) /* Create Dark Ruby Ring for ContainTreasure */
-     , (22908, 9, 25947,  0, 0, 1, False) /* Create Dark Ruby Ring for ContainTreasure */;
+VALUES (22908, 9,     0,  0, 0, 0.95, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 5 for ContainTreasure */
+     , (22908, 9,     0,  0, 0, 0, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 5 for ContainTreasure */
+     , (22908, 9,     0,  0, 0, 0, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 5 for ContainTreasure */
+     , (22908, 9,     0,  0, 0, 0, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 5 for ContainTreasure */
+     , (22908, 9,     0,  0, 0, 0, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 5 for ContainTreasure */
+     , (22908, 9,     0,  0, 0, 0, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 5 for ContainTreasure */
+     , (22908, 9,     0,  0, 0, 0, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 5 for ContainTreasure */
+     , (22908, 9,     0,  0, 0, 0, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 5 for ContainTreasure */
+     , (22908, 9,     0,  0, 0, 0, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 5 for ContainTreasure */
+     , (22908, 9,     0,  0, 0, 0, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 5 for ContainTreasure */
+     , (22908, 9,     0,  0, 0, 0, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 5 for ContainTreasure */
+     , (22908, 9,     0,  0, 0, 0, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 5 for ContainTreasure */
+     , (22908, 9,     0,  0, 0, 0, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 5 for ContainTreasure */
+     , (22908, 9,     0,  0, 0, 0, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 5 for ContainTreasure */
+     , (22908, 9,     0,  0, 0, 0, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 5 for ContainTreasure */
+     , (22908, 9,     0,  0, 0, 0, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 5 for ContainTreasure */
+     , (22908, 9,     0,  0, 0, 0, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 5 for ContainTreasure */
+     , (22908, 9,     0,  0, 0, 0, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 5 for ContainTreasure */
+     , (22908, 9,     0,  0, 0, 0, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 5 for ContainTreasure */
+     , (22908, 9,     0,  0, 0, 0, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 5 for ContainTreasure */
+     , (22908, 9,     0,  0, 0, 0, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 5 for ContainTreasure */
+     , (22908, 9,  9292,  0, 0, 0.05, False) /* Create Virindi Singularity Key (9292) for ContainTreasure */
+     , (22908, 9, 22922,  0, 0, 1, False) /* Create Asylum Chest Key (22922) for ContainTreasure */
+     , (22908, 9, 22922,  0, 0, 1, False) /* Create Asylum Chest Key (22922) for ContainTreasure */
+     , (22908, 9, 22922,  0, 0, 1, False) /* Create Asylum Chest Key (22922) for ContainTreasure */
+     , (22908, 9, 22922,  0, 0, 1, False) /* Create Asylum Chest Key (22922) for ContainTreasure */
+     , (22908, 9, 22922,  0, 0, 1, False) /* Create Asylum Chest Key (22922) for ContainTreasure */
+     , (22908, 9, 22922,  0, 0, 1, False) /* Create Asylum Chest Key (22922) for ContainTreasure */
+     , (22908, 9, 22922,  0, 0, 1, False) /* Create Asylum Chest Key (22922) for ContainTreasure */
+     , (22908, 9, 22922,  0, 0, 1, False) /* Create Asylum Chest Key (22922) for ContainTreasure */
+     , (22908, 9, 22922,  0, 0, 1, False) /* Create Asylum Chest Key (22922) for ContainTreasure */
+     , (22908, 9, 22922,  0, 0, 1, False) /* Create Asylum Chest Key (22922) for ContainTreasure */
+     , (22908, 9, 25947,  0, 0, 1, False) /* Create Dark Ruby Ring (25947) for ContainTreasure */
+     , (22908, 9, 25947,  0, 0, 1, False) /* Create Dark Ruby Ring (25947) for ContainTreasure */
+     , (22908, 9, 25947,  0, 0, 1, False) /* Create Dark Ruby Ring (25947) for ContainTreasure */
+     , (22908, 9, 25947,  0, 0, 1, False) /* Create Dark Ruby Ring (25947) for ContainTreasure */
+     , (22908, 9, 25947,  0, 0, 1, False) /* Create Dark Ruby Ring (25947) for ContainTreasure */
+     , (22908, 9, 25947,  0, 0, 1, False) /* Create Dark Ruby Ring (25947) for ContainTreasure */
+     , (22908, 9, 25947,  0, 0, 1, False) /* Create Dark Ruby Ring (25947) for ContainTreasure */
+     , (22908, 9, 25947,  0, 0, 1, False) /* Create Dark Ruby Ring (25947) for ContainTreasure */
+     , (22908, 9, 25947,  0, 0, 1, False) /* Create Dark Ruby Ring (25947) for ContainTreasure */
+     , (22908, 9, 25947,  0, 0, 1, False) /* Create Dark Ruby Ring (25947) for ContainTreasure */;

@@ -12,7 +12,7 @@ VALUES (8396,   1,          2) /* ItemType - Armor */
      , (8396,  19,       1185) /* Value */
      , (8396,  27,         32) /* ArmorType */
      , (8396,  28,        150) /* ArmorLevel */
-     , (8396,  93,       1044) /* PhysicsState */
+     , (8396,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (8396, 150,        103) /* HookPlacement - Hook */
      , (8396, 151,          2) /* HookType - Wall */;
 

@@ -12,8 +12,8 @@ VALUES (23562,   1,         16) /* ItemType - Creature */
      , (23562,  25,        110) /* Level */
      , (23562,  27,          0) /* ArmorType */
      , (23562,  68,          3) /* TargetingTactic */
-     , (23562,  93,       1032) /* PhysicsState */
-     , (23562, 101,        183) /* AiAllowedCombatStyle */
+     , (23562,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
+     , (23562, 101,        183) /* AiAllowedCombatStyle - Unarmed, OneHanded, OneHandedAndShield, Bow, Crossbow, ThrownWeapon */
      , (23562, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (23562, 140,          1) /* AiOptions */
      , (23562, 146,      51726) /* XpOverride */;
@@ -76,7 +76,7 @@ VALUES (23562,   1,   33556251) /* Setup */
      , (23562,   7,  268435871) /* ClothingBase */
      , (23562,   8,  100670398) /* Icon */
      , (23562,  22,  872415331) /* PhysicsEffectTable */
-     , (23562,  35,        460) /* DeathTreasureType */;
+     , (23562,  35,        460) /* DeathTreasureType - Loot Tier: 4 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (23562,   1, 280, 0, 0) /* Strength */
@@ -150,9 +150,9 @@ VALUES (23562,  94) /* ATTACK_NOTIFICATION_EVENT */
      , (23562, 414) /* PLAYER_DEATH_EVENT */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (23562, 9,     0,  0, 0, 0.96, False) /* Create Unknown for ContainTreasure */
-     , (23562, 9,     0,  0, 0, 0.97, False) /* Create Unknown for ContainTreasure */
-     , (23562, 9,     0,  0, 0, 0.98, False) /* Create Unknown for ContainTreasure */
-     , (23562, 9,  6058,  0, 0, 0.04, False) /* Create Dark Shard for ContainTreasure */
-     , (23562, 9,  6876,  0, 0, 0.03, False) /* Create Sturdy Iron Key for ContainTreasure */
-     , (23562, 9, 20856,  0, 0, 0.02, False) /* Create Bael'Zharon Stamp for ContainTreasure */;
+VALUES (23562, 9,     0,  0, 0, 0.96, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 4 for ContainTreasure */
+     , (23562, 9,     0,  0, 0, 0.97, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 4 for ContainTreasure */
+     , (23562, 9,     0,  0, 0, 0.98, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 4 for ContainTreasure */
+     , (23562, 9,  6058,  0, 0, 0.04, False) /* Create Dark Shard (6058) for ContainTreasure */
+     , (23562, 9,  6876,  0, 0, 0.03, False) /* Create Sturdy Iron Key (6876) for ContainTreasure */
+     , (23562, 9, 20856,  0, 0, 0.02, False) /* Create Bael'Zharon Stamp (20856) for ContainTreasure */;

@@ -10,10 +10,10 @@ VALUES (26975,   1,         16) /* ItemType - Creature */
      , (26975,  16,         32) /* ItemUseable - Remote */
      , (26975,  25,         10) /* Level */
      , (26975,  27,          0) /* ArmorType */
-     , (26975,  74,     264192) /* MerchandiseItemTypes */
+     , (26975,  74,     264192) /* MerchandiseItemTypes - Gem, PromissoryNote */
      , (26975,  75,          0) /* MerchandiseMinValue */
      , (26975,  76,    1000000) /* MerchandiseMaxValue */
-     , (26975,  93,    2098204) /* PhysicsState */
+     , (26975,  93,    2098204) /* PhysicsState - Ethereal, ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */
      , (26975, 126,        125) /* VendorHappyMean */
      , (26975, 127,        125) /* VendorHappyVariance */
      , (26975, 133,          4) /* ShowableOnRadar - ShowAlways */
@@ -97,4 +97,4 @@ VALUES (26975,  0,  4,  0,    0,    0,    0,    0,    0,    0,    0,    0,    0,
      , (26975,  8,  4,  2, 0.75,    0,    0,    0,    0,    0,    0,    0,    0,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (26975, 4, 26340, -1, 0, 0, False) /* Create San-Chin Portal Gem for Shop */;
+VALUES (26975, 4, 26340, -1, 0, 0, False) /* Create San-Chin Portal Gem (26340) for Shop */;

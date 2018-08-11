@@ -12,8 +12,8 @@ VALUES (1259,   1,         16) /* ItemType - Creature */
      , (1259,  27,          0) /* ArmorType */
      , (1259,  40,          2) /* CombatMode - Melee */
      , (1259,  68,         13) /* TargetingTactic */
-     , (1259,  93,       1032) /* PhysicsState */
-     , (1259, 101,        131) /* AiAllowedCombatStyle */
+     , (1259,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
+     , (1259, 101,        131) /* AiAllowedCombatStyle - Unarmed, OneHanded, ThrownWeapon */
      , (1259, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (1259, 146,        319) /* XpOverride */;
 
@@ -67,8 +67,18 @@ VALUES (1259,   1,   33557327) /* Setup */
      , (1259,   7,  268436291) /* ClothingBase */
      , (1259,   8,  100667449) /* Icon */
      , (1259,  22,  872415264) /* PhysicsEffectTable */
-     , (1259,  32,        136) /* WieldedTreasureType */
-     , (1259,  35,        138) /* DeathTreasureType */;
+     , (1259,  32,        136) /* WieldedTreasureType - 
+                                   Wield Budiaq (308) | Probability: 15%
+                                   Wield Scimitar (339) | Probability: 12%
+                                   Wield Shamshir (340) | Probability: 12%
+                                   Wield Spear (348) | Probability: 25%
+                                   Wield Tachi (353) | Probability: 11%
+                                   Wield 10x Throwing Dart (316) | Probability: 5%
+                                   Wield 10x Shouken (343) | Probability: 5%
+                                   Wield 6x Throwing Dagger (315) | Probability: 5%
+                                   Wield 4x Javelin (320) | Probability: 2%
+                                   Wield Djarid (317) | Probability: 10% */
+     , (1259,  35,        138) /* DeathTreasureType - Loot Tier: 2 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (1259,   1,  95, 0, 0) /* Strength */
@@ -140,4 +150,4 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 268435537 /* Twitch1 */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (1259, 1,  1263,  0, 0, 0, False) /* Create Key for Contain */;
+VALUES (1259, 1,  1263,  0, 0, 0, False) /* Create Key (1263) for Contain */;

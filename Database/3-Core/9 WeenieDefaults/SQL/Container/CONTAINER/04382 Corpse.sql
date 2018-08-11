@@ -11,7 +11,7 @@ VALUES (4382,   1,        512) /* ItemType - Container */
      , (4382,  19,          0) /* Value */
      , (4382,  81,          1) /* MaxGeneratedObjects */
      , (4382,  82,          1) /* InitGeneratedObjects */
-     , (4382,  93,       1052) /* PhysicsState */
+     , (4382,  93,       1052) /* PhysicsState - Ethereal, ReportCollisions, IgnoreCollisions, Gravity */
      , (4382,  96,        500) /* EncumbranceCapacity */
      , (4382, 100,          1) /* GeneratorType - Relative */;
 
@@ -37,8 +37,8 @@ VALUES (4382,   1,   33556619) /* Setup */
      , (4382,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (4382, 0.1, 5339, 1000, 1, 1, 2, 8, 10, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0)
-     , (4382, 0.2, 5338, 1500, 1, 1, 2, 8, 5, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0)
-     , (4382, 0.3, 4768, 1500, 1, 1, 2, 8, 2, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0)
-     , (4382, 0.4, 5328, 1500, 1, 1, 2, 8, 5, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0)
-     , (4382, 1, 454, 1500, 1, 1, 2, 72, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0);
+VALUES (4382, 0.1, 5339, 1000, 1, 1, 2, 8, 10, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Bundle of Quarrelshafts (5339) (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: Contain */
+     , (4382, 0.2, 5338, 1500, 1, 1, 2, 8, 5, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Neutral Balm (5338) (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: Contain */
+     , (4382, 0.3, 4768, 1500, 1, 1, 2, 8, 2, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Uncooked Rice (4768) (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: Contain */
+     , (4382, 0.4, 5328, 1500, 1, 1, 2, 8, 5, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Victual Infusion (5328) (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: Contain */
+     , (4382, 1, 454, 1500, 1, 1, 2, 72, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate RANDOMLY GENERATED TREASURE from Loot Tier 4 (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: ContainTreasure */;

@@ -10,10 +10,10 @@ VALUES (27006,   1,         16) /* ItemType - Creature */
      , (27006,  16,         32) /* ItemUseable - Remote */
      , (27006,  25,         10) /* Level */
      , (27006,  27,          0) /* ArmorType */
-     , (27006,  74,     264192) /* MerchandiseItemTypes */
+     , (27006,  74,     264192) /* MerchandiseItemTypes - Gem, PromissoryNote */
      , (27006,  75,          0) /* MerchandiseMinValue */
      , (27006,  76,    1000000) /* MerchandiseMaxValue */
-     , (27006,  93,    2098204) /* PhysicsState */
+     , (27006,  93,    2098204) /* PhysicsState - Ethereal, ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */
      , (27006, 126,        125) /* VendorHappyMean */
      , (27006, 127,        125) /* VendorHappyVariance */
      , (27006, 133,          4) /* ShowableOnRadar - ShowAlways */
@@ -97,4 +97,4 @@ VALUES (27006,  0,  4,  0,    0,    0,    0,    0,    0,    0,    0,    0,    0,
      , (27006,  8,  4,  2, 0.75,    0,    0,    0,    0,    0,    0,    0,    0,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (27006, 4, 26371, -1, 0, 0, False) /* Create Songview Portal Gem for Shop */;
+VALUES (27006, 4, 26371, -1, 0, 0, False) /* Create Songview Portal Gem (26371) for Shop */;

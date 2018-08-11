@@ -12,7 +12,7 @@ VALUES (4886,   1,        512) /* ItemType - Container */
      , (4886,  81,          1) /* MaxGeneratedObjects */
      , (4886,  82,          1) /* InitGeneratedObjects */
      , (4886,  83,          2) /* ActivationResponse - Use */
-     , (4886,  93,       1048) /* PhysicsState */
+     , (4886,  93,       1048) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity */
      , (4886,  96,        500) /* EncumbranceCapacity */
      , (4886, 100,          1) /* GeneratorType - Relative */;
 
@@ -42,4 +42,4 @@ VALUES (4886,   1,   33554556) /* Setup */
      , (4886,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (4886, 1, 4889, 30, 1, 1, 2, 8, 1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0);
+VALUES (4886, 1, 4889, 30, 1, 1, 2, 8, 1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Distillery Ambrosia (4889) (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: Contain */;

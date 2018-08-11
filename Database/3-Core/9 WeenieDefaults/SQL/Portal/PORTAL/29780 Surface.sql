@@ -4,7 +4,7 @@ VALUES ('29780', 'portalfontbrowerk', 7) /* Portal */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (29780,   1,      65536) /* ItemType - Portal */
      , (29780,  16,         32) /* ItemUseable - Remote */
-     , (29780,  93,       3084) /* PhysicsState */
+     , (29780,  93,       3084) /* PhysicsState - Ethereal, ReportCollisions, Gravity, LightingOn */
      , (29780, 111,          1) /* PortalBitmask - Unrestricted */
      , (29780, 133,          4) /* ShowableOnRadar - ShowAlways */;
 

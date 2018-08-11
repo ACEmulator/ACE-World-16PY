@@ -8,7 +8,7 @@ VALUES (4095,   1,        128) /* ItemType - Misc */
      , (4095,  16,          1) /* ItemUseable - No */
      , (4095,  19,        200) /* Value */
      , (4095,  83,       4096) /* ActivationResponse - CastSpell */
-     , (4095,  93,         20) /* PhysicsState */
+     , (4095,  93,         20) /* PhysicsState - Ethereal, IgnoreCollisions */
      , (4095, 106,        100) /* ItemSpellcraft */
      , (4095, 119,          1) /* Active */
      , (4095, 134,          8) /* PlayerKillerStatus - Creature */;

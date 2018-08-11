@@ -14,7 +14,7 @@ VALUES (6081,   1,         16) /* ItemType - Creature */
      , (6081,  67,         64) /* Tolerance */
      , (6081,  68,          9) /* TargetingTactic */
      , (6081,  72,         25) /* FriendType - Rabbit */
-     , (6081,  93,       1032) /* PhysicsState */
+     , (6081,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (6081, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (6081, 146,          3) /* XpOverride */;
 
@@ -446,5 +446,5 @@ VALUES (@parent_id,  0,   6 /* Move */, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL
      , (@parent_id,  1,   5 /* Motion */, 0, 1, 1090519043 /* Ready */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (6081, 9,     0,  0, 0, 0.99, False) /* Create Unknown for ContainTreasure */
-     , (6081, 9, 27249,  0, 0, 0.01, False) /* Create Spring Cleaner Title Token for ContainTreasure */;
+VALUES (6081, 9,     0,  0, 0, 0.99, False) /* Create UNKNOWN RANDOMLY GENERATED TREASURE for ContainTreasure */
+     , (6081, 9, 27249,  0, 0, 0.01, False) /* Create Spring Cleaner Title Token (27249) for ContainTreasure */;

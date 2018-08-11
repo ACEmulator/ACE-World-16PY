@@ -11,8 +11,8 @@ VALUES (10949,   1,         16) /* ItemType - Creature */
      , (10949,  25,         85) /* Level */
      , (10949,  27,          0) /* ArmorType */
      , (10949,  68,          5) /* TargetingTactic */
-     , (10949,  93,       1032) /* PhysicsState */
-     , (10949, 101,        183) /* AiAllowedCombatStyle */
+     , (10949,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
+     , (10949, 101,        183) /* AiAllowedCombatStyle - Unarmed, OneHanded, OneHandedAndShield, Bow, Crossbow, ThrownWeapon */
      , (10949, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (10949, 140,          1) /* AiOptions */
      , (10949, 146,      21305) /* XpOverride */;
@@ -74,7 +74,7 @@ VALUES (10949,   1,   33554496) /* Setup */
      , (10949,   7,  268436628) /* ClothingBase */
      , (10949,   8,  100667452) /* Icon */
      , (10949,  22,  872415270) /* PhysicsEffectTable */
-     , (10949,  35,        450) /* DeathTreasureType */;
+     , (10949,  35,        450) /* DeathTreasureType - Loot Tier: 3 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (10949,   1, 250, 0, 0) /* Strength */
@@ -175,9 +175,9 @@ VALUES (10949,  94) /* ATTACK_NOTIFICATION_EVENT */
      , (10949, 414) /* PLAYER_DEATH_EVENT */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (10949, 9,     0,  0, 0, 0, False) /* Create Unknown for ContainTreasure */
-     , (10949, 1, 10968,  1, 0, 0, False) /* Create Karenua's Key for Contain */
-     , (10949, 1, 10968,  1, 0, 0, False) /* Create Karenua's Key for Contain */
-     , (10949, 1, 10968,  1, 0, 0, False) /* Create Karenua's Key for Contain */
-     , (10949, 1, 10968,  1, 0, 0, False) /* Create Karenua's Key for Contain */
-     , (10949, 9, 10969,  0, 0, 1, False) /* Create Awakener for ContainTreasure */;
+VALUES (10949, 9,     0,  0, 0, 0, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 3 for ContainTreasure */
+     , (10949, 1, 10968,  1, 0, 0, False) /* Create Karenua's Key (10968) for Contain */
+     , (10949, 1, 10968,  1, 0, 0, False) /* Create Karenua's Key (10968) for Contain */
+     , (10949, 1, 10968,  1, 0, 0, False) /* Create Karenua's Key (10968) for Contain */
+     , (10949, 1, 10968,  1, 0, 0, False) /* Create Karenua's Key (10968) for Contain */
+     , (10949, 9, 10969,  0, 0, 1, False) /* Create Awakener (10969) for ContainTreasure */;

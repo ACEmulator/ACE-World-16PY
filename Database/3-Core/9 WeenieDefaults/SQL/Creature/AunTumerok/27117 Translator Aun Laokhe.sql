@@ -11,7 +11,7 @@ VALUES (27117,   1,         16) /* ItemType - Creature */
      , (27117,  16,         32) /* ItemUseable - Remote */
      , (27117,  25,         50) /* Level */
      , (27117,  27,          0) /* ArmorType */
-     , (27117,  93,    6292504) /* PhysicsState */
+     , (27117,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (27117,  95,          8) /* RadarBlipColor - Yellow */
      , (27117, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (27117, 134,         16) /* PlayerKillerStatus - RubberGlue */
@@ -69,7 +69,8 @@ VALUES (27117,   1,   33557175) /* Setup */
      , (27117,   6,   67113280) /* PaletteBase */
      , (27117,   7,  268436193) /* ClothingBase */
      , (27117,   8,  100671756) /* Icon */
-     , (27117,  32,        380) /* WieldedTreasureType */;
+     , (27117,  32,        380) /* WieldedTreasureType - 
+                                   Wield Buadren (11971) | Probability: 100% */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (27117,   1, 280, 0, 0) /* Strength */
@@ -664,4 +665,4 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,  10 /* Tell */, 0, 1, NULL, 'This should never happen. What the heck did you do to the game!?', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (27117, 2, 11971,  0, 0, 0, False) /* Create Buadren for Wield */;
+VALUES (27117, 2, 11971,  0, 0, 0, False) /* Create Buadren (11971) for Wield */;

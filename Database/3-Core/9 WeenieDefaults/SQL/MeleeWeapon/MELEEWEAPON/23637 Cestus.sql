@@ -17,7 +17,7 @@ VALUES (23637,   1,          1) /* ItemType - MeleeWeapon */
      , (23637,  48,         13) /* WeaponSkill - UnarmedCombat */
      , (23637,  49,         20) /* WeaponTime */
      , (23637,  51,          1) /* CombatUse - Melee */
-     , (23637,  93,       1044) /* PhysicsState */
+     , (23637,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (23637, 106,        200) /* ItemSpellcraft */
      , (23637, 107,        500) /* ItemCurMana */
      , (23637, 108,        500) /* ItemMaxMana */

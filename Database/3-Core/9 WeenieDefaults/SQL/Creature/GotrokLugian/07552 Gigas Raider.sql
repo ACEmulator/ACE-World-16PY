@@ -13,8 +13,8 @@ VALUES (7552,   1,         16) /* ItemType - Creature */
      , (7552,  27,          0) /* ArmorType */
      , (7552,  40,          2) /* CombatMode - Melee */
      , (7552,  68,         13) /* TargetingTactic */
-     , (7552,  93,       1032) /* PhysicsState */
-     , (7552, 101,        131) /* AiAllowedCombatStyle */
+     , (7552,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
+     , (7552, 101,        131) /* AiAllowedCombatStyle - Unarmed, OneHanded, ThrownWeapon */
      , (7552, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (7552, 140,          1) /* AiOptions */
      , (7552, 146,      12054) /* XpOverride */;
@@ -70,8 +70,11 @@ VALUES (7552,   1,   33557003) /* Setup */
      , (7552,   7,  268436153) /* ClothingBase */
      , (7552,   8,  100667447) /* Icon */
      , (7552,  22,  872415262) /* PhysicsEffectTable */
-     , (7552,  32,        304) /* WieldedTreasureType */
-     , (7552,  35,        451) /* DeathTreasureType */;
+     , (7552,  32,        304) /* WieldedTreasureType - 
+                                   Wield Rock (7578) | Probability: 100%
+                                   Wield Lugian Axe (7577) | Probability: 50%
+                                   Wield Lugian Morning Star (23765) | Probability: 50% */
+     , (7552,  35,        451) /* DeathTreasureType - Loot Tier: 2 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (7552,   1, 250, 0, 0) /* Strength */
@@ -194,9 +197,9 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,  10 /* Tell */, 0, 1, NULL, 'Cruath Quafeth.  Your kind says that often when hunting us.  Does it mean kill me now?', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (7552, 9,     0,  0, 0, 0.99, False) /* Create Unknown for ContainTreasure */
-     , (7552, 9,     0,  0, 0, 0.97, False) /* Create Unknown for ContainTreasure */
-     , (7552, 9,     0,  0, 0, 0.8, False) /* Create Unknown for ContainTreasure */
-     , (7552, 9,  6876,  0, 0, 0.01, False) /* Create Sturdy Iron Key for ContainTreasure */
-     , (7552, 9,  7043,  0, 0, 0.03, False) /* Create Large Lugian Sinew for ContainTreasure */
-     , (7552, 9,  7549,  0, 0, 0.2, False) /* Create Lugian Pick Axe for ContainTreasure */;
+VALUES (7552, 9,     0,  0, 0, 0.99, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 2 for ContainTreasure */
+     , (7552, 9,     0,  0, 0, 0.97, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 2 for ContainTreasure */
+     , (7552, 9,     0,  0, 0, 0.8, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 2 for ContainTreasure */
+     , (7552, 9,  6876,  0, 0, 0.01, False) /* Create Sturdy Iron Key (6876) for ContainTreasure */
+     , (7552, 9,  7043,  0, 0, 0.03, False) /* Create Large Lugian Sinew (7043) for ContainTreasure */
+     , (7552, 9,  7549,  0, 0, 0.2, False) /* Create Lugian Pick Axe (7549) for ContainTreasure */;

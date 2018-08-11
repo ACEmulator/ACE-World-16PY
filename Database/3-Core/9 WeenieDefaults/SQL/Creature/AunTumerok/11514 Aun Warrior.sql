@@ -12,8 +12,8 @@ VALUES (11514,   1,         16) /* ItemType - Creature */
      , (11514,  27,          0) /* ArmorType */
      , (11514,  67,         64) /* Tolerance */
      , (11514,  68,          5) /* TargetingTactic */
-     , (11514,  93,       1032) /* PhysicsState */
-     , (11514, 101,        183) /* AiAllowedCombatStyle */
+     , (11514,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
+     , (11514, 101,        183) /* AiAllowedCombatStyle - Unarmed, OneHanded, OneHandedAndShield, Bow, Crossbow, ThrownWeapon */
      , (11514, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (11514, 140,          1) /* AiOptions */
      , (11514, 146,      12450) /* XpOverride */;
@@ -69,8 +69,18 @@ VALUES (11514,   1,   33557117) /* Setup */
      , (11514,   7,  268436193) /* ClothingBase */
      , (11514,   8,  100671756) /* Icon */
      , (11514,  22,  872415270) /* PhysicsEffectTable */
-     , (11514,  32,        383) /* WieldedTreasureType */
-     , (11514,  35,        450) /* DeathTreasureType */;
+     , (11514,  32,        383) /* WieldedTreasureType - 
+                                   Wield Palenqual's Tewhate (12113) | Probability: 17%
+                                   Wield Palenqual's Okane (12116) | Probability: 17%
+                                   Wield Palenqual's Waaika (12119) | Probability: 17%
+                                   Wield Palenqual's Hoeroa (12125) | Probability: 17%
+                                   Wield Palenqual's Taiaha (12122) | Probability: 17%
+                                   Wield Kaskara (324) | Probability: 3%
+                                   Wield Long Sword (351) | Probability: 3%
+                                   Wield Silifi (344) | Probability: 3%
+                                   Wield Tachi (353) | Probability: 3%
+                                   Wield War Hammer (359) | Probability: 3% */
+     , (11514,  35,        450) /* DeathTreasureType - Loot Tier: 3 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (11514,   1, 150, 0, 0) /* Strength */

@@ -10,10 +10,10 @@ VALUES (2233,   1,         16) /* ItemType - Creature */
      , (2233,  16,         32) /* ItemUseable - Remote */
      , (2233,  25,          8) /* Level */
      , (2233,  27,          0) /* ArmorType */
-     , (2233,  74,     278532) /* MerchandiseItemTypes */
+     , (2233,  74,     278532) /* MerchandiseItemTypes - Clothing, Key, PromissoryNote */
      , (2233,  75,          0) /* MerchandiseMinValue */
      , (2233,  76,     100000) /* MerchandiseMaxValue */
-     , (2233,  93,    2098200) /* PhysicsState */
+     , (2233,  93,    2098200) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */
      , (2233, 126,        500) /* VendorHappyMean */
      , (2233, 127,        500) /* VendorHappyVariance */
      , (2233, 133,          4) /* ShowableOnRadar - ShowAlways */
@@ -163,26 +163,26 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 318767235 /* Nod */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (2233, 4,   115, -1, 9, 0, False) /* Create Leather Boots for Shop */
-     , (2233, 4,   115, -1, 18, 1, False) /* Create Leather Boots for Shop */
-     , (2233, 4,   115, -1, 4, 0.8, False) /* Create Leather Boots for Shop */
-     , (2233, 2,   117,  0, 18, 1, False) /* Create Breeches for Wield */
-     , (2233, 4,   118, -1, 9, 0, False) /* Create Cap for Shop */
-     , (2233, 4,   118, -1, 18, 1, False) /* Create Cap for Shop */
-     , (2233, 4,   118, -1, 4, 0.8, False) /* Create Cap for Shop */
-     , (2233, 4,   127, -1, 9, 0, False) /* Create Pants for Shop */
-     , (2233, 4,   127, -1, 18, 1, False) /* Create Pants for Shop */
-     , (2233, 4,   127, -1, 4, 0.8, False) /* Create Pants for Shop */
-     , (2233, 4,   512, -1, 0, 0, False) /* Create Good Lockpick for Shop */
-     , (2233, 4,   513, -1, 0, 0, False) /* Create Plain Lockpick for Shop */
-     , (2233, 4,   514, -1, 0, 0, False) /* Create Excellent Lockpick for Shop */
-     , (2233, 4,   545, -1, 0, 0, False) /* Create Reliable Lockpick for Shop */
-     , (2233, 4,  2589, -1, 9, 0, False) /* Create Smock for Shop */
-     , (2233, 4,  2589, -1, 18, 1, False) /* Create Smock for Shop */
-     , (2233, 4,  2589, -1, 4, 0.8, False) /* Create Smock for Shop */
-     , (2233, 2,  2596,  0, 9, 0, False) /* Create Doublet for Wield */
-     , (2233, 2,  2606,  0, 4, 0.8, False) /* Create Boots for Wield */
-     , (2233, 4,  5850, -1, 4, 0.5, False) /* Create Faran Robe for Shop */
-     , (2233, 4,  5851, -1, 4, 0.5, False) /* Create Faran Robe with Hood for Shop */
-     , (2233, 4,  8371, -1, 9, 0, False) /* Create Kireth Gown with Band for Shop */
-     , (2233, 2, 10696,  0, 18, 1, False) /* Create Apron for Wield */;
+VALUES (2233, 4,   115, -1, 9, 0, False) /* Create Leather Boots (115) for Shop */
+     , (2233, 4,   115, -1, 18, 1, False) /* Create Leather Boots (115) for Shop */
+     , (2233, 4,   115, -1, 4, 0.8, False) /* Create Leather Boots (115) for Shop */
+     , (2233, 2,   117,  0, 18, 1, False) /* Create Breeches (117) for Wield */
+     , (2233, 4,   118, -1, 9, 0, False) /* Create Cap (118) for Shop */
+     , (2233, 4,   118, -1, 18, 1, False) /* Create Cap (118) for Shop */
+     , (2233, 4,   118, -1, 4, 0.8, False) /* Create Cap (118) for Shop */
+     , (2233, 4,   127, -1, 9, 0, False) /* Create Pants (127) for Shop */
+     , (2233, 4,   127, -1, 18, 1, False) /* Create Pants (127) for Shop */
+     , (2233, 4,   127, -1, 4, 0.8, False) /* Create Pants (127) for Shop */
+     , (2233, 4,   512, -1, 0, 0, False) /* Create Good Lockpick (512) for Shop */
+     , (2233, 4,   513, -1, 0, 0, False) /* Create Plain Lockpick (513) for Shop */
+     , (2233, 4,   514, -1, 0, 0, False) /* Create Excellent Lockpick (514) for Shop */
+     , (2233, 4,   545, -1, 0, 0, False) /* Create Reliable Lockpick (545) for Shop */
+     , (2233, 4,  2589, -1, 9, 0, False) /* Create Smock (2589) for Shop */
+     , (2233, 4,  2589, -1, 18, 1, False) /* Create Smock (2589) for Shop */
+     , (2233, 4,  2589, -1, 4, 0.8, False) /* Create Smock (2589) for Shop */
+     , (2233, 2,  2596,  0, 9, 0, False) /* Create Doublet (2596) for Wield */
+     , (2233, 2,  2606,  0, 4, 0.8, False) /* Create Boots (2606) for Wield */
+     , (2233, 4,  5850, -1, 4, 0.5, False) /* Create Faran Robe (5850) for Shop */
+     , (2233, 4,  5851, -1, 4, 0.5, False) /* Create Faran Robe with Hood (5851) for Shop */
+     , (2233, 4,  8371, -1, 9, 0, False) /* Create Kireth Gown with Band (8371) for Shop */
+     , (2233, 2, 10696,  0, 18, 1, False) /* Create Apron (10696) for Wield */;

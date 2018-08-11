@@ -11,8 +11,8 @@ VALUES (227,   1,         16) /* ItemType - Creature */
      , (227,  25,         74) /* Level */
      , (227,  27,          0) /* ArmorType */
      , (227,  68,          5) /* TargetingTactic */
-     , (227,  93,       1032) /* PhysicsState */
-     , (227, 101,        183) /* AiAllowedCombatStyle */
+     , (227,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
+     , (227, 101,        183) /* AiAllowedCombatStyle - Unarmed, OneHanded, OneHandedAndShield, Bow, Crossbow, ThrownWeapon */
      , (227, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (227, 140,          1) /* AiOptions */
      , (227, 146,      14470) /* XpOverride */;
@@ -68,8 +68,14 @@ VALUES (227,   1,   33554496) /* Setup */
      , (227,   7,  268436630) /* ClothingBase */
      , (227,   8,  100667452) /* Icon */
      , (227,  22,  872415270) /* PhysicsEffectTable */
-     , (227,  32,        220) /* WieldedTreasureType */
-     , (227,  35,        450) /* DeathTreasureType */;
+     , (227,  32,        220) /* WieldedTreasureType - 
+                                   Wield Katar (23676) | Probability: 14%
+                                   Wield Cestus (23639) | Probability: 7%
+                                   Wield Nekode (23682) | Probability: 6%
+                                   Wield Tachi (23702) | Probability: 6%
+                                   Wield Spear (23698) | Probability: 6%
+                                   Wield Kite Shield (23686) | Probability: 75% */
+     , (227,  35,        450) /* DeathTreasureType - Loot Tier: 3 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (227,   1, 150, 0, 0) /* Strength */

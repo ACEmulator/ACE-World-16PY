@@ -12,8 +12,8 @@ VALUES (5659,   1,         16) /* ItemType - Creature */
      , (5659,  27,          0) /* ArmorType */
      , (5659,  40,          1) /* CombatMode - NonCombat */
      , (5659,  68,          3) /* TargetingTactic */
-     , (5659,  93,       1032) /* PhysicsState */
-     , (5659, 101,        183) /* AiAllowedCombatStyle */
+     , (5659,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
+     , (5659, 101,        183) /* AiAllowedCombatStyle - Unarmed, OneHanded, OneHandedAndShield, Bow, Crossbow, ThrownWeapon */
      , (5659, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (5659, 140,          1) /* AiOptions */
      , (5659, 146,       9000) /* XpOverride */;
@@ -71,7 +71,7 @@ VALUES (5659,   1,   33554839) /* Setup */
      , (5659,   7,  268435558) /* ClothingBase */
      , (5659,   8,  100667942) /* Icon */
      , (5659,  22,  872415272) /* PhysicsEffectTable */
-     , (5659,  35,        235) /* DeathTreasureType */;
+     , (5659,  35,        235) /* DeathTreasureType - Loot Tier: 4 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (5659,   1, 230, 0, 0) /* Strength */
@@ -316,9 +316,9 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,  17 /* LocalBroadcast */, 0, 0, NULL, 'Lord Rytheran resists %s''s feeble spell. He shakes his head, muttering something about "the mages these days" under his foul breath.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (5659, 9,     0,  0, 0, 0.98, False) /* Create Unknown for ContainTreasure */
-     , (5659, 9,     0,  0, 0, 0.98, False) /* Create Unknown for ContainTreasure */
-     , (5659, 8,  5666,  0, 0, 1, False) /* Create Letter for Treasure */
-     , (5659, 9,  6876,  0, 0, 0.02, False) /* Create Sturdy Iron Key for ContainTreasure */
-     , (5659, 9,  7045,  0, 0, 0.02, False) /* Create Dark Revenant Thighbone for ContainTreasure */
-     , (5659, 9,  7410,  0, 0, 1, False) /* Create Rytheran's Key for ContainTreasure */;
+VALUES (5659, 9,     0,  0, 0, 0.98, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 4 for ContainTreasure */
+     , (5659, 9,     0,  0, 0, 0.98, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 4 for ContainTreasure */
+     , (5659, 8,  5666,  0, 0, 1, False) /* Create Letter (5666) for Treasure */
+     , (5659, 9,  6876,  0, 0, 0.02, False) /* Create Sturdy Iron Key (6876) for ContainTreasure */
+     , (5659, 9,  7045,  0, 0, 0.02, False) /* Create Dark Revenant Thighbone (7045) for ContainTreasure */
+     , (5659, 9,  7410,  0, 0, 1, False) /* Create Rytheran's Key (7410) for ContainTreasure */;

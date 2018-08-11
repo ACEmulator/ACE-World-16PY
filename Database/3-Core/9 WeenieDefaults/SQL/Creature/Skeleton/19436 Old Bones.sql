@@ -12,8 +12,8 @@ VALUES (19436,   1,         16) /* ItemType - Creature */
      , (19436,  40,          1) /* CombatMode - NonCombat */
      , (19436,  67,         64) /* Tolerance */
      , (19436,  68,          5) /* TargetingTactic */
-     , (19436,  93,       1032) /* PhysicsState */
-     , (19436, 101,        183) /* AiAllowedCombatStyle */
+     , (19436,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
+     , (19436, 101,        183) /* AiAllowedCombatStyle - Unarmed, OneHanded, OneHandedAndShield, Bow, Crossbow, ThrownWeapon */
      , (19436, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (19436, 140,          1) /* AiOptions */
      , (19436, 146,        157) /* XpOverride */;
@@ -66,7 +66,7 @@ VALUES (19436,   1,   33554521) /* Setup */
      , (19436,   8,  100669124) /* Icon */
      , (19436,  20,   50332893) /* InitMotion */
      , (19436,  22,  872415269) /* PhysicsEffectTable */
-     , (19436,  35,        453) /* DeathTreasureType */;
+     , (19436,  35,        453) /* DeathTreasureType - Loot Tier: 1 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (19436,   1,  25, 0, 0) /* Strength */
@@ -120,5 +120,5 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 1090519060 /* Sleeping */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (19436, 9,     0,  0, 0, 0.98, False) /* Create Unknown for ContainTreasure */
-     , (19436, 9,  9314,  0, 0, 0.02, False) /* Create A Tiny Mnemosyne for ContainTreasure */;
+VALUES (19436, 9,     0,  0, 0, 0.98, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 1 for ContainTreasure */
+     , (19436, 9,  9314,  0, 0, 0.02, False) /* Create A Tiny Mnemosyne (9314) for ContainTreasure */;

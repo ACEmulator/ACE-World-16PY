@@ -13,7 +13,7 @@ VALUES (6788,   1,         16) /* ItemType - Creature */
      , (6788,  40,          2) /* CombatMode - Melee */
      , (6788,  68,          5) /* TargetingTactic */
      , (6788,  69,          4) /* CombatTactic */
-     , (6788,  93,       3080) /* PhysicsState */
+     , (6788,  93,       3080) /* PhysicsState - ReportCollisions, Gravity, LightingOn */
      , (6788, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (6788, 146,      54180) /* XpOverride */;
 
@@ -71,7 +71,7 @@ VALUES (6788,   1,   33556224) /* Setup */
      , (6788,   7,  268435859) /* ClothingBase */
      , (6788,   8,  100670283) /* Icon */
      , (6788,  22,  872415347) /* PhysicsEffectTable */
-     , (6788,  35,        464) /* DeathTreasureType */;
+     , (6788,  35,        464) /* DeathTreasureType - Loot Tier: 5 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (6788,   1, 300, 0, 0) /* Strength */
@@ -133,10 +133,10 @@ VALUES (@parent_id,  0,  16 /* WorldBroadcast */, 0, 1, NULL, 'The wind brings i
      , (@parent_id,  1,  17 /* LocalBroadcast */, 0, 0, NULL, 'The destruction of the Nexus Crystal brings a burst of heat through the area, followed by a cool, chill wind.  Shadows seem to leap up and fall away...in the distance, a faint voice seems to cry: "Retreat, in his name!" and then there is nothing more"', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (6788, 9,     0,  0, 0, 0.98, False) /* Create Unknown for ContainTreasure */
-     , (6788, 1,  6621,  1, 0, 0, False) /* Create Scintillating Gem for Contain */
-     , (6788, 1,  6621,  1, 0, 0, False) /* Create Scintillating Gem for Contain */
-     , (6788, 1,  6621,  1, 0, 0, False) /* Create Scintillating Gem for Contain */
-     , (6788, 1,  6621,  1, 0, 0, False) /* Create Scintillating Gem for Contain */
-     , (6788, 1,  6807,  1, 0, 0, False) /* Create Nexus Core Gem for Contain */
-     , (6788, 9,  6876,  0, 0, 0.02, False) /* Create Sturdy Iron Key for ContainTreasure */;
+VALUES (6788, 9,     0,  0, 0, 0.98, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 5 for ContainTreasure */
+     , (6788, 1,  6621,  1, 0, 0, False) /* Create Scintillating Gem (6621) for Contain */
+     , (6788, 1,  6621,  1, 0, 0, False) /* Create Scintillating Gem (6621) for Contain */
+     , (6788, 1,  6621,  1, 0, 0, False) /* Create Scintillating Gem (6621) for Contain */
+     , (6788, 1,  6621,  1, 0, 0, False) /* Create Scintillating Gem (6621) for Contain */
+     , (6788, 1,  6807,  1, 0, 0, False) /* Create Nexus Core Gem (6807) for Contain */
+     , (6788, 9,  6876,  0, 0, 0.02, False) /* Create Sturdy Iron Key (6876) for ContainTreasure */;

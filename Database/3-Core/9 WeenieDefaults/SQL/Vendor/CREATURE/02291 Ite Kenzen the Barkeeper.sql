@@ -10,10 +10,10 @@ VALUES (2291,   1,         16) /* ItemType - Creature */
      , (2291,  16,         32) /* ItemUseable - Remote */
      , (2291,  25,          9) /* Level */
      , (2291,  27,          0) /* ArmorType */
-     , (2291,  74,     262176) /* MerchandiseItemTypes */
+     , (2291,  74,     262176) /* MerchandiseItemTypes - Food, PromissoryNote */
      , (2291,  75,          0) /* MerchandiseMinValue */
      , (2291,  76,     100000) /* MerchandiseMaxValue */
-     , (2291,  93,    2098200) /* PhysicsState */
+     , (2291,  93,    2098200) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */
      , (2291, 126,        250) /* VendorHappyMean */
      , (2291, 127,        250) /* VendorHappyVariance */
      , (2291, 133,          4) /* ShowableOnRadar - ShowAlways */
@@ -163,21 +163,21 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 318767235 /* Nod */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (2291, 2,   118,  0, 5, 0, False) /* Create Cap for Wield */
-     , (2291, 2,   127,  0, 4, 0.8, False) /* Create Pants for Wield */
-     , (2291, 2,   132,  0, 17, 1, False) /* Create Shoes for Wield */
-     , (2291, 2,   134,  0, 4, 0.8, False) /* Create Tunic for Wield */
-     , (2291, 4,   261, -1, 0, 0, False) /* Create Cheese for Shop */
-     , (2291, 4,  2451, -1, 0, 0, False) /* Create Ale for Shop */
-     , (2291, 4,  2452, -1, 0, 0, False) /* Create Apple Juice for Shop */
-     , (2291, 4,  2456, -1, 0, 0, False) /* Create Green Tea for Shop */
-     , (2291, 4,  2469, -1, 0, 0, False) /* Create Small Beer for Shop */
-     , (2291, 4,  4733, -1, 0, 0, False) /* Create Kimchi for Shop */
-     , (2291, 4,  4740, -1, 0, 0, False) /* Create Pickled Fish for Shop */
-     , (2291, 4,  4744, -1, 0, 0, False) /* Create Sushi for Shop */
-     , (2291, 4,  4746, -1, 0, 0, False) /* Create Water for Shop */
-     , (2291, 4,  6417, -1, 0, 0, False) /* Create A Stinging Stone for Shop */
-     , (2291, 4,  8378, -1, 0, 0, False) /* Create Beer Stein for Shop */
-     , (2291, 2, 10696,  0, 18, 1, False) /* Create Apron for Wield */
-     , (2291, 4, 24222, -1, 0, 0, False) /* Create Duplicated Portals for Shop */
-     , (2291, 4, 26667, -1, 0, 0, False) /* Create The Blackmire Temple for Shop */;
+VALUES (2291, 2,   118,  0, 5, 0, False) /* Create Cap (118) for Wield */
+     , (2291, 2,   127,  0, 4, 0.8, False) /* Create Pants (127) for Wield */
+     , (2291, 2,   132,  0, 17, 1, False) /* Create Shoes (132) for Wield */
+     , (2291, 2,   134,  0, 4, 0.8, False) /* Create Tunic (134) for Wield */
+     , (2291, 4,   261, -1, 0, 0, False) /* Create Cheese (261) for Shop */
+     , (2291, 4,  2451, -1, 0, 0, False) /* Create Ale (2451) for Shop */
+     , (2291, 4,  2452, -1, 0, 0, False) /* Create Apple Juice (2452) for Shop */
+     , (2291, 4,  2456, -1, 0, 0, False) /* Create Green Tea (2456) for Shop */
+     , (2291, 4,  2469, -1, 0, 0, False) /* Create Small Beer (2469) for Shop */
+     , (2291, 4,  4733, -1, 0, 0, False) /* Create Kimchi (4733) for Shop */
+     , (2291, 4,  4740, -1, 0, 0, False) /* Create Pickled Fish (4740) for Shop */
+     , (2291, 4,  4744, -1, 0, 0, False) /* Create Sushi (4744) for Shop */
+     , (2291, 4,  4746, -1, 0, 0, False) /* Create Water (4746) for Shop */
+     , (2291, 4,  6417, -1, 0, 0, False) /* Create A Stinging Stone (6417) for Shop */
+     , (2291, 4,  8378, -1, 0, 0, False) /* Create Beer Stein (8378) for Shop */
+     , (2291, 2, 10696,  0, 18, 1, False) /* Create Apron (10696) for Wield */
+     , (2291, 4, 24222, -1, 0, 0, False) /* Create Duplicated Portals (24222) for Shop */
+     , (2291, 4, 26667, -1, 0, 0, False) /* Create The Blackmire Temple (26667) for Shop */;

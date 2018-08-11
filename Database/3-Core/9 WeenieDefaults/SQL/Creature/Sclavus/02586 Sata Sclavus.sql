@@ -12,8 +12,8 @@ VALUES (2586,   1,         16) /* ItemType - Creature */
      , (2586,  27,          0) /* ArmorType */
      , (2586,  40,          2) /* CombatMode - Melee */
      , (2586,  68,          3) /* TargetingTactic */
-     , (2586,  93,       1032) /* PhysicsState */
-     , (2586, 101,        183) /* AiAllowedCombatStyle */
+     , (2586,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
+     , (2586, 101,        183) /* AiAllowedCombatStyle - Unarmed, OneHanded, OneHandedAndShield, Bow, Crossbow, ThrownWeapon */
      , (2586, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (2586, 140,          1) /* AiOptions */
      , (2586, 146,      11030) /* XpOverride */;
@@ -72,8 +72,17 @@ VALUES (2586,   1,   33555608) /* Setup */
      , (2586,   7,  268435727) /* ClothingBase */
      , (2586,   8,  100669120) /* Icon */
      , (2586,  22,  872415280) /* PhysicsEffectTable */
-     , (2586,  32,        168) /* WieldedTreasureType */
-     , (2586,  35,        451) /* DeathTreasureType */;
+     , (2586,  32,        168) /* WieldedTreasureType - 
+                                   Wield Yumi (23735) | Probability: 60%
+                                   Wield 14x Arrow (300) | Probability: 100%
+                                   Wield Katar (23675) | Probability: 10%
+                                   Wield Nekode (23681) | Probability: 10%
+                                   Wield Cestus (23638) | Probability: 10%
+                                   Wield Spear (23697) | Probability: 10%
+                                   Wield Tachi (23701) | Probability: 10%
+                                   Wield Yari (23731) | Probability: 50%
+                                   Wield Kite Shield (23685) | Probability: 70% */
+     , (2586,  35,        451) /* DeathTreasureType - Loot Tier: 2 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (2586,   1, 150, 0, 0) /* Strength */
@@ -133,17 +142,17 @@ VALUES (2586,  94) /* ATTACK_NOTIFICATION_EVENT */
      , (2586, 414) /* PLAYER_DEATH_EVENT */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (2586, 9,     0,  0, 0, 0.97, False) /* Create Unknown for ContainTreasure */
-     , (2586, 9,     0,  0, 0, 0.97, False) /* Create Unknown for ContainTreasure */
-     , (2586, 9,     0,  0, 0, 0.98, False) /* Create Unknown for ContainTreasure */
-     , (2586, 9,     0,  0, 0, 0.05, False) /* Create Unknown for ContainTreasure */
-     , (2586, 9,     0,  0, 0, 0.95, False) /* Create Unknown for ContainTreasure */
-     , (2586, 9,     0,  0, 0, 0.95, False) /* Create Unknown for ContainTreasure */
-     , (2586, 9,     0,  0, 0, 0.95, False) /* Create Unknown for ContainTreasure */
-     , (2586, 9,  7046,  0, 0, 0.03, False) /* Create Sclavus Tongue for ContainTreasure */
-     , (2586, 9,  9258,  0, 0, 0.03, False) /* Create Sclavus Hide for ContainTreasure */
-     , (2586, 9, 12216,  0, 0, 0.05, False) /* Create Sclavus Head for ContainTreasure */
-     , (2586, 9, 20861,  0, 0, 0.02, False) /* Create Moons Stamp for ContainTreasure */
-     , (2586, 9, 22026,  0, 0, 0.05, False) /* Create Sclavus Arm for ContainTreasure */
-     , (2586, 9, 22030,  0, 0, 0.05, False) /* Create Sclavus Leg for ContainTreasure */
-     , (2586, 9, 22046,  0, 0, 0.05, False) /* Create Sclavus Torso for ContainTreasure */;
+VALUES (2586, 9,     0,  0, 0, 0.97, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 2 for ContainTreasure */
+     , (2586, 9,     0,  0, 0, 0.97, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 2 for ContainTreasure */
+     , (2586, 9,     0,  0, 0, 0.98, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 2 for ContainTreasure */
+     , (2586, 9,     0,  0, 0, 0.05, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 2 for ContainTreasure */
+     , (2586, 9,     0,  0, 0, 0.95, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 2 for ContainTreasure */
+     , (2586, 9,     0,  0, 0, 0.95, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 2 for ContainTreasure */
+     , (2586, 9,     0,  0, 0, 0.95, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 2 for ContainTreasure */
+     , (2586, 9,  7046,  0, 0, 0.03, False) /* Create Sclavus Tongue (7046) for ContainTreasure */
+     , (2586, 9,  9258,  0, 0, 0.03, False) /* Create Sclavus Hide (9258) for ContainTreasure */
+     , (2586, 9, 12216,  0, 0, 0.05, False) /* Create Sclavus Head (12216) for ContainTreasure */
+     , (2586, 9, 20861,  0, 0, 0.02, False) /* Create Moons Stamp (20861) for ContainTreasure */
+     , (2586, 9, 22026,  0, 0, 0.05, False) /* Create Sclavus Arm (22026) for ContainTreasure */
+     , (2586, 9, 22030,  0, 0, 0.05, False) /* Create Sclavus Leg (22030) for ContainTreasure */
+     , (2586, 9, 22046,  0, 0, 0.05, False) /* Create Sclavus Torso (22046) for ContainTreasure */;

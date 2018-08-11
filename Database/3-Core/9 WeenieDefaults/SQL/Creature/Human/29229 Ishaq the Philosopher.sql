@@ -11,7 +11,7 @@ VALUES (29229,   1,         16) /* ItemType - Creature */
      , (29229,  16,         32) /* ItemUseable - Remote */
      , (29229,  25,        111) /* Level */
      , (29229,  27,          0) /* ArmorType */
-     , (29229,  93,    6292504) /* PhysicsState */
+     , (29229,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (29229,  95,          8) /* RadarBlipColor - Yellow */
      , (29229, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (29229, 134,         16) /* PlayerKillerStatus - RubberGlue */
@@ -208,6 +208,6 @@ VALUES (@parent_id,  0,  10 /* Tell */, 0, 1, NULL, 'Well, hello there, stranger
      , (@parent_id,  7,  10 /* Tell */, 1, 1, NULL, 'Do we have a deal? Good! I believe I left the key in my cellar - you can find it behind my house. But please - don''t go prying into my belongings. I am trusting you in my house; I trust that you will repay me with your good behavior.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (29229, 2,   115,  0, 4, 0, False) /* Create Leather Boots for Wield */
-     , (29229, 2,  2587,  0, 9, 0.6, False) /* Create Shirt for Wield */
-     , (29229, 2,  2601,  0, 4, 0, False) /* Create Pants for Wield */;
+VALUES (29229, 2,   115,  0, 4, 0, False) /* Create Leather Boots (115) for Wield */
+     , (29229, 2,  2587,  0, 9, 0.6, False) /* Create Shirt (2587) for Wield */
+     , (29229, 2,  2601,  0, 4, 0, False) /* Create Pants (2601) for Wield */;

@@ -14,7 +14,7 @@ VALUES (29221,   1,    4194304) /* ItemType - CraftCookingBase */
      , (29221,  16,          1) /* ItemUseable - No */
      , (29221,  18,          4) /* UiEffects - BoostHealth */
      , (29221,  19,       1500) /* Value */
-     , (29221,  93,       1044) /* PhysicsState */;
+     , (29221,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (29221,   1, 'Simple Dried Health Rations') /* Name */

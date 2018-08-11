@@ -4,8 +4,8 @@ VALUES ('29784', 'portalmuggyfontexit', 7) /* Portal */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (29784,   1,      65536) /* ItemType - Portal */
      , (29784,  16,         32) /* ItemUseable - Remote */
-     , (29784,  93,       3084) /* PhysicsState */
-     , (29784, 111,         49) /* PortalBitmask */
+     , (29784,  93,       3084) /* PhysicsState - Ethereal, ReportCollisions, Gravity, LightingOn */
+     , (29784, 111,         49) /* PortalBitmask - Unrestricted, NoSummon, NoRecall */
      , (29784, 133,          4) /* ShowableOnRadar - ShowAlways */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)

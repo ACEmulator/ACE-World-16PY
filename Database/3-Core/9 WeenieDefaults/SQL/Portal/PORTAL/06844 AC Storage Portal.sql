@@ -4,8 +4,8 @@ VALUES ('6844', 'portalacstorage', 7) /* Portal */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (6844,   1,      65536) /* ItemType - Portal */
      , (6844,  16,         32) /* ItemUseable - Remote */
-     , (6844,  93,       3084) /* PhysicsState */
-     , (6844, 111,         17) /* PortalBitmask */
+     , (6844,  93,       3084) /* PhysicsState - Ethereal, ReportCollisions, Gravity, LightingOn */
+     , (6844, 111,         17) /* PortalBitmask - Unrestricted, NoSummon */
      , (6844, 133,          4) /* ShowableOnRadar - ShowAlways */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)

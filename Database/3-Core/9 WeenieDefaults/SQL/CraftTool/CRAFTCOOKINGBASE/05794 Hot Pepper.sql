@@ -13,8 +13,8 @@ VALUES (5794,   1,    4194304) /* ItemType - CraftCookingBase */
      , (5794,  15,          5) /* StackUnitValue */
      , (5794,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
      , (5794,  19,          5) /* Value */
-     , (5794,  93,       1044) /* PhysicsState */
-     , (5794,  94,    4194336) /* TargetType */;
+     , (5794,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (5794,  94,    4194336) /* TargetType - 4194336 */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (5794,   1, 'Hot Pepper') /* Name */

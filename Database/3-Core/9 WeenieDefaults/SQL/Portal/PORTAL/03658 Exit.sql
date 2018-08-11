@@ -4,8 +4,8 @@ VALUES ('3658', 'portaladvocateshoushiexit', 7) /* Portal */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (3658,   1,      65536) /* ItemType - Portal */
      , (3658,  16,         32) /* ItemUseable - Remote */
-     , (3658,  93,       3084) /* PhysicsState */
-     , (3658, 111,         17) /* PortalBitmask */
+     , (3658,  93,       3084) /* PhysicsState - Ethereal, ReportCollisions, Gravity, LightingOn */
+     , (3658, 111,         17) /* PortalBitmask - Unrestricted, NoSummon */
      , (3658, 133,          4) /* ShowableOnRadar - ShowAlways */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)

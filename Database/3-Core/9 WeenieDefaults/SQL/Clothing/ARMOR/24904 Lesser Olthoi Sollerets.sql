@@ -15,7 +15,7 @@ VALUES (24904,   1,          2) /* ItemType - Armor */
      , (24904,  36,       9999) /* ResistMagic */
      , (24904,  44,          3) /* Damage */
      , (24904,  45,          4) /* DamageType - Bludgeon */
-     , (24904,  93,       1044) /* PhysicsState */
+     , (24904,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (24904, 150,        103) /* HookPlacement - Hook */
      , (24904, 151,          1) /* HookType - Floor */
      , (24904, 158,          7) /* WieldRequirements - Level */

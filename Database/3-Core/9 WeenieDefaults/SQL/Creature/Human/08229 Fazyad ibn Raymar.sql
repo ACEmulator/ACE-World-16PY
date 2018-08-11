@@ -10,7 +10,7 @@ VALUES (8229,   1,         16) /* ItemType - Creature */
      , (8229,  16,         32) /* ItemUseable - Remote */
      , (8229,  25,         62) /* Level */
      , (8229,  27,          0) /* ArmorType */
-     , (8229,  93,    6292504) /* PhysicsState */
+     , (8229,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (8229,  95,          8) /* RadarBlipColor - Yellow */
      , (8229, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (8229, 134,         16) /* PlayerKillerStatus - RubberGlue */
@@ -263,6 +263,6 @@ VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 1090519043 /* Ready */, NULL, NU
      , (@parent_id,  3,  10 /* Tell */, 0, 1, NULL, 'Have you come to help us cleanse the lower levels of vermin? As the Bey of Xarabydun, I will reward you greatly for trophies that prove the death of the beasts that prevent our growth.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (8229, 2,   161,  0, 0, 0, False) /* Create Mug for Wield */
-     , (8229, 2,  5852,  0, 86, 0.5, False) /* Create Dho Vest and Robe for Wield */
-     , (8229, 2,  5894,  0, 0, 0, False) /* Create Fez for Wield */;
+VALUES (8229, 2,   161,  0, 0, 0, False) /* Create Mug (161) for Wield */
+     , (8229, 2,  5852,  0, 86, 0.5, False) /* Create Dho Vest and Robe (5852) for Wield */
+     , (8229, 2,  5894,  0, 0, 0, False) /* Create Fez (5894) for Wield */;

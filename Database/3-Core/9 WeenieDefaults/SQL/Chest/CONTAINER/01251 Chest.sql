@@ -13,7 +13,7 @@ VALUES (1251,   1,        512) /* ItemType - Container */
      , (1251,  81,          3) /* MaxGeneratedObjects */
      , (1251,  82,          3) /* InitGeneratedObjects */
      , (1251,  83,          2) /* ActivationResponse - Use */
-     , (1251,  93,       1048) /* PhysicsState */
+     , (1251,  93,       1048) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity */
      , (1251,  96,        500) /* EncumbranceCapacity */
      , (1251, 100,          1) /* GeneratorType - Relative */;
 
@@ -46,4 +46,4 @@ VALUES (1251,   1,   33554556) /* Setup */
      , (1251,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (1251, 1, 92, 30, 1, 1, 2, 72, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0);
+VALUES (1251, 1, 92, 30, 1, 1, 2, 72, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate UNKNOWN RANDOMLY GENERATED TREASURE (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: ContainTreasure */;

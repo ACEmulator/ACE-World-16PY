@@ -4,8 +4,8 @@ VALUES ('29961', 'portaltombxiru', 7) /* Portal */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (29961,   1,      65536) /* ItemType - Portal */
      , (29961,  16,         32) /* ItemUseable - Remote */
-     , (29961,  93,       3084) /* PhysicsState */
-     , (29961, 111,         49) /* PortalBitmask */
+     , (29961,  93,       3084) /* PhysicsState - Ethereal, ReportCollisions, Gravity, LightingOn */
+     , (29961, 111,         49) /* PortalBitmask - Unrestricted, NoSummon, NoRecall */
      , (29961, 133,          4) /* ShowableOnRadar - ShowAlways */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)

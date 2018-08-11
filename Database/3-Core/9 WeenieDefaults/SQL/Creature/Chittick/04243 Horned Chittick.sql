@@ -12,7 +12,7 @@ VALUES (4243,   1,         16) /* ItemType - Creature */
      , (4243,  40,          2) /* CombatMode - Melee */
      , (4243,  68,          9) /* TargetingTactic */
      , (4243,  72,         33) /* FriendType - Chittick */
-     , (4243,  93,       1032) /* PhysicsState */
+     , (4243,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (4243, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (4243, 146,       7871) /* XpOverride */;
 
@@ -66,7 +66,7 @@ VALUES (4243,   1,   33558118) /* Setup */
      , (4243,   7,  268436515) /* ClothingBase */
      , (4243,   8,  100669115) /* Icon */
      , (4243,  22,  872415336) /* PhysicsEffectTable */
-     , (4243,  35,        457) /* DeathTreasureType */;
+     , (4243,  35,        457) /* DeathTreasureType - Loot Tier: 2 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (4243,   1, 185, 0, 0) /* Strength */
@@ -119,6 +119,6 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 268435537 /* Twitch1 */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (4243, 9,     0,  0, 0, 0.95, False) /* Create Unknown for ContainTreasure */
-     , (4243, 2, 22542,  0, 0, 0, False) /* Create Fire Spines for Wield */
-     , (4243, 9, 28888,  0, 0, 0.05, False) /* Create Chittick Head for ContainTreasure */;
+VALUES (4243, 9,     0,  0, 0, 0.95, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 2 for ContainTreasure */
+     , (4243, 2, 22542,  0, 0, 0, False) /* Create Fire Spines (22542) for Wield */
+     , (4243, 9, 28888,  0, 0, 0.05, False) /* Create Chittick Head (28888) for ContainTreasure */;

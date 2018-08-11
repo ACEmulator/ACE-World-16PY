@@ -11,8 +11,8 @@ VALUES (6010,   1,         16) /* ItemType - Creature */
      , (6010,  25,         74) /* Level */
      , (6010,  27,          0) /* ArmorType */
      , (6010,  68,          5) /* TargetingTactic */
-     , (6010,  93,    4195336) /* PhysicsState */
-     , (6010, 101,        183) /* AiAllowedCombatStyle */
+     , (6010,  93,    4195336) /* PhysicsState - ReportCollisions, Gravity, EdgeSlide */
+     , (6010, 101,        183) /* AiAllowedCombatStyle - Unarmed, OneHanded, OneHandedAndShield, Bow, Crossbow, ThrownWeapon */
      , (6010, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (6010, 140,          1) /* AiOptions */
      , (6010, 146,      14470) /* XpOverride */;
@@ -69,8 +69,14 @@ VALUES (6010,   1,   33554496) /* Setup */
      , (6010,   7,  268436630) /* ClothingBase */
      , (6010,   8,  100667452) /* Icon */
      , (6010,  22,  872415270) /* PhysicsEffectTable */
-     , (6010,  32,        220) /* WieldedTreasureType */
-     , (6010,  35,        450) /* DeathTreasureType */;
+     , (6010,  32,        220) /* WieldedTreasureType - 
+                                   Wield Katar (23676) | Probability: 14%
+                                   Wield Cestus (23639) | Probability: 7%
+                                   Wield Nekode (23682) | Probability: 6%
+                                   Wield Tachi (23702) | Probability: 6%
+                                   Wield Spear (23698) | Probability: 6%
+                                   Wield Kite Shield (23686) | Probability: 75% */
+     , (6010,  35,        450) /* DeathTreasureType - Loot Tier: 3 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (6010,   1, 150, 0, 0) /* Strength */
@@ -117,15 +123,15 @@ VALUES (6010,  94) /* ATTACK_NOTIFICATION_EVENT */
      , (6010, 414) /* PLAYER_DEATH_EVENT */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (6010, 8,   301,  0, 0, 0.14, False) /* Create Battle Axe for Treasure */
-     , (6010, 8,   324,  0, 0, 0.06, False) /* Create Kaskara for Treasure */
-     , (6010, 8,   327,  0, 0, 0.06, False) /* Create Ken for Treasure */
-     , (6010, 8,   332,  0, 0, 0.1, False) /* Create Morning Star for Treasure */
-     , (6010, 8,   336,  0, 0, 0.13, False) /* Create Ono for Treasure */
-     , (6010, 8,   339,  0, 0, 0.06, False) /* Create Scimitar for Treasure */
-     , (6010, 8,   340,  0, 0, 0.06, False) /* Create Shamshir for Treasure */
-     , (6010, 8,   344,  0, 0, 0.13, False) /* Create Silifi for Treasure */
-     , (6010, 8,   350,  0, 0, 0.07, False) /* Create Broad Sword for Treasure */
-     , (6010, 8,   351,  0, 0, 0.06, False) /* Create Long Sword for Treasure */
-     , (6010, 8,   353,  0, 0, 0.06, False) /* Create Tachi for Treasure */
-     , (6010, 8,   354,  0, 0, 0.06, False) /* Create Takuba for Treasure */;
+VALUES (6010, 8,   301,  0, 0, 0.14, False) /* Create Battle Axe (301) for Treasure */
+     , (6010, 8,   324,  0, 0, 0.06, False) /* Create Kaskara (324) for Treasure */
+     , (6010, 8,   327,  0, 0, 0.06, False) /* Create Ken (327) for Treasure */
+     , (6010, 8,   332,  0, 0, 0.1, False) /* Create Morning Star (332) for Treasure */
+     , (6010, 8,   336,  0, 0, 0.13, False) /* Create Ono (336) for Treasure */
+     , (6010, 8,   339,  0, 0, 0.06, False) /* Create Scimitar (339) for Treasure */
+     , (6010, 8,   340,  0, 0, 0.06, False) /* Create Shamshir (340) for Treasure */
+     , (6010, 8,   344,  0, 0, 0.13, False) /* Create Silifi (344) for Treasure */
+     , (6010, 8,   350,  0, 0, 0.07, False) /* Create Broad Sword (350) for Treasure */
+     , (6010, 8,   351,  0, 0, 0.06, False) /* Create Long Sword (351) for Treasure */
+     , (6010, 8,   353,  0, 0, 0.06, False) /* Create Tachi (353) for Treasure */
+     , (6010, 8,   354,  0, 0, 0.06, False) /* Create Takuba (354) for Treasure */;

@@ -6,7 +6,7 @@ VALUES (19134,   1,      65536) /* ItemType - Portal */
      , (19134,  16,         32) /* ItemUseable - Remote */
      , (19134,  86,          1) /* MinLevel */
      , (19134,  87,         20) /* MaxLevel */
-     , (19134,  93,       3084) /* PhysicsState */
+     , (19134,  93,       3084) /* PhysicsState - Ethereal, ReportCollisions, Gravity, LightingOn */
      , (19134, 111,          1) /* PortalBitmask - Unrestricted */
      , (19134, 133,          4) /* ShowableOnRadar - ShowAlways */;
 

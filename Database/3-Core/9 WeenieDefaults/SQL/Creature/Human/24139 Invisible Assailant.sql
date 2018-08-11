@@ -11,9 +11,9 @@ VALUES (24139,   1,         16) /* ItemType - Creature */
      , (24139,  25,         50) /* Level */
      , (24139,  27,          0) /* ArmorType */
      , (24139,  68,         13) /* TargetingTactic */
-     , (24139,  93,    4195340) /* PhysicsState */
+     , (24139,  93,    4195340) /* PhysicsState - Ethereal, ReportCollisions, Gravity, EdgeSlide */
      , (24139,  95,          8) /* RadarBlipColor - Yellow */
-     , (24139, 101,        131) /* AiAllowedCombatStyle */
+     , (24139, 101,        131) /* AiAllowedCombatStyle - Unarmed, OneHanded, ThrownWeapon */
      , (24139, 133,          0) /* ShowableOnRadar - Undefined */
      , (24139, 146,       3231) /* XpOverride */;
 
@@ -68,7 +68,15 @@ VALUES (24139,   1,   33554433) /* Setup */
      , (24139,   4,  805306368) /* CombatTable */
      , (24139,   8,  100667446) /* Icon */
      , (24139,  22,  872415236) /* PhysicsEffectTable */
-     , (24139,  32,        202) /* WieldedTreasureType */;
+     , (24139,  32,        202) /* WieldedTreasureType - 
+                                   Wield Yumi (23734) | Probability: 25%
+                                   Wield 20x Deadly Armor Piercing Arrow (15431) | Probability: 100%
+                                   Wield Yumi (23734) | Probability: 25%
+                                   Wield 17x Deadly Arrow (15429) | Probability: 100%
+                                   Wield Heavy Crossbow (23665) | Probability: 25%
+                                   Wield 20x Deadly Quarrel (15438) | Probability: 100%
+                                   Wield Heavy Crossbow (23665) | Probability: 25%
+                                   Wield 16x Deadly Armor Piercing Quarrel (15440) | Probability: 100% */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (24139,   1, 200, 0, 0) /* Strength */

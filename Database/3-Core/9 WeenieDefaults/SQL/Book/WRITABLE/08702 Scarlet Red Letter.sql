@@ -9,7 +9,7 @@ VALUES (8702,   1,       8192) /* ItemType - Writable */
      , (8702,  16,          8) /* ItemUseable - Contained */
      , (8702,  19,          1) /* Value */
      , (8702,  33,          0) /* Bonded - Normal */
-     , (8702,  93,       1044) /* PhysicsState */
+     , (8702,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (8702, 114,          0) /* Attuned - Normal */
      , (8702, 150,        103) /* HookPlacement - Hook */
      , (8702, 151,          2) /* HookType - Wall */;

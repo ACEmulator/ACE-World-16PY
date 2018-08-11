@@ -12,7 +12,7 @@ VALUES (14504,   1,          8) /* ItemType - Jewelry */
      , (14504,  19,       8500) /* Value */
      , (14504,  33,          1) /* Bonded - Bonded */
      , (14504,  36,       9999) /* ResistMagic */
-     , (14504,  93,       1044) /* PhysicsState */
+     , (14504,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (14504, 106,        400) /* ItemSpellcraft */
      , (14504, 107,        600) /* ItemCurMana */
      , (14504, 108,        600) /* ItemMaxMana */

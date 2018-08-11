@@ -10,8 +10,8 @@ VALUES (7094,   1,         16) /* ItemType - Creature */
      , (7094,  25,        115) /* Level */
      , (7094,  27,          0) /* ArmorType */
      , (7094,  68,          5) /* TargetingTactic */
-     , (7094,  93,       3080) /* PhysicsState */
-     , (7094, 101,        183) /* AiAllowedCombatStyle */
+     , (7094,  93,       3080) /* PhysicsState - ReportCollisions, Gravity, LightingOn */
+     , (7094, 101,        183) /* AiAllowedCombatStyle - Unarmed, OneHanded, OneHandedAndShield, Bow, Crossbow, ThrownWeapon */
      , (7094, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (7094, 140,          1) /* AiOptions */
      , (7094, 146,      56200) /* XpOverride */;
@@ -68,7 +68,7 @@ VALUES (7094,   1,   33556140) /* Setup */
      , (7094,   4,  805306368) /* CombatTable */
      , (7094,   8,  100670581) /* Icon */
      , (7094,  22,  872415349) /* PhysicsEffectTable */
-     , (7094,  35,        464) /* DeathTreasureType */;
+     , (7094,  35,        464) /* DeathTreasureType - Loot Tier: 5 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (7094,   1, 240, 0, 0) /* Strength */
@@ -125,6 +125,6 @@ VALUES (7094,  94) /* ATTACK_NOTIFICATION_EVENT */
      , (7094, 414) /* PLAYER_DEATH_EVENT */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (7094, 9,     0,  0, 0, 0.98, False) /* Create Unknown for ContainTreasure */
-     , (7094, 2,  6383,  3, 0, 0, False) /* Create Ball of Electricity for Wield */
-     , (7094, 9,  6876,  0, 0, 0.02, False) /* Create Sturdy Iron Key for ContainTreasure */;
+VALUES (7094, 9,     0,  0, 0, 0.98, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 5 for ContainTreasure */
+     , (7094, 2,  6383,  3, 0, 0, False) /* Create Ball of Electricity (6383) for Wield */
+     , (7094, 9,  6876,  0, 0, 0.02, False) /* Create Sturdy Iron Key (6876) for ContainTreasure */;

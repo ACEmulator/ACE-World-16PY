@@ -10,10 +10,10 @@ VALUES (659,   1,         16) /* ItemType - Creature */
      , (659,  16,         32) /* ItemUseable - Remote */
      , (659,  25,          5) /* Level */
      , (659,  27,          0) /* ArmorType */
-     , (659,  74,     278560) /* MerchandiseItemTypes */
+     , (659,  74,     278560) /* MerchandiseItemTypes - Food, Key, PromissoryNote */
      , (659,  75,          0) /* MerchandiseMinValue */
      , (659,  76,      25000) /* MerchandiseMaxValue */
-     , (659,  93,    2098200) /* PhysicsState */
+     , (659,  93,    2098200) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */
      , (659, 126,        125) /* VendorHappyMean */
      , (659, 127,        125) /* VendorHappyVariance */
      , (659, 133,          4) /* ShowableOnRadar - ShowAlways */
@@ -187,25 +187,25 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 318767235 /* Nod */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (659, 2,   115,  0, 4, 0.6, False) /* Create Leather Boots for Wield */
-     , (659, 2,   127,  0, 8, 0, False) /* Create Pants for Wield */
-     , (659, 2,   130,  0, 9, 0, False) /* Create Shirt for Wield */
-     , (659, 4,   259, -1, 0, 0, False) /* Create Bread for Shop */
-     , (659, 4,  1223, -1, 0, 0, False) /* Create Rithwic Portal Directions for Shop */
-     , (659, 4,  1402, -1, 0, 0, False) /* Create Rithwic Crypt Directions for Shop */
-     , (659, 4,  1511, -1, 0, 0, False) /* Create Drudge Camp Rumor for Shop */
-     , (659, 4,  2053, -1, 0, 0, False) /* Create Directions to Fort Witshire for Shop */
-     , (659, 4,  2059, -1, 0, 0, False) /* Create History of Fort Witshire for Shop */
-     , (659, 4,  2451, -1, 0, 0, False) /* Create Ale for Shop */
-     , (659, 4,  2462, -1, 0, 0, False) /* Create Mead for Shop */
-     , (659, 4,  2463, -1, 0, 0, False) /* Create Milk for Shop */
-     , (659, 4,  2469, -1, 0, 0, False) /* Create Small Beer for Shop */
-     , (659, 4,  4713, -1, 0, 0, False) /* Create Beef Stew for Shop */
-     , (659, 4,  4732, -1, 0, 0, False) /* Create Fried Steak for Shop */
-     , (659, 4,  4734, -1, 0, 0, False) /* Create Meat Pie for Shop */
-     , (659, 4,  4746, -1, 0, 0, False) /* Create Water for Shop */
-     , (659, 4,  5004, -1, 0, 0, False) /* Create Warehouse Directions for Shop */
-     , (659, 4,  8378, -1, 0, 0, False) /* Create Beer Stein for Shop */
-     , (659, 2, 10696,  0, 9, 0.5, False) /* Create Apron for Wield */
-     , (659, 4, 15808, -1, 0, 0, False) /* Create Plea for Help for Shop */
-     , (659, 4, 26643, -1, 0, 0, False) /* Create A Strange Rift for Shop */;
+VALUES (659, 2,   115,  0, 4, 0.6, False) /* Create Leather Boots (115) for Wield */
+     , (659, 2,   127,  0, 8, 0, False) /* Create Pants (127) for Wield */
+     , (659, 2,   130,  0, 9, 0, False) /* Create Shirt (130) for Wield */
+     , (659, 4,   259, -1, 0, 0, False) /* Create Bread (259) for Shop */
+     , (659, 4,  1223, -1, 0, 0, False) /* Create Rithwic Portal Directions (1223) for Shop */
+     , (659, 4,  1402, -1, 0, 0, False) /* Create Rithwic Crypt Directions (1402) for Shop */
+     , (659, 4,  1511, -1, 0, 0, False) /* Create Drudge Camp Rumor (1511) for Shop */
+     , (659, 4,  2053, -1, 0, 0, False) /* Create Directions to Fort Witshire (2053) for Shop */
+     , (659, 4,  2059, -1, 0, 0, False) /* Create History of Fort Witshire (2059) for Shop */
+     , (659, 4,  2451, -1, 0, 0, False) /* Create Ale (2451) for Shop */
+     , (659, 4,  2462, -1, 0, 0, False) /* Create Mead (2462) for Shop */
+     , (659, 4,  2463, -1, 0, 0, False) /* Create Milk (2463) for Shop */
+     , (659, 4,  2469, -1, 0, 0, False) /* Create Small Beer (2469) for Shop */
+     , (659, 4,  4713, -1, 0, 0, False) /* Create Beef Stew (4713) for Shop */
+     , (659, 4,  4732, -1, 0, 0, False) /* Create Fried Steak (4732) for Shop */
+     , (659, 4,  4734, -1, 0, 0, False) /* Create Meat Pie (4734) for Shop */
+     , (659, 4,  4746, -1, 0, 0, False) /* Create Water (4746) for Shop */
+     , (659, 4,  5004, -1, 0, 0, False) /* Create Warehouse Directions (5004) for Shop */
+     , (659, 4,  8378, -1, 0, 0, False) /* Create Beer Stein (8378) for Shop */
+     , (659, 2, 10696,  0, 9, 0.5, False) /* Create Apron (10696) for Wield */
+     , (659, 4, 15808, -1, 0, 0, False) /* Create Plea for Help (15808) for Shop */
+     , (659, 4, 26643, -1, 0, 0, False) /* Create A Strange Rift (26643) for Shop */;

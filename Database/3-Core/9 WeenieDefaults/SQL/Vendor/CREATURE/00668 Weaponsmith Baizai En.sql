@@ -10,10 +10,10 @@ VALUES (668,   1,         16) /* ItemType - Creature */
      , (668,  16,         32) /* ItemUseable - Remote */
      , (668,  25,          7) /* Level */
      , (668,  27,          0) /* ArmorType */
-     , (668,  74, 1074004225) /* MerchandiseItemTypes */
+     , (668,  74, 1074004225) /* MerchandiseItemTypes - Weapon, PromissoryNote, TinkeringMaterial */
      , (668,  75,          0) /* MerchandiseMinValue */
      , (668,  76,      25000) /* MerchandiseMaxValue */
-     , (668,  93,    2098200) /* PhysicsState */
+     , (668,  93,    2098200) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */
      , (668, 126,       1000) /* VendorHappyMean */
      , (668, 127,        500) /* VendorHappyVariance */
      , (668, 133,          4) /* ShowableOnRadar - ShowAlways */
@@ -171,20 +171,20 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 318767235 /* Nod */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (668, 2,   127,  0, 14, 0.8, False) /* Create Pants for Wield */
-     , (668, 2,   132,  0, 4, 0.6, False) /* Create Shoes for Wield */
-     , (668, 4,   303, -1, 0, 0, False) /* Create Hand Axe for Shop */
-     , (668, 4,   314, -1, 0, 0, False) /* Create Dagger for Shop */
-     , (668, 4,   315, -1, 0, 0, False) /* Create Throwing Dagger for Shop */
-     , (668, 4,   316, -1, 0, 0, False) /* Create Throwing Dart for Shop */
-     , (668, 4,   331, -1, 0, 0, False) /* Create Mace for Shop */
-     , (668, 4,   348, -1, 0, 0, False) /* Create Spear for Shop */
-     , (668, 2,   352,  0, 0, 0, False) /* Create Short Sword for Wield */
-     , (668, 4,   352, -1, 0, 0, False) /* Create Short Sword for Shop */
-     , (668, 2,  2590,  0, 17, 1, False) /* Create Shirt for Wield */
-     , (668, 4,  2621, -1, 0, 0, False) /* Create Trade Note (100) for Shop */
-     , (668, 4,  2622, -1, 0, 0, False) /* Create Trade Note (500) for Shop */
-     , (668, 4,  2623, -1, 0, 0, False) /* Create Trade Note (1,000) for Shop */
-     , (668, 4,  4190, -1, 0, 0, False) /* Create Cestus for Shop */
-     , (668, 2, 10696,  0, 4, 0.8, False) /* Create Apron for Wield */
-     , (668, 4, 22168, -1, 0, 0, False) /* Create Quarter Staff for Shop */;
+VALUES (668, 2,   127,  0, 14, 0.8, False) /* Create Pants (127) for Wield */
+     , (668, 2,   132,  0, 4, 0.6, False) /* Create Shoes (132) for Wield */
+     , (668, 4,   303, -1, 0, 0, False) /* Create Hand Axe (303) for Shop */
+     , (668, 4,   314, -1, 0, 0, False) /* Create Dagger (314) for Shop */
+     , (668, 4,   315, -1, 0, 0, False) /* Create Throwing Dagger (315) for Shop */
+     , (668, 4,   316, -1, 0, 0, False) /* Create Throwing Dart (316) for Shop */
+     , (668, 4,   331, -1, 0, 0, False) /* Create Mace (331) for Shop */
+     , (668, 4,   348, -1, 0, 0, False) /* Create Spear (348) for Shop */
+     , (668, 2,   352,  0, 0, 0, False) /* Create Short Sword (352) for Wield */
+     , (668, 4,   352, -1, 0, 0, False) /* Create Short Sword (352) for Shop */
+     , (668, 2,  2590,  0, 17, 1, False) /* Create Shirt (2590) for Wield */
+     , (668, 4,  2621, -1, 0, 0, False) /* Create Trade Note (100) (2621) for Shop */
+     , (668, 4,  2622, -1, 0, 0, False) /* Create Trade Note (500) (2622) for Shop */
+     , (668, 4,  2623, -1, 0, 0, False) /* Create Trade Note (1,000) (2623) for Shop */
+     , (668, 4,  4190, -1, 0, 0, False) /* Create Cestus (4190) for Shop */
+     , (668, 2, 10696,  0, 4, 0.8, False) /* Create Apron (10696) for Wield */
+     , (668, 4, 22168, -1, 0, 0, False) /* Create Quarter Staff (22168) for Shop */;

@@ -8,7 +8,7 @@ VALUES (14053,   1,        128) /* ItemType - Misc */
      , (14053,   9,          0) /* ValidLocations - None */
      , (14053,  16,          1) /* ItemUseable - No */
      , (14053,  19,          0) /* Value */
-     , (14053,  93,         52) /* PhysicsState */
+     , (14053,  93,         52) /* PhysicsState - Ethereal, IgnoreCollisions, NoDraw */
      , (14053, 155,          2) /* HouseType - Villa */
      , (14053, 161,         50) /* HouseMaxHooksUsable */;
 

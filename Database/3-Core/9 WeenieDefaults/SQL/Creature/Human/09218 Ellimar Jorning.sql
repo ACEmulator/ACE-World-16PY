@@ -11,7 +11,7 @@ VALUES (9218,   1,         16) /* ItemType - Creature */
      , (9218,  16,         32) /* ItemUseable - Remote */
      , (9218,  25,         16) /* Level */
      , (9218,  27,          0) /* ArmorType */
-     , (9218,  93,    2098200) /* PhysicsState */
+     , (9218,  93,    2098200) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */
      , (9218, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (9218, 134,         16) /* PlayerKillerStatus - RubberGlue */
      , (9218, 146,        636) /* XpOverride */;
@@ -122,7 +122,7 @@ VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 1090519043 /* Ready */, NULL, NU
      , (@parent_id,  2,  10 /* Tell */, 1, 1, NULL, 'I used to heal... but I cannot awaken...', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (9218, 2,   117,  0, 9, 1, False) /* Create Breeches for Wield */
-     , (9218, 2,   119,  0, 4, 0.6, False) /* Create Cowl for Wield */
-     , (9218, 2,   124,  0, 16, 1, False) /* Create Jerkin for Wield */
-     , (9218, 2,   132,  0, 4, 0.6, False) /* Create Shoes for Wield */;
+VALUES (9218, 2,   117,  0, 9, 1, False) /* Create Breeches (117) for Wield */
+     , (9218, 2,   119,  0, 4, 0.6, False) /* Create Cowl (119) for Wield */
+     , (9218, 2,   124,  0, 16, 1, False) /* Create Jerkin (124) for Wield */
+     , (9218, 2,   132,  0, 4, 0.6, False) /* Create Shoes (132) for Wield */;

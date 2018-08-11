@@ -4,8 +4,8 @@ VALUES ('29960', 'portallibraryxiru', 7) /* Portal */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (29960,   1,      65536) /* ItemType - Portal */
      , (29960,  16,         32) /* ItemUseable - Remote */
-     , (29960,  93,       3084) /* PhysicsState */
-     , (29960, 111,         49) /* PortalBitmask */
+     , (29960,  93,       3084) /* PhysicsState - Ethereal, ReportCollisions, Gravity, LightingOn */
+     , (29960, 111,         49) /* PortalBitmask - Unrestricted, NoSummon, NoRecall */
      , (29960, 133,          4) /* ShowableOnRadar - ShowAlways */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)

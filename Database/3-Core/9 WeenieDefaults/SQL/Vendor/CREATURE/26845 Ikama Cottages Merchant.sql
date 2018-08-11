@@ -10,10 +10,10 @@ VALUES (26845,   1,         16) /* ItemType - Creature */
      , (26845,  16,         32) /* ItemUseable - Remote */
      , (26845,  25,         10) /* Level */
      , (26845,  27,          0) /* ArmorType */
-     , (26845,  74,     264192) /* MerchandiseItemTypes */
+     , (26845,  74,     264192) /* MerchandiseItemTypes - Gem, PromissoryNote */
      , (26845,  75,          0) /* MerchandiseMinValue */
      , (26845,  76,    1000000) /* MerchandiseMaxValue */
-     , (26845,  93,    2098204) /* PhysicsState */
+     , (26845,  93,    2098204) /* PhysicsState - Ethereal, ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */
      , (26845, 126,        125) /* VendorHappyMean */
      , (26845, 127,        125) /* VendorHappyVariance */
      , (26845, 133,          4) /* ShowableOnRadar - ShowAlways */
@@ -97,4 +97,4 @@ VALUES (26845,  0,  4,  0,    0,    0,    0,    0,    0,    0,    0,    0,    0,
      , (26845,  8,  4,  2, 0.75,    0,    0,    0,    0,    0,    0,    0,    0,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (26845, 4, 26210, -1, 0, 0, False) /* Create Ikama Cottages Portal Gem for Shop */;
+VALUES (26845, 4, 26210, -1, 0, 0, False) /* Create Ikama Cottages Portal Gem (26210) for Shop */;

@@ -10,10 +10,10 @@ VALUES (26909,   1,         16) /* ItemType - Creature */
      , (26909,  16,         32) /* ItemUseable - Remote */
      , (26909,  25,         10) /* Level */
      , (26909,  27,          0) /* ArmorType */
-     , (26909,  74,     264192) /* MerchandiseItemTypes */
+     , (26909,  74,     264192) /* MerchandiseItemTypes - Gem, PromissoryNote */
      , (26909,  75,          0) /* MerchandiseMinValue */
      , (26909,  76,    1000000) /* MerchandiseMaxValue */
-     , (26909,  93,    2098204) /* PhysicsState */
+     , (26909,  93,    2098204) /* PhysicsState - Ethereal, ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */
      , (26909, 126,        125) /* VendorHappyMean */
      , (26909, 127,        125) /* VendorHappyVariance */
      , (26909, 133,          4) /* ShowableOnRadar - ShowAlways */
@@ -97,4 +97,4 @@ VALUES (26909,  0,  4,  0,    0,    0,    0,    0,    0,    0,    0,    0,    0,
      , (26909,  8,  4,  2, 0.75,    0,    0,    0,    0,    0,    0,    0,    0,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (26909, 4, 26274, -1, 0, 0, False) /* Create Mountain Keep Cottages Portal Gem for Shop */;
+VALUES (26909, 4, 26274, -1, 0, 0, False) /* Create Mountain Keep Cottages Portal Gem (26274) for Shop */;

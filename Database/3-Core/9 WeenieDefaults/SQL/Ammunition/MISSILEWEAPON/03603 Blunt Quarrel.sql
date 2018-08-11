@@ -18,7 +18,7 @@ VALUES (3603,   1,        256) /* ItemType - MissileWeapon */
      , (3603,  45,          4) /* DamageType - Bludgeon */
      , (3603,  50,          2) /* AmmoType - Bolt */
      , (3603,  51,          3) /* CombatUse - Ammo */
-     , (3603,  93,     132116) /* PhysicsState */
+     , (3603,  93,     132116) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, Inelastic */
      , (3603, 150,        103) /* HookPlacement - Hook */
      , (3603, 151,          2) /* HookType - Wall */;
 

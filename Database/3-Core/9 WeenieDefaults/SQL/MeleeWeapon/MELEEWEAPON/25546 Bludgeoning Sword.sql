@@ -13,11 +13,11 @@ VALUES (25546,   1,          1) /* ItemType - MeleeWeapon */
      , (25546,  44,         10) /* Damage */
      , (25546,  45,          4) /* DamageType - Bludgeon */
      , (25546,  46,          2) /* DefaultCombatStyle - OneHanded */
-     , (25546,  47,          6) /* AttackType */
+     , (25546,  47,          6) /* AttackType - Thrust, Slash */
      , (25546,  48,         11) /* WeaponSkill - Sword */
      , (25546,  49,         25) /* WeaponTime */
      , (25546,  51,          1) /* CombatUse - Melee */
-     , (25546,  93,       1044) /* PhysicsState */
+     , (25546,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (25546, 150,        103) /* HookPlacement - Hook */
      , (25546, 151,          2) /* HookType - Wall */;
 

@@ -10,10 +10,10 @@ VALUES (26755,   1,         16) /* ItemType - Creature */
      , (26755,  16,         32) /* ItemUseable - Remote */
      , (26755,  25,         10) /* Level */
      , (26755,  27,          0) /* ArmorType */
-     , (26755,  74,     264192) /* MerchandiseItemTypes */
+     , (26755,  74,     264192) /* MerchandiseItemTypes - Gem, PromissoryNote */
      , (26755,  75,          0) /* MerchandiseMinValue */
      , (26755,  76,    1000000) /* MerchandiseMaxValue */
-     , (26755,  93,    2098204) /* PhysicsState */
+     , (26755,  93,    2098204) /* PhysicsState - Ethereal, ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */
      , (26755, 126,        125) /* VendorHappyMean */
      , (26755, 127,        125) /* VendorHappyVariance */
      , (26755, 133,          4) /* ShowableOnRadar - ShowAlways */
@@ -97,4 +97,4 @@ VALUES (26755,  0,  4,  0,    0,    0,    0,    0,    0,    0,    0,    0,    0,
      , (26755,  8,  4,  2, 0.75,    0,    0,    0,    0,    0,    0,    0,    0,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (26755, 4, 26120, -1, 0, 0, False) /* Create Cragstone Farms Portal Gem for Shop */;
+VALUES (26755, 4, 26120, -1, 0, 0, False) /* Create Cragstone Farms Portal Gem (26120) for Shop */;

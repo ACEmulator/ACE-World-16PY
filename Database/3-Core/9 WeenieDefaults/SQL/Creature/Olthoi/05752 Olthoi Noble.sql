@@ -13,7 +13,7 @@ VALUES (5752,   1,         16) /* ItemType - Creature */
      , (5752,  40,          2) /* CombatMode - Melee */
      , (5752,  68,         15) /* TargetingTactic */
      , (5752,  72,         35) /* FriendType - OlthoiLarvae */
-     , (5752,  93,       1032) /* PhysicsState */
+     , (5752,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (5752, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (5752, 140,          1) /* AiOptions */
      , (5752, 146,      18336) /* XpOverride */;
@@ -67,7 +67,7 @@ VALUES (5752,   1,   33555486) /* Setup */
      , (5752,   8,  100667623) /* Icon */
      , (5752,  22,  872415265) /* PhysicsEffectTable */
      , (5752,  30,         85) /* PhysicsScript - BreatheFrost */
-     , (5752,  35,        450) /* DeathTreasureType */;
+     , (5752,  35,        450) /* DeathTreasureType - Loot Tier: 3 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (5752,   1, 300, 0, 0) /* Strength */
@@ -120,7 +120,7 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 268435537 /* Twitch1 */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (5752, 9,     0,  0, 0, 0.9, False) /* Create Unknown for ContainTreasure */
-     , (5752, 9,     0,  0, 0, 0.98, False) /* Create Unknown for ContainTreasure */
-     , (5752, 9,  3680,  0, 0, 0.1, False) /* Create Olthoi Head for ContainTreasure */
-     , (5752, 9,  6876,  0, 0, 0.02, False) /* Create Sturdy Iron Key for ContainTreasure */;
+VALUES (5752, 9,     0,  0, 0, 0.9, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 3 for ContainTreasure */
+     , (5752, 9,     0,  0, 0, 0.98, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 3 for ContainTreasure */
+     , (5752, 9,  3680,  0, 0, 0.1, False) /* Create Olthoi Head (3680) for ContainTreasure */
+     , (5752, 9,  6876,  0, 0, 0.02, False) /* Create Sturdy Iron Key (6876) for ContainTreasure */;

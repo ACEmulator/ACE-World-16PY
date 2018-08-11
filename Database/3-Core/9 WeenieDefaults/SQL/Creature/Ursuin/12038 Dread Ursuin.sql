@@ -14,8 +14,8 @@ VALUES (12038,   1,         16) /* ItemType - Creature */
      , (12038,  68,          9) /* TargetingTactic */
      , (12038,  81,          3) /* MaxGeneratedObjects */
      , (12038,  82,          3) /* InitGeneratedObjects */
-     , (12038,  93,       1032) /* PhysicsState */
-     , (12038, 101,        131) /* AiAllowedCombatStyle */
+     , (12038,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
+     , (12038, 101,        131) /* AiAllowedCombatStyle - Unarmed, OneHanded, ThrownWeapon */
      , (12038, 103,          1) /* GeneratorDestructionType - Nothing */
      , (12038, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (12038, 140,          1) /* AiOptions */
@@ -74,7 +74,7 @@ VALUES (12038,   1,   33556773) /* Setup */
      , (12038,   7,  268436040) /* ClothingBase */
      , (12038,   8,  100670959) /* Icon */
      , (12038,  22,  872415366) /* PhysicsEffectTable */
-     , (12038,  35,         21) /* DeathTreasureType */;
+     , (12038,  35,         21) /* DeathTreasureType - Loot Tier: 3 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (12038,   1, 300, 0, 0) /* Strength */
@@ -138,12 +138,12 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 268435537 /* Twitch1 */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (12038, 9,     0,  0, 0, 0.5, False) /* Create Unknown for ContainTreasure */
-     , (12038, 9,     0,  0, 0, 0.7, False) /* Create Unknown for ContainTreasure */
-     , (12038, 9,  8665,  0, 0, 0.5, False) /* Create Ursuin Scalp for ContainTreasure */
-     , (12038, 9, 23590,  0, 0, 0.3, False) /* Create Heavy Ursuin Coat for ContainTreasure */;
+VALUES (12038, 9,     0,  0, 0, 0.5, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 3 for ContainTreasure */
+     , (12038, 9,     0,  0, 0, 0.7, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 3 for ContainTreasure */
+     , (12038, 9,  8665,  0, 0, 0.5, False) /* Create Ursuin Scalp (8665) for ContainTreasure */
+     , (12038, 9, 23590,  0, 0, 0.3, False) /* Create Heavy Ursuin Coat (23590) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (12038, 0.33, 7994, 20, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0)
-     , (12038, 0.66, 7994, 20, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0)
-     , (12038, 1, 7994, 20, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0);
+VALUES (12038, 0.33, 7994, 20, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Dire Ursuin (7994) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Scatter */
+     , (12038, 0.66, 7994, 20, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Dire Ursuin (7994) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Scatter */
+     , (12038, 1, 7994, 20, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Dire Ursuin (7994) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Scatter */;

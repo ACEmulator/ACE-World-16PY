@@ -10,7 +10,7 @@ VALUES (8126,   1,         16) /* ItemType - Creature */
      , (8126,  16,         32) /* ItemUseable - Remote */
      , (8126,  25,         30) /* Level */
      , (8126,  27,          0) /* ArmorType */
-     , (8126,  93,    6292504) /* PhysicsState */
+     , (8126,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (8126,  95,          8) /* RadarBlipColor - Yellow */
      , (8126, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (8126, 134,         16) /* PlayerKillerStatus - RubberGlue */
@@ -211,6 +211,6 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,  10 /* Tell */, 0, 1, NULL, 'Greetings. My siblings and I traveled here seeking gems of great power. I hear that there are some master armorers who craft suits of armor from fused gems. Those are beneath my notice. Bring me something even more powerful than a scintillating gem, and I will craft a great and unique shield for you. If you have one of my old shields, I will improve it for you.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (8126, 2,   116,  0, 14, 0.8, False) /* Create Studded Leather Boots for Wield */
-     , (8126, 2,  2590,  0, 9, 0.5, False) /* Create Shirt for Wield */
-     , (8126, 2,  2603,  0, 18, 1, False) /* Create Breeches for Wield */;
+VALUES (8126, 2,   116,  0, 14, 0.8, False) /* Create Studded Leather Boots (116) for Wield */
+     , (8126, 2,  2590,  0, 9, 0.5, False) /* Create Shirt (2590) for Wield */
+     , (8126, 2,  2603,  0, 18, 1, False) /* Create Breeches (2603) for Wield */;

@@ -11,8 +11,8 @@ VALUES (12134,   1,         16) /* ItemType - Creature */
      , (12134,  25,         61) /* Level */
      , (12134,  27,          0) /* ArmorType */
      , (12134,  68,         13) /* TargetingTactic */
-     , (12134,  93,       1032) /* PhysicsState */
-     , (12134, 101,        183) /* AiAllowedCombatStyle */
+     , (12134,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
+     , (12134, 101,        183) /* AiAllowedCombatStyle - Unarmed, OneHanded, OneHandedAndShield, Bow, Crossbow, ThrownWeapon */
      , (12134, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (12134, 140,          1) /* AiOptions */
      , (12134, 146,      11895) /* XpOverride */;
@@ -69,8 +69,15 @@ VALUES (12134,   1,   33554433) /* Setup */
      , (12134,   4,  805306368) /* CombatTable */
      , (12134,   8,  100667446) /* Icon */
      , (12134,  22,  872415381) /* PhysicsEffectTable */
-     , (12134,  32,        392) /* WieldedTreasureType */
-     , (12134,  35,        451) /* DeathTreasureType */;
+     , (12134,  32,        392) /* WieldedTreasureType - 
+                                   Wield Bow of the Quiddity (9597) | Probability: 100%
+                                   Wield 20x Arrow (300) | Probability: 100%
+                                   Wield Blade of the Quiddity (11916) | Probability: 34%
+                                   Wield Lance of the Quiddity (11913) | Probability: 33%
+                                   Wield Mace of the Quiddity (11907) | Probability: 33%
+                                   Wield Faran Robe (5850) | Palette: Grey (9) | Shade: 0.1 | Probability: 100%
+                                   Wield Pants (12254) | Palette: Purple (13) | Shade: 0.8 | Probability: 100% */
+     , (12134,  35,        451) /* DeathTreasureType - Loot Tier: 2 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (12134,   1, 190, 0, 0) /* Strength */
@@ -198,5 +205,5 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,  10 /* Tell */, 0, 1, NULL, 'Your magical fumblings are contemptible, human.  How can you hope to stand against the Virindi, the power that gave me life?', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (12134, 9,     0,  0, 0, 0.98, False) /* Create Unknown for ContainTreasure */
-     , (12134, 9,  6876,  0, 0, 0.02, False) /* Create Sturdy Iron Key for ContainTreasure */;
+VALUES (12134, 9,     0,  0, 0, 0.98, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 2 for ContainTreasure */
+     , (12134, 9,  6876,  0, 0, 0.02, False) /* Create Sturdy Iron Key (6876) for ContainTreasure */;

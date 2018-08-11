@@ -8,9 +8,9 @@ VALUES (4128,   1,        128) /* ItemType - Misc */
      , (4128,   9,          0) /* ValidLocations - None */
      , (4128,  16,          1) /* ItemUseable - No */
      , (4128,  19,        100) /* Value */
-     , (4128,  93,       3092) /* PhysicsState */
+     , (4128,  93,       3092) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, LightingOn */
      , (4128, 150,        103) /* HookPlacement - Hook */
-     , (4128, 151,          9) /* HookType */;
+     , (4128, 151,          9) /* HookType - Floor, Yard */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (4128,  15, True ) /* LightsStatus */

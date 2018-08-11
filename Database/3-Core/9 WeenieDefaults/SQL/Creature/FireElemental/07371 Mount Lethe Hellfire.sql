@@ -10,8 +10,8 @@ VALUES (7371,   1,         16) /* ItemType - Creature */
      , (7371,  25,         95) /* Level */
      , (7371,  27,          0) /* ArmorType */
      , (7371,  68,          5) /* TargetingTactic */
-     , (7371,  93,       3080) /* PhysicsState */
-     , (7371, 101,        183) /* AiAllowedCombatStyle */
+     , (7371,  93,       3080) /* PhysicsState - ReportCollisions, Gravity, LightingOn */
+     , (7371, 101,        183) /* AiAllowedCombatStyle - Unarmed, OneHanded, OneHandedAndShield, Bow, Crossbow, ThrownWeapon */
      , (7371, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (7371, 140,          1) /* AiOptions */
      , (7371, 146,      50000) /* XpOverride */;
@@ -66,7 +66,7 @@ VALUES (7371,   1,   33556637) /* Setup */
      , (7371,   4,  805306368) /* CombatTable */
      , (7371,   8,  100670274) /* Icon */
      , (7371,  22,  872415363) /* PhysicsEffectTable */
-     , (7371,  35,         25) /* DeathTreasureType */;
+     , (7371,  35,         25) /* DeathTreasureType - Loot Tier: 4 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (7371,   1, 320, 0, 0) /* Strength */
@@ -135,22 +135,22 @@ VALUES (@parent_id,  0,  17 /* LocalBroadcast */, 0, 0, NULL, 'As %s smites the 
      , (@parent_id,  4,  24 /* StopEvent */, 0, 1, NULL, 'EruptLetheBossGen', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (7371, 9,     0,  0, 0, 0, False) /* Create Unknown for ContainTreasure */
-     , (7371, 9,     0,  0, 0, 0, False) /* Create Unknown for ContainTreasure */
-     , (7371, 9,     0,  0, 0, 0, False) /* Create Unknown for ContainTreasure */
-     , (7371, 9,     0,  0, 0, 0, False) /* Create Unknown for ContainTreasure */
-     , (7371, 9,     0,  0, 0, 0, False) /* Create Unknown for ContainTreasure */
-     , (7371, 9,     0,  0, 0, 0, False) /* Create Unknown for ContainTreasure */
-     , (7371, 9,     0,  0, 0, 0, False) /* Create Unknown for ContainTreasure */
-     , (7371, 9,     0,  0, 0, 0, False) /* Create Unknown for ContainTreasure */
-     , (7371, 9,     0,  0, 0, 0, False) /* Create Unknown for ContainTreasure */
-     , (7371, 9,  7420,  0, 0, 1, False) /* Create Blue Fire Infusion for ContainTreasure */
-     , (7371, 9,  7420,  0, 0, 1, False) /* Create Blue Fire Infusion for ContainTreasure */
-     , (7371, 9,  7420,  0, 0, 1, False) /* Create Blue Fire Infusion for ContainTreasure */
-     , (7371, 9,  7420,  0, 0, 1, False) /* Create Blue Fire Infusion for ContainTreasure */
-     , (7371, 9,  7420,  0, 0, 1, False) /* Create Blue Fire Infusion for ContainTreasure */
-     , (7371, 9,  7420,  0, 0, 1, False) /* Create Blue Fire Infusion for ContainTreasure */
-     , (7371, 9,  7420,  0, 0, 1, False) /* Create Blue Fire Infusion for ContainTreasure */
-     , (7371, 9,  7420,  0, 0, 1, False) /* Create Blue Fire Infusion for ContainTreasure */
-     , (7371, 9,  7420,  0, 0, 1, False) /* Create Blue Fire Infusion for ContainTreasure */
-     , (7371, 2,  7799,  3, 0, 0, False) /* Create Ball of plasma for Wield */;
+VALUES (7371, 9,     0,  0, 0, 0, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 4 for ContainTreasure */
+     , (7371, 9,     0,  0, 0, 0, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 4 for ContainTreasure */
+     , (7371, 9,     0,  0, 0, 0, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 4 for ContainTreasure */
+     , (7371, 9,     0,  0, 0, 0, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 4 for ContainTreasure */
+     , (7371, 9,     0,  0, 0, 0, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 4 for ContainTreasure */
+     , (7371, 9,     0,  0, 0, 0, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 4 for ContainTreasure */
+     , (7371, 9,     0,  0, 0, 0, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 4 for ContainTreasure */
+     , (7371, 9,     0,  0, 0, 0, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 4 for ContainTreasure */
+     , (7371, 9,     0,  0, 0, 0, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 4 for ContainTreasure */
+     , (7371, 9,  7420,  0, 0, 1, False) /* Create Blue Fire Infusion (7420) for ContainTreasure */
+     , (7371, 9,  7420,  0, 0, 1, False) /* Create Blue Fire Infusion (7420) for ContainTreasure */
+     , (7371, 9,  7420,  0, 0, 1, False) /* Create Blue Fire Infusion (7420) for ContainTreasure */
+     , (7371, 9,  7420,  0, 0, 1, False) /* Create Blue Fire Infusion (7420) for ContainTreasure */
+     , (7371, 9,  7420,  0, 0, 1, False) /* Create Blue Fire Infusion (7420) for ContainTreasure */
+     , (7371, 9,  7420,  0, 0, 1, False) /* Create Blue Fire Infusion (7420) for ContainTreasure */
+     , (7371, 9,  7420,  0, 0, 1, False) /* Create Blue Fire Infusion (7420) for ContainTreasure */
+     , (7371, 9,  7420,  0, 0, 1, False) /* Create Blue Fire Infusion (7420) for ContainTreasure */
+     , (7371, 9,  7420,  0, 0, 1, False) /* Create Blue Fire Infusion (7420) for ContainTreasure */
+     , (7371, 2,  7799,  3, 0, 0, False) /* Create Ball of plasma (7799) for Wield */;

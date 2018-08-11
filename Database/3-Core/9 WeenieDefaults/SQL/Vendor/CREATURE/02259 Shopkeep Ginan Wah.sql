@@ -13,7 +13,7 @@ VALUES (2259,   1,         16) /* ItemType - Creature */
      , (2259,  74, 1208248231) /* MerchandiseItemTypes - VendorShopKeep */
      , (2259,  75,          0) /* MerchandiseMinValue */
      , (2259,  76,     100000) /* MerchandiseMaxValue */
-     , (2259,  93,    2098200) /* PhysicsState */
+     , (2259,  93,    2098200) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */
      , (2259, 126,        500) /* VendorHappyMean */
      , (2259, 127,        500) /* VendorHappyVariance */
      , (2259, 133,          4) /* ShowableOnRadar - ShowAlways */
@@ -168,44 +168,44 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 318767235 /* Nod */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (2259, 4,    36, -1, 0, 0, False) /* Create Leather Bracers for Shop */
-     , (2259, 4,    39, -1, 0, 0, False) /* Create Leather Breastplate for Shop */
-     , (2259, 4,    44, -1, 0, 0, False) /* Create Buckler for Shop */
-     , (2259, 4,    45, -1, 0, 0, False) /* Create Leather Cap for Shop */
-     , (2259, 4,    56, -1, 0, 0, False) /* Create Leather Gauntlets for Shop */
-     , (2259, 4,    60, -1, 0, 0, False) /* Create Leather Girth for Shop */
-     , (2259, 4,    65, -1, 0, 0, False) /* Create Leather Greaves for Shop */
-     , (2259, 4,    81, -1, 0, 0, False) /* Create Leather Leggings for Shop */
-     , (2259, 4,    86, -1, 0, 0, False) /* Create Leather Pauldrons for Shop */
-     , (2259, 4,   109, -1, 0, 0, False) /* Create Leather Tassets for Shop */
-     , (2259, 2,   115,  0, 9, 1, False) /* Create Leather Boots for Wield */
-     , (2259, 4,   115, -1, 0, 0, False) /* Create Leather Boots for Shop */
-     , (2259, 2,   127,  0, 9, 0, False) /* Create Pants for Wield */
-     , (2259, 2,   130,  0, 9, 0, False) /* Create Shirt for Wield */
-     , (2259, 4,   136, -1, 61, 1, False) /* Create Pack for Shop */
-     , (2259, 4,   139, -1, 90, 0, False) /* Create Small Belt Pouch for Shop */
-     , (2259, 4,   151, -1, 0, 0, False) /* Create Empty Flask for Shop */
-     , (2259, 4,   258, -1, 0, 0, False) /* Create Apple for Shop */
-     , (2259, 4,   293, -1, 0, 0, False) /* Create Torch for Shop */
-     , (2259, 4,   300, -1, 0, 0, False) /* Create Arrow for Shop */
-     , (2259, 4,   305, -1, 0, 0, False) /* Create Quarrel for Shop */
-     , (2259, 4,   312, -1, 0, 0, False) /* Create Light Crossbow for Shop */
-     , (2259, 4,   321, -1, 0, 0, False) /* Create Jitte for Shop */
-     , (2259, 4,   329, -1, 0, 0, False) /* Create Knife for Shop */
-     , (2259, 4,   341, -1, 0, 0, False) /* Create Shouyumi for Shop */
-     , (2259, 4,   342, -1, 0, 0, False) /* Create Shou-ono for Shop */
-     , (2259, 4,   343, -1, 0, 0, False) /* Create Shouken for Shop */
-     , (2259, 4,   361, -1, 0, 0, False) /* Create Yaoji for Shop */
-     , (2259, 4,   362, -1, 0, 0, False) /* Create Yari for Shop */
-     , (2259, 4,   365, -1, 0, 0, False) /* Create Parchment for Shop */
-     , (2259, 4,   458, -1, 0, 0, False) /* Create Leather Cowl for Shop */
-     , (2259, 4,   551, -1, 0, 0, False) /* Create Leather Basinet for Shop */
-     , (2259, 4,  4585, -1, 0, 0, False) /* Create Bundle of Arrowshafts for Shop */
-     , (2259, 4,  4586, -1, 0, 0, False) /* Create Bundle of Arrowheads for Shop */
-     , (2259, 4,  4746, -1, 0, 0, False) /* Create Water for Shop */
-     , (2259, 4,  4754, -1, 0, 0, False) /* Create Baking Pan for Shop */
-     , (2259, 4,  4761, -1, 0, 0, False) /* Create Flour for Shop */
-     , (2259, 4,  5339, -1, 0, 0, False) /* Create Bundle of Quarrelshafts for Shop */
-     , (2259, 4,  5778, -1, 0, 0, False) /* Create Whittling Knife for Shop */
-     , (2259, 2, 10696,  0, 18, 1, False) /* Create Apron for Wield */
-     , (2259, 4, 22158, -1, 0, 0, False) /* Create Jo for Shop */;
+VALUES (2259, 4,    36, -1, 0, 0, False) /* Create Leather Bracers (36) for Shop */
+     , (2259, 4,    39, -1, 0, 0, False) /* Create Leather Breastplate (39) for Shop */
+     , (2259, 4,    44, -1, 0, 0, False) /* Create Buckler (44) for Shop */
+     , (2259, 4,    45, -1, 0, 0, False) /* Create Leather Cap (45) for Shop */
+     , (2259, 4,    56, -1, 0, 0, False) /* Create Leather Gauntlets (56) for Shop */
+     , (2259, 4,    60, -1, 0, 0, False) /* Create Leather Girth (60) for Shop */
+     , (2259, 4,    65, -1, 0, 0, False) /* Create Leather Greaves (65) for Shop */
+     , (2259, 4,    81, -1, 0, 0, False) /* Create Leather Leggings (81) for Shop */
+     , (2259, 4,    86, -1, 0, 0, False) /* Create Leather Pauldrons (86) for Shop */
+     , (2259, 4,   109, -1, 0, 0, False) /* Create Leather Tassets (109) for Shop */
+     , (2259, 2,   115,  0, 9, 1, False) /* Create Leather Boots (115) for Wield */
+     , (2259, 4,   115, -1, 0, 0, False) /* Create Leather Boots (115) for Shop */
+     , (2259, 2,   127,  0, 9, 0, False) /* Create Pants (127) for Wield */
+     , (2259, 2,   130,  0, 9, 0, False) /* Create Shirt (130) for Wield */
+     , (2259, 4,   136, -1, 61, 1, False) /* Create Pack (136) for Shop */
+     , (2259, 4,   139, -1, 90, 0, False) /* Create Small Belt Pouch (139) for Shop */
+     , (2259, 4,   151, -1, 0, 0, False) /* Create Empty Flask (151) for Shop */
+     , (2259, 4,   258, -1, 0, 0, False) /* Create Apple (258) for Shop */
+     , (2259, 4,   293, -1, 0, 0, False) /* Create Torch (293) for Shop */
+     , (2259, 4,   300, -1, 0, 0, False) /* Create Arrow (300) for Shop */
+     , (2259, 4,   305, -1, 0, 0, False) /* Create Quarrel (305) for Shop */
+     , (2259, 4,   312, -1, 0, 0, False) /* Create Light Crossbow (312) for Shop */
+     , (2259, 4,   321, -1, 0, 0, False) /* Create Jitte (321) for Shop */
+     , (2259, 4,   329, -1, 0, 0, False) /* Create Knife (329) for Shop */
+     , (2259, 4,   341, -1, 0, 0, False) /* Create Shouyumi (341) for Shop */
+     , (2259, 4,   342, -1, 0, 0, False) /* Create Shou-ono (342) for Shop */
+     , (2259, 4,   343, -1, 0, 0, False) /* Create Shouken (343) for Shop */
+     , (2259, 4,   361, -1, 0, 0, False) /* Create Yaoji (361) for Shop */
+     , (2259, 4,   362, -1, 0, 0, False) /* Create Yari (362) for Shop */
+     , (2259, 4,   365, -1, 0, 0, False) /* Create Parchment (365) for Shop */
+     , (2259, 4,   458, -1, 0, 0, False) /* Create Leather Cowl (458) for Shop */
+     , (2259, 4,   551, -1, 0, 0, False) /* Create Leather Basinet (551) for Shop */
+     , (2259, 4,  4585, -1, 0, 0, False) /* Create Bundle of Arrowshafts (4585) for Shop */
+     , (2259, 4,  4586, -1, 0, 0, False) /* Create Bundle of Arrowheads (4586) for Shop */
+     , (2259, 4,  4746, -1, 0, 0, False) /* Create Water (4746) for Shop */
+     , (2259, 4,  4754, -1, 0, 0, False) /* Create Baking Pan (4754) for Shop */
+     , (2259, 4,  4761, -1, 0, 0, False) /* Create Flour (4761) for Shop */
+     , (2259, 4,  5339, -1, 0, 0, False) /* Create Bundle of Quarrelshafts (5339) for Shop */
+     , (2259, 4,  5778, -1, 0, 0, False) /* Create Whittling Knife (5778) for Shop */
+     , (2259, 2, 10696,  0, 18, 1, False) /* Create Apron (10696) for Wield */
+     , (2259, 4, 22158, -1, 0, 0, False) /* Create Jo (22158) for Shop */;

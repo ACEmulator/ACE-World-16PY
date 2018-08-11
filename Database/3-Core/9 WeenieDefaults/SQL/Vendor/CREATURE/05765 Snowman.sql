@@ -12,11 +12,11 @@ VALUES (5765,   1,         16) /* ItemType - Creature */
      , (5765,  40,          2) /* CombatMode - Melee */
      , (5765,  67,         64) /* Tolerance */
      , (5765,  68,          9) /* TargetingTactic */
-     , (5765,  74,      17291) /* MerchandiseItemTypes */
+     , (5765,  74,      17291) /* MerchandiseItemTypes - Armor, Jewelry, Weapon, LockableMagicTarget, Key */
      , (5765,  75,          0) /* MerchandiseMinValue */
      , (5765,  76,          0) /* MerchandiseMaxValue */
-     , (5765,  93,       1032) /* PhysicsState */
-     , (5765, 101,        131) /* AiAllowedCombatStyle */
+     , (5765,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
+     , (5765, 101,        131) /* AiAllowedCombatStyle - Unarmed, OneHanded, ThrownWeapon */
      , (5765, 126,       2000) /* VendorHappyMean */
      , (5765, 127,       1000) /* VendorHappyVariance */
      , (5765, 133,          2) /* ShowableOnRadar - ShowMovement */
@@ -80,7 +80,7 @@ VALUES (5765,   1,   33556221) /* Setup */
      , (5765,   4,  805306406) /* CombatTable */
      , (5765,   8,  100669125) /* Icon */
      , (5765,  22,  872415346) /* PhysicsEffectTable */
-     , (5765,  35,        460) /* DeathTreasureType */;
+     , (5765,  35,        460) /* DeathTreasureType - Loot Tier: 4 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (5765,   1, 300, 0, 0) /* Strength */
@@ -201,10 +201,10 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 268435537 /* Twitch1 */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (5765, 1,  5758,  1, 0, 0, False) /* Create Carrot for Contain */
-     , (5765, 4,  5762, -1, 0, 0, False) /* Create Snowball for Shop */
-     , (5765, 4,  5768, -1, 0, 0, False) /* Create Poofy Snowball for Shop */
-     , (5765, 1,  5768, 24, 0, 0, False) /* Create Poofy Snowball for Contain */
-     , (5765, 1,  5769, 12, 0, 0, False) /* Create Iceball for Contain */
-     , (5765, 2,  5770,  3, 0, 0, False) /* Create "Enchanted" Iceball for Wield */
-     , (5765, 4, 13224, -1, 0, 0, False) /* Create A Frozen Note for Shop */;
+VALUES (5765, 1,  5758,  1, 0, 0, False) /* Create Carrot (5758) for Contain */
+     , (5765, 4,  5762, -1, 0, 0, False) /* Create Snowball (5762) for Shop */
+     , (5765, 4,  5768, -1, 0, 0, False) /* Create Poofy Snowball (5768) for Shop */
+     , (5765, 1,  5768, 24, 0, 0, False) /* Create Poofy Snowball (5768) for Contain */
+     , (5765, 1,  5769, 12, 0, 0, False) /* Create Iceball (5769) for Contain */
+     , (5765, 2,  5770,  3, 0, 0, False) /* Create "Enchanted" Iceball (5770) for Wield */
+     , (5765, 4, 13224, -1, 0, 0, False) /* Create A Frozen Note (13224) for Shop */;

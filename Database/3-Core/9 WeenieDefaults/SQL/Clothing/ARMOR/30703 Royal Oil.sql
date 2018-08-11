@@ -4,15 +4,15 @@ VALUES ('30703', 'tattooroyalfavoruber', 2) /* Clothing */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (30703,   1,          2) /* ItemType - Armor */
      , (30703,   3,         14) /* PaletteTemplate - Red */
-     , (30703,   4,      12288) /* ClothingPriority */
+     , (30703,   4,      12288) /* ClothingPriority - OuterwearUpperArms, OuterwearLowerArms */
      , (30703,   5,        100) /* EncumbranceVal */
      , (30703,   8,        180) /* Mass */
-     , (30703,   9,       6144) /* ValidLocations */
+     , (30703,   9,       6144) /* ValidLocations - UpperArmArmor, LowerArmArmor */
      , (30703,  16,          1) /* ItemUseable - No */
      , (30703,  19,       3000) /* Value */
      , (30703,  27,          2) /* ArmorType */
      , (30703,  28,        300) /* ArmorLevel */
-     , (30703,  93,       1044) /* PhysicsState */
+     , (30703,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (30703, 106,        250) /* ItemSpellcraft */
      , (30703, 107,       1100) /* ItemCurMana */
      , (30703, 108,       1100) /* ItemMaxMana */

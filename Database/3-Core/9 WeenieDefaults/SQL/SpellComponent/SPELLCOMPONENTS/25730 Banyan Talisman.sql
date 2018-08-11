@@ -14,7 +14,7 @@ VALUES (25730,   1,       4096) /* ItemType - SpellComponents */
      , (25730,  15,          5) /* StackUnitValue */
      , (25730,  16,          1) /* ItemUseable - No */
      , (25730,  19,          5) /* Value */
-     , (25730,  93,       1044) /* PhysicsState */;
+     , (25730,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (25730,   1, 'Banyan Talisman') /* Name */;

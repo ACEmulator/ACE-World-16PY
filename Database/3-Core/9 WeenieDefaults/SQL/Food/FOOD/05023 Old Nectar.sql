@@ -15,7 +15,7 @@ VALUES (5023,   1,         32) /* ItemType - Food */
      , (5023,  19,         80) /* Value */
      , (5023,  89,          4) /* BoosterEnum - Stamina */
      , (5023,  90,          8) /* BoostValue */
-     , (5023,  93,       1044) /* PhysicsState */;
+     , (5023,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (5023,   1, 'Old Nectar') /* Name */

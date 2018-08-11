@@ -7,7 +7,7 @@ VALUES (487,   1,       8192) /* ItemType - Writable */
      , (487,   8,       1800) /* Mass */
      , (487,  16,         48) /* ItemUseable - ViewedRemote */
      , (487,  19,        125) /* Value */
-     , (487,  93,       1048) /* PhysicsState */;
+     , (487,  93,       1048) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (487,   1, True ) /* Stuck */

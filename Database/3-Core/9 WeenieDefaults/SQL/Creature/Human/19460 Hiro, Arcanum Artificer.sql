@@ -10,7 +10,7 @@ VALUES (19460,   1,         16) /* ItemType - Creature */
      , (19460,  16,         32) /* ItemUseable - Remote */
      , (19460,  25,         75) /* Level */
      , (19460,  27,          0) /* ArmorType */
-     , (19460,  93,    6292504) /* PhysicsState */
+     , (19460,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (19460,  95,          8) /* RadarBlipColor - Yellow */
      , (19460, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (19460, 134,         16) /* PlayerKillerStatus - RubberGlue */
@@ -260,4 +260,4 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,  10 /* Tell */, 1, 1, NULL, 'I am a very busy man. If you have no dealings with me or messages from the High Queen''s man in Lin, Balthazar, please leave me be.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (19460, 2,  5914,  0, 5, 0, False) /* Create Suikan Item Master Robe for Wield */;
+VALUES (19460, 2,  5914,  0, 5, 0, False) /* Create Suikan Item Master Robe (5914) for Wield */;

@@ -11,8 +11,8 @@ VALUES (11880,   1,         16) /* ItemType - Creature */
      , (11880,  25,         26) /* Level */
      , (11880,  27,          0) /* ArmorType */
      , (11880,  68,          5) /* TargetingTactic */
-     , (11880,  93,       1032) /* PhysicsState */
-     , (11880, 101,        183) /* AiAllowedCombatStyle */
+     , (11880,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
+     , (11880, 101,        183) /* AiAllowedCombatStyle - Unarmed, OneHanded, OneHandedAndShield, Bow, Crossbow, ThrownWeapon */
      , (11880, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (11880, 140,          1) /* AiOptions */
      , (11880, 146,       2533) /* XpOverride */;
@@ -69,8 +69,10 @@ VALUES (11880,   1,   33554496) /* Setup */
      , (11880,   7,  268435647) /* ClothingBase */
      , (11880,   8,  100667452) /* Icon */
      , (11880,  22,  872415270) /* PhysicsEffectTable */
-     , (11880,  32,        371) /* WieldedTreasureType */
-     , (11880,  35,        453) /* DeathTreasureType */;
+     , (11880,  32,        371) /* WieldedTreasureType - 
+                                   Wield Hafted Shreth Spear (11756) | Probability: 80%
+                                   Wield Reinforced Shreth Spear (11782) | Probability: 20% */
+     , (11880,  35,        453) /* DeathTreasureType - Loot Tier: 1 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (11880,   1, 110, 0, 0) /* Strength */
@@ -119,7 +121,7 @@ VALUES (11880,  94) /* ATTACK_NOTIFICATION_EVENT */
      , (11880, 414) /* PLAYER_DEATH_EVENT */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (11880, 9,     0,  0, 0, 0.97, False) /* Create Unknown for ContainTreasure */
-     , (11880, 9,     0,  0, 0, 0.95, False) /* Create Unknown for ContainTreasure */
-     , (11880, 9,  7825,  0, 0, 0.03, False) /* Create Brown Beans for ContainTreasure */
-     , (11880, 9, 11790,  0, 0, 0.05, False) /* Create Shreth Banner for ContainTreasure */;
+VALUES (11880, 9,     0,  0, 0, 0.97, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 1 for ContainTreasure */
+     , (11880, 9,     0,  0, 0, 0.95, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 1 for ContainTreasure */
+     , (11880, 9,  7825,  0, 0, 0.03, False) /* Create Brown Beans (7825) for ContainTreasure */
+     , (11880, 9, 11790,  0, 0, 0.05, False) /* Create Shreth Banner (11790) for ContainTreasure */;

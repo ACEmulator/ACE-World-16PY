@@ -10,7 +10,7 @@ VALUES (22935,   1,         16) /* ItemType - Creature */
      , (22935,  16,         32) /* ItemUseable - Remote */
      , (22935,  25,          9) /* Level */
      , (22935,  27,          0) /* ArmorType */
-     , (22935,  93,    6292504) /* PhysicsState */
+     , (22935,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (22935,  95,          8) /* RadarBlipColor - Yellow */
      , (22935, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (22935, 134,         16) /* PlayerKillerStatus - RubberGlue */
@@ -204,6 +204,6 @@ VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 1090519043 /* Ready */, NULL, NU
      , (@parent_id,  2,  10 /* Tell */, 1, 1, NULL, 'What is happening? This is not the right place. I just came from the warehouse. We should not have arrived here. I sense danger! Are you going further? I''m staying here!', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (22935, 2,   132,  0, 9, 0, False) /* Create Shoes for Wield */
-     , (22935, 2,  2590,  0, 9, 0.5, False) /* Create Shirt for Wield */
-     , (22935, 2,  2598,  0, 14, 0.6, False) /* Create Pants for Wield */;
+VALUES (22935, 2,   132,  0, 9, 0, False) /* Create Shoes (132) for Wield */
+     , (22935, 2,  2590,  0, 9, 0.5, False) /* Create Shirt (2590) for Wield */
+     , (22935, 2,  2598,  0, 14, 0.6, False) /* Create Pants (2598) for Wield */;

@@ -11,7 +11,7 @@ VALUES (21550,   1,         16) /* ItemType - Creature */
      , (21550,  27,          0) /* ArmorType */
      , (21550,  40,          2) /* CombatMode - Melee */
      , (21550,  68,          9) /* TargetingTactic */
-     , (21550,  93,       1032) /* PhysicsState */
+     , (21550,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (21550, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (21550, 146,      28665) /* XpOverride */;
 
@@ -66,7 +66,7 @@ VALUES (21550,   1,   33557033) /* Setup */
      , (21550,   3,  536870985) /* SoundTable */
      , (21550,   4,  805306368) /* CombatTable */
      , (21550,   8,  100671612) /* Icon */
-     , (21550,  35,        460) /* DeathTreasureType */;
+     , (21550,  35,        460) /* DeathTreasureType - Loot Tier: 4 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (21550,   1, 120, 0, 0) /* Strength */
@@ -116,5 +116,5 @@ VALUES (21550,  94) /* ATTACK_NOTIFICATION_EVENT */
      , (21550, 414) /* PLAYER_DEATH_EVENT */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (21550, 9,     0,  0, 0, 0.95, False) /* Create Unknown for ContainTreasure */
-     , (21550, 9, 30910,  0, 0, 0.05, False) /* Create Halaetan Magic Page 5 for ContainTreasure */;
+VALUES (21550, 9,     0,  0, 0, 0.95, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 4 for ContainTreasure */
+     , (21550, 9, 30910,  0, 0, 0.05, False) /* Create Halaetan Magic Page 5 (30910) for ContainTreasure */;

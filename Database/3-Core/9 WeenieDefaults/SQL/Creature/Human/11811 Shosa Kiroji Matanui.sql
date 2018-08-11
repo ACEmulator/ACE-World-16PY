@@ -10,7 +10,7 @@ VALUES (11811,   1,         16) /* ItemType - Creature */
      , (11811,  16,         32) /* ItemUseable - Remote */
      , (11811,  25,         33) /* Level */
      , (11811,  27,          0) /* ArmorType */
-     , (11811,  93,    6292504) /* PhysicsState */
+     , (11811,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (11811,  95,          8) /* RadarBlipColor - Yellow */
      , (11811, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (11811, 134,         16) /* PlayerKillerStatus - RubberGlue */
@@ -958,11 +958,11 @@ VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 1090519043 /* Ready */, NULL, NU
      , (@parent_id,  5,  10 /* Tell */, 1, 1, NULL, 'If you have already investigated the camps, and you have some trophy to prove it, I will gladly reward you. I also accept Tumerok insignia.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (11811, 2,    58,  0, 21, 1, False) /* Create Scalemail Gauntlets for Wield */
-     , (11811, 2,    77,  0, 21, 0.8, False) /* Create Kabuton for Wield */
-     , (11811, 2,   107,  0, 21, 1, False) /* Create Sollerets for Wield */
-     , (11811, 2,   117,  0, 17, 1, False) /* Create Breeches for Wield */
-     , (11811, 2,  2591,  0, 9, 1, False) /* Create Shirt for Wield */
-     , (11811, 2,  6003,  0, 21, 0.8, False) /* Create Koujia Breastplate for Wield */
-     , (11811, 2,  6004,  0, 21, 0.5, False) /* Create Koujia Leggings for Wield */
-     , (11811, 2,  6005,  0, 17, 0.8, False) /* Create Koujia Sleeves for Wield */;
+VALUES (11811, 2,    58,  0, 21, 1, False) /* Create Scalemail Gauntlets (58) for Wield */
+     , (11811, 2,    77,  0, 21, 0.8, False) /* Create Kabuton (77) for Wield */
+     , (11811, 2,   107,  0, 21, 1, False) /* Create Sollerets (107) for Wield */
+     , (11811, 2,   117,  0, 17, 1, False) /* Create Breeches (117) for Wield */
+     , (11811, 2,  2591,  0, 9, 1, False) /* Create Shirt (2591) for Wield */
+     , (11811, 2,  6003,  0, 21, 0.8, False) /* Create Koujia Breastplate (6003) for Wield */
+     , (11811, 2,  6004,  0, 21, 0.5, False) /* Create Koujia Leggings (6004) for Wield */
+     , (11811, 2,  6005,  0, 17, 0.8, False) /* Create Koujia Sleeves (6005) for Wield */;

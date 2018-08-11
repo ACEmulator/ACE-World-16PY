@@ -4,7 +4,7 @@ VALUES ('8368', 'portalmosswartmazeexit', 7) /* Portal */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (8368,   1,      65536) /* ItemType - Portal */
      , (8368,  16,         32) /* ItemUseable - Remote */
-     , (8368,  93,       3084) /* PhysicsState */
+     , (8368,  93,       3084) /* PhysicsState - Ethereal, ReportCollisions, Gravity, LightingOn */
      , (8368, 111,          1) /* PortalBitmask - Unrestricted */
      , (8368, 133,          4) /* ShowableOnRadar - ShowAlways */;
 

@@ -17,7 +17,7 @@ VALUES (23325,   1,          1) /* ItemType - MeleeWeapon */
      , (23325,  49,         55) /* WeaponTime */
      , (23325,  51,          1) /* CombatUse - Melee */
      , (23325,  92,        100) /* Structure */
-     , (23325,  93,       1044) /* PhysicsState */
+     , (23325,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (23325, 105,          3) /* ItemWorkmanship */
      , (23325, 131,         63) /* MaterialType - Silver */
      , (23325, 150,        103) /* HookPlacement - Hook */

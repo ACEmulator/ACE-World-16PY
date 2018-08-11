@@ -4,7 +4,7 @@ VALUES ('28609', 'shirtviamontvest', 2) /* Clothing */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (28609,   1,          4) /* ItemType - Clothing */
      , (28609,   3,          8) /* PaletteTemplate - Green */
-     , (28609,   4,         56) /* ClothingPriority */
+     , (28609,   4,         56) /* ClothingPriority - UnderwearChest, UnderwearAbdomen, UnderwearUpperArms */
      , (28609,   5,         50) /* EncumbranceVal */
      , (28609,   8,         38) /* Mass */
      , (28609,   9,          2) /* ValidLocations - ChestWear */
@@ -12,7 +12,7 @@ VALUES (28609,   1,          4) /* ItemType - Clothing */
      , (28609,  19,         20) /* Value */
      , (28609,  27,          1) /* ArmorType */
      , (28609,  28,          0) /* ArmorLevel */
-     , (28609,  93,       1044) /* PhysicsState */
+     , (28609,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (28609, 169,  201328144) /* TsysMutationData */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)

@@ -10,10 +10,10 @@ VALUES (24595,   1,         16) /* ItemType - Creature */
      , (24595,  16,         32) /* ItemUseable - Remote */
      , (24595,  25,         85) /* Level */
      , (24595,  27,          0) /* ArmorType */
-     , (24595,  74, 1841589932) /* MerchandiseItemTypes */
+     , (24595,  74, 1841589932) /* MerchandiseItemTypes - 1841589932 */
      , (24595,  75,          0) /* MerchandiseMinValue */
      , (24595,  76,    1000000) /* MerchandiseMaxValue */
-     , (24595,  93,    2098200) /* PhysicsState */
+     , (24595,  93,    2098200) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */
      , (24595, 126,      50000) /* VendorHappyMean */
      , (24595, 127,      45000) /* VendorHappyVariance */
      , (24595, 133,          4) /* ShowableOnRadar - ShowAlways */
@@ -259,86 +259,86 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 318767248 /* YawnStretch */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (24595, 2,   127,  0, 2, 0.7, False) /* Create Pants for Wield */
-     , (24595, 2,   130,  0, 9, 1, False) /* Create Shirt for Wield */
-     , (24595, 4,   136, -1, 2, 1, False) /* Create Pack for Shop */
-     , (24595, 4,   136, -1, 13, 1, False) /* Create Pack for Shop */
-     , (24595, 4,   137, -1, 91, 0, False) /* Create Basket for Shop */
-     , (24595, 4,   137, -1, 92, 0, False) /* Create Basket for Shop */
-     , (24595, 4,   138, -1, 91, 0, False) /* Create Belt Pouch for Shop */
-     , (24595, 4,   138, -1, 92, 0, False) /* Create Belt Pouch for Shop */
-     , (24595, 4,   139, -1, 91, 0, False) /* Create Small Belt Pouch for Shop */
-     , (24595, 4,   139, -1, 92, 0, False) /* Create Small Belt Pouch for Shop */
-     , (24595, 4,   151, -1, 0, 0, False) /* Create Empty Flask for Shop */
-     , (24595, 4,   166, -1, 2, 1, False) /* Create Sack for Shop */
-     , (24595, 4,   166, -1, 13, 1, False) /* Create Sack for Shop */
-     , (24595, 4,   258, -1, 0, 0, False) /* Create Apple for Shop */
-     , (24595, 4,   259, -1, 0, 0, False) /* Create Bread for Shop */
-     , (24595, 4,   260, -1, 0, 0, False) /* Create Cabbage for Shop */
-     , (24595, 4,   261, -1, 0, 0, False) /* Create Cheese for Shop */
-     , (24595, 4,   262, -1, 0, 0, False) /* Create Chicken for Shop */
-     , (24595, 4,   263, -1, 0, 0, False) /* Create Fish for Shop */
-     , (24595, 4,   264, -1, 0, 0, False) /* Create Grapes for Shop */
-     , (24595, 4,   293, -1, 0, 0, False) /* Create Torch for Shop */
-     , (24595, 4,   295, -1, 0, 0, False) /* Create Bracelet for Shop */
-     , (24595, 4,   297, -1, 0, 0, False) /* Create Ring for Shop */
-     , (24595, 2,   359,  0, 14, 1, False) /* Create War Hammer for Wield */
-     , (24595, 4,   365, -1, 0, 0, False) /* Create Parchment for Shop */
-     , (24595, 4,   377, -1, 0, 0, False) /* Create Potion of Healing for Shop */
-     , (24595, 4,   378, -1, 0, 0, False) /* Create Stamina Potion for Shop */
-     , (24595, 4,   379, -1, 0, 0, False) /* Create Mana Potion for Shop */
-     , (24595, 4,   512, -1, 0, 0, False) /* Create Good Lockpick for Shop */
-     , (24595, 4,   513, -1, 0, 0, False) /* Create Plain Lockpick for Shop */
-     , (24595, 4,   514, -1, 0, 0, False) /* Create Excellent Lockpick for Shop */
-     , (24595, 4,   515, -1, 0, 0, False) /* Create Superb Lockpick for Shop */
-     , (24595, 4,   516, -1, 0, 0, False) /* Create Peerless Lockpick for Shop */
-     , (24595, 4,   545, -1, 0, 0, False) /* Create Reliable Lockpick for Shop */
-     , (24595, 4,   546, -1, 0, 0, False) /* Create Egg for Shop */
-     , (24595, 4,   547, -1, 0, 0, False) /* Create Brimstone-cap Mushroom for Shop */
-     , (24595, 4,   622, -1, 0, 0, False) /* Create Necklace for Shop */
-     , (24595, 4,   628, -1, 0, 0, False) /* Create Handy Healing Kit for Shop */
-     , (24595, 4,   629, -1, 0, 0, False) /* Create Adept Healing Kit for Shop */
-     , (24595, 4,   630, -1, 0, 0, False) /* Create Gifted Healing Kit for Shop */
-     , (24595, 4,   631, -1, 0, 0, False) /* Create Excellent Healing Kit for Shop */
-     , (24595, 4,   632, -1, 0, 0, False) /* Create Peerless Healing Kit for Shop */
-     , (24595, 4,  2415, -1, 0, 0, False) /* Create Lapis Lazuli for Shop */
-     , (24595, 4,  2426, -1, 0, 0, False) /* Create Amber  for Shop */
-     , (24595, 4,  2427, -1, 0, 0, False) /* Create Bloodstone for Shop */
-     , (24595, 4,  2457, -1, 0, 0, False) /* Create Health Draught for Shop */
-     , (24595, 4,  2460, -1, 0, 0, False) /* Create Mana Draught for Shop */
-     , (24595, 4,  2470, -1, 0, 0, False) /* Create Stamina Elixir for Shop */
-     , (24595, 4,  2621, -1, 0, 0, False) /* Create Trade Note (100) for Shop */
-     , (24595, 4,  2622, -1, 0, 0, False) /* Create Trade Note (500) for Shop */
-     , (24595, 4,  2623, -1, 0, 0, False) /* Create Trade Note (1,000) for Shop */
-     , (24595, 4,  2624, -1, 0, 0, False) /* Create Trade Note (5,000) for Shop */
-     , (24595, 4,  2625, -1, 0, 0, False) /* Create Trade Note (10,000) for Shop */
-     , (24595, 4,  2626, -1, 0, 0, False) /* Create Trade Note (50,000) for Shop */
-     , (24595, 4,  2627, -1, 0, 0, False) /* Create Trade Note (100,000) for Shop */
-     , (24595, 4,  4746, -1, 0, 0, False) /* Create Water for Shop */
-     , (24595, 4,  4754, -1, 0, 0, False) /* Create Baking Pan for Shop */
-     , (24595, 4,  4755, -1, 0, 0, False) /* Create Brine for Shop */
-     , (24595, 4,  4757, -1, 0, 0, False) /* Create Carving Knife for Shop */
-     , (24595, 4,  4761, -1, 0, 0, False) /* Create Flour for Shop */
-     , (24595, 4,  4762, -1, 0, 0, False) /* Create Frying Pan for Shop */
-     , (24595, 4,  4763, -1, 0, 0, False) /* Create Honey for Shop */
-     , (24595, 4,  4766, -1, 0, 0, False) /* Create Rennet for Shop */
-     , (24595, 4,  4767, -1, 0, 0, False) /* Create Skewer for Shop */
-     , (24595, 4,  4768, -1, 0, 0, False) /* Create Uncooked Rice for Shop */
-     , (24595, 4,  5758, -1, 0, 0, False) /* Create Carrot for Shop */
-     , (24595, 4,  7824, -1, 0, 0, False) /* Create Metal Press for Shop */
-     , (24595, 2,  7897,  0, 9, 0, False) /* Create Steel Toed Boots for Wield */
-     , (24595, 4,  9295, -1, 0, 0, False) /* Create Intricate Carving Tool for Shop */
-     , (24595, 2, 10696,  0, 9, 0, False) /* Create Apron for Wield */
-     , (24595, 4, 20628, -1, 0, 0, False) /* Create Trade Note (150,000) for Shop */
-     , (24595, 4, 20629, -1, 0, 0, False) /* Create Trade Note (200,000) for Shop */
-     , (24595, 4, 20630, -1, 0, 0, False) /* Create Trade Note (250,000) for Shop */
-     , (24595, 4, 20646, -1, 0, 0, False) /* Create Ust for Shop */
-     , (24595, 4, 21093, -1, 0, 0, False) /* Create Tinkering for Shop */
-     , (24595, 4, 23044, -1, 0, 0, False) /* Create On the Abilities of Salvaged Ivory for Shop */
-     , (24595, 4, 23204, -1, 0, 0, False) /* Create Carving Keys and Keyrings for Shop */
-     , (24595, 4, 23326, -1, 0, 0, False) /* Create Elaborate Dried Rations for Shop */
-     , (24595, 4, 23327, -1, 0, 0, False) /* Create Simple Dried Rations for Shop */
-     , (24595, 2, 24261,  0, 0, 1, False) /* Create Timberman's Hat for Wield */
-     , (24595, 4, 27319, -1, 0, 0, False) /* Create Health Tincture for Shop */
-     , (24595, 4, 27322, -1, 0, 0, False) /* Create Mana Tincture for Shop */
-     , (24595, 4, 27326, -1, 0, 0, False) /* Create Stamina Tincture for Shop */;
+VALUES (24595, 2,   127,  0, 2, 0.7, False) /* Create Pants (127) for Wield */
+     , (24595, 2,   130,  0, 9, 1, False) /* Create Shirt (130) for Wield */
+     , (24595, 4,   136, -1, 2, 1, False) /* Create Pack (136) for Shop */
+     , (24595, 4,   136, -1, 13, 1, False) /* Create Pack (136) for Shop */
+     , (24595, 4,   137, -1, 91, 0, False) /* Create Basket (137) for Shop */
+     , (24595, 4,   137, -1, 92, 0, False) /* Create Basket (137) for Shop */
+     , (24595, 4,   138, -1, 91, 0, False) /* Create Belt Pouch (138) for Shop */
+     , (24595, 4,   138, -1, 92, 0, False) /* Create Belt Pouch (138) for Shop */
+     , (24595, 4,   139, -1, 91, 0, False) /* Create Small Belt Pouch (139) for Shop */
+     , (24595, 4,   139, -1, 92, 0, False) /* Create Small Belt Pouch (139) for Shop */
+     , (24595, 4,   151, -1, 0, 0, False) /* Create Empty Flask (151) for Shop */
+     , (24595, 4,   166, -1, 2, 1, False) /* Create Sack (166) for Shop */
+     , (24595, 4,   166, -1, 13, 1, False) /* Create Sack (166) for Shop */
+     , (24595, 4,   258, -1, 0, 0, False) /* Create Apple (258) for Shop */
+     , (24595, 4,   259, -1, 0, 0, False) /* Create Bread (259) for Shop */
+     , (24595, 4,   260, -1, 0, 0, False) /* Create Cabbage (260) for Shop */
+     , (24595, 4,   261, -1, 0, 0, False) /* Create Cheese (261) for Shop */
+     , (24595, 4,   262, -1, 0, 0, False) /* Create Chicken (262) for Shop */
+     , (24595, 4,   263, -1, 0, 0, False) /* Create Fish (263) for Shop */
+     , (24595, 4,   264, -1, 0, 0, False) /* Create Grapes (264) for Shop */
+     , (24595, 4,   293, -1, 0, 0, False) /* Create Torch (293) for Shop */
+     , (24595, 4,   295, -1, 0, 0, False) /* Create Bracelet (295) for Shop */
+     , (24595, 4,   297, -1, 0, 0, False) /* Create Ring (297) for Shop */
+     , (24595, 2,   359,  0, 14, 1, False) /* Create War Hammer (359) for Wield */
+     , (24595, 4,   365, -1, 0, 0, False) /* Create Parchment (365) for Shop */
+     , (24595, 4,   377, -1, 0, 0, False) /* Create Potion of Healing (377) for Shop */
+     , (24595, 4,   378, -1, 0, 0, False) /* Create Stamina Potion (378) for Shop */
+     , (24595, 4,   379, -1, 0, 0, False) /* Create Mana Potion (379) for Shop */
+     , (24595, 4,   512, -1, 0, 0, False) /* Create Good Lockpick (512) for Shop */
+     , (24595, 4,   513, -1, 0, 0, False) /* Create Plain Lockpick (513) for Shop */
+     , (24595, 4,   514, -1, 0, 0, False) /* Create Excellent Lockpick (514) for Shop */
+     , (24595, 4,   515, -1, 0, 0, False) /* Create Superb Lockpick (515) for Shop */
+     , (24595, 4,   516, -1, 0, 0, False) /* Create Peerless Lockpick (516) for Shop */
+     , (24595, 4,   545, -1, 0, 0, False) /* Create Reliable Lockpick (545) for Shop */
+     , (24595, 4,   546, -1, 0, 0, False) /* Create Egg (546) for Shop */
+     , (24595, 4,   547, -1, 0, 0, False) /* Create Brimstone-cap Mushroom (547) for Shop */
+     , (24595, 4,   622, -1, 0, 0, False) /* Create Necklace (622) for Shop */
+     , (24595, 4,   628, -1, 0, 0, False) /* Create Handy Healing Kit (628) for Shop */
+     , (24595, 4,   629, -1, 0, 0, False) /* Create Adept Healing Kit (629) for Shop */
+     , (24595, 4,   630, -1, 0, 0, False) /* Create Gifted Healing Kit (630) for Shop */
+     , (24595, 4,   631, -1, 0, 0, False) /* Create Excellent Healing Kit (631) for Shop */
+     , (24595, 4,   632, -1, 0, 0, False) /* Create Peerless Healing Kit (632) for Shop */
+     , (24595, 4,  2415, -1, 0, 0, False) /* Create Lapis Lazuli (2415) for Shop */
+     , (24595, 4,  2426, -1, 0, 0, False) /* Create Amber  (2426) for Shop */
+     , (24595, 4,  2427, -1, 0, 0, False) /* Create Bloodstone (2427) for Shop */
+     , (24595, 4,  2457, -1, 0, 0, False) /* Create Health Draught (2457) for Shop */
+     , (24595, 4,  2460, -1, 0, 0, False) /* Create Mana Draught (2460) for Shop */
+     , (24595, 4,  2470, -1, 0, 0, False) /* Create Stamina Elixir (2470) for Shop */
+     , (24595, 4,  2621, -1, 0, 0, False) /* Create Trade Note (100) (2621) for Shop */
+     , (24595, 4,  2622, -1, 0, 0, False) /* Create Trade Note (500) (2622) for Shop */
+     , (24595, 4,  2623, -1, 0, 0, False) /* Create Trade Note (1,000) (2623) for Shop */
+     , (24595, 4,  2624, -1, 0, 0, False) /* Create Trade Note (5,000) (2624) for Shop */
+     , (24595, 4,  2625, -1, 0, 0, False) /* Create Trade Note (10,000) (2625) for Shop */
+     , (24595, 4,  2626, -1, 0, 0, False) /* Create Trade Note (50,000) (2626) for Shop */
+     , (24595, 4,  2627, -1, 0, 0, False) /* Create Trade Note (100,000) (2627) for Shop */
+     , (24595, 4,  4746, -1, 0, 0, False) /* Create Water (4746) for Shop */
+     , (24595, 4,  4754, -1, 0, 0, False) /* Create Baking Pan (4754) for Shop */
+     , (24595, 4,  4755, -1, 0, 0, False) /* Create Brine (4755) for Shop */
+     , (24595, 4,  4757, -1, 0, 0, False) /* Create Carving Knife (4757) for Shop */
+     , (24595, 4,  4761, -1, 0, 0, False) /* Create Flour (4761) for Shop */
+     , (24595, 4,  4762, -1, 0, 0, False) /* Create Frying Pan (4762) for Shop */
+     , (24595, 4,  4763, -1, 0, 0, False) /* Create Honey (4763) for Shop */
+     , (24595, 4,  4766, -1, 0, 0, False) /* Create Rennet (4766) for Shop */
+     , (24595, 4,  4767, -1, 0, 0, False) /* Create Skewer (4767) for Shop */
+     , (24595, 4,  4768, -1, 0, 0, False) /* Create Uncooked Rice (4768) for Shop */
+     , (24595, 4,  5758, -1, 0, 0, False) /* Create Carrot (5758) for Shop */
+     , (24595, 4,  7824, -1, 0, 0, False) /* Create Metal Press (7824) for Shop */
+     , (24595, 2,  7897,  0, 9, 0, False) /* Create Steel Toed Boots (7897) for Wield */
+     , (24595, 4,  9295, -1, 0, 0, False) /* Create Intricate Carving Tool (9295) for Shop */
+     , (24595, 2, 10696,  0, 9, 0, False) /* Create Apron (10696) for Wield */
+     , (24595, 4, 20628, -1, 0, 0, False) /* Create Trade Note (150,000) (20628) for Shop */
+     , (24595, 4, 20629, -1, 0, 0, False) /* Create Trade Note (200,000) (20629) for Shop */
+     , (24595, 4, 20630, -1, 0, 0, False) /* Create Trade Note (250,000) (20630) for Shop */
+     , (24595, 4, 20646, -1, 0, 0, False) /* Create Ust (20646) for Shop */
+     , (24595, 4, 21093, -1, 0, 0, False) /* Create Tinkering (21093) for Shop */
+     , (24595, 4, 23044, -1, 0, 0, False) /* Create On the Abilities of Salvaged Ivory (23044) for Shop */
+     , (24595, 4, 23204, -1, 0, 0, False) /* Create Carving Keys and Keyrings (23204) for Shop */
+     , (24595, 4, 23326, -1, 0, 0, False) /* Create Elaborate Dried Rations (23326) for Shop */
+     , (24595, 4, 23327, -1, 0, 0, False) /* Create Simple Dried Rations (23327) for Shop */
+     , (24595, 2, 24261,  0, 0, 1, False) /* Create Timberman's Hat (24261) for Wield */
+     , (24595, 4, 27319, -1, 0, 0, False) /* Create Health Tincture (27319) for Shop */
+     , (24595, 4, 27322, -1, 0, 0, False) /* Create Mana Tincture (27322) for Shop */
+     , (24595, 4, 27326, -1, 0, 0, False) /* Create Stamina Tincture (27326) for Shop */;

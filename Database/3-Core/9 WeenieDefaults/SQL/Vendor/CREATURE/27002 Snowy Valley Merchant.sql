@@ -10,10 +10,10 @@ VALUES (27002,   1,         16) /* ItemType - Creature */
      , (27002,  16,         32) /* ItemUseable - Remote */
      , (27002,  25,         10) /* Level */
      , (27002,  27,          0) /* ArmorType */
-     , (27002,  74,     264192) /* MerchandiseItemTypes */
+     , (27002,  74,     264192) /* MerchandiseItemTypes - Gem, PromissoryNote */
      , (27002,  75,          0) /* MerchandiseMinValue */
      , (27002,  76,    1000000) /* MerchandiseMaxValue */
-     , (27002,  93,    2098204) /* PhysicsState */
+     , (27002,  93,    2098204) /* PhysicsState - Ethereal, ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */
      , (27002, 126,        125) /* VendorHappyMean */
      , (27002, 127,        125) /* VendorHappyVariance */
      , (27002, 133,          4) /* ShowableOnRadar - ShowAlways */
@@ -97,4 +97,4 @@ VALUES (27002,  0,  4,  0,    0,    0,    0,    0,    0,    0,    0,    0,    0,
      , (27002,  8,  4,  2, 0.75,    0,    0,    0,    0,    0,    0,    0,    0,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (27002, 4, 26367, -1, 0, 0, False) /* Create Snowy Valley Portal Gem for Shop */;
+VALUES (27002, 4, 26367, -1, 0, 0, False) /* Create Snowy Valley Portal Gem (26367) for Shop */;

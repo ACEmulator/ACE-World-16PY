@@ -10,10 +10,10 @@ VALUES (26813,   1,         16) /* ItemType - Creature */
      , (26813,  16,         32) /* ItemUseable - Remote */
      , (26813,  25,         10) /* Level */
      , (26813,  27,          0) /* ArmorType */
-     , (26813,  74,     264192) /* MerchandiseItemTypes */
+     , (26813,  74,     264192) /* MerchandiseItemTypes - Gem, PromissoryNote */
      , (26813,  75,          0) /* MerchandiseMinValue */
      , (26813,  76,    1000000) /* MerchandiseMaxValue */
-     , (26813,  93,    2098204) /* PhysicsState */
+     , (26813,  93,    2098204) /* PhysicsState - Ethereal, ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */
      , (26813, 126,        125) /* VendorHappyMean */
      , (26813, 127,        125) /* VendorHappyVariance */
      , (26813, 133,          4) /* ShowableOnRadar - ShowAlways */
@@ -97,4 +97,4 @@ VALUES (26813,  0,  4,  0,    0,    0,    0,    0,    0,    0,    0,    0,    0,
      , (26813,  8,  4,  2, 0.75,    0,    0,    0,    0,    0,    0,    0,    0,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (26813, 4, 26178, -1, 0, 0, False) /* Create Firedew Portal Gem for Shop */;
+VALUES (26813, 4, 26178, -1, 0, 0, False) /* Create Firedew Portal Gem (26178) for Shop */;

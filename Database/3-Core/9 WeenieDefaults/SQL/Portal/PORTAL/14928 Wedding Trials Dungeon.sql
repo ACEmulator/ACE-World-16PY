@@ -4,8 +4,8 @@ VALUES ('14928', 'portalweddingdungeon', 7) /* Portal */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (14928,   1,      65536) /* ItemType - Portal */
      , (14928,  16,         32) /* ItemUseable - Remote */
-     , (14928,  93,       3084) /* PhysicsState */
-     , (14928, 111,         49) /* PortalBitmask */
+     , (14928,  93,       3084) /* PhysicsState - Ethereal, ReportCollisions, Gravity, LightingOn */
+     , (14928, 111,         49) /* PortalBitmask - Unrestricted, NoSummon, NoRecall */
      , (14928, 133,          4) /* ShowableOnRadar - ShowAlways */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)

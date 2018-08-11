@@ -11,8 +11,8 @@ VALUES (11879,   1,         16) /* ItemType - Creature */
      , (11879,  25,         26) /* Level */
      , (11879,  27,          0) /* ArmorType */
      , (11879,  68,          5) /* TargetingTactic */
-     , (11879,  93,       1032) /* PhysicsState */
-     , (11879, 101,        183) /* AiAllowedCombatStyle */
+     , (11879,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
+     , (11879, 101,        183) /* AiAllowedCombatStyle - Unarmed, OneHanded, OneHandedAndShield, Bow, Crossbow, ThrownWeapon */
      , (11879, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (11879, 140,          1) /* AiOptions */
      , (11879, 146,       2533) /* XpOverride */;
@@ -68,8 +68,10 @@ VALUES (11879,   1,   33554496) /* Setup */
      , (11879,   7,  268435647) /* ClothingBase */
      , (11879,   8,  100667452) /* Icon */
      , (11879,  22,  872415270) /* PhysicsEffectTable */
-     , (11879,  32,        370) /* WieldedTreasureType */
-     , (11879,  35,        453) /* DeathTreasureType */;
+     , (11879,  32,        370) /* WieldedTreasureType - 
+                                   Wield Hafted Serpent Spear (11755) | Probability: 80%
+                                   Wield Reinforced Serpent Spear (11781) | Probability: 20% */
+     , (11879,  35,        453) /* DeathTreasureType - Loot Tier: 1 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (11879,   1, 110, 0, 0) /* Strength */
@@ -115,5 +117,5 @@ VALUES (11879,  94) /* ATTACK_NOTIFICATION_EVENT */
      , (11879, 414) /* PLAYER_DEATH_EVENT */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (11879, 9,     0,  0, 0, 0.95, False) /* Create Unknown for ContainTreasure */
-     , (11879, 9, 11789,  0, 0, 0.05, False) /* Create Serpent Banner for ContainTreasure */;
+VALUES (11879, 9,     0,  0, 0, 0.95, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 1 for ContainTreasure */
+     , (11879, 9, 11789,  0, 0, 0.05, False) /* Create Serpent Banner (11789) for ContainTreasure */;

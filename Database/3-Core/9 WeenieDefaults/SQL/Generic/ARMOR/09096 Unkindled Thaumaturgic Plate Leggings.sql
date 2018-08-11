@@ -4,7 +4,7 @@ VALUES ('9096', 'leggingsunkindledthau', 1) /* Generic */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (9096,   1,          2) /* ItemType - Armor */
      , (9096,   3,         20) /* PaletteTemplate - Silver */
-     , (9096,   4,          0) /* ClothingPriority */
+     , (9096,   4,          0) /* ClothingPriority - 0 */
      , (9096,   5,         75) /* EncumbranceVal */
      , (9096,   8,        200) /* Mass */
      , (9096,   9,          0) /* ValidLocations - None */
@@ -13,7 +13,7 @@ VALUES (9096,   1,          2) /* ItemType - Armor */
      , (9096,  27,         32) /* ArmorType */
      , (9096,  28,          0) /* ArmorLevel */
      , (9096,  33,          1) /* Bonded - Bonded */
-     , (9096,  93,       1044) /* PhysicsState */
+     , (9096,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (9096, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)

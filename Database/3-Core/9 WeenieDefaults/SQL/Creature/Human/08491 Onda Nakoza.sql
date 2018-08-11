@@ -11,7 +11,7 @@ VALUES (8491,   1,         16) /* ItemType - Creature */
      , (8491,  16,         32) /* ItemUseable - Remote */
      , (8491,  25,         40) /* Level */
      , (8491,  27,          0) /* ArmorType */
-     , (8491,  93,    6292504) /* PhysicsState */
+     , (8491,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (8491,  95,          8) /* RadarBlipColor - Yellow */
      , (8491, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (8491, 134,         16) /* PlayerKillerStatus - RubberGlue */
@@ -223,6 +223,6 @@ VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 1090519043 /* Ready */, NULL, NU
      , (@parent_id,  2,  10 /* Tell */, 1, 1, NULL, 'You are a newcomer here? Does that mean the mainland is free of Olthoi? In any case, welcome to the Vesayen Isles, and to MacNiall''s Freehold. If you like, I have written a history of our island. It is sold by our barkeep, Jesren.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (8491, 2,  2587,  0, 9, 0.9, False) /* Create Shirt for Wield */
-     , (8491, 2,  2601,  0, 4, 0.6, False) /* Create Pants for Wield */
-     , (8491, 2,  7897,  0, 9, 0, False) /* Create Steel Toed Boots for Wield */;
+VALUES (8491, 2,  2587,  0, 9, 0.9, False) /* Create Shirt (2587) for Wield */
+     , (8491, 2,  2601,  0, 4, 0.6, False) /* Create Pants (2601) for Wield */
+     , (8491, 2,  7897,  0, 9, 0, False) /* Create Steel Toed Boots (7897) for Wield */;

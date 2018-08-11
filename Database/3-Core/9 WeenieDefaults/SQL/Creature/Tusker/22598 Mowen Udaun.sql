@@ -13,7 +13,7 @@ VALUES (22598,   1,         16) /* ItemType - Creature */
      , (22598,  40,          2) /* CombatMode - Melee */
      , (22598,  68,          9) /* TargetingTactic */
      , (22598,  72,          8) /* FriendType - Tusker */
-     , (22598,  93,       1032) /* PhysicsState */
+     , (22598,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (22598, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (22598, 146,    5000000) /* XpOverride */;
 
@@ -71,7 +71,7 @@ VALUES (22598,   1,   33558137) /* Setup */
      , (22598,   8,  100667443) /* Icon */
      , (22598,  22,  872415271) /* PhysicsEffectTable */
      , (22598,  31,      22705) /* LinkedPortalOne - Antechamber */
-     , (22598,  35,        354) /* DeathTreasureType */;
+     , (22598,  35,        354) /* DeathTreasureType - Loot Tier: 4 */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (22598, 12, 1581449475, 19.9864, -9.242, 0.005, -4.371139E-08, 0, 0, -1) /* PortalSummonLoc */;
@@ -223,5 +223,5 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,  23 /* StartEvent */, 0, 1, NULL, 'MowenDevastator', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (22598, 9,     0,  0, 0, 0, False) /* Create Unknown for ContainTreasure */
-     , (22598, 9, 22578, 10, 0, 1, False) /* Create Bunch of Nanners for ContainTreasure */;
+VALUES (22598, 9,     0,  0, 0, 0, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 4 for ContainTreasure */
+     , (22598, 9, 22578, 10, 0, 1, False) /* Create Bunch of Nanners (22578) for ContainTreasure */;

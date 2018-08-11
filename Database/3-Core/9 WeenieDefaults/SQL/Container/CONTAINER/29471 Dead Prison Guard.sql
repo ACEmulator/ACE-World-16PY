@@ -11,7 +11,7 @@ VALUES (29471,   1,        512) /* ItemType - Container */
      , (29471,  19,          0) /* Value */
      , (29471,  81,          2) /* MaxGeneratedObjects */
      , (29471,  82,          2) /* InitGeneratedObjects */
-     , (29471,  93,       1048) /* PhysicsState */
+     , (29471,  93,       1048) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity */
      , (29471,  96,        500) /* EncumbranceCapacity */
      , (29471, 100,          1) /* GeneratorType - Relative */;
 
@@ -40,5 +40,5 @@ VALUES (29471,   1,   33555323) /* Setup */
      , (29471,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (29471, -1, 16, 1200, 1, 1, 2, 72, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0)
-     , (29471, -1, 5361, 1200, 1, 1, 2, 8, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0);
+VALUES (29471, -1, 16, 1200, 1, 1, 2, 72, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate RANDOMLY GENERATED TREASURE from Loot Tier 2 (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: ContainTreasure */
+     , (29471, -1, 5361, 1200, 1, 1, 2, 8, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Abmim's Jambiya (5361) (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: Contain */;

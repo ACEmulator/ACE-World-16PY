@@ -14,8 +14,8 @@ VALUES (27458,   1,         16) /* ItemType - Creature */
      , (27458,  40,          2) /* CombatMode - Melee */
      , (27458,  68,         13) /* TargetingTactic */
      , (27458,  72,          6) /* FriendType - Tumerok */
-     , (27458,  93,       1032) /* PhysicsState */
-     , (27458, 101,        131) /* AiAllowedCombatStyle */
+     , (27458,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
+     , (27458, 101,        131) /* AiAllowedCombatStyle - Unarmed, OneHanded, ThrownWeapon */
      , (27458, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (27458, 140,          1) /* AiOptions */
      , (27458, 146,     213735) /* XpOverride */;
@@ -71,8 +71,17 @@ VALUES (27458,   1,   33557003) /* Setup */
      , (27458,   7,  268436795) /* ClothingBase */
      , (27458,   8,  100667447) /* Icon */
      , (27458,  22,  872415262) /* PhysicsEffectTable */
-     , (27458,  32,        445) /* WieldedTreasureType */
-     , (27458,  35,         31) /* DeathTreasureType */;
+     , (27458,  32,        445) /* WieldedTreasureType - 
+                                   Wield Rock (23744) | Probability: 90%
+                                   Wield Rock (23745) | Probability: 10%
+                                   Wield Lugian Club (23750) | Probability: 20%
+                                   Wield Lugian Mace (23758) | Probability: 20%
+                                   Wield Lugian Hammer (23754) | Probability: 20%
+                                   Wield Lugian Axe (23738) | Probability: 15%
+                                   Wield Lugian Morning Star (23762) | Probability: 15%
+                                   Wield Lugian Axe (23739) | Probability: 5%
+                                   Wield Lugian Morning Star (23763) | Probability: 5% */
+     , (27458,  35,         31) /* DeathTreasureType - Loot Tier: 4 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (27458,   1, 340, 0, 0) /* Strength */
@@ -203,5 +212,5 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,  10 /* Tell */, 0, 1, NULL, 'A mere scratch, I''ve had shreth gnaw upon my flesh and cause more grievous wounds.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (27458, 9,     0,  0, 0, 0, False) /* Create Unknown for ContainTreasure */
-     , (27458, 9, 27453,  1, 0, 1, False) /* Create Renegade Hauberk for ContainTreasure */;
+VALUES (27458, 9,     0,  0, 0, 0, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 4 for ContainTreasure */
+     , (27458, 9, 27453,  1, 0, 1, False) /* Create Renegade Hauberk (27453) for ContainTreasure */;

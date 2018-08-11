@@ -4,17 +4,17 @@ VALUES ('23848', 'sleeveskoujiashadowsolid', 2) /* Clothing */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (23848,   1,          2) /* ItemType - Armor */
      , (23848,   3,         93) /* PaletteTemplate - DyeSpringBlack */
-     , (23848,   4,      12288) /* ClothingPriority */
+     , (23848,   4,      12288) /* ClothingPriority - OuterwearUpperArms, OuterwearLowerArms */
      , (23848,   5,        925) /* EncumbranceVal */
      , (23848,   8,        550) /* Mass */
-     , (23848,   9,       6144) /* ValidLocations */
+     , (23848,   9,       6144) /* ValidLocations - UpperArmArmor, LowerArmArmor */
      , (23848,  16,          1) /* ItemUseable - No */
      , (23848,  18,          1) /* UiEffects - Magical */
      , (23848,  19,       1620) /* Value */
      , (23848,  27,          2) /* ArmorType */
      , (23848,  28,        245) /* ArmorLevel */
      , (23848,  33,          1) /* Bonded - Bonded */
-     , (23848,  93,       1044) /* PhysicsState */
+     , (23848,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (23848, 107,       1000) /* ItemCurMana */
      , (23848, 108,       1000) /* ItemMaxMana */
      , (23848, 109,          0) /* ItemDifficulty */

@@ -4,7 +4,7 @@ VALUES ('29592', 'leverfalatacot', 26) /* Switch */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (29592,   1,        128) /* ItemType - Misc */
      , (29592,  16,         48) /* ItemUseable - ViewedRemote */
-     , (29592,  93,         16) /* PhysicsState - IgnoreCollision */
+     , (29592,  93,         16) /* PhysicsState - IgnoreCollisions */
      , (29592, 119,          1) /* Active */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)

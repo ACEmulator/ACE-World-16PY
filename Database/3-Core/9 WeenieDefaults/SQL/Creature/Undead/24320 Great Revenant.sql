@@ -12,8 +12,8 @@ VALUES (24320,   1,         16) /* ItemType - Creature */
      , (24320,  27,          0) /* ArmorType */
      , (24320,  40,          1) /* CombatMode - NonCombat */
      , (24320,  68,          3) /* TargetingTactic */
-     , (24320,  93,    4195336) /* PhysicsState */
-     , (24320, 101,        183) /* AiAllowedCombatStyle */
+     , (24320,  93,    4195336) /* PhysicsState - ReportCollisions, Gravity, EdgeSlide */
+     , (24320, 101,        183) /* AiAllowedCombatStyle - Unarmed, OneHanded, OneHandedAndShield, Bow, Crossbow, ThrownWeapon */
      , (24320, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (24320, 140,          1) /* AiOptions */
      , (24320, 146,      27066) /* XpOverride */;
@@ -72,8 +72,33 @@ VALUES (24320,   1,   33558541) /* Setup */
      , (24320,   7,  268436726) /* ClothingBase */
      , (24320,   8,  100667942) /* Icon */
      , (24320,  22,  872415272) /* PhysicsEffectTable */
-     , (24320,  32,        199) /* WieldedTreasureType */
-     , (24320,  35,        448) /* DeathTreasureType */;
+     , (24320,  32,        199) /* WieldedTreasureType - 
+                                   Wield Yumi (23733) | Probability: 6%
+                                   Wield 20x Deadly Armor Piercing Arrow (15431) | Probability: 100%
+                                   Wield Yumi (23733) | Probability: 6%
+                                   Wield 17x Deadly Arrow (15429) | Probability: 100%
+                                   Wield Heavy Crossbow (23664) | Probability: 6%
+                                   Wield 20x Deadly Quarrel (15438) | Probability: 100%
+                                   Wield Heavy Crossbow (23664) | Probability: 6%
+                                   Wield 16x Deadly Armor Piercing Quarrel (15440) | Probability: 100%
+                                   Wield Yumi (23733) | Probability: 6%
+                                   Wield 20x Deadly Broadhead Arrow (15433) | Probability: 100%
+                                   Wield Yumi (23733) | Probability: 6%
+                                   Wield 17x Deadly Blunt Arrow (15432) | Probability: 100%
+                                   Wield Heavy Crossbow (23664) | Probability: 6%
+                                   Wield 20x Deadly Broadhead Quarrel (15442) | Probability: 100%
+                                   Wield Heavy Crossbow (23664) | Probability: 6%
+                                   Wield 16x Deadly Blunt Quarrel (15441) | Probability: 100%
+                                   Wield Katar (23673) | Probability: 12%
+                                   Wield Cestus (23636) | Probability: 12%
+                                   Wield Nekode (23679) | Probability: 12%
+                                   Wield Tachi (23699) | Probability: 12%
+                                   Wield Spear (23695) | Probability: 12%
+                                   Wield Fire Yaoji (23717) | Probability: 12%
+                                   Wield Yaoji (23709) | Probability: 12%
+                                   Wield Fire Tachi (23706) | Probability: 12%
+                                   Wield Kite Shield (23683) | Probability: 75% */
+     , (24320,  35,        448) /* DeathTreasureType - Loot Tier: 4 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (24320,   1, 280, 0, 0) /* Strength */
@@ -120,17 +145,17 @@ VALUES (24320,  94) /* ATTACK_NOTIFICATION_EVENT */
      , (24320, 414) /* PLAYER_DEATH_EVENT */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (24320, 9,     0,  0, 0, 0.98, False) /* Create Unknown for ContainTreasure */
-     , (24320, 9,     0,  0, 0, 0.98, False) /* Create Unknown for ContainTreasure */
-     , (24320, 9,     0,  0, 0, 0.97, False) /* Create Unknown for ContainTreasure */
-     , (24320, 9,     0,  0, 0, 0.98, False) /* Create Unknown for ContainTreasure */
-     , (24320, 9,     0,  0, 0, 0.95, False) /* Create Unknown for ContainTreasure */
-     , (24320, 9,     0,  0, 0, 0.95, False) /* Create Unknown for ContainTreasure */
-     , (24320, 9,     0,  0, 0, 0.95, False) /* Create Unknown for ContainTreasure */
-     , (24320, 9,  5873,  0, 0, 0.03, False) /* Create Seal for ContainTreasure */
-     , (24320, 9,  6876,  0, 0, 0.02, False) /* Create Sturdy Iron Key for ContainTreasure */
-     , (24320, 9,  7045,  0, 0, 0.03, False) /* Create Dark Revenant Thighbone for ContainTreasure */
-     , (24320, 9,  9310,  0, 0, 0.02, False) /* Create A Large Mnemosyne for ContainTreasure */
-     , (24320, 9, 28872,  0, 0, 0.05, False) /* Create Armored Undead Arm  for ContainTreasure */
-     , (24320, 9, 28875,  0, 0, 0.05, False) /* Create Armored Undead Legs for ContainTreasure */
-     , (24320, 9, 28893,  0, 0, 0.05, False) /* Create Armored Undead Torso for ContainTreasure */;
+VALUES (24320, 9,     0,  0, 0, 0.98, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 4 for ContainTreasure */
+     , (24320, 9,     0,  0, 0, 0.98, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 4 for ContainTreasure */
+     , (24320, 9,     0,  0, 0, 0.97, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 4 for ContainTreasure */
+     , (24320, 9,     0,  0, 0, 0.98, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 4 for ContainTreasure */
+     , (24320, 9,     0,  0, 0, 0.95, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 4 for ContainTreasure */
+     , (24320, 9,     0,  0, 0, 0.95, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 4 for ContainTreasure */
+     , (24320, 9,     0,  0, 0, 0.95, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 4 for ContainTreasure */
+     , (24320, 9,  5873,  0, 0, 0.03, False) /* Create Seal (5873) for ContainTreasure */
+     , (24320, 9,  6876,  0, 0, 0.02, False) /* Create Sturdy Iron Key (6876) for ContainTreasure */
+     , (24320, 9,  7045,  0, 0, 0.03, False) /* Create Dark Revenant Thighbone (7045) for ContainTreasure */
+     , (24320, 9,  9310,  0, 0, 0.02, False) /* Create A Large Mnemosyne (9310) for ContainTreasure */
+     , (24320, 9, 28872,  0, 0, 0.05, False) /* Create Armored Undead Arm  (28872) for ContainTreasure */
+     , (24320, 9, 28875,  0, 0, 0.05, False) /* Create Armored Undead Legs (28875) for ContainTreasure */
+     , (24320, 9, 28893,  0, 0, 0.05, False) /* Create Armored Undead Torso (28893) for ContainTreasure */;

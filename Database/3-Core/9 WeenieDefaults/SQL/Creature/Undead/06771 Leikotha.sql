@@ -12,7 +12,7 @@ VALUES (6771,   1,         16) /* ItemType - Creature */
      , (6771,  27,          0) /* ArmorType */
      , (6771,  40,          1) /* CombatMode - NonCombat */
      , (6771,  72,         14) /* FriendType - Undead */
-     , (6771,  93,    2098200) /* PhysicsState */
+     , (6771,  93,    2098200) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */
      , (6771,  95,          8) /* RadarBlipColor - Yellow */
      , (6771, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (6771, 134,         16) /* PlayerKillerStatus - RubberGlue */

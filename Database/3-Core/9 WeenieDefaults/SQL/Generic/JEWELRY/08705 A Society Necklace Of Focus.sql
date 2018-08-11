@@ -10,7 +10,7 @@ VALUES (8705,   1,          8) /* ItemType - Jewelry */
      , (8705,  16,          1) /* ItemUseable - No */
      , (8705,  18,          1) /* UiEffects - Magical */
      , (8705,  19,          1) /* Value */
-     , (8705,  93,       1044) /* PhysicsState */
+     , (8705,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (8705, 106,        150) /* ItemSpellcraft */
      , (8705, 107,        400) /* ItemCurMana */
      , (8705, 108,        400) /* ItemMaxMana */

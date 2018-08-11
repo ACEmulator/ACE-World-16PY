@@ -12,8 +12,8 @@ VALUES (2485,   1,         16) /* ItemType - Creature */
      , (2485,  27,          0) /* ArmorType */
      , (2485,  68,          5) /* TargetingTactic */
      , (2485,  72,         19) /* FriendType - Virindi */
-     , (2485,  93,       1032) /* PhysicsState */
-     , (2485, 101,        183) /* AiAllowedCombatStyle */
+     , (2485,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
+     , (2485, 101,        183) /* AiAllowedCombatStyle - Unarmed, OneHanded, OneHandedAndShield, Bow, Crossbow, ThrownWeapon */
      , (2485, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (2485, 140,          1) /* AiOptions */
      , (2485, 146,      24626) /* XpOverride */;
@@ -72,8 +72,12 @@ VALUES (2485,   1,   33554496) /* Setup */
      , (2485,   7,  268435647) /* ClothingBase */
      , (2485,   8,  100667452) /* Icon */
      , (2485,  22,  872415270) /* PhysicsEffectTable */
-     , (2485,  32,        274) /* WieldedTreasureType */
-     , (2485,  35,        353) /* DeathTreasureType */;
+     , (2485,  32,        274) /* WieldedTreasureType - 
+                                   Wield Fire Tachi (23708) | Probability: 25%
+                                   Wield Tachi (23702) | Probability: 25%
+                                   Wield Fire Yaoji (23720) | Probability: 25%
+                                   Wield Yaoji (23712) | Probability: 25% */
+     , (2485,  35,        353) /* DeathTreasureType - Loot Tier: 5 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (2485,   1, 250, 0, 0) /* Strength */
@@ -163,5 +167,5 @@ VALUES (2485,  94) /* ATTACK_NOTIFICATION_EVENT */
      , (2485, 414) /* PLAYER_DEATH_EVENT */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (2485, 1,  2205,  0, 0, 1, False) /* Create Augmented Tumerok's Key for Contain */
-     , (2485, 1,  3695,  0, 0, 1, False) /* Create Gold Tumerok Insignia for Contain */;
+VALUES (2485, 1,  2205,  0, 0, 1, False) /* Create Augmented Tumerok's Key (2205) for Contain */
+     , (2485, 1,  3695,  0, 0, 1, False) /* Create Gold Tumerok Insignia (3695) for Contain */;

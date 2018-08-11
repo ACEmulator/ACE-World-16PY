@@ -15,8 +15,8 @@ VALUES (14915,   1,       2048) /* ItemType - Gem */
      , (14915,  18,          1) /* UiEffects - Magical */
      , (14915,  19,      25000) /* Value */
      , (14915,  33,          1) /* Bonded - Bonded */
-     , (14915,  93,       3092) /* PhysicsState */
-     , (14915,  94,         16) /* TargetType - Creature */
+     , (14915,  93,       3092) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, LightingOn */
+     , (14915,  94,         16) /* TargetType - Reedshark */
      , (14915, 106,        210) /* ItemSpellcraft */
      , (14915, 107,         70) /* ItemCurMana */
      , (14915, 108,         70) /* ItemMaxMana */

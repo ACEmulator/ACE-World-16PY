@@ -11,7 +11,7 @@ VALUES (5153,   1,         16) /* ItemType - Creature */
      , (5153,  16,         32) /* ItemUseable - Remote */
      , (5153,  25,         11) /* Level */
      , (5153,  27,          0) /* ArmorType */
-     , (5153,  93,    6292504) /* PhysicsState */
+     , (5153,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (5153,  95,          8) /* RadarBlipColor - Yellow */
      , (5153, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (5153, 134,         16) /* PlayerKillerStatus - RubberGlue */
@@ -169,6 +169,6 @@ VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 1090519043 /* Ready */, NULL, NU
      , (@parent_id,  4,  10 /* Tell */, 1, 1, NULL, 'The Unfinished Temple is to the northwest of here.  We fled pretty far into the ruins before we realized we had to leave.  I think we were at least two levels down when we lost the knives.  Last I was there, I found only one knife.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (5153, 2,   117,  0, 14, 0.6, False) /* Create Breeches for Wield */
-     , (5153, 2,   124,  0, 18, 1, False) /* Create Jerkin for Wield */
-     , (5153, 2,   133,  0, 4, 0.8, False) /* Create Slippers for Wield */;
+VALUES (5153, 2,   117,  0, 14, 0.6, False) /* Create Breeches (117) for Wield */
+     , (5153, 2,   124,  0, 18, 1, False) /* Create Jerkin (124) for Wield */
+     , (5153, 2,   133,  0, 4, 0.8, False) /* Create Slippers (133) for Wield */;

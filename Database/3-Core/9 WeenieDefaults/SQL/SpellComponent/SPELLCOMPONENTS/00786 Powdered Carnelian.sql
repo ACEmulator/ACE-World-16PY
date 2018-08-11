@@ -14,7 +14,7 @@ VALUES (786,   1,       4096) /* ItemType - SpellComponents */
      , (786,  15,          5) /* StackUnitValue */
      , (786,  16,          1) /* ItemUseable - No */
      , (786,  19,          5) /* Value */
-     , (786,  93,       1044) /* PhysicsState */;
+     , (786,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (786,  69, False) /* IsSellable */;

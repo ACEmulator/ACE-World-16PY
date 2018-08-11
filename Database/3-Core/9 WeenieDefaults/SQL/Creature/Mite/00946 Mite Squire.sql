@@ -12,8 +12,8 @@ VALUES (946,   1,         16) /* ItemType - Creature */
      , (946,  27,          0) /* ArmorType */
      , (946,  40,          2) /* CombatMode - Melee */
      , (946,  68,          5) /* TargetingTactic */
-     , (946,  93,       1032) /* PhysicsState */
-     , (946, 101,        129) /* AiAllowedCombatStyle */
+     , (946,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
+     , (946, 101,        129) /* AiAllowedCombatStyle - Unarmed, ThrownWeapon */
      , (946, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (946, 146,       1442) /* XpOverride */;
 
@@ -67,7 +67,7 @@ VALUES (946,   1,   33558656) /* Setup */
      , (946,   7,  268436816) /* ClothingBase */
      , (946,   8,  100667448) /* Icon */
      , (946,  22,  872415263) /* PhysicsEffectTable */
-     , (946,  35,        459) /* DeathTreasureType */;
+     , (946,  35,        459) /* DeathTreasureType - Loot Tier: 1 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (946,   1,  90, 0, 0) /* Strength */
@@ -108,5 +108,5 @@ VALUES (946,  94) /* ATTACK_NOTIFICATION_EVENT */
      , (946, 414) /* PLAYER_DEATH_EVENT */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (946, 9,     0,  0, 0, 0.95, False) /* Create Unknown for ContainTreasure */
-     , (946, 9, 28889,  0, 0, 0.05, False) /* Create Mite Head for ContainTreasure */;
+VALUES (946, 9,     0,  0, 0, 0.95, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 1 for ContainTreasure */
+     , (946, 9, 28889,  0, 0, 0.05, False) /* Create Mite Head (28889) for ContainTreasure */;

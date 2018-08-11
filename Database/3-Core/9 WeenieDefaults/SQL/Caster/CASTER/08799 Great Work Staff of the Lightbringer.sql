@@ -12,8 +12,8 @@ VALUES (8799,   1,      32768) /* ItemType - Caster */
      , (8799,  19,          0) /* Value */
      , (8799,  33,          1) /* Bonded - Bonded */
      , (8799,  46,        512) /* DefaultCombatStyle - Magic */
-     , (8799,  93,       3092) /* PhysicsState */
-     , (8799,  94,         16) /* TargetType - Creature */
+     , (8799,  93,       3092) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, LightingOn */
+     , (8799,  94,         16) /* TargetType - Reedshark */
      , (8799, 110,          0) /* ItemAllegianceRankLimit */
      , (8799, 114,          1) /* Attuned - Attuned */
      , (8799, 150,        103) /* HookPlacement - Hook */

@@ -11,7 +11,7 @@ VALUES (2143,   1,        512) /* ItemType - Container */
      , (2143,  19,        300) /* Value */
      , (2143,  38,         90) /* ResistLockpick */
      , (2143,  83,       4096) /* ActivationResponse - CastSpell */
-     , (2143,  93,       1048) /* PhysicsState */
+     , (2143,  93,       1048) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity */
      , (2143,  96,        500) /* EncumbranceCapacity */
      , (2143, 119,          1) /* Active */;
 

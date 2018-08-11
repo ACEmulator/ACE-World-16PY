@@ -10,10 +10,10 @@ VALUES (402,   1,         16) /* ItemType - Creature */
      , (402,  16,         32) /* ItemUseable - Remote */
      , (402,  25,          7) /* Level */
      , (402,  27,          0) /* ArmorType */
-     , (402,  74,        259) /* MerchandiseItemTypes */
+     , (402,  74,        259) /* MerchandiseItemTypes - Armor, Weapon */
      , (402,  75,          0) /* MerchandiseMinValue */
      , (402,  76,     100000) /* MerchandiseMaxValue */
-     , (402,  93,    2098200) /* PhysicsState */
+     , (402,  93,    2098200) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */
      , (402, 126,       2000) /* VendorHappyMean */
      , (402, 127,       1000) /* VendorHappyVariance */
      , (402, 133,          4) /* ShowableOnRadar - ShowAlways */
@@ -162,29 +162,29 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 318767235 /* Nod */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (402, 4,    38, -1, 0, 0, False) /* Create Studded Leather Bracers for Shop */
-     , (402, 4,    43, -1, 0, 0, False) /* Create Yoroi Breastplate for Shop */
-     , (402, 4,    57, -1, 0, 0, False) /* Create Platemail Gauntlets for Shop */
-     , (402, 4,    59, -1, 0, 0, False) /* Create Studded Leather Gauntlets for Shop */
-     , (402, 4,    77, -1, 0, 0, False) /* Create Kabuton for Shop */
-     , (402, 4,    84, -1, 0, 0, False) /* Create Studded Leather Leggings for Shop */
-     , (402, 4,    93, -1, 0, 0, False) /* Create Round Shield for Shop */
-     , (402, 4,    94, -1, 0, 0, False) /* Create Large Round Shield for Shop */
-     , (402, 4,    95, -1, 0, 0, False) /* Create Tower Shield for Shop */
-     , (402, 2,   115,  0, 4, 0.8, False) /* Create Leather Boots for Wield */
-     , (402, 2,   127,  0, 8, 0.8, False) /* Create Pants for Wield */
-     , (402, 2,   130,  0, 8, 0.2, False) /* Create Shirt for Wield */
-     , (402, 4,   314, -1, 0, 0, False) /* Create Dagger for Shop */
-     , (402, 4,   321, -1, 0, 0, False) /* Create Jitte for Shop */
-     , (402, 4,   327, -1, 0, 0, False) /* Create Ken for Shop */
-     , (402, 4,   329, -1, 0, 0, False) /* Create Knife for Shop */
-     , (402, 4,   336, -1, 0, 0, False) /* Create Ono for Shop */
-     , (402, 4,   342, -1, 0, 0, False) /* Create Shou-ono for Shop */
-     , (402, 4,   343, -1, 0, 0, False) /* Create Shouken for Shop */
-     , (402, 2,   351,  0, 0, 0, False) /* Create Long Sword for Wield */
-     , (402, 4,   353, -1, 0, 0, False) /* Create Tachi for Shop */
-     , (402, 4,   356, -1, 0, 0, False) /* Create Tofun for Shop */
-     , (402, 4,   361, -1, 0, 0, False) /* Create Yaoji for Shop */
-     , (402, 4,   362, -1, 0, 0, False) /* Create Yari for Shop */
-     , (402, 2, 10696,  0, 9, 1, False) /* Create Apron for Wield */
-     , (402, 4, 22158, -1, 0, 0, False) /* Create Jo for Shop */;
+VALUES (402, 4,    38, -1, 0, 0, False) /* Create Studded Leather Bracers (38) for Shop */
+     , (402, 4,    43, -1, 0, 0, False) /* Create Yoroi Breastplate (43) for Shop */
+     , (402, 4,    57, -1, 0, 0, False) /* Create Platemail Gauntlets (57) for Shop */
+     , (402, 4,    59, -1, 0, 0, False) /* Create Studded Leather Gauntlets (59) for Shop */
+     , (402, 4,    77, -1, 0, 0, False) /* Create Kabuton (77) for Shop */
+     , (402, 4,    84, -1, 0, 0, False) /* Create Studded Leather Leggings (84) for Shop */
+     , (402, 4,    93, -1, 0, 0, False) /* Create Round Shield (93) for Shop */
+     , (402, 4,    94, -1, 0, 0, False) /* Create Large Round Shield (94) for Shop */
+     , (402, 4,    95, -1, 0, 0, False) /* Create Tower Shield (95) for Shop */
+     , (402, 2,   115,  0, 4, 0.8, False) /* Create Leather Boots (115) for Wield */
+     , (402, 2,   127,  0, 8, 0.8, False) /* Create Pants (127) for Wield */
+     , (402, 2,   130,  0, 8, 0.2, False) /* Create Shirt (130) for Wield */
+     , (402, 4,   314, -1, 0, 0, False) /* Create Dagger (314) for Shop */
+     , (402, 4,   321, -1, 0, 0, False) /* Create Jitte (321) for Shop */
+     , (402, 4,   327, -1, 0, 0, False) /* Create Ken (327) for Shop */
+     , (402, 4,   329, -1, 0, 0, False) /* Create Knife (329) for Shop */
+     , (402, 4,   336, -1, 0, 0, False) /* Create Ono (336) for Shop */
+     , (402, 4,   342, -1, 0, 0, False) /* Create Shou-ono (342) for Shop */
+     , (402, 4,   343, -1, 0, 0, False) /* Create Shouken (343) for Shop */
+     , (402, 2,   351,  0, 0, 0, False) /* Create Long Sword (351) for Wield */
+     , (402, 4,   353, -1, 0, 0, False) /* Create Tachi (353) for Shop */
+     , (402, 4,   356, -1, 0, 0, False) /* Create Tofun (356) for Shop */
+     , (402, 4,   361, -1, 0, 0, False) /* Create Yaoji (361) for Shop */
+     , (402, 4,   362, -1, 0, 0, False) /* Create Yari (362) for Shop */
+     , (402, 2, 10696,  0, 9, 1, False) /* Create Apron (10696) for Wield */
+     , (402, 4, 22158, -1, 0, 0, False) /* Create Jo (22158) for Shop */;

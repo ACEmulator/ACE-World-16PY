@@ -10,7 +10,7 @@ VALUES (28412,   1,         16) /* ItemType - Creature */
      , (28412,  16,         32) /* ItemUseable - Remote */
      , (28412,  25,        171) /* Level */
      , (28412,  27,          0) /* ArmorType */
-     , (28412,  93,    6292504) /* PhysicsState */
+     , (28412,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (28412,  95,          3) /* RadarBlipColor - White */
      , (28412, 133,          0) /* ShowableOnRadar - Undefined */
      , (28412, 134,         16) /* PlayerKillerStatus - RubberGlue */

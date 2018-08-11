@@ -9,7 +9,7 @@ VALUES (27525,   1,        128) /* ItemType - Misc */
      , (27525,   9,          0) /* ValidLocations - None */
      , (27525,  16,          1) /* ItemUseable - No */
      , (27525,  19,          5) /* Value */
-     , (27525,  93,       1044) /* PhysicsState */
+     , (27525,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (27525, 150,          1) /* HookPlacement - RightHandCombat */
      , (27525, 151,          2) /* HookType - Wall */;
 

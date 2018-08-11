@@ -10,10 +10,10 @@ VALUES (26887,   1,         16) /* ItemType - Creature */
      , (26887,  16,         32) /* ItemUseable - Remote */
      , (26887,  25,         10) /* Level */
      , (26887,  27,          0) /* ArmorType */
-     , (26887,  74,     264192) /* MerchandiseItemTypes */
+     , (26887,  74,     264192) /* MerchandiseItemTypes - Gem, PromissoryNote */
      , (26887,  75,          0) /* MerchandiseMinValue */
      , (26887,  76,    1000000) /* MerchandiseMaxValue */
-     , (26887,  93,    2098204) /* PhysicsState */
+     , (26887,  93,    2098204) /* PhysicsState - Ethereal, ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */
      , (26887, 126,        125) /* VendorHappyMean */
      , (26887, 127,        125) /* VendorHappyVariance */
      , (26887, 133,          4) /* ShowableOnRadar - ShowAlways */
@@ -97,4 +97,4 @@ VALUES (26887,  0,  4,  0,    0,    0,    0,    0,    0,    0,    0,    0,    0,
      , (26887,  8,  4,  2, 0.75,    0,    0,    0,    0,    0,    0,    0,    0,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (26887, 4, 26252, -1, 0, 0, False) /* Create Lugian Meadows Settlement Portal Gem for Shop */;
+VALUES (26887, 4, 26252, -1, 0, 0, False) /* Create Lugian Meadows Settlement Portal Gem (26252) for Shop */;

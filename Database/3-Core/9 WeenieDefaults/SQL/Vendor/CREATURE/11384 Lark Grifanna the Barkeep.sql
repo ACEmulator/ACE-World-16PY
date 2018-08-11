@@ -10,10 +10,10 @@ VALUES (11384,   1,         16) /* ItemType - Creature */
      , (11384,  16,         32) /* ItemUseable - Remote */
      , (11384,  25,          7) /* Level */
      , (11384,  27,          0) /* ArmorType */
-     , (11384,  74,     270368) /* MerchandiseItemTypes */
+     , (11384,  74,     270368) /* MerchandiseItemTypes - Food, Writable, PromissoryNote */
      , (11384,  75,          0) /* MerchandiseMinValue */
      , (11384,  76,      25000) /* MerchandiseMaxValue */
-     , (11384,  93,    2098200) /* PhysicsState */
+     , (11384,  93,    2098200) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */
      , (11384, 126,        500) /* VendorHappyMean */
      , (11384, 127,        500) /* VendorHappyVariance */
      , (11384, 133,          4) /* ShowableOnRadar - ShowAlways */
@@ -131,38 +131,38 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,  10 /* Tell */, 0, 1, NULL, 'Whether you have come seeking refuge or information, I should be able to help.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (11384, 2,   115,  0, 4, 0.8, False) /* Create Leather Boots for Wield */
-     , (11384, 2,   127,  0, 13, 0.5, False) /* Create Pants for Wield */
-     , (11384, 2,   134,  0, 14, 0.8, False) /* Create Tunic for Wield */
-     , (11384, 4,  2451, -1, 0, 0, False) /* Create Ale for Shop */
-     , (11384, 4,  2456, -1, 0, 0, False) /* Create Green Tea for Shop */
-     , (11384, 4,  2466, -1, 0, 0, False) /* Create Red Tea for Shop */
-     , (11384, 4,  2468, -1, 0, 0, False) /* Create Sake for Shop */
-     , (11384, 4,  4718, -1, 0, 0, False) /* Create Chicken Rice for Shop */
-     , (11384, 4,  4728, -1, 0, 0, False) /* Create Fried Chicken for Shop */
-     , (11384, 4,  4730, -1, 0, 0, False) /* Create Fried Fish Filet for Shop */
-     , (11384, 4,  4739, -1, 0, 0, False) /* Create Pickled Egg for Shop */
-     , (11384, 4,  4744, -1, 0, 0, False) /* Create Sushi for Shop */
-     , (11384, 4,  4746, -1, 0, 0, False) /* Create Water for Shop */
-     , (11384, 4,  8378, -1, 0, 0, False) /* Create Beer Stein for Shop */
-     , (11384, 2, 10696,  0, 16, 1, False) /* Create Apron for Wield */
-     , (11384, 4, 27610, -1, 0, 0, False) /* Create Traveler's Alert for Shop */
-     , (11384, 4, 27611, -1, 0, 0, False) /* Create Burning Terror for Shop */
-     , (11384, 4, 27612, -1, 0, 0, False) /* Create Tumeroks on the Island for Shop */
-     , (11384, 4, 27613, -1, 0, 0, False) /* Create Warring Factions for Shop */
-     , (11384, 4, 27614, -1, 0, 0, False) /* Create Virindi on the Plateau for Shop */
-     , (11384, 4, 27615, -1, 0, 0, False) /* Create Empyrean Ruins for Shop */
-     , (11384, 4, 27616, -1, 0, 0, False) /* Create Canescent Mattekar for Shop */
-     , (11384, 4, 27617, -1, 0, 0, False) /* Create Virindi Weapons for Shop */
-     , (11384, 4, 27618, -1, 0, 0, False) /* Create Marae Lassel for Shop */
-     , (11384, 4, 27619, -1, 0, 0, False) /* Create Menhir Rings for Shop */
-     , (11384, 4, 27620, -1, 0, 0, False) /* Create Olthoi Queen for Shop */
-     , (11384, 4, 27621, -1, 0, 0, False) /* Create Bachus Flufens for Shop */
-     , (11384, 4, 27622, -1, 0, 0, False) /* Create Aun Tumeroks for Shop */
-     , (11384, 4, 27623, -1, 0, 0, False) /* Create Hea Tuperea for Shop */
-     , (11384, 4, 27623, -1, 0, 0, False) /* Create Hea Tuperea for Shop */
-     , (11384, 4, 27624, -1, 0, 0, False) /* Create Brigands for Shop */
-     , (11384, 4, 27625, -1, 0, 0, False) /* Create Olthoi Fungus for Shop */
-     , (11384, 4, 27626, -1, 0, 0, False) /* Create Olthoi Eviscerators for Shop */
-     , (11384, 4, 27627, -1, 0, 0, False) /* Create Britana for Shop */
-     , (11384, 4, 27628, -1, 0, 0, False) /* Create Behdo Yii for Shop */;
+VALUES (11384, 2,   115,  0, 4, 0.8, False) /* Create Leather Boots (115) for Wield */
+     , (11384, 2,   127,  0, 13, 0.5, False) /* Create Pants (127) for Wield */
+     , (11384, 2,   134,  0, 14, 0.8, False) /* Create Tunic (134) for Wield */
+     , (11384, 4,  2451, -1, 0, 0, False) /* Create Ale (2451) for Shop */
+     , (11384, 4,  2456, -1, 0, 0, False) /* Create Green Tea (2456) for Shop */
+     , (11384, 4,  2466, -1, 0, 0, False) /* Create Red Tea (2466) for Shop */
+     , (11384, 4,  2468, -1, 0, 0, False) /* Create Sake (2468) for Shop */
+     , (11384, 4,  4718, -1, 0, 0, False) /* Create Chicken Rice (4718) for Shop */
+     , (11384, 4,  4728, -1, 0, 0, False) /* Create Fried Chicken (4728) for Shop */
+     , (11384, 4,  4730, -1, 0, 0, False) /* Create Fried Fish Filet (4730) for Shop */
+     , (11384, 4,  4739, -1, 0, 0, False) /* Create Pickled Egg (4739) for Shop */
+     , (11384, 4,  4744, -1, 0, 0, False) /* Create Sushi (4744) for Shop */
+     , (11384, 4,  4746, -1, 0, 0, False) /* Create Water (4746) for Shop */
+     , (11384, 4,  8378, -1, 0, 0, False) /* Create Beer Stein (8378) for Shop */
+     , (11384, 2, 10696,  0, 16, 1, False) /* Create Apron (10696) for Wield */
+     , (11384, 4, 27610, -1, 0, 0, False) /* Create Traveler's Alert (27610) for Shop */
+     , (11384, 4, 27611, -1, 0, 0, False) /* Create Burning Terror (27611) for Shop */
+     , (11384, 4, 27612, -1, 0, 0, False) /* Create Tumeroks on the Island (27612) for Shop */
+     , (11384, 4, 27613, -1, 0, 0, False) /* Create Warring Factions (27613) for Shop */
+     , (11384, 4, 27614, -1, 0, 0, False) /* Create Virindi on the Plateau (27614) for Shop */
+     , (11384, 4, 27615, -1, 0, 0, False) /* Create Empyrean Ruins (27615) for Shop */
+     , (11384, 4, 27616, -1, 0, 0, False) /* Create Canescent Mattekar (27616) for Shop */
+     , (11384, 4, 27617, -1, 0, 0, False) /* Create Virindi Weapons (27617) for Shop */
+     , (11384, 4, 27618, -1, 0, 0, False) /* Create Marae Lassel (27618) for Shop */
+     , (11384, 4, 27619, -1, 0, 0, False) /* Create Menhir Rings (27619) for Shop */
+     , (11384, 4, 27620, -1, 0, 0, False) /* Create Olthoi Queen (27620) for Shop */
+     , (11384, 4, 27621, -1, 0, 0, False) /* Create Bachus Flufens (27621) for Shop */
+     , (11384, 4, 27622, -1, 0, 0, False) /* Create Aun Tumeroks (27622) for Shop */
+     , (11384, 4, 27623, -1, 0, 0, False) /* Create Hea Tuperea (27623) for Shop */
+     , (11384, 4, 27623, -1, 0, 0, False) /* Create Hea Tuperea (27623) for Shop */
+     , (11384, 4, 27624, -1, 0, 0, False) /* Create Brigands (27624) for Shop */
+     , (11384, 4, 27625, -1, 0, 0, False) /* Create Olthoi Fungus (27625) for Shop */
+     , (11384, 4, 27626, -1, 0, 0, False) /* Create Olthoi Eviscerators (27626) for Shop */
+     , (11384, 4, 27627, -1, 0, 0, False) /* Create Britana (27627) for Shop */
+     , (11384, 4, 27628, -1, 0, 0, False) /* Create Behdo Yii (27628) for Shop */;

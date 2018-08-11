@@ -12,8 +12,8 @@ VALUES (6829,   1,         16) /* ItemType - Creature */
      , (6829,  25,         14) /* Level */
      , (6829,  27,          0) /* ArmorType */
      , (6829,  68,          9) /* TargetingTactic */
-     , (6829,  93,    4195336) /* PhysicsState */
-     , (6829, 101,        183) /* AiAllowedCombatStyle */
+     , (6829,  93,    4195336) /* PhysicsState - ReportCollisions, Gravity, EdgeSlide */
+     , (6829, 101,        183) /* AiAllowedCombatStyle - Unarmed, OneHanded, OneHandedAndShield, Bow, Crossbow, ThrownWeapon */
      , (6829, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (6829, 140,          1) /* AiOptions */
      , (6829, 146,        800) /* XpOverride */;
@@ -76,8 +76,24 @@ VALUES (6829,   1,   33556564) /* Setup */
      , (6829,   7,  268435992) /* ClothingBase */
      , (6829,   8,  100670397) /* Icon */
      , (6829,  22,  872415331) /* PhysicsEffectTable */
-     , (6829,  32,         84) /* WieldedTreasureType */
-     , (6829,  35,        171) /* DeathTreasureType */;
+     , (6829,  32,         84) /* WieldedTreasureType - 
+                                   Wield Club (309) | Probability: 15%
+                                   Wield Dabus (313) | Probability: 3%
+                                   Wield Dagger (314) | Probability: 10%
+                                   Wield Kasrullah (325) | Probability: 15%
+                                   Wield Khanjar (328) | Probability: 10%
+                                   Wield Mace (331) | Probability: 4%
+                                   Wield Short Sword (352) | Probability: 7%
+                                   Wield Simi (345) | Probability: 7%
+                                   Wield Tofun (356) | Probability: 3%
+                                   Wield Yaoji (361) | Probability: 6%
+                                   Wield 10x Throwing Dart (316) | Probability: 5%
+                                   Wield 10x Shouken (343) | Probability: 4%
+                                   Wield 6x Throwing Dagger (315) | Probability: 5%
+                                   Wield 4x Javelin (320) | Probability: 2%
+                                   Wield Djarid (317) | Probability: 1%
+                                   Wield 4x Throwing Club (310) | Probability: 1% */
+     , (6829,  35,        171) /* DeathTreasureType - Loot Tier: 3 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (6829,   1,  80, 0, 0) /* Strength */
@@ -157,6 +173,6 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,  17 /* LocalBroadcast */, 0, 0, NULL, '%s has slain the Eastham Spire Shadow!', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (6829, 9,     0,  0, 0, 0.97, False) /* Create Unknown for ContainTreasure */
-     , (6829, 9,  6060,  0, 0, 0.03, False) /* Create Dark Speck for ContainTreasure */
-     , (6829, 8,  6816,  0, 0, 1, False) /* Create Spire Key Chunk - Eastham for Treasure */;
+VALUES (6829, 9,     0,  0, 0, 0.97, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 3 for ContainTreasure */
+     , (6829, 9,  6060,  0, 0, 0.03, False) /* Create Dark Speck (6060) for ContainTreasure */
+     , (6829, 8,  6816,  0, 0, 1, False) /* Create Spire Key Chunk - Eastham (6816) for Treasure */;

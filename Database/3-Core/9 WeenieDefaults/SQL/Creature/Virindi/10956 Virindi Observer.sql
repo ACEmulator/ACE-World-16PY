@@ -11,7 +11,7 @@ VALUES (10956,   1,         16) /* ItemType - Creature */
      , (10956,  25,         90) /* Level */
      , (10956,  27,          0) /* ArmorType */
      , (10956,  68,          3) /* TargetingTactic */
-     , (10956,  93,       1032) /* PhysicsState */
+     , (10956,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (10956, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (10956, 140,          1) /* AiOptions */
      , (10956, 146,      42228) /* XpOverride */;
@@ -70,7 +70,7 @@ VALUES (10956,   1,   33554497) /* Setup */
      , (10956,   8,  100667943) /* Icon */
      , (10956,  22,  872415273) /* PhysicsEffectTable */
      , (10956,  31,      10983) /* LinkedPortalOne - Habitat Tower Portal */
-     , (10956,  35,        462) /* DeathTreasureType */;
+     , (10956,  35,        462) /* DeathTreasureType - Loot Tier: 3 */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (10956, 12, 43188547, 80, -58, -24, 0.7071068, 0, 0, -0.7071068) /* PortalSummonLoc */;
@@ -204,11 +204,11 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 268435539 /* Twitch3 */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (10956, 9,     0,  0, 0, 0.95, False) /* Create Unknown for ContainTreasure */
-     , (10956, 9,     0,  0, 0, 0.98, False) /* Create Unknown for ContainTreasure */
-     , (10956, 9,     0,  0, 0, 0.98, False) /* Create Unknown for ContainTreasure */
-     , (10956, 9,     0,  0, 0, 0.97, False) /* Create Unknown for ContainTreasure */
-     , (10956, 9,  6876,  0, 0, 0.02, False) /* Create Sturdy Iron Key for ContainTreasure */
-     , (10956, 9,  7604,  0, 0, 0.05, False) /* Create Yellow Jewel for ContainTreasure */
-     , (10956, 9,  9292,  0, 0, 0.02, False) /* Create Virindi Singularity Key for ContainTreasure */
-     , (10956, 9, 25340,  0, 0, 0.03, False) /* Create Broken Virindi Observer Mask for ContainTreasure */;
+VALUES (10956, 9,     0,  0, 0, 0.95, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 3 for ContainTreasure */
+     , (10956, 9,     0,  0, 0, 0.98, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 3 for ContainTreasure */
+     , (10956, 9,     0,  0, 0, 0.98, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 3 for ContainTreasure */
+     , (10956, 9,     0,  0, 0, 0.97, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 3 for ContainTreasure */
+     , (10956, 9,  6876,  0, 0, 0.02, False) /* Create Sturdy Iron Key (6876) for ContainTreasure */
+     , (10956, 9,  7604,  0, 0, 0.05, False) /* Create Yellow Jewel (7604) for ContainTreasure */
+     , (10956, 9,  9292,  0, 0, 0.02, False) /* Create Virindi Singularity Key (9292) for ContainTreasure */
+     , (10956, 9, 25340,  0, 0, 0.03, False) /* Create Broken Virindi Observer Mask (25340) for ContainTreasure */;

@@ -4,15 +4,15 @@ VALUES ('6046', 'coatamullian', 2) /* Clothing */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (6046,   1,          2) /* ItemType - Armor */
      , (6046,   3,         20) /* PaletteTemplate - Silver */
-     , (6046,   4,      13312) /* ClothingPriority */
+     , (6046,   4,      13312) /* ClothingPriority - OuterwearChest, OuterwearUpperArms, OuterwearLowerArms */
      , (6046,   5,       1665) /* EncumbranceVal */
      , (6046,   8,       1000) /* Mass */
-     , (6046,   9,       6656) /* ValidLocations */
+     , (6046,   9,       6656) /* ValidLocations - ChestArmor, UpperArmArmor, LowerArmArmor */
      , (6046,  16,          1) /* ItemUseable - No */
      , (6046,  19,       1738) /* Value */
      , (6046,  27,          8) /* ArmorType */
      , (6046,  28,         90) /* ArmorLevel */
-     , (6046,  93,       1044) /* PhysicsState */
+     , (6046,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (6046, 169,  118097668) /* TsysMutationData */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)

@@ -10,7 +10,7 @@ VALUES (27317,   1,         16) /* ItemType - Creature */
      , (27317,  16,         32) /* ItemUseable - Remote */
      , (27317,  25,         91) /* Level */
      , (27317,  27,          0) /* ArmorType */
-     , (27317,  93,    6292504) /* PhysicsState */
+     , (27317,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (27317,  95,          8) /* RadarBlipColor - Yellow */
      , (27317, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (27317, 134,         16) /* PlayerKillerStatus - RubberGlue */
@@ -306,5 +306,5 @@ VALUES (@parent_id,  0,   3 /* Give */, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL
      , (@parent_id,  1,  10 /* Tell */, 0, 1, NULL, 'You eat hungry!', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (27317, 2, 10757,  0, 0, 0, False) /* Create Towel for Wield */
-     , (27317, 2, 22546,  0, 0, 0, False) /* Create Coconut for Wield */;
+VALUES (27317, 2, 10757,  0, 0, 0, False) /* Create Towel (10757) for Wield */
+     , (27317, 2, 22546,  0, 0, 0, False) /* Create Coconut (22546) for Wield */;

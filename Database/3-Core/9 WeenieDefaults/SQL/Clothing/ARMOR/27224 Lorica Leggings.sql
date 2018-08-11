@@ -4,15 +4,15 @@ VALUES ('27224', 'leggingslorica', 2) /* Clothing */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (27224,   1,          2) /* ItemType - Armor */
      , (27224,   3,         20) /* PaletteTemplate - Silver */
-     , (27224,   4,       2816) /* ClothingPriority */
+     , (27224,   4,       2816) /* ClothingPriority - OuterwearUpperLegs, OuterwearLowerLegs, OuterwearAbdomen */
      , (27224,   5,       2247) /* EncumbranceVal */
      , (27224,   8,       1350) /* Mass */
-     , (27224,   9,      25600) /* ValidLocations */
+     , (27224,   9,      25600) /* ValidLocations - AbdomenArmor, UpperLegArmor, LowerLegArmor */
      , (27224,  16,          1) /* ItemUseable - No */
      , (27224,  19,       2157) /* Value */
      , (27224,  27,         32) /* ArmorType */
      , (27224,  28,         95) /* ArmorLevel */
-     , (27224,  93,       1044) /* PhysicsState */
+     , (27224,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (27224, 169,  252313860) /* TsysMutationData */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)

@@ -14,7 +14,7 @@ VALUES (27655,   1,        512) /* ItemType - Container */
      , (27655,  81,          3) /* MaxGeneratedObjects */
      , (27655,  82,          3) /* InitGeneratedObjects */
      , (27655,  83,       4096) /* ActivationResponse - CastSpell */
-     , (27655,  93,       1048) /* PhysicsState */
+     , (27655,  93,       1048) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity */
      , (27655,  96,       5000) /* EncumbranceCapacity */
      , (27655, 100,          1) /* GeneratorType - Relative */
      , (27655, 106,        400) /* ItemSpellcraft */
@@ -50,6 +50,6 @@ VALUES (27655,   1,   33558692) /* Setup */
      , (27655,  28,         85) /* Spell - Flame Bolt VI */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (27655, -1, 27682, 0, 1, 1, 2, 8, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0)
-     , (27655, -1, 27707, 0, 1, 1, 2, 8, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0)
-     , (27655, -1, 27669, 0, 1, 1, 2, 8, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0);
+VALUES (27655, -1, 27682, 0, 1, 1, 2, 8, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Renegade Bone Charm (27682) (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: Contain */
+     , (27655, -1, 27707, 0, 1, 1, 2, 8, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Salted Meat (27707) (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: Contain */
+     , (27655, -1, 27669, 0, 1, 1, 2, 8, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Tumerok Salted Meat (27669) (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: Contain */;

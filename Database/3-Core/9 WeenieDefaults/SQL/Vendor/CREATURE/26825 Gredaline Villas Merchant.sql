@@ -10,10 +10,10 @@ VALUES (26825,   1,         16) /* ItemType - Creature */
      , (26825,  16,         32) /* ItemUseable - Remote */
      , (26825,  25,         10) /* Level */
      , (26825,  27,          0) /* ArmorType */
-     , (26825,  74,     264192) /* MerchandiseItemTypes */
+     , (26825,  74,     264192) /* MerchandiseItemTypes - Gem, PromissoryNote */
      , (26825,  75,          0) /* MerchandiseMinValue */
      , (26825,  76,    1000000) /* MerchandiseMaxValue */
-     , (26825,  93,    2098204) /* PhysicsState */
+     , (26825,  93,    2098204) /* PhysicsState - Ethereal, ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */
      , (26825, 126,        125) /* VendorHappyMean */
      , (26825, 127,        125) /* VendorHappyVariance */
      , (26825, 133,          4) /* ShowableOnRadar - ShowAlways */
@@ -97,4 +97,4 @@ VALUES (26825,  0,  4,  0,    0,    0,    0,    0,    0,    0,    0,    0,    0,
      , (26825,  8,  4,  2, 0.75,    0,    0,    0,    0,    0,    0,    0,    0,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (26825, 4, 26190, -1, 0, 0, False) /* Create Gredaline Villas Portal Gem for Shop */;
+VALUES (26825, 4, 26190, -1, 0, 0, False) /* Create Gredaline Villas Portal Gem (26190) for Shop */;

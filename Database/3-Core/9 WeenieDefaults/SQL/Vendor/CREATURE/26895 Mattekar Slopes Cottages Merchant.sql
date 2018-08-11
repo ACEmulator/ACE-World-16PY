@@ -10,10 +10,10 @@ VALUES (26895,   1,         16) /* ItemType - Creature */
      , (26895,  16,         32) /* ItemUseable - Remote */
      , (26895,  25,         10) /* Level */
      , (26895,  27,          0) /* ArmorType */
-     , (26895,  74,     264192) /* MerchandiseItemTypes */
+     , (26895,  74,     264192) /* MerchandiseItemTypes - Gem, PromissoryNote */
      , (26895,  75,          0) /* MerchandiseMinValue */
      , (26895,  76,    1000000) /* MerchandiseMaxValue */
-     , (26895,  93,    2098204) /* PhysicsState */
+     , (26895,  93,    2098204) /* PhysicsState - Ethereal, ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */
      , (26895, 126,        125) /* VendorHappyMean */
      , (26895, 127,        125) /* VendorHappyVariance */
      , (26895, 133,          4) /* ShowableOnRadar - ShowAlways */
@@ -97,4 +97,4 @@ VALUES (26895,  0,  4,  0,    0,    0,    0,    0,    0,    0,    0,    0,    0,
      , (26895,  8,  4,  2, 0.75,    0,    0,    0,    0,    0,    0,    0,    0,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (26895, 4, 26260, -1, 0, 0, False) /* Create Mattekar Slopes Cottages Portal Gem for Shop */;
+VALUES (26895, 4, 26260, -1, 0, 0, False) /* Create Mattekar Slopes Cottages Portal Gem (26260) for Shop */;

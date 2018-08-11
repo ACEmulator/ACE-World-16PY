@@ -13,8 +13,8 @@ VALUES (21390,   1,         16) /* ItemType - Creature */
      , (21390,  40,          1) /* CombatMode - NonCombat */
      , (21390,  68,         13) /* TargetingTactic */
      , (21390,  69,         30) /* CombatTactic */
-     , (21390,  93,       1032) /* PhysicsState */
-     , (21390, 101,        183) /* AiAllowedCombatStyle */
+     , (21390,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
+     , (21390, 101,        183) /* AiAllowedCombatStyle - Unarmed, OneHanded, OneHandedAndShield, Bow, Crossbow, ThrownWeapon */
      , (21390, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (21390, 146,    2000000) /* XpOverride */;
 
@@ -179,4 +179,4 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,  18 /* DirectBroadcast */, 0, 1, NULL, 'Withered in this shell, broken by one of you, how can I have been reduced to this?', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (21390, 2, 20227,  0, 0, 0, False) /* Create Iasparailaun for Wield */;
+VALUES (21390, 2, 20227,  0, 0, 0, False) /* Create Iasparailaun (20227) for Wield */;

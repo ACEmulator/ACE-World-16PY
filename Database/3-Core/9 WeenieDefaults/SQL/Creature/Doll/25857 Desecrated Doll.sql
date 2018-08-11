@@ -10,7 +10,7 @@ VALUES (25857,   1,         16) /* ItemType - Creature */
      , (25857,  25,        135) /* Level */
      , (25857,  68,          9) /* TargetingTactic */
      , (25857,  72,         19) /* FriendType - Virindi */
-     , (25857,  93,       1032) /* PhysicsState */
+     , (25857,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (25857, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (25857, 140,          1) /* AiOptions */
      , (25857, 146,     114435) /* XpOverride */;
@@ -67,7 +67,7 @@ VALUES (25857,   1,   33558548) /* Setup */
      , (25857,   8,  100671421) /* Icon */
      , (25857,  22,  872415373) /* PhysicsEffectTable */
      , (25857,  30,         86) /* PhysicsScript - BreatheAcid */
-     , (25857,  35,        461) /* DeathTreasureType */;
+     , (25857,  35,        461) /* DeathTreasureType - Loot Tier: 6 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (25857,   1, 180, 0, 0) /* Strength */
@@ -169,7 +169,7 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 268435539 /* Twitch3 */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (25857, 9,     0,  0, 0, 0.97, False) /* Create Unknown for ContainTreasure */
-     , (25857, 9,     0,  0, 0, 0.95, False) /* Create Unknown for ContainTreasure */
-     , (25857, 9, 12206,  0, 0, 0.05, False) /* Create Doll Mask for ContainTreasure */
-     , (25857, 9, 30823,  0, 0, 0.03, False) /* Create Broken Black Marrow Key for ContainTreasure */;
+VALUES (25857, 9,     0,  0, 0, 0.97, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 6 for ContainTreasure */
+     , (25857, 9,     0,  0, 0, 0.95, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 6 for ContainTreasure */
+     , (25857, 9, 12206,  0, 0, 0.05, False) /* Create Doll Mask (12206) for ContainTreasure */
+     , (25857, 9, 30823,  0, 0, 0.03, False) /* Create Broken Black Marrow Key (30823) for ContainTreasure */;

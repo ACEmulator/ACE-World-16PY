@@ -10,10 +10,10 @@ VALUES (2048,   1,         16) /* ItemType - Creature */
      , (2048,  16,         32) /* ItemUseable - Remote */
      , (2048,  25,          2) /* Level */
      , (2048,  27,          0) /* ArmorType */
-     , (2048,  74,        544) /* MerchandiseItemTypes */
+     , (2048,  74,        544) /* MerchandiseItemTypes - Food, Container */
      , (2048,  75,          0) /* MerchandiseMinValue */
      , (2048,  76,     100000) /* MerchandiseMaxValue */
-     , (2048,  93,    2098200) /* PhysicsState */
+     , (2048,  93,    2098200) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */
      , (2048,  95,          8) /* RadarBlipColor - Yellow */
      , (2048, 126,        250) /* VendorHappyMean */
      , (2048, 127,        250) /* VendorHappyVariance */
@@ -214,9 +214,9 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   6 /* Move */, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, -12.62, 10.35, 0, -0.02268708, 0, 0, -0.9997426);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (2048, 2,   115,  0, 4, 0.8, False) /* Create Leather Boots for Wield */
-     , (2048, 2,   127,  0, 9, 0, False) /* Create Pants for Wield */
-     , (2048, 4,  2244, -1, 0, 0, False) /* Create Dryreach Key for Shop */
-     , (2048, 4,  2245, -1, 0, 0, False) /* Create Dryreach Rumor for Shop */
-     , (2048, 2,  2589,  0, 9, 0, False) /* Create Smock for Wield */
-     , (2048, 2, 10696,  0, 4, 0.5, False) /* Create Apron for Wield */;
+VALUES (2048, 2,   115,  0, 4, 0.8, False) /* Create Leather Boots (115) for Wield */
+     , (2048, 2,   127,  0, 9, 0, False) /* Create Pants (127) for Wield */
+     , (2048, 4,  2244, -1, 0, 0, False) /* Create Dryreach Key (2244) for Shop */
+     , (2048, 4,  2245, -1, 0, 0, False) /* Create Dryreach Rumor (2245) for Shop */
+     , (2048, 2,  2589,  0, 9, 0, False) /* Create Smock (2589) for Wield */
+     , (2048, 2, 10696,  0, 4, 0.5, False) /* Create Apron (10696) for Wield */;

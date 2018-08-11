@@ -7,7 +7,7 @@ VALUES (10707,   1,       8192) /* ItemType - Writable */
      , (10707,   8,          5) /* Mass */
      , (10707,   9,          0) /* ValidLocations - None */
      , (10707,  19,         10) /* Value */
-     , (10707,  93,       1044) /* PhysicsState */;
+     , (10707,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (10707,   1, True ) /* Stuck */

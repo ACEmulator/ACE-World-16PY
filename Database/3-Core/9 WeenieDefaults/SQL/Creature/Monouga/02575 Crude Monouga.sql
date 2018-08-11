@@ -11,8 +11,8 @@ VALUES (2575,   1,         16) /* ItemType - Creature */
      , (2575,  27,          0) /* ArmorType */
      , (2575,  40,          2) /* CombatMode - Melee */
      , (2575,  68,          9) /* TargetingTactic */
-     , (2575,  93,    4195336) /* PhysicsState */
-     , (2575, 101,        131) /* AiAllowedCombatStyle */
+     , (2575,  93,    4195336) /* PhysicsState - ReportCollisions, Gravity, EdgeSlide */
+     , (2575, 101,        131) /* AiAllowedCombatStyle - Unarmed, OneHanded, ThrownWeapon */
      , (2575, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (2575, 140,          1) /* AiOptions */
      , (2575, 146,       1880) /* XpOverride */;
@@ -66,8 +66,14 @@ VALUES (2575,   1,   33555199) /* Setup */
      , (2575,   4,  805306390) /* CombatTable */
      , (2575,   8,  100669117) /* Icon */
      , (2575,  22,  872415257) /* PhysicsEffectTable */
-     , (2575,  32,        117) /* WieldedTreasureType */
-     , (2575,  35,        453) /* DeathTreasureType */;
+     , (2575,  32,        117) /* WieldedTreasureType - 
+                                   Wield Club (3943) | Probability: 45%
+                                   Wield Dabus (3944) | Probability: 5%
+                                   Wield Kasrullah (3945) | Probability: 5%
+                                   Wield Mace (3947) | Probability: 10%
+                                   Wield Tofun (3946) | Probability: 5%
+                                   Wield 10x Throwing Club (310) | Probability: 30% */
+     , (2575,  35,        453) /* DeathTreasureType - Loot Tier: 1 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (2575,   1, 120, 0, 0) /* Strength */
@@ -144,5 +150,5 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 268435538 /* Twitch2 */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (2575, 9,     0,  0, 0, 0.94, False) /* Create Unknown for ContainTreasure */
-     , (2575, 9, 12253,  0, 0, 0.06, False) /* Create Monougat for ContainTreasure */;
+VALUES (2575, 9,     0,  0, 0, 0.94, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 1 for ContainTreasure */
+     , (2575, 9, 12253,  0, 0, 0.06, False) /* Create Monougat (12253) for ContainTreasure */;

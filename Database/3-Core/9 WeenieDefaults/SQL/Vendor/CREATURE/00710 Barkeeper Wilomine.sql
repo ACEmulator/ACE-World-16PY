@@ -10,10 +10,10 @@ VALUES (710,   1,         16) /* ItemType - Creature */
      , (710,  16,         32) /* ItemUseable - Remote */
      , (710,  25,          5) /* Level */
      , (710,  27,          0) /* ArmorType */
-     , (710,  74,     262176) /* MerchandiseItemTypes */
+     , (710,  74,     262176) /* MerchandiseItemTypes - Food, PromissoryNote */
      , (710,  75,          0) /* MerchandiseMinValue */
      , (710,  76,    1000000) /* MerchandiseMaxValue */
-     , (710,  93,    2098200) /* PhysicsState */
+     , (710,  93,    2098200) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */
      , (710, 126,        125) /* VendorHappyMean */
      , (710, 127,        125) /* VendorHappyVariance */
      , (710, 133,          4) /* ShowableOnRadar - ShowAlways */
@@ -171,34 +171,34 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 318767235 /* Nod */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (710, 2,   115,  0, 18, 1, False) /* Create Leather Boots for Wield */
-     , (710, 2,   124,  0, 7, 0.33, False) /* Create Jerkin for Wield */
-     , (710, 2,   127,  0, 8, 0.67, False) /* Create Pants for Wield */
-     , (710, 4,   261, -1, 0, 0, False) /* Create Cheese for Shop */
-     , (710, 4,   620, -1, 0, 0, False) /* Create Cake for Shop */
-     , (710, 4,  1221, -1, 0, 0, False) /* Create Holtburg Dungeon Directions for Shop */
-     , (710, 4,  1492, -1, 0, 0, False) /* Create Edelbar Directions for Shop */
-     , (710, 4,  1496, -1, 0, 0, False) /* Create Directions to the Drudge Hideout for Shop */
-     , (710, 4,  2055, -1, 0, 0, False) /* Create Directions to Hunter's Leap for Shop */
-     , (710, 4,  2453, -1, 0, 0, False) /* Create Cider for Shop */
-     , (710, 4,  2463, -1, 0, 0, False) /* Create Milk for Shop */
-     , (710, 4,  2467, -1, 0, 0, False) /* Create Red Wine for Shop */
-     , (710, 4,  2471, -1, 0, 0, False) /* Create Stout for Shop */
-     , (710, 4,  4211, -1, 0, 0, False) /* Create Daiklos Legend for Shop */
-     , (710, 4,  4716, -1, 0, 0, False) /* Create Chicken Pie for Shop */
-     , (710, 4,  4739, -1, 0, 0, False) /* Create Pickled Egg for Shop */
-     , (710, 4,  4746, -1, 0, 0, False) /* Create Water for Shop */
-     , (710, 4,  5028, -1, 0, 0, False) /* Create Directions to the Holtburg Redoubt  for Shop */
-     , (710, 4,  5029, -1, 0, 0, False) /* Create Directions to the Cave of Alabree  for Shop */
-     , (710, 4,  6416, -1, 0, 0, False) /* Create A Shivering Stone for Shop */
-     , (710, 4,  6420, -1, 0, 0, False) /* Create The Obsidian Span for Shop */
-     , (710, 4,  8378, -1, 0, 0, False) /* Create Beer Stein for Shop */
-     , (710, 2, 10696,  0, 6, 0, False) /* Create Apron for Wield */
-     , (710, 4, 22811, -1, 0, 0, False) /* Create A Banderling Ruin for Shop */
-     , (710, 4, 22812, -1, 0, 0, False) /* Create Dungeon Fern for Shop */
-     , (710, 4, 22813, -1, 0, 0, False) /* Create Glenden Wood Portal for Shop */
-     , (710, 4, 22814, -1, 0, 0, False) /* Create Golem Mound for Shop */
-     , (710, 4, 22815, -1, 0, 0, False) /* Create Directions to the Hedged Platform for Shop */
-     , (710, 4, 22816, -1, 0, 0, False) /* Create Hilltop for Shop */
-     , (710, 4, 22817, -1, 0, 0, False) /* Create The Rat Nest for Shop */
-     , (710, 4, 30763, -1, 0, 0, False) /* Create Strange Mountain Echoes for Shop */;
+VALUES (710, 2,   115,  0, 18, 1, False) /* Create Leather Boots (115) for Wield */
+     , (710, 2,   124,  0, 7, 0.33, False) /* Create Jerkin (124) for Wield */
+     , (710, 2,   127,  0, 8, 0.67, False) /* Create Pants (127) for Wield */
+     , (710, 4,   261, -1, 0, 0, False) /* Create Cheese (261) for Shop */
+     , (710, 4,   620, -1, 0, 0, False) /* Create Cake (620) for Shop */
+     , (710, 4,  1221, -1, 0, 0, False) /* Create Holtburg Dungeon Directions (1221) for Shop */
+     , (710, 4,  1492, -1, 0, 0, False) /* Create Edelbar Directions (1492) for Shop */
+     , (710, 4,  1496, -1, 0, 0, False) /* Create Directions to the Drudge Hideout (1496) for Shop */
+     , (710, 4,  2055, -1, 0, 0, False) /* Create Directions to Hunter's Leap (2055) for Shop */
+     , (710, 4,  2453, -1, 0, 0, False) /* Create Cider (2453) for Shop */
+     , (710, 4,  2463, -1, 0, 0, False) /* Create Milk (2463) for Shop */
+     , (710, 4,  2467, -1, 0, 0, False) /* Create Red Wine (2467) for Shop */
+     , (710, 4,  2471, -1, 0, 0, False) /* Create Stout (2471) for Shop */
+     , (710, 4,  4211, -1, 0, 0, False) /* Create Daiklos Legend (4211) for Shop */
+     , (710, 4,  4716, -1, 0, 0, False) /* Create Chicken Pie (4716) for Shop */
+     , (710, 4,  4739, -1, 0, 0, False) /* Create Pickled Egg (4739) for Shop */
+     , (710, 4,  4746, -1, 0, 0, False) /* Create Water (4746) for Shop */
+     , (710, 4,  5028, -1, 0, 0, False) /* Create Directions to the Holtburg Redoubt  (5028) for Shop */
+     , (710, 4,  5029, -1, 0, 0, False) /* Create Directions to the Cave of Alabree  (5029) for Shop */
+     , (710, 4,  6416, -1, 0, 0, False) /* Create A Shivering Stone (6416) for Shop */
+     , (710, 4,  6420, -1, 0, 0, False) /* Create The Obsidian Span (6420) for Shop */
+     , (710, 4,  8378, -1, 0, 0, False) /* Create Beer Stein (8378) for Shop */
+     , (710, 2, 10696,  0, 6, 0, False) /* Create Apron (10696) for Wield */
+     , (710, 4, 22811, -1, 0, 0, False) /* Create A Banderling Ruin (22811) for Shop */
+     , (710, 4, 22812, -1, 0, 0, False) /* Create Dungeon Fern (22812) for Shop */
+     , (710, 4, 22813, -1, 0, 0, False) /* Create Glenden Wood Portal (22813) for Shop */
+     , (710, 4, 22814, -1, 0, 0, False) /* Create Golem Mound (22814) for Shop */
+     , (710, 4, 22815, -1, 0, 0, False) /* Create Directions to the Hedged Platform (22815) for Shop */
+     , (710, 4, 22816, -1, 0, 0, False) /* Create Hilltop (22816) for Shop */
+     , (710, 4, 22817, -1, 0, 0, False) /* Create The Rat Nest (22817) for Shop */
+     , (710, 4, 30763, -1, 0, 0, False) /* Create Strange Mountain Echoes (30763) for Shop */;

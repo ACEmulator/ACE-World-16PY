@@ -4,7 +4,7 @@ VALUES ('30832', 'robeinfiltration', 2) /* Clothing */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (30832,   1,          4) /* ItemType - Clothing */
      , (30832,   3,          4) /* PaletteTemplate - Brown */
-     , (30832,   4,      32512) /* ClothingPriority */
+     , (30832,   4,      32512) /* ClothingPriority - OuterwearUpperLegs, OuterwearLowerLegs, OuterwearChest, OuterwearAbdomen, OuterwearUpperArms, OuterwearLowerArms, Head */
      , (30832,   5,        500) /* EncumbranceVal */
      , (30832,   8,        150) /* Mass */
      , (30832,   9,      32512) /* ValidLocations - Armor */
@@ -12,7 +12,7 @@ VALUES (30832,   1,          4) /* ItemType - Clothing */
      , (30832,  19,       8000) /* Value */
      , (30832,  27,          1) /* ArmorType */
      , (30832,  28,        250) /* ArmorLevel */
-     , (30832,  93,       1044) /* PhysicsState */
+     , (30832,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (30832, 106,        350) /* ItemSpellcraft */
      , (30832, 107,       3000) /* ItemCurMana */
      , (30832, 108,       3000) /* ItemMaxMana */

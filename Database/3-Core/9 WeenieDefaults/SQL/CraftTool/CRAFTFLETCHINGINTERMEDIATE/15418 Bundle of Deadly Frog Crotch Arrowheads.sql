@@ -13,8 +13,8 @@ VALUES (15418,   1,  134217728) /* ItemType - CraftFletchingIntermediate */
      , (15418,  15,         70) /* StackUnitValue */
      , (15418,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
      , (15418,  19,         70) /* Value */
-     , (15418,  93,       1044) /* PhysicsState */
-     , (15418,  94,  134217728) /* TargetType - CraftFletchingIntermediate */;
+     , (15418,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (15418,  94,  134217728) /* TargetType - 134217728 */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (15418,  69, False) /* IsSellable */;

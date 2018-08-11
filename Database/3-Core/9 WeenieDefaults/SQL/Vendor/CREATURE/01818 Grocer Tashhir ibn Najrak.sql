@@ -13,7 +13,7 @@ VALUES (1818,   1,         16) /* ItemType - Creature */
      , (1818,  74,    4481568) /* MerchandiseItemTypes - VendorGrocer */
      , (1818,  75,          0) /* MerchandiseMinValue */
      , (1818,  76,      25000) /* MerchandiseMaxValue */
-     , (1818,  93,    2098200) /* PhysicsState */
+     , (1818,  93,    2098200) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */
      , (1818, 126,        250) /* VendorHappyMean */
      , (1818, 127,        250) /* VendorHappyVariance */
      , (1818, 133,          4) /* ShowableOnRadar - ShowAlways */
@@ -163,14 +163,14 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 318767235 /* Nod */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (1818, 2,   115,  0, 6, 0, False) /* Create Leather Boots for Wield */
-     , (1818, 2,   127,  0, 18, 1, False) /* Create Pants for Wield */
-     , (1818, 2,   134,  0, 4, 0.6, False) /* Create Tunic for Wield */
-     , (1818, 2,   135,  0, 9, 0.5, False) /* Create Turban for Wield */
-     , (1818, 4,   136, -1, 21, 1, False) /* Create Pack for Shop */
-     , (1818, 4,   547, -1, 0, 0, False) /* Create Brimstone-cap Mushroom for Shop */
-     , (1818, 4,  4746, -1, 0, 0, False) /* Create Water for Shop */
-     , (1818, 4,  4753, -1, 0, 0, False) /* Create Side of Beef for Shop */
-     , (1818, 4,  4754, -1, 0, 0, False) /* Create Baking Pan for Shop */
-     , (1818, 4,  4755, -1, 0, 0, False) /* Create Brine for Shop */
-     , (1818, 2, 10696,  0, 18, 0.5, False) /* Create Apron for Wield */;
+VALUES (1818, 2,   115,  0, 6, 0, False) /* Create Leather Boots (115) for Wield */
+     , (1818, 2,   127,  0, 18, 1, False) /* Create Pants (127) for Wield */
+     , (1818, 2,   134,  0, 4, 0.6, False) /* Create Tunic (134) for Wield */
+     , (1818, 2,   135,  0, 9, 0.5, False) /* Create Turban (135) for Wield */
+     , (1818, 4,   136, -1, 21, 1, False) /* Create Pack (136) for Shop */
+     , (1818, 4,   547, -1, 0, 0, False) /* Create Brimstone-cap Mushroom (547) for Shop */
+     , (1818, 4,  4746, -1, 0, 0, False) /* Create Water (4746) for Shop */
+     , (1818, 4,  4753, -1, 0, 0, False) /* Create Side of Beef (4753) for Shop */
+     , (1818, 4,  4754, -1, 0, 0, False) /* Create Baking Pan (4754) for Shop */
+     , (1818, 4,  4755, -1, 0, 0, False) /* Create Brine (4755) for Shop */
+     , (1818, 2, 10696,  0, 18, 0.5, False) /* Create Apron (10696) for Wield */;

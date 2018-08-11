@@ -19,7 +19,7 @@ VALUES (7781,   1,          1) /* ItemType - MeleeWeapon */
      , (7781,  48,          5) /* WeaponSkill - Mace */
      , (7781,  49,         40) /* WeaponTime */
      , (7781,  51,          1) /* CombatUse - Melee */
-     , (7781,  93,       3092) /* PhysicsState */;
+     , (7781,  93,       3092) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, LightingOn */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (7781,  15, True ) /* LightsStatus */

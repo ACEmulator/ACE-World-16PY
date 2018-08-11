@@ -10,10 +10,10 @@ VALUES (27045,   1,         16) /* ItemType - Creature */
      , (27045,  16,         32) /* ItemUseable - Remote */
      , (27045,  25,         10) /* Level */
      , (27045,  27,          0) /* ArmorType */
-     , (27045,  74,     264192) /* MerchandiseItemTypes */
+     , (27045,  74,     264192) /* MerchandiseItemTypes - Gem, PromissoryNote */
      , (27045,  75,          0) /* MerchandiseMinValue */
      , (27045,  76,    1000000) /* MerchandiseMaxValue */
-     , (27045,  93,    2098204) /* PhysicsState */
+     , (27045,  93,    2098204) /* PhysicsState - Ethereal, ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */
      , (27045, 126,        125) /* VendorHappyMean */
      , (27045, 127,        125) /* VendorHappyVariance */
      , (27045, 133,          4) /* ShowableOnRadar - ShowAlways */
@@ -97,4 +97,4 @@ VALUES (27045,  0,  4,  0,    0,    0,    0,    0,    0,    0,    0,    0,    0,
      , (27045,  8,  4,  2, 0.75,    0,    0,    0,    0,    0,    0,    0,    0,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (27045, 4, 26410, -1, 0, 0, False) /* Create Tinkelo Hold Villas Portal Gem for Shop */;
+VALUES (27045, 4, 26410, -1, 0, 0, False) /* Create Tinkelo Hold Villas Portal Gem (26410) for Shop */;

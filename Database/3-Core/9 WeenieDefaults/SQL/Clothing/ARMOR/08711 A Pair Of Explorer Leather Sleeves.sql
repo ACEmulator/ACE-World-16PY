@@ -4,16 +4,16 @@ VALUES ('8711', 'sleevesleatherrarenewbiequest', 2) /* Clothing */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (8711,   1,          2) /* ItemType - Armor */
      , (8711,   3,         27) /* PaletteTemplate - DarkGreenMetal */
-     , (8711,   4,      12288) /* ClothingPriority */
+     , (8711,   4,      12288) /* ClothingPriority - OuterwearUpperArms, OuterwearLowerArms */
      , (8711,   5,        400) /* EncumbranceVal */
      , (8711,   8,        180) /* Mass */
-     , (8711,   9,       6144) /* ValidLocations */
+     , (8711,   9,       6144) /* ValidLocations - UpperArmArmor, LowerArmArmor */
      , (8711,  16,          1) /* ItemUseable - No */
      , (8711,  18,          1) /* UiEffects - Magical */
      , (8711,  19,          1) /* Value */
      , (8711,  27,          2) /* ArmorType */
      , (8711,  28,        100) /* ArmorLevel */
-     , (8711,  93,       1044) /* PhysicsState */
+     , (8711,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (8711, 106,        150) /* ItemSpellcraft */
      , (8711, 107,        400) /* ItemCurMana */
      , (8711, 108,        400) /* ItemMaxMana */

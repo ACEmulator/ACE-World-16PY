@@ -10,18 +10,18 @@ VALUES (21198,   1,          1) /* ItemType - MeleeWeapon */
      , (21198,  16,          1) /* ItemUseable - No */
      , (21198,  19,          1) /* Value */
      , (21198,  44,         80) /* Damage */
-     , (21198,  45,          3) /* DamageType */
+     , (21198,  45,          3) /* DamageType - Slash, Pierce */
      , (21198,  46,          2) /* DefaultCombatStyle - OneHanded */
-     , (21198,  47,          6) /* AttackType */
+     , (21198,  47,          6) /* AttackType - Thrust, Slash */
      , (21198,  48,         10) /* WeaponSkill - Staff */
      , (21198,  49,        200) /* WeaponTime */
      , (21198,  51,          1) /* CombatUse - Melee */
-     , (21198,  93,       1044) /* PhysicsState */
+     , (21198,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (21198, 158,          3) /* WieldRequirements - Attrib */
      , (21198, 159,          1) /* WieldSkilltype - Axe */
      , (21198, 160,       2000) /* WieldDifficulty */
      , (21198, 171,         20) /* NumTimesTinkered */
-     , (21198, 179,          7) /* ImbuedEffect */;
+     , (21198, 179,          7) /* ImbuedEffect - CriticalStrike, CripplingBlow, ArmorRending */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (21198,   1, True ) /* Stuck */

@@ -12,8 +12,8 @@ VALUES (7397,   1,         16) /* ItemType - Creature */
      , (7397,  27,          0) /* ArmorType */
      , (7397,  40,          1) /* CombatMode - NonCombat */
      , (7397,  68,          3) /* TargetingTactic */
-     , (7397,  93,       1032) /* PhysicsState */
-     , (7397, 101,        183) /* AiAllowedCombatStyle */
+     , (7397,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
+     , (7397, 101,        183) /* AiAllowedCombatStyle - Unarmed, OneHanded, OneHandedAndShield, Bow, Crossbow, ThrownWeapon */
      , (7397, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (7397, 140,          1) /* AiOptions */
      , (7397, 146,      10000) /* XpOverride */;
@@ -71,8 +71,13 @@ VALUES (7397,   1,   33554839) /* Setup */
      , (7397,   7,  268435558) /* ClothingBase */
      , (7397,   8,  100667942) /* Icon */
      , (7397,  22,  872415272) /* PhysicsEffectTable */
-     , (7397,  32,        250) /* WieldedTreasureType */
-     , (7397,  35,        240) /* DeathTreasureType */;
+     , (7397,  32,        250) /* WieldedTreasureType - 
+                                   Wield Katar (23675) | Probability: 25%
+                                   Wield Nekode (23681) | Probability: 25%
+                                   Wield Cestus (23638) | Probability: 25%
+                                   Wield Tachi (23701) | Probability: 25%
+                                   Wield Kite Shield (23685) | Probability: 85% */
+     , (7397,  35,        240) /* DeathTreasureType - Loot Tier: 4 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (7397,   1, 175, 0, 0) /* Strength */
@@ -157,6 +162,6 @@ VALUES (7397,  94) /* ATTACK_NOTIFICATION_EVENT */
      , (7397, 414) /* PLAYER_DEATH_EVENT */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (7397, 9,     0,  0, 0, 0.97, False) /* Create Unknown for ContainTreasure */
-     , (7397, 9,  5873,  0, 0, 0.03, False) /* Create Seal for ContainTreasure */
-     , (7397, 8,  7398,  0, 0, 1, False) /* Create Laboratory Key for Treasure */;
+VALUES (7397, 9,     0,  0, 0, 0.97, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 4 for ContainTreasure */
+     , (7397, 9,  5873,  0, 0, 0.03, False) /* Create Seal (5873) for ContainTreasure */
+     , (7397, 8,  7398,  0, 0, 1, False) /* Create Laboratory Key (7398) for Treasure */;

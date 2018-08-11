@@ -14,7 +14,7 @@ VALUES (9148,   1,       4096) /* ItemType - SpellComponents */
      , (9148,  15,          5) /* StackUnitValue */
      , (9148,  16,          1) /* ItemUseable - No */
      , (9148,  19,          5) /* Value */
-     , (9148,  93,       1044) /* PhysicsState */;
+     , (9148,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (9148,   1, 'Moo Juice') /* Name */

@@ -11,7 +11,7 @@ VALUES (9222,   1,         16) /* ItemType - Creature */
      , (9222,  16,         32) /* ItemUseable - Remote */
      , (9222,  25,         12) /* Level */
      , (9222,  27,          0) /* ArmorType */
-     , (9222,  93,    2098200) /* PhysicsState */
+     , (9222,  93,    2098200) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */
      , (9222, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (9222, 134,         16) /* PlayerKillerStatus - RubberGlue */
      , (9222, 146,        287) /* XpOverride */;
@@ -118,7 +118,7 @@ VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 1090519043 /* Ready */, NULL, NU
      , (@parent_id,  2,  10 /* Tell */, 1, 1, NULL, 'Words... are... meaningless...', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (9222, 2,   117,  0, 14, 0.3, False) /* Create Breeches for Wield */
-     , (9222, 2,   124,  0, 13, 0.6, False) /* Create Jerkin for Wield */
-     , (9222, 2,   133,  0, 4, 0.67, False) /* Create Slippers for Wield */
-     , (9222, 2,  5894,  0, 4, 0.8, False) /* Create Fez for Wield */;
+VALUES (9222, 2,   117,  0, 14, 0.3, False) /* Create Breeches (117) for Wield */
+     , (9222, 2,   124,  0, 13, 0.6, False) /* Create Jerkin (124) for Wield */
+     , (9222, 2,   133,  0, 4, 0.67, False) /* Create Slippers (133) for Wield */
+     , (9222, 2,  5894,  0, 4, 0.8, False) /* Create Fez (5894) for Wield */;

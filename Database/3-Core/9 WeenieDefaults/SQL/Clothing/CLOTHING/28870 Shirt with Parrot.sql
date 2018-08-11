@@ -4,15 +4,15 @@ VALUES ('28870', 'shirtparrot', 2) /* Clothing */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (28870,   1,          4) /* ItemType - Clothing */
      , (28870,   3,          8) /* PaletteTemplate - Green */
-     , (28870,   4,        104) /* ClothingPriority */
+     , (28870,   4,        104) /* ClothingPriority - UnderwearChest, UnderwearUpperArms, UnderwearLowerArms */
      , (28870,   5,        100) /* EncumbranceVal */
      , (28870,   8,         50) /* Mass */
-     , (28870,   9,         30) /* ValidLocations */
+     , (28870,   9,         30) /* ValidLocations - ChestWear, AbdomenWear, UpperArmWear, LowerArmWear */
      , (28870,  16,          1) /* ItemUseable - No */
      , (28870,  19,        500) /* Value */
      , (28870,  27,          1) /* ArmorType */
      , (28870,  28,         10) /* ArmorLevel */
-     , (28870,  93,       1044) /* PhysicsState */
+     , (28870,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (28870, 150,        103) /* HookPlacement - Hook */
      , (28870, 151,          2) /* HookType - Wall */;
 

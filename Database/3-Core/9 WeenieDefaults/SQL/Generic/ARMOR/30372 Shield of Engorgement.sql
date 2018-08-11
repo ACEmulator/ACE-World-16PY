@@ -12,7 +12,7 @@ VALUES (30372,   1,          2) /* ItemType - Armor */
      , (30372,  27,          2) /* ArmorType */
      , (30372,  28,         20) /* ArmorLevel */
      , (30372,  51,          4) /* CombatUse - Shield */
-     , (30372,  93,       1044) /* PhysicsState */
+     , (30372,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (30372, 150,        103) /* HookPlacement - Hook */
      , (30372, 151,          2) /* HookType - Wall */;
 

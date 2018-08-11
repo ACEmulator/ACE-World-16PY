@@ -14,7 +14,7 @@ VALUES (10800,   1,         16) /* ItemType - Creature */
      , (10800,  69,          4) /* CombatTactic */
      , (10800,  81,          4) /* MaxGeneratedObjects */
      , (10800,  82,          0) /* InitGeneratedObjects */
-     , (10800,  93,       3080) /* PhysicsState */
+     , (10800,  93,       3080) /* PhysicsState - ReportCollisions, Gravity, LightingOn */
      , (10800, 103,          1) /* GeneratorDestructionType - Nothing */
      , (10800, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (10800, 146,      56414) /* XpOverride */;
@@ -75,7 +75,7 @@ VALUES (10800,   1,   33557101) /* Setup */
      , (10800,   4,  805306407) /* CombatTable */
      , (10800,   8,  100671702) /* Icon */
      , (10800,  22,  872415375) /* PhysicsEffectTable */
-     , (10800,  35,        464) /* DeathTreasureType */;
+     , (10800,  35,        464) /* DeathTreasureType - Loot Tier: 5 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (10800,   1, 140, 0, 0) /* Strength */
@@ -123,7 +123,7 @@ VALUES (10800,  94) /* ATTACK_NOTIFICATION_EVENT */
      , (10800, 414) /* PLAYER_DEATH_EVENT */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (10800, 0.5, 10818, 1800, 1, 1, 1, 4, -1, 0, 0, 0, -2, -1, 9, 0.8191521, 0, 0, -0.5735765)
-     , (10800, 0.75, 10825, 1800, 1, 1, 1, 4, -1, 0, 0, 0, 2.4, 3.4, 9, 0.9659258, 0, 0, -0.258819)
-     , (10800, 0.85, 10811, 1800, 1, 1, 1, 4, -1, 0, 0, 0, 2.4, -1.4, 9, 0.9961947, 0, 0, -0.08715574)
-     , (10800, 0.9, 10815, 1800, 1, 1, 1, 4, -1, 0, 0, 0, -2, -2, 9, 0.9961947, 0, 0, -0.08715574);
+VALUES (10800, 0.5, 10818, 1800, 1, 1, 1, 4, -1, 0, 0, 0, -2, -1, 9, 0.8191521, 0, 0, -0.5735765) /* Generate Virindi Executor (10818) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
+     , (10800, 0.75, 10825, 1800, 1, 1, 1, 4, -1, 0, 0, 0, 2.4, 3.4, 9, 0.9659258, 0, 0, -0.258819) /* Generate Virindi Observer (10825) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
+     , (10800, 0.85, 10811, 1800, 1, 1, 1, 4, -1, 0, 0, 0, 2.4, -1.4, 9, 0.9961947, 0, 0, -0.08715574) /* Generate Rampager (10811) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
+     , (10800, 0.9, 10815, 1800, 1, 1, 1, 4, -1, 0, 0, 0, -2, -2, 9, 0.9961947, 0, 0, -0.08715574) /* Generate Virindi Inquisitor (10815) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */;

@@ -13,8 +13,8 @@ VALUES (14466,   1,         16) /* ItemType - Creature */
      , (14466,  67,          2) /* Tolerance */
      , (14466,  68,          9) /* TargetingTactic */
      , (14466,  72,         39) /* FriendType - Snowman */
-     , (14466,  93,       1032) /* PhysicsState */
-     , (14466, 101,        131) /* AiAllowedCombatStyle */
+     , (14466,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
+     , (14466, 101,        131) /* AiAllowedCombatStyle - Unarmed, OneHanded, ThrownWeapon */
      , (14466, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (14466, 140,          1) /* AiOptions */
      , (14466, 146,       1080) /* XpOverride */;
@@ -70,7 +70,7 @@ VALUES (14466,   1,   33557482) /* Setup */
      , (14466,   4,  805306406) /* CombatTable */
      , (14466,   8,  100669125) /* Icon */
      , (14466,  22,  872415346) /* PhysicsEffectTable */
-     , (14466,  35,        465) /* DeathTreasureType */;
+     , (14466,  35,        465) /* DeathTreasureType - Loot Tier: 1 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (14466,   1,  70, 0, 0) /* Strength */
@@ -305,8 +305,8 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   8 /* Say */, 0, 0, NULL, 'That was pretty good, you almost had me. CHUMP!', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (14466, 1,  5758,  2, 0, 0, False) /* Create Carrot for Contain */
-     , (14466, 1,  5768,  2, 0, 0, False) /* Create Poofy Snowball for Contain */
-     , (14466, 2,  5769, 12, 0, 0, False) /* Create Iceball for Wield */
-     , (14466, 1,  7835,  2, 0, 0, False) /* Create Magic Iceball for Contain */
-     , (14466, 1, 22825,  1, 0, 0, False) /* Create A Lump of Coal for Contain */;
+VALUES (14466, 1,  5758,  2, 0, 0, False) /* Create Carrot (5758) for Contain */
+     , (14466, 1,  5768,  2, 0, 0, False) /* Create Poofy Snowball (5768) for Contain */
+     , (14466, 2,  5769, 12, 0, 0, False) /* Create Iceball (5769) for Wield */
+     , (14466, 1,  7835,  2, 0, 0, False) /* Create Magic Iceball (7835) for Contain */
+     , (14466, 1, 22825,  1, 0, 0, False) /* Create A Lump of Coal (22825) for Contain */;

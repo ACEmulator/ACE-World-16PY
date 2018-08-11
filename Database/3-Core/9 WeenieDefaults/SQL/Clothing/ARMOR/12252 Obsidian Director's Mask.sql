@@ -13,7 +13,7 @@ VALUES (12252,   1,          2) /* ItemType - Armor */
      , (12252,  19,       5000) /* Value */
      , (12252,  27,          2) /* ArmorType */
      , (12252,  28,        120) /* ArmorLevel */
-     , (12252,  93,       1044) /* PhysicsState */
+     , (12252,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (12252, 106,        200) /* ItemSpellcraft */
      , (12252, 107,        800) /* ItemCurMana */
      , (12252, 108,        800) /* ItemMaxMana */

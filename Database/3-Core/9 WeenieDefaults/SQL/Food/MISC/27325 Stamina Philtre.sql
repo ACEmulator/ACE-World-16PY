@@ -16,9 +16,9 @@ VALUES (27325,   1,        128) /* ItemType - Misc */
      , (27325,  19,       1000) /* Value */
      , (27325,  89,          4) /* BoosterEnum - Stamina */
      , (27325,  90,        125) /* BoostValue */
-     , (27325,  93,       1044) /* PhysicsState */
+     , (27325,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (27325, 150,        103) /* HookPlacement - Hook */
-     , (27325, 151,         11) /* HookType */;
+     , (27325, 151,         11) /* HookType - Floor, Wall, Yard */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (27325,   1, 'Stamina Philtre') /* Name */

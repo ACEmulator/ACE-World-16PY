@@ -10,10 +10,10 @@ VALUES (27050,   1,         16) /* ItemType - Creature */
      , (27050,  16,         32) /* ItemUseable - Remote */
      , (27050,  25,         10) /* Level */
      , (27050,  27,          0) /* ArmorType */
-     , (27050,  74,     264192) /* MerchandiseItemTypes */
+     , (27050,  74,     264192) /* MerchandiseItemTypes - Gem, PromissoryNote */
      , (27050,  75,          0) /* MerchandiseMinValue */
      , (27050,  76,    1000000) /* MerchandiseMaxValue */
-     , (27050,  93,    2098204) /* PhysicsState */
+     , (27050,  93,    2098204) /* PhysicsState - Ethereal, ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */
      , (27050, 126,        125) /* VendorHappyMean */
      , (27050, 127,        125) /* VendorHappyVariance */
      , (27050, 133,          4) /* ShowableOnRadar - ShowAlways */
@@ -97,4 +97,4 @@ VALUES (27050,  0,  4,  0,    0,    0,    0,    0,    0,    0,    0,    0,    0,
      , (27050,  8,  4,  2, 0.75,    0,    0,    0,    0,    0,    0,    0,    0,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (27050, 4, 26415, -1, 0, 0, False) /* Create Tusker Notch Portal Gem for Shop */;
+VALUES (27050, 4, 26415, -1, 0, 0, False) /* Create Tusker Notch Portal Gem (26415) for Shop */;

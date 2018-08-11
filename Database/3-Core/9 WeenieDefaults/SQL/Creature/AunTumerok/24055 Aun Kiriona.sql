@@ -11,7 +11,7 @@ VALUES (24055,   1,         16) /* ItemType - Creature */
      , (24055,  16,         32) /* ItemUseable - Remote */
      , (24055,  25,         11) /* Level */
      , (24055,  27,          0) /* ArmorType */
-     , (24055,  93,    6292504) /* PhysicsState */
+     , (24055,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (24055,  95,          8) /* RadarBlipColor - Yellow */
      , (24055, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (24055, 134,         16) /* PlayerKillerStatus - RubberGlue */
@@ -207,4 +207,4 @@ VALUES (@parent_id,  0,  10 /* Tell */, 0, 1, NULL, 'The Totem of Temepuh! Aun H
      , (@parent_id,  3,   3 /* Give */, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0, 10962 /* Hea Totem */, 1, 0, 0, False, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (24055, 2, 11256,  0, 0, 0, False) /* Create Hoeroa of Palenqual for Wield */;
+VALUES (24055, 2, 11256,  0, 0, 0, False) /* Create Hoeroa of Palenqual (11256) for Wield */;

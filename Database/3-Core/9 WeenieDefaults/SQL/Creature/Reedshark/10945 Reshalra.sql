@@ -12,7 +12,7 @@ VALUES (10945,   1,         16) /* ItemType - Creature */
      , (10945,  40,          2) /* CombatMode - Melee */
      , (10945,  68,         13) /* TargetingTactic */
      , (10945,  72,         58) /* FriendType - HeaTumerok */
-     , (10945,  93,       1032) /* PhysicsState */
+     , (10945,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (10945, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (10945, 146,      20297) /* XpOverride */;
 
@@ -67,7 +67,7 @@ VALUES (10945,   1,   33554489) /* Setup */
      , (10945,   7,  268435556) /* ClothingBase */
      , (10945,   8,  100667939) /* Icon */
      , (10945,  22,  872415268) /* PhysicsEffectTable */
-     , (10945,  35,        456) /* DeathTreasureType */;
+     , (10945,  35,        456) /* DeathTreasureType - Loot Tier: 3 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (10945,   1, 300, 0, 0) /* Strength */
@@ -214,4 +214,4 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,  17 /* LocalBroadcast */, 0, 0, NULL, 'A shudder passes through Reshalra''s massive form as %s''s blow finds a weak point.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (10945, 9, 10971,  0, 0, 1, False) /* Create Reshalra's Collar for ContainTreasure */;
+VALUES (10945, 9, 10971,  0, 0, 1, False) /* Create Reshalra's Collar (10971) for ContainTreasure */;

@@ -11,13 +11,13 @@ VALUES (30947,   1,          1) /* ItemType - MeleeWeapon */
      , (30947,  19,         40) /* Value */
      , (30947,  33,         -2) /* Bonded - Destroy */
      , (30947,  44,         26) /* Damage */
-     , (30947,  45,          3) /* DamageType */
+     , (30947,  45,          3) /* DamageType - Slash, Pierce */
      , (30947,  46,          2) /* DefaultCombatStyle - OneHanded */
-     , (30947,  47,        486) /* AttackType */
+     , (30947,  47,        486) /* AttackType - Thrust, Slash, DoubleSlash, TripleSlash, DoubleThrust, TripleThrust */
      , (30947,  48,          4) /* WeaponSkill - Dagger */
      , (30947,  49,          1) /* WeaponTime */
      , (30947,  51,          1) /* CombatUse - Melee */
-     , (30947,  93,       1044) /* PhysicsState */
+     , (30947,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (30947, 114,          1) /* Attuned - Attuned */
      , (30947, 179,          4) /* ImbuedEffect - ArmorRending */;
 

@@ -10,10 +10,10 @@ VALUES (26978,   1,         16) /* ItemType - Creature */
      , (26978,  16,         32) /* ItemUseable - Remote */
      , (26978,  25,         10) /* Level */
      , (26978,  27,          0) /* ArmorType */
-     , (26978,  74,     264192) /* MerchandiseItemTypes */
+     , (26978,  74,     264192) /* MerchandiseItemTypes - Gem, PromissoryNote */
      , (26978,  75,          0) /* MerchandiseMinValue */
      , (26978,  76,    1000000) /* MerchandiseMaxValue */
-     , (26978,  93,    2098204) /* PhysicsState */
+     , (26978,  93,    2098204) /* PhysicsState - Ethereal, ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */
      , (26978, 126,        125) /* VendorHappyMean */
      , (26978, 127,        125) /* VendorHappyVariance */
      , (26978, 133,          4) /* ShowableOnRadar - ShowAlways */
@@ -97,4 +97,4 @@ VALUES (26978,  0,  4,  0,    0,    0,    0,    0,    0,    0,    0,    0,    0,
      , (26978,  8,  4,  2, 0.75,    0,    0,    0,    0,    0,    0,    0,    0,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (26978, 4, 26343, -1, 0, 0, False) /* Create Sand Shallow Cottages Portal Gem for Shop */;
+VALUES (26978, 4, 26343, -1, 0, 0, False) /* Create Sand Shallow Cottages Portal Gem (26343) for Shop */;

@@ -13,7 +13,7 @@ VALUES (25844,   1,         16) /* ItemType - Creature */
      , (25844,  40,          2) /* CombatMode - Melee */
      , (25844,  68,          5) /* TargetingTactic */
      , (25844,  72,         55) /* FriendType - Carenzi */
-     , (25844,  93,       1032) /* PhysicsState */
+     , (25844,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (25844, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (25844, 146,     793989) /* XpOverride */;
 
@@ -69,7 +69,7 @@ VALUES (25844,   1,   33558553) /* Setup */
      , (25844,   7,  268436732) /* ClothingBase */
      , (25844,   8,  100671754) /* Icon */
      , (25844,  22,  872415377) /* PhysicsEffectTable */
-     , (25844,  35,         32) /* DeathTreasureType */;
+     , (25844,  35,         32) /* DeathTreasureType - Loot Tier: 6 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (25844,   1, 540, 0, 0) /* Strength */
@@ -125,7 +125,7 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 268435537 /* Twitch1 */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (25844, 9,     0,  0, 0, 0, False) /* Create Unknown for ContainTreasure */
-     , (25844, 9,     0,  0, 0, 0.9, False) /* Create Unknown for ContainTreasure */
-     , (25844, 9, 25898,  0, 0, 1, False) /* Create Snarl's Hide for ContainTreasure */
-     , (25844, 9, 30823,  0, 0, 0.1, False) /* Create Broken Black Marrow Key for ContainTreasure */;
+VALUES (25844, 9,     0,  0, 0, 0, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 6 for ContainTreasure */
+     , (25844, 9,     0,  0, 0, 0.9, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 6 for ContainTreasure */
+     , (25844, 9, 25898,  0, 0, 1, False) /* Create Snarl's Hide (25898) for ContainTreasure */
+     , (25844, 9, 30823,  0, 0, 0.1, False) /* Create Broken Black Marrow Key (30823) for ContainTreasure */;

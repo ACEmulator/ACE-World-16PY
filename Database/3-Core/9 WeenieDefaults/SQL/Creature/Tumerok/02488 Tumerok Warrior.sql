@@ -11,8 +11,8 @@ VALUES (2488,   1,         16) /* ItemType - Creature */
      , (2488,  25,         20) /* Level */
      , (2488,  27,          0) /* ArmorType */
      , (2488,  68,          5) /* TargetingTactic */
-     , (2488,  93,       1032) /* PhysicsState */
-     , (2488, 101,        183) /* AiAllowedCombatStyle */
+     , (2488,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
+     , (2488, 101,        183) /* AiAllowedCombatStyle - Unarmed, OneHanded, OneHandedAndShield, Bow, Crossbow, ThrownWeapon */
      , (2488, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (2488, 146,        851) /* XpOverride */;
 
@@ -67,8 +67,46 @@ VALUES (2488,   1,   33554496) /* Setup */
      , (2488,   7,  268435647) /* ClothingBase */
      , (2488,   8,  100667452) /* Icon */
      , (2488,  22,  872415270) /* PhysicsEffectTable */
-     , (2488,  32,        226) /* WieldedTreasureType */
-     , (2488,  35,        227) /* DeathTreasureType */;
+     , (2488,  32,        226) /* WieldedTreasureType - 
+                                   Wield 5x Javelin (320) | Probability: 10%
+                                   Wield 6x Djarid (317) | Probability: 10%
+                                   Wield 4x Throwing Club (310) | Probability: 5%
+                                   Wield 6x Throwing Axe (304) | Probability: 5%
+                                   Wield Yag (360) | Probability: 5%
+                                   Wield 23x Arrow (300) | Probability: 100%
+                                   Wield Shortbow (307) | Probability: 5%
+                                   Wield 25x Arrow (300) | Probability: 100%
+                                   Wield Shouyumi (341) | Probability: 5%
+                                   Wield 20x Arrow (300) | Probability: 100%
+                                   Wield Light Crossbow (312) | Probability: 16%
+                                   Wield 15x Quarrel (305) | Probability: 100%
+                                   Wield Nayin (334) | Probability: 6%
+                                   Wield 20x Arrow (300) | Probability: 100%
+                                   Wield Longbow (306) | Probability: 11%
+                                   Wield 22x Arrow (300) | Probability: 100%
+                                   Wield Yumi (363) | Probability: 6%
+                                   Wield 20x Arrow (300) | Probability: 100%
+                                   Wield Heavy Crossbow (311) | Probability: 16%
+                                   Wield 15x Quarrel (305) | Probability: 100%
+                                   Wield Battle Axe (301) | Probability: 6%
+                                   Wield Budiaq (308) | Probability: 6%
+                                   Wield Dabus (313) | Probability: 6%
+                                   Wield Kaskara (324) | Probability: 5%
+                                   Wield Long Sword (351) | Probability: 5%
+                                   Wield Mace (331) | Probability: 7%
+                                   Wield Ono (336) | Probability: 5%
+                                   Wield Scimitar (339) | Probability: 10%
+                                   Wield Shamshir (340) | Probability: 5%
+                                   Wield Silifi (344) | Probability: 5%
+                                   Wield Spear (348) | Probability: 7%
+                                   Wield Tachi (353) | Probability: 5%
+                                   Wield Tofun (356) | Probability: 6%
+                                   Wield War Hammer (359) | Probability: 10%
+                                   Wield Yari (362) | Probability: 10%
+                                   Wield Large Kite Shield (92) | Probability: 30%
+                                   Wield Kite Shield (91) | Probability: 20%
+                                   Wield Large Round Shield (94) | Probability: 20% */
+     , (2488,  35,        227) /* DeathTreasureType - Loot Tier: 3 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (2488,   1, 110, 0, 0) /* Strength */
@@ -180,4 +218,4 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 268435537 /* Twitch1 */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (2488, 1,  2474,  0, 0, 0, False) /* Create Clumsy Tumerok Key for Contain */;
+VALUES (2488, 1,  2474,  0, 0, 0, False) /* Create Clumsy Tumerok Key (2474) for Contain */;

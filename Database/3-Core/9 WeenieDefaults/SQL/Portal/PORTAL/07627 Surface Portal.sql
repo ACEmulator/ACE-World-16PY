@@ -4,8 +4,8 @@ VALUES ('7627', 'portalaerfallekeepexit', 7) /* Portal */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (7627,   1,      65536) /* ItemType - Portal */
      , (7627,  16,         32) /* ItemUseable - Remote */
-     , (7627,  93,       3084) /* PhysicsState */
-     , (7627, 111,         49) /* PortalBitmask */
+     , (7627,  93,       3084) /* PhysicsState - Ethereal, ReportCollisions, Gravity, LightingOn */
+     , (7627, 111,         49) /* PortalBitmask - Unrestricted, NoSummon, NoRecall */
      , (7627, 133,          4) /* ShowableOnRadar - ShowAlways */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)

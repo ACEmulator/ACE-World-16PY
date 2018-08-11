@@ -17,7 +17,7 @@ VALUES (21428,   1,          1) /* ItemType - MeleeWeapon */
      , (21428,  48,         13) /* WeaponSkill - UnarmedCombat */
      , (21428,  49,         15) /* WeaponTime */
      , (21428,  51,          1) /* CombatUse - Melee */
-     , (21428,  93,       1044) /* PhysicsState */
+     , (21428,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (21428, 106,        250) /* ItemSpellcraft */
      , (21428, 107,       1000) /* ItemCurMana */
      , (21428, 108,       1000) /* ItemMaxMana */

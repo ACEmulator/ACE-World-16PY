@@ -10,7 +10,7 @@ VALUES (30443,   1,         16) /* ItemType - Creature */
      , (30443,  16,         32) /* ItemUseable - Remote */
      , (30443,  25,          7) /* Level */
      , (30443,  27,          0) /* ArmorType */
-     , (30443,  93,    6292504) /* PhysicsState */
+     , (30443,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (30443,  95,          8) /* RadarBlipColor - Yellow */
      , (30443, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (30443, 134,         16) /* PlayerKillerStatus - RubberGlue */
@@ -647,6 +647,6 @@ VALUES (@parent_id,  0,  12 /* TurnToTarget */, 0, 1, NULL, NULL, NULL, NULL, NU
      , (@parent_id,  3,  22 /* StampQuest */, 0, 1, NULL, 'InsidiousMonougaHandIn', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (30443, 2,   124,  0, 17, 1, False) /* Create Jerkin for Wield */
-     , (30443, 2,   132,  0, 9, 1, False) /* Create Shoes for Wield */
-     , (30443, 2,  2604,  0, 9, 0, False) /* Create Breeches for Wield */;
+VALUES (30443, 2,   124,  0, 17, 1, False) /* Create Jerkin (124) for Wield */
+     , (30443, 2,   132,  0, 9, 1, False) /* Create Shoes (132) for Wield */
+     , (30443, 2,  2604,  0, 9, 0, False) /* Create Breeches (2604) for Wield */;

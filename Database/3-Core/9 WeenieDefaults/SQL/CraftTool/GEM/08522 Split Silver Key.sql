@@ -13,8 +13,8 @@ VALUES (8522,   1,       2048) /* ItemType - Gem */
      , (8522,  15,          0) /* StackUnitValue */
      , (8522,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
      , (8522,  19,          0) /* Value */
-     , (8522,  93,       1044) /* PhysicsState */
-     , (8522,  94,       2048) /* TargetType - Gem */;
+     , (8522,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (8522,  94,       2048) /* TargetType - 2048 */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (8522,  22, True ) /* Inscribable */

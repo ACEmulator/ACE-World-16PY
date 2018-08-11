@@ -16,11 +16,11 @@ VALUES (20993,   1, 1073741824) /* ItemType - TinkeringMaterial */
      , (20993,  19,         10) /* Value */
      , (20993,  33,          1) /* Bonded - Bonded */
      , (20993,  91,        100) /* MaxStructure */
-     , (20993,  93,       1044) /* PhysicsState */
-     , (20993,  94,          2) /* TargetType - Armor */
+     , (20993,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (20993,  94,          2) /* TargetType - Banderling */
      , (20993, 131,         64) /* MaterialType - Steel */
      , (20993, 150,        103) /* HookPlacement - Hook */
-     , (20993, 151,          9) /* HookType */;
+     , (20993, 151,          9) /* HookType - Floor, Yard */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (20993,  22, True ) /* Inscribable */

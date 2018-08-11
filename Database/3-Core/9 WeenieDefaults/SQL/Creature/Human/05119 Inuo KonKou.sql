@@ -10,7 +10,7 @@ VALUES (5119,   1,         16) /* ItemType - Creature */
      , (5119,  16,         32) /* ItemUseable - Remote */
      , (5119,  25,         11) /* Level */
      , (5119,  27,          0) /* ArmorType */
-     , (5119,  93,    6292504) /* PhysicsState */
+     , (5119,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (5119,  95,          8) /* RadarBlipColor - Yellow */
      , (5119, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (5119, 134,         16) /* PlayerKillerStatus - RubberGlue */
@@ -167,6 +167,6 @@ VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 1090519043 /* Ready */, NULL, NU
      , (@parent_id,  6,  10 /* Tell */, 1.5, 1, NULL, 'Ungrateful creatures.  The dungeon is to the east of here.  Look for the candles that mark the entrance.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (5119, 2,   127,  0, 18, 1, False) /* Create Pants for Wield */
-     , (5119, 2,   132,  0, 9, 1, False) /* Create Shoes for Wield */
-     , (5119, 2,  2591,  0, 14, 0.8, False) /* Create Shirt for Wield */;
+VALUES (5119, 2,   127,  0, 18, 1, False) /* Create Pants (127) for Wield */
+     , (5119, 2,   132,  0, 9, 1, False) /* Create Shoes (132) for Wield */
+     , (5119, 2,  2591,  0, 14, 0.8, False) /* Create Shirt (2591) for Wield */;

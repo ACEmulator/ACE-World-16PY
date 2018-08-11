@@ -10,7 +10,7 @@ VALUES (24224,   1,         16) /* ItemType - Creature */
      , (24224,  16,         32) /* ItemUseable - Remote */
      , (24224,  25,         40) /* Level */
      , (24224,  27,          0) /* ArmorType */
-     , (24224,  93,    6292504) /* PhysicsState */
+     , (24224,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (24224,  95,          8) /* RadarBlipColor - Yellow */
      , (24224, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (24224, 134,         16) /* PlayerKillerStatus - RubberGlue */
@@ -125,4 +125,4 @@ VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 1090519043 /* Ready */, NULL, NU
      , (@parent_id,  8,  10 /* Tell */, 1, 1, NULL, 'The locations of the Research Facility and the Fathomless Chasm are written on the flyleaves.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (24224, 2,  5913,  0, 5, 0, False) /* Create Dho Item Master Robe for Wield */;
+VALUES (24224, 2,  5913,  0, 5, 0, False) /* Create Dho Item Master Robe (5913) for Wield */;

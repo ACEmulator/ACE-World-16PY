@@ -4,7 +4,7 @@ VALUES ('9095', 'girthunkindledthau', 1) /* Generic */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (9095,   1,          2) /* ItemType - Armor */
      , (9095,   3,         20) /* PaletteTemplate - Silver */
-     , (9095,   4,          0) /* ClothingPriority */
+     , (9095,   4,          0) /* ClothingPriority - 0 */
      , (9095,   5,         50) /* EncumbranceVal */
      , (9095,   8,        200) /* Mass */
      , (9095,   9,          0) /* ValidLocations - None */
@@ -13,7 +13,7 @@ VALUES (9095,   1,          2) /* ItemType - Armor */
      , (9095,  27,         32) /* ArmorType */
      , (9095,  28,          0) /* ArmorLevel */
      , (9095,  33,          1) /* Bonded - Bonded */
-     , (9095,  93,       1044) /* PhysicsState */
+     , (9095,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (9095, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)

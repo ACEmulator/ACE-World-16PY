@@ -12,7 +12,7 @@ VALUES (25888,   1,         16) /* ItemType - Creature */
      , (25888,  40,          2) /* CombatMode - Melee */
      , (25888,  68,         13) /* TargetingTactic */
      , (25888,  72,         22) /* FriendType - Shadow */
-     , (25888,  93,       1032) /* PhysicsState */
+     , (25888,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (25888, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (25888, 146,     527819) /* XpOverride */;
 
@@ -70,7 +70,7 @@ VALUES (25888,   1,   33555610) /* Setup */
      , (25888,   7,  268436729) /* ClothingBase */
      , (25888,   8,  100669123) /* Icon */
      , (25888,  22,  872415279) /* PhysicsEffectTable */
-     , (25888,  35,         26) /* DeathTreasureType */;
+     , (25888,  35,         26) /* DeathTreasureType - Loot Tier: 6 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (25888,   1, 375, 0, 0) /* Strength */
@@ -122,5 +122,5 @@ VALUES (25888,  94) /* ATTACK_NOTIFICATION_EVENT */
      , (25888, 414) /* PLAYER_DEATH_EVENT */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (25888, 9,     0,  0, 0, 0.95, False) /* Create Unknown for ContainTreasure */
-     , (25888, 9, 30823,  0, 0, 0.05, False) /* Create Broken Black Marrow Key for ContainTreasure */;
+VALUES (25888, 9,     0,  0, 0, 0.95, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 6 for ContainTreasure */
+     , (25888, 9, 30823,  0, 0, 0.05, False) /* Create Broken Black Marrow Key (30823) for ContainTreasure */;

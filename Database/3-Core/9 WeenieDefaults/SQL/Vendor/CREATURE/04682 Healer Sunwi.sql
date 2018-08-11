@@ -10,10 +10,10 @@ VALUES (4682,   1,         16) /* ItemType - Creature */
      , (4682,  16,         32) /* ItemUseable - Remote */
      , (4682,  25,          9) /* Level */
      , (4682,  27,          0) /* ArmorType */
-     , (4682,  74,     262272) /* MerchandiseItemTypes */
+     , (4682,  74,     262272) /* MerchandiseItemTypes - Misc, PromissoryNote */
      , (4682,  75,          0) /* MerchandiseMinValue */
      , (4682,  76,      25000) /* MerchandiseMaxValue */
-     , (4682,  93,    2098200) /* PhysicsState */
+     , (4682,  93,    2098200) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */
      , (4682, 126,        125) /* VendorHappyMean */
      , (4682, 127,        125) /* VendorHappyVariance */
      , (4682, 133,          4) /* ShowableOnRadar - ShowAlways */
@@ -180,21 +180,21 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 318767235 /* Nod */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (4682, 2,   115,  0, 9, 1, False) /* Create Leather Boots for Wield */
-     , (4682, 2,   124,  0, 18, 1, False) /* Create Jerkin for Wield */
-     , (4682, 2,   128,  0, 1, 0.67, False) /* Create Qafiya for Wield */
-     , (4682, 4,   377, -1, 0, 0, False) /* Create Potion of Healing for Shop */
-     , (4682, 4,   378, -1, 0, 0, False) /* Create Stamina Potion for Shop */
-     , (4682, 4,   379, -1, 0, 0, False) /* Create Mana Potion for Shop */
-     , (4682, 4,   628, -1, 0, 0, False) /* Create Handy Healing Kit for Shop */
-     , (4682, 4,   629, -1, 0, 0, False) /* Create Adept Healing Kit for Shop */
-     , (4682, 4,  2457, -1, 0, 0, False) /* Create Health Draught for Shop */
-     , (4682, 4,  2460, -1, 0, 0, False) /* Create Mana Draught for Shop */
-     , (4682, 2,  2598,  0, 9, 1, False) /* Create Pants for Wield */
-     , (4682, 4,  2621, -1, 0, 0, False) /* Create Trade Note (100) for Shop */
-     , (4682, 4,  2622, -1, 0, 0, False) /* Create Trade Note (500) for Shop */
-     , (4682, 4,  4450, -1, 0, 0, False) /* Create Heal Other I for Shop */
-     , (4682, 4,  4597, -1, 0, 0, False) /* Create Rejuvenation Other I for Shop */
-     , (4682, 4,  4608, -1, 0, 0, False) /* Create Focus Other I for Shop */
-     , (4682, 2, 10696,  0, 9, 1, False) /* Create Apron for Wield */
-     , (4682, 4, 27326, -1, 0, 0, False) /* Create Stamina Tincture for Shop */;
+VALUES (4682, 2,   115,  0, 9, 1, False) /* Create Leather Boots (115) for Wield */
+     , (4682, 2,   124,  0, 18, 1, False) /* Create Jerkin (124) for Wield */
+     , (4682, 2,   128,  0, 1, 0.67, False) /* Create Qafiya (128) for Wield */
+     , (4682, 4,   377, -1, 0, 0, False) /* Create Potion of Healing (377) for Shop */
+     , (4682, 4,   378, -1, 0, 0, False) /* Create Stamina Potion (378) for Shop */
+     , (4682, 4,   379, -1, 0, 0, False) /* Create Mana Potion (379) for Shop */
+     , (4682, 4,   628, -1, 0, 0, False) /* Create Handy Healing Kit (628) for Shop */
+     , (4682, 4,   629, -1, 0, 0, False) /* Create Adept Healing Kit (629) for Shop */
+     , (4682, 4,  2457, -1, 0, 0, False) /* Create Health Draught (2457) for Shop */
+     , (4682, 4,  2460, -1, 0, 0, False) /* Create Mana Draught (2460) for Shop */
+     , (4682, 2,  2598,  0, 9, 1, False) /* Create Pants (2598) for Wield */
+     , (4682, 4,  2621, -1, 0, 0, False) /* Create Trade Note (100) (2621) for Shop */
+     , (4682, 4,  2622, -1, 0, 0, False) /* Create Trade Note (500) (2622) for Shop */
+     , (4682, 4,  4450, -1, 0, 0, False) /* Create Heal Other I (4450) for Shop */
+     , (4682, 4,  4597, -1, 0, 0, False) /* Create Rejuvenation Other I (4597) for Shop */
+     , (4682, 4,  4608, -1, 0, 0, False) /* Create Focus Other I (4608) for Shop */
+     , (4682, 2, 10696,  0, 9, 1, False) /* Create Apron (10696) for Wield */
+     , (4682, 4, 27326, -1, 0, 0, False) /* Create Stamina Tincture (27326) for Shop */;

@@ -10,10 +10,10 @@ VALUES (26710,   1,         16) /* ItemType - Creature */
      , (26710,  16,         32) /* ItemUseable - Remote */
      , (26710,  25,         10) /* Level */
      , (26710,  27,          0) /* ArmorType */
-     , (26710,  74,     264192) /* MerchandiseItemTypes */
+     , (26710,  74,     264192) /* MerchandiseItemTypes - Gem, PromissoryNote */
      , (26710,  75,          0) /* MerchandiseMinValue */
      , (26710,  76,    1000000) /* MerchandiseMaxValue */
-     , (26710,  93,    2098204) /* PhysicsState */
+     , (26710,  93,    2098204) /* PhysicsState - Ethereal, ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */
      , (26710, 126,        125) /* VendorHappyMean */
      , (26710, 127,        125) /* VendorHappyVariance */
      , (26710, 133,          4) /* ShowableOnRadar - ShowAlways */
@@ -97,4 +97,4 @@ VALUES (26710,  0,  4,  0,    0,    0,    0,    0,    0,    0,    0,    0,    0,
      , (26710,  8,  4,  2, 0.75,    0,    0,    0,    0,    0,    0,    0,    0,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (26710, 4, 26075, -1, 0, 0, False) /* Create Ardent Realm Portal Gem for Shop */;
+VALUES (26710, 4, 26075, -1, 0, 0, False) /* Create Ardent Realm Portal Gem (26075) for Shop */;

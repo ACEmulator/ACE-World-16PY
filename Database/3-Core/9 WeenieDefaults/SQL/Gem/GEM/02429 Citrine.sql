@@ -14,7 +14,7 @@ VALUES (2429,   1,       2048) /* ItemType - Gem */
      , (2429,  15,         50) /* StackUnitValue */
      , (2429,  16,          1) /* ItemUseable - No */
      , (2429,  19,         50) /* Value */
-     , (2429,  93,       1044) /* PhysicsState */
+     , (2429,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (2429, 131,         19) /* MaterialType - Citrine */
      , (2429, 169,   16777216) /* TsysMutationData */;
 
