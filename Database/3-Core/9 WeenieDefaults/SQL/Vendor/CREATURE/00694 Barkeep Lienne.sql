@@ -151,6 +151,7 @@ VALUES (694, 2,   117,  0, 5, 0.67, False) /* Create Breeches (117) for Wield */
      , (694, 2,   119,  0, 10, 1, False) /* Create Cowl (119) for Wield */
      , (694, 2,   124,  0, 10, 1, False) /* Create Jerkin (124) for Wield */
      , (694, 2,   132,  0, 9, 0.5, False) /* Create Shoes (132) for Wield */
+     , (694, 2, 10696,  0, 9, 1, False) /* Create Apron (10696) for Wield */
      , (694, 4,   258, -1, 0, 0, False) /* Create Apple (258) for Shop */
      , (694, 4,   259, -1, 0, 0, False) /* Create Bread (259) for Shop */
      , (694, 4,   260, -1, 0, 0, False) /* Create Cabbage (260) for Shop */
@@ -166,5 +167,4 @@ VALUES (694, 2,   117,  0, 5, 0.67, False) /* Create Breeches (117) for Wield */
      , (694, 4,  2462, -1, 0, 0, False) /* Create Mead (2462) for Shop */
      , (694, 4,  2463, -1, 0, 0, False) /* Create Milk (2463) for Shop */
      , (694, 4,  2464, -1, 0, 0, False) /* Create Orange Juice (2464) for Shop */
-     , (694, 4,  2465, -1, 0, 0, False) /* Create Palm Wine (2465) for Shop */
-     , (694, 2, 10696,  0, 9, 1, False) /* Create Apron (10696) for Wield */;
+     , (694, 4,  2465, -1, 0, 0, False) /* Create Palm Wine (2465) for Shop */;

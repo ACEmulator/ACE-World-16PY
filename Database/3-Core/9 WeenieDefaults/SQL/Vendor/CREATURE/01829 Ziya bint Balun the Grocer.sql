@@ -167,6 +167,7 @@ VALUES (1829, 2,   115,  0, 16, 1, False) /* Create Leather Boots (115) for Wiel
      , (1829, 2,   117,  0, 17, 1, False) /* Create Breeches (117) for Wield */
      , (1829, 2,   128,  0, 14, 0.8, False) /* Create Qafiya (128) for Wield */
      , (1829, 2,   130,  0, 14, 0, False) /* Create Shirt (130) for Wield */
+     , (1829, 2, 10696,  0, 18, 1, False) /* Create Apron (10696) for Wield */
      , (1829, 4,   136, -1, 17, 1, False) /* Create Pack (136) for Shop */
      , (1829, 4,   139, -1, 86, 0, False) /* Create Small Belt Pouch (139) for Shop */
      , (1829, 4,   264, -1, 0, 0, False) /* Create Grapes (264) for Shop */
@@ -174,5 +175,4 @@ VALUES (1829, 2,   115,  0, 16, 1, False) /* Create Leather Boots (115) for Wiel
      , (1829, 4,   547, -1, 0, 0, False) /* Create Brimstone-cap Mushroom (547) for Shop */
      , (1829, 4,  4746, -1, 0, 0, False) /* Create Water (4746) for Shop */
      , (1829, 4,  4753, -1, 0, 0, False) /* Create Side of Beef (4753) for Shop */
-     , (1829, 4,  4757, -1, 0, 0, False) /* Create Carving Knife (4757) for Shop */
-     , (1829, 2, 10696,  0, 18, 1, False) /* Create Apron (10696) for Wield */;
+     , (1829, 4,  4757, -1, 0, 0, False) /* Create Carving Knife (4757) for Shop */;

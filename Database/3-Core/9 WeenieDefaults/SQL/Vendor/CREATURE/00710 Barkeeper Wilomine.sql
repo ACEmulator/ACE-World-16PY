@@ -174,6 +174,7 @@ INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `w
 VALUES (710, 2,   115,  0, 18, 1, False) /* Create Leather Boots (115) for Wield */
      , (710, 2,   124,  0, 7, 0.33, False) /* Create Jerkin (124) for Wield */
      , (710, 2,   127,  0, 8, 0.67, False) /* Create Pants (127) for Wield */
+     , (710, 2, 10696,  0, 6, 0, False) /* Create Apron (10696) for Wield */
      , (710, 4,   261, -1, 0, 0, False) /* Create Cheese (261) for Shop */
      , (710, 4,   620, -1, 0, 0, False) /* Create Cake (620) for Shop */
      , (710, 4,  1221, -1, 0, 0, False) /* Create Holtburg Dungeon Directions (1221) for Shop */
@@ -193,7 +194,6 @@ VALUES (710, 2,   115,  0, 18, 1, False) /* Create Leather Boots (115) for Wield
      , (710, 4,  6416, -1, 0, 0, False) /* Create A Shivering Stone (6416) for Shop */
      , (710, 4,  6420, -1, 0, 0, False) /* Create The Obsidian Span (6420) for Shop */
      , (710, 4,  8378, -1, 0, 0, False) /* Create Beer Stein (8378) for Shop */
-     , (710, 2, 10696,  0, 6, 0, False) /* Create Apron (10696) for Wield */
      , (710, 4, 22811, -1, 0, 0, False) /* Create A Banderling Ruin (22811) for Shop */
      , (710, 4, 22812, -1, 0, 0, False) /* Create Dungeon Fern (22812) for Shop */
      , (710, 4, 22813, -1, 0, 0, False) /* Create Glenden Wood Portal (22813) for Shop */

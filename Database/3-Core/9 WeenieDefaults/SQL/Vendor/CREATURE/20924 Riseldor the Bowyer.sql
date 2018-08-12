@@ -166,11 +166,12 @@ INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `w
 VALUES (20924, 2,   115,  0, 4, 0.8, False) /* Create Leather Boots (115) for Wield */
      , (20924, 2,   117,  0, 16, 1, False) /* Create Breeches (117) for Wield */
      , (20924, 2,   134,  0, 16, 1, False) /* Create Tunic (134) for Wield */
+     , (20924, 2,   341,  0, 0, 0, False) /* Create Shouyumi (341) for Wield */
+     , (20924, 2, 10696,  0, 7, 0, False) /* Create Apron (10696) for Wield */
      , (20924, 4,   300, -1, 0, 0, False) /* Create Arrow (300) for Shop */
      , (20924, 4,   305, -1, 0, 0, False) /* Create Quarrel (305) for Shop */
      , (20924, 4,   306, -1, 0, 0, False) /* Create Longbow (306) for Shop */
      , (20924, 4,   311, -1, 0, 0, False) /* Create Heavy Crossbow (311) for Shop */
-     , (20924, 2,   341,  0, 0, 0, False) /* Create Shouyumi (341) for Wield */
      , (20924, 4,   513, -1, 0, 0, False) /* Create Plain Lockpick (513) for Shop */
      , (20924, 4,   545, -1, 0, 0, False) /* Create Reliable Lockpick (545) for Shop */
      , (20924, 4,  2621, -1, 0, 0, False) /* Create Trade Note (100) (2621) for Shop */
@@ -196,7 +197,6 @@ VALUES (20924, 2,   115,  0, 4, 0.8, False) /* Create Leather Boots (115) for Wi
      , (20924, 4,  9366, -1, 0, 0, False) /* Create Wrapped Bundle of Frog Crotch Arrowheads (9366) for Shop */
      , (20924, 4,  9377, -1, 0, 0, False) /* Create Wrapped Bundle of Arrowshafts (9377) for Shop */
      , (20924, 4,  9378, -1, 0, 0, False) /* Create Wrapped Bundle of Quarrelshafts (9378) for Shop */
-     , (20924, 2, 10696,  0, 7, 0, False) /* Create Apron (10696) for Wield */
      , (20924, 4, 12463, -1, 0, 0, False) /* Create Atlatl (12463) for Shop */
      , (20924, 4, 12464, -1, 0, 0, False) /* Create Atlatl Dart (12464) for Shop */
      , (20924, 4, 15296, -1, 0, 0, False) /* Create Bundle of Atlatl Dart Shafts (15296) for Shop */

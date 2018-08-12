@@ -155,7 +155,8 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 318767235 /* Nod */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (21340, 4, 14897, -1, 0, 0, False) /* Create Wedding Cake Figures (14897) for Shop */
+VALUES (21340, 2, 15714,  0, 13, 0.5, False) /* Create Wedding Raiment (15714) for Wield */
+     , (21340, 4, 14897, -1, 0, 0, False) /* Create Wedding Cake Figures (14897) for Shop */
      , (21340, 4, 14898, -1, 0, 0, False) /* Create Wedding Cake Knife (14898) for Shop */
      , (21340, 4, 14904, -1, 0, 0, False) /* Create Wedding Cyclas (14904) for Shop */
      , (21340, 4, 14905, -1, 0, 0, False) /* Create Wedding Gown (14905) for Shop */
@@ -177,7 +178,6 @@ VALUES (21340, 4, 14897, -1, 0, 0, False) /* Create Wedding Cake Figures (14897)
      , (21340, 4, 14916, -1, 0, 0, False) /* Create Simple Flower Bouquet (14916) for Shop */
      , (21340, 4, 14917, -1, 0, 0, False) /* Create Elegant Flower Bouquet (14917) for Shop */
      , (21340, 4, 14931, -1, 0, 0, False) /* Create Wedding Handbook (14931) for Shop */
-     , (21340, 2, 15714,  0, 13, 0.5, False) /* Create Wedding Raiment (15714) for Wield */
      , (21340, 4, 15714, -1, 7, 0.5, False) /* Create Wedding Raiment (15714) for Shop */
      , (21340, 4, 15714, -1, 1, 0.5, False) /* Create Wedding Raiment (15714) for Shop */
      , (21340, 4, 15714, -1, 2, 0.5, False) /* Create Wedding Raiment (15714) for Shop */

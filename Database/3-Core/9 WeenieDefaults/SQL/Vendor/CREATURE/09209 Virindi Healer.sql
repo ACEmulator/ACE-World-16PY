@@ -194,7 +194,7 @@ VALUES (9209, 4,   630, -1, 0, 0, False) /* Create Gifted Healing Kit (630) for 
      , (9209, 4,  4596, -1, 0, 0, False) /* Create Regeneration Other II (4596) for Shop */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (9209, -1, 2470, 120, 10, 25, 2, 32, 1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Stamina Elixir (2470) (x10 up to max of 25) - Regenerate upon PickUp - Location to (re)Generate: Shop */
+VALUES (9209, -1, 377, 120, 10, 25, 2, 32, 1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Potion of Healing (377) (x10 up to max of 25) - Regenerate upon PickUp - Location to (re)Generate: Shop */
      , (9209, -1, 379, 120, 10, 25, 2, 32, 1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Mana Potion (379) (x10 up to max of 25) - Regenerate upon PickUp - Location to (re)Generate: Shop */
-     , (9209, -1, 377, 120, 10, 25, 2, 32, 1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Potion of Healing (377) (x10 up to max of 25) - Regenerate upon PickUp - Location to (re)Generate: Shop */
-     , (9209, -1, 631, 120, 10, 25, 2, 32, 1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Excellent Healing Kit (631) (x10 up to max of 25) - Regenerate upon PickUp - Location to (re)Generate: Shop */;
+     , (9209, -1, 631, 120, 10, 25, 2, 32, 1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Excellent Healing Kit (631) (x10 up to max of 25) - Regenerate upon PickUp - Location to (re)Generate: Shop */
+     , (9209, -1, 2470, 120, 10, 25, 2, 32, 1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Stamina Elixir (2470) (x10 up to max of 25) - Regenerate upon PickUp - Location to (re)Generate: Shop */;

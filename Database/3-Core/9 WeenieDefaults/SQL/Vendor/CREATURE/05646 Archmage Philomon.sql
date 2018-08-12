@@ -192,6 +192,8 @@ INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `w
 VALUES (5646, 2,   119,  0, 9, 0, False) /* Create Cowl (119) for Wield */
      , (5646, 2,   127,  0, 9, 0, False) /* Create Pants (127) for Wield */
      , (5646, 2,   130,  0, 9, 0, False) /* Create Shirt (130) for Wield */
+     , (5646, 2,  2606,  0, 9, 0, False) /* Create Boots (2606) for Wield */
+     , (5646, 2, 10696,  0, 13, 1, False) /* Create Apron (10696) for Wield */
      , (5646, 4,   136, -1, 13, 1, False) /* Create Pack (136) for Shop */
      , (5646, 4,   138, -1, 92, 1, False) /* Create Belt Pouch (138) for Shop */
      , (5646, 4,   139, -1, 92, 1, False) /* Create Small Belt Pouch (139) for Shop */
@@ -274,7 +276,6 @@ VALUES (5646, 2,   119,  0, 9, 0, False) /* Create Cowl (119) for Wield */
      , (5646, 4,  2435, -1, 0, 0, False) /* Create Mana Stone (2435) for Shop */
      , (5646, 4,  2472, -1, 0, 0, False) /* Create Wand (2472) for Shop */
      , (5646, 4,  2547, -1, 0, 0, False) /* Create Staff (2547) for Shop */
-     , (5646, 2,  2606,  0, 9, 0, False) /* Create Boots (2606) for Wield */
      , (5646, 4,  2621, -1, 0, 0, False) /* Create Trade Note (100) (2621) for Shop */
      , (5646, 4,  2622, -1, 0, 0, False) /* Create Trade Note (500) (2622) for Shop */
      , (5646, 4,  2623, -1, 0, 0, False) /* Create Trade Note (1,000) (2623) for Shop */
@@ -303,7 +304,6 @@ VALUES (5646, 2,   119,  0, 9, 0, False) /* Create Cowl (119) for Wield */
      , (5646, 4,  8184, -1, 0, 0, False) /* Create Purge All Magic Other (8184) for Shop */
      , (5646, 4,  8185, -1, 0, 0, False) /* Create Nullify All Magic Other (8185) for Shop */
      , (5646, 4,  8897, -1, 0, 0, False) /* Create Platinum Scarab (8897) for Shop */
-     , (5646, 2, 10696,  0, 13, 1, False) /* Create Apron (10696) for Wield */
      , (5646, 4, 20179, -1, 0, 0, False) /* Create Superb Mana Charge (20179) for Shop */
      , (5646, 4, 20628, -1, 0, 0, False) /* Create Trade Note (150,000) (20628) for Shop */
      , (5646, 4, 20629, -1, 0, 0, False) /* Create Trade Note (200,000) (20629) for Shop */

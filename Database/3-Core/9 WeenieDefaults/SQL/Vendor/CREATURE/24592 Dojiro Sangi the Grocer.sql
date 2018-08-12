@@ -231,6 +231,7 @@ VALUES (24592, 2,   118,  0, 14, 1, False) /* Create Cap (118) for Wield */
      , (24592, 2,   124,  0, 93, 0, False) /* Create Jerkin (124) for Wield */
      , (24592, 2,   127,  0, 6, 1, False) /* Create Pants (127) for Wield */
      , (24592, 2,   132,  0, 7, 0.33, False) /* Create Shoes (132) for Wield */
+     , (24592, 2, 10696,  0, 14, 1, False) /* Create Apron (10696) for Wield */
      , (24592, 4,   258, -1, 0, 0, False) /* Create Apple (258) for Shop */
      , (24592, 4,   259, -1, 0, 0, False) /* Create Bread (259) for Shop */
      , (24592, 4,   260, -1, 0, 0, False) /* Create Cabbage (260) for Shop */
@@ -260,6 +261,5 @@ VALUES (24592, 2,   118,  0, 14, 1, False) /* Create Cap (118) for Wield */
      , (24592, 4,  4768, -1, 0, 0, False) /* Create Uncooked Rice (4768) for Shop */
      , (24592, 4,  5758, -1, 0, 0, False) /* Create Carrot (5758) for Shop */
      , (24592, 4,  7824, -1, 0, 0, False) /* Create Metal Press (7824) for Shop */
-     , (24592, 2, 10696,  0, 14, 1, False) /* Create Apron (10696) for Wield */
      , (24592, 4, 23326, -1, 0, 0, False) /* Create Elaborate Dried Rations (23326) for Shop */
      , (24592, 4, 23327, -1, 0, 0, False) /* Create Simple Dried Rations (23327) for Shop */;

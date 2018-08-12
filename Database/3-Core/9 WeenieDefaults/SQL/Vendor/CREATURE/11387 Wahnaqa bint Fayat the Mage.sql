@@ -150,6 +150,7 @@ VALUES (11387, 2,   127,  0, 2, 0, False) /* Create Pants (127) for Wield */
      , (11387, 2,   130,  0, 14, 1, False) /* Create Shirt (130) for Wield */
      , (11387, 2,   133,  0, 8, 0, False) /* Create Slippers (133) for Wield */
      , (11387, 2,   135,  0, 2, 0, False) /* Create Turban (135) for Wield */
+     , (11387, 2, 10696,  0, 9, 1, False) /* Create Apron (10696) for Wield */
      , (11387, 4,   625, -1, 0, 0, False) /* Create Ginseng (625) for Shop */
      , (11387, 4,   626, -1, 0, 0, False) /* Create Powdered Hematite (626) for Shop */
      , (11387, 4,   627, -1, 0, 0, False) /* Create Alder Talisman (627) for Shop */
@@ -252,7 +253,6 @@ VALUES (11387, 2,   127,  0, 2, 0, False) /* Create Pants (127) for Wield */
      , (11387, 4,  8183, -1, 0, 0, False) /* Create Devour All Magic Other (8183) for Shop */
      , (11387, 4,  8184, -1, 0, 0, False) /* Create Purge All Magic Other (8184) for Shop */
      , (11387, 4,  8185, -1, 0, 0, False) /* Create Nullify All Magic Other (8185) for Shop */
-     , (11387, 2, 10696,  0, 9, 1, False) /* Create Apron (10696) for Wield */
      , (11387, 4, 20628, -1, 0, 0, False) /* Create Trade Note (150,000) (20628) for Shop */
      , (11387, 4, 20629, -1, 0, 0, False) /* Create Trade Note (200,000) (20629) for Shop */
      , (11387, 4, 20630, -1, 0, 0, False) /* Create Trade Note (250,000) (20630) for Shop */

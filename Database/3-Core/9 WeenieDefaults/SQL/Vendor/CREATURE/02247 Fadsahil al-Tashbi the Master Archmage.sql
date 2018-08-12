@@ -205,7 +205,8 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,  10 /* Tell */, 0, 1, NULL, 'How may I help thee, traveler?', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (2247, 4,   625, -1, 0, 0, False) /* Create Ginseng (625) for Shop */
+VALUES (2247, 2,  5907,  0, 0, 0, False) /* Create Dho Life Master Robe (5907) for Wield */
+     , (2247, 4,   625, -1, 0, 0, False) /* Create Ginseng (625) for Shop */
      , (2247, 4,   626, -1, 0, 0, False) /* Create Powdered Hematite (626) for Shop */
      , (2247, 4,   627, -1, 0, 0, False) /* Create Alder Talisman (627) for Shop */
      , (2247, 4,   686, -1, 0, 0, False) /* Create Copper Scarab (686) for Shop */
@@ -302,7 +303,6 @@ VALUES (2247, 4,   625, -1, 0, 0, False) /* Create Ginseng (625) for Shop */
      , (2247, 4,  4751, -1, 0, 0, False) /* Create Mortar and Pestle (4751) for Shop */
      , (2247, 4,  5338, -1, 0, 0, False) /* Create Neutral Balm (5338) for Shop */
      , (2247, 4,  5541, -1, 0, 0, False) /* Create Wand (5541) for Shop */
-     , (2247, 2,  5907,  0, 0, 0, False) /* Create Dho Life Master Robe (5907) for Wield */
      , (2247, 4,  5907, -1, 0, 0, False) /* Create Dho Life Master Robe (5907) for Shop */
      , (2247, 4,  5907, -1, 0, 0, False) /* Create Dho Life Master Robe (5907) for Shop */
      , (2247, 4,  5910, -1, 0, 0, False) /* Create Dho War Master Robe (5910) for Shop */

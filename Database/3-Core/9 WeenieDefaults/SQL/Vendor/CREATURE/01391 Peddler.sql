@@ -162,19 +162,20 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 318767235 /* Nod */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (1391, 4,    36, -1, 0, 0, False) /* Create Leather Bracers (36) for Shop */
+VALUES (1391, 2,   115,  0, 5, 0, False) /* Create Leather Boots (115) for Wield */
+     , (1391, 2,   127,  0, 9, 1, False) /* Create Pants (127) for Wield */
+     , (1391, 2,   130,  0, 9, 1, False) /* Create Shirt (130) for Wield */
+     , (1391, 2, 10696,  0, 9, 1, False) /* Create Apron (10696) for Wield */
+     , (1391, 4,    36, -1, 0, 0, False) /* Create Leather Bracers (36) for Shop */
      , (1391, 4,    39, -1, 0, 0, False) /* Create Leather Breastplate (39) for Shop */
      , (1391, 4,    44, -1, 0, 0, False) /* Create Buckler (44) for Shop */
      , (1391, 4,    45, -1, 0, 0, False) /* Create Leather Cap (45) for Shop */
      , (1391, 4,    65, -1, 0, 0, False) /* Create Leather Greaves (65) for Shop */
      , (1391, 4,   109, -1, 0, 0, False) /* Create Leather Tassets (109) for Shop */
-     , (1391, 2,   115,  0, 5, 0, False) /* Create Leather Boots (115) for Wield */
      , (1391, 4,   119, -1, 0, 0, False) /* Create Cowl (119) for Shop */
      , (1391, 4,   124, -1, 0, 0, False) /* Create Jerkin (124) for Shop */
-     , (1391, 2,   127,  0, 9, 1, False) /* Create Pants (127) for Wield */
      , (1391, 4,   128, -1, 0, 0, False) /* Create Qafiya (128) for Shop */
      , (1391, 4,   129, -1, 0, 0, False) /* Create Sandals (129) for Shop */
-     , (1391, 2,   130,  0, 9, 1, False) /* Create Shirt (130) for Wield */
      , (1391, 4,   135, -1, 0, 0, False) /* Create Turban (135) for Shop */
      , (1391, 4,   136, -1, 77, 0, False) /* Create Pack (136) for Shop */
      , (1391, 4,   137, -1, 0, 0, False) /* Create Basket (137) for Shop */
@@ -197,5 +198,4 @@ VALUES (1391, 4,    36, -1, 0, 0, False) /* Create Leather Bracers (36) for Shop
      , (1391, 4,   629, -1, 0, 0, False) /* Create Adept Healing Kit (629) for Shop */
      , (1391, 4,  2621, -1, 0, 0, False) /* Create Trade Note (100) (2621) for Shop */
      , (1391, 4,  2622, -1, 0, 0, False) /* Create Trade Note (500) (2622) for Shop */
-     , (1391, 2, 10696,  0, 9, 1, False) /* Create Apron (10696) for Wield */
      , (1391, 4, 22163, -1, 0, 0, False) /* Create Nabut (22163) for Shop */;

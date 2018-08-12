@@ -167,6 +167,7 @@ VALUES (1056, 2,   124,  0, 9, 0.5, False) /* Create Jerkin (124) for Wield */
      , (1056, 2,   127,  0, 9, 0.5, False) /* Create Pants (127) for Wield */
      , (1056, 2,   128,  0, 1, 0.5, False) /* Create Qafiya (128) for Wield */
      , (1056, 2,   133,  0, 9, 0.5, False) /* Create Slippers (133) for Wield */
+     , (1056, 2, 10696,  0, 9, 0.5, False) /* Create Apron (10696) for Wield */
      , (1056, 4,   364, -1, 0, 0, False) /* Create Book (364) for Shop */
      , (1056, 4,   365, -1, 0, 0, False) /* Create Parchment (365) for Shop */
      , (1056, 4,   367, -1, 0, 0, False) /* Create Tome (367) for Shop */
@@ -179,5 +180,4 @@ VALUES (1056, 2,   124,  0, 9, 0.5, False) /* Create Jerkin (124) for Wield */
      , (1056, 4,  5856, -1, 0, 0, False) /* Create Specialty Cookbook (5856) for Shop */
      , (1056, 4,  6419, -1, 0, 0, False) /* Create The Meeting Halls (6419) for Shop */
      , (1056, 4,  7884, -1, 0, 0, False) /* Create Chocolate Cookbook (7884) for Shop */
-     , (1056, 2, 10696,  0, 9, 0.5, False) /* Create Apron (10696) for Wield */
      , (1056, 4, 14797, -1, 0, 0, False) /* Create Festival Cookbook (14797) for Shop */;

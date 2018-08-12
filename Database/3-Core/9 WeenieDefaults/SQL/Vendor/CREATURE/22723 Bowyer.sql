@@ -131,7 +131,8 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,  10 /* Tell */, 0, 1, NULL, 'Ooo oo ah.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (22723, 4,   300, -1, 0, 0, False) /* Create Arrow (300) for Shop */
+VALUES (22723, 2, 10757,  0, 2, 0, False) /* Create Towel (10757) for Wield */
+     , (22723, 4,   300, -1, 0, 0, False) /* Create Arrow (300) for Shop */
      , (22723, 4,   304, -1, 0, 0, False) /* Create Throwing Axe (304) for Shop */
      , (22723, 4,   305, -1, 0, 0, False) /* Create Quarrel (305) for Shop */
      , (22723, 4,   307, -1, 0, 0, False) /* Create Shortbow (307) for Shop */
@@ -160,7 +161,6 @@ VALUES (22723, 4,   300, -1, 0, 0, False) /* Create Arrow (300) for Shop */
      , (22723, 4,  9363, -1, 0, 0, False) /* Create Wrapped Bundle of Broad Arrowheads (9363) for Shop */
      , (22723, 4,  9377, -1, 0, 0, False) /* Create Wrapped Bundle of Arrowshafts (9377) for Shop */
      , (22723, 4,  9378, -1, 0, 0, False) /* Create Wrapped Bundle of Quarrelshafts (9378) for Shop */
-     , (22723, 2, 10757,  0, 2, 0, False) /* Create Towel (10757) for Wield */
      , (22723, 4, 12463, -1, 0, 0, False) /* Create Atlatl (12463) for Shop */
      , (22723, 4, 12464, -1, 0, 0, False) /* Create Atlatl Dart (12464) for Shop */
      , (22723, 4, 15296, -1, 0, 0, False) /* Create Bundle of Atlatl Dart Shafts (15296) for Shop */

@@ -165,11 +165,12 @@ VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 318767235 /* Nod */, NULL, NULL,
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (994, 2,   115,  0, 10, 1, False) /* Create Leather Boots (115) for Wield */
      , (994, 2,   127,  0, 16, 1, False) /* Create Pants (127) for Wield */
+     , (994, 2,   134,  0, 14, 0.8, False) /* Create Tunic (134) for Wield */
+     , (994, 2,   135,  0, 14, 0.8, False) /* Create Turban (135) for Wield */
+     , (994, 2, 10696,  0, 16, 1, False) /* Create Apron (10696) for Wield */
      , (994, 4,   128, -1, 16, 1, False) /* Create Qafiya (128) for Shop */
      , (994, 4,   128, -1, 14, 0.8, False) /* Create Qafiya (128) for Shop */
      , (994, 4,   128, -1, 10, 1, False) /* Create Qafiya (128) for Shop */
-     , (994, 2,   134,  0, 14, 0.8, False) /* Create Tunic (134) for Wield */
-     , (994, 2,   135,  0, 14, 0.8, False) /* Create Turban (135) for Wield */
      , (994, 4,  2595, -1, 16, 1, False) /* Create Tunic (2595) for Shop */
      , (994, 4,  2595, -1, 14, 0.8, False) /* Create Tunic (2595) for Shop */
      , (994, 4,  2595, -1, 10, 1, False) /* Create Tunic (2595) for Shop */
@@ -181,5 +182,4 @@ VALUES (994, 2,   115,  0, 10, 1, False) /* Create Leather Boots (115) for Wield
      , (994, 4,  2606, -1, 10, 1, False) /* Create Boots (2606) for Shop */
      , (994, 4,  5852, -1, 0, 0, False) /* Create Dho Vest and Robe (5852) for Shop */
      , (994, 4,  5894, -1, 0, 0, False) /* Create Fez (5894) for Shop */
-     , (994, 4,  8373, -1, 18, 0.5, False) /* Create Kiyafa Robe (8373) for Shop */
-     , (994, 2, 10696,  0, 16, 1, False) /* Create Apron (10696) for Wield */;
+     , (994, 4,  8373, -1, 18, 0.5, False) /* Create Kiyafa Robe (8373) for Shop */;

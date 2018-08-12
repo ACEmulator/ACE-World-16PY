@@ -159,10 +159,7 @@ VALUES (6006,  94) /* ATTACK_NOTIFICATION_EVENT */
      , (6006, 414) /* PLAYER_DEATH_EVENT */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (6006, 9,     0,  0, 0, 0.99, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 2 for ContainTreasure */
-     , (6006, 9,     0,  0, 0, 0.8, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 2 for ContainTreasure */
-     , (6006, 9,     0,  0, 0, 0.97, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 2 for ContainTreasure */
-     , (6006, 8,   301,  0, 0, 0.14, False) /* Create Battle Axe (301) for Treasure */
+VALUES (6006, 8,   301,  0, 0, 0.14, False) /* Create Battle Axe (301) for Treasure */
      , (6006, 8,   324,  0, 0, 0.06, False) /* Create Kaskara (324) for Treasure */
      , (6006, 8,   327,  0, 0, 0.06, False) /* Create Ken (327) for Treasure */
      , (6006, 8,   332,  0, 0, 0.08, False) /* Create Morning Star (332) for Treasure */
@@ -175,5 +172,8 @@ VALUES (6006, 9,     0,  0, 0, 0.99, False) /* Create RANDOMLY GENERATED TREASUR
      , (6006, 8,   353,  0, 0, 0.06, False) /* Create Tachi (353) for Treasure */
      , (6006, 8,   354,  0, 0, 0.06, False) /* Create Takuba (354) for Treasure */
      , (6006, 8,  3695,  0, 0, 0.2, False) /* Create Gold Tumerok Insignia (3695) for Treasure */
+     , (6006, 9,     0,  0, 0, 0.99, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 2 for ContainTreasure */
+     , (6006, 9,     0,  0, 0, 0.8, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 2 for ContainTreasure */
+     , (6006, 9,     0,  0, 0, 0.97, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 2 for ContainTreasure */
      , (6006, 9,  6876,  0, 0, 0.01, False) /* Create Sturdy Iron Key (6876) for ContainTreasure */
      , (6006, 9,  7825,  0, 0, 0.03, False) /* Create Brown Beans (7825) for ContainTreasure */;

@@ -174,6 +174,7 @@ VALUES (4547, 2,   118,  0, 9, 1, False) /* Create Cap (118) for Wield */
      , (4547, 2,   127,  0, 16, 1, False) /* Create Pants (127) for Wield */
      , (4547, 2,   130,  0, 18, 1, False) /* Create Shirt (130) for Wield */
      , (4547, 2,   132,  0, 16, 1, False) /* Create Shoes (132) for Wield */
+     , (4547, 2, 10696,  0, 13, 0.5, False) /* Create Apron (10696) for Wield */
      , (4547, 4,   136, -1, 21, 0.75, False) /* Create Pack (136) for Shop */
      , (4547, 4,   625, -1, 0, 0, False) /* Create Ginseng (625) for Shop */
      , (4547, 4,   626, -1, 0, 0, False) /* Create Powdered Hematite (626) for Shop */
@@ -278,7 +279,6 @@ VALUES (4547, 2,   118,  0, 9, 1, False) /* Create Cap (118) for Wield */
      , (4547, 4,  8981, -1, 0, 0, False) /* Create Shoushi Portal Gem (8981) for Shop */
      , (4547, 4,  8983, -1, 0, 0, False) /* Create Yanshi Portal Gem (8983) for Shop */
      , (4547, 4,  8984, -1, 0, 0, False) /* Create Yaraq Portal Gem (8984) for Shop */
-     , (4547, 2, 10696,  0, 13, 0.5, False) /* Create Apron (10696) for Wield */
      , (4547, 4, 20628, -1, 0, 0, False) /* Create Trade Note (150,000) (20628) for Shop */
      , (4547, 4, 20629, -1, 0, 0, False) /* Create Trade Note (200,000) (20629) for Shop */
      , (4547, 4, 20630, -1, 0, 0, False) /* Create Trade Note (250,000) (20630) for Shop */

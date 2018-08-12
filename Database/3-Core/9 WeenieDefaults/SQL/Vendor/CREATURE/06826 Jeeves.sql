@@ -138,7 +138,8 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 318767229 /* BowDeep */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (6826, 4,   516, -1, 0, 0, False) /* Create Peerless Lockpick (516) for Shop */
+VALUES (6826, 2,  5909,  0, 0, 0, False) /* Create Faran War Master Robe (5909) for Wield */
+     , (6826, 4,   516, -1, 0, 0, False) /* Create Peerless Lockpick (516) for Shop */
      , (6826, 4,   625, -1, 0, 0, False) /* Create Ginseng (625) for Shop */
      , (6826, 4,   626, -1, 0, 0, False) /* Create Powdered Hematite (626) for Shop */
      , (6826, 4,   627, -1, 0, 0, False) /* Create Alder Talisman (627) for Shop */
@@ -243,7 +244,6 @@ VALUES (6826, 4,   516, -1, 0, 0, False) /* Create Peerless Lockpick (516) for S
      , (6826, 4,  5319, -1, 0, 0, False) /* Create Greater Blunt Quarrel (5319) for Shop */
      , (6826, 4,  5321, -1, 0, 0, False) /* Create Greater Frog Crotch Quarrel (5321) for Shop */
      , (6826, 4,  5338, -1, 0, 0, False) /* Create Neutral Balm (5338) for Shop */
-     , (6826, 2,  5909,  0, 0, 0, False) /* Create Faran War Master Robe (5909) for Wield */
      , (6826, 4,  6876, -1, 0, 0, False) /* Create Sturdy Iron Key (6876) for Shop */
      , (6826, 4,  7299, -1, 0, 0, False) /* Create Diamond Scarab (7299) for Shop */
      , (6826, 4,  7559, -1, 0, 0, False) /* Create Condensed Dispel Potion (7559) for Shop */

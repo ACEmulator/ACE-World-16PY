@@ -195,7 +195,13 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 318767235 /* Nod */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (730, 4,    35, -1, 0, 0, False) /* Create Chainmail Basinet (35) for Shop */
+VALUES (730, 2,   115,  0, 6, 0, False) /* Create Leather Boots (115) for Wield */
+     , (730, 2,   117,  0, 7, 0.33, False) /* Create Breeches (117) for Wield */
+     , (730, 2,   118,  0, 18, 1, False) /* Create Cap (118) for Wield */
+     , (730, 2,   124,  0, 7, 0.33, False) /* Create Jerkin (124) for Wield */
+     , (730, 2,   352,  0, 0, 0, False) /* Create Short Sword (352) for Wield */
+     , (730, 2, 10696,  0, 6, 0.8, False) /* Create Apron (10696) for Wield */
+     , (730, 4,    35, -1, 0, 0, False) /* Create Chainmail Basinet (35) for Shop */
      , (730, 4,    40, -1, 0, 0, False) /* Create Platemail Breastplate (40) for Shop */
      , (730, 4,    55, -1, 0, 0, False) /* Create Chainmail Gauntlets (55) for Shop */
      , (730, 4,    57, -1, 0, 0, False) /* Create Platemail Gauntlets (57) for Shop */
@@ -213,11 +219,6 @@ VALUES (730, 4,    35, -1, 0, 0, False) /* Create Chainmail Basinet (35) for Sho
      , (730, 4,   108, -1, 0, 0, False) /* Create Chainmail Tassets (108) for Shop */
      , (730, 4,   110, -1, 0, 0, False) /* Create Platemail Tassets (110) for Shop */
      , (730, 4,   114, -1, 0, 0, False) /* Create Platemail Vambraces (114) for Shop */
-     , (730, 2,   115,  0, 6, 0, False) /* Create Leather Boots (115) for Wield */
-     , (730, 2,   117,  0, 7, 0.33, False) /* Create Breeches (117) for Wield */
-     , (730, 2,   118,  0, 18, 1, False) /* Create Cap (118) for Wield */
-     , (730, 2,   124,  0, 7, 0.33, False) /* Create Jerkin (124) for Wield */
-     , (730, 2,   352,  0, 0, 0, False) /* Create Short Sword (352) for Wield */
      , (730, 4,   413, -1, 0, 0, False) /* Create Chainmail Bracers (413) for Shop */
      , (730, 4,   414, -1, 0, 0, False) /* Create Chainmail Breastplate (414) for Shop */
      , (730, 4,   415, -1, 0, 0, False) /* Create Chainmail Girth (415) for Shop */
@@ -233,7 +234,6 @@ VALUES (730, 4,    35, -1, 0, 0, False) /* Create Chainmail Basinet (35) for Sho
      , (730, 4,  2627, -1, 0, 0, False) /* Create Trade Note (100,000) (2627) for Shop */
      , (730, 4,  8488, -1, 0, 0, False) /* Create Armet (8488) for Shop */
      , (730, 4,  8489, -1, 0, 0, False) /* Create Heaume (8489) for Shop */
-     , (730, 2, 10696,  0, 6, 0.8, False) /* Create Apron (10696) for Wield */
      , (730, 4, 20628, -1, 0, 0, False) /* Create Trade Note (150,000) (20628) for Shop */
      , (730, 4, 20629, -1, 0, 0, False) /* Create Trade Note (200,000) (20629) for Shop */
      , (730, 4, 20630, -1, 0, 0, False) /* Create Trade Note (250,000) (20630) for Shop */;

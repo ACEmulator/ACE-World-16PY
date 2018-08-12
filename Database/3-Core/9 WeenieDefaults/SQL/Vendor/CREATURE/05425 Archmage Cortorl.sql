@@ -166,6 +166,7 @@ INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `w
 VALUES (5425, 2,   115,  0, 9, 0.5, False) /* Create Leather Boots (115) for Wield */
      , (5425, 2,   127,  0, 9, 0.5, False) /* Create Pants (127) for Wield */
      , (5425, 2,   130,  0, 9, 1, False) /* Create Shirt (130) for Wield */
+     , (5425, 2, 10696,  0, 9, 0.5, False) /* Create Apron (10696) for Wield */
      , (5425, 4,   136, -1, 8, 1, False) /* Create Pack (136) for Shop */
      , (5425, 4,   139, -1, 89, 0, False) /* Create Small Belt Pouch (139) for Shop */
      , (5425, 4,   625, -1, 0, 0, False) /* Create Ginseng (625) for Shop */
@@ -238,6 +239,5 @@ VALUES (5425, 2,   115,  0, 9, 0.5, False) /* Create Leather Boots (115) for Wie
      , (5425, 4,  4751, -1, 0, 0, False) /* Create Mortar and Pestle (4751) for Shop */
      , (5425, 4,  5338, -1, 0, 0, False) /* Create Neutral Balm (5338) for Shop */
      , (5425, 4,  5539, -1, 0, 0, False) /* Create Wand (5539) for Shop */
-     , (5425, 2, 10696,  0, 9, 0.5, False) /* Create Apron (10696) for Wield */
      , (5425, 4, 20631, -1, 0, 0, False) /* Create Prismatic Taper (20631) for Shop */
      , (5425, 4, 27331, -1, 0, 0, False) /* Create Minor Mana Stone (27331) for Shop */;

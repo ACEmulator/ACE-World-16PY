@@ -166,6 +166,7 @@ INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `w
 VALUES (4545, 2,   117,  0, 5, 0, False) /* Create Breeches (117) for Wield */
      , (4545, 2,   132,  0, 9, 0, False) /* Create Shoes (132) for Wield */
      , (4545, 2,   134,  0, 2, 1, False) /* Create Tunic (134) for Wield */
+     , (4545, 2, 10696,  0, 4, 0.8, False) /* Create Apron (10696) for Wield */
      , (4545, 4,   364, -1, 0, 0, False) /* Create Book (364) for Shop */
      , (4545, 4,   365, -1, 0, 0, False) /* Create Parchment (365) for Shop */
      , (4545, 4,   367, -1, 0, 0, False) /* Create Tome (367) for Shop */
@@ -177,5 +178,4 @@ VALUES (4545, 2,   117,  0, 5, 0, False) /* Create Breeches (117) for Wield */
      , (4545, 4,  5856, -1, 0, 0, False) /* Create Specialty Cookbook (5856) for Shop */
      , (4545, 4,  6419, -1, 0, 0, False) /* Create The Meeting Halls (6419) for Shop */
      , (4545, 4,  7884, -1, 0, 0, False) /* Create Chocolate Cookbook (7884) for Shop */
-     , (4545, 2, 10696,  0, 4, 0.8, False) /* Create Apron (10696) for Wield */
      , (4545, 4, 14797, -1, 0, 0, False) /* Create Festival Cookbook (14797) for Shop */;

@@ -173,6 +173,8 @@ INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `w
 VALUES (9678, 2,   127,  0, 11, 0.5, False) /* Create Pants (127) for Wield */
      , (9678, 2,   133,  0, 9, 1, False) /* Create Slippers (133) for Wield */
      , (9678, 2,   135,  0, 8, 0.5, False) /* Create Turban (135) for Wield */
+     , (9678, 2,  2587,  0, 8, 0.5, False) /* Create Shirt (2587) for Wield */
+     , (9678, 2, 10696,  0, 15, 0.5, False) /* Create Apron (10696) for Wield */
      , (9678, 4,   136, -1, 2, 1, False) /* Create Pack (136) for Shop */
      , (9678, 4,   138, -1, 91, 1, False) /* Create Belt Pouch (138) for Shop */
      , (9678, 4,   139, -1, 91, 1, False) /* Create Small Belt Pouch (139) for Shop */
@@ -253,7 +255,6 @@ VALUES (9678, 2,   127,  0, 11, 0.5, False) /* Create Pants (127) for Wield */
      , (9678, 4,  2435, -1, 0, 0, False) /* Create Mana Stone (2435) for Shop */
      , (9678, 4,  2472, -1, 0, 0, False) /* Create Wand (2472) for Shop */
      , (9678, 4,  2547, -1, 0, 0, False) /* Create Staff (2547) for Shop */
-     , (9678, 2,  2587,  0, 8, 0.5, False) /* Create Shirt (2587) for Wield */
      , (9678, 4,  2621, -1, 0, 0, False) /* Create Trade Note (100) (2621) for Shop */
      , (9678, 4,  2622, -1, 0, 0, False) /* Create Trade Note (500) (2622) for Shop */
      , (9678, 4,  2623, -1, 0, 0, False) /* Create Trade Note (1,000) (2623) for Shop */
@@ -356,7 +357,6 @@ VALUES (9678, 2,   127,  0, 11, 0.5, False) /* Create Pants (127) for Wield */
      , (9678, 4,  8357, -1, 0, 0, False) /* Create Yellow Pea (8357) for Shop */
      , (9678, 4,  9342, -1, 0, 0, False) /* Create Concentrated Aqua Incanta (9342) for Shop */
      , (9678, 4,  9379, -1, 0, 0, False) /* Create Eye Dropper (9379) for Shop */
-     , (9678, 2, 10696,  0, 15, 0.5, False) /* Create Apron (10696) for Wield */
      , (9678, 4, 20179, -1, 0, 0, False) /* Create Superb Mana Charge (20179) for Shop */
      , (9678, 4, 20628, -1, 0, 0, False) /* Create Trade Note (150,000) (20628) for Shop */
      , (9678, 4, 20629, -1, 0, 0, False) /* Create Trade Note (200,000) (20629) for Shop */

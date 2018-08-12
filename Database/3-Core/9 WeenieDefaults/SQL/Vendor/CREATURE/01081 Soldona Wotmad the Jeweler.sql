@@ -167,9 +167,9 @@ VALUES (1081, 2,   115,  0, 9, 0, False) /* Create Leather Boots (115) for Wield
      , (1081, 2,   117,  0, 9, 0, False) /* Create Breeches (117) for Wield */
      , (1081, 2,   119,  0, 9, 0, False) /* Create Cowl (119) for Wield */
      , (1081, 2,   130,  0, 9, 0, False) /* Create Shirt (130) for Wield */
+     , (1081, 2, 10696,  0, 8, 0.5, False) /* Create Apron (10696) for Wield */
      , (1081, 4,   294, -1, 0, 0, False) /* Create Amulet (294) for Shop */
      , (1081, 4,   295, -1, 0, 0, False) /* Create Bracelet (295) for Shop */
      , (1081, 4,  2621, -1, 0, 0, False) /* Create Trade Note (100) (2621) for Shop */
      , (1081, 4,  2622, -1, 0, 0, False) /* Create Trade Note (500) (2622) for Shop */
-     , (1081, 4,  2623, -1, 0, 0, False) /* Create Trade Note (1,000) (2623) for Shop */
-     , (1081, 2, 10696,  0, 8, 0.5, False) /* Create Apron (10696) for Wield */;
+     , (1081, 4,  2623, -1, 0, 0, False) /* Create Trade Note (1,000) (2623) for Shop */;

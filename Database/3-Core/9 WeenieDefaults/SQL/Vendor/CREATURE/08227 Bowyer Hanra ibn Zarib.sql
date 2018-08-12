@@ -183,6 +183,7 @@ INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `w
 VALUES (8227, 2,   115,  0, 18, 1, False) /* Create Leather Boots (115) for Wield */
      , (8227, 2,   127,  0, 18, 1, False) /* Create Pants (127) for Wield */
      , (8227, 2,   134,  0, 16, 1, False) /* Create Tunic (134) for Wield */
+     , (8227, 2, 10696,  0, 4, 0.8, False) /* Create Apron (10696) for Wield */
      , (8227, 4,   300, -1, 0, 0, False) /* Create Arrow (300) for Shop */
      , (8227, 4,   305, -1, 0, 0, False) /* Create Quarrel (305) for Shop */
      , (8227, 4,   311, -1, 0, 0, False) /* Create Heavy Crossbow (311) for Shop */
@@ -202,7 +203,6 @@ VALUES (8227, 2,   115,  0, 18, 1, False) /* Create Leather Boots (115) for Wiel
      , (8227, 4,  9363, -1, 0, 0, False) /* Create Wrapped Bundle of Broad Arrowheads (9363) for Shop */
      , (8227, 4,  9377, -1, 0, 0, False) /* Create Wrapped Bundle of Arrowshafts (9377) for Shop */
      , (8227, 4,  9378, -1, 0, 0, False) /* Create Wrapped Bundle of Quarrelshafts (9378) for Shop */
-     , (8227, 2, 10696,  0, 4, 0.8, False) /* Create Apron (10696) for Wield */
      , (8227, 4, 12463, -1, 0, 0, False) /* Create Atlatl (12463) for Shop */
      , (8227, 4, 12464, -1, 0, 0, False) /* Create Atlatl Dart (12464) for Shop */
      , (8227, 4, 15296, -1, 0, 0, False) /* Create Bundle of Atlatl Dart Shafts (15296) for Shop */

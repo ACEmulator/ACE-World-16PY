@@ -165,16 +165,17 @@ VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 318767235 /* Nod */, NULL, NULL,
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (4546, 2,   127,  0, 8, 0.67, False) /* Create Pants (127) for Wield */
      , (4546, 2,   134,  0, 10, 1, False) /* Create Tunic (134) for Wield */
+     , (4546, 2,   336,  0, 0, 0, False) /* Create Ono (336) for Wield */
+     , (4546, 2,  2606,  0, 6, 0, False) /* Create Boots (2606) for Wield */
+     , (4546, 2, 10696,  0, 4, 0.5, False) /* Create Apron (10696) for Wield */
      , (4546, 4,   310, -1, 0, 0, False) /* Create Throwing Club (310) for Shop */
      , (4546, 4,   314, -1, 0, 0, False) /* Create Dagger (314) for Shop */
      , (4546, 4,   327, -1, 0, 0, False) /* Create Ken (327) for Shop */
-     , (4546, 2,   336,  0, 0, 0, False) /* Create Ono (336) for Wield */
      , (4546, 4,   336, -1, 0, 0, False) /* Create Ono (336) for Shop */
      , (4546, 4,   353, -1, 0, 0, False) /* Create Tachi (353) for Shop */
      , (4546, 4,   356, -1, 0, 0, False) /* Create Tofun (356) for Shop */
      , (4546, 4,   359, -1, 0, 0, False) /* Create War Hammer (359) for Shop */
      , (4546, 4,   362, -1, 0, 0, False) /* Create Yari (362) for Shop */
-     , (4546, 2,  2606,  0, 6, 0, False) /* Create Boots (2606) for Wield */
      , (4546, 4,  2621, -1, 0, 0, False) /* Create Trade Note (100) (2621) for Shop */
      , (4546, 4,  2622, -1, 0, 0, False) /* Create Trade Note (500) (2622) for Shop */
      , (4546, 4,  2623, -1, 0, 0, False) /* Create Trade Note (1,000) (2623) for Shop */
@@ -183,7 +184,6 @@ VALUES (4546, 2,   127,  0, 8, 0.67, False) /* Create Pants (127) for Wield */
      , (4546, 4,  2626, -1, 0, 0, False) /* Create Trade Note (50,000) (2626) for Shop */
      , (4546, 4,  2627, -1, 0, 0, False) /* Create Trade Note (100,000) (2627) for Shop */
      , (4546, 4,  4195, -1, 0, 0, False) /* Create Nekode (4195) for Shop */
-     , (4546, 2, 10696,  0, 4, 0.5, False) /* Create Apron (10696) for Wield */
      , (4546, 4, 20628, -1, 0, 0, False) /* Create Trade Note (150,000) (20628) for Shop */
      , (4546, 4, 20629, -1, 0, 0, False) /* Create Trade Note (200,000) (20629) for Shop */
      , (4546, 4, 20630, -1, 0, 0, False) /* Create Trade Note (250,000) (20630) for Shop */

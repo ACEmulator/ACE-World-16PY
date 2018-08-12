@@ -188,6 +188,9 @@ VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 318767235 /* Nod */, NULL, NULL,
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (4694, 2,   133,  0, 16, 0, False) /* Create Slippers (133) for Wield */
      , (4694, 2,   135,  0, 9, 0, False) /* Create Turban (135) for Wield */
+     , (4694, 2,  2587,  0, 16, 0.8, False) /* Create Shirt (2587) for Wield */
+     , (4694, 2,  2601,  0, 18, 1, False) /* Create Pants (2601) for Wield */
+     , (4694, 2, 10696,  0, 11, 0.5, False) /* Create Apron (10696) for Wield */
      , (4694, 4,   625, -1, 0, 0, False) /* Create Ginseng (625) for Shop */
      , (4694, 4,   626, -1, 0, 0, False) /* Create Powdered Hematite (626) for Shop */
      , (4694, 4,   627, -1, 0, 0, False) /* Create Alder Talisman (627) for Shop */
@@ -267,8 +270,6 @@ VALUES (4694, 2,   133,  0, 16, 0, False) /* Create Slippers (133) for Wield */
      , (4694, 4,  2435, -1, 0, 0, False) /* Create Mana Stone (2435) for Shop */
      , (4694, 4,  2472, -1, 0, 0, False) /* Create Wand (2472) for Shop */
      , (4694, 4,  2547, -1, 0, 0, False) /* Create Staff (2547) for Shop */
-     , (4694, 2,  2587,  0, 16, 0.8, False) /* Create Shirt (2587) for Wield */
-     , (4694, 2,  2601,  0, 18, 1, False) /* Create Pants (2601) for Wield */
      , (4694, 4,  2621, -1, 0, 0, False) /* Create Trade Note (100) (2621) for Shop */
      , (4694, 4,  2622, -1, 0, 0, False) /* Create Trade Note (500) (2622) for Shop */
      , (4694, 4,  2623, -1, 0, 0, False) /* Create Trade Note (1,000) (2623) for Shop */
@@ -297,7 +298,6 @@ VALUES (4694, 2,   133,  0, 16, 0, False) /* Create Slippers (133) for Wield */
      , (4694, 4,  8184, -1, 0, 0, False) /* Create Purge All Magic Other (8184) for Shop */
      , (4694, 4,  8185, -1, 0, 0, False) /* Create Nullify All Magic Other (8185) for Shop */
      , (4694, 4,  8897, -1, 0, 0, False) /* Create Platinum Scarab (8897) for Shop */
-     , (4694, 2, 10696,  0, 11, 0.5, False) /* Create Apron (10696) for Wield */
      , (4694, 4, 20628, -1, 0, 0, False) /* Create Trade Note (150,000) (20628) for Shop */
      , (4694, 4, 20629, -1, 0, 0, False) /* Create Trade Note (200,000) (20629) for Shop */
      , (4694, 4, 20630, -1, 0, 0, False) /* Create Trade Note (250,000) (20630) for Shop */

@@ -167,6 +167,7 @@ VALUES (734, 2,   118,  0, 18, 1, False) /* Create Cap (118) for Wield */
      , (734, 2,   124,  0, 6, 0, False) /* Create Jerkin (124) for Wield */
      , (734, 2,   127,  0, 18, 1, False) /* Create Pants (127) for Wield */
      , (734, 2,   132,  0, 7, 0.33, False) /* Create Shoes (132) for Wield */
+     , (734, 2, 10696,  0, 18, 1, False) /* Create Apron (10696) for Wield */
      , (734, 4,   260, -1, 0, 0, False) /* Create Cabbage (260) for Shop */
      , (734, 4,   264, -1, 0, 0, False) /* Create Grapes (264) for Shop */
      , (734, 4,   547, -1, 0, 0, False) /* Create Brimstone-cap Mushroom (547) for Shop */
@@ -174,6 +175,5 @@ VALUES (734, 2,   118,  0, 18, 1, False) /* Create Cap (118) for Wield */
      , (734, 4,  4753, -1, 0, 0, False) /* Create Side of Beef (4753) for Shop */
      , (734, 4,  4759, -1, 0, 0, False) /* Create Cooking Pot (4759) for Shop */
      , (734, 4,  4761, -1, 0, 0, False) /* Create Flour (4761) for Shop */
-     , (734, 2, 10696,  0, 18, 1, False) /* Create Apron (10696) for Wield */
      , (734, 4, 23326, -1, 0, 0, False) /* Create Elaborate Dried Rations (23326) for Shop */
      , (734, 4, 23327, -1, 0, 0, False) /* Create Simple Dried Rations (23327) for Shop */;

@@ -167,11 +167,11 @@ VALUES (818, 2,   118,  0, 14, 0.8, False) /* Create Cap (118) for Wield */
      , (818, 2,   127,  0, 9, 0, False) /* Create Pants (127) for Wield */
      , (818, 2,   130,  0, 9, 0.5, False) /* Create Shirt (130) for Wield */
      , (818, 2,   132,  0, 6, 0, False) /* Create Shoes (132) for Wield */
+     , (818, 2, 10696,  0, 9, 0, False) /* Create Apron (10696) for Wield */
      , (818, 4,   294, -1, 0, 0, False) /* Create Amulet (294) for Shop */
      , (818, 4,   622, -1, 0, 0, False) /* Create Necklace (622) for Shop */
      , (818, 4,  2417, -1, 0, 0, False) /* Create Smoky Quartz (2417) for Shop */
      , (818, 4,  2418, -1, 0, 0, False) /* Create Tiger Eye (2418) for Shop */
      , (818, 4,  2621, -1, 0, 0, False) /* Create Trade Note (100) (2621) for Shop */
      , (818, 4,  2622, -1, 0, 0, False) /* Create Trade Note (500) (2622) for Shop */
-     , (818, 4,  2623, -1, 0, 0, False) /* Create Trade Note (1,000) (2623) for Shop */
-     , (818, 2, 10696,  0, 9, 0, False) /* Create Apron (10696) for Wield */;
+     , (818, 4,  2623, -1, 0, 0, False) /* Create Trade Note (1,000) (2623) for Shop */;

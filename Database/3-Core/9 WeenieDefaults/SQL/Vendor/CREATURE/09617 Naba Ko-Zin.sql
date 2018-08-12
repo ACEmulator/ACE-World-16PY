@@ -167,6 +167,7 @@ VALUES (9617, 2,  2593,  0, 9, 1, False) /* Create Tunic (2593) for Wield */
      , (9617, 2,  2601,  0, 9, 1, False) /* Create Pants (2601) for Wield */
      , (9617, 2,  2606,  0, 4, 0.6, False) /* Create Boots (2606) for Wield */
      , (9617, 2,  5901,  0, 9, 0, False) /* Create Kasa (5901) for Wield */
+     , (9617, 2, 10696,  0, 18, 1, False) /* Create Apron (10696) for Wield */
      , (9617, 4,  9562, -1, 0, 0, False) /* Create Alchemy Skill Puzzle Piece (9562) for Shop */
      , (9617, 4,  9563, -1, 0, 0, False) /* Create Axe Skill Puzzle Piece (9563) for Shop */
      , (9617, 4,  9564, -1, 0, 0, False) /* Create Bow Skill Puzzle Piece (9564) for Shop */
@@ -185,7 +186,6 @@ VALUES (9617, 2,  2593,  0, 9, 1, False) /* Create Tunic (2593) for Wield */
      , (9617, 4,  9593, -1, 0, 0, False) /* Create Crossbow Skill Puzzle Piece (9593) for Shop */
      , (9617, 4,  9595, -1, 0, 0, False) /* Create Handbook of the Bestowers' Guild (9595) for Shop */
      , (9617, 4,  9619, -1, 0, 0, False) /* Create Dagger Skill Puzzle Piece (9619) for Shop */
-     , (9617, 2, 10696,  0, 18, 1, False) /* Create Apron (10696) for Wield */
      , (9617, 4, 11640, -1, 0, 0, False) /* Create Advanced Spear Skill Puzzle Piece (11640) for Shop */
      , (9617, 4, 11641, -1, 0, 0, False) /* Create Advanced Mace Skill Puzzle Piece (11641) for Shop */
      , (9617, 4, 11642, -1, 0, 0, False) /* Create Advanced Life Magic Skill Puzzle Piece (11642) for Shop */

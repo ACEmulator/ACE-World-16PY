@@ -172,6 +172,8 @@ VALUES (@parent_id,  0,  10 /* Tell */, 0, 1, NULL, 'Go in freedom.', NULL, NULL
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (8492, 2,   127,  0, 9, 1, False) /* Create Pants (127) for Wield */
      , (8492, 2,   134,  0, 8, 1, False) /* Create Tunic (134) for Wield */
+     , (8492, 2,  7897,  0, 9, 0, False) /* Create Steel Toed Boots (7897) for Wield */
+     , (8492, 2, 10696,  0, 10, 0.5, False) /* Create Apron (10696) for Wield */
      , (8492, 4,   136, -1, 8, 1, False) /* Create Pack (136) for Shop */
      , (8492, 4,   138, -1, 84, 1, False) /* Create Belt Pouch (138) for Shop */
      , (8492, 4,   139, -1, 84, 1, False) /* Create Small Belt Pouch (139) for Shop */
@@ -271,7 +273,6 @@ VALUES (8492, 2,   127,  0, 9, 1, False) /* Create Pants (127) for Wield */
      , (8492, 4,  4751, -1, 0, 0, False) /* Create Mortar and Pestle (4751) for Shop */
      , (8492, 4,  5338, -1, 0, 0, False) /* Create Neutral Balm (5338) for Shop */
      , (8492, 4,  5539, -1, 0, 0, False) /* Create Wand (5539) for Shop */
-     , (8492, 2,  7897,  0, 9, 0, False) /* Create Steel Toed Boots (7897) for Wield */
      , (8492, 4,  8180, -1, 0, 0, False) /* Create Evaporate All Magic Other (8180) for Shop */
      , (8492, 4,  8181, -1, 0, 0, False) /* Create Extinguish All Magic Other (8181) for Shop */
      , (8492, 4,  8182, -1, 0, 0, False) /* Create Cleanse All Magic Other (8182) for Shop */
@@ -279,7 +280,6 @@ VALUES (8492, 2,   127,  0, 9, 1, False) /* Create Pants (127) for Wield */
      , (8492, 4,  8184, -1, 0, 0, False) /* Create Purge All Magic Other (8184) for Shop */
      , (8492, 4,  8185, -1, 0, 0, False) /* Create Nullify All Magic Other (8185) for Shop */
      , (8492, 4,  8897, -1, 0, 0, False) /* Create Platinum Scarab (8897) for Shop */
-     , (8492, 2, 10696,  0, 10, 0.5, False) /* Create Apron (10696) for Wield */
      , (8492, 4, 20179, -1, 0, 0, False) /* Create Superb Mana Charge (20179) for Shop */
      , (8492, 4, 20628, -1, 0, 0, False) /* Create Trade Note (150,000) (20628) for Shop */
      , (8492, 4, 20629, -1, 0, 0, False) /* Create Trade Note (200,000) (20629) for Shop */

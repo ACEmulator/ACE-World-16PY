@@ -163,7 +163,12 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 318767235 /* Nod */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (2502, 4,    40, -1, 0, 0, False) /* Create Platemail Breastplate (40) for Shop */
+VALUES (2502, 2,   118,  0, 2, 0.9, False) /* Create Cap (118) for Wield */
+     , (2502, 2,   127,  0, 9, 0, False) /* Create Pants (127) for Wield */
+     , (2502, 2,   130,  0, 13, 0.5, False) /* Create Shirt (130) for Wield */
+     , (2502, 2,   132,  0, 9, 1, False) /* Create Shoes (132) for Wield */
+     , (2502, 2, 10696,  0, 9, 0, False) /* Create Apron (10696) for Wield */
+     , (2502, 4,    40, -1, 0, 0, False) /* Create Platemail Breastplate (40) for Shop */
      , (2502, 4,    57, -1, 0, 0, False) /* Create Platemail Gauntlets (57) for Shop */
      , (2502, 4,    61, -1, 0, 0, False) /* Create Platemail Girth (61) for Shop */
      , (2502, 4,    66, -1, 0, 0, False) /* Create Platemail Greaves (66) for Shop */
@@ -179,13 +184,9 @@ VALUES (2502, 4,    40, -1, 0, 0, False) /* Create Platemail Breastplate (40) fo
      , (2502, 4,   115, -1, 13, 0.5, False) /* Create Leather Boots (115) for Shop */
      , (2502, 4,   115, -1, 9, 0, False) /* Create Leather Boots (115) for Shop */
      , (2502, 4,   115, -1, 9, 1, False) /* Create Leather Boots (115) for Shop */
-     , (2502, 2,   118,  0, 2, 0.9, False) /* Create Cap (118) for Wield */
      , (2502, 4,   119, -1, 13, 0.5, False) /* Create Cowl (119) for Shop */
      , (2502, 4,   119, -1, 9, 0, False) /* Create Cowl (119) for Shop */
      , (2502, 4,   119, -1, 9, 1, False) /* Create Cowl (119) for Shop */
-     , (2502, 2,   127,  0, 9, 0, False) /* Create Pants (127) for Wield */
-     , (2502, 2,   130,  0, 13, 0.5, False) /* Create Shirt (130) for Wield */
-     , (2502, 2,   132,  0, 9, 1, False) /* Create Shoes (132) for Wield */
      , (2502, 4,  2505, -1, 0, 0, False) /* Create Inner Dungeon Key (2505) for Shop */
      , (2502, 4,  2589, -1, 13, 0.5, False) /* Create Smock (2589) for Shop */
      , (2502, 4,  2589, -1, 9, 0, False) /* Create Smock (2589) for Shop */
@@ -205,7 +206,6 @@ VALUES (2502, 4,    40, -1, 0, 0, False) /* Create Platemail Breastplate (40) fo
      , (2502, 4,  8372, -1, 5, 0.2, False) /* Create Yifan Dress (8372) for Shop */
      , (2502, 4,  8488, -1, 0, 0, False) /* Create Armet (8488) for Shop */
      , (2502, 4,  8489, -1, 0, 0, False) /* Create Heaume (8489) for Shop */
-     , (2502, 2, 10696,  0, 9, 0, False) /* Create Apron (10696) for Wield */
      , (2502, 4, 20628, -1, 0, 0, False) /* Create Trade Note (150,000) (20628) for Shop */
      , (2502, 4, 20629, -1, 0, 0, False) /* Create Trade Note (200,000) (20629) for Shop */
      , (2502, 4, 20630, -1, 0, 0, False) /* Create Trade Note (250,000) (20630) for Shop */

@@ -167,12 +167,12 @@ VALUES (4681, 2,   115,  0, 9, 1, False) /* Create Leather Boots (115) for Wield
      , (4681, 2,   117,  0, 18, 1, False) /* Create Breeches (117) for Wield */
      , (4681, 2,   128,  0, 10, 1, False) /* Create Qafiya (128) for Wield */
      , (4681, 2,   130,  0, 9, 1, False) /* Create Shirt (130) for Wield */
+     , (4681, 2, 10696,  0, 18, 1, False) /* Create Apron (10696) for Wield */
      , (4681, 4,  4746, -1, 0, 0, False) /* Create Water (4746) for Shop */
      , (4681, 4,  4753, -1, 0, 0, False) /* Create Side of Beef (4753) for Shop */
      , (4681, 4,  4755, -1, 0, 0, False) /* Create Brine (4755) for Shop */
      , (4681, 4,  4759, -1, 0, 0, False) /* Create Cooking Pot (4759) for Shop */
      , (4681, 4,  4768, -1, 0, 0, False) /* Create Uncooked Rice (4768) for Shop */
      , (4681, 4,  5758, -1, 0, 0, False) /* Create Carrot (5758) for Shop */
-     , (4681, 2, 10696,  0, 18, 1, False) /* Create Apron (10696) for Wield */
      , (4681, 4, 23326, -1, 0, 0, False) /* Create Elaborate Dried Rations (23326) for Shop */
      , (4681, 4, 23327, -1, 0, 0, False) /* Create Simple Dried Rations (23327) for Shop */;

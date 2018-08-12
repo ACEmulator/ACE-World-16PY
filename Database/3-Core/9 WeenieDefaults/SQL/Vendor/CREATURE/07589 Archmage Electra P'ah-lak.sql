@@ -178,7 +178,8 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 318767235 /* Nod */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (7589, 4,   625, -1, 0, 0, False) /* Create Ginseng (625) for Shop */
+VALUES (7589, 2,  5852,  0, 18, 0, False) /* Create Dho Vest and Robe (5852) for Wield */
+     , (7589, 4,   625, -1, 0, 0, False) /* Create Ginseng (625) for Shop */
      , (7589, 4,   626, -1, 0, 0, False) /* Create Powdered Hematite (626) for Shop */
      , (7589, 4,   627, -1, 0, 0, False) /* Create Alder Talisman (627) for Shop */
      , (7589, 4,   686, -1, 0, 0, False) /* Create Copper Scarab (686) for Shop */
@@ -266,7 +267,6 @@ VALUES (7589, 4,   625, -1, 0, 0, False) /* Create Ginseng (625) for Shop */
      , (7589, 4,  4748, -1, 0, 0, False) /* Create Aqua Incanta (4748) for Shop */
      , (7589, 4,  4751, -1, 0, 0, False) /* Create Mortar and Pestle (4751) for Shop */
      , (7589, 4,  5338, -1, 0, 0, False) /* Create Neutral Balm (5338) for Shop */
-     , (7589, 2,  5852,  0, 18, 0, False) /* Create Dho Vest and Robe (5852) for Wield */
      , (7589, 4,  8180, -1, 0, 0, False) /* Create Evaporate All Magic Other (8180) for Shop */
      , (7589, 4,  8181, -1, 0, 0, False) /* Create Extinguish All Magic Other (8181) for Shop */
      , (7589, 4,  8182, -1, 0, 0, False) /* Create Cleanse All Magic Other (8182) for Shop */

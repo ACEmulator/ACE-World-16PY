@@ -162,7 +162,7 @@ VALUES (9146,  94) /* ATTACK_NOTIFICATION_EVENT */
      , (9146, 414) /* PLAYER_DEATH_EVENT */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (9146, 9,     0,  0, 0, 0, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 5 for ContainTreasure */
-     , (9146, 2,   305,  1, 0, 1, False) /* Create Quarrel (305) for Wield */
-     , (9146, 9,  9136,  0, 0, 1, False) /* Create Vanguard Leader's Amulet (9136) for ContainTreasure */
-     , (9146, 2,  9137,  0, 0, 1, False) /* Create Vanguard Leader's Crossbow (9137) for Wield */;
+VALUES (9146, 2,   305,  1, 0, 1, False) /* Create Quarrel (305) for Wield */
+     , (9146, 2,  9137,  0, 0, 1, False) /* Create Vanguard Leader's Crossbow (9137) for Wield */
+     , (9146, 9,     0,  0, 0, 0, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 5 for ContainTreasure */
+     , (9146, 9,  9136,  0, 0, 1, False) /* Create Vanguard Leader's Amulet (9136) for ContainTreasure */;

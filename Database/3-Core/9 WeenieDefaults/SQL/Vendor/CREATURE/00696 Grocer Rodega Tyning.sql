@@ -167,11 +167,11 @@ VALUES (696, 2,   115,  0, 9, 0.5, False) /* Create Leather Boots (115) for Wiel
      , (696, 2,   117,  0, 10, 1, False) /* Create Breeches (117) for Wield */
      , (696, 2,   118,  0, 9, 0.5, False) /* Create Cap (118) for Wield */
      , (696, 2,   130,  0, 9, 0.5, False) /* Create Shirt (130) for Wield */
+     , (696, 2, 10696,  0, 18, 1, False) /* Create Apron (10696) for Wield */
      , (696, 4,   262, -1, 0, 0, False) /* Create Chicken (262) for Shop */
      , (696, 4,  2463, -1, 0, 0, False) /* Create Milk (2463) for Shop */
      , (696, 4,  4746, -1, 0, 0, False) /* Create Water (4746) for Shop */
      , (696, 4,  4753, -1, 0, 0, False) /* Create Side of Beef (4753) for Shop */
      , (696, 4,  4754, -1, 0, 0, False) /* Create Baking Pan (4754) for Shop */
      , (696, 4,  4761, -1, 0, 0, False) /* Create Flour (4761) for Shop */
-     , (696, 4,  4766, -1, 0, 0, False) /* Create Rennet (4766) for Shop */
-     , (696, 2, 10696,  0, 18, 1, False) /* Create Apron (10696) for Wield */;
+     , (696, 4,  4766, -1, 0, 0, False) /* Create Rennet (4766) for Shop */;

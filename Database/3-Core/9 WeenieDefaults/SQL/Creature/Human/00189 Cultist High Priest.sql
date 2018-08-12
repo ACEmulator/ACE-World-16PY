@@ -440,6 +440,6 @@ VALUES (189,  94) /* ATTACK_NOTIFICATION_EVENT */
      , (189, 414) /* PLAYER_DEATH_EVENT */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (189, 9,     0,  0, 0, 0.98, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 4 for ContainTreasure */
-     , (189, 9,  6876,  0, 0, 0.02, False) /* Create Sturdy Iron Key (6876) for ContainTreasure */
-     , (189, 2, 25810,  0, 39, 0, False) /* Create Suikan Robe (25810) for Wield */;
+VALUES (189, 2, 25810,  0, 39, 0, False) /* Create Suikan Robe (25810) for Wield */
+     , (189, 9,     0,  0, 0, 0.98, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 4 for ContainTreasure */
+     , (189, 9,  6876,  0, 0, 0.02, False) /* Create Sturdy Iron Key (6876) for ContainTreasure */;

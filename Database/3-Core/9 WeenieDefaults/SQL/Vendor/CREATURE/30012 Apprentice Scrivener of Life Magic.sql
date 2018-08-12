@@ -173,6 +173,7 @@ INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `w
 VALUES (30012, 2,   115,  0, 4, 0.6, False) /* Create Leather Boots (115) for Wield */
      , (30012, 2,   124,  0, 9, 0.5, False) /* Create Jerkin (124) for Wield */
      , (30012, 2,   127,  0, 7, 0.67, False) /* Create Pants (127) for Wield */
+     , (30012, 2, 10696,  0, 8, 0.5, False) /* Create Apron (10696) for Wield */
      , (30012, 4,  2664, -1, 0, 0, False) /* Create Scroll of Enfeeble Other II (2664) for Shop */
      , (30012, 4,  2687, -1, 0, 0, False) /* Create Scroll of Harm Other II (2687) for Shop */
      , (30012, 4,  2692, -1, 0, 0, False) /* Create Scroll of Heal Other II (2692) for Shop */
@@ -225,7 +226,6 @@ VALUES (30012, 2,   115,  0, 4, 0.6, False) /* Create Leather Boots (115) for Wi
      , (30012, 4,  9650, -1, 0, 0, False) /* Create Scroll of Stamina to Health Self II (9650) for Shop */
      , (30012, 4,  9655, -1, 0, 0, False) /* Create Scroll of Stamina to Mana Self II (9655) for Shop */
      , (30012, 4,  9661, -1, 0, 0, False) /* Create Scroll of Drain Mana Other II (9661) for Shop */
-     , (30012, 2, 10696,  0, 8, 0.5, False) /* Create Apron (10696) for Wield */
      , (30012, 4, 15270, -1, 0, 0, False) /* Create Foci of Verdancy (15270) for Shop */
      , (30012, 4, 21096, -1, 0, 0, False) /* Create Scroll of Martyr's Hecatomb II (21096) for Shop */
      , (30012, 4, 21103, -1, 0, 0, False) /* Create Scroll of Martyr's Blight II (21103) for Shop */

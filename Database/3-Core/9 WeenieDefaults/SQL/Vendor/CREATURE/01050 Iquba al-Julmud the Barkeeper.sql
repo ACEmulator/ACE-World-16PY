@@ -175,6 +175,7 @@ VALUES (1050, 2,   115,  0, 9, 0.5, False) /* Create Leather Boots (115) for Wie
      , (1050, 2,   117,  0, 14, 0.8, False) /* Create Breeches (117) for Wield */
      , (1050, 2,   130,  0, 14, 0.8, False) /* Create Shirt (130) for Wield */
      , (1050, 2,   135,  0, 9, 0, False) /* Create Turban (135) for Wield */
+     , (1050, 2, 10696,  0, 4, 0.5, False) /* Create Apron (10696) for Wield */
      , (1050, 4,   261, -1, 0, 0, False) /* Create Cheese (261) for Shop */
      , (1050, 4,  1434, -1, 0, 0, False) /* Create A note from Iquba (1434) for Shop */
      , (1050, 4,  2455, -1, 0, 0, False) /* Create Grape Juice (2455) for Shop */
@@ -185,7 +186,6 @@ VALUES (1050, 2,   115,  0, 9, 0.5, False) /* Create Leather Boots (115) for Wie
      , (1050, 4,  4729, -1, 0, 0, False) /* Create Fried Egg (4729) for Shop */
      , (1050, 4,  4746, -1, 0, 0, False) /* Create Water (4746) for Shop */
      , (1050, 4,  8378, -1, 0, 0, False) /* Create Beer Stein (8378) for Shop */
-     , (1050, 2, 10696,  0, 4, 0.5, False) /* Create Apron (10696) for Wield */
      , (1050, 4, 11929, -1, 0, 0, False) /* Create A Call To Arms (11929) for Shop */
      , (1050, 4, 12146, -1, 0, 0, False) /* Create Simulacra Rumor (12146) for Shop */
      , (1050, 4, 15808, -1, 0, 0, False) /* Create Plea for Help (15808) for Shop */

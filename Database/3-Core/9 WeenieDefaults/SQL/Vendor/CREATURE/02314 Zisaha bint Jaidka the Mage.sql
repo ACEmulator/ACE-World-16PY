@@ -182,6 +182,7 @@ VALUES (2314, 2,   127,  0, 2, 0.5, False) /* Create Pants (127) for Wield */
      , (2314, 2,   133,  0, 17, 1, False) /* Create Slippers (133) for Wield */
      , (2314, 2,   134,  0, 9, 1, False) /* Create Tunic (134) for Wield */
      , (2314, 2,   135,  0, 9, 1, False) /* Create Turban (135) for Wield */
+     , (2314, 2, 10696,  0, 10, 0.5, False) /* Create Apron (10696) for Wield */
      , (2314, 4,   625, -1, 0, 0, False) /* Create Ginseng (625) for Shop */
      , (2314, 4,   626, -1, 0, 0, False) /* Create Powdered Hematite (626) for Shop */
      , (2314, 4,   627, -1, 0, 0, False) /* Create Alder Talisman (627) for Shop */
@@ -368,7 +369,6 @@ VALUES (2314, 2,   127,  0, 2, 0.5, False) /* Create Pants (127) for Wield */
      , (2314, 4,  9060, -1, 0, 0, False) /* Create Titan Mana Charge (9060) for Shop */
      , (2314, 4,  9342, -1, 0, 0, False) /* Create Concentrated Aqua Incanta (9342) for Shop */
      , (2314, 4,  9379, -1, 0, 0, False) /* Create Eye Dropper (9379) for Shop */
-     , (2314, 2, 10696,  0, 10, 0.5, False) /* Create Apron (10696) for Wield */
      , (2314, 4, 20179, -1, 0, 0, False) /* Create Superb Mana Charge (20179) for Shop */
      , (2314, 4, 20628, -1, 0, 0, False) /* Create Trade Note (150,000) (20628) for Shop */
      , (2314, 4, 20629, -1, 0, 0, False) /* Create Trade Note (200,000) (20629) for Shop */

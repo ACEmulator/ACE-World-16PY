@@ -174,18 +174,18 @@ INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `w
 VALUES (4683, 2,   133,  0, 9, 1, False) /* Create Slippers (133) for Wield */
      , (4683, 2,   134,  0, 9, 1, False) /* Create Tunic (134) for Wield */
      , (4683, 2,   135,  0, 7, 0.33, False) /* Create Turban (135) for Wield */
+     , (4683, 2,  2603,  0, 18, 1, False) /* Create Breeches (2603) for Wield */
+     , (4683, 2, 10696,  0, 9, 0.5, False) /* Create Apron (10696) for Wield */
      , (4683, 4,   294, -1, 0, 0, False) /* Create Amulet (294) for Shop */
      , (4683, 4,   297, -1, 0, 0, False) /* Create Ring (297) for Shop */
      , (4683, 4,   513, -1, 0, 0, False) /* Create Plain Lockpick (513) for Shop */
      , (4683, 4,   545, -1, 0, 0, False) /* Create Reliable Lockpick (545) for Shop */
      , (4683, 4,  2414, -1, 0, 0, False) /* Create Azurite (2414) for Shop */
      , (4683, 4,  2420, -1, 0, 0, False) /* Create White Quartz (2420) for Shop */
-     , (4683, 2,  2603,  0, 18, 1, False) /* Create Breeches (2603) for Wield */
      , (4683, 4,  2621, -1, 0, 0, False) /* Create Trade Note (100) (2621) for Shop */
      , (4683, 4,  2622, -1, 0, 0, False) /* Create Trade Note (500) (2622) for Shop */
      , (4683, 4,  2623, -1, 0, 0, False) /* Create Trade Note (1,000) (2623) for Shop */
      , (4683, 4,  9295, -1, 0, 0, False) /* Create Intricate Carving Tool (9295) for Shop */
-     , (4683, 2, 10696,  0, 9, 0.5, False) /* Create Apron (10696) for Wield */
      , (4683, 4, 20646, -1, 0, 0, False) /* Create Ust (20646) for Shop */
      , (4683, 4, 21093, -1, 0, 0, False) /* Create Tinkering (21093) for Shop */
      , (4683, 4, 23044, -1, 0, 0, False) /* Create On the Abilities of Salvaged Ivory (23044) for Shop */

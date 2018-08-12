@@ -206,15 +206,15 @@ VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 318767235 /* Nod */, NULL, NULL,
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (5638, 2,   115,  0, 4, 0.6, False) /* Create Leather Boots (115) for Wield */
      , (5638, 2,   117,  0, 9, 0.5, False) /* Create Breeches (117) for Wield */
+     , (5638, 2,  2588,  0, 9, 0.5, False) /* Create Shirt (2588) for Wield */
+     , (5638, 2, 10696,  0, 9, 1, False) /* Create Apron (10696) for Wield */
      , (5638, 4,   378, -1, 0, 0, False) /* Create Stamina Potion (378) for Shop */
      , (5638, 4,   629, -1, 0, 0, False) /* Create Adept Healing Kit (629) for Shop */
      , (5638, 4,  2457, -1, 0, 0, False) /* Create Health Draught (2457) for Shop */
      , (5638, 4,  2460, -1, 0, 0, False) /* Create Mana Draught (2460) for Shop */
-     , (5638, 2,  2588,  0, 9, 0.5, False) /* Create Shirt (2588) for Wield */
      , (5638, 4,  2621, -1, 0, 0, False) /* Create Trade Note (100) (2621) for Shop */
      , (5638, 4,  2622, -1, 0, 0, False) /* Create Trade Note (500) (2622) for Shop */
      , (5638, 4,  4450, -1, 0, 0, False) /* Create Heal Other I (4450) for Shop */
      , (5638, 4,  4589, -1, 0, 0, False) /* Create Revitalize Other I (4589) for Shop */
      , (5638, 4,  4592, -1, 0, 0, False) /* Create Mana Boost Other I (4592) for Shop */
-     , (5638, 4,  4606, -1, 0, 0, False) /* Create Quickness Other I (4606) for Shop */
-     , (5638, 2, 10696,  0, 9, 1, False) /* Create Apron (10696) for Wield */;
+     , (5638, 4,  4606, -1, 0, 0, False) /* Create Quickness Other I (4606) for Shop */;

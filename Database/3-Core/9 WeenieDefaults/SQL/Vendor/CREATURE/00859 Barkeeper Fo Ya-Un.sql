@@ -174,6 +174,7 @@ INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `w
 VALUES (859, 2,   115,  0, 4, 0.8, False) /* Create Leather Boots (115) for Wield */
      , (859, 2,   117,  0, 14, 0.8, False) /* Create Breeches (117) for Wield */
      , (859, 2,   134,  0, 17, 1, False) /* Create Tunic (134) for Wield */
+     , (859, 2, 10696,  0, 18, 0.5, False) /* Create Apron (10696) for Wield */
      , (859, 4,  2451, -1, 0, 0, False) /* Create Ale (2451) for Shop */
      , (859, 4,  2456, -1, 0, 0, False) /* Create Green Tea (2456) for Shop */
      , (859, 4,  2466, -1, 0, 0, False) /* Create Red Tea (2466) for Shop */
@@ -197,7 +198,6 @@ VALUES (859, 2,   115,  0, 4, 0.8, False) /* Create Leather Boots (115) for Wiel
      , (859, 4,  8135, -1, 0, 0, False) /* Create Zarea's Notes on Geomancy (8135) for Shop */
      , (859, 4,  8378, -1, 0, 0, False) /* Create Beer Stein (8378) for Shop */
      , (859, 4,  8397, -1, 0, 0, False) /* Create The Breaking of the Crystal Core (8397) for Shop */
-     , (859, 2, 10696,  0, 18, 0.5, False) /* Create Apron (10696) for Wield */
      , (859, 4, 11929, -1, 0, 0, False) /* Create A Call To Arms (11929) for Shop */
      , (859, 4, 13202, -1, 0, 0, False) /* Create Sho Festival Light (13202) for Shop */
      , (859, 4, 22730, -1, 0, 0, False) /* Create Holiday Pole (22730) for Shop */;

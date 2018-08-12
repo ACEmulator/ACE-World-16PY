@@ -167,6 +167,7 @@ VALUES (2221, 2,   115,  0, 18, 1, False) /* Create Leather Boots (115) for Wiel
      , (2221, 2,   118,  0, 4, 0.8, False) /* Create Cap (118) for Wield */
      , (2221, 2,   124,  0, 18, 1, False) /* Create Jerkin (124) for Wield */
      , (2221, 2,   127,  0, 18, 1, False) /* Create Pants (127) for Wield */
+     , (2221, 2, 10696,  0, 9, 0.5, False) /* Create Apron (10696) for Wield */
      , (2221, 4,  2452, -1, 0, 0, False) /* Create Apple Juice (2452) for Shop */
      , (2221, 4,  2455, -1, 0, 0, False) /* Create Grape Juice (2455) for Shop */
      , (2221, 4,  2465, -1, 0, 0, False) /* Create Palm Wine (2465) for Shop */
@@ -178,7 +179,6 @@ VALUES (2221, 2,   115,  0, 18, 1, False) /* Create Leather Boots (115) for Wiel
      , (2221, 4,  5090, -1, 0, 0, False) /* Create Bruised Apple (5090) for Shop */
      , (2221, 4,  5759, -1, 0, 0, False) /* Create Fruitcake (5759) for Shop */
      , (2221, 4,  8378, -1, 0, 0, False) /* Create Beer Stein (8378) for Shop */
-     , (2221, 2, 10696,  0, 9, 0.5, False) /* Create Apron (10696) for Wield */
      , (2221, 4, 11929, -1, 0, 0, False) /* Create A Call To Arms (11929) for Shop */
      , (2221, 4, 22765, -1, 0, 0, False) /* Create The Empyrean Temples (22765) for Shop */
      , (2221, 4, 26642, -1, 0, 0, False) /* Create Skeleton Raids (26642) for Shop */;

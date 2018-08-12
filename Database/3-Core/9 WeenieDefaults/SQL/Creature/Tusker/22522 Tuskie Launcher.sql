@@ -171,8 +171,8 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 268435538 /* Twitch2 */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (22522, 9,     0,  0, 0, 0.99, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 3 for ContainTreasure */
+VALUES (22522, 2, 22547,  0, 0, 0, False) /* Create Coconut (22547) for Wield */
+     , (22522, 9,     0,  0, 0, 0.99, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 3 for ContainTreasure */
      , (22522, 9,     0,  0, 0, 0.999, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 3 for ContainTreasure */
-     , (22522, 2, 22547,  0, 0, 0, False) /* Create Coconut (22547) for Wield */
      , (22522, 9, 22578,  0, 0, 0.01, False) /* Create Bunch of Nanners (22578) for ContainTreasure */
      , (22522, 9, 22728,  0, 0, 0.001, False) /* Create Coconut (22728) for ContainTreasure */;

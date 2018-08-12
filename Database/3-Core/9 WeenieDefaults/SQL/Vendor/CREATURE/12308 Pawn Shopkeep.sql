@@ -235,7 +235,11 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 318767235 /* Nod */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (12308, 4,    36, -1, 0, 0, False) /* Create Leather Bracers (36) for Shop */
+VALUES (12308, 2,   117,  0, 7, 0.33, False) /* Create Breeches (117) for Wield */
+     , (12308, 2,   130,  0, 8, 1, False) /* Create Shirt (130) for Wield */
+     , (12308, 2,  2606,  0, 7, 0.33, False) /* Create Boots (2606) for Wield */
+     , (12308, 2, 10696,  0, 18, 1, False) /* Create Apron (10696) for Wield */
+     , (12308, 4,    36, -1, 0, 0, False) /* Create Leather Bracers (36) for Shop */
      , (12308, 4,    39, -1, 0, 0, False) /* Create Leather Breastplate (39) for Shop */
      , (12308, 4,    44, -1, 0, 0, False) /* Create Buckler (44) for Shop */
      , (12308, 4,    45, -1, 0, 0, False) /* Create Leather Cap (45) for Shop */
@@ -246,8 +250,6 @@ VALUES (12308, 4,    36, -1, 0, 0, False) /* Create Leather Bracers (36) for Sho
      , (12308, 4,    86, -1, 0, 0, False) /* Create Leather Pauldrons (86) for Shop */
      , (12308, 4,   109, -1, 0, 0, False) /* Create Leather Tassets (109) for Shop */
      , (12308, 4,   115, -1, 0, 0, False) /* Create Leather Boots (115) for Shop */
-     , (12308, 2,   117,  0, 7, 0.33, False) /* Create Breeches (117) for Wield */
-     , (12308, 2,   130,  0, 8, 1, False) /* Create Shirt (130) for Wield */
      , (12308, 4,   136, -1, 17, 1, False) /* Create Pack (136) for Shop */
      , (12308, 4,   136, -1, 8, 1, False) /* Create Pack (136) for Shop */
      , (12308, 4,   151, -1, 0, 0, False) /* Create Empty Flask (151) for Shop */
@@ -281,7 +283,6 @@ VALUES (12308, 4,    36, -1, 0, 0, False) /* Create Leather Bracers (36) for Sho
      , (12308, 4,  2457, -1, 0, 0, False) /* Create Health Draught (2457) for Shop */
      , (12308, 4,  2460, -1, 0, 0, False) /* Create Mana Draught (2460) for Shop */
      , (12308, 4,  2470, -1, 0, 0, False) /* Create Stamina Elixir (2470) for Shop */
-     , (12308, 2,  2606,  0, 7, 0.33, False) /* Create Boots (2606) for Wield */
      , (12308, 4,  2621, -1, 0, 0, False) /* Create Trade Note (100) (2621) for Shop */
      , (12308, 4,  2622, -1, 0, 0, False) /* Create Trade Note (500) (2622) for Shop */
      , (12308, 4,  2623, -1, 0, 0, False) /* Create Trade Note (1,000) (2623) for Shop */
@@ -302,7 +303,6 @@ VALUES (12308, 4,    36, -1, 0, 0, False) /* Create Leather Bracers (36) for Sho
      , (12308, 4,  5339, -1, 0, 0, False) /* Create Bundle of Quarrelshafts (5339) for Shop */
      , (12308, 4,  5778, -1, 0, 0, False) /* Create Whittling Knife (5778) for Shop */
      , (12308, 4,  5778, -1, 0, 0, False) /* Create Whittling Knife (5778) for Shop */
-     , (12308, 2, 10696,  0, 18, 1, False) /* Create Apron (10696) for Wield */
      , (12308, 4, 20628, -1, 0, 0, False) /* Create Trade Note (150,000) (20628) for Shop */
      , (12308, 4, 20629, -1, 0, 0, False) /* Create Trade Note (200,000) (20629) for Shop */
      , (12308, 4, 20630, -1, 0, 0, False) /* Create Trade Note (250,000) (20630) for Shop */

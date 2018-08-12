@@ -206,7 +206,8 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,  10 /* Tell */, 0, 1, NULL, 'Feel the weight on that. A fine purchase.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (24596, 4,    40, -1, 0, 0, False) /* Create Platemail Breastplate (40) for Shop */
+VALUES (24596, 2, 23757,  0, 0, 0, False) /* Create Lugian Mace (23757) for Wield */
+     , (24596, 4,    40, -1, 0, 0, False) /* Create Platemail Breastplate (40) for Shop */
      , (24596, 4,    57, -1, 0, 0, False) /* Create Platemail Gauntlets (57) for Shop */
      , (24596, 4,    61, -1, 0, 0, False) /* Create Platemail Girth (61) for Shop */
      , (24596, 4,    66, -1, 0, 0, False) /* Create Platemail Greaves (66) for Shop */
@@ -267,6 +268,5 @@ VALUES (24596, 4,    40, -1, 0, 0, False) /* Create Platemail Breastplate (40) f
      , (24596, 4, 20628, -1, 0, 0, False) /* Create Trade Note (150,000) (20628) for Shop */
      , (24596, 4, 20629, -1, 0, 0, False) /* Create Trade Note (200,000) (20629) for Shop */
      , (24596, 4, 20630, -1, 0, 0, False) /* Create Trade Note (250,000) (20630) for Shop */
-     , (24596, 2, 23757,  0, 0, 0, False) /* Create Lugian Mace (23757) for Wield */
      , (24596, 4, 23857, -1, 0, 0, False) /* Create Bundle of Spiketails (23857) for Shop */
      , (24596, 4, 23858, -1, 0, 0, False) /* Create Bundle of Wrapped Spiketails (23858) for Shop */;

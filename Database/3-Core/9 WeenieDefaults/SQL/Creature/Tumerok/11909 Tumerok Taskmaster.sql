@@ -188,5 +188,5 @@ VALUES (11909,  94) /* ATTACK_NOTIFICATION_EVENT */
      , (11909, 414) /* PLAYER_DEATH_EVENT */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (11909, 9,     0,  0, 0, 0.4, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 3 for ContainTreasure */
-     , (11909, 1,  3695,  0, 0, 0.6, False) /* Create Gold Tumerok Insignia (3695) for Contain */;
+VALUES (11909, 1,  3695,  0, 0, 0.6, False) /* Create Gold Tumerok Insignia (3695) for Contain */
+     , (11909, 9,     0,  0, 0, 0.4, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 3 for ContainTreasure */;

@@ -196,14 +196,14 @@ VALUES (@parent_id,  0,  10 /* Tell */, 1, 1, NULL, 'A fine choice. I have recen
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (14411, 2,   115,  0, 13, 0.5, False) /* Create Leather Boots (115) for Wield */
-     , (14411, 4,   263, -1, 0, 0, False) /* Create Fish (263) for Shop */
-     , (14411, 4,   264, -1, 0, 0, False) /* Create Grapes (264) for Shop */
      , (14411, 2,  2596,  0, 14, 1, False) /* Create Doublet (2596) for Wield */
      , (14411, 2,  2602,  0, 13, 0.5, False) /* Create Breeches (2602) for Wield */
+     , (14411, 2, 10696,  0, 1, 0.6, False) /* Create Apron (10696) for Wield */
+     , (14411, 4,   263, -1, 0, 0, False) /* Create Fish (263) for Shop */
+     , (14411, 4,   264, -1, 0, 0, False) /* Create Grapes (264) for Shop */
      , (14411, 4,  4753, -1, 0, 0, False) /* Create Side of Beef (4753) for Shop */
      , (14411, 4,  4757, -1, 0, 0, False) /* Create Carving Knife (4757) for Shop */
      , (14411, 4,  4761, -1, 0, 0, False) /* Create Flour (4761) for Shop */
      , (14411, 4,  4763, -1, 0, 0, False) /* Create Honey (4763) for Shop */
      , (14411, 4,  4764, -1, 0, 0, False) /* Create Noodle Cutter (4764) for Shop */
-     , (14411, 4,  5758, -1, 0, 0, False) /* Create Carrot (5758) for Shop */
-     , (14411, 2, 10696,  0, 1, 0.6, False) /* Create Apron (10696) for Wield */;
+     , (14411, 4,  5758, -1, 0, 0, False) /* Create Carrot (5758) for Shop */;

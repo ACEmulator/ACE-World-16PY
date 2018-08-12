@@ -167,6 +167,7 @@ VALUES (2255, 2,   115,  0, 16, 1, False) /* Create Leather Boots (115) for Wiel
      , (2255, 2,   117,  0, 9, 1, False) /* Create Breeches (117) for Wield */
      , (2255, 2,   118,  0, 18, 1, False) /* Create Cap (118) for Wield */
      , (2255, 2,   134,  0, 9, 0, False) /* Create Tunic (134) for Wield */
+     , (2255, 2, 10696,  0, 18, 1, False) /* Create Apron (10696) for Wield */
      , (2255, 4,   260, -1, 0, 0, False) /* Create Cabbage (260) for Shop */
      , (2255, 4,   262, -1, 0, 0, False) /* Create Chicken (262) for Shop */
      , (2255, 4,   512, -1, 0, 0, False) /* Create Good Lockpick (512) for Shop */
@@ -177,5 +178,4 @@ VALUES (2255, 2,   115,  0, 16, 1, False) /* Create Leather Boots (115) for Wiel
      , (2255, 4,  4762, -1, 0, 0, False) /* Create Frying Pan (4762) for Shop */
      , (2255, 4,  4767, -1, 0, 0, False) /* Create Skewer (4767) for Shop */
      , (2255, 4,  4768, -1, 0, 0, False) /* Create Uncooked Rice (4768) for Shop */
-     , (2255, 4,  5758, -1, 0, 0, False) /* Create Carrot (5758) for Shop */
-     , (2255, 2, 10696,  0, 18, 1, False) /* Create Apron (10696) for Wield */;
+     , (2255, 4,  5758, -1, 0, 0, False) /* Create Carrot (5758) for Shop */;

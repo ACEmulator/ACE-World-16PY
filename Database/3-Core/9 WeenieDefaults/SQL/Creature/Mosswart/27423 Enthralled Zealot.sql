@@ -193,6 +193,6 @@ INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `w
 VALUES (27423, 9,     0,  0, 0, 0.995, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 5 for ContainTreasure */
      , (27423, 9,     0,  0, 0, 0.95, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 5 for ContainTreasure */
      , (27423, 9,  8146,  0, 0, 0.05, False) /* Create Mosswart Head (8146) for ContainTreasure */
+     , (27423, 9, 27391,  0, 0, 0.005, False) /* Create Lair of The Homunculus (27391) for ContainTreasure */
      , (27423, 10, 23688,  0, 0, 0.4, False) /* Create Acid Spear (23688) for WieldTreasure */
-     , (27423, 10, 23692,  0, 0, 0.4, False) /* Create Frost Spear (23692) for WieldTreasure */
-     , (27423, 9, 27391,  0, 0, 0.005, False) /* Create Lair of The Homunculus (27391) for ContainTreasure */;
+     , (27423, 10, 23692,  0, 0, 0.4, False) /* Create Frost Spear (23692) for WieldTreasure */;

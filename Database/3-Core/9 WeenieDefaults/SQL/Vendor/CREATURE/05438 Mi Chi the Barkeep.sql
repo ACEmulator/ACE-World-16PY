@@ -166,6 +166,7 @@ INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `w
 VALUES (5438, 2,   115,  0, 9, 1, False) /* Create Leather Boots (115) for Wield */
      , (5438, 2,   117,  0, 5, 0, False) /* Create Breeches (117) for Wield */
      , (5438, 2,   134,  0, 5, 0, False) /* Create Tunic (134) for Wield */
+     , (5438, 2, 10696,  0, 18, 1, False) /* Create Apron (10696) for Wield */
      , (5438, 4,   263, -1, 0, 0, False) /* Create Fish (263) for Shop */
      , (5438, 4,   264, -1, 0, 0, False) /* Create Grapes (264) for Shop */
      , (5438, 4,  2451, -1, 0, 0, False) /* Create Ale (2451) for Shop */
@@ -179,7 +180,6 @@ VALUES (5438, 2,   115,  0, 9, 1, False) /* Create Leather Boots (115) for Wield
      , (5438, 4,  5535, -1, 0, 0, False) /* Create Mountain Sewer Directions (5535) for Shop */
      , (5438, 4,  5537, -1, 0, 0, False) /* Create Smugglers' Fort Directions (5537) for Shop */
      , (5438, 4,  8378, -1, 0, 0, False) /* Create Beer Stein (8378) for Shop */
-     , (5438, 2, 10696,  0, 18, 1, False) /* Create Apron (10696) for Wield */
      , (5438, 4, 11929, -1, 0, 0, False) /* Create A Call To Arms (11929) for Shop */
      , (5438, 4, 15808, -1, 0, 0, False) /* Create Plea for Help (15808) for Shop */
      , (5438, 4, 20229, -1, 0, 0, False) /* Create Rumor of an Artifact (20229) for Shop */

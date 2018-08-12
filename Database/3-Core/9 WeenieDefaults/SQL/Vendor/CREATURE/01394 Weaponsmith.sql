@@ -166,6 +166,7 @@ VALUES (1394, 2,   127,  0, 1, 0.67, False) /* Create Pants (127) for Wield */
      , (1394, 2,   132,  0, 4, 0.6, False) /* Create Shoes (132) for Wield */
      , (1394, 2,   134,  0, 8, 0.67, False) /* Create Tunic (134) for Wield */
      , (1394, 2,   304,  0, 0, 0, False) /* Create Throwing Axe (304) for Wield */
+     , (1394, 2, 10696,  0, 9, 0.5, False) /* Create Apron (10696) for Wield */
      , (1394, 4,   308, -1, 0, 0, False) /* Create Budiaq (308) for Shop */
      , (1394, 4,   313, -1, 0, 0, False) /* Create Dabus (313) for Shop */
      , (1394, 4,   317, -1, 0, 0, False) /* Create Djarid (317) for Shop */
@@ -179,5 +180,4 @@ VALUES (1394, 2,   127,  0, 1, 0.67, False) /* Create Pants (127) for Wield */
      , (1394, 4,  2621, -1, 0, 0, False) /* Create Trade Note (100) (2621) for Shop */
      , (1394, 4,  2622, -1, 0, 0, False) /* Create Trade Note (500) (2622) for Shop */
      , (1394, 4,  2623, -1, 0, 0, False) /* Create Trade Note (1,000) (2623) for Shop */
-     , (1394, 2, 10696,  0, 9, 0.5, False) /* Create Apron (10696) for Wield */
      , (1394, 4, 22163, -1, 0, 0, False) /* Create Nabut (22163) for Shop */;

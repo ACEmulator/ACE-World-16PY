@@ -166,6 +166,7 @@ INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `w
 VALUES (11388, 2,   117,  0, 14, 0.8, False) /* Create Breeches (117) for Wield */
      , (11388, 2,   132,  0, 9, 1, False) /* Create Shoes (132) for Wield */
      , (11388, 2,   134,  0, 17, 0.8, False) /* Create Tunic (134) for Wield */
+     , (11388, 2, 10696,  0, 12, 1, False) /* Create Apron (10696) for Wield */
      , (11388, 4,   136, -1, 2, 1, False) /* Create Pack (136) for Shop */
      , (11388, 4,   263, -1, 0, 0, False) /* Create Fish (263) for Shop */
      , (11388, 4,   364, -1, 0, 0, False) /* Create Book (364) for Shop */
@@ -188,7 +189,6 @@ VALUES (11388, 2,   117,  0, 14, 0.8, False) /* Create Breeches (117) for Wield 
      , (11388, 4,  4768, -1, 0, 0, False) /* Create Uncooked Rice (4768) for Shop */
      , (11388, 4,  5758, -1, 0, 0, False) /* Create Carrot (5758) for Shop */
      , (11388, 4,  7823, -1, 0, 0, False) /* Create Heavy Grinder (7823) for Shop */
-     , (11388, 2, 10696,  0, 12, 1, False) /* Create Apron (10696) for Wield */
      , (11388, 4, 23326, -1, 0, 0, False) /* Create Elaborate Dried Rations (23326) for Shop */
      , (11388, 4, 23327, -1, 0, 0, False) /* Create Simple Dried Rations (23327) for Shop */
      , (11388, 4, 27326, -1, 0, 0, False) /* Create Stamina Tincture (27326) for Shop */;

@@ -134,6 +134,7 @@ INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `w
 VALUES (11384, 2,   115,  0, 4, 0.8, False) /* Create Leather Boots (115) for Wield */
      , (11384, 2,   127,  0, 13, 0.5, False) /* Create Pants (127) for Wield */
      , (11384, 2,   134,  0, 14, 0.8, False) /* Create Tunic (134) for Wield */
+     , (11384, 2, 10696,  0, 16, 1, False) /* Create Apron (10696) for Wield */
      , (11384, 4,  2451, -1, 0, 0, False) /* Create Ale (2451) for Shop */
      , (11384, 4,  2456, -1, 0, 0, False) /* Create Green Tea (2456) for Shop */
      , (11384, 4,  2466, -1, 0, 0, False) /* Create Red Tea (2466) for Shop */
@@ -145,7 +146,6 @@ VALUES (11384, 2,   115,  0, 4, 0.8, False) /* Create Leather Boots (115) for Wi
      , (11384, 4,  4744, -1, 0, 0, False) /* Create Sushi (4744) for Shop */
      , (11384, 4,  4746, -1, 0, 0, False) /* Create Water (4746) for Shop */
      , (11384, 4,  8378, -1, 0, 0, False) /* Create Beer Stein (8378) for Shop */
-     , (11384, 2, 10696,  0, 16, 1, False) /* Create Apron (10696) for Wield */
      , (11384, 4, 27610, -1, 0, 0, False) /* Create Traveler's Alert (27610) for Shop */
      , (11384, 4, 27611, -1, 0, 0, False) /* Create Burning Terror (27611) for Shop */
      , (11384, 4, 27612, -1, 0, 0, False) /* Create Tumeroks on the Island (27612) for Shop */

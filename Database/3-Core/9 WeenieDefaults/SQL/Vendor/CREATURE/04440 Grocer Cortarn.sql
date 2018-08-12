@@ -174,11 +174,11 @@ INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `w
 VALUES (4440, 2,   115,  0, 4, 0.5, False) /* Create Leather Boots (115) for Wield */
      , (4440, 2,   117,  0, 18, 1, False) /* Create Breeches (117) for Wield */
      , (4440, 2,   124,  0, 4, 0.5, False) /* Create Jerkin (124) for Wield */
+     , (4440, 2, 10696,  0, 18, 1, False) /* Create Apron (10696) for Wield */
      , (4440, 4,   166, -1, 9, 1, False) /* Create Sack (166) for Shop */
      , (4440, 4,   258, -1, 0, 0, False) /* Create Apple (258) for Shop */
      , (4440, 4,   546, -1, 0, 0, False) /* Create Egg (546) for Shop */
      , (4440, 4,  2463, -1, 0, 0, False) /* Create Milk (2463) for Shop */
      , (4440, 4,  4746, -1, 0, 0, False) /* Create Water (4746) for Shop */
      , (4440, 4,  4755, -1, 0, 0, False) /* Create Brine (4755) for Shop */
-     , (4440, 4,  4762, -1, 0, 0, False) /* Create Frying Pan (4762) for Shop */
-     , (4440, 2, 10696,  0, 18, 1, False) /* Create Apron (10696) for Wield */;
+     , (4440, 4,  4762, -1, 0, 0, False) /* Create Frying Pan (4762) for Shop */;

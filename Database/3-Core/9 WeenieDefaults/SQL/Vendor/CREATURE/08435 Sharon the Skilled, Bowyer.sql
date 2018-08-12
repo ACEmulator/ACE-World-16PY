@@ -175,9 +175,10 @@ VALUES (8435, 2,   115,  0, 14, 0.6, False) /* Create Leather Boots (115) for Wi
      , (8435, 2,   119,  0, 14, 0, False) /* Create Cowl (119) for Wield */
      , (8435, 2,   127,  0, 4, 0.6, False) /* Create Pants (127) for Wield */
      , (8435, 2,   130,  0, 8, 0.5, False) /* Create Shirt (130) for Wield */
+     , (8435, 2,   306,  0, 0, 0, False) /* Create Longbow (306) for Wield */
+     , (8435, 2, 10696,  0, 9, 0.5, False) /* Create Apron (10696) for Wield */
      , (8435, 4,   300, -1, 0, 0, False) /* Create Arrow (300) for Shop */
      , (8435, 4,   305, -1, 0, 0, False) /* Create Quarrel (305) for Shop */
-     , (8435, 2,   306,  0, 0, 0, False) /* Create Longbow (306) for Wield */
      , (8435, 4,   306, -1, 0, 0, False) /* Create Longbow (306) for Shop */
      , (8435, 4,   311, -1, 0, 0, False) /* Create Heavy Crossbow (311) for Shop */
      , (8435, 4,  2621, -1, 0, 0, False) /* Create Trade Note (100) (2621) for Shop */
@@ -203,7 +204,6 @@ VALUES (8435, 2,   115,  0, 14, 0.6, False) /* Create Leather Boots (115) for Wi
      , (8435, 4,  9366, -1, 0, 0, False) /* Create Wrapped Bundle of Frog Crotch Arrowheads (9366) for Shop */
      , (8435, 4,  9377, -1, 0, 0, False) /* Create Wrapped Bundle of Arrowshafts (9377) for Shop */
      , (8435, 4,  9378, -1, 0, 0, False) /* Create Wrapped Bundle of Quarrelshafts (9378) for Shop */
-     , (8435, 2, 10696,  0, 9, 0.5, False) /* Create Apron (10696) for Wield */
      , (8435, 4, 12463, -1, 0, 0, False) /* Create Atlatl (12463) for Shop */
      , (8435, 4, 12464, -1, 0, 0, False) /* Create Atlatl Dart (12464) for Shop */
      , (8435, 4, 15296, -1, 0, 0, False) /* Create Bundle of Atlatl Dart Shafts (15296) for Shop */

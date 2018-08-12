@@ -230,8 +230,8 @@ VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 318767248 /* YawnStretch */, NUL
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (2049, 2,   132,  0, 4, 0.8, False) /* Create Shoes (132) for Wield */
-     , (2049, 4,  2244, -1, 0, 0, False) /* Create Dryreach Key (2244) for Shop */
-     , (2049, 4,  2245, -1, 0, 0, False) /* Create Dryreach Rumor (2245) for Shop */
      , (2049, 2,  2588,  0, 9, 1, False) /* Create Shirt (2588) for Wield */
      , (2049, 2,  2600,  0, 4, 0.6, False) /* Create Pantaloons (2600) for Wield */
-     , (2049, 2, 10696,  0, 5, 0.8, False) /* Create Apron (10696) for Wield */;
+     , (2049, 2, 10696,  0, 5, 0.8, False) /* Create Apron (10696) for Wield */
+     , (2049, 4,  2244, -1, 0, 0, False) /* Create Dryreach Key (2244) for Shop */
+     , (2049, 4,  2245, -1, 0, 0, False) /* Create Dryreach Rumor (2245) for Shop */;

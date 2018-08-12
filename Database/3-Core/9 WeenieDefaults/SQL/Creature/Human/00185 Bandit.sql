@@ -433,8 +433,8 @@ VALUES (185,  94) /* ATTACK_NOTIFICATION_EVENT */
      , (185, 414) /* PLAYER_DEATH_EVENT */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (185, 8,    44,  0, 0, 0, False) /* Create Buckler (44) for Treasure */
-     , (185, 8,   273, 20, 0, 0.5, False) /* Create Pyreal (273) for Treasure */
-     , (185, 2,   300, 30, 0, 1, False) /* Create Arrow (300) for Wield */
+VALUES (185, 2,   300, 30, 0, 1, False) /* Create Arrow (300) for Wield */
      , (185, 2,   306,  0, 0, 1, False) /* Create Longbow (306) for Wield */
+     , (185, 8,    44,  0, 0, 0, False) /* Create Buckler (44) for Treasure */
+     , (185, 8,   273, 20, 0, 0.5, False) /* Create Pyreal (273) for Treasure */
      , (185, 8,   329,  0, 0, 0, False) /* Create Knife (329) for Treasure */;

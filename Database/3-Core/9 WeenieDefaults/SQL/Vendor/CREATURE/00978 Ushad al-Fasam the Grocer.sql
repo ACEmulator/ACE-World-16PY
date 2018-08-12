@@ -167,6 +167,7 @@ VALUES (978, 2,   115,  0, 9, 0, False) /* Create Leather Boots (115) for Wield 
      , (978, 2,   117,  0, 9, 0, False) /* Create Breeches (117) for Wield */
      , (978, 2,   124,  0, 1, 0.67, False) /* Create Jerkin (124) for Wield */
      , (978, 2,   128,  0, 10, 1, False) /* Create Qafiya (128) for Wield */
+     , (978, 2, 10696,  0, 18, 1, False) /* Create Apron (10696) for Wield */
      , (978, 4,   136, -1, 39, 1, False) /* Create Pack (136) for Shop */
      , (978, 4,   139, -1, 93, 1, False) /* Create Small Belt Pouch (139) for Shop */
      , (978, 4,   259, -1, 0, 0, False) /* Create Bread (259) for Shop */
@@ -174,5 +175,4 @@ VALUES (978, 2,   115,  0, 9, 0, False) /* Create Leather Boots (115) for Wield 
      , (978, 4,  4746, -1, 0, 0, False) /* Create Water (4746) for Shop */
      , (978, 4,  4754, -1, 0, 0, False) /* Create Baking Pan (4754) for Shop */
      , (978, 4,  4761, -1, 0, 0, False) /* Create Flour (4761) for Shop */
-     , (978, 4,  5758, -1, 0, 0, False) /* Create Carrot (5758) for Shop */
-     , (978, 2, 10696,  0, 18, 1, False) /* Create Apron (10696) for Wield */;
+     , (978, 4,  5758, -1, 0, 0, False) /* Create Carrot (5758) for Shop */;

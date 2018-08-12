@@ -167,6 +167,7 @@ VALUES (1051, 2,   124,  0, 9, 0.5, False) /* Create Jerkin (124) for Wield */
      , (1051, 2,   127,  0, 9, 0.5, False) /* Create Pants (127) for Wield */
      , (1051, 2,   128,  0, 16, 1, False) /* Create Qafiya (128) for Wield */
      , (1051, 2,   133,  0, 14, 0.8, False) /* Create Slippers (133) for Wield */
+     , (1051, 2, 10696,  0, 9, 0.5, False) /* Create Apron (10696) for Wield */
      , (1051, 4,   258, -1, 0, 0, False) /* Create Apple (258) for Shop */
      , (1051, 4,   259, -1, 0, 0, False) /* Create Bread (259) for Shop */
      , (1051, 4,   260, -1, 0, 0, False) /* Create Cabbage (260) for Shop */
@@ -185,5 +186,4 @@ VALUES (1051, 2,   124,  0, 9, 0.5, False) /* Create Jerkin (124) for Wield */
      , (1051, 4,  2462, -1, 0, 0, False) /* Create Mead (2462) for Shop */
      , (1051, 4,  2464, -1, 0, 0, False) /* Create Orange Juice (2464) for Shop */
      , (1051, 4,  2469, -1, 0, 0, False) /* Create Small Beer (2469) for Shop */
-     , (1051, 4,  2471, -1, 0, 0, False) /* Create Stout (2471) for Shop */
-     , (1051, 2, 10696,  0, 9, 0.5, False) /* Create Apron (10696) for Wield */;
+     , (1051, 4,  2471, -1, 0, 0, False) /* Create Stout (2471) for Shop */;

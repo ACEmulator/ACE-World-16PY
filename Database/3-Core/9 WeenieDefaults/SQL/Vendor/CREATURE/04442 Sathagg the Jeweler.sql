@@ -165,11 +165,12 @@ VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 318767235 /* Nod */, NULL, NULL,
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (4442, 2,   127,  0, 6, 0, False) /* Create Pants (127) for Wield */
      , (4442, 2,   130,  0, 5, 0.67, False) /* Create Shirt (130) for Wield */
+     , (4442, 2,  2606,  0, 2, 1, False) /* Create Boots (2606) for Wield */
+     , (4442, 2, 10696,  0, 9, 0.5, False) /* Create Apron (10696) for Wield */
      , (4442, 4,   297, -1, 0, 0, False) /* Create Ring (297) for Shop */
      , (4442, 4,   622, -1, 0, 0, False) /* Create Necklace (622) for Shop */
      , (4442, 4,  2414, -1, 0, 0, False) /* Create Azurite (2414) for Shop */
      , (4442, 4,  2427, -1, 0, 0, False) /* Create Bloodstone (2427) for Shop */
-     , (4442, 2,  2606,  0, 2, 1, False) /* Create Boots (2606) for Wield */
      , (4442, 4,  2621, -1, 0, 0, False) /* Create Trade Note (100) (2621) for Shop */
      , (4442, 4,  2622, -1, 0, 0, False) /* Create Trade Note (500) (2622) for Shop */
      , (4442, 4,  2623, -1, 0, 0, False) /* Create Trade Note (1,000) (2623) for Shop */
@@ -177,7 +178,6 @@ VALUES (4442, 2,   127,  0, 6, 0, False) /* Create Pants (127) for Wield */
      , (4442, 4,  2625, -1, 0, 0, False) /* Create Trade Note (10,000) (2625) for Shop */
      , (4442, 4,  2626, -1, 0, 0, False) /* Create Trade Note (50,000) (2626) for Shop */
      , (4442, 4,  2627, -1, 0, 0, False) /* Create Trade Note (100,000) (2627) for Shop */
-     , (4442, 2, 10696,  0, 9, 0.5, False) /* Create Apron (10696) for Wield */
      , (4442, 4, 20628, -1, 0, 0, False) /* Create Trade Note (150,000) (20628) for Shop */
      , (4442, 4, 20629, -1, 0, 0, False) /* Create Trade Note (200,000) (20629) for Shop */
      , (4442, 4, 20630, -1, 0, 0, False) /* Create Trade Note (250,000) (20630) for Shop */;

@@ -138,7 +138,8 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,  10 /* Tell */, 0, 1, NULL, 'Ooo oo ah.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (22721, 4,   136, -1, 9, 1, False) /* Create Pack (136) for Shop */
+VALUES (22721, 2, 10757,  0, 2, 1, False) /* Create Towel (10757) for Wield */
+     , (22721, 4,   136, -1, 9, 1, False) /* Create Pack (136) for Shop */
      , (22721, 4,   139, -1, 90, 0, False) /* Create Small Belt Pouch (139) for Shop */
      , (22721, 4,   625, -1, 0, 0, False) /* Create Ginseng (625) for Shop */
      , (22721, 4,   626, -1, 0, 0, False) /* Create Powdered Hematite (626) for Shop */
@@ -236,7 +237,6 @@ VALUES (22721, 4,   136, -1, 9, 1, False) /* Create Pack (136) for Shop */
      , (22721, 4,  8180, -1, 0, 0, False) /* Create Evaporate All Magic Other (8180) for Shop */
      , (22721, 4,  8181, -1, 0, 0, False) /* Create Extinguish All Magic Other (8181) for Shop */
      , (22721, 4,  8182, -1, 0, 0, False) /* Create Cleanse All Magic Other (8182) for Shop */
-     , (22721, 2, 10757,  0, 2, 1, False) /* Create Towel (10757) for Wield */
      , (22721, 4, 20628, -1, 0, 0, False) /* Create Trade Note (150,000) (20628) for Shop */
      , (22721, 4, 20629, -1, 0, 0, False) /* Create Trade Note (200,000) (20629) for Shop */
      , (22721, 4, 20630, -1, 0, 0, False) /* Create Trade Note (250,000) (20630) for Shop */

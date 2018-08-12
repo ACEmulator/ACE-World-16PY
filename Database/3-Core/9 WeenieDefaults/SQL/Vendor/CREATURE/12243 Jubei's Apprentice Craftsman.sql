@@ -180,6 +180,9 @@ VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 318767235 /* Nod */, NULL, NULL,
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (12243, 2,   132,  0, 13, 0.5, False) /* Create Shoes (132) for Wield */
+     , (12243, 2,  2587,  0, 9, 1, False) /* Create Shirt (2587) for Wield */
+     , (12243, 2,  2602,  0, 9, 1, False) /* Create Breeches (2602) for Wield */
+     , (12243, 2, 10696,  0, 18, 1, False) /* Create Apron (10696) for Wield */
      , (12243, 4,   240, -1, 0, 0, False) /* Create Candelabra (240) for Shop */
      , (12243, 4,   241, -1, 0, 0, False) /* Create Chandelier (241) for Shop */
      , (12243, 4,   246, -1, 0, 0, False) /* Create Hearth (246) for Shop */
@@ -195,9 +198,6 @@ VALUES (12243, 2,   132,  0, 13, 0.5, False) /* Create Shoes (132) for Wield */
      , (12243, 4,   274, -1, 0, 0, False) /* Create Couch (274) for Shop */
      , (12243, 4,   276, -1, 0, 0, False) /* Create Desk (276) for Shop */
      , (12243, 4,   293, -1, 0, 0, False) /* Create Torch (293) for Shop */
-     , (12243, 2,  2587,  0, 9, 1, False) /* Create Shirt (2587) for Wield */
-     , (12243, 2,  2602,  0, 9, 1, False) /* Create Breeches (2602) for Wield */
-     , (12243, 2, 10696,  0, 18, 1, False) /* Create Apron (10696) for Wield */
      , (12243, 4, 13197, -1, 0, 0, False) /* Create Bed (13197) for Shop */
      , (12243, 4, 13203, -1, 0, 0, False) /* Create Screen (13203) for Shop */
      , (12243, 4, 15716, -1, 0, 0, False) /* Create Crystal Vase (15716) for Shop */

@@ -176,6 +176,7 @@ VALUES (979, 2,   115,  0, 9, 0, False) /* Create Leather Boots (115) for Wield 
      , (979, 2,   124,  0, 9, 0, False) /* Create Jerkin (124) for Wield */
      , (979, 2,   127,  0, 1, 0.67, False) /* Create Pants (127) for Wield */
      , (979, 2,   128,  0, 1, 0.67, False) /* Create Qafiya (128) for Wield */
+     , (979, 2, 10696,  0, 9, 0.5, False) /* Create Apron (10696) for Wield */
      , (979, 4,   377, -1, 0, 0, False) /* Create Potion of Healing (377) for Shop */
      , (979, 4,   378, -1, 0, 0, False) /* Create Stamina Potion (378) for Shop */
      , (979, 4,   379, -1, 0, 0, False) /* Create Mana Potion (379) for Shop */
@@ -188,5 +189,4 @@ VALUES (979, 2,   115,  0, 9, 0, False) /* Create Leather Boots (115) for Wield 
      , (979, 4,  4450, -1, 0, 0, False) /* Create Heal Other I (4450) for Shop */
      , (979, 4,  4597, -1, 0, 0, False) /* Create Rejuvenation Other I (4597) for Shop */
      , (979, 4,  4610, -1, 0, 0, False) /* Create Willpower Other I (4610) for Shop */
-     , (979, 2, 10696,  0, 9, 0.5, False) /* Create Apron (10696) for Wield */
      , (979, 4, 27326, -1, 0, 0, False) /* Create Stamina Tincture (27326) for Shop */;

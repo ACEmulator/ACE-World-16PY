@@ -163,16 +163,20 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 318767235 /* Nod */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (28533, 4,    35, -1, 0, 0, False) /* Create Chainmail Basinet (35) for Shop */
+VALUES (28533, 2,    73,  0, 20, 0.66, False) /* Create Scalemail Hauberk (73) for Wield */
+     , (28533, 2,    83,  0, 20, 0.66, False) /* Create Scalemail Leggings (83) for Wield */
+     , (28533, 2,   129,  0, 1, 0.68, False) /* Create Sandals (129) for Wield */
+     , (28533, 2,   134,  0, 1, 0.68, False) /* Create Tunic (134) for Wield */
+     , (28533, 2,   135,  0, 6, 0, False) /* Create Turban (135) for Wield */
+     , (28533, 2,  2598,  0, 1, 0.68, False) /* Create Pants (2598) for Wield */
+     , (28533, 4,    35, -1, 0, 0, False) /* Create Chainmail Basinet (35) for Shop */
      , (28533, 4,    37, -1, 0, 0, False) /* Create Scalemail Bracers (37) for Shop */
      , (28533, 4,    41, -1, 0, 0, False) /* Create Scalemail Breastplate (41) for Shop */
      , (28533, 4,    55, -1, 0, 0, False) /* Create Chainmail Gauntlets (55) for Shop */
      , (28533, 4,    58, -1, 0, 0, False) /* Create Scalemail Gauntlets (58) for Shop */
      , (28533, 4,    62, -1, 0, 0, False) /* Create Scalemail Girth (62) for Shop */
      , (28533, 4,    67, -1, 0, 0, False) /* Create Scalemail Greaves (67) for Shop */
-     , (28533, 2,    73,  0, 20, 0.66, False) /* Create Scalemail Hauberk (73) for Wield */
      , (28533, 4,    80, -1, 0, 0, False) /* Create Chainmail Leggings (80) for Shop */
-     , (28533, 2,    83,  0, 20, 0.66, False) /* Create Scalemail Leggings (83) for Wield */
      , (28533, 4,    83, -1, 0, 0, False) /* Create Scalemail Leggings (83) for Shop */
      , (28533, 4,    85, -1, 0, 0, False) /* Create Chainmail Coif (85) for Shop */
      , (28533, 4,    88, -1, 0, 0, False) /* Create Scalemail Pauldrons (88) for Shop */
@@ -180,9 +184,6 @@ VALUES (28533, 4,    35, -1, 0, 0, False) /* Create Chainmail Basinet (35) for S
      , (28533, 4,    95, -1, 0, 0, False) /* Create Tower Shield (95) for Shop */
      , (28533, 4,   111, -1, 0, 0, False) /* Create Scalemail Tassets (111) for Shop */
      , (28533, 4,   116, -1, 0, 0, False) /* Create Studded Leather Boots (116) for Shop */
-     , (28533, 2,   129,  0, 1, 0.68, False) /* Create Sandals (129) for Wield */
-     , (28533, 2,   134,  0, 1, 0.68, False) /* Create Tunic (134) for Wield */
-     , (28533, 2,   135,  0, 6, 0, False) /* Create Turban (135) for Wield */
      , (28533, 4,   308, -1, 0, 0, False) /* Create Budiaq (308) for Shop */
      , (28533, 4,   310, -1, 0, 0, False) /* Create Throwing Club (310) for Shop */
      , (28533, 4,   317, -1, 0, 0, False) /* Create Djarid (317) for Shop */
@@ -201,7 +202,6 @@ VALUES (28533, 4,    35, -1, 0, 0, False) /* Create Chainmail Basinet (35) for S
      , (28533, 4,   551, -1, 0, 0, False) /* Create Leather Basinet (551) for Shop */
      , (28533, 4,   552, -1, 0, 0, False) /* Create Scalemail Basinet (552) for Shop */
      , (28533, 4,   554, -1, 0, 0, False) /* Create Studded Leather Basinet (554) for Shop */
-     , (28533, 2,  2598,  0, 1, 0.68, False) /* Create Pants (2598) for Wield */
      , (28533, 4,  2621, -1, 0, 0, False) /* Create Trade Note (100) (2621) for Shop */
      , (28533, 4,  2622, -1, 0, 0, False) /* Create Trade Note (500) (2622) for Shop */
      , (28533, 4,  2623, -1, 0, 0, False) /* Create Trade Note (1,000) (2623) for Shop */

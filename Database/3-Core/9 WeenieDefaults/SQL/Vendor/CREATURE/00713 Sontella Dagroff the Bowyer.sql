@@ -166,10 +166,11 @@ INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `w
 VALUES (713, 2,   127,  0, 7, 0, False) /* Create Pants (127) for Wield */
      , (713, 2,   132,  0, 18, 1, False) /* Create Shoes (132) for Wield */
      , (713, 2,   134,  0, 8, 0.67, False) /* Create Tunic (134) for Wield */
+     , (713, 2,   307,  0, 0, 0, False) /* Create Shortbow (307) for Wield */
+     , (713, 2, 10696,  0, 4, 0.8, False) /* Create Apron (10696) for Wield */
      , (713, 4,   300, -1, 0, 0, False) /* Create Arrow (300) for Shop */
      , (713, 4,   304, -1, 0, 0, False) /* Create Throwing Axe (304) for Shop */
      , (713, 4,   305, -1, 0, 0, False) /* Create Quarrel (305) for Shop */
-     , (713, 2,   307,  0, 0, 0, False) /* Create Shortbow (307) for Wield */
      , (713, 4,   307, -1, 0, 0, False) /* Create Shortbow (307) for Shop */
      , (713, 4,   310, -1, 0, 0, False) /* Create Throwing Club (310) for Shop */
      , (713, 4,   312, -1, 0, 0, False) /* Create Light Crossbow (312) for Shop */
@@ -196,7 +197,6 @@ VALUES (713, 2,   127,  0, 7, 0, False) /* Create Pants (127) for Wield */
      , (713, 4,  9363, -1, 0, 0, False) /* Create Wrapped Bundle of Broad Arrowheads (9363) for Shop */
      , (713, 4,  9377, -1, 0, 0, False) /* Create Wrapped Bundle of Arrowshafts (9377) for Shop */
      , (713, 4,  9378, -1, 0, 0, False) /* Create Wrapped Bundle of Quarrelshafts (9378) for Shop */
-     , (713, 2, 10696,  0, 4, 0.8, False) /* Create Apron (10696) for Wield */
      , (713, 4, 12463, -1, 0, 0, False) /* Create Atlatl (12463) for Shop */
      , (713, 4, 12464, -1, 0, 0, False) /* Create Atlatl Dart (12464) for Shop */
      , (713, 4, 15296, -1, 0, 0, False) /* Create Bundle of Atlatl Dart Shafts (15296) for Shop */

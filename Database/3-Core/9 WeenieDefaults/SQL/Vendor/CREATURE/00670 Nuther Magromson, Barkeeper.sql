@@ -166,6 +166,7 @@ INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `w
 VALUES (670, 2,   127,  0, 10, 1, False) /* Create Pants (127) for Wield */
      , (670, 2,   132,  0, 4, 0.8, False) /* Create Shoes (132) for Wield */
      , (670, 2,   134,  0, 13, 0.5, False) /* Create Tunic (134) for Wield */
+     , (670, 2, 10696,  0, 9, 0.5, False) /* Create Apron (10696) for Wield */
      , (670, 4,   258, -1, 0, 0, False) /* Create Apple (258) for Shop */
      , (670, 4,   259, -1, 0, 0, False) /* Create Bread (259) for Shop */
      , (670, 4,   260, -1, 0, 0, False) /* Create Cabbage (260) for Shop */
@@ -185,5 +186,4 @@ VALUES (670, 2,   127,  0, 10, 1, False) /* Create Pants (127) for Wield */
      , (670, 4,  2455, -1, 0, 0, False) /* Create Grape Juice (2455) for Shop */
      , (670, 4,  2456, -1, 0, 0, False) /* Create Green Tea (2456) for Shop */
      , (670, 4,  2459, -1, 0, 0, False) /* Create Kumiss (2459) for Shop */
-     , (670, 4,  2462, -1, 0, 0, False) /* Create Mead (2462) for Shop */
-     , (670, 2, 10696,  0, 9, 0.5, False) /* Create Apron (10696) for Wield */;
+     , (670, 4,  2462, -1, 0, 0, False) /* Create Mead (2462) for Shop */;

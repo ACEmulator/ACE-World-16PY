@@ -167,6 +167,7 @@ VALUES (810, 2,   118,  0, 13, 0.5, False) /* Create Cap (118) for Wield */
      , (810, 2,   127,  0, 9, 0.5, False) /* Create Pants (127) for Wield */
      , (810, 2,   130,  0, 9, 0, False) /* Create Shirt (130) for Wield */
      , (810, 2,   132,  0, 14, 0.8, False) /* Create Shoes (132) for Wield */
+     , (810, 2, 10696,  0, 18, 1, False) /* Create Apron (10696) for Wield */
      , (810, 4,  1227, -1, 0, 0, False) /* Create Yanshi Portal Directions (1227) for Shop */
      , (810, 4,  1401, -1, 0, 0, False) /* Create Yanshi Tunnel Directions (1401) for Shop */
      , (810, 4,  2451, -1, 0, 0, False) /* Create Ale (2451) for Shop */
@@ -181,6 +182,5 @@ VALUES (810, 2,   118,  0, 13, 0.5, False) /* Create Cap (118) for Wield */
      , (810, 4,  6417, -1, 0, 0, False) /* Create A Stinging Stone (6417) for Shop */
      , (810, 4,  6418, -1, 0, 0, False) /* Create A Fiery Stone (6418) for Shop */
      , (810, 4,  8378, -1, 0, 0, False) /* Create Beer Stein (8378) for Shop */
-     , (810, 2, 10696,  0, 18, 1, False) /* Create Apron (10696) for Wield */
      , (810, 4, 15808, -1, 0, 0, False) /* Create Plea for Help (15808) for Shop */
      , (810, 4, 23614, -1, 0, 0, False) /* Create Felscuda the Scholar (23614) for Shop */;

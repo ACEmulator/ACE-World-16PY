@@ -166,6 +166,6 @@ VALUES (2043, 2,   126,  0, 4, 0.6, False) /* Create Leggings (126) for Wield */
      , (2043, 2,   130,  0, 9, 0, False) /* Create Shirt (130) for Wield */
      , (2043, 2,   133,  0, 16, 1, False) /* Create Slippers (133) for Wield */
      , (2043, 2,   339,  0, 0, 0, False) /* Create Scimitar (339) for Wield */
+     , (2043, 2, 10696,  0, 4, 0.5, False) /* Create Apron (10696) for Wield */
      , (2043, 4,  2023, -1, 0, 0, False) /* Create Lilitha's Arrow (2023) for Shop */
-     , (2043, 4,  2055, -1, 0, 0, False) /* Create Directions to Hunter's Leap (2055) for Shop */
-     , (2043, 2, 10696,  0, 4, 0.5, False) /* Create Apron (10696) for Wield */;
+     , (2043, 4,  2055, -1, 0, 0, False) /* Create Directions to Hunter's Leap (2055) for Shop */;

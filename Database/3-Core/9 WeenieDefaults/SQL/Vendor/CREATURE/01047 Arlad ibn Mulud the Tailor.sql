@@ -167,6 +167,7 @@ VALUES (1047, 2,   115,  0, 17, 1, False) /* Create Leather Boots (115) for Wiel
      , (1047, 2,   117,  0, 17, 1, False) /* Create Breeches (117) for Wield */
      , (1047, 2,   124,  0, 17, 1, False) /* Create Jerkin (124) for Wield */
      , (1047, 2,   128,  0, 7, 0.33, False) /* Create Qafiya (128) for Wield */
+     , (1047, 2, 10696,  0, 18, 0.5, False) /* Create Apron (10696) for Wield */
      , (1047, 4,   128, -1, 7, 0.33, False) /* Create Qafiya (128) for Shop */
      , (1047, 4,   133, -1, 17, 1, False) /* Create Slippers (133) for Shop */
      , (1047, 4,  2591, -1, 17, 1, False) /* Create Shirt (2591) for Shop */
@@ -174,6 +175,5 @@ VALUES (1047, 2,   115,  0, 17, 1, False) /* Create Leather Boots (115) for Wiel
      , (1047, 4,  5852, -1, 0, 0, False) /* Create Dho Vest and Robe (5852) for Shop */
      , (1047, 4,  5894, -1, 0, 0, False) /* Create Fez (5894) for Shop */
      , (1047, 4,  8373, -1, 5, 0.1, False) /* Create Kiyafa Robe (8373) for Shop */
-     , (1047, 2, 10696,  0, 18, 0.5, False) /* Create Apron (10696) for Wield */
      , (1047, 4, 25983, -1, 0, 0, False) /* Create Sparring Pants (25983) for Shop */
      , (1047, 4, 25984, -1, 0, 0, False) /* Create Sparring Shirt (25984) for Shop */;

@@ -163,7 +163,13 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 318767235 /* Nod */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (975, 4,    35, -1, 0, 0, False) /* Create Chainmail Basinet (35) for Shop */
+VALUES (975, 2,    93,  0, 0, 0, False) /* Create Round Shield (93) for Wield */
+     , (975, 2,   115,  0, 9, 0, False) /* Create Leather Boots (115) for Wield */
+     , (975, 2,   117,  0, 9, 0, False) /* Create Breeches (117) for Wield */
+     , (975, 2,   124,  0, 9, 0, False) /* Create Jerkin (124) for Wield */
+     , (975, 2,   135,  0, 9, 0.5, False) /* Create Turban (135) for Wield */
+     , (975, 2, 10696,  0, 9, 0, False) /* Create Apron (10696) for Wield */
+     , (975, 4,    35, -1, 0, 0, False) /* Create Chainmail Basinet (35) for Shop */
      , (975, 4,    38, -1, 0, 0, False) /* Create Studded Leather Bracers (38) for Shop */
      , (975, 4,    42, -1, 0, 0, False) /* Create Studded Leather Breastplate (42) for Shop */
      , (975, 4,    46, -1, 0, 0, False) /* Create Metal Cap (46) for Shop */
@@ -175,15 +181,10 @@ VALUES (975, 4,    35, -1, 0, 0, False) /* Create Chainmail Basinet (35) for Sho
      , (975, 4,    84, -1, 0, 0, False) /* Create Studded Leather Leggings (84) for Shop */
      , (975, 4,    85, -1, 0, 0, False) /* Create Chainmail Coif (85) for Shop */
      , (975, 4,    89, -1, 0, 0, False) /* Create Studded Leather Pauldrons (89) for Shop */
-     , (975, 2,    93,  0, 0, 0, False) /* Create Round Shield (93) for Wield */
      , (975, 4,    93, -1, 0, 0, False) /* Create Round Shield (93) for Shop */
      , (975, 4,   108, -1, 0, 0, False) /* Create Chainmail Tassets (108) for Shop */
      , (975, 4,   112, -1, 0, 0, False) /* Create Studded Leather Tassets (112) for Shop */
-     , (975, 2,   115,  0, 9, 0, False) /* Create Leather Boots (115) for Wield */
      , (975, 4,   116, -1, 0, 0, False) /* Create Studded Leather Boots (116) for Shop */
-     , (975, 2,   117,  0, 9, 0, False) /* Create Breeches (117) for Wield */
-     , (975, 2,   124,  0, 9, 0, False) /* Create Jerkin (124) for Wield */
-     , (975, 2,   135,  0, 9, 0.5, False) /* Create Turban (135) for Wield */
      , (975, 4,   413, -1, 0, 0, False) /* Create Chainmail Bracers (413) for Shop */
      , (975, 4,   414, -1, 0, 0, False) /* Create Chainmail Breastplate (414) for Shop */
      , (975, 4,   415, -1, 0, 0, False) /* Create Chainmail Girth (415) for Shop */
@@ -194,5 +195,4 @@ VALUES (975, 4,    35, -1, 0, 0, False) /* Create Chainmail Basinet (35) for Sho
      , (975, 4,  2605, -1, 0, 0, False) /* Create Chainmail Greaves (2605) for Shop */
      , (975, 4,  2621, -1, 0, 0, False) /* Create Trade Note (100) (2621) for Shop */
      , (975, 4,  2622, -1, 0, 0, False) /* Create Trade Note (500) (2622) for Shop */
-     , (975, 4,  2623, -1, 0, 0, False) /* Create Trade Note (1,000) (2623) for Shop */
-     , (975, 2, 10696,  0, 9, 0, False) /* Create Apron (10696) for Wield */;
+     , (975, 4,  2623, -1, 0, 0, False) /* Create Trade Note (1,000) (2623) for Shop */;

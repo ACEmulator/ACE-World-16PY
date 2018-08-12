@@ -182,6 +182,7 @@ VALUES (4539, 2,   118,  0, 9, 1, False) /* Create Cap (118) for Wield */
      , (4539, 2,   127,  0, 2, 0.67, False) /* Create Pants (127) for Wield */
      , (4539, 2,   130,  0, 2, 0.67, False) /* Create Shirt (130) for Wield */
      , (4539, 2,   132,  0, 2, 0.67, False) /* Create Shoes (132) for Wield */
+     , (4539, 2, 10696,  0, 14, 0.5, False) /* Create Apron (10696) for Wield */
      , (4539, 4,   136, -1, 2, 1, False) /* Create Pack (136) for Shop */
      , (4539, 4,   139, -1, 88, 0, False) /* Create Small Belt Pouch (139) for Shop */
      , (4539, 4,   625, -1, 0, 0, False) /* Create Ginseng (625) for Shop */
@@ -288,7 +289,6 @@ VALUES (4539, 2,   118,  0, 9, 1, False) /* Create Cap (118) for Wield */
      , (4539, 4,  8181, -1, 0, 0, False) /* Create Extinguish All Magic Other (8181) for Shop */
      , (4539, 4,  8182, -1, 0, 0, False) /* Create Cleanse All Magic Other (8182) for Shop */
      , (4539, 4,  8897, -1, 0, 0, False) /* Create Platinum Scarab (8897) for Shop */
-     , (4539, 2, 10696,  0, 14, 0.5, False) /* Create Apron (10696) for Wield */
      , (4539, 4, 20628, -1, 0, 0, False) /* Create Trade Note (150,000) (20628) for Shop */
      , (4539, 4, 20629, -1, 0, 0, False) /* Create Trade Note (200,000) (20629) for Shop */
      , (4539, 4, 20630, -1, 0, 0, False) /* Create Trade Note (250,000) (20630) for Shop */

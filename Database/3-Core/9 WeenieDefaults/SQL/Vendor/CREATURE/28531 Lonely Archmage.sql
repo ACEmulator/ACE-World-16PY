@@ -171,6 +171,8 @@ VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 318767235 /* Nod */, NULL, NULL,
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (28531, 2,   130,  0, 14, 0.8, False) /* Create Shirt (130) for Wield */
+     , (28531, 2,  2601,  0, 1, 0.67, False) /* Create Pants (2601) for Wield */
+     , (28531, 2,  5851,  0, 86, 0, False) /* Create Faran Robe with Hood (5851) for Wield */
      , (28531, 4,   625, -1, 0, 0, False) /* Create Ginseng (625) for Shop */
      , (28531, 4,   626, -1, 0, 0, False) /* Create Powdered Hematite (626) for Shop */
      , (28531, 4,   627, -1, 0, 0, False) /* Create Alder Talisman (627) for Shop */
@@ -248,7 +250,6 @@ VALUES (28531, 2,   130,  0, 14, 0.8, False) /* Create Shirt (130) for Wield */
      , (28531, 4,  2435, -1, 0, 0, False) /* Create Mana Stone (2435) for Shop */
      , (28531, 4,  2472, -1, 0, 0, False) /* Create Wand (2472) for Shop */
      , (28531, 4,  2547, -1, 0, 0, False) /* Create Staff (2547) for Shop */
-     , (28531, 2,  2601,  0, 1, 0.67, False) /* Create Pants (2601) for Wield */
      , (28531, 4,  2621, -1, 0, 0, False) /* Create Trade Note (100) (2621) for Shop */
      , (28531, 4,  2622, -1, 0, 0, False) /* Create Trade Note (500) (2622) for Shop */
      , (28531, 4,  2623, -1, 0, 0, False) /* Create Trade Note (1,000) (2623) for Shop */
@@ -266,7 +267,6 @@ VALUES (28531, 2,   130,  0, 14, 0.8, False) /* Create Shirt (130) for Wield */
      , (28531, 4,  4751, -1, 0, 0, False) /* Create Mortar and Pestle (4751) for Shop */
      , (28531, 4,  5338, -1, 0, 0, False) /* Create Neutral Balm (5338) for Shop */
      , (28531, 4,  5541, -1, 0, 0, False) /* Create Wand (5541) for Shop */
-     , (28531, 2,  5851,  0, 86, 0, False) /* Create Faran Robe with Hood (5851) for Wield */
      , (28531, 4,  6063, -1, 0, 0, False) /* Create Dho Creature Apprentice Robe (6063) for Shop */
      , (28531, 4,  6066, -1, 0, 0, False) /* Create Dho Item Apprentice Robe (6066) for Shop */
      , (28531, 4,  6069, -1, 0, 0, False) /* Create Dho Life Apprentice Robe (6069) for Shop */

@@ -162,7 +162,12 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 318767235 /* Nod */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (1078, 4,    36, -1, 0, 0, False) /* Create Leather Bracers (36) for Shop */
+VALUES (1078, 2,   115,  0, 4, 0.8, False) /* Create Leather Boots (115) for Wield */
+     , (1078, 2,   124,  0, 17, 1, False) /* Create Jerkin (124) for Wield */
+     , (1078, 2,   127,  0, 9, 1, False) /* Create Pants (127) for Wield */
+     , (1078, 2,   313,  0, 0, 0, False) /* Create Dabus (313) for Wield */
+     , (1078, 2, 10696,  0, 4, 0.8, False) /* Create Apron (10696) for Wield */
+     , (1078, 4,    36, -1, 0, 0, False) /* Create Leather Bracers (36) for Shop */
      , (1078, 4,    38, -1, 0, 0, False) /* Create Studded Leather Bracers (38) for Shop */
      , (1078, 4,    39, -1, 0, 0, False) /* Create Leather Breastplate (39) for Shop */
      , (1078, 4,    41, -1, 0, 0, False) /* Create Scalemail Breastplate (41) for Shop */
@@ -210,18 +215,14 @@ VALUES (1078, 4,    36, -1, 0, 0, False) /* Create Leather Bracers (36) for Shop
      , (1078, 4,   109, -1, 0, 0, False) /* Create Leather Tassets (109) for Shop */
      , (1078, 4,   111, -1, 0, 0, False) /* Create Scalemail Tassets (111) for Shop */
      , (1078, 4,   112, -1, 0, 0, False) /* Create Studded Leather Tassets (112) for Shop */
-     , (1078, 2,   115,  0, 4, 0.8, False) /* Create Leather Boots (115) for Wield */
      , (1078, 4,   115, -1, 0, 0, False) /* Create Leather Boots (115) for Shop */
      , (1078, 4,   116, -1, 0, 0, False) /* Create Studded Leather Boots (116) for Shop */
-     , (1078, 2,   124,  0, 17, 1, False) /* Create Jerkin (124) for Wield */
-     , (1078, 2,   127,  0, 9, 1, False) /* Create Pants (127) for Wield */
      , (1078, 4,   142, -1, 0, 0, False) /* Create Chalice (142) for Shop */
      , (1078, 4,   149, -1, 0, 0, False) /* Create Ewer (149) for Shop */
      , (1078, 4,   168, -1, 0, 0, False) /* Create Tankard (168) for Shop */
      , (1078, 4,   243, -1, 0, 0, False) /* Create Dinner Plate (243) for Shop */
      , (1078, 4,   251, -1, 0, 0, False) /* Create Platter (251) for Shop */
      , (1078, 4,   308, -1, 0, 0, False) /* Create Budiaq (308) for Shop */
-     , (1078, 2,   313,  0, 0, 0, False) /* Create Dabus (313) for Wield */
      , (1078, 4,   313, -1, 0, 0, False) /* Create Dabus (313) for Shop */
      , (1078, 4,   316, -1, 0, 0, False) /* Create Throwing Dart (316) for Shop */
      , (1078, 4,   317, -1, 0, 0, False) /* Create Djarid (317) for Shop */
@@ -247,5 +248,4 @@ VALUES (1078, 4,    36, -1, 0, 0, False) /* Create Leather Bracers (36) for Shop
      , (1078, 4,   551, -1, 0, 0, False) /* Create Leather Basinet (551) for Shop */
      , (1078, 4,   554, -1, 0, 0, False) /* Create Studded Leather Basinet (554) for Shop */
      , (1078, 4,   723, -1, 0, 0, False) /* Create Studded Leather Cowl (723) for Shop */
-     , (1078, 2, 10696,  0, 4, 0.8, False) /* Create Apron (10696) for Wield */
      , (1078, 4, 22163, -1, 0, 0, False) /* Create Nabut (22163) for Shop */;

@@ -166,10 +166,11 @@ VALUES (27247, 2,    75,  0, 0, 0, False) /* Create Helmet (75) for Wield */
      , (27247, 2,   115,  0, 16, 1, False) /* Create Leather Boots (115) for Wield */
      , (27247, 2,   127,  0, 9, 0, False) /* Create Pants (127) for Wield */
      , (27247, 2,   130,  0, 4, 0.6, False) /* Create Shirt (130) for Wield */
+     , (27247, 2,   363,  0, 0, 0, False) /* Create Yumi (363) for Wield */
+     , (27247, 2, 10696,  0, 16, 1, False) /* Create Apron (10696) for Wield */
      , (27247, 4,   300, -1, 0, 0, False) /* Create Arrow (300) for Shop */
      , (27247, 4,   305, -1, 0, 0, False) /* Create Quarrel (305) for Shop */
      , (27247, 4,   311, -1, 0, 0, False) /* Create Heavy Crossbow (311) for Shop */
-     , (27247, 2,   363,  0, 0, 0, False) /* Create Yumi (363) for Wield */
      , (27247, 4,   363, -1, 0, 0, False) /* Create Yumi (363) for Shop */
      , (27247, 4,  3598, -1, 0, 0, False) /* Create Armor Piercing Arrow (3598) for Shop */
      , (27247, 4,  3599, -1, 0, 0, False) /* Create Blunt Arrow (3599) for Shop */
@@ -186,5 +187,4 @@ VALUES (27247, 2,    75,  0, 0, 0, False) /* Create Helmet (75) for Wield */
      , (27247, 4,  9363, -1, 0, 0, False) /* Create Wrapped Bundle of Broad Arrowheads (9363) for Shop */
      , (27247, 4,  9366, -1, 0, 0, False) /* Create Wrapped Bundle of Frog Crotch Arrowheads (9366) for Shop */
      , (27247, 4,  9377, -1, 0, 0, False) /* Create Wrapped Bundle of Arrowshafts (9377) for Shop */
-     , (27247, 4,  9378, -1, 0, 0, False) /* Create Wrapped Bundle of Quarrelshafts (9378) for Shop */
-     , (27247, 2, 10696,  0, 16, 1, False) /* Create Apron (10696) for Wield */;
+     , (27247, 4,  9378, -1, 0, 0, False) /* Create Wrapped Bundle of Quarrelshafts (9378) for Shop */;

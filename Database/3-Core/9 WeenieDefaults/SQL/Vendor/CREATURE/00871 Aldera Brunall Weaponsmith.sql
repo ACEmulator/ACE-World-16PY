@@ -166,11 +166,12 @@ INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `w
 VALUES (871, 2,   115,  0, 6, 0, False) /* Create Leather Boots (115) for Wield */
      , (871, 2,   127,  0, 8, 0, False) /* Create Pants (127) for Wield */
      , (871, 2,   134,  0, 10, 1, False) /* Create Tunic (134) for Wield */
+     , (871, 2,   352,  0, 0, 0, False) /* Create Short Sword (352) for Wield */
+     , (871, 2, 10696,  0, 4, 0.5, False) /* Create Apron (10696) for Wield */
      , (871, 4,   314, -1, 0, 0, False) /* Create Dagger (314) for Shop */
      , (871, 4,   320, -1, 0, 0, False) /* Create Javelin (320) for Shop */
      , (871, 4,   327, -1, 0, 0, False) /* Create Ken (327) for Shop */
      , (871, 4,   336, -1, 0, 0, False) /* Create Ono (336) for Shop */
-     , (871, 2,   352,  0, 0, 0, False) /* Create Short Sword (352) for Wield */
      , (871, 4,   353, -1, 0, 0, False) /* Create Tachi (353) for Shop */
      , (871, 4,   356, -1, 0, 0, False) /* Create Tofun (356) for Shop */
      , (871, 4,   359, -1, 0, 0, False) /* Create War Hammer (359) for Shop */
@@ -183,7 +184,6 @@ VALUES (871, 2,   115,  0, 6, 0, False) /* Create Leather Boots (115) for Wield 
      , (871, 4,  2626, -1, 0, 0, False) /* Create Trade Note (50,000) (2626) for Shop */
      , (871, 4,  2627, -1, 0, 0, False) /* Create Trade Note (100,000) (2627) for Shop */
      , (871, 4,  4195, -1, 0, 0, False) /* Create Nekode (4195) for Shop */
-     , (871, 2, 10696,  0, 4, 0.5, False) /* Create Apron (10696) for Wield */
      , (871, 4, 20628, -1, 0, 0, False) /* Create Trade Note (150,000) (20628) for Shop */
      , (871, 4, 20629, -1, 0, 0, False) /* Create Trade Note (200,000) (20629) for Shop */
      , (871, 4, 20630, -1, 0, 0, False) /* Create Trade Note (250,000) (20630) for Shop */

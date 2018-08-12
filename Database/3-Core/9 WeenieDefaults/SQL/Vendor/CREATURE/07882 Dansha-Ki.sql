@@ -162,6 +162,6 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 318767235 /* Nod */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (7882, 4,  1449, -1, 0, 0, False) /* Create Royal Cabbage (1449) for Shop */
-     , (7882, 4,  5758, -1, 0, 0, False) /* Create Carrot (5758) for Shop */
-     , (7882, 2,  5914,  0, 0, 0.5, False) /* Create Suikan Item Master Robe (5914) for Wield */;
+VALUES (7882, 2,  5914,  0, 0, 0.5, False) /* Create Suikan Item Master Robe (5914) for Wield */
+     , (7882, 4,  1449, -1, 0, 0, False) /* Create Royal Cabbage (1449) for Shop */
+     , (7882, 4,  5758, -1, 0, 0, False) /* Create Carrot (5758) for Shop */;

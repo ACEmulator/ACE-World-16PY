@@ -176,6 +176,7 @@ VALUES (697, 2,   115,  0, 4, 0.6, False) /* Create Leather Boots (115) for Wiel
      , (697, 2,   117,  0, 9, 0.5, False) /* Create Breeches (117) for Wield */
      , (697, 2,   118,  0, 9, 1, False) /* Create Cap (118) for Wield */
      , (697, 2,   124,  0, 5, 0.67, False) /* Create Jerkin (124) for Wield */
+     , (697, 2, 10696,  0, 9, 1, False) /* Create Apron (10696) for Wield */
      , (697, 4,   377, -1, 0, 0, False) /* Create Potion of Healing (377) for Shop */
      , (697, 4,   378, -1, 0, 0, False) /* Create Stamina Potion (378) for Shop */
      , (697, 4,   379, -1, 0, 0, False) /* Create Mana Potion (379) for Shop */
@@ -190,7 +191,6 @@ VALUES (697, 2,   115,  0, 4, 0.6, False) /* Create Leather Boots (115) for Wiel
      , (697, 4,  4587, -1, 0, 0, False) /* Create Heal Other II (4587) for Shop */
      , (697, 4,  4593, -1, 0, 0, False) /* Create Mana Boost Other II (4593) for Shop */
      , (697, 4,  4596, -1, 0, 0, False) /* Create Regeneration Other II (4596) for Shop */
-     , (697, 2, 10696,  0, 9, 1, False) /* Create Apron (10696) for Wield */
      , (697, 4, 27319, -1, 0, 0, False) /* Create Health Tincture (27319) for Shop */
      , (697, 4, 27322, -1, 0, 0, False) /* Create Mana Tincture (27322) for Shop */
      , (697, 4, 27326, -1, 0, 0, False) /* Create Stamina Tincture (27326) for Shop */;

@@ -176,6 +176,7 @@ VALUES (1830, 2,   124,  0, 17, 1, False) /* Create Jerkin (124) for Wield */
      , (1830, 2,   127,  0, 17, 1, False) /* Create Pants (127) for Wield */
      , (1830, 2,   133,  0, 17, 1, False) /* Create Slippers (133) for Wield */
      , (1830, 2,   135,  0, 9, 1, False) /* Create Turban (135) for Wield */
+     , (1830, 2, 10696,  0, 9, 0.5, False) /* Create Apron (10696) for Wield */
      , (1830, 4,   377, -1, 0, 0, False) /* Create Potion of Healing (377) for Shop */
      , (1830, 4,   378, -1, 0, 0, False) /* Create Stamina Potion (378) for Shop */
      , (1830, 4,   379, -1, 0, 0, False) /* Create Mana Potion (379) for Shop */
@@ -191,7 +192,6 @@ VALUES (1830, 2,   124,  0, 17, 1, False) /* Create Jerkin (124) for Wield */
      , (1830, 4,  4596, -1, 0, 0, False) /* Create Regeneration Other II (4596) for Shop */
      , (1830, 4,  4602, -1, 0, 0, False) /* Create Endurance Other I (4602) for Shop */
      , (1830, 4,  4608, -1, 0, 0, False) /* Create Focus Other I (4608) for Shop */
-     , (1830, 2, 10696,  0, 9, 0.5, False) /* Create Apron (10696) for Wield */
      , (1830, 4, 27319, -1, 0, 0, False) /* Create Health Tincture (27319) for Shop */
      , (1830, 4, 27322, -1, 0, 0, False) /* Create Mana Tincture (27322) for Shop */
      , (1830, 4, 27326, -1, 0, 0, False) /* Create Stamina Tincture (27326) for Shop */;

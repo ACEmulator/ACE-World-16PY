@@ -164,8 +164,7 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 268435537 /* Twitch1 */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (6018, 9,     0,  0, 0, 0.97, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 1 for ContainTreasure */
-     , (6018, 8,   303,  0, 0, 0.05, False) /* Create Hand Axe (303) for Treasure */
+VALUES (6018, 8,   303,  0, 0, 0.05, False) /* Create Hand Axe (303) for Treasure */
      , (6018, 8,   308,  0, 0, 0.05, False) /* Create Budiaq (308) for Treasure */
      , (6018, 8,   309,  0, 0, 0.05, False) /* Create Club (309) for Treasure */
      , (6018, 8,   313,  0, 0, 0.05, False) /* Create Dabus (313) for Treasure */
@@ -185,4 +184,5 @@ VALUES (6018, 9,     0,  0, 0, 0.97, False) /* Create RANDOMLY GENERATED TREASUR
      , (6018, 8,   357,  0, 0, 0.05, False) /* Create Tungi (357) for Treasure */
      , (6018, 8,   361,  0, 0, 0.05, False) /* Create Yaoji (361) for Treasure */
      , (6018, 8,   362,  0, 0, 0.05, False) /* Create Yari (362) for Treasure */
+     , (6018, 9,     0,  0, 0, 0.97, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 1 for ContainTreasure */
      , (6018, 9,  7825,  0, 0, 0.03, False) /* Create Brown Beans (7825) for ContainTreasure */;

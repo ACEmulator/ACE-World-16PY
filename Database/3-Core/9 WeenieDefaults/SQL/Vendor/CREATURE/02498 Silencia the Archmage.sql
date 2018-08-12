@@ -170,7 +170,8 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 318767235 /* Nod */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (2498, 4,   136, -1, 61, 1, False) /* Create Pack (136) for Shop */
+VALUES (2498, 2,  5916,  0, 0, 0, False) /* Create Dho Creature Master Robe (5916) for Wield */
+     , (2498, 4,   136, -1, 61, 1, False) /* Create Pack (136) for Shop */
      , (2498, 4,   138, -1, 90, 1, False) /* Create Belt Pouch (138) for Shop */
      , (2498, 4,   139, -1, 90, 1, False) /* Create Small Belt Pouch (139) for Shop */
      , (2498, 4,   625, -1, 0, 0, False) /* Create Ginseng (625) for Shop */
@@ -267,7 +268,6 @@ VALUES (2498, 4,   136, -1, 61, 1, False) /* Create Pack (136) for Shop */
      , (2498, 4,  4751, -1, 0, 0, False) /* Create Mortar and Pestle (4751) for Shop */
      , (2498, 4,  5338, -1, 0, 0, False) /* Create Neutral Balm (5338) for Shop */
      , (2498, 4,  5539, -1, 0, 0, False) /* Create Wand (5539) for Shop */
-     , (2498, 2,  5916,  0, 0, 0, False) /* Create Dho Creature Master Robe (5916) for Wield */
      , (2498, 4,  6322, -1, 0, 0, False) /* Create Axe Glyph (6322) for Shop */
      , (2498, 4,  6323, -1, 0, 0, False) /* Create Claw Glyph (6323) for Shop */
      , (2498, 4,  6324, -1, 0, 0, False) /* Create Dagger Glyph (6324) for Shop */

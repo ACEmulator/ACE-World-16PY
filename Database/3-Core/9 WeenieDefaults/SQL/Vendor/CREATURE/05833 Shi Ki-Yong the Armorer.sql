@@ -160,7 +160,17 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 318767235 /* Nod */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (5833, 4,    35, -1, 0, 0, False) /* Create Chainmail Basinet (35) for Shop */
+VALUES (5833, 1,   273, 1500, 0, 0, False) /* Create Pyreal (273) for Contain */
+     , (5833, 2,   115,  0, 4, 0.2, False) /* Create Leather Boots (115) for Wield */
+     , (5833, 2,   115,  0, 4, 0.8, False) /* Create Leather Boots (115) for Wield */
+     , (5833, 2,   118,  0, 9, 0.5, False) /* Create Cap (118) for Wield */
+     , (5833, 2,   127,  0, 8, 0.8, False) /* Create Pants (127) for Wield */
+     , (5833, 2,   130,  0, 14, 0.5, False) /* Create Shirt (130) for Wield */
+     , (5833, 2,   130,  0, 8, 0.2, False) /* Create Shirt (130) for Wield */
+     , (5833, 2,   352,  0, 0, 0, False) /* Create Short Sword (352) for Wield */
+     , (5833, 2,  2597,  0, 9, 1, False) /* Create Pants (2597) for Wield */
+     , (5833, 2, 10696,  0, 9, 0, False) /* Create Apron (10696) for Wield */
+     , (5833, 4,    35, -1, 0, 0, False) /* Create Chainmail Basinet (35) for Shop */
      , (5833, 4,    36, -1, 0, 0, False) /* Create Leather Bracers (36) for Shop */
      , (5833, 4,    38, -1, 0, 0, False) /* Create Studded Leather Bracers (38) for Shop */
      , (5833, 4,    39, -1, 0, 0, False) /* Create Leather Breastplate (39) for Shop */
@@ -205,16 +215,8 @@ VALUES (5833, 4,    35, -1, 0, 0, False) /* Create Chainmail Basinet (35) for Sh
      , (5833, 4,   106, -1, 0, 0, False) /* Create Yoroi Sleeves (106) for Shop */
      , (5833, 4,   109, -1, 0, 0, False) /* Create Leather Tassets (109) for Shop */
      , (5833, 4,   112, -1, 0, 0, False) /* Create Studded Leather Tassets (112) for Shop */
-     , (5833, 2,   115,  0, 4, 0.2, False) /* Create Leather Boots (115) for Wield */
-     , (5833, 2,   115,  0, 4, 0.8, False) /* Create Leather Boots (115) for Wield */
      , (5833, 4,   115, -1, 0, 0, False) /* Create Leather Boots (115) for Shop */
      , (5833, 4,   116, -1, 0, 0, False) /* Create Studded Leather Boots (116) for Shop */
-     , (5833, 2,   118,  0, 9, 0.5, False) /* Create Cap (118) for Wield */
-     , (5833, 2,   127,  0, 8, 0.8, False) /* Create Pants (127) for Wield */
-     , (5833, 2,   130,  0, 14, 0.5, False) /* Create Shirt (130) for Wield */
-     , (5833, 2,   130,  0, 8, 0.2, False) /* Create Shirt (130) for Wield */
-     , (5833, 1,   273, 1500, 0, 0, False) /* Create Pyreal (273) for Contain */
-     , (5833, 2,   352,  0, 0, 0, False) /* Create Short Sword (352) for Wield */
      , (5833, 4,   413, -1, 0, 0, False) /* Create Chainmail Bracers (413) for Shop */
      , (5833, 4,   414, -1, 0, 0, False) /* Create Chainmail Breastplate (414) for Shop */
      , (5833, 4,   415, -1, 0, 0, False) /* Create Chainmail Girth (415) for Shop */
@@ -227,6 +229,4 @@ VALUES (5833, 4,    35, -1, 0, 0, False) /* Create Chainmail Basinet (35) for Sh
      , (5833, 4,   551, -1, 0, 0, False) /* Create Leather Basinet (551) for Shop */
      , (5833, 4,   554, -1, 0, 0, False) /* Create Studded Leather Basinet (554) for Shop */
      , (5833, 4,   723, -1, 0, 0, False) /* Create Studded Leather Cowl (723) for Shop */
-     , (5833, 4,  2437, -1, 0, 0, False) /* Create Yoroi Leggings (2437) for Shop */
-     , (5833, 2,  2597,  0, 9, 1, False) /* Create Pants (2597) for Wield */
-     , (5833, 2, 10696,  0, 9, 0, False) /* Create Apron (10696) for Wield */;
+     , (5833, 4,  2437, -1, 0, 0, False) /* Create Yoroi Leggings (2437) for Shop */;

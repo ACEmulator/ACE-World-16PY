@@ -173,6 +173,7 @@ INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `w
 VALUES (2303, 2,   127,  0, 9, 0.5, False) /* Create Pants (127) for Wield */
      , (2303, 2,   132,  0, 9, 0.5, False) /* Create Shoes (132) for Wield */
      , (2303, 2,   134,  0, 9, 1, False) /* Create Tunic (134) for Wield */
+     , (2303, 2, 10696,  0, 9, 0.5, False) /* Create Apron (10696) for Wield */
      , (2303, 4,   136, -1, 8, 1, False) /* Create Pack (136) for Shop */
      , (2303, 4,   139, -1, 89, 0, False) /* Create Small Belt Pouch (139) for Shop */
      , (2303, 4,   625, -1, 0, 0, False) /* Create Ginseng (625) for Shop */
@@ -279,7 +280,6 @@ VALUES (2303, 2,   127,  0, 9, 0.5, False) /* Create Pants (127) for Wield */
      , (2303, 4,  8183, -1, 0, 0, False) /* Create Devour All Magic Other (8183) for Shop */
      , (2303, 4,  8184, -1, 0, 0, False) /* Create Purge All Magic Other (8184) for Shop */
      , (2303, 4,  8185, -1, 0, 0, False) /* Create Nullify All Magic Other (8185) for Shop */
-     , (2303, 2, 10696,  0, 9, 0.5, False) /* Create Apron (10696) for Wield */
      , (2303, 4, 20628, -1, 0, 0, False) /* Create Trade Note (150,000) (20628) for Shop */
      , (2303, 4, 20629, -1, 0, 0, False) /* Create Trade Note (200,000) (20629) for Shop */
      , (2303, 4, 20630, -1, 0, 0, False) /* Create Trade Note (250,000) (20630) for Shop */

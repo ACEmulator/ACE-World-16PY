@@ -176,6 +176,7 @@ VALUES (664, 2,   117,  0, 4, 0.6, False) /* Create Breeches (117) for Wield */
      , (664, 2,   119,  0, 9, 0.5, False) /* Create Cowl (119) for Wield */
      , (664, 2,   132,  0, 8, 0, False) /* Create Shoes (132) for Wield */
      , (664, 2,   134,  0, 5, 0.67, False) /* Create Tunic (134) for Wield */
+     , (664, 2, 10696,  0, 4, 0.8, False) /* Create Apron (10696) for Wield */
      , (664, 4,   377, -1, 0, 0, False) /* Create Potion of Healing (377) for Shop */
      , (664, 4,   378, -1, 0, 0, False) /* Create Stamina Potion (378) for Shop */
      , (664, 4,   379, -1, 0, 0, False) /* Create Mana Potion (379) for Shop */
@@ -189,5 +190,4 @@ VALUES (664, 2,   117,  0, 4, 0.6, False) /* Create Breeches (117) for Wield */
      , (664, 4,  4450, -1, 0, 0, False) /* Create Heal Other I (4450) for Shop */
      , (664, 4,  4589, -1, 0, 0, False) /* Create Revitalize Other I (4589) for Shop */
      , (664, 4,  4592, -1, 0, 0, False) /* Create Mana Boost Other I (4592) for Shop */
-     , (664, 2, 10696,  0, 4, 0.8, False) /* Create Apron (10696) for Wield */
      , (664, 4, 27326, -1, 0, 0, False) /* Create Stamina Tincture (27326) for Shop */;

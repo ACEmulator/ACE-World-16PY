@@ -173,6 +173,7 @@ INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `w
 VALUES (30025, 2,   115,  0, 4, 0.6, False) /* Create Leather Boots (115) for Wield */
      , (30025, 2,   124,  0, 9, 0.5, False) /* Create Jerkin (124) for Wield */
      , (30025, 2,   127,  0, 5, 0.67, False) /* Create Pants (127) for Wield */
+     , (30025, 2, 10696,  0, 1, 0.5, False) /* Create Apron (10696) for Wield */
      , (30025, 4,  1783, -1, 0, 0, False) /* Create Scroll of Focus Self III (1783) for Shop */
      , (30025, 4,  2635, -1, 0, 0, False) /* Create Scroll of Bafflement Other III (2635) for Shop */
      , (30025, 4,  2640, -1, 0, 0, False) /* Create Scroll of Clumsiness Other III (2640) for Shop */
@@ -296,7 +297,6 @@ VALUES (30025, 2,   115,  0, 4, 0.6, False) /* Create Leather Boots (115) for Wi
      , (30025, 4,  5994, -1, 0, 0, False) /* Create Scroll of Alchemy Mastery Self III (5994) for Shop */
      , (30025, 4,  9610, -1, 0, 0, False) /* Create Scroll of Mana Ineptitude Other III (9610) for Shop */
      , (30025, 4,  9626, -1, 0, 0, False) /* Create Scroll of Jumping Ineptitude III (9626) for Shop */
-     , (30025, 2, 10696,  0, 1, 0.5, False) /* Create Apron (10696) for Wield */
      , (30025, 4, 15268, -1, 0, 0, False) /* Create Foci of Enchantment (15268) for Shop */
      , (30025, 4, 28935, -1, 0, 0, False) /* Create Scroll of Arcanum Salvaging III (28935) for Shop */
      , (30025, 4, 28942, -1, 0, 0, False) /* Create Scroll of Arcanum Enlightenment III (28942) for Shop */;

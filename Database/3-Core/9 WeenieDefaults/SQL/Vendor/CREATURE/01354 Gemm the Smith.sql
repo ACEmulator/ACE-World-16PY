@@ -162,7 +162,12 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 318767235 /* Nod */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (1354, 4,    35, -1, 0, 0, False) /* Create Chainmail Basinet (35) for Shop */
+VALUES (1354, 2,   115,  0, 4, 0.8, False) /* Create Leather Boots (115) for Wield */
+     , (1354, 2,   127,  0, 9, 0.5, False) /* Create Pants (127) for Wield */
+     , (1354, 2,   130,  0, 14, 0.8, False) /* Create Shirt (130) for Wield */
+     , (1354, 2,   351,  0, 0, 0, False) /* Create Long Sword (351) for Wield */
+     , (1354, 2, 10696,  0, 4, 0.5, False) /* Create Apron (10696) for Wield */
+     , (1354, 4,    35, -1, 0, 0, False) /* Create Chainmail Basinet (35) for Shop */
      , (1354, 4,    43, -1, 0, 0, False) /* Create Yoroi Breastplate (43) for Shop */
      , (1354, 4,    55, -1, 0, 0, False) /* Create Chainmail Gauntlets (55) for Shop */
      , (1354, 4,    64, -1, 0, 0, False) /* Create Yoroi Girth (64) for Shop */
@@ -175,10 +180,7 @@ VALUES (1354, 4,    35, -1, 0, 0, False) /* Create Chainmail Basinet (35) for Sh
      , (1354, 4,    95, -1, 0, 0, False) /* Create Tower Shield (95) for Shop */
      , (1354, 4,    96, -1, 0, 0, False) /* Create Chainmail Shirt (96) for Shop */
      , (1354, 4,   108, -1, 0, 0, False) /* Create Chainmail Tassets (108) for Shop */
-     , (1354, 2,   115,  0, 4, 0.8, False) /* Create Leather Boots (115) for Wield */
      , (1354, 4,   116, -1, 0, 0, False) /* Create Studded Leather Boots (116) for Shop */
-     , (1354, 2,   127,  0, 9, 0.5, False) /* Create Pants (127) for Wield */
-     , (1354, 2,   130,  0, 14, 0.8, False) /* Create Shirt (130) for Wield */
      , (1354, 4,   301, -1, 0, 0, False) /* Create Battle Axe (301) for Shop */
      , (1354, 4,   303, -1, 0, 0, False) /* Create Hand Axe (303) for Shop */
      , (1354, 4,   304, -1, 0, 0, False) /* Create Throwing Axe (304) for Shop */
@@ -202,7 +204,6 @@ VALUES (1354, 4,    35, -1, 0, 0, False) /* Create Chainmail Basinet (35) for Sh
      , (1354, 4,   340, -1, 0, 0, False) /* Create Shamshir (340) for Shop */
      , (1354, 4,   348, -1, 0, 0, False) /* Create Spear (348) for Shop */
      , (1354, 4,   350, -1, 0, 0, False) /* Create Broad Sword (350) for Shop */
-     , (1354, 2,   351,  0, 0, 0, False) /* Create Long Sword (351) for Wield */
      , (1354, 4,   351, -1, 0, 0, False) /* Create Long Sword (351) for Shop */
      , (1354, 4,   352, -1, 0, 0, False) /* Create Short Sword (352) for Shop */
      , (1354, 4,   353, -1, 0, 0, False) /* Create Tachi (353) for Shop */
@@ -249,7 +250,6 @@ VALUES (1354, 4,    35, -1, 0, 0, False) /* Create Chainmail Basinet (35) for Sh
      , (1354, 4,  4614, -1, 0, 0, False) /* Create Moderate Mana Charge (4614) for Shop */
      , (1354, 4,  4615, -1, 0, 0, False) /* Create High Mana Charge (4615) for Shop */
      , (1354, 4,  4616, -1, 0, 0, False) /* Create Great Mana Charge (4616) for Shop */
-     , (1354, 2, 10696,  0, 4, 0.5, False) /* Create Apron (10696) for Wield */
      , (1354, 4, 20179, -1, 0, 0, False) /* Create Superb Mana Charge (20179) for Shop */
      , (1354, 4, 20628, -1, 0, 0, False) /* Create Trade Note (150,000) (20628) for Shop */
      , (1354, 4, 20629, -1, 0, 0, False) /* Create Trade Note (200,000) (20629) for Shop */

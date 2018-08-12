@@ -167,6 +167,7 @@ VALUES (652, 2,   119,  0, 2, 0.9, False) /* Create Cowl (119) for Wield */
      , (652, 2,   127,  0, 4, 0.8, False) /* Create Pants (127) for Wield */
      , (652, 2,   130,  0, 5, 0, False) /* Create Shirt (130) for Wield */
      , (652, 2,   132,  0, 5, 0, False) /* Create Shoes (132) for Wield */
+     , (652, 2, 10696,  0, 9, 0.5, False) /* Create Apron (10696) for Wield */
      , (652, 4,   136, -1, 8, 1, False) /* Create Pack (136) for Shop */
      , (652, 4,   139, -1, 84, 0, False) /* Create Small Belt Pouch (139) for Shop */
      , (652, 4,   260, -1, 0, 0, False) /* Create Cabbage (260) for Shop */
@@ -176,5 +177,4 @@ VALUES (652, 2,   119,  0, 2, 0.9, False) /* Create Cowl (119) for Wield */
      , (652, 4,  4746, -1, 0, 0, False) /* Create Water (4746) for Shop */
      , (652, 4,  4761, -1, 0, 0, False) /* Create Flour (4761) for Shop */
      , (652, 4,  4762, -1, 0, 0, False) /* Create Frying Pan (4762) for Shop */
-     , (652, 4,  4763, -1, 0, 0, False) /* Create Honey (4763) for Shop */
-     , (652, 2, 10696,  0, 9, 0.5, False) /* Create Apron (10696) for Wield */;
+     , (652, 4,  4763, -1, 0, 0, False) /* Create Honey (4763) for Shop */;

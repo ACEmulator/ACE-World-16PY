@@ -163,7 +163,12 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 318767235 /* Nod */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (862, 4,    35, -1, 0, 0, False) /* Create Chainmail Basinet (35) for Shop */
+VALUES (862, 2,   117,  0, 14, 0.8, False) /* Create Breeches (117) for Wield */
+     , (862, 2,   124,  0, 17, 1, False) /* Create Jerkin (124) for Wield */
+     , (862, 2,   132,  0, 14, 0.8, False) /* Create Shoes (132) for Wield */
+     , (862, 2,   303,  0, 0, 0, False) /* Create Hand Axe (303) for Wield */
+     , (862, 2, 10696,  0, 4, 0.5, False) /* Create Apron (10696) for Wield */
+     , (862, 4,    35, -1, 0, 0, False) /* Create Chainmail Basinet (35) for Shop */
      , (862, 4,    43, -1, 0, 0, False) /* Create Yoroi Breastplate (43) for Shop */
      , (862, 4,    55, -1, 0, 0, False) /* Create Chainmail Gauntlets (55) for Shop */
      , (862, 4,    64, -1, 0, 0, False) /* Create Yoroi Girth (64) for Shop */
@@ -177,10 +182,6 @@ VALUES (862, 4,    35, -1, 0, 0, False) /* Create Chainmail Basinet (35) for Sho
      , (862, 4,    96, -1, 0, 0, False) /* Create Chainmail Shirt (96) for Shop */
      , (862, 4,   108, -1, 0, 0, False) /* Create Chainmail Tassets (108) for Shop */
      , (862, 4,   116, -1, 0, 0, False) /* Create Studded Leather Boots (116) for Shop */
-     , (862, 2,   117,  0, 14, 0.8, False) /* Create Breeches (117) for Wield */
-     , (862, 2,   124,  0, 17, 1, False) /* Create Jerkin (124) for Wield */
-     , (862, 2,   132,  0, 14, 0.8, False) /* Create Shoes (132) for Wield */
-     , (862, 2,   303,  0, 0, 0, False) /* Create Hand Axe (303) for Wield */
      , (862, 4,   413, -1, 0, 0, False) /* Create Chainmail Bracers (413) for Shop */
      , (862, 4,   414, -1, 0, 0, False) /* Create Chainmail Breastplate (414) for Shop */
      , (862, 4,   415, -1, 0, 0, False) /* Create Chainmail Girth (415) for Shop */
@@ -195,7 +196,6 @@ VALUES (862, 4,    35, -1, 0, 0, False) /* Create Chainmail Basinet (35) for Sho
      , (862, 4,  2625, -1, 0, 0, False) /* Create Trade Note (10,000) (2625) for Shop */
      , (862, 4,  2626, -1, 0, 0, False) /* Create Trade Note (50,000) (2626) for Shop */
      , (862, 4,  2627, -1, 0, 0, False) /* Create Trade Note (100,000) (2627) for Shop */
-     , (862, 2, 10696,  0, 4, 0.5, False) /* Create Apron (10696) for Wield */
      , (862, 4, 20628, -1, 0, 0, False) /* Create Trade Note (150,000) (20628) for Shop */
      , (862, 4, 20629, -1, 0, 0, False) /* Create Trade Note (200,000) (20629) for Shop */
      , (862, 4, 20630, -1, 0, 0, False) /* Create Trade Note (250,000) (20630) for Shop */;

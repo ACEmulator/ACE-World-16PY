@@ -44,9 +44,9 @@ VALUES (8783,   1,   33556938) /* Setup */
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (8783, -1, 8790, 30000, 6, 6, 2, 8, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Obsidian Key (8790) (x6 up to max of 6) - Regenerate upon PickUp - Location to (re)Generate: Contain */
-     , (8783, -1, 8798, 30000, 1, 1, 2, 8, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Herald's Soul Crystal Shard (8798) (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: Contain */
-     , (8783, -1, 8797, 30000, 1, 1, 2, 8, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Shendolain Soul Crystal Shard (8797) (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: Contain */
-     , (8783, -1, 8796, 30000, 1, 1, 2, 8, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Caulnalain Soul Crystal Shard (8796) (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: Contain */
-     , (8783, -1, 8795, 30000, 1, 1, 2, 8, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Fenmalain Soul Crystal Shard (8795) (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: Contain */
+     , (8783, -1, 8793, 30000, 1, 1, 2, 8, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Great Work Soul Crystal Shard (8793) (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: Contain */
      , (8783, -1, 8794, 30000, 1, 1, 2, 8, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Nexus Soul Crystal Shard (8794) (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: Contain */
-     , (8783, -1, 8793, 30000, 1, 1, 2, 8, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Great Work Soul Crystal Shard (8793) (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: Contain */;
+     , (8783, -1, 8795, 30000, 1, 1, 2, 8, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Fenmalain Soul Crystal Shard (8795) (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: Contain */
+     , (8783, -1, 8796, 30000, 1, 1, 2, 8, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Caulnalain Soul Crystal Shard (8796) (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: Contain */
+     , (8783, -1, 8797, 30000, 1, 1, 2, 8, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Shendolain Soul Crystal Shard (8797) (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: Contain */
+     , (8783, -1, 8798, 30000, 1, 1, 2, 8, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Herald's Soul Crystal Shard (8798) (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: Contain */;

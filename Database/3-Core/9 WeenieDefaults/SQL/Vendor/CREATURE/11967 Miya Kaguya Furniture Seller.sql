@@ -167,6 +167,7 @@ VALUES (11967, 2,   115,  0, 9, 1, False) /* Create Leather Boots (115) for Wiel
      , (11967, 2,   117,  0, 18, 1, False) /* Create Breeches (117) for Wield */
      , (11967, 2,   128,  0, 10, 1, False) /* Create Qafiya (128) for Wield */
      , (11967, 2,   130,  0, 9, 1, False) /* Create Shirt (130) for Wield */
+     , (11967, 2, 10696,  0, 18, 1, False) /* Create Apron (10696) for Wield */
      , (11967, 4,   247, -1, 0, 0, False) /* Create Outcast (247) for Shop */
      , (11967, 4,   248, -1, 0, 0, False) /* Create Olthoi Enslavement (248) for Shop */
      , (11967, 4,   249, -1, 0, 0, False) /* Create Into the Unknown (249) for Shop */
@@ -176,7 +177,6 @@ VALUES (11967, 2,   115,  0, 9, 1, False) /* Create Leather Boots (115) for Wiel
      , (11967, 4,   272, -1, 0, 0, False) /* Create Chair (272) for Shop */
      , (11967, 4,   274, -1, 0, 0, False) /* Create Couch (274) for Shop */
      , (11967, 4,   276, -1, 0, 0, False) /* Create Desk (276) for Shop */
-     , (11967, 2, 10696,  0, 18, 1, False) /* Create Apron (10696) for Wield */
      , (11967, 4, 11149, -1, 0, 0, False) /* Create Head of the Olthoi Queen (11149) for Shop */
      , (11967, 4, 11930, -1, 0, 0, False) /* Create Arcane Pedestal (11930) for Shop */
      , (11967, 4, 11931, -1, 0, 0, False) /* Create Dereth Map (11931) for Shop */

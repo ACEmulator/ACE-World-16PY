@@ -188,7 +188,8 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 318767235 /* Nod */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (5647, 4,   377, -1, 0, 0, False) /* Create Potion of Healing (377) for Shop */
+VALUES (5647, 2,  5851,  0, 4, 0.5, False) /* Create Faran Robe with Hood (5851) for Wield */
+     , (5647, 4,   377, -1, 0, 0, False) /* Create Potion of Healing (377) for Shop */
      , (5647, 4,   378, -1, 0, 0, False) /* Create Stamina Potion (378) for Shop */
      , (5647, 4,   379, -1, 0, 0, False) /* Create Mana Potion (379) for Shop */
      , (5647, 4,   628, -1, 0, 0, False) /* Create Handy Healing Kit (628) for Shop */
@@ -205,7 +206,6 @@ VALUES (5647, 4,   377, -1, 0, 0, False) /* Create Potion of Healing (377) for S
      , (5647, 4,  4605, -1, 0, 0, False) /* Create Coordination Other II (4605) for Shop */
      , (5647, 4,  4607, -1, 0, 0, False) /* Create Quickness Other II (4607) for Shop */
      , (5647, 4,  5645, -1, 0, 0, False) /* Create History of Neydisa Castle. (5645) for Shop */
-     , (5647, 2,  5851,  0, 4, 0.5, False) /* Create Faran Robe with Hood (5851) for Wield */
      , (5647, 4, 27319, -1, 0, 0, False) /* Create Health Tincture (27319) for Shop */
      , (5647, 4, 27322, -1, 0, 0, False) /* Create Mana Tincture (27322) for Shop */
      , (5647, 4, 27326, -1, 0, 0, False) /* Create Stamina Tincture (27326) for Shop */;

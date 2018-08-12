@@ -163,7 +163,11 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 318767235 /* Nod */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (4688, 4,    36, -1, 0, 0, False) /* Create Leather Bracers (36) for Shop */
+VALUES (4688, 2,   117,  0, 18, 1, False) /* Create Breeches (117) for Wield */
+     , (4688, 2,   133,  0, 9, 1, False) /* Create Slippers (133) for Wield */
+     , (4688, 2,  2587,  0, 9, 1, False) /* Create Shirt (2587) for Wield */
+     , (4688, 2, 10696,  0, 6, 0.5, False) /* Create Apron (10696) for Wield */
+     , (4688, 4,    36, -1, 0, 0, False) /* Create Leather Bracers (36) for Shop */
      , (4688, 4,    39, -1, 0, 0, False) /* Create Leather Breastplate (39) for Shop */
      , (4688, 4,    44, -1, 0, 0, False) /* Create Buckler (44) for Shop */
      , (4688, 4,    45, -1, 0, 0, False) /* Create Leather Cap (45) for Shop */
@@ -174,8 +178,6 @@ VALUES (4688, 4,    36, -1, 0, 0, False) /* Create Leather Bracers (36) for Shop
      , (4688, 4,    86, -1, 0, 0, False) /* Create Leather Pauldrons (86) for Shop */
      , (4688, 4,   109, -1, 0, 0, False) /* Create Leather Tassets (109) for Shop */
      , (4688, 4,   115, -1, 0, 0, False) /* Create Leather Boots (115) for Shop */
-     , (4688, 2,   117,  0, 18, 1, False) /* Create Breeches (117) for Wield */
-     , (4688, 2,   133,  0, 9, 1, False) /* Create Slippers (133) for Wield */
      , (4688, 4,   136, -1, 61, 1, False) /* Create Pack (136) for Shop */
      , (4688, 4,   151, -1, 0, 0, False) /* Create Empty Flask (151) for Shop */
      , (4688, 4,   258, -1, 0, 0, False) /* Create Apple (258) for Shop */
@@ -191,7 +193,6 @@ VALUES (4688, 4,    36, -1, 0, 0, False) /* Create Leather Bracers (36) for Shop
      , (4688, 4,   365, -1, 0, 0, False) /* Create Parchment (365) for Shop */
      , (4688, 4,   458, -1, 0, 0, False) /* Create Leather Cowl (458) for Shop */
      , (4688, 4,   551, -1, 0, 0, False) /* Create Leather Basinet (551) for Shop */
-     , (4688, 2,  2587,  0, 9, 1, False) /* Create Shirt (2587) for Wield */
      , (4688, 4,  2621, -1, 0, 0, False) /* Create Trade Note (100) (2621) for Shop */
      , (4688, 4,  4585, -1, 0, 0, False) /* Create Bundle of Arrowshafts (4585) for Shop */
      , (4688, 4,  4586, -1, 0, 0, False) /* Create Bundle of Arrowheads (4586) for Shop */
@@ -202,7 +203,6 @@ VALUES (4688, 4,    36, -1, 0, 0, False) /* Create Leather Bracers (36) for Shop
      , (4688, 4,  5339, -1, 0, 0, False) /* Create Bundle of Quarrelshafts (5339) for Shop */
      , (4688, 4,  5778, -1, 0, 0, False) /* Create Whittling Knife (5778) for Shop */
      , (4688, 4,  5778, -1, 0, 0, False) /* Create Whittling Knife (5778) for Shop */
-     , (4688, 2, 10696,  0, 6, 0.5, False) /* Create Apron (10696) for Wield */
      , (4688, 4, 12463, -1, 0, 0, False) /* Create Atlatl (12463) for Shop */
      , (4688, 4, 12464, -1, 0, 0, False) /* Create Atlatl Dart (12464) for Shop */
      , (4688, 4, 22163, -1, 0, 0, False) /* Create Nabut (22163) for Shop */;

@@ -267,7 +267,10 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   8 /* Say */, 0, 0, NULL, 'Well, then. Defend yourself.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (10950, 9,     0,  0, 0, 0, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 3 for ContainTreasure */
+VALUES (10950, 1, 10960,  1, 0, 1, False) /* Create Clay Figurine (10960) for Contain */
+     , (10950, 1, 10996,  1, 0, 1, False) /* Create Ebon Spine Harpoon (10996) for Contain */
+     , (10950, 2, 10995,  0, 0, 1, False) /* Create Ebon Spine Harpoon (10995) for Wield */
+     , (10950, 9,     0,  0, 0, 0, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 3 for ContainTreasure */
      , (10950, 9,     0,  0, 0, 0, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 3 for ContainTreasure */
      , (10950, 9,  4235,  0, 0, 0.1, False) /* Create Thin Gromnie Hide (4235) for ContainTreasure */
      , (10950, 9,  4236,  0, 0, 0.2, False) /* Create Ivory Gromnie Hide (4236) for ContainTreasure */
@@ -276,9 +279,6 @@ VALUES (10950, 9,     0,  0, 0, 0, False) /* Create RANDOMLY GENERATED TREASURE 
      , (10950, 9,  4241,  0, 0, 0.7, False) /* Create Mattekar Hide (4241) for ContainTreasure */
      , (10950, 9,  9412,  0, 0, 0.05, False) /* Create Dire Mattekar Paw (9412) for ContainTreasure */
      , (10950, 9,  9413,  0, 0, 0.05, False) /* Create Dread Mattekar Paw (9413) for ContainTreasure */
-     , (10950, 1, 10960,  1, 0, 1, False) /* Create Clay Figurine (10960) for Contain */
-     , (10950, 2, 10995,  0, 0, 1, False) /* Create Ebon Spine Harpoon (10995) for Wield */
-     , (10950, 1, 10996,  1, 0, 1, False) /* Create Ebon Spine Harpoon (10996) for Contain */
      , (10950, 9, 10997, 10, 0, 1, False) /* Create Ebon Spine Harpoon (10997) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)

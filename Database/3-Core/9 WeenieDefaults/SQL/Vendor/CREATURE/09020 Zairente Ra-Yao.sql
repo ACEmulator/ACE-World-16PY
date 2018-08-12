@@ -191,7 +191,12 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   1 /* Act */, 0, 1, NULL, 'Zairente hums, "Little rabbit Poo-kie / running through the Di-res / scooping up the mon-archs / and BANGING ''em on the head."', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (9020, 4,    35, -1, 0, 0, False) /* Create Chainmail Basinet (35) for Shop */
+VALUES (9020, 2,  3905,  0, 0, 0, False) /* Create Acid War Hammer (3905) for Wield */
+     , (9020, 2,  7647,  0, 0, 0, False) /* Create Greater Koujia Breastplate of Lightning (7647) for Wield */
+     , (9020, 2,  7724,  0, 0, 0, False) /* Create Greater Koujia Leggings of Lightning (7724) for Wield */
+     , (9020, 2,  7754,  0, 0, 0, False) /* Create Greater Koujia Sleeves of Lightning (7754) for Wield */
+     , (9020, 2,  7897,  0, 3, 0.5, False) /* Create Steel Toed Boots (7897) for Wield */
+     , (9020, 4,    35, -1, 0, 0, False) /* Create Chainmail Basinet (35) for Shop */
      , (9020, 4,    43, -1, 0, 0, False) /* Create Yoroi Breastplate (43) for Shop */
      , (9020, 4,    55, -1, 0, 0, False) /* Create Chainmail Gauntlets (55) for Shop */
      , (9020, 4,    64, -1, 0, 0, False) /* Create Yoroi Girth (64) for Shop */
@@ -227,12 +232,7 @@ VALUES (9020, 4,    35, -1, 0, 0, False) /* Create Chainmail Basinet (35) for Sh
      , (9020, 4,  2625, -1, 0, 0, False) /* Create Trade Note (10,000) (2625) for Shop */
      , (9020, 4,  2626, -1, 0, 0, False) /* Create Trade Note (50,000) (2626) for Shop */
      , (9020, 4,  2627, -1, 0, 0, False) /* Create Trade Note (100,000) (2627) for Shop */
-     , (9020, 2,  3905,  0, 0, 0, False) /* Create Acid War Hammer (3905) for Wield */
      , (9020, 4,  4195, -1, 0, 0, False) /* Create Nekode (4195) for Shop */
-     , (9020, 2,  7647,  0, 0, 0, False) /* Create Greater Koujia Breastplate of Lightning (7647) for Wield */
-     , (9020, 2,  7724,  0, 0, 0, False) /* Create Greater Koujia Leggings of Lightning (7724) for Wield */
-     , (9020, 2,  7754,  0, 0, 0, False) /* Create Greater Koujia Sleeves of Lightning (7754) for Wield */
-     , (9020, 2,  7897,  0, 3, 0.5, False) /* Create Steel Toed Boots (7897) for Wield */
      , (9020, 4,  9026, -1, 0, 0, False) /* Create Peculiar Old Dagger (9026) for Shop */
      , (9020, 4, 20628, -1, 0, 0, False) /* Create Trade Note (150,000) (20628) for Shop */
      , (9020, 4, 20629, -1, 0, 0, False) /* Create Trade Note (200,000) (20629) for Shop */

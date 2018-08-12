@@ -166,6 +166,7 @@ INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `w
 VALUES (11398, 2,   117,  0, 8, 0.8, False) /* Create Breeches (117) for Wield */
      , (11398, 2,   132,  0, 2, 1, False) /* Create Shoes (132) for Wield */
      , (11398, 2,   134,  0, 9, 0.8, False) /* Create Tunic (134) for Wield */
+     , (11398, 2, 10696,  0, 17, 1, False) /* Create Apron (10696) for Wield */
      , (11398, 4,   136, -1, 14, 1, False) /* Create Pack (136) for Shop */
      , (11398, 4,   263, -1, 0, 0, False) /* Create Fish (263) for Shop */
      , (11398, 4,   364, -1, 0, 0, False) /* Create Book (364) for Shop */
@@ -191,7 +192,6 @@ VALUES (11398, 2,   117,  0, 8, 0.8, False) /* Create Breeches (117) for Wield *
      , (11398, 4,  5758, -1, 0, 0, False) /* Create Carrot (5758) for Shop */
      , (11398, 4,  5856, -1, 0, 0, False) /* Create Specialty Cookbook (5856) for Shop */
      , (11398, 4,  7884, -1, 0, 0, False) /* Create Chocolate Cookbook (7884) for Shop */
-     , (11398, 2, 10696,  0, 17, 1, False) /* Create Apron (10696) for Wield */
      , (11398, 4, 14797, -1, 0, 0, False) /* Create Festival Cookbook (14797) for Shop */
      , (11398, 4, 23326, -1, 0, 0, False) /* Create Elaborate Dried Rations (23326) for Shop */
      , (11398, 4, 23327, -1, 0, 0, False) /* Create Simple Dried Rations (23327) for Shop */

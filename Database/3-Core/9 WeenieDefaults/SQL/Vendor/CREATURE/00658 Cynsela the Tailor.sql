@@ -164,14 +164,15 @@ VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 318767235 /* Nod */, NULL, NULL,
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (658, 2,   117,  0, 8, 0, False) /* Create Breeches (117) for Wield */
+     , (658, 2,   132,  0, 8, 0, False) /* Create Shoes (132) for Wield */
+     , (658, 2,   134,  0, 5, 0, False) /* Create Tunic (134) for Wield */
+     , (658, 2, 10696,  0, 9, 0.5, False) /* Create Apron (10696) for Wield */
      , (658, 4,   118, -1, 8, 0, False) /* Create Cap (118) for Shop */
      , (658, 4,   118, -1, 4, 0.6, False) /* Create Cap (118) for Shop */
      , (658, 4,   118, -1, 9, 0, False) /* Create Cap (118) for Shop */
-     , (658, 2,   132,  0, 8, 0, False) /* Create Shoes (132) for Wield */
      , (658, 4,   132, -1, 8, 0, False) /* Create Shoes (132) for Shop */
      , (658, 4,   132, -1, 4, 0.6, False) /* Create Shoes (132) for Shop */
      , (658, 4,   132, -1, 9, 0, False) /* Create Shoes (132) for Shop */
-     , (658, 2,   134,  0, 5, 0, False) /* Create Tunic (134) for Wield */
      , (658, 4,   134, -1, 8, 0, False) /* Create Tunic (134) for Shop */
      , (658, 4,   134, -1, 4, 0.6, False) /* Create Tunic (134) for Shop */
      , (658, 4,   134, -1, 9, 0, False) /* Create Tunic (134) for Shop */
@@ -180,5 +181,4 @@ VALUES (658, 2,   117,  0, 8, 0, False) /* Create Breeches (117) for Wield */
      , (658, 4,  2604, -1, 9, 0, False) /* Create Breeches (2604) for Shop */
      , (658, 4,  5850, -1, 4, 0.5, False) /* Create Faran Robe (5850) for Shop */
      , (658, 4,  5851, -1, 4, 0.5, False) /* Create Faran Robe with Hood (5851) for Shop */
-     , (658, 4,  8371, -1, 2, 0.2, False) /* Create Kireth Gown with Band (8371) for Shop */
-     , (658, 2, 10696,  0, 9, 0.5, False) /* Create Apron (10696) for Wield */;
+     , (658, 4,  8371, -1, 2, 0.2, False) /* Create Kireth Gown with Band (8371) for Shop */;

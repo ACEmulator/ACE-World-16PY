@@ -182,6 +182,7 @@ INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `w
 VALUES (663, 2,   127,  0, 9, 0, False) /* Create Pants (127) for Wield */
      , (663, 2,   130,  0, 8, 0.2, False) /* Create Shirt (130) for Wield */
      , (663, 2,   132,  0, 5, 0.67, False) /* Create Shoes (132) for Wield */
+     , (663, 2, 10696,  0, 18, 1, False) /* Create Apron (10696) for Wield */
      , (663, 4,   262, -1, 0, 0, False) /* Create Chicken (262) for Shop */
      , (663, 4,   513, -1, 0, 0, False) /* Create Plain Lockpick (513) for Shop */
      , (663, 4,   545, -1, 0, 0, False) /* Create Reliable Lockpick (545) for Shop */
@@ -193,7 +194,6 @@ VALUES (663, 2,   127,  0, 9, 0, False) /* Create Pants (127) for Wield */
      , (663, 4,  4766, -1, 0, 0, False) /* Create Rennet (4766) for Shop */
      , (663, 4,  7824, -1, 0, 0, False) /* Create Metal Press (7824) for Shop */
      , (663, 4,  9295, -1, 0, 0, False) /* Create Intricate Carving Tool (9295) for Shop */
-     , (663, 2, 10696,  0, 18, 1, False) /* Create Apron (10696) for Wield */
      , (663, 4, 20646, -1, 0, 0, False) /* Create Ust (20646) for Shop */
      , (663, 4, 21093, -1, 0, 0, False) /* Create Tinkering (21093) for Shop */
      , (663, 4, 23044, -1, 0, 0, False) /* Create On the Abilities of Salvaged Ivory (23044) for Shop */

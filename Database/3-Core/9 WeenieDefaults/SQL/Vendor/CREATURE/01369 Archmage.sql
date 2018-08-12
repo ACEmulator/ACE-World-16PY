@@ -165,6 +165,7 @@ INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `w
 VALUES (1369, 2,   117,  0, 17, 1, False) /* Create Breeches (117) for Wield */
      , (1369, 2,   124,  0, 9, 0, False) /* Create Jerkin (124) for Wield */
      , (1369, 2,   132,  0, 8, 0, False) /* Create Shoes (132) for Wield */
+     , (1369, 2, 10696,  0, 10, 0.5, False) /* Create Apron (10696) for Wield */
      , (1369, 4,   625, -1, 0, 0, False) /* Create Ginseng (625) for Shop */
      , (1369, 4,   626, -1, 0, 0, False) /* Create Powdered Hematite (626) for Shop */
      , (1369, 4,   627, -1, 0, 0, False) /* Create Alder Talisman (627) for Shop */
@@ -256,7 +257,6 @@ VALUES (1369, 2,   117,  0, 17, 1, False) /* Create Breeches (117) for Wield */
      , (1369, 4,  4751, -1, 0, 0, False) /* Create Mortar and Pestle (4751) for Shop */
      , (1369, 4,  5338, -1, 0, 0, False) /* Create Neutral Balm (5338) for Shop */
      , (1369, 4,  5539, -1, 0, 0, False) /* Create Wand (5539) for Shop */
-     , (1369, 2, 10696,  0, 10, 0.5, False) /* Create Apron (10696) for Wield */
      , (1369, 4, 20628, -1, 0, 0, False) /* Create Trade Note (150,000) (20628) for Shop */
      , (1369, 4, 20629, -1, 0, 0, False) /* Create Trade Note (200,000) (20629) for Shop */
      , (1369, 4, 20630, -1, 0, 0, False) /* Create Trade Note (250,000) (20630) for Shop */

@@ -167,6 +167,7 @@ VALUES (860, 2,   117,  0, 17, 1, False) /* Create Breeches (117) for Wield */
      , (860, 2,   118,  0, 5, 0, False) /* Create Cap (118) for Wield */
      , (860, 2,   124,  0, 14, 0.8, False) /* Create Jerkin (124) for Wield */
      , (860, 2,   132,  0, 14, 0.8, False) /* Create Shoes (132) for Wield */
+     , (860, 2, 10696,  0, 10, 0.5, False) /* Create Apron (10696) for Wield */
      , (860, 4,  2451, -1, 0, 0, False) /* Create Ale (2451) for Shop */
      , (860, 4,  2456, -1, 0, 0, False) /* Create Green Tea (2456) for Shop */
      , (860, 4,  2466, -1, 0, 0, False) /* Create Red Tea (2466) for Shop */
@@ -178,6 +179,5 @@ VALUES (860, 2,   117,  0, 17, 1, False) /* Create Breeches (117) for Wield */
      , (860, 4,  4744, -1, 0, 0, False) /* Create Sushi (4744) for Shop */
      , (860, 4,  4746, -1, 0, 0, False) /* Create Water (4746) for Shop */
      , (860, 4,  8378, -1, 0, 0, False) /* Create Beer Stein (8378) for Shop */
-     , (860, 2, 10696,  0, 10, 0.5, False) /* Create Apron (10696) for Wield */
      , (860, 4, 13202, -1, 0, 0, False) /* Create Sho Festival Light (13202) for Shop */
      , (860, 4, 22730, -1, 0, 0, False) /* Create Holiday Pole (22730) for Shop */;

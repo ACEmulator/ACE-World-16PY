@@ -222,9 +222,9 @@ VALUES (13227, 2,   115,  0, 4, 1, False) /* Create Leather Boots (115) for Wiel
      , (13227, 2,   119,  0, 7, 0.8, False) /* Create Cowl (119) for Wield */
      , (13227, 2,   122,  0, 84, 0.5, False) /* Create Soft Leather Gloves (122) for Wield */
      , (13227, 2,   127,  0, 7, 0.5, False) /* Create Pants (127) for Wield */
-     , (13227, 4,   244, -1, 0, 0, False) /* Create Wood (244) for Shop */
      , (13227, 2,   301,  0, 8, 0, False) /* Create Battle Axe (301) for Wield */
      , (13227, 2, 10696,  0, 6, 0.5, False) /* Create Apron (10696) for Wield */
+     , (13227, 4,   244, -1, 0, 0, False) /* Create Wood (244) for Shop */
      , (13227, 4, 13199, -1, 0, 0, False) /* Create Small Pine Tree (13199) for Shop */
      , (13227, 4, 13209, -1, 0, 0, False) /* Create Wreath (13209) for Shop */
      , (13227, 4, 13228, -1, 0, 0, False) /* Create Large Pine Tree (13228) for Shop */

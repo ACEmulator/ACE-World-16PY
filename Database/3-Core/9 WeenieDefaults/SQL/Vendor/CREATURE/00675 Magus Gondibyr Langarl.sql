@@ -197,6 +197,7 @@ INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `w
 VALUES (675, 2,   127,  0, 5, 0.67, False) /* Create Pants (127) for Wield */
      , (675, 2,   130,  0, 13, 0.5, False) /* Create Shirt (130) for Wield */
      , (675, 2,   132,  0, 4, 0.6, False) /* Create Shoes (132) for Wield */
+     , (675, 2, 10696,  0, 9, 1, False) /* Create Apron (10696) for Wield */
      , (675, 4,   364, -1, 0, 0, False) /* Create Book (364) for Shop */
      , (675, 4,   365, -1, 0, 0, False) /* Create Parchment (365) for Shop */
      , (675, 4,   367, -1, 0, 0, False) /* Create Tome (367) for Shop */
@@ -396,7 +397,6 @@ VALUES (675, 2,   127,  0, 5, 0.67, False) /* Create Pants (127) for Wield */
      , (675, 4,  8397, -1, 0, 0, False) /* Create The Breaking of the Crystal Core (8397) for Shop */
      , (675, 4,  9342, -1, 0, 0, False) /* Create Concentrated Aqua Incanta (9342) for Shop */
      , (675, 4,  9379, -1, 0, 0, False) /* Create Eye Dropper (9379) for Shop */
-     , (675, 2, 10696,  0, 9, 1, False) /* Create Apron (10696) for Wield */
      , (675, 4, 14797, -1, 0, 0, False) /* Create Festival Cookbook (14797) for Shop */
      , (675, 4, 20628, -1, 0, 0, False) /* Create Trade Note (150,000) (20628) for Shop */
      , (675, 4, 20629, -1, 0, 0, False) /* Create Trade Note (200,000) (20629) for Shop */

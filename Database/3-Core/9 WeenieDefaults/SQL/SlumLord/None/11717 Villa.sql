@@ -23,7 +23,7 @@ VALUES (11717,   1,   33557167) /* Setup */
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (11717, 16,   273, 2000000, 0, 0, False) /* Create Pyreal (273) for HouseBuy */
-     , (11717, 32,   273, 100000, 0, 0, False) /* Create Pyreal (273) for HouseRent */
      , (11717, 16,  3700,  1, 0, 0, False) /* Create Gold Phyntos Wasp Wing (3700) for HouseBuy */
      , (11717, 16, 11710,  5, 0, 0, False) /* Create Writ of Refuge (11710) for HouseBuy */
+     , (11717, 32,   273, 100000, 0, 0, False) /* Create Pyreal (273) for HouseRent */
      , (11717, 32, 11710,  2, 0, 0, False) /* Create Writ of Refuge (11710) for HouseRent */;

@@ -164,6 +164,9 @@ VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 318767235 /* Nod */, NULL, NULL,
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (8493, 2,   130,  0, 8, 0.5, False) /* Create Shirt (130) for Wield */
+     , (8493, 2,  2597,  0, 9, 0.6, False) /* Create Pants (2597) for Wield */
+     , (8493, 2,  7897,  0, 9, 0, False) /* Create Steel Toed Boots (7897) for Wield */
+     , (8493, 2, 10696,  0, 6, 0, False) /* Create Apron (10696) for Wield */
      , (8493, 4,   259, -1, 0, 0, False) /* Create Bread (259) for Shop */
      , (8493, 4,   364, -1, 0, 0, False) /* Create Book (364) for Shop */
      , (8493, 4,   365, -1, 0, 0, False) /* Create Parchment (365) for Shop */
@@ -175,7 +178,6 @@ VALUES (8493, 2,   130,  0, 8, 0.5, False) /* Create Shirt (130) for Wield */
      , (8493, 4,  2462, -1, 0, 0, False) /* Create Mead (2462) for Shop */
      , (8493, 4,  2463, -1, 0, 0, False) /* Create Milk (2463) for Shop */
      , (8493, 4,  2471, -1, 0, 0, False) /* Create Stout (2471) for Shop */
-     , (8493, 2,  2597,  0, 9, 0.6, False) /* Create Pants (2597) for Wield */
      , (8493, 4,  2621, -1, 0, 0, False) /* Create Trade Note (100) (2621) for Shop */
      , (8493, 4,  2622, -1, 0, 0, False) /* Create Trade Note (500) (2622) for Shop */
      , (8493, 4,  2623, -1, 0, 0, False) /* Create Trade Note (1,000) (2623) for Shop */
@@ -186,10 +188,8 @@ VALUES (8493, 2,   130,  0, 8, 0.5, False) /* Create Shirt (130) for Wield */
      , (8493, 4,  4741, -1, 0, 0, False) /* Create Pizza (4741) for Shop */
      , (8493, 4,  4746, -1, 0, 0, False) /* Create Water (4746) for Shop */
      , (8493, 4,  7878, -1, 0, 0, False) /* Create Sausage (7878) for Shop */
-     , (8493, 2,  7897,  0, 9, 0, False) /* Create Steel Toed Boots (7897) for Wield */
      , (8493, 4,  8378, -1, 0, 0, False) /* Create Beer Stein (8378) for Shop */
      , (8493, 4,  8556, -1, 0, 0, False) /* Create The History of the Vesayen Isles (8556) for Shop */
      , (8493, 4,  8557, -1, 0, 0, False) /* Create Mosswart Feud Rumor (8557) for Shop */
      , (8493, 4,  8558, -1, 0, 0, False) /* Create Rumuba Rumor (8558) for Shop */
-     , (8493, 2, 10696,  0, 6, 0, False) /* Create Apron (10696) for Wield */
      , (8493, 4, 27792, -1, 0, 0, False) /* Create The Moars (27792) for Shop */;

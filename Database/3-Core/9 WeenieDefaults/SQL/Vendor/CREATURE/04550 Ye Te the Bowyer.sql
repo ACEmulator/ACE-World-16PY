@@ -165,6 +165,9 @@ VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 318767235 /* Nod */, NULL, NULL,
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (4550, 2,   124,  0, 18, 1, False) /* Create Jerkin (124) for Wield */
      , (4550, 2,   132,  0, 14, 0.8, False) /* Create Shoes (132) for Wield */
+     , (4550, 2,   363,  0, 0, 0, False) /* Create Yumi (363) for Wield */
+     , (4550, 2,  2601,  0, 14, 0.8, False) /* Create Pants (2601) for Wield */
+     , (4550, 2, 10696,  0, 4, 0.5, False) /* Create Apron (10696) for Wield */
      , (4550, 4,   300, -1, 0, 0, False) /* Create Arrow (300) for Shop */
      , (4550, 4,   304, -1, 0, 0, False) /* Create Throwing Axe (304) for Shop */
      , (4550, 4,   305, -1, 0, 0, False) /* Create Quarrel (305) for Shop */
@@ -173,8 +176,6 @@ VALUES (4550, 2,   124,  0, 18, 1, False) /* Create Jerkin (124) for Wield */
      , (4550, 4,   316, -1, 0, 0, False) /* Create Throwing Dart (316) for Shop */
      , (4550, 4,   320, -1, 0, 0, False) /* Create Javelin (320) for Shop */
      , (4550, 4,   341, -1, 0, 0, False) /* Create Shouyumi (341) for Shop */
-     , (4550, 2,   363,  0, 0, 0, False) /* Create Yumi (363) for Wield */
-     , (4550, 2,  2601,  0, 14, 0.8, False) /* Create Pants (2601) for Wield */
      , (4550, 4,  2621, -1, 0, 0, False) /* Create Trade Note (100) (2621) for Shop */
      , (4550, 4,  2622, -1, 0, 0, False) /* Create Trade Note (500) (2622) for Shop */
      , (4550, 4,  2623, -1, 0, 0, False) /* Create Trade Note (1,000) (2623) for Shop */
@@ -196,7 +197,6 @@ VALUES (4550, 2,   124,  0, 18, 1, False) /* Create Jerkin (124) for Wield */
      , (4550, 4,  9363, -1, 0, 0, False) /* Create Wrapped Bundle of Broad Arrowheads (9363) for Shop */
      , (4550, 4,  9377, -1, 0, 0, False) /* Create Wrapped Bundle of Arrowshafts (9377) for Shop */
      , (4550, 4,  9378, -1, 0, 0, False) /* Create Wrapped Bundle of Quarrelshafts (9378) for Shop */
-     , (4550, 2, 10696,  0, 4, 0.5, False) /* Create Apron (10696) for Wield */
      , (4550, 4, 12463, -1, 0, 0, False) /* Create Atlatl (12463) for Shop */
      , (4550, 4, 12464, -1, 0, 0, False) /* Create Atlatl Dart (12464) for Shop */
      , (4550, 4, 15296, -1, 0, 0, False) /* Create Bundle of Atlatl Dart Shafts (15296) for Shop */

@@ -166,6 +166,7 @@ INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `w
 VALUES (693, 2,   115,  0, 4, 0.6, False) /* Create Leather Boots (115) for Wield */
      , (693, 2,   127,  0, 5, 0.67, False) /* Create Pants (127) for Wield */
      , (693, 2,   134,  0, 9, 0.5, False) /* Create Tunic (134) for Wield */
+     , (693, 2, 10696,  0, 9, 1, False) /* Create Apron (10696) for Wield */
      , (693, 4,   261, -1, 0, 0, False) /* Create Cheese (261) for Shop */
      , (693, 4,   620, -1, 0, 0, False) /* Create Cake (620) for Shop */
      , (693, 4,  2451, -1, 0, 0, False) /* Create Ale (2451) for Shop */
@@ -177,6 +178,5 @@ VALUES (693, 2,   115,  0, 4, 0.6, False) /* Create Leather Boots (115) for Wiel
      , (693, 4,  4746, -1, 0, 0, False) /* Create Water (4746) for Shop */
      , (693, 4,  6416, -1, 0, 0, False) /* Create A Shivering Stone (6416) for Shop */
      , (693, 4,  6420, -1, 0, 0, False) /* Create The Obsidian Span (6420) for Shop */
-     , (693, 2, 10696,  0, 9, 1, False) /* Create Apron (10696) for Wield */
      , (693, 4, 11929, -1, 0, 0, False) /* Create A Call To Arms (11929) for Shop */
      , (693, 4, 24034, -1, 0, 0, False) /* Create The Lost Wish Lovers (24034) for Shop */;

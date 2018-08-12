@@ -51,5 +51,5 @@ VALUES (27659,   1,   33558692) /* Setup */
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (27659, -1, 27654, 0, 1, 1, 2, 8, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Coarse Hide Shirt (27654) (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: Contain */
-     , (27659, -1, 27706, 0, 1, 1, 2, 8, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Mana Oil (27706) (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: Contain */
-     , (27659, -1, 27670, 0, 1, 1, 2, 8, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Distilled Mana Potion (27670) (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: Contain */;
+     , (27659, -1, 27670, 0, 1, 1, 2, 8, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Distilled Mana Potion (27670) (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: Contain */
+     , (27659, -1, 27706, 0, 1, 1, 2, 8, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Mana Oil (27706) (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: Contain */;

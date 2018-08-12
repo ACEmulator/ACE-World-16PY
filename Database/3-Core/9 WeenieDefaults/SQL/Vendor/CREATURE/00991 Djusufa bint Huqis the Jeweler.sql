@@ -186,6 +186,7 @@ VALUES (991, 2,   115,  0, 14, 0, False) /* Create Leather Boots (115) for Wield
      , (991, 2,   127,  0, 10, 1, False) /* Create Pants (127) for Wield */
      , (991, 2,   134,  0, 10, 1, False) /* Create Tunic (134) for Wield */
      , (991, 2,   135,  0, 14, 0, False) /* Create Turban (135) for Wield */
+     , (991, 2, 10696,  0, 9, 0.5, False) /* Create Apron (10696) for Wield */
      , (991, 4,   294, -1, 0, 0, False) /* Create Amulet (294) for Shop */
      , (991, 4,   622, -1, 0, 0, False) /* Create Necklace (622) for Shop */
      , (991, 4,  2399, -1, 0, 0, False) /* Create White Jade (2399) for Shop */
@@ -197,7 +198,6 @@ VALUES (991, 2,   115,  0, 14, 0, False) /* Create Leather Boots (115) for Wield
      , (991, 4,  2625, -1, 0, 0, False) /* Create Trade Note (10,000) (2625) for Shop */
      , (991, 4,  2626, -1, 0, 0, False) /* Create Trade Note (50,000) (2626) for Shop */
      , (991, 4,  2627, -1, 0, 0, False) /* Create Trade Note (100,000) (2627) for Shop */
-     , (991, 2, 10696,  0, 9, 0.5, False) /* Create Apron (10696) for Wield */
      , (991, 4, 20628, -1, 0, 0, False) /* Create Trade Note (150,000) (20628) for Shop */
      , (991, 4, 20629, -1, 0, 0, False) /* Create Trade Note (200,000) (20629) for Shop */
      , (991, 4, 20630, -1, 0, 0, False) /* Create Trade Note (250,000) (20630) for Shop */;

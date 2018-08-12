@@ -167,8 +167,9 @@ VALUES (976, 2,   117,  0, 9, 0, False) /* Create Breeches (117) for Wield */
      , (976, 2,   124,  0, 1, 0.67, False) /* Create Jerkin (124) for Wield */
      , (976, 2,   128,  0, 1, 0.67, False) /* Create Qafiya (128) for Wield */
      , (976, 2,   133,  0, 9, 0, False) /* Create Slippers (133) for Wield */
-     , (976, 4,   308, -1, 0, 0, False) /* Create Budiaq (308) for Shop */
      , (976, 2,   313,  0, 0, 0, False) /* Create Dabus (313) for Wield */
+     , (976, 2, 10696,  0, 4, 0.8, False) /* Create Apron (10696) for Wield */
+     , (976, 4,   308, -1, 0, 0, False) /* Create Budiaq (308) for Shop */
      , (976, 4,   313, -1, 0, 0, False) /* Create Dabus (313) for Shop */
      , (976, 4,   315, -1, 0, 0, False) /* Create Throwing Dagger (315) for Shop */
      , (976, 4,   316, -1, 0, 0, False) /* Create Throwing Dart (316) for Shop */
@@ -179,5 +180,4 @@ VALUES (976, 2,   117,  0, 9, 0, False) /* Create Breeches (117) for Wield */
      , (976, 4,  2621, -1, 0, 0, False) /* Create Trade Note (100) (2621) for Shop */
      , (976, 4,  2622, -1, 0, 0, False) /* Create Trade Note (500) (2622) for Shop */
      , (976, 4,  2623, -1, 0, 0, False) /* Create Trade Note (1,000) (2623) for Shop */
-     , (976, 2, 10696,  0, 4, 0.8, False) /* Create Apron (10696) for Wield */
      , (976, 4, 22163, -1, 0, 0, False) /* Create Nabut (22163) for Shop */;
