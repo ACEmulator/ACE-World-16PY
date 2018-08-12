@@ -180,6 +180,8 @@ VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 318767235 /* Nod */, NULL, NULL,
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (7588, 2,   127,  0, 9, 0.5, False) /* Create Pants (127) for Wield */
      , (7588, 2,   130,  0, 10, 1, False) /* Create Shirt (130) for Wield */
+     , (7588, 2,  5850,  0, 4, 0.5, False) /* Create Faran Robe (5850) for Wield */
+     , (7588, 2, 10696,  0, 4, 0.8, False) /* Create Apron (10696) for Wield */
      , (7588, 4,   625, -1, 0, 0, False) /* Create Ginseng (625) for Shop */
      , (7588, 4,   626, -1, 0, 0, False) /* Create Powdered Hematite (626) for Shop */
      , (7588, 4,   627, -1, 0, 0, False) /* Create Alder Talisman (627) for Shop */
@@ -268,14 +270,12 @@ VALUES (7588, 2,   127,  0, 9, 0.5, False) /* Create Pants (127) for Wield */
      , (7588, 4,  4748, -1, 0, 0, False) /* Create Aqua Incanta (4748) for Shop */
      , (7588, 4,  4751, -1, 0, 0, False) /* Create Mortar and Pestle (4751) for Shop */
      , (7588, 4,  5338, -1, 0, 0, False) /* Create Neutral Balm (5338) for Shop */
-     , (7588, 2,  5850,  0, 4, 0.5, False) /* Create Faran Robe (5850) for Wield */
      , (7588, 4,  8180, -1, 0, 0, False) /* Create Evaporate All Magic Other (8180) for Shop */
      , (7588, 4,  8181, -1, 0, 0, False) /* Create Extinguish All Magic Other (8181) for Shop */
      , (7588, 4,  8182, -1, 0, 0, False) /* Create Cleanse All Magic Other (8182) for Shop */
      , (7588, 4,  8183, -1, 0, 0, False) /* Create Devour All Magic Other (8183) for Shop */
      , (7588, 4,  8184, -1, 0, 0, False) /* Create Purge All Magic Other (8184) for Shop */
      , (7588, 4,  8185, -1, 0, 0, False) /* Create Nullify All Magic Other (8185) for Shop */
-     , (7588, 2, 10696,  0, 4, 0.8, False) /* Create Apron (10696) for Wield */
      , (7588, 4, 20628, -1, 0, 0, False) /* Create Trade Note (150,000) (20628) for Shop */
      , (7588, 4, 20629, -1, 0, 0, False) /* Create Trade Note (200,000) (20629) for Shop */
      , (7588, 4, 20630, -1, 0, 0, False) /* Create Trade Note (250,000) (20630) for Shop */

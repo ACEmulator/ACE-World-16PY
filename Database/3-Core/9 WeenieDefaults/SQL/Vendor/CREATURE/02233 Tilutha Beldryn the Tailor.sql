@@ -163,10 +163,13 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 318767235 /* Nod */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (2233, 4,   115, -1, 9, 0, False) /* Create Leather Boots (115) for Shop */
+VALUES (2233, 2,   117,  0, 18, 1, False) /* Create Breeches (117) for Wield */
+     , (2233, 2,  2596,  0, 9, 0, False) /* Create Doublet (2596) for Wield */
+     , (2233, 2,  2606,  0, 4, 0.8, False) /* Create Boots (2606) for Wield */
+     , (2233, 2, 10696,  0, 18, 1, False) /* Create Apron (10696) for Wield */
+     , (2233, 4,   115, -1, 9, 0, False) /* Create Leather Boots (115) for Shop */
      , (2233, 4,   115, -1, 18, 1, False) /* Create Leather Boots (115) for Shop */
      , (2233, 4,   115, -1, 4, 0.8, False) /* Create Leather Boots (115) for Shop */
-     , (2233, 2,   117,  0, 18, 1, False) /* Create Breeches (117) for Wield */
      , (2233, 4,   118, -1, 9, 0, False) /* Create Cap (118) for Shop */
      , (2233, 4,   118, -1, 18, 1, False) /* Create Cap (118) for Shop */
      , (2233, 4,   118, -1, 4, 0.8, False) /* Create Cap (118) for Shop */
@@ -180,9 +183,6 @@ VALUES (2233, 4,   115, -1, 9, 0, False) /* Create Leather Boots (115) for Shop 
      , (2233, 4,  2589, -1, 9, 0, False) /* Create Smock (2589) for Shop */
      , (2233, 4,  2589, -1, 18, 1, False) /* Create Smock (2589) for Shop */
      , (2233, 4,  2589, -1, 4, 0.8, False) /* Create Smock (2589) for Shop */
-     , (2233, 2,  2596,  0, 9, 0, False) /* Create Doublet (2596) for Wield */
-     , (2233, 2,  2606,  0, 4, 0.8, False) /* Create Boots (2606) for Wield */
      , (2233, 4,  5850, -1, 4, 0.5, False) /* Create Faran Robe (5850) for Shop */
      , (2233, 4,  5851, -1, 4, 0.5, False) /* Create Faran Robe with Hood (5851) for Shop */
-     , (2233, 4,  8371, -1, 9, 0, False) /* Create Kireth Gown with Band (8371) for Shop */
-     , (2233, 2, 10696,  0, 18, 1, False) /* Create Apron (10696) for Wield */;
+     , (2233, 4,  8371, -1, 9, 0, False) /* Create Kireth Gown with Band (8371) for Shop */;

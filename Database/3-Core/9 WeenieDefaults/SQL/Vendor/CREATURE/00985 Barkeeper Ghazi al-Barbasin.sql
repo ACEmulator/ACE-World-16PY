@@ -167,6 +167,7 @@ VALUES (985, 2,   115,  0, 4, 0.8, False) /* Create Leather Boots (115) for Wiel
      , (985, 2,   117,  0, 14, 0, False) /* Create Breeches (117) for Wield */
      , (985, 2,   134,  0, 10, 1, False) /* Create Tunic (134) for Wield */
      , (985, 2,   135,  0, 9, 1, False) /* Create Turban (135) for Wield */
+     , (985, 2, 10696,  0, 9, 1, False) /* Create Apron (10696) for Wield */
      , (985, 4,   261, -1, 0, 0, False) /* Create Cheese (261) for Shop */
      , (985, 4,  1506, -1, 0, 0, False) /* Create Legend of the Undead Defender (1506) for Shop */
      , (985, 4,  1508, -1, 0, 0, False) /* Create Alphus Range Directions (1508) for Shop */
@@ -179,7 +180,6 @@ VALUES (985, 2,   115,  0, 4, 0.8, False) /* Create Leather Boots (115) for Wiel
      , (985, 4,  4718, -1, 0, 0, False) /* Create Chicken Rice (4718) for Shop */
      , (985, 4,  4723, -1, 0, 0, False) /* Create Fish Kebab (4723) for Shop */
      , (985, 4,  8378, -1, 0, 0, False) /* Create Beer Stein (8378) for Shop */
-     , (985, 2, 10696,  0, 9, 1, False) /* Create Apron (10696) for Wield */
      , (985, 4, 11929, -1, 0, 0, False) /* Create A Call To Arms (11929) for Shop */
      , (985, 4, 12146, -1, 0, 0, False) /* Create Simulacra Rumor (12146) for Shop */
      , (985, 4, 13201, -1, 0, 0, False) /* Create Gharu'ndim Festival Light (13201) for Shop */

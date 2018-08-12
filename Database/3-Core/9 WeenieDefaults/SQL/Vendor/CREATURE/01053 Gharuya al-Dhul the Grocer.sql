@@ -167,6 +167,7 @@ VALUES (1053, 2,   127,  0, 9, 0.5, False) /* Create Pants (127) for Wield */
      , (1053, 2,   128,  0, 9, 0, False) /* Create Qafiya (128) for Wield */
      , (1053, 2,   133,  0, 14, 0.8, False) /* Create Slippers (133) for Wield */
      , (1053, 2,   134,  0, 14, 0.8, False) /* Create Tunic (134) for Wield */
+     , (1053, 2, 10696,  0, 18, 1, False) /* Create Apron (10696) for Wield */
      , (1053, 4,   136, -1, 14, 1, False) /* Create Pack (136) for Shop */
      , (1053, 4,   138, -1, 85, 1, False) /* Create Belt Pouch (138) for Shop */
      , (1053, 4,   139, -1, 85, 1, False) /* Create Small Belt Pouch (139) for Shop */
@@ -177,6 +178,5 @@ VALUES (1053, 2,   127,  0, 9, 0.5, False) /* Create Pants (127) for Wield */
      , (1053, 4,  4763, -1, 0, 0, False) /* Create Honey (4763) for Shop */
      , (1053, 4,  4766, -1, 0, 0, False) /* Create Rennet (4766) for Shop */
      , (1053, 4,  4767, -1, 0, 0, False) /* Create Skewer (4767) for Shop */
-     , (1053, 2, 10696,  0, 18, 1, False) /* Create Apron (10696) for Wield */
      , (1053, 4, 23326, -1, 0, 0, False) /* Create Elaborate Dried Rations (23326) for Shop */
      , (1053, 4, 23327, -1, 0, 0, False) /* Create Simple Dried Rations (23327) for Shop */;

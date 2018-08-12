@@ -191,6 +191,8 @@ INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `w
 VALUES (1041, 2,   127,  0, 7, 0.33, False) /* Create Pants (127) for Wield */
      , (1041, 2,   133,  0, 7, 0.33, False) /* Create Slippers (133) for Wield */
      , (1041, 2,   135,  0, 9, 1, False) /* Create Turban (135) for Wield */
+     , (1041, 2,  2587,  0, 17, 1, False) /* Create Shirt (2587) for Wield */
+     , (1041, 2, 10696,  0, 9, 0.5, False) /* Create Apron (10696) for Wield */
      , (1041, 4,   377, -1, 0, 0, False) /* Create Potion of Healing (377) for Shop */
      , (1041, 4,   378, -1, 0, 0, False) /* Create Stamina Potion (378) for Shop */
      , (1041, 4,   379, -1, 0, 0, False) /* Create Mana Potion (379) for Shop */
@@ -198,7 +200,6 @@ VALUES (1041, 2,   127,  0, 7, 0.33, False) /* Create Pants (127) for Wield */
      , (1041, 4,   629, -1, 0, 0, False) /* Create Adept Healing Kit (629) for Shop */
      , (1041, 4,  2457, -1, 0, 0, False) /* Create Health Draught (2457) for Shop */
      , (1041, 4,  2460, -1, 0, 0, False) /* Create Mana Draught (2460) for Shop */
-     , (1041, 2,  2587,  0, 17, 1, False) /* Create Shirt (2587) for Wield */
      , (1041, 4,  2621, -1, 0, 0, False) /* Create Trade Note (100) (2621) for Shop */
      , (1041, 4,  2622, -1, 0, 0, False) /* Create Trade Note (500) (2622) for Shop */
      , (1041, 4,  4384, -1, 0, 0, False) /* Create Strength Other I (4384) for Shop */
@@ -215,7 +216,6 @@ VALUES (1041, 2,   127,  0, 7, 0.33, False) /* Create Pants (127) for Wield */
      , (1041, 4,  4609, -1, 0, 0, False) /* Create Focus Other II (4609) for Shop */
      , (1041, 4,  4610, -1, 0, 0, False) /* Create Willpower Other I (4610) for Shop */
      , (1041, 4,  4611, -1, 0, 0, False) /* Create Willpower Other II (4611) for Shop */
-     , (1041, 2, 10696,  0, 9, 0.5, False) /* Create Apron (10696) for Wield */
      , (1041, 4, 27326, -1, 0, 0, False) /* Create Stamina Tincture (27326) for Shop */
      , (1041, 4, 30663, -1, 0, 0, False) /* Create Quickness Other IV (30663) for Shop */
      , (1041, 4, 30664, -1, 0, 0, False) /* Create Strength Other III (30664) for Shop */

@@ -177,6 +177,7 @@ INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `w
 VALUES (1384, 2,   117,  0, 8, 0.67, False) /* Create Breeches (117) for Wield */
      , (1384, 2,   130,  0, 1, 0.67, False) /* Create Shirt (130) for Wield */
      , (1384, 2,   132,  0, 4, 0.8, False) /* Create Shoes (132) for Wield */
+     , (1384, 2, 10696,  0, 16, 1, False) /* Create Apron (10696) for Wield */
      , (1384, 4,   377, -1, 0, 0, False) /* Create Potion of Healing (377) for Shop */
      , (1384, 4,   379, -1, 0, 0, False) /* Create Mana Potion (379) for Shop */
      , (1384, 4,   630, -1, 0, 0, False) /* Create Gifted Healing Kit (630) for Shop */
@@ -186,5 +187,4 @@ VALUES (1384, 2,   117,  0, 8, 0.67, False) /* Create Breeches (117) for Wield *
      , (1384, 4,  2622, -1, 0, 0, False) /* Create Trade Note (500) (2622) for Shop */
      , (1384, 4,  4587, -1, 0, 0, False) /* Create Heal Other II (4587) for Shop */
      , (1384, 4,  4593, -1, 0, 0, False) /* Create Mana Boost Other II (4593) for Shop */
-     , (1384, 4,  4596, -1, 0, 0, False) /* Create Regeneration Other II (4596) for Shop */
-     , (1384, 2, 10696,  0, 16, 1, False) /* Create Apron (10696) for Wield */;
+     , (1384, 4,  4596, -1, 0, 0, False) /* Create Regeneration Other II (4596) for Shop */;

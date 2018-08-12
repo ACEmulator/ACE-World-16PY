@@ -169,7 +169,8 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 318767235 /* Nod */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (2248, 4,   625, -1, 0, 0, False) /* Create Ginseng (625) for Shop */
+VALUES (2248, 2,  5916,  0, 0, 0, False) /* Create Dho Creature Master Robe (5916) for Wield */
+     , (2248, 4,   625, -1, 0, 0, False) /* Create Ginseng (625) for Shop */
      , (2248, 4,   626, -1, 0, 0, False) /* Create Powdered Hematite (626) for Shop */
      , (2248, 4,   627, -1, 0, 0, False) /* Create Alder Talisman (627) for Shop */
      , (2248, 4,   686, -1, 0, 0, False) /* Create Copper Scarab (686) for Shop */
@@ -269,7 +270,6 @@ VALUES (2248, 4,   625, -1, 0, 0, False) /* Create Ginseng (625) for Shop */
      , (2248, 4,  5910, -1, 0, 0, False) /* Create Dho War Master Robe (5910) for Shop */
      , (2248, 4,  5913, -1, 0, 0, False) /* Create Dho Item Master Robe (5913) for Shop */
      , (2248, 4,  5913, -1, 0, 0, False) /* Create Dho Item Master Robe (5913) for Shop */
-     , (2248, 2,  5916,  0, 0, 0, False) /* Create Dho Creature Master Robe (5916) for Wield */
      , (2248, 4,  5916, -1, 0, 0, False) /* Create Dho Creature Master Robe (5916) for Shop */
      , (2248, 4,  5916, -1, 0, 0, False) /* Create Dho Creature Master Robe (5916) for Shop */
      , (2248, 4,  8180, -1, 0, 0, False) /* Create Evaporate All Magic Other (8180) for Shop */

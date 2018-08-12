@@ -173,6 +173,7 @@ INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `w
 VALUES (20216, 2,   115,  0, 14, 0.6, False) /* Create Leather Boots (115) for Wield */
      , (20216, 2,   124,  0, 14, 0.5, False) /* Create Jerkin (124) for Wield */
      , (20216, 2,   127,  0, 3, 0.67, False) /* Create Pants (127) for Wield */
+     , (20216, 2, 10696,  0, 13, 0.5, False) /* Create Apron (10696) for Wield */
      , (20216, 4,  2762, -1, 0, 0, False) /* Create Scroll of Acid Bane II (2762) for Shop */
      , (20216, 4,  2767, -1, 0, 0, False) /* Create Scroll of Acid Lure II (2767) for Shop */
      , (20216, 4,  2772, -1, 0, 0, False) /* Create Scroll of Blade Bane II (2772) for Shop */
@@ -215,7 +216,6 @@ VALUES (20216, 2,   115,  0, 14, 0.6, False) /* Create Leather Boots (115) for W
      , (20216, 4,  8942, -1, 0, 0, False) /* Create Scroll of Lightning Streak II (8942) for Shop */
      , (20216, 4,  8948, -1, 0, 0, False) /* Create Scroll of Shock Wave Streak II (8948) for Shop */
      , (20216, 4,  8954, -1, 0, 0, False) /* Create Scroll of Whirling Blade Streak II (8954) for Shop */
-     , (20216, 2, 10696,  0, 13, 0.5, False) /* Create Apron (10696) for Wield */
      , (20216, 4, 15269, -1, 0, 0, False) /* Create Foci of Artifice (15269) for Shop */
      , (20216, 4, 15271, -1, 0, 0, False) /* Create Foci of Strife (15271) for Shop */
      , (20216, 4, 21289, -1, 0, 0, False) /* Create Scroll of Acid Arc II (21289) for Shop */

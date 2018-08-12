@@ -191,6 +191,7 @@ INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `w
 VALUES (969, 2,   126,  0, 4, 0.8, False) /* Create Leggings (126) for Wield */
      , (969, 2,   130,  0, 6, 0, False) /* Create Shirt (130) for Wield */
      , (969, 2,   132,  0, 9, 0, False) /* Create Shoes (132) for Wield */
+     , (969, 2, 10696,  0, 2, 0.6, False) /* Create Apron (10696) for Wield */
      , (969, 4,   377, -1, 0, 0, False) /* Create Potion of Healing (377) for Shop */
      , (969, 4,   378, -1, 0, 0, False) /* Create Stamina Potion (378) for Shop */
      , (969, 4,   379, -1, 0, 0, False) /* Create Mana Potion (379) for Shop */
@@ -229,7 +230,6 @@ VALUES (969, 2,   126,  0, 4, 0.8, False) /* Create Leggings (126) for Wield */
      , (969, 4,  4609, -1, 0, 0, False) /* Create Focus Other II (4609) for Shop */
      , (969, 4,  4610, -1, 0, 0, False) /* Create Willpower Other I (4610) for Shop */
      , (969, 4,  4611, -1, 0, 0, False) /* Create Willpower Other II (4611) for Shop */
-     , (969, 2, 10696,  0, 2, 0.6, False) /* Create Apron (10696) for Wield */
      , (969, 4, 20628, -1, 0, 0, False) /* Create Trade Note (150,000) (20628) for Shop */
      , (969, 4, 20629, -1, 0, 0, False) /* Create Trade Note (200,000) (20629) for Shop */
      , (969, 4, 20630, -1, 0, 0, False) /* Create Trade Note (250,000) (20630) for Shop */

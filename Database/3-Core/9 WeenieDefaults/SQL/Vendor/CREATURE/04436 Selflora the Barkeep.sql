@@ -182,6 +182,7 @@ INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `w
 VALUES (4436, 2,   115,  0, 4, 0.6, False) /* Create Leather Boots (115) for Wield */
      , (4436, 2,   127,  0, 5, 0.67, False) /* Create Pants (127) for Wield */
      , (4436, 2,   130,  0, 18, 1, False) /* Create Shirt (130) for Wield */
+     , (4436, 2, 10696,  0, 4, 0.6, False) /* Create Apron (10696) for Wield */
      , (4436, 4,   259, -1, 0, 0, False) /* Create Bread (259) for Shop */
      , (4436, 4,  2452, -1, 0, 0, False) /* Create Apple Juice (2452) for Shop */
      , (4436, 4,  2453, -1, 0, 0, False) /* Create Cider (2453) for Shop */
@@ -194,6 +195,5 @@ VALUES (4436, 2,   115,  0, 4, 0.6, False) /* Create Leather Boots (115) for Wie
      , (4436, 4,  5001, -1, 0, 0, False) /* Create Lytelthorpe Portal Directions (5001) for Shop */
      , (4436, 4,  5007, -1, 0, 0, False) /* Create Lost Distillery Directions (5007) for Shop */
      , (4436, 4,  8378, -1, 0, 0, False) /* Create Beer Stein (8378) for Shop */
-     , (4436, 2, 10696,  0, 4, 0.6, False) /* Create Apron (10696) for Wield */
      , (4436, 4, 25700, -1, 0, 0, False) /* Create Olthoi Tunnels Rumor (25700) for Shop */
      , (4436, 4, 25996, -1, 0, 0, False) /* Create Farmer Larry's Problem (25996) for Shop */;

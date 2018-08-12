@@ -162,7 +162,12 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 318767235 /* Nod */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (1376, 4,    35, -1, 0, 0, False) /* Create Chainmail Basinet (35) for Shop */
+VALUES (1376, 2,   115,  0, 5, 0.67, False) /* Create Leather Boots (115) for Wield */
+     , (1376, 2,   127,  0, 17, 1, False) /* Create Pants (127) for Wield */
+     , (1376, 2,   134,  0, 9, 0, False) /* Create Tunic (134) for Wield */
+     , (1376, 2,   354,  0, 0, 0, False) /* Create Takuba (354) for Wield */
+     , (1376, 2, 10696,  0, 6, 0, False) /* Create Apron (10696) for Wield */
+     , (1376, 4,    35, -1, 0, 0, False) /* Create Chainmail Basinet (35) for Shop */
      , (1376, 4,    37, -1, 0, 0, False) /* Create Scalemail Bracers (37) for Shop */
      , (1376, 4,    41, -1, 0, 0, False) /* Create Scalemail Breastplate (41) for Shop */
      , (1376, 4,    55, -1, 0, 0, False) /* Create Chainmail Gauntlets (55) for Shop */
@@ -177,17 +182,13 @@ VALUES (1376, 4,    35, -1, 0, 0, False) /* Create Chainmail Basinet (35) for Sh
      , (1376, 4,    95, -1, 0, 0, False) /* Create Tower Shield (95) for Shop */
      , (1376, 4,   108, -1, 0, 0, False) /* Create Chainmail Tassets (108) for Shop */
      , (1376, 4,   111, -1, 0, 0, False) /* Create Scalemail Tassets (111) for Shop */
-     , (1376, 2,   115,  0, 5, 0.67, False) /* Create Leather Boots (115) for Wield */
      , (1376, 4,   116, -1, 0, 0, False) /* Create Studded Leather Boots (116) for Shop */
-     , (1376, 2,   127,  0, 17, 1, False) /* Create Pants (127) for Wield */
-     , (1376, 2,   134,  0, 9, 0, False) /* Create Tunic (134) for Wield */
      , (1376, 4,   304, -1, 0, 0, False) /* Create Throwing Axe (304) for Shop */
      , (1376, 4,   308, -1, 0, 0, False) /* Create Budiaq (308) for Shop */
      , (1376, 4,   313, -1, 0, 0, False) /* Create Dabus (313) for Shop */
      , (1376, 4,   326, -1, 0, 0, False) /* Create Katar (326) for Shop */
      , (1376, 4,   328, -1, 0, 0, False) /* Create Khanjar (328) for Shop */
      , (1376, 4,   340, -1, 0, 0, False) /* Create Shamshir (340) for Shop */
-     , (1376, 2,   354,  0, 0, 0, False) /* Create Takuba (354) for Wield */
      , (1376, 4,   354, -1, 0, 0, False) /* Create Takuba (354) for Shop */
      , (1376, 4,   359, -1, 0, 0, False) /* Create War Hammer (359) for Shop */
      , (1376, 4,   413, -1, 0, 0, False) /* Create Chainmail Bracers (413) for Shop */
@@ -205,7 +206,6 @@ VALUES (1376, 4,    35, -1, 0, 0, False) /* Create Chainmail Basinet (35) for Sh
      , (1376, 4,  2625, -1, 0, 0, False) /* Create Trade Note (10,000) (2625) for Shop */
      , (1376, 4,  2626, -1, 0, 0, False) /* Create Trade Note (50,000) (2626) for Shop */
      , (1376, 4,  2627, -1, 0, 0, False) /* Create Trade Note (100,000) (2627) for Shop */
-     , (1376, 2, 10696,  0, 6, 0, False) /* Create Apron (10696) for Wield */
      , (1376, 4, 20628, -1, 0, 0, False) /* Create Trade Note (150,000) (20628) for Shop */
      , (1376, 4, 20629, -1, 0, 0, False) /* Create Trade Note (200,000) (20629) for Shop */
      , (1376, 4, 20630, -1, 0, 0, False) /* Create Trade Note (250,000) (20630) for Shop */

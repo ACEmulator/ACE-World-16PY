@@ -254,6 +254,7 @@ INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `w
 VALUES (669, 2,   115,  0, 4, 0.8, False) /* Create Leather Boots (115) for Wield */
      , (669, 2,   127,  0, 13, 0.5, False) /* Create Pants (127) for Wield */
      , (669, 2,   134,  0, 14, 0.8, False) /* Create Tunic (134) for Wield */
+     , (669, 2, 10696,  0, 18, 1, False) /* Create Apron (10696) for Wield */
      , (669, 4,   259, -1, 0, 0, False) /* Create Bread (259) for Shop */
      , (669, 4,  1506, -1, 0, 0, False) /* Create Legend of the Undead Defender (1506) for Shop */
      , (669, 4,  2053, -1, 0, 0, False) /* Create Directions to Fort Witshire (2053) for Shop */
@@ -270,7 +271,6 @@ VALUES (669, 2,   115,  0, 4, 0.8, False) /* Create Leather Boots (115) for Wiel
      , (669, 4,  6420, -1, 0, 0, False) /* Create The Obsidian Span (6420) for Shop */
      , (669, 4,  7777, -1, 0, 0, False) /* Create Mi Krau-Li Rumor (7777) for Shop */
      , (669, 4,  8378, -1, 0, 0, False) /* Create Beer Stein (8378) for Shop */
-     , (669, 2, 10696,  0, 18, 1, False) /* Create Apron (10696) for Wield */
      , (669, 4, 11929, -1, 0, 0, False) /* Create A Call To Arms (11929) for Shop */
      , (669, 4, 13200, -1, 0, 0, False) /* Create Aluvian Festival Light (13200) for Shop */
      , (669, 4, 15808, -1, 0, 0, False) /* Create Plea for Help (15808) for Shop */

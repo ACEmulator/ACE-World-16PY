@@ -164,6 +164,10 @@ VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 318767235 /* Nod */, NULL, NULL,
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (832, 2,   115,  0, 9, 1, False) /* Create Leather Boots (115) for Wield */
+     , (832, 2,  2593,  0, 13, 0.5, False) /* Create Tunic (2593) for Wield */
+     , (832, 2,  2597,  0, 13, 0.5, False) /* Create Pants (2597) for Wield */
+     , (832, 2,  5901,  0, 9, 1, False) /* Create Kasa (5901) for Wield */
+     , (832, 2, 10696,  0, 18, 1, False) /* Create Apron (10696) for Wield */
      , (832, 4,   513, -1, 0, 0, False) /* Create Plain Lockpick (513) for Shop */
      , (832, 4,   545, -1, 0, 0, False) /* Create Reliable Lockpick (545) for Shop */
      , (832, 4,   620, -1, 0, 0, False) /* Create Cake (620) for Shop */
@@ -175,18 +179,14 @@ VALUES (832, 2,   115,  0, 9, 1, False) /* Create Leather Boots (115) for Wield 
      , (832, 4,  2456, -1, 0, 0, False) /* Create Green Tea (2456) for Shop */
      , (832, 4,  2467, -1, 0, 0, False) /* Create Red Wine (2467) for Shop */
      , (832, 4,  2469, -1, 0, 0, False) /* Create Small Beer (2469) for Shop */
-     , (832, 2,  2593,  0, 13, 0.5, False) /* Create Tunic (2593) for Wield */
-     , (832, 2,  2597,  0, 13, 0.5, False) /* Create Pants (2597) for Wield */
      , (832, 4,  4210, -1, 0, 0, False) /* Create Dungeon Mei Directions (4210) for Shop */
      , (832, 4,  4709, -1, 0, 0, False) /* Create Apple Pie (4709) for Shop */
      , (832, 4,  4728, -1, 0, 0, False) /* Create Fried Chicken (4728) for Shop */
      , (832, 4,  4732, -1, 0, 0, False) /* Create Fried Steak (4732) for Shop */
      , (832, 4,  5602, -1, 0, 0, False) /* Create The Festival Stones of the Empyrean (5602) for Shop */
-     , (832, 2,  5901,  0, 9, 1, False) /* Create Kasa (5901) for Wield */
      , (832, 4,  6419, -1, 0, 0, False) /* Create The Meeting Halls (6419) for Shop */
      , (832, 4,  8378, -1, 0, 0, False) /* Create Beer Stein (8378) for Shop */
      , (832, 4,  9295, -1, 0, 0, False) /* Create Intricate Carving Tool (9295) for Shop */
-     , (832, 2, 10696,  0, 18, 1, False) /* Create Apron (10696) for Wield */
      , (832, 4, 20646, -1, 0, 0, False) /* Create Ust (20646) for Shop */
      , (832, 4, 21093, -1, 0, 0, False) /* Create Tinkering (21093) for Shop */
      , (832, 4, 23044, -1, 0, 0, False) /* Create On the Abilities of Salvaged Ivory (23044) for Shop */

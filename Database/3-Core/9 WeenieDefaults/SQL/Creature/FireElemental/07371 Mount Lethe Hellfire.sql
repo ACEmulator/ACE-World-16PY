@@ -135,7 +135,7 @@ VALUES (@parent_id,  0,  17 /* LocalBroadcast */, 0, 0, NULL, 'As %s smites the 
      , (@parent_id,  4,  24 /* StopEvent */, 0, 1, NULL, 'EruptLetheBossGen', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (7371, 9,     0,  0, 0, 0, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 4 for ContainTreasure */
+VALUES (7371, 2,  7799,  3, 0, 0, False) /* Create Ball of plasma (7799) for Wield */
      , (7371, 9,     0,  0, 0, 0, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 4 for ContainTreasure */
      , (7371, 9,     0,  0, 0, 0, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 4 for ContainTreasure */
      , (7371, 9,     0,  0, 0, 0, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 4 for ContainTreasure */
@@ -144,6 +144,7 @@ VALUES (7371, 9,     0,  0, 0, 0, False) /* Create RANDOMLY GENERATED TREASURE f
      , (7371, 9,     0,  0, 0, 0, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 4 for ContainTreasure */
      , (7371, 9,     0,  0, 0, 0, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 4 for ContainTreasure */
      , (7371, 9,     0,  0, 0, 0, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 4 for ContainTreasure */
+     , (7371, 9,     0,  0, 0, 0, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 4 for ContainTreasure */
      , (7371, 9,  7420,  0, 0, 1, False) /* Create Blue Fire Infusion (7420) for ContainTreasure */
      , (7371, 9,  7420,  0, 0, 1, False) /* Create Blue Fire Infusion (7420) for ContainTreasure */
      , (7371, 9,  7420,  0, 0, 1, False) /* Create Blue Fire Infusion (7420) for ContainTreasure */
@@ -152,5 +153,4 @@ VALUES (7371, 9,     0,  0, 0, 0, False) /* Create RANDOMLY GENERATED TREASURE f
      , (7371, 9,  7420,  0, 0, 1, False) /* Create Blue Fire Infusion (7420) for ContainTreasure */
      , (7371, 9,  7420,  0, 0, 1, False) /* Create Blue Fire Infusion (7420) for ContainTreasure */
      , (7371, 9,  7420,  0, 0, 1, False) /* Create Blue Fire Infusion (7420) for ContainTreasure */
-     , (7371, 9,  7420,  0, 0, 1, False) /* Create Blue Fire Infusion (7420) for ContainTreasure */
-     , (7371, 2,  7799,  3, 0, 0, False) /* Create Ball of plasma (7799) for Wield */;
+     , (7371, 9,  7420,  0, 0, 1, False) /* Create Blue Fire Infusion (7420) for ContainTreasure */;

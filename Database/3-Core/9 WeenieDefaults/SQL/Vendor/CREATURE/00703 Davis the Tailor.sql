@@ -164,18 +164,19 @@ VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 318767235 /* Nod */, NULL, NULL,
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (703, 2,   115,  0, 4, 0.6, False) /* Create Leather Boots (115) for Wield */
+     , (703, 2,   119,  0, 10, 1, False) /* Create Cowl (119) for Wield */
+     , (703, 2,   127,  0, 5, 0.67, False) /* Create Pants (127) for Wield */
+     , (703, 2,   134,  0, 9, 0.5, False) /* Create Tunic (134) for Wield */
+     , (703, 2, 10696,  0, 4, 0.5, False) /* Create Apron (10696) for Wield */
      , (703, 4,   118, -1, 9, 0.5, False) /* Create Cap (118) for Shop */
      , (703, 4,   118, -1, 5, 0.67, False) /* Create Cap (118) for Shop */
      , (703, 4,   118, -1, 4, 0.6, False) /* Create Cap (118) for Shop */
-     , (703, 2,   119,  0, 10, 1, False) /* Create Cowl (119) for Wield */
-     , (703, 2,   127,  0, 5, 0.67, False) /* Create Pants (127) for Wield */
      , (703, 4,   127, -1, 9, 0.5, False) /* Create Pants (127) for Shop */
      , (703, 4,   127, -1, 5, 0.67, False) /* Create Pants (127) for Shop */
      , (703, 4,   127, -1, 4, 0.6, False) /* Create Pants (127) for Shop */
      , (703, 4,   130, -1, 9, 0.5, False) /* Create Shirt (130) for Shop */
      , (703, 4,   130, -1, 5, 0.67, False) /* Create Shirt (130) for Shop */
      , (703, 4,   130, -1, 4, 0.6, False) /* Create Shirt (130) for Shop */
-     , (703, 2,   134,  0, 9, 0.5, False) /* Create Tunic (134) for Wield */
      , (703, 4,   512, -1, 0, 0, False) /* Create Good Lockpick (512) for Shop */
      , (703, 4,   513, -1, 0, 0, False) /* Create Plain Lockpick (513) for Shop */
      , (703, 4,   545, -1, 0, 0, False) /* Create Reliable Lockpick (545) for Shop */
@@ -184,5 +185,4 @@ VALUES (703, 2,   115,  0, 4, 0.6, False) /* Create Leather Boots (115) for Wiel
      , (703, 4,  2606, -1, 4, 0.6, False) /* Create Boots (2606) for Shop */
      , (703, 4,  5850, -1, 4, 0.5, False) /* Create Faran Robe (5850) for Shop */
      , (703, 4,  5851, -1, 4, 0.5, False) /* Create Faran Robe with Hood (5851) for Shop */
-     , (703, 4,  8371, -1, 18, 1, False) /* Create Kireth Gown with Band (8371) for Shop */
-     , (703, 2, 10696,  0, 4, 0.5, False) /* Create Apron (10696) for Wield */;
+     , (703, 4,  8371, -1, 18, 1, False) /* Create Kireth Gown with Band (8371) for Shop */;

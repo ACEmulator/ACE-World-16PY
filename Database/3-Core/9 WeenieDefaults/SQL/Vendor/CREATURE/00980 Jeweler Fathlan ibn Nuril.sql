@@ -167,11 +167,11 @@ VALUES (980, 2,   117,  0, 1, 0.67, False) /* Create Breeches (117) for Wield */
      , (980, 2,   133,  0, 1, 0.67, False) /* Create Slippers (133) for Wield */
      , (980, 2,   134,  0, 9, 0, False) /* Create Tunic (134) for Wield */
      , (980, 2,   135,  0, 7, 0.33, False) /* Create Turban (135) for Wield */
+     , (980, 2, 10696,  0, 9, 0.5, False) /* Create Apron (10696) for Wield */
      , (980, 4,   297, -1, 0, 0, False) /* Create Ring (297) for Shop */
      , (980, 4,   621, -1, 0, 0, False) /* Create Heavy Bracelet (621) for Shop */
      , (980, 4,  2413, -1, 0, 0, False) /* Create Agate (2413) for Shop */
      , (980, 4,  2418, -1, 0, 0, False) /* Create Tiger Eye (2418) for Shop */
      , (980, 4,  2621, -1, 0, 0, False) /* Create Trade Note (100) (2621) for Shop */
      , (980, 4,  2622, -1, 0, 0, False) /* Create Trade Note (500) (2622) for Shop */
-     , (980, 4,  2623, -1, 0, 0, False) /* Create Trade Note (1,000) (2623) for Shop */
-     , (980, 2, 10696,  0, 9, 0.5, False) /* Create Apron (10696) for Wield */;
+     , (980, 4,  2623, -1, 0, 0, False) /* Create Trade Note (1,000) (2623) for Shop */;

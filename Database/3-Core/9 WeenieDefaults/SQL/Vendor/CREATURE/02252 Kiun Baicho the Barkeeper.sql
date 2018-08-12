@@ -214,6 +214,7 @@ INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `w
 VALUES (2252, 2,   115,  0, 9, 0, False) /* Create Leather Boots (115) for Wield */
      , (2252, 2,   117,  0, 18, 1, False) /* Create Breeches (117) for Wield */
      , (2252, 2,   134,  0, 9, 1, False) /* Create Tunic (134) for Wield */
+     , (2252, 2, 10696,  0, 18, 1, False) /* Create Apron (10696) for Wield */
      , (2252, 4,   261, -1, 0, 0, False) /* Create Cheese (261) for Shop */
      , (2252, 4,  2219, -1, 0, 0, False) /* Create Directions to Web Maze (2219) for Shop */
      , (2252, 4,  2452, -1, 0, 0, False) /* Create Apple Juice (2452) for Shop */
@@ -226,6 +227,5 @@ VALUES (2252, 2,   115,  0, 9, 0, False) /* Create Leather Boots (115) for Wield
      , (2252, 4,  4733, -1, 0, 0, False) /* Create Kimchi (4733) for Shop */
      , (2252, 4,  4740, -1, 0, 0, False) /* Create Pickled Fish (4740) for Shop */
      , (2252, 4,  8378, -1, 0, 0, False) /* Create Beer Stein (8378) for Shop */
-     , (2252, 2, 10696,  0, 18, 1, False) /* Create Apron (10696) for Wield */
      , (2252, 4, 24222, -1, 0, 0, False) /* Create Duplicated Portals (24222) for Shop */
      , (2252, 4, 28242, -1, 0, 0, False) /* Create Directions to the Lugian Citadels (28242) for Shop */;

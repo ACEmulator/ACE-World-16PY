@@ -167,6 +167,7 @@ VALUES (9505, 2,   127,  0, 9, 1, False) /* Create Pants (127) for Wield */
      , (9505, 2,   128,  0, 9, 0, False) /* Create Qafiya (128) for Wield */
      , (9505, 2,   132,  0, 4, 0.6, False) /* Create Shoes (132) for Wield */
      , (9505, 2,   134,  0, 9, 1, False) /* Create Tunic (134) for Wield */
+     , (9505, 2, 10696,  0, 1, 0.6, False) /* Create Apron (10696) for Wield */
      , (9505, 4,  2453, -1, 0, 0, False) /* Create Cider (2453) for Shop */
      , (9505, 4,  2459, -1, 0, 0, False) /* Create Kumiss (2459) for Shop */
      , (9505, 4,  2465, -1, 0, 0, False) /* Create Palm Wine (2465) for Shop */
@@ -181,7 +182,6 @@ VALUES (9505, 2,   127,  0, 9, 1, False) /* Create Pants (127) for Wield */
      , (9505, 4,  9484, -1, 0, 0, False) /* Create Arshid's Low-Stakes Gambling Token (9484) for Shop */
      , (9505, 4,  9487, -1, 0, 0, False) /* Create Arshid's Mid-Stakes Gambling Token (9487) for Shop */
      , (9505, 4,  9516, -1, 0, 0, False) /* Create A Guide to Arshid's Den of Iniquity (9516) for Shop */
-     , (9505, 2, 10696,  0, 1, 0.6, False) /* Create Apron (10696) for Wield */
      , (9505, 4, 20628, -1, 0, 0, False) /* Create Trade Note (150,000) (20628) for Shop */
      , (9505, 4, 20629, -1, 0, 0, False) /* Create Trade Note (200,000) (20629) for Shop */
      , (9505, 4, 20630, -1, 0, 0, False) /* Create Trade Note (250,000) (20630) for Shop */;

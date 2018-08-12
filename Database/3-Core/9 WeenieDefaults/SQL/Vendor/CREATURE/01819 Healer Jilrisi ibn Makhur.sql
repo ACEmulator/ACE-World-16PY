@@ -184,6 +184,7 @@ VALUES (1819, 2,   115,  0, 4, 0.8, False) /* Create Leather Boots (115) for Wie
      , (1819, 2,   117,  0, 18, 1, False) /* Create Breeches (117) for Wield */
      , (1819, 2,   128,  0, 9, 0.5, False) /* Create Qafiya (128) for Wield */
      , (1819, 2,   134,  0, 6, 0, False) /* Create Tunic (134) for Wield */
+     , (1819, 2, 10696,  0, 9, 0.5, False) /* Create Apron (10696) for Wield */
      , (1819, 4,   377, -1, 0, 0, False) /* Create Potion of Healing (377) for Shop */
      , (1819, 4,   378, -1, 0, 0, False) /* Create Stamina Potion (378) for Shop */
      , (1819, 4,   379, -1, 0, 0, False) /* Create Mana Potion (379) for Shop */
@@ -197,5 +198,4 @@ VALUES (1819, 2,   115,  0, 4, 0.8, False) /* Create Leather Boots (115) for Wie
      , (1819, 4,  4587, -1, 0, 0, False) /* Create Heal Other II (4587) for Shop */
      , (1819, 4,  4599, -1, 0, 0, False) /* Create Mana Renewal Other I (4599) for Shop */
      , (1819, 4,  4608, -1, 0, 0, False) /* Create Focus Other I (4608) for Shop */
-     , (1819, 2, 10696,  0, 9, 0.5, False) /* Create Apron (10696) for Wield */
      , (1819, 4, 27326, -1, 0, 0, False) /* Create Stamina Tincture (27326) for Shop */;

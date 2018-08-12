@@ -167,6 +167,7 @@ VALUES (2500, 2,   115,  0, 4, 0.6, False) /* Create Leather Boots (115) for Wie
      , (2500, 2,   117,  0, 5, 0.67, False) /* Create Breeches (117) for Wield */
      , (2500, 2,   118,  0, 2, 0.9, False) /* Create Cap (118) for Wield */
      , (2500, 2,   124,  0, 9, 0, False) /* Create Jerkin (124) for Wield */
+     , (2500, 2, 10696,  0, 18, 1, False) /* Create Apron (10696) for Wield */
      , (2500, 4,   136, -1, 17, 1, False) /* Create Pack (136) for Shop */
      , (2500, 4,   138, -1, 86, 1, False) /* Create Belt Pouch (138) for Shop */
      , (2500, 4,   139, -1, 86, 1, False) /* Create Small Belt Pouch (139) for Shop */
@@ -208,7 +209,6 @@ VALUES (2500, 2,   115,  0, 4, 0.6, False) /* Create Leather Boots (115) for Wie
      , (2500, 4,  5885, -1, 0, 0, False) /* Create The Tremblant Party (5885) for Shop */
      , (2500, 4,  5886, -1, 0, 0, False) /* Create The Tremblant Party (5886) for Shop */
      , (2500, 4,  7823, -1, 0, 0, False) /* Create Heavy Grinder (7823) for Shop */
-     , (2500, 2, 10696,  0, 18, 1, False) /* Create Apron (10696) for Wield */
      , (2500, 4, 22168, -1, 0, 0, False) /* Create Quarter Staff (22168) for Shop */
      , (2500, 4, 22765, -1, 0, 0, False) /* Create The Empyrean Temples (22765) for Shop */
      , (2500, 4, 27319, -1, 0, 0, False) /* Create Health Tincture (27319) for Shop */

@@ -176,7 +176,7 @@ INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `w
 VALUES (5754, 2,   115,  0, 6, 0, False) /* Create Leather Boots (115) for Wield */
      , (5754, 2,   127,  0, 7, 0, False) /* Create Pants (127) for Wield */
      , (5754, 2,   130,  0, 16, 0, False) /* Create Shirt (130) for Wield */
+     , (5754, 2, 10696,  0, 9, 0.5, False) /* Create Apron (10696) for Wield */
      , (5754, 4,  5670, -1, 0, 0, False) /* Create Tempting Apple (5670) for Shop */
      , (5754, 4,  5671, -1, 0, 0, False) /* Create Cold Milk (5671) for Shop */
-     , (5754, 4,  5672, -1, 0, 0, False) /* Create Herbal Tea (5672) for Shop */
-     , (5754, 2, 10696,  0, 9, 0.5, False) /* Create Apron (10696) for Wield */;
+     , (5754, 4,  5672, -1, 0, 0, False) /* Create Herbal Tea (5672) for Shop */;

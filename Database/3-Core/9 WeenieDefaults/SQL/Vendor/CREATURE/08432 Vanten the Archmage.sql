@@ -186,7 +186,8 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 318767235 /* Nod */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (8432, 4,   136, -1, 13, 1, False) /* Create Pack (136) for Shop */
+VALUES (8432, 2,  5851,  0, 15, 0.8, False) /* Create Faran Robe with Hood (5851) for Wield */
+     , (8432, 4,   136, -1, 13, 1, False) /* Create Pack (136) for Shop */
      , (8432, 4,   139, -1, 92, 0, False) /* Create Small Belt Pouch (139) for Shop */
      , (8432, 4,   625, -1, 0, 0, False) /* Create Ginseng (625) for Shop */
      , (8432, 4,   626, -1, 0, 0, False) /* Create Powdered Hematite (626) for Shop */
@@ -282,7 +283,6 @@ VALUES (8432, 4,   136, -1, 13, 1, False) /* Create Pack (136) for Shop */
      , (8432, 4,  4751, -1, 0, 0, False) /* Create Mortar and Pestle (4751) for Shop */
      , (8432, 4,  5338, -1, 0, 0, False) /* Create Neutral Balm (5338) for Shop */
      , (8432, 4,  5540, -1, 0, 0, False) /* Create Wand (5540) for Shop */
-     , (8432, 2,  5851,  0, 15, 0.8, False) /* Create Faran Robe with Hood (5851) for Wield */
      , (8432, 4,  6064, -1, 0, 0, False) /* Create Suikan Creature Apprentice Robe (6064) for Shop */
      , (8432, 4,  6067, -1, 0, 0, False) /* Create Suikan Item Apprentice Robe (6067) for Shop */
      , (8432, 4,  6070, -1, 0, 0, False) /* Create Suikan Life Apprentice Robe (6070) for Shop */

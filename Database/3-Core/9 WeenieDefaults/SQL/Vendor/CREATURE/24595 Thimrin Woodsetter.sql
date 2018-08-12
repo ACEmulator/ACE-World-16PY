@@ -261,6 +261,10 @@ VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 318767248 /* YawnStretch */, NUL
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (24595, 2,   127,  0, 2, 0.7, False) /* Create Pants (127) for Wield */
      , (24595, 2,   130,  0, 9, 1, False) /* Create Shirt (130) for Wield */
+     , (24595, 2,   359,  0, 14, 1, False) /* Create War Hammer (359) for Wield */
+     , (24595, 2,  7897,  0, 9, 0, False) /* Create Steel Toed Boots (7897) for Wield */
+     , (24595, 2, 10696,  0, 9, 0, False) /* Create Apron (10696) for Wield */
+     , (24595, 2, 24261,  0, 0, 1, False) /* Create Timberman's Hat (24261) for Wield */
      , (24595, 4,   136, -1, 2, 1, False) /* Create Pack (136) for Shop */
      , (24595, 4,   136, -1, 13, 1, False) /* Create Pack (136) for Shop */
      , (24595, 4,   137, -1, 91, 0, False) /* Create Basket (137) for Shop */
@@ -282,7 +286,6 @@ VALUES (24595, 2,   127,  0, 2, 0.7, False) /* Create Pants (127) for Wield */
      , (24595, 4,   293, -1, 0, 0, False) /* Create Torch (293) for Shop */
      , (24595, 4,   295, -1, 0, 0, False) /* Create Bracelet (295) for Shop */
      , (24595, 4,   297, -1, 0, 0, False) /* Create Ring (297) for Shop */
-     , (24595, 2,   359,  0, 14, 1, False) /* Create War Hammer (359) for Wield */
      , (24595, 4,   365, -1, 0, 0, False) /* Create Parchment (365) for Shop */
      , (24595, 4,   377, -1, 0, 0, False) /* Create Potion of Healing (377) for Shop */
      , (24595, 4,   378, -1, 0, 0, False) /* Create Stamina Potion (378) for Shop */
@@ -326,9 +329,7 @@ VALUES (24595, 2,   127,  0, 2, 0.7, False) /* Create Pants (127) for Wield */
      , (24595, 4,  4768, -1, 0, 0, False) /* Create Uncooked Rice (4768) for Shop */
      , (24595, 4,  5758, -1, 0, 0, False) /* Create Carrot (5758) for Shop */
      , (24595, 4,  7824, -1, 0, 0, False) /* Create Metal Press (7824) for Shop */
-     , (24595, 2,  7897,  0, 9, 0, False) /* Create Steel Toed Boots (7897) for Wield */
      , (24595, 4,  9295, -1, 0, 0, False) /* Create Intricate Carving Tool (9295) for Shop */
-     , (24595, 2, 10696,  0, 9, 0, False) /* Create Apron (10696) for Wield */
      , (24595, 4, 20628, -1, 0, 0, False) /* Create Trade Note (150,000) (20628) for Shop */
      , (24595, 4, 20629, -1, 0, 0, False) /* Create Trade Note (200,000) (20629) for Shop */
      , (24595, 4, 20630, -1, 0, 0, False) /* Create Trade Note (250,000) (20630) for Shop */
@@ -338,7 +339,6 @@ VALUES (24595, 2,   127,  0, 2, 0.7, False) /* Create Pants (127) for Wield */
      , (24595, 4, 23204, -1, 0, 0, False) /* Create Carving Keys and Keyrings (23204) for Shop */
      , (24595, 4, 23326, -1, 0, 0, False) /* Create Elaborate Dried Rations (23326) for Shop */
      , (24595, 4, 23327, -1, 0, 0, False) /* Create Simple Dried Rations (23327) for Shop */
-     , (24595, 2, 24261,  0, 0, 1, False) /* Create Timberman's Hat (24261) for Wield */
      , (24595, 4, 27319, -1, 0, 0, False) /* Create Health Tincture (27319) for Shop */
      , (24595, 4, 27322, -1, 0, 0, False) /* Create Mana Tincture (27322) for Shop */
      , (24595, 4, 27326, -1, 0, 0, False) /* Create Stamina Tincture (27326) for Shop */;

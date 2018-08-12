@@ -175,6 +175,7 @@ VALUES (1813, 2,   127,  0, 18, 1, False) /* Create Pants (127) for Wield */
      , (1813, 2,   132,  0, 4, 0.6, False) /* Create Shoes (132) for Wield */
      , (1813, 2,   134,  0, 6, 0, False) /* Create Tunic (134) for Wield */
      , (1813, 2,   135,  0, 9, 1, False) /* Create Turban (135) for Wield */
+     , (1813, 2, 10696,  0, 9, 0.5, False) /* Create Apron (10696) for Wield */
      , (1813, 4,   261, -1, 0, 0, False) /* Create Cheese (261) for Shop */
      , (1813, 4,   620, -1, 0, 0, False) /* Create Cake (620) for Shop */
      , (1813, 4,  2455, -1, 0, 0, False) /* Create Grape Juice (2455) for Shop */
@@ -185,5 +186,4 @@ VALUES (1813, 2,   127,  0, 18, 1, False) /* Create Pants (127) for Wield */
      , (1813, 4,  4209, -1, 0, 0, False) /* Create Dungeon Binar Directions (4209) for Shop */
      , (1813, 4,  4714, -1, 0, 0, False) /* Create Chicken Kebab (4714) for Shop */
      , (1813, 4,  4734, -1, 0, 0, False) /* Create Meat Pie (4734) for Shop */
-     , (1813, 2, 10696,  0, 9, 0.5, False) /* Create Apron (10696) for Wield */
      , (1813, 4, 12146, -1, 0, 0, False) /* Create Simulacra Rumor (12146) for Shop */;

@@ -191,9 +191,9 @@ VALUES (6857, 2,   115,  0, 4, 0.6, False) /* Create Leather Boots (115) for Wie
      , (6857, 2,   119,  0, 9, 0, False) /* Create Cowl (119) for Wield */
      , (6857, 2,   127,  0, 4, 0.6, False) /* Create Pants (127) for Wield */
      , (6857, 2,   130,  0, 8, 0.5, False) /* Create Shirt (130) for Wield */
+     , (6857, 2,   306,  0, 0, 0, False) /* Create Longbow (306) for Wield */
      , (6857, 4,   300, -1, 0, 0, False) /* Create Arrow (300) for Shop */
      , (6857, 4,   305, -1, 0, 0, False) /* Create Quarrel (305) for Shop */
-     , (6857, 2,   306,  0, 0, 0, False) /* Create Longbow (306) for Wield */
      , (6857, 4,   306, -1, 0, 0, False) /* Create Longbow (306) for Shop */
      , (6857, 4,   311, -1, 0, 0, False) /* Create Heavy Crossbow (311) for Shop */
      , (6857, 4,  2621, -1, 0, 0, False) /* Create Trade Note (100) (2621) for Shop */

@@ -176,6 +176,7 @@ VALUES (715, 2,   117,  0, 8, 0.67, False) /* Create Breeches (117) for Wield */
      , (715, 2,   118,  0, 18, 1, False) /* Create Cap (118) for Wield */
      , (715, 2,   132,  0, 4, 0.6, False) /* Create Shoes (132) for Wield */
      , (715, 2,   134,  0, 7, 0.33, False) /* Create Tunic (134) for Wield */
+     , (715, 2, 10696,  0, 9, 1, False) /* Create Apron (10696) for Wield */
      , (715, 4,   377, -1, 0, 0, False) /* Create Potion of Healing (377) for Shop */
      , (715, 4,   378, -1, 0, 0, False) /* Create Stamina Potion (378) for Shop */
      , (715, 4,   379, -1, 0, 0, False) /* Create Mana Potion (379) for Shop */
@@ -201,7 +202,6 @@ VALUES (715, 2,   117,  0, 8, 0.67, False) /* Create Breeches (117) for Wield */
      , (715, 4,  4609, -1, 0, 0, False) /* Create Focus Other II (4609) for Shop */
      , (715, 4,  4610, -1, 0, 0, False) /* Create Willpower Other I (4610) for Shop */
      , (715, 4,  4611, -1, 0, 0, False) /* Create Willpower Other II (4611) for Shop */
-     , (715, 2, 10696,  0, 9, 1, False) /* Create Apron (10696) for Wield */
      , (715, 4, 27326, -1, 0, 0, False) /* Create Stamina Tincture (27326) for Shop */
      , (715, 4, 30663, -1, 0, 0, False) /* Create Quickness Other IV (30663) for Shop */
      , (715, 4, 30664, -1, 0, 0, False) /* Create Strength Other III (30664) for Shop */

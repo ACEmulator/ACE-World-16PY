@@ -185,7 +185,8 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 318767235 /* Nod */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (20923, 4,   625, -1, 0, 0, False) /* Create Ginseng (625) for Shop */
+VALUES (20923, 2,  5914,  0, 0, 0, False) /* Create Suikan Item Master Robe (5914) for Wield */
+     , (20923, 4,   625, -1, 0, 0, False) /* Create Ginseng (625) for Shop */
      , (20923, 4,   626, -1, 0, 0, False) /* Create Powdered Hematite (626) for Shop */
      , (20923, 4,   627, -1, 0, 0, False) /* Create Alder Talisman (627) for Shop */
      , (20923, 4,   686, -1, 0, 0, False) /* Create Copper Scarab (686) for Shop */
@@ -282,7 +283,6 @@ VALUES (20923, 4,   625, -1, 0, 0, False) /* Create Ginseng (625) for Shop */
      , (20923, 4,  5908, -1, 0, 0, False) /* Create Suikan Life Master Robe (5908) for Shop */
      , (20923, 4,  5911, -1, 0, 0, False) /* Create Suikan War Master Robe (5911) for Shop */
      , (20923, 4,  5911, -1, 0, 0, False) /* Create Suikan War Master Robe (5911) for Shop */
-     , (20923, 2,  5914,  0, 0, 0, False) /* Create Suikan Item Master Robe (5914) for Wield */
      , (20923, 4,  5914, -1, 0, 0, False) /* Create Suikan Item Master Robe (5914) for Shop */
      , (20923, 4,  5914, -1, 0, 0, False) /* Create Suikan Item Master Robe (5914) for Shop */
      , (20923, 4,  5917, -1, 0, 0, False) /* Create Suikan Creature Master Robe (5917) for Shop */

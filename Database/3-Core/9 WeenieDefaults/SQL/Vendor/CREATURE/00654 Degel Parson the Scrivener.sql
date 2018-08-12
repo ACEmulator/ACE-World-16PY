@@ -167,6 +167,7 @@ VALUES (654, 2,   119,  0, 2, 0.67, False) /* Create Cowl (119) for Wield */
      , (654, 2,   127,  0, 8, 0, False) /* Create Pants (127) for Wield */
      , (654, 2,   130,  0, 8, 0, False) /* Create Shirt (130) for Wield */
      , (654, 2,   132,  0, 4, 0.6, False) /* Create Shoes (132) for Wield */
+     , (654, 2, 10696,  0, 9, 0.5, False) /* Create Apron (10696) for Wield */
      , (654, 4,   364, -1, 0, 0, False) /* Create Book (364) for Shop */
      , (654, 4,   365, -1, 0, 0, False) /* Create Parchment (365) for Shop */
      , (654, 4,   367, -1, 0, 0, False) /* Create Tome (367) for Shop */
@@ -179,7 +180,6 @@ VALUES (654, 2,   119,  0, 2, 0.67, False) /* Create Cowl (119) for Wield */
      , (654, 4,  5856, -1, 0, 0, False) /* Create Specialty Cookbook (5856) for Shop */
      , (654, 4,  6419, -1, 0, 0, False) /* Create The Meeting Halls (6419) for Shop */
      , (654, 4,  7884, -1, 0, 0, False) /* Create Chocolate Cookbook (7884) for Shop */
-     , (654, 2, 10696,  0, 9, 0.5, False) /* Create Apron (10696) for Wield */
      , (654, 4, 14797, -1, 0, 0, False) /* Create Festival Cookbook (14797) for Shop */
      , (654, 4, 15808, -1, 0, 0, False) /* Create Plea for Help (15808) for Shop */
      , (654, 4, 20229, -1, 0, 0, False) /* Create Rumor of an Artifact (20229) for Shop */;

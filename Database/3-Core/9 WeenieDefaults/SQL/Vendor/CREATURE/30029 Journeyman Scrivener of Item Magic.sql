@@ -173,6 +173,7 @@ INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `w
 VALUES (30029, 2,   115,  0, 4, 0.6, False) /* Create Leather Boots (115) for Wield */
      , (30029, 2,   124,  0, 9, 0.5, False) /* Create Jerkin (124) for Wield */
      , (30029, 2,   127,  0, 3, 0.67, False) /* Create Pants (127) for Wield */
+     , (30029, 2, 10696,  0, 13, 0.5, False) /* Create Apron (10696) for Wield */
      , (30029, 4,  1564, -1, 0, 0, False) /* Create Scroll of Portal Recall (1564) for Shop */
      , (30029, 4,  1565, -1, 0, 0, False) /* Create Scroll of Primary Portal Tie (1565) for Shop */
      , (30029, 4,  2763, -1, 0, 0, False) /* Create Scroll of Acid Bane III (2763) for Shop */
@@ -204,7 +205,6 @@ VALUES (30029, 2,   115,  0, 4, 0.6, False) /* Create Leather Boots (115) for Wi
      , (30029, 4,  2894, -1, 0, 0, False) /* Create Scroll of Turn Blade III (2894) for Shop */
      , (30029, 4,  2899, -1, 0, 0, False) /* Create Scroll of Weaken Lock III (2899) for Shop */
      , (30029, 4,  2903, -1, 0, 0, False) /* Create Scroll of Lifestone Recall (2903) for Shop */
-     , (30029, 2, 10696,  0, 13, 0.5, False) /* Create Apron (10696) for Wield */
      , (30029, 4, 15269, -1, 0, 0, False) /* Create Foci of Artifice (15269) for Shop */
      , (30029, 4, 20618, -1, 0, 0, False) /* Create Scroll of Lifestone Tie (20618) for Shop */
      , (30029, 4, 20619, -1, 0, 0, False) /* Create Scroll of Secondary Portal Tie (20619) for Shop */

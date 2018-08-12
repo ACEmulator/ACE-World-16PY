@@ -140,7 +140,8 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,  10 /* Tell */, 0, 1, NULL, 'Ooo oo ah.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (22725, 4,   377, -1, 0, 0, False) /* Create Potion of Healing (377) for Shop */
+VALUES (22725, 2, 10757,  0, 2, 0.33, False) /* Create Towel (10757) for Wield */
+     , (22725, 4,   377, -1, 0, 0, False) /* Create Potion of Healing (377) for Shop */
      , (22725, 4,   378, -1, 0, 0, False) /* Create Stamina Potion (378) for Shop */
      , (22725, 4,   379, -1, 0, 0, False) /* Create Mana Potion (379) for Shop */
      , (22725, 4,   628, -1, 0, 0, False) /* Create Handy Healing Kit (628) for Shop */
@@ -156,7 +157,6 @@ VALUES (22725, 4,   377, -1, 0, 0, False) /* Create Potion of Healing (377) for 
      , (22725, 4,  4595, -1, 0, 0, False) /* Create Regeneration Other I (4595) for Shop */
      , (22725, 4,  4599, -1, 0, 0, False) /* Create Mana Renewal Other I (4599) for Shop */
      , (22725, 4,  4602, -1, 0, 0, False) /* Create Endurance Other I (4602) for Shop */
-     , (22725, 2, 10757,  0, 2, 0.33, False) /* Create Towel (10757) for Wield */
      , (22725, 4, 27319, -1, 0, 0, False) /* Create Health Tincture (27319) for Shop */
      , (22725, 4, 27322, -1, 0, 0, False) /* Create Mana Tincture (27322) for Shop */
      , (22725, 4, 27326, -1, 0, 0, False) /* Create Stamina Tincture (27326) for Shop */;

@@ -208,10 +208,10 @@ VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 268435537 /* Twitch1 */, NULL, N
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (5767, 1,  5758,  1, 0, 1, False) /* Create Carrot (5758) for Contain */
+     , (5767, 1,  5770, 14, 0, 1, False) /* Create "Enchanted" Iceball (5770) for Contain */
+     , (5767, 2,  5770, 10, 0, 1, False) /* Create "Enchanted" Iceball (5770) for Wield */
      , (5767, 4,  5769, -1, 0, 0, False) /* Create Iceball (5769) for Shop */
      , (5767, 4,  5770, -1, 0, 0, False) /* Create "Enchanted" Iceball (5770) for Shop */
-     , (5767, 2,  5770, 10, 0, 1, False) /* Create "Enchanted" Iceball (5770) for Wield */
-     , (5767, 1,  5770, 14, 0, 1, False) /* Create "Enchanted" Iceball (5770) for Contain */
      , (5767, 4, 13224, -1, 0, 0, False) /* Create A Frozen Note (13224) for Shop */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)

@@ -166,6 +166,7 @@ INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `w
 VALUES (731, 2,   127,  0, 18, 1, False) /* Create Pants (127) for Wield */
      , (731, 2,   132,  0, 7, 0.33, False) /* Create Shoes (132) for Wield */
      , (731, 2,   134,  0, 6, 0, False) /* Create Tunic (134) for Wield */
+     , (731, 2, 10696,  0, 9, 1, False) /* Create Apron (10696) for Wield */
      , (731, 4,  1490, -1, 0, 0, False) /* Create Glenden Dungeon Directions (1490) for Shop */
      , (731, 4,  1508, -1, 0, 0, False) /* Create Alphus Range Directions (1508) for Shop */
      , (731, 4,  2053, -1, 0, 0, False) /* Create Directions to Fort Witshire (2053) for Shop */
@@ -186,7 +187,6 @@ VALUES (731, 2,   127,  0, 18, 1, False) /* Create Pants (127) for Wield */
      , (731, 4,  5856, -1, 0, 0, False) /* Create Specialty Cookbook (5856) for Shop */
      , (731, 4,  7884, -1, 0, 0, False) /* Create Chocolate Cookbook (7884) for Shop */
      , (731, 4,  8378, -1, 0, 0, False) /* Create Beer Stein (8378) for Shop */
-     , (731, 2, 10696,  0, 9, 1, False) /* Create Apron (10696) for Wield */
      , (731, 4, 14797, -1, 0, 0, False) /* Create Festival Cookbook (14797) for Shop */
      , (731, 4, 15808, -1, 0, 0, False) /* Create Plea for Help (15808) for Shop */
      , (731, 4, 20229, -1, 0, 0, False) /* Create Rumor of an Artifact (20229) for Shop */

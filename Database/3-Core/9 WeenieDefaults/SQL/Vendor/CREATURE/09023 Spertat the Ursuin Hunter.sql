@@ -188,7 +188,11 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 318767235 /* Nod */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (9023, 4,   300, -1, 0, 0, False) /* Create Arrow (300) for Shop */
+VALUES (9023, 2,  6802,  0, 0, 0, False) /* Create Nexus Celdon Leggings (6802) for Wield */
+     , (9023, 2,  6966,  0, 0, 0, False) /* Create Composite Bow with Handle (6966) for Wield */
+     , (9023, 2,  7897,  0, 5, 0.5, False) /* Create Steel Toed Boots (7897) for Wield */
+     , (9023, 2,  8661,  0, 0, 0, False) /* Create Ursuin Hide Coat (8661) for Wield */
+     , (9023, 4,   300, -1, 0, 0, False) /* Create Arrow (300) for Shop */
      , (9023, 4,   305, -1, 0, 0, False) /* Create Quarrel (305) for Shop */
      , (9023, 4,   306, -1, 0, 0, False) /* Create Longbow (306) for Shop */
      , (9023, 4,   311, -1, 0, 0, False) /* Create Heavy Crossbow (311) for Shop */
@@ -208,10 +212,6 @@ VALUES (9023, 4,   300, -1, 0, 0, False) /* Create Arrow (300) for Shop */
      , (9023, 4,  4585, -1, 0, 0, False) /* Create Bundle of Arrowshafts (4585) for Shop */
      , (9023, 4,  4586, -1, 0, 0, False) /* Create Bundle of Arrowheads (4586) for Shop */
      , (9023, 4,  5339, -1, 0, 0, False) /* Create Bundle of Quarrelshafts (5339) for Shop */
-     , (9023, 2,  6802,  0, 0, 0, False) /* Create Nexus Celdon Leggings (6802) for Wield */
-     , (9023, 2,  6966,  0, 0, 0, False) /* Create Composite Bow with Handle (6966) for Wield */
-     , (9023, 2,  7897,  0, 5, 0.5, False) /* Create Steel Toed Boots (7897) for Wield */
-     , (9023, 2,  8661,  0, 0, 0, False) /* Create Ursuin Hide Coat (8661) for Wield */
      , (9023, 4,  9080, -1, 0, 0, False) /* Create Unreadable Text (9080) for Shop */
      , (9023, 4,  9359, -1, 0, 0, False) /* Create Wrapped Bundle of Arrowheads (9359) for Shop */
      , (9023, 4,  9361, -1, 0, 0, False) /* Create Wrapped Bundle of Armor Piercing Arrowheads (9361) for Shop */

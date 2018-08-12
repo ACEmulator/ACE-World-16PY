@@ -237,7 +237,8 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,  10 /* Tell */, 0, 1, NULL, 'You might want to get one of those fancy mage people to put some of those enchantments on that.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (24589, 4,    35, -1, 0, 0, False) /* Create Chainmail Basinet (35) for Shop */
+VALUES (24589, 2,   542,  0, 0, 0, False) /* Create Lugian Hammer (542) for Wield */
+     , (24589, 4,    35, -1, 0, 0, False) /* Create Chainmail Basinet (35) for Shop */
      , (24589, 4,    40, -1, 0, 0, False) /* Create Platemail Breastplate (40) for Shop */
      , (24589, 4,    43, -1, 0, 0, False) /* Create Yoroi Breastplate (43) for Shop */
      , (24589, 4,    54, -1, 0, 0, False) /* Create Yoroi Cuirass (54) for Shop */
@@ -267,7 +268,6 @@ VALUES (24589, 4,    35, -1, 0, 0, False) /* Create Chainmail Basinet (35) for S
      , (24589, 4,   414, -1, 0, 0, False) /* Create Chainmail Breastplate (414) for Shop */
      , (24589, 4,   415, -1, 0, 0, False) /* Create Chainmail Girth (415) for Shop */
      , (24589, 4,   416, -1, 0, 0, False) /* Create Chainmail Pauldrons (416) for Shop */
-     , (24589, 2,   542,  0, 0, 0, False) /* Create Lugian Hammer (542) for Wield */
      , (24589, 4,   554, -1, 0, 0, False) /* Create Studded Leather Basinet (554) for Shop */
      , (24589, 4,  2437, -1, 0, 0, False) /* Create Yoroi Leggings (2437) for Shop */
      , (24589, 4,  2605, -1, 0, 0, False) /* Create Chainmail Greaves (2605) for Shop */

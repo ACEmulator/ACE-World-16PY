@@ -217,7 +217,11 @@ VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 318767229 /* BowDeep */, NULL, N
      , (@parent_id,  1,  10 /* Tell */, 0, 1, NULL, 'Think of the Four Stones as weights on the edge of a child''s spin toy. If the stones aren''t perfectly in balance then the toy will flip all over the place, chaos. But if you position the stones equally around the toy then it spins powerfully with grace and splendor.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (24219, 4,    36, -1, 0, 0, False) /* Create Leather Bracers (36) for Shop */
+VALUES (24219, 2,   115,  0, 9, 0.5, False) /* Create Leather Boots (115) for Wield */
+     , (24219, 2,   117,  0, 14, 0.8, False) /* Create Breeches (117) for Wield */
+     , (24219, 2,   124,  0, 9, 0.5, False) /* Create Jerkin (124) for Wield */
+     , (24219, 2, 10696,  0, 17, 1, False) /* Create Apron (10696) for Wield */
+     , (24219, 4,    36, -1, 0, 0, False) /* Create Leather Bracers (36) for Shop */
      , (24219, 4,    39, -1, 0, 0, False) /* Create Leather Breastplate (39) for Shop */
      , (24219, 4,    44, -1, 0, 0, False) /* Create Buckler (44) for Shop */
      , (24219, 4,    45, -1, 0, 0, False) /* Create Leather Cap (45) for Shop */
@@ -227,10 +231,7 @@ VALUES (24219, 4,    36, -1, 0, 0, False) /* Create Leather Bracers (36) for Sho
      , (24219, 4,    81, -1, 0, 0, False) /* Create Leather Leggings (81) for Shop */
      , (24219, 4,    86, -1, 0, 0, False) /* Create Leather Pauldrons (86) for Shop */
      , (24219, 4,   109, -1, 0, 0, False) /* Create Leather Tassets (109) for Shop */
-     , (24219, 2,   115,  0, 9, 0.5, False) /* Create Leather Boots (115) for Wield */
      , (24219, 4,   115, -1, 0, 0, False) /* Create Leather Boots (115) for Shop */
-     , (24219, 2,   117,  0, 14, 0.8, False) /* Create Breeches (117) for Wield */
-     , (24219, 2,   124,  0, 9, 0.5, False) /* Create Jerkin (124) for Wield */
      , (24219, 4,   136, -1, 61, 1, False) /* Create Pack (136) for Shop */
      , (24219, 4,   136, -1, 17, 1, False) /* Create Pack (136) for Shop */
      , (24219, 4,   137, -1, 90, 1, False) /* Create Basket (137) for Shop */
@@ -277,7 +278,6 @@ VALUES (24219, 4,    36, -1, 0, 0, False) /* Create Leather Bracers (36) for Sho
      , (24219, 4,  5758, -1, 0, 0, False) /* Create Carrot (5758) for Shop */
      , (24219, 4,  7823, -1, 0, 0, False) /* Create Heavy Grinder (7823) for Shop */
      , (24219, 4,  7824, -1, 0, 0, False) /* Create Metal Press (7824) for Shop */
-     , (24219, 2, 10696,  0, 17, 1, False) /* Create Apron (10696) for Wield */
      , (24219, 4, 20628, -1, 0, 0, False) /* Create Trade Note (150,000) (20628) for Shop */
      , (24219, 4, 20629, -1, 0, 0, False) /* Create Trade Note (200,000) (20629) for Shop */
      , (24219, 4, 20630, -1, 0, 0, False) /* Create Trade Note (250,000) (20630) for Shop */

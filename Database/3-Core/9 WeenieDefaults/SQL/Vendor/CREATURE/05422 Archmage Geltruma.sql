@@ -156,6 +156,9 @@ VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 318767235 /* Nod */, NULL, NULL,
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (5422, 2,   115,  0, 9, 0, False) /* Create Leather Boots (115) for Wield */
+     , (5422, 2,  2587,  0, 8, 0, False) /* Create Shirt (2587) for Wield */
+     , (5422, 2,  2604,  0, 8, 0, False) /* Create Breeches (2604) for Wield */
+     , (5422, 2, 10696,  0, 18, 0.5, False) /* Create Apron (10696) for Wield */
      , (5422, 4,   136, -1, 8, 1, False) /* Create Pack (136) for Shop */
      , (5422, 4,   139, -1, 89, 0, False) /* Create Small Belt Pouch (139) for Shop */
      , (5422, 4,   625, -1, 0, 0, False) /* Create Ginseng (625) for Shop */
@@ -216,8 +219,6 @@ VALUES (5422, 2,   115,  0, 9, 0, False) /* Create Leather Boots (115) for Wield
      , (5422, 4,  2435, -1, 0, 0, False) /* Create Mana Stone (2435) for Shop */
      , (5422, 4,  2472, -1, 0, 0, False) /* Create Wand (2472) for Shop */
      , (5422, 4,  2547, -1, 0, 0, False) /* Create Staff (2547) for Shop */
-     , (5422, 2,  2587,  0, 8, 0, False) /* Create Shirt (2587) for Wield */
-     , (5422, 2,  2604,  0, 8, 0, False) /* Create Breeches (2604) for Wield */
      , (5422, 4,  2621, -1, 0, 0, False) /* Create Trade Note (100) (2621) for Shop */
      , (5422, 4,  2622, -1, 0, 0, False) /* Create Trade Note (500) (2622) for Shop */
      , (5422, 4,  2623, -1, 0, 0, False) /* Create Trade Note (1,000) (2623) for Shop */
@@ -230,6 +231,5 @@ VALUES (5422, 2,   115,  0, 9, 0, False) /* Create Leather Boots (115) for Wield
      , (5422, 4,  4751, -1, 0, 0, False) /* Create Mortar and Pestle (4751) for Shop */
      , (5422, 4,  5338, -1, 0, 0, False) /* Create Neutral Balm (5338) for Shop */
      , (5422, 4,  5539, -1, 0, 0, False) /* Create Wand (5539) for Shop */
-     , (5422, 2, 10696,  0, 18, 0.5, False) /* Create Apron (10696) for Wield */
      , (5422, 4, 20631, -1, 0, 0, False) /* Create Prismatic Taper (20631) for Shop */
      , (5422, 4, 27331, -1, 0, 0, False) /* Create Minor Mana Stone (27331) for Shop */;

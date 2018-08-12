@@ -231,9 +231,9 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,  10 /* Tell */, 0, 1, NULL, 'That''s a good buy. It reminds me of the time I was hunting gromnies and this one launched itself right off a cliff at me. Crazy thing would have killed itself just falling on me if it weren''t the dozen arrows it suddenly sprouted from it''s chest.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (24591, 4,   300, -1, 0, 0, False) /* Create Arrow (300) for Shop */
+VALUES (24591, 2,   306,  0, 0, 0, False) /* Create Longbow (306) for Wield */
+     , (24591, 4,   300, -1, 0, 0, False) /* Create Arrow (300) for Shop */
      , (24591, 4,   305, -1, 0, 0, False) /* Create Quarrel (305) for Shop */
-     , (24591, 2,   306,  0, 0, 0, False) /* Create Longbow (306) for Wield */
      , (24591, 4,   306, -1, 0, 0, False) /* Create Longbow (306) for Shop */
      , (24591, 4,   311, -1, 0, 0, False) /* Create Heavy Crossbow (311) for Shop */
      , (24591, 4,  2621, -1, 0, 0, False) /* Create Trade Note (100) (2621) for Shop */

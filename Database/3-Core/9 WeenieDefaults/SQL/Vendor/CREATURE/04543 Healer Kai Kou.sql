@@ -183,6 +183,7 @@ INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `w
 VALUES (4543, 2,   124,  0, 2, 0.67, False) /* Create Jerkin (124) for Wield */
      , (4543, 2,   127,  0, 5, 0, False) /* Create Pants (127) for Wield */
      , (4543, 2,   132,  0, 9, 0, False) /* Create Shoes (132) for Wield */
+     , (4543, 2, 10696,  0, 9, 1, False) /* Create Apron (10696) for Wield */
      , (4543, 4,   377, -1, 0, 0, False) /* Create Potion of Healing (377) for Shop */
      , (4543, 4,   378, -1, 0, 0, False) /* Create Stamina Potion (378) for Shop */
      , (4543, 4,   379, -1, 0, 0, False) /* Create Mana Potion (379) for Shop */
@@ -198,7 +199,6 @@ VALUES (4543, 2,   124,  0, 2, 0.67, False) /* Create Jerkin (124) for Wield */
      , (4543, 4,  4592, -1, 0, 0, False) /* Create Mana Boost Other I (4592) for Shop */
      , (4543, 4,  4602, -1, 0, 0, False) /* Create Endurance Other I (4602) for Shop */
      , (4543, 4,  4606, -1, 0, 0, False) /* Create Quickness Other I (4606) for Shop */
-     , (4543, 2, 10696,  0, 9, 1, False) /* Create Apron (10696) for Wield */
      , (4543, 4, 27319, -1, 0, 0, False) /* Create Health Tincture (27319) for Shop */
      , (4543, 4, 27322, -1, 0, 0, False) /* Create Mana Tincture (27322) for Shop */
      , (4543, 4, 27326, -1, 0, 0, False) /* Create Stamina Tincture (27326) for Shop */;

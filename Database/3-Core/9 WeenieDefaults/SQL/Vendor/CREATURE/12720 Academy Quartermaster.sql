@@ -135,6 +135,7 @@ VALUES (12720, 2,   115,  0, 14, 0.5, False) /* Create Leather Boots (115) for W
      , (12720, 2,   135,  0, 17, 1, False) /* Create Turban (135) for Wield */
      , (12720, 2,  2603,  0, 17, 1, False) /* Create Breeches (2603) for Wield */
      , (12720, 2, 10696,  0, 14, 0.5, False) /* Create Apron (10696) for Wield */
+     , (12720, 2, 12758,  0, 0, 0, False) /* Create Academy Short Sword (12758) for Wield */
      , (12720, 4, 12739, -1, 0, 0, False) /* Create Training Dagger (12739) for Shop */
      , (12720, 4, 12740, -1, 0, 0, False) /* Create Training Hand Axe (12740) for Shop */
      , (12720, 4, 12741, -1, 0, 0, False) /* Create Training Shortbow (12741) for Shop */
@@ -145,5 +146,4 @@ VALUES (12720, 2,   115,  0, 14, 0.5, False) /* Create Leather Boots (115) for W
      , (12720, 4, 12746, -1, 0, 0, False) /* Create Training Atlatl (12746) for Shop */
      , (12720, 4, 12747, -1, 0, 0, False) /* Create Training Short Sword (12747) for Shop */
      , (12720, 4, 12748, -1, 0, 0, False) /* Create Training Wand (12748) for Shop */
-     , (12720, 4, 12749, -1, 0, 0, False) /* Create Light Training Crossbow (12749) for Shop */
-     , (12720, 2, 12758,  0, 0, 0, False) /* Create Academy Short Sword (12758) for Wield */;
+     , (12720, 4, 12749, -1, 0, 0, False) /* Create Light Training Crossbow (12749) for Shop */;

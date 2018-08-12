@@ -180,6 +180,8 @@ VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 318767235 /* Nod */, NULL, NULL,
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (4435, 2,   127,  0, 5, 0.67, False) /* Create Pants (127) for Wield */
      , (4435, 2,   130,  0, 5, 0.67, False) /* Create Shirt (130) for Wield */
+     , (4435, 2,  2606,  0, 5, 0.67, False) /* Create Boots (2606) for Wield */
+     , (4435, 2, 10696,  0, 10, 1, False) /* Create Apron (10696) for Wield */
      , (4435, 4,   625, -1, 0, 0, False) /* Create Ginseng (625) for Shop */
      , (4435, 4,   626, -1, 0, 0, False) /* Create Powdered Hematite (626) for Shop */
      , (4435, 4,   627, -1, 0, 0, False) /* Create Alder Talisman (627) for Shop */
@@ -254,7 +256,6 @@ VALUES (4435, 2,   127,  0, 5, 0.67, False) /* Create Pants (127) for Wield */
      , (4435, 4,  1654, -1, 0, 0, False) /* Create Turquoise Taper (1654) for Shop */
      , (4435, 4,  2434, -1, 0, 0, False) /* Create Lesser Mana Stone (2434) for Shop */
      , (4435, 4,  2472, -1, 0, 0, False) /* Create Wand (2472) for Shop */
-     , (4435, 2,  2606,  0, 5, 0.67, False) /* Create Boots (2606) for Wield */
      , (4435, 4,  2621, -1, 0, 0, False) /* Create Trade Note (100) (2621) for Shop */
      , (4435, 4,  2622, -1, 0, 0, False) /* Create Trade Note (500) (2622) for Shop */
      , (4435, 4,  2623, -1, 0, 0, False) /* Create Trade Note (1,000) (2623) for Shop */
@@ -280,7 +281,6 @@ VALUES (4435, 2,   127,  0, 5, 0.67, False) /* Create Pants (127) for Wield */
      , (4435, 4,  8981, -1, 0, 0, False) /* Create Shoushi Portal Gem (8981) for Shop */
      , (4435, 4,  8983, -1, 0, 0, False) /* Create Yanshi Portal Gem (8983) for Shop */
      , (4435, 4,  8984, -1, 0, 0, False) /* Create Yaraq Portal Gem (8984) for Shop */
-     , (4435, 2, 10696,  0, 10, 1, False) /* Create Apron (10696) for Wield */
      , (4435, 4, 20631, -1, 0, 0, False) /* Create Prismatic Taper (20631) for Shop */
      , (4435, 4, 26639, -1, 0, 0, False) /* Create Xarabydun Portal Summoning Gem (26639) for Shop */
      , (4435, 4, 27331, -1, 0, 0, False) /* Create Minor Mana Stone (27331) for Shop */;

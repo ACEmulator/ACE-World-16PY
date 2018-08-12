@@ -23,6 +23,6 @@ VALUES (13079,   1,   33557167) /* Setup */
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (13079, 16,   273, 300000, 0, 0, False) /* Create Pyreal (273) for HouseBuy */
-     , (13079, 32,   273, 30000, 0, 0, False) /* Create Pyreal (273) for HouseRent */
      , (13079, 16,  4224,  1, 0, 0, False) /* Create Armoredillo Hide Coat (4224) for HouseBuy */
-     , (13079, 16, 11710,  1, 0, 0, False) /* Create Writ of Refuge (11710) for HouseBuy */;
+     , (13079, 16, 11710,  1, 0, 0, False) /* Create Writ of Refuge (11710) for HouseBuy */
+     , (13079, 32,   273, 30000, 0, 0, False) /* Create Pyreal (273) for HouseRent */;

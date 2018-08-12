@@ -195,7 +195,10 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 318767235 /* Nod */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (25994, 4,   625, -1, 0, 0, False) /* Create Ginseng (625) for Shop */
+VALUES (25994, 2, 25982,  0, 85, 1, False) /* Create Battle Pants (25982) for Wield */
+     , (25994, 2, 25983,  0, 0, 1, False) /* Create Sparring Pants (25983) for Wield */
+     , (25994, 2, 25984,  0, 0, 1, False) /* Create Sparring Shirt (25984) for Wield */
+     , (25994, 4,   625, -1, 0, 0, False) /* Create Ginseng (625) for Shop */
      , (25994, 4,   626, -1, 0, 0, False) /* Create Powdered Hematite (626) for Shop */
      , (25994, 4,   627, -1, 0, 0, False) /* Create Alder Talisman (627) for Shop */
      , (25994, 4,   686, -1, 0, 0, False) /* Create Copper Scarab (686) for Shop */
@@ -363,10 +366,7 @@ VALUES (25994, 4,   625, -1, 0, 0, False) /* Create Ginseng (625) for Shop */
      , (25994, 4, 20629, -1, 0, 0, False) /* Create Trade Note (200,000) (20629) for Shop */
      , (25994, 4, 20630, -1, 0, 0, False) /* Create Trade Note (250,000) (20630) for Shop */
      , (25994, 4, 20631, -1, 0, 0, False) /* Create Prismatic Taper (20631) for Shop */
-     , (25994, 2, 25982,  0, 85, 1, False) /* Create Battle Pants (25982) for Wield */
      , (25994, 4, 25982, -1, 0, 0, False) /* Create Battle Pants (25982) for Shop */
-     , (25994, 2, 25983,  0, 0, 1, False) /* Create Sparring Pants (25983) for Wield */
      , (25994, 4, 25983, -1, 0, 0, False) /* Create Sparring Pants (25983) for Shop */
-     , (25994, 2, 25984,  0, 0, 1, False) /* Create Sparring Shirt (25984) for Wield */
      , (25994, 4, 25984, -1, 0, 0, False) /* Create Sparring Shirt (25984) for Shop */
      , (25994, 4, 27563, -1, 0, 0, False) /* Create Forbidden Note (27563) for Shop */;

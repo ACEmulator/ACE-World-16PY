@@ -166,11 +166,11 @@ INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `w
 VALUES (4553, 2,   124,  0, 16, 1, False) /* Create Jerkin (124) for Wield */
      , (4553, 2,   127,  0, 16, 1, False) /* Create Pants (127) for Wield */
      , (4553, 2,   132,  0, 16, 0.5, False) /* Create Shoes (132) for Wield */
+     , (4553, 2, 10696,  0, 4, 0.5, False) /* Create Apron (10696) for Wield */
      , (4553, 4,   295, -1, 0, 0, False) /* Create Bracelet (295) for Shop */
      , (4553, 4,   297, -1, 0, 0, False) /* Create Ring (297) for Shop */
      , (4553, 4,  2416, -1, 0, 0, False) /* Create Malachite (2416) for Shop */
      , (4553, 4,  2420, -1, 0, 0, False) /* Create White Quartz (2420) for Shop */
      , (4553, 4,  2621, -1, 0, 0, False) /* Create Trade Note (100) (2621) for Shop */
      , (4553, 4,  2622, -1, 0, 0, False) /* Create Trade Note (500) (2622) for Shop */
-     , (4553, 4,  2623, -1, 0, 0, False) /* Create Trade Note (1,000) (2623) for Shop */
-     , (4553, 2, 10696,  0, 4, 0.5, False) /* Create Apron (10696) for Wield */;
+     , (4553, 4,  2623, -1, 0, 0, False) /* Create Trade Note (1,000) (2623) for Shop */;

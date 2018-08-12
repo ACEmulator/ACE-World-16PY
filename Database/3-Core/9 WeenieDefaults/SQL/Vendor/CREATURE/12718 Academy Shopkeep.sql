@@ -131,7 +131,12 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,  10 /* Tell */, 0, 1, NULL, 'That is a good one--lots of people are snapping those up these days.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (12718, 4,    36, -1, 0, 0, False) /* Create Leather Bracers (36) for Shop */
+VALUES (12718, 2,   127,  0, 17, 0.67, False) /* Create Pants (127) for Wield */
+     , (12718, 2,   128,  0, 17, 0.6, False) /* Create Qafiya (128) for Wield */
+     , (12718, 2,   130,  0, 14, 0, False) /* Create Shirt (130) for Wield */
+     , (12718, 2,   133,  0, 14, 0, False) /* Create Slippers (133) for Wield */
+     , (12718, 2, 10696,  0, 14, 0.5, False) /* Create Apron (10696) for Wield */
+     , (12718, 4,    36, -1, 0, 0, False) /* Create Leather Bracers (36) for Shop */
      , (12718, 4,    39, -1, 0, 0, False) /* Create Leather Breastplate (39) for Shop */
      , (12718, 4,    44, -1, 0, 0, False) /* Create Buckler (44) for Shop */
      , (12718, 4,    45, -1, 0, 0, False) /* Create Leather Cap (45) for Shop */
@@ -141,10 +146,6 @@ VALUES (12718, 4,    36, -1, 0, 0, False) /* Create Leather Bracers (36) for Sho
      , (12718, 4,    81, -1, 0, 0, False) /* Create Leather Leggings (81) for Shop */
      , (12718, 4,    86, -1, 0, 0, False) /* Create Leather Pauldrons (86) for Shop */
      , (12718, 4,   115, -1, 0, 0, False) /* Create Leather Boots (115) for Shop */
-     , (12718, 2,   127,  0, 17, 0.67, False) /* Create Pants (127) for Wield */
-     , (12718, 2,   128,  0, 17, 0.6, False) /* Create Qafiya (128) for Wield */
-     , (12718, 2,   130,  0, 14, 0, False) /* Create Shirt (130) for Wield */
-     , (12718, 2,   133,  0, 14, 0, False) /* Create Slippers (133) for Wield */
      , (12718, 4,   136, -1, 17, 1, False) /* Create Pack (136) for Shop */
      , (12718, 4,   166, -1, 14, 1, False) /* Create Sack (166) for Shop */
      , (12718, 4,   258, -1, 0, 0, False) /* Create Apple (258) for Shop */
@@ -219,7 +220,6 @@ VALUES (12718, 4,    36, -1, 0, 0, False) /* Create Leather Bracers (36) for Sho
      , (12718, 4,  2460, -1, 0, 0, False) /* Create Mana Draught (2460) for Shop */
      , (12718, 4,  4612, -1, 0, 0, False) /* Create Tiny Mana Charge (4612) for Shop */
      , (12718, 4,  8378, -1, 0, 0, False) /* Create Beer Stein (8378) for Shop */
-     , (12718, 2, 10696,  0, 14, 0.5, False) /* Create Apron (10696) for Wield */
      , (12718, 4, 12464, -1, 0, 0, False) /* Create Atlatl Dart (12464) for Shop */
      , (12718, 4, 20631, -1, 0, 0, False) /* Create Prismatic Taper (20631) for Shop */
      , (12718, 4, 27331, -1, 0, 0, False) /* Create Minor Mana Stone (27331) for Shop */;

@@ -421,10 +421,10 @@ VALUES (1210,  94) /* ATTACK_NOTIFICATION_EVENT */
      , (1210, 414) /* PLAYER_DEATH_EVENT */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (1210, 9,     0,  0, 0, 0.95, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 5 for ContainTreasure */
+VALUES (1210, 2, 25557,  0, 0, 0, False) /* Create Eye Patch (25557) for Wield */
      , (1210, 9,     0,  0, 0, 0.95, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 5 for ContainTreasure */
      , (1210, 9,     0,  0, 0, 0.95, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 5 for ContainTreasure */
-     , (1210, 2, 25557,  0, 0, 0, False) /* Create Eye Patch (25557) for Wield */
+     , (1210, 9,     0,  0, 0, 0.95, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 5 for ContainTreasure */
      , (1210, 9, 25557,  0, 0, 0.05, False) /* Create Eye Patch (25557) for ContainTreasure */
      , (1210, 9, 28866,  0, 0, 0.05, False) /* Create Left Peg Leg (28866) for ContainTreasure */
      , (1210, 9, 28868,  0, 0, 0.05, False) /* Create Right Peg Leg (28868) for ContainTreasure */;

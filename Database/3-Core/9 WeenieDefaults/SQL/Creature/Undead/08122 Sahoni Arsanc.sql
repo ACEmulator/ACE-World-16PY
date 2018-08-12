@@ -148,5 +148,5 @@ VALUES (8122,  94) /* ATTACK_NOTIFICATION_EVENT */
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (8122, 9,     0,  0, 0, 0, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 2 for ContainTreasure */
-     , (8122, 10,  7973,  0, 0, 1, False) /* Create Flaming Tachi (7973) for WieldTreasure */
-     , (8122, 9,  8087,  0, 0, 1, False) /* Create Urgently Written Note (8087) for ContainTreasure */;
+     , (8122, 9,  8087,  0, 0, 1, False) /* Create Urgently Written Note (8087) for ContainTreasure */
+     , (8122, 10,  7973,  0, 0, 1, False) /* Create Flaming Tachi (7973) for WieldTreasure */;

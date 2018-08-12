@@ -191,6 +191,7 @@ VALUES (4696, 2,   117,  0, 18, 1, False) /* Create Breeches (117) for Wield */
      , (4696, 2,   130,  0, 16, 1, False) /* Create Shirt (130) for Wield */
      , (4696, 2,   132,  0, 18, 1, False) /* Create Shoes (132) for Wield */
      , (4696, 2,   135,  0, 17, 1, False) /* Create Turban (135) for Wield */
+     , (4696, 2, 10696,  0, 9, 1, False) /* Create Apron (10696) for Wield */
      , (4696, 4,   261, -1, 0, 0, False) /* Create Cheese (261) for Shop */
      , (4696, 4,   620, -1, 0, 0, False) /* Create Cake (620) for Shop */
      , (4696, 4,  2452, -1, 0, 0, False) /* Create Apple Juice (2452) for Shop */
@@ -208,7 +209,6 @@ VALUES (4696, 2,   117,  0, 18, 1, False) /* Create Breeches (117) for Wield */
      , (4696, 4,  6419, -1, 0, 0, False) /* Create The Meeting Halls (6419) for Shop */
      , (4696, 4,  8209, -1, 0, 0, False) /* Create Call for Adventurers! (8209) for Shop */
      , (4696, 4,  8378, -1, 0, 0, False) /* Create Beer Stein (8378) for Shop */
-     , (4696, 2, 10696,  0, 9, 1, False) /* Create Apron (10696) for Wield */
      , (4696, 4, 11929, -1, 0, 0, False) /* Create A Call To Arms (11929) for Shop */
      , (4696, 4, 12146, -1, 0, 0, False) /* Create Simulacra Rumor (12146) for Shop */
      , (4696, 4, 15808, -1, 0, 0, False) /* Create Plea for Help (15808) for Shop */

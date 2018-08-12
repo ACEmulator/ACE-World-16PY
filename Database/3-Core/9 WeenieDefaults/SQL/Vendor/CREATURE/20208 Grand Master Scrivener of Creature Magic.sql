@@ -173,6 +173,7 @@ INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `w
 VALUES (20208, 2,   115,  0, 4, 0.6, False) /* Create Leather Boots (115) for Wield */
      , (20208, 2,   124,  0, 9, 0.5, False) /* Create Jerkin (124) for Wield */
      , (20208, 2,   127,  0, 5, 0.67, False) /* Create Pants (127) for Wield */
+     , (20208, 2, 10696,  0, 1, 0.5, False) /* Create Apron (10696) for Wield */
      , (20208, 4,  2638, -1, 0, 0, False) /* Create Scroll of Bafflement Other VI (2638) for Shop */
      , (20208, 4,  2643, -1, 0, 0, False) /* Create Scroll of Clumsiness Other VI (2643) for Shop */
      , (20208, 4,  2648, -1, 0, 0, False) /* Create Scroll of Coordination Other VI (2648) for Shop */
@@ -296,7 +297,6 @@ VALUES (20208, 2,   115,  0, 4, 0.6, False) /* Create Leather Boots (115) for Wi
      , (20208, 4,  5997, -1, 0, 0, False) /* Create Scroll of Alchemy Mastery Self VI (5997) for Shop */
      , (20208, 4,  9613, -1, 0, 0, False) /* Create Scroll of Mana Ineptitude Other VI (9613) for Shop */
      , (20208, 4,  9629, -1, 0, 0, False) /* Create Scroll of Jumping Ineptitude VI (9629) for Shop */
-     , (20208, 2, 10696,  0, 1, 0.5, False) /* Create Apron (10696) for Wield */
      , (20208, 4, 15268, -1, 0, 0, False) /* Create Foci of Enchantment (15268) for Shop */
      , (20208, 4, 28938, -1, 0, 0, False) /* Create Scroll of Arcanum Salvaging VI (28938) for Shop */
      , (20208, 4, 28945, -1, 0, 0, False) /* Create Scroll of Arcanum Enlightenment VI (28945) for Shop */;

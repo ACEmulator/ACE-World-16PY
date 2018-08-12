@@ -183,6 +183,8 @@ INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `w
 VALUES (4682, 2,   115,  0, 9, 1, False) /* Create Leather Boots (115) for Wield */
      , (4682, 2,   124,  0, 18, 1, False) /* Create Jerkin (124) for Wield */
      , (4682, 2,   128,  0, 1, 0.67, False) /* Create Qafiya (128) for Wield */
+     , (4682, 2,  2598,  0, 9, 1, False) /* Create Pants (2598) for Wield */
+     , (4682, 2, 10696,  0, 9, 1, False) /* Create Apron (10696) for Wield */
      , (4682, 4,   377, -1, 0, 0, False) /* Create Potion of Healing (377) for Shop */
      , (4682, 4,   378, -1, 0, 0, False) /* Create Stamina Potion (378) for Shop */
      , (4682, 4,   379, -1, 0, 0, False) /* Create Mana Potion (379) for Shop */
@@ -190,11 +192,9 @@ VALUES (4682, 2,   115,  0, 9, 1, False) /* Create Leather Boots (115) for Wield
      , (4682, 4,   629, -1, 0, 0, False) /* Create Adept Healing Kit (629) for Shop */
      , (4682, 4,  2457, -1, 0, 0, False) /* Create Health Draught (2457) for Shop */
      , (4682, 4,  2460, -1, 0, 0, False) /* Create Mana Draught (2460) for Shop */
-     , (4682, 2,  2598,  0, 9, 1, False) /* Create Pants (2598) for Wield */
      , (4682, 4,  2621, -1, 0, 0, False) /* Create Trade Note (100) (2621) for Shop */
      , (4682, 4,  2622, -1, 0, 0, False) /* Create Trade Note (500) (2622) for Shop */
      , (4682, 4,  4450, -1, 0, 0, False) /* Create Heal Other I (4450) for Shop */
      , (4682, 4,  4597, -1, 0, 0, False) /* Create Rejuvenation Other I (4597) for Shop */
      , (4682, 4,  4608, -1, 0, 0, False) /* Create Focus Other I (4608) for Shop */
-     , (4682, 2, 10696,  0, 9, 1, False) /* Create Apron (10696) for Wield */
      , (4682, 4, 27326, -1, 0, 0, False) /* Create Stamina Tincture (27326) for Shop */;

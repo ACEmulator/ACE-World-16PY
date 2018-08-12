@@ -175,6 +175,7 @@ VALUES (4548, 2,   118,  0, 13, 0.67, False) /* Create Cap (118) for Wield */
      , (4548, 2,   127,  0, 16, 1, False) /* Create Pants (127) for Wield */
      , (4548, 2,   130,  0, 18, 1, False) /* Create Shirt (130) for Wield */
      , (4548, 2,   132,  0, 16, 1, False) /* Create Shoes (132) for Wield */
+     , (4548, 2, 10696,  0, 4, 0.6, False) /* Create Apron (10696) for Wield */
      , (4548, 4,   261, -1, 0, 0, False) /* Create Cheese (261) for Shop */
      , (4548, 4,  2452, -1, 0, 0, False) /* Create Apple Juice (2452) for Shop */
      , (4548, 4,  2456, -1, 0, 0, False) /* Create Green Tea (2456) for Shop */
@@ -187,6 +188,5 @@ VALUES (4548, 2,   118,  0, 13, 0.67, False) /* Create Cap (118) for Wield */
      , (4548, 4,  5002, -1, 0, 0, False) /* Create Nanto Portal Directions (5002) for Shop */
      , (4548, 4,  5005, -1, 0, 0, False) /* Create Empyrean Garrison Directions (5005) for Shop */
      , (4548, 4,  8378, -1, 0, 0, False) /* Create Beer Stein (8378) for Shop */
-     , (4548, 2, 10696,  0, 4, 0.6, False) /* Create Apron (10696) for Wield */
      , (4548, 4, 23126, -1, 0, 0, False) /* Create Wah Chon's Winter Lager (23126) for Shop */
      , (4548, 4, 24223, -1, 0, 0, False) /* Create A Sparking Stone (24223) for Shop */;

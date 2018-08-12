@@ -23,5 +23,5 @@ VALUES (11713,   1,   33557167) /* Setup */
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (11713, 16,   273, 200000, 0, 0, False) /* Create Pyreal (273) for HouseBuy */
-     , (11713, 32,   273, 30000, 0, 0, False) /* Create Pyreal (273) for HouseRent */
-     , (11713, 16, 11710,  1, 0, 0, False) /* Create Writ of Refuge (11710) for HouseBuy */;
+     , (11713, 16, 11710,  1, 0, 0, False) /* Create Writ of Refuge (11710) for HouseBuy */
+     , (11713, 32,   273, 30000, 0, 0, False) /* Create Pyreal (273) for HouseRent */;

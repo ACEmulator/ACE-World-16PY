@@ -175,6 +175,7 @@ VALUES (968, 2,   118,  0, 14, 1, False) /* Create Cap (118) for Wield */
      , (968, 2,   127,  0, 17, 1, False) /* Create Pants (127) for Wield */
      , (968, 2,   130,  0, 8, 1, False) /* Create Shirt (130) for Wield */
      , (968, 2,   132,  0, 8, 1, False) /* Create Shoes (132) for Wield */
+     , (968, 2, 10696,  0, 7, 0, False) /* Create Apron (10696) for Wield */
      , (968, 4,   258, -1, 0, 0, False) /* Create Apple (258) for Shop */
      , (968, 4,   259, -1, 0, 0, False) /* Create Bread (259) for Shop */
      , (968, 4,   260, -1, 0, 0, False) /* Create Cabbage (260) for Shop */
@@ -189,7 +190,6 @@ VALUES (968, 2,   118,  0, 14, 1, False) /* Create Cap (118) for Wield */
      , (968, 4,  4746, -1, 0, 0, False) /* Create Water (4746) for Shop */
      , (968, 4,  4754, -1, 0, 0, False) /* Create Baking Pan (4754) for Shop */
      , (968, 4,  4761, -1, 0, 0, False) /* Create Flour (4761) for Shop */
-     , (968, 2, 10696,  0, 7, 0, False) /* Create Apron (10696) for Wield */
      , (968, 4, 20628, -1, 0, 0, False) /* Create Trade Note (150,000) (20628) for Shop */
      , (968, 4, 20629, -1, 0, 0, False) /* Create Trade Note (200,000) (20629) for Shop */
      , (968, 4, 20630, -1, 0, 0, False) /* Create Trade Note (250,000) (20630) for Shop */;

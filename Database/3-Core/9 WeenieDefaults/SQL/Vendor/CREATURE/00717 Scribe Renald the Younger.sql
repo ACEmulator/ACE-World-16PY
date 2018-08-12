@@ -166,6 +166,7 @@ INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `w
 VALUES (717, 2,   115,  0, 4, 0.6, False) /* Create Leather Boots (115) for Wield */
      , (717, 2,   127,  0, 8, 0.67, False) /* Create Pants (127) for Wield */
      , (717, 2,   134,  0, 8, 0.67, False) /* Create Tunic (134) for Wield */
+     , (717, 2, 10696,  0, 18, 1, False) /* Create Apron (10696) for Wield */
      , (717, 4,   364, -1, 0, 0, False) /* Create Book (364) for Shop */
      , (717, 4,   365, -1, 0, 0, False) /* Create Parchment (365) for Shop */
      , (717, 4,   367, -1, 0, 0, False) /* Create Tome (367) for Shop */
@@ -179,6 +180,5 @@ VALUES (717, 2,   115,  0, 4, 0.6, False) /* Create Leather Boots (115) for Wiel
      , (717, 4,  9118, -1, 0, 0, False) /* Create Puppet Show (9118) for Shop */
      , (717, 4,  9124, -1, 0, 0, False) /* Create The Beginning (9124) for Shop */
      , (717, 4,  9319, -1, 0, 0, False) /* Create Mnemosynes and the Art of Lockpicking (9319) for Shop */
-     , (717, 2, 10696,  0, 18, 1, False) /* Create Apron (10696) for Wield */
      , (717, 4, 14797, -1, 0, 0, False) /* Create Festival Cookbook (14797) for Shop */
      , (717, 4, 27851, -1, 0, 0, False) /* Create The Weapons of the Singularity (27851) for Shop */;

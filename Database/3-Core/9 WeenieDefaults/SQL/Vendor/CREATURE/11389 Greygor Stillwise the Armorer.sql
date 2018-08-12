@@ -163,7 +163,12 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 318767235 /* Nod */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (11389, 4,    35, -1, 0, 0, False) /* Create Chainmail Basinet (35) for Shop */
+VALUES (11389, 2,   127,  0, 9, 0, False) /* Create Pants (127) for Wield */
+     , (11389, 2,   132,  0, 1, 0.67, False) /* Create Shoes (132) for Wield */
+     , (11389, 2,   134,  0, 8, 0.67, False) /* Create Tunic (134) for Wield */
+     , (11389, 2,   352,  0, 0, 0, False) /* Create Short Sword (352) for Wield */
+     , (11389, 2, 10696,  0, 12, 0.5, False) /* Create Apron (10696) for Wield */
+     , (11389, 4,    35, -1, 0, 0, False) /* Create Chainmail Basinet (35) for Shop */
      , (11389, 4,    43, -1, 0, 0, False) /* Create Yoroi Breastplate (43) for Shop */
      , (11389, 4,    55, -1, 0, 0, False) /* Create Chainmail Gauntlets (55) for Shop */
      , (11389, 4,    64, -1, 0, 0, False) /* Create Yoroi Girth (64) for Shop */
@@ -177,9 +182,6 @@ VALUES (11389, 4,    35, -1, 0, 0, False) /* Create Chainmail Basinet (35) for S
      , (11389, 4,    96, -1, 0, 0, False) /* Create Chainmail Shirt (96) for Shop */
      , (11389, 4,   108, -1, 0, 0, False) /* Create Chainmail Tassets (108) for Shop */
      , (11389, 4,   116, -1, 0, 0, False) /* Create Studded Leather Boots (116) for Shop */
-     , (11389, 2,   127,  0, 9, 0, False) /* Create Pants (127) for Wield */
-     , (11389, 2,   132,  0, 1, 0.67, False) /* Create Shoes (132) for Wield */
-     , (11389, 2,   134,  0, 8, 0.67, False) /* Create Tunic (134) for Wield */
      , (11389, 4,   300, -1, 0, 0, False) /* Create Arrow (300) for Shop */
      , (11389, 4,   305, -1, 0, 0, False) /* Create Quarrel (305) for Shop */
      , (11389, 4,   311, -1, 0, 0, False) /* Create Heavy Crossbow (311) for Shop */
@@ -187,7 +189,6 @@ VALUES (11389, 4,    35, -1, 0, 0, False) /* Create Chainmail Basinet (35) for S
      , (11389, 4,   320, -1, 0, 0, False) /* Create Javelin (320) for Shop */
      , (11389, 4,   327, -1, 0, 0, False) /* Create Ken (327) for Shop */
      , (11389, 4,   336, -1, 0, 0, False) /* Create Ono (336) for Shop */
-     , (11389, 2,   352,  0, 0, 0, False) /* Create Short Sword (352) for Wield */
      , (11389, 4,   353, -1, 0, 0, False) /* Create Tachi (353) for Shop */
      , (11389, 4,   356, -1, 0, 0, False) /* Create Tofun (356) for Shop */
      , (11389, 4,   359, -1, 0, 0, False) /* Create War Hammer (359) for Shop */
@@ -220,7 +221,6 @@ VALUES (11389, 4,    35, -1, 0, 0, False) /* Create Chainmail Basinet (35) for S
      , (11389, 4,  4586, -1, 0, 0, False) /* Create Bundle of Arrowheads (4586) for Shop */
      , (11389, 4,  5339, -1, 0, 0, False) /* Create Bundle of Quarrelshafts (5339) for Shop */
      , (11389, 4,  5345, -1, 0, 0, False) /* Create Bundle of Broad Arrowheads (5345) for Shop */
-     , (11389, 2, 10696,  0, 12, 0.5, False) /* Create Apron (10696) for Wield */
      , (11389, 4, 12463, -1, 0, 0, False) /* Create Atlatl (12463) for Shop */
      , (11389, 4, 12464, -1, 0, 0, False) /* Create Atlatl Dart (12464) for Shop */
      , (11389, 4, 15296, -1, 0, 0, False) /* Create Bundle of Atlatl Dart Shafts (15296) for Shop */

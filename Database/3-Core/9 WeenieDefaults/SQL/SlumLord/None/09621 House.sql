@@ -21,7 +21,7 @@ VALUES (9621,   1,   33557167) /* Setup */
      , (9621,   8,  100671884) /* Icon */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (9621, 32,   258,  5, 0, 0, False) /* Create Apple (258) for HouseRent */
-     , (9621, 16,   260,  1, 0, 0, False) /* Create Cabbage (260) for HouseBuy */
+VALUES (9621, 16,   260,  1, 0, 0, False) /* Create Cabbage (260) for HouseBuy */
      , (9621, 16,   273, 8000, 0, 0, False) /* Create Pyreal (273) for HouseBuy */
+     , (9621, 32,   258,  5, 0, 0, False) /* Create Apple (258) for HouseRent */
      , (9621, 32,   273,  1, 0, 0, False) /* Create Pyreal (273) for HouseRent */;

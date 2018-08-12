@@ -162,7 +162,12 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 318767235 /* Nod */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (5877, 4,    35, -1, 0, 0, False) /* Create Chainmail Basinet (35) for Shop */
+VALUES (5877, 2,   115,  0, 4, 0.8, False) /* Create Leather Boots (115) for Wield */
+     , (5877, 2,   118,  0, 2, 0.9, False) /* Create Cap (118) for Wield */
+     , (5877, 2,   127,  0, 14, 0.8, False) /* Create Pants (127) for Wield */
+     , (5877, 2,   130,  0, 9, 0.5, False) /* Create Shirt (130) for Wield */
+     , (5877, 2, 10696,  0, 4, 0.8, False) /* Create Apron (10696) for Wield */
+     , (5877, 4,    35, -1, 0, 0, False) /* Create Chainmail Basinet (35) for Shop */
      , (5877, 4,    36, -1, 0, 0, False) /* Create Leather Bracers (36) for Shop */
      , (5877, 4,    39, -1, 0, 0, False) /* Create Leather Breastplate (39) for Shop */
      , (5877, 4,    43, -1, 0, 0, False) /* Create Yoroi Breastplate (43) for Shop */
@@ -181,13 +186,9 @@ VALUES (5877, 4,    35, -1, 0, 0, False) /* Create Chainmail Basinet (35) for Sh
      , (5877, 4,    96, -1, 0, 0, False) /* Create Chainmail Shirt (96) for Shop */
      , (5877, 4,   108, -1, 0, 0, False) /* Create Chainmail Tassets (108) for Shop */
      , (5877, 4,   109, -1, 0, 0, False) /* Create Leather Tassets (109) for Shop */
-     , (5877, 2,   115,  0, 4, 0.8, False) /* Create Leather Boots (115) for Wield */
      , (5877, 4,   116, -1, 0, 0, False) /* Create Studded Leather Boots (116) for Shop */
-     , (5877, 2,   118,  0, 2, 0.9, False) /* Create Cap (118) for Wield */
      , (5877, 4,   119, -1, 0, 0, False) /* Create Cowl (119) for Shop */
-     , (5877, 2,   127,  0, 14, 0.8, False) /* Create Pants (127) for Wield */
      , (5877, 4,   127, -1, 0, 0, False) /* Create Pants (127) for Shop */
-     , (5877, 2,   130,  0, 9, 0.5, False) /* Create Shirt (130) for Wield */
      , (5877, 4,   130, -1, 0, 0, False) /* Create Shirt (130) for Shop */
      , (5877, 4,   132, -1, 0, 0, False) /* Create Shoes (132) for Shop */
      , (5877, 4,   136, -1, 21, 1, False) /* Create Pack (136) for Shop */
@@ -221,6 +222,5 @@ VALUES (5877, 4,    35, -1, 0, 0, False) /* Create Chainmail Basinet (35) for Sh
      , (5877, 4,   554, -1, 0, 0, False) /* Create Studded Leather Basinet (554) for Shop */
      , (5877, 4,  2437, -1, 0, 0, False) /* Create Yoroi Leggings (2437) for Shop */
      , (5877, 4,  2605, -1, 0, 0, False) /* Create Chainmail Greaves (2605) for Shop */
-     , (5877, 2, 10696,  0, 4, 0.8, False) /* Create Apron (10696) for Wield */
      , (5877, 4, 22168, -1, 0, 0, False) /* Create Quarter Staff (22168) for Shop */
      , (5877, 4, 24035, -1, 0, 0, False) /* Create The Blazing Staff of Branith (24035) for Shop */;

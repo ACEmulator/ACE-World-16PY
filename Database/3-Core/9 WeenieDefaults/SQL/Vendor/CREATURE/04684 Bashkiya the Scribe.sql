@@ -166,10 +166,11 @@ INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `w
 VALUES (4684, 2,   128,  0, 9, 0.5, False) /* Create Qafiya (128) for Wield */
      , (4684, 2,   133,  0, 18, 1, False) /* Create Slippers (133) for Wield */
      , (4684, 2,   134,  0, 9, 1, False) /* Create Tunic (134) for Wield */
+     , (4684, 2,  2601,  0, 18, 1, False) /* Create Pants (2601) for Wield */
+     , (4684, 2, 10696,  0, 9, 0.5, False) /* Create Apron (10696) for Wield */
      , (4684, 4,   364, -1, 0, 0, False) /* Create Book (364) for Shop */
      , (4684, 4,   365, -1, 0, 0, False) /* Create Parchment (365) for Shop */
      , (4684, 4,   367, -1, 0, 0, False) /* Create Tome (367) for Shop */
-     , (4684, 2,  2601,  0, 18, 1, False) /* Create Pants (2601) for Wield */
      , (4684, 4,  5584, -1, 0, 0, False) /* Create Gharu'ndim Cookbook (5584) for Shop */
      , (4684, 4,  5586, -1, 0, 0, False) /* Create Alchemy Guide (5586) for Shop */
      , (4684, 4,  5587, -1, 0, 0, False) /* Create Fletching Guide (5587) for Shop */
@@ -180,6 +181,5 @@ VALUES (4684, 2,   128,  0, 9, 0.5, False) /* Create Qafiya (128) for Wield */
      , (4684, 4,  9118, -1, 0, 0, False) /* Create Puppet Show (9118) for Shop */
      , (4684, 4,  9124, -1, 0, 0, False) /* Create The Beginning (9124) for Shop */
      , (4684, 4,  9319, -1, 0, 0, False) /* Create Mnemosynes and the Art of Lockpicking (9319) for Shop */
-     , (4684, 2, 10696,  0, 9, 0.5, False) /* Create Apron (10696) for Wield */
      , (4684, 4, 14797, -1, 0, 0, False) /* Create Festival Cookbook (14797) for Shop */
      , (4684, 4, 27851, -1, 0, 0, False) /* Create The Weapons of the Singularity (27851) for Shop */;

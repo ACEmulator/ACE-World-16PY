@@ -173,6 +173,7 @@ INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `w
 VALUES (20212, 2,   115,  0, 4, 0.6, False) /* Create Leather Boots (115) for Wield */
      , (20212, 2,   124,  0, 9, 0.5, False) /* Create Jerkin (124) for Wield */
      , (20212, 2,   127,  0, 3, 0.67, False) /* Create Pants (127) for Wield */
+     , (20212, 2, 10696,  0, 13, 0.5, False) /* Create Apron (10696) for Wield */
      , (20212, 4,  2766, -1, 0, 0, False) /* Create Scroll of Acid Bane VI (2766) for Shop */
      , (20212, 4,  2771, -1, 0, 0, False) /* Create Scroll of Acid Lure VI (2771) for Shop */
      , (20212, 4,  2776, -1, 0, 0, False) /* Create Scroll of Blade Bane VI (2776) for Shop */
@@ -202,6 +203,5 @@ VALUES (20212, 2,   115,  0, 4, 0.6, False) /* Create Leather Boots (115) for Wi
      , (20212, 4,  2897, -1, 0, 0, False) /* Create Scroll of Turn Blade VI (2897) for Shop */
      , (20212, 4,  2902, -1, 0, 0, False) /* Create Scroll of Weaken Lock VI (2902) for Shop */
      , (20212, 4,  2906, -1, 0, 0, False) /* Create Scroll of Summon Primary Portal III (2906) for Shop */
-     , (20212, 2, 10696,  0, 13, 0.5, False) /* Create Apron (10696) for Wield */
      , (20212, 4, 15269, -1, 0, 0, False) /* Create Foci of Artifice (15269) for Shop */
      , (20212, 4, 20624, -1, 0, 0, False) /* Create Scroll of Summon Secondary Portal III (20624) for Shop */;

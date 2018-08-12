@@ -167,6 +167,7 @@ VALUES (2222, 2,   115,  0, 4, 0.8, False) /* Create Leather Boots (115) for Wie
      , (2222, 2,   117,  0, 18, 1, False) /* Create Breeches (117) for Wield */
      , (2222, 2,   118,  0, 4, 0.8, False) /* Create Cap (118) for Wield */
      , (2222, 2,   130,  0, 9, 0, False) /* Create Shirt (130) for Wield */
+     , (2222, 2, 10696,  0, 9, 1, False) /* Create Apron (10696) for Wield */
      , (2222, 4,   258, -1, 0, 0, False) /* Create Apple (258) for Shop */
      , (2222, 4,   259, -1, 0, 0, False) /* Create Bread (259) for Shop */
      , (2222, 4,   260, -1, 0, 0, False) /* Create Cabbage (260) for Shop */
@@ -184,5 +185,4 @@ VALUES (2222, 2,   115,  0, 4, 0.8, False) /* Create Leather Boots (115) for Wie
      , (2222, 4,  2462, -1, 0, 0, False) /* Create Mead (2462) for Shop */
      , (2222, 4,  2464, -1, 0, 0, False) /* Create Orange Juice (2464) for Shop */
      , (2222, 4,  2466, -1, 0, 0, False) /* Create Red Tea (2466) for Shop */
-     , (2222, 4,  2471, -1, 0, 0, False) /* Create Stout (2471) for Shop */
-     , (2222, 2, 10696,  0, 9, 1, False) /* Create Apron (10696) for Wield */;
+     , (2222, 4,  2471, -1, 0, 0, False) /* Create Stout (2471) for Shop */;

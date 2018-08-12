@@ -157,8 +157,8 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 268435537 /* Twitch1 */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (5766, 9,     0,  0, 0, 0.9, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 1 for ContainTreasure */
-     , (5766, 1,  5758,  1, 0, 0, False) /* Create Carrot (5758) for Contain */
-     , (5766, 2,  5769, 12, 0, 0, False) /* Create Iceball (5769) for Wield */
+VALUES (5766, 1,  5758,  1, 0, 0, False) /* Create Carrot (5758) for Contain */
      , (5766, 1,  7835,  1, 0, 0, False) /* Create Magic Iceball (7835) for Contain */
+     , (5766, 2,  5769, 12, 0, 0, False) /* Create Iceball (5769) for Wield */
+     , (5766, 9,     0,  0, 0, 0.9, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 1 for ContainTreasure */
      , (5766, 9, 22825,  0, 0, 0.1, False) /* Create A Lump of Coal (22825) for ContainTreasure */;

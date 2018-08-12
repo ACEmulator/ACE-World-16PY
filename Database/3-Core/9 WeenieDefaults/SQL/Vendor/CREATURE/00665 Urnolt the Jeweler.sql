@@ -167,11 +167,11 @@ VALUES (665, 2,   119,  0, 9, 0, False) /* Create Cowl (119) for Wield */
      , (665, 2,   127,  0, 8, 0, False) /* Create Pants (127) for Wield */
      , (665, 2,   130,  0, 9, 0, False) /* Create Shirt (130) for Wield */
      , (665, 2,   132,  0, 8, 0, False) /* Create Shoes (132) for Wield */
+     , (665, 2, 10696,  0, 9, 0.5, False) /* Create Apron (10696) for Wield */
      , (665, 4,   295, -1, 0, 0, False) /* Create Bracelet (295) for Shop */
      , (665, 4,   297, -1, 0, 0, False) /* Create Ring (297) for Shop */
      , (665, 4,  2417, -1, 0, 0, False) /* Create Smoky Quartz (2417) for Shop */
      , (665, 4,  2420, -1, 0, 0, False) /* Create White Quartz (2420) for Shop */
      , (665, 4,  2621, -1, 0, 0, False) /* Create Trade Note (100) (2621) for Shop */
      , (665, 4,  2622, -1, 0, 0, False) /* Create Trade Note (500) (2622) for Shop */
-     , (665, 4,  2623, -1, 0, 0, False) /* Create Trade Note (1,000) (2623) for Shop */
-     , (665, 2, 10696,  0, 9, 0.5, False) /* Create Apron (10696) for Wield */;
+     , (665, 4,  2623, -1, 0, 0, False) /* Create Trade Note (1,000) (2623) for Shop */;

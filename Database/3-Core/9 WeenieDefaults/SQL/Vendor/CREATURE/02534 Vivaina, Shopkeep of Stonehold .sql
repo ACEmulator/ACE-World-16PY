@@ -163,11 +163,15 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 318767235 /* Nod */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (2534, 4,    40, -1, 0, 0, False) /* Create Platemail Breastplate (40) for Shop */
+VALUES (2534, 2,    75,  0, 0, 0, False) /* Create Helmet (75) for Wield */
+     , (2534, 2,   115,  0, 4, 0.6, False) /* Create Leather Boots (115) for Wield */
+     , (2534, 2,   117,  0, 5, 0.67, False) /* Create Breeches (117) for Wield */
+     , (2534, 2,   124,  0, 13, 0.5, False) /* Create Jerkin (124) for Wield */
+     , (2534, 2, 10696,  0, 13, 1, False) /* Create Apron (10696) for Wield */
+     , (2534, 4,    40, -1, 0, 0, False) /* Create Platemail Breastplate (40) for Shop */
      , (2534, 4,    57, -1, 0, 0, False) /* Create Platemail Gauntlets (57) for Shop */
      , (2534, 4,    61, -1, 0, 0, False) /* Create Platemail Girth (61) for Shop */
      , (2534, 4,    66, -1, 0, 0, False) /* Create Platemail Greaves (66) for Shop */
-     , (2534, 2,    75,  0, 0, 0, False) /* Create Helmet (75) for Wield */
      , (2534, 4,    75, -1, 0, 0, False) /* Create Helmet (75) for Shop */
      , (2534, 4,    76, -1, 0, 0, False) /* Create Horned Helm (76) for Shop */
      , (2534, 4,    82, -1, 0, 0, False) /* Create Platemail Leggings (82) for Shop */
@@ -176,9 +180,6 @@ VALUES (2534, 4,    40, -1, 0, 0, False) /* Create Platemail Breastplate (40) fo
      , (2534, 4,    95, -1, 0, 0, False) /* Create Tower Shield (95) for Shop */
      , (2534, 4,   107, -1, 0, 0, False) /* Create Sollerets (107) for Shop */
      , (2534, 4,   110, -1, 0, 0, False) /* Create Platemail Tassets (110) for Shop */
-     , (2534, 2,   115,  0, 4, 0.6, False) /* Create Leather Boots (115) for Wield */
-     , (2534, 2,   117,  0, 5, 0.67, False) /* Create Breeches (117) for Wield */
-     , (2534, 2,   124,  0, 13, 0.5, False) /* Create Jerkin (124) for Wield */
      , (2534, 4,   136, -1, 9, 1, False) /* Create Pack (136) for Shop */
      , (2534, 4,   136, -1, 8, 1, False) /* Create Pack (136) for Shop */
      , (2534, 4,   137, -1, 90, 0, False) /* Create Basket (137) for Shop */
@@ -228,7 +229,6 @@ VALUES (2534, 4,    40, -1, 0, 0, False) /* Create Platemail Breastplate (40) fo
      , (2534, 4,  7824, -1, 0, 0, False) /* Create Metal Press (7824) for Shop */
      , (2534, 4,  8488, -1, 0, 0, False) /* Create Armet (8488) for Shop */
      , (2534, 4,  8489, -1, 0, 0, False) /* Create Heaume (8489) for Shop */
-     , (2534, 2, 10696,  0, 13, 1, False) /* Create Apron (10696) for Wield */
      , (2534, 4, 22168, -1, 0, 0, False) /* Create Quarter Staff (22168) for Shop */
      , (2534, 4, 22765, -1, 0, 0, False) /* Create The Empyrean Temples (22765) for Shop */
      , (2534, 4, 30743, -1, 0, 0, False) /* Create Suzuhara Baijin's Delivery (30743) for Shop */;

@@ -190,6 +190,7 @@ INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `w
 VALUES (659, 2,   115,  0, 4, 0.6, False) /* Create Leather Boots (115) for Wield */
      , (659, 2,   127,  0, 8, 0, False) /* Create Pants (127) for Wield */
      , (659, 2,   130,  0, 9, 0, False) /* Create Shirt (130) for Wield */
+     , (659, 2, 10696,  0, 9, 0.5, False) /* Create Apron (10696) for Wield */
      , (659, 4,   259, -1, 0, 0, False) /* Create Bread (259) for Shop */
      , (659, 4,  1223, -1, 0, 0, False) /* Create Rithwic Portal Directions (1223) for Shop */
      , (659, 4,  1402, -1, 0, 0, False) /* Create Rithwic Crypt Directions (1402) for Shop */
@@ -206,6 +207,5 @@ VALUES (659, 2,   115,  0, 4, 0.6, False) /* Create Leather Boots (115) for Wiel
      , (659, 4,  4746, -1, 0, 0, False) /* Create Water (4746) for Shop */
      , (659, 4,  5004, -1, 0, 0, False) /* Create Warehouse Directions (5004) for Shop */
      , (659, 4,  8378, -1, 0, 0, False) /* Create Beer Stein (8378) for Shop */
-     , (659, 2, 10696,  0, 9, 0.5, False) /* Create Apron (10696) for Wield */
      , (659, 4, 15808, -1, 0, 0, False) /* Create Plea for Help (15808) for Shop */
      , (659, 4, 26643, -1, 0, 0, False) /* Create A Strange Rift (26643) for Shop */;

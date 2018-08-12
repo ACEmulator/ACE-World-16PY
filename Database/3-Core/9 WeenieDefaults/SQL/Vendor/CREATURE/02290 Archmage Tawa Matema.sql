@@ -173,6 +173,7 @@ INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `w
 VALUES (2290, 2,   127,  0, 4, 0.8, False) /* Create Pants (127) for Wield */
      , (2290, 2,   130,  0, 9, 0.5, False) /* Create Shirt (130) for Wield */
      , (2290, 2,   132,  0, 4, 0.8, False) /* Create Shoes (132) for Wield */
+     , (2290, 2, 10696,  0, 11, 0.5, False) /* Create Apron (10696) for Wield */
      , (2290, 4,   136, -1, 17, 1, False) /* Create Pack (136) for Shop */
      , (2290, 4,   139, -1, 86, 0, False) /* Create Small Belt Pouch (139) for Shop */
      , (2290, 4,   625, -1, 0, 0, False) /* Create Ginseng (625) for Shop */
@@ -282,7 +283,6 @@ VALUES (2290, 2,   127,  0, 4, 0.8, False) /* Create Pants (127) for Wield */
      , (2290, 4,  8184, -1, 0, 0, False) /* Create Purge All Magic Other (8184) for Shop */
      , (2290, 4,  8185, -1, 0, 0, False) /* Create Nullify All Magic Other (8185) for Shop */
      , (2290, 4,  8897, -1, 0, 0, False) /* Create Platinum Scarab (8897) for Shop */
-     , (2290, 2, 10696,  0, 11, 0.5, False) /* Create Apron (10696) for Wield */
      , (2290, 4, 20628, -1, 0, 0, False) /* Create Trade Note (150,000) (20628) for Shop */
      , (2290, 4, 20629, -1, 0, 0, False) /* Create Trade Note (200,000) (20629) for Shop */
      , (2290, 4, 20630, -1, 0, 0, False) /* Create Trade Note (250,000) (20630) for Shop */

@@ -156,13 +156,13 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,  10 /* Tell */, 0, 1, NULL, 'Perfect. I hope you''ve chosen your totems well--fused with the proper triple totem, this weapon will be a powerful ally to you. And if you''ve forgotten how to finish its creation, may I suggest that you purchase Aun Shimauri''s tome? He''s giving them away for free..but I, for one, have my children to think about.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (11409, 4, 11463, -1, 0, 0, False) /* Create Tewhate (11463) for Shop */
+VALUES (11409, 2, 12123,  1, 0, 1, False) /* Create Palenqual's Hoeroa (12123) for Wield */
+     , (11409, 4, 11463, -1, 0, 0, False) /* Create Tewhate (11463) for Shop */
      , (11409, 4, 11464, -1, 0, 0, False) /* Create Okane (11464) for Shop */
      , (11409, 4, 11465, -1, 0, 0, False) /* Create Waaika (11465) for Shop */
      , (11409, 4, 11466, -1, 0, 0, False) /* Create Taiaha (11466) for Shop */
      , (11409, 4, 11467, -1, 0, 0, False) /* Create Hoeroa (11467) for Shop */
      , (11409, 4, 11974, -1, 0, 0, False) /* Create Aun Shimauri's Instructions (11974) for Shop */
-     , (11409, 2, 12123,  1, 0, 1, False) /* Create Palenqual's Hoeroa (12123) for Wield */
      , (11409, 4, 27368, -1, 0, 0, False) /* Create Atlatl (27368) for Shop */
      , (11409, 4, 27369, -1, 0, 0, False) /* Create Panaq (27369) for Shop */
      , (11409, 4, 27370, -1, 0, 0, False) /* Create Korua (27370) for Shop */

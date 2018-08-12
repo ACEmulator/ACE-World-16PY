@@ -168,6 +168,7 @@ VALUES (813, 2,   115,  0, 9, 0, False) /* Create Leather Boots (115) for Wield 
      , (813, 2,   118,  0, 9, 0, False) /* Create Cap (118) for Wield */
      , (813, 2,   134,  0, 9, 0.5, False) /* Create Tunic (134) for Wield */
      , (813, 2,   303,  0, 0, 0, False) /* Create Hand Axe (303) for Wield */
+     , (813, 2, 10696,  0, 9, 0, False) /* Create Apron (10696) for Wield */
      , (813, 4,   314, -1, 0, 0, False) /* Create Dagger (314) for Shop */
      , (813, 4,   315, -1, 0, 0, False) /* Create Throwing Dagger (315) for Shop */
      , (813, 4,   342, -1, 0, 0, False) /* Create Shou-ono (342) for Shop */
@@ -179,5 +180,4 @@ VALUES (813, 2,   115,  0, 9, 0, False) /* Create Leather Boots (115) for Wield 
      , (813, 4,  2622, -1, 0, 0, False) /* Create Trade Note (500) (2622) for Shop */
      , (813, 4,  2623, -1, 0, 0, False) /* Create Trade Note (1,000) (2623) for Shop */
      , (813, 4,  4195, -1, 0, 0, False) /* Create Nekode (4195) for Shop */
-     , (813, 2, 10696,  0, 9, 0, False) /* Create Apron (10696) for Wield */
      , (813, 4, 22158, -1, 0, 0, False) /* Create Jo (22158) for Shop */;

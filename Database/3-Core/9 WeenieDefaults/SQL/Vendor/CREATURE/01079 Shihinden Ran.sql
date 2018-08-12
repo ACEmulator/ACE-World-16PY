@@ -162,18 +162,19 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 318767235 /* Nod */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (1079, 4,    36, -1, 0, 0, False) /* Create Leather Bracers (36) for Shop */
+VALUES (1079, 2,   115,  0, 9, 0.5, False) /* Create Leather Boots (115) for Wield */
+     , (1079, 2,   118,  0, 4, 0.5, False) /* Create Cap (118) for Wield */
+     , (1079, 2,   127,  0, 4, 0.5, False) /* Create Pants (127) for Wield */
+     , (1079, 2,   130,  0, 9, 0.5, False) /* Create Shirt (130) for Wield */
+     , (1079, 2, 10696,  0, 4, 0.8, False) /* Create Apron (10696) for Wield */
+     , (1079, 4,    36, -1, 0, 0, False) /* Create Leather Bracers (36) for Shop */
      , (1079, 4,    39, -1, 0, 0, False) /* Create Leather Breastplate (39) for Shop */
      , (1079, 4,    44, -1, 0, 0, False) /* Create Buckler (44) for Shop */
      , (1079, 4,    45, -1, 0, 0, False) /* Create Leather Cap (45) for Shop */
      , (1079, 4,    65, -1, 0, 0, False) /* Create Leather Greaves (65) for Shop */
      , (1079, 4,   109, -1, 0, 0, False) /* Create Leather Tassets (109) for Shop */
-     , (1079, 2,   115,  0, 9, 0.5, False) /* Create Leather Boots (115) for Wield */
-     , (1079, 2,   118,  0, 4, 0.5, False) /* Create Cap (118) for Wield */
      , (1079, 4,   118, -1, 0, 0, False) /* Create Cap (118) for Shop */
      , (1079, 4,   120, -1, 0, 0, False) /* Create Quilted Drawers (120) for Shop */
-     , (1079, 2,   127,  0, 4, 0.5, False) /* Create Pants (127) for Wield */
-     , (1079, 2,   130,  0, 9, 0.5, False) /* Create Shirt (130) for Wield */
      , (1079, 4,   132, -1, 0, 0, False) /* Create Shoes (132) for Shop */
      , (1079, 4,   134, -1, 0, 0, False) /* Create Tunic (134) for Shop */
      , (1079, 4,   136, -1, 21, 1, False) /* Create Pack (136) for Shop */
@@ -205,7 +206,6 @@ VALUES (1079, 4,    36, -1, 0, 0, False) /* Create Leather Bracers (36) for Shop
      , (1079, 4,  2457, -1, 0, 0, False) /* Create Health Draught (2457) for Shop */
      , (1079, 4,  2460, -1, 0, 0, False) /* Create Mana Draught (2460) for Shop */
      , (1079, 4,  2470, -1, 0, 0, False) /* Create Stamina Elixir (2470) for Shop */
-     , (1079, 2, 10696,  0, 4, 0.8, False) /* Create Apron (10696) for Wield */
      , (1079, 4, 22158, -1, 0, 0, False) /* Create Jo (22158) for Shop */
      , (1079, 4, 27319, -1, 0, 0, False) /* Create Health Tincture (27319) for Shop */
      , (1079, 4, 27322, -1, 0, 0, False) /* Create Mana Tincture (27322) for Shop */

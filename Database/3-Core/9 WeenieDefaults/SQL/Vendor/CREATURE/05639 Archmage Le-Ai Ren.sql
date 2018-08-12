@@ -180,6 +180,9 @@ VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 318767235 /* Nod */, NULL, NULL,
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (5639, 2,   115,  0, 4, 0.6, False) /* Create Leather Boots (115) for Wield */
+     , (5639, 2,  2588,  0, 9, 0, False) /* Create Shirt (2588) for Wield */
+     , (5639, 2,  2597,  0, 9, 0.5, False) /* Create Pants (2597) for Wield */
+     , (5639, 2, 10696,  0, 9, 0.5, False) /* Create Apron (10696) for Wield */
      , (5639, 4,   136, -1, 9, 1, False) /* Create Pack (136) for Shop */
      , (5639, 4,   625, -1, 0, 0, False) /* Create Ginseng (625) for Shop */
      , (5639, 4,   626, -1, 0, 0, False) /* Create Powdered Hematite (626) for Shop */
@@ -235,13 +238,10 @@ VALUES (5639, 2,   115,  0, 4, 0.6, False) /* Create Leather Boots (115) for Wie
      , (5639, 4,   791, -1, 0, 0, False) /* Create Powdered Quartz (791) for Shop */
      , (5639, 4,   792, -1, 0, 0, False) /* Create Powdered Turquoise (792) for Shop */
      , (5639, 4,  2472, -1, 0, 0, False) /* Create Wand (2472) for Shop */
-     , (5639, 2,  2588,  0, 9, 0, False) /* Create Shirt (2588) for Wield */
-     , (5639, 2,  2597,  0, 9, 0.5, False) /* Create Pants (2597) for Wield */
      , (5639, 4,  2621, -1, 0, 0, False) /* Create Trade Note (100) (2621) for Shop */
      , (5639, 4,  2622, -1, 0, 0, False) /* Create Trade Note (500) (2622) for Shop */
      , (5639, 4,  2623, -1, 0, 0, False) /* Create Trade Note (1,000) (2623) for Shop */
      , (5639, 4,  4612, -1, 0, 0, False) /* Create Tiny Mana Charge (4612) for Shop */
      , (5639, 4,  4751, -1, 0, 0, False) /* Create Mortar and Pestle (4751) for Shop */
      , (5639, 4,  5540, -1, 0, 0, False) /* Create Wand (5540) for Shop */
-     , (5639, 2, 10696,  0, 9, 0.5, False) /* Create Apron (10696) for Wield */
      , (5639, 4, 20631, -1, 0, 0, False) /* Create Prismatic Taper (20631) for Shop */;

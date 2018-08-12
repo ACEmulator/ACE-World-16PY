@@ -162,13 +162,14 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 318767235 /* Nod */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (410, 4,    44, -1, 14, 0.1, False) /* Create Buckler (44) for Shop */
-     , (410, 4,    46, -1, 14, 0.1, False) /* Create Metal Cap (46) for Shop */
-     , (410, 4,    93, -1, 14, 0.1, False) /* Create Round Shield (93) for Shop */
-     , (410, 2,   115,  0, 4, 0.8, False) /* Create Leather Boots (115) for Wield */
-     , (410, 4,   117, -1, 14, 0.1, False) /* Create Breeches (117) for Shop */
+VALUES (410, 2,   115,  0, 4, 0.8, False) /* Create Leather Boots (115) for Wield */
      , (410, 2,   127,  0, 8, 0.8, False) /* Create Pants (127) for Wield */
      , (410, 2,   130,  0, 8, 0.2, False) /* Create Shirt (130) for Wield */
+     , (410, 2, 10696,  0, 9, 0.5, False) /* Create Apron (10696) for Wield */
+     , (410, 4,    44, -1, 14, 0.1, False) /* Create Buckler (44) for Shop */
+     , (410, 4,    46, -1, 14, 0.1, False) /* Create Metal Cap (46) for Shop */
+     , (410, 4,    93, -1, 14, 0.1, False) /* Create Round Shield (93) for Shop */
+     , (410, 4,   117, -1, 14, 0.1, False) /* Create Breeches (117) for Shop */
      , (410, 4,   130, -1, 14, 0.1, False) /* Create Shirt (130) for Shop */
      , (410, 4,   132, -1, 14, 0.1, False) /* Create Shoes (132) for Shop */
      , (410, 4,   258, -1, 0, 0, False) /* Create Apple (258) for Shop */
@@ -182,5 +183,4 @@ VALUES (410, 4,    44, -1, 14, 0.1, False) /* Create Buckler (44) for Shop */
      , (410, 4,   329, -1, 14, 0.1, False) /* Create Knife (329) for Shop */
      , (410, 4,   342, -1, 14, 0.1, False) /* Create Shou-ono (342) for Shop */
      , (410, 4,   343, -1, 0, 0.1, False) /* Create Shouken (343) for Shop */
-     , (410, 4,   352, -1, 14, 0.1, False) /* Create Short Sword (352) for Shop */
-     , (410, 2, 10696,  0, 9, 0.5, False) /* Create Apron (10696) for Wield */;
+     , (410, 4,   352, -1, 14, 0.1, False) /* Create Short Sword (352) for Shop */;

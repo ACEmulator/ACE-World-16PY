@@ -191,6 +191,7 @@ VALUES (973, 2,   127,  0, 1, 0.67, False) /* Create Pants (127) for Wield */
      , (973, 2,   130,  0, 9, 0, False) /* Create Shirt (130) for Wield */
      , (973, 2,   133,  0, 1, 0.67, False) /* Create Slippers (133) for Wield */
      , (973, 2,   135,  0, 10, 0.67, False) /* Create Turban (135) for Wield */
+     , (973, 2, 10696,  0, 4, 0.8, False) /* Create Apron (10696) for Wield */
      , (973, 4,   261, -1, 0, 0, False) /* Create Cheese (261) for Shop */
      , (973, 4,  1220, -1, 0, 0, False) /* Create Dungeon Manor Directions (1220) for Shop */
      , (973, 4,  1224, -1, 0, 0, False) /* Create Samsur Portal Directions (1224) for Shop */
@@ -208,6 +209,5 @@ VALUES (973, 2,   127,  0, 1, 0.67, False) /* Create Pants (127) for Wield */
      , (973, 4,  6418, -1, 0, 0, False) /* Create A Fiery Stone (6418) for Shop */
      , (973, 4,  8209, -1, 0, 0, False) /* Create Call for Adventurers! (8209) for Shop */
      , (973, 4,  8378, -1, 0, 0, False) /* Create Beer Stein (8378) for Shop */
-     , (973, 2, 10696,  0, 4, 0.8, False) /* Create Apron (10696) for Wield */
      , (973, 4, 15808, -1, 0, 0, False) /* Create Plea for Help (15808) for Shop */
      , (973, 4, 20229, -1, 0, 0, False) /* Create Rumor of an Artifact (20229) for Shop */;

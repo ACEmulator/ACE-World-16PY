@@ -176,9 +176,9 @@ INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `w
 VALUES (6862, 2,   117,  0, 4, 0.8, False) /* Create Breeches (117) for Wield */
      , (6862, 2,   130,  0, 9, 0.5, False) /* Create Shirt (130) for Wield */
      , (6862, 2,   132,  0, 9, 0, False) /* Create Shoes (132) for Wield */
+     , (6862, 2,   327,  0, 0, 0, False) /* Create Ken (327) for Wield */
      , (6862, 4,   310, -1, 0, 0, False) /* Create Throwing Club (310) for Shop */
      , (6862, 4,   314, -1, 0, 0, False) /* Create Dagger (314) for Shop */
-     , (6862, 2,   327,  0, 0, 0, False) /* Create Ken (327) for Wield */
      , (6862, 4,   327, -1, 0, 0, False) /* Create Ken (327) for Shop */
      , (6862, 4,   336, -1, 0, 0, False) /* Create Ono (336) for Shop */
      , (6862, 4,   353, -1, 0, 0, False) /* Create Tachi (353) for Shop */

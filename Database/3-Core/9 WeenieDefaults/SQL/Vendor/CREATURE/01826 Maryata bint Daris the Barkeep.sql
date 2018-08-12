@@ -239,6 +239,7 @@ VALUES (1826, 2,   117,  0, 17, 1, False) /* Create Breeches (117) for Wield */
      , (1826, 2,   130,  0, 14, 0, False) /* Create Shirt (130) for Wield */
      , (1826, 2,   132,  0, 4, 0.6, False) /* Create Shoes (132) for Wield */
      , (1826, 2,   135,  0, 17, 1, False) /* Create Turban (135) for Wield */
+     , (1826, 2, 10696,  0, 9, 1, False) /* Create Apron (10696) for Wield */
      , (1826, 4,   620, -1, 0, 0, False) /* Create Cake (620) for Shop */
      , (1826, 4,  2452, -1, 0, 0, False) /* Create Apple Juice (2452) for Shop */
      , (1826, 4,  2454, -1, 0, 0, False) /* Create Coffee (2454) for Shop */
@@ -251,6 +252,5 @@ VALUES (1826, 2,   117,  0, 17, 1, False) /* Create Breeches (117) for Wield */
      , (1826, 4,  6418, -1, 0, 0, False) /* Create A Fiery Stone (6418) for Shop */
      , (1826, 4,  8209, -1, 0, 0, False) /* Create Call for Adventurers! (8209) for Shop */
      , (1826, 4,  8378, -1, 0, 0, False) /* Create Beer Stein (8378) for Shop */
-     , (1826, 2, 10696,  0, 9, 1, False) /* Create Apron (10696) for Wield */
      , (1826, 4, 12146, -1, 0, 0, False) /* Create Simulacra Rumor (12146) for Shop */
      , (1826, 4, 23031, -1, 0, 0, False) /* Create The Silifi of Crimson Stars (23031) for Shop */;

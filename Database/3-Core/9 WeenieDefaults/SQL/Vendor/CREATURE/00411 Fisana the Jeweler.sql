@@ -166,6 +166,7 @@ VALUES (411, 2,   115,  0, 4, 0.8, False) /* Create Leather Boots (115) for Wiel
      , (411, 2,   127,  0, 8, 0.8, False) /* Create Pants (127) for Wield */
      , (411, 2,   130,  0, 8, 0.2, False) /* Create Shirt (130) for Wield */
      , (411, 2,   135,  0, 8, 0.75, False) /* Create Turban (135) for Wield */
+     , (411, 2, 10696,  0, 9, 0.5, False) /* Create Apron (10696) for Wield */
      , (411, 4,   280, -1, 0, 0, False) /* Create Gem (280) for Shop */
      , (411, 4,   295, -1, 0, 0, False) /* Create Bracelet (295) for Shop */
      , (411, 4,   297, -1, 0, 0, False) /* Create Ring (297) for Shop */
@@ -174,5 +175,4 @@ VALUES (411, 2,   115,  0, 4, 0.8, False) /* Create Leather Boots (115) for Wiel
      , (411, 4,   514, -1, 0, 0, False) /* Create Excellent Lockpick (514) for Shop */
      , (411, 4,   515, -1, 0, 0, False) /* Create Superb Lockpick (515) for Shop */
      , (411, 4,   516, -1, 0, 0, False) /* Create Peerless Lockpick (516) for Shop */
-     , (411, 4,   545, -1, 0, 0, False) /* Create Reliable Lockpick (545) for Shop */
-     , (411, 2, 10696,  0, 9, 0.5, False) /* Create Apron (10696) for Wield */;
+     , (411, 4,   545, -1, 0, 0, False) /* Create Reliable Lockpick (545) for Shop */;

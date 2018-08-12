@@ -167,10 +167,10 @@ VALUES (1818, 2,   115,  0, 6, 0, False) /* Create Leather Boots (115) for Wield
      , (1818, 2,   127,  0, 18, 1, False) /* Create Pants (127) for Wield */
      , (1818, 2,   134,  0, 4, 0.6, False) /* Create Tunic (134) for Wield */
      , (1818, 2,   135,  0, 9, 0.5, False) /* Create Turban (135) for Wield */
+     , (1818, 2, 10696,  0, 18, 0.5, False) /* Create Apron (10696) for Wield */
      , (1818, 4,   136, -1, 21, 1, False) /* Create Pack (136) for Shop */
      , (1818, 4,   547, -1, 0, 0, False) /* Create Brimstone-cap Mushroom (547) for Shop */
      , (1818, 4,  4746, -1, 0, 0, False) /* Create Water (4746) for Shop */
      , (1818, 4,  4753, -1, 0, 0, False) /* Create Side of Beef (4753) for Shop */
      , (1818, 4,  4754, -1, 0, 0, False) /* Create Baking Pan (4754) for Shop */
-     , (1818, 4,  4755, -1, 0, 0, False) /* Create Brine (4755) for Shop */
-     , (1818, 2, 10696,  0, 18, 0.5, False) /* Create Apron (10696) for Wield */;
+     , (1818, 4,  4755, -1, 0, 0, False) /* Create Brine (4755) for Shop */;

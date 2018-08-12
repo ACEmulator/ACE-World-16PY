@@ -175,6 +175,7 @@ VALUES (966, 2,   115,  0, 18, 1, False) /* Create Leather Boots (115) for Wield
      , (966, 2,   118,  0, 9, 0.5, False) /* Create Cap (118) for Wield */
      , (966, 2,   127,  0, 9, 0.5, False) /* Create Pants (127) for Wield */
      , (966, 2,   130,  0, 9, 0.5, False) /* Create Shirt (130) for Wield */
+     , (966, 2, 10696,  0, 9, 1, False) /* Create Apron (10696) for Wield */
      , (966, 4,   136, -1, 8, 1, False) /* Create Pack (136) for Shop */
      , (966, 4,   136, -1, 39, 1, False) /* Create Pack (136) for Shop */
      , (966, 4,   136, -1, 13, 1, False) /* Create Pack (136) for Shop */
@@ -226,6 +227,5 @@ VALUES (966, 2,   115,  0, 18, 1, False) /* Create Leather Boots (115) for Wield
      , (966, 4,  4613, -1, 0, 0, False) /* Create Small Mana Charge (4613) for Shop */
      , (966, 4,  4614, -1, 0, 0, False) /* Create Moderate Mana Charge (4614) for Shop */
      , (966, 4,  4615, -1, 0, 0, False) /* Create High Mana Charge (4615) for Shop */
-     , (966, 2, 10696,  0, 9, 1, False) /* Create Apron (10696) for Wield */
      , (966, 4, 27326, -1, 0, 0, False) /* Create Stamina Tincture (27326) for Shop */
      , (966, 4, 27331, -1, 0, 0, False) /* Create Minor Mana Stone (27331) for Shop */;

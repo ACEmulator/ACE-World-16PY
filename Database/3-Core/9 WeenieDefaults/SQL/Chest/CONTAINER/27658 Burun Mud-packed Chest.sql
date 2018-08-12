@@ -46,7 +46,7 @@ VALUES (27658,   1,   33558743) /* Setup */
      , (27658,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (27658, -1, 27683, 0, 1, 1, 2, 8, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Renegade Lugian Ring (27683) (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: Contain */
-     , (27658, -1, 27705, 0, 1, 1, 2, 8, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate A Fetid muck-covered Note (27705) (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: Contain */
+VALUES (27658, -1, 27672, 0, 1, 1, 2, 8, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Carved Gemstone Lockpicks (27672) (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: Contain */
+     , (27658, -1, 27683, 0, 1, 1, 2, 8, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Renegade Lugian Ring (27683) (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: Contain */
      , (27658, -1, 27702, 0, 1, 1, 2, 8, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Gems (27702) (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: Contain */
-     , (27658, -1, 27672, 0, 1, 1, 2, 8, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Carved Gemstone Lockpicks (27672) (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: Contain */;
+     , (27658, -1, 27705, 0, 1, 1, 2, 8, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate A Fetid muck-covered Note (27705) (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: Contain */;

@@ -178,9 +178,9 @@ INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `w
 VALUES (2047, 2,   117,  0, 13, 0.5, False) /* Create Breeches (117) for Wield */
      , (2047, 2,   130,  0, 5, 0.67, False) /* Create Shirt (130) for Wield */
      , (2047, 2,   132,  0, 9, 1, False) /* Create Shoes (132) for Wield */
+     , (2047, 2, 10696,  0, 13, 0.5, False) /* Create Apron (10696) for Wield */
      , (2047, 4,   137, -1, 0, 0, False) /* Create Basket (137) for Shop */
      , (2047, 4,   258, -1, 0, 0, False) /* Create Apple (258) for Shop */
      , (2047, 4,  1447, -1, 0, 0, False) /* Create Tart Apple (1447) for Shop */
      , (2047, 4,  2193, -1, 0, 0, False) /* Create Trothyr's Rest Key (2193) for Shop */
-     , (2047, 4,  2327, -1, 0, 0, False) /* Create Trothyr's Rest Rumor (2327) for Shop */
-     , (2047, 2, 10696,  0, 13, 0.5, False) /* Create Apron (10696) for Wield */;
+     , (2047, 4,  2327, -1, 0, 0, False) /* Create Trothyr's Rest Rumor (2327) for Shop */;

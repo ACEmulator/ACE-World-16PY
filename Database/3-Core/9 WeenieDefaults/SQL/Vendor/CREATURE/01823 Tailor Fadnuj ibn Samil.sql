@@ -166,10 +166,11 @@ INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `w
 VALUES (1823, 2,   115,  0, 9, 1, False) /* Create Leather Boots (115) for Wield */
      , (1823, 2,   127,  0, 6, 0, False) /* Create Pants (127) for Wield */
      , (1823, 2,   130,  0, 4, 0.6, False) /* Create Shirt (130) for Wield */
+     , (1823, 2,   135,  0, 10, 1, False) /* Create Turban (135) for Wield */
+     , (1823, 2, 10696,  0, 6, 0, False) /* Create Apron (10696) for Wield */
      , (1823, 4,   133, -1, 6, 0, False) /* Create Slippers (133) for Shop */
      , (1823, 4,   133, -1, 10, 1, False) /* Create Slippers (133) for Shop */
      , (1823, 4,   133, -1, 9, 1, False) /* Create Slippers (133) for Shop */
-     , (1823, 2,   135,  0, 10, 1, False) /* Create Turban (135) for Wield */
      , (1823, 4,   135, -1, 6, 0, False) /* Create Turban (135) for Shop */
      , (1823, 4,   135, -1, 10, 1, False) /* Create Turban (135) for Shop */
      , (1823, 4,   135, -1, 9, 1, False) /* Create Turban (135) for Shop */
@@ -181,5 +182,4 @@ VALUES (1823, 2,   115,  0, 9, 1, False) /* Create Leather Boots (115) for Wield
      , (1823, 4,  2600, -1, 9, 1, False) /* Create Pantaloons (2600) for Shop */
      , (1823, 4,  5852, -1, 0, 0, False) /* Create Dho Vest and Robe (5852) for Shop */
      , (1823, 4,  5894, -1, 0, 0, False) /* Create Fez (5894) for Shop */
-     , (1823, 4,  8373, -1, 9, 0.6, False) /* Create Kiyafa Robe (8373) for Shop */
-     , (1823, 2, 10696,  0, 6, 0, False) /* Create Apron (10696) for Wield */;
+     , (1823, 4,  8373, -1, 9, 0.6, False) /* Create Kiyafa Robe (8373) for Shop */;

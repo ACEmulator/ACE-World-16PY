@@ -164,6 +164,9 @@ VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 318767235 /* Nod */, NULL, NULL,
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (834, 2,   132,  0, 13, 0.5, False) /* Create Shoes (132) for Wield */
+     , (834, 2,  2587,  0, 9, 1, False) /* Create Shirt (2587) for Wield */
+     , (834, 2,  2602,  0, 9, 1, False) /* Create Breeches (2602) for Wield */
+     , (834, 2, 10696,  0, 18, 1, False) /* Create Apron (10696) for Wield */
      , (834, 4,   620, -1, 0, 0, False) /* Create Cake (620) for Shop */
      , (834, 4,  1225, -1, 0, 0, False) /* Create Shoushi Grotto Directions (1225) for Shop */
      , (834, 4,  1493, -1, 0, 0, False) /* Create Green Mire Camp Directions (1493) for Shop */
@@ -173,8 +176,6 @@ VALUES (834, 2,   132,  0, 13, 0.5, False) /* Create Shoes (132) for Wield */
      , (834, 4,  2456, -1, 0, 0, False) /* Create Green Tea (2456) for Shop */
      , (834, 4,  2467, -1, 0, 0, False) /* Create Red Wine (2467) for Shop */
      , (834, 4,  2469, -1, 0, 0, False) /* Create Small Beer (2469) for Shop */
-     , (834, 2,  2587,  0, 9, 1, False) /* Create Shirt (2587) for Wield */
-     , (834, 2,  2602,  0, 9, 1, False) /* Create Breeches (2602) for Wield */
      , (834, 4,  4210, -1, 0, 0, False) /* Create Dungeon Mei Directions (4210) for Shop */
      , (834, 4,  4709, -1, 0, 0, False) /* Create Apple Pie (4709) for Shop */
      , (834, 4,  4728, -1, 0, 0, False) /* Create Fried Chicken (4728) for Shop */
@@ -182,7 +183,6 @@ VALUES (834, 2,   132,  0, 13, 0.5, False) /* Create Shoes (132) for Wield */
      , (834, 4,  5602, -1, 0, 0, False) /* Create The Festival Stones of the Empyrean (5602) for Shop */
      , (834, 4,  6419, -1, 0, 0, False) /* Create The Meeting Halls (6419) for Shop */
      , (834, 4,  8378, -1, 0, 0, False) /* Create Beer Stein (8378) for Shop */
-     , (834, 2, 10696,  0, 18, 1, False) /* Create Apron (10696) for Wield */
      , (834, 4, 25997, -1, 0, 0, False) /* Create The Broken Hall (25997) for Shop */
      , (834, 4, 25998, -1, 0, 0, False) /* Create The Cursed Swamp (25998) for Shop */
      , (834, 4, 25999, -1, 0, 0, False) /* Create Caves in the Foothills (25999) for Shop */

@@ -182,6 +182,7 @@ INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `w
 VALUES (861, 2,   127,  0, 16, 1, False) /* Create Pants (127) for Wield */
      , (861, 2,   132,  0, 14, 0, False) /* Create Shoes (132) for Wield */
      , (861, 2,   134,  0, 17, 0.8, False) /* Create Tunic (134) for Wield */
+     , (861, 2, 10696,  0, 18, 1, False) /* Create Apron (10696) for Wield */
      , (861, 4,  2451, -1, 0, 0, False) /* Create Ale (2451) for Shop */
      , (861, 4,  2456, -1, 0, 0, False) /* Create Green Tea (2456) for Shop */
      , (861, 4,  2466, -1, 0, 0, False) /* Create Red Tea (2466) for Shop */
@@ -192,5 +193,4 @@ VALUES (861, 2,   127,  0, 16, 1, False) /* Create Pants (127) for Wield */
      , (861, 4,  4739, -1, 0, 0, False) /* Create Pickled Egg (4739) for Shop */
      , (861, 4,  4744, -1, 0, 0, False) /* Create Sushi (4744) for Shop */
      , (861, 4,  4746, -1, 0, 0, False) /* Create Water (4746) for Shop */
-     , (861, 4,  8378, -1, 0, 0, False) /* Create Beer Stein (8378) for Shop */
-     , (861, 2, 10696,  0, 18, 1, False) /* Create Apron (10696) for Wield */;
+     , (861, 4,  8378, -1, 0, 0, False) /* Create Beer Stein (8378) for Shop */;

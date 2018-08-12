@@ -173,15 +173,15 @@ VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 318767235 /* Nod */, NULL, NULL,
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (4556, 2,   115,  0, 18, 1, False) /* Create Leather Boots (115) for Wield */
      , (4556, 2,   118,  0, 14, 1, False) /* Create Cap (118) for Wield */
-     , (4556, 4,   118, -1, 14, 0.2, False) /* Create Cap (118) for Shop */
      , (4556, 2,   127,  0, 14, 0.8, False) /* Create Pants (127) for Wield */
-     , (4556, 4,   129, -1, 14, 1, False) /* Create Sandals (129) for Shop */
      , (4556, 2,  2591,  0, 14, 0.8, False) /* Create Shirt (2591) for Wield */
+     , (4556, 2, 10696,  0, 18, 1, False) /* Create Apron (10696) for Wield */
+     , (4556, 4,   118, -1, 14, 0.2, False) /* Create Cap (118) for Shop */
+     , (4556, 4,   129, -1, 14, 1, False) /* Create Sandals (129) for Shop */
      , (4556, 4,  2596, -1, 17, 0.3, False) /* Create Doublet (2596) for Shop */
      , (4556, 4,  2601, -1, 6, 0.4, False) /* Create Pants (2601) for Shop */
      , (4556, 4,  5854, -1, 0, 0, False) /* Create Suikan Robe (5854) for Shop */
      , (4556, 4,  5901, -1, 0, 0, False) /* Create Kasa (5901) for Shop */
      , (4556, 4,  8372, -1, 18, 0.8, False) /* Create Yifan Dress (8372) for Shop */
-     , (4556, 2, 10696,  0, 18, 1, False) /* Create Apron (10696) for Wield */
      , (4556, 4, 25983, -1, 0, 0, False) /* Create Sparring Pants (25983) for Shop */
      , (4556, 4, 25984, -1, 0, 0, False) /* Create Sparring Shirt (25984) for Shop */;

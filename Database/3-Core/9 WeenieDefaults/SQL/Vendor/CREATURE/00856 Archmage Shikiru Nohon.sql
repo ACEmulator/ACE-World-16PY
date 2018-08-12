@@ -174,6 +174,7 @@ VALUES (856, 2,   117,  0, 14, 0.8, False) /* Create Breeches (117) for Wield */
      , (856, 2,   118,  0, 16, 1, False) /* Create Cap (118) for Wield */
      , (856, 2,   124,  0, 14, 0.8, False) /* Create Jerkin (124) for Wield */
      , (856, 2,   132,  0, 14, 0.8, False) /* Create Shoes (132) for Wield */
+     , (856, 2, 10696,  0, 9, 0.5, False) /* Create Apron (10696) for Wield */
      , (856, 4,   136, -1, 14, 0.5, False) /* Create Pack (136) for Shop */
      , (856, 4,   136, -1, 17, 0.5, False) /* Create Pack (136) for Shop */
      , (856, 4,   625, -1, 0, 0, False) /* Create Ginseng (625) for Shop */
@@ -355,7 +356,6 @@ VALUES (856, 2,   117,  0, 14, 0.8, False) /* Create Breeches (117) for Wield */
      , (856, 4,  8357, -1, 0, 0, False) /* Create Yellow Pea (8357) for Shop */
      , (856, 4,  9342, -1, 0, 0, False) /* Create Concentrated Aqua Incanta (9342) for Shop */
      , (856, 4,  9379, -1, 0, 0, False) /* Create Eye Dropper (9379) for Shop */
-     , (856, 2, 10696,  0, 9, 0.5, False) /* Create Apron (10696) for Wield */
      , (856, 4, 20628, -1, 0, 0, False) /* Create Trade Note (150,000) (20628) for Shop */
      , (856, 4, 20629, -1, 0, 0, False) /* Create Trade Note (200,000) (20629) for Shop */
      , (856, 4, 20630, -1, 0, 0, False) /* Create Trade Note (250,000) (20630) for Shop */

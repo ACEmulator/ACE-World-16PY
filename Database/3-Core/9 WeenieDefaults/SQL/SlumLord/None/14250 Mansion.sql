@@ -25,10 +25,10 @@ VALUES (14250,   1,   33557167) /* Setup */
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (14250, 16,   273, 10000000, 0, 0, False) /* Create Pyreal (273) for HouseBuy */
-     , (14250, 32,   273, 1000000, 0, 0, False) /* Create Pyreal (273) for HouseRent */
      , (14250, 16,  8425,  7, 0, 0, False) /* Create Idol Gem (8425) for HouseBuy */
      , (14250, 16,  8701, 15, 0, 0, False) /* Create Lucky Gold Letter (8701) for HouseBuy */
      , (14250, 16,  9413,  2, 0, 0, False) /* Create Dread Mattekar Paw (9413) for HouseBuy */
      , (14250, 16,  9511, 20, 0, 0, False) /* Create Golden Gromnie (9511) for HouseBuy */
      , (14250, 16, 11710, 20, 0, 0, False) /* Create Writ of Refuge (11710) for HouseBuy */
+     , (14250, 32,   273, 1000000, 0, 0, False) /* Create Pyreal (273) for HouseRent */
      , (14250, 32, 11710, 10, 0, 0, False) /* Create Writ of Refuge (11710) for HouseRent */;

@@ -202,9 +202,9 @@ VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 268435537 /* Twitch1 */, NULL, N
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (5765, 1,  5758,  1, 0, 0, False) /* Create Carrot (5758) for Contain */
-     , (5765, 4,  5762, -1, 0, 0, False) /* Create Snowball (5762) for Shop */
-     , (5765, 4,  5768, -1, 0, 0, False) /* Create Poofy Snowball (5768) for Shop */
      , (5765, 1,  5768, 24, 0, 0, False) /* Create Poofy Snowball (5768) for Contain */
      , (5765, 1,  5769, 12, 0, 0, False) /* Create Iceball (5769) for Contain */
      , (5765, 2,  5770,  3, 0, 0, False) /* Create "Enchanted" Iceball (5770) for Wield */
+     , (5765, 4,  5762, -1, 0, 0, False) /* Create Snowball (5762) for Shop */
+     , (5765, 4,  5768, -1, 0, 0, False) /* Create Poofy Snowball (5768) for Shop */
      , (5765, 4, 13224, -1, 0, 0, False) /* Create A Frozen Note (13224) for Shop */;

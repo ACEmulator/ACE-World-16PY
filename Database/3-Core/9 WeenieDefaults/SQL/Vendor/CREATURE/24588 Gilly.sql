@@ -232,7 +232,9 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 318767238 /* Shrug */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (24588, 4,   625, -1, 0, 0, False) /* Create Ginseng (625) for Shop */
+VALUES (24588, 2,  8399,  0, 87, 1, False) /* Create Kireth Gown with Band (8399) for Wield */
+     , (24588, 2, 21372,  0, 0, 1, False) /* Create Circlet of Supremacy (21372) for Wield */
+     , (24588, 4,   625, -1, 0, 0, False) /* Create Ginseng (625) for Shop */
      , (24588, 4,   626, -1, 0, 0, False) /* Create Powdered Hematite (626) for Shop */
      , (24588, 4,   627, -1, 0, 0, False) /* Create Alder Talisman (627) for Shop */
      , (24588, 4,   686, -1, 0, 0, False) /* Create Copper Scarab (686) for Shop */
@@ -332,13 +334,11 @@ VALUES (24588, 4,   625, -1, 0, 0, False) /* Create Ginseng (625) for Shop */
      , (24588, 4,  6065, -1, 0, 0, False) /* Create Faran Item Apprentice Robe (6065) for Shop */
      , (24588, 4,  6068, -1, 0, 0, False) /* Create Faran Life Apprentice Robe (6068) for Shop */
      , (24588, 4,  6071, -1, 0, 0, False) /* Create Faran War Apprentice Robe (6071) for Shop */
-     , (24588, 2,  8399,  0, 87, 1, False) /* Create Kireth Gown with Band (8399) for Wield */
      , (24588, 4,  9060, -1, 0, 0, False) /* Create Titan Mana Charge (9060) for Shop */
      , (24588, 4, 20179, -1, 0, 0, False) /* Create Superb Mana Charge (20179) for Shop */
      , (24588, 4, 20628, -1, 0, 0, False) /* Create Trade Note (150,000) (20628) for Shop */
      , (24588, 4, 20629, -1, 0, 0, False) /* Create Trade Note (200,000) (20629) for Shop */
      , (24588, 4, 20630, -1, 0, 0, False) /* Create Trade Note (250,000) (20630) for Shop */
      , (24588, 4, 20631, -1, 0, 0, False) /* Create Prismatic Taper (20631) for Shop */
-     , (24588, 2, 21372,  0, 0, 1, False) /* Create Circlet of Supremacy (21372) for Wield */
      , (24588, 4, 27330, -1, 0, 0, False) /* Create Moderate Mana Stone (27330) for Shop */
      , (24588, 4, 27331, -1, 0, 0, False) /* Create Minor Mana Stone (27331) for Shop */;

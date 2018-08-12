@@ -171,6 +171,10 @@ VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 318767235 /* Nod */, NULL, NULL,
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (30040, 2,   132,  0, 9, 1, False) /* Create Shoes (132) for Wield */
+     , (30040, 2,  2587,  0, 13, 0.5, False) /* Create Shirt (2587) for Wield */
+     , (30040, 2,  2597,  0, 13, 0.5, False) /* Create Pants (2597) for Wield */
+     , (30040, 2,  5901,  0, 13, 0.5, False) /* Create Kasa (5901) for Wield */
+     , (30040, 2, 10696,  0, 9, 1, False) /* Create Apron (10696) for Wield */
      , (30040, 4,   136, -1, 13, 1, False) /* Create Pack (136) for Shop */
      , (30040, 4,   625, -1, 0, 0, False) /* Create Ginseng (625) for Shop */
      , (30040, 4,   626, -1, 0, 0, False) /* Create Powdered Hematite (626) for Shop */
@@ -246,8 +250,6 @@ VALUES (30040, 2,   132,  0, 9, 1, False) /* Create Shoes (132) for Wield */
      , (30040, 4,  1654, -1, 0, 0, False) /* Create Turquoise Taper (1654) for Shop */
      , (30040, 4,  2434, -1, 0, 0, False) /* Create Lesser Mana Stone (2434) for Shop */
      , (30040, 4,  2472, -1, 0, 0, False) /* Create Wand (2472) for Shop */
-     , (30040, 2,  2587,  0, 13, 0.5, False) /* Create Shirt (2587) for Wield */
-     , (30040, 2,  2597,  0, 13, 0.5, False) /* Create Pants (2597) for Wield */
      , (30040, 4,  2621, -1, 0, 0, False) /* Create Trade Note (100) (2621) for Shop */
      , (30040, 4,  2622, -1, 0, 0, False) /* Create Trade Note (500) (2622) for Shop */
      , (30040, 4,  2623, -1, 0, 0, False) /* Create Trade Note (1,000) (2623) for Shop */
@@ -261,7 +263,6 @@ VALUES (30040, 2,   132,  0, 9, 1, False) /* Create Shoes (132) for Wield */
      , (30040, 4,  4615, -1, 0, 0, False) /* Create High Mana Charge (4615) for Shop */
      , (30040, 4,  4751, -1, 0, 0, False) /* Create Mortar and Pestle (4751) for Shop */
      , (30040, 4,  5540, -1, 0, 0, False) /* Create Wand (5540) for Shop */
-     , (30040, 2,  5901,  0, 13, 0.5, False) /* Create Kasa (5901) for Wield */
      , (30040, 4,  6064, -1, 0, 0, False) /* Create Suikan Creature Apprentice Robe (6064) for Shop */
      , (30040, 4,  6067, -1, 0, 0, False) /* Create Suikan Item Apprentice Robe (6067) for Shop */
      , (30040, 4,  6070, -1, 0, 0, False) /* Create Suikan Life Apprentice Robe (6070) for Shop */
@@ -278,7 +279,6 @@ VALUES (30040, 2,   132,  0, 9, 1, False) /* Create Shoes (132) for Wield */
      , (30040, 4,  8981, -1, 0, 0, False) /* Create Shoushi Portal Gem (8981) for Shop */
      , (30040, 4,  8983, -1, 0, 0, False) /* Create Yanshi Portal Gem (8983) for Shop */
      , (30040, 4,  8984, -1, 0, 0, False) /* Create Yaraq Portal Gem (8984) for Shop */
-     , (30040, 2, 10696,  0, 9, 1, False) /* Create Apron (10696) for Wield */
      , (30040, 4, 20628, -1, 0, 0, False) /* Create Trade Note (150,000) (20628) for Shop */
      , (30040, 4, 20629, -1, 0, 0, False) /* Create Trade Note (200,000) (20629) for Shop */
      , (30040, 4, 20630, -1, 0, 0, False) /* Create Trade Note (250,000) (20630) for Shop */

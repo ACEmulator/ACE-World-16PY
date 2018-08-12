@@ -174,6 +174,7 @@ VALUES (984, 2,   115,  0, 10, 1, False) /* Create Leather Boots (115) for Wield
      , (984, 2,   127,  0, 10, 1, False) /* Create Pants (127) for Wield */
      , (984, 2,   130,  0, 10, 1, False) /* Create Shirt (130) for Wield */
      , (984, 2,   135,  0, 16, 1, False) /* Create Turban (135) for Wield */
+     , (984, 2, 10696,  0, 1, 1, False) /* Create Apron (10696) for Wield */
      , (984, 4,   625, -1, 0, 0, False) /* Create Ginseng (625) for Shop */
      , (984, 4,   626, -1, 0, 0, False) /* Create Powdered Hematite (626) for Shop */
      , (984, 4,   627, -1, 0, 0, False) /* Create Alder Talisman (627) for Shop */
@@ -353,7 +354,6 @@ VALUES (984, 2,   115,  0, 10, 1, False) /* Create Leather Boots (115) for Wield
      , (984, 4,  8357, -1, 0, 0, False) /* Create Yellow Pea (8357) for Shop */
      , (984, 4,  9342, -1, 0, 0, False) /* Create Concentrated Aqua Incanta (9342) for Shop */
      , (984, 4,  9379, -1, 0, 0, False) /* Create Eye Dropper (9379) for Shop */
-     , (984, 2, 10696,  0, 1, 1, False) /* Create Apron (10696) for Wield */
      , (984, 4, 20628, -1, 0, 0, False) /* Create Trade Note (150,000) (20628) for Shop */
      , (984, 4, 20629, -1, 0, 0, False) /* Create Trade Note (200,000) (20629) for Shop */
      , (984, 4, 20630, -1, 0, 0, False) /* Create Trade Note (250,000) (20630) for Shop */

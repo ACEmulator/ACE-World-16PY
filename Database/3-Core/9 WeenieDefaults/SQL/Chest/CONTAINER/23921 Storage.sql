@@ -47,8 +47,8 @@ VALUES (23921,   1,   33557143) /* Setup */
      , (23921,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (23921, -1, 23924, 60, 1, 1, 2, 8, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Hangover Cure (23924) (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: Contain */
+VALUES (23921, -1, 8978, 300, 1, 1, 2, 8, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Nanto Portal Gem (8978) (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: Contain */
      , (23921, -1, 13222, 60, 1, 1, 2, 8, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Peppermint Stick (13222) (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: Contain */
      , (23921, -1, 13222, 60, 1, 1, 2, 8, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Peppermint Stick (13222) (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: Contain */
-     , (23921, -1, 8978, 300, 1, 1, 2, 8, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Nanto Portal Gem (8978) (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: Contain */
-     , (23921, -1, 20646, 60, 1, 1, 2, 8, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Ust (20646) (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: Contain */;
+     , (23921, -1, 20646, 60, 1, 1, 2, 8, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Ust (20646) (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: Contain */
+     , (23921, -1, 23924, 60, 1, 1, 2, 8, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Hangover Cure (23924) (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: Contain */;

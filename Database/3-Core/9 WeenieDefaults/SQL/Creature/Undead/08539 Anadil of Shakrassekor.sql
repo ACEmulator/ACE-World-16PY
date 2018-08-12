@@ -183,9 +183,9 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 268435537 /* Twitch1 */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (8539, 9,     0,  0, 0, 0.98, False) /* Create UNKNOWN RANDOMLY GENERATED TREASURE for ContainTreasure */
+VALUES (8539, 2,  8527,  0, 0, 0, False) /* Create Staff of the Nomads (8527) for Wield */
+     , (8539, 9,     0,  0, 0, 0.98, False) /* Create UNKNOWN RANDOMLY GENERATED TREASURE for ContainTreasure */
      , (8539, 9,  6876,  0, 0, 0.02, False) /* Create Sturdy Iron Key (6876) for ContainTreasure */
      , (8539, 9,  8507,  0, 0, 1, False) /* Create Heavy Book of Notes (8507) for ContainTreasure */
-     , (8539, 2,  8527,  0, 0, 0, False) /* Create Staff of the Nomads (8527) for Wield */
      , (8539, 9,  8528,  0, 0, 1, False) /* Create Splintered Staff (8528) for ContainTreasure */
      , (8539, 9,  8529,  0, 0, 1, False) /* Create Splintered Staff (8529) for ContainTreasure */;

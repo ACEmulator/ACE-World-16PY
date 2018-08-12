@@ -164,10 +164,11 @@ VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 318767235 /* Nod */, NULL, NULL,
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (821, 2,   118,  0, 14, 0.8, False) /* Create Cap (118) for Wield */
-     , (821, 4,   118, -1, 9, 0.8, False) /* Create Cap (118) for Shop */
      , (821, 2,   127,  0, 9, 0, False) /* Create Pants (127) for Wield */
      , (821, 2,   130,  0, 9, 0, False) /* Create Shirt (130) for Wield */
      , (821, 2,   132,  0, 9, 0.5, False) /* Create Shoes (132) for Wield */
+     , (821, 2, 10696,  0, 6, 0, False) /* Create Apron (10696) for Wield */
+     , (821, 4,   118, -1, 9, 0.8, False) /* Create Cap (118) for Shop */
      , (821, 4,   132, -1, 6, 0.1, False) /* Create Shoes (132) for Shop */
      , (821, 4,   513, -1, 0, 0, False) /* Create Plain Lockpick (513) for Shop */
      , (821, 4,   545, -1, 0, 0, False) /* Create Reliable Lockpick (545) for Shop */
@@ -177,7 +178,6 @@ VALUES (821, 2,   118,  0, 14, 0.8, False) /* Create Cap (118) for Wield */
      , (821, 4,  5901, -1, 0, 0, False) /* Create Kasa (5901) for Shop */
      , (821, 4,  8372, -1, 9, 1, False) /* Create Yifan Dress (8372) for Shop */
      , (821, 4,  9295, -1, 0, 0, False) /* Create Intricate Carving Tool (9295) for Shop */
-     , (821, 2, 10696,  0, 6, 0, False) /* Create Apron (10696) for Wield */
      , (821, 4, 20646, -1, 0, 0, False) /* Create Ust (20646) for Shop */
      , (821, 4, 21093, -1, 0, 0, False) /* Create Tinkering (21093) for Shop */
      , (821, 4, 23044, -1, 0, 0, False) /* Create On the Abilities of Salvaged Ivory (23044) for Shop */

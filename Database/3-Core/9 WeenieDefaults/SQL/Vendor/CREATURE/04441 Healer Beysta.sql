@@ -195,6 +195,7 @@ INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `w
 VALUES (4441, 2,   115,  0, 4, 0.6, False) /* Create Leather Boots (115) for Wield */
      , (4441, 2,   124,  0, 5, 0.67, False) /* Create Jerkin (124) for Wield */
      , (4441, 2,   127,  0, 2, 1, False) /* Create Pants (127) for Wield */
+     , (4441, 2, 10696,  0, 18, 1, False) /* Create Apron (10696) for Wield */
      , (4441, 4,   377, -1, 0, 0, False) /* Create Potion of Healing (377) for Shop */
      , (4441, 4,   378, -1, 0, 0, False) /* Create Stamina Potion (378) for Shop */
      , (4441, 4,   379, -1, 0, 0, False) /* Create Mana Potion (379) for Shop */
@@ -209,5 +210,4 @@ VALUES (4441, 2,   115,  0, 4, 0.6, False) /* Create Leather Boots (115) for Wie
      , (4441, 4,  4595, -1, 0, 0, False) /* Create Regeneration Other I (4595) for Shop */
      , (4441, 4,  4599, -1, 0, 0, False) /* Create Mana Renewal Other I (4599) for Shop */
      , (4441, 4,  4602, -1, 0, 0, False) /* Create Endurance Other I (4602) for Shop */
-     , (4441, 2, 10696,  0, 18, 1, False) /* Create Apron (10696) for Wield */
      , (4441, 4, 27326, -1, 0, 0, False) /* Create Stamina Tincture (27326) for Shop */;

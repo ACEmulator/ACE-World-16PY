@@ -167,6 +167,7 @@ VALUES (27555, 2,   115,  0, 4, 0.8, False) /* Create Leather Boots (115) for Wi
      , (27555, 2,   127,  0, 4, 0.8, False) /* Create Pants (127) for Wield */
      , (27555, 2,   130,  0, 14, 0.6, False) /* Create Shirt (130) for Wield */
      , (27555, 2,   307,  0, 0, 0, False) /* Create Shortbow (307) for Wield */
+     , (27555, 2, 10696,  0, 2, 0.5, False) /* Create Apron (10696) for Wield */
      , (27555, 4,   377, -1, 0, 0, False) /* Create Potion of Healing (377) for Shop */
      , (27555, 4,   378, -1, 0, 0, False) /* Create Stamina Potion (378) for Shop */
      , (27555, 4,   379, -1, 0, 0, False) /* Create Mana Potion (379) for Shop */
@@ -184,7 +185,6 @@ VALUES (27555, 2,   115,  0, 4, 0.8, False) /* Create Leather Boots (115) for Wi
      , (27555, 4,  2625, -1, 0, 0, False) /* Create Trade Note (10,000) (2625) for Shop */
      , (27555, 4,  2626, -1, 0, 0, False) /* Create Trade Note (50,000) (2626) for Shop */
      , (27555, 4,  2627, -1, 0, 0, False) /* Create Trade Note (100,000) (2627) for Shop */
-     , (27555, 2, 10696,  0, 2, 0.5, False) /* Create Apron (10696) for Wield */
      , (27555, 4, 20628, -1, 0, 0, False) /* Create Trade Note (150,000) (20628) for Shop */
      , (27555, 4, 20629, -1, 0, 0, False) /* Create Trade Note (200,000) (20629) for Shop */
      , (27555, 4, 20630, -1, 0, 0, False) /* Create Trade Note (250,000) (20630) for Shop */

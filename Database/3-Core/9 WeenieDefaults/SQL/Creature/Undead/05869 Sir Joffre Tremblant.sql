@@ -181,5 +181,5 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 318767237 /* ShakeHead */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (5869, 8,  5880,  0, 0, 1, False) /* Create An Old Book (5880) for Treasure */
-     , (5869, 2,  5943,  0, 61, 1, False) /* Create Tremblant's Ivory Staff (5943) for Wield */;
+VALUES (5869, 2,  5943,  0, 61, 1, False) /* Create Tremblant's Ivory Staff (5943) for Wield */
+     , (5869, 8,  5880,  0, 0, 1, False) /* Create An Old Book (5880) for Treasure */;
