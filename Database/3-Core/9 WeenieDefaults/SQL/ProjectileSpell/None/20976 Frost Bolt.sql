@@ -30,4 +30,4 @@ VALUES (20976,   1,   33555444) /* Setup */
      , (20976,   8,  100667494) /* Icon */
      , (20976,  22,  872415238) /* PhysicsEffectTable */
      , (20976,  28,         28) /* Spell - Frost Bolt I */
-     , (20976,  30,         89) /* PhysicsScript - Destroy */;
+     , (20976,  30,         90) /* PhysicsScript - ProjectileCollision */;

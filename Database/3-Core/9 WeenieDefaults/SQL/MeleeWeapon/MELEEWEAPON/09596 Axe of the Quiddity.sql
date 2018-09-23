@@ -47,7 +47,7 @@ VALUES (9596,   1,   33557104) /* Setup */
      , (9596,   3,  536870932) /* SoundTable */
      , (9596,   8,  100671693) /* Icon */
      , (9596,  22,  872415275) /* PhysicsEffectTable */
-     , (9596,  30,         87) /* PhysicsScript - BreatheLightning */
+     , (9596,  30,         88) /* PhysicsScript - Create */
      , (9596,  36,  234881044) /* MutateFilter */
      , (9596,  37,          1) /* ItemSkillLimit */;
 

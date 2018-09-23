@@ -29,4 +29,4 @@ VALUES (20977,   1,   33555440) /* Setup */
      , (20977,   8,  100667494) /* Icon */
      , (20977,  22,  872415239) /* PhysicsEffectTable */
      , (20977,  28,         75) /* Spell - Lightning Bolt I */
-     , (20977,  30,         89) /* PhysicsScript - Destroy */;
+     , (20977,  30,         90) /* PhysicsScript - ProjectileCollision */;

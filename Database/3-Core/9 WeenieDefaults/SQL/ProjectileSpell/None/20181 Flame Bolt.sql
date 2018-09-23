@@ -28,4 +28,4 @@ VALUES (20181,   1,   33557841) /* Setup */
      , (20181,   3,  536870967) /* SoundTable */
      , (20181,   8,  100667494) /* Icon */
      , (20181,  28,         27) /* Spell - Flame Bolt I */
-     , (20181,  30,         89) /* PhysicsScript - Destroy */;
+     , (20181,  30,         90) /* PhysicsScript - ProjectileCollision */;

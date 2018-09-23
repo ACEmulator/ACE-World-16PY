@@ -31,4 +31,4 @@ VALUES (7268,   1,   33555452) /* Setup */
      , (7268,   8,  100667494) /* Icon */
      , (7268,  22,  872415240) /* PhysicsEffectTable */
      , (7268,  28,         92) /* Spell - Whirling Blade I */
-     , (7268,  30,         89) /* PhysicsScript - Destroy */;
+     , (7268,  30,         90) /* PhysicsScript - ProjectileCollision */;

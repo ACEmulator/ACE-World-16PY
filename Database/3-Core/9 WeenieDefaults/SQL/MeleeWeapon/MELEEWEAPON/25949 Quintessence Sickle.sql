@@ -48,7 +48,7 @@ VALUES (25949,   1,   33558568) /* Setup */
      , (25949,   3,  536870932) /* SoundTable */
      , (25949,   8,  100675660) /* Icon */
      , (25949,  22,  872415275) /* PhysicsEffectTable */
-     , (25949,  30,         87) /* PhysicsScript - BreatheLightning */;
+     , (25949,  30,         88) /* PhysicsScript - Create */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (25949,   297,      2)  /* Light Weapon Mastery Other VI */

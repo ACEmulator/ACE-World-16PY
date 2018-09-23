@@ -28,4 +28,4 @@ VALUES (8549,   1,   33556613) /* Setup */
      , (8549,   3,  536870971) /* SoundTable */
      , (8549,   8,  100667494) /* Icon */
      , (8549,  28,         64) /* Spell - Shock Wave I */
-     , (8549,  30,         89) /* PhysicsScript - Destroy */;
+     , (8549,  30,         90) /* PhysicsScript - ProjectileCollision */;

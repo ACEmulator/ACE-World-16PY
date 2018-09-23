@@ -57,7 +57,7 @@ VALUES (27175,   1,   33558633) /* Setup */
      , (27175,   7,  268436792) /* ClothingBase */
      , (27175,   8,  100675922) /* Icon */
      , (27175,  22,  872415275) /* PhysicsEffectTable */
-     , (27175,  30,         87) /* PhysicsScript - BreatheLightning */;
+     , (27175,  30,         88) /* PhysicsScript - Create */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (27175,  1381,      2)  /* Coordination Other III */

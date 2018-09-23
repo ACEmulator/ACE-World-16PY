@@ -55,7 +55,7 @@ VALUES (24569,   1,   33558377) /* Setup */
      , (24569,   6,   67111919) /* PaletteBase */
      , (24569,   8,  100674394) /* Icon */
      , (24569,  22,  872415275) /* PhysicsEffectTable */
-     , (24569,  30,         87) /* PhysicsScript - BreatheLightning */
+     , (24569,  30,         88) /* PhysicsScript - Create */
      , (24569,  37,          3) /* ItemSkillLimit */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)

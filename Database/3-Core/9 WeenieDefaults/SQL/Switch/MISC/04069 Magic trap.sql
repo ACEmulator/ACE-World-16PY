@@ -32,4 +32,4 @@ VALUES (4069,   1,   33554669) /* Setup */
      , (4069,   3,  536870932) /* SoundTable */
      , (4069,   8,  100667494) /* Icon */
      , (4069,  22,  872415260) /* PhysicsEffectTable */
-     , (4069,  30,         86) /* PhysicsScript - BreatheAcid */;
+     , (4069,  30,         87) /* PhysicsScript - BreatheLightning */;

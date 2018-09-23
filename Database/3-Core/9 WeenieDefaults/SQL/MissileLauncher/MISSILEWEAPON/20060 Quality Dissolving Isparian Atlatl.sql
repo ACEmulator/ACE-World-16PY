@@ -16,7 +16,7 @@ VALUES (20060,   1,        256) /* ItemType - MissileWeapon */
      , (20060,  46,       1024) /* DefaultCombatStyle - Atlatl */
      , (20060,  48,         12) /* WeaponSkill - ThrownWeapon */
      , (20060,  49,         15) /* WeaponTime */
-     , (20060,  50,          4) /* AmmoType - ArrowCrystal */
+     , (20060,  50,          4) /* AmmoType - Atlatl */
      , (20060,  51,          2) /* CombatUse - Missle */
      , (20060,  60,        120) /* WeaponRange */
      , (20060,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */

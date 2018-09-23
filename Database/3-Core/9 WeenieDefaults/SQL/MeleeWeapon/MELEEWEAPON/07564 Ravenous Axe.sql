@@ -52,7 +52,7 @@ VALUES (7564,   1,   33556657) /* Setup */
      , (7564,   7,  268435779) /* ClothingBase */
      , (7564,   8,  100668985) /* Icon */
      , (7564,  22,  872415275) /* PhysicsEffectTable */
-     , (7564,  30,         87) /* PhysicsScript - BreatheLightning */
+     , (7564,  30,         88) /* PhysicsScript - Create */
      , (7564,  36,  234881044) /* MutateFilter */
      , (7564,  37,          1) /* ItemSkillLimit */;
 

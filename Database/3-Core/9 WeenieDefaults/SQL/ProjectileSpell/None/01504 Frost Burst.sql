@@ -30,4 +30,4 @@ VALUES (1504,   1,   33555444) /* Setup */
      , (1504,   8,  100667494) /* Icon */
      , (1504,  22,  872415238) /* PhysicsEffectTable */
      , (1504,  28,         28) /* Spell - Frost Bolt I */
-     , (1504,  30,         89) /* PhysicsScript - Destroy */;
+     , (1504,  30,         90) /* PhysicsScript - ProjectileCollision */;

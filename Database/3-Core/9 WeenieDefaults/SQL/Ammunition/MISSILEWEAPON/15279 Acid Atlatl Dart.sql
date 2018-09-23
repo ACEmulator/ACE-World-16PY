@@ -17,7 +17,7 @@ VALUES (15279,   1,        256) /* ItemType - MissileWeapon */
      , (15279,  19,          5) /* Value */
      , (15279,  44,         14) /* Damage */
      , (15279,  45,         32) /* DamageType - Acid */
-     , (15279,  50,          4) /* AmmoType - ArrowCrystal */
+     , (15279,  50,          4) /* AmmoType - Atlatl */
      , (15279,  51,          3) /* CombatUse - Ammo */
      , (15279,  93,     132116) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, Inelastic */
      , (15279, 150,        103) /* HookPlacement - Hook */

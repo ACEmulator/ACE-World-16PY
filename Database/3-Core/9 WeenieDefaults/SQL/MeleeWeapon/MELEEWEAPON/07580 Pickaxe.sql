@@ -36,4 +36,4 @@ VALUES (7580,   1,   33554813) /* Setup */
      , (7580,   3,  536870932) /* SoundTable */
      , (7580,   8,  100670275) /* Icon */
      , (7580,  22,  872415275) /* PhysicsEffectTable */
-     , (7580,  30,         87) /* PhysicsScript - BreatheLightning */;
+     , (7580,  30,         88) /* PhysicsScript - Create */;

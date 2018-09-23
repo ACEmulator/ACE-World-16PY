@@ -29,4 +29,4 @@ VALUES (7272,   1,   33556611) /* Setup */
      , (7272,   3,  536870966) /* SoundTable */
      , (7272,   8,  100667494) /* Icon */
      , (7272,  28,         28) /* Spell - Frost Bolt I */
-     , (7272,  30,         89) /* PhysicsScript - Destroy */;
+     , (7272,  30,         90) /* PhysicsScript - ProjectileCollision */;

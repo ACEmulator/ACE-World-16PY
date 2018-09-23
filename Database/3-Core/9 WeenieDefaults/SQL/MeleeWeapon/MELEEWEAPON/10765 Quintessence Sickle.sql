@@ -50,7 +50,7 @@ VALUES (10765,   1,   33557067) /* Setup */
      , (10765,   7,  268436189) /* ClothingBase */
      , (10765,   8,  100671670) /* Icon */
      , (10765,  22,  872415275) /* PhysicsEffectTable */
-     , (10765,  30,         87) /* PhysicsScript - BreatheLightning */
+     , (10765,  30,         88) /* PhysicsScript - Create */
      , (10765,  36,  234881044) /* MutateFilter */
      , (10765,  37,          1) /* ItemSkillLimit */;
 

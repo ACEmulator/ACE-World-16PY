@@ -51,7 +51,7 @@ VALUES (24567,   1,   33558379) /* Setup */
      , (24567,   7,  268435779) /* ClothingBase */
      , (24567,   8,  100674408) /* Icon */
      , (24567,  22,  872415275) /* PhysicsEffectTable */
-     , (24567,  30,         87) /* PhysicsScript - BreatheLightning */
+     , (24567,  30,         88) /* PhysicsScript - Create */
      , (24567,  36,  234881053) /* MutateFilter */
      , (24567,  46,  939524098) /* TsysMutationFilter */;
 

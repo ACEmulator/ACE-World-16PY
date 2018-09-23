@@ -44,7 +44,7 @@ VALUES (3976,   1,   33554556) /* Setup */
      , (3976,   3,  536870945) /* SoundTable */
      , (3976,   8,  100667424) /* Icon */
      , (3976,  22,  872415275) /* PhysicsEffectTable */
-     , (3976,  30,         87) /* PhysicsScript - BreatheLightning */;
+     , (3976,  30,         88) /* PhysicsScript - Create */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (3976, 1, 16, 0, 1, 1, 2, 72, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate RANDOMLY GENERATED TREASURE from Loot Tier 2 (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: ContainTreasure */;

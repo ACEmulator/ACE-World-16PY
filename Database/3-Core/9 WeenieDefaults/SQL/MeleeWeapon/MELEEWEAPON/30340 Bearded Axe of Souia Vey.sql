@@ -40,4 +40,4 @@ VALUES (30340,   1,   33554725) /* Setup */
      , (30340,   7,  268435779) /* ClothingBase */
      , (30340,   8,  100668985) /* Icon */
      , (30340,  22,  872415275) /* PhysicsEffectTable */
-     , (30340,  30,         87) /* PhysicsScript - BreatheLightning */;
+     , (30340,  30,         88) /* PhysicsScript - Create */;

@@ -44,5 +44,5 @@ VALUES (7965,   1,   33555698) /* Setup */
      , (7965,   7,  268435761) /* ClothingBase */
      , (7965,   8,  100667587) /* Icon */
      , (7965,  22,  872415289) /* PhysicsEffectTable */
-     , (7965,  30,         83) /* PhysicsScript - PortalExit */
+     , (7965,  30,         84) /* PhysicsScript - BreatheFlame */
      , (7965,  36,  234881044) /* MutateFilter */;

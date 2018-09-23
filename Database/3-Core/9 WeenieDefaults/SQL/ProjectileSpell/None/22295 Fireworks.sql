@@ -31,4 +31,4 @@ VALUES (22295,   1,   33555469) /* Setup */
      , (22295,   8,  100667494) /* Icon */
      , (22295,  22,  872415241) /* PhysicsEffectTable */
      , (22295,  28,         86) /* Spell - Force Bolt I */
-     , (22295,  30,         89) /* PhysicsScript - Destroy */;
+     , (22295,  30,         90) /* PhysicsScript - ProjectileCollision */;

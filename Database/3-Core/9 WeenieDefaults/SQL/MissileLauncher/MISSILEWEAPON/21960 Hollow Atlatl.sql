@@ -15,7 +15,7 @@ VALUES (21960,   1,        256) /* ItemType - MissileWeapon */
      , (21960,  46,       1024) /* DefaultCombatStyle - Atlatl */
      , (21960,  48,         12) /* WeaponSkill - ThrownWeapon */
      , (21960,  49,         30) /* WeaponTime */
-     , (21960,  50,        256) /* AmmoType */
+     , (21960,  50,        256) /* AmmoType - AtlatlChorizite */
      , (21960,  51,          2) /* CombatUse - Missle */
      , (21960,  60,        120) /* WeaponRange */
      , (21960,  93,       3092) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, LightingOn */
@@ -50,4 +50,4 @@ VALUES (21960,   1,   33558044) /* Setup */
      , (21960,   7,  268436304) /* ClothingBase */
      , (21960,   8,  100672372) /* Icon */
      , (21960,  22,  872415275) /* PhysicsEffectTable */
-     , (21960,  30,         87) /* PhysicsScript - BreatheLightning */;
+     , (21960,  30,         88) /* PhysicsScript - Create */;

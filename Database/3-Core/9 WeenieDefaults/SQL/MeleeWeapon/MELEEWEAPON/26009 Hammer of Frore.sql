@@ -47,7 +47,7 @@ VALUES (26009,   1,   33558574) /* Setup */
      , (26009,   6,   67111092) /* PaletteBase */
      , (26009,   8,  100675713) /* Icon */
      , (26009,  22,  872415275) /* PhysicsEffectTable */
-     , (26009,  30,         87) /* PhysicsScript - BreatheLightning */
+     , (26009,  30,         88) /* PhysicsScript - Create */
      , (26009,  36,  234881044) /* MutateFilter */
      , (26009,  37,          1) /* ItemSkillLimit */;
 

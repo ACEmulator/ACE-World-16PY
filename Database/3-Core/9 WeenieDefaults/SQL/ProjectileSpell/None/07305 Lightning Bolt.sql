@@ -30,4 +30,4 @@ VALUES (7305,   1,   33555440) /* Setup */
      , (7305,   8,  100667494) /* Icon */
      , (7305,  22,  872415357) /* PhysicsEffectTable */
      , (7305,  28,         75) /* Spell - Lightning Bolt I */
-     , (7305,  30,         89) /* PhysicsScript - Destroy */;
+     , (7305,  30,         90) /* PhysicsScript - ProjectileCollision */;

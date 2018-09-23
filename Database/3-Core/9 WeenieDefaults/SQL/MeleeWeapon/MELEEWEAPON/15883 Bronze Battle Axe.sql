@@ -42,4 +42,4 @@ VALUES (15883,   1,   33554725) /* Setup */
      , (15883,   7,  268435779) /* ClothingBase */
      , (15883,   8,  100668985) /* Icon */
      , (15883,  22,  872415275) /* PhysicsEffectTable */
-     , (15883,  30,         87) /* PhysicsScript - BreatheLightning */;
+     , (15883,  30,         88) /* PhysicsScript - Create */;

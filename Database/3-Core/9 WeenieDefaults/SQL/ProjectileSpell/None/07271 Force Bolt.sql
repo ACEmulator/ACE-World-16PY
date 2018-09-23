@@ -29,4 +29,4 @@ VALUES (7271,   1,   33556615) /* Setup */
      , (7271,   3,  536870971) /* SoundTable */
      , (7271,   8,  100667494) /* Icon */
      , (7271,  28,         86) /* Spell - Force Bolt I */
-     , (7271,  30,         89) /* PhysicsScript - Destroy */;
+     , (7271,  30,         90) /* PhysicsScript - ProjectileCollision */;

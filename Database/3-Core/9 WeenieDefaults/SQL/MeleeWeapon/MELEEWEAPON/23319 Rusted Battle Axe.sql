@@ -43,4 +43,4 @@ VALUES (23319,   1,   33554725) /* Setup */
      , (23319,   7,  268435779) /* ClothingBase */
      , (23319,   8,  100674222) /* Icon */
      , (23319,  22,  872415275) /* PhysicsEffectTable */
-     , (23319,  30,         87) /* PhysicsScript - BreatheLightning */;
+     , (23319,  30,         88) /* PhysicsScript - Create */;

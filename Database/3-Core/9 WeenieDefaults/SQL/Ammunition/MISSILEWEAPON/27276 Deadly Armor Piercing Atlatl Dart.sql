@@ -16,7 +16,7 @@ VALUES (27276,   1,        256) /* ItemType - MissileWeapon */
      , (27276,  19,          9) /* Value */
      , (27276,  44,         32) /* Damage */
      , (27276,  45,          2) /* DamageType - Pierce */
-     , (27276,  50,          4) /* AmmoType - ArrowCrystal */
+     , (27276,  50,          4) /* AmmoType - Atlatl */
      , (27276,  51,          3) /* CombatUse - Ammo */
      , (27276,  93,     132116) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, Inelastic */
      , (27276, 150,        103) /* HookPlacement - Hook */

@@ -29,4 +29,4 @@ VALUES (7303,   1,   33555469) /* Setup */
      , (7303,   8,  100667494) /* Icon */
      , (7303,  22,  872415358) /* PhysicsEffectTable */
      , (7303,  28,         86) /* Spell - Force Bolt I */
-     , (7303,  30,         89) /* PhysicsScript - Destroy */;
+     , (7303,  30,         90) /* PhysicsScript - ProjectileCollision */;

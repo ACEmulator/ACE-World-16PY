@@ -28,4 +28,4 @@ VALUES (7270,   1,   33556609) /* Setup */
      , (7270,   3,  536870967) /* SoundTable */
      , (7270,   8,  100667494) /* Icon */
      , (7270,  28,         27) /* Spell - Flame Bolt I */
-     , (7270,  30,         89) /* PhysicsScript - Destroy */;
+     , (7270,  30,         90) /* PhysicsScript - ProjectileCollision */;

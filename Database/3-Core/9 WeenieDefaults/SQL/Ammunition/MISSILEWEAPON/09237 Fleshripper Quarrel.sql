@@ -15,7 +15,7 @@ VALUES (9237,   1,        256) /* ItemType - MissileWeapon */
      , (9237,  19,          7) /* Value */
      , (9237,  44,         33) /* Damage */
      , (9237,  45,          2) /* DamageType - Pierce */
-     , (9237,  50,         16) /* AmmoType */
+     , (9237,  50,         16) /* AmmoType - BoltCrystal */
      , (9237,  51,          3) /* CombatUse - Ammo */
      , (9237,  93,     132116) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, Inelastic */
      , (9237, 150,        103) /* HookPlacement - Hook */

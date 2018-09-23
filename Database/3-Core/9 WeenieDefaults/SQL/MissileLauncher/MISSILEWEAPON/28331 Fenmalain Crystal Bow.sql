@@ -15,7 +15,7 @@ VALUES (28331,   1,        256) /* ItemType - MissileWeapon */
      , (28331,  46,         16) /* DefaultCombatStyle - Bow */
      , (28331,  48,          2) /* WeaponSkill - Bow */
      , (28331,  49,         60) /* WeaponTime */
-     , (28331,  50,          8) /* AmmoType - ArrowAtlatlChorizite */
+     , (28331,  50,          8) /* AmmoType - ArrowCrystal */
      , (28331,  51,          2) /* CombatUse - Missle */
      , (28331,  52,          2) /* ParentLocation */
      , (28331,  53,          3) /* PlacementPosition */

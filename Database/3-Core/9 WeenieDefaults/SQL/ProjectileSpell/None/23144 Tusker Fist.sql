@@ -28,4 +28,4 @@ VALUES (23144,   1,   33558190) /* Setup */
      , (23144,   3,  536870971) /* SoundTable */
      , (23144,   8,  100673815) /* Icon */
      , (23144,  28,       2934) /* Spell - Tusker Fists */
-     , (23144,  30,         89) /* PhysicsScript - Destroy */;
+     , (23144,  30,         90) /* PhysicsScript - ProjectileCollision */;

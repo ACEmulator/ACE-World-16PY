@@ -49,7 +49,7 @@ VALUES (28988,   1,   33558931) /* Setup */
      , (28988,   3,  536870932) /* SoundTable */
      , (28988,   8,  100676975) /* Icon */
      , (28988,  22,  872415275) /* PhysicsEffectTable */
-     , (28988,  30,         87) /* PhysicsScript - BreatheLightning */;
+     , (28988,  30,         88) /* PhysicsScript - Create */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (28988,   243,      2)  /* Invulnerability Other V */

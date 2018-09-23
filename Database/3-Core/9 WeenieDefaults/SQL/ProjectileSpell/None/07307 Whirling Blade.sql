@@ -30,4 +30,4 @@ VALUES (7307,   1,   33554533) /* Setup */
      , (7307,   3,  536870972) /* SoundTable */
      , (7307,   8,  100667494) /* Icon */
      , (7307,  28,         92) /* Spell - Whirling Blade I */
-     , (7307,  30,         89) /* PhysicsScript - Destroy */;
+     , (7307,  30,         90) /* PhysicsScript - ProjectileCollision */;

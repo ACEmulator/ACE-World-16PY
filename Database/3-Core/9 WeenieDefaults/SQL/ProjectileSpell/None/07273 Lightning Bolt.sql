@@ -28,4 +28,4 @@ VALUES (7273,   1,   33556612) /* Setup */
      , (7273,   3,  536870968) /* SoundTable */
      , (7273,   8,  100667494) /* Icon */
      , (7273,  28,         75) /* Spell - Lightning Bolt I */
-     , (7273,  30,         89) /* PhysicsScript - Destroy */;
+     , (7273,  30,         90) /* PhysicsScript - ProjectileCollision */;

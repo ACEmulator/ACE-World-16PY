@@ -29,4 +29,4 @@ VALUES (8604,   1,   33555469) /* Setup */
      , (8604,   8,  100667494) /* Icon */
      , (8604,  22,  872415248) /* PhysicsEffectTable */
      , (8604,  28,         86) /* Spell - Force Bolt I */
-     , (8604,  30,         89) /* PhysicsScript - Destroy */;
+     , (8604,  30,         90) /* PhysicsScript - ProjectileCollision */;

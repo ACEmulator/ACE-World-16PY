@@ -55,7 +55,7 @@ VALUES (23910,   1,   33558207) /* Setup */
      , (23910,   7,  268436199) /* ClothingBase */
      , (23910,   8,  100671744) /* Icon */
      , (23910,  22,  872415275) /* PhysicsEffectTable */
-     , (23910,  30,         87) /* PhysicsScript - BreatheLightning */
+     , (23910,  30,         88) /* PhysicsScript - Create */
      , (23910,  37,         13) /* ItemSkillLimit */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)

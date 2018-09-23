@@ -30,4 +30,4 @@ VALUES (9147,   1,   33555469) /* Setup */
      , (9147,   8,  100667494) /* Icon */
      , (9147,  22,  872415354) /* PhysicsEffectTable */
      , (9147,  28,         58) /* Spell - Acid Stream I */
-     , (9147,  30,         89) /* PhysicsScript - Destroy */;
+     , (9147,  30,         90) /* PhysicsScript - ProjectileCollision */;

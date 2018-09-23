@@ -29,4 +29,4 @@ VALUES (20978,   1,   33555450) /* Setup */
      , (20978,   8,  100667494) /* Icon */
      , (20978,  22,  872415241) /* PhysicsEffectTable */
      , (20978,  28,         64) /* Spell - Shock Wave I */
-     , (20978,  30,         89) /* PhysicsScript - Destroy */;
+     , (20978,  30,         90) /* PhysicsScript - ProjectileCollision */;

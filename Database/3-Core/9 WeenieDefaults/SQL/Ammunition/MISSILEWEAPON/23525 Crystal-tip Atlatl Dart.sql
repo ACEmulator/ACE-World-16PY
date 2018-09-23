@@ -17,7 +17,7 @@ VALUES (23525,   1,        256) /* ItemType - MissileWeapon */
      , (23525,  19,          7) /* Value */
      , (23525,  44,         24) /* Damage */
      , (23525,  45,         16) /* DamageType - Fire */
-     , (23525,  50,         32) /* AmmoType */
+     , (23525,  50,         32) /* AmmoType - AtlatlCrystal */
      , (23525,  51,          3) /* CombatUse - Ammo */
      , (23525,  93,     132116) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, Inelastic */
      , (23525, 150,        103) /* HookPlacement - Hook */

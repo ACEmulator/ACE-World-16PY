@@ -40,5 +40,5 @@ VALUES (4982,   1,   33555820) /* Setup */
      , (4982,   7,  268435776) /* ClothingBase */
      , (4982,   8,  100667619) /* Icon */
      , (4982,  22,  872415275) /* PhysicsEffectTable */
-     , (4982,  30,         87) /* PhysicsScript - BreatheLightning */
+     , (4982,  30,         88) /* PhysicsScript - Create */
      , (4982,  36,  234881044) /* MutateFilter */;

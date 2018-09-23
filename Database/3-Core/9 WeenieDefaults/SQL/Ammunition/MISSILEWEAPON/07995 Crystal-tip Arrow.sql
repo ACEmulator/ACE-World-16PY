@@ -17,7 +17,7 @@ VALUES (7995,   1,        256) /* ItemType - MissileWeapon */
      , (7995,  19,          7) /* Value */
      , (7995,  44,         18) /* Damage */
      , (7995,  45,         16) /* DamageType - Fire */
-     , (7995,  50,          8) /* AmmoType - ArrowAtlatlChorizite */
+     , (7995,  50,          8) /* AmmoType - ArrowCrystal */
      , (7995,  51,          3) /* CombatUse - Ammo */
      , (7995,  93,     132116) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, Inelastic */
      , (7995, 150,        103) /* HookPlacement - Hook */

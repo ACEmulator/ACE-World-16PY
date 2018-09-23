@@ -40,6 +40,6 @@ VALUES (3752,   1,   33555688) /* Setup */
      , (3752,   7,  268435780) /* ClothingBase */
      , (3752,   8,  100667606) /* Icon */
      , (3752,  22,  872415275) /* PhysicsEffectTable */
-     , (3752,  30,         87) /* PhysicsScript - BreatheLightning */
+     , (3752,  30,         88) /* PhysicsScript - Create */
      , (3752,  36,  234881053) /* MutateFilter */
      , (3752,  46,  939524098) /* TsysMutationFilter */;

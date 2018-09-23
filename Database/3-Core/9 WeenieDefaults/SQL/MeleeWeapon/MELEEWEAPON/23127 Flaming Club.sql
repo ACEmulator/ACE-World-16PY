@@ -49,7 +49,7 @@ VALUES (23127,   1,   33555698) /* Setup */
      , (23127,   7,  268435761) /* ClothingBase */
      , (23127,   8,  100667587) /* Icon */
      , (23127,  22,  872415289) /* PhysicsEffectTable */
-     , (23127,  30,         83) /* PhysicsScript - PortalExit */
+     , (23127,  30,         84) /* PhysicsScript - BreatheFlame */
      , (23127,  36,  234881044) /* MutateFilter */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)

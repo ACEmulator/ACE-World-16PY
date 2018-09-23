@@ -17,7 +17,7 @@ VALUES (7997,   1,        256) /* ItemType - MissileWeapon */
      , (7997,  19,          7) /* Value */
      , (7997,  44,         24) /* Damage */
      , (7997,  45,         16) /* DamageType - Fire */
-     , (7997,  50,         16) /* AmmoType */
+     , (7997,  50,         16) /* AmmoType - BoltCrystal */
      , (7997,  51,          3) /* CombatUse - Ammo */
      , (7997,  93,     132116) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, Inelastic */
      , (7997, 150,        103) /* HookPlacement - Hook */

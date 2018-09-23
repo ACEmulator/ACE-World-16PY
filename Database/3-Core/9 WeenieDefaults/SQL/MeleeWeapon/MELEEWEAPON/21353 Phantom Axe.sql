@@ -53,5 +53,5 @@ VALUES (21353,   1,   33556657) /* Setup */
      , (21353,   7,  268435779) /* ClothingBase */
      , (21353,   8,  100668985) /* Icon */
      , (21353,  22,  872415275) /* PhysicsEffectTable */
-     , (21353,  30,         87) /* PhysicsScript - BreatheLightning */
+     , (21353,  30,         88) /* PhysicsScript - Create */
      , (21353,  36,  234881044) /* MutateFilter */;

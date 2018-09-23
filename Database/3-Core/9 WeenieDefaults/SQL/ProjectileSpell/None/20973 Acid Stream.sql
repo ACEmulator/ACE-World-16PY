@@ -30,4 +30,4 @@ VALUES (20973,   1,   33555446) /* Setup */
      , (20973,   8,  100667494) /* Icon */
      , (20973,  22,  872415243) /* PhysicsEffectTable */
      , (20973,  28,         58) /* Spell - Acid Stream I */
-     , (20973,  30,         89) /* PhysicsScript - Destroy */;
+     , (20973,  30,         90) /* PhysicsScript - ProjectileCollision */;

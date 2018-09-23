@@ -42,4 +42,4 @@ VALUES (11463,   1,   33557233) /* Setup */
      , (11463,   7,  268436252) /* ClothingBase */
      , (11463,   8,  100672070) /* Icon */
      , (11463,  22,  872415275) /* PhysicsEffectTable */
-     , (11463,  30,         87) /* PhysicsScript - BreatheLightning */;
+     , (11463,  30,         88) /* PhysicsScript - Create */;

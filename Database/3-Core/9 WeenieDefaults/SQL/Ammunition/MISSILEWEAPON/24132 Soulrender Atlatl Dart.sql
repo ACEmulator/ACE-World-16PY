@@ -15,7 +15,7 @@ VALUES (24132,   1,        256) /* ItemType - MissileWeapon */
      , (24132,  19,         10) /* Value */
      , (24132,  44,         42) /* Damage */
      , (24132,  45,          2) /* DamageType - Pierce */
-     , (24132,  50,         32) /* AmmoType */
+     , (24132,  50,         32) /* AmmoType - AtlatlCrystal */
      , (24132,  51,          3) /* CombatUse - Ammo */
      , (24132,  93,     132116) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, Inelastic */
      , (24132, 150,        103) /* HookPlacement - Hook */

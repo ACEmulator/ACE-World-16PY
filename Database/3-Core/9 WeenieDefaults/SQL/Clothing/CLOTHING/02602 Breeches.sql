@@ -4,7 +4,7 @@ VALUES ('2602', 'breechesloose', 2) /* Clothing */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (2602,   1,          4) /* ItemType - Clothing */
      , (2602,   3,          4) /* PaletteTemplate - Brown */
-     , (2602,   4,          3) /* ClothingPriority - 3 */
+     , (2602,   4,          3) /* ClothingPriority - Unknown, UnderwearUpperLegs */
      , (2602,   5,         90) /* EncumbranceVal */
      , (2602,   8,         60) /* Mass */
      , (2602,   9,         68) /* ValidLocations - AbdomenWear, UpperLegWear */

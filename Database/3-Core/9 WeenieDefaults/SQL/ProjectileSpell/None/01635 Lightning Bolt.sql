@@ -29,4 +29,4 @@ VALUES (1635,   1,   33555440) /* Setup */
      , (1635,   8,  100667494) /* Icon */
      , (1635,  22,  872415239) /* PhysicsEffectTable */
      , (1635,  28,         75) /* Spell - Lightning Bolt I */
-     , (1635,  30,         89) /* PhysicsScript - Destroy */;
+     , (1635,  30,         90) /* PhysicsScript - ProjectileCollision */;
