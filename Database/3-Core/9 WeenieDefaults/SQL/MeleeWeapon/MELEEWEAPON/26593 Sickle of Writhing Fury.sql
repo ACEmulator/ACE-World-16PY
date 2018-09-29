@@ -49,7 +49,7 @@ VALUES (26593,   1,   33558593) /* Setup */
      , (26593,   7,  268436792) /* ClothingBase */
      , (26593,   8,  100675777) /* Icon */
      , (26593,  22,  872415275) /* PhysicsEffectTable */
-     , (26593,  30,         87) /* PhysicsScript - BreatheLightning */;
+     , (26593,  30,         88) /* PhysicsScript - Create */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (26593,  1337,      2)  /* Strength Other VI */

@@ -49,7 +49,7 @@ VALUES (12112,   1,   33557233) /* Setup */
      , (12112,   3,  536870932) /* SoundTable */
      , (12112,   8,  100672031) /* Icon */
      , (12112,  22,  872415275) /* PhysicsEffectTable */
-     , (12112,  30,         87) /* PhysicsScript - BreatheLightning */
+     , (12112,  30,         88) /* PhysicsScript - Create */
      , (12112,  36,  234881044) /* MutateFilter */
      , (12112,  37,          1) /* ItemSkillLimit */;
 

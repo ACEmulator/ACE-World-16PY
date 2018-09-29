@@ -30,4 +30,4 @@ VALUES (7265,   1,   33555444) /* Setup */
      , (7265,   8,  100667494) /* Icon */
      , (7265,  22,  872415238) /* PhysicsEffectTable */
      , (7265,  28,         28) /* Spell - Frost Bolt I */
-     , (7265,  30,         89) /* PhysicsScript - Destroy */;
+     , (7265,  30,         90) /* PhysicsScript - ProjectileCollision */;

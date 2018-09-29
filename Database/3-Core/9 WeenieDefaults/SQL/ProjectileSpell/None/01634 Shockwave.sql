@@ -29,4 +29,4 @@ VALUES (1634,   1,   33555450) /* Setup */
      , (1634,   8,  100667494) /* Icon */
      , (1634,  22,  872415241) /* PhysicsEffectTable */
      , (1634,  28,         64) /* Spell - Shock Wave I */
-     , (1634,  30,         89) /* PhysicsScript - Destroy */;
+     , (1634,  30,         90) /* PhysicsScript - ProjectileCollision */;

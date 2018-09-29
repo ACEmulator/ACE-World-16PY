@@ -56,7 +56,7 @@ VALUES (11411,   1,   33557233) /* Setup */
      , (11411,   7,  268436251) /* ClothingBase */
      , (11411,   8,  100672069) /* Icon */
      , (11411,  22,  872415275) /* PhysicsEffectTable */
-     , (11411,  30,         87) /* PhysicsScript - BreatheLightning */
+     , (11411,  30,         88) /* PhysicsScript - Create */
      , (11411,  36,  234881044) /* MutateFilter */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)

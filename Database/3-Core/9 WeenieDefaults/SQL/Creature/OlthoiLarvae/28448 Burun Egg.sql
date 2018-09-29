@@ -70,7 +70,7 @@ VALUES (28448,   1,   33558853) /* Setup */
      , (28448,   4,  805306369) /* CombatTable */
      , (28448,   8,  100676958) /* Icon */
      , (28448,  22,  872415265) /* PhysicsEffectTable */
-     , (28448,  30,         85) /* PhysicsScript - BreatheFrost */;
+     , (28448,  30,         86) /* PhysicsScript - BreatheAcid */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (28448,   1,   1, 0, 0) /* Strength */

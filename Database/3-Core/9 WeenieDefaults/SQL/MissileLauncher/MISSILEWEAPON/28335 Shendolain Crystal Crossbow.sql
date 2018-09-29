@@ -15,7 +15,7 @@ VALUES (28335,   1,        256) /* ItemType - MissileWeapon */
      , (28335,  46,         32) /* DefaultCombatStyle - Crossbow */
      , (28335,  48,          3) /* WeaponSkill - Crossbow */
      , (28335,  49,        120) /* WeaponTime */
-     , (28335,  50,         16) /* AmmoType */
+     , (28335,  50,         16) /* AmmoType - BoltCrystal */
      , (28335,  51,          2) /* CombatUse - Missle */
      , (28335,  52,          2) /* ParentLocation */
      , (28335,  53,          3) /* PlacementPosition */

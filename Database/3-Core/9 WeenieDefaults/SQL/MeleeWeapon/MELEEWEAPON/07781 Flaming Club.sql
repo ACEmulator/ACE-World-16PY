@@ -43,5 +43,5 @@ VALUES (7781,   1,   33555698) /* Setup */
      , (7781,   7,  268435761) /* ClothingBase */
      , (7781,   8,  100667587) /* Icon */
      , (7781,  22,  872415289) /* PhysicsEffectTable */
-     , (7781,  30,         83) /* PhysicsScript - PortalExit */
+     , (7781,  30,         84) /* PhysicsScript - BreatheFlame */
      , (7781,  36,  234881044) /* MutateFilter */;

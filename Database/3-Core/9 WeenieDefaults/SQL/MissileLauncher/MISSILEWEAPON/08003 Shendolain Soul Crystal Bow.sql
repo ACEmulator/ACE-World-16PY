@@ -16,7 +16,7 @@ VALUES (8003,   1,        256) /* ItemType - MissileWeapon */
      , (8003,  46,         16) /* DefaultCombatStyle - Bow */
      , (8003,  48,          2) /* WeaponSkill - Bow */
      , (8003,  49,         60) /* WeaponTime */
-     , (8003,  50,          8) /* AmmoType - ArrowAtlatlChorizite */
+     , (8003,  50,          8) /* AmmoType - ArrowCrystal */
      , (8003,  51,          2) /* CombatUse - Missle */
      , (8003,  52,          2) /* ParentLocation */
      , (8003,  53,          3) /* PlacementPosition */

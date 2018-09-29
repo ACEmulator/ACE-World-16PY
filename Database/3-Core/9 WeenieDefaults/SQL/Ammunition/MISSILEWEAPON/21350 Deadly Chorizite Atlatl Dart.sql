@@ -17,7 +17,7 @@ VALUES (21350,   1,        256) /* ItemType - MissileWeapon */
      , (21350,  36,       9999) /* ResistMagic */
      , (21350,  44,         35) /* Damage */
      , (21350,  45,          2) /* DamageType - Pierce */
-     , (21350,  50,        256) /* AmmoType */
+     , (21350,  50,        256) /* AmmoType - AtlatlChorizite */
      , (21350,  51,          3) /* CombatUse - Ammo */
      , (21350,  93,     132116) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, Inelastic */
      , (21350, 150,        103) /* HookPlacement - Hook */

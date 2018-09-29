@@ -32,5 +32,5 @@ VALUES (24269,   1,   33558333) /* Setup */
      , (24269,   6,   67109368) /* PaletteBase */
      , (24269,   8,  100674288) /* Icon */
      , (24269,  22,  872415265) /* PhysicsEffectTable */
-     , (24269,  30,         85) /* PhysicsScript - BreatheFrost */
+     , (24269,  30,         86) /* PhysicsScript - BreatheAcid */
      , (24269,  36,  234881046) /* MutateFilter */;

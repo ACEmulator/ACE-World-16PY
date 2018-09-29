@@ -32,4 +32,4 @@ VALUES (26529,   1,   33558626) /* Setup */
      , (26529,   8,  100667494) /* Icon */
      , (26529,  22,  872415251) /* PhysicsEffectTable */
      , (26529,  28,       3122) /* Spell - Sacrificial Edge */
-     , (26529,  30,         89) /* PhysicsScript - Destroy */;
+     , (26529,  30,         90) /* PhysicsScript - ProjectileCollision */;

@@ -31,4 +31,4 @@ VALUES (20649,   1,   33555469) /* Setup */
      , (20649,   8,  100667494) /* Icon */
      , (20649,  22,  872415388) /* PhysicsEffectTable */
      , (20649,  28,       2701) /* Spell - Elemental Fury */
-     , (20649,  30,         89) /* PhysicsScript - Destroy */;
+     , (20649,  30,         90) /* PhysicsScript - ProjectileCollision */;

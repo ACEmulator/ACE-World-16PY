@@ -46,4 +46,4 @@ VALUES (11731,   1,   33555469) /* Setup */
      , (11731,   3,  536870969) /* SoundTable */
      , (11731,   8,  100667590) /* Icon */
      , (11731,  22,  872415380) /* PhysicsEffectTable */
-     , (11731,  30,         89) /* PhysicsScript - Destroy */;
+     , (11731,  30,         90) /* PhysicsScript - ProjectileCollision */;

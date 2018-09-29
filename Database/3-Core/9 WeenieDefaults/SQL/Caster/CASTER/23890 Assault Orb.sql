@@ -47,7 +47,7 @@ VALUES (23890,   1,   33558211) /* Setup */
      , (23890,   8,  100671741) /* Icon */
      , (23890,  22,  872415275) /* PhysicsEffectTable */
      , (23890,  27, 1073742049) /* UseUserAnimation - UseMagicWand */
-     , (23890,  30,         87) /* PhysicsScript - BreatheLightning */;
+     , (23890,  30,         88) /* PhysicsScript - Create */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (23890,   215,      2)  /* Mana Renewal Self IV */

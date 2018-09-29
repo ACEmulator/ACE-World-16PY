@@ -29,4 +29,4 @@ VALUES (9520,   1,   33555469) /* Setup */
      , (9520,   8,  100667494) /* Icon */
      , (9520,  22,  872415374) /* PhysicsEffectTable */
      , (9520,  28,         27) /* Spell - Flame Bolt I */
-     , (9520,  30,         89) /* PhysicsScript - Destroy */;
+     , (9520,  30,         90) /* PhysicsScript - ProjectileCollision */;

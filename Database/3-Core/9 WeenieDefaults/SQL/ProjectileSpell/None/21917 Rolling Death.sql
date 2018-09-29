@@ -33,4 +33,4 @@ VALUES (21917,   1,   33557981) /* Setup */
      , (21917,   8,  100667494) /* Icon */
      , (21917,  22,  872415392) /* PhysicsEffectTable */
      , (21917,  28,       2792) /* Spell - Rolling Death */
-     , (21917,  30,         89) /* PhysicsScript - Destroy */;
+     , (21917,  30,         90) /* PhysicsScript - ProjectileCollision */;

@@ -46,4 +46,4 @@ VALUES (6383,   1,   33555469) /* Setup */
      , (6383,   3,  536870968) /* SoundTable */
      , (6383,   8,  100667590) /* Icon */
      , (6383,  22,  872415239) /* PhysicsEffectTable */
-     , (6383,  30,         89) /* PhysicsScript - Destroy */;
+     , (6383,  30,         90) /* PhysicsScript - ProjectileCollision */;

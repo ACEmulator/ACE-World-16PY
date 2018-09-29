@@ -31,4 +31,4 @@ VALUES (20979,   1,   33555452) /* Setup */
      , (20979,   8,  100667494) /* Icon */
      , (20979,  22,  872415240) /* PhysicsEffectTable */
      , (20979,  28,         92) /* Spell - Whirling Blade I */
-     , (20979,  30,         89) /* PhysicsScript - Destroy */;
+     , (20979,  30,         90) /* PhysicsScript - ProjectileCollision */;

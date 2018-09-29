@@ -29,4 +29,4 @@ VALUES (7269,   1,   33556610) /* Setup */
      , (7269,   3,  536870969) /* SoundTable */
      , (7269,   8,  100667494) /* Icon */
      , (7269,  28,         58) /* Spell - Acid Stream I */
-     , (7269,  30,         89) /* PhysicsScript - Destroy */;
+     , (7269,  30,         90) /* PhysicsScript - ProjectileCollision */;

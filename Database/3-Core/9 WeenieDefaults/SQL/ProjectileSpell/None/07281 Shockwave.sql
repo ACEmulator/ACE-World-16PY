@@ -28,4 +28,4 @@ VALUES (7281,   1,   33555450) /* Setup */
      , (7281,   3,  536870971) /* SoundTable */
      , (7281,   8,  100667494) /* Icon */
      , (7281,  28,         64) /* Spell - Shock Wave I */
-     , (7281,  30,         89) /* PhysicsScript - Destroy */;
+     , (7281,  30,         90) /* PhysicsScript - ProjectileCollision */;

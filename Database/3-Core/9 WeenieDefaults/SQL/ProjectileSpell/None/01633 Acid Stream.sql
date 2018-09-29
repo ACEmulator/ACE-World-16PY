@@ -30,4 +30,4 @@ VALUES (1633,   1,   33555446) /* Setup */
      , (1633,   8,  100667494) /* Icon */
      , (1633,  22,  872415243) /* PhysicsEffectTable */
      , (1633,  28,         58) /* Spell - Acid Stream I */
-     , (1633,  30,         89) /* PhysicsScript - Destroy */;
+     , (1633,  30,         90) /* PhysicsScript - ProjectileCollision */;

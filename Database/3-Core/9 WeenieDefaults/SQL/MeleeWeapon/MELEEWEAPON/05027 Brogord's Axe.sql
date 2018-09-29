@@ -44,4 +44,4 @@ VALUES (5027,   1,   33554725) /* Setup */
      , (5027,   7,  268435779) /* ClothingBase */
      , (5027,   8,  100668985) /* Icon */
      , (5027,  22,  872415275) /* PhysicsEffectTable */
-     , (5027,  30,         87) /* PhysicsScript - BreatheLightning */;
+     , (5027,  30,         88) /* PhysicsScript - Create */;

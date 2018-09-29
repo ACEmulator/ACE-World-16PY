@@ -54,7 +54,7 @@ VALUES (24559,   1,   33558377) /* Setup */
      , (24559,   6,   67111919) /* PaletteBase */
      , (24559,   8,  100674394) /* Icon */
      , (24559,  22,  872415275) /* PhysicsEffectTable */
-     , (24559,  30,         87) /* PhysicsScript - BreatheLightning */;
+     , (24559,  30,         88) /* PhysicsScript - Create */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (24559,  1616,      2)  /* Aura of Blood Drinker Self VI */;

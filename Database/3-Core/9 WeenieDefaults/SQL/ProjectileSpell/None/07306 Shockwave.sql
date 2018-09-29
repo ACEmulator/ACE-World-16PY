@@ -30,4 +30,4 @@ VALUES (7306,   1,   33556604) /* Setup */
      , (7306,   8,  100667494) /* Icon */
      , (7306,  22,  872415353) /* PhysicsEffectTable */
      , (7306,  28,         64) /* Spell - Shock Wave I */
-     , (7306,  30,         89) /* PhysicsScript - Destroy */;
+     , (7306,  30,         90) /* PhysicsScript - ProjectileCollision */;

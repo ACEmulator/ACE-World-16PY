@@ -43,6 +43,6 @@ VALUES (3768,   1,   33555698) /* Setup */
      , (3768,   7,  268435761) /* ClothingBase */
      , (3768,   8,  100667587) /* Icon */
      , (3768,  22,  872415289) /* PhysicsEffectTable */
-     , (3768,  30,         83) /* PhysicsScript - PortalExit */
+     , (3768,  30,         84) /* PhysicsScript - BreatheFlame */
      , (3768,  36,  234881053) /* MutateFilter */
      , (3768,  46,  939524099) /* TsysMutationFilter */;

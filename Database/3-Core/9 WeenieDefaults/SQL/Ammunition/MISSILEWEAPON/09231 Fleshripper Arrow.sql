@@ -15,7 +15,7 @@ VALUES (9231,   1,        256) /* ItemType - MissileWeapon */
      , (9231,  19,          7) /* Value */
      , (9231,  44,         28) /* Damage */
      , (9231,  45,          2) /* DamageType - Pierce */
-     , (9231,  50,          8) /* AmmoType - ArrowAtlatlChorizite */
+     , (9231,  50,          8) /* AmmoType - ArrowCrystal */
      , (9231,  51,          3) /* CombatUse - Ammo */
      , (9231,  93,     132116) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, Inelastic */
      , (9231, 150,        103) /* HookPlacement - Hook */

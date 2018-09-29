@@ -14,7 +14,7 @@ VALUES (23907,   1,        256) /* ItemType - MissileWeapon */
      , (23907,  46,       1024) /* DefaultCombatStyle - Atlatl */
      , (23907,  48,         12) /* WeaponSkill - ThrownWeapon */
      , (23907,  49,         40) /* WeaponTime */
-     , (23907,  50,          4) /* AmmoType - ArrowCrystal */
+     , (23907,  50,          4) /* AmmoType - Atlatl */
      , (23907,  51,          2) /* CombatUse - Missle */
      , (23907,  60,        140) /* WeaponRange */
      , (23907,  93,       3092) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, LightingOn */
@@ -56,7 +56,7 @@ VALUES (23907,   1,   33558205) /* Setup */
      , (23907,   7,  268436199) /* ClothingBase */
      , (23907,   8,  100674081) /* Icon */
      , (23907,  22,  872415275) /* PhysicsEffectTable */
-     , (23907,  30,         87) /* PhysicsScript - BreatheLightning */
+     , (23907,  30,         88) /* PhysicsScript - Create */
      , (23907,  37,         12) /* ItemSkillLimit */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)

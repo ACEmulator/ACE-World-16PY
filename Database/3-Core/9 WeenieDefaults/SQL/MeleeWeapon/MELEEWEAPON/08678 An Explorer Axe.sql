@@ -46,7 +46,7 @@ VALUES (8678,   1,   33554725) /* Setup */
      , (8678,   7,  268435779) /* ClothingBase */
      , (8678,   8,  100668985) /* Icon */
      , (8678,  22,  872415275) /* PhysicsEffectTable */
-     , (8678,  30,         87) /* PhysicsScript - BreatheLightning */
+     , (8678,  30,         88) /* PhysicsScript - Create */
      , (8678,  36,  234881044) /* MutateFilter */
      , (8678,  50,  100675462) /* IconOverlay */;
 

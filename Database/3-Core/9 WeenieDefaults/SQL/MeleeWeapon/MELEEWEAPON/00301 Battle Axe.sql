@@ -40,6 +40,6 @@ VALUES (301,   1,   33554725) /* Setup */
      , (301,   7,  268435779) /* ClothingBase */
      , (301,   8,  100668985) /* Icon */
      , (301,  22,  872415275) /* PhysicsEffectTable */
-     , (301,  30,         87) /* PhysicsScript - BreatheLightning */
+     , (301,  30,         88) /* PhysicsScript - Create */
      , (301,  36,  234881053) /* MutateFilter */
      , (301,  46,  939524098) /* TsysMutationFilter */;

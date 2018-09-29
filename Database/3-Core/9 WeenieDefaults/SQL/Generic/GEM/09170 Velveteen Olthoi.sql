@@ -34,5 +34,5 @@ VALUES (9170,   1,   33555486) /* Setup */
      , (9170,   7,  268436130) /* ClothingBase */
      , (9170,   8,  100667623) /* Icon */
      , (9170,  22,  872415265) /* PhysicsEffectTable */
-     , (9170,  30,         85) /* PhysicsScript - BreatheFrost */
+     , (9170,  30,         86) /* PhysicsScript - BreatheAcid */
      , (9170,  36,  234881046) /* MutateFilter */;

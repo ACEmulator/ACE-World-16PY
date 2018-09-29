@@ -29,4 +29,4 @@ VALUES (1499,   1,   33555469) /* Setup */
      , (1499,   8,  100667494) /* Icon */
      , (1499,  22,  872415237) /* PhysicsEffectTable */
      , (1499,  28,         27) /* Spell - Flame Bolt I */
-     , (1499,  30,         89) /* PhysicsScript - Destroy */;
+     , (1499,  30,         90) /* PhysicsScript - ProjectileCollision */;

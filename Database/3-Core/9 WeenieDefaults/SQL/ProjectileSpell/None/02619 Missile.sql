@@ -29,4 +29,4 @@ VALUES (2619,   1,   33555469) /* Setup */
      , (2619,   8,  100667494) /* Icon */
      , (2619,  22,  872415245) /* PhysicsEffectTable */
      , (2619,  28,         86) /* Spell - Force Bolt I */
-     , (2619,  30,         89) /* PhysicsScript - Destroy */;
+     , (2619,  30,         90) /* PhysicsScript - ProjectileCollision */;

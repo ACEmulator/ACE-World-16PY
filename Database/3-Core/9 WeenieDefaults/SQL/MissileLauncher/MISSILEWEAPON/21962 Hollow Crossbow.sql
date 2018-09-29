@@ -15,7 +15,7 @@ VALUES (21962,   1,        256) /* ItemType - MissileWeapon */
      , (21962,  46,         32) /* DefaultCombatStyle - Crossbow */
      , (21962,  48,          3) /* WeaponSkill - Crossbow */
      , (21962,  49,         60) /* WeaponTime */
-     , (21962,  50,        128) /* AmmoType */
+     , (21962,  50,        128) /* AmmoType - BoltChorizite */
      , (21962,  51,          2) /* CombatUse - Missle */
      , (21962,  52,          2) /* ParentLocation */
      , (21962,  53,          3) /* PlacementPosition */
@@ -52,4 +52,4 @@ VALUES (21962,   1,   33558058) /* Setup */
      , (21962,   7,  268435762) /* ClothingBase */
      , (21962,   8,  100668835) /* Icon */
      , (21962,  22,  872415275) /* PhysicsEffectTable */
-     , (21962,  30,         87) /* PhysicsScript - BreatheLightning */;
+     , (21962,  30,         88) /* PhysicsScript - Create */;

@@ -40,4 +40,4 @@ VALUES (8473,   1,   33558225) /* Setup */
      , (8473,   7,  268435779) /* ClothingBase */
      , (8473,   8,  100674101) /* Icon */
      , (8473,  22,  872415275) /* PhysicsEffectTable */
-     , (8473,  30,         87) /* PhysicsScript - BreatheLightning */;
+     , (8473,  30,         88) /* PhysicsScript - Create */;

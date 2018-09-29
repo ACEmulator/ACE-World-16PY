@@ -15,7 +15,7 @@ VALUES (21961,   1,        256) /* ItemType - MissileWeapon */
      , (21961,  46,         16) /* DefaultCombatStyle - Bow */
      , (21961,  48,          2) /* WeaponSkill - Bow */
      , (21961,  49,         30) /* WeaponTime */
-     , (21961,  50,         64) /* AmmoType */
+     , (21961,  50,         64) /* AmmoType - ArrowChorizite */
      , (21961,  51,          2) /* CombatUse - Missle */
      , (21961,  52,          2) /* ParentLocation */
      , (21961,  53,          3) /* PlacementPosition */
@@ -51,4 +51,4 @@ VALUES (21961,   1,   33558059) /* Setup */
      , (21961,   7,  268435759) /* ClothingBase */
      , (21961,   8,  100668815) /* Icon */
      , (21961,  22,  872415275) /* PhysicsEffectTable */
-     , (21961,  30,         87) /* PhysicsScript - BreatheLightning */;
+     , (21961,  30,         88) /* PhysicsScript - Create */;

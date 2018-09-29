@@ -36,4 +36,4 @@ VALUES (5753,   1,   33554813) /* Setup */
      , (5753,   3,  536870932) /* SoundTable */
      , (5753,   8,  100670275) /* Icon */
      , (5753,  22,  872415275) /* PhysicsEffectTable */
-     , (5753,  30,         87) /* PhysicsScript - BreatheLightning */;
+     , (5753,  30,         88) /* PhysicsScript - Create */;

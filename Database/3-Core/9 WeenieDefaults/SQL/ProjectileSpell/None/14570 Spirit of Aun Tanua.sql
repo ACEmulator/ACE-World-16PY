@@ -35,4 +35,4 @@ VALUES (14570,   1,   33557502) /* Setup */
      , (14570,   8,  100672508) /* Icon */
      , (14570,  22,  872415382) /* PhysicsEffectTable */
      , (14570,  28,       2637) /* Spell - Invoking Aun Tanua */
-     , (14570,  30,         89) /* PhysicsScript - Destroy */;
+     , (14570,  30,         90) /* PhysicsScript - ProjectileCollision */;
