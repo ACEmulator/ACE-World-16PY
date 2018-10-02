@@ -239,4 +239,4 @@ VALUES (25578, 9,     0,  0, 0, 0.25, False) /* Create UNKNOWN RANDOMLY GENERATE
      , (25578, 9,   546,  0, 0, 0.05, False) /* Create Egg (546) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (25578, 0.005, 546, 20, 1, 4294967295, 2, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Egg (546) (x1 up to max of 4,294,967,295) - Regenerate upon PickUp - Location to (re)Generate: Scatter */;
+VALUES (25578, 0.005, 546, 20, 1, -1, 2, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Egg (546) (x1 up to max of -1) - Regenerate upon PickUp - Location to (re)Generate: Scatter */;
