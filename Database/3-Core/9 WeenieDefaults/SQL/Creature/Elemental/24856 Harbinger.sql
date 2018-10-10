@@ -1,5 +1,5 @@
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES ('24856', 'harbingerrepeataerbax', 10) /* Creature */;
+VALUES (24856, 'harbingerrepeataerbax', 10) /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (24856,   1,         16) /* ItemType - Creature */
@@ -75,7 +75,8 @@ VALUES (24856,   1,   33557927) /* Setup */
      , (24856,  31,      24861) /* LinkedPortalOne - Surface */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (24856, 12, 1682309382, 112.454, -62.6237, -197.995, 1, 0, 0, 0) /* PortalSummonLoc */;
+VALUES (24856, 12, 1682309382, 112.454, -62.6237, -197.995, 1, 0, 0, 0) /* PortalSummonLoc */
+/* @teleloc 0x64460106 [112.454000 -62.623700 -197.995000] 1.000000 0.000000 0.000000 0.000000 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (24856,   1, 400, 0, 0) /* Strength */

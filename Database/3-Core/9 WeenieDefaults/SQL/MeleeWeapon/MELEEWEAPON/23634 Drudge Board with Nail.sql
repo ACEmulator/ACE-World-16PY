@@ -1,5 +1,5 @@
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES ('23634', 'boardwithnaillow', 6) /* MeleeWeapon */;
+VALUES (23634, 'boardwithnaillow', 6) /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (23634,   1,          1) /* ItemType - MeleeWeapon */

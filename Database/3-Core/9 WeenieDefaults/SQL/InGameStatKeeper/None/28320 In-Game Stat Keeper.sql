@@ -1,5 +1,5 @@
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES ('28320', 'ingamestatkeeper', 66) /* InGameStatKeeper */;
+VALUES (28320, 'ingamestatkeeper', 66) /* InGameStatKeeper */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (28320,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;

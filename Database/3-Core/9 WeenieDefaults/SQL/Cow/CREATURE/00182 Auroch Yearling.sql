@@ -1,5 +1,5 @@
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES ('182', 'aurochyearling', 15) /* Cow */;
+VALUES (182, 'aurochyearling', 15) /* Cow */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (182,   1,         16) /* ItemType - Creature */

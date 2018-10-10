@@ -1,5 +1,5 @@
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES ('8510', 'npkswitch2', 27) /* PKModifier */;
+VALUES (8510, 'npkswitch2', 27) /* PKModifier */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (8510,   1,        128) /* ItemType - Misc */

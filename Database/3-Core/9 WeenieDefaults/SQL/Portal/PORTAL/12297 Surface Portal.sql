@@ -1,5 +1,5 @@
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES ('12297', 'portalpyrealrepositoryexit', 7) /* Portal */;
+VALUES (12297, 'portalpyrealrepositoryexit', 7) /* Portal */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (12297,   1,      65536) /* ItemType - Portal */
@@ -27,4 +27,5 @@ VALUES (12297,   1,   33554867) /* Setup */
      , (12297,   8,  100667499) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (12297, 2, 2323251234, 104, 28.4, 60, -4.371139E-08, 0, 0, -1) /* Destination */;
+VALUES (12297, 2, 2323251234, 104, 28.4, 60, -4.371139E-08, 0, 0, -1) /* Destination */
+/* @teleloc 0x8A7A0022 [104.000000 28.400000 60.000000] 0.000000 0.000000 0.000000 -1.000000 */;

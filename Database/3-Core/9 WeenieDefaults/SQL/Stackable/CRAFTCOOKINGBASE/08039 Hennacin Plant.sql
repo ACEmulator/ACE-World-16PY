@@ -1,5 +1,5 @@
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES ('8039', 'plantdarkred', 51) /* Stackable */;
+VALUES (8039, 'plantdarkred', 51) /* Stackable */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (8039,   1,    4194304) /* ItemType - CraftCookingBase */

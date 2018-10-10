@@ -1,5 +1,5 @@
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES ('5372', 'gscoregatherer', 47) /* GScoreGatherer */;
+VALUES (5372, 'gscoregatherer', 47) /* GScoreGatherer */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (5372,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;

@@ -1,5 +1,5 @@
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES ('22940', 'attributegemdownquickness', 44) /* CraftTool */;
+VALUES (22940, 'attributegemdownquickness', 44) /* CraftTool */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (22940,   1,        128) /* ItemType - Misc */

@@ -1,5 +1,5 @@
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES ('28479', 'portalburunfeeluntree', 7) /* Portal */;
+VALUES (28479, 'portalburunfeeluntree', 7) /* Portal */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (28479,   1,      65536) /* ItemType - Portal */
@@ -30,7 +30,8 @@ VALUES (28479,   1,   33558852) /* Setup */
      , (28479,   8,  100667499) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (28479, 2, 41550629, 90, -10, 0.005, 0.7071068, 0, 0, -0.7071068) /* Destination */;
+VALUES (28479, 2, 41550629, 90, -10, 0.005, 0.7071068, 0, 0, -0.7071068) /* Destination */
+/* @teleloc 0x027A0325 [90.000000 -10.000000 0.005000] 0.707107 0.000000 0.000000 -0.707107 */;
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
 VALUES (28479,  7 /* Use */,      1, NULL, NULL, NULL, NULL, NULL, NULL, NULL);

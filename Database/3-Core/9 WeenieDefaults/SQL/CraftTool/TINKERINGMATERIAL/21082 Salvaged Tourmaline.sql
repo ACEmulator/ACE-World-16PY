@@ -1,5 +1,5 @@
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES ('21082', 'materialtourmaline', 44) /* CraftTool */;
+VALUES (21082, 'materialtourmaline', 44) /* CraftTool */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (21082,   1, 1073741824) /* ItemType - TinkeringMaterial */

@@ -1,5 +1,5 @@
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES ('30261', 'mansionportalset6', 64) /* Hooker */;
+VALUES (30261, 'mansionportalset6', 64) /* Hooker */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (30261,   1,       2048) /* ItemType - Gem */

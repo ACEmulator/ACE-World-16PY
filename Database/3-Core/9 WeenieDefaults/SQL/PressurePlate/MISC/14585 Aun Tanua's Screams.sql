@@ -1,5 +1,5 @@
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES ('14585', 'pressure-plate-screamtanua', 24) /* PressurePlate */;
+VALUES (14585, 'pressure-plate-screamtanua', 24) /* PressurePlate */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (14585,   1,        128) /* ItemType - Misc */

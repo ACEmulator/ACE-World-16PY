@@ -1,5 +1,5 @@
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES ('11473', 'plantspringbluecrushed', 51) /* Stackable */;
+VALUES (11473, 'plantspringbluecrushed', 51) /* Stackable */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (11473,   1,    8388608) /* ItemType - CraftAlchemyBase */

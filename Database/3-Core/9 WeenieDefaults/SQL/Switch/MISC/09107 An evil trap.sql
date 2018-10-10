@@ -1,5 +1,5 @@
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES ('9107', 'trap-portalsend-obsidianrim', 26) /* Switch */;
+VALUES (9107, 'trap-portalsend-obsidianrim', 26) /* Switch */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (9107,   1,        128) /* ItemType - Misc */

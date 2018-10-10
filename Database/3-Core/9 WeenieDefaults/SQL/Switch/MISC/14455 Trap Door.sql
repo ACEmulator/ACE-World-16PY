@@ -1,5 +1,5 @@
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES ('14455', 'trap-portalsend-hallofhollows', 26) /* Switch */;
+VALUES (14455, 'trap-portalsend-hallofhollows', 26) /* Switch */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (14455,   1,        128) /* ItemType - Misc */

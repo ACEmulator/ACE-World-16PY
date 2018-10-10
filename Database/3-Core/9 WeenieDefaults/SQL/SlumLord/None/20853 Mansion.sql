@@ -1,5 +1,5 @@
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES ('20853', 'slumlordmansion6241-6250', 55) /* SlumLord */;
+VALUES (20853, 'slumlordmansion6241-6250', 55) /* SlumLord */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (20853,  16,         32) /* ItemUseable - Remote */

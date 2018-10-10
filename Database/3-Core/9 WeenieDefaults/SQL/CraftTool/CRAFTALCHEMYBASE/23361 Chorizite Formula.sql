@@ -1,5 +1,5 @@
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES ('23361', 'choriziteformula', 44) /* CraftTool */;
+VALUES (23361, 'choriziteformula', 44) /* CraftTool */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (23361,   1,    8388608) /* ItemType - CraftAlchemyBase */

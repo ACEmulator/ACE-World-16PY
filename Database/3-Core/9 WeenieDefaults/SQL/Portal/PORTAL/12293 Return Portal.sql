@@ -1,5 +1,5 @@
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES ('12293', 'portalnewsingularityexit', 7) /* Portal */;
+VALUES (12293, 'portalnewsingularityexit', 7) /* Portal */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (12293,   1,      65536) /* ItemType - Portal */
@@ -27,7 +27,8 @@ VALUES (12293,   1,   33554867) /* Setup */
      , (12293,   8,  100667499) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (12293, 2, 2140143653, 103.8, 113, 142.7, -0.309017, 0, 0, -0.9510565) /* Destination */;
+VALUES (12293, 2, 2140143653, 103.8, 113, 142.7, -0.309017, 0, 0, -0.9510565) /* Destination */
+/* @teleloc 0x7F900025 [103.800000 113.000000 142.700000] -0.309017 0.000000 0.000000 -0.951057 */;
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
 VALUES (12293,  7 /* Use */,      1, NULL, NULL, NULL, NULL, NULL, NULL, NULL);

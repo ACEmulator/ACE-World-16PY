@@ -1,5 +1,5 @@
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES ('10926', 'portalgrubhatcheryexit-xp', 7) /* Portal */;
+VALUES (10926, 'portalgrubhatcheryexit-xp', 7) /* Portal */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (10926,   1,      65536) /* ItemType - Portal */
@@ -27,4 +27,5 @@ VALUES (10926,   1,   33554867) /* Setup */
      , (10926,   8,  100667499) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (10926, 2, 230227988, 57.5, 85.9, -0.1, -0.7071068, 0, 0, -0.7071068) /* Destination */;
+VALUES (10926, 2, 230227988, 57.5, 85.9, -0.1, -0.7071068, 0, 0, -0.7071068) /* Destination */
+/* @teleloc 0x0DB90014 [57.500000 85.900000 -0.100000] -0.707107 0.000000 0.000000 -0.707107 */;

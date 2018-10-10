@@ -1,5 +1,5 @@
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES ('965', 'zombiegen', 1) /* Generic */;
+VALUES (965, 'zombiegen', 1) /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (965,  81,          1) /* MaxGeneratedObjects */

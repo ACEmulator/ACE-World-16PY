@@ -1,5 +1,5 @@
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES ('29713', 'daiscrownpassage', 10) /* Creature */;
+VALUES (29713, 'daiscrownpassage', 10) /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (29713,   1,         16) /* ItemType - Creature */
@@ -71,7 +71,8 @@ VALUES (29713,   1,   33559083) /* Setup */
      , (29713,  31,      29785) /* LinkedPortalOne - Gate to Qin Xikit's Island */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (29713, 12, 15859985, 10.066, -1.736, -5.995, 0.9999543, 0, 0, -0.009555543) /* PortalSummonLoc */;
+VALUES (29713, 12, 15859985, 10.066, -1.736, -5.995, 0.9999543, 0, 0, -0.009555543) /* PortalSummonLoc */
+/* @teleloc 0x00F20111 [10.066000 -1.736000 -5.995000] 0.999954 0.000000 0.000000 -0.009556 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (29713,   1, 380, 0, 0) /* Strength */

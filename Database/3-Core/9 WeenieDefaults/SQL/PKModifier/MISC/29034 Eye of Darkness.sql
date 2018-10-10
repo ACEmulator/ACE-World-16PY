@@ -1,5 +1,5 @@
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES ('29034', 'altarfalatacotpk', 27) /* PKModifier */;
+VALUES (29034, 'altarfalatacotpk', 27) /* PKModifier */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (29034,   1,        128) /* ItemType - Misc */

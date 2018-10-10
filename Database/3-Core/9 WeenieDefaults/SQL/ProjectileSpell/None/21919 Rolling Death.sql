@@ -1,5 +1,5 @@
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES ('21919', 'rollingdeathlightning', 33) /* ProjectileSpell */;
+VALUES (21919, 'rollingdeathlightning', 33) /* ProjectileSpell */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (21919,   3,         13) /* PaletteTemplate - Purple */

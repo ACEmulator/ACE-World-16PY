@@ -1,5 +1,5 @@
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES ('7348', 'zombiesoulfearingacolytearea1', 10) /* Creature */;
+VALUES (7348, 'zombiesoulfearingacolytearea1', 10) /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (7348,   1,         16) /* ItemType - Creature */
@@ -103,7 +103,8 @@ VALUES (7348,   1,   33554839) /* Setup */
      , (7348,  35,        451) /* DeathTreasureType - Loot Tier: 2 */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (7348, 12, 49218003, 190.4, -34.6, -12, 1, 0, 0, 0) /* PortalSummonLoc */;
+VALUES (7348, 12, 49218003, 190.4, -34.6, -12, 1, 0, 0, 0) /* PortalSummonLoc */
+/* @teleloc 0x02EF01D3 [190.400000 -34.600000 -12.000000] 1.000000 0.000000 0.000000 0.000000 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (7348,   1, 150, 0, 0) /* Strength */

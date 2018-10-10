@@ -1,5 +1,5 @@
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES ('2348', 'channel-audit', 36) /* Channel */;
+VALUES (2348, 'channel-audit', 36) /* Channel */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (2348,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;

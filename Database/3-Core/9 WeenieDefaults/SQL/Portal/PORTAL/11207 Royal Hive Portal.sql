@@ -1,5 +1,5 @@
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES ('11207', 'portalcentralhive2-xp', 7) /* Portal */;
+VALUES (11207, 'portalcentralhive2-xp', 7) /* Portal */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (11207,   1,      65536) /* ItemType - Portal */
@@ -29,4 +29,5 @@ VALUES (11207,   1,   33555925) /* Setup */
      , (11207,   8,  100667499) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (11207, 2, 42467948, 40, -70, -12, 0.7660444, 0, 0, -0.6427876) /* Destination */;
+VALUES (11207, 2, 42467948, 40, -70, -12, 0.7660444, 0, 0, -0.6427876) /* Destination */
+/* @teleloc 0x0288026C [40.000000 -70.000000 -12.000000] 0.766044 0.000000 0.000000 -0.642788 */;
