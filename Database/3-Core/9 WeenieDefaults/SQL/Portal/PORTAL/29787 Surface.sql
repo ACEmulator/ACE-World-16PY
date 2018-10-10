@@ -1,5 +1,5 @@
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES ('29787', 'portalsteamyfontexit', 7) /* Portal */;
+VALUES (29787, 'portalsteamyfontexit', 7) /* Portal */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (29787,   1,      65536) /* ItemType - Portal */
@@ -27,4 +27,5 @@ VALUES (29787,   1,   33559046) /* Setup */
      , (29787,   8,  100667499) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (29787, 2, 4010606620, 90.7, 91.4, 107.6, 0.0871558, 0, 0, -0.9961947) /* Destination */;
+VALUES (29787, 2, 4010606620, 90.7, 91.4, 107.6, 0.0871558, 0, 0, -0.9961947) /* Destination */
+/* @teleloc 0xEF0D001C [90.700000 91.400000 107.600000] 0.087156 0.000000 0.000000 -0.996195 */;

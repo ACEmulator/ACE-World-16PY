@@ -1,5 +1,5 @@
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES ('4574', 'channel-alarqas', 36) /* Channel */;
+VALUES (4574, 'channel-alarqas', 36) /* Channel */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (4574,   3,         61) /* PaletteTemplate - White */

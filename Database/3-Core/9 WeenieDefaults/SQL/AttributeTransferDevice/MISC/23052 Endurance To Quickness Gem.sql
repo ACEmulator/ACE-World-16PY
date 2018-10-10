@@ -1,5 +1,5 @@
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES ('23052', 'attributegemendurancetoquickness', 63) /* AttributeTransferDevice */;
+VALUES (23052, 'attributegemendurancetoquickness', 63) /* AttributeTransferDevice */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (23052,   1,        128) /* ItemType - Misc */

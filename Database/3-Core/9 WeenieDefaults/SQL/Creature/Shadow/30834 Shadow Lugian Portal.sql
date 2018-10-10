@@ -1,5 +1,5 @@
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES ('30834', 'portalbossinfiltration', 10) /* Creature */;
+VALUES (30834, 'portalbossinfiltration', 10) /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (30834,   1,         16) /* ItemType - Creature */
@@ -78,7 +78,8 @@ VALUES (30834,   1,   33559251) /* Setup */
      , (30834,  31,      30844) /* LinkedPortalOne - Purple Portal Template */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (30834, 12, 445514003, -198, -25, 88.405, 1, 0, 0, 0) /* PortalSummonLoc */;
+VALUES (30834, 12, 445514003, -198, -25, 88.405, 1, 0, 0, 0) /* PortalSummonLoc */
+/* @teleloc 0x1A8E0113 [-198.000000 -25.000000 88.405000] 1.000000 0.000000 0.000000 0.000000 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (30834,   1, 100, 0, 0) /* Strength */

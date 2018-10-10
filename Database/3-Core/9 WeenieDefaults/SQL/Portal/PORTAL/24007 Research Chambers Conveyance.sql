@@ -1,5 +1,5 @@
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES ('24007', 'trapportal-knorrdepths', 7) /* Portal */;
+VALUES (24007, 'trapportal-knorrdepths', 7) /* Portal */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (24007,   1,      65536) /* ItemType - Portal */
@@ -32,7 +32,8 @@ VALUES (24007,   1,   33558268) /* Setup */
      , (24007,   8,  100674152) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (24007, 2, 1682113453, 70, -180, 0.005, 1, 0, 0, 0) /* Destination */;
+VALUES (24007, 2, 1682113453, 70, -180, 0.005, 1, 0, 0, 0) /* Destination */
+/* @teleloc 0x644303AD [70.000000 -180.000000 0.005000] 1.000000 0.000000 0.000000 0.000000 */;
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
 VALUES (24007,  7 /* Use */,      1, NULL, NULL, NULL, NULL, NULL, NULL, NULL);

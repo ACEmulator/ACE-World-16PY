@@ -1,5 +1,5 @@
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES ('10762', 'portaldestination', 1) /* Generic */;
+VALUES (10762, 'portaldestination', 1) /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (10762,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;

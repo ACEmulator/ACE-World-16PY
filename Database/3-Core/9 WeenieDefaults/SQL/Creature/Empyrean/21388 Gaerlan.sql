@@ -1,5 +1,5 @@
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES ('21388', 'gaerlanicerepeat', 10) /* Creature */;
+VALUES (21388, 'gaerlanicerepeat', 10) /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (21388,   1,         16) /* ItemType - Creature */
@@ -74,7 +74,8 @@ VALUES (21388,   1,   33557846) /* Setup */
      , (21388,  31,      21422) /* LinkedPortalOne - Gaerlan's Inner Sanctum */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (21388, 12, 1464140137, 50.501, -190.275, 6, -0.7071068, 0, 0, -0.7071068) /* PortalSummonLoc */;
+VALUES (21388, 12, 1464140137, 50.501, -190.275, 6, -0.7071068, 0, 0, -0.7071068) /* PortalSummonLoc */
+/* @teleloc 0x57450169 [50.501000 -190.275000 6.000000] -0.707107 0.000000 0.000000 -0.707107 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (21388,   1, 500, 0, 0) /* Strength */

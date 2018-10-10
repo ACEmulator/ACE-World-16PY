@@ -1,5 +1,5 @@
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES ('3952', 'linkitemgen30minutes', 1) /* Generic */;
+VALUES (3952, 'linkitemgen30minutes', 1) /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (3952,  66,          1) /* CheckpointStatus */

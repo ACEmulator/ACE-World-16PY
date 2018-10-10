@@ -1,5 +1,5 @@
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES ('9372', 'wrappedarrowheadgreaterbroad', 44) /* CraftTool */;
+VALUES (9372, 'wrappedarrowheadgreaterbroad', 44) /* CraftTool */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (9372,   1,  134217728) /* ItemType - CraftFletchingIntermediate */

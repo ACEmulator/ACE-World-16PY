@@ -1,5 +1,5 @@
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES ('23046', 'attributegemcoordinationtofocus', 63) /* AttributeTransferDevice */;
+VALUES (23046, 'attributegemcoordinationtofocus', 63) /* AttributeTransferDevice */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (23046,   1,        128) /* ItemType - Misc */

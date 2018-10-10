@@ -1,5 +1,5 @@
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES ('21380', 'sealfragment3', 44) /* CraftTool */;
+VALUES (21380, 'sealfragment3', 44) /* CraftTool */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (21380,   1,        128) /* ItemType - Misc */

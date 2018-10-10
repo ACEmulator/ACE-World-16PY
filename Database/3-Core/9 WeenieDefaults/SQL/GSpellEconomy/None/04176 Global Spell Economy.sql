@@ -1,5 +1,5 @@
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES ('4176', 'gspelleconomy', 42) /* GSpellEconomy */;
+VALUES (4176, 'gspelleconomy', 42) /* GSpellEconomy */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (4176,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;

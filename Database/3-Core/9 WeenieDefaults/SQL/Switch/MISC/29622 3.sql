@@ -1,5 +1,5 @@
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES ('29622', 'lever-number03-toa', 26) /* Switch */;
+VALUES (29622, 'lever-number03-toa', 26) /* Switch */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (29622,   1,        128) /* ItemType - Misc */

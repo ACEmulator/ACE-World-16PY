@@ -1,5 +1,5 @@
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES ('29642', 'colorpuzzleballblue', 1) /* Generic */;
+VALUES (29642, 'colorpuzzleballblue', 1) /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (29642,   3,          2) /* PaletteTemplate - Blue */

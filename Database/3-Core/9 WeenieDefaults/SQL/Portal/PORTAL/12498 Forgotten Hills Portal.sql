@@ -1,5 +1,5 @@
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES ('12498', 'portalforgottenhills', 7) /* Portal */;
+VALUES (12498, 'portalforgottenhills', 7) /* Portal */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (12498,   1,      65536) /* ItemType - Portal */
@@ -27,4 +27,5 @@ VALUES (12498,   1,   33554867) /* Setup */
      , (12498,   8,  100667499) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (12498, 2, 2928738345, 138.468, 12.838, 38.482, -0.9525074, 0, 0, -0.3045153) /* Destination */;
+VALUES (12498, 2, 2928738345, 138.468, 12.838, 38.482, -0.9525074, 0, 0, -0.3045153) /* Destination */
+/* @teleloc 0xAE910029 [138.468000 12.838000 38.482000] -0.952507 0.000000 0.000000 -0.304515 */;

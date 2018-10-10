@@ -1,5 +1,5 @@
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES ('10956', 'virindiobserverhabitat-xp', 10) /* Creature */;
+VALUES (10956, 'virindiobserverhabitat-xp', 10) /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (10956,   1,         16) /* ItemType - Creature */
@@ -73,7 +73,8 @@ VALUES (10956,   1,   33554497) /* Setup */
      , (10956,  35,        462) /* DeathTreasureType - Loot Tier: 3 */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (10956, 12, 43188547, 80, -58, -24, 0.7071068, 0, 0, -0.7071068) /* PortalSummonLoc */;
+VALUES (10956, 12, 43188547, 80, -58, -24, 0.7071068, 0, 0, -0.7071068) /* PortalSummonLoc */
+/* @teleloc 0x02930143 [80.000000 -58.000000 -24.000000] 0.707107 0.000000 0.000000 -0.707107 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (10956,   1, 100, 0, 0) /* Strength */

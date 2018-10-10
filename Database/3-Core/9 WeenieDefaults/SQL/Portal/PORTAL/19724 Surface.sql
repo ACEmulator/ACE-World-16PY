@@ -1,5 +1,5 @@
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES ('19724', 'portalfathomlesschasmexit', 7) /* Portal */;
+VALUES (19724, 'portalfathomlesschasmexit', 7) /* Portal */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (19724,   1,      65536) /* ItemType - Portal */
@@ -27,4 +27,5 @@ VALUES (19724,   1,   33554867) /* Setup */
      , (19724,   8,  100667499) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (19724, 2, 3461414947, 113, 53, 245.005, 0.9475985, 0, 0, -0.3194639) /* Destination */;
+VALUES (19724, 2, 3461414947, 113, 53, 245.005, 0.9475985, 0, 0, -0.3194639) /* Destination */
+/* @teleloc 0xCE510023 [113.000000 53.000000 245.005000] 0.947599 0.000000 0.000000 -0.319464 */;

@@ -1,5 +1,5 @@
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES ('22359', 'skillgemupdagger', 62) /* SkillAlterationDevice */;
+VALUES (22359, 'skillgemupdagger', 62) /* SkillAlterationDevice */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (22359,   1,       2048) /* ItemType - Gem */

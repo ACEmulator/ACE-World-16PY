@@ -1,5 +1,5 @@
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES ('5967', 'scrollfletchingineptitude6', 34) /* Scroll */;
+VALUES (5967, 'scrollfletchingineptitude6', 34) /* Scroll */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (5967,   1,       8192) /* ItemType - Writable */

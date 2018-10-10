@@ -1,5 +1,5 @@
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES ('12884', 'housecottage1260', 53) /* House */;
+VALUES (12884, 'housecottage1260', 53) /* House */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (12884,   1,        128) /* ItemType - Misc */

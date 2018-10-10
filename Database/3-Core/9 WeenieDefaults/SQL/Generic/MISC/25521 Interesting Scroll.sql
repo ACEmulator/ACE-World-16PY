@@ -1,5 +1,5 @@
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES ('25521', 'scroll-npcwield', 1) /* Generic */;
+VALUES (25521, 'scroll-npcwield', 1) /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (25521,   1,        128) /* ItemType - Misc */

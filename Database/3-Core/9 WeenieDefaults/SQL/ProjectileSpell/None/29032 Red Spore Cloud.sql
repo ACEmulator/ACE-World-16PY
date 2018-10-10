@@ -1,5 +1,5 @@
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES ('29032', 'sporecloudred', 33) /* ProjectileSpell */;
+VALUES (29032, 'sporecloudred', 33) /* ProjectileSpell */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (29032,   8,         25) /* Mass */

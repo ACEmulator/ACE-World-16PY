@@ -1,5 +1,5 @@
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES ('8599', 'portalvesayenmoarsexit', 7) /* Portal */;
+VALUES (8599, 'portalvesayenmoarsexit', 7) /* Portal */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (8599,   1,      65536) /* ItemType - Portal */
@@ -27,4 +27,5 @@ VALUES (8599,   1,   33554867) /* Setup */
      , (8599,   8,  100667499) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (8599, 2, 4079419445, 159.789, 116.697, 18.005, -4.371139E-08, 0, 0, -1) /* Destination */;
+VALUES (8599, 2, 4079419445, 159.789, 116.697, 18.005, -4.371139E-08, 0, 0, -1) /* Destination */
+/* @teleloc 0xF3270035 [159.789000 116.697000 18.005000] 0.000000 0.000000 0.000000 -1.000000 */;

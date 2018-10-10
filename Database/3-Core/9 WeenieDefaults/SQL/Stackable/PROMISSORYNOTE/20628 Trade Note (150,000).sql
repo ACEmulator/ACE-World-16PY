@@ -1,5 +1,5 @@
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES ('20628', 'tradenote150000', 51) /* Stackable */;
+VALUES (20628, 'tradenote150000', 51) /* Stackable */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (20628,   1,     262144) /* ItemType - PromissoryNote */

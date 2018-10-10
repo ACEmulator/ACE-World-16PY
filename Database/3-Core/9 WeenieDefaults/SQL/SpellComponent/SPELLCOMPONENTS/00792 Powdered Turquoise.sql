@@ -1,5 +1,5 @@
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES ('792', 'turquoise', 32) /* SpellComponent */;
+VALUES (792, 'turquoise', 32) /* SpellComponent */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (792,   1,       4096) /* ItemType - SpellComponents */

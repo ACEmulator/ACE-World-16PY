@@ -1,5 +1,5 @@
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES ('6873', 'ayanbaqurdrunkenscholar', 10) /* Creature */;
+VALUES (6873, 'ayanbaqurdrunkenscholar', 10) /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (6873,   1,         16) /* ItemType - Creature */
@@ -76,7 +76,8 @@ VALUES (6873,   1,   33554433) /* Setup */
      , (6873,  31,      23889) /* LinkedPortalOne - Tower of the Madman */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (6873, 12, 2060058641, 60.244, 17.602, 210.005, 0.7071068, 0, 0, -0.7071068) /* PortalSummonLoc */;
+VALUES (6873, 12, 2060058641, 60.244, 17.602, 210.005, 0.7071068, 0, 0, -0.7071068) /* PortalSummonLoc */
+/* @teleloc 0x7ACA0011 [60.244000 17.602000 210.005000] 0.707107 0.000000 0.000000 -0.707107 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (6873,   1, 160, 0, 0) /* Strength */

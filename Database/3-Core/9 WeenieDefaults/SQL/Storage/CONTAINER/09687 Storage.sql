@@ -1,5 +1,5 @@
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES ('9687', 'storage', 57) /* Storage */;
+VALUES (9687, 'storage', 57) /* Storage */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (9687,   1,        512) /* ItemType - Container */
