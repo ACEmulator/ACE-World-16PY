@@ -12,7 +12,7 @@ VALUES (9104,   1,        512) /* ItemType - Container */
      , (9104,  38,       5000) /* ResistLockpick */
      , (9104,  81,          1) /* MaxGeneratedObjects */
      , (9104,  82,          1) /* InitGeneratedObjects */
-     , (9104,  83,      65552) /* ActivationResponse */
+     , (9104,  83,      65552) /* ActivationResponse - Talk, Generate */
      , (9104,  93,       1048) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity */
      , (9104,  96,        500) /* EncumbranceCapacity */
      , (9104, 100,          1) /* GeneratorType - Relative */

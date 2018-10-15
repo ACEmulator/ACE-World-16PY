@@ -6,7 +6,7 @@ VALUES (10898,   1,        128) /* ItemType - Misc */
      , (10898,  16,          1) /* ItemUseable - No */
      , (10898,  81,          1) /* MaxGeneratedObjects */
      , (10898,  82,          0) /* InitGeneratedObjects */
-     , (10898,  83,      65552) /* ActivationResponse */
+     , (10898,  83,      65552) /* ActivationResponse - Talk, Generate */
      , (10898,  93,         12) /* PhysicsState - Ethereal, ReportCollisions */
      , (10898, 119,          1) /* Active */;
 

@@ -11,7 +11,7 @@ VALUES (8374,   1,        512) /* ItemType - Container */
      , (8374,  19,        200) /* Value */
      , (8374,  81,          2) /* MaxGeneratedObjects */
      , (8374,  82,          0) /* InitGeneratedObjects */
-     , (8374,  83,      65552) /* ActivationResponse */
+     , (8374,  83,      65552) /* ActivationResponse - Talk, Generate */
      , (8374,  93,       1048) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity */
      , (8374,  96,        500) /* EncumbranceCapacity */
      , (8374, 119,          1) /* Active */;

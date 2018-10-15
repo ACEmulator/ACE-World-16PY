@@ -4,7 +4,7 @@ VALUES (29641, 'lever-numberprimes-tob', 26) /* Switch */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (29641,   1,        128) /* ItemType - Misc */
      , (29641,  16,         48) /* ItemUseable - ViewedRemote */
-     , (29641,  83,       2048) /* ActivationResponse - Unk800 */
+     , (29641,  83,       2048) /* ActivationResponse - Emote */
      , (29641,  93,         20) /* PhysicsState - Ethereal, IgnoreCollisions */
      , (29641, 119,          1) /* Active */;
 

@@ -8,7 +8,7 @@ VALUES (22719,   1,        128) /* ItemType - Misc */
      , (22719,   9,          0) /* ValidLocations - None */
      , (22719,  16,          1) /* ItemUseable - No */
      , (22719,  19,       1000) /* Value */
-     , (22719,  83,       2048) /* ActivationResponse - Unk800 */
+     , (22719,  83,       2048) /* ActivationResponse - Emote */
      , (22719,  93,       1036) /* PhysicsState - Ethereal, ReportCollisions, Gravity */
      , (22719, 106,        325) /* ItemSpellcraft */
      , (22719, 119,          1) /* Active */;

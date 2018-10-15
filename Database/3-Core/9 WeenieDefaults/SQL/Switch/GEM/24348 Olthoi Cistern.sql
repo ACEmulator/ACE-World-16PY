@@ -5,7 +5,7 @@ INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (24348,   1,       2048) /* ItemType - Gem */
      , (24348,  16,         48) /* ItemUseable - ViewedRemote */
      , (24348,  19,          0) /* Value */
-     , (24348,  83,       2048) /* ActivationResponse - Unk800 */
+     , (24348,  83,       2048) /* ActivationResponse - Emote */
      , (24348,  93,         16) /* PhysicsState - IgnoreCollisions */
      , (24348, 119,          1) /* Active */;
 

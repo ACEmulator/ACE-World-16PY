@@ -6,7 +6,7 @@ VALUES (27561,   1,        128) /* ItemType - Misc */
      , (27561,  16,          1) /* ItemUseable - No */
      , (27561,  81,          5) /* MaxGeneratedObjects */
      , (27561,  82,          0) /* InitGeneratedObjects */
-     , (27561,  83,      65552) /* ActivationResponse */
+     , (27561,  83,      65552) /* ActivationResponse - Talk, Generate */
      , (27561,  93,          8) /* PhysicsState - ReportCollisions */
      , (27561, 119,          1) /* Active */;
 

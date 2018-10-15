@@ -10,7 +10,7 @@ VALUES (22172,   1,        128) /* ItemType - Misc */
      , (22172,  44,          1) /* Damage */
      , (22172,  45,          4) /* DamageType - Bludgeon */
      , (22172,  66,          1) /* CheckpointStatus */
-     , (22172,  83,       2048) /* ActivationResponse - Unk800 */
+     , (22172,  83,       2048) /* ActivationResponse - Emote */
      , (22172,  93,         12) /* PhysicsState - Ethereal, ReportCollisions */
      , (22172, 119,          1) /* Active */;
 
