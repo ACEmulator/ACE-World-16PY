@@ -8,7 +8,7 @@ VALUES (24002,   1,        128) /* ItemType - Misc */
      , (24002,   9,          0) /* ValidLocations - None */
      , (24002,  16,          1) /* ItemUseable - No */
      , (24002,  19,       1000) /* Value */
-     , (24002,  83,       2048) /* ActivationResponse - Unk800 */
+     , (24002,  83,       2048) /* ActivationResponse - Emote */
      , (24002,  93,       1036) /* PhysicsState - Ethereal, ReportCollisions, Gravity */
      , (24002, 119,          1) /* Active */;
 

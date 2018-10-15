@@ -7,7 +7,7 @@ VALUES (24349,   1,        128) /* ItemType - Misc */
      , (24349,  19,          0) /* Value */
      , (24349,  81,          4) /* MaxGeneratedObjects */
      , (24349,  82,          0) /* InitGeneratedObjects */
-     , (24349,  83,      65552) /* ActivationResponse */
+     , (24349,  83,      65552) /* ActivationResponse - Talk, Generate */
      , (24349,  93,         16) /* PhysicsState - IgnoreCollisions */
      , (24349, 119,          1) /* Active */;
 

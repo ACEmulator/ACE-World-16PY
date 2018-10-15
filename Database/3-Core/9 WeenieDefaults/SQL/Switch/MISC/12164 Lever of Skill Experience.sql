@@ -4,7 +4,7 @@ VALUES (12164, 'leverawardskillxp', 26) /* Switch */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (12164,   1,        128) /* ItemType - Misc */
      , (12164,  16,         48) /* ItemUseable - ViewedRemote */
-     , (12164,  83,       2048) /* ActivationResponse - Unk800 */
+     , (12164,  83,       2048) /* ActivationResponse - Emote */
      , (12164,  93,         16) /* PhysicsState - IgnoreCollisions */
      , (12164, 119,          1) /* Active */;
 

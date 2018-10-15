@@ -10,7 +10,7 @@ VALUES (30642,   1,        128) /* ItemType - Misc */
      , (30642,  19,          0) /* Value */
      , (30642,  81,          3) /* MaxGeneratedObjects */
      , (30642,  82,          0) /* InitGeneratedObjects */
-     , (30642,  83,      65552) /* ActivationResponse */
+     , (30642,  83,      65552) /* ActivationResponse - Talk, Generate */
      , (30642,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (30642, 119,          1) /* Active */;
 

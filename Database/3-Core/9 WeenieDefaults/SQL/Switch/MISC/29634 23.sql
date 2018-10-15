@@ -4,7 +4,7 @@ VALUES (29634, 'lever-number23-toh', 26) /* Switch */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (29634,   1,        128) /* ItemType - Misc */
      , (29634,  16,         48) /* ItemUseable - ViewedRemote */
-     , (29634,  83,       2048) /* ActivationResponse - Unk800 */
+     , (29634,  83,       2048) /* ActivationResponse - Emote */
      , (29634,  93,         20) /* PhysicsState - Ethereal, IgnoreCollisions */
      , (29634, 119,          1) /* Active */;
 

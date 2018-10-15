@@ -8,7 +8,7 @@ VALUES (22217,   1,        128) /* ItemType - Misc */
      , (22217,   9,          0) /* ValidLocations - None */
      , (22217,  16,          1) /* ItemUseable - No */
      , (22217,  19,       1000) /* Value */
-     , (22217,  83,       2048) /* ActivationResponse - Unk800 */
+     , (22217,  83,       2048) /* ActivationResponse - Emote */
      , (22217,  93,       1036) /* PhysicsState - Ethereal, ReportCollisions, Gravity */
      , (22217, 119,          1) /* Active */;
 
