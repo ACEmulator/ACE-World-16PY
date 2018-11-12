@@ -28,4 +28,4 @@ INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (18648,   1,   33557058) /* Setup */
      , (18648,   8,  100671873) /* Icon */
      , (18648,  42,       5775) /* HouseId */
-     , (18648,  44,        151) /* RestrictionEffect - WeddingSteele */;
+     , (18648,  44,        152) /* RestrictionEffect - RestrictionEffectBlue */;
