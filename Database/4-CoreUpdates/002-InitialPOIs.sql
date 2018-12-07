@@ -2,19 +2,15 @@
 -- Query: SELECT * FROM ace_world.ace_poi
 -- Date: 2017-06-17 17:07
 */
-/*
+
 INSERT INTO `points_of_interest` (`name`,`weenie_Class_Id`) VALUES ('Ahurenga',42827);
 INSERT INTO `points_of_interest` (`name`,`weenie_Class_Id`) VALUES ('Al-Arqas',42823);
 INSERT INTO `points_of_interest` (`name`,`weenie_Class_Id`) VALUES ('Al-Jalima',42830);
 INSERT INTO `points_of_interest` (`name`,`weenie_Class_Id`) VALUES ('Arwic',42819);
-*/
 INSERT INTO `points_of_interest` (`name`,`weenie_Class_Id`) VALUES ('Ayan Baqur',7194);
-/*
 INSERT INTO `points_of_interest` (`name`,`weenie_Class_Id`) VALUES ('Baishi',42845);
-*/
 INSERT INTO `points_of_interest` (`name`,`weenie_Class_Id`) VALUES ('Bandit Castle',1102);
 INSERT INTO `points_of_interest` (`name`,`weenie_Class_Id`) VALUES ('Beach Fort',30395);
-/*
 INSERT INTO `points_of_interest` (`name`,`weenie_Class_Id`) VALUES ('Bluespire',42825);
 INSERT INTO `points_of_interest` (`name`,`weenie_Class_Id`) VALUES ('Cragstone',42818);
 INSERT INTO `points_of_interest` (`name`,`weenie_Class_Id`) VALUES ('Dryreach',42813);
@@ -52,14 +48,23 @@ INSERT INTO `points_of_interest` (`name`,`weenie_Class_Id`) VALUES ('Timaru',430
 INSERT INTO `points_of_interest` (`name`,`weenie_Class_Id`) VALUES ('Tou-Tou',42841);
 INSERT INTO `points_of_interest` (`name`,`weenie_Class_Id`) VALUES ('Town Network',43065);
 INSERT INTO `points_of_interest` (`name`,`weenie_Class_Id`) VALUES ('Tufa',42829);
-*/
 INSERT INTO `points_of_interest` (`name`,`weenie_Class_Id`) VALUES ('Underground',1099);
-/*
 INSERT INTO `points_of_interest` (`name`,`weenie_Class_Id`) VALUES ('Uziz',42821);
 INSERT INTO `points_of_interest` (`name`,`weenie_Class_Id`) VALUES ('Westwatch',42837);
 INSERT INTO `points_of_interest` (`name`,`weenie_Class_Id`) VALUES ('Xarabydun',42832);
 INSERT INTO `points_of_interest` (`name`,`weenie_Class_Id`) VALUES ('Yanshi',42847);
 INSERT INTO `points_of_interest` (`name`,`weenie_Class_Id`) VALUES ('Yaraq',42824);
 INSERT INTO `points_of_interest` (`name`,`weenie_Class_Id`) VALUES ('Zaikhal',42831);
-*/
 INSERT INTO `points_of_interest` (`name`,`weenie_Class_Id`) VALUES ('Marketplace',23032);
+
+INSERT INTO `points_of_interest` (`name`,`weenie_Class_Id`) VALUES ('Hotel',6827);
+INSERT INTO `points_of_interest` (`name`,`weenie_Class_Id`) VALUES ('Swank',6827);
+INSERT INTO `points_of_interest` (`name`,`weenie_Class_Id`) VALUES ('HotelSwank',6827);
+INSERT INTO `points_of_interest` (`name`,`weenie_Class_Id`) VALUES ('Hotel Swank',6827);
+INSERT INTO `points_of_interest` (`name`,`weenie_Class_Id`) VALUES ('Town Network',43065);
+INSERT INTO `points_of_interest` (`name`,`weenie_Class_Id`) VALUES ('TownNetwork',43065);
+INSERT INTO `points_of_interest` (`name`,`weenie_Class_Id`) VALUES ('TN',43065);
+INSERT INTO `points_of_interest` (`name`,`weenie_Class_Id`) VALUES ('Storage',6844);
+
+INSERT INTO `points_of_interest` (`name`,`weenie_Class_Id`) VALUES ('NightClub',5590);
+INSERT INTO `points_of_interest` (`name`,`weenie_Class_Id`) VALUES ('Night Club',5590);
