@@ -61,7 +61,6 @@ INSERT INTO `points_of_interest` (`name`,`weenie_Class_Id`) VALUES ('Hotel',6827
 INSERT INTO `points_of_interest` (`name`,`weenie_Class_Id`) VALUES ('Swank',6827);
 INSERT INTO `points_of_interest` (`name`,`weenie_Class_Id`) VALUES ('HotelSwank',6827);
 INSERT INTO `points_of_interest` (`name`,`weenie_Class_Id`) VALUES ('Hotel Swank',6827);
-INSERT INTO `points_of_interest` (`name`,`weenie_Class_Id`) VALUES ('Town Network',43065);
 INSERT INTO `points_of_interest` (`name`,`weenie_Class_Id`) VALUES ('TownNetwork',43065);
 INSERT INTO `points_of_interest` (`name`,`weenie_Class_Id`) VALUES ('TN',43065);
 INSERT INTO `points_of_interest` (`name`,`weenie_Class_Id`) VALUES ('Storage',6844);
