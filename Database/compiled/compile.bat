@@ -78,8 +78,8 @@ echo This will not take long.
 copy /b ACE-World-CE16PY.sql + "..\3-Core\B GameEventDefDB\SQL\*.sql" ACE-World-CE16PY.sql 1>NUL
 echo. >> ACE-World-CE16PY.sql
 
-echo /*!40014 SET FOREIGN_KEY_CHECKS=@OLD_SQL_SAFE_UPDATES */; >> ACE-World-CE16PY.sql
-echo /*!40014 SET FOREIGN_KEY_CHECKS=@OLD_UNIQUE_CHECKS */; >> ACE-World-CE16PY.sql
+echo /*!40014 SET SQL_SAFE_UPDATES=@OLD_SQL_SAFE_UPDATES */; >> ACE-World-CE16PY.sql
+echo /*!40014 SET UNIQUE_CHECKS=@OLD_UNIQUE_CHECKS */; >> ACE-World-CE16PY.sql
 echo /*!40014 SET FOREIGN_KEY_CHECKS=@OLD_FOREIGN_KEY_CHECKS */; >> ACE-World-CE16PY.sql
 echo. >> ACE-World-CE16PY.sql
 
