@@ -83,9 +83,4 @@ echo /*!40014 SET FOREIGN_KEY_CHECKS=@OLD_UNIQUE_CHECKS */; >> ACE-World-CE16PY.
 echo /*!40014 SET FOREIGN_KEY_CHECKS=@OLD_FOREIGN_KEY_CHECKS */; >> ACE-World-CE16PY.sql
 echo. >> ACE-World-CE16PY.sql
 
-copy /b ACE-World-CE16PY.sql + ..\3-Core\000-PrepDatabase.sql ACE-World-CE16PY.sql
-echo. >> ACE-World-CE16PY.sql
-
-copy /b ACE-World-CE16PY.sql + ..\4-CoreUpdates\*.sql ACE-World-CE16PY.sql
-echo. >> ACE-World-CE16PY.sql
 @echo on
