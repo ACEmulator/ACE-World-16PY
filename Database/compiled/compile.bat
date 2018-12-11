@@ -1,5 +1,5 @@
 @echo off
-del *.sql
+IF EXIST *.sql DEL *.sql
 echo DROP DATABASE IF EXISTS `ace_world`; >> ACE-World-CE16PY.sql
 echo. >> ACE-World-CE16PY.sql
 copy /b ACE-World-CE16PY.sql + ..\1-Base\*.sql ACE-World-CE16PY.sql
