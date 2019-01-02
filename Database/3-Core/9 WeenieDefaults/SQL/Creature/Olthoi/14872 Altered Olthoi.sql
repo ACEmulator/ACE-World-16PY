@@ -17,7 +17,7 @@ VALUES (14872,   1,         16) /* ItemType - Creature */
      , (14872,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (14872, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (14872, 140,          1) /* AiOptions */
-     , (14872, 146,      25746) /* XpOverride */;
+     , (14872, 146,      35746) /* XpOverride  -- increased by 10K on 2 Jan 2019*/;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (14872,   1, True ) /* Stuck */
