@@ -1,2 +1,2 @@
 INSERT INTO `spell` (`id`, `name`, `stat_Mod_Type`, `stat_Mod_Key`, `stat_Mod_Val`)
-VALUES (900, 'Leadership Mastery Self III', 36880 /* Skill, SingleStat, Additive */, 35, 20);
+VALUES (900, 'Leadership Mastery Self III', 36880 /* Skill, SingleStat, Additive */, 35 /* Leadership */, 20);

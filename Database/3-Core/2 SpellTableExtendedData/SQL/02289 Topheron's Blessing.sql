@@ -1,2 +1,2 @@
 INSERT INTO `spell` (`id`, `name`, `stat_Mod_Type`, `stat_Mod_Key`, `stat_Mod_Val`)
-VALUES (2289, 'Topheron''s Blessing', 36880 /* Skill, SingleStat, Additive */, 27, 40);
+VALUES (2289, 'Topheron''s Blessing', 36880 /* Skill, SingleStat, Additive */, 27 /* AssessCreature */, 40);

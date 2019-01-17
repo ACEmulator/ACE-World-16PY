@@ -1,2 +1,2 @@
 INSERT INTO `spell` (`id`, `name`, `stat_Mod_Type`, `stat_Mod_Key`, `stat_Mod_Val`)
-VALUES (799, 'Monster Attunement Self II', 36880 /* Skill, SingleStat, Additive */, 27, 15);
+VALUES (799, 'Monster Attunement Self II', 36880 /* Skill, SingleStat, Additive */, 27 /* AssessCreature */, 15);

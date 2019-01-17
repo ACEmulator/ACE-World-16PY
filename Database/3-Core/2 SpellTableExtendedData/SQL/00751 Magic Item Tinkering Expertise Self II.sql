@@ -1,2 +1,2 @@
 INSERT INTO `spell` (`id`, `name`, `stat_Mod_Type`, `stat_Mod_Key`, `stat_Mod_Val`)
-VALUES (751, 'Magic Item Tinkering Expertise Self II', 36880 /* Skill, SingleStat, Additive */, 30, 15);
+VALUES (751, 'Magic Item Tinkering Expertise Self II', 36880 /* Skill, SingleStat, Additive */, 30 /* MagicItemTinkering */, 15);

@@ -1,2 +1,2 @@
 INSERT INTO `spell` (`id`, `name`, `stat_Mod_Type`, `stat_Mod_Key`, `stat_Mod_Val`)
-VALUES (1430, 'Focus Other IV', 36865 /* Attribute, SingleStat, Additive */, 5, 25);
+VALUES (1430, 'Focus Other IV', 36865 /* Attribute, SingleStat, Additive */, 5 /* Focus */, 25);

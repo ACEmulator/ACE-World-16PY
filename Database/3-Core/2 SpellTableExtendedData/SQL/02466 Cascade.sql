@@ -1,2 +1,2 @@
 INSERT INTO `spell` (`id`, `name`, `stat_Mod_Type`, `stat_Mod_Key`, `stat_Mod_Val`)
-VALUES (2466, 'Cascade', 36880 /* Skill, SingleStat, Additive */, 9, 8);
+VALUES (2466, 'Cascade', 36880 /* Skill, SingleStat, Additive */, 9 /* Spear */, 8);

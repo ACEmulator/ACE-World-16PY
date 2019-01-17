@@ -1,2 +1,2 @@
 INSERT INTO `spell` (`id`, `name`, `stat_Mod_Type`, `stat_Mod_Key`, `stat_Mod_Val`)
-VALUES (2684, 'Feeble Thrown Aptitude', 36880 /* Skill, SingleStat, Additive */, 12, 3);
+VALUES (2684, 'Feeble Thrown Aptitude', 36880 /* Skill, SingleStat, Additive */, 12 /* ThrownWeapon */, 3);

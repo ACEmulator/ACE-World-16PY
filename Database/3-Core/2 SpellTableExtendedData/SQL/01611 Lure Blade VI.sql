@@ -1,2 +1,2 @@
 INSERT INTO `spell` (`id`, `name`, `stat_Mod_Type`, `stat_Mod_Key`, `stat_Mod_Val`)
-VALUES (1611, 'Lure Blade VI', 36872 /* Float, SingleStat, Additive */, 29, -0.15);
+VALUES (1611, 'Lure Blade VI', 36872 /* Float, SingleStat, Additive */, 29 /* WeaponDefense */, -0.15);

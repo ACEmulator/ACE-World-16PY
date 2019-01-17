@@ -1,2 +1,2 @@
 INSERT INTO `spell` (`id`, `name`, `stat_Mod_Type`, `stat_Mod_Key`, `stat_Mod_Val`)
-VALUES (2097, 'Pacification', 36868 /* Int, SingleStat, Additive */, 44, -22);
+VALUES (2097, 'Pacification', 36868 /* Int, SingleStat, Additive */, 44 /* Damage */, -22);

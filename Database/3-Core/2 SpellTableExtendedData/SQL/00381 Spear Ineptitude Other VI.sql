@@ -1,2 +1,2 @@
 INSERT INTO `spell` (`id`, `name`, `stat_Mod_Type`, `stat_Mod_Key`, `stat_Mod_Val`)
-VALUES (381, 'Spear Ineptitude Other VI', 36880 /* Skill, SingleStat, Additive */, 9, -35);
+VALUES (381, 'Spear Ineptitude Other VI', 36880 /* Skill, SingleStat, Additive */, 9 /* Spear */, -35);

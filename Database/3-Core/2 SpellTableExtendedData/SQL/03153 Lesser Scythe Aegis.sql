@@ -1,2 +1,2 @@
 INSERT INTO `spell` (`id`, `name`, `stat_Mod_Type`, `stat_Mod_Key`, `stat_Mod_Val`)
-VALUES (3153, 'Lesser Scythe Aegis', 20488 /* Float, SingleStat, Multiplicative */, 64, 0.55);
+VALUES (3153, 'Lesser Scythe Aegis', 20488 /* Float, SingleStat, Multiplicative */, 64 /* ResistSlash */, 0.55);

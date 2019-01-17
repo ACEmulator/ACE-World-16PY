@@ -1,2 +1,2 @@
 INSERT INTO `spell` (`id`, `name`, `stat_Mod_Type`, `stat_Mod_Key`, `stat_Mod_Val`)
-VALUES (2612, 'Major Frost Ward', 20488 /* Float, SingleStat, Multiplicative */, 68, 0.85);
+VALUES (2612, 'Major Frost Ward', 20488 /* Float, SingleStat, Multiplicative */, 68 /* ResistCold */, 0.85);

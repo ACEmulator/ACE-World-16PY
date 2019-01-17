@@ -1,2 +1,2 @@
 INSERT INTO `spell` (`id`, `name`, `stat_Mod_Type`, `stat_Mod_Key`, `stat_Mod_Val`)
-VALUES (3007, 'Uncanny Dodge', 20496 /* Skill, SingleStat, Multiplicative */, 6, 1.01);
+VALUES (3007, 'Uncanny Dodge', 20496 /* Skill, SingleStat, Multiplicative */, 6 /* MeleeDefense */, 1.01);

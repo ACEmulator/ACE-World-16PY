@@ -1,2 +1,2 @@
 INSERT INTO `spell` (`id`, `name`, `stat_Mod_Type`, `stat_Mod_Key`, `stat_Mod_Val`)
-VALUES (3647, 'Staffer''s Boon', 36880 /* Skill, SingleStat, Additive */, 10, 2);
+VALUES (3647, 'Staffer''s Boon', 36880 /* Skill, SingleStat, Additive */, 10 /* Staff */, 2);

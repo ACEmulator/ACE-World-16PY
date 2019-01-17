@@ -1,2 +1,2 @@
 INSERT INTO `spell` (`id`, `name`, `stat_Mod_Type`, `stat_Mod_Key`, `stat_Mod_Val`)
-VALUES (2537, 'Minor Arcane Prowess', 36880 /* Skill, SingleStat, Additive */, 14, 5);
+VALUES (2537, 'Minor Arcane Prowess', 36880 /* Skill, SingleStat, Additive */, 14 /* ArcaneLore */, 5);

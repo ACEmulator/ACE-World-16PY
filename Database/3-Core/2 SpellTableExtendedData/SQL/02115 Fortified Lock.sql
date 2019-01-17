@@ -1,2 +1,2 @@
 INSERT INTO `spell` (`id`, `name`, `stat_Mod_Type`, `stat_Mod_Key`, `stat_Mod_Val`)
-VALUES (2115, 'Fortified Lock', 36868 /* Int, SingleStat, Additive */, 38, 200);
+VALUES (2115, 'Fortified Lock', 36868 /* Int, SingleStat, Additive */, 38 /* ResistLockpick */, 200);

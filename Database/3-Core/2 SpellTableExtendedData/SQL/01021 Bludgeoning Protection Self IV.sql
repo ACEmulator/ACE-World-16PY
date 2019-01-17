@@ -1,2 +1,2 @@
 INSERT INTO `spell` (`id`, `name`, `stat_Mod_Type`, `stat_Mod_Key`, `stat_Mod_Val`)
-VALUES (1021, 'Bludgeoning Protection Self IV', 20488 /* Float, SingleStat, Multiplicative */, 66, 0.57);
+VALUES (1021, 'Bludgeoning Protection Self IV', 20488 /* Float, SingleStat, Multiplicative */, 66 /* ResistBludgeon */, 0.57);

@@ -1,2 +1,2 @@
 INSERT INTO `spell` (`id`, `name`, `stat_Mod_Type`, `stat_Mod_Key`, `stat_Mod_Val`)
-VALUES (2412, 'Enduring Coordination', 36865 /* Attribute, SingleStat, Additive */, 4, 35);
+VALUES (2412, 'Enduring Coordination', 36865 /* Attribute, SingleStat, Additive */, 4 /* Coordination */, 35);

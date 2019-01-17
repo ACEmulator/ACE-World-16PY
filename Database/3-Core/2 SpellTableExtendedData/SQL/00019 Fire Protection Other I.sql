@@ -1,2 +1,2 @@
 INSERT INTO `spell` (`id`, `name`, `stat_Mod_Type`, `stat_Mod_Key`, `stat_Mod_Val`)
-VALUES (19, 'Fire Protection Other I', 20488 /* Float, SingleStat, Multiplicative */, 67, 0.91);
+VALUES (19, 'Fire Protection Other I', 20488 /* Float, SingleStat, Multiplicative */, 67 /* ResistFire */, 0.91);
