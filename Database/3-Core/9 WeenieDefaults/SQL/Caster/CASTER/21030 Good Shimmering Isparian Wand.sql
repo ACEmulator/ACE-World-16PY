@@ -21,7 +21,7 @@ VALUES (21030,   1,      32768) /* ItemType - Caster */
      , (21030, 150,        103) /* HookPlacement - Hook */
      , (21030, 151,          2) /* HookType - Wall */
      , (21030, 158,          7) /* WieldRequirements - Level */
-     , (21030, 159,          1) /* WieldSkilltype - Axe */
+     , (21030, 159,          1) /* WieldSkillType - Axe */
      , (21030, 160,         30) /* WieldDifficulty */
      , (21030, 166,         62) /* SlayerCreatureType - Elemental */;
 

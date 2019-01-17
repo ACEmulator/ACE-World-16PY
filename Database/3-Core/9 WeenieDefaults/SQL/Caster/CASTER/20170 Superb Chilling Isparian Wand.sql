@@ -22,7 +22,7 @@ VALUES (20170,   1,      32768) /* ItemType - Caster */
      , (20170, 150,        103) /* HookPlacement - Hook */
      , (20170, 151,          2) /* HookType - Wall */
      , (20170, 158,          7) /* WieldRequirements - Level */
-     , (20170, 159,          1) /* WieldSkilltype - Axe */
+     , (20170, 159,          1) /* WieldSkillType - Axe */
      , (20170, 160,         40) /* WieldDifficulty */
      , (20170, 166,         38) /* SlayerCreatureType - FireElemental */;
 

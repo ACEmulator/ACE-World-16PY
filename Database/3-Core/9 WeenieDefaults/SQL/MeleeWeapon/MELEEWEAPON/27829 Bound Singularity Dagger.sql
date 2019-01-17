@@ -25,7 +25,7 @@ VALUES (27829,   1,          1) /* ItemType - MeleeWeapon */
      , (27829, 109,        200) /* ItemDifficulty */
      , (27829, 114,          1) /* Attuned - Attuned */
      , (27829, 158,          2) /* WieldRequirements - RawSkill */
-     , (27829, 159,          4) /* WieldSkilltype - Dagger */
+     , (27829, 159,          4) /* WieldSkillType - Dagger */
      , (27829, 160,        250) /* WieldDifficulty */
      , (27829, 166,         19) /* SlayerCreatureType - Virindi */;
 

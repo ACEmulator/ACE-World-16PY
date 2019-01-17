@@ -27,7 +27,7 @@ VALUES (19967,   1,          1) /* ItemType - MeleeWeapon */
      , (19967, 150,        103) /* HookPlacement - Hook */
      , (19967, 151,          2) /* HookType - Wall */
      , (19967, 158,          7) /* WieldRequirements - Level */
-     , (19967, 159,          1) /* WieldSkilltype - Axe */
+     , (19967, 159,          1) /* WieldSkillType - Axe */
      , (19967, 160,         20) /* WieldDifficulty */
      , (19967, 166,         42) /* SlayerCreatureType - LightningElemental */;
 

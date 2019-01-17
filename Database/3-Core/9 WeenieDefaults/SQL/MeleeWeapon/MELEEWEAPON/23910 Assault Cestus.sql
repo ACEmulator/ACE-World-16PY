@@ -26,7 +26,7 @@ VALUES (23910,   1,          1) /* ItemType - MeleeWeapon */
      , (23910, 150,        103) /* HookPlacement - Hook */
      , (23910, 151,          2) /* HookType - Wall */
      , (23910, 158,          7) /* WieldRequirements - Level */
-     , (23910, 159,          1) /* WieldSkilltype - Axe */
+     , (23910, 159,          1) /* WieldSkillType - Axe */
      , (23910, 160,         30) /* WieldDifficulty */
      , (23910, 166,          6) /* SlayerCreatureType - Tumerok */;
 

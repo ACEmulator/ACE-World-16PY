@@ -19,7 +19,7 @@ VALUES (24629,   1,          2) /* ItemType - Armor */
      , (24629, 150,        103) /* HookPlacement - Hook */
      , (24629, 151,          1) /* HookType - Floor */
      , (24629, 158,          7) /* WieldRequirements - Level */
-     , (24629, 159,          1) /* WieldSkilltype - Axe */
+     , (24629, 159,          1) /* WieldSkillType - Axe */
      , (24629, 160,         60) /* WieldDifficulty */
      , (24629, 169,  185204996) /* TsysMutationData */;
 

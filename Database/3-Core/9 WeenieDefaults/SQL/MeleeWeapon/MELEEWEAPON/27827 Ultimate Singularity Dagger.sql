@@ -27,7 +27,7 @@ VALUES (27827,   1,          1) /* ItemType - MeleeWeapon */
      , (27827, 150,        103) /* HookPlacement - Hook */
      , (27827, 151,          2) /* HookType - Wall */
      , (27827, 158,          2) /* WieldRequirements - RawSkill */
-     , (27827, 159,          4) /* WieldSkilltype - Dagger */
+     , (27827, 159,          4) /* WieldSkillType - Dagger */
      , (27827, 160,        325) /* WieldDifficulty */
      , (27827, 166,         19) /* SlayerCreatureType - Virindi */;
 

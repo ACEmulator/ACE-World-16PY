@@ -21,7 +21,7 @@ VALUES (28067,   1,          1) /* ItemType - MeleeWeapon */
      , (28067,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (28067, 114,          1) /* Attuned - Attuned */
      , (28067, 158,          2) /* WieldRequirements - RawSkill */
-     , (28067, 159,         11) /* WieldSkilltype - Sword */
+     , (28067, 159,         11) /* WieldSkillType - Sword */
      , (28067, 160,        325) /* WieldDifficulty */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)

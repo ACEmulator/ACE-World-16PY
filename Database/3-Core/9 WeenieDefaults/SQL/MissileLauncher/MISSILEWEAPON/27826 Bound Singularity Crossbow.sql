@@ -27,7 +27,7 @@ VALUES (27826,   1,        256) /* ItemType - MissileWeapon */
      , (27826, 109,        200) /* ItemDifficulty */
      , (27826, 114,          1) /* Attuned - Attuned */
      , (27826, 158,          2) /* WieldRequirements - RawSkill */
-     , (27826, 159,          3) /* WieldSkilltype - Crossbow */
+     , (27826, 159,          3) /* WieldSkillType - Crossbow */
      , (27826, 160,        250) /* WieldDifficulty */
      , (27826, 166,         19) /* SlayerCreatureType - Virindi */;
 

@@ -18,7 +18,7 @@ VALUES (24370,   1,          4) /* ItemType - Clothing */
      , (24370, 108,        800) /* ItemMaxMana */
      , (24370, 109,         80) /* ItemDifficulty */
      , (24370, 158,          7) /* WieldRequirements - Level */
-     , (24370, 159,          1) /* WieldSkilltype - Axe */
+     , (24370, 159,          1) /* WieldSkillType - Axe */
      , (24370, 160,         20) /* WieldDifficulty */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)

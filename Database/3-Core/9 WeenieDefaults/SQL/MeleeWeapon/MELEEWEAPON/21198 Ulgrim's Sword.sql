@@ -18,7 +18,7 @@ VALUES (21198,   1,          1) /* ItemType - MeleeWeapon */
      , (21198,  51,          1) /* CombatUse - Melee */
      , (21198,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (21198, 158,          3) /* WieldRequirements - Attrib */
-     , (21198, 159,          1) /* WieldSkilltype - Axe */
+     , (21198, 159,          1) /* WieldSkillType - Axe */
      , (21198, 160,       2000) /* WieldDifficulty */
      , (21198, 171,         20) /* NumTimesTinkered */
      , (21198, 179,          7) /* ImbuedEffect - CriticalStrike, CripplingBlow, ArmorRending */;

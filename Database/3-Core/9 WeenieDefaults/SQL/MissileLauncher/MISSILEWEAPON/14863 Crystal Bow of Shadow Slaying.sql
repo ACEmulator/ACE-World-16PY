@@ -28,7 +28,7 @@ VALUES (14863,   1,        256) /* ItemType - MissileWeapon */
      , (14863, 114,          1) /* Attuned - Attuned */
      , (14863, 115,        270) /* ItemSkillLevelLimit */
      , (14863, 158,          1) /* WieldRequirements - Skill */
-     , (14863, 159,          2) /* WieldSkilltype - Bow */
+     , (14863, 159,          2) /* WieldSkillType - Bow */
      , (14863, 160,        200) /* WieldDifficulty */
      , (14863, 166,         22) /* SlayerCreatureType - Shadow */;
 

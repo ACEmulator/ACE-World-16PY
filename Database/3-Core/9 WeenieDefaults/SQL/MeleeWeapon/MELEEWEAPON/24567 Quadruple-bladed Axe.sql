@@ -24,7 +24,7 @@ VALUES (24567,   1,          1) /* ItemType - MeleeWeapon */
      , (24567, 150,        103) /* HookPlacement - Hook */
      , (24567, 151,          2) /* HookType - Wall */
      , (24567, 158,          2) /* WieldRequirements - RawSkill */
-     , (24567, 159,          1) /* WieldSkilltype - Axe */
+     , (24567, 159,          1) /* WieldSkillType - Axe */
      , (24567, 160,        325) /* WieldDifficulty */
      , (24567, 169,  101189386) /* TsysMutationData */;
 

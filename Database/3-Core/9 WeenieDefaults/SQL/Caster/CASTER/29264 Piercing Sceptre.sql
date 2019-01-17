@@ -17,7 +17,7 @@ VALUES (29264,   1,      32768) /* ItemType - Caster */
      , (29264, 150,        103) /* HookPlacement - Hook */
      , (29264, 151,          2) /* HookType - Wall */
      , (29264, 158,          2) /* WieldRequirements - RawSkill */
-     , (29264, 159,         34) /* WieldSkilltype - WarMagic */
+     , (29264, 159,         34) /* WieldSkillType - WarMagic */
      , (29264, 160,        290) /* WieldDifficulty */
      , (29264, 169,   84084483) /* TsysMutationData */;
 

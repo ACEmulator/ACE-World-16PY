@@ -15,7 +15,7 @@ VALUES (14843,   1,          2) /* ItemType - Armor */
      , (14843,  33,          1) /* Bonded - Bonded */
      , (14843,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (14843, 158,          7) /* WieldRequirements - Level */
-     , (14843, 159,          1) /* WieldSkilltype - Axe */
+     , (14843, 159,          1) /* WieldSkillType - Axe */
      , (14843, 160,         30) /* WieldDifficulty */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)

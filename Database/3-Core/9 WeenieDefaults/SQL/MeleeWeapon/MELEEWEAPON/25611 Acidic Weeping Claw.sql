@@ -28,7 +28,7 @@ VALUES (25611,   1,          1) /* ItemType - MeleeWeapon */
      , (25611, 150,        103) /* HookPlacement - Hook */
      , (25611, 151,          2) /* HookType - Wall */
      , (25611, 158,          2) /* WieldRequirements - RawSkill */
-     , (25611, 159,         13) /* WieldSkilltype - UnarmedCombat */
+     , (25611, 159,         13) /* WieldSkillType - UnarmedCombat */
      , (25611, 160,        325) /* WieldDifficulty */
      , (25611, 166,         31) /* SlayerCreatureType - Human */;
 

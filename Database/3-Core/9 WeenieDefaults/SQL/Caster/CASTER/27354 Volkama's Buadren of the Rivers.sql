@@ -21,7 +21,7 @@ VALUES (27354,   1,      32768) /* ItemType - Caster */
      , (27354, 150,        103) /* HookPlacement - Hook */
      , (27354, 151,          2) /* HookType - Wall */
      , (27354, 158,          2) /* WieldRequirements - RawSkill */
-     , (27354, 159,         16) /* WieldSkilltype - ManaConversion */
+     , (27354, 159,         16) /* WieldSkillType - ManaConversion */
      , (27354, 160,        165) /* WieldDifficulty */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)

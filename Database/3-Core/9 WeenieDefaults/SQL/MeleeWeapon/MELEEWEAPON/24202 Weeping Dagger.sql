@@ -27,7 +27,7 @@ VALUES (24202,   1,          1) /* ItemType - MeleeWeapon */
      , (24202, 150,        103) /* HookPlacement - Hook */
      , (24202, 151,          2) /* HookType - Wall */
      , (24202, 158,          2) /* WieldRequirements - RawSkill */
-     , (24202, 159,          4) /* WieldSkilltype - Dagger */
+     , (24202, 159,          4) /* WieldSkillType - Dagger */
      , (24202, 160,        325) /* WieldDifficulty */
      , (24202, 166,         31) /* SlayerCreatureType - Human */;
 

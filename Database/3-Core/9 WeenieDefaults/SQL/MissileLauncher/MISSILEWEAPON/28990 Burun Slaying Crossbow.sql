@@ -26,7 +26,7 @@ VALUES (28990,   1,        256) /* ItemType - MissileWeapon */
      , (28990, 150,        103) /* HookPlacement - Hook */
      , (28990, 151,          2) /* HookType - Wall */
      , (28990, 158,          1) /* WieldRequirements - Skill */
-     , (28990, 159,          3) /* WieldSkilltype - Crossbow */
+     , (28990, 159,          3) /* WieldSkillType - Crossbow */
      , (28990, 160,        290) /* WieldDifficulty */
      , (28990, 166,         75) /* SlayerCreatureType - Burun */;
 

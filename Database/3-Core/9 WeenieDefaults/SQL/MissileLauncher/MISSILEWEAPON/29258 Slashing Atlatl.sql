@@ -22,7 +22,7 @@ VALUES (29258,   1,        256) /* ItemType - MissileWeapon */
      , (29258, 150,        103) /* HookPlacement - Hook */
      , (29258, 151,          2) /* HookType - Wall */
      , (29258, 158,          2) /* WieldRequirements - RawSkill */
-     , (29258, 159,         12) /* WieldSkilltype - ThrownWeapon */
+     , (29258, 159,         12) /* WieldSkillType - ThrownWeapon */
      , (29258, 160,        315) /* WieldDifficulty */
      , (29258, 169,  101189386) /* TsysMutationData */
      , (29258, 204,          0) /* ElementalDamageBonus */;

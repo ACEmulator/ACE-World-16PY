@@ -23,7 +23,7 @@ VALUES (21356,   1,          1) /* ItemType - MeleeWeapon */
      , (21356, 150,        103) /* HookPlacement - Hook */
      , (21356, 151,          2) /* HookType - Wall */
      , (21356, 158,          2) /* WieldRequirements - RawSkill */
-     , (21356, 159,          5) /* WieldSkilltype - Mace */
+     , (21356, 159,          5) /* WieldSkillType - Mace */
      , (21356, 160,        275) /* WieldDifficulty */
      , (21356, 179, -2147483648) /* ImbuedEffect - IgnoreAllArmor */;
 

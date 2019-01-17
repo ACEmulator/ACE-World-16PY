@@ -23,7 +23,7 @@ VALUES (20227,   1,          1) /* ItemType - MeleeWeapon */
      , (20227, 150,        103) /* HookPlacement - Hook */
      , (20227, 151,          2) /* HookType - Wall */
      , (20227, 158,         11) /* WieldRequirements - CreatureType */
-     , (20227, 159,          0) /* WieldSkilltype - None */
+     , (20227, 159,          0) /* WieldSkillType - None */
      , (20227, 160,         51) /* WieldDifficulty */
      , (20227, 166,         31) /* SlayerCreatureType - Human */
      , (20227, 179,          4) /* ImbuedEffect - ArmorRending */;

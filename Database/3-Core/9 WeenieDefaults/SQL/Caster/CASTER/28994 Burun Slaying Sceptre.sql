@@ -20,7 +20,7 @@ VALUES (28994,   1,      32768) /* ItemType - Caster */
      , (28994, 150,        103) /* HookPlacement - Hook */
      , (28994, 151,          2) /* HookType - Wall */
      , (28994, 158,          2) /* WieldRequirements - RawSkill */
-     , (28994, 159,         16) /* WieldSkilltype - ManaConversion */
+     , (28994, 159,         16) /* WieldSkillType - ManaConversion */
      , (28994, 160,        240) /* WieldDifficulty */
      , (28994, 166,         75) /* SlayerCreatureType - Burun */;
 

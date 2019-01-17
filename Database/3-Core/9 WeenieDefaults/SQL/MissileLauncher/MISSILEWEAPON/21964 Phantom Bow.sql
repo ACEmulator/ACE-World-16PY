@@ -25,7 +25,7 @@ VALUES (21964,   1,        256) /* ItemType - MissileWeapon */
      , (21964, 150,        103) /* HookPlacement - Hook */
      , (21964, 151,          2) /* HookType - Wall */
      , (21964, 158,          2) /* WieldRequirements - RawSkill */
-     , (21964, 159,          2) /* WieldSkilltype - Bow */
+     , (21964, 159,          2) /* WieldSkillType - Bow */
      , (21964, 160,        250) /* WieldDifficulty */
      , (21964, 179, -2147483648) /* ImbuedEffect - IgnoreAllArmor */;
 

@@ -17,7 +17,7 @@ VALUES (24619,   1,          2) /* ItemType - Armor */
      , (24619,  45,          4) /* DamageType - Bludgeon */
      , (24619,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (24619, 158,          7) /* WieldRequirements - Level */
-     , (24619, 159,          1) /* WieldSkilltype - Axe */
+     , (24619, 159,          1) /* WieldSkillType - Axe */
      , (24619, 160,         60) /* WieldDifficulty */
      , (24619, 169,  151651588) /* TsysMutationData */;
 

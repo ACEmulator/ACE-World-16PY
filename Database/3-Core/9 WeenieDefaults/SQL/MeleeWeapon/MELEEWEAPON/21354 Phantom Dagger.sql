@@ -23,7 +23,7 @@ VALUES (21354,   1,          1) /* ItemType - MeleeWeapon */
      , (21354, 150,        103) /* HookPlacement - Hook */
      , (21354, 151,          2) /* HookType - Wall */
      , (21354, 158,          2) /* WieldRequirements - RawSkill */
-     , (21354, 159,          4) /* WieldSkilltype - Dagger */
+     , (21354, 159,          4) /* WieldSkillType - Dagger */
      , (21354, 160,        275) /* WieldDifficulty */
      , (21354, 179, -2147483648) /* ImbuedEffect - IgnoreAllArmor */;
 

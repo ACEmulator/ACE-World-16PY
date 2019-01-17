@@ -27,7 +27,7 @@ VALUES (20053,   1,        256) /* ItemType - MissileWeapon */
      , (20053, 150,        103) /* HookPlacement - Hook */
      , (20053, 151,          2) /* HookType - Wall */
      , (20053, 158,          7) /* WieldRequirements - Level */
-     , (20053, 159,          1) /* WieldSkilltype - Axe */
+     , (20053, 159,          1) /* WieldSkillType - Axe */
      , (20053, 160,         20) /* WieldDifficulty */
      , (20053, 166,         38) /* SlayerCreatureType - FireElemental */;
 

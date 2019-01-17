@@ -25,7 +25,7 @@ VALUES (27844,   1,          1) /* ItemType - MeleeWeapon */
      , (27844, 109,        200) /* ItemDifficulty */
      , (27844, 114,          1) /* Attuned - Attuned */
      , (27844, 158,          2) /* WieldRequirements - RawSkill */
-     , (27844, 159,          9) /* WieldSkilltype - Spear */
+     , (27844, 159,          9) /* WieldSkillType - Spear */
      , (27844, 160,        250) /* WieldDifficulty */
      , (27844, 166,         19) /* SlayerCreatureType - Virindi */;
 

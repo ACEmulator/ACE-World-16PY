@@ -21,7 +21,7 @@ VALUES (21912,   1,      32768) /* ItemType - Caster */
      , (21912, 150,        103) /* HookPlacement - Hook */
      , (21912, 151,          2) /* HookType - Wall */
      , (21912, 158,          8) /* WieldRequirements - Training */
-     , (21912, 159,         34) /* WieldSkilltype - WarMagic */
+     , (21912, 159,         34) /* WieldSkillType - WarMagic */
      , (21912, 160,          2) /* WieldDifficulty */
      , (21912, 166,          1) /* SlayerCreatureType - Olthoi */;
 

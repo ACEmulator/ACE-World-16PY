@@ -25,7 +25,7 @@ VALUES (27817,   1,        256) /* ItemType - MissileWeapon */
      , (27817, 109,        200) /* ItemDifficulty */
      , (27817, 114,          1) /* Attuned - Attuned */
      , (27817, 158,          2) /* WieldRequirements - RawSkill */
-     , (27817, 159,         12) /* WieldSkilltype - ThrownWeapon */
+     , (27817, 159,         12) /* WieldSkillType - ThrownWeapon */
      , (27817, 160,        250) /* WieldDifficulty */
      , (27817, 166,         19) /* SlayerCreatureType - Virindi */;
 
