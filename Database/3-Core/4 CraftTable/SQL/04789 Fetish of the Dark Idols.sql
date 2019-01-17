@@ -9,13 +9,13 @@ VALUES (4789, True, 0, 0, 0, False, 939524166, 1, 0);
 
 SET @parent_id = LAST_INSERT_ID();
 
-INSERT INTO `recipe_mods_d_i_d` (`recipe_Mod_Id`, `stat`, `value`, `enum`, `unknown_1`)
+INSERT INTO `recipe_mods_d_i_d` (`recipe_Mod_Id`, `stat`, `value`, `enum`, `source`)
 VALUES (@parent_id,  50, 100675757, 1, 1) /* IconOverlay */;
 
-INSERT INTO `recipe_mods_float` (`recipe_Mod_Id`, `stat`, `value`, `enum`, `unknown_1`)
+INSERT INTO `recipe_mods_float` (`recipe_Mod_Id`, `stat`, `value`, `enum`, `source`)
 VALUES (@parent_id,  29, -0.1, 2, 1) /* WeaponDefense */;
 
-INSERT INTO `recipe_mods_string` (`recipe_Mod_Id`, `stat`, `value`, `enum`, `unknown_1`)
+INSERT INTO `recipe_mods_string` (`recipe_Mod_Id`, `stat`, `value`, `enum`, `source`)
 VALUES (@parent_id,   1, 'Dark Short Bow', 1, 1) /* Name */;
 
 INSERT INTO `cook_book` (`recipe_Id`, `source_W_C_I_D`, `target_W_C_I_D`)
