@@ -150,7 +150,7 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 268435538 /* Twitch2 */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (24291, 9,     0,  0, 0, 0.91, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 4 for ContainTreasure */
-     , (24291, 9,     0,  0, 0, 0.97, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 4 for ContainTreasure */
+VALUES (24291, 9,     0,  0, 0, 0.91, False) /* Create nothing for ContainTreasure */
+     , (24291, 9,     0,  0, 0, 0.97, False) /* Create nothing for ContainTreasure */
      , (24291, 9, 12253,  0, 0, 0.09, False) /* Create Monougat (12253) for ContainTreasure */
      , (24291, 9, 24845,  0, 0, 0.03, False) /* Create Merciless Monouga Idol (24845) for ContainTreasure */;

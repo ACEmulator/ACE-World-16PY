@@ -145,7 +145,7 @@ VALUES (8672,  94) /* ATTACK_NOTIFICATION_EVENT */
      , (8672, 414) /* PLAYER_DEATH_EVENT */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (8672, 9,     0,  0, 0, 0.97, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 2 for ContainTreasure */
-     , (8672, 9,     0,  0, 0, 0.97, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 2 for ContainTreasure */
+VALUES (8672, 9,     0,  0, 0, 0.97, False) /* Create nothing for ContainTreasure */
+     , (8672, 9,     0,  0, 0, 0.97, False) /* Create nothing for ContainTreasure */
      , (8672, 9,  5873,  0, 0, 0.03, False) /* Create Seal (5873) for ContainTreasure */
      , (8672, 9,  7041,  0, 0, 0.03, False) /* Create Undead Thighbone (7041) for ContainTreasure */;

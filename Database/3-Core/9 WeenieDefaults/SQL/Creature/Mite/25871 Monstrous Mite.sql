@@ -109,5 +109,5 @@ VALUES (25871,  94) /* ATTACK_NOTIFICATION_EVENT */
      , (25871, 414) /* PLAYER_DEATH_EVENT */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (25871, 9,     0,  0, 0, 0.97, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 6 for ContainTreasure */
+VALUES (25871, 9,     0,  0, 0, 0.97, False) /* Create nothing for ContainTreasure */
      , (25871, 9, 30823,  0, 0, 0.03, False) /* Create Broken Black Marrow Key (30823) for ContainTreasure */;

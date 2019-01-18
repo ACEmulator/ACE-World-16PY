@@ -441,5 +441,5 @@ VALUES (11501,  94) /* ATTACK_NOTIFICATION_EVENT */
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (11501, 2, 12193,  0, 86, 0, False) /* Create Dho Vest and Robe (12193) for Wield */
-     , (11501, 9,     0,  0, 0, 0.98, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 3 for ContainTreasure */
+     , (11501, 9,     0,  0, 0, 0.98, False) /* Create nothing for ContainTreasure */
      , (11501, 9,  6876,  0, 0, 0.02, False) /* Create Sturdy Iron Key (6876) for ContainTreasure */;

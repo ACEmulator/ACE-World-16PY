@@ -129,7 +129,7 @@ VALUES (8012,  94) /* ATTACK_NOTIFICATION_EVENT */
      , (8012, 414) /* PLAYER_DEATH_EVENT */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (8012, 9,     0,  0, 0, 0.98, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 3 for ContainTreasure */
-     , (8012, 9,     0,  0, 0, 0.96, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 3 for ContainTreasure */
+VALUES (8012, 9,     0,  0, 0, 0.98, False) /* Create nothing for ContainTreasure */
+     , (8012, 9,     0,  0, 0, 0.96, False) /* Create nothing for ContainTreasure */
      , (8012, 9,  6056,  0, 0, 0.02, False) /* Create Small Shard (6056) for ContainTreasure */
      , (8012, 9, 20860,  0, 0, 0.04, False) /* Create Herald Stamp (20860) for ContainTreasure */;

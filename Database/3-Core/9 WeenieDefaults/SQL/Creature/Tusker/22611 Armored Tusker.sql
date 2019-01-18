@@ -172,5 +172,5 @@ VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 268435538 /* Twitch2 */, NULL, N
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (22611, 1, 22419,  1, 0, 0, False) /* Create Armored Tusker Tusk (22419) for Contain */
-     , (22611, 9,     0,  0, 0, 0.99, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 4 for ContainTreasure */
+     , (22611, 9,     0,  0, 0, 0.99, False) /* Create nothing for ContainTreasure */
      , (22611, 9, 22578,  0, 0, 0.01, False) /* Create Bunch of Nanners (22578) for ContainTreasure */;

@@ -240,5 +240,5 @@ VALUES (26453, 2,   161,  0, 0, 0, False) /* Create Mug (161) for Wield */
      , (26453, 2,  2588,  0, 9, 1, False) /* Create Shirt (2588) for Wield */
      , (26453, 2,  2597,  0, 9, 1, False) /* Create Pants (2597) for Wield */
      , (26453, 2,  5850,  0, 4, 0.5, False) /* Create Faran Robe (5850) for Wield */
-     , (26453, 9,     0,  0, 0, 0.9, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 3 for ContainTreasure */
+     , (26453, 9,     0,  0, 0, 0.9, False) /* Create nothing for ContainTreasure */
      , (26453, 9, 26467,  0, 0, 0.1, False) /* Create Splinter of Wood (26467) for ContainTreasure */;

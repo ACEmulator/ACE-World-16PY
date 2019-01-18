@@ -184,5 +184,5 @@ VALUES (6018, 8,   303,  0, 0, 0.05, False) /* Create Hand Axe (303) for Treasur
      , (6018, 8,   357,  0, 0, 0.05, False) /* Create Tungi (357) for Treasure */
      , (6018, 8,   361,  0, 0, 0.05, False) /* Create Yaoji (361) for Treasure */
      , (6018, 8,   362,  0, 0, 0.05, False) /* Create Yari (362) for Treasure */
-     , (6018, 9,     0,  0, 0, 0.97, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 1 for ContainTreasure */
+     , (6018, 9,     0,  0, 0, 0.97, False) /* Create nothing for ContainTreasure */
      , (6018, 9,  7825,  0, 0, 0.03, False) /* Create Brown Beans (7825) for ContainTreasure */;

@@ -153,5 +153,5 @@ VALUES (19270,  94) /* ATTACK_NOTIFICATION_EVENT */
      , (19270, 414) /* PLAYER_DEATH_EVENT */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (19270, 9,     0,  0, 0, 0.95, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 5 for ContainTreasure */
+VALUES (19270, 9,     0,  0, 0, 0.95, False) /* Create nothing for ContainTreasure */
      , (19270, 9, 19250,  0, 0, 0.05, False) /* Create Bronze Nuts and Bolts from a Statue (19250) for ContainTreasure */;

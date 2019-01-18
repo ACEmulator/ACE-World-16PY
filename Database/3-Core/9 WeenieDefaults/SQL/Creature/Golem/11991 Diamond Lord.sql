@@ -148,11 +148,11 @@ VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 1090519043 /* Ready */, NULL, NU
      , (@parent_id,  1,   5 /* Motion */, 0, 1, 1090519060 /* Sleeping */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (11991, 9,     0,  0, 0, 0.25, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 4 for ContainTreasure */
-     , (11991, 9,     0,  0, 0, 0.5, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 4 for ContainTreasure */
-     , (11991, 9,     0,  0, 0, 0, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 4 for ContainTreasure */
-     , (11991, 9,     0,  0, 0, 0.7, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 4 for ContainTreasure */
-     , (11991, 9,     0,  0, 0, 0.8, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 4 for ContainTreasure */
+VALUES (11991, 9,     0,  0, 0, 0.25, False) /* Create nothing for ContainTreasure */
+     , (11991, 9,     0,  0, 0, 0.5, False) /* Create nothing for ContainTreasure */
+     , (11991, 9,     0,  0, 0, 0, False) /* Create nothing for ContainTreasure */
+     , (11991, 9,     0,  0, 0, 0.7, False) /* Create nothing for ContainTreasure */
+     , (11991, 9,     0,  0, 0, 0.8, False) /* Create nothing for ContainTreasure */
      , (11991, 9,  6353,  0, 0, 1, False) /* Create Pyreal Mote (6353) for ContainTreasure */
      , (11991, 9,  6876,  0, 0, 0.5, False) /* Create Sturdy Iron Key (6876) for ContainTreasure */
      , (11991, 9,  7338,  0, 0, 0.75, False) /* Create Diamond Heart (7338) for ContainTreasure */

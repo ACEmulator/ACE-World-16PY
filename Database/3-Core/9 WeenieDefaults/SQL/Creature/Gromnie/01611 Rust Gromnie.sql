@@ -139,7 +139,7 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 268435538 /* Twitch2 */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (1611, 9,     0,  0, 0, 0.95, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 1 for ContainTreasure */
-     , (1611, 9,     0,  0, 0, 0.95, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 1 for ContainTreasure */
+VALUES (1611, 9,     0,  0, 0, 0.95, False) /* Create nothing for ContainTreasure */
+     , (1611, 9,     0,  0, 0, 0.95, False) /* Create nothing for ContainTreasure */
      , (1611, 9, 28203,  0, 0, 0.05, False) /* Create Ruddy Gromnie Hide (28203) for ContainTreasure */
      , (1611, 9, 28209,  0, 0, 0.05, False) /* Create Rust Gromnie Tooth (28209) for ContainTreasure */;

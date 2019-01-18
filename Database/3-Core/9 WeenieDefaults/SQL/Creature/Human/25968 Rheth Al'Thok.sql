@@ -157,7 +157,7 @@ VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 1124073756 /* MeditateState */, 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (25968, 2, 12192,  0, 0, 1, False) /* Create Shadow's Garb (12192) for Wield */
      , (25968, 2, 12193,  0, 39, 1, False) /* Create Dho Vest and Robe (12193) for Wield */
-     , (25968, 9,     0,  0, 0, 0.98, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 3 for ContainTreasure */
+     , (25968, 9,     0,  0, 0, 0.98, False) /* Create nothing for ContainTreasure */
      , (25968, 9,  6876,  0, 0, 0.02, False) /* Create Sturdy Iron Key (6876) for ContainTreasure */
      , (25968, 9, 25958,  0, 0, 1, False) /* Create Woven Tassel of Sound Mind (25958) for ContainTreasure */
      , (25968, 9, 25958,  0, 0, 1, False) /* Create Woven Tassel of Sound Mind (25958) for ContainTreasure */

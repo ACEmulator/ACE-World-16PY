@@ -70,4 +70,4 @@ VALUES (28436, -1, 6876, 10, 1, 1, 2, 8, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Ge
      , (28436, -1, 24477, 10, 1, 1, 2, 8, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Sturdy Steel Key (24477) (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: Contain */
      , (28436, -1, 24477, 10, 1, 1, 2, 8, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Sturdy Steel Key (24477) (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: Contain */
      , (28436, -1, 24477, 10, 1, 1, 2, 8, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Sturdy Steel Key (24477) (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: Contain */
-     , (28436, -1, 341, 10, 1, 1, 2, 72, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate RANDOMLY GENERATED TREASURE from Loot Tier 5 (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: ContainTreasure */;
+     , (28436, -1, 341, 10, 1, 1, 2, 72, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate RANDOMLY GENERATED TREASURE from Loot Tier 5 from Death Treasure Table id: 341 (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: ContainTreasure */;

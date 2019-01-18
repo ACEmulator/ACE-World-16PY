@@ -150,9 +150,9 @@ VALUES (23089,  94) /* ATTACK_NOTIFICATION_EVENT */
      , (23089, 414) /* PLAYER_DEATH_EVENT */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (23089, 9,     0,  0, 0, 0.96, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 5 for ContainTreasure */
-     , (23089, 9,     0,  0, 0, 0.96, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 5 for ContainTreasure */
-     , (23089, 9,     0,  0, 0, 0.995, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 5 for ContainTreasure */
+VALUES (23089, 9,     0,  0, 0, 0.96, False) /* Create nothing for ContainTreasure */
+     , (23089, 9,     0,  0, 0, 0.96, False) /* Create nothing for ContainTreasure */
+     , (23089, 9,     0,  0, 0, 0.995, False) /* Create nothing for ContainTreasure */
      , (23089, 9,  6058,  0, 0, 0.04, False) /* Create Dark Shard (6058) for ContainTreasure */
      , (23089, 9,  6876,  0, 0, 0.04, False) /* Create Sturdy Iron Key (6876) for ContainTreasure */
      , (23089, 9, 27388,  0, 0, 0.005, False) /* Create Dark Towers (27388) for ContainTreasure */;

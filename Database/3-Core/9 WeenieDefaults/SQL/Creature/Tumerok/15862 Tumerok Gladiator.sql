@@ -122,5 +122,5 @@ VALUES (15862,  94) /* ATTACK_NOTIFICATION_EVENT */
      , (15862, 414) /* PLAYER_DEATH_EVENT */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (15862, 9,     0,  0, 0, 0, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 3 for ContainTreasure */
+VALUES (15862, 9,     0,  0, 0, 0, False) /* Create nothing for ContainTreasure */
      , (15862, 9, 15814,  1, 0, 1, False) /* Create Gate Key (15814) for ContainTreasure */;

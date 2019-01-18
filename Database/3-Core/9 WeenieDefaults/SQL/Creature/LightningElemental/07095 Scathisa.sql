@@ -126,5 +126,5 @@ VALUES (7095,  94) /* ATTACK_NOTIFICATION_EVENT */
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (7095, 2,  6383,  3, 0, 0, False) /* Create Ball of Electricity (6383) for Wield */
-     , (7095, 9,     0,  0, 0, 0.98, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 5 for ContainTreasure */
+     , (7095, 9,     0,  0, 0, 0.98, False) /* Create nothing for ContainTreasure */
      , (7095, 9,  6876,  0, 0, 0.02, False) /* Create Sturdy Iron Key (6876) for ContainTreasure */;

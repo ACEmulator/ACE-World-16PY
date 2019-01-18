@@ -133,9 +133,9 @@ VALUES (25965,  94) /* ATTACK_NOTIFICATION_EVENT */
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (25965, 2, 12192,  0, 0, 1, False) /* Create Shadow's Garb (12192) for Wield */
      , (25965, 2, 12193,  0, 14, 0, False) /* Create Dho Vest and Robe (12193) for Wield */
-     , (25965, 9,     0,  0, 0, 0.98, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 3 for ContainTreasure */
+     , (25965, 9,     0,  0, 0, 0.98, False) /* Create nothing for ContainTreasure */
      , (25965, 9,  6876,  0, 0, 0.02, False) /* Create Sturdy Iron Key (6876) for ContainTreasure */
-     , (25965, 10,     0,  0, 0, 0, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 3 for WieldTreasure */
+     , (25965, 10,     0,  0, 0, 0, False) /* Create nothing for WieldTreasure */
      , (25965, 10, 12187,  0, 0, 0.1, False) /* Create Assassin's Acid Jambiya (12187) for WieldTreasure */
      , (25965, 10, 12188,  0, 0, 0.1, False) /* Create Assassin's Jambiya (12188) for WieldTreasure */
      , (25965, 10, 12189,  0, 0, 0.1, False) /* Create Assassin's Lightning Jambiya (12189) for WieldTreasure */

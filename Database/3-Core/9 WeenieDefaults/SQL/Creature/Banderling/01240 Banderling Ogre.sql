@@ -188,5 +188,5 @@ VALUES (1240, 1,    72,  0, 13, 0, False) /* Create Platemail Hauberk (72) for C
      , (1240, 1,  1247,  0, 0, 0, False) /* Create Key (1247) for Contain */
      , (1240, 1,  1437, 250, 0, 0, False) /* Create Fire Arrow (1437) for Contain */
      , (1240, 1,  1446,  3, 0, 0, False) /* Create Fire Auroch Meat (1446) for Contain */
-     , (1240, 9,     0,  0, 0, 0.95, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 3 for ContainTreasure */
+     , (1240, 9,     0,  0, 0, 0.95, False) /* Create nothing for ContainTreasure */
      , (1240, 9,  3693,  0, 0, 0.05, False) /* Create Banderling Scalp (3693) for ContainTreasure */;

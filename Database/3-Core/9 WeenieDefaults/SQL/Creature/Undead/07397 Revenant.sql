@@ -163,5 +163,5 @@ VALUES (7397,  94) /* ATTACK_NOTIFICATION_EVENT */
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (7397, 8,  7398,  0, 0, 1, False) /* Create Laboratory Key (7398) for Treasure */
-     , (7397, 9,     0,  0, 0, 0.97, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 4 for ContainTreasure */
+     , (7397, 9,     0,  0, 0, 0.97, False) /* Create nothing for ContainTreasure */
      , (7397, 9,  5873,  0, 0, 0.03, False) /* Create Seal (5873) for ContainTreasure */;

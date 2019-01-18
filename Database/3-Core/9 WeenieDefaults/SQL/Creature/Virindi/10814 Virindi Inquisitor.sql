@@ -216,10 +216,10 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,  10 /* Tell */, 0, 1, NULL, 'Is that what you call magic, flesh puppet?  Your dependence on flesh makes your efforts pathetic!', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (10814, 9,     0,  0, 0, 0.4, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 4 for ContainTreasure */
-     , (10814, 9,     0,  0, 0, 0.97, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 4 for ContainTreasure */
-     , (10814, 9,     0,  0, 0, 0.2, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 4 for ContainTreasure */
-     , (10814, 9,     0,  0, 0, 0.97, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 4 for ContainTreasure */
+VALUES (10814, 9,     0,  0, 0, 0.4, False) /* Create nothing for ContainTreasure */
+     , (10814, 9,     0,  0, 0, 0.97, False) /* Create nothing for ContainTreasure */
+     , (10814, 9,     0,  0, 0, 0.2, False) /* Create nothing for ContainTreasure */
+     , (10814, 9,     0,  0, 0, 0.97, False) /* Create nothing for ContainTreasure */
      , (10814, 9,  6876,  0, 0, 0.6, False) /* Create Sturdy Iron Key (6876) for ContainTreasure */
      , (10814, 9,  9292,  0, 0, 0.03, False) /* Create Virindi Singularity Key (9292) for ContainTreasure */
      , (10814, 9, 10804,  0, 0, 0.8, False) /* Create Obsidian Shard (10804) for ContainTreasure */

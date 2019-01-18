@@ -130,11 +130,11 @@ VALUES (8013,  94) /* ATTACK_NOTIFICATION_EVENT */
      , (8013, 414) /* PLAYER_DEATH_EVENT */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (8013, 9,     0,  0, 0, 0, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 2 for ContainTreasure */
-     , (8013, 9,     0,  0, 0, 0, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 2 for ContainTreasure */
-     , (8013, 9,     0,  0, 0, 0, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 2 for ContainTreasure */
-     , (8013, 9,     0,  0, 0, 0, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 2 for ContainTreasure */
-     , (8013, 9,     0,  0, 0, 0, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 2 for ContainTreasure */
+VALUES (8013, 9,     0,  0, 0, 0, False) /* Create nothing for ContainTreasure */
+     , (8013, 9,     0,  0, 0, 0, False) /* Create nothing for ContainTreasure */
+     , (8013, 9,     0,  0, 0, 0, False) /* Create nothing for ContainTreasure */
+     , (8013, 9,     0,  0, 0, 0, False) /* Create nothing for ContainTreasure */
+     , (8013, 9,     0,  0, 0, 0, False) /* Create nothing for ContainTreasure */
      , (8013, 9,  8113,  0, 0, 1, False) /* Create Fenmalain Gem (8113) for ContainTreasure */
      , (8013, 9,  8113,  0, 0, 1, False) /* Create Fenmalain Gem (8113) for ContainTreasure */
      , (8013, 9,  8113,  0, 0, 1, False) /* Create Fenmalain Gem (8113) for ContainTreasure */

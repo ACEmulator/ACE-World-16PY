@@ -160,5 +160,5 @@ VALUES (@parent_id,  0,   8 /* Say */, 0, 0, NULL, 'Alarm!', NULL, NULL, NULL, N
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (6882, 1,  6880,  0, 0, 1, False) /* Create Bone Engraved Key (6880) for Contain */
-     , (6882, 9,     0,  0, 0, 0.85, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 3 for ContainTreasure */
+     , (6882, 9,     0,  0, 0, 0.85, False) /* Create nothing for ContainTreasure */
      , (6882, 9,  3695,  0, 0, 0.15, False) /* Create Gold Tumerok Insignia (3695) for ContainTreasure */;

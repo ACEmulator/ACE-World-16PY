@@ -128,11 +128,11 @@ VALUES (8015,  94) /* ATTACK_NOTIFICATION_EVENT */
      , (8015, 414) /* PLAYER_DEATH_EVENT */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (8015, 9,     0,  0, 0, 0, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 4 for ContainTreasure */
-     , (8015, 9,     0,  0, 0, 0, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 4 for ContainTreasure */
-     , (8015, 9,     0,  0, 0, 0, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 4 for ContainTreasure */
-     , (8015, 9,     0,  0, 0, 0, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 4 for ContainTreasure */
-     , (8015, 9,     0,  0, 0, 0, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 4 for ContainTreasure */
+VALUES (8015, 9,     0,  0, 0, 0, False) /* Create nothing for ContainTreasure */
+     , (8015, 9,     0,  0, 0, 0, False) /* Create nothing for ContainTreasure */
+     , (8015, 9,     0,  0, 0, 0, False) /* Create nothing for ContainTreasure */
+     , (8015, 9,     0,  0, 0, 0, False) /* Create nothing for ContainTreasure */
+     , (8015, 9,     0,  0, 0, 0, False) /* Create nothing for ContainTreasure */
      , (8015, 9,  8118,  0, 0, 1, False) /* Create Shendolain Gem (8118) for ContainTreasure */
      , (8015, 9,  8118,  0, 0, 1, False) /* Create Shendolain Gem (8118) for ContainTreasure */
      , (8015, 9,  8118,  0, 0, 1, False) /* Create Shendolain Gem (8118) for ContainTreasure */

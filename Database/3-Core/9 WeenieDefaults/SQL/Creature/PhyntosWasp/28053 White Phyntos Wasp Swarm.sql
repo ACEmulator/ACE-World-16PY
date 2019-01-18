@@ -109,7 +109,7 @@ INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
 VALUES (28053, 414) /* PLAYER_DEATH_EVENT */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (28053, 9,     0,  0, 0, 0.92, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 3 for ContainTreasure */
-     , (28053, 9,     0,  0, 0, 0.99, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 3 for ContainTreasure */
+VALUES (28053, 9,     0,  0, 0, 0.92, False) /* Create nothing for ContainTreasure */
+     , (28053, 9,     0,  0, 0, 0.99, False) /* Create nothing for ContainTreasure */
      , (28053, 9,  6876,  0, 0, 0.01, False) /* Create Sturdy Iron Key (6876) for ContainTreasure */
      , (28053, 9,  7603,  0, 0, 0.08, False) /* Create White Phyntos Wasp Wing (7603) for ContainTreasure */;

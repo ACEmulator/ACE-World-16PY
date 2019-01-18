@@ -131,10 +131,10 @@ VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 1090519043 /* Ready */, NULL, NU
      , (@parent_id,  1,   5 /* Motion */, 0, 1, 1090519060 /* Sleeping */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (24486, 9,     0,  0, 0, 0.9, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 4 for ContainTreasure */
-     , (24486, 9,     0,  0, 0, 0.95, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 4 for ContainTreasure */
-     , (24486, 9,     0,  0, 0, 0.995, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 4 for ContainTreasure */
-     , (24486, 9,     0,  0, 0, 0.97, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 4 for ContainTreasure */
+VALUES (24486, 9,     0,  0, 0, 0.9, False) /* Create nothing for ContainTreasure */
+     , (24486, 9,     0,  0, 0, 0.95, False) /* Create nothing for ContainTreasure */
+     , (24486, 9,     0,  0, 0, 0.995, False) /* Create nothing for ContainTreasure */
+     , (24486, 9,     0,  0, 0, 0.97, False) /* Create nothing for ContainTreasure */
      , (24486, 9,  3673,  0, 0, 0.1, False) /* Create Wood Heart (3673) for ContainTreasure */
      , (24486, 9,  5779,  0, 0, 0.05, False) /* Create Strange Stick (5779) for ContainTreasure */
      , (24486, 9,  6353,  0, 0, 0.005, False) /* Create Pyreal Mote (6353) for ContainTreasure */

@@ -127,11 +127,11 @@ VALUES (8011,  94) /* ATTACK_NOTIFICATION_EVENT */
      , (8011, 414) /* PLAYER_DEATH_EVENT */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (8011, 9,     0,  0, 0, 0, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 3 for ContainTreasure */
-     , (8011, 9,     0,  0, 0, 0, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 3 for ContainTreasure */
-     , (8011, 9,     0,  0, 0, 0, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 3 for ContainTreasure */
-     , (8011, 9,     0,  0, 0, 0, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 3 for ContainTreasure */
-     , (8011, 9,     0,  0, 0, 0, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 3 for ContainTreasure */
+VALUES (8011, 9,     0,  0, 0, 0, False) /* Create nothing for ContainTreasure */
+     , (8011, 9,     0,  0, 0, 0, False) /* Create nothing for ContainTreasure */
+     , (8011, 9,     0,  0, 0, 0, False) /* Create nothing for ContainTreasure */
+     , (8011, 9,     0,  0, 0, 0, False) /* Create nothing for ContainTreasure */
+     , (8011, 9,     0,  0, 0, 0, False) /* Create nothing for ContainTreasure */
      , (8011, 9,  8111,  0, 0, 1, False) /* Create Caulnalain Gem (8111) for ContainTreasure */
      , (8011, 9,  8111,  0, 0, 1, False) /* Create Caulnalain Gem (8111) for ContainTreasure */
      , (8011, 9,  8111,  0, 0, 1, False) /* Create Caulnalain Gem (8111) for ContainTreasure */

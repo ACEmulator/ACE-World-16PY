@@ -129,7 +129,7 @@ VALUES (6040,  94) /* ATTACK_NOTIFICATION_EVENT */
      , (6040, 414) /* PLAYER_DEATH_EVENT */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (6040, 9,     0,  0, 0, 0.98, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 2 for ContainTreasure */
-     , (6040, 9,     0,  0, 0, 0.98, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 2 for ContainTreasure */
+VALUES (6040, 9,     0,  0, 0, 0.98, False) /* Create nothing for ContainTreasure */
+     , (6040, 9,     0,  0, 0, 0.98, False) /* Create nothing for ContainTreasure */
      , (6040, 9,  6055,  0, 0, 0.02, False) /* Create Cracked Shard (6055) for ContainTreasure */
      , (6040, 9,  6057,  0, 0, 0.02, False) /* Create Tiny Shard (6057) for ContainTreasure */;

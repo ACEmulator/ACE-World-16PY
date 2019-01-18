@@ -137,13 +137,13 @@ VALUES (2584,  94) /* ATTACK_NOTIFICATION_EVENT */
      , (2584, 414) /* PLAYER_DEATH_EVENT */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (2584, 9,     0,  0, 0, 0.97, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 1 for ContainTreasure */
-     , (2584, 9,     0,  0, 0, 0.97, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 1 for ContainTreasure */
-     , (2584, 9,     0,  0, 0, 0.99, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 1 for ContainTreasure */
-     , (2584, 9,     0,  0, 0, 0.05, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 1 for ContainTreasure */
-     , (2584, 9,     0,  0, 0, 0.95, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 1 for ContainTreasure */
-     , (2584, 9,     0,  0, 0, 0.95, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 1 for ContainTreasure */
-     , (2584, 9,     0,  0, 0, 0.95, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 1 for ContainTreasure */
+VALUES (2584, 9,     0,  0, 0, 0.97, False) /* Create nothing for ContainTreasure */
+     , (2584, 9,     0,  0, 0, 0.97, False) /* Create nothing for ContainTreasure */
+     , (2584, 9,     0,  0, 0, 0.99, False) /* Create nothing for ContainTreasure */
+     , (2584, 9,     0,  0, 0, 0.05, False) /* Create nothing for ContainTreasure */
+     , (2584, 9,     0,  0, 0, 0.95, False) /* Create nothing for ContainTreasure */
+     , (2584, 9,     0,  0, 0, 0.95, False) /* Create nothing for ContainTreasure */
+     , (2584, 9,     0,  0, 0, 0.95, False) /* Create nothing for ContainTreasure */
      , (2584, 9,  7046,  0, 0, 0.03, False) /* Create Sclavus Tongue (7046) for ContainTreasure */
      , (2584, 9,  9260,  0, 0, 0.03, False) /* Create Small Sclavus Hide (9260) for ContainTreasure */
      , (2584, 9, 12216,  0, 0, 0.05, False) /* Create Sclavus Head (12216) for ContainTreasure */

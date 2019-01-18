@@ -141,12 +141,12 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 268435538 /* Twitch2 */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (23553, 9,     0,  0, 0, 0.97, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 6 for ContainTreasure */
-     , (23553, 9,     0,  0, 0, 0.97, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 6 for ContainTreasure */
-     , (23553, 9,     0,  0, 0, 0.75, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 6 for ContainTreasure */
-     , (23553, 9,     0,  0, 0, 0.75, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 6 for ContainTreasure */
-     , (23553, 9,     0,  0, 0, 0.98, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 6 for ContainTreasure */
-     , (23553, 9,     0,  0, 0, 0.99, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 6 for ContainTreasure */
+VALUES (23553, 9,     0,  0, 0, 0.97, False) /* Create nothing for ContainTreasure */
+     , (23553, 9,     0,  0, 0, 0.97, False) /* Create nothing for ContainTreasure */
+     , (23553, 9,     0,  0, 0, 0.75, False) /* Create nothing for ContainTreasure */
+     , (23553, 9,     0,  0, 0, 0.75, False) /* Create nothing for ContainTreasure */
+     , (23553, 9,     0,  0, 0, 0.98, False) /* Create nothing for ContainTreasure */
+     , (23553, 9,     0,  0, 0, 0.99, False) /* Create nothing for ContainTreasure */
      , (23553, 9,  3675,  0, 0, 0.25, False) /* Create Ivory Gromnie Tooth (3675) for ContainTreasure */
      , (23553, 9,  4236,  0, 0, 0.25, False) /* Create Ivory Gromnie Hide (4236) for ContainTreasure */
      , (23553, 9, 23107,  0, 0, 0.01, False) /* Create Mangled Dark Key (23107) for ContainTreasure */

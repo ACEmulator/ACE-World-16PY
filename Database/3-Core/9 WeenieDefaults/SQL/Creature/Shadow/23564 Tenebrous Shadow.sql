@@ -150,9 +150,9 @@ VALUES (23564,  94) /* ATTACK_NOTIFICATION_EVENT */
      , (23564, 414) /* PLAYER_DEATH_EVENT */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (23564, 9,     0,  0, 0, 0.97, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 4 for ContainTreasure */
-     , (23564, 9,     0,  0, 0, 0.97, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 4 for ContainTreasure */
-     , (23564, 9,     0,  0, 0, 0.98, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 4 for ContainTreasure */
+VALUES (23564, 9,     0,  0, 0, 0.97, False) /* Create nothing for ContainTreasure */
+     , (23564, 9,     0,  0, 0, 0.97, False) /* Create nothing for ContainTreasure */
+     , (23564, 9,     0,  0, 0, 0.98, False) /* Create nothing for ContainTreasure */
      , (23564, 9,  6058,  0, 0, 0.03, False) /* Create Dark Shard (6058) for ContainTreasure */
      , (23564, 9,  6876,  0, 0, 0.03, False) /* Create Sturdy Iron Key (6876) for ContainTreasure */
      , (23564, 9, 20856,  0, 0, 0.02, False) /* Create Bael'Zharon Stamp (20856) for ContainTreasure */;

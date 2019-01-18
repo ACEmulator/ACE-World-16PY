@@ -138,5 +138,5 @@ VALUES (6008, 8,   301,  0, 0, 0.14, False) /* Create Battle Axe (301) for Treas
      , (6008, 8,   351,  0, 0, 0.06, False) /* Create Long Sword (351) for Treasure */
      , (6008, 8,   353,  0, 0, 0.06, False) /* Create Tachi (353) for Treasure */
      , (6008, 8,   354,  0, 0, 0.06, False) /* Create Takuba (354) for Treasure */
-     , (6008, 9,     0,  0, 0, 0.99, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 1 for ContainTreasure */
+     , (6008, 9,     0,  0, 0, 0.99, False) /* Create nothing for ContainTreasure */
      , (6008, 9,  6876,  0, 0, 0.01, False) /* Create Sturdy Iron Key (6876) for ContainTreasure */;

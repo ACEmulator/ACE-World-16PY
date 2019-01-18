@@ -167,8 +167,8 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 268435539 /* Twitch3 */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (30895, 9,     0,  0, 0, 0.9925, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 6 for ContainTreasure */
-     , (30895, 9,     0,  0, 0, 0.5, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 6 for ContainTreasure */
+VALUES (30895, 9,     0,  0, 0, 0.9925, False) /* Create nothing for ContainTreasure */
+     , (30895, 9,     0,  0, 0, 0.5, False) /* Create nothing for ContainTreasure */
      , (30895, 9, 25893,  0, 0, 0.0075, False) /* Create Doll's Eye (25893) for ContainTreasure */
      , (30895, 9, 30857,  0, 0, 0.5, False) /* Create Sezzherei's Lair (30857) for ContainTreasure */
      , (30895, 9, 30870,  0, 0, 1, False) /* Create Katar of the Fallen (30870) for ContainTreasure */;

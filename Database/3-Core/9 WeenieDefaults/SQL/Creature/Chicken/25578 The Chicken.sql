@@ -229,10 +229,10 @@ VALUES (@parent_id,  0,   6 /* Move */, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL
      , (@parent_id,  1,  22 /* StampQuest */, 0, 1, NULL, 'CrossedRoad', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (25578, 9,     0,  0, 0, 0.25, False) /* Create UNKNOWN RANDOMLY GENERATED TREASURE for ContainTreasure */
-     , (25578, 9,     0,  0, 0, 0.95, False) /* Create UNKNOWN RANDOMLY GENERATED TREASURE for ContainTreasure */
-     , (25578, 9,     0,  0, 0, 0.95, False) /* Create UNKNOWN RANDOMLY GENERATED TREASURE for ContainTreasure */
-     , (25578, 9,     0,  0, 0, 0.95, False) /* Create UNKNOWN RANDOMLY GENERATED TREASURE for ContainTreasure */
+VALUES (25578, 9,     0,  0, 0, 0.25, False) /* Create nothing for ContainTreasure */
+     , (25578, 9,     0,  0, 0, 0.95, False) /* Create nothing for ContainTreasure */
+     , (25578, 9,     0,  0, 0, 0.95, False) /* Create nothing for ContainTreasure */
+     , (25578, 9,     0,  0, 0, 0.95, False) /* Create nothing for ContainTreasure */
      , (25578, 9,   262,  0, 0, 0.75, False) /* Create Chicken (262) for ContainTreasure */
      , (25578, 9,   546,  0, 0, 0.05, False) /* Create Egg (546) for ContainTreasure */
      , (25578, 9,   546,  0, 0, 0.05, False) /* Create Egg (546) for ContainTreasure */

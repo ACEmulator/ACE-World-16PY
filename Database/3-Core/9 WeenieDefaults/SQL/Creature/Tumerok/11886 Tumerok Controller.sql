@@ -148,6 +148,6 @@ VALUES (11886,  94) /* ATTACK_NOTIFICATION_EVENT */
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (11886, 1,  3695,  0, 0, 0.8, False) /* Create Gold Tumerok Insignia (3695) for Contain */
-     , (11886, 9,     0,  0, 0, 0.2, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 2 for ContainTreasure */
-     , (11886, 9,     0,  0, 0, 0.95, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 2 for ContainTreasure */
+     , (11886, 9,     0,  0, 0, 0.2, False) /* Create nothing for ContainTreasure */
+     , (11886, 9,     0,  0, 0, 0.95, False) /* Create nothing for ContainTreasure */
      , (11886, 9, 11813,  0, 0, 0.05, False) /* Create Gromnie Crest (11813) for ContainTreasure */;

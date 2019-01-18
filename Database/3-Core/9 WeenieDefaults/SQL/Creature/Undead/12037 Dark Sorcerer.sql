@@ -171,10 +171,10 @@ VALUES (12037,  94) /* ATTACK_NOTIFICATION_EVENT */
      , (12037, 414) /* PLAYER_DEATH_EVENT */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (12037, 9,     0,  0, 0, 0.5, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 3 for ContainTreasure */
-     , (12037, 9,     0,  0, 0, 0.2, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 3 for ContainTreasure */
-     , (12037, 9,     0,  0, 0, 0.7, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 3 for ContainTreasure */
-     , (12037, 9,     0,  0, 0, 0.7, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 3 for ContainTreasure */
+VALUES (12037, 9,     0,  0, 0, 0.5, False) /* Create nothing for ContainTreasure */
+     , (12037, 9,     0,  0, 0, 0.2, False) /* Create nothing for ContainTreasure */
+     , (12037, 9,     0,  0, 0, 0.7, False) /* Create nothing for ContainTreasure */
+     , (12037, 9,     0,  0, 0, 0.7, False) /* Create nothing for ContainTreasure */
      , (12037, 9,  6876,  0, 0, 0.5, False) /* Create Sturdy Iron Key (6876) for ContainTreasure */
      , (12037, 9,  7045,  0, 0, 0.8, False) /* Create Dark Revenant Thighbone (7045) for ContainTreasure */
      , (12037, 9,  9310,  0, 0, 0.3, False) /* Create A Large Mnemosyne (9310) for ContainTreasure */

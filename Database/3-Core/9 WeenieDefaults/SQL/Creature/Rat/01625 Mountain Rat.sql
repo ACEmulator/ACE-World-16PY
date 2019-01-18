@@ -136,4 +136,4 @@ VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 268435538 /* Twitch2 */, NULL, N
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (1625, 8,  5794,  0, 0, 0.07, False) /* Create Hot Pepper (5794) for Treasure */
-     , (1625, 9,     0,  0, 0, 0.93, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 1 for ContainTreasure */;
+     , (1625, 9,     0,  0, 0, 0.93, False) /* Create nothing for ContainTreasure */;

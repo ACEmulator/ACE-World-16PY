@@ -125,5 +125,5 @@ VALUES (14517,  94) /* ATTACK_NOTIFICATION_EVENT */
      , (14517, 414) /* PLAYER_DEATH_EVENT */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (14517, 9,     0,  0, 0, 0.999, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 2 for ContainTreasure */
+VALUES (14517, 9,     0,  0, 0, 0.999, False) /* Create nothing for ContainTreasure */
      , (14517, 9,  6876,  0, 0, 0.001, False) /* Create Sturdy Iron Key (6876) for ContainTreasure */;

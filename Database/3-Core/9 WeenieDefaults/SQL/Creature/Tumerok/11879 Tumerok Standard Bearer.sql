@@ -117,5 +117,5 @@ VALUES (11879,  94) /* ATTACK_NOTIFICATION_EVENT */
      , (11879, 414) /* PLAYER_DEATH_EVENT */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (11879, 9,     0,  0, 0, 0.95, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 1 for ContainTreasure */
+VALUES (11879, 9,     0,  0, 0, 0.95, False) /* Create nothing for ContainTreasure */
      , (11879, 9, 11789,  0, 0, 0.05, False) /* Create Serpent Banner (11789) for ContainTreasure */;

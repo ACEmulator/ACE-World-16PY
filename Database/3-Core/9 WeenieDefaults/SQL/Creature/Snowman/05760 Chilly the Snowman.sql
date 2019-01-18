@@ -161,5 +161,5 @@ VALUES (5760, 1,  5758,  1, 0, 0, False) /* Create Carrot (5758) for Contain */
      , (5760, 1,  5768,  2, 0, 0, False) /* Create Poofy Snowball (5768) for Contain */
      , (5760, 1,  7835,  2, 0, 0, False) /* Create Magic Iceball (7835) for Contain */
      , (5760, 2,  5762,  9, 0, 0, False) /* Create Snowball (5762) for Wield */
-     , (5760, 9,     0,  0, 0, 0.5, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 1 for ContainTreasure */
+     , (5760, 9,     0,  0, 0, 0.5, False) /* Create nothing for ContainTreasure */
      , (5760, 9, 22825,  0, 0, 0.5, False) /* Create A Lump of Coal (22825) for ContainTreasure */;

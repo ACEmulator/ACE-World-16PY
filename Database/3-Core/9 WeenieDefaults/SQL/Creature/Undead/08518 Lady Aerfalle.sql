@@ -165,5 +165,5 @@ VALUES (@parent_id,  0,  17 /* LocalBroadcast */, 0, 0, NULL, 'The cold, luminou
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (8518, 1,  8521,  0, 0, 1, False) /* Create Snapped Silver Key (8521) for Contain */
-     , (8518, 9,     0,  0, 0, 0.97, False) /* Create UNKNOWN RANDOMLY GENERATED TREASURE for ContainTreasure */
+     , (8518, 9,     0,  0, 0, 0.97, False) /* Create nothing for ContainTreasure */
      , (8518, 9,  7045,  0, 0, 0.03, False) /* Create Dark Revenant Thighbone (7045) for ContainTreasure */;

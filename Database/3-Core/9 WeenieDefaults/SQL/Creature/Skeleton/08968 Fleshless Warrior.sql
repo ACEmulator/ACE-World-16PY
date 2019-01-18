@@ -138,7 +138,7 @@ VALUES (8968,  94) /* ATTACK_NOTIFICATION_EVENT */
      , (8968, 414) /* PLAYER_DEATH_EVENT */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (8968, 9,     0,  0, 0, 0.9, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 3 for ContainTreasure */
-     , (8968, 9,     0,  0, 0, 0.98, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 3 for ContainTreasure */
+VALUES (8968, 9,     0,  0, 0, 0.9, False) /* Create nothing for ContainTreasure */
+     , (8968, 9,     0,  0, 0, 0.98, False) /* Create nothing for ContainTreasure */
      , (8968, 9,  3687,  0, 0, 0.1, False) /* Create Skeleton's Skull (3687) for ContainTreasure */
      , (8968, 9,  6876,  0, 0, 0.02, False) /* Create Sturdy Iron Key (6876) for ContainTreasure */;

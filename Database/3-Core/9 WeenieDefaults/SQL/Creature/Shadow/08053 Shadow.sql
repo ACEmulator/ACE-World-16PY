@@ -201,5 +201,5 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,  17 /* LocalBroadcast */, 0, 0, NULL, 'As it falls, the Shadow blinks its blood red eyes. You seem to hear a tired voice say, "Have you seen my Lord Atlan? What happened after the watchfires went out..?"', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (8053, 9,     0,  0, 0, 0.98, False) /* Create 1x Yumi (23735), 14x Fire Arrow (1437), 1x Yumi (23735), 14x Arrow (300), 1x Katar (23675), 1x Kite Shield (23685), 1x Nekode (23681), 1x Kite Shield (23685), 1x Cestus (23638), 1x Kite Shield (23685), 1x Tachi (23701), 1x Kite Shield (23685), 1x Fire Yaoji (23719), 1x Kite Shield (23685) from Wielded Treasure Table for ContainTreasure */
+VALUES (8053, 9,     0,  0, 0, 0.98, False) /* Create nothing for ContainTreasure */
      , (8053, 9,  6059,  0, 0, 0.02, False) /* Create Dark Sliver (6059) for ContainTreasure */;

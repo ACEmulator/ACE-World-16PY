@@ -41,4 +41,4 @@ VALUES (4382, 0.1, 5339, 1000, 1, 1, 2, 8, 10, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* 
      , (4382, 0.2, 5338, 1500, 1, 1, 2, 8, 5, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Neutral Balm (5338) (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: Contain */
      , (4382, 0.3, 4768, 1500, 1, 1, 2, 8, 2, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Uncooked Rice (4768) (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: Contain */
      , (4382, 0.4, 5328, 1500, 1, 1, 2, 8, 5, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Victual Infusion (5328) (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: Contain */
-     , (4382, 1, 454, 1500, 1, 1, 2, 72, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate RANDOMLY GENERATED TREASURE from Loot Tier 4 (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: ContainTreasure */;
+     , (4382, 1, 454, 1500, 1, 1, 2, 72, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate RANDOMLY GENERATED TREASURE from Loot Tier 4 from Death Treasure Table id: 454 (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: ContainTreasure */;

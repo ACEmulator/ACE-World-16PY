@@ -147,7 +147,7 @@ VALUES (6536,  94) /* ATTACK_NOTIFICATION_EVENT */
      , (6536, 414) /* PLAYER_DEATH_EVENT */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (6536, 9,     0,  0, 0, 0.998, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 2 for ContainTreasure */
+VALUES (6536, 9,     0,  0, 0, 0.998, False) /* Create nothing for ContainTreasure */
      , (6536, 9,  6060,  0, 0, 0.002, False) /* Create Dark Speck (6060) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)

@@ -121,7 +121,7 @@ VALUES (11878,  94) /* ATTACK_NOTIFICATION_EVENT */
      , (11878, 414) /* PLAYER_DEATH_EVENT */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (11878, 9,     0,  0, 0, 0.97, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 1 for ContainTreasure */
-     , (11878, 9,     0,  0, 0, 0.95, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 1 for ContainTreasure */
+VALUES (11878, 9,     0,  0, 0, 0.97, False) /* Create nothing for ContainTreasure */
+     , (11878, 9,     0,  0, 0, 0.95, False) /* Create nothing for ContainTreasure */
      , (11878, 9,  7825,  0, 0, 0.03, False) /* Create Brown Beans (7825) for ContainTreasure */
      , (11878, 9, 11764,  0, 0, 0.05, False) /* Create Reedshark Banner (11764) for ContainTreasure */;

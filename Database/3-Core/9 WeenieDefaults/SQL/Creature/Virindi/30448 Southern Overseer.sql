@@ -181,13 +181,13 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 268435539 /* Twitch3 */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (30448, 9,     0,  0, 0, 0, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 5 for ContainTreasure */
-     , (30448, 9,     0,  0, 0, 0, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 5 for ContainTreasure */
-     , (30448, 9,     0,  0, 0, 0, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 5 for ContainTreasure */
-     , (30448, 9,     0,  0, 0, 0, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 5 for ContainTreasure */
-     , (30448, 9,     0,  0, 0, 0, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 5 for ContainTreasure */
-     , (30448, 9,     0,  0, 0, 0, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 5 for ContainTreasure */
-     , (30448, 9,     0,  0, 0, 0, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 5 for ContainTreasure */
+VALUES (30448, 9,     0,  0, 0, 0, False) /* Create nothing for ContainTreasure */
+     , (30448, 9,     0,  0, 0, 0, False) /* Create nothing for ContainTreasure */
+     , (30448, 9,     0,  0, 0, 0, False) /* Create nothing for ContainTreasure */
+     , (30448, 9,     0,  0, 0, 0, False) /* Create nothing for ContainTreasure */
+     , (30448, 9,     0,  0, 0, 0, False) /* Create nothing for ContainTreasure */
+     , (30448, 9,     0,  0, 0, 0, False) /* Create nothing for ContainTreasure */
+     , (30448, 9,     0,  0, 0, 0, False) /* Create nothing for ContainTreasure */
      , (30448, 9, 30457,  0, 0, 1, False) /* Create Circlet of Shielding (30457) for ContainTreasure */
      , (30448, 9, 30457,  0, 0, 1, False) /* Create Circlet of Shielding (30457) for ContainTreasure */
      , (30448, 9, 30457,  0, 0, 1, False) /* Create Circlet of Shielding (30457) for ContainTreasure */

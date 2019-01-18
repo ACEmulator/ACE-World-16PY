@@ -192,7 +192,7 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 268435537 /* Twitch1 */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (27422, 9,     0,  0, 0, 0.999, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 4 for ContainTreasure */
+VALUES (27422, 9,     0,  0, 0, 0.999, False) /* Create nothing for ContainTreasure */
      , (27422, 9, 27391,  0, 0, 0.001, False) /* Create Lair of The Homunculus (27391) for ContainTreasure */
      , (27422, 10, 23688,  0, 0, 0.4, False) /* Create Acid Spear (23688) for WieldTreasure */
      , (27422, 10, 23692,  0, 0, 0.4, False) /* Create Frost Spear (23692) for WieldTreasure */;

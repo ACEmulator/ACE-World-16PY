@@ -440,5 +440,5 @@ VALUES (11503,  94) /* ATTACK_NOTIFICATION_EVENT */
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (11503, 2, 25557,  0, 0, 0, False) /* Create Eye Patch (25557) for Wield */
-     , (11503, 9,     0,  0, 0, 0.95, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 2 for ContainTreasure */
+     , (11503, 9,     0,  0, 0, 0.95, False) /* Create nothing for ContainTreasure */
      , (11503, 9, 25557,  0, 0, 0.05, False) /* Create Eye Patch (25557) for ContainTreasure */;

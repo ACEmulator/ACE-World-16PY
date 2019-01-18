@@ -163,5 +163,5 @@ VALUES (8120,  94) /* ATTACK_NOTIFICATION_EVENT */
      , (8120, 414) /* PLAYER_DEATH_EVENT */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (8120, 9,     0,  0, 0, 0, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 3 for ContainTreasure */
+VALUES (8120, 9,     0,  0, 0, 0, False) /* Create nothing for ContainTreasure */
      , (8120, 9,  8083,  0, 0, 1, False) /* Create Throbbing Lump (8083) for ContainTreasure */;

@@ -173,8 +173,8 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 268435540 /* Twitch4 */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (12000, 9,     0,  0, 0, 0.58, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 3 for ContainTreasure */
-     , (12000, 9,     0,  0, 0, 0.3, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 3 for ContainTreasure */
+VALUES (12000, 9,     0,  0, 0, 0.58, False) /* Create nothing for ContainTreasure */
+     , (12000, 9,     0,  0, 0, 0.3, False) /* Create nothing for ContainTreasure */
      , (12000, 9,  9412,  0, 0, 0.42, False) /* Create Dire Mattekar Paw (9412) for ContainTreasure */
      , (12000, 9, 23593,  0, 0, 0.3, False) /* Create Robe of the Tundra (23593) for ContainTreasure */;
 

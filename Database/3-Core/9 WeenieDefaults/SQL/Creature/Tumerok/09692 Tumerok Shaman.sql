@@ -153,7 +153,7 @@ VALUES (9692,  94) /* ATTACK_NOTIFICATION_EVENT */
      , (9692, 414) /* PLAYER_DEATH_EVENT */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (9692, 9,     0,  0, 0, 0, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 5 for ContainTreasure */
-     , (9692, 9,     0,  0, 0, 0.97, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 5 for ContainTreasure */
+VALUES (9692, 9,     0,  0, 0, 0, False) /* Create nothing for ContainTreasure */
+     , (9692, 9,     0,  0, 0, 0.97, False) /* Create nothing for ContainTreasure */
      , (9692, 9,  7825,  0, 0, 0.03, False) /* Create Brown Beans (7825) for ContainTreasure */
      , (9692, 9,  9690,  0, 0, 1, False) /* Create Tumerok Altar Key (9690) for ContainTreasure */;

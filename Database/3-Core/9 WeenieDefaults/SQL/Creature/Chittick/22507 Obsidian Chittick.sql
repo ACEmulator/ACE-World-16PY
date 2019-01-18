@@ -120,7 +120,7 @@ VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 268435537 /* Twitch1 */, NULL, N
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (22507, 2, 22545,  0, 0, 0, False) /* Create Obsidian Spines (22545) for Wield */
-     , (22507, 9,     0,  0, 0, 0.97, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 6 for ContainTreasure */
-     , (22507, 9,     0,  0, 0, 0.95, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 6 for ContainTreasure */
+     , (22507, 9,     0,  0, 0, 0.97, False) /* Create nothing for ContainTreasure */
+     , (22507, 9,     0,  0, 0, 0.95, False) /* Create nothing for ContainTreasure */
      , (22507, 9, 24477,  0, 0, 0.03, False) /* Create Sturdy Steel Key (24477) for ContainTreasure */
      , (22507, 9, 28888,  0, 0, 0.05, False) /* Create Chittick Head (28888) for ContainTreasure */;
