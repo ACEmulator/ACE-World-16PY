@@ -198,7 +198,7 @@ VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 268435539 /* Twitch3 */, NULL, N
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (8264, 8,  8261,  1, 0, 0, False) /* Create Sotiris Obsidian Shard (8261) for Treasure */
-     , (8264, 9,     0,  0, 0, 0.95, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 4 for ContainTreasure */
-     , (8264, 9,     0,  0, 0, 0.9, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 4 for ContainTreasure */
+     , (8264, 9,     0,  0, 0, 0.95, False) /* Create nothing for ContainTreasure */
+     , (8264, 9,     0,  0, 0, 0.9, False) /* Create nothing for ContainTreasure */
      , (8264, 9,  3698,  0, 0, 0.05, False) /* Create White Jewel (3698) for ContainTreasure */
      , (8264, 9,  8154,  0, 0, 0.1, False) /* Create Broken Virindi Mask (8154) for ContainTreasure */;

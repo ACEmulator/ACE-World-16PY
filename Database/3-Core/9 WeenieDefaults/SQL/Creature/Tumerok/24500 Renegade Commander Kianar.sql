@@ -117,7 +117,7 @@ VALUES (24500,  94) /* ATTACK_NOTIFICATION_EVENT */
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (24500, 2, 15431, 250, 0, 0, False) /* Create Deadly Armor Piercing Arrow (15431) for Wield */
      , (24500, 2, 24568,  0, 0, 0, False) /* Create Renegade Bow (24568) for Wield */
-     , (24500, 9,     0,  0, 0, 0.95, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 6 for ContainTreasure */
+     , (24500, 9,     0,  0, 0, 0.95, False) /* Create nothing for ContainTreasure */
      , (24500, 9, 24477,  0, 0, 0.05, False) /* Create Sturdy Steel Key (24477) for ContainTreasure */
      , (24500, 9, 24556,  0, 0, 0.335, False) /* Create Tumerok Hunting Brace (24556) for ContainTreasure */
      , (24500, 9, 24558,  0, 0, 0.665, False) /* Create Renegade Bow (24558) for ContainTreasure */;

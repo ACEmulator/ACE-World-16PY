@@ -26,7 +26,7 @@ VALUES (23012,   1,          1) /* ItemType - MeleeWeapon */
      , (23012, 114,          1) /* Attuned - Attuned */
      , (23012, 115,        280) /* ItemSkillLevelLimit */
      , (23012, 158,          2) /* WieldRequirements - RawSkill */
-     , (23012, 159,          1) /* WieldSkilltype - Axe */
+     , (23012, 159,          1) /* WieldSkillType - Axe */
      , (23012, 160,        325) /* WieldDifficulty */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)

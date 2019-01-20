@@ -28,7 +28,7 @@ VALUES (23911,   1,        256) /* ItemType - MissileWeapon */
      , (23911, 150,        103) /* HookPlacement - Hook */
      , (23911, 151,          2) /* HookType - Wall */
      , (23911, 158,          7) /* WieldRequirements - Level */
-     , (23911, 159,          1) /* WieldSkilltype - Axe */
+     , (23911, 159,          1) /* WieldSkillType - Axe */
      , (23911, 160,         30) /* WieldDifficulty */
      , (23911, 166,          6) /* SlayerCreatureType - Tumerok */;
 

@@ -20,7 +20,7 @@ VALUES (23890,   1,      32768) /* ItemType - Caster */
      , (23890, 150,        103) /* HookPlacement - Hook */
      , (23890, 151,          2) /* HookType - Wall */
      , (23890, 158,          7) /* WieldRequirements - Level */
-     , (23890, 159,          1) /* WieldSkilltype - Axe */
+     , (23890, 159,          1) /* WieldSkillType - Axe */
      , (23890, 160,         30) /* WieldDifficulty */
      , (23890, 166,          6) /* SlayerCreatureType - Tumerok */;
 

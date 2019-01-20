@@ -144,12 +144,12 @@ VALUES (24317,  94) /* ATTACK_NOTIFICATION_EVENT */
      , (24317, 414) /* PLAYER_DEATH_EVENT */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (24317, 9,     0,  0, 0, 0.94, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 5 for ContainTreasure */
-     , (24317, 9,     0,  0, 0, 0.98, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 5 for ContainTreasure */
-     , (24317, 9,     0,  0, 0, 0.97, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 5 for ContainTreasure */
-     , (24317, 9,     0,  0, 0, 0.95, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 5 for ContainTreasure */
-     , (24317, 9,     0,  0, 0, 0.95, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 5 for ContainTreasure */
-     , (24317, 9,     0,  0, 0, 0.95, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 5 for ContainTreasure */
+VALUES (24317, 9,     0,  0, 0, 0.94, False) /* Create nothing for ContainTreasure */
+     , (24317, 9,     0,  0, 0, 0.98, False) /* Create nothing for ContainTreasure */
+     , (24317, 9,     0,  0, 0, 0.97, False) /* Create nothing for ContainTreasure */
+     , (24317, 9,     0,  0, 0, 0.95, False) /* Create nothing for ContainTreasure */
+     , (24317, 9,     0,  0, 0, 0.95, False) /* Create nothing for ContainTreasure */
+     , (24317, 9,     0,  0, 0, 0.95, False) /* Create nothing for ContainTreasure */
      , (24317, 9,  9310,  0, 0, 0.06, False) /* Create A Large Mnemosyne (9310) for ContainTreasure */
      , (24317, 9, 22027,  0, 0, 0.05, False) /* Create Skeletal Arm (22027) for ContainTreasure */
      , (24317, 9, 22031,  0, 0, 0.05, False) /* Create Skeletal Leg (22031) for ContainTreasure */

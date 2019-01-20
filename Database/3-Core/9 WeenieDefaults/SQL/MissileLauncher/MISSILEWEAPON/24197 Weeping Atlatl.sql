@@ -27,7 +27,7 @@ VALUES (24197,   1,        256) /* ItemType - MissileWeapon */
      , (24197, 150,        103) /* HookPlacement - Hook */
      , (24197, 151,          2) /* HookType - Wall */
      , (24197, 158,          2) /* WieldRequirements - RawSkill */
-     , (24197, 159,         12) /* WieldSkilltype - ThrownWeapon */
+     , (24197, 159,         12) /* WieldSkillType - ThrownWeapon */
      , (24197, 160,        290) /* WieldDifficulty */
      , (24197, 166,         31) /* SlayerCreatureType - Human */;
 

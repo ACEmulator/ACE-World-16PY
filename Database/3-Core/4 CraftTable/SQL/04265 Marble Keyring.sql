@@ -10,7 +10,7 @@ VALUES (4265, True, 0, 0, 0, False, 0, 0, 0);
 
 SET @parent_id = LAST_INSERT_ID();
 
-INSERT INTO `recipe_mods_int` (`recipe_Mod_Id`, `stat`, `value`, `enum`, `unknown_1`)
+INSERT INTO `recipe_mods_int` (`recipe_Mod_Id`, `stat`, `value`, `enum`, `source`)
 VALUES (@parent_id,  92, -1, 2, 0) /* Structure */
      , (@parent_id, 193, 1, 2, 0) /* NumKeys */;
 

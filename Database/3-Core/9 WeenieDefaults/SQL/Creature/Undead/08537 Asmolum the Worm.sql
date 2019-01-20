@@ -150,8 +150,8 @@ INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `w
 VALUES (8537, 1,  8505,  1, 0, 1, False) /* Create Damp Scroll (8505) for Contain */
      , (8537, 1,  8511,  1, 0, 1, False) /* Create Ancient Key (8511) for Contain */
      , (8537, 2,  8525,  1, 0, 1, False) /* Create Asmolum's Throwing Dagger (8525) for Wield */
-     , (8537, 9,     0,  0, 0, 0.98, False) /* Create 2x Asmolum's Throwing Dagger (8525), 1x Asmolum's Dagger (8524) from Wielded Treasure Table for ContainTreasure */
-     , (8537, 9,     0,  0, 0, 0.98, False) /* Create 2x Asmolum's Throwing Dagger (8525), 1x Asmolum's Dagger (8524) from Wielded Treasure Table for ContainTreasure */
+     , (8537, 9,     0,  0, 0, 0.98, False) /* Create nothing for ContainTreasure */
+     , (8537, 9,     0,  0, 0, 0.98, False) /* Create nothing for ContainTreasure */
      , (8537, 9,  6876,  0, 0, 0.02, False) /* Create Sturdy Iron Key (6876) for ContainTreasure */
      , (8537, 9,  7045,  0, 0, 0.03, False) /* Create Dark Revenant Thighbone (7045) for ContainTreasure */
      , (8537, 9,  8524,  1, 0, 1, False) /* Create Asmolum's Dagger (8524) for ContainTreasure */

@@ -137,9 +137,9 @@ VALUES (25807,  94) /* ATTACK_NOTIFICATION_EVENT */
      , (25807, 414) /* PLAYER_DEATH_EVENT */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (25807, 9,     0,  0, 0, 0.98, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 6 for ContainTreasure */
-     , (25807, 9,     0,  0, 0, 0.99, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 6 for ContainTreasure */
-     , (25807, 9,     0,  0, 0, 0.93, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 6 for ContainTreasure */
+VALUES (25807, 9,     0,  0, 0, 0.98, False) /* Create nothing for ContainTreasure */
+     , (25807, 9,     0,  0, 0, 0.99, False) /* Create nothing for ContainTreasure */
+     , (25807, 9,     0,  0, 0, 0.93, False) /* Create nothing for ContainTreasure */
      , (25807, 9,  9310,  0, 0, 0.07, False) /* Create A Large Mnemosyne (9310) for ContainTreasure */
      , (25807, 9, 23107,  0, 0, 0.01, False) /* Create Mangled Dark Key (23107) for ContainTreasure */
      , (25807, 9, 23108,  0, 0, 0.02, False) /* Create Twisted Dark Key (23108) for ContainTreasure */;

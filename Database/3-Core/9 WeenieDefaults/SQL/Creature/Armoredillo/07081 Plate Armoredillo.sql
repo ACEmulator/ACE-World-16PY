@@ -134,7 +134,7 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 268435538 /* Twitch2 */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (7081, 9,     0,  0, 0, 0.93, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 4 for ContainTreasure */
-     , (7081, 9,     0,  0, 0, 0.97, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 4 for ContainTreasure */
+VALUES (7081, 9,     0,  0, 0, 0.93, False) /* Create nothing for ContainTreasure */
+     , (7081, 9,     0,  0, 0, 0.97, False) /* Create nothing for ContainTreasure */
      , (7081, 9, 22951,  0, 0, 0.07, False) /* Create Plate Armoredillo Spine (22951) for ContainTreasure */
      , (7081, 9, 24828,  0, 0, 0.03, False) /* Create Plate Armoredillo Hide (24828) for ContainTreasure */;

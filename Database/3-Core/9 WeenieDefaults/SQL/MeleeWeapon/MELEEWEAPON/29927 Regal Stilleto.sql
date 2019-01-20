@@ -23,7 +23,7 @@ VALUES (29927,   1,          1) /* ItemType - MeleeWeapon */
      , (29927, 150,        103) /* HookPlacement - Hook */
      , (29927, 151,          2) /* HookType - Wall */
      , (29927, 158,          1) /* WieldRequirements - Skill */
-     , (29927, 159,          4) /* WieldSkilltype - Dagger */
+     , (29927, 159,          4) /* WieldSkillType - Dagger */
      , (29927, 160,        325) /* WieldDifficulty */
      , (29927, 166,         75) /* SlayerCreatureType - Burun */;
 

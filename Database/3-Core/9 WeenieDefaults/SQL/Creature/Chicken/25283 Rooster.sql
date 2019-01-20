@@ -532,5 +532,5 @@ VALUES (@parent_id,  0,   6 /* Move */, 0, 2, NULL, NULL, NULL, NULL, NULL, NULL
      , (@parent_id,  1,   5 /* Motion */, 0, 1, 1090519043 /* Ready */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (25283, 9,     0,  0, 0, 0.25, False) /* Create UNKNOWN RANDOMLY GENERATED TREASURE for ContainTreasure */
+VALUES (25283, 9,     0,  0, 0, 0.25, False) /* Create nothing for ContainTreasure */
      , (25283, 9,   262,  0, 0, 0.75, False) /* Create Chicken (262) for ContainTreasure */;

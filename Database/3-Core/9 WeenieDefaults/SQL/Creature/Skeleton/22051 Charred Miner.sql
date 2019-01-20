@@ -146,6 +146,6 @@ VALUES (@parent_id,  0,  10 /* Tell */, 0, 1, NULL, 'Release...me...', NULL, NUL
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (22051, 2,  5753,  0, 0, 0, False) /* Create Pickaxe (5753) for Wield */
-     , (22051, 9,     0,  0, 0, 0.9, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 4 for ContainTreasure */
-     , (22051, 9,     0,  0, 0, 0.96, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 4 for ContainTreasure */
+     , (22051, 9,     0,  0, 0, 0.9, False) /* Create nothing for ContainTreasure */
+     , (22051, 9,     0,  0, 0, 0.96, False) /* Create nothing for ContainTreasure */
      , (22051, 9,  3687,  0, 0, 0.1, False) /* Create Skeleton's Skull (3687) for ContainTreasure */;

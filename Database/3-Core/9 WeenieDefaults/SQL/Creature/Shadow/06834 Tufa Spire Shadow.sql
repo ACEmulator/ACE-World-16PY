@@ -174,7 +174,7 @@ INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `w
 VALUES (6834, 1,  6820,  0, 0, 1, False) /* Create Spire Key Chunk - Tufa (6820) for Contain */
      , (6834, 1,  6820,  0, 0, 1, False) /* Create Spire Key Chunk - Tufa (6820) for Contain */
      , (6834, 8,  6059,  0, 0, 0.03, False) /* Create Dark Sliver (6059) for Treasure */
-     , (6834, 9,     0,  0, 0, 0.97, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 4 for ContainTreasure */
-     , (6834, 9,     0,  0, 0, 0.98, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 4 for ContainTreasure */
+     , (6834, 9,     0,  0, 0, 0.97, False) /* Create nothing for ContainTreasure */
+     , (6834, 9,     0,  0, 0, 0.98, False) /* Create nothing for ContainTreasure */
      , (6834, 9,  6059,  0, 0, 0.03, False) /* Create Dark Sliver (6059) for ContainTreasure */
      , (6834, 9,  6876,  0, 0, 0.02, False) /* Create Sturdy Iron Key (6876) for ContainTreasure */;

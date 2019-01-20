@@ -180,5 +180,5 @@ INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `w
 VALUES (8816, 1,  8785,  0, 0, 0, False) /* Create Empyrean Scalemail Shirt (8785) for Contain */
      , (8816, 1,  8786,  0, 0, 0, False) /* Create Barbed Fletching Tool (8786) for Contain */
      , (8816, 1,  8788,  0, 0, 0, False) /* Create Obsidian Dagger (8788) for Contain */
-     , (8816, 9,     0,  0, 0, 0.98, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 3 for ContainTreasure */
+     , (8816, 9,     0,  0, 0, 0.98, False) /* Create nothing for ContainTreasure */
      , (8816, 9,  6876,  0, 0, 0.02, False) /* Create Sturdy Iron Key (6876) for ContainTreasure */;

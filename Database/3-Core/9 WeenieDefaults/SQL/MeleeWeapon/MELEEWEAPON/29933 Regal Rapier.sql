@@ -24,7 +24,7 @@ VALUES (29933,   1,          1) /* ItemType - MeleeWeapon */
      , (29933, 150,        103) /* HookPlacement - Hook */
      , (29933, 151,          2) /* HookType - Wall */
      , (29933, 158,          1) /* WieldRequirements - Skill */
-     , (29933, 159,         11) /* WieldSkilltype - Sword */
+     , (29933, 159,         11) /* WieldSkillType - Sword */
      , (29933, 160,        325) /* WieldDifficulty */
      , (29933, 166,         75) /* SlayerCreatureType - Burun */;
 

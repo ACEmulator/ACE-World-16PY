@@ -26,7 +26,7 @@ VALUES (29925,   1,        256) /* ItemType - MissileWeapon */
      , (29925, 150,        103) /* HookPlacement - Hook */
      , (29925, 151,          2) /* HookType - Wall */
      , (29925, 158,          1) /* WieldRequirements - Skill */
-     , (29925, 159,          2) /* WieldSkilltype - Bow */
+     , (29925, 159,          2) /* WieldSkillType - Bow */
      , (29925, 160,        290) /* WieldDifficulty */
      , (29925, 166,         75) /* SlayerCreatureType - Burun */;
 

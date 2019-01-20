@@ -140,11 +140,11 @@ VALUES (24660,  94) /* ATTACK_NOTIFICATION_EVENT */
      , (24660, 414) /* PLAYER_DEATH_EVENT */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (24660, 9,     0,  0, 0, 0.95, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 5 for ContainTreasure */
-     , (24660, 9,     0,  0, 0, 0.95, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 5 for ContainTreasure */
-     , (24660, 9,     0,  0, 0, 0.95, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 5 for ContainTreasure */
-     , (24660, 9,     0,  0, 0, 0, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 5 for ContainTreasure */
-     , (24660, 9,     0,  0, 0, 0, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 5 for ContainTreasure */
+VALUES (24660, 9,     0,  0, 0, 0.95, False) /* Create nothing for ContainTreasure */
+     , (24660, 9,     0,  0, 0, 0.95, False) /* Create nothing for ContainTreasure */
+     , (24660, 9,     0,  0, 0, 0.95, False) /* Create nothing for ContainTreasure */
+     , (24660, 9,     0,  0, 0, 0, False) /* Create nothing for ContainTreasure */
+     , (24660, 9,     0,  0, 0, 0, False) /* Create nothing for ContainTreasure */
      , (24660, 9, 24477,  0, 0, 0.05, False) /* Create Sturdy Steel Key (24477) for ContainTreasure */
      , (24660, 9, 24477,  0, 0, 0.05, False) /* Create Sturdy Steel Key (24477) for ContainTreasure */
      , (24660, 9, 24477,  0, 0, 0.05, False) /* Create Sturdy Steel Key (24477) for ContainTreasure */

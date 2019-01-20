@@ -25,7 +25,7 @@ VALUES (27819,   1,          1) /* ItemType - MeleeWeapon */
      , (27819, 109,        200) /* ItemDifficulty */
      , (27819, 114,          1) /* Attuned - Attuned */
      , (27819, 158,          2) /* WieldRequirements - RawSkill */
-     , (27819, 159,          1) /* WieldSkilltype - Axe */
+     , (27819, 159,          1) /* WieldSkillType - Axe */
      , (27819, 160,        250) /* WieldDifficulty */
      , (27819, 166,         19) /* SlayerCreatureType - Virindi */;
 

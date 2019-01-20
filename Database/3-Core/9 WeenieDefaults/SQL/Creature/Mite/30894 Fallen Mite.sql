@@ -109,6 +109,6 @@ VALUES (30894,  94) /* ATTACK_NOTIFICATION_EVENT */
      , (30894, 414) /* PLAYER_DEATH_EVENT */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (30894, 9,     0,  0, 0, 0.5, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 6 for ContainTreasure */
+VALUES (30894, 9,     0,  0, 0, 0.5, False) /* Create nothing for ContainTreasure */
      , (30894, 9, 30857,  0, 0, 0.5, False) /* Create Sezzherei's Lair (30857) for ContainTreasure */
      , (30894, 9, 30869,  0, 0, 1, False) /* Create Dirk of the Fallen (30869) for ContainTreasure */;

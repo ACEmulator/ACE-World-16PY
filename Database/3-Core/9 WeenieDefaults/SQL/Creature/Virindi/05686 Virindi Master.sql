@@ -198,9 +198,9 @@ VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 268435539 /* Twitch3 */, NULL, N
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (5686, 1,  5680,  0, 0, 1, False) /* Create Torn Journal (5680) for Contain */
-     , (5686, 9,     0,  0, 0, 0.95, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 4 for ContainTreasure */
-     , (5686, 9,     0,  0, 0, 0.98, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 4 for ContainTreasure */
-     , (5686, 9,     0,  0, 0, 0.95, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 4 for ContainTreasure */
+     , (5686, 9,     0,  0, 0, 0.95, False) /* Create nothing for ContainTreasure */
+     , (5686, 9,     0,  0, 0, 0.98, False) /* Create nothing for ContainTreasure */
+     , (5686, 9,     0,  0, 0, 0.95, False) /* Create nothing for ContainTreasure */
      , (5686, 9,  3698,  0, 0, 0.05, False) /* Create White Jewel (3698) for ContainTreasure */
      , (5686, 9,  6876,  0, 0, 0.02, False) /* Create Sturdy Iron Key (6876) for ContainTreasure */
      , (5686, 9,  8154,  0, 0, 0.05, False) /* Create Broken Virindi Mask (8154) for ContainTreasure */;

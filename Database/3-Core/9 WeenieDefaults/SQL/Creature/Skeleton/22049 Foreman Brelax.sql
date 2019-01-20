@@ -151,5 +151,5 @@ VALUES (@parent_id,  0,  10 /* Tell */, 0, 1, NULL, 'Serve...Cambarth', NULL, NU
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (22049, 2,  7973,  0, 0, 0, False) /* Create Flaming Tachi (7973) for Wield */
-     , (22049, 9,     0,  0, 0, 0.9, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 5 for ContainTreasure */
+     , (22049, 9,     0,  0, 0, 0.9, False) /* Create nothing for ContainTreasure */
      , (22049, 9,  3687,  0, 0, 0.1, False) /* Create Skeleton's Skull (3687) for ContainTreasure */;

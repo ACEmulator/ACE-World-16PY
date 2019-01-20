@@ -24,7 +24,7 @@ VALUES (24207,   1,      32768) /* ItemType - Caster */
      , (24207, 150,        103) /* HookPlacement - Hook */
      , (24207, 151,          2) /* HookType - Wall */
      , (24207, 158,          2) /* WieldRequirements - RawSkill */
-     , (24207, 159,         33) /* WieldSkilltype - LifeMagic */
+     , (24207, 159,         33) /* WieldSkillType - LifeMagic */
      , (24207, 160,        300) /* WieldDifficulty */
      , (24207, 166,         31) /* SlayerCreatureType - Human */;
 

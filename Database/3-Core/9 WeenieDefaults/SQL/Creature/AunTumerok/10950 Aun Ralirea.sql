@@ -270,8 +270,8 @@ INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `w
 VALUES (10950, 1, 10960,  1, 0, 1, False) /* Create Clay Figurine (10960) for Contain */
      , (10950, 1, 10996,  1, 0, 1, False) /* Create Ebon Spine Harpoon (10996) for Contain */
      , (10950, 2, 10995,  0, 0, 1, False) /* Create Ebon Spine Harpoon (10995) for Wield */
-     , (10950, 9,     0,  0, 0, 0, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 3 for ContainTreasure */
-     , (10950, 9,     0,  0, 0, 0, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 3 for ContainTreasure */
+     , (10950, 9,     0,  0, 0, 0, False) /* Create nothing for ContainTreasure */
+     , (10950, 9,     0,  0, 0, 0, False) /* Create nothing for ContainTreasure */
      , (10950, 9,  4235,  0, 0, 0.1, False) /* Create Thin Gromnie Hide (4235) for ContainTreasure */
      , (10950, 9,  4236,  0, 0, 0.2, False) /* Create Ivory Gromnie Hide (4236) for ContainTreasure */
      , (10950, 9,  4237,  0, 0, 0.7, False) /* Create Thick Gromnie Hide (4237) for ContainTreasure */

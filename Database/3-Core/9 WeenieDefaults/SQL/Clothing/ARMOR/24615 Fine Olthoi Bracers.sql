@@ -15,7 +15,7 @@ VALUES (24615,   1,          2) /* ItemType - Armor */
      , (24615,  36,       9999) /* ResistMagic */
      , (24615,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (24615, 158,          7) /* WieldRequirements - Level */
-     , (24615, 159,          1) /* WieldSkilltype - Axe */
+     , (24615, 159,          1) /* WieldSkillType - Axe */
      , (24615, 160,         60) /* WieldDifficulty */
      , (24615, 169,  118097156) /* TsysMutationData */;
 

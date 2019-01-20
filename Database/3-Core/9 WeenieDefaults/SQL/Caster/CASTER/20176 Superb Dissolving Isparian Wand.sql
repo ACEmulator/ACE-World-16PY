@@ -22,7 +22,7 @@ VALUES (20176,   1,      32768) /* ItemType - Caster */
      , (20176, 150,        103) /* HookPlacement - Hook */
      , (20176, 151,          2) /* HookType - Wall */
      , (20176, 158,          7) /* WieldRequirements - Level */
-     , (20176, 159,          1) /* WieldSkilltype - Axe */
+     , (20176, 159,          1) /* WieldSkillType - Axe */
      , (20176, 160,         40) /* WieldDifficulty */
      , (20176, 166,         42) /* SlayerCreatureType - LightningElemental */;
 

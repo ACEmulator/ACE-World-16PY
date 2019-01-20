@@ -25,7 +25,7 @@ VALUES (27834,   1,          1) /* ItemType - MeleeWeapon */
      , (27834, 109,        200) /* ItemDifficulty */
      , (27834, 114,          1) /* Attuned - Attuned */
      , (27834, 158,          2) /* WieldRequirements - RawSkill */
-     , (27834, 159,          5) /* WieldSkilltype - Mace */
+     , (27834, 159,          5) /* WieldSkillType - Mace */
      , (27834, 160,        250) /* WieldDifficulty */
      , (27834, 166,         19) /* SlayerCreatureType - Virindi */;
 

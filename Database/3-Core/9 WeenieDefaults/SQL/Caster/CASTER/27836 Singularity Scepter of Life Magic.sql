@@ -22,7 +22,7 @@ VALUES (27836,   1,      32768) /* ItemType - Caster */
      , (27836, 150,        103) /* HookPlacement - Hook */
      , (27836, 151,          2) /* HookType - Wall */
      , (27836, 158,          2) /* WieldRequirements - RawSkill */
-     , (27836, 159,         33) /* WieldSkilltype - LifeMagic */
+     , (27836, 159,         33) /* WieldSkillType - LifeMagic */
      , (27836, 160,        225) /* WieldDifficulty */
      , (27836, 166,         19) /* SlayerCreatureType - Virindi */;
 

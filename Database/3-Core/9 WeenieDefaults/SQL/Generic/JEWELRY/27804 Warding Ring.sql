@@ -15,7 +15,7 @@ VALUES (27804,   1,          8) /* ItemType - Jewelry */
      , (27804, 107,        600) /* ItemCurMana */
      , (27804, 108,        600) /* ItemMaxMana */
      , (27804, 158,          2) /* WieldRequirements - RawSkill */
-     , (27804, 159,         14) /* WieldSkilltype - ArcaneLore */
+     , (27804, 159,         14) /* WieldSkillType - ArcaneLore */
      , (27804, 160,        275) /* WieldDifficulty */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)

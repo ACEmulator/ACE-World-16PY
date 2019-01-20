@@ -26,7 +26,7 @@ VALUES (21913,   1,          1) /* ItemType - MeleeWeapon */
      , (21913, 150,        103) /* HookPlacement - Hook */
      , (21913, 151,          2) /* HookType - Wall */
      , (21913, 158,          7) /* WieldRequirements - Level */
-     , (21913, 159,          1) /* WieldSkilltype - Axe */
+     , (21913, 159,          1) /* WieldSkillType - Axe */
      , (21913, 160,         30) /* WieldDifficulty */
      , (21913, 166,          1) /* SlayerCreatureType - Olthoi */;
 

@@ -22,7 +22,7 @@ VALUES (14862,   1,          1) /* ItemType - MeleeWeapon */
      , (14862, 108,       2000) /* ItemMaxMana */
      , (14862, 109,        150) /* ItemDifficulty */
      , (14862, 158,          7) /* WieldRequirements - Level */
-     , (14862, 159,          1) /* WieldSkilltype - Axe */
+     , (14862, 159,          1) /* WieldSkillType - Axe */
      , (14862, 160,         70) /* WieldDifficulty */
      , (14862, 166,          1) /* SlayerCreatureType - Olthoi */;
 

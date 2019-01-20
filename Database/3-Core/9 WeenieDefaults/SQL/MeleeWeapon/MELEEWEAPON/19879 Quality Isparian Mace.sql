@@ -27,7 +27,7 @@ VALUES (19879,   1,          1) /* ItemType - MeleeWeapon */
      , (19879, 150,        103) /* HookPlacement - Hook */
      , (19879, 151,          2) /* HookType - Wall */
      , (19879, 158,          7) /* WieldRequirements - Level */
-     , (19879, 159,          1) /* WieldSkilltype - Axe */
+     , (19879, 159,          1) /* WieldSkillType - Axe */
      , (19879, 160,         20) /* WieldDifficulty */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)

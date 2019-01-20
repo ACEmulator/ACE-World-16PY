@@ -148,9 +148,9 @@ VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 1090519043 /* Ready */, NULL, NU
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (8272, 2,  8395, 12, 0, 0, False) /* Create Jack o' Lantern (8395) for Wield */
-     , (8272, 9,     0,  0, 0, 0.9, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 1 for ContainTreasure */
-     , (8272, 9,     0,  0, 0, 0.8, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 1 for ContainTreasure */
-     , (8272, 9,     0,  0, 0, 0.95, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 1 for ContainTreasure */
+     , (8272, 9,     0,  0, 0, 0.9, False) /* Create nothing for ContainTreasure */
+     , (8272, 9,     0,  0, 0, 0.8, False) /* Create nothing for ContainTreasure */
+     , (8272, 9,     0,  0, 0, 0.95, False) /* Create nothing for ContainTreasure */
      , (8272, 9,  8232,  0, 0, 0.1, False) /* Create Pumpkin (8232) for ContainTreasure */
      , (8272, 9,  8232,  0, 0, 0.2, False) /* Create Pumpkin (8232) for ContainTreasure */
      , (8272, 9, 28876,  0, 0, 0.05, False) /* Create Scarecrow Legs (28876) for ContainTreasure */;

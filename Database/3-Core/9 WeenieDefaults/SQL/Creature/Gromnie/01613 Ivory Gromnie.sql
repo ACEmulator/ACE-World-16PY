@@ -139,9 +139,9 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 268435538 /* Twitch2 */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (1613, 9,     0,  0, 0, 0.95, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 1 for ContainTreasure */
-     , (1613, 9,     0,  0, 0, 0.95, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 1 for ContainTreasure */
-     , (1613, 9,     0,  0, 0, 0.9, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 1 for ContainTreasure */
+VALUES (1613, 9,     0,  0, 0, 0.95, False) /* Create nothing for ContainTreasure */
+     , (1613, 9,     0,  0, 0, 0.95, False) /* Create nothing for ContainTreasure */
+     , (1613, 9,     0,  0, 0, 0.9, False) /* Create nothing for ContainTreasure */
      , (1613, 9,  3675,  0, 0, 0.05, False) /* Create Ivory Gromnie Tooth (3675) for ContainTreasure */
      , (1613, 9,  4236,  0, 0, 0.05, False) /* Create Ivory Gromnie Hide (4236) for ContainTreasure */
      , (1613, 9,  5794,  0, 0, 0.1, False) /* Create Hot Pepper (5794) for ContainTreasure */;

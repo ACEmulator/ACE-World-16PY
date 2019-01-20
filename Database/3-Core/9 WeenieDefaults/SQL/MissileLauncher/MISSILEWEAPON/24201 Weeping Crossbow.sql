@@ -29,7 +29,7 @@ VALUES (24201,   1,        256) /* ItemType - MissileWeapon */
      , (24201, 150,        103) /* HookPlacement - Hook */
      , (24201, 151,          2) /* HookType - Wall */
      , (24201, 158,          2) /* WieldRequirements - RawSkill */
-     , (24201, 159,          3) /* WieldSkilltype - Crossbow */
+     , (24201, 159,          3) /* WieldSkillType - Crossbow */
      , (24201, 160,        290) /* WieldDifficulty */
      , (24201, 166,         31) /* SlayerCreatureType - Human */;
 

@@ -26,7 +26,7 @@ VALUES (21426,   1,        256) /* ItemType - MissileWeapon */
      , (21426, 150,        103) /* HookPlacement - Hook */
      , (21426, 151,          2) /* HookType - Wall */
      , (21426, 158,          7) /* WieldRequirements - Level */
-     , (21426, 159,          1) /* WieldSkilltype - Axe */
+     , (21426, 159,          1) /* WieldSkillType - Axe */
      , (21426, 160,         30) /* WieldDifficulty */
      , (21426, 166,          1) /* SlayerCreatureType - Olthoi */;
 

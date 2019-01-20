@@ -178,8 +178,8 @@ VALUES (22133,  94) /* ATTACK_NOTIFICATION_EVENT */
      , (22133, 414) /* PLAYER_DEATH_EVENT */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (22133, 9,     0,  0, 0, 0.98, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 2 for ContainTreasure */
-     , (22133, 9,     0,  0, 0, 0.95, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 2 for ContainTreasure */
+VALUES (22133, 9,     0,  0, 0, 0.98, False) /* Create nothing for ContainTreasure */
+     , (22133, 9,     0,  0, 0, 0.95, False) /* Create nothing for ContainTreasure */
      , (22133, 9,  7041,  0, 0, 0.02, False) /* Create Undead Thighbone (7041) for ContainTreasure */
      , (22133, 9, 19477,  0, 0, 0.05, False) /* Create Undead Femur bone (19477) for ContainTreasure */
      , (22133, 9, 22093,  0, 0, 1, False) /* Create An Old Chronicle (22093) for ContainTreasure */;

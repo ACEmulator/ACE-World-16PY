@@ -6,7 +6,7 @@ VALUES (3654, True, 0, 0, 0, True, 0, 0, 0);
 
 SET @parent_id = LAST_INSERT_ID();
 
-INSERT INTO `recipe_mods_int` (`recipe_Mod_Id`, `stat`, `value`, `enum`, `unknown_1`)
+INSERT INTO `recipe_mods_int` (`recipe_Mod_Id`, `stat`, `value`, `enum`, `source`)
 VALUES (@parent_id,   3, 0, 3, 1) /* PaletteTemplate - Undef */;
 
 INSERT INTO `recipe_mod` (`recipe_Id`, `executes_On_Success`, `health`, `stamina`, `mana`, `unknown_7`, `data_Id`, `unknown_9`, `instance_Id`)
@@ -14,7 +14,7 @@ VALUES (3654, False, 0, 0, 0, True, 0, 0, 0);
 
 SET @parent_id = LAST_INSERT_ID();
 
-INSERT INTO `recipe_mods_int` (`recipe_Mod_Id`, `stat`, `value`, `enum`, `unknown_1`)
+INSERT INTO `recipe_mods_int` (`recipe_Mod_Id`, `stat`, `value`, `enum`, `source`)
 VALUES (@parent_id,   3, 87, 1, 1) /* PaletteTemplate - DyeBotched */;
 
 INSERT INTO `cook_book` (`recipe_Id`, `source_W_C_I_D`, `target_W_C_I_D`)

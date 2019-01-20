@@ -27,7 +27,7 @@ VALUES (19873,   1,          1) /* ItemType - MeleeWeapon */
      , (19873, 150,        103) /* HookPlacement - Hook */
      , (19873, 151,          2) /* HookType - Wall */
      , (19873, 158,          7) /* WieldRequirements - Level */
-     , (19873, 159,          1) /* WieldSkilltype - Axe */
+     , (19873, 159,          1) /* WieldSkillType - Axe */
      , (19873, 160,         30) /* WieldDifficulty */
      , (19873, 166,         61) /* SlayerCreatureType - FrostElemental */;
 

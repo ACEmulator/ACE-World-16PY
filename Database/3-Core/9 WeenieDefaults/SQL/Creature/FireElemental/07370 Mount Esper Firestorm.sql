@@ -140,15 +140,15 @@ VALUES (@parent_id,  0,  17 /* LocalBroadcast */, 0, 0, NULL, 'As %s smites the 
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (7370, 2,  7799,  3, 0, 0, False) /* Create Ball of plasma (7799) for Wield */
-     , (7370, 9,     0,  0, 0, 0, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 4 for ContainTreasure */
-     , (7370, 9,     0,  0, 0, 0, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 4 for ContainTreasure */
-     , (7370, 9,     0,  0, 0, 0, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 4 for ContainTreasure */
-     , (7370, 9,     0,  0, 0, 0, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 4 for ContainTreasure */
-     , (7370, 9,     0,  0, 0, 0, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 4 for ContainTreasure */
-     , (7370, 9,     0,  0, 0, 0, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 4 for ContainTreasure */
-     , (7370, 9,     0,  0, 0, 0, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 4 for ContainTreasure */
-     , (7370, 9,     0,  0, 0, 0, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 4 for ContainTreasure */
-     , (7370, 9,     0,  0, 0, 0, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 4 for ContainTreasure */
+     , (7370, 9,     0,  0, 0, 0, False) /* Create nothing for ContainTreasure */
+     , (7370, 9,     0,  0, 0, 0, False) /* Create nothing for ContainTreasure */
+     , (7370, 9,     0,  0, 0, 0, False) /* Create nothing for ContainTreasure */
+     , (7370, 9,     0,  0, 0, 0, False) /* Create nothing for ContainTreasure */
+     , (7370, 9,     0,  0, 0, 0, False) /* Create nothing for ContainTreasure */
+     , (7370, 9,     0,  0, 0, 0, False) /* Create nothing for ContainTreasure */
+     , (7370, 9,     0,  0, 0, 0, False) /* Create nothing for ContainTreasure */
+     , (7370, 9,     0,  0, 0, 0, False) /* Create nothing for ContainTreasure */
+     , (7370, 9,     0,  0, 0, 0, False) /* Create nothing for ContainTreasure */
      , (7370, 9,  7419,  0, 0, 1, False) /* Create White Fire Infusion (7419) for ContainTreasure */
      , (7370, 9,  7419,  0, 0, 1, False) /* Create White Fire Infusion (7419) for ContainTreasure */
      , (7370, 9,  7419,  0, 0, 1, False) /* Create White Fire Infusion (7419) for ContainTreasure */

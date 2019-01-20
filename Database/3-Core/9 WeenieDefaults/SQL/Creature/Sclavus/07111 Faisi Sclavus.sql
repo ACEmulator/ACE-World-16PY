@@ -151,15 +151,15 @@ VALUES (7111,  94) /* ATTACK_NOTIFICATION_EVENT */
      , (7111, 414) /* PLAYER_DEATH_EVENT */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (7111, 9,     0,  0, 0, 0.99, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 3 for ContainTreasure */
-     , (7111, 9,     0,  0, 0, 0.97, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 3 for ContainTreasure */
-     , (7111, 9,     0,  0, 0, 0.97, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 3 for ContainTreasure */
-     , (7111, 9,     0,  0, 0, 0.96, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 3 for ContainTreasure */
-     , (7111, 9,     0,  0, 0, 0.995, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 3 for ContainTreasure */
-     , (7111, 9,     0,  0, 0, 0.05, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 3 for ContainTreasure */
-     , (7111, 9,     0,  0, 0, 0.95, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 3 for ContainTreasure */
-     , (7111, 9,     0,  0, 0, 0.95, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 3 for ContainTreasure */
-     , (7111, 9,     0,  0, 0, 0.95, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 3 for ContainTreasure */
+VALUES (7111, 9,     0,  0, 0, 0.99, False) /* Create nothing for ContainTreasure */
+     , (7111, 9,     0,  0, 0, 0.97, False) /* Create nothing for ContainTreasure */
+     , (7111, 9,     0,  0, 0, 0.97, False) /* Create nothing for ContainTreasure */
+     , (7111, 9,     0,  0, 0, 0.96, False) /* Create nothing for ContainTreasure */
+     , (7111, 9,     0,  0, 0, 0.995, False) /* Create nothing for ContainTreasure */
+     , (7111, 9,     0,  0, 0, 0.05, False) /* Create nothing for ContainTreasure */
+     , (7111, 9,     0,  0, 0, 0.95, False) /* Create nothing for ContainTreasure */
+     , (7111, 9,     0,  0, 0, 0.95, False) /* Create nothing for ContainTreasure */
+     , (7111, 9,     0,  0, 0, 0.95, False) /* Create nothing for ContainTreasure */
      , (7111, 9,  6876,  0, 0, 0.01, False) /* Create Sturdy Iron Key (6876) for ContainTreasure */
      , (7111, 9,  7046,  0, 0, 0.03, False) /* Create Sclavus Tongue (7046) for ContainTreasure */
      , (7111, 9,  9259,  0, 0, 0.03, False) /* Create Large Sclavus Hide (9259) for ContainTreasure */

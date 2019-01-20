@@ -164,6 +164,6 @@ VALUES (23617,  94) /* ATTACK_NOTIFICATION_EVENT */
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (23617, 1,  3695,  0, 0, 1, False) /* Create Gold Tumerok Insignia (3695) for Contain */
-     , (23617, 9,     0,  0, 0, 0.95, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 4 for ContainTreasure */
+     , (23617, 9,     0,  0, 0, 0.95, False) /* Create nothing for ContainTreasure */
      , (23617, 9, 30907,  0, 0, 0.05, False) /* Create Halaetan Magic Page 2 (30907) for ContainTreasure */
      , (23617, 10,    91,  0, 0, 1, False) /* Create Kite Shield (91) for WieldTreasure */;

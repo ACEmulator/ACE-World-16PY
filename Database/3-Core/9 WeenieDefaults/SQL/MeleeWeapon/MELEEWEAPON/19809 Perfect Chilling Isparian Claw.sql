@@ -27,7 +27,7 @@ VALUES (19809,   1,          1) /* ItemType - MeleeWeapon */
      , (19809, 150,        103) /* HookPlacement - Hook */
      , (19809, 151,          2) /* HookType - Wall */
      , (19809, 158,          7) /* WieldRequirements - Level */
-     , (19809, 159,          1) /* WieldSkilltype - Axe */
+     , (19809, 159,          1) /* WieldSkillType - Axe */
      , (19809, 160,         50) /* WieldDifficulty */
      , (19809, 166,         38) /* SlayerCreatureType - FireElemental */;
 

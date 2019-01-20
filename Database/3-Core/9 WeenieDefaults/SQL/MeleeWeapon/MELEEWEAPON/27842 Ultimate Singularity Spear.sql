@@ -27,7 +27,7 @@ VALUES (27842,   1,          1) /* ItemType - MeleeWeapon */
      , (27842, 150,        103) /* HookPlacement - Hook */
      , (27842, 151,          2) /* HookType - Wall */
      , (27842, 158,          2) /* WieldRequirements - RawSkill */
-     , (27842, 159,          9) /* WieldSkilltype - Spear */
+     , (27842, 159,          9) /* WieldSkillType - Spear */
      , (27842, 160,        325) /* WieldDifficulty */
      , (27842, 166,         19) /* SlayerCreatureType - Virindi */;
 

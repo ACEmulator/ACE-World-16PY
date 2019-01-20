@@ -188,5 +188,5 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,  17 /* LocalBroadcast */, 0, 0, NULL, 'You hear a childish voice say, "They wait...we wait..."', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (8055, 9,     0,  0, 0, 0.98, False) /* Create 1x Club (309), 1x Dabus (313), 1x Dagger (314), 1x Kasrullah (325), 1x Khanjar (328), 1x Mace (331), 1x Short Sword (352), 1x Simi (345), 1x Tofun (356), 1x Yaoji (361), 10x Throwing Dart (316), 10x Shouken (343), 6x Throwing Dagger (315), 4x Javelin (320), 1x Djarid (317), 4x Throwing Club (310) from Wielded Treasure Table for ContainTreasure */
+VALUES (8055, 9,     0,  0, 0, 0.98, False) /* Create nothing for ContainTreasure */
      , (8055, 9,  6060,  0, 0, 0.02, False) /* Create Dark Speck (6060) for ContainTreasure */;

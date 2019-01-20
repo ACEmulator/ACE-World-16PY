@@ -133,8 +133,8 @@ VALUES (11987,  94) /* ATTACK_NOTIFICATION_EVENT */
      , (11987, 414) /* PLAYER_DEATH_EVENT */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (11987, 9,     0,  0, 0, 0.5, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 3 for ContainTreasure */
-     , (11987, 9,     0,  0, 0, 0.7, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 3 for ContainTreasure */
+VALUES (11987, 9,     0,  0, 0, 0.5, False) /* Create nothing for ContainTreasure */
+     , (11987, 9,     0,  0, 0, 0.7, False) /* Create nothing for ContainTreasure */
      , (11987, 9,  6056,  0, 0, 0.5, False) /* Create Small Shard (6056) for ContainTreasure */
      , (11987, 9, 23541,  0, 0, 0.3, False) /* Create Crystal Sword (23541) for ContainTreasure */;
 

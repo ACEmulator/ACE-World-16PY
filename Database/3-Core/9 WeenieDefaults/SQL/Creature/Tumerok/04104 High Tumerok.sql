@@ -170,9 +170,9 @@ VALUES (4104, 8,   301,  0, 0, 0.14, False) /* Create Battle Axe (301) for Treas
      , (4104, 8,   351,  0, 0, 0.06, False) /* Create Long Sword (351) for Treasure */
      , (4104, 8,   353,  0, 0, 0.06, False) /* Create Tachi (353) for Treasure */
      , (4104, 8,   354,  0, 0, 0.06, False) /* Create Takuba (354) for Treasure */
-     , (4104, 9,     0,  0, 0, 0.99, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 2 for ContainTreasure */
-     , (4104, 9,     0,  0, 0, 0.8, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 2 for ContainTreasure */
-     , (4104, 9,     0,  0, 0, 0.97, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 2 for ContainTreasure */
+     , (4104, 9,     0,  0, 0, 0.99, False) /* Create nothing for ContainTreasure */
+     , (4104, 9,     0,  0, 0, 0.8, False) /* Create nothing for ContainTreasure */
+     , (4104, 9,     0,  0, 0, 0.97, False) /* Create nothing for ContainTreasure */
      , (4104, 9,  3695,  0, 0, 0.2, False) /* Create Gold Tumerok Insignia (3695) for ContainTreasure */
      , (4104, 9,  6876,  0, 0, 0.01, False) /* Create Sturdy Iron Key (6876) for ContainTreasure */
      , (4104, 9,  7825,  0, 0, 0.03, False) /* Create Brown Beans (7825) for ContainTreasure */;

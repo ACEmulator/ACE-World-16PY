@@ -138,5 +138,5 @@ VALUES (6788, 1,  6621,  1, 0, 0, False) /* Create Scintillating Gem (6621) for 
      , (6788, 1,  6621,  1, 0, 0, False) /* Create Scintillating Gem (6621) for Contain */
      , (6788, 1,  6621,  1, 0, 0, False) /* Create Scintillating Gem (6621) for Contain */
      , (6788, 1,  6807,  1, 0, 0, False) /* Create Nexus Core Gem (6807) for Contain */
-     , (6788, 9,     0,  0, 0, 0.98, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 5 for ContainTreasure */
+     , (6788, 9,     0,  0, 0, 0.98, False) /* Create nothing for ContainTreasure */
      , (6788, 9,  6876,  0, 0, 0.02, False) /* Create Sturdy Iron Key (6876) for ContainTreasure */;

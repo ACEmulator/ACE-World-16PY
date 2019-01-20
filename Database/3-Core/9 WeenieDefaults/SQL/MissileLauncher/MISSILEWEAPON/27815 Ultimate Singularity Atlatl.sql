@@ -27,7 +27,7 @@ VALUES (27815,   1,        256) /* ItemType - MissileWeapon */
      , (27815, 150,        103) /* HookPlacement - Hook */
      , (27815, 151,          2) /* HookType - Wall */
      , (27815, 158,          2) /* WieldRequirements - RawSkill */
-     , (27815, 159,         12) /* WieldSkilltype - ThrownWeapon */
+     , (27815, 159,         12) /* WieldSkillType - ThrownWeapon */
      , (27815, 160,        290) /* WieldDifficulty */
      , (27815, 166,         19) /* SlayerCreatureType - Virindi */;
 

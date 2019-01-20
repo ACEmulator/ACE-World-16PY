@@ -148,10 +148,10 @@ VALUES (11522,  94) /* ATTACK_NOTIFICATION_EVENT */
      , (11522, 414) /* PLAYER_DEATH_EVENT */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (11522, 9,     0,  0, 0, 0.96, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 4 for ContainTreasure */
-     , (11522, 9,     0,  0, 0, 0.96, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 4 for ContainTreasure */
-     , (11522, 9,     0,  0, 0, 0.96, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 4 for ContainTreasure */
-     , (11522, 9,     0,  0, 0, 0.99, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 4 for ContainTreasure */
+VALUES (11522, 9,     0,  0, 0, 0.96, False) /* Create nothing for ContainTreasure */
+     , (11522, 9,     0,  0, 0, 0.96, False) /* Create nothing for ContainTreasure */
+     , (11522, 9,     0,  0, 0, 0.96, False) /* Create nothing for ContainTreasure */
+     , (11522, 9,     0,  0, 0, 0.99, False) /* Create nothing for ContainTreasure */
      , (11522, 9,  6876,  0, 0, 0.01, False) /* Create Sturdy Iron Key (6876) for ContainTreasure */
      , (11522, 9, 11454,  0, 0, 0.04, False) /* Create Totem of Audetaunga (11454) for ContainTreasure */
      , (11522, 9, 11455,  0, 0, 0.04, False) /* Create Totem of Tanae (11455) for ContainTreasure */

@@ -23,7 +23,7 @@ VALUES (21358,   1,          1) /* ItemType - MeleeWeapon */
      , (21358, 150,        103) /* HookPlacement - Hook */
      , (21358, 151,          2) /* HookType - Wall */
      , (21358, 158,          2) /* WieldRequirements - RawSkill */
-     , (21358, 159,          9) /* WieldSkilltype - Spear */
+     , (21358, 159,          9) /* WieldSkillType - Spear */
      , (21358, 160,        275) /* WieldDifficulty */
      , (21358, 179, -2147483648) /* ImbuedEffect - IgnoreAllArmor */;
 

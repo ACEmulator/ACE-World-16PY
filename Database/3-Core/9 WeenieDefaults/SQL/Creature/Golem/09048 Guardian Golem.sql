@@ -144,9 +144,9 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   1 /* Act */, 0, 1, NULL, 'The Guardian Golem grumbles to itself.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (9048, 9,     0,  0, 0, 0.85, False) /* Create UNKNOWN RANDOMLY GENERATED TREASURE for ContainTreasure */
-     , (9048, 9,     0,  0, 0, 0.96, False) /* Create UNKNOWN RANDOMLY GENERATED TREASURE for ContainTreasure */
-     , (9048, 9,     0,  0, 0, 0.96, False) /* Create UNKNOWN RANDOMLY GENERATED TREASURE for ContainTreasure */
+VALUES (9048, 9,     0,  0, 0, 0.85, False) /* Create nothing for ContainTreasure */
+     , (9048, 9,     0,  0, 0, 0.96, False) /* Create nothing for ContainTreasure */
+     , (9048, 9,     0,  0, 0, 0.96, False) /* Create nothing for ContainTreasure */
      , (9048, 9,  6353,  0, 0, 0.04, False) /* Create Pyreal Mote (6353) for ContainTreasure */
      , (9048, 9,  7338,  0, 0, 0.15, False) /* Create Diamond Heart (7338) for ContainTreasure */
      , (9048, 9,  9105,  0, 0, 1, False) /* Create Trunk Key (9105) for ContainTreasure */

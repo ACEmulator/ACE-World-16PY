@@ -25,7 +25,7 @@ VALUES (30868,   1,        256) /* ItemType - MissileWeapon */
      , (30868, 150,        103) /* HookPlacement - Hook */
      , (30868, 151,          2) /* HookType - Wall */
      , (30868, 158,          2) /* WieldRequirements - RawSkill */
-     , (30868, 159,          3) /* WieldSkilltype - Crossbow */
+     , (30868, 159,          3) /* WieldSkillType - Crossbow */
      , (30868, 160,        335) /* WieldDifficulty */
      , (30868, 204,          8) /* ElementalDamageBonus */;
 

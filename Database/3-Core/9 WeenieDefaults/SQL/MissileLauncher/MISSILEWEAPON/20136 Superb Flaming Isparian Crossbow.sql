@@ -29,7 +29,7 @@ VALUES (20136,   1,        256) /* ItemType - MissileWeapon */
      , (20136, 150,        103) /* HookPlacement - Hook */
      , (20136, 151,          2) /* HookType - Wall */
      , (20136, 158,          7) /* WieldRequirements - Level */
-     , (20136, 159,          1) /* WieldSkilltype - Axe */
+     , (20136, 159,          1) /* WieldSkillType - Axe */
      , (20136, 160,         40) /* WieldDifficulty */
      , (20136, 166,         61) /* SlayerCreatureType - FrostElemental */;
 

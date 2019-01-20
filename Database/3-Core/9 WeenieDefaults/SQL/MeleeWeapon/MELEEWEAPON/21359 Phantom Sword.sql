@@ -23,7 +23,7 @@ VALUES (21359,   1,          1) /* ItemType - MeleeWeapon */
      , (21359, 150,        103) /* HookPlacement - Hook */
      , (21359, 151,          2) /* HookType - Wall */
      , (21359, 158,          2) /* WieldRequirements - RawSkill */
-     , (21359, 159,         11) /* WieldSkilltype - Sword */
+     , (21359, 159,         11) /* WieldSkillType - Sword */
      , (21359, 160,        275) /* WieldDifficulty */
      , (21359, 179, -2147483648) /* ImbuedEffect - IgnoreAllArmor */;
 

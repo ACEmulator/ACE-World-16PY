@@ -27,7 +27,7 @@ VALUES (27833,   1,          1) /* ItemType - MeleeWeapon */
      , (27833, 150,        103) /* HookPlacement - Hook */
      , (27833, 151,          2) /* HookType - Wall */
      , (27833, 158,          2) /* WieldRequirements - RawSkill */
-     , (27833, 159,          5) /* WieldSkilltype - Mace */
+     , (27833, 159,          5) /* WieldSkillType - Mace */
      , (27833, 160,        325) /* WieldDifficulty */
      , (27833, 166,         19) /* SlayerCreatureType - Virindi */;
 

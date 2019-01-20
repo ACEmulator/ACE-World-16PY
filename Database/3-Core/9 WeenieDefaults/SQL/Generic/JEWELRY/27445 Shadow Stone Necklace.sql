@@ -18,7 +18,7 @@ VALUES (27445,   1,          8) /* ItemType - Jewelry */
      , (27445, 150,        103) /* HookPlacement - Hook */
      , (27445, 151,          2) /* HookType - Wall */
      , (27445, 158,          2) /* WieldRequirements - RawSkill */
-     , (27445, 159,         14) /* WieldSkilltype - ArcaneLore */
+     , (27445, 159,         14) /* WieldSkillType - ArcaneLore */
      , (27445, 160,        225) /* WieldDifficulty */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)

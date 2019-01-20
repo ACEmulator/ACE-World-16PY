@@ -25,7 +25,7 @@ VALUES (27846,   1,          1) /* ItemType - MeleeWeapon */
      , (27846, 109,        200) /* ItemDifficulty */
      , (27846, 114,          1) /* Attuned - Attuned */
      , (27846, 158,          2) /* WieldRequirements - RawSkill */
-     , (27846, 159,         10) /* WieldSkilltype - Staff */
+     , (27846, 159,         10) /* WieldSkillType - Staff */
      , (27846, 160,        250) /* WieldDifficulty */
      , (27846, 166,         19) /* SlayerCreatureType - Virindi */;
 

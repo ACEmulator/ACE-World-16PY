@@ -179,5 +179,5 @@ VALUES (10949, 1, 10968,  1, 0, 0, False) /* Create Karenua's Key (10968) for Co
      , (10949, 1, 10968,  1, 0, 0, False) /* Create Karenua's Key (10968) for Contain */
      , (10949, 1, 10968,  1, 0, 0, False) /* Create Karenua's Key (10968) for Contain */
      , (10949, 1, 10968,  1, 0, 0, False) /* Create Karenua's Key (10968) for Contain */
-     , (10949, 9,     0,  0, 0, 0, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 3 for ContainTreasure */
+     , (10949, 9,     0,  0, 0, 0, False) /* Create nothing for ContainTreasure */
      , (10949, 9, 10969,  0, 0, 1, False) /* Create Awakener (10969) for ContainTreasure */;
