@@ -1,6 +1,7 @@
 USE `ace_world`;
 
 ALTER TABLE `spell` 
+DROP COLUMN `portal_Lifetime`,
 DROP COLUMN `degrade_Limit`,
 DROP COLUMN `degrade_Modifier`,
 DROP COLUMN `duration`,
