@@ -10,7 +10,7 @@ VALUES (29042,   1,         16) /* ItemType - Creature */
      , (29042,  16,          1) /* ItemUseable - No */
      , (29042,  25,         68) /* Level */
      , (29042,  27,          0) /* ArmorType */
-     , (29042,  67,          1) /* Tolerance */
+     , (29042,  67,          1) /* Tolerance - NoAttack */
      , (29042,  93,    6292508) /* PhysicsState - Ethereal, ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (29042,  95,          8) /* RadarBlipColor - Yellow */
      , (29042, 133,          0) /* ShowableOnRadar - Undefined */

@@ -10,8 +10,8 @@ VALUES (181,   1,         16) /* ItemType - Creature */
      , (181,  25,          9) /* Level */
      , (181,  27,          0) /* ArmorType */
      , (181,  40,          2) /* CombatMode - Melee */
-     , (181,  67,         64) /* Tolerance */
-     , (181,  68,          5) /* TargetingTactic */
+     , (181,  67,         64) /* Tolerance - Retaliate */
+     , (181,  68,          5) /* TargetingTactic - Random, LastDamager */
      , (181,  72,         12) /* FriendType - Cow */
      , (181,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (181, 133,          4) /* ShowableOnRadar - ShowAlways */

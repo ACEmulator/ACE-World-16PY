@@ -11,7 +11,7 @@ VALUES (209,   1,         16) /* ItemType - Creature */
      , (209,  25,         14) /* Level */
      , (209,  27,          0) /* ArmorType */
      , (209,  40,          2) /* CombatMode - Melee */
-     , (209,  68,          5) /* TargetingTactic */
+     , (209,  68,          5) /* TargetingTactic - Random, LastDamager */
      , (209,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (209, 101,        129) /* AiAllowedCombatStyle - Unarmed, ThrownWeapon */
      , (209, 133,          2) /* ShowableOnRadar - ShowMovement */

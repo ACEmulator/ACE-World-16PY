@@ -11,7 +11,7 @@ VALUES (4245,   1,         16) /* ItemType - Creature */
      , (4245,  25,          4) /* Level */
      , (4245,  27,          0) /* ArmorType */
      , (4245,  40,          2) /* CombatMode - Melee */
-     , (4245,  68,          5) /* TargetingTactic */
+     , (4245,  68,          5) /* TargetingTactic - Random, LastDamager */
      , (4245,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (4245, 101,        129) /* AiAllowedCombatStyle - Unarmed, ThrownWeapon */
      , (4245, 133,          4) /* ShowableOnRadar - ShowAlways */

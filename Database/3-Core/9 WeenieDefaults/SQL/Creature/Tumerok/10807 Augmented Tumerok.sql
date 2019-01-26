@@ -10,12 +10,12 @@ VALUES (10807,   1,         16) /* ItemType - Creature */
      , (10807,  16,          1) /* ItemUseable - No */
      , (10807,  25,         90) /* Level */
      , (10807,  27,          0) /* ArmorType */
-     , (10807,  68,          5) /* TargetingTactic */
+     , (10807,  68,          5) /* TargetingTactic - Random, LastDamager */
      , (10807,  72,         19) /* FriendType - Virindi */
      , (10807,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (10807, 101,        183) /* AiAllowedCombatStyle - Unarmed, OneHanded, OneHandedAndShield, Bow, Crossbow, ThrownWeapon */
      , (10807, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (10807, 140,          1) /* AiOptions */
+     , (10807, 140,          1) /* AiOptions - CanOpenDoors */
      , (10807, 146,      24735) /* XpOverride */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)

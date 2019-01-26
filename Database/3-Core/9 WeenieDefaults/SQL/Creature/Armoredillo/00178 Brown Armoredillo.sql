@@ -9,7 +9,7 @@ VALUES (178,   1,         16) /* ItemType - Creature */
      , (178,  16,          1) /* ItemUseable - No */
      , (178,  25,          5) /* Level */
      , (178,  40,          2) /* CombatMode - Melee */
-     , (178,  68,          9) /* TargetingTactic */
+     , (178,  68,          9) /* TargetingTactic - Random, TopDamager */
      , (178,  81,          3) /* MaxGeneratedObjects */
      , (178,  82,          3) /* InitGeneratedObjects */
      , (178,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */

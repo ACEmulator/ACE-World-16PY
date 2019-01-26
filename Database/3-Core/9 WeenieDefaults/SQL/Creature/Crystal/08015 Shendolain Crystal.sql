@@ -11,7 +11,7 @@ VALUES (8015,   1,         16) /* ItemType - Creature */
      , (8015,  25,        100) /* Level */
      , (8015,  27,          0) /* ArmorType */
      , (8015,  40,          2) /* CombatMode - Melee */
-     , (8015,  68,          5) /* TargetingTactic */
+     , (8015,  68,          5) /* TargetingTactic - Random, LastDamager */
      , (8015,  69,          4) /* CombatTactic */
      , (8015,  93,       3080) /* PhysicsState - ReportCollisions, Gravity, LightingOn */
      , (8015, 133,          4) /* ShowableOnRadar - ShowAlways */

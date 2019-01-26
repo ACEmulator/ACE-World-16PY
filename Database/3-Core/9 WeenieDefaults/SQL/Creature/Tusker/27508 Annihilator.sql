@@ -11,7 +11,7 @@ VALUES (27508,   1,         16) /* ItemType - Creature */
      , (27508,  25,        285) /* Level */
      , (27508,  27,          0) /* ArmorType */
      , (27508,  40,          2) /* CombatMode - Melee */
-     , (27508,  68,          9) /* TargetingTactic */
+     , (27508,  68,          9) /* TargetingTactic - Random, TopDamager */
      , (27508,  72,          8) /* FriendType - Tusker */
      , (27508,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (27508, 133,          4) /* ShowableOnRadar - ShowAlways */

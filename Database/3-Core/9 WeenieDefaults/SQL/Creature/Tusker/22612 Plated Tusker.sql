@@ -11,7 +11,7 @@ VALUES (22612,   1,         16) /* ItemType - Creature */
      , (22612,  25,        105) /* Level */
      , (22612,  27,          0) /* ArmorType */
      , (22612,  40,          2) /* CombatMode - Melee */
-     , (22612,  68,          9) /* TargetingTactic */
+     , (22612,  68,          9) /* TargetingTactic - Random, TopDamager */
      , (22612,  72,         19) /* FriendType - Virindi */
      , (22612,  93,    4195336) /* PhysicsState - ReportCollisions, Gravity, EdgeSlide */
      , (22612, 133,          4) /* ShowableOnRadar - ShowAlways */

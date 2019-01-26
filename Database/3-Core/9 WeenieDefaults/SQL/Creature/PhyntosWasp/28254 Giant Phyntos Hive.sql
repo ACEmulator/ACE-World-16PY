@@ -10,8 +10,8 @@ VALUES (28254,   1,         16) /* ItemType - Creature */
      , (28254,  25,        110) /* Level */
      , (28254,  27,          0) /* ArmorType */
      , (28254,  40,          1) /* CombatMode - NonCombat */
-     , (28254,  67,          1) /* Tolerance */
-     , (28254,  68,          5) /* TargetingTactic */
+     , (28254,  67,          1) /* Tolerance - NoAttack */
+     , (28254,  68,          5) /* TargetingTactic - Random, LastDamager */
      , (28254,  81,          3) /* MaxGeneratedObjects */
      , (28254,  82,          2) /* InitGeneratedObjects */
      , (28254,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */

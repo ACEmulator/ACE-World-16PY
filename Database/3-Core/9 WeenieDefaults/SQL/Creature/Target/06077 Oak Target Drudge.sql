@@ -11,8 +11,8 @@ VALUES (6077,   1,         16) /* ItemType - Creature */
      , (6077,  25,          2) /* Level */
      , (6077,  27,          0) /* ArmorType */
      , (6077,  40,          2) /* CombatMode - Melee */
-     , (6077,  67,          1) /* Tolerance */
-     , (6077,  68,          5) /* TargetingTactic */
+     , (6077,  67,          1) /* Tolerance - NoAttack */
+     , (6077,  68,          5) /* TargetingTactic - Random, LastDamager */
      , (6077,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (6077, 101,        131) /* AiAllowedCombatStyle - Unarmed, OneHanded, ThrownWeapon */
      , (6077, 133,          4) /* ShowableOnRadar - ShowAlways */

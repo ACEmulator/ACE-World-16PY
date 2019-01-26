@@ -11,11 +11,11 @@ VALUES (27557,   1,         16) /* ItemType - Creature */
      , (27557,  25,        140) /* Level */
      , (27557,  27,          0) /* ArmorType */
      , (27557,  40,          2) /* CombatMode - Melee */
-     , (27557,  68,         13) /* TargetingTactic */
+     , (27557,  68,         13) /* TargetingTactic - Random, LastDamager, TopDamager */
      , (27557,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (27557, 101,        131) /* AiAllowedCombatStyle - Unarmed, OneHanded, ThrownWeapon */
      , (27557, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (27557, 140,          1) /* AiOptions */
+     , (27557, 140,          1) /* AiOptions - CanOpenDoors */
      , (27557, 146,      82693) /* XpOverride */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)

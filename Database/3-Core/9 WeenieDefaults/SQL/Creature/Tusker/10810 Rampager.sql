@@ -11,7 +11,7 @@ VALUES (10810,   1,         16) /* ItemType - Creature */
      , (10810,  25,         95) /* Level */
      , (10810,  27,          0) /* ArmorType */
      , (10810,  40,          2) /* CombatMode - Melee */
-     , (10810,  68,          9) /* TargetingTactic */
+     , (10810,  68,          9) /* TargetingTactic - Random, TopDamager */
      , (10810,  72,         19) /* FriendType - Virindi */
      , (10810,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (10810, 133,          4) /* ShowableOnRadar - ShowAlways */

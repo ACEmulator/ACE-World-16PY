@@ -11,8 +11,8 @@ VALUES (20,   1,         16) /* ItemType - Creature */
      , (20,  25,          9) /* Level */
      , (20,  27,          0) /* ArmorType */
      , (20,  40,          2) /* CombatMode - Melee */
-     , (20,  67,         64) /* Tolerance */
-     , (20,  68,          5) /* TargetingTactic */
+     , (20,  67,         64) /* Tolerance - Retaliate */
+     , (20,  68,          5) /* TargetingTactic - Random, LastDamager */
      , (20,  72,         12) /* FriendType - Cow */
      , (20,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (20, 133,          4) /* ShowableOnRadar - ShowAlways */

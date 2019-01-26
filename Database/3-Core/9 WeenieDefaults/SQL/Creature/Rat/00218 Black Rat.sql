@@ -10,7 +10,7 @@ VALUES (218,   1,         16) /* ItemType - Creature */
      , (218,  25,         12) /* Level */
      , (218,  27,          0) /* ArmorType */
      , (218,  40,          2) /* CombatMode - Melee */
-     , (218,  68,          5) /* TargetingTactic */
+     , (218,  68,          5) /* TargetingTactic - Random, LastDamager */
      , (218,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (218, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (218, 146,        541) /* XpOverride */;

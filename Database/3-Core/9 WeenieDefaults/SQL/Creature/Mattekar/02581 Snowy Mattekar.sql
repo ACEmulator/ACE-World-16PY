@@ -10,7 +10,7 @@ VALUES (2581,   1,         16) /* ItemType - Creature */
      , (2581,  16,          1) /* ItemUseable - No */
      , (2581,  25,         14) /* Level */
      , (2581,  40,          2) /* CombatMode - Melee */
-     , (2581,  68,          3) /* TargetingTactic */
+     , (2581,  68,          3) /* TargetingTactic - Random, Focused */
      , (2581,  81,          3) /* MaxGeneratedObjects */
      , (2581,  82,          3) /* InitGeneratedObjects */
      , (2581,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */

@@ -11,7 +11,7 @@ VALUES (8108,   1,         16) /* ItemType - Creature */
      , (8108,  25,         61) /* Level */
      , (8108,  27,          0) /* ArmorType */
      , (8108,  40,          2) /* CombatMode - Melee */
-     , (8108,  68,          5) /* TargetingTactic */
+     , (8108,  68,          5) /* TargetingTactic - Random, LastDamager */
      , (8108,  69,          4) /* CombatTactic */
      , (8108,  93,       3080) /* PhysicsState - ReportCollisions, Gravity, LightingOn */
      , (8108, 133,          4) /* ShowableOnRadar - ShowAlways */

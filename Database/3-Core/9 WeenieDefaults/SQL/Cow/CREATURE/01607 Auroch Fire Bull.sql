@@ -11,8 +11,8 @@ VALUES (1607,   1,         16) /* ItemType - Creature */
      , (1607,  25,         18) /* Level */
      , (1607,  27,          0) /* ArmorType */
      , (1607,  40,          2) /* CombatMode - Melee */
-     , (1607,  67,         64) /* Tolerance */
-     , (1607,  68,          5) /* TargetingTactic */
+     , (1607,  67,         64) /* Tolerance - Retaliate */
+     , (1607,  68,          5) /* TargetingTactic - Random, LastDamager */
      , (1607,  72,         12) /* FriendType - Cow */
      , (1607,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (1607, 133,          4) /* ShowableOnRadar - ShowAlways */

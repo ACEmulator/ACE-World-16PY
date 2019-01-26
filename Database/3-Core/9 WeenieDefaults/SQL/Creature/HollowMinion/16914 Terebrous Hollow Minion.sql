@@ -10,11 +10,11 @@ VALUES (16914,   1,         16) /* ItemType - Creature */
      , (16914,  16,          1) /* ItemUseable - No */
      , (16914,  25,         85) /* Level */
      , (16914,  27,          0) /* ArmorType */
-     , (16914,  68,          3) /* TargetingTactic */
+     , (16914,  68,          3) /* TargetingTactic - Random, Focused */
      , (16914,  72,         19) /* FriendType - Virindi */
      , (16914,  93,    4195336) /* PhysicsState - ReportCollisions, Gravity, EdgeSlide */
      , (16914, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (16914, 140,          1) /* AiOptions */
+     , (16914, 140,          1) /* AiOptions - CanOpenDoors */
      , (16914, 146,      22201) /* XpOverride */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)

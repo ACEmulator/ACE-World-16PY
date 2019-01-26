@@ -11,7 +11,7 @@ VALUES (208,   1,         16) /* ItemType - Creature */
      , (208,  25,         25) /* Level */
      , (208,  27,          0) /* ArmorType */
      , (208,  40,          2) /* CombatMode - Melee */
-     , (208,  68,          3) /* TargetingTactic */
+     , (208,  68,          3) /* TargetingTactic - Random, Focused */
      , (208,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (208, 101,        129) /* AiAllowedCombatStyle - Unarmed, ThrownWeapon */
      , (208, 133,          2) /* ShowableOnRadar - ShowMovement */

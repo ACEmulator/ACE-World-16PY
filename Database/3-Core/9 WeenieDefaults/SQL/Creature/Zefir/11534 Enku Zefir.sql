@@ -10,7 +10,7 @@ VALUES (11534,   1,         16) /* ItemType - Creature */
      , (11534,  16,          1) /* ItemUseable - No */
      , (11534,  25,        105) /* Level */
      , (11534,  40,          2) /* CombatMode - Melee */
-     , (11534,  68,         13) /* TargetingTactic */
+     , (11534,  68,         13) /* TargetingTactic - Random, LastDamager, TopDamager */
      , (11534,  72,         29) /* FriendType - Zefir */
      , (11534,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (11534, 133,          2) /* ShowableOnRadar - ShowMovement */

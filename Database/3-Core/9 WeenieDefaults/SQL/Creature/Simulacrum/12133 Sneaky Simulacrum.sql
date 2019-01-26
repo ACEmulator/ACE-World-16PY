@@ -10,7 +10,7 @@ VALUES (12133,   1,         16) /* ItemType - Creature */
      , (12133,  16,          1) /* ItemUseable - No */
      , (12133,  25,         14) /* Level */
      , (12133,  27,          0) /* ArmorType */
-     , (12133,  68,         13) /* TargetingTactic */
+     , (12133,  68,         13) /* TargetingTactic - Random, LastDamager, TopDamager */
      , (12133,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (12133, 101,        131) /* AiAllowedCombatStyle - Unarmed, OneHanded, ThrownWeapon */
      , (12133, 133,          2) /* ShowableOnRadar - ShowMovement */

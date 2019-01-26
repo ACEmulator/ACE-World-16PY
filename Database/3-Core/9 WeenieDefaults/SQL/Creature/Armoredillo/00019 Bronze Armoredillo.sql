@@ -10,7 +10,7 @@ VALUES (19,   1,         16) /* ItemType - Creature */
      , (19,  16,          1) /* ItemUseable - No */
      , (19,  25,         18) /* Level */
      , (19,  40,          2) /* CombatMode - Melee */
-     , (19,  68,          9) /* TargetingTactic */
+     , (19,  68,          9) /* TargetingTactic - Random, TopDamager */
      , (19,  81,          3) /* MaxGeneratedObjects */
      , (19,  82,          3) /* InitGeneratedObjects */
      , (19,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */

@@ -10,8 +10,8 @@ VALUES (5765,   1,         16) /* ItemType - Creature */
      , (5765,  25,         95) /* Level */
      , (5765,  27,          0) /* ArmorType */
      , (5765,  40,          2) /* CombatMode - Melee */
-     , (5765,  67,         64) /* Tolerance */
-     , (5765,  68,          9) /* TargetingTactic */
+     , (5765,  67,         64) /* Tolerance - Retaliate */
+     , (5765,  68,          9) /* TargetingTactic - Random, TopDamager */
      , (5765,  74,      17291) /* MerchandiseItemTypes - Armor, Jewelry, Weapon, LockableMagicTarget, Key */
      , (5765,  75,          0) /* MerchandiseMinValue */
      , (5765,  76,          0) /* MerchandiseMaxValue */
@@ -20,7 +20,7 @@ VALUES (5765,   1,         16) /* ItemType - Creature */
      , (5765, 126,       2000) /* VendorHappyMean */
      , (5765, 127,       1000) /* VendorHappyVariance */
      , (5765, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (5765, 140,          1) /* AiOptions */
+     , (5765, 140,          1) /* AiOptions - CanOpenDoors */
      , (5765, 146,      23146) /* XpOverride */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)

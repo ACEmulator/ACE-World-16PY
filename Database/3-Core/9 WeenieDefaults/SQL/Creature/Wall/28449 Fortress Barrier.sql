@@ -10,8 +10,8 @@ VALUES (28449,   1,         16) /* ItemType - Creature */
      , (28449,  25,          1) /* Level */
      , (28449,  27,          0) /* ArmorType */
      , (28449,  40,          1) /* CombatMode - NonCombat */
-     , (28449,  67,          1) /* Tolerance */
-     , (28449,  68,          5) /* TargetingTactic */
+     , (28449,  67,          1) /* Tolerance - NoAttack */
+     , (28449,  68,          5) /* TargetingTactic - Random, LastDamager */
      , (28449,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (28449, 101,        131) /* AiAllowedCombatStyle - Unarmed, OneHanded, ThrownWeapon */
      , (28449, 133,          4) /* ShowableOnRadar - ShowAlways */

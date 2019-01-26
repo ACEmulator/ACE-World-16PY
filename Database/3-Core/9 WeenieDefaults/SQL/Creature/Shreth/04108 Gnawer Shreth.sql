@@ -11,7 +11,7 @@ VALUES (4108,   1,         16) /* ItemType - Creature */
      , (4108,  25,          4) /* Level */
      , (4108,  27,          0) /* ArmorType */
      , (4108,  40,          2) /* CombatMode - Melee */
-     , (4108,  68,          9) /* TargetingTactic */
+     , (4108,  68,          9) /* TargetingTactic - Random, TopDamager */
      , (4108,  81,          3) /* MaxGeneratedObjects */
      , (4108,  82,          3) /* InitGeneratedObjects */
      , (4108,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */

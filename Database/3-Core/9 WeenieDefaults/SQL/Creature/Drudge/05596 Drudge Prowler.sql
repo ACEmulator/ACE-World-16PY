@@ -11,7 +11,7 @@ VALUES (5596,   1,         16) /* ItemType - Creature */
      , (5596,  25,          7) /* Level */
      , (5596,  27,          0) /* ArmorType */
      , (5596,  40,          2) /* CombatMode - Melee */
-     , (5596,  68,          1) /* TargetingTactic */
+     , (5596,  68,          1) /* TargetingTactic - Random */
      , (5596,  93,    2098200) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */
      , (5596, 101,        131) /* AiAllowedCombatStyle - Unarmed, OneHanded, ThrownWeapon */
      , (5596, 133,          2) /* ShowableOnRadar - ShowMovement */

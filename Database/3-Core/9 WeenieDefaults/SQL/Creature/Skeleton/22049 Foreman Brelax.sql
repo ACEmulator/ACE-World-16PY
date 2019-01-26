@@ -11,7 +11,7 @@ VALUES (22049,   1,         16) /* ItemType - Creature */
      , (22049,  25,        278) /* Level */
      , (22049,  27,          0) /* ArmorType */
      , (22049,  40,          1) /* CombatMode - NonCombat */
-     , (22049,  68,          3) /* TargetingTactic */
+     , (22049,  68,          3) /* TargetingTactic - Random, Focused */
      , (22049,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (22049, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (22049, 146,      28000) /* XpOverride */;

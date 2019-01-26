@@ -11,8 +11,8 @@ VALUES (4132,   1,         16) /* ItemType - Creature */
      , (4132,  25,          4) /* Level */
      , (4132,  27,          0) /* ArmorType */
      , (4132,  40,          2) /* CombatMode - Melee */
-     , (4132,  67,         64) /* Tolerance */
-     , (4132,  68,          5) /* TargetingTactic */
+     , (4132,  67,         64) /* Tolerance - Retaliate */
+     , (4132,  68,          5) /* TargetingTactic - Random, LastDamager */
      , (4132,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (4132, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (4132, 146,         74) /* XpOverride */;

@@ -11,7 +11,7 @@ VALUES (27565,   1,         16) /* ItemType - Creature */
      , (27565,  25,         70) /* Level */
      , (27565,  27,          0) /* ArmorType */
      , (27565,  40,          2) /* CombatMode - Melee */
-     , (27565,  68,          9) /* TargetingTactic */
+     , (27565,  68,          9) /* TargetingTactic - Random, TopDamager */
      , (27565,  81,          6) /* MaxGeneratedObjects */
      , (27565,  82,          6) /* InitGeneratedObjects */
      , (27565,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */

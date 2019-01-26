@@ -10,7 +10,7 @@ VALUES (11503,   1,         16) /* ItemType - Creature */
      , (11503,  16,          1) /* ItemUseable - No */
      , (11503,  25,         47) /* Level */
      , (11503,  27,          0) /* ArmorType */
-     , (11503,  68,         13) /* TargetingTactic */
+     , (11503,  68,         13) /* TargetingTactic - Random, LastDamager, TopDamager */
      , (11503,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (11503, 101,        131) /* AiAllowedCombatStyle - Unarmed, OneHanded, ThrownWeapon */
      , (11503, 133,          2) /* ShowableOnRadar - ShowMovement */

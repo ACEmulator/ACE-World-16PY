@@ -11,7 +11,7 @@ VALUES (11496,   1,         16) /* ItemType - Creature */
      , (11496,  25,          4) /* Level */
      , (11496,  27,          0) /* ArmorType */
      , (11496,  40,          2) /* CombatMode - Melee */
-     , (11496,  68,          5) /* TargetingTactic */
+     , (11496,  68,          5) /* TargetingTactic - Random, LastDamager */
      , (11496,  72,         55) /* FriendType - Carenzi */
      , (11496,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (11496, 133,          4) /* ShowableOnRadar - ShowAlways */

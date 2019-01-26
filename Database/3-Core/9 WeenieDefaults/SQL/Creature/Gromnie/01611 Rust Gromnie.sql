@@ -11,7 +11,7 @@ VALUES (1611,   1,         16) /* ItemType - Creature */
      , (1611,  25,          5) /* Level */
      , (1611,  27,          0) /* ArmorType */
      , (1611,  40,          2) /* CombatMode - Melee */
-     , (1611,  68,          9) /* TargetingTactic */
+     , (1611,  68,          9) /* TargetingTactic - Random, TopDamager */
      , (1611,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (1611, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (1611, 146,        213) /* XpOverride */;

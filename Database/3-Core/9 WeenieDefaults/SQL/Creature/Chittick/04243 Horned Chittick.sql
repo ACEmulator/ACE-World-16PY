@@ -10,7 +10,7 @@ VALUES (4243,   1,         16) /* ItemType - Creature */
      , (4243,  16,          1) /* ItemUseable - No */
      , (4243,  25,         53) /* Level */
      , (4243,  40,          2) /* CombatMode - Melee */
-     , (4243,  68,          9) /* TargetingTactic */
+     , (4243,  68,          9) /* TargetingTactic - Random, TopDamager */
      , (4243,  72,         33) /* FriendType - Chittick */
      , (4243,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (4243, 133,          2) /* ShowableOnRadar - ShowMovement */

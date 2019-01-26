@@ -10,7 +10,7 @@ VALUES (24856,   1,         16) /* ItemType - Creature */
      , (24856,  25,        999) /* Level */
      , (24856,  27,          0) /* ArmorType */
      , (24856,  40,          1) /* CombatMode - NonCombat */
-     , (24856,  68,         13) /* TargetingTactic */
+     , (24856,  68,         13) /* TargetingTactic - Random, LastDamager, TopDamager */
      , (24856,  69,         30) /* CombatTactic */
      , (24856,  72,         62) /* FriendType - Elemental */
      , (24856,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */

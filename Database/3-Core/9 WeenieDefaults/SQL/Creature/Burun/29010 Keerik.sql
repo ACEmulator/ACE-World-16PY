@@ -11,7 +11,7 @@ VALUES (29010,   1,         16) /* ItemType - Creature */
      , (29010,  25,        999) /* Level */
      , (29010,  27,          0) /* ArmorType */
      , (29010,  40,          2) /* CombatMode - Melee */
-     , (29010,  68,          3) /* TargetingTactic */
+     , (29010,  68,          3) /* TargetingTactic - Random, Focused */
      , (29010,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (29010, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (29010, 146,   25000000) /* XpOverride */;

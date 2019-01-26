@@ -10,7 +10,7 @@ VALUES (21551,   1,         16) /* ItemType - Creature */
      , (21551,  25,         90) /* Level */
      , (21551,  27,          0) /* ArmorType */
      , (21551,  40,          2) /* CombatMode - Melee */
-     , (21551,  68,          9) /* TargetingTactic */
+     , (21551,  68,          9) /* TargetingTactic - Random, TopDamager */
      , (21551,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (21551, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (21551, 146,      25735) /* XpOverride */;

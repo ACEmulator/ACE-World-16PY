@@ -11,12 +11,12 @@ VALUES (1242,   1,         16) /* ItemType - Creature */
      , (1242,  25,         14) /* Level */
      , (1242,  27,          0) /* ArmorType */
      , (1242,  40,          2) /* CombatMode - Melee */
-     , (1242,  68,          9) /* TargetingTactic */
+     , (1242,  68,          9) /* TargetingTactic - Random, TopDamager */
      , (1242,  72,          6) /* FriendType - Tumerok */
      , (1242,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (1242, 101,        131) /* AiAllowedCombatStyle - Unarmed, OneHanded, ThrownWeapon */
      , (1242, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (1242, 140,          1) /* AiOptions */
+     , (1242, 140,          1) /* AiOptions - CanOpenDoors */
      , (1242, 146,       1137) /* XpOverride */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)

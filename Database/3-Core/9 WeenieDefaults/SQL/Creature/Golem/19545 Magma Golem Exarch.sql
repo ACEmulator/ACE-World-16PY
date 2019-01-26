@@ -10,7 +10,7 @@ VALUES (19545,   1,         16) /* ItemType - Creature */
      , (19545,  25,         95) /* Level */
      , (19545,  27,          0) /* ArmorType */
      , (19545,  40,          2) /* CombatMode - Melee */
-     , (19545,  68,          9) /* TargetingTactic */
+     , (19545,  68,          9) /* TargetingTactic - Random, TopDamager */
      , (19545,  81,          6) /* MaxGeneratedObjects */
      , (19545,  82,          6) /* InitGeneratedObjects */
      , (19545,  93,    4197384) /* PhysicsState - ReportCollisions, Gravity, LightingOn, EdgeSlide */

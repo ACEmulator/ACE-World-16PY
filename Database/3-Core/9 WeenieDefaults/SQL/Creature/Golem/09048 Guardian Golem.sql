@@ -11,8 +11,8 @@ VALUES (9048,   1,         16) /* ItemType - Creature */
      , (9048,  25,        308) /* Level */
      , (9048,  27,          0) /* ArmorType */
      , (9048,  40,          2) /* CombatMode - Melee */
-     , (9048,  67,         64) /* Tolerance */
-     , (9048,  68,          9) /* TargetingTactic */
+     , (9048,  67,         64) /* Tolerance - Retaliate */
+     , (9048,  68,          9) /* TargetingTactic - Random, TopDamager */
      , (9048,  93,    4195336) /* PhysicsState - ReportCollisions, Gravity, EdgeSlide */
      , (9048, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (9048, 146,      27417) /* XpOverride */;

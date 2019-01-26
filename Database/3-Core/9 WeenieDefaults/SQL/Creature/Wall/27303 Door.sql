@@ -10,8 +10,8 @@ VALUES (27303,   1,         16) /* ItemType - Creature */
      , (27303,  25,        999) /* Level */
      , (27303,  27,          0) /* ArmorType */
      , (27303,  40,          1) /* CombatMode - NonCombat */
-     , (27303,  67,          1) /* Tolerance */
-     , (27303,  68,          5) /* TargetingTactic */
+     , (27303,  67,          1) /* Tolerance - NoAttack */
+     , (27303,  68,          5) /* TargetingTactic - Random, LastDamager */
      , (27303,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (27303, 101,        131) /* AiAllowedCombatStyle - Unarmed, OneHanded, ThrownWeapon */
      , (27303, 133,          1) /* ShowableOnRadar - ShowNever */

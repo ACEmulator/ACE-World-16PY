@@ -11,7 +11,7 @@ VALUES (29354,   1,         16) /* ItemType - Creature */
      , (29354,  25,          7) /* Level */
      , (29354,  27,          0) /* ArmorType */
      , (29354,  40,          2) /* CombatMode - Melee */
-     , (29354,  68,          5) /* TargetingTactic */
+     , (29354,  68,          5) /* TargetingTactic - Random, LastDamager */
      , (29354,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (29354, 101,        129) /* AiAllowedCombatStyle - Unarmed, ThrownWeapon */
      , (29354, 133,          2) /* ShowableOnRadar - ShowMovement */

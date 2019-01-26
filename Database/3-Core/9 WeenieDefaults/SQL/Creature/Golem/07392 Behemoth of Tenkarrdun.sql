@@ -10,7 +10,7 @@ VALUES (7392,   1,         16) /* ItemType - Creature */
      , (7392,  25,        105) /* Level */
      , (7392,  27,          0) /* ArmorType */
      , (7392,  40,          2) /* CombatMode - Melee */
-     , (7392,  68,          9) /* TargetingTactic */
+     , (7392,  68,          9) /* TargetingTactic - Random, TopDamager */
      , (7392,  93,    4197384) /* PhysicsState - ReportCollisions, Gravity, LightingOn, EdgeSlide */
      , (7392, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (7392, 146,     100000) /* XpOverride */;

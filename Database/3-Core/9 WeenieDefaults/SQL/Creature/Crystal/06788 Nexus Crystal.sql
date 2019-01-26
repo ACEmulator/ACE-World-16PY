@@ -11,7 +11,7 @@ VALUES (6788,   1,         16) /* ItemType - Creature */
      , (6788,  25,        126) /* Level */
      , (6788,  27,          0) /* ArmorType */
      , (6788,  40,          2) /* CombatMode - Melee */
-     , (6788,  68,          5) /* TargetingTactic */
+     , (6788,  68,          5) /* TargetingTactic - Random, LastDamager */
      , (6788,  69,          4) /* CombatTactic */
      , (6788,  93,       3080) /* PhysicsState - ReportCollisions, Gravity, LightingOn */
      , (6788, 133,          4) /* ShowableOnRadar - ShowAlways */

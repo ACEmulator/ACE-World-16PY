@@ -11,7 +11,7 @@ VALUES (1257,   1,         16) /* ItemType - Creature */
      , (1257,  25,         19) /* Level */
      , (1257,  27,          0) /* ArmorType */
      , (1257,  40,          2) /* CombatMode - Melee */
-     , (1257,  68,         13) /* TargetingTactic */
+     , (1257,  68,         13) /* TargetingTactic - Random, LastDamager, TopDamager */
      , (1257,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (1257, 101,        131) /* AiAllowedCombatStyle - Unarmed, OneHanded, ThrownWeapon */
      , (1257, 133,          2) /* ShowableOnRadar - ShowMovement */

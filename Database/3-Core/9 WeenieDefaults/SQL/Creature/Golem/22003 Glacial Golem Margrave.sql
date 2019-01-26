@@ -11,7 +11,7 @@ VALUES (22003,   1,         16) /* ItemType - Creature */
      , (22003,  25,         70) /* Level */
      , (22003,  27,          0) /* ArmorType */
      , (22003,  40,          2) /* CombatMode - Melee */
-     , (22003,  68,          9) /* TargetingTactic */
+     , (22003,  68,          9) /* TargetingTactic - Random, TopDamager */
      , (22003,  72,         13) /* FriendType - Golem */
      , (22003,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (22003, 133,          2) /* ShowableOnRadar - ShowMovement */

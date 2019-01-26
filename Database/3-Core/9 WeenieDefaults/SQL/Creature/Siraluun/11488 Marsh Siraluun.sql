@@ -11,7 +11,7 @@ VALUES (11488,   1,         16) /* ItemType - Creature */
      , (11488,  25,          5) /* Level */
      , (11488,  27,          0) /* ArmorType */
      , (11488,  40,          2) /* CombatMode - Melee */
-     , (11488,  68,          9) /* TargetingTactic */
+     , (11488,  68,          9) /* TargetingTactic - Random, TopDamager */
      , (11488,  72,         56) /* FriendType - Siraluun */
      , (11488,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (11488, 133,          4) /* ShowableOnRadar - ShowAlways */

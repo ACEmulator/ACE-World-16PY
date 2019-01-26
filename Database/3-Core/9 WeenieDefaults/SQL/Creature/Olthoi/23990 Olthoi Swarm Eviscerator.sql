@@ -11,11 +11,11 @@ VALUES (23990,   1,         16) /* ItemType - Creature */
      , (23990,  25,        110) /* Level */
      , (23990,  27,          0) /* ArmorType */
      , (23990,  40,          2) /* CombatMode - Melee */
-     , (23990,  68,         13) /* TargetingTactic */
+     , (23990,  68,         13) /* TargetingTactic - Random, LastDamager, TopDamager */
      , (23990,  72,         35) /* FriendType - OlthoiLarvae */
      , (23990,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (23990, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (23990, 140,          1) /* AiOptions */
+     , (23990, 140,          1) /* AiOptions - CanOpenDoors */
      , (23990, 146,      39929) /* XpOverride */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)

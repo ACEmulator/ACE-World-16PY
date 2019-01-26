@@ -10,7 +10,7 @@ VALUES (22051,   1,         16) /* ItemType - Creature */
      , (22051,  25,        140) /* Level */
      , (22051,  27,          0) /* ArmorType */
      , (22051,  40,          1) /* CombatMode - NonCombat */
-     , (22051,  68,          5) /* TargetingTactic */
+     , (22051,  68,          5) /* TargetingTactic - Random, LastDamager */
      , (22051,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (22051, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (22051, 146,      14000) /* XpOverride */;

@@ -10,7 +10,7 @@ VALUES (14562,   1,         16) /* ItemType - Creature */
      , (14562,  25,        105) /* Level */
      , (14562,  27,          0) /* ArmorType */
      , (14562,  40,          2) /* CombatMode - Melee */
-     , (14562,  68,          5) /* TargetingTactic */
+     , (14562,  68,          5) /* TargetingTactic - Random, LastDamager */
      , (14562,  69,          4) /* CombatTactic */
      , (14562,  81,          3) /* MaxGeneratedObjects */
      , (14562,  82,          3) /* InitGeneratedObjects */

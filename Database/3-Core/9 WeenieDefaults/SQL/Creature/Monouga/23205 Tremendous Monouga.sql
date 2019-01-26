@@ -11,12 +11,12 @@ VALUES (23205,   1,         16) /* ItemType - Creature */
      , (23205,  25,        999) /* Level */
      , (23205,  27,          0) /* ArmorType */
      , (23205,  40,          2) /* CombatMode - Melee */
-     , (23205,  68,          9) /* TargetingTactic */
+     , (23205,  68,          9) /* TargetingTactic - Random, TopDamager */
      , (23205,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (23205, 101,        131) /* AiAllowedCombatStyle - Unarmed, OneHanded, ThrownWeapon */
      , (23205, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (23205, 134,         32) /* PlayerKillerStatus - Baelzharon */
-     , (23205, 140,          1) /* AiOptions */
+     , (23205, 140,          1) /* AiOptions - CanOpenDoors */
      , (23205, 146,    8000000) /* XpOverride */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)

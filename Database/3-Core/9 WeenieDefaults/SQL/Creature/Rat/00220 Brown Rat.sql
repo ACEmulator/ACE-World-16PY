@@ -11,8 +11,8 @@ VALUES (220,   1,         16) /* ItemType - Creature */
      , (220,  25,          7) /* Level */
      , (220,  27,          0) /* ArmorType */
      , (220,  40,          2) /* CombatMode - Melee */
-     , (220,  67,         64) /* Tolerance */
-     , (220,  68,          5) /* TargetingTactic */
+     , (220,  67,         64) /* Tolerance - Retaliate */
+     , (220,  68,          5) /* TargetingTactic - Random, LastDamager */
      , (220,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (220, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (220, 146,        304) /* XpOverride */;

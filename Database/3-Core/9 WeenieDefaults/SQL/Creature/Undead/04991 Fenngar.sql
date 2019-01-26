@@ -11,7 +11,7 @@ VALUES (4991,   1,         16) /* ItemType - Creature */
      , (4991,  25,         45) /* Level */
      , (4991,  27,          0) /* ArmorType */
      , (4991,  40,          1) /* CombatMode - NonCombat */
-     , (4991,  68,          9) /* TargetingTactic */
+     , (4991,  68,          9) /* TargetingTactic - Random, TopDamager */
      , (4991,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (4991, 101,        183) /* AiAllowedCombatStyle - Unarmed, OneHanded, OneHandedAndShield, Bow, Crossbow, ThrownWeapon */
      , (4991, 133,          2) /* ShowableOnRadar - ShowMovement */

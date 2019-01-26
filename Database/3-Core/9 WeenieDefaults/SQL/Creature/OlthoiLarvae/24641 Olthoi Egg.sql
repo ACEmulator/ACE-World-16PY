@@ -10,7 +10,7 @@ VALUES (24641,   1,         16) /* ItemType - Creature */
      , (24641,  25,         19) /* Level */
      , (24641,  27,          0) /* ArmorType */
      , (24641,  40,          1) /* CombatMode - NonCombat */
-     , (24641,  67,          1) /* Tolerance */
+     , (24641,  67,          1) /* Tolerance - NoAttack */
      , (24641,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (24641, 133,          0) /* ShowableOnRadar - Undefined */
      , (24641, 146,          0) /* XpOverride */;

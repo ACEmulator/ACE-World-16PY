@@ -11,7 +11,7 @@ VALUES (25852,   1,         16) /* ItemType - Creature */
      , (25852,  25,        161) /* Level */
      , (25852,  27,          0) /* ArmorType */
      , (25852,  40,          2) /* CombatMode - Melee */
-     , (25852,  68,          5) /* TargetingTactic */
+     , (25852,  68,          5) /* TargetingTactic - Random, LastDamager */
      , (25852,  72,         55) /* FriendType - Carenzi */
      , (25852,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (25852, 133,          4) /* ShowableOnRadar - ShowAlways */

@@ -11,8 +11,8 @@ VALUES (9532,   1,         16) /* ItemType - Creature */
      , (9532,  25,         50) /* Level */
      , (9532,  27,          0) /* ArmorType */
      , (9532,  40,          2) /* CombatMode - Melee */
-     , (9532,  67,          2) /* Tolerance */
-     , (9532,  68,          9) /* TargetingTactic */
+     , (9532,  67,          2) /* Tolerance - Appraise */
+     , (9532,  68,          9) /* TargetingTactic - Random, TopDamager */
      , (9532,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (9532, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (9532, 146,       5954) /* XpOverride */;

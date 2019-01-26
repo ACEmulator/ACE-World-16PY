@@ -10,7 +10,7 @@ VALUES (4264,   1,         16) /* ItemType - Creature */
      , (4264,  25,         20) /* Level */
      , (4264,  27,          0) /* ArmorType */
      , (4264,  40,          2) /* CombatMode - Melee */
-     , (4264,  68,          3) /* TargetingTactic */
+     , (4264,  68,          3) /* TargetingTactic - Random, Focused */
      , (4264,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (4264, 101,        131) /* AiAllowedCombatStyle - Unarmed, OneHanded, ThrownWeapon */
      , (4264, 133,          2) /* ShowableOnRadar - ShowMovement */

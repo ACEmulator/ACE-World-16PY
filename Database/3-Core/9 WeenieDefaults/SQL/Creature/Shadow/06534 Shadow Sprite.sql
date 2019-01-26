@@ -10,7 +10,7 @@ VALUES (6534,   1,         16) /* ItemType - Creature */
      , (6534,  16,          1) /* ItemUseable - No */
      , (6534,  25,          4) /* Level */
      , (6534,  40,          2) /* CombatMode - Melee */
-     , (6534,  68,         15) /* TargetingTactic */
+     , (6534,  68,         15) /* TargetingTactic - Random, Focused, LastDamager, TopDamager */
      , (6534,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (6534, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (6534, 146,        100) /* XpOverride */;

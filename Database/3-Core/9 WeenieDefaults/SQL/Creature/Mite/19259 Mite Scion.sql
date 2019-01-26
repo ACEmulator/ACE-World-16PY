@@ -11,8 +11,8 @@ VALUES (19259,   1,         16) /* ItemType - Creature */
      , (19259,  25,          5) /* Level */
      , (19259,  27,          0) /* ArmorType */
      , (19259,  40,          2) /* CombatMode - Melee */
-     , (19259,  67,         64) /* Tolerance */
-     , (19259,  68,          5) /* TargetingTactic */
+     , (19259,  67,         64) /* Tolerance - Retaliate */
+     , (19259,  68,          5) /* TargetingTactic - Random, LastDamager */
      , (19259,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (19259, 101,        129) /* AiAllowedCombatStyle - Unarmed, ThrownWeapon */
      , (19259, 133,          2) /* ShowableOnRadar - ShowMovement */

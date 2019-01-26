@@ -11,8 +11,8 @@ VALUES (19263,   1,         16) /* ItemType - Creature */
      , (19263,  25,          4) /* Level */
      , (19263,  27,          0) /* ArmorType */
      , (19263,  40,          2) /* CombatMode - Melee */
-     , (19263,  67,         64) /* Tolerance */
-     , (19263,  68,          9) /* TargetingTactic */
+     , (19263,  67,         64) /* Tolerance - Retaliate */
+     , (19263,  68,          9) /* TargetingTactic - Random, TopDamager */
      , (19263,  81,          3) /* MaxGeneratedObjects */
      , (19263,  82,          3) /* InitGeneratedObjects */
      , (19263,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */

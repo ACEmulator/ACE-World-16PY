@@ -10,7 +10,7 @@ VALUES (179,   1,         16) /* ItemType - Creature */
      , (179,  16,          1) /* ItemUseable - No */
      , (179,  25,          7) /* Level */
      , (179,  40,          2) /* CombatMode - Melee */
-     , (179,  68,          9) /* TargetingTactic */
+     , (179,  68,          9) /* TargetingTactic - Random, TopDamager */
      , (179,  81,          3) /* MaxGeneratedObjects */
      , (179,  82,          3) /* InitGeneratedObjects */
      , (179,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */

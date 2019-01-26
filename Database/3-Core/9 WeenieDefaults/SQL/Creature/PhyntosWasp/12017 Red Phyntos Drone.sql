@@ -10,7 +10,7 @@ VALUES (12017,   1,         16) /* ItemType - Creature */
      , (12017,  16,          1) /* ItemUseable - No */
      , (12017,  25,          7) /* Level */
      , (12017,  40,          2) /* CombatMode - Melee */
-     , (12017,  68,         13) /* TargetingTactic */
+     , (12017,  68,         13) /* TargetingTactic - Random, LastDamager, TopDamager */
      , (12017,  81,          3) /* MaxGeneratedObjects */
      , (12017,  82,          3) /* InitGeneratedObjects */
      , (12017,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */

@@ -10,7 +10,7 @@ VALUES (22116,   1,         16) /* ItemType - Creature */
      , (22116,  25,        666) /* Level */
      , (22116,  27,          0) /* ArmorType */
      , (22116,  40,          1) /* CombatMode - NonCombat */
-     , (22116,  68,         13) /* TargetingTactic */
+     , (22116,  68,         13) /* TargetingTactic - Random, LastDamager, TopDamager */
      , (22116,  93,       1036) /* PhysicsState - Ethereal, ReportCollisions, Gravity */
      , (22116,  95,          8) /* RadarBlipColor - Yellow */
      , (22116, 133,          2) /* ShowableOnRadar - ShowMovement */

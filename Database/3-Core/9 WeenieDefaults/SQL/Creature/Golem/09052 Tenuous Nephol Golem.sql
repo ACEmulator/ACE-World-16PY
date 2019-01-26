@@ -10,7 +10,7 @@ VALUES (9052,   1,         16) /* ItemType - Creature */
      , (9052,  25,         40) /* Level */
      , (9052,  27,          0) /* ArmorType */
      , (9052,  40,          2) /* CombatMode - Melee */
-     , (9052,  68,          9) /* TargetingTactic */
+     , (9052,  68,          9) /* TargetingTactic - Random, TopDamager */
      , (9052,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (9052, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (9052, 146,       3000) /* XpOverride */;

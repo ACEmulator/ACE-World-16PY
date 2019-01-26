@@ -10,7 +10,7 @@ VALUES (25754,   1,         16) /* ItemType - Creature */
      , (25754,  25,         65) /* Level */
      , (25754,  27,          0) /* ArmorType */
      , (25754,  40,          2) /* CombatMode - Melee */
-     , (25754,  68,          9) /* TargetingTactic */
+     , (25754,  68,          9) /* TargetingTactic - Random, TopDamager */
      , (25754,  93,    4197384) /* PhysicsState - ReportCollisions, Gravity, LightingOn, EdgeSlide */
      , (25754, 119,          1) /* Active */
      , (25754, 133,          2) /* ShowableOnRadar - ShowMovement */

@@ -9,11 +9,11 @@ VALUES (14428,   1,         16) /* ItemType - Creature */
      , (14428,  16,          1) /* ItemUseable - No */
      , (14428,  25,         43) /* Level */
      , (14428,  27,          0) /* ArmorType */
-     , (14428,  68,          9) /* TargetingTactic */
+     , (14428,  68,          9) /* TargetingTactic - Random, TopDamager */
      , (14428,  72,         59) /* FriendType - Simulacrum */
      , (14428,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (14428, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (14428, 140,          1) /* AiOptions */
+     , (14428, 140,          1) /* AiOptions - CanOpenDoors */
      , (14428, 146,       3179) /* XpOverride */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)

@@ -11,7 +11,7 @@ VALUES (21795,   1,         16) /* ItemType - Creature */
      , (21795,  25,        999) /* Level */
      , (21795,  27,          0) /* ArmorType */
      , (21795,  40,          2) /* CombatMode - Melee */
-     , (21795,  68,          1) /* TargetingTactic */
+     , (21795,  68,          1) /* TargetingTactic - Random */
      , (21795,  72,         62) /* FriendType - Elemental */
      , (21795,  93,    2098184) /* PhysicsState - ReportCollisions, Gravity, ReportCollisionsAsEnvironment */
      , (21795, 101,        183) /* AiAllowedCombatStyle - Unarmed, OneHanded, OneHandedAndShield, Bow, Crossbow, ThrownWeapon */

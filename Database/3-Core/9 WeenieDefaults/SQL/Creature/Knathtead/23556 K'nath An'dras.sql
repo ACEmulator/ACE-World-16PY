@@ -10,7 +10,7 @@ VALUES (23556,   1,         16) /* ItemType - Creature */
      , (23556,  25,        155) /* Level */
      , (23556,  27,          0) /* ArmorType */
      , (23556,  40,          1) /* CombatMode - NonCombat */
-     , (23556,  68,          3) /* TargetingTactic */
+     , (23556,  68,          3) /* TargetingTactic - Random, Focused */
      , (23556,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (23556, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (23556, 146,     223920) /* XpOverride */;

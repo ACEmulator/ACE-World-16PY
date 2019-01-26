@@ -11,7 +11,7 @@ VALUES (28551,   1,         16) /* ItemType - Creature */
      , (28551,  25,         90) /* Level */
      , (28551,  27,          0) /* ArmorType */
      , (28551,  40,          2) /* CombatMode - Melee */
-     , (28551,  68,          5) /* TargetingTactic */
+     , (28551,  68,          5) /* TargetingTactic - Random, LastDamager */
      , (28551,  69,          4) /* CombatTactic */
      , (28551,  93,       3080) /* PhysicsState - ReportCollisions, Gravity, LightingOn */
      , (28551, 133,          4) /* ShowableOnRadar - ShowAlways */

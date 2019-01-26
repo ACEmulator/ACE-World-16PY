@@ -10,7 +10,7 @@ VALUES (7818,   1,         16) /* ItemType - Creature */
      , (7818,  25,          5) /* Level */
      , (7818,  27,          0) /* ArmorType */
      , (7818,  40,          2) /* CombatMode - Melee */
-     , (7818,  68,          1) /* TargetingTactic */
+     , (7818,  68,          1) /* TargetingTactic - Random */
      , (7818,  72,         14) /* FriendType - Undead */
      , (7818,  93,       1036) /* PhysicsState - Ethereal, ReportCollisions, Gravity */
      , (7818, 133,          4) /* ShowableOnRadar - ShowAlways */

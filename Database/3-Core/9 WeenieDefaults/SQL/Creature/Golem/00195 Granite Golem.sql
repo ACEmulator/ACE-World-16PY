@@ -10,7 +10,7 @@ VALUES (195,   1,         16) /* ItemType - Creature */
      , (195,  25,         35) /* Level */
      , (195,  27,          0) /* ArmorType */
      , (195,  40,          2) /* CombatMode - Melee */
-     , (195,  68,          3) /* TargetingTactic */
+     , (195,  68,          3) /* TargetingTactic - Random, Focused */
      , (195,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (195, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (195, 146,       3981) /* XpOverride */;

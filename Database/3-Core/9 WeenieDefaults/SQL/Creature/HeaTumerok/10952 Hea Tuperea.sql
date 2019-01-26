@@ -10,7 +10,7 @@ VALUES (10952,   1,         16) /* ItemType - Creature */
      , (10952,  16,          1) /* ItemUseable - No */
      , (10952,  25,         85) /* Level */
      , (10952,  27,          0) /* ArmorType */
-     , (10952,  68,          5) /* TargetingTactic */
+     , (10952,  68,          5) /* TargetingTactic - Random, LastDamager */
      , (10952,  72,         16) /* FriendType - Reedshark */
      , (10952,  81,          4) /* MaxGeneratedObjects */
      , (10952,  82,          4) /* InitGeneratedObjects */
@@ -18,7 +18,7 @@ VALUES (10952,   1,         16) /* ItemType - Creature */
      , (10952, 101,        183) /* AiAllowedCombatStyle - Unarmed, OneHanded, OneHandedAndShield, Bow, Crossbow, ThrownWeapon */
      , (10952, 103,          3) /* GeneratorDestructionType - Kill */
      , (10952, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (10952, 140,          1) /* AiOptions */
+     , (10952, 140,          1) /* AiOptions - CanOpenDoors */
      , (10952, 146,      21305) /* XpOverride */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)

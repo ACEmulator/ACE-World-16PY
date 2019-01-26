@@ -10,7 +10,7 @@ VALUES (5025,   1,         16) /* ItemType - Creature */
      , (5025,  25,         16) /* Level */
      , (5025,  27,          0) /* ArmorType */
      , (5025,  40,          2) /* CombatMode - Melee */
-     , (5025,  68,          3) /* TargetingTactic */
+     , (5025,  68,          3) /* TargetingTactic - Random, Focused */
      , (5025,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (5025, 101,        183) /* AiAllowedCombatStyle - Unarmed, OneHanded, OneHandedAndShield, Bow, Crossbow, ThrownWeapon */
      , (5025, 133,          2) /* ShowableOnRadar - ShowMovement */

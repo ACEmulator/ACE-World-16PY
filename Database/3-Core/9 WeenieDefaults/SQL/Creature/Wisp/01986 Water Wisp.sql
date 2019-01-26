@@ -10,7 +10,7 @@ VALUES (1986,   1,         16) /* ItemType - Creature */
      , (1986,  25,          9) /* Level */
      , (1986,  27,          0) /* ArmorType */
      , (1986,  40,          2) /* CombatMode - Melee */
-     , (1986,  68,          9) /* TargetingTactic */
+     , (1986,  68,          9) /* TargetingTactic - Random, TopDamager */
      , (1986,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (1986, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (1986, 146,        469) /* XpOverride */;

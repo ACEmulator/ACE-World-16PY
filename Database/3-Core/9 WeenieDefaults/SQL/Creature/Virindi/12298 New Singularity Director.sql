@@ -10,10 +10,10 @@ VALUES (12298,   1,         16) /* ItemType - Creature */
      , (12298,  16,          1) /* ItemUseable - No */
      , (12298,  25,         44) /* Level */
      , (12298,  27,          0) /* ArmorType */
-     , (12298,  68,          3) /* TargetingTactic */
+     , (12298,  68,          3) /* TargetingTactic - Random, Focused */
      , (12298,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (12298, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (12298, 140,          1) /* AiOptions */
+     , (12298, 140,          1) /* AiOptions - CanOpenDoors */
      , (12298, 146,      11290) /* XpOverride */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)

@@ -10,7 +10,7 @@ VALUES (23552,   1,         16) /* ItemType - Creature */
      , (23552,  25,        161) /* Level */
      , (23552,  27,          0) /* ArmorType */
      , (23552,  40,          2) /* CombatMode - Melee */
-     , (23552,  68,          9) /* TargetingTactic */
+     , (23552,  68,          9) /* TargetingTactic - Random, TopDamager */
      , (23552,  72,         15) /* FriendType - Gromnie */
      , (23552,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (23552, 133,          2) /* ShowableOnRadar - ShowMovement */

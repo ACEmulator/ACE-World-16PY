@@ -10,8 +10,8 @@ VALUES (26677,   1,         16) /* ItemType - Creature */
      , (26677,  16,          1) /* ItemUseable - No */
      , (26677,  25,         33) /* Level */
      , (26677,  40,          2) /* CombatMode - Melee */
-     , (26677,  67,         64) /* Tolerance */
-     , (26677,  68,          3) /* TargetingTactic */
+     , (26677,  67,         64) /* Tolerance - Retaliate */
+     , (26677,  68,          3) /* TargetingTactic - Random, Focused */
      , (26677,  72,          5) /* FriendType - Lugian */
      , (26677,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (26677, 133,          4) /* ShowableOnRadar - ShowAlways */

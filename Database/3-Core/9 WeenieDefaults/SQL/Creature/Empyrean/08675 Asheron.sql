@@ -10,7 +10,7 @@ VALUES (8675,   1,         16) /* ItemType - Creature */
      , (8675,  16,          1) /* ItemUseable - No */
      , (8675,  25,        710) /* Level */
      , (8675,  27,          0) /* ArmorType */
-     , (8675,  67,         64) /* Tolerance */
+     , (8675,  67,         64) /* Tolerance - Retaliate */
      , (8675,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (8675, 101,        131) /* AiAllowedCombatStyle - Unarmed, OneHanded, ThrownWeapon */
      , (8675, 133,          2) /* ShowableOnRadar - ShowMovement */

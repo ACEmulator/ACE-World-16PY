@@ -11,12 +11,12 @@ VALUES (27284,   1,         16) /* ItemType - Creature */
      , (27284,  16,          1) /* ItemUseable - No */
      , (27284,  25,        135) /* Level */
      , (27284,  27,          0) /* ArmorType */
-     , (27284,  68,          3) /* TargetingTactic */
+     , (27284,  68,          3) /* TargetingTactic - Random, Focused */
      , (27284,  72,         71) /* FriendType - Margul */
      , (27284,  93,    4195336) /* PhysicsState - ReportCollisions, Gravity, EdgeSlide */
      , (27284, 101,        183) /* AiAllowedCombatStyle - Unarmed, OneHanded, OneHandedAndShield, Bow, Crossbow, ThrownWeapon */
      , (27284, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (27284, 140,          1) /* AiOptions */
+     , (27284, 140,          1) /* AiOptions - CanOpenDoors */
      , (27284, 146,      74448) /* XpOverride */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)

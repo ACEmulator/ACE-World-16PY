@@ -10,7 +10,7 @@ VALUES (22507,   1,         16) /* ItemType - Creature */
      , (22507,  16,          1) /* ItemUseable - No */
      , (22507,  25,        135) /* Level */
      , (22507,  40,          2) /* CombatMode - Melee */
-     , (22507,  68,          9) /* TargetingTactic */
+     , (22507,  68,          9) /* TargetingTactic - Random, TopDamager */
      , (22507,  72,         33) /* FriendType - Chittick */
      , (22507,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (22507, 133,          2) /* ShowableOnRadar - ShowMovement */

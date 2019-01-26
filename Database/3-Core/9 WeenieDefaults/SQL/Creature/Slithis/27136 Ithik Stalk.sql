@@ -11,7 +11,7 @@ VALUES (27136,   1,         16) /* ItemType - Creature */
      , (27136,  25,         35) /* Level */
      , (27136,  27,          0) /* ArmorType */
      , (27136,  40,          2) /* CombatMode - Melee */
-     , (27136,  68,         13) /* TargetingTactic */
+     , (27136,  68,         13) /* TargetingTactic - Random, LastDamager, TopDamager */
      , (27136,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (27136, 101,        183) /* AiAllowedCombatStyle - Unarmed, OneHanded, OneHandedAndShield, Bow, Crossbow, ThrownWeapon */
      , (27136, 133,          2) /* ShowableOnRadar - ShowMovement */

@@ -10,7 +10,7 @@ VALUES (188,   1,         16) /* ItemType - Creature */
      , (188,  16,          1) /* ItemUseable - No */
      , (188,  25,        110) /* Level */
      , (188,  27,          0) /* ArmorType */
-     , (188,  68,         13) /* TargetingTactic */
+     , (188,  68,         13) /* TargetingTactic - Random, LastDamager, TopDamager */
      , (188,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (188, 101,        131) /* AiAllowedCombatStyle - Unarmed, OneHanded, ThrownWeapon */
      , (188, 133,          2) /* ShowableOnRadar - ShowMovement */

@@ -11,7 +11,7 @@ VALUES (19542,   1,         16) /* ItemType - Creature */
      , (19542,  25,        161) /* Level */
      , (19542,  27,          0) /* ArmorType */
      , (19542,  40,          2) /* CombatMode - Melee */
-     , (19542,  68,          3) /* TargetingTactic */
+     , (19542,  68,          3) /* TargetingTactic - Random, Focused */
      , (19542,  81,          6) /* MaxGeneratedObjects */
      , (19542,  82,          6) /* InitGeneratedObjects */
      , (19542,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */

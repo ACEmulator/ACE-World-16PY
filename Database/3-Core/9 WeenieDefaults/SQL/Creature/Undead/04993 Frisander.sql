@@ -11,7 +11,7 @@ VALUES (4993,   1,         16) /* ItemType - Creature */
      , (4993,  25,         43) /* Level */
      , (4993,  27,          0) /* ArmorType */
      , (4993,  40,          1) /* CombatMode - NonCombat */
-     , (4993,  68,          3) /* TargetingTactic */
+     , (4993,  68,          3) /* TargetingTactic - Random, Focused */
      , (4993,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (4993, 101,          4) /* AiAllowedCombatStyle - OneHandedAndShield */
      , (4993, 133,          0) /* ShowableOnRadar - Undefined */

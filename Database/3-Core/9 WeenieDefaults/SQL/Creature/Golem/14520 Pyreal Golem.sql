@@ -11,7 +11,7 @@ VALUES (14520,   1,         16) /* ItemType - Creature */
      , (14520,  25,        105) /* Level */
      , (14520,  27,          0) /* ArmorType */
      , (14520,  40,          2) /* CombatMode - Melee */
-     , (14520,  68,          9) /* TargetingTactic */
+     , (14520,  68,          9) /* TargetingTactic - Random, TopDamager */
      , (14520,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (14520, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (14520, 146,      47985) /* XpOverride */;

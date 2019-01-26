@@ -10,8 +10,8 @@ VALUES (6823,   1,         16) /* ItemType - Creature */
      , (6823,  25,        126) /* Level */
      , (6823,  27,          0) /* ArmorType */
      , (6823,  40,          2) /* CombatMode - Melee */
-     , (6823,  67,          1) /* Tolerance */
-     , (6823,  68,          3) /* TargetingTactic */
+     , (6823,  67,          1) /* Tolerance - NoAttack */
+     , (6823,  68,          3) /* TargetingTactic - Random, Focused */
      , (6823,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (6823, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (6823, 146,    2000000) /* XpOverride */;

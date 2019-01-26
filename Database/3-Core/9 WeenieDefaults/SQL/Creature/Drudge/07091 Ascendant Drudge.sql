@@ -11,12 +11,12 @@ VALUES (7091,   1,         16) /* ItemType - Creature */
      , (7091,  25,        125) /* Level */
      , (7091,  27,          0) /* ArmorType */
      , (7091,  40,          2) /* CombatMode - Melee */
-     , (7091,  68,          9) /* TargetingTactic */
+     , (7091,  68,          9) /* TargetingTactic - Random, TopDamager */
      , (7091,  72,         19) /* FriendType - Virindi */
      , (7091,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (7091, 101,        131) /* AiAllowedCombatStyle - Unarmed, OneHanded, ThrownWeapon */
      , (7091, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (7091, 140,          1) /* AiOptions */
+     , (7091, 140,          1) /* AiOptions - CanOpenDoors */
      , (7091, 146,      65518) /* XpOverride */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)

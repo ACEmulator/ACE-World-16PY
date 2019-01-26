@@ -10,14 +10,14 @@ VALUES (8272,   1,         16) /* ItemType - Creature */
      , (8272,  16,          1) /* ItemUseable - No */
      , (8272,  25,          9) /* Level */
      , (8272,  27,          0) /* ArmorType */
-     , (8272,  67,          2) /* Tolerance */
-     , (8272,  68,          3) /* TargetingTactic */
+     , (8272,  67,          2) /* Tolerance - Appraise */
+     , (8272,  68,          3) /* TargetingTactic - Random, Focused */
      , (8272,  81,          4) /* MaxGeneratedObjects */
      , (8272,  82,          2) /* InitGeneratedObjects */
      , (8272,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (8272, 103,          1) /* GeneratorDestructionType - Nothing */
      , (8272, 133,          3) /* ShowableOnRadar - ShowAttacking */
-     , (8272, 140,          1) /* AiOptions */
+     , (8272, 140,          1) /* AiOptions - CanOpenDoors */
      , (8272, 146,        390) /* XpOverride */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)

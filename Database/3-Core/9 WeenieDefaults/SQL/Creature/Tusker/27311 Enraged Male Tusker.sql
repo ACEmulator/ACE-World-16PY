@@ -11,7 +11,7 @@ VALUES (27311,   1,         16) /* ItemType - Creature */
      , (27311,  25,        115) /* Level */
      , (27311,  27,          0) /* ArmorType */
      , (27311,  40,          2) /* CombatMode - Melee */
-     , (27311,  68,          9) /* TargetingTactic */
+     , (27311,  68,          9) /* TargetingTactic - Random, TopDamager */
      , (27311,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (27311, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (27311, 146,      55000) /* XpOverride */;

@@ -10,7 +10,7 @@ VALUES (3663,   1,         16) /* ItemType - Creature */
      , (3663,  25,          5) /* Level */
      , (3663,  27,          0) /* ArmorType */
      , (3663,  40,          1) /* CombatMode - NonCombat */
-     , (3663,  68,          3) /* TargetingTactic */
+     , (3663,  68,          3) /* TargetingTactic - Random, Focused */
      , (3663,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (3663, 101,        183) /* AiAllowedCombatStyle - Unarmed, OneHanded, OneHandedAndShield, Bow, Crossbow, ThrownWeapon */
      , (3663, 133,          2) /* ShowableOnRadar - ShowMovement */
