@@ -10,7 +10,7 @@ VALUES (24894,   1,          2) /* ItemType - Armor */
      , (24894,   9,         32) /* ValidLocations - HandWear */
      , (24894,  16,          1) /* ItemUseable - No */
      , (24894,  19,       3000) /* Value */
-     , (24894,  27,         32) /* ArmorType */
+     , (24894,  27,         32) /* ArmorType - Metal */
      , (24894,  28,        300) /* ArmorLevel */
      , (24894,  36,       9999) /* ResistMagic */
      , (24894,  44,          3) /* Damage */

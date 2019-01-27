@@ -10,7 +10,7 @@ VALUES (23944,   1,          2) /* ItemType - Armor */
      , (23944,   9,          1) /* ValidLocations - HeadWear */
      , (23944,  16,          1) /* ItemUseable - No */
      , (23944,  19,       5200) /* Value */
-     , (23944,  27,         32) /* ArmorType */
+     , (23944,  27,         32) /* ArmorType - Metal */
      , (23944,  28,        225) /* ArmorLevel */
      , (23944,  33,          1) /* Bonded - Bonded */
      , (23944,  36,       9999) /* ResistMagic */

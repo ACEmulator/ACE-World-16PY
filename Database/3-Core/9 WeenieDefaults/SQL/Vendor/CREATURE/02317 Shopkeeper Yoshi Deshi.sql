@@ -9,7 +9,7 @@ VALUES (2317,   1,         16) /* ItemType - Creature */
      , (2317,   8,        120) /* Mass */
      , (2317,  16,         32) /* ItemUseable - Remote */
      , (2317,  25,          8) /* Level */
-     , (2317,  27,          0) /* ArmorType */
+     , (2317,  27,          0) /* ArmorType - None */
      , (2317,  74, 1208250287) /* MerchandiseItemTypes - Jewelry, Gem, VendorShopKeep */
      , (2317,  75,          0) /* MerchandiseMinValue */
      , (2317,  76,    1000000) /* MerchandiseMaxValue */

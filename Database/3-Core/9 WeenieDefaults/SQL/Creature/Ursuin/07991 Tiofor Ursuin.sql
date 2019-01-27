@@ -9,7 +9,7 @@ VALUES (7991,   1,         16) /* ItemType - Creature */
      , (7991,   7,         -1) /* ContainersCapacity */
      , (7991,  16,          1) /* ItemUseable - No */
      , (7991,  25,         18) /* Level */
-     , (7991,  27,          0) /* ArmorType */
+     , (7991,  27,          0) /* ArmorType - None */
      , (7991,  40,          2) /* CombatMode - Melee */
      , (7991,  68,          9) /* TargetingTactic - Random, TopDamager */
      , (7991,  81,          3) /* MaxGeneratedObjects */

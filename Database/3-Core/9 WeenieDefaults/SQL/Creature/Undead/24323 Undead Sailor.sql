@@ -9,7 +9,7 @@ VALUES (24323,   1,         16) /* ItemType - Creature */
      , (24323,   7,         -1) /* ContainersCapacity */
      , (24323,  16,          1) /* ItemUseable - No */
      , (24323,  25,        120) /* Level */
-     , (24323,  27,          0) /* ArmorType */
+     , (24323,  27,          0) /* ArmorType - None */
      , (24323,  40,          1) /* CombatMode - NonCombat */
      , (24323,  68,          3) /* TargetingTactic - Random, Focused */
      , (24323,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */

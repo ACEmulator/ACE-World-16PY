@@ -11,7 +11,7 @@ VALUES (26006,   1,          2) /* ItemType - Armor */
      , (26006,  16,          1) /* ItemUseable - No */
      , (26006,  18,        128) /* UiEffects - Frost */
      , (26006,  19,       6500) /* Value */
-     , (26006,  27,         32) /* ArmorType */
+     , (26006,  27,         32) /* ArmorType - Metal */
      , (26006,  28,        320) /* ArmorLevel */
      , (26006,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (26006, 106,        300) /* ItemSpellcraft */

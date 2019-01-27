@@ -9,7 +9,7 @@ VALUES (8537,   1,         16) /* ItemType - Creature */
      , (8537,   7,         -1) /* ContainersCapacity */
      , (8537,  16,          1) /* ItemUseable - No */
      , (8537,  25,        277) /* Level */
-     , (8537,  27,          0) /* ArmorType */
+     , (8537,  27,          0) /* ArmorType - None */
      , (8537,  40,          1) /* CombatMode - NonCombat */
      , (8537,  68,          3) /* TargetingTactic - Random, Focused */
      , (8537,  93,    4195336) /* PhysicsState - ReportCollisions, Gravity, EdgeSlide */

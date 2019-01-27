@@ -9,7 +9,7 @@ VALUES (12186,   1,         16) /* ItemType - Creature */
      , (12186,   8,        120) /* Mass */
      , (12186,  16,          1) /* ItemUseable - No */
      , (12186,  25,        105) /* Level */
-     , (12186,  27,          0) /* ArmorType */
+     , (12186,  27,          0) /* ArmorType - None */
      , (12186,  68,         13) /* TargetingTactic - Random, LastDamager, TopDamager */
      , (12186,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (12186, 101,        131) /* AiAllowedCombatStyle - Unarmed, OneHanded, ThrownWeapon */

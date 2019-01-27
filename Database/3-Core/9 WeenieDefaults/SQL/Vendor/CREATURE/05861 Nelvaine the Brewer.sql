@@ -9,7 +9,7 @@ VALUES (5861,   1,         16) /* ItemType - Creature */
      , (5861,   8,        120) /* Mass */
      , (5861,  16,         32) /* ItemUseable - Remote */
      , (5861,  25,         12) /* Level */
-     , (5861,  27,          0) /* ArmorType */
+     , (5861,  27,          0) /* ArmorType - None */
      , (5861,  74,     831488) /* MerchandiseItemTypes - SpellComponents, Writable, Caster, PromissoryNote, ManaStone */
      , (5861,  75,          0) /* MerchandiseMinValue */
      , (5861,  76,     100000) /* MerchandiseMaxValue */

@@ -9,7 +9,7 @@ VALUES (1607,   1,         16) /* ItemType - Creature */
      , (1607,   7,         -1) /* ContainersCapacity */
      , (1607,  16,          1) /* ItemUseable - No */
      , (1607,  25,         18) /* Level */
-     , (1607,  27,          0) /* ArmorType */
+     , (1607,  27,          0) /* ArmorType - None */
      , (1607,  40,          2) /* CombatMode - Melee */
      , (1607,  67,         64) /* Tolerance - Retaliate */
      , (1607,  68,          5) /* TargetingTactic - Random, LastDamager */

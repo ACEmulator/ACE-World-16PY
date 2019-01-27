@@ -9,7 +9,7 @@ VALUES (9198,   1,         16) /* ItemType - Creature */
      , (9198,   7,         -1) /* ContainersCapacity */
      , (9198,  16,          1) /* ItemUseable - No */
      , (9198,  25,         85) /* Level */
-     , (9198,  27,          0) /* ArmorType */
+     , (9198,  27,          0) /* ArmorType - None */
      , (9198,  68,          3) /* TargetingTactic - Random, Focused */
      , (9198,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (9198, 133,          2) /* ShowableOnRadar - ShowMovement */

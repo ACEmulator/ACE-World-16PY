@@ -9,7 +9,7 @@ VALUES (26519,   1,         16) /* ItemType - Creature */
      , (26519,   7,         -1) /* ContainersCapacity */
      , (26519,  16,          1) /* ItemUseable - No */
      , (26519,  25,        161) /* Level */
-     , (26519,  27,          0) /* ArmorType */
+     , (26519,  27,          0) /* ArmorType - None */
      , (26519,  40,          1) /* CombatMode - NonCombat */
      , (26519,  68,          3) /* TargetingTactic - Random, Focused */
      , (26519,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */

@@ -10,7 +10,7 @@ VALUES (25650,   1,          2) /* ItemType - Armor */
      , (25650,   9,       9216) /* ValidLocations - AbdomenArmor, UpperLegArmor */
      , (25650,  16,          1) /* ItemUseable - No */
      , (25650,  19,         50) /* Value */
-     , (25650,  27,          2) /* ArmorType */
+     , (25650,  27,          2) /* ArmorType - Leather */
      , (25650,  28,         20) /* ArmorLevel */
      , (25650,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (25650, 169,  118161678) /* TsysMutationData */;

@@ -10,7 +10,7 @@ VALUES (7737,   1,          2) /* ItemType - Armor */
      , (7737,   9,       6144) /* ValidLocations - UpperArmArmor, LowerArmArmor */
      , (7737,  16,          1) /* ItemUseable - No */
      , (7737,  19,       1870) /* Value */
-     , (7737,  27,         32) /* ArmorType */
+     , (7737,  27,         32) /* ArmorType - Metal */
      , (7737,  28,        190) /* ArmorLevel */
      , (7737,  33,          1) /* Bonded - Bonded */
      , (7737,  36,       9999) /* ResistMagic */

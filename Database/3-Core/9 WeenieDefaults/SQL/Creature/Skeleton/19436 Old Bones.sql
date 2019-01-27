@@ -8,7 +8,7 @@ VALUES (19436,   1,         16) /* ItemType - Creature */
      , (19436,   7,         -1) /* ContainersCapacity */
      , (19436,  16,          1) /* ItemUseable - No */
      , (19436,  25,          5) /* Level */
-     , (19436,  27,          0) /* ArmorType */
+     , (19436,  27,          0) /* ArmorType - None */
      , (19436,  40,          1) /* CombatMode - NonCombat */
      , (19436,  67,         64) /* Tolerance - Retaliate */
      , (19436,  68,          5) /* TargetingTactic - Random, LastDamager */

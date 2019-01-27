@@ -11,7 +11,7 @@ VALUES (29371,   1,          2) /* ItemType - Armor */
      , (29371,  16,          1) /* ItemUseable - No */
      , (29371,  18,          1) /* UiEffects - Magical */
      , (29371,  19,       3000) /* Value */
-     , (29371,  27,         32) /* ArmorType */
+     , (29371,  27,         32) /* ArmorType - Metal */
      , (29371,  28,         80) /* ArmorLevel */
      , (29371,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (29371, 106,        220) /* ItemSpellcraft */

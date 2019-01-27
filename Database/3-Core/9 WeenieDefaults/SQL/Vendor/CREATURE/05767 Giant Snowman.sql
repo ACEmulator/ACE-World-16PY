@@ -8,7 +8,7 @@ VALUES (5767,   1,         16) /* ItemType - Creature */
      , (5767,   7,         -1) /* ContainersCapacity */
      , (5767,  16,         32) /* ItemUseable - Remote */
      , (5767,  25,         95) /* Level */
-     , (5767,  27,          0) /* ArmorType */
+     , (5767,  27,          0) /* ArmorType - None */
      , (5767,  40,          2) /* CombatMode - Melee */
      , (5767,  67,          2) /* Tolerance - Appraise */
      , (5767,  68,          2) /* TargetingTactic - Focused */

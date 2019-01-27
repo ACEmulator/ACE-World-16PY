@@ -9,7 +9,7 @@ VALUES (27513,   1,         16) /* ItemType - Creature */
      , (27513,   8,        120) /* Mass */
      , (27513,  16,         32) /* ItemUseable - Remote */
      , (27513,  25,          5) /* Level */
-     , (27513,  27,          0) /* ArmorType */
+     , (27513,  27,          0) /* ArmorType - None */
      , (27513,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (27513,  95,          3) /* RadarBlipColor - White */
      , (27513, 133,          0) /* ShowableOnRadar - Undefined */

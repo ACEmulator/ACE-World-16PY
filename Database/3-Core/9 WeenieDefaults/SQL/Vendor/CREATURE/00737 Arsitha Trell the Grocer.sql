@@ -9,7 +9,7 @@ VALUES (737,   1,         16) /* ItemType - Creature */
      , (737,   8,        120) /* Mass */
      , (737,  16,         32) /* ItemUseable - Remote */
      , (737,  25,          4) /* Level */
-     , (737,  27,          0) /* ArmorType */
+     , (737,  27,          0) /* ArmorType - None */
      , (737,  74, 1208248231) /* MerchandiseItemTypes - VendorShopKeep */
      , (737,  75,          0) /* MerchandiseMinValue */
      , (737,  76,     100000) /* MerchandiseMaxValue */

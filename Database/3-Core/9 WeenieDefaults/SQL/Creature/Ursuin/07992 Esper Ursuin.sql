@@ -9,7 +9,7 @@ VALUES (7992,   1,         16) /* ItemType - Creature */
      , (7992,   7,         -1) /* ContainersCapacity */
      , (7992,  16,          1) /* ItemUseable - No */
      , (7992,  25,         35) /* Level */
-     , (7992,  27,          0) /* ArmorType */
+     , (7992,  27,          0) /* ArmorType - None */
      , (7992,  40,          2) /* CombatMode - Melee */
      , (7992,  68,          9) /* TargetingTactic - Random, TopDamager */
      , (7992,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */

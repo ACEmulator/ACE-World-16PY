@@ -10,7 +10,7 @@ VALUES (414,   1,          2) /* ItemType - Armor */
      , (414,   9,        512) /* ValidLocations - ChestArmor */
      , (414,  16,          1) /* ItemUseable - No */
      , (414,  19,        506) /* Value */
-     , (414,  27,         16) /* ArmorType */
+     , (414,  27,         16) /* ArmorType - Chainmail */
      , (414,  28,         50) /* ArmorLevel */
      , (414,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (414, 169,  118097668) /* TsysMutationData */;

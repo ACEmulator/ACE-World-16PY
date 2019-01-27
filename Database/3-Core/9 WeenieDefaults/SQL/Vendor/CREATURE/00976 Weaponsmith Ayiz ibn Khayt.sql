@@ -9,7 +9,7 @@ VALUES (976,   1,         16) /* ItemType - Creature */
      , (976,   8,        120) /* Mass */
      , (976,  16,         32) /* ItemUseable - Remote */
      , (976,  25,         11) /* Level */
-     , (976,  27,          0) /* ArmorType */
+     , (976,  27,          0) /* ArmorType - None */
      , (976,  74, 1074005895) /* MerchandiseItemTypes - Vestements, Weapon, LockableMagicTarget, Useless, PromissoryNote, TinkeringMaterial */
      , (976,  75,          0) /* MerchandiseMinValue */
      , (976,  76,      25000) /* MerchandiseMaxValue */

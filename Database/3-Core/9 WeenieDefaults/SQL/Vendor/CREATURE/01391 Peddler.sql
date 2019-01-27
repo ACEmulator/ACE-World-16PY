@@ -9,7 +9,7 @@ VALUES (1391,   1,         16) /* ItemType - Creature */
      , (1391,   8,        120) /* Mass */
      , (1391,  16,         32) /* ItemUseable - Remote */
      , (1391,  25,          9) /* Level */
-     , (1391,  27,          0) /* ArmorType */
+     , (1391,  27,          0) /* ArmorType - None */
      , (1391,  74, 1074030613) /* MerchandiseItemTypes - MeleeWeapon, Clothing, Creature, Gem, Writable, Key, PromissoryNote, TinkeringMaterial */
      , (1391,  75,          0) /* MerchandiseMinValue */
      , (1391,  76,     100000) /* MerchandiseMaxValue */

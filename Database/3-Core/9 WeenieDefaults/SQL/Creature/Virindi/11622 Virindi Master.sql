@@ -9,7 +9,7 @@ VALUES (11622,   1,         16) /* ItemType - Creature */
      , (11622,   7,         -1) /* ContainersCapacity */
      , (11622,  16,          1) /* ItemUseable - No */
      , (11622,  25,         69) /* Level */
-     , (11622,  27,          0) /* ArmorType */
+     , (11622,  27,          0) /* ArmorType - None */
      , (11622,  68,          3) /* TargetingTactic - Random, Focused */
      , (11622,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (11622, 133,          2) /* ShowableOnRadar - ShowMovement */

@@ -10,7 +10,7 @@ VALUES (25812,   1,          2) /* ItemType - Armor */
      , (25812,   9,        256) /* ValidLocations - FootWear */
      , (25812,  16,          1) /* ItemUseable - No */
      , (25812,  19,       5000) /* Value */
-     , (25812,  27,         32) /* ArmorType */
+     , (25812,  27,         32) /* ArmorType - Metal */
      , (25812,  28,        220) /* ArmorLevel */
      , (25812,  44,          3) /* Damage */
      , (25812,  45,          4) /* DamageType - Bludgeon */

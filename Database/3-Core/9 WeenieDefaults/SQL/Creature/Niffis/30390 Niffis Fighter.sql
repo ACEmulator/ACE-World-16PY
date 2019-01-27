@@ -9,7 +9,7 @@ VALUES (30390,   1,         16) /* ItemType - Creature */
      , (30390,   7,         -1) /* ContainersCapacity */
      , (30390,  16,          1) /* ItemUseable - No */
      , (30390,  25,        120) /* Level */
-     , (30390,  27,          0) /* ArmorType */
+     , (30390,  27,          0) /* ArmorType - None */
      , (30390,  40,          2) /* CombatMode - Melee */
      , (30390,  68,          9) /* TargetingTactic - Random, TopDamager */
      , (30390,  72,          2) /* FriendType - Banderling */

@@ -9,7 +9,7 @@ VALUES (10953,   1,         16) /* ItemType - Creature */
      , (10953,   7,         -1) /* ContainersCapacity */
      , (10953,  16,          1) /* ItemUseable - No */
      , (10953,  25,        130) /* Level */
-     , (10953,  27,          0) /* ArmorType */
+     , (10953,  27,          0) /* ArmorType - None */
      , (10953,  68,          3) /* TargetingTactic - Random, Focused */
      , (10953,  72,          1) /* FriendType - Olthoi */
      , (10953,  81,          4) /* MaxGeneratedObjects */

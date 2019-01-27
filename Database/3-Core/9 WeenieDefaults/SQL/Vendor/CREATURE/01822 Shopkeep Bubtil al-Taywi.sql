@@ -9,7 +9,7 @@ VALUES (1822,   1,         16) /* ItemType - Creature */
      , (1822,   8,        120) /* Mass */
      , (1822,  16,         32) /* ItemUseable - Remote */
      , (1822,  25,          9) /* Level */
-     , (1822,  27,          0) /* ArmorType */
+     , (1822,  27,          0) /* ArmorType - None */
      , (1822,  74, 1208248231) /* MerchandiseItemTypes - VendorShopKeep */
      , (1822,  75,          0) /* MerchandiseMinValue */
      , (1822,  76,      25000) /* MerchandiseMaxValue */

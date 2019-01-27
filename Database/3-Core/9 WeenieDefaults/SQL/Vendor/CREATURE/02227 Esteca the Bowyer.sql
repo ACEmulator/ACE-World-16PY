@@ -9,7 +9,7 @@ VALUES (2227,   1,         16) /* ItemType - Creature */
      , (2227,   8,        120) /* Mass */
      , (2227,  16,         32) /* ItemUseable - Remote */
      , (2227,  25,          8) /* Level */
-     , (2227,  27,          0) /* ArmorType */
+     , (2227,  27,          0) /* ArmorType - None */
      , (2227,  74,  134480129) /* MerchandiseItemTypes - Weapon, PromissoryNote, CraftFletchingIntermediate */
      , (2227,  75,          0) /* MerchandiseMinValue */
      , (2227,  76,     100000) /* MerchandiseMaxValue */

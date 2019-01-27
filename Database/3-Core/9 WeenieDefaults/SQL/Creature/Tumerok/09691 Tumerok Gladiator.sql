@@ -9,7 +9,7 @@ VALUES (9691,   1,         16) /* ItemType - Creature */
      , (9691,   7,         -1) /* ContainersCapacity */
      , (9691,  16,          1) /* ItemUseable - No */
      , (9691,  25,         74) /* Level */
-     , (9691,  27,          0) /* ArmorType */
+     , (9691,  27,          0) /* ArmorType - None */
      , (9691,  68,          5) /* TargetingTactic - Random, LastDamager */
      , (9691,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (9691, 101,        183) /* AiAllowedCombatStyle - Unarmed, OneHanded, OneHandedAndShield, Bow, Crossbow, ThrownWeapon */

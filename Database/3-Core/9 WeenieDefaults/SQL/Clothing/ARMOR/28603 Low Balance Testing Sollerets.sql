@@ -10,7 +10,7 @@ VALUES (28603,   1,          2) /* ItemType - Armor */
      , (28603,   9,        256) /* ValidLocations - FootWear */
      , (28603,  16,          1) /* ItemUseable - No */
      , (28603,  19,       5000) /* Value */
-     , (28603,  27,         32) /* ArmorType */
+     , (28603,  27,         32) /* ArmorType - Metal */
      , (28603,  28,        150) /* ArmorLevel */
      , (28603,  33,          1) /* Bonded - Bonded */
      , (28603,  44,          3) /* Damage */

@@ -10,7 +10,7 @@ VALUES (4251,   1,         16) /* ItemType - Creature */
      , (4251,   8,       8000) /* Mass */
      , (4251,  16,          1) /* ItemUseable - No */
      , (4251,  25,         18) /* Level */
-     , (4251,  27,          0) /* ArmorType */
+     , (4251,  27,          0) /* ArmorType - None */
      , (4251,  40,          2) /* CombatMode - Melee */
      , (4251,  68,         13) /* TargetingTactic - Random, LastDamager, TopDamager */
      , (4251,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */

@@ -10,7 +10,7 @@ VALUES (11985,   1,          2) /* ItemType - Armor */
      , (11985,   9,       7680) /* ValidLocations - ChestArmor, AbdomenArmor, UpperArmArmor, LowerArmArmor */
      , (11985,  16,          1) /* ItemUseable - No */
      , (11985,  19,       3500) /* Value */
-     , (11985,  27,          8) /* ArmorType */
+     , (11985,  27,          8) /* ArmorType - Scalemail */
      , (11985,  28,        150) /* ArmorLevel */
      , (11985,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (11985, 150,        103) /* HookPlacement - Hook */

@@ -10,7 +10,7 @@ VALUES (25982,   1,          2) /* ItemType - Armor */
      , (25982,   9,      25856) /* ValidLocations - FootWear, AbdomenArmor, UpperLegArmor, LowerLegArmor */
      , (25982,  16,          1) /* ItemUseable - No */
      , (25982,  19,      13000) /* Value */
-     , (25982,  27,          2) /* ArmorType */
+     , (25982,  27,          2) /* ArmorType - Leather */
      , (25982,  28,          0) /* ArmorLevel */
      , (25982,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (25982, 114,          1) /* Attuned - Attuned */;

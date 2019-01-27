@@ -9,7 +9,7 @@ VALUES (14918,   1,          2) /* ItemType - Armor */
      , (14918,   9,    2097152) /* ValidLocations - Shield */
      , (14918,  16,          1) /* ItemUseable - No */
      , (14918,  19,          1) /* Value */
-     , (14918,  27,          2) /* ArmorType */
+     , (14918,  27,          2) /* ArmorType - Leather */
      , (14918,  28,          0) /* ArmorLevel */
      , (14918,  33,          1) /* Bonded - Bonded */
      , (14918,  51,          4) /* CombatUse - Shield */

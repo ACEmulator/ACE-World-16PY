@@ -8,7 +8,7 @@ VALUES (20028,   1,         16) /* ItemType - Creature */
      , (20028,   7,         -1) /* ContainersCapacity */
      , (20028,  16,          1) /* ItemUseable - No */
      , (20028,  25,        750) /* Level */
-     , (20028,  27,          0) /* ArmorType */
+     , (20028,  27,          0) /* ArmorType - None */
      , (20028,  40,          1) /* CombatMode - NonCombat */
      , (20028,  67,         64) /* Tolerance - Retaliate */
      , (20028,  68,         13) /* TargetingTactic - Random, LastDamager, TopDamager */

@@ -9,7 +9,7 @@ VALUES (8820,   1,         16) /* ItemType - Creature */
      , (8820,   7,         -1) /* ContainersCapacity */
      , (8820,  16,          1) /* ItemUseable - No */
      , (8820,  25,        120) /* Level */
-     , (8820,  27,          0) /* ArmorType */
+     , (8820,  27,          0) /* ArmorType - None */
      , (8820,  68,          3) /* TargetingTactic - Random, Focused */
      , (8820,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (8820, 133,          2) /* ShowableOnRadar - ShowMovement */

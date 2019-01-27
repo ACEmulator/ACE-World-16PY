@@ -10,7 +10,7 @@ VALUES (25664,   1,         16) /* ItemType - Creature */
      , (25664,   8,         90) /* Mass */
      , (25664,  16,          1) /* ItemUseable - No */
      , (25664,  25,        105) /* Level */
-     , (25664,  27,          0) /* ArmorType */
+     , (25664,  27,          0) /* ArmorType - None */
      , (25664,  68,          3) /* TargetingTactic - Random, Focused */
      , (25664,  72,         22) /* FriendType - Shadow */
      , (25664,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */

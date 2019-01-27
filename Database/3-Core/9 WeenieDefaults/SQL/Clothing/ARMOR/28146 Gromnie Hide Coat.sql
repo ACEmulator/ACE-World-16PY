@@ -10,7 +10,7 @@ VALUES (28146,   1,          2) /* ItemType - Armor */
      , (28146,   9,       6656) /* ValidLocations - ChestArmor, UpperArmArmor, LowerArmArmor */
      , (28146,  16,          1) /* ItemUseable - No */
      , (28146,  19,       2750) /* Value */
-     , (28146,  27,          8) /* ArmorType */
+     , (28146,  27,          8) /* ArmorType - Scalemail */
      , (28146,  28,        150) /* ArmorLevel */
      , (28146,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
 

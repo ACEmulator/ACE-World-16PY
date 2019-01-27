@@ -8,7 +8,7 @@ VALUES (4263,   1,         16) /* ItemType - Creature */
      , (4263,   7,         -1) /* ContainersCapacity */
      , (4263,  16,          1) /* ItemUseable - No */
      , (4263,  25,         17) /* Level */
-     , (4263,  27,          0) /* ArmorType */
+     , (4263,  27,          0) /* ArmorType - None */
      , (4263,  40,          2) /* CombatMode - Melee */
      , (4263,  68,          3) /* TargetingTactic - Random, Focused */
      , (4263,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */

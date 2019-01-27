@@ -10,7 +10,7 @@ VALUES (25701,   1,          4) /* ItemType - Clothing */
      , (25701,   9,      32512) /* ValidLocations - Armor */
      , (25701,  16,          1) /* ItemUseable - No */
      , (25701,  19,       5000) /* Value */
-     , (25701,  27,          1) /* ArmorType */
+     , (25701,  27,          1) /* ArmorType - Cloth */
      , (25701,  28,         20) /* ArmorLevel */
      , (25701,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
 

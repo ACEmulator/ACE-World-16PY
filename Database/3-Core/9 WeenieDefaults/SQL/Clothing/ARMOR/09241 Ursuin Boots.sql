@@ -10,7 +10,7 @@ VALUES (9241,   1,          2) /* ItemType - Armor */
      , (9241,   9,        384) /* ValidLocations - LowerLegWear, FootWear */
      , (9241,  16,          1) /* ItemUseable - No */
      , (9241,  19,        700) /* Value */
-     , (9241,  27,          2) /* ArmorType */
+     , (9241,  27,          2) /* ArmorType - Leather */
      , (9241,  28,         80) /* ArmorLevel */
      , (9241,  44,          2) /* Damage */
      , (9241,  45,          4) /* DamageType - Bludgeon */

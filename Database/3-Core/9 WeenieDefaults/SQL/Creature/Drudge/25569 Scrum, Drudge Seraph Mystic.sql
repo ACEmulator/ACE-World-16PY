@@ -9,7 +9,7 @@ VALUES (25569,   1,         16) /* ItemType - Creature */
      , (25569,   7,         -1) /* ContainersCapacity */
      , (25569,  16,         32) /* ItemUseable - Remote */
      , (25569,  25,        165) /* Level */
-     , (25569,  27,          0) /* ArmorType */
+     , (25569,  27,          0) /* ArmorType - None */
      , (25569,  40,          2) /* CombatMode - Melee */
      , (25569,  68,          9) /* TargetingTactic - Random, TopDamager */
      , (25569,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */

@@ -9,7 +9,7 @@ VALUES (8563,   1,         16) /* ItemType - Creature */
      , (8563,   7,         -1) /* ContainersCapacity */
      , (8563,  16,          1) /* ItemUseable - No */
      , (8563,  25,         21) /* Level */
-     , (8563,  27,          0) /* ArmorType */
+     , (8563,  27,          0) /* ArmorType - None */
      , (8563,  40,          1) /* CombatMode - NonCombat */
      , (8563,  68,          3) /* TargetingTactic - Random, Focused */
      , (8563,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */

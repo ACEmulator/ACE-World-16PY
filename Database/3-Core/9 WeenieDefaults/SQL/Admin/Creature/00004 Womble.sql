@@ -9,7 +9,7 @@ VALUES (4,   1,         16) /* ItemType - Creature */
      , (4,   8,        120) /* Mass */
      , (4,  16,          1) /* ItemUseable - No */
      , (4,  25,          1) /* Level */
-     , (4,  27,          0) /* ArmorType */
+     , (4,  27,          0) /* ArmorType - None */
      , (4,  30,          0) /* AllegianceRank */
      , (4,  32,       2047) /* ChannelsActive - QA1, QA2, ValidChans */
      , (4,  93,    4195336) /* PhysicsState - ReportCollisions, Gravity, EdgeSlide */

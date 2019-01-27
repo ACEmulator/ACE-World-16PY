@@ -9,7 +9,7 @@ VALUES (714,   1,         16) /* ItemType - Creature */
      , (714,   8,        120) /* Mass */
      , (714,  16,         32) /* ItemUseable - Remote */
      , (714,  25,          3) /* Level */
-     , (714,  27,          0) /* ArmorType */
+     , (714,  27,          0) /* ArmorType - None */
      , (714,  74,    4481568) /* MerchandiseItemTypes - VendorGrocer */
      , (714,  75,          0) /* MerchandiseMinValue */
      , (714,  76,    1000000) /* MerchandiseMaxValue */

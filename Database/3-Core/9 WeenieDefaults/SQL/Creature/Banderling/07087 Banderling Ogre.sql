@@ -9,7 +9,7 @@ VALUES (7087,   1,         16) /* ItemType - Creature */
      , (7087,   7,         -1) /* ContainersCapacity */
      , (7087,  16,          1) /* ItemUseable - No */
      , (7087,  25,         21) /* Level */
-     , (7087,  27,          0) /* ArmorType */
+     , (7087,  27,          0) /* ArmorType - None */
      , (7087,  40,          2) /* CombatMode - Melee */
      , (7087,  68,          3) /* TargetingTactic - Random, Focused */
      , (7087,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */

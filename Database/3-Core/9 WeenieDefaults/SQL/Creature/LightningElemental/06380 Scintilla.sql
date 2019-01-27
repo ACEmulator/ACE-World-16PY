@@ -8,7 +8,7 @@ VALUES (6380,   1,         16) /* ItemType - Creature */
      , (6380,   7,         -1) /* ContainersCapacity */
      , (6380,  16,          1) /* ItemUseable - No */
      , (6380,  25,         61) /* Level */
-     , (6380,  27,          0) /* ArmorType */
+     , (6380,  27,          0) /* ArmorType - None */
      , (6380,  68,          5) /* TargetingTactic - Random, LastDamager */
      , (6380,  81,          1) /* MaxGeneratedObjects */
      , (6380,  82,          1) /* InitGeneratedObjects */

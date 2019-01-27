@@ -9,7 +9,7 @@ VALUES (1,   1,         16) /* ItemType - Creature */
      , (1,   8,        120) /* Mass */
      , (1,  16,          1) /* ItemUseable - No */
      , (1,  25,          1) /* Level */
-     , (1,  27,          0) /* ArmorType */
+     , (1,  27,          0) /* ArmorType - None */
      , (1,  30,          0) /* AllegianceRank */
      , (1,  93,    4195336) /* PhysicsState - ReportCollisions, Gravity, EdgeSlide */
      , (1, 133,          4) /* ShowableOnRadar - ShowAlways */

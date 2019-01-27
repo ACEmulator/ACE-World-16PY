@@ -9,7 +9,7 @@ VALUES (22908,   1,         16) /* ItemType - Creature */
      , (22908,   7,         -1) /* ContainersCapacity */
      , (22908,  16,          1) /* ItemUseable - No */
      , (22908,  25,        145) /* Level */
-     , (22908,  27,          0) /* ArmorType */
+     , (22908,  27,          0) /* ArmorType - None */
      , (22908,  68,          3) /* TargetingTactic - Random, Focused */
      , (22908,  72,         19) /* FriendType - Virindi */
      , (22908,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */

@@ -9,7 +9,7 @@ VALUES (21771,   1,         16) /* ItemType - Creature */
      , (21771,   7,         -1) /* ContainersCapacity */
      , (21771,  16,          1) /* ItemUseable - No */
      , (21771,  25,        999) /* Level */
-     , (21771,  27,          0) /* ArmorType */
+     , (21771,  27,          0) /* ArmorType - None */
      , (21771,  40,          2) /* CombatMode - Melee */
      , (21771,  68,          1) /* TargetingTactic - Random */
      , (21771,  72,         62) /* FriendType - Elemental */

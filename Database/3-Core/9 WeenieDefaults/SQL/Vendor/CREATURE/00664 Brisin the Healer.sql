@@ -9,7 +9,7 @@ VALUES (664,   1,         16) /* ItemType - Creature */
      , (664,   8,        120) /* Mass */
      , (664,  16,         32) /* ItemUseable - Remote */
      , (664,  25,          7) /* Level */
-     , (664,  27,          0) /* ArmorType */
+     , (664,  27,          0) /* ArmorType - None */
      , (664,  74,     262272) /* MerchandiseItemTypes - Misc, PromissoryNote */
      , (664,  75,          0) /* MerchandiseMinValue */
      , (664,  76,      25000) /* MerchandiseMaxValue */

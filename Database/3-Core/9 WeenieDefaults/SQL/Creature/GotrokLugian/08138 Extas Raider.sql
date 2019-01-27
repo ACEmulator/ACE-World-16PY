@@ -10,7 +10,7 @@ VALUES (8138,   1,         16) /* ItemType - Creature */
      , (8138,   8,       8000) /* Mass */
      , (8138,  16,          1) /* ItemUseable - No */
      , (8138,  25,         95) /* Level */
-     , (8138,  27,          0) /* ArmorType */
+     , (8138,  27,          0) /* ArmorType - None */
      , (8138,  40,          2) /* CombatMode - Melee */
      , (8138,  68,         13) /* TargetingTactic - Random, LastDamager, TopDamager */
      , (8138,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */

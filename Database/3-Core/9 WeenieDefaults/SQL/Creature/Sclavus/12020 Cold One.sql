@@ -9,7 +9,7 @@ VALUES (12020,   1,         16) /* ItemType - Creature */
      , (12020,   7,         -1) /* ContainersCapacity */
      , (12020,  16,          1) /* ItemUseable - No */
      , (12020,  25,        110) /* Level */
-     , (12020,  27,          0) /* ArmorType */
+     , (12020,  27,          0) /* ArmorType - None */
      , (12020,  40,          2) /* CombatMode - Melee */
      , (12020,  68,          3) /* TargetingTactic - Random, Focused */
      , (12020,  81,          2) /* MaxGeneratedObjects */

@@ -10,7 +10,7 @@ VALUES (11402,   1,         16) /* ItemType - Creature */
      , (11402,   8,        120) /* Mass */
      , (11402,  16,         32) /* ItemUseable - Remote */
      , (11402,  25,         10) /* Level */
-     , (11402,  27,          0) /* ArmorType */
+     , (11402,  27,          0) /* ArmorType - None */
      , (11402,  74,     270368) /* MerchandiseItemTypes - Food, Writable, PromissoryNote */
      , (11402,  75,          0) /* MerchandiseMinValue */
      , (11402,  76,     100000) /* MerchandiseMaxValue */

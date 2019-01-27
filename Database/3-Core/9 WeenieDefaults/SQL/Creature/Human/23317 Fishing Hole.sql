@@ -9,7 +9,7 @@ VALUES (23317,   1,         16) /* ItemType - Creature */
      , (23317,   7,         -1) /* ContainersCapacity */
      , (23317,  16,         32) /* ItemUseable - Remote */
      , (23317,  25,          5) /* Level */
-     , (23317,  27,          0) /* ArmorType */
+     , (23317,  27,          0) /* ArmorType - None */
      , (23317,  81,          2) /* MaxGeneratedObjects */
      , (23317,  82,          0) /* InitGeneratedObjects */
      , (23317,  83,      65536) /* ActivationResponse - Generate */

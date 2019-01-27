@@ -10,7 +10,7 @@ VALUES (24178,   1,          4) /* ItemType - Clothing */
      , (24178,   9,        256) /* ValidLocations - FootWear */
      , (24178,  16,          1) /* ItemUseable - No */
      , (24178,  19,       2000) /* Value */
-     , (24178,  27,          1) /* ArmorType */
+     , (24178,  27,          1) /* ArmorType - Cloth */
      , (24178,  28,          0) /* ArmorLevel */
      , (24178,  33,          1) /* Bonded - Bonded */
      , (24178,  44,          1) /* Damage */

@@ -9,7 +9,7 @@ VALUES (9250,   1,         16) /* ItemType - Creature */
      , (9250,   7,         -1) /* ContainersCapacity */
      , (9250,  16,          1) /* ItemUseable - No */
      , (9250,  25,         35) /* Level */
-     , (9250,  27,          0) /* ArmorType */
+     , (9250,  27,          0) /* ArmorType - None */
      , (9250,  40,          2) /* CombatMode - Melee */
      , (9250,  68,          9) /* TargetingTactic - Random, TopDamager */
      , (9250,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */

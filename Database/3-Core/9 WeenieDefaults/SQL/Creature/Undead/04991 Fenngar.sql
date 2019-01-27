@@ -9,7 +9,7 @@ VALUES (4991,   1,         16) /* ItemType - Creature */
      , (4991,   7,         -1) /* ContainersCapacity */
      , (4991,  16,          1) /* ItemUseable - No */
      , (4991,  25,         45) /* Level */
-     , (4991,  27,          0) /* ArmorType */
+     , (4991,  27,          0) /* ArmorType - None */
      , (4991,  40,          1) /* CombatMode - NonCombat */
      , (4991,  68,          9) /* TargetingTactic - Random, TopDamager */
      , (4991,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */

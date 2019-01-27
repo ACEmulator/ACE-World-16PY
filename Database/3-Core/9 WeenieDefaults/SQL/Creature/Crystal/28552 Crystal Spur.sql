@@ -9,7 +9,7 @@ VALUES (28552,   1,         16) /* ItemType - Creature */
      , (28552,   7,         -1) /* ContainersCapacity */
      , (28552,  16,          1) /* ItemUseable - No */
      , (28552,  25,         61) /* Level */
-     , (28552,  27,          0) /* ArmorType */
+     , (28552,  27,          0) /* ArmorType - None */
      , (28552,  40,          2) /* CombatMode - Melee */
      , (28552,  68,          5) /* TargetingTactic - Random, LastDamager */
      , (28552,  69,          4) /* CombatTactic - LastDamager */

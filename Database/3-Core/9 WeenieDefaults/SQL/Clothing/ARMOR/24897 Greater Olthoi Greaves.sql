@@ -10,7 +10,7 @@ VALUES (24897,   1,          2) /* ItemType - Armor */
      , (24897,   9,      16384) /* ValidLocations - LowerLegArmor */
      , (24897,  16,          1) /* ItemUseable - No */
      , (24897,  19,       2000) /* Value */
-     , (24897,  27,         32) /* ArmorType */
+     , (24897,  27,         32) /* ArmorType - Metal */
      , (24897,  28,        500) /* ArmorLevel */
      , (24897,  36,       9999) /* ResistMagic */
      , (24897,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */

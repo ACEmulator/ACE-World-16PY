@@ -9,7 +9,7 @@ VALUES (14464,   1,         16) /* ItemType - Creature */
      , (14464,   8,       8000) /* Mass */
      , (14464,  16,          1) /* ItemUseable - No */
      , (14464,  25,         23) /* Level */
-     , (14464,  27,          0) /* ArmorType */
+     , (14464,  27,          0) /* ArmorType - None */
      , (14464,  68,          9) /* TargetingTactic - Random, TopDamager */
      , (14464,  72,         59) /* FriendType - Simulacrum */
      , (14464,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */

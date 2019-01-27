@@ -11,7 +11,7 @@ VALUES (1453,   1,          2) /* ItemType - Armor */
      , (1453,  16,          1) /* ItemUseable - No */
      , (1453,  18,         32) /* UiEffects - Fire */
      , (1453,  19,         60) /* Value */
-     , (1453,  27,          2) /* ArmorType */
+     , (1453,  27,          2) /* ArmorType - Leather */
      , (1453,  28,         20) /* ArmorLevel */
      , (1453,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
 

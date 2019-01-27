@@ -10,7 +10,7 @@ VALUES (1758,   1,         16) /* ItemType - Creature */
      , (1758,   8,         90) /* Mass */
      , (1758,  16,          1) /* ItemUseable - No */
      , (1758,  25,         26) /* Level */
-     , (1758,  27,          0) /* ArmorType */
+     , (1758,  27,          0) /* ArmorType - None */
      , (1758,  68,          3) /* TargetingTactic - Random, Focused */
      , (1758,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (1758, 101,        183) /* AiAllowedCombatStyle - Unarmed, OneHanded, OneHandedAndShield, Bow, Crossbow, ThrownWeapon */

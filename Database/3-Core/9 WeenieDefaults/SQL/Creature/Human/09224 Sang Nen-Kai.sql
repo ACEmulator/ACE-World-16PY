@@ -10,7 +10,7 @@ VALUES (9224,   1,         16) /* ItemType - Creature */
      , (9224,   8,        120) /* Mass */
      , (9224,  16,         32) /* ItemUseable - Remote */
      , (9224,  25,         20) /* Level */
-     , (9224,  27,          0) /* ArmorType */
+     , (9224,  27,          0) /* ArmorType - None */
      , (9224,  93,    2098200) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */
      , (9224, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (9224, 134,         16) /* PlayerKillerStatus - RubberGlue */

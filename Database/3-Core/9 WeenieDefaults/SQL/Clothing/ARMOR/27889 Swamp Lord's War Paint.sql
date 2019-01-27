@@ -10,7 +10,7 @@ VALUES (27889,   1,          2) /* ItemType - Armor */
      , (27889,   9,      31232) /* ValidLocations - ChestArmor, UpperArmArmor, LowerArmArmor, UpperLegArmor, LowerLegArmor */
      , (27889,  16,          1) /* ItemUseable - No */
      , (27889,  19,       1500) /* Value */
-     , (27889,  27,         16) /* ArmorType */
+     , (27889,  27,         16) /* ArmorType - Chainmail */
      , (27889,  28,        190) /* ArmorLevel */
      , (27889,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (27889, 106,        150) /* ItemSpellcraft */

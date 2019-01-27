@@ -9,7 +9,7 @@ VALUES (10814,   1,         16) /* ItemType - Creature */
      , (10814,   7,         -1) /* ContainersCapacity */
      , (10814,  16,          1) /* ItemUseable - No */
      , (10814,  25,        105) /* Level */
-     , (10814,  27,          0) /* ArmorType */
+     , (10814,  27,          0) /* ArmorType - None */
      , (10814,  68,          3) /* TargetingTactic - Random, Focused */
      , (10814,  81,          2) /* MaxGeneratedObjects */
      , (10814,  82,          2) /* InitGeneratedObjects */

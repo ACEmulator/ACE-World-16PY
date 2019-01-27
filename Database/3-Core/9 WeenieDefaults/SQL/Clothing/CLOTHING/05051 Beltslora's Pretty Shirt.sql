@@ -10,7 +10,7 @@ VALUES (5051,   1,          4) /* ItemType - Clothing */
      , (5051,   9,         30) /* ValidLocations - ChestWear, AbdomenWear, UpperArmWear, LowerArmWear */
      , (5051,  16,          1) /* ItemUseable - No */
      , (5051,  19,         15) /* Value */
-     , (5051,  27,          1) /* ArmorType */
+     , (5051,  27,          1) /* ArmorType - Cloth */
      , (5051,  28,          0) /* ArmorLevel */
      , (5051,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
 

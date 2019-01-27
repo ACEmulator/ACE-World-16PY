@@ -9,7 +9,7 @@ VALUES (9506,   1,         16) /* ItemType - Creature */
      , (9506,   8,        120) /* Mass */
      , (9506,  16,         32) /* ItemUseable - Remote */
      , (9506,  25,          7) /* Level */
-     , (9506,  27,          0) /* ArmorType */
+     , (9506,  27,          0) /* ArmorType - None */
      , (9506,  74,     270496) /* MerchandiseItemTypes - Food, Misc, Writable, PromissoryNote */
      , (9506,  75,          0) /* MerchandiseMinValue */
      , (9506,  76,    1000000) /* MerchandiseMaxValue */

@@ -10,7 +10,7 @@ VALUES (24891,   1,          2) /* ItemType - Armor */
      , (24891,   9,        512) /* ValidLocations - ChestArmor */
      , (24891,  16,          1) /* ItemUseable - No */
      , (24891,  19,       4000) /* Value */
-     , (24891,  27,         32) /* ArmorType */
+     , (24891,  27,         32) /* ArmorType - Metal */
      , (24891,  28,        500) /* ArmorLevel */
      , (24891,  36,       9999) /* ResistMagic */
      , (24891,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */

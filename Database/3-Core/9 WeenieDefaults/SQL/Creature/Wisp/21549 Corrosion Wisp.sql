@@ -8,7 +8,7 @@ VALUES (21549,   1,         16) /* ItemType - Creature */
      , (21549,   7,         -1) /* ContainersCapacity */
      , (21549,  16,          1) /* ItemUseable - No */
      , (21549,  25,        105) /* Level */
-     , (21549,  27,          0) /* ArmorType */
+     , (21549,  27,          0) /* ArmorType - None */
      , (21549,  40,          2) /* CombatMode - Melee */
      , (21549,  68,          9) /* TargetingTactic - Random, TopDamager */
      , (21549,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */

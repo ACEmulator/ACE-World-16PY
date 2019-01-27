@@ -8,7 +8,7 @@ VALUES (12681,   1,         16) /* ItemType - Creature */
      , (12681,   7,         -1) /* ContainersCapacity */
      , (12681,  16,          1) /* ItemUseable - No */
      , (12681,  25,         55) /* Level */
-     , (12681,  27,          0) /* ArmorType */
+     , (12681,  27,          0) /* ArmorType - None */
      , (12681,  68,          3) /* TargetingTactic - Random, Focused */
      , (12681,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (12681, 133,          2) /* ShowableOnRadar - ShowMovement */

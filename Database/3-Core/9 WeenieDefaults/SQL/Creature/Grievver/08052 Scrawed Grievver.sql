@@ -9,7 +9,7 @@ VALUES (8052,   1,         16) /* ItemType - Creature */
      , (8052,   7,         -1) /* ContainersCapacity */
      , (8052,  16,          1) /* ItemUseable - No */
      , (8052,  25,         34) /* Level */
-     , (8052,  27,          0) /* ArmorType */
+     , (8052,  27,          0) /* ArmorType - None */
      , (8052,  40,          2) /* CombatMode - Melee */
      , (8052,  68,          3) /* TargetingTactic - Random, Focused */
      , (8052,  72,         22) /* FriendType - Shadow */

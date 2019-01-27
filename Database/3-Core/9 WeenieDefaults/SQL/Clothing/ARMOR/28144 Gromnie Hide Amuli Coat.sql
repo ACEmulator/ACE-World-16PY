@@ -10,7 +10,7 @@ VALUES (28144,   1,          2) /* ItemType - Armor */
      , (28144,   9,       6656) /* ValidLocations - ChestArmor, UpperArmArmor, LowerArmArmor */
      , (28144,  16,          1) /* ItemUseable - No */
      , (28144,  19,       4575) /* Value */
-     , (28144,  27,          8) /* ArmorType */
+     , (28144,  27,          8) /* ArmorType - Scalemail */
      , (28144,  28,        250) /* ArmorLevel */
      , (28144,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (28144, 106,        200) /* ItemSpellcraft */

@@ -10,7 +10,7 @@ VALUES (20193,   1,         16) /* ItemType - Creature */
      , (20193,   8,        120) /* Mass */
      , (20193,  16,          1) /* ItemUseable - No */
      , (20193,  25,        710) /* Level */
-     , (20193,  27,          0) /* ArmorType */
+     , (20193,  27,          0) /* ArmorType - None */
      , (20193,  67,         64) /* Tolerance - Retaliate */
      , (20193,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (20193, 101,        131) /* AiAllowedCombatStyle - Unarmed, OneHanded, ThrownWeapon */

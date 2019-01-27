@@ -9,7 +9,7 @@ VALUES (24036,   1,         16) /* ItemType - Creature */
      , (24036,   7,         -1) /* ContainersCapacity */
      , (24036,  16,          1) /* ItemUseable - No */
      , (24036,  25,         95) /* Level */
-     , (24036,  27,          0) /* ArmorType */
+     , (24036,  27,          0) /* ArmorType - None */
      , (24036,  68,          3) /* TargetingTactic - Random, Focused */
      , (24036,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (24036, 133,          2) /* ShowableOnRadar - ShowMovement */

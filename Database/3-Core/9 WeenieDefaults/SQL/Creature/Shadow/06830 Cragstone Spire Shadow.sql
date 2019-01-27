@@ -10,7 +10,7 @@ VALUES (6830,   1,         16) /* ItemType - Creature */
      , (6830,   8,         90) /* Mass */
      , (6830,  16,          1) /* ItemUseable - No */
      , (6830,  25,         14) /* Level */
-     , (6830,  27,          0) /* ArmorType */
+     , (6830,  27,          0) /* ArmorType - None */
      , (6830,  68,          9) /* TargetingTactic - Random, TopDamager */
      , (6830,  93,    4195336) /* PhysicsState - ReportCollisions, Gravity, EdgeSlide */
      , (6830, 101,        183) /* AiAllowedCombatStyle - Unarmed, OneHanded, OneHandedAndShield, Bow, Crossbow, ThrownWeapon */

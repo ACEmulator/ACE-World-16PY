@@ -8,7 +8,7 @@ VALUES (14557,   1,         16) /* ItemType - Creature */
      , (14557,   7,         -1) /* ContainersCapacity */
      , (14557,  16,          1) /* ItemUseable - No */
      , (14557,  25,        105) /* Level */
-     , (14557,  27,          0) /* ArmorType */
+     , (14557,  27,          0) /* ArmorType - None */
      , (14557,  68,          3) /* TargetingTactic - Random, Focused */
      , (14557,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (14557, 133,          2) /* ShowableOnRadar - ShowMovement */

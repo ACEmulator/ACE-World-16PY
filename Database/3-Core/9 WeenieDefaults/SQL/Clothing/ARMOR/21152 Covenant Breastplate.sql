@@ -10,7 +10,7 @@ VALUES (21152,   1,          2) /* ItemType - Armor */
      , (21152,   9,        512) /* ValidLocations - ChestArmor */
      , (21152,  16,          1) /* ItemUseable - No */
      , (21152,  19,       1631) /* Value */
-     , (21152,  27,         32) /* ArmorType */
+     , (21152,  27,         32) /* ArmorType - Metal */
      , (21152,  28,        200) /* ArmorLevel */
      , (21152,  36,       9999) /* ResistMagic */
      , (21152,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */

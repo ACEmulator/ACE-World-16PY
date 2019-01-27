@@ -8,7 +8,7 @@ VALUES (24857,   1,         16) /* ItemType - Creature */
      , (24857,   7,         -1) /* ContainersCapacity */
      , (24857,  16,          1) /* ItemUseable - No */
      , (24857,  25,        999) /* Level */
-     , (24857,  27,          0) /* ArmorType */
+     , (24857,  27,          0) /* ArmorType - None */
      , (24857,  40,          1) /* CombatMode - NonCombat */
      , (24857,  68,         13) /* TargetingTactic - Random, LastDamager, TopDamager */
      , (24857,  69,         30) /* CombatTactic - Focused, LastDamager, TopDamager, Weakest */

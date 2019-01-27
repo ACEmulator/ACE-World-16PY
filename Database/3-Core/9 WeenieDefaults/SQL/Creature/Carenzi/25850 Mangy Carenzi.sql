@@ -9,7 +9,7 @@ VALUES (25850,   1,         16) /* ItemType - Creature */
      , (25850,   7,         -1) /* ContainersCapacity */
      , (25850,  16,          1) /* ItemUseable - No */
      , (25850,  25,        125) /* Level */
-     , (25850,  27,          0) /* ArmorType */
+     , (25850,  27,          0) /* ArmorType - None */
      , (25850,  40,          2) /* CombatMode - Melee */
      , (25850,  68,          5) /* TargetingTactic - Random, LastDamager */
      , (25850,  72,         55) /* FriendType - Carenzi */

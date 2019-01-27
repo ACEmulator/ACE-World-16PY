@@ -10,7 +10,7 @@ VALUES (723,   1,          2) /* ItemType - Armor */
      , (723,   9,          1) /* ValidLocations - HeadWear */
      , (723,  16,          1) /* ItemUseable - No */
      , (723,  19,        110) /* Value */
-     , (723,  27,          2) /* ArmorType */
+     , (723,  27,          2) /* ArmorType - Leather */
      , (723,  28,         30) /* ArmorLevel */
      , (723,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (723, 150,        103) /* HookPlacement - Hook */

@@ -9,7 +9,7 @@ VALUES (5877,   1,         16) /* ItemType - Creature */
      , (5877,   8,        120) /* Mass */
      , (5877,  16,         32) /* ItemUseable - Remote */
      , (5877,  25,          7) /* Level */
-     , (5877,  27,          0) /* ArmorType */
+     , (5877,  27,          0) /* ArmorType - None */
      , (5877,  74,     288789) /* MerchandiseItemTypes - MeleeWeapon, Clothing, Creature, Gem, Writable, Key, PromissoryNote */
      , (5877,  75,          0) /* MerchandiseMinValue */
      , (5877,  76,      10000) /* MerchandiseMaxValue */

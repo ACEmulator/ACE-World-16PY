@@ -10,7 +10,7 @@ VALUES (30534,   1,          2) /* ItemType - Armor */
      , (30534,   9,         32) /* ValidLocations - HandWear */
      , (30534,  16,          1) /* ItemUseable - No */
      , (30534,  19,         30) /* Value */
-     , (30534,  27,          2) /* ArmorType */
+     , (30534,  27,          2) /* ArmorType - Leather */
      , (30534,  28,         20) /* ArmorLevel */
      , (30534,  44,          0) /* Damage */
      , (30534,  45,          4) /* DamageType - Bludgeon */

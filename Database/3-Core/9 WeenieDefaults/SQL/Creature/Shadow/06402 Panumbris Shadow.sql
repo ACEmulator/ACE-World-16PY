@@ -10,7 +10,7 @@ VALUES (6402,   1,         16) /* ItemType - Creature */
      , (6402,   8,         90) /* Mass */
      , (6402,  16,          1) /* ItemUseable - No */
      , (6402,  25,        155) /* Level */
-     , (6402,  27,          0) /* ArmorType */
+     , (6402,  27,          0) /* ArmorType - None */
      , (6402,  68,          3) /* TargetingTactic - Random, Focused */
      , (6402,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (6402, 101,        183) /* AiAllowedCombatStyle - Unarmed, OneHanded, OneHandedAndShield, Bow, Crossbow, ThrownWeapon */

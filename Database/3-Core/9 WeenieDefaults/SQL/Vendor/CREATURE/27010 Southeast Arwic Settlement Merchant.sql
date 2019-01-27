@@ -9,7 +9,7 @@ VALUES (27010,   1,         16) /* ItemType - Creature */
      , (27010,   8,        120) /* Mass */
      , (27010,  16,         32) /* ItemUseable - Remote */
      , (27010,  25,         10) /* Level */
-     , (27010,  27,          0) /* ArmorType */
+     , (27010,  27,          0) /* ArmorType - None */
      , (27010,  74,     264192) /* MerchandiseItemTypes - Gem, PromissoryNote */
      , (27010,  75,          0) /* MerchandiseMinValue */
      , (27010,  76,    1000000) /* MerchandiseMaxValue */

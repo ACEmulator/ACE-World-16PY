@@ -9,7 +9,7 @@ VALUES (5639,   1,         16) /* ItemType - Creature */
      , (5639,   8,        120) /* Mass */
      , (5639,  16,         32) /* ItemUseable - Remote */
      , (5639,  25,         11) /* Level */
-     , (5639,  27,          0) /* ArmorType */
+     , (5639,  27,          0) /* ArmorType - None */
      , (5639,  74,     831488) /* MerchandiseItemTypes - SpellComponents, Writable, Caster, PromissoryNote, ManaStone */
      , (5639,  75,          0) /* MerchandiseMinValue */
      , (5639,  76,      25000) /* MerchandiseMaxValue */

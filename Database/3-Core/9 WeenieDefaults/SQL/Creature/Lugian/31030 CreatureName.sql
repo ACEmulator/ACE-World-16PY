@@ -9,7 +9,7 @@ VALUES (31030,   1,         16) /* ItemType - Creature */
      , (31030,   7,         -1) /* ContainersCapacity */
      , (31030,  16,          1) /* ItemUseable - No */
      , (31030,  25,        185) /* Level */
-     , (31030,  27,          0) /* ArmorType */
+     , (31030,  27,          0) /* ArmorType - None */
      , (31030,  40,          2) /* CombatMode - Melee */
      , (31030,  68,          9) /* TargetingTactic - Random, TopDamager */
      , (31030,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */

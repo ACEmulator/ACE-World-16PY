@@ -9,7 +9,7 @@ VALUES (11488,   1,         16) /* ItemType - Creature */
      , (11488,   7,         -1) /* ContainersCapacity */
      , (11488,  16,          1) /* ItemUseable - No */
      , (11488,  25,          5) /* Level */
-     , (11488,  27,          0) /* ArmorType */
+     , (11488,  27,          0) /* ArmorType - None */
      , (11488,  40,          2) /* CombatMode - Melee */
      , (11488,  68,          9) /* TargetingTactic - Random, TopDamager */
      , (11488,  72,         56) /* FriendType - Siraluun */

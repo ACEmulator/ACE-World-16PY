@@ -9,7 +9,7 @@ VALUES (4102,   1,         16) /* ItemType - Creature */
      , (4102,   7,         -1) /* ContainersCapacity */
      , (4102,  16,          1) /* ItemUseable - No */
      , (4102,  25,         74) /* Level */
-     , (4102,  27,          0) /* ArmorType */
+     , (4102,  27,          0) /* ArmorType - None */
      , (4102,  68,          5) /* TargetingTactic - Random, LastDamager */
      , (4102,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (4102, 101,        183) /* AiAllowedCombatStyle - Unarmed, OneHanded, OneHandedAndShield, Bow, Crossbow, ThrownWeapon */

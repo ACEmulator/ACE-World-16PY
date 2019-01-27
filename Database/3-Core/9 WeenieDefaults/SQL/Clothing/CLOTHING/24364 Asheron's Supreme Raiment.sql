@@ -10,7 +10,7 @@ VALUES (24364,   1,          4) /* ItemType - Clothing */
      , (24364,   9,        222) /* ValidLocations - ChestWear, AbdomenWear, UpperArmWear, LowerArmWear, UpperLegWear, LowerLegWear */
      , (24364,  16,          1) /* ItemUseable - No */
      , (24364,  19,       5000) /* Value */
-     , (24364,  27,          1) /* ArmorType */
+     , (24364,  27,          1) /* ArmorType - Cloth */
      , (24364,  28,          0) /* ArmorLevel */
      , (24364,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (24364, 106,        300) /* ItemSpellcraft */

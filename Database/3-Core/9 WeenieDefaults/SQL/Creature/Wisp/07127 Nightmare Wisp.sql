@@ -8,7 +8,7 @@ VALUES (7127,   1,         16) /* ItemType - Creature */
      , (7127,   7,         -1) /* ContainersCapacity */
      , (7127,  16,          1) /* ItemUseable - No */
      , (7127,  25,        120) /* Level */
-     , (7127,  27,          0) /* ArmorType */
+     , (7127,  27,          0) /* ArmorType - None */
      , (7127,  40,          2) /* CombatMode - Melee */
      , (7127,  68,          9) /* TargetingTactic - Random, TopDamager */
      , (7127,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */

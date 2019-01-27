@@ -9,7 +9,7 @@ VALUES (798,   1,         16) /* ItemType - Creature */
      , (798,   8,        120) /* Mass */
      , (798,  16,         32) /* ItemUseable - Remote */
      , (798,  25,          7) /* Level */
-     , (798,  27,          0) /* ArmorType */
+     , (798,  27,          0) /* ArmorType - None */
      , (798,  74,  134480129) /* MerchandiseItemTypes - Weapon, PromissoryNote, CraftFletchingIntermediate */
      , (798,  75,          0) /* MerchandiseMinValue */
      , (798,  76,     100000) /* MerchandiseMaxValue */

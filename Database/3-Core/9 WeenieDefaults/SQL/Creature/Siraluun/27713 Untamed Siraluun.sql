@@ -9,7 +9,7 @@ VALUES (27713,   1,         16) /* ItemType - Creature */
      , (27713,   7,         -1) /* ContainersCapacity */
      , (27713,  16,          1) /* ItemUseable - No */
      , (27713,  25,        100) /* Level */
-     , (27713,  27,          0) /* ArmorType */
+     , (27713,  27,          0) /* ArmorType - None */
      , (27713,  40,          2) /* CombatMode - Melee */
      , (27713,  68,          9) /* TargetingTactic - Random, TopDamager */
      , (27713,  72,         56) /* FriendType - Siraluun */

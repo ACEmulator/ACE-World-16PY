@@ -8,7 +8,7 @@ VALUES (30628,   1,         16) /* ItemType - Creature */
      , (30628,   7,         -1) /* ContainersCapacity */
      , (30628,  16,         32) /* ItemUseable - Remote */
      , (30628,  25,          5) /* Level */
-     , (30628,  27,          0) /* ArmorType */
+     , (30628,  27,          0) /* ArmorType - None */
      , (30628,  93,    2098204) /* PhysicsState - Ethereal, ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */
      , (30628,  95,          3) /* RadarBlipColor - White */
      , (30628, 133,          0) /* ShowableOnRadar - Undefined */

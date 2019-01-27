@@ -11,7 +11,7 @@ VALUES (29820,   1,          2) /* ItemType - Armor */
      , (29820,  16,          1) /* ItemUseable - No */
      , (29820,  18,          1) /* UiEffects - Magical */
      , (29820,  19,       1500) /* Value */
-     , (29820,  27,         32) /* ArmorType */
+     , (29820,  27,         32) /* ArmorType - Metal */
      , (29820,  28,        175) /* ArmorLevel */
      , (29820,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (29820, 107,        800) /* ItemCurMana */

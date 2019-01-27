@@ -9,7 +9,7 @@ VALUES (22720,   1,         16) /* ItemType - Creature */
      , (22720,   8,        120) /* Mass */
      , (22720,  16,         32) /* ItemUseable - Remote */
      , (22720,  25,          8) /* Level */
-     , (22720,  27,          0) /* ArmorType */
+     , (22720,  27,          0) /* ArmorType - None */
      , (22720,  74,     278447) /* MerchandiseItemTypes - Vestements, Jewelry, Food, Weapon, LockableMagicTarget, Useless, Gem, SpellComponents, Writable, PromissoryNote */
      , (22720,  75,          0) /* MerchandiseMinValue */
      , (22720,  76,     100000) /* MerchandiseMaxValue */

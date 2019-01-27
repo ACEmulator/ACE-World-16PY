@@ -9,7 +9,7 @@ VALUES (2247,   1,         16) /* ItemType - Creature */
      , (2247,   8,        120) /* Mass */
      , (2247,  16,         32) /* ItemUseable - Remote */
      , (2247,  25,        126) /* Level */
-     , (2247,  27,          0) /* ArmorType */
+     , (2247,  27,          0) /* ArmorType - None */
      , (2247,  74,     833536) /* MerchandiseItemTypes - Gem, SpellComponents, Writable, Caster, PromissoryNote, ManaStone */
      , (2247,  75,          0) /* MerchandiseMinValue */
      , (2247,  76,    1000000) /* MerchandiseMaxValue */

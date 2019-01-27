@@ -8,7 +8,7 @@ VALUES (27283,   1,         16) /* ItemType - Creature */
      , (27283,   7,         -1) /* ContainersCapacity */
      , (27283,  16,          1) /* ItemUseable - No */
      , (27283,  25,        155) /* Level */
-     , (27283,  27,          0) /* ArmorType */
+     , (27283,  27,          0) /* ArmorType - None */
      , (27283,  40,          2) /* CombatMode - Melee */
      , (27283,  68,          9) /* TargetingTactic - Random, TopDamager */
      , (27283,  72,         22) /* FriendType - Shadow */

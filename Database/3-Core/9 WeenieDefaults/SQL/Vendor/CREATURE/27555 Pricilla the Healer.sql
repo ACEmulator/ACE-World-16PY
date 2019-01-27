@@ -9,7 +9,7 @@ VALUES (27555,   1,         16) /* ItemType - Creature */
      , (27555,   8,        120) /* Mass */
      , (27555,  16,         32) /* ItemUseable - Remote */
      , (27555,  25,          9) /* Level */
-     , (27555,  27,          0) /* ArmorType */
+     , (27555,  27,          0) /* ArmorType - None */
      , (27555,  74,     281993) /* MerchandiseItemTypes - Jewelry, Misc, Weapon, Useless, Gem, Key, PromissoryNote */
      , (27555,  75,          0) /* MerchandiseMinValue */
      , (27555,  76,     100000) /* MerchandiseMaxValue */

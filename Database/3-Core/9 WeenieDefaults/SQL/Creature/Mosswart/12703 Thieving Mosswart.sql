@@ -9,7 +9,7 @@ VALUES (12703,   1,         16) /* ItemType - Creature */
      , (12703,   7,         -1) /* ContainersCapacity */
      , (12703,  16,          1) /* ItemUseable - No */
      , (12703,  25,          1) /* Level */
-     , (12703,  27,          0) /* ArmorType */
+     , (12703,  27,          0) /* ArmorType - None */
      , (12703,  40,          2) /* CombatMode - Melee */
      , (12703,  67,         64) /* Tolerance - Retaliate */
      , (12703,  68,          9) /* TargetingTactic - Random, TopDamager */

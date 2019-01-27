@@ -8,7 +8,7 @@ VALUES (7178,   1,         16) /* ItemType - Creature */
      , (7178,   7,         -1) /* ContainersCapacity */
      , (7178,  16,          1) /* ItemUseable - No */
      , (7178,  25,         85) /* Level */
-     , (7178,  27,          0) /* ArmorType */
+     , (7178,  27,          0) /* ArmorType - None */
      , (7178,  40,          1) /* CombatMode - NonCombat */
      , (7178,  68,          5) /* TargetingTactic - Random, LastDamager */
      , (7178,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */

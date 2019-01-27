@@ -10,7 +10,7 @@ VALUES (206,   1,         16) /* ItemType - Creature */
      , (206,   8,       8000) /* Mass */
      , (206,  16,          1) /* ItemUseable - No */
      , (206,  25,         35) /* Level */
-     , (206,  27,          0) /* ArmorType */
+     , (206,  27,          0) /* ArmorType - None */
      , (206,  40,          2) /* CombatMode - Melee */
      , (206,  67,         64) /* Tolerance - Retaliate */
      , (206,  68,         13) /* TargetingTactic - Random, LastDamager, TopDamager */

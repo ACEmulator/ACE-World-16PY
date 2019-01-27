@@ -9,7 +9,7 @@ VALUES (5640,   1,         16) /* ItemType - Creature */
      , (5640,   8,        120) /* Mass */
      , (5640,  16,         32) /* ItemUseable - Remote */
      , (5640,  25,          7) /* Level */
-     , (5640,  27,          0) /* ArmorType */
+     , (5640,  27,          0) /* ArmorType - None */
      , (5640,  74,     262688) /* MerchandiseItemTypes - Food, Container, PromissoryNote */
      , (5640,  75,          0) /* MerchandiseMinValue */
      , (5640,  76,      25000) /* MerchandiseMaxValue */

@@ -9,7 +9,7 @@ VALUES (11525,   1,         16) /* ItemType - Creature */
      , (11525,   7,         -1) /* ContainersCapacity */
      , (11525,  16,          1) /* ItemUseable - No */
      , (11525,  25,          9) /* Level */
-     , (11525,  27,          0) /* ArmorType */
+     , (11525,  27,          0) /* ArmorType - None */
      , (11525,  68,          5) /* TargetingTactic - Random, LastDamager */
      , (11525,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (11525, 101,        183) /* AiAllowedCombatStyle - Unarmed, OneHanded, OneHandedAndShield, Bow, Crossbow, ThrownWeapon */

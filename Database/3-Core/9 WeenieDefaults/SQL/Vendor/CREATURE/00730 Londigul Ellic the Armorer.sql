@@ -9,7 +9,7 @@ VALUES (730,   1,         16) /* ItemType - Creature */
      , (730,   8,        120) /* Mass */
      , (730,  16,         32) /* ItemUseable - Remote */
      , (730,  25,          9) /* Level */
-     , (730,  27,          0) /* ArmorType */
+     , (730,  27,          0) /* ArmorType - None */
      , (730,  74, 1074003974) /* MerchandiseItemTypes - Vestements, PromissoryNote, TinkeringMaterial */
      , (730,  75,          0) /* MerchandiseMinValue */
      , (730,  76,     100000) /* MerchandiseMaxValue */

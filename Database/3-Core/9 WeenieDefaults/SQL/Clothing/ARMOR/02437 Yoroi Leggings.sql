@@ -10,7 +10,7 @@ VALUES (2437,   1,          2) /* ItemType - Armor */
      , (2437,   9,      24576) /* ValidLocations - UpperLegArmor, LowerLegArmor */
      , (2437,  16,          1) /* ItemUseable - No */
      , (2437,  19,        953) /* Value */
-     , (2437,  27,         32) /* ArmorType */
+     , (2437,  27,         32) /* ArmorType - Metal */
      , (2437,  28,         80) /* ArmorLevel */
      , (2437,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (2437, 169,  252313860) /* TsysMutationData */;

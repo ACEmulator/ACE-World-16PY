@@ -9,7 +9,7 @@ VALUES (2019,   1,          2) /* ItemType - Armor */
      , (2019,   9,    2097152) /* ValidLocations - Shield */
      , (2019,  16,          1) /* ItemUseable - No */
      , (2019,  19,       1000) /* Value */
-     , (2019,  27,          2) /* ArmorType */
+     , (2019,  27,          2) /* ArmorType - Leather */
      , (2019,  28,         35) /* ArmorLevel */
      , (2019,  51,          4) /* CombatUse - Shield */
      , (2019,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */

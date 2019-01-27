@@ -9,7 +9,7 @@ VALUES (1456,   1,          2) /* ItemType - Armor */
      , (1456,  16,          1) /* ItemUseable - No */
      , (1456,  18,         32) /* UiEffects - Fire */
      , (1456,  19,        240) /* Value */
-     , (1456,  27,          2) /* ArmorType */
+     , (1456,  27,          2) /* ArmorType - Leather */
      , (1456,  28,         20) /* ArmorLevel */
      , (1456,  51,          4) /* CombatUse - Shield */
      , (1456,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */

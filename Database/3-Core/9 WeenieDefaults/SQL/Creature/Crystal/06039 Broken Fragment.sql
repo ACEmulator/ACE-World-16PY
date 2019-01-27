@@ -9,7 +9,7 @@ VALUES (6039,   1,         16) /* ItemType - Creature */
      , (6039,   7,         -1) /* ContainersCapacity */
      , (6039,  16,          1) /* ItemUseable - No */
      , (6039,  25,         18) /* Level */
-     , (6039,  27,          0) /* ArmorType */
+     , (6039,  27,          0) /* ArmorType - None */
      , (6039,  40,          2) /* CombatMode - Melee */
      , (6039,  68,          5) /* TargetingTactic - Random, LastDamager */
      , (6039,  69,          4) /* CombatTactic - LastDamager */

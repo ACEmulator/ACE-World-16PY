@@ -8,7 +8,7 @@ VALUES (26689,   1,         16) /* ItemType - Creature */
      , (26689,   7,         -1) /* ContainersCapacity */
      , (26689,  16,          1) /* ItemUseable - No */
      , (26689,  25,          9) /* Level */
-     , (26689,  27,          0) /* ArmorType */
+     , (26689,  27,          0) /* ArmorType - None */
      , (26689,  40,          2) /* CombatMode - Melee */
      , (26689,  67,         64) /* Tolerance - Retaliate */
      , (26689,  68,          9) /* TargetingTactic - Random, TopDamager */

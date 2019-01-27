@@ -9,7 +9,7 @@ VALUES (8872,   1,         16) /* ItemType - Creature */
      , (8872,   7,         -1) /* ContainersCapacity */
      , (8872,  16,          1) /* ItemUseable - No */
      , (8872,  25,        666) /* Level */
-     , (8872,  27,          0) /* ArmorType */
+     , (8872,  27,          0) /* ArmorType - None */
      , (8872,  40,          2) /* CombatMode - Melee */
      , (8872,  67,          2) /* Tolerance - Appraise */
      , (8872,  68,          5) /* TargetingTactic - Random, LastDamager */

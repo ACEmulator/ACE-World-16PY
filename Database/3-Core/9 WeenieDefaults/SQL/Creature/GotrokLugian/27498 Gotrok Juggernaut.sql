@@ -10,7 +10,7 @@ VALUES (27498,   1,         16) /* ItemType - Creature */
      , (27498,   8,       8000) /* Mass */
      , (27498,  16,          1) /* ItemUseable - No */
      , (27498,  25,        125) /* Level */
-     , (27498,  27,          0) /* ArmorType */
+     , (27498,  27,          0) /* ArmorType - None */
      , (27498,  40,          2) /* CombatMode - Melee */
      , (27498,  68,         13) /* TargetingTactic - Random, LastDamager, TopDamager */
      , (27498,  72,          6) /* FriendType - Tumerok */

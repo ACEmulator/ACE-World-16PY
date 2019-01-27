@@ -10,7 +10,7 @@ VALUES (14825,   1,          2) /* ItemType - Armor */
      , (14825,   9,        512) /* ValidLocations - ChestArmor */
      , (14825,  16,          1) /* ItemUseable - No */
      , (14825,  19,       2680) /* Value */
-     , (14825,  27,         32) /* ArmorType */
+     , (14825,  27,         32) /* ArmorType - Metal */
      , (14825,  28,        210) /* ArmorLevel */
      , (14825,  33,          1) /* Bonded - Bonded */
      , (14825,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */

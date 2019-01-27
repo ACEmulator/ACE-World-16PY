@@ -9,7 +9,7 @@ VALUES (25550,   1,          2) /* ItemType - Armor */
      , (25550,  16,          1) /* ItemUseable - No */
      , (25550,  18,          0) /* UiEffects - Undef */
      , (25550,  19,       6000) /* Value */
-     , (25550,  27,          2) /* ArmorType */
+     , (25550,  27,          2) /* ArmorType - Leather */
      , (25550,  28,        375) /* ArmorLevel */
      , (25550,  36,       9999) /* ResistMagic */
      , (25550,  51,          4) /* CombatUse - Shield */

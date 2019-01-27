@@ -10,7 +10,7 @@ VALUES (7730,   1,          2) /* ItemType - Armor */
      , (7730,   9,      25600) /* ValidLocations - AbdomenArmor, UpperLegArmor, LowerLegArmor */
      , (7730,  16,          1) /* ItemUseable - No */
      , (7730,  19,       3240) /* Value */
-     , (7730,  27,         32) /* ArmorType */
+     , (7730,  27,         32) /* ArmorType - Metal */
      , (7730,  28,        125) /* ArmorLevel */
      , (7730,  33,          1) /* Bonded - Bonded */
      , (7730,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;

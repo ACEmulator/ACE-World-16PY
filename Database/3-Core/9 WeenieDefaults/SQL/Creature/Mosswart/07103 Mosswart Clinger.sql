@@ -9,7 +9,7 @@ VALUES (7103,   1,         16) /* ItemType - Creature */
      , (7103,   7,         -1) /* ContainersCapacity */
      , (7103,  16,          1) /* ItemUseable - No */
      , (7103,  25,         67) /* Level */
-     , (7103,  27,          0) /* ArmorType */
+     , (7103,  27,          0) /* ArmorType - None */
      , (7103,  40,          2) /* CombatMode - Melee */
      , (7103,  68,         13) /* TargetingTactic - Random, LastDamager, TopDamager */
      , (7103,  72,         50) /* FriendType - Idol */

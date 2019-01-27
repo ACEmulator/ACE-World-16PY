@@ -10,7 +10,7 @@ VALUES (7897,   1,          2) /* ItemType - Armor */
      , (7897,   9,        384) /* ValidLocations - LowerLegWear, FootWear */
      , (7897,  16,          1) /* ItemUseable - No */
      , (7897,  19,        210) /* Value */
-     , (7897,  27,          4) /* ArmorType */
+     , (7897,  27,          4) /* ArmorType - StuddedLeather */
      , (7897,  28,         60) /* ArmorLevel */
      , (7897,  44,          3) /* Damage */
      , (7897,  45,          4) /* DamageType - Bludgeon */

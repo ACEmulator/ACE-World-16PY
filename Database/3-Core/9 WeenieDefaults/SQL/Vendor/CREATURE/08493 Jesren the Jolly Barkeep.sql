@@ -9,7 +9,7 @@ VALUES (8493,   1,         16) /* ItemType - Creature */
      , (8493,   8,        120) /* Mass */
      , (8493,  16,         32) /* ItemUseable - Remote */
      , (8493,  25,         28) /* Level */
-     , (8493,  27,          0) /* ArmorType */
+     , (8493,  27,          0) /* ArmorType - None */
      , (8493,  74,    5027976) /* MerchandiseItemTypes - Jewelry, Misc, Gem, SpellComponents, Writable, Caster, PromissoryNote, ManaStone, CraftCookingBase */
      , (8493,  75,          0) /* MerchandiseMinValue */
      , (8493,  76,     100000) /* MerchandiseMaxValue */

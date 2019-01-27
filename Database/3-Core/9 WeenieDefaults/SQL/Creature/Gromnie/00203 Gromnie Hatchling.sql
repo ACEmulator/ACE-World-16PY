@@ -8,7 +8,7 @@ VALUES (203,   1,         16) /* ItemType - Creature */
      , (203,   7,         -1) /* ContainersCapacity */
      , (203,  16,          1) /* ItemUseable - No */
      , (203,  25,          6) /* Level */
-     , (203,  27,          0) /* ArmorType */
+     , (203,  27,          0) /* ArmorType - None */
      , (203,  40,          2) /* CombatMode - Melee */
      , (203,  68,          9) /* TargetingTactic - Random, TopDamager */
      , (203,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */

@@ -10,7 +10,7 @@ VALUES (24628,   1,          2) /* ItemType - Armor */
      , (24628,   9,       2048) /* ValidLocations - UpperArmArmor */
      , (24628,  16,          1) /* ItemUseable - No */
      , (24628,  19,       3000) /* Value */
-     , (24628,  27,         32) /* ArmorType */
+     , (24628,  27,         32) /* ArmorType - Metal */
      , (24628,  28,        400) /* ArmorLevel */
      , (24628,  36,       9999) /* ResistMagic */
      , (24628,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */

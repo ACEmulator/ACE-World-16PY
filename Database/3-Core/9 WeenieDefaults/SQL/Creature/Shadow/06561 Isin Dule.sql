@@ -10,7 +10,7 @@ VALUES (6561,   1,         16) /* ItemType - Creature */
      , (6561,   8,         90) /* Mass */
      , (6561,  16,          1) /* ItemUseable - No */
      , (6561,  25,        257) /* Level */
-     , (6561,  27,          0) /* ArmorType */
+     , (6561,  27,          0) /* ArmorType - None */
      , (6561,  68,          2) /* TargetingTactic - Focused */
      , (6561,  81,          2) /* MaxGeneratedObjects */
      , (6561,  82,          1) /* InitGeneratedObjects */

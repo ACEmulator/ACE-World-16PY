@@ -10,7 +10,7 @@ VALUES (793,   1,          2) /* ItemType - Armor */
      , (793,   9,          1) /* ValidLocations - HeadWear */
      , (793,  16,          1) /* ItemUseable - No */
      , (793,  19,        433) /* Value */
-     , (793,  27,         16) /* ArmorType */
+     , (793,  27,         16) /* ArmorType - Chainmail */
      , (793,  28,         75) /* ArmorLevel */
      , (793,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (793, 150,        103) /* HookPlacement - Hook */

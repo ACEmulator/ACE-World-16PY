@@ -10,7 +10,7 @@ VALUES (8268,   1,         16) /* ItemType - Creature */
      , (8268,   8,         90) /* Mass */
      , (8268,  16,          1) /* ItemUseable - No */
      , (8268,  25,         61) /* Level */
-     , (8268,  27,          0) /* ArmorType */
+     , (8268,  27,          0) /* ArmorType - None */
      , (8268,  68,          3) /* TargetingTactic - Random, Focused */
      , (8268,  93,    4195336) /* PhysicsState - ReportCollisions, Gravity, EdgeSlide */
      , (8268, 101,        183) /* AiAllowedCombatStyle - Unarmed, OneHanded, OneHandedAndShield, Bow, Crossbow, ThrownWeapon */

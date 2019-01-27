@@ -10,7 +10,7 @@ VALUES (13213,   1,          2) /* ItemType - Armor */
      , (13213,   9,       7680) /* ValidLocations - ChestArmor, AbdomenArmor, UpperArmArmor, LowerArmArmor */
      , (13213,  16,          1) /* ItemUseable - No */
      , (13213,  19,        150) /* Value */
-     , (13213,  27,          2) /* ArmorType */
+     , (13213,  27,          2) /* ArmorType - Leather */
      , (13213,  28,         30) /* ArmorLevel */
      , (13213,  33,          1) /* Bonded - Bonded */
      , (13213,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;

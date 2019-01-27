@@ -10,7 +10,7 @@ VALUES (4224,   1,          2) /* ItemType - Armor */
      , (4224,   9,       7680) /* ValidLocations - ChestArmor, AbdomenArmor, UpperArmArmor, LowerArmArmor */
      , (4224,  16,          1) /* ItemUseable - No */
      , (4224,  19,       1000) /* Value */
-     , (4224,  27,          2) /* ArmorType */
+     , (4224,  27,          2) /* ArmorType - Leather */
      , (4224,  28,         70) /* ArmorLevel */
      , (4224,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
 

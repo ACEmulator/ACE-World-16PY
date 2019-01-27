@@ -10,7 +10,7 @@ VALUES (9463,   1,         16) /* ItemType - Creature */
      , (9463,   8,       8000) /* Mass */
      , (9463,  16,          1) /* ItemUseable - No */
      , (9463,  25,         70) /* Level */
-     , (9463,  27,          0) /* ArmorType */
+     , (9463,  27,          0) /* ArmorType - None */
      , (9463,  40,          2) /* CombatMode - Melee */
      , (9463,  68,         13) /* TargetingTactic - Random, LastDamager, TopDamager */
      , (9463,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */

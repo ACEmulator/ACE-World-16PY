@@ -10,7 +10,7 @@ VALUES (29349,   1,         16) /* ItemType - Creature */
      , (29349,   8,       8000) /* Mass */
      , (29349,  16,          1) /* ItemUseable - No */
      , (29349,  25,         35) /* Level */
-     , (29349,  27,          0) /* ArmorType */
+     , (29349,  27,          0) /* ArmorType - None */
      , (29349,  40,          2) /* CombatMode - Melee */
      , (29349,  67,         64) /* Tolerance - Retaliate */
      , (29349,  68,         13) /* TargetingTactic - Random, LastDamager, TopDamager */

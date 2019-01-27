@@ -10,7 +10,7 @@ VALUES (27888,   1,          2) /* ItemType - Armor */
      , (27888,   9,       1024) /* ValidLocations - AbdomenArmor */
      , (27888,  16,          1) /* ItemUseable - No */
      , (27888,  19,       1200) /* Value */
-     , (27888,  27,          4) /* ArmorType */
+     , (27888,  27,          4) /* ArmorType - StuddedLeather */
      , (27888,  28,        185) /* ArmorLevel */
      , (27888,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (27888, 106,        125) /* ItemSpellcraft */

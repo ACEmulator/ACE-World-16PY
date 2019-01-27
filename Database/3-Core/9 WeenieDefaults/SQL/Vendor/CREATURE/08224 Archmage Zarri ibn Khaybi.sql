@@ -9,7 +9,7 @@ VALUES (8224,   1,         16) /* ItemType - Creature */
      , (8224,   8,        120) /* Mass */
      , (8224,  16,         32) /* ItemUseable - Remote */
      , (8224,  25,         11) /* Level */
-     , (8224,  27,          0) /* ArmorType */
+     , (8224,  27,          0) /* ArmorType - None */
      , (8224,  74,     831488) /* MerchandiseItemTypes - SpellComponents, Writable, Caster, PromissoryNote, ManaStone */
      , (8224,  75,          0) /* MerchandiseMinValue */
      , (8224,  76,      25000) /* MerchandiseMaxValue */

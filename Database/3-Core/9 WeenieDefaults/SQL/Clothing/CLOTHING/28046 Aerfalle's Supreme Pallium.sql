@@ -11,7 +11,7 @@ VALUES (28046,   1,          4) /* ItemType - Clothing */
      , (28046,  16,          1) /* ItemUseable - No */
      , (28046,  18,          1) /* UiEffects - Magical */
      , (28046,  19,      12710) /* Value */
-     , (28046,  27,          1) /* ArmorType */
+     , (28046,  27,          1) /* ArmorType - Cloth */
      , (28046,  28,        190) /* ArmorLevel */
      , (28046,  33,          1) /* Bonded - Bonded */
      , (28046,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */

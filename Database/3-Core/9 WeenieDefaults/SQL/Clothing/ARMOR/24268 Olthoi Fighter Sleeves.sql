@@ -10,7 +10,7 @@ VALUES (24268,   1,          2) /* ItemType - Armor */
      , (24268,   9,       6144) /* ValidLocations - UpperArmArmor, LowerArmArmor */
      , (24268,  16,          1) /* ItemUseable - No */
      , (24268,  19,        360) /* Value */
-     , (24268,  27,         16) /* ArmorType */
+     , (24268,  27,         16) /* ArmorType - Chainmail */
      , (24268,  28,         50) /* ArmorLevel */
      , (24268,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
 

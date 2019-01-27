@@ -9,7 +9,7 @@ VALUES (9534,   1,         16) /* ItemType - Creature */
      , (9534,   7,         -1) /* ContainersCapacity */
      , (9534,  16,          1) /* ItemUseable - No */
      , (9534,  25,         50) /* Level */
-     , (9534,  27,          0) /* ArmorType */
+     , (9534,  27,          0) /* ArmorType - None */
      , (9534,  40,          2) /* CombatMode - Melee */
      , (9534,  67,          2) /* Tolerance - Appraise */
      , (9534,  68,          9) /* TargetingTactic - Random, TopDamager */

@@ -9,7 +9,7 @@ VALUES (21386,   1,         16) /* ItemType - Creature */
      , (21386,   7,         -1) /* ContainersCapacity */
      , (21386,  16,          1) /* ItemUseable - No */
      , (21386,  25,        450) /* Level */
-     , (21386,  27,          0) /* ArmorType */
+     , (21386,  27,          0) /* ArmorType - None */
      , (21386,  40,          1) /* CombatMode - NonCombat */
      , (21386,  68,         13) /* TargetingTactic - Random, LastDamager, TopDamager */
      , (21386,  69,         30) /* CombatTactic - Focused, LastDamager, TopDamager, Weakest */

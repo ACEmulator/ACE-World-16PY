@@ -9,7 +9,7 @@ VALUES (1764,   1,         16) /* ItemType - Creature */
      , (1764,   7,         -1) /* ContainersCapacity */
      , (1764,  16,          1) /* ItemUseable - No */
      , (1764,  25,         18) /* Level */
-     , (1764,  27,          0) /* ArmorType */
+     , (1764,  27,          0) /* ArmorType - None */
      , (1764,  40,          1) /* CombatMode - NonCombat */
      , (1764,  68,          5) /* TargetingTactic - Random, LastDamager */
      , (1764,  72,         14) /* FriendType - Undead */

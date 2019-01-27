@@ -10,7 +10,7 @@ VALUES (27284,   1,         16) /* ItemType - Creature */
      , (27284,   8,         90) /* Mass */
      , (27284,  16,          1) /* ItemUseable - No */
      , (27284,  25,        135) /* Level */
-     , (27284,  27,          0) /* ArmorType */
+     , (27284,  27,          0) /* ArmorType - None */
      , (27284,  68,          3) /* TargetingTactic - Random, Focused */
      , (27284,  72,         71) /* FriendType - Margul */
      , (27284,  93,    4195336) /* PhysicsState - ReportCollisions, Gravity, EdgeSlide */

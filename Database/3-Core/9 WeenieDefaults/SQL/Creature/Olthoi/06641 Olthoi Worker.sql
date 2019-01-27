@@ -10,7 +10,7 @@ VALUES (6641,   1,         16) /* ItemType - Creature */
      , (6641,   8,       8000) /* Mass */
      , (6641,  16,          1) /* ItemUseable - No */
      , (6641,  25,         53) /* Level */
-     , (6641,  27,          0) /* ArmorType */
+     , (6641,  27,          0) /* ArmorType - None */
      , (6641,  40,          2) /* CombatMode - Melee */
      , (6641,  68,         13) /* TargetingTactic - Random, LastDamager, TopDamager */
      , (6641,  72,         35) /* FriendType - OlthoiLarvae */

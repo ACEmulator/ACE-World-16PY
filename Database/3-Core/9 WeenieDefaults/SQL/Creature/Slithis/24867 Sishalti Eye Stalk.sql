@@ -8,7 +8,7 @@ VALUES (24867,   1,         16) /* ItemType - Creature */
      , (24867,   7,         -1) /* ContainersCapacity */
      , (24867,  16,          1) /* ItemUseable - No */
      , (24867,  25,        115) /* Level */
-     , (24867,  27,          0) /* ArmorType */
+     , (24867,  27,          0) /* ArmorType - None */
      , (24867,  40,          2) /* CombatMode - Melee */
      , (24867,  68,         13) /* TargetingTactic - Random, LastDamager, TopDamager */
      , (24867,  81,          6) /* MaxGeneratedObjects */

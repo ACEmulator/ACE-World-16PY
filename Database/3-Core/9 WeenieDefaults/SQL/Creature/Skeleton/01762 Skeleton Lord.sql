@@ -8,7 +8,7 @@ VALUES (1762,   1,         16) /* ItemType - Creature */
      , (1762,   7,         -1) /* ContainersCapacity */
      , (1762,  16,          1) /* ItemUseable - No */
      , (1762,  25,         35) /* Level */
-     , (1762,  27,          0) /* ArmorType */
+     , (1762,  27,          0) /* ArmorType - None */
      , (1762,  40,          1) /* CombatMode - NonCombat */
      , (1762,  68,          5) /* TargetingTactic - Random, LastDamager */
      , (1762,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */

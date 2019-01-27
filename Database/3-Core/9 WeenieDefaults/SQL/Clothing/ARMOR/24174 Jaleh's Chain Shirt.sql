@@ -10,7 +10,7 @@ VALUES (24174,   1,          2) /* ItemType - Armor */
      , (24174,   9,       2560) /* ValidLocations - ChestArmor, UpperArmArmor */
      , (24174,  16,          1) /* ItemUseable - No */
      , (24174,  19,      12500) /* Value */
-     , (24174,  27,         16) /* ArmorType */
+     , (24174,  27,         16) /* ArmorType - Chainmail */
      , (24174,  28,        210) /* ArmorLevel */
      , (24174,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (24174, 106,        250) /* ItemSpellcraft */

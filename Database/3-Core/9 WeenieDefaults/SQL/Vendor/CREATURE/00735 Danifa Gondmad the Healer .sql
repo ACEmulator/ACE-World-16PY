@@ -9,7 +9,7 @@ VALUES (735,   1,         16) /* ItemType - Creature */
      , (735,   8,        120) /* Mass */
      , (735,  16,         32) /* ItemUseable - Remote */
      , (735,  25,          8) /* Level */
-     , (735,  27,          0) /* ArmorType */
+     , (735,  27,          0) /* ArmorType - None */
      , (735,  74,     262272) /* MerchandiseItemTypes - Misc, PromissoryNote */
      , (735,  75,          0) /* MerchandiseMinValue */
      , (735,  76,     100000) /* MerchandiseMaxValue */

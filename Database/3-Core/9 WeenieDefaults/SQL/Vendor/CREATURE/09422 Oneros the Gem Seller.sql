@@ -10,7 +10,7 @@ VALUES (9422,   1,         16) /* ItemType - Creature */
      , (9422,   8,        120) /* Mass */
      , (9422,  16,         32) /* ItemUseable - Remote */
      , (9422,  25,         42) /* Level */
-     , (9422,  27,          0) /* ArmorType */
+     , (9422,  27,          0) /* ArmorType - None */
      , (9422,  74,       2056) /* MerchandiseItemTypes - Jewelry, Gem */
      , (9422,  75,          0) /* MerchandiseMinValue */
      , (9422,  76,      25000) /* MerchandiseMaxValue */

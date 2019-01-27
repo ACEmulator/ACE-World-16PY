@@ -8,7 +8,7 @@ VALUES (22116,   1,         16) /* ItemType - Creature */
      , (22116,   7,         -1) /* ContainersCapacity */
      , (22116,  16,          1) /* ItemUseable - No */
      , (22116,  25,        666) /* Level */
-     , (22116,  27,          0) /* ArmorType */
+     , (22116,  27,          0) /* ArmorType - None */
      , (22116,  40,          1) /* CombatMode - NonCombat */
      , (22116,  68,         13) /* TargetingTactic - Random, LastDamager, TopDamager */
      , (22116,  93,       1036) /* PhysicsState - Ethereal, ReportCollisions, Gravity */

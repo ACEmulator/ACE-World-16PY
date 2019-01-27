@@ -8,7 +8,7 @@ VALUES (5711,   1,         16) /* ItemType - Creature */
      , (5711,   7,         -1) /* ContainersCapacity */
      , (5711,  16,          1) /* ItemUseable - No */
      , (5711,  25,         61) /* Level */
-     , (5711,  27,          0) /* ArmorType */
+     , (5711,  27,          0) /* ArmorType - None */
      , (5711,  68,          5) /* TargetingTactic - Random, LastDamager */
      , (5711,  81,          1) /* MaxGeneratedObjects */
      , (5711,  82,          1) /* InitGeneratedObjects */

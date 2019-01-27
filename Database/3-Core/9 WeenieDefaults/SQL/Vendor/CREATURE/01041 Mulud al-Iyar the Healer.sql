@@ -9,7 +9,7 @@ VALUES (1041,   1,         16) /* ItemType - Creature */
      , (1041,   8,        120) /* Mass */
      , (1041,  16,         32) /* ItemUseable - Remote */
      , (1041,  25,         13) /* Level */
-     , (1041,  27,          0) /* ArmorType */
+     , (1041,  27,          0) /* ArmorType - None */
      , (1041,  74,     262272) /* MerchandiseItemTypes - Misc, PromissoryNote */
      , (1041,  75,          0) /* MerchandiseMinValue */
      , (1041,  76,    1000000) /* MerchandiseMaxValue */

@@ -8,7 +8,7 @@ VALUES (16,   1,         16) /* ItemType - Creature */
      , (16,   7,         -1) /* ContainersCapacity */
      , (16,  16,          1) /* ItemUseable - No */
      , (16,  25,         11) /* Level */
-     , (16,  27,          0) /* ArmorType */
+     , (16,  27,          0) /* ArmorType - None */
      , (16,  40,          1) /* CombatMode - NonCombat */
      , (16,  68,          3) /* TargetingTactic - Random, Focused */
      , (16,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */

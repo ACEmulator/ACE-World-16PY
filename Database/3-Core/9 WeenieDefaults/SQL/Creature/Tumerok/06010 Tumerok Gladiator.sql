@@ -9,7 +9,7 @@ VALUES (6010,   1,         16) /* ItemType - Creature */
      , (6010,   7,         -1) /* ContainersCapacity */
      , (6010,  16,          1) /* ItemUseable - No */
      , (6010,  25,         74) /* Level */
-     , (6010,  27,          0) /* ArmorType */
+     , (6010,  27,          0) /* ArmorType - None */
      , (6010,  68,          5) /* TargetingTactic - Random, LastDamager */
      , (6010,  93,    4195336) /* PhysicsState - ReportCollisions, Gravity, EdgeSlide */
      , (6010, 101,        183) /* AiAllowedCombatStyle - Unarmed, OneHanded, OneHandedAndShield, Bow, Crossbow, ThrownWeapon */

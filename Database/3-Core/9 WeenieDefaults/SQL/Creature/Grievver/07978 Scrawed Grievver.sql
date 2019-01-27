@@ -9,7 +9,7 @@ VALUES (7978,   1,         16) /* ItemType - Creature */
      , (7978,   7,         -1) /* ContainersCapacity */
      , (7978,  16,          1) /* ItemUseable - No */
      , (7978,  25,         44) /* Level */
-     , (7978,  27,          0) /* ArmorType */
+     , (7978,  27,          0) /* ArmorType - None */
      , (7978,  40,          2) /* CombatMode - Melee */
      , (7978,  68,          3) /* TargetingTactic - Random, Focused */
      , (7978,  72,         22) /* FriendType - Shadow */

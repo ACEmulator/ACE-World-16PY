@@ -9,7 +9,7 @@ VALUES (950,   1,         16) /* ItemType - Creature */
      , (950,   7,         -1) /* ContainersCapacity */
      , (950,  16,          1) /* ItemUseable - No */
      , (950,  25,         14) /* Level */
-     , (950,  27,          0) /* ArmorType */
+     , (950,  27,          0) /* ArmorType - None */
      , (950,  40,          1) /* CombatMode - NonCombat */
      , (950,  68,          3) /* TargetingTactic - Random, Focused */
      , (950,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */

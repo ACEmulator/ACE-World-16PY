@@ -9,7 +9,7 @@ VALUES (28877,   1,         16) /* ItemType - Creature */
      , (28877,   7,         -1) /* ContainersCapacity */
      , (28877,  16,          1) /* ItemUseable - No */
      , (28877,  25,         35) /* Level */
-     , (28877,  27,          0) /* ArmorType */
+     , (28877,  27,          0) /* ArmorType - None */
      , (28877,  67,          2) /* Tolerance - Appraise */
      , (28877,  68,          3) /* TargetingTactic - Random, Focused */
      , (28877,  81,          4) /* MaxGeneratedObjects */

@@ -9,7 +9,7 @@ VALUES (12241,   1,         16) /* ItemType - Creature */
      , (12241,   8,        120) /* Mass */
      , (12241,  16,         32) /* ItemUseable - Remote */
      , (12241,  25,          5) /* Level */
-     , (12241,  27,          0) /* ArmorType */
+     , (12241,  27,          0) /* ArmorType - None */
      , (12241,  74,     263296) /* MerchandiseItemTypes - Misc, Useless, PromissoryNote */
      , (12241,  75,          0) /* MerchandiseMinValue */
      , (12241,  76,    1000000) /* MerchandiseMaxValue */

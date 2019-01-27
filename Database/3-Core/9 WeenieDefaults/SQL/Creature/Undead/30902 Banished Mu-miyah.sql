@@ -9,7 +9,7 @@ VALUES (30902,   1,         16) /* ItemType - Creature */
      , (30902,   7,         -1) /* ContainersCapacity */
      , (30902,  16,          1) /* ItemUseable - No */
      , (30902,  25,         85) /* Level */
-     , (30902,  27,          0) /* ArmorType */
+     , (30902,  27,          0) /* ArmorType - None */
      , (30902,  40,          1) /* CombatMode - NonCombat */
      , (30902,  68,          5) /* TargetingTactic - Random, LastDamager */
      , (30902,  72,         14) /* FriendType - Undead */

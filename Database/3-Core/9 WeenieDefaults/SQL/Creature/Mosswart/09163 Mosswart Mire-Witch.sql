@@ -9,7 +9,7 @@ VALUES (9163,   1,         16) /* ItemType - Creature */
      , (9163,   7,         -1) /* ContainersCapacity */
      , (9163,  16,          1) /* ItemUseable - No */
      , (9163,  25,         70) /* Level */
-     , (9163,  27,          0) /* ArmorType */
+     , (9163,  27,          0) /* ArmorType - None */
      , (9163,  40,          2) /* CombatMode - Melee */
      , (9163,  68,         13) /* TargetingTactic - Random, LastDamager, TopDamager */
      , (9163,  72,         50) /* FriendType - Idol */

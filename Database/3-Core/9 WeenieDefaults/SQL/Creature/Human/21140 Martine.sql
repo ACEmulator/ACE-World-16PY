@@ -9,7 +9,7 @@ VALUES (21140,   1,         16) /* ItemType - Creature */
      , (21140,   8,        120) /* Mass */
      , (21140,  16,         32) /* ItemUseable - Remote */
      , (21140,  25,        750) /* Level */
-     , (21140,  27,          0) /* ArmorType */
+     , (21140,  27,          0) /* ArmorType - None */
      , (21140,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (21140,  95,          8) /* RadarBlipColor - Yellow */
      , (21140, 133,          4) /* ShowableOnRadar - ShowAlways */

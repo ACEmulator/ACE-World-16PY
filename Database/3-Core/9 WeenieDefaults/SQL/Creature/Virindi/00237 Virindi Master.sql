@@ -9,7 +9,7 @@ VALUES (237,   1,         16) /* ItemType - Creature */
      , (237,   7,         -1) /* ContainersCapacity */
      , (237,  16,          1) /* ItemUseable - No */
      , (237,  25,         44) /* Level */
-     , (237,  27,          0) /* ArmorType */
+     , (237,  27,          0) /* ArmorType - None */
      , (237,  68,          3) /* TargetingTactic - Random, Focused */
      , (237,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (237, 133,          2) /* ShowableOnRadar - ShowMovement */

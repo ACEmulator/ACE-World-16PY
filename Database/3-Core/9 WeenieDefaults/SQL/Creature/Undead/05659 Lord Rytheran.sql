@@ -9,7 +9,7 @@ VALUES (5659,   1,         16) /* ItemType - Creature */
      , (5659,   7,         -1) /* ContainersCapacity */
      , (5659,  16,          1) /* ItemUseable - No */
      , (5659,  25,        105) /* Level */
-     , (5659,  27,          0) /* ArmorType */
+     , (5659,  27,          0) /* ArmorType - None */
      , (5659,  40,          1) /* CombatMode - NonCombat */
      , (5659,  68,          3) /* TargetingTactic - Random, Focused */
      , (5659,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */

@@ -9,7 +9,7 @@ VALUES (5922,   1,         16) /* ItemType - Creature */
      , (5922,   7,         -1) /* ContainersCapacity */
      , (5922,  16,          1) /* ItemUseable - No */
      , (5922,  25,         44) /* Level */
-     , (5922,  27,          0) /* ArmorType */
+     , (5922,  27,          0) /* ArmorType - None */
      , (5922,  40,          1) /* CombatMode - NonCombat */
      , (5922,  68,          3) /* TargetingTactic - Random, Focused */
      , (5922,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */

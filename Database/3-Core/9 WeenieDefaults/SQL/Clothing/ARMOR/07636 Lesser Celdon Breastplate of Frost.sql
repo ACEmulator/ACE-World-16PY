@@ -10,7 +10,7 @@ VALUES (7636,   1,          2) /* ItemType - Armor */
      , (7636,   9,        512) /* ValidLocations - ChestArmor */
      , (7636,  16,          1) /* ItemUseable - No */
      , (7636,  19,       2680) /* Value */
-     , (7636,  27,         32) /* ArmorType */
+     , (7636,  27,         32) /* ArmorType - Metal */
      , (7636,  28,        130) /* ArmorLevel */
      , (7636,  33,          1) /* Bonded - Bonded */
      , (7636,  36,       9999) /* ResistMagic */

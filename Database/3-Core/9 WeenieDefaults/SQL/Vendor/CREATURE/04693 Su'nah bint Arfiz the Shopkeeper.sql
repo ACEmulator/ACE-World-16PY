@@ -9,7 +9,7 @@ VALUES (4693,   1,         16) /* ItemType - Creature */
      , (4693,   8,        120) /* Mass */
      , (4693,  16,         32) /* ItemUseable - Remote */
      , (4693,  25,          8) /* Level */
-     , (4693,  27,          0) /* ArmorType */
+     , (4693,  27,          0) /* ArmorType - None */
      , (4693,  74, 1208248231) /* MerchandiseItemTypes - VendorShopKeep */
      , (4693,  75,          0) /* MerchandiseMinValue */
      , (4693,  76,     100000) /* MerchandiseMaxValue */

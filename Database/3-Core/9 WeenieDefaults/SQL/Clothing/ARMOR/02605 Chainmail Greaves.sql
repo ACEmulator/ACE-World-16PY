@@ -10,7 +10,7 @@ VALUES (2605,   1,          2) /* ItemType - Armor */
      , (2605,   9,      16384) /* ValidLocations - LowerLegArmor */
      , (2605,  16,          1) /* ItemUseable - No */
      , (2605,  19,        373) /* Value */
-     , (2605,  27,         16) /* ArmorType */
+     , (2605,  27,         16) /* ArmorType - Chainmail */
      , (2605,  28,         50) /* ArmorLevel */
      , (2605,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (2605, 169,  252313860) /* TsysMutationData */;

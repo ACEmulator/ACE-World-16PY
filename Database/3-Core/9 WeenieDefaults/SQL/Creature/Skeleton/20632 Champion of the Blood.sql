@@ -8,7 +8,7 @@ VALUES (20632,   1,         16) /* ItemType - Creature */
      , (20632,   7,         -1) /* ContainersCapacity */
      , (20632,  16,          1) /* ItemUseable - No */
      , (20632,  25,         79) /* Level */
-     , (20632,  27,          0) /* ArmorType */
+     , (20632,  27,          0) /* ArmorType - None */
      , (20632,  40,          1) /* CombatMode - NonCombat */
      , (20632,  68,          5) /* TargetingTactic - Random, LastDamager */
      , (20632,  93,    4195336) /* PhysicsState - ReportCollisions, Gravity, EdgeSlide */

@@ -8,7 +8,7 @@ VALUES (14429,   1,         16) /* ItemType - Creature */
      , (14429,   7,         -1) /* ContainersCapacity */
      , (14429,  16,          1) /* ItemUseable - No */
      , (14429,  25,         30) /* Level */
-     , (14429,  27,          0) /* ArmorType */
+     , (14429,  27,          0) /* ArmorType - None */
      , (14429,  68,          9) /* TargetingTactic - Random, TopDamager */
      , (14429,  72,         59) /* FriendType - Simulacrum */
      , (14429,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */

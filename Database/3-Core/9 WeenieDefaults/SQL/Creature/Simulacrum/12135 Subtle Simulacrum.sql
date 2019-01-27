@@ -9,7 +9,7 @@ VALUES (12135,   1,         16) /* ItemType - Creature */
      , (12135,   8,        120) /* Mass */
      , (12135,  16,          1) /* ItemUseable - No */
      , (12135,  25,         61) /* Level */
-     , (12135,  27,          0) /* ArmorType */
+     , (12135,  27,          0) /* ArmorType - None */
      , (12135,  68,         13) /* TargetingTactic - Random, LastDamager, TopDamager */
      , (12135,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (12135, 101,        183) /* AiAllowedCombatStyle - Unarmed, OneHanded, OneHandedAndShield, Bow, Crossbow, ThrownWeapon */

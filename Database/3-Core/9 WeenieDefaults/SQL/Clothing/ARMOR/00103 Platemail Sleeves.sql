@@ -10,7 +10,7 @@ VALUES (103,   1,          2) /* ItemType - Armor */
      , (103,   9,       6144) /* ValidLocations - UpperArmArmor, LowerArmArmor */
      , (103,  16,          1) /* ItemUseable - No */
      , (103,  19,       1145) /* Value */
-     , (103,  27,         32) /* ArmorType */
+     , (103,  27,         32) /* ArmorType - Metal */
      , (103,  28,        100) /* ArmorLevel */
      , (103,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (103, 169,  118096132) /* TsysMutationData */;

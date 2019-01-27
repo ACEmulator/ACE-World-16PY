@@ -9,7 +9,7 @@ VALUES (7491,   1,         16) /* ItemType - Creature */
      , (7491,   7,         -1) /* ContainersCapacity */
      , (7491,  16,          1) /* ItemUseable - No */
      , (7491,  25,         18) /* Level */
-     , (7491,  27,          0) /* ArmorType */
+     , (7491,  27,          0) /* ArmorType - None */
      , (7491,  40,          1) /* CombatMode - NonCombat */
      , (7491,  68,          5) /* TargetingTactic - Random, LastDamager */
      , (7491,  93,    4195336) /* PhysicsState - ReportCollisions, Gravity, EdgeSlide */

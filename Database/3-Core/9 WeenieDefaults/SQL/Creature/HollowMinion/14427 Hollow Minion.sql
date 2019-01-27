@@ -9,7 +9,7 @@ VALUES (14427,   1,         16) /* ItemType - Creature */
      , (14427,   8,       8000) /* Mass */
      , (14427,  16,          1) /* ItemUseable - No */
      , (14427,  25,         23) /* Level */
-     , (14427,  27,          0) /* ArmorType */
+     , (14427,  27,          0) /* ArmorType - None */
      , (14427,  68,          9) /* TargetingTactic - Random, TopDamager */
      , (14427,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (14427, 133,          2) /* ShowableOnRadar - ShowMovement */

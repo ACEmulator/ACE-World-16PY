@@ -10,7 +10,7 @@ VALUES (6048,   1,          2) /* ItemType - Armor */
      , (6048,   9,       6144) /* ValidLocations - UpperArmArmor, LowerArmArmor */
      , (6048,  16,          1) /* ItemUseable - No */
      , (6048,  19,       1247) /* Value */
-     , (6048,  27,         32) /* ArmorType */
+     , (6048,  27,         32) /* ArmorType - Metal */
      , (6048,  28,        110) /* ArmorLevel */
      , (6048,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (6048, 169,  118096132) /* TsysMutationData */;

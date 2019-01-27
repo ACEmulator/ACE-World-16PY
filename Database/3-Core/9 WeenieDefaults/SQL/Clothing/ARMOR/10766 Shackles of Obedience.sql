@@ -11,7 +11,7 @@ VALUES (10766,   1,          2) /* ItemType - Armor */
      , (10766,  16,          1) /* ItemUseable - No */
      , (10766,  18,          1) /* UiEffects - Magical */
      , (10766,  19,          0) /* Value */
-     , (10766,  27,         32) /* ArmorType */
+     , (10766,  27,         32) /* ArmorType - Metal */
      , (10766,  28,        140) /* ArmorLevel */
      , (10766,  33,          1) /* Bonded - Bonded */
      , (10766,  36,       9999) /* ResistMagic */

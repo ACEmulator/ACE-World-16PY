@@ -10,7 +10,7 @@ VALUES (2540,   1,         16) /* ItemType - Creature */
      , (2540,   8,        200) /* Mass */
      , (2540,  16,         32) /* ItemUseable - Remote */
      , (2540,  25,          9) /* Level */
-     , (2540,  27,          0) /* ArmorType */
+     , (2540,  27,          0) /* ArmorType - None */
      , (2540,  40,          2) /* CombatMode - Melee */
      , (2540,  67,         40) /* Tolerance - Provoke, Target */
      , (2540,  68,          3) /* TargetingTactic - Random, Focused */

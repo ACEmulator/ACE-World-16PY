@@ -9,7 +9,7 @@ VALUES (24502,   1,         16) /* ItemType - Creature */
      , (24502,   7,         -1) /* ContainersCapacity */
      , (24502,  16,          1) /* ItemUseable - No */
      , (24502,  25,        115) /* Level */
-     , (24502,  27,          0) /* ArmorType */
+     , (24502,  27,          0) /* ArmorType - None */
      , (24502,  68,          5) /* TargetingTactic - Random, LastDamager */
      , (24502,  72,         70) /* FriendType - GotrokLugian */
      , (24502,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */

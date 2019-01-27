@@ -9,7 +9,7 @@ VALUES (8545,   1,         16) /* ItemType - Creature */
      , (8545,   7,         -1) /* ContainersCapacity */
      , (8545,  16,          1) /* ItemUseable - No */
      , (8545,  25,        100) /* Level */
-     , (8545,  27,          0) /* ArmorType */
+     , (8545,  27,          0) /* ArmorType - None */
      , (8545,  67,          2) /* Tolerance - Appraise */
      , (8545,  68,          3) /* TargetingTactic - Random, Focused */
      , (8545,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */

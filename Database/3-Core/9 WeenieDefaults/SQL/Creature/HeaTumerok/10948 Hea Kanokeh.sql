@@ -9,7 +9,7 @@ VALUES (10948,   1,         16) /* ItemType - Creature */
      , (10948,   7,         -1) /* ContainersCapacity */
      , (10948,  16,          1) /* ItemUseable - No */
      , (10948,  25,         85) /* Level */
-     , (10948,  27,          0) /* ArmorType */
+     , (10948,  27,          0) /* ArmorType - None */
      , (10948,  68,          5) /* TargetingTactic - Random, LastDamager */
      , (10948,  72,         19) /* FriendType - Virindi */
      , (10948,  81,          3) /* MaxGeneratedObjects */

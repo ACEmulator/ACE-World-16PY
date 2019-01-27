@@ -10,7 +10,7 @@ VALUES (24261,   1,          4) /* ItemType - Clothing */
      , (24261,   9,          1) /* ValidLocations - HeadWear */
      , (24261,  16,          1) /* ItemUseable - No */
      , (24261,  19,       4000) /* Value */
-     , (24261,  27,          1) /* ArmorType */
+     , (24261,  27,          1) /* ArmorType - Cloth */
      , (24261,  28,        200) /* ArmorLevel */
      , (24261,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (24261, 150,        103) /* HookPlacement - Hook */

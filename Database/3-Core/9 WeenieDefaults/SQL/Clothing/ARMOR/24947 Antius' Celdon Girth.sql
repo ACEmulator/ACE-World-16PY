@@ -10,7 +10,7 @@ VALUES (24947,   1,          2) /* ItemType - Armor */
      , (24947,   9,       1024) /* ValidLocations - AbdomenArmor */
      , (24947,  16,          1) /* ItemUseable - No */
      , (24947,  19,       1072) /* Value */
-     , (24947,  27,         32) /* ArmorType */
+     , (24947,  27,         32) /* ArmorType - Metal */
      , (24947,  28,        110) /* ArmorLevel */
      , (24947,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (24947, 169,  118096132) /* TsysMutationData */;

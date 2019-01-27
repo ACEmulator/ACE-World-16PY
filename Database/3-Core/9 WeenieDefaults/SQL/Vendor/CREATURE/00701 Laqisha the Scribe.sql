@@ -9,7 +9,7 @@ VALUES (701,   1,         16) /* ItemType - Creature */
      , (701,   8,        120) /* Mass */
      , (701,  16,         32) /* ItemUseable - Remote */
      , (701,  25,          5) /* Level */
-     , (701,  27,          0) /* ArmorType */
+     , (701,  27,          0) /* ArmorType - None */
      , (701,  74,     270336) /* MerchandiseItemTypes - Writable, PromissoryNote */
      , (701,  75,          0) /* MerchandiseMinValue */
      , (701,  76,     100000) /* MerchandiseMaxValue */

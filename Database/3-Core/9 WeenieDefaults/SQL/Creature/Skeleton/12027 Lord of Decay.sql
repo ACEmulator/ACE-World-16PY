@@ -9,7 +9,7 @@ VALUES (12027,   1,         16) /* ItemType - Creature */
      , (12027,   7,         -1) /* ContainersCapacity */
      , (12027,  16,          1) /* ItemUseable - No */
      , (12027,  25,         28) /* Level */
-     , (12027,  27,          0) /* ArmorType */
+     , (12027,  27,          0) /* ArmorType - None */
      , (12027,  40,          1) /* CombatMode - NonCombat */
      , (12027,  68,          5) /* TargetingTactic - Random, LastDamager */
      , (12027,  81,          4) /* MaxGeneratedObjects */

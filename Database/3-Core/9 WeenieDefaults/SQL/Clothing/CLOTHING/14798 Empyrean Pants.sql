@@ -10,7 +10,7 @@ VALUES (14798,   1,          4) /* ItemType - Clothing */
      , (14798,   9,        196) /* ValidLocations - AbdomenWear, UpperLegWear, LowerLegWear */
      , (14798,  16,          1) /* ItemUseable - No */
      , (14798,  19,         30) /* Value */
-     , (14798,  27,          1) /* ArmorType */
+     , (14798,  27,          1) /* ArmorType - Cloth */
      , (14798,  28,          0) /* ArmorLevel */
      , (14798,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
 

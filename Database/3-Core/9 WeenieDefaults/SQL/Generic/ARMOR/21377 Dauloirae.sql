@@ -9,7 +9,7 @@ VALUES (21377,   1,          2) /* ItemType - Armor */
      , (21377,  16,          1) /* ItemUseable - No */
      , (21377,  18,          1) /* UiEffects - Magical */
      , (21377,  19,       4000) /* Value */
-     , (21377,  27,          2) /* ArmorType */
+     , (21377,  27,          2) /* ArmorType - Leather */
      , (21377,  28,        200) /* ArmorLevel */
      , (21377,  36,       9999) /* ResistMagic */
      , (21377,  51,          4) /* CombatUse - Shield */

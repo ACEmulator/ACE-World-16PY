@@ -9,7 +9,7 @@ VALUES (27253,   1,         16) /* ItemType - Creature */
      , (27253,   7,         -1) /* ContainersCapacity */
      , (27253,  16,         32) /* ItemUseable - Remote */
      , (27253,  25,          5) /* Level */
-     , (27253,  27,          0) /* ArmorType */
+     , (27253,  27,          0) /* ArmorType - None */
      , (27253,  93,    2098204) /* PhysicsState - Ethereal, ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */
      , (27253,  95,          1) /* RadarBlipColor - LifeStone */
      , (27253, 133,          4) /* ShowableOnRadar - ShowAlways */

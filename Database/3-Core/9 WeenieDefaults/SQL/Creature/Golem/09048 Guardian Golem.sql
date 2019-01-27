@@ -9,7 +9,7 @@ VALUES (9048,   1,         16) /* ItemType - Creature */
      , (9048,   7,         -1) /* ContainersCapacity */
      , (9048,  16,          1) /* ItemUseable - No */
      , (9048,  25,        308) /* Level */
-     , (9048,  27,          0) /* ArmorType */
+     , (9048,  27,          0) /* ArmorType - None */
      , (9048,  40,          2) /* CombatMode - Melee */
      , (9048,  67,         64) /* Tolerance - Retaliate */
      , (9048,  68,          9) /* TargetingTactic - Random, TopDamager */

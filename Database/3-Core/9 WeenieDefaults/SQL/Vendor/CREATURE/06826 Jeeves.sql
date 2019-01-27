@@ -9,7 +9,7 @@ VALUES (6826,   1,         16) /* ItemType - Creature */
      , (6826,   8,        120) /* Mass */
      , (6826,  16,         32) /* ItemUseable - Remote */
      , (6826,  25,         51) /* Level */
-     , (6826,  27,          0) /* ArmorType */
+     , (6826,  27,          0) /* ArmorType - None */
      , (6826,  74,    3080111) /* MerchandiseItemTypes - Food, Useless, SpellComponents, Writable, Key, Lockable, PromissoryNote, ItemEnchantableTarget, MagicWieldable */
      , (6826,  75,          0) /* MerchandiseMinValue */
      , (6826,  76,   10000000) /* MerchandiseMaxValue */

@@ -9,7 +9,7 @@ VALUES (14405,   1,         16) /* ItemType - Creature */
      , (14405,   7,         -1) /* ContainersCapacity */
      , (14405,  16,          1) /* ItemUseable - No */
      , (14405,  25,          2) /* Level */
-     , (14405,  27,          0) /* ArmorType */
+     , (14405,  27,          0) /* ArmorType - None */
      , (14405,  40,          2) /* CombatMode - Melee */
      , (14405,  67,         64) /* Tolerance - Retaliate */
      , (14405,  68,          6) /* TargetingTactic - Focused, LastDamager */

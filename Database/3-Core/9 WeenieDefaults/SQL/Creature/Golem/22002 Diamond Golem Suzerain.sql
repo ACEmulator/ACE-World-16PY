@@ -9,7 +9,7 @@ VALUES (22002,   1,         16) /* ItemType - Creature */
      , (22002,   7,         -1) /* ContainersCapacity */
      , (22002,  16,          1) /* ItemUseable - No */
      , (22002,  25,        145) /* Level */
-     , (22002,  27,          0) /* ArmorType */
+     , (22002,  27,          0) /* ArmorType - None */
      , (22002,  40,          2) /* CombatMode - Melee */
      , (22002,  68,          9) /* TargetingTactic - Random, TopDamager */
      , (22002,  72,         13) /* FriendType - Golem */

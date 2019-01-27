@@ -9,7 +9,7 @@ VALUES (8269,   1,         16) /* ItemType - Creature */
      , (8269,   7,         -1) /* ContainersCapacity */
      , (8269,  16,          1) /* ItemUseable - No */
      , (8269,  25,         61) /* Level */
-     , (8269,  27,          0) /* ArmorType */
+     , (8269,  27,          0) /* ArmorType - None */
      , (8269,  68,          3) /* TargetingTactic - Random, Focused */
      , (8269,  72,         19) /* FriendType - Virindi */
      , (8269,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */

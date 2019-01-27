@@ -10,7 +10,7 @@ VALUES (24180,   1,          4) /* ItemType - Clothing */
      , (24180,   9,          1) /* ValidLocations - HeadWear */
      , (24180,  16,          1) /* ItemUseable - No */
      , (24180,  19,        800) /* Value */
-     , (24180,  27,          1) /* ArmorType */
+     , (24180,  27,          1) /* ArmorType - Cloth */
      , (24180,  28,          0) /* ArmorLevel */
      , (24180,  33,          1) /* Bonded - Bonded */
      , (24180,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */

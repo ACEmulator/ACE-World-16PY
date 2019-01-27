@@ -9,7 +9,7 @@ VALUES (1819,   1,         16) /* ItemType - Creature */
      , (1819,   8,        120) /* Mass */
      , (1819,  16,         32) /* ItemUseable - Remote */
      , (1819,  25,         14) /* Level */
-     , (1819,  27,          0) /* ArmorType */
+     , (1819,  27,          0) /* ArmorType - None */
      , (1819,  74,     262272) /* MerchandiseItemTypes - Misc, PromissoryNote */
      , (1819,  75,          0) /* MerchandiseMinValue */
      , (1819,  76,      25000) /* MerchandiseMaxValue */

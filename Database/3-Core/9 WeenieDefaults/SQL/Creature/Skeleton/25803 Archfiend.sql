@@ -9,7 +9,7 @@ VALUES (25803,   1,         16) /* ItemType - Creature */
      , (25803,   7,         -1) /* ContainersCapacity */
      , (25803,  16,          1) /* ItemUseable - No */
      , (25803,  25,        161) /* Level */
-     , (25803,  27,          0) /* ArmorType */
+     , (25803,  27,          0) /* ArmorType - None */
      , (25803,  40,          1) /* CombatMode - NonCombat */
      , (25803,  68,          5) /* TargetingTactic - Random, LastDamager */
      , (25803,  72,         14) /* FriendType - Undead */

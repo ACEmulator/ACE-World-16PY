@@ -9,7 +9,7 @@ VALUES (19542,   1,         16) /* ItemType - Creature */
      , (19542,   7,         -1) /* ContainersCapacity */
      , (19542,  16,          1) /* ItemUseable - No */
      , (19542,  25,        161) /* Level */
-     , (19542,  27,          0) /* ArmorType */
+     , (19542,  27,          0) /* ArmorType - None */
      , (19542,  40,          2) /* CombatMode - Melee */
      , (19542,  68,          3) /* TargetingTactic - Random, Focused */
      , (19542,  81,          6) /* MaxGeneratedObjects */

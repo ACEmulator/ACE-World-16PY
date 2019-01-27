@@ -10,7 +10,7 @@ VALUES (30949,   1,          2) /* ItemType - Armor */
      , (30949,   9,       6144) /* ValidLocations - UpperArmArmor, LowerArmArmor */
      , (30949,  16,          1) /* ItemUseable - No */
      , (30949,  19,         60) /* Value */
-     , (30949,  27,          2) /* ArmorType */
+     , (30949,  27,          2) /* ArmorType - Leather */
      , (30949,  28,         20) /* ArmorLevel */
      , (30949,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (30949, 169,  118161678) /* TsysMutationData */;

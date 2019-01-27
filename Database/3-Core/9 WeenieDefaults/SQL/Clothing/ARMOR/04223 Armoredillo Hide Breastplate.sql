@@ -10,7 +10,7 @@ VALUES (4223,   1,          2) /* ItemType - Armor */
      , (4223,   9,        512) /* ValidLocations - ChestArmor */
      , (4223,  16,          1) /* ItemUseable - No */
      , (4223,  19,        300) /* Value */
-     , (4223,  27,          2) /* ArmorType */
+     , (4223,  27,          2) /* ArmorType - Leather */
      , (4223,  28,         60) /* ArmorLevel */
      , (4223,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
 

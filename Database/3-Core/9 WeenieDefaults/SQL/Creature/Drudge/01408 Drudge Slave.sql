@@ -9,7 +9,7 @@ VALUES (1408,   1,         16) /* ItemType - Creature */
      , (1408,   7,         -1) /* ContainersCapacity */
      , (1408,  16,          1) /* ItemUseable - No */
      , (1408,  25,         14) /* Level */
-     , (1408,  27,          0) /* ArmorType */
+     , (1408,  27,          0) /* ArmorType - None */
      , (1408,  40,          2) /* CombatMode - Melee */
      , (1408,  68,          9) /* TargetingTactic - Random, TopDamager */
      , (1408,  72,          6) /* FriendType - Tumerok */

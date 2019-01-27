@@ -8,7 +8,7 @@ VALUES (23557,   1,         16) /* ItemType - Creature */
      , (23557,   7,         -1) /* ContainersCapacity */
      , (23557,  16,          1) /* ItemUseable - No */
      , (23557,  25,        155) /* Level */
-     , (23557,  27,          0) /* ArmorType */
+     , (23557,  27,          0) /* ArmorType - None */
      , (23557,  40,          1) /* CombatMode - NonCombat */
      , (23557,  68,          3) /* TargetingTactic - Random, Focused */
      , (23557,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */

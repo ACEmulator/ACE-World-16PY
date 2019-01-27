@@ -9,7 +9,7 @@ VALUES (3607,   1,         16) /* ItemType - Creature */
      , (3607,   8,        120) /* Mass */
      , (3607,  16,          1) /* ItemUseable - No */
      , (3607,  25,         40) /* Level */
-     , (3607,  27,          0) /* ArmorType */
+     , (3607,  27,          0) /* ArmorType - None */
      , (3607,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (3607,  95,          8) /* RadarBlipColor - Yellow */
      , (3607, 133,          4) /* ShowableOnRadar - ShowAlways */

@@ -9,7 +9,7 @@ VALUES (796,   1,         16) /* ItemType - Creature */
      , (796,   8,        120) /* Mass */
      , (796,  16,         32) /* ItemUseable - Remote */
      , (796,  25,          6) /* Level */
-     , (796,  27,          0) /* ArmorType */
+     , (796,  27,          0) /* ArmorType - None */
      , (796,  74,     262176) /* MerchandiseItemTypes - Food, PromissoryNote */
      , (796,  75,          0) /* MerchandiseMinValue */
      , (796,  76,     100000) /* MerchandiseMaxValue */

@@ -9,7 +9,7 @@ VALUES (11205,   1,         16) /* ItemType - Creature */
      , (11205,   8,        120) /* Mass */
      , (11205,  16,          1) /* ItemUseable - No */
      , (11205,  25,          8) /* Level */
-     , (11205,  27,          0) /* ArmorType */
+     , (11205,  27,          0) /* ArmorType - None */
      , (11205,  93,       1036) /* PhysicsState - Ethereal, ReportCollisions, Gravity */
      , (11205, 133,          1) /* ShowableOnRadar - ShowNever */
      , (11205, 134,         16) /* PlayerKillerStatus - RubberGlue */

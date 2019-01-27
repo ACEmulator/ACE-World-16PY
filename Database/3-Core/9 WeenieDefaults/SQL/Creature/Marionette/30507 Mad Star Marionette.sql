@@ -9,7 +9,7 @@ VALUES (30507,   1,         16) /* ItemType - Creature */
      , (30507,   7,         -1) /* ContainersCapacity */
      , (30507,  16,          1) /* ItemUseable - No */
      , (30507,  25,         26) /* Level */
-     , (30507,  27,          0) /* ArmorType */
+     , (30507,  27,          0) /* ArmorType - None */
      , (30507,  40,          2) /* CombatMode - Melee */
      , (30507,  68,          9) /* TargetingTactic - Random, TopDamager */
      , (30507,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */

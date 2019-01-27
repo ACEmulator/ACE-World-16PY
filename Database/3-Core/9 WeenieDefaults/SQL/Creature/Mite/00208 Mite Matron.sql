@@ -9,7 +9,7 @@ VALUES (208,   1,         16) /* ItemType - Creature */
      , (208,   7,         -1) /* ContainersCapacity */
      , (208,  16,          1) /* ItemUseable - No */
      , (208,  25,         25) /* Level */
-     , (208,  27,          0) /* ArmorType */
+     , (208,  27,          0) /* ArmorType - None */
      , (208,  40,          2) /* CombatMode - Melee */
      , (208,  68,          3) /* TargetingTactic - Random, Focused */
      , (208,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */

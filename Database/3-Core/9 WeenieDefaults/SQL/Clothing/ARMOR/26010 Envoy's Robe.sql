@@ -10,7 +10,7 @@ VALUES (26010,   1,          2) /* ItemType - Armor */
      , (26010,   9,        512) /* ValidLocations - ChestArmor */
      , (26010,  16,          1) /* ItemUseable - No */
      , (26010,  19,          5) /* Value */
-     , (26010,  27,         32) /* ArmorType */
+     , (26010,  27,         32) /* ArmorType - Metal */
      , (26010,  28,        100) /* ArmorLevel */
      , (26010,  33,          1) /* Bonded - Bonded */
      , (26010,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */

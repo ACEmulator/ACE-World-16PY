@@ -9,7 +9,7 @@ VALUES (15299,   1,         16) /* ItemType - Creature */
      , (15299,   8,        120) /* Mass */
      , (15299,  16,          1) /* ItemUseable - No */
      , (15299,  25,         43) /* Level */
-     , (15299,  27,          0) /* ArmorType */
+     , (15299,  27,          0) /* ArmorType - None */
      , (15299,  68,         13) /* TargetingTactic - Random, LastDamager, TopDamager */
      , (15299,  72,         19) /* FriendType - Virindi */
      , (15299,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */

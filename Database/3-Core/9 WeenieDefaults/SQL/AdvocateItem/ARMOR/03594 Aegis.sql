@@ -9,7 +9,7 @@ VALUES (3594,   1,          2) /* ItemType - Armor */
      , (3594,   9,    2097152) /* ValidLocations - Shield */
      , (3594,  16,          1) /* ItemUseable - No */
      , (3594,  19,        120) /* Value */
-     , (3594,  27,          2) /* ArmorType */
+     , (3594,  27,          2) /* ArmorType - Leather */
      , (3594,  28,         50) /* ArmorLevel */
      , (3594,  33,          1) /* Bonded - Bonded */
      , (3594,  51,          4) /* CombatUse - Shield */

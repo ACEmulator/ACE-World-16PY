@@ -10,7 +10,7 @@ VALUES (1617,   1,         16) /* ItemType - Creature */
      , (1617,   8,       8000) /* Mass */
      , (1617,  16,          1) /* ItemUseable - No */
      , (1617,  25,         21) /* Level */
-     , (1617,  27,          0) /* ArmorType */
+     , (1617,  27,          0) /* ArmorType - None */
      , (1617,  40,          2) /* CombatMode - Melee */
      , (1617,  67,         64) /* Tolerance - Retaliate */
      , (1617,  68,         13) /* TargetingTactic - Random, LastDamager, TopDamager */

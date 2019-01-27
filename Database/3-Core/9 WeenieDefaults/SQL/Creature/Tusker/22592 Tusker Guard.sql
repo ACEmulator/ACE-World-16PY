@@ -9,7 +9,7 @@ VALUES (22592,   1,         16) /* ItemType - Creature */
      , (22592,   7,         -1) /* ContainersCapacity */
      , (22592,  16,          1) /* ItemUseable - No */
      , (22592,  25,         85) /* Level */
-     , (22592,  27,          0) /* ArmorType */
+     , (22592,  27,          0) /* ArmorType - None */
      , (22592,  40,          2) /* CombatMode - Melee */
      , (22592,  68,          9) /* TargetingTactic - Random, TopDamager */
      , (22592,  72,         19) /* FriendType - Virindi */

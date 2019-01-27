@@ -9,7 +9,7 @@ VALUES (10775,   1,         16) /* ItemType - Creature */
      , (10775,   7,         -1) /* ContainersCapacity */
      , (10775,  16,          1) /* ItemUseable - No */
      , (10775,  25,         85) /* Level */
-     , (10775,  27,          0) /* ArmorType */
+     , (10775,  27,          0) /* ArmorType - None */
      , (10775,  40,          2) /* CombatMode - Melee */
      , (10775,  68,          9) /* TargetingTactic - Random, TopDamager */
      , (10775,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */

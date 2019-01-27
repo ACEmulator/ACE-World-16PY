@@ -10,7 +10,7 @@ VALUES (4138,   1,          2) /* ItemType - Armor */
      , (4138,   9,        512) /* ValidLocations - ChestArmor */
      , (4138,  16,          1) /* ItemUseable - No */
      , (4138,  19,          5) /* Value */
-     , (4138,  27,         32) /* ArmorType */
+     , (4138,  27,         32) /* ArmorType - Metal */
      , (4138,  28,        100) /* ArmorLevel */
      , (4138,  33,          1) /* Bonded - Bonded */
      , (4138,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */

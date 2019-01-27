@@ -9,7 +9,7 @@ VALUES (2628,   1,          2) /* ItemType - Armor */
      , (2628,   9,    2097152) /* ValidLocations - Shield */
      , (2628,  16,          1) /* ItemUseable - No */
      , (2628,  19,        120) /* Value */
-     , (2628,  27,          2) /* ArmorType */
+     , (2628,  27,          2) /* ArmorType - Leather */
      , (2628,  28,         50) /* ArmorLevel */
      , (2628,  33,          1) /* Bonded - Bonded */
      , (2628,  51,          4) /* CombatUse - Shield */

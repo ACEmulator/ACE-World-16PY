@@ -9,7 +9,7 @@ VALUES (405,   1,         16) /* ItemType - Creature */
      , (405,   8,        120) /* Mass */
      , (405,  16,         32) /* ItemUseable - Remote */
      , (405,  25,          3) /* Level */
-     , (405,  27,          0) /* ArmorType */
+     , (405,  27,          0) /* ArmorType - None */
      , (405,  74,      16303) /* MerchandiseItemTypes - Vestements, Jewelry, Food, Weapon, LockableMagicTarget, Useless, Gem, SpellComponents, Writable */
      , (405,  75,          0) /* MerchandiseMinValue */
      , (405,  76,     100000) /* MerchandiseMaxValue */

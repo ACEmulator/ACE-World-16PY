@@ -8,7 +8,7 @@ VALUES (14514,   1,         16) /* ItemType - Creature */
      , (14514,   7,         -1) /* ContainersCapacity */
      , (14514,  16,          1) /* ItemUseable - No */
      , (14514,  25,        115) /* Level */
-     , (14514,  27,          0) /* ArmorType */
+     , (14514,  27,          0) /* ArmorType - None */
      , (14514,  68,          5) /* TargetingTactic - Random, LastDamager */
      , (14514,  93,       3080) /* PhysicsState - ReportCollisions, Gravity, LightingOn */
      , (14514, 101,        183) /* AiAllowedCombatStyle - Unarmed, OneHanded, OneHandedAndShield, Bow, Crossbow, ThrownWeapon */

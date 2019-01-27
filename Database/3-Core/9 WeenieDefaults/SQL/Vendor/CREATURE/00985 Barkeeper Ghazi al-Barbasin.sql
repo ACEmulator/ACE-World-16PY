@@ -9,7 +9,7 @@ VALUES (985,   1,         16) /* ItemType - Creature */
      , (985,   8,        120) /* Mass */
      , (985,  16,         32) /* ItemUseable - Remote */
      , (985,  25,         10) /* Level */
-     , (985,  27,          0) /* ArmorType */
+     , (985,  27,          0) /* ArmorType - None */
      , (985,  74,     262176) /* MerchandiseItemTypes - Food, PromissoryNote */
      , (985,  75,          0) /* MerchandiseMinValue */
      , (985,  76,     100000) /* MerchandiseMaxValue */

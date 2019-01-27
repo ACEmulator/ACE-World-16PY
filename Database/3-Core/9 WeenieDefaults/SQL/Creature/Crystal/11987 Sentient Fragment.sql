@@ -9,7 +9,7 @@ VALUES (11987,   1,         16) /* ItemType - Creature */
      , (11987,   7,         -1) /* ContainersCapacity */
      , (11987,  16,          1) /* ItemUseable - No */
      , (11987,  25,         85) /* Level */
-     , (11987,  27,          0) /* ArmorType */
+     , (11987,  27,          0) /* ArmorType - None */
      , (11987,  40,          2) /* CombatMode - Melee */
      , (11987,  68,          5) /* TargetingTactic - Random, LastDamager */
      , (11987,  69,          4) /* CombatTactic - LastDamager */

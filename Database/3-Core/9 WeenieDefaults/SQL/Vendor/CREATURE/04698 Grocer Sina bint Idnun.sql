@@ -9,7 +9,7 @@ VALUES (4698,   1,         16) /* ItemType - Creature */
      , (4698,   8,        120) /* Mass */
      , (4698,  16,         32) /* ItemUseable - Remote */
      , (4698,  25,         11) /* Level */
-     , (4698,  27,          0) /* ArmorType */
+     , (4698,  27,          0) /* ArmorType - None */
      , (4698,  74,    4481568) /* MerchandiseItemTypes - VendorGrocer */
      , (4698,  75,          0) /* MerchandiseMinValue */
      , (4698,  76,     100000) /* MerchandiseMaxValue */

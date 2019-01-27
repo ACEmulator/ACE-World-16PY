@@ -10,7 +10,7 @@ VALUES (22910,   1,         16) /* ItemType - Creature */
      , (22910,   8,         90) /* Mass */
      , (22910,  16,          1) /* ItemUseable - No */
      , (22910,  25,         85) /* Level */
-     , (22910,  27,          0) /* ArmorType */
+     , (22910,  27,          0) /* ArmorType - None */
      , (22910,  68,          3) /* TargetingTactic - Random, Focused */
      , (22910,  72,         19) /* FriendType - Virindi */
      , (22910,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */

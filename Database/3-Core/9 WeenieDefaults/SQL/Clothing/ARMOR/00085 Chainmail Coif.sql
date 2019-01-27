@@ -10,7 +10,7 @@ VALUES (85,   1,          2) /* ItemType - Armor */
      , (85,   9,          1) /* ValidLocations - HeadWear */
      , (85,  16,          1) /* ItemUseable - No */
      , (85,  19,        207) /* Value */
-     , (85,  27,         16) /* ArmorType */
+     , (85,  27,         16) /* ArmorType - Chainmail */
      , (85,  28,         60) /* ArmorLevel */
      , (85,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (85, 150,        103) /* HookPlacement - Hook */

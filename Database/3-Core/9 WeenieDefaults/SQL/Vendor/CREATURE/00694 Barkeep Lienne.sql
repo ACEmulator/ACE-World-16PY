@@ -9,7 +9,7 @@ VALUES (694,   1,         16) /* ItemType - Creature */
      , (694,   8,        120) /* Mass */
      , (694,  16,         32) /* ItemUseable - Remote */
      , (694,  25,          7) /* Level */
-     , (694,  27,          0) /* ArmorType */
+     , (694,  27,          0) /* ArmorType - None */
      , (694,  74,     262176) /* MerchandiseItemTypes - Food, PromissoryNote */
      , (694,  75,          0) /* MerchandiseMinValue */
      , (694,  76,     100000) /* MerchandiseMaxValue */

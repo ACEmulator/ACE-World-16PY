@@ -11,7 +11,7 @@ VALUES (9021,   1,          2) /* ItemType - Armor */
      , (9021,  16,          1) /* ItemUseable - No */
      , (9021,  18,          1) /* UiEffects - Magical */
      , (9021,  19,       5520) /* Value */
-     , (9021,  27,          4) /* ArmorType */
+     , (9021,  27,          4) /* ArmorType - StuddedLeather */
      , (9021,  28,         50) /* ArmorLevel */
      , (9021,  44,          3) /* Damage */
      , (9021,  45,          4) /* DamageType - Bludgeon */

@@ -9,7 +9,7 @@ VALUES (981,   1,         16) /* ItemType - Creature */
      , (981,   8,        120) /* Mass */
      , (981,  16,         32) /* ItemUseable - Remote */
      , (981,  25,         10) /* Level */
-     , (981,  27,          0) /* ArmorType */
+     , (981,  27,          0) /* ArmorType - None */
      , (981,  74,     270336) /* MerchandiseItemTypes - Writable, PromissoryNote */
      , (981,  75,          0) /* MerchandiseMinValue */
      , (981,  76,      25000) /* MerchandiseMaxValue */

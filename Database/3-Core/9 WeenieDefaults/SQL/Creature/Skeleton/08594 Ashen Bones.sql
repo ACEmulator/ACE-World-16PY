@@ -8,7 +8,7 @@ VALUES (8594,   1,         16) /* ItemType - Creature */
      , (8594,   7,         -1) /* ContainersCapacity */
      , (8594,  16,          1) /* ItemUseable - No */
      , (8594,  25,         79) /* Level */
-     , (8594,  27,          0) /* ArmorType */
+     , (8594,  27,          0) /* ArmorType - None */
      , (8594,  40,          1) /* CombatMode - NonCombat */
      , (8594,  67,         64) /* Tolerance - Retaliate */
      , (8594,  68,         13) /* TargetingTactic - Random, LastDamager, TopDamager */

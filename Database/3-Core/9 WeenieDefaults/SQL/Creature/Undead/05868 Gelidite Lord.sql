@@ -9,7 +9,7 @@ VALUES (5868,   1,         16) /* ItemType - Creature */
      , (5868,   7,         -1) /* ContainersCapacity */
      , (5868,  16,          1) /* ItemUseable - No */
      , (5868,  25,        100) /* Level */
-     , (5868,  27,          0) /* ArmorType */
+     , (5868,  27,          0) /* ArmorType - None */
      , (5868,  40,          1) /* CombatMode - NonCombat */
      , (5868,  68,          3) /* TargetingTactic - Random, Focused */
      , (5868,  81,          1) /* MaxGeneratedObjects */

@@ -8,7 +8,7 @@ VALUES (8270,   1,         16) /* ItemType - Creature */
      , (8270,   7,         -1) /* ContainersCapacity */
      , (8270,  16,          1) /* ItemUseable - No */
      , (8270,  25,         44) /* Level */
-     , (8270,  27,          0) /* ArmorType */
+     , (8270,  27,          0) /* ArmorType - None */
      , (8270,  68,          3) /* TargetingTactic - Random, Focused */
      , (8270,  72,         19) /* FriendType - Virindi */
      , (8270,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */

@@ -10,7 +10,7 @@ VALUES (24594,   1,         16) /* ItemType - Creature */
      , (24594,   8,        120) /* Mass */
      , (24594,  16,         32) /* ItemUseable - Remote */
      , (24594,  25,        111) /* Level */
-     , (24594,  27,          0) /* ArmorType */
+     , (24594,  27,          0) /* ArmorType - None */
      , (24594,  74,   76328960) /* MerchandiseItemTypes - SpellComponents, Writable, Caster, PromissoryNote, ManaStone, CraftAlchemyBase, CraftAlchemyIntermediate */
      , (24594,  75,          0) /* MerchandiseMinValue */
      , (24594,  76,    1000000) /* MerchandiseMaxValue */

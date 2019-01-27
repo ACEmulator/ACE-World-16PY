@@ -9,7 +9,7 @@ VALUES (22113,   1,         16) /* ItemType - Creature */
      , (22113,   7,         -1) /* ContainersCapacity */
      , (22113,  16,          1) /* ItemUseable - No */
      , (22113,  25,        666) /* Level */
-     , (22113,  27,          0) /* ArmorType */
+     , (22113,  27,          0) /* ArmorType - None */
      , (22113,  40,          1) /* CombatMode - NonCombat */
      , (22113,  67,         64) /* Tolerance - Retaliate */
      , (22113,  93,    6292492) /* PhysicsState - Ethereal, ReportCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */

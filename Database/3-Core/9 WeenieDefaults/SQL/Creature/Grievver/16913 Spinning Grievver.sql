@@ -9,7 +9,7 @@ VALUES (16913,   1,         16) /* ItemType - Creature */
      , (16913,   7,         -1) /* ContainersCapacity */
      , (16913,  16,          1) /* ItemUseable - No */
      , (16913,  25,         85) /* Level */
-     , (16913,  27,          0) /* ArmorType */
+     , (16913,  27,          0) /* ArmorType - None */
      , (16913,  40,          2) /* CombatMode - Melee */
      , (16913,  68,          3) /* TargetingTactic - Random, Focused */
      , (16913,  72,         22) /* FriendType - Shadow */

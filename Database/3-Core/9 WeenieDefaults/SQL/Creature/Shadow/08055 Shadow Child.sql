@@ -10,7 +10,7 @@ VALUES (8055,   1,         16) /* ItemType - Creature */
      , (8055,   8,         90) /* Mass */
      , (8055,  16,          1) /* ItemUseable - No */
      , (8055,  25,         12) /* Level */
-     , (8055,  27,          0) /* ArmorType */
+     , (8055,  27,          0) /* ArmorType - None */
      , (8055,  68,          9) /* TargetingTactic - Random, TopDamager */
      , (8055,  93,    4195336) /* PhysicsState - ReportCollisions, Gravity, EdgeSlide */
      , (8055, 101,        183) /* AiAllowedCombatStyle - Unarmed, OneHanded, OneHandedAndShield, Bow, Crossbow, ThrownWeapon */

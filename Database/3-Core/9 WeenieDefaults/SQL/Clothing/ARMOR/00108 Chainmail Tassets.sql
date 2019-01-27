@@ -10,7 +10,7 @@ VALUES (108,   1,          2) /* ItemType - Armor */
      , (108,   9,       8192) /* ValidLocations - UpperLegArmor */
      , (108,  16,          1) /* ItemUseable - No */
      , (108,  19,        373) /* Value */
-     , (108,  27,         16) /* ArmorType */
+     , (108,  27,         16) /* ArmorType - Chainmail */
      , (108,  28,         50) /* ArmorLevel */
      , (108,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (108, 169,  252313860) /* TsysMutationData */;

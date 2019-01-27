@@ -8,7 +8,7 @@ VALUES (13220,   1,         16) /* ItemType - Creature */
      , (13220,   7,         -1) /* ContainersCapacity */
      , (13220,  16,          1) /* ItemUseable - No */
      , (13220,  25,          2) /* Level */
-     , (13220,  27,          0) /* ArmorType */
+     , (13220,  27,          0) /* ArmorType - None */
      , (13220,  67,         64) /* Tolerance - Retaliate */
      , (13220,  68,          9) /* TargetingTactic - Random, TopDamager */
      , (13220,  72,         19) /* FriendType - Virindi */

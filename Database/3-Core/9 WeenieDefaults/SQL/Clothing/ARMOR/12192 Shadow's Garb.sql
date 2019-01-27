@@ -11,7 +11,7 @@ VALUES (12192,   1,          2) /* ItemType - Armor */
      , (12192,  16,          1) /* ItemUseable - No */
      , (12192,  18,          1) /* UiEffects - Magical */
      , (12192,  19,       2000) /* Value */
-     , (12192,  27,          2) /* ArmorType */
+     , (12192,  27,          2) /* ArmorType - Leather */
      , (12192,  28,        390) /* ArmorLevel */
      , (12192,  33,         -2) /* Bonded - Destroy */
      , (12192,  37,       9999) /* ResistItemAppraisal */

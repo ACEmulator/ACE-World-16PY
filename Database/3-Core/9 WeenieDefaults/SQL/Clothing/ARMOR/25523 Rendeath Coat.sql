@@ -10,7 +10,7 @@ VALUES (25523,   1,          2) /* ItemType - Armor */
      , (25523,   9,       6656) /* ValidLocations - ChestArmor, UpperArmArmor, LowerArmArmor */
      , (25523,  16,          1) /* ItemUseable - No */
      , (25523,  19,       4500) /* Value */
-     , (25523,  27,          2) /* ArmorType */
+     , (25523,  27,          2) /* ArmorType - Leather */
      , (25523,  28,        250) /* ArmorLevel */
      , (25523,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (25523, 150,        103) /* HookPlacement - Hook */

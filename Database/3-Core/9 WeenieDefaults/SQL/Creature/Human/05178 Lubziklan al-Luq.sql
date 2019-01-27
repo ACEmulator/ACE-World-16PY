@@ -9,7 +9,7 @@ VALUES (5178,   1,         16) /* ItemType - Creature */
      , (5178,   8,        120) /* Mass */
      , (5178,  16,         32) /* ItemUseable - Remote */
      , (5178,  25,          5) /* Level */
-     , (5178,  27,          0) /* ArmorType */
+     , (5178,  27,          0) /* ArmorType - None */
      , (5178,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (5178,  95,          8) /* RadarBlipColor - Yellow */
      , (5178, 133,          4) /* ShowableOnRadar - ShowAlways */

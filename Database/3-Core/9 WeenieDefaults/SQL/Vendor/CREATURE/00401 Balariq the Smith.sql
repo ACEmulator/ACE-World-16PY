@@ -9,7 +9,7 @@ VALUES (401,   1,         16) /* ItemType - Creature */
      , (401,   8,        120) /* Mass */
      , (401,  16,         32) /* ItemUseable - Remote */
      , (401,  25,          7) /* Level */
-     , (401,  27,          0) /* ArmorType */
+     , (401,  27,          0) /* ArmorType - None */
      , (401,  74,        259) /* MerchandiseItemTypes - Armor, Weapon */
      , (401,  75,          0) /* MerchandiseMinValue */
      , (401,  76,     100000) /* MerchandiseMaxValue */

@@ -9,7 +9,7 @@ VALUES (7981,   1,         16) /* ItemType - Creature */
      , (7981,   7,         -1) /* ContainersCapacity */
      , (7981,  16,          1) /* ItemUseable - No */
      , (7981,  25,        100) /* Level */
-     , (7981,  27,          0) /* ArmorType */
+     , (7981,  27,          0) /* ArmorType - None */
      , (7981,  40,          2) /* CombatMode - Melee */
      , (7981,  68,          3) /* TargetingTactic - Random, Focused */
      , (7981,  72,         22) /* FriendType - Shadow */

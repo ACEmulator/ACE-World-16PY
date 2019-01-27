@@ -9,7 +9,7 @@ VALUES (22077,   1,         16) /* ItemType - Creature */
      , (22077,   7,         -1) /* ContainersCapacity */
      , (22077,  16,          1) /* ItemUseable - No */
      , (22077,  25,        130) /* Level */
-     , (22077,  27,          0) /* ArmorType */
+     , (22077,  27,          0) /* ArmorType - None */
      , (22077,  68,          3) /* TargetingTactic - Random, Focused */
      , (22077,  72,         19) /* FriendType - Virindi */
      , (22077,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */

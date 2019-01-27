@@ -10,7 +10,7 @@ VALUES (40,   1,          2) /* ItemType - Armor */
      , (40,   9,        512) /* ValidLocations - ChestArmor */
      , (40,  16,          1) /* ItemUseable - No */
      , (40,  19,       1631) /* Value */
-     , (40,  27,         32) /* ArmorType */
+     , (40,  27,         32) /* ArmorType - Metal */
      , (40,  28,        100) /* ArmorLevel */
      , (40,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (40, 169,  118097668) /* TsysMutationData */;

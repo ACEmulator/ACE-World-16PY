@@ -8,7 +8,7 @@ VALUES (20189,   1,         16) /* ItemType - Creature */
      , (20189,   7,         -1) /* ContainersCapacity */
      , (20189,  16,          1) /* ItemUseable - No */
      , (20189,  25,        100) /* Level */
-     , (20189,  27,          0) /* ArmorType */
+     , (20189,  27,          0) /* ArmorType - None */
      , (20189,  68,          5) /* TargetingTactic - Random, LastDamager */
      , (20189,  81,          1) /* MaxGeneratedObjects */
      , (20189,  82,          1) /* InitGeneratedObjects */

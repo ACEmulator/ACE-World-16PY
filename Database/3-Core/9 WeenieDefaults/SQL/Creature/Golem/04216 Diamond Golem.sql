@@ -9,7 +9,7 @@ VALUES (4216,   1,         16) /* ItemType - Creature */
      , (4216,   7,         -1) /* ContainersCapacity */
      , (4216,  16,          1) /* ItemUseable - No */
      , (4216,  25,         95) /* Level */
-     , (4216,  27,          0) /* ArmorType */
+     , (4216,  27,          0) /* ArmorType - None */
      , (4216,  40,          2) /* CombatMode - Melee */
      , (4216,  68,          9) /* TargetingTactic - Random, TopDamager */
      , (4216,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */

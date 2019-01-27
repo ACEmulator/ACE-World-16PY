@@ -9,7 +9,7 @@ VALUES (224,   1,         16) /* ItemType - Creature */
      , (224,   8,        120) /* Mass */
      , (224,  16,          1) /* ItemUseable - No */
      , (224,  25,         95) /* Level */
-     , (224,  27,          0) /* ArmorType */
+     , (224,  27,          0) /* ArmorType - None */
      , (224,  68,         13) /* TargetingTactic - Random, LastDamager, TopDamager */
      , (224,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (224, 101,        131) /* AiAllowedCombatStyle - Unarmed, OneHanded, ThrownWeapon */

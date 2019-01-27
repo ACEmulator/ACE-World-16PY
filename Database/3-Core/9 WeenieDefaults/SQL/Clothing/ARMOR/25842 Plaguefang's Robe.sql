@@ -10,7 +10,7 @@ VALUES (25842,   1,          2) /* ItemType - Armor */
      , (25842,   9,      32512) /* ValidLocations - Armor */
      , (25842,  16,          1) /* ItemUseable - No */
      , (25842,  19,      12500) /* Value */
-     , (25842,  27,          1) /* ArmorType */
+     , (25842,  27,          1) /* ArmorType - Cloth */
      , (25842,  28,        210) /* ArmorLevel */
      , (25842,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (25842, 106,        400) /* ItemSpellcraft */

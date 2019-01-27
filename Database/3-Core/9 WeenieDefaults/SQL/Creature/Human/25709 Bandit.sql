@@ -9,7 +9,7 @@ VALUES (25709,   1,         16) /* ItemType - Creature */
      , (25709,   8,        120) /* Mass */
      , (25709,  16,          1) /* ItemUseable - No */
      , (25709,  25,         12) /* Level */
-     , (25709,  27,          0) /* ArmorType */
+     , (25709,  27,          0) /* ArmorType - None */
      , (25709,  67,         64) /* Tolerance - Retaliate */
      , (25709,  68,         13) /* TargetingTactic - Random, LastDamager, TopDamager */
      , (25709,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */

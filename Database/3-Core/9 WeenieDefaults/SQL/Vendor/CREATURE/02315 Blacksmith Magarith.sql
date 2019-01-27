@@ -9,7 +9,7 @@ VALUES (2315,   1,         16) /* ItemType - Creature */
      , (2315,   8,        120) /* Mass */
      , (2315,  16,         32) /* ItemUseable - Remote */
      , (2315,  25,         11) /* Level */
-     , (2315,  27,          0) /* ArmorType */
+     , (2315,  27,          0) /* ArmorType - None */
      , (2315,  74, 1074005895) /* MerchandiseItemTypes - Vestements, Weapon, LockableMagicTarget, Useless, PromissoryNote, TinkeringMaterial */
      , (2315,  75,          0) /* MerchandiseMinValue */
      , (2315,  76,    1000000) /* MerchandiseMaxValue */

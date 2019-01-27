@@ -9,7 +9,7 @@ VALUES (22511,   1,         16) /* ItemType - Creature */
      , (22511,   8,        120) /* Mass */
      , (22511,  16,          1) /* ItemUseable - No */
      , (22511,  25,         35) /* Level */
-     , (22511,  27,          0) /* ArmorType */
+     , (22511,  27,          0) /* ArmorType - None */
      , (22511,  68,         13) /* TargetingTactic - Random, LastDamager, TopDamager */
      , (22511,  72,          8) /* FriendType - Tusker */
      , (22511,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */

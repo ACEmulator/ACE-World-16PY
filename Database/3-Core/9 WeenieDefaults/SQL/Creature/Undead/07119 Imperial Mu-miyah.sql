@@ -9,7 +9,7 @@ VALUES (7119,   1,         16) /* ItemType - Creature */
      , (7119,   7,         -1) /* ContainersCapacity */
      , (7119,  16,          1) /* ItemUseable - No */
      , (7119,  25,        105) /* Level */
-     , (7119,  27,          0) /* ArmorType */
+     , (7119,  27,          0) /* ArmorType - None */
      , (7119,  40,          1) /* CombatMode - NonCombat */
      , (7119,  68,          5) /* TargetingTactic - Random, LastDamager */
      , (7119,  72,         14) /* FriendType - Undead */

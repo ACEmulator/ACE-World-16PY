@@ -10,7 +10,7 @@ VALUES (7661,   1,          2) /* ItemType - Armor */
      , (7661,   9,       6656) /* ValidLocations - ChestArmor, UpperArmArmor, LowerArmArmor */
      , (7661,  16,          1) /* ItemUseable - No */
      , (7661,  19,       2610) /* Value */
-     , (7661,  27,          8) /* ArmorType */
+     , (7661,  27,          8) /* ArmorType - Scalemail */
      , (7661,  28,        170) /* ArmorLevel */
      , (7661,  33,          1) /* Bonded - Bonded */
      , (7661,  36,       9999) /* ResistMagic */

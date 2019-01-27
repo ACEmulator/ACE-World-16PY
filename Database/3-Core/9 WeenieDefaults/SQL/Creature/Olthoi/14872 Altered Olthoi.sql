@@ -10,7 +10,7 @@ VALUES (14872,   1,         16) /* ItemType - Creature */
      , (14872,   8,       8000) /* Mass */
      , (14872,  16,          1) /* ItemUseable - No */
      , (14872,  25,         90) /* Level */
-     , (14872,  27,          0) /* ArmorType */
+     , (14872,  27,          0) /* ArmorType - None */
      , (14872,  40,          2) /* CombatMode - Melee */
      , (14872,  68,         13) /* TargetingTactic - Random, LastDamager, TopDamager */
      , (14872,  72,         19) /* FriendType - Virindi */

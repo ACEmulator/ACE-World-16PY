@@ -10,7 +10,7 @@ VALUES (7726,   1,          2) /* ItemType - Armor */
      , (7726,   9,      25600) /* ValidLocations - AbdomenArmor, UpperLegArmor, LowerLegArmor */
      , (7726,  16,          1) /* ItemUseable - No */
      , (7726,  19,       3240) /* Value */
-     , (7726,  27,         32) /* ArmorType */
+     , (7726,  27,         32) /* ArmorType - Metal */
      , (7726,  28,        115) /* ArmorLevel */
      , (7726,  33,          1) /* Bonded - Bonded */
      , (7726,  36,       9999) /* ResistMagic */

@@ -10,7 +10,7 @@ VALUES (12309,   1,          4) /* ItemType - Clothing */
      , (12309,   9,          1) /* ValidLocations - HeadWear */
      , (12309,  16,          1) /* ItemUseable - No */
      , (12309,  19,          5) /* Value */
-     , (12309,  27,          1) /* ArmorType */
+     , (12309,  27,          1) /* ArmorType - Cloth */
      , (12309,  28,          0) /* ArmorLevel */
      , (12309,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (12309, 150,        103) /* HookPlacement - Hook */

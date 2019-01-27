@@ -9,7 +9,7 @@ VALUES (5429,   1,         16) /* ItemType - Creature */
      , (5429,   7,         -1) /* ContainersCapacity */
      , (5429,  16,          1) /* ItemUseable - No */
      , (5429,  25,          2) /* Level */
-     , (5429,  27,          0) /* ArmorType */
+     , (5429,  27,          0) /* ArmorType - None */
      , (5429,  40,          2) /* CombatMode - Melee */
      , (5429,  67,         64) /* Tolerance - Retaliate */
      , (5429,  68,          9) /* TargetingTactic - Random, TopDamager */

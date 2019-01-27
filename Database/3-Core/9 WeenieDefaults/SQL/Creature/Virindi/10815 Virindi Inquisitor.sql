@@ -9,7 +9,7 @@ VALUES (10815,   1,         16) /* ItemType - Creature */
      , (10815,   7,         -1) /* ContainersCapacity */
      , (10815,  16,          1) /* ItemUseable - No */
      , (10815,  25,        105) /* Level */
-     , (10815,  27,          0) /* ArmorType */
+     , (10815,  27,          0) /* ArmorType - None */
      , (10815,  68,          3) /* TargetingTactic - Random, Focused */
      , (10815,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (10815, 133,          2) /* ShowableOnRadar - ShowMovement */

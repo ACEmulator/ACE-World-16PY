@@ -9,7 +9,7 @@ VALUES (5598,   1,         16) /* ItemType - Creature */
      , (5598,   7,         -1) /* ContainersCapacity */
      , (5598,  16,          1) /* ItemUseable - No */
      , (5598,  25,         14) /* Level */
-     , (5598,  27,          0) /* ArmorType */
+     , (5598,  27,          0) /* ArmorType - None */
      , (5598,  40,          2) /* CombatMode - Melee */
      , (5598,  68,          1) /* TargetingTactic - Random */
      , (5598,  93,    2098200) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */

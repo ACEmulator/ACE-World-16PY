@@ -9,7 +9,7 @@ VALUES (12230,   1,         16) /* ItemType - Creature */
      , (12230,   7,         -1) /* ContainersCapacity */
      , (12230,  16,          1) /* ItemUseable - No */
      , (12230,  25,         55) /* Level */
-     , (12230,  27,          0) /* ArmorType */
+     , (12230,  27,          0) /* ArmorType - None */
      , (12230,  40,          1) /* CombatMode - NonCombat */
      , (12230,  68,          3) /* TargetingTactic - Random, Focused */
      , (12230,  81,          4) /* MaxGeneratedObjects */

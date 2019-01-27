@@ -9,7 +9,7 @@ VALUES (7348,   1,         16) /* ItemType - Creature */
      , (7348,   7,         -1) /* ContainersCapacity */
      , (7348,  16,          1) /* ItemUseable - No */
      , (7348,  25,         44) /* Level */
-     , (7348,  27,          0) /* ArmorType */
+     , (7348,  27,          0) /* ArmorType - None */
      , (7348,  40,          1) /* CombatMode - NonCombat */
      , (7348,  68,         13) /* TargetingTactic - Random, LastDamager, TopDamager */
      , (7348,  72,         30) /* FriendType - Skeleton */

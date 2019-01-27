@@ -9,7 +9,7 @@ VALUES (989,   1,         16) /* ItemType - Creature */
      , (989,   8,        120) /* Mass */
      , (989,  16,         32) /* ItemUseable - Remote */
      , (989,  25,         12) /* Level */
-     , (989,  27,          0) /* ArmorType */
+     , (989,  27,          0) /* ArmorType - None */
      , (989,  74,    4481568) /* MerchandiseItemTypes - VendorGrocer */
      , (989,  75,          0) /* MerchandiseMinValue */
      , (989,  76,     100000) /* MerchandiseMaxValue */

@@ -10,7 +10,7 @@ VALUES (121,   1,          4) /* ItemType - Clothing */
      , (121,   9,         32) /* ValidLocations - HandWear */
      , (121,  16,          1) /* ItemUseable - No */
      , (121,  19,         15) /* Value */
-     , (121,  27,          1) /* ArmorType */
+     , (121,  27,          1) /* ArmorType - Cloth */
      , (121,  28,          0) /* ArmorLevel */
      , (121,  44,          0) /* Damage */
      , (121,  45,          4) /* DamageType - Bludgeon */

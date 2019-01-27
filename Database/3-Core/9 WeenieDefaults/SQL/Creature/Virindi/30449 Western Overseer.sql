@@ -9,7 +9,7 @@ VALUES (30449,   1,         16) /* ItemType - Creature */
      , (30449,   7,         -1) /* ContainersCapacity */
      , (30449,  16,          1) /* ItemUseable - No */
      , (30449,  25,        170) /* Level */
-     , (30449,  27,          0) /* ArmorType */
+     , (30449,  27,          0) /* ArmorType - None */
      , (30449,  68,          3) /* TargetingTactic - Random, Focused */
      , (30449,  72,         22) /* FriendType - Shadow */
      , (30449,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */

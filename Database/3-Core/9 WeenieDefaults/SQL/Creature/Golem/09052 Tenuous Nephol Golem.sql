@@ -8,7 +8,7 @@ VALUES (9052,   1,         16) /* ItemType - Creature */
      , (9052,   7,         -1) /* ContainersCapacity */
      , (9052,  16,          1) /* ItemUseable - No */
      , (9052,  25,         40) /* Level */
-     , (9052,  27,          0) /* ArmorType */
+     , (9052,  27,          0) /* ArmorType - None */
      , (9052,  40,          2) /* CombatMode - Melee */
      , (9052,  68,          9) /* TargetingTactic - Random, TopDamager */
      , (9052,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */

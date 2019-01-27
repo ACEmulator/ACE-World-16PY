@@ -9,7 +9,7 @@ VALUES (2046,   1,         16) /* ItemType - Creature */
      , (2046,   8,        120) /* Mass */
      , (2046,  16,         32) /* ItemUseable - Remote */
      , (2046,  25,          6) /* Level */
-     , (2046,  27,          0) /* ArmorType */
+     , (2046,  27,          0) /* ArmorType - None */
      , (2046,  74,      26645) /* MerchandiseItemTypes - MeleeWeapon, Clothing, Creature, Gem, Writable, Key */
      , (2046,  75,          0) /* MerchandiseMinValue */
      , (2046,  76,     100000) /* MerchandiseMaxValue */

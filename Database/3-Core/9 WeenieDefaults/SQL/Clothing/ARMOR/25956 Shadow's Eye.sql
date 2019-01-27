@@ -11,7 +11,7 @@ VALUES (25956,   1,          2) /* ItemType - Armor */
      , (25956,  16,          1) /* ItemUseable - No */
      , (25956,  18,         16) /* UiEffects - BoostStamina */
      , (25956,  19,       2000) /* Value */
-     , (25956,  27,          2) /* ArmorType */
+     , (25956,  27,          2) /* ArmorType - Leather */
      , (25956,  28,        230) /* ArmorLevel */
      , (25956,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (25956, 106,        200) /* ItemSpellcraft */

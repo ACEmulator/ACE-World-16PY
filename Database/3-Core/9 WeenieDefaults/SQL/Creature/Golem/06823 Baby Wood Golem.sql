@@ -8,7 +8,7 @@ VALUES (6823,   1,         16) /* ItemType - Creature */
      , (6823,   7,         -1) /* ContainersCapacity */
      , (6823,  16,          1) /* ItemUseable - No */
      , (6823,  25,        126) /* Level */
-     , (6823,  27,          0) /* ArmorType */
+     , (6823,  27,          0) /* ArmorType - None */
      , (6823,  40,          2) /* CombatMode - Melee */
      , (6823,  67,          1) /* Tolerance - NoAttack */
      , (6823,  68,          3) /* TargetingTactic - Random, Focused */

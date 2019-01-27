@@ -10,7 +10,7 @@ VALUES (6861,   1,         16) /* ItemType - Creature */
      , (6861,   8,        120) /* Mass */
      , (6861,  16,         32) /* ItemUseable - Remote */
      , (6861,  25,         15) /* Level */
-     , (6861,  27,          0) /* ArmorType */
+     , (6861,  27,          0) /* ArmorType - None */
      , (6861,  74,     270336) /* MerchandiseItemTypes - Writable, PromissoryNote */
      , (6861,  75,          0) /* MerchandiseMinValue */
      , (6861,  76,    1000000) /* MerchandiseMaxValue */

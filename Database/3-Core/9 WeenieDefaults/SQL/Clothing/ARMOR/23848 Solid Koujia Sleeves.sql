@@ -11,7 +11,7 @@ VALUES (23848,   1,          2) /* ItemType - Armor */
      , (23848,  16,          1) /* ItemUseable - No */
      , (23848,  18,          1) /* UiEffects - Magical */
      , (23848,  19,       1620) /* Value */
-     , (23848,  27,          2) /* ArmorType */
+     , (23848,  27,          2) /* ArmorType - Leather */
      , (23848,  28,        245) /* ArmorLevel */
      , (23848,  33,          1) /* Bonded - Bonded */
      , (23848,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */

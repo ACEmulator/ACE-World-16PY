@@ -8,7 +8,7 @@ VALUES (8468,   1,         16) /* ItemType - Creature */
      , (8468,   7,         -1) /* ContainersCapacity */
      , (8468,  16,          1) /* ItemUseable - No */
      , (8468,  25,         85) /* Level */
-     , (8468,  27,          0) /* ArmorType */
+     , (8468,  27,          0) /* ArmorType - None */
      , (8468,  40,          2) /* CombatMode - Melee */
      , (8468,  68,         13) /* TargetingTactic - Random, LastDamager, TopDamager */
      , (8468,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */

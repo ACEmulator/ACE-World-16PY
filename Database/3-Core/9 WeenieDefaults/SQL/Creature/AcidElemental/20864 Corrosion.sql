@@ -8,7 +8,7 @@ VALUES (20864,   1,         16) /* ItemType - Creature */
      , (20864,   7,         -1) /* ContainersCapacity */
      , (20864,  16,          1) /* ItemUseable - No */
      , (20864,  25,        161) /* Level */
-     , (20864,  27,          0) /* ArmorType */
+     , (20864,  27,          0) /* ArmorType - None */
      , (20864,  68,          5) /* TargetingTactic - Random, LastDamager */
      , (20864,  93,       3080) /* PhysicsState - ReportCollisions, Gravity, LightingOn */
      , (20864, 101,        183) /* AiAllowedCombatStyle - Unarmed, OneHanded, OneHandedAndShield, Bow, Crossbow, ThrownWeapon */

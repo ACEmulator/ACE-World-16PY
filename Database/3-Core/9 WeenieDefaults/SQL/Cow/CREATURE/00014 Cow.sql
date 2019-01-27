@@ -9,7 +9,7 @@ VALUES (14,   1,         16) /* ItemType - Creature */
      , (14,   7,         -1) /* ContainersCapacity */
      , (14,  16,         32) /* ItemUseable - Remote */
      , (14,  25,          2) /* Level */
-     , (14,  27,          0) /* ArmorType */
+     , (14,  27,          0) /* ArmorType - None */
      , (14,  40,          2) /* CombatMode - Melee */
      , (14,  67,         64) /* Tolerance - Retaliate */
      , (14,  68,          5) /* TargetingTactic - Random, LastDamager */

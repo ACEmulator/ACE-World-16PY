@@ -9,7 +9,7 @@ VALUES (30888,   1,         16) /* ItemType - Creature */
      , (30888,   7,         -1) /* ContainersCapacity */
      , (30888,  16,          1) /* ItemUseable - No */
      , (30888,  25,        161) /* Level */
-     , (30888,  27,          0) /* ArmorType */
+     , (30888,  27,          0) /* ArmorType - None */
      , (30888,  40,          2) /* CombatMode - Melee */
      , (30888,  68,          3) /* TargetingTactic - Random, Focused */
      , (30888,  72,         22) /* FriendType - Shadow */

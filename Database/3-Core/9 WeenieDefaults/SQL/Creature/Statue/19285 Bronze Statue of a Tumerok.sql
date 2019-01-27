@@ -9,7 +9,7 @@ VALUES (19285,   1,         16) /* ItemType - Creature */
      , (19285,   7,         -1) /* ContainersCapacity */
      , (19285,  16,          1) /* ItemUseable - No */
      , (19285,  25,         96) /* Level */
-     , (19285,  27,          0) /* ArmorType */
+     , (19285,  27,          0) /* ArmorType - None */
      , (19285,  68,         13) /* TargetingTactic - Random, LastDamager, TopDamager */
      , (19285,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (19285, 101,        183) /* AiAllowedCombatStyle - Unarmed, OneHanded, OneHandedAndShield, Bow, Crossbow, ThrownWeapon */

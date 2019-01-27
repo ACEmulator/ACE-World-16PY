@@ -8,7 +8,7 @@ VALUES (5766,   1,         16) /* ItemType - Creature */
      , (5766,   7,         -1) /* ContainersCapacity */
      , (5766,  16,          1) /* ItemUseable - No */
      , (5766,  25,         11) /* Level */
-     , (5766,  27,          0) /* ArmorType */
+     , (5766,  27,          0) /* ArmorType - None */
      , (5766,  40,          2) /* CombatMode - Melee */
      , (5766,  67,          2) /* Tolerance - Appraise */
      , (5766,  68,          9) /* TargetingTactic - Random, TopDamager */

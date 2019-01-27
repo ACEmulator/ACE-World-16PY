@@ -9,7 +9,7 @@ VALUES (859,   1,         16) /* ItemType - Creature */
      , (859,   8,        120) /* Mass */
      , (859,  16,         32) /* ItemUseable - Remote */
      , (859,  25,          5) /* Level */
-     , (859,  27,          0) /* ArmorType */
+     , (859,  27,          0) /* ArmorType - None */
      , (859,  74,     262176) /* MerchandiseItemTypes - Food, PromissoryNote */
      , (859,  75,          0) /* MerchandiseMinValue */
      , (859,  76,     100000) /* MerchandiseMaxValue */

@@ -10,7 +10,7 @@ VALUES (8877,   1,          2) /* ItemType - Armor */
      , (8877,   9,       6656) /* ValidLocations - ChestArmor, UpperArmArmor, LowerArmArmor */
      , (8877,  16,          1) /* ItemUseable - No */
      , (8877,  19,       2610) /* Value */
-     , (8877,  27,          8) /* ArmorType */
+     , (8877,  27,          8) /* ArmorType - Scalemail */
      , (8877,  28,         90) /* ArmorLevel */
      , (8877,  33,          1) /* Bonded - Bonded */
      , (8877,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */

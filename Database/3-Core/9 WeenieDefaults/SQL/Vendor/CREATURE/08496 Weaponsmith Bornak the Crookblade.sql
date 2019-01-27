@@ -10,7 +10,7 @@ VALUES (8496,   1,         16) /* ItemType - Creature */
      , (8496,   8,        120) /* Mass */
      , (8496,  16,         32) /* ItemUseable - Remote */
      , (8496,  25,         37) /* Level */
-     , (8496,  27,          0) /* ArmorType */
+     , (8496,  27,          0) /* ArmorType - None */
      , (8496,  74, 1074005927) /* MerchandiseItemTypes - Vestements, Food, Weapon, LockableMagicTarget, Useless, PromissoryNote, TinkeringMaterial */
      , (8496,  75,          0) /* MerchandiseMinValue */
      , (8496,  76,     100000) /* MerchandiseMaxValue */

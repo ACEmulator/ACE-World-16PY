@@ -8,7 +8,7 @@ VALUES (20190,   1,         16) /* ItemType - Creature */
      , (20190,   7,         -1) /* ContainersCapacity */
      , (20190,  16,          1) /* ItemUseable - No */
      , (20190,  25,        115) /* Level */
-     , (20190,  27,          0) /* ArmorType */
+     , (20190,  27,          0) /* ArmorType - None */
      , (20190,  68,          5) /* TargetingTactic - Random, LastDamager */
      , (20190,  81,          2) /* MaxGeneratedObjects */
      , (20190,  82,          2) /* InitGeneratedObjects */

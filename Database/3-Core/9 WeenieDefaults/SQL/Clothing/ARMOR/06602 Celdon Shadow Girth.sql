@@ -10,7 +10,7 @@ VALUES (6602,   1,          2) /* ItemType - Armor */
      , (6602,   9,       1024) /* ValidLocations - AbdomenArmor */
      , (6602,  16,          1) /* ItemUseable - No */
      , (6602,  19,       1610) /* Value */
-     , (6602,  27,         32) /* ArmorType */
+     , (6602,  27,         32) /* ArmorType - Metal */
      , (6602,  28,        150) /* ArmorLevel */
      , (6602,  33,          1) /* Bonded - Bonded */
      , (6602,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;

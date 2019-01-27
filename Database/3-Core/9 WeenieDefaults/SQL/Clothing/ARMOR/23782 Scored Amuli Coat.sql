@@ -11,7 +11,7 @@ VALUES (23782,   1,          2) /* ItemType - Armor */
      , (23782,  16,          1) /* ItemUseable - No */
      , (23782,  18,        256) /* UiEffects - Acid */
      , (23782,  19,       2610) /* Value */
-     , (23782,  27,          8) /* ArmorType */
+     , (23782,  27,          8) /* ArmorType - Scalemail */
      , (23782,  28,        240) /* ArmorLevel */
      , (23782,  33,          1) /* Bonded - Bonded */
      , (23782,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */

@@ -9,7 +9,7 @@ VALUES (661,   1,         16) /* ItemType - Creature */
      , (661,   8,        120) /* Mass */
      , (661,  16,         32) /* ItemUseable - Remote */
      , (661,  25,          7) /* Level */
-     , (661,  27,          0) /* ArmorType */
+     , (661,  27,          0) /* ArmorType - None */
      , (661,  74, 1074005895) /* MerchandiseItemTypes - Vestements, Weapon, LockableMagicTarget, Useless, PromissoryNote, TinkeringMaterial */
      , (661,  75,          0) /* MerchandiseMinValue */
      , (661,  76,      25000) /* MerchandiseMaxValue */

@@ -10,7 +10,7 @@ VALUES (23590,   1,          2) /* ItemType - Armor */
      , (23590,   9,       7680) /* ValidLocations - ChestArmor, AbdomenArmor, UpperArmArmor, LowerArmArmor */
      , (23590,  16,          1) /* ItemUseable - No */
      , (23590,  19,       3500) /* Value */
-     , (23590,  27,          8) /* ArmorType */
+     , (23590,  27,          8) /* ArmorType - Scalemail */
      , (23590,  28,        150) /* ArmorLevel */
      , (23590,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (23590, 106,        150) /* ItemSpellcraft */

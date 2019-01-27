@@ -10,7 +10,7 @@ VALUES (26501,   1,          2) /* ItemType - Armor */
      , (26501,   9,       2560) /* ValidLocations - ChestArmor, UpperArmArmor */
      , (26501,  16,          1) /* ItemUseable - No */
      , (26501,  19,       6000) /* Value */
-     , (26501,  27,          8) /* ArmorType */
+     , (26501,  27,          8) /* ArmorType - Scalemail */
      , (26501,  28,        240) /* ArmorLevel */
      , (26501,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (26501, 106,        275) /* ItemSpellcraft */

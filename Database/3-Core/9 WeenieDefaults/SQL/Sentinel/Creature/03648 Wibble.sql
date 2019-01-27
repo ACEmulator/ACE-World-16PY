@@ -9,7 +9,7 @@ VALUES (3648,   1,         16) /* ItemType - Creature */
      , (3648,   8,        120) /* Mass */
      , (3648,  16,          1) /* ItemUseable - No */
      , (3648,  25,          1) /* Level */
-     , (3648,  27,          0) /* ArmorType */
+     , (3648,  27,          0) /* ArmorType - None */
      , (3648,  30,          0) /* AllegianceRank */
      , (3648,  32,       1597) /* ChannelsActive - Audit, Advocate1, Advocate2, Advocate3, Sentinel, AllBroadcast */
      , (3648,  93,    4195336) /* PhysicsState - ReportCollisions, Gravity, EdgeSlide */

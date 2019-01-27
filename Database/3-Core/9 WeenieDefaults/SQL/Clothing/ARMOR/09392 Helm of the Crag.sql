@@ -10,7 +10,7 @@ VALUES (9392,   1,          2) /* ItemType - Armor */
      , (9392,   9,          1) /* ValidLocations - HeadWear */
      , (9392,  16,          1) /* ItemUseable - No */
      , (9392,  19,       2000) /* Value */
-     , (9392,  27,         32) /* ArmorType */
+     , (9392,  27,         32) /* ArmorType - Metal */
      , (9392,  28,        240) /* ArmorLevel */
      , (9392,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (9392, 150,        103) /* HookPlacement - Hook */

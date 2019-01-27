@@ -10,7 +10,7 @@ VALUES (7689,   1,          2) /* ItemType - Armor */
      , (7689,   9,      25600) /* ValidLocations - AbdomenArmor, UpperLegArmor, LowerLegArmor */
      , (7689,  16,          1) /* ItemUseable - No */
      , (7689,  19,       3040) /* Value */
-     , (7689,  27,          2) /* ArmorType */
+     , (7689,  27,          2) /* ArmorType - Leather */
      , (7689,  28,        150) /* ArmorLevel */
      , (7689,  33,          1) /* Bonded - Bonded */
      , (7689,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;

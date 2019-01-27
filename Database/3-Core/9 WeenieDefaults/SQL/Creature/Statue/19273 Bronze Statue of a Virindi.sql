@@ -9,7 +9,7 @@ VALUES (19273,   1,         16) /* ItemType - Creature */
      , (19273,   7,         -1) /* ContainersCapacity */
      , (19273,  16,          1) /* ItemUseable - No */
      , (19273,  25,        100) /* Level */
-     , (19273,  27,          0) /* ArmorType */
+     , (19273,  27,          0) /* ArmorType - None */
      , (19273,  68,         13) /* TargetingTactic - Random, LastDamager, TopDamager */
      , (19273,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (19273, 133,          2) /* ShowableOnRadar - ShowMovement */

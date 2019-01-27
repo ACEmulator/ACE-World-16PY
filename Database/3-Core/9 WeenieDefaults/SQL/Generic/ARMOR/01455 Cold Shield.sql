@@ -9,7 +9,7 @@ VALUES (1455,   1,          2) /* ItemType - Armor */
      , (1455,  16,          1) /* ItemUseable - No */
      , (1455,  18,        128) /* UiEffects - Frost */
      , (1455,  19,        600) /* Value */
-     , (1455,  27,          2) /* ArmorType */
+     , (1455,  27,          2) /* ArmorType - Leather */
      , (1455,  28,         50) /* ArmorLevel */
      , (1455,  51,          4) /* CombatUse - Shield */
      , (1455,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */

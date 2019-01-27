@@ -10,7 +10,7 @@ VALUES (25841,   1,          2) /* ItemType - Armor */
      , (25841,   9,      24576) /* ValidLocations - UpperLegArmor, LowerLegArmor */
      , (25841,  16,          1) /* ItemUseable - No */
      , (25841,  19,       8750) /* Value */
-     , (25841,  27,          4) /* ArmorType */
+     , (25841,  27,          4) /* ArmorType - StuddedLeather */
      , (25841,  28,        340) /* ArmorLevel */
      , (25841,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (25841, 106,        400) /* ItemSpellcraft */

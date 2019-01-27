@@ -9,7 +9,7 @@ VALUES (2485,   1,         16) /* ItemType - Creature */
      , (2485,   7,         -1) /* ContainersCapacity */
      , (2485,  16,          1) /* ItemUseable - No */
      , (2485,  25,         90) /* Level */
-     , (2485,  27,          0) /* ArmorType */
+     , (2485,  27,          0) /* ArmorType - None */
      , (2485,  68,          5) /* TargetingTactic - Random, LastDamager */
      , (2485,  72,         19) /* FriendType - Virindi */
      , (2485,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */

@@ -9,7 +9,7 @@ VALUES (10950,   1,         16) /* ItemType - Creature */
      , (10950,   7,         -1) /* ContainersCapacity */
      , (10950,  16,          1) /* ItemUseable - No */
      , (10950,  25,         85) /* Level */
-     , (10950,  27,          0) /* ArmorType */
+     , (10950,  27,          0) /* ArmorType - None */
      , (10950,  67,         64) /* Tolerance - Retaliate */
      , (10950,  68,          5) /* TargetingTactic - Random, LastDamager */
      , (10950,  81,          4) /* MaxGeneratedObjects */

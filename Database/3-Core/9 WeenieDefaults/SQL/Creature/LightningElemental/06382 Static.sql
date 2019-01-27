@@ -8,7 +8,7 @@ VALUES (6382,   1,         16) /* ItemType - Creature */
      , (6382,   7,         -1) /* ContainersCapacity */
      , (6382,  16,          1) /* ItemUseable - No */
      , (6382,  25,          4) /* Level */
-     , (6382,  27,          0) /* ArmorType */
+     , (6382,  27,          0) /* ArmorType - None */
      , (6382,  67,         64) /* Tolerance - Retaliate */
      , (6382,  68,          5) /* TargetingTactic - Random, LastDamager */
      , (6382,  93,       3080) /* PhysicsState - ReportCollisions, Gravity, LightingOn */

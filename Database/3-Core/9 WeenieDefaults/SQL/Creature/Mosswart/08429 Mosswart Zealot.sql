@@ -9,7 +9,7 @@ VALUES (8429,   1,         16) /* ItemType - Creature */
      , (8429,   7,         -1) /* ContainersCapacity */
      , (8429,  16,          1) /* ItemUseable - No */
      , (8429,  25,         44) /* Level */
-     , (8429,  27,          0) /* ArmorType */
+     , (8429,  27,          0) /* ArmorType - None */
      , (8429,  40,          2) /* CombatMode - Melee */
      , (8429,  68,         13) /* TargetingTactic - Random, LastDamager, TopDamager */
      , (8429,  72,         50) /* FriendType - Idol */

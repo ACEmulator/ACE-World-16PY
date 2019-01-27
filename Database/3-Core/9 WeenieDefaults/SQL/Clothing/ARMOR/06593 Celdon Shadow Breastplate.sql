@@ -10,7 +10,7 @@ VALUES (6593,   1,          2) /* ItemType - Armor */
      , (6593,   9,        512) /* ValidLocations - ChestArmor */
      , (6593,  16,          1) /* ItemUseable - No */
      , (6593,  19,       2680) /* Value */
-     , (6593,  27,         32) /* ArmorType */
+     , (6593,  27,         32) /* ArmorType - Metal */
      , (6593,  28,        150) /* ArmorLevel */
      , (6593,  33,          1) /* Bonded - Bonded */
      , (6593,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;

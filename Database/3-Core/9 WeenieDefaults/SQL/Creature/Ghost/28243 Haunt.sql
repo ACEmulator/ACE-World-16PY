@@ -9,7 +9,7 @@ VALUES (28243,   1,         16) /* ItemType - Creature */
      , (28243,   7,         -1) /* ContainersCapacity */
      , (28243,  16,          1) /* ItemUseable - No */
      , (28243,  25,        105) /* Level */
-     , (28243,  27,          0) /* ArmorType */
+     , (28243,  27,          0) /* ArmorType - None */
      , (28243,  68,          3) /* TargetingTactic - Random, Focused */
      , (28243,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (28243, 133,          2) /* ShowableOnRadar - ShowMovement */

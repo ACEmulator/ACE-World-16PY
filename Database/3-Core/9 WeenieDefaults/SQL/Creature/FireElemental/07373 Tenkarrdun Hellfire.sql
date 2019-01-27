@@ -8,7 +8,7 @@ VALUES (7373,   1,         16) /* ItemType - Creature */
      , (7373,   7,         -1) /* ContainersCapacity */
      , (7373,  16,          1) /* ItemUseable - No */
      , (7373,  25,         95) /* Level */
-     , (7373,  27,          0) /* ArmorType */
+     , (7373,  27,          0) /* ArmorType - None */
      , (7373,  68,          5) /* TargetingTactic - Random, LastDamager */
      , (7373,  93,       3080) /* PhysicsState - ReportCollisions, Gravity, LightingOn */
      , (7373, 101,        183) /* AiAllowedCombatStyle - Unarmed, OneHanded, OneHandedAndShield, Bow, Crossbow, ThrownWeapon */

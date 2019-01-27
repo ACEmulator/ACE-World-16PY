@@ -10,7 +10,7 @@ VALUES (8423,   1,         16) /* ItemType - Creature */
      , (8423,   8,         90) /* Mass */
      , (8423,  16,          1) /* ItemUseable - No */
      , (8423,  25,          4) /* Level */
-     , (8423,  27,          0) /* ArmorType */
+     , (8423,  27,          0) /* ArmorType - None */
      , (8423,  67,          2) /* Tolerance - Appraise */
      , (8423,  68,          9) /* TargetingTactic - Random, TopDamager */
      , (8423,  93,    4195336) /* PhysicsState - ReportCollisions, Gravity, EdgeSlide */

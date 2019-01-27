@@ -9,7 +9,7 @@ VALUES (204,   1,         16) /* ItemType - Creature */
      , (204,   7,         -1) /* ContainersCapacity */
      , (204,  16,          1) /* ItemUseable - No */
      , (204,  25,         21) /* Level */
-     , (204,  27,          0) /* ArmorType */
+     , (204,  27,          0) /* ArmorType - None */
      , (204,  40,          1) /* CombatMode - NonCombat */
      , (204,  68,          3) /* TargetingTactic - Random, Focused */
      , (204,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */

@@ -9,7 +9,7 @@ VALUES (19279,   1,         16) /* ItemType - Creature */
      , (19279,   7,         -1) /* ContainersCapacity */
      , (19279,  16,          1) /* ItemUseable - No */
      , (19279,  25,        111) /* Level */
-     , (19279,  27,          0) /* ArmorType */
+     , (19279,  27,          0) /* ArmorType - None */
      , (19279,  40,          2) /* CombatMode - Melee */
      , (19279,  68,         13) /* TargetingTactic - Random, LastDamager, TopDamager */
      , (19279,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */

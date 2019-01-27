@@ -9,7 +9,7 @@ VALUES (8128,   1,         16) /* ItemType - Creature */
      , (8128,   7,         -1) /* ContainersCapacity */
      , (8128,  16,          1) /* ItemUseable - No */
      , (8128,  25,      10497) /* Level */
-     , (8128,  27,          0) /* ArmorType */
+     , (8128,  27,          0) /* ArmorType - None */
      , (8128,  40,          2) /* CombatMode - Melee */
      , (8128,  72,         12) /* FriendType - Cow */
      , (8128,  93,    2098184) /* PhysicsState - ReportCollisions, Gravity, ReportCollisionsAsEnvironment */

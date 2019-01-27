@@ -10,7 +10,7 @@ VALUES (6635,   1,         16) /* ItemType - Creature */
      , (6635,   8,       8000) /* Mass */
      , (6635,  16,          1) /* ItemUseable - No */
      , (6635,  25,         24) /* Level */
-     , (6635,  27,          0) /* ArmorType */
+     , (6635,  27,          0) /* ArmorType - None */
      , (6635,  40,          2) /* CombatMode - Melee */
      , (6635,  68,         13) /* TargetingTactic - Random, LastDamager, TopDamager */
      , (6635,  93,    4195336) /* PhysicsState - ReportCollisions, Gravity, EdgeSlide */

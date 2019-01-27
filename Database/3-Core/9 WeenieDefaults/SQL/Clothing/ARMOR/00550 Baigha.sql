@@ -10,7 +10,7 @@ VALUES (550,   1,          2) /* ItemType - Armor */
      , (550,   9,          1) /* ValidLocations - HeadWear */
      , (550,  16,          1) /* ItemUseable - No */
      , (550,  19,        653) /* Value */
-     , (550,  27,         32) /* ArmorType */
+     , (550,  27,         32) /* ArmorType - Metal */
      , (550,  28,        100) /* ArmorLevel */
      , (550,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (550, 150,        103) /* HookPlacement - Hook */

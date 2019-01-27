@@ -9,7 +9,7 @@ VALUES (19426,   1,         16) /* ItemType - Creature */
      , (19426,   7,         -1) /* ContainersCapacity */
      , (19426,  16,          1) /* ItemUseable - No */
      , (19426,  25,        200) /* Level */
-     , (19426,  27,          0) /* ArmorType */
+     , (19426,  27,          0) /* ArmorType - None */
      , (19426,  40,          2) /* CombatMode - Melee */
      , (19426,  68,          3) /* TargetingTactic - Random, Focused */
      , (19426,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */

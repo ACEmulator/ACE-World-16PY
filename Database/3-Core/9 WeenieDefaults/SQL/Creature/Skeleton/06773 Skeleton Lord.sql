@@ -8,7 +8,7 @@ VALUES (6773,   1,         16) /* ItemType - Creature */
      , (6773,   7,         -1) /* ContainersCapacity */
      , (6773,  16,          1) /* ItemUseable - No */
      , (6773,  25,         45) /* Level */
-     , (6773,  27,          0) /* ArmorType */
+     , (6773,  27,          0) /* ArmorType - None */
      , (6773,  40,          1) /* CombatMode - NonCombat */
      , (6773,  68,          5) /* TargetingTactic - Random, LastDamager */
      , (6773,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */

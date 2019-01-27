@@ -8,7 +8,7 @@ VALUES (7371,   1,         16) /* ItemType - Creature */
      , (7371,   7,         -1) /* ContainersCapacity */
      , (7371,  16,          1) /* ItemUseable - No */
      , (7371,  25,         95) /* Level */
-     , (7371,  27,          0) /* ArmorType */
+     , (7371,  27,          0) /* ArmorType - None */
      , (7371,  68,          5) /* TargetingTactic - Random, LastDamager */
      , (7371,  93,       3080) /* PhysicsState - ReportCollisions, Gravity, LightingOn */
      , (7371, 101,        183) /* AiAllowedCombatStyle - Unarmed, OneHanded, OneHandedAndShield, Bow, Crossbow, ThrownWeapon */

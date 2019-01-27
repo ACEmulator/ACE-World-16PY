@@ -9,7 +9,7 @@ VALUES (5833,   1,         16) /* ItemType - Creature */
      , (5833,   8,        120) /* Mass */
      , (5833,  16,         32) /* ItemUseable - Remote */
      , (5833,  25,         10) /* Level */
-     , (5833,  27,          0) /* ArmorType */
+     , (5833,  27,          0) /* ArmorType - None */
      , (5833,  74, 1073743623) /* MerchandiseItemTypes - Vestements, Weapon, Container, Useless, TinkeringMaterial */
      , (5833,  75,          0) /* MerchandiseMinValue */
      , (5833,  76,     100000) /* MerchandiseMaxValue */

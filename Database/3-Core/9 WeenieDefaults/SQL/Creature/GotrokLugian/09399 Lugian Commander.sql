@@ -10,7 +10,7 @@ VALUES (9399,   1,         16) /* ItemType - Creature */
      , (9399,   8,       8000) /* Mass */
      , (9399,  16,          1) /* ItemUseable - No */
      , (9399,  25,         79) /* Level */
-     , (9399,  27,          0) /* ArmorType */
+     , (9399,  27,          0) /* ArmorType - None */
      , (9399,  40,          2) /* CombatMode - Melee */
      , (9399,  68,         13) /* TargetingTactic - Random, LastDamager, TopDamager */
      , (9399,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */

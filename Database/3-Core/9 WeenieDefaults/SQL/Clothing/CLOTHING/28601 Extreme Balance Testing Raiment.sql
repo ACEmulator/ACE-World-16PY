@@ -10,7 +10,7 @@ VALUES (28601,   1,          4) /* ItemType - Clothing */
      , (28601,   9,        222) /* ValidLocations - ChestWear, AbdomenWear, UpperArmWear, LowerArmWear, UpperLegWear, LowerLegWear */
      , (28601,  16,          1) /* ItemUseable - No */
      , (28601,  19,          0) /* Value */
-     , (28601,  27,          1) /* ArmorType */
+     , (28601,  27,          1) /* ArmorType - Cloth */
      , (28601,  28,          0) /* ArmorLevel */
      , (28601,  33,          1) /* Bonded - Bonded */
      , (28601,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */

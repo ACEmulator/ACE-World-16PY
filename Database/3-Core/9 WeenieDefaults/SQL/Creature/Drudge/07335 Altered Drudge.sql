@@ -9,7 +9,7 @@ VALUES (7335,   1,         16) /* ItemType - Creature */
      , (7335,   7,         -1) /* ContainersCapacity */
      , (7335,  16,          1) /* ItemUseable - No */
      , (7335,  25,         85) /* Level */
-     , (7335,  27,          0) /* ArmorType */
+     , (7335,  27,          0) /* ArmorType - None */
      , (7335,  40,          2) /* CombatMode - Melee */
      , (7335,  68,          9) /* TargetingTactic - Random, TopDamager */
      , (7335,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */

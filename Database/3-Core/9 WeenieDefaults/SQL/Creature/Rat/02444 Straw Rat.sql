@@ -9,7 +9,7 @@ VALUES (2444,   1,         16) /* ItemType - Creature */
      , (2444,   7,         -1) /* ContainersCapacity */
      , (2444,  16,          1) /* ItemUseable - No */
      , (2444,  25,          1) /* Level */
-     , (2444,  27,          0) /* ArmorType */
+     , (2444,  27,          0) /* ArmorType - None */
      , (2444,  40,          2) /* CombatMode - Melee */
      , (2444,  67,          1) /* Tolerance - NoAttack */
      , (2444,  68,          9) /* TargetingTactic - Random, TopDamager */

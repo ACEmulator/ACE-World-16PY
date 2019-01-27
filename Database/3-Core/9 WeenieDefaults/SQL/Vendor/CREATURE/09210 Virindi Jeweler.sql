@@ -9,7 +9,7 @@ VALUES (9210,   1,         16) /* ItemType - Creature */
      , (9210,   8,        120) /* Mass */
      , (9210,  16,         32) /* ItemUseable - Remote */
      , (9210,  25,         45) /* Level */
-     , (9210,  27,          0) /* ArmorType */
+     , (9210,  27,          0) /* ArmorType - None */
      , (9210,  74,     280712) /* MerchandiseItemTypes - Jewelry, Misc, Gem, Key, PromissoryNote */
      , (9210,  75,          0) /* MerchandiseMinValue */
      , (9210,  76,     100000) /* MerchandiseMaxValue */

@@ -10,7 +10,7 @@ VALUES (8396,   1,          2) /* ItemType - Armor */
      , (8396,   9,          1) /* ValidLocations - HeadWear */
      , (8396,  16,          1) /* ItemUseable - No */
      , (8396,  19,       1185) /* Value */
-     , (8396,  27,         32) /* ArmorType */
+     , (8396,  27,         32) /* ArmorType - Metal */
      , (8396,  28,        150) /* ArmorLevel */
      , (8396,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (8396, 150,        103) /* HookPlacement - Hook */

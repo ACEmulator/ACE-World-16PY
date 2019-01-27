@@ -10,7 +10,7 @@ VALUES (8031,   1,          2) /* ItemType - Armor */
      , (8031,  16,          1) /* ItemUseable - No */
      , (8031,  18,          1) /* UiEffects - Magical */
      , (8031,  19,       2000) /* Value */
-     , (8031,  27,          2) /* ArmorType */
+     , (8031,  27,          2) /* ArmorType - Leather */
      , (8031,  28,        150) /* ArmorLevel */
      , (8031,  33,          1) /* Bonded - Bonded */
      , (8031,  36,       9999) /* ResistMagic */

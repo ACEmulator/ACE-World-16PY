@@ -9,7 +9,7 @@ VALUES (30687,   1,         16) /* ItemType - Creature */
      , (30687,   7,         -1) /* ContainersCapacity */
      , (30687,  16,          1) /* ItemUseable - No */
      , (30687,  25,        161) /* Level */
-     , (30687,  27,          0) /* ArmorType */
+     , (30687,  27,          0) /* ArmorType - None */
      , (30687,  68,          5) /* TargetingTactic - Random, LastDamager */
      , (30687,  72,          6) /* FriendType - Tumerok */
      , (30687,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */

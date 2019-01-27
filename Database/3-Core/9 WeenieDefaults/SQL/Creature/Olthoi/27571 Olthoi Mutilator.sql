@@ -10,7 +10,7 @@ VALUES (27571,   1,         16) /* ItemType - Creature */
      , (27571,   8,       8000) /* Mass */
      , (27571,  16,          1) /* ItemUseable - No */
      , (27571,  25,        120) /* Level */
-     , (27571,  27,          0) /* ArmorType */
+     , (27571,  27,          0) /* ArmorType - None */
      , (27571,  40,          2) /* CombatMode - Melee */
      , (27571,  68,         13) /* TargetingTactic - Random, LastDamager, TopDamager */
      , (27571,  72,         35) /* FriendType - OlthoiLarvae */

@@ -10,7 +10,7 @@ VALUES (28852,   1,          2) /* ItemType - Armor */
      , (28852,   9,         32) /* ValidLocations - HandWear */
      , (28852,  16,          1) /* ItemUseable - No */
      , (28852,  19,      21000) /* Value */
-     , (28852,  27,         16) /* ArmorType */
+     , (28852,  27,         16) /* ArmorType - Chainmail */
      , (28852,  28,        400) /* ArmorLevel */
      , (28852,  44,          2) /* Damage */
      , (28852,  45,          4) /* DamageType - Bludgeon */

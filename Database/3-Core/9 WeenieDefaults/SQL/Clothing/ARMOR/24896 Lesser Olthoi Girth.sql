@@ -10,7 +10,7 @@ VALUES (24896,   1,          2) /* ItemType - Armor */
      , (24896,   9,       1024) /* ValidLocations - AbdomenArmor */
      , (24896,  16,          1) /* ItemUseable - No */
      , (24896,  19,       3000) /* Value */
-     , (24896,  27,         32) /* ArmorType */
+     , (24896,  27,         32) /* ArmorType - Metal */
      , (24896,  28,        300) /* ArmorLevel */
      , (24896,  36,       9999) /* ResistMagic */
      , (24896,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */

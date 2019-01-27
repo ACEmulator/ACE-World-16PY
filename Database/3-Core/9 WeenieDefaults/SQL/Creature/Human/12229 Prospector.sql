@@ -9,7 +9,7 @@ VALUES (12229,   1,         16) /* ItemType - Creature */
      , (12229,   8,        120) /* Mass */
      , (12229,  16,          1) /* ItemUseable - No */
      , (12229,  25,         18) /* Level */
-     , (12229,  27,          0) /* ArmorType */
+     , (12229,  27,          0) /* ArmorType - None */
      , (12229,  68,         13) /* TargetingTactic - Random, LastDamager, TopDamager */
      , (12229,  81,          2) /* MaxGeneratedObjects */
      , (12229,  82,          3) /* InitGeneratedObjects */

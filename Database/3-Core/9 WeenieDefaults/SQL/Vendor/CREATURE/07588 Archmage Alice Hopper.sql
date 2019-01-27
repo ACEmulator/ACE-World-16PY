@@ -9,7 +9,7 @@ VALUES (7588,   1,         16) /* ItemType - Creature */
      , (7588,   8,        120) /* Mass */
      , (7588,  16,         32) /* ItemUseable - Remote */
      , (7588,  25,         44) /* Level */
-     , (7588,  27,          0) /* ArmorType */
+     , (7588,  27,          0) /* ArmorType - None */
      , (7588,  74,     831488) /* MerchandiseItemTypes - SpellComponents, Writable, Caster, PromissoryNote, ManaStone */
      , (7588,  75,          0) /* MerchandiseMinValue */
      , (7588,  76,     100000) /* MerchandiseMaxValue */

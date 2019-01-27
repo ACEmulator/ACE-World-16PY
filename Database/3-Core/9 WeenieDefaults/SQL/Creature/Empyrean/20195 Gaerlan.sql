@@ -10,7 +10,7 @@ VALUES (20195,   1,         16) /* ItemType - Creature */
      , (20195,   8,        120) /* Mass */
      , (20195,  16,          1) /* ItemUseable - No */
      , (20195,  25,        710) /* Level */
-     , (20195,  27,          0) /* ArmorType */
+     , (20195,  27,          0) /* ArmorType - None */
      , (20195,  67,         64) /* Tolerance - Retaliate */
      , (20195,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (20195, 101,        131) /* AiAllowedCombatStyle - Unarmed, OneHanded, ThrownWeapon */

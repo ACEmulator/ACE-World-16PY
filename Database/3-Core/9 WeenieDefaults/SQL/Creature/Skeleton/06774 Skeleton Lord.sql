@@ -8,7 +8,7 @@ VALUES (6774,   1,         16) /* ItemType - Creature */
      , (6774,   7,         -1) /* ContainersCapacity */
      , (6774,  16,          1) /* ItemUseable - No */
      , (6774,  25,         45) /* Level */
-     , (6774,  27,          0) /* ArmorType */
+     , (6774,  27,          0) /* ArmorType - None */
      , (6774,  40,          1) /* CombatMode - NonCombat */
      , (6774,  68,          5) /* TargetingTactic - Random, LastDamager */
      , (6774,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */

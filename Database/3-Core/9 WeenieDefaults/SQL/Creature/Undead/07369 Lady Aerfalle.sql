@@ -9,7 +9,7 @@ VALUES (7369,   1,         16) /* ItemType - Creature */
      , (7369,   7,         -1) /* ContainersCapacity */
      , (7369,  16,          1) /* ItemUseable - No */
      , (7369,  25,         95) /* Level */
-     , (7369,  27,          0) /* ArmorType */
+     , (7369,  27,          0) /* ArmorType - None */
      , (7369,  40,          1) /* CombatMode - NonCombat */
      , (7369,  68,          3) /* TargetingTactic - Random, Focused */
      , (7369,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */

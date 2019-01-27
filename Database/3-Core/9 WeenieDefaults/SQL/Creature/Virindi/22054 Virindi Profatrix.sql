@@ -9,7 +9,7 @@ VALUES (22054,   1,         16) /* ItemType - Creature */
      , (22054,   7,         -1) /* ContainersCapacity */
      , (22054,  16,          1) /* ItemUseable - No */
      , (22054,  25,        110) /* Level */
-     , (22054,  27,          0) /* ArmorType */
+     , (22054,  27,          0) /* ArmorType - None */
      , (22054,  68,          3) /* TargetingTactic - Random, Focused */
      , (22054,  81,          4) /* MaxGeneratedObjects */
      , (22054,  82,          4) /* InitGeneratedObjects */

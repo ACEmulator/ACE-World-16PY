@@ -9,7 +9,7 @@ VALUES (30389,   1,         16) /* ItemType - Creature */
      , (30389,   7,         -1) /* ContainersCapacity */
      , (30389,  16,         32) /* ItemUseable - Remote */
      , (30389,  25,        276) /* Level */
-     , (30389,  27,          0) /* ArmorType */
+     , (30389,  27,          0) /* ArmorType - None */
      , (30389,  40,          2) /* CombatMode - Melee */
      , (30389,  67,         64) /* Tolerance - Retaliate */
      , (30389,  68,          9) /* TargetingTactic - Random, TopDamager */

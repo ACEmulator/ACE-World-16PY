@@ -10,7 +10,7 @@ VALUES (24630,   1,          2) /* ItemType - Armor */
      , (24630,   9,        256) /* ValidLocations - FootWear */
      , (24630,  16,          1) /* ItemUseable - No */
      , (24630,  19,       5000) /* Value */
-     , (24630,  27,         32) /* ArmorType */
+     , (24630,  27,         32) /* ArmorType - Metal */
      , (24630,  28,        400) /* ArmorLevel */
      , (24630,  36,       9999) /* ResistMagic */
      , (24630,  44,          3) /* Damage */

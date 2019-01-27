@@ -9,7 +9,7 @@ VALUES (1520,   1,         16) /* ItemType - Creature */
      , (1520,   7,         -1) /* ContainersCapacity */
      , (1520,  16,          1) /* ItemUseable - No */
      , (1520,  25,         10) /* Level */
-     , (1520,  27,          0) /* ArmorType */
+     , (1520,  27,          0) /* ArmorType - None */
      , (1520,  40,          2) /* CombatMode - Melee */
      , (1520,  68,         15) /* TargetingTactic - Random, Focused, LastDamager, TopDamager */
      , (1520,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */

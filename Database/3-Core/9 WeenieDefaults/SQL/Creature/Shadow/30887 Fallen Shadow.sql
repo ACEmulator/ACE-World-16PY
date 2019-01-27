@@ -10,7 +10,7 @@ VALUES (30887,   1,         16) /* ItemType - Creature */
      , (30887,   8,         90) /* Mass */
      , (30887,  16,          1) /* ItemUseable - No */
      , (30887,  25,        161) /* Level */
-     , (30887,  27,          0) /* ArmorType */
+     , (30887,  27,          0) /* ArmorType - None */
      , (30887,  68,          3) /* TargetingTactic - Random, Focused */
      , (30887,  72,         44) /* FriendType - Grievver */
      , (30887,  93,    4195336) /* PhysicsState - ReportCollisions, Gravity, EdgeSlide */

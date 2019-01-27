@@ -10,7 +10,7 @@ VALUES (8818,   1,         16) /* ItemType - Creature */
      , (8818,   8,         90) /* Mass */
      , (8818,  16,          1) /* ItemUseable - No */
      , (8818,  25,        115) /* Level */
-     , (8818,  27,          0) /* ArmorType */
+     , (8818,  27,          0) /* ArmorType - None */
      , (8818,  68,          3) /* TargetingTactic - Random, Focused */
      , (8818,  93,    4195336) /* PhysicsState - ReportCollisions, Gravity, EdgeSlide */
      , (8818, 101,        183) /* AiAllowedCombatStyle - Unarmed, OneHanded, OneHandedAndShield, Bow, Crossbow, ThrownWeapon */

@@ -9,7 +9,7 @@ VALUES (27077,   1,         16) /* ItemType - Creature */
      , (27077,   8,        120) /* Mass */
      , (27077,  16,         32) /* ItemUseable - Remote */
      , (27077,  25,         10) /* Level */
-     , (27077,  27,          0) /* ArmorType */
+     , (27077,  27,          0) /* ArmorType - None */
      , (27077,  74,     264192) /* MerchandiseItemTypes - Gem, PromissoryNote */
      , (27077,  75,          0) /* MerchandiseMinValue */
      , (27077,  76,    1000000) /* MerchandiseMaxValue */

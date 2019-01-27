@@ -10,7 +10,7 @@ VALUES (12019,   1,          4) /* ItemType - Clothing */
      , (12019,   9,      32513) /* ValidLocations - HeadWear, Armor */
      , (12019,  16,          1) /* ItemUseable - No */
      , (12019,  19,       6000) /* Value */
-     , (12019,  27,          1) /* ArmorType */
+     , (12019,  27,          1) /* ArmorType - Cloth */
      , (12019,  28,          0) /* ArmorLevel */
      , (12019,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (12019, 150,        103) /* HookPlacement - Hook */

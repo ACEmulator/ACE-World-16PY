@@ -10,7 +10,7 @@ VALUES (22136,   1,          4) /* ItemType - Clothing */
      , (22136,   9,         30) /* ValidLocations - ChestWear, AbdomenWear, UpperArmWear, LowerArmWear */
      , (22136,  16,          1) /* ItemUseable - No */
      , (22136,  19,         15) /* Value */
-     , (22136,  27,          1) /* ArmorType */
+     , (22136,  27,          1) /* ArmorType - Cloth */
      , (22136,  28,          0) /* ArmorLevel */
      , (22136,  33,          1) /* Bonded - Bonded */
      , (22136,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */

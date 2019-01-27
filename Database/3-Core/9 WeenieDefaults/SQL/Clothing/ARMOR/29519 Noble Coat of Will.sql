@@ -10,7 +10,7 @@ VALUES (29519,   1,          2) /* ItemType - Armor */
      , (29519,   9,       6656) /* ValidLocations - ChestArmor, UpperArmArmor, LowerArmArmor */
      , (29519,  16,          1) /* ItemUseable - No */
      , (29519,  19,       8000) /* Value */
-     , (29519,  27,          2) /* ArmorType */
+     , (29519,  27,          2) /* ArmorType - Leather */
      , (29519,  28,        400) /* ArmorLevel */
      , (29519,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (29519, 106,        400) /* ItemSpellcraft */

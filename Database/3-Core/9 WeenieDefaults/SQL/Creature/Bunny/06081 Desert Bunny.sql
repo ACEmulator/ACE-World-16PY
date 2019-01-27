@@ -9,7 +9,7 @@ VALUES (6081,   1,         16) /* ItemType - Creature */
      , (6081,   7,         -1) /* ContainersCapacity */
      , (6081,  16,          1) /* ItemUseable - No */
      , (6081,  25,          2) /* Level */
-     , (6081,  27,          0) /* ArmorType */
+     , (6081,  27,          0) /* ArmorType - None */
      , (6081,  40,          2) /* CombatMode - Melee */
      , (6081,  67,         64) /* Tolerance - Retaliate */
      , (6081,  68,          9) /* TargetingTactic - Random, TopDamager */

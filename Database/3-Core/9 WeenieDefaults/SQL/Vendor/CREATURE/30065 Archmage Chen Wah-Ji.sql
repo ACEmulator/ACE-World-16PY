@@ -9,7 +9,7 @@ VALUES (30065,   1,         16) /* ItemType - Creature */
      , (30065,   8,        120) /* Mass */
      , (30065,  16,         32) /* ItemUseable - Remote */
      , (30065,  25,          7) /* Level */
-     , (30065,  27,          0) /* ArmorType */
+     , (30065,  27,          0) /* ArmorType - None */
      , (30065,  74,     831488) /* MerchandiseItemTypes - SpellComponents, Writable, Caster, PromissoryNote, ManaStone */
      , (30065,  75,          0) /* MerchandiseMinValue */
      , (30065,  76,      25000) /* MerchandiseMaxValue */

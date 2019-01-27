@@ -8,7 +8,7 @@ VALUES (28389,   1,         16) /* ItemType - Creature */
      , (28389,   7,         -1) /* ContainersCapacity */
      , (28389,  16,          1) /* ItemUseable - No */
      , (28389,  25,        999) /* Level */
-     , (28389,  27,          0) /* ArmorType */
+     , (28389,  27,          0) /* ArmorType - None */
      , (28389,  40,          1) /* CombatMode - NonCombat */
      , (28389,  67,          1) /* Tolerance - NoAttack */
      , (28389,  68,          5) /* TargetingTactic - Random, LastDamager */

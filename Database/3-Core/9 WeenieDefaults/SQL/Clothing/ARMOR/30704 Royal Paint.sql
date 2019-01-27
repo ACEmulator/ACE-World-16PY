@@ -10,7 +10,7 @@ VALUES (30704,   1,          2) /* ItemType - Armor */
      , (30704,   9,       6144) /* ValidLocations - UpperArmArmor, LowerArmArmor */
      , (30704,  16,          1) /* ItemUseable - No */
      , (30704,  19,       1500) /* Value */
-     , (30704,  27,          2) /* ArmorType */
+     , (30704,  27,          2) /* ArmorType - Leather */
      , (30704,  28,        210) /* ArmorLevel */
      , (30704,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (30704, 106,        250) /* ItemSpellcraft */

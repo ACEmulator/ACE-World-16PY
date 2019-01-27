@@ -10,7 +10,7 @@ VALUES (14423,   1,          2) /* ItemType - Armor */
      , (14423,   9,          0) /* ValidLocations - None */
      , (14423,  16,          1) /* ItemUseable - No */
      , (14423,  19,          0) /* Value */
-     , (14423,  27,          1) /* ArmorType */
+     , (14423,  27,          1) /* ArmorType - Cloth */
      , (14423,  28,         40) /* ArmorLevel */
      , (14423,  33,          1) /* Bonded - Bonded */
      , (14423,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */

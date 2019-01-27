@@ -9,7 +9,7 @@ VALUES (8273,   1,         16) /* ItemType - Creature */
      , (8273,   7,         -1) /* ContainersCapacity */
      , (8273,  16,          1) /* ItemUseable - No */
      , (8273,  25,         12) /* Level */
-     , (8273,  27,          0) /* ArmorType */
+     , (8273,  27,          0) /* ArmorType - None */
      , (8273,  40,          2) /* CombatMode - Melee */
      , (8273,  67,          2) /* Tolerance - Appraise */
      , (8273,  68,          3) /* TargetingTactic - Random, Focused */

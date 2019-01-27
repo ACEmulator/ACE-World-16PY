@@ -10,7 +10,7 @@ VALUES (5,   1,         16) /* ItemType - Creature */
      , (5,   8,       8000) /* Mass */
      , (5,  16,          1) /* ItemUseable - No */
      , (5,  25,         18) /* Level */
-     , (5,  27,          0) /* ArmorType */
+     , (5,  27,          0) /* ArmorType - None */
      , (5,  40,          2) /* CombatMode - Melee */
      , (5,  67,         64) /* Tolerance - Retaliate */
      , (5,  68,         13) /* TargetingTactic - Random, LastDamager, TopDamager */

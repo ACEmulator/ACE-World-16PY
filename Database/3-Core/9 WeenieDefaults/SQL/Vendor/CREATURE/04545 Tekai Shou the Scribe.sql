@@ -9,7 +9,7 @@ VALUES (4545,   1,         16) /* ItemType - Creature */
      , (4545,   8,        120) /* Mass */
      , (4545,  16,         32) /* ItemUseable - Remote */
      , (4545,  25,          9) /* Level */
-     , (4545,  27,          0) /* ArmorType */
+     , (4545,  27,          0) /* ArmorType - None */
      , (4545,  74,     270336) /* MerchandiseItemTypes - Writable, PromissoryNote */
      , (4545,  75,          0) /* MerchandiseMinValue */
      , (4545,  76,     100000) /* MerchandiseMaxValue */

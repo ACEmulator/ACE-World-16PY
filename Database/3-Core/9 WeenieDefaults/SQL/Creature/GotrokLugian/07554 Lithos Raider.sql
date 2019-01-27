@@ -10,7 +10,7 @@ VALUES (7554,   1,         16) /* ItemType - Creature */
      , (7554,   8,       8000) /* Mass */
      , (7554,  16,          1) /* ItemUseable - No */
      , (7554,  25,         53) /* Level */
-     , (7554,  27,          0) /* ArmorType */
+     , (7554,  27,          0) /* ArmorType - None */
      , (7554,  40,          2) /* CombatMode - Melee */
      , (7554,  68,         13) /* TargetingTactic - Random, LastDamager, TopDamager */
      , (7554,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */

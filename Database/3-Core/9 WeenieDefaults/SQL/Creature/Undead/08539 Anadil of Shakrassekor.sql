@@ -9,7 +9,7 @@ VALUES (8539,   1,         16) /* ItemType - Creature */
      , (8539,   7,         -1) /* ContainersCapacity */
      , (8539,  16,          1) /* ItemUseable - No */
      , (8539,  25,        516) /* Level */
-     , (8539,  27,          0) /* ArmorType */
+     , (8539,  27,          0) /* ArmorType - None */
      , (8539,  40,          1) /* CombatMode - NonCombat */
      , (8539,  68,          5) /* TargetingTactic - Random, LastDamager */
      , (8539,  72,         14) /* FriendType - Undead */

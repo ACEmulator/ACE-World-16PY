@@ -9,7 +9,7 @@ VALUES (5752,   1,         16) /* ItemType - Creature */
      , (5752,   8,       8000) /* Mass */
      , (5752,  16,          1) /* ItemUseable - No */
      , (5752,  25,         79) /* Level */
-     , (5752,  27,          0) /* ArmorType */
+     , (5752,  27,          0) /* ArmorType - None */
      , (5752,  40,          2) /* CombatMode - Melee */
      , (5752,  68,         15) /* TargetingTactic - Random, Focused, LastDamager, TopDamager */
      , (5752,  72,         35) /* FriendType - OlthoiLarvae */

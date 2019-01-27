@@ -9,7 +9,7 @@ VALUES (668,   1,         16) /* ItemType - Creature */
      , (668,   8,        120) /* Mass */
      , (668,  16,         32) /* ItemUseable - Remote */
      , (668,  25,          7) /* Level */
-     , (668,  27,          0) /* ArmorType */
+     , (668,  27,          0) /* ArmorType - None */
      , (668,  74, 1074004225) /* MerchandiseItemTypes - Weapon, PromissoryNote, TinkeringMaterial */
      , (668,  75,          0) /* MerchandiseMinValue */
      , (668,  76,      25000) /* MerchandiseMaxValue */

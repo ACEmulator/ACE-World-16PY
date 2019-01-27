@@ -10,7 +10,7 @@ VALUES (25662,   1,         16) /* ItemType - Creature */
      , (25662,   8,         90) /* Mass */
      , (25662,  16,          1) /* ItemUseable - No */
      , (25662,  25,        100) /* Level */
-     , (25662,  27,          0) /* ArmorType */
+     , (25662,  27,          0) /* ArmorType - None */
      , (25662,  68,          3) /* TargetingTactic - Random, Focused */
      , (25662,  93,    4195336) /* PhysicsState - ReportCollisions, Gravity, EdgeSlide */
      , (25662, 101,        183) /* AiAllowedCombatStyle - Unarmed, OneHanded, OneHandedAndShield, Bow, Crossbow, ThrownWeapon */

@@ -10,7 +10,7 @@ VALUES (8028,   1,          2) /* ItemType - Armor */
      , (8028,  16,          1) /* ItemUseable - No */
      , (8028,  18,          1) /* UiEffects - Magical */
      , (8028,  19,       2000) /* Value */
-     , (8028,  27,          2) /* ArmorType */
+     , (8028,  27,          2) /* ArmorType - Leather */
      , (8028,  28,        140) /* ArmorLevel */
      , (8028,  36,       9999) /* ResistMagic */
      , (8028,  51,          4) /* CombatUse - Shield */

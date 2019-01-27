@@ -8,7 +8,7 @@ VALUES (25881,   1,         16) /* ItemType - Creature */
      , (25881,   7,         -1) /* ContainersCapacity */
      , (25881,  16,          1) /* ItemUseable - No */
      , (25881,  25,        135) /* Level */
-     , (25881,  27,          0) /* ArmorType */
+     , (25881,  27,          0) /* ArmorType - None */
      , (25881,  40,          2) /* CombatMode - Melee */
      , (25881,  68,          5) /* TargetingTactic - Random, LastDamager */
      , (25881,  69,          4) /* CombatTactic - LastDamager */

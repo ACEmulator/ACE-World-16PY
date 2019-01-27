@@ -10,7 +10,7 @@ VALUES (27287,   1,         16) /* ItemType - Creature */
      , (27287,   8,         90) /* Mass */
      , (27287,  16,          1) /* ItemUseable - No */
      , (27287,  25,        125) /* Level */
-     , (27287,  27,          0) /* ArmorType */
+     , (27287,  27,          0) /* ArmorType - None */
      , (27287,  68,          3) /* TargetingTactic - Random, Focused */
      , (27287,  72,         71) /* FriendType - Margul */
      , (27287,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */

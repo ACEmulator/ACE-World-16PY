@@ -9,7 +9,7 @@ VALUES (9254,   1,         16) /* ItemType - Creature */
      , (9254,   7,         -1) /* ContainersCapacity */
      , (9254,  16,          1) /* ItemUseable - No */
      , (9254,  25,         53) /* Level */
-     , (9254,  27,          0) /* ArmorType */
+     , (9254,  27,          0) /* ArmorType - None */
      , (9254,  40,          1) /* CombatMode - NonCombat */
      , (9254,  68,          5) /* TargetingTactic - Random, LastDamager */
      , (9254,  72,         14) /* FriendType - Undead */

@@ -10,7 +10,7 @@ VALUES (14836,   1,          2) /* ItemType - Armor */
      , (14836,   9,       1024) /* ValidLocations - AbdomenArmor */
      , (14836,  16,          1) /* ItemUseable - No */
      , (14836,  19,       1610) /* Value */
-     , (14836,  27,         32) /* ArmorType */
+     , (14836,  27,         32) /* ArmorType - Metal */
      , (14836,  28,        210) /* ArmorLevel */
      , (14836,  33,          1) /* Bonded - Bonded */
      , (14836,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */

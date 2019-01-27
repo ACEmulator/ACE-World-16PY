@@ -10,7 +10,7 @@ VALUES (23623,   1,         16) /* ItemType - Creature */
      , (23623,   8,       5000) /* Mass */
      , (23623,  16,         32) /* ItemUseable - Remote */
      , (23623,  25,          7) /* Level */
-     , (23623,  27,          0) /* ArmorType */
+     , (23623,  27,          0) /* ArmorType - None */
      , (23623,  40,          2) /* CombatMode - Melee */
      , (23623,  68,         13) /* TargetingTactic - Random, LastDamager, TopDamager */
      , (23623,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */

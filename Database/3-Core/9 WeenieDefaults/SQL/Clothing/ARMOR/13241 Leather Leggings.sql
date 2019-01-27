@@ -10,7 +10,7 @@ VALUES (13241,   1,          2) /* ItemType - Armor */
      , (13241,   9,      24576) /* ValidLocations - UpperLegArmor, LowerLegArmor */
      , (13241,  16,          1) /* ItemUseable - No */
      , (13241,  19,          0) /* Value */
-     , (13241,  27,          2) /* ArmorType */
+     , (13241,  27,          2) /* ArmorType - Leather */
      , (13241,  28,         20) /* ArmorLevel */
      , (13241,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
 

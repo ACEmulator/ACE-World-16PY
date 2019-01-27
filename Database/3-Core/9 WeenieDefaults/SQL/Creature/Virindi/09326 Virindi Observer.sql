@@ -9,7 +9,7 @@ VALUES (9326,   1,         16) /* ItemType - Creature */
      , (9326,   7,         -1) /* ContainersCapacity */
      , (9326,  16,          1) /* ItemUseable - No */
      , (9326,  25,        100) /* Level */
-     , (9326,  27,          0) /* ArmorType */
+     , (9326,  27,          0) /* ArmorType - None */
      , (9326,  67,         64) /* Tolerance - Retaliate */
      , (9326,  68,          3) /* TargetingTactic - Random, Focused */
      , (9326,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */

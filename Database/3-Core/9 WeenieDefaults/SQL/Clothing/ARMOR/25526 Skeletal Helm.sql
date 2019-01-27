@@ -10,7 +10,7 @@ VALUES (25526,   1,          2) /* ItemType - Armor */
      , (25526,   9,          1) /* ValidLocations - HeadWear */
      , (25526,  16,          1) /* ItemUseable - No */
      , (25526,  19,       2500) /* Value */
-     , (25526,  27,          2) /* ArmorType */
+     , (25526,  27,          2) /* ArmorType - Leather */
      , (25526,  28,        220) /* ArmorLevel */
      , (25526,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
 

@@ -11,7 +11,7 @@ VALUES (8706,   1,          2) /* ItemType - Armor */
      , (8706,  16,          1) /* ItemUseable - No */
      , (8706,  18,          1) /* UiEffects - Magical */
      , (8706,  19,          1) /* Value */
-     , (8706,  27,          2) /* ArmorType */
+     , (8706,  27,          2) /* ArmorType - Leather */
      , (8706,  28,        100) /* ArmorLevel */
      , (8706,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (8706, 106,        100) /* ItemSpellcraft */

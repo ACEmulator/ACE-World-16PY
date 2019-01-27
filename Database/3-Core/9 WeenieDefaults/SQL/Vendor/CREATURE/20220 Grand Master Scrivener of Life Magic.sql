@@ -9,7 +9,7 @@ VALUES (20220,   1,         16) /* ItemType - Creature */
      , (20220,   8,        120) /* Mass */
      , (20220,  16,         32) /* ItemUseable - Remote */
      , (20220,  25,         14) /* Level */
-     , (20220,  27,          0) /* ArmorType */
+     , (20220,  27,          0) /* ArmorType - None */
      , (20220,  74,     270464) /* MerchandiseItemTypes - Misc, Writable, PromissoryNote */
      , (20220,  75,          0) /* MerchandiseMinValue */
      , (20220,  76,     100000) /* MerchandiseMaxValue */

@@ -10,7 +10,7 @@ VALUES (4230,   1,          2) /* ItemType - Armor */
      , (4230,   9,       6144) /* ValidLocations - UpperArmArmor, LowerArmArmor */
      , (4230,  16,          1) /* ItemUseable - No */
      , (4230,  19,        800) /* Value */
-     , (4230,  27,          2) /* ArmorType */
+     , (4230,  27,          2) /* ArmorType - Leather */
      , (4230,  28,         80) /* ArmorLevel */
      , (4230,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (4230, 150,        103) /* HookPlacement - Hook */

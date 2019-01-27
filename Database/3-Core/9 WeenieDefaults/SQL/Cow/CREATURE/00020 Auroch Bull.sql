@@ -9,7 +9,7 @@ VALUES (20,   1,         16) /* ItemType - Creature */
      , (20,   7,         -1) /* ContainersCapacity */
      , (20,  16,          1) /* ItemUseable - No */
      , (20,  25,          9) /* Level */
-     , (20,  27,          0) /* ArmorType */
+     , (20,  27,          0) /* ArmorType - None */
      , (20,  40,          2) /* CombatMode - Melee */
      , (20,  67,         64) /* Tolerance - Retaliate */
      , (20,  68,          5) /* TargetingTactic - Random, LastDamager */

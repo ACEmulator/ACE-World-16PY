@@ -8,7 +8,7 @@ VALUES (7818,   1,         16) /* ItemType - Creature */
      , (7818,   7,         -1) /* ContainersCapacity */
      , (7818,  16,          1) /* ItemUseable - No */
      , (7818,  25,          5) /* Level */
-     , (7818,  27,          0) /* ArmorType */
+     , (7818,  27,          0) /* ArmorType - None */
      , (7818,  40,          2) /* CombatMode - Melee */
      , (7818,  68,          1) /* TargetingTactic - Random */
      , (7818,  72,         14) /* FriendType - Undead */

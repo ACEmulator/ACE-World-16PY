@@ -9,7 +9,7 @@ VALUES (8227,   1,         16) /* ItemType - Creature */
      , (8227,   8,        120) /* Mass */
      , (8227,  16,         32) /* ItemUseable - Remote */
      , (8227,  25,          8) /* Level */
-     , (8227,  27,          0) /* ArmorType */
+     , (8227,  27,          0) /* ArmorType - None */
      , (8227,  74,  134480129) /* MerchandiseItemTypes - Weapon, PromissoryNote, CraftFletchingIntermediate */
      , (8227,  75,          0) /* MerchandiseMinValue */
      , (8227,  76,      25000) /* MerchandiseMaxValue */

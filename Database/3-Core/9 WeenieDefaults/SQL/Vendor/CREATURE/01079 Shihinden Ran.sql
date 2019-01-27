@@ -9,7 +9,7 @@ VALUES (1079,   1,         16) /* ItemType - Creature */
      , (1079,   8,        140) /* Mass */
      , (1079,  16,         32) /* ItemUseable - Remote */
      , (1079,  25,          9) /* Level */
-     , (1079,  27,          0) /* ArmorType */
+     , (1079,  27,          0) /* ArmorType - None */
      , (1079,  74,     288679) /* MerchandiseItemTypes - Vestements, Food, Weapon, LockableMagicTarget, Useless, Writable, Key, PromissoryNote */
      , (1079,  75,          0) /* MerchandiseMinValue */
      , (1079,  76,     100000) /* MerchandiseMaxValue */

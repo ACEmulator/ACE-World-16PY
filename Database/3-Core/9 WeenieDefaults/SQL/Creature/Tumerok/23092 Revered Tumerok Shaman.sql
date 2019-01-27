@@ -9,7 +9,7 @@ VALUES (23092,   1,         16) /* ItemType - Creature */
      , (23092,   7,         -1) /* ContainersCapacity */
      , (23092,  16,          1) /* ItemUseable - No */
      , (23092,  25,        161) /* Level */
-     , (23092,  27,          0) /* ArmorType */
+     , (23092,  27,          0) /* ArmorType - None */
      , (23092,  68,          5) /* TargetingTactic - Random, LastDamager */
      , (23092,  72,          6) /* FriendType - Tumerok */
      , (23092,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */

@@ -9,7 +9,7 @@ VALUES (22598,   1,         16) /* ItemType - Creature */
      , (22598,   7,         -1) /* ContainersCapacity */
      , (22598,  16,          1) /* ItemUseable - No */
      , (22598,  25,        900) /* Level */
-     , (22598,  27,          0) /* ArmorType */
+     , (22598,  27,          0) /* ArmorType - None */
      , (22598,  40,          2) /* CombatMode - Melee */
      , (22598,  68,          9) /* TargetingTactic - Random, TopDamager */
      , (22598,  72,          8) /* FriendType - Tusker */

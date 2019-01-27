@@ -10,7 +10,7 @@ VALUES (14833,   1,          2) /* ItemType - Armor */
      , (14833,   9,       6656) /* ValidLocations - ChestArmor, UpperArmArmor, LowerArmArmor */
      , (14833,  16,          1) /* ItemUseable - No */
      , (14833,  19,       2610) /* Value */
-     , (14833,  27,          8) /* ArmorType */
+     , (14833,  27,          8) /* ArmorType - Scalemail */
      , (14833,  28,        190) /* ArmorLevel */
      , (14833,  33,          1) /* Bonded - Bonded */
      , (14833,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */

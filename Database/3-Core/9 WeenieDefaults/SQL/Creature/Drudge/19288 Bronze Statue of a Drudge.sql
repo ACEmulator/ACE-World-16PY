@@ -9,7 +9,7 @@ VALUES (19288,   1,         16) /* ItemType - Creature */
      , (19288,   7,         -1) /* ContainersCapacity */
      , (19288,  16,          1) /* ItemUseable - No */
      , (19288,  25,         16) /* Level */
-     , (19288,  27,          0) /* ArmorType */
+     , (19288,  27,          0) /* ArmorType - None */
      , (19288,  40,          2) /* CombatMode - Melee */
      , (19288,  67,         64) /* Tolerance - Retaliate */
      , (19288,  68,         13) /* TargetingTactic - Random, LastDamager, TopDamager */

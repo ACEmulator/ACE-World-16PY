@@ -9,7 +9,7 @@ VALUES (7091,   1,         16) /* ItemType - Creature */
      , (7091,   7,         -1) /* ContainersCapacity */
      , (7091,  16,          1) /* ItemUseable - No */
      , (7091,  25,        125) /* Level */
-     , (7091,  27,          0) /* ArmorType */
+     , (7091,  27,          0) /* ArmorType - None */
      , (7091,  40,          2) /* CombatMode - Melee */
      , (7091,  68,          9) /* TargetingTactic - Random, TopDamager */
      , (7091,  72,         19) /* FriendType - Virindi */

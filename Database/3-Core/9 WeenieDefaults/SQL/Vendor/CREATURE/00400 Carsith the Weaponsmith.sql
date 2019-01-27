@@ -9,7 +9,7 @@ VALUES (400,   1,         16) /* ItemType - Creature */
      , (400,   8,        120) /* Mass */
      , (400,  16,         32) /* ItemUseable - Remote */
      , (400,  25,         10) /* Level */
-     , (400,  27,          0) /* ArmorType */
+     , (400,  27,          0) /* ArmorType - None */
      , (400,  74, 1074005895) /* MerchandiseItemTypes - Vestements, Weapon, LockableMagicTarget, Useless, PromissoryNote, TinkeringMaterial */
      , (400,  75,          0) /* MerchandiseMinValue */
      , (400,  76,     100000) /* MerchandiseMaxValue */

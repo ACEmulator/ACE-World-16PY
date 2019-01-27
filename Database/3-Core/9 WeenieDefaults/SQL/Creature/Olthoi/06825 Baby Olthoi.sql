@@ -9,7 +9,7 @@ VALUES (6825,   1,         16) /* ItemType - Creature */
      , (6825,   8,       8000) /* Mass */
      , (6825,  16,          1) /* ItemUseable - No */
      , (6825,  25,        126) /* Level */
-     , (6825,  27,          0) /* ArmorType */
+     , (6825,  27,          0) /* ArmorType - None */
      , (6825,  40,          2) /* CombatMode - Melee */
      , (6825,  67,          1) /* Tolerance - NoAttack */
      , (6825,  68,         15) /* TargetingTactic - Random, Focused, LastDamager, TopDamager */

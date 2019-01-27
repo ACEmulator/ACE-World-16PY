@@ -9,7 +9,7 @@ VALUES (4127,   1,         16) /* ItemType - Creature */
      , (4127,   7,         -1) /* ContainersCapacity */
      , (4127,  16,          1) /* ItemUseable - No */
      , (4127,  25,         65) /* Level */
-     , (4127,  27,          0) /* ArmorType */
+     , (4127,  27,          0) /* ArmorType - None */
      , (4127,  40,          1) /* CombatMode - NonCombat */
      , (4127,  68,          3) /* TargetingTactic - Random, Focused */
      , (4127,  72,         30) /* FriendType - Skeleton */

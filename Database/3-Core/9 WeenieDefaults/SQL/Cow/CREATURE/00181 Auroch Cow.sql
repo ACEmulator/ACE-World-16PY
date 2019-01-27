@@ -8,7 +8,7 @@ VALUES (181,   1,         16) /* ItemType - Creature */
      , (181,   7,         -1) /* ContainersCapacity */
      , (181,  16,          1) /* ItemUseable - No */
      , (181,  25,          9) /* Level */
-     , (181,  27,          0) /* ArmorType */
+     , (181,  27,          0) /* ArmorType - None */
      , (181,  40,          2) /* CombatMode - Melee */
      , (181,  67,         64) /* Tolerance - Retaliate */
      , (181,  68,          5) /* TargetingTactic - Random, LastDamager */

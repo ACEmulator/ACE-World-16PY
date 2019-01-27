@@ -8,7 +8,7 @@ VALUES (11497,   1,         16) /* ItemType - Creature */
      , (11497,   7,         -1) /* ContainersCapacity */
      , (11497,  16,          1) /* ItemUseable - No */
      , (11497,  25,         60) /* Level */
-     , (11497,  27,          0) /* ArmorType */
+     , (11497,  27,          0) /* ArmorType - None */
      , (11497,  40,          2) /* CombatMode - Melee */
      , (11497,  68,          5) /* TargetingTactic - Random, LastDamager */
      , (11497,  72,         55) /* FriendType - Carenzi */

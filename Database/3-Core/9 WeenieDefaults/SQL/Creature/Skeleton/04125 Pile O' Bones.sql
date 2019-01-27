@@ -9,7 +9,7 @@ VALUES (4125,   1,         16) /* ItemType - Creature */
      , (4125,   7,         -1) /* ContainersCapacity */
      , (4125,  16,          1) /* ItemUseable - No */
      , (4125,  25,          6) /* Level */
-     , (4125,  27,          0) /* ArmorType */
+     , (4125,  27,          0) /* ArmorType - None */
      , (4125,  40,          1) /* CombatMode - NonCombat */
      , (4125,  67,         64) /* Tolerance - Retaliate */
      , (4125,  68,          5) /* TargetingTactic - Random, LastDamager */

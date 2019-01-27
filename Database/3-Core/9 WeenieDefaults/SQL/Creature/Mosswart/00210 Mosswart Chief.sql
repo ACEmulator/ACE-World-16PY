@@ -9,7 +9,7 @@ VALUES (210,   1,         16) /* ItemType - Creature */
      , (210,   7,         -1) /* ContainersCapacity */
      , (210,  16,          1) /* ItemUseable - No */
      , (210,  25,         26) /* Level */
-     , (210,  27,          0) /* ArmorType */
+     , (210,  27,          0) /* ArmorType - None */
      , (210,  40,          2) /* CombatMode - Melee */
      , (210,  68,         13) /* TargetingTactic - Random, LastDamager, TopDamager */
      , (210,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */

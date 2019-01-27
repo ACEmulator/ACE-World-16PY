@@ -10,7 +10,7 @@ VALUES (6803,   1,          2) /* ItemType - Armor */
      , (6803,   9,      25600) /* ValidLocations - AbdomenArmor, UpperLegArmor, LowerLegArmor */
      , (6803,  16,          1) /* ItemUseable - No */
      , (6803,  19,       4240) /* Value */
-     , (6803,  27,         32) /* ArmorType */
+     , (6803,  27,         32) /* ArmorType - Metal */
      , (6803,  28,        245) /* ArmorLevel */
      , (6803,  33,          1) /* Bonded - Bonded */
      , (6803,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;

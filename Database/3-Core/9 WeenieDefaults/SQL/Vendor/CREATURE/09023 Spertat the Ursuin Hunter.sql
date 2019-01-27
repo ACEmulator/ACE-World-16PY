@@ -9,7 +9,7 @@ VALUES (9023,   1,         16) /* ItemType - Creature */
      , (9023,   8,        120) /* Mass */
      , (9023,  16,         32) /* ItemUseable - Remote */
      , (9023,  25,         39) /* Level */
-     , (9023,  27,          0) /* ArmorType */
+     , (9023,  27,          0) /* ArmorType - None */
      , (9023,  74, 1845296063) /* MerchandiseItemTypes - 1845296063 */
      , (9023,  75,          0) /* MerchandiseMinValue */
      , (9023,  76,     100000) /* MerchandiseMaxValue */

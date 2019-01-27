@@ -9,7 +9,7 @@ VALUES (4437,   1,         16) /* ItemType - Creature */
      , (4437,   8,        120) /* Mass */
      , (4437,  16,         32) /* ItemUseable - Remote */
      , (4437,  25,          8) /* Level */
-     , (4437,  27,          0) /* ArmorType */
+     , (4437,  27,          0) /* ArmorType - None */
      , (4437,  74, 1074005895) /* MerchandiseItemTypes - Vestements, Weapon, LockableMagicTarget, Useless, PromissoryNote, TinkeringMaterial */
      , (4437,  75,          0) /* MerchandiseMinValue */
      , (4437,  76,      25000) /* MerchandiseMaxValue */

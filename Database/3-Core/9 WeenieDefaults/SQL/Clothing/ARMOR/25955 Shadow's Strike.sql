@@ -11,7 +11,7 @@ VALUES (25955,   1,          2) /* ItemType - Armor */
      , (25955,  16,          1) /* ItemUseable - No */
      , (25955,  18,         32) /* UiEffects - Fire */
      , (25955,  19,       2000) /* Value */
-     , (25955,  27,          2) /* ArmorType */
+     , (25955,  27,          2) /* ArmorType - Leather */
      , (25955,  28,        230) /* ArmorLevel */
      , (25955,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (25955, 106,        200) /* ItemSpellcraft */

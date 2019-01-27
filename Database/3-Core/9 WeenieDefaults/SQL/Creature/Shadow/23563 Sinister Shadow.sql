@@ -10,7 +10,7 @@ VALUES (23563,   1,         16) /* ItemType - Creature */
      , (23563,   8,         90) /* Mass */
      , (23563,  16,          1) /* ItemUseable - No */
      , (23563,  25,        100) /* Level */
-     , (23563,  27,          0) /* ArmorType */
+     , (23563,  27,          0) /* ArmorType - None */
      , (23563,  68,          3) /* TargetingTactic - Random, Focused */
      , (23563,  93,    4195336) /* PhysicsState - ReportCollisions, Gravity, EdgeSlide */
      , (23563, 101,        183) /* AiAllowedCombatStyle - Unarmed, OneHanded, OneHandedAndShield, Bow, Crossbow, ThrownWeapon */

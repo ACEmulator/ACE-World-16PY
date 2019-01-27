@@ -10,7 +10,7 @@ VALUES (8541,   1,         16) /* ItemType - Creature */
      , (8541,   8,         90) /* Mass */
      , (8541,  16,          1) /* ItemUseable - No */
      , (8541,  25,         58) /* Level */
-     , (8541,  27,          0) /* ArmorType */
+     , (8541,  27,          0) /* ArmorType - None */
      , (8541,  68,          3) /* TargetingTactic - Random, Focused */
      , (8541,  93,    4195336) /* PhysicsState - ReportCollisions, Gravity, EdgeSlide */
      , (8541, 101,        183) /* AiAllowedCombatStyle - Unarmed, OneHanded, OneHandedAndShield, Bow, Crossbow, ThrownWeapon */

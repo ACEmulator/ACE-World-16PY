@@ -10,7 +10,7 @@ VALUES (7429,   1,          4) /* ItemType - Clothing */
      , (7429,   9,         10) /* ValidLocations - ChestWear, UpperArmWear */
      , (7429,  16,          1) /* ItemUseable - No */
      , (7429,  19,       2449) /* Value */
-     , (7429,  27,          1) /* ArmorType */
+     , (7429,  27,          1) /* ArmorType - Cloth */
      , (7429,  28,          0) /* ArmorLevel */
      , (7429,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (7429, 106,        155) /* ItemSpellcraft */

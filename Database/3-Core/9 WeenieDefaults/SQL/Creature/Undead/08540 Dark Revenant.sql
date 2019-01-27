@@ -10,7 +10,7 @@ VALUES (8540,   1,         16) /* ItemType - Creature */
      , (8540,   8,         90) /* Mass */
      , (8540,  16,          1) /* ItemUseable - No */
      , (8540,  25,        153) /* Level */
-     , (8540,  27,          0) /* ArmorType */
+     , (8540,  27,          0) /* ArmorType - None */
      , (8540,  68,          3) /* TargetingTactic - Random, Focused */
      , (8540,  72,         22) /* FriendType - Shadow */
      , (8540,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */

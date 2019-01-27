@@ -10,7 +10,7 @@ VALUES (415,   1,          2) /* ItemType - Armor */
      , (415,   9,       1024) /* ValidLocations - AbdomenArmor */
      , (415,  16,          1) /* ItemUseable - No */
      , (415,  19,        306) /* Value */
-     , (415,  27,         16) /* ArmorType */
+     , (415,  27,         16) /* ArmorType - Chainmail */
      , (415,  28,         50) /* ArmorLevel */
      , (415,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (415, 169,  118096132) /* TsysMutationData */;

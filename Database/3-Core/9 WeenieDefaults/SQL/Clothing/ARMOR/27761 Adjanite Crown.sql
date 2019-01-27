@@ -10,7 +10,7 @@ VALUES (27761,   1,          2) /* ItemType - Armor */
      , (27761,   9,          1) /* ValidLocations - HeadWear */
      , (27761,  18,          1) /* UiEffects - Magical */
      , (27761,  19,       4000) /* Value */
-     , (27761,  27,         32) /* ArmorType */
+     , (27761,  27,         32) /* ArmorType - Metal */
      , (27761,  28,        250) /* ArmorLevel */
      , (27761,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (27761, 106,        200) /* ItemSpellcraft */

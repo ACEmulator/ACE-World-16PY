@@ -10,7 +10,7 @@ VALUES (7100,   1,         16) /* ItemType - Creature */
      , (7100,   8,       8000) /* Mass */
      , (7100,  16,          1) /* ItemUseable - No */
      , (7100,  25,         85) /* Level */
-     , (7100,  27,          0) /* ArmorType */
+     , (7100,  27,          0) /* ArmorType - None */
      , (7100,  40,          2) /* CombatMode - Melee */
      , (7100,  67,         64) /* Tolerance - Retaliate */
      , (7100,  68,         13) /* TargetingTactic - Random, LastDamager, TopDamager */

@@ -10,7 +10,7 @@ VALUES (12154,   1,          2) /* ItemType - Armor */
      , (12154,  16,          1) /* ItemUseable - No */
      , (12154,  18,          1) /* UiEffects - Magical */
      , (12154,  19,       5000) /* Value */
-     , (12154,  27,          2) /* ArmorType */
+     , (12154,  27,          2) /* ArmorType - Leather */
      , (12154,  28,        125) /* ArmorLevel */
      , (12154,  51,          4) /* CombatUse - Shield */
      , (12154,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */

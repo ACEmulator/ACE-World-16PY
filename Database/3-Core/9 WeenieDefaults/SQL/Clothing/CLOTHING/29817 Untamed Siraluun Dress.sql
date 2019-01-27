@@ -11,7 +11,7 @@ VALUES (29817,   1,          4) /* ItemType - Clothing */
      , (29817,  16,          1) /* ItemUseable - No */
      , (29817,  18,          1) /* UiEffects - Magical */
      , (29817,  19,       6250) /* Value */
-     , (29817,  27,          1) /* ArmorType */
+     , (29817,  27,          1) /* ArmorType - Cloth */
      , (29817,  28,        185) /* ArmorLevel */
      , (29817,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (29817, 107,        800) /* ItemCurMana */

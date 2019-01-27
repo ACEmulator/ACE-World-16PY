@@ -9,7 +9,7 @@ VALUES (10952,   1,         16) /* ItemType - Creature */
      , (10952,   7,         -1) /* ContainersCapacity */
      , (10952,  16,          1) /* ItemUseable - No */
      , (10952,  25,         85) /* Level */
-     , (10952,  27,          0) /* ArmorType */
+     , (10952,  27,          0) /* ArmorType - None */
      , (10952,  68,          5) /* TargetingTactic - Random, LastDamager */
      , (10952,  72,         16) /* FriendType - Reedshark */
      , (10952,  81,          4) /* MaxGeneratedObjects */

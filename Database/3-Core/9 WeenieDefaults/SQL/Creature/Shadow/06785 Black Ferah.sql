@@ -10,7 +10,7 @@ VALUES (6785,   1,         16) /* ItemType - Creature */
      , (6785,   8,         90) /* Mass */
      , (6785,  16,          1) /* ItemUseable - No */
      , (6785,  25,        155) /* Level */
-     , (6785,  27,          0) /* ArmorType */
+     , (6785,  27,          0) /* ArmorType - None */
      , (6785,  68,          3) /* TargetingTactic - Random, Focused */
      , (6785,  81,          1) /* MaxGeneratedObjects */
      , (6785,  82,          1) /* InitGeneratedObjects */

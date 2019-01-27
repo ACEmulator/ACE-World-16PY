@@ -10,7 +10,7 @@ VALUES (11996,   1,         16) /* ItemType - Creature */
      , (11996,   8,       8000) /* Mass */
      , (11996,  16,          1) /* ItemUseable - No */
      , (11996,  25,         61) /* Level */
-     , (11996,  27,          0) /* ArmorType */
+     , (11996,  27,          0) /* ArmorType - None */
      , (11996,  40,          2) /* CombatMode - Melee */
      , (11996,  68,         13) /* TargetingTactic - Random, LastDamager, TopDamager */
      , (11996,  81,          4) /* MaxGeneratedObjects */

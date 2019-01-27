@@ -10,7 +10,7 @@ VALUES (98,   1,          2) /* ItemType - Armor */
      , (98,   9,       3584) /* ValidLocations - ChestArmor, AbdomenArmor, UpperArmArmor */
      , (98,  16,          1) /* ItemUseable - No */
      , (98,  19,       1732) /* Value */
-     , (98,  27,          8) /* ArmorType */
+     , (98,  27,          8) /* ArmorType - Scalemail */
      , (98,  28,         75) /* ArmorLevel */
      , (98,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (98, 169,  118097668) /* TsysMutationData */;

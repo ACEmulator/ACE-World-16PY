@@ -9,7 +9,7 @@ VALUES (2044,   1,         16) /* ItemType - Creature */
      , (2044,   8,        120) /* Mass */
      , (2044,  16,         32) /* ItemUseable - Remote */
      , (2044,  25,         11) /* Level */
-     , (2044,  27,          0) /* ArmorType */
+     , (2044,  27,          0) /* ArmorType - None */
      , (2044,  74,     270336) /* MerchandiseItemTypes - Writable, PromissoryNote */
      , (2044,  75,          0) /* MerchandiseMinValue */
      , (2044,  76,     100000) /* MerchandiseMaxValue */

@@ -9,7 +9,7 @@ VALUES (8583,   1,         16) /* ItemType - Creature */
      , (8583,   8,         90) /* Mass */
      , (8583,  16,          1) /* ItemUseable - No */
      , (8583,  25,        648) /* Level */
-     , (8583,  27,          0) /* ArmorType */
+     , (8583,  27,          0) /* ArmorType - None */
      , (8583,  68,          3) /* TargetingTactic - Random, Focused */
      , (8583,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (8583, 101,        183) /* AiAllowedCombatStyle - Unarmed, OneHanded, OneHandedAndShield, Bow, Crossbow, ThrownWeapon */

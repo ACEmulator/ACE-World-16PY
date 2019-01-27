@@ -8,7 +8,7 @@ VALUES (14875,   1,         16) /* ItemType - Creature */
      , (14875,   7,         -1) /* ContainersCapacity */
      , (14875,  16,          1) /* ItemUseable - No */
      , (14875,  25,         95) /* Level */
-     , (14875,  27,          0) /* ArmorType */
+     , (14875,  27,          0) /* ArmorType - None */
      , (14875,  68,          5) /* TargetingTactic - Random, LastDamager */
      , (14875,  93,       3080) /* PhysicsState - ReportCollisions, Gravity, LightingOn */
      , (14875, 101,        183) /* AiAllowedCombatStyle - Unarmed, OneHanded, OneHandedAndShield, Bow, Crossbow, ThrownWeapon */

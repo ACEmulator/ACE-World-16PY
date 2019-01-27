@@ -9,7 +9,7 @@ VALUES (28848,   1,         16) /* ItemType - Creature */
      , (28848,   7,         -1) /* ContainersCapacity */
      , (28848,  16,          1) /* ItemUseable - No */
      , (28848,  25,          7) /* Level */
-     , (28848,  27,          0) /* ArmorType */
+     , (28848,  27,          0) /* ArmorType - None */
      , (28848,  40,          2) /* CombatMode - Melee */
      , (28848,  68,          9) /* TargetingTactic - Random, TopDamager */
      , (28848,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */

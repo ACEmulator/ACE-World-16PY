@@ -8,7 +8,7 @@ VALUES (14466,   1,         16) /* ItemType - Creature */
      , (14466,   7,         -1) /* ContainersCapacity */
      , (14466,  16,          1) /* ItemUseable - No */
      , (14466,  25,         14) /* Level */
-     , (14466,  27,          0) /* ArmorType */
+     , (14466,  27,          0) /* ArmorType - None */
      , (14466,  40,          2) /* CombatMode - Melee */
      , (14466,  67,          2) /* Tolerance - Appraise */
      , (14466,  68,          9) /* TargetingTactic - Random, TopDamager */

@@ -8,7 +8,7 @@ VALUES (5683,   1,         16) /* ItemType - Creature */
      , (5683,   7,         -1) /* ContainersCapacity */
      , (5683,  16,          1) /* ItemUseable - No */
      , (5683,  25,         21) /* Level */
-     , (5683,  27,          0) /* ArmorType */
+     , (5683,  27,          0) /* ArmorType - None */
      , (5683,  40,          1) /* CombatMode - NonCombat */
      , (5683,  68,          5) /* TargetingTactic - Random, LastDamager */
      , (5683,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */

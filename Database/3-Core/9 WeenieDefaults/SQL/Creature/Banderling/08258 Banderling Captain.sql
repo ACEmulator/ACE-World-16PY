@@ -9,7 +9,7 @@ VALUES (8258,   1,         16) /* ItemType - Creature */
      , (8258,   7,         -1) /* ContainersCapacity */
      , (8258,  16,          1) /* ItemUseable - No */
      , (8258,  25,         14) /* Level */
-     , (8258,  27,          0) /* ArmorType */
+     , (8258,  27,          0) /* ArmorType - None */
      , (8258,  40,          2) /* CombatMode - Melee */
      , (8258,  68,          3) /* TargetingTactic - Random, Focused */
      , (8258,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */

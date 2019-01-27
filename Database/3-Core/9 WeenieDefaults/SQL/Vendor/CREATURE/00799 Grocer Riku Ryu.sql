@@ -9,7 +9,7 @@ VALUES (799,   1,         16) /* ItemType - Creature */
      , (799,   8,        120) /* Mass */
      , (799,  16,         32) /* ItemUseable - Remote */
      , (799,  25,          5) /* Level */
-     , (799,  27,          0) /* ArmorType */
+     , (799,  27,          0) /* ArmorType - None */
      , (799,  74,    4481568) /* MerchandiseItemTypes - VendorGrocer */
      , (799,  75,          0) /* MerchandiseMinValue */
      , (799,  76,     100000) /* MerchandiseMaxValue */

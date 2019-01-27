@@ -10,7 +10,7 @@ VALUES (30836,   1,         16) /* ItemType - Creature */
      , (30836,   8,       8000) /* Mass */
      , (30836,  16,          1) /* ItemUseable - No */
      , (30836,  25,        105) /* Level */
-     , (30836,  27,          0) /* ArmorType */
+     , (30836,  27,          0) /* ArmorType - None */
      , (30836,  40,          2) /* CombatMode - Melee */
      , (30836,  68,         13) /* TargetingTactic - Random, LastDamager, TopDamager */
      , (30836,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */

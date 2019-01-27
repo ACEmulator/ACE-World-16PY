@@ -11,7 +11,7 @@ VALUES (23778,   1,          2) /* ItemType - Armor */
      , (23778,  16,          1) /* ItemUseable - No */
      , (23778,  18,         64) /* UiEffects - Lightning */
      , (23778,  19,       2610) /* Value */
-     , (23778,  27,          8) /* ArmorType */
+     , (23778,  27,          8) /* ArmorType - Scalemail */
      , (23778,  28,        240) /* ArmorLevel */
      , (23778,  33,          1) /* Bonded - Bonded */
      , (23778,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */

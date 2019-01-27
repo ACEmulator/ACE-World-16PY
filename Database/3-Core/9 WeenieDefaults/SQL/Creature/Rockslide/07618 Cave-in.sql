@@ -8,7 +8,7 @@ VALUES (7618,   1,         16) /* ItemType - Creature */
      , (7618,   7,         -1) /* ContainersCapacity */
      , (7618,  16,          1) /* ItemUseable - No */
      , (7618,  25,         32) /* Level */
-     , (7618,  27,          0) /* ArmorType */
+     , (7618,  27,          0) /* ArmorType - None */
      , (7618,  40,          2) /* CombatMode - Melee */
      , (7618,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (7618, 133,          2) /* ShowableOnRadar - ShowMovement */

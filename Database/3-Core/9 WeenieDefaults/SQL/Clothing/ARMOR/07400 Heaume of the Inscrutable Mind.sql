@@ -10,7 +10,7 @@ VALUES (7400,   1,          2) /* ItemType - Armor */
      , (7400,   9,          1) /* ValidLocations - HeadWear */
      , (7400,  16,          1) /* ItemUseable - No */
      , (7400,  19,       6952) /* Value */
-     , (7400,  27,         32) /* ArmorType */
+     , (7400,  27,         32) /* ArmorType - Metal */
      , (7400,  28,        150) /* ArmorLevel */
      , (7400,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (7400, 106,        248) /* ItemSpellcraft */

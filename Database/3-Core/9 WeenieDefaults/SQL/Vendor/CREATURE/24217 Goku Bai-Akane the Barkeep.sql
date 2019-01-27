@@ -9,7 +9,7 @@ VALUES (24217,   1,         16) /* ItemType - Creature */
      , (24217,   8,        120) /* Mass */
      , (24217,  16,         32) /* ItemUseable - Remote */
      , (24217,  25,          6) /* Level */
-     , (24217,  27,          0) /* ArmorType */
+     , (24217,  27,          0) /* ArmorType - None */
      , (24217,  74,     278560) /* MerchandiseItemTypes - Food, Key, PromissoryNote */
      , (24217,  75,          0) /* MerchandiseMinValue */
      , (24217,  76,    1000000) /* MerchandiseMaxValue */

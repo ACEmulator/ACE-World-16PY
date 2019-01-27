@@ -9,7 +9,7 @@ VALUES (9383,   1,         16) /* ItemType - Creature */
      , (9383,   7,         -1) /* ContainersCapacity */
      , (9383,  16,          1) /* ItemUseable - No */
      , (9383,  25,         69) /* Level */
-     , (9383,  27,          0) /* ArmorType */
+     , (9383,  27,          0) /* ArmorType - None */
      , (9383,  68,          3) /* TargetingTactic - Random, Focused */
      , (9383,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (9383, 133,          2) /* ShowableOnRadar - ShowMovement */

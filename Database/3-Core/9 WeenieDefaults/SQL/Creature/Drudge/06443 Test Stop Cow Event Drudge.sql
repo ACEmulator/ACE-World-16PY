@@ -9,7 +9,7 @@ VALUES (6443,   1,         16) /* ItemType - Creature */
      , (6443,   7,         -1) /* ContainersCapacity */
      , (6443,  16,          1) /* ItemUseable - No */
      , (6443,  25,          2) /* Level */
-     , (6443,  27,          0) /* ArmorType */
+     , (6443,  27,          0) /* ArmorType - None */
      , (6443,  40,          2) /* CombatMode - Melee */
      , (6443,  68,          5) /* TargetingTactic - Random, LastDamager */
      , (6443,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */

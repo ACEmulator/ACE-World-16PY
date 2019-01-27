@@ -9,7 +9,7 @@ VALUES (816,   1,         16) /* ItemType - Creature */
      , (816,   8,        120) /* Mass */
      , (816,  16,         32) /* ItemUseable - Remote */
      , (816,  25,          7) /* Level */
-     , (816,  27,          0) /* ArmorType */
+     , (816,  27,          0) /* ArmorType - None */
      , (816,  74,     262272) /* MerchandiseItemTypes - Misc, PromissoryNote */
      , (816,  75,          0) /* MerchandiseMinValue */
      , (816,  76,      25000) /* MerchandiseMaxValue */

@@ -10,7 +10,7 @@ VALUES (27454,   1,          2) /* ItemType - Armor */
      , (27454,   9,      24576) /* ValidLocations - UpperLegArmor, LowerLegArmor */
      , (27454,  16,          1) /* ItemUseable - No */
      , (27454,  19,       6000) /* Value */
-     , (27454,  27,         32) /* ArmorType */
+     , (27454,  27,         32) /* ArmorType - Metal */
      , (27454,  28,        380) /* ArmorLevel */
      , (27454,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (27454, 158,          4) /* WieldRequirements - RawAttrib */

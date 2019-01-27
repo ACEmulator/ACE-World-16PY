@@ -9,7 +9,7 @@ VALUES (11511,   1,         16) /* ItemType - Creature */
      , (11511,   7,         -1) /* ContainersCapacity */
      , (11511,  16,          1) /* ItemUseable - No */
      , (11511,  25,         53) /* Level */
-     , (11511,  27,          0) /* ArmorType */
+     , (11511,  27,          0) /* ArmorType - None */
      , (11511,  67,         64) /* Tolerance - Retaliate */
      , (11511,  68,          5) /* TargetingTactic - Random, LastDamager */
      , (11511,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */

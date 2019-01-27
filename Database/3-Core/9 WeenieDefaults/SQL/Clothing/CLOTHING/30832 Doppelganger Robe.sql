@@ -10,7 +10,7 @@ VALUES (30832,   1,          4) /* ItemType - Clothing */
      , (30832,   9,      32512) /* ValidLocations - Armor */
      , (30832,  16,          1) /* ItemUseable - No */
      , (30832,  19,       8000) /* Value */
-     , (30832,  27,          1) /* ArmorType */
+     , (30832,  27,          1) /* ArmorType - Cloth */
      , (30832,  28,        250) /* ArmorLevel */
      , (30832,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (30832, 106,        350) /* ItemSpellcraft */

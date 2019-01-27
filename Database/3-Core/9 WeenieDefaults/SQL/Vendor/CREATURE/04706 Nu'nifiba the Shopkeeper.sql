@@ -9,7 +9,7 @@ VALUES (4706,   1,         16) /* ItemType - Creature */
      , (4706,   8,        120) /* Mass */
      , (4706,  16,         32) /* ItemUseable - Remote */
      , (4706,  25,          8) /* Level */
-     , (4706,  27,          0) /* ArmorType */
+     , (4706,  27,          0) /* ArmorType - None */
      , (4706,  74, 1208248231) /* MerchandiseItemTypes - VendorShopKeep */
      , (4706,  75,          0) /* MerchandiseMinValue */
      , (4706,  76,      25000) /* MerchandiseMaxValue */

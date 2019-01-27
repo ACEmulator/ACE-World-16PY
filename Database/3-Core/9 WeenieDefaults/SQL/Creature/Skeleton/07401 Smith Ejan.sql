@@ -8,7 +8,7 @@ VALUES (7401,   1,         16) /* ItemType - Creature */
      , (7401,   7,         -1) /* ContainersCapacity */
      , (7401,  16,          1) /* ItemUseable - No */
      , (7401,  25,         95) /* Level */
-     , (7401,  27,          0) /* ArmorType */
+     , (7401,  27,          0) /* ArmorType - None */
      , (7401,  40,          1) /* CombatMode - NonCombat */
      , (7401,  67,         64) /* Tolerance - Retaliate */
      , (7401,  68,          5) /* TargetingTactic - Random, LastDamager */

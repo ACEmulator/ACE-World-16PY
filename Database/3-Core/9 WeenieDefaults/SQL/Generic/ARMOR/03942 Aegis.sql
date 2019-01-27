@@ -9,7 +9,7 @@ VALUES (3942,   1,          2) /* ItemType - Armor */
      , (3942,   9,    2097152) /* ValidLocations - Shield */
      , (3942,  16,          1) /* ItemUseable - No */
      , (3942,  19,        120) /* Value */
-     , (3942,  27,          2) /* ArmorType */
+     , (3942,  27,          2) /* ArmorType - Leather */
      , (3942,  28,         20) /* ArmorLevel */
      , (3942,  33,          1) /* Bonded - Bonded */
      , (3942,  51,          4) /* CombatUse - Shield */

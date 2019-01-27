@@ -10,7 +10,7 @@ VALUES (2606,   1,          4) /* ItemType - Clothing */
      , (2606,   9,        384) /* ValidLocations - LowerLegWear, FootWear */
      , (2606,  16,          1) /* ItemUseable - No */
      , (2606,  19,         50) /* Value */
-     , (2606,  27,          2) /* ArmorType */
+     , (2606,  27,          2) /* ArmorType - Leather */
      , (2606,  28,          0) /* ArmorLevel */
      , (2606,  44,          1) /* Damage */
      , (2606,  45,          4) /* DamageType - Bludgeon */

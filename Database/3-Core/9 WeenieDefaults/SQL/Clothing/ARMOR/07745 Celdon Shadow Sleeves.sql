@@ -10,7 +10,7 @@ VALUES (7745,   1,          2) /* ItemType - Armor */
      , (7745,   9,       6144) /* ValidLocations - UpperArmArmor, LowerArmArmor */
      , (7745,  16,          1) /* ItemUseable - No */
      , (7745,  19,       1870) /* Value */
-     , (7745,  27,         32) /* ArmorType */
+     , (7745,  27,         32) /* ArmorType - Metal */
      , (7745,  28,        140) /* ArmorLevel */
      , (7745,  33,          1) /* Bonded - Bonded */
      , (7745,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;

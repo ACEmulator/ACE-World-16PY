@@ -11,7 +11,7 @@ VALUES (4981,   1,          2) /* ItemType - Armor */
      , (4981,  16,          1) /* ItemUseable - No */
      , (4981,  18,        128) /* UiEffects - Frost */
      , (4981,  19,       2100) /* Value */
-     , (4981,  27,         32) /* ArmorType */
+     , (4981,  27,         32) /* ArmorType - Metal */
      , (4981,  28,        160) /* ArmorLevel */
      , (4981,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (4981, 150,        103) /* HookPlacement - Hook */

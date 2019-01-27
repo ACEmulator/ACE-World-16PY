@@ -11,7 +11,7 @@ VALUES (9087,   1,          2) /* ItemType - Armor */
      , (9087,  16,          1) /* ItemUseable - No */
      , (9087,  18,          1) /* UiEffects - Magical */
      , (9087,  19,       2400) /* Value */
-     , (9087,  27,         32) /* ArmorType */
+     , (9087,  27,         32) /* ArmorType - Metal */
      , (9087,  28,          0) /* ArmorLevel */
      , (9087,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (9087, 106,        270) /* ItemSpellcraft */

@@ -11,7 +11,7 @@ VALUES (11362,   1,          4) /* ItemType - Clothing */
      , (11362,  16,          1) /* ItemUseable - No */
      , (11362,  18,          1) /* UiEffects - Magical */
      , (11362,  19,       5000) /* Value */
-     , (11362,  27,          1) /* ArmorType */
+     , (11362,  27,          1) /* ArmorType - Cloth */
      , (11362,  28,         40) /* ArmorLevel */
      , (11362,  33,          1) /* Bonded - Bonded */
      , (11362,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */

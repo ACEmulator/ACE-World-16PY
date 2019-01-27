@@ -8,7 +8,7 @@ VALUES (28447,   1,         16) /* ItemType - Creature */
      , (28447,   7,         -1) /* ContainersCapacity */
      , (28447,  16,         32) /* ItemUseable - Remote */
      , (28447,  25,          5) /* Level */
-     , (28447,  27,          0) /* ArmorType */
+     , (28447,  27,          0) /* ArmorType - None */
      , (28447,  40,          1) /* CombatMode - NonCombat */
      , (28447,  67,          1) /* Tolerance - NoAttack */
      , (28447,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */

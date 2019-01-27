@@ -10,7 +10,7 @@ VALUES (8808,   1,          2) /* ItemType - Armor */
      , (8808,   9,          1) /* ValidLocations - HeadWear */
      , (8808,  16,          1) /* ItemUseable - No */
      , (8808,  19,          0) /* Value */
-     , (8808,  27,         32) /* ArmorType */
+     , (8808,  27,         32) /* ArmorType - Metal */
      , (8808,  28,         10) /* ArmorLevel */
      , (8808,  33,          1) /* Bonded - Bonded */
      , (8808,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */

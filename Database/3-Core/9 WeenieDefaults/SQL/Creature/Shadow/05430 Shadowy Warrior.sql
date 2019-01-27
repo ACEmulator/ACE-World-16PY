@@ -10,7 +10,7 @@ VALUES (5430,   1,         16) /* ItemType - Creature */
      , (5430,   8,         90) /* Mass */
      , (5430,  16,          1) /* ItemUseable - No */
      , (5430,  25,         61) /* Level */
-     , (5430,  27,          0) /* ArmorType */
+     , (5430,  27,          0) /* ArmorType - None */
      , (5430,  68,          3) /* TargetingTactic - Random, Focused */
      , (5430,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (5430, 101,        183) /* AiAllowedCombatStyle - Unarmed, OneHanded, OneHandedAndShield, Bow, Crossbow, ThrownWeapon */

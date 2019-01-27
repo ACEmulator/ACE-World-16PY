@@ -9,7 +9,7 @@ VALUES (187,   1,         16) /* ItemType - Creature */
      , (187,   8,        120) /* Mass */
      , (187,  16,          1) /* ItemUseable - No */
      , (187,  25,        110) /* Level */
-     , (187,  27,          0) /* ArmorType */
+     , (187,  27,          0) /* ArmorType - None */
      , (187,  68,         13) /* TargetingTactic - Random, LastDamager, TopDamager */
      , (187,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (187, 101,        131) /* AiAllowedCombatStyle - Unarmed, OneHanded, ThrownWeapon */

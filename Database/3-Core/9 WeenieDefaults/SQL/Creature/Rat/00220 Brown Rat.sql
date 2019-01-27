@@ -9,7 +9,7 @@ VALUES (220,   1,         16) /* ItemType - Creature */
      , (220,   7,         -1) /* ContainersCapacity */
      , (220,  16,          1) /* ItemUseable - No */
      , (220,  25,          7) /* Level */
-     , (220,  27,          0) /* ArmorType */
+     , (220,  27,          0) /* ArmorType - None */
      , (220,  40,          2) /* CombatMode - Melee */
      , (220,  67,         64) /* Tolerance - Retaliate */
      , (220,  68,          5) /* TargetingTactic - Random, LastDamager */

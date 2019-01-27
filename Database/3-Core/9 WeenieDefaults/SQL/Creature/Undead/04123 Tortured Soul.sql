@@ -9,7 +9,7 @@ VALUES (4123,   1,         16) /* ItemType - Creature */
      , (4123,   7,         -1) /* ContainersCapacity */
      , (4123,  16,          1) /* ItemUseable - No */
      , (4123,  25,         30) /* Level */
-     , (4123,  27,          0) /* ArmorType */
+     , (4123,  27,          0) /* ArmorType - None */
      , (4123,  40,          1) /* CombatMode - NonCombat */
      , (4123,  68,          3) /* TargetingTactic - Random, Focused */
      , (4123,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */

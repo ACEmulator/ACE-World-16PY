@@ -8,7 +8,7 @@ VALUES (7372,   1,         16) /* ItemType - Creature */
      , (7372,   7,         -1) /* ContainersCapacity */
      , (7372,  16,          1) /* ItemUseable - No */
      , (7372,  25,         95) /* Level */
-     , (7372,  27,          0) /* ArmorType */
+     , (7372,  27,          0) /* ArmorType - None */
      , (7372,  40,          1) /* CombatMode - NonCombat */
      , (7372,  68,          5) /* TargetingTactic - Random, LastDamager */
      , (7372,  81,          2) /* MaxGeneratedObjects */

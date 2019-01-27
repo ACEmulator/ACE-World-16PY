@@ -10,7 +10,7 @@ VALUES (6857,   1,         16) /* ItemType - Creature */
      , (6857,   8,        120) /* Mass */
      , (6857,  16,         32) /* ItemUseable - Remote */
      , (6857,  25,         20) /* Level */
-     , (6857,  27,          0) /* ArmorType */
+     , (6857,  27,          0) /* ArmorType - None */
      , (6857,  74,  134480129) /* MerchandiseItemTypes - Weapon, PromissoryNote, CraftFletchingIntermediate */
      , (6857,  75,          0) /* MerchandiseMinValue */
      , (6857,  76,    1000000) /* MerchandiseMaxValue */

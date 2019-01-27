@@ -11,7 +11,7 @@ VALUES (23819,   1,          2) /* ItemType - Armor */
      , (23819,  16,          1) /* ItemUseable - No */
      , (23819,  18,        128) /* UiEffects - Frost */
      , (23819,  19,       1870) /* Value */
-     , (23819,  27,         32) /* ArmorType */
+     , (23819,  27,         32) /* ArmorType - Metal */
      , (23819,  28,        260) /* ArmorLevel */
      , (23819,  33,          1) /* Bonded - Bonded */
      , (23819,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
