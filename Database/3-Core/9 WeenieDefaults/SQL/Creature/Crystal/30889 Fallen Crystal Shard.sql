@@ -12,7 +12,7 @@ VALUES (30889,   1,         16) /* ItemType - Creature */
      , (30889,  27,          0) /* ArmorType */
      , (30889,  40,          2) /* CombatMode - Melee */
      , (30889,  68,          5) /* TargetingTactic - Random, LastDamager */
-     , (30889,  69,          4) /* CombatTactic */
+     , (30889,  69,          4) /* CombatTactic - LastDamager */
      , (30889,  81,         10) /* MaxGeneratedObjects */
      , (30889,  82,         10) /* InitGeneratedObjects */
      , (30889,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */

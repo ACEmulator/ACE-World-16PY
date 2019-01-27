@@ -11,7 +11,7 @@ VALUES (14560,   1,         16) /* ItemType - Creature */
      , (14560,  27,          0) /* ArmorType */
      , (14560,  40,          2) /* CombatMode - Melee */
      , (14560,  68,          5) /* TargetingTactic - Random, LastDamager */
-     , (14560,  69,          4) /* CombatTactic */
+     , (14560,  69,          4) /* CombatTactic - LastDamager */
      , (14560,  81,          3) /* MaxGeneratedObjects */
      , (14560,  82,          3) /* InitGeneratedObjects */
      , (14560,  93,       3080) /* PhysicsState - ReportCollisions, Gravity, LightingOn */

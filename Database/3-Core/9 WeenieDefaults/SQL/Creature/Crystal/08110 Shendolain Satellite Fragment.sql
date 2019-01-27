@@ -12,7 +12,7 @@ VALUES (8110,   1,         16) /* ItemType - Creature */
      , (8110,  27,          0) /* ArmorType */
      , (8110,  40,          2) /* CombatMode - Melee */
      , (8110,  68,          5) /* TargetingTactic - Random, LastDamager */
-     , (8110,  69,          4) /* CombatTactic */
+     , (8110,  69,          4) /* CombatTactic - LastDamager */
      , (8110,  93,       3080) /* PhysicsState - ReportCollisions, Gravity, LightingOn */
      , (8110, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (8110, 146,      22500) /* XpOverride */;

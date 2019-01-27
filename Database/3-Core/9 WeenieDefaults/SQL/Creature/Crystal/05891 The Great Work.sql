@@ -12,7 +12,7 @@ VALUES (5891,   1,         16) /* ItemType - Creature */
      , (5891,  27,          0) /* ArmorType */
      , (5891,  40,          2) /* CombatMode - Melee */
      , (5891,  68,          5) /* TargetingTactic - Random, LastDamager */
-     , (5891,  69,          4) /* CombatTactic */
+     , (5891,  69,          4) /* CombatTactic - LastDamager */
      , (5891,  93,       3080) /* PhysicsState - ReportCollisions, Gravity, LightingOn */
      , (5891, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (5891, 146,      43680) /* XpOverride */;

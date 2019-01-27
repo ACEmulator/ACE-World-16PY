@@ -11,7 +11,7 @@ VALUES (24857,   1,         16) /* ItemType - Creature */
      , (24857,  27,          0) /* ArmorType */
      , (24857,  40,          1) /* CombatMode - NonCombat */
      , (24857,  68,         13) /* TargetingTactic - Random, LastDamager, TopDamager */
-     , (24857,  69,         30) /* CombatTactic */
+     , (24857,  69,         30) /* CombatTactic - Focused, LastDamager, TopDamager, Weakest */
      , (24857,  72,         62) /* FriendType - Elemental */
      , (24857,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (24857, 101,        183) /* AiAllowedCombatStyle - Unarmed, OneHanded, OneHandedAndShield, Bow, Crossbow, ThrownWeapon */

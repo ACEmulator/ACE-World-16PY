@@ -12,7 +12,7 @@ VALUES (21383,   1,         16) /* ItemType - Creature */
      , (21383,  27,          0) /* ArmorType */
      , (21383,  40,          1) /* CombatMode - NonCombat */
      , (21383,  68,         13) /* TargetingTactic - Random, LastDamager, TopDamager */
-     , (21383,  69,         30) /* CombatTactic */
+     , (21383,  69,         30) /* CombatTactic - Focused, LastDamager, TopDamager, Weakest */
      , (21383,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (21383, 101,        183) /* AiAllowedCombatStyle - Unarmed, OneHanded, OneHandedAndShield, Bow, Crossbow, ThrownWeapon */
      , (21383, 133,          2) /* ShowableOnRadar - ShowMovement */
