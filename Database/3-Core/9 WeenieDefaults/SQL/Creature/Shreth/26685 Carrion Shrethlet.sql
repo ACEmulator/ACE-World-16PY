@@ -9,10 +9,10 @@ VALUES (26685,   1,         16) /* ItemType - Creature */
      , (26685,   7,         -1) /* ContainersCapacity */
      , (26685,  16,          1) /* ItemUseable - No */
      , (26685,  25,          5) /* Level */
-     , (26685,  27,          0) /* ArmorType */
+     , (26685,  27,          0) /* ArmorType - None */
      , (26685,  40,          2) /* CombatMode - Melee */
-     , (26685,  67,         64) /* Tolerance */
-     , (26685,  68,          9) /* TargetingTactic */
+     , (26685,  67,         64) /* Tolerance - Retaliate */
+     , (26685,  68,          9) /* TargetingTactic - Random, TopDamager */
      , (26685,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (26685, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (26685, 146,        150) /* XpOverride */;

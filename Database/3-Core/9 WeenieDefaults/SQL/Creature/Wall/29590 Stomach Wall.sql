@@ -8,10 +8,10 @@ VALUES (29590,   1,         16) /* ItemType - Creature */
      , (29590,   7,         -1) /* ContainersCapacity */
      , (29590,  16,          1) /* ItemUseable - No */
      , (29590,  25,        999) /* Level */
-     , (29590,  27,          0) /* ArmorType */
+     , (29590,  27,          0) /* ArmorType - None */
      , (29590,  40,          1) /* CombatMode - NonCombat */
-     , (29590,  67,          1) /* Tolerance */
-     , (29590,  68,          5) /* TargetingTactic */
+     , (29590,  67,          1) /* Tolerance - NoAttack */
+     , (29590,  68,          5) /* TargetingTactic - Random, LastDamager */
      , (29590,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (29590, 101,        131) /* AiAllowedCombatStyle - Unarmed, OneHanded, ThrownWeapon */
      , (29590, 133,          4) /* ShowableOnRadar - ShowAlways */

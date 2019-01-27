@@ -10,7 +10,7 @@ VALUES (27130,   1,          2) /* ItemType - Armor */
      , (27130,   9,       4096) /* ValidLocations - LowerArmArmor */
      , (27130,  16,          1) /* ItemUseable - No */
      , (27130,  19,      18000) /* Value */
-     , (27130,  27,          8) /* ArmorType */
+     , (27130,  27,          8) /* ArmorType - Scalemail */
      , (27130,  28,        440) /* ArmorLevel */
      , (27130,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (27130, 106,        335) /* ItemSpellcraft */

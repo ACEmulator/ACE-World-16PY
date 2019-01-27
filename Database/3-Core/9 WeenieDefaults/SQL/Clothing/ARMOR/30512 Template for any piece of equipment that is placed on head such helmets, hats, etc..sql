@@ -10,7 +10,7 @@ VALUES (30512,   1,          2) /* ItemType - Armor */
      , (30512,   9,          1) /* ValidLocations - HeadWear */
      , (30512,  16,          1) /* ItemUseable - No */
      , (30512,  19,        653) /* Value */
-     , (30512,  27,         32) /* ArmorType */
+     , (30512,  27,         32) /* ArmorType - Metal */
      , (30512,  28,        100) /* ArmorLevel */
      , (30512,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (30512, 150,        103) /* HookPlacement - Hook */

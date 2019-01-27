@@ -9,7 +9,7 @@ VALUES (698,   1,         16) /* ItemType - Creature */
      , (698,   8,        120) /* Mass */
      , (698,  16,         32) /* ItemUseable - Remote */
      , (698,  25,          4) /* Level */
-     , (698,  27,          0) /* ArmorType */
+     , (698,  27,          0) /* ArmorType - None */
      , (698,  74,     264200) /* MerchandiseItemTypes - Jewelry, Gem, PromissoryNote */
      , (698,  75,          0) /* MerchandiseMinValue */
      , (698,  76,     100000) /* MerchandiseMaxValue */

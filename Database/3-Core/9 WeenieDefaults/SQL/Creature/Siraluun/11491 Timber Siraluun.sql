@@ -9,9 +9,9 @@ VALUES (11491,   1,         16) /* ItemType - Creature */
      , (11491,   7,         -1) /* ContainersCapacity */
      , (11491,  16,          1) /* ItemUseable - No */
      , (11491,  25,         77) /* Level */
-     , (11491,  27,          0) /* ArmorType */
+     , (11491,  27,          0) /* ArmorType - None */
      , (11491,  40,          2) /* CombatMode - Melee */
-     , (11491,  68,          9) /* TargetingTactic */
+     , (11491,  68,          9) /* TargetingTactic - Random, TopDamager */
      , (11491,  72,         56) /* FriendType - Siraluun */
      , (11491,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (11491, 133,          4) /* ShowableOnRadar - ShowAlways */

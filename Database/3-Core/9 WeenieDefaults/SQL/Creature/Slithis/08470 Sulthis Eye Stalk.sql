@@ -8,9 +8,9 @@ VALUES (8470,   1,         16) /* ItemType - Creature */
      , (8470,   7,         -1) /* ContainersCapacity */
      , (8470,  16,          1) /* ItemUseable - No */
      , (8470,  25,         95) /* Level */
-     , (8470,  27,          0) /* ArmorType */
+     , (8470,  27,          0) /* ArmorType - None */
      , (8470,  40,          2) /* CombatMode - Melee */
-     , (8470,  68,         13) /* TargetingTactic */
+     , (8470,  68,         13) /* TargetingTactic - Random, LastDamager, TopDamager */
      , (8470,  81,          6) /* MaxGeneratedObjects */
      , (8470,  82,          6) /* InitGeneratedObjects */
      , (8470,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */

@@ -10,7 +10,7 @@ VALUES (22559,   1,          2) /* ItemType - Armor */
      , (22559,   9,       4096) /* ValidLocations - LowerArmArmor */
      , (22559,  16,          1) /* ItemUseable - No */
      , (22559,  19,      30000) /* Value */
-     , (22559,  27,          1) /* ArmorType */
+     , (22559,  27,          1) /* ArmorType - Cloth */
      , (22559,  28,        250) /* ArmorLevel */
      , (22559,  36,       9999) /* ResistMagic */
      , (22559,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */

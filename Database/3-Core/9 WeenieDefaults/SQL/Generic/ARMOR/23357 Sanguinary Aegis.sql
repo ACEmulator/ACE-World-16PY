@@ -9,7 +9,7 @@ VALUES (23357,   1,          2) /* ItemType - Armor */
      , (23357,   9,    2097152) /* ValidLocations - Shield */
      , (23357,  16,          1) /* ItemUseable - No */
      , (23357,  19,          0) /* Value */
-     , (23357,  27,          2) /* ArmorType */
+     , (23357,  27,          2) /* ArmorType - Leather */
      , (23357,  28,          0) /* ArmorLevel */
      , (23357,  33,          1) /* Bonded - Bonded */
      , (23357,  36,       9999) /* ResistMagic */

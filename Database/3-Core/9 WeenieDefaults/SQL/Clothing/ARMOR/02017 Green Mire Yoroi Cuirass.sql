@@ -10,7 +10,7 @@ VALUES (2017,   1,          2) /* ItemType - Armor */
      , (2017,   9,       1536) /* ValidLocations - ChestArmor, AbdomenArmor */
      , (2017,  16,          1) /* ItemUseable - No */
      , (2017,  19,       2100) /* Value */
-     , (2017,  27,         32) /* ArmorType */
+     , (2017,  27,         32) /* ArmorType - Metal */
      , (2017,  28,        120) /* ArmorLevel */
      , (2017,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (2017, 106,        110) /* ItemSpellcraft */

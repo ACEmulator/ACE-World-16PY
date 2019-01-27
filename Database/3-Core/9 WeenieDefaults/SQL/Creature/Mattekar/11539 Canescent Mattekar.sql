@@ -10,7 +10,7 @@ VALUES (11539,   1,         16) /* ItemType - Creature */
      , (11539,  16,          1) /* ItemUseable - No */
      , (11539,  25,         85) /* Level */
      , (11539,  40,          2) /* CombatMode - Melee */
-     , (11539,  68,          3) /* TargetingTactic */
+     , (11539,  68,          3) /* TargetingTactic - Random, Focused */
      , (11539,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (11539, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (11539, 146,      20719) /* XpOverride */;

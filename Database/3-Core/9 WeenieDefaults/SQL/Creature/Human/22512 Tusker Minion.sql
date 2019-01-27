@@ -9,8 +9,8 @@ VALUES (22512,   1,         16) /* ItemType - Creature */
      , (22512,   8,        120) /* Mass */
      , (22512,  16,          1) /* ItemUseable - No */
      , (22512,  25,         35) /* Level */
-     , (22512,  27,          0) /* ArmorType */
-     , (22512,  68,         13) /* TargetingTactic */
+     , (22512,  27,          0) /* ArmorType - None */
+     , (22512,  68,         13) /* TargetingTactic - Random, LastDamager, TopDamager */
      , (22512,  72,          8) /* FriendType - Tusker */
      , (22512,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (22512, 101,        131) /* AiAllowedCombatStyle - Unarmed, OneHanded, ThrownWeapon */

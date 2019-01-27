@@ -10,7 +10,7 @@ VALUES (6860,   1,         16) /* ItemType - Creature */
      , (6860,   8,        120) /* Mass */
      , (6860,  16,         32) /* ItemUseable - Remote */
      , (6860,  25,         12) /* Level */
-     , (6860,  27,          0) /* ArmorType */
+     , (6860,  27,          0) /* ArmorType - None */
      , (6860,  74,     280712) /* MerchandiseItemTypes - Jewelry, Misc, Gem, Key, PromissoryNote */
      , (6860,  75,          0) /* MerchandiseMinValue */
      , (6860,  76,    1000000) /* MerchandiseMaxValue */

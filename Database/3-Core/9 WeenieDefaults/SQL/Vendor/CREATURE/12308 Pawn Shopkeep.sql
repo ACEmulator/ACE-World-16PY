@@ -9,7 +9,7 @@ VALUES (12308,   1,         16) /* ItemType - Creature */
      , (12308,   8,        120) /* Mass */
      , (12308,  16,         32) /* ItemUseable - Remote */
      , (12308,  25,          7) /* Level */
-     , (12308,  27,          0) /* ArmorType */
+     , (12308,  27,          0) /* ArmorType - None */
      , (12308,  74,  134770607) /* MerchandiseItemTypes - Vestements, Jewelry, Food, Weapon, LockableMagicTarget, Useless, Gem, Writable, Key, ManaStone, CraftFletchingIntermediate */
      , (12308,  75,          0) /* MerchandiseMinValue */
      , (12308,  76,     100000) /* MerchandiseMaxValue */

@@ -9,9 +9,9 @@ VALUES (1210,   1,         16) /* ItemType - Creature */
      , (1210,   8,        120) /* Mass */
      , (1210,  16,          1) /* ItemUseable - No */
      , (1210,  25,        115) /* Level */
-     , (1210,  27,          0) /* ArmorType */
+     , (1210,  27,          0) /* ArmorType - None */
      , (1210,  40,          2) /* CombatMode - Melee */
-     , (1210,  68,         13) /* TargetingTactic */
+     , (1210,  68,         13) /* TargetingTactic - Random, LastDamager, TopDamager */
      , (1210,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (1210, 101,        131) /* AiAllowedCombatStyle - Unarmed, OneHanded, ThrownWeapon */
      , (1210, 133,          2) /* ShowableOnRadar - ShowMovement */

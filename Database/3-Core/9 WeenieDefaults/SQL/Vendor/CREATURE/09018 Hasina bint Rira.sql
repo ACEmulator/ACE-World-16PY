@@ -9,7 +9,7 @@ VALUES (9018,   1,         16) /* ItemType - Creature */
      , (9018,   8,        120) /* Mass */
      , (9018,  16,         32) /* ItemUseable - Remote */
      , (9018,  25,         32) /* Level */
-     , (9018,  27,          0) /* ArmorType */
+     , (9018,  27,          0) /* ArmorType - None */
      , (9018,  74, 1845296063) /* MerchandiseItemTypes - 1845296063 */
      , (9018,  75,          0) /* MerchandiseMinValue */
      , (9018,  76,     100000) /* MerchandiseMaxValue */

@@ -8,7 +8,7 @@ VALUES (27653,   1,          2) /* ItemType - Armor */
      , (27653,   9,    2097152) /* ValidLocations - Shield */
      , (27653,  16,          1) /* ItemUseable - No */
      , (27653,  19,       3000) /* Value */
-     , (27653,  27,          2) /* ArmorType */
+     , (27653,  27,          2) /* ArmorType - Leather */
      , (27653,  28,        310) /* ArmorLevel */
      , (27653,  36,       9999) /* ResistMagic */
      , (27653,  51,          4) /* CombatUse - Shield */

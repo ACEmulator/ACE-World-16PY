@@ -10,7 +10,7 @@ VALUES (25640,   1,          2) /* ItemType - Armor */
      , (25640,   9,          1) /* ValidLocations - HeadWear */
      , (25640,  16,          1) /* ItemUseable - No */
      , (25640,  19,         30) /* Value */
-     , (25640,  27,          2) /* ArmorType */
+     , (25640,  27,          2) /* ArmorType - Leather */
      , (25640,  28,         20) /* ArmorLevel */
      , (25640,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (25640, 150,        103) /* HookPlacement - Hook */

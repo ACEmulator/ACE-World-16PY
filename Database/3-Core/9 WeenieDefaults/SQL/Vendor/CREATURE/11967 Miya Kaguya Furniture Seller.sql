@@ -9,7 +9,7 @@ VALUES (11967,   1,         16) /* ItemType - Creature */
      , (11967,   8,        120) /* Mass */
      , (11967,  16,         32) /* ItemUseable - Remote */
      , (11967,  25,          9) /* Level */
-     , (11967,  27,          0) /* ArmorType */
+     , (11967,  27,          0) /* ArmorType - None */
      , (11967,  74,    4481568) /* MerchandiseItemTypes - VendorGrocer */
      , (11967,  75,          0) /* MerchandiseMinValue */
      , (11967,  76,      10000) /* MerchandiseMaxValue */

@@ -10,8 +10,8 @@ VALUES (26672,   1,         16) /* ItemType - Creature */
      , (26672,  16,          1) /* ItemUseable - No */
      , (26672,  25,         16) /* Level */
      , (26672,  40,          2) /* CombatMode - Melee */
-     , (26672,  67,         64) /* Tolerance */
-     , (26672,  68,          9) /* TargetingTactic */
+     , (26672,  67,         64) /* Tolerance - Retaliate */
+     , (26672,  68,          9) /* TargetingTactic - Random, TopDamager */
      , (26672,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (26672, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (26672, 146,        990) /* XpOverride */;

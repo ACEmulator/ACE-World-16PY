@@ -8,9 +8,9 @@ VALUES (13221,   1,         16) /* ItemType - Creature */
      , (13221,   7,         -1) /* ContainersCapacity */
      , (13221,  16,          1) /* ItemUseable - No */
      , (13221,  25,         42) /* Level */
-     , (13221,  27,          0) /* ArmorType */
+     , (13221,  27,          0) /* ArmorType - None */
      , (13221,  40,          2) /* CombatMode - Melee */
-     , (13221,  68,          1) /* TargetingTactic */
+     , (13221,  68,          1) /* TargetingTactic - Random */
      , (13221,  93,    2098192) /* PhysicsState - IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */
      , (13221,  95,          8) /* RadarBlipColor - Yellow */
      , (13221, 133,          4) /* ShowableOnRadar - ShowAlways */

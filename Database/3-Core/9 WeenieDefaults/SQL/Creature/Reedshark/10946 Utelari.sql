@@ -10,7 +10,7 @@ VALUES (10946,   1,         16) /* ItemType - Creature */
      , (10946,  16,          1) /* ItemUseable - No */
      , (10946,  25,         85) /* Level */
      , (10946,  40,          2) /* CombatMode - Melee */
-     , (10946,  68,         13) /* TargetingTactic */
+     , (10946,  68,         13) /* TargetingTactic - Random, LastDamager, TopDamager */
      , (10946,  72,         58) /* FriendType - HeaTumerok */
      , (10946,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (10946, 133,          2) /* ShowableOnRadar - ShowMovement */

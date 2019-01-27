@@ -9,7 +9,7 @@ VALUES (1146,   1,         16) /* ItemType - Creature */
      , (1146,   8,        120) /* Mass */
      , (1146,  16,         32) /* ItemUseable - Remote */
      , (1146,  25,         12) /* Level */
-     , (1146,  27,          0) /* ArmorType */
+     , (1146,  27,          0) /* ArmorType - None */
      , (1146,  74, 1074005767) /* MerchandiseItemTypes - Vestements, Weapon, Container, Useless, PromissoryNote, TinkeringMaterial */
      , (1146,  75,          0) /* MerchandiseMinValue */
      , (1146,  76,     100000) /* MerchandiseMaxValue */

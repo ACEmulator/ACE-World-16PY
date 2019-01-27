@@ -10,7 +10,7 @@ VALUES (8655,   1,          2) /* ItemType - Armor */
      , (8655,   9,         32) /* ValidLocations - HandWear */
      , (8655,  16,          1) /* ItemUseable - No */
      , (8655,  19,        500) /* Value */
-     , (8655,  27,          4) /* ArmorType */
+     , (8655,  27,          4) /* ArmorType - StuddedLeather */
      , (8655,  28,         75) /* ArmorLevel */
      , (8655,  44,          3) /* Damage */
      , (8655,  45,          4) /* DamageType - Bludgeon */

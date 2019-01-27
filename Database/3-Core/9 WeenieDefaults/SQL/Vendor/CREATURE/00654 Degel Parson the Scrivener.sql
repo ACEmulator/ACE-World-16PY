@@ -9,7 +9,7 @@ VALUES (654,   1,         16) /* ItemType - Creature */
      , (654,   8,        120) /* Mass */
      , (654,  16,         32) /* ItemUseable - Remote */
      , (654,  25,          5) /* Level */
-     , (654,  27,          0) /* ArmorType */
+     , (654,  27,          0) /* ArmorType - None */
      , (654,  74,     270336) /* MerchandiseItemTypes - Writable, PromissoryNote */
      , (654,  75,          0) /* MerchandiseMinValue */
      , (654,  76,     100000) /* MerchandiseMaxValue */

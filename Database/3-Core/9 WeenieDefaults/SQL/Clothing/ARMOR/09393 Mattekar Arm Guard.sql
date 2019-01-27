@@ -11,7 +11,7 @@ VALUES (9393,   1,          2) /* ItemType - Armor */
      , (9393,  16,          1) /* ItemUseable - No */
      , (9393,  18,          1) /* UiEffects - Magical */
      , (9393,  19,       4500) /* Value */
-     , (9393,  27,          2) /* ArmorType */
+     , (9393,  27,          2) /* ArmorType - Leather */
      , (9393,  28,         80) /* ArmorLevel */
      , (9393,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (9393, 106,        200) /* ItemSpellcraft */

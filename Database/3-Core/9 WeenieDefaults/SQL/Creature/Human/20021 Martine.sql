@@ -9,7 +9,7 @@ VALUES (20021,   1,         16) /* ItemType - Creature */
      , (20021,   8,        120) /* Mass */
      , (20021,  16,         32) /* ItemUseable - Remote */
      , (20021,  25,         14) /* Level */
-     , (20021,  27,          0) /* ArmorType */
+     , (20021,  27,          0) /* ArmorType - None */
      , (20021,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (20021,  95,          8) /* RadarBlipColor - Yellow */
      , (20021, 133,          4) /* ShowableOnRadar - ShowAlways */

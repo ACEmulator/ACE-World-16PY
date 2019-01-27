@@ -10,7 +10,7 @@ VALUES (1622,   1,         16) /* ItemType - Creature */
      , (1622,  16,          1) /* ItemUseable - No */
      , (1622,  25,         12) /* Level */
      , (1622,  40,          2) /* CombatMode - Melee */
-     , (1622,  68,         13) /* TargetingTactic */
+     , (1622,  68,         13) /* TargetingTactic - Random, LastDamager, TopDamager */
      , (1622,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (1622, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (1622, 146,        756) /* XpOverride */;

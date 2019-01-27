@@ -9,7 +9,7 @@ VALUES (9408,   1,         16) /* ItemType - Creature */
      , (9408,   7,         -1) /* ContainersCapacity */
      , (9408,  16,         32) /* ItemUseable - Remote */
      , (9408,  25,        126) /* Level */
-     , (9408,  27,          0) /* ArmorType */
+     , (9408,  27,          0) /* ArmorType - None */
      , (9408,  40,          2) /* CombatMode - Melee */
      , (9408,  93,    2098200) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */
      , (9408,  95,          8) /* RadarBlipColor - Yellow */

@@ -10,7 +10,7 @@ VALUES (21153,   1,          2) /* ItemType - Armor */
      , (21153,   9,         32) /* ValidLocations - HandWear */
      , (21153,  16,          1) /* ItemUseable - No */
      , (21153,  19,        653) /* Value */
-     , (21153,  27,         32) /* ArmorType */
+     , (21153,  27,         32) /* ArmorType - Metal */
      , (21153,  28,        200) /* ArmorLevel */
      , (21153,  36,       9999) /* ResistMagic */
      , (21153,  44,          3) /* Damage */

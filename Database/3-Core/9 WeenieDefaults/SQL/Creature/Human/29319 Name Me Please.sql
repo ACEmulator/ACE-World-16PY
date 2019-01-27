@@ -10,7 +10,7 @@ VALUES (29319,   1,         16) /* ItemType - Creature */
      , (29319,   8,        120) /* Mass */
      , (29319,  16,         32) /* ItemUseable - Remote */
      , (29319,  25,         10) /* Level */
-     , (29319,  27,          0) /* ArmorType */
+     , (29319,  27,          0) /* ArmorType - None */
      , (29319,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (29319,  95,          8) /* RadarBlipColor - Yellow */
      , (29319, 133,          4) /* ShowableOnRadar - ShowAlways */

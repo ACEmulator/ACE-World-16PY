@@ -9,9 +9,9 @@ VALUES (23551,   1,         16) /* ItemType - Creature */
      , (23551,   7,         -1) /* ContainersCapacity */
      , (23551,  16,          1) /* ItemUseable - No */
      , (23551,  25,        161) /* Level */
-     , (23551,  27,          0) /* ArmorType */
+     , (23551,  27,          0) /* ArmorType - None */
      , (23551,  40,          2) /* CombatMode - Melee */
-     , (23551,  68,          3) /* TargetingTactic */
+     , (23551,  68,          3) /* TargetingTactic - Random, Focused */
      , (23551,  72,         15) /* FriendType - Gromnie */
      , (23551,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (23551, 133,          2) /* ShowableOnRadar - ShowMovement */

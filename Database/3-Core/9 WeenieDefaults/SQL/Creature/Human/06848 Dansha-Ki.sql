@@ -9,7 +9,7 @@ VALUES (6848,   1,         16) /* ItemType - Creature */
      , (6848,   8,        120) /* Mass */
      , (6848,  16,         32) /* ItemUseable - Remote */
      , (6848,  25,         21) /* Level */
-     , (6848,  27,          0) /* ArmorType */
+     , (6848,  27,          0) /* ArmorType - None */
      , (6848,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (6848,  95,          8) /* RadarBlipColor - Yellow */
      , (6848, 133,          1) /* ShowableOnRadar - ShowNever */

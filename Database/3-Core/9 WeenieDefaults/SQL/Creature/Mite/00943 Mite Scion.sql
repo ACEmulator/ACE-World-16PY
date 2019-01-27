@@ -9,9 +9,9 @@ VALUES (943,   1,         16) /* ItemType - Creature */
      , (943,   7,         -1) /* ContainersCapacity */
      , (943,  16,          1) /* ItemUseable - No */
      , (943,  25,          5) /* Level */
-     , (943,  27,          0) /* ArmorType */
+     , (943,  27,          0) /* ArmorType - None */
      , (943,  40,          2) /* CombatMode - Melee */
-     , (943,  68,          5) /* TargetingTactic */
+     , (943,  68,          5) /* TargetingTactic - Random, LastDamager */
      , (943,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (943, 101,        129) /* AiAllowedCombatStyle - Unarmed, ThrownWeapon */
      , (943, 133,          2) /* ShowableOnRadar - ShowMovement */

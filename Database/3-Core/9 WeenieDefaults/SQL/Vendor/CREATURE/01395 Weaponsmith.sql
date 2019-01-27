@@ -9,7 +9,7 @@ VALUES (1395,   1,         16) /* ItemType - Creature */
      , (1395,   8,        120) /* Mass */
      , (1395,  16,         32) /* ItemUseable - Remote */
      , (1395,  25,          9) /* Level */
-     , (1395,  27,          0) /* ArmorType */
+     , (1395,  27,          0) /* ArmorType - None */
      , (1395,  74, 1074004225) /* MerchandiseItemTypes - Weapon, PromissoryNote, TinkeringMaterial */
      , (1395,  75,          0) /* MerchandiseMinValue */
      , (1395,  76,     100000) /* MerchandiseMaxValue */

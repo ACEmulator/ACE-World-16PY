@@ -8,7 +8,7 @@ VALUES (11971,   1,          2) /* ItemType - Armor */
      , (11971,   9,    2097152) /* ValidLocations - Shield */
      , (11971,  16,          1) /* ItemUseable - No */
      , (11971,  19,        120) /* Value */
-     , (11971,  27,          2) /* ArmorType */
+     , (11971,  27,          2) /* ArmorType - Leather */
      , (11971,  28,        100) /* ArmorLevel */
      , (11971,  33,         -2) /* Bonded - Destroy */
      , (11971,  37,       9999) /* ResistItemAppraisal */

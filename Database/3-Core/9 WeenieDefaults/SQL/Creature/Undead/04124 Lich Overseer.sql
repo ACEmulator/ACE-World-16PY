@@ -9,9 +9,9 @@ VALUES (4124,   1,         16) /* ItemType - Creature */
      , (4124,   7,         -1) /* ContainersCapacity */
      , (4124,  16,          1) /* ItemUseable - No */
      , (4124,  25,         55) /* Level */
-     , (4124,  27,          0) /* ArmorType */
+     , (4124,  27,          0) /* ArmorType - None */
      , (4124,  40,          1) /* CombatMode - NonCombat */
-     , (4124,  68,          3) /* TargetingTactic */
+     , (4124,  68,          3) /* TargetingTactic - Random, Focused */
      , (4124,  72,         30) /* FriendType - Skeleton */
      , (4124,  81,          4) /* MaxGeneratedObjects */
      , (4124,  82,          4) /* InitGeneratedObjects */

@@ -9,7 +9,7 @@ VALUES (8231,   1,         16) /* ItemType - Creature */
      , (8231,   8,        120) /* Mass */
      , (8231,  16,         32) /* ItemUseable - Remote */
      , (8231,  25,         11) /* Level */
-     , (8231,  27,          0) /* ArmorType */
+     , (8231,  27,          0) /* ArmorType - None */
      , (8231,  74,     264200) /* MerchandiseItemTypes - Jewelry, Gem, PromissoryNote */
      , (8231,  75,          0) /* MerchandiseMinValue */
      , (8231,  76,      25000) /* MerchandiseMaxValue */

@@ -10,7 +10,7 @@ VALUES (2301,   1,         16) /* ItemType - Creature */
      , (2301,   8,        120) /* Mass */
      , (2301,  16,         32) /* ItemUseable - Remote */
      , (2301,  25,          8) /* Level */
-     , (2301,  27,          0) /* ArmorType */
+     , (2301,  27,          0) /* ArmorType - None */
      , (2301,  74,     262148) /* MerchandiseItemTypes - Clothing, PromissoryNote */
      , (2301,  75,          0) /* MerchandiseMinValue */
      , (2301,  76,     100000) /* MerchandiseMaxValue */

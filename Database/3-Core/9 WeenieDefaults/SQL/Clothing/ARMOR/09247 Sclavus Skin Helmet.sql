@@ -10,7 +10,7 @@ VALUES (9247,   1,          2) /* ItemType - Armor */
      , (9247,   9,          1) /* ValidLocations - HeadWear */
      , (9247,  16,          1) /* ItemUseable - No */
      , (9247,  19,       1100) /* Value */
-     , (9247,  27,          4) /* ArmorType */
+     , (9247,  27,          4) /* ArmorType - StuddedLeather */
      , (9247,  28,        200) /* ArmorLevel */
      , (9247,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (9247, 150,        103) /* HookPlacement - Hook */

@@ -10,7 +10,7 @@ VALUES (76,   1,          2) /* ItemType - Armor */
      , (76,   9,          1) /* ValidLocations - HeadWear */
      , (76,  16,          1) /* ItemUseable - No */
      , (76,  19,        819) /* Value */
-     , (76,  27,         32) /* ArmorType */
+     , (76,  27,         32) /* ArmorType - Metal */
      , (76,  28,        100) /* ArmorLevel */
      , (76,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (76, 150,        103) /* HookPlacement - Hook */

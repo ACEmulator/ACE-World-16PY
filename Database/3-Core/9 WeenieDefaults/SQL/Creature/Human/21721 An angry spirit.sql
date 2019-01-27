@@ -9,8 +9,8 @@ VALUES (21721,   1,         16) /* ItemType - Creature */
      , (21721,   8,        120) /* Mass */
      , (21721,  16,          1) /* ItemUseable - No */
      , (21721,  25,         68) /* Level */
-     , (21721,  27,          0) /* ArmorType */
-     , (21721,  67,          1) /* Tolerance */
+     , (21721,  27,          0) /* ArmorType - None */
+     , (21721,  67,          1) /* Tolerance - NoAttack */
      , (21721,  93,    6292508) /* PhysicsState - Ethereal, ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (21721,  95,          8) /* RadarBlipColor - Yellow */
      , (21721, 133,          0) /* ShowableOnRadar - Undefined */

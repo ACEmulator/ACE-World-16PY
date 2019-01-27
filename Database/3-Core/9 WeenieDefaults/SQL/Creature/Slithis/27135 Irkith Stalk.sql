@@ -8,9 +8,9 @@ VALUES (27135,   1,         16) /* ItemType - Creature */
      , (27135,   7,         -1) /* ContainersCapacity */
      , (27135,  16,          1) /* ItemUseable - No */
      , (27135,  25,         95) /* Level */
-     , (27135,  27,          0) /* ArmorType */
+     , (27135,  27,          0) /* ArmorType - None */
      , (27135,  40,          2) /* CombatMode - Melee */
-     , (27135,  68,         13) /* TargetingTactic */
+     , (27135,  68,         13) /* TargetingTactic - Random, LastDamager, TopDamager */
      , (27135,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (27135, 101,        183) /* AiAllowedCombatStyle - Unarmed, OneHanded, OneHandedAndShield, Bow, Crossbow, ThrownWeapon */
      , (27135, 133,          2) /* ShowableOnRadar - ShowMovement */

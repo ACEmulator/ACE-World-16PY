@@ -10,7 +10,7 @@ VALUES (28860,   1,          4) /* ItemType - Clothing */
      , (28860,   9,      32512) /* ValidLocations - Armor */
      , (28860,  16,          1) /* ItemUseable - No */
      , (28860,  19,       1000) /* Value */
-     , (28860,  27,          1) /* ArmorType */
+     , (28860,  27,          1) /* ArmorType - Cloth */
      , (28860,  28,         10) /* ArmorLevel */
      , (28860,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (28860, 150,        103) /* HookPlacement - Hook */

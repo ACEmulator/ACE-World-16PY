@@ -9,9 +9,9 @@ VALUES (8215,   1,         16) /* ItemType - Creature */
      , (8215,   7,         -1) /* ContainersCapacity */
      , (8215,  16,          1) /* ItemUseable - No */
      , (8215,  25,         25) /* Level */
-     , (8215,  27,          0) /* ArmorType */
+     , (8215,  27,          0) /* ArmorType - None */
      , (8215,  40,          2) /* CombatMode - Melee */
-     , (8215,  68,          3) /* TargetingTactic */
+     , (8215,  68,          3) /* TargetingTactic - Random, Focused */
      , (8215,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (8215, 101,        129) /* AiAllowedCombatStyle - Unarmed, ThrownWeapon */
      , (8215, 133,          2) /* ShowableOnRadar - ShowMovement */

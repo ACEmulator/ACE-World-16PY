@@ -9,8 +9,8 @@ VALUES (25967,   1,         16) /* ItemType - Creature */
      , (25967,   8,        120) /* Mass */
      , (25967,  16,          1) /* ItemUseable - No */
      , (25967,  25,         79) /* Level */
-     , (25967,  27,          0) /* ArmorType */
-     , (25967,  68,         13) /* TargetingTactic */
+     , (25967,  27,          0) /* ArmorType - None */
+     , (25967,  68,         13) /* TargetingTactic - Random, LastDamager, TopDamager */
      , (25967,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (25967, 101,        131) /* AiAllowedCombatStyle - Unarmed, OneHanded, ThrownWeapon */
      , (25967, 133,          2) /* ShowableOnRadar - ShowMovement */

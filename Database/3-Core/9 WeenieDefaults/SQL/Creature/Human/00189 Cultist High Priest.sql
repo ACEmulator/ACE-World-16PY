@@ -9,8 +9,8 @@ VALUES (189,   1,         16) /* ItemType - Creature */
      , (189,   8,        120) /* Mass */
      , (189,  16,          1) /* ItemUseable - No */
      , (189,  25,         95) /* Level */
-     , (189,  27,          0) /* ArmorType */
-     , (189,  68,         13) /* TargetingTactic */
+     , (189,  27,          0) /* ArmorType - None */
+     , (189,  68,         13) /* TargetingTactic - Random, LastDamager, TopDamager */
      , (189,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (189, 101,        131) /* AiAllowedCombatStyle - Unarmed, OneHanded, ThrownWeapon */
      , (189, 133,          2) /* ShowableOnRadar - ShowMovement */

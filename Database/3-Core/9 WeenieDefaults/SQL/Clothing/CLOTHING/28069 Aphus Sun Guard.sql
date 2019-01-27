@@ -10,7 +10,7 @@ VALUES (28069,   1,          4) /* ItemType - Clothing */
      , (28069,   9,          1) /* ValidLocations - HeadWear */
      , (28069,  16,          1) /* ItemUseable - No */
      , (28069,  19,       6000) /* Value */
-     , (28069,  27,          1) /* ArmorType */
+     , (28069,  27,          1) /* ArmorType - Cloth */
      , (28069,  28,          0) /* ArmorLevel */
      , (28069,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (28069, 106,        250) /* ItemSpellcraft */

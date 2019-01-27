@@ -10,7 +10,7 @@ VALUES (6605,   1,          2) /* ItemType - Armor */
      , (6605,   9,      25600) /* ValidLocations - AbdomenArmor, UpperLegArmor, LowerLegArmor */
      , (6605,  16,          1) /* ItemUseable - No */
      , (6605,  19,       3040) /* Value */
-     , (6605,  27,          2) /* ArmorType */
+     , (6605,  27,          2) /* ArmorType - Leather */
      , (6605,  28,        130) /* ArmorLevel */
      , (6605,  33,          1) /* Bonded - Bonded */
      , (6605,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;

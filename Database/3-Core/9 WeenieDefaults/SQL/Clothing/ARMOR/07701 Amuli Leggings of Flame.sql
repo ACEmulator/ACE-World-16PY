@@ -10,7 +10,7 @@ VALUES (7701,   1,          2) /* ItemType - Armor */
      , (7701,   9,      25600) /* ValidLocations - AbdomenArmor, UpperLegArmor, LowerLegArmor */
      , (7701,  16,          1) /* ItemUseable - No */
      , (7701,  19,       3040) /* Value */
-     , (7701,  27,          2) /* ArmorType */
+     , (7701,  27,          2) /* ArmorType - Leather */
      , (7701,  28,        140) /* ArmorLevel */
      , (7701,  33,          1) /* Bonded - Bonded */
      , (7701,  36,       9999) /* ResistMagic */

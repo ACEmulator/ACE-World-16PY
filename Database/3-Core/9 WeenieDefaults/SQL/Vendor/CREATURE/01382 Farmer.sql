@@ -9,7 +9,7 @@ VALUES (1382,   1,         16) /* ItemType - Creature */
      , (1382,   8,        120) /* Mass */
      , (1382,  16,         32) /* ItemUseable - Remote */
      , (1382,  25,          8) /* Level */
-     , (1382,  27,          0) /* ArmorType */
+     , (1382,  27,          0) /* ArmorType - None */
      , (1382,  74,        544) /* MerchandiseItemTypes - Food, Container */
      , (1382,  75,          0) /* MerchandiseMinValue */
      , (1382,  76,     100000) /* MerchandiseMaxValue */

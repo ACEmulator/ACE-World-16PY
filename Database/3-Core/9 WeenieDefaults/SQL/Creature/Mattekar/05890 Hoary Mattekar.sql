@@ -10,7 +10,7 @@ VALUES (5890,   1,         16) /* ItemType - Creature */
      , (5890,  16,          1) /* ItemUseable - No */
      , (5890,  25,         85) /* Level */
      , (5890,  40,          2) /* CombatMode - Melee */
-     , (5890,  68,          3) /* TargetingTactic */
+     , (5890,  68,          3) /* TargetingTactic - Random, Focused */
      , (5890,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (5890, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (5890, 146,      20363) /* XpOverride */;

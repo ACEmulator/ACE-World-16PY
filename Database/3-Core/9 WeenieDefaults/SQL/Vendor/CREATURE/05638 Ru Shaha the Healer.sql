@@ -9,7 +9,7 @@ VALUES (5638,   1,         16) /* ItemType - Creature */
      , (5638,   8,        120) /* Mass */
      , (5638,  16,         32) /* ItemUseable - Remote */
      , (5638,  25,          8) /* Level */
-     , (5638,  27,          0) /* ArmorType */
+     , (5638,  27,          0) /* ArmorType - None */
      , (5638,  74,     262272) /* MerchandiseItemTypes - Misc, PromissoryNote */
      , (5638,  75,          0) /* MerchandiseMinValue */
      , (5638,  76,      25000) /* MerchandiseMaxValue */

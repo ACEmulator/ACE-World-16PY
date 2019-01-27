@@ -9,7 +9,7 @@ VALUES (15869,   1,          2) /* ItemType - Armor */
      , (15869,   9,    2097152) /* ValidLocations - Shield */
      , (15869,  16,          1) /* ItemUseable - No */
      , (15869,  19,       3000) /* Value */
-     , (15869,  27,          2) /* ArmorType */
+     , (15869,  27,          2) /* ArmorType - Leather */
      , (15869,  28,         60) /* ArmorLevel */
      , (15869,  51,          4) /* CombatUse - Shield */
      , (15869,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */

@@ -10,7 +10,7 @@ VALUES (9390,   1,          2) /* ItemType - Armor */
      , (9390,   9,       7680) /* ValidLocations - ChestArmor, AbdomenArmor, UpperArmArmor, LowerArmArmor */
      , (9390,  16,          1) /* ItemUseable - No */
      , (9390,  19,       2300) /* Value */
-     , (9390,  27,         32) /* ArmorType */
+     , (9390,  27,         32) /* ArmorType - Metal */
      , (9390,  28,        160) /* ArmorLevel */
      , (9390,  33,          1) /* Bonded - Bonded */
      , (9390,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;

@@ -9,9 +9,9 @@ VALUES (1356,   1,         16) /* ItemType - Creature */
      , (1356,   7,         -1) /* ContainersCapacity */
      , (1356,  16,          1) /* ItemUseable - No */
      , (1356,  25,         12) /* Level */
-     , (1356,  27,          0) /* ArmorType */
+     , (1356,  27,          0) /* ArmorType - None */
      , (1356,  40,          2) /* CombatMode - Melee */
-     , (1356,  68,          3) /* TargetingTactic */
+     , (1356,  68,          3) /* TargetingTactic - Random, Focused */
      , (1356,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (1356, 101,        131) /* AiAllowedCombatStyle - Unarmed, OneHanded, ThrownWeapon */
      , (1356, 133,          4) /* ShowableOnRadar - ShowAlways */

@@ -9,7 +9,7 @@ VALUES (6082,   1,         16) /* ItemType - Creature */
      , (6082,   8,        120) /* Mass */
      , (6082,  16,         32) /* ItemUseable - Remote */
      , (6082,  25,         12) /* Level */
-     , (6082,  27,          0) /* ArmorType */
+     , (6082,  27,          0) /* ArmorType - None */
      , (6082,  74,    4194304) /* MerchandiseItemTypes - CraftCookingBase */
      , (6082,  75,          0) /* MerchandiseMinValue */
      , (6082,  76,     100000) /* MerchandiseMaxValue */

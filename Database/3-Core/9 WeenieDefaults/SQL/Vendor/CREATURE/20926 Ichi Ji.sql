@@ -9,7 +9,7 @@ VALUES (20926,   1,         16) /* ItemType - Creature */
      , (20926,   8,        120) /* Mass */
      , (20926,  16,         32) /* ItemUseable - Remote */
      , (20926,  25,          8) /* Level */
-     , (20926,  27,          0) /* ArmorType */
+     , (20926,  27,          0) /* ArmorType - None */
      , (20926,  74,  134508463) /* MerchandiseItemTypes - Vestements, Jewelry, Food, Weapon, LockableMagicTarget, Useless, Gem, Writable, Key, PromissoryNote, CraftFletchingIntermediate */
      , (20926,  75,          0) /* MerchandiseMinValue */
      , (20926,  76,      25000) /* MerchandiseMaxValue */

@@ -9,7 +9,7 @@ VALUES (2539,   1,         16) /* ItemType - Creature */
      , (2539,   8,        120) /* Mass */
      , (2539,  16,         32) /* ItemUseable - Remote */
      , (2539,  25,          8) /* Level */
-     , (2539,  27,          0) /* ArmorType */
+     , (2539,  27,          0) /* ArmorType - None */
      , (2539,  74,        544) /* MerchandiseItemTypes - Food, Container */
      , (2539,  75,          0) /* MerchandiseMinValue */
      , (2539,  76,     100000) /* MerchandiseMaxValue */

@@ -9,7 +9,7 @@ VALUES (15402,   1,          2) /* ItemType - Armor */
      , (15402,   9,    2097152) /* ValidLocations - Shield */
      , (15402,  16,          1) /* ItemUseable - No */
      , (15402,  19,        120) /* Value */
-     , (15402,  27,          2) /* ArmorType */
+     , (15402,  27,          2) /* ArmorType - Leather */
      , (15402,  28,         75) /* ArmorLevel */
      , (15402,  33,         -2) /* Bonded - Destroy */
      , (15402,  37,       9999) /* ResistItemAppraisal */

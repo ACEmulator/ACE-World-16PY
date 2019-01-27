@@ -9,9 +9,9 @@ VALUES (25871,   1,         16) /* ItemType - Creature */
      , (25871,   7,         -1) /* ContainersCapacity */
      , (25871,  16,          1) /* ItemUseable - No */
      , (25871,  25,        145) /* Level */
-     , (25871,  27,          0) /* ArmorType */
+     , (25871,  27,          0) /* ArmorType - None */
      , (25871,  40,          2) /* CombatMode - Melee */
-     , (25871,  68,          5) /* TargetingTactic */
+     , (25871,  68,          5) /* TargetingTactic - Random, LastDamager */
      , (25871,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (25871, 101,        129) /* AiAllowedCombatStyle - Unarmed, ThrownWeapon */
      , (25871, 133,          2) /* ShowableOnRadar - ShowMovement */

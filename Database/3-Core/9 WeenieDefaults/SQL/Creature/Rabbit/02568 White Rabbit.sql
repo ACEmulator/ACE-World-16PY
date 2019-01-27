@@ -9,10 +9,10 @@ VALUES (2568,   1,         16) /* ItemType - Creature */
      , (2568,   7,         -1) /* ContainersCapacity */
      , (2568,  16,          1) /* ItemUseable - No */
      , (2568,  25,        666) /* Level */
-     , (2568,  27,          0) /* ArmorType */
+     , (2568,  27,          0) /* ArmorType - None */
      , (2568,  40,          2) /* CombatMode - Melee */
-     , (2568,  67,          2) /* Tolerance */
-     , (2568,  68,          1) /* TargetingTactic */
+     , (2568,  67,          2) /* Tolerance - Appraise */
+     , (2568,  68,          1) /* TargetingTactic - Random */
      , (2568,  72,         41) /* FriendType - Bunny */
      , (2568,  81,          1) /* MaxGeneratedObjects */
      , (2568,  82,          1) /* InitGeneratedObjects */

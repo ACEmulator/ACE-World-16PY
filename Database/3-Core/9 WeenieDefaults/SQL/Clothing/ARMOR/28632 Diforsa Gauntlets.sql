@@ -10,7 +10,7 @@ VALUES (28632,   1,          2) /* ItemType - Armor */
      , (28632,   9,         32) /* ValidLocations - HandWear */
      , (28632,  16,          1) /* ItemUseable - No */
      , (28632,  19,        980) /* Value */
-     , (28632,  27,         32) /* ArmorType */
+     , (28632,  27,         32) /* ArmorType - Metal */
      , (28632,  28,        100) /* ArmorLevel */
      , (28632,  44,          3) /* Damage */
      , (28632,  45,          4) /* DamageType - Bludgeon */

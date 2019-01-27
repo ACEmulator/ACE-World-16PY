@@ -9,7 +9,7 @@ VALUES (12176,   1,         16) /* ItemType - Creature */
      , (12176,   8,        120) /* Mass */
      , (12176,  16,         32) /* ItemUseable - Remote */
      , (12176,  25,         22) /* Level */
-     , (12176,  27,          0) /* ArmorType */
+     , (12176,  27,          0) /* ArmorType - None */
      , (12176,  74,     262144) /* MerchandiseItemTypes - PromissoryNote */
      , (12176,  75,          0) /* MerchandiseMinValue */
      , (12176,  76,     100000) /* MerchandiseMaxValue */

@@ -9,7 +9,7 @@ VALUES (866,   1,         16) /* ItemType - Creature */
      , (866,   8,        120) /* Mass */
      , (866,  16,         32) /* ItemUseable - Remote */
      , (866,  25,          5) /* Level */
-     , (866,  27,          0) /* ArmorType */
+     , (866,  27,          0) /* ArmorType - None */
      , (866,  74,    4473376) /* MerchandiseItemTypes - Food, Container, Key, PromissoryNote, CraftCookingBase */
      , (866,  75,          0) /* MerchandiseMinValue */
      , (866,  76,     100000) /* MerchandiseMaxValue */

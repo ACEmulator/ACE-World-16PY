@@ -10,8 +10,8 @@ VALUES (20194,   1,         16) /* ItemType - Creature */
      , (20194,   8,        120) /* Mass */
      , (20194,  16,          1) /* ItemUseable - No */
      , (20194,  25,        126) /* Level */
-     , (20194,  27,          0) /* ArmorType */
-     , (20194,  67,         64) /* Tolerance */
+     , (20194,  27,          0) /* ArmorType - None */
+     , (20194,  67,         64) /* Tolerance - Retaliate */
      , (20194,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (20194,  95,          8) /* RadarBlipColor - Yellow */
      , (20194, 101,        131) /* AiAllowedCombatStyle - Unarmed, OneHanded, ThrownWeapon */

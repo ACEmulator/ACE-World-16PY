@@ -10,9 +10,9 @@ VALUES (25748,   1,         16) /* ItemType - Creature */
      , (25748,   8,       8000) /* Mass */
      , (25748,  16,          1) /* ItemUseable - No */
      , (25748,  25,         18) /* Level */
-     , (25748,  27,          0) /* ArmorType */
+     , (25748,  27,          0) /* ArmorType - None */
      , (25748,  40,          2) /* CombatMode - Melee */
-     , (25748,  68,         13) /* TargetingTactic */
+     , (25748,  68,         13) /* TargetingTactic - Random, LastDamager, TopDamager */
      , (25748,  93,    4195336) /* PhysicsState - ReportCollisions, Gravity, EdgeSlide */
      , (25748, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (25748, 146,       1156) /* XpOverride */;

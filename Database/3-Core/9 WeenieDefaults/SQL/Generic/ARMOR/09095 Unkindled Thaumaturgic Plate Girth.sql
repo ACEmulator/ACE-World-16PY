@@ -10,7 +10,7 @@ VALUES (9095,   1,          2) /* ItemType - Armor */
      , (9095,   9,          0) /* ValidLocations - None */
      , (9095,  16,          1) /* ItemUseable - No */
      , (9095,  19,         15) /* Value */
-     , (9095,  27,         32) /* ArmorType */
+     , (9095,  27,         32) /* ArmorType - Metal */
      , (9095,  28,          0) /* ArmorLevel */
      , (9095,  33,          1) /* Bonded - Bonded */
      , (9095,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */

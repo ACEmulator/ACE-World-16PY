@@ -9,7 +9,7 @@ VALUES (44,   1,          2) /* ItemType - Armor */
      , (44,   9,    2097152) /* ValidLocations - Shield */
      , (44,  16,          1) /* ItemUseable - No */
      , (44,  19,         80) /* Value */
-     , (44,  27,          2) /* ArmorType */
+     , (44,  27,          2) /* ArmorType - Leather */
      , (44,  28,         10) /* ArmorLevel */
      , (44,  51,          4) /* CombatUse - Shield */
      , (44,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */

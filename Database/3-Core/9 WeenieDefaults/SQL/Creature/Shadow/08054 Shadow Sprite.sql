@@ -10,7 +10,7 @@ VALUES (8054,   1,         16) /* ItemType - Creature */
      , (8054,  16,          1) /* ItemUseable - No */
      , (8054,  25,          2) /* Level */
      , (8054,  40,          2) /* CombatMode - Melee */
-     , (8054,  68,         15) /* TargetingTactic */
+     , (8054,  68,         15) /* TargetingTactic - Random, Focused, LastDamager, TopDamager */
      , (8054,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (8054, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (8054, 146,         25) /* XpOverride */;

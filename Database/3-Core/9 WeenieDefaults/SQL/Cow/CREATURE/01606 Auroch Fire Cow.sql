@@ -8,10 +8,10 @@ VALUES (1606,   1,         16) /* ItemType - Creature */
      , (1606,   7,         -1) /* ContainersCapacity */
      , (1606,  16,          1) /* ItemUseable - No */
      , (1606,  25,         18) /* Level */
-     , (1606,  27,          0) /* ArmorType */
+     , (1606,  27,          0) /* ArmorType - None */
      , (1606,  40,          2) /* CombatMode - Melee */
-     , (1606,  67,         64) /* Tolerance */
-     , (1606,  68,          5) /* TargetingTactic */
+     , (1606,  67,         64) /* Tolerance - Retaliate */
+     , (1606,  68,          5) /* TargetingTactic - Random, LastDamager */
      , (1606,  72,         12) /* FriendType - Cow */
      , (1606,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (1606, 133,          4) /* ShowableOnRadar - ShowAlways */

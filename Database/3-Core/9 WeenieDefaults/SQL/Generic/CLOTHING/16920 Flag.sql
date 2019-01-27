@@ -10,7 +10,7 @@ VALUES (16920,   1,          4) /* ItemType - Clothing */
      , (16920,   9,   16777216) /* ValidLocations - Held */
      , (16920,  16,          1) /* ItemUseable - No */
      , (16920,  19,        500) /* Value */
-     , (16920,  27,          1) /* ArmorType */
+     , (16920,  27,          1) /* ArmorType - Cloth */
      , (16920,  28,          0) /* ArmorLevel */
      , (16920,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (16920, 150,        103) /* HookPlacement - Hook */

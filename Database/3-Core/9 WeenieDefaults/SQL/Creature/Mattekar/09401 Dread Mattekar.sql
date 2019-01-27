@@ -10,7 +10,7 @@ VALUES (9401,   1,         16) /* ItemType - Creature */
      , (9401,  16,          1) /* ItemUseable - No */
      , (9401,  25,         44) /* Level */
      , (9401,  40,          2) /* CombatMode - Melee */
-     , (9401,  68,          3) /* TargetingTactic */
+     , (9401,  68,          3) /* TargetingTactic - Random, Focused */
      , (9401,  72,          5) /* FriendType - Lugian */
      , (9401,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (9401, 133,          4) /* ShowableOnRadar - ShowAlways */

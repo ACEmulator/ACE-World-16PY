@@ -9,7 +9,7 @@ VALUES (5427,   1,         16) /* ItemType - Creature */
      , (5427,   8,        120) /* Mass */
      , (5427,  16,         32) /* ItemUseable - Remote */
      , (5427,  25,          8) /* Level */
-     , (5427,  27,          0) /* ArmorType */
+     , (5427,  27,          0) /* ArmorType - None */
      , (5427,  74,     262272) /* MerchandiseItemTypes - Misc, PromissoryNote */
      , (5427,  75,          0) /* MerchandiseMinValue */
      , (5427,  76,     100000) /* MerchandiseMaxValue */

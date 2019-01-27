@@ -8,10 +8,10 @@ VALUES (28390,   1,         16) /* ItemType - Creature */
      , (28390,   7,         -1) /* ContainersCapacity */
      , (28390,  16,          1) /* ItemUseable - No */
      , (28390,  25,        999) /* Level */
-     , (28390,  27,          0) /* ArmorType */
+     , (28390,  27,          0) /* ArmorType - None */
      , (28390,  40,          1) /* CombatMode - NonCombat */
-     , (28390,  67,          1) /* Tolerance */
-     , (28390,  68,          5) /* TargetingTactic */
+     , (28390,  67,          1) /* Tolerance - NoAttack */
+     , (28390,  68,          5) /* TargetingTactic - Random, LastDamager */
      , (28390,  72,         75) /* FriendType - Burun */
      , (28390,  81,         13) /* MaxGeneratedObjects */
      , (28390,  82,         13) /* InitGeneratedObjects */

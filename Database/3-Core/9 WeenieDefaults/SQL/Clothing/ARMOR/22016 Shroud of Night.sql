@@ -11,7 +11,7 @@ VALUES (22016,   1,          2) /* ItemType - Armor */
      , (22016,  16,          1) /* ItemUseable - No */
      , (22016,  18,          1) /* UiEffects - Magical */
      , (22016,  19,       6000) /* Value */
-     , (22016,  27,          2) /* ArmorType */
+     , (22016,  27,          2) /* ArmorType - Leather */
      , (22016,  28,        270) /* ArmorLevel */
      , (22016,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (22016, 106,        300) /* ItemSpellcraft */

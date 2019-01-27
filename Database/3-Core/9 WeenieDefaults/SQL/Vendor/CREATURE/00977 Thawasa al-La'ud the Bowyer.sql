@@ -9,7 +9,7 @@ VALUES (977,   1,         16) /* ItemType - Creature */
      , (977,   8,        120) /* Mass */
      , (977,  16,         32) /* ItemUseable - Remote */
      , (977,  25,          7) /* Level */
-     , (977,  27,          0) /* ArmorType */
+     , (977,  27,          0) /* ArmorType - None */
      , (977,  74,  134480129) /* MerchandiseItemTypes - Weapon, PromissoryNote, CraftFletchingIntermediate */
      , (977,  75,          0) /* MerchandiseMinValue */
      , (977,  76,      25000) /* MerchandiseMaxValue */

@@ -9,7 +9,7 @@ VALUES (24595,   1,         16) /* ItemType - Creature */
      , (24595,   8,        120) /* Mass */
      , (24595,  16,         32) /* ItemUseable - Remote */
      , (24595,  25,         85) /* Level */
-     , (24595,  27,          0) /* ArmorType */
+     , (24595,  27,          0) /* ArmorType - None */
      , (24595,  74, 1841589932) /* MerchandiseItemTypes - 1841589932 */
      , (24595,  75,          0) /* MerchandiseMinValue */
      , (24595,  76,    1000000) /* MerchandiseMaxValue */

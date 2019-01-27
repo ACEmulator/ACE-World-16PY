@@ -11,7 +11,7 @@ VALUES (1454,   1,          2) /* ItemType - Armor */
      , (1454,  16,          1) /* ItemUseable - No */
      , (1454,  18,        256) /* UiEffects - Acid */
      , (1454,  19,       1760) /* Value */
-     , (1454,  27,         32) /* ArmorType */
+     , (1454,  27,         32) /* ArmorType - Metal */
      , (1454,  28,         60) /* ArmorLevel */
      , (1454,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
 

@@ -9,9 +9,9 @@ VALUES (11,   1,         16) /* ItemType - Creature */
      , (11,   7,         -1) /* ContainersCapacity */
      , (11,  16,          1) /* ItemUseable - No */
      , (11,  25,         21) /* Level */
-     , (11,  27,          0) /* ArmorType */
+     , (11,  27,          0) /* ArmorType - None */
      , (11,  40,          2) /* CombatMode - Melee */
-     , (11,  68,          9) /* TargetingTactic */
+     , (11,  68,          9) /* TargetingTactic - Random, TopDamager */
      , (11,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (11, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (11, 146,       1127) /* XpOverride */;

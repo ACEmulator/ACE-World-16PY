@@ -11,7 +11,7 @@ VALUES (21373,   1,          2) /* ItemType - Armor */
      , (21373,  16,          1) /* ItemUseable - No */
      , (21373,  18,          1) /* UiEffects - Magical */
      , (21373,  19,       2000) /* Value */
-     , (21373,  27,          2) /* ArmorType */
+     , (21373,  27,          2) /* ArmorType - Leather */
      , (21373,  28,        150) /* ArmorLevel */
      , (21373,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (21373, 150,        103) /* HookPlacement - Hook */

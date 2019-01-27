@@ -9,13 +9,13 @@ VALUES (11507,   1,         16) /* ItemType - Creature */
      , (11507,   7,         -1) /* ContainersCapacity */
      , (11507,  16,          1) /* ItemUseable - No */
      , (11507,  25,         18) /* Level */
-     , (11507,  27,          0) /* ArmorType */
-     , (11507,  67,         64) /* Tolerance */
-     , (11507,  68,          5) /* TargetingTactic */
+     , (11507,  27,          0) /* ArmorType - None */
+     , (11507,  67,         64) /* Tolerance - Retaliate */
+     , (11507,  68,          5) /* TargetingTactic - Random, LastDamager */
      , (11507,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (11507, 101,        183) /* AiAllowedCombatStyle - Unarmed, OneHanded, OneHandedAndShield, Bow, Crossbow, ThrownWeapon */
      , (11507, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (11507, 140,          1) /* AiOptions */
+     , (11507, 140,          1) /* AiOptions - CanOpenDoors */
      , (11507, 146,       1147) /* XpOverride */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)

@@ -10,7 +10,7 @@ VALUES (9417,   1,         16) /* ItemType - Creature */
      , (9417,   8,        120) /* Mass */
      , (9417,  16,         32) /* ItemUseable - Remote */
      , (9417,  25,         73) /* Level */
-     , (9417,  27,          0) /* ArmorType */
+     , (9417,  27,          0) /* ArmorType - None */
      , (9417,  74,     266368) /* MerchandiseItemTypes - Misc, SpellComponents, PromissoryNote */
      , (9417,  75,          0) /* MerchandiseMinValue */
      , (9417,  76,     100000) /* MerchandiseMaxValue */

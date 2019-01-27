@@ -9,9 +9,9 @@ VALUES (11994,   1,         16) /* ItemType - Creature */
      , (11994,   7,         -1) /* ContainersCapacity */
      , (11994,  16,          1) /* ItemUseable - No */
      , (11994,  25,         70) /* Level */
-     , (11994,  27,          0) /* ArmorType */
+     , (11994,  27,          0) /* ArmorType - None */
      , (11994,  40,          2) /* CombatMode - Melee */
-     , (11994,  68,          3) /* TargetingTactic */
+     , (11994,  68,          3) /* TargetingTactic - Random, Focused */
      , (11994,  81,          4) /* MaxGeneratedObjects */
      , (11994,  82,          4) /* InitGeneratedObjects */
      , (11994,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */

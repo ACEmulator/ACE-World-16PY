@@ -9,7 +9,7 @@ VALUES (222,   1,         16) /* ItemType - Creature */
      , (222,  16,          1) /* ItemUseable - No */
      , (222,  25,         14) /* Level */
      , (222,  40,          2) /* CombatMode - Melee */
-     , (222,  68,         13) /* TargetingTactic */
+     , (222,  68,         13) /* TargetingTactic - Random, LastDamager, TopDamager */
      , (222,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (222, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (222, 146,        827) /* XpOverride */;

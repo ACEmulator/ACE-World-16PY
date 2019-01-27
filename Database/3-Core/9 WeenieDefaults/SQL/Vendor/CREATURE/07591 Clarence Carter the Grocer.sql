@@ -9,7 +9,7 @@ VALUES (7591,   1,         16) /* ItemType - Creature */
      , (7591,   8,        250) /* Mass */
      , (7591,  16,         32) /* ItemUseable - Remote */
      , (7591,  25,         49) /* Level */
-     , (7591,  27,          0) /* ArmorType */
+     , (7591,  27,          0) /* ArmorType - None */
      , (7591,  74, 1208248231) /* MerchandiseItemTypes - VendorShopKeep */
      , (7591,  75,          0) /* MerchandiseMinValue */
      , (7591,  76,     100000) /* MerchandiseMaxValue */

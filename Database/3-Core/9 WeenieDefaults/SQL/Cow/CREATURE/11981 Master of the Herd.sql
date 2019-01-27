@@ -9,10 +9,10 @@ VALUES (11981,   1,         16) /* ItemType - Creature */
      , (11981,   7,         -1) /* ContainersCapacity */
      , (11981,  16,          1) /* ItemUseable - No */
      , (11981,  25,         23) /* Level */
-     , (11981,  27,          0) /* ArmorType */
+     , (11981,  27,          0) /* ArmorType - None */
      , (11981,  40,          2) /* CombatMode - Melee */
-     , (11981,  67,         64) /* Tolerance */
-     , (11981,  68,          5) /* TargetingTactic */
+     , (11981,  67,         64) /* Tolerance - Retaliate */
+     , (11981,  68,          5) /* TargetingTactic - Random, LastDamager */
      , (11981,  72,         12) /* FriendType - Cow */
      , (11981,  81,          4) /* MaxGeneratedObjects */
      , (11981,  82,          4) /* InitGeneratedObjects */

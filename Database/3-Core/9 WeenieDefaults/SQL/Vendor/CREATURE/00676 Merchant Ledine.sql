@@ -9,7 +9,7 @@ VALUES (676,   1,         16) /* ItemType - Creature */
      , (676,   8,        120) /* Mass */
      , (676,  16,         32) /* ItemUseable - Remote */
      , (676,  25,          7) /* Level */
-     , (676,  27,          0) /* ArmorType */
+     , (676,  27,          0) /* ArmorType - None */
      , (676,  74, 1208248231) /* MerchandiseItemTypes - VendorShopKeep */
      , (676,  75,          0) /* MerchandiseMinValue */
      , (676,  76,     100000) /* MerchandiseMaxValue */

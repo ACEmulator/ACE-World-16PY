@@ -10,7 +10,7 @@ VALUES (9245,   1,          2) /* ItemType - Armor */
      , (9245,   9,       6656) /* ValidLocations - ChestArmor, UpperArmArmor, LowerArmArmor */
      , (9245,  16,          1) /* ItemUseable - No */
      , (9245,  19,       2890) /* Value */
-     , (9245,  27,          8) /* ArmorType */
+     , (9245,  27,          8) /* ArmorType - Scalemail */
      , (9245,  28,        130) /* ArmorLevel */
      , (9245,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
 

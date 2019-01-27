@@ -10,7 +10,7 @@ VALUES (9240,   1,          2) /* ItemType - Armor */
      , (9240,   9,        384) /* ValidLocations - LowerLegWear, FootWear */
      , (9240,  16,          1) /* ItemUseable - No */
      , (9240,  19,       1200) /* Value */
-     , (9240,  27,          4) /* ArmorType */
+     , (9240,  27,          4) /* ArmorType - StuddedLeather */
      , (9240,  28,        100) /* ArmorLevel */
      , (9240,  44,          3) /* Damage */
      , (9240,  45,          4) /* DamageType - Bludgeon */

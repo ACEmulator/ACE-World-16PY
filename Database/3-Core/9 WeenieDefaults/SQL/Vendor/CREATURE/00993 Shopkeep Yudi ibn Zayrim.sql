@@ -9,7 +9,7 @@ VALUES (993,   1,         16) /* ItemType - Creature */
      , (993,   8,        120) /* Mass */
      , (993,  16,         32) /* ItemUseable - Remote */
      , (993,  25,         13) /* Level */
-     , (993,  27,          0) /* ArmorType */
+     , (993,  27,          0) /* ArmorType - None */
      , (993,  74, 1208248231) /* MerchandiseItemTypes - VendorShopKeep */
      , (993,  75,          0) /* MerchandiseMinValue */
      , (993,  76,     100000) /* MerchandiseMaxValue */

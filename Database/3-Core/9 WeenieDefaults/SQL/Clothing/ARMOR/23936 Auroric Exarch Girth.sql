@@ -11,7 +11,7 @@ VALUES (23936,   1,          2) /* ItemType - Armor */
      , (23936,  16,          1) /* ItemUseable - No */
      , (23936,  18,          1) /* UiEffects - Magical */
      , (23936,  19,       4400) /* Value */
-     , (23936,  27,         32) /* ArmorType */
+     , (23936,  27,         32) /* ArmorType - Metal */
      , (23936,  28,        225) /* ArmorLevel */
      , (23936,  36,       9999) /* ResistMagic */
      , (23936,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */

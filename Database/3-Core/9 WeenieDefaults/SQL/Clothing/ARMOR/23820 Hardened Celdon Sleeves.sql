@@ -11,7 +11,7 @@ VALUES (23820,   1,          2) /* ItemType - Armor */
      , (23820,  16,          1) /* ItemUseable - No */
      , (23820,  18,          1) /* UiEffects - Magical */
      , (23820,  19,       1870) /* Value */
-     , (23820,  27,         32) /* ArmorType */
+     , (23820,  27,         32) /* ArmorType - Metal */
      , (23820,  28,        260) /* ArmorLevel */
      , (23820,  33,          1) /* Bonded - Bonded */
      , (23820,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */

@@ -10,7 +10,7 @@ VALUES (6842,   1,          2) /* ItemType - Armor */
      , (6842,   9,       7680) /* ValidLocations - ChestArmor, AbdomenArmor, UpperArmArmor, LowerArmArmor */
      , (6842,  16,          1) /* ItemUseable - No */
      , (6842,  19,       2450) /* Value */
-     , (6842,  27,         16) /* ArmorType */
+     , (6842,  27,         16) /* ArmorType - Chainmail */
      , (6842,  28,        100) /* ArmorLevel */
      , (6842,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
 

@@ -8,10 +8,10 @@ VALUES (10800,   1,         16) /* ItemType - Creature */
      , (10800,   7,         -1) /* ContainersCapacity */
      , (10800,  16,          1) /* ItemUseable - No */
      , (10800,  25,        115) /* Level */
-     , (10800,  27,          0) /* ArmorType */
+     , (10800,  27,          0) /* ArmorType - None */
      , (10800,  40,          2) /* CombatMode - Melee */
-     , (10800,  68,          5) /* TargetingTactic */
-     , (10800,  69,          4) /* CombatTactic */
+     , (10800,  68,          5) /* TargetingTactic - Random, LastDamager */
+     , (10800,  69,          4) /* CombatTactic - LastDamager */
      , (10800,  81,          4) /* MaxGeneratedObjects */
      , (10800,  82,          0) /* InitGeneratedObjects */
      , (10800,  93,       3080) /* PhysicsState - ReportCollisions, Gravity, LightingOn */

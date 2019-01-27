@@ -10,7 +10,7 @@ VALUES (25513,   1,          2) /* ItemType - Armor */
      , (25513,   9,       6656) /* ValidLocations - ChestArmor, UpperArmArmor, LowerArmArmor */
      , (25513,  16,          1) /* ItemUseable - No */
      , (25513,  19,       2610) /* Value */
-     , (25513,  27,          8) /* ArmorType */
+     , (25513,  27,          8) /* ArmorType - Scalemail */
      , (25513,  28,        130) /* ArmorLevel */
      , (25513,  33,          1) /* Bonded - Bonded */
      , (25513,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;

@@ -10,7 +10,7 @@ VALUES (22884,   1,          2) /* ItemType - Armor */
      , (22884,  16,          1) /* ItemUseable - No */
      , (22884,  18,          1) /* UiEffects - Magical */
      , (22884,  19,       2450) /* Value */
-     , (22884,  27,         16) /* ArmorType */
+     , (22884,  27,         16) /* ArmorType - Chainmail */
      , (22884,  28,        160) /* ArmorLevel */
      , (22884,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (22884, 106,        200) /* ItemSpellcraft */

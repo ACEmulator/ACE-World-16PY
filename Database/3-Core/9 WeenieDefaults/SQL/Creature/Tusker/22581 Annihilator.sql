@@ -9,9 +9,9 @@ VALUES (22581,   1,         16) /* ItemType - Creature */
      , (22581,   7,         -1) /* ContainersCapacity */
      , (22581,  16,          1) /* ItemUseable - No */
      , (22581,  25,        285) /* Level */
-     , (22581,  27,          0) /* ArmorType */
+     , (22581,  27,          0) /* ArmorType - None */
      , (22581,  40,          2) /* CombatMode - Melee */
-     , (22581,  68,          9) /* TargetingTactic */
+     , (22581,  68,          9) /* TargetingTactic - Random, TopDamager */
      , (22581,  72,          8) /* FriendType - Tusker */
      , (22581,  93,    4195336) /* PhysicsState - ReportCollisions, Gravity, EdgeSlide */
      , (22581, 133,          4) /* ShowableOnRadar - ShowAlways */

@@ -10,7 +10,7 @@ VALUES (30441,   1,         16) /* ItemType - Creature */
      , (30441,  16,          1) /* ItemUseable - No */
      , (30441,  25,          9) /* Level */
      , (30441,  40,          2) /* CombatMode - Melee */
-     , (30441,  68,         13) /* TargetingTactic */
+     , (30441,  68,         13) /* TargetingTactic - Random, LastDamager, TopDamager */
      , (30441,  93,    4195336) /* PhysicsState - ReportCollisions, Gravity, EdgeSlide */
      , (30441, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (30441, 146,        455) /* XpOverride */;

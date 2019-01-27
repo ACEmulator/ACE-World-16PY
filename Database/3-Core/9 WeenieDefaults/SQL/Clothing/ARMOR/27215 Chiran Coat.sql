@@ -10,7 +10,7 @@ VALUES (27215,   1,          2) /* ItemType - Armor */
      , (27215,   9,       6656) /* ValidLocations - ChestArmor, UpperArmArmor, LowerArmArmor */
      , (27215,  16,          1) /* ItemUseable - No */
      , (27215,  19,       1738) /* Value */
-     , (27215,  27,          8) /* ArmorType */
+     , (27215,  27,          8) /* ArmorType - Scalemail */
      , (27215,  28,         90) /* ArmorLevel */
      , (27215,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (27215, 169,  118097680) /* TsysMutationData */;

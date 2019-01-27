@@ -10,7 +10,7 @@ VALUES (84,   1,          2) /* ItemType - Armor */
      , (84,   9,      24576) /* ValidLocations - UpperLegArmor, LowerLegArmor */
      , (84,  16,          1) /* ItemUseable - No */
      , (84,  19,        210) /* Value */
-     , (84,  27,          4) /* ArmorType */
+     , (84,  27,          4) /* ArmorType - StuddedLeather */
      , (84,  28,         30) /* ArmorLevel */
      , (84,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (84, 169,  252379406) /* TsysMutationData */;

@@ -10,7 +10,7 @@ VALUES (30264,   1,          2) /* ItemType - Armor */
      , (30264,   9,          1) /* ValidLocations - HeadWear */
      , (30264,  16,          1) /* ItemUseable - No */
      , (30264,  19,      18000) /* Value */
-     , (30264,  27,         32) /* ArmorType */
+     , (30264,  27,         32) /* ArmorType - Metal */
      , (30264,  28,        440) /* ArmorLevel */
      , (30264,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (30264, 106,        335) /* ItemSpellcraft */

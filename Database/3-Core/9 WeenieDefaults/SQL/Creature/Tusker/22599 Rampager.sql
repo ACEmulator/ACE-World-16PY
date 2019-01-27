@@ -9,9 +9,9 @@ VALUES (22599,   1,         16) /* ItemType - Creature */
      , (22599,   7,         -1) /* ContainersCapacity */
      , (22599,  16,          1) /* ItemUseable - No */
      , (22599,  25,         95) /* Level */
-     , (22599,  27,          0) /* ArmorType */
+     , (22599,  27,          0) /* ArmorType - None */
      , (22599,  40,          2) /* CombatMode - Melee */
-     , (22599,  68,          9) /* TargetingTactic */
+     , (22599,  68,          9) /* TargetingTactic - Random, TopDamager */
      , (22599,  72,         19) /* FriendType - Virindi */
      , (22599,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (22599, 133,          4) /* ShowableOnRadar - ShowAlways */

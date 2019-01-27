@@ -10,7 +10,7 @@ VALUES (21159,   1,          2) /* ItemType - Armor */
      , (21159,   9,       8192) /* ValidLocations - UpperLegArmor */
      , (21159,  16,          1) /* ItemUseable - No */
      , (21159,  19,        653) /* Value */
-     , (21159,  27,         32) /* ArmorType */
+     , (21159,  27,         32) /* ArmorType - Metal */
      , (21159,  28,        200) /* ArmorLevel */
      , (21159,  36,       9999) /* ResistMagic */
      , (21159,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */

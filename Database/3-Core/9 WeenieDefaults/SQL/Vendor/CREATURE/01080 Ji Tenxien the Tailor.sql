@@ -9,7 +9,7 @@ VALUES (1080,   1,         16) /* ItemType - Creature */
      , (1080,   8,        120) /* Mass */
      , (1080,  16,         32) /* ItemUseable - Remote */
      , (1080,  25,          7) /* Level */
-     , (1080,  27,          0) /* ArmorType */
+     , (1080,  27,          0) /* ArmorType - None */
      , (1080,  74,          4) /* MerchandiseItemTypes - Clothing */
      , (1080,  75,          0) /* MerchandiseMinValue */
      , (1080,  76,      25000) /* MerchandiseMaxValue */

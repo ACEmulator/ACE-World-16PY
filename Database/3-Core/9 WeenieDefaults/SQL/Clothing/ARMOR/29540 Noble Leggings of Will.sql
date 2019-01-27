@@ -10,7 +10,7 @@ VALUES (29540,   1,          2) /* ItemType - Armor */
      , (29540,   9,      25600) /* ValidLocations - AbdomenArmor, UpperLegArmor, LowerLegArmor */
      , (29540,  16,          1) /* ItemUseable - No */
      , (29540,  19,       8000) /* Value */
-     , (29540,  27,          2) /* ArmorType */
+     , (29540,  27,          2) /* ArmorType - Leather */
      , (29540,  28,        400) /* ArmorLevel */
      , (29540,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (29540, 106,        400) /* ItemSpellcraft */

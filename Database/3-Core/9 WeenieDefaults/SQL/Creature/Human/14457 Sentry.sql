@@ -9,7 +9,7 @@ VALUES (14457,   1,         16) /* ItemType - Creature */
      , (14457,   8,        120) /* Mass */
      , (14457,  16,         32) /* ItemUseable - Remote */
      , (14457,  25,         35) /* Level */
-     , (14457,  27,          0) /* ArmorType */
+     , (14457,  27,          0) /* ArmorType - None */
      , (14457,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (14457,  95,          8) /* RadarBlipColor - Yellow */
      , (14457, 133,          4) /* ShowableOnRadar - ShowAlways */

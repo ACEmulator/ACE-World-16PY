@@ -9,7 +9,7 @@ VALUES (659,   1,         16) /* ItemType - Creature */
      , (659,   8,        120) /* Mass */
      , (659,  16,         32) /* ItemUseable - Remote */
      , (659,  25,          5) /* Level */
-     , (659,  27,          0) /* ArmorType */
+     , (659,  27,          0) /* ArmorType - None */
      , (659,  74,     278560) /* MerchandiseItemTypes - Food, Key, PromissoryNote */
      , (659,  75,          0) /* MerchandiseMinValue */
      , (659,  76,      25000) /* MerchandiseMaxValue */

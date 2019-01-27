@@ -9,10 +9,10 @@ VALUES (21390,   1,         16) /* ItemType - Creature */
      , (21390,   7,         -1) /* ContainersCapacity */
      , (21390,  16,          1) /* ItemUseable - No */
      , (21390,  25,        750) /* Level */
-     , (21390,  27,          0) /* ArmorType */
+     , (21390,  27,          0) /* ArmorType - None */
      , (21390,  40,          1) /* CombatMode - NonCombat */
-     , (21390,  68,         13) /* TargetingTactic */
-     , (21390,  69,         30) /* CombatTactic */
+     , (21390,  68,         13) /* TargetingTactic - Random, LastDamager, TopDamager */
+     , (21390,  69,         30) /* CombatTactic - Focused, LastDamager, TopDamager, Weakest */
      , (21390,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (21390, 101,        183) /* AiAllowedCombatStyle - Unarmed, OneHanded, OneHandedAndShield, Bow, Crossbow, ThrownWeapon */
      , (21390, 133,          2) /* ShowableOnRadar - ShowMovement */

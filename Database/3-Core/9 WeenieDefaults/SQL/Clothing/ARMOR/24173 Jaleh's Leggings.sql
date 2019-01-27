@@ -10,7 +10,7 @@ VALUES (24173,   1,          2) /* ItemType - Armor */
      , (24173,   9,      25600) /* ValidLocations - AbdomenArmor, UpperLegArmor, LowerLegArmor */
      , (24173,  16,          1) /* ItemUseable - No */
      , (24173,  19,       8500) /* Value */
-     , (24173,  27,          2) /* ArmorType */
+     , (24173,  27,          2) /* ArmorType - Leather */
      , (24173,  28,        200) /* ArmorLevel */
      , (24173,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (24173, 105,          8) /* ItemWorkmanship */

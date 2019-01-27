@@ -9,13 +9,13 @@ VALUES (5934,   1,         16) /* ItemType - Creature */
      , (5934,   7,         -1) /* ContainersCapacity */
      , (5934,  16,          1) /* ItemUseable - No */
      , (5934,  25,         44) /* Level */
-     , (5934,  27,          0) /* ArmorType */
+     , (5934,  27,          0) /* ArmorType - None */
      , (5934,  40,          1) /* CombatMode - NonCombat */
-     , (5934,  68,          5) /* TargetingTactic */
+     , (5934,  68,          5) /* TargetingTactic - Random, LastDamager */
      , (5934,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (5934, 101,        183) /* AiAllowedCombatStyle - Unarmed, OneHanded, OneHandedAndShield, Bow, Crossbow, ThrownWeapon */
      , (5934, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (5934, 140,          1) /* AiOptions */
+     , (5934, 140,          1) /* AiOptions - CanOpenDoors */
      , (5934, 146,       6500) /* XpOverride */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)

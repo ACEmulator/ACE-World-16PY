@@ -10,7 +10,7 @@ VALUES (132,   1,          4) /* ItemType - Clothing */
      , (132,   9,        256) /* ValidLocations - FootWear */
      , (132,  16,          1) /* ItemUseable - No */
      , (132,  19,         40) /* Value */
-     , (132,  27,          1) /* ArmorType */
+     , (132,  27,          1) /* ArmorType - Cloth */
      , (132,  28,         10) /* ArmorLevel */
      , (132,  44,          1) /* Damage */
      , (132,  45,          4) /* DamageType - Bludgeon */

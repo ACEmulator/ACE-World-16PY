@@ -10,7 +10,7 @@ VALUES (82,   1,          2) /* ItemType - Armor */
      , (82,   9,      24576) /* ValidLocations - UpperLegArmor, LowerLegArmor */
      , (82,  16,          1) /* ItemUseable - No */
      , (82,  19,       1305) /* Value */
-     , (82,  27,         32) /* ArmorType */
+     , (82,  27,         32) /* ArmorType - Metal */
      , (82,  28,        100) /* ArmorLevel */
      , (82,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (82, 169,  252313860) /* TsysMutationData */;

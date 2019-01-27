@@ -10,7 +10,7 @@ VALUES (2595,   1,          4) /* ItemType - Clothing */
      , (2595,   9,         14) /* ValidLocations - ChestWear, AbdomenWear, UpperArmWear */
      , (2595,  16,          1) /* ItemUseable - No */
      , (2595,  19,         12) /* Value */
-     , (2595,  27,          1) /* ArmorType */
+     , (2595,  27,          1) /* ArmorType - Cloth */
      , (2595,  28,          0) /* ArmorLevel */
      , (2595,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (2595, 169,  201328144) /* TsysMutationData */;

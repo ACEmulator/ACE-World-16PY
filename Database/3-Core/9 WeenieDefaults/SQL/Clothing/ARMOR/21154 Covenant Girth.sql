@@ -10,7 +10,7 @@ VALUES (21154,   1,          2) /* ItemType - Armor */
      , (21154,   9,       1024) /* ValidLocations - AbdomenArmor */
      , (21154,  16,          1) /* ItemUseable - No */
      , (21154,  19,        980) /* Value */
-     , (21154,  27,         32) /* ArmorType */
+     , (21154,  27,         32) /* ArmorType - Metal */
      , (21154,  28,        200) /* ArmorLevel */
      , (21154,  36,       9999) /* ResistMagic */
      , (21154,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */

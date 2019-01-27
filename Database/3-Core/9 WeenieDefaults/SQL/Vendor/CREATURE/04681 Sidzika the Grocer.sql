@@ -9,7 +9,7 @@ VALUES (4681,   1,         16) /* ItemType - Creature */
      , (4681,   8,        120) /* Mass */
      , (4681,  16,         32) /* ItemUseable - Remote */
      , (4681,  25,          9) /* Level */
-     , (4681,  27,          0) /* ArmorType */
+     , (4681,  27,          0) /* ArmorType - None */
      , (4681,  74,    4481568) /* MerchandiseItemTypes - VendorGrocer */
      , (4681,  75,          0) /* MerchandiseMinValue */
      , (4681,  76,      25000) /* MerchandiseMaxValue */

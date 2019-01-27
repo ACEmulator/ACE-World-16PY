@@ -10,7 +10,7 @@ VALUES (6859,   1,         16) /* ItemType - Creature */
      , (6859,   8,        120) /* Mass */
      , (6859,  16,         32) /* ItemUseable - Remote */
      , (6859,  25,         21) /* Level */
-     , (6859,  27,          0) /* ArmorType */
+     , (6859,  27,          0) /* ArmorType - None */
      , (6859,  74,     266368) /* MerchandiseItemTypes - Misc, SpellComponents, PromissoryNote */
      , (6859,  75,          0) /* MerchandiseMinValue */
      , (6859,  76,    1000000) /* MerchandiseMaxValue */

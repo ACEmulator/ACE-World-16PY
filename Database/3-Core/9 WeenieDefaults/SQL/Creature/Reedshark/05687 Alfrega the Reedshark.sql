@@ -9,8 +9,8 @@ VALUES (5687,   1,         16) /* ItemType - Creature */
      , (5687,  16,          1) /* ItemUseable - No */
      , (5687,  25,         12) /* Level */
      , (5687,  40,          2) /* CombatMode - Melee */
-     , (5687,  67,         64) /* Tolerance */
-     , (5687,  68,         13) /* TargetingTactic */
+     , (5687,  67,         64) /* Tolerance - Retaliate */
+     , (5687,  68,         13) /* TargetingTactic - Random, LastDamager, TopDamager */
      , (5687,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (5687, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (5687, 146,        411) /* XpOverride */;

@@ -9,7 +9,7 @@ VALUES (7592,   1,         16) /* ItemType - Creature */
      , (7592,   8,        250) /* Mass */
      , (7592,  16,         32) /* ItemUseable - Remote */
      , (7592,  25,         49) /* Level */
-     , (7592,  27,          0) /* ArmorType */
+     , (7592,  27,          0) /* ArmorType - None */
      , (7592,  74, 1208248231) /* MerchandiseItemTypes - VendorShopKeep */
      , (7592,  75,          0) /* MerchandiseMinValue */
      , (7592,  76,     100000) /* MerchandiseMaxValue */

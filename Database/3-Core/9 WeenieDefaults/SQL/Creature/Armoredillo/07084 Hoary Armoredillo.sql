@@ -10,7 +10,7 @@ VALUES (7084,   1,         16) /* ItemType - Creature */
      , (7084,  16,          1) /* ItemUseable - No */
      , (7084,  25,         79) /* Level */
      , (7084,  40,          2) /* CombatMode - Melee */
-     , (7084,  68,          9) /* TargetingTactic */
+     , (7084,  68,          9) /* TargetingTactic - Random, TopDamager */
      , (7084,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (7084, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (7084, 146,      16445) /* XpOverride */;

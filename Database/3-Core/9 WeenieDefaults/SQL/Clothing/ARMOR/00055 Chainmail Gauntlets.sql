@@ -10,7 +10,7 @@ VALUES (55,   1,          2) /* ItemType - Armor */
      , (55,   9,         32) /* ValidLocations - HandWear */
      , (55,  16,          1) /* ItemUseable - No */
      , (55,  19,        206) /* Value */
-     , (55,  27,         16) /* ArmorType */
+     , (55,  27,         16) /* ArmorType - Chainmail */
      , (55,  28,         50) /* ArmorLevel */
      , (55,  44,          2) /* Damage */
      , (55,  45,          4) /* DamageType - Bludgeon */

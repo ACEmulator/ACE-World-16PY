@@ -8,10 +8,10 @@ VALUES (1535,   1,         16) /* ItemType - Creature */
      , (1535,   7,         -1) /* ContainersCapacity */
      , (1535,  16,          1) /* ItemUseable - No */
      , (1535,  25,          5) /* Level */
-     , (1535,  27,          0) /* ArmorType */
+     , (1535,  27,          0) /* ArmorType - None */
      , (1535,  40,          2) /* CombatMode - Melee */
-     , (1535,  67,          2) /* Tolerance */
-     , (1535,  68,          9) /* TargetingTactic */
+     , (1535,  67,          2) /* Tolerance - Appraise */
+     , (1535,  68,          9) /* TargetingTactic - Random, TopDamager */
      , (1535,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (1535, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (1535, 146,        225) /* XpOverride */;

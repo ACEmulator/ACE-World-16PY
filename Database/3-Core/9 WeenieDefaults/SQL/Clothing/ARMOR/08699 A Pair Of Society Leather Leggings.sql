@@ -11,7 +11,7 @@ VALUES (8699,   1,          2) /* ItemType - Armor */
      , (8699,  16,          1) /* ItemUseable - No */
      , (8699,  18,          1) /* UiEffects - Magical */
      , (8699,  19,          1) /* Value */
-     , (8699,  27,          2) /* ArmorType */
+     , (8699,  27,          2) /* ArmorType - Leather */
      , (8699,  28,        100) /* ArmorLevel */
      , (8699,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (8699, 106,        100) /* ItemSpellcraft */

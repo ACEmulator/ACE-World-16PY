@@ -9,10 +9,10 @@ VALUES (1497,   1,         16) /* ItemType - Creature */
      , (1497,   7,         -1) /* ContainersCapacity */
      , (1497,  16,          1) /* ItemUseable - No */
      , (1497,  25,         10) /* Level */
-     , (1497,  27,          0) /* ArmorType */
+     , (1497,  27,          0) /* ArmorType - None */
      , (1497,  40,          2) /* CombatMode - Melee */
-     , (1497,  67,         64) /* Tolerance */
-     , (1497,  68,          9) /* TargetingTactic */
+     , (1497,  67,         64) /* Tolerance - Retaliate */
+     , (1497,  68,          9) /* TargetingTactic - Random, TopDamager */
      , (1497,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (1497, 101,        131) /* AiAllowedCombatStyle - Unarmed, OneHanded, ThrownWeapon */
      , (1497, 133,          4) /* ShowableOnRadar - ShowAlways */

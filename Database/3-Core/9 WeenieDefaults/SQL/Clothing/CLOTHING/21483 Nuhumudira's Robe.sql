@@ -10,7 +10,7 @@ VALUES (21483,   1,          4) /* ItemType - Clothing */
      , (21483,   9,      32513) /* ValidLocations - HeadWear, Armor */
      , (21483,  16,          1) /* ItemUseable - No */
      , (21483,  19,       5000) /* Value */
-     , (21483,  27,          1) /* ArmorType */
+     , (21483,  27,          1) /* ArmorType - Cloth */
      , (21483,  28,         30) /* ArmorLevel */
      , (21483,  33,         -2) /* Bonded - Destroy */
      , (21483,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;

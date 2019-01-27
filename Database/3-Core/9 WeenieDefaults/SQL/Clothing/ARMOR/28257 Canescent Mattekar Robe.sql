@@ -10,7 +10,7 @@ VALUES (28257,   1,          2) /* ItemType - Armor */
      , (28257,   9,      32512) /* ValidLocations - Armor */
      , (28257,  16,          1) /* ItemUseable - No */
      , (28257,  19,          0) /* Value */
-     , (28257,  27,          1) /* ArmorType */
+     , (28257,  27,          1) /* ArmorType - Cloth */
      , (28257,  28,        130) /* ArmorLevel */
      , (28257,  33,          1) /* Bonded - Bonded */
      , (28257,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */

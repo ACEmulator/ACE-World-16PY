@@ -9,7 +9,7 @@ VALUES (4055,   1,         16) /* ItemType - Creature */
      , (4055,   8,        120) /* Mass */
      , (4055,  16,          1) /* ItemUseable - No */
      , (4055,  25,         14) /* Level */
-     , (4055,  27,          0) /* ArmorType */
+     , (4055,  27,          0) /* ArmorType - None */
      , (4055,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (4055,  95,          8) /* RadarBlipColor - Yellow */
      , (4055, 133,          4) /* ShowableOnRadar - ShowAlways */

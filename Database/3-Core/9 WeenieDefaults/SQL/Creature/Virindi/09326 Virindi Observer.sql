@@ -9,13 +9,13 @@ VALUES (9326,   1,         16) /* ItemType - Creature */
      , (9326,   7,         -1) /* ContainersCapacity */
      , (9326,  16,          1) /* ItemUseable - No */
      , (9326,  25,        100) /* Level */
-     , (9326,  27,          0) /* ArmorType */
-     , (9326,  67,         64) /* Tolerance */
-     , (9326,  68,          3) /* TargetingTactic */
+     , (9326,  27,          0) /* ArmorType - None */
+     , (9326,  67,         64) /* Tolerance - Retaliate */
+     , (9326,  68,          3) /* TargetingTactic - Random, Focused */
      , (9326,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (9326,  95,          8) /* RadarBlipColor - Yellow */
      , (9326, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (9326, 140,          1) /* AiOptions */
+     , (9326, 140,          1) /* AiOptions - CanOpenDoors */
      , (9326, 146,      14500) /* XpOverride */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)

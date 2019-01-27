@@ -9,9 +9,9 @@ VALUES (29347,   1,         16) /* ItemType - Creature */
      , (29347,   7,         -1) /* ContainersCapacity */
      , (29347,  16,          1) /* ItemUseable - No */
      , (29347,  25,         74) /* Level */
-     , (29347,  27,          0) /* ArmorType */
+     , (29347,  27,          0) /* ArmorType - None */
      , (29347,  40,          2) /* CombatMode - Melee */
-     , (29347,  68,          5) /* TargetingTactic */
+     , (29347,  68,          5) /* TargetingTactic - Random, LastDamager */
      , (29347,  72,         55) /* FriendType - Carenzi */
      , (29347,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (29347, 133,          4) /* ShowableOnRadar - ShowAlways */

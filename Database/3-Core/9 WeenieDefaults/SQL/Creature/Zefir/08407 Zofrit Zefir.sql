@@ -10,7 +10,7 @@ VALUES (8407,   1,         16) /* ItemType - Creature */
      , (8407,  16,          1) /* ItemUseable - No */
      , (8407,  25,         28) /* Level */
      , (8407,  40,          2) /* CombatMode - Melee */
-     , (8407,  68,         13) /* TargetingTactic */
+     , (8407,  68,         13) /* TargetingTactic - Random, LastDamager, TopDamager */
      , (8407,  93,    4195336) /* PhysicsState - ReportCollisions, Gravity, EdgeSlide */
      , (8407, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (8407, 146,       1402) /* XpOverride */;

@@ -10,7 +10,7 @@ VALUES (24626,   1,          2) /* ItemType - Armor */
      , (24626,   9,          1) /* ValidLocations - HeadWear */
      , (24626,  16,          1) /* ItemUseable - No */
      , (24626,  19,       6000) /* Value */
-     , (24626,  27,         32) /* ArmorType */
+     , (24626,  27,         32) /* ArmorType - Metal */
      , (24626,  28,        400) /* ArmorLevel */
      , (24626,  36,       9999) /* ResistMagic */
      , (24626,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */

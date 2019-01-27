@@ -9,7 +9,7 @@ VALUES (702,   1,         16) /* ItemType - Creature */
      , (702,   8,        120) /* Mass */
      , (702,  16,         32) /* ItemUseable - Remote */
      , (702,  25,          3) /* Level */
-     , (702,  27,          0) /* ArmorType */
+     , (702,  27,          0) /* ArmorType - None */
      , (702,  74, 1208248231) /* MerchandiseItemTypes - VendorShopKeep */
      , (702,  75,          0) /* MerchandiseMinValue */
      , (702,  76,     100000) /* MerchandiseMaxValue */

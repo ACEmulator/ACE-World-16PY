@@ -10,8 +10,8 @@ VALUES (19303,   1,         16) /* ItemType - Creature */
      , (19303,   8,        120) /* Mass */
      , (19303,  16,          1) /* ItemUseable - No */
      , (19303,  25,         53) /* Level */
-     , (19303,  27,          0) /* ArmorType */
-     , (19303,  68,         13) /* TargetingTactic */
+     , (19303,  27,          0) /* ArmorType - None */
+     , (19303,  68,         13) /* TargetingTactic - Random, LastDamager, TopDamager */
      , (19303,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (19303, 101,        131) /* AiAllowedCombatStyle - Unarmed, OneHanded, ThrownWeapon */
      , (19303, 133,          2) /* ShowableOnRadar - ShowMovement */

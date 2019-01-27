@@ -8,9 +8,9 @@ VALUES (4897,   1,         16) /* ItemType - Creature */
      , (4897,   7,         -1) /* ContainersCapacity */
      , (4897,  16,          1) /* ItemUseable - No */
      , (4897,  25,         18) /* Level */
-     , (4897,  27,          0) /* ArmorType */
+     , (4897,  27,          0) /* ArmorType - None */
      , (4897,  40,          1) /* CombatMode - NonCombat */
-     , (4897,  68,          5) /* TargetingTactic */
+     , (4897,  68,          5) /* TargetingTactic - Random, LastDamager */
      , (4897,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (4897, 101,        183) /* AiAllowedCombatStyle - Unarmed, OneHanded, OneHandedAndShield, Bow, Crossbow, ThrownWeapon */
      , (4897, 133,          2) /* ShowableOnRadar - ShowMovement */

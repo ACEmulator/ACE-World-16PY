@@ -9,10 +9,10 @@ VALUES (7418,   1,         16) /* ItemType - Creature */
      , (7418,   7,         -1) /* ContainersCapacity */
      , (7418,  16,          1) /* ItemUseable - No */
      , (7418,  25,          8) /* Level */
-     , (7418,  27,          0) /* ArmorType */
+     , (7418,  27,          0) /* ArmorType - None */
      , (7418,  40,          2) /* CombatMode - Melee */
-     , (7418,  67,         64) /* Tolerance */
-     , (7418,  68,          9) /* TargetingTactic */
+     , (7418,  67,         64) /* Tolerance - Retaliate */
+     , (7418,  68,          9) /* TargetingTactic - Random, TopDamager */
      , (7418,  72,         41) /* FriendType - Bunny */
      , (7418,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (7418, 133,          4) /* ShowableOnRadar - ShowAlways */

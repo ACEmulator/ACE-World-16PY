@@ -9,7 +9,7 @@ VALUES (9209,   1,         16) /* ItemType - Creature */
      , (9209,   8,        120) /* Mass */
      , (9209,  16,         32) /* ItemUseable - Remote */
      , (9209,  25,         45) /* Level */
-     , (9209,  27,          0) /* ArmorType */
+     , (9209,  27,          0) /* ArmorType - None */
      , (9209,  74,     266368) /* MerchandiseItemTypes - Misc, SpellComponents, PromissoryNote */
      , (9209,  75,          0) /* MerchandiseMinValue */
      , (9209,  76,     100000) /* MerchandiseMaxValue */

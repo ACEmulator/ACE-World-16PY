@@ -10,7 +10,7 @@ VALUES (6799,   1,          2) /* ItemType - Armor */
      , (6799,   9,       6656) /* ValidLocations - ChestArmor, UpperArmArmor, LowerArmArmor */
      , (6799,  16,          1) /* ItemUseable - No */
      , (6799,  19,       3610) /* Value */
-     , (6799,  27,          8) /* ArmorType */
+     , (6799,  27,          8) /* ArmorType - Scalemail */
      , (6799,  28,        240) /* ArmorLevel */
      , (6799,  33,          1) /* Bonded - Bonded */
      , (6799,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */

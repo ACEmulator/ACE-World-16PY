@@ -11,7 +11,7 @@ VALUES (5910,   1,          4) /* ItemType - Clothing */
      , (5910,  16,          1) /* ItemUseable - No */
      , (5910,  18,          1) /* UiEffects - Magical */
      , (5910,  19,      45600) /* Value */
-     , (5910,  27,          1) /* ArmorType */
+     , (5910,  27,          1) /* ArmorType - Cloth */
      , (5910,  28,          0) /* ArmorLevel */
      , (5910,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (5910, 106,        270) /* ItemSpellcraft */

@@ -10,7 +10,7 @@ VALUES (7676,   1,          2) /* ItemType - Armor */
      , (7676,   9,       1024) /* ValidLocations - AbdomenArmor */
      , (7676,  16,          1) /* ItemUseable - No */
      , (7676,  19,       1610) /* Value */
-     , (7676,  27,         32) /* ArmorType */
+     , (7676,  27,         32) /* ArmorType - Metal */
      , (7676,  28,        190) /* ArmorLevel */
      , (7676,  33,          1) /* Bonded - Bonded */
      , (7676,  36,       9999) /* ResistMagic */

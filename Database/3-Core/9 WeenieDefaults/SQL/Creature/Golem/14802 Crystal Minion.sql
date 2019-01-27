@@ -10,7 +10,7 @@ VALUES (14802,   1,         16) /* ItemType - Creature */
      , (14802,  16,          1) /* ItemUseable - No */
      , (14802,  25,        100) /* Level */
      , (14802,  40,          2) /* CombatMode - Melee */
-     , (14802,  68,          3) /* TargetingTactic */
+     , (14802,  68,          3) /* TargetingTactic - Random, Focused */
      , (14802,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (14802, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (14802, 146,          0) /* XpOverride */;

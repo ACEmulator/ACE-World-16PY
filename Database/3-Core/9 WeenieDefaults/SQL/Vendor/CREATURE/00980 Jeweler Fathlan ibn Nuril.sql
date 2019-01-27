@@ -9,7 +9,7 @@ VALUES (980,   1,         16) /* ItemType - Creature */
      , (980,   8,        120) /* Mass */
      , (980,  16,         32) /* ItemUseable - Remote */
      , (980,  25,         10) /* Level */
-     , (980,  27,          0) /* ArmorType */
+     , (980,  27,          0) /* ArmorType - None */
      , (980,  74,     264200) /* MerchandiseItemTypes - Jewelry, Gem, PromissoryNote */
      , (980,  75,          0) /* MerchandiseMinValue */
      , (980,  76,      25000) /* MerchandiseMaxValue */

@@ -10,7 +10,7 @@ VALUES (24591,   1,         16) /* ItemType - Creature */
      , (24591,   8,        120) /* Mass */
      , (24591,  16,         32) /* ItemUseable - Remote */
      , (24591,  25,        121) /* Level */
-     , (24591,  27,          0) /* ArmorType */
+     , (24591,  27,          0) /* ArmorType - None */
      , (24591,  74,  134480129) /* MerchandiseItemTypes - Weapon, PromissoryNote, CraftFletchingIntermediate */
      , (24591,  75,          0) /* MerchandiseMinValue */
      , (24591,  76,     100000) /* MerchandiseMaxValue */

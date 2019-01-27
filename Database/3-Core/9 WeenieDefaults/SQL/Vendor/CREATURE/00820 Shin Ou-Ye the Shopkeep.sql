@@ -9,7 +9,7 @@ VALUES (820,   1,         16) /* ItemType - Creature */
      , (820,   8,        120) /* Mass */
      , (820,  16,         32) /* ItemUseable - Remote */
      , (820,  25,          5) /* Level */
-     , (820,  27,          0) /* ArmorType */
+     , (820,  27,          0) /* ArmorType - None */
      , (820,  74, 1208248231) /* MerchandiseItemTypes - VendorShopKeep */
      , (820,  75,          0) /* MerchandiseMinValue */
      , (820,  76,      25000) /* MerchandiseMaxValue */

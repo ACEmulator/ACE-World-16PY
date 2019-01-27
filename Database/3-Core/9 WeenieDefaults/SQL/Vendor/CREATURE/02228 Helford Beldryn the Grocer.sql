@@ -9,7 +9,7 @@ VALUES (2228,   1,         16) /* ItemType - Creature */
      , (2228,   8,        120) /* Mass */
      , (2228,  16,         32) /* ItemUseable - Remote */
      , (2228,  25,         10) /* Level */
-     , (2228,  27,          0) /* ArmorType */
+     , (2228,  27,          0) /* ArmorType - None */
      , (2228,  74,    4481568) /* MerchandiseItemTypes - VendorGrocer */
      , (2228,  75,          0) /* MerchandiseMinValue */
      , (2228,  76,     100000) /* MerchandiseMaxValue */

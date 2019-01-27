@@ -10,7 +10,7 @@ VALUES (2035,   1,          2) /* ItemType - Armor */
      , (2035,   9,       1024) /* ValidLocations - AbdomenArmor */
      , (2035,  16,          1) /* ItemUseable - No */
      , (2035,  19,       2500) /* Value */
-     , (2035,  27,         32) /* ArmorType */
+     , (2035,  27,         32) /* ArmorType - Metal */
      , (2035,  28,        100) /* ArmorLevel */
      , (2035,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
 

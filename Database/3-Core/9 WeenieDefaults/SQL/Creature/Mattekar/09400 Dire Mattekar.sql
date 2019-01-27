@@ -10,7 +10,7 @@ VALUES (9400,   1,         16) /* ItemType - Creature */
      , (9400,  16,          1) /* ItemUseable - No */
      , (9400,  25,         35) /* Level */
      , (9400,  40,          2) /* CombatMode - Melee */
-     , (9400,  68,          3) /* TargetingTactic */
+     , (9400,  68,          3) /* TargetingTactic - Random, Focused */
      , (9400,  72,          5) /* FriendType - Lugian */
      , (9400,  81,          3) /* MaxGeneratedObjects */
      , (9400,  82,          3) /* InitGeneratedObjects */

@@ -11,7 +11,7 @@ VALUES (23779,   1,          2) /* ItemType - Armor */
      , (23779,  16,          1) /* ItemUseable - No */
      , (23779,  18,        128) /* UiEffects - Frost */
      , (23779,  19,       2610) /* Value */
-     , (23779,  27,          8) /* ArmorType */
+     , (23779,  27,          8) /* ArmorType - Scalemail */
      , (23779,  28,        240) /* ArmorLevel */
      , (23779,  33,          1) /* Bonded - Bonded */
      , (23779,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */

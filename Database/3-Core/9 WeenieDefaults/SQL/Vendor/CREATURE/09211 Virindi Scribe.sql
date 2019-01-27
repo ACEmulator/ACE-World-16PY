@@ -9,7 +9,7 @@ VALUES (9211,   1,         16) /* ItemType - Creature */
      , (9211,   8,        120) /* Mass */
      , (9211,  16,         32) /* ItemUseable - Remote */
      , (9211,  25,         45) /* Level */
-     , (9211,  27,          0) /* ArmorType */
+     , (9211,  27,          0) /* ArmorType - None */
      , (9211,  74,     270336) /* MerchandiseItemTypes - Writable, PromissoryNote */
      , (9211,  75,          0) /* MerchandiseMinValue */
      , (9211,  76,     100000) /* MerchandiseMaxValue */

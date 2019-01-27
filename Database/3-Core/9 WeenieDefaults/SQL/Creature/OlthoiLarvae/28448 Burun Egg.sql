@@ -8,9 +8,9 @@ VALUES (28448,   1,         16) /* ItemType - Creature */
      , (28448,   7,         -1) /* ContainersCapacity */
      , (28448,  16,         32) /* ItemUseable - Remote */
      , (28448,  25,          5) /* Level */
-     , (28448,  27,          0) /* ArmorType */
+     , (28448,  27,          0) /* ArmorType - None */
      , (28448,  40,          1) /* CombatMode - NonCombat */
-     , (28448,  67,          1) /* Tolerance */
+     , (28448,  67,          1) /* Tolerance - NoAttack */
      , (28448,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (28448, 133,          0) /* ShowableOnRadar - Undefined */
      , (28448, 146,        500) /* XpOverride */;

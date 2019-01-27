@@ -9,9 +9,9 @@ VALUES (20192,   1,         16) /* ItemType - Creature */
      , (20192,   7,         -1) /* ContainersCapacity */
      , (20192,  16,          1) /* ItemUseable - No */
      , (20192,  25,        150) /* Level */
-     , (20192,  27,          0) /* ArmorType */
+     , (20192,  27,          0) /* ArmorType - None */
      , (20192,  40,          2) /* CombatMode - Melee */
-     , (20192,  68,          9) /* TargetingTactic */
+     , (20192,  68,          9) /* TargetingTactic - Random, TopDamager */
      , (20192,  81,          4) /* MaxGeneratedObjects */
      , (20192,  82,          4) /* InitGeneratedObjects */
      , (20192,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */

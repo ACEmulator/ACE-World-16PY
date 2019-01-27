@@ -8,7 +8,7 @@ VALUES (21455,   1,         16) /* ItemType - Creature */
      , (21455,   7,         -1) /* ContainersCapacity */
      , (21455,  16,         32) /* ItemUseable - Remote */
      , (21455,  25,         49) /* Level */
-     , (21455,  27,          0) /* ArmorType */
+     , (21455,  27,          0) /* ArmorType - None */
      , (21455,  40,          2) /* CombatMode - Melee */
      , (21455,  93,    2098200) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */
      , (21455,  95,          8) /* RadarBlipColor - Yellow */

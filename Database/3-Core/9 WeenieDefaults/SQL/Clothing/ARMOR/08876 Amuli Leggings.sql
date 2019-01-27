@@ -10,7 +10,7 @@ VALUES (8876,   1,          2) /* ItemType - Armor */
      , (8876,   9,      25600) /* ValidLocations - AbdomenArmor, UpperLegArmor, LowerLegArmor */
      , (8876,  16,          1) /* ItemUseable - No */
      , (8876,  19,       3040) /* Value */
-     , (8876,  27,          2) /* ArmorType */
+     , (8876,  27,          2) /* ArmorType - Leather */
      , (8876,  28,         90) /* ArmorLevel */
      , (8876,  33,          1) /* Bonded - Bonded */
      , (8876,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */

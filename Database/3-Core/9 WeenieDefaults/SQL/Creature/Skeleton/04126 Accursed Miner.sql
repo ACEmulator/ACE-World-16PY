@@ -9,10 +9,10 @@ VALUES (4126,   1,         16) /* ItemType - Creature */
      , (4126,   7,         -1) /* ContainersCapacity */
      , (4126,  16,          1) /* ItemUseable - No */
      , (4126,  25,          6) /* Level */
-     , (4126,  27,          0) /* ArmorType */
+     , (4126,  27,          0) /* ArmorType - None */
      , (4126,  40,          1) /* CombatMode - NonCombat */
-     , (4126,  67,         64) /* Tolerance */
-     , (4126,  68,          5) /* TargetingTactic */
+     , (4126,  67,         64) /* Tolerance - Retaliate */
+     , (4126,  68,          5) /* TargetingTactic - Random, LastDamager */
      , (4126,  72,         14) /* FriendType - Undead */
      , (4126,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (4126, 101,        183) /* AiAllowedCombatStyle - Unarmed, OneHanded, OneHandedAndShield, Bow, Crossbow, ThrownWeapon */

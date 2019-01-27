@@ -9,7 +9,7 @@ VALUES (22885,   1,          2) /* ItemType - Armor */
      , (22885,  16,          1) /* ItemUseable - No */
      , (22885,  18,          1) /* UiEffects - Magical */
      , (22885,  19,        320) /* Value */
-     , (22885,  27,          2) /* ArmorType */
+     , (22885,  27,          2) /* ArmorType - Leather */
      , (22885,  28,        150) /* ArmorLevel */
      , (22885,  51,          4) /* CombatUse - Shield */
      , (22885,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */

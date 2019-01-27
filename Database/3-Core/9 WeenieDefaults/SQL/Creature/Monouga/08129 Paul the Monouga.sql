@@ -9,7 +9,7 @@ VALUES (8129,   1,         16) /* ItemType - Creature */
      , (8129,   7,         -1) /* ContainersCapacity */
      , (8129,  16,          1) /* ItemUseable - No */
      , (8129,  25,       1334) /* Level */
-     , (8129,  27,          0) /* ArmorType */
+     , (8129,  27,          0) /* ArmorType - None */
      , (8129,  40,          2) /* CombatMode - Melee */
      , (8129,  93,    2098184) /* PhysicsState - ReportCollisions, Gravity, ReportCollisionsAsEnvironment */
      , (8129,  95,          8) /* RadarBlipColor - Yellow */

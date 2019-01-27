@@ -9,7 +9,7 @@ VALUES (1814,   1,         16) /* ItemType - Creature */
      , (1814,   8,        120) /* Mass */
      , (1814,  16,         32) /* ItemUseable - Remote */
      , (1814,  25,         10) /* Level */
-     , (1814,  27,          0) /* ArmorType */
+     , (1814,  27,          0) /* ArmorType - None */
      , (1814,  74,     262176) /* MerchandiseItemTypes - Food, PromissoryNote */
      , (1814,  75,          0) /* MerchandiseMinValue */
      , (1814,  76,      25000) /* MerchandiseMaxValue */

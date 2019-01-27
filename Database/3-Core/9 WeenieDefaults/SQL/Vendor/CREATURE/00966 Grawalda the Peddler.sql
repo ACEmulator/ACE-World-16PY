@@ -9,7 +9,7 @@ VALUES (966,   1,         16) /* ItemType - Creature */
      , (966,   8,        100) /* Mass */
      , (966,  16,         32) /* ItemUseable - Remote */
      , (966,  25,         12) /* Level */
-     , (966,  27,          0) /* ArmorType */
+     , (966,  27,          0) /* ArmorType - None */
      , (966,  74, 1842151343) /* MerchandiseItemTypes - 1842151343 */
      , (966,  75,          0) /* MerchandiseMinValue */
      , (966,  76,     100000) /* MerchandiseMaxValue */

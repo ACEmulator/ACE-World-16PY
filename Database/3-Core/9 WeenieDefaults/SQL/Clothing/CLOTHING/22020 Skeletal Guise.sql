@@ -10,7 +10,7 @@ VALUES (22020,   1,          4) /* ItemType - Clothing */
      , (22020,   9,      32512) /* ValidLocations - Armor */
      , (22020,  16,          1) /* ItemUseable - No */
      , (22020,  19,       1000) /* Value */
-     , (22020,  27,          1) /* ArmorType */
+     , (22020,  27,          1) /* ArmorType - Cloth */
      , (22020,  28,         10) /* ArmorLevel */
      , (22020,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (22020, 150,        103) /* HookPlacement - Hook */

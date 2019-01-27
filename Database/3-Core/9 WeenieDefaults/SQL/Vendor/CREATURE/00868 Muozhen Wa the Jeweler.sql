@@ -9,7 +9,7 @@ VALUES (868,   1,         16) /* ItemType - Creature */
      , (868,   8,        120) /* Mass */
      , (868,  16,         32) /* ItemUseable - Remote */
      , (868,  25,          6) /* Level */
-     , (868,  27,          0) /* ArmorType */
+     , (868,  27,          0) /* ArmorType - None */
      , (868,  74,     264200) /* MerchandiseItemTypes - Jewelry, Gem, PromissoryNote */
      , (868,  75,          0) /* MerchandiseMinValue */
      , (868,  76,     100000) /* MerchandiseMaxValue */

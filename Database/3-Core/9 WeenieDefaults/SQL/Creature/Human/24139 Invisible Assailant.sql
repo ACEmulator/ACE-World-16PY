@@ -9,8 +9,8 @@ VALUES (24139,   1,         16) /* ItemType - Creature */
      , (24139,   8,        120) /* Mass */
      , (24139,  16,          1) /* ItemUseable - No */
      , (24139,  25,         50) /* Level */
-     , (24139,  27,          0) /* ArmorType */
-     , (24139,  68,         13) /* TargetingTactic */
+     , (24139,  27,          0) /* ArmorType - None */
+     , (24139,  68,         13) /* TargetingTactic - Random, LastDamager, TopDamager */
      , (24139,  93,    4195340) /* PhysicsState - Ethereal, ReportCollisions, Gravity, EdgeSlide */
      , (24139,  95,          8) /* RadarBlipColor - Yellow */
      , (24139, 101,        131) /* AiAllowedCombatStyle - Unarmed, OneHanded, ThrownWeapon */

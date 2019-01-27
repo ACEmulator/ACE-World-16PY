@@ -10,7 +10,7 @@ VALUES (24621,   1,          2) /* ItemType - Armor */
      , (24621,   9,       1024) /* ValidLocations - AbdomenArmor */
      , (24621,  16,          1) /* ItemUseable - No */
      , (24621,  19,       4000) /* Value */
-     , (24621,  27,         32) /* ArmorType */
+     , (24621,  27,         32) /* ArmorType - Metal */
      , (24621,  28,        450) /* ArmorLevel */
      , (24621,  36,       9999) /* ResistMagic */
      , (24621,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */

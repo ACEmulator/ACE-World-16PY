@@ -9,7 +9,7 @@ VALUES (26500,   1,          2) /* ItemType - Armor */
      , (26500,   8,        200) /* Mass */
      , (26500,   9,          1) /* ValidLocations - HeadWear */
      , (26500,  19,       7500) /* Value */
-     , (26500,  27,         32) /* ArmorType */
+     , (26500,  27,         32) /* ArmorType - Metal */
      , (26500,  28,        380) /* ArmorLevel */
      , (26500,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (26500, 106,        335) /* ItemSpellcraft */

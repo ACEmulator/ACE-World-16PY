@@ -9,7 +9,7 @@ VALUES (2048,   1,         16) /* ItemType - Creature */
      , (2048,   8,        120) /* Mass */
      , (2048,  16,         32) /* ItemUseable - Remote */
      , (2048,  25,          2) /* Level */
-     , (2048,  27,          0) /* ArmorType */
+     , (2048,  27,          0) /* ArmorType - None */
      , (2048,  74,        544) /* MerchandiseItemTypes - Food, Container */
      , (2048,  75,          0) /* MerchandiseMinValue */
      , (2048,  76,     100000) /* MerchandiseMaxValue */

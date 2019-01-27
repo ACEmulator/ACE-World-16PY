@@ -9,7 +9,7 @@ VALUES (4704,   1,         16) /* ItemType - Creature */
      , (4704,   8,        120) /* Mass */
      , (4704,  16,         32) /* ItemUseable - Remote */
      , (4704,  25,         16) /* Level */
-     , (4704,  27,          0) /* ArmorType */
+     , (4704,  27,          0) /* ArmorType - None */
      , (4704,  74, 1074004225) /* MerchandiseItemTypes - Weapon, PromissoryNote, TinkeringMaterial */
      , (4704,  75,          0) /* MerchandiseMinValue */
      , (4704,  76,     100000) /* MerchandiseMaxValue */

@@ -10,7 +10,7 @@ VALUES (28068,   1,          2) /* ItemType - Armor */
      , (28068,   9,      32513) /* ValidLocations - HeadWear, Armor */
      , (28068,  16,          1) /* ItemUseable - No */
      , (28068,  19,      16000) /* Value */
-     , (28068,  27,          1) /* ArmorType */
+     , (28068,  27,          1) /* ArmorType - Cloth */
      , (28068,  28,        200) /* ArmorLevel */
      , (28068,  33,          1) /* Bonded - Bonded */
      , (28068,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */

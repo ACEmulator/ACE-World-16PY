@@ -9,7 +9,7 @@ VALUES (30010,   1,         16) /* ItemType - Creature */
      , (30010,   8,        120) /* Mass */
      , (30010,  16,         32) /* ItemUseable - Remote */
      , (30010,  25,         14) /* Level */
-     , (30010,  27,          0) /* ArmorType */
+     , (30010,  27,          0) /* ArmorType - None */
      , (30010,  74,     270464) /* MerchandiseItemTypes - Misc, Writable, PromissoryNote */
      , (30010,  75,          0) /* MerchandiseMinValue */
      , (30010,  76,     100000) /* MerchandiseMaxValue */

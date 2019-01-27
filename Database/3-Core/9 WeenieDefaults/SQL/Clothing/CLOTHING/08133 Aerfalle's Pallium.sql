@@ -11,7 +11,7 @@ VALUES (8133,   1,          4) /* ItemType - Clothing */
      , (8133,  16,          1) /* ItemUseable - No */
      , (8133,  18,          1) /* UiEffects - Magical */
      , (8133,  19,      10710) /* Value */
-     , (8133,  27,          1) /* ArmorType */
+     , (8133,  27,          1) /* ArmorType - Cloth */
      , (8133,  28,          0) /* ArmorLevel */
      , (8133,  33,          1) /* Bonded - Bonded */
      , (8133,  36,       9999) /* ResistMagic */

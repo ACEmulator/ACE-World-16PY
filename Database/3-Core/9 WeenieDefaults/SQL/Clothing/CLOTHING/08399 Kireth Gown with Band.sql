@@ -10,7 +10,7 @@ VALUES (8399,   1,          4) /* ItemType - Clothing */
      , (8399,   9,      32512) /* ValidLocations - Armor */
      , (8399,  16,          1) /* ItemUseable - No */
      , (8399,  19,       1500) /* Value */
-     , (8399,  27,          1) /* ArmorType */
+     , (8399,  27,          1) /* ArmorType - Cloth */
      , (8399,  28,          0) /* ArmorLevel */
      , (8399,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
 

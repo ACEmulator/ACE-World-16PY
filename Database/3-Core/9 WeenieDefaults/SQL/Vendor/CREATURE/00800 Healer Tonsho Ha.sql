@@ -9,7 +9,7 @@ VALUES (800,   1,         16) /* ItemType - Creature */
      , (800,   8,        120) /* Mass */
      , (800,  16,         32) /* ItemUseable - Remote */
      , (800,  25,          5) /* Level */
-     , (800,  27,          0) /* ArmorType */
+     , (800,  27,          0) /* ArmorType - None */
      , (800,  74,     262272) /* MerchandiseItemTypes - Misc, PromissoryNote */
      , (800,  75,          0) /* MerchandiseMinValue */
      , (800,  76,     100000) /* MerchandiseMaxValue */

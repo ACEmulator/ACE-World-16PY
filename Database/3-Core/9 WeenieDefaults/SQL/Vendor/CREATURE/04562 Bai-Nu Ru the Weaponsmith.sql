@@ -9,7 +9,7 @@ VALUES (4562,   1,         16) /* ItemType - Creature */
      , (4562,   8,        120) /* Mass */
      , (4562,  16,         32) /* ItemUseable - Remote */
      , (4562,  25,          7) /* Level */
-     , (4562,  27,          0) /* ArmorType */
+     , (4562,  27,          0) /* ArmorType - None */
      , (4562,  74, 1074022279) /* MerchandiseItemTypes - Vestements, Weapon, LockableMagicTarget, Useless, Key, PromissoryNote, TinkeringMaterial */
      , (4562,  75,          0) /* MerchandiseMinValue */
      , (4562,  76,     100000) /* MerchandiseMaxValue */

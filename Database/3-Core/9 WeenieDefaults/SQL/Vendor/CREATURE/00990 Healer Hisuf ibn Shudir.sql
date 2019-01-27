@@ -9,7 +9,7 @@ VALUES (990,   1,         16) /* ItemType - Creature */
      , (990,   8,        120) /* Mass */
      , (990,  16,         32) /* ItemUseable - Remote */
      , (990,  25,         16) /* Level */
-     , (990,  27,          0) /* ArmorType */
+     , (990,  27,          0) /* ArmorType - None */
      , (990,  74,     262272) /* MerchandiseItemTypes - Misc, PromissoryNote */
      , (990,  75,          0) /* MerchandiseMinValue */
      , (990,  76,     100000) /* MerchandiseMaxValue */

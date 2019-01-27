@@ -9,7 +9,7 @@ VALUES (411,   1,         16) /* ItemType - Creature */
      , (411,   8,        120) /* Mass */
      , (411,  16,         32) /* ItemUseable - Remote */
      , (411,  25,          3) /* Level */
-     , (411,  27,          0) /* ArmorType */
+     , (411,  27,          0) /* ArmorType - None */
      , (411,  74,      18440) /* MerchandiseItemTypes - Jewelry, Gem, Key */
      , (411,  75,          0) /* MerchandiseMinValue */
      , (411,  76,     100000) /* MerchandiseMaxValue */

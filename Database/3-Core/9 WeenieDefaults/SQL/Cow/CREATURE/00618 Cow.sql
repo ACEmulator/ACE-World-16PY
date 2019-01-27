@@ -9,10 +9,10 @@ VALUES (618,   1,         16) /* ItemType - Creature */
      , (618,   7,         -1) /* ContainersCapacity */
      , (618,  16,         32) /* ItemUseable - Remote */
      , (618,  25,          2) /* Level */
-     , (618,  27,          0) /* ArmorType */
+     , (618,  27,          0) /* ArmorType - None */
      , (618,  40,          2) /* CombatMode - Melee */
-     , (618,  67,         64) /* Tolerance */
-     , (618,  68,          5) /* TargetingTactic */
+     , (618,  67,         64) /* Tolerance - Retaliate */
+     , (618,  68,          5) /* TargetingTactic - Random, LastDamager */
      , (618,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (618, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (618, 146,         19) /* XpOverride */;

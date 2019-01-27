@@ -9,9 +9,9 @@ VALUES (22590,   1,         16) /* ItemType - Creature */
      , (22590,   7,         -1) /* ContainersCapacity */
      , (22590,  16,          1) /* ItemUseable - No */
      , (22590,  25,         28) /* Level */
-     , (22590,  27,          0) /* ArmorType */
+     , (22590,  27,          0) /* ArmorType - None */
      , (22590,  40,          2) /* CombatMode - Melee */
-     , (22590,  68,          9) /* TargetingTactic */
+     , (22590,  68,          9) /* TargetingTactic - Random, TopDamager */
      , (22590,  93,    4195336) /* PhysicsState - ReportCollisions, Gravity, EdgeSlide */
      , (22590, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (22590, 146,       1847) /* XpOverride */;

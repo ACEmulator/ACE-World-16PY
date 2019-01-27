@@ -10,7 +10,7 @@ VALUES (6858,   1,         16) /* ItemType - Creature */
      , (6858,   8,        120) /* Mass */
      , (6858,  16,         32) /* ItemUseable - Remote */
      , (6858,  25,         11) /* Level */
-     , (6858,  27,          0) /* ArmorType */
+     , (6858,  27,          0) /* ArmorType - None */
      , (6858,  74,    4481568) /* MerchandiseItemTypes - VendorGrocer */
      , (6858,  75,          0) /* MerchandiseMinValue */
      , (6858,  76,    1000000) /* MerchandiseMaxValue */

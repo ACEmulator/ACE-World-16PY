@@ -10,7 +10,7 @@ VALUES (2028,   1,          2) /* ItemType - Armor */
      , (2028,   9,       6656) /* ValidLocations - ChestArmor, UpperArmArmor, LowerArmArmor */
      , (2028,  16,          1) /* ItemUseable - No */
      , (2028,  19,       6000) /* Value */
-     , (2028,  27,         32) /* ArmorType */
+     , (2028,  27,         32) /* ArmorType - Metal */
      , (2028,  28,        100) /* ArmorLevel */
      , (2028,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
 

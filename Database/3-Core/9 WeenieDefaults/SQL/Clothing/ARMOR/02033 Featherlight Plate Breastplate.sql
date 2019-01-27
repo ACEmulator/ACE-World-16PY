@@ -10,7 +10,7 @@ VALUES (2033,   1,          2) /* ItemType - Armor */
      , (2033,   9,        512) /* ValidLocations - ChestArmor */
      , (2033,  16,          1) /* ItemUseable - No */
      , (2033,  19,       3500) /* Value */
-     , (2033,  27,         32) /* ArmorType */
+     , (2033,  27,         32) /* ArmorType - Metal */
      , (2033,  28,        100) /* ArmorLevel */
      , (2033,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
 

@@ -8,9 +8,9 @@ VALUES (9099,   1,         16) /* ItemType - Creature */
      , (9099,   7,         -1) /* ContainersCapacity */
      , (9099,  16,          1) /* ItemUseable - No */
      , (9099,  25,         79) /* Level */
-     , (9099,  27,          0) /* ArmorType */
+     , (9099,  27,          0) /* ArmorType - None */
      , (9099,  40,          2) /* CombatMode - Melee */
-     , (9099,  68,          9) /* TargetingTactic */
+     , (9099,  68,          9) /* TargetingTactic - Random, TopDamager */
      , (9099,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (9099, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (9099, 146,      18563) /* XpOverride */;

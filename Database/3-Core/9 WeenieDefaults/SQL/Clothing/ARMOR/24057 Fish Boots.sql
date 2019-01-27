@@ -10,7 +10,7 @@ VALUES (24057,   1,          2) /* ItemType - Armor */
      , (24057,   9,        384) /* ValidLocations - LowerLegWear, FootWear */
      , (24057,  16,          1) /* ItemUseable - No */
      , (24057,  19,          0) /* Value */
-     , (24057,  27,          4) /* ArmorType */
+     , (24057,  27,          4) /* ArmorType - StuddedLeather */
      , (24057,  28,        150) /* ArmorLevel */
      , (24057,  44,         20) /* Damage */
      , (24057,  45,          1) /* DamageType - Slash */

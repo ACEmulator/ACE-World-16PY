@@ -10,7 +10,7 @@ VALUES (64,   1,          2) /* ItemType - Armor */
      , (64,   9,       1024) /* ValidLocations - AbdomenArmor */
      , (64,  16,          1) /* ItemUseable - No */
      , (64,  19,        713) /* Value */
-     , (64,  27,         32) /* ArmorType */
+     , (64,  27,         32) /* ArmorType - Metal */
      , (64,  28,         80) /* ArmorLevel */
      , (64,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (64, 169,  118096132) /* TsysMutationData */;

@@ -9,7 +9,7 @@ VALUES (11398,   1,         16) /* ItemType - Creature */
      , (11398,   8,        120) /* Mass */
      , (11398,  16,         32) /* ItemUseable - Remote */
      , (11398,  25,          4) /* Level */
-     , (11398,  27,          0) /* ArmorType */
+     , (11398,  27,          0) /* ArmorType - None */
      , (11398,  74, 1078223008) /* MerchandiseItemTypes - Food, Misc, Writable, Key, PromissoryNote, CraftCookingBase, TinkeringMaterial */
      , (11398,  75,          0) /* MerchandiseMinValue */
      , (11398,  76,      25000) /* MerchandiseMaxValue */

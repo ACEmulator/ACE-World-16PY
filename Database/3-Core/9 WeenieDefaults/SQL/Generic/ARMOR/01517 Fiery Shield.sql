@@ -9,7 +9,7 @@ VALUES (1517,   1,          2) /* ItemType - Armor */
      , (1517,  16,          1) /* ItemUseable - No */
      , (1517,  18,         32) /* UiEffects - Fire */
      , (1517,  19,       7500) /* Value */
-     , (1517,  27,          2) /* ArmorType */
+     , (1517,  27,          2) /* ArmorType - Leather */
      , (1517,  28,         20) /* ArmorLevel */
      , (1517,  51,          4) /* CombatUse - Shield */
      , (1517,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */

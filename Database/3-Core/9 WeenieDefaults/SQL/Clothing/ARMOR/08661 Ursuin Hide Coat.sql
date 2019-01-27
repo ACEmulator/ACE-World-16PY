@@ -10,7 +10,7 @@ VALUES (8661,   1,          2) /* ItemType - Armor */
      , (8661,   9,       7680) /* ValidLocations - ChestArmor, AbdomenArmor, UpperArmArmor, LowerArmArmor */
      , (8661,  16,          1) /* ItemUseable - No */
      , (8661,  19,       2400) /* Value */
-     , (8661,  27,          2) /* ArmorType */
+     , (8661,  27,          2) /* ArmorType - Leather */
      , (8661,  28,        120) /* ArmorLevel */
      , (8661,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (8661, 150,        103) /* HookPlacement - Hook */

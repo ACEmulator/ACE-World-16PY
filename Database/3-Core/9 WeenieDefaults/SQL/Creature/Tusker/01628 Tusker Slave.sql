@@ -9,9 +9,9 @@ VALUES (1628,   1,         16) /* ItemType - Creature */
      , (1628,   7,         -1) /* ContainersCapacity */
      , (1628,  16,          1) /* ItemUseable - No */
      , (1628,  25,         79) /* Level */
-     , (1628,  27,          0) /* ArmorType */
+     , (1628,  27,          0) /* ArmorType - None */
      , (1628,  40,          2) /* CombatMode - Melee */
-     , (1628,  68,          9) /* TargetingTactic */
+     , (1628,  68,          9) /* TargetingTactic - Random, TopDamager */
      , (1628,  72,         19) /* FriendType - Virindi */
      , (1628,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (1628, 133,          2) /* ShowableOnRadar - ShowMovement */

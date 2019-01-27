@@ -10,7 +10,7 @@ VALUES (4231,   1,          2) /* ItemType - Armor */
      , (4231,   9,       7680) /* ValidLocations - ChestArmor, AbdomenArmor, UpperArmArmor, LowerArmArmor */
      , (4231,  16,          1) /* ItemUseable - No */
      , (4231,  19,        800) /* Value */
-     , (4231,  27,          2) /* ArmorType */
+     , (4231,  27,          2) /* ArmorType - Leather */
      , (4231,  28,        120) /* ArmorLevel */
      , (4231,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (4231, 150,        103) /* HookPlacement - Hook */

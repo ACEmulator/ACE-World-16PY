@@ -9,7 +9,7 @@ VALUES (21158,   1,          2) /* ItemType - Armor */
      , (21158,   9,    2097152) /* ValidLocations - Shield */
      , (21158,  16,          1) /* ItemUseable - No */
      , (21158,  19,        300) /* Value */
-     , (21158,  27,          2) /* ArmorType */
+     , (21158,  27,          2) /* ArmorType - Leather */
      , (21158,  28,        200) /* ArmorLevel */
      , (21158,  36,       9999) /* ResistMagic */
      , (21158,  51,          4) /* CombatUse - Shield */

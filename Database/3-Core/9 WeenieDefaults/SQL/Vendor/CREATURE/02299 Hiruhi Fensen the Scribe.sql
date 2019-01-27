@@ -9,7 +9,7 @@ VALUES (2299,   1,         16) /* ItemType - Creature */
      , (2299,   8,        120) /* Mass */
      , (2299,  16,         32) /* ItemUseable - Remote */
      , (2299,  25,          8) /* Level */
-     , (2299,  27,          0) /* ArmorType */
+     , (2299,  27,          0) /* ArmorType - None */
      , (2299,  74,     270336) /* MerchandiseItemTypes - Writable, PromissoryNote */
      , (2299,  75,          0) /* MerchandiseMinValue */
      , (2299,  76,     100000) /* MerchandiseMaxValue */

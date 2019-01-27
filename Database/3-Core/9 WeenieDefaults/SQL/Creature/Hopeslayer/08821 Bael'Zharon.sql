@@ -9,9 +9,9 @@ VALUES (8821,   1,         16) /* ItemType - Creature */
      , (8821,   7,         -1) /* ContainersCapacity */
      , (8821,  16,          1) /* ItemUseable - No */
      , (8821,  25,        899) /* Level */
-     , (8821,  27,          0) /* ArmorType */
+     , (8821,  27,          0) /* ArmorType - None */
      , (8821,  40,          1) /* CombatMode - NonCombat */
-     , (8821,  68,         13) /* TargetingTactic */
+     , (8821,  68,         13) /* TargetingTactic - Random, LastDamager, TopDamager */
      , (8821,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (8821, 101,        183) /* AiAllowedCombatStyle - Unarmed, OneHanded, OneHandedAndShield, Bow, Crossbow, ThrownWeapon */
      , (8821, 133,          2) /* ShowableOnRadar - ShowMovement */

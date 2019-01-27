@@ -10,7 +10,7 @@ VALUES (2197,   1,          2) /* ItemType - Armor */
      , (2197,   9,          1) /* ValidLocations - HeadWear */
      , (2197,  16,          1) /* ItemUseable - No */
      , (2197,  19,        400) /* Value */
-     , (2197,  27,         32) /* ArmorType */
+     , (2197,  27,         32) /* ArmorType - Metal */
      , (2197,  28,         30) /* ArmorLevel */
      , (2197,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (2197, 150,        103) /* HookPlacement - Hook */

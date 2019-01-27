@@ -8,9 +8,9 @@ VALUES (22052,   1,         16) /* ItemType - Creature */
      , (22052,   7,         -1) /* ContainersCapacity */
      , (22052,  16,          1) /* ItemUseable - No */
      , (22052,  25,        167) /* Level */
-     , (22052,  27,          0) /* ArmorType */
+     , (22052,  27,          0) /* ArmorType - None */
      , (22052,  40,          1) /* CombatMode - NonCombat */
-     , (22052,  68,          5) /* TargetingTactic */
+     , (22052,  68,          5) /* TargetingTactic - Random, LastDamager */
      , (22052,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (22052, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (22052, 146,      17000) /* XpOverride */;

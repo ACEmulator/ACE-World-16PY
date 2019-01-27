@@ -10,7 +10,7 @@ VALUES (25522,   1,          2) /* ItemType - Armor */
      , (25522,   9,          1) /* ValidLocations - HeadWear */
      , (25522,  16,          1) /* ItemUseable - No */
      , (25522,  19,       8500) /* Value */
-     , (25522,  27,          2) /* ArmorType */
+     , (25522,  27,          2) /* ArmorType - Leather */
      , (25522,  28,        250) /* ArmorLevel */
      , (25522,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (25522, 106,        325) /* ItemSpellcraft */

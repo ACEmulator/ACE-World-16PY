@@ -9,7 +9,7 @@ VALUES (8436,   1,         16) /* ItemType - Creature */
      , (8436,   8,        120) /* Mass */
      , (8436,  16,         32) /* ItemUseable - Remote */
      , (8436,  25,         21) /* Level */
-     , (8436,  27,          0) /* ArmorType */
+     , (8436,  27,          0) /* ArmorType - None */
      , (8436,  74,     266368) /* MerchandiseItemTypes - Misc, SpellComponents, PromissoryNote */
      , (8436,  75,          0) /* MerchandiseMinValue */
      , (8436,  76,     100000) /* MerchandiseMaxValue */

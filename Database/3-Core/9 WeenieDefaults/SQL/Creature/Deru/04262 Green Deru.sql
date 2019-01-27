@@ -8,9 +8,9 @@ VALUES (4262,   1,         16) /* ItemType - Creature */
      , (4262,   7,         -1) /* ContainersCapacity */
      , (4262,  16,          1) /* ItemUseable - No */
      , (4262,  25,         13) /* Level */
-     , (4262,  27,          0) /* ArmorType */
+     , (4262,  27,          0) /* ArmorType - None */
      , (4262,  40,          2) /* CombatMode - Melee */
-     , (4262,  68,          3) /* TargetingTactic */
+     , (4262,  68,          3) /* TargetingTactic - Random, Focused */
      , (4262,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (4262, 101,        131) /* AiAllowedCombatStyle - Unarmed, OneHanded, ThrownWeapon */
      , (4262, 133,          2) /* ShowableOnRadar - ShowMovement */

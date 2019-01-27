@@ -9,7 +9,7 @@ VALUES (1313,   1,          2) /* ItemType - Armor */
      , (1313,   9,    2097152) /* ValidLocations - Shield */
      , (1313,  16,          1) /* ItemUseable - No */
      , (1313,  19,        300) /* Value */
-     , (1313,  27,          2) /* ArmorType */
+     , (1313,  27,          2) /* ArmorType - Leather */
      , (1313,  28,         50) /* ArmorLevel */
      , (1313,  51,          4) /* CombatUse - Shield */
      , (1313,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */

@@ -10,7 +10,7 @@ VALUES (14854,   1,          2) /* ItemType - Armor */
      , (14854,   9,       6144) /* ValidLocations - UpperArmArmor, LowerArmArmor */
      , (14854,  16,          1) /* ItemUseable - No */
      , (14854,  19,       1870) /* Value */
-     , (14854,  27,         32) /* ArmorType */
+     , (14854,  27,         32) /* ArmorType - Metal */
      , (14854,  28,        210) /* ArmorLevel */
      , (14854,  33,          1) /* Bonded - Bonded */
      , (14854,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */

@@ -9,7 +9,7 @@ VALUES (8230,   1,         16) /* ItemType - Creature */
      , (8230,   8,        120) /* Mass */
      , (8230,  16,         32) /* ItemUseable - Remote */
      , (8230,  25,         11) /* Level */
-     , (8230,  27,          0) /* ArmorType */
+     , (8230,  27,          0) /* ArmorType - None */
      , (8230,  74,    4481568) /* MerchandiseItemTypes - VendorGrocer */
      , (8230,  75,          0) /* MerchandiseMinValue */
      , (8230,  76,      25000) /* MerchandiseMaxValue */

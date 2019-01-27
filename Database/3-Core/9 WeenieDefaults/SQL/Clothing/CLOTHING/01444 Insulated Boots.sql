@@ -10,7 +10,7 @@ VALUES (1444,   1,          4) /* ItemType - Clothing */
      , (1444,   9,        384) /* ValidLocations - LowerLegWear, FootWear */
      , (1444,  16,          1) /* ItemUseable - No */
      , (1444,  19,        280) /* Value */
-     , (1444,  27,          2) /* ArmorType */
+     , (1444,  27,          2) /* ArmorType - Leather */
      , (1444,  28,         20) /* ArmorLevel */
      , (1444,  44,          3) /* Damage */
      , (1444,  45,          4) /* DamageType - Bludgeon */

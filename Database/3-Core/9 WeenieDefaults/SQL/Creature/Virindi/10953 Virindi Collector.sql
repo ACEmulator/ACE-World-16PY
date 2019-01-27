@@ -9,15 +9,15 @@ VALUES (10953,   1,         16) /* ItemType - Creature */
      , (10953,   7,         -1) /* ContainersCapacity */
      , (10953,  16,          1) /* ItemUseable - No */
      , (10953,  25,        130) /* Level */
-     , (10953,  27,          0) /* ArmorType */
-     , (10953,  68,          3) /* TargetingTactic */
+     , (10953,  27,          0) /* ArmorType - None */
+     , (10953,  68,          3) /* TargetingTactic - Random, Focused */
      , (10953,  72,          1) /* FriendType - Olthoi */
      , (10953,  81,          4) /* MaxGeneratedObjects */
      , (10953,  82,          4) /* InitGeneratedObjects */
      , (10953,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (10953, 103,          3) /* GeneratorDestructionType - Kill */
      , (10953, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (10953, 140,          1) /* AiOptions */
+     , (10953, 140,          1) /* AiOptions - CanOpenDoors */
      , (10953, 146,      18500) /* XpOverride */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)

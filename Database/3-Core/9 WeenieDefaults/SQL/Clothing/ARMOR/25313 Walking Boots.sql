@@ -11,7 +11,7 @@ VALUES (25313,   1,          2) /* ItemType - Armor */
      , (25313,  16,          1) /* ItemUseable - No */
      , (25313,  18,          1) /* UiEffects - Magical */
      , (25313,  19,      13370) /* Value */
-     , (25313,  27,          4) /* ArmorType */
+     , (25313,  27,          4) /* ArmorType - StuddedLeather */
      , (25313,  28,        300) /* ArmorLevel */
      , (25313,  33,          1) /* Bonded - Bonded */
      , (25313,  44,         13) /* Damage */

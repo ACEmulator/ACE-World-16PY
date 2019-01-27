@@ -10,7 +10,7 @@ VALUES (4225,   1,          2) /* ItemType - Armor */
      , (4225,   9,       2048) /* ValidLocations - UpperArmArmor */
      , (4225,  16,          1) /* ItemUseable - No */
      , (4225,  19,        150) /* Value */
-     , (4225,  27,          2) /* ArmorType */
+     , (4225,  27,          2) /* ArmorType - Leather */
      , (4225,  28,         50) /* ArmorLevel */
      , (4225,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
 

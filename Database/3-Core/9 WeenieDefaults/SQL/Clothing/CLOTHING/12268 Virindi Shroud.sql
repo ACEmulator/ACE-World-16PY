@@ -10,7 +10,7 @@ VALUES (12268,   1,          4) /* ItemType - Clothing */
      , (12268,   9,      32512) /* ValidLocations - Armor */
      , (12268,  16,          1) /* ItemUseable - No */
      , (12268,  19,       6000) /* Value */
-     , (12268,  27,          1) /* ArmorType */
+     , (12268,  27,          1) /* ArmorType - Cloth */
      , (12268,  28,          0) /* ArmorLevel */
      , (12268,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (12268, 106,        200) /* ItemSpellcraft */

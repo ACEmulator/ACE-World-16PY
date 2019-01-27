@@ -10,7 +10,7 @@ VALUES (9257,   1,         16) /* ItemType - Creature */
      , (9257,  16,          1) /* ItemUseable - No */
      , (9257,  25,         25) /* Level */
      , (9257,  40,          2) /* CombatMode - Melee */
-     , (9257,  68,         13) /* TargetingTactic */
+     , (9257,  68,         13) /* TargetingTactic - Random, LastDamager, TopDamager */
      , (9257,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (9257, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (9257, 146,       2207) /* XpOverride */;

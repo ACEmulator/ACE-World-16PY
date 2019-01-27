@@ -9,7 +9,7 @@ VALUES (14923,   1,         16) /* ItemType - Creature */
      , (14923,   8,        120) /* Mass */
      , (14923,  16,         32) /* ItemUseable - Remote */
      , (14923,  25,        126) /* Level */
-     , (14923,  27,          0) /* ArmorType */
+     , (14923,  27,          0) /* ArmorType - None */
      , (14923,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (14923,  95,          8) /* RadarBlipColor - Yellow */
      , (14923, 133,          4) /* ShowableOnRadar - ShowAlways */

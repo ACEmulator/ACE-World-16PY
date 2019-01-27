@@ -10,7 +10,7 @@ VALUES (3706,   1,          2) /* ItemType - Armor */
      , (3706,   9,       1536) /* ValidLocations - ChestArmor, AbdomenArmor */
      , (3706,  16,          1) /* ItemUseable - No */
      , (3706,  19,       6000) /* Value */
-     , (3706,  27,         32) /* ArmorType */
+     , (3706,  27,         32) /* ArmorType - Metal */
      , (3706,  28,        280) /* ArmorLevel */
      , (3706,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
 

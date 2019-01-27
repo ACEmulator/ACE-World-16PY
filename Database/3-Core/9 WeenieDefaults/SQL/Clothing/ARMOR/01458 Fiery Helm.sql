@@ -11,7 +11,7 @@ VALUES (1458,   1,          2) /* ItemType - Armor */
      , (1458,  16,          1) /* ItemUseable - No */
      , (1458,  18,         32) /* UiEffects - Fire */
      , (1458,  19,       2700) /* Value */
-     , (1458,  27,         32) /* ArmorType */
+     , (1458,  27,         32) /* ArmorType - Metal */
      , (1458,  28,        100) /* ArmorLevel */
      , (1458,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (1458, 150,        103) /* HookPlacement - Hook */

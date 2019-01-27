@@ -10,7 +10,7 @@ VALUES (19435,   1,         16) /* ItemType - Creature */
      , (19435,  16,          1) /* ItemUseable - No */
      , (19435,  25,          6) /* Level */
      , (19435,  40,          4) /* CombatMode - Missile */
-     , (19435,  68,         13) /* TargetingTactic */
+     , (19435,  68,         13) /* TargetingTactic - Random, LastDamager, TopDamager */
      , (19435,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (19435, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (19435, 146,        100) /* XpOverride */;

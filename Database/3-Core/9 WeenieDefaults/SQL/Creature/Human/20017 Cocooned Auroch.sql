@@ -9,7 +9,7 @@ VALUES (20017,   1,         16) /* ItemType - Creature */
      , (20017,   8,        120) /* Mass */
      , (20017,  16,          1) /* ItemUseable - No */
      , (20017,  25,         13) /* Level */
-     , (20017,  27,          0) /* ArmorType */
+     , (20017,  27,          0) /* ArmorType - None */
      , (20017,  93,    2098200) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */
      , (20017,  95,          2) /* RadarBlipColor - Gold */
      , (20017, 133,          4) /* ShowableOnRadar - ShowAlways */

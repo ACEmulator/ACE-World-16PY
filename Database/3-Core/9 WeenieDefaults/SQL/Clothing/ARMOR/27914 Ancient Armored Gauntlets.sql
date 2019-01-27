@@ -11,7 +11,7 @@ VALUES (27914,   1,          2) /* ItemType - Armor */
      , (27914,  16,          1) /* ItemUseable - No */
      , (27914,  18,          1) /* UiEffects - Magical */
      , (27914,  19,      18000) /* Value */
-     , (27914,  27,         32) /* ArmorType */
+     , (27914,  27,         32) /* ArmorType - Metal */
      , (27914,  28,        440) /* ArmorLevel */
      , (27914,  44,         12) /* Damage */
      , (27914,  45,          4) /* DamageType - Bludgeon */

@@ -9,7 +9,7 @@ VALUES (27248,   1,         16) /* ItemType - Creature */
      , (27248,   8,        120) /* Mass */
      , (27248,  16,         32) /* ItemUseable - Remote */
      , (27248,  25,          7) /* Level */
-     , (27248,  27,          0) /* ArmorType */
+     , (27248,  27,          0) /* ArmorType - None */
      , (27248,  74,        544) /* MerchandiseItemTypes - Food, Container */
      , (27248,  75,          0) /* MerchandiseMinValue */
      , (27248,  76,     100000) /* MerchandiseMaxValue */

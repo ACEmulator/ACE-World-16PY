@@ -9,7 +9,7 @@ VALUES (6113,   1,         16) /* ItemType - Creature */
      , (6113,   8,        120) /* Mass */
      , (6113,  16,         32) /* ItemUseable - Remote */
      , (6113,  25,         11) /* Level */
-     , (6113,  27,          0) /* ArmorType */
+     , (6113,  27,          0) /* ArmorType - None */
      , (6113,  74,    4194304) /* MerchandiseItemTypes - CraftCookingBase */
      , (6113,  75,          0) /* MerchandiseMinValue */
      , (6113,  76,     100000) /* MerchandiseMaxValue */

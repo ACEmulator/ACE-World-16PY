@@ -10,7 +10,7 @@ VALUES (6618,   1,          2) /* ItemType - Armor */
      , (6618,   9,       6144) /* ValidLocations - UpperArmArmor, LowerArmArmor */
      , (6618,  16,          1) /* ItemUseable - No */
      , (6618,  19,       1620) /* Value */
-     , (6618,  27,          2) /* ArmorType */
+     , (6618,  27,          2) /* ArmorType - Leather */
      , (6618,  28,        195) /* ArmorLevel */
      , (6618,  33,          1) /* Bonded - Bonded */
      , (6618,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;

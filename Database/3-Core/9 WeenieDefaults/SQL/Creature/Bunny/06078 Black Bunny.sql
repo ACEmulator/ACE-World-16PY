@@ -8,10 +8,10 @@ VALUES (6078,   1,         16) /* ItemType - Creature */
      , (6078,   7,         -1) /* ContainersCapacity */
      , (6078,  16,          1) /* ItemUseable - No */
      , (6078,  25,          2) /* Level */
-     , (6078,  27,          0) /* ArmorType */
+     , (6078,  27,          0) /* ArmorType - None */
      , (6078,  40,          2) /* CombatMode - Melee */
-     , (6078,  67,         64) /* Tolerance */
-     , (6078,  68,          9) /* TargetingTactic */
+     , (6078,  67,         64) /* Tolerance - Retaliate */
+     , (6078,  68,          9) /* TargetingTactic - Random, TopDamager */
      , (6078,  72,         25) /* FriendType - Rabbit */
      , (6078,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (6078, 133,          4) /* ShowableOnRadar - ShowAlways */

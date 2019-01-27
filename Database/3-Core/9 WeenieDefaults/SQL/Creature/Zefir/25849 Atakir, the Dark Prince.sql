@@ -10,7 +10,7 @@ VALUES (25849,   1,         16) /* ItemType - Creature */
      , (25849,  16,          1) /* ItemUseable - No */
      , (25849,  25,        170) /* Level */
      , (25849,  40,          2) /* CombatMode - Melee */
-     , (25849,  68,         13) /* TargetingTactic */
+     , (25849,  68,         13) /* TargetingTactic - Random, LastDamager, TopDamager */
      , (25849,  72,         22) /* FriendType - Shadow */
      , (25849,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (25849, 133,          2) /* ShowableOnRadar - ShowMovement */

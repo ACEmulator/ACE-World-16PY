@@ -9,9 +9,9 @@ VALUES (22050,   1,         16) /* ItemType - Creature */
      , (22050,   7,         -1) /* ContainersCapacity */
      , (22050,  16,          1) /* ItemUseable - No */
      , (22050,  25,        278) /* Level */
-     , (22050,  27,          0) /* ArmorType */
+     , (22050,  27,          0) /* ArmorType - None */
      , (22050,  40,          1) /* CombatMode - NonCombat */
-     , (22050,  68,          3) /* TargetingTactic */
+     , (22050,  68,          3) /* TargetingTactic - Random, Focused */
      , (22050,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (22050, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (22050, 146,      28000) /* XpOverride */;

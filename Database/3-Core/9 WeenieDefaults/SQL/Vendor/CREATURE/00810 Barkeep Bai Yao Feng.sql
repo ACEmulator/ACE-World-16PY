@@ -9,7 +9,7 @@ VALUES (810,   1,         16) /* ItemType - Creature */
      , (810,   8,        120) /* Mass */
      , (810,  16,         32) /* ItemUseable - Remote */
      , (810,  25,          6) /* Level */
-     , (810,  27,          0) /* ArmorType */
+     , (810,  27,          0) /* ArmorType - None */
      , (810,  74,     262176) /* MerchandiseItemTypes - Food, PromissoryNote */
      , (810,  75,          0) /* MerchandiseMinValue */
      , (810,  76,      25000) /* MerchandiseMaxValue */

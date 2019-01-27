@@ -9,7 +9,7 @@ VALUES (28815,   1,          2) /* ItemType - Armor */
      , (28815,   9,    2097152) /* ValidLocations - Shield */
      , (28815,  16,          1) /* ItemUseable - No */
      , (28815,  19,        210) /* Value */
-     , (28815,  27,          2) /* ArmorType */
+     , (28815,  27,          2) /* ArmorType - Leather */
      , (28815,  28,         40) /* ArmorLevel */
      , (28815,  51,          4) /* CombatUse - Shield */
      , (28815,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */

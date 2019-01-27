@@ -10,7 +10,7 @@ VALUES (11378,   1,         16) /* ItemType - Creature */
      , (11378,   8,        120) /* Mass */
      , (11378,  16,         32) /* ItemUseable - Remote */
      , (11378,  25,          7) /* Level */
-     , (11378,  27,          0) /* ArmorType */
+     , (11378,  27,          0) /* ArmorType - None */
      , (11378,  74,  151257344) /* MerchandiseItemTypes - 151257344 */
      , (11378,  75,          0) /* MerchandiseMinValue */
      , (11378,  76,     100000) /* MerchandiseMaxValue */

@@ -10,7 +10,7 @@ VALUES (9031,   1,          4) /* ItemType - Clothing */
      , (9031,   9,      32512) /* ValidLocations - Armor */
      , (9031,  16,          1) /* ItemUseable - No */
      , (9031,  19,       4000) /* Value */
-     , (9031,  27,          1) /* ArmorType */
+     , (9031,  27,          1) /* ArmorType - Cloth */
      , (9031,  28,          0) /* ArmorLevel */
      , (9031,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (9031, 106,        275) /* ItemSpellcraft */

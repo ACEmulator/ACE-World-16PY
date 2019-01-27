@@ -9,13 +9,13 @@ VALUES (24500,   1,         16) /* ItemType - Creature */
      , (24500,   7,         -1) /* ContainersCapacity */
      , (24500,  16,          1) /* ItemUseable - No */
      , (24500,  25,        185) /* Level */
-     , (24500,  27,          0) /* ArmorType */
-     , (24500,  68,          5) /* TargetingTactic */
+     , (24500,  27,          0) /* ArmorType - None */
+     , (24500,  68,          5) /* TargetingTactic - Random, LastDamager */
      , (24500,  72,         70) /* FriendType - GotrokLugian */
      , (24500,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (24500, 101,        183) /* AiAllowedCombatStyle - Unarmed, OneHanded, OneHandedAndShield, Bow, Crossbow, ThrownWeapon */
      , (24500, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (24500, 140,          1) /* AiOptions */
+     , (24500, 140,          1) /* AiOptions - CanOpenDoors */
      , (24500, 146,     599775) /* XpOverride */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)

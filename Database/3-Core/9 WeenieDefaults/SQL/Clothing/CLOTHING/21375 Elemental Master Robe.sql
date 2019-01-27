@@ -11,7 +11,7 @@ VALUES (21375,   1,          4) /* ItemType - Clothing */
      , (21375,  16,          1) /* ItemUseable - No */
      , (21375,  18,          1) /* UiEffects - Magical */
      , (21375,  19,       4000) /* Value */
-     , (21375,  27,          1) /* ArmorType */
+     , (21375,  27,          1) /* ArmorType - Cloth */
      , (21375,  28,         80) /* ArmorLevel */
      , (21375,  36,       9999) /* ResistMagic */
      , (21375,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */

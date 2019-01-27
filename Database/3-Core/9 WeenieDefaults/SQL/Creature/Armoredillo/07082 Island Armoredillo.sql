@@ -10,7 +10,7 @@ VALUES (7082,   1,         16) /* ItemType - Creature */
      , (7082,  16,          1) /* ItemUseable - No */
      , (7082,  25,         44) /* Level */
      , (7082,  40,          2) /* CombatMode - Melee */
-     , (7082,  68,          9) /* TargetingTactic */
+     , (7082,  68,          9) /* TargetingTactic - Random, TopDamager */
      , (7082,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (7082, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (7082, 146,       5846) /* XpOverride */;

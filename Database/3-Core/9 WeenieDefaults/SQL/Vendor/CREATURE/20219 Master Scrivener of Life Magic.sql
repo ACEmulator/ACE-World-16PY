@@ -9,7 +9,7 @@ VALUES (20219,   1,         16) /* ItemType - Creature */
      , (20219,   8,        120) /* Mass */
      , (20219,  16,         32) /* ItemUseable - Remote */
      , (20219,  25,         14) /* Level */
-     , (20219,  27,          0) /* ArmorType */
+     , (20219,  27,          0) /* ArmorType - None */
      , (20219,  74,     270464) /* MerchandiseItemTypes - Misc, Writable, PromissoryNote */
      , (20219,  75,          0) /* MerchandiseMinValue */
      , (20219,  76,     100000) /* MerchandiseMaxValue */

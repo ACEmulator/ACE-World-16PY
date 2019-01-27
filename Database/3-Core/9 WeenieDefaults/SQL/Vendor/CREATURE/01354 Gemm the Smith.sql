@@ -9,7 +9,7 @@ VALUES (1354,   1,         16) /* ItemType - Creature */
      , (1354,   8,        120) /* Mass */
      , (1354,  16,         32) /* ItemUseable - Remote */
      , (1354,  25,         10) /* Level */
-     , (1354,  27,          0) /* ArmorType */
+     , (1354,  27,          0) /* ArmorType - None */
      , (1354,  74, 1842151343) /* MerchandiseItemTypes - 1842151343 */
      , (1354,  75,          0) /* MerchandiseMinValue */
      , (1354,  76,     100000) /* MerchandiseMaxValue */

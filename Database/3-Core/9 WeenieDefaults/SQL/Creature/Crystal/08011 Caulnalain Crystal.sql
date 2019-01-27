@@ -9,10 +9,10 @@ VALUES (8011,   1,         16) /* ItemType - Creature */
      , (8011,   7,         -1) /* ContainersCapacity */
      , (8011,  16,          1) /* ItemUseable - No */
      , (8011,  25,         79) /* Level */
-     , (8011,  27,          0) /* ArmorType */
+     , (8011,  27,          0) /* ArmorType - None */
      , (8011,  40,          2) /* CombatMode - Melee */
-     , (8011,  68,          5) /* TargetingTactic */
-     , (8011,  69,          4) /* CombatTactic */
+     , (8011,  68,          5) /* TargetingTactic - Random, LastDamager */
+     , (8011,  69,          4) /* CombatTactic - LastDamager */
      , (8011,  93,       3080) /* PhysicsState - ReportCollisions, Gravity, LightingOn */
      , (8011, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (8011, 146,      16000) /* XpOverride */;

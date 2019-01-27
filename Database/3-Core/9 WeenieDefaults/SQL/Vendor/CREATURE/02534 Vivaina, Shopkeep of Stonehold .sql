@@ -9,7 +9,7 @@ VALUES (2534,   1,         16) /* ItemType - Creature */
      , (2534,   8,        120) /* Mass */
      , (2534,  16,         32) /* ItemUseable - Remote */
      , (2534,  25,          9) /* Level */
-     , (2534,  27,          0) /* ArmorType */
+     , (2534,  27,          0) /* ArmorType - None */
      , (2534,  74, 1208250287) /* MerchandiseItemTypes - Jewelry, Gem, VendorShopKeep */
      , (2534,  75,          0) /* MerchandiseMinValue */
      , (2534,  76,     100000) /* MerchandiseMaxValue */

@@ -10,7 +10,7 @@ VALUES (11375,   1,         16) /* ItemType - Creature */
      , (11375,   8,        120) /* Mass */
      , (11375,  16,         32) /* ItemUseable - Remote */
      , (11375,  25,         12) /* Level */
-     , (11375,  27,          0) /* ArmorType */
+     , (11375,  27,          0) /* ArmorType - None */
      , (11375,  74,   76322820) /* MerchandiseItemTypes - Clothing, Gem, SpellComponents, Caster, PromissoryNote, ManaStone, CraftAlchemyBase, CraftAlchemyIntermediate */
      , (11375,  75,          0) /* MerchandiseMinValue */
      , (11375,  76,     100000) /* MerchandiseMaxValue */

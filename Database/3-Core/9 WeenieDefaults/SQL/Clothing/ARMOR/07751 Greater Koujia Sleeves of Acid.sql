@@ -10,7 +10,7 @@ VALUES (7751,   1,          2) /* ItemType - Armor */
      , (7751,   9,       6144) /* ValidLocations - UpperArmArmor, LowerArmArmor */
      , (7751,  16,          1) /* ItemUseable - No */
      , (7751,  19,       1620) /* Value */
-     , (7751,  27,          2) /* ArmorType */
+     , (7751,  27,          2) /* ArmorType - Leather */
      , (7751,  28,        175) /* ArmorLevel */
      , (7751,  33,          1) /* Bonded - Bonded */
      , (7751,  36,       9999) /* ResistMagic */

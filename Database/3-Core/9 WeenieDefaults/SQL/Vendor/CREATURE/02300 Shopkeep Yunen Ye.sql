@@ -9,7 +9,7 @@ VALUES (2300,   1,         16) /* ItemType - Creature */
      , (2300,   8,        120) /* Mass */
      , (2300,  16,         32) /* ItemUseable - Remote */
      , (2300,  25,          9) /* Level */
-     , (2300,  27,          0) /* ArmorType */
+     , (2300,  27,          0) /* ArmorType - None */
      , (2300,  74, 1208248231) /* MerchandiseItemTypes - VendorShopKeep */
      , (2300,  75,          0) /* MerchandiseMinValue */
      , (2300,  76,     100000) /* MerchandiseMaxValue */

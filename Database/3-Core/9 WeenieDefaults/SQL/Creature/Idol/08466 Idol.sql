@@ -9,7 +9,7 @@ VALUES (8466,   1,         16) /* ItemType - Creature */
      , (8466,  16,          1) /* ItemUseable - No */
      , (8466,  25,         35) /* Level */
      , (8466,  40,          2) /* CombatMode - Melee */
-     , (8466,  68,         13) /* TargetingTactic */
+     , (8466,  68,         13) /* TargetingTactic - Random, LastDamager, TopDamager */
      , (8466,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (8466, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (8466, 146,       4387) /* XpOverride */;

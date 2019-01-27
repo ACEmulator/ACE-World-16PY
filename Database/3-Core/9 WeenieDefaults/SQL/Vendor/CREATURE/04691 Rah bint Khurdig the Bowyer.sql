@@ -9,7 +9,7 @@ VALUES (4691,   1,         16) /* ItemType - Creature */
      , (4691,   8,        120) /* Mass */
      , (4691,  16,         32) /* ItemUseable - Remote */
      , (4691,  25,          9) /* Level */
-     , (4691,  27,          0) /* ArmorType */
+     , (4691,  27,          0) /* ArmorType - None */
      , (4691,  74,  134496513) /* MerchandiseItemTypes - Weapon, Key, PromissoryNote, CraftFletchingIntermediate */
      , (4691,  75,          0) /* MerchandiseMinValue */
      , (4691,  76,     100000) /* MerchandiseMaxValue */

@@ -9,8 +9,8 @@ VALUES (10938,   1,         16) /* ItemType - Creature */
      , (10938,   8,        120) /* Mass */
      , (10938,  16,          1) /* ItemUseable - No */
      , (10938,  25,        120) /* Level */
-     , (10938,  27,          0) /* ArmorType */
-     , (10938,  68,         13) /* TargetingTactic */
+     , (10938,  27,          0) /* ArmorType - None */
+     , (10938,  68,         13) /* TargetingTactic - Random, LastDamager, TopDamager */
      , (10938,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (10938, 101,        131) /* AiAllowedCombatStyle - Unarmed, OneHanded, ThrownWeapon */
      , (10938, 133,          2) /* ShowableOnRadar - ShowMovement */

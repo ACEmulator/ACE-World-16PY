@@ -9,9 +9,9 @@ VALUES (202,   1,         16) /* ItemType - Creature */
      , (202,   7,         -1) /* ContainersCapacity */
      , (202,  16,          1) /* ItemUseable - No */
      , (202,  25,         14) /* Level */
-     , (202,  27,          0) /* ArmorType */
+     , (202,  27,          0) /* ArmorType - None */
      , (202,  40,          2) /* CombatMode - Melee */
-     , (202,  68,          5) /* TargetingTactic */
+     , (202,  68,          5) /* TargetingTactic - Random, LastDamager */
      , (202,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (202, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (202, 146,        723) /* XpOverride */;

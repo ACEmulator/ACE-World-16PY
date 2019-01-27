@@ -11,7 +11,7 @@ VALUES (12138,   1,          2) /* ItemType - Armor */
      , (12138,  16,          1) /* ItemUseable - No */
      , (12138,  18,          1) /* UiEffects - Magical */
      , (12138,  19,       3000) /* Value */
-     , (12138,  27,         32) /* ArmorType */
+     , (12138,  27,         32) /* ArmorType - Metal */
      , (12138,  28,         80) /* ArmorLevel */
      , (12138,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (12138, 106,        220) /* ItemSpellcraft */

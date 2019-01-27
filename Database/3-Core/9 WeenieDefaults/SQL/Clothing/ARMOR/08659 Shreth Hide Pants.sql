@@ -10,7 +10,7 @@ VALUES (8659,   1,          2) /* ItemType - Armor */
      , (8659,   9,      25600) /* ValidLocations - AbdomenArmor, UpperLegArmor, LowerLegArmor */
      , (8659,  16,          1) /* ItemUseable - No */
      , (8659,  19,       3300) /* Value */
-     , (8659,  27,          4) /* ArmorType */
+     , (8659,  27,          4) /* ArmorType - StuddedLeather */
      , (8659,  28,        110) /* ArmorLevel */
      , (8659,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
 

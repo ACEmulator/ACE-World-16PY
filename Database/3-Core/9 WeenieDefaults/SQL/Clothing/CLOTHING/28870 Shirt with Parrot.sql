@@ -10,7 +10,7 @@ VALUES (28870,   1,          4) /* ItemType - Clothing */
      , (28870,   9,         30) /* ValidLocations - ChestWear, AbdomenWear, UpperArmWear, LowerArmWear */
      , (28870,  16,          1) /* ItemUseable - No */
      , (28870,  19,        500) /* Value */
-     , (28870,  27,          1) /* ArmorType */
+     , (28870,  27,          1) /* ArmorType - Cloth */
      , (28870,  28,         10) /* ArmorLevel */
      , (28870,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (28870, 150,        103) /* HookPlacement - Hook */

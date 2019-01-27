@@ -9,9 +9,9 @@ VALUES (25847,   1,         16) /* ItemType - Creature */
      , (25847,   7,         -1) /* ContainersCapacity */
      , (25847,  16,          1) /* ItemUseable - No */
      , (25847,  25,        161) /* Level */
-     , (25847,  27,          0) /* ArmorType */
+     , (25847,  27,          0) /* ArmorType - None */
      , (25847,  40,          2) /* CombatMode - Melee */
-     , (25847,  68,          3) /* TargetingTactic */
+     , (25847,  68,          3) /* TargetingTactic - Random, Focused */
      , (25847,  81,          5) /* MaxGeneratedObjects */
      , (25847,  82,          5) /* InitGeneratedObjects */
      , (25847,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */

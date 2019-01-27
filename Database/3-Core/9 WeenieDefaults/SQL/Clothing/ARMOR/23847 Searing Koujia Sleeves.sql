@@ -11,7 +11,7 @@ VALUES (23847,   1,          2) /* ItemType - Armor */
      , (23847,  16,          1) /* ItemUseable - No */
      , (23847,  18,         32) /* UiEffects - Fire */
      , (23847,  19,       1620) /* Value */
-     , (23847,  27,          2) /* ArmorType */
+     , (23847,  27,          2) /* ArmorType - Leather */
      , (23847,  28,        245) /* ArmorLevel */
      , (23847,  33,          1) /* Bonded - Bonded */
      , (23847,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
