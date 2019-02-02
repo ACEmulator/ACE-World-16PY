@@ -82,14 +82,14 @@ VALUES (25714,   1,   200, 0, 0, 201) /* MaxHealth */
      , (25714,   5,   201, 0, 0, 202) /* MaxMana */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
-VALUES (25714, 14, 0, 3, 0, 200, 0, 1658.68849512108) /* ArcaneLore          Specialized */
-     , (25714, 16, 0, 3, 0, 200, 0, 1658.68849512108) /* ManaConversion      Specialized */
-     , (25714, 20, 0, 3, 0, 900, 0, 1658.68849512108) /* Deception           Specialized */
-     , (25714, 22, 0, 3, 0, 200, 0, 1658.68849512108) /* Jump                Specialized */
-     , (25714, 24, 0, 3, 0, 200, 0, 1658.68849512108) /* Run                 Specialized */
-     , (25714, 31, 0, 3, 0, 900, 0, 1658.68849512108) /* CreatureEnchantment Specialized */
-     , (25714, 33, 0, 3, 0, 900, 0, 1658.68849512108) /* LifeMagic           Specialized */
-     , (25714, 34, 0, 3, 0, 900, 0, 1658.68849512108) /* WarMagic            Specialized */;
+VALUES (25714, 14, 0, 3, 0, 200, 0, 1658.68849512107) /* ArcaneLore          Specialized */
+     , (25714, 16, 0, 3, 0, 200, 0, 1658.68849512107) /* ManaConversion      Specialized */
+     , (25714, 20, 0, 3, 0, 900, 0, 1658.68849512107) /* Deception           Specialized */
+     , (25714, 22, 0, 3, 0, 200, 0, 1658.68849512107) /* Jump                Specialized */
+     , (25714, 24, 0, 3, 0, 200, 0, 1658.68849512107) /* Run                 Specialized */
+     , (25714, 31, 0, 3, 0, 900, 0, 1658.68849512107) /* CreatureEnchantment Specialized */
+     , (25714, 33, 0, 3, 0, 900, 0, 1658.68849512107) /* LifeMagic           Specialized */
+     , (25714, 34, 0, 3, 0, 900, 0, 1658.68849512107) /* WarMagic            Specialized */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
 VALUES (25714,  0,  4,  0,    0,  200,  158,  158,  160,  200,  200,  200,  200,    0, 1, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0) /* Head */
