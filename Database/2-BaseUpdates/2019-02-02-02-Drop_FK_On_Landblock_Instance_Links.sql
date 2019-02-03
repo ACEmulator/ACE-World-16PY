@@ -6,7 +6,7 @@ ALTER TABLE `landblock_instance_link` RENAME INDEX `parent_child_guuidx` TO `par
 /* ALTER TABLE `landblock_instance_link` ALTER INDEX `parent_child_uidx` INVISIBLE; */
 
 ALTER TABLE `landblock_instance_link` 
-ADD UNIQUE INDEX `child_uidx` (`child_GUID` ASC) VISIBLE;
+ADD UNIQUE INDEX `child_uidx` (`child_GUID` ASC) /*VISIBLE*/;
 ;
 
 /*
