@@ -1,10 +1,10 @@
-INSERT INTO `encounter` (`landblock`, `weenie_Class_Id`, `cell_X`, `cell_Y`)
-VALUES (63265, 7228, 0, 7) /* Jungle F1 Mix Generator */
-     , (63265, 7228, 2, 1) /* Jungle F1 Mix Generator */
-     , (63265, 7228, 2, 3) /* Jungle F1 Mix Generator */
-     , (63265, 7228, 2, 7) /* Jungle F1 Mix Generator */
-     , (63265, 7228, 3, 1) /* Jungle F1 Mix Generator */
-     , (63265, 7228, 4, 0) /* Jungle F1 Mix Generator */
-     , (63265, 7228, 4, 4) /* Jungle F1 Mix Generator */
-     , (63265, 7228, 6, 3) /* Jungle F1 Mix Generator */
-     , (63265, 7227, 6, 4) /* Jungle E Mix Generator */;
+INSERT INTO `encounter` (`landblock`, `weenie_Class_Id`, `cell_X`, `cell_Y`, `last_Modified`)
+VALUES (63265, 7228, 0, 7, '2005-02-09 10:00:00') /* Jungle F1 Mix Generator */
+     , (63265, 7228, 2, 1, '2005-02-09 10:00:00') /* Jungle F1 Mix Generator */
+     , (63265, 7228, 2, 3, '2005-02-09 10:00:00') /* Jungle F1 Mix Generator */
+     , (63265, 7228, 2, 7, '2005-02-09 10:00:00') /* Jungle F1 Mix Generator */
+     , (63265, 7228, 3, 1, '2005-02-09 10:00:00') /* Jungle F1 Mix Generator */
+     , (63265, 7228, 4, 0, '2005-02-09 10:00:00') /* Jungle F1 Mix Generator */
+     , (63265, 7228, 4, 4, '2005-02-09 10:00:00') /* Jungle F1 Mix Generator */
+     , (63265, 7228, 6, 3, '2005-02-09 10:00:00') /* Jungle F1 Mix Generator */
+     , (63265, 7227, 6, 4, '2005-02-09 10:00:00') /* Jungle E Mix Generator */;

@@ -1,5 +1,5 @@
-INSERT INTO `encounter` (`landblock`, `weenie_Class_Id`, `cell_X`, `cell_Y`)
-VALUES (63517, 7228, 2, 3) /* Jungle F1 Mix Generator */
-     , (63517, 7228, 2, 4) /* Jungle F1 Mix Generator */
-     , (63517, 7227, 2, 7) /* Jungle E Mix Generator */
-     , (63517, 7228, 4, 3) /* Jungle F1 Mix Generator */;
+INSERT INTO `encounter` (`landblock`, `weenie_Class_Id`, `cell_X`, `cell_Y`, `last_Modified`)
+VALUES (63517, 7228, 2, 3, '2005-02-09 10:00:00') /* Jungle F1 Mix Generator */
+     , (63517, 7228, 2, 4, '2005-02-09 10:00:00') /* Jungle F1 Mix Generator */
+     , (63517, 7227, 2, 7, '2005-02-09 10:00:00') /* Jungle E Mix Generator */
+     , (63517, 7228, 4, 3, '2005-02-09 10:00:00') /* Jungle F1 Mix Generator */;

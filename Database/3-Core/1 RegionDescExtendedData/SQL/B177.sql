@@ -1,7 +1,7 @@
-INSERT INTO `encounter` (`landblock`, `weenie_Class_Id`, `cell_X`, `cell_Y`)
-VALUES (45431, 7930, 0, 5) /* Low Central Plains Mix Generator */
-     , (45431, 7930, 4, 6) /* Low Central Plains Mix Generator */
-     , (45431, 7930, 5, 6) /* Low Central Plains Mix Generator */
-     , (45431, 7930, 5, 7) /* Low Central Plains Mix Generator */
-     , (45431, 7930, 6, 3) /* Low Central Plains Mix Generator */
-     , (45431, 7930, 7, 3) /* Low Central Plains Mix Generator */;
+INSERT INTO `encounter` (`landblock`, `weenie_Class_Id`, `cell_X`, `cell_Y`, `last_Modified`)
+VALUES (45431, 7930, 0, 5, '2005-02-09 10:00:00') /* Low Central Plains Mix Generator */
+     , (45431, 7930, 4, 6, '2005-02-09 10:00:00') /* Low Central Plains Mix Generator */
+     , (45431, 7930, 5, 6, '2005-02-09 10:00:00') /* Low Central Plains Mix Generator */
+     , (45431, 7930, 5, 7, '2005-02-09 10:00:00') /* Low Central Plains Mix Generator */
+     , (45431, 7930, 6, 3, '2005-02-09 10:00:00') /* Low Central Plains Mix Generator */
+     , (45431, 7930, 7, 3, '2005-02-09 10:00:00') /* Low Central Plains Mix Generator */;

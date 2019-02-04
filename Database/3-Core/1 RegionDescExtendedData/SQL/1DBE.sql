@@ -1,4 +1,4 @@
-INSERT INTO `encounter` (`landblock`, `weenie_Class_Id`, `cell_X`, `cell_Y`)
-VALUES (7614, 11197, 1, 7) /* Northwest Marae Plateau Master Gen */
-     , (7614, 11197, 4, 4) /* Northwest Marae Plateau Master Gen */
-     , (7614, 11197, 5, 3) /* Northwest Marae Plateau Master Gen */;
+INSERT INTO `encounter` (`landblock`, `weenie_Class_Id`, `cell_X`, `cell_Y`, `last_Modified`)
+VALUES (7614, 11197, 1, 7, '2005-02-09 10:00:00') /* Northwest Marae Plateau Master Gen */
+     , (7614, 11197, 4, 4, '2005-02-09 10:00:00') /* Northwest Marae Plateau Master Gen */
+     , (7614, 11197, 5, 3, '2005-02-09 10:00:00') /* Northwest Marae Plateau Master Gen */;

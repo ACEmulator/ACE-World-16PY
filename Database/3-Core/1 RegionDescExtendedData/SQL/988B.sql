@@ -1,3 +1,3 @@
-INSERT INTO `encounter` (`landblock`, `weenie_Class_Id`, `cell_X`, `cell_Y`)
-VALUES (39051, 21178, 0, 2) /* Low Central Desert Plains Mix Generator */
-     , (39051, 21178, 2, 3) /* Low Central Desert Plains Mix Generator */;
+INSERT INTO `encounter` (`landblock`, `weenie_Class_Id`, `cell_X`, `cell_Y`, `last_Modified`)
+VALUES (39051, 21178, 0, 2, '2005-02-09 10:00:00') /* Low Central Desert Plains Mix Generator */
+     , (39051, 21178, 2, 3, '2005-02-09 10:00:00') /* Low Central Desert Plains Mix Generator */;

@@ -1,3 +1,3 @@
-INSERT INTO `encounter` (`landblock`, `weenie_Class_Id`, `cell_X`, `cell_Y`)
-VALUES (16345, 4584, 6, 2) /* High Shore Generator */
-     , (16345, 4584, 7, 6) /* High Shore Generator */;
+INSERT INTO `encounter` (`landblock`, `weenie_Class_Id`, `cell_X`, `cell_Y`, `last_Modified`)
+VALUES (16345, 4584, 6, 2, '2005-02-09 10:00:00') /* High Shore Generator */
+     , (16345, 4584, 7, 6, '2005-02-09 10:00:00') /* High Shore Generator */;

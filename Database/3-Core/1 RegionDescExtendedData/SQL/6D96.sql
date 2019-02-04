@@ -1,8 +1,8 @@
-INSERT INTO `encounter` (`landblock`, `weenie_Class_Id`, `cell_X`, `cell_Y`)
-VALUES (28054, 23160, 0, 7) /* Mid North Plains Monouga Generator */
-     , (28054, 23160, 2, 0) /* Mid North Plains Monouga Generator */
-     , (28054, 23160, 2, 1) /* Mid North Plains Monouga Generator */
-     , (28054, 23160, 4, 5) /* Mid North Plains Monouga Generator */
-     , (28054, 23160, 4, 7) /* Mid North Plains Monouga Generator */
-     , (28054, 23160, 6, 7) /* Mid North Plains Monouga Generator */
-     , (28054, 23160, 7, 2) /* Mid North Plains Monouga Generator */;
+INSERT INTO `encounter` (`landblock`, `weenie_Class_Id`, `cell_X`, `cell_Y`, `last_Modified`)
+VALUES (28054, 23160, 0, 7, '2005-02-09 10:00:00') /* Mid North Plains Monouga Generator */
+     , (28054, 23160, 2, 0, '2005-02-09 10:00:00') /* Mid North Plains Monouga Generator */
+     , (28054, 23160, 2, 1, '2005-02-09 10:00:00') /* Mid North Plains Monouga Generator */
+     , (28054, 23160, 4, 5, '2005-02-09 10:00:00') /* Mid North Plains Monouga Generator */
+     , (28054, 23160, 4, 7, '2005-02-09 10:00:00') /* Mid North Plains Monouga Generator */
+     , (28054, 23160, 6, 7, '2005-02-09 10:00:00') /* Mid North Plains Monouga Generator */
+     , (28054, 23160, 7, 2, '2005-02-09 10:00:00') /* Mid North Plains Monouga Generator */;

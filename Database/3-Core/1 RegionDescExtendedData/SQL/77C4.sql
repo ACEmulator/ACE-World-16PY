@@ -1,5 +1,5 @@
-INSERT INTO `encounter` (`landblock`, `weenie_Class_Id`, `cell_X`, `cell_Y`)
-VALUES (30660, 2002, 0, 6) /* High North Mountains Drudge Generator */
-     , (30660, 2002, 2, 4) /* High North Mountains Drudge Generator */
-     , (30660, 2002, 6, 4) /* High North Mountains Drudge Generator */
-     , (30660, 2002, 7, 2) /* High North Mountains Drudge Generator */;
+INSERT INTO `encounter` (`landblock`, `weenie_Class_Id`, `cell_X`, `cell_Y`, `last_Modified`)
+VALUES (30660, 2002, 0, 6, '2005-02-09 10:00:00') /* High North Mountains Drudge Generator */
+     , (30660, 2002, 2, 4, '2005-02-09 10:00:00') /* High North Mountains Drudge Generator */
+     , (30660, 2002, 6, 4, '2005-02-09 10:00:00') /* High North Mountains Drudge Generator */
+     , (30660, 2002, 7, 2, '2005-02-09 10:00:00') /* High North Mountains Drudge Generator */;

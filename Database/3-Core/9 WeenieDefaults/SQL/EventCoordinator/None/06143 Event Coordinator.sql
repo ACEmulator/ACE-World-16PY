@@ -1,5 +1,5 @@
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (6143, 'eventcoordinator', 49) /* EventCoordinator */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (6143, 'eventcoordinator', 49, '2005-02-09 10:00:00') /* EventCoordinator */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (6143,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;

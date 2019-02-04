@@ -1,2 +1,2 @@
-INSERT INTO `quest` (`name`, `min_Delta`, `max_Solves`, `message`)
-VALUES ('BagPuzzleBlackBagCorrect', 86400, -1, 'You picked the correct contents for the black bag.');
+INSERT INTO `quest` (`name`, `min_Delta`, `max_Solves`, `message`, `last_Modified`)
+VALUES ('BagPuzzleBlackBagCorrect', 86400, -1, 'You picked the correct contents for the black bag.', '2005-02-09 10:00:00');

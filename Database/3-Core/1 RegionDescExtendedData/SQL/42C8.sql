@@ -1,5 +1,5 @@
-INSERT INTO `encounter` (`landblock`, `weenie_Class_Id`, `cell_X`, `cell_Y`)
-VALUES (17096, 4583, 3, 2) /* High North Plains Generator */
-     , (17096, 4583, 4, 0) /* High North Plains Generator */
-     , (17096, 4583, 6, 3) /* High North Plains Generator */
-     , (17096, 4583, 6, 6) /* High North Plains Generator */;
+INSERT INTO `encounter` (`landblock`, `weenie_Class_Id`, `cell_X`, `cell_Y`, `last_Modified`)
+VALUES (17096, 4583, 3, 2, '2005-02-09 10:00:00') /* High North Plains Generator */
+     , (17096, 4583, 4, 0, '2005-02-09 10:00:00') /* High North Plains Generator */
+     , (17096, 4583, 6, 3, '2005-02-09 10:00:00') /* High North Plains Generator */
+     , (17096, 4583, 6, 6, '2005-02-09 10:00:00') /* High North Plains Generator */;

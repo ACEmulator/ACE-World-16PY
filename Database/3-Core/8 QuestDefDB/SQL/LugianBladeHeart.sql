@@ -1,2 +1,2 @@
-INSERT INTO `quest` (`name`, `min_Delta`, `max_Solves`, `message`)
-VALUES ('LugianBladeHeart', 259200, -1, 'Lugian Blade of the Heart');
+INSERT INTO `quest` (`name`, `min_Delta`, `max_Solves`, `message`, `last_Modified`)
+VALUES ('LugianBladeHeart', 259200, -1, 'Lugian Blade of the Heart', '2005-02-09 10:00:00');

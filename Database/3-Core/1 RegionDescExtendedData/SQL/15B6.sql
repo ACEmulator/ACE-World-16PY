@@ -1,4 +1,4 @@
-INSERT INTO `encounter` (`landblock`, `weenie_Class_Id`, `cell_X`, `cell_Y`)
-VALUES (5558, 27735, 1, 3) /* Marae Low Plains Generator */
-     , (5558, 27735, 2, 1) /* Marae Low Plains Generator */
-     , (5558, 27735, 3, 3) /* Marae Low Plains Generator */;
+INSERT INTO `encounter` (`landblock`, `weenie_Class_Id`, `cell_X`, `cell_Y`, `last_Modified`)
+VALUES (5558, 27735, 1, 3, '2005-02-09 10:00:00') /* Marae Low Plains Generator */
+     , (5558, 27735, 2, 1, '2005-02-09 10:00:00') /* Marae Low Plains Generator */
+     , (5558, 27735, 3, 3, '2005-02-09 10:00:00') /* Marae Low Plains Generator */;

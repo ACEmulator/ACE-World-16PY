@@ -1,2 +1,2 @@
-INSERT INTO `quest` (`name`, `min_Delta`, `max_Solves`, `message`)
-VALUES ('HouseStatueGrievverGiven', 604800, -1, 'Player has given received this house statue and can''t get another one for a week. ');
+INSERT INTO `quest` (`name`, `min_Delta`, `max_Solves`, `message`, `last_Modified`)
+VALUES ('HouseStatueGrievverGiven', 604800, -1, 'Player has given received this house statue and can''t get another one for a week. ', '2005-02-09 10:00:00');

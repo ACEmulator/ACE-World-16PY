@@ -1,8 +1,8 @@
-INSERT INTO `encounter` (`landblock`, `weenie_Class_Id`, `cell_X`, `cell_Y`)
-VALUES (46315, 7213, 0, 4) /* Aerlinthe Thorns West Mix Gen */
-     , (46315, 7213, 2, 2) /* Aerlinthe Thorns West Mix Gen */
-     , (46315, 7213, 2, 7) /* Aerlinthe Thorns West Mix Gen */
-     , (46315, 7213, 3, 2) /* Aerlinthe Thorns West Mix Gen */
-     , (46315, 7213, 3, 7) /* Aerlinthe Thorns West Mix Gen */
-     , (46315, 7213, 4, 3) /* Aerlinthe Thorns West Mix Gen */
-     , (46315, 7213, 6, 0) /* Aerlinthe Thorns West Mix Gen */;
+INSERT INTO `encounter` (`landblock`, `weenie_Class_Id`, `cell_X`, `cell_Y`, `last_Modified`)
+VALUES (46315, 7213, 0, 4, '2005-02-09 10:00:00') /* Aerlinthe Thorns West Mix Gen */
+     , (46315, 7213, 2, 2, '2005-02-09 10:00:00') /* Aerlinthe Thorns West Mix Gen */
+     , (46315, 7213, 2, 7, '2005-02-09 10:00:00') /* Aerlinthe Thorns West Mix Gen */
+     , (46315, 7213, 3, 2, '2005-02-09 10:00:00') /* Aerlinthe Thorns West Mix Gen */
+     , (46315, 7213, 3, 7, '2005-02-09 10:00:00') /* Aerlinthe Thorns West Mix Gen */
+     , (46315, 7213, 4, 3, '2005-02-09 10:00:00') /* Aerlinthe Thorns West Mix Gen */
+     , (46315, 7213, 6, 0, '2005-02-09 10:00:00') /* Aerlinthe Thorns West Mix Gen */;

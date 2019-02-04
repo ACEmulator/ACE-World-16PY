@@ -1,2 +1,2 @@
-INSERT INTO `spell` (`id`, `name`, `stat_Mod_Type`, `stat_Mod_Key`, `stat_Mod_Val`)
-VALUES (1513, 'Bludgeon Bane III', 36872 /* Float, SingleStat, Additive */, 15 /* ArmorModVsBludgeon */, 0.5);
+INSERT INTO `spell` (`id`, `name`, `stat_Mod_Type`, `stat_Mod_Key`, `stat_Mod_Val`, `last_Modified`)
+VALUES (1513, 'Bludgeon Bane III', 36872 /* Float, SingleStat, Additive */, 15 /* ArmorModVsBludgeon */, 0.5, '2005-02-09 10:00:00');

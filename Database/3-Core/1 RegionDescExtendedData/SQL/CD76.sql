@@ -1,2 +1,2 @@
-INSERT INTO `encounter` (`landblock`, `weenie_Class_Id`, `cell_X`, `cell_Y`)
-VALUES (52598, 23185, 6, 2) /* Sho Newbie Plains Mix Generator */;
+INSERT INTO `encounter` (`landblock`, `weenie_Class_Id`, `cell_X`, `cell_Y`, `last_Modified`)
+VALUES (52598, 23185, 6, 2, '2005-02-09 10:00:00') /* Sho Newbie Plains Mix Generator */;

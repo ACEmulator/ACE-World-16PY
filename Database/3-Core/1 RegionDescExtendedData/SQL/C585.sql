@@ -1,4 +1,4 @@
-INSERT INTO `encounter` (`landblock`, `weenie_Class_Id`, `cell_X`, `cell_Y`)
-VALUES (50565, 23176, 4, 4) /* Aluvian Newbie Plains Mix Generator */
-     , (50565, 23176, 6, 6) /* Aluvian Newbie Plains Mix Generator */
-     , (50565, 23176, 7, 5) /* Aluvian Newbie Plains Mix Generator */;
+INSERT INTO `encounter` (`landblock`, `weenie_Class_Id`, `cell_X`, `cell_Y`, `last_Modified`)
+VALUES (50565, 23176, 4, 4, '2005-02-09 10:00:00') /* Aluvian Newbie Plains Mix Generator */
+     , (50565, 23176, 6, 6, '2005-02-09 10:00:00') /* Aluvian Newbie Plains Mix Generator */
+     , (50565, 23176, 7, 5, '2005-02-09 10:00:00') /* Aluvian Newbie Plains Mix Generator */;

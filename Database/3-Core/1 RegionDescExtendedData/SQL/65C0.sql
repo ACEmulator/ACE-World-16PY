@@ -1,3 +1,3 @@
-INSERT INTO `encounter` (`landblock`, `weenie_Class_Id`, `cell_X`, `cell_Y`)
-VALUES (26048, 1979, 0, 2) /* High North Forest Generator */
-     , (26048, 1980, 7, 2) /* High North Mountains Banderling Generator */;
+INSERT INTO `encounter` (`landblock`, `weenie_Class_Id`, `cell_X`, `cell_Y`, `last_Modified`)
+VALUES (26048, 1979, 0, 2, '2005-02-09 10:00:00') /* High North Forest Generator */
+     , (26048, 1980, 7, 2, '2005-02-09 10:00:00') /* High North Mountains Banderling Generator */;

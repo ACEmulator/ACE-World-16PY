@@ -1,2 +1,2 @@
-INSERT INTO `quest` (`name`, `min_Delta`, `max_Solves`, `message`)
-VALUES ('PickedUpBroodQueenMetathorax', 86400, -1, 'Picked up Brood Queen Metathoraxr');
+INSERT INTO `quest` (`name`, `min_Delta`, `max_Solves`, `message`, `last_Modified`)
+VALUES ('PickedUpBroodQueenMetathorax', 86400, -1, 'Picked up Brood Queen Metathoraxr', '2005-02-09 10:00:00');
