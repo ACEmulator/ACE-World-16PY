@@ -1,5 +1,5 @@
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (8377, 'beerkeg', 26) /* Switch */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (8377, 'beerkeg', 26, '2005-02-09 10:00:00') /* Switch */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (8377,   1,    4194304) /* ItemType - CraftCookingBase */

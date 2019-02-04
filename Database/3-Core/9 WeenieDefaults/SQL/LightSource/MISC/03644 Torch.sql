@@ -1,5 +1,5 @@
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (3644, 'walltorchuseable', 29) /* LightSource */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (3644, 'walltorchuseable', 29, '2005-02-09 10:00:00') /* LightSource */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (3644,   1,        128) /* ItemType - Misc */

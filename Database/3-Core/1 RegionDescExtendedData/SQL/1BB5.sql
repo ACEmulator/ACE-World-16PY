@@ -1,6 +1,6 @@
-INSERT INTO `encounter` (`landblock`, `weenie_Class_Id`, `cell_X`, `cell_Y`)
-VALUES (7093, 11199, 2, 1) /* Southwest Marae Plateau Master Gen */
-     , (7093, 11199, 3, 1) /* Southwest Marae Plateau Master Gen */
-     , (7093, 11199, 4, 7) /* Southwest Marae Plateau Master Gen */
-     , (7093, 11199, 6, 4) /* Southwest Marae Plateau Master Gen */
-     , (7093, 11199, 6, 7) /* Southwest Marae Plateau Master Gen */;
+INSERT INTO `encounter` (`landblock`, `weenie_Class_Id`, `cell_X`, `cell_Y`, `last_Modified`)
+VALUES (7093, 11199, 2, 1, '2005-02-09 10:00:00') /* Southwest Marae Plateau Master Gen */
+     , (7093, 11199, 3, 1, '2005-02-09 10:00:00') /* Southwest Marae Plateau Master Gen */
+     , (7093, 11199, 4, 7, '2005-02-09 10:00:00') /* Southwest Marae Plateau Master Gen */
+     , (7093, 11199, 6, 4, '2005-02-09 10:00:00') /* Southwest Marae Plateau Master Gen */
+     , (7093, 11199, 6, 7, '2005-02-09 10:00:00') /* Southwest Marae Plateau Master Gen */;

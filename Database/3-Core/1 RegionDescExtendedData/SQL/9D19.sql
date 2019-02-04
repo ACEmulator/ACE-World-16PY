@@ -1,8 +1,8 @@
-INSERT INTO `encounter` (`landblock`, `weenie_Class_Id`, `cell_X`, `cell_Y`)
-VALUES (40217, 23167, 0, 3) /* Mid South Mountains Lugian Generator */
-     , (40217, 23167, 1, 0) /* Mid South Mountains Lugian Generator */
-     , (40217, 23167, 2, 3) /* Mid South Mountains Lugian Generator */
-     , (40217, 23167, 2, 4) /* Mid South Mountains Lugian Generator */
-     , (40217, 23167, 3, 4) /* Mid South Mountains Lugian Generator */
-     , (40217, 23167, 5, 3) /* Mid South Mountains Lugian Generator */
-     , (40217, 23167, 7, 4) /* Mid South Mountains Lugian Generator */;
+INSERT INTO `encounter` (`landblock`, `weenie_Class_Id`, `cell_X`, `cell_Y`, `last_Modified`)
+VALUES (40217, 23167, 0, 3, '2005-02-09 10:00:00') /* Mid South Mountains Lugian Generator */
+     , (40217, 23167, 1, 0, '2005-02-09 10:00:00') /* Mid South Mountains Lugian Generator */
+     , (40217, 23167, 2, 3, '2005-02-09 10:00:00') /* Mid South Mountains Lugian Generator */
+     , (40217, 23167, 2, 4, '2005-02-09 10:00:00') /* Mid South Mountains Lugian Generator */
+     , (40217, 23167, 3, 4, '2005-02-09 10:00:00') /* Mid South Mountains Lugian Generator */
+     , (40217, 23167, 5, 3, '2005-02-09 10:00:00') /* Mid South Mountains Lugian Generator */
+     , (40217, 23167, 7, 4, '2005-02-09 10:00:00') /* Mid South Mountains Lugian Generator */;

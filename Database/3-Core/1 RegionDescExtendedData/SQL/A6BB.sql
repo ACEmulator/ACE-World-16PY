@@ -1,19 +1,19 @@
-INSERT INTO `encounter` (`landblock`, `weenie_Class_Id`, `cell_X`, `cell_Y`)
-VALUES (42683, 1999, 0, 1) /* Low B Aluvian Generator */
-     , (42683, 1999, 0, 6) /* Low B Aluvian Generator */
-     , (42683, 2001, 1, 4) /* Low B Aluvian Generator */
-     , (42683, 1999, 2, 0) /* Low B Aluvian Generator */
-     , (42683, 1999, 2, 3) /* Low B Aluvian Generator */
-     , (42683, 1999, 2, 7) /* Low B Aluvian Generator */
-     , (42683, 1999, 3, 4) /* Low B Aluvian Generator */
-     , (42683, 1999, 3, 6) /* Low B Aluvian Generator */
-     , (42683, 1999, 3, 7) /* Low B Aluvian Generator */
-     , (42683, 1999, 4, 2) /* Low B Aluvian Generator */
-     , (42683, 1999, 4, 5) /* Low B Aluvian Generator */
-     , (42683, 1999, 5, 0) /* Low B Aluvian Generator */
-     , (42683, 1999, 5, 1) /* Low B Aluvian Generator */
-     , (42683, 1999, 5, 2) /* Low B Aluvian Generator */
-     , (42683, 1999, 5, 3) /* Low B Aluvian Generator */
-     , (42683, 1999, 6, 0) /* Low B Aluvian Generator */
-     , (42683, 1999, 6, 5) /* Low B Aluvian Generator */
-     , (42683, 1999, 7, 0) /* Low B Aluvian Generator */;
+INSERT INTO `encounter` (`landblock`, `weenie_Class_Id`, `cell_X`, `cell_Y`, `last_Modified`)
+VALUES (42683, 1999, 0, 1, '2005-02-09 10:00:00') /* Low B Aluvian Generator */
+     , (42683, 1999, 0, 6, '2005-02-09 10:00:00') /* Low B Aluvian Generator */
+     , (42683, 2001, 1, 4, '2005-02-09 10:00:00') /* Low B Aluvian Generator */
+     , (42683, 1999, 2, 0, '2005-02-09 10:00:00') /* Low B Aluvian Generator */
+     , (42683, 1999, 2, 3, '2005-02-09 10:00:00') /* Low B Aluvian Generator */
+     , (42683, 1999, 2, 7, '2005-02-09 10:00:00') /* Low B Aluvian Generator */
+     , (42683, 1999, 3, 4, '2005-02-09 10:00:00') /* Low B Aluvian Generator */
+     , (42683, 1999, 3, 6, '2005-02-09 10:00:00') /* Low B Aluvian Generator */
+     , (42683, 1999, 3, 7, '2005-02-09 10:00:00') /* Low B Aluvian Generator */
+     , (42683, 1999, 4, 2, '2005-02-09 10:00:00') /* Low B Aluvian Generator */
+     , (42683, 1999, 4, 5, '2005-02-09 10:00:00') /* Low B Aluvian Generator */
+     , (42683, 1999, 5, 0, '2005-02-09 10:00:00') /* Low B Aluvian Generator */
+     , (42683, 1999, 5, 1, '2005-02-09 10:00:00') /* Low B Aluvian Generator */
+     , (42683, 1999, 5, 2, '2005-02-09 10:00:00') /* Low B Aluvian Generator */
+     , (42683, 1999, 5, 3, '2005-02-09 10:00:00') /* Low B Aluvian Generator */
+     , (42683, 1999, 6, 0, '2005-02-09 10:00:00') /* Low B Aluvian Generator */
+     , (42683, 1999, 6, 5, '2005-02-09 10:00:00') /* Low B Aluvian Generator */
+     , (42683, 1999, 7, 0, '2005-02-09 10:00:00') /* Low B Aluvian Generator */;

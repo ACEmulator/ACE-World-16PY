@@ -1,6 +1,6 @@
-INSERT INTO `encounter` (`landblock`, `weenie_Class_Id`, `cell_X`, `cell_Y`)
-VALUES (50460, 23165, 0, 4) /* Mid South Lakes Generator */
-     , (50460, 23165, 0, 6) /* Mid South Lakes Generator */
-     , (50460, 23165, 0, 7) /* Mid South Lakes Generator */
-     , (50460, 23165, 4, 7) /* Mid South Lakes Generator */
-     , (50460, 23165, 7, 5) /* Mid South Lakes Generator */;
+INSERT INTO `encounter` (`landblock`, `weenie_Class_Id`, `cell_X`, `cell_Y`, `last_Modified`)
+VALUES (50460, 23165, 0, 4, '2005-02-09 10:00:00') /* Mid South Lakes Generator */
+     , (50460, 23165, 0, 6, '2005-02-09 10:00:00') /* Mid South Lakes Generator */
+     , (50460, 23165, 0, 7, '2005-02-09 10:00:00') /* Mid South Lakes Generator */
+     , (50460, 23165, 4, 7, '2005-02-09 10:00:00') /* Mid South Lakes Generator */
+     , (50460, 23165, 7, 5, '2005-02-09 10:00:00') /* Mid South Lakes Generator */;

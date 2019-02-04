@@ -1,2 +1,2 @@
-INSERT INTO `quest` (`name`, `min_Delta`, `max_Solves`, `message`)
-VALUES ('RingQuest05', 1814400, -1, 'Give MenhirRubbleB to MenhirDrummerSW');
+INSERT INTO `quest` (`name`, `min_Delta`, `max_Solves`, `message`, `last_Modified`)
+VALUES ('RingQuest05', 1814400, -1, 'Give MenhirRubbleB to MenhirDrummerSW', '2005-02-09 10:00:00');

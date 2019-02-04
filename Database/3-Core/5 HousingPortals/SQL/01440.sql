@@ -1,5 +1,5 @@
-INSERT INTO `house_portal` (`house_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (1440, 60424479, 20, -50, -5.995, 1, 0, 0, 0)
+INSERT INTO `house_portal` (`house_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `last_Modified`)
+VALUES (1440, 60424479, 20, -50, -5.995, 1, 0, 0, 0, '2005-02-09 10:00:00')
 /* @teleloc 0x039A011F [20.000000 -50.000000 -5.995000] 1.000000 0.000000 0.000000 0.000000 */
-     , (1440, 3946447128, 111.054, 62.1182, 67.205, 0.999827, 0, 0, 0.0186021)
+     , (1440, 3946447128, 111.054, 62.1182, 67.205, 0.999827, 0, 0, 0.0186021, '2005-02-09 10:00:00')
 /* @teleloc 0xEB3A0118 [111.054000 62.118200 67.205000] 0.999827 0.000000 0.000000 0.018602 */;

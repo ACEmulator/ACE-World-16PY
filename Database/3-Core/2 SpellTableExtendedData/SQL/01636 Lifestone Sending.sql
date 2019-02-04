@@ -1,2 +1,2 @@
-INSERT INTO `spell` (`id`, `name`, `index`)
-VALUES (1636, 'Lifestone Sending', 1);
+INSERT INTO `spell` (`id`, `name`, `index`, `last_Modified`)
+VALUES (1636, 'Lifestone Sending', 1, '2005-02-09 10:00:00');

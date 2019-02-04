@@ -1,5 +1,5 @@
-INSERT INTO `encounter` (`landblock`, `weenie_Class_Id`, `cell_X`, `cell_Y`)
-VALUES (30851, 21180, 1, 5) /* East Shore Direland Mix Generator */
-     , (30851, 21180, 5, 0) /* East Shore Direland Mix Generator */
-     , (30851, 21180, 6, 3) /* East Shore Direland Mix Generator */
-     , (30851, 21180, 7, 7) /* East Shore Direland Mix Generator */;
+INSERT INTO `encounter` (`landblock`, `weenie_Class_Id`, `cell_X`, `cell_Y`, `last_Modified`)
+VALUES (30851, 21180, 1, 5, '2005-02-09 10:00:00') /* East Shore Direland Mix Generator */
+     , (30851, 21180, 5, 0, '2005-02-09 10:00:00') /* East Shore Direland Mix Generator */
+     , (30851, 21180, 6, 3, '2005-02-09 10:00:00') /* East Shore Direland Mix Generator */
+     , (30851, 21180, 7, 7, '2005-02-09 10:00:00') /* East Shore Direland Mix Generator */;

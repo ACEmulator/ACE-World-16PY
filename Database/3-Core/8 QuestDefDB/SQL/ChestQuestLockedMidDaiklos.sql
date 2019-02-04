@@ -1,2 +1,2 @@
-INSERT INTO `quest` (`name`, `min_Delta`, `max_Solves`, `message`)
-VALUES ('ChestQuestLockedMidDaiklos', 604800, -1, 'Opened a ChestQuestLockedMidDaiklos.');
+INSERT INTO `quest` (`name`, `min_Delta`, `max_Solves`, `message`, `last_Modified`)
+VALUES ('ChestQuestLockedMidDaiklos', 604800, -1, 'Opened a ChestQuestLockedMidDaiklos.', '2005-02-09 10:00:00');

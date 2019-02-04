@@ -1,2 +1,2 @@
-INSERT INTO `quest` (`name`, `min_Delta`, `max_Solves`, `message`)
-VALUES ('TumerokWarAxeQuest', 10368000, -1, 'Tumerok War Axe Quest');
+INSERT INTO `quest` (`name`, `min_Delta`, `max_Solves`, `message`, `last_Modified`)
+VALUES ('TumerokWarAxeQuest', 10368000, -1, 'Tumerok War Axe Quest', '2005-02-09 10:00:00');

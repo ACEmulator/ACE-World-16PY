@@ -1,8 +1,8 @@
-INSERT INTO `encounter` (`landblock`, `weenie_Class_Id`, `cell_X`, `cell_Y`)
-VALUES (42932, 5150, 0, 2) /* Harmless Aluvian Generator */
-     , (42932, 2007, 0, 4) /* Newbie Aluvian Generator */
-     , (42932, 5150, 3, 2) /* Harmless Aluvian Generator */
-     , (42932, 5150, 4, 3) /* Harmless Aluvian Generator */
-     , (42932, 5150, 5, 0) /* Harmless Aluvian Generator */
-     , (42932, 5150, 6, 0) /* Harmless Aluvian Generator */
-     , (42932, 2007, 6, 6) /* Newbie Aluvian Generator */;
+INSERT INTO `encounter` (`landblock`, `weenie_Class_Id`, `cell_X`, `cell_Y`, `last_Modified`)
+VALUES (42932, 5150, 0, 2, '2005-02-09 10:00:00') /* Harmless Aluvian Generator */
+     , (42932, 2007, 0, 4, '2005-02-09 10:00:00') /* Newbie Aluvian Generator */
+     , (42932, 5150, 3, 2, '2005-02-09 10:00:00') /* Harmless Aluvian Generator */
+     , (42932, 5150, 4, 3, '2005-02-09 10:00:00') /* Harmless Aluvian Generator */
+     , (42932, 5150, 5, 0, '2005-02-09 10:00:00') /* Harmless Aluvian Generator */
+     , (42932, 5150, 6, 0, '2005-02-09 10:00:00') /* Harmless Aluvian Generator */
+     , (42932, 2007, 6, 6, '2005-02-09 10:00:00') /* Newbie Aluvian Generator */;

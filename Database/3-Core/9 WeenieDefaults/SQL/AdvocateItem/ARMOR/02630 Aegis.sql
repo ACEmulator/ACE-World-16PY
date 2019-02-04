@@ -1,5 +1,5 @@
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (2630, 'shieldadvocate3', 40) /* AdvocateItem */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (2630, 'shieldadvocate3', 40, '2005-02-09 10:00:00') /* AdvocateItem */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (2630,   1,          2) /* ItemType - Armor */

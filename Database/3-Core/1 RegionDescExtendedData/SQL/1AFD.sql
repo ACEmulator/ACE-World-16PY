@@ -1,8 +1,8 @@
-INSERT INTO `encounter` (`landblock`, `weenie_Class_Id`, `cell_X`, `cell_Y`)
-VALUES (6909, 23192, 1, 1) /* Olthoi High Shore Generator */
-     , (6909, 23192, 1, 2) /* Olthoi High Shore Generator */
-     , (6909, 23192, 1, 7) /* Olthoi High Shore Generator */
-     , (6909, 23192, 4, 6) /* Olthoi High Shore Generator */
-     , (6909, 23192, 6, 2) /* Olthoi High Shore Generator */
-     , (6909, 23192, 6, 6) /* Olthoi High Shore Generator */
-     , (6909, 23192, 7, 6) /* Olthoi High Shore Generator */;
+INSERT INTO `encounter` (`landblock`, `weenie_Class_Id`, `cell_X`, `cell_Y`, `last_Modified`)
+VALUES (6909, 23192, 1, 1, '2005-02-09 10:00:00') /* Olthoi High Shore Generator */
+     , (6909, 23192, 1, 2, '2005-02-09 10:00:00') /* Olthoi High Shore Generator */
+     , (6909, 23192, 1, 7, '2005-02-09 10:00:00') /* Olthoi High Shore Generator */
+     , (6909, 23192, 4, 6, '2005-02-09 10:00:00') /* Olthoi High Shore Generator */
+     , (6909, 23192, 6, 2, '2005-02-09 10:00:00') /* Olthoi High Shore Generator */
+     , (6909, 23192, 6, 6, '2005-02-09 10:00:00') /* Olthoi High Shore Generator */
+     , (6909, 23192, 7, 6, '2005-02-09 10:00:00') /* Olthoi High Shore Generator */;

@@ -1,5 +1,5 @@
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (14531, 'prismfragmentfirecraftable', 44) /* CraftTool */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (14531, 'prismfragmentfirecraftable', 44, '2005-02-09 10:00:00') /* CraftTool */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (14531,   1,       2048) /* ItemType - Gem */

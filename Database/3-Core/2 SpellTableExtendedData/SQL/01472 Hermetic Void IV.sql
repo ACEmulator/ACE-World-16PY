@@ -1,2 +1,2 @@
-INSERT INTO `spell` (`id`, `name`, `stat_Mod_Type`, `stat_Mod_Key`, `stat_Mod_Val`)
-VALUES (1472, 'Hermetic Void IV', 20488 /* Float, SingleStat, Multiplicative */, 144 /* ManaConversionMod */, 0.7143);
+INSERT INTO `spell` (`id`, `name`, `stat_Mod_Type`, `stat_Mod_Key`, `stat_Mod_Val`, `last_Modified`)
+VALUES (1472, 'Hermetic Void IV', 20488 /* Float, SingleStat, Multiplicative */, 144 /* ManaConversionMod */, 0.7143, '2005-02-09 10:00:00');
