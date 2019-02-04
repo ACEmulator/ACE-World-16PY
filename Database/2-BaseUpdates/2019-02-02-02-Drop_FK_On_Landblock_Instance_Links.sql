@@ -10,6 +10,9 @@ ALTER TABLE `landblock_instance_link`
 ADD UNIQUE INDEX `child_uidx` (`child_GUID` ASC) /*VISIBLE*/;
 ;
 
+ALTER TABLE `landblock_instance_link` 
+ADD INDEX `child_idx` (`child_GUID` ASC);
+;
 
 /*
 ALTER TABLE `landblock_instance_link` 
