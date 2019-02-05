@@ -17,8 +17,8 @@ VALUES (21962,   1,        256) /* ItemType - MissileWeapon */
      , (21962,  49,         60) /* WeaponTime */
      , (21962,  50,        128) /* AmmoType - BoltChorizite */
      , (21962,  51,          2) /* CombatUse - Missle */
-     , (21962,  52,          2) /* ParentLocation */
-     , (21962,  53,          3) /* PlacementPosition */
+     , (21962,  52,          2) /* ParentLocation - LeftHand */
+     , (21962,  53,          3) /* PlacementPosition - LeftHand */
      , (21962,  60,        192) /* WeaponRange */
      , (21962,  93,       3092) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, LightingOn */
      , (21962, 114,          1) /* Attuned - Attuned */

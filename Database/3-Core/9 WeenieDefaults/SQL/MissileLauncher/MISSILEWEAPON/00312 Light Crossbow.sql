@@ -15,8 +15,8 @@ VALUES (312,   1,        256) /* ItemType - MissileWeapon */
      , (312,  49,         60) /* WeaponTime */
      , (312,  50,          2) /* AmmoType - Bolt */
      , (312,  51,          2) /* CombatUse - Missle */
-     , (312,  52,          2) /* ParentLocation */
-     , (312,  53,          3) /* PlacementPosition */
+     , (312,  52,          2) /* ParentLocation - LeftHand */
+     , (312,  53,          3) /* PlacementPosition - LeftHand */
      , (312,  60,        160) /* WeaponRange */
      , (312,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (312, 150,        103) /* HookPlacement - Hook */

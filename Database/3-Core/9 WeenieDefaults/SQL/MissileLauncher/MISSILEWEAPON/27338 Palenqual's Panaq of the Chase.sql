@@ -16,8 +16,8 @@ VALUES (27338,   1,        256) /* ItemType - MissileWeapon */
      , (27338,  49,         45) /* WeaponTime */
      , (27338,  50,          1) /* AmmoType - Arrow */
      , (27338,  51,          2) /* CombatUse - Missle */
-     , (27338,  52,          2) /* ParentLocation */
-     , (27338,  53,          3) /* PlacementPosition */
+     , (27338,  52,          2) /* ParentLocation - LeftHand */
+     , (27338,  53,          3) /* PlacementPosition - LeftHand */
      , (27338,  60,        175) /* WeaponRange */
      , (27338,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (27338, 106,        250) /* ItemSpellcraft */

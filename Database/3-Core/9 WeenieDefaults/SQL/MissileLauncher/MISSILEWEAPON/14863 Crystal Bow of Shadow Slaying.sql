@@ -17,8 +17,8 @@ VALUES (14863,   1,        256) /* ItemType - MissileWeapon */
      , (14863,  49,         60) /* WeaponTime */
      , (14863,  50,         11) /* AmmoType */
      , (14863,  51,          2) /* CombatUse - Missle */
-     , (14863,  52,          2) /* ParentLocation */
-     , (14863,  53,          3) /* PlacementPosition */
+     , (14863,  52,          2) /* ParentLocation - LeftHand */
+     , (14863,  53,          3) /* PlacementPosition - LeftHand */
      , (14863,  60,        180) /* WeaponRange */
      , (14863,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (14863, 106,        200) /* ItemSpellcraft */

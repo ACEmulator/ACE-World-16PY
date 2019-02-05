@@ -16,8 +16,8 @@ VALUES (6943,   1,        256) /* ItemType - MissileWeapon */
      , (6943,  49,         45) /* WeaponTime */
      , (6943,  50,          1) /* AmmoType - Arrow */
      , (6943,  51,          2) /* CombatUse - Missle */
-     , (6943,  52,          2) /* ParentLocation */
-     , (6943,  53,          3) /* PlacementPosition */
+     , (6943,  52,          2) /* ParentLocation - LeftHand */
+     , (6943,  53,          3) /* PlacementPosition - LeftHand */
      , (6943,  60,        192) /* WeaponRange */
      , (6943,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (6943, 114,          1) /* Attuned - Attuned */;

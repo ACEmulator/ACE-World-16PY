@@ -18,8 +18,8 @@ VALUES (8002,   1,        256) /* ItemType - MissileWeapon */
      , (8002,  49,         60) /* WeaponTime */
      , (8002,  50,          8) /* AmmoType - ArrowCrystal */
      , (8002,  51,          2) /* CombatUse - Missle */
-     , (8002,  52,          2) /* ParentLocation */
-     , (8002,  53,          3) /* PlacementPosition */
+     , (8002,  52,          2) /* ParentLocation - LeftHand */
+     , (8002,  53,          3) /* PlacementPosition - LeftHand */
      , (8002,  60,        180) /* WeaponRange */
      , (8002,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (8002, 106,        200) /* ItemSpellcraft */
