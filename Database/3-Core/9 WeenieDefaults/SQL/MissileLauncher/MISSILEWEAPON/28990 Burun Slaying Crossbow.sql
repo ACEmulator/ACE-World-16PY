@@ -15,8 +15,8 @@ VALUES (28990,   1,        256) /* ItemType - MissileWeapon */
      , (28990,  49,        120) /* WeaponTime */
      , (28990,  50,          2) /* AmmoType - Bolt */
      , (28990,  51,          2) /* CombatUse - Missle */
-     , (28990,  52,          2) /* ParentLocation */
-     , (28990,  53,          3) /* PlacementPosition */
+     , (28990,  52,          2) /* ParentLocation - LeftHand */
+     , (28990,  53,          3) /* PlacementPosition - LeftHand */
      , (28990,  60,        192) /* WeaponRange */
      , (28990,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (28990, 106,        275) /* ItemSpellcraft */

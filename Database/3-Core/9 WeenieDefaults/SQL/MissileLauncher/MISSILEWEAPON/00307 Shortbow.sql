@@ -15,8 +15,8 @@ VALUES (307,   1,        256) /* ItemType - MissileWeapon */
      , (307,  49,         35) /* WeaponTime */
      , (307,  50,          1) /* AmmoType - Arrow */
      , (307,  51,          2) /* CombatUse - Missle */
-     , (307,  52,          2) /* ParentLocation */
-     , (307,  53,          3) /* PlacementPosition */
+     , (307,  52,          2) /* ParentLocation - LeftHand */
+     , (307,  53,          3) /* PlacementPosition - LeftHand */
      , (307,  60,        150) /* WeaponRange */
      , (307,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (307, 150,        103) /* HookPlacement - Hook */

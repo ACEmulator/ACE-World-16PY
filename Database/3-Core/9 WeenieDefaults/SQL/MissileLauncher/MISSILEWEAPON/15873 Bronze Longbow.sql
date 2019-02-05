@@ -17,8 +17,8 @@ VALUES (15873,   1,        256) /* ItemType - MissileWeapon */
      , (15873,  49,         20) /* WeaponTime */
      , (15873,  50,          1) /* AmmoType - Arrow */
      , (15873,  51,          2) /* CombatUse - Missle */
-     , (15873,  52,          2) /* ParentLocation */
-     , (15873,  53,          3) /* PlacementPosition */
+     , (15873,  52,          2) /* ParentLocation - LeftHand */
+     , (15873,  53,          3) /* PlacementPosition - LeftHand */
      , (15873,  60,        175) /* WeaponRange */
      , (15873,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (15873, 114,          1) /* Attuned - Attuned */;

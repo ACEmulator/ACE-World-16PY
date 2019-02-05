@@ -18,8 +18,8 @@ VALUES (8009,   1,        256) /* ItemType - MissileWeapon */
      , (8009,  49,        120) /* WeaponTime */
      , (8009,  50,         16) /* AmmoType - BoltCrystal */
      , (8009,  51,          2) /* CombatUse - Missle */
-     , (8009,  52,          2) /* ParentLocation */
-     , (8009,  53,          3) /* PlacementPosition */
+     , (8009,  52,          2) /* ParentLocation - LeftHand */
+     , (8009,  53,          3) /* PlacementPosition - LeftHand */
      , (8009,  60,        192) /* WeaponRange */
      , (8009,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (8009, 106,        200) /* ItemSpellcraft */

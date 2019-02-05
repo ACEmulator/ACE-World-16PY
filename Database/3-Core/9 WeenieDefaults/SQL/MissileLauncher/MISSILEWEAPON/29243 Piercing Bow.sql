@@ -17,8 +17,8 @@ VALUES (29243,   1,        256) /* ItemType - MissileWeapon */
      , (29243,  49,         45) /* WeaponTime */
      , (29243,  50,          1) /* AmmoType - Arrow */
      , (29243,  51,          2) /* CombatUse - Missle */
-     , (29243,  52,          2) /* ParentLocation */
-     , (29243,  53,          3) /* PlacementPosition */
+     , (29243,  52,          2) /* ParentLocation - LeftHand */
+     , (29243,  53,          3) /* PlacementPosition - LeftHand */
      , (29243,  60,        192) /* WeaponRange */
      , (29243,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (29243, 150,        103) /* HookPlacement - Hook */

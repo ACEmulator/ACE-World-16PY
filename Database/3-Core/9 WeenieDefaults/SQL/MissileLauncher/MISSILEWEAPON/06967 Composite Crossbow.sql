@@ -16,8 +16,8 @@ VALUES (6967,   1,        256) /* ItemType - MissileWeapon */
      , (6967,  49,        120) /* WeaponTime */
      , (6967,  50,          2) /* AmmoType - Bolt */
      , (6967,  51,          2) /* CombatUse - Missle */
-     , (6967,  52,          2) /* ParentLocation */
-     , (6967,  53,          3) /* PlacementPosition */
+     , (6967,  52,          2) /* ParentLocation - LeftHand */
+     , (6967,  53,          3) /* PlacementPosition - LeftHand */
      , (6967,  60,        192) /* WeaponRange */
      , (6967,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (6967, 114,          1) /* Attuned - Attuned */;
