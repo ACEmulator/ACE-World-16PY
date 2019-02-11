@@ -1,3 +1,5 @@
+DELETE FROM `landblock_instance` WHERE `landblock` = 6839;
+
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (1907060736, 11086, 448200704, 59.8904, 59.7337, 96.005, -0.999367, 0, 0, -0.0355638, False, '2005-02-09 10:00:00'); /* Southwest Menhir Drummer Gen */
 /* @teleloc 0x1AB70000 [59.890400 59.733700 96.005000] -0.999367 0.000000 0.000000 -0.035564 */

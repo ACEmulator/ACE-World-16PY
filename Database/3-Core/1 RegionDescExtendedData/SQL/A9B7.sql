@@ -1,3 +1,5 @@
+DELETE FROM `encounter` WHERE `landblock` = 43447;
+
 INSERT INTO `encounter` (`landblock`, `weenie_Class_Id`, `cell_X`, `cell_Y`, `last_Modified`)
 VALUES (43447, 2007, 0, 6, '2005-02-09 10:00:00') /* Newbie Aluvian Generator */
      , (43447, 5150, 2, 4, '2005-02-09 10:00:00') /* Harmless Aluvian Generator */

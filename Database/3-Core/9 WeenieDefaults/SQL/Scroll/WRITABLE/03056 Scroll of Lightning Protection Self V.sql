@@ -1,3 +1,5 @@
+DELETE FROM `weenie` WHERE `class_Id` = 3056;
+
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
 VALUES (3056, 'scrolllightningprotectionself5', 34, '2005-02-09 10:00:00') /* Scroll */;
 

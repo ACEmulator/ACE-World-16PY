@@ -1,3 +1,5 @@
+DELETE FROM `landblock_instance` WHERE `landblock` = 8624;
+
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (1914372096,   720, 565182464, 83.2077, 92.4406, -6.69388E-10, -0.702307, 0, 0, -0.711874, False, '2005-02-09 10:00:00'); /* Sliding Door */
 /* @teleloc 0x21B00000 [83.207700 92.440600 0.000000] -0.702307 0.000000 0.000000 -0.711874 */

@@ -1,3 +1,5 @@
+DELETE FROM `landblock_instance` WHERE `landblock` = 52522;
+
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (2094178304,  7321, 3442081792, 123.144, 114.402, 148.36, 0.979317, 0, 0, 0.202334, False, '2005-02-09 10:00:00'); /* Wilderness Citadel Portal */
 /* @teleloc 0xCD2A0000 [123.144000 114.402000 148.360000] 0.979317 0.000000 0.000000 0.202334 */

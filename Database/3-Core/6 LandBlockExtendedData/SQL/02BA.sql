@@ -1,3 +1,5 @@
+DELETE FROM `landblock_instance` WHERE `landblock` = 698;
+
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (1881907200,  4247, 45744391, 95.8774, -109.991, -23.9946, 0.690705, 0, 0, 0.723137,  True, '2005-02-09 10:00:00'); /* Foul Moarsman */
 /* @teleloc 0x02BA0107 [95.877400 -109.991000 -23.994600] 0.690705 0.000000 0.000000 0.723137 */

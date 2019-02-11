@@ -1,3 +1,5 @@
+DELETE FROM `landblock_instance` WHERE `landblock` = 58955;
+
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (2120527872, 12478, 3863674880, 43.3591, 116.125, 32.005, -0.929119, 0, 0, 0.36978, False, '2005-02-09 10:00:00'); /* Bluewater Cottages Portal */
 /* @teleloc 0xE64B0000 [43.359100 116.125000 32.005000] -0.929119 0.000000 0.000000 0.369780 */

@@ -1,3 +1,5 @@
+DELETE FROM `landblock_instance` WHERE `landblock` = 34761;
+
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (2021429248,   390, 2278096896, 49.9372, 37.8251, 74.8529, -0.339589, 0, 0, 0.940574, False, '2005-02-09 10:00:00'); /* Tusker Generator */
 /* @teleloc 0x87C90000 [49.937200 37.825100 74.852900] -0.339589 0.000000 0.000000 0.940574 */

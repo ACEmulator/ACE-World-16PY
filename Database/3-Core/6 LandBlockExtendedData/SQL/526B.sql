@@ -1,3 +1,5 @@
+DELETE FROM `landblock_instance` WHERE `landblock` = 21099;
+
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (1965469696, 14803, 1382744321, 5.05373, -130.038, -41.2193, 0.696707, 0, 0, 0.717356, False, '2005-02-09 10:00:00'); /* Swirling Portal */
 /* @teleloc 0x526B0101 [5.053730 -130.038000 -41.219300] 0.696707 0.000000 0.000000 0.717356 */

@@ -1,3 +1,5 @@
+DELETE FROM `encounter` WHERE `landblock` = 17132;
+
 INSERT INTO `encounter` (`landblock`, `weenie_Class_Id`, `cell_X`, `cell_Y`, `last_Modified`)
 VALUES (17132, 30430, 0, 0, '2005-02-09 10:00:00') /* Mid North Forest Mix Generator */
      , (17132, 30428, 1, 3, '2005-02-09 10:00:00') /* Mid North Forest Mix Generator */

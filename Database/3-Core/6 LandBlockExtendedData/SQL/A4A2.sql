@@ -1,3 +1,5 @@
+DELETE FROM `landblock_instance` WHERE `landblock` = 42146;
+
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (2051678208, 12501, 2762080256, 69.2844, 59.6521, 140.808, -0.704917, 0, 0, 0.70929, False, '2005-02-09 10:00:00'); /* Glenden Hills East Settlement Portal */
 /* @teleloc 0xA4A20000 [69.284400 59.652100 140.808000] -0.704917 0.000000 0.000000 0.709290 */

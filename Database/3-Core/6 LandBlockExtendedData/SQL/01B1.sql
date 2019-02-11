@@ -1,3 +1,5 @@
+DELETE FROM `landblock_instance` WHERE `landblock` = 433;
+
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (1880821760, 22910, 28377366, 30, -110, -35.9935, -4.37114E-08, 0, 0, -1,  True, '2005-02-09 10:00:00'); /* Pandemonium Shadow */
 /* @teleloc 0x01B10116 [30.000000 -110.000000 -35.993500] 0.000000 0.000000 0.000000 -1.000000 */

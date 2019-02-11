@@ -1,3 +1,5 @@
+DELETE FROM `landblock_instance` WHERE `landblock` = 868;
+
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (1882603520, 13220, 56885504, 4.35984, -263.398, -11.995, -0.950841, 0, 0, -0.309679,  True, '2005-02-09 10:00:00'); /* Hollow Minion Invader */
 /* @teleloc 0x03640100 [4.359840 -263.398000 -11.995000] -0.950841 0.000000 0.000000 -0.309679 */

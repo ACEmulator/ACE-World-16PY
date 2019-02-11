@@ -1,3 +1,5 @@
+DELETE FROM `landblock_instance` WHERE `landblock` = 48559;
+
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (2077945856,   959, 3182362624, 179.734, 133.992, 94.4259, 0.982698, 0, 0, -0.185216, False, '2005-02-09 10:00:00'); /* Mite Sentry Generator */
 /* @teleloc 0xBDAF0000 [179.734000 133.992000 94.425900] 0.982698 0.000000 0.000000 -0.185216 */

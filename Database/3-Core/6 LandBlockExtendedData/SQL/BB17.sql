@@ -1,3 +1,5 @@
+DELETE FROM `landblock_instance` WHERE `landblock` = 47895;
+
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (2075226112, 12569, 3138846720, 100.557, 172.413, 131.488, 0.973211, 0, 0, 0.229912, False, '2005-02-09 10:00:00'); /* Yukikaze  Portal */
 /* @teleloc 0xBB170000 [100.557000 172.413000 131.488000] 0.973211 0.000000 0.000000 0.229912 */

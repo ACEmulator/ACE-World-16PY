@@ -1,3 +1,5 @@
+DELETE FROM `landblock_instance` WHERE `landblock` = 647;
+
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (1881698304, 11494, 42402052, 30.5353, -27.1066, -12, -0.995481, 0, 0, 0.094962,  True, '2005-02-09 10:00:00'); /* Carenzi Pouchling */
 /* @teleloc 0x02870104 [30.535300 -27.106600 -12.000000] -0.995481 0.000000 0.000000 0.094962 */

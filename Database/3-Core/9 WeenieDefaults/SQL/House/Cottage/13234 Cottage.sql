@@ -1,3 +1,5 @@
+DELETE FROM `weenie` WHERE `class_Id` = 13234;
+
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
 VALUES (13234, 'housecottagetest10000', 53, '2005-02-09 10:00:00') /* House */;
 
@@ -9,7 +11,7 @@ VALUES (13234,   1,        128) /* ItemType - Misc */
      , (13234,  16,          1) /* ItemUseable - No */
      , (13234,  19,          0) /* Value */
      , (13234,  93,         52) /* PhysicsState - Ethereal, IgnoreCollisions, NoDraw */
-     , (13234, 149,         -1) /* HouseStatus */
+     , (13234, 149,         -1) /* HouseStatus - Disabled */
      , (13234, 155,          1) /* HouseType - Cottage */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)

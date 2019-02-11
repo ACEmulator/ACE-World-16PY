@@ -1,3 +1,5 @@
+DELETE FROM `landblock_instance` WHERE `landblock` = 21105;
+
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (1965494272,  2131, 1383137537, 23.4824, -120.169, -41.995, 0.70029, 0, 0, -0.713858,  True, '2005-02-09 10:00:00'); /* Pressure Plate */
 /* @teleloc 0x52710101 [23.482400 -120.169000 -41.995000] 0.700290 0.000000 0.000000 -0.713858 */

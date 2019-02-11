@@ -1,3 +1,5 @@
+DELETE FROM `landblock_instance` WHERE `landblock` = 28681;
+
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (1996525571, 24489, 1879638016, 167.359, 123.379, 2.51479, 0.980694, 0, 0, -0.19555, False, '2005-02-09 10:00:00'); /* Ulgrim Island Rock-Mix Gen */
 /* @teleloc 0x70090000 [167.359000 123.379000 2.514790] 0.980694 0.000000 0.000000 -0.195550 */

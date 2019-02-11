@@ -1,3 +1,5 @@
+DELETE FROM `landblock_instance` WHERE `landblock` = 60434;
+
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (2126585856, 27863, 3960602624, 127.497, 37.8518, 104.007, -0.902211, 0, 0, -0.431294,  True, '2005-02-09 10:00:00'); /* Mosswart Cringer */
 /* @teleloc 0xEC120000 [127.497000 37.851800 104.007000] -0.902211 0.000000 0.000000 -0.431294 */

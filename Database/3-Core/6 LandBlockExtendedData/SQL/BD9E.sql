@@ -1,3 +1,5 @@
+DELETE FROM `landblock_instance` WHERE `landblock` = 48542;
+
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (2077876224,  1112, 3181248512, 153.2, 188, 2, -0.398749, 0, 0, -0.91706, False, '2005-02-09 10:00:00'); /* Isle of Tears Portal */
 /* @teleloc 0xBD9E0000 [153.200000 188.000000 2.000000] -0.398749 0.000000 0.000000 -0.917060 */

@@ -1,3 +1,5 @@
+DELETE FROM `landblock_instance` WHERE `landblock` = 743;
+
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (1882091520,  7551, 48693505, 250.757, -330.022, 0.01, 0.696707, 0, 0, -0.717356,  True, '2005-02-09 10:00:00'); /* Extas Raider */
 /* @teleloc 0x02E70101 [250.757000 -330.022000 0.010000] 0.696707 0.000000 0.000000 -0.717356 */

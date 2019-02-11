@@ -1,3 +1,5 @@
+DELETE FROM `landblock_instance` WHERE `landblock` = 52106;
+
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (2092474368, 12511, 3414818816, 109.302, 50.5611, 16.005, -0.151124, 0, 0, -0.988515, False, '2005-02-09 10:00:00'); /* Leafdawning Settlement Portal */
 /* @teleloc 0xCB8A0000 [109.302000 50.561100 16.005000] -0.151124 0.000000 0.000000 -0.988515 */

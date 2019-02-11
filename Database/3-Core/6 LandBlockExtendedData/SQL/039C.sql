@@ -1,3 +1,5 @@
+DELETE FROM `landblock_instance` WHERE `landblock` = 924;
+
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (1882832896,   235, 60555520, 61.2237, -170.393, -17.9879, 0.709013, 0, 0, -0.705195,  True, '2005-02-09 10:00:00'); /* Goldenback Tusker */
 /* @teleloc 0x039C0100 [61.223700 -170.393000 -17.987900] 0.709013 0.000000 0.000000 -0.705195 */

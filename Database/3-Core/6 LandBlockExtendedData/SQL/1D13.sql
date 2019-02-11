@@ -1,3 +1,5 @@
+DELETE FROM `landblock_instance` WHERE `landblock` = 7443;
+
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (1909534720, 30689, 487784723, 130.678, 20.4353, -8.39, -0.656252, 0, 0, 0.754541,  True, '2005-02-09 10:00:00'); /* Withered Raider Prefect */
 /* @teleloc 0x1D130113 [130.678000 20.435300 -8.390000] -0.656252 0.000000 0.000000 0.754541 */

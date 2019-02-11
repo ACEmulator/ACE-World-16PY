@@ -1,3 +1,5 @@
+DELETE FROM `weenie` WHERE `class_Id` = 27758;
+
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
 VALUES (27758, 'staminatinctureexpired', 18, '2005-02-09 10:00:00') /* Food */;
 

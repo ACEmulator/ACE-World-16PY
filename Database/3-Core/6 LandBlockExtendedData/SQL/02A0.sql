@@ -1,3 +1,5 @@
+DELETE FROM `landblock_instance` WHERE `landblock` = 672;
+
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (1881800704,  9256, 44040457, 5.65253, -80.115, -23.995, -0.762061, 0, 0, 0.647505,  True, '2005-02-09 10:00:00'); /* Dune Reaver */
 /* @teleloc 0x02A00109 [5.652530 -80.115000 -23.995000] -0.762061 0.000000 0.000000 0.647505 */

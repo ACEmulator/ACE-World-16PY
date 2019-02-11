@@ -1,3 +1,5 @@
+DELETE FROM `landblock_instance` WHERE `landblock` = 431;
+
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (1880813568,   962, 28246273, 2.28856, -40.0433, 0.01222, 0.604165, 0, 0, -0.796859, False, '2005-02-09 10:00:00'); /* Mosswart Feeder Generator */
 /* @teleloc 0x01AF0101 [2.288560 -40.043300 0.012220] 0.604165 0.000000 0.000000 -0.796859 */

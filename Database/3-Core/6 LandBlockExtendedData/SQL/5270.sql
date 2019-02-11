@@ -1,3 +1,5 @@
+DELETE FROM `landblock_instance` WHERE `landblock` = 21104;
+
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (1965490176, 14493, 1383072001, -2.95033, -90.0595, -47.995, 0.72346, 0, 0, 0.690367, False, '2005-02-09 10:00:00'); /* Lower Empyrean Fire Cistern */
 /* @teleloc 0x52700101 [-2.950330 -90.059500 -47.995000] 0.723460 0.000000 0.000000 0.690367 */

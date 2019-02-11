@@ -1,3 +1,5 @@
+DELETE FROM `landblock_instance` WHERE `landblock` = 668;
+
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (1881784320, 24955, 43778306, 9.23779, -264.482, 0.055, -0.016684, 0, 0, 0.999861,  True, '2005-02-09 10:00:00'); /* Gotrok Montok */
 /* @teleloc 0x029C0102 [9.237790 -264.482000 0.055000] -0.016684 0.000000 0.000000 0.999861 */

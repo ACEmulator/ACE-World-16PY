@@ -1,3 +1,5 @@
+DELETE FROM `landblock_instance` WHERE `landblock` = 36428;
+
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (2028257281, 27174, 2387345664, 58.6697, 83.1872, 10.005, -0.899028, 0, 0, -0.43789,  True, '2005-02-09 10:00:00'); /* Odd Looking Vine */
 /* @teleloc 0x8E4C0100 [58.669700 83.187200 10.005000] -0.899028 0.000000 0.000000 -0.437890 */

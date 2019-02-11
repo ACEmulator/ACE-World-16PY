@@ -1,3 +1,5 @@
+DELETE FROM `weenie` WHERE `class_Id` = 31168;
+
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
 VALUES (31168, 'ace31168-acidsceptre', 35, '2005-02-09 10:00:00') /* Caster */;
 

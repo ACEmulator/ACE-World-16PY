@@ -1,3 +1,5 @@
+DELETE FROM `landblock_instance` WHERE `landblock` = 62489;
+
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (2135003136,  4261, 4095279104, 124.345, 7.64768, 99.555, 0.196458, 0, 0, 0.980512,  True, '2005-02-09 10:00:00'); /* Slithayr Eye Stalk */
 /* @teleloc 0xF4190000 [124.345000 7.647680 99.555000] 0.196458 0.000000 0.000000 0.980512 */

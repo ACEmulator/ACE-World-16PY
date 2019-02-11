@@ -1,3 +1,5 @@
+DELETE FROM `landblock_instance` WHERE `landblock` = 35417;
+
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (2024116224,  4939, 2321088769, 155.993, 161.043, 22.005, 1, 0, 0, 0, False, '2005-02-09 10:00:00'); /* Unfinished Temple Portal */
 /* @teleloc 0x8A590101 [155.993000 161.043000 22.005000] 1.000000 0.000000 0.000000 0.000000 */

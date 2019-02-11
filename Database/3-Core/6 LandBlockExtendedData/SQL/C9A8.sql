@@ -1,3 +1,5 @@
+DELETE FROM `landblock_instance` WHERE `landblock` = 51624;
+
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (2090500096, 12493, 3383230464, 132.632, 98.3292, 49.8109, -0.998415, 0, 0, -0.0562854, False, '2005-02-09 10:00:00'); /* East Span Way Settlement Portal */
 /* @teleloc 0xC9A80000 [132.632000 98.329200 49.810900] -0.998415 0.000000 0.000000 -0.056285 */

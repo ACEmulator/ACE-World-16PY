@@ -1,3 +1,5 @@
+DELETE FROM `landblock_instance` WHERE `landblock` = 47169;
+
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (2072252416,  4023, 3091267858, 86.5076, 155.255, 30.005, -0.999011, 0, 0, 0.0444551, False, '2005-02-09 10:00:00'); /* Valuable Gha. Warrior Generator */
 /* @teleloc 0xB8410112 [86.507600 155.255000 30.005000] -0.999011 0.000000 0.000000 0.044455 */

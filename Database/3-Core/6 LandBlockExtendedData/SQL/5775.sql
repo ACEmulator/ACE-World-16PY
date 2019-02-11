@@ -1,3 +1,5 @@
+DELETE FROM `landblock_instance` WHERE `landblock` = 22389;
+
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (1970753536, 10903, 1467286017, 197.781, -147.512, -11.995, 0.443454, 0, 0, -0.896297,  True, '2005-02-09 10:00:00'); /* Glowing Pustule */
 /* @teleloc 0x57750201 [197.781000 -147.512000 -11.995000] 0.443454 0.000000 0.000000 -0.896297 */

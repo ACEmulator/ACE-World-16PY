@@ -1,3 +1,5 @@
+DELETE FROM `landblock_instance` WHERE `landblock` = 496;
+
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (1881079808, 26014, 32506112, 3.52625, -100.156, -17.9583, -0.65765, 0, 0, 0.753324,  True, '2005-02-09 10:00:00'); /* Burun Ruuk Fiend */
 /* @teleloc 0x01F00100 [3.526250 -100.156000 -17.958300] -0.657650 0.000000 0.000000 0.753324 */

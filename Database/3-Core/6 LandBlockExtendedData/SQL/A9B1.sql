@@ -1,3 +1,5 @@
+DELETE FROM `landblock_instance` WHERE `landblock` = 43441;
+
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (2056982528,  4409, 2846949376, 28.0355, 108.934, 53.0119, 0.54289, 0, 0, -0.839804, False, '2005-02-09 10:00:00'); /* Holtburg Outpost */
 /* @teleloc 0xA9B10000 [28.035500 108.934000 53.011900] 0.542890 0.000000 0.000000 -0.839804 */

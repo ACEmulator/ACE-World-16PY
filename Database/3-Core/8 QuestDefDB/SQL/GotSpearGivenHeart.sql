@@ -1,2 +1,4 @@
+DELETE FROM `quest` WHERE `name` = 'GotSpearGivenHeart';
+
 INSERT INTO `quest` (`name`, `min_Delta`, `max_Solves`, `message`, `last_Modified`)
 VALUES ('GotSpearGivenHeart', 604800, -1, 'got the spear', '2005-02-09 10:00:00');

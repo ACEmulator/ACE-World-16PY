@@ -1,3 +1,5 @@
+DELETE FROM `landblock_instance` WHERE `landblock` = 11906;
+
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (1927815168,   908, 780271616, 45.3878, 6.31315, 32.005, 0.852434, 0, 0, -0.522835, False, '2005-02-09 10:00:00'); /* Reedshark Veteran Generator */
 /* @teleloc 0x2E820000 [45.387800 6.313150 32.005000] 0.852434 0.000000 0.000000 -0.522835 */

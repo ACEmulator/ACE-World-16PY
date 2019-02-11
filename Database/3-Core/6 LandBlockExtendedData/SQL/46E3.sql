@@ -1,3 +1,5 @@
+DELETE FROM `landblock_instance` WHERE `landblock` = 18147;
+
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (1953378304, 24161, 1189281792, 89.112, 73.6969, -0.095, -0.35256, 0, 0, -0.935789,  True, '2005-02-09 10:00:00'); /* Fir Tree */
 /* @teleloc 0x46E30000 [89.112000 73.696900 -0.095000] -0.352560 0.000000 0.000000 -0.935789 */

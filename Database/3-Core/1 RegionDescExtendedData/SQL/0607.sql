@@ -1,3 +1,5 @@
+DELETE FROM `encounter` WHERE `landblock` = 1543;
+
 INSERT INTO `encounter` (`landblock`, `weenie_Class_Id`, `cell_X`, `cell_Y`, `last_Modified`)
 VALUES (1543, 25892, 0, 4, '2005-02-09 10:00:00') /* Western Singularity Caul Gen */
      , (1543, 25892, 1, 0, '2005-02-09 10:00:00') /* Western Singularity Caul Gen */

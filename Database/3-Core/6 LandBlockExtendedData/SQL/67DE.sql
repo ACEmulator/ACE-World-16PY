@@ -1,3 +1,5 @@
+DELETE FROM `landblock_instance` WHERE `landblock` = 26590;
+
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (1987960832, 20178, 1742602240, 35.576, 36.5476, 58.9841, 0.663581, 0, 0, -0.748105, False, '2005-02-09 10:00:00'); /* Scuttling Grievver Landscape Gen */
 /* @teleloc 0x67DE0000 [35.576000 36.547600 58.984100] 0.663581 0.000000 0.000000 -0.748105 */

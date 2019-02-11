@@ -1,3 +1,5 @@
+DELETE FROM `weenie` WHERE `class_Id` = 5412;
+
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
 VALUES (5412, 'scorebookcooking', 48, '2005-02-09 10:00:00') /* ScoreBook */;
 

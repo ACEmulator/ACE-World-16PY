@@ -1,3 +1,5 @@
+DELETE FROM `landblock_instance` WHERE `landblock` = 384;
+
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (1880621056,  8137, 25166080, 19.8766, -51.707, -17.99, 0.696707, 0, 0, -0.717356,  True, '2005-02-09 10:00:00'); /* Tiatus Raider */
 /* @teleloc 0x01800100 [19.876600 -51.707000 -17.990000] 0.696707 0.000000 0.000000 -0.717356 */

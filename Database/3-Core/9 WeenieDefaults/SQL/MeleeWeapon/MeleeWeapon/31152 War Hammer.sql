@@ -1,3 +1,5 @@
+DELETE FROM `weenie` WHERE `class_Id` = 31152;
+
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
 VALUES (31152, 'ace31152-warhammer', 6, '2005-02-09 10:00:00') /* MeleeWeapon */;
 

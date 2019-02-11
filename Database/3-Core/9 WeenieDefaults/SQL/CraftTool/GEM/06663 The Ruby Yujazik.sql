@@ -1,3 +1,5 @@
+DELETE FROM `weenie` WHERE `class_Id` = 6663;
+
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
 VALUES (6663, 'crimsonruby4', 44, '2005-02-09 10:00:00') /* CraftTool */;
 

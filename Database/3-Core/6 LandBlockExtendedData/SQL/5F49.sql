@@ -1,3 +1,5 @@
+DELETE FROM `landblock_instance` WHERE `landblock` = 24393;
+
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (1978961920, 26568, 1598619925, 68, -67.022, -41.495, 0, 0, 0, -1,  True, '2005-02-09 10:00:00'); /* Wailing Statue */
 /* @teleloc 0x5F490115 [68.000000 -67.022000 -41.495000] 0.000000 0.000000 0.000000 -1.000000 */

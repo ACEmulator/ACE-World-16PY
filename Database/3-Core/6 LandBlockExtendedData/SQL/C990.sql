@@ -1,3 +1,5 @@
+DELETE FROM `landblock_instance` WHERE `landblock` = 51600;
+
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (2090401792,   553, 3381657600, 65.3791, 180.39, 14.005, 0.674183, 0, 0, -0.738564, False, '2005-02-09 10:00:00'); /* Mushroom Circle Generator */
 /* @teleloc 0xC9900000 [65.379100 180.390000 14.005000] 0.674183 0.000000 0.000000 -0.738564 */

@@ -1,3 +1,5 @@
+DELETE FROM `landblock_instance` WHERE `landblock` = 47716;
+
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (2074492928, 27103, 3127116032, 109.002, 107.981, 6.39733, 0.716475, 0, 0, 0.697613, False, '2005-02-09 10:00:00'); /* Burun Ruffian Encampment Gen */
 /* @teleloc 0xBA640100 [109.002000 107.981000 6.397330] 0.716475 0.000000 0.000000 0.697613 */

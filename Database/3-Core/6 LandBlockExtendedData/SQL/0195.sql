@@ -1,3 +1,5 @@
+DELETE FROM `landblock_instance` WHERE `landblock` = 405;
+
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (1880707072, 27857, 26542337, 31.2955, -120, -11.994, 1, 0, 0, 0,  True, '2005-02-09 10:00:00'); /* Muck Glutton */
 /* @teleloc 0x01950101 [31.295500 -120.000000 -11.994000] 1.000000 0.000000 0.000000 0.000000 */

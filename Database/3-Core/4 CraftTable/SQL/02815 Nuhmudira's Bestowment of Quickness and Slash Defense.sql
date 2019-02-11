@@ -1,3 +1,5 @@
+DELETE FROM `recipe` WHERE `id` = 2815;
+
 INSERT INTO `recipe` (`id`, `unknown_1`, `skill`, `difficulty`, `salvage_Type`, `success_W_C_I_D`, `success_Amount`, `success_Message`, `fail_W_C_I_D`, `fail_Amount`, `fail_Message`, `success_Destroy_Source_Chance`, `success_Destroy_Source_Amount`, `success_Destroy_Source_Message`, `success_Destroy_Target_Chance`, `success_Destroy_Target_Amount`, `success_Destroy_Target_Message`, `fail_Destroy_Source_Chance`, `fail_Destroy_Source_Amount`, `fail_Destroy_Source_Message`, `fail_Destroy_Target_Chance`, `fail_Destroy_Target_Amount`, `fail_Destroy_Target_Message`, `data_Id`, `last_Modified`)
 VALUES (2815, 0, 0, 0, 0, 19644 /* Nuhmudira's Bestowment of Quickness and Slash Defense */, 1, 'The metal consumes the elixir and emits a soft glow.', 0, 0, 'You fail to create gorgetnuhmudiraquicknessslashhigh.', 1, 1, NULL, 1, 1, NULL, 1, 1, NULL, 1, 1, NULL, 0, '2005-02-09 10:00:00');
 
@@ -11,6 +13,8 @@ VALUES (@parent_id,  31, 0, 4, 1) /* AllowedActivator */;
 
 INSERT INTO `recipe_mods_string` (`recipe_Mod_Id`, `stat`, `value`, `enum`, `source`)
 VALUES (@parent_id,  25, NULL, 4, 1) /* CraftsmanName */;
+
+DELETE FROM `cook_book` WHERE `recipe_Id` = 2815;
 
 INSERT INTO `cook_book` (`recipe_Id`, `source_W_C_I_D`, `target_W_C_I_D`, `last_Modified`)
 VALUES (2815, 15752 /* Elixir of Crystal Skin */, 19704 /* Nuhmudira's Bestowment of Quickness */, '2005-02-09 10:00:00');

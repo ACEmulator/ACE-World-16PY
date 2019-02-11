@@ -1,3 +1,5 @@
+DELETE FROM `landblock_instance` WHERE `landblock` = 52800;
+
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (2095316992, 12532, 3460300800, 155.608, 150.938, 62.3942, -0.808726, 0, 0, 0.588185, False, '2005-02-09 10:00:00'); /* North Baishi Cottages Portal */
 /* @teleloc 0xCE400000 [155.608000 150.938000 62.394200] -0.808726 0.000000 0.000000 0.588185 */

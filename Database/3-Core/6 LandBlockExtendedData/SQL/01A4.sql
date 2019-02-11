@@ -1,3 +1,5 @@
+DELETE FROM `landblock_instance` WHERE `landblock` = 420;
+
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (1880768512,   957, 27525376, 20, -60, -36, 0.863506, 0, 0, -0.504339, False, '2005-02-09 10:00:00'); /* Mite Scion Generator */
 /* @teleloc 0x01A40100 [20.000000 -60.000000 -36.000000] 0.863506 0.000000 0.000000 -0.504339 */

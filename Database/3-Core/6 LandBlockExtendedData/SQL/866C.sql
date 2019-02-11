@@ -1,3 +1,5 @@
+DELETE FROM `landblock_instance` WHERE `landblock` = 34412;
+
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (2019999744,  1812, 2255225094, 33.2486, 62.4313, 9.705, 0.5778, 0, 0, -0.816179, False, '2005-02-09 10:00:00'); /* Archmage Dakila bint Ma'liz */
 /* @teleloc 0x866C0106 [33.248600 62.431300 9.705000] 0.577800 0.000000 0.000000 -0.816179 */

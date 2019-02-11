@@ -1,3 +1,5 @@
+DELETE FROM `landblock_instance` WHERE `landblock` = 17735;
+
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (1951690752,   194, 1162280960, 189.97, 79.9196, 18.7014, 0.0357912, 0, 0, -0.999359,  True, '2005-02-09 10:00:00'); /* Copper Golem */
 /* @teleloc 0x45470000 [189.970000 79.919600 18.701400] 0.035791 0.000000 0.000000 -0.999359 */

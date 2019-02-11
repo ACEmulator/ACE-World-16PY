@@ -1,3 +1,5 @@
+DELETE FROM `landblock_instance` WHERE `landblock` = 54072;
+
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (2100527104,  7317, 3543662592, 13.3697, 138.63, 170.005, 0.216202, 0, 0, -0.976349, False, '2005-02-09 10:00:00'); /* Hills Citadel Portal */
 /* @teleloc 0xD3380000 [13.369700 138.630000 170.005000] 0.216202 0.000000 0.000000 -0.976349 */

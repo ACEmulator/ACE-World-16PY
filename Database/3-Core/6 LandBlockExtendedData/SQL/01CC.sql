@@ -1,3 +1,5 @@
+DELETE FROM `landblock_instance` WHERE `landblock` = 460;
+
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (1880932352,   965, 30146820, 56.2753, -21.604, -30, 0.707107, 0, 0, -0.707107, False, '2005-02-09 10:00:00'); /* Zombie Generator */
 /* @teleloc 0x01CC0104 [56.275300 -21.604000 -30.000000] 0.707107 0.000000 0.000000 -0.707107 */

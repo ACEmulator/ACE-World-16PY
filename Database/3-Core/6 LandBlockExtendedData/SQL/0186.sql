@@ -1,3 +1,5 @@
+DELETE FROM `landblock_instance` WHERE `landblock` = 390;
+
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (1880645632,  2610, 25559298, 60, -50, -11.988, 1, 0, 0, 0,  True, '2005-02-09 10:00:00'); /* Kilif Zefir */
 /* @teleloc 0x01860102 [60.000000 -50.000000 -11.988000] 1.000000 0.000000 0.000000 0.000000 */

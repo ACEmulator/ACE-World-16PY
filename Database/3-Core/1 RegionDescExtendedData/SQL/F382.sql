@@ -1,3 +1,5 @@
+DELETE FROM `encounter` WHERE `landblock` = 62338;
+
 INSERT INTO `encounter` (`landblock`, `weenie_Class_Id`, `cell_X`, `cell_Y`, `last_Modified`)
 VALUES (62338, 22533, 0, 6, '2005-02-09 10:00:00') /* Tusker Island High Beach Mix Gen */
      , (62338, 22533, 0, 7, '2005-02-09 10:00:00') /* Tusker Island High Beach Mix Gen */

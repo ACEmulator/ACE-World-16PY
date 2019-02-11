@@ -1,3 +1,5 @@
+DELETE FROM `landblock_instance` WHERE `landblock` = 24647;
+
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (1980002304, 22921, 1615266050, 69.0722, -45.7343, -17.995, 0.931802, 0, 0, -0.362966, False, '2005-02-09 10:00:00'); /* Virindi C Activated Pressure Plate */
 /* @teleloc 0x60470102 [69.072200 -45.734300 -17.995000] 0.931802 0.000000 0.000000 -0.362966 */

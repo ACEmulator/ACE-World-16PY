@@ -1,3 +1,5 @@
+DELETE FROM `landblock_instance` WHERE `landblock` = 55896;
+
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (2107998208, 12522, 3663200256, 27.5957, 51.9625, 13.7054, 0.414618, 0, 0, 0.909995, False, '2005-02-09 10:00:00'); /* Mosswart Place Cottages Portal */
 /* @teleloc 0xDA580000 [27.595700 51.962500 13.705400] 0.414618 0.000000 0.000000 0.909995 */

@@ -1,3 +1,5 @@
+DELETE FROM `encounter` WHERE `landblock` = 31078;
+
 INSERT INTO `encounter` (`landblock`, `weenie_Class_Id`, `cell_X`, `cell_Y`, `last_Modified`)
 VALUES (31078, 2000, 0, 3, '2005-02-09 10:00:00') /* Low B Gharundim Generator */
      , (31078, 5150, 1, 4, '2005-02-09 10:00:00') /* Harmless Aluvian Generator */

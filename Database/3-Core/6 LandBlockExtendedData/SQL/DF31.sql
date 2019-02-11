@@ -1,3 +1,5 @@
+DELETE FROM `landblock_instance` WHERE `landblock` = 57137;
+
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (2113081344,  1107, 3744530432, 154.511, 133.686, 253.117, 0.372714, 0, 0, 0.927946, False, '2005-02-09 10:00:00'); /* South Direlands Portal */
 /* @teleloc 0xDF310000 [154.511000 133.686000 253.117000] 0.372714 0.000000 0.000000 0.927946 */

@@ -1,3 +1,5 @@
+DELETE FROM `landblock_instance` WHERE `landblock` = 36817;
+
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (2029850624,  7353, 2412838912, 108.234, 133.597, 266.985, 0.732111, 0, 0, 0.681185, False, '2005-02-09 10:00:00'); /* Erupt Esper Boss Gen */
 /* @teleloc 0x8FD10000 [108.234000 133.597000 266.985000] 0.732111 0.000000 0.000000 0.681185 */

@@ -1,3 +1,5 @@
+DELETE FROM `landblock_instance` WHERE `landblock` = 36900;
+
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (2030190592,  1903, 2418278400, 183.208, 113.732, -0.095, 0.412278, 0, 0, 0.911058, False, '2005-02-09 10:00:00'); /* Desert Ridge Border */
 /* @teleloc 0x90240000 [183.208000 113.732000 -0.095000] 0.412278 0.000000 0.000000 0.911058 */

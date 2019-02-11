@@ -1,3 +1,5 @@
+DELETE FROM `landblock_instance` WHERE `landblock` = 24401;
+
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (1978994688, 28018, 1599144192, 0, -40, 0.013624, 0.731689, 0, 0, -0.681639,  True, '2005-02-09 10:00:00'); /* Tormented Patriarch */
 /* @teleloc 0x5F510100 [0.000000 -40.000000 0.013624] 0.731689 0.000000 0.000000 -0.681639 */

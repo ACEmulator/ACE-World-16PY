@@ -1,3 +1,5 @@
+DELETE FROM `weenie` WHERE `class_Id` = 13698;
+
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
 VALUES (13698, 'housecottage2006', 53, '2005-02-09 10:00:00') /* House */;
 

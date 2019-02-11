@@ -1,3 +1,5 @@
+DELETE FROM `landblock_instance` WHERE `landblock` = 13352;
+
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (1933737984,   201, 875036672, 180.215, 37.2659, 95.9286, -0.310051, 0, 0, -0.95072,  True, '2005-02-09 10:00:00'); /* Obsidian Golem */
 /* @teleloc 0x34280000 [180.215000 37.265900 95.928600] -0.310051 0.000000 0.000000 -0.950720 */

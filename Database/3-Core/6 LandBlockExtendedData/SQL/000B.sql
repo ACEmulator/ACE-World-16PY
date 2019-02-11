@@ -1,3 +1,5 @@
+DELETE FROM `landblock_instance` WHERE `landblock` = 11;
+
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (1879093265,  7473, 721209, 8.10833, -22.9008, -41.995, 0.644832, 0, 0, 0.764324, False, '2005-02-09 10:00:00'); /* 11-sec Firespurt */
 /* @teleloc 0x000B0139 [8.108330 -22.900800 -41.995000] 0.644832 0.000000 0.000000 0.764324 */

@@ -1,3 +1,5 @@
+DELETE FROM `landblock_instance` WHERE `landblock` = 21719;
+
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (1968009216,  1014, 1423376384, 71.0596, 80.6075, 147.288, -0.767426, 0, 0, -0.641137, False, '2005-02-09 10:00:00'); /* Portal to Cragstone */
 /* @teleloc 0x54D70000 [71.059600 80.607500 147.288000] -0.767426 0.000000 0.000000 -0.641137 */

@@ -1,3 +1,5 @@
+DELETE FROM `landblock_instance` WHERE `landblock` = 56148;
+
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (2109030400,   929, 3679715328, 8.892, 190.003, 20.005, -0.0790033, 0, 0, -0.996874, False, '2005-02-09 10:00:00'); /* Shoushi */
 /* @teleloc 0xDB540000 [8.892000 190.003000 20.005000] -0.079003 0.000000 0.000000 -0.996874 */

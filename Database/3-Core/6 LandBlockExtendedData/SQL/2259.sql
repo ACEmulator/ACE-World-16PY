@@ -1,3 +1,5 @@
+DELETE FROM `landblock_instance` WHERE `landblock` = 8793;
+
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (1915064324, 20186, 576258048, 63.8532, 50.9491, 0.250761, 0.654516, 0, 0, 0.756049,  True, '2005-02-09 10:00:00'); /* Apozim */
 /* @teleloc 0x22590000 [63.853200 50.949100 0.250761] 0.654516 0.000000 0.000000 0.756049 */

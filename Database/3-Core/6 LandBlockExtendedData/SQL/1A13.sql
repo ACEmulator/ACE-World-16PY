@@ -1,3 +1,5 @@
+DELETE FROM `landblock_instance` WHERE `landblock` = 6675;
+
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (1906388992, 30683, 437452800, 176.194, 61.1911, 0.00714999, 0.966493, 0, 0, -0.256692,  True, '2005-02-09 10:00:00'); /* Withered Banderling Hierophant */
 /* @teleloc 0x1A130000 [176.194000 61.191100 0.007150] 0.966493 0.000000 0.000000 -0.256692 */

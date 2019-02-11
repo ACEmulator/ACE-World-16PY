@@ -1,3 +1,5 @@
+DELETE FROM `landblock_instance` WHERE `landblock` = 720;
+
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (1881997312,  4378, 47186191, 41.4308, -40.6088, -6, -0.116454, 0, 0, -0.993196, False, '2005-02-09 10:00:00'); /* Random Portal Generator */
 /* @teleloc 0x02D0010F [41.430800 -40.608800 -6.000000] -0.116454 0.000000 0.000000 -0.993196 */

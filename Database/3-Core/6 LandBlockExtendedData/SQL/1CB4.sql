@@ -1,3 +1,5 @@
+DELETE FROM `landblock_instance` WHERE `landblock` = 7348;
+
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (1909145600,  5408, 481558528, 188.092, 20, 0, 0.999958, 0, 0, -0.00919763, False, '2005-02-09 10:00:00'); /* Waterfall */
 /* @teleloc 0x1CB40000 [188.092000 20.000000 0.000000] 0.999958 0.000000 0.000000 -0.009198 */

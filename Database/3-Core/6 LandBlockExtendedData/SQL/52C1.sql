@@ -1,3 +1,5 @@
+DELETE FROM `landblock_instance` WHERE `landblock` = 21185;
+
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (1965821952,  9686, 1388380416, 154.112, 153.562, 3.5, -0.710569, 0, 0, 0.703628,  True, '2005-02-09 10:00:00'); /* Wall Hook */
 /* @teleloc 0x52C10100 [154.112000 153.562000 3.500000] -0.710569 0.000000 0.000000 0.703628 */

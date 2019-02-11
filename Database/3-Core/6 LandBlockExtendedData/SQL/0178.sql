@@ -1,3 +1,5 @@
+DELETE FROM `landblock_instance` WHERE `landblock` = 376;
+
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (1880588288,  8430, 24641792, -0.851879, -89.6842, -5.9934, -0.484126, 0, 0, -0.874998,  True, '2005-02-09 10:00:00'); /* Mosswart Soul Trapper */
 /* @teleloc 0x01780100 [-0.851879 -89.684200 -5.993400] -0.484126 0.000000 0.000000 -0.874998 */

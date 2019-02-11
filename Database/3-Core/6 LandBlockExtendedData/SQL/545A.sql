@@ -1,3 +1,5 @@
+DELETE FROM `landblock_instance` WHERE `landblock` = 21594;
+
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (1967497216, 19288, 1415184640, 68.5494, -50.2328, 0.0098, -0.741622, 0, 0, -0.670818,  True, '2005-02-09 10:00:00'); /* Bronze Statue of a Drudge */
 /* @teleloc 0x545A0100 [68.549400 -50.232800 0.009800] -0.741622 0.000000 0.000000 -0.670818 */

@@ -1,3 +1,5 @@
+DELETE FROM `landblock_instance` WHERE `landblock` = 23624;
+
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (1975812096, 10810, 1548222720, 73.3685, -70.0378, -5.9868, -0.784776, 0, 0, 0.61978,  True, '2005-02-09 10:00:00'); /* Rampager */
 /* @teleloc 0x5C480100 [73.368500 -70.037800 -5.986800] -0.784776 0.000000 0.000000 0.619780 */

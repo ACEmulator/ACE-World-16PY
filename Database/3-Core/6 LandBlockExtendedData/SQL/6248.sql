@@ -1,3 +1,5 @@
+DELETE FROM `landblock_instance` WHERE `landblock` = 25160;
+
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (1982103552,  9401, 1648886016, 171.742, -193.287, -29.995, 0.844539, 0, 0, -0.535493,  True, '2005-02-09 10:00:00'); /* Dread Mattekar */
 /* @teleloc 0x62480100 [171.742000 -193.287000 -29.995000] 0.844539 0.000000 0.000000 -0.535493 */

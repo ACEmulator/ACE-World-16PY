@@ -1,3 +1,5 @@
+DELETE FROM `landblock_instance` WHERE `landblock` = 38295;
+
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (2035904512,   433, 2509701120, 51.8, 154.1, 224, -0.737277, 0, 0, -0.67559, False, '2005-02-09 10:00:00'); /* Base of Mt. Alphus */
 /* @teleloc 0x95970000 [51.800000 154.100000 224.000000] -0.737277 0.000000 0.000000 -0.675590 */

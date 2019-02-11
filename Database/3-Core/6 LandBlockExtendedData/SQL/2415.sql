@@ -1,3 +1,5 @@
+DELETE FROM `landblock_instance` WHERE `landblock` = 9237;
+
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (1916882950,  1459, 605356288, 117.097, 180.122, 50.805, 0.796331, 0, 0, -0.604862, False, '2005-02-09 10:00:00'); /* Food Stamina Gen */
 /* @teleloc 0x24150100 [117.097000 180.122000 50.805000] 0.796331 0.000000 0.000000 -0.604862 */

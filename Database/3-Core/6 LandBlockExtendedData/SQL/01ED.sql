@@ -1,3 +1,5 @@
+DELETE FROM `landblock_instance` WHERE `landblock` = 493;
+
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (1881067520,  4111, 32309516, 11.4807, -87.9842, -17.989, 1, 0, 0, 0,  True, '2005-02-09 10:00:00'); /* Hunter Shreth */
 /* @teleloc 0x01ED010C [11.480700 -87.984200 -17.989000] 1.000000 0.000000 0.000000 0.000000 */

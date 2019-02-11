@@ -1,3 +1,5 @@
+DELETE FROM `landblock_instance` WHERE `landblock` = 4922;
+
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (1899208707,  1129, 322568192, 47.2366, 146.979, -0.445, 0.238139, 0, 0, 0.971231, False, '2005-02-09 10:00:00'); /* Item Scarab Generator */
 /* @teleloc 0x133A0000 [47.236600 146.979000 -0.445000] 0.238139 0.000000 0.000000 0.971231 */

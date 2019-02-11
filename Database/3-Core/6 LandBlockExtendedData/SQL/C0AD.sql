@@ -1,3 +1,5 @@
+DELETE FROM `landblock_instance` WHERE `landblock` = 49325;
+
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (2081083392,   958, 3232563456, 157.988, 114.841, 98.805, 0.779564, 0, 0, 0.626323, False, '2005-02-09 10:00:00'); /* Mite Digger Generator */
 /* @teleloc 0xC0AD0100 [157.988000 114.841000 98.805000] 0.779564 0.000000 0.000000 0.626323 */

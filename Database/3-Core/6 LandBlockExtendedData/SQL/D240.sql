@@ -1,3 +1,5 @@
+DELETE FROM `landblock_instance` WHERE `landblock` = 53824;
+
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (2099511296,  4217, 3527409664, 53.856, 183.283, 275.77, 0.130499, 0, 0, 0.991448,  True, '2005-02-09 10:00:00'); /* Dark Revenant */
 /* @teleloc 0xD2400000 [53.856000 183.283000 275.770000] 0.130499 0.000000 0.000000 0.991448 */

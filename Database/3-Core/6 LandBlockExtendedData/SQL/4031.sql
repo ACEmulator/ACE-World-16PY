@@ -1,3 +1,5 @@
+DELETE FROM `landblock_instance` WHERE `landblock` = 16433;
+
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (1946357760,  1907, 1076953088, 137.21, 26.2009, 15.9294, 0.408732, 0, 0, -0.912655, False, '2005-02-09 10:00:00'); /* Sho Roadside */
 /* @teleloc 0x40310000 [137.210000 26.200900 15.929400] 0.408732 0.000000 0.000000 -0.912655 */

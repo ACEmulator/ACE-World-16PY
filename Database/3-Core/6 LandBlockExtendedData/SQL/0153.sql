@@ -1,3 +1,5 @@
+DELETE FROM `landblock_instance` WHERE `landblock` = 339;
+
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (1880436736,  4109, 22216964, 19.4581, -144.979, -65.989, 0, 0, 0, -1,  True, '2005-02-09 10:00:00'); /* Carrion Shreth */
 /* @teleloc 0x01530104 [19.458100 -144.979000 -65.989000] 0.000000 0.000000 0.000000 -1.000000 */

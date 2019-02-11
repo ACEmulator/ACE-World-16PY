@@ -1,3 +1,5 @@
+DELETE FROM `landblock_instance` WHERE `landblock` = 40751;
+
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (2045964288,   387, 2670657536, 78.539, 34.5712, 64.005, -0.867483, 0, 0, -0.497467, False, '2005-02-09 10:00:00'); /* Lugian Generator */
 /* @teleloc 0x9F2F0000 [78.539000 34.571200 64.005000] -0.867483 0.000000 0.000000 -0.497467 */

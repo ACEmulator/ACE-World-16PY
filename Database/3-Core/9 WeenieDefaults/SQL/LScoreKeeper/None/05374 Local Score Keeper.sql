@@ -1,3 +1,5 @@
+DELETE FROM `weenie` WHERE `class_Id` = 5374;
+
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
 VALUES (5374, 'lscorekeeper', 45, '2005-02-09 10:00:00') /* LScoreKeeper */;
 

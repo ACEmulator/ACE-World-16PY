@@ -1,3 +1,5 @@
+DELETE FROM `landblock_instance` WHERE `landblock` = 38782;
+
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (2037899264, 12467, 2541617152, 42.9019, 67.847, 30.005, -0.317767, 0, 0, -0.948169, False, '2005-02-09 10:00:00'); /* Adventurer's Haven Cottages Portal */
 /* @teleloc 0x977E0000 [42.901900 67.847000 30.005000] -0.317767 0.000000 0.000000 -0.948169 */

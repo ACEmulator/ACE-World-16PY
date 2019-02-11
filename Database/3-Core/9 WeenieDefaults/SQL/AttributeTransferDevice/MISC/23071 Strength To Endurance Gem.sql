@@ -1,3 +1,5 @@
+DELETE FROM `weenie` WHERE `class_Id` = 23071;
+
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
 VALUES (23071, 'attributegemstrengthtoendurance', 63, '2005-02-09 10:00:00') /* AttributeTransferDevice */;
 

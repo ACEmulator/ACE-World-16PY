@@ -1,3 +1,5 @@
+DELETE FROM `landblock_instance` WHERE `landblock` = 48071;
+
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (2075947016, 21489, 3150381056, 180.234, 120.857, 60.012, 0.753622, 0, 0, 0.657308,  True, '2005-02-09 10:00:00'); /* Asheron's Platinum Golem */
 /* @teleloc 0xBBC70000 [180.234000 120.857000 60.012000] 0.753622 0.000000 0.000000 0.657308 */

@@ -1,3 +1,5 @@
+DELETE FROM `landblock_instance` WHERE `landblock` = 15181;
+
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (1941229569,  2065, 994902276, 38.634, 130.219, 2.005, 0.707107, 0, 0, -0.707107, False, '2005-02-09 10:00:00'); /* Town of Dryreach */
 /* @teleloc 0x3B4D0104 [38.634000 130.219000 2.005000] 0.707107 0.000000 0.000000 -0.707107 */

@@ -1,3 +1,5 @@
+DELETE FROM `landblock_instance` WHERE `landblock` = 51810;
+
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (2091261952,  6393, 3395420160, 85.4292, 131.975, 6.005, 0.84968, 0, 0, 0.527298, False, '2005-02-09 10:00:00'); /* Incunabula Vault Portal */
 /* @teleloc 0xCA620000 [85.429200 131.975000 6.005000] 0.849680 0.000000 0.000000 0.527298 */

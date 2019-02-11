@@ -1,3 +1,5 @@
+DELETE FROM `landblock_instance` WHERE `landblock` = 694;
+
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (1881890816,  8429, 45482240, 4.86646, -391.71, -41.945, 0.700797, 0, 0, -0.713361,  True, '2005-02-09 10:00:00'); /* Mosswart Zealot */
 /* @teleloc 0x02B60100 [4.866460 -391.710000 -41.945000] 0.700797 0.000000 0.000000 -0.713361 */

@@ -1,3 +1,5 @@
+DELETE FROM `landblock_instance` WHERE `landblock` = 52814;
+
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (2095374336,  4110, 3461218304, 158.503, 86.8032, 255.993, 0.406775, 0, 0, 0.913528,  True, '2005-02-09 10:00:00'); /* Blood Shreth */
 /* @teleloc 0xCE4E0000 [158.503000 86.803200 255.993000] 0.406775 0.000000 0.000000 0.913528 */

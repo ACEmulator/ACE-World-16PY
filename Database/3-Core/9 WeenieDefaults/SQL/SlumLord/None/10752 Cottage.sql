@@ -1,3 +1,5 @@
+DELETE FROM `weenie` WHERE `class_Id` = 10752;
+
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
 VALUES (10752, 'slumlordtestcheap', 55, '2005-02-09 10:00:00') /* SlumLord */;
 
@@ -5,7 +7,7 @@ INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (10752,  16,         32) /* ItemUseable - Remote */
      , (10752,  86,         15) /* MinLevel */
      , (10752,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (10752, 149,          0) /* HouseStatus */;
+     , (10752, 149,          0) /* HouseStatus - InActive */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (10752,   1, True ) /* Stuck */;

@@ -1,3 +1,5 @@
+DELETE FROM `landblock_instance` WHERE `landblock` = 22595;
+
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (1971597312,  7607, 1480786192, 10.1991, -18.1462, -5.995, 0.999963, 0, 0, 0.00863295,  True, '2005-02-09 10:00:00'); /* Ember */
 /* @teleloc 0x58430110 [10.199100 -18.146200 -5.995000] 0.999963 0.000000 0.000000 0.008633 */

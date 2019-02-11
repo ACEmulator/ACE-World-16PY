@@ -1,3 +1,5 @@
+DELETE FROM `landblock_instance` WHERE `landblock` = 63779;
+
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (2140286976,  7123, 4179820544, 108.036, 93.3913, 22.0082, 0.622686, 0, 0, 0.782471,  True, '2005-02-09 10:00:00'); /* Dark Leech */
 /* @teleloc 0xF9230000 [108.036000 93.391300 22.008200] 0.622686 0.000000 0.000000 0.782471 */

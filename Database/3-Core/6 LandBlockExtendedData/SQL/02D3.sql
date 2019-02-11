@@ -1,3 +1,5 @@
+DELETE FROM `landblock_instance` WHERE `landblock` = 723;
+
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (1882009600,  8217, 47382791, 10.05, -66.123, 0.005, -4.37114E-08, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Xarabydun Town Portal */
 /* @teleloc 0x02D30107 [10.050000 -66.123000 0.005000] 0.000000 0.000000 0.000000 -1.000000 */

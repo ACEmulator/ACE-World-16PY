@@ -1,3 +1,5 @@
+DELETE FROM `landblock_instance` WHERE `landblock` = 372;
+
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (1880571904, 29043, 24379692, 60, 3.566, 1.5, 0, 0, 0, -1,  True, '2005-02-09 10:00:00'); /* Portal Beacon */
 /* @teleloc 0x0174012C [60.000000 3.566000 1.500000] 0.000000 0.000000 0.000000 -1.000000 */

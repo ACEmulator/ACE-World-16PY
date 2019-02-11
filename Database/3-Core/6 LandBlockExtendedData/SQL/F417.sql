@@ -1,3 +1,5 @@
+DELETE FROM `landblock_instance` WHERE `landblock` = 62487;
+
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (2134994944,  7111, 4095148032, 19.9133, 37.4055, 144.005, -0.517118, 0, 0, 0.855914,  True, '2005-02-09 10:00:00'); /* Faisi Sclavus */
 /* @teleloc 0xF4170000 [19.913300 37.405500 144.005000] -0.517118 0.000000 0.000000 0.855914 */

@@ -1,3 +1,5 @@
+DELETE FROM `landblock_instance` WHERE `landblock` = 3336;
+
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (1892712448,  6388, 218628096, 130.907, 177.518, 27.4041, 0.509868, 0, 0, -0.860253, False, '2005-02-09 10:00:00'); /* Town Statue */
 /* @teleloc 0x0D080000 [130.907000 177.518000 27.404100] 0.509868 0.000000 0.000000 -0.860253 */

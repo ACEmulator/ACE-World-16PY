@@ -1,3 +1,5 @@
+DELETE FROM `landblock_instance` WHERE `landblock` = 8383;
+
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (1913384960,   245, 549388575, 13.9385, 104.556, 56.7, 0.484046, 0, 0, -0.875043, False, '2005-02-09 10:00:00'); /* The Great Machine */
 /* @teleloc 0x20BF011F [13.938500 104.556000 56.700000] 0.484046 0.000000 0.000000 -0.875043 */

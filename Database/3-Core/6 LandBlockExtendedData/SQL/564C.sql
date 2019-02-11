@@ -1,3 +1,5 @@
+DELETE FROM `landblock_instance` WHERE `landblock` = 22092;
+
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (1969537024,   199, 1447821568, 130.605, -31.155, -35.99, 0.881936, 0, 0, -0.47137,  True, '2005-02-09 10:00:00'); /* Magma Golem */
 /* @teleloc 0x564C0100 [130.605000 -31.155000 -35.990000] 0.881936 0.000000 0.000000 -0.471370 */

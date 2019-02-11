@@ -1,3 +1,5 @@
+DELETE FROM `landblock_instance` WHERE `landblock` = 12079;
+
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (1928523776,    23, 791609344, 124.105, 60.5153, 2.029, -0.760273, 0, 0, -0.649604,  True, '2005-02-09 10:00:00'); /* Virindi Servant */
 /* @teleloc 0x2F2F0000 [124.105000 60.515300 2.029000] -0.760273 0.000000 0.000000 -0.649604 */

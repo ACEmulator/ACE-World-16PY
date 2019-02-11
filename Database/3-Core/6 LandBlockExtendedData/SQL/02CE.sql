@@ -1,3 +1,5 @@
+DELETE FROM `landblock_instance` WHERE `landblock` = 718;
+
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (1881989120,   950, 47055106, 50.863, -91.0603, -11.9925, 0.828544, 0, 0, 0.559923,  True, '2005-02-09 10:00:00'); /* Zombie */
 /* @teleloc 0x02CE0102 [50.863000 -91.060300 -11.992500] 0.828544 0.000000 0.000000 0.559923 */

@@ -1,3 +1,5 @@
+DELETE FROM `landblock_instance` WHERE `landblock` = 8858;
+
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (1915330560, 11193, 580517888, 131.784, 12.3353, 106.117, 0.999999, 0, 0, 0.00174279, False, '2005-02-09 10:00:00'); /* North Tethana Master Gen */
 /* @teleloc 0x229A0000 [131.784000 12.335300 106.117000] 0.999999 0.000000 0.000000 0.001743 */

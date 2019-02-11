@@ -1,3 +1,5 @@
+DELETE FROM `landblock_instance` WHERE `landblock` = 25557;
+
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (1983729664,   951, 1674903552, 30.9554, 96.2434, 56.6455, -0.999982, 0, 0, 0.0059709, False, '2005-02-09 10:00:00'); /* Banderling Guard Generator */
 /* @teleloc 0x63D50000 [30.955400 96.243400 56.645500] -0.999982 0.000000 0.000000 0.005971 */

@@ -1,3 +1,5 @@
+DELETE FROM `weenie` WHERE `class_Id` = 25024;
+
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
 VALUES (25024, 'tokenhigholthoi', 38, '2005-02-09 10:00:00') /* Gem */;
 

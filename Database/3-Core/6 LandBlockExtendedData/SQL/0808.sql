@@ -1,3 +1,5 @@
+DELETE FROM `landblock_instance` WHERE `landblock` = 2056;
+
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (1887469568, 25939, 134742016, 106.431, 149.94, 24.9022, -0.807097, 0, 0, 0.590419, False, '2005-02-09 10:00:00'); /* Central Singularity Caul Gen */
 /* @teleloc 0x08080000 [106.431000 149.940000 24.902200] -0.807097 0.000000 0.000000 0.590419 */

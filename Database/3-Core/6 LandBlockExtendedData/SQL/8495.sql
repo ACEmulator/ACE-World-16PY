@@ -1,3 +1,5 @@
+DELETE FROM `landblock_instance` WHERE `landblock` = 33941;
+
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (2018070536,  9252, 2224357376, 21.1632, 20.938, 224.005, -0.127349, 0, 0, -0.991858,  True, '2005-02-09 10:00:00'); /* Ferocious Monouga */
 /* @teleloc 0x84950000 [21.163200 20.938000 224.005000] -0.127349 0.000000 0.000000 -0.991858 */

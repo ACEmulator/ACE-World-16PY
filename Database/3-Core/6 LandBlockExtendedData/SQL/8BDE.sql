@@ -1,3 +1,5 @@
+DELETE FROM `landblock_instance` WHERE `landblock` = 35806;
+
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (2025709568,  1986, 2346582016, 133.037, 177.163, 32.4, -0.977338, 0, 0, -0.211686,  True, '2005-02-09 10:00:00'); /* Water Wisp */
 /* @teleloc 0x8BDE0000 [133.037000 177.163000 32.400000] -0.977338 0.000000 0.000000 -0.211686 */

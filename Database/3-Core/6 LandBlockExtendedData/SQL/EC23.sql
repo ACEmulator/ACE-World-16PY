@@ -1,3 +1,5 @@
+DELETE FROM `landblock_instance` WHERE `landblock` = 60451;
+
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (2126655488,  8467, 3961716736, 158.318, 88.5931, 19.2525, -0.991063, 0, 0, -0.133395,  True, '2005-02-09 10:00:00'); /* Dread Idol */
 /* @teleloc 0xEC230000 [158.318000 88.593100 19.252500] -0.991063 0.000000 0.000000 -0.133395 */

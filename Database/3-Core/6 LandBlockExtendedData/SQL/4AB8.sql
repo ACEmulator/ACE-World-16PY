@@ -1,3 +1,5 @@
+DELETE FROM `landblock_instance` WHERE `landblock` = 19128;
+
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (1957396480, 12466, 1253572608, 116.345, 43.8935, 240.005, 0.836393, 0, 0, -0.548131, False, '2005-02-09 10:00:00'); /* Adams' Beach Portal */
 /* @teleloc 0x4AB80000 [116.345000 43.893500 240.005000] 0.836393 0.000000 0.000000 -0.548131 */
