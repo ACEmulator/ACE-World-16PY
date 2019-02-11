@@ -1,4 +1,4 @@
-DELETE FROM `recipe` WHERE `recipe_Id` = 793;
+DELETE FROM `recipe` WHERE `id` = 793;
 
 INSERT INTO `recipe` (`id`, `unknown_1`, `skill`, `difficulty`, `salvage_Type`, `success_W_C_I_D`, `success_Amount`, `success_Message`, `fail_W_C_I_D`, `fail_Amount`, `fail_Message`, `success_Destroy_Source_Chance`, `success_Destroy_Source_Amount`, `success_Destroy_Source_Message`, `success_Destroy_Target_Chance`, `success_Destroy_Target_Amount`, `success_Destroy_Target_Message`, `fail_Destroy_Source_Chance`, `fail_Destroy_Source_Amount`, `fail_Destroy_Source_Message`, `fail_Destroy_Target_Chance`, `fail_Destroy_Target_Amount`, `fail_Destroy_Target_Message`, `data_Id`, `last_Modified`)
 VALUES (793, 0, 1 /* Axe */, 190, 0, 6332 /* Quality Infused Pyreal Ingot */, 1, 'You strongly imbue the pyreal with the essence of an axe.', 6346 /* Infused Pyreal Ingot */, 1, 'You imbue the pyreal with the essence of an axe.', 1, 1, NULL, 1, 1, NULL, 1, 1, NULL, 1, 1, NULL, 0, '2005-02-09 10:00:00');

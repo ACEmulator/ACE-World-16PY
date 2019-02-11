@@ -1,4 +1,4 @@
-DELETE FROM `recipe` WHERE `recipe_Id` = 4376;
+DELETE FROM `recipe` WHERE `id` = 4376;
 
 INSERT INTO `recipe` (`id`, `unknown_1`, `skill`, `difficulty`, `salvage_Type`, `success_W_C_I_D`, `success_Amount`, `success_Message`, `fail_W_C_I_D`, `fail_Amount`, `fail_Message`, `success_Destroy_Source_Chance`, `success_Destroy_Source_Amount`, `success_Destroy_Source_Message`, `success_Destroy_Target_Chance`, `success_Destroy_Target_Amount`, `success_Destroy_Target_Message`, `fail_Destroy_Source_Chance`, `fail_Destroy_Source_Amount`, `fail_Destroy_Source_Message`, `fail_Destroy_Target_Chance`, `fail_Destroy_Target_Amount`, `fail_Destroy_Target_Message`, `data_Id`, `last_Modified`)
 VALUES (4376, 0, 33 /* LifeMagic */, 10, 0, 23948 /* Luminescent Runic Helm */, 1, 'The fire fueled by mana alters the armor into an Luminescent Helm.', 23977 /* Infused Helm of Knorr */, 1, 'You are not trained in Life Magic you cannot accomplish this feat.', 1, 1, NULL, 0, 0, NULL, 1, 1, NULL, 0, 0, NULL, 0, '2005-02-09 10:00:00');
