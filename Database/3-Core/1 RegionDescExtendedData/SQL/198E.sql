@@ -1,3 +1,5 @@
+DELETE FROM `encounter` WHERE `landblock` = 6542;
+
 INSERT INTO `encounter` (`landblock`, `weenie_Class_Id`, `cell_X`, `cell_Y`, `last_Modified`)
 VALUES (6542, 1971, 1, 0, '2005-02-09 10:00:00') /* High Direlands Mountain Golem Generator */
      , (6542, 1967, 2, 2, '2005-02-09 10:00:00') /* High Direlands Forest Generator */

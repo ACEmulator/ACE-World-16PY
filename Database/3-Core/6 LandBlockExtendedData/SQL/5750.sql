@@ -1,3 +1,5 @@
+DELETE FROM `landblock_instance` WHERE `landblock` = 22352;
+
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (1970601984, 24227, 1464860934, 10, -24.2883, -29.995, 1, 0, 0, 0, False, '2005-02-09 10:00:00'); /* Catacombs of Opposition */
 /* @teleloc 0x57500106 [10.000000 -24.288300 -29.995000] 1.000000 0.000000 0.000000 0.000000 */

@@ -1,3 +1,5 @@
+DELETE FROM `landblock_instance` WHERE `landblock` = 55892;
+
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (2107981824,  1124, 3662938112, 91.8, 69, 40.3833, -0.999391, 0, 0, -0.0348995, False, '2005-02-09 10:00:00'); /* Shoushi Grotto Portal */
 /* @teleloc 0xDA540000 [91.800000 69.000000 40.383300] -0.999391 0.000000 0.000000 -0.034900 */

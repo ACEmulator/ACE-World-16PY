@@ -1,3 +1,5 @@
+DELETE FROM `landblock_instance` WHERE `landblock` = 52373;
+
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (2093568000, 12533, 3432316928, 59.4769, 42.5984, 20.5985, -0.253108, 0, 0, -0.967438, False, '2005-02-09 10:00:00'); /* North Eastham Meadow Portal */
 /* @teleloc 0xCC950000 [59.476900 42.598400 20.598500] -0.253108 0.000000 0.000000 -0.967438 */

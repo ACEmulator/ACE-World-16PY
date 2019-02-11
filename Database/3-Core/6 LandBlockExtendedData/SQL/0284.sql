@@ -1,3 +1,5 @@
+DELETE FROM `landblock_instance` WHERE `landblock` = 644;
+
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (1881686016, 11480, 42205440, 240.973, -143.718, -23.995, 0.674841, 0, 0, 0.737963,  True, '2005-02-09 10:00:00'); /* Olthoi Harvester */
 /* @teleloc 0x02840100 [240.973000 -143.718000 -23.995000] 0.674841 0.000000 0.000000 0.737963 */

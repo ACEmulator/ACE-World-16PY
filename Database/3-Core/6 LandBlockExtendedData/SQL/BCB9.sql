@@ -1,3 +1,5 @@
+DELETE FROM `landblock_instance` WHERE `landblock` = 48313;
+
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (2076938240, 22829, 3166240768, 105.932, 148.943, 479.181, 0.148288, 0, 0, -0.988944,  True, '2005-02-09 10:00:00'); /* Blind Snowman */
 /* @teleloc 0xBCB90000 [105.932000 148.943000 479.181000] 0.148288 0.000000 0.000000 -0.988944 */

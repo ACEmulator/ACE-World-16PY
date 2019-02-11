@@ -1,3 +1,5 @@
+DELETE FROM `landblock_instance` WHERE `landblock` = 21097;
+
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (1965461508, 14927, 1382613248, 0, -140, 0.005, 0.696707, 0, 0, -0.717356, False, '2005-02-09 10:00:00'); /* Cold Feet Portal */
 /* @teleloc 0x52690100 [0.000000 -140.000000 0.005000] 0.696707 0.000000 0.000000 -0.717356 */

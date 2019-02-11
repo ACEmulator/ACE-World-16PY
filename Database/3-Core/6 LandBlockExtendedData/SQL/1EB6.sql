@@ -1,3 +1,5 @@
+DELETE FROM `landblock_instance` WHERE `landblock` = 7862;
+
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (1911250944, 10933, 515244032, 37.7924, 138.831, 127.753, 0.999805, 0, 0, -0.019754, False, '2005-02-09 10:00:00'); /* Palisade Wall Hotspot */
 /* @teleloc 0x1EB60000 [37.792400 138.831000 127.753000] 0.999805 0.000000 0.000000 -0.019754 */

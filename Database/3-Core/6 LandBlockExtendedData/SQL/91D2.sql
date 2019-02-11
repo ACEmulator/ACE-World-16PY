@@ -1,3 +1,5 @@
+DELETE FROM `landblock_instance` WHERE `landblock` = 37330;
+
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (2031951872, 12537, 2446458880, 61.3544, 84.6768, 342.246, 0.883669, 0, 0, -0.468112, False, '2005-02-09 10:00:00'); /* Pavanne Vale Freehold Portal */
 /* @teleloc 0x91D20000 [61.354400 84.676800 342.246000] 0.883669 0.000000 0.000000 -0.468112 */

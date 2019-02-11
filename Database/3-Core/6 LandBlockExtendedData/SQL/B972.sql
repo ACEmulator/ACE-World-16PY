@@ -1,3 +1,5 @@
+DELETE FROM `landblock_instance` WHERE `landblock` = 47474;
+
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (2073501696,   820, 3111256324, 132.82, 17.4678, 23.705, 0.29926, 0, 0, -0.954172, False, '2005-02-09 10:00:00'); /* Shin Ou-Ye the Shopkeep */
 /* @teleloc 0xB9720104 [132.820000 17.467800 23.705000] 0.299260 0.000000 0.000000 -0.954172 */

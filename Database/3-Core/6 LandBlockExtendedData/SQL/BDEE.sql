@@ -1,3 +1,5 @@
+DELETE FROM `landblock_instance` WHERE `landblock` = 48622;
+
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (2078203904,  7220, 3186491392, 25.6081, 122.231, 203.76, -0.763957, 0, 0, 0.645267, False, '2005-02-09 10:00:00'); /* Aerlinthe Caldera Mix Gen */
 /* @teleloc 0xBDEE0000 [25.608100 122.231000 203.760000] -0.763957 0.000000 0.000000 0.645267 */

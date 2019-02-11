@@ -1,3 +1,5 @@
+DELETE FROM `landblock_instance` WHERE `landblock` = 500;
+
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (1881096192,  9052, 32768257, 3.09013, -169.97, -17.99, -0.727445, 0, 0, 0.686166,  True, '2005-02-09 10:00:00'); /* Tenuous Nephol Golem */
 /* @teleloc 0x01F40101 [3.090130 -169.970000 -17.990000] -0.727445 0.000000 0.000000 0.686166 */

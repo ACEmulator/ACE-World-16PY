@@ -1,3 +1,5 @@
+DELETE FROM `landblock_instance` WHERE `landblock` = 12304;
+
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (1929445386,  2407, 806354944, 131.137, 80.3062, 16.3005, -0.602461, 0, 0, 0.798148,  True, '2005-02-09 10:00:00'); /* Sunstone */
 /* @teleloc 0x30100000 [131.137000 80.306200 16.300500] -0.602461 0.000000 0.000000 0.798148 */

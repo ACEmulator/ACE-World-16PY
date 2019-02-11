@@ -1,3 +1,5 @@
+DELETE FROM `landblock_instance` WHERE `landblock` = 25669;
+
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (1984188416, 23987, 1682243840, 0, -80, -11.995, 1, 0, 0, 0,  True, '2005-02-09 10:00:00'); /* Olthoi Swarm Guardian */
 /* @teleloc 0x64450100 [0.000000 -80.000000 -11.995000] 1.000000 0.000000 0.000000 0.000000 */

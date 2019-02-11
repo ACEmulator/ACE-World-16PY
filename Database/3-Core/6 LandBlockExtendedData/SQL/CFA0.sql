@@ -1,3 +1,5 @@
+DELETE FROM `landblock_instance` WHERE `landblock` = 53152;
+
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (2096758784,  1612, 3483369472, 151.511, 66.0959, 0.00464, 0.659771, 0, 0, -0.751467,  True, '2005-02-09 10:00:00'); /* Azure Gromnie */
 /* @teleloc 0xCFA00000 [151.511000 66.095900 0.004640] 0.659771 0.000000 0.000000 -0.751467 */

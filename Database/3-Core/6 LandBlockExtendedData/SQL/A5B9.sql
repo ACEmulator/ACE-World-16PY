@@ -1,3 +1,5 @@
+DELETE FROM `landblock_instance` WHERE `landblock` = 42425;
+
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (2052820992, 22866, 2780364800, 106.181, 178.585, 129.157, 0.239978, 0, 0, -0.970778, False, '2005-02-09 10:00:00'); /* Access to Crystal Mines */
 /* @teleloc 0xA5B90000 [106.181000 178.585000 129.157000] 0.239978 0.000000 0.000000 -0.970778 */

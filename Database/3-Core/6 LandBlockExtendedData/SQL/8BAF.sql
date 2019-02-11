@@ -1,3 +1,5 @@
+DELETE FROM `landblock_instance` WHERE `landblock` = 35759;
+
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (2025517056,  1757, 2343502083, 84.2467, 140.502, 64.005, 1, 0, 0, 0,  True, '2005-02-09 10:00:00'); /* Shadow Lieutenant */
 /* @teleloc 0x8BAF0103 [84.246700 140.502000 64.005000] 1.000000 0.000000 0.000000 0.000000 */

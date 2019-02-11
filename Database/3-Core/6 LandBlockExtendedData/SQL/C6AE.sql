@@ -1,3 +1,5 @@
+DELETE FROM `landblock_instance` WHERE `landblock` = 50862;
+
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (2087378944,   960, 3333292288, 38.0992, 189.561, 150.805, 0.890599, 0, 0, 0.45479, False, '2005-02-09 10:00:00'); /* Mite Squire Generator */
 /* @teleloc 0xC6AE0100 [38.099200 189.561000 150.805000] 0.890599 0.000000 0.000000 0.454790 */

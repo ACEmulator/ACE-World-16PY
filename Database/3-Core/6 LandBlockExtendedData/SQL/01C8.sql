@@ -1,3 +1,5 @@
+DELETE FROM `landblock_instance` WHERE `landblock` = 456;
+
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (1880915968,   894, 29884678, 12.0162, -0.00914407, 0, 0.597538, 0, 0, -0.801841, False, '2005-02-09 10:00:00'); /* Lugian Lithos Generator */
 /* @teleloc 0x01C80106 [12.016200 -0.009144 0.000000] 0.597538 0.000000 0.000000 -0.801841 */

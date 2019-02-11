@@ -1,3 +1,5 @@
+DELETE FROM `landblock_instance` WHERE `landblock` = 33926;
+
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (2018009088, 12499, 2223374336, 165.102, 108.347, 154.247, 0.621835, 0, 0, -0.783148, False, '2005-02-09 10:00:00'); /* Four Towers Settlement Portal */
 /* @teleloc 0x84860000 [165.102000 108.347000 154.247000] 0.621835 0.000000 0.000000 -0.783148 */

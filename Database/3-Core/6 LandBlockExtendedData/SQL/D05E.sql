@@ -1,3 +1,5 @@
+DELETE FROM `landblock_instance` WHERE `landblock` = 53342;
+
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (2097537024,  1460, 3495821570, 161.065, 10.8137, 30.805, -0.999744, 0, 0, 0.022614, False, '2005-02-09 10:00:00'); /* Food Heal Gen */
 /* @teleloc 0xD05E0102 [161.065000 10.813700 30.805000] -0.999744 0.000000 0.000000 0.022614 */

@@ -1,3 +1,5 @@
+DELETE FROM `landblock_instance` WHERE `landblock` = 32611;
+
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (2012622848, 12555, 2137194496, 137.255, 98.6483, 47.3979, 0.996592, 0, 0, -0.0824944, False, '2005-02-09 10:00:00'); /* South Yaraq Cottages Portal */
 /* @teleloc 0x7F630000 [137.255000 98.648300 47.397900] 0.996592 0.000000 0.000000 -0.082494 */

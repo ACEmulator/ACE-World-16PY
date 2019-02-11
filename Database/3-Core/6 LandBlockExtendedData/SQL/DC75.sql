@@ -1,3 +1,5 @@
+DELETE FROM `landblock_instance` WHERE `landblock` = 56437;
+
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (2110214146,  2064, 3698655232, 101.891, 54.9445, 39.5079, 0.637498, 0, 0, 0.770452, False, '2005-02-09 10:00:00'); /* East Direlands Swamp */
 /* @teleloc 0xDC750000 [101.891000 54.944500 39.507900] 0.637498 0.000000 0.000000 0.770452 */

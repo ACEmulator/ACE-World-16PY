@@ -1,3 +1,5 @@
+DELETE FROM `landblock_instance` WHERE `landblock` = 50857;
+
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (2087358464,  1088, 3332964352, 90.5567, 140.355, 41.937, -0.521251, 0, 0, -0.853403, False, '2005-02-09 10:00:00'); /* Arwic Mines Portal */
 /* @teleloc 0xC6A90000 [90.556700 140.355000 41.937000] -0.521251 0.000000 0.000000 -0.853403 */

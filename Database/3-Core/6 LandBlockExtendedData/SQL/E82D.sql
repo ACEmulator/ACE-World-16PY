@@ -1,3 +1,5 @@
+DELETE FROM `landblock_instance` WHERE `landblock` = 59437;
+
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (2122502144,   412, 3895263491, 87.6084, 106.355, 78, -0.707107, 0, 0, -0.707107, False, '2005-02-09 10:00:00'); /* Door */
 /* @teleloc 0xE82D0103 [87.608400 106.355000 78.000000] -0.707107 0.000000 0.000000 -0.707107 */

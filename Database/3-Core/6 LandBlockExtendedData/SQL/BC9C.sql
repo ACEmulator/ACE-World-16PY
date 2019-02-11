@@ -1,3 +1,5 @@
+DELETE FROM `landblock_instance` WHERE `landblock` = 48284;
+
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (2076819456,  8765, 3164340224, 152.766, 170.479, 1.905, 0.996677, 0, 0, -0.0814541,  True, '2005-02-09 10:00:00'); /* Chosen of Asheron */
 /* @teleloc 0xBC9C0000 [152.766000 170.479000 1.905000] 0.996677 0.000000 0.000000 -0.081454 */

@@ -1,3 +1,5 @@
+DELETE FROM `landblock_instance` WHERE `landblock` = 9;
+
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (1879085057, 28245, 590081, 28.5849, -49.6962, -23.971, 0.972783, 0, 0, -0.231719,  True, '2005-02-09 10:00:00'); /* Poltergeist */
 /* @teleloc 0x00090101 [28.584900 -49.696200 -23.971000] 0.972783 0.000000 0.000000 -0.231719 */

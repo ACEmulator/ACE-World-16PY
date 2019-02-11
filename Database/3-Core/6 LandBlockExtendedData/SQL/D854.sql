@@ -1,3 +1,5 @@
+DELETE FROM `landblock_instance` WHERE `landblock` = 55380;
+
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (2105884672,  1403, 3629383680, 177.913, 139.319, 22.7888, 0.902316, 0, 0, 0.431076, False, '2005-02-09 10:00:00'); /* LostLight Clue Generator */
 /* @teleloc 0xD8540000 [177.913000 139.319000 22.788800] 0.902316 0.000000 0.000000 0.431076 */

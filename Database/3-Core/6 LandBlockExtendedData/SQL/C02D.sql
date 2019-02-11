@@ -1,3 +1,5 @@
+DELETE FROM `landblock_instance` WHERE `landblock` = 49197;
+
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (2080559104,  8127, 3224174592, 163.377, 126.913, 258, -0.730213, 0, 0, -0.683219, False, '2005-02-09 10:00:00'); /* Menhir Mana Field */
 /* @teleloc 0xC02D0000 [163.377000 126.913000 258.000000] -0.730213 0.000000 0.000000 -0.683219 */

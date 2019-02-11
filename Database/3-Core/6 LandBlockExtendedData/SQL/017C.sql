@@ -1,3 +1,5 @@
+DELETE FROM `landblock_instance` WHERE `landblock` = 380;
+
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (1880604672, 28136, 24903936, 67.5, -70, -47.921, 0.707107, 0, 0, 0.707107,  True, '2005-02-09 10:00:00'); /* Unusable Scroll */
 /* @teleloc 0x017C0100 [67.500000 -70.000000 -47.921000] 0.707107 0.000000 0.000000 0.707107 */

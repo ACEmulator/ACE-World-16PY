@@ -1,3 +1,5 @@
+DELETE FROM `encounter` WHERE `landblock` = 62317;
+
 INSERT INTO `encounter` (`landblock`, `weenie_Class_Id`, `cell_X`, `cell_Y`, `last_Modified`)
 VALUES (62317, 22389, 0, 0, '2005-02-09 10:00:00') /* Tusker Island Uber Mix Gen */
      , (62317, 22389, 0, 1, '2005-02-09 10:00:00') /* Tusker Island Uber Mix Gen */

@@ -1,3 +1,5 @@
+DELETE FROM `landblock_instance` WHERE `landblock` = 731;
+
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (1882042368,  7978, 47907073, 157.567, -306.686, -47.995, -0.99626, 0, 0, -0.0864069,  True, '2005-02-09 10:00:00'); /* Scrawed Grievver */
 /* @teleloc 0x02DB0101 [157.567000 -306.686000 -47.995000] -0.996260 0.000000 0.000000 -0.086407 */

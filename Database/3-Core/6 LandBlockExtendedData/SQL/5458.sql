@@ -1,3 +1,5 @@
+DELETE FROM `landblock_instance` WHERE `landblock` = 21592;
+
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (1967489024, 19276, 1415053568, 113.959, -169.889, -5.985, 0.696707, 0, 0, -0.717356,  True, '2005-02-09 10:00:00'); /* Bronze Statue of a Golem */
 /* @teleloc 0x54580100 [113.959000 -169.889000 -5.985000] 0.696707 0.000000 0.000000 -0.717356 */

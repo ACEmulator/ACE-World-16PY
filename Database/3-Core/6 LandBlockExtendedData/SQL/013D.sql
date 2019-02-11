@@ -1,3 +1,5 @@
+DELETE FROM `landblock_instance` WHERE `landblock` = 317;
+
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (1880346624,  4829, 20775169, 44.5078, -332.234, -48, -0.707107, 0, 0, -0.707107, False, '2005-02-09 10:00:00'); /* Sarcophagus */
 /* @teleloc 0x013D0101 [44.507800 -332.234000 -48.000000] -0.707107 0.000000 0.000000 -0.707107 */

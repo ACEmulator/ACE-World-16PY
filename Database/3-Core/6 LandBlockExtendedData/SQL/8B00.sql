@@ -1,3 +1,5 @@
+DELETE FROM `landblock_instance` WHERE `landblock` = 35584;
+
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (2024800256, 21475, 2332033409, 87.4228, -97.1613, 0.005, 0.368116, 0, 0, -0.92978, False, '2005-02-09 10:00:00'); /* Dulok Court */
 /* @teleloc 0x8B000181 [87.422800 -97.161300 0.005000] 0.368116 0.000000 0.000000 -0.929780 */

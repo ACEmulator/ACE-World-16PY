@@ -1,3 +1,5 @@
+DELETE FROM `landblock_instance` WHERE `landblock` = 32868;
+
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (2013675520,  4676, 2154037248, 180.132, 159.706, 25.9794, 0.908576, 0, 0, -0.41772, False, '2005-02-09 10:00:00'); /* Yaraq Outpost */
 /* @teleloc 0x80640000 [180.132000 159.706000 25.979400] 0.908576 0.000000 0.000000 -0.417720 */

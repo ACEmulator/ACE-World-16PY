@@ -1,3 +1,5 @@
+DELETE FROM `weenie` WHERE `class_Id` = 22360;
+
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
 VALUES (22360, 'skillgemupdeception', 62, '2005-02-09 10:00:00') /* SkillAlterationDevice */;
 

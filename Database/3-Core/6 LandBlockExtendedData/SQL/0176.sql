@@ -1,3 +1,5 @@
+DELETE FROM `landblock_instance` WHERE `landblock` = 374;
+
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (1880580096, 27861, 24510720, 32.4213, -47.1718, -77.9936, 0.473287, 0, 0, -0.880908,  True, '2005-02-09 10:00:00'); /* Squallid Moarsman */
 /* @teleloc 0x01760100 [32.421300 -47.171800 -77.993600] 0.473287 0.000000 0.000000 -0.880908 */

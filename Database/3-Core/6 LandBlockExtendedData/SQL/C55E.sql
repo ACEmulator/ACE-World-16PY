@@ -1,3 +1,5 @@
+DELETE FROM `landblock_instance` WHERE `landblock` = 50526;
+
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (2086002688,   899, 3311271936, 121.617, 190.002, 5.555, 0.502892, 0, 0, -0.864349, False, '2005-02-09 10:00:00'); /* Mosswart Mudlurk Generator */
 /* @teleloc 0xC55E0000 [121.617000 190.002000 5.555000] 0.502892 0.000000 0.000000 -0.864349 */

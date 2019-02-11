@@ -1,3 +1,5 @@
+DELETE FROM `landblock_instance` WHERE `landblock` = 654;
+
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (1881726976,  8012, 42860806, 60.2978, -110.32, -12.6446, 0.984133, 0, 0, -0.177433,  True, '2005-02-09 10:00:00'); /* Dual Fragment */
 /* @teleloc 0x028E0106 [60.297800 -110.320000 -12.644600] 0.984133 0.000000 0.000000 -0.177433 */

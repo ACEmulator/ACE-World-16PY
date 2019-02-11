@@ -1,3 +1,5 @@
+DELETE FROM `landblock_instance` WHERE `landblock` = 54871;
+
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (2103799808,  4108, 3596025856, 169.538, 30.1411, 30.011, -0.417674, 0, 0, -0.908597,  True, '2005-02-09 10:00:00'); /* Gnawer Shreth */
 /* @teleloc 0xD6570000 [169.538000 30.141100 30.011000] -0.417674 0.000000 0.000000 -0.908597 */

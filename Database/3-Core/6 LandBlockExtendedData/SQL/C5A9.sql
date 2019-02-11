@@ -1,3 +1,5 @@
+DELETE FROM `landblock_instance` WHERE `landblock` = 50601;
+
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (2086309888,  6090, 3316187393, 31.813, 77.701, 54.005, -0.707107, 0, 0, -0.707107, False, '2005-02-09 10:00:00'); /* Arwic Meeting Hall Portal */
 /* @teleloc 0xC5A90101 [31.813000 77.701000 54.005000] -0.707107 0.000000 0.000000 -0.707107 */

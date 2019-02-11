@@ -1,3 +1,5 @@
+DELETE FROM `landblock_instance` WHERE `landblock` = 268;
+
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (1880145920,     7, 17563907, 4.11384, -112.91, -5.9958, -0.995785, 0, 0, -0.09172,  True, '2005-02-09 10:00:00'); /* Drudge Skulker */
 /* @teleloc 0x010C0103 [4.113840 -112.910000 -5.995800] -0.995785 0.000000 0.000000 -0.091720 */

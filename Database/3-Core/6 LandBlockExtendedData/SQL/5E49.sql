@@ -1,3 +1,5 @@
+DELETE FROM `landblock_instance` WHERE `landblock` = 24137;
+
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (1977913344, 24297, 1581842699, 327.521, -251.681, -89.995, 0.9639, 0, 0, -0.266263,  True, '2005-02-09 10:00:00'); /* Olthoi Guard */
 /* @teleloc 0x5E49010B [327.521000 -251.681000 -89.995000] 0.963900 0.000000 0.000000 -0.266263 */

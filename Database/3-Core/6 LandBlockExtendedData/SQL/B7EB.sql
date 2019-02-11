@@ -1,3 +1,5 @@
+DELETE FROM `landblock_instance` WHERE `landblock` = 47083;
+
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (2071900160,  7216, 3085631488, 37.7876, 178.043, -0.095, 0.73061, 0, 0, -0.682795, False, '2005-02-09 10:00:00'); /* Aerlinthe Ash West Mix Gen */
 /* @teleloc 0xB7EB0000 [37.787600 178.043000 -0.095000] 0.730610 0.000000 0.000000 -0.682795 */

@@ -1,3 +1,5 @@
+DELETE FROM `landblock_instance` WHERE `landblock` = 21601;
+
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (1967525888,  8906, 1415643451, 117.065, -33, -3, 0.999841, 0, 0, -0.01781, False, '2005-02-09 10:00:00'); /* Strange Tunnel */
 /* @teleloc 0x5461013B [117.065000 -33.000000 -3.000000] 0.999841 0.000000 0.000000 -0.017810 */

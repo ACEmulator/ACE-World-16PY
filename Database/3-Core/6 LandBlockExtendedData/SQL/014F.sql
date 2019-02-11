@@ -1,3 +1,5 @@
+DELETE FROM `landblock_instance` WHERE `landblock` = 335;
+
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (1880420352,    13, 21954816, 18.4963, -68.6208, -23.9916, 0.837182, 0, 0, -0.546924,  True, '2005-02-09 10:00:00'); /* White Rat */
 /* @teleloc 0x014F0100 [18.496300 -68.620800 -23.991600] 0.837182 0.000000 0.000000 -0.546924 */

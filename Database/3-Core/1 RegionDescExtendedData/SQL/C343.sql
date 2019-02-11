@@ -1,3 +1,5 @@
+DELETE FROM `encounter` WHERE `landblock` = 49987;
+
 INSERT INTO `encounter` (`landblock`, `weenie_Class_Id`, `cell_X`, `cell_Y`, `last_Modified`)
 VALUES (49987, 7928, 0, 0, '2005-02-09 10:00:00') /* Low Central Mattekar Mountain Mix Generator */
      , (49987, 7928, 0, 4, '2005-02-09 10:00:00') /* Low Central Mattekar Mountain Mix Generator */

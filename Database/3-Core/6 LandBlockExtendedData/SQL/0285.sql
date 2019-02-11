@@ -1,3 +1,5 @@
+DELETE FROM `landblock_instance` WHERE `landblock` = 645;
+
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (1881690112, 11206, 42270976, 100, -86.5, -35.75, -4.37114E-08, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Royal Hive Portal */
 /* @teleloc 0x02850100 [100.000000 -86.500000 -35.750000] 0.000000 0.000000 0.000000 -1.000000 */

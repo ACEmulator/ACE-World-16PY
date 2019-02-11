@@ -1,3 +1,5 @@
+DELETE FROM `landblock_instance` WHERE `landblock` = 635;
+
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (1881649152, 27985, 41615617, 0.901836, -87.5442, -29.995, 0.735574, 0, 0, -0.677444,  True, '2005-02-09 10:00:00'); /* Guruk Destroyer */
 /* @teleloc 0x027B0101 [0.901836 -87.544200 -29.995000] 0.735574 0.000000 0.000000 -0.677444 */

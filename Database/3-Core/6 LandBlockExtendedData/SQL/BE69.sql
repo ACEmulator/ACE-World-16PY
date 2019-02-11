@@ -1,3 +1,5 @@
+DELETE FROM `landblock_instance` WHERE `landblock` = 48745;
+
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (2078707716, 25227, 3194552320, 131.666, 39.0224, 26.005, -0.999479, 0, 0, 0.0322726, False, '2005-02-09 10:00:00'); /* Tainted Grotto */
 /* @teleloc 0xBE690000 [131.666000 39.022400 26.005000] -0.999479 0.000000 0.000000 0.032273 */

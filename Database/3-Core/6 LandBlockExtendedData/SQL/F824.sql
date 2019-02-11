@@ -1,3 +1,5 @@
+DELETE FROM `landblock_instance` WHERE `landblock` = 63524;
+
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (2139242496,  4248, 4163108864, 144.308, 42.8453, 18.006, -0.961814, 0, 0, 0.273704,  True, '2005-02-09 10:00:00'); /* Putrid Moarsman */
 /* @teleloc 0xF8240000 [144.308000 42.845300 18.006000] -0.961814 0.000000 0.000000 0.273704 */

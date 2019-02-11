@@ -1,3 +1,5 @@
+DELETE FROM `weenie` WHERE `class_Id` = 5568;
+
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
 VALUES (5568, 'djaridacidstack', 4, '2005-02-09 10:00:00') /* Missile */;
 

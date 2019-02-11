@@ -1,3 +1,5 @@
+DELETE FROM `landblock_instance` WHERE `landblock` = 634;
+
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (1881645056, 28468, 41550080, 19.5402, -121.474, -47.995, -0.537878, 0, 0, 0.843023, False, '2005-02-09 10:00:00'); /* Morgluuk's Warrior Boss Gen */
 /* @teleloc 0x027A0100 [19.540200 -121.474000 -47.995000] -0.537878 0.000000 0.000000 0.843023 */

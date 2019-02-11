@@ -1,3 +1,5 @@
+DELETE FROM `landblock_instance` WHERE `landblock` = 42604;
+
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (2053554176,  6320, 2792096000, 83.5479, 141.65, 16.8029, 0.978168, 0, 0, 0.207817,  True, '2005-02-09 10:00:00'); /* Minor Smoldering Stone */
 /* @teleloc 0xA66C0100 [83.547900 141.650000 16.802900] 0.978168 0.000000 0.000000 0.207817 */

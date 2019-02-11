@@ -1,3 +1,5 @@
+DELETE FROM `landblock_instance` WHERE `landblock` = 26076;
+
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (1985855488,  8059, 1708916736, 181.07, 167.711, 78.0532, 0.968542, 0, 0, 0.248851, False, '2005-02-09 10:00:00'); /* Scrawed Grievver Camp Generator */
 /* @teleloc 0x65DC0000 [181.070000 167.711000 78.053200] 0.968542 0.000000 0.000000 0.248851 */

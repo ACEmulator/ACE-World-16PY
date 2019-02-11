@@ -1,3 +1,5 @@
+DELETE FROM `landblock_instance` WHERE `landblock` = 32;
+
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (1879179264, 29499, 2097409, 528, -450, -53.995, -0.707107, 0, 0, -0.707107, False, '2005-02-09 10:00:00'); /* Corcima Castle Central Ward */
 /* @teleloc 0x00200101 [528.000000 -450.000000 -53.995000] -0.707107 0.000000 0.000000 -0.707107 */

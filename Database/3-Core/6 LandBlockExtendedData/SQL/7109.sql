@@ -1,3 +1,5 @@
+DELETE FROM `landblock_instance` WHERE `landblock` = 28937;
+
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (1997574144, 24491, 1896415232, 23.918, 186, 31.0068, 0.999886, 0, 0, -0.015097, False, '2005-02-09 10:00:00'); /* Ulgrim Island Volcano Caldera Gen */
 /* @teleloc 0x71090000 [23.918000 186.000000 31.006800] 0.999886 0.000000 0.000000 -0.015097 */

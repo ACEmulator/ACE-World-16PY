@@ -1,3 +1,5 @@
+DELETE FROM `landblock_instance` WHERE `landblock` = 28569;
+
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (1996066816, 27435, 1872297984, 106.748, 131.211, 240.005, -0.992818, 0, 0, 0.119634,  True, '2005-02-09 10:00:00'); /* Large Golden Coin */
 /* @teleloc 0x6F990000 [106.748000 131.211000 240.005000] -0.992818 0.000000 0.000000 0.119634 */

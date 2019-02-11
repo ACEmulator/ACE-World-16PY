@@ -1,3 +1,5 @@
+DELETE FROM `landblock_instance` WHERE `landblock` = 40639;
+
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (2045505536,   903, 2663317504, 80.0302, 179.632, 27.905, -0.658873, 0, 0, 0.752254, False, '2005-02-09 10:00:00'); /* Blue Phyntos Wasp Generator */
 /* @teleloc 0x9EBF0000 [80.030200 179.632000 27.905000] -0.658873 0.000000 0.000000 0.752254 */

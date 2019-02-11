@@ -1,3 +1,5 @@
+DELETE FROM `landblock_instance` WHERE `landblock` = 48770;
+
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (2078810112, 12516, 3196190720, 67.5457, 36.7668, 39.2623, -0.794614, 0, 0, -0.607115, False, '2005-02-09 10:00:00'); /* Maedew Portal */
 /* @teleloc 0xBE820000 [67.545700 36.766800 39.262300] -0.794614 0.000000 0.000000 -0.607115 */

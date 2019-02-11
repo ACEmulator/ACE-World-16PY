@@ -1,3 +1,5 @@
+DELETE FROM `landblock_instance` WHERE `landblock` = 48479;
+
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (2077618184,   941, 3177119744, 182.16, 9.79337, 5.911, -0.638935, 0, 0, -0.76926,  True, '2005-02-09 10:00:00'); /* Water Golem */
 /* @teleloc 0xBD5F0000 [182.160000 9.793370 5.911000] -0.638935 0.000000 0.000000 -0.769260 */

@@ -1,3 +1,5 @@
+DELETE FROM `landblock_instance` WHERE `landblock` = 714;
+
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (1881972736,  8364, 46792962, 239.717, -1.59301, -5.995, 0.0223644, 0, 0, -0.99975,  True, '2005-02-09 10:00:00'); /* Banderling Mace Head */
 /* @teleloc 0x02CA0102 [239.717000 -1.593010 -5.995000] 0.022364 0.000000 0.000000 -0.999750 */

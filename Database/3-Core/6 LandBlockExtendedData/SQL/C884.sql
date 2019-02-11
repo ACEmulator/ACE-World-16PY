@@ -1,3 +1,5 @@
+DELETE FROM `landblock_instance` WHERE `landblock` = 51332;
+
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (2089304064,   892, 3364093952, 25.7493, 99.6733, 53.5386, 0.213868, 0, 0, -0.976863, False, '2005-02-09 10:00:00'); /* Drudge Prowler Generator */
 /* @teleloc 0xC8840000 [25.749300 99.673300 53.538600] 0.213868 0.000000 0.000000 -0.976863 */

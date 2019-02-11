@@ -1,3 +1,5 @@
+DELETE FROM `landblock_instance` WHERE `landblock` = 392;
+
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (1880653824,  8969, 25690369, 0, -100, -23.995, 1, 0, 0, 0, False, '2005-02-09 10:00:00'); /* Beyond the Mines of Despair */
 /* @teleloc 0x01880101 [0.000000 -100.000000 -23.995000] 1.000000 0.000000 0.000000 0.000000 */

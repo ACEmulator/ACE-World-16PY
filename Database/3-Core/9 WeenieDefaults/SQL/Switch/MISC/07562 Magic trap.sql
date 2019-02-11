@@ -1,3 +1,5 @@
+DELETE FROM `weenie` WHERE `class_Id` = 7562;
+
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
 VALUES (7562, 'trap-manablight', 26, '2005-02-09 10:00:00') /* Switch */;
 

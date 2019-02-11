@@ -1,3 +1,5 @@
+DELETE FROM `landblock_instance` WHERE `landblock` = 15264;
+
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (1941569536, 11194, 1000341504, 35.4216, 109.022, 32.4198, 0.0456811, 0, 0, 0.998956, False, '2005-02-09 10:00:00'); /* West Osteth Master Gen */
 /* @teleloc 0x3BA00000 [35.421600 109.022000 32.419800] 0.045681 0.000000 0.000000 0.998956 */

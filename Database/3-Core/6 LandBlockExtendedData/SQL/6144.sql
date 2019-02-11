@@ -1,3 +1,5 @@
+DELETE FROM `landblock_instance` WHERE `landblock` = 24900;
+
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (1981038595,  4022, 1631846662, 95.9437, -93.2544, -132, 0.917017, 0, 0, -0.398847, False, '2005-02-09 10:00:00'); /* Valuable General Generator */
 /* @teleloc 0x61440106 [95.943700 -93.254400 -132.000000] 0.917017 0.000000 0.000000 -0.398847 */

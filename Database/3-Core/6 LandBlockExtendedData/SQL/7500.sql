@@ -1,3 +1,5 @@
+DELETE FROM `landblock_instance` WHERE `landblock` = 29952;
+
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (2001731584, 19396, 1962934657, 87.4228, -97.1613, 0.005, 0.368116, 0, 0, -0.92978, False, '2005-02-09 10:00:00'); /* Vesper Gate */
 /* @teleloc 0x75000181 [87.422800 -97.161300 0.005000] 0.368116 0.000000 0.000000 -0.929780 */

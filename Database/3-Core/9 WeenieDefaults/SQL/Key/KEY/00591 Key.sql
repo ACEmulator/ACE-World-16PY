@@ -1,3 +1,5 @@
+DELETE FROM `weenie` WHERE `class_Id` = 591;
+
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
 VALUES (591, 'prisonkey3', 22, '2005-02-09 10:00:00') /* Key */;
 

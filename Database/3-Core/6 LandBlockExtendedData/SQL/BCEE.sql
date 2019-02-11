@@ -1,3 +1,5 @@
+DELETE FROM `landblock_instance` WHERE `landblock` = 48366;
+
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (2077155328,  7426, 3169714176, 83.8505, 83.9277, 170.005, -0.692915, 0, 0, -0.721019, False, '2005-02-09 10:00:00'); /* Erupt Tenkarrdun Flare FX Gen */
 /* @teleloc 0xBCEE0000 [83.850500 83.927700 170.005000] -0.692915 0.000000 0.000000 -0.721019 */

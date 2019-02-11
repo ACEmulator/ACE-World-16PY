@@ -1,3 +1,5 @@
+DELETE FROM `landblock_instance` WHERE `landblock` = 16531;
+
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (1946759168,  2439, 1083375616, 56.7869, 180.415, 220.005, 0.945223, 0, 0, -0.326425,  True, '2005-02-09 10:00:00'); /* Tumerok Fighter */
 /* @teleloc 0x40930000 [56.786900 180.415000 220.005000] 0.945223 0.000000 0.000000 -0.326425 */

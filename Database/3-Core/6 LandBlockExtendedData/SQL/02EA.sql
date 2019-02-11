@@ -1,3 +1,5 @@
+DELETE FROM `landblock_instance` WHERE `landblock` = 746;
+
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (1882103808, 29233, 48890125, 37.801, -53.0614, -11.945, 0.180306, 0, 0, 0.983611,  True, '2005-02-09 10:00:00'); /* Ishaq's Lost Key */
 /* @teleloc 0x02EA010D [37.801000 -53.061400 -11.945000] 0.180306 0.000000 0.000000 0.983611 */

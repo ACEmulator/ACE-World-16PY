@@ -1,3 +1,5 @@
+DELETE FROM `landblock_instance` WHERE `landblock` = 8471;
+
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (1913745408,  7160, 555155456, 144.345, 125.47, 13.9763, -0.828465, 0, 0, -0.56004, False, '2005-02-09 10:00:00'); /* Sclavus Chomu Camp Generator */
 /* @teleloc 0x21170000 [144.345000 125.470000 13.976300] -0.828465 0.000000 0.000000 -0.560040 */

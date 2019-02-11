@@ -1,3 +1,5 @@
+DELETE FROM `landblock_instance` WHERE `landblock` = 32386;
+
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (2011701250, 20625, 2122448896, 81.5142, 67.0897, 154.823, 0.712005, 0, 0, -0.702175, False, '2005-02-09 10:00:00'); /* Precarious Sojourn Portal */
 /* @teleloc 0x7E820000 [81.514200 67.089700 154.823000] 0.712005 0.000000 0.000000 -0.702175 */

@@ -1,3 +1,5 @@
+DELETE FROM `weenie` WHERE `class_Id` = 23055;
+
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
 VALUES (23055, 'attributegemfocustocoordination', 63, '2005-02-09 10:00:00') /* AttributeTransferDevice */;
 

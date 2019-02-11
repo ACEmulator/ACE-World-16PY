@@ -1,3 +1,5 @@
+DELETE FROM `landblock_instance` WHERE `landblock` = 17175;
+
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (1949396992,  2564, 1125580800, 14.6456, 30.3527, -0.0894999, 0.724152, 0, 0, 0.68964,  True, '2005-02-09 10:00:00'); /* Freshwater Armoredillo */
 /* @teleloc 0x43170000 [14.645600 30.352700 -0.089500] 0.724152 0.000000 0.000000 0.689640 */

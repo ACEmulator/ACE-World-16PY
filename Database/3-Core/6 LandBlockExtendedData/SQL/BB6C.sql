@@ -1,3 +1,5 @@
+DELETE FROM `landblock_instance` WHERE `landblock` = 47980;
+
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (2075574277,  1461, 3144417280, 88.2086, 180.516, 6.0055, 0.871549, 0, 0, 0.490308,  True, '2005-02-09 10:00:00'); /* Mosswart Mucker */
 /* @teleloc 0xBB6C0000 [88.208600 180.516000 6.005500] 0.871549 0.000000 0.000000 0.490308 */

@@ -1,3 +1,5 @@
+DELETE FROM `landblock_instance` WHERE `landblock` = 57156;
+
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (2113159168,  7923, 3745775616, 27.0909, 63.8744, 20.6821, -0.794386, 0, 0, -0.607413, False, '2005-02-09 10:00:00'); /* Linkable Monster Generator ( 3 Min.) */
 /* @teleloc 0xDF440000 [27.090900 63.874400 20.682100] -0.794386 0.000000 0.000000 -0.607413 */

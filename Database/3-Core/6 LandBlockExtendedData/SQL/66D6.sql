@@ -1,3 +1,5 @@
+DELETE FROM `landblock_instance` WHERE `landblock` = 26326;
+
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (1986879488, 12547, 1725300736, 45.3692, 83.4411, 77.128, -0.71503, 0, 0, 0.699094, False, '2005-02-09 10:00:00'); /* Sonel Portal */
 /* @teleloc 0x66D60000 [45.369200 83.441100 77.128000] -0.715030 0.000000 0.000000 0.699094 */

@@ -1,3 +1,5 @@
+DELETE FROM `landblock_instance` WHERE `landblock` = 25928;
+
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (1985249280, 27286, 1699217667, 80.1052, -76.9222, -83.9975, -0.00932676, 0, 0, -0.999956,  True, '2005-02-09 10:00:00'); /* Forsaken Child */
 /* @teleloc 0x65480103 [80.105200 -76.922200 -83.997500] -0.009327 0.000000 0.000000 -0.999956 */

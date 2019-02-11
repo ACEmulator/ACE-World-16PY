@@ -1,3 +1,5 @@
+DELETE FROM `landblock_instance` WHERE `landblock` = 33901;
+
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (2017906688,   509, 2221735936, 16.3626, 117.45, 18.005, 0.742909, 0, 0, -0.669392, False, '2005-02-09 10:00:00'); /* Life Stone */
 /* @teleloc 0x846D0000 [16.362600 117.450000 18.005000] 0.742909 0.000000 0.000000 -0.669392 */

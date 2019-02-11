@@ -1,3 +1,5 @@
+DELETE FROM `landblock_instance` WHERE `landblock` = 21530;
+
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (1967235083,  1605, 1410990080, 51.0101, 126.146, 42.7602, 0.951041, 0, 0, -0.309065,  True, '2005-02-09 10:00:00'); /* Auroch Fire Yearling */
 /* @teleloc 0x541A0000 [51.010100 126.146000 42.760200] 0.951041 0.000000 0.000000 -0.309065 */

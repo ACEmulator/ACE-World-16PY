@@ -1,3 +1,5 @@
+DELETE FROM `landblock_instance` WHERE `landblock` = 33897;
+
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (2017890304,  7891, 2221473792, 55.9834, 8.95742, 26.005, 0.999797, 0, 0, 0.0201443, False, '2005-02-09 10:00:00'); /* Arena */
 /* @teleloc 0x84690000 [55.983400 8.957420 26.005000] 0.999797 0.000000 0.000000 0.020144 */

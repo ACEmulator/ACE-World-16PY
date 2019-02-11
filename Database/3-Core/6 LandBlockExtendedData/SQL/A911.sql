@@ -1,3 +1,5 @@
+DELETE FROM `landblock_instance` WHERE `landblock` = 43281;
+
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (2056327168, 24943, 2836463616, 182.549, 28.8169, 109.909, 0.978878, 0, 0, -0.204443,  True, '2005-02-09 10:00:00'); /* Gotrok Obeloth */
 /* @teleloc 0xA9110000 [182.549000 28.816900 109.909000] 0.978878 0.000000 0.000000 -0.204443 */

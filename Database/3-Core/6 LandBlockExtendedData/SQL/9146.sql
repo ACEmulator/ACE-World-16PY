@@ -1,3 +1,5 @@
+DELETE FROM `landblock_instance` WHERE `landblock` = 37190;
+
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (2031378432,  9143, 2437283840, 42.746, 14.2601, 11.506, 0.705896, 0, 0, 0.708316, False, '2005-02-09 10:00:00'); /* South Tumerok Vanguard Outpost */
 /* @teleloc 0x91460000 [42.746000 14.260100 11.506000] 0.705896 0.000000 0.000000 0.708316 */

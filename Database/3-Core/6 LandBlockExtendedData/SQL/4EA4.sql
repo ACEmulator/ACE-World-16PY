@@ -1,3 +1,5 @@
+DELETE FROM `landblock_instance` WHERE `landblock` = 20132;
+
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (1961508864,  1606, 1319370752, 108.124, 91.4291, 36.3895, -0.642533, 0, 0, 0.766258,  True, '2005-02-09 10:00:00'); /* Auroch Fire Cow */
 /* @teleloc 0x4EA40000 [108.124000 91.429100 36.389500] -0.642533 0.000000 0.000000 0.766258 */

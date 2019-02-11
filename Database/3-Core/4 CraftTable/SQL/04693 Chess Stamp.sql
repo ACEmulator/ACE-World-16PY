@@ -1,3 +1,5 @@
+DELETE FROM `recipe` WHERE `recipe_Id` = 4693;
+
 INSERT INTO `recipe` (`id`, `unknown_1`, `skill`, `difficulty`, `salvage_Type`, `success_W_C_I_D`, `success_Amount`, `success_Message`, `fail_W_C_I_D`, `fail_Amount`, `fail_Message`, `success_Destroy_Source_Chance`, `success_Destroy_Source_Amount`, `success_Destroy_Source_Message`, `success_Destroy_Target_Chance`, `success_Destroy_Target_Amount`, `success_Destroy_Target_Message`, `fail_Destroy_Source_Chance`, `fail_Destroy_Source_Amount`, `fail_Destroy_Source_Message`, `fail_Destroy_Target_Chance`, `fail_Destroy_Target_Amount`, `fail_Destroy_Target_Message`, `data_Id`, `last_Modified`)
 VALUES (4693, 0, 18 /* ItemTinkering */, 100, 0, 0, 0, 'You emboss the shield with the emblem of Chess!', 0, 0, 'Your attempt to emboss the shield fails. As you remove the stamp from its surface, the dye chips and peels off the shield.', 1, 1, NULL, 0, 0, NULL, 1, 1, NULL, 0, 0, NULL, 0, '2005-02-09 10:00:00');
 
@@ -47,6 +49,8 @@ VALUES (@parent_id,  51, 0, 3, 1) /* IconOverlaySecondary */;
 
 INSERT INTO `recipe_mods_float` (`recipe_Mod_Id`, `stat`, `value`, `enum`, `source`)
 VALUES (@parent_id,  12, 0, 3, 1) /* Shade */;
+
+DELETE FROM `cook_book` WHERE `recipe_Id` = 4693;
 
 INSERT INTO `cook_book` (`recipe_Id`, `source_W_C_I_D`, `target_W_C_I_D`, `last_Modified`)
 VALUES (4693, 22098 /* Chess Stamp */, 25843 /* Nefane Shield */, '2005-02-09 10:00:00');

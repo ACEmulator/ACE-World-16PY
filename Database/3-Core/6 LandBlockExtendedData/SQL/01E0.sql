@@ -1,3 +1,5 @@
+DELETE FROM `landblock_instance` WHERE `landblock` = 480;
+
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (1881014273,     6, 31457538, 10.2724, -9.51038, 0.0077, -0.86108, 0, 0, 0.50847,  True, '2005-02-09 10:00:00'); /* Banderling Scout */
 /* @teleloc 0x01E00102 [10.272400 -9.510380 0.007700] -0.861080 0.000000 0.000000 0.508470 */

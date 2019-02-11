@@ -1,3 +1,5 @@
+DELETE FROM `landblock_instance` WHERE `landblock` = 11026;
+
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (1924210695,  1969, 722599936, 141.282, 147.129, 18.9954, -0.241699, 0, 0, -0.970351, False, '2005-02-09 10:00:00'); /* High Direlands Desert Undead Generator */
 /* @teleloc 0x2B120000 [141.282000 147.129000 18.995400] -0.241699 0.000000 0.000000 -0.970351 */

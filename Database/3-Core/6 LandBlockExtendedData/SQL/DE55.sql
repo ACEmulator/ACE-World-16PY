@@ -1,3 +1,5 @@
+DELETE FROM `landblock_instance` WHERE `landblock` = 56917;
+
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (2112180224,  5383, 3730112512, 133, 35.5, 13.0837, -0.707107, 0, 0, -0.707107, False, '2005-02-09 10:00:00'); /* Festival Stone */
 /* @teleloc 0xDE550000 [133.000000 35.500000 13.083700] -0.707107 0.000000 0.000000 -0.707107 */

@@ -1,3 +1,5 @@
+DELETE FROM `landblock_instance` WHERE `landblock` = 24390;
+
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (1978949632, 24188, 1598423299, 10.0076, -70.1067, -9.34112, 0.731689, 0, 0, -0.681639, False, '2005-02-09 10:00:00'); /* Crushing Trap */
 /* @teleloc 0x5F460103 [10.007600 -70.106700 -9.341120] 0.731689 0.000000 0.000000 -0.681639 */

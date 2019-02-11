@@ -1,3 +1,5 @@
+DELETE FROM `landblock_instance` WHERE `landblock` = 47974;
+
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (2075549696,   961, 3144024064, 27.8679, 29.446, 6.005, 0.419746, 0, 0, -0.907642, False, '2005-02-09 10:00:00'); /* Mosswart Barker Generator */
 /* @teleloc 0xBB660000 [27.867900 29.446000 6.005000] 0.419746 0.000000 0.000000 -0.907642 */

@@ -1,3 +1,5 @@
+DELETE FROM `landblock_instance` WHERE `landblock` = 61782;
+
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (2132107264,  1350, 4048945152, 179.522, 122.129, 60.005, 0.00351537, 0, 0, 0.999994, False, '2005-02-09 10:00:00'); /* Granite Golem Generator */
 /* @teleloc 0xF1560000 [179.522000 122.129000 60.005000] 0.003515 0.000000 0.000000 0.999994 */

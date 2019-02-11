@@ -1,3 +1,5 @@
+DELETE FROM `landblock_instance` WHERE `landblock` = 37707;
+
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (2033496065,  8228, 2471165952, 130.024, 9.08462, 15.1647, 0.926734, 0, 0, -0.375719, False, '2005-02-09 10:00:00'); /* Xarabydun  */
 /* @teleloc 0x934B0000 [130.024000 9.084620 15.164700] 0.926734 0.000000 0.000000 -0.375719 */

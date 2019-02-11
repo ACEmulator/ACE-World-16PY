@@ -1,3 +1,5 @@
+DELETE FROM `landblock_instance` WHERE `landblock` = 63325;
+
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (2138427392, 12487, 4150067200, 82.833, 117.023, 38.005, -0.998072, 0, 0, 0.0620679, False, '2005-02-09 10:00:00'); /* Dryreach Beach Cottages Portal */
 /* @teleloc 0xF75D0000 [82.833000 117.023000 38.005000] -0.998072 0.000000 0.000000 0.062068 */

@@ -1,3 +1,5 @@
+DELETE FROM `landblock_instance` WHERE `landblock` = 632;
+
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (1881636864, 28486, 41419008, 2.60085, -211.074, -53.995, 0.924943, 0, 0, 0.380105, False, '2005-02-09 10:00:00'); /* Spores */
 /* @teleloc 0x02780100 [2.600850 -211.074000 -53.995000] 0.924943 0.000000 0.000000 0.380105 */

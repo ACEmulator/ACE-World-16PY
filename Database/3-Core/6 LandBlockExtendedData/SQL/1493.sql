@@ -1,3 +1,5 @@
+DELETE FROM `landblock_instance` WHERE `landblock` = 5267;
+
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (1900621824, 11192, 345178112, 107.701, 132.144, 0.005, -0.7027, 0, 0, -0.711486, False, '2005-02-09 10:00:00'); /* Far Direlands Master Gen */
 /* @teleloc 0x14930000 [107.701000 132.144000 0.005000] -0.702700 0.000000 0.000000 -0.711486 */

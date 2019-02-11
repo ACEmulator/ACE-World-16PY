@@ -1,3 +1,5 @@
+DELETE FROM `landblock_instance` WHERE `landblock` = 23786;
+
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (1976475648,  1378, 1558839296, 162.325, 169.95, -0.095, -0.851619, 0, 0, 0.524161, False, '2005-02-09 10:00:00'); /* Roaming Bowyer */
 /* @teleloc 0x5CEA0000 [162.325000 169.950000 -0.095000] -0.851619 0.000000 0.000000 0.524161 */

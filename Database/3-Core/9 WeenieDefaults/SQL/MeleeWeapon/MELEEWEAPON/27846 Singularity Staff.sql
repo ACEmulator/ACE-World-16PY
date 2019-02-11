@@ -1,3 +1,5 @@
+DELETE FROM `weenie` WHERE `class_Id` = 27846;
+
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
 VALUES (27846, 'staffsingularitynew', 6, '2005-02-09 10:00:00') /* MeleeWeapon */;
 

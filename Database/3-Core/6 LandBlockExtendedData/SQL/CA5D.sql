@@ -1,3 +1,5 @@
+DELETE FROM `landblock_instance` WHERE `landblock` = 51805;
+
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (2091241472, 12492, 3395092480, 58.096, 75.8792, 12.005, -0.403877, 0, 0, -0.914813, False, '2005-02-09 10:00:00'); /* East Sawato Settlement Portal */
 /* @teleloc 0xCA5D0000 [58.096000 75.879200 12.005000] -0.403877 0.000000 0.000000 -0.914813 */

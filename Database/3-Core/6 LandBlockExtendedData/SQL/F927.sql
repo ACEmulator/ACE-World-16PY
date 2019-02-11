@@ -1,3 +1,5 @@
+DELETE FROM `landblock_instance` WHERE `landblock` = 63783;
+
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (2140303360,  7983, 4180082688, 158.378, 61.5986, 32.8068, -0.988022, 0, 0, -0.154315,  True, '2005-02-09 10:00:00'); /* Bane Grievver */
 /* @teleloc 0xF9270000 [158.378000 61.598600 32.806800] -0.988022 0.000000 0.000000 -0.154315 */

@@ -1,3 +1,5 @@
+DELETE FROM `landblock_instance` WHERE `landblock` = 45361;
+
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (2064846850,   420, 2972778773, 108.017, 172.498, 40.005, -0.743085, 0, 0, -0.669197, False, '2005-02-09 10:00:00'); /* Item Food Generator */
 /* @teleloc 0xB1310115 [108.017000 172.498000 40.005000] -0.743085 0.000000 0.000000 -0.669197 */

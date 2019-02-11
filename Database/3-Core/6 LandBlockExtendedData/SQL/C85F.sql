@@ -1,3 +1,5 @@
+DELETE FROM `landblock_instance` WHERE `landblock` = 51295;
+
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (2089152512,   419, 3361669120, 32.2997, 91.5308, 5.105, -0.8792, 0, 0, 0.476453, False, '2005-02-09 10:00:00'); /* Item Clothing Generator */
 /* @teleloc 0xC85F0000 [32.299700 91.530800 5.105000] -0.879200 0.000000 0.000000 0.476453 */

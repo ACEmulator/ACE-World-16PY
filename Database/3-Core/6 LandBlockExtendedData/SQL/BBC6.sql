@@ -1,3 +1,5 @@
+DELETE FROM `landblock_instance` WHERE `landblock` = 48070;
+
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (2075942912, 21413, 3150315520, 30.3116, 150.955, 60.005, 0.0100927, 0, 0, 0.999949, False, '2005-02-09 10:00:00'); /* Frost Ziggurat */
 /* @teleloc 0xBBC60000 [30.311600 150.955000 60.005000] 0.010093 0.000000 0.000000 0.999949 */

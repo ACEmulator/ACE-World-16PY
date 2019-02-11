@@ -1,3 +1,5 @@
+DELETE FROM `landblock_instance` WHERE `landblock` = 23369;
+
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (1974767616, 22612, 1531511046, 89.9335, -57.8551, -59.9868, -0.755617, 0, 0, -0.655013,  True, '2005-02-09 10:00:00'); /* Plated Tusker */
 /* @teleloc 0x5B490106 [89.933500 -57.855100 -59.986800] -0.755617 0.000000 0.000000 -0.655013 */

@@ -1,3 +1,5 @@
+DELETE FROM `weenie` WHERE `class_Id` = 29893;
+
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
 VALUES (29893, 'bagsiraluununtamed1', 44, '2005-02-09 10:00:00') /* CraftTool */;
 

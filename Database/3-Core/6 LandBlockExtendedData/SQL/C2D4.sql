@@ -1,3 +1,5 @@
+DELETE FROM `landblock_instance` WHERE `landblock` = 49876;
+
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (2083340288,  2611, 3268673536, 116.029, 87.4832, 138.399, -0.998568, 0, 0, -0.0534991,  True, '2005-02-09 10:00:00'); /* Zofrit Zefir */
 /* @teleloc 0xC2D40000 [116.029000 87.483200 138.399000] -0.998568 0.000000 0.000000 -0.053499 */

@@ -1,3 +1,5 @@
+DELETE FROM `landblock_instance` WHERE `landblock` = 30681;
+
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (2004717568,  1133, 2010710016, 7.50386, 28.287, 107.442, 0.665206, 0, 0, 0.74666, False, '2005-02-09 10:00:00'); /* Item Alchemical Generator */
 /* @teleloc 0x77D90000 [7.503860 28.287000 107.442000] 0.665206 0.000000 0.000000 0.746660 */
