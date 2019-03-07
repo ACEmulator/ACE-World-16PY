@@ -20,7 +20,7 @@ CREATE DEFINER = CURRENT_USER TRIGGER `landblock_instance_BEFORE_UPDATE` BEFORE 
 BEGIN
 	IF !(NEW.guid >= 0x70000000 && NEW.guid <= 0x7FFFFFFF)
 	THEN
-		-- don't allow the insert to happen
+		-- don't allow the update to happen
 		SIGNAL SQLSTATE '45000' SET MESSAGE_TEXT = "Cannot update row: guid column value must be between 0x70000000 and 0x7FFFFFFF";
 	END IF;
 END$$
