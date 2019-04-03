@@ -170,5 +170,5 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,  17 /* LocalBroadcast */, 0, 0, NULL, 'You think you hear a little voice say "Mommy..."', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (6535, 9,     0,  0, 0, 0.99, False) /* Create nothing for ContainTreasure */
-     , (6535, 9,  6060,  0, 0, 0.01, False) /* Create Dark Speck (6060) for ContainTreasure */;
+VALUES (6535, 9,  6060,  0, 0, 0.01, False) /* Create Dark Speck (6060) for ContainTreasure */
+     , (6535, 9,     0,  0, 0, 0.99, False) /* Create nothing for ContainTreasure */;

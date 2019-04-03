@@ -182,12 +182,12 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 268435539 /* Twitch3 */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (11996, 9,     0,  0, 0, 0.99, False) /* Create nothing for ContainTreasure */
-     , (11996, 9,     0,  0, 0, 0.67, False) /* Create nothing for ContainTreasure */
-     , (11996, 9,     0,  0, 0, 0.7, False) /* Create nothing for ContainTreasure */
-     , (11996, 9,  6876,  0, 0, 0.01, False) /* Create Sturdy Iron Key (6876) for ContainTreasure */
+VALUES (11996, 9,  6876,  0, 0, 0.01, False) /* Create Sturdy Iron Key (6876) for ContainTreasure */
+     , (11996, 9,     0,  0, 0, 0.99, False) /* Create nothing for ContainTreasure */
      , (11996, 9,  7043,  0, 0, 0.33, False) /* Create Large Lugian Sinew (7043) for ContainTreasure */
-     , (11996, 9, 23540,  0, 0, 0.3, False) /* Create Soul Staff (23540) for ContainTreasure */;
+     , (11996, 9,     0,  0, 0, 0.67, False) /* Create nothing for ContainTreasure */
+     , (11996, 9, 23540,  0, 0, 0.3, False) /* Create Soul Staff (23540) for ContainTreasure */
+     , (11996, 9,     0,  0, 0, 0.7, False) /* Create nothing for ContainTreasure */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (11996, 0.25, 24940, 20, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Gotrok Gigas (24940) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Scatter */

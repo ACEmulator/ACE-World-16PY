@@ -164,26 +164,26 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 318767235 /* Nod */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (1383, 2,   117,  0, 13, 0.5, False) /* Create Breeches (117) for Wield */
-     , (1383, 2,   130,  0, 5, 0.67, False) /* Create Shirt (130) for Wield */
+VALUES (1383, 2,   130,  0, 5, 0.67, False) /* Create Shirt (130) for Wield */
+     , (1383, 2,   117,  0, 13, 0.5, False) /* Create Breeches (117) for Wield */
      , (1383, 2,   132,  0, 9, 0, False) /* Create Shoes (132) for Wield */
      , (1383, 2, 10696,  0, 18, 1, False) /* Create Apron (10696) for Wield */
      , (1383, 4,   166, -1, 13, 1, False) /* Create Sack (166) for Shop */
      , (1383, 4,   166, -1, 77, 1, False) /* Create Sack (166) for Shop */
      , (1383, 4,   166, -1, 9, 1, False) /* Create Sack (166) for Shop */
      , (1383, 4,   258, -1, 0, 0, False) /* Create Apple (258) for Shop */
+     , (1383, 4,  4755, -1, 0, 0, False) /* Create Brine (4755) for Shop */
      , (1383, 4,   260, -1, 0, 0, False) /* Create Cabbage (260) for Shop */
      , (1383, 4,   262, -1, 0, 0, False) /* Create Chicken (262) for Shop */
-     , (1383, 4,   263, -1, 0, 0, False) /* Create Fish (263) for Shop */
-     , (1383, 4,   264, -1, 0, 0, False) /* Create Grapes (264) for Shop */
      , (1383, 4,   546, -1, 0, 0, False) /* Create Egg (546) for Shop */
-     , (1383, 4,   547, -1, 0, 0, False) /* Create Brimstone-cap Mushroom (547) for Shop */
-     , (1383, 4,  2463, -1, 0, 0, False) /* Create Milk (2463) for Shop */
-     , (1383, 4,  4746, -1, 0, 0, False) /* Create Water (4746) for Shop */
-     , (1383, 4,  4753, -1, 0, 0, False) /* Create Side of Beef (4753) for Shop */
-     , (1383, 4,  4755, -1, 0, 0, False) /* Create Brine (4755) for Shop */
+     , (1383, 4,   263, -1, 0, 0, False) /* Create Fish (263) for Shop */
      , (1383, 4,  4761, -1, 0, 0, False) /* Create Flour (4761) for Shop */
+     , (1383, 4,   264, -1, 0, 0, False) /* Create Grapes (264) for Shop */
      , (1383, 4,  4763, -1, 0, 0, False) /* Create Honey (4763) for Shop */
+     , (1383, 4,  2463, -1, 0, 0, False) /* Create Milk (2463) for Shop */
+     , (1383, 4,   547, -1, 0, 0, False) /* Create Brimstone-cap Mushroom (547) for Shop */
      , (1383, 4,  4766, -1, 0, 0, False) /* Create Rennet (4766) for Shop */
+     , (1383, 4,  4753, -1, 0, 0, False) /* Create Side of Beef (4753) for Shop */
      , (1383, 4,  4768, -1, 0, 0, False) /* Create Uncooked Rice (4768) for Shop */
+     , (1383, 4,  4746, -1, 0, 0, False) /* Create Water (4746) for Shop */
      , (1383, 4,  5758, -1, 0, 0, False) /* Create Carrot (5758) for Shop */;

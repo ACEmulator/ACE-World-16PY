@@ -160,9 +160,9 @@ VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 1090519060 /* Sleeping */, NULL,
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (6775, 8,  6663,  0, 0, 1, False) /* Create The Ruby Yujazik (6663) for Treasure */
-     , (6775, 9,     0,  0, 0, 0.9, False) /* Create nothing for ContainTreasure */
-     , (6775, 9,     0,  0, 0, 0.95, False) /* Create nothing for ContainTreasure */
-     , (6775, 9,     0,  0, 0, 0.99, False) /* Create nothing for ContainTreasure */
      , (6775, 9,  3687,  0, 0, 0.1, False) /* Create Skeleton's Skull (3687) for ContainTreasure */
+     , (6775, 9,     0,  0, 0, 0.9, False) /* Create nothing for ContainTreasure */
      , (6775, 9,  9312,  0, 0, 0.05, False) /* Create A Small Mnemosyne (9312) for ContainTreasure */
-     , (6775, 9, 22100,  0, 0, 0.01, False) /* Create Skull Stamp (22100) for ContainTreasure */;
+     , (6775, 9,     0,  0, 0, 0.95, False) /* Create nothing for ContainTreasure */
+     , (6775, 9, 22100,  0, 0, 0.01, False) /* Create Skull Stamp (22100) for ContainTreasure */
+     , (6775, 9,     0,  0, 0, 0.99, False) /* Create nothing for ContainTreasure */;

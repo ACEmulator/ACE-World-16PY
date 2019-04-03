@@ -114,6 +114,6 @@ VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 1090519043 /* Ready */, NULL, NU
      , (@parent_id,  3,  10 /* Tell */, 1, 1, NULL, 'It''s starting to become a chore to keep them in line. But so far so good. Hibdin is a good man, but the things down there don''t listen to him the same.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (20914, 2,   127,  0, 9, 0, False) /* Create Pants (127) for Wield */
-     , (20914, 2,   133,  0, 4, 0.8, False) /* Create Slippers (133) for Wield */
-     , (20914, 2,   134,  0, 13, 1, False) /* Create Tunic (134) for Wield */;
+VALUES (20914, 2,   134,  0, 13, 1, False) /* Create Tunic (134) for Wield */
+     , (20914, 2,   127,  0, 9, 0, False) /* Create Pants (127) for Wield */
+     , (20914, 2,   133,  0, 4, 0.8, False) /* Create Slippers (133) for Wield */;

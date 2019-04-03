@@ -123,8 +123,8 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 318767243 /* ScratchHead */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (1, 1,    44,  0, 0, 0, False) /* Create Buckler (44) for Contain */
-     , (1, 1,   273,  5, 0, 0, False) /* Create Pyreal (273) for Contain */
-     , (1, 1,   300, 30, 0, 0, False) /* Create Arrow (300) for Contain */
+VALUES (1, 1,   273,  5, 0, 0, False) /* Create Pyreal (273) for Contain */
      , (1, 1,   329,  0, 0, 0, False) /* Create Knife (329) for Contain */
+     , (1, 1,    44,  0, 0, 0, False) /* Create Buckler (44) for Contain */
+     , (1, 1,   300, 30, 0, 0, False) /* Create Arrow (300) for Contain */
      , (1, 2,   320, 10, 0, 0, False) /* Create Javelin (320) for Wield */;

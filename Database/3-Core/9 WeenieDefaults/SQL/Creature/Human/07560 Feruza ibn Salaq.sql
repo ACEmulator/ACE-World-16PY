@@ -465,7 +465,7 @@ VALUES (@parent_id,  0,  12 /* TurnToTarget */, 0, 1, NULL, NULL, NULL, NULL, NU
      , (@parent_id,  2,   3 /* Give */, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0 /* Undef */, 7530 /* Chunk of High-Grade Chorizite */, 1, 0, 0, False, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (7560, 2,   115,  0, 4, 0.4, False) /* Create Leather Boots (115) for Wield */
-     , (7560, 2,   130,  0, 4, 0, False) /* Create Shirt (130) for Wield */
+VALUES (7560, 2,   130,  0, 4, 0, False) /* Create Shirt (130) for Wield */
+     , (7560, 2,  5894,  0, 2, 0, False) /* Create Fez (5894) for Wield */
      , (7560, 2,  2597,  0, 14, 0, False) /* Create Pants (2597) for Wield */
-     , (7560, 2,  5894,  0, 2, 0, False) /* Create Fez (5894) for Wield */;
+     , (7560, 2,   115,  0, 4, 0.4, False) /* Create Leather Boots (115) for Wield */;

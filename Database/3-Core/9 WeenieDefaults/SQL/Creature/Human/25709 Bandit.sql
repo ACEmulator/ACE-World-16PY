@@ -130,7 +130,7 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,  10 /* Tell */, 0, 1, NULL, 'We''re under Attack!', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (25709, 2,   117,  0, 8, 1, False) /* Create Breeches (117) for Wield */
-     , (25709, 2,   133,  0, 14, 0, False) /* Create Slippers (133) for Wield */
+VALUES (25709, 2, 25702,  0, 0, 0, False) /* Create Bandit Mask (25702) for Wield */
+     , (25709, 2,   117,  0, 8, 1, False) /* Create Breeches (117) for Wield */
      , (25709, 2,  2591,  0, 14, 1, False) /* Create Shirt (2591) for Wield */
-     , (25709, 2, 25702,  0, 0, 0, False) /* Create Bandit Mask (25702) for Wield */;
+     , (25709, 2,   133,  0, 14, 0, False) /* Create Slippers (133) for Wield */;

@@ -311,5 +311,5 @@ VALUES (@parent_id,  0,   3 /* Give */, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL
      , (@parent_id,  1,  18 /* DirectBroadcast */, 0, 1, NULL, 'Guard Devon says, "You are a hero to us all, %s. Your efforts shall not soon be forgotten. Yet, your efforts have not rid the Burun Kings from the world. They still draw breath on Auberean and rule over their lesser. You will be called again to fight these beasts. I am prepared to grant you a reward every three weeks. Return to me when you have defeated the beasts again and I shall grant you another boon. If you have collected the hides from these fell beasts and wish to combine them together I will craft a trophy that you may display in your home. Combine the hides together and hand me the completed item. I will offer you a title token and a reward for your home."', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (29769, 2,   118,  0, 14, 1, False) /* Create Cap (118) for Wield */
-     , (29769, 2, 10870,  0, 17, 0.7, False) /* Create Canescent Mattekar Robe (10870) for Wield */;
+VALUES (29769, 2, 10870,  0, 17, 0.7, False) /* Create Canescent Mattekar Robe (10870) for Wield */
+     , (29769, 2,   118,  0, 14, 1, False) /* Create Cap (118) for Wield */;

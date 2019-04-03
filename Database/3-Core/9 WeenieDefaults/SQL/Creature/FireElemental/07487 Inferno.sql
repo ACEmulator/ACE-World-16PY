@@ -129,5 +129,5 @@ VALUES (7487,  94) /* ATTACK_NOTIFICATION_EVENT */
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (7487, 2,  5709,  3, 0, 0, False) /* Create Ball of fire (5709) for Wield */
-     , (7487, 9,     0,  0, 0, 0.99, False) /* Create nothing for ContainTreasure */
-     , (7487, 9,  6876,  0, 0, 0.01, False) /* Create Sturdy Iron Key (6876) for ContainTreasure */;
+     , (7487, 9,  6876,  0, 0, 0.01, False) /* Create Sturdy Iron Key (6876) for ContainTreasure */
+     , (7487, 9,     0,  0, 0, 0.99, False) /* Create nothing for ContainTreasure */;

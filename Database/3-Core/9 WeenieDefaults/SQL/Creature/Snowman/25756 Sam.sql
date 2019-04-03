@@ -199,6 +199,6 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,  10 /* Tell */, 0, 1, NULL, 'Take your heat somewhere else! We don''t want you violent types in our town!', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (25756, 1,  5758,  1, 0, 0, False) /* Create Carrot (5758) for Contain */
-     , (25756, 1,  5768, 24, 0, 0, False) /* Create Poofy Snowball (5768) for Contain */
-     , (25756, 1,  5769, 12, 0, 0, False) /* Create Iceball (5769) for Contain */;
+VALUES (25756, 1,  5768, 24, 0, 0, False) /* Create Poofy Snowball (5768) for Contain */
+     , (25756, 1,  5769, 12, 0, 0, False) /* Create Iceball (5769) for Contain */
+     , (25756, 1,  5758,  1, 0, 0, False) /* Create Carrot (5758) for Contain */;

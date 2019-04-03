@@ -154,9 +154,9 @@ VALUES (25663,  94) /* ATTACK_NOTIFICATION_EVENT */
      , (25663, 414) /* PLAYER_DEATH_EVENT */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (25663, 9,     0,  0, 0, 0.98, False) /* Create nothing for ContainTreasure */
+VALUES (25663, 9,  6058,  0, 0, 0.02, False) /* Create Dark Shard (6058) for ContainTreasure */
      , (25663, 9,     0,  0, 0, 0.98, False) /* Create nothing for ContainTreasure */
-     , (25663, 9,     0,  0, 0, 0.99, False) /* Create nothing for ContainTreasure */
-     , (25663, 9,  6058,  0, 0, 0.02, False) /* Create Dark Shard (6058) for ContainTreasure */
+     , (25663, 9, 23108,  0, 0, 0.02, False) /* Create Twisted Dark Key (23108) for ContainTreasure */
+     , (25663, 9,     0,  0, 0, 0.98, False) /* Create nothing for ContainTreasure */
      , (25663, 9, 23107,  0, 0, 0.01, False) /* Create Mangled Dark Key (23107) for ContainTreasure */
-     , (25663, 9, 23108,  0, 0, 0.02, False) /* Create Twisted Dark Key (23108) for ContainTreasure */;
+     , (25663, 9,     0,  0, 0, 0.99, False) /* Create nothing for ContainTreasure */;

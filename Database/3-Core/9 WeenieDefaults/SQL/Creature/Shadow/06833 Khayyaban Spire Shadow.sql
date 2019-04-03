@@ -174,7 +174,7 @@ VALUES (@parent_id,  0,  17 /* LocalBroadcast */, 0, 0, NULL, '%s has slain the 
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (6833, 1,  6817,  0, 0, 1, False) /* Create Spire Key Chunk - Khayyaban (6817) for Contain */
-     , (6833, 9,     0,  0, 0, 0.97, False) /* Create nothing for ContainTreasure */
-     , (6833, 9,     0,  0, 0, 0.98, False) /* Create nothing for ContainTreasure */
      , (6833, 9,  6059,  0, 0, 0.03, False) /* Create Dark Sliver (6059) for ContainTreasure */
-     , (6833, 9,  6876,  0, 0, 0.02, False) /* Create Sturdy Iron Key (6876) for ContainTreasure */;
+     , (6833, 9,     0,  0, 0, 0.97, False) /* Create nothing for ContainTreasure */
+     , (6833, 9,  6876,  0, 0, 0.02, False) /* Create Sturdy Iron Key (6876) for ContainTreasure */
+     , (6833, 9,     0,  0, 0, 0.98, False) /* Create nothing for ContainTreasure */;

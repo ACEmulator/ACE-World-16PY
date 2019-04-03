@@ -302,7 +302,7 @@ VALUES (@parent_id,  0,  12 /* TurnToTarget */, 0, 1, NULL, NULL, NULL, NULL, NU
      , (@parent_id,  4,  10 /* Tell */, 2, 1, NULL, 'She''s so nice. She said that didn''t count since I wasn''t ready. And when I was leaving her office she pretended not to notice when I tripped over that table of mugs.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (26465, 2,   161,  0, 0, 0, False) /* Create Mug (161) for Wield */
-     , (26465, 2,  2588,  0, 9, 1, False) /* Create Shirt (2588) for Wield */
+VALUES (26465, 2,  2588,  0, 9, 1, False) /* Create Shirt (2588) for Wield */
      , (26465, 2,  2597,  0, 9, 1, False) /* Create Pants (2597) for Wield */
-     , (26465, 2,  5850,  0, 4, 0.5, False) /* Create Faran Robe (5850) for Wield */;
+     , (26465, 2,  5850,  0, 4, 0.5, False) /* Create Faran Robe (5850) for Wield */
+     , (26465, 2,   161,  0, 0, 0, False) /* Create Mug (161) for Wield */;

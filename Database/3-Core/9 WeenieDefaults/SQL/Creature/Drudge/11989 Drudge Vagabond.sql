@@ -210,12 +210,12 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 268435537 /* Twitch1 */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (11989, 9,     0,  0, 0, 0.1, False) /* Create nothing for ContainTreasure */
-     , (11989, 9,     0,  0, 0, 0.97, False) /* Create nothing for ContainTreasure */
-     , (11989, 9,     0,  0, 0, 0.25, False) /* Create nothing for ContainTreasure */
-     , (11989, 9,  3669,  0, 0, 0.9, False) /* Create Drudge Charm (3669) for ContainTreasure */
+VALUES (11989, 9,  3669,  0, 0, 0.9, False) /* Create Drudge Charm (3669) for ContainTreasure */
+     , (11989, 9,     0,  0, 0, 0.1, False) /* Create nothing for ContainTreasure */
      , (11989, 9,  7825,  0, 0, 0.03, False) /* Create Brown Beans (7825) for ContainTreasure */
-     , (11989, 9,  8701,  0, 0, 0.75, False) /* Create Lucky Gold Letter (8701) for ContainTreasure */;
+     , (11989, 9,     0,  0, 0, 0.97, False) /* Create nothing for ContainTreasure */
+     , (11989, 9,  8701,  0, 0, 0.75, False) /* Create Lucky Gold Letter (8701) for ContainTreasure */
+     , (11989, 9,     0,  0, 0, 0.25, False) /* Create nothing for ContainTreasure */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (11989, 0.25, 1464, 20, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Drudge Robber (1464) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Scatter */

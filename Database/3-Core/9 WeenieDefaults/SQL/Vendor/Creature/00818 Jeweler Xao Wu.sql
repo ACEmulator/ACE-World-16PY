@@ -165,15 +165,15 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 318767235 /* Nod */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (818, 2,   118,  0, 14, 0.8, False) /* Create Cap (118) for Wield */
+VALUES (818, 2,   130,  0, 9, 0.5, False) /* Create Shirt (130) for Wield */
      , (818, 2,   127,  0, 9, 0, False) /* Create Pants (127) for Wield */
-     , (818, 2,   130,  0, 9, 0.5, False) /* Create Shirt (130) for Wield */
      , (818, 2,   132,  0, 6, 0, False) /* Create Shoes (132) for Wield */
+     , (818, 2,   118,  0, 14, 0.8, False) /* Create Cap (118) for Wield */
      , (818, 2, 10696,  0, 9, 0, False) /* Create Apron (10696) for Wield */
      , (818, 4,   294, -1, 0, 0, False) /* Create Amulet (294) for Shop */
      , (818, 4,   622, -1, 0, 0, False) /* Create Necklace (622) for Shop */
-     , (818, 4,  2417, -1, 0, 0, False) /* Create Smoky Quartz (2417) for Shop */
      , (818, 4,  2418, -1, 0, 0, False) /* Create Tiger Eye (2418) for Shop */
+     , (818, 4,  2417, -1, 0, 0, False) /* Create Smoky Quartz (2417) for Shop */
      , (818, 4,  2621, -1, 0, 0, False) /* Create Trade Note (100) (2621) for Shop */
      , (818, 4,  2622, -1, 0, 0, False) /* Create Trade Note (500) (2622) for Shop */
      , (818, 4,  2623, -1, 0, 0, False) /* Create Trade Note (1,000) (2623) for Shop */;

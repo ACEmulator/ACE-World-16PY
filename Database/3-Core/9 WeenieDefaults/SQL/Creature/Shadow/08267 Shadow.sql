@@ -166,7 +166,7 @@ VALUES (8267,  94) /* ATTACK_NOTIFICATION_EVENT */
      , (8267, 414) /* PLAYER_DEATH_EVENT */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (8267, 9,     0,  0, 0, 0.98, False) /* Create nothing for ContainTreasure */
-     , (8267, 9,     0,  0, 0, 0.95, False) /* Create nothing for ContainTreasure */
-     , (8267, 9,  6059,  0, 0, 0.02, False) /* Create Dark Sliver (6059) for ContainTreasure */
-     , (8267, 9,  8020,  0, 0, 0.05, False) /* Create Fenmalain Key (8020) for ContainTreasure */;
+VALUES (8267, 9,  6059,  0, 0, 0.02, False) /* Create Dark Sliver (6059) for ContainTreasure */
+     , (8267, 9,     0,  0, 0, 0.98, False) /* Create nothing for ContainTreasure */
+     , (8267, 9,  8020,  0, 0, 0.05, False) /* Create Fenmalain Key (8020) for ContainTreasure */
+     , (8267, 9,     0,  0, 0, 0.95, False) /* Create nothing for ContainTreasure */;

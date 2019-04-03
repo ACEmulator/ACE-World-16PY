@@ -165,28 +165,28 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 318767235 /* Nod */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (11399, 2,   115,  0, 4, 0.6, False) /* Create Leather Boots (115) for Wield */
-     , (11399, 2,   119,  0, 8, 0, False) /* Create Cowl (119) for Wield */
+VALUES (11399, 2,   130,  0, 8, 0.67, False) /* Create Shirt (130) for Wield */
      , (11399, 2,   127,  0, 7, 0.33, False) /* Create Pants (127) for Wield */
-     , (11399, 2,   130,  0, 8, 0.67, False) /* Create Shirt (130) for Wield */
+     , (11399, 2,   115,  0, 4, 0.6, False) /* Create Leather Boots (115) for Wield */
+     , (11399, 2,   119,  0, 8, 0, False) /* Create Cowl (119) for Wield */
      , (11399, 2, 10696,  0, 4, 0.8, False) /* Create Apron (10696) for Wield */
+     , (11399, 4,  2599, -1, 8, 0.67, False) /* Create Trousers (2599) for Shop */
+     , (11399, 4,  2599, -1, 7, 0.33, False) /* Create Trousers (2599) for Shop */
+     , (11399, 4,  2599, -1, 4, 0.6, False) /* Create Trousers (2599) for Shop */
+     , (11399, 4,  2595, -1, 8, 0.67, False) /* Create Tunic (2595) for Shop */
+     , (11399, 4,  2595, -1, 7, 0.33, False) /* Create Tunic (2595) for Shop */
+     , (11399, 4,  2595, -1, 4, 0.6, False) /* Create Tunic (2595) for Shop */
      , (11399, 4,   119, -1, 8, 0.67, False) /* Create Cowl (119) for Shop */
      , (11399, 4,   119, -1, 7, 0.33, False) /* Create Cowl (119) for Shop */
      , (11399, 4,   119, -1, 4, 0.6, False) /* Create Cowl (119) for Shop */
      , (11399, 4,   132, -1, 8, 0.67, False) /* Create Shoes (132) for Shop */
      , (11399, 4,   132, -1, 7, 0.33, False) /* Create Shoes (132) for Shop */
      , (11399, 4,   132, -1, 4, 0.6, False) /* Create Shoes (132) for Shop */
-     , (11399, 4,  2595, -1, 8, 0.67, False) /* Create Tunic (2595) for Shop */
-     , (11399, 4,  2595, -1, 7, 0.33, False) /* Create Tunic (2595) for Shop */
-     , (11399, 4,  2595, -1, 4, 0.6, False) /* Create Tunic (2595) for Shop */
-     , (11399, 4,  2599, -1, 8, 0.67, False) /* Create Trousers (2599) for Shop */
-     , (11399, 4,  2599, -1, 7, 0.33, False) /* Create Trousers (2599) for Shop */
-     , (11399, 4,  2599, -1, 4, 0.6, False) /* Create Trousers (2599) for Shop */
      , (11399, 4,  5851, -1, 4, 0.5, False) /* Create Faran Robe with Hood (5851) for Shop */
-     , (11399, 4,  5852, -1, 0, 0, False) /* Create Dho Vest and Robe (5852) for Shop */
-     , (11399, 4,  5854, -1, 0, 0, False) /* Create Suikan Robe (5854) for Shop */
-     , (11399, 4,  5894, -1, 0, 0, False) /* Create Fez (5894) for Shop */
-     , (11399, 4,  5901, -1, 0, 0, False) /* Create Kasa (5901) for Shop */
      , (11399, 4,  8371, -1, 1, 1, False) /* Create Kireth Gown with Band (8371) for Shop */
+     , (11399, 4,  5854, -1, 0, 0, False) /* Create Suikan Robe (5854) for Shop */
+     , (11399, 4,  5901, -1, 0, 0, False) /* Create Kasa (5901) for Shop */
      , (11399, 4,  8372, -1, 18, 0.8, False) /* Create Yifan Dress (8372) for Shop */
+     , (11399, 4,  5852, -1, 0, 0, False) /* Create Dho Vest and Robe (5852) for Shop */
+     , (11399, 4,  5894, -1, 0, 0, False) /* Create Fez (5894) for Shop */
      , (11399, 4,  8373, -1, 2, 1, False) /* Create Kiyafa Robe (8373) for Shop */;

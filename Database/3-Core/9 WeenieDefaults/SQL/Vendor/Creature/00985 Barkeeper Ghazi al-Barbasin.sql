@@ -165,27 +165,27 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 318767235 /* Nod */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (985, 2,   115,  0, 4, 0.8, False) /* Create Leather Boots (115) for Wield */
+VALUES (985, 2,   134,  0, 10, 1, False) /* Create Tunic (134) for Wield */
      , (985, 2,   117,  0, 14, 0, False) /* Create Breeches (117) for Wield */
-     , (985, 2,   134,  0, 10, 1, False) /* Create Tunic (134) for Wield */
+     , (985, 2,   115,  0, 4, 0.8, False) /* Create Leather Boots (115) for Wield */
      , (985, 2,   135,  0, 9, 1, False) /* Create Turban (135) for Wield */
      , (985, 2, 10696,  0, 9, 1, False) /* Create Apron (10696) for Wield */
-     , (985, 4,   261, -1, 0, 0, False) /* Create Cheese (261) for Shop */
-     , (985, 4,  1506, -1, 0, 0, False) /* Create Legend of the Undead Defender (1506) for Shop */
-     , (985, 4,  1508, -1, 0, 0, False) /* Create Alphus Range Directions (1508) for Shop */
-     , (985, 4,  2454, -1, 0, 0, False) /* Create Coffee (2454) for Shop */
-     , (985, 4,  2463, -1, 0, 0, False) /* Create Milk (2463) for Shop */
      , (985, 4,  2464, -1, 0, 0, False) /* Create Orange Juice (2464) for Shop */
      , (985, 4,  2465, -1, 0, 0, False) /* Create Palm Wine (2465) for Shop */
      , (985, 4,  2469, -1, 0, 0, False) /* Create Small Beer (2469) for Shop */
-     , (985, 4,  4712, -1, 0, 0, False) /* Create Beef Rice (4712) for Shop */
-     , (985, 4,  4718, -1, 0, 0, False) /* Create Chicken Rice (4718) for Shop */
-     , (985, 4,  4723, -1, 0, 0, False) /* Create Fish Kebab (4723) for Shop */
+     , (985, 4,  2463, -1, 0, 0, False) /* Create Milk (2463) for Shop */
+     , (985, 4,  2454, -1, 0, 0, False) /* Create Coffee (2454) for Shop */
      , (985, 4,  8378, -1, 0, 0, False) /* Create Beer Stein (8378) for Shop */
+     , (985, 4,  4712, -1, 0, 0, False) /* Create Beef Rice (4712) for Shop */
+     , (985, 4,  4723, -1, 0, 0, False) /* Create Fish Kebab (4723) for Shop */
+     , (985, 4,  4718, -1, 0, 0, False) /* Create Chicken Rice (4718) for Shop */
+     , (985, 4,   261, -1, 0, 0, False) /* Create Cheese (261) for Shop */
+     , (985, 4,  1506, -1, 0, 0, False) /* Create Legend of the Undead Defender (1506) for Shop */
+     , (985, 4,  1508, -1, 0, 0, False) /* Create Alphus Range Directions (1508) for Shop */
      , (985, 4, 11929, -1, 0, 0, False) /* Create A Call To Arms (11929) for Shop */
      , (985, 4, 12146, -1, 0, 0, False) /* Create Simulacra Rumor (12146) for Shop */
-     , (985, 4, 13201, -1, 0, 0, False) /* Create Gharu'ndim Festival Light (13201) for Shop */
      , (985, 4, 15808, -1, 0, 0, False) /* Create Plea for Help (15808) for Shop */
      , (985, 4, 20229, -1, 0, 0, False) /* Create Rumor of an Artifact (20229) for Shop */
-     , (985, 4, 22730, -1, 0, 0, False) /* Create Holiday Pole (22730) for Shop */
-     , (985, 4, 24222, -1, 0, 0, False) /* Create Duplicated Portals (24222) for Shop */;
+     , (985, 4, 24222, -1, 0, 0, False) /* Create Duplicated Portals (24222) for Shop */
+     , (985, 4, 13201, -1, 0, 0, False) /* Create Gharu'ndim Festival Light (13201) for Shop */
+     , (985, 4, 22730, -1, 0, 0, False) /* Create Holiday Pole (22730) for Shop */;

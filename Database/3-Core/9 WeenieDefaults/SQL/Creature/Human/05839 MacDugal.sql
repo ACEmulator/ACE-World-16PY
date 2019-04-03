@@ -157,9 +157,9 @@ VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 1090519043 /* Ready */, NULL, NU
      , (@parent_id,  3,  10 /* Tell */, 1, 1, NULL, 'Arrr!  Don''t bother me!  I''ve got enough problems on me hands!  Talk to my lieutenant, Jourgensson!', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (5839, 2,    40,  0, 21, 0.3, False) /* Create Platemail Breastplate (40) for Wield */
-     , (5839, 2,    61,  0, 21, 0.4, False) /* Create Platemail Girth (61) for Wield */
-     , (5839, 2,    80,  0, 20, 0.4, False) /* Create Chainmail Leggings (80) for Wield */
+VALUES (5839, 2,    80,  0, 20, 0.4, False) /* Create Chainmail Leggings (80) for Wield */
      , (5839, 2,    85,  0, 20, 0.2, False) /* Create Chainmail Coif (85) for Wield */
+     , (5839, 2,    40,  0, 21, 0.3, False) /* Create Platemail Breastplate (40) for Wield */
+     , (5839, 2,    61,  0, 21, 0.4, False) /* Create Platemail Girth (61) for Wield */
      , (5839, 2,   104,  0, 20, 0.5, False) /* Create Scalemail Sleeves (104) for Wield */
      , (5839, 2,   115,  0, 4, 0.8, False) /* Create Leather Boots (115) for Wield */;

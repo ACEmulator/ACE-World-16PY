@@ -169,5 +169,5 @@ VALUES (2485,  94) /* ATTACK_NOTIFICATION_EVENT */
      , (2485, 414) /* PLAYER_DEATH_EVENT */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (2485, 1,  2205,  0, 0, 1, False) /* Create Augmented Tumerok's Key (2205) for Contain */
-     , (2485, 1,  3695,  0, 0, 1, False) /* Create Gold Tumerok Insignia (3695) for Contain */;
+VALUES (2485, 1,  3695,  0, 0, 1, False) /* Create Gold Tumerok Insignia (3695) for Contain */
+     , (2485, 1,  2205,  0, 0, 1, False) /* Create Augmented Tumerok's Key (2205) for Contain */;

@@ -165,10 +165,10 @@ VALUES (@parent_id,  0,  16 /* WorldBroadcast */, 0, 1, NULL, 'The wind brings t
      , (@parent_id,  1,  17 /* LocalBroadcast */, 0, 0, NULL, 'Black Ferah laughs as she falls.  "I have merely bought some time for Ler Rhan to regroup, my sweet %s. How much longer can you humans continue? Our forces are infinite, and you fools still know not our true objective!"', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (6559, 9,     0,  0, 0, 0.98, False) /* Create nothing for ContainTreasure */
-     , (6559, 9,     0,  0, 0, 0.99, False) /* Create nothing for ContainTreasure */
+VALUES (6559, 9,  6876,  0, 0, 0.02, False) /* Create Sturdy Iron Key (6876) for ContainTreasure */
+     , (6559, 9,     0,  0, 0, 0.98, False) /* Create nothing for ContainTreasure */
      , (6559, 9,  6058,  0, 0, 0.01, False) /* Create Dark Shard (6058) for ContainTreasure */
-     , (6559, 9,  6876,  0, 0, 0.02, False) /* Create Sturdy Iron Key (6876) for ContainTreasure */;
+     , (6559, 9,     0,  0, 0, 0.99, False) /* Create nothing for ContainTreasure */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (6559, 1, 1757, 20, 1, 2, 1, 4, -1, 0, 0, 0, 0.2, 0.2, 0, 0.1736482, 0, 0, -0.9848077) /* Generate Shadow Lieutenant (1757) (x1 up to max of 2) - Regenerate upon Destruction - Location to (re)Generate: Specific */;

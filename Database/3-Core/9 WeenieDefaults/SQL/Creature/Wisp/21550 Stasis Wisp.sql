@@ -118,5 +118,5 @@ VALUES (21550,  94) /* ATTACK_NOTIFICATION_EVENT */
      , (21550, 414) /* PLAYER_DEATH_EVENT */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (21550, 9,     0,  0, 0, 0.95, False) /* Create nothing for ContainTreasure */
-     , (21550, 9, 30910,  0, 0, 0.05, False) /* Create Halaetan Magic Page 5 (30910) for ContainTreasure */;
+VALUES (21550, 9, 30910,  0, 0, 0.05, False) /* Create Halaetan Magic Page 5 (30910) for ContainTreasure */
+     , (21550, 9,     0,  0, 0, 0.95, False) /* Create nothing for ContainTreasure */;

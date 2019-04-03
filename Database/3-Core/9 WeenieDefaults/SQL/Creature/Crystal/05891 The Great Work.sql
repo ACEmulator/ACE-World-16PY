@@ -131,5 +131,5 @@ VALUES (5891,  94) /* ATTACK_NOTIFICATION_EVENT */
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (5891, 1,  5904,  1, 0, 0, False) /* Create Crystal Device (5904) for Contain */
-     , (5891, 9,     0,  0, 0, 0.98, False) /* Create nothing for ContainTreasure */
-     , (5891, 9,  6876,  0, 0, 0.02, False) /* Create Sturdy Iron Key (6876) for ContainTreasure */;
+     , (5891, 9,  6876,  0, 0, 0.02, False) /* Create Sturdy Iron Key (6876) for ContainTreasure */
+     , (5891, 9,     0,  0, 0, 0.98, False) /* Create nothing for ContainTreasure */;

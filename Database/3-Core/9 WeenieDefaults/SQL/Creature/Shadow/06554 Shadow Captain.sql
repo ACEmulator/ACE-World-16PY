@@ -160,7 +160,7 @@ VALUES (@parent_id,  0,  16 /* WorldBroadcast */, 0, 1, NULL, 'The darkness has 
      , (@parent_id,  1,  17 /* LocalBroadcast */, 0, 0, NULL, 'The dying Shadow Captain cackles, the hateful sound echoing from the walls of Fort Tethana.  "You may have sent me to my doom, %s, but the Generals are here, and they shall see your people weeping in despair!"', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (6554, 9,     0,  0, 0, 0.99, False) /* Create nothing for ContainTreasure */
-     , (6554, 9,     0,  0, 0, 0.98, False) /* Create nothing for ContainTreasure */
-     , (6554, 9,  6058,  0, 0, 0.01, False) /* Create Dark Shard (6058) for ContainTreasure */
-     , (6554, 9,  6876,  0, 0, 0.02, False) /* Create Sturdy Iron Key (6876) for ContainTreasure */;
+VALUES (6554, 9,  6058,  0, 0, 0.01, False) /* Create Dark Shard (6058) for ContainTreasure */
+     , (6554, 9,     0,  0, 0, 0.99, False) /* Create nothing for ContainTreasure */
+     , (6554, 9,  6876,  0, 0, 0.02, False) /* Create Sturdy Iron Key (6876) for ContainTreasure */
+     , (6554, 9,     0,  0, 0, 0.98, False) /* Create nothing for ContainTreasure */;

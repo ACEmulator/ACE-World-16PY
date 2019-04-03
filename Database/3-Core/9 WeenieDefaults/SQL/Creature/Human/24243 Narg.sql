@@ -256,8 +256,8 @@ VALUES (@parent_id,  0,  10 /* Tell */, 1, 1, NULL, 'Nice quarterstaff. Bop a bu
      , (@parent_id,  1,  22 /* StampQuest */, 0, 1, NULL, 'GaveWoodToNarg', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (24243, 2,    45,  0, 13, 1, False) /* Create Leather Cap (45) for Wield */
-     , (24243, 2, 24239,  0, 0, 0, False) /* Create Acid Olthoi Axe (24239) for Wield */
+VALUES (24243, 2, 24239,  0, 0, 0, False) /* Create Acid Olthoi Axe (24239) for Wield */
+     , (24243, 2, 24268,  0, 0, 0, False) /* Create Olthoi Fighter Sleeves (24268) for Wield */
      , (24243, 2, 24264,  0, 0, 0, False) /* Create Olthoi Fighter Shirt (Female) (24264) for Wield */
      , (24243, 2, 24267,  0, 0, 0, False) /* Create Olthoi Fighter Shorts (Male) (24267) for Wield */
-     , (24243, 2, 24268,  0, 0, 0, False) /* Create Olthoi Fighter Sleeves (24268) for Wield */;
+     , (24243, 2,    45,  0, 13, 1, False) /* Create Leather Cap (45) for Wield */;

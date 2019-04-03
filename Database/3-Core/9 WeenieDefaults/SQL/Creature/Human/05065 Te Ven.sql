@@ -158,6 +158,6 @@ VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 1090519043 /* Ready */, NULL, NU
      , (@parent_id,  6,   3 /* Give */, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0 /* Undef */, 5058 /* Te Ven's Key */, 1, 0, 0, False, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (5065, 2,   127,  0, 9, 0, False) /* Create Pants (127) for Wield */
-     , (5065, 2,   134,  0, 17, 1, False) /* Create Tunic (134) for Wield */
+VALUES (5065, 2,   134,  0, 17, 1, False) /* Create Tunic (134) for Wield */
+     , (5065, 2,   127,  0, 9, 0, False) /* Create Pants (127) for Wield */
      , (5065, 2,  2606,  0, 4, 0.8, False) /* Create Boots (2606) for Wield */;

@@ -193,6 +193,6 @@ VALUES (@parent_id,  0,  12 /* TurnToTarget */, 0, 1, NULL, NULL, NULL, NULL, NU
      , (@parent_id,  2,   3 /* Give */, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0 /* Undef */, 3669 /* Drudge Charm */, 1, 0, 0, False, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (5154, 2,   133,  0, 9, 0, False) /* Create Slippers (133) for Wield */
-     , (5154, 2,  2587,  0, 4, 0.6, False) /* Create Shirt (2587) for Wield */
-     , (5154, 2,  2601,  0, 9, 0, False) /* Create Pants (2601) for Wield */;
+VALUES (5154, 2,  2587,  0, 4, 0.6, False) /* Create Shirt (2587) for Wield */
+     , (5154, 2,  2601,  0, 9, 0, False) /* Create Pants (2601) for Wield */
+     , (5154, 2,   133,  0, 9, 0, False) /* Create Slippers (133) for Wield */;

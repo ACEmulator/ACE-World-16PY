@@ -195,11 +195,11 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,  17 /* LocalBroadcast */, 0, 0, NULL, 'The only sound from the triumphant Executor is the snapping of its cloak in the wind... It floats away from %s''s corpse, seemingly unmoved.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (10954, 9,     0,  0, 0, 0.95, False) /* Create nothing for ContainTreasure */
-     , (10954, 9,     0,  0, 0, 0.98, False) /* Create nothing for ContainTreasure */
-     , (10954, 9,     0,  0, 0, 0.96, False) /* Create nothing for ContainTreasure */
-     , (10954, 9,     0,  0, 0, 0.96, False) /* Create nothing for ContainTreasure */
+VALUES (10954, 9,  7604,  0, 0, 0.05, False) /* Create Yellow Jewel (7604) for ContainTreasure */
+     , (10954, 9,     0,  0, 0, 0.95, False) /* Create nothing for ContainTreasure */
      , (10954, 9,  6876,  0, 0, 0.02, False) /* Create Sturdy Iron Key (6876) for ContainTreasure */
-     , (10954, 9,  7604,  0, 0, 0.05, False) /* Create Yellow Jewel (7604) for ContainTreasure */
+     , (10954, 9,     0,  0, 0, 0.98, False) /* Create nothing for ContainTreasure */
      , (10954, 9,  9292,  0, 0, 0.04, False) /* Create Virindi Singularity Key (9292) for ContainTreasure */
-     , (10954, 9, 20863,  0, 0, 0.04, False) /* Create Virindi Stamp (20863) for ContainTreasure */;
+     , (10954, 9,     0,  0, 0, 0.96, False) /* Create nothing for ContainTreasure */
+     , (10954, 9, 20863,  0, 0, 0.04, False) /* Create Virindi Stamp (20863) for ContainTreasure */
+     , (10954, 9,     0,  0, 0, 0.96, False) /* Create nothing for ContainTreasure */;

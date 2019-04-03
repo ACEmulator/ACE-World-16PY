@@ -434,5 +434,5 @@ VALUES (@parent_id,  0,   2 /* AwardXP */, 0, 1, NULL, NULL, NULL, NULL, NULL, N
      , (@parent_id,  5,  10 /* Tell */, 1, 1, NULL, 'He is the Explorer Society Agent in Shoushi; you can recognize him by his green robes. You will find him in the bar, which will be some fifty paces to the east when you exit the portal.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (12735, 2,   118,  0, 14, 0.7, False) /* Create Cap (118) for Wield */
-     , (12735, 2, 10870,  0, 17, 0.7, False) /* Create Canescent Mattekar Robe (10870) for Wield */;
+VALUES (12735, 2, 10870,  0, 17, 0.7, False) /* Create Canescent Mattekar Robe (10870) for Wield */
+     , (12735, 2,   118,  0, 14, 0.7, False) /* Create Cap (118) for Wield */;

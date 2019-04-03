@@ -136,5 +136,5 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 268435538 /* Twitch2 */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (178, 9,     0,  0, 0, 0.95, False) /* Create nothing for ContainTreasure */
-     , (178, 9,  4232,  0, 0, 0.05, False) /* Create Small Armoredillo Hide (4232) for ContainTreasure */;
+VALUES (178, 9,  4232,  0, 0, 0.05, False) /* Create Small Armoredillo Hide (4232) for ContainTreasure */
+     , (178, 9,     0,  0, 0, 0.95, False) /* Create nothing for ContainTreasure */;

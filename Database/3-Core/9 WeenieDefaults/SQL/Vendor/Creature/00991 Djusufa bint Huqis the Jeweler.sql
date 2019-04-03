@@ -184,15 +184,15 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,  10 /* Tell */, 0, 1, NULL, 'Welcome! What''s your pleasure today?', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (991, 2,   115,  0, 14, 0, False) /* Create Leather Boots (115) for Wield */
+VALUES (991, 2,   134,  0, 10, 1, False) /* Create Tunic (134) for Wield */
      , (991, 2,   127,  0, 10, 1, False) /* Create Pants (127) for Wield */
-     , (991, 2,   134,  0, 10, 1, False) /* Create Tunic (134) for Wield */
+     , (991, 2,   115,  0, 14, 0, False) /* Create Leather Boots (115) for Wield */
      , (991, 2,   135,  0, 14, 0, False) /* Create Turban (135) for Wield */
      , (991, 2, 10696,  0, 9, 0.5, False) /* Create Apron (10696) for Wield */
      , (991, 4,   294, -1, 0, 0, False) /* Create Amulet (294) for Shop */
      , (991, 4,   622, -1, 0, 0, False) /* Create Necklace (622) for Shop */
-     , (991, 4,  2399, -1, 0, 0, False) /* Create White Jade (2399) for Shop */
      , (991, 4,  2432, -1, 0, 0, False) /* Create Onyx (2432) for Shop */
+     , (991, 4,  2399, -1, 0, 0, False) /* Create White Jade (2399) for Shop */
      , (991, 4,  2621, -1, 0, 0, False) /* Create Trade Note (100) (2621) for Shop */
      , (991, 4,  2622, -1, 0, 0, False) /* Create Trade Note (500) (2622) for Shop */
      , (991, 4,  2623, -1, 0, 0, False) /* Create Trade Note (1,000) (2623) for Shop */

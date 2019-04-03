@@ -176,13 +176,13 @@ VALUES (1385, 2,   124,  0, 16, 1, False) /* Create Jerkin (124) for Wield */
      , (1385, 2,   126,  0, 4, 0.8, False) /* Create Leggings (126) for Wield */
      , (1385, 2,   129,  0, 9, 1, False) /* Create Sandals (129) for Wield */
      , (1385, 2, 10696,  0, 9, 1, False) /* Create Apron (10696) for Wield */
-     , (1385, 4,   377, -1, 0, 0, False) /* Create Potion of Healing (377) for Shop */
-     , (1385, 4,   379, -1, 0, 0, False) /* Create Mana Potion (379) for Shop */
      , (1385, 4,   630, -1, 0, 0, False) /* Create Gifted Healing Kit (630) for Shop */
      , (1385, 4,   631, -1, 0, 0, False) /* Create Excellent Healing Kit (631) for Shop */
+     , (1385, 4,   377, -1, 0, 0, False) /* Create Potion of Healing (377) for Shop */
+     , (1385, 4,   379, -1, 0, 0, False) /* Create Mana Potion (379) for Shop */
      , (1385, 4,  2470, -1, 0, 0, False) /* Create Stamina Elixir (2470) for Shop */
-     , (1385, 4,  2621, -1, 0, 0, False) /* Create Trade Note (100) (2621) for Shop */
-     , (1385, 4,  2622, -1, 0, 0, False) /* Create Trade Note (500) (2622) for Shop */
      , (1385, 4,  4587, -1, 0, 0, False) /* Create Heal Other II (4587) for Shop */
+     , (1385, 4,  4596, -1, 0, 0, False) /* Create Regeneration Other II (4596) for Shop */
      , (1385, 4,  4593, -1, 0, 0, False) /* Create Mana Boost Other II (4593) for Shop */
-     , (1385, 4,  4596, -1, 0, 0, False) /* Create Regeneration Other II (4596) for Shop */;
+     , (1385, 4,  2621, -1, 0, 0, False) /* Create Trade Note (100) (2621) for Shop */
+     , (1385, 4,  2622, -1, 0, 0, False) /* Create Trade Note (500) (2622) for Shop */;

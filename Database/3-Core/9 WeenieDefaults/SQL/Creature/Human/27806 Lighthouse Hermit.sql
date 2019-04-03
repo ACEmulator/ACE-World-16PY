@@ -367,7 +367,7 @@ VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 1090519043 /* Ready */, NULL, NU
      , (@parent_id, 13,   5 /* Motion */, 1, 1, 1090519043 /* Ready */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (27806, 2,    57,  1, 13, 0.66, False) /* Create Platemail Gauntlets (57) for Wield */
-     , (27806, 2,   312,  1, 82, 0, False) /* Create Light Crossbow (312) for Wield */
+VALUES (27806, 2,  5893,  1, 0, 0, False) /* Create Hoary Mattekar Robe (5893) for Wield */
      , (27806, 2,  3715,  1, 0, 0, False) /* Create Olthoi Helm (3715) for Wield */
-     , (27806, 2,  5893,  1, 0, 0, False) /* Create Hoary Mattekar Robe (5893) for Wield */;
+     , (27806, 2,    57,  1, 13, 0.66, False) /* Create Platemail Gauntlets (57) for Wield */
+     , (27806, 2,   312,  1, 82, 0, False) /* Create Light Crossbow (312) for Wield */;

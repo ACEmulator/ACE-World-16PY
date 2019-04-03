@@ -151,11 +151,11 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   8 /* Say */, 0, 0, NULL, 'Flee from this fate and into the arms of my awaiting minions...', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (5921, 9,     0,  0, 0, 0, False) /* Create nothing for ContainTreasure */
+VALUES (5921, 9,  5936,  0, 0, 1, False) /* Create Broken Staff (5936) for ContainTreasure */
      , (5921, 9,     0,  0, 0, 0, False) /* Create nothing for ContainTreasure */
      , (5921, 9,  3751,  0, 0, 0.2, False) /* Create Lightning Battle Axe (3751) for ContainTreasure */
-     , (5921, 9,  3791,  0, 0, 0.2, False) /* Create Lightning Djarid (3791) for ContainTreasure */
-     , (5921, 9,  3839,  0, 0, 0.2, False) /* Create Lightning Nabut (3839) for ContainTreasure */
      , (5921, 9,  3850,  0, 0, 0.2, False) /* Create Lightning Scimitar (3850) for ContainTreasure */
+     , (5921, 9,  3791,  0, 0, 0.2, False) /* Create Lightning Djarid (3791) for ContainTreasure */
      , (5921, 9,  3914,  0, 0, 0.2, False) /* Create Lightning Yari (3914) for ContainTreasure */
-     , (5921, 9,  5936,  0, 0, 1, False) /* Create Broken Staff (5936) for ContainTreasure */;
+     , (5921, 9,  3839,  0, 0, 0.2, False) /* Create Lightning Nabut (3839) for ContainTreasure */
+     , (5921, 9,     0,  0, 0, 0, False) /* Create nothing for ContainTreasure */;

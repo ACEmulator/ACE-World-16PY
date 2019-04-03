@@ -159,13 +159,13 @@ VALUES (24319,  94) /* ATTACK_NOTIFICATION_EVENT */
      , (24319, 414) /* PLAYER_DEATH_EVENT */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (24319, 9,     0,  0, 0, 0.98, False) /* Create nothing for ContainTreasure */
+VALUES (24319, 9,  6876,  0, 0, 0.02, False) /* Create Sturdy Iron Key (6876) for ContainTreasure */
+     , (24319, 9,     0,  0, 0, 0.98, False) /* Create nothing for ContainTreasure */
+     , (24319, 9, 24854,  0, 0, 0.03, False) /* Create Skull of a Dark Master (24854) for ContainTreasure */
      , (24319, 9,     0,  0, 0, 0.97, False) /* Create nothing for ContainTreasure */
-     , (24319, 9,     0,  0, 0, 0.93, False) /* Create nothing for ContainTreasure */
-     , (24319, 9,     0,  0, 0, 0.97, False) /* Create nothing for ContainTreasure */
-     , (24319, 9,     0,  0, 0, 0.95, False) /* Create nothing for ContainTreasure */
-     , (24319, 9,  5873,  0, 0, 0.03, False) /* Create Seal (5873) for ContainTreasure */
-     , (24319, 9,  6876,  0, 0, 0.02, False) /* Create Sturdy Iron Key (6876) for ContainTreasure */
      , (24319, 9,  9310,  0, 0, 0.07, False) /* Create A Large Mnemosyne (9310) for ContainTreasure */
+     , (24319, 9,     0,  0, 0, 0.93, False) /* Create nothing for ContainTreasure */
+     , (24319, 9,  5873,  0, 0, 0.03, False) /* Create Seal (5873) for ContainTreasure */
+     , (24319, 9,     0,  0, 0, 0.97, False) /* Create nothing for ContainTreasure */
      , (24319, 9, 12225,  0, 0, 0.05, False) /* Create Zombie Head (12225) for ContainTreasure */
-     , (24319, 9, 24854,  0, 0, 0.03, False) /* Create Skull of a Dark Master (24854) for ContainTreasure */;
+     , (24319, 9,     0,  0, 0, 0.95, False) /* Create nothing for ContainTreasure */;

@@ -120,7 +120,7 @@ VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 1090519043 /* Ready */, NULL, NU
      , (@parent_id,  2,  10 /* Tell */, 1, 1, NULL, 'Words... are... meaningless...', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (9222, 2,   117,  0, 14, 0.3, False) /* Create Breeches (117) for Wield */
-     , (9222, 2,   124,  0, 13, 0.6, False) /* Create Jerkin (124) for Wield */
+VALUES (9222, 2,   124,  0, 13, 0.6, False) /* Create Jerkin (124) for Wield */
+     , (9222, 2,   117,  0, 14, 0.3, False) /* Create Breeches (117) for Wield */
      , (9222, 2,   133,  0, 4, 0.67, False) /* Create Slippers (133) for Wield */
      , (9222, 2,  5894,  0, 4, 0.8, False) /* Create Fez (5894) for Wield */;

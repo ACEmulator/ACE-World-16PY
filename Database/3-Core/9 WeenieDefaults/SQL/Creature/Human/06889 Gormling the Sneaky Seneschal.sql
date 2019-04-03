@@ -173,7 +173,7 @@ VALUES (@parent_id,  0,  12 /* TurnToTarget */, 0, 1, NULL, NULL, NULL, NULL, NU
      , (@parent_id,  2,   3 /* Give */, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0 /* Undef */, 5831 /* Nelvaine's Olde Ispar Stout */, 1, 0, 0, False, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (6889, 2,   115,  0, 9, 0, False) /* Create Leather Boots (115) for Wield */
-     , (6889, 2,   118,  0, 9, 0, False) /* Create Cap (118) for Wield */
+VALUES (6889, 2,   118,  0, 9, 0, False) /* Create Cap (118) for Wield */
      , (6889, 2,  2588,  0, 9, 0, False) /* Create Shirt (2588) for Wield */
-     , (6889, 2,  2597,  0, 9, 0, False) /* Create Pants (2597) for Wield */;
+     , (6889, 2,  2597,  0, 9, 0, False) /* Create Pants (2597) for Wield */
+     , (6889, 2,   115,  0, 9, 0, False) /* Create Leather Boots (115) for Wield */;

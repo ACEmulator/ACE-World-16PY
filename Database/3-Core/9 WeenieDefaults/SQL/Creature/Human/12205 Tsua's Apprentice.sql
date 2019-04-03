@@ -356,7 +356,7 @@ VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 1090519043 /* Ready */, NULL, NU
      , (@parent_id,  2,  10 /* Tell */, 0, 1, NULL, 'Making masks is a valuable trade... once a year.  So, to both learn and provide a service to my fellow Isparians, I have taken up the craft of Gem-smithing. If you have a pair of Sunstone Gauntlets, I will take the gauntlets and facet them to bring out the color of the sun in them.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (12205, 2,   130,  0, 10, 0.8, False) /* Create Shirt (130) for Wield */
-     , (12205, 2,   133,  0, 14, 1, False) /* Create Slippers (133) for Wield */
+VALUES (12205, 2,  5894,  0, 14, 1, False) /* Create Fez (5894) for Wield */
+     , (12205, 2,   130,  0, 10, 0.8, False) /* Create Shirt (130) for Wield */
      , (12205, 2,  2604,  0, 9, 0.4, False) /* Create Breeches (2604) for Wield */
-     , (12205, 2,  5894,  0, 14, 1, False) /* Create Fez (5894) for Wield */;
+     , (12205, 2,   133,  0, 14, 1, False) /* Create Slippers (133) for Wield */;

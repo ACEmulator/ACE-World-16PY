@@ -119,9 +119,9 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 268435537 /* Twitch1 */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (12046, 9,     0,  0, 0, 0, False) /* Create nothing for ContainTreasure */
-     , (12046, 9,     0,  0, 0, 0, False) /* Create nothing for ContainTreasure */
+VALUES (12046, 9, 12049,  0, 0, 1, False) /* Create Rotted Golem Tooth (12049) for ContainTreasure */
      , (12046, 9,     0,  0, 0, 0, False) /* Create nothing for ContainTreasure */
      , (12046, 9,  6353,  1, 0, 1, False) /* Create Pyreal Mote (6353) for ContainTreasure */
-     , (12046, 9, 12049,  0, 0, 1, False) /* Create Rotted Golem Tooth (12049) for ContainTreasure */
-     , (12046, 9, 13222,  5, 0, 1, False) /* Create Peppermint Stick (13222) for ContainTreasure */;
+     , (12046, 9,     0,  0, 0, 0, False) /* Create nothing for ContainTreasure */
+     , (12046, 9, 13222,  5, 0, 1, False) /* Create Peppermint Stick (13222) for ContainTreasure */
+     , (12046, 9,     0,  0, 0, 0, False) /* Create nothing for ContainTreasure */;

@@ -173,17 +173,17 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 318767235 /* Nod */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (8231, 2,   115,  0, 18, 1, False) /* Create Leather Boots (115) for Wield */
+VALUES (8231, 2,   134,  0, 16, 1, False) /* Create Tunic (134) for Wield */
      , (8231, 2,   127,  0, 16, 1, False) /* Create Pants (127) for Wield */
-     , (8231, 2,   134,  0, 16, 1, False) /* Create Tunic (134) for Wield */
+     , (8231, 2,   115,  0, 18, 1, False) /* Create Leather Boots (115) for Wield */
      , (8231, 2, 10696,  0, 9, 0.5, False) /* Create Apron (10696) for Wield */
      , (8231, 4,   294, -1, 0, 0, False) /* Create Amulet (294) for Shop */
      , (8231, 4,   295, -1, 0, 0, False) /* Create Bracelet (295) for Shop */
+     , (8231, 4,  2413, -1, 0, 0, False) /* Create Agate (2413) for Shop */
+     , (8231, 4,  2431, -1, 0, 0, False) /* Create Moonstone (2431) for Shop */
+     , (8231, 4,  2414, -1, 0, 0, False) /* Create Azurite (2414) for Shop */
      , (8231, 4,   513, -1, 0, 0, False) /* Create Plain Lockpick (513) for Shop */
      , (8231, 4,   545, -1, 0, 0, False) /* Create Reliable Lockpick (545) for Shop */
-     , (8231, 4,  2413, -1, 0, 0, False) /* Create Agate (2413) for Shop */
-     , (8231, 4,  2414, -1, 0, 0, False) /* Create Azurite (2414) for Shop */
-     , (8231, 4,  2431, -1, 0, 0, False) /* Create Moonstone (2431) for Shop */
      , (8231, 4,  2621, -1, 0, 0, False) /* Create Trade Note (100) (2621) for Shop */
      , (8231, 4,  2622, -1, 0, 0, False) /* Create Trade Note (500) (2622) for Shop */
      , (8231, 4,  2623, -1, 0, 0, False) /* Create Trade Note (1,000) (2623) for Shop */

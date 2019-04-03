@@ -540,7 +540,7 @@ VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 1090519043 /* Ready */, NULL, NU
      , (@parent_id,  4,  10 /* Tell */, 1, 1, NULL, 'I have also been in touch with Leopold, in Ayan Baqur, and he has given me some repaired Virindi masks to trade for broken ones.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (8266, 2,   128,  0, 9, 1, False) /* Create Qafiya (128) for Wield */
+VALUES (8266, 2,  2587,  0, 13, 0.5, False) /* Create Shirt (2587) for Wield */
+     , (8266, 2,  2601,  0, 9, 1, False) /* Create Pants (2601) for Wield */
      , (8266, 2,   133,  0, 4, 0.68, False) /* Create Slippers (133) for Wield */
-     , (8266, 2,  2587,  0, 13, 0.5, False) /* Create Shirt (2587) for Wield */
-     , (8266, 2,  2601,  0, 9, 1, False) /* Create Pants (2601) for Wield */;
+     , (8266, 2,   128,  0, 9, 1, False) /* Create Qafiya (128) for Wield */;

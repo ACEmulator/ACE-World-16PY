@@ -186,5 +186,5 @@ VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 268435537 /* Twitch1 */, NULL, N
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (2491, 1,  8985,  0, 0, 1, False) /* Create Overlord's Key (8985) for Contain */
      , (2491, 8, 23522,  0, 0, 1, False) /* Create Overlord's Sword (23522) for Treasure */
-     , (2491, 10,    91,  0, 0, 1, False) /* Create Kite Shield (91) for WieldTreasure */
-     , (2491, 10,  4912,  0, 0, 1, False) /* Create Overlord's Sword (4912) for WieldTreasure */;
+     , (2491, 10,  4912,  0, 0, 1, False) /* Create Overlord's Sword (4912) for WieldTreasure */
+     , (2491, 10,    91,  0, 0, 1, False) /* Create Kite Shield (91) for WieldTreasure */;

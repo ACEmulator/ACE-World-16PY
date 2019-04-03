@@ -165,23 +165,23 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 318767235 /* Nod */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (865, 2,   117,  0, 14, 0.8, False) /* Create Breeches (117) for Wield */
+VALUES (865, 2,   134,  0, 17, 1, False) /* Create Tunic (134) for Wield */
+     , (865, 2,   117,  0, 14, 0.8, False) /* Create Breeches (117) for Wield */
      , (865, 2,   132,  0, 14, 0, False) /* Create Shoes (132) for Wield */
-     , (865, 2,   134,  0, 17, 1, False) /* Create Tunic (134) for Wield */
      , (865, 2, 10696,  0, 9, 1, False) /* Create Apron (10696) for Wield */
      , (865, 4,   263, -1, 0, 0, False) /* Create Fish (263) for Shop */
-     , (865, 4,   512, -1, 0, 0, False) /* Create Good Lockpick (512) for Shop */
-     , (865, 4,   513, -1, 0, 0, False) /* Create Plain Lockpick (513) for Shop */
-     , (865, 4,   545, -1, 0, 0, False) /* Create Reliable Lockpick (545) for Shop */
+     , (865, 4,  2463, -1, 0, 0, False) /* Create Milk (2463) for Shop */
      , (865, 4,   546, -1, 0, 0, False) /* Create Egg (546) for Shop */
      , (865, 4,   547, -1, 0, 0, False) /* Create Brimstone-cap Mushroom (547) for Shop */
-     , (865, 4,  2463, -1, 0, 0, False) /* Create Milk (2463) for Shop */
      , (865, 4,  4746, -1, 0, 0, False) /* Create Water (4746) for Shop */
      , (865, 4,  4755, -1, 0, 0, False) /* Create Brine (4755) for Shop */
-     , (865, 4,  4759, -1, 0, 0, False) /* Create Cooking Pot (4759) for Shop */
-     , (865, 4,  4764, -1, 0, 0, False) /* Create Noodle Cutter (4764) for Shop */
      , (865, 4,  4768, -1, 0, 0, False) /* Create Uncooked Rice (4768) for Shop */
      , (865, 4,  5758, -1, 0, 0, False) /* Create Carrot (5758) for Shop */
-     , (865, 4,  7823, -1, 0, 0, False) /* Create Heavy Grinder (7823) for Shop */
+     , (865, 4, 23327, -1, 0, 0, False) /* Create Simple Dried Rations (23327) for Shop */
      , (865, 4, 23326, -1, 0, 0, False) /* Create Elaborate Dried Rations (23326) for Shop */
-     , (865, 4, 23327, -1, 0, 0, False) /* Create Simple Dried Rations (23327) for Shop */;
+     , (865, 4,  4759, -1, 0, 0, False) /* Create Cooking Pot (4759) for Shop */
+     , (865, 4,  4764, -1, 0, 0, False) /* Create Noodle Cutter (4764) for Shop */
+     , (865, 4,  7823, -1, 0, 0, False) /* Create Heavy Grinder (7823) for Shop */
+     , (865, 4,   513, -1, 0, 0, False) /* Create Plain Lockpick (513) for Shop */
+     , (865, 4,   545, -1, 0, 0, False) /* Create Reliable Lockpick (545) for Shop */
+     , (865, 4,   512, -1, 0, 0, False) /* Create Good Lockpick (512) for Shop */;

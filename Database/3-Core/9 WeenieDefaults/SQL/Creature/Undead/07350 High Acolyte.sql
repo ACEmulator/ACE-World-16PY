@@ -203,12 +203,12 @@ VALUES (@parent_id,  0,  17 /* LocalBroadcast */, 0, 0, NULL, 'Magic swirls arou
      , (@parent_id,  1,  19 /* CastSpellInstant */, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 157 /* Summon Primary Portal I */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (7350, 9,     0,  0, 0, 0.98, False) /* Create nothing for ContainTreasure */
-     , (7350, 9,     0,  0, 0, 0, False) /* Create nothing for ContainTreasure */
-     , (7350, 9,     0,  0, 0, 0, False) /* Create nothing for ContainTreasure */
-     , (7350, 9,  7041,  0, 0, 0.02, False) /* Create Undead Thighbone (7041) for ContainTreasure */
+VALUES (7350, 9,  7041,  0, 0, 0.02, False) /* Create Undead Thighbone (7041) for ContainTreasure */
+     , (7350, 9,     0,  0, 0, 0.98, False) /* Create nothing for ContainTreasure */
      , (7350, 9,  7810,  0, 0, 1, False) /* Create Yucky Key (7810) for ContainTreasure */
-     , (7350, 9,  7817,  0, 0, 1, False) /* Create Skull of High Acolyte (7817) for ContainTreasure */;
+     , (7350, 9,     0,  0, 0, 0, False) /* Create nothing for ContainTreasure */
+     , (7350, 9,  7817,  0, 0, 1, False) /* Create Skull of High Acolyte (7817) for ContainTreasure */
+     , (7350, 9,     0,  0, 0, 0, False) /* Create nothing for ContainTreasure */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (7350, 1, 7818, 30, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate an evil presence (7818) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Scatter */;

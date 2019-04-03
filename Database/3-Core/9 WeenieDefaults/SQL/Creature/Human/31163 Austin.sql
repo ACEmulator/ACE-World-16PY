@@ -137,9 +137,9 @@ VALUES (@parent_id,  0,  12 /* TurnToTarget */, 0, 1, NULL, NULL, NULL, NULL, NU
      , (@parent_id,  1,  10 /* Tell */, 0, 1, NULL, 'Give me a Lead Scarab for 1% of the experience needed for your next level or an Iron Scarab for 100% of the experience needed for your next level.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (31163, 2,    40,  0, 21, 0.3, False) /* Create Platemail Breastplate (40) for Wield */
-     , (31163, 2,    61,  0, 21, 0.4, False) /* Create Platemail Girth (61) for Wield */
-     , (31163, 2,    80,  0, 20, 0.4, False) /* Create Chainmail Leggings (80) for Wield */
+VALUES (31163, 2,    80,  0, 20, 0.4, False) /* Create Chainmail Leggings (80) for Wield */
      , (31163, 2,    85,  0, 20, 0.2, False) /* Create Chainmail Coif (85) for Wield */
+     , (31163, 2,    40,  0, 21, 0.3, False) /* Create Platemail Breastplate (40) for Wield */
+     , (31163, 2,    61,  0, 21, 0.4, False) /* Create Platemail Girth (61) for Wield */
      , (31163, 2,   104,  0, 20, 0.5, False) /* Create Scalemail Sleeves (104) for Wield */
      , (31163, 2,   115,  0, 4, 0.8, False) /* Create Leather Boots (115) for Wield */;

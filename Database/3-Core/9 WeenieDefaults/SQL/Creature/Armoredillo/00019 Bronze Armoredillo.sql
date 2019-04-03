@@ -140,7 +140,7 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 268435538 /* Twitch2 */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (19, 9,     0,  0, 0, 0.93, False) /* Create nothing for ContainTreasure */
-     , (19, 9,     0,  0, 0, 0.95, False) /* Create nothing for ContainTreasure */
-     , (19, 9,  3688,  0, 0, 0.07, False) /* Create Bronze Armoredillo Spine (3688) for ContainTreasure */
-     , (19, 9,  4234,  0, 0, 0.05, False) /* Create Large Armoredillo Hide (4234) for ContainTreasure */;
+VALUES (19, 9,  3688,  0, 0, 0.07, False) /* Create Bronze Armoredillo Spine (3688) for ContainTreasure */
+     , (19, 9,     0,  0, 0, 0.93, False) /* Create nothing for ContainTreasure */
+     , (19, 9,  4234,  0, 0, 0.05, False) /* Create Large Armoredillo Hide (4234) for ContainTreasure */
+     , (19, 9,     0,  0, 0, 0.95, False) /* Create nothing for ContainTreasure */;

@@ -165,19 +165,19 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 318767235 /* Nod */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (2296, 2,   115,  0, 17, 1, False) /* Create Leather Boots (115) for Wield */
-     , (2296, 2,   118,  0, 14, 1, False) /* Create Cap (118) for Wield */
+VALUES (2296, 2,   130,  0, 4, 0.8, False) /* Create Shirt (130) for Wield */
      , (2296, 2,   127,  0, 14, 1, False) /* Create Pants (127) for Wield */
-     , (2296, 2,   130,  0, 4, 0.8, False) /* Create Shirt (130) for Wield */
+     , (2296, 2,   115,  0, 17, 1, False) /* Create Leather Boots (115) for Wield */
+     , (2296, 2,   118,  0, 14, 1, False) /* Create Cap (118) for Wield */
      , (2296, 2, 10696,  0, 16, 1, False) /* Create Apron (10696) for Wield */
      , (2296, 4,   260, -1, 0, 0, False) /* Create Cabbage (260) for Shop */
      , (2296, 4,   262, -1, 0, 0, False) /* Create Chicken (262) for Shop */
-     , (2296, 4,   512, -1, 0, 0, False) /* Create Good Lockpick (512) for Shop */
-     , (2296, 4,   513, -1, 0, 0, False) /* Create Plain Lockpick (513) for Shop */
-     , (2296, 4,   545, -1, 0, 0, False) /* Create Reliable Lockpick (545) for Shop */
-     , (2296, 4,   546, -1, 0, 0, False) /* Create Egg (546) for Shop */
      , (2296, 4,   547, -1, 0, 0, False) /* Create Brimstone-cap Mushroom (547) for Shop */
-     , (2296, 4,  4754, -1, 0, 0, False) /* Create Baking Pan (4754) for Shop */
+     , (2296, 4,  4763, -1, 0, 0, False) /* Create Honey (4763) for Shop */
+     , (2296, 4,   546, -1, 0, 0, False) /* Create Egg (546) for Shop */
      , (2296, 4,  4757, -1, 0, 0, False) /* Create Carving Knife (4757) for Shop */
      , (2296, 4,  4762, -1, 0, 0, False) /* Create Frying Pan (4762) for Shop */
-     , (2296, 4,  4763, -1, 0, 0, False) /* Create Honey (4763) for Shop */;
+     , (2296, 4,  4754, -1, 0, 0, False) /* Create Baking Pan (4754) for Shop */
+     , (2296, 4,   513, -1, 0, 0, False) /* Create Plain Lockpick (513) for Shop */
+     , (2296, 4,   545, -1, 0, 0, False) /* Create Reliable Lockpick (545) for Shop */
+     , (2296, 4,   512, -1, 0, 0, False) /* Create Good Lockpick (512) for Shop */;

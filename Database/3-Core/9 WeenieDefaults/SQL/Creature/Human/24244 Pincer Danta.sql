@@ -258,7 +258,7 @@ VALUES (@parent_id,  0,  10 /* Tell */, 1, 1, NULL, 'You found a stabbing claw. 
      , (@parent_id,  1,  22 /* StampQuest */, 0, 1, NULL, 'GaveStabClawToDanta', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (24244, 2,   116,  0, 13, 0, False) /* Create Studded Leather Boots (116) for Wield */
-     , (24244, 2, 24238,  0, 0, 0, False) /* Create Olthoi Atlatl (24238) for Wield */
+VALUES (24244, 2, 24238,  0, 0, 0, False) /* Create Olthoi Atlatl (24238) for Wield */
      , (24244, 2, 24264,  0, 0, 0, False) /* Create Olthoi Fighter Shirt (Female) (24264) for Wield */
-     , (24244, 2, 24266,  0, 0, 0, False) /* Create Olthoi Fighter Shorts (Female) (24266) for Wield */;
+     , (24244, 2, 24266,  0, 0, 0, False) /* Create Olthoi Fighter Shorts (Female) (24266) for Wield */
+     , (24244, 2,   116,  0, 13, 0, False) /* Create Studded Leather Boots (116) for Wield */;

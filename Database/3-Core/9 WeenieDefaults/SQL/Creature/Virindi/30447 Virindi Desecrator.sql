@@ -182,9 +182,9 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 268435539 /* Twitch3 */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (30447, 9,     0,  0, 0, 0.95, False) /* Create nothing for ContainTreasure */
-     , (30447, 9,     0,  0, 0, 0.96, False) /* Create nothing for ContainTreasure */
-     , (30447, 9,     0,  0, 0, 0.97, False) /* Create nothing for ContainTreasure */
-     , (30447, 9,  7604,  0, 0, 0.05, False) /* Create Yellow Jewel (7604) for ContainTreasure */
+VALUES (30447, 9,  7604,  0, 0, 0.05, False) /* Create Yellow Jewel (7604) for ContainTreasure */
+     , (30447, 9,     0,  0, 0, 0.95, False) /* Create nothing for ContainTreasure */
      , (30447, 9, 20863,  0, 0, 0.04, False) /* Create Virindi Stamp (20863) for ContainTreasure */
-     , (30447, 9, 24477,  0, 0, 0.03, False) /* Create Sturdy Steel Key (24477) for ContainTreasure */;
+     , (30447, 9,     0,  0, 0, 0.96, False) /* Create nothing for ContainTreasure */
+     , (30447, 9, 24477,  0, 0, 0.03, False) /* Create Sturdy Steel Key (24477) for ContainTreasure */
+     , (30447, 9,     0,  0, 0, 0.97, False) /* Create nothing for ContainTreasure */;

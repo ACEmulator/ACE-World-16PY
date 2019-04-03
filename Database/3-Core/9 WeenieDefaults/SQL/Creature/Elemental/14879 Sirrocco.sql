@@ -131,6 +131,6 @@ VALUES (14879,  94) /* ATTACK_NOTIFICATION_EVENT */
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (14879, 2,  7799,  3, 0, 0, False) /* Create Ball of plasma (7799) for Wield */
-     , (14879, 9,     0,  0, 0, 0.96, False) /* Create nothing for ContainTreasure */
      , (14879, 9,  6876,  0, 0, 0.04, False) /* Create Sturdy Iron Key (6876) for ContainTreasure */
+     , (14879, 9,     0,  0, 0, 0.96, False) /* Create nothing for ContainTreasure */
      , (14879, 9, 14882,  0, 0, 1, False) /* Create Ring of a Singularity Key (14882) for ContainTreasure */;

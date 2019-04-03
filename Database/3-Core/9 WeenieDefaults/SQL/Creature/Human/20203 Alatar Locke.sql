@@ -173,6 +173,6 @@ VALUES (@parent_id,  0,   5 /* Motion */, 1, 1, 318767242 /* Salute */, NULL, NU
      , (@parent_id,  4,  10 /* Tell */, 2, 1, NULL, 'If you would like to have the map framed, I understand there is a Furniture Master in Zaikhal that may frame it for you. His name is Jordan Ibn''Ikia and he does quality work for little money.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (20203, 2,   132,  0, 17, 1, False) /* Create Shoes (132) for Wield */
-     , (20203, 2,   134,  0, 9, 1, False) /* Create Tunic (134) for Wield */
-     , (20203, 2,  2604,  0, 17, 1, False) /* Create Breeches (2604) for Wield */;
+VALUES (20203, 2,   134,  0, 9, 1, False) /* Create Tunic (134) for Wield */
+     , (20203, 2,  2604,  0, 17, 1, False) /* Create Breeches (2604) for Wield */
+     , (20203, 2,   132,  0, 17, 1, False) /* Create Shoes (132) for Wield */;

@@ -172,10 +172,11 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 318767235 /* Nod */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (30027, 2,   115,  0, 4, 0.6, False) /* Create Leather Boots (115) for Wield */
-     , (30027, 2,   124,  0, 9, 0.5, False) /* Create Jerkin (124) for Wield */
+VALUES (30027, 2,   124,  0, 9, 0.5, False) /* Create Jerkin (124) for Wield */
      , (30027, 2,   127,  0, 3, 0.67, False) /* Create Pants (127) for Wield */
+     , (30027, 2,   115,  0, 4, 0.6, False) /* Create Leather Boots (115) for Wield */
      , (30027, 2, 10696,  0, 13, 0.5, False) /* Create Apron (10696) for Wield */
+     , (30027, 4, 15269, -1, 0, 0, False) /* Create Foci of Artifice (15269) for Shop */
      , (30027, 4,  2765, -1, 0, 0, False) /* Create Scroll of Acid Bane V (2765) for Shop */
      , (30027, 4,  2770, -1, 0, 0, False) /* Create Scroll of Acid Lure V (2770) for Shop */
      , (30027, 4,  2775, -1, 0, 0, False) /* Create Scroll of Blade Bane V (2775) for Shop */
@@ -205,5 +206,4 @@ VALUES (30027, 2,   115,  0, 4, 0.6, False) /* Create Leather Boots (115) for Wi
      , (30027, 4,  2896, -1, 0, 0, False) /* Create Scroll of Turn Blade V (2896) for Shop */
      , (30027, 4,  2901, -1, 0, 0, False) /* Create Scroll of Weaken Lock V (2901) for Shop */
      , (30027, 4,  2905, -1, 0, 0, False) /* Create Scroll of Summon Primary Portal II (2905) for Shop */
-     , (30027, 4, 15269, -1, 0, 0, False) /* Create Foci of Artifice (15269) for Shop */
      , (30027, 4, 20623, -1, 0, 0, False) /* Create Scroll of Summon Secondary Portal II (20623) for Shop */;

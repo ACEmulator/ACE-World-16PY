@@ -145,9 +145,9 @@ INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
 VALUES (20194, 414) /* PLAYER_DEATH_EVENT */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (20194, 2,    57,  1, 13, 1, False) /* Create Platemail Gauntlets (57) for Wield */
-     , (20194, 2,    80,  1, 13, 1, False) /* Create Chainmail Leggings (80) for Wield */
-     , (20194, 2,   101,  1, 13, 1, False) /* Create Chainmail Sleeves (101) for Wield */
-     , (20194, 2,  3706,  1, 13, 1, False) /* Create Olthoi Cuirass (3706) for Wield */
+VALUES (20194, 2,  3706,  1, 13, 1, False) /* Create Olthoi Cuirass (3706) for Wield */
      , (20194, 2,  3715,  1, 13, 1, False) /* Create Olthoi Helm (3715) for Wield */
+     , (20194, 2,   101,  1, 13, 1, False) /* Create Chainmail Sleeves (101) for Wield */
+     , (20194, 2,    80,  1, 13, 1, False) /* Create Chainmail Leggings (80) for Wield */
+     , (20194, 2,    57,  1, 13, 1, False) /* Create Platemail Gauntlets (57) for Wield */
      , (20194, 2,  7897,  1, 13, 1, False) /* Create Steel Toed Boots (7897) for Wield */;

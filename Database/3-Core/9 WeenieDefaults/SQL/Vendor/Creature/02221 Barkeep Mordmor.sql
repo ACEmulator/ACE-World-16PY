@@ -165,22 +165,22 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 318767235 /* Nod */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (2221, 2,   115,  0, 18, 1, False) /* Create Leather Boots (115) for Wield */
-     , (2221, 2,   118,  0, 4, 0.8, False) /* Create Cap (118) for Wield */
-     , (2221, 2,   124,  0, 18, 1, False) /* Create Jerkin (124) for Wield */
+VALUES (2221, 2,   124,  0, 18, 1, False) /* Create Jerkin (124) for Wield */
      , (2221, 2,   127,  0, 18, 1, False) /* Create Pants (127) for Wield */
+     , (2221, 2,   115,  0, 18, 1, False) /* Create Leather Boots (115) for Wield */
+     , (2221, 2,   118,  0, 4, 0.8, False) /* Create Cap (118) for Wield */
      , (2221, 2, 10696,  0, 9, 0.5, False) /* Create Apron (10696) for Wield */
+     , (2221, 4,  2467, -1, 0, 0, False) /* Create Red Wine (2467) for Shop */
      , (2221, 4,  2452, -1, 0, 0, False) /* Create Apple Juice (2452) for Shop */
+     , (2221, 4,  2469, -1, 0, 0, False) /* Create Small Beer (2469) for Shop */
      , (2221, 4,  2455, -1, 0, 0, False) /* Create Grape Juice (2455) for Shop */
      , (2221, 4,  2465, -1, 0, 0, False) /* Create Palm Wine (2465) for Shop */
-     , (2221, 4,  2467, -1, 0, 0, False) /* Create Red Wine (2467) for Shop */
-     , (2221, 4,  2469, -1, 0, 0, False) /* Create Small Beer (2469) for Shop */
-     , (2221, 4,  2477, -1, 0, 0, False) /* Create Tumerok Fortress Rumor (2477) for Shop */
-     , (2221, 4,  5088, -1, 0, 0, False) /* Create Stale Bread (5088) for Shop */
-     , (2221, 4,  5089, -1, 0, 0, False) /* Create Old Cheese (5089) for Shop */
+     , (2221, 4,  8378, -1, 0, 0, False) /* Create Beer Stein (8378) for Shop */
      , (2221, 4,  5090, -1, 0, 0, False) /* Create Bruised Apple (5090) for Shop */
      , (2221, 4,  5759, -1, 0, 0, False) /* Create Fruitcake (5759) for Shop */
-     , (2221, 4,  8378, -1, 0, 0, False) /* Create Beer Stein (8378) for Shop */
-     , (2221, 4, 11929, -1, 0, 0, False) /* Create A Call To Arms (11929) for Shop */
+     , (2221, 4,  5089, -1, 0, 0, False) /* Create Old Cheese (5089) for Shop */
+     , (2221, 4,  5088, -1, 0, 0, False) /* Create Stale Bread (5088) for Shop */
      , (2221, 4, 22765, -1, 0, 0, False) /* Create The Empyrean Temples (22765) for Shop */
+     , (2221, 4,  2477, -1, 0, 0, False) /* Create Tumerok Fortress Rumor (2477) for Shop */
+     , (2221, 4, 11929, -1, 0, 0, False) /* Create A Call To Arms (11929) for Shop */
      , (2221, 4, 26642, -1, 0, 0, False) /* Create Skeleton Raids (26642) for Shop */;

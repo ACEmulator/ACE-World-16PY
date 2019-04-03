@@ -224,13 +224,13 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,  10 /* Tell */, 0, 1, NULL, 'Your weakling magics are laughable, human.  We will show you what true power feels like...', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (23490, 9,     0,  0, 0, 0.95, False) /* Create nothing for ContainTreasure */
-     , (23490, 9,     0,  0, 0, 0.99, False) /* Create nothing for ContainTreasure */
-     , (23490, 9,     0,  0, 0, 0.97, False) /* Create nothing for ContainTreasure */
-     , (23490, 9,     0,  0, 0, 0.99, False) /* Create nothing for ContainTreasure */
-     , (23490, 9,     0,  0, 0, 0.98, False) /* Create nothing for ContainTreasure */
-     , (23490, 9,  3698,  0, 0, 0.05, False) /* Create White Jewel (3698) for ContainTreasure */
+VALUES (23490, 9,  3698,  0, 0, 0.05, False) /* Create White Jewel (3698) for ContainTreasure */
+     , (23490, 9,     0,  0, 0, 0.95, False) /* Create nothing for ContainTreasure */
      , (23490, 9,  6876,  0, 0, 0.01, False) /* Create Sturdy Iron Key (6876) for ContainTreasure */
+     , (23490, 9,     0,  0, 0, 0.99, False) /* Create nothing for ContainTreasure */
      , (23490, 9,  9290,  0, 0, 0.03, False) /* Create Virindi Directive Key (9290) for ContainTreasure */
+     , (23490, 9,     0,  0, 0, 0.97, False) /* Create nothing for ContainTreasure */
      , (23490, 9,  9292,  0, 0, 0.01, False) /* Create Virindi Singularity Key (9292) for ContainTreasure */
-     , (23490, 9, 20863,  0, 0, 0.02, False) /* Create Virindi Stamp (20863) for ContainTreasure */;
+     , (23490, 9,     0,  0, 0, 0.99, False) /* Create nothing for ContainTreasure */
+     , (23490, 9, 20863,  0, 0, 0.02, False) /* Create Virindi Stamp (20863) for ContainTreasure */
+     , (23490, 9,     0,  0, 0, 0.98, False) /* Create nothing for ContainTreasure */;

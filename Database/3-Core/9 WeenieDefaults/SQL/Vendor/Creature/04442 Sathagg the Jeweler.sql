@@ -165,12 +165,12 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 318767235 /* Nod */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (4442, 2,   127,  0, 6, 0, False) /* Create Pants (127) for Wield */
-     , (4442, 2,   130,  0, 5, 0.67, False) /* Create Shirt (130) for Wield */
+VALUES (4442, 2,   130,  0, 5, 0.67, False) /* Create Shirt (130) for Wield */
+     , (4442, 2,   127,  0, 6, 0, False) /* Create Pants (127) for Wield */
      , (4442, 2,  2606,  0, 2, 1, False) /* Create Boots (2606) for Wield */
      , (4442, 2, 10696,  0, 9, 0.5, False) /* Create Apron (10696) for Wield */
-     , (4442, 4,   297, -1, 0, 0, False) /* Create Ring (297) for Shop */
      , (4442, 4,   622, -1, 0, 0, False) /* Create Necklace (622) for Shop */
+     , (4442, 4,   297, -1, 0, 0, False) /* Create Ring (297) for Shop */
      , (4442, 4,  2414, -1, 0, 0, False) /* Create Azurite (2414) for Shop */
      , (4442, 4,  2427, -1, 0, 0, False) /* Create Bloodstone (2427) for Shop */
      , (4442, 4,  2621, -1, 0, 0, False) /* Create Trade Note (100) (2621) for Shop */

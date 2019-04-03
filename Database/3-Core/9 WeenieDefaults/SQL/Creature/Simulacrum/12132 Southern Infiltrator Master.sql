@@ -227,6 +227,6 @@ VALUES (@parent_id,  0,  10 /* Tell */, 0, 1, NULL, 'Do you think me to be as we
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (12132, 1, 12138,  0, 0, 0, False) /* Create Helm of the Simulacra (12138) for Contain */
      , (12132, 1, 12145,  0, 0, 0, False) /* Create Southern Infiltrator Message Shard (12145) for Contain */
-     , (12132, 2,   132,  0, 9, 0, False) /* Create Shoes (132) for Wield */
      , (12132, 2,  6046,  0, 2, 0.6, False) /* Create Amuli Coat (6046) for Wield */
-     , (12132, 2,  6047,  0, 2, 0.6, False) /* Create Amuli Leggings (6047) for Wield */;
+     , (12132, 2,  6047,  0, 2, 0.6, False) /* Create Amuli Leggings (6047) for Wield */
+     , (12132, 2,   132,  0, 9, 0, False) /* Create Shoes (132) for Wield */;

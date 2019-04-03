@@ -155,9 +155,9 @@ VALUES (7424,  94) /* ATTACK_NOTIFICATION_EVENT */
      , (7424, 414) /* PLAYER_DEATH_EVENT */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (7424, 9,     0,  0, 0, 0.97, False) /* Create nothing for ContainTreasure */
-     , (7424, 9,     0,  0, 0, 0.99, False) /* Create nothing for ContainTreasure */
-     , (7424, 9,     0,  0, 0, 0.99, False) /* Create nothing for ContainTreasure */
+VALUES (7424, 9,  7041,  0, 0, 0.03, False) /* Create Undead Thighbone (7041) for ContainTreasure */
+     , (7424, 9,     0,  0, 0, 0.97, False) /* Create nothing for ContainTreasure */
      , (7424, 9,  5873,  0, 0, 0.01, False) /* Create Seal (5873) for ContainTreasure */
+     , (7424, 9,     0,  0, 0, 0.99, False) /* Create nothing for ContainTreasure */
      , (7424, 9,  6876,  0, 0, 0.01, False) /* Create Sturdy Iron Key (6876) for ContainTreasure */
-     , (7424, 9,  7041,  0, 0, 0.03, False) /* Create Undead Thighbone (7041) for ContainTreasure */;
+     , (7424, 9,     0,  0, 0, 0.99, False) /* Create nothing for ContainTreasure */;

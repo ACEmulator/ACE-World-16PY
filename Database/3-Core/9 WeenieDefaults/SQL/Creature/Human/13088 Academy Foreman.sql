@@ -546,5 +546,5 @@ VALUES (@parent_id,  0,  22 /* StampQuest */, 0, 1, NULL, 'WaspWingDone', NULL, 
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (13088, 2,   130,  0, 14, 0.8, False) /* Create Shirt (130) for Wield */
-     , (13088, 2,   132,  0, 14, 0.8, False) /* Create Shoes (132) for Wield */
-     , (13088, 2,  2604,  0, 17, 1, False) /* Create Breeches (2604) for Wield */;
+     , (13088, 2,  2604,  0, 17, 1, False) /* Create Breeches (2604) for Wield */
+     , (13088, 2,   132,  0, 14, 0.8, False) /* Create Shoes (132) for Wield */;

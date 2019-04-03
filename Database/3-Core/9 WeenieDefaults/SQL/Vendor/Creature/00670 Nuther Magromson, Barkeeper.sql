@@ -165,22 +165,22 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 318767235 /* Nod */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (670, 2,   127,  0, 10, 1, False) /* Create Pants (127) for Wield */
+VALUES (670, 2,   134,  0, 13, 0.5, False) /* Create Tunic (134) for Wield */
+     , (670, 2,   127,  0, 10, 1, False) /* Create Pants (127) for Wield */
      , (670, 2,   132,  0, 4, 0.8, False) /* Create Shoes (132) for Wield */
-     , (670, 2,   134,  0, 13, 0.5, False) /* Create Tunic (134) for Wield */
      , (670, 2, 10696,  0, 9, 0.5, False) /* Create Apron (10696) for Wield */
+     , (670, 4,   548, -1, 0, 0, False) /* Create Bowl of Rice (548) for Shop */
+     , (670, 4,   549, -1, 0, 0, False) /* Create Bowl of Stew (549) for Shop */
      , (670, 4,   258, -1, 0, 0, False) /* Create Apple (258) for Shop */
      , (670, 4,   259, -1, 0, 0, False) /* Create Bread (259) for Shop */
      , (670, 4,   260, -1, 0, 0, False) /* Create Cabbage (260) for Shop */
+     , (670, 4,   620, -1, 0, 0, False) /* Create Cake (620) for Shop */
      , (670, 4,   261, -1, 0, 0, False) /* Create Cheese (261) for Shop */
      , (670, 4,   262, -1, 0, 0, False) /* Create Chicken (262) for Shop */
+     , (670, 4,   546, -1, 0, 0, False) /* Create Egg (546) for Shop */
      , (670, 4,   263, -1, 0, 0, False) /* Create Fish (263) for Shop */
      , (670, 4,   264, -1, 0, 0, False) /* Create Grapes (264) for Shop */
      , (670, 4,   265, -1, 0, 0, False) /* Create Meat (265) for Shop */
-     , (670, 4,   546, -1, 0, 0, False) /* Create Egg (546) for Shop */
-     , (670, 4,   548, -1, 0, 0, False) /* Create Bowl of Rice (548) for Shop */
-     , (670, 4,   549, -1, 0, 0, False) /* Create Bowl of Stew (549) for Shop */
-     , (670, 4,   620, -1, 0, 0, False) /* Create Cake (620) for Shop */
      , (670, 4,  2451, -1, 0, 0, False) /* Create Ale (2451) for Shop */
      , (670, 4,  2452, -1, 0, 0, False) /* Create Apple Juice (2452) for Shop */
      , (670, 4,  2453, -1, 0, 0, False) /* Create Cider (2453) for Shop */

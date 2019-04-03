@@ -155,12 +155,12 @@ VALUES (12023,  94) /* ATTACK_NOTIFICATION_EVENT */
      , (12023, 414) /* PLAYER_DEATH_EVENT */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (12023, 9,     0,  0, 0, 0.2, False) /* Create nothing for ContainTreasure */
+VALUES (12023, 9,  6058,  0, 0, 0.8, False) /* Create Dark Shard (6058) for ContainTreasure */
      , (12023, 9,     0,  0, 0, 0.2, False) /* Create nothing for ContainTreasure */
-     , (12023, 9,     0,  0, 0, 0.7, False) /* Create nothing for ContainTreasure */
-     , (12023, 9,  6058,  0, 0, 0.8, False) /* Create Dark Shard (6058) for ContainTreasure */
      , (12023, 9,  6876,  0, 0, 0.8, False) /* Create Sturdy Iron Key (6876) for ContainTreasure */
-     , (12023, 9, 12022,  0, 0, 0.3, False) /* Create Scroll of Dark Rain (12022) for ContainTreasure */;
+     , (12023, 9,     0,  0, 0, 0.2, False) /* Create nothing for ContainTreasure */
+     , (12023, 9, 12022,  0, 0, 0.3, False) /* Create Scroll of Dark Rain (12022) for ContainTreasure */
+     , (12023, 9,     0,  0, 0, 0.7, False) /* Create nothing for ContainTreasure */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (12023, 0.5, 4254, 20, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Umbris Shadow (4254) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Scatter */

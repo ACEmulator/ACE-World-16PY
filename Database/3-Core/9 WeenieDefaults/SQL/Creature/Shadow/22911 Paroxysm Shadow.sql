@@ -173,9 +173,9 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,  19 /* CastSpellInstant */, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 1844 /* Os' Wall */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (22911, 9,     0,  0, 0, 0.985, False) /* Create nothing for ContainTreasure */
+VALUES (22911, 9,  6058,  0, 0, 0.015, False) /* Create Dark Shard (6058) for ContainTreasure */
+     , (22911, 9,     0,  0, 0, 0.985, False) /* Create nothing for ContainTreasure */
+     , (22911, 9,  9292,  0, 0, 0.01, False) /* Create Virindi Singularity Key (9292) for ContainTreasure */
      , (22911, 9,     0,  0, 0, 0.01, False) /* Create nothing for ContainTreasure */
-     , (22911, 9,     0,  0, 0, 0.99, False) /* Create nothing for ContainTreasure */
-     , (22911, 9,  6058,  0, 0, 0.015, False) /* Create Dark Shard (6058) for ContainTreasure */
      , (22911, 9,  6876,  0, 0, 0.01, False) /* Create Sturdy Iron Key (6876) for ContainTreasure */
-     , (22911, 9,  9292,  0, 0, 0.01, False) /* Create Virindi Singularity Key (9292) for ContainTreasure */;
+     , (22911, 9,     0,  0, 0, 0.99, False) /* Create nothing for ContainTreasure */;

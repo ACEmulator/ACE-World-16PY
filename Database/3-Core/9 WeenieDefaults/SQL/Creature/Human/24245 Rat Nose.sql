@@ -170,6 +170,6 @@ VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 1090519043 /* Ready */, NULL, NU
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (24245, 2, 22013,  0, 0, 0, False) /* Create Olthoi Helm (22013) for Wield */
      , (24245, 2, 24238,  0, 0, 0, False) /* Create Olthoi Atlatl (24238) for Wield */
+     , (24245, 2, 24268,  0, 0, 0, False) /* Create Olthoi Fighter Sleeves (24268) for Wield */
      , (24245, 2, 24265,  0, 0, 0, False) /* Create Olthoi Fighter Shirt (Male) (24265) for Wield */
-     , (24245, 2, 24267,  0, 0, 0, False) /* Create Olthoi Fighter Shorts (Male) (24267) for Wield */
-     , (24245, 2, 24268,  0, 0, 0, False) /* Create Olthoi Fighter Sleeves (24268) for Wield */;
+     , (24245, 2, 24267,  0, 0, 0, False) /* Create Olthoi Fighter Shorts (Male) (24267) for Wield */;

@@ -167,6 +167,6 @@ VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 1090519043 /* Ready */, NULL, NU
      , (@parent_id,  4,  10 /* Tell */, 1, 1, NULL, 'Off to the east, over the river, is a ruin where I used to live before I was offered this place to stay.  Could you retrieve my old treasure, a flawed gem that is precious to none but myself?', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (28836, 2,    81,  0, 5, 1, False) /* Create Leather Leggings (81) for Wield */
-     , (28836, 2,   134,  0, 9, 0, False) /* Create Tunic (134) for Wield */
+VALUES (28836, 2,   134,  0, 9, 0, False) /* Create Tunic (134) for Wield */
+     , (28836, 2,    81,  0, 5, 1, False) /* Create Leather Leggings (81) for Wield */
      , (28836, 2,  2606,  0, 9, 0, False) /* Create Boots (2606) for Wield */;

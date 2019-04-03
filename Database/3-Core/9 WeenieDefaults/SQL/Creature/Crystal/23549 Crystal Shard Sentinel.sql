@@ -122,5 +122,5 @@ VALUES (23549,  94) /* ATTACK_NOTIFICATION_EVENT */
      , (23549, 414) /* PLAYER_DEATH_EVENT */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (23549, 9,     0,  0, 0, 0.995, False) /* Create nothing for ContainTreasure */
-     , (23549, 9,  6056,  0, 0, 0.005, False) /* Create Small Shard (6056) for ContainTreasure */;
+VALUES (23549, 9,  6056,  0, 0, 0.005, False) /* Create Small Shard (6056) for ContainTreasure */
+     , (23549, 9,     0,  0, 0, 0.995, False) /* Create nothing for ContainTreasure */;

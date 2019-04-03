@@ -212,17 +212,17 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,  10 /* Tell */, 0, 1, NULL, 'Fleshling. Try not my patience my humor is at an end.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (27510, 9,     0,  0, 0, 0.95, False) /* Create nothing for ContainTreasure */
+VALUES (27510, 9,  7604,  0, 0, 0.05, False) /* Create Yellow Jewel (7604) for ContainTreasure */
      , (27510, 9,     0,  0, 0, 0.95, False) /* Create nothing for ContainTreasure */
-     , (27510, 9,     0,  0, 0, 0.96, False) /* Create nothing for ContainTreasure */
-     , (27510, 9,     0,  0, 0, 0.97, False) /* Create nothing for ContainTreasure */
-     , (27510, 9,     0,  0, 0, 0.97, False) /* Create nothing for ContainTreasure */
-     , (27510, 9,     0,  0, 0, 0.99, False) /* Create nothing for ContainTreasure */
-     , (27510, 9,     0,  0, 0, 0.995, False) /* Create nothing for ContainTreasure */
-     , (27510, 9,  7604,  0, 0, 0.05, False) /* Create Yellow Jewel (7604) for ContainTreasure */
      , (27510, 9,  9292,  0, 0, 0.05, False) /* Create Virindi Singularity Key (9292) for ContainTreasure */
+     , (27510, 9,     0,  0, 0, 0.95, False) /* Create nothing for ContainTreasure */
      , (27510, 9, 20863,  0, 0, 0.04, False) /* Create Virindi Stamp (20863) for ContainTreasure */
+     , (27510, 9,     0,  0, 0, 0.96, False) /* Create nothing for ContainTreasure */
      , (27510, 9, 24477,  0, 0, 0.03, False) /* Create Sturdy Steel Key (24477) for ContainTreasure */
+     , (27510, 9,     0,  0, 0, 0.97, False) /* Create nothing for ContainTreasure */
      , (27510, 9, 25339,  0, 0, 0.03, False) /* Create Broken Virindi Consul Mask (25339) for ContainTreasure */
+     , (27510, 9,     0,  0, 0, 0.97, False) /* Create nothing for ContainTreasure */
      , (27510, 9, 27305,  0, 0, 0.01, False) /* Create Forbidden Key (27305) for ContainTreasure */
-     , (27510, 9, 27392,  0, 0, 0.005, False) /* Create Oubliette (27392) for ContainTreasure */;
+     , (27510, 9,     0,  0, 0, 0.99, False) /* Create nothing for ContainTreasure */
+     , (27510, 9, 27392,  0, 0, 0.005, False) /* Create Oubliette (27392) for ContainTreasure */
+     , (27510, 9,     0,  0, 0, 0.995, False) /* Create nothing for ContainTreasure */;

@@ -142,11 +142,11 @@ VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 1090519043 /* Ready */, NULL, NU
      , (@parent_id,  1,   5 /* Motion */, 0, 1, 1090519060 /* Sleeping */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (27495, 9,     0,  0, 0, 0.95, False) /* Create nothing for ContainTreasure */
-     , (27495, 9,     0,  0, 0, 0.98, False) /* Create nothing for ContainTreasure */
-     , (27495, 9,     0,  0, 0, 0.96, False) /* Create nothing for ContainTreasure */
-     , (27495, 9,     0,  0, 0, 0.99, False) /* Create nothing for ContainTreasure */
-     , (27495, 9,  3686,  0, 0, 0.05, False) /* Create Black Rock (3686) for ContainTreasure */
-     , (27495, 9,  6353,  0, 0, 0.04, False) /* Create Pyreal Mote (6353) for ContainTreasure */
+VALUES (27495, 9,  3686,  0, 0, 0.05, False) /* Create Black Rock (3686) for ContainTreasure */
+     , (27495, 9,     0,  0, 0, 0.95, False) /* Create nothing for ContainTreasure */
      , (27495, 9,  6876,  0, 0, 0.02, False) /* Create Sturdy Iron Key (6876) for ContainTreasure */
-     , (27495, 9, 27305,  0, 0, 0.01, False) /* Create Forbidden Key (27305) for ContainTreasure */;
+     , (27495, 9,     0,  0, 0, 0.98, False) /* Create nothing for ContainTreasure */
+     , (27495, 9,  6353,  0, 0, 0.04, False) /* Create Pyreal Mote (6353) for ContainTreasure */
+     , (27495, 9,     0,  0, 0, 0.96, False) /* Create nothing for ContainTreasure */
+     , (27495, 9, 27305,  0, 0, 0.01, False) /* Create Forbidden Key (27305) for ContainTreasure */
+     , (27495, 9,     0,  0, 0, 0.99, False) /* Create nothing for ContainTreasure */;

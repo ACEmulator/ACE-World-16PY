@@ -173,7 +173,7 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 268435540 /* Twitch4 */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (25848, 9,     0,  0, 0, 0, False) /* Create nothing for ContainTreasure */
-     , (25848, 9,     0,  0, 0, 0.9, False) /* Create nothing for ContainTreasure */
-     , (25848, 9, 25902,  0, 0, 1, False) /* Create Plaguefang's Hide (25902) for ContainTreasure */
-     , (25848, 9, 30823,  0, 0, 0.1, False) /* Create Broken Black Marrow Key (30823) for ContainTreasure */;
+VALUES (25848, 9, 25902,  0, 0, 1, False) /* Create Plaguefang's Hide (25902) for ContainTreasure */
+     , (25848, 9,     0,  0, 0, 0, False) /* Create nothing for ContainTreasure */
+     , (25848, 9, 30823,  0, 0, 0.1, False) /* Create Broken Black Marrow Key (30823) for ContainTreasure */
+     , (25848, 9,     0,  0, 0, 0.9, False) /* Create nothing for ContainTreasure */;

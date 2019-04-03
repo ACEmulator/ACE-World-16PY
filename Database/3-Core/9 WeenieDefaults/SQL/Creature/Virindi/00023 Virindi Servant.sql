@@ -199,11 +199,11 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 268435539 /* Twitch3 */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (23, 9,     0,  0, 0, 0.95, False) /* Create nothing for ContainTreasure */
-     , (23, 9,     0,  0, 0, 0.99, False) /* Create nothing for ContainTreasure */
-     , (23, 9,     0,  0, 0, 0.97, False) /* Create nothing for ContainTreasure */
-     , (23, 9,     0,  0, 0, 0.99, False) /* Create nothing for ContainTreasure */
-     , (23, 9,  3696,  0, 0, 0.05, False) /* Create Blue Gem (3696) for ContainTreasure */
+VALUES (23, 9,  3696,  0, 0, 0.05, False) /* Create Blue Gem (3696) for ContainTreasure */
+     , (23, 9,     0,  0, 0, 0.95, False) /* Create nothing for ContainTreasure */
      , (23, 9,  6876,  0, 0, 0.01, False) /* Create Sturdy Iron Key (6876) for ContainTreasure */
+     , (23, 9,     0,  0, 0, 0.99, False) /* Create nothing for ContainTreasure */
+     , (23, 9,  9291,  0, 0, 0.03, False) /* Create Virindi Master Key (9291) for ContainTreasure */
+     , (23, 9,     0,  0, 0, 0.97, False) /* Create nothing for ContainTreasure */
      , (23, 9,  9290,  0, 0, 0.01, False) /* Create Virindi Directive Key (9290) for ContainTreasure */
-     , (23, 9,  9291,  0, 0, 0.03, False) /* Create Virindi Master Key (9291) for ContainTreasure */;
+     , (23, 9,     0,  0, 0, 0.99, False) /* Create nothing for ContainTreasure */;

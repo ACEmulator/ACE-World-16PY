@@ -165,16 +165,16 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 318767235 /* Nod */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (989, 2,   117,  0, 10, 1, False) /* Create Breeches (117) for Wield */
-     , (989, 2,   124,  0, 14, 0.8, False) /* Create Jerkin (124) for Wield */
-     , (989, 2,   128,  0, 10, 1, False) /* Create Qafiya (128) for Wield */
+VALUES (989, 2,   124,  0, 14, 0.8, False) /* Create Jerkin (124) for Wield */
+     , (989, 2,   117,  0, 10, 1, False) /* Create Breeches (117) for Wield */
      , (989, 2,   133,  0, 10, 1, False) /* Create Slippers (133) for Wield */
+     , (989, 2,   128,  0, 10, 1, False) /* Create Qafiya (128) for Wield */
      , (989, 2, 10696,  0, 18, 1, False) /* Create Apron (10696) for Wield */
      , (989, 4,   166, -1, 61, 1, False) /* Create Sack (166) for Shop */
-     , (989, 4,   264, -1, 0, 0, False) /* Create Grapes (264) for Shop */
-     , (989, 4,   264, -1, 0, 0, False) /* Create Grapes (264) for Shop */
+     , (989, 4,  4763, -1, 0, 0, False) /* Create Honey (4763) for Shop */
      , (989, 4,  2463, -1, 0, 0, False) /* Create Milk (2463) for Shop */
      , (989, 4,  4753, -1, 0, 0, False) /* Create Side of Beef (4753) for Shop */
+     , (989, 4,   264, -1, 0, 0, False) /* Create Grapes (264) for Shop */
+     , (989, 4,  5758, -1, 0, 0, False) /* Create Carrot (5758) for Shop */
      , (989, 4,  4754, -1, 0, 0, False) /* Create Baking Pan (4754) for Shop */
-     , (989, 4,  4763, -1, 0, 0, False) /* Create Honey (4763) for Shop */
-     , (989, 4,  5758, -1, 0, 0, False) /* Create Carrot (5758) for Shop */;
+     , (989, 4,   264, -1, 0, 0, False) /* Create Grapes (264) for Shop */;

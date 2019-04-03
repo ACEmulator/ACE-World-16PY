@@ -153,7 +153,7 @@ VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 1090519043 /* Ready */, NULL, NU
      , (@parent_id,  1,   5 /* Motion */, 0, 1, 1090519060 /* Sleeping */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (28040, 9,     0,  0, 0, 0.96, False) /* Create nothing for ContainTreasure */
-     , (28040, 9,     0,  0, 0, 0.95, False) /* Create nothing for ContainTreasure */
-     , (28040, 9,  6353,  0, 0, 0.04, False) /* Create Pyreal Mote (6353) for ContainTreasure */
-     , (28040, 9,  7605,  0, 0, 0.05, False) /* Create Coral Heart (7605) for ContainTreasure */;
+VALUES (28040, 9,  6353,  0, 0, 0.04, False) /* Create Pyreal Mote (6353) for ContainTreasure */
+     , (28040, 9,     0,  0, 0, 0.96, False) /* Create nothing for ContainTreasure */
+     , (28040, 9,  7605,  0, 0, 0.05, False) /* Create Coral Heart (7605) for ContainTreasure */
+     , (28040, 9,     0,  0, 0, 0.95, False) /* Create nothing for ContainTreasure */;

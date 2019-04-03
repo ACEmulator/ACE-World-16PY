@@ -165,13 +165,13 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 318767235 /* Nod */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (2298, 2,   118,  0, 2, 0.5, False) /* Create Cap (118) for Wield */
+VALUES (2298, 2,   130,  0, 17, 1, False) /* Create Shirt (130) for Wield */
      , (2298, 2,   127,  0, 17, 1, False) /* Create Pants (127) for Wield */
-     , (2298, 2,   130,  0, 17, 1, False) /* Create Shirt (130) for Wield */
      , (2298, 2,   132,  0, 5, 0, False) /* Create Shoes (132) for Wield */
+     , (2298, 2,   118,  0, 2, 0.5, False) /* Create Cap (118) for Wield */
      , (2298, 2, 10696,  0, 9, 0.5, False) /* Create Apron (10696) for Wield */
-     , (2298, 4,   294, -1, 0, 0, False) /* Create Amulet (294) for Shop */
      , (2298, 4,   295, -1, 0, 0, False) /* Create Bracelet (295) for Shop */
+     , (2298, 4,   294, -1, 0, 0, False) /* Create Amulet (294) for Shop */
      , (2298, 4,  2430, -1, 0, 0, False) /* Create Hematite (2430) for Shop */
      , (2298, 4,  2432, -1, 0, 0, False) /* Create Onyx (2432) for Shop */
      , (2298, 4,  2621, -1, 0, 0, False) /* Create Trade Note (100) (2621) for Shop */

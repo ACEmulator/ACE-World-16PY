@@ -165,21 +165,21 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 318767235 /* Nod */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (8439, 2,   117,  0, 14, 0.3, False) /* Create Breeches (117) for Wield */
-     , (8439, 2,   124,  0, 13, 0.6, False) /* Create Jerkin (124) for Wield */
+VALUES (8439, 2,   124,  0, 13, 0.6, False) /* Create Jerkin (124) for Wield */
+     , (8439, 2,   117,  0, 14, 0.3, False) /* Create Breeches (117) for Wield */
      , (8439, 2,   133,  0, 4, 0.67, False) /* Create Slippers (133) for Wield */
      , (8439, 2,  5894,  0, 15, 0.8, False) /* Create Fez (5894) for Wield */
      , (8439, 2, 10696,  0, 6, 0, False) /* Create Apron (10696) for Wield */
      , (8439, 4,   364, -1, 0, 0, False) /* Create Book (364) for Shop */
      , (8439, 4,   365, -1, 0, 0, False) /* Create Parchment (365) for Shop */
      , (8439, 4,   367, -1, 0, 0, False) /* Create Tome (367) for Shop */
-     , (8439, 4,   512, -1, 0, 0, False) /* Create Good Lockpick (512) for Shop */
-     , (8439, 4,   513, -1, 0, 0, False) /* Create Plain Lockpick (513) for Shop */
-     , (8439, 4,   545, -1, 0, 0, False) /* Create Reliable Lockpick (545) for Shop */
      , (8439, 4,  5583, -1, 0, 0, False) /* Create Aluvian Cookbook (5583) for Shop */
-     , (8439, 4,  5586, -1, 0, 0, False) /* Create Alchemy Guide (5586) for Shop */
-     , (8439, 4,  5587, -1, 0, 0, False) /* Create Fletching Guide (5587) for Shop */
      , (8439, 4,  5856, -1, 0, 0, False) /* Create Specialty Cookbook (5856) for Shop */
      , (8439, 4,  7884, -1, 0, 0, False) /* Create Chocolate Cookbook (7884) for Shop */
+     , (8439, 4, 14797, -1, 0, 0, False) /* Create Festival Cookbook (14797) for Shop */
+     , (8439, 4,  5586, -1, 0, 0, False) /* Create Alchemy Guide (5586) for Shop */
+     , (8439, 4,  5587, -1, 0, 0, False) /* Create Fletching Guide (5587) for Shop */
      , (8439, 4,  8638, -1, 0, 0, False) /* Create The History of Kryst (8638) for Shop */
-     , (8439, 4, 14797, -1, 0, 0, False) /* Create Festival Cookbook (14797) for Shop */;
+     , (8439, 4,   513, -1, 0, 0, False) /* Create Plain Lockpick (513) for Shop */
+     , (8439, 4,   545, -1, 0, 0, False) /* Create Reliable Lockpick (545) for Shop */
+     , (8439, 4,   512, -1, 0, 0, False) /* Create Good Lockpick (512) for Shop */;

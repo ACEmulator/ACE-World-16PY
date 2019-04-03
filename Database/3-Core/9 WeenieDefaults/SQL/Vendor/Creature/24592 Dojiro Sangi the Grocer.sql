@@ -229,39 +229,39 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,  10 /* Tell */, 0, 1, NULL, 'I''ve got lots more of that in my stores. I also can deliver to the Inn if you decide to rent a bed there.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (24592, 2,   118,  0, 14, 1, False) /* Create Cap (118) for Wield */
-     , (24592, 2,   124,  0, 93, 0, False) /* Create Jerkin (124) for Wield */
+VALUES (24592, 2,   124,  0, 93, 0, False) /* Create Jerkin (124) for Wield */
      , (24592, 2,   127,  0, 6, 1, False) /* Create Pants (127) for Wield */
      , (24592, 2,   132,  0, 7, 0.33, False) /* Create Shoes (132) for Wield */
+     , (24592, 2,   118,  0, 14, 1, False) /* Create Cap (118) for Wield */
      , (24592, 2, 10696,  0, 14, 1, False) /* Create Apron (10696) for Wield */
      , (24592, 4,   258, -1, 0, 0, False) /* Create Apple (258) for Shop */
-     , (24592, 4,   259, -1, 0, 0, False) /* Create Bread (259) for Shop */
-     , (24592, 4,   260, -1, 0, 0, False) /* Create Cabbage (260) for Shop */
-     , (24592, 4,   261, -1, 0, 0, False) /* Create Cheese (261) for Shop */
-     , (24592, 4,   262, -1, 0, 0, False) /* Create Chicken (262) for Shop */
-     , (24592, 4,   263, -1, 0, 0, False) /* Create Fish (263) for Shop */
      , (24592, 4,   264, -1, 0, 0, False) /* Create Grapes (264) for Shop */
-     , (24592, 4,   512, -1, 0, 0, False) /* Create Good Lockpick (512) for Shop */
-     , (24592, 4,   513, -1, 0, 0, False) /* Create Plain Lockpick (513) for Shop */
-     , (24592, 4,   514, -1, 0, 0, False) /* Create Excellent Lockpick (514) for Shop */
-     , (24592, 4,   515, -1, 0, 0, False) /* Create Superb Lockpick (515) for Shop */
-     , (24592, 4,   545, -1, 0, 0, False) /* Create Reliable Lockpick (545) for Shop */
-     , (24592, 4,   546, -1, 0, 0, False) /* Create Egg (546) for Shop */
+     , (24592, 4,   259, -1, 0, 0, False) /* Create Bread (259) for Shop */
+     , (24592, 4,   261, -1, 0, 0, False) /* Create Cheese (261) for Shop */
      , (24592, 4,   547, -1, 0, 0, False) /* Create Brimstone-cap Mushroom (547) for Shop */
-     , (24592, 4,  2463, -1, 0, 0, False) /* Create Milk (2463) for Shop */
-     , (24592, 4,  4746, -1, 0, 0, False) /* Create Water (4746) for Shop */
-     , (24592, 4,  4754, -1, 0, 0, False) /* Create Baking Pan (4754) for Shop */
-     , (24592, 4,  4755, -1, 0, 0, False) /* Create Brine (4755) for Shop */
-     , (24592, 4,  4757, -1, 0, 0, False) /* Create Carving Knife (4757) for Shop */
-     , (24592, 4,  4759, -1, 0, 0, False) /* Create Cooking Pot (4759) for Shop */
-     , (24592, 4,  4761, -1, 0, 0, False) /* Create Flour (4761) for Shop */
-     , (24592, 4,  4762, -1, 0, 0, False) /* Create Frying Pan (4762) for Shop */
-     , (24592, 4,  4763, -1, 0, 0, False) /* Create Honey (4763) for Shop */
-     , (24592, 4,  4764, -1, 0, 0, False) /* Create Noodle Cutter (4764) for Shop */
-     , (24592, 4,  4766, -1, 0, 0, False) /* Create Rennet (4766) for Shop */
-     , (24592, 4,  4767, -1, 0, 0, False) /* Create Skewer (4767) for Shop */
-     , (24592, 4,  4768, -1, 0, 0, False) /* Create Uncooked Rice (4768) for Shop */
      , (24592, 4,  5758, -1, 0, 0, False) /* Create Carrot (5758) for Shop */
-     , (24592, 4,  7824, -1, 0, 0, False) /* Create Metal Press (7824) for Shop */
+     , (24592, 4,   260, -1, 0, 0, False) /* Create Cabbage (260) for Shop */
+     , (24592, 4,   263, -1, 0, 0, False) /* Create Fish (263) for Shop */
+     , (24592, 4,   262, -1, 0, 0, False) /* Create Chicken (262) for Shop */
+     , (24592, 4,   546, -1, 0, 0, False) /* Create Egg (546) for Shop */
+     , (24592, 4,  4761, -1, 0, 0, False) /* Create Flour (4761) for Shop */
+     , (24592, 4,  4746, -1, 0, 0, False) /* Create Water (4746) for Shop */
+     , (24592, 4,  2463, -1, 0, 0, False) /* Create Milk (2463) for Shop */
+     , (24592, 4,  4763, -1, 0, 0, False) /* Create Honey (4763) for Shop */
+     , (24592, 4,  4768, -1, 0, 0, False) /* Create Uncooked Rice (4768) for Shop */
+     , (24592, 4,  4755, -1, 0, 0, False) /* Create Brine (4755) for Shop */
+     , (24592, 4,  4766, -1, 0, 0, False) /* Create Rennet (4766) for Shop */
+     , (24592, 4, 23327, -1, 0, 0, False) /* Create Simple Dried Rations (23327) for Shop */
      , (24592, 4, 23326, -1, 0, 0, False) /* Create Elaborate Dried Rations (23326) for Shop */
-     , (24592, 4, 23327, -1, 0, 0, False) /* Create Simple Dried Rations (23327) for Shop */;
+     , (24592, 4,  4757, -1, 0, 0, False) /* Create Carving Knife (4757) for Shop */
+     , (24592, 4,  4767, -1, 0, 0, False) /* Create Skewer (4767) for Shop */
+     , (24592, 4,  4762, -1, 0, 0, False) /* Create Frying Pan (4762) for Shop */
+     , (24592, 4,  4754, -1, 0, 0, False) /* Create Baking Pan (4754) for Shop */
+     , (24592, 4,  4759, -1, 0, 0, False) /* Create Cooking Pot (4759) for Shop */
+     , (24592, 4,  4764, -1, 0, 0, False) /* Create Noodle Cutter (4764) for Shop */
+     , (24592, 4,  7824, -1, 0, 0, False) /* Create Metal Press (7824) for Shop */
+     , (24592, 4,   513, -1, 0, 0, False) /* Create Plain Lockpick (513) for Shop */
+     , (24592, 4,   545, -1, 0, 0, False) /* Create Reliable Lockpick (545) for Shop */
+     , (24592, 4,   512, -1, 0, 0, False) /* Create Good Lockpick (512) for Shop */
+     , (24592, 4,   514, -1, 0, 0, False) /* Create Excellent Lockpick (514) for Shop */
+     , (24592, 4,   515, -1, 0, 0, False) /* Create Superb Lockpick (515) for Shop */;

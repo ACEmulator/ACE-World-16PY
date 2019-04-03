@@ -553,7 +553,7 @@ VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 1090519043 /* Ready */, NULL, NU
      , (@parent_id,  3,  10 /* Tell */, 1, 1, NULL, 'Welcome to the Aluvian branch of the Bestowers'' Guild.  We have chartered ourselves to bestow titles upon worthy applicants.  My assistant Caranis sells instructions and skill puzzle pieces.  On the other side of the room, you can find the base piece for the skill puzzle.  But you may only attempt the test once per day, and you may only hold one title at a time.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (29468, 2,   118,  0, 13, 0.6, False) /* Create Cap (118) for Wield */
+VALUES (29468, 2,   130,  0, 2, 0.8, False) /* Create Shirt (130) for Wield */
      , (29468, 2,   127,  0, 9, 0, False) /* Create Pants (127) for Wield */
-     , (29468, 2,   130,  0, 2, 0.8, False) /* Create Shirt (130) for Wield */
-     , (29468, 2,  7897,  0, 9, 0, False) /* Create Steel Toed Boots (7897) for Wield */;
+     , (29468, 2,  7897,  0, 9, 0, False) /* Create Steel Toed Boots (7897) for Wield */
+     , (29468, 2,   118,  0, 13, 0.6, False) /* Create Cap (118) for Wield */;

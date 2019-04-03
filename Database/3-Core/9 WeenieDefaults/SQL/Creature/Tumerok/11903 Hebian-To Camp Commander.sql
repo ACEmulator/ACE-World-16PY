@@ -170,9 +170,9 @@ VALUES (@parent_id,  0,  19 /* CastSpellInstant */, 0, 1, NULL, NULL, NULL, NULL
      , (@parent_id,  1,  17 /* LocalBroadcast */, 0, 0, NULL, 'The dying Tumerok casts a portal to the Hebian-To Reinforcements Camp dungeon as it falls!', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (11903, 9,     0,  0, 0, 0.8, False) /* Create nothing for ContainTreasure */
-     , (11903, 9,     0,  0, 0, 0.99, False) /* Create nothing for ContainTreasure */
-     , (11903, 9,     0,  0, 0, 0.97, False) /* Create nothing for ContainTreasure */
-     , (11903, 9,  3695,  0, 0, 0.2, False) /* Create Gold Tumerok Insignia (3695) for ContainTreasure */
+VALUES (11903, 9,  3695,  0, 0, 0.2, False) /* Create Gold Tumerok Insignia (3695) for ContainTreasure */
+     , (11903, 9,     0,  0, 0, 0.8, False) /* Create nothing for ContainTreasure */
      , (11903, 9,  6876,  0, 0, 0.01, False) /* Create Sturdy Iron Key (6876) for ContainTreasure */
-     , (11903, 9,  7825,  0, 0, 0.03, False) /* Create Brown Beans (7825) for ContainTreasure */;
+     , (11903, 9,     0,  0, 0, 0.99, False) /* Create nothing for ContainTreasure */
+     , (11903, 9,  7825,  0, 0, 0.03, False) /* Create Brown Beans (7825) for ContainTreasure */
+     , (11903, 9,     0,  0, 0, 0.97, False) /* Create nothing for ContainTreasure */;

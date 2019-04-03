@@ -220,9 +220,9 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,  17 /* LocalBroadcast */, 0, 0, NULL, 'The air becomes heavy with ozone, and another creature spawns from the rift!', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (10815, 9,     0,  0, 0, 0.2, False) /* Create nothing for ContainTreasure */
+VALUES (10815, 9,  6876,  0, 0, 0.8, False) /* Create Sturdy Iron Key (6876) for ContainTreasure */
      , (10815, 9,     0,  0, 0, 0.2, False) /* Create nothing for ContainTreasure */
-     , (10815, 9,     0,  0, 0, 0.97, False) /* Create nothing for ContainTreasure */
-     , (10815, 9,  6876,  0, 0, 0.8, False) /* Create Sturdy Iron Key (6876) for ContainTreasure */
+     , (10815, 9, 10804,  0, 0, 0.8, False) /* Create Obsidian Shard (10804) for ContainTreasure */
+     , (10815, 9,     0,  0, 0, 0.2, False) /* Create nothing for ContainTreasure */
      , (10815, 9,  9292,  0, 0, 0.03, False) /* Create Virindi Singularity Key (9292) for ContainTreasure */
-     , (10815, 9, 10804,  0, 0, 0.8, False) /* Create Obsidian Shard (10804) for ContainTreasure */;
+     , (10815, 9,     0,  0, 0, 0.97, False) /* Create nothing for ContainTreasure */;

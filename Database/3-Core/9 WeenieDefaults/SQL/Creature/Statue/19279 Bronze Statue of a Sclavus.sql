@@ -147,5 +147,5 @@ VALUES (19279,  94) /* ATTACK_NOTIFICATION_EVENT */
      , (19279, 414) /* PLAYER_DEATH_EVENT */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (19279, 9,     0,  0, 0, 0.95, False) /* Create nothing for ContainTreasure */
-     , (19279, 9, 19253,  0, 0, 0.05, False) /* Create Bronze Spring from a Statue (19253) for ContainTreasure */;
+VALUES (19279, 9, 19253,  0, 0, 0.05, False) /* Create Bronze Spring from a Statue (19253) for ContainTreasure */
+     , (19279, 9,     0,  0, 0, 0.95, False) /* Create nothing for ContainTreasure */;

@@ -175,11 +175,11 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 268435538 /* Twitch2 */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (22903, 9,     0,  0, 0, 0.95, False) /* Create nothing for ContainTreasure */
+VALUES (22903, 9, 11692,  0, 0, 0.05, False) /* Create Little Green Seeds (11692) for ContainTreasure */
      , (22903, 9,     0,  0, 0, 0.95, False) /* Create nothing for ContainTreasure */
-     , (22903, 9,     0,  0, 0, 0.8, False) /* Create nothing for ContainTreasure */
+     , (22903, 9, 23108,  0, 0, 0.05, False) /* Create Twisted Dark Key (23108) for ContainTreasure */
      , (22903, 9,     0,  0, 0, 0.95, False) /* Create nothing for ContainTreasure */
-     , (22903, 9, 11692,  0, 0, 0.05, False) /* Create Little Green Seeds (11692) for ContainTreasure */
-     , (22903, 9, 22578,  0, 0, 0.05, False) /* Create Bunch of Nanners (22578) for ContainTreasure */
      , (22903, 9, 23107,  0, 0, 0.1, False) /* Create Mangled Dark Key (23107) for ContainTreasure */
-     , (22903, 9, 23108,  0, 0, 0.05, False) /* Create Twisted Dark Key (23108) for ContainTreasure */;
+     , (22903, 9,     0,  0, 0, 0.8, False) /* Create nothing for ContainTreasure */
+     , (22903, 9, 22578,  0, 0, 0.05, False) /* Create Bunch of Nanners (22578) for ContainTreasure */
+     , (22903, 9,     0,  0, 0, 0.95, False) /* Create nothing for ContainTreasure */;

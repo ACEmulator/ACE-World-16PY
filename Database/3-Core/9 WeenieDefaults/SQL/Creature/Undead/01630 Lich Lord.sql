@@ -169,19 +169,19 @@ VALUES (1630,  94) /* ATTACK_NOTIFICATION_EVENT */
      , (1630, 414) /* PLAYER_DEATH_EVENT */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (1630, 9,     0,  0, 0, 0.98, False) /* Create nothing for ContainTreasure */
-     , (1630, 9,     0,  0, 0, 0.96, False) /* Create nothing for ContainTreasure */
+VALUES (1630, 9,  7041,  0, 0, 0.02, False) /* Create Undead Thighbone (7041) for ContainTreasure */
      , (1630, 9,     0,  0, 0, 0.98, False) /* Create nothing for ContainTreasure */
-     , (1630, 9,     0,  0, 0, 0.95, False) /* Create nothing for ContainTreasure */
-     , (1630, 9,     0,  0, 0, 0.95, False) /* Create nothing for ContainTreasure */
-     , (1630, 9,     0,  0, 0, 0.95, False) /* Create nothing for ContainTreasure */
-     , (1630, 9,     0,  0, 0, 0.95, False) /* Create nothing for ContainTreasure */
-     , (1630, 9,     0,  0, 0, 0.95, False) /* Create nothing for ContainTreasure */
-     , (1630, 9,  7041,  0, 0, 0.02, False) /* Create Undead Thighbone (7041) for ContainTreasure */
      , (1630, 9,  9312,  0, 0, 0.04, False) /* Create A Small Mnemosyne (9312) for ContainTreasure */
-     , (1630, 9, 12225,  0, 0, 0.05, False) /* Create Zombie Head (12225) for ContainTreasure */
+     , (1630, 9,     0,  0, 0, 0.96, False) /* Create nothing for ContainTreasure */
      , (1630, 9, 15770,  0, 0, 0.02, False) /* Create Ruined Amulet of the Staff (15770) for ContainTreasure */
+     , (1630, 9,     0,  0, 0, 0.98, False) /* Create nothing for ContainTreasure */
      , (1630, 9, 19477,  0, 0, 0.05, False) /* Create Undead Femur bone (19477) for ContainTreasure */
+     , (1630, 9,     0,  0, 0, 0.95, False) /* Create nothing for ContainTreasure */
+     , (1630, 9, 12225,  0, 0, 0.05, False) /* Create Zombie Head (12225) for ContainTreasure */
+     , (1630, 9,     0,  0, 0, 0.95, False) /* Create nothing for ContainTreasure */
      , (1630, 9, 22028,  0, 0, 0.05, False) /* Create Undead Arm (22028) for ContainTreasure */
+     , (1630, 9,     0,  0, 0, 0.95, False) /* Create nothing for ContainTreasure */
      , (1630, 9, 22032,  0, 0, 0.05, False) /* Create Undead Leg (22032) for ContainTreasure */
-     , (1630, 9, 22048,  0, 0, 0.05, False) /* Create Undead Torso (22048) for ContainTreasure */;
+     , (1630, 9,     0,  0, 0, 0.95, False) /* Create nothing for ContainTreasure */
+     , (1630, 9, 22048,  0, 0, 0.05, False) /* Create Undead Torso (22048) for ContainTreasure */
+     , (1630, 9,     0,  0, 0, 0.95, False) /* Create nothing for ContainTreasure */;

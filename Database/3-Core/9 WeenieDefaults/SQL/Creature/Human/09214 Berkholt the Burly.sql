@@ -120,6 +120,6 @@ VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 1090519043 /* Ready */, NULL, NU
      , (@parent_id,  2,  10 /* Tell */, 1, 1, NULL, 'Should''ve stayed in Arwic...', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (9214, 2,   115,  0, 9, 0, False) /* Create Leather Boots (115) for Wield */
+VALUES (9214, 2,   134,  0, 4, 0.6, False) /* Create Tunic (134) for Wield */
      , (9214, 2,   127,  0, 5, 0.67, False) /* Create Pants (127) for Wield */
-     , (9214, 2,   134,  0, 4, 0.6, False) /* Create Tunic (134) for Wield */;
+     , (9214, 2,   115,  0, 9, 0, False) /* Create Leather Boots (115) for Wield */;

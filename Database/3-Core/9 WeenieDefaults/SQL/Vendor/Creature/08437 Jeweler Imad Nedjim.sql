@@ -181,8 +181,8 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 318767235 /* Nod */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (8437, 2,   127,  0, 9, 0.5, False) /* Create Pants (127) for Wield */
-     , (8437, 2,   130,  0, 9, 1, False) /* Create Shirt (130) for Wield */
+VALUES (8437, 2,   130,  0, 9, 1, False) /* Create Shirt (130) for Wield */
+     , (8437, 2,   127,  0, 9, 0.5, False) /* Create Pants (127) for Wield */
      , (8437, 2,   133,  0, 9, 1, False) /* Create Slippers (133) for Wield */
      , (8437, 2,  5894,  0, 2, 1, False) /* Create Fez (5894) for Wield */
      , (8437, 2, 10696,  0, 16, 1, False) /* Create Apron (10696) for Wield */

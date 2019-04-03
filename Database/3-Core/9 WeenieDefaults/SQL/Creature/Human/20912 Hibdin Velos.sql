@@ -187,6 +187,6 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,  10 /* Tell */, 0, 1, NULL, 'This should not be possible.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (20912, 2,   127,  0, 14, 0, False) /* Create Pants (127) for Wield */
-     , (20912, 2,   133,  0, 4, 0.8, False) /* Create Slippers (133) for Wield */
-     , (20912, 2,   134,  0, 2, 1, False) /* Create Tunic (134) for Wield */;
+VALUES (20912, 2,   134,  0, 2, 1, False) /* Create Tunic (134) for Wield */
+     , (20912, 2,   127,  0, 14, 0, False) /* Create Pants (127) for Wield */
+     , (20912, 2,   133,  0, 4, 0.8, False) /* Create Slippers (133) for Wield */;

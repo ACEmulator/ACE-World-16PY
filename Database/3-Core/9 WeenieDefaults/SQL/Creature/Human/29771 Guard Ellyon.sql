@@ -240,5 +240,5 @@ VALUES (@parent_id,  0,  31 /* EraseQuest */, 0, 1, NULL, 'ReeshanBeaten', NULL,
      , (@parent_id,  4,  10 /* Tell */, 0, 1, NULL, 'This is for your efforts against the Burun Kukuur, King Reeshan. You will need to wait three weeks before returning to me for another reward. If you wish to change your title and you have a scrap of Reeshan''s hide I will accept the hide and give you a token that can be used to rename you to Reeshan Killer!', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (29771, 2,   118,  0, 14, 1, False) /* Create Cap (118) for Wield */
-     , (29771, 2, 10870,  0, 17, 0.7, False) /* Create Canescent Mattekar Robe (10870) for Wield */;
+VALUES (29771, 2, 10870,  0, 17, 0.7, False) /* Create Canescent Mattekar Robe (10870) for Wield */
+     , (29771, 2,   118,  0, 14, 1, False) /* Create Cap (118) for Wield */;

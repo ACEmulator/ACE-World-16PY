@@ -174,6 +174,10 @@ VALUES (12171, 2,  5850,  0, 14, 0.67, False) /* Create Faran Robe (5850) for Wi
      , (12171, 4,  9551, -1, 0, 0, False) /* Create Armor Expertise IV (9551) for Shop */
      , (12171, 4,  9552, -1, 0, 0, False) /* Create Armor Expertise V (9552) for Shop */
      , (12171, 4,  9553, -1, 0, 0, False) /* Create Armor Expertise VI (9553) for Shop */
+     , (12171, 4, 12181, -1, 0, 0, False) /* Create Item Expertise III (12181) for Shop */
+     , (12171, 4, 12182, -1, 0, 0, False) /* Create Item Expertise IV (12182) for Shop */
+     , (12171, 4, 12183, -1, 0, 0, False) /* Create Item Expertise V (12183) for Shop */
+     , (12171, 4, 12184, -1, 0, 0, False) /* Create Item Expertise VI (12184) for Shop */
      , (12171, 4,  9554, -1, 0, 0, False) /* Create Magic Item Expertise III (9554) for Shop */
      , (12171, 4,  9555, -1, 0, 0, False) /* Create Magic Item Expertise IV (9555) for Shop */
      , (12171, 4,  9556, -1, 0, 0, False) /* Create Magic Item Expertise V (9556) for Shop */
@@ -181,8 +185,4 @@ VALUES (12171, 2,  5850,  0, 14, 0.67, False) /* Create Faran Robe (5850) for Wi
      , (12171, 4,  9558, -1, 0, 0, False) /* Create Weapon Expertise III (9558) for Shop */
      , (12171, 4,  9559, -1, 0, 0, False) /* Create Weapon Expertise IV (9559) for Shop */
      , (12171, 4,  9560, -1, 0, 0, False) /* Create Weapon Expertise V (9560) for Shop */
-     , (12171, 4,  9561, -1, 0, 0, False) /* Create Weapon Expertise VI (9561) for Shop */
-     , (12171, 4, 12181, -1, 0, 0, False) /* Create Item Expertise III (12181) for Shop */
-     , (12171, 4, 12182, -1, 0, 0, False) /* Create Item Expertise IV (12182) for Shop */
-     , (12171, 4, 12183, -1, 0, 0, False) /* Create Item Expertise V (12183) for Shop */
-     , (12171, 4, 12184, -1, 0, 0, False) /* Create Item Expertise VI (12184) for Shop */;
+     , (12171, 4,  9561, -1, 0, 0, False) /* Create Weapon Expertise VI (9561) for Shop */;

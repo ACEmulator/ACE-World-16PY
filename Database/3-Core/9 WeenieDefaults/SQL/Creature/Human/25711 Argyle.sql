@@ -159,7 +159,7 @@ VALUES (@parent_id,  0,  13 /* TextDirect */, 0, 1, NULL, 'You think, "I started
      , (@parent_id, 13,  13 /* TextDirect */, 0.5, 1, NULL, 'You think, "The world was spinning again. I knew where I''d end up. The bandits had their orders. I was being kept alive for some purpose. I''d find myself back in the cage..."', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (25711, 2,   115,  0, 4, 0.4, False) /* Create Leather Boots (115) for Wield */
-     , (25711, 2,  2591,  0, 9, 0, False) /* Create Shirt (2591) for Wield */
+VALUES (25711, 2,  2591,  0, 9, 0, False) /* Create Shirt (2591) for Wield */
+     , (25711, 2, 25702,  0, 0, 0, False) /* Create Bandit Mask (25702) for Wield */
      , (25711, 2,  2597,  0, 14, 0, False) /* Create Pants (2597) for Wield */
-     , (25711, 2, 25702,  0, 0, 0, False) /* Create Bandit Mask (25702) for Wield */;
+     , (25711, 2,   115,  0, 4, 0.4, False) /* Create Leather Boots (115) for Wield */;

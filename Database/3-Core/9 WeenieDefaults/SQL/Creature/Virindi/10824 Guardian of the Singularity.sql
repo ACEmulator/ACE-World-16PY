@@ -197,14 +197,14 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 268435539 /* Twitch3 */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (10824, 9,     0,  0, 0, 0.95, False) /* Create nothing for ContainTreasure */
+VALUES (10824, 9,  7604,  0, 0, 0.05, False) /* Create Yellow Jewel (7604) for ContainTreasure */
      , (10824, 9,     0,  0, 0, 0.95, False) /* Create nothing for ContainTreasure */
-     , (10824, 9,     0,  0, 0, 0.96, False) /* Create nothing for ContainTreasure */
-     , (10824, 9,     0,  0, 0, 0.97, False) /* Create nothing for ContainTreasure */
-     , (10824, 9,     0,  0, 0, 0.97, False) /* Create nothing for ContainTreasure */
-     , (10824, 9,  7604,  0, 0, 0.05, False) /* Create Yellow Jewel (7604) for ContainTreasure */
      , (10824, 9,  9292,  0, 0, 0.05, False) /* Create Virindi Singularity Key (9292) for ContainTreasure */
+     , (10824, 9,     0,  0, 0, 0.95, False) /* Create nothing for ContainTreasure */
      , (10824, 9, 20863,  0, 0, 0.04, False) /* Create Virindi Stamp (20863) for ContainTreasure */
+     , (10824, 9,     0,  0, 0, 0.96, False) /* Create nothing for ContainTreasure */
      , (10824, 9, 24477,  0, 0, 0.03, False) /* Create Sturdy Steel Key (24477) for ContainTreasure */
+     , (10824, 9,     0,  0, 0, 0.97, False) /* Create nothing for ContainTreasure */
      , (10824, 9, 25339,  0, 0, 0.03, False) /* Create Broken Virindi Consul Mask (25339) for ContainTreasure */
+     , (10824, 9,     0,  0, 0, 0.97, False) /* Create nothing for ContainTreasure */
      , (10824, 9, 25949,  0, 0, 1, False) /* Create Quintessence Sickle (25949) for ContainTreasure */;

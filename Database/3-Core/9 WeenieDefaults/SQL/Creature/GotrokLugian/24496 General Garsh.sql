@@ -118,7 +118,7 @@ VALUES (24496,  94) /* ATTACK_NOTIFICATION_EVENT */
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (24496, 2, 24567,  0, 0, 0, False) /* Create Quadruple-bladed Axe (24567) for Wield */
-     , (24496, 9,     0,  0, 0, 0.95, False) /* Create nothing for ContainTreasure */
-     , (24496, 9,     0,  0, 0, 0, False) /* Create nothing for ContainTreasure */
      , (24496, 9, 24477,  0, 0, 0.05, False) /* Create Sturdy Steel Key (24477) for ContainTreasure */
-     , (24496, 9, 24557,  0, 0, 1, False) /* Create Quadruple-bladed Axe (24557) for ContainTreasure */;
+     , (24496, 9,     0,  0, 0, 0.95, False) /* Create nothing for ContainTreasure */
+     , (24496, 9, 24557,  0, 0, 1, False) /* Create Quadruple-bladed Axe (24557) for ContainTreasure */
+     , (24496, 9,     0,  0, 0, 0, False) /* Create nothing for ContainTreasure */;

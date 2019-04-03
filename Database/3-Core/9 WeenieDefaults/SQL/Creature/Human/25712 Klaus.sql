@@ -141,7 +141,7 @@ VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 1090519043 /* Ready */, NULL, NU
      , (@parent_id,  7,  13 /* TextDirect */, 0, 1, NULL, 'You think, "He was looking for a bribe. I just might have the money he needed."', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (25712, 2,   115,  0, 4, 0.4, False) /* Create Leather Boots (115) for Wield */
+VALUES (25712, 2,  2591,  0, 9, 0, False) /* Create Shirt (2591) for Wield */
      , (25712, 2,   118,  0, 9, 0, False) /* Create Cap (118) for Wield */
-     , (25712, 2,  2591,  0, 9, 0, False) /* Create Shirt (2591) for Wield */
-     , (25712, 2,  2597,  0, 14, 0, False) /* Create Pants (2597) for Wield */;
+     , (25712, 2,  2597,  0, 14, 0, False) /* Create Pants (2597) for Wield */
+     , (25712, 2,   115,  0, 4, 0.4, False) /* Create Leather Boots (115) for Wield */;

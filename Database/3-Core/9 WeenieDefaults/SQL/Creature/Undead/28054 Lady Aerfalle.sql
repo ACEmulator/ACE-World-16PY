@@ -335,23 +335,23 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,  17 /* LocalBroadcast */, 0, 0, NULL, 'A coolly amused voice seeps across your mind, "Is that the extent of thy powers, child? I shall show thee true power!"', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (28054, 9,     0,  0, 0, 0, False) /* Create nothing for ContainTreasure */
+VALUES (28054, 9, 28057,  1, 0, 1, False) /* Create Ornate Ashen Key (28057) for ContainTreasure */
      , (28054, 9,     0,  0, 0, 0, False) /* Create nothing for ContainTreasure */
+     , (28054, 9, 28057,  1, 0, 1, False) /* Create Ornate Ashen Key (28057) for ContainTreasure */
      , (28054, 9,     0,  0, 0, 0, False) /* Create nothing for ContainTreasure */
+     , (28054, 9, 28057,  1, 0, 1, False) /* Create Ornate Ashen Key (28057) for ContainTreasure */
      , (28054, 9,     0,  0, 0, 0, False) /* Create nothing for ContainTreasure */
+     , (28054, 9, 28057,  1, 0, 1, False) /* Create Ornate Ashen Key (28057) for ContainTreasure */
      , (28054, 9,     0,  0, 0, 0, False) /* Create nothing for ContainTreasure */
+     , (28054, 9, 28057,  1, 0, 1, False) /* Create Ornate Ashen Key (28057) for ContainTreasure */
      , (28054, 9,     0,  0, 0, 0, False) /* Create nothing for ContainTreasure */
+     , (28054, 9, 28057,  1, 0, 1, False) /* Create Ornate Ashen Key (28057) for ContainTreasure */
      , (28054, 9,     0,  0, 0, 0, False) /* Create nothing for ContainTreasure */
+     , (28054, 9, 28057,  1, 0, 1, False) /* Create Ornate Ashen Key (28057) for ContainTreasure */
      , (28054, 9,     0,  0, 0, 0, False) /* Create nothing for ContainTreasure */
+     , (28054, 9, 28057,  1, 0, 1, False) /* Create Ornate Ashen Key (28057) for ContainTreasure */
      , (28054, 9,     0,  0, 0, 0, False) /* Create nothing for ContainTreasure */
+     , (28054, 9, 28057,  1, 0, 1, False) /* Create Ornate Ashen Key (28057) for ContainTreasure */
      , (28054, 9,     0,  0, 0, 0, False) /* Create nothing for ContainTreasure */
      , (28054, 9,  7380,  0, 0, 1, False) /* Create Sheets of Paper (7380) for ContainTreasure */
-     , (28054, 9, 28057,  1, 0, 1, False) /* Create Ornate Ashen Key (28057) for ContainTreasure */
-     , (28054, 9, 28057,  1, 0, 1, False) /* Create Ornate Ashen Key (28057) for ContainTreasure */
-     , (28054, 9, 28057,  1, 0, 1, False) /* Create Ornate Ashen Key (28057) for ContainTreasure */
-     , (28054, 9, 28057,  1, 0, 1, False) /* Create Ornate Ashen Key (28057) for ContainTreasure */
-     , (28054, 9, 28057,  1, 0, 1, False) /* Create Ornate Ashen Key (28057) for ContainTreasure */
-     , (28054, 9, 28057,  1, 0, 1, False) /* Create Ornate Ashen Key (28057) for ContainTreasure */
-     , (28054, 9, 28057,  1, 0, 1, False) /* Create Ornate Ashen Key (28057) for ContainTreasure */
-     , (28054, 9, 28057,  1, 0, 1, False) /* Create Ornate Ashen Key (28057) for ContainTreasure */
-     , (28054, 9, 28057,  1, 0, 1, False) /* Create Ornate Ashen Key (28057) for ContainTreasure */;
+     , (28054, 9,     0,  0, 0, 0, False) /* Create nothing for ContainTreasure */;

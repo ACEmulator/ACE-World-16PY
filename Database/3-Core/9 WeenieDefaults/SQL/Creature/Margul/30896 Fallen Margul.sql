@@ -178,6 +178,6 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 268435537 /* Twitch1 */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (30896, 9,     0,  0, 0, 0.5, False) /* Create nothing for ContainTreasure */
+VALUES (30896, 9, 30873,  0, 0, 1, False) /* Create Spear of the Fallen (30873) for ContainTreasure */
      , (30896, 9, 30857,  0, 0, 0.5, False) /* Create Sezzherei's Lair (30857) for ContainTreasure */
-     , (30896, 9, 30873,  0, 0, 1, False) /* Create Spear of the Fallen (30873) for ContainTreasure */;
+     , (30896, 9,     0,  0, 0, 0.5, False) /* Create nothing for ContainTreasure */;

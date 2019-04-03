@@ -209,8 +209,8 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 268435537 /* Twitch1 */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (5767, 1,  5758,  1, 0, 1, False) /* Create Carrot (5758) for Contain */
-     , (5767, 1,  5770, 14, 0, 1, False) /* Create "Enchanted" Iceball (5770) for Contain */
+VALUES (5767, 1,  5770, 14, 0, 1, False) /* Create "Enchanted" Iceball (5770) for Contain */
+     , (5767, 1,  5758,  1, 0, 1, False) /* Create Carrot (5758) for Contain */
      , (5767, 2,  5770, 10, 0, 1, False) /* Create "Enchanted" Iceball (5770) for Wield */
      , (5767, 4,  5769, -1, 0, 0, False) /* Create Iceball (5769) for Shop */
      , (5767, 4,  5770, -1, 0, 0, False) /* Create "Enchanted" Iceball (5770) for Shop */

@@ -128,9 +128,9 @@ VALUES (11523,  94) /* ATTACK_NOTIFICATION_EVENT */
      , (11523, 414) /* PLAYER_DEATH_EVENT */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (11523, 9,     0,  0, 0, 0.97, False) /* Create nothing for ContainTreasure */
+VALUES (11523, 9, 11454,  0, 0, 0.03, False) /* Create Totem of Audetaunga (11454) for ContainTreasure */
      , (11523, 9,     0,  0, 0, 0.97, False) /* Create nothing for ContainTreasure */
-     , (11523, 9,     0,  0, 0, 0.97, False) /* Create nothing for ContainTreasure */
-     , (11523, 9, 11454,  0, 0, 0.03, False) /* Create Totem of Audetaunga (11454) for ContainTreasure */
      , (11523, 9, 11455,  0, 0, 0.03, False) /* Create Totem of Tanae (11455) for ContainTreasure */
-     , (11523, 9, 11456,  0, 0, 0.03, False) /* Create Totem of Volkama (11456) for ContainTreasure */;
+     , (11523, 9,     0,  0, 0, 0.97, False) /* Create nothing for ContainTreasure */
+     , (11523, 9, 11456,  0, 0, 0.03, False) /* Create Totem of Volkama (11456) for ContainTreasure */
+     , (11523, 9,     0,  0, 0, 0.97, False) /* Create nothing for ContainTreasure */;

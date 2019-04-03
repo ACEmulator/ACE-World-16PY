@@ -553,7 +553,7 @@ VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 1090519043 /* Ready */, NULL, NU
      , (@parent_id,  3,  10 /* Tell */, 1, 1, NULL, 'Hail and welcome to the Gharu''ndim branch of the Bestowers'' Guild.  Have you come to seek a title?  Speak with Nerezi, my assistant, to learn about our application process.  The base piece for the examination is available in the tent.  But beware, you will only be allowed to conduct the examination once per day, and you can only hold one title at a time.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (9545, 2,   127,  0, 9, 0, False) /* Create Pants (127) for Wield */
-     , (9545, 2,   130,  0, 9, 1, False) /* Create Shirt (130) for Wield */
+VALUES (9545, 2,   130,  0, 9, 1, False) /* Create Shirt (130) for Wield */
+     , (9545, 2,   127,  0, 9, 0, False) /* Create Pants (127) for Wield */
      , (9545, 2,   132,  0, 4, 0.8, False) /* Create Shoes (132) for Wield */
      , (9545, 2,  5894,  0, 14, 0.7, False) /* Create Fez (5894) for Wield */;

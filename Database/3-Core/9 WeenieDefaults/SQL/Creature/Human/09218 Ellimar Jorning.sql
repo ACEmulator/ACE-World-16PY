@@ -124,7 +124,7 @@ VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 1090519043 /* Ready */, NULL, NU
      , (@parent_id,  2,  10 /* Tell */, 1, 1, NULL, 'I used to heal... but I cannot awaken...', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (9218, 2,   117,  0, 9, 1, False) /* Create Breeches (117) for Wield */
-     , (9218, 2,   119,  0, 4, 0.6, False) /* Create Cowl (119) for Wield */
-     , (9218, 2,   124,  0, 16, 1, False) /* Create Jerkin (124) for Wield */
-     , (9218, 2,   132,  0, 4, 0.6, False) /* Create Shoes (132) for Wield */;
+VALUES (9218, 2,   124,  0, 16, 1, False) /* Create Jerkin (124) for Wield */
+     , (9218, 2,   117,  0, 9, 1, False) /* Create Breeches (117) for Wield */
+     , (9218, 2,   132,  0, 4, 0.6, False) /* Create Shoes (132) for Wield */
+     , (9218, 2,   119,  0, 4, 0.6, False) /* Create Cowl (119) for Wield */;

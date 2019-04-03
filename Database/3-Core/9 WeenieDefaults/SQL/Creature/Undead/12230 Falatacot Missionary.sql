@@ -193,14 +193,14 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,  17 /* LocalBroadcast */, 0, 0, NULL, 'You hear soft chanting in the distance, in some odd language.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (12230, 9,     0,  0, 0, 0.92, False) /* Create nothing for ContainTreasure */
-     , (12230, 9,     0,  0, 0, 0.99, False) /* Create nothing for ContainTreasure */
-     , (12230, 9,     0,  0, 0, 0.98, False) /* Create nothing for ContainTreasure */
-     , (12230, 9,     0,  0, 0, 0.96, False) /* Create nothing for ContainTreasure */
+VALUES (12230, 9, 12226,  0, 0, 0.08, False) /* Create Crest of the Falatacot Lords (12226) for ContainTreasure */
+     , (12230, 9,     0,  0, 0, 0.92, False) /* Create nothing for ContainTreasure */
      , (12230, 9,  5873,  0, 0, 0.01, False) /* Create Seal (5873) for ContainTreasure */
+     , (12230, 9,     0,  0, 0, 0.99, False) /* Create nothing for ContainTreasure */
      , (12230, 9,  7041,  0, 0, 0.02, False) /* Create Undead Thighbone (7041) for ContainTreasure */
+     , (12230, 9,     0,  0, 0, 0.98, False) /* Create nothing for ContainTreasure */
      , (12230, 9,  9312,  0, 0, 0.04, False) /* Create A Small Mnemosyne (9312) for ContainTreasure */
-     , (12230, 9, 12226,  0, 0, 0.08, False) /* Create Crest of the Falatacot Lords (12226) for ContainTreasure */;
+     , (12230, 9,     0,  0, 0, 0.96, False) /* Create nothing for ContainTreasure */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (12230, 0.33, 1630, 20, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Lich Lord (1630) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Scatter */

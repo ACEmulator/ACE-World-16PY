@@ -108,7 +108,7 @@ VALUES (@parent_id,  0,  17 /* LocalBroadcast */, 0, 0, NULL, 'The wind blows ho
      , (@parent_id,  1,   9 /* Sound */, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 37 /* Sling */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (11205, 2,   132,  0, 2, 0.5, False) /* Create Shoes (132) for Wield */
-     , (11205, 2,  2590,  0, 8, 1, False) /* Create Shirt (2590) for Wield */
+VALUES (11205, 2,  2590,  0, 8, 1, False) /* Create Shirt (2590) for Wield */
      , (11205, 2,  2598,  0, 4, 0.8, False) /* Create Pants (2598) for Wield */
+     , (11205, 2,   132,  0, 2, 0.5, False) /* Create Shoes (132) for Wield */
      , (11205, 2,  5905,  0, 2, 0.8, False) /* Create Hood (5905) for Wield */;

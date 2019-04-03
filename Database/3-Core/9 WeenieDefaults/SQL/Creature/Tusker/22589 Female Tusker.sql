@@ -173,5 +173,5 @@ VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 268435538 /* Twitch2 */, NULL, N
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (22589, 1, 22423,  1, 0, 0, False) /* Create Female Tusker Tusk (22423) for Contain */
-     , (22589, 9,     0,  0, 0, 0.99, False) /* Create nothing for ContainTreasure */
-     , (22589, 9, 22578,  0, 0, 0.01, False) /* Create Bunch of Nanners (22578) for ContainTreasure */;
+     , (22589, 9, 22578,  0, 0, 0.01, False) /* Create Bunch of Nanners (22578) for ContainTreasure */
+     , (22589, 9,     0,  0, 0, 0.99, False) /* Create nothing for ContainTreasure */;

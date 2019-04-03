@@ -183,10 +183,10 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 318767235 /* Nod */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (1820, 2,   127,  0, 6, 0, False) /* Create Pants (127) for Wield */
-     , (1820, 2,   128,  0, 17, 1, False) /* Create Qafiya (128) for Wield */
+VALUES (1820, 2,   130,  0, 18, 1, False) /* Create Shirt (130) for Wield */
+     , (1820, 2,   127,  0, 6, 0, False) /* Create Pants (127) for Wield */
      , (1820, 2,   129,  0, 4, 0.6, False) /* Create Sandals (129) for Wield */
-     , (1820, 2,   130,  0, 18, 1, False) /* Create Shirt (130) for Wield */
+     , (1820, 2,   128,  0, 17, 1, False) /* Create Qafiya (128) for Wield */
      , (1820, 2, 10696,  0, 9, 0.5, False) /* Create Apron (10696) for Wield */
      , (1820, 4,   621, -1, 0, 0, False) /* Create Heavy Bracelet (621) for Shop */
      , (1820, 4,   623, -1, 0, 0, False) /* Create Heavy Necklace (623) for Shop */

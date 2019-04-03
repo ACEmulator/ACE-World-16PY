@@ -186,11 +186,11 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 268435537 /* Twitch1 */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (7346, 9,     0,  0, 0, 0.95, False) /* Create nothing for ContainTreasure */
-     , (7346, 9,     0,  0, 0, 0.98, False) /* Create nothing for ContainTreasure */
-     , (7346, 9,     0,  0, 0, 0.97, False) /* Create nothing for ContainTreasure */
+VALUES (7346, 9,  3693,  0, 0, 0.05, False) /* Create Banderling Scalp (3693) for ContainTreasure */
      , (7346, 9,     0,  0, 0, 0.95, False) /* Create nothing for ContainTreasure */
-     , (7346, 9,  3693,  0, 0, 0.05, False) /* Create Banderling Scalp (3693) for ContainTreasure */
      , (7346, 9,  6876,  0, 0, 0.02, False) /* Create Sturdy Iron Key (6876) for ContainTreasure */
+     , (7346, 9,     0,  0, 0, 0.98, False) /* Create nothing for ContainTreasure */
      , (7346, 9,  7825,  0, 0, 0.03, False) /* Create Brown Beans (7825) for ContainTreasure */
-     , (7346, 9, 30913,  0, 0, 0.05, False) /* Create Halaetan Magic Page 8 (30913) for ContainTreasure */;
+     , (7346, 9,     0,  0, 0, 0.97, False) /* Create nothing for ContainTreasure */
+     , (7346, 9, 30913,  0, 0, 0.05, False) /* Create Halaetan Magic Page 8 (30913) for ContainTreasure */
+     , (7346, 9,     0,  0, 0, 0.95, False) /* Create nothing for ContainTreasure */;

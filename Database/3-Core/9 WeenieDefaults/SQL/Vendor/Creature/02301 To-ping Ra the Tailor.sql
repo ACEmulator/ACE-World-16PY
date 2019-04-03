@@ -169,15 +169,15 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 318767235 /* Nod */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (2301, 2,   115,  0, 4, 0.8, False) /* Create Leather Boots (115) for Wield */
-     , (2301, 2,   118,  0, 17, 1, False) /* Create Cap (118) for Wield */
+VALUES (2301, 2,   130,  0, 17, 1, False) /* Create Shirt (130) for Wield */
      , (2301, 2,   127,  0, 4, 0.8, False) /* Create Pants (127) for Wield */
-     , (2301, 2,   130,  0, 17, 1, False) /* Create Shirt (130) for Wield */
+     , (2301, 2,   115,  0, 4, 0.8, False) /* Create Leather Boots (115) for Wield */
+     , (2301, 2,   118,  0, 17, 1, False) /* Create Cap (118) for Wield */
      , (2301, 2, 10696,  0, 9, 0, False) /* Create Apron (10696) for Wield */
      , (2301, 4,   118, -1, 5, 1, False) /* Create Cap (118) for Shop */
-     , (2301, 4,   132, -1, 4, 0.5, False) /* Create Shoes (132) for Shop */
      , (2301, 4,  2594, -1, 2, 1, False) /* Create Tunic (2594) for Shop */
      , (2301, 4,  2602, -1, 9, 0.35, False) /* Create Breeches (2602) for Shop */
+     , (2301, 4,   132, -1, 4, 0.5, False) /* Create Shoes (132) for Shop */
      , (2301, 4,  5854, -1, 0, 0, False) /* Create Suikan Robe (5854) for Shop */
      , (2301, 4,  5901, -1, 0, 0, False) /* Create Kasa (5901) for Shop */
      , (2301, 4,  8372, -1, 17, 0.9, False) /* Create Yifan Dress (8372) for Shop */;

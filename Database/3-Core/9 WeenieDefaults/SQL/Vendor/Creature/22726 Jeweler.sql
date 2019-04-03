@@ -136,8 +136,8 @@ INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `w
 VALUES (22726, 2, 10757,  0, 8, 0.5, False) /* Create Towel (10757) for Wield */
      , (22726, 4,   294, -1, 0, 0, False) /* Create Amulet (294) for Shop */
      , (22726, 4,   297, -1, 0, 0, False) /* Create Ring (297) for Shop */
-     , (22726, 4,  2396, -1, 0, 0, False) /* Create Jet (2396) for Shop */
      , (22726, 4,  2426, -1, 0, 0, False) /* Create Amber  (2426) for Shop */
+     , (22726, 4,  2396, -1, 0, 0, False) /* Create Jet (2396) for Shop */
      , (22726, 4,  2621, -1, 0, 0, False) /* Create Trade Note (100) (2621) for Shop */
      , (22726, 4,  2622, -1, 0, 0, False) /* Create Trade Note (500) (2622) for Shop */
      , (22726, 4,  2623, -1, 0, 0, False) /* Create Trade Note (1,000) (2623) for Shop */;

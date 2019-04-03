@@ -156,13 +156,13 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   7 /* PhysScript */, 0, 0.5, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 117 /* UnHide */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (5430, 10,   301,  0, 0, 0.1, False) /* Create Battle Axe (301) for WieldTreasure */
-     , (5430, 10,   322,  0, 0, 0.1, False) /* Create Jo (322) for WieldTreasure */
-     , (5430, 10,   331,  0, 0, 0.1, False) /* Create Mace (331) for WieldTreasure */
-     , (5430, 10,   351,  0, 0, 0.1, False) /* Create Long Sword (351) for WieldTreasure */
-     , (5430, 10,   352,  0, 0, 0.1, False) /* Create Short Sword (352) for WieldTreasure */
+VALUES (5430, 10,  3891,  0, 0, 0.05, False) /* Create Flaming Tachi (3891) for WieldTreasure */
      , (5430, 10,  3795,  0, 0, 0.05, False) /* Create Lightning Jambiya (3795) for WieldTreasure */
      , (5430, 10,  3876,  0, 0, 0.1, False) /* Create Frost Spear (3876) for WieldTreasure */
      , (5430, 10,  3881,  0, 0, 0.1, False) /* Create Acid Long Sword (3881) for WieldTreasure */
-     , (5430, 10,  3891,  0, 0, 0.05, False) /* Create Flaming Tachi (3891) for WieldTreasure */
-     , (5430, 10,  4190,  0, 0, 0.1, False) /* Create Cestus (4190) for WieldTreasure */;
+     , (5430, 10,   301,  0, 0, 0.1, False) /* Create Battle Axe (301) for WieldTreasure */
+     , (5430, 10,  4190,  0, 0, 0.1, False) /* Create Cestus (4190) for WieldTreasure */
+     , (5430, 10,   322,  0, 0, 0.1, False) /* Create Jo (322) for WieldTreasure */
+     , (5430, 10,   331,  0, 0, 0.1, False) /* Create Mace (331) for WieldTreasure */
+     , (5430, 10,   351,  0, 0, 0.1, False) /* Create Long Sword (351) for WieldTreasure */
+     , (5430, 10,   352,  0, 0, 0.1, False) /* Create Short Sword (352) for WieldTreasure */;

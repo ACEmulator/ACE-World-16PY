@@ -240,26 +240,26 @@ VALUES (2542, 2,   124,  0, 17, 0.3, False) /* Create Jerkin (124) for Wield */
      , (2542, 2,   127,  0, 17, 1, False) /* Create Pants (127) for Wield */
      , (2542, 2,   132,  0, 17, 1, False) /* Create Shoes (132) for Wield */
      , (2542, 2, 10696,  0, 9, 0.5, False) /* Create Apron (10696) for Wield */
+     , (2542, 4,  2457, -1, 0, 0, False) /* Create Health Draught (2457) for Shop */
      , (2542, 4,   377, -1, 0, 0, False) /* Create Potion of Healing (377) for Shop */
-     , (2542, 4,   378, -1, 0, 0, False) /* Create Stamina Potion (378) for Shop */
+     , (2542, 4, 27319, -1, 0, 0, False) /* Create Health Tincture (27319) for Shop */
+     , (2542, 4,  2460, -1, 0, 0, False) /* Create Mana Draught (2460) for Shop */
      , (2542, 4,   379, -1, 0, 0, False) /* Create Mana Potion (379) for Shop */
+     , (2542, 4, 27322, -1, 0, 0, False) /* Create Mana Tincture (27322) for Shop */
+     , (2542, 4,   378, -1, 0, 0, False) /* Create Stamina Potion (378) for Shop */
+     , (2542, 4, 27326, -1, 0, 0, False) /* Create Stamina Tincture (27326) for Shop */
+     , (2542, 4,  2470, -1, 0, 0, False) /* Create Stamina Elixir (2470) for Shop */
      , (2542, 4,   628, -1, 0, 0, False) /* Create Handy Healing Kit (628) for Shop */
      , (2542, 4,   629, -1, 0, 0, False) /* Create Adept Healing Kit (629) for Shop */
      , (2542, 4,   630, -1, 0, 0, False) /* Create Gifted Healing Kit (630) for Shop */
      , (2542, 4,   631, -1, 0, 0, False) /* Create Excellent Healing Kit (631) for Shop */
      , (2542, 4,   632, -1, 0, 0, False) /* Create Peerless Healing Kit (632) for Shop */
-     , (2542, 4,  2457, -1, 0, 0, False) /* Create Health Draught (2457) for Shop */
-     , (2542, 4,  2460, -1, 0, 0, False) /* Create Mana Draught (2460) for Shop */
-     , (2542, 4,  2470, -1, 0, 0, False) /* Create Stamina Elixir (2470) for Shop */
+     , (2542, 4,  9229, -1, 0, 0, False) /* Create Treated Healing Kit (9229) for Shop */
+     , (2542, 4,  4450, -1, 0, 0, False) /* Create Heal Other I (4450) for Shop */
+     , (2542, 4,  4602, -1, 0, 0, False) /* Create Endurance Other I (4602) for Shop */
+     , (2542, 4,  4589, -1, 0, 0, False) /* Create Revitalize Other I (4589) for Shop */
+     , (2542, 4,  4599, -1, 0, 0, False) /* Create Mana Renewal Other I (4599) for Shop */
+     , (2542, 4,  4595, -1, 0, 0, False) /* Create Regeneration Other I (4595) for Shop */
      , (2542, 4,  2621, -1, 0, 0, False) /* Create Trade Note (100) (2621) for Shop */
      , (2542, 4,  2622, -1, 0, 0, False) /* Create Trade Note (500) (2622) for Shop */
-     , (2542, 4,  4450, -1, 0, 0, False) /* Create Heal Other I (4450) for Shop */
-     , (2542, 4,  4589, -1, 0, 0, False) /* Create Revitalize Other I (4589) for Shop */
-     , (2542, 4,  4595, -1, 0, 0, False) /* Create Regeneration Other I (4595) for Shop */
-     , (2542, 4,  4599, -1, 0, 0, False) /* Create Mana Renewal Other I (4599) for Shop */
-     , (2542, 4,  4602, -1, 0, 0, False) /* Create Endurance Other I (4602) for Shop */
-     , (2542, 4,  9229, -1, 0, 0, False) /* Create Treated Healing Kit (9229) for Shop */
-     , (2542, 4, 22765, -1, 0, 0, False) /* Create The Empyrean Temples (22765) for Shop */
-     , (2542, 4, 27319, -1, 0, 0, False) /* Create Health Tincture (27319) for Shop */
-     , (2542, 4, 27322, -1, 0, 0, False) /* Create Mana Tincture (27322) for Shop */
-     , (2542, 4, 27326, -1, 0, 0, False) /* Create Stamina Tincture (27326) for Shop */;
+     , (2542, 4, 22765, -1, 0, 0, False) /* Create The Empyrean Temples (22765) for Shop */;

@@ -128,9 +128,9 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 268435537 /* Twitch1 */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (24640, 9, 24649,  0, 0, 0.33, False) /* Create Young Brood Queen Carapace (24649) for ContainTreasure */
-     , (24640, 9, 24651,  0, 0, 0.34, False) /* Create Young Brood Queen Claw (24651) for ContainTreasure */
+VALUES (24640, 9, 24659,  0, 0, 0.33, False) /* Create Young Brood Queen Metathorax (24659) for ContainTreasure */
+     , (24640, 9, 24649,  0, 0, 0.33, False) /* Create Young Brood Queen Carapace (24649) for ContainTreasure */
+     , (24640, 9, 24657,  0, 0, 0.34, False) /* Create Young Brood Queen Head (24657) for ContainTreasure */
      , (24640, 9, 24653,  0, 0, 0.33, False) /* Create Young Brood Queen Crest (24653) for ContainTreasure */
      , (24640, 9, 24655,  0, 0, 0.33, False) /* Create Young Brood Queen Femur (24655) for ContainTreasure */
-     , (24640, 9, 24657,  0, 0, 0.34, False) /* Create Young Brood Queen Head (24657) for ContainTreasure */
-     , (24640, 9, 24659,  0, 0, 0.33, False) /* Create Young Brood Queen Metathorax (24659) for ContainTreasure */;
+     , (24640, 9, 24651,  0, 0, 0.34, False) /* Create Young Brood Queen Claw (24651) for ContainTreasure */;

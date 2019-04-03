@@ -25,6 +25,6 @@ VALUES (20851,   1,   33557167) /* Setup */
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (20851, 16,   273, 300000, 0, 0, False) /* Create Pyreal (273) for HouseBuy */
-     , (20851, 16,  4230,  1, 0, 0, False) /* Create Mattekar Hide Sleeves (4230) for HouseBuy */
      , (20851, 16, 11710,  1, 0, 0, False) /* Create Writ of Refuge (11710) for HouseBuy */
+     , (20851, 16,  4230,  1, 0, 0, False) /* Create Mattekar Hide Sleeves (4230) for HouseBuy */
      , (20851, 32,   273, 30000, 0, 0, False) /* Create Pyreal (273) for HouseRent */;

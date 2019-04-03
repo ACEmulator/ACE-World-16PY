@@ -180,7 +180,7 @@ VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 1090519043 /* Ready */, NULL, NU
      , (@parent_id,  4,  10 /* Tell */, 2, 1, NULL, 'While making my way into a valley, I was accosted by these foul looking undead beasts. They gave me such a fright that I lost a collection of rare plates I''d received from Baron Eli von Schreft back on Ispar. They''re priceless, and I would certainly be pleased if someone were to bring them back to me. If you find them please bring them here.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (27948, 2,   115,  0, 4, 0.4, False) /* Create Leather Boots (115) for Wield */
+VALUES (27948, 2,   130,  0, 9, 0, False) /* Create Shirt (130) for Wield */
      , (27948, 2,   118,  0, 9, 0, False) /* Create Cap (118) for Wield */
-     , (27948, 2,   130,  0, 9, 0, False) /* Create Shirt (130) for Wield */
-     , (27948, 2,  2597,  0, 14, 0, False) /* Create Pants (2597) for Wield */;
+     , (27948, 2,  2597,  0, 14, 0, False) /* Create Pants (2597) for Wield */
+     , (27948, 2,   115,  0, 4, 0.4, False) /* Create Leather Boots (115) for Wield */;

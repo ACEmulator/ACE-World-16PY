@@ -152,13 +152,13 @@ VALUES (@parent_id,  0,  10 /* Tell */, 0, 1, NULL, 'I am here against my better
      , (@parent_id,  4,  10 /* Tell */, 1, 1, NULL, 'Please, if she gives you the opportunity once you have obtained what you will need, ask her a simple question. Ask her if she let Oswald into the castle the night that Elysa was attacked. If you get an answer give that information to one of these guardians: Guard Chandler Hammett in Lytelthorpe, Guard Gabrielle in Rithwic, or Emissary Ydnew in Yanshi. They are three of the four members of the guard that I can absolutely trust. They will reward you for your service. Take great care on your journey and watch out for that monster.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (28961, 2,   127,  0, 2, 0, False) /* Create Pants (127) for Wield */
-     , (28961, 2,   130,  0, 2, 1, False) /* Create Shirt (130) for Wield */
+VALUES (28961, 2,   130,  0, 2, 1, False) /* Create Shirt (130) for Wield */
+     , (28961, 2,   127,  0, 2, 0, False) /* Create Pants (127) for Wield */
      , (28961, 2,  2606,  0, 2, 0.8, False) /* Create Boots (2606) for Wield */
      , (28961, 2, 24945,  0, 0, 0, False) /* Create Antius' Celdon Breastplate (24945) for Wield */
      , (28961, 2, 24946,  0, 0, 0, False) /* Create Antius' Celdon Gauntlets (24946) for Wield */
      , (28961, 2, 24947,  0, 0, 0, False) /* Create Antius' Celdon Girth (24947) for Wield */
      , (28961, 2, 24948,  0, 0, 0, False) /* Create Antius' Celdon Helm (24948) for Wield */
      , (28961, 2, 24949,  0, 0, 0, False) /* Create Antius' Celdon Leggings (24949) for Wield */
-     , (28961, 2, 24950,  0, 0, 0, False) /* Create Antius' Celdon Sollerets (24950) for Wield */
-     , (28961, 2, 24956,  0, 0, 0, False) /* Create Antius' Celdon Sleeves (24956) for Wield */;
+     , (28961, 2, 24956,  0, 0, 0, False) /* Create Antius' Celdon Sleeves (24956) for Wield */
+     , (28961, 2, 24950,  0, 0, 0, False) /* Create Antius' Celdon Sollerets (24950) for Wield */;

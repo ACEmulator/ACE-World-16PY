@@ -516,5 +516,5 @@ VALUES (@parent_id,  0,  10 /* Tell */, 1, 1, NULL, 'Wonderful! A new arrival! Y
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (12719, 2,   130,  0, 17, 0.8, False) /* Create Shirt (130) for Wield */
-     , (12719, 2,   132,  0, 17, 0.8, False) /* Create Shoes (132) for Wield */
-     , (12719, 2,  2604,  0, 14, 1, False) /* Create Breeches (2604) for Wield */;
+     , (12719, 2,  2604,  0, 14, 1, False) /* Create Breeches (2604) for Wield */
+     , (12719, 2,   132,  0, 17, 0.8, False) /* Create Shoes (132) for Wield */;

@@ -175,20 +175,20 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 318767235 /* Nod */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (6856, 2,   115,  0, 9, 0, False) /* Create Leather Boots (115) for Wield */
+VALUES (6856, 2,   134,  0, 4, 0.6, False) /* Create Tunic (134) for Wield */
      , (6856, 2,   127,  0, 5, 0.67, False) /* Create Pants (127) for Wield */
-     , (6856, 2,   134,  0, 4, 0.6, False) /* Create Tunic (134) for Wield */
+     , (6856, 2,   115,  0, 9, 0, False) /* Create Leather Boots (115) for Wield */
      , (6856, 2,   301,  0, 0, 0, False) /* Create Battle Axe (301) for Wield */
-     , (6856, 4,   261, -1, 0, 0, False) /* Create Cheese (261) for Shop */
-     , (6856, 4,   620, -1, 0, 0, False) /* Create Cake (620) for Shop */
      , (6856, 4,  2451, -1, 0, 0, False) /* Create Ale (2451) for Shop */
+     , (6856, 4,  2471, -1, 0, 0, False) /* Create Stout (2471) for Shop */
      , (6856, 4,  2462, -1, 0, 0, False) /* Create Mead (2462) for Shop */
      , (6856, 4,  2463, -1, 0, 0, False) /* Create Milk (2463) for Shop */
-     , (6856, 4,  2471, -1, 0, 0, False) /* Create Stout (2471) for Shop */
-     , (6856, 4,  4732, -1, 0, 0, False) /* Create Fried Steak (4732) for Shop */
-     , (6856, 4,  4734, -1, 0, 0, False) /* Create Meat Pie (4734) for Shop */
      , (6856, 4,  4746, -1, 0, 0, False) /* Create Water (4746) for Shop */
      , (6856, 4,  8378, -1, 0, 0, False) /* Create Beer Stein (8378) for Shop */
+     , (6856, 4,   261, -1, 0, 0, False) /* Create Cheese (261) for Shop */
+     , (6856, 4,   620, -1, 0, 0, False) /* Create Cake (620) for Shop */
+     , (6856, 4,  4732, -1, 0, 0, False) /* Create Fried Steak (4732) for Shop */
+     , (6856, 4,  4734, -1, 0, 0, False) /* Create Meat Pie (4734) for Shop */
      , (6856, 4, 22765, -1, 0, 0, False) /* Create The Empyrean Temples (22765) for Shop */
      , (6856, 4, 26641, -1, 0, 0, False) /* Create Singularity Bore (26641) for Shop */
      , (6856, 4, 29235, -1, 0, 0, False) /* Create Feud of the Natural Philosophers (29235) for Shop */

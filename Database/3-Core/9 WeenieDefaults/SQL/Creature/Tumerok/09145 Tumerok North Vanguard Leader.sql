@@ -165,5 +165,5 @@ VALUES (9145,  94) /* ATTACK_NOTIFICATION_EVENT */
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (9145, 2,  9138,  0, 0, 1, False) /* Create Vanguard Leader's Morningstar (9138) for Wield */
-     , (9145, 9,     0,  0, 0, 0, False) /* Create nothing for ContainTreasure */
-     , (9145, 9,  9136,  0, 0, 1, False) /* Create Vanguard Leader's Amulet (9136) for ContainTreasure */;
+     , (9145, 9,  9136,  0, 0, 1, False) /* Create Vanguard Leader's Amulet (9136) for ContainTreasure */
+     , (9145, 9,     0,  0, 0, 0, False) /* Create nothing for ContainTreasure */;

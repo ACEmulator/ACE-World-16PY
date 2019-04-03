@@ -165,18 +165,15 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 318767235 /* Nod */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (801, 2,   115,  0, 9, 0.5, False) /* Create Leather Boots (115) for Wield */
-     , (801, 2,   118,  0, 9, 0.5, False) /* Create Cap (118) for Wield */
+VALUES (801, 2,   130,  0, 16, 1, False) /* Create Shirt (130) for Wield */
      , (801, 2,   127,  0, 9, 0, False) /* Create Pants (127) for Wield */
-     , (801, 2,   130,  0, 16, 1, False) /* Create Shirt (130) for Wield */
+     , (801, 2,   115,  0, 9, 0.5, False) /* Create Leather Boots (115) for Wield */
+     , (801, 2,   118,  0, 9, 0.5, False) /* Create Cap (118) for Wield */
      , (801, 2, 10696,  0, 9, 0.5, False) /* Create Apron (10696) for Wield */
-     , (801, 4,   297, -1, 0, 0, False) /* Create Ring (297) for Shop */
-     , (801, 4,   512, -1, 0, 0, False) /* Create Good Lockpick (512) for Shop */
-     , (801, 4,   513, -1, 0, 0, False) /* Create Plain Lockpick (513) for Shop */
-     , (801, 4,   545, -1, 0, 0, False) /* Create Reliable Lockpick (545) for Shop */
      , (801, 4,   622, -1, 0, 0, False) /* Create Necklace (622) for Shop */
-     , (801, 4,  2426, -1, 0, 0, False) /* Create Amber  (2426) for Shop */
+     , (801, 4,   297, -1, 0, 0, False) /* Create Ring (297) for Shop */
      , (801, 4,  2427, -1, 0, 0, False) /* Create Bloodstone (2427) for Shop */
+     , (801, 4,  2426, -1, 0, 0, False) /* Create Amber  (2426) for Shop */
      , (801, 4,  2621, -1, 0, 0, False) /* Create Trade Note (100) (2621) for Shop */
      , (801, 4,  2622, -1, 0, 0, False) /* Create Trade Note (500) (2622) for Shop */
      , (801, 4,  2623, -1, 0, 0, False) /* Create Trade Note (1,000) (2623) for Shop */
@@ -186,4 +183,7 @@ VALUES (801, 2,   115,  0, 9, 0.5, False) /* Create Leather Boots (115) for Wiel
      , (801, 4,  2627, -1, 0, 0, False) /* Create Trade Note (100,000) (2627) for Shop */
      , (801, 4, 20628, -1, 0, 0, False) /* Create Trade Note (150,000) (20628) for Shop */
      , (801, 4, 20629, -1, 0, 0, False) /* Create Trade Note (200,000) (20629) for Shop */
-     , (801, 4, 20630, -1, 0, 0, False) /* Create Trade Note (250,000) (20630) for Shop */;
+     , (801, 4, 20630, -1, 0, 0, False) /* Create Trade Note (250,000) (20630) for Shop */
+     , (801, 4,   513, -1, 0, 0, False) /* Create Plain Lockpick (513) for Shop */
+     , (801, 4,   545, -1, 0, 0, False) /* Create Reliable Lockpick (545) for Shop */
+     , (801, 4,   512, -1, 0, 0, False) /* Create Good Lockpick (512) for Shop */;

@@ -139,5 +139,5 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,  10 /* Tell */, 0, 1, NULL, 'Press the [Backspace] key to select your closest attacker. You can also use the [-] and [+] keys to cycle through nearby targets.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (12699, 9,     0,  0, 0, 0.5, False) /* Create nothing for ContainTreasure */
-     , (12699, 9, 12762,  0, 0, 0.5, False) /* Create Guide to Healing (12762) for ContainTreasure */;
+VALUES (12699, 9, 12762,  0, 0, 0.5, False) /* Create Guide to Healing (12762) for ContainTreasure */
+     , (12699, 9,     0,  0, 0, 0.5, False) /* Create nothing for ContainTreasure */;

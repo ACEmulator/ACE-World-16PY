@@ -128,7 +128,7 @@ VALUES (25849,  94) /* ATTACK_NOTIFICATION_EVENT */
      , (25849, 414) /* PLAYER_DEATH_EVENT */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (25849, 9,     0,  0, 0, 0, False) /* Create nothing for ContainTreasure */
-     , (25849, 9,     0,  0, 0, 0.9, False) /* Create nothing for ContainTreasure */
-     , (25849, 9, 25904,  1, 0, 1, False) /* Create Atakir's Blade (25904) for ContainTreasure */
-     , (25849, 9, 30823,  0, 0, 0.1, False) /* Create Broken Black Marrow Key (30823) for ContainTreasure */;
+VALUES (25849, 9, 25904,  1, 0, 1, False) /* Create Atakir's Blade (25904) for ContainTreasure */
+     , (25849, 9,     0,  0, 0, 0, False) /* Create nothing for ContainTreasure */
+     , (25849, 9, 30823,  0, 0, 0.1, False) /* Create Broken Black Marrow Key (30823) for ContainTreasure */
+     , (25849, 9,     0,  0, 0, 0.9, False) /* Create nothing for ContainTreasure */;

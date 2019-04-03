@@ -155,5 +155,5 @@ VALUES (2439,  94) /* ATTACK_NOTIFICATION_EVENT */
      , (2439, 414) /* PLAYER_DEATH_EVENT */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (2439, 9,     0,  0, 0, 0.97, False) /* Create nothing for ContainTreasure */
-     , (2439, 9, 20855,  0, 0, 0.03, False) /* Create Alchemy Stamp (20855) for ContainTreasure */;
+VALUES (2439, 9, 20855,  0, 0, 0.03, False) /* Create Alchemy Stamp (20855) for ContainTreasure */
+     , (2439, 9,     0,  0, 0, 0.97, False) /* Create nothing for ContainTreasure */;

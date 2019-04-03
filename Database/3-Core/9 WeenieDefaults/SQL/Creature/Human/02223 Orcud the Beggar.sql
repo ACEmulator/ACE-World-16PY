@@ -210,6 +210,6 @@ VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 1090519043 /* Ready */, NULL, NU
      , (@parent_id,  3,  10 /* Tell */, 1, 1, NULL, 'Could you spare me some money so I can buy food for my family?', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (2223, 2,   117,  0, 9, 0, False) /* Create Breeches (117) for Wield */
-     , (2223, 2,   132,  0, 9, 1, False) /* Create Shoes (132) for Wield */
-     , (2223, 2,  2592,  0, 4, 0.8, False) /* Create Tunic (2592) for Wield */;
+VALUES (2223, 2,  2592,  0, 4, 0.8, False) /* Create Tunic (2592) for Wield */
+     , (2223, 2,   117,  0, 9, 0, False) /* Create Breeches (117) for Wield */
+     , (2223, 2,   132,  0, 9, 1, False) /* Create Shoes (132) for Wield */;

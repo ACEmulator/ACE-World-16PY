@@ -128,15 +128,15 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 268435537 /* Twitch1 */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (24910, 9, 24926,  0, 0, 0.166, False) /* Create Brood Queen Nymph Carapace (24926) for ContainTreasure */
+VALUES (24910, 9, 24936,  0, 0, 0.17, False) /* Create Brood Queen Nymph Metathorax (24936) for ContainTreasure */
      , (24910, 9, 24926,  0, 0, 0.166, False) /* Create Brood Queen Nymph Carapace (24926) for ContainTreasure */
-     , (24910, 9, 24928,  0, 0, 0.166, False) /* Create Brood Queen Nymph Claw (24928) for ContainTreasure */
-     , (24910, 9, 24928,  0, 0, 0.166, False) /* Create Brood Queen Nymph Claw (24928) for ContainTreasure */
-     , (24910, 9, 24930,  0, 0, 0.166, False) /* Create Brood Queen Nymph Crest (24930) for ContainTreasure */
+     , (24910, 9, 24934,  0, 0, 0.166, False) /* Create Brood Queen Nymph Head (24934) for ContainTreasure */
      , (24910, 9, 24930,  0, 0, 0.166, False) /* Create Brood Queen Nymph Crest (24930) for ContainTreasure */
      , (24910, 9, 24932,  0, 0, 0.166, False) /* Create Brood Queen Nymph Femur (24932) for ContainTreasure */
-     , (24910, 9, 24932,  0, 0, 0.166, False) /* Create Brood Queen Nymph Femur (24932) for ContainTreasure */
-     , (24910, 9, 24934,  0, 0, 0.166, False) /* Create Brood Queen Nymph Head (24934) for ContainTreasure */
-     , (24910, 9, 24934,  0, 0, 0.166, False) /* Create Brood Queen Nymph Head (24934) for ContainTreasure */
+     , (24910, 9, 24928,  0, 0, 0.166, False) /* Create Brood Queen Nymph Claw (24928) for ContainTreasure */
      , (24910, 9, 24936,  0, 0, 0.17, False) /* Create Brood Queen Nymph Metathorax (24936) for ContainTreasure */
-     , (24910, 9, 24936,  0, 0, 0.17, False) /* Create Brood Queen Nymph Metathorax (24936) for ContainTreasure */;
+     , (24910, 9, 24926,  0, 0, 0.166, False) /* Create Brood Queen Nymph Carapace (24926) for ContainTreasure */
+     , (24910, 9, 24934,  0, 0, 0.166, False) /* Create Brood Queen Nymph Head (24934) for ContainTreasure */
+     , (24910, 9, 24930,  0, 0, 0.166, False) /* Create Brood Queen Nymph Crest (24930) for ContainTreasure */
+     , (24910, 9, 24932,  0, 0, 0.166, False) /* Create Brood Queen Nymph Femur (24932) for ContainTreasure */
+     , (24910, 9, 24928,  0, 0, 0.166, False) /* Create Brood Queen Nymph Claw (24928) for ContainTreasure */;

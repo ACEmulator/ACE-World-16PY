@@ -221,16 +221,16 @@ VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 318767235 /* Nod */, NULL, NULL,
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (405, 1,   352,  0, 0, 0, False) /* Create Short Sword (352) for Contain */
-     , (405, 2,   115,  0, 4, 0.8, False) /* Create Leather Boots (115) for Wield */
      , (405, 2,   127,  0, 8, 0.8, False) /* Create Pants (127) for Wield */
+     , (405, 2,   115,  0, 4, 0.8, False) /* Create Leather Boots (115) for Wield */
      , (405, 2, 10696,  0, 4, 0.8, False) /* Create Apron (10696) for Wield */
-     , (405, 4,   260, -1, 0, 0, False) /* Create Cabbage (260) for Shop */
-     , (405, 4,   261, -1, 0, 0, False) /* Create Cheese (261) for Shop */
-     , (405, 4,   300, -1, 0, 0, False) /* Create Arrow (300) for Shop */
+     , (405, 4,   329, -1, 0, 0, False) /* Create Knife (329) for Shop */
      , (405, 4,   314, -1, 0, 0, False) /* Create Dagger (314) for Shop */
+     , (405, 4,   261, -1, 0, 0, False) /* Create Cheese (261) for Shop */
+     , (405, 4,   492, -1, 0, 0, False) /* Create Directions to Bandit Castle (492) for Shop */
+     , (405, 4,   260, -1, 0, 0, False) /* Create Cabbage (260) for Shop */
+     , (405, 4,   300, -1, 0, 0, False) /* Create Arrow (300) for Shop */
+     , (405, 4,   343, -1, 0, 0, False) /* Create Shouken (343) for Shop */
      , (405, 4,   316, -1, 0, 0, False) /* Create Throwing Dart (316) for Shop */
      , (405, 4,   320, -1, 0, 0, False) /* Create Javelin (320) for Shop */
-     , (405, 4,   329, -1, 0, 0, False) /* Create Knife (329) for Shop */
-     , (405, 4,   343, -1, 0, 0, False) /* Create Shouken (343) for Shop */
-     , (405, 4,   352, -1, 0, 0, False) /* Create Short Sword (352) for Shop */
-     , (405, 4,   492, -1, 0, 0, False) /* Create Directions to Bandit Castle (492) for Shop */;
+     , (405, 4,   352, -1, 0, 0, False) /* Create Short Sword (352) for Shop */;

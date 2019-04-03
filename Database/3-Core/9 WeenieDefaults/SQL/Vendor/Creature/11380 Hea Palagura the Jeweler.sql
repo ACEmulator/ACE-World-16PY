@@ -142,11 +142,11 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,  10 /* Tell */, 0, 1, NULL, 'A present fit for a Tah! You have exemplary taste.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (11380, 4,   297, -1, 0, 0, False) /* Create Ring (297) for Shop */
-     , (11380, 4,   621, -1, 0, 0, False) /* Create Heavy Bracelet (621) for Shop */
+VALUES (11380, 4,   621, -1, 0, 0, False) /* Create Heavy Bracelet (621) for Shop */
      , (11380, 4,   622, -1, 0, 0, False) /* Create Necklace (622) for Shop */
-     , (11380, 4,  2399, -1, 0, 0, False) /* Create White Jade (2399) for Shop */
+     , (11380, 4,   297, -1, 0, 0, False) /* Create Ring (297) for Shop */
      , (11380, 4,  2426, -1, 0, 0, False) /* Create Amber  (2426) for Shop */
+     , (11380, 4,  2399, -1, 0, 0, False) /* Create White Jade (2399) for Shop */
      , (11380, 4,  2621, -1, 0, 0, False) /* Create Trade Note (100) (2621) for Shop */
      , (11380, 4,  2622, -1, 0, 0, False) /* Create Trade Note (500) (2622) for Shop */
      , (11380, 4,  2623, -1, 0, 0, False) /* Create Trade Note (1,000) (2623) for Shop */

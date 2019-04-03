@@ -181,20 +181,20 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 318767235 /* Nod */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (672, 2,   127,  0, 13, 0.5, False) /* Create Pants (127) for Wield */
+VALUES (672, 2,   134,  0, 5, 0.67, False) /* Create Tunic (134) for Wield */
+     , (672, 2,   127,  0, 13, 0.5, False) /* Create Pants (127) for Wield */
      , (672, 2,   132,  0, 4, 0.6, False) /* Create Shoes (132) for Wield */
-     , (672, 2,   134,  0, 5, 0.67, False) /* Create Tunic (134) for Wield */
      , (672, 2, 10696,  0, 18, 0.5, False) /* Create Apron (10696) for Wield */
      , (672, 4,   136, -1, 2, 1, False) /* Create Pack (136) for Shop */
      , (672, 4,   136, -1, 13, 1, False) /* Create Pack (136) for Shop */
-     , (672, 4,   263, -1, 0, 0, False) /* Create Fish (263) for Shop */
-     , (672, 4,   546, -1, 0, 0, False) /* Create Egg (546) for Shop */
      , (672, 4,   547, -1, 0, 0, False) /* Create Brimstone-cap Mushroom (547) for Shop */
-     , (672, 4,  4746, -1, 0, 0, False) /* Create Water (4746) for Shop */
+     , (672, 4,   546, -1, 0, 0, False) /* Create Egg (546) for Shop */
      , (672, 4,  4755, -1, 0, 0, False) /* Create Brine (4755) for Shop */
-     , (672, 4,  4759, -1, 0, 0, False) /* Create Cooking Pot (4759) for Shop */
      , (672, 4,  4766, -1, 0, 0, False) /* Create Rennet (4766) for Shop */
-     , (672, 4,  4767, -1, 0, 0, False) /* Create Skewer (4767) for Shop */
+     , (672, 4,   263, -1, 0, 0, False) /* Create Fish (263) for Shop */
      , (672, 4,  5758, -1, 0, 0, False) /* Create Carrot (5758) for Shop */
+     , (672, 4, 23327, -1, 0, 0, False) /* Create Simple Dried Rations (23327) for Shop */
      , (672, 4, 23326, -1, 0, 0, False) /* Create Elaborate Dried Rations (23326) for Shop */
-     , (672, 4, 23327, -1, 0, 0, False) /* Create Simple Dried Rations (23327) for Shop */;
+     , (672, 4,  4759, -1, 0, 0, False) /* Create Cooking Pot (4759) for Shop */
+     , (672, 4,  4746, -1, 0, 0, False) /* Create Water (4746) for Shop */
+     , (672, 4,  4767, -1, 0, 0, False) /* Create Skewer (4767) for Shop */;

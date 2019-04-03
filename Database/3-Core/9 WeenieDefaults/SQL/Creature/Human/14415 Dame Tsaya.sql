@@ -655,5 +655,5 @@ VALUES (@parent_id,  0,  18 /* DirectBroadcast */, 1, 1, NULL, 'Dame Tsaya quick
      , (@parent_id,  4,  22 /* StampQuest */, 0, 1, NULL, 'YaraqGreetingGiven', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (14415, 2,   118,  0, 14, 1, False) /* Create Cap (118) for Wield */
-     , (14415, 2, 10870,  0, 17, 0.7, False) /* Create Canescent Mattekar Robe (10870) for Wield */;
+VALUES (14415, 2, 10870,  0, 17, 0.7, False) /* Create Canescent Mattekar Robe (10870) for Wield */
+     , (14415, 2,   118,  0, 14, 1, False) /* Create Cap (118) for Wield */;

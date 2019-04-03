@@ -173,33 +173,33 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 318767235 /* Nod */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (859, 2,   115,  0, 4, 0.8, False) /* Create Leather Boots (115) for Wield */
+VALUES (859, 2,   134,  0, 17, 1, False) /* Create Tunic (134) for Wield */
      , (859, 2,   117,  0, 14, 0.8, False) /* Create Breeches (117) for Wield */
-     , (859, 2,   134,  0, 17, 1, False) /* Create Tunic (134) for Wield */
+     , (859, 2,   115,  0, 4, 0.8, False) /* Create Leather Boots (115) for Wield */
      , (859, 2, 10696,  0, 18, 0.5, False) /* Create Apron (10696) for Wield */
-     , (859, 4,  2451, -1, 0, 0, False) /* Create Ale (2451) for Shop */
-     , (859, 4,  2456, -1, 0, 0, False) /* Create Green Tea (2456) for Shop */
-     , (859, 4,  2466, -1, 0, 0, False) /* Create Red Tea (2466) for Shop */
-     , (859, 4,  2468, -1, 0, 0, False) /* Create Sake (2468) for Shop */
-     , (859, 4,  4718, -1, 0, 0, False) /* Create Chicken Rice (4718) for Shop */
-     , (859, 4,  4728, -1, 0, 0, False) /* Create Fried Chicken (4728) for Shop */
-     , (859, 4,  4730, -1, 0, 0, False) /* Create Fried Fish Filet (4730) for Shop */
      , (859, 4,  4739, -1, 0, 0, False) /* Create Pickled Egg (4739) for Shop */
+     , (859, 4,  4718, -1, 0, 0, False) /* Create Chicken Rice (4718) for Shop */
+     , (859, 4,  4730, -1, 0, 0, False) /* Create Fried Fish Filet (4730) for Shop */
+     , (859, 4,  4728, -1, 0, 0, False) /* Create Fried Chicken (4728) for Shop */
      , (859, 4,  4744, -1, 0, 0, False) /* Create Sushi (4744) for Shop */
+     , (859, 4,  2466, -1, 0, 0, False) /* Create Red Tea (2466) for Shop */
+     , (859, 4,  2456, -1, 0, 0, False) /* Create Green Tea (2456) for Shop */
      , (859, 4,  4746, -1, 0, 0, False) /* Create Water (4746) for Shop */
-     , (859, 4,  5147, -1, 0, 0, False) /* Create Return to Frore (5147) for Shop */
-     , (859, 4,  5601, -1, 0, 0, False) /* Create Altar of Asheron Rumor (5601) for Shop */
-     , (859, 4,  5602, -1, 0, 0, False) /* Create The Festival Stones of the Empyrean (5602) for Shop */
-     , (859, 4,  5675, -1, 0, 0, False) /* Create Mount Lethe Rumor (5675) for Shop */
-     , (859, 4,  5881, -1, 0, 0, False) /* Create The Book of Minesh (5881) for Shop */
-     , (859, 4,  6417, -1, 0, 0, False) /* Create A Stinging Stone (6417) for Shop */
-     , (859, 4,  6419, -1, 0, 0, False) /* Create The Meeting Halls (6419) for Shop */
-     , (859, 4,  6421, -1, 0, 0, False) /* Create The Lost City of Frore (6421) for Shop */
+     , (859, 4,  2451, -1, 0, 0, False) /* Create Ale (2451) for Shop */
+     , (859, 4,  2468, -1, 0, 0, False) /* Create Sake (2468) for Shop */
+     , (859, 4,  8378, -1, 0, 0, False) /* Create Beer Stein (8378) for Shop */
+     , (859, 4,  8135, -1, 0, 0, False) /* Create Zarea's Notes on Geomancy (8135) for Shop */
      , (859, 4,  6630, -1, 0, 0, False) /* Create A Treatise on the Properties of Fused Gems (6630) for Shop */
      , (859, 4,  7936, -1, 0, 0, False) /* Create Aliester's Corollary (7936) for Shop */
-     , (859, 4,  8135, -1, 0, 0, False) /* Create Zarea's Notes on Geomancy (8135) for Shop */
-     , (859, 4,  8378, -1, 0, 0, False) /* Create Beer Stein (8378) for Shop */
+     , (859, 4,  6417, -1, 0, 0, False) /* Create A Stinging Stone (6417) for Shop */
+     , (859, 4,  5881, -1, 0, 0, False) /* Create The Book of Minesh (5881) for Shop */
+     , (859, 4,  5601, -1, 0, 0, False) /* Create Altar of Asheron Rumor (5601) for Shop */
+     , (859, 4,  5675, -1, 0, 0, False) /* Create Mount Lethe Rumor (5675) for Shop */
+     , (859, 4,  5147, -1, 0, 0, False) /* Create Return to Frore (5147) for Shop */
+     , (859, 4,  6421, -1, 0, 0, False) /* Create The Lost City of Frore (6421) for Shop */
      , (859, 4,  8397, -1, 0, 0, False) /* Create The Breaking of the Crystal Core (8397) for Shop */
      , (859, 4, 11929, -1, 0, 0, False) /* Create A Call To Arms (11929) for Shop */
+     , (859, 4,  5602, -1, 0, 0, False) /* Create The Festival Stones of the Empyrean (5602) for Shop */
+     , (859, 4,  6419, -1, 0, 0, False) /* Create The Meeting Halls (6419) for Shop */
      , (859, 4, 13202, -1, 0, 0, False) /* Create Sho Festival Light (13202) for Shop */
      , (859, 4, 22730, -1, 0, 0, False) /* Create Holiday Pole (22730) for Shop */;

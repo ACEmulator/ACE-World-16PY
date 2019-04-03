@@ -152,5 +152,5 @@ VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 1090519043 /* Ready */, NULL, NU
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (5024, 2,   130,  0, 13, 0.8, False) /* Create Shirt (130) for Wield */
-     , (5024, 2,   132,  0, 14, 0.8, False) /* Create Shoes (132) for Wield */
-     , (5024, 2,  2604,  0, 2, 1, False) /* Create Breeches (2604) for Wield */;
+     , (5024, 2,  2604,  0, 2, 1, False) /* Create Breeches (2604) for Wield */
+     , (5024, 2,   132,  0, 14, 0.8, False) /* Create Shoes (132) for Wield */;

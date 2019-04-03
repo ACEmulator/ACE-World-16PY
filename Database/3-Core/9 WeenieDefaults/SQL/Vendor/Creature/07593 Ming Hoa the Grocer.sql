@@ -173,17 +173,20 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 318767235 /* Nod */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (7593, 2,   133,  0, 9, 0.5, False) /* Create Slippers (133) for Wield */
-     , (7593, 2,  2593,  0, 14, 0.8, False) /* Create Tunic (2593) for Wield */
+VALUES (7593, 2,  2593,  0, 14, 0.8, False) /* Create Tunic (2593) for Wield */
      , (7593, 2,  2597,  0, 13, 0.5, False) /* Create Pants (2597) for Wield */
+     , (7593, 2,   133,  0, 9, 0.5, False) /* Create Slippers (133) for Wield */
      , (7593, 2,  5901,  0, 14, 0.6, False) /* Create Kasa (5901) for Wield */
      , (7593, 2, 10696,  0, 4, 0.8, False) /* Create Apron (10696) for Wield */
+     , (7593, 4,  4728, -1, 0, 0, False) /* Create Fried Chicken (4728) for Shop */
+     , (7593, 4,  4732, -1, 0, 0, False) /* Create Fried Steak (4732) for Shop */
      , (7593, 4,   620, -1, 0, 0, False) /* Create Cake (620) for Shop */
+     , (7593, 4,  4709, -1, 0, 0, False) /* Create Apple Pie (4709) for Shop */
+     , (7593, 4,  2467, -1, 0, 0, False) /* Create Red Wine (2467) for Shop */
+     , (7593, 4,  2469, -1, 0, 0, False) /* Create Small Beer (2469) for Shop */
      , (7593, 4,  2451, -1, 0, 0, False) /* Create Ale (2451) for Shop */
      , (7593, 4,  2455, -1, 0, 0, False) /* Create Grape Juice (2455) for Shop */
      , (7593, 4,  2456, -1, 0, 0, False) /* Create Green Tea (2456) for Shop */
-     , (7593, 4,  2467, -1, 0, 0, False) /* Create Red Wine (2467) for Shop */
-     , (7593, 4,  2469, -1, 0, 0, False) /* Create Small Beer (2469) for Shop */
      , (7593, 4,  2621, -1, 0, 0, False) /* Create Trade Note (100) (2621) for Shop */
      , (7593, 4,  2622, -1, 0, 0, False) /* Create Trade Note (500) (2622) for Shop */
      , (7593, 4,  2623, -1, 0, 0, False) /* Create Trade Note (1,000) (2623) for Shop */
@@ -191,9 +194,6 @@ VALUES (7593, 2,   133,  0, 9, 0.5, False) /* Create Slippers (133) for Wield */
      , (7593, 4,  2625, -1, 0, 0, False) /* Create Trade Note (10,000) (2625) for Shop */
      , (7593, 4,  2626, -1, 0, 0, False) /* Create Trade Note (50,000) (2626) for Shop */
      , (7593, 4,  2627, -1, 0, 0, False) /* Create Trade Note (100,000) (2627) for Shop */
-     , (7593, 4,  4709, -1, 0, 0, False) /* Create Apple Pie (4709) for Shop */
-     , (7593, 4,  4728, -1, 0, 0, False) /* Create Fried Chicken (4728) for Shop */
-     , (7593, 4,  4732, -1, 0, 0, False) /* Create Fried Steak (4732) for Shop */
      , (7593, 4, 20628, -1, 0, 0, False) /* Create Trade Note (150,000) (20628) for Shop */
      , (7593, 4, 20629, -1, 0, 0, False) /* Create Trade Note (200,000) (20629) for Shop */
      , (7593, 4, 20630, -1, 0, 0, False) /* Create Trade Note (250,000) (20630) for Shop */;

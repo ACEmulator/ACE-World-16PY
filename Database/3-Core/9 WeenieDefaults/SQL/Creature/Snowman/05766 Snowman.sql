@@ -162,5 +162,5 @@ INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `w
 VALUES (5766, 1,  5758,  1, 0, 0, False) /* Create Carrot (5758) for Contain */
      , (5766, 1,  7835,  1, 0, 0, False) /* Create Magic Iceball (7835) for Contain */
      , (5766, 2,  5769, 12, 0, 0, False) /* Create Iceball (5769) for Wield */
-     , (5766, 9,     0,  0, 0, 0.9, False) /* Create nothing for ContainTreasure */
-     , (5766, 9, 22825,  0, 0, 0.1, False) /* Create A Lump of Coal (22825) for ContainTreasure */;
+     , (5766, 9, 22825,  0, 0, 0.1, False) /* Create A Lump of Coal (22825) for ContainTreasure */
+     , (5766, 9,     0,  0, 0, 0.9, False) /* Create nothing for ContainTreasure */;

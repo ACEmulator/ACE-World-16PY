@@ -188,13 +188,13 @@ VALUES (4100, 8,   301,  0, 0, 0.06, False) /* Create Battle Axe (301) for Treas
      , (4100, 8,   308,  0, 0, 0.06, False) /* Create Budiaq (308) for Treasure */
      , (4100, 8,   313,  0, 0, 0.06, False) /* Create Dabus (313) for Treasure */
      , (4100, 8,   324,  0, 0, 0.05, False) /* Create Kaskara (324) for Treasure */
+     , (4100, 8,   351,  0, 0, 0.05, False) /* Create Long Sword (351) for Treasure */
      , (4100, 8,   331,  0, 0, 0.07, False) /* Create Mace (331) for Treasure */
      , (4100, 8,   336,  0, 0, 0.05, False) /* Create Ono (336) for Treasure */
      , (4100, 8,   339,  0, 0, 0.1, False) /* Create Scimitar (339) for Treasure */
      , (4100, 8,   340,  0, 0, 0.05, False) /* Create Shamshir (340) for Treasure */
      , (4100, 8,   344,  0, 0, 0.05, False) /* Create Silifi (344) for Treasure */
      , (4100, 8,   348,  0, 0, 0.07, False) /* Create Spear (348) for Treasure */
-     , (4100, 8,   351,  0, 0, 0.05, False) /* Create Long Sword (351) for Treasure */
      , (4100, 8,   353,  0, 0, 0.05, False) /* Create Tachi (353) for Treasure */
      , (4100, 8,   356,  0, 0, 0.06, False) /* Create Tofun (356) for Treasure */
      , (4100, 8,   359,  0, 0, 0.1, False) /* Create War Hammer (359) for Treasure */

@@ -167,5 +167,5 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 268435540 /* Twitch4 */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (221, 9,     0,  0, 0, 0.97, False) /* Create nothing for ContainTreasure */
-     , (221, 9,  4239,  0, 0, 0.03, False) /* Create Reedshark Hide (4239) for ContainTreasure */;
+VALUES (221, 9,  4239,  0, 0, 0.03, False) /* Create Reedshark Hide (4239) for ContainTreasure */
+     , (221, 9,     0,  0, 0, 0.97, False) /* Create nothing for ContainTreasure */;

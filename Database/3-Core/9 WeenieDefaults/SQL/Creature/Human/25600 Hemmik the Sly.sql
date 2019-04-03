@@ -158,8 +158,8 @@ VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 1090519043 /* Ready */, NULL, NU
      , (@parent_id,  2,  10 /* Tell */, 1, 1, NULL, 'Well, you do seem to be pretty wealthy, and this is broad daylight, after all -- so how''s about you consider loaning me one of those crisp new 250,000 pyreal notes?  Consider it payment for the two gifts I am giving you:  Protection from imminent danger, and a bit of advice to be imparted upon payment.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (25600, 2,    47,  0, 8, 0.5, False) /* Create Leather Coat (47) for Wield */
-     , (25600, 2,    56,  0, 8, 0.5, False) /* Create Leather Gauntlets (56) for Wield */
+VALUES (25600, 2,   133,  0, 8, 0.5, False) /* Create Slippers (133) for Wield */
+     , (25600, 2,    47,  0, 8, 0.5, False) /* Create Leather Coat (47) for Wield */
      , (25600, 2,    81,  0, 8, 0.5, False) /* Create Leather Leggings (81) for Wield */
-     , (25600, 2,   133,  0, 8, 0.5, False) /* Create Slippers (133) for Wield */
+     , (25600, 2,    56,  0, 8, 0.5, False) /* Create Leather Gauntlets (56) for Wield */
      , (25600, 2, 25615,  0, 0, 0, False) /* Create Acidic Weeping Dagger (25615) for Wield */;

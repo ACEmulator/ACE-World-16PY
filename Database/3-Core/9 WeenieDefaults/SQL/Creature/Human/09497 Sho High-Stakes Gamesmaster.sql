@@ -282,7 +282,7 @@ VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 1090519043 /* Ready */, NULL, NU
      , (@parent_id,  3,  10 /* Tell */, 1, 1, NULL, 'I am the high-stakes Gamesmaster.  Give me a red token and see what you win!', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (9497, 2,   132,  0, 9, 0, False) /* Create Shoes (132) for Wield */
-     , (9497, 2,  2587,  0, 9, 1, False) /* Create Shirt (2587) for Wield */
+VALUES (9497, 2,  2587,  0, 9, 1, False) /* Create Shirt (2587) for Wield */
      , (9497, 2,  2597,  0, 9, 0, False) /* Create Pants (2597) for Wield */
+     , (9497, 2,   132,  0, 9, 0, False) /* Create Shoes (132) for Wield */
      , (9497, 2, 10697,  0, 8, 0.5, False) /* Create Visor (10697) for Wield */;

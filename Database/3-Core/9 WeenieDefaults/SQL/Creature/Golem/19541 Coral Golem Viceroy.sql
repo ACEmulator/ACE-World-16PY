@@ -152,10 +152,10 @@ VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 1090519043 /* Ready */, NULL, NU
      , (@parent_id,  1,   5 /* Motion */, 0, 1, 1090519060 /* Sleeping */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (19541, 9,     0,  0, 0, 0.96, False) /* Create nothing for ContainTreasure */
-     , (19541, 9,     0,  0, 0, 0.85, False) /* Create nothing for ContainTreasure */
-     , (19541, 9,  6353,  0, 0, 0.04, False) /* Create Pyreal Mote (6353) for ContainTreasure */
-     , (19541, 9,  7605,  0, 0, 0.15, False) /* Create Coral Heart (7605) for ContainTreasure */;
+VALUES (19541, 9,  6353,  0, 0, 0.04, False) /* Create Pyreal Mote (6353) for ContainTreasure */
+     , (19541, 9,     0,  0, 0, 0.96, False) /* Create nothing for ContainTreasure */
+     , (19541, 9,  7605,  0, 0, 0.15, False) /* Create Coral Heart (7605) for ContainTreasure */
+     , (19541, 9,     0,  0, 0, 0.85, False) /* Create nothing for ContainTreasure */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (19541, -1, 14516, 10, 8, 8, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Caustic (14516) (x8 up to max of 8) - Regenerate upon Destruction - Location to (re)Generate: Scatter */;

@@ -220,23 +220,23 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   8 /* Say */, 0, 0, NULL, 'Ah, the great outdoors!', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (13227, 2,   115,  0, 4, 1, False) /* Create Leather Boots (115) for Wield */
+VALUES (13227, 2,   301,  0, 8, 0, False) /* Create Battle Axe (301) for Wield */
      , (13227, 2,   119,  0, 7, 0.8, False) /* Create Cowl (119) for Wield */
      , (13227, 2,   122,  0, 84, 0.5, False) /* Create Soft Leather Gloves (122) for Wield */
      , (13227, 2,   127,  0, 7, 0.5, False) /* Create Pants (127) for Wield */
-     , (13227, 2,   301,  0, 8, 0, False) /* Create Battle Axe (301) for Wield */
+     , (13227, 2,   115,  0, 4, 1, False) /* Create Leather Boots (115) for Wield */
      , (13227, 2, 10696,  0, 6, 0.5, False) /* Create Apron (10696) for Wield */
      , (13227, 4,   244, -1, 0, 0, False) /* Create Wood (244) for Shop */
-     , (13227, 4, 13199, -1, 0, 0, False) /* Create Small Pine Tree (13199) for Shop */
-     , (13227, 4, 13209, -1, 0, 0, False) /* Create Wreath (13209) for Shop */
-     , (13227, 4, 13228, -1, 0, 0, False) /* Create Large Pine Tree (13228) for Shop */
+     , (13227, 4, 22852, -1, 0, 0, False) /* Create Treated Wood (22852) for Shop */
+     , (13227, 4, 25757, -1, 0, 0, False) /* Create Barrel (25757) for Shop */
+     , (13227, 4, 25760, -1, 0, 0, False) /* Create Cask (25760) for Shop */
+     , (13227, 4, 22844, -1, 0, 0, False) /* Create Log Stool (22844) for Shop */
+     , (13227, 4, 22874, -1, 0, 0, False) /* Create Log Chair (22874) for Shop */
+     , (13227, 4, 25766, -1, 0, 0, False) /* Create Tumerok Chair (25766) for Shop */
+     , (13227, 4, 22845, -1, 0, 0, False) /* Create Log Table (22845) for Shop */
      , (13227, 4, 15403, -1, 0, 0, False) /* Create Small Pine Tree (15403) for Shop */
      , (13227, 4, 15404, -1, 0, 0, False) /* Create Large Pine Tree (15404) for Shop */
-     , (13227, 4, 22844, -1, 0, 0, False) /* Create Log Stool (22844) for Shop */
-     , (13227, 4, 22845, -1, 0, 0, False) /* Create Log Table (22845) for Shop */
-     , (13227, 4, 22852, -1, 0, 0, False) /* Create Treated Wood (22852) for Shop */
-     , (13227, 4, 22874, -1, 0, 0, False) /* Create Log Chair (22874) for Shop */
-     , (13227, 4, 25757, -1, 0, 0, False) /* Create Barrel (25757) for Shop */
      , (13227, 4, 25759, -1, 0, 0, False) /* Create Shrubbery (25759) for Shop */
-     , (13227, 4, 25760, -1, 0, 0, False) /* Create Cask (25760) for Shop */
-     , (13227, 4, 25766, -1, 0, 0, False) /* Create Tumerok Chair (25766) for Shop */;
+     , (13227, 4, 13199, -1, 0, 0, False) /* Create Small Pine Tree (13199) for Shop */
+     , (13227, 4, 13228, -1, 0, 0, False) /* Create Large Pine Tree (13228) for Shop */
+     , (13227, 4, 13209, -1, 0, 0, False) /* Create Wreath (13209) for Shop */;

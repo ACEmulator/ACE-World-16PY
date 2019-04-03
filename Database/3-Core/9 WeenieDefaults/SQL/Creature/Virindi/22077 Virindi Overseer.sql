@@ -212,9 +212,9 @@ VALUES (@parent_id,  0,  10 /* Tell */, 0, 1, NULL, 'More servants needed. You w
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (22077, 1,  5680,  0, 0, 1, False) /* Create Torn Journal (5680) for Contain */
-     , (22077, 9,     0,  0, 0, 0.95, False) /* Create nothing for ContainTreasure */
-     , (22077, 9,     0,  0, 0, 0.98, False) /* Create nothing for ContainTreasure */
-     , (22077, 9,     0,  0, 0, 0.95, False) /* Create nothing for ContainTreasure */
      , (22077, 9,  3698,  0, 0, 0.05, False) /* Create White Jewel (3698) for ContainTreasure */
+     , (22077, 9,     0,  0, 0, 0.95, False) /* Create nothing for ContainTreasure */
      , (22077, 9,  6876,  0, 0, 0.02, False) /* Create Sturdy Iron Key (6876) for ContainTreasure */
-     , (22077, 9,  8154,  0, 0, 0.05, False) /* Create Broken Virindi Mask (8154) for ContainTreasure */;
+     , (22077, 9,     0,  0, 0, 0.98, False) /* Create nothing for ContainTreasure */
+     , (22077, 9,  8154,  0, 0, 0.05, False) /* Create Broken Virindi Mask (8154) for ContainTreasure */
+     , (22077, 9,     0,  0, 0, 0.95, False) /* Create nothing for ContainTreasure */;

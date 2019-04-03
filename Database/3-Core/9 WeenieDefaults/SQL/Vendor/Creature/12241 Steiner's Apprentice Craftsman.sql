@@ -181,37 +181,37 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 318767235 /* Nod */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (12241, 2,   132,  0, 13, 0.5, False) /* Create Shoes (132) for Wield */
-     , (12241, 2,  2587,  0, 9, 1, False) /* Create Shirt (2587) for Wield */
+VALUES (12241, 2,  2587,  0, 9, 1, False) /* Create Shirt (2587) for Wield */
      , (12241, 2,  2602,  0, 9, 1, False) /* Create Breeches (2602) for Wield */
+     , (12241, 2,   132,  0, 13, 0.5, False) /* Create Shoes (132) for Wield */
      , (12241, 2, 10696,  0, 18, 1, False) /* Create Apron (10696) for Wield */
+     , (12241, 4,   268, -1, 0, 0, False) /* Create Bench (268) for Shop */
+     , (12241, 4,   253, -1, 0, 0, False) /* Create Stool (253) for Shop */
+     , (12241, 4,   272, -1, 0, 0, False) /* Create Chair (272) for Shop */
+     , (12241, 4,   274, -1, 0, 0, False) /* Create Couch (274) for Shop */
+     , (12241, 4,   276, -1, 0, 0, False) /* Create Desk (276) for Shop */
+     , (12241, 4,   257, -1, 0, 0, False) /* Create Workbench (257) for Shop */
+     , (12241, 4, 13197, -1, 0, 0, False) /* Create Bed (13197) for Shop */
+     , (12241, 4,   267, -1, 0, 0, False) /* Create Bedroll (267) for Shop */
+     , (12241, 4, 25772, -1, 0, 0, False) /* Create Cooking Table (25772) for Shop */
+     , (12241, 4, 25773, -1, 0, 0, False) /* Create Set Dinner Table (25773) for Shop */
+     , (12241, 4, 13203, -1, 0, 0, False) /* Create Screen (13203) for Shop */
+     , (12241, 4, 25767, -1, 0, 0, False) /* Create Aluvian Rug (25767) for Shop */
+     , (12241, 4, 25768, -1, 0, 0, False) /* Create Aluvian Hanging Rug (25768) for Shop */
+     , (12241, 4, 25775, -1, 0, 0, False) /* Create Tapestry (25775) for Shop */
      , (12241, 4,   240, -1, 0, 0, False) /* Create Candelabra (240) for Shop */
      , (12241, 4,   241, -1, 0, 0, False) /* Create Chandelier (241) for Shop */
+     , (12241, 4,   293, -1, 0, 0, False) /* Create Torch (293) for Shop */
+     , (12241, 4, 25763, -1, 0, 0, False) /* Create Aluvian Lamp (25763) for Shop */
      , (12241, 4,   247, -1, 0, 0, False) /* Create Outcast (247) for Shop */
      , (12241, 4,   248, -1, 0, 0, False) /* Create Olthoi Enslavement (248) for Shop */
      , (12241, 4,   249, -1, 0, 0, False) /* Create Into the Unknown (249) for Shop */
      , (12241, 4,   250, -1, 0, 0, False) /* Create The Studious Mind (250) for Shop */
-     , (12241, 4,   253, -1, 0, 0, False) /* Create Stool (253) for Shop */
-     , (12241, 4,   257, -1, 0, 0, False) /* Create Workbench (257) for Shop */
-     , (12241, 4,   267, -1, 0, 0, False) /* Create Bedroll (267) for Shop */
-     , (12241, 4,   268, -1, 0, 0, False) /* Create Bench (268) for Shop */
-     , (12241, 4,   272, -1, 0, 0, False) /* Create Chair (272) for Shop */
-     , (12241, 4,   274, -1, 0, 0, False) /* Create Couch (274) for Shop */
-     , (12241, 4,   276, -1, 0, 0, False) /* Create Desk (276) for Shop */
-     , (12241, 4,   293, -1, 0, 0, False) /* Create Torch (293) for Shop */
-     , (12241, 4, 13197, -1, 0, 0, False) /* Create Bed (13197) for Shop */
-     , (12241, 4, 13203, -1, 0, 0, False) /* Create Screen (13203) for Shop */
      , (12241, 4, 15716, -1, 0, 0, False) /* Create Crystal Vase (15716) for Shop */
      , (12241, 4, 15825, -1, 0, 0, False) /* Create Pedestal (15825) for Shop */
      , (12241, 4, 20646, -1, 0, 0, False) /* Create Ust (20646) for Shop */
-     , (12241, 4, 21093, -1, 0, 0, False) /* Create Tinkering (21093) for Shop */
      , (12241, 4, 22098, -1, 0, 0, False) /* Create Chess Stamp (22098) for Shop */
      , (12241, 4, 22101, -1, 0, 0, False) /* Create Wi Stamp (22101) for Shop */
+     , (12241, 4, 21093, -1, 0, 0, False) /* Create Tinkering (21093) for Shop */
      , (12241, 4, 23044, -1, 0, 0, False) /* Create On the Abilities of Salvaged Ivory (23044) for Shop */
-     , (12241, 4, 25519, -1, 0, 0, False) /* Create Writ of Refuge Text (25519) for Shop */
-     , (12241, 4, 25763, -1, 0, 0, False) /* Create Aluvian Lamp (25763) for Shop */
-     , (12241, 4, 25767, -1, 0, 0, False) /* Create Aluvian Rug (25767) for Shop */
-     , (12241, 4, 25768, -1, 0, 0, False) /* Create Aluvian Hanging Rug (25768) for Shop */
-     , (12241, 4, 25772, -1, 0, 0, False) /* Create Cooking Table (25772) for Shop */
-     , (12241, 4, 25773, -1, 0, 0, False) /* Create Set Dinner Table (25773) for Shop */
-     , (12241, 4, 25775, -1, 0, 0, False) /* Create Tapestry (25775) for Shop */;
+     , (12241, 4, 25519, -1, 0, 0, False) /* Create Writ of Refuge Text (25519) for Shop */;

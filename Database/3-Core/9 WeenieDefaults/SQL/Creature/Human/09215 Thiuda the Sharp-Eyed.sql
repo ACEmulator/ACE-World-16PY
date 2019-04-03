@@ -123,8 +123,8 @@ VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 1090519043 /* Ready */, NULL, NU
      , (@parent_id,  2,  10 /* Tell */, 1, 1, NULL, 'Never... in all my campaigns...', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (9215, 2,   115,  0, 4, 0.6, False) /* Create Leather Boots (115) for Wield */
-     , (9215, 2,   119,  0, 9, 0, False) /* Create Cowl (119) for Wield */
-     , (9215, 2,   127,  0, 4, 0.6, False) /* Create Pants (127) for Wield */
+VALUES (9215, 2,   306,  0, 0, 0, False) /* Create Longbow (306) for Wield */
      , (9215, 2,   130,  0, 8, 0.5, False) /* Create Shirt (130) for Wield */
-     , (9215, 2,   306,  0, 0, 0, False) /* Create Longbow (306) for Wield */;
+     , (9215, 2,   127,  0, 4, 0.6, False) /* Create Pants (127) for Wield */
+     , (9215, 2,   115,  0, 4, 0.6, False) /* Create Leather Boots (115) for Wield */
+     , (9215, 2,   119,  0, 9, 0, False) /* Create Cowl (119) for Wield */;

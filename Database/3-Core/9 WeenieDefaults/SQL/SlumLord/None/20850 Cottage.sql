@@ -25,6 +25,6 @@ VALUES (20850,   1,   33557167) /* Setup */
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (20850, 16,   273, 300000, 0, 0, False) /* Create Pyreal (273) for HouseBuy */
-     , (20850, 16,  4229,  1, 0, 0, False) /* Create Reedshark Hide Leggings (4229) for HouseBuy */
      , (20850, 16, 11710,  1, 0, 0, False) /* Create Writ of Refuge (11710) for HouseBuy */
+     , (20850, 16,  4229,  1, 0, 0, False) /* Create Reedshark Hide Leggings (4229) for HouseBuy */
      , (20850, 32,   273, 30000, 0, 0, False) /* Create Pyreal (273) for HouseRent */;

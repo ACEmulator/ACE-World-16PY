@@ -154,12 +154,12 @@ VALUES (@parent_id,  0,  10 /* Tell */, 1, 1, NULL, 'You found us! Did the High 
      , (@parent_id,  3,   3 /* Give */, 1, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0 /* Undef */, 24259 /* A Note from a Scout */, 1, 0, 0, False, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (24249, 2,    46,  0, 8, 1, False) /* Create Metal Cap (46) for Wield */
-     , (24249, 2,    84,  0, 11, 1, False) /* Create Studded Leather Leggings (84) for Wield */
-     , (24249, 2,   122,  0, 11, 1, False) /* Create Soft Leather Gloves (122) for Wield */
-     , (24249, 2,   351,  0, 0, 0, False) /* Create Long Sword (351) for Wield */
-     , (24249, 2,   414,  0, 39, 1, False) /* Create Chainmail Breastplate (414) for Wield */
-     , (24249, 2,   415,  0, 19, 1, False) /* Create Chainmail Girth (415) for Wield */
+VALUES (24249, 2,   351,  0, 0, 0, False) /* Create Long Sword (351) for Wield */
+     , (24249, 2,    46,  0, 8, 1, False) /* Create Metal Cap (46) for Wield */
      , (24249, 2,  2587,  0, 4, 1, False) /* Create Shirt (2587) for Wield */
      , (24249, 2,  2601,  0, 4, 1, False) /* Create Pants (2601) for Wield */
+     , (24249, 2,   414,  0, 39, 1, False) /* Create Chainmail Breastplate (414) for Wield */
+     , (24249, 2,   415,  0, 19, 1, False) /* Create Chainmail Girth (415) for Wield */
+     , (24249, 2,    84,  0, 11, 1, False) /* Create Studded Leather Leggings (84) for Wield */
+     , (24249, 2,   122,  0, 11, 1, False) /* Create Soft Leather Gloves (122) for Wield */
      , (24249, 2,  2606,  0, 9, 0.8, False) /* Create Boots (2606) for Wield */;

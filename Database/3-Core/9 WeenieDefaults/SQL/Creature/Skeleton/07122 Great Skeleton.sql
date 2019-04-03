@@ -160,11 +160,11 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 1090519060 /* Sleeping */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (7122, 9,     0,  0, 0, 0.9, False) /* Create nothing for ContainTreasure */
-     , (7122, 9,     0,  0, 0, 0.98, False) /* Create nothing for ContainTreasure */
-     , (7122, 9,     0,  0, 0, 0.95, False) /* Create nothing for ContainTreasure */
-     , (7122, 9,     0,  0, 0, 0.97, False) /* Create nothing for ContainTreasure */
-     , (7122, 9,  3687,  0, 0, 0.1, False) /* Create Skeleton's Skull (3687) for ContainTreasure */
+VALUES (7122, 9,  3687,  0, 0, 0.1, False) /* Create Skeleton's Skull (3687) for ContainTreasure */
+     , (7122, 9,     0,  0, 0, 0.9, False) /* Create nothing for ContainTreasure */
      , (7122, 9,  6876,  0, 0, 0.02, False) /* Create Sturdy Iron Key (6876) for ContainTreasure */
+     , (7122, 9,     0,  0, 0, 0.98, False) /* Create nothing for ContainTreasure */
      , (7122, 9,  9310,  0, 0, 0.05, False) /* Create A Large Mnemosyne (9310) for ContainTreasure */
-     , (7122, 9, 22100,  0, 0, 0.03, False) /* Create Skull Stamp (22100) for ContainTreasure */;
+     , (7122, 9,     0,  0, 0, 0.95, False) /* Create nothing for ContainTreasure */
+     , (7122, 9, 22100,  0, 0, 0.03, False) /* Create Skull Stamp (22100) for ContainTreasure */
+     , (7122, 9,     0,  0, 0, 0.97, False) /* Create nothing for ContainTreasure */;

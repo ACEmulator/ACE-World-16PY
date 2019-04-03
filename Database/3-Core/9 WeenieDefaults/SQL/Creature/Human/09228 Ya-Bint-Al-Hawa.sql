@@ -206,8 +206,8 @@ VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 1090519043 /* Ready */, NULL, NU
      , (@parent_id,  3,  10 /* Tell */, 1, 1, NULL, 'There are healing kits even more potent than the ones dropped mainly by Lugians.  The Zharalim have recently uncovered lore that enables them to treat these kits in order to make them more potent.  If you trade me a mnemosyne fragment, I will reward you in turn, depending on the quality of the fragment.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (9228, 2,   134,  0, 9, 0, False) /* Create Tunic (134) for Wield */
-     , (9228, 2,  2601,  0, 2, 0.6, False) /* Create Pants (2601) for Wield */
-     , (9228, 2,  2606,  0, 9, 1, False) /* Create Boots (2606) for Wield */
+VALUES (9228, 2,  8526,  0, 0, 0, False) /* Create Staff of the Nomads (8526) for Wield */
      , (9228, 2,  8030,  0, 0, 0, False) /* Create Shendolain Crystal Shield (8030) for Wield */
-     , (9228, 2,  8526,  0, 0, 0, False) /* Create Staff of the Nomads (8526) for Wield */;
+     , (9228, 2,   134,  0, 9, 0, False) /* Create Tunic (134) for Wield */
+     , (9228, 2,  2601,  0, 2, 0.6, False) /* Create Pants (2601) for Wield */
+     , (9228, 2,  2606,  0, 9, 1, False) /* Create Boots (2606) for Wield */;

@@ -171,8 +171,8 @@ VALUES (817, 2,   124,  0, 9, 0, False) /* Create Jerkin (124) for Wield */
      , (817, 2, 10696,  0, 9, 0.5, False) /* Create Apron (10696) for Wield */
      , (817, 4,   294, -1, 0, 0, False) /* Create Amulet (294) for Shop */
      , (817, 4,   622, -1, 0, 0, False) /* Create Necklace (622) for Shop */
-     , (817, 4,  2417, -1, 0, 0, False) /* Create Smoky Quartz (2417) for Shop */
      , (817, 4,  2418, -1, 0, 0, False) /* Create Tiger Eye (2418) for Shop */
+     , (817, 4,  2417, -1, 0, 0, False) /* Create Smoky Quartz (2417) for Shop */
      , (817, 4,  2621, -1, 0, 0, False) /* Create Trade Note (100) (2621) for Shop */
      , (817, 4,  2622, -1, 0, 0, False) /* Create Trade Note (500) (2622) for Shop */
      , (817, 4,  2623, -1, 0, 0, False) /* Create Trade Note (1,000) (2623) for Shop */;

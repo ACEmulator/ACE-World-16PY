@@ -205,19 +205,19 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,  10 /* Tell */, 0, 1, NULL, 'Welcome! What can I put on you today?', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (1080, 2,   117,  0, 14, 0.8, False) /* Create Breeches (117) for Wield */
-     , (1080, 2,   118,  0, 14, 0, False) /* Create Cap (118) for Wield */
-     , (1080, 2,   124,  0, 17, 1, False) /* Create Jerkin (124) for Wield */
+VALUES (1080, 2,   124,  0, 17, 1, False) /* Create Jerkin (124) for Wield */
+     , (1080, 2,   117,  0, 14, 0.8, False) /* Create Breeches (117) for Wield */
      , (1080, 2,   132,  0, 4, 0.5, False) /* Create Shoes (132) for Wield */
+     , (1080, 2,   118,  0, 14, 0, False) /* Create Cap (118) for Wield */
      , (1080, 2, 10696,  0, 18, 1, False) /* Create Apron (10696) for Wield */
+     , (1080, 4,  2599, -1, 9, 0.1, False) /* Create Trousers (2599) for Shop */
+     , (1080, 4,  2599, -1, 8, 0.1, False) /* Create Trousers (2599) for Shop */
+     , (1080, 4,  2596, -1, 9, 0.1, False) /* Create Doublet (2596) for Shop */
+     , (1080, 4,  2596, -1, 8, 0.1, False) /* Create Doublet (2596) for Shop */
      , (1080, 4,   119, -1, 9, 0.1, False) /* Create Cowl (119) for Shop */
      , (1080, 4,   119, -1, 8, 0.1, False) /* Create Cowl (119) for Shop */
      , (1080, 4,   132, -1, 9, 0.1, False) /* Create Shoes (132) for Shop */
      , (1080, 4,   132, -1, 8, 0.1, False) /* Create Shoes (132) for Shop */
-     , (1080, 4,  2596, -1, 9, 0.1, False) /* Create Doublet (2596) for Shop */
-     , (1080, 4,  2596, -1, 8, 0.1, False) /* Create Doublet (2596) for Shop */
-     , (1080, 4,  2599, -1, 9, 0.1, False) /* Create Trousers (2599) for Shop */
-     , (1080, 4,  2599, -1, 8, 0.1, False) /* Create Trousers (2599) for Shop */
-     , (1080, 4,  5850, -1, 4, 0.5, False) /* Create Faran Robe (5850) for Shop */
      , (1080, 4,  5851, -1, 4, 0.5, False) /* Create Faran Robe with Hood (5851) for Shop */
+     , (1080, 4,  5850, -1, 4, 0.5, False) /* Create Faran Robe (5850) for Shop */
      , (1080, 4,  8371, -1, 5, 0.2, False) /* Create Kireth Gown with Band (8371) for Shop */;

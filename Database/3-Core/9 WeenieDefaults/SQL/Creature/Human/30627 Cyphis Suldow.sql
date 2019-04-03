@@ -234,11 +234,11 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,  10 /* Tell */, 0, 1, NULL, 'I need some help, but apparently so do you. Come back when you have a bit more experience under your belt.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (30627, 2,    36,  0, 7, 0.5, False) /* Create Leather Bracers (36) for Wield */
-     , (30627, 2,    39,  0, 7, 0.6, False) /* Create Leather Breastplate (39) for Wield */
-     , (30627, 2,    56,  0, 93, 0.5, False) /* Create Leather Gauntlets (56) for Wield */
-     , (30627, 2,    60,  0, 6, 0.3, False) /* Create Leather Girth (60) for Wield */
+VALUES (30627, 2,    39,  0, 7, 0.6, False) /* Create Leather Breastplate (39) for Wield */
      , (30627, 2,    65,  0, 6, 0.3, False) /* Create Leather Greaves (65) for Wield */
-     , (30627, 2,    86,  0, 7, 0.5, False) /* Create Leather Pauldrons (86) for Wield */
      , (30627, 2,   109,  0, 6, 0.3, False) /* Create Leather Tassets (109) for Wield */
+     , (30627, 2,    60,  0, 6, 0.3, False) /* Create Leather Girth (60) for Wield */
+     , (30627, 2,    36,  0, 7, 0.5, False) /* Create Leather Bracers (36) for Wield */
+     , (30627, 2,    56,  0, 93, 0.5, False) /* Create Leather Gauntlets (56) for Wield */
+     , (30627, 2,    86,  0, 7, 0.5, False) /* Create Leather Pauldrons (86) for Wield */
      , (30627, 2,   115,  0, 93, 0.3, False) /* Create Leather Boots (115) for Wield */;

@@ -210,7 +210,7 @@ VALUES (@parent_id,  0,  13 /* TextDirect */, 0, 1, NULL, 'You think, "The man s
      , (@parent_id, 32,  13 /* TextDirect */, 2, 1, NULL, 'You think, "The choice was up to me now. Did I chance what lay in the dungeon beyond this gem. The blubbering idiot standing before me told me it was dark. How dark? Dark enough that the torch would be my only light. I wasn''t afraid, just wary...maybe this would best wait for a later time."', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (25721, 2,   115,  0, 4, 0.4, False) /* Create Leather Boots (115) for Wield */
-     , (25721, 2,   130,  0, 9, 0, False) /* Create Shirt (130) for Wield */
+VALUES (25721, 2,   130,  0, 9, 0, False) /* Create Shirt (130) for Wield */
+     , (25721, 2, 25557,  0, 0, 0, False) /* Create Eye Patch (25557) for Wield */
      , (25721, 2,  2597,  0, 14, 0, False) /* Create Pants (2597) for Wield */
-     , (25721, 2, 25557,  0, 0, 0, False) /* Create Eye Patch (25557) for Wield */;
+     , (25721, 2,   115,  0, 4, 0.4, False) /* Create Leather Boots (115) for Wield */;

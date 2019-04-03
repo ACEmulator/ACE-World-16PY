@@ -189,5 +189,5 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   8 /* Say */, 0, 0, NULL, 'Mighty spirits watch over my soul. What hope have you to penetrate their protection?', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (27667, 9,     0,  0, 0, 0, False) /* Create nothing for ContainTreasure */
-     , (27667, 9, 27651,  0, 0, 1, False) /* Create Ornate Tumerok Breastplate (27651) for ContainTreasure */;
+VALUES (27667, 9, 27651,  0, 0, 1, False) /* Create Ornate Tumerok Breastplate (27651) for ContainTreasure */
+     , (27667, 9,     0,  0, 0, 0, False) /* Create nothing for ContainTreasure */;

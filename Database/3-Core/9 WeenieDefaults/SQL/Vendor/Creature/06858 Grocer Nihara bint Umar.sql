@@ -178,27 +178,27 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 318767235 /* Nod */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (6858, 2,   117,  0, 4, 0.6, False) /* Create Breeches (117) for Wield */
-     , (6858, 2,   130,  0, 18, 1, False) /* Create Shirt (130) for Wield */
+VALUES (6858, 2,   130,  0, 18, 1, False) /* Create Shirt (130) for Wield */
+     , (6858, 2,   117,  0, 4, 0.6, False) /* Create Breeches (117) for Wield */
      , (6858, 2,   133,  0, 16, 1, False) /* Create Slippers (133) for Wield */
-     , (6858, 4,   136, -1, 39, 1, False) /* Create Pack (136) for Shop */
-     , (6858, 4,   136, -1, 21, 1, False) /* Create Pack (136) for Shop */
-     , (6858, 4,   137, -1, 93, 1, False) /* Create Basket (137) for Shop */
-     , (6858, 4,   137, -1, 86, 1, False) /* Create Basket (137) for Shop */
-     , (6858, 4,   138, -1, 93, 1, False) /* Create Belt Pouch (138) for Shop */
-     , (6858, 4,   138, -1, 86, 1, False) /* Create Belt Pouch (138) for Shop */
-     , (6858, 4,   139, -1, 93, 1, False) /* Create Small Belt Pouch (139) for Shop */
-     , (6858, 4,   139, -1, 86, 1, False) /* Create Small Belt Pouch (139) for Shop */
      , (6858, 4,   166, -1, 39, 1, False) /* Create Sack (166) for Shop */
+     , (6858, 4,   136, -1, 39, 1, False) /* Create Pack (136) for Shop */
+     , (6858, 4,   139, -1, 93, 1, False) /* Create Small Belt Pouch (139) for Shop */
+     , (6858, 4,   138, -1, 93, 1, False) /* Create Belt Pouch (138) for Shop */
+     , (6858, 4,   137, -1, 93, 1, False) /* Create Basket (137) for Shop */
      , (6858, 4,   166, -1, 21, 1, False) /* Create Sack (166) for Shop */
+     , (6858, 4,   136, -1, 21, 1, False) /* Create Pack (136) for Shop */
+     , (6858, 4,   139, -1, 86, 1, False) /* Create Small Belt Pouch (139) for Shop */
+     , (6858, 4,   138, -1, 86, 1, False) /* Create Belt Pouch (138) for Shop */
+     , (6858, 4,   137, -1, 86, 1, False) /* Create Basket (137) for Shop */
      , (6858, 4,   262, -1, 0, 0, False) /* Create Chicken (262) for Shop */
+     , (6858, 4,  4763, -1, 0, 0, False) /* Create Honey (4763) for Shop */
      , (6858, 4,   264, -1, 0, 0, False) /* Create Grapes (264) for Shop */
      , (6858, 4,   547, -1, 0, 0, False) /* Create Brimstone-cap Mushroom (547) for Shop */
-     , (6858, 4,  4754, -1, 0, 0, False) /* Create Baking Pan (4754) for Shop */
-     , (6858, 4,  4757, -1, 0, 0, False) /* Create Carving Knife (4757) for Shop */
-     , (6858, 4,  4763, -1, 0, 0, False) /* Create Honey (4763) for Shop */
      , (6858, 4,  5758, -1, 0, 0, False) /* Create Carrot (5758) for Shop */
-     , (6858, 4,  7823, -1, 0, 0, False) /* Create Heavy Grinder (7823) for Shop */;
+     , (6858, 4,  4754, -1, 0, 0, False) /* Create Baking Pan (4754) for Shop */
+     , (6858, 4,  7823, -1, 0, 0, False) /* Create Heavy Grinder (7823) for Shop */
+     , (6858, 4,  4757, -1, 0, 0, False) /* Create Carving Knife (4757) for Shop */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (6858, -1, 4746, 60, 25, 75, 2, 32, 1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Water (4746) (x25 up to max of 75) - Regenerate upon PickUp - Location to (re)Generate: Shop */

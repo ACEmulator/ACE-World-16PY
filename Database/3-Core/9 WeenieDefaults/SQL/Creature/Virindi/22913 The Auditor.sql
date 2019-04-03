@@ -192,51 +192,51 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 268435539 /* Twitch3 */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (22913, 9,     0,  0, 0, 0.9, False) /* Create nothing for ContainTreasure */
+VALUES (22913, 9,  7604,  0, 0, 0.1, False) /* Create Yellow Jewel (7604) for ContainTreasure */
      , (22913, 9,     0,  0, 0, 0.9, False) /* Create nothing for ContainTreasure */
-     , (22913, 9,     0,  0, 0, 0.97, False) /* Create nothing for ContainTreasure */
-     , (22913, 9,     0,  0, 0, 0, False) /* Create nothing for ContainTreasure */
-     , (22913, 9,     0,  0, 0, 0, False) /* Create nothing for ContainTreasure */
-     , (22913, 9,     0,  0, 0, 0, False) /* Create nothing for ContainTreasure */
-     , (22913, 9,     0,  0, 0, 0, False) /* Create nothing for ContainTreasure */
-     , (22913, 9,     0,  0, 0, 0, False) /* Create nothing for ContainTreasure */
-     , (22913, 9,     0,  0, 0, 0, False) /* Create nothing for ContainTreasure */
-     , (22913, 9,     0,  0, 0, 0, False) /* Create nothing for ContainTreasure */
-     , (22913, 9,     0,  0, 0, 0, False) /* Create nothing for ContainTreasure */
-     , (22913, 9,     0,  0, 0, 0, False) /* Create nothing for ContainTreasure */
-     , (22913, 9,     0,  0, 0, 0, False) /* Create nothing for ContainTreasure */
-     , (22913, 9,     0,  0, 0, 0, False) /* Create nothing for ContainTreasure */
-     , (22913, 9,     0,  0, 0, 0, False) /* Create nothing for ContainTreasure */
-     , (22913, 9,     0,  0, 0, 0, False) /* Create nothing for ContainTreasure */
-     , (22913, 9,     0,  0, 0, 0, False) /* Create nothing for ContainTreasure */
-     , (22913, 9,     0,  0, 0, 0, False) /* Create nothing for ContainTreasure */
-     , (22913, 9,     0,  0, 0, 0, False) /* Create nothing for ContainTreasure */
-     , (22913, 9,     0,  0, 0, 0, False) /* Create nothing for ContainTreasure */
-     , (22913, 9,     0,  0, 0, 0, False) /* Create nothing for ContainTreasure */
-     , (22913, 9,     0,  0, 0, 0, False) /* Create nothing for ContainTreasure */
-     , (22913, 9,     0,  0, 0, 0, False) /* Create nothing for ContainTreasure */
-     , (22913, 9,     0,  0, 0, 0, False) /* Create nothing for ContainTreasure */
      , (22913, 9,  6876,  0, 0, 0.1, False) /* Create Sturdy Iron Key (6876) for ContainTreasure */
-     , (22913, 9,  7604,  0, 0, 0.1, False) /* Create Yellow Jewel (7604) for ContainTreasure */
+     , (22913, 9,     0,  0, 0, 0.9, False) /* Create nothing for ContainTreasure */
      , (22913, 9,  9292,  0, 0, 0.03, False) /* Create Virindi Singularity Key (9292) for ContainTreasure */
-     , (22913, 9, 22923,  0, 0, 1, False) /* Create Asylum Chest Key (22923) for ContainTreasure */
-     , (22913, 9, 22923,  0, 0, 1, False) /* Create Asylum Chest Key (22923) for ContainTreasure */
-     , (22913, 9, 22923,  0, 0, 1, False) /* Create Asylum Chest Key (22923) for ContainTreasure */
-     , (22913, 9, 22923,  0, 0, 1, False) /* Create Asylum Chest Key (22923) for ContainTreasure */
-     , (22913, 9, 22923,  0, 0, 1, False) /* Create Asylum Chest Key (22923) for ContainTreasure */
-     , (22913, 9, 22923,  0, 0, 1, False) /* Create Asylum Chest Key (22923) for ContainTreasure */
-     , (22913, 9, 22923,  0, 0, 1, False) /* Create Asylum Chest Key (22923) for ContainTreasure */
-     , (22913, 9, 22923,  0, 0, 1, False) /* Create Asylum Chest Key (22923) for ContainTreasure */
-     , (22913, 9, 22923,  0, 0, 1, False) /* Create Asylum Chest Key (22923) for ContainTreasure */
-     , (22913, 9, 22923,  0, 0, 1, False) /* Create Asylum Chest Key (22923) for ContainTreasure */
+     , (22913, 9,     0,  0, 0, 0.97, False) /* Create nothing for ContainTreasure */
      , (22913, 9, 22926,  0, 0, 1, False) /* Create Key (22926) for ContainTreasure */
+     , (22913, 9,     0,  0, 0, 0, False) /* Create nothing for ContainTreasure */
+     , (22913, 9, 22923,  0, 0, 1, False) /* Create Asylum Chest Key (22923) for ContainTreasure */
+     , (22913, 9,     0,  0, 0, 0, False) /* Create nothing for ContainTreasure */
+     , (22913, 9, 22923,  0, 0, 1, False) /* Create Asylum Chest Key (22923) for ContainTreasure */
+     , (22913, 9,     0,  0, 0, 0, False) /* Create nothing for ContainTreasure */
+     , (22913, 9, 22923,  0, 0, 1, False) /* Create Asylum Chest Key (22923) for ContainTreasure */
+     , (22913, 9,     0,  0, 0, 0, False) /* Create nothing for ContainTreasure */
+     , (22913, 9, 22923,  0, 0, 1, False) /* Create Asylum Chest Key (22923) for ContainTreasure */
+     , (22913, 9,     0,  0, 0, 0, False) /* Create nothing for ContainTreasure */
+     , (22913, 9, 22923,  0, 0, 1, False) /* Create Asylum Chest Key (22923) for ContainTreasure */
+     , (22913, 9,     0,  0, 0, 0, False) /* Create nothing for ContainTreasure */
+     , (22913, 9, 22923,  0, 0, 1, False) /* Create Asylum Chest Key (22923) for ContainTreasure */
+     , (22913, 9,     0,  0, 0, 0, False) /* Create nothing for ContainTreasure */
+     , (22913, 9, 22923,  0, 0, 1, False) /* Create Asylum Chest Key (22923) for ContainTreasure */
+     , (22913, 9,     0,  0, 0, 0, False) /* Create nothing for ContainTreasure */
+     , (22913, 9, 22923,  0, 0, 1, False) /* Create Asylum Chest Key (22923) for ContainTreasure */
+     , (22913, 9,     0,  0, 0, 0, False) /* Create nothing for ContainTreasure */
+     , (22913, 9, 22923,  0, 0, 1, False) /* Create Asylum Chest Key (22923) for ContainTreasure */
+     , (22913, 9,     0,  0, 0, 0, False) /* Create nothing for ContainTreasure */
+     , (22913, 9, 22923,  0, 0, 1, False) /* Create Asylum Chest Key (22923) for ContainTreasure */
+     , (22913, 9,     0,  0, 0, 0, False) /* Create nothing for ContainTreasure */
      , (22913, 9, 25946,  0, 0, 1, False) /* Create Dark Sapphire Ring (25946) for ContainTreasure */
+     , (22913, 9,     0,  0, 0, 0, False) /* Create nothing for ContainTreasure */
      , (22913, 9, 25946,  0, 0, 1, False) /* Create Dark Sapphire Ring (25946) for ContainTreasure */
+     , (22913, 9,     0,  0, 0, 0, False) /* Create nothing for ContainTreasure */
      , (22913, 9, 25946,  0, 0, 1, False) /* Create Dark Sapphire Ring (25946) for ContainTreasure */
+     , (22913, 9,     0,  0, 0, 0, False) /* Create nothing for ContainTreasure */
      , (22913, 9, 25946,  0, 0, 1, False) /* Create Dark Sapphire Ring (25946) for ContainTreasure */
+     , (22913, 9,     0,  0, 0, 0, False) /* Create nothing for ContainTreasure */
      , (22913, 9, 25946,  0, 0, 1, False) /* Create Dark Sapphire Ring (25946) for ContainTreasure */
+     , (22913, 9,     0,  0, 0, 0, False) /* Create nothing for ContainTreasure */
      , (22913, 9, 25946,  0, 0, 1, False) /* Create Dark Sapphire Ring (25946) for ContainTreasure */
+     , (22913, 9,     0,  0, 0, 0, False) /* Create nothing for ContainTreasure */
      , (22913, 9, 25946,  0, 0, 1, False) /* Create Dark Sapphire Ring (25946) for ContainTreasure */
+     , (22913, 9,     0,  0, 0, 0, False) /* Create nothing for ContainTreasure */
      , (22913, 9, 25946,  0, 0, 1, False) /* Create Dark Sapphire Ring (25946) for ContainTreasure */
+     , (22913, 9,     0,  0, 0, 0, False) /* Create nothing for ContainTreasure */
      , (22913, 9, 25946,  0, 0, 1, False) /* Create Dark Sapphire Ring (25946) for ContainTreasure */
-     , (22913, 9, 25946,  0, 0, 1, False) /* Create Dark Sapphire Ring (25946) for ContainTreasure */;
+     , (22913, 9,     0,  0, 0, 0, False) /* Create nothing for ContainTreasure */
+     , (22913, 9, 25946,  0, 0, 1, False) /* Create Dark Sapphire Ring (25946) for ContainTreasure */
+     , (22913, 9,     0,  0, 0, 0, False) /* Create nothing for ContainTreasure */;

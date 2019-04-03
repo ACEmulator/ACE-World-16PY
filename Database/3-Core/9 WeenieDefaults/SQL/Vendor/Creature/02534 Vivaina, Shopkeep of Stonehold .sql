@@ -165,72 +165,72 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 318767235 /* Nod */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (2534, 2,    75,  0, 0, 0, False) /* Create Helmet (75) for Wield */
-     , (2534, 2,   115,  0, 4, 0.6, False) /* Create Leather Boots (115) for Wield */
+VALUES (2534, 2,   124,  0, 13, 0.5, False) /* Create Jerkin (124) for Wield */
      , (2534, 2,   117,  0, 5, 0.67, False) /* Create Breeches (117) for Wield */
-     , (2534, 2,   124,  0, 13, 0.5, False) /* Create Jerkin (124) for Wield */
+     , (2534, 2,   115,  0, 4, 0.6, False) /* Create Leather Boots (115) for Wield */
+     , (2534, 2,    75,  0, 0, 0, False) /* Create Helmet (75) for Wield */
      , (2534, 2, 10696,  0, 13, 1, False) /* Create Apron (10696) for Wield */
+     , (2534, 4,   301, -1, 0, 0, False) /* Create Battle Axe (301) for Shop */
+     , (2534, 4,   350, -1, 0, 0, False) /* Create Broad Sword (350) for Shop */
+     , (2534, 4,  4190, -1, 0, 0, False) /* Create Cestus (4190) for Shop */
+     , (2534, 4,   314, -1, 0, 0, False) /* Create Dagger (314) for Shop */
+     , (2534, 4,   351, -1, 0, 0, False) /* Create Long Sword (351) for Shop */
+     , (2534, 4,   331, -1, 0, 0, False) /* Create Mace (331) for Shop */
+     , (2534, 4,   332, -1, 0, 0, False) /* Create Morning Star (332) for Shop */
+     , (2534, 4, 22168, -1, 0, 0, False) /* Create Quarter Staff (22168) for Shop */
+     , (2534, 4,   339, -1, 0, 0, False) /* Create Scimitar (339) for Shop */
+     , (2534, 4,   348, -1, 0, 0, False) /* Create Spear (348) for Shop */
+     , (2534, 4,   304, -1, 0, 0, False) /* Create Throwing Axe (304) for Shop */
+     , (2534, 4,   300, -1, 0, 0, False) /* Create Arrow (300) for Shop */
+     , (2534, 4,  3599, -1, 0, 0, False) /* Create Blunt Arrow (3599) for Shop */
+     , (2534, 4,   305, -1, 0, 0, False) /* Create Quarrel (305) for Shop */
+     , (2534, 4,  3603, -1, 0, 0, False) /* Create Blunt Quarrel (3603) for Shop */
+     , (2534, 4,  4585, -1, 0, 0, False) /* Create Bundle of Arrowshafts (4585) for Shop */
+     , (2534, 4,  5339, -1, 0, 0, False) /* Create Bundle of Quarrelshafts (5339) for Shop */
+     , (2534, 4,   311, -1, 0, 0, False) /* Create Heavy Crossbow (311) for Shop */
+     , (2534, 4,   306, -1, 0, 0, False) /* Create Longbow (306) for Shop */
+     , (2534, 4,  8489, -1, 0, 0, False) /* Create Heaume (8489) for Shop */
+     , (2534, 4,  8488, -1, 0, 0, False) /* Create Armet (8488) for Shop */
+     , (2534, 4,    75, -1, 0, 0, False) /* Create Helmet (75) for Shop */
+     , (2534, 4,    76, -1, 0, 0, False) /* Create Horned Helm (76) for Shop */
      , (2534, 4,    40, -1, 0, 0, False) /* Create Platemail Breastplate (40) for Shop */
      , (2534, 4,    57, -1, 0, 0, False) /* Create Platemail Gauntlets (57) for Shop */
      , (2534, 4,    61, -1, 0, 0, False) /* Create Platemail Girth (61) for Shop */
      , (2534, 4,    66, -1, 0, 0, False) /* Create Platemail Greaves (66) for Shop */
-     , (2534, 4,    75, -1, 0, 0, False) /* Create Helmet (75) for Shop */
-     , (2534, 4,    76, -1, 0, 0, False) /* Create Horned Helm (76) for Shop */
+     , (2534, 4,   110, -1, 0, 0, False) /* Create Platemail Tassets (110) for Shop */
      , (2534, 4,    82, -1, 0, 0, False) /* Create Platemail Leggings (82) for Shop */
      , (2534, 4,    87, -1, 0, 0, False) /* Create Platemail Pauldrons (87) for Shop */
+     , (2534, 4,   107, -1, 0, 0, False) /* Create Sollerets (107) for Shop */
      , (2534, 4,    92, -1, 0, 0, False) /* Create Large Kite Shield (92) for Shop */
      , (2534, 4,    95, -1, 0, 0, False) /* Create Tower Shield (95) for Shop */
-     , (2534, 4,   107, -1, 0, 0, False) /* Create Sollerets (107) for Shop */
-     , (2534, 4,   110, -1, 0, 0, False) /* Create Platemail Tassets (110) for Shop */
-     , (2534, 4,   136, -1, 9, 1, False) /* Create Pack (136) for Shop */
-     , (2534, 4,   136, -1, 8, 1, False) /* Create Pack (136) for Shop */
-     , (2534, 4,   137, -1, 90, 0, False) /* Create Basket (137) for Shop */
-     , (2534, 4,   137, -1, 89, 0, False) /* Create Basket (137) for Shop */
-     , (2534, 4,   138, -1, 90, 0, False) /* Create Belt Pouch (138) for Shop */
-     , (2534, 4,   138, -1, 89, 0, False) /* Create Belt Pouch (138) for Shop */
-     , (2534, 4,   139, -1, 90, 0, False) /* Create Small Belt Pouch (139) for Shop */
-     , (2534, 4,   139, -1, 89, 0, False) /* Create Small Belt Pouch (139) for Shop */
-     , (2534, 4,   151, -1, 0, 0, False) /* Create Empty Flask (151) for Shop */
-     , (2534, 4,   166, -1, 9, 1, False) /* Create Sack (166) for Shop */
-     , (2534, 4,   166, -1, 8, 1, False) /* Create Sack (166) for Shop */
      , (2534, 4,   258, -1, 0, 0, False) /* Create Apple (258) for Shop */
-     , (2534, 4,   293, -1, 0, 0, False) /* Create Torch (293) for Shop */
-     , (2534, 4,   300, -1, 0, 0, False) /* Create Arrow (300) for Shop */
-     , (2534, 4,   301, -1, 0, 0, False) /* Create Battle Axe (301) for Shop */
-     , (2534, 4,   304, -1, 0, 0, False) /* Create Throwing Axe (304) for Shop */
-     , (2534, 4,   305, -1, 0, 0, False) /* Create Quarrel (305) for Shop */
-     , (2534, 4,   306, -1, 0, 0, False) /* Create Longbow (306) for Shop */
-     , (2534, 4,   311, -1, 0, 0, False) /* Create Heavy Crossbow (311) for Shop */
-     , (2534, 4,   314, -1, 0, 0, False) /* Create Dagger (314) for Shop */
-     , (2534, 4,   331, -1, 0, 0, False) /* Create Mace (331) for Shop */
-     , (2534, 4,   332, -1, 0, 0, False) /* Create Morning Star (332) for Shop */
-     , (2534, 4,   339, -1, 0, 0, False) /* Create Scimitar (339) for Shop */
-     , (2534, 4,   348, -1, 0, 0, False) /* Create Spear (348) for Shop */
-     , (2534, 4,   350, -1, 0, 0, False) /* Create Broad Sword (350) for Shop */
-     , (2534, 4,   351, -1, 0, 0, False) /* Create Long Sword (351) for Shop */
+     , (2534, 4,  4761, -1, 0, 0, False) /* Create Flour (4761) for Shop */
+     , (2534, 4,  4746, -1, 0, 0, False) /* Create Water (4746) for Shop */
+     , (2534, 4,  5778, -1, 0, 0, False) /* Create Whittling Knife (5778) for Shop */
+     , (2534, 4,  4754, -1, 0, 0, False) /* Create Baking Pan (4754) for Shop */
+     , (2534, 4,  7824, -1, 0, 0, False) /* Create Metal Press (7824) for Shop */
+     , (2534, 4,   151, -1, 0, 0, False) /* Create Empty Flask (151) for Shop */
      , (2534, 4,   365, -1, 0, 0, False) /* Create Parchment (365) for Shop */
-     , (2534, 4,   512, -1, 0, 0, False) /* Create Good Lockpick (512) for Shop */
+     , (2534, 4,   293, -1, 0, 0, False) /* Create Torch (293) for Shop */
+     , (2534, 4,   166, -1, 9, 1, False) /* Create Sack (166) for Shop */
+     , (2534, 4,   136, -1, 9, 1, False) /* Create Pack (136) for Shop */
+     , (2534, 4,   138, -1, 90, 0, False) /* Create Belt Pouch (138) for Shop */
+     , (2534, 4,   139, -1, 90, 0, False) /* Create Small Belt Pouch (139) for Shop */
+     , (2534, 4,   137, -1, 90, 0, False) /* Create Basket (137) for Shop */
+     , (2534, 4,   166, -1, 8, 1, False) /* Create Sack (166) for Shop */
+     , (2534, 4,   136, -1, 8, 1, False) /* Create Pack (136) for Shop */
+     , (2534, 4,   138, -1, 89, 0, False) /* Create Belt Pouch (138) for Shop */
+     , (2534, 4,   139, -1, 89, 0, False) /* Create Small Belt Pouch (139) for Shop */
+     , (2534, 4,   137, -1, 89, 0, False) /* Create Basket (137) for Shop */
      , (2534, 4,   513, -1, 0, 0, False) /* Create Plain Lockpick (513) for Shop */
      , (2534, 4,   514, -1, 0, 0, False) /* Create Excellent Lockpick (514) for Shop */
      , (2534, 4,   515, -1, 0, 0, False) /* Create Superb Lockpick (515) for Shop */
-     , (2534, 4,   516, -1, 0, 0, False) /* Create Peerless Lockpick (516) for Shop */
      , (2534, 4,   545, -1, 0, 0, False) /* Create Reliable Lockpick (545) for Shop */
+     , (2534, 4,   512, -1, 0, 0, False) /* Create Good Lockpick (512) for Shop */
+     , (2534, 4,   516, -1, 0, 0, False) /* Create Peerless Lockpick (516) for Shop */
+     , (2534, 4, 22765, -1, 0, 0, False) /* Create The Empyrean Temples (22765) for Shop */
      , (2534, 4,  2477, -1, 0, 0, False) /* Create Tumerok Fortress Rumor (2477) for Shop */
-     , (2534, 4,  3599, -1, 0, 0, False) /* Create Blunt Arrow (3599) for Shop */
-     , (2534, 4,  3603, -1, 0, 0, False) /* Create Blunt Quarrel (3603) for Shop */
-     , (2534, 4,  4190, -1, 0, 0, False) /* Create Cestus (4190) for Shop */
-     , (2534, 4,  4585, -1, 0, 0, False) /* Create Bundle of Arrowshafts (4585) for Shop */
-     , (2534, 4,  4746, -1, 0, 0, False) /* Create Water (4746) for Shop */
-     , (2534, 4,  4754, -1, 0, 0, False) /* Create Baking Pan (4754) for Shop */
-     , (2534, 4,  4761, -1, 0, 0, False) /* Create Flour (4761) for Shop */
-     , (2534, 4,  5339, -1, 0, 0, False) /* Create Bundle of Quarrelshafts (5339) for Shop */
-     , (2534, 4,  5778, -1, 0, 0, False) /* Create Whittling Knife (5778) for Shop */
      , (2534, 4,  5884, -1, 0, 0, False) /* Create The Tremblant Party (5884) for Shop */
      , (2534, 4,  5885, -1, 0, 0, False) /* Create The Tremblant Party (5885) for Shop */
      , (2534, 4,  5886, -1, 0, 0, False) /* Create The Tremblant Party (5886) for Shop */
-     , (2534, 4,  7824, -1, 0, 0, False) /* Create Metal Press (7824) for Shop */
-     , (2534, 4,  8488, -1, 0, 0, False) /* Create Armet (8488) for Shop */
-     , (2534, 4,  8489, -1, 0, 0, False) /* Create Heaume (8489) for Shop */
-     , (2534, 4, 22168, -1, 0, 0, False) /* Create Quarter Staff (22168) for Shop */
-     , (2534, 4, 22765, -1, 0, 0, False) /* Create The Empyrean Temples (22765) for Shop */
      , (2534, 4, 30743, -1, 0, 0, False) /* Create Suzuhara Baijin's Delivery (30743) for Shop */;

@@ -191,7 +191,7 @@ VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 1090519043 /* Ready */, NULL, NU
      , (@parent_id,  3,  10 /* Tell */, 1, 1, NULL, 'I realize that it is dangerous to hunt the more potent Sand Kings without protection.  They cast a plethora of debilitating spells on any aspiring hunter.  With the proper gift, I have been authorized to grant you a gem that can disperse such maladies.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (9227, 2,   134,  0, 9, 0, False) /* Create Tunic (134) for Wield */
+VALUES (9227, 2,  5851,  0, 84, 0.8, False) /* Create Faran Robe with Hood (5851) for Wield */
+     , (9227, 2,   134,  0, 9, 0, False) /* Create Tunic (134) for Wield */
      , (9227, 2,  2601,  0, 8, 0.6, False) /* Create Pants (2601) for Wield */
-     , (9227, 2,  2606,  0, 9, 1, False) /* Create Boots (2606) for Wield */
-     , (9227, 2,  5851,  0, 84, 0.8, False) /* Create Faran Robe with Hood (5851) for Wield */;
+     , (9227, 2,  2606,  0, 9, 1, False) /* Create Boots (2606) for Wield */;

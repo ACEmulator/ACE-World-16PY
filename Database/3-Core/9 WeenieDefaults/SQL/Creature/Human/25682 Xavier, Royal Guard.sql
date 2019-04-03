@@ -377,5 +377,5 @@ VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 1090519043 /* Ready */, NULL, NU
      , (@parent_id,  8,  10 /* Tell */, 1, 1, NULL, 'Additionally, if you received a token from Her Majesty during the time that followed the initial assault on the Olthoi Queen, I will accept those and grant you the title that you have earned.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (25682, 2,   118,  0, 14, 1, False) /* Create Cap (118) for Wield */
-     , (25682, 2, 10870,  0, 17, 0.7, False) /* Create Canescent Mattekar Robe (10870) for Wield */;
+VALUES (25682, 2, 10870,  0, 17, 0.7, False) /* Create Canescent Mattekar Robe (10870) for Wield */
+     , (25682, 2,   118,  0, 14, 1, False) /* Create Cap (118) for Wield */;

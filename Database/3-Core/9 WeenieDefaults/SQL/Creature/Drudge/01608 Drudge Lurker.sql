@@ -210,9 +210,9 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 268435537 /* Twitch1 */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (1608, 9,     0,  0, 0, 0.97, False) /* Create nothing for ContainTreasure */
-     , (1608, 9,     0,  0, 0, 0.98, False) /* Create nothing for ContainTreasure */
-     , (1608, 9,     0,  0, 0, 0.995, False) /* Create nothing for ContainTreasure */
-     , (1608, 9,  7825,  0, 0, 0.03, False) /* Create Brown Beans (7825) for ContainTreasure */
+VALUES (1608, 9,  7825,  0, 0, 0.03, False) /* Create Brown Beans (7825) for ContainTreasure */
+     , (1608, 9,     0,  0, 0, 0.97, False) /* Create nothing for ContainTreasure */
      , (1608, 9, 15760,  0, 0, 0.02, False) /* Create Ruined Amulet of the Atlatl (15760) for ContainTreasure */
-     , (1608, 9, 27390,  0, 0, 0.005, False) /* Create Drudge Fight (27390) for ContainTreasure */;
+     , (1608, 9,     0,  0, 0, 0.98, False) /* Create nothing for ContainTreasure */
+     , (1608, 9, 27390,  0, 0, 0.005, False) /* Create Drudge Fight (27390) for ContainTreasure */
+     , (1608, 9,     0,  0, 0, 0.995, False) /* Create nothing for ContainTreasure */;
