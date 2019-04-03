@@ -114,7 +114,7 @@ VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 1090519043 /* Ready */, NULL, NU
      , (@parent_id,  5,   5 /* Motion */, 9000, 1, 1090519043 /* Ready */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (22147, 2,   118,  0, 14, 0.7, False) /* Create Cap (118) for Wield */
-     , (22147, 2, 10870,  0, 17, 0.7, False) /* Create Canescent Mattekar Robe (10870) for Wield */
+VALUES (22147, 2, 10870,  0, 17, 0.7, False) /* Create Canescent Mattekar Robe (10870) for Wield */
+     , (22147, 2,   118,  0, 14, 0.7, False) /* Create Cap (118) for Wield */
      , (22147, 2, 20954,  0, 0, 0, False) /* Create Superb Shimmering Isparian Sword (20954) for Wield */
      , (22147, 2, 21158,  0, 14, 1, False) /* Create Covenant Shield (21158) for Wield */;

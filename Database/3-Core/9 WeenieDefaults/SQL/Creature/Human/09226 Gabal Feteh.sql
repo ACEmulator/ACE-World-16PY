@@ -191,7 +191,7 @@ VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 1090519043 /* Ready */, NULL, NU
      , (@parent_id,  3,  10 /* Tell */, 1, 1, NULL, 'Recently the Zharalim have uncovered lore that enables us to make magical arrows.  If you trade me a mnemosyne fragment, I will be more than happy to grant you some arrowheads. You''ll have to assemble them yourself though.  You''ll need a bow like mine to use them.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (9226, 2,   134,  0, 9, 0, False) /* Create Tunic (134) for Wield */
+VALUES (9226, 2,  8000,  0, 0, 0, False) /* Create Shendolain Crystal Bow (8000) for Wield */
+     , (9226, 2,   134,  0, 9, 0, False) /* Create Tunic (134) for Wield */
      , (9226, 2,  2601,  0, 14, 0.6, False) /* Create Pants (2601) for Wield */
-     , (9226, 2,  2606,  0, 9, 1, False) /* Create Boots (2606) for Wield */
-     , (9226, 2,  8000,  0, 0, 0, False) /* Create Shendolain Crystal Bow (8000) for Wield */;
+     , (9226, 2,  2606,  0, 9, 1, False) /* Create Boots (2606) for Wield */;

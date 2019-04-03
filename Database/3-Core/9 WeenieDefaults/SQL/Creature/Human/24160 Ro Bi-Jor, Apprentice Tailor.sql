@@ -178,6 +178,6 @@ VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 1090519043 /* Ready */, NULL, NU
      , (@parent_id,  2,  10 /* Tell */, 0, 1, NULL, 'Hello I am an apprentice of To-ping Ra. He is teaching me the venerable art of tailoring. I have seen a few setbacks in my studies recently but I am sure that my confidence will return.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (24160, 2,   127,  0, 9, 0, False) /* Create Pants (127) for Wield */
-     , (24160, 2,   130,  0, 9, 1, False) /* Create Shirt (130) for Wield */
+VALUES (24160, 2,   130,  0, 9, 1, False) /* Create Shirt (130) for Wield */
+     , (24160, 2,   127,  0, 9, 0, False) /* Create Pants (127) for Wield */
      , (24160, 2,  2606,  0, 4, 0.8, False) /* Create Boots (2606) for Wield */;

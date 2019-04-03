@@ -149,6 +149,6 @@ VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 1090519043 /* Ready */, NULL, NU
      , (@parent_id,  2,  10 /* Tell */, 1, 1, NULL, 'Those Tumeroks have me trapped here. I am glad their number has been dealt a severe blow!', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (15809, 2,   132,  0, 9, 0, False) /* Create Shoes (132) for Wield */
-     , (15809, 2,   134,  0, 9, 1, False) /* Create Tunic (134) for Wield */
-     , (15809, 2,  2604,  0, 17, 1, False) /* Create Breeches (2604) for Wield */;
+VALUES (15809, 2,   134,  0, 9, 1, False) /* Create Tunic (134) for Wield */
+     , (15809, 2,  2604,  0, 17, 1, False) /* Create Breeches (2604) for Wield */
+     , (15809, 2,   132,  0, 9, 0, False) /* Create Shoes (132) for Wield */;

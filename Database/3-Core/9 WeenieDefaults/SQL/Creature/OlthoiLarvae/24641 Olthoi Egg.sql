@@ -99,5 +99,5 @@ VALUES (24641,  0,  4, 35, 0.75,   90,   56,   72,   54,   56,   56,   29,   10,
      , (24641, 22, 32, 30,  0.5,    0,    0,    0,    0,    0,    0,    0,    0,    0, 0,    0,    0,    0,    0,    0,    0,    0,    0,    0,    0,    0,    0) /* Breath */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (24641, 9,     0,  0, 0, 0.8, False) /* Create nothing for ContainTreasure */
-     , (24641, 9, 24269,  0, 0, 0.2, False) /* Create Small Olthoi Grub (24269) for ContainTreasure */;
+VALUES (24641, 9, 24269,  0, 0, 0.2, False) /* Create Small Olthoi Grub (24269) for ContainTreasure */
+     , (24641, 9,     0,  0, 0, 0.8, False) /* Create nothing for ContainTreasure */;

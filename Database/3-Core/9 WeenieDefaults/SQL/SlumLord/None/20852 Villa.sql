@@ -25,7 +25,7 @@ VALUES (20852,   1,   33557167) /* Setup */
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (20852, 16,   273, 2000000, 0, 0, False) /* Create Pyreal (273) for HouseBuy */
-     , (20852, 16,  4222,  1, 0, 0, False) /* Create Armoredillo Hide Bracers (4222) for HouseBuy */
      , (20852, 16, 11710,  5, 0, 0, False) /* Create Writ of Refuge (11710) for HouseBuy */
+     , (20852, 16,  4222,  1, 0, 0, False) /* Create Armoredillo Hide Bracers (4222) for HouseBuy */
      , (20852, 32,   273, 100000, 0, 0, False) /* Create Pyreal (273) for HouseRent */
      , (20852, 32, 11710,  2, 0, 0, False) /* Create Writ of Refuge (11710) for HouseRent */;

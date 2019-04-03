@@ -156,5 +156,5 @@ VALUES (6019,  94) /* ATTACK_NOTIFICATION_EVENT */
      , (6019, 414) /* PLAYER_DEATH_EVENT */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (6019, 9,     0,  0, 0, 0.97, False) /* Create nothing for ContainTreasure */
-     , (6019, 9,  7825,  0, 0, 0.03, False) /* Create Brown Beans (7825) for ContainTreasure */;
+VALUES (6019, 9,  7825,  0, 0, 0.03, False) /* Create Brown Beans (7825) for ContainTreasure */
+     , (6019, 9,     0,  0, 0, 0.97, False) /* Create nothing for ContainTreasure */;

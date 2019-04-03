@@ -139,7 +139,7 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 268435538 /* Twitch2 */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (1606, 9,     0,  0, 0, 0.8, False) /* Create nothing for ContainTreasure */
-     , (1606, 9,     0,  0, 0, 0.96, False) /* Create nothing for ContainTreasure */
-     , (1606, 9,   266,  0, 0, 0.2, False) /* Create Auroch Horn (266) for ContainTreasure */
-     , (1606, 9, 20857,  0, 0, 0.04, False) /* Create Cooking Stamp (20857) for ContainTreasure */;
+VALUES (1606, 9,   266,  0, 0, 0.2, False) /* Create Auroch Horn (266) for ContainTreasure */
+     , (1606, 9,     0,  0, 0, 0.8, False) /* Create nothing for ContainTreasure */
+     , (1606, 9, 20857,  0, 0, 0.04, False) /* Create Cooking Stamp (20857) for ContainTreasure */
+     , (1606, 9,     0,  0, 0, 0.96, False) /* Create nothing for ContainTreasure */;

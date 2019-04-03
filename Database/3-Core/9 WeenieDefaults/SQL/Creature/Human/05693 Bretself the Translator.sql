@@ -769,7 +769,7 @@ VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 1090519043 /* Ready */, NULL, NU
      , (@parent_id,  3,  10 /* Tell */, 0, 1, NULL, 'I study Empyrean history of Lord Asheron''s era, which we call the Empyrean Era of Lore.  If you have a text from that time, perhaps I may be of service.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (5693, 2,   127,  0, 4, 0.8, False) /* Create Pants (127) for Wield */
-     , (5693, 2,  2591,  0, 18, 1, False) /* Create Shirt (2591) for Wield */
+VALUES (5693, 2,  2591,  0, 18, 1, False) /* Create Shirt (2591) for Wield */
+     , (5693, 2,   127,  0, 4, 0.8, False) /* Create Pants (127) for Wield */
      , (5693, 2,  2606,  0, 9, 0.5, False) /* Create Boots (2606) for Wield */
      , (5693, 2,  5588,  0, 0, 0, False) /* Create Scribe Hat (5588) for Wield */;

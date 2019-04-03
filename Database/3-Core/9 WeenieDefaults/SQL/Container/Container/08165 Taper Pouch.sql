@@ -37,15 +37,15 @@ VALUES (8165,   1,   33554817) /* Setup */
      , (8165,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (8165, 1,  1643, 50, 0, 0, False) /* Create Blue Taper (1643) for Contain */
-     , (8165, 1,  1644, 50, 0, 0, False) /* Create Brown Taper (1644) for Contain */
-     , (8165, 1,  1645, 50, 0, 0, False) /* Create Green Taper (1645) for Contain */
-     , (8165, 1,  1646, 50, 0, 0, False) /* Create Grey Taper (1646) for Contain */
-     , (8165, 1,  1647, 50, 0, 0, False) /* Create Indigo Taper (1647) for Contain */
-     , (8165, 1,  1648, 50, 0, 0, False) /* Create Orange Taper (1648) for Contain */
+VALUES (8165, 1,  1650, 50, 0, 0, False) /* Create Red Taper (1650) for Contain */
      , (8165, 1,  1649, 50, 0, 0, False) /* Create Pink Taper (1649) for Contain */
-     , (8165, 1,  1650, 50, 0, 0, False) /* Create Red Taper (1650) for Contain */
-     , (8165, 1,  1651, 50, 0, 0, False) /* Create Violet Taper (1651) for Contain */
-     , (8165, 1,  1652, 50, 0, 0, False) /* Create White Taper (1652) for Contain */
+     , (8165, 1,  1648, 50, 0, 0, False) /* Create Orange Taper (1648) for Contain */
      , (8165, 1,  1653, 50, 0, 0, False) /* Create Yellow Taper (1653) for Contain */
-     , (8165, 1,  1654, 50, 0, 0, False) /* Create Turquoise Taper (1654) for Contain */;
+     , (8165, 1,  1645, 50, 0, 0, False) /* Create Green Taper (1645) for Contain */
+     , (8165, 1,  1654, 50, 0, 0, False) /* Create Turquoise Taper (1654) for Contain */
+     , (8165, 1,  1643, 50, 0, 0, False) /* Create Blue Taper (1643) for Contain */
+     , (8165, 1,  1647, 50, 0, 0, False) /* Create Indigo Taper (1647) for Contain */
+     , (8165, 1,  1651, 50, 0, 0, False) /* Create Violet Taper (1651) for Contain */
+     , (8165, 1,  1644, 50, 0, 0, False) /* Create Brown Taper (1644) for Contain */
+     , (8165, 1,  1652, 50, 0, 0, False) /* Create White Taper (1652) for Contain */
+     , (8165, 1,  1646, 50, 0, 0, False) /* Create Grey Taper (1646) for Contain */;

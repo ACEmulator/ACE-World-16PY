@@ -137,7 +137,7 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 268435538 /* Twitch2 */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (1612, 9,     0,  0, 0, 0.95, False) /* Create nothing for ContainTreasure */
+VALUES (1612, 9, 28205,  0, 0, 0.05, False) /* Create Azure Gromnie Tooth (28205) for ContainTreasure */
      , (1612, 9,     0,  0, 0, 0.95, False) /* Create nothing for ContainTreasure */
      , (1612, 9,  4235,  0, 0, 0.05, False) /* Create Thin Gromnie Hide (4235) for ContainTreasure */
-     , (1612, 9, 28205,  0, 0, 0.05, False) /* Create Azure Gromnie Tooth (28205) for ContainTreasure */;
+     , (1612, 9,     0,  0, 0, 0.95, False) /* Create nothing for ContainTreasure */;

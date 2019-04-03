@@ -164,14 +164,16 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 318767235 /* Nod */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (1395, 2,   115,  0, 9, 0, False) /* Create Leather Boots (115) for Wield */
+VALUES (1395, 2,   336,  0, 0, 0, False) /* Create Ono (336) for Wield */
      , (1395, 2,   124,  0, 18, 1, False) /* Create Jerkin (124) for Wield */
      , (1395, 2,   127,  0, 9, 1, False) /* Create Pants (127) for Wield */
-     , (1395, 2,   336,  0, 0, 0, False) /* Create Ono (336) for Wield */
+     , (1395, 2,   115,  0, 9, 0, False) /* Create Leather Boots (115) for Wield */
      , (1395, 2, 10696,  0, 16, 1, False) /* Create Apron (10696) for Wield */
-     , (1395, 4,   310, -1, 0, 0, False) /* Create Throwing Club (310) for Shop */
      , (1395, 4,   314, -1, 0, 0, False) /* Create Dagger (314) for Shop */
+     , (1395, 4,   310, -1, 0, 0, False) /* Create Throwing Club (310) for Shop */
+     , (1395, 4, 22158, -1, 0, 0, False) /* Create Jo (22158) for Shop */
      , (1395, 4,   327, -1, 0, 0, False) /* Create Ken (327) for Shop */
+     , (1395, 4,  4195, -1, 0, 0, False) /* Create Nekode (4195) for Shop */
      , (1395, 4,   336, -1, 0, 0, False) /* Create Ono (336) for Shop */
      , (1395, 4,   353, -1, 0, 0, False) /* Create Tachi (353) for Shop */
      , (1395, 4,   356, -1, 0, 0, False) /* Create Tofun (356) for Shop */
@@ -179,6 +181,4 @@ VALUES (1395, 2,   115,  0, 9, 0, False) /* Create Leather Boots (115) for Wield
      , (1395, 4,   362, -1, 0, 0, False) /* Create Yari (362) for Shop */
      , (1395, 4,  2621, -1, 0, 0, False) /* Create Trade Note (100) (2621) for Shop */
      , (1395, 4,  2622, -1, 0, 0, False) /* Create Trade Note (500) (2622) for Shop */
-     , (1395, 4,  2623, -1, 0, 0, False) /* Create Trade Note (1,000) (2623) for Shop */
-     , (1395, 4,  4195, -1, 0, 0, False) /* Create Nekode (4195) for Shop */
-     , (1395, 4, 22158, -1, 0, 0, False) /* Create Jo (22158) for Shop */;
+     , (1395, 4,  2623, -1, 0, 0, False) /* Create Trade Note (1,000) (2623) for Shop */;

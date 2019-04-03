@@ -166,5 +166,5 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 268435540 /* Twitch4 */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (26469, 9,     0,  0, 0, 0.95, False) /* Create nothing for ContainTreasure */
-     , (26469, 9, 14589,  0, 0, 0.05, False) /* Create Ebon Mattekar Hide (14589) for ContainTreasure */;
+VALUES (26469, 9, 14589,  0, 0, 0.05, False) /* Create Ebon Mattekar Hide (14589) for ContainTreasure */
+     , (26469, 9,     0,  0, 0, 0.95, False) /* Create nothing for ContainTreasure */;

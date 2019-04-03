@@ -177,17 +177,17 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 318767235 /* Nod */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (1386, 2,   127,  0, 14, 0.8, False) /* Create Pants (127) for Wield */
+VALUES (1386, 2,   134,  0, 8, 0, False) /* Create Tunic (134) for Wield */
+     , (1386, 2,   127,  0, 14, 0.8, False) /* Create Pants (127) for Wield */
      , (1386, 2,   129,  0, 1, 0.67, False) /* Create Sandals (129) for Wield */
-     , (1386, 2,   134,  0, 8, 0, False) /* Create Tunic (134) for Wield */
      , (1386, 2, 10696,  0, 4, 0.8, False) /* Create Apron (10696) for Wield */
-     , (1386, 4,   377, -1, 0, 0, False) /* Create Potion of Healing (377) for Shop */
-     , (1386, 4,   379, -1, 0, 0, False) /* Create Mana Potion (379) for Shop */
      , (1386, 4,   630, -1, 0, 0, False) /* Create Gifted Healing Kit (630) for Shop */
      , (1386, 4,   631, -1, 0, 0, False) /* Create Excellent Healing Kit (631) for Shop */
+     , (1386, 4,   377, -1, 0, 0, False) /* Create Potion of Healing (377) for Shop */
+     , (1386, 4,   379, -1, 0, 0, False) /* Create Mana Potion (379) for Shop */
      , (1386, 4,  2470, -1, 0, 0, False) /* Create Stamina Elixir (2470) for Shop */
-     , (1386, 4,  2621, -1, 0, 0, False) /* Create Trade Note (100) (2621) for Shop */
-     , (1386, 4,  2622, -1, 0, 0, False) /* Create Trade Note (500) (2622) for Shop */
      , (1386, 4,  4587, -1, 0, 0, False) /* Create Heal Other II (4587) for Shop */
+     , (1386, 4,  4596, -1, 0, 0, False) /* Create Regeneration Other II (4596) for Shop */
      , (1386, 4,  4593, -1, 0, 0, False) /* Create Mana Boost Other II (4593) for Shop */
-     , (1386, 4,  4596, -1, 0, 0, False) /* Create Regeneration Other II (4596) for Shop */;
+     , (1386, 4,  2621, -1, 0, 0, False) /* Create Trade Note (100) (2621) for Shop */
+     , (1386, 4,  2622, -1, 0, 0, False) /* Create Trade Note (500) (2622) for Shop */;

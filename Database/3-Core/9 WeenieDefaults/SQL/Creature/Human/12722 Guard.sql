@@ -177,5 +177,5 @@ VALUES (@parent_id,  0,  22 /* StampQuest */, 0, 1, NULL, 'CameraGuardSpoken1', 
      , (@parent_id,  1,  10 /* Tell */, 0, 1, NULL, 'You will see signs like these in the Training Academy. Double-click on them to read them. Double-click on me again when you are done.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (12722, 2,   118,  0, 14, 1, False) /* Create Cap (118) for Wield */
-     , (12722, 2, 10870,  0, 17, 0.7, False) /* Create Canescent Mattekar Robe (10870) for Wield */;
+VALUES (12722, 2, 10870,  0, 17, 0.7, False) /* Create Canescent Mattekar Robe (10870) for Wield */
+     , (12722, 2,   118,  0, 14, 1, False) /* Create Cap (118) for Wield */;

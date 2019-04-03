@@ -173,61 +173,61 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 318767235 /* Nod */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (966, 2,   115,  0, 18, 1, False) /* Create Leather Boots (115) for Wield */
-     , (966, 2,   118,  0, 9, 0.5, False) /* Create Cap (118) for Wield */
+VALUES (966, 2,   130,  0, 9, 0.5, False) /* Create Shirt (130) for Wield */
      , (966, 2,   127,  0, 9, 0.5, False) /* Create Pants (127) for Wield */
-     , (966, 2,   130,  0, 9, 0.5, False) /* Create Shirt (130) for Wield */
+     , (966, 2,   115,  0, 18, 1, False) /* Create Leather Boots (115) for Wield */
+     , (966, 2,   118,  0, 9, 0.5, False) /* Create Cap (118) for Wield */
      , (966, 2, 10696,  0, 9, 1, False) /* Create Apron (10696) for Wield */
-     , (966, 4,   136, -1, 8, 1, False) /* Create Pack (136) for Shop */
-     , (966, 4,   136, -1, 39, 1, False) /* Create Pack (136) for Shop */
-     , (966, 4,   136, -1, 13, 1, False) /* Create Pack (136) for Shop */
-     , (966, 4,   137, -1, 0, 0, False) /* Create Basket (137) for Shop */
+     , (966, 4,   365, -1, 0, 0, False) /* Create Parchment (365) for Shop */
+     , (966, 4,   513, -1, 0, 0, False) /* Create Plain Lockpick (513) for Shop */
+     , (966, 4,   545, -1, 0, 0, False) /* Create Reliable Lockpick (545) for Shop */
      , (966, 4,   151, -1, 0, 0, False) /* Create Empty Flask (151) for Shop */
      , (966, 4,   166, -1, 8, 1, False) /* Create Sack (166) for Shop */
      , (966, 4,   166, -1, 39, 1, False) /* Create Sack (166) for Shop */
      , (966, 4,   166, -1, 13, 1, False) /* Create Sack (166) for Shop */
+     , (966, 4,   136, -1, 8, 1, False) /* Create Pack (136) for Shop */
+     , (966, 4,   136, -1, 39, 1, False) /* Create Pack (136) for Shop */
+     , (966, 4,   136, -1, 13, 1, False) /* Create Pack (136) for Shop */
+     , (966, 4,   137, -1, 0, 0, False) /* Create Basket (137) for Shop */
      , (966, 4,   258, -1, 0, 0, False) /* Create Apple (258) for Shop */
      , (966, 4,   259, -1, 0, 0, False) /* Create Bread (259) for Shop */
      , (966, 4,   261, -1, 0, 0, False) /* Create Cheese (261) for Shop */
-     , (966, 4,   365, -1, 0, 0, False) /* Create Parchment (365) for Shop */
+     , (966, 4,  2457, -1, 0, 0, False) /* Create Health Draught (2457) for Shop */
      , (966, 4,   377, -1, 0, 0, False) /* Create Potion of Healing (377) for Shop */
-     , (966, 4,   378, -1, 0, 0, False) /* Create Stamina Potion (378) for Shop */
+     , (966, 4,  2460, -1, 0, 0, False) /* Create Mana Draught (2460) for Shop */
      , (966, 4,   379, -1, 0, 0, False) /* Create Mana Potion (379) for Shop */
-     , (966, 4,   513, -1, 0, 0, False) /* Create Plain Lockpick (513) for Shop */
-     , (966, 4,   545, -1, 0, 0, False) /* Create Reliable Lockpick (545) for Shop */
+     , (966, 4,   378, -1, 0, 0, False) /* Create Stamina Potion (378) for Shop */
+     , (966, 4, 27326, -1, 0, 0, False) /* Create Stamina Tincture (27326) for Shop */
+     , (966, 4,  2470, -1, 0, 0, False) /* Create Stamina Elixir (2470) for Shop */
      , (966, 4,   628, -1, 0, 0, False) /* Create Handy Healing Kit (628) for Shop */
      , (966, 4,   629, -1, 0, 0, False) /* Create Adept Healing Kit (629) for Shop */
-     , (966, 4,  2434, -1, 0, 0, False) /* Create Lesser Mana Stone (2434) for Shop */
-     , (966, 4,  2457, -1, 0, 0, False) /* Create Health Draught (2457) for Shop */
-     , (966, 4,  2460, -1, 0, 0, False) /* Create Mana Draught (2460) for Shop */
-     , (966, 4,  2470, -1, 0, 0, False) /* Create Stamina Elixir (2470) for Shop */
-     , (966, 4,  4384, -1, 0, 0, False) /* Create Strength Other I (4384) for Shop */
-     , (966, 4,  4450, -1, 0, 0, False) /* Create Heal Other I (4450) for Shop */
-     , (966, 4,  4587, -1, 0, 0, False) /* Create Heal Other II (4587) for Shop */
-     , (966, 4,  4589, -1, 0, 0, False) /* Create Revitalize Other I (4589) for Shop */
-     , (966, 4,  4590, -1, 0, 0, False) /* Create Revitalize Other II (4590) for Shop */
-     , (966, 4,  4592, -1, 0, 0, False) /* Create Mana Boost Other I (4592) for Shop */
-     , (966, 4,  4593, -1, 0, 0, False) /* Create Mana Boost Other II (4593) for Shop */
-     , (966, 4,  4595, -1, 0, 0, False) /* Create Regeneration Other I (4595) for Shop */
-     , (966, 4,  4596, -1, 0, 0, False) /* Create Regeneration Other II (4596) for Shop */
-     , (966, 4,  4597, -1, 0, 0, False) /* Create Rejuvenation Other I (4597) for Shop */
-     , (966, 4,  4598, -1, 0, 0, False) /* Create Rejuvenation Other II (4598) for Shop */
-     , (966, 4,  4599, -1, 0, 0, False) /* Create Mana Renewal Other I (4599) for Shop */
-     , (966, 4,  4600, -1, 0, 0, False) /* Create Mana Renewal Other II (4600) for Shop */
-     , (966, 4,  4601, -1, 0, 0, False) /* Create Strength Other II (4601) for Shop */
-     , (966, 4,  4602, -1, 0, 0, False) /* Create Endurance Other I (4602) for Shop */
-     , (966, 4,  4603, -1, 0, 0, False) /* Create Endurance Other II (4603) for Shop */
-     , (966, 4,  4604, -1, 0, 0, False) /* Create Coordination Other I (4604) for Shop */
-     , (966, 4,  4605, -1, 0, 0, False) /* Create Coordination Other II (4605) for Shop */
-     , (966, 4,  4606, -1, 0, 0, False) /* Create Quickness Other I (4606) for Shop */
-     , (966, 4,  4607, -1, 0, 0, False) /* Create Quickness Other II (4607) for Shop */
-     , (966, 4,  4608, -1, 0, 0, False) /* Create Focus Other I (4608) for Shop */
-     , (966, 4,  4609, -1, 0, 0, False) /* Create Focus Other II (4609) for Shop */
-     , (966, 4,  4610, -1, 0, 0, False) /* Create Willpower Other I (4610) for Shop */
-     , (966, 4,  4611, -1, 0, 0, False) /* Create Willpower Other II (4611) for Shop */
      , (966, 4,  4612, -1, 0, 0, False) /* Create Tiny Mana Charge (4612) for Shop */
      , (966, 4,  4613, -1, 0, 0, False) /* Create Small Mana Charge (4613) for Shop */
      , (966, 4,  4614, -1, 0, 0, False) /* Create Moderate Mana Charge (4614) for Shop */
      , (966, 4,  4615, -1, 0, 0, False) /* Create High Mana Charge (4615) for Shop */
-     , (966, 4, 27326, -1, 0, 0, False) /* Create Stamina Tincture (27326) for Shop */
-     , (966, 4, 27331, -1, 0, 0, False) /* Create Minor Mana Stone (27331) for Shop */;
+     , (966, 4, 27331, -1, 0, 0, False) /* Create Minor Mana Stone (27331) for Shop */
+     , (966, 4,  2434, -1, 0, 0, False) /* Create Lesser Mana Stone (2434) for Shop */
+     , (966, 4,  4611, -1, 0, 0, False) /* Create Willpower Other II (4611) for Shop */
+     , (966, 4,  4610, -1, 0, 0, False) /* Create Willpower Other I (4610) for Shop */
+     , (966, 4,  4609, -1, 0, 0, False) /* Create Focus Other II (4609) for Shop */
+     , (966, 4,  4608, -1, 0, 0, False) /* Create Focus Other I (4608) for Shop */
+     , (966, 4,  4607, -1, 0, 0, False) /* Create Quickness Other II (4607) for Shop */
+     , (966, 4,  4606, -1, 0, 0, False) /* Create Quickness Other I (4606) for Shop */
+     , (966, 4,  4605, -1, 0, 0, False) /* Create Coordination Other II (4605) for Shop */
+     , (966, 4,  4604, -1, 0, 0, False) /* Create Coordination Other I (4604) for Shop */
+     , (966, 4,  4603, -1, 0, 0, False) /* Create Endurance Other II (4603) for Shop */
+     , (966, 4,  4602, -1, 0, 0, False) /* Create Endurance Other I (4602) for Shop */
+     , (966, 4,  4601, -1, 0, 0, False) /* Create Strength Other II (4601) for Shop */
+     , (966, 4,  4384, -1, 0, 0, False) /* Create Strength Other I (4384) for Shop */
+     , (966, 4,  4600, -1, 0, 0, False) /* Create Mana Renewal Other II (4600) for Shop */
+     , (966, 4,  4599, -1, 0, 0, False) /* Create Mana Renewal Other I (4599) for Shop */
+     , (966, 4,  4598, -1, 0, 0, False) /* Create Rejuvenation Other II (4598) for Shop */
+     , (966, 4,  4597, -1, 0, 0, False) /* Create Rejuvenation Other I (4597) for Shop */
+     , (966, 4,  4596, -1, 0, 0, False) /* Create Regeneration Other II (4596) for Shop */
+     , (966, 4,  4595, -1, 0, 0, False) /* Create Regeneration Other I (4595) for Shop */
+     , (966, 4,  4593, -1, 0, 0, False) /* Create Mana Boost Other II (4593) for Shop */
+     , (966, 4,  4592, -1, 0, 0, False) /* Create Mana Boost Other I (4592) for Shop */
+     , (966, 4,  4590, -1, 0, 0, False) /* Create Revitalize Other II (4590) for Shop */
+     , (966, 4,  4589, -1, 0, 0, False) /* Create Revitalize Other I (4589) for Shop */
+     , (966, 4,  4587, -1, 0, 0, False) /* Create Heal Other II (4587) for Shop */
+     , (966, 4,  4450, -1, 0, 0, False) /* Create Heal Other I (4450) for Shop */;

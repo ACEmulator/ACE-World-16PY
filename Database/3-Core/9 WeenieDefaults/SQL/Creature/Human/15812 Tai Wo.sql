@@ -203,6 +203,6 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,  10 /* Tell */, 1, 1, NULL, 'Have you been sent by Brontynn Marshad or by Glysander Cartoth in Cragstone?  No, I see you have not. Go see Glysander Cartoth in Cragstone and he will tell you what he needs done.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (15812, 2,   132,  0, 9, 0, False) /* Create Shoes (132) for Wield */
-     , (15812, 2,  2590,  0, 9, 0.5, False) /* Create Shirt (2590) for Wield */
-     , (15812, 2,  2598,  0, 14, 0.6, False) /* Create Pants (2598) for Wield */;
+VALUES (15812, 2,  2590,  0, 9, 0.5, False) /* Create Shirt (2590) for Wield */
+     , (15812, 2,  2598,  0, 14, 0.6, False) /* Create Pants (2598) for Wield */
+     , (15812, 2,   132,  0, 9, 0, False) /* Create Shoes (132) for Wield */;

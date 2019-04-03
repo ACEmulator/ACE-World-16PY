@@ -133,20 +133,20 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,  10 /* Tell */, 0, 1, NULL, 'Whether you have come seeking refuge or information, I should be able to help.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (11384, 2,   115,  0, 4, 0.8, False) /* Create Leather Boots (115) for Wield */
+VALUES (11384, 2,   134,  0, 14, 0.8, False) /* Create Tunic (134) for Wield */
      , (11384, 2,   127,  0, 13, 0.5, False) /* Create Pants (127) for Wield */
-     , (11384, 2,   134,  0, 14, 0.8, False) /* Create Tunic (134) for Wield */
+     , (11384, 2,   115,  0, 4, 0.8, False) /* Create Leather Boots (115) for Wield */
      , (11384, 2, 10696,  0, 16, 1, False) /* Create Apron (10696) for Wield */
-     , (11384, 4,  2451, -1, 0, 0, False) /* Create Ale (2451) for Shop */
-     , (11384, 4,  2456, -1, 0, 0, False) /* Create Green Tea (2456) for Shop */
-     , (11384, 4,  2466, -1, 0, 0, False) /* Create Red Tea (2466) for Shop */
-     , (11384, 4,  2468, -1, 0, 0, False) /* Create Sake (2468) for Shop */
-     , (11384, 4,  4718, -1, 0, 0, False) /* Create Chicken Rice (4718) for Shop */
-     , (11384, 4,  4728, -1, 0, 0, False) /* Create Fried Chicken (4728) for Shop */
-     , (11384, 4,  4730, -1, 0, 0, False) /* Create Fried Fish Filet (4730) for Shop */
      , (11384, 4,  4739, -1, 0, 0, False) /* Create Pickled Egg (4739) for Shop */
+     , (11384, 4,  4718, -1, 0, 0, False) /* Create Chicken Rice (4718) for Shop */
+     , (11384, 4,  4730, -1, 0, 0, False) /* Create Fried Fish Filet (4730) for Shop */
+     , (11384, 4,  4728, -1, 0, 0, False) /* Create Fried Chicken (4728) for Shop */
      , (11384, 4,  4744, -1, 0, 0, False) /* Create Sushi (4744) for Shop */
+     , (11384, 4,  2466, -1, 0, 0, False) /* Create Red Tea (2466) for Shop */
+     , (11384, 4,  2456, -1, 0, 0, False) /* Create Green Tea (2456) for Shop */
      , (11384, 4,  4746, -1, 0, 0, False) /* Create Water (4746) for Shop */
+     , (11384, 4,  2451, -1, 0, 0, False) /* Create Ale (2451) for Shop */
+     , (11384, 4,  2468, -1, 0, 0, False) /* Create Sake (2468) for Shop */
      , (11384, 4,  8378, -1, 0, 0, False) /* Create Beer Stein (8378) for Shop */
      , (11384, 4, 27610, -1, 0, 0, False) /* Create Traveler's Alert (27610) for Shop */
      , (11384, 4, 27611, -1, 0, 0, False) /* Create Burning Terror (27611) for Shop */

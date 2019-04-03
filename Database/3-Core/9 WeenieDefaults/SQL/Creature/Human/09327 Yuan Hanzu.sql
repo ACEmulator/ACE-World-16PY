@@ -157,7 +157,7 @@ VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 1090519043 /* Ready */, NULL, NU
      , (@parent_id,  2,  10 /* Tell */, 1, 1, NULL, 'It is a tragedy, what has befallen Ayan Baqur.  Luckily, Jaleh al-Thani and I were able to fight our way out of the town and escape.  I wonder what has become of the other townsfolk... Still, life goes on.  I can still carve horn to help you make a composite bow.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (9327, 2,   115,  0, 4, 0.5, False) /* Create Leather Boots (115) for Wield */
-     , (9327, 2,   363,  0, 0, 1, False) /* Create Yumi (363) for Wield */
-     , (9327, 2,  2590,  0, 9, 1, False) /* Create Shirt (2590) for Wield */
-     , (9327, 2,  2597,  0, 7, 0.5, False) /* Create Pants (2597) for Wield */;
+VALUES (9327, 2,  2590,  0, 9, 1, False) /* Create Shirt (2590) for Wield */
+     , (9327, 2,  2597,  0, 7, 0.5, False) /* Create Pants (2597) for Wield */
+     , (9327, 2,   115,  0, 4, 0.5, False) /* Create Leather Boots (115) for Wield */
+     , (9327, 2,   363,  0, 0, 1, False) /* Create Yumi (363) for Wield */;

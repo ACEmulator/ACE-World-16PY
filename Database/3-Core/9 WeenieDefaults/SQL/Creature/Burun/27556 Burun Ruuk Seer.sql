@@ -223,5 +223,5 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 268435537 /* Twitch1 */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (27556, 9,     0,  0, 0, 0, False) /* Create nothing for ContainTreasure */
-     , (27556, 9, 27526,  0, 0, 1, False) /* Create Burun Idol (27526) for ContainTreasure */;
+VALUES (27556, 9, 27526,  0, 0, 1, False) /* Create Burun Idol (27526) for ContainTreasure */
+     , (27556, 9,     0,  0, 0, 0, False) /* Create nothing for ContainTreasure */;

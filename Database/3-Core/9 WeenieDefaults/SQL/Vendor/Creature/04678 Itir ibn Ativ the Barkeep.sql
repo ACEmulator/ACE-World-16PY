@@ -165,21 +165,21 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 318767235 /* Nod */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (4678, 2,   127,  0, 9, 0, False) /* Create Pants (127) for Wield */
+VALUES (4678, 2,  2587,  0, 9, 1, False) /* Create Shirt (2587) for Wield */
+     , (4678, 2,   127,  0, 9, 0, False) /* Create Pants (127) for Wield */
      , (4678, 2,   133,  0, 9, 0, False) /* Create Slippers (133) for Wield */
      , (4678, 2,   135,  0, 10, 0.67, False) /* Create Turban (135) for Wield */
-     , (4678, 2,  2587,  0, 9, 1, False) /* Create Shirt (2587) for Wield */
      , (4678, 2, 10696,  0, 2, 0.5, False) /* Create Apron (10696) for Wield */
-     , (4678, 4,  2462, -1, 0, 0, False) /* Create Mead (2462) for Shop */
+     , (4678, 4,  4746, -1, 0, 0, False) /* Create Water (4746) for Shop */
      , (4678, 4,  2463, -1, 0, 0, False) /* Create Milk (2463) for Shop */
      , (4678, 4,  2464, -1, 0, 0, False) /* Create Orange Juice (2464) for Shop */
+     , (4678, 4,  2462, -1, 0, 0, False) /* Create Mead (2462) for Shop */
      , (4678, 4,  2467, -1, 0, 0, False) /* Create Red Wine (2467) for Shop */
+     , (4678, 4,  8378, -1, 0, 0, False) /* Create Beer Stein (8378) for Shop */
      , (4678, 4,  4710, -1, 0, 0, False) /* Create Beef Kebab (4710) for Shop */
-     , (4678, 4,  4727, -1, 0, 0, False) /* Create Flat Bread (4727) for Shop */
      , (4678, 4,  4734, -1, 0, 0, False) /* Create Meat Pie (4734) for Shop */
      , (4678, 4,  4739, -1, 0, 0, False) /* Create Pickled Egg (4739) for Shop */
-     , (4678, 4,  4746, -1, 0, 0, False) /* Create Water (4746) for Shop */
+     , (4678, 4,  4727, -1, 0, 0, False) /* Create Flat Bread (4727) for Shop */
      , (4678, 4,  5003, -1, 0, 0, False) /* Create Al-Arqas Portal Directions (5003) for Shop */
      , (4678, 4,  5006, -1, 0, 0, False) /* Create Desert Ruin Directions (5006) for Shop */
-     , (4678, 4,  8209, -1, 0, 0, False) /* Create Call for Adventurers! (8209) for Shop */
-     , (4678, 4,  8378, -1, 0, 0, False) /* Create Beer Stein (8378) for Shop */;
+     , (4678, 4,  8209, -1, 0, 0, False) /* Create Call for Adventurers! (8209) for Shop */;

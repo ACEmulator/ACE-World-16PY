@@ -181,20 +181,20 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 318767235 /* Nod */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (663, 2,   127,  0, 9, 0, False) /* Create Pants (127) for Wield */
-     , (663, 2,   130,  0, 8, 0.2, False) /* Create Shirt (130) for Wield */
+VALUES (663, 2,   130,  0, 8, 0.2, False) /* Create Shirt (130) for Wield */
+     , (663, 2,   127,  0, 9, 0, False) /* Create Pants (127) for Wield */
      , (663, 2,   132,  0, 5, 0.67, False) /* Create Shoes (132) for Wield */
      , (663, 2, 10696,  0, 18, 1, False) /* Create Apron (10696) for Wield */
+     , (663, 4,   546, -1, 0, 0, False) /* Create Egg (546) for Shop */
+     , (663, 4,  4753, -1, 0, 0, False) /* Create Side of Beef (4753) for Shop */
+     , (663, 4,  4766, -1, 0, 0, False) /* Create Rennet (4766) for Shop */
      , (663, 4,   262, -1, 0, 0, False) /* Create Chicken (262) for Shop */
+     , (663, 4,  2463, -1, 0, 0, False) /* Create Milk (2463) for Shop */
+     , (663, 4,  4762, -1, 0, 0, False) /* Create Frying Pan (4762) for Shop */
+     , (663, 4,  4757, -1, 0, 0, False) /* Create Carving Knife (4757) for Shop */
+     , (663, 4,  7824, -1, 0, 0, False) /* Create Metal Press (7824) for Shop */
      , (663, 4,   513, -1, 0, 0, False) /* Create Plain Lockpick (513) for Shop */
      , (663, 4,   545, -1, 0, 0, False) /* Create Reliable Lockpick (545) for Shop */
-     , (663, 4,   546, -1, 0, 0, False) /* Create Egg (546) for Shop */
-     , (663, 4,  2463, -1, 0, 0, False) /* Create Milk (2463) for Shop */
-     , (663, 4,  4753, -1, 0, 0, False) /* Create Side of Beef (4753) for Shop */
-     , (663, 4,  4757, -1, 0, 0, False) /* Create Carving Knife (4757) for Shop */
-     , (663, 4,  4762, -1, 0, 0, False) /* Create Frying Pan (4762) for Shop */
-     , (663, 4,  4766, -1, 0, 0, False) /* Create Rennet (4766) for Shop */
-     , (663, 4,  7824, -1, 0, 0, False) /* Create Metal Press (7824) for Shop */
      , (663, 4,  9295, -1, 0, 0, False) /* Create Intricate Carving Tool (9295) for Shop */
      , (663, 4, 20646, -1, 0, 0, False) /* Create Ust (20646) for Shop */
      , (663, 4, 21093, -1, 0, 0, False) /* Create Tinkering (21093) for Shop */

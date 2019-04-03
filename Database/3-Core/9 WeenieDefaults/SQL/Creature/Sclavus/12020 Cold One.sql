@@ -151,14 +151,14 @@ VALUES (12020,  94) /* ATTACK_NOTIFICATION_EVENT */
      , (12020, 414) /* PLAYER_DEATH_EVENT */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (12020, 9,     0,  0, 0, 0.4, False) /* Create nothing for ContainTreasure */
-     , (12020, 9,     0,  0, 0, 0.25, False) /* Create nothing for ContainTreasure */
-     , (12020, 9,     0,  0, 0, 0.15, False) /* Create nothing for ContainTreasure */
-     , (12020, 9,     0,  0, 0, 0.7, False) /* Create nothing for ContainTreasure */
-     , (12020, 9,  6876,  0, 0, 0.6, False) /* Create Sturdy Iron Key (6876) for ContainTreasure */
+VALUES (12020, 9,  6876,  0, 0, 0.6, False) /* Create Sturdy Iron Key (6876) for ContainTreasure */
+     , (12020, 9,     0,  0, 0, 0.4, False) /* Create nothing for ContainTreasure */
      , (12020, 9,  7046,  0, 0, 0.75, False) /* Create Sclavus Tongue (7046) for ContainTreasure */
+     , (12020, 9,     0,  0, 0, 0.25, False) /* Create nothing for ContainTreasure */
      , (12020, 9,  9259,  0, 0, 0.85, False) /* Create Large Sclavus Hide (9259) for ContainTreasure */
-     , (12020, 9, 23539,  0, 0, 0.3, False) /* Create Serpent's Fang (23539) for ContainTreasure */;
+     , (12020, 9,     0,  0, 0, 0.15, False) /* Create nothing for ContainTreasure */
+     , (12020, 9, 23539,  0, 0, 0.3, False) /* Create Serpent's Fang (23539) for ContainTreasure */
+     , (12020, 9,     0,  0, 0, 0.7, False) /* Create nothing for ContainTreasure */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (12020, 0.5, 7112, 20, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Chomu Sclavus (7112) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Scatter */

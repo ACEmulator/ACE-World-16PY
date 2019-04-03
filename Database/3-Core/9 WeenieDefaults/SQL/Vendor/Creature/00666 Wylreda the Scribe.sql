@@ -182,24 +182,24 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,  10 /* Tell */, 0, 1, NULL, 'May I help you?', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (666, 2,   115,  0, 9, 0, False) /* Create Leather Boots (115) for Wield */
+VALUES (666, 2,   134,  0, 9, 0, False) /* Create Tunic (134) for Wield */
      , (666, 2,   117,  0, 8, 0, False) /* Create Breeches (117) for Wield */
-     , (666, 2,   134,  0, 9, 0, False) /* Create Tunic (134) for Wield */
+     , (666, 2,   115,  0, 9, 0, False) /* Create Leather Boots (115) for Wield */
      , (666, 2, 10696,  0, 9, 0.5, False) /* Create Apron (10696) for Wield */
      , (666, 4,   364, -1, 0, 0, False) /* Create Book (364) for Shop */
      , (666, 4,   365, -1, 0, 0, False) /* Create Parchment (365) for Shop */
      , (666, 4,   367, -1, 0, 0, False) /* Create Tome (367) for Shop */
-     , (666, 4,  1491, -1, 0, 0, False) /* Create Arwic Mines Rumor (1491) for Shop */
-     , (666, 4,  5583, -1, 0, 0, False) /* Create Aluvian Cookbook (5583) for Shop */
-     , (666, 4,  5586, -1, 0, 0, False) /* Create Alchemy Guide (5586) for Shop */
-     , (666, 4,  5587, -1, 0, 0, False) /* Create Fletching Guide (5587) for Shop */
-     , (666, 4,  5602, -1, 0, 0, False) /* Create The Festival Stones of the Empyrean (5602) for Shop */
-     , (666, 4,  5676, -1, 0, 0, False) /* Create Of Celcynd the Dour (5676) for Shop */
-     , (666, 4,  5856, -1, 0, 0, False) /* Create Specialty Cookbook (5856) for Shop */
-     , (666, 4,  6419, -1, 0, 0, False) /* Create The Meeting Halls (6419) for Shop */
-     , (666, 4,  7884, -1, 0, 0, False) /* Create Chocolate Cookbook (7884) for Shop */
      , (666, 4,  9118, -1, 0, 0, False) /* Create Puppet Show (9118) for Shop */
      , (666, 4,  9124, -1, 0, 0, False) /* Create The Beginning (9124) for Shop */
      , (666, 4,  9319, -1, 0, 0, False) /* Create Mnemosynes and the Art of Lockpicking (9319) for Shop */
+     , (666, 4, 27851, -1, 0, 0, False) /* Create The Weapons of the Singularity (27851) for Shop */
+     , (666, 4,  1491, -1, 0, 0, False) /* Create Arwic Mines Rumor (1491) for Shop */
+     , (666, 4,  5676, -1, 0, 0, False) /* Create Of Celcynd the Dour (5676) for Shop */
+     , (666, 4,  5602, -1, 0, 0, False) /* Create The Festival Stones of the Empyrean (5602) for Shop */
+     , (666, 4,  6419, -1, 0, 0, False) /* Create The Meeting Halls (6419) for Shop */
+     , (666, 4,  5583, -1, 0, 0, False) /* Create Aluvian Cookbook (5583) for Shop */
+     , (666, 4,  5856, -1, 0, 0, False) /* Create Specialty Cookbook (5856) for Shop */
+     , (666, 4,  7884, -1, 0, 0, False) /* Create Chocolate Cookbook (7884) for Shop */
      , (666, 4, 14797, -1, 0, 0, False) /* Create Festival Cookbook (14797) for Shop */
-     , (666, 4, 27851, -1, 0, 0, False) /* Create The Weapons of the Singularity (27851) for Shop */;
+     , (666, 4,  5586, -1, 0, 0, False) /* Create Alchemy Guide (5586) for Shop */
+     , (666, 4,  5587, -1, 0, 0, False) /* Create Fletching Guide (5587) for Shop */;

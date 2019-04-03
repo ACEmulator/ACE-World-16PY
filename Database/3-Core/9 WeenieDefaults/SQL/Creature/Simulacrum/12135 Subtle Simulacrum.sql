@@ -195,5 +195,5 @@ VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 318767229 /* BowDeep */, NULL, N
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (12135, 2,  5850,  0, 9, 0, False) /* Create Faran Robe (5850) for Wield */
-     , (12135, 9,     0,  0, 0, 0.98, False) /* Create nothing for ContainTreasure */
-     , (12135, 9,  6876,  0, 0, 0.02, False) /* Create Sturdy Iron Key (6876) for ContainTreasure */;
+     , (12135, 9,  6876,  0, 0, 0.02, False) /* Create Sturdy Iron Key (6876) for ContainTreasure */
+     , (12135, 9,     0,  0, 0, 0.98, False) /* Create nothing for ContainTreasure */;

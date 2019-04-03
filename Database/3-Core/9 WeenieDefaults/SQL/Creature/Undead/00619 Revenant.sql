@@ -170,17 +170,17 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,  17 /* LocalBroadcast */, 0, 0, NULL, 'As it collapses into a mass of bone and rot, the ancient mage moans, "All our powers come to dust. Is this how it shall end for proud Dericost?"', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (619, 9,     0,  0, 0, 0.97, False) /* Create nothing for ContainTreasure */
-     , (619, 9,     0,  0, 0, 0.99, False) /* Create nothing for ContainTreasure */
-     , (619, 9,     0,  0, 0, 0.99, False) /* Create nothing for ContainTreasure */
+VALUES (619, 9,  7041,  0, 0, 0.03, False) /* Create Undead Thighbone (7041) for ContainTreasure */
      , (619, 9,     0,  0, 0, 0.97, False) /* Create nothing for ContainTreasure */
-     , (619, 9,     0,  0, 0, 0.95, False) /* Create nothing for ContainTreasure */
-     , (619, 9,     0,  0, 0, 0.95, False) /* Create nothing for ContainTreasure */
-     , (619, 9,     0,  0, 0, 0.95, False) /* Create nothing for ContainTreasure */
      , (619, 9,  5873,  0, 0, 0.01, False) /* Create Seal (5873) for ContainTreasure */
+     , (619, 9,     0,  0, 0, 0.99, False) /* Create nothing for ContainTreasure */
      , (619, 9,  6876,  0, 0, 0.01, False) /* Create Sturdy Iron Key (6876) for ContainTreasure */
-     , (619, 9,  7041,  0, 0, 0.03, False) /* Create Undead Thighbone (7041) for ContainTreasure */
+     , (619, 9,     0,  0, 0, 0.99, False) /* Create nothing for ContainTreasure */
      , (619, 9,  9310,  0, 0, 0.03, False) /* Create A Large Mnemosyne (9310) for ContainTreasure */
-     , (619, 9, 28872,  0, 0, 0.05, False) /* Create Armored Undead Arm  (28872) for ContainTreasure */
+     , (619, 9,     0,  0, 0, 0.97, False) /* Create nothing for ContainTreasure */
      , (619, 9, 28875,  0, 0, 0.05, False) /* Create Armored Undead Legs (28875) for ContainTreasure */
-     , (619, 9, 28893,  0, 0, 0.05, False) /* Create Armored Undead Torso (28893) for ContainTreasure */;
+     , (619, 9,     0,  0, 0, 0.95, False) /* Create nothing for ContainTreasure */
+     , (619, 9, 28872,  0, 0, 0.05, False) /* Create Armored Undead Arm  (28872) for ContainTreasure */
+     , (619, 9,     0,  0, 0, 0.95, False) /* Create nothing for ContainTreasure */
+     , (619, 9, 28893,  0, 0, 0.05, False) /* Create Armored Undead Torso (28893) for ContainTreasure */
+     , (619, 9,     0,  0, 0, 0.95, False) /* Create nothing for ContainTreasure */;

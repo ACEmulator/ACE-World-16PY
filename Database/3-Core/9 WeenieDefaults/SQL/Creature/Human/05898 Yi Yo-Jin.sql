@@ -655,7 +655,7 @@ VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 1090519043 /* Ready */, NULL, NU
      , (@parent_id,  3,  10 /* Tell */, 1, 1, NULL, 'Will miracles never cease?  The Hoary Mattekar has returned!  A beautiful and ferocious creature.  And most people looking at it see nothing but a robe.  Such a shame.  Give me the hide.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (5898, 2,   117,  0, 4, 0.8, False) /* Create Breeches (117) for Wield */
-     , (5898, 2,   118,  0, 9, 0, False) /* Create Cap (118) for Wield */
-     , (5898, 2,   124,  0, 8, 0.8, False) /* Create Jerkin (124) for Wield */
-     , (5898, 2,   132,  0, 9, 1, False) /* Create Shoes (132) for Wield */;
+VALUES (5898, 2,   124,  0, 8, 0.8, False) /* Create Jerkin (124) for Wield */
+     , (5898, 2,   117,  0, 4, 0.8, False) /* Create Breeches (117) for Wield */
+     , (5898, 2,   132,  0, 9, 1, False) /* Create Shoes (132) for Wield */
+     , (5898, 2,   118,  0, 9, 0, False) /* Create Cap (118) for Wield */;

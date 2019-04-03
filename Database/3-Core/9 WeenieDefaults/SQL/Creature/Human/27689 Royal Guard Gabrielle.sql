@@ -184,5 +184,5 @@ VALUES (@parent_id,  0,  10 /* Tell */, 0, 1, NULL, 'It has come to our attentio
      , (@parent_id,  3,  10 /* Tell */, 1, 1, NULL, 'If you can make your way to the Renegade fortress in the direlands and find this lugian I am certain that your efforts would be rewarded.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (27689, 2,   118,  0, 14, 1, False) /* Create Cap (118) for Wield */
-     , (27689, 2, 10870,  0, 17, 0.7, False) /* Create Canescent Mattekar Robe (10870) for Wield */;
+VALUES (27689, 2, 10870,  0, 17, 0.7, False) /* Create Canescent Mattekar Robe (10870) for Wield */
+     , (27689, 2,   118,  0, 14, 1, False) /* Create Cap (118) for Wield */;

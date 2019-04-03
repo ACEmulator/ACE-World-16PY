@@ -167,21 +167,21 @@ VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 318767235 /* Nod */, NULL, NULL,
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (1051, 2,   124,  0, 9, 0.5, False) /* Create Jerkin (124) for Wield */
      , (1051, 2,   127,  0, 9, 0.5, False) /* Create Pants (127) for Wield */
-     , (1051, 2,   128,  0, 16, 1, False) /* Create Qafiya (128) for Wield */
      , (1051, 2,   133,  0, 14, 0.8, False) /* Create Slippers (133) for Wield */
+     , (1051, 2,   128,  0, 16, 1, False) /* Create Qafiya (128) for Wield */
      , (1051, 2, 10696,  0, 9, 0.5, False) /* Create Apron (10696) for Wield */
+     , (1051, 4,   548, -1, 0, 0, False) /* Create Bowl of Rice (548) for Shop */
+     , (1051, 4,   549, -1, 0, 0, False) /* Create Bowl of Stew (549) for Shop */
      , (1051, 4,   258, -1, 0, 0, False) /* Create Apple (258) for Shop */
      , (1051, 4,   259, -1, 0, 0, False) /* Create Bread (259) for Shop */
      , (1051, 4,   260, -1, 0, 0, False) /* Create Cabbage (260) for Shop */
+     , (1051, 4,   620, -1, 0, 0, False) /* Create Cake (620) for Shop */
      , (1051, 4,   261, -1, 0, 0, False) /* Create Cheese (261) for Shop */
      , (1051, 4,   262, -1, 0, 0, False) /* Create Chicken (262) for Shop */
+     , (1051, 4,   546, -1, 0, 0, False) /* Create Egg (546) for Shop */
      , (1051, 4,   263, -1, 0, 0, False) /* Create Fish (263) for Shop */
      , (1051, 4,   264, -1, 0, 0, False) /* Create Grapes (264) for Shop */
      , (1051, 4,   265, -1, 0, 0, False) /* Create Meat (265) for Shop */
-     , (1051, 4,   546, -1, 0, 0, False) /* Create Egg (546) for Shop */
-     , (1051, 4,   548, -1, 0, 0, False) /* Create Bowl of Rice (548) for Shop */
-     , (1051, 4,   549, -1, 0, 0, False) /* Create Bowl of Stew (549) for Shop */
-     , (1051, 4,   620, -1, 0, 0, False) /* Create Cake (620) for Shop */
      , (1051, 4,  2451, -1, 0, 0, False) /* Create Ale (2451) for Shop */
      , (1051, 4,  2454, -1, 0, 0, False) /* Create Coffee (2454) for Shop */
      , (1051, 4,  2455, -1, 0, 0, False) /* Create Grape Juice (2455) for Shop */

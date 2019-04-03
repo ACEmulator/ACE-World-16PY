@@ -165,19 +165,19 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 318767235 /* Nod */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (1832, 2,   117,  0, 14, 0, False) /* Create Breeches (117) for Wield */
-     , (1832, 2,   124,  0, 17, 1, False) /* Create Jerkin (124) for Wield */
-     , (1832, 2,   128,  0, 16, 1, False) /* Create Qafiya (128) for Wield */
+VALUES (1832, 2,   124,  0, 17, 1, False) /* Create Jerkin (124) for Wield */
+     , (1832, 2,   117,  0, 14, 0, False) /* Create Breeches (117) for Wield */
      , (1832, 2,   133,  0, 14, 0, False) /* Create Slippers (133) for Wield */
+     , (1832, 2,   128,  0, 16, 1, False) /* Create Qafiya (128) for Wield */
      , (1832, 2, 10696,  0, 9, 0.5, False) /* Create Apron (10696) for Wield */
      , (1832, 4,   364, -1, 0, 0, False) /* Create Book (364) for Shop */
      , (1832, 4,   365, -1, 0, 0, False) /* Create Parchment (365) for Shop */
      , (1832, 4,   367, -1, 0, 0, False) /* Create Tome (367) for Shop */
      , (1832, 4,  5584, -1, 0, 0, False) /* Create Gharu'ndim Cookbook (5584) for Shop */
+     , (1832, 4,  5856, -1, 0, 0, False) /* Create Specialty Cookbook (5856) for Shop */
+     , (1832, 4,  7884, -1, 0, 0, False) /* Create Chocolate Cookbook (7884) for Shop */
+     , (1832, 4, 14797, -1, 0, 0, False) /* Create Festival Cookbook (14797) for Shop */
      , (1832, 4,  5586, -1, 0, 0, False) /* Create Alchemy Guide (5586) for Shop */
      , (1832, 4,  5587, -1, 0, 0, False) /* Create Fletching Guide (5587) for Shop */
      , (1832, 4,  5602, -1, 0, 0, False) /* Create The Festival Stones of the Empyrean (5602) for Shop */
-     , (1832, 4,  5856, -1, 0, 0, False) /* Create Specialty Cookbook (5856) for Shop */
-     , (1832, 4,  6419, -1, 0, 0, False) /* Create The Meeting Halls (6419) for Shop */
-     , (1832, 4,  7884, -1, 0, 0, False) /* Create Chocolate Cookbook (7884) for Shop */
-     , (1832, 4, 14797, -1, 0, 0, False) /* Create Festival Cookbook (14797) for Shop */;
+     , (1832, 4,  6419, -1, 0, 0, False) /* Create The Meeting Halls (6419) for Shop */;

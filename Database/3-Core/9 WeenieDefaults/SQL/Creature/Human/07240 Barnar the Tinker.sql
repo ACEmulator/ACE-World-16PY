@@ -157,6 +157,6 @@ VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 1090519043 /* Ready */, NULL, NU
      , (@parent_id,  2,  10 /* Tell */, 1, 1, NULL, 'I am Barnar the Tinker. Mechanisms and woodworking are my specialty. If you bring me the heart of a wood golem, I can make a crossbow stock and mechanism for you.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (7240, 2,   132,  0, 4, 0.5, False) /* Create Shoes (132) for Wield */
-     , (7240, 2,  2590,  0, 2, 1, False) /* Create Shirt (2590) for Wield */
-     , (7240, 2,  2597,  0, 7, 1, False) /* Create Pants (2597) for Wield */;
+VALUES (7240, 2,  2590,  0, 2, 1, False) /* Create Shirt (2590) for Wield */
+     , (7240, 2,  2597,  0, 7, 1, False) /* Create Pants (2597) for Wield */
+     , (7240, 2,   132,  0, 4, 0.5, False) /* Create Shoes (132) for Wield */;

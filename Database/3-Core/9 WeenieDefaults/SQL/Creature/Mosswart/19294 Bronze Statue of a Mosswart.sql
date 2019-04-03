@@ -175,5 +175,5 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 268435537 /* Twitch1 */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (19294, 9,     0,  0, 0, 0.95, False) /* Create nothing for ContainTreasure */
-     , (19294, 9, 19217,  0, 0, 0.05, False) /* Create Bronze Gear from a Statue (19217) for ContainTreasure */;
+VALUES (19294, 9, 19217,  0, 0, 0.05, False) /* Create Bronze Gear from a Statue (19217) for ContainTreasure */
+     , (19294, 9,     0,  0, 0, 0.95, False) /* Create nothing for ContainTreasure */;

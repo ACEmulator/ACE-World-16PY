@@ -212,9 +212,9 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   7 /* PhysScript */, 0, 0.5, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 6 /* AttribUpRed */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (1619, 9,     0,  0, 0, 0.94, False) /* Create nothing for ContainTreasure */
-     , (1619, 9,     0,  0, 0, 0.95, False) /* Create nothing for ContainTreasure */
-     , (1619, 9,     0,  0, 0, 0.97, False) /* Create nothing for ContainTreasure */
-     , (1619, 9,  3694,  0, 0, 0.06, False) /* Create Swamp Stone (3694) for ContainTreasure */
+VALUES (1619, 9,  3694,  0, 0, 0.06, False) /* Create Swamp Stone (3694) for ContainTreasure */
+     , (1619, 9,     0,  0, 0, 0.94, False) /* Create nothing for ContainTreasure */
      , (1619, 9,  7825,  0, 0, 0.05, False) /* Create Brown Beans (7825) for ContainTreasure */
-     , (1619, 9, 20854,  0, 0, 0.03, False) /* Create Academy Stamp (20854) for ContainTreasure */;
+     , (1619, 9,     0,  0, 0, 0.95, False) /* Create nothing for ContainTreasure */
+     , (1619, 9, 20854,  0, 0, 0.03, False) /* Create Academy Stamp (20854) for ContainTreasure */
+     , (1619, 9,     0,  0, 0, 0.97, False) /* Create nothing for ContainTreasure */;

@@ -177,8 +177,8 @@ VALUES (@parent_id,  0,  10 /* Tell */, 0, 1, NULL, 'I''m cold.', NULL, NULL, NU
      , (@parent_id,  5,  10 /* Tell */, 0, 1, NULL, 'I''m home.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (2047, 2,   117,  0, 13, 0.5, False) /* Create Breeches (117) for Wield */
-     , (2047, 2,   130,  0, 5, 0.67, False) /* Create Shirt (130) for Wield */
+VALUES (2047, 2,   130,  0, 5, 0.67, False) /* Create Shirt (130) for Wield */
+     , (2047, 2,   117,  0, 13, 0.5, False) /* Create Breeches (117) for Wield */
      , (2047, 2,   132,  0, 9, 1, False) /* Create Shoes (132) for Wield */
      , (2047, 2, 10696,  0, 13, 0.5, False) /* Create Apron (10696) for Wield */
      , (2047, 4,   137, -1, 0, 0, False) /* Create Basket (137) for Shop */

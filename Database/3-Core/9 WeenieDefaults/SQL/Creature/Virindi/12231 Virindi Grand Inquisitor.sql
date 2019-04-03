@@ -243,14 +243,14 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,  10 /* Tell */, 0, 1, NULL, 'Is that what you call magic, flesh puppet?  Your dependence on flesh makes your efforts pathetic!', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (12231, 9,     0,  0, 0, 0.8, False) /* Create nothing for ContainTreasure */
-     , (12231, 9,     0,  0, 0, 0.4, False) /* Create nothing for ContainTreasure */
-     , (12231, 9,     0,  0, 0, 0.97, False) /* Create nothing for ContainTreasure */
-     , (12231, 9,     0,  0, 0, 0.2, False) /* Create nothing for ContainTreasure */
+VALUES (12231, 9, 12236,  0, 0, 0.2, False) /* Create Energy Crystal (12236) for ContainTreasure */
+     , (12231, 9,     0,  0, 0, 0.8, False) /* Create nothing for ContainTreasure */
      , (12231, 9,  6876,  0, 0, 0.6, False) /* Create Sturdy Iron Key (6876) for ContainTreasure */
-     , (12231, 9, 10804,  0, 0, 0.8, False) /* Create Obsidian Shard (10804) for ContainTreasure */
+     , (12231, 9,     0,  0, 0, 0.4, False) /* Create nothing for ContainTreasure */
      , (12231, 9, 11999,  0, 0, 0.03, False) /* Create Broken Virindi Inquisitor Mask (11999) for ContainTreasure */
-     , (12231, 9, 12236,  0, 0, 0.2, False) /* Create Energy Crystal (12236) for ContainTreasure */;
+     , (12231, 9,     0,  0, 0, 0.97, False) /* Create nothing for ContainTreasure */
+     , (12231, 9, 10804,  0, 0, 0.8, False) /* Create Obsidian Shard (10804) for ContainTreasure */
+     , (12231, 9,     0,  0, 0, 0.2, False) /* Create nothing for ContainTreasure */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (12231, 1, 10814, 20, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Virindi Inquisitor (10814) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Scatter */;

@@ -130,6 +130,6 @@ VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 1090519043 /* Ready */, NULL, NU
      , (@parent_id,  3,  10 /* Tell */, 1, 1, NULL, 'Welcome!  The Training Master is at the end of these Halls.  Please follow the GLOWING ARROWS to get to the end.  DOUBLE-CLICK the signs along the way to read them.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (5092, 2,   115,  0, 14, 0.8, False) /* Create Leather Boots (115) for Wield */
+VALUES (5092, 2,  2588,  0, 9, 1, False) /* Create Shirt (2588) for Wield */
      , (5092, 2,   127,  0, 9, 0, False) /* Create Pants (127) for Wield */
-     , (5092, 2,  2588,  0, 9, 1, False) /* Create Shirt (2588) for Wield */;
+     , (5092, 2,   115,  0, 14, 0.8, False) /* Create Leather Boots (115) for Wield */;

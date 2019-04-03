@@ -142,21 +142,21 @@ VALUES (@parent_id,  0,  17 /* LocalBroadcast */, 0, 0, NULL, 'As %s smites the 
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (7373, 2,  7799,  3, 0, 0, False) /* Create Ball of plasma (7799) for Wield */
-     , (7373, 9,     0,  0, 0, 0, False) /* Create nothing for ContainTreasure */
-     , (7373, 9,     0,  0, 0, 0, False) /* Create nothing for ContainTreasure */
-     , (7373, 9,     0,  0, 0, 0, False) /* Create nothing for ContainTreasure */
-     , (7373, 9,     0,  0, 0, 0, False) /* Create nothing for ContainTreasure */
-     , (7373, 9,     0,  0, 0, 0, False) /* Create nothing for ContainTreasure */
-     , (7373, 9,     0,  0, 0, 0, False) /* Create nothing for ContainTreasure */
-     , (7373, 9,     0,  0, 0, 0, False) /* Create nothing for ContainTreasure */
-     , (7373, 9,     0,  0, 0, 0, False) /* Create nothing for ContainTreasure */
+     , (7373, 9,  7442,  0, 0, 1, False) /* Create Red Fire Infusion (7442) for ContainTreasure */
      , (7373, 9,     0,  0, 0, 0, False) /* Create nothing for ContainTreasure */
      , (7373, 9,  7442,  0, 0, 1, False) /* Create Red Fire Infusion (7442) for ContainTreasure */
+     , (7373, 9,     0,  0, 0, 0, False) /* Create nothing for ContainTreasure */
      , (7373, 9,  7442,  0, 0, 1, False) /* Create Red Fire Infusion (7442) for ContainTreasure */
+     , (7373, 9,     0,  0, 0, 0, False) /* Create nothing for ContainTreasure */
      , (7373, 9,  7442,  0, 0, 1, False) /* Create Red Fire Infusion (7442) for ContainTreasure */
+     , (7373, 9,     0,  0, 0, 0, False) /* Create nothing for ContainTreasure */
      , (7373, 9,  7442,  0, 0, 1, False) /* Create Red Fire Infusion (7442) for ContainTreasure */
+     , (7373, 9,     0,  0, 0, 0, False) /* Create nothing for ContainTreasure */
      , (7373, 9,  7442,  0, 0, 1, False) /* Create Red Fire Infusion (7442) for ContainTreasure */
+     , (7373, 9,     0,  0, 0, 0, False) /* Create nothing for ContainTreasure */
      , (7373, 9,  7442,  0, 0, 1, False) /* Create Red Fire Infusion (7442) for ContainTreasure */
+     , (7373, 9,     0,  0, 0, 0, False) /* Create nothing for ContainTreasure */
      , (7373, 9,  7442,  0, 0, 1, False) /* Create Red Fire Infusion (7442) for ContainTreasure */
+     , (7373, 9,     0,  0, 0, 0, False) /* Create nothing for ContainTreasure */
      , (7373, 9,  7442,  0, 0, 1, False) /* Create Red Fire Infusion (7442) for ContainTreasure */
-     , (7373, 9,  7442,  0, 0, 1, False) /* Create Red Fire Infusion (7442) for ContainTreasure */;
+     , (7373, 9,     0,  0, 0, 0, False) /* Create nothing for ContainTreasure */;

@@ -200,9 +200,9 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 268435537 /* Twitch1 */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (26019, 9,     0,  0, 0, 0.95, False) /* Create nothing for ContainTreasure */
-     , (26019, 9,     0,  0, 0, 0.96, False) /* Create nothing for ContainTreasure */
+VALUES (26019, 9, 28318,  0, 0, 0.05, False) /* Create Untranslated Writing (28318) for ContainTreasure */
      , (26019, 9,     0,  0, 0, 0.95, False) /* Create nothing for ContainTreasure */
-     , (26019, 9, 28318,  0, 0, 0.05, False) /* Create Untranslated Writing (28318) for ContainTreasure */
+     , (26019, 9, 28984,  0, 0, 0.04, False) /* Create Bloodied Burun Hide (28984) for ContainTreasure */
+     , (26019, 9,     0,  0, 0, 0.96, False) /* Create nothing for ContainTreasure */
      , (26019, 9, 28887,  0, 0, 0.05, False) /* Create Burun Ruuk Head (28887) for ContainTreasure */
-     , (26019, 9, 28984,  0, 0, 0.04, False) /* Create Bloodied Burun Hide (28984) for ContainTreasure */;
+     , (26019, 9,     0,  0, 0, 0.95, False) /* Create nothing for ContainTreasure */;

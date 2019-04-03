@@ -142,5 +142,5 @@ VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 1090519043 /* Ready */, NULL, NU
      , (@parent_id,  2,  10 /* Tell */, 1, 1, NULL, 'There have been reports of odd portal disruptions in this area. I''ve been sent to this outpost to keep watch. If you''re new to this land, for safety''s sake I''d suggest you stay well within the Arcanum''s perimeter of Obelisks--at least until you''re strong enough to venture out on your own.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (12725, 2,   118,  0, 14, 0.7, False) /* Create Cap (118) for Wield */
-     , (12725, 2, 10870,  0, 17, 0.7, False) /* Create Canescent Mattekar Robe (10870) for Wield */;
+VALUES (12725, 2, 10870,  0, 17, 0.7, False) /* Create Canescent Mattekar Robe (10870) for Wield */
+     , (12725, 2,   118,  0, 14, 0.7, False) /* Create Cap (118) for Wield */;

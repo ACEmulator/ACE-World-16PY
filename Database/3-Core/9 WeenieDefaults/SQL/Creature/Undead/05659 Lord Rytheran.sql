@@ -319,8 +319,8 @@ VALUES (@parent_id,  0,  17 /* LocalBroadcast */, 0, 0, NULL, 'Lord Rytheran res
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (5659, 8,  5666,  0, 0, 1, False) /* Create Letter (5666) for Treasure */
-     , (5659, 9,     0,  0, 0, 0.98, False) /* Create nothing for ContainTreasure */
-     , (5659, 9,     0,  0, 0, 0.98, False) /* Create nothing for ContainTreasure */
+     , (5659, 9,  7410,  0, 0, 1, False) /* Create Rytheran's Key (7410) for ContainTreasure */
      , (5659, 9,  6876,  0, 0, 0.02, False) /* Create Sturdy Iron Key (6876) for ContainTreasure */
+     , (5659, 9,     0,  0, 0, 0.98, False) /* Create nothing for ContainTreasure */
      , (5659, 9,  7045,  0, 0, 0.02, False) /* Create Dark Revenant Thighbone (7045) for ContainTreasure */
-     , (5659, 9,  7410,  0, 0, 1, False) /* Create Rytheran's Key (7410) for ContainTreasure */;
+     , (5659, 9,     0,  0, 0, 0.98, False) /* Create nothing for ContainTreasure */;

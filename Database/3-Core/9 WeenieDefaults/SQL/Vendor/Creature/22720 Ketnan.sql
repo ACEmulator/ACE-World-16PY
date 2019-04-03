@@ -211,17 +211,17 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 318767235 /* Nod */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (22720, 2,   132,  0, 2, 0.5, False) /* Create Shoes (132) for Wield */
-     , (22720, 2,  2590,  0, 8, 1, False) /* Create Shirt (2590) for Wield */
+VALUES (22720, 2,  2590,  0, 8, 1, False) /* Create Shirt (2590) for Wield */
      , (22720, 2,  2598,  0, 4, 0.8, False) /* Create Pants (2598) for Wield */
+     , (22720, 2,   132,  0, 2, 0.5, False) /* Create Shoes (132) for Wield */
      , (22720, 2,  5905,  0, 2, 0.8, False) /* Create Hood (5905) for Wield */
-     , (22720, 4,  2451, -1, 0, 0, False) /* Create Ale (2451) for Shop */
+     , (22720, 4, 22637, -1, 0, 0, False) /* Create Refreshing Umbrella Drink (22637) for Shop */
+     , (22720, 4, 22635, -1, 0, 0, False) /* Create I survived the Tusker Emporium (22635) for Shop */
+     , (22720, 4, 22565, -1, 0, 0, False) /* Create Tusker Island Shirt (22565) for Shop */
+     , (22720, 4, 22620, -1, 0, 0, False) /* Create Carved Tusker Statue (22620) for Shop */
+     , (22720, 4, 22857, -1, 0, 0, False) /* Create Tiki Torch (22857) for Shop */
      , (22720, 4,  2454, -1, 0, 0, False) /* Create Coffee (2454) for Shop */
      , (22720, 4,  2465, -1, 0, 0, False) /* Create Palm Wine (2465) for Shop */
      , (22720, 4,  4734, -1, 0, 0, False) /* Create Meat Pie (4734) for Shop */
-     , (22720, 4,  4746, -1, 0, 0, False) /* Create Water (4746) for Shop */
-     , (22720, 4, 22565, -1, 0, 0, False) /* Create Tusker Island Shirt (22565) for Shop */
-     , (22720, 4, 22620, -1, 0, 0, False) /* Create Carved Tusker Statue (22620) for Shop */
-     , (22720, 4, 22635, -1, 0, 0, False) /* Create I survived the Tusker Emporium (22635) for Shop */
-     , (22720, 4, 22637, -1, 0, 0, False) /* Create Refreshing Umbrella Drink (22637) for Shop */
-     , (22720, 4, 22857, -1, 0, 0, False) /* Create Tiki Torch (22857) for Shop */;
+     , (22720, 4,  2451, -1, 0, 0, False) /* Create Ale (2451) for Shop */
+     , (22720, 4,  4746, -1, 0, 0, False) /* Create Water (4746) for Shop */;

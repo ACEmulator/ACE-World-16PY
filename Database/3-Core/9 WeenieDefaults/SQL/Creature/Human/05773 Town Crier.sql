@@ -385,7 +385,7 @@ VALUES (@parent_id,  0,  12 /* TurnToTarget */, 0, 1, NULL, NULL, NULL, NULL, NU
      , (@parent_id,  2,  10 /* Tell */, 1, 1, NULL, 'So I''m sure you''ve noticed that I haven''t left this spot in nearly four years. Yeah it''s a tough life, standing here all day. Sure... sometimes people are nice enough to give me Shackles of Obedience. But I was wondering...Need a patron?', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (5773, 2,   121,  0, 93, 0.8, False) /* Create Gloves (121) for Wield */
-     , (5773, 2,  2588,  0, 9, 1, False) /* Create Shirt (2588) for Wield */
+VALUES (5773, 2,  2588,  0, 9, 1, False) /* Create Shirt (2588) for Wield */
      , (5773, 2,  2597,  0, 9, 1, False) /* Create Pants (2597) for Wield */
-     , (5773, 2,  5850,  0, 2, 0.5, False) /* Create Faran Robe (5850) for Wield */;
+     , (5773, 2,  5850,  0, 2, 0.5, False) /* Create Faran Robe (5850) for Wield */
+     , (5773, 2,   121,  0, 93, 0.8, False) /* Create Gloves (121) for Wield */;

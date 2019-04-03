@@ -119,13 +119,13 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 268435537 /* Twitch1 */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (7418, 9,     0,  0, 0, 0.25, False) /* Create nothing for ContainTreasure */
+VALUES (7418, 9,  6353,  0, 0, 0.75, False) /* Create Pyreal Mote (6353) for ContainTreasure */
      , (7418, 9,     0,  0, 0, 0.25, False) /* Create nothing for ContainTreasure */
+     , (7418, 9,  6876,  0, 0, 0.75, False) /* Create Sturdy Iron Key (6876) for ContainTreasure */
      , (7418, 9,     0,  0, 0, 0.25, False) /* Create nothing for ContainTreasure */
+     , (7418, 9,  6060,  0, 0, 0.75, False) /* Create Dark Speck (6060) for ContainTreasure */
      , (7418, 9,     0,  0, 0, 0.25, False) /* Create nothing for ContainTreasure */
+     , (7418, 9,  7338,  0, 0, 0.75, False) /* Create Diamond Heart (7338) for ContainTreasure */
      , (7418, 9,     0,  0, 0, 0.25, False) /* Create nothing for ContainTreasure */
      , (7418, 9,  6055,  0, 0, 0.75, False) /* Create Cracked Shard (6055) for ContainTreasure */
-     , (7418, 9,  6060,  0, 0, 0.75, False) /* Create Dark Speck (6060) for ContainTreasure */
-     , (7418, 9,  6353,  0, 0, 0.75, False) /* Create Pyreal Mote (6353) for ContainTreasure */
-     , (7418, 9,  6876,  0, 0, 0.75, False) /* Create Sturdy Iron Key (6876) for ContainTreasure */
-     , (7418, 9,  7338,  0, 0, 0.75, False) /* Create Diamond Heart (7338) for ContainTreasure */;
+     , (7418, 9,     0,  0, 0, 0.25, False) /* Create nothing for ContainTreasure */;

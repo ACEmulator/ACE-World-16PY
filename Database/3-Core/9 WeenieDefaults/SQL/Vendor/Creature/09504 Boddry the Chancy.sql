@@ -165,14 +165,15 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 318767235 /* Nod */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (9504, 2,   118,  0, 9, 0, False) /* Create Cap (118) for Wield */
+VALUES (9504, 2,   134,  0, 9, 1, False) /* Create Tunic (134) for Wield */
      , (9504, 2,   127,  0, 9, 1, False) /* Create Pants (127) for Wield */
      , (9504, 2,   132,  0, 4, 0.6, False) /* Create Shoes (132) for Wield */
-     , (9504, 2,   134,  0, 9, 1, False) /* Create Tunic (134) for Wield */
+     , (9504, 2,   118,  0, 9, 0, False) /* Create Cap (118) for Wield */
      , (9504, 2, 10696,  0, 17, 0.5, False) /* Create Apron (10696) for Wield */
-     , (9504, 4,  2451, -1, 0, 0, False) /* Create Ale (2451) for Shop */
-     , (9504, 4,  2467, -1, 0, 0, False) /* Create Red Wine (2467) for Shop */
-     , (9504, 4,  2471, -1, 0, 0, False) /* Create Stout (2471) for Shop */
+     , (9504, 4,  9483, -1, 0, 0, False) /* Create Monty's Low-Stakes Gambling Token (9483) for Shop */
+     , (9504, 4,  9486, -1, 0, 0, False) /* Create Monty's Mid-Stakes Gambling Token (9486) for Shop */
+     , (9504, 4,  9480, -1, 0, 0, False) /* Create Monty's High-Stakes Gambling Token (9480) for Shop */
+     , (9504, 4,  9515, -1, 0, 0, False) /* Create A Guide to Monty's Den of Iniquity (9515) for Shop */
      , (9504, 4,  2621, -1, 0, 0, False) /* Create Trade Note (100) (2621) for Shop */
      , (9504, 4,  2622, -1, 0, 0, False) /* Create Trade Note (500) (2622) for Shop */
      , (9504, 4,  2623, -1, 0, 0, False) /* Create Trade Note (1,000) (2623) for Shop */
@@ -180,10 +181,9 @@ VALUES (9504, 2,   118,  0, 9, 0, False) /* Create Cap (118) for Wield */
      , (9504, 4,  2625, -1, 0, 0, False) /* Create Trade Note (10,000) (2625) for Shop */
      , (9504, 4,  2626, -1, 0, 0, False) /* Create Trade Note (50,000) (2626) for Shop */
      , (9504, 4,  2627, -1, 0, 0, False) /* Create Trade Note (100,000) (2627) for Shop */
-     , (9504, 4,  9480, -1, 0, 0, False) /* Create Monty's High-Stakes Gambling Token (9480) for Shop */
-     , (9504, 4,  9483, -1, 0, 0, False) /* Create Monty's Low-Stakes Gambling Token (9483) for Shop */
-     , (9504, 4,  9486, -1, 0, 0, False) /* Create Monty's Mid-Stakes Gambling Token (9486) for Shop */
-     , (9504, 4,  9515, -1, 0, 0, False) /* Create A Guide to Monty's Den of Iniquity (9515) for Shop */
      , (9504, 4, 20628, -1, 0, 0, False) /* Create Trade Note (150,000) (20628) for Shop */
      , (9504, 4, 20629, -1, 0, 0, False) /* Create Trade Note (200,000) (20629) for Shop */
-     , (9504, 4, 20630, -1, 0, 0, False) /* Create Trade Note (250,000) (20630) for Shop */;
+     , (9504, 4, 20630, -1, 0, 0, False) /* Create Trade Note (250,000) (20630) for Shop */
+     , (9504, 4,  2451, -1, 0, 0, False) /* Create Ale (2451) for Shop */
+     , (9504, 4,  2467, -1, 0, 0, False) /* Create Red Wine (2467) for Shop */
+     , (9504, 4,  2471, -1, 0, 0, False) /* Create Stout (2471) for Shop */;

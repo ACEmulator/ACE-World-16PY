@@ -165,14 +165,14 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 318767235 /* Nod */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (4686, 2,   127,  0, 9, 1, False) /* Create Pants (127) for Wield */
-     , (4686, 2,   128,  0, 1, 1, False) /* Create Qafiya (128) for Wield */
-     , (4686, 2,   130,  0, 9, 1, False) /* Create Shirt (130) for Wield */
+VALUES (4686, 2,   130,  0, 9, 1, False) /* Create Shirt (130) for Wield */
+     , (4686, 2,   127,  0, 9, 1, False) /* Create Pants (127) for Wield */
      , (4686, 2,  2606,  0, 18, 1, False) /* Create Boots (2606) for Wield */
+     , (4686, 2,   128,  0, 1, 1, False) /* Create Qafiya (128) for Wield */
      , (4686, 2, 10696,  0, 4, 0.6, False) /* Create Apron (10696) for Wield */
      , (4686, 4,   124, -1, 9, 1, False) /* Create Jerkin (124) for Shop */
-     , (4686, 4,   128, -1, 1, 1, False) /* Create Qafiya (128) for Shop */
      , (4686, 4,  2598, -1, 9, 1, False) /* Create Pants (2598) for Shop */
+     , (4686, 4,   128, -1, 1, 1, False) /* Create Qafiya (128) for Shop */
      , (4686, 4,  2606, -1, 18, 1, False) /* Create Boots (2606) for Shop */
      , (4686, 4,  5852, -1, 0, 0, False) /* Create Dho Vest and Robe (5852) for Shop */
      , (4686, 4,  5894, -1, 0, 0, False) /* Create Fez (5894) for Shop */

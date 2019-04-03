@@ -553,7 +553,7 @@ VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 1090519043 /* Ready */, NULL, NU
      , (@parent_id,  3,  10 /* Tell */, 1, 1, NULL, 'I am the examiner here at the Sho outpost of the Bestowers'' Guild.  Please speak with Naba Ko-Zin if you wish to arrange for an examination.  The base piece of the skill puzzle is available in the other corner of this tent.  Be warned, however, that the test can only be taken once per day, and one may only be called by one title.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (9546, 2,   127,  0, 9, 1, False) /* Create Pants (127) for Wield */
+VALUES (9546, 2,  5901,  0, 13, 0.6, False) /* Create Kasa (5901) for Wield */
      , (9546, 2,   130,  0, 2, 0.7, False) /* Create Shirt (130) for Wield */
-     , (9546, 2,  5901,  0, 13, 0.6, False) /* Create Kasa (5901) for Wield */
+     , (9546, 2,   127,  0, 9, 1, False) /* Create Pants (127) for Wield */
      , (9546, 2,  7897,  0, 9, 0, False) /* Create Steel Toed Boots (7897) for Wield */;

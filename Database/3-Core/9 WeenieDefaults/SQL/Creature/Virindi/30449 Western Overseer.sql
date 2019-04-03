@@ -183,17 +183,17 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 268435539 /* Twitch3 */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (30449, 9,     0,  0, 0, 0, False) /* Create nothing for ContainTreasure */
+VALUES (30449, 9, 30475,  0, 0, 1, False) /* Create Western Forge Essence (30475) for ContainTreasure */
      , (30449, 9,     0,  0, 0, 0, False) /* Create nothing for ContainTreasure */
+     , (30449, 9, 30475,  0, 0, 1, False) /* Create Western Forge Essence (30475) for ContainTreasure */
      , (30449, 9,     0,  0, 0, 0, False) /* Create nothing for ContainTreasure */
+     , (30449, 9, 30475,  0, 0, 1, False) /* Create Western Forge Essence (30475) for ContainTreasure */
      , (30449, 9,     0,  0, 0, 0, False) /* Create nothing for ContainTreasure */
-     , (30449, 9,     0,  0, 0, 0, False) /* Create nothing for ContainTreasure */
-     , (30449, 9,     0,  0, 0, 0, False) /* Create nothing for ContainTreasure */
+     , (30449, 9, 30477,  0, 0, 1, False) /* Create Inner Sea Directive (30477) for ContainTreasure */
      , (30449, 9,     0,  0, 0, 0, False) /* Create nothing for ContainTreasure */
      , (30449, 9, 30458,  0, 0, 1, False) /* Create Band of Shielding (30458) for ContainTreasure */
+     , (30449, 9,     0,  0, 0, 0, False) /* Create nothing for ContainTreasure */
      , (30449, 9, 30458,  0, 0, 1, False) /* Create Band of Shielding (30458) for ContainTreasure */
+     , (30449, 9,     0,  0, 0, 0, False) /* Create nothing for ContainTreasure */
      , (30449, 9, 30458,  0, 0, 1, False) /* Create Band of Shielding (30458) for ContainTreasure */
-     , (30449, 9, 30475,  0, 0, 1, False) /* Create Western Forge Essence (30475) for ContainTreasure */
-     , (30449, 9, 30475,  0, 0, 1, False) /* Create Western Forge Essence (30475) for ContainTreasure */
-     , (30449, 9, 30475,  0, 0, 1, False) /* Create Western Forge Essence (30475) for ContainTreasure */
-     , (30449, 9, 30477,  0, 0, 1, False) /* Create Inner Sea Directive (30477) for ContainTreasure */;
+     , (30449, 9,     0,  0, 0, 0, False) /* Create nothing for ContainTreasure */;

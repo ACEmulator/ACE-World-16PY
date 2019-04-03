@@ -178,5 +178,5 @@ VALUES (@parent_id,  0,  10 /* Tell */, 1, 1, NULL, 'Another success! Those crea
      , (@parent_id,  4,  10 /* Tell */, 1, 1, NULL, 'You are now ready for your first quest! Go use your key to enter the passageway on the right side of the Practice Area. When you enter the Central Courtyard, look for the Senior Guard.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (12724, 2,   118,  0, 14, 1, False) /* Create Cap (118) for Wield */
-     , (12724, 2, 10870,  0, 17, 0.7, False) /* Create Canescent Mattekar Robe (10870) for Wield */;
+VALUES (12724, 2, 10870,  0, 17, 0.7, False) /* Create Canescent Mattekar Robe (10870) for Wield */
+     , (12724, 2,   118,  0, 14, 1, False) /* Create Cap (118) for Wield */;

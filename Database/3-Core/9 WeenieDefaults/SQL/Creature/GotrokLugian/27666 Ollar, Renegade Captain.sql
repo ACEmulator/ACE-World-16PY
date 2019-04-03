@@ -199,15 +199,15 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,  10 /* Tell */, 0, 1, NULL, 'This magic you speak of, when will you begin to utilize it?', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (27666, 9,     0,  0, 0, 0, False) /* Create nothing for ContainTreasure */
-     , (27666, 9,     0,  0, 0, 0, False) /* Create nothing for ContainTreasure */
-     , (27666, 9,     0,  0, 0, 0, False) /* Create nothing for ContainTreasure */
-     , (27666, 9,     0,  0, 0, 0, False) /* Create nothing for ContainTreasure */
-     , (27666, 9,     0,  0, 0, 0, False) /* Create nothing for ContainTreasure */
+VALUES (27666, 9, 27688,  1, 0, 1, False) /* Create Strong Iron Key (27688) for ContainTreasure */
      , (27666, 9,     0,  0, 0, 0, False) /* Create nothing for ContainTreasure */
      , (27666, 9, 27688,  1, 0, 1, False) /* Create Strong Iron Key (27688) for ContainTreasure */
+     , (27666, 9,     0,  0, 0, 0, False) /* Create nothing for ContainTreasure */
      , (27666, 9, 27688,  1, 0, 1, False) /* Create Strong Iron Key (27688) for ContainTreasure */
+     , (27666, 9,     0,  0, 0, 0, False) /* Create nothing for ContainTreasure */
      , (27666, 9, 27688,  1, 0, 1, False) /* Create Strong Iron Key (27688) for ContainTreasure */
+     , (27666, 9,     0,  0, 0, 0, False) /* Create nothing for ContainTreasure */
      , (27666, 9, 27688,  1, 0, 1, False) /* Create Strong Iron Key (27688) for ContainTreasure */
+     , (27666, 9,     0,  0, 0, 0, False) /* Create nothing for ContainTreasure */
      , (27666, 9, 27688,  1, 0, 1, False) /* Create Strong Iron Key (27688) for ContainTreasure */
-     , (27666, 9, 27688,  1, 0, 1, False) /* Create Strong Iron Key (27688) for ContainTreasure */;
+     , (27666, 9,     0,  0, 0, 0, False) /* Create nothing for ContainTreasure */;

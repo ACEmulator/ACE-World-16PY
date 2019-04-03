@@ -157,6 +157,6 @@ VALUES (@parent_id,  0,  10 /* Tell */, 1, 1, NULL, 'Everything is falling apart
      , (@parent_id,  4,  10 /* Tell */, 3, 1, NULL, 'Go talk to Hibdin, he''s the one organizing the expeditions down there.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (20918, 2,   127,  0, 9, 0, False) /* Create Pants (127) for Wield */
-     , (20918, 2,   133,  0, 4, 0.8, False) /* Create Slippers (133) for Wield */
-     , (20918, 2,   134,  0, 9, 1, False) /* Create Tunic (134) for Wield */;
+VALUES (20918, 2,   134,  0, 9, 1, False) /* Create Tunic (134) for Wield */
+     , (20918, 2,   127,  0, 9, 0, False) /* Create Pants (127) for Wield */
+     , (20918, 2,   133,  0, 4, 0.8, False) /* Create Slippers (133) for Wield */;

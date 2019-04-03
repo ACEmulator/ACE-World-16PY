@@ -165,15 +165,15 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 318767235 /* Nod */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (714, 2,   118,  0, 8, 0, False) /* Create Cap (118) for Wield */
+VALUES (714, 2,   130,  0, 8, 0.67, False) /* Create Shirt (130) for Wield */
      , (714, 2,   127,  0, 7, 0.33, False) /* Create Pants (127) for Wield */
-     , (714, 2,   130,  0, 8, 0.67, False) /* Create Shirt (130) for Wield */
      , (714, 2,   132,  0, 18, 1, False) /* Create Shoes (132) for Wield */
+     , (714, 2,   118,  0, 8, 0, False) /* Create Cap (118) for Wield */
      , (714, 2, 10696,  0, 9, 0.5, False) /* Create Apron (10696) for Wield */
      , (714, 4,   136, -1, 8, 1, False) /* Create Pack (136) for Shop */
-     , (714, 4,   262, -1, 0, 0, False) /* Create Chicken (262) for Shop */
-     , (714, 4,   264, -1, 0, 0, False) /* Create Grapes (264) for Shop */
-     , (714, 4,  4746, -1, 0, 0, False) /* Create Water (4746) for Shop */
      , (714, 4,  4753, -1, 0, 0, False) /* Create Side of Beef (4753) for Shop */
-     , (714, 4,  4757, -1, 0, 0, False) /* Create Carving Knife (4757) for Shop */
-     , (714, 4, 30734, -1, 0, 0, False) /* Create Bowl of Black-Eyed Peas (30734) for Shop */;
+     , (714, 4,   264, -1, 0, 0, False) /* Create Grapes (264) for Shop */
+     , (714, 4,   262, -1, 0, 0, False) /* Create Chicken (262) for Shop */
+     , (714, 4, 30734, -1, 0, 0, False) /* Create Bowl of Black-Eyed Peas (30734) for Shop */
+     , (714, 4,  4746, -1, 0, 0, False) /* Create Water (4746) for Shop */
+     , (714, 4,  4757, -1, 0, 0, False) /* Create Carving Knife (4757) for Shop */;

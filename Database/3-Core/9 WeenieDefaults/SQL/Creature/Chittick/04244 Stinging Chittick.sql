@@ -122,5 +122,5 @@ VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 268435537 /* Twitch1 */, NULL, N
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (4244, 2, 22541,  0, 0, 0, False) /* Create Acid Spines (22541) for Wield */
-     , (4244, 9,     0,  0, 0, 0.95, False) /* Create nothing for ContainTreasure */
-     , (4244, 9, 28888,  0, 0, 0.05, False) /* Create Chittick Head (28888) for ContainTreasure */;
+     , (4244, 9, 28888,  0, 0, 0.05, False) /* Create Chittick Head (28888) for ContainTreasure */
+     , (4244, 9,     0,  0, 0, 0.95, False) /* Create nothing for ContainTreasure */;

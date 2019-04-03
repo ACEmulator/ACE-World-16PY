@@ -318,6 +318,6 @@ VALUES (@parent_id,  0,  10 /* Tell */, 1, 1, NULL, 'Thank you, but someone else
      , (@parent_id,  1,   3 /* Give */, 1, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0 /* Undef */, 244 /* Wood */, 1, 0, 0, False, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (12239, 2,   117,  0, 2, 1, False) /* Create Breeches (117) for Wield */
-     , (12239, 2,  2596,  0, 2, 0.8, False) /* Create Doublet (2596) for Wield */
+VALUES (12239, 2,  2596,  0, 2, 0.8, False) /* Create Doublet (2596) for Wield */
+     , (12239, 2,   117,  0, 2, 1, False) /* Create Breeches (117) for Wield */
      , (12239, 2,  7897,  0, 2, 0.8, False) /* Create Steel Toed Boots (7897) for Wield */;

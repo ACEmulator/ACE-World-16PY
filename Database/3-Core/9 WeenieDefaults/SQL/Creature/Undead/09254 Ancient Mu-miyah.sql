@@ -178,15 +178,15 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 268435537 /* Twitch1 */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (9254, 9,     0,  0, 0, 0.99, False) /* Create nothing for ContainTreasure */
-     , (9254, 9,     0,  0, 0, 0.93, False) /* Create nothing for ContainTreasure */
-     , (9254, 9,     0,  0, 0, 0.95, False) /* Create nothing for ContainTreasure */
-     , (9254, 9,     0,  0, 0, 0.95, False) /* Create nothing for ContainTreasure */
-     , (9254, 9,     0,  0, 0, 0.95, False) /* Create nothing for ContainTreasure */
-     , (9254, 9,     0,  0, 0, 0.95, False) /* Create nothing for ContainTreasure */
-     , (9254, 9,  6876,  0, 0, 0.01, False) /* Create Sturdy Iron Key (6876) for ContainTreasure */
+VALUES (9254, 9,  6876,  0, 0, 0.01, False) /* Create Sturdy Iron Key (6876) for ContainTreasure */
+     , (9254, 9,     0,  0, 0, 0.99, False) /* Create nothing for ContainTreasure */
      , (9254, 9,  9312,  0, 0, 0.07, False) /* Create A Small Mnemosyne (9312) for ContainTreasure */
+     , (9254, 9,     0,  0, 0, 0.93, False) /* Create nothing for ContainTreasure */
      , (9254, 9, 22025,  0, 0, 0.05, False) /* Create Mu-miyah Arm (22025) for ContainTreasure */
+     , (9254, 9,     0,  0, 0, 0.95, False) /* Create nothing for ContainTreasure */
      , (9254, 9, 22029,  0, 0, 0.05, False) /* Create Mu-miyah Leg (22029) for ContainTreasure */
+     , (9254, 9,     0,  0, 0, 0.95, False) /* Create nothing for ContainTreasure */
      , (9254, 9, 22045,  0, 0, 0.05, False) /* Create Mu-miyah Torso (22045) for ContainTreasure */
-     , (9254, 9, 22060,  0, 0, 0.05, False) /* Create Mu-miyah Torso with a Head (22060) for ContainTreasure */;
+     , (9254, 9,     0,  0, 0, 0.95, False) /* Create nothing for ContainTreasure */
+     , (9254, 9, 22060,  0, 0, 0.05, False) /* Create Mu-miyah Torso with a Head (22060) for ContainTreasure */
+     , (9254, 9,     0,  0, 0, 0.95, False) /* Create nothing for ContainTreasure */;

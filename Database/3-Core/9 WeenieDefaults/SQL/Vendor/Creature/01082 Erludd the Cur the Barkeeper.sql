@@ -165,22 +165,22 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 318767235 /* Nod */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (1082, 2,   117,  0, 8, 0, False) /* Create Breeches (117) for Wield */
+VALUES (1082, 2,   134,  0, 8, 0, False) /* Create Tunic (134) for Wield */
+     , (1082, 2,   117,  0, 8, 0, False) /* Create Breeches (117) for Wield */
      , (1082, 2,   132,  0, 4, 0.6, False) /* Create Shoes (132) for Wield */
-     , (1082, 2,   134,  0, 8, 0, False) /* Create Tunic (134) for Wield */
      , (1082, 2, 10696,  0, 9, 0.5, False) /* Create Apron (10696) for Wield */
-     , (1082, 4,   259, -1, 0, 0, False) /* Create Bread (259) for Shop */
-     , (1082, 4,  1223, -1, 0, 0, False) /* Create Rithwic Portal Directions (1223) for Shop */
-     , (1082, 4,  1402, -1, 0, 0, False) /* Create Rithwic Crypt Directions (1402) for Shop */
-     , (1082, 4,  1511, -1, 0, 0, False) /* Create Drudge Camp Rumor (1511) for Shop */
-     , (1082, 4,  2053, -1, 0, 0, False) /* Create Directions to Fort Witshire (2053) for Shop */
-     , (1082, 4,  2453, -1, 0, 0, False) /* Create Cider (2453) for Shop */
-     , (1082, 4,  2455, -1, 0, 0, False) /* Create Grape Juice (2455) for Shop */
-     , (1082, 4,  2462, -1, 0, 0, False) /* Create Mead (2462) for Shop */
-     , (1082, 4,  2471, -1, 0, 0, False) /* Create Stout (2471) for Shop */
-     , (1082, 4,  4709, -1, 0, 0, False) /* Create Apple Pie (4709) for Shop */
-     , (1082, 4,  4719, -1, 0, 0, False) /* Create Chicken Stew (4719) for Shop */
-     , (1082, 4,  4739, -1, 0, 0, False) /* Create Pickled Egg (4739) for Shop */
      , (1082, 4,  4746, -1, 0, 0, False) /* Create Water (4746) for Shop */
-     , (1082, 4,  5004, -1, 0, 0, False) /* Create Warehouse Directions (5004) for Shop */
-     , (1082, 4,  8378, -1, 0, 0, False) /* Create Beer Stein (8378) for Shop */;
+     , (1082, 4,  2455, -1, 0, 0, False) /* Create Grape Juice (2455) for Shop */
+     , (1082, 4,  2471, -1, 0, 0, False) /* Create Stout (2471) for Shop */
+     , (1082, 4,  2462, -1, 0, 0, False) /* Create Mead (2462) for Shop */
+     , (1082, 4,  2453, -1, 0, 0, False) /* Create Cider (2453) for Shop */
+     , (1082, 4,  8378, -1, 0, 0, False) /* Create Beer Stein (8378) for Shop */
+     , (1082, 4,  4709, -1, 0, 0, False) /* Create Apple Pie (4709) for Shop */
+     , (1082, 4,   259, -1, 0, 0, False) /* Create Bread (259) for Shop */
+     , (1082, 4,  4739, -1, 0, 0, False) /* Create Pickled Egg (4739) for Shop */
+     , (1082, 4,  4719, -1, 0, 0, False) /* Create Chicken Stew (4719) for Shop */
+     , (1082, 4,  1223, -1, 0, 0, False) /* Create Rithwic Portal Directions (1223) for Shop */
+     , (1082, 4,  1511, -1, 0, 0, False) /* Create Drudge Camp Rumor (1511) for Shop */
+     , (1082, 4,  1402, -1, 0, 0, False) /* Create Rithwic Crypt Directions (1402) for Shop */
+     , (1082, 4,  2053, -1, 0, 0, False) /* Create Directions to Fort Witshire (2053) for Shop */
+     , (1082, 4,  5004, -1, 0, 0, False) /* Create Warehouse Directions (5004) for Shop */;

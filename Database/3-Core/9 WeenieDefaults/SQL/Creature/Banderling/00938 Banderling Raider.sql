@@ -185,7 +185,7 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 268435537 /* Twitch1 */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (938, 9,     0,  0, 0, 0.97, False) /* Create nothing for ContainTreasure */
+VALUES (938, 9,  3693,  0, 0, 0.03, False) /* Create Banderling Scalp (3693) for ContainTreasure */
      , (938, 9,     0,  0, 0, 0.97, False) /* Create nothing for ContainTreasure */
-     , (938, 9,  3693,  0, 0, 0.03, False) /* Create Banderling Scalp (3693) for ContainTreasure */
-     , (938, 9,  7825,  0, 0, 0.03, False) /* Create Brown Beans (7825) for ContainTreasure */;
+     , (938, 9,  7825,  0, 0, 0.03, False) /* Create Brown Beans (7825) for ContainTreasure */
+     , (938, 9,     0,  0, 0, 0.97, False) /* Create nothing for ContainTreasure */;

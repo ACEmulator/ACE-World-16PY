@@ -202,7 +202,7 @@ VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 268435537 /* Twitch1 */, NULL, N
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (8258, 9,     0,  0, 0, 0.5, False) /* Create nothing for ContainTreasure */
-     , (8258, 9,     0,  0, 0, 0.97, False) /* Create nothing for ContainTreasure */
-     , (8258, 9,     0,  0, 0, 0.5, False) /* Create nothing for ContainTreasure */
      , (8258, 9,  7825,  0, 0, 0.03, False) /* Create Brown Beans (7825) for ContainTreasure */
-     , (8258, 9,  8259,  0, 0, 0.5, False) /* Create Banderling Orders (8259) for ContainTreasure */;
+     , (8258, 9,     0,  0, 0, 0.97, False) /* Create nothing for ContainTreasure */
+     , (8258, 9,  8259,  0, 0, 0.5, False) /* Create Banderling Orders (8259) for ContainTreasure */
+     , (8258, 9,     0,  0, 0, 0.5, False) /* Create nothing for ContainTreasure */;

@@ -181,8 +181,8 @@ VALUES (@parent_id,  0,  10 /* Tell */, 1, 1, NULL, 'This should work.', NULL, N
      , (@parent_id,  3,   3 /* Give */, 1, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0 /* Undef */, 24241 /* Olthoi Spear */, 1, 0, 0, False, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (24247, 2,   116,  0, 8, 0, False) /* Create Studded Leather Boots (116) for Wield */
-     , (24247, 2, 24241,  0, 0, 0, False) /* Create Olthoi Spear (24241) for Wield */
+VALUES (24247, 2, 24241,  0, 0, 0, False) /* Create Olthoi Spear (24241) for Wield */
+     , (24247, 2, 24268,  0, 0, 0, False) /* Create Olthoi Fighter Sleeves (24268) for Wield */
      , (24247, 2, 24265,  0, 0, 0, False) /* Create Olthoi Fighter Shirt (Male) (24265) for Wield */
      , (24247, 2, 24266,  0, 0, 0, False) /* Create Olthoi Fighter Shorts (Female) (24266) for Wield */
-     , (24247, 2, 24268,  0, 0, 0, False) /* Create Olthoi Fighter Sleeves (24268) for Wield */;
+     , (24247, 2,   116,  0, 8, 0, False) /* Create Studded Leather Boots (116) for Wield */;

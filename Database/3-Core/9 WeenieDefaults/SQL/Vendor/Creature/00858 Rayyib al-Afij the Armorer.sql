@@ -165,33 +165,33 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 318767235 /* Nod */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (858, 2,   127,  0, 14, 0, False) /* Create Pants (127) for Wield */
-     , (858, 2,   132,  0, 1, 0.67, False) /* Create Shoes (132) for Wield */
+VALUES (858, 2,   352,  0, 0, 0, False) /* Create Short Sword (352) for Wield */
      , (858, 2,   134,  0, 1, 0.67, False) /* Create Tunic (134) for Wield */
+     , (858, 2,   127,  0, 14, 0, False) /* Create Pants (127) for Wield */
+     , (858, 2,   132,  0, 1, 0.67, False) /* Create Shoes (132) for Wield */
      , (858, 2,   135,  0, 14, 0.8, False) /* Create Turban (135) for Wield */
-     , (858, 2,   352,  0, 0, 0, False) /* Create Short Sword (352) for Wield */
      , (858, 2, 10696,  0, 12, 0.5, False) /* Create Apron (10696) for Wield */
+     , (858, 4,   554, -1, 0, 0, False) /* Create Studded Leather Basinet (554) for Shop */
      , (858, 4,    35, -1, 0, 0, False) /* Create Chainmail Basinet (35) for Shop */
+     , (858, 4,    77, -1, 0, 0, False) /* Create Kabuton (77) for Shop */
+     , (858, 4,    85, -1, 0, 0, False) /* Create Chainmail Coif (85) for Shop */
+     , (858, 4,    96, -1, 0, 0, False) /* Create Chainmail Shirt (96) for Shop */
+     , (858, 4,   414, -1, 0, 0, False) /* Create Chainmail Breastplate (414) for Shop */
      , (858, 4,    43, -1, 0, 0, False) /* Create Yoroi Breastplate (43) for Shop */
      , (858, 4,    55, -1, 0, 0, False) /* Create Chainmail Gauntlets (55) for Shop */
-     , (858, 4,    64, -1, 0, 0, False) /* Create Yoroi Girth (64) for Shop */
-     , (858, 4,    77, -1, 0, 0, False) /* Create Kabuton (77) for Shop */
-     , (858, 4,    78, -1, 0, 0, False) /* Create Kote (78) for Shop */
-     , (858, 4,    80, -1, 0, 0, False) /* Create Chainmail Leggings (80) for Shop */
-     , (858, 4,    85, -1, 0, 0, False) /* Create Chainmail Coif (85) for Shop */
+     , (858, 4,  2605, -1, 0, 0, False) /* Create Chainmail Greaves (2605) for Shop */
+     , (858, 4,   108, -1, 0, 0, False) /* Create Chainmail Tassets (108) for Shop */
+     , (858, 4,   415, -1, 0, 0, False) /* Create Chainmail Girth (415) for Shop */
      , (858, 4,    90, -1, 0, 0, False) /* Create Yoroi Pauldrons (90) for Shop */
+     , (858, 4,   416, -1, 0, 0, False) /* Create Chainmail Pauldrons (416) for Shop */
+     , (858, 4,   413, -1, 0, 0, False) /* Create Chainmail Bracers (413) for Shop */
+     , (858, 4,    78, -1, 0, 0, False) /* Create Kote (78) for Shop */
+     , (858, 4,    64, -1, 0, 0, False) /* Create Yoroi Girth (64) for Shop */
+     , (858, 4,  2437, -1, 0, 0, False) /* Create Yoroi Leggings (2437) for Shop */
+     , (858, 4,    80, -1, 0, 0, False) /* Create Chainmail Leggings (80) for Shop */
+     , (858, 4,   116, -1, 0, 0, False) /* Create Studded Leather Boots (116) for Shop */
      , (858, 4,    94, -1, 0, 0, False) /* Create Large Round Shield (94) for Shop */
      , (858, 4,    95, -1, 0, 0, False) /* Create Tower Shield (95) for Shop */
-     , (858, 4,    96, -1, 0, 0, False) /* Create Chainmail Shirt (96) for Shop */
-     , (858, 4,   108, -1, 0, 0, False) /* Create Chainmail Tassets (108) for Shop */
-     , (858, 4,   116, -1, 0, 0, False) /* Create Studded Leather Boots (116) for Shop */
-     , (858, 4,   413, -1, 0, 0, False) /* Create Chainmail Bracers (413) for Shop */
-     , (858, 4,   414, -1, 0, 0, False) /* Create Chainmail Breastplate (414) for Shop */
-     , (858, 4,   415, -1, 0, 0, False) /* Create Chainmail Girth (415) for Shop */
-     , (858, 4,   416, -1, 0, 0, False) /* Create Chainmail Pauldrons (416) for Shop */
-     , (858, 4,   554, -1, 0, 0, False) /* Create Studded Leather Basinet (554) for Shop */
-     , (858, 4,  2437, -1, 0, 0, False) /* Create Yoroi Leggings (2437) for Shop */
-     , (858, 4,  2605, -1, 0, 0, False) /* Create Chainmail Greaves (2605) for Shop */
      , (858, 4,  2621, -1, 0, 0, False) /* Create Trade Note (100) (2621) for Shop */
      , (858, 4,  2622, -1, 0, 0, False) /* Create Trade Note (500) (2622) for Shop */
      , (858, 4,  2623, -1, 0, 0, False) /* Create Trade Note (1,000) (2623) for Shop */

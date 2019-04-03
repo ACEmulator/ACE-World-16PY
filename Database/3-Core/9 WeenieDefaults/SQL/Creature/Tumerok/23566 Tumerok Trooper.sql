@@ -143,5 +143,5 @@ VALUES (23566,  94) /* ATTACK_NOTIFICATION_EVENT */
      , (23566, 414) /* PLAYER_DEATH_EVENT */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (23566, 9,     0,  0, 0, 0.98, False) /* Create nothing for ContainTreasure */
-     , (23566, 9, 24477,  0, 0, 0.02, False) /* Create Sturdy Steel Key (24477) for ContainTreasure */;
+VALUES (23566, 9, 24477,  0, 0, 0.02, False) /* Create Sturdy Steel Key (24477) for ContainTreasure */
+     , (23566, 9,     0,  0, 0, 0.98, False) /* Create nothing for ContainTreasure */;

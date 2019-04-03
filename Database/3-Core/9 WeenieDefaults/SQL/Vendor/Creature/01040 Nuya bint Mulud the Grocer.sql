@@ -165,17 +165,17 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 318767235 /* Nod */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (1040, 2,   133,  0, 17, 1, False) /* Create Slippers (133) for Wield */
-     , (1040, 2,   135,  0, 17, 1, False) /* Create Turban (135) for Wield */
-     , (1040, 2,  2587,  0, 17, 1, False) /* Create Shirt (2587) for Wield */
+VALUES (1040, 2,  2587,  0, 17, 1, False) /* Create Shirt (2587) for Wield */
      , (1040, 2,  2600,  0, 7, 0.33, False) /* Create Pantaloons (2600) for Wield */
+     , (1040, 2,   133,  0, 17, 1, False) /* Create Slippers (133) for Wield */
+     , (1040, 2,   135,  0, 17, 1, False) /* Create Turban (135) for Wield */
      , (1040, 2, 10696,  0, 18, 1, False) /* Create Apron (10696) for Wield */
-     , (1040, 4,   258, -1, 0, 0, False) /* Create Apple (258) for Shop */
-     , (1040, 4,   260, -1, 0, 0, False) /* Create Cabbage (260) for Shop */
-     , (1040, 4,   263, -1, 0, 0, False) /* Create Fish (263) for Shop */
-     , (1040, 4,  4746, -1, 0, 0, False) /* Create Water (4746) for Shop */
      , (1040, 4,  4755, -1, 0, 0, False) /* Create Brine (4755) for Shop */
-     , (1040, 4,  4757, -1, 0, 0, False) /* Create Carving Knife (4757) for Shop */
-     , (1040, 4,  4761, -1, 0, 0, False) /* Create Flour (4761) for Shop */
+     , (1040, 4,   263, -1, 0, 0, False) /* Create Fish (263) for Shop */
+     , (1040, 4,   260, -1, 0, 0, False) /* Create Cabbage (260) for Shop */
+     , (1040, 4,   258, -1, 0, 0, False) /* Create Apple (258) for Shop */
      , (1040, 4,  5758, -1, 0, 0, False) /* Create Carrot (5758) for Shop */
-     , (1040, 4, 30734, -1, 0, 0, False) /* Create Bowl of Black-Eyed Peas (30734) for Shop */;
+     , (1040, 4, 30734, -1, 0, 0, False) /* Create Bowl of Black-Eyed Peas (30734) for Shop */
+     , (1040, 4,  4761, -1, 0, 0, False) /* Create Flour (4761) for Shop */
+     , (1040, 4,  4746, -1, 0, 0, False) /* Create Water (4746) for Shop */
+     , (1040, 4,  4757, -1, 0, 0, False) /* Create Carving Knife (4757) for Shop */;

@@ -126,10 +126,10 @@ VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 1090519043 /* Ready */, NULL, NU
      , (@parent_id,  4,  10 /* Tell */, 3, 1, NULL, 'Yeah, I''m tough but I sure like to eat grub bites. Nothin'' better than grub bites. ''cept maybe the foot races we used to have back home. Those was fun. Here we just run from bugs. But then we turn and ambush ''em. Yeah that''s right we tear ''em up.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (24327, 2,    55,  0, 39, 1, False) /* Create Chainmail Gauntlets (55) for Wield */
-     , (24327, 2,  2606,  0, 9, 0.8, False) /* Create Boots (2606) for Wield */
-     , (24327, 2, 22013,  0, 0, 0, False) /* Create Olthoi Helm (22013) for Wield */
+VALUES (24327, 2, 22013,  0, 0, 0, False) /* Create Olthoi Helm (22013) for Wield */
      , (24327, 2, 24238,  0, 0, 0, False) /* Create Olthoi Atlatl (24238) for Wield */
+     , (24327, 2, 24268,  0, 0, 0, False) /* Create Olthoi Fighter Sleeves (24268) for Wield */
+     , (24327, 2,    55,  0, 39, 1, False) /* Create Chainmail Gauntlets (55) for Wield */
      , (24327, 2, 24265,  0, 0, 0, False) /* Create Olthoi Fighter Shirt (Male) (24265) for Wield */
      , (24327, 2, 24267,  0, 0, 0, False) /* Create Olthoi Fighter Shorts (Male) (24267) for Wield */
-     , (24327, 2, 24268,  0, 0, 0, False) /* Create Olthoi Fighter Sleeves (24268) for Wield */;
+     , (24327, 2,  2606,  0, 9, 0.8, False) /* Create Boots (2606) for Wield */;

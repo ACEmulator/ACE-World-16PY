@@ -165,14 +165,14 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 318767235 /* Nod */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (5861, 2,   115,  0, 4, 0.8, False) /* Create Leather Boots (115) for Wield */
-     , (5861, 2,   130,  0, 4, 0.5, False) /* Create Shirt (130) for Wield */
+VALUES (5861, 2,   130,  0, 4, 0.5, False) /* Create Shirt (130) for Wield */
      , (5861, 2,  2597,  0, 14, 0, False) /* Create Pants (2597) for Wield */
+     , (5861, 2,   115,  0, 4, 0.8, False) /* Create Leather Boots (115) for Wield */
      , (5861, 2, 10696,  0, 18, 1, False) /* Create Apron (10696) for Wield */
      , (5861, 4,  2451, -1, 0, 0, False) /* Create Ale (2451) for Shop */
      , (5861, 4,  2469, -1, 0, 0, False) /* Create Small Beer (2469) for Shop */
      , (5861, 4,  2471, -1, 0, 0, False) /* Create Stout (2471) for Shop */
-     , (5861, 4,  5831, -1, 0, 0, False) /* Create Nelvaine's Olde Ispar Stout (5831) for Shop */
      , (5861, 4,  8378, -1, 0, 0, False) /* Create Beer Stein (8378) for Shop */
+     , (5861, 4,  5831, -1, 0, 0, False) /* Create Nelvaine's Olde Ispar Stout (5831) for Shop */
      , (5861, 4, 22765, -1, 0, 0, False) /* Create The Empyrean Temples (22765) for Shop */
      , (5861, 4, 26479, -1, 0, 0, False) /* Create Tumerok Akiekie (26479) for Shop */;

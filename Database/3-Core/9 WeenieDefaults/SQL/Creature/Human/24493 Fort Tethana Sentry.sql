@@ -132,11 +132,11 @@ VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 1090519043 /* Ready */, NULL, NU
      , (@parent_id,  8,  15 /* Activate */, 2, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (24493, 2,    84,  0, 11, 1, False) /* Create Studded Leather Leggings (84) for Wield */
-     , (24493, 2,   122,  0, 11, 1, False) /* Create Soft Leather Gloves (122) for Wield */
-     , (24493, 2,   414,  0, 14, 1, False) /* Create Chainmail Breastplate (414) for Wield */
-     , (24493, 2,   415,  0, 19, 1, False) /* Create Chainmail Girth (415) for Wield */
+VALUES (24493, 2,  8489,  0, 20, 1, False) /* Create Heaume (8489) for Wield */
      , (24493, 2,  2587,  0, 4, 1, False) /* Create Shirt (2587) for Wield */
      , (24493, 2,  2601,  0, 4, 1, False) /* Create Pants (2601) for Wield */
-     , (24493, 2,  2606,  0, 9, 0.8, False) /* Create Boots (2606) for Wield */
-     , (24493, 2,  8489,  0, 20, 1, False) /* Create Heaume (8489) for Wield */;
+     , (24493, 2,   414,  0, 14, 1, False) /* Create Chainmail Breastplate (414) for Wield */
+     , (24493, 2,   415,  0, 19, 1, False) /* Create Chainmail Girth (415) for Wield */
+     , (24493, 2,    84,  0, 11, 1, False) /* Create Studded Leather Leggings (84) for Wield */
+     , (24493, 2,   122,  0, 11, 1, False) /* Create Soft Leather Gloves (122) for Wield */
+     , (24493, 2,  2606,  0, 9, 0.8, False) /* Create Boots (2606) for Wield */;

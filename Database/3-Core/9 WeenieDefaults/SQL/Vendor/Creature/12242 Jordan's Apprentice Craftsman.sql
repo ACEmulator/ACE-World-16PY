@@ -181,44 +181,44 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 318767235 /* Nod */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (12242, 2,   132,  0, 13, 0.5, False) /* Create Shoes (132) for Wield */
-     , (12242, 2,  2587,  0, 9, 1, False) /* Create Shirt (2587) for Wield */
+VALUES (12242, 2,  2587,  0, 9, 1, False) /* Create Shirt (2587) for Wield */
      , (12242, 2,  2602,  0, 9, 1, False) /* Create Breeches (2602) for Wield */
+     , (12242, 2,   132,  0, 13, 0.5, False) /* Create Shoes (132) for Wield */
      , (12242, 2, 10696,  0, 18, 1, False) /* Create Apron (10696) for Wield */
+     , (12242, 4,   268, -1, 0, 0, False) /* Create Bench (268) for Shop */
+     , (12242, 4,   253, -1, 0, 0, False) /* Create Stool (253) for Shop */
+     , (12242, 4, 22854, -1, 0, 0, False) /* Create Footstool (22854) for Shop */
+     , (12242, 4,   272, -1, 0, 0, False) /* Create Chair (272) for Shop */
+     , (12242, 4,   274, -1, 0, 0, False) /* Create Couch (274) for Shop */
+     , (12242, 4, 22855, -1, 0, 0, False) /* Create Divan (22855) for Shop */
+     , (12242, 4,   276, -1, 0, 0, False) /* Create Desk (276) for Shop */
+     , (12242, 4,   257, -1, 0, 0, False) /* Create Workbench (257) for Shop */
+     , (12242, 4, 25771, -1, 0, 0, False) /* Create Alchemy Table (25771) for Shop */
+     , (12242, 4, 13197, -1, 0, 0, False) /* Create Bed (13197) for Shop */
+     , (12242, 4,   267, -1, 0, 0, False) /* Create Bedroll (267) for Shop */
+     , (12242, 4, 25758, -1, 0, 0, False) /* Create Book Shelf (25758) for Shop */
+     , (12242, 4, 13203, -1, 0, 0, False) /* Create Screen (13203) for Shop */
+     , (12242, 4, 22254, -1, 0, 0, False) /* Create Gharu'ndim Rug (22254) for Shop */
+     , (12242, 4, 25769, -1, 0, 0, False) /* Create Large Gharu'ndim Rug (25769) for Shop */
+     , (12242, 4, 25770, -1, 0, 0, False) /* Create Gharu'ndim Hanging Rug (25770) for Shop */
+     , (12242, 4, 25775, -1, 0, 0, False) /* Create Tapestry (25775) for Shop */
+     , (12242, 4,   246, -1, 0, 0, False) /* Create Hearth (246) for Shop */
      , (12242, 4,   240, -1, 0, 0, False) /* Create Candelabra (240) for Shop */
      , (12242, 4,   241, -1, 0, 0, False) /* Create Chandelier (241) for Shop */
-     , (12242, 4,   246, -1, 0, 0, False) /* Create Hearth (246) for Shop */
+     , (12242, 4,   293, -1, 0, 0, False) /* Create Torch (293) for Shop */
+     , (12242, 4, 22853, -1, 0, 0, False) /* Create Gharun'dim Lantern (22853) for Shop */
+     , (12242, 4, 25764, -1, 0, 0, False) /* Create Gharu'ndim Lamp (25764) for Shop */
      , (12242, 4,   247, -1, 0, 0, False) /* Create Outcast (247) for Shop */
      , (12242, 4,   248, -1, 0, 0, False) /* Create Olthoi Enslavement (248) for Shop */
      , (12242, 4,   249, -1, 0, 0, False) /* Create Into the Unknown (249) for Shop */
      , (12242, 4,   250, -1, 0, 0, False) /* Create The Studious Mind (250) for Shop */
-     , (12242, 4,   253, -1, 0, 0, False) /* Create Stool (253) for Shop */
-     , (12242, 4,   257, -1, 0, 0, False) /* Create Workbench (257) for Shop */
-     , (12242, 4,   267, -1, 0, 0, False) /* Create Bedroll (267) for Shop */
-     , (12242, 4,   268, -1, 0, 0, False) /* Create Bench (268) for Shop */
-     , (12242, 4,   272, -1, 0, 0, False) /* Create Chair (272) for Shop */
-     , (12242, 4,   274, -1, 0, 0, False) /* Create Couch (274) for Shop */
-     , (12242, 4,   276, -1, 0, 0, False) /* Create Desk (276) for Shop */
-     , (12242, 4,   293, -1, 0, 0, False) /* Create Torch (293) for Shop */
-     , (12242, 4, 13197, -1, 0, 0, False) /* Create Bed (13197) for Shop */
-     , (12242, 4, 13203, -1, 0, 0, False) /* Create Screen (13203) for Shop */
+     , (12242, 4, 25779, -1, 0, 0, False) /* Create Gharu'ndim Jug (25779) for Shop */
+     , (12242, 4, 25780, -1, 0, 0, False) /* Create Amphorae (25780) for Shop */
      , (12242, 4, 15716, -1, 0, 0, False) /* Create Crystal Vase (15716) for Shop */
      , (12242, 4, 15825, -1, 0, 0, False) /* Create Pedestal (15825) for Shop */
      , (12242, 4, 20646, -1, 0, 0, False) /* Create Ust (20646) for Shop */
-     , (12242, 4, 21093, -1, 0, 0, False) /* Create Tinkering (21093) for Shop */
      , (12242, 4, 22098, -1, 0, 0, False) /* Create Chess Stamp (22098) for Shop */
      , (12242, 4, 22101, -1, 0, 0, False) /* Create Wi Stamp (22101) for Shop */
-     , (12242, 4, 22254, -1, 0, 0, False) /* Create Gharu'ndim Rug (22254) for Shop */
-     , (12242, 4, 22853, -1, 0, 0, False) /* Create Gharun'dim Lantern (22853) for Shop */
-     , (12242, 4, 22854, -1, 0, 0, False) /* Create Footstool (22854) for Shop */
-     , (12242, 4, 22855, -1, 0, 0, False) /* Create Divan (22855) for Shop */
+     , (12242, 4, 21093, -1, 0, 0, False) /* Create Tinkering (21093) for Shop */
      , (12242, 4, 23044, -1, 0, 0, False) /* Create On the Abilities of Salvaged Ivory (23044) for Shop */
-     , (12242, 4, 25519, -1, 0, 0, False) /* Create Writ of Refuge Text (25519) for Shop */
-     , (12242, 4, 25758, -1, 0, 0, False) /* Create Book Shelf (25758) for Shop */
-     , (12242, 4, 25764, -1, 0, 0, False) /* Create Gharu'ndim Lamp (25764) for Shop */
-     , (12242, 4, 25769, -1, 0, 0, False) /* Create Large Gharu'ndim Rug (25769) for Shop */
-     , (12242, 4, 25770, -1, 0, 0, False) /* Create Gharu'ndim Hanging Rug (25770) for Shop */
-     , (12242, 4, 25771, -1, 0, 0, False) /* Create Alchemy Table (25771) for Shop */
-     , (12242, 4, 25775, -1, 0, 0, False) /* Create Tapestry (25775) for Shop */
-     , (12242, 4, 25779, -1, 0, 0, False) /* Create Gharu'ndim Jug (25779) for Shop */
-     , (12242, 4, 25780, -1, 0, 0, False) /* Create Amphorae (25780) for Shop */;
+     , (12242, 4, 25519, -1, 0, 0, False) /* Create Writ of Refuge Text (25519) for Shop */;

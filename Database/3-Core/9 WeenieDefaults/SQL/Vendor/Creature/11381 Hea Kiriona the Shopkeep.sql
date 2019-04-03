@@ -143,17 +143,17 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,  10 /* Tell */, 0, 1, NULL, 'Thank you.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (11381, 4,   136, -1, 61, 1, False) /* Create Pack (136) for Shop */
-     , (11381, 4,   139, -1, 90, 1, False) /* Create Small Belt Pouch (139) for Shop */
+VALUES (11381, 4,   139, -1, 90, 1, False) /* Create Small Belt Pouch (139) for Shop */
+     , (11381, 4,   136, -1, 61, 1, False) /* Create Pack (136) for Shop */
+     , (11381, 4,   547, -1, 0, 0, False) /* Create Brimstone-cap Mushroom (547) for Shop */
+     , (11381, 4,  5758, -1, 0, 0, False) /* Create Carrot (5758) for Shop */
+     , (11381, 4,  4768, -1, 0, 0, False) /* Create Uncooked Rice (4768) for Shop */
+     , (11381, 4,  4755, -1, 0, 0, False) /* Create Brine (4755) for Shop */
      , (11381, 4,   263, -1, 0, 0, False) /* Create Fish (263) for Shop */
-     , (11381, 4,   512, -1, 0, 0, False) /* Create Good Lockpick (512) for Shop */
+     , (11381, 4,   546, -1, 0, 0, False) /* Create Egg (546) for Shop */
+     , (11381, 4,  4761, -1, 0, 0, False) /* Create Flour (4761) for Shop */
+     , (11381, 4,  4746, -1, 0, 0, False) /* Create Water (4746) for Shop */
+     , (11381, 4,  4757, -1, 0, 0, False) /* Create Carving Knife (4757) for Shop */
      , (11381, 4,   513, -1, 0, 0, False) /* Create Plain Lockpick (513) for Shop */
      , (11381, 4,   545, -1, 0, 0, False) /* Create Reliable Lockpick (545) for Shop */
-     , (11381, 4,   546, -1, 0, 0, False) /* Create Egg (546) for Shop */
-     , (11381, 4,   547, -1, 0, 0, False) /* Create Brimstone-cap Mushroom (547) for Shop */
-     , (11381, 4,  4746, -1, 0, 0, False) /* Create Water (4746) for Shop */
-     , (11381, 4,  4755, -1, 0, 0, False) /* Create Brine (4755) for Shop */
-     , (11381, 4,  4757, -1, 0, 0, False) /* Create Carving Knife (4757) for Shop */
-     , (11381, 4,  4761, -1, 0, 0, False) /* Create Flour (4761) for Shop */
-     , (11381, 4,  4768, -1, 0, 0, False) /* Create Uncooked Rice (4768) for Shop */
-     , (11381, 4,  5758, -1, 0, 0, False) /* Create Carrot (5758) for Shop */;
+     , (11381, 4,   512, -1, 0, 0, False) /* Create Good Lockpick (512) for Shop */;

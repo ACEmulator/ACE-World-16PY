@@ -210,6 +210,6 @@ VALUES (@parent_id,  0,  10 /* Tell */, 0, 1, NULL, 'Well, hello there, stranger
      , (@parent_id,  7,  10 /* Tell */, 1, 1, NULL, 'Do we have a deal? Good! I believe I left the key in my cellar - you can find it behind my house. But please - don''t go prying into my belongings. I am trusting you in my house; I trust that you will repay me with your good behavior.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (29229, 2,   115,  0, 4, 0, False) /* Create Leather Boots (115) for Wield */
-     , (29229, 2,  2587,  0, 9, 0.6, False) /* Create Shirt (2587) for Wield */
-     , (29229, 2,  2601,  0, 4, 0, False) /* Create Pants (2601) for Wield */;
+VALUES (29229, 2,  2587,  0, 9, 0.6, False) /* Create Shirt (2587) for Wield */
+     , (29229, 2,  2601,  0, 4, 0, False) /* Create Pants (2601) for Wield */
+     , (29229, 2,   115,  0, 4, 0, False) /* Create Leather Boots (115) for Wield */;

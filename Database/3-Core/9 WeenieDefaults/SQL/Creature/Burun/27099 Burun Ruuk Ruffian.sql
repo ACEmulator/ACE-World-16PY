@@ -180,17 +180,17 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 268435537 /* Twitch1 */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (27099, 9,     0,  0, 0, 0.98, False) /* Create nothing for ContainTreasure */
+VALUES (27099, 9, 27121,  0, 0, 0.02, False) /* Create Smelly Hide (27121) for ContainTreasure */
      , (27099, 9,     0,  0, 0, 0.98, False) /* Create nothing for ContainTreasure */
-     , (27099, 9,     0,  0, 0, 0.99, False) /* Create nothing for ContainTreasure */
-     , (27099, 9,     0,  0, 0, 0.99, False) /* Create nothing for ContainTreasure */
-     , (27099, 9,     0,  0, 0, 0.99, False) /* Create nothing for ContainTreasure */
-     , (27099, 9,     0,  0, 0, 0.99, False) /* Create nothing for ContainTreasure */
+     , (27099, 9, 27118,  0, 0, 0.02, False) /* Create Foul-Smelling Hide (27118) for ContainTreasure */
      , (27099, 9,     0,  0, 0, 0.98, False) /* Create nothing for ContainTreasure */
      , (27099, 9, 26660,  0, 0, 0.01, False) /* Create Scarred Fleshy Journal (26660) for ContainTreasure */
-     , (27099, 9, 26662,  0, 0, 0.01, False) /* Create Fleshy Tome (26662) for ContainTreasure */
+     , (27099, 9,     0,  0, 0, 0.99, False) /* Create nothing for ContainTreasure */
      , (27099, 9, 26664,  0, 0, 0.01, False) /* Create Marked Fleshy Journal (26664) for ContainTreasure */
+     , (27099, 9,     0,  0, 0, 0.99, False) /* Create nothing for ContainTreasure */
      , (27099, 9, 26666,  0, 0, 0.01, False) /* Create Etched Fleshy Journal (26666) for ContainTreasure */
-     , (27099, 9, 27118,  0, 0, 0.02, False) /* Create Foul-Smelling Hide (27118) for ContainTreasure */
-     , (27099, 9, 27121,  0, 0, 0.02, False) /* Create Smelly Hide (27121) for ContainTreasure */
-     , (27099, 9, 28984,  0, 0, 0.02, False) /* Create Bloodied Burun Hide (28984) for ContainTreasure */;
+     , (27099, 9,     0,  0, 0, 0.99, False) /* Create nothing for ContainTreasure */
+     , (27099, 9, 26662,  0, 0, 0.01, False) /* Create Fleshy Tome (26662) for ContainTreasure */
+     , (27099, 9,     0,  0, 0, 0.99, False) /* Create nothing for ContainTreasure */
+     , (27099, 9, 28984,  0, 0, 0.02, False) /* Create Bloodied Burun Hide (28984) for ContainTreasure */
+     , (27099, 9,     0,  0, 0, 0.98, False) /* Create nothing for ContainTreasure */;

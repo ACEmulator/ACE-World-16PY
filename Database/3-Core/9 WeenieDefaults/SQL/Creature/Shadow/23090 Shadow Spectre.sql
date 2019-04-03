@@ -149,11 +149,11 @@ VALUES (23090,  94) /* ATTACK_NOTIFICATION_EVENT */
      , (23090, 414) /* PLAYER_DEATH_EVENT */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (23090, 9,     0,  0, 0, 0.96, False) /* Create nothing for ContainTreasure */
+VALUES (23090, 9,  6058,  0, 0, 0.04, False) /* Create Dark Shard (6058) for ContainTreasure */
      , (23090, 9,     0,  0, 0, 0.96, False) /* Create nothing for ContainTreasure */
-     , (23090, 9,     0,  0, 0, 0.99, False) /* Create nothing for ContainTreasure */
-     , (23090, 9,     0,  0, 0, 0.995, False) /* Create nothing for ContainTreasure */
-     , (23090, 9,  6058,  0, 0, 0.04, False) /* Create Dark Shard (6058) for ContainTreasure */
      , (23090, 9,  6876,  0, 0, 0.04, False) /* Create Sturdy Iron Key (6876) for ContainTreasure */
+     , (23090, 9,     0,  0, 0, 0.96, False) /* Create nothing for ContainTreasure */
      , (23090, 9, 23108,  0, 0, 0.01, False) /* Create Twisted Dark Key (23108) for ContainTreasure */
-     , (23090, 9, 27388,  0, 0, 0.005, False) /* Create Dark Towers (27388) for ContainTreasure */;
+     , (23090, 9,     0,  0, 0, 0.99, False) /* Create nothing for ContainTreasure */
+     , (23090, 9, 27388,  0, 0, 0.005, False) /* Create Dark Towers (27388) for ContainTreasure */
+     , (23090, 9,     0,  0, 0, 0.995, False) /* Create nothing for ContainTreasure */;

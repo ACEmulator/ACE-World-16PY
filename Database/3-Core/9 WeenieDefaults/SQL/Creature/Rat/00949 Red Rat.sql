@@ -135,5 +135,5 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 268435538 /* Twitch2 */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (949, 9,     0,  0, 0, 0.85, False) /* Create nothing for ContainTreasure */
-     , (949, 9,  3684,  0, 0, 0.15, False) /* Create Red Rat Tail (3684) for ContainTreasure */;
+VALUES (949, 9,  3684,  0, 0, 0.15, False) /* Create Red Rat Tail (3684) for ContainTreasure */
+     , (949, 9,     0,  0, 0, 0.85, False) /* Create nothing for ContainTreasure */;

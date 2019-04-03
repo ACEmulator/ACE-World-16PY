@@ -119,10 +119,10 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 318767235 /* Nod */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (9538, 2,    46,  0, 19, 0, False) /* Create Metal Cap (46) for Wield */
-     , (9538, 2,    84,  0, 16, 1, False) /* Create Studded Leather Leggings (84) for Wield */
-     , (9538, 2,    99,  0, 11, 0.4, False) /* Create Studded Leather Shirt (99) for Wield */
-     , (9538, 2,  2596,  0, 2, 0.8, False) /* Create Doublet (2596) for Wield */
+VALUES (9538, 2,  2596,  0, 2, 0.8, False) /* Create Doublet (2596) for Wield */
      , (9538, 2,  2604,  0, 9, 1, False) /* Create Breeches (2604) for Wield */
      , (9538, 2,  2606,  0, 4, 0.8, False) /* Create Boots (2606) for Wield */
-     , (9538, 2,  5753,  0, 0, 0, False) /* Create Pickaxe (5753) for Wield */;
+     , (9538, 2,    84,  0, 16, 1, False) /* Create Studded Leather Leggings (84) for Wield */
+     , (9538, 2,    99,  0, 11, 0.4, False) /* Create Studded Leather Shirt (99) for Wield */
+     , (9538, 2,  5753,  0, 0, 0, False) /* Create Pickaxe (5753) for Wield */
+     , (9538, 2,    46,  0, 19, 0, False) /* Create Metal Cap (46) for Wield */;

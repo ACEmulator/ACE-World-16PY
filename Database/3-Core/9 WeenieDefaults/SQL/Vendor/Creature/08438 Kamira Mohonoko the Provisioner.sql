@@ -173,19 +173,19 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 318767235 /* Nod */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (8438, 2,   117,  0, 4, 0.6, False) /* Create Breeches (117) for Wield */
-     , (8438, 2,   130,  0, 4, 1, False) /* Create Shirt (130) for Wield */
+VALUES (8438, 2,   130,  0, 4, 1, False) /* Create Shirt (130) for Wield */
+     , (8438, 2,   117,  0, 4, 0.6, False) /* Create Breeches (117) for Wield */
      , (8438, 2,   133,  0, 16, 1, False) /* Create Slippers (133) for Wield */
      , (8438, 2, 10696,  0, 14, 0.5, False) /* Create Apron (10696) for Wield */
      , (8438, 4,   166, -1, 21, 1, False) /* Create Sack (166) for Shop */
      , (8438, 4,   262, -1, 0, 0, False) /* Create Chicken (262) for Shop */
+     , (8438, 4,  4763, -1, 0, 0, False) /* Create Honey (4763) for Shop */
      , (8438, 4,   264, -1, 0, 0, False) /* Create Grapes (264) for Shop */
      , (8438, 4,   547, -1, 0, 0, False) /* Create Brimstone-cap Mushroom (547) for Shop */
-     , (8438, 4,  4746, -1, 0, 0, False) /* Create Water (4746) for Shop */
-     , (8438, 4,  4754, -1, 0, 0, False) /* Create Baking Pan (4754) for Shop */
-     , (8438, 4,  4757, -1, 0, 0, False) /* Create Carving Knife (4757) for Shop */
-     , (8438, 4,  4761, -1, 0, 0, False) /* Create Flour (4761) for Shop */
-     , (8438, 4,  4763, -1, 0, 0, False) /* Create Honey (4763) for Shop */
      , (8438, 4,  5758, -1, 0, 0, False) /* Create Carrot (5758) for Shop */
+     , (8438, 4,  4761, -1, 0, 0, False) /* Create Flour (4761) for Shop */
+     , (8438, 4,  4746, -1, 0, 0, False) /* Create Water (4746) for Shop */
+     , (8438, 4, 14779, -1, 0, 0, False) /* Create Cookie Cutter (14779) for Shop */
+     , (8438, 4,  4754, -1, 0, 0, False) /* Create Baking Pan (4754) for Shop */
      , (8438, 4,  7823, -1, 0, 0, False) /* Create Heavy Grinder (7823) for Shop */
-     , (8438, 4, 14779, -1, 0, 0, False) /* Create Cookie Cutter (14779) for Shop */;
+     , (8438, 4,  4757, -1, 0, 0, False) /* Create Carving Knife (4757) for Shop */;

@@ -164,5 +164,5 @@ VALUES (8121,  94) /* ATTACK_NOTIFICATION_EVENT */
      , (8121, 414) /* PLAYER_DEATH_EVENT */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (8121, 9,     0,  0, 0, 0, False) /* Create nothing for ContainTreasure */
-     , (8121, 9,  8085,  0, 0, 1, False) /* Create Oozing Lump (8085) for ContainTreasure */;
+VALUES (8121, 9,  8085,  0, 0, 1, False) /* Create Oozing Lump (8085) for ContainTreasure */
+     , (8121, 9,     0,  0, 0, 0, False) /* Create nothing for ContainTreasure */;

@@ -205,7 +205,7 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 268435539 /* Twitch3 */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (10817, 9,     0,  0, 0, 0.95, False) /* Create nothing for ContainTreasure */
-     , (10817, 9,     0,  0, 0, 0.9, False) /* Create nothing for ContainTreasure */
-     , (10817, 9,  3698,  0, 0, 0.05, False) /* Create White Jewel (3698) for ContainTreasure */
-     , (10817, 9,  8154,  0, 0, 0.1, False) /* Create Broken Virindi Mask (8154) for ContainTreasure */;
+VALUES (10817, 9,  3698,  0, 0, 0.05, False) /* Create White Jewel (3698) for ContainTreasure */
+     , (10817, 9,     0,  0, 0, 0.95, False) /* Create nothing for ContainTreasure */
+     , (10817, 9,  8154,  0, 0, 0.1, False) /* Create Broken Virindi Mask (8154) for ContainTreasure */
+     , (10817, 9,     0,  0, 0, 0.9, False) /* Create nothing for ContainTreasure */;

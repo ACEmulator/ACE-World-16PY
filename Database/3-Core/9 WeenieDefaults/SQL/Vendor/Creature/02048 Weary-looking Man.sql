@@ -216,9 +216,9 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   6 /* Move */, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, -12.62, 10.35, 0, -0.02268708, 0, 0, -0.9997426);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (2048, 2,   115,  0, 4, 0.8, False) /* Create Leather Boots (115) for Wield */
+VALUES (2048, 2,  2589,  0, 9, 0, False) /* Create Smock (2589) for Wield */
      , (2048, 2,   127,  0, 9, 0, False) /* Create Pants (127) for Wield */
-     , (2048, 2,  2589,  0, 9, 0, False) /* Create Smock (2589) for Wield */
+     , (2048, 2,   115,  0, 4, 0.8, False) /* Create Leather Boots (115) for Wield */
      , (2048, 2, 10696,  0, 4, 0.5, False) /* Create Apron (10696) for Wield */
      , (2048, 4,  2244, -1, 0, 0, False) /* Create Dryreach Key (2244) for Shop */
      , (2048, 4,  2245, -1, 0, 0, False) /* Create Dryreach Rumor (2245) for Shop */;

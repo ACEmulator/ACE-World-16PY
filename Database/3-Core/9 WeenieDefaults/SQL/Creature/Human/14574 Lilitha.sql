@@ -245,7 +245,7 @@ VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 1090519043 /* Ready */, NULL, NU
      , (@parent_id,  3,  10 /* Tell */, 2, 1, NULL, 'There were things around the ribbons. They looked like glowing water and trailed strings of jelly. They turned as the box went by and poked each other with the jelly-strings. They were the size of houses. Maybe. Size doesn''t work right outside.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (14574, 2,   121,  0, 93, 0.8, False) /* Create Gloves (121) for Wield */
-     , (14574, 2,  2596,  0, 9, 1, False) /* Create Doublet (2596) for Wield */
+VALUES (14574, 2,  2596,  0, 9, 1, False) /* Create Doublet (2596) for Wield */
      , (14574, 2,  2604,  0, 9, 1, False) /* Create Breeches (2604) for Wield */
-     , (14574, 2,  5850,  0, 17, 0.5, False) /* Create Faran Robe (5850) for Wield */;
+     , (14574, 2,  5850,  0, 17, 0.5, False) /* Create Faran Robe (5850) for Wield */
+     , (14574, 2,   121,  0, 93, 0.8, False) /* Create Gloves (121) for Wield */;

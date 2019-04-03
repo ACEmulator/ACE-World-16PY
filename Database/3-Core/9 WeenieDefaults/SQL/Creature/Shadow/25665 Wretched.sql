@@ -165,9 +165,9 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,  10 /* Tell */, 0, 1, NULL, 'The abyss offers a solace far exceeding the gifts of life. To return there is to find the embrace of oblivion anew.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (25665, 9,     0,  0, 0, 0.98, False) /* Create nothing for ContainTreasure */
+VALUES (25665, 9,  6058,  0, 0, 0.02, False) /* Create Dark Shard (6058) for ContainTreasure */
      , (25665, 9,     0,  0, 0, 0.98, False) /* Create nothing for ContainTreasure */
-     , (25665, 9,     0,  0, 0, 0.99, False) /* Create nothing for ContainTreasure */
-     , (25665, 9,  6058,  0, 0, 0.02, False) /* Create Dark Shard (6058) for ContainTreasure */
+     , (25665, 9, 23108,  0, 0, 0.02, False) /* Create Twisted Dark Key (23108) for ContainTreasure */
+     , (25665, 9,     0,  0, 0, 0.98, False) /* Create nothing for ContainTreasure */
      , (25665, 9, 23107,  0, 0, 0.01, False) /* Create Mangled Dark Key (23107) for ContainTreasure */
-     , (25665, 9, 23108,  0, 0, 0.02, False) /* Create Twisted Dark Key (23108) for ContainTreasure */;
+     , (25665, 9,     0,  0, 0, 0.99, False) /* Create nothing for ContainTreasure */;

@@ -215,14 +215,14 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 268435537 /* Twitch1 */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (12006, 9,     0,  0, 0, 0.75, False) /* Create nothing for ContainTreasure */
-     , (12006, 9,     0,  0, 0, 0.95, False) /* Create nothing for ContainTreasure */
-     , (12006, 9,     0,  0, 0, 0.4, False) /* Create nothing for ContainTreasure */
-     , (12006, 9,     0,  0, 0, 0.7, False) /* Create nothing for ContainTreasure */
-     , (12006, 9,  3694,  0, 0, 0.25, False) /* Create Swamp Stone (3694) for ContainTreasure */
-     , (12006, 9,  6876,  0, 0, 0.6, False) /* Create Sturdy Iron Key (6876) for ContainTreasure */
+VALUES (12006, 9,  3694,  0, 0, 0.25, False) /* Create Swamp Stone (3694) for ContainTreasure */
+     , (12006, 9,     0,  0, 0, 0.75, False) /* Create nothing for ContainTreasure */
      , (12006, 9,  7825,  0, 0, 0.05, False) /* Create Brown Beans (7825) for ContainTreasure */
-     , (12006, 9, 23592,  0, 0, 0.3, False) /* Create Gauntlets of Marksmanship (23592) for ContainTreasure */;
+     , (12006, 9,     0,  0, 0, 0.95, False) /* Create nothing for ContainTreasure */
+     , (12006, 9,  6876,  0, 0, 0.6, False) /* Create Sturdy Iron Key (6876) for ContainTreasure */
+     , (12006, 9,     0,  0, 0, 0.4, False) /* Create nothing for ContainTreasure */
+     , (12006, 9, 23592,  0, 0, 0.3, False) /* Create Gauntlets of Marksmanship (23592) for ContainTreasure */
+     , (12006, 9,     0,  0, 0, 0.7, False) /* Create nothing for ContainTreasure */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (12006, 0.33, 7102, 20, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Mosswart Mire-Witch (7102) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Scatter */

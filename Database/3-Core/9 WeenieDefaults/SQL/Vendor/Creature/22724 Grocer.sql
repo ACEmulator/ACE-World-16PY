@@ -135,14 +135,14 @@ VALUES (@parent_id,  0,  10 /* Tell */, 0, 1, NULL, 'Ooo oo ah.', NULL, NULL, NU
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (22724, 2, 10757,  0, 8, 0.5, False) /* Create Towel (10757) for Wield */
      , (22724, 4,   166, -1, 77, 1, False) /* Create Sack (166) for Shop */
-     , (22724, 4,   262, -1, 0, 0, False) /* Create Chicken (262) for Shop */
+     , (22724, 4,  4753, -1, 0, 0, False) /* Create Side of Beef (4753) for Shop */
      , (22724, 4,   264, -1, 0, 0, False) /* Create Grapes (264) for Shop */
-     , (22724, 4,   512, -1, 0, 0, False) /* Create Good Lockpick (512) for Shop */
+     , (22724, 4,   262, -1, 0, 0, False) /* Create Chicken (262) for Shop */
+     , (22724, 4,  4746, -1, 0, 0, False) /* Create Water (4746) for Shop */
+     , (22724, 4,  4757, -1, 0, 0, False) /* Create Carving Knife (4757) for Shop */
      , (22724, 4,   513, -1, 0, 0, False) /* Create Plain Lockpick (513) for Shop */
      , (22724, 4,   545, -1, 0, 0, False) /* Create Reliable Lockpick (545) for Shop */
-     , (22724, 4,  4746, -1, 0, 0, False) /* Create Water (4746) for Shop */
-     , (22724, 4,  4753, -1, 0, 0, False) /* Create Side of Beef (4753) for Shop */
-     , (22724, 4,  4757, -1, 0, 0, False) /* Create Carving Knife (4757) for Shop */
+     , (22724, 4,   512, -1, 0, 0, False) /* Create Good Lockpick (512) for Shop */
      , (22724, 4,  9295, -1, 0, 0, False) /* Create Intricate Carving Tool (9295) for Shop */
      , (22724, 4, 20646, -1, 0, 0, False) /* Create Ust (20646) for Shop */
      , (22724, 4, 21093, -1, 0, 0, False) /* Create Tinkering (21093) for Shop */

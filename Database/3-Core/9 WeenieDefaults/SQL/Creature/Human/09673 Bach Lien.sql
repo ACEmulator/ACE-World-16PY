@@ -155,7 +155,7 @@ VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 1090519043 /* Ready */, NULL, NU
      , (@parent_id,  2,  10 /* Tell */, 1, 1, NULL, 'Take care as you travel down this road to the south. The Tumeroks seem to be heightening their activities near Dryreach!', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (9673, 2,   115,  0, 9, 0.5, False) /* Create Leather Boots (115) for Wield */
-     , (9673, 2,  2590,  0, 9, 0.5, False) /* Create Shirt (2590) for Wield */
+VALUES (9673, 2,  2590,  0, 9, 0.5, False) /* Create Shirt (2590) for Wield */
      , (9673, 2,  2598,  0, 8, 0.6, False) /* Create Pants (2598) for Wield */
+     , (9673, 2,   115,  0, 9, 0.5, False) /* Create Leather Boots (115) for Wield */
      , (9673, 2,  5588,  0, 14, 0.7, False) /* Create Scribe Hat (5588) for Wield */;

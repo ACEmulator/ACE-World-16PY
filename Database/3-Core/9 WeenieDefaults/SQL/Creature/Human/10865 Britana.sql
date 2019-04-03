@@ -193,6 +193,6 @@ VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 1090519043 /* Ready */, NULL, NU
      , (@parent_id,  4,  10 /* Tell */, 1, 1, NULL, 'But what I say is that a Mattekar this large and strong must produce a robe which makes the Hoary robe seem like a bath rug!  Bring me this mattekar pelt, and I will craft you a robe fit for a king!', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (10865, 2,   132,  0, 2, 0.5, False) /* Create Shoes (132) for Wield */
-     , (10865, 2,  2590,  0, 8, 1, False) /* Create Shirt (2590) for Wield */
-     , (10865, 2,  2598,  0, 4, 0.8, False) /* Create Pants (2598) for Wield */;
+VALUES (10865, 2,  2590,  0, 8, 1, False) /* Create Shirt (2590) for Wield */
+     , (10865, 2,  2598,  0, 4, 0.8, False) /* Create Pants (2598) for Wield */
+     , (10865, 2,   132,  0, 2, 0.5, False) /* Create Shoes (132) for Wield */;

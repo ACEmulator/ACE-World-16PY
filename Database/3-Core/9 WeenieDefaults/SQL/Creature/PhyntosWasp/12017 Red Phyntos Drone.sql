@@ -116,10 +116,10 @@ INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
 VALUES (12017, 414) /* PLAYER_DEATH_EVENT */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (12017, 9,     0,  0, 0, 0.35, False) /* Create nothing for ContainTreasure */
-     , (12017, 9,     0,  0, 0, 0.5, False) /* Create nothing for ContainTreasure */
-     , (12017, 9,  3703,  0, 0, 0.65, False) /* Create Red Phyntos Wasp Wing (3703) for ContainTreasure */
-     , (12017, 9,  8701,  0, 0, 0.5, False) /* Create Lucky Gold Letter (8701) for ContainTreasure */;
+VALUES (12017, 9,  3703,  0, 0, 0.65, False) /* Create Red Phyntos Wasp Wing (3703) for ContainTreasure */
+     , (12017, 9,     0,  0, 0, 0.35, False) /* Create nothing for ContainTreasure */
+     , (12017, 9,  8701,  0, 0, 0.5, False) /* Create Lucky Gold Letter (8701) for ContainTreasure */
+     , (12017, 9,     0,  0, 0, 0.5, False) /* Create nothing for ContainTreasure */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (12017, 0.34, 12, 20, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Red Phyntos Wasp (12) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Scatter */

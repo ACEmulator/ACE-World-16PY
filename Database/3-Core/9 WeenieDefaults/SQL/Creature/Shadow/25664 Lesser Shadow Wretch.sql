@@ -151,9 +151,9 @@ VALUES (25664,  94) /* ATTACK_NOTIFICATION_EVENT */
      , (25664, 414) /* PLAYER_DEATH_EVENT */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (25664, 9,     0,  0, 0, 0.985, False) /* Create nothing for ContainTreasure */
-     , (25664, 9,     0,  0, 0, 0.98, False) /* Create nothing for ContainTreasure */
-     , (25664, 9,     0,  0, 0, 0.995, False) /* Create nothing for ContainTreasure */
-     , (25664, 9,  6058,  0, 0, 0.015, False) /* Create Dark Shard (6058) for ContainTreasure */
+VALUES (25664, 9,  6058,  0, 0, 0.015, False) /* Create Dark Shard (6058) for ContainTreasure */
+     , (25664, 9,     0,  0, 0, 0.985, False) /* Create nothing for ContainTreasure */
      , (25664, 9,  6876,  0, 0, 0.02, False) /* Create Sturdy Iron Key (6876) for ContainTreasure */
-     , (25664, 9, 25678,  0, 0, 1, False) /* Create Repugnant Bracelet (25678) for ContainTreasure */;
+     , (25664, 9,     0,  0, 0, 0.98, False) /* Create nothing for ContainTreasure */
+     , (25664, 9, 25678,  0, 0, 1, False) /* Create Repugnant Bracelet (25678) for ContainTreasure */
+     , (25664, 9,     0,  0, 0, 0.995, False) /* Create nothing for ContainTreasure */;

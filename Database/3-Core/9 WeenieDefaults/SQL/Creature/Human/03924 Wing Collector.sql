@@ -257,6 +257,6 @@ VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 1090519043 /* Ready */, NULL, NU
      , (@parent_id,  3,  10 /* Tell */, 1, 1, NULL, 'I collect only phyntos wasp wings.  If you happen to have any, I''ll pay you for them in pyreals.  If you get me a gold wasp wing, I will reward you with a little extra experience.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (3924, 2,   127,  0, 4, 0.8, False) /* Create Pants (127) for Wield */
-     , (3924, 2,   132,  0, 9, 1, False) /* Create Shoes (132) for Wield */
-     , (3924, 2,  2587,  0, 9, 0, False) /* Create Shirt (2587) for Wield */;
+VALUES (3924, 2,  2587,  0, 9, 0, False) /* Create Shirt (2587) for Wield */
+     , (3924, 2,   127,  0, 4, 0.8, False) /* Create Pants (127) for Wield */
+     , (3924, 2,   132,  0, 9, 1, False) /* Create Shoes (132) for Wield */;

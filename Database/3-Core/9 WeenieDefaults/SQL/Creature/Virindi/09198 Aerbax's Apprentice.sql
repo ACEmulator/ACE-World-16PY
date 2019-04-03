@@ -200,8 +200,8 @@ VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 268435539 /* Twitch3 */, NULL, N
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (9198, 8,  9197,  1, 0, 1, False) /* Create Orb of Clarity (9197) for Treasure */
-     , (9198, 9,     0,  0, 0, 0.95, False) /* Create nothing for ContainTreasure */
-     , (9198, 9,     0,  0, 0, 0.9, False) /* Create nothing for ContainTreasure */
-     , (9198, 9,     0,  0, 0, 0, False) /* Create nothing for ContainTreasure */
      , (9198, 9,  3698,  0, 0, 0.05, False) /* Create White Jewel (3698) for ContainTreasure */
-     , (9198, 9,  8154,  0, 0, 0.1, False) /* Create Broken Virindi Mask (8154) for ContainTreasure */;
+     , (9198, 9,     0,  0, 0, 0.95, False) /* Create nothing for ContainTreasure */
+     , (9198, 9,  8154,  0, 0, 0.1, False) /* Create Broken Virindi Mask (8154) for ContainTreasure */
+     , (9198, 9,     0,  0, 0, 0.9, False) /* Create nothing for ContainTreasure */
+     , (9198, 9,     0,  0, 0, 0, False) /* Create nothing for ContainTreasure */;

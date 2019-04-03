@@ -150,5 +150,5 @@ VALUES (@parent_id,  0,  10 /* Tell */, 1, 1, NULL, 'Greetings, my friend, greet
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (14412, 2,   124,  0, 17, 1, False) /* Create Jerkin (124) for Wield */
-     , (14412, 2,   132,  0, 9, 1, False) /* Create Shoes (132) for Wield */
-     , (14412, 2,  2604,  0, 9, 0, False) /* Create Breeches (2604) for Wield */;
+     , (14412, 2,  2604,  0, 9, 0, False) /* Create Breeches (2604) for Wield */
+     , (14412, 2,   132,  0, 9, 1, False) /* Create Shoes (132) for Wield */;

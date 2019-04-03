@@ -135,11 +135,11 @@ VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 1090519043 /* Ready */, NULL, NU
      , (@parent_id,  2,  10 /* Tell */, 1, 1, NULL, 'I am pleased to see you. Did you find notes I left on the way?  There are Olthoi in tunnels all around us. We have been helping defend this area but we may be overrun soon.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (24250, 2,    55,  0, 13, 1, False) /* Create Chainmail Gauntlets (55) for Wield */
-     , (24250, 2,    85,  0, 14, 0.2, False) /* Create Chainmail Coif (85) for Wield */
-     , (24250, 2,   107,  0, 39, 1, False) /* Create Sollerets (107) for Wield */
-     , (24250, 2,   117,  0, 17, 1, False) /* Create Breeches (117) for Wield */
-     , (24250, 2,   301,  0, 0, 0, False) /* Create Battle Axe (301) for Wield */
+VALUES (24250, 2,   301,  0, 0, 0, False) /* Create Battle Axe (301) for Wield */
      , (24250, 2,  2591,  0, 9, 1, False) /* Create Shirt (2591) for Wield */
+     , (24250, 2,   117,  0, 17, 1, False) /* Create Breeches (117) for Wield */
      , (24250, 2,  6046,  0, 39, 1, False) /* Create Amuli Coat (6046) for Wield */
-     , (24250, 2,  6047,  0, 39, 0.5, False) /* Create Amuli Leggings (6047) for Wield */;
+     , (24250, 2,    85,  0, 14, 0.2, False) /* Create Chainmail Coif (85) for Wield */
+     , (24250, 2,    55,  0, 13, 1, False) /* Create Chainmail Gauntlets (55) for Wield */
+     , (24250, 2,  6047,  0, 39, 0.5, False) /* Create Amuli Leggings (6047) for Wield */
+     , (24250, 2,   107,  0, 39, 1, False) /* Create Sollerets (107) for Wield */;

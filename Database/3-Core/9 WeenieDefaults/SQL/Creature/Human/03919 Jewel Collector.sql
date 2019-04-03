@@ -338,6 +338,6 @@ VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 1090519043 /* Ready */, NULL, NU
      , (@parent_id,  5,   5 /* Motion */, 1, 1, 318767235 /* Nod */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (3919, 2,   115,  0, 17, 1, False) /* Create Leather Boots (115) for Wield */
-     , (3919, 2,  2596,  0, 5, 0.67, False) /* Create Doublet (2596) for Wield */
-     , (3919, 2,  2597,  0, 5, 0.67, False) /* Create Pants (2597) for Wield */;
+VALUES (3919, 2,  2596,  0, 5, 0.67, False) /* Create Doublet (2596) for Wield */
+     , (3919, 2,  2597,  0, 5, 0.67, False) /* Create Pants (2597) for Wield */
+     , (3919, 2,   115,  0, 17, 1, False) /* Create Leather Boots (115) for Wield */;

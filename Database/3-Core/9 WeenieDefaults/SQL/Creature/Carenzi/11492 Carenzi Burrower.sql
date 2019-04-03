@@ -121,5 +121,5 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 268435537 /* Twitch1 */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (11492, 9,     0,  0, 0, 0.95, False) /* Create nothing for ContainTreasure */
-     , (11492, 9, 11339,  0, 0, 0.05, False) /* Create Carenzi Burrower Pelt (11339) for ContainTreasure */;
+VALUES (11492, 9, 11339,  0, 0, 0.05, False) /* Create Carenzi Burrower Pelt (11339) for ContainTreasure */
+     , (11492, 9,     0,  0, 0, 0.95, False) /* Create nothing for ContainTreasure */;

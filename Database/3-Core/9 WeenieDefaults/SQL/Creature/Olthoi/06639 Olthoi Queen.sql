@@ -125,5 +125,5 @@ VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 268435537 /* Twitch1 */, NULL, N
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (6639, 1,  3678,  0, 0, 1, False) /* Create Olthoi Carapace (3678) for Contain */
-     , (6639, 9,     0,  0, 0, 0.98, False) /* Create nothing for ContainTreasure */
-     , (6639, 9,  6876,  0, 0, 0.02, False) /* Create Sturdy Iron Key (6876) for ContainTreasure */;
+     , (6639, 9,  6876,  0, 0, 0.02, False) /* Create Sturdy Iron Key (6876) for ContainTreasure */
+     , (6639, 9,     0,  0, 0, 0.98, False) /* Create nothing for ContainTreasure */;

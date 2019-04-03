@@ -199,9 +199,9 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,  10 /* Tell */, 0, 1, NULL, 'Cruath Quafeth.  Your kind says that often when hunting us.  Does it mean kill me now?', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (7552, 9,     0,  0, 0, 0.99, False) /* Create nothing for ContainTreasure */
-     , (7552, 9,     0,  0, 0, 0.97, False) /* Create nothing for ContainTreasure */
-     , (7552, 9,     0,  0, 0, 0.8, False) /* Create nothing for ContainTreasure */
-     , (7552, 9,  6876,  0, 0, 0.01, False) /* Create Sturdy Iron Key (6876) for ContainTreasure */
+VALUES (7552, 9,  6876,  0, 0, 0.01, False) /* Create Sturdy Iron Key (6876) for ContainTreasure */
+     , (7552, 9,     0,  0, 0, 0.99, False) /* Create nothing for ContainTreasure */
      , (7552, 9,  7043,  0, 0, 0.03, False) /* Create Large Lugian Sinew (7043) for ContainTreasure */
-     , (7552, 9,  7549,  0, 0, 0.2, False) /* Create Lugian Pick Axe (7549) for ContainTreasure */;
+     , (7552, 9,     0,  0, 0, 0.97, False) /* Create nothing for ContainTreasure */
+     , (7552, 9,  7549,  0, 0, 0.2, False) /* Create Lugian Pick Axe (7549) for ContainTreasure */
+     , (7552, 9,     0,  0, 0, 0.8, False) /* Create nothing for ContainTreasure */;

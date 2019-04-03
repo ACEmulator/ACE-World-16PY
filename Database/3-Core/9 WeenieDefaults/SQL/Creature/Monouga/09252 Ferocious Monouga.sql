@@ -156,7 +156,7 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 268435538 /* Twitch2 */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (9252, 9,     0,  0, 0, 0.91, False) /* Create nothing for ContainTreasure */
-     , (9252, 9,     0,  0, 0, 0.98, False) /* Create nothing for ContainTreasure */
-     , (9252, 9, 12253,  0, 0, 0.09, False) /* Create Monougat (12253) for ContainTreasure */
-     , (9252, 9, 15769,  0, 0, 0.02, False) /* Create Ruined Amulet of the Spear (15769) for ContainTreasure */;
+VALUES (9252, 9, 12253,  0, 0, 0.09, False) /* Create Monougat (12253) for ContainTreasure */
+     , (9252, 9,     0,  0, 0, 0.91, False) /* Create nothing for ContainTreasure */
+     , (9252, 9, 15769,  0, 0, 0.02, False) /* Create Ruined Amulet of the Spear (15769) for ContainTreasure */
+     , (9252, 9,     0,  0, 0, 0.98, False) /* Create nothing for ContainTreasure */;

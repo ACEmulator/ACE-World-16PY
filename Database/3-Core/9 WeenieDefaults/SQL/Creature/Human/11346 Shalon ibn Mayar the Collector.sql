@@ -452,6 +452,6 @@ VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 1090519043 /* Ready */, NULL, NU
      , (@parent_id,  3,  10 /* Tell */, 1, 1, NULL, 'I am looking for Carenzi Burrower pelts, Littoral Siraluun claws, Drudge charms, and Sand Golem hearts. I will pay highly for them!', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (11346, 2,   115,  0, 9, 0.8, False) /* Create Leather Boots (115) for Wield */
-     , (11346, 2,   130,  0, 8, 0.67, False) /* Create Shirt (130) for Wield */
-     , (11346, 2,  2604,  0, 14, 0, False) /* Create Breeches (2604) for Wield */;
+VALUES (11346, 2,   130,  0, 8, 0.67, False) /* Create Shirt (130) for Wield */
+     , (11346, 2,  2604,  0, 14, 0, False) /* Create Breeches (2604) for Wield */
+     , (11346, 2,   115,  0, 9, 0.8, False) /* Create Leather Boots (115) for Wield */;

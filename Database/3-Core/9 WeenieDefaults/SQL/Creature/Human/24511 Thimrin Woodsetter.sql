@@ -184,9 +184,9 @@ VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 1090519043 /* Ready */, NULL, NU
      , (@parent_id,  2,  10 /* Tell */, 0, 1, NULL, 'The kiln operators stopped work when the Lugians stacked the stone incorrectly. It seems the Tumeroks won''t supply them with enough water which the kiln operators have in their contract as exclusively supplied to them, lest they stop work.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (24511, 2,   127,  0, 2, 0.7, False) /* Create Pants (127) for Wield */
+VALUES (24511, 2, 24261,  0, 0, 1, False) /* Create Timberman's Hat (24261) for Wield */
      , (24511, 2,   130,  0, 9, 1, False) /* Create Shirt (130) for Wield */
-     , (24511, 2,   359,  0, 14, 1, False) /* Create War Hammer (359) for Wield */
+     , (24511, 2,   127,  0, 2, 0.7, False) /* Create Pants (127) for Wield */
      , (24511, 2,  7897,  0, 9, 0, False) /* Create Steel Toed Boots (7897) for Wield */
-     , (24511, 2, 10696,  0, 9, 0, False) /* Create Apron (10696) for Wield */
-     , (24511, 2, 24261,  0, 0, 1, False) /* Create Timberman's Hat (24261) for Wield */;
+     , (24511, 2,   359,  0, 14, 1, False) /* Create War Hammer (359) for Wield */
+     , (24511, 2, 10696,  0, 9, 0, False) /* Create Apron (10696) for Wield */;

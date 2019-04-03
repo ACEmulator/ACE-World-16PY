@@ -165,17 +165,17 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 318767235 /* Nod */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (2228, 2,   127,  0, 2, 0.9, False) /* Create Pants (127) for Wield */
+VALUES (2228, 2,   134,  0, 4, 0.8, False) /* Create Tunic (134) for Wield */
+     , (2228, 2,   127,  0, 2, 0.9, False) /* Create Pants (127) for Wield */
      , (2228, 2,   132,  0, 4, 0.8, False) /* Create Shoes (132) for Wield */
-     , (2228, 2,   134,  0, 4, 0.8, False) /* Create Tunic (134) for Wield */
      , (2228, 2, 10696,  0, 9, 0.5, False) /* Create Apron (10696) for Wield */
-     , (2228, 4,   136, -1, 21, 1, False) /* Create Pack (136) for Shop */
      , (2228, 4,   138, -1, 86, 1, False) /* Create Belt Pouch (138) for Shop */
      , (2228, 4,   139, -1, 86, 1, False) /* Create Small Belt Pouch (139) for Shop */
+     , (2228, 4,   136, -1, 21, 1, False) /* Create Pack (136) for Shop */
+     , (2228, 4,  5090, -1, 0, 0, False) /* Create Bruised Apple (5090) for Shop */
+     , (2228, 4,  5759, -1, 0, 0, False) /* Create Fruitcake (5759) for Shop */
+     , (2228, 4,  5089, -1, 0, 0, False) /* Create Old Cheese (5089) for Shop */
+     , (2228, 4,  5088, -1, 0, 0, False) /* Create Stale Bread (5088) for Shop */
      , (2228, 4,  4761, -1, 0, 0, False) /* Create Flour (4761) for Shop */
      , (2228, 4,  4762, -1, 0, 0, False) /* Create Frying Pan (4762) for Shop */
-     , (2228, 4,  4767, -1, 0, 0, False) /* Create Skewer (4767) for Shop */
-     , (2228, 4,  5088, -1, 0, 0, False) /* Create Stale Bread (5088) for Shop */
-     , (2228, 4,  5089, -1, 0, 0, False) /* Create Old Cheese (5089) for Shop */
-     , (2228, 4,  5090, -1, 0, 0, False) /* Create Bruised Apple (5090) for Shop */
-     , (2228, 4,  5759, -1, 0, 0, False) /* Create Fruitcake (5759) for Shop */;
+     , (2228, 4,  4767, -1, 0, 0, False) /* Create Skewer (4767) for Shop */;

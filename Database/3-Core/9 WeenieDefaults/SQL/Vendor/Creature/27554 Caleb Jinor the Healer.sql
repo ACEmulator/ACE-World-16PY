@@ -165,20 +165,10 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 318767235 /* Nod */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (27554, 2,   127,  0, 9, 0.5, False) /* Create Pants (127) for Wield */
+VALUES (27554, 2,   134,  0, 10, 1, False) /* Create Tunic (134) for Wield */
+     , (27554, 2,   127,  0, 9, 0.5, False) /* Create Pants (127) for Wield */
      , (27554, 2,   132,  0, 9, 0.5, False) /* Create Shoes (132) for Wield */
-     , (27554, 2,   134,  0, 10, 1, False) /* Create Tunic (134) for Wield */
      , (27554, 2, 10696,  0, 4, 0.5, False) /* Create Apron (10696) for Wield */
-     , (27554, 4,   377, -1, 0, 0, False) /* Create Potion of Healing (377) for Shop */
-     , (27554, 4,   378, -1, 0, 0, False) /* Create Stamina Potion (378) for Shop */
-     , (27554, 4,   379, -1, 0, 0, False) /* Create Mana Potion (379) for Shop */
-     , (27554, 4,   628, -1, 0, 0, False) /* Create Handy Healing Kit (628) for Shop */
-     , (27554, 4,   629, -1, 0, 0, False) /* Create Adept Healing Kit (629) for Shop */
-     , (27554, 4,   630, -1, 0, 0, False) /* Create Gifted Healing Kit (630) for Shop */
-     , (27554, 4,   631, -1, 0, 0, False) /* Create Excellent Healing Kit (631) for Shop */
-     , (27554, 4,  2457, -1, 0, 0, False) /* Create Health Draught (2457) for Shop */
-     , (27554, 4,  2460, -1, 0, 0, False) /* Create Mana Draught (2460) for Shop */
-     , (27554, 4,  2470, -1, 0, 0, False) /* Create Stamina Elixir (2470) for Shop */
      , (27554, 4,  2621, -1, 0, 0, False) /* Create Trade Note (100) (2621) for Shop */
      , (27554, 4,  2622, -1, 0, 0, False) /* Create Trade Note (500) (2622) for Shop */
      , (27554, 4,  2623, -1, 0, 0, False) /* Create Trade Note (1,000) (2623) for Shop */
@@ -189,6 +179,16 @@ VALUES (27554, 2,   127,  0, 9, 0.5, False) /* Create Pants (127) for Wield */
      , (27554, 4, 20628, -1, 0, 0, False) /* Create Trade Note (150,000) (20628) for Shop */
      , (27554, 4, 20629, -1, 0, 0, False) /* Create Trade Note (200,000) (20629) for Shop */
      , (27554, 4, 20630, -1, 0, 0, False) /* Create Trade Note (250,000) (20630) for Shop */
+     , (27554, 4,  2457, -1, 0, 0, False) /* Create Health Draught (2457) for Shop */
+     , (27554, 4,   377, -1, 0, 0, False) /* Create Potion of Healing (377) for Shop */
      , (27554, 4, 27319, -1, 0, 0, False) /* Create Health Tincture (27319) for Shop */
+     , (27554, 4,  2460, -1, 0, 0, False) /* Create Mana Draught (2460) for Shop */
+     , (27554, 4,   379, -1, 0, 0, False) /* Create Mana Potion (379) for Shop */
      , (27554, 4, 27322, -1, 0, 0, False) /* Create Mana Tincture (27322) for Shop */
-     , (27554, 4, 27326, -1, 0, 0, False) /* Create Stamina Tincture (27326) for Shop */;
+     , (27554, 4,   378, -1, 0, 0, False) /* Create Stamina Potion (378) for Shop */
+     , (27554, 4, 27326, -1, 0, 0, False) /* Create Stamina Tincture (27326) for Shop */
+     , (27554, 4,  2470, -1, 0, 0, False) /* Create Stamina Elixir (2470) for Shop */
+     , (27554, 4,   628, -1, 0, 0, False) /* Create Handy Healing Kit (628) for Shop */
+     , (27554, 4,   629, -1, 0, 0, False) /* Create Adept Healing Kit (629) for Shop */
+     , (27554, 4,   630, -1, 0, 0, False) /* Create Gifted Healing Kit (630) for Shop */
+     , (27554, 4,   631, -1, 0, 0, False) /* Create Excellent Healing Kit (631) for Shop */;

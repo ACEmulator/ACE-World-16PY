@@ -185,9 +185,9 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,  18 /* DirectBroadcast */, 0, 1, NULL, 'As the Forsaken Shadow Child dies, you are overcome with a sense of rejection.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (27286, 9,     0,  0, 0, 0.98, False) /* Create nothing for ContainTreasure */
-     , (27286, 9,     0,  0, 0, 0.99, False) /* Create nothing for ContainTreasure */
-     , (27286, 9,     0,  0, 0, 0.97, False) /* Create nothing for ContainTreasure */
-     , (27286, 9,  6058,  0, 0, 0.02, False) /* Create Dark Shard (6058) for ContainTreasure */
+VALUES (27286, 9,  6058,  0, 0, 0.02, False) /* Create Dark Shard (6058) for ContainTreasure */
+     , (27286, 9,     0,  0, 0, 0.98, False) /* Create nothing for ContainTreasure */
      , (27286, 9, 24477,  0, 0, 0.01, False) /* Create Sturdy Steel Key (24477) for ContainTreasure */
-     , (27286, 9, 30823,  0, 0, 0.03, False) /* Create Broken Black Marrow Key (30823) for ContainTreasure */;
+     , (27286, 9,     0,  0, 0, 0.99, False) /* Create nothing for ContainTreasure */
+     , (27286, 9, 30823,  0, 0, 0.03, False) /* Create Broken Black Marrow Key (30823) for ContainTreasure */
+     , (27286, 9,     0,  0, 0, 0.97, False) /* Create nothing for ContainTreasure */;

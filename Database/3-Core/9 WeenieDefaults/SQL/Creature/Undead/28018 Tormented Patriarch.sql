@@ -144,5 +144,5 @@ VALUES (28018,  94) /* ATTACK_NOTIFICATION_EVENT */
      , (28018, 414) /* PLAYER_DEATH_EVENT */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (28018, 9,     0,  0, 0, 0, False) /* Create nothing for ContainTreasure */
-     , (28018, 9, 28024,  0, 0, 1, False) /* Create A Worn Prison Master's Key (28024) for ContainTreasure */;
+VALUES (28018, 9, 28024,  0, 0, 1, False) /* Create A Worn Prison Master's Key (28024) for ContainTreasure */
+     , (28018, 9,     0,  0, 0, 0, False) /* Create nothing for ContainTreasure */;

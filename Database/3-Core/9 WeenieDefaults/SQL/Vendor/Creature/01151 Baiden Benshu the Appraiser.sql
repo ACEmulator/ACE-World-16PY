@@ -165,13 +165,13 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 318767235 /* Nod */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (1151, 2,   132,  0, 9, 1, False) /* Create Shoes (132) for Wield */
-     , (1151, 2,  2594,  0, 9, 1, False) /* Create Tunic (2594) for Wield */
+VALUES (1151, 2,  2594,  0, 9, 1, False) /* Create Tunic (2594) for Wield */
      , (1151, 2,  2602,  0, 9, 1, False) /* Create Breeches (2602) for Wield */
+     , (1151, 2,   132,  0, 9, 1, False) /* Create Shoes (132) for Wield */
      , (1151, 2,  5901,  0, 5, 0.67, False) /* Create Kasa (5901) for Wield */
      , (1151, 2, 10696,  0, 9, 0.5, False) /* Create Apron (10696) for Wield */
-     , (1151, 4,   295, -1, 0, 0, False) /* Create Bracelet (295) for Shop */
      , (1151, 4,   297, -1, 0, 0, False) /* Create Ring (297) for Shop */
+     , (1151, 4,   295, -1, 0, 0, False) /* Create Bracelet (295) for Shop */
      , (1151, 4,  2415, -1, 0, 0, False) /* Create Lapis Lazuli (2415) for Shop */
      , (1151, 4,  2419, -1, 0, 0, False) /* Create Turquoise (2419) for Shop */
      , (1151, 4,  2621, -1, 0, 0, False) /* Create Trade Note (100) (2621) for Shop */

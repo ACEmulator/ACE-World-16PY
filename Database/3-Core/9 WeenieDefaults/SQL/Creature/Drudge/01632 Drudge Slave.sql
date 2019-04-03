@@ -216,15 +216,15 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 268435537 /* Twitch1 */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (1632, 9,     0,  0, 0, 0.92, False) /* Create nothing for ContainTreasure */
-     , (1632, 9,     0,  0, 0, 0.95, False) /* Create nothing for ContainTreasure */
-     , (1632, 9,     0,  0, 0, 0.94, False) /* Create nothing for ContainTreasure */
+VALUES (1632, 9,  3669,  0, 0, 0.08, False) /* Create Drudge Charm (3669) for ContainTreasure */
      , (1632, 9,     0,  0, 0, 0.92, False) /* Create nothing for ContainTreasure */
-     , (1632, 9,     0,  0, 0, 0.95, False) /* Create nothing for ContainTreasure */
-     , (1632, 9,     0,  0, 0, 0.97, False) /* Create nothing for ContainTreasure */
-     , (1632, 9,  3669,  0, 0, 0.08, False) /* Create Drudge Charm (3669) for ContainTreasure */
      , (1632, 9,  7825,  0, 0, 0.05, False) /* Create Brown Beans (7825) for ContainTreasure */
+     , (1632, 9,     0,  0, 0, 0.95, False) /* Create nothing for ContainTreasure */
      , (1632, 9,  8701,  0, 0, 0.06, False) /* Create Lucky Gold Letter (8701) for ContainTreasure */
+     , (1632, 9,     0,  0, 0, 0.94, False) /* Create nothing for ContainTreasure */
      , (1632, 9,  8702,  0, 0, 0.08, False) /* Create Scarlet Red Letter (8702) for ContainTreasure */
+     , (1632, 9,     0,  0, 0, 0.92, False) /* Create nothing for ContainTreasure */
      , (1632, 9, 13222,  0, 0, 0.05, False) /* Create Peppermint Stick (13222) for ContainTreasure */
-     , (1632, 9, 20854,  0, 0, 0.03, False) /* Create Academy Stamp (20854) for ContainTreasure */;
+     , (1632, 9,     0,  0, 0, 0.95, False) /* Create nothing for ContainTreasure */
+     , (1632, 9, 20854,  0, 0, 0.03, False) /* Create Academy Stamp (20854) for ContainTreasure */
+     , (1632, 9,     0,  0, 0, 0.97, False) /* Create nothing for ContainTreasure */;

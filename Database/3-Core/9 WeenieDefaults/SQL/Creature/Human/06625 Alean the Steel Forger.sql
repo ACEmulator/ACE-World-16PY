@@ -709,6 +709,6 @@ VALUES (@parent_id,  0,  10 /* Tell */, 0, 1, NULL, 'I have made you the best ar
      , (@parent_id,  5,  10 /* Tell */, 0, 1, NULL, 'If you want another suit, give this gem back to me and I''ll see what I can do.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (6625, 2,   115,  0, 4, 0.8, False) /* Create Leather Boots (115) for Wield */
-     , (6625, 2,   130,  0, 8, 0.67, False) /* Create Shirt (130) for Wield */
-     , (6625, 2,  2604,  0, 14, 0, False) /* Create Breeches (2604) for Wield */;
+VALUES (6625, 2,   130,  0, 8, 0.67, False) /* Create Shirt (130) for Wield */
+     , (6625, 2,  2604,  0, 14, 0, False) /* Create Breeches (2604) for Wield */
+     , (6625, 2,   115,  0, 4, 0.8, False) /* Create Leather Boots (115) for Wield */;

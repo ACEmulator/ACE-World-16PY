@@ -37,7 +37,18 @@ VALUES (8162,   1,   33554817) /* Setup */
      , (8162,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (8162, 1,   626, 75, 0, 0, False) /* Create Powdered Hematite (626) for Contain */
+VALUES (8162, 1,   782, 75, 0, 0, False) /* Create Powdered Agate (782) for Contain */
+     , (8162, 1,   783, 75, 0, 0, False) /* Create Powdered Amber (783) for Contain */
+     , (8162, 1,   784, 75, 0, 0, False) /* Create Powdered Azurite (784) for Contain */
+     , (8162, 1,   785, 75, 0, 0, False) /* Create Powdered Bloodstone (785) for Contain */
+     , (8162, 1,   786, 75, 0, 0, False) /* Create Powdered Carnelian (786) for Contain */
+     , (8162, 1,   626, 75, 0, 0, False) /* Create Powdered Hematite (626) for Contain */
+     , (8162, 1,   787, 75, 0, 0, False) /* Create Powdered Lapis Lazuli (787) for Contain */
+     , (8162, 1,   788, 75, 0, 0, False) /* Create Powdered Malachite (788) for Contain */
+     , (8162, 1,   789, 75, 0, 0, False) /* Create Powdered Moonstone (789) for Contain */
+     , (8162, 1,   790, 75, 0, 0, False) /* Create Powdered Onyx (790) for Contain */
+     , (8162, 1,   791, 75, 0, 0, False) /* Create Powdered Quartz (791) for Contain */
+     , (8162, 1,   792, 75, 0, 0, False) /* Create Powdered Turquoise (792) for Contain */
      , (8162, 1,   753, 75, 0, 0, False) /* Create Brimstone (753) for Contain */
      , (8162, 1,   754, 75, 0, 0, False) /* Create Cadmia (754) for Contain */
      , (8162, 1,   755, 75, 0, 0, False) /* Create Cinnabar (755) for Contain */
@@ -49,15 +60,4 @@ VALUES (8162, 1,   626, 75, 0, 0, False) /* Create Powdered Hematite (626) for C
      , (8162, 1,   761, 75, 0, 0, False) /* Create Stibnite (761) for Contain */
      , (8162, 1,   762, 75, 0, 0, False) /* Create Turpeth (762) for Contain */
      , (8162, 1,   763, 75, 0, 0, False) /* Create Verdigris (763) for Contain */
-     , (8162, 1,   764, 75, 0, 0, False) /* Create Vitriol (764) for Contain */
-     , (8162, 1,   782, 75, 0, 0, False) /* Create Powdered Agate (782) for Contain */
-     , (8162, 1,   783, 75, 0, 0, False) /* Create Powdered Amber (783) for Contain */
-     , (8162, 1,   784, 75, 0, 0, False) /* Create Powdered Azurite (784) for Contain */
-     , (8162, 1,   785, 75, 0, 0, False) /* Create Powdered Bloodstone (785) for Contain */
-     , (8162, 1,   786, 75, 0, 0, False) /* Create Powdered Carnelian (786) for Contain */
-     , (8162, 1,   787, 75, 0, 0, False) /* Create Powdered Lapis Lazuli (787) for Contain */
-     , (8162, 1,   788, 75, 0, 0, False) /* Create Powdered Malachite (788) for Contain */
-     , (8162, 1,   789, 75, 0, 0, False) /* Create Powdered Moonstone (789) for Contain */
-     , (8162, 1,   790, 75, 0, 0, False) /* Create Powdered Onyx (790) for Contain */
-     , (8162, 1,   791, 75, 0, 0, False) /* Create Powdered Quartz (791) for Contain */
-     , (8162, 1,   792, 75, 0, 0, False) /* Create Powdered Turquoise (792) for Contain */;
+     , (8162, 1,   764, 75, 0, 0, False) /* Create Vitriol (764) for Contain */;

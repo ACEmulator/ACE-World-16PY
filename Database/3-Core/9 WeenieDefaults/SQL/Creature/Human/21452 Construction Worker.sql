@@ -305,8 +305,8 @@ VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 1090519043 /* Ready */, NULL, NU
      , (@parent_id,  3,   5 /* Motion */, 2, 1, 318767227 /* BeSeeingYou */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (21452, 2,   127,  0, 2, 0.7, False) /* Create Pants (127) for Wield */
-     , (21452, 2,   130,  0, 9, 1, False) /* Create Shirt (130) for Wield */
-     , (21452, 2,   338,  0, 14, 1, False) /* Create Quarter Staff (338) for Wield */
+VALUES (21452, 2,   130,  0, 9, 1, False) /* Create Shirt (130) for Wield */
+     , (21452, 2,   127,  0, 2, 0.7, False) /* Create Pants (127) for Wield */
      , (21452, 2,  7897,  0, 9, 0, False) /* Create Steel Toed Boots (7897) for Wield */
+     , (21452, 2,   338,  0, 14, 1, False) /* Create Quarter Staff (338) for Wield */
      , (21452, 2, 10696,  0, 9, 0, False) /* Create Apron (10696) for Wield */;

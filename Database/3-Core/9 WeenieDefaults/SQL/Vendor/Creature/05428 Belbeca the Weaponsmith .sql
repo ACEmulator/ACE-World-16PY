@@ -181,20 +181,20 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 318767235 /* Nod */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (5428, 2,   116,  0, 7, 0.33, False) /* Create Studded Leather Boots (116) for Wield */
-     , (5428, 2,   117,  0, 18, 1, False) /* Create Breeches (117) for Wield */
+VALUES (5428, 2,   348,  0, 0, 0, False) /* Create Spear (348) for Wield */
      , (5428, 2,   124,  0, 7, 0.33, False) /* Create Jerkin (124) for Wield */
-     , (5428, 2,   348,  0, 0, 0, False) /* Create Spear (348) for Wield */
+     , (5428, 2,   117,  0, 18, 1, False) /* Create Breeches (117) for Wield */
+     , (5428, 2,   116,  0, 7, 0.33, False) /* Create Studded Leather Boots (116) for Wield */
      , (5428, 2, 10696,  0, 4, 0.5, False) /* Create Apron (10696) for Wield */
-     , (5428, 4,   303, -1, 0, 0, False) /* Create Hand Axe (303) for Shop */
+     , (5428, 4,  4190, -1, 0, 0, False) /* Create Cestus (4190) for Shop */
      , (5428, 4,   314, -1, 0, 0, False) /* Create Dagger (314) for Shop */
-     , (5428, 4,   315, -1, 0, 0, False) /* Create Throwing Dagger (315) for Shop */
      , (5428, 4,   316, -1, 0, 0, False) /* Create Throwing Dart (316) for Shop */
+     , (5428, 4,   303, -1, 0, 0, False) /* Create Hand Axe (303) for Shop */
      , (5428, 4,   331, -1, 0, 0, False) /* Create Mace (331) for Shop */
-     , (5428, 4,   348, -1, 0, 0, False) /* Create Spear (348) for Shop */
+     , (5428, 4, 22168, -1, 0, 0, False) /* Create Quarter Staff (22168) for Shop */
      , (5428, 4,   352, -1, 0, 0, False) /* Create Short Sword (352) for Shop */
+     , (5428, 4,   348, -1, 0, 0, False) /* Create Spear (348) for Shop */
+     , (5428, 4,   315, -1, 0, 0, False) /* Create Throwing Dagger (315) for Shop */
      , (5428, 4,  2621, -1, 0, 0, False) /* Create Trade Note (100) (2621) for Shop */
      , (5428, 4,  2622, -1, 0, 0, False) /* Create Trade Note (500) (2622) for Shop */
-     , (5428, 4,  2623, -1, 0, 0, False) /* Create Trade Note (1,000) (2623) for Shop */
-     , (5428, 4,  4190, -1, 0, 0, False) /* Create Cestus (4190) for Shop */
-     , (5428, 4, 22168, -1, 0, 0, False) /* Create Quarter Staff (22168) for Shop */;
+     , (5428, 4,  2623, -1, 0, 0, False) /* Create Trade Note (1,000) (2623) for Shop */;

@@ -181,7 +181,7 @@ VALUES (7423,  94) /* ATTACK_NOTIFICATION_EVENT */
      , (7423, 414) /* PLAYER_DEATH_EVENT */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (7423, 9,     0,  0, 0, 0.98, False) /* Create nothing for ContainTreasure */
+VALUES (7423, 9,  7041,  0, 0, 0.02, False) /* Create Undead Thighbone (7041) for ContainTreasure */
      , (7423, 9,     0,  0, 0, 0.98, False) /* Create nothing for ContainTreasure */
-     , (7423, 9,  7041,  0, 0, 0.02, False) /* Create Undead Thighbone (7041) for ContainTreasure */
-     , (7423, 9, 15770,  0, 0, 0.02, False) /* Create Ruined Amulet of the Staff (15770) for ContainTreasure */;
+     , (7423, 9, 15770,  0, 0, 0.02, False) /* Create Ruined Amulet of the Staff (15770) for ContainTreasure */
+     , (7423, 9,     0,  0, 0, 0.98, False) /* Create nothing for ContainTreasure */;

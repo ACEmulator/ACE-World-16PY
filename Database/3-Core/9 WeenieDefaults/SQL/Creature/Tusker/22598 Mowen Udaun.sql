@@ -226,5 +226,5 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,  23 /* StartEvent */, 0, 1, NULL, 'MowenDevastator', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (22598, 9,     0,  0, 0, 0, False) /* Create nothing for ContainTreasure */
-     , (22598, 9, 22578, 10, 0, 1, False) /* Create Bunch of Nanners (22578) for ContainTreasure */;
+VALUES (22598, 9, 22578, 10, 0, 1, False) /* Create Bunch of Nanners (22578) for ContainTreasure */
+     , (22598, 9,     0,  0, 0, 0, False) /* Create nothing for ContainTreasure */;

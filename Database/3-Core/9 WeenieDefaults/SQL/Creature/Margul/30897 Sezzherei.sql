@@ -184,18 +184,18 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 268435537 /* Twitch1 */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (30897, 9,     0,  0, 0, 0.85, False) /* Create nothing for ContainTreasure */
+VALUES (30897, 9, 30858,  1, 0, 1, False) /* Create Sezzherei Slayer Token (30858) for ContainTreasure */
+     , (30897, 9, 30858,  1, 0, 1, False) /* Create Sezzherei Slayer Token (30858) for ContainTreasure */
+     , (30897, 9, 30858,  1, 0, 1, False) /* Create Sezzherei Slayer Token (30858) for ContainTreasure */
+     , (30897, 9, 30858,  1, 0, 1, False) /* Create Sezzherei Slayer Token (30858) for ContainTreasure */
+     , (30897, 9, 30858,  1, 0, 1, False) /* Create Sezzherei Slayer Token (30858) for ContainTreasure */
+     , (30897, 9, 30881,  1, 0, 1, False) /* Create Salvager's Helm (30881) for ContainTreasure */
+     , (30897, 9, 30881,  1, 0, 1, False) /* Create Salvager's Helm (30881) for ContainTreasure */
+     , (30897, 9, 30881,  1, 0, 1, False) /* Create Salvager's Helm (30881) for ContainTreasure */
+     , (30897, 9, 30881,  1, 0, 1, False) /* Create Salvager's Helm (30881) for ContainTreasure */
+     , (30897, 9, 30881,  1, 0, 1, False) /* Create Salvager's Helm (30881) for ContainTreasure */
      , (30897, 9, 30823,  0, 0, 0.15, False) /* Create Broken Black Marrow Key (30823) for ContainTreasure */
-     , (30897, 9, 30858,  1, 0, 1, False) /* Create Sezzherei Slayer Token (30858) for ContainTreasure */
-     , (30897, 9, 30858,  1, 0, 1, False) /* Create Sezzherei Slayer Token (30858) for ContainTreasure */
-     , (30897, 9, 30858,  1, 0, 1, False) /* Create Sezzherei Slayer Token (30858) for ContainTreasure */
-     , (30897, 9, 30858,  1, 0, 1, False) /* Create Sezzherei Slayer Token (30858) for ContainTreasure */
-     , (30897, 9, 30858,  1, 0, 1, False) /* Create Sezzherei Slayer Token (30858) for ContainTreasure */
-     , (30897, 9, 30881,  1, 0, 1, False) /* Create Salvager's Helm (30881) for ContainTreasure */
-     , (30897, 9, 30881,  1, 0, 1, False) /* Create Salvager's Helm (30881) for ContainTreasure */
-     , (30897, 9, 30881,  1, 0, 1, False) /* Create Salvager's Helm (30881) for ContainTreasure */
-     , (30897, 9, 30881,  1, 0, 1, False) /* Create Salvager's Helm (30881) for ContainTreasure */
-     , (30897, 9, 30881,  1, 0, 1, False) /* Create Salvager's Helm (30881) for ContainTreasure */;
+     , (30897, 9,     0,  0, 0, 0.85, False) /* Create nothing for ContainTreasure */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (30897, -1, 25859, 20, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Biaka (25859) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Scatter */

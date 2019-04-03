@@ -175,10 +175,10 @@ VALUES (@parent_id,  0,   8 /* Say */, 0, 20, NULL, 'Alfie!  Here girl!  Time fo
      , (@parent_id,  1,   5 /* Motion */, 0.5, 1, 318767230 /* ClapHands */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (22082, 2,   115,  0, 6, 0, False) /* Create Leather Boots (115) for Wield */
+VALUES (22082, 2,   130,  0, 16, 0, False) /* Create Shirt (130) for Wield */
      , (22082, 2,   127,  0, 7, 0, False) /* Create Pants (127) for Wield */
-     , (22082, 2,   130,  0, 16, 0, False) /* Create Shirt (130) for Wield */
+     , (22082, 2,   115,  0, 6, 0, False) /* Create Leather Boots (115) for Wield */
      , (22082, 2, 10696,  0, 9, 0.5, False) /* Create Apron (10696) for Wield */
-     , (22082, 4,  5670, -1, 0, 0, False) /* Create Tempting Apple (5670) for Shop */
      , (22082, 4,  5671, -1, 0, 0, False) /* Create Cold Milk (5671) for Shop */
+     , (22082, 4,  5670, -1, 0, 0, False) /* Create Tempting Apple (5670) for Shop */
      , (22082, 4,  5672, -1, 0, 0, False) /* Create Herbal Tea (5672) for Shop */;

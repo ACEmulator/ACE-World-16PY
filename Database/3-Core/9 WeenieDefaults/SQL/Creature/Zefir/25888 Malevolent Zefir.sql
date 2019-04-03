@@ -124,5 +124,5 @@ VALUES (25888,  94) /* ATTACK_NOTIFICATION_EVENT */
      , (25888, 414) /* PLAYER_DEATH_EVENT */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (25888, 9,     0,  0, 0, 0.95, False) /* Create nothing for ContainTreasure */
-     , (25888, 9, 30823,  0, 0, 0.05, False) /* Create Broken Black Marrow Key (30823) for ContainTreasure */;
+VALUES (25888, 9, 30823,  0, 0, 0.05, False) /* Create Broken Black Marrow Key (30823) for ContainTreasure */
+     , (25888, 9,     0,  0, 0, 0.95, False) /* Create nothing for ContainTreasure */;

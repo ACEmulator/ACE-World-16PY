@@ -177,6 +177,9 @@ VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 268435539 /* Twitch3 */, NULL, N
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (9209, 4,   630, -1, 0, 0, False) /* Create Gifted Healing Kit (630) for Shop */
+     , (9209, 4,  4587, -1, 0, 0, False) /* Create Heal Other II (4587) for Shop */
+     , (9209, 4,  4596, -1, 0, 0, False) /* Create Regeneration Other II (4596) for Shop */
+     , (9209, 4,  4593, -1, 0, 0, False) /* Create Mana Boost Other II (4593) for Shop */
      , (9209, 4,   753, -1, 0, 0, False) /* Create Brimstone (753) for Shop */
      , (9209, 4,   754, -1, 0, 0, False) /* Create Cadmia (754) for Shop */
      , (9209, 4,   755, -1, 0, 0, False) /* Create Cinnabar (755) for Shop */
@@ -190,10 +193,7 @@ VALUES (9209, 4,   630, -1, 0, 0, False) /* Create Gifted Healing Kit (630) for 
      , (9209, 4,   763, -1, 0, 0, False) /* Create Verdigris (763) for Shop */
      , (9209, 4,   764, -1, 0, 0, False) /* Create Vitriol (764) for Shop */
      , (9209, 4,  2621, -1, 0, 0, False) /* Create Trade Note (100) (2621) for Shop */
-     , (9209, 4,  2622, -1, 0, 0, False) /* Create Trade Note (500) (2622) for Shop */
-     , (9209, 4,  4587, -1, 0, 0, False) /* Create Heal Other II (4587) for Shop */
-     , (9209, 4,  4593, -1, 0, 0, False) /* Create Mana Boost Other II (4593) for Shop */
-     , (9209, 4,  4596, -1, 0, 0, False) /* Create Regeneration Other II (4596) for Shop */;
+     , (9209, 4,  2622, -1, 0, 0, False) /* Create Trade Note (500) (2622) for Shop */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (9209, -1, 377, 120, 10, 25, 2, 32, 1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Potion of Healing (377) (x10 up to max of 25) - Regenerate upon PickUp - Location to (re)Generate: Shop */

@@ -165,17 +165,17 @@ VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 318767235 /* Nod */, NULL, NULL,
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (5832, 2,   130,  0, 17, 0.5, False) /* Create Shirt (130) for Wield */
-     , (5832, 2,   132,  0, 4, 0.8, False) /* Create Shoes (132) for Wield */
      , (5832, 2,  2597,  0, 9, 0, False) /* Create Pants (2597) for Wield */
+     , (5832, 2,   132,  0, 4, 0.8, False) /* Create Shoes (132) for Wield */
      , (5832, 2, 10696,  0, 11, 1, False) /* Create Apron (10696) for Wield */
-     , (5832, 4,   259, -1, 0, 0, False) /* Create Bread (259) for Shop */
      , (5832, 4,  2453, -1, 0, 0, False) /* Create Cider (2453) for Shop */
      , (5832, 4,  2462, -1, 0, 0, False) /* Create Mead (2462) for Shop */
      , (5832, 4,  2463, -1, 0, 0, False) /* Create Milk (2463) for Shop */
-     , (5832, 4,  2471, -1, 0, 0, False) /* Create Stout (2471) for Shop */
-     , (5832, 4,  4713, -1, 0, 0, False) /* Create Beef Stew (4713) for Shop */
-     , (5832, 4,  4725, -1, 0, 0, False) /* Create Fish Pie (4725) for Shop */
-     , (5832, 4,  4741, -1, 0, 0, False) /* Create Pizza (4741) for Shop */
      , (5832, 4,  4746, -1, 0, 0, False) /* Create Water (4746) for Shop */
+     , (5832, 4,  2471, -1, 0, 0, False) /* Create Stout (2471) for Shop */
      , (5832, 4,  8378, -1, 0, 0, False) /* Create Beer Stein (8378) for Shop */
+     , (5832, 4,  4713, -1, 0, 0, False) /* Create Beef Stew (4713) for Shop */
+     , (5832, 4,  4741, -1, 0, 0, False) /* Create Pizza (4741) for Shop */
+     , (5832, 4,  4725, -1, 0, 0, False) /* Create Fish Pie (4725) for Shop */
+     , (5832, 4,   259, -1, 0, 0, False) /* Create Bread (259) for Shop */
      , (5832, 4, 22765, -1, 0, 0, False) /* Create The Empyrean Temples (22765) for Shop */;

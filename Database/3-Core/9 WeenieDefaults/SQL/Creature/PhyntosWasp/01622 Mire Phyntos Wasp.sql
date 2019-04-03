@@ -111,5 +111,5 @@ INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
 VALUES (1622, 414) /* PLAYER_DEATH_EVENT */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (1622, 9,     0,  0, 0, 0.85, False) /* Create nothing for ContainTreasure */
-     , (1622, 9,  3702,  0, 0, 0.15, False) /* Create Mire Phyntos Wasp Wing (3702) for ContainTreasure */;
+VALUES (1622, 9,  3702,  0, 0, 0.15, False) /* Create Mire Phyntos Wasp Wing (3702) for ContainTreasure */
+     , (1622, 9,     0,  0, 0, 0.85, False) /* Create nothing for ContainTreasure */;

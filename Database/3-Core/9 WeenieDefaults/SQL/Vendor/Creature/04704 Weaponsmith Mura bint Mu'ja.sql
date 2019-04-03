@@ -173,9 +173,9 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 318767235 /* Nod */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (4704, 2,   117,  0, 16, 1, False) /* Create Breeches (117) for Wield */
+VALUES (4704, 2,  2596,  0, 18, 1, False) /* Create Doublet (2596) for Wield */
+     , (4704, 2,   117,  0, 16, 1, False) /* Create Breeches (117) for Wield */
      , (4704, 2,   133,  0, 18, 1, False) /* Create Slippers (133) for Wield */
-     , (4704, 2,  2596,  0, 18, 1, False) /* Create Doublet (2596) for Wield */
      , (4704, 2, 10696,  0, 4, 0.5, False) /* Create Apron (10696) for Wield */
      , (4704, 4,   308, -1, 0, 0, False) /* Create Budiaq (308) for Shop */
      , (4704, 4,   313, -1, 0, 0, False) /* Create Dabus (313) for Shop */
@@ -183,6 +183,7 @@ VALUES (4704, 2,   117,  0, 16, 1, False) /* Create Breeches (117) for Wield */
      , (4704, 4,   324, -1, 0, 0, False) /* Create Kaskara (324) for Shop */
      , (4704, 4,   326, -1, 0, 0, False) /* Create Katar (326) for Shop */
      , (4704, 4,   328, -1, 0, 0, False) /* Create Khanjar (328) for Shop */
+     , (4704, 4, 22163, -1, 0, 0, False) /* Create Nabut (22163) for Shop */
      , (4704, 4,   340, -1, 0, 0, False) /* Create Shamshir (340) for Shop */
      , (4704, 4,   345, -1, 0, 0, False) /* Create Simi (345) for Shop */
      , (4704, 4,   354, -1, 0, 0, False) /* Create Takuba (354) for Shop */
@@ -196,5 +197,4 @@ VALUES (4704, 2,   117,  0, 16, 1, False) /* Create Breeches (117) for Wield */
      , (4704, 4,  2627, -1, 0, 0, False) /* Create Trade Note (100,000) (2627) for Shop */
      , (4704, 4, 20628, -1, 0, 0, False) /* Create Trade Note (150,000) (20628) for Shop */
      , (4704, 4, 20629, -1, 0, 0, False) /* Create Trade Note (200,000) (20629) for Shop */
-     , (4704, 4, 20630, -1, 0, 0, False) /* Create Trade Note (250,000) (20630) for Shop */
-     , (4704, 4, 22163, -1, 0, 0, False) /* Create Nabut (22163) for Shop */;
+     , (4704, 4, 20630, -1, 0, 0, False) /* Create Trade Note (250,000) (20630) for Shop */;

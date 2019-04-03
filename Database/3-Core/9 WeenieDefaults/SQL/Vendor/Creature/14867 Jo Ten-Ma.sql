@@ -164,11 +164,11 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 318767235 /* Nod */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (14867, 2,    47,  0, 6, 0.67, False) /* Create Leather Coat (47) for Wield */
-     , (14867, 2,   115,  0, 4, 1, False) /* Create Leather Boots (115) for Wield */
-     , (14867, 2,   119,  0, 7, 0.8, False) /* Create Cowl (119) for Wield */
+VALUES (14867, 2,   119,  0, 7, 0.8, False) /* Create Cowl (119) for Wield */
+     , (14867, 2,    47,  0, 6, 0.67, False) /* Create Leather Coat (47) for Wield */
      , (14867, 2,   122,  0, 84, 0.5, False) /* Create Soft Leather Gloves (122) for Wield */
      , (14867, 2,   127,  0, 7, 0.1, False) /* Create Pants (127) for Wield */
+     , (14867, 2,   115,  0, 4, 1, False) /* Create Leather Boots (115) for Wield */
      , (14867, 2, 10696,  0, 2, 0.5, False) /* Create Apron (10696) for Wield */
      , (14867, 4, 14868, -1, 0, 0, False) /* Create Red Shadow Dye (14868) for Shop */
      , (14867, 4, 14869, -1, 0, 0, False) /* Create Green Shadow Dye (14869) for Shop */

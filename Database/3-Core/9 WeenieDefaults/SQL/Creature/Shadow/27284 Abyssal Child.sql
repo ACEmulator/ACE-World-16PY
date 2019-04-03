@@ -181,11 +181,11 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,  18 /* DirectBroadcast */, 0, 1, NULL, 'A sense of depression wells in the back of your mind as the Abyssal Shadow Child falls to the ground.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (27284, 9,     0,  0, 0, 0.96, False) /* Create nothing for ContainTreasure */
-     , (27284, 9,     0,  0, 0, 0.99, False) /* Create nothing for ContainTreasure */
-     , (27284, 9,     0,  0, 0, 0.98, False) /* Create nothing for ContainTreasure */
-     , (27284, 9,     0,  0, 0, 0.97, False) /* Create nothing for ContainTreasure */
-     , (27284, 9,  6058,  0, 0, 0.04, False) /* Create Dark Shard (6058) for ContainTreasure */
-     , (27284, 9, 20856,  0, 0, 0.02, False) /* Create Bael'Zharon Stamp (20856) for ContainTreasure */
+VALUES (27284, 9,  6058,  0, 0, 0.04, False) /* Create Dark Shard (6058) for ContainTreasure */
+     , (27284, 9,     0,  0, 0, 0.96, False) /* Create nothing for ContainTreasure */
      , (27284, 9, 24477,  0, 0, 0.01, False) /* Create Sturdy Steel Key (24477) for ContainTreasure */
-     , (27284, 9, 30823,  0, 0, 0.03, False) /* Create Broken Black Marrow Key (30823) for ContainTreasure */;
+     , (27284, 9,     0,  0, 0, 0.99, False) /* Create nothing for ContainTreasure */
+     , (27284, 9, 20856,  0, 0, 0.02, False) /* Create Bael'Zharon Stamp (20856) for ContainTreasure */
+     , (27284, 9,     0,  0, 0, 0.98, False) /* Create nothing for ContainTreasure */
+     , (27284, 9, 30823,  0, 0, 0.03, False) /* Create Broken Black Marrow Key (30823) for ContainTreasure */
+     , (27284, 9,     0,  0, 0, 0.97, False) /* Create nothing for ContainTreasure */;

@@ -93,5 +93,5 @@ INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
 VALUES (12704, 414) /* PLAYER_DEATH_EVENT */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (12704, 9,     0,  0, 0, 0, False) /* Create nothing for ContainTreasure */
-     , (12704, 9, 13089,  0, 0, 1, False) /* Create Carpenter Wasp Wing (13089) for ContainTreasure */;
+VALUES (12704, 9, 13089,  0, 0, 1, False) /* Create Carpenter Wasp Wing (13089) for ContainTreasure */
+     , (12704, 9,     0,  0, 0, 0, False) /* Create nothing for ContainTreasure */;

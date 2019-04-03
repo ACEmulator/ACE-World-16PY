@@ -154,5 +154,5 @@ VALUES (27506,  94) /* ATTACK_NOTIFICATION_EVENT */
      , (27506, 414) /* PLAYER_DEATH_EVENT */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (27506, 9,     0,  0, 0, 0.985, False) /* Create nothing for ContainTreasure */
-     , (27506, 9, 27305,  0, 0, 0.015, False) /* Create Forbidden Key (27305) for ContainTreasure */;
+VALUES (27506, 9, 27305,  0, 0, 0.015, False) /* Create Forbidden Key (27305) for ContainTreasure */
+     , (27506, 9,     0,  0, 0, 0.985, False) /* Create nothing for ContainTreasure */;

@@ -176,15 +176,15 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,  17 /* LocalBroadcast */, 0, 0, NULL, 'As the ancient creature collapses into viscera and rot, it groans the name of Avoren.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (204, 9,     0,  0, 0, 0.98, False) /* Create nothing for ContainTreasure */
-     , (204, 9,     0,  0, 0, 0.97, False) /* Create nothing for ContainTreasure */
-     , (204, 9,     0,  0, 0, 0.95, False) /* Create nothing for ContainTreasure */
-     , (204, 9,     0,  0, 0, 0.95, False) /* Create nothing for ContainTreasure */
-     , (204, 9,     0,  0, 0, 0.95, False) /* Create nothing for ContainTreasure */
-     , (204, 9,     0,  0, 0, 0.95, False) /* Create nothing for ContainTreasure */
-     , (204, 9,  7041,  0, 0, 0.02, False) /* Create Undead Thighbone (7041) for ContainTreasure */
+VALUES (204, 9,  7041,  0, 0, 0.02, False) /* Create Undead Thighbone (7041) for ContainTreasure */
+     , (204, 9,     0,  0, 0, 0.98, False) /* Create nothing for ContainTreasure */
      , (204, 9,  9312,  0, 0, 0.03, False) /* Create A Small Mnemosyne (9312) for ContainTreasure */
+     , (204, 9,     0,  0, 0, 0.97, False) /* Create nothing for ContainTreasure */
      , (204, 9, 12225,  0, 0, 0.05, False) /* Create Zombie Head (12225) for ContainTreasure */
+     , (204, 9,     0,  0, 0, 0.95, False) /* Create nothing for ContainTreasure */
      , (204, 9, 22028,  0, 0, 0.05, False) /* Create Undead Arm (22028) for ContainTreasure */
+     , (204, 9,     0,  0, 0, 0.95, False) /* Create nothing for ContainTreasure */
      , (204, 9, 22032,  0, 0, 0.05, False) /* Create Undead Leg (22032) for ContainTreasure */
-     , (204, 9, 22048,  0, 0, 0.05, False) /* Create Undead Torso (22048) for ContainTreasure */;
+     , (204, 9,     0,  0, 0, 0.95, False) /* Create nothing for ContainTreasure */
+     , (204, 9, 22048,  0, 0, 0.05, False) /* Create Undead Torso (22048) for ContainTreasure */
+     , (204, 9,     0,  0, 0, 0.95, False) /* Create nothing for ContainTreasure */;

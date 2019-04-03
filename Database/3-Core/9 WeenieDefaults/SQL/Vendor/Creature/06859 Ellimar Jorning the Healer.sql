@@ -182,18 +182,28 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 318767235 /* Nod */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (6859, 2,   117,  0, 9, 1, False) /* Create Breeches (117) for Wield */
-     , (6859, 2,   119,  0, 4, 0.6, False) /* Create Cowl (119) for Wield */
-     , (6859, 2,   124,  0, 16, 1, False) /* Create Jerkin (124) for Wield */
+VALUES (6859, 2,   124,  0, 16, 1, False) /* Create Jerkin (124) for Wield */
+     , (6859, 2,   117,  0, 9, 1, False) /* Create Breeches (117) for Wield */
      , (6859, 2,   132,  0, 4, 0.6, False) /* Create Shoes (132) for Wield */
+     , (6859, 2,   119,  0, 4, 0.6, False) /* Create Cowl (119) for Wield */
+     , (6859, 4,  2457, -1, 0, 0, False) /* Create Health Draught (2457) for Shop */
      , (6859, 4,   377, -1, 0, 0, False) /* Create Potion of Healing (377) for Shop */
-     , (6859, 4,   378, -1, 0, 0, False) /* Create Stamina Potion (378) for Shop */
+     , (6859, 4, 27319, -1, 0, 0, False) /* Create Health Tincture (27319) for Shop */
+     , (6859, 4,  2460, -1, 0, 0, False) /* Create Mana Draught (2460) for Shop */
      , (6859, 4,   379, -1, 0, 0, False) /* Create Mana Potion (379) for Shop */
+     , (6859, 4, 27322, -1, 0, 0, False) /* Create Mana Tincture (27322) for Shop */
+     , (6859, 4,   378, -1, 0, 0, False) /* Create Stamina Potion (378) for Shop */
+     , (6859, 4, 27326, -1, 0, 0, False) /* Create Stamina Tincture (27326) for Shop */
+     , (6859, 4,  2470, -1, 0, 0, False) /* Create Stamina Elixir (2470) for Shop */
      , (6859, 4,   628, -1, 0, 0, False) /* Create Handy Healing Kit (628) for Shop */
      , (6859, 4,   629, -1, 0, 0, False) /* Create Adept Healing Kit (629) for Shop */
      , (6859, 4,   630, -1, 0, 0, False) /* Create Gifted Healing Kit (630) for Shop */
      , (6859, 4,   631, -1, 0, 0, False) /* Create Excellent Healing Kit (631) for Shop */
      , (6859, 4,   632, -1, 0, 0, False) /* Create Peerless Healing Kit (632) for Shop */
+     , (6859, 4,  9229, -1, 0, 0, False) /* Create Treated Healing Kit (9229) for Shop */
+     , (6859, 4,  4587, -1, 0, 0, False) /* Create Heal Other II (4587) for Shop */
+     , (6859, 4,  4596, -1, 0, 0, False) /* Create Regeneration Other II (4596) for Shop */
+     , (6859, 4,  4593, -1, 0, 0, False) /* Create Mana Boost Other II (4593) for Shop */
      , (6859, 4,   753, -1, 0, 0, False) /* Create Brimstone (753) for Shop */
      , (6859, 4,   754, -1, 0, 0, False) /* Create Cadmia (754) for Shop */
      , (6859, 4,   755, -1, 0, 0, False) /* Create Cinnabar (755) for Shop */
@@ -206,15 +216,5 @@ VALUES (6859, 2,   117,  0, 9, 1, False) /* Create Breeches (117) for Wield */
      , (6859, 4,   762, -1, 0, 0, False) /* Create Turpeth (762) for Shop */
      , (6859, 4,   763, -1, 0, 0, False) /* Create Verdigris (763) for Shop */
      , (6859, 4,   764, -1, 0, 0, False) /* Create Vitriol (764) for Shop */
-     , (6859, 4,  2457, -1, 0, 0, False) /* Create Health Draught (2457) for Shop */
-     , (6859, 4,  2460, -1, 0, 0, False) /* Create Mana Draught (2460) for Shop */
-     , (6859, 4,  2470, -1, 0, 0, False) /* Create Stamina Elixir (2470) for Shop */
      , (6859, 4,  2621, -1, 0, 0, False) /* Create Trade Note (100) (2621) for Shop */
-     , (6859, 4,  2622, -1, 0, 0, False) /* Create Trade Note (500) (2622) for Shop */
-     , (6859, 4,  4587, -1, 0, 0, False) /* Create Heal Other II (4587) for Shop */
-     , (6859, 4,  4593, -1, 0, 0, False) /* Create Mana Boost Other II (4593) for Shop */
-     , (6859, 4,  4596, -1, 0, 0, False) /* Create Regeneration Other II (4596) for Shop */
-     , (6859, 4,  9229, -1, 0, 0, False) /* Create Treated Healing Kit (9229) for Shop */
-     , (6859, 4, 27319, -1, 0, 0, False) /* Create Health Tincture (27319) for Shop */
-     , (6859, 4, 27322, -1, 0, 0, False) /* Create Mana Tincture (27322) for Shop */
-     , (6859, 4, 27326, -1, 0, 0, False) /* Create Stamina Tincture (27326) for Shop */;
+     , (6859, 4,  2622, -1, 0, 0, False) /* Create Trade Note (500) (2622) for Shop */;

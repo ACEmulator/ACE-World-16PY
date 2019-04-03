@@ -164,14 +164,14 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 318767235 /* Nod */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (2440, 2,   117,  0, 14, 0.5, False) /* Create Breeches (117) for Wield */
-     , (2440, 2,   130,  0, 5, 0.67, False) /* Create Shirt (130) for Wield */
+VALUES (2440, 2,   130,  0, 5, 0.67, False) /* Create Shirt (130) for Wield */
+     , (2440, 2,   117,  0, 14, 0.5, False) /* Create Breeches (117) for Wield */
      , (2440, 2,   132,  0, 9, 1, False) /* Create Shoes (132) for Wield */
      , (2440, 2, 10696,  0, 4, 0.8, False) /* Create Apron (10696) for Wield */
+     , (2440, 4,  2447, -1, 0, 0, False) /* Create Training Hall Key (2447) for Shop */
      , (2440, 4,   258, -1, 0, 0, False) /* Create Apple (258) for Shop */
+     , (2440, 4,   511, -1, 0, 0, False) /* Create Crude Lockpick (511) for Shop */
      , (2440, 4,   300, -1, 0, 0, False) /* Create Arrow (300) for Shop */
      , (2440, 4,   305, -1, 0, 0, False) /* Create Quarrel (305) for Shop */
      , (2440, 4,   314, -1, 0, 0, False) /* Create Dagger (314) for Shop */
-     , (2440, 4,   511, -1, 0, 0, False) /* Create Crude Lockpick (511) for Shop */
-     , (2440, 4,   628, -1, 0, 0, False) /* Create Handy Healing Kit (628) for Shop */
-     , (2440, 4,  2447, -1, 0, 0, False) /* Create Training Hall Key (2447) for Shop */;
+     , (2440, 4,   628, -1, 0, 0, False) /* Create Handy Healing Kit (628) for Shop */;

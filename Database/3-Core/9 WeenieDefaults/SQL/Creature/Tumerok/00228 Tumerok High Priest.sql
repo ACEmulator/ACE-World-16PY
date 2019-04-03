@@ -161,7 +161,7 @@ VALUES (228,  94) /* ATTACK_NOTIFICATION_EVENT */
      , (228, 414) /* PLAYER_DEATH_EVENT */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (228, 9,     0,  0, 0, 0.9, False) /* Create nothing for ContainTreasure */
-     , (228, 9,     0,  0, 0, 0.97, False) /* Create nothing for ContainTreasure */
-     , (228, 9,  3695,  0, 0, 0.1, False) /* Create Gold Tumerok Insignia (3695) for ContainTreasure */
-     , (228, 9,  7825,  0, 0, 0.03, False) /* Create Brown Beans (7825) for ContainTreasure */;
+VALUES (228, 9,  3695,  0, 0, 0.1, False) /* Create Gold Tumerok Insignia (3695) for ContainTreasure */
+     , (228, 9,     0,  0, 0, 0.9, False) /* Create nothing for ContainTreasure */
+     , (228, 9,  7825,  0, 0, 0.03, False) /* Create Brown Beans (7825) for ContainTreasure */
+     , (228, 9,     0,  0, 0, 0.97, False) /* Create nothing for ContainTreasure */;

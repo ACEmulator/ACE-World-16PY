@@ -135,10 +135,10 @@ VALUES (@parent_id,  0,  16 /* WorldBroadcast */, 0, 1, NULL, 'The wind brings i
      , (@parent_id,  1,  17 /* LocalBroadcast */, 0, 0, NULL, 'The destruction of the Nexus Crystal brings a burst of heat through the area, followed by a cool, chill wind.  Shadows seem to leap up and fall away...in the distance, a faint voice seems to cry: "Retreat, in his name!" and then there is nothing more"', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (6788, 1,  6621,  1, 0, 0, False) /* Create Scintillating Gem (6621) for Contain */
+VALUES (6788, 1,  6807,  1, 0, 0, False) /* Create Nexus Core Gem (6807) for Contain */
      , (6788, 1,  6621,  1, 0, 0, False) /* Create Scintillating Gem (6621) for Contain */
      , (6788, 1,  6621,  1, 0, 0, False) /* Create Scintillating Gem (6621) for Contain */
      , (6788, 1,  6621,  1, 0, 0, False) /* Create Scintillating Gem (6621) for Contain */
-     , (6788, 1,  6807,  1, 0, 0, False) /* Create Nexus Core Gem (6807) for Contain */
-     , (6788, 9,     0,  0, 0, 0.98, False) /* Create nothing for ContainTreasure */
-     , (6788, 9,  6876,  0, 0, 0.02, False) /* Create Sturdy Iron Key (6876) for ContainTreasure */;
+     , (6788, 1,  6621,  1, 0, 0, False) /* Create Scintillating Gem (6621) for Contain */
+     , (6788, 9,  6876,  0, 0, 0.02, False) /* Create Sturdy Iron Key (6876) for ContainTreasure */
+     , (6788, 9,     0,  0, 0, 0.98, False) /* Create nothing for ContainTreasure */;

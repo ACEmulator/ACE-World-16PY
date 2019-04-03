@@ -187,5 +187,5 @@ VALUES (@parent_id,  0,  10 /* Tell */, 0, 1, NULL, 'Hail friend, perhaps you ha
      , (@parent_id,  2,  13 /* TextDirect */, 1, 1, NULL, 'You think, "The guard went on. This was beginning to look like an interesting proposition. The capital cities, eh. Who knows maybe they''d provide me with a little insight. I weighed the possibilities and thought about visiting this Dame. But first I needed to find out where she was hiding. The sign in the capital cities was my only clue."', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (25717, 2,   118,  0, 14, 1, False) /* Create Cap (118) for Wield */
-     , (25717, 2, 10870,  0, 17, 0.7, False) /* Create Canescent Mattekar Robe (10870) for Wield */;
+VALUES (25717, 2, 10870,  0, 17, 0.7, False) /* Create Canescent Mattekar Robe (10870) for Wield */
+     , (25717, 2,   118,  0, 14, 1, False) /* Create Cap (118) for Wield */;

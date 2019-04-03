@@ -441,6 +441,6 @@ VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 1090519043 /* Ready */, NULL, NU
      , (@parent_id,  3,  10 /* Tell */, 1, 1, NULL, 'I am interested in armoredillo spines and golem hearts of all kinds.  If you give me one I will craft an item from it, or give you something else of value.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (3932, 2,   127,  0, 17, 1, False) /* Create Pants (127) for Wield */
-     , (3932, 2,   134,  0, 5, 0.67, False) /* Create Tunic (134) for Wield */
+VALUES (3932, 2,   134,  0, 5, 0.67, False) /* Create Tunic (134) for Wield */
+     , (3932, 2,   127,  0, 17, 1, False) /* Create Pants (127) for Wield */
      , (3932, 2,  2606,  0, 4, 0.8, False) /* Create Boots (2606) for Wield */;

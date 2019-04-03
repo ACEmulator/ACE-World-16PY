@@ -148,7 +148,7 @@ VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 1090519043 /* Ready */, NULL, NU
      , (@parent_id,  3,  10 /* Tell */, 1, 1, NULL, 'It is good to be home.  I have the deepest gratitude for the heroes who reclaimed my town from the Virindi.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (6872, 2,   128,  0, 9, 1, False) /* Create Qafiya (128) for Wield */
+VALUES (6872, 2,  2587,  0, 9, 1, False) /* Create Shirt (2587) for Wield */
+     , (6872, 2,  2601,  0, 9, 0, False) /* Create Pants (2601) for Wield */
      , (6872, 2,   133,  0, 4, 0.68, False) /* Create Slippers (133) for Wield */
-     , (6872, 2,  2587,  0, 9, 1, False) /* Create Shirt (2587) for Wield */
-     , (6872, 2,  2601,  0, 9, 0, False) /* Create Pants (2601) for Wield */;
+     , (6872, 2,   128,  0, 9, 1, False) /* Create Qafiya (128) for Wield */;

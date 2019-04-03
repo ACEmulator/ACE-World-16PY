@@ -183,8 +183,8 @@ VALUES (@parent_id,  0,  12 /* TurnToTarget */, 0, 1, NULL, NULL, NULL, NULL, NU
      , (@parent_id,  2,   3 /* Give */, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0 /* Undef */, 2024 /* Lilitha's Bow */, 1, 0, 0, False, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (22818, 2,   126,  0, 4, 0.6, False) /* Create Leggings (126) for Wield */
+VALUES (22818, 2,   339,  0, 0, 0, False) /* Create Scimitar (339) for Wield */
      , (22818, 2,   130,  0, 9, 0, False) /* Create Shirt (130) for Wield */
+     , (22818, 2,   126,  0, 4, 0.6, False) /* Create Leggings (126) for Wield */
      , (22818, 2,   133,  0, 16, 1, False) /* Create Slippers (133) for Wield */
-     , (22818, 2,   339,  0, 0, 0, False) /* Create Scimitar (339) for Wield */
      , (22818, 2, 10696,  0, 4, 0.5, False) /* Create Apron (10696) for Wield */;

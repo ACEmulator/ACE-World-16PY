@@ -396,12 +396,12 @@ VALUES (@parent_id,  0,  12 /* TurnToTarget */, 0, 1, NULL, NULL, NULL, NULL, NU
      , (@parent_id,  1,  10 /* Tell */, 0, 1, NULL, 'This appears to be part of a much larger work. I cannot glean any useful information from this. Return to me when you find all of the pieces.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (30906, 2,   127,  0, 2, 0, False) /* Create Pants (127) for Wield */
-     , (30906, 2,   130,  0, 2, 1, False) /* Create Shirt (130) for Wield */
+VALUES (30906, 2,   130,  0, 2, 1, False) /* Create Shirt (130) for Wield */
+     , (30906, 2,   127,  0, 2, 0, False) /* Create Pants (127) for Wield */
      , (30906, 2, 24945,  0, 0, 0, False) /* Create Antius' Celdon Breastplate (24945) for Wield */
      , (30906, 2, 24946,  0, 0, 0, False) /* Create Antius' Celdon Gauntlets (24946) for Wield */
      , (30906, 2, 24947,  0, 0, 0, False) /* Create Antius' Celdon Girth (24947) for Wield */
      , (30906, 2, 24948,  0, 0, 0, False) /* Create Antius' Celdon Helm (24948) for Wield */
      , (30906, 2, 24949,  0, 0, 0, False) /* Create Antius' Celdon Leggings (24949) for Wield */
-     , (30906, 2, 24950,  0, 0, 0, False) /* Create Antius' Celdon Sollerets (24950) for Wield */
-     , (30906, 2, 24956,  0, 0, 0, False) /* Create Antius' Celdon Sleeves (24956) for Wield */;
+     , (30906, 2, 24956,  0, 0, 0, False) /* Create Antius' Celdon Sleeves (24956) for Wield */
+     , (30906, 2, 24950,  0, 0, 0, False) /* Create Antius' Celdon Sollerets (24950) for Wield */;

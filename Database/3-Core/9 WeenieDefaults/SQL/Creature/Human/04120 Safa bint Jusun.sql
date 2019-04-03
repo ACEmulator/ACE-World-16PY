@@ -289,6 +289,6 @@ VALUES (@parent_id,  0,  12 /* TurnToTarget */, 0, 1, NULL, NULL, NULL, NULL, NU
      , (@parent_id,  3,   5 /* Motion */, 0, 1, 318767234 /* MimeDrink */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (4120, 2,   132,  0, 4, 0.8, False) /* Create Shoes (132) for Wield */
-     , (4120, 2,  2596,  0, 4, 1, False) /* Create Doublet (2596) for Wield */
-     , (4120, 2,  2604,  0, 9, 1, False) /* Create Breeches (2604) for Wield */;
+VALUES (4120, 2,  2596,  0, 4, 1, False) /* Create Doublet (2596) for Wield */
+     , (4120, 2,  2604,  0, 9, 1, False) /* Create Breeches (2604) for Wield */
+     , (4120, 2,   132,  0, 4, 0.8, False) /* Create Shoes (132) for Wield */;

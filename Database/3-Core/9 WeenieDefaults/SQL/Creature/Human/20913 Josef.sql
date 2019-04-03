@@ -316,6 +316,6 @@ VALUES (@parent_id,  0,  12 /* TurnToTarget */, 0, 1, NULL, NULL, NULL, NULL, NU
      , (@parent_id,  8,  10 /* Tell */, 1, 1, NULL, 'Good luck, friend.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (20913, 2,   127,  0, 13, 0, False) /* Create Pants (127) for Wield */
-     , (20913, 2,   133,  0, 14, 0.8, False) /* Create Slippers (133) for Wield */
-     , (20913, 2,   134,  0, 8, 1, False) /* Create Tunic (134) for Wield */;
+VALUES (20913, 2,   134,  0, 8, 1, False) /* Create Tunic (134) for Wield */
+     , (20913, 2,   127,  0, 13, 0, False) /* Create Pants (127) for Wield */
+     , (20913, 2,   133,  0, 14, 0.8, False) /* Create Slippers (133) for Wield */;

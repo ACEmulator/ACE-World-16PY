@@ -37,21 +37,21 @@ VALUES (8156,   1,   33554817) /* Setup */
      , (8156,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (8156, 1,   625, 25, 0, 0, False) /* Create Ginseng (625) for Contain */
-     , (8156, 1,   765, 25, 0, 0, False) /* Create Amaranth (765) for Contain */
-     , (8156, 1,   766, 25, 0, 0, False) /* Create Bistort (766) for Contain */
-     , (8156, 1,   767, 25, 0, 0, False) /* Create Comfrey (767) for Contain */
+VALUES (8156, 1,   774, 25, 0, 0, False) /* Create Hyssop (774) for Contain */
+     , (8156, 1,   775, 25, 0, 0, False) /* Create Mandrake (775) for Contain */
+     , (8156, 1,   778, 25, 0, 0, False) /* Create Saffron (778) for Contain */
      , (8156, 1,   768, 25, 0, 0, False) /* Create Damiana (768) for Contain */
-     , (8156, 1,   769, 25, 0, 0, False) /* Create Dragonsblood (769) for Contain */
+     , (8156, 1,   776, 25, 0, 0, False) /* Create Mugwort (776) for Contain */
+     , (8156, 1,   766, 25, 0, 0, False) /* Create Bistort (766) for Contain */
+     , (8156, 1,   780, 25, 0, 0, False) /* Create Wormwood (780) for Contain */
+     , (8156, 1,   765, 25, 0, 0, False) /* Create Amaranth (765) for Contain */
+     , (8156, 1,   625, 25, 0, 0, False) /* Create Ginseng (625) for Contain */
+     , (8156, 1,   772, 25, 0, 0, False) /* Create Hawthorn (772) for Contain */
      , (8156, 1,   770, 25, 0, 0, False) /* Create Eyebright (770) for Contain */
      , (8156, 1,   771, 25, 0, 0, False) /* Create Frankincense (771) for Contain */
-     , (8156, 1,   772, 25, 0, 0, False) /* Create Hawthorn (772) for Contain */
+     , (8156, 1,   769, 25, 0, 0, False) /* Create Dragonsblood (769) for Contain */
      , (8156, 1,   773, 25, 0, 0, False) /* Create Henbane (773) for Contain */
-     , (8156, 1,   774, 25, 0, 0, False) /* Create Hyssop (774) for Contain */
-     , (8156, 1,   775, 25, 0, 0, False) /* Create Mandrake (775) for Contain */
-     , (8156, 1,   776, 25, 0, 0, False) /* Create Mugwort (776) for Contain */
-     , (8156, 1,   777, 25, 0, 0, False) /* Create Myrrh (777) for Contain */
-     , (8156, 1,   778, 25, 0, 0, False) /* Create Saffron (778) for Contain */
+     , (8156, 1,   767, 25, 0, 0, False) /* Create Comfrey (767) for Contain */
+     , (8156, 1,   781, 25, 0, 0, False) /* Create Yarrow (781) for Contain */
      , (8156, 1,   779, 25, 0, 0, False) /* Create Vervain (779) for Contain */
-     , (8156, 1,   780, 25, 0, 0, False) /* Create Wormwood (780) for Contain */
-     , (8156, 1,   781, 25, 0, 0, False) /* Create Yarrow (781) for Contain */;
+     , (8156, 1,   777, 25, 0, 0, False) /* Create Myrrh (777) for Contain */;

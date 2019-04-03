@@ -308,7 +308,7 @@ VALUES (@parent_id,  0,   8 /* Say */, 0, 0, NULL, 'That was pretty good, you al
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (14466, 1,  5758,  2, 0, 0, False) /* Create Carrot (5758) for Contain */
-     , (14466, 1,  5768,  2, 0, 0, False) /* Create Poofy Snowball (5768) for Contain */
      , (14466, 1,  7835,  2, 0, 0, False) /* Create Magic Iceball (7835) for Contain */
+     , (14466, 1,  5768,  2, 0, 0, False) /* Create Poofy Snowball (5768) for Contain */
      , (14466, 1, 22825,  1, 0, 0, False) /* Create A Lump of Coal (22825) for Contain */
      , (14466, 2,  5769, 12, 0, 0, False) /* Create Iceball (5769) for Wield */;

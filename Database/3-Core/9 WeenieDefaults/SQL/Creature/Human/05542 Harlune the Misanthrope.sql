@@ -340,7 +340,7 @@ VALUES (@parent_id,  0,   3 /* Give */, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL
      , (@parent_id,  2,   5 /* Motion */, 1, 1, 318767240 /* Akimbo */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (5542, 2,    43,  0, 21, 1, False) /* Create Yoroi Breastplate (43) for Wield */
+VALUES (5542, 2,   134,  0, 9, 0, False) /* Create Tunic (134) for Wield */
      , (5542, 2,   127,  0, 9, 0, False) /* Create Pants (127) for Wield */
      , (5542, 2,   132,  0, 4, 0.8, False) /* Create Shoes (132) for Wield */
-     , (5542, 2,   134,  0, 9, 0, False) /* Create Tunic (134) for Wield */;
+     , (5542, 2,    43,  0, 21, 1, False) /* Create Yoroi Breastplate (43) for Wield */;

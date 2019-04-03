@@ -176,5 +176,5 @@ VALUES (@parent_id,  0,  17 /* LocalBroadcast */, 0, 0, NULL, '%s has slain the 
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (6830, 8,  6815,  0, 0, 1, False) /* Create Spire Key Chunk - Cragstone (6815) for Treasure */
-     , (6830, 9,     0,  0, 0, 0.97, False) /* Create nothing for ContainTreasure */
-     , (6830, 9,  6060,  0, 0, 0.03, False) /* Create Dark Speck (6060) for ContainTreasure */;
+     , (6830, 9,  6060,  0, 0, 0.03, False) /* Create Dark Speck (6060) for ContainTreasure */
+     , (6830, 9,     0,  0, 0, 0.97, False) /* Create nothing for ContainTreasure */;

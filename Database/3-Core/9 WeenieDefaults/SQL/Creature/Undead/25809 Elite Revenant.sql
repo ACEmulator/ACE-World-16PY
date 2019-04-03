@@ -145,17 +145,17 @@ VALUES (25809,  94) /* ATTACK_NOTIFICATION_EVENT */
      , (25809, 414) /* PLAYER_DEATH_EVENT */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (25809, 9,     0,  0, 0, 0.98, False) /* Create nothing for ContainTreasure */
-     , (25809, 9,     0,  0, 0, 0.95, False) /* Create nothing for ContainTreasure */
+VALUES (25809, 9,  6876,  0, 0, 0.02, False) /* Create Sturdy Iron Key (6876) for ContainTreasure */
      , (25809, 9,     0,  0, 0, 0.98, False) /* Create nothing for ContainTreasure */
-     , (25809, 9,     0,  0, 0, 0.96, False) /* Create nothing for ContainTreasure */
-     , (25809, 9,     0,  0, 0, 0.95, False) /* Create nothing for ContainTreasure */
-     , (25809, 9,     0,  0, 0, 0.95, False) /* Create nothing for ContainTreasure */
-     , (25809, 9,     0,  0, 0, 0.95, False) /* Create nothing for ContainTreasure */
-     , (25809, 9,  6876,  0, 0, 0.02, False) /* Create Sturdy Iron Key (6876) for ContainTreasure */
-     , (25809, 9,  7045,  0, 0, 0.04, False) /* Create Dark Revenant Thighbone (7045) for ContainTreasure */
      , (25809, 9,  9310,  0, 0, 0.05, False) /* Create A Large Mnemosyne (9310) for ContainTreasure */
+     , (25809, 9,     0,  0, 0, 0.95, False) /* Create nothing for ContainTreasure */
      , (25809, 9, 24477,  0, 0, 0.02, False) /* Create Sturdy Steel Key (24477) for ContainTreasure */
-     , (25809, 9, 28872,  0, 0, 0.05, False) /* Create Armored Undead Arm  (28872) for ContainTreasure */
+     , (25809, 9,     0,  0, 0, 0.98, False) /* Create nothing for ContainTreasure */
+     , (25809, 9,  7045,  0, 0, 0.04, False) /* Create Dark Revenant Thighbone (7045) for ContainTreasure */
+     , (25809, 9,     0,  0, 0, 0.96, False) /* Create nothing for ContainTreasure */
      , (25809, 9, 28875,  0, 0, 0.05, False) /* Create Armored Undead Legs (28875) for ContainTreasure */
-     , (25809, 9, 28893,  0, 0, 0.05, False) /* Create Armored Undead Torso (28893) for ContainTreasure */;
+     , (25809, 9,     0,  0, 0, 0.95, False) /* Create nothing for ContainTreasure */
+     , (25809, 9, 28872,  0, 0, 0.05, False) /* Create Armored Undead Arm  (28872) for ContainTreasure */
+     , (25809, 9,     0,  0, 0, 0.95, False) /* Create nothing for ContainTreasure */
+     , (25809, 9, 28893,  0, 0, 0.05, False) /* Create Armored Undead Torso (28893) for ContainTreasure */
+     , (25809, 9,     0,  0, 0, 0.95, False) /* Create nothing for ContainTreasure */;

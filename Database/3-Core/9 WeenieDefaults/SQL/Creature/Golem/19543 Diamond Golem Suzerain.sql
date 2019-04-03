@@ -150,14 +150,14 @@ VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 1090519043 /* Ready */, NULL, NU
      , (@parent_id,  1,   5 /* Motion */, 0, 1, 1090519060 /* Sleeping */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (19543, 9,     0,  0, 0, 0.85, False) /* Create nothing for ContainTreasure */
-     , (19543, 9,     0,  0, 0, 0.98, False) /* Create nothing for ContainTreasure */
-     , (19543, 9,     0,  0, 0, 0.96, False) /* Create nothing for ContainTreasure */
-     , (19543, 9,     0,  0, 0, 0.96, False) /* Create nothing for ContainTreasure */
-     , (19543, 9,  6354,  0, 0, 0.04, False) /* Create Pyreal Nugget (6354) for ContainTreasure */
+VALUES (19543, 9,  7338,  0, 0, 0.15, False) /* Create Diamond Heart (7338) for ContainTreasure */
+     , (19543, 9,     0,  0, 0, 0.85, False) /* Create nothing for ContainTreasure */
      , (19543, 9,  6876,  0, 0, 0.02, False) /* Create Sturdy Iron Key (6876) for ContainTreasure */
-     , (19543, 9,  7338,  0, 0, 0.15, False) /* Create Diamond Heart (7338) for ContainTreasure */
-     , (19543, 9, 12689,  0, 0, 0.04, False) /* Create Diamond Powder (12689) for ContainTreasure */;
+     , (19543, 9,     0,  0, 0, 0.98, False) /* Create nothing for ContainTreasure */
+     , (19543, 9,  6354,  0, 0, 0.04, False) /* Create Pyreal Nugget (6354) for ContainTreasure */
+     , (19543, 9,     0,  0, 0, 0.96, False) /* Create nothing for ContainTreasure */
+     , (19543, 9, 12689,  0, 0, 0.04, False) /* Create Diamond Powder (12689) for ContainTreasure */
+     , (19543, 9,     0,  0, 0, 0.96, False) /* Create nothing for ContainTreasure */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (19543, -1, 7094, 10, 6, 6, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Synnast (7094) (x6 up to max of 6) - Regenerate upon Destruction - Location to (re)Generate: Scatter */;

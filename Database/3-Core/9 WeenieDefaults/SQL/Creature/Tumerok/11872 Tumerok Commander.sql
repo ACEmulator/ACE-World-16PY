@@ -148,6 +148,6 @@ VALUES (11872,  94) /* ATTACK_NOTIFICATION_EVENT */
      , (11872, 414) /* PLAYER_DEATH_EVENT */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (11872, 9,     0,  0, 0, 0.9, False) /* Create nothing for ContainTreasure */
-     , (11872, 9, 11861,  0, 0, 0.05, False) /* Create Reedshark Spear-Head (11861) for ContainTreasure */
-     , (11872, 9, 11862,  0, 0, 0.05, False) /* Create Reedshark Symbol (11862) for ContainTreasure */;
+VALUES (11872, 9, 11861,  0, 0, 0.05, False) /* Create Reedshark Spear-Head (11861) for ContainTreasure */
+     , (11872, 9, 11862,  0, 0, 0.05, False) /* Create Reedshark Symbol (11862) for ContainTreasure */
+     , (11872, 9,     0,  0, 0, 0.9, False) /* Create nothing for ContainTreasure */;

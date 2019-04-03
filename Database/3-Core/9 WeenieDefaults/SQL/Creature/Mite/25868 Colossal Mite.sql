@@ -111,7 +111,7 @@ VALUES (25868,  94) /* ATTACK_NOTIFICATION_EVENT */
      , (25868, 414) /* PLAYER_DEATH_EVENT */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (25868, 9,     0,  0, 0, 0, False) /* Create nothing for ContainTreasure */
-     , (25868, 9,     0,  0, 0, 0.97, False) /* Create nothing for ContainTreasure */
-     , (25868, 9, 25899,  1, 0, 1, False) /* Create Mite Leg Bone (25899) for ContainTreasure */
-     , (25868, 9, 30823,  0, 0, 0.03, False) /* Create Broken Black Marrow Key (30823) for ContainTreasure */;
+VALUES (25868, 9, 25899,  1, 0, 1, False) /* Create Mite Leg Bone (25899) for ContainTreasure */
+     , (25868, 9,     0,  0, 0, 0, False) /* Create nothing for ContainTreasure */
+     , (25868, 9, 30823,  0, 0, 0.03, False) /* Create Broken Black Marrow Key (30823) for ContainTreasure */
+     , (25868, 9,     0,  0, 0, 0.97, False) /* Create nothing for ContainTreasure */;

@@ -214,6 +214,6 @@ VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 1090519043 /* Ready */, NULL, NU
      , (@parent_id,  3,  10 /* Tell */, 1, 1, NULL, 'There are dark secrets in the heart of the jungle.  Consider yourself forewarned.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (8441, 2,   133,  0, 14, 0.68, False) /* Create Slippers (133) for Wield */
-     , (8441, 2,  2587,  0, 14, 1, False) /* Create Shirt (2587) for Wield */
-     , (8441, 2,  2601,  0, 9, 0, False) /* Create Pants (2601) for Wield */;
+VALUES (8441, 2,  2587,  0, 14, 1, False) /* Create Shirt (2587) for Wield */
+     , (8441, 2,  2601,  0, 9, 0, False) /* Create Pants (2601) for Wield */
+     , (8441, 2,   133,  0, 14, 0.68, False) /* Create Slippers (133) for Wield */;

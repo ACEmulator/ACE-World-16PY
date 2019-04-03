@@ -170,54 +170,54 @@ VALUES (4693, 2,   124,  0, 14, 0.8, False) /* Create Jerkin (124) for Wield */
      , (4693, 2,   133,  0, 14, 0.8, False) /* Create Slippers (133) for Wield */
      , (4693, 2,   135,  0, 9, 1, False) /* Create Turban (135) for Wield */
      , (4693, 2, 10696,  0, 18, 1, False) /* Create Apron (10696) for Wield */
-     , (4693, 4,    36, -1, 0, 0, False) /* Create Leather Bracers (36) for Shop */
-     , (4693, 4,    39, -1, 0, 0, False) /* Create Leather Breastplate (39) for Shop */
-     , (4693, 4,    44, -1, 0, 0, False) /* Create Buckler (44) for Shop */
-     , (4693, 4,    45, -1, 0, 0, False) /* Create Leather Cap (45) for Shop */
-     , (4693, 4,    56, -1, 0, 0, False) /* Create Leather Gauntlets (56) for Shop */
-     , (4693, 4,    60, -1, 0, 0, False) /* Create Leather Girth (60) for Shop */
-     , (4693, 4,    65, -1, 0, 0, False) /* Create Leather Greaves (65) for Shop */
-     , (4693, 4,    81, -1, 0, 0, False) /* Create Leather Leggings (81) for Shop */
-     , (4693, 4,    86, -1, 0, 0, False) /* Create Leather Pauldrons (86) for Shop */
-     , (4693, 4,   109, -1, 0, 0, False) /* Create Leather Tassets (109) for Shop */
-     , (4693, 4,   115, -1, 0, 0, False) /* Create Leather Boots (115) for Shop */
-     , (4693, 4,   136, -1, 14, 1, False) /* Create Pack (136) for Shop */
-     , (4693, 4,   139, -1, 85, 0, False) /* Create Small Belt Pouch (139) for Shop */
-     , (4693, 4,   151, -1, 0, 0, False) /* Create Empty Flask (151) for Shop */
-     , (4693, 4,   258, -1, 0, 0, False) /* Create Apple (258) for Shop */
-     , (4693, 4,   293, -1, 0, 0, False) /* Create Torch (293) for Shop */
-     , (4693, 4,   300, -1, 0, 0, False) /* Create Arrow (300) for Shop */
      , (4693, 4,   308, -1, 0, 0, False) /* Create Budiaq (308) for Shop */
      , (4693, 4,   316, -1, 0, 0, False) /* Create Throwing Dart (316) for Shop */
      , (4693, 4,   325, -1, 0, 0, False) /* Create Kasrullah (325) for Shop */
      , (4693, 4,   329, -1, 0, 0, False) /* Create Knife (329) for Shop */
+     , (4693, 4, 22163, -1, 0, 0, False) /* Create Nabut (22163) for Shop */
      , (4693, 4,   345, -1, 0, 0, False) /* Create Simi (345) for Shop */
      , (4693, 4,   357, -1, 0, 0, False) /* Create Tungi (357) for Shop */
-     , (4693, 4,   360, -1, 0, 0, False) /* Create Yag (360) for Shop */
-     , (4693, 4,   365, -1, 0, 0, False) /* Create Parchment (365) for Shop */
-     , (4693, 4,   458, -1, 0, 0, False) /* Create Leather Cowl (458) for Shop */
      , (4693, 4,   551, -1, 0, 0, False) /* Create Leather Basinet (551) for Shop */
-     , (4693, 4,  2621, -1, 0, 0, False) /* Create Trade Note (100) (2621) for Shop */
-     , (4693, 4,  4585, -1, 0, 0, False) /* Create Bundle of Arrowshafts (4585) for Shop */
+     , (4693, 4,   115, -1, 0, 0, False) /* Create Leather Boots (115) for Shop */
+     , (4693, 4,    36, -1, 0, 0, False) /* Create Leather Bracers (36) for Shop */
+     , (4693, 4,    39, -1, 0, 0, False) /* Create Leather Breastplate (39) for Shop */
+     , (4693, 4,    45, -1, 0, 0, False) /* Create Leather Cap (45) for Shop */
+     , (4693, 4,   458, -1, 0, 0, False) /* Create Leather Cowl (458) for Shop */
+     , (4693, 4,    56, -1, 0, 0, False) /* Create Leather Gauntlets (56) for Shop */
+     , (4693, 4,    60, -1, 0, 0, False) /* Create Leather Girth (60) for Shop */
+     , (4693, 4,    65, -1, 0, 0, False) /* Create Leather Greaves (65) for Shop */
+     , (4693, 4,   109, -1, 0, 0, False) /* Create Leather Tassets (109) for Shop */
+     , (4693, 4,    81, -1, 0, 0, False) /* Create Leather Leggings (81) for Shop */
+     , (4693, 4,    86, -1, 0, 0, False) /* Create Leather Pauldrons (86) for Shop */
+     , (4693, 4,    44, -1, 0, 0, False) /* Create Buckler (44) for Shop */
+     , (4693, 4,   360, -1, 0, 0, False) /* Create Yag (360) for Shop */
+     , (4693, 4,   300, -1, 0, 0, False) /* Create Arrow (300) for Shop */
      , (4693, 4,  4586, -1, 0, 0, False) /* Create Bundle of Arrowheads (4586) for Shop */
-     , (4693, 4,  4746, -1, 0, 0, False) /* Create Water (4746) for Shop */
+     , (4693, 4,  4585, -1, 0, 0, False) /* Create Bundle of Arrowshafts (4585) for Shop */
+     , (4693, 4,   258, -1, 0, 0, False) /* Create Apple (258) for Shop */
      , (4693, 4,  4761, -1, 0, 0, False) /* Create Flour (4761) for Shop */
+     , (4693, 4,  4746, -1, 0, 0, False) /* Create Water (4746) for Shop */
      , (4693, 4,  4762, -1, 0, 0, False) /* Create Frying Pan (4762) for Shop */
+     , (4693, 4,   365, -1, 0, 0, False) /* Create Parchment (365) for Shop */
+     , (4693, 4,   151, -1, 0, 0, False) /* Create Empty Flask (151) for Shop */
+     , (4693, 4,   293, -1, 0, 0, False) /* Create Torch (293) for Shop */
      , (4693, 4,  5778, -1, 0, 0, False) /* Create Whittling Knife (5778) for Shop */
+     , (4693, 4,   139, -1, 85, 0, False) /* Create Small Belt Pouch (139) for Shop */
+     , (4693, 4,   136, -1, 14, 1, False) /* Create Pack (136) for Shop */
+     , (4693, 4,  2621, -1, 0, 0, False) /* Create Trade Note (100) (2621) for Shop */
      , (4693, 4, 11929, -1, 0, 0, False) /* Create A Call To Arms (11929) for Shop */
-     , (4693, 4, 22163, -1, 0, 0, False) /* Create Nabut (22163) for Shop */
      , (4693, 4, 28535, -1, 0, 0, False) /* Create Arcanum Research Facility Directions (28535) for Shop */
      , (4693, 4, 28536, -1, 0, 0, False) /* Create Carved Cave Directions (28536) for Shop */
-     , (4693, 4, 28537, -1, 0, 0, False) /* Create The Desert March (28537) for Shop */
-     , (4693, 4, 28538, -1, 0, 0, False) /* Create The Forbidden Crypts (28538) for Shop */
      , (4693, 4, 28539, -1, 0, 0, False) /* Create The Mysterious Caves (28539) for Shop */
+     , (4693, 4, 28538, -1, 0, 0, False) /* Create The Forbidden Crypts (28538) for Shop */
      , (4693, 4, 28540, -1, 0, 0, False) /* Create The Lonely Vendors (28540) for Shop */
      , (4693, 4, 28541, -1, 0, 0, False) /* Create The Recovered Temple (28541) for Shop */
-     , (4693, 4, 28542, -1, 0, 0, False) /* Create The Crypt of Ashen Tears (28542) for Shop */
+     , (4693, 4, 28537, -1, 0, 0, False) /* Create The Desert March (28537) for Shop */
      , (4693, 4, 28543, -1, 0, 0, False) /* Create Seeking Research Associates (28543) for Shop */
-     , (4693, 4, 28545, -1, 0, 0, False) /* Create Public Request (28545) for Shop */
      , (4693, 4, 28546, -1, 0, 0, False) /* Create Nadqab: Archeologist or Extortionist? (28546) for Shop */
+     , (4693, 4, 28542, -1, 0, 0, False) /* Create The Crypt of Ashen Tears (28542) for Shop */
+     , (4693, 4, 28549, -1, 0, 0, False) /* Create The Bones House (28549) for Shop */
+     , (4693, 4, 28545, -1, 0, 0, False) /* Create Public Request (28545) for Shop */
      , (4693, 4, 28547, -1, 0, 0, False) /* Create The Scout's Report I (28547) for Shop */
      , (4693, 4, 28548, -1, 0, 0, False) /* Create The Scout's Report II (28548) for Shop */
-     , (4693, 4, 28549, -1, 0, 0, False) /* Create The Bones House (28549) for Shop */
      , (4693, 4, 28550, -1, 0, 0, False) /* Create Suntik Village (28550) for Shop */;

@@ -195,6 +195,6 @@ VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 1090519043 /* Ready */, NULL, NU
      , (@parent_id,  2,  10 /* Tell */, 0, 1, NULL, 'Yes, I have agreed to help Britana in her quest to fashion a new Hoary Mattekar Robe.  I don''t know where this new Mattekar is rumored to be, you would have to ask Britana.  I have to admit, I had never encountered a woman like Britana before back in my home village.  She is quite the woman.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (10866, 2,   127,  0, 8, 0.5, False) /* Create Pants (127) for Wield */
-     , (10866, 2,   130,  0, 2, 1, False) /* Create Shirt (130) for Wield */
+VALUES (10866, 2,   130,  0, 2, 1, False) /* Create Shirt (130) for Wield */
+     , (10866, 2,   127,  0, 8, 0.5, False) /* Create Pants (127) for Wield */
      , (10866, 2,   132,  0, 2, 0.5, False) /* Create Shoes (132) for Wield */;
