@@ -126,5 +126,5 @@ VALUES (24867, 2, 22545, 10, 0, 0, False) /* Create Obsidian Spines (22545) for 
      , (24867, 9,     0,  0, 0, 0.99, False) /* Create nothing for ContainTreasure */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (24867, -1, 24868, 5, 3, 3, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Sishalti Tendril (24868) (x3 up to max of 3) - Regenerate upon Destruction - Location to (re)Generate: Scatter */
-     , (24867, -1, 24869, 5, 3, 3, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Sishalti Tentacle (24869) (x3 up to max of 3) - Regenerate upon Destruction - Location to (re)Generate: Scatter */;
+VALUES (24867, -1, 24869, 5, 3, 3, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Sishalti Tentacle (24869) (x3 up to max of 3) - Regenerate upon Destruction - Location to (re)Generate: Scatter */
+     , (24867, -1, 24868, 5, 3, 3, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Sishalti Tendril (24868) (x3 up to max of 3) - Regenerate upon Destruction - Location to (re)Generate: Scatter */;
