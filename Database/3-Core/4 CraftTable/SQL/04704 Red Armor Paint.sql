@@ -20,37 +20,6 @@ INSERT INTO `recipe_mods_float` (`recipe_Mod_Id`, `stat`, `value`, `enum`, `sour
 VALUES (@parent_id,  12, 0.43225, 1, 1) /* Shade */;
 
 DELETE FROM `cook_book` WHERE `recipe_Id` = 4704;
-DELETE FROM `cook_book` WHERE `recipe_Id` = 4704;
-DELETE FROM `cook_book` WHERE `recipe_Id` = 4704;
-DELETE FROM `cook_book` WHERE `recipe_Id` = 4704;
-DELETE FROM `cook_book` WHERE `recipe_Id` = 4704;
-DELETE FROM `cook_book` WHERE `recipe_Id` = 4704;
-DELETE FROM `cook_book` WHERE `recipe_Id` = 4704;
-DELETE FROM `cook_book` WHERE `recipe_Id` = 4704;
-DELETE FROM `cook_book` WHERE `recipe_Id` = 4704;
-DELETE FROM `cook_book` WHERE `recipe_Id` = 4704;
-DELETE FROM `cook_book` WHERE `recipe_Id` = 4704;
-DELETE FROM `cook_book` WHERE `recipe_Id` = 4704;
-DELETE FROM `cook_book` WHERE `recipe_Id` = 4704;
-DELETE FROM `cook_book` WHERE `recipe_Id` = 4704;
-DELETE FROM `cook_book` WHERE `recipe_Id` = 4704;
-DELETE FROM `cook_book` WHERE `recipe_Id` = 4704;
-DELETE FROM `cook_book` WHERE `recipe_Id` = 4704;
-DELETE FROM `cook_book` WHERE `recipe_Id` = 4704;
-DELETE FROM `cook_book` WHERE `recipe_Id` = 4704;
-DELETE FROM `cook_book` WHERE `recipe_Id` = 4704;
-DELETE FROM `cook_book` WHERE `recipe_Id` = 4704;
-DELETE FROM `cook_book` WHERE `recipe_Id` = 4704;
-DELETE FROM `cook_book` WHERE `recipe_Id` = 4704;
-DELETE FROM `cook_book` WHERE `recipe_Id` = 4704;
-DELETE FROM `cook_book` WHERE `recipe_Id` = 4704;
-DELETE FROM `cook_book` WHERE `recipe_Id` = 4704;
-DELETE FROM `cook_book` WHERE `recipe_Id` = 4704;
-DELETE FROM `cook_book` WHERE `recipe_Id` = 4704;
-DELETE FROM `cook_book` WHERE `recipe_Id` = 4704;
-DELETE FROM `cook_book` WHERE `recipe_Id` = 4704;
-DELETE FROM `cook_book` WHERE `recipe_Id` = 4704;
-DELETE FROM `cook_book` WHERE `recipe_Id` = 4704;
 
 INSERT INTO `cook_book` (`recipe_Id`, `source_W_C_I_D`, `target_W_C_I_D`, `last_Modified`)
 VALUES (4704, 25817 /* Red Armor Paint */, 23793 /* Brilliant Celdon Breastplate */, '2005-02-09 10:00:00')

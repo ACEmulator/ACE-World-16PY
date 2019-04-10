@@ -20,23 +20,6 @@ INSERT INTO `recipe_mods_int` (`recipe_Mod_Id`, `stat`, `value`, `enum`, `source
 VALUES (@parent_id,   3, 87, 1, 1) /* PaletteTemplate - DyeBotched */;
 
 DELETE FROM `cook_book` WHERE `recipe_Id` = 3654;
-DELETE FROM `cook_book` WHERE `recipe_Id` = 3654;
-DELETE FROM `cook_book` WHERE `recipe_Id` = 3654;
-DELETE FROM `cook_book` WHERE `recipe_Id` = 3654;
-DELETE FROM `cook_book` WHERE `recipe_Id` = 3654;
-DELETE FROM `cook_book` WHERE `recipe_Id` = 3654;
-DELETE FROM `cook_book` WHERE `recipe_Id` = 3654;
-DELETE FROM `cook_book` WHERE `recipe_Id` = 3654;
-DELETE FROM `cook_book` WHERE `recipe_Id` = 3654;
-DELETE FROM `cook_book` WHERE `recipe_Id` = 3654;
-DELETE FROM `cook_book` WHERE `recipe_Id` = 3654;
-DELETE FROM `cook_book` WHERE `recipe_Id` = 3654;
-DELETE FROM `cook_book` WHERE `recipe_Id` = 3654;
-DELETE FROM `cook_book` WHERE `recipe_Id` = 3654;
-DELETE FROM `cook_book` WHERE `recipe_Id` = 3654;
-DELETE FROM `cook_book` WHERE `recipe_Id` = 3654;
-DELETE FROM `cook_book` WHERE `recipe_Id` = 3654;
-DELETE FROM `cook_book` WHERE `recipe_Id` = 3654;
 
 INSERT INTO `cook_book` (`recipe_Id`, `source_W_C_I_D`, `target_W_C_I_D`, `last_Modified`)
 VALUES (3654, 8043 /* Verdalim Dye Pot */, 16920 /* Flag */, '2005-02-09 10:00:00')

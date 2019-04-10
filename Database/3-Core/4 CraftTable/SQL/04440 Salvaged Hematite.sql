@@ -29,14 +29,6 @@ INSERT INTO `recipe_mods_string` (`recipe_Mod_Id`, `stat`, `value`, `enum`, `sou
 VALUES (@parent_id,  40, NULL, 3, 0) /* ImbuerName */;
 
 DELETE FROM `cook_book` WHERE `recipe_Id` = 4440;
-DELETE FROM `cook_book` WHERE `recipe_Id` = 4440;
-DELETE FROM `cook_book` WHERE `recipe_Id` = 4440;
-DELETE FROM `cook_book` WHERE `recipe_Id` = 4440;
-DELETE FROM `cook_book` WHERE `recipe_Id` = 4440;
-DELETE FROM `cook_book` WHERE `recipe_Id` = 4440;
-DELETE FROM `cook_book` WHERE `recipe_Id` = 4440;
-DELETE FROM `cook_book` WHERE `recipe_Id` = 4440;
-DELETE FROM `cook_book` WHERE `recipe_Id` = 4440;
 
 INSERT INTO `cook_book` (`recipe_Id`, `source_W_C_I_D`, `target_W_C_I_D`, `last_Modified`)
 VALUES (4440, 21053 /* Salvaged Hematite */,   294 /* Amulet */, '2005-02-09 10:00:00')
