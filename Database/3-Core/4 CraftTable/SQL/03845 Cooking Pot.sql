@@ -22,23 +22,6 @@ VALUES (@parent_id,   3, 87, 1, 1) /* PaletteTemplate - DyeBotched */
      , (@parent_id,  28, -30, 2, 60) /* ArmorLevel */;
 
 DELETE FROM `cook_book` WHERE `recipe_Id` = 3845;
-DELETE FROM `cook_book` WHERE `recipe_Id` = 3845;
-DELETE FROM `cook_book` WHERE `recipe_Id` = 3845;
-DELETE FROM `cook_book` WHERE `recipe_Id` = 3845;
-DELETE FROM `cook_book` WHERE `recipe_Id` = 3845;
-DELETE FROM `cook_book` WHERE `recipe_Id` = 3845;
-DELETE FROM `cook_book` WHERE `recipe_Id` = 3845;
-DELETE FROM `cook_book` WHERE `recipe_Id` = 3845;
-DELETE FROM `cook_book` WHERE `recipe_Id` = 3845;
-DELETE FROM `cook_book` WHERE `recipe_Id` = 3845;
-DELETE FROM `cook_book` WHERE `recipe_Id` = 3845;
-DELETE FROM `cook_book` WHERE `recipe_Id` = 3845;
-DELETE FROM `cook_book` WHERE `recipe_Id` = 3845;
-DELETE FROM `cook_book` WHERE `recipe_Id` = 3845;
-DELETE FROM `cook_book` WHERE `recipe_Id` = 3845;
-DELETE FROM `cook_book` WHERE `recipe_Id` = 3845;
-DELETE FROM `cook_book` WHERE `recipe_Id` = 3845;
-DELETE FROM `cook_book` WHERE `recipe_Id` = 3845;
 
 INSERT INTO `cook_book` (`recipe_Id`, `source_W_C_I_D`, `target_W_C_I_D`, `last_Modified`)
 VALUES (3845, 8043 /* Verdalim Dye Pot */, 14906 /* Wedding Raiment */, '2005-02-09 10:00:00')
