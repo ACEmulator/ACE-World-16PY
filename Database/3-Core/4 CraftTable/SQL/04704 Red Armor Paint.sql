@@ -8,16 +8,16 @@ VALUES (4704, True, 0, 0, 0, True, 0, 0, 0);
 
 SET @parent_id = LAST_INSERT_ID();
 
-INSERT INTO `recipe_mods_float` (`recipe_Mod_Id`, `stat`, `value`, `enum`, `source`)
-VALUES (@parent_id,  12, 0.43225, 1, 1) /* Shade */;
+INSERT INTO `recipe_mods_float` (`recipe_Mod_Id`, `index`, `stat`, `value`, `enum`, `source`)
+VALUES (@parent_id, 0,  12, 0.43225, 1, 1) /* Shade */;
 
 INSERT INTO `recipe_mod` (`recipe_Id`, `executes_On_Success`, `health`, `stamina`, `mana`, `unknown_7`, `data_Id`, `unknown_9`, `instance_Id`)
 VALUES (4704, False, 0, 0, 0, True, 0, 0, 0);
 
 SET @parent_id = LAST_INSERT_ID();
 
-INSERT INTO `recipe_mods_float` (`recipe_Mod_Id`, `stat`, `value`, `enum`, `source`)
-VALUES (@parent_id,  12, 0.43225, 1, 1) /* Shade */;
+INSERT INTO `recipe_mods_float` (`recipe_Mod_Id`, `index`, `stat`, `value`, `enum`, `source`)
+VALUES (@parent_id, 4,  12, 0.43225, 1, 1) /* Shade */;
 
 DELETE FROM `cook_book` WHERE `recipe_Id` = 4704;
 

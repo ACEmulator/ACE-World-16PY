@@ -3,11 +3,11 @@ DELETE FROM `recipe` WHERE `id` = 4426;
 INSERT INTO `recipe` (`id`, `unknown_1`, `skill`, `difficulty`, `salvage_Type`, `success_W_C_I_D`, `success_Amount`, `success_Message`, `fail_W_C_I_D`, `fail_Amount`, `fail_Message`, `success_Destroy_Source_Chance`, `success_Destroy_Source_Amount`, `success_Destroy_Source_Message`, `success_Destroy_Target_Chance`, `success_Destroy_Target_Amount`, `success_Destroy_Target_Message`, `fail_Destroy_Source_Chance`, `fail_Destroy_Source_Amount`, `fail_Destroy_Source_Message`, `fail_Destroy_Target_Chance`, `fail_Destroy_Target_Amount`, `fail_Destroy_Target_Message`, `data_Id`, `last_Modified`)
 VALUES (4426, 0, 0, 0, 0, 0, 0, 'You apply the leather.', 0, 0, 'You apply the leather, but in the process you destroy the target.', 1, 1, NULL, 0, 0, NULL, 1, 1, NULL, 0, 0, NULL, 0, '2005-02-09 10:00:00');
 
-INSERT INTO `recipe_requirements_int` (`recipe_Id`, `stat`, `value`, `enum`, `message`)
-VALUES (4426,  92, 100, 2, 'The material is not complete!') /* Structure */;
+INSERT INTO `recipe_requirements_int` (`recipe_Id`, `index`, `stat`, `value`, `enum`, `message`)
+VALUES (4426, 1,  92, 100, 2, 'The material is not complete!') /* Structure */;
 
-INSERT INTO `recipe_requirements_bool` (`recipe_Id`, `stat`, `value`, `enum`, `message`)
-VALUES (4426,  91, True, 6, 'The target is already retained!') /* Retained */;
+INSERT INTO `recipe_requirements_bool` (`recipe_Id`, `index`, `stat`, `value`, `enum`, `message`)
+VALUES (4426, 0,  91, True, 6, 'The target is already retained!') /* Retained */;
 
 INSERT INTO `recipe_mod` (`recipe_Id`, `executes_On_Success`, `health`, `stamina`, `mana`, `unknown_7`, `data_Id`, `unknown_9`, `instance_Id`)
 VALUES (4426, True, 0, 0, 0, False, 939524163, 0, 0);

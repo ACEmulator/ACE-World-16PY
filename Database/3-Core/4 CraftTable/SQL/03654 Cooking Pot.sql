@@ -8,16 +8,16 @@ VALUES (3654, True, 0, 0, 0, True, 0, 0, 0);
 
 SET @parent_id = LAST_INSERT_ID();
 
-INSERT INTO `recipe_mods_int` (`recipe_Mod_Id`, `stat`, `value`, `enum`, `source`)
-VALUES (@parent_id,   3, 0, 3, 1) /* PaletteTemplate - Undef */;
+INSERT INTO `recipe_mods_int` (`recipe_Mod_Id`, `index`, `stat`, `value`, `enum`, `source`)
+VALUES (@parent_id, 1,   3, 0, 3, 1) /* PaletteTemplate - Undef */;
 
 INSERT INTO `recipe_mod` (`recipe_Id`, `executes_On_Success`, `health`, `stamina`, `mana`, `unknown_7`, `data_Id`, `unknown_9`, `instance_Id`)
 VALUES (3654, False, 0, 0, 0, True, 0, 0, 0);
 
 SET @parent_id = LAST_INSERT_ID();
 
-INSERT INTO `recipe_mods_int` (`recipe_Mod_Id`, `stat`, `value`, `enum`, `source`)
-VALUES (@parent_id,   3, 87, 1, 1) /* PaletteTemplate - DyeBotched */;
+INSERT INTO `recipe_mods_int` (`recipe_Mod_Id`, `index`, `stat`, `value`, `enum`, `source`)
+VALUES (@parent_id, 4,   3, 87, 1, 1) /* PaletteTemplate - DyeBotched */;
 
 DELETE FROM `cook_book` WHERE `recipe_Id` = 3654;
 
