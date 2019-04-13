@@ -8,22 +8,22 @@ VALUES (1885, True, 0, 0, 0, False, 0, 0, 0);
 
 SET @parent_id = LAST_INSERT_ID();
 
-INSERT INTO `recipe_mods_i_i_d` (`recipe_Mod_Id`, `stat`, `value`, `enum`, `source`)
-VALUES (@parent_id,  31, 0, 4, 1) /* AllowedActivator */;
+INSERT INTO `recipe_mods_i_i_d` (`recipe_Mod_Id`, `index`, `stat`, `value`, `enum`, `source`)
+VALUES (@parent_id, 3,  31, 0, 4, 1) /* AllowedActivator */;
 
-INSERT INTO `recipe_mods_string` (`recipe_Mod_Id`, `stat`, `value`, `enum`, `source`)
-VALUES (@parent_id,  25, NULL, 4, 1) /* CraftsmanName */;
+INSERT INTO `recipe_mods_string` (`recipe_Mod_Id`, `index`, `stat`, `value`, `enum`, `source`)
+VALUES (@parent_id, 3,  25, NULL, 4, 1) /* CraftsmanName */;
 
 INSERT INTO `recipe_mod` (`recipe_Id`, `executes_On_Success`, `health`, `stamina`, `mana`, `unknown_7`, `data_Id`, `unknown_9`, `instance_Id`)
 VALUES (1885, False, 0, 0, 0, False, 0, 0, 0);
 
 SET @parent_id = LAST_INSERT_ID();
 
-INSERT INTO `recipe_mods_i_i_d` (`recipe_Mod_Id`, `stat`, `value`, `enum`, `source`)
-VALUES (@parent_id,  31, 0, 4, 1) /* AllowedActivator */;
+INSERT INTO `recipe_mods_i_i_d` (`recipe_Mod_Id`, `index`, `stat`, `value`, `enum`, `source`)
+VALUES (@parent_id, 7,  31, 0, 4, 1) /* AllowedActivator */;
 
-INSERT INTO `recipe_mods_string` (`recipe_Mod_Id`, `stat`, `value`, `enum`, `source`)
-VALUES (@parent_id,  25, NULL, 4, 1) /* CraftsmanName */;
+INSERT INTO `recipe_mods_string` (`recipe_Mod_Id`, `index`, `stat`, `value`, `enum`, `source`)
+VALUES (@parent_id, 7,  25, NULL, 4, 1) /* CraftsmanName */;
 
 DELETE FROM `cook_book` WHERE `recipe_Id` = 1885;
 

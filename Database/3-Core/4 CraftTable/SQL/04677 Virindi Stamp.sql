@@ -8,44 +8,44 @@ VALUES (4677, True, 0, 0, 0, True, 0, 0, 0);
 
 SET @parent_id = LAST_INSERT_ID();
 
-INSERT INTO `recipe_mods_d_i_d` (`recipe_Mod_Id`, `stat`, `value`, `enum`, `source`)
-VALUES (@parent_id,   7, 268436744, 1, 1) /* ClothingBase */;
+INSERT INTO `recipe_mods_d_i_d` (`recipe_Mod_Id`, `index`, `stat`, `value`, `enum`, `source`)
+VALUES (@parent_id, 0,   7, 268436744, 1, 1) /* ClothingBase */;
 
-INSERT INTO `recipe_mods_string` (`recipe_Mod_Id`, `stat`, `value`, `enum`, `source`)
-VALUES (@parent_id,   1, 'Shield of Power', 1, 1) /* Name */;
+INSERT INTO `recipe_mods_string` (`recipe_Mod_Id`, `index`, `stat`, `value`, `enum`, `source`)
+VALUES (@parent_id, 0,   1, 'Shield of Power', 1, 1) /* Name */;
 
 INSERT INTO `recipe_mod` (`recipe_Id`, `executes_On_Success`, `health`, `stamina`, `mana`, `unknown_7`, `data_Id`, `unknown_9`, `instance_Id`)
 VALUES (4677, True, 0, 0, 0, True, 0, 0, 0);
 
 SET @parent_id = LAST_INSERT_ID();
 
-INSERT INTO `recipe_mods_d_i_d` (`recipe_Mod_Id`, `stat`, `value`, `enum`, `source`)
-VALUES (@parent_id,  50, 0, 3, 1) /* IconOverlay */;
+INSERT INTO `recipe_mods_d_i_d` (`recipe_Mod_Id`, `index`, `stat`, `value`, `enum`, `source`)
+VALUES (@parent_id, 1,  50, 0, 3, 1) /* IconOverlay */;
 
-INSERT INTO `recipe_mods_float` (`recipe_Mod_Id`, `stat`, `value`, `enum`, `source`)
-VALUES (@parent_id,  12, 0, 3, 1) /* Shade */;
+INSERT INTO `recipe_mods_float` (`recipe_Mod_Id`, `index`, `stat`, `value`, `enum`, `source`)
+VALUES (@parent_id, 1,  12, 0, 3, 1) /* Shade */;
 
 INSERT INTO `recipe_mod` (`recipe_Id`, `executes_On_Success`, `health`, `stamina`, `mana`, `unknown_7`, `data_Id`, `unknown_9`, `instance_Id`)
 VALUES (4677, False, 0, 0, 0, True, 939524111, 1, 0);
 
 SET @parent_id = LAST_INSERT_ID();
 
-INSERT INTO `recipe_mods_d_i_d` (`recipe_Mod_Id`, `stat`, `value`, `enum`, `source`)
-VALUES (@parent_id,   7, 268436744, 1, 1) /* ClothingBase */;
+INSERT INTO `recipe_mods_d_i_d` (`recipe_Mod_Id`, `index`, `stat`, `value`, `enum`, `source`)
+VALUES (@parent_id, 4,   7, 268436744, 1, 1) /* ClothingBase */;
 
-INSERT INTO `recipe_mods_string` (`recipe_Mod_Id`, `stat`, `value`, `enum`, `source`)
-VALUES (@parent_id,   1, 'Shield of Power', 1, 1) /* Name */;
+INSERT INTO `recipe_mods_string` (`recipe_Mod_Id`, `index`, `stat`, `value`, `enum`, `source`)
+VALUES (@parent_id, 4,   1, 'Shield of Power', 1, 1) /* Name */;
 
 INSERT INTO `recipe_mod` (`recipe_Id`, `executes_On_Success`, `health`, `stamina`, `mana`, `unknown_7`, `data_Id`, `unknown_9`, `instance_Id`)
 VALUES (4677, False, 0, 0, 0, True, 0, 0, 0);
 
 SET @parent_id = LAST_INSERT_ID();
 
-INSERT INTO `recipe_mods_d_i_d` (`recipe_Mod_Id`, `stat`, `value`, `enum`, `source`)
-VALUES (@parent_id,  51, 0, 3, 1) /* IconOverlaySecondary */;
+INSERT INTO `recipe_mods_d_i_d` (`recipe_Mod_Id`, `index`, `stat`, `value`, `enum`, `source`)
+VALUES (@parent_id, 5,  51, 0, 3, 1) /* IconOverlaySecondary */;
 
-INSERT INTO `recipe_mods_float` (`recipe_Mod_Id`, `stat`, `value`, `enum`, `source`)
-VALUES (@parent_id,  12, 0, 3, 1) /* Shade */;
+INSERT INTO `recipe_mods_float` (`recipe_Mod_Id`, `index`, `stat`, `value`, `enum`, `source`)
+VALUES (@parent_id, 5,  12, 0, 3, 1) /* Shade */;
 
 DELETE FROM `cook_book` WHERE `recipe_Id` = 4677;
 
