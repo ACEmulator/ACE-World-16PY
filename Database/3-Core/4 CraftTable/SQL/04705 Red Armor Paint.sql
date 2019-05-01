@@ -9,7 +9,7 @@ VALUES (4705, True, 0, 0, 0, True, 0, 0, 0);
 SET @parent_id = LAST_INSERT_ID();
 
 INSERT INTO `recipe_mods_float` (`recipe_Mod_Id`, `index`, `stat`, `value`, `enum`, `source`)
-VALUES (@parent_id, 0,  12, 0.75, 1, 1) /* Shade */;
+VALUES (@parent_id, 0,  12, 0.75, 1, 1) /* On Source.SuccessTarget SetValue Shade to Target */;
 
 INSERT INTO `recipe_mod` (`recipe_Id`, `executes_On_Success`, `health`, `stamina`, `mana`, `unknown_7`, `data_Id`, `unknown_9`, `instance_Id`)
 VALUES (4705, False, 0, 0, 0, True, 0, 0, 0);
@@ -17,7 +17,7 @@ VALUES (4705, False, 0, 0, 0, True, 0, 0, 0);
 SET @parent_id = LAST_INSERT_ID();
 
 INSERT INTO `recipe_mods_float` (`recipe_Mod_Id`, `index`, `stat`, `value`, `enum`, `source`)
-VALUES (@parent_id, 4,  12, 0.75, 1, 1) /* Shade */;
+VALUES (@parent_id, 4,  12, 0.75, 1, 1) /* On Source.FailureTarget SetValue Shade to Target */;
 
 DELETE FROM `cook_book` WHERE `recipe_Id` = 4705;
 
