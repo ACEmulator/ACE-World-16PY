@@ -9,7 +9,7 @@ VALUES (3844, True, 0, 0, 0, True, 0, 0, 0);
 SET @parent_id = LAST_INSERT_ID();
 
 INSERT INTO `recipe_mods_int` (`recipe_Mod_Id`, `index`, `stat`, `value`, `enum`, `source`)
-VALUES (@parent_id, 1,   3, 0, 3, 1) /* PaletteTemplate - Undef */;
+VALUES (@parent_id, 1,   3, 0, 3, 1) /* On Source.SuccessSource CopyFromSourceToTarget PaletteTemplate - Undef to Source */;
 
 INSERT INTO `recipe_mod` (`recipe_Id`, `executes_On_Success`, `health`, `stamina`, `mana`, `unknown_7`, `data_Id`, `unknown_9`, `instance_Id`)
 VALUES (3844, False, 0, 0, 0, True, 0, 0, 0);
@@ -17,9 +17,9 @@ VALUES (3844, False, 0, 0, 0, True, 0, 0, 0);
 SET @parent_id = LAST_INSERT_ID();
 
 INSERT INTO `recipe_mods_int` (`recipe_Mod_Id`, `index`, `stat`, `value`, `enum`, `source`)
-VALUES (@parent_id, 4,   3, 87, 1, 1) /* PaletteTemplate - DyeBotched */
-     , (@parent_id, 4,  28, -20, 2, 1) /* ArmorLevel */
-     , (@parent_id, 4,  28, -30, 2, 60) /* ArmorLevel */;
+VALUES (@parent_id, 4,   3, 87, 1, 1) /* On Source.FailureTarget SetValue PaletteTemplate - DyeBotched to Target */
+     , (@parent_id, 4,  28, -20, 2, 1) /* On Source.FailureTarget Add ArmorLevel -20 to Target */
+     , (@parent_id, 4,  28, -30, 2, 60) /* On Dye.FailureTarget Add ArmorLevel -30 to Target */;
 
 DELETE FROM `cook_book` WHERE `recipe_Id` = 3844;
 

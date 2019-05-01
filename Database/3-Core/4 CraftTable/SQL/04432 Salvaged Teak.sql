@@ -4,14 +4,14 @@ INSERT INTO `recipe` (`id`, `unknown_1`, `skill`, `difficulty`, `salvage_Type`, 
 VALUES (4432, 0, 18 /* ItemTinkering */, 0, 1, 0, 0, 'You apply the teak.', 0, 0, 'You apply the teak, but in the process you destroy the target.', 1, 1, NULL, 0, 0, NULL, 1, 1, NULL, 1, 1, NULL, 0, '2005-02-09 10:00:00');
 
 INSERT INTO `recipe_requirements_int` (`recipe_Id`, `index`, `stat`, `value`, `enum`, `message`)
-VALUES (4432, 0, 105, 1, 2, 'The target item cannot be tinkered!') /* ItemWorkmanship */
-     , (4432, 0, 171, 10, 3, 'The target item has been tinkered too many times already!') /* NumTimesTinkered */
-     , (4432, 0,  47, 32, 3, 'You cannot tinker hilted weapons!') /* AttackType - DoubleSlash */
-     , (4432, 1,  92, 100, 2, 'The material is not complete!') /* Structure */;
+VALUES (4432, 0, 105, 1, 2, 'The target item cannot be tinkered!') /* Target.ItemWorkmanship LessThan 1 */
+     , (4432, 0, 171, 10, 3, 'The target item has been tinkered too many times already!') /* Target.NumTimesTinkered GreaterThanEqual 10 */
+     , (4432, 0,  47, 32, 3, 'You cannot tinker hilted weapons!') /* Target.AttackType - DoubleSlash GreaterThanEqual 32 */
+     , (4432, 1,  92, 100, 2, 'The material is not complete!') /* Source.Structure LessThan 100 */;
 
 INSERT INTO `recipe_requirements_string` (`recipe_Id`, `index`, `stat`, `value`, `enum`, `message`)
-VALUES (4432, 0,  19, '', 7, 'The target item does not have a heritage restriction to change!') /* ItemHeritageGroupRestriction */
-     , (4432, 0,  19, 'Aluvian', 6, 'The target item is already restricted to Aluvian! ') /* ItemHeritageGroupRestriction */;
+VALUES (4432, 0,  19, '', 7, 'The target item does not have a heritage restriction to change!') /* Target.ItemHeritageGroupRestriction NotExist  */
+     , (4432, 0,  19, 'Aluvian', 6, 'The target item is already restricted to Aluvian! ') /* Target.ItemHeritageGroupRestriction Equal Aluvian */;
 
 INSERT INTO `recipe_mod` (`recipe_Id`, `executes_On_Success`, `health`, `stamina`, `mana`, `unknown_7`, `data_Id`, `unknown_9`, `instance_Id`)
 VALUES (4432, True, 0, 0, 0, False, 939524162, 0, 0);
@@ -19,7 +19,7 @@ VALUES (4432, True, 0, 0, 0, False, 939524162, 0, 0);
 SET @parent_id = LAST_INSERT_ID();
 
 INSERT INTO `recipe_mods_string` (`recipe_Mod_Id`, `index`, `stat`, `value`, `enum`, `source`)
-VALUES (@parent_id, 0,  19, 'Aluvian', 1, 0) /* ItemHeritageGroupRestriction */;
+VALUES (@parent_id, 0,  19, 'Aluvian', 1, 0) /* On Player.SuccessTarget SetValue ItemHeritageGroupRestriction to Target */;
 
 INSERT INTO `recipe_mod` (`recipe_Id`, `executes_On_Success`, `health`, `stamina`, `mana`, `unknown_7`, `data_Id`, `unknown_9`, `instance_Id`)
 VALUES (4432, True, 0, 0, 0, False, 0, 0, 0);
@@ -27,7 +27,7 @@ VALUES (4432, True, 0, 0, 0, False, 0, 0, 0);
 SET @parent_id = LAST_INSERT_ID();
 
 INSERT INTO `recipe_mods_string` (`recipe_Mod_Id`, `index`, `stat`, `value`, `enum`, `source`)
-VALUES (@parent_id, 3,  39, NULL, 3, 0) /* TinkerName */;
+VALUES (@parent_id, 3,  39, NULL, 3, 0) /* On Player.SuccessResult CopyFromSourceToTarget TinkerName to Result */;
 
 DELETE FROM `cook_book` WHERE `recipe_Id` = 4432;
 

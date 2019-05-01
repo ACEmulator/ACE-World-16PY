@@ -4,11 +4,11 @@ INSERT INTO `recipe` (`id`, `unknown_1`, `skill`, `difficulty`, `salvage_Type`, 
 VALUES (4450, 0, 28 /* WeaponTinkering */, 0, 2, 0, 0, 'You apply the emerald.', 0, 0, 'You apply the emerald, but in the process you destroy the target.', 1, 1, NULL, 0, 0, NULL, 1, 1, NULL, 1, 1, NULL, 0, '2005-02-09 10:00:00');
 
 INSERT INTO `recipe_requirements_int` (`recipe_Id`, `index`, `stat`, `value`, `enum`, `message`)
-VALUES (4450, 0, 105, 1, 2, 'The target item cannot be tinkered!') /* ItemWorkmanship */
-     , (4450, 0, 171, 10, 3, 'The target item has been tinkered too many times already!') /* NumTimesTinkered */
-     , (4450, 0, 179, 1, 3, 'The target item has been imbued already!') /* ImbuedEffect - CriticalStrike */
-     , (4450, 0,  47, 32, 3, 'You cannot tinker hilted weapons!') /* AttackType - DoubleSlash */
-     , (4450, 1,  92, 100, 2, 'The material is not complete!') /* Structure */;
+VALUES (4450, 0, 105, 1, 2, 'The target item cannot be tinkered!') /* Target.ItemWorkmanship LessThan 1 */
+     , (4450, 0, 171, 10, 3, 'The target item has been tinkered too many times already!') /* Target.NumTimesTinkered GreaterThanEqual 10 */
+     , (4450, 0, 179, 1, 3, 'The target item has been imbued already!') /* Target.ImbuedEffect - CriticalStrike GreaterThanEqual 1 */
+     , (4450, 0,  47, 32, 3, 'You cannot tinker hilted weapons!') /* Target.AttackType - DoubleSlash GreaterThanEqual 32 */
+     , (4450, 1,  92, 100, 2, 'The material is not complete!') /* Source.Structure LessThan 100 */;
 
 INSERT INTO `recipe_mod` (`recipe_Id`, `executes_On_Success`, `health`, `stamina`, `mana`, `unknown_7`, `data_Id`, `unknown_9`, `instance_Id`)
 VALUES (4450, True, 0, 0, 0, False, 939524154, 0, 0);
@@ -16,7 +16,7 @@ VALUES (4450, True, 0, 0, 0, False, 939524154, 0, 0);
 SET @parent_id = LAST_INSERT_ID();
 
 INSERT INTO `recipe_mods_d_i_d` (`recipe_Mod_Id`, `index`, `stat`, `value`, `enum`, `source`)
-VALUES (@parent_id, 0,  52, 100676437, 1, 1) /* IconUnderlay */;
+VALUES (@parent_id, 0,  52, 100676437, 1, 1) /* On Source.SuccessTarget SetValue IconUnderlay to Target */;
 
 INSERT INTO `recipe_mod` (`recipe_Id`, `executes_On_Success`, `health`, `stamina`, `mana`, `unknown_7`, `data_Id`, `unknown_9`, `instance_Id`)
 VALUES (4450, True, 0, 0, 0, False, 0, 0, 0);
@@ -24,7 +24,7 @@ VALUES (4450, True, 0, 0, 0, False, 0, 0, 0);
 SET @parent_id = LAST_INSERT_ID();
 
 INSERT INTO `recipe_mods_string` (`recipe_Mod_Id`, `index`, `stat`, `value`, `enum`, `source`)
-VALUES (@parent_id, 3,  40, NULL, 3, 0) /* ImbuerName */;
+VALUES (@parent_id, 3,  40, NULL, 3, 0) /* On Player.SuccessResult CopyFromSourceToTarget ImbuerName to Result */;
 
 DELETE FROM `cook_book` WHERE `recipe_Id` = 4450;
 

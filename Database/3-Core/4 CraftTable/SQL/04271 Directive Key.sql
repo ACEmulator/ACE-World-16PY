@@ -4,7 +4,7 @@ INSERT INTO `recipe` (`id`, `unknown_1`, `skill`, `difficulty`, `salvage_Type`, 
 VALUES (4271, 0, 0, 0, 0, 9289 /* Directive Key */, 1, 'You remove one key from the keyring.', 0, 0, 'You fail to remove a key from the keyring. Impossible!', 0, 0, NULL, 0, 0, NULL, 0, 0, NULL, 0, 0, NULL, 0, '2005-02-09 10:00:00');
 
 INSERT INTO `recipe_requirements_int` (`recipe_Id`, `index`, `stat`, `value`, `enum`, `message`)
-VALUES (4271, 0, 193, 0, 1, 'This keyring is already empty!') /* NumKeys */;
+VALUES (4271, 0, 193, 0, 1, 'This keyring is already empty!') /* Target.NumKeys LessThanEqual 0 */;
 
 INSERT INTO `recipe_mod` (`recipe_Id`, `executes_On_Success`, `health`, `stamina`, `mana`, `unknown_7`, `data_Id`, `unknown_9`, `instance_Id`)
 VALUES (4271, True, 0, 0, 0, False, 0, 0, 0);
@@ -12,7 +12,7 @@ VALUES (4271, True, 0, 0, 0, False, 0, 0, 0);
 SET @parent_id = LAST_INSERT_ID();
 
 INSERT INTO `recipe_mods_int` (`recipe_Mod_Id`, `index`, `stat`, `value`, `enum`, `source`)
-VALUES (@parent_id, 0, 193, -1, 2, 0) /* NumKeys */;
+VALUES (@parent_id, 0, 193, -1, 2, 0) /* On Player.SuccessTarget Add NumKeys -1 to Target */;
 
 DELETE FROM `cook_book` WHERE `recipe_Id` = 4271;
 
