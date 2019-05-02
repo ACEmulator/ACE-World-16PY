@@ -1,5 +1,4 @@
 DELETE FROM `house_portal` WHERE `house_Id` = 2602;
-DELETE FROM `house_portal` WHERE `house_Id` = 2602;
 
 INSERT INTO `house_portal` (`house_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `last_Modified`)
 VALUES (2602, 1118699800, 153.574, 34.0157, 61.205, 0.0038731, 0, 0, -0.999992, '2005-02-09 10:00:00')
