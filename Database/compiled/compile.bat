@@ -83,4 +83,6 @@ echo /*!40014 SET UNIQUE_CHECKS=@OLD_UNIQUE_CHECKS */; >> ACE-World-CE16PY.sql
 echo /*!40014 SET FOREIGN_KEY_CHECKS=@OLD_FOREIGN_KEY_CHECKS */; >> ACE-World-CE16PY.sql
 echo. >> ACE-World-CE16PY.sql
 
+echo REPLACE INTO `version` (`id`, `base_Version`) VALUES (1, 'v%APPVEYOR_BUILD_VERSION%'); >> ACE-World-CE16PY.sql
+echo. >> ACE-World-CE16PY.sql
 @echo on
