@@ -12,7 +12,7 @@ VALUES (21340,   1,         16) /* ItemType - Creature */
      , (21340,  16,         32) /* ItemUseable - Remote */
      , (21340,  25,          9) /* Level */
      , (21340,  27,          0) /* ArmorType - None */
-     , (21340,  74,     272678) /* MerchandiseItemTypes - Vestements, Food, MissileWeapon, Gem, Writable, PromissoryNote */
+     , (21340,  74,     272678) /* MerchandiseItemTypes - Vestments, Food, MissileWeapon, Gem, Writable, PromissoryNote */
      , (21340,  75,          0) /* MerchandiseMinValue */
      , (21340,  76,     100000) /* MerchandiseMaxValue */
      , (21340,  93,    2098200) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */

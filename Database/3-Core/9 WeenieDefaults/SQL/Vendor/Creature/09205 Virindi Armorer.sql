@@ -12,7 +12,7 @@ VALUES (9205,   1,         16) /* ItemType - Creature */
      , (9205,  16,         32) /* ItemUseable - Remote */
      , (9205,  25,         45) /* Level */
      , (9205,  27,          0) /* ArmorType - None */
-     , (9205,  74,     263943) /* MerchandiseItemTypes - Vestements, Weapon, Container, Useless, PromissoryNote */
+     , (9205,  74,     263943) /* MerchandiseItemTypes - Vestments, Weapon, Container, Useless, PromissoryNote */
      , (9205,  75,          0) /* MerchandiseMinValue */
      , (9205,  76,     100000) /* MerchandiseMaxValue */
      , (9205,  93,    2098200) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */

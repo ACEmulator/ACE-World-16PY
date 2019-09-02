@@ -12,7 +12,7 @@ VALUES (1374,   1,         16) /* ItemType - Creature */
      , (1374,  16,         32) /* ItemUseable - Remote */
      , (1374,  25,          6) /* Level */
      , (1374,  27,          0) /* ArmorType - None */
-     , (1374,  74, 1074005767) /* MerchandiseItemTypes - Vestements, Weapon, Container, Useless, PromissoryNote, TinkeringMaterial */
+     , (1374,  74, 1074005767) /* MerchandiseItemTypes - Vestments, Weapon, Container, Useless, PromissoryNote, TinkeringMaterial */
      , (1374,  75,          0) /* MerchandiseMinValue */
      , (1374,  76,     100000) /* MerchandiseMaxValue */
      , (1374,  93,    2098200) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */
