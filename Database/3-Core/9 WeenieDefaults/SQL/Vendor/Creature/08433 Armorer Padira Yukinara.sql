@@ -12,7 +12,7 @@ VALUES (8433,   1,         16) /* ItemType - Creature */
      , (8433,  16,         32) /* ItemUseable - Remote */
      , (8433,  25,         17) /* Level */
      , (8433,  27,          0) /* ArmorType - None */
-     , (8433,  74, 1074004006) /* MerchandiseItemTypes - Vestements, Food, PromissoryNote, TinkeringMaterial */
+     , (8433,  74, 1074004006) /* MerchandiseItemTypes - Vestments, Food, PromissoryNote, TinkeringMaterial */
      , (8433,  75,          0) /* MerchandiseMinValue */
      , (8433,  76,     100000) /* MerchandiseMaxValue */
      , (8433,  93,    2098200) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */

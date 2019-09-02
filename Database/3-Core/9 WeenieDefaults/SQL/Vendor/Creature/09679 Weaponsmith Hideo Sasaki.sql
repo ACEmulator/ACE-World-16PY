@@ -12,7 +12,7 @@ VALUES (9679,   1,         16) /* ItemType - Creature */
      , (9679,  16,         32) /* ItemUseable - Remote */
      , (9679,  25,         33) /* Level */
      , (9679,  27,          0) /* ArmorType - None */
-     , (9679,  74, 1074004135) /* MerchandiseItemTypes - MeleeWeapon, Vestements, Food, Misc, PromissoryNote, TinkeringMaterial */
+     , (9679,  74, 1074004135) /* MerchandiseItemTypes - MeleeWeapon, Vestments, Food, Misc, PromissoryNote, TinkeringMaterial */
      , (9679,  75,          0) /* MerchandiseMinValue */
      , (9679,  76,     100000) /* MerchandiseMaxValue */
      , (9679,  93,    2098200) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */

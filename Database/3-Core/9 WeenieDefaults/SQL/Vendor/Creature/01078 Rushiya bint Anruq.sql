@@ -12,7 +12,7 @@ VALUES (1078,   1,         16) /* ItemType - Creature */
      , (1078,  16,         32) /* ItemUseable - Remote */
      , (1078,  25,         21) /* Level */
      , (1078,  27,          0) /* ArmorType - None */
-     , (1078,  74,     264071) /* MerchandiseItemTypes - Vestements, Weapon, LockableMagicTarget, Useless, PromissoryNote */
+     , (1078,  74,     264071) /* MerchandiseItemTypes - Vestments, Weapon, LockableMagicTarget, Useless, PromissoryNote */
      , (1078,  75,          0) /* MerchandiseMinValue */
      , (1078,  76,     100000) /* MerchandiseMaxValue */
      , (1078,  93,    2098200) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */
