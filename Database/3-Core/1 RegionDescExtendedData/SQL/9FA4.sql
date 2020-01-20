@@ -9,4 +9,5 @@ VALUES (40868, 21183, 1, 5, '2005-02-09 10:00:00') /* Low North Forest Mix Gener
      , (40868, 5150, 5, 1, '2005-02-09 10:00:00') /* Harmless Aluvian Generator */
      , (40868, 5150, 5, 4, '2005-02-09 10:00:00') /* Harmless Aluvian Generator */
      , (40868, 5150, 6, 3, '2005-02-09 10:00:00') /* Harmless Aluvian Generator */
-     , (40868, 5150, 7, 1, '2005-02-09 10:00:00') /* Harmless Aluvian Generator */;
+     , (40868, 5150, 7, 1, '2005-02-09 10:00:00') /* Harmless Aluvian Generator */
+     , (40868, 5150, 8, 6, '2005-02-09 10:00:00') /* Harmless Aluvian Generator */;

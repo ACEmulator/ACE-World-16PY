@@ -7,4 +7,5 @@ VALUES (47722, 23189, 0, 3, '2005-02-09 10:00:00') /* Sho Newbie Swamp Sclavus M
      , (47722, 23189, 5, 1, '2005-02-09 10:00:00') /* Sho Newbie Swamp Sclavus Mix Generator */
      , (47722, 23189, 5, 4, '2005-02-09 10:00:00') /* Sho Newbie Swamp Sclavus Mix Generator */
      , (47722, 23189, 6, 0, '2005-02-09 10:00:00') /* Sho Newbie Swamp Sclavus Mix Generator */
-     , (47722, 23189, 7, 2, '2005-02-09 10:00:00') /* Sho Newbie Swamp Sclavus Mix Generator */;
+     , (47722, 23189, 7, 2, '2005-02-09 10:00:00') /* Sho Newbie Swamp Sclavus Mix Generator */
+     , (47722, 23189, 8, 5, '2005-02-09 10:00:00') /* Sho Newbie Swamp Sclavus Mix Generator */;

@@ -8,4 +8,5 @@ VALUES (31328, 2000, 1, 4, '2005-02-09 10:00:00') /* Low B Gharundim Generator *
      , (31328, 2000, 5, 1, '2005-02-09 10:00:00') /* Low B Gharundim Generator */
      , (31328, 2000, 5, 2, '2005-02-09 10:00:00') /* Low B Gharundim Generator */
      , (31328, 2000, 6, 1, '2005-02-09 10:00:00') /* Low B Gharundim Generator */
-     , (31328, 2000, 7, 2, '2005-02-09 10:00:00') /* Low B Gharundim Generator */;
+     , (31328, 2000, 7, 2, '2005-02-09 10:00:00') /* Low B Gharundim Generator */
+     , (31328, 1997, 8, 6, '2005-02-09 10:00:00') /* Low A Gharundim Generator */;

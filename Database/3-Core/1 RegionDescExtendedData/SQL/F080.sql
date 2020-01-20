@@ -11,5 +11,9 @@ VALUES (61568, 22386, 0, 0, '2005-02-09 10:00:00') /* Tusker Island High Mix Gen
      , (61568, 22533, 4, 7, '2005-02-09 10:00:00') /* Tusker Island High Beach Mix Gen */
      , (61568, 22386, 5, 0, '2005-02-09 10:00:00') /* Tusker Island High Mix Gen */
      , (61568, 22386, 5, 2, '2005-02-09 10:00:00') /* Tusker Island High Mix Gen */
+     , (61568, 22533, 5, 8, '2005-02-09 10:00:00') /* Tusker Island High Beach Mix Gen */
      , (61568, 22386, 6, 3, '2005-02-09 10:00:00') /* Tusker Island High Mix Gen */
-     , (61568, 22386, 6, 4, '2005-02-09 10:00:00') /* Tusker Island High Mix Gen */;
+     , (61568, 22386, 6, 4, '2005-02-09 10:00:00') /* Tusker Island High Mix Gen */
+     , (61568, 22537, 7, 8, '2005-02-09 10:00:00') /* Tusker Island Mid Beach Mix Gen */
+     , (61568, 22386, 8, 3, '2005-02-09 10:00:00') /* Tusker Island High Mix Gen */
+     , (61568, 22386, 8, 6, '2005-02-09 10:00:00') /* Tusker Island High Mix Gen */;

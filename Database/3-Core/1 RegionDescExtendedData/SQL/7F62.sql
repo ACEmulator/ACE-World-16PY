@@ -10,4 +10,5 @@ VALUES (32610, 2008, 0, 3, '2005-02-09 10:00:00') /* Newbie Gharundim Generator 
      , (32610, 2008, 5, 4, '2005-02-09 10:00:00') /* Newbie Gharundim Generator */
      , (32610, 2008, 5, 7, '2005-02-09 10:00:00') /* Newbie Gharundim Generator */
      , (32610, 2008, 6, 6, '2005-02-09 10:00:00') /* Newbie Gharundim Generator */
-     , (32610, 2008, 7, 2, '2005-02-09 10:00:00') /* Newbie Gharundim Generator */;
+     , (32610, 2008, 7, 2, '2005-02-09 10:00:00') /* Newbie Gharundim Generator */
+     , (32610, 2008, 8, 5, '2005-02-09 10:00:00') /* Newbie Gharundim Generator */;

@@ -7,4 +7,5 @@ VALUES (3334, 25889, 0, 3, '2005-02-09 10:00:00') /* Eastern Singularity Caul Ge
      , (3334, 25889, 3, 1, '2005-02-09 10:00:00') /* Eastern Singularity Caul Gen */
      , (3334, 25889, 3, 4, '2005-02-09 10:00:00') /* Eastern Singularity Caul Gen */
      , (3334, 25889, 7, 0, '2005-02-09 10:00:00') /* Eastern Singularity Caul Gen */
-     , (3334, 25889, 7, 5, '2005-02-09 10:00:00') /* Eastern Singularity Caul Gen */;
+     , (3334, 25889, 7, 5, '2005-02-09 10:00:00') /* Eastern Singularity Caul Gen */
+     , (3334, 25889, 7, 8, '2005-02-09 10:00:00') /* Eastern Singularity Caul Gen */;

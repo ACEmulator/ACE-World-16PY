@@ -5,4 +5,5 @@ VALUES (54633, 21176, 1, 6, '2005-02-09 10:00:00') /* Low Central Sclavus Swamp 
      , (54633, 7930, 2, 4, '2005-02-09 10:00:00') /* Low Central Plains Mix Generator */
      , (54633, 7930, 3, 4, '2005-02-09 10:00:00') /* Low Central Plains Mix Generator */
      , (54633, 7930, 7, 1, '2005-02-09 10:00:00') /* Low Central Plains Mix Generator */
-     , (54633, 7930, 7, 2, '2005-02-09 10:00:00') /* Low Central Plains Mix Generator */;
+     , (54633, 7930, 7, 2, '2005-02-09 10:00:00') /* Low Central Plains Mix Generator */
+     , (54633, 7930, 8, 6, '2005-02-09 10:00:00') /* Low Central Plains Mix Generator */;

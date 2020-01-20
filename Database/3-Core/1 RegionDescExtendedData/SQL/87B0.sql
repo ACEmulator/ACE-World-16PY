@@ -7,4 +7,5 @@ VALUES (34736, 23153, 0, 3, '2005-02-09 10:00:00') /* Mid North Mountains Bander
      , (34736, 23153, 3, 3, '2005-02-09 10:00:00') /* Mid North Mountains Banderling Generator */
      , (34736, 23153, 3, 4, '2005-02-09 10:00:00') /* Mid North Mountains Banderling Generator */
      , (34736, 23153, 4, 4, '2005-02-09 10:00:00') /* Mid North Mountains Banderling Generator */
+     , (34736, 23153, 4, 8, '2005-02-09 10:00:00') /* Mid North Mountains Banderling Generator */
      , (34736, 23153, 5, 6, '2005-02-09 10:00:00') /* Mid North Mountains Banderling Generator */;

@@ -6,4 +6,7 @@ VALUES (30928, 2002, 1, 3, '2005-02-09 10:00:00') /* High North Mountains Drudge
      , (30928, 2004, 2, 7, '2005-02-09 10:00:00') /* High North Mountains Mattekar Generator */
      , (30928, 1970, 3, 0, '2005-02-09 10:00:00') /* High Direlands Mountain Generator */
      , (30928, 1970, 3, 1, '2005-02-09 10:00:00') /* High Direlands Mountain Generator */
-     , (30928, 2004, 7, 7, '2005-02-09 10:00:00') /* High North Mountains Mattekar Generator */;
+     , (30928, 2004, 5, 8, '2005-02-09 10:00:00') /* High North Mountains Mattekar Generator */
+     , (30928, 2003, 6, 8, '2005-02-09 10:00:00') /* High North Mountains Golem Generator */
+     , (30928, 2004, 7, 7, '2005-02-09 10:00:00') /* High North Mountains Mattekar Generator */
+     , (30928, 2002, 8, 1, '2005-02-09 10:00:00') /* High North Mountains Drudge Generator */;

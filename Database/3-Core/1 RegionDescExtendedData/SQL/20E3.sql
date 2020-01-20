@@ -8,4 +8,5 @@ VALUES (8419, 30420, 0, 1, '2005-02-09 10:00:00') /* Mid North Forest Mix Genera
      , (8419, 30420, 7, 0, '2005-02-09 10:00:00') /* Mid North Forest Mix Generator */
      , (8419, 30420, 7, 1, '2005-02-09 10:00:00') /* Mid North Forest Mix Generator */
      , (8419, 30420, 7, 2, '2005-02-09 10:00:00') /* Mid North Forest Mix Generator */
-     , (8419, 30420, 7, 7, '2005-02-09 10:00:00') /* Mid North Forest Mix Generator */;
+     , (8419, 30420, 7, 7, '2005-02-09 10:00:00') /* Mid North Forest Mix Generator */
+     , (8419, 30420, 8, 0, '2005-02-09 10:00:00') /* Mid North Forest Mix Generator */;

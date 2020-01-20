@@ -5,4 +5,6 @@ VALUES (32655, 23146, 1, 0, '2005-02-09 10:00:00') /* Low North Plains Mix Gener
      , (32655, 21183, 2, 3, '2005-02-09 10:00:00') /* Low North Forest Mix Generator */
      , (32655, 5151, 4, 6, '2005-02-09 10:00:00') /* Harmless Gharun Generator */
      , (32655, 5151, 4, 7, '2005-02-09 10:00:00') /* Harmless Gharun Generator */
+     , (32655, 5151, 4, 8, '2005-02-09 10:00:00') /* Harmless Gharun Generator */
+     , (32655, 5151, 5, 8, '2005-02-09 10:00:00') /* Harmless Gharun Generator */
      , (32655, 21183, 7, 1, '2005-02-09 10:00:00') /* Low North Forest Mix Generator */;

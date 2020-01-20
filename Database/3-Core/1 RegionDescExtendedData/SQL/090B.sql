@@ -6,4 +6,5 @@ VALUES (2315, 25890, 2, 5, '2005-02-09 10:00:00') /* Northern Singularity Caul G
      , (2315, 25890, 4, 7, '2005-02-09 10:00:00') /* Northern Singularity Caul Gen */
      , (2315, 25890, 5, 0, '2005-02-09 10:00:00') /* Northern Singularity Caul Gen */
      , (2315, 25890, 5, 5, '2005-02-09 10:00:00') /* Northern Singularity Caul Gen */
-     , (2315, 25890, 6, 5, '2005-02-09 10:00:00') /* Northern Singularity Caul Gen */;
+     , (2315, 25890, 6, 5, '2005-02-09 10:00:00') /* Northern Singularity Caul Gen */
+     , (2315, 25890, 8, 1, '2005-02-09 10:00:00') /* Northern Singularity Caul Gen */;

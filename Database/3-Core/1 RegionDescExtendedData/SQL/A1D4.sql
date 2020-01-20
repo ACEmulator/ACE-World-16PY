@@ -8,4 +8,5 @@ VALUES (41428, 23158, 0, 1, '2005-02-09 10:00:00') /* Mid North Mountains Tusker
      , (41428, 23158, 3, 4, '2005-02-09 10:00:00') /* Mid North Mountains Tusker Generator */
      , (41428, 23155, 3, 5, '2005-02-09 10:00:00') /* Mid North Mountains Mix Generator */
      , (41428, 23158, 5, 0, '2005-02-09 10:00:00') /* Mid North Mountains Tusker Generator */
-     , (41428, 23158, 7, 1, '2005-02-09 10:00:00') /* Mid North Mountains Tusker Generator */;
+     , (41428, 23158, 7, 1, '2005-02-09 10:00:00') /* Mid North Mountains Tusker Generator */
+     , (41428, 23158, 8, 7, '2005-02-09 10:00:00') /* Mid North Mountains Tusker Generator */;

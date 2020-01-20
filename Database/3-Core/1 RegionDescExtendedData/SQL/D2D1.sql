@@ -7,4 +7,6 @@ VALUES (53969, 23193, 0, 7, '2005-02-09 10:00:00') /* Olthoi Mid North Generator
      , (53969, 23193, 5, 5, '2005-02-09 10:00:00') /* Olthoi Mid North Generator */
      , (53969, 23193, 6, 2, '2005-02-09 10:00:00') /* Olthoi Mid North Generator */
      , (53969, 23193, 7, 0, '2005-02-09 10:00:00') /* Olthoi Mid North Generator */
-     , (53969, 23193, 7, 2, '2005-02-09 10:00:00') /* Olthoi Mid North Generator */;
+     , (53969, 23193, 7, 2, '2005-02-09 10:00:00') /* Olthoi Mid North Generator */
+     , (53969, 23193, 8, 4, '2005-02-09 10:00:00') /* Olthoi Mid North Generator */
+     , (53969, 23193, 8, 8, '2005-02-09 10:00:00') /* Olthoi Mid North Generator */;

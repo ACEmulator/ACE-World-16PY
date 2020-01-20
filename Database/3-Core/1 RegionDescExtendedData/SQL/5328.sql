@@ -5,4 +5,6 @@ VALUES (21288, 1972, 0, 5, '2005-02-09 10:00:00') /* High Direlands Mountain Sha
      , (21288, 1968, 2, 3, '2005-02-09 10:00:00') /* High Direlands Shore Generator */
      , (21288, 1968, 4, 6, '2005-02-09 10:00:00') /* High Direlands Shore Generator */
      , (21288, 1968, 5, 0, '2005-02-09 10:00:00') /* High Direlands Shore Generator */
-     , (21288, 1968, 5, 6, '2005-02-09 10:00:00') /* High Direlands Shore Generator */;
+     , (21288, 1968, 5, 6, '2005-02-09 10:00:00') /* High Direlands Shore Generator */
+     , (21288, 1974, 8, 3, '2005-02-09 10:00:00') /* High Direlands Shore Generator */
+     , (21288, 1968, 8, 5, '2005-02-09 10:00:00') /* High Direlands Shore Generator */;

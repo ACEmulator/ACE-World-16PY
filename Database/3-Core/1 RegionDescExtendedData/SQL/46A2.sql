@@ -6,4 +6,7 @@ VALUES (18082, 23159, 0, 7, '2005-02-09 10:00:00') /* Mid North Plains Generator
      , (18082, 23155, 2, 4, '2005-02-09 10:00:00') /* Mid North Mountains Mix Generator */
      , (18082, 23159, 3, 7, '2005-02-09 10:00:00') /* Mid North Plains Generator */
      , (18082, 23155, 4, 2, '2005-02-09 10:00:00') /* Mid North Mountains Mix Generator */
-     , (18082, 23155, 5, 2, '2005-02-09 10:00:00') /* Mid North Mountains Mix Generator */;
+     , (18082, 23155, 5, 2, '2005-02-09 10:00:00') /* Mid North Mountains Mix Generator */
+     , (18082, 23155, 8, 1, '2005-02-09 10:00:00') /* Mid North Mountains Mix Generator */
+     , (18082, 23155, 8, 4, '2005-02-09 10:00:00') /* Mid North Mountains Mix Generator */
+     , (18082, 23159, 8, 6, '2005-02-09 10:00:00') /* Mid North Plains Generator */;

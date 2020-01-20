@@ -8,4 +8,5 @@ VALUES (6688, 1960, 1, 5, '2005-02-09 10:00:00') /* Extreme Direlands Forest Gen
      , (6688, 1960, 6, 1, '2005-02-09 10:00:00') /* Extreme Direlands Forest Generator */
      , (6688, 1956, 6, 6, '2005-02-09 10:00:00') /* Extreme Direlands Desert Generator */
      , (6688, 1960, 7, 1, '2005-02-09 10:00:00') /* Extreme Direlands Forest Generator */
-     , (6688, 1960, 7, 2, '2005-02-09 10:00:00') /* Extreme Direlands Forest Generator */;
+     , (6688, 1960, 7, 2, '2005-02-09 10:00:00') /* Extreme Direlands Forest Generator */
+     , (6688, 1956, 8, 6, '2005-02-09 10:00:00') /* Extreme Direlands Desert Generator */;

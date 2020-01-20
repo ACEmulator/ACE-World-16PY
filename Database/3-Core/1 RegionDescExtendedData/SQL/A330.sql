@@ -5,4 +5,6 @@ VALUES (41776, 23166, 0, 7, '2005-02-09 10:00:00') /* Mid SOuth Mountains Genera
      , (41776, 23166, 1, 2, '2005-02-09 10:00:00') /* Mid SOuth Mountains Generator */
      , (41776, 23166, 1, 3, '2005-02-09 10:00:00') /* Mid SOuth Mountains Generator */
      , (41776, 23166, 1, 5, '2005-02-09 10:00:00') /* Mid SOuth Mountains Generator */
-     , (41776, 23166, 1, 7, '2005-02-09 10:00:00') /* Mid SOuth Mountains Generator */;
+     , (41776, 23166, 1, 7, '2005-02-09 10:00:00') /* Mid SOuth Mountains Generator */
+     , (41776, 23168, 8, 3, '2005-02-09 10:00:00') /* Mid South Mountains Mattekar Generator */
+     , (41776, 23168, 8, 6, '2005-02-09 10:00:00') /* Mid South Mountains Mattekar Generator */;

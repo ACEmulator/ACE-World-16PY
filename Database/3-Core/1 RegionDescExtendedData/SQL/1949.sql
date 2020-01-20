@@ -7,4 +7,5 @@ VALUES (6473, 1959, 2, 1, '2005-02-09 10:00:00') /* Extreme Direlands Forest Dru
      , (6473, 1959, 6, 4, '2005-02-09 10:00:00') /* Extreme Direlands Forest Drudge Generator */
      , (6473, 1959, 6, 6, '2005-02-09 10:00:00') /* Extreme Direlands Forest Drudge Generator */
      , (6473, 1959, 7, 4, '2005-02-09 10:00:00') /* Extreme Direlands Forest Drudge Generator */
-     , (6473, 1959, 7, 6, '2005-02-09 10:00:00') /* Extreme Direlands Forest Drudge Generator */;
+     , (6473, 1959, 7, 6, '2005-02-09 10:00:00') /* Extreme Direlands Forest Drudge Generator */
+     , (6473, 1959, 8, 0, '2005-02-09 10:00:00') /* Extreme Direlands Forest Drudge Generator */;

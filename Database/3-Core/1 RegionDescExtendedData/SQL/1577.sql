@@ -11,5 +11,8 @@ VALUES (5495, 1967, 0, 1, '2005-02-09 10:00:00') /* High Direlands Forest Genera
      , (5495, 1967, 4, 2, '2005-02-09 10:00:00') /* High Direlands Forest Generator */
      , (5495, 1967, 4, 4, '2005-02-09 10:00:00') /* High Direlands Forest Generator */
      , (5495, 1967, 5, 3, '2005-02-09 10:00:00') /* High Direlands Forest Generator */
+     , (5495, 1967, 5, 8, '2005-02-09 10:00:00') /* High Direlands Forest Generator */
      , (5495, 1969, 6, 0, '2005-02-09 10:00:00') /* High Direlands Desert Undead Generator */
-     , (5495, 1967, 6, 2, '2005-02-09 10:00:00') /* High Direlands Forest Generator */;
+     , (5495, 1967, 6, 2, '2005-02-09 10:00:00') /* High Direlands Forest Generator */
+     , (5495, 1967, 8, 2, '2005-02-09 10:00:00') /* High Direlands Forest Generator */
+     , (5495, 1967, 8, 6, '2005-02-09 10:00:00') /* High Direlands Forest Generator */;

@@ -5,5 +5,7 @@ VALUES (44723, 5150, 0, 5, '2005-02-09 10:00:00') /* Harmless Aluvian Generator 
      , (44723, 2007, 3, 7, '2005-02-09 10:00:00') /* Newbie Aluvian Generator */
      , (44723, 2007, 5, 7, '2005-02-09 10:00:00') /* Newbie Aluvian Generator */
      , (44723, 2007, 6, 2, '2005-02-09 10:00:00') /* Newbie Aluvian Generator */
+     , (44723, 2007, 6, 8, '2005-02-09 10:00:00') /* Newbie Aluvian Generator */
      , (44723, 2007, 7, 5, '2005-02-09 10:00:00') /* Newbie Aluvian Generator */
-     , (44723, 2007, 7, 7, '2005-02-09 10:00:00') /* Newbie Aluvian Generator */;
+     , (44723, 2007, 7, 7, '2005-02-09 10:00:00') /* Newbie Aluvian Generator */
+     , (44723, 5150, 8, 5, '2005-02-09 10:00:00') /* Harmless Aluvian Generator */;

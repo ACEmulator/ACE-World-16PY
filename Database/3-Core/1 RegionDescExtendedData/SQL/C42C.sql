@@ -10,4 +10,6 @@ VALUES (50220, 23170, 0, 2, '2005-02-09 10:00:00') /* Mid South Mountains Ursuin
      , (50220, 23170, 3, 5, '2005-02-09 10:00:00') /* Mid South Mountains Ursuin Generator */
      , (50220, 23170, 4, 4, '2005-02-09 10:00:00') /* Mid South Mountains Ursuin Generator */
      , (50220, 23170, 5, 2, '2005-02-09 10:00:00') /* Mid South Mountains Ursuin Generator */
-     , (50220, 23170, 6, 7, '2005-02-09 10:00:00') /* Mid South Mountains Ursuin Generator */;
+     , (50220, 23170, 6, 7, '2005-02-09 10:00:00') /* Mid South Mountains Ursuin Generator */
+     , (50220, 23166, 8, 1, '2005-02-09 10:00:00') /* Mid SOuth Mountains Generator */
+     , (50220, 23170, 8, 7, '2005-02-09 10:00:00') /* Mid South Mountains Ursuin Generator */;

@@ -6,4 +6,5 @@ VALUES (2920, 1965, 1, 3, '2005-02-09 10:00:00') /* Extreme Direlands Shore Gene
      , (2920, 1965, 4, 0, '2005-02-09 10:00:00') /* Extreme Direlands Shore Generator */
      , (2920, 1965, 4, 7, '2005-02-09 10:00:00') /* Extreme Direlands Shore Generator */
      , (2920, 1960, 7, 0, '2005-02-09 10:00:00') /* Extreme Direlands Forest Generator */
-     , (2920, 1960, 7, 4, '2005-02-09 10:00:00') /* Extreme Direlands Forest Generator */;
+     , (2920, 1960, 7, 4, '2005-02-09 10:00:00') /* Extreme Direlands Forest Generator */
+     , (2920, 1960, 8, 0, '2005-02-09 10:00:00') /* Extreme Direlands Forest Generator */;

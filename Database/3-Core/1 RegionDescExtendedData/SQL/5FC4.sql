@@ -9,4 +9,5 @@ VALUES (24516, 4583, 0, 0, '2005-02-09 10:00:00') /* High North Plains Generator
      , (24516, 1979, 2, 2, '2005-02-09 10:00:00') /* High North Forest Generator */
      , (24516, 1979, 3, 2, '2005-02-09 10:00:00') /* High North Forest Generator */
      , (24516, 1979, 4, 5, '2005-02-09 10:00:00') /* High North Forest Generator */
-     , (24516, 1979, 4, 6, '2005-02-09 10:00:00') /* High North Forest Generator */;
+     , (24516, 1979, 4, 6, '2005-02-09 10:00:00') /* High North Forest Generator */
+     , (24516, 1970, 8, 6, '2005-02-09 10:00:00') /* High Direlands Mountain Generator */;

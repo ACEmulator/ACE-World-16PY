@@ -6,5 +6,8 @@ VALUES (40226, 23172, 0, 1, '2005-02-09 10:00:00') /* Mid South Plains Generator
      , (40226, 23172, 1, 1, '2005-02-09 10:00:00') /* Mid South Plains Generator */
      , (40226, 23172, 1, 3, '2005-02-09 10:00:00') /* Mid South Plains Generator */
      , (40226, 23172, 1, 5, '2005-02-09 10:00:00') /* Mid South Plains Generator */
+     , (40226, 23172, 1, 8, '2005-02-09 10:00:00') /* Mid South Plains Generator */
      , (40226, 23172, 2, 5, '2005-02-09 10:00:00') /* Mid South Plains Generator */
-     , (40226, 23172, 7, 0, '2005-02-09 10:00:00') /* Mid South Plains Generator */;
+     , (40226, 23172, 7, 0, '2005-02-09 10:00:00') /* Mid South Plains Generator */
+     , (40226, 23166, 8, 6, '2005-02-09 10:00:00') /* Mid SOuth Mountains Generator */
+     , (40226, 23166, 8, 7, '2005-02-09 10:00:00') /* Mid SOuth Mountains Generator */;

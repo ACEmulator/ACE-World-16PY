@@ -10,4 +10,5 @@ VALUES (50764, 7890, 0, 0, '2005-02-09 10:00:00') /* Low Central Mountain Mix Ge
      , (50764, 7890, 5, 1, '2005-02-09 10:00:00') /* Low Central Mountain Mix Generator */
      , (50764, 5149, 6, 3, '2005-02-09 10:00:00') /* Harmless Sho Generator */
      , (50764, 4623, 6, 5, '2005-02-09 10:00:00') /* Low Central Forest Mix Generator */
-     , (50764, 4623, 6, 6, '2005-02-09 10:00:00') /* Low Central Forest Mix Generator */;
+     , (50764, 4623, 6, 6, '2005-02-09 10:00:00') /* Low Central Forest Mix Generator */
+     , (50764, 7890, 8, 0, '2005-02-09 10:00:00') /* Low Central Mountain Mix Generator */;

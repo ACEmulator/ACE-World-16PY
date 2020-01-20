@@ -7,4 +7,5 @@ VALUES (8503, 1957, 1, 6, '2005-02-09 10:00:00') /* Extreme Direlands Desert Sha
      , (8503, 1957, 3, 2, '2005-02-09 10:00:00') /* Extreme Direlands Desert Shadow Generator */
      , (8503, 1957, 5, 7, '2005-02-09 10:00:00') /* Extreme Direlands Desert Shadow Generator */
      , (8503, 1957, 7, 0, '2005-02-09 10:00:00') /* Extreme Direlands Desert Shadow Generator */
-     , (8503, 1957, 7, 5, '2005-02-09 10:00:00') /* Extreme Direlands Desert Shadow Generator */;
+     , (8503, 1957, 7, 5, '2005-02-09 10:00:00') /* Extreme Direlands Desert Shadow Generator */
+     , (8503, 1957, 8, 3, '2005-02-09 10:00:00') /* Extreme Direlands Desert Shadow Generator */;

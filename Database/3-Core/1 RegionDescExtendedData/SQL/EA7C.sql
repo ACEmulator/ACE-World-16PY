@@ -14,4 +14,7 @@ VALUES (60028, 22385, 0, 1, '2005-02-09 10:00:00') /* Tusker Island Extreme Mix 
      , (60028, 22532, 5, 2, '2005-02-09 10:00:00') /* Tusker Island Extreme Mountain Mix Gen */
      , (60028, 22532, 5, 4, '2005-02-09 10:00:00') /* Tusker Island Extreme Mountain Mix Gen */
      , (60028, 22532, 7, 3, '2005-02-09 10:00:00') /* Tusker Island Extreme Mountain Mix Gen */
-     , (60028, 22532, 7, 7, '2005-02-09 10:00:00') /* Tusker Island Extreme Mountain Mix Gen */;
+     , (60028, 22532, 7, 7, '2005-02-09 10:00:00') /* Tusker Island Extreme Mountain Mix Gen */
+     , (60028, 22532, 8, 1, '2005-02-09 10:00:00') /* Tusker Island Extreme Mountain Mix Gen */
+     , (60028, 22532, 8, 6, '2005-02-09 10:00:00') /* Tusker Island Extreme Mountain Mix Gen */
+     , (60028, 22532, 8, 7, '2005-02-09 10:00:00') /* Tusker Island Extreme Mountain Mix Gen */;

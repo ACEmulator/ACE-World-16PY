@@ -6,4 +6,6 @@ VALUES (45153, 7930, 0, 5, '2005-02-09 10:00:00') /* Low Central Plains Mix Gene
      , (45153, 7930, 1, 4, '2005-02-09 10:00:00') /* Low Central Plains Mix Generator */
      , (45153, 7930, 1, 5, '2005-02-09 10:00:00') /* Low Central Plains Mix Generator */
      , (45153, 7930, 4, 5, '2005-02-09 10:00:00') /* Low Central Plains Mix Generator */
-     , (45153, 7930, 7, 6, '2005-02-09 10:00:00') /* Low Central Plains Mix Generator */;
+     , (45153, 21176, 5, 8, '2005-02-09 10:00:00') /* Low Central Sclavus Swamp Mix Generator */
+     , (45153, 7930, 7, 6, '2005-02-09 10:00:00') /* Low Central Plains Mix Generator */
+     , (45153, 21176, 8, 7, '2005-02-09 10:00:00') /* Low Central Sclavus Swamp Mix Generator */;

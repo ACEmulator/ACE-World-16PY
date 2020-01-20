@@ -8,4 +8,6 @@ VALUES (63784, 7227, 0, 4, '2005-02-09 10:00:00') /* Jungle E Mix Generator */
      , (63784, 7227, 3, 6, '2005-02-09 10:00:00') /* Jungle E Mix Generator */
      , (63784, 7227, 4, 0, '2005-02-09 10:00:00') /* Jungle E Mix Generator */
      , (63784, 7227, 4, 6, '2005-02-09 10:00:00') /* Jungle E Mix Generator */
-     , (63784, 7227, 5, 6, '2005-02-09 10:00:00') /* Jungle E Mix Generator */;
+     , (63784, 7227, 5, 6, '2005-02-09 10:00:00') /* Jungle E Mix Generator */
+     , (63784, 7227, 8, 2, '2005-02-09 10:00:00') /* Jungle E Mix Generator */
+     , (63784, 7227, 8, 3, '2005-02-09 10:00:00') /* Jungle E Mix Generator */;

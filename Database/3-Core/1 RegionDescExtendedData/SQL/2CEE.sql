@@ -1,7 +1,8 @@
 DELETE FROM `encounter` WHERE `landblock` = 11502;
 
 INSERT INTO `encounter` (`landblock`, `weenie_Class_Id`, `cell_X`, `cell_Y`, `last_Modified`)
-VALUES (11502, 30422, 2, 5, '2005-02-09 10:00:00') /* Mid North Forest Mix Generator */
+VALUES (11502, 30422, 0, 8, '2005-02-09 10:00:00') /* Mid North Forest Mix Generator */
+     , (11502, 30422, 2, 5, '2005-02-09 10:00:00') /* Mid North Forest Mix Generator */
      , (11502, 30422, 2, 6, '2005-02-09 10:00:00') /* Mid North Forest Mix Generator */
      , (11502, 30422, 2, 7, '2005-02-09 10:00:00') /* Mid North Forest Mix Generator */
      , (11502, 30422, 3, 7, '2005-02-09 10:00:00') /* Mid North Forest Mix Generator */
@@ -10,4 +11,7 @@ VALUES (11502, 30422, 2, 5, '2005-02-09 10:00:00') /* Mid North Forest Mix Gener
      , (11502, 30422, 5, 7, '2005-02-09 10:00:00') /* Mid North Forest Mix Generator */
      , (11502, 30422, 6, 3, '2005-02-09 10:00:00') /* Mid North Forest Mix Generator */
      , (11502, 30422, 6, 7, '2005-02-09 10:00:00') /* Mid North Forest Mix Generator */
-     , (11502, 30422, 7, 7, '2005-02-09 10:00:00') /* Mid North Forest Mix Generator */;
+     , (11502, 30422, 6, 8, '2005-02-09 10:00:00') /* Mid North Forest Mix Generator */
+     , (11502, 30422, 7, 7, '2005-02-09 10:00:00') /* Mid North Forest Mix Generator */
+     , (11502, 30422, 8, 6, '2005-02-09 10:00:00') /* Mid North Forest Mix Generator */
+     , (11502, 30422, 8, 7, '2005-02-09 10:00:00') /* Mid North Forest Mix Generator */;

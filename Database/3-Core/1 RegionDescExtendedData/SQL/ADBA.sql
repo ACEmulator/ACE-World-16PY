@@ -11,4 +11,5 @@ VALUES (44474, 1999, 0, 7, '2005-02-09 10:00:00') /* Low B Aluvian Generator */
      , (44474, 1999, 5, 6, '2005-02-09 10:00:00') /* Low B Aluvian Generator */
      , (44474, 1999, 6, 3, '2005-02-09 10:00:00') /* Low B Aluvian Generator */
      , (44474, 2001, 7, 0, '2005-02-09 10:00:00') /* Low B Aluvian Generator */
-     , (44474, 1999, 7, 3, '2005-02-09 10:00:00') /* Low B Aluvian Generator */;
+     , (44474, 1999, 7, 3, '2005-02-09 10:00:00') /* Low B Aluvian Generator */
+     , (44474, 1999, 8, 3, '2005-02-09 10:00:00') /* Low B Aluvian Generator */;

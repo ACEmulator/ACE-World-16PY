@@ -8,4 +8,5 @@ VALUES (18479, 1972, 2, 0, '2005-02-09 10:00:00') /* High Direlands Mountain Sha
      , (18479, 1972, 5, 5, '2005-02-09 10:00:00') /* High Direlands Mountain Shadow Generator */
      , (18479, 1971, 6, 1, '2005-02-09 10:00:00') /* High Direlands Mountain Golem Generator */
      , (18479, 1972, 6, 2, '2005-02-09 10:00:00') /* High Direlands Mountain Shadow Generator */
-     , (18479, 1972, 7, 1, '2005-02-09 10:00:00') /* High Direlands Mountain Shadow Generator */;
+     , (18479, 1972, 7, 1, '2005-02-09 10:00:00') /* High Direlands Mountain Shadow Generator */
+     , (18479, 1972, 7, 8, '2005-02-09 10:00:00') /* High Direlands Mountain Shadow Generator */;

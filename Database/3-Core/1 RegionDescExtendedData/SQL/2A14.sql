@@ -10,4 +10,7 @@ VALUES (10772, 1966, 0, 3, '2005-02-09 10:00:00') /* High Direlands Desert Gener
      , (10772, 1969, 5, 0, '2005-02-09 10:00:00') /* High Direlands Desert Undead Generator */
      , (10772, 1969, 6, 4, '2005-02-09 10:00:00') /* High Direlands Desert Undead Generator */
      , (10772, 1969, 7, 2, '2005-02-09 10:00:00') /* High Direlands Desert Undead Generator */
-     , (10772, 1969, 7, 6, '2005-02-09 10:00:00') /* High Direlands Desert Undead Generator */;
+     , (10772, 1969, 7, 6, '2005-02-09 10:00:00') /* High Direlands Desert Undead Generator */
+     , (10772, 1969, 8, 1, '2005-02-09 10:00:00') /* High Direlands Desert Undead Generator */
+     , (10772, 1969, 8, 5, '2005-02-09 10:00:00') /* High Direlands Desert Undead Generator */
+     , (10772, 1969, 8, 6, '2005-02-09 10:00:00') /* High Direlands Desert Undead Generator */;

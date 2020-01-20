@@ -7,4 +7,6 @@ VALUES (35444, 23178, 0, 7, '2005-02-09 10:00:00') /* Gharun'dim Newbie Desert M
      , (35444, 23178, 5, 0, '2005-02-09 10:00:00') /* Gharun'dim Newbie Desert Mix Generator */
      , (35444, 23178, 5, 7, '2005-02-09 10:00:00') /* Gharun'dim Newbie Desert Mix Generator */
      , (35444, 23178, 6, 2, '2005-02-09 10:00:00') /* Gharun'dim Newbie Desert Mix Generator */
-     , (35444, 23178, 7, 5, '2005-02-09 10:00:00') /* Gharun'dim Newbie Desert Mix Generator */;
+     , (35444, 23178, 7, 5, '2005-02-09 10:00:00') /* Gharun'dim Newbie Desert Mix Generator */
+     , (35444, 23178, 8, 2, '2005-02-09 10:00:00') /* Gharun'dim Newbie Desert Mix Generator */
+     , (35444, 23178, 8, 6, '2005-02-09 10:00:00') /* Gharun'dim Newbie Desert Mix Generator */;

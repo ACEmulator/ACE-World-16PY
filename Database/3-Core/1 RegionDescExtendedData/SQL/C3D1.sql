@@ -6,4 +6,5 @@ VALUES (50129, 21186, 0, 0, '2005-02-09 10:00:00') /* Low North Golem Mix Genera
      , (50129, 21186, 2, 3, '2005-02-09 10:00:00') /* Low North Golem Mix Generator */
      , (50129, 23191, 2, 7, '2005-02-09 10:00:00') /* Olthoi High North Mountains Generator */
      , (50129, 21186, 3, 1, '2005-02-09 10:00:00') /* Low North Golem Mix Generator */
-     , (50129, 21185, 6, 0, '2005-02-09 10:00:00') /* Low North Mountain Mix Generator */;
+     , (50129, 21185, 6, 0, '2005-02-09 10:00:00') /* Low North Mountain Mix Generator */
+     , (50129, 21185, 8, 6, '2005-02-09 10:00:00') /* Low North Mountain Mix Generator */;

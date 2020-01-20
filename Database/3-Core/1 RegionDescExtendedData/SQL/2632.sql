@@ -6,4 +6,5 @@ VALUES (9778, 1982, 0, 0, '2005-02-09 10:00:00') /* Obsidian Outer Mix Generator
      , (9778, 1982, 3, 3, '2005-02-09 10:00:00') /* Obsidian Outer Mix Generator */
      , (9778, 1982, 3, 4, '2005-02-09 10:00:00') /* Obsidian Outer Mix Generator */
      , (9778, 1982, 3, 5, '2005-02-09 10:00:00') /* Obsidian Outer Mix Generator */
-     , (9778, 1982, 4, 7, '2005-02-09 10:00:00') /* Obsidian Outer Mix Generator */;
+     , (9778, 1982, 4, 7, '2005-02-09 10:00:00') /* Obsidian Outer Mix Generator */
+     , (9778, 1982, 7, 8, '2005-02-09 10:00:00') /* Obsidian Outer Mix Generator */;

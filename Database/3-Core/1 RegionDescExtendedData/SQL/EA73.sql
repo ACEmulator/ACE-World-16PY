@@ -12,4 +12,5 @@ VALUES (60019, 22389, 1, 0, '2005-02-09 10:00:00') /* Tusker Island Uber Mix Gen
      , (60019, 22540, 6, 0, '2005-02-09 10:00:00') /* Tusker Island Uber Beach Mix Gen */
      , (60019, 22540, 6, 1, '2005-02-09 10:00:00') /* Tusker Island Uber Beach Mix Gen */
      , (60019, 22540, 7, 1, '2005-02-09 10:00:00') /* Tusker Island Uber Beach Mix Gen */
-     , (60019, 22540, 7, 2, '2005-02-09 10:00:00') /* Tusker Island Uber Beach Mix Gen */;
+     , (60019, 22540, 7, 2, '2005-02-09 10:00:00') /* Tusker Island Uber Beach Mix Gen */
+     , (60019, 22532, 8, 6, '2005-02-09 10:00:00') /* Tusker Island Extreme Mountain Mix Gen */;

@@ -6,4 +6,5 @@ VALUES (22952, 23158, 1, 4, '2005-02-09 10:00:00') /* Mid North Mountains Tusker
      , (22952, 23159, 5, 0, '2005-02-09 10:00:00') /* Mid North Plains Generator */
      , (22952, 23155, 5, 4, '2005-02-09 10:00:00') /* Mid North Mountains Mix Generator */
      , (22952, 23155, 5, 5, '2005-02-09 10:00:00') /* Mid North Mountains Mix Generator */
+     , (22952, 23155, 6, 8, '2005-02-09 10:00:00') /* Mid North Mountains Mix Generator */
      , (22952, 23155, 7, 5, '2005-02-09 10:00:00') /* Mid North Mountains Mix Generator */;

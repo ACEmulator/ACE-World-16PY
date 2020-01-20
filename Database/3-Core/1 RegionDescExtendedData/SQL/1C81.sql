@@ -5,9 +5,11 @@ VALUES (7297, 1970, 0, 1, '2005-02-09 10:00:00') /* High Direlands Mountain Gene
      , (7297, 1970, 1, 2, '2005-02-09 10:00:00') /* High Direlands Mountain Generator */
      , (7297, 1967, 1, 6, '2005-02-09 10:00:00') /* High Direlands Forest Generator */
      , (7297, 1967, 2, 2, '2005-02-09 10:00:00') /* High Direlands Forest Generator */
+     , (7297, 1967, 3, 8, '2005-02-09 10:00:00') /* High Direlands Forest Generator */
      , (7297, 1967, 5, 0, '2005-02-09 10:00:00') /* High Direlands Forest Generator */
      , (7297, 1967, 5, 2, '2005-02-09 10:00:00') /* High Direlands Forest Generator */
      , (7297, 1967, 5, 4, '2005-02-09 10:00:00') /* High Direlands Forest Generator */
      , (7297, 1967, 6, 1, '2005-02-09 10:00:00') /* High Direlands Forest Generator */
      , (7297, 1967, 6, 2, '2005-02-09 10:00:00') /* High Direlands Forest Generator */
-     , (7297, 1967, 7, 6, '2005-02-09 10:00:00') /* High Direlands Forest Generator */;
+     , (7297, 1967, 7, 6, '2005-02-09 10:00:00') /* High Direlands Forest Generator */
+     , (7297, 1967, 7, 8, '2005-02-09 10:00:00') /* High Direlands Forest Generator */;

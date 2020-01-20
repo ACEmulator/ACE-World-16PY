@@ -7,4 +7,5 @@ VALUES (43593, 21172, 0, 3, '2005-02-09 10:00:00') /* Low Central Undead Plains 
      , (43593, 7930, 3, 0, '2005-02-09 10:00:00') /* Low Central Plains Mix Generator */
      , (43593, 7930, 4, 5, '2005-02-09 10:00:00') /* Low Central Plains Mix Generator */
      , (43593, 7930, 4, 6, '2005-02-09 10:00:00') /* Low Central Plains Mix Generator */
-     , (43593, 7930, 7, 3, '2005-02-09 10:00:00') /* Low Central Plains Mix Generator */;
+     , (43593, 7930, 7, 3, '2005-02-09 10:00:00') /* Low Central Plains Mix Generator */
+     , (43593, 7930, 8, 3, '2005-02-09 10:00:00') /* Low Central Plains Mix Generator */;

@@ -8,4 +8,7 @@ VALUES (8078, 1975, 0, 6, '2005-02-09 10:00:00') /* High Direlands South Mountai
      , (8078, 1971, 5, 3, '2005-02-09 10:00:00') /* High Direlands Mountain Golem Generator */
      , (8078, 1967, 5, 4, '2005-02-09 10:00:00') /* High Direlands Forest Generator */
      , (8078, 1975, 6, 6, '2005-02-09 10:00:00') /* High Direlands South Mountains Generator */
-     , (8078, 1971, 7, 0, '2005-02-09 10:00:00') /* High Direlands Mountain Golem Generator */;
+     , (8078, 1971, 7, 0, '2005-02-09 10:00:00') /* High Direlands Mountain Golem Generator */
+     , (8078, 1975, 7, 8, '2005-02-09 10:00:00') /* High Direlands South Mountains Generator */
+     , (8078, 1971, 8, 0, '2005-02-09 10:00:00') /* High Direlands Mountain Golem Generator */
+     , (8078, 1967, 8, 5, '2005-02-09 10:00:00') /* High Direlands Forest Generator */;

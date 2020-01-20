@@ -6,4 +6,5 @@ VALUES (41151, 21184, 0, 2, '2005-02-09 10:00:00') /* Low North Inland Shore Mix
      , (41151, 21184, 2, 5, '2005-02-09 10:00:00') /* Low North Inland Shore Mix Generator */
      , (41151, 21184, 5, 6, '2005-02-09 10:00:00') /* Low North Inland Shore Mix Generator */
      , (41151, 21184, 6, 1, '2005-02-09 10:00:00') /* Low North Inland Shore Mix Generator */
-     , (41151, 21184, 6, 5, '2005-02-09 10:00:00') /* Low North Inland Shore Mix Generator */;
+     , (41151, 21184, 6, 5, '2005-02-09 10:00:00') /* Low North Inland Shore Mix Generator */
+     , (41151, 21184, 6, 8, '2005-02-09 10:00:00') /* Low North Inland Shore Mix Generator */;

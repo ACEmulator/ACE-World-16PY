@@ -5,4 +5,6 @@ VALUES (18231, 1976, 0, 1, '2005-02-09 10:00:00') /* High Direlands Swamp Genera
      , (18231, 1978, 0, 7, '2005-02-09 10:00:00') /* High Direlands Swamp Sclavus Generator */
      , (18231, 1976, 5, 1, '2005-02-09 10:00:00') /* High Direlands Swamp Generator */
      , (18231, 1978, 5, 5, '2005-02-09 10:00:00') /* High Direlands Swamp Sclavus Generator */
-     , (18231, 1976, 6, 1, '2005-02-09 10:00:00') /* High Direlands Swamp Generator */;
+     , (18231, 1978, 5, 8, '2005-02-09 10:00:00') /* High Direlands Swamp Sclavus Generator */
+     , (18231, 1976, 6, 1, '2005-02-09 10:00:00') /* High Direlands Swamp Generator */
+     , (18231, 1968, 8, 1, '2005-02-09 10:00:00') /* High Direlands Shore Generator */;

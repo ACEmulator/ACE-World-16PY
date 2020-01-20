@@ -6,4 +6,6 @@ VALUES (28339, 23159, 1, 3, '2005-02-09 10:00:00') /* Mid North Plains Generator
      , (28339, 23159, 2, 5, '2005-02-09 10:00:00') /* Mid North Plains Generator */
      , (28339, 23159, 3, 3, '2005-02-09 10:00:00') /* Mid North Plains Generator */
      , (28339, 23159, 6, 5, '2005-02-09 10:00:00') /* Mid North Plains Generator */
-     , (28339, 23159, 6, 7, '2005-02-09 10:00:00') /* Mid North Plains Generator */;
+     , (28339, 23159, 6, 7, '2005-02-09 10:00:00') /* Mid North Plains Generator */
+     , (28339, 23151, 8, 0, '2005-02-09 10:00:00') /* Mid North Forest Mix Generator */
+     , (28339, 23159, 8, 7, '2005-02-09 10:00:00') /* Mid North Plains Generator */;

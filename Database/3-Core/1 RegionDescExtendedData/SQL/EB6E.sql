@@ -15,6 +15,11 @@ VALUES (60270, 22539, 0, 3, '2005-02-09 10:00:00') /* Tusker Island Uber Beach M
      , (60270, 22539, 4, 3, '2005-02-09 10:00:00') /* Tusker Island Uber Beach Mix Gen */
      , (60270, 22539, 4, 4, '2005-02-09 10:00:00') /* Tusker Island Uber Beach Mix Gen */
      , (60270, 22389, 4, 7, '2005-02-09 10:00:00') /* Tusker Island Uber Mix Gen */
+     , (60270, 22389, 4, 8, '2005-02-09 10:00:00') /* Tusker Island Uber Mix Gen */
      , (60270, 22531, 5, 3, '2005-02-09 10:00:00') /* Tusker Island Extreme Beach Mix Gen */
      , (60270, 22539, 6, 2, '2005-02-09 10:00:00') /* Tusker Island Uber Beach Mix Gen */
-     , (60270, 22539, 6, 5, '2005-02-09 10:00:00') /* Tusker Island Uber Beach Mix Gen */;
+     , (60270, 22539, 6, 5, '2005-02-09 10:00:00') /* Tusker Island Uber Beach Mix Gen */
+     , (60270, 22539, 8, 1, '2005-02-09 10:00:00') /* Tusker Island Uber Beach Mix Gen */
+     , (60270, 22539, 8, 2, '2005-02-09 10:00:00') /* Tusker Island Uber Beach Mix Gen */
+     , (60270, 22389, 8, 7, '2005-02-09 10:00:00') /* Tusker Island Uber Mix Gen */
+     , (60270, 22389, 8, 8, '2005-02-09 10:00:00') /* Tusker Island Uber Mix Gen */;

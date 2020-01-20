@@ -11,4 +11,6 @@ VALUES (13892, 1966, 0, 1, '2005-02-09 10:00:00') /* High Direlands Desert Gener
      , (13892, 1976, 5, 3, '2005-02-09 10:00:00') /* High Direlands Swamp Generator */
      , (13892, 1976, 5, 7, '2005-02-09 10:00:00') /* High Direlands Swamp Generator */
      , (13892, 1976, 6, 7, '2005-02-09 10:00:00') /* High Direlands Swamp Generator */
-     , (13892, 1976, 7, 7, '2005-02-09 10:00:00') /* High Direlands Swamp Generator */;
+     , (13892, 1976, 7, 7, '2005-02-09 10:00:00') /* High Direlands Swamp Generator */
+     , (13892, 1966, 8, 2, '2005-02-09 10:00:00') /* High Direlands Desert Generator */
+     , (13892, 1976, 8, 7, '2005-02-09 10:00:00') /* High Direlands Swamp Generator */;

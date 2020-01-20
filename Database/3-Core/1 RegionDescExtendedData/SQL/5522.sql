@@ -6,4 +6,7 @@ VALUES (21794, 1966, 0, 5, '2005-02-09 10:00:00') /* High Direlands Desert Gener
      , (21794, 1966, 1, 6, '2005-02-09 10:00:00') /* High Direlands Desert Generator */
      , (21794, 1966, 2, 3, '2005-02-09 10:00:00') /* High Direlands Desert Generator */
      , (21794, 1966, 2, 6, '2005-02-09 10:00:00') /* High Direlands Desert Generator */
-     , (21794, 1968, 5, 2, '2005-02-09 10:00:00') /* High Direlands Shore Generator */;
+     , (21794, 1966, 2, 8, '2005-02-09 10:00:00') /* High Direlands Desert Generator */
+     , (21794, 1968, 5, 2, '2005-02-09 10:00:00') /* High Direlands Shore Generator */
+     , (21794, 1968, 8, 4, '2005-02-09 10:00:00') /* High Direlands Shore Generator */
+     , (21794, 1968, 8, 6, '2005-02-09 10:00:00') /* High Direlands Shore Generator */;

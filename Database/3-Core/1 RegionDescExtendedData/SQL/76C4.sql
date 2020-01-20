@@ -5,4 +5,6 @@ VALUES (30404, 1970, 0, 1, '2005-02-09 10:00:00') /* High Direlands Mountain Gen
      , (30404, 2002, 0, 4, '2005-02-09 10:00:00') /* High North Mountains Drudge Generator */
      , (30404, 2002, 0, 5, '2005-02-09 10:00:00') /* High North Mountains Drudge Generator */
      , (30404, 2002, 1, 5, '2005-02-09 10:00:00') /* High North Mountains Drudge Generator */
-     , (30404, 2002, 2, 6, '2005-02-09 10:00:00') /* High North Mountains Drudge Generator */;
+     , (30404, 2002, 2, 6, '2005-02-09 10:00:00') /* High North Mountains Drudge Generator */
+     , (30404, 2002, 8, 6, '2005-02-09 10:00:00') /* High North Mountains Drudge Generator */
+     , (30404, 2002, 8, 8, '2005-02-09 10:00:00') /* High North Mountains Drudge Generator */;

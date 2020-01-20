@@ -4,4 +4,6 @@ INSERT INTO `encounter` (`landblock`, `weenie_Class_Id`, `cell_X`, `cell_Y`, `la
 VALUES (30393, 23151, 0, 0, '2005-02-09 10:00:00') /* Mid North Forest Mix Generator */
      , (30393, 23151, 0, 2, '2005-02-09 10:00:00') /* Mid North Forest Mix Generator */
      , (30393, 23151, 0, 7, '2005-02-09 10:00:00') /* Mid North Forest Mix Generator */
-     , (30393, 23155, 7, 6, '2005-02-09 10:00:00') /* Mid North Mountains Mix Generator */;
+     , (30393, 23155, 7, 6, '2005-02-09 10:00:00') /* Mid North Mountains Mix Generator */
+     , (30393, 23155, 8, 7, '2005-02-09 10:00:00') /* Mid North Mountains Mix Generator */
+     , (30393, 23155, 8, 8, '2005-02-09 10:00:00') /* Mid North Mountains Mix Generator */;

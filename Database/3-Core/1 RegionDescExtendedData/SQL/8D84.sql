@@ -5,4 +5,5 @@ VALUES (36228, 21178, 1, 4, '2005-02-09 10:00:00') /* Low Central Desert Plains 
      , (36228, 21178, 5, 4, '2005-02-09 10:00:00') /* Low Central Desert Plains Mix Generator */
      , (36228, 21178, 5, 5, '2005-02-09 10:00:00') /* Low Central Desert Plains Mix Generator */
      , (36228, 21178, 7, 1, '2005-02-09 10:00:00') /* Low Central Desert Plains Mix Generator */
-     , (36228, 21178, 7, 4, '2005-02-09 10:00:00') /* Low Central Desert Plains Mix Generator */;
+     , (36228, 21178, 7, 4, '2005-02-09 10:00:00') /* Low Central Desert Plains Mix Generator */
+     , (36228, 21178, 8, 6, '2005-02-09 10:00:00') /* Low Central Desert Plains Mix Generator */;

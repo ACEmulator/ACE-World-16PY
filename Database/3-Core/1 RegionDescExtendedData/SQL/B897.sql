@@ -6,4 +6,5 @@ VALUES (47255, 23176, 2, 6, '2005-02-09 10:00:00') /* Aluvian Newbie Plains Mix 
      , (47255, 23176, 3, 5, '2005-02-09 10:00:00') /* Aluvian Newbie Plains Mix Generator */
      , (47255, 23176, 5, 1, '2005-02-09 10:00:00') /* Aluvian Newbie Plains Mix Generator */
      , (47255, 23176, 5, 3, '2005-02-09 10:00:00') /* Aluvian Newbie Plains Mix Generator */
-     , (47255, 23176, 5, 6, '2005-02-09 10:00:00') /* Aluvian Newbie Plains Mix Generator */;
+     , (47255, 23176, 5, 6, '2005-02-09 10:00:00') /* Aluvian Newbie Plains Mix Generator */
+     , (47255, 23176, 8, 4, '2005-02-09 10:00:00') /* Aluvian Newbie Plains Mix Generator */;

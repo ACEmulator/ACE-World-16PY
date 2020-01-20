@@ -9,4 +9,6 @@ VALUES (57912, 4623, 0, 1, '2005-02-09 10:00:00') /* Low Central Forest Mix Gene
      , (57912, 4623, 3, 3, '2005-02-09 10:00:00') /* Low Central Forest Mix Generator */
      , (57912, 4623, 4, 6, '2005-02-09 10:00:00') /* Low Central Forest Mix Generator */
      , (57912, 4623, 4, 7, '2005-02-09 10:00:00') /* Low Central Forest Mix Generator */
-     , (57912, 4623, 6, 1, '2005-02-09 10:00:00') /* Low Central Forest Mix Generator */;
+     , (57912, 4623, 6, 1, '2005-02-09 10:00:00') /* Low Central Forest Mix Generator */
+     , (57912, 4623, 8, 4, '2005-02-09 10:00:00') /* Low Central Forest Mix Generator */
+     , (57912, 4623, 8, 6, '2005-02-09 10:00:00') /* Low Central Forest Mix Generator */;

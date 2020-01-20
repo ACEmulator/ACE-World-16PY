@@ -6,4 +6,5 @@ VALUES (17625, 4583, 1, 6, '2005-02-09 10:00:00') /* High North Plains Generator
      , (17625, 4583, 2, 7, '2005-02-09 10:00:00') /* High North Plains Generator */
      , (17625, 4583, 3, 7, '2005-02-09 10:00:00') /* High North Plains Generator */
      , (17625, 1979, 5, 2, '2005-02-09 10:00:00') /* High North Forest Generator */
-     , (17625, 1979, 7, 6, '2005-02-09 10:00:00') /* High North Forest Generator */;
+     , (17625, 1979, 7, 6, '2005-02-09 10:00:00') /* High North Forest Generator */
+     , (17625, 1979, 8, 2, '2005-02-09 10:00:00') /* High North Forest Generator */;

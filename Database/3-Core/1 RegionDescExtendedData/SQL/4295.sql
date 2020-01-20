@@ -6,4 +6,6 @@ VALUES (17045, 1975, 0, 2, '2005-02-09 10:00:00') /* High Direlands South Mounta
      , (17045, 1975, 2, 2, '2005-02-09 10:00:00') /* High Direlands South Mountains Generator */
      , (17045, 1975, 3, 3, '2005-02-09 10:00:00') /* High Direlands South Mountains Generator */
      , (17045, 1968, 4, 1, '2005-02-09 10:00:00') /* High Direlands Shore Generator */
-     , (17045, 1975, 4, 5, '2005-02-09 10:00:00') /* High Direlands South Mountains Generator */;
+     , (17045, 1975, 4, 5, '2005-02-09 10:00:00') /* High Direlands South Mountains Generator */
+     , (17045, 1976, 4, 8, '2005-02-09 10:00:00') /* High Direlands Swamp Generator */
+     , (17045, 1968, 6, 8, '2005-02-09 10:00:00') /* High Direlands Shore Generator */;

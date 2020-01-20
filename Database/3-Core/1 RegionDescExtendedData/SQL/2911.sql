@@ -10,4 +10,5 @@ VALUES (10513, 1969, 1, 3, '2005-02-09 10:00:00') /* High Direlands Desert Undea
      , (10513, 1966, 5, 2, '2005-02-09 10:00:00') /* High Direlands Desert Generator */
      , (10513, 1966, 5, 5, '2005-02-09 10:00:00') /* High Direlands Desert Generator */
      , (10513, 1966, 5, 6, '2005-02-09 10:00:00') /* High Direlands Desert Generator */
-     , (10513, 1966, 6, 3, '2005-02-09 10:00:00') /* High Direlands Desert Generator */;
+     , (10513, 1966, 6, 3, '2005-02-09 10:00:00') /* High Direlands Desert Generator */
+     , (10513, 1966, 8, 1, '2005-02-09 10:00:00') /* High Direlands Desert Generator */;

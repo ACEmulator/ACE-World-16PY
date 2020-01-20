@@ -5,6 +5,7 @@ VALUES (14712, 1975, 0, 1, '2005-02-09 10:00:00') /* High Direlands South Mounta
      , (14712, 1975, 2, 5, '2005-02-09 10:00:00') /* High Direlands South Mountains Generator */
      , (14712, 1975, 4, 2, '2005-02-09 10:00:00') /* High Direlands South Mountains Generator */
      , (14712, 1975, 4, 3, '2005-02-09 10:00:00') /* High Direlands South Mountains Generator */
+     , (14712, 1975, 4, 8, '2005-02-09 10:00:00') /* High Direlands South Mountains Generator */
      , (14712, 1975, 5, 0, '2005-02-09 10:00:00') /* High Direlands South Mountains Generator */
      , (14712, 1975, 5, 6, '2005-02-09 10:00:00') /* High Direlands South Mountains Generator */
      , (14712, 1975, 5, 7, '2005-02-09 10:00:00') /* High Direlands South Mountains Generator */

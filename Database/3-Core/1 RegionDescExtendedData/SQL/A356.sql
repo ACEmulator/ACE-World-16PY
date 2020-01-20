@@ -11,4 +11,6 @@ VALUES (41814, 21177, 0, 3, '2005-02-09 10:00:00') /* Low Central Desert Mix Gen
      , (41814, 21177, 3, 6, '2005-02-09 10:00:00') /* Low Central Desert Mix Generator */
      , (41814, 21177, 3, 7, '2005-02-09 10:00:00') /* Low Central Desert Mix Generator */
      , (41814, 21177, 4, 0, '2005-02-09 10:00:00') /* Low Central Desert Mix Generator */
-     , (41814, 21177, 4, 3, '2005-02-09 10:00:00') /* Low Central Desert Mix Generator */;
+     , (41814, 21177, 4, 3, '2005-02-09 10:00:00') /* Low Central Desert Mix Generator */
+     , (41814, 21177, 5, 8, '2005-02-09 10:00:00') /* Low Central Desert Mix Generator */
+     , (41814, 21177, 7, 8, '2005-02-09 10:00:00') /* Low Central Desert Mix Generator */;

@@ -9,6 +9,7 @@ VALUES (20259, 1966, 0, 0, '2005-02-09 10:00:00') /* High Direlands Desert Gener
      , (20259, 1972, 3, 6, '2005-02-09 10:00:00') /* High Direlands Mountain Shadow Generator */
      , (20259, 1972, 4, 5, '2005-02-09 10:00:00') /* High Direlands Mountain Shadow Generator */
      , (20259, 1972, 4, 6, '2005-02-09 10:00:00') /* High Direlands Mountain Shadow Generator */
+     , (20259, 1972, 5, 8, '2005-02-09 10:00:00') /* High Direlands Mountain Shadow Generator */
      , (20259, 1972, 6, 2, '2005-02-09 10:00:00') /* High Direlands Mountain Shadow Generator */
      , (20259, 1972, 6, 4, '2005-02-09 10:00:00') /* High Direlands Mountain Shadow Generator */
      , (20259, 1972, 7, 6, '2005-02-09 10:00:00') /* High Direlands Mountain Shadow Generator */;

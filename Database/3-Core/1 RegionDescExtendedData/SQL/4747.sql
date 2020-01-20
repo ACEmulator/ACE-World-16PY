@@ -5,4 +5,5 @@ VALUES (18247, 1976, 0, 5, '2005-02-09 10:00:00') /* High Direlands Swamp Genera
      , (18247, 1976, 0, 7, '2005-02-09 10:00:00') /* High Direlands Swamp Generator */
      , (18247, 1968, 4, 1, '2005-02-09 10:00:00') /* High Direlands Shore Generator */
      , (18247, 1968, 5, 3, '2005-02-09 10:00:00') /* High Direlands Shore Generator */
-     , (18247, 1968, 5, 6, '2005-02-09 10:00:00') /* High Direlands Shore Generator */;
+     , (18247, 1968, 5, 6, '2005-02-09 10:00:00') /* High Direlands Shore Generator */
+     , (18247, 1968, 7, 8, '2005-02-09 10:00:00') /* High Direlands Shore Generator */;

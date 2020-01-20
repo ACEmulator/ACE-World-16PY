@@ -5,4 +5,5 @@ VALUES (52377, 23146, 1, 2, '2005-02-09 10:00:00') /* Low North Plains Mix Gener
      , (52377, 23146, 3, 3, '2005-02-09 10:00:00') /* Low North Plains Mix Generator */
      , (52377, 23146, 4, 1, '2005-02-09 10:00:00') /* Low North Plains Mix Generator */
      , (52377, 23146, 6, 1, '2005-02-09 10:00:00') /* Low North Plains Mix Generator */
-     , (52377, 23146, 6, 7, '2005-02-09 10:00:00') /* Low North Plains Mix Generator */;
+     , (52377, 23146, 6, 7, '2005-02-09 10:00:00') /* Low North Plains Mix Generator */
+     , (52377, 23146, 8, 1, '2005-02-09 10:00:00') /* Low North Plains Mix Generator */;

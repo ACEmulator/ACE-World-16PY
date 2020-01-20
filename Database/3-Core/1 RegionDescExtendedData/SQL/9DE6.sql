@@ -7,4 +7,5 @@ VALUES (40422, 23155, 0, 3, '2005-02-09 10:00:00') /* Mid North Mountains Mix Ge
      , (40422, 23155, 2, 2, '2005-02-09 10:00:00') /* Mid North Mountains Mix Generator */
      , (40422, 23155, 2, 3, '2005-02-09 10:00:00') /* Mid North Mountains Mix Generator */
      , (40422, 23155, 3, 3, '2005-02-09 10:00:00') /* Mid North Mountains Mix Generator */
-     , (40422, 23155, 4, 4, '2005-02-09 10:00:00') /* Mid North Mountains Mix Generator */;
+     , (40422, 23155, 4, 4, '2005-02-09 10:00:00') /* Mid North Mountains Mix Generator */
+     , (40422, 23155, 8, 7, '2005-02-09 10:00:00') /* Mid North Mountains Mix Generator */;

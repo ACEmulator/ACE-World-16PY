@@ -6,4 +6,7 @@ VALUES (31724, 1970, 0, 0, '2005-02-09 10:00:00') /* High Direlands Mountain Gen
      , (31724, 1970, 1, 0, '2005-02-09 10:00:00') /* High Direlands Mountain Generator */
      , (31724, 1970, 1, 1, '2005-02-09 10:00:00') /* High Direlands Mountain Generator */
      , (31724, 1970, 1, 2, '2005-02-09 10:00:00') /* High Direlands Mountain Generator */
-     , (31724, 1970, 2, 1, '2005-02-09 10:00:00') /* High Direlands Mountain Generator */;
+     , (31724, 1970, 2, 1, '2005-02-09 10:00:00') /* High Direlands Mountain Generator */
+     , (31724, 1970, 2, 8, '2005-02-09 10:00:00') /* High Direlands Mountain Generator */
+     , (31724, 2003, 5, 8, '2005-02-09 10:00:00') /* High North Mountains Golem Generator */
+     , (31724, 2003, 8, 7, '2005-02-09 10:00:00') /* High North Mountains Golem Generator */;

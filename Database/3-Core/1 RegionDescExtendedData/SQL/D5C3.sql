@@ -5,4 +5,7 @@ VALUES (54723, 23190, 2, 0, '2005-02-09 10:00:00') /* Olthoi High North Mix Gene
      , (54723, 23190, 2, 5, '2005-02-09 10:00:00') /* Olthoi High North Mix Generator */
      , (54723, 23190, 3, 5, '2005-02-09 10:00:00') /* Olthoi High North Mix Generator */
      , (54723, 23190, 4, 7, '2005-02-09 10:00:00') /* Olthoi High North Mix Generator */
-     , (54723, 23190, 7, 3, '2005-02-09 10:00:00') /* Olthoi High North Mix Generator */;
+     , (54723, 23190, 6, 8, '2005-02-09 10:00:00') /* Olthoi High North Mix Generator */
+     , (54723, 23190, 7, 3, '2005-02-09 10:00:00') /* Olthoi High North Mix Generator */
+     , (54723, 23190, 8, 4, '2005-02-09 10:00:00') /* Olthoi High North Mix Generator */
+     , (54723, 23190, 8, 8, '2005-02-09 10:00:00') /* Olthoi High North Mix Generator */;

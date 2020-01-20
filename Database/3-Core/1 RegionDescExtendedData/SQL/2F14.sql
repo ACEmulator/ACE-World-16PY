@@ -9,6 +9,11 @@ VALUES (12052, 1966, 0, 0, '2005-02-09 10:00:00') /* High Direlands Desert Gener
      , (12052, 1969, 3, 6, '2005-02-09 10:00:00') /* High Direlands Desert Undead Generator */
      , (12052, 1969, 6, 3, '2005-02-09 10:00:00') /* High Direlands Desert Undead Generator */
      , (12052, 1969, 6, 4, '2005-02-09 10:00:00') /* High Direlands Desert Undead Generator */
+     , (12052, 1969, 6, 8, '2005-02-09 10:00:00') /* High Direlands Desert Undead Generator */
      , (12052, 1969, 7, 0, '2005-02-09 10:00:00') /* High Direlands Desert Undead Generator */
      , (12052, 1969, 7, 1, '2005-02-09 10:00:00') /* High Direlands Desert Undead Generator */
-     , (12052, 1969, 7, 6, '2005-02-09 10:00:00') /* High Direlands Desert Undead Generator */;
+     , (12052, 1969, 7, 6, '2005-02-09 10:00:00') /* High Direlands Desert Undead Generator */
+     , (12052, 1969, 7, 8, '2005-02-09 10:00:00') /* High Direlands Desert Undead Generator */
+     , (12052, 1969, 8, 3, '2005-02-09 10:00:00') /* High Direlands Desert Undead Generator */
+     , (12052, 1969, 8, 4, '2005-02-09 10:00:00') /* High Direlands Desert Undead Generator */
+     , (12052, 1969, 8, 7, '2005-02-09 10:00:00') /* High Direlands Desert Undead Generator */;

@@ -7,4 +7,5 @@ VALUES (1545, 25892, 1, 2, '2005-02-09 10:00:00') /* Western Singularity Caul Ge
      , (1545, 25892, 5, 7, '2005-02-09 10:00:00') /* Western Singularity Caul Gen */
      , (1545, 25892, 6, 3, '2005-02-09 10:00:00') /* Western Singularity Caul Gen */
      , (1545, 25892, 7, 0, '2005-02-09 10:00:00') /* Western Singularity Caul Gen */
-     , (1545, 25892, 7, 3, '2005-02-09 10:00:00') /* Western Singularity Caul Gen */;
+     , (1545, 25892, 7, 3, '2005-02-09 10:00:00') /* Western Singularity Caul Gen */
+     , (1545, 25892, 8, 4, '2005-02-09 10:00:00') /* Western Singularity Caul Gen */;

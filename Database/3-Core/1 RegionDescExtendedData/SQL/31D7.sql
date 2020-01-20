@@ -8,4 +8,5 @@ VALUES (12759, 5150, 0, 6, '2005-02-09 10:00:00') /* Harmless Aluvian Generator 
      , (12759, 5150, 3, 6, '2005-02-09 10:00:00') /* Harmless Aluvian Generator */
      , (12759, 5150, 4, 2, '2005-02-09 10:00:00') /* Harmless Aluvian Generator */
      , (12759, 5150, 6, 5, '2005-02-09 10:00:00') /* Harmless Aluvian Generator */
-     , (12759, 5150, 7, 2, '2005-02-09 10:00:00') /* Harmless Aluvian Generator */;
+     , (12759, 5150, 7, 2, '2005-02-09 10:00:00') /* Harmless Aluvian Generator */
+     , (12759, 5150, 8, 7, '2005-02-09 10:00:00') /* Harmless Aluvian Generator */;

@@ -10,7 +10,10 @@ VALUES (3716, 1962, 0, 3, '2005-02-09 10:00:00') /* Extreme Direlands Plains Gen
      , (3716, 1962, 4, 5, '2005-02-09 10:00:00') /* Extreme Direlands Plains Generator */
      , (3716, 1962, 5, 0, '2005-02-09 10:00:00') /* Extreme Direlands Plains Generator */
      , (3716, 1962, 5, 4, '2005-02-09 10:00:00') /* Extreme Direlands Plains Generator */
+     , (3716, 1962, 5, 8, '2005-02-09 10:00:00') /* Extreme Direlands Plains Generator */
      , (3716, 1962, 6, 0, '2005-02-09 10:00:00') /* Extreme Direlands Plains Generator */
      , (3716, 1962, 6, 1, '2005-02-09 10:00:00') /* Extreme Direlands Plains Generator */
      , (3716, 1962, 6, 5, '2005-02-09 10:00:00') /* Extreme Direlands Plains Generator */
-     , (3716, 1962, 6, 7, '2005-02-09 10:00:00') /* Extreme Direlands Plains Generator */;
+     , (3716, 1962, 6, 7, '2005-02-09 10:00:00') /* Extreme Direlands Plains Generator */
+     , (3716, 1962, 6, 8, '2005-02-09 10:00:00') /* Extreme Direlands Plains Generator */
+     , (3716, 1962, 8, 5, '2005-02-09 10:00:00') /* Extreme Direlands Plains Generator */;

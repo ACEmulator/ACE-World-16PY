@@ -10,4 +10,6 @@ VALUES (54117, 21173, 0, 1, '2005-02-09 10:00:00') /* Low Central Shore Mix Gene
      , (54117, 21174, 3, 7, '2005-02-09 10:00:00') /* Low Central Swamp Mix Generator */
      , (54117, 21173, 4, 5, '2005-02-09 10:00:00') /* Low Central Shore Mix Generator */
      , (54117, 21174, 5, 4, '2005-02-09 10:00:00') /* Low Central Swamp Mix Generator */
-     , (54117, 21174, 7, 3, '2005-02-09 10:00:00') /* Low Central Swamp Mix Generator */;
+     , (54117, 21174, 7, 3, '2005-02-09 10:00:00') /* Low Central Swamp Mix Generator */
+     , (54117, 21174, 8, 3, '2005-02-09 10:00:00') /* Low Central Swamp Mix Generator */
+     , (54117, 21174, 8, 6, '2005-02-09 10:00:00') /* Low Central Swamp Mix Generator */;

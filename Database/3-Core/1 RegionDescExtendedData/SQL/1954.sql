@@ -5,4 +5,8 @@ VALUES (6484, 1959, 0, 0, '2005-02-09 10:00:00') /* Extreme Direlands Forest Dru
      , (6484, 1959, 0, 1, '2005-02-09 10:00:00') /* Extreme Direlands Forest Drudge Generator */
      , (6484, 1959, 1, 3, '2005-02-09 10:00:00') /* Extreme Direlands Forest Drudge Generator */
      , (6484, 1960, 4, 7, '2005-02-09 10:00:00') /* Extreme Direlands Forest Generator */
-     , (6484, 1960, 7, 6, '2005-02-09 10:00:00') /* Extreme Direlands Forest Generator */;
+     , (6484, 1960, 7, 6, '2005-02-09 10:00:00') /* Extreme Direlands Forest Generator */
+     , (6484, 1960, 8, 3, '2005-02-09 10:00:00') /* Extreme Direlands Forest Generator */
+     , (6484, 1960, 8, 5, '2005-02-09 10:00:00') /* Extreme Direlands Forest Generator */
+     , (6484, 1960, 8, 6, '2005-02-09 10:00:00') /* Extreme Direlands Forest Generator */
+     , (6484, 1960, 8, 7, '2005-02-09 10:00:00') /* Extreme Direlands Forest Generator */;

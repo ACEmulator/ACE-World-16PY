@@ -10,4 +10,5 @@ VALUES (16228, 1966, 1, 3, '2005-02-09 10:00:00') /* High Direlands Desert Gener
      , (16228, 1966, 4, 2, '2005-02-09 10:00:00') /* High Direlands Desert Generator */
      , (16228, 1966, 5, 3, '2005-02-09 10:00:00') /* High Direlands Desert Generator */
      , (16228, 1966, 6, 0, '2005-02-09 10:00:00') /* High Direlands Desert Generator */
-     , (16228, 1966, 6, 7, '2005-02-09 10:00:00') /* High Direlands Desert Generator */;
+     , (16228, 1966, 6, 7, '2005-02-09 10:00:00') /* High Direlands Desert Generator */
+     , (16228, 1966, 8, 3, '2005-02-09 10:00:00') /* High Direlands Desert Generator */;

@@ -6,4 +6,5 @@ VALUES (38013, 5151, 1, 6, '2005-02-09 10:00:00') /* Harmless Gharun Generator *
      , (38013, 5151, 3, 1, '2005-02-09 10:00:00') /* Harmless Gharun Generator */
      , (38013, 5151, 6, 0, '2005-02-09 10:00:00') /* Harmless Gharun Generator */
      , (38013, 5151, 6, 1, '2005-02-09 10:00:00') /* Harmless Gharun Generator */
-     , (38013, 5151, 6, 6, '2005-02-09 10:00:00') /* Harmless Gharun Generator */;
+     , (38013, 5151, 6, 6, '2005-02-09 10:00:00') /* Harmless Gharun Generator */
+     , (38013, 5151, 8, 0, '2005-02-09 10:00:00') /* Harmless Gharun Generator */;

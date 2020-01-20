@@ -10,10 +10,12 @@ VALUES (59512, 22531, 0, 2, '2005-02-09 10:00:00') /* Tusker Island Extreme Beac
      , (59512, 22385, 4, 3, '2005-02-09 10:00:00') /* Tusker Island Extreme Mix Gen */
      , (59512, 22385, 4, 5, '2005-02-09 10:00:00') /* Tusker Island Extreme Mix Gen */
      , (59512, 22385, 4, 6, '2005-02-09 10:00:00') /* Tusker Island Extreme Mix Gen */
+     , (59512, 22385, 4, 8, '2005-02-09 10:00:00') /* Tusker Island Extreme Mix Gen */
      , (59512, 22385, 5, 1, '2005-02-09 10:00:00') /* Tusker Island Extreme Mix Gen */
      , (59512, 22385, 5, 4, '2005-02-09 10:00:00') /* Tusker Island Extreme Mix Gen */
      , (59512, 22385, 5, 6, '2005-02-09 10:00:00') /* Tusker Island Extreme Mix Gen */
      , (59512, 22385, 6, 6, '2005-02-09 10:00:00') /* Tusker Island Extreme Mix Gen */
      , (59512, 22385, 7, 2, '2005-02-09 10:00:00') /* Tusker Island Extreme Mix Gen */
      , (59512, 22385, 7, 6, '2005-02-09 10:00:00') /* Tusker Island Extreme Mix Gen */
-     , (59512, 22385, 7, 7, '2005-02-09 10:00:00') /* Tusker Island Extreme Mix Gen */;
+     , (59512, 22385, 7, 7, '2005-02-09 10:00:00') /* Tusker Island Extreme Mix Gen */
+     , (59512, 22385, 8, 0, '2005-02-09 10:00:00') /* Tusker Island Extreme Mix Gen */;

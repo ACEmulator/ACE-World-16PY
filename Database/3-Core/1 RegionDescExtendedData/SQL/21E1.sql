@@ -11,4 +11,7 @@ VALUES (8673, 30420, 0, 1, '2005-02-09 10:00:00') /* Mid North Forest Mix Genera
      , (8673, 30420, 1, 5, '2005-02-09 10:00:00') /* Mid North Forest Mix Generator */
      , (8673, 30420, 1, 6, '2005-02-09 10:00:00') /* Mid North Forest Mix Generator */
      , (8673, 30420, 2, 6, '2005-02-09 10:00:00') /* Mid North Forest Mix Generator */
-     , (8673, 30420, 2, 7, '2005-02-09 10:00:00') /* Mid North Forest Mix Generator */;
+     , (8673, 30420, 2, 7, '2005-02-09 10:00:00') /* Mid North Forest Mix Generator */
+     , (8673, 30420, 2, 8, '2005-02-09 10:00:00') /* Mid North Forest Mix Generator */
+     , (8673, 30420, 8, 4, '2005-02-09 10:00:00') /* Mid North Forest Mix Generator */
+     , (8673, 30420, 8, 7, '2005-02-09 10:00:00') /* Mid North Forest Mix Generator */;

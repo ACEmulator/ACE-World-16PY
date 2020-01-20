@@ -9,4 +9,5 @@ VALUES (47658, 23170, 0, 4, '2005-02-09 10:00:00') /* Mid South Mountains Ursuin
      , (47658, 23170, 4, 6, '2005-02-09 10:00:00') /* Mid South Mountains Ursuin Generator */
      , (47658, 23166, 5, 2, '2005-02-09 10:00:00') /* Mid SOuth Mountains Generator */
      , (47658, 23166, 6, 3, '2005-02-09 10:00:00') /* Mid SOuth Mountains Generator */
-     , (47658, 23166, 7, 4, '2005-02-09 10:00:00') /* Mid SOuth Mountains Generator */;
+     , (47658, 23166, 7, 4, '2005-02-09 10:00:00') /* Mid SOuth Mountains Generator */
+     , (47658, 23170, 8, 7, '2005-02-09 10:00:00') /* Mid South Mountains Ursuin Generator */;

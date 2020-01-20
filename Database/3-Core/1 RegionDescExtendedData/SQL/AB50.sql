@@ -7,4 +7,5 @@ VALUES (43856, 21172, 0, 2, '2005-02-09 10:00:00') /* Low Central Undead Plains 
      , (43856, 21172, 5, 1, '2005-02-09 10:00:00') /* Low Central Undead Plains Mix Generator */
      , (43856, 21172, 7, 4, '2005-02-09 10:00:00') /* Low Central Undead Plains Mix Generator */
      , (43856, 21172, 7, 5, '2005-02-09 10:00:00') /* Low Central Undead Plains Mix Generator */
-     , (43856, 21172, 7, 7, '2005-02-09 10:00:00') /* Low Central Undead Plains Mix Generator */;
+     , (43856, 21172, 7, 7, '2005-02-09 10:00:00') /* Low Central Undead Plains Mix Generator */
+     , (43856, 21172, 8, 6, '2005-02-09 10:00:00') /* Low Central Undead Plains Mix Generator */;

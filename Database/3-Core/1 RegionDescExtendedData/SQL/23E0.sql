@@ -9,5 +9,8 @@ VALUES (9184, 30420, 0, 0, '2005-02-09 10:00:00') /* Mid North Forest Mix Genera
      , (9184, 30420, 4, 7, '2005-02-09 10:00:00') /* Mid North Forest Mix Generator */
      , (9184, 30420, 5, 2, '2005-02-09 10:00:00') /* Mid North Forest Mix Generator */
      , (9184, 30420, 5, 7, '2005-02-09 10:00:00') /* Mid North Forest Mix Generator */
+     , (9184, 30420, 5, 8, '2005-02-09 10:00:00') /* Mid North Forest Mix Generator */
      , (9184, 30420, 7, 0, '2005-02-09 10:00:00') /* Mid North Forest Mix Generator */
-     , (9184, 30420, 7, 6, '2005-02-09 10:00:00') /* Mid North Forest Mix Generator */;
+     , (9184, 30420, 7, 6, '2005-02-09 10:00:00') /* Mid North Forest Mix Generator */
+     , (9184, 30420, 8, 1, '2005-02-09 10:00:00') /* Mid North Forest Mix Generator */
+     , (9184, 30420, 8, 6, '2005-02-09 10:00:00') /* Mid North Forest Mix Generator */;

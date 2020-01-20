@@ -12,4 +12,5 @@ VALUES (3977, 1962, 1, 0, '2005-02-09 10:00:00') /* Extreme Direlands Plains Gen
      , (3977, 1962, 6, 1, '2005-02-09 10:00:00') /* Extreme Direlands Plains Generator */
      , (3977, 1962, 7, 1, '2005-02-09 10:00:00') /* Extreme Direlands Plains Generator */
      , (3977, 1962, 7, 5, '2005-02-09 10:00:00') /* Extreme Direlands Plains Generator */
-     , (3977, 1962, 7, 6, '2005-02-09 10:00:00') /* Extreme Direlands Plains Generator */;
+     , (3977, 1962, 7, 6, '2005-02-09 10:00:00') /* Extreme Direlands Plains Generator */
+     , (3977, 1962, 8, 2, '2005-02-09 10:00:00') /* Extreme Direlands Plains Generator */;

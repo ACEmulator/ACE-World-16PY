@@ -6,4 +6,6 @@ VALUES (42396, 23146, 0, 5, '2005-02-09 10:00:00') /* Low North Plains Mix Gener
      , (42396, 23146, 3, 2, '2005-02-09 10:00:00') /* Low North Plains Mix Generator */
      , (42396, 23146, 3, 3, '2005-02-09 10:00:00') /* Low North Plains Mix Generator */
      , (42396, 23146, 6, 7, '2005-02-09 10:00:00') /* Low North Plains Mix Generator */
-     , (42396, 23146, 7, 6, '2005-02-09 10:00:00') /* Low North Plains Mix Generator */;
+     , (42396, 23146, 7, 6, '2005-02-09 10:00:00') /* Low North Plains Mix Generator */
+     , (42396, 21184, 8, 3, '2005-02-09 10:00:00') /* Low North Inland Shore Mix Generator */
+     , (42396, 23146, 8, 5, '2005-02-09 10:00:00') /* Low North Plains Mix Generator */;

@@ -6,4 +6,5 @@ VALUES (24488, 23159, 0, 2, '2005-02-09 10:00:00') /* Mid North Plains Generator
      , (24488, 23159, 2, 2, '2005-02-09 10:00:00') /* Mid North Plains Generator */
      , (24488, 23159, 4, 1, '2005-02-09 10:00:00') /* Mid North Plains Generator */
      , (24488, 23151, 5, 4, '2005-02-09 10:00:00') /* Mid North Forest Mix Generator */
-     , (24488, 23161, 7, 1, '2005-02-09 10:00:00') /* Mid North Plains Tumerok Generator */;
+     , (24488, 23161, 7, 1, '2005-02-09 10:00:00') /* Mid North Plains Tumerok Generator */
+     , (24488, 23151, 8, 7, '2005-02-09 10:00:00') /* Mid North Forest Mix Generator */;

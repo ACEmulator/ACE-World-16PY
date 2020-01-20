@@ -6,4 +6,5 @@ VALUES (11668, 1975, 0, 1, '2005-02-09 10:00:00') /* High Direlands South Mounta
      , (11668, 1974, 3, 3, '2005-02-09 10:00:00') /* High Direlands Shore Generator */
      , (11668, 1974, 5, 4, '2005-02-09 10:00:00') /* High Direlands Shore Generator */
      , (11668, 1974, 5, 5, '2005-02-09 10:00:00') /* High Direlands Shore Generator */
-     , (11668, 1974, 7, 3, '2005-02-09 10:00:00') /* High Direlands Shore Generator */;
+     , (11668, 1974, 7, 3, '2005-02-09 10:00:00') /* High Direlands Shore Generator */
+     , (11668, 1974, 8, 4, '2005-02-09 10:00:00') /* High Direlands Shore Generator */;

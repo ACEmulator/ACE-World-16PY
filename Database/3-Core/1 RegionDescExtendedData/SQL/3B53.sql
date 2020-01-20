@@ -8,4 +8,5 @@ VALUES (15187, 1966, 0, 1, '2005-02-09 10:00:00') /* High Direlands Desert Gener
      , (15187, 1966, 4, 3, '2005-02-09 10:00:00') /* High Direlands Desert Generator */
      , (15187, 1966, 4, 5, '2005-02-09 10:00:00') /* High Direlands Desert Generator */
      , (15187, 1966, 5, 2, '2005-02-09 10:00:00') /* High Direlands Desert Generator */
-     , (15187, 1966, 6, 2, '2005-02-09 10:00:00') /* High Direlands Desert Generator */;
+     , (15187, 1966, 6, 2, '2005-02-09 10:00:00') /* High Direlands Desert Generator */
+     , (15187, 1966, 8, 8, '2005-02-09 10:00:00') /* High Direlands Desert Generator */;

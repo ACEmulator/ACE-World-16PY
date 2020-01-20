@@ -7,4 +7,7 @@ VALUES (36038, 23151, 0, 5, '2005-02-09 10:00:00') /* Mid North Forest Mix Gener
      , (36038, 23151, 6, 0, '2005-02-09 10:00:00') /* Mid North Forest Mix Generator */
      , (36038, 23151, 6, 1, '2005-02-09 10:00:00') /* Mid North Forest Mix Generator */
      , (36038, 23151, 7, 5, '2005-02-09 10:00:00') /* Mid North Forest Mix Generator */
-     , (36038, 23151, 7, 7, '2005-02-09 10:00:00') /* Mid North Forest Mix Generator */;
+     , (36038, 23151, 7, 7, '2005-02-09 10:00:00') /* Mid North Forest Mix Generator */
+     , (36038, 23151, 8, 2, '2005-02-09 10:00:00') /* Mid North Forest Mix Generator */
+     , (36038, 23151, 8, 3, '2005-02-09 10:00:00') /* Mid North Forest Mix Generator */
+     , (36038, 23151, 8, 4, '2005-02-09 10:00:00') /* Mid North Forest Mix Generator */;

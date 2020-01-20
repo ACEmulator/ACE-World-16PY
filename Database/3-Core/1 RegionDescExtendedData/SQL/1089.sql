@@ -9,4 +9,5 @@ VALUES (4233, 1962, 0, 2, '2005-02-09 10:00:00') /* Extreme Direlands Plains Gen
      , (4233, 1962, 4, 7, '2005-02-09 10:00:00') /* Extreme Direlands Plains Generator */
      , (4233, 1962, 5, 4, '2005-02-09 10:00:00') /* Extreme Direlands Plains Generator */
      , (4233, 1962, 7, 0, '2005-02-09 10:00:00') /* Extreme Direlands Plains Generator */
-     , (4233, 1962, 7, 1, '2005-02-09 10:00:00') /* Extreme Direlands Plains Generator */;
+     , (4233, 1962, 7, 1, '2005-02-09 10:00:00') /* Extreme Direlands Plains Generator */
+     , (4233, 1962, 8, 0, '2005-02-09 10:00:00') /* Extreme Direlands Plains Generator */;

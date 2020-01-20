@@ -7,4 +7,7 @@ VALUES (56662, 1997, 2, 1, '2005-02-09 10:00:00') /* Low A Gharundim Generator *
      , (56662, 1997, 5, 5, '2005-02-09 10:00:00') /* Low A Gharundim Generator */
      , (56662, 1997, 6, 4, '2005-02-09 10:00:00') /* Low A Gharundim Generator */
      , (56662, 1997, 6, 5, '2005-02-09 10:00:00') /* Low A Gharundim Generator */
-     , (56662, 1997, 7, 0, '2005-02-09 10:00:00') /* Low A Gharundim Generator */;
+     , (56662, 1997, 7, 0, '2005-02-09 10:00:00') /* Low A Gharundim Generator */
+     , (56662, 1997, 8, 1, '2005-02-09 10:00:00') /* Low A Gharundim Generator */
+     , (56662, 1997, 8, 2, '2005-02-09 10:00:00') /* Low A Gharundim Generator */
+     , (56662, 1997, 8, 4, '2005-02-09 10:00:00') /* Low A Gharundim Generator */;

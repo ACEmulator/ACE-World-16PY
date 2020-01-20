@@ -6,4 +6,6 @@ VALUES (13200, 1973, 1, 1, '2005-02-09 10:00:00') /* East Shore Direland Mix Gen
      , (13200, 1975, 2, 7, '2005-02-09 10:00:00') /* High Direlands South Mountains Generator */
      , (13200, 1978, 3, 1, '2005-02-09 10:00:00') /* High Direlands Swamp Sclavus Generator */
      , (13200, 1975, 3, 5, '2005-02-09 10:00:00') /* High Direlands South Mountains Generator */
+     , (13200, 1975, 4, 8, '2005-02-09 10:00:00') /* High Direlands South Mountains Generator */
+     , (13200, 1975, 5, 8, '2005-02-09 10:00:00') /* High Direlands South Mountains Generator */
      , (13200, 1973, 7, 0, '2005-02-09 10:00:00') /* East Shore Direland Mix Generator */;

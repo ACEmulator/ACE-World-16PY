@@ -5,4 +5,6 @@ VALUES (11144, 1970, 3, 7, '2005-02-09 10:00:00') /* High Direlands Mountain Gen
      , (11144, 1970, 5, 2, '2005-02-09 10:00:00') /* High Direlands Mountain Generator */
      , (11144, 1970, 5, 3, '2005-02-09 10:00:00') /* High Direlands Mountain Generator */
      , (11144, 1970, 7, 3, '2005-02-09 10:00:00') /* High Direlands Mountain Generator */
-     , (11144, 1970, 7, 4, '2005-02-09 10:00:00') /* High Direlands Mountain Generator */;
+     , (11144, 1970, 7, 4, '2005-02-09 10:00:00') /* High Direlands Mountain Generator */
+     , (11144, 1970, 7, 8, '2005-02-09 10:00:00') /* High Direlands Mountain Generator */
+     , (11144, 1970, 8, 0, '2005-02-09 10:00:00') /* High Direlands Mountain Generator */;

@@ -8,4 +8,7 @@ VALUES (31971, 1970, 0, 6, '2005-02-09 10:00:00') /* High Direlands Mountain Gen
      , (31971, 2003, 5, 4, '2005-02-09 10:00:00') /* High North Mountains Golem Generator */
      , (31971, 2003, 5, 5, '2005-02-09 10:00:00') /* High North Mountains Golem Generator */
      , (31971, 1970, 6, 2, '2005-02-09 10:00:00') /* High Direlands Mountain Generator */
-     , (31971, 1970, 6, 3, '2005-02-09 10:00:00') /* High Direlands Mountain Generator */;
+     , (31971, 1970, 6, 3, '2005-02-09 10:00:00') /* High Direlands Mountain Generator */
+     , (31971, 2004, 8, 1, '2005-02-09 10:00:00') /* High North Mountains Mattekar Generator */
+     , (31971, 2004, 8, 6, '2005-02-09 10:00:00') /* High North Mountains Mattekar Generator */
+     , (31971, 2004, 8, 8, '2005-02-09 10:00:00') /* High North Mountains Mattekar Generator */;

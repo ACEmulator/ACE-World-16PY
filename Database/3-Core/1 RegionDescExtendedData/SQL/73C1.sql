@@ -9,4 +9,6 @@ VALUES (29633, 2002, 1, 2, '2005-02-09 10:00:00') /* High North Mountains Drudge
      , (29633, 1970, 3, 0, '2005-02-09 10:00:00') /* High Direlands Mountain Generator */
      , (29633, 1970, 3, 1, '2005-02-09 10:00:00') /* High Direlands Mountain Generator */
      , (29633, 1970, 4, 3, '2005-02-09 10:00:00') /* High Direlands Mountain Generator */
-     , (29633, 1970, 6, 5, '2005-02-09 10:00:00') /* High Direlands Mountain Generator */;
+     , (29633, 1970, 4, 8, '2005-02-09 10:00:00') /* High Direlands Mountain Generator */
+     , (29633, 1970, 6, 5, '2005-02-09 10:00:00') /* High Direlands Mountain Generator */
+     , (29633, 1970, 7, 8, '2005-02-09 10:00:00') /* High Direlands Mountain Generator */;

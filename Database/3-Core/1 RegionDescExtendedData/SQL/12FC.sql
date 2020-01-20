@@ -5,4 +5,6 @@ VALUES (4860, 23150, 1, 5, '2005-02-09 10:00:00') /* Mid Central Shore Mix Gener
      , (4860, 23150, 4, 1, '2005-02-09 10:00:00') /* Mid Central Shore Mix Generator */
      , (4860, 23150, 4, 4, '2005-02-09 10:00:00') /* Mid Central Shore Mix Generator */
      , (4860, 23150, 7, 4, '2005-02-09 10:00:00') /* Mid Central Shore Mix Generator */
-     , (4860, 23150, 7, 5, '2005-02-09 10:00:00') /* Mid Central Shore Mix Generator */;
+     , (4860, 23150, 7, 5, '2005-02-09 10:00:00') /* Mid Central Shore Mix Generator */
+     , (4860, 23150, 8, 2, '2005-02-09 10:00:00') /* Mid Central Shore Mix Generator */
+     , (4860, 23150, 8, 3, '2005-02-09 10:00:00') /* Mid Central Shore Mix Generator */;

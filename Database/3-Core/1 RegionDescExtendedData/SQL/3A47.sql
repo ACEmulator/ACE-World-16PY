@@ -11,4 +11,5 @@ VALUES (14919, 1976, 0, 4, '2005-02-09 10:00:00') /* High Direlands Swamp Genera
      , (14919, 1976, 6, 3, '2005-02-09 10:00:00') /* High Direlands Swamp Generator */
      , (14919, 1976, 7, 3, '2005-02-09 10:00:00') /* High Direlands Swamp Generator */
      , (14919, 1976, 7, 5, '2005-02-09 10:00:00') /* High Direlands Swamp Generator */
-     , (14919, 1976, 7, 7, '2005-02-09 10:00:00') /* High Direlands Swamp Generator */;
+     , (14919, 1976, 7, 7, '2005-02-09 10:00:00') /* High Direlands Swamp Generator */
+     , (14919, 1976, 8, 2, '2005-02-09 10:00:00') /* High Direlands Swamp Generator */;

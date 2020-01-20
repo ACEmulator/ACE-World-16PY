@@ -7,4 +7,5 @@ VALUES (26073, 1970, 0, 4, '2005-02-09 10:00:00') /* High Direlands Mountain Gen
      , (26073, 1970, 3, 2, '2005-02-09 10:00:00') /* High Direlands Mountain Generator */
      , (26073, 1970, 4, 6, '2005-02-09 10:00:00') /* High Direlands Mountain Generator */
      , (26073, 1970, 5, 6, '2005-02-09 10:00:00') /* High Direlands Mountain Generator */
-     , (26073, 1970, 6, 4, '2005-02-09 10:00:00') /* High Direlands Mountain Generator */;
+     , (26073, 1970, 6, 4, '2005-02-09 10:00:00') /* High Direlands Mountain Generator */
+     , (26073, 1970, 8, 4, '2005-02-09 10:00:00') /* High Direlands Mountain Generator */;

@@ -8,4 +8,5 @@ VALUES (47454, 23187, 0, 5, '2005-02-09 10:00:00') /* Sho Newbie Swamp Mix Gener
      , (47454, 23187, 3, 1, '2005-02-09 10:00:00') /* Sho Newbie Swamp Mix Generator */
      , (47454, 23187, 3, 6, '2005-02-09 10:00:00') /* Sho Newbie Swamp Mix Generator */
      , (47454, 23187, 3, 7, '2005-02-09 10:00:00') /* Sho Newbie Swamp Mix Generator */
+     , (47454, 23188, 4, 8, '2005-02-09 10:00:00') /* Sho Newbie Swamp Mosswart Mix Generator */
      , (47454, 23188, 7, 6, '2005-02-09 10:00:00') /* Sho Newbie Swamp Mosswart Mix Generator */;

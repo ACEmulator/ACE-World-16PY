@@ -6,6 +6,10 @@ VALUES (11662, 1967, 0, 0, '2005-02-09 10:00:00') /* High Direlands Forest Gener
      , (11662, 1967, 1, 2, '2005-02-09 10:00:00') /* High Direlands Forest Generator */
      , (11662, 1967, 3, 1, '2005-02-09 10:00:00') /* High Direlands Forest Generator */
      , (11662, 1967, 3, 7, '2005-02-09 10:00:00') /* High Direlands Forest Generator */
+     , (11662, 1967, 4, 8, '2005-02-09 10:00:00') /* High Direlands Forest Generator */
      , (11662, 1967, 5, 0, '2005-02-09 10:00:00') /* High Direlands Forest Generator */
      , (11662, 1967, 6, 6, '2005-02-09 10:00:00') /* High Direlands Forest Generator */
-     , (11662, 1967, 6, 7, '2005-02-09 10:00:00') /* High Direlands Forest Generator */;
+     , (11662, 1967, 6, 7, '2005-02-09 10:00:00') /* High Direlands Forest Generator */
+     , (11662, 1975, 7, 8, '2005-02-09 10:00:00') /* High Direlands South Mountains Generator */
+     , (11662, 1975, 8, 7, '2005-02-09 10:00:00') /* High Direlands South Mountains Generator */
+     , (11662, 1975, 8, 8, '2005-02-09 10:00:00') /* High Direlands South Mountains Generator */;

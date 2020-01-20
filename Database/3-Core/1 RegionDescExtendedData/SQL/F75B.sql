@@ -7,4 +7,5 @@ VALUES (63323, 5149, 0, 2, '2005-02-09 10:00:00') /* Harmless Sho Generator */
      , (63323, 5149, 2, 2, '2005-02-09 10:00:00') /* Harmless Sho Generator */
      , (63323, 5149, 2, 6, '2005-02-09 10:00:00') /* Harmless Sho Generator */
      , (63323, 4623, 6, 3, '2005-02-09 10:00:00') /* Low Central Forest Mix Generator */
-     , (63323, 5149, 6, 5, '2005-02-09 10:00:00') /* Harmless Sho Generator */;
+     , (63323, 5149, 6, 5, '2005-02-09 10:00:00') /* Harmless Sho Generator */
+     , (63323, 5149, 6, 8, '2005-02-09 10:00:00') /* Harmless Sho Generator */;

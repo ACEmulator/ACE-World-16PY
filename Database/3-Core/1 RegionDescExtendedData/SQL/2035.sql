@@ -6,7 +6,11 @@ VALUES (8245, 1957, 0, 3, '2005-02-09 10:00:00') /* Extreme Direlands Desert Sha
      , (8245, 1957, 1, 5, '2005-02-09 10:00:00') /* Extreme Direlands Desert Shadow Generator */
      , (8245, 1957, 1, 6, '2005-02-09 10:00:00') /* Extreme Direlands Desert Shadow Generator */
      , (8245, 1957, 2, 1, '2005-02-09 10:00:00') /* Extreme Direlands Desert Shadow Generator */
+     , (8245, 1957, 2, 8, '2005-02-09 10:00:00') /* Extreme Direlands Desert Shadow Generator */
      , (8245, 1957, 6, 2, '2005-02-09 10:00:00') /* Extreme Direlands Desert Shadow Generator */
      , (8245, 1957, 7, 2, '2005-02-09 10:00:00') /* Extreme Direlands Desert Shadow Generator */
      , (8245, 1957, 7, 3, '2005-02-09 10:00:00') /* Extreme Direlands Desert Shadow Generator */
-     , (8245, 1957, 7, 7, '2005-02-09 10:00:00') /* Extreme Direlands Desert Shadow Generator */;
+     , (8245, 1957, 7, 7, '2005-02-09 10:00:00') /* Extreme Direlands Desert Shadow Generator */
+     , (8245, 1957, 8, 0, '2005-02-09 10:00:00') /* Extreme Direlands Desert Shadow Generator */
+     , (8245, 1957, 8, 1, '2005-02-09 10:00:00') /* Extreme Direlands Desert Shadow Generator */
+     , (8245, 1957, 8, 2, '2005-02-09 10:00:00') /* Extreme Direlands Desert Shadow Generator */;

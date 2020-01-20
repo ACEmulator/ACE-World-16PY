@@ -8,4 +8,5 @@ VALUES (17442, 1972, 0, 3, '2005-02-09 10:00:00') /* High Direlands Mountain Sha
      , (17442, 1966, 4, 6, '2005-02-09 10:00:00') /* High Direlands Desert Generator */
      , (17442, 1966, 5, 5, '2005-02-09 10:00:00') /* High Direlands Desert Generator */
      , (17442, 1966, 5, 6, '2005-02-09 10:00:00') /* High Direlands Desert Generator */
-     , (17442, 1966, 6, 5, '2005-02-09 10:00:00') /* High Direlands Desert Generator */;
+     , (17442, 1966, 6, 5, '2005-02-09 10:00:00') /* High Direlands Desert Generator */
+     , (17442, 1966, 8, 3, '2005-02-09 10:00:00') /* High Direlands Desert Generator */;

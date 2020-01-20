@@ -9,5 +9,8 @@ VALUES (14665, 1976, 2, 2, '2005-02-09 10:00:00') /* High Direlands Swamp Genera
      , (14665, 1968, 4, 6, '2005-02-09 10:00:00') /* High Direlands Shore Generator */
      , (14665, 1976, 5, 4, '2005-02-09 10:00:00') /* High Direlands Swamp Generator */
      , (14665, 1976, 5, 5, '2005-02-09 10:00:00') /* High Direlands Swamp Generator */
+     , (14665, 1976, 5, 8, '2005-02-09 10:00:00') /* High Direlands Swamp Generator */
      , (14665, 1976, 7, 0, '2005-02-09 10:00:00') /* High Direlands Swamp Generator */
-     , (14665, 1976, 7, 7, '2005-02-09 10:00:00') /* High Direlands Swamp Generator */;
+     , (14665, 1976, 7, 7, '2005-02-09 10:00:00') /* High Direlands Swamp Generator */
+     , (14665, 1976, 8, 0, '2005-02-09 10:00:00') /* High Direlands Swamp Generator */
+     , (14665, 1976, 8, 7, '2005-02-09 10:00:00') /* High Direlands Swamp Generator */;

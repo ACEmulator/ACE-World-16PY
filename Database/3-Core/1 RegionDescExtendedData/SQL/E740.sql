@@ -7,4 +7,5 @@ VALUES (59200, 5149, 0, 1, '2005-02-09 10:00:00') /* Harmless Sho Generator */
      , (59200, 23182, 5, 2, '2005-02-09 10:00:00') /* Sho Newbie Forest Mix Generator */
      , (59200, 23182, 5, 4, '2005-02-09 10:00:00') /* Sho Newbie Forest Mix Generator */
      , (59200, 23182, 6, 1, '2005-02-09 10:00:00') /* Sho Newbie Forest Mix Generator */
-     , (59200, 23182, 7, 5, '2005-02-09 10:00:00') /* Sho Newbie Forest Mix Generator */;
+     , (59200, 23182, 7, 5, '2005-02-09 10:00:00') /* Sho Newbie Forest Mix Generator */
+     , (59200, 23182, 7, 8, '2005-02-09 10:00:00') /* Sho Newbie Forest Mix Generator */;

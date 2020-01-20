@@ -7,4 +7,6 @@ VALUES (34709, 23146, 0, 2, '2005-02-09 10:00:00') /* Low North Plains Mix Gener
      , (34709, 21183, 4, 0, '2005-02-09 10:00:00') /* Low North Forest Mix Generator */
      , (34709, 21183, 4, 6, '2005-02-09 10:00:00') /* Low North Forest Mix Generator */
      , (34709, 21183, 5, 0, '2005-02-09 10:00:00') /* Low North Forest Mix Generator */
-     , (34709, 21183, 5, 1, '2005-02-09 10:00:00') /* Low North Forest Mix Generator */;
+     , (34709, 21183, 5, 1, '2005-02-09 10:00:00') /* Low North Forest Mix Generator */
+     , (34709, 21183, 8, 2, '2005-02-09 10:00:00') /* Low North Forest Mix Generator */
+     , (34709, 21183, 8, 4, '2005-02-09 10:00:00') /* Low North Forest Mix Generator */;

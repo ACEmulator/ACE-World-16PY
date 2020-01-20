@@ -7,4 +7,5 @@ VALUES (18718, 1975, 0, 2, '2005-02-09 10:00:00') /* High Direlands South Mounta
      , (18718, 1975, 3, 6, '2005-02-09 10:00:00') /* High Direlands South Mountains Generator */
      , (18718, 1975, 5, 4, '2005-02-09 10:00:00') /* High Direlands South Mountains Generator */
      , (18718, 1975, 6, 4, '2005-02-09 10:00:00') /* High Direlands South Mountains Generator */
-     , (18718, 1975, 7, 5, '2005-02-09 10:00:00') /* High Direlands South Mountains Generator */;
+     , (18718, 1975, 7, 5, '2005-02-09 10:00:00') /* High Direlands South Mountains Generator */
+     , (18718, 1966, 7, 8, '2005-02-09 10:00:00') /* High Direlands Desert Generator */;

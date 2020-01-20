@@ -7,4 +7,5 @@ VALUES (9296, 1973, 0, 6, '2005-02-09 10:00:00') /* East Shore Direland Mix Gene
      , (9296, 1966, 2, 2, '2005-02-09 10:00:00') /* High Direlands Desert Generator */
      , (9296, 1966, 4, 4, '2005-02-09 10:00:00') /* High Direlands Desert Generator */
      , (9296, 1966, 4, 6, '2005-02-09 10:00:00') /* High Direlands Desert Generator */
+     , (9296, 1966, 6, 8, '2005-02-09 10:00:00') /* High Direlands Desert Generator */
      , (9296, 1966, 7, 2, '2005-02-09 10:00:00') /* High Direlands Desert Generator */;

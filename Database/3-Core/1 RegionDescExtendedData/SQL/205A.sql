@@ -6,4 +6,5 @@ VALUES (8282, 1966, 0, 4, '2005-02-09 10:00:00') /* High Direlands Desert Genera
      , (8282, 1966, 3, 4, '2005-02-09 10:00:00') /* High Direlands Desert Generator */
      , (8282, 1966, 4, 7, '2005-02-09 10:00:00') /* High Direlands Desert Generator */
      , (8282, 1966, 6, 3, '2005-02-09 10:00:00') /* High Direlands Desert Generator */
-     , (8282, 1966, 6, 7, '2005-02-09 10:00:00') /* High Direlands Desert Generator */;
+     , (8282, 1966, 6, 7, '2005-02-09 10:00:00') /* High Direlands Desert Generator */
+     , (8282, 1966, 8, 8, '2005-02-09 10:00:00') /* High Direlands Desert Generator */;

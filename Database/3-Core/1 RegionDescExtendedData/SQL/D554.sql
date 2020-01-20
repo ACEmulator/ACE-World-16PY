@@ -16,4 +16,5 @@ VALUES (54612, 1997, 0, 2, '2005-02-09 10:00:00') /* Low A Gharundim Generator *
      , (54612, 2009, 6, 5, '2005-02-09 10:00:00') /* Newbie Sho Generator */
      , (54612, 2009, 6, 7, '2005-02-09 10:00:00') /* Newbie Sho Generator */
      , (54612, 2009, 7, 2, '2005-02-09 10:00:00') /* Newbie Sho Generator */
-     , (54612, 2009, 7, 5, '2005-02-09 10:00:00') /* Newbie Sho Generator */;
+     , (54612, 2009, 7, 5, '2005-02-09 10:00:00') /* Newbie Sho Generator */
+     , (54612, 2009, 8, 5, '2005-02-09 10:00:00') /* Newbie Sho Generator */;

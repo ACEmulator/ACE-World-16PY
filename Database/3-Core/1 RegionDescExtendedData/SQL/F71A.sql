@@ -6,4 +6,5 @@ VALUES (63258, 7229, 1, 2, '2005-02-09 10:00:00') /* Jungle F2 Mix Generator */
      , (63258, 7229, 2, 1, '2005-02-09 10:00:00') /* Jungle F2 Mix Generator */
      , (63258, 7229, 4, 2, '2005-02-09 10:00:00') /* Jungle F2 Mix Generator */
      , (63258, 7229, 4, 3, '2005-02-09 10:00:00') /* Jungle F2 Mix Generator */
-     , (63258, 7229, 7, 2, '2005-02-09 10:00:00') /* Jungle F2 Mix Generator */;
+     , (63258, 7229, 7, 2, '2005-02-09 10:00:00') /* Jungle F2 Mix Generator */
+     , (63258, 7229, 8, 3, '2005-02-09 10:00:00') /* Jungle F2 Mix Generator */;

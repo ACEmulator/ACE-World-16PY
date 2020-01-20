@@ -9,6 +9,8 @@ VALUES (33746, 2004, 0, 2, '2005-02-09 10:00:00') /* High North Mountains Mattek
      , (33746, 2004, 3, 5, '2005-02-09 10:00:00') /* High North Mountains Mattekar Generator */
      , (33746, 1970, 3, 7, '2005-02-09 10:00:00') /* High Direlands Mountain Generator */
      , (33746, 2004, 4, 4, '2005-02-09 10:00:00') /* High North Mountains Mattekar Generator */
+     , (33746, 1970, 4, 8, '2005-02-09 10:00:00') /* High Direlands Mountain Generator */
      , (33746, 2004, 5, 0, '2005-02-09 10:00:00') /* High North Mountains Mattekar Generator */
      , (33746, 2004, 6, 1, '2005-02-09 10:00:00') /* High North Mountains Mattekar Generator */
-     , (33746, 2004, 7, 2, '2005-02-09 10:00:00') /* High North Mountains Mattekar Generator */;
+     , (33746, 2004, 7, 2, '2005-02-09 10:00:00') /* High North Mountains Mattekar Generator */
+     , (33746, 2004, 8, 5, '2005-02-09 10:00:00') /* High North Mountains Mattekar Generator */;

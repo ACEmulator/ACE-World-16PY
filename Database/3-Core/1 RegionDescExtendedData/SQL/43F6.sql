@@ -6,9 +6,11 @@ VALUES (17398, 30429, 0, 0, '2005-02-09 10:00:00') /* Mid North Forest Mix Gener
      , (17398, 30429, 0, 4, '2005-02-09 10:00:00') /* Mid North Forest Mix Generator */
      , (17398, 30429, 0, 5, '2005-02-09 10:00:00') /* Mid North Forest Mix Generator */
      , (17398, 30429, 0, 6, '2005-02-09 10:00:00') /* Mid North Forest Mix Generator */
+     , (17398, 30429, 0, 8, '2005-02-09 10:00:00') /* Mid North Forest Mix Generator */
      , (17398, 30429, 1, 3, '2005-02-09 10:00:00') /* Mid North Forest Mix Generator */
      , (17398, 30429, 1, 5, '2005-02-09 10:00:00') /* Mid North Forest Mix Generator */
      , (17398, 30429, 1, 6, '2005-02-09 10:00:00') /* Mid North Forest Mix Generator */
+     , (17398, 30429, 1, 8, '2005-02-09 10:00:00') /* Mid North Forest Mix Generator */
      , (17398, 30429, 2, 0, '2005-02-09 10:00:00') /* Mid North Forest Mix Generator */
      , (17398, 30429, 2, 1, '2005-02-09 10:00:00') /* Mid North Forest Mix Generator */
      , (17398, 30429, 2, 3, '2005-02-09 10:00:00') /* Mid North Forest Mix Generator */
@@ -21,9 +23,17 @@ VALUES (17398, 30429, 0, 0, '2005-02-09 10:00:00') /* Mid North Forest Mix Gener
      , (17398, 30429, 4, 3, '2005-02-09 10:00:00') /* Mid North Forest Mix Generator */
      , (17398, 30429, 4, 4, '2005-02-09 10:00:00') /* Mid North Forest Mix Generator */
      , (17398, 30429, 4, 5, '2005-02-09 10:00:00') /* Mid North Forest Mix Generator */
+     , (17398, 30429, 4, 8, '2005-02-09 10:00:00') /* Mid North Forest Mix Generator */
+     , (17398, 30429, 5, 8, '2005-02-09 10:00:00') /* Mid North Forest Mix Generator */
      , (17398, 30429, 6, 2, '2005-02-09 10:00:00') /* Mid North Forest Mix Generator */
      , (17398, 30429, 6, 6, '2005-02-09 10:00:00') /* Mid North Forest Mix Generator */
      , (17398, 30429, 6, 7, '2005-02-09 10:00:00') /* Mid North Forest Mix Generator */
+     , (17398, 30429, 6, 8, '2005-02-09 10:00:00') /* Mid North Forest Mix Generator */
      , (17398, 30429, 7, 3, '2005-02-09 10:00:00') /* Mid North Forest Mix Generator */
      , (17398, 30429, 7, 5, '2005-02-09 10:00:00') /* Mid North Forest Mix Generator */
-     , (17398, 30429, 7, 6, '2005-02-09 10:00:00') /* Mid North Forest Mix Generator */;
+     , (17398, 30429, 7, 6, '2005-02-09 10:00:00') /* Mid North Forest Mix Generator */
+     , (17398, 30429, 8, 0, '2005-02-09 10:00:00') /* Mid North Forest Mix Generator */
+     , (17398, 30429, 8, 1, '2005-02-09 10:00:00') /* Mid North Forest Mix Generator */
+     , (17398, 30429, 8, 3, '2005-02-09 10:00:00') /* Mid North Forest Mix Generator */
+     , (17398, 30429, 8, 4, '2005-02-09 10:00:00') /* Mid North Forest Mix Generator */
+     , (17398, 30429, 8, 5, '2005-02-09 10:00:00') /* Mid North Forest Mix Generator */;

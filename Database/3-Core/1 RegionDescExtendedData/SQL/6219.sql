@@ -7,4 +7,5 @@ VALUES (25113, 23171, 0, 2, '2005-02-09 10:00:00') /* Mid South Mountains Virind
      , (25113, 23171, 5, 6, '2005-02-09 10:00:00') /* Mid South Mountains Virindi Generator */
      , (25113, 23171, 7, 0, '2005-02-09 10:00:00') /* Mid South Mountains Virindi Generator */
      , (25113, 23171, 7, 1, '2005-02-09 10:00:00') /* Mid South Mountains Virindi Generator */
-     , (25113, 23171, 7, 4, '2005-02-09 10:00:00') /* Mid South Mountains Virindi Generator */;
+     , (25113, 23171, 7, 4, '2005-02-09 10:00:00') /* Mid South Mountains Virindi Generator */
+     , (25113, 23170, 8, 6, '2005-02-09 10:00:00') /* Mid South Mountains Ursuin Generator */;

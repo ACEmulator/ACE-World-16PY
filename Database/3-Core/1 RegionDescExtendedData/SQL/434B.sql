@@ -6,5 +6,8 @@ VALUES (17227, 1977, 0, 2, '2005-02-09 10:00:00') /* High Direlands Swamp Moarsm
      , (17227, 1977, 4, 4, '2005-02-09 10:00:00') /* High Direlands Swamp Moarsman Generator */
      , (17227, 1977, 4, 7, '2005-02-09 10:00:00') /* High Direlands Swamp Moarsman Generator */
      , (17227, 1977, 5, 0, '2005-02-09 10:00:00') /* High Direlands Swamp Moarsman Generator */
+     , (17227, 1977, 5, 8, '2005-02-09 10:00:00') /* High Direlands Swamp Moarsman Generator */
      , (17227, 1977, 6, 2, '2005-02-09 10:00:00') /* High Direlands Swamp Moarsman Generator */
-     , (17227, 1977, 7, 4, '2005-02-09 10:00:00') /* High Direlands Swamp Moarsman Generator */;
+     , (17227, 1977, 7, 4, '2005-02-09 10:00:00') /* High Direlands Swamp Moarsman Generator */
+     , (17227, 1977, 7, 8, '2005-02-09 10:00:00') /* High Direlands Swamp Moarsman Generator */
+     , (17227, 1977, 8, 7, '2005-02-09 10:00:00') /* High Direlands Swamp Moarsman Generator */;

@@ -5,4 +5,5 @@ VALUES (57907, 7927, 4, 5, '2005-02-09 10:00:00') /* Low Central Lugian Mountain
      , (57907, 7927, 6, 2, '2005-02-09 10:00:00') /* Low Central Lugian Mountain Mix Generator */
      , (57907, 7927, 6, 7, '2005-02-09 10:00:00') /* Low Central Lugian Mountain Mix Generator */
      , (57907, 5149, 7, 1, '2005-02-09 10:00:00') /* Harmless Sho Generator */
-     , (57907, 7927, 7, 5, '2005-02-09 10:00:00') /* Low Central Lugian Mountain Mix Generator */;
+     , (57907, 7927, 7, 5, '2005-02-09 10:00:00') /* Low Central Lugian Mountain Mix Generator */
+     , (57907, 7927, 8, 6, '2005-02-09 10:00:00') /* Low Central Lugian Mountain Mix Generator */;

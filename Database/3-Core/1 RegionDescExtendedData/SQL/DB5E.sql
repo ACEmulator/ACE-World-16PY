@@ -6,4 +6,7 @@ VALUES (56158, 2001, 1, 0, '2005-02-09 10:00:00') /* Low B Aluvian Generator */
      , (56158, 2001, 3, 0, '2005-02-09 10:00:00') /* Low B Aluvian Generator */
      , (56158, 2001, 4, 1, '2005-02-09 10:00:00') /* Low B Aluvian Generator */
      , (56158, 2001, 5, 5, '2005-02-09 10:00:00') /* Low B Aluvian Generator */
-     , (56158, 2001, 7, 5, '2005-02-09 10:00:00') /* Low B Aluvian Generator */;
+     , (56158, 2001, 7, 5, '2005-02-09 10:00:00') /* Low B Aluvian Generator */
+     , (56158, 1996, 8, 5, '2005-02-09 10:00:00') /* Low A Aluvian Generator */
+     , (56158, 1996, 8, 7, '2005-02-09 10:00:00') /* Low A Aluvian Generator */
+     , (56158, 1996, 8, 8, '2005-02-09 10:00:00') /* Low A Aluvian Generator */;

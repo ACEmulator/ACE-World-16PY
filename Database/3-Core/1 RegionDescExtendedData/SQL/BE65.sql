@@ -6,4 +6,7 @@ VALUES (48741, 23187, 0, 6, '2005-02-09 10:00:00') /* Sho Newbie Swamp Mix Gener
      , (48741, 23187, 2, 1, '2005-02-09 10:00:00') /* Sho Newbie Swamp Mix Generator */
      , (48741, 23187, 2, 4, '2005-02-09 10:00:00') /* Sho Newbie Swamp Mix Generator */
      , (48741, 23187, 2, 6, '2005-02-09 10:00:00') /* Sho Newbie Swamp Mix Generator */
-     , (48741, 23187, 6, 4, '2005-02-09 10:00:00') /* Sho Newbie Swamp Mix Generator */;
+     , (48741, 23187, 3, 8, '2005-02-09 10:00:00') /* Sho Newbie Swamp Mix Generator */
+     , (48741, 23187, 6, 4, '2005-02-09 10:00:00') /* Sho Newbie Swamp Mix Generator */
+     , (48741, 23187, 8, 4, '2005-02-09 10:00:00') /* Sho Newbie Swamp Mix Generator */
+     , (48741, 23187, 8, 6, '2005-02-09 10:00:00') /* Sho Newbie Swamp Mix Generator */;

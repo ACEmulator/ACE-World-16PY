@@ -5,4 +5,5 @@ VALUES (15642, 1973, 0, 0, '2005-02-09 10:00:00') /* East Shore Direland Mix Gen
      , (15642, 1966, 4, 7, '2005-02-09 10:00:00') /* High Direlands Desert Generator */
      , (15642, 1966, 5, 1, '2005-02-09 10:00:00') /* High Direlands Desert Generator */
      , (15642, 1966, 6, 6, '2005-02-09 10:00:00') /* High Direlands Desert Generator */
-     , (15642, 1966, 7, 1, '2005-02-09 10:00:00') /* High Direlands Desert Generator */;
+     , (15642, 1966, 7, 1, '2005-02-09 10:00:00') /* High Direlands Desert Generator */
+     , (15642, 1966, 8, 8, '2005-02-09 10:00:00') /* High Direlands Desert Generator */;

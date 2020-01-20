@@ -5,4 +5,5 @@ VALUES (16788, 1973, 0, 2, '2005-02-09 10:00:00') /* East Shore Direland Mix Gen
      , (16788, 1973, 1, 3, '2005-02-09 10:00:00') /* East Shore Direland Mix Generator */
      , (16788, 1973, 1, 5, '2005-02-09 10:00:00') /* East Shore Direland Mix Generator */
      , (16788, 1975, 5, 3, '2005-02-09 10:00:00') /* High Direlands South Mountains Generator */
-     , (16788, 1975, 6, 6, '2005-02-09 10:00:00') /* High Direlands South Mountains Generator */;
+     , (16788, 1975, 6, 6, '2005-02-09 10:00:00') /* High Direlands South Mountains Generator */
+     , (16788, 1975, 7, 8, '2005-02-09 10:00:00') /* High Direlands South Mountains Generator */;

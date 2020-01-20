@@ -7,4 +7,5 @@ VALUES (26819, 1980, 0, 3, '2005-02-09 10:00:00') /* High North Mountains Bander
      , (26819, 1980, 3, 1, '2005-02-09 10:00:00') /* High North Mountains Banderling Generator */
      , (26819, 1980, 4, 1, '2005-02-09 10:00:00') /* High North Mountains Banderling Generator */
      , (26819, 1980, 4, 4, '2005-02-09 10:00:00') /* High North Mountains Banderling Generator */
+     , (26819, 1980, 6, 8, '2005-02-09 10:00:00') /* High North Mountains Banderling Generator */
      , (26819, 1980, 7, 4, '2005-02-09 10:00:00') /* High North Mountains Banderling Generator */;

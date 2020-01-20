@@ -6,4 +6,5 @@ VALUES (21415, 23159, 0, 4, '2005-02-09 10:00:00') /* Mid North Plains Generator
      , (21415, 23159, 2, 1, '2005-02-09 10:00:00') /* Mid North Plains Generator */
      , (21415, 23159, 2, 3, '2005-02-09 10:00:00') /* Mid North Plains Generator */
      , (21415, 23159, 4, 1, '2005-02-09 10:00:00') /* Mid North Plains Generator */
-     , (21415, 23159, 6, 2, '2005-02-09 10:00:00') /* Mid North Plains Generator */;
+     , (21415, 23159, 6, 2, '2005-02-09 10:00:00') /* Mid North Plains Generator */
+     , (21415, 23159, 8, 1, '2005-02-09 10:00:00') /* Mid North Plains Generator */;

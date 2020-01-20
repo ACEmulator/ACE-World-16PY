@@ -6,4 +6,6 @@ VALUES (38893, 23162, 0, 1, '2005-02-09 10:00:00') /* Mid North Shore Generator 
      , (38893, 23162, 4, 0, '2005-02-09 10:00:00') /* Mid North Shore Generator */
      , (38893, 23162, 5, 0, '2005-02-09 10:00:00') /* Mid North Shore Generator */
      , (38893, 23162, 6, 5, '2005-02-09 10:00:00') /* Mid North Shore Generator */
-     , (38893, 23162, 7, 0, '2005-02-09 10:00:00') /* Mid North Shore Generator */;
+     , (38893, 23162, 7, 0, '2005-02-09 10:00:00') /* Mid North Shore Generator */
+     , (38893, 23162, 8, 0, '2005-02-09 10:00:00') /* Mid North Shore Generator */
+     , (38893, 23162, 8, 1, '2005-02-09 10:00:00') /* Mid North Shore Generator */;

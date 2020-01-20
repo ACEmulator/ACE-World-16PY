@@ -5,4 +5,5 @@ VALUES (50069, 23177, 1, 1, '2005-02-09 10:00:00') /* Aluvian Newbie Shore Mix G
      , (50069, 23177, 3, 1, '2005-02-09 10:00:00') /* Aluvian Newbie Shore Mix Generator */
      , (50069, 23177, 5, 5, '2005-02-09 10:00:00') /* Aluvian Newbie Shore Mix Generator */
      , (50069, 23177, 7, 0, '2005-02-09 10:00:00') /* Aluvian Newbie Shore Mix Generator */
-     , (50069, 23177, 7, 7, '2005-02-09 10:00:00') /* Aluvian Newbie Shore Mix Generator */;
+     , (50069, 23177, 7, 7, '2005-02-09 10:00:00') /* Aluvian Newbie Shore Mix Generator */
+     , (50069, 23177, 8, 4, '2005-02-09 10:00:00') /* Aluvian Newbie Shore Mix Generator */;

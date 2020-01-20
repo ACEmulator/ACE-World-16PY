@@ -4,4 +4,5 @@ INSERT INTO `encounter` (`landblock`, `weenie_Class_Id`, `cell_X`, `cell_Y`, `la
 VALUES (50023, 21174, 0, 3, '2005-02-09 10:00:00') /* Low Central Swamp Mix Generator */
      , (50023, 21174, 1, 3, '2005-02-09 10:00:00') /* Low Central Swamp Mix Generator */
      , (50023, 21174, 3, 0, '2005-02-09 10:00:00') /* Low Central Swamp Mix Generator */
-     , (50023, 21174, 7, 3, '2005-02-09 10:00:00') /* Low Central Swamp Mix Generator */;
+     , (50023, 21174, 7, 3, '2005-02-09 10:00:00') /* Low Central Swamp Mix Generator */
+     , (50023, 21174, 8, 5, '2005-02-09 10:00:00') /* Low Central Swamp Mix Generator */;

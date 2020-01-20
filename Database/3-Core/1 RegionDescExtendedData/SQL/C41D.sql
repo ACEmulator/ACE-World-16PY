@@ -8,4 +8,5 @@ VALUES (50205, 23165, 0, 4, '2005-02-09 10:00:00') /* Mid South Lakes Generator 
      , (50205, 23165, 1, 7, '2005-02-09 10:00:00') /* Mid South Lakes Generator */
      , (50205, 23165, 5, 5, '2005-02-09 10:00:00') /* Mid South Lakes Generator */
      , (50205, 23165, 5, 6, '2005-02-09 10:00:00') /* Mid South Lakes Generator */
-     , (50205, 23165, 6, 3, '2005-02-09 10:00:00') /* Mid South Lakes Generator */;
+     , (50205, 23165, 6, 3, '2005-02-09 10:00:00') /* Mid South Lakes Generator */
+     , (50205, 23165, 7, 8, '2005-02-09 10:00:00') /* Mid South Lakes Generator */;

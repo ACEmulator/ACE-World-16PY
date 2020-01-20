@@ -12,6 +12,11 @@ VALUES (54171, 5150, 0, 2, '2005-02-09 10:00:00') /* Harmless Aluvian Generator 
      , (54171, 5150, 5, 0, '2005-02-09 10:00:00') /* Harmless Aluvian Generator */
      , (54171, 5150, 5, 3, '2005-02-09 10:00:00') /* Harmless Aluvian Generator */
      , (54171, 5150, 5, 6, '2005-02-09 10:00:00') /* Harmless Aluvian Generator */
+     , (54171, 5150, 5, 8, '2005-02-09 10:00:00') /* Harmless Aluvian Generator */
      , (54171, 5150, 6, 3, '2005-02-09 10:00:00') /* Harmless Aluvian Generator */
      , (54171, 5150, 6, 5, '2005-02-09 10:00:00') /* Harmless Aluvian Generator */
-     , (54171, 5150, 7, 6, '2005-02-09 10:00:00') /* Harmless Aluvian Generator */;
+     , (54171, 5150, 7, 6, '2005-02-09 10:00:00') /* Harmless Aluvian Generator */
+     , (54171, 5150, 7, 8, '2005-02-09 10:00:00') /* Harmless Aluvian Generator */
+     , (54171, 5150, 8, 2, '2005-02-09 10:00:00') /* Harmless Aluvian Generator */
+     , (54171, 5150, 8, 4, '2005-02-09 10:00:00') /* Harmless Aluvian Generator */
+     , (54171, 5150, 8, 7, '2005-02-09 10:00:00') /* Harmless Aluvian Generator */;

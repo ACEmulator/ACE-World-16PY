@@ -6,4 +6,5 @@ VALUES (17700, 1966, 3, 3, '2005-02-09 10:00:00') /* High Direlands Desert Gener
      , (17700, 1966, 4, 2, '2005-02-09 10:00:00') /* High Direlands Desert Generator */
      , (17700, 1966, 5, 2, '2005-02-09 10:00:00') /* High Direlands Desert Generator */
      , (17700, 1975, 6, 0, '2005-02-09 10:00:00') /* High Direlands South Mountains Generator */
-     , (17700, 1975, 7, 2, '2005-02-09 10:00:00') /* High Direlands South Mountains Generator */;
+     , (17700, 1975, 7, 2, '2005-02-09 10:00:00') /* High Direlands South Mountains Generator */
+     , (17700, 1975, 8, 7, '2005-02-09 10:00:00') /* High Direlands South Mountains Generator */;

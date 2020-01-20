@@ -5,4 +5,6 @@ VALUES (42731, 23152, 0, 1, '2005-02-09 10:00:00') /* Mid North Inland Shore Gen
      , (42731, 23159, 0, 3, '2005-02-09 10:00:00') /* Mid North Plains Generator */
      , (42731, 23159, 1, 1, '2005-02-09 10:00:00') /* Mid North Plains Generator */
      , (42731, 23162, 3, 4, '2005-02-09 10:00:00') /* Mid North Shore Generator */
-     , (42731, 23162, 6, 1, '2005-02-09 10:00:00') /* Mid North Shore Generator */;
+     , (42731, 23162, 6, 1, '2005-02-09 10:00:00') /* Mid North Shore Generator */
+     , (42731, 23162, 8, 0, '2005-02-09 10:00:00') /* Mid North Shore Generator */
+     , (42731, 23162, 8, 6, '2005-02-09 10:00:00') /* Mid North Shore Generator */;

@@ -8,4 +8,6 @@ VALUES (31847, 2008, 0, 0, '2005-02-09 10:00:00') /* Newbie Gharundim Generator 
      , (31847, 2008, 3, 4, '2005-02-09 10:00:00') /* Newbie Gharundim Generator */
      , (31847, 2008, 5, 0, '2005-02-09 10:00:00') /* Newbie Gharundim Generator */
      , (31847, 2008, 5, 6, '2005-02-09 10:00:00') /* Newbie Gharundim Generator */
-     , (31847, 2008, 7, 2, '2005-02-09 10:00:00') /* Newbie Gharundim Generator */;
+     , (31847, 2008, 6, 8, '2005-02-09 10:00:00') /* Newbie Gharundim Generator */
+     , (31847, 2008, 7, 2, '2005-02-09 10:00:00') /* Newbie Gharundim Generator */
+     , (31847, 2008, 8, 5, '2005-02-09 10:00:00') /* Newbie Gharundim Generator */;

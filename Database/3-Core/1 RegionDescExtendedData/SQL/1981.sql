@@ -5,9 +5,12 @@ VALUES (6529, 1967, 0, 3, '2005-02-09 10:00:00') /* High Direlands Forest Genera
      , (6529, 1967, 0, 4, '2005-02-09 10:00:00') /* High Direlands Forest Generator */
      , (6529, 1967, 0, 7, '2005-02-09 10:00:00') /* High Direlands Forest Generator */
      , (6529, 1967, 1, 0, '2005-02-09 10:00:00') /* High Direlands Forest Generator */
+     , (6529, 1967, 1, 8, '2005-02-09 10:00:00') /* High Direlands Forest Generator */
      , (6529, 1967, 2, 3, '2005-02-09 10:00:00') /* High Direlands Forest Generator */
+     , (6529, 1967, 2, 8, '2005-02-09 10:00:00') /* High Direlands Forest Generator */
      , (6529, 1967, 4, 0, '2005-02-09 10:00:00') /* High Direlands Forest Generator */
      , (6529, 1967, 4, 3, '2005-02-09 10:00:00') /* High Direlands Forest Generator */
      , (6529, 1967, 4, 5, '2005-02-09 10:00:00') /* High Direlands Forest Generator */
      , (6529, 1967, 6, 0, '2005-02-09 10:00:00') /* High Direlands Forest Generator */
-     , (6529, 1967, 7, 7, '2005-02-09 10:00:00') /* High Direlands Forest Generator */;
+     , (6529, 1967, 7, 7, '2005-02-09 10:00:00') /* High Direlands Forest Generator */
+     , (6529, 1967, 8, 0, '2005-02-09 10:00:00') /* High Direlands Forest Generator */;

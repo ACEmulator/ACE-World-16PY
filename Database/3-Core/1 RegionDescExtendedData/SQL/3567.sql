@@ -10,4 +10,7 @@ VALUES (13671, 1970, 0, 5, '2005-02-09 10:00:00') /* High Direlands Mountain Gen
      , (13671, 1966, 5, 5, '2005-02-09 10:00:00') /* High Direlands Desert Generator */
      , (13671, 1966, 5, 6, '2005-02-09 10:00:00') /* High Direlands Desert Generator */
      , (13671, 1966, 6, 0, '2005-02-09 10:00:00') /* High Direlands Desert Generator */
-     , (13671, 1966, 6, 5, '2005-02-09 10:00:00') /* High Direlands Desert Generator */;
+     , (13671, 1966, 6, 5, '2005-02-09 10:00:00') /* High Direlands Desert Generator */
+     , (13671, 1966, 8, 1, '2005-02-09 10:00:00') /* High Direlands Desert Generator */
+     , (13671, 1966, 8, 5, '2005-02-09 10:00:00') /* High Direlands Desert Generator */
+     , (13671, 1966, 8, 8, '2005-02-09 10:00:00') /* High Direlands Desert Generator */;

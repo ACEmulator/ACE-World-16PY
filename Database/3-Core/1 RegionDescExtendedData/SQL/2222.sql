@@ -5,6 +5,7 @@ VALUES (8738, 1956, 0, 2, '2005-02-09 10:00:00') /* Extreme Direlands Desert Gen
      , (8738, 1956, 0, 7, '2005-02-09 10:00:00') /* Extreme Direlands Desert Generator */
      , (8738, 1956, 1, 3, '2005-02-09 10:00:00') /* Extreme Direlands Desert Generator */
      , (8738, 1956, 1, 7, '2005-02-09 10:00:00') /* Extreme Direlands Desert Generator */
+     , (8738, 1956, 1, 8, '2005-02-09 10:00:00') /* Extreme Direlands Desert Generator */
      , (8738, 1956, 2, 5, '2005-02-09 10:00:00') /* Extreme Direlands Desert Generator */
      , (8738, 1956, 3, 1, '2005-02-09 10:00:00') /* Extreme Direlands Desert Generator */
      , (8738, 1956, 3, 3, '2005-02-09 10:00:00') /* Extreme Direlands Desert Generator */
@@ -13,4 +14,5 @@ VALUES (8738, 1956, 0, 2, '2005-02-09 10:00:00') /* Extreme Direlands Desert Gen
      , (8738, 1956, 5, 6, '2005-02-09 10:00:00') /* Extreme Direlands Desert Generator */
      , (8738, 1956, 6, 6, '2005-02-09 10:00:00') /* Extreme Direlands Desert Generator */
      , (8738, 1956, 7, 3, '2005-02-09 10:00:00') /* Extreme Direlands Desert Generator */
-     , (8738, 1956, 7, 6, '2005-02-09 10:00:00') /* Extreme Direlands Desert Generator */;
+     , (8738, 1956, 7, 6, '2005-02-09 10:00:00') /* Extreme Direlands Desert Generator */
+     , (8738, 1956, 7, 8, '2005-02-09 10:00:00') /* Extreme Direlands Desert Generator */;

@@ -6,4 +6,5 @@ VALUES (49101, 23156, 1, 6, '2005-02-09 10:00:00') /* Mid North Mountains Golem 
      , (49101, 23156, 4, 4, '2005-02-09 10:00:00') /* Mid North Mountains Golem Generator */
      , (49101, 23156, 4, 6, '2005-02-09 10:00:00') /* Mid North Mountains Golem Generator */
      , (49101, 23156, 5, 3, '2005-02-09 10:00:00') /* Mid North Mountains Golem Generator */
-     , (49101, 23156, 5, 6, '2005-02-09 10:00:00') /* Mid North Mountains Golem Generator */;
+     , (49101, 23156, 5, 6, '2005-02-09 10:00:00') /* Mid North Mountains Golem Generator */
+     , (49101, 23156, 8, 1, '2005-02-09 10:00:00') /* Mid North Mountains Golem Generator */;

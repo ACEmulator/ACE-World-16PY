@@ -4,4 +4,7 @@ INSERT INTO `encounter` (`landblock`, `weenie_Class_Id`, `cell_X`, `cell_Y`, `la
 VALUES (35289, 4171, 0, 6, '2005-02-09 10:00:00') /* High North Mountains Tusker Generator */
      , (35289, 4171, 2, 7, '2005-02-09 10:00:00') /* High North Mountains Tusker Generator */
      , (35289, 4171, 4, 5, '2005-02-09 10:00:00') /* High North Mountains Tusker Generator */
-     , (35289, 4171, 7, 2, '2005-02-09 10:00:00') /* High North Mountains Tusker Generator */;
+     , (35289, 4171, 6, 8, '2005-02-09 10:00:00') /* High North Mountains Tusker Generator */
+     , (35289, 4171, 7, 2, '2005-02-09 10:00:00') /* High North Mountains Tusker Generator */
+     , (35289, 4171, 7, 8, '2005-02-09 10:00:00') /* High North Mountains Tusker Generator */
+     , (35289, 4171, 8, 1, '2005-02-09 10:00:00') /* High North Mountains Tusker Generator */;

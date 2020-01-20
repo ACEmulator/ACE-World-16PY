@@ -4,4 +4,6 @@ INSERT INTO `encounter` (`landblock`, `weenie_Class_Id`, `cell_X`, `cell_Y`, `la
 VALUES (39791, 23179, 1, 1, '2005-02-09 10:00:00') /* Gharun'dim Newbie Dunes Mix Generator */
      , (39791, 23179, 3, 6, '2005-02-09 10:00:00') /* Gharun'dim Newbie Dunes Mix Generator */
      , (39791, 23179, 4, 3, '2005-02-09 10:00:00') /* Gharun'dim Newbie Dunes Mix Generator */
-     , (39791, 23179, 7, 1, '2005-02-09 10:00:00') /* Gharun'dim Newbie Dunes Mix Generator */;
+     , (39791, 23179, 7, 1, '2005-02-09 10:00:00') /* Gharun'dim Newbie Dunes Mix Generator */
+     , (39791, 23180, 8, 4, '2005-02-09 10:00:00') /* Gharun'dim Newbie Brushland Mix Generator */
+     , (39791, 23180, 8, 5, '2005-02-09 10:00:00') /* Gharun'dim Newbie Brushland Mix Generator */;

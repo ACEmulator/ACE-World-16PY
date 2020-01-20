@@ -11,4 +11,7 @@ VALUES (42570, 7930, 0, 5, '2005-02-09 10:00:00') /* Low Central Plains Mix Gene
      , (42570, 7930, 6, 2, '2005-02-09 10:00:00') /* Low Central Plains Mix Generator */
      , (42570, 7930, 6, 4, '2005-02-09 10:00:00') /* Low Central Plains Mix Generator */
      , (42570, 21172, 7, 0, '2005-02-09 10:00:00') /* Low Central Undead Plains Mix Generator */
-     , (42570, 21172, 7, 1, '2005-02-09 10:00:00') /* Low Central Undead Plains Mix Generator */;
+     , (42570, 21172, 7, 1, '2005-02-09 10:00:00') /* Low Central Undead Plains Mix Generator */
+     , (42570, 21172, 8, 1, '2005-02-09 10:00:00') /* Low Central Undead Plains Mix Generator */
+     , (42570, 7930, 8, 5, '2005-02-09 10:00:00') /* Low Central Plains Mix Generator */
+     , (42570, 7930, 8, 6, '2005-02-09 10:00:00') /* Low Central Plains Mix Generator */;

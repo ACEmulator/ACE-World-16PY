@@ -6,4 +6,6 @@ VALUES (37491, 23179, 1, 4, '2005-02-09 10:00:00') /* Gharun'dim Newbie Dunes Mi
      , (37491, 23179, 2, 1, '2005-02-09 10:00:00') /* Gharun'dim Newbie Dunes Mix Generator */
      , (37491, 23179, 4, 7, '2005-02-09 10:00:00') /* Gharun'dim Newbie Dunes Mix Generator */
      , (37491, 23179, 6, 0, '2005-02-09 10:00:00') /* Gharun'dim Newbie Dunes Mix Generator */
-     , (37491, 23179, 7, 5, '2005-02-09 10:00:00') /* Gharun'dim Newbie Dunes Mix Generator */;
+     , (37491, 23179, 7, 5, '2005-02-09 10:00:00') /* Gharun'dim Newbie Dunes Mix Generator */
+     , (37491, 23179, 8, 7, '2005-02-09 10:00:00') /* Gharun'dim Newbie Dunes Mix Generator */
+     , (37491, 23179, 8, 8, '2005-02-09 10:00:00') /* Gharun'dim Newbie Dunes Mix Generator */;

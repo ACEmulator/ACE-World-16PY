@@ -11,4 +11,6 @@ VALUES (48992, 23187, 0, 0, '2005-02-09 10:00:00') /* Sho Newbie Swamp Mix Gener
      , (48992, 23187, 5, 5, '2005-02-09 10:00:00') /* Sho Newbie Swamp Mix Generator */
      , (48992, 23187, 5, 7, '2005-02-09 10:00:00') /* Sho Newbie Swamp Mix Generator */
      , (48992, 23187, 6, 4, '2005-02-09 10:00:00') /* Sho Newbie Swamp Mix Generator */
-     , (48992, 23187, 7, 0, '2005-02-09 10:00:00') /* Sho Newbie Swamp Mix Generator */;
+     , (48992, 23187, 6, 8, '2005-02-09 10:00:00') /* Sho Newbie Swamp Mix Generator */
+     , (48992, 23187, 7, 0, '2005-02-09 10:00:00') /* Sho Newbie Swamp Mix Generator */
+     , (48992, 23187, 8, 1, '2005-02-09 10:00:00') /* Sho Newbie Swamp Mix Generator */;

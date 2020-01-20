@@ -6,4 +6,5 @@ VALUES (38265, 23180, 0, 4, '2005-02-09 10:00:00') /* Gharun'dim Newbie Brushlan
      , (38265, 23180, 2, 0, '2005-02-09 10:00:00') /* Gharun'dim Newbie Brushland Mix Generator */
      , (38265, 23180, 3, 1, '2005-02-09 10:00:00') /* Gharun'dim Newbie Brushland Mix Generator */
      , (38265, 5151, 5, 4, '2005-02-09 10:00:00') /* Harmless Gharun Generator */
-     , (38265, 5151, 7, 4, '2005-02-09 10:00:00') /* Harmless Gharun Generator */;
+     , (38265, 5151, 7, 4, '2005-02-09 10:00:00') /* Harmless Gharun Generator */
+     , (38265, 5151, 8, 8, '2005-02-09 10:00:00') /* Harmless Gharun Generator */;

@@ -13,5 +13,6 @@ VALUES (14151, 1978, 0, 0, '2005-02-09 10:00:00') /* High Direlands Swamp Sclavu
      , (14151, 1978, 4, 3, '2005-02-09 10:00:00') /* High Direlands Swamp Sclavus Generator */
      , (14151, 1978, 4, 7, '2005-02-09 10:00:00') /* High Direlands Swamp Sclavus Generator */
      , (14151, 1978, 5, 1, '2005-02-09 10:00:00') /* High Direlands Swamp Sclavus Generator */
+     , (14151, 1978, 6, 8, '2005-02-09 10:00:00') /* High Direlands Swamp Sclavus Generator */
      , (14151, 1978, 7, 3, '2005-02-09 10:00:00') /* High Direlands Swamp Sclavus Generator */
      , (14151, 1978, 7, 5, '2005-02-09 10:00:00') /* High Direlands Swamp Sclavus Generator */;

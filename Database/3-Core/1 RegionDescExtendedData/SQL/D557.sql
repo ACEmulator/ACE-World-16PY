@@ -8,4 +8,5 @@ VALUES (54615, 1997, 0, 2, '2005-02-09 10:00:00') /* Low A Gharundim Generator *
      , (54615, 1997, 3, 5, '2005-02-09 10:00:00') /* Low A Gharundim Generator */
      , (54615, 5149, 4, 2, '2005-02-09 10:00:00') /* Harmless Sho Generator */
      , (54615, 1997, 5, 6, '2005-02-09 10:00:00') /* Low A Gharundim Generator */
-     , (54615, 1997, 7, 4, '2005-02-09 10:00:00') /* Low A Gharundim Generator */;
+     , (54615, 1997, 7, 4, '2005-02-09 10:00:00') /* Low A Gharundim Generator */
+     , (54615, 1997, 8, 2, '2005-02-09 10:00:00') /* Low A Gharundim Generator */;

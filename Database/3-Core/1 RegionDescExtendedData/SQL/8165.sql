@@ -14,4 +14,5 @@ VALUES (33125, 5151, 0, 0, '2005-02-09 10:00:00') /* Harmless Gharun Generator *
      , (33125, 2008, 5, 1, '2005-02-09 10:00:00') /* Newbie Gharundim Generator */
      , (33125, 2008, 5, 2, '2005-02-09 10:00:00') /* Newbie Gharundim Generator */
      , (33125, 2008, 5, 4, '2005-02-09 10:00:00') /* Newbie Gharundim Generator */
-     , (33125, 2008, 6, 3, '2005-02-09 10:00:00') /* Newbie Gharundim Generator */;
+     , (33125, 2008, 6, 3, '2005-02-09 10:00:00') /* Newbie Gharundim Generator */
+     , (33125, 2008, 8, 0, '2005-02-09 10:00:00') /* Newbie Gharundim Generator */;

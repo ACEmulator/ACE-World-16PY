@@ -9,4 +9,5 @@ VALUES (48621, 7215, 0, 3, '2005-02-09 10:00:00') /* Aerlinthe Ash East Mix Gen 
      , (48621, 7215, 4, 1, '2005-02-09 10:00:00') /* Aerlinthe Ash East Mix Gen */
      , (48621, 7215, 5, 5, '2005-02-09 10:00:00') /* Aerlinthe Ash East Mix Gen */
      , (48621, 7215, 6, 3, '2005-02-09 10:00:00') /* Aerlinthe Ash East Mix Gen */
-     , (48621, 7215, 7, 7, '2005-02-09 10:00:00') /* Aerlinthe Ash East Mix Gen */;
+     , (48621, 7215, 7, 7, '2005-02-09 10:00:00') /* Aerlinthe Ash East Mix Gen */
+     , (48621, 7215, 8, 5, '2005-02-09 10:00:00') /* Aerlinthe Ash East Mix Gen */;

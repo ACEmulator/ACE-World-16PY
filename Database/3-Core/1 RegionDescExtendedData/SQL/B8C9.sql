@@ -7,4 +7,6 @@ VALUES (47305, 21186, 2, 3, '2005-02-09 10:00:00') /* Low North Golem Mix Genera
      , (47305, 21186, 6, 1, '2005-02-09 10:00:00') /* Low North Golem Mix Generator */
      , (47305, 21186, 7, 3, '2005-02-09 10:00:00') /* Low North Golem Mix Generator */
      , (47305, 21186, 7, 4, '2005-02-09 10:00:00') /* Low North Golem Mix Generator */
-     , (47305, 21186, 7, 6, '2005-02-09 10:00:00') /* Low North Golem Mix Generator */;
+     , (47305, 21186, 7, 6, '2005-02-09 10:00:00') /* Low North Golem Mix Generator */
+     , (47305, 21186, 8, 5, '2005-02-09 10:00:00') /* Low North Golem Mix Generator */
+     , (47305, 21186, 8, 7, '2005-02-09 10:00:00') /* Low North Golem Mix Generator */;

@@ -6,4 +6,5 @@ VALUES (3068, 21174, 0, 5, '2005-02-09 10:00:00') /* Low Central Swamp Mix Gener
      , (3068, 21174, 4, 1, '2005-02-09 10:00:00') /* Low Central Swamp Mix Generator */
      , (3068, 21173, 4, 3, '2005-02-09 10:00:00') /* Low Central Shore Mix Generator */
      , (3068, 21174, 6, 4, '2005-02-09 10:00:00') /* Low Central Swamp Mix Generator */
-     , (3068, 21174, 6, 5, '2005-02-09 10:00:00') /* Low Central Swamp Mix Generator */;
+     , (3068, 21174, 6, 5, '2005-02-09 10:00:00') /* Low Central Swamp Mix Generator */
+     , (3068, 21173, 8, 8, '2005-02-09 10:00:00') /* Low Central Shore Mix Generator */;

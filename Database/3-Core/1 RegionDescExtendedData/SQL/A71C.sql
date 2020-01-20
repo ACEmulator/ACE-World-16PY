@@ -5,4 +5,5 @@ VALUES (42780, 23167, 0, 5, '2005-02-09 10:00:00') /* Mid South Mountains Lugian
      , (42780, 23167, 3, 2, '2005-02-09 10:00:00') /* Mid South Mountains Lugian Generator */
      , (42780, 23167, 3, 3, '2005-02-09 10:00:00') /* Mid South Mountains Lugian Generator */
      , (42780, 23167, 4, 0, '2005-02-09 10:00:00') /* Mid South Mountains Lugian Generator */
-     , (42780, 23167, 4, 1, '2005-02-09 10:00:00') /* Mid South Mountains Lugian Generator */;
+     , (42780, 23167, 4, 1, '2005-02-09 10:00:00') /* Mid South Mountains Lugian Generator */
+     , (42780, 23167, 8, 5, '2005-02-09 10:00:00') /* Mid South Mountains Lugian Generator */;

@@ -6,4 +6,5 @@ VALUES (5318, 27732, 2, 1, '2005-02-09 10:00:00') /* Marae Mid Plains Generator 
      , (5318, 27732, 4, 0, '2005-02-09 10:00:00') /* Marae Mid Plains Generator */
      , (5318, 27732, 4, 4, '2005-02-09 10:00:00') /* Marae Mid Plains Generator */
      , (5318, 27732, 7, 1, '2005-02-09 10:00:00') /* Marae Mid Plains Generator */
-     , (5318, 27732, 7, 4, '2005-02-09 10:00:00') /* Marae Mid Plains Generator */;
+     , (5318, 27732, 7, 4, '2005-02-09 10:00:00') /* Marae Mid Plains Generator */
+     , (5318, 27732, 8, 4, '2005-02-09 10:00:00') /* Marae Mid Plains Generator */;

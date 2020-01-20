@@ -9,4 +9,5 @@ VALUES (32194, 23154, 0, 1, '2005-02-09 10:00:00') /* Mid North Mountains Drudge
      , (32194, 23154, 5, 2, '2005-02-09 10:00:00') /* Mid North Mountains Drudge Generator */
      , (32194, 23154, 5, 7, '2005-02-09 10:00:00') /* Mid North Mountains Drudge Generator */
      , (32194, 23154, 7, 2, '2005-02-09 10:00:00') /* Mid North Mountains Drudge Generator */
-     , (32194, 23154, 7, 3, '2005-02-09 10:00:00') /* Mid North Mountains Drudge Generator */;
+     , (32194, 23154, 7, 3, '2005-02-09 10:00:00') /* Mid North Mountains Drudge Generator */
+     , (32194, 23154, 8, 4, '2005-02-09 10:00:00') /* Mid North Mountains Drudge Generator */;

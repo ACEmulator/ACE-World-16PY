@@ -8,4 +8,5 @@ VALUES (8239, 1957, 0, 4, '2005-02-09 10:00:00') /* Extreme Direlands Desert Sha
      , (8239, 1957, 7, 0, '2005-02-09 10:00:00') /* Extreme Direlands Desert Shadow Generator */
      , (8239, 1957, 7, 1, '2005-02-09 10:00:00') /* Extreme Direlands Desert Shadow Generator */
      , (8239, 1957, 7, 4, '2005-02-09 10:00:00') /* Extreme Direlands Desert Shadow Generator */
-     , (8239, 1957, 7, 7, '2005-02-09 10:00:00') /* Extreme Direlands Desert Shadow Generator */;
+     , (8239, 1957, 7, 7, '2005-02-09 10:00:00') /* Extreme Direlands Desert Shadow Generator */
+     , (8239, 1965, 8, 3, '2005-02-09 10:00:00') /* Extreme Direlands Shore Generator */;

@@ -6,4 +6,7 @@ VALUES (54643, 23148, 0, 4, '2005-02-09 10:00:00') /* Mid Central Plains Mix Gen
      , (54643, 23148, 2, 3, '2005-02-09 10:00:00') /* Mid Central Plains Mix Generator */
      , (54643, 23148, 2, 6, '2005-02-09 10:00:00') /* Mid Central Plains Mix Generator */
      , (54643, 23148, 3, 3, '2005-02-09 10:00:00') /* Mid Central Plains Mix Generator */
-     , (54643, 23148, 6, 6, '2005-02-09 10:00:00') /* Mid Central Plains Mix Generator */;
+     , (54643, 23148, 4, 8, '2005-02-09 10:00:00') /* Mid Central Plains Mix Generator */
+     , (54643, 23148, 5, 8, '2005-02-09 10:00:00') /* Mid Central Plains Mix Generator */
+     , (54643, 23148, 6, 6, '2005-02-09 10:00:00') /* Mid Central Plains Mix Generator */
+     , (54643, 23148, 8, 0, '2005-02-09 10:00:00') /* Mid Central Plains Mix Generator */;

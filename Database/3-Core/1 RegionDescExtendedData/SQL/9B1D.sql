@@ -6,4 +6,5 @@ VALUES (39709, 23166, 0, 3, '2005-02-09 10:00:00') /* Mid SOuth Mountains Genera
      , (39709, 23166, 3, 3, '2005-02-09 10:00:00') /* Mid SOuth Mountains Generator */
      , (39709, 23166, 6, 0, '2005-02-09 10:00:00') /* Mid SOuth Mountains Generator */
      , (39709, 23166, 6, 4, '2005-02-09 10:00:00') /* Mid SOuth Mountains Generator */
-     , (39709, 23167, 7, 1, '2005-02-09 10:00:00') /* Mid South Mountains Lugian Generator */;
+     , (39709, 23167, 7, 1, '2005-02-09 10:00:00') /* Mid South Mountains Lugian Generator */
+     , (39709, 23167, 8, 5, '2005-02-09 10:00:00') /* Mid South Mountains Lugian Generator */;

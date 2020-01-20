@@ -7,4 +7,6 @@ VALUES (2564, 25891, 0, 2, '2005-02-09 10:00:00') /* Southern Singularity Caul G
      , (2564, 25891, 3, 5, '2005-02-09 10:00:00') /* Southern Singularity Caul Gen */
      , (2564, 25891, 5, 1, '2005-02-09 10:00:00') /* Southern Singularity Caul Gen */
      , (2564, 25891, 5, 4, '2005-02-09 10:00:00') /* Southern Singularity Caul Gen */
-     , (2564, 25891, 6, 5, '2005-02-09 10:00:00') /* Southern Singularity Caul Gen */;
+     , (2564, 25891, 5, 8, '2005-02-09 10:00:00') /* Southern Singularity Caul Gen */
+     , (2564, 25891, 6, 5, '2005-02-09 10:00:00') /* Southern Singularity Caul Gen */
+     , (2564, 25891, 8, 0, '2005-02-09 10:00:00') /* Southern Singularity Caul Gen */;

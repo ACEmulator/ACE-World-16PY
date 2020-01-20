@@ -7,4 +7,6 @@ VALUES (18017, 1968, 0, 6, '2005-02-09 10:00:00') /* High Direlands Shore Genera
      , (18017, 1968, 2, 4, '2005-02-09 10:00:00') /* High Direlands Shore Generator */
      , (18017, 1968, 4, 5, '2005-02-09 10:00:00') /* High Direlands Shore Generator */
      , (18017, 1968, 5, 2, '2005-02-09 10:00:00') /* High Direlands Shore Generator */
-     , (18017, 1968, 5, 7, '2005-02-09 10:00:00') /* High Direlands Shore Generator */;
+     , (18017, 1968, 5, 7, '2005-02-09 10:00:00') /* High Direlands Shore Generator */
+     , (18017, 1968, 7, 8, '2005-02-09 10:00:00') /* High Direlands Shore Generator */
+     , (18017, 1968, 8, 5, '2005-02-09 10:00:00') /* High Direlands Shore Generator */;

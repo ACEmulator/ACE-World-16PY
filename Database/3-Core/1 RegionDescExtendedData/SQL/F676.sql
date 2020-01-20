@@ -7,10 +7,13 @@ VALUES (63094, 22536, 1, 2, '2005-02-09 10:00:00') /* Tusker Island Low Mountain
      , (63094, 22536, 2, 3, '2005-02-09 10:00:00') /* Tusker Island Low Mountain Mix Gen */
      , (63094, 22536, 2, 4, '2005-02-09 10:00:00') /* Tusker Island Low Mountain Mix Gen */
      , (63094, 22539, 2, 6, '2005-02-09 10:00:00') /* Tusker Island Uber Beach Mix Gen */
+     , (63094, 22536, 2, 8, '2005-02-09 10:00:00') /* Tusker Island Low Mountain Mix Gen */
+     , (63094, 22536, 3, 8, '2005-02-09 10:00:00') /* Tusker Island Low Mountain Mix Gen */
      , (63094, 22387, 4, 4, '2005-02-09 10:00:00') /* Tusker Island Low Mix Gen */
      , (63094, 22387, 5, 0, '2005-02-09 10:00:00') /* Tusker Island Low Mix Gen */
      , (63094, 22536, 5, 6, '2005-02-09 10:00:00') /* Tusker Island Low Mountain Mix Gen */
      , (63094, 22387, 7, 1, '2005-02-09 10:00:00') /* Tusker Island Low Mix Gen */
      , (63094, 22387, 7, 3, '2005-02-09 10:00:00') /* Tusker Island Low Mix Gen */
      , (63094, 22387, 7, 5, '2005-02-09 10:00:00') /* Tusker Island Low Mix Gen */
-     , (63094, 22387, 7, 6, '2005-02-09 10:00:00') /* Tusker Island Low Mix Gen */;
+     , (63094, 22387, 7, 6, '2005-02-09 10:00:00') /* Tusker Island Low Mix Gen */
+     , (63094, 22387, 8, 3, '2005-02-09 10:00:00') /* Tusker Island Low Mix Gen */;

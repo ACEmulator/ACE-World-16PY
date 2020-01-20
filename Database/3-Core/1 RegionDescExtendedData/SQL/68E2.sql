@@ -8,6 +8,9 @@ VALUES (26850, 1979, 1, 1, '2005-02-09 10:00:00') /* High North Forest Generator
      , (26850, 1970, 3, 5, '2005-02-09 10:00:00') /* High Direlands Mountain Generator */
      , (26850, 1970, 4, 1, '2005-02-09 10:00:00') /* High Direlands Mountain Generator */
      , (26850, 1970, 4, 5, '2005-02-09 10:00:00') /* High Direlands Mountain Generator */
+     , (26850, 1979, 4, 8, '2005-02-09 10:00:00') /* High North Forest Generator */
      , (26850, 1970, 5, 1, '2005-02-09 10:00:00') /* High Direlands Mountain Generator */
      , (26850, 1970, 6, 1, '2005-02-09 10:00:00') /* High Direlands Mountain Generator */
-     , (26850, 1970, 7, 4, '2005-02-09 10:00:00') /* High Direlands Mountain Generator */;
+     , (26850, 1970, 7, 4, '2005-02-09 10:00:00') /* High Direlands Mountain Generator */
+     , (26850, 1979, 7, 8, '2005-02-09 10:00:00') /* High North Forest Generator */
+     , (26850, 1970, 8, 3, '2005-02-09 10:00:00') /* High Direlands Mountain Generator */;

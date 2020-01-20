@@ -6,4 +6,5 @@ VALUES (30950, 2003, 1, 6, '2005-02-09 10:00:00') /* High North Mountains Golem 
      , (30950, 2003, 2, 2, '2005-02-09 10:00:00') /* High North Mountains Golem Generator */
      , (30950, 2003, 2, 4, '2005-02-09 10:00:00') /* High North Mountains Golem Generator */
      , (30950, 2003, 3, 1, '2005-02-09 10:00:00') /* High North Mountains Golem Generator */
-     , (30950, 2003, 6, 4, '2005-02-09 10:00:00') /* High North Mountains Golem Generator */;
+     , (30950, 2003, 6, 4, '2005-02-09 10:00:00') /* High North Mountains Golem Generator */
+     , (30950, 2003, 8, 5, '2005-02-09 10:00:00') /* High North Mountains Golem Generator */;

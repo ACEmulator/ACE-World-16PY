@@ -7,4 +7,5 @@ VALUES (31932, 23154, 0, 2, '2005-02-09 10:00:00') /* Mid North Mountains Drudge
      , (31932, 23155, 2, 0, '2005-02-09 10:00:00') /* Mid North Mountains Mix Generator */
      , (31932, 23155, 4, 2, '2005-02-09 10:00:00') /* Mid North Mountains Mix Generator */
      , (31932, 23155, 4, 6, '2005-02-09 10:00:00') /* Mid North Mountains Mix Generator */
-     , (31932, 23155, 5, 2, '2005-02-09 10:00:00') /* Mid North Mountains Mix Generator */;
+     , (31932, 23155, 5, 2, '2005-02-09 10:00:00') /* Mid North Mountains Mix Generator */
+     , (31932, 23158, 8, 4, '2005-02-09 10:00:00') /* Mid North Mountains Tusker Generator */;

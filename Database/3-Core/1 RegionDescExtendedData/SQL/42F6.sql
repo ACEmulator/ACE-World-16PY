@@ -4,20 +4,25 @@ INSERT INTO `encounter` (`landblock`, `weenie_Class_Id`, `cell_X`, `cell_Y`, `la
 VALUES (17142, 30429, 0, 0, '2005-02-09 10:00:00') /* Mid North Forest Mix Generator */
      , (17142, 30429, 0, 3, '2005-02-09 10:00:00') /* Mid North Forest Mix Generator */
      , (17142, 30429, 0, 5, '2005-02-09 10:00:00') /* Mid North Forest Mix Generator */
+     , (17142, 30429, 0, 8, '2005-02-09 10:00:00') /* Mid North Forest Mix Generator */
      , (17142, 30429, 1, 0, '2005-02-09 10:00:00') /* Mid North Forest Mix Generator */
      , (17142, 30429, 1, 5, '2005-02-09 10:00:00') /* Mid North Forest Mix Generator */
+     , (17142, 30429, 1, 8, '2005-02-09 10:00:00') /* Mid North Forest Mix Generator */
      , (17142, 30429, 2, 0, '2005-02-09 10:00:00') /* Mid North Forest Mix Generator */
      , (17142, 30429, 2, 5, '2005-02-09 10:00:00') /* Mid North Forest Mix Generator */
      , (17142, 30429, 2, 6, '2005-02-09 10:00:00') /* Mid North Forest Mix Generator */
+     , (17142, 30429, 2, 8, '2005-02-09 10:00:00') /* Mid North Forest Mix Generator */
      , (17142, 30429, 3, 0, '2005-02-09 10:00:00') /* Mid North Forest Mix Generator */
      , (17142, 30429, 3, 1, '2005-02-09 10:00:00') /* Mid North Forest Mix Generator */
      , (17142, 30429, 3, 2, '2005-02-09 10:00:00') /* Mid North Forest Mix Generator */
      , (17142, 30429, 3, 3, '2005-02-09 10:00:00') /* Mid North Forest Mix Generator */
      , (17142, 30429, 3, 6, '2005-02-09 10:00:00') /* Mid North Forest Mix Generator */
+     , (17142, 30429, 3, 8, '2005-02-09 10:00:00') /* Mid North Forest Mix Generator */
      , (17142, 30429, 4, 0, '2005-02-09 10:00:00') /* Mid North Forest Mix Generator */
      , (17142, 30429, 4, 3, '2005-02-09 10:00:00') /* Mid North Forest Mix Generator */
      , (17142, 30429, 4, 4, '2005-02-09 10:00:00') /* Mid North Forest Mix Generator */
      , (17142, 30429, 4, 6, '2005-02-09 10:00:00') /* Mid North Forest Mix Generator */
+     , (17142, 30429, 4, 8, '2005-02-09 10:00:00') /* Mid North Forest Mix Generator */
      , (17142, 30429, 5, 1, '2005-02-09 10:00:00') /* Mid North Forest Mix Generator */
      , (17142, 30429, 5, 3, '2005-02-09 10:00:00') /* Mid North Forest Mix Generator */
      , (17142, 30429, 5, 4, '2005-02-09 10:00:00') /* Mid North Forest Mix Generator */
@@ -25,6 +30,14 @@ VALUES (17142, 30429, 0, 0, '2005-02-09 10:00:00') /* Mid North Forest Mix Gener
      , (17142, 30429, 6, 3, '2005-02-09 10:00:00') /* Mid North Forest Mix Generator */
      , (17142, 30429, 6, 4, '2005-02-09 10:00:00') /* Mid North Forest Mix Generator */
      , (17142, 30429, 6, 6, '2005-02-09 10:00:00') /* Mid North Forest Mix Generator */
+     , (17142, 30429, 6, 8, '2005-02-09 10:00:00') /* Mid North Forest Mix Generator */
      , (17142, 30429, 7, 2, '2005-02-09 10:00:00') /* Mid North Forest Mix Generator */
      , (17142, 30429, 7, 3, '2005-02-09 10:00:00') /* Mid North Forest Mix Generator */
-     , (17142, 30429, 7, 6, '2005-02-09 10:00:00') /* Mid North Forest Mix Generator */;
+     , (17142, 30429, 7, 6, '2005-02-09 10:00:00') /* Mid North Forest Mix Generator */
+     , (17142, 30429, 7, 8, '2005-02-09 10:00:00') /* Mid North Forest Mix Generator */
+     , (17142, 30429, 8, 0, '2005-02-09 10:00:00') /* Mid North Forest Mix Generator */
+     , (17142, 30429, 8, 3, '2005-02-09 10:00:00') /* Mid North Forest Mix Generator */
+     , (17142, 30429, 8, 4, '2005-02-09 10:00:00') /* Mid North Forest Mix Generator */
+     , (17142, 30429, 8, 5, '2005-02-09 10:00:00') /* Mid North Forest Mix Generator */
+     , (17142, 30429, 8, 6, '2005-02-09 10:00:00') /* Mid North Forest Mix Generator */
+     , (17142, 30429, 8, 8, '2005-02-09 10:00:00') /* Mid North Forest Mix Generator */;

@@ -7,5 +7,9 @@ VALUES (42167, 1996, 0, 2, '2005-02-09 10:00:00') /* Low A Aluvian Generator */
      , (42167, 1996, 2, 1, '2005-02-09 10:00:00') /* Low A Aluvian Generator */
      , (42167, 1996, 2, 2, '2005-02-09 10:00:00') /* Low A Aluvian Generator */
      , (42167, 1996, 3, 4, '2005-02-09 10:00:00') /* Low A Aluvian Generator */
+     , (42167, 1996, 4, 8, '2005-02-09 10:00:00') /* Low A Aluvian Generator */
      , (42167, 1996, 5, 0, '2005-02-09 10:00:00') /* Low A Aluvian Generator */
-     , (42167, 1996, 6, 2, '2005-02-09 10:00:00') /* Low A Aluvian Generator */;
+     , (42167, 1996, 6, 2, '2005-02-09 10:00:00') /* Low A Aluvian Generator */
+     , (42167, 1996, 7, 8, '2005-02-09 10:00:00') /* Low A Aluvian Generator */
+     , (42167, 1996, 8, 4, '2005-02-09 10:00:00') /* Low A Aluvian Generator */
+     , (42167, 1996, 8, 8, '2005-02-09 10:00:00') /* Low A Aluvian Generator */;

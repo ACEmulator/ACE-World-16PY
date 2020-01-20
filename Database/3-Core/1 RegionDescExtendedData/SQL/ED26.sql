@@ -7,4 +7,5 @@ VALUES (60710, 7225, 0, 1, '2005-02-09 10:00:00') /* Jungle D1 Mix Generator */
      , (60710, 7225, 5, 3, '2005-02-09 10:00:00') /* Jungle D1 Mix Generator */
      , (60710, 7225, 6, 5, '2005-02-09 10:00:00') /* Jungle D1 Mix Generator */
      , (60710, 7225, 6, 6, '2005-02-09 10:00:00') /* Jungle D1 Mix Generator */
-     , (60710, 7225, 7, 6, '2005-02-09 10:00:00') /* Jungle D1 Mix Generator */;
+     , (60710, 7225, 7, 6, '2005-02-09 10:00:00') /* Jungle D1 Mix Generator */
+     , (60710, 7225, 8, 0, '2005-02-09 10:00:00') /* Jungle D1 Mix Generator */;

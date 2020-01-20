@@ -5,4 +5,5 @@ VALUES (28434, 23169, 0, 6, '2005-02-09 10:00:00') /* Mid South Mountains Undead
      , (28434, 23169, 1, 4, '2005-02-09 10:00:00') /* Mid South Mountains Undead Generator */
      , (28434, 23169, 2, 5, '2005-02-09 10:00:00') /* Mid South Mountains Undead Generator */
      , (28434, 23169, 4, 4, '2005-02-09 10:00:00') /* Mid South Mountains Undead Generator */
-     , (28434, 23169, 7, 7, '2005-02-09 10:00:00') /* Mid South Mountains Undead Generator */;
+     , (28434, 23169, 7, 7, '2005-02-09 10:00:00') /* Mid South Mountains Undead Generator */
+     , (28434, 23169, 8, 2, '2005-02-09 10:00:00') /* Mid South Mountains Undead Generator */;

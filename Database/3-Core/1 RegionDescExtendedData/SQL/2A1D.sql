@@ -6,4 +6,5 @@ VALUES (10781, 1956, 0, 0, '2005-02-09 10:00:00') /* Extreme Direlands Desert Ge
      , (10781, 1956, 3, 7, '2005-02-09 10:00:00') /* Extreme Direlands Desert Generator */
      , (10781, 1956, 4, 2, '2005-02-09 10:00:00') /* Extreme Direlands Desert Generator */
      , (10781, 1956, 4, 3, '2005-02-09 10:00:00') /* Extreme Direlands Desert Generator */
-     , (10781, 1956, 6, 6, '2005-02-09 10:00:00') /* Extreme Direlands Desert Generator */;
+     , (10781, 1956, 6, 6, '2005-02-09 10:00:00') /* Extreme Direlands Desert Generator */
+     , (10781, 1957, 8, 8, '2005-02-09 10:00:00') /* Extreme Direlands Desert Shadow Generator */;

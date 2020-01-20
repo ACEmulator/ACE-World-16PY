@@ -7,4 +7,7 @@ VALUES (48231, 23187, 0, 0, '2005-02-09 10:00:00') /* Sho Newbie Swamp Mix Gener
      , (48231, 23187, 4, 6, '2005-02-09 10:00:00') /* Sho Newbie Swamp Mix Generator */
      , (48231, 23187, 4, 7, '2005-02-09 10:00:00') /* Sho Newbie Swamp Mix Generator */
      , (48231, 23187, 5, 4, '2005-02-09 10:00:00') /* Sho Newbie Swamp Mix Generator */
-     , (48231, 23187, 7, 6, '2005-02-09 10:00:00') /* Sho Newbie Swamp Mix Generator */;
+     , (48231, 23187, 6, 8, '2005-02-09 10:00:00') /* Sho Newbie Swamp Mix Generator */
+     , (48231, 23187, 7, 6, '2005-02-09 10:00:00') /* Sho Newbie Swamp Mix Generator */
+     , (48231, 23187, 8, 2, '2005-02-09 10:00:00') /* Sho Newbie Swamp Mix Generator */
+     , (48231, 23187, 8, 5, '2005-02-09 10:00:00') /* Sho Newbie Swamp Mix Generator */;

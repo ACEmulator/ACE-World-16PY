@@ -7,4 +7,5 @@ VALUES (32730, 4171, 0, 3, '2005-02-09 10:00:00') /* High North Mountains Tusker
      , (32730, 4171, 4, 1, '2005-02-09 10:00:00') /* High North Mountains Tusker Generator */
      , (32730, 4171, 4, 5, '2005-02-09 10:00:00') /* High North Mountains Tusker Generator */
      , (32730, 4171, 6, 2, '2005-02-09 10:00:00') /* High North Mountains Tusker Generator */
-     , (32730, 4171, 7, 4, '2005-02-09 10:00:00') /* High North Mountains Tusker Generator */;
+     , (32730, 4171, 7, 4, '2005-02-09 10:00:00') /* High North Mountains Tusker Generator */
+     , (32730, 4171, 8, 7, '2005-02-09 10:00:00') /* High North Mountains Tusker Generator */;

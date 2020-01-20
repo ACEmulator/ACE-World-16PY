@@ -7,8 +7,12 @@ VALUES (47410, 7927, 0, 7, '2005-02-09 10:00:00') /* Low Central Lugian Mountain
      , (47410, 7927, 2, 5, '2005-02-09 10:00:00') /* Low Central Lugian Mountain Mix Generator */
      , (47410, 7927, 2, 6, '2005-02-09 10:00:00') /* Low Central Lugian Mountain Mix Generator */
      , (47410, 7927, 3, 1, '2005-02-09 10:00:00') /* Low Central Lugian Mountain Mix Generator */
+     , (47410, 7927, 3, 8, '2005-02-09 10:00:00') /* Low Central Lugian Mountain Mix Generator */
      , (47410, 7927, 4, 1, '2005-02-09 10:00:00') /* Low Central Lugian Mountain Mix Generator */
      , (47410, 7927, 5, 3, '2005-02-09 10:00:00') /* Low Central Lugian Mountain Mix Generator */
      , (47410, 7927, 6, 3, '2005-02-09 10:00:00') /* Low Central Lugian Mountain Mix Generator */
      , (47410, 7927, 7, 4, '2005-02-09 10:00:00') /* Low Central Lugian Mountain Mix Generator */
-     , (47410, 7927, 7, 6, '2005-02-09 10:00:00') /* Low Central Lugian Mountain Mix Generator */;
+     , (47410, 7927, 7, 6, '2005-02-09 10:00:00') /* Low Central Lugian Mountain Mix Generator */
+     , (47410, 7927, 7, 8, '2005-02-09 10:00:00') /* Low Central Lugian Mountain Mix Generator */
+     , (47410, 7927, 8, 4, '2005-02-09 10:00:00') /* Low Central Lugian Mountain Mix Generator */
+     , (47410, 7927, 8, 6, '2005-02-09 10:00:00') /* Low Central Lugian Mountain Mix Generator */;

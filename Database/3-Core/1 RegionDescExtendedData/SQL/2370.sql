@@ -6,7 +6,13 @@ VALUES (9072, 1975, 0, 4, '2005-02-09 10:00:00') /* High Direlands South Mountai
      , (9072, 1975, 1, 0, '2005-02-09 10:00:00') /* High Direlands South Mountains Generator */
      , (9072, 1975, 1, 1, '2005-02-09 10:00:00') /* High Direlands South Mountains Generator */
      , (9072, 1975, 1, 3, '2005-02-09 10:00:00') /* High Direlands South Mountains Generator */
+     , (9072, 1970, 1, 8, '2005-02-09 10:00:00') /* High Direlands Mountain Generator */
+     , (9072, 1970, 2, 8, '2005-02-09 10:00:00') /* High Direlands Mountain Generator */
      , (9072, 1970, 3, 2, '2005-02-09 10:00:00') /* High Direlands Mountain Generator */
      , (9072, 1970, 3, 5, '2005-02-09 10:00:00') /* High Direlands Mountain Generator */
      , (9072, 1970, 4, 3, '2005-02-09 10:00:00') /* High Direlands Mountain Generator */
-     , (9072, 1970, 6, 0, '2005-02-09 10:00:00') /* High Direlands Mountain Generator */;
+     , (9072, 1970, 6, 0, '2005-02-09 10:00:00') /* High Direlands Mountain Generator */
+     , (9072, 1970, 8, 0, '2005-02-09 10:00:00') /* High Direlands Mountain Generator */
+     , (9072, 1970, 8, 2, '2005-02-09 10:00:00') /* High Direlands Mountain Generator */
+     , (9072, 1970, 8, 3, '2005-02-09 10:00:00') /* High Direlands Mountain Generator */
+     , (9072, 1970, 8, 5, '2005-02-09 10:00:00') /* High Direlands Mountain Generator */;

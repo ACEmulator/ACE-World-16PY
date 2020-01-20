@@ -5,4 +5,7 @@ VALUES (47668, 7927, 3, 0, '2005-02-09 10:00:00') /* Low Central Lugian Mountain
      , (47668, 4623, 4, 3, '2005-02-09 10:00:00') /* Low Central Forest Mix Generator */
      , (47668, 7927, 5, 0, '2005-02-09 10:00:00') /* Low Central Lugian Mountain Mix Generator */
      , (47668, 4623, 5, 5, '2005-02-09 10:00:00') /* Low Central Forest Mix Generator */
-     , (47668, 4623, 7, 1, '2005-02-09 10:00:00') /* Low Central Forest Mix Generator */;
+     , (47668, 4623, 6, 8, '2005-02-09 10:00:00') /* Low Central Forest Mix Generator */
+     , (47668, 4623, 7, 1, '2005-02-09 10:00:00') /* Low Central Forest Mix Generator */
+     , (47668, 4623, 8, 2, '2005-02-09 10:00:00') /* Low Central Forest Mix Generator */
+     , (47668, 4623, 8, 8, '2005-02-09 10:00:00') /* Low Central Forest Mix Generator */;

@@ -5,4 +5,5 @@ VALUES (37156, 23172, 2, 2, '2005-02-09 10:00:00') /* Mid South Plains Generator
      , (37156, 5151, 2, 3, '2005-02-09 10:00:00') /* Harmless Gharun Generator */
      , (37156, 23172, 3, 4, '2005-02-09 10:00:00') /* Mid South Plains Generator */
      , (37156, 23172, 5, 1, '2005-02-09 10:00:00') /* Mid South Plains Generator */
-     , (37156, 23172, 6, 1, '2005-02-09 10:00:00') /* Mid South Plains Generator */;
+     , (37156, 23172, 6, 1, '2005-02-09 10:00:00') /* Mid South Plains Generator */
+     , (37156, 23172, 6, 8, '2005-02-09 10:00:00') /* Mid South Plains Generator */;

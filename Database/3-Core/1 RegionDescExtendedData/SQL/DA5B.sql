@@ -9,4 +9,5 @@ VALUES (55899, 1997, 0, 4, '2005-02-09 10:00:00') /* Low A Gharundim Generator *
      , (55899, 1997, 4, 0, '2005-02-09 10:00:00') /* Low A Gharundim Generator */
      , (55899, 1997, 4, 6, '2005-02-09 10:00:00') /* Low A Gharundim Generator */
      , (55899, 1997, 5, 7, '2005-02-09 10:00:00') /* Low A Gharundim Generator */
-     , (55899, 1997, 6, 2, '2005-02-09 10:00:00') /* Low A Gharundim Generator */;
+     , (55899, 1997, 6, 2, '2005-02-09 10:00:00') /* Low A Gharundim Generator */
+     , (55899, 2001, 8, 3, '2005-02-09 10:00:00') /* Low B Aluvian Generator */;

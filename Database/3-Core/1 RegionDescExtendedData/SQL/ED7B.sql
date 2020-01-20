@@ -9,4 +9,5 @@ VALUES (60795, 22531, 0, 1, '2005-02-09 10:00:00') /* Tusker Island Extreme Beac
      , (60795, 22531, 2, 6, '2005-02-09 10:00:00') /* Tusker Island Extreme Beach Mix Gen */
      , (60795, 22531, 3, 5, '2005-02-09 10:00:00') /* Tusker Island Extreme Beach Mix Gen */
      , (60795, 22531, 3, 6, '2005-02-09 10:00:00') /* Tusker Island Extreme Beach Mix Gen */
+     , (60795, 22531, 4, 8, '2005-02-09 10:00:00') /* Tusker Island Extreme Beach Mix Gen */
      , (60795, 22531, 5, 7, '2005-02-09 10:00:00') /* Tusker Island Extreme Beach Mix Gen */;

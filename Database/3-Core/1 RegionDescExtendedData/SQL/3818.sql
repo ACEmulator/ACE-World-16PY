@@ -7,4 +7,5 @@ VALUES (14360, 1969, 1, 3, '2005-02-09 10:00:00') /* High Direlands Desert Undea
      , (14360, 1966, 3, 1, '2005-02-09 10:00:00') /* High Direlands Desert Generator */
      , (14360, 1969, 3, 6, '2005-02-09 10:00:00') /* High Direlands Desert Undead Generator */
      , (14360, 1969, 7, 3, '2005-02-09 10:00:00') /* High Direlands Desert Undead Generator */
-     , (14360, 1969, 7, 5, '2005-02-09 10:00:00') /* High Direlands Desert Undead Generator */;
+     , (14360, 1969, 7, 5, '2005-02-09 10:00:00') /* High Direlands Desert Undead Generator */
+     , (14360, 1966, 8, 4, '2005-02-09 10:00:00') /* High Direlands Desert Generator */;

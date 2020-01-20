@@ -9,5 +9,8 @@ VALUES (5463, 1958, 0, 4, '2005-02-09 10:00:00') /* Extreme Direlands Forest Ban
      , (5463, 1957, 4, 4, '2005-02-09 10:00:00') /* Extreme Direlands Desert Shadow Generator */
      , (5463, 1960, 6, 2, '2005-02-09 10:00:00') /* Extreme Direlands Forest Generator */
      , (5463, 1960, 6, 7, '2005-02-09 10:00:00') /* Extreme Direlands Forest Generator */
+     , (5463, 1960, 6, 8, '2005-02-09 10:00:00') /* Extreme Direlands Forest Generator */
      , (5463, 1960, 7, 0, '2005-02-09 10:00:00') /* Extreme Direlands Forest Generator */
-     , (5463, 1960, 7, 7, '2005-02-09 10:00:00') /* Extreme Direlands Forest Generator */;
+     , (5463, 1960, 7, 7, '2005-02-09 10:00:00') /* Extreme Direlands Forest Generator */
+     , (5463, 1960, 7, 8, '2005-02-09 10:00:00') /* Extreme Direlands Forest Generator */
+     , (5463, 1960, 8, 4, '2005-02-09 10:00:00') /* Extreme Direlands Forest Generator */;
