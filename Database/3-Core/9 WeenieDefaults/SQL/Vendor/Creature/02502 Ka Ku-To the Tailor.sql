@@ -12,7 +12,7 @@ VALUES (2502,   1,         16) /* ItemType - Creature */
      , (2502,  16,         32) /* ItemUseable - Remote */
      , (2502,  25,         10) /* Level */
      , (2502,  27,          0) /* ArmorType - None */
-     , (2502,  74,     262158) /* MerchandiseItemTypes - Vestments, Jewelry, PromissoryNote */
+     , (2502,  74,     262158) /* MerchandiseItemTypes - Vestements, Jewelry, PromissoryNote */
      , (2502,  75,          0) /* MerchandiseMinValue */
      , (2502,  76,     100000) /* MerchandiseMaxValue */
      , (2502,  93,    2098200) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */

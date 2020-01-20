@@ -12,7 +12,7 @@ VALUES (410,   1,         16) /* ItemType - Creature */
      , (410,  16,         32) /* ItemUseable - Remote */
      , (410,  25,          5) /* Level */
      , (410,  27,          0) /* ArmorType - None */
-     , (410,  74,        551) /* MerchandiseItemTypes - MeleeWeapon, Vestments, Food, Container */
+     , (410,  74,        551) /* MerchandiseItemTypes - MeleeWeapon, Vestements, Food, Container */
      , (410,  75,          0) /* MerchandiseMinValue */
      , (410,  76,     100000) /* MerchandiseMaxValue */
      , (410,  93,    2098200) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */

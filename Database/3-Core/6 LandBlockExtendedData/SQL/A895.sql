@@ -1,5 +1,5 @@
-DELETE FROM `landblock_instance` WHERE `landblock` = 43157;
+DELETE FROM `landblock_instance` WHERE `landblock` = 0xA895;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (2055819264,  7614, 2828337152, 84.1355, 15.1586, 82.2569, -0.52413, 0, 0, -0.851638, False, '2005-02-09 10:00:00'); /* Catacombs of the Forgotten Portal */
+VALUES (0x7A895000,  7614, 0xA8950000, 84.1355, 15.1586, 82.2569, -0.52413, 0, 0, -0.851638, False, '2005-02-09 10:00:00'); /* Catacombs of the Forgotten Portal */
 /* @teleloc 0xA8950000 [84.135500 15.158600 82.256900] -0.524130 0.000000 0.000000 -0.851638 */

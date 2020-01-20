@@ -1,749 +1,749 @@
-DELETE FROM `landblock_instance` WHERE `landblock` = 25926;
+DELETE FROM `landblock_instance` WHERE `landblock` = 0x6546;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (1985241088, 26544, 1699086592, 10, -292.5, -12, -4.37114E-08, 0, 0, -1,  True, '2005-02-09 10:00:00'); /* Wailing Statue */
+VALUES (0x76546000, 26544, 0x65460100, 10, -292.5, -12, -4.37114E-08, 0, 0, -1,  True, '2005-02-09 10:00:00'); /* Wailing Statue */
 /* @teleloc 0x65460100 [10.000000 -292.500000 -12.000000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (1985241089, 26568, 1699086598, 20, -367.5, -12, 1, 0, 0, 0,  True, '2005-02-09 10:00:00'); /* Wailing Statue */
+VALUES (0x76546001, 26568, 0x65460106, 20, -367.5, -12, 1, 0, 0, 0,  True, '2005-02-09 10:00:00'); /* Wailing Statue */
 /* @teleloc 0x65460106 [20.000000 -367.500000 -12.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (1985241090, 26544, 1699086599, 30, -112.5, -12, -4.37114E-08, 0, 0, -1,  True, '2005-02-09 10:00:00'); /* Wailing Statue */
+VALUES (0x76546002, 26544, 0x65460107, 30, -112.5, -12, -4.37114E-08, 0, 0, -1,  True, '2005-02-09 10:00:00'); /* Wailing Statue */
 /* @teleloc 0x65460107 [30.000000 -112.500000 -12.000000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (1985241091, 26568, 1699086609, 40, -187.5, -12, 1, 0, 0, 0,  True, '2005-02-09 10:00:00'); /* Wailing Statue */
+VALUES (0x76546003, 26568, 0x65460111, 40, -187.5, -12, 1, 0, 0, 0,  True, '2005-02-09 10:00:00'); /* Wailing Statue */
 /* @teleloc 0x65460111 [40.000000 -187.500000 -12.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (1985241092, 26543, 1699086625, 50, -307.5, -12, 1, 0, 0, 0,  True, '2005-02-09 10:00:00'); /* Wailing Statue */
+VALUES (0x76546004, 26543, 0x65460121, 50, -307.5, -12, 1, 0, 0, 0,  True, '2005-02-09 10:00:00'); /* Wailing Statue */
 /* @teleloc 0x65460121 [50.000000 -307.500000 -12.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (1985241093, 26543, 1699086632, 50, -367.5, -12, 1, 0, 0, 0,  True, '2005-02-09 10:00:00'); /* Wailing Statue */
+VALUES (0x76546005, 26543, 0x65460128, 50, -367.5, -12, 1, 0, 0, 0,  True, '2005-02-09 10:00:00'); /* Wailing Statue */
 /* @teleloc 0x65460128 [50.000000 -367.500000 -12.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (1985241094, 26552, 1699086643, 60, -317, -12, 1, 0, 0, 0,  True, '2005-02-09 10:00:00'); /* Matron Arbiter */
+VALUES (0x76546006, 26552, 0x65460133, 60, -317, -12, 1, 0, 0, 0,  True, '2005-02-09 10:00:00'); /* Matron Arbiter */
 /* @teleloc 0x65460133 [60.000000 -317.000000 -12.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (1985241095, 26568, 1699086644, 62.5, -350, -12, 0.707107, 0, 0, -0.707107,  True, '2005-02-09 10:00:00'); /* Wailing Statue */
+VALUES (0x76546007, 26568, 0x65460134, 62.5, -350, -12, 0.707107, 0, 0, -0.707107,  True, '2005-02-09 10:00:00'); /* Wailing Statue */
 /* @teleloc 0x65460134 [62.500000 -350.000000 -12.000000] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (1985241096, 26543, 1699086652, 70, -127.5, -12, 1, 0, 0, 0,  True, '2005-02-09 10:00:00'); /* Wailing Statue */
+VALUES (0x76546008, 26543, 0x6546013C, 70, -127.5, -12, 1, 0, 0, 0,  True, '2005-02-09 10:00:00'); /* Wailing Statue */
 /* @teleloc 0x6546013C [70.000000 -127.500000 -12.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (1985241097, 26543, 1699086659, 70, -187.5, -12, 1, 0, 0, 0,  True, '2005-02-09 10:00:00'); /* Wailing Statue */
+VALUES (0x76546009, 26543, 0x65460143, 70, -187.5, -12, 1, 0, 0, 0,  True, '2005-02-09 10:00:00'); /* Wailing Statue */
 /* @teleloc 0x65460143 [70.000000 -187.500000 -12.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (1985241098, 26544, 1699086660, 70, -292.5, -12, -4.37114E-08, 0, 0, -1,  True, '2005-02-09 10:00:00'); /* Wailing Statue */
+VALUES (0x7654600A, 26544, 0x65460144, 70, -292.5, -12, -4.37114E-08, 0, 0, -1,  True, '2005-02-09 10:00:00'); /* Wailing Statue */
 /* @teleloc 0x65460144 [70.000000 -292.500000 -12.000000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (1985241099, 26544, 1699086661, 70.75, -300, -11.995, -0.707107, 0, 0, -0.707107,  True, '2005-02-09 10:00:00'); /* Wailing Statue */
+VALUES (0x7654600B, 26544, 0x65460145, 70.75, -300, -11.995, -0.707107, 0, 0, -0.707107,  True, '2005-02-09 10:00:00'); /* Wailing Statue */
 /* @teleloc 0x65460145 [70.750000 -300.000000 -11.995000] -0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (1985241100, 26544, 1699086668, 70.75, -360, -11.995, -0.707107, 0, 0, -0.707107,  True, '2005-02-09 10:00:00'); /* Wailing Statue */
+VALUES (0x7654600C, 26544, 0x6546014C, 70.75, -360, -11.995, -0.707107, 0, 0, -0.707107,  True, '2005-02-09 10:00:00'); /* Wailing Statue */
 /* @teleloc 0x6546014C [70.750000 -360.000000 -11.995000] -0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (1985241101, 26543, 1699086670, 70, -367.5, -12, 1, 0, 0, 0,  True, '2005-02-09 10:00:00'); /* Wailing Statue */
+VALUES (0x7654600D, 26543, 0x6546014E, 70, -367.5, -12, 1, 0, 0, 0,  True, '2005-02-09 10:00:00'); /* Wailing Statue */
 /* @teleloc 0x6546014E [70.000000 -367.500000 -12.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (1985241102, 26552, 1699086676, 80, -137, -12, 1, 0, 0, 0,  True, '2005-02-09 10:00:00'); /* Matron Arbiter */
+VALUES (0x7654600E, 26552, 0x65460154, 80, -137, -12, 1, 0, 0, 0,  True, '2005-02-09 10:00:00'); /* Matron Arbiter */
 /* @teleloc 0x65460154 [80.000000 -137.000000 -12.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (1985241103, 26568, 1699086677, 81.769, -170, -12, -0.707107, 0, 0, -0.707107,  True, '2005-02-09 10:00:00'); /* Wailing Statue */
+VALUES (0x7654600F, 26568, 0x65460155, 81.769, -170, -12, -0.707107, 0, 0, -0.707107,  True, '2005-02-09 10:00:00'); /* Wailing Statue */
 /* @teleloc 0x65460155 [81.769000 -170.000000 -12.000000] -0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (1985241104, 26551, 1699086679, 80, -333, -12, -4.37114E-08, 0, 0, -1,  True, '2005-02-09 10:00:00'); /* High Matron Arbiter */
+VALUES (0x76546010, 26551, 0x65460157, 80, -333, -12, -4.37114E-08, 0, 0, -1,  True, '2005-02-09 10:00:00'); /* High Matron Arbiter */
 /* @teleloc 0x65460157 [80.000000 -333.000000 -12.000000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (1985241105, 26544, 1699086684, 90, -112.5, -12, -4.37114E-08, 0, 0, -1,  True, '2005-02-09 10:00:00'); /* Wailing Statue */
+VALUES (0x76546011, 26544, 0x6546015C, 90, -112.5, -12, -4.37114E-08, 0, 0, -1,  True, '2005-02-09 10:00:00'); /* Wailing Statue */
 /* @teleloc 0x6546015C [90.000000 -112.500000 -12.000000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (1985241106, 26544, 1699086685, 91.562, -120, -11.995, 0.707107, 0, 0, -0.707107,  True, '2005-02-09 10:00:00'); /* Wailing Statue */
+VALUES (0x76546012, 26544, 0x6546015D, 91.562, -120, -11.995, 0.707107, 0, 0, -0.707107,  True, '2005-02-09 10:00:00'); /* Wailing Statue */
 /* @teleloc 0x6546015D [91.562000 -120.000000 -11.995000] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (1985241107, 26544, 1699086692, 90.75, -180, -11.995, -0.707107, 0, 0, -0.707107,  True, '2005-02-09 10:00:00'); /* Wailing Statue */
+VALUES (0x76546013, 26544, 0x65460164, 90.75, -180, -11.995, -0.707107, 0, 0, -0.707107,  True, '2005-02-09 10:00:00'); /* Wailing Statue */
 /* @teleloc 0x65460164 [90.750000 -180.000000 -11.995000] -0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (1985241108, 26543, 1699086694, 90, -187.5, -12, 1, 0, 0, 0,  True, '2005-02-09 10:00:00'); /* Wailing Statue */
+VALUES (0x76546014, 26543, 0x65460166, 90, -187.5, -12, 1, 0, 0, 0,  True, '2005-02-09 10:00:00'); /* Wailing Statue */
 /* @teleloc 0x65460166 [90.000000 -187.500000 -12.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (1985241109, 26551, 1699086695, 100, -153, -12, -4.37114E-08, 0, 0, -1,  True, '2005-02-09 10:00:00'); /* High Matron Arbiter */
+VALUES (0x76546015, 26551, 0x65460167, 100, -153, -12, -4.37114E-08, 0, 0, -1,  True, '2005-02-09 10:00:00'); /* High Matron Arbiter */
 /* @teleloc 0x65460167 [100.000000 -153.000000 -12.000000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (1985241110, 26568, 1699086702, 120, -377.5, -12, 1, 0, 0, 0,  True, '2005-02-09 10:00:00'); /* Wailing Statue */
+VALUES (0x76546016, 26568, 0x6546016E, 120, -377.5, -12, 1, 0, 0, 0,  True, '2005-02-09 10:00:00'); /* Wailing Statue */
 /* @teleloc 0x6546016E [120.000000 -377.500000 -12.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (1985241111, 26568, 1699086706, 140, -197.5, -12, 1, 0, 0, 0,  True, '2005-02-09 10:00:00'); /* Wailing Statue */
+VALUES (0x76546017, 26568, 0x65460172, 140, -197.5, -12, 1, 0, 0, 0,  True, '2005-02-09 10:00:00'); /* Wailing Statue */
 /* @teleloc 0x65460172 [140.000000 -197.500000 -12.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (1985241112, 26568, 1699086722, 160.75, -370, -11.995, -0.707107, 0, 0, -0.707107,  True, '2005-02-09 10:00:00'); /* Wailing Statue */
+VALUES (0x76546018, 26568, 0x65460182, 160.75, -370, -11.995, -0.707107, 0, 0, -0.707107,  True, '2005-02-09 10:00:00'); /* Wailing Statue */
 /* @teleloc 0x65460182 [160.750000 -370.000000 -11.995000] -0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (1985241113, 26543, 1699086724, 160, -377.5, -12, 1, 0, 0, 0,  True, '2005-02-09 10:00:00'); /* Wailing Statue */
+VALUES (0x76546019, 26543, 0x65460184, 160, -377.5, -12, 1, 0, 0, 0,  True, '2005-02-09 10:00:00'); /* Wailing Statue */
 /* @teleloc 0x65460184 [160.000000 -377.500000 -12.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (1985241114, 26568, 1699086730, 180.75, -190, -11.995, -0.707107, 0, 0, -0.707107,  True, '2005-02-09 10:00:00'); /* Wailing Statue */
+VALUES (0x7654601A, 26568, 0x6546018A, 180.75, -190, -11.995, -0.707107, 0, 0, -0.707107,  True, '2005-02-09 10:00:00'); /* Wailing Statue */
 /* @teleloc 0x6546018A [180.750000 -190.000000 -11.995000] -0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (1985241115, 26543, 1699086732, 180, -197.5, -12, 1, 0, 0, 0,  True, '2005-02-09 10:00:00'); /* Wailing Statue */
+VALUES (0x7654601B, 26543, 0x6546018C, 180, -197.5, -12, 1, 0, 0, 0,  True, '2005-02-09 10:00:00'); /* Wailing Statue */
 /* @teleloc 0x6546018C [180.000000 -197.500000 -12.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (1985241116, 26552, 1699086733, 177, -360, -12, -0.707107, 0, 0, -0.707107,  True, '2005-02-09 10:00:00'); /* Matron Arbiter */
+VALUES (0x7654601C, 26552, 0x6546018D, 177, -360, -12, -0.707107, 0, 0, -0.707107,  True, '2005-02-09 10:00:00'); /* Matron Arbiter */
 /* @teleloc 0x6546018D [177.000000 -360.000000 -12.000000] -0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (1985241117, 26552, 1699086735, 197, -180, -12, -0.707107, 0, 0, -0.707107,  True, '2005-02-09 10:00:00'); /* Matron Arbiter */
+VALUES (0x7654601D, 26552, 0x6546018F, 197, -180, -12, -0.707107, 0, 0, -0.707107,  True, '2005-02-09 10:00:00'); /* Matron Arbiter */
 /* @teleloc 0x6546018F [197.000000 -180.000000 -12.000000] -0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (1985241118, 26544, 1699086736, 2.5, -320, -6, 0.707107, 0, 0, -0.707107,  True, '2005-02-09 10:00:00'); /* Wailing Statue */
+VALUES (0x7654601E, 26544, 0x65460190, 2.5, -320, -6, 0.707107, 0, 0, -0.707107,  True, '2005-02-09 10:00:00'); /* Wailing Statue */
 /* @teleloc 0x65460190 [2.500000 -320.000000 -6.000000] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (1985241119, 26544, 1699086740, 12.5, -340, -6, 0.707107, 0, 0, -0.707107,  True, '2005-02-09 10:00:00'); /* Wailing Statue */
+VALUES (0x7654601F, 26544, 0x65460194, 12.5, -340, -6, 0.707107, 0, 0, -0.707107,  True, '2005-02-09 10:00:00'); /* Wailing Statue */
 /* @teleloc 0x65460194 [12.500000 -340.000000 -6.000000] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (1985241120, 26544, 1699086741, 22.5, -140, -6, 0.707107, 0, 0, -0.707107,  True, '2005-02-09 10:00:00'); /* Wailing Statue */
+VALUES (0x76546020, 26544, 0x65460195, 22.5, -140, -6, 0.707107, 0, 0, -0.707107,  True, '2005-02-09 10:00:00'); /* Wailing Statue */
 /* @teleloc 0x65460195 [22.500000 -140.000000 -6.000000] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (1985241121, 26568, 1699086746, 20, -327.5, -6, 1, 0, 0, 0,  True, '2005-02-09 10:00:00'); /* Wailing Statue */
+VALUES (0x76546021, 26568, 0x6546019A, 20, -327.5, -6, 1, 0, 0, 0,  True, '2005-02-09 10:00:00'); /* Wailing Statue */
 /* @teleloc 0x6546019A [20.000000 -327.500000 -6.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (1985241122, 26544, 1699086753, 32.5, -160, -6, 0.707107, 0, 0, -0.707107,  True, '2005-02-09 10:00:00'); /* Wailing Statue */
+VALUES (0x76546022, 26544, 0x654601A1, 32.5, -160, -6, 0.707107, 0, 0, -0.707107,  True, '2005-02-09 10:00:00'); /* Wailing Statue */
 /* @teleloc 0x654601A1 [32.500000 -160.000000 -6.000000] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (1985241123, 26568, 1699086757, 30, -332.5, -6, -4.37114E-08, 0, 0, -1,  True, '2005-02-09 10:00:00'); /* Wailing Statue */
+VALUES (0x76546023, 26568, 0x654601A5, 30, -332.5, -6, -4.37114E-08, 0, 0, -1,  True, '2005-02-09 10:00:00'); /* Wailing Statue */
 /* @teleloc 0x654601A5 [30.000000 -332.500000 -6.000000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (1985241124, 26568, 1699086766, 40, -147.5, -6, 1, 0, 0, 0,  True, '2005-02-09 10:00:00'); /* Wailing Statue */
+VALUES (0x76546024, 26568, 0x654601AE, 40, -147.5, -6, 1, 0, 0, 0,  True, '2005-02-09 10:00:00'); /* Wailing Statue */
 /* @teleloc 0x654601AE [40.000000 -147.500000 -6.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (1985241125, 26568, 1699086770, 42.75, -200, -6, 0.707107, 0, 0, -0.707107,  True, '2005-02-09 10:00:00'); /* Wailing Statue */
+VALUES (0x76546025, 26568, 0x654601B2, 42.75, -200, -6, 0.707107, 0, 0, -0.707107,  True, '2005-02-09 10:00:00'); /* Wailing Statue */
 /* @teleloc 0x654601B2 [42.750000 -200.000000 -6.000000] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (1985241126, 26543, 1699086771, 40, -312.5, -6, -4.37114E-08, 0, 0, -1,  True, '2005-02-09 10:00:00'); /* Wailing Statue */
+VALUES (0x76546026, 26543, 0x654601B3, 40, -312.5, -6, -4.37114E-08, 0, 0, -1,  True, '2005-02-09 10:00:00'); /* Wailing Statue */
 /* @teleloc 0x654601B3 [40.000000 -312.500000 -6.000000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (1985241127, 26543, 1699086774, 40, -332.5, -6, -4.37114E-08, 0, 0, -1,  True, '2005-02-09 10:00:00'); /* Wailing Statue */
+VALUES (0x76546027, 26543, 0x654601B6, 40, -332.5, -6, -4.37114E-08, 0, 0, -1,  True, '2005-02-09 10:00:00'); /* Wailing Statue */
 /* @teleloc 0x654601B6 [40.000000 -332.500000 -6.000000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (1985241128, 26568, 1699086780, 50, -152.5, -6, -4.37114E-08, 0, 0, -1,  True, '2005-02-09 10:00:00'); /* Wailing Statue */
+VALUES (0x76546028, 26568, 0x654601BC, 50, -152.5, -6, -4.37114E-08, 0, 0, -1,  True, '2005-02-09 10:00:00'); /* Wailing Statue */
 /* @teleloc 0x654601BC [50.000000 -152.500000 -6.000000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (1985241129, 26544, 1699086790, 50, -227.5, -6, 1, 0, 0, 0,  True, '2005-02-09 10:00:00'); /* Wailing Statue */
+VALUES (0x76546029, 26544, 0x654601C6, 50, -227.5, -6, 1, 0, 0, 0,  True, '2005-02-09 10:00:00'); /* Wailing Statue */
 /* @teleloc 0x654601C6 [50.000000 -227.500000 -6.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (1985241130, 26568, 1699086793, 50, -327.5, -6, 1, 0, 0, 0,  True, '2005-02-09 10:00:00'); /* Wailing Statue */
+VALUES (0x7654602A, 26568, 0x654601C9, 50, -327.5, -6, 1, 0, 0, 0,  True, '2005-02-09 10:00:00'); /* Wailing Statue */
 /* @teleloc 0x654601C9 [50.000000 -327.500000 -6.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (1985241131, 26568, 1699086797, 62.5, -20, -6, 0.707107, 0, 0, -0.707107,  True, '2005-02-09 10:00:00'); /* Wailing Statue */
+VALUES (0x7654602B, 26568, 0x654601CD, 62.5, -20, -6, 0.707107, 0, 0, -0.707107,  True, '2005-02-09 10:00:00'); /* Wailing Statue */
 /* @teleloc 0x654601CD [62.500000 -20.000000 -6.000000] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (1985241132, 26543, 1699086798, 60, -132.5, -6, -4.37114E-08, 0, 0, -1,  True, '2005-02-09 10:00:00'); /* Wailing Statue */
+VALUES (0x7654602C, 26543, 0x654601CE, 60, -132.5, -6, -4.37114E-08, 0, 0, -1,  True, '2005-02-09 10:00:00'); /* Wailing Statue */
 /* @teleloc 0x654601CE [60.000000 -132.500000 -6.000000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (1985241133, 26543, 1699086801, 60, -152.5, -6, -4.37114E-08, 0, 0, -1,  True, '2005-02-09 10:00:00'); /* Wailing Statue */
+VALUES (0x7654602D, 26543, 0x654601D1, 60, -152.5, -6, -4.37114E-08, 0, 0, -1,  True, '2005-02-09 10:00:00'); /* Wailing Statue */
 /* @teleloc 0x654601D1 [60.000000 -152.500000 -6.000000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (1985241134, 26552, 1699086804, 60, -183, -6, -4.37114E-08, 0, 0, -1,  True, '2005-02-09 10:00:00'); /* Matron Arbiter */
+VALUES (0x7654602E, 26552, 0x654601D4, 60, -183, -6, -4.37114E-08, 0, 0, -1,  True, '2005-02-09 10:00:00'); /* Matron Arbiter */
 /* @teleloc 0x654601D4 [60.000000 -183.000000 -6.000000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (1985241135, 26544, 1699086812, 59.25, -240, -5.995, 0.707107, 0, 0, -0.707107,  True, '2005-02-09 10:00:00'); /* Wailing Statue */
+VALUES (0x7654602F, 26544, 0x654601DC, 59.25, -240, -5.995, 0.707107, 0, 0, -0.707107,  True, '2005-02-09 10:00:00'); /* Wailing Statue */
 /* @teleloc 0x654601DC [59.250000 -240.000000 -5.995000] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (1985241136, 26544, 1699086814, 60, -247.5, -6, 1, 0, 0, 0,  True, '2005-02-09 10:00:00'); /* Wailing Statue */
+VALUES (0x76546030, 26544, 0x654601DE, 60, -247.5, -6, 1, 0, 0, 0,  True, '2005-02-09 10:00:00'); /* Wailing Statue */
 /* @teleloc 0x654601DE [60.000000 -247.500000 -6.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (1985241137, 26544, 1699086822, 70, -47.5, -6, 1, 0, 0, 0,  True, '2005-02-09 10:00:00'); /* Wailing Statue */
+VALUES (0x76546031, 26544, 0x654601E6, 70, -47.5, -6, 1, 0, 0, 0,  True, '2005-02-09 10:00:00'); /* Wailing Statue */
 /* @teleloc 0x654601E6 [70.000000 -47.500000 -6.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (1985241138, 26568, 1699086825, 70, -147.5, -6, 1, 0, 0, 0,  True, '2005-02-09 10:00:00'); /* Wailing Statue */
+VALUES (0x76546032, 26568, 0x654601E9, 70, -147.5, -6, 1, 0, 0, 0,  True, '2005-02-09 10:00:00'); /* Wailing Statue */
 /* @teleloc 0x654601E9 [70.000000 -147.500000 -6.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (1985241139, 26543, 1699086829, 67.5, -220, -5.995, -0.707107, 0, 0, -0.707107,  True, '2005-02-09 10:00:00'); /* Wailing Statue */
+VALUES (0x76546033, 26543, 0x654601ED, 67.5, -220, -5.995, -0.707107, 0, 0, -0.707107,  True, '2005-02-09 10:00:00'); /* Wailing Statue */
 /* @teleloc 0x654601ED [67.500000 -220.000000 -5.995000] -0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (1985241140, 26568, 1699086835, 70, -312.5, -6, -4.37114E-08, 0, 0, -1,  True, '2005-02-09 10:00:00'); /* Wailing Statue */
+VALUES (0x76546034, 26568, 0x654601F3, 70, -312.5, -6, -4.37114E-08, 0, 0, -1,  True, '2005-02-09 10:00:00'); /* Wailing Statue */
 /* @teleloc 0x654601F3 [70.000000 -312.500000 -6.000000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (1985241141, 26568, 1699086842, 70, -347.5, -6, 1, 0, 0, 0,  True, '2005-02-09 10:00:00'); /* Wailing Statue */
+VALUES (0x76546035, 26568, 0x654601FA, 70, -347.5, -6, 1, 0, 0, 0,  True, '2005-02-09 10:00:00'); /* Wailing Statue */
 /* @teleloc 0x654601FA [70.000000 -347.500000 -6.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (1985241142, 26552, 1699086843, 80, -3, -6, -4.37114E-08, 0, 0, -1,  True, '2005-02-09 10:00:00'); /* Matron Arbiter */
+VALUES (0x76546036, 26552, 0x654601FB, 80, -3, -6, -4.37114E-08, 0, 0, -1,  True, '2005-02-09 10:00:00'); /* Matron Arbiter */
 /* @teleloc 0x654601FB [80.000000 -3.000000 -6.000000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (1985241143, 26544, 1699086851, 79.25, -60, -5.995, 0.707107, 0, 0, -0.707107,  True, '2005-02-09 10:00:00'); /* Wailing Statue */
+VALUES (0x76546037, 26544, 0x65460203, 79.25, -60, -5.995, 0.707107, 0, 0, -0.707107,  True, '2005-02-09 10:00:00'); /* Wailing Statue */
 /* @teleloc 0x65460203 [79.250000 -60.000000 -5.995000] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (1985241144, 26544, 1699086853, 80, -67.5, -6, 1, 0, 0, 0,  True, '2005-02-09 10:00:00'); /* Wailing Statue */
+VALUES (0x76546038, 26544, 0x65460205, 80, -67.5, -6, 1, 0, 0, 0,  True, '2005-02-09 10:00:00'); /* Wailing Statue */
 /* @teleloc 0x65460205 [80.000000 -67.500000 -6.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (1985241145, 26568, 1699086862, 80, -247.5, -6, 1, 0, 0, 0,  True, '2005-02-09 10:00:00'); /* Wailing Statue */
+VALUES (0x76546039, 26568, 0x6546020E, 80, -247.5, -6, 1, 0, 0, 0,  True, '2005-02-09 10:00:00'); /* Wailing Statue */
 /* @teleloc 0x6546020E [80.000000 -247.500000 -6.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (1985241146, 26568, 1699086863, 82.5, -280, -6, 0.707107, 0, 0, -0.707107,  True, '2005-02-09 10:00:00'); /* Wailing Statue */
+VALUES (0x7654603A, 26568, 0x6546020F, 82.5, -280, -6, 0.707107, 0, 0, -0.707107,  True, '2005-02-09 10:00:00'); /* Wailing Statue */
 /* @teleloc 0x6546020F [82.500000 -280.000000 -6.000000] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (1985241147, 26543, 1699086864, 82.5, -290, -6, 0.707107, 0, 0, -0.707107,  True, '2005-02-09 10:00:00'); /* Wailing Statue */
+VALUES (0x7654603B, 26543, 0x65460210, 82.5, -290, -6, 0.707107, 0, 0, -0.707107,  True, '2005-02-09 10:00:00'); /* Wailing Statue */
 /* @teleloc 0x65460210 [82.500000 -290.000000 -6.000000] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (1985241148, 26543, 1699086867, 87.5, -40, -5.995, -0.707107, 0, 0, -0.707107,  True, '2005-02-09 10:00:00'); /* Wailing Statue */
+VALUES (0x7654603C, 26543, 0x65460213, 87.5, -40, -5.995, -0.707107, 0, 0, -0.707107,  True, '2005-02-09 10:00:00'); /* Wailing Statue */
 /* @teleloc 0x65460213 [87.500000 -40.000000 -5.995000] -0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (1985241149, 26568, 1699086873, 90, -132.5, -6, -4.37114E-08, 0, 0, -1,  True, '2005-02-09 10:00:00'); /* Wailing Statue */
+VALUES (0x7654603D, 26568, 0x65460219, 90, -132.5, -6, -4.37114E-08, 0, 0, -1,  True, '2005-02-09 10:00:00'); /* Wailing Statue */
 /* @teleloc 0x65460219 [90.000000 -132.500000 -6.000000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (1985241150, 26568, 1699086880, 90, -167.5, -6, 1, 0, 0, 0,  True, '2005-02-09 10:00:00'); /* Wailing Statue */
+VALUES (0x7654603E, 26568, 0x65460220, 90, -167.5, -6, 1, 0, 0, 0,  True, '2005-02-09 10:00:00'); /* Wailing Statue */
 /* @teleloc 0x65460220 [90.000000 -167.500000 -6.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (1985241151, 26544, 1699086883, 90, -247.5, -6, 1, 0, 0, 0,  True, '2005-02-09 10:00:00'); /* Wailing Statue */
+VALUES (0x7654603F, 26544, 0x65460223, 90, -247.5, -6, 1, 0, 0, 0,  True, '2005-02-09 10:00:00'); /* Wailing Statue */
 /* @teleloc 0x65460223 [90.000000 -247.500000 -6.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (1985241152, 26544, 1699086896, 90, -337.5, -6, 1, 0, 0, 0,  True, '2005-02-09 10:00:00'); /* Wailing Statue */
+VALUES (0x76546040, 26544, 0x65460230, 90, -337.5, -6, 1, 0, 0, 0,  True, '2005-02-09 10:00:00'); /* Wailing Statue */
 /* @teleloc 0x65460230 [90.000000 -337.500000 -6.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (1985241153, 26568, 1699086903, 100, -67.5, -6, 1, 0, 0, 0,  True, '2005-02-09 10:00:00'); /* Wailing Statue */
+VALUES (0x76546041, 26568, 0x65460237, 100, -67.5, -6, 1, 0, 0, 0,  True, '2005-02-09 10:00:00'); /* Wailing Statue */
 /* @teleloc 0x65460237 [100.000000 -67.500000 -6.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (1985241154, 26568, 1699086904, 102.5, -100, -6, 0.707107, 0, 0, -0.707107,  True, '2005-02-09 10:00:00'); /* Wailing Statue */
+VALUES (0x76546042, 26568, 0x65460238, 102.5, -100, -6, 0.707107, 0, 0, -0.707107,  True, '2005-02-09 10:00:00'); /* Wailing Statue */
 /* @teleloc 0x65460238 [102.500000 -100.000000 -6.000000] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (1985241155, 26543, 1699086905, 102.5, -110, -6, 0.707107, 0, 0, -0.707107,  True, '2005-02-09 10:00:00'); /* Wailing Statue */
+VALUES (0x76546043, 26543, 0x65460239, 102.5, -110, -6, 0.707107, 0, 0, -0.707107,  True, '2005-02-09 10:00:00'); /* Wailing Statue */
 /* @teleloc 0x65460239 [102.500000 -110.000000 -6.000000] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (1985241156, 26543, 1699086908, 100, -232.5, -6, -4.37114E-08, 0, 0, -1,  True, '2005-02-09 10:00:00'); /* Wailing Statue */
+VALUES (0x76546044, 26543, 0x6546023C, 100, -232.5, -6, -4.37114E-08, 0, 0, -1,  True, '2005-02-09 10:00:00'); /* Wailing Statue */
 /* @teleloc 0x6546023C [100.000000 -232.500000 -6.000000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (1985241157, 26544, 1699086914, 97.5, -320, -6, -0.707107, 0, 0, -0.707107,  True, '2005-02-09 10:00:00'); /* Wailing Statue */
+VALUES (0x76546045, 26544, 0x65460242, 97.5, -320, -6, -0.707107, 0, 0, -0.707107,  True, '2005-02-09 10:00:00'); /* Wailing Statue */
 /* @teleloc 0x65460242 [97.500000 -320.000000 -6.000000] -0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (1985241158, 26544, 1699086917, 110, -67.5, -6, 1, 0, 0, 0,  True, '2005-02-09 10:00:00'); /* Wailing Statue */
+VALUES (0x76546046, 26544, 0x65460245, 110, -67.5, -6, 1, 0, 0, 0,  True, '2005-02-09 10:00:00'); /* Wailing Statue */
 /* @teleloc 0x65460245 [110.000000 -67.500000 -6.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (1985241159, 26544, 1699086930, 110, -157.5, -6, 1, 0, 0, 0,  True, '2005-02-09 10:00:00'); /* Wailing Statue */
+VALUES (0x76546047, 26544, 0x65460252, 110, -157.5, -6, 1, 0, 0, 0,  True, '2005-02-09 10:00:00'); /* Wailing Statue */
 /* @teleloc 0x65460252 [110.000000 -157.500000 -6.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (1985241160, 26568, 1699086931, 110, -232.5, -6, -4.37114E-08, 0, 0, -1,  True, '2005-02-09 10:00:00'); /* Wailing Statue */
+VALUES (0x76546048, 26568, 0x65460253, 110, -232.5, -6, -4.37114E-08, 0, 0, -1,  True, '2005-02-09 10:00:00'); /* Wailing Statue */
 /* @teleloc 0x65460253 [110.000000 -232.500000 -6.000000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (1985241161, 26568, 1699086936, 110, -327.5, -6, 1, 0, 0, 0,  True, '2005-02-09 10:00:00'); /* Wailing Statue */
+VALUES (0x76546049, 26568, 0x65460258, 110, -327.5, -6, 1, 0, 0, 0,  True, '2005-02-09 10:00:00'); /* Wailing Statue */
 /* @teleloc 0x65460258 [110.000000 -327.500000 -6.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (1985241162, 26543, 1699086937, 120, -52.5, -6, -4.37114E-08, 0, 0, -1,  True, '2005-02-09 10:00:00'); /* Wailing Statue */
+VALUES (0x7654604A, 26543, 0x65460259, 120, -52.5, -6, -4.37114E-08, 0, 0, -1,  True, '2005-02-09 10:00:00'); /* Wailing Statue */
 /* @teleloc 0x65460259 [120.000000 -52.500000 -6.000000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (1985241163, 26544, 1699086943, 117.5, -140, -6, -0.707107, 0, 0, -0.707107,  True, '2005-02-09 10:00:00'); /* Wailing Statue */
+VALUES (0x7654604B, 26544, 0x6546025F, 117.5, -140, -6, -0.707107, 0, 0, -0.707107,  True, '2005-02-09 10:00:00'); /* Wailing Statue */
 /* @teleloc 0x6546025F [117.500000 -140.000000 -6.000000] -0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (1985241164, 26544, 1699086944, 120, -312.5, -6, -4.37114E-08, 0, 0, -1,  True, '2005-02-09 10:00:00'); /* Wailing Statue */
+VALUES (0x7654604C, 26544, 0x65460260, 120, -312.5, -6, -4.37114E-08, 0, 0, -1,  True, '2005-02-09 10:00:00'); /* Wailing Statue */
 /* @teleloc 0x65460260 [120.000000 -312.500000 -6.000000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (1985241165, 26568, 1699086953, 130, -52.5, -6, -4.37114E-08, 0, 0, -1,  True, '2005-02-09 10:00:00'); /* Wailing Statue */
+VALUES (0x7654604D, 26568, 0x65460269, 130, -52.5, -6, -4.37114E-08, 0, 0, -1,  True, '2005-02-09 10:00:00'); /* Wailing Statue */
 /* @teleloc 0x65460269 [130.000000 -52.500000 -6.000000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (1985241166, 26568, 1699086958, 130, -147.5, -6, 1, 0, 0, 0,  True, '2005-02-09 10:00:00'); /* Wailing Statue */
+VALUES (0x7654604E, 26568, 0x6546026E, 130, -147.5, -6, 1, 0, 0, 0,  True, '2005-02-09 10:00:00'); /* Wailing Statue */
 /* @teleloc 0x6546026E [130.000000 -147.500000 -6.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (1985241167, 26544, 1699086961, 140, -132.5, -6, -4.37114E-08, 0, 0, -1,  True, '2005-02-09 10:00:00'); /* Wailing Statue */
+VALUES (0x7654604F, 26544, 0x65460271, 140, -132.5, -6, -4.37114E-08, 0, 0, -1,  True, '2005-02-09 10:00:00'); /* Wailing Statue */
 /* @teleloc 0x65460271 [140.000000 -132.500000 -6.000000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (1985241168, 26544, 1699086974, 140, -327.5, -6, 1, 0, 0, 0,  True, '2005-02-09 10:00:00'); /* Wailing Statue */
+VALUES (0x76546050, 26544, 0x6546027E, 140, -327.5, -6, 1, 0, 0, 0,  True, '2005-02-09 10:00:00'); /* Wailing Statue */
 /* @teleloc 0x6546027E [140.000000 -327.500000 -6.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (1985241169, 26544, 1699086989, 160, -147.5, -6, 1, 0, 0, 0,  True, '2005-02-09 10:00:00'); /* Wailing Statue */
+VALUES (0x76546051, 26544, 0x6546028D, 160, -147.5, -6, 1, 0, 0, 0,  True, '2005-02-09 10:00:00'); /* Wailing Statue */
 /* @teleloc 0x6546028D [160.000000 -147.500000 -6.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (1985241170, 26544, 1699086995, 160, -312.5, -6, -4.37114E-08, 0, 0, -1,  True, '2005-02-09 10:00:00'); /* Wailing Statue */
+VALUES (0x76546052, 26544, 0x65460293, 160, -312.5, -6, -4.37114E-08, 0, 0, -1,  True, '2005-02-09 10:00:00'); /* Wailing Statue */
 /* @teleloc 0x65460293 [160.000000 -312.500000 -6.000000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (1985241171, 26568, 1699087008, 167.5, -350, -6, -0.707107, 0, 0, -0.707107,  True, '2005-02-09 10:00:00'); /* Wailing Statue */
+VALUES (0x76546053, 26568, 0x654602A0, 167.5, -350, -6, -0.707107, 0, 0, -0.707107,  True, '2005-02-09 10:00:00'); /* Wailing Statue */
 /* @teleloc 0x654602A0 [167.500000 -350.000000 -6.000000] -0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (1985241172, 26544, 1699087009, 180, -132.5, -6, -4.37114E-08, 0, 0, -1,  True, '2005-02-09 10:00:00'); /* Wailing Statue */
+VALUES (0x76546054, 26544, 0x654602A1, 180, -132.5, -6, -4.37114E-08, 0, 0, -1,  True, '2005-02-09 10:00:00'); /* Wailing Statue */
 /* @teleloc 0x654602A1 [180.000000 -132.500000 -6.000000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (1985241173, 26568, 1699087019, 187.5, -170, -6, -0.707107, 0, 0, -0.707107,  True, '2005-02-09 10:00:00'); /* Wailing Statue */
+VALUES (0x76546055, 26568, 0x654602AB, 187.5, -170, -6, -0.707107, 0, 0, -0.707107,  True, '2005-02-09 10:00:00'); /* Wailing Statue */
 /* @teleloc 0x654602AB [187.500000 -170.000000 -6.000000] -0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (1985241174, 26568, 1699087020, 102.5, -260, 0, 0.707107, 0, 0, -0.707107,  True, '2005-02-09 10:00:00'); /* Wailing Statue */
+VALUES (0x76546056, 26568, 0x654602AC, 102.5, -260, 0, 0.707107, 0, 0, -0.707107,  True, '2005-02-09 10:00:00'); /* Wailing Statue */
 /* @teleloc 0x654602AC [102.500000 -260.000000 0.000000] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (1985241175, 26543, 1699087025, 110, -272.5, 0, -4.37114E-08, 0, 0, -1,  True, '2005-02-09 10:00:00'); /* Wailing Statue */
+VALUES (0x76546057, 26543, 0x654602B1, 110, -272.5, 0, -4.37114E-08, 0, 0, -1,  True, '2005-02-09 10:00:00'); /* Wailing Statue */
 /* @teleloc 0x654602B1 [110.000000 -272.500000 0.000000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (1985241176, 26543, 1699087028, 110, -292.5, 0, -4.37114E-08, 0, 0, -1,  True, '2005-02-09 10:00:00'); /* Wailing Statue */
+VALUES (0x76546058, 26543, 0x654602B4, 110, -292.5, 0, -4.37114E-08, 0, 0, -1,  True, '2005-02-09 10:00:00'); /* Wailing Statue */
 /* @teleloc 0x654602B4 [110.000000 -292.500000 0.000000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (1985241177, 26568, 1699087032, 122.5, -80, 0, 0.707107, 0, 0, -0.707107,  True, '2005-02-09 10:00:00'); /* Wailing Statue */
+VALUES (0x76546059, 26568, 0x654602B8, 122.5, -80, 0, 0.707107, 0, 0, -0.707107,  True, '2005-02-09 10:00:00'); /* Wailing Statue */
 /* @teleloc 0x654602B8 [122.500000 -80.000000 0.000000] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (1985241178, 26544, 1699087034, 120, -252.5, 0, -4.37114E-08, 0, 0, -1,  True, '2005-02-09 10:00:00'); /* Wailing Statue */
+VALUES (0x7654605A, 26544, 0x654602BA, 120, -252.5, 0, -4.37114E-08, 0, 0, -1,  True, '2005-02-09 10:00:00'); /* Wailing Statue */
 /* @teleloc 0x654602BA [120.000000 -252.500000 0.000000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (1985241179, 26568, 1699087039, 120, -287.5, 0, 1, 0, 0, 0,  True, '2005-02-09 10:00:00'); /* Wailing Statue */
+VALUES (0x7654605B, 26568, 0x654602BF, 120, -287.5, 0, 1, 0, 0, 0,  True, '2005-02-09 10:00:00'); /* Wailing Statue */
 /* @teleloc 0x654602BF [120.000000 -287.500000 0.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (1985241180, 26543, 1699087046, 130, -92.5, 0, -4.37114E-08, 0, 0, -1,  True, '2005-02-09 10:00:00'); /* Wailing Statue */
+VALUES (0x7654605C, 26543, 0x654602C6, 130, -92.5, 0, -4.37114E-08, 0, 0, -1,  True, '2005-02-09 10:00:00'); /* Wailing Statue */
 /* @teleloc 0x654602C6 [130.000000 -92.500000 0.000000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (1985241181, 26543, 1699087049, 130, -112.5, 0, -4.37114E-08, 0, 0, -1,  True, '2005-02-09 10:00:00'); /* Wailing Statue */
+VALUES (0x7654605D, 26543, 0x654602C9, 130, -112.5, 0, -4.37114E-08, 0, 0, -1,  True, '2005-02-09 10:00:00'); /* Wailing Statue */
 /* @teleloc 0x654602C9 [130.000000 -112.500000 0.000000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (1985241182, 26568, 1699087063, 130, -307.5, 0, 1, 0, 0, 0,  True, '2005-02-09 10:00:00'); /* Wailing Statue */
+VALUES (0x7654605E, 26568, 0x654602D7, 130, -307.5, 0, 1, 0, 0, 0,  True, '2005-02-09 10:00:00'); /* Wailing Statue */
 /* @teleloc 0x654602D7 [130.000000 -307.500000 0.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (1985241183, 26544, 1699087064, 140, -72.5, 0, -4.37114E-08, 0, 0, -1,  True, '2005-02-09 10:00:00'); /* Wailing Statue */
+VALUES (0x7654605F, 26544, 0x654602D8, 140, -72.5, 0, -4.37114E-08, 0, 0, -1,  True, '2005-02-09 10:00:00'); /* Wailing Statue */
 /* @teleloc 0x654602D8 [140.000000 -72.500000 0.000000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (1985241184, 26568, 1699087069, 140, -107.5, 0, 1, 0, 0, 0,  True, '2005-02-09 10:00:00'); /* Wailing Statue */
+VALUES (0x76546060, 26568, 0x654602DD, 140, -107.5, 0, 1, 0, 0, 0,  True, '2005-02-09 10:00:00'); /* Wailing Statue */
 /* @teleloc 0x654602DD [140.000000 -107.500000 0.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (1985241185, 26543, 1699087074, 140, -272.5, 0, -4.37114E-08, 0, 0, -1,  True, '2005-02-09 10:00:00'); /* Wailing Statue */
+VALUES (0x76546061, 26543, 0x654602E2, 140, -272.5, 0, -4.37114E-08, 0, 0, -1,  True, '2005-02-09 10:00:00'); /* Wailing Statue */
 /* @teleloc 0x654602E2 [140.000000 -272.500000 0.000000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (1985241186, 26568, 1699087090, 150, -127.5, 0, 1, 0, 0, 0,  True, '2005-02-09 10:00:00'); /* Wailing Statue */
+VALUES (0x76546062, 26568, 0x654602F2, 150, -127.5, 0, 1, 0, 0, 0,  True, '2005-02-09 10:00:00'); /* Wailing Statue */
 /* @teleloc 0x654602F2 [150.000000 -127.500000 0.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (1985241187, 26544, 1699087091, 150, -252.5, 0, -4.37114E-08, 0, 0, -1,  True, '2005-02-09 10:00:00'); /* Wailing Statue */
+VALUES (0x76546063, 26544, 0x654602F3, 150, -252.5, 0, -4.37114E-08, 0, 0, -1,  True, '2005-02-09 10:00:00'); /* Wailing Statue */
 /* @teleloc 0x654602F3 [150.000000 -252.500000 0.000000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (1985241188, 26544, 1699087101, 150, -307.5, 0, 1, 0, 0, 0,  True, '2005-02-09 10:00:00'); /* Wailing Statue */
+VALUES (0x76546064, 26544, 0x654602FD, 150, -307.5, 0, 1, 0, 0, 0,  True, '2005-02-09 10:00:00'); /* Wailing Statue */
 /* @teleloc 0x654602FD [150.000000 -307.500000 0.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (1985241189, 26543, 1699087103, 160, -92.5, 0, -4.37114E-08, 0, 0, -1,  True, '2005-02-09 10:00:00'); /* Wailing Statue */
+VALUES (0x76546065, 26543, 0x654602FF, 160, -92.5, 0, -4.37114E-08, 0, 0, -1,  True, '2005-02-09 10:00:00'); /* Wailing Statue */
 /* @teleloc 0x654602FF [160.000000 -92.500000 0.000000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (1985241190,  5624, 1699087109, 164.75, -280, 0.005, -0.707107, 0, 0, -0.707107, False, '2005-02-09 10:00:00'); /* Door */
+VALUES (0x76546066,  5624, 0x65460305, 164.75, -280, 0.005, -0.707107, 0, 0, -0.707107, False, '2005-02-09 10:00:00'); /* Door */
 /* @teleloc 0x65460305 [164.750000 -280.000000 0.005000] -0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (1985241191, 26544, 1699087110, 170, -72.5, 0, -4.37114E-08, 0, 0, -1,  True, '2005-02-09 10:00:00'); /* Wailing Statue */
+VALUES (0x76546067, 26544, 0x65460306, 170, -72.5, 0, -4.37114E-08, 0, 0, -1,  True, '2005-02-09 10:00:00'); /* Wailing Statue */
 /* @teleloc 0x65460306 [170.000000 -72.500000 0.000000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (1985241192, 26544, 1699087120, 170, -127.5, 0, 1, 0, 0, 0,  True, '2005-02-09 10:00:00'); /* Wailing Statue */
+VALUES (0x76546068, 26544, 0x65460310, 170, -127.5, 0, 1, 0, 0, 0,  True, '2005-02-09 10:00:00'); /* Wailing Statue */
 /* @teleloc 0x65460310 [170.000000 -127.500000 0.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (1985241193, 26550, 1699087122, 165.719, -276.931, 0.005, 0.707107, 0, 0, -0.707107,  True, '2005-02-09 10:00:00'); /* Guardian of Fury */
+VALUES (0x76546069, 26550, 0x65460312, 165.719, -276.931, 0.005, 0.707107, 0, 0, -0.707107,  True, '2005-02-09 10:00:00'); /* Guardian of Fury */
 /* @teleloc 0x65460312 [165.719000 -276.931000 0.005000] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (1985241194,  5624, 1699087124, 184.75, -100.014, 0.005, -0.707107, 0, 0, -0.707107, False, '2005-02-09 10:00:00'); /* Door */
+VALUES (0x7654606A,  5624, 0x65460314, 184.75, -100.014, 0.005, -0.707107, 0, 0, -0.707107, False, '2005-02-09 10:00:00'); /* Door */
 /* @teleloc 0x65460314 [184.750000 -100.014000 0.005000] -0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (1985241195,  5624, 1699087128, 180, -264.75, 0.005, 1, 0, 0, -4.37114E-08, False, '2005-02-09 10:00:00'); /* Door */
+VALUES (0x7654606B,  5624, 0x65460318, 180, -264.75, 0.005, 1, 0, 0, -4.37114E-08, False, '2005-02-09 10:00:00'); /* Door */
 /* @teleloc 0x65460318 [180.000000 -264.750000 0.005000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (1985241196, 26546, 1699087129, 183.357, -265.633, 0.005, 0, 0, 0, -1,  True, '2005-02-09 10:00:00'); /* Guardian of the Restless Dead */
+VALUES (0x7654606C, 26546, 0x65460319, 183.357, -265.633, 0.005, 0, 0, 0, -1,  True, '2005-02-09 10:00:00'); /* Guardian of the Restless Dead */
 /* @teleloc 0x65460319 [183.357000 -265.633000 0.005000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (1985241197, 26548, 1699087130, 180, -280, 0.005, 0, 0, 0, -1,  True, '2005-02-09 10:00:00'); /* Arbiter */
+VALUES (0x7654606D, 26548, 0x6546031A, 180, -280, 0.005, 0, 0, 0, -1,  True, '2005-02-09 10:00:00'); /* Arbiter */
 /* @teleloc 0x6546031A [180.000000 -280.000000 0.005000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (1985241198,  7923, 1699087131, 180, -290, 0.005, 1, 0, 0, 0, False, '2005-02-09 10:00:00'); /* Linkable Monster Generator ( 3 Min.) */
+VALUES (0x7654606E,  7923, 0x6546031B, 180, -290, 0.005, 1, 0, 0, 0, False, '2005-02-09 10:00:00'); /* Linkable Monster Generator ( 3 Min.) */
 /* @teleloc 0x6546031B [180.000000 -290.000000 0.005000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (1985241198, 1985241090, '2005-02-09 10:00:00') /* Wailing Statue */
-     , (1985241198, 1985241091, '2005-02-09 10:00:00') /* Wailing Statue */
-     , (1985241198, 1985241096, '2005-02-09 10:00:00') /* Wailing Statue */
-     , (1985241198, 1985241097, '2005-02-09 10:00:00') /* Wailing Statue */
-     , (1985241198, 1985241102, '2005-02-09 10:00:00') /* Matron Arbiter */
-     , (1985241198, 1985241103, '2005-02-09 10:00:00') /* Wailing Statue */
-     , (1985241198, 1985241105, '2005-02-09 10:00:00') /* Wailing Statue */
-     , (1985241198, 1985241106, '2005-02-09 10:00:00') /* Wailing Statue */
-     , (1985241198, 1985241107, '2005-02-09 10:00:00') /* Wailing Statue */
-     , (1985241198, 1985241108, '2005-02-09 10:00:00') /* Wailing Statue */
-     , (1985241198, 1985241109, '2005-02-09 10:00:00') /* High Matron Arbiter */
-     , (1985241198, 1985241110, '2005-02-09 10:00:00') /* Wailing Statue */
-     , (1985241198, 1985241111, '2005-02-09 10:00:00') /* Wailing Statue */
-     , (1985241198, 1985241112, '2005-02-09 10:00:00') /* Wailing Statue */
-     , (1985241198, 1985241113, '2005-02-09 10:00:00') /* Wailing Statue */
-     , (1985241198, 1985241114, '2005-02-09 10:00:00') /* Wailing Statue */
-     , (1985241198, 1985241115, '2005-02-09 10:00:00') /* Wailing Statue */
-     , (1985241198, 1985241117, '2005-02-09 10:00:00') /* Matron Arbiter */
-     , (1985241198, 1985241141, '2005-02-09 10:00:00') /* Wailing Statue */
-     , (1985241198, 1985241146, '2005-02-09 10:00:00') /* Wailing Statue */
-     , (1985241198, 1985241147, '2005-02-09 10:00:00') /* Wailing Statue */
-     , (1985241198, 1985241152, '2005-02-09 10:00:00') /* Wailing Statue */
-     , (1985241198, 1985241157, '2005-02-09 10:00:00') /* Wailing Statue */
-     , (1985241198, 1985241161, '2005-02-09 10:00:00') /* Wailing Statue */
-     , (1985241198, 1985241164, '2005-02-09 10:00:00') /* Wailing Statue */
-     , (1985241198, 1985241167, '2005-02-09 10:00:00') /* Wailing Statue */
-     , (1985241198, 1985241168, '2005-02-09 10:00:00') /* Wailing Statue */
-     , (1985241198, 1985241169, '2005-02-09 10:00:00') /* Wailing Statue */
-     , (1985241198, 1985241170, '2005-02-09 10:00:00') /* Wailing Statue */
-     , (1985241198, 1985241171, '2005-02-09 10:00:00') /* Wailing Statue */
-     , (1985241198, 1985241172, '2005-02-09 10:00:00') /* Wailing Statue */
-     , (1985241198, 1985241173, '2005-02-09 10:00:00') /* Wailing Statue */
-     , (1985241198, 1985241174, '2005-02-09 10:00:00') /* Wailing Statue */
-     , (1985241198, 1985241175, '2005-02-09 10:00:00') /* Wailing Statue */
-     , (1985241198, 1985241176, '2005-02-09 10:00:00') /* Wailing Statue */
-     , (1985241198, 1985241178, '2005-02-09 10:00:00') /* Wailing Statue */
-     , (1985241198, 1985241179, '2005-02-09 10:00:00') /* Wailing Statue */
-     , (1985241198, 1985241180, '2005-02-09 10:00:00') /* Wailing Statue */
-     , (1985241198, 1985241181, '2005-02-09 10:00:00') /* Wailing Statue */
-     , (1985241198, 1985241182, '2005-02-09 10:00:00') /* Wailing Statue */
-     , (1985241198, 1985241183, '2005-02-09 10:00:00') /* Wailing Statue */
-     , (1985241198, 1985241184, '2005-02-09 10:00:00') /* Wailing Statue */
-     , (1985241198, 1985241185, '2005-02-09 10:00:00') /* Wailing Statue */
-     , (1985241198, 1985241186, '2005-02-09 10:00:00') /* Wailing Statue */
-     , (1985241198, 1985241187, '2005-02-09 10:00:00') /* Wailing Statue */
-     , (1985241198, 1985241189, '2005-02-09 10:00:00') /* Wailing Statue */
-     , (1985241198, 1985241191, '2005-02-09 10:00:00') /* Wailing Statue */
-     , (1985241198, 1985241192, '2005-02-09 10:00:00') /* Wailing Statue */
-     , (1985241198, 1985241193, '2005-02-09 10:00:00') /* Guardian of Fury */
-     , (1985241198, 1985241199, '2005-02-09 10:00:00') /* Guardian of Fury */
-     , (1985241198, 1985241206, '2005-02-09 10:00:00') /* Guardian of the Restless Dead */
-     , (1985241198, 1985241207, '2005-02-09 10:00:00') /* Arbiter */
-     , (1985241198, 1985241216, '2005-02-09 10:00:00') /* Offering Table */
-     , (1985241198, 1985241217, '2005-02-09 10:00:00') /* Offering Table */
-     , (1985241198, 1985241218, '2005-02-09 10:00:00') /* Offering Table */
-     , (1985241198, 1985241219, '2005-02-09 10:00:00') /* Offering Table */
-     , (1985241198, 1985241220, '2005-02-09 10:00:00') /* Guardian of the Sacrificial Urns */
-     , (1985241198, 1985241221, '2005-02-09 10:00:00') /* Judge of the Appeasement */
-     , (1985241198, 1985241222, '2005-02-09 10:00:00') /* Offering Table */
-     , (1985241198, 1985241223, '2005-02-09 10:00:00') /* Offering Table */
-     , (1985241198, 1985241224, '2005-02-09 10:00:00') /* Offering Table */
-     , (1985241198, 1985241225, '2005-02-09 10:00:00') /* Offering Table */;
+VALUES (0x7654606E, 0x76546002, '2005-02-09 10:00:00') /* Wailing Statue */
+     , (0x7654606E, 0x76546003, '2005-02-09 10:00:00') /* Wailing Statue */
+     , (0x7654606E, 0x76546008, '2005-02-09 10:00:00') /* Wailing Statue */
+     , (0x7654606E, 0x76546009, '2005-02-09 10:00:00') /* Wailing Statue */
+     , (0x7654606E, 0x7654600E, '2005-02-09 10:00:00') /* Matron Arbiter */
+     , (0x7654606E, 0x7654600F, '2005-02-09 10:00:00') /* Wailing Statue */
+     , (0x7654606E, 0x76546011, '2005-02-09 10:00:00') /* Wailing Statue */
+     , (0x7654606E, 0x76546012, '2005-02-09 10:00:00') /* Wailing Statue */
+     , (0x7654606E, 0x76546013, '2005-02-09 10:00:00') /* Wailing Statue */
+     , (0x7654606E, 0x76546014, '2005-02-09 10:00:00') /* Wailing Statue */
+     , (0x7654606E, 0x76546015, '2005-02-09 10:00:00') /* High Matron Arbiter */
+     , (0x7654606E, 0x76546016, '2005-02-09 10:00:00') /* Wailing Statue */
+     , (0x7654606E, 0x76546017, '2005-02-09 10:00:00') /* Wailing Statue */
+     , (0x7654606E, 0x76546018, '2005-02-09 10:00:00') /* Wailing Statue */
+     , (0x7654606E, 0x76546019, '2005-02-09 10:00:00') /* Wailing Statue */
+     , (0x7654606E, 0x7654601A, '2005-02-09 10:00:00') /* Wailing Statue */
+     , (0x7654606E, 0x7654601B, '2005-02-09 10:00:00') /* Wailing Statue */
+     , (0x7654606E, 0x7654601D, '2005-02-09 10:00:00') /* Matron Arbiter */
+     , (0x7654606E, 0x76546035, '2005-02-09 10:00:00') /* Wailing Statue */
+     , (0x7654606E, 0x7654603A, '2005-02-09 10:00:00') /* Wailing Statue */
+     , (0x7654606E, 0x7654603B, '2005-02-09 10:00:00') /* Wailing Statue */
+     , (0x7654606E, 0x76546040, '2005-02-09 10:00:00') /* Wailing Statue */
+     , (0x7654606E, 0x76546045, '2005-02-09 10:00:00') /* Wailing Statue */
+     , (0x7654606E, 0x76546049, '2005-02-09 10:00:00') /* Wailing Statue */
+     , (0x7654606E, 0x7654604C, '2005-02-09 10:00:00') /* Wailing Statue */
+     , (0x7654606E, 0x7654604F, '2005-02-09 10:00:00') /* Wailing Statue */
+     , (0x7654606E, 0x76546050, '2005-02-09 10:00:00') /* Wailing Statue */
+     , (0x7654606E, 0x76546051, '2005-02-09 10:00:00') /* Wailing Statue */
+     , (0x7654606E, 0x76546052, '2005-02-09 10:00:00') /* Wailing Statue */
+     , (0x7654606E, 0x76546053, '2005-02-09 10:00:00') /* Wailing Statue */
+     , (0x7654606E, 0x76546054, '2005-02-09 10:00:00') /* Wailing Statue */
+     , (0x7654606E, 0x76546055, '2005-02-09 10:00:00') /* Wailing Statue */
+     , (0x7654606E, 0x76546056, '2005-02-09 10:00:00') /* Wailing Statue */
+     , (0x7654606E, 0x76546057, '2005-02-09 10:00:00') /* Wailing Statue */
+     , (0x7654606E, 0x76546058, '2005-02-09 10:00:00') /* Wailing Statue */
+     , (0x7654606E, 0x7654605A, '2005-02-09 10:00:00') /* Wailing Statue */
+     , (0x7654606E, 0x7654605B, '2005-02-09 10:00:00') /* Wailing Statue */
+     , (0x7654606E, 0x7654605C, '2005-02-09 10:00:00') /* Wailing Statue */
+     , (0x7654606E, 0x7654605D, '2005-02-09 10:00:00') /* Wailing Statue */
+     , (0x7654606E, 0x7654605E, '2005-02-09 10:00:00') /* Wailing Statue */
+     , (0x7654606E, 0x7654605F, '2005-02-09 10:00:00') /* Wailing Statue */
+     , (0x7654606E, 0x76546060, '2005-02-09 10:00:00') /* Wailing Statue */
+     , (0x7654606E, 0x76546061, '2005-02-09 10:00:00') /* Wailing Statue */
+     , (0x7654606E, 0x76546062, '2005-02-09 10:00:00') /* Wailing Statue */
+     , (0x7654606E, 0x76546063, '2005-02-09 10:00:00') /* Wailing Statue */
+     , (0x7654606E, 0x76546065, '2005-02-09 10:00:00') /* Wailing Statue */
+     , (0x7654606E, 0x76546067, '2005-02-09 10:00:00') /* Wailing Statue */
+     , (0x7654606E, 0x76546068, '2005-02-09 10:00:00') /* Wailing Statue */
+     , (0x7654606E, 0x76546069, '2005-02-09 10:00:00') /* Guardian of Fury */
+     , (0x7654606E, 0x7654606F, '2005-02-09 10:00:00') /* Guardian of Fury */
+     , (0x7654606E, 0x76546076, '2005-02-09 10:00:00') /* Guardian of the Restless Dead */
+     , (0x7654606E, 0x76546077, '2005-02-09 10:00:00') /* Arbiter */
+     , (0x7654606E, 0x76546080, '2005-02-09 10:00:00') /* Offering Table */
+     , (0x7654606E, 0x76546081, '2005-02-09 10:00:00') /* Offering Table */
+     , (0x7654606E, 0x76546082, '2005-02-09 10:00:00') /* Offering Table */
+     , (0x7654606E, 0x76546083, '2005-02-09 10:00:00') /* Offering Table */
+     , (0x7654606E, 0x76546084, '2005-02-09 10:00:00') /* Guardian of the Sacrificial Urns */
+     , (0x7654606E, 0x76546085, '2005-02-09 10:00:00') /* Judge of the Appeasement */
+     , (0x7654606E, 0x76546086, '2005-02-09 10:00:00') /* Offering Table */
+     , (0x7654606E, 0x76546087, '2005-02-09 10:00:00') /* Offering Table */
+     , (0x7654606E, 0x76546088, '2005-02-09 10:00:00') /* Offering Table */
+     , (0x7654606E, 0x76546089, '2005-02-09 10:00:00') /* Offering Table */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (1985241199, 26550, 1699087133, 185.719, -96.931, 0.005, 0.707107, 0, 0, -0.707107,  True, '2005-02-09 10:00:00'); /* Guardian of Fury */
+VALUES (0x7654606F, 26550, 0x6546031D, 185.719, -96.931, 0.005, 0.707107, 0, 0, -0.707107,  True, '2005-02-09 10:00:00'); /* Guardian of Fury */
 /* @teleloc 0x6546031D [185.719000 -96.931000 0.005000] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (1985241200, 26635, 1699087136, 191.567, -246.945, 0.005, 0.995181, 0, 0, -0.0980531,  True, '2005-02-09 10:00:00'); /* Offering Table */
+VALUES (0x76546070, 26635, 0x65460320, 191.567, -246.945, 0.005, 0.995181, 0, 0, -0.0980531,  True, '2005-02-09 10:00:00'); /* Offering Table */
 /* @teleloc 0x65460320 [191.567000 -246.945000 0.005000] 0.995181 0.000000 0.000000 -0.098053 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (1985241201, 26635, 1699087136, 189.01, -247.138, 0.005, -0.999267, 0, 0, -0.0382941,  True, '2005-02-09 10:00:00'); /* Offering Table */
+VALUES (0x76546071, 26635, 0x65460320, 189.01, -247.138, 0.005, -0.999267, 0, 0, -0.0382941,  True, '2005-02-09 10:00:00'); /* Offering Table */
 /* @teleloc 0x65460320 [189.010000 -247.138000 0.005000] -0.999267 0.000000 0.000000 -0.038294 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (1985241202, 26635, 1699087136, 188.361, -253.343, 0.005, 0.00977221, 0, 0, -0.999952,  True, '2005-02-09 10:00:00'); /* Offering Table */
+VALUES (0x76546072, 26635, 0x65460320, 188.361, -253.343, 0.005, 0.00977221, 0, 0, -0.999952,  True, '2005-02-09 10:00:00'); /* Offering Table */
 /* @teleloc 0x65460320 [188.361000 -253.343000 0.005000] 0.009772 0.000000 0.000000 -0.999952 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (1985241203, 26635, 1699087136, 191.747, -253.277, 0.005, 0.00977221, 0, 0, -0.999952,  True, '2005-02-09 10:00:00'); /* Offering Table */
+VALUES (0x76546073, 26635, 0x65460320, 191.747, -253.277, 0.005, 0.00977221, 0, 0, -0.999952,  True, '2005-02-09 10:00:00'); /* Offering Table */
 /* @teleloc 0x65460320 [191.747000 -253.277000 0.005000] 0.009772 0.000000 0.000000 -0.999952 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (1985241204, 26566, 1699087139, 194.349, -283.029, 0.005, -0.707107, 0, 0, -0.707107,  True, '2005-02-09 10:00:00'); /* Guardian of the Sacrificial Urns */
+VALUES (0x76546074, 26566, 0x65460323, 194.349, -283.029, 0.005, -0.707107, 0, 0, -0.707107,  True, '2005-02-09 10:00:00'); /* Guardian of the Sacrificial Urns */
 /* @teleloc 0x65460323 [194.349000 -283.029000 0.005000] -0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (1985241205,  5624, 1699087144, 200, -84.75, 0.005, 1, 0, 0, -4.37114E-08, False, '2005-02-09 10:00:00'); /* Door */
+VALUES (0x76546075,  5624, 0x65460328, 200, -84.75, 0.005, 1, 0, 0, -4.37114E-08, False, '2005-02-09 10:00:00'); /* Door */
 /* @teleloc 0x65460328 [200.000000 -84.750000 0.005000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (1985241206, 26546, 1699087145, 203.357, -85.633, 0.005, 0, 0, 0, -1,  True, '2005-02-09 10:00:00'); /* Guardian of the Restless Dead */
+VALUES (0x76546076, 26546, 0x65460329, 203.357, -85.633, 0.005, 0, 0, 0, -1,  True, '2005-02-09 10:00:00'); /* Guardian of the Restless Dead */
 /* @teleloc 0x65460329 [203.357000 -85.633000 0.005000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (1985241207, 26548, 1699087146, 200, -100, 0.005, 0, 0, 0, -1,  True, '2005-02-09 10:00:00'); /* Arbiter */
+VALUES (0x76546077, 26548, 0x6546032A, 200, -100, 0.005, 0, 0, 0, -1,  True, '2005-02-09 10:00:00'); /* Arbiter */
 /* @teleloc 0x6546032A [200.000000 -100.000000 0.005000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (1985241208,  7923, 1699087147, 200, -110, 0.005, 1, 0, 0, 0, False, '2005-02-09 10:00:00'); /* Linkable Monster Generator ( 3 Min.) */
+VALUES (0x76546078,  7923, 0x6546032B, 200, -110, 0.005, 1, 0, 0, 0, False, '2005-02-09 10:00:00'); /* Linkable Monster Generator ( 3 Min.) */
 /* @teleloc 0x6546032B [200.000000 -110.000000 0.005000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (1985241208, 1985241088, '2005-02-09 10:00:00') /* Wailing Statue */
-     , (1985241208, 1985241089, '2005-02-09 10:00:00') /* Wailing Statue */
-     , (1985241208, 1985241092, '2005-02-09 10:00:00') /* Wailing Statue */
-     , (1985241208, 1985241093, '2005-02-09 10:00:00') /* Wailing Statue */
-     , (1985241208, 1985241094, '2005-02-09 10:00:00') /* Matron Arbiter */
-     , (1985241208, 1985241095, '2005-02-09 10:00:00') /* Wailing Statue */
-     , (1985241208, 1985241098, '2005-02-09 10:00:00') /* Wailing Statue */
-     , (1985241208, 1985241099, '2005-02-09 10:00:00') /* Wailing Statue */
-     , (1985241208, 1985241100, '2005-02-09 10:00:00') /* Wailing Statue */
-     , (1985241208, 1985241101, '2005-02-09 10:00:00') /* Wailing Statue */
-     , (1985241208, 1985241104, '2005-02-09 10:00:00') /* High Matron Arbiter */
-     , (1985241208, 1985241116, '2005-02-09 10:00:00') /* Matron Arbiter */
-     , (1985241208, 1985241118, '2005-02-09 10:00:00') /* Wailing Statue */
-     , (1985241208, 1985241119, '2005-02-09 10:00:00') /* Wailing Statue */
-     , (1985241208, 1985241120, '2005-02-09 10:00:00') /* Wailing Statue */
-     , (1985241208, 1985241121, '2005-02-09 10:00:00') /* Wailing Statue */
-     , (1985241208, 1985241122, '2005-02-09 10:00:00') /* Wailing Statue */
-     , (1985241208, 1985241123, '2005-02-09 10:00:00') /* Wailing Statue */
-     , (1985241208, 1985241124, '2005-02-09 10:00:00') /* Wailing Statue */
-     , (1985241208, 1985241125, '2005-02-09 10:00:00') /* Wailing Statue */
-     , (1985241208, 1985241126, '2005-02-09 10:00:00') /* Wailing Statue */
-     , (1985241208, 1985241127, '2005-02-09 10:00:00') /* Wailing Statue */
-     , (1985241208, 1985241128, '2005-02-09 10:00:00') /* Wailing Statue */
-     , (1985241208, 1985241129, '2005-02-09 10:00:00') /* Wailing Statue */
-     , (1985241208, 1985241130, '2005-02-09 10:00:00') /* Wailing Statue */
-     , (1985241208, 1985241131, '2005-02-09 10:00:00') /* Wailing Statue */
-     , (1985241208, 1985241132, '2005-02-09 10:00:00') /* Wailing Statue */
-     , (1985241208, 1985241133, '2005-02-09 10:00:00') /* Wailing Statue */
-     , (1985241208, 1985241134, '2005-02-09 10:00:00') /* Matron Arbiter */
-     , (1985241208, 1985241135, '2005-02-09 10:00:00') /* Wailing Statue */
-     , (1985241208, 1985241136, '2005-02-09 10:00:00') /* Wailing Statue */
-     , (1985241208, 1985241137, '2005-02-09 10:00:00') /* Wailing Statue */
-     , (1985241208, 1985241138, '2005-02-09 10:00:00') /* Wailing Statue */
-     , (1985241208, 1985241139, '2005-02-09 10:00:00') /* Wailing Statue */
-     , (1985241208, 1985241140, '2005-02-09 10:00:00') /* Wailing Statue */
-     , (1985241208, 1985241142, '2005-02-09 10:00:00') /* Matron Arbiter */
-     , (1985241208, 1985241143, '2005-02-09 10:00:00') /* Wailing Statue */
-     , (1985241208, 1985241144, '2005-02-09 10:00:00') /* Wailing Statue */
-     , (1985241208, 1985241145, '2005-02-09 10:00:00') /* Wailing Statue */
-     , (1985241208, 1985241148, '2005-02-09 10:00:00') /* Wailing Statue */
-     , (1985241208, 1985241149, '2005-02-09 10:00:00') /* Wailing Statue */
-     , (1985241208, 1985241150, '2005-02-09 10:00:00') /* Wailing Statue */
-     , (1985241208, 1985241151, '2005-02-09 10:00:00') /* Wailing Statue */
-     , (1985241208, 1985241153, '2005-02-09 10:00:00') /* Wailing Statue */
-     , (1985241208, 1985241154, '2005-02-09 10:00:00') /* Wailing Statue */
-     , (1985241208, 1985241155, '2005-02-09 10:00:00') /* Wailing Statue */
-     , (1985241208, 1985241156, '2005-02-09 10:00:00') /* Wailing Statue */
-     , (1985241208, 1985241158, '2005-02-09 10:00:00') /* Wailing Statue */
-     , (1985241208, 1985241159, '2005-02-09 10:00:00') /* Wailing Statue */
-     , (1985241208, 1985241160, '2005-02-09 10:00:00') /* Wailing Statue */
-     , (1985241208, 1985241162, '2005-02-09 10:00:00') /* Wailing Statue */
-     , (1985241208, 1985241163, '2005-02-09 10:00:00') /* Wailing Statue */
-     , (1985241208, 1985241165, '2005-02-09 10:00:00') /* Wailing Statue */
-     , (1985241208, 1985241166, '2005-02-09 10:00:00') /* Wailing Statue */
-     , (1985241208, 1985241177, '2005-02-09 10:00:00') /* Wailing Statue */
-     , (1985241208, 1985241188, '2005-02-09 10:00:00') /* Wailing Statue */
-     , (1985241208, 1985241196, '2005-02-09 10:00:00') /* Guardian of the Restless Dead */
-     , (1985241208, 1985241197, '2005-02-09 10:00:00') /* Arbiter */
-     , (1985241208, 1985241200, '2005-02-09 10:00:00') /* Offering Table */
-     , (1985241208, 1985241201, '2005-02-09 10:00:00') /* Offering Table */
-     , (1985241208, 1985241202, '2005-02-09 10:00:00') /* Offering Table */
-     , (1985241208, 1985241203, '2005-02-09 10:00:00') /* Offering Table */
-     , (1985241208, 1985241204, '2005-02-09 10:00:00') /* Guardian of the Sacrificial Urns */
-     , (1985241208, 1985241209, '2005-02-09 10:00:00') /* Judge of the Appeasement */
-     , (1985241208, 1985241210, '2005-02-09 10:00:00') /* Offering Table */
-     , (1985241208, 1985241211, '2005-02-09 10:00:00') /* Offering Table */
-     , (1985241208, 1985241212, '2005-02-09 10:00:00') /* Offering Table */
-     , (1985241208, 1985241213, '2005-02-09 10:00:00') /* Offering Table */
-     , (1985241208, 1985241236, '2005-02-09 10:00:00') /* Judge of the Sacrifice */
-     , (1985241208, 1985241237, '2005-02-09 10:00:00') /* Judge of the Sacrifice */;
+VALUES (0x76546078, 0x76546000, '2005-02-09 10:00:00') /* Wailing Statue */
+     , (0x76546078, 0x76546001, '2005-02-09 10:00:00') /* Wailing Statue */
+     , (0x76546078, 0x76546004, '2005-02-09 10:00:00') /* Wailing Statue */
+     , (0x76546078, 0x76546005, '2005-02-09 10:00:00') /* Wailing Statue */
+     , (0x76546078, 0x76546006, '2005-02-09 10:00:00') /* Matron Arbiter */
+     , (0x76546078, 0x76546007, '2005-02-09 10:00:00') /* Wailing Statue */
+     , (0x76546078, 0x7654600A, '2005-02-09 10:00:00') /* Wailing Statue */
+     , (0x76546078, 0x7654600B, '2005-02-09 10:00:00') /* Wailing Statue */
+     , (0x76546078, 0x7654600C, '2005-02-09 10:00:00') /* Wailing Statue */
+     , (0x76546078, 0x7654600D, '2005-02-09 10:00:00') /* Wailing Statue */
+     , (0x76546078, 0x76546010, '2005-02-09 10:00:00') /* High Matron Arbiter */
+     , (0x76546078, 0x7654601C, '2005-02-09 10:00:00') /* Matron Arbiter */
+     , (0x76546078, 0x7654601E, '2005-02-09 10:00:00') /* Wailing Statue */
+     , (0x76546078, 0x7654601F, '2005-02-09 10:00:00') /* Wailing Statue */
+     , (0x76546078, 0x76546020, '2005-02-09 10:00:00') /* Wailing Statue */
+     , (0x76546078, 0x76546021, '2005-02-09 10:00:00') /* Wailing Statue */
+     , (0x76546078, 0x76546022, '2005-02-09 10:00:00') /* Wailing Statue */
+     , (0x76546078, 0x76546023, '2005-02-09 10:00:00') /* Wailing Statue */
+     , (0x76546078, 0x76546024, '2005-02-09 10:00:00') /* Wailing Statue */
+     , (0x76546078, 0x76546025, '2005-02-09 10:00:00') /* Wailing Statue */
+     , (0x76546078, 0x76546026, '2005-02-09 10:00:00') /* Wailing Statue */
+     , (0x76546078, 0x76546027, '2005-02-09 10:00:00') /* Wailing Statue */
+     , (0x76546078, 0x76546028, '2005-02-09 10:00:00') /* Wailing Statue */
+     , (0x76546078, 0x76546029, '2005-02-09 10:00:00') /* Wailing Statue */
+     , (0x76546078, 0x7654602A, '2005-02-09 10:00:00') /* Wailing Statue */
+     , (0x76546078, 0x7654602B, '2005-02-09 10:00:00') /* Wailing Statue */
+     , (0x76546078, 0x7654602C, '2005-02-09 10:00:00') /* Wailing Statue */
+     , (0x76546078, 0x7654602D, '2005-02-09 10:00:00') /* Wailing Statue */
+     , (0x76546078, 0x7654602E, '2005-02-09 10:00:00') /* Matron Arbiter */
+     , (0x76546078, 0x7654602F, '2005-02-09 10:00:00') /* Wailing Statue */
+     , (0x76546078, 0x76546030, '2005-02-09 10:00:00') /* Wailing Statue */
+     , (0x76546078, 0x76546031, '2005-02-09 10:00:00') /* Wailing Statue */
+     , (0x76546078, 0x76546032, '2005-02-09 10:00:00') /* Wailing Statue */
+     , (0x76546078, 0x76546033, '2005-02-09 10:00:00') /* Wailing Statue */
+     , (0x76546078, 0x76546034, '2005-02-09 10:00:00') /* Wailing Statue */
+     , (0x76546078, 0x76546036, '2005-02-09 10:00:00') /* Matron Arbiter */
+     , (0x76546078, 0x76546037, '2005-02-09 10:00:00') /* Wailing Statue */
+     , (0x76546078, 0x76546038, '2005-02-09 10:00:00') /* Wailing Statue */
+     , (0x76546078, 0x76546039, '2005-02-09 10:00:00') /* Wailing Statue */
+     , (0x76546078, 0x7654603C, '2005-02-09 10:00:00') /* Wailing Statue */
+     , (0x76546078, 0x7654603D, '2005-02-09 10:00:00') /* Wailing Statue */
+     , (0x76546078, 0x7654603E, '2005-02-09 10:00:00') /* Wailing Statue */
+     , (0x76546078, 0x7654603F, '2005-02-09 10:00:00') /* Wailing Statue */
+     , (0x76546078, 0x76546041, '2005-02-09 10:00:00') /* Wailing Statue */
+     , (0x76546078, 0x76546042, '2005-02-09 10:00:00') /* Wailing Statue */
+     , (0x76546078, 0x76546043, '2005-02-09 10:00:00') /* Wailing Statue */
+     , (0x76546078, 0x76546044, '2005-02-09 10:00:00') /* Wailing Statue */
+     , (0x76546078, 0x76546046, '2005-02-09 10:00:00') /* Wailing Statue */
+     , (0x76546078, 0x76546047, '2005-02-09 10:00:00') /* Wailing Statue */
+     , (0x76546078, 0x76546048, '2005-02-09 10:00:00') /* Wailing Statue */
+     , (0x76546078, 0x7654604A, '2005-02-09 10:00:00') /* Wailing Statue */
+     , (0x76546078, 0x7654604B, '2005-02-09 10:00:00') /* Wailing Statue */
+     , (0x76546078, 0x7654604D, '2005-02-09 10:00:00') /* Wailing Statue */
+     , (0x76546078, 0x7654604E, '2005-02-09 10:00:00') /* Wailing Statue */
+     , (0x76546078, 0x76546059, '2005-02-09 10:00:00') /* Wailing Statue */
+     , (0x76546078, 0x76546064, '2005-02-09 10:00:00') /* Wailing Statue */
+     , (0x76546078, 0x7654606C, '2005-02-09 10:00:00') /* Guardian of the Restless Dead */
+     , (0x76546078, 0x7654606D, '2005-02-09 10:00:00') /* Arbiter */
+     , (0x76546078, 0x76546070, '2005-02-09 10:00:00') /* Offering Table */
+     , (0x76546078, 0x76546071, '2005-02-09 10:00:00') /* Offering Table */
+     , (0x76546078, 0x76546072, '2005-02-09 10:00:00') /* Offering Table */
+     , (0x76546078, 0x76546073, '2005-02-09 10:00:00') /* Offering Table */
+     , (0x76546078, 0x76546074, '2005-02-09 10:00:00') /* Guardian of the Sacrificial Urns */
+     , (0x76546078, 0x76546079, '2005-02-09 10:00:00') /* Judge of the Appeasement */
+     , (0x76546078, 0x7654607A, '2005-02-09 10:00:00') /* Offering Table */
+     , (0x76546078, 0x7654607B, '2005-02-09 10:00:00') /* Offering Table */
+     , (0x76546078, 0x7654607C, '2005-02-09 10:00:00') /* Offering Table */
+     , (0x76546078, 0x7654607D, '2005-02-09 10:00:00') /* Offering Table */
+     , (0x76546078, 0x76546094, '2005-02-09 10:00:00') /* Judge of the Sacrifice */
+     , (0x76546078, 0x76546095, '2005-02-09 10:00:00') /* Judge of the Sacrifice */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (1985241209, 26542, 1699087148, 200, -220, 0.005, -4.37114E-08, 0, 0, -1,  True, '2005-02-09 10:00:00'); /* Judge of the Appeasement */
+VALUES (0x76546079, 26542, 0x6546032C, 200, -220, 0.005, -4.37114E-08, 0, 0, -1,  True, '2005-02-09 10:00:00'); /* Judge of the Appeasement */
 /* @teleloc 0x6546032C [200.000000 -220.000000 0.005000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (1985241210, 26635, 1699087153, 202.854, -238.427, 0.005, 0.703856, 0, 0, -0.710343,  True, '2005-02-09 10:00:00'); /* Offering Table */
+VALUES (0x7654607A, 26635, 0x65460331, 202.854, -238.427, 0.005, 0.703856, 0, 0, -0.710343,  True, '2005-02-09 10:00:00'); /* Offering Table */
 /* @teleloc 0x65460331 [202.854000 -238.427000 0.005000] 0.703856 0.000000 0.000000 -0.710343 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (1985241211, 26635, 1699087153, 202.825, -241.572, 0.005, 0.703856, 0, 0, -0.710343,  True, '2005-02-09 10:00:00'); /* Offering Table */
+VALUES (0x7654607B, 26635, 0x65460331, 202.825, -241.572, 0.005, 0.703856, 0, 0, -0.710343,  True, '2005-02-09 10:00:00'); /* Offering Table */
 /* @teleloc 0x65460331 [202.825000 -241.572000 0.005000] 0.703856 0.000000 0.000000 -0.710343 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (1985241212, 26635, 1699087153, 197.086, -241.571, 0.005, 0.713034, 0, 0, 0.70113,  True, '2005-02-09 10:00:00'); /* Offering Table */
+VALUES (0x7654607C, 26635, 0x65460331, 197.086, -241.571, 0.005, 0.713034, 0, 0, 0.70113,  True, '2005-02-09 10:00:00'); /* Offering Table */
 /* @teleloc 0x65460331 [197.086000 -241.571000 0.005000] 0.713034 0.000000 0.000000 0.701130 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (1985241213, 26635, 1699087153, 197.141, -238.311, 0.005, 0.713034, 0, 0, 0.70113,  True, '2005-02-09 10:00:00'); /* Offering Table */
+VALUES (0x7654607D, 26635, 0x65460331, 197.141, -238.311, 0.005, 0.713034, 0, 0, 0.70113,  True, '2005-02-09 10:00:00'); /* Offering Table */
 /* @teleloc 0x65460331 [197.141000 -238.311000 0.005000] 0.713034 0.000000 0.000000 0.701130 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (1985241214, 26522, 1699087153, 200, -240, 0.005, 1, 0, 0, -4.37114E-08, False, '2005-02-09 10:00:00'); /* Temple Ancient Souls Generator */
+VALUES (0x7654607E, 26522, 0x65460331, 200, -240, 0.005, 1, 0, 0, -4.37114E-08, False, '2005-02-09 10:00:00'); /* Temple Ancient Souls Generator */
 /* @teleloc 0x65460331 [200.000000 -240.000000 0.005000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (1985241215,  5624, 1699087158, 195.25, -280, 0.005, 0.707107, 0, 0, -0.707107, False, '2005-02-09 10:00:00'); /* Door */
+VALUES (0x7654607F,  5624, 0x65460336, 195.25, -280, 0.005, 0.707107, 0, 0, -0.707107, False, '2005-02-09 10:00:00'); /* Door */
 /* @teleloc 0x65460336 [195.250000 -280.000000 0.005000] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (1985241216, 26635, 1699087160, 211.567, -66.9451, 0.005, 0.995181, 0, 0, -0.0980531,  True, '2005-02-09 10:00:00'); /* Offering Table */
+VALUES (0x76546080, 26635, 0x65460338, 211.567, -66.9451, 0.005, 0.995181, 0, 0, -0.0980531,  True, '2005-02-09 10:00:00'); /* Offering Table */
 /* @teleloc 0x65460338 [211.567000 -66.945100 0.005000] 0.995181 0.000000 0.000000 -0.098053 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (1985241217, 26635, 1699087160, 209.01, -67.1382, 0.005, -0.999267, 0, 0, -0.0382941,  True, '2005-02-09 10:00:00'); /* Offering Table */
+VALUES (0x76546081, 26635, 0x65460338, 209.01, -67.1382, 0.005, -0.999267, 0, 0, -0.0382941,  True, '2005-02-09 10:00:00'); /* Offering Table */
 /* @teleloc 0x65460338 [209.010000 -67.138200 0.005000] -0.999267 0.000000 0.000000 -0.038294 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (1985241218, 26635, 1699087160, 208.361, -73.3431, 0.005, 0.00977221, 0, 0, -0.999952,  True, '2005-02-09 10:00:00'); /* Offering Table */
+VALUES (0x76546082, 26635, 0x65460338, 208.361, -73.3431, 0.005, 0.00977221, 0, 0, -0.999952,  True, '2005-02-09 10:00:00'); /* Offering Table */
 /* @teleloc 0x65460338 [208.361000 -73.343100 0.005000] 0.009772 0.000000 0.000000 -0.999952 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (1985241219, 26635, 1699087160, 211.747, -73.2769, 0.005, 0.00977221, 0, 0, -0.999952,  True, '2005-02-09 10:00:00'); /* Offering Table */
+VALUES (0x76546083, 26635, 0x65460338, 211.747, -73.2769, 0.005, 0.00977221, 0, 0, -0.999952,  True, '2005-02-09 10:00:00'); /* Offering Table */
 /* @teleloc 0x65460338 [211.747000 -73.276900 0.005000] 0.009772 0.000000 0.000000 -0.999952 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (1985241220, 26566, 1699087163, 214.349, -103.029, 0.005, -0.707107, 0, 0, -0.707107,  True, '2005-02-09 10:00:00'); /* Guardian of the Sacrificial Urns */
+VALUES (0x76546084, 26566, 0x6546033B, 214.349, -103.029, 0.005, -0.707107, 0, 0, -0.707107,  True, '2005-02-09 10:00:00'); /* Guardian of the Sacrificial Urns */
 /* @teleloc 0x6546033B [214.349000 -103.029000 0.005000] -0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (1985241221, 26542, 1699087172, 220, -40, 0.005, -4.37114E-08, 0, 0, -1,  True, '2005-02-09 10:00:00'); /* Judge of the Appeasement */
+VALUES (0x76546085, 26542, 0x65460344, 220, -40, 0.005, -4.37114E-08, 0, 0, -1,  True, '2005-02-09 10:00:00'); /* Judge of the Appeasement */
 /* @teleloc 0x65460344 [220.000000 -40.000000 0.005000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (1985241222, 26635, 1699087177, 222.854, -58.4274, 0.005, 0.703856, 0, 0, -0.710343,  True, '2005-02-09 10:00:00'); /* Offering Table */
+VALUES (0x76546086, 26635, 0x65460349, 222.854, -58.4274, 0.005, 0.703856, 0, 0, -0.710343,  True, '2005-02-09 10:00:00'); /* Offering Table */
 /* @teleloc 0x65460349 [222.854000 -58.427400 0.005000] 0.703856 0.000000 0.000000 -0.710343 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (1985241223, 26635, 1699087177, 222.825, -61.5724, 0.005, 0.703856, 0, 0, -0.710343,  True, '2005-02-09 10:00:00'); /* Offering Table */
+VALUES (0x76546087, 26635, 0x65460349, 222.825, -61.5724, 0.005, 0.703856, 0, 0, -0.710343,  True, '2005-02-09 10:00:00'); /* Offering Table */
 /* @teleloc 0x65460349 [222.825000 -61.572400 0.005000] 0.703856 0.000000 0.000000 -0.710343 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (1985241224, 26635, 1699087177, 217.086, -61.5708, 0.005, 0.713034, 0, 0, 0.70113,  True, '2005-02-09 10:00:00'); /* Offering Table */
+VALUES (0x76546088, 26635, 0x65460349, 217.086, -61.5708, 0.005, 0.713034, 0, 0, 0.70113,  True, '2005-02-09 10:00:00'); /* Offering Table */
 /* @teleloc 0x65460349 [217.086000 -61.570800 0.005000] 0.713034 0.000000 0.000000 0.701130 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (1985241225, 26635, 1699087177, 217.141, -58.3114, 0.005, 0.713034, 0, 0, 0.70113,  True, '2005-02-09 10:00:00'); /* Offering Table */
+VALUES (0x76546089, 26635, 0x65460349, 217.141, -58.3114, 0.005, 0.713034, 0, 0, 0.70113,  True, '2005-02-09 10:00:00'); /* Offering Table */
 /* @teleloc 0x65460349 [217.141000 -58.311400 0.005000] 0.713034 0.000000 0.000000 0.701130 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (1985241226, 26523, 1699087177, 220, -60, 0.005, 1, 0, 0, -4.37114E-08, False, '2005-02-09 10:00:00'); /* Temple Crypt Spirits Generator */
+VALUES (0x7654608A, 26523, 0x65460349, 220, -60, 0.005, 1, 0, 0, -4.37114E-08, False, '2005-02-09 10:00:00'); /* Temple Crypt Spirits Generator */
 /* @teleloc 0x65460349 [220.000000 -60.000000 0.005000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (1985241227,  5624, 1699087182, 215.25, -100, 0.005, 0.707107, 0, 0, -0.707107, False, '2005-02-09 10:00:00'); /* Door */
+VALUES (0x7654608B,  5624, 0x6546034E, 215.25, -100, 0.005, 0.707107, 0, 0, -0.707107, False, '2005-02-09 10:00:00'); /* Door */
 /* @teleloc 0x6546034E [215.250000 -100.000000 0.005000] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (1985241231, 26589, 1699087184, 220.112, -296.642, 1.415, 0, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Unseen Force */
+VALUES (0x7654608F, 26589, 0x65460350, 220.112, -296.642, 1.415, 0, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Unseen Force */
 /* @teleloc 0x65460350 [220.112000 -296.642000 1.415000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (1985241235, 26589, 1699087195, 240.028, -116.767, 1.589, 0, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Unseen Force */
+VALUES (0x76546093, 26589, 0x6546035B, 240.028, -116.767, 1.589, 0, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Unseen Force */
 /* @teleloc 0x6546035B [240.028000 -116.767000 1.589000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (1985241236, 26567, 1699087197, 240, -300, 0.005, -0.707107, 0, 0, -0.707107,  True, '2005-02-09 10:00:00'); /* Judge of the Sacrifice */
+VALUES (0x76546094, 26567, 0x6546035D, 240, -300, 0.005, -0.707107, 0, 0, -0.707107,  True, '2005-02-09 10:00:00'); /* Judge of the Sacrifice */
 /* @teleloc 0x6546035D [240.000000 -300.000000 0.005000] -0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (1985241237, 26567, 1699087201, 260, -120, 0.005, -0.707107, 0, 0, -0.707107,  True, '2005-02-09 10:00:00'); /* Judge of the Sacrifice */
+VALUES (0x76546095, 26567, 0x65460361, 260, -120, 0.005, -0.707107, 0, 0, -0.707107,  True, '2005-02-09 10:00:00'); /* Judge of the Sacrifice */
 /* @teleloc 0x65460361 [260.000000 -120.000000 0.005000] -0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (1985241238,  7923, 1699087131, 181.057, -290, 0.005, 1, 0, 0, 0, False, '2005-02-09 10:00:00'); /* Linkable Monster Generator ( 3 Min.) */
+VALUES (0x76546096,  7923, 0x6546031B, 181.057, -290, 0.005, 1, 0, 0, 0, False, '2005-02-09 10:00:00'); /* Linkable Monster Generator ( 3 Min.) */
 /* @teleloc 0x6546031B [181.057000 -290.000000 0.005000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (1985241238, 1985241239, '2005-02-09 10:00:00') /* Offering Urn */
-     , (1985241238, 1985241240, '2005-02-09 10:00:00') /* Offering Urn */
-     , (1985241238, 1985241241, '2005-02-09 10:00:00') /* Offering Urn */
-     , (1985241238, 1985241242, '2005-02-09 10:00:00') /* Offering Urn */
-     , (1985241238, 1985241243, '2005-02-09 10:00:00') /* Offering Urn */
-     , (1985241238, 1985241244, '2005-02-09 10:00:00') /* Offering Urn */;
+VALUES (0x76546096, 0x76546097, '2005-02-09 10:00:00') /* Offering Urn */
+     , (0x76546096, 0x76546098, '2005-02-09 10:00:00') /* Offering Urn */
+     , (0x76546096, 0x76546099, '2005-02-09 10:00:00') /* Offering Urn */
+     , (0x76546096, 0x7654609A, '2005-02-09 10:00:00') /* Offering Urn */
+     , (0x76546096, 0x7654609B, '2005-02-09 10:00:00') /* Offering Urn */
+     , (0x76546096, 0x7654609C, '2005-02-09 10:00:00') /* Offering Urn */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (1985241239, 26669, 1699087184, 219.728, -303.77, 0.005, 0.00506357, 0, 0, 0.999987,  True, '2005-02-09 10:00:00'); /* Offering Urn */
+VALUES (0x76546097, 26669, 0x65460350, 219.728, -303.77, 0.005, 0.00506357, 0, 0, 0.999987,  True, '2005-02-09 10:00:00'); /* Offering Urn */
 /* @teleloc 0x65460350 [219.728000 -303.770000 0.005000] 0.005064 0.000000 0.000000 0.999987 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (1985241240, 26669, 1699087184, 221.715, -303.12, 0.005, -0.407702, 0, 0, 0.913115,  True, '2005-02-09 10:00:00'); /* Offering Urn */
+VALUES (0x76546098, 26669, 0x65460350, 221.715, -303.12, 0.005, -0.407702, 0, 0, 0.913115,  True, '2005-02-09 10:00:00'); /* Offering Urn */
 /* @teleloc 0x65460350 [221.715000 -303.120000 0.005000] -0.407702 0.000000 0.000000 0.913115 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (1985241241, 26669, 1699087184, 217.64, -303.185, 0.005, 0.324103, 0, 0, 0.946022,  True, '2005-02-09 10:00:00'); /* Offering Urn */
+VALUES (0x76546099, 26669, 0x65460350, 217.64, -303.185, 0.005, 0.324103, 0, 0, 0.946022,  True, '2005-02-09 10:00:00'); /* Offering Urn */
 /* @teleloc 0x65460350 [217.640000 -303.185000 0.005000] 0.324103 0.000000 0.000000 0.946022 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (1985241242, 26668, 1699087195, 241.715, -123.12, 0.005, -0.407702, 0, 0, 0.913115,  True, '2005-02-09 10:00:00'); /* Offering Urn */
+VALUES (0x7654609A, 26668, 0x6546035B, 241.715, -123.12, 0.005, -0.407702, 0, 0, 0.913115,  True, '2005-02-09 10:00:00'); /* Offering Urn */
 /* @teleloc 0x6546035B [241.715000 -123.120000 0.005000] -0.407702 0.000000 0.000000 0.913115 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (1985241243, 26668, 1699087195, 239.728, -123.77, 0.005, 0.00506357, 0, 0, 0.999987,  True, '2005-02-09 10:00:00'); /* Offering Urn */
+VALUES (0x7654609B, 26668, 0x6546035B, 239.728, -123.77, 0.005, 0.00506357, 0, 0, 0.999987,  True, '2005-02-09 10:00:00'); /* Offering Urn */
 /* @teleloc 0x6546035B [239.728000 -123.770000 0.005000] 0.005064 0.000000 0.000000 0.999987 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (1985241244, 26668, 1699087195, 237.64, -123.185, 0.005, 0.324103, 0, 0, 0.946022,  True, '2005-02-09 10:00:00'); /* Offering Urn */
+VALUES (0x7654609C, 26668, 0x6546035B, 237.64, -123.185, 0.005, 0.324103, 0, 0, 0.946022,  True, '2005-02-09 10:00:00'); /* Offering Urn */
 /* @teleloc 0x6546035B [237.640000 -123.185000 0.005000] 0.324103 0.000000 0.000000 0.946022 */

@@ -16,7 +16,7 @@ VALUES (20856,   1,        128) /* ItemType - Misc */
      , (20856,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
      , (20856,  19,        100) /* Value */
      , (20856,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (20856,  94,          6) /* TargetType - Vestments */
+     , (20856,  94,          6) /* TargetType - Vestements */
      , (20856, 150,        103) /* HookPlacement - Hook */
      , (20856, 151,          2) /* HookType - Wall */;
 

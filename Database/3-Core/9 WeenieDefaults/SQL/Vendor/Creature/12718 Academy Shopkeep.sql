@@ -12,7 +12,7 @@ VALUES (12718,   1,         16) /* ItemType - Creature */
      , (12718,  16,         32) /* ItemUseable - Remote */
      , (12718,  25,          8) /* Level */
      , (12718,  27,          0) /* ArmorType - None */
-     , (12718,  74,  138426022) /* MerchandiseItemTypes - Vestments, Food, LockableMagicTarget, Useless, SpellComponents, Writable, CraftCookingBase, CraftFletchingIntermediate */
+     , (12718,  74,  138426022) /* MerchandiseItemTypes - Vestements, Food, LockableMagicTarget, Useless, SpellComponents, Writable, CraftCookingBase, CraftFletchingIntermediate */
      , (12718,  75,          0) /* MerchandiseMinValue */
      , (12718,  76,      10000) /* MerchandiseMaxValue */
      , (12718,  93,    2098200) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */

@@ -1,62 +1,62 @@
-DELETE FROM `landblock_instance` WHERE `landblock` = 63524;
+DELETE FROM `landblock_instance` WHERE `landblock` = 0xF824;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (2139242496,  4248, 4163108864, 144.308, 42.8453, 18.006, -0.961814, 0, 0, 0.273704,  True, '2005-02-09 10:00:00'); /* Putrid Moarsman */
+VALUES (0x7F824000,  4248, 0xF8240000, 144.308, 42.8453, 18.006, -0.961814, 0, 0, 0.273704,  True, '2005-02-09 10:00:00'); /* Putrid Moarsman */
 /* @teleloc 0xF8240000 [144.308000 42.845300 18.006000] -0.961814 0.000000 0.000000 0.273704 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (2139242497,  4248, 4163108864, 140.348, 41.01, 18.3103, 0.993885, 0, 0, -0.110424,  True, '2005-02-09 10:00:00'); /* Putrid Moarsman */
+VALUES (0x7F824001,  4248, 0xF8240000, 140.348, 41.01, 18.3103, 0.993885, 0, 0, -0.110424,  True, '2005-02-09 10:00:00'); /* Putrid Moarsman */
 /* @teleloc 0xF8240000 [140.348000 41.010000 18.310300] 0.993885 0.000000 0.000000 -0.110424 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (2139242498,  4248, 4163108864, 146.773, 29.9868, 18.006, 0.724388, 0, 0, -0.689392,  True, '2005-02-09 10:00:00'); /* Putrid Moarsman */
+VALUES (0x7F824002,  4248, 0xF8240000, 146.773, 29.9868, 18.006, 0.724388, 0, 0, -0.689392,  True, '2005-02-09 10:00:00'); /* Putrid Moarsman */
 /* @teleloc 0xF8240000 [146.773000 29.986800 18.006000] 0.724388 0.000000 0.000000 -0.689392 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (2139242499,  7111, 4163108864, 136.547, 57.1633, 18.6261, 0.983949, 0, 0, 0.178449,  True, '2005-02-09 10:00:00'); /* Faisi Sclavus */
+VALUES (0x7F824003,  7111, 0xF8240000, 136.547, 57.1633, 18.6261, 0.983949, 0, 0, 0.178449,  True, '2005-02-09 10:00:00'); /* Faisi Sclavus */
 /* @teleloc 0xF8240000 [136.547000 57.163300 18.626100] 0.983949 0.000000 0.000000 0.178449 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (2139242500,  7111, 4163108864, 152.895, 58.1423, 18.005, -0.99873, 0, 0, -0.0503899,  True, '2005-02-09 10:00:00'); /* Faisi Sclavus */
+VALUES (0x7F824004,  7111, 0xF8240000, 152.895, 58.1423, 18.005, -0.99873, 0, 0, -0.0503899,  True, '2005-02-09 10:00:00'); /* Faisi Sclavus */
 /* @teleloc 0xF8240000 [152.895000 58.142300 18.005000] -0.998730 0.000000 0.000000 -0.050390 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (2139242501,  7111, 4163108864, 167.109, 57.5013, 18.005, -0.985554, 0, 0, 0.169359,  True, '2005-02-09 10:00:00'); /* Faisi Sclavus */
+VALUES (0x7F824005,  7111, 0xF8240000, 167.109, 57.5013, 18.005, -0.985554, 0, 0, 0.169359,  True, '2005-02-09 10:00:00'); /* Faisi Sclavus */
 /* @teleloc 0xF8240000 [167.109000 57.501300 18.005000] -0.985554 0.000000 0.000000 0.169359 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (2139242502,  7111, 4163108864, 154.987, 43.8729, 18.005, -0.94923, 0, 0, 0.314582,  True, '2005-02-09 10:00:00'); /* Faisi Sclavus */
+VALUES (0x7F824006,  7111, 0xF8240000, 154.987, 43.8729, 18.005, -0.94923, 0, 0, 0.314582,  True, '2005-02-09 10:00:00'); /* Faisi Sclavus */
 /* @teleloc 0xF8240000 [154.987000 43.872900 18.005000] -0.949230 0.000000 0.000000 0.314582 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (2139242503,  7111, 4163108864, 160.051, 15.9658, 18.005, 0.753247, 0, 0, -0.657737,  True, '2005-02-09 10:00:00'); /* Faisi Sclavus */
+VALUES (0x7F824007,  7111, 0xF8240000, 160.051, 15.9658, 18.005, 0.753247, 0, 0, -0.657737,  True, '2005-02-09 10:00:00'); /* Faisi Sclavus */
 /* @teleloc 0xF8240000 [160.051000 15.965800 18.005000] 0.753247 0.000000 0.000000 -0.657737 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (2139242504,  7111, 4163108864, 122.24, 34.077, 18.8448, -0.703314, 0, 0, -0.710879,  True, '2005-02-09 10:00:00'); /* Faisi Sclavus */
+VALUES (0x7F824008,  7111, 0xF8240000, 122.24, 34.077, 18.8448, -0.703314, 0, 0, -0.710879,  True, '2005-02-09 10:00:00'); /* Faisi Sclavus */
 /* @teleloc 0xF8240000 [122.240000 34.077000 18.844800] -0.703314 0.000000 0.000000 -0.710879 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (2139242505,  4248, 4163108864, 123.654, 32.092, 18.6803, 0.541788, 0, 0, 0.840515,  True, '2005-02-09 10:00:00'); /* Putrid Moarsman */
+VALUES (0x7F824009,  4248, 0xF8240000, 123.654, 32.092, 18.6803, 0.541788, 0, 0, 0.840515,  True, '2005-02-09 10:00:00'); /* Putrid Moarsman */
 /* @teleloc 0xF8240000 [123.654000 32.092000 18.680300] 0.541788 0.000000 0.000000 0.840515 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (2139242506,  7925, 4163108864, 136.131, 32.2069, 18.6608, 0.981857, 0, 0, -0.189624, False, '2005-02-09 10:00:00'); /* Linkable Monster Generator ( 10 Min.) */
+VALUES (0x7F82400A,  7925, 0xF8240000, 136.131, 32.2069, 18.6608, 0.981857, 0, 0, -0.189624, False, '2005-02-09 10:00:00'); /* Linkable Monster Generator ( 10 Min.) */
 /* @teleloc 0xF8240000 [136.131000 32.206900 18.660800] 0.981857 0.000000 0.000000 -0.189624 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (2139242506, 2139242496, '2005-02-09 10:00:00') /* Putrid Moarsman */
-     , (2139242506, 2139242497, '2005-02-09 10:00:00') /* Putrid Moarsman */
-     , (2139242506, 2139242498, '2005-02-09 10:00:00') /* Putrid Moarsman */
-     , (2139242506, 2139242499, '2005-02-09 10:00:00') /* Faisi Sclavus */
-     , (2139242506, 2139242500, '2005-02-09 10:00:00') /* Faisi Sclavus */
-     , (2139242506, 2139242501, '2005-02-09 10:00:00') /* Faisi Sclavus */
-     , (2139242506, 2139242502, '2005-02-09 10:00:00') /* Faisi Sclavus */
-     , (2139242506, 2139242503, '2005-02-09 10:00:00') /* Faisi Sclavus */
-     , (2139242506, 2139242504, '2005-02-09 10:00:00') /* Faisi Sclavus */
-     , (2139242506, 2139242505, '2005-02-09 10:00:00') /* Putrid Moarsman */
-     , (2139242506, 2139242507, '2005-02-09 10:00:00') /* Sulthis Eye Stalk */;
+VALUES (0x7F82400A, 0x7F824000, '2005-02-09 10:00:00') /* Putrid Moarsman */
+     , (0x7F82400A, 0x7F824001, '2005-02-09 10:00:00') /* Putrid Moarsman */
+     , (0x7F82400A, 0x7F824002, '2005-02-09 10:00:00') /* Putrid Moarsman */
+     , (0x7F82400A, 0x7F824003, '2005-02-09 10:00:00') /* Faisi Sclavus */
+     , (0x7F82400A, 0x7F824004, '2005-02-09 10:00:00') /* Faisi Sclavus */
+     , (0x7F82400A, 0x7F824005, '2005-02-09 10:00:00') /* Faisi Sclavus */
+     , (0x7F82400A, 0x7F824006, '2005-02-09 10:00:00') /* Faisi Sclavus */
+     , (0x7F82400A, 0x7F824007, '2005-02-09 10:00:00') /* Faisi Sclavus */
+     , (0x7F82400A, 0x7F824008, '2005-02-09 10:00:00') /* Faisi Sclavus */
+     , (0x7F82400A, 0x7F824009, '2005-02-09 10:00:00') /* Putrid Moarsman */
+     , (0x7F82400A, 0x7F82400B, '2005-02-09 10:00:00') /* Sulthis Eye Stalk */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (2139242507,  8470, 4163108864, 140.609, 177.249, -0.895, 0.992699, 0, 0, 0.120615,  True, '2005-02-09 10:00:00'); /* Sulthis Eye Stalk */
+VALUES (0x7F82400B,  8470, 0xF8240000, 140.609, 177.249, -0.895, 0.992699, 0, 0, 0.120615,  True, '2005-02-09 10:00:00'); /* Sulthis Eye Stalk */
 /* @teleloc 0xF8240000 [140.609000 177.249000 -0.895000] 0.992699 0.000000 0.000000 0.120615 */

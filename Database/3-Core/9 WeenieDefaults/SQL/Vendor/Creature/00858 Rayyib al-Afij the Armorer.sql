@@ -12,7 +12,7 @@ VALUES (858,   1,         16) /* ItemType - Creature */
      , (858,  16,         32) /* ItemUseable - Remote */
      , (858,  25,          6) /* Level */
      , (858,  27,          0) /* ArmorType - None */
-     , (858,  74, 1074003974) /* MerchandiseItemTypes - Vestments, PromissoryNote, TinkeringMaterial */
+     , (858,  74, 1074003974) /* MerchandiseItemTypes - Vestements, PromissoryNote, TinkeringMaterial */
      , (858,  75,          0) /* MerchandiseMinValue */
      , (858,  76,     100000) /* MerchandiseMaxValue */
      , (858,  93,    2098200) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */
