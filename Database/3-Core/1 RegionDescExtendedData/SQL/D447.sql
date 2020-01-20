@@ -8,4 +8,5 @@ VALUES (54343, 4623, 2, 4, '2005-02-09 10:00:00') /* Low Central Forest Mix Gene
      , (54343, 4623, 5, 4, '2005-02-09 10:00:00') /* Low Central Forest Mix Generator */
      , (54343, 4623, 5, 6, '2005-02-09 10:00:00') /* Low Central Forest Mix Generator */
      , (54343, 4623, 7, 1, '2005-02-09 10:00:00') /* Low Central Forest Mix Generator */
-     , (54343, 21172, 7, 4, '2005-02-09 10:00:00') /* Low Central Undead Plains Mix Generator */;
+     , (54343, 21172, 7, 4, '2005-02-09 10:00:00') /* Low Central Undead Plains Mix Generator */
+     , (54343, 4623, 8, 1, '2005-02-09 10:00:00') /* Low Central Forest Mix Generator */;

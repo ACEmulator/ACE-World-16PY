@@ -6,6 +6,9 @@ VALUES (1021, 23176, 0, 6, '2005-02-09 10:00:00') /* Aluvian Newbie Plains Mix G
      , (1021, 5150, 2, 0, '2005-02-09 10:00:00') /* Harmless Aluvian Generator */
      , (1021, 5150, 2, 1, '2005-02-09 10:00:00') /* Harmless Aluvian Generator */
      , (1021, 5150, 2, 4, '2005-02-09 10:00:00') /* Harmless Aluvian Generator */
+     , (1021, 5150, 2, 8, '2005-02-09 10:00:00') /* Harmless Aluvian Generator */
      , (1021, 23177, 5, 2, '2005-02-09 10:00:00') /* Aluvian Newbie Shore Mix Generator */
      , (1021, 23177, 5, 4, '2005-02-09 10:00:00') /* Aluvian Newbie Shore Mix Generator */
-     , (1021, 5150, 6, 3, '2005-02-09 10:00:00') /* Harmless Aluvian Generator */;
+     , (1021, 5150, 6, 3, '2005-02-09 10:00:00') /* Harmless Aluvian Generator */
+     , (1021, 5150, 6, 8, '2005-02-09 10:00:00') /* Harmless Aluvian Generator */
+     , (1021, 5150, 8, 5, '2005-02-09 10:00:00') /* Harmless Aluvian Generator */;

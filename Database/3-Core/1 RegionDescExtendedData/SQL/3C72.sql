@@ -13,4 +13,5 @@ VALUES (15474, 1975, 1, 3, '2005-02-09 10:00:00') /* High Direlands South Mounta
      , (15474, 1975, 6, 1, '2005-02-09 10:00:00') /* High Direlands South Mountains Generator */
      , (15474, 1975, 6, 3, '2005-02-09 10:00:00') /* High Direlands South Mountains Generator */
      , (15474, 1968, 6, 6, '2005-02-09 10:00:00') /* High Direlands Shore Generator */
-     , (15474, 1968, 7, 6, '2005-02-09 10:00:00') /* High Direlands Shore Generator */;
+     , (15474, 1968, 7, 6, '2005-02-09 10:00:00') /* High Direlands Shore Generator */
+     , (15474, 1968, 8, 6, '2005-02-09 10:00:00') /* High Direlands Shore Generator */;

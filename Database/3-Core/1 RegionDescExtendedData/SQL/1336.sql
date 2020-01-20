@@ -5,8 +5,10 @@ VALUES (4918, 1960, 0, 3, '2005-02-09 10:00:00') /* Extreme Direlands Forest Gen
      , (4918, 1960, 1, 6, '2005-02-09 10:00:00') /* Extreme Direlands Forest Generator */
      , (4918, 1960, 2, 6, '2005-02-09 10:00:00') /* Extreme Direlands Forest Generator */
      , (4918, 1960, 2, 7, '2005-02-09 10:00:00') /* Extreme Direlands Forest Generator */
+     , (4918, 1960, 2, 8, '2005-02-09 10:00:00') /* Extreme Direlands Forest Generator */
      , (4918, 1960, 4, 4, '2005-02-09 10:00:00') /* Extreme Direlands Forest Generator */
      , (4918, 1960, 5, 0, '2005-02-09 10:00:00') /* Extreme Direlands Forest Generator */
      , (4918, 1960, 6, 2, '2005-02-09 10:00:00') /* Extreme Direlands Forest Generator */
      , (4918, 1960, 6, 4, '2005-02-09 10:00:00') /* Extreme Direlands Forest Generator */
-     , (4918, 1960, 6, 6, '2005-02-09 10:00:00') /* Extreme Direlands Forest Generator */;
+     , (4918, 1960, 6, 6, '2005-02-09 10:00:00') /* Extreme Direlands Forest Generator */
+     , (4918, 1960, 8, 2, '2005-02-09 10:00:00') /* Extreme Direlands Forest Generator */;

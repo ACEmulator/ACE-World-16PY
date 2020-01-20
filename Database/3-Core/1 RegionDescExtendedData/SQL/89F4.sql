@@ -8,4 +8,6 @@ VALUES (35316, 23151, 1, 2, '2005-02-09 10:00:00') /* Mid North Forest Mix Gener
      , (35316, 23162, 5, 4, '2005-02-09 10:00:00') /* Mid North Shore Generator */
      , (35316, 23162, 5, 6, '2005-02-09 10:00:00') /* Mid North Shore Generator */
      , (35316, 23162, 6, 4, '2005-02-09 10:00:00') /* Mid North Shore Generator */
-     , (35316, 23162, 7, 7, '2005-02-09 10:00:00') /* Mid North Shore Generator */;
+     , (35316, 23162, 7, 7, '2005-02-09 10:00:00') /* Mid North Shore Generator */
+     , (35316, 23162, 8, 1, '2005-02-09 10:00:00') /* Mid North Shore Generator */
+     , (35316, 23162, 8, 5, '2005-02-09 10:00:00') /* Mid North Shore Generator */;

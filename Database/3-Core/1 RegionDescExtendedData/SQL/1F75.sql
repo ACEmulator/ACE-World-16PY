@@ -9,4 +9,5 @@ VALUES (8053, 1967, 0, 3, '2005-02-09 10:00:00') /* High Direlands Forest Genera
      , (8053, 1967, 4, 4, '2005-02-09 10:00:00') /* High Direlands Forest Generator */
      , (8053, 1967, 4, 5, '2005-02-09 10:00:00') /* High Direlands Forest Generator */
      , (8053, 1975, 6, 2, '2005-02-09 10:00:00') /* High Direlands South Mountains Generator */
-     , (8053, 1975, 7, 1, '2005-02-09 10:00:00') /* High Direlands South Mountains Generator */;
+     , (8053, 1975, 7, 1, '2005-02-09 10:00:00') /* High Direlands South Mountains Generator */
+     , (8053, 1975, 8, 6, '2005-02-09 10:00:00') /* High Direlands South Mountains Generator */;

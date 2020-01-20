@@ -6,5 +6,7 @@ VALUES (16031, 23159, 2, 1, '2005-02-09 10:00:00') /* Mid North Plains Generator
      , (16031, 23159, 3, 1, '2005-02-09 10:00:00') /* Mid North Plains Generator */
      , (16031, 23159, 3, 5, '2005-02-09 10:00:00') /* Mid North Plains Generator */
      , (16031, 23159, 5, 6, '2005-02-09 10:00:00') /* Mid North Plains Generator */
+     , (16031, 23159, 5, 8, '2005-02-09 10:00:00') /* Mid North Plains Generator */
      , (16031, 23161, 6, 5, '2005-02-09 10:00:00') /* Mid North Plains Tumerok Generator */
-     , (16031, 23161, 7, 6, '2005-02-09 10:00:00') /* Mid North Plains Tumerok Generator */;
+     , (16031, 23161, 7, 6, '2005-02-09 10:00:00') /* Mid North Plains Tumerok Generator */
+     , (16031, 23161, 8, 8, '2005-02-09 10:00:00') /* Mid North Plains Tumerok Generator */;

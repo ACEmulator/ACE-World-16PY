@@ -8,4 +8,6 @@ VALUES (18081, 23155, 2, 6, '2005-02-09 10:00:00') /* Mid North Mountains Mix Ge
      , (18081, 23155, 4, 7, '2005-02-09 10:00:00') /* Mid North Mountains Mix Generator */
      , (18081, 23155, 6, 3, '2005-02-09 10:00:00') /* Mid North Mountains Mix Generator */
      , (18081, 23155, 7, 0, '2005-02-09 10:00:00') /* Mid North Mountains Mix Generator */
-     , (18081, 23155, 7, 3, '2005-02-09 10:00:00') /* Mid North Mountains Mix Generator */;
+     , (18081, 23155, 7, 3, '2005-02-09 10:00:00') /* Mid North Mountains Mix Generator */
+     , (18081, 23155, 8, 2, '2005-02-09 10:00:00') /* Mid North Mountains Mix Generator */
+     , (18081, 23155, 8, 4, '2005-02-09 10:00:00') /* Mid North Mountains Mix Generator */;

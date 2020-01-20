@@ -5,5 +5,6 @@ VALUES (25267, 23151, 0, 0, '2005-02-09 10:00:00') /* Mid North Forest Mix Gener
      , (25267, 23151, 0, 3, '2005-02-09 10:00:00') /* Mid North Forest Mix Generator */
      , (25267, 23151, 2, 0, '2005-02-09 10:00:00') /* Mid North Forest Mix Generator */
      , (25267, 23151, 4, 1, '2005-02-09 10:00:00') /* Mid North Forest Mix Generator */
+     , (25267, 23151, 6, 8, '2005-02-09 10:00:00') /* Mid North Forest Mix Generator */
      , (25267, 23151, 7, 0, '2005-02-09 10:00:00') /* Mid North Forest Mix Generator */
      , (25267, 23151, 7, 6, '2005-02-09 10:00:00') /* Mid North Forest Mix Generator */;

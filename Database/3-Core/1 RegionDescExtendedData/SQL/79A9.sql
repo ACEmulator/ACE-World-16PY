@@ -7,4 +7,5 @@ VALUES (31145, 23151, 0, 4, '2005-02-09 10:00:00') /* Mid North Forest Mix Gener
      , (31145, 23151, 2, 3, '2005-02-09 10:00:00') /* Mid North Forest Mix Generator */
      , (31145, 23151, 2, 4, '2005-02-09 10:00:00') /* Mid North Forest Mix Generator */
      , (31145, 23151, 5, 0, '2005-02-09 10:00:00') /* Mid North Forest Mix Generator */
+     , (31145, 23153, 5, 8, '2005-02-09 10:00:00') /* Mid North Mountains Banderling Generator */
      , (31145, 23151, 6, 4, '2005-02-09 10:00:00') /* Mid North Forest Mix Generator */;

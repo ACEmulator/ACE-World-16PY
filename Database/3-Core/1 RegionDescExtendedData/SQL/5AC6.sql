@@ -8,4 +8,5 @@ VALUES (23238, 1979, 0, 1, '2005-02-09 10:00:00') /* High North Forest Generator
      , (23238, 1970, 4, 7, '2005-02-09 10:00:00') /* High Direlands Mountain Generator */
      , (23238, 1979, 5, 2, '2005-02-09 10:00:00') /* High North Forest Generator */
      , (23238, 1979, 5, 3, '2005-02-09 10:00:00') /* High North Forest Generator */
-     , (23238, 1979, 5, 4, '2005-02-09 10:00:00') /* High North Forest Generator */;
+     , (23238, 1979, 5, 4, '2005-02-09 10:00:00') /* High North Forest Generator */
+     , (23238, 1970, 8, 8, '2005-02-09 10:00:00') /* High Direlands Mountain Generator */;

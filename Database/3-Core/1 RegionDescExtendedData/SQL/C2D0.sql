@@ -6,4 +6,5 @@ VALUES (49872, 21186, 1, 2, '2005-02-09 10:00:00') /* Low North Golem Mix Genera
      , (49872, 21186, 4, 2, '2005-02-09 10:00:00') /* Low North Golem Mix Generator */
      , (49872, 21186, 5, 3, '2005-02-09 10:00:00') /* Low North Golem Mix Generator */
      , (49872, 21186, 5, 4, '2005-02-09 10:00:00') /* Low North Golem Mix Generator */
-     , (49872, 21185, 6, 7, '2005-02-09 10:00:00') /* Low North Mountain Mix Generator */;
+     , (49872, 21185, 6, 7, '2005-02-09 10:00:00') /* Low North Mountain Mix Generator */
+     , (49872, 21186, 8, 8, '2005-02-09 10:00:00') /* Low North Golem Mix Generator */;

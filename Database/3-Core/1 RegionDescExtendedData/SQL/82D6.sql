@@ -5,4 +5,5 @@ VALUES (33494, 2004, 1, 6, '2005-02-09 10:00:00') /* High North Mountains Mattek
      , (33494, 2004, 2, 2, '2005-02-09 10:00:00') /* High North Mountains Mattekar Generator */
      , (33494, 2004, 2, 4, '2005-02-09 10:00:00') /* High North Mountains Mattekar Generator */
      , (33494, 1970, 6, 0, '2005-02-09 10:00:00') /* High Direlands Mountain Generator */
-     , (33494, 1970, 7, 0, '2005-02-09 10:00:00') /* High Direlands Mountain Generator */;
+     , (33494, 1970, 7, 0, '2005-02-09 10:00:00') /* High Direlands Mountain Generator */
+     , (33494, 1970, 8, 7, '2005-02-09 10:00:00') /* High Direlands Mountain Generator */;

@@ -7,5 +7,6 @@ VALUES (4197, 1958, 0, 5, '2005-02-09 10:00:00') /* Extreme Direlands Forest Ban
      , (4197, 1958, 1, 7, '2005-02-09 10:00:00') /* Extreme Direlands Forest Banderling Generator */
      , (4197, 1958, 2, 5, '2005-02-09 10:00:00') /* Extreme Direlands Forest Banderling Generator */
      , (4197, 1958, 4, 2, '2005-02-09 10:00:00') /* Extreme Direlands Forest Banderling Generator */
+     , (4197, 1958, 4, 8, '2005-02-09 10:00:00') /* Extreme Direlands Forest Banderling Generator */
      , (4197, 1958, 5, 2, '2005-02-09 10:00:00') /* Extreme Direlands Forest Banderling Generator */
      , (4197, 1958, 5, 4, '2005-02-09 10:00:00') /* Extreme Direlands Forest Banderling Generator */;

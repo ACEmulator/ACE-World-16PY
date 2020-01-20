@@ -7,4 +7,5 @@ VALUES (37303, 23161, 0, 2, '2005-02-09 10:00:00') /* Mid North Plains Tumerok G
      , (37303, 23151, 4, 2, '2005-02-09 10:00:00') /* Mid North Forest Mix Generator */
      , (37303, 23151, 4, 4, '2005-02-09 10:00:00') /* Mid North Forest Mix Generator */
      , (37303, 23151, 4, 5, '2005-02-09 10:00:00') /* Mid North Forest Mix Generator */
-     , (37303, 23151, 4, 6, '2005-02-09 10:00:00') /* Mid North Forest Mix Generator */;
+     , (37303, 23151, 4, 6, '2005-02-09 10:00:00') /* Mid North Forest Mix Generator */
+     , (37303, 23151, 8, 6, '2005-02-09 10:00:00') /* Mid North Forest Mix Generator */;

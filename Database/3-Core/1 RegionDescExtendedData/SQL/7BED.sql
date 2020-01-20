@@ -5,6 +5,7 @@ VALUES (31725, 1970, 2, 0, '2005-02-09 10:00:00') /* High Direlands Mountain Gen
      , (31725, 1970, 3, 1, '2005-02-09 10:00:00') /* High Direlands Mountain Generator */
      , (31725, 2003, 3, 2, '2005-02-09 10:00:00') /* High North Mountains Golem Generator */
      , (31725, 2003, 3, 7, '2005-02-09 10:00:00') /* High North Mountains Golem Generator */
+     , (31725, 2003, 3, 8, '2005-02-09 10:00:00') /* High North Mountains Golem Generator */
      , (31725, 2003, 4, 4, '2005-02-09 10:00:00') /* High North Mountains Golem Generator */
      , (31725, 2003, 5, 0, '2005-02-09 10:00:00') /* High North Mountains Golem Generator */
      , (31725, 2003, 5, 7, '2005-02-09 10:00:00') /* High North Mountains Golem Generator */

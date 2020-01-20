@@ -5,4 +5,6 @@ VALUES (44442, 7931, 0, 2, '2005-02-09 10:00:00') /* Low Central Reedshark Plain
      , (44442, 7931, 0, 5, '2005-02-09 10:00:00') /* Low Central Reedshark Plains Mix Generator */
      , (44442, 7931, 0, 7, '2005-02-09 10:00:00') /* Low Central Reedshark Plains Mix Generator */
      , (44442, 7931, 1, 2, '2005-02-09 10:00:00') /* Low Central Reedshark Plains Mix Generator */
-     , (44442, 7931, 3, 0, '2005-02-09 10:00:00') /* Low Central Reedshark Plains Mix Generator */;
+     , (44442, 7931, 3, 0, '2005-02-09 10:00:00') /* Low Central Reedshark Plains Mix Generator */
+     , (44442, 7931, 6, 8, '2005-02-09 10:00:00') /* Low Central Reedshark Plains Mix Generator */
+     , (44442, 7931, 8, 2, '2005-02-09 10:00:00') /* Low Central Reedshark Plains Mix Generator */;

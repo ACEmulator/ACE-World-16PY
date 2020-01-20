@@ -5,6 +5,7 @@ VALUES (56121, 5149, 0, 7, '2005-02-09 10:00:00') /* Harmless Sho Generator */
      , (56121, 5149, 2, 1, '2005-02-09 10:00:00') /* Harmless Sho Generator */
      , (56121, 5149, 4, 0, '2005-02-09 10:00:00') /* Harmless Sho Generator */
      , (56121, 5149, 4, 6, '2005-02-09 10:00:00') /* Harmless Sho Generator */
+     , (56121, 5149, 4, 8, '2005-02-09 10:00:00') /* Harmless Sho Generator */
      , (56121, 5149, 5, 2, '2005-02-09 10:00:00') /* Harmless Sho Generator */
      , (56121, 5149, 5, 3, '2005-02-09 10:00:00') /* Harmless Sho Generator */
      , (56121, 5149, 6, 0, '2005-02-09 10:00:00') /* Harmless Sho Generator */

@@ -8,4 +8,5 @@ VALUES (48805, 23175, 0, 1, '2005-02-09 10:00:00') /* Alvian Newbie General Mix 
      , (48805, 23175, 3, 3, '2005-02-09 10:00:00') /* Alvian Newbie General Mix Generator */
      , (48805, 23175, 3, 7, '2005-02-09 10:00:00') /* Alvian Newbie General Mix Generator */
      , (48805, 23175, 5, 6, '2005-02-09 10:00:00') /* Alvian Newbie General Mix Generator */
-     , (48805, 23175, 7, 1, '2005-02-09 10:00:00') /* Alvian Newbie General Mix Generator */;
+     , (48805, 23175, 7, 1, '2005-02-09 10:00:00') /* Alvian Newbie General Mix Generator */
+     , (48805, 23175, 8, 3, '2005-02-09 10:00:00') /* Alvian Newbie General Mix Generator */;

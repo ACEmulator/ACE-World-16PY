@@ -9,4 +9,7 @@ VALUES (8830, 1970, 0, 7, '2005-02-09 10:00:00') /* High Direlands Mountain Gene
      , (8830, 1970, 5, 6, '2005-02-09 10:00:00') /* High Direlands Mountain Generator */
      , (8830, 1970, 6, 5, '2005-02-09 10:00:00') /* High Direlands Mountain Generator */
      , (8830, 1970, 6, 7, '2005-02-09 10:00:00') /* High Direlands Mountain Generator */
-     , (8830, 1970, 7, 5, '2005-02-09 10:00:00') /* High Direlands Mountain Generator */;
+     , (8830, 1970, 6, 8, '2005-02-09 10:00:00') /* High Direlands Mountain Generator */
+     , (8830, 1970, 7, 5, '2005-02-09 10:00:00') /* High Direlands Mountain Generator */
+     , (8830, 1970, 8, 0, '2005-02-09 10:00:00') /* High Direlands Mountain Generator */
+     , (8830, 1970, 8, 3, '2005-02-09 10:00:00') /* High Direlands Mountain Generator */;

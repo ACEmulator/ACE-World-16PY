@@ -9,4 +9,5 @@ VALUES (8038, 1966, 0, 6, '2005-02-09 10:00:00') /* High Direlands Desert Genera
      , (8038, 1966, 3, 4, '2005-02-09 10:00:00') /* High Direlands Desert Generator */
      , (8038, 1966, 7, 2, '2005-02-09 10:00:00') /* High Direlands Desert Generator */
      , (8038, 1966, 7, 6, '2005-02-09 10:00:00') /* High Direlands Desert Generator */
-     , (8038, 1966, 7, 7, '2005-02-09 10:00:00') /* High Direlands Desert Generator */;
+     , (8038, 1966, 7, 7, '2005-02-09 10:00:00') /* High Direlands Desert Generator */
+     , (8038, 1966, 8, 0, '2005-02-09 10:00:00') /* High Direlands Desert Generator */;

@@ -7,4 +7,5 @@ VALUES (14148, 1966, 0, 2, '2005-02-09 10:00:00') /* High Direlands Desert Gener
      , (14148, 1978, 3, 6, '2005-02-09 10:00:00') /* High Direlands Swamp Sclavus Generator */
      , (14148, 1978, 4, 2, '2005-02-09 10:00:00') /* High Direlands Swamp Sclavus Generator */
      , (14148, 1978, 4, 6, '2005-02-09 10:00:00') /* High Direlands Swamp Sclavus Generator */
-     , (14148, 1977, 6, 6, '2005-02-09 10:00:00') /* High Direlands Swamp Moarsman Generator */;
+     , (14148, 1977, 6, 6, '2005-02-09 10:00:00') /* High Direlands Swamp Moarsman Generator */
+     , (14148, 1978, 8, 7, '2005-02-09 10:00:00') /* High Direlands Swamp Sclavus Generator */;

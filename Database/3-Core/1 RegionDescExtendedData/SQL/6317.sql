@@ -5,4 +5,5 @@ VALUES (25367, 23171, 1, 3, '2005-02-09 10:00:00') /* Mid South Mountains Virind
      , (25367, 23173, 3, 3, '2005-02-09 10:00:00') /* Mid South Shore Generator */
      , (25367, 23173, 3, 4, '2005-02-09 10:00:00') /* Mid South Shore Generator */
      , (25367, 23173, 6, 4, '2005-02-09 10:00:00') /* Mid South Shore Generator */
-     , (25367, 23173, 6, 6, '2005-02-09 10:00:00') /* Mid South Shore Generator */;
+     , (25367, 23173, 6, 6, '2005-02-09 10:00:00') /* Mid South Shore Generator */
+     , (25367, 23171, 8, 3, '2005-02-09 10:00:00') /* Mid South Mountains Virindi Generator */;

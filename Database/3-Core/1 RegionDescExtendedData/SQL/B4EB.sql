@@ -7,4 +7,6 @@ VALUES (46315, 7213, 0, 4, '2005-02-09 10:00:00') /* Aerlinthe Thorns West Mix G
      , (46315, 7213, 3, 2, '2005-02-09 10:00:00') /* Aerlinthe Thorns West Mix Gen */
      , (46315, 7213, 3, 7, '2005-02-09 10:00:00') /* Aerlinthe Thorns West Mix Gen */
      , (46315, 7213, 4, 3, '2005-02-09 10:00:00') /* Aerlinthe Thorns West Mix Gen */
-     , (46315, 7213, 6, 0, '2005-02-09 10:00:00') /* Aerlinthe Thorns West Mix Gen */;
+     , (46315, 7213, 6, 0, '2005-02-09 10:00:00') /* Aerlinthe Thorns West Mix Gen */
+     , (46315, 7213, 8, 1, '2005-02-09 10:00:00') /* Aerlinthe Thorns West Mix Gen */
+     , (46315, 7216, 8, 8, '2005-02-09 10:00:00') /* Aerlinthe Ash West Mix Gen */;

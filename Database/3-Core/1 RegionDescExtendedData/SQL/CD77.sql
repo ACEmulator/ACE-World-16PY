@@ -6,4 +6,6 @@ VALUES (52599, 23186, 3, 4, '2005-02-09 10:00:00') /* Sho Newbie Shore Mix Gener
      , (52599, 23185, 3, 6, '2005-02-09 10:00:00') /* Sho Newbie Plains Mix Generator */
      , (52599, 23185, 5, 1, '2005-02-09 10:00:00') /* Sho Newbie Plains Mix Generator */
      , (52599, 23185, 5, 2, '2005-02-09 10:00:00') /* Sho Newbie Plains Mix Generator */
-     , (52599, 23185, 7, 4, '2005-02-09 10:00:00') /* Sho Newbie Plains Mix Generator */;
+     , (52599, 23185, 6, 8, '2005-02-09 10:00:00') /* Sho Newbie Plains Mix Generator */
+     , (52599, 23185, 7, 4, '2005-02-09 10:00:00') /* Sho Newbie Plains Mix Generator */
+     , (52599, 23185, 8, 1, '2005-02-09 10:00:00') /* Sho Newbie Plains Mix Generator */;

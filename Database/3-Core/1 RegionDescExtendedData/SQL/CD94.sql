@@ -5,4 +5,6 @@ VALUES (52628, 23146, 1, 3, '2005-02-09 10:00:00') /* Low North Plains Mix Gener
      , (52628, 23146, 1, 4, '2005-02-09 10:00:00') /* Low North Plains Mix Generator */
      , (52628, 23146, 2, 1, '2005-02-09 10:00:00') /* Low North Plains Mix Generator */
      , (52628, 23146, 3, 4, '2005-02-09 10:00:00') /* Low North Plains Mix Generator */
-     , (52628, 5150, 5, 0, '2005-02-09 10:00:00') /* Harmless Aluvian Generator */;
+     , (52628, 5150, 5, 0, '2005-02-09 10:00:00') /* Harmless Aluvian Generator */
+     , (52628, 5150, 8, 3, '2005-02-09 10:00:00') /* Harmless Aluvian Generator */
+     , (52628, 5150, 8, 6, '2005-02-09 10:00:00') /* Harmless Aluvian Generator */;

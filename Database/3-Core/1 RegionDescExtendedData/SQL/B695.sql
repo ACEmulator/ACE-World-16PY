@@ -7,4 +7,6 @@ VALUES (46741, 23174, 1, 0, '2005-02-09 10:00:00') /* Aluvian Newbie Forest Mix 
      , (46741, 23174, 2, 7, '2005-02-09 10:00:00') /* Aluvian Newbie Forest Mix Generator */
      , (46741, 23174, 3, 5, '2005-02-09 10:00:00') /* Aluvian Newbie Forest Mix Generator */
      , (46741, 23174, 5, 2, '2005-02-09 10:00:00') /* Aluvian Newbie Forest Mix Generator */
-     , (46741, 23174, 6, 5, '2005-02-09 10:00:00') /* Aluvian Newbie Forest Mix Generator */;
+     , (46741, 23174, 6, 5, '2005-02-09 10:00:00') /* Aluvian Newbie Forest Mix Generator */
+     , (46741, 23176, 7, 8, '2005-02-09 10:00:00') /* Aluvian Newbie Plains Mix Generator */
+     , (46741, 23174, 8, 2, '2005-02-09 10:00:00') /* Aluvian Newbie Forest Mix Generator */;

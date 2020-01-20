@@ -7,4 +7,5 @@ VALUES (5263, 1962, 0, 2, '2005-02-09 10:00:00') /* Extreme Direlands Plains Gen
      , (5263, 1962, 5, 4, '2005-02-09 10:00:00') /* Extreme Direlands Plains Generator */
      , (5263, 1962, 6, 4, '2005-02-09 10:00:00') /* Extreme Direlands Plains Generator */
      , (5263, 1962, 6, 7, '2005-02-09 10:00:00') /* Extreme Direlands Plains Generator */
-     , (5263, 1962, 7, 6, '2005-02-09 10:00:00') /* Extreme Direlands Plains Generator */;
+     , (5263, 1962, 7, 6, '2005-02-09 10:00:00') /* Extreme Direlands Plains Generator */
+     , (5263, 1962, 8, 4, '2005-02-09 10:00:00') /* Extreme Direlands Plains Generator */;

@@ -14,4 +14,6 @@ VALUES (63100, 22388, 0, 3, '2005-02-09 10:00:00') /* Tusker Island Mid Mix Gen 
      , (63100, 22388, 4, 7, '2005-02-09 10:00:00') /* Tusker Island Mid Mix Gen */
      , (63100, 22388, 5, 2, '2005-02-09 10:00:00') /* Tusker Island Mid Mix Gen */
      , (63100, 22388, 5, 4, '2005-02-09 10:00:00') /* Tusker Island Mid Mix Gen */
-     , (63100, 22387, 7, 7, '2005-02-09 10:00:00') /* Tusker Island Low Mix Gen */;
+     , (63100, 22388, 6, 8, '2005-02-09 10:00:00') /* Tusker Island Mid Mix Gen */
+     , (63100, 22387, 7, 7, '2005-02-09 10:00:00') /* Tusker Island Low Mix Gen */
+     , (63100, 22388, 8, 7, '2005-02-09 10:00:00') /* Tusker Island Mid Mix Gen */;

@@ -6,4 +6,5 @@ VALUES (29895, 2002, 1, 6, '2005-02-09 10:00:00') /* High North Mountains Drudge
      , (29895, 2002, 4, 0, '2005-02-09 10:00:00') /* High North Mountains Drudge Generator */
      , (29895, 2002, 4, 3, '2005-02-09 10:00:00') /* High North Mountains Drudge Generator */
      , (29895, 2002, 5, 0, '2005-02-09 10:00:00') /* High North Mountains Drudge Generator */
-     , (29895, 2002, 5, 1, '2005-02-09 10:00:00') /* High North Mountains Drudge Generator */;
+     , (29895, 2002, 5, 1, '2005-02-09 10:00:00') /* High North Mountains Drudge Generator */
+     , (29895, 2002, 5, 8, '2005-02-09 10:00:00') /* High North Mountains Drudge Generator */;

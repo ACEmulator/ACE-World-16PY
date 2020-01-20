@@ -8,4 +8,7 @@ VALUES (41657, 1999, 1, 5, '2005-02-09 10:00:00') /* Low B Aluvian Generator */
      , (41657, 1999, 6, 0, '2005-02-09 10:00:00') /* Low B Aluvian Generator */
      , (41657, 1999, 6, 1, '2005-02-09 10:00:00') /* Low B Aluvian Generator */
      , (41657, 1999, 6, 2, '2005-02-09 10:00:00') /* Low B Aluvian Generator */
-     , (41657, 1999, 6, 3, '2005-02-09 10:00:00') /* Low B Aluvian Generator */;
+     , (41657, 1999, 6, 3, '2005-02-09 10:00:00') /* Low B Aluvian Generator */
+     , (41657, 1997, 7, 8, '2005-02-09 10:00:00') /* Low A Gharundim Generator */
+     , (41657, 1999, 8, 0, '2005-02-09 10:00:00') /* Low B Aluvian Generator */
+     , (41657, 1999, 8, 1, '2005-02-09 10:00:00') /* Low B Aluvian Generator */;

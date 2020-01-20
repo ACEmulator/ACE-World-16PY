@@ -7,4 +7,5 @@ VALUES (43313, 23172, 0, 2, '2005-02-09 10:00:00') /* Mid South Plains Generator
      , (43313, 23172, 2, 7, '2005-02-09 10:00:00') /* Mid South Plains Generator */
      , (43313, 23172, 4, 0, '2005-02-09 10:00:00') /* Mid South Plains Generator */
      , (43313, 23172, 5, 4, '2005-02-09 10:00:00') /* Mid South Plains Generator */
-     , (43313, 23172, 5, 5, '2005-02-09 10:00:00') /* Mid South Plains Generator */;
+     , (43313, 23172, 5, 5, '2005-02-09 10:00:00') /* Mid South Plains Generator */
+     , (43313, 23172, 8, 4, '2005-02-09 10:00:00') /* Mid South Plains Generator */;

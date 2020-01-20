@@ -8,4 +8,7 @@ VALUES (23014, 4583, 0, 4, '2005-02-09 10:00:00') /* High North Plains Generator
      , (23014, 4583, 4, 4, '2005-02-09 10:00:00') /* High North Plains Generator */
      , (23014, 4583, 5, 1, '2005-02-09 10:00:00') /* High North Plains Generator */
      , (23014, 4583, 5, 2, '2005-02-09 10:00:00') /* High North Plains Generator */
-     , (23014, 4583, 6, 6, '2005-02-09 10:00:00') /* High North Plains Generator */;
+     , (23014, 4583, 5, 8, '2005-02-09 10:00:00') /* High North Plains Generator */
+     , (23014, 4583, 6, 6, '2005-02-09 10:00:00') /* High North Plains Generator */
+     , (23014, 4583, 8, 5, '2005-02-09 10:00:00') /* High North Plains Generator */
+     , (23014, 4583, 8, 7, '2005-02-09 10:00:00') /* High North Plains Generator */;

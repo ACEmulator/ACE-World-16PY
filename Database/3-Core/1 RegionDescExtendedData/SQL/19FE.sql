@@ -8,4 +8,6 @@ VALUES (6654, 23192, 0, 3, '2005-02-09 10:00:00') /* Olthoi High Shore Generator
      , (6654, 23192, 3, 3, '2005-02-09 10:00:00') /* Olthoi High Shore Generator */
      , (6654, 23192, 3, 6, '2005-02-09 10:00:00') /* Olthoi High Shore Generator */
      , (6654, 23192, 4, 5, '2005-02-09 10:00:00') /* Olthoi High Shore Generator */
-     , (6654, 23192, 5, 3, '2005-02-09 10:00:00') /* Olthoi High Shore Generator */;
+     , (6654, 23192, 5, 3, '2005-02-09 10:00:00') /* Olthoi High Shore Generator */
+     , (6654, 23192, 6, 8, '2005-02-09 10:00:00') /* Olthoi High Shore Generator */
+     , (6654, 23192, 8, 2, '2005-02-09 10:00:00') /* Olthoi High Shore Generator */;

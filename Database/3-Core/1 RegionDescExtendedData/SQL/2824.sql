@@ -5,6 +5,7 @@ VALUES (10276, 1982, 0, 4, '2005-02-09 10:00:00') /* Obsidian Outer Mix Generato
      , (10276, 1982, 0, 5, '2005-02-09 10:00:00') /* Obsidian Outer Mix Generator */
      , (10276, 1982, 2, 0, '2005-02-09 10:00:00') /* Obsidian Outer Mix Generator */
      , (10276, 1982, 3, 0, '2005-02-09 10:00:00') /* Obsidian Outer Mix Generator */
+     , (10276, 1982, 4, 8, '2005-02-09 10:00:00') /* Obsidian Outer Mix Generator */
      , (10276, 1982, 6, 4, '2005-02-09 10:00:00') /* Obsidian Outer Mix Generator */
      , (10276, 1982, 6, 5, '2005-02-09 10:00:00') /* Obsidian Outer Mix Generator */
      , (10276, 1982, 6, 6, '2005-02-09 10:00:00') /* Obsidian Outer Mix Generator */;

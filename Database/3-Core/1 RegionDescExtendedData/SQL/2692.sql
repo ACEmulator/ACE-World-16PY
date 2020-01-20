@@ -5,4 +5,5 @@ VALUES (9874, 1967, 0, 3, '2005-02-09 10:00:00') /* High Direlands Forest Genera
      , (9874, 1971, 3, 0, '2005-02-09 10:00:00') /* High Direlands Mountain Golem Generator */
      , (9874, 1971, 4, 5, '2005-02-09 10:00:00') /* High Direlands Mountain Golem Generator */
      , (9874, 1971, 5, 2, '2005-02-09 10:00:00') /* High Direlands Mountain Golem Generator */
-     , (9874, 1971, 6, 2, '2005-02-09 10:00:00') /* High Direlands Mountain Golem Generator */;
+     , (9874, 1971, 6, 2, '2005-02-09 10:00:00') /* High Direlands Mountain Golem Generator */
+     , (9874, 1971, 8, 8, '2005-02-09 10:00:00') /* High Direlands Mountain Golem Generator */;

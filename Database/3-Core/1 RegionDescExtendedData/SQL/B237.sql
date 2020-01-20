@@ -6,4 +6,5 @@ VALUES (45623, 7890, 0, 2, '2005-02-09 10:00:00') /* Low Central Mountain Mix Ge
      , (45623, 7929, 3, 0, '2005-02-09 10:00:00') /* Low Central Ursuin Mountain Mix Generator */
      , (45623, 7929, 3, 3, '2005-02-09 10:00:00') /* Low Central Ursuin Mountain Mix Generator */
      , (45623, 7929, 4, 1, '2005-02-09 10:00:00') /* Low Central Ursuin Mountain Mix Generator */
-     , (45623, 7929, 6, 0, '2005-02-09 10:00:00') /* Low Central Ursuin Mountain Mix Generator */;
+     , (45623, 7929, 6, 0, '2005-02-09 10:00:00') /* Low Central Ursuin Mountain Mix Generator */
+     , (45623, 7929, 6, 8, '2005-02-09 10:00:00') /* Low Central Ursuin Mountain Mix Generator */;

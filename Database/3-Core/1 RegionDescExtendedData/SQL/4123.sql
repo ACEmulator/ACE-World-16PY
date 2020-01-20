@@ -5,4 +5,5 @@ VALUES (16675, 1966, 1, 5, '2005-02-09 10:00:00') /* High Direlands Desert Gener
      , (16675, 1972, 4, 1, '2005-02-09 10:00:00') /* High Direlands Mountain Shadow Generator */
      , (16675, 1972, 4, 3, '2005-02-09 10:00:00') /* High Direlands Mountain Shadow Generator */
      , (16675, 1972, 5, 0, '2005-02-09 10:00:00') /* High Direlands Mountain Shadow Generator */
+     , (16675, 1972, 6, 8, '2005-02-09 10:00:00') /* High Direlands Mountain Shadow Generator */
      , (16675, 1972, 7, 1, '2005-02-09 10:00:00') /* High Direlands Mountain Shadow Generator */;

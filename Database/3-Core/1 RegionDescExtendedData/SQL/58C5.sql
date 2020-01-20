@@ -5,4 +5,5 @@ VALUES (22725, 1970, 0, 5, '2005-02-09 10:00:00') /* High Direlands Mountain Gen
      , (22725, 1970, 2, 5, '2005-02-09 10:00:00') /* High Direlands Mountain Generator */
      , (22725, 1970, 2, 6, '2005-02-09 10:00:00') /* High Direlands Mountain Generator */
      , (22725, 1979, 3, 3, '2005-02-09 10:00:00') /* High North Forest Generator */
-     , (22725, 1979, 6, 6, '2005-02-09 10:00:00') /* High North Forest Generator */;
+     , (22725, 1979, 6, 6, '2005-02-09 10:00:00') /* High North Forest Generator */
+     , (22725, 1979, 8, 0, '2005-02-09 10:00:00') /* High North Forest Generator */;

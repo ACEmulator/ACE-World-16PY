@@ -6,5 +6,9 @@ VALUES (41684, 23158, 0, 7, '2005-02-09 10:00:00') /* Mid North Mountains Tusker
      , (41684, 23158, 2, 1, '2005-02-09 10:00:00') /* Mid North Mountains Tusker Generator */
      , (41684, 23158, 2, 2, '2005-02-09 10:00:00') /* Mid North Mountains Tusker Generator */
      , (41684, 23157, 3, 4, '2005-02-09 10:00:00') /* Mid North Mountain Mattekar Generator */
+     , (41684, 23158, 3, 8, '2005-02-09 10:00:00') /* Mid North Mountains Tusker Generator */
+     , (41684, 23155, 4, 8, '2005-02-09 10:00:00') /* Mid North Mountains Mix Generator */
      , (41684, 23158, 5, 2, '2005-02-09 10:00:00') /* Mid North Mountains Tusker Generator */
-     , (41684, 23158, 5, 4, '2005-02-09 10:00:00') /* Mid North Mountains Tusker Generator */;
+     , (41684, 23158, 5, 4, '2005-02-09 10:00:00') /* Mid North Mountains Tusker Generator */
+     , (41684, 23158, 8, 3, '2005-02-09 10:00:00') /* Mid North Mountains Tusker Generator */
+     , (41684, 23158, 8, 5, '2005-02-09 10:00:00') /* Mid North Mountains Tusker Generator */;

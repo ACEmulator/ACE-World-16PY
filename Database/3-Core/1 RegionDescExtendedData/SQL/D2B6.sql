@@ -8,4 +8,5 @@ VALUES (53942, 21187, 0, 1, '2005-02-09 10:00:00') /* Low North Golem Mix Genera
      , (53942, 21187, 5, 0, '2005-02-09 10:00:00') /* Low North Golem Mix Generator */
      , (53942, 21185, 6, 6, '2005-02-09 10:00:00') /* Low North Mountain Mix Generator */
      , (53942, 21185, 7, 5, '2005-02-09 10:00:00') /* Low North Mountain Mix Generator */
-     , (53942, 21185, 7, 7, '2005-02-09 10:00:00') /* Low North Mountain Mix Generator */;
+     , (53942, 21185, 7, 7, '2005-02-09 10:00:00') /* Low North Mountain Mix Generator */
+     , (53942, 21185, 8, 4, '2005-02-09 10:00:00') /* Low North Mountain Mix Generator */;

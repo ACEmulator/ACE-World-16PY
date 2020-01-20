@@ -5,6 +5,7 @@ VALUES (14154, 1976, 0, 3, '2005-02-09 10:00:00') /* High Direlands Swamp Genera
      , (14154, 1966, 1, 5, '2005-02-09 10:00:00') /* High Direlands Desert Generator */
      , (14154, 1976, 2, 3, '2005-02-09 10:00:00') /* High Direlands Swamp Generator */
      , (14154, 1976, 2, 4, '2005-02-09 10:00:00') /* High Direlands Swamp Generator */
+     , (14154, 1966, 3, 8, '2005-02-09 10:00:00') /* High Direlands Desert Generator */
      , (14154, 1976, 4, 0, '2005-02-09 10:00:00') /* High Direlands Swamp Generator */
      , (14154, 1976, 4, 1, '2005-02-09 10:00:00') /* High Direlands Swamp Generator */
      , (14154, 1976, 4, 4, '2005-02-09 10:00:00') /* High Direlands Swamp Generator */

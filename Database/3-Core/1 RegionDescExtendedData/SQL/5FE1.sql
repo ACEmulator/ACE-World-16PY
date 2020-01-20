@@ -10,4 +10,6 @@ VALUES (24545, 1979, 0, 4, '2005-02-09 10:00:00') /* High North Forest Generator
      , (24545, 1979, 6, 6, '2005-02-09 10:00:00') /* High North Forest Generator */
      , (24545, 1979, 6, 7, '2005-02-09 10:00:00') /* High North Forest Generator */
      , (24545, 1979, 7, 3, '2005-02-09 10:00:00') /* High North Forest Generator */
-     , (24545, 1979, 7, 6, '2005-02-09 10:00:00') /* High North Forest Generator */;
+     , (24545, 1979, 7, 6, '2005-02-09 10:00:00') /* High North Forest Generator */
+     , (24545, 1979, 8, 0, '2005-02-09 10:00:00') /* High North Forest Generator */
+     , (24545, 1979, 8, 1, '2005-02-09 10:00:00') /* High North Forest Generator */;

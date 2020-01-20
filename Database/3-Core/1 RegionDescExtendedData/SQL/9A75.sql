@@ -5,7 +5,9 @@ VALUES (39541, 23180, 0, 2, '2005-02-09 10:00:00') /* Gharun'dim Newbie Brushlan
      , (39541, 23180, 4, 1, '2005-02-09 10:00:00') /* Gharun'dim Newbie Brushland Mix Generator */
      , (39541, 23180, 4, 3, '2005-02-09 10:00:00') /* Gharun'dim Newbie Brushland Mix Generator */
      , (39541, 23180, 5, 2, '2005-02-09 10:00:00') /* Gharun'dim Newbie Brushland Mix Generator */
+     , (39541, 23180, 5, 8, '2005-02-09 10:00:00') /* Gharun'dim Newbie Brushland Mix Generator */
      , (39541, 23180, 6, 2, '2005-02-09 10:00:00') /* Gharun'dim Newbie Brushland Mix Generator */
      , (39541, 23180, 6, 3, '2005-02-09 10:00:00') /* Gharun'dim Newbie Brushland Mix Generator */
      , (39541, 23180, 7, 3, '2005-02-09 10:00:00') /* Gharun'dim Newbie Brushland Mix Generator */
-     , (39541, 23180, 7, 4, '2005-02-09 10:00:00') /* Gharun'dim Newbie Brushland Mix Generator */;
+     , (39541, 23180, 7, 4, '2005-02-09 10:00:00') /* Gharun'dim Newbie Brushland Mix Generator */
+     , (39541, 23180, 8, 3, '2005-02-09 10:00:00') /* Gharun'dim Newbie Brushland Mix Generator */;

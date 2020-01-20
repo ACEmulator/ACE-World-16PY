@@ -6,4 +6,5 @@ VALUES (11609, 1966, 1, 3, '2005-02-09 10:00:00') /* High Direlands Desert Gener
      , (11609, 1966, 2, 2, '2005-02-09 10:00:00') /* High Direlands Desert Generator */
      , (11609, 1966, 2, 6, '2005-02-09 10:00:00') /* High Direlands Desert Generator */
      , (11609, 1966, 4, 1, '2005-02-09 10:00:00') /* High Direlands Desert Generator */
-     , (11609, 1966, 4, 3, '2005-02-09 10:00:00') /* High Direlands Desert Generator */;
+     , (11609, 1966, 4, 3, '2005-02-09 10:00:00') /* High Direlands Desert Generator */
+     , (11609, 1966, 8, 3, '2005-02-09 10:00:00') /* High Direlands Desert Generator */;

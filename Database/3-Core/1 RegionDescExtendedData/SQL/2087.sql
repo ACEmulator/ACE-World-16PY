@@ -8,5 +8,7 @@ VALUES (8327, 1967, 0, 7, '2005-02-09 10:00:00') /* High Direlands Forest Genera
      , (8327, 1970, 4, 5, '2005-02-09 10:00:00') /* High Direlands Mountain Generator */
      , (8327, 1970, 5, 1, '2005-02-09 10:00:00') /* High Direlands Mountain Generator */
      , (8327, 1970, 5, 2, '2005-02-09 10:00:00') /* High Direlands Mountain Generator */
+     , (8327, 1970, 5, 8, '2005-02-09 10:00:00') /* High Direlands Mountain Generator */
+     , (8327, 1970, 6, 8, '2005-02-09 10:00:00') /* High Direlands Mountain Generator */
      , (8327, 1970, 7, 5, '2005-02-09 10:00:00') /* High Direlands Mountain Generator */
      , (8327, 1970, 7, 7, '2005-02-09 10:00:00') /* High Direlands Mountain Generator */;

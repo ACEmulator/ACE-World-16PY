@@ -6,4 +6,6 @@ VALUES (52284, 5149, 0, 7, '2005-02-09 10:00:00') /* Harmless Sho Generator */
      , (52284, 7890, 4, 4, '2005-02-09 10:00:00') /* Low Central Mountain Mix Generator */
      , (52284, 7890, 4, 7, '2005-02-09 10:00:00') /* Low Central Mountain Mix Generator */
      , (52284, 7890, 6, 2, '2005-02-09 10:00:00') /* Low Central Mountain Mix Generator */
-     , (52284, 7890, 7, 0, '2005-02-09 10:00:00') /* Low Central Mountain Mix Generator */;
+     , (52284, 7890, 7, 0, '2005-02-09 10:00:00') /* Low Central Mountain Mix Generator */
+     , (52284, 7890, 8, 0, '2005-02-09 10:00:00') /* Low Central Mountain Mix Generator */
+     , (52284, 7890, 8, 3, '2005-02-09 10:00:00') /* Low Central Mountain Mix Generator */;

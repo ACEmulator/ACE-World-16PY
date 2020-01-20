@@ -6,4 +6,6 @@ VALUES (38266, 23180, 1, 7, '2005-02-09 10:00:00') /* Gharun'dim Newbie Brushlan
      , (38266, 5151, 4, 6, '2005-02-09 10:00:00') /* Harmless Gharun Generator */
      , (38266, 5151, 6, 4, '2005-02-09 10:00:00') /* Harmless Gharun Generator */
      , (38266, 5151, 6, 5, '2005-02-09 10:00:00') /* Harmless Gharun Generator */
-     , (38266, 5151, 7, 7, '2005-02-09 10:00:00') /* Harmless Gharun Generator */;
+     , (38266, 5151, 7, 7, '2005-02-09 10:00:00') /* Harmless Gharun Generator */
+     , (38266, 5151, 8, 0, '2005-02-09 10:00:00') /* Harmless Gharun Generator */
+     , (38266, 5151, 8, 3, '2005-02-09 10:00:00') /* Harmless Gharun Generator */;

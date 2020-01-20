@@ -8,4 +8,5 @@ VALUES (39206, 23172, 0, 0, '2005-02-09 10:00:00') /* Mid South Plains Generator
      , (39206, 23172, 4, 2, '2005-02-09 10:00:00') /* Mid South Plains Generator */
      , (39206, 23172, 6, 1, '2005-02-09 10:00:00') /* Mid South Plains Generator */
      , (39206, 23172, 7, 2, '2005-02-09 10:00:00') /* Mid South Plains Generator */
-     , (39206, 23172, 7, 4, '2005-02-09 10:00:00') /* Mid South Plains Generator */;
+     , (39206, 23172, 7, 4, '2005-02-09 10:00:00') /* Mid South Plains Generator */
+     , (39206, 23172, 8, 4, '2005-02-09 10:00:00') /* Mid South Plains Generator */;

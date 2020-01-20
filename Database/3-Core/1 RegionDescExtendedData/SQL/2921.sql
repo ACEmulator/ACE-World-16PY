@@ -9,4 +9,5 @@ VALUES (10529, 1956, 0, 5, '2005-02-09 10:00:00') /* Extreme Direlands Desert Ge
      , (10529, 1956, 5, 0, '2005-02-09 10:00:00') /* Extreme Direlands Desert Generator */
      , (10529, 1956, 5, 3, '2005-02-09 10:00:00') /* Extreme Direlands Desert Generator */
      , (10529, 1956, 5, 5, '2005-02-09 10:00:00') /* Extreme Direlands Desert Generator */
-     , (10529, 1956, 6, 1, '2005-02-09 10:00:00') /* Extreme Direlands Desert Generator */;
+     , (10529, 1956, 6, 1, '2005-02-09 10:00:00') /* Extreme Direlands Desert Generator */
+     , (10529, 1965, 8, 2, '2005-02-09 10:00:00') /* Extreme Direlands Shore Generator */;

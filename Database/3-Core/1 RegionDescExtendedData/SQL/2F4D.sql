@@ -10,5 +10,7 @@ VALUES (12109, 23099, 0, 4, '2005-02-09 10:00:00') /* Death Valley Generator */
      , (12109, 23099, 4, 5, '2005-02-09 10:00:00') /* Death Valley Generator */
      , (12109, 23099, 5, 1, '2005-02-09 10:00:00') /* Death Valley Generator */
      , (12109, 23099, 5, 6, '2005-02-09 10:00:00') /* Death Valley Generator */
+     , (12109, 23099, 5, 8, '2005-02-09 10:00:00') /* Death Valley Generator */
      , (12109, 23099, 6, 5, '2005-02-09 10:00:00') /* Death Valley Generator */
-     , (12109, 23099, 6, 6, '2005-02-09 10:00:00') /* Death Valley Generator */;
+     , (12109, 23099, 6, 6, '2005-02-09 10:00:00') /* Death Valley Generator */
+     , (12109, 23099, 8, 3, '2005-02-09 10:00:00') /* Death Valley Generator */;

@@ -10,4 +10,5 @@ VALUES (51288, 4623, 0, 1, '2005-02-09 10:00:00') /* Low Central Forest Mix Gene
      , (51288, 21175, 4, 7, '2005-02-09 10:00:00') /* Low Central Mosswart Swamp Mix Generator */
      , (51288, 21175, 5, 6, '2005-02-09 10:00:00') /* Low Central Mosswart Swamp Mix Generator */
      , (51288, 4623, 6, 0, '2005-02-09 10:00:00') /* Low Central Forest Mix Generator */
-     , (51288, 4623, 6, 4, '2005-02-09 10:00:00') /* Low Central Forest Mix Generator */;
+     , (51288, 4623, 6, 4, '2005-02-09 10:00:00') /* Low Central Forest Mix Generator */
+     , (51288, 4623, 8, 3, '2005-02-09 10:00:00') /* Low Central Forest Mix Generator */;

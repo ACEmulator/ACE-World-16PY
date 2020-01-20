@@ -10,5 +10,6 @@ VALUES (16238, 1975, 0, 0, '2005-02-09 10:00:00') /* High Direlands South Mounta
      , (16238, 1968, 3, 6, '2005-02-09 10:00:00') /* High Direlands Shore Generator */
      , (16238, 1968, 3, 7, '2005-02-09 10:00:00') /* High Direlands Shore Generator */
      , (16238, 1968, 4, 2, '2005-02-09 10:00:00') /* High Direlands Shore Generator */
+     , (16238, 1968, 5, 8, '2005-02-09 10:00:00') /* High Direlands Shore Generator */
      , (16238, 1968, 6, 7, '2005-02-09 10:00:00') /* High Direlands Shore Generator */
      , (16238, 1968, 7, 6, '2005-02-09 10:00:00') /* High Direlands Shore Generator */;

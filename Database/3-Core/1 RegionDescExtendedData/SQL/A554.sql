@@ -8,4 +8,5 @@ VALUES (42324, 21181, 2, 2, '2005-02-09 10:00:00') /* Low Central Desert Skeleto
      , (42324, 21181, 4, 5, '2005-02-09 10:00:00') /* Low Central Desert Skeleton Mix Generator */
      , (42324, 21181, 4, 6, '2005-02-09 10:00:00') /* Low Central Desert Skeleton Mix Generator */
      , (42324, 21181, 6, 3, '2005-02-09 10:00:00') /* Low Central Desert Skeleton Mix Generator */
-     , (42324, 21181, 6, 6, '2005-02-09 10:00:00') /* Low Central Desert Skeleton Mix Generator */;
+     , (42324, 21181, 6, 6, '2005-02-09 10:00:00') /* Low Central Desert Skeleton Mix Generator */
+     , (42324, 21177, 8, 1, '2005-02-09 10:00:00') /* Low Central Desert Mix Generator */;

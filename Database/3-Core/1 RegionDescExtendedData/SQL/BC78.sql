@@ -5,4 +5,6 @@ VALUES (48248, 23185, 0, 1, '2005-02-09 10:00:00') /* Sho Newbie Plains Mix Gene
      , (48248, 23185, 1, 4, '2005-02-09 10:00:00') /* Sho Newbie Plains Mix Generator */
      , (48248, 23185, 4, 3, '2005-02-09 10:00:00') /* Sho Newbie Plains Mix Generator */
      , (48248, 23185, 6, 7, '2005-02-09 10:00:00') /* Sho Newbie Plains Mix Generator */
-     , (48248, 23185, 7, 3, '2005-02-09 10:00:00') /* Sho Newbie Plains Mix Generator */;
+     , (48248, 23185, 7, 3, '2005-02-09 10:00:00') /* Sho Newbie Plains Mix Generator */
+     , (48248, 23184, 8, 3, '2005-02-09 10:00:00') /* Sho Newbie Hills Mix Generator */
+     , (48248, 23184, 8, 6, '2005-02-09 10:00:00') /* Sho Newbie Hills Mix Generator */;

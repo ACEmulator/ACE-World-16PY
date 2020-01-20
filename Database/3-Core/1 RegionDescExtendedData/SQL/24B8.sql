@@ -5,4 +5,5 @@ VALUES (9400, 11195, 1, 1, '2005-02-09 10:00:00') /* Northeast Marae Plateau Mas
      , (9400, 11195, 3, 7, '2005-02-09 10:00:00') /* Northeast Marae Plateau Master Gen */
      , (9400, 11195, 4, 1, '2005-02-09 10:00:00') /* Northeast Marae Plateau Master Gen */
      , (9400, 11195, 4, 2, '2005-02-09 10:00:00') /* Northeast Marae Plateau Master Gen */
-     , (9400, 11195, 7, 4, '2005-02-09 10:00:00') /* Northeast Marae Plateau Master Gen */;
+     , (9400, 11195, 7, 4, '2005-02-09 10:00:00') /* Northeast Marae Plateau Master Gen */
+     , (9400, 11195, 8, 4, '2005-02-09 10:00:00') /* Northeast Marae Plateau Master Gen */;

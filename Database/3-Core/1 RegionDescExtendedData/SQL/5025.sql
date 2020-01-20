@@ -5,4 +5,5 @@ VALUES (20517, 1968, 1, 1, '2005-02-09 10:00:00') /* High Direlands Shore Genera
      , (20517, 1968, 1, 3, '2005-02-09 10:00:00') /* High Direlands Shore Generator */
      , (20517, 1968, 1, 6, '2005-02-09 10:00:00') /* High Direlands Shore Generator */
      , (20517, 1972, 4, 4, '2005-02-09 10:00:00') /* High Direlands Mountain Shadow Generator */
-     , (20517, 1972, 6, 2, '2005-02-09 10:00:00') /* High Direlands Mountain Shadow Generator */;
+     , (20517, 1972, 6, 2, '2005-02-09 10:00:00') /* High Direlands Mountain Shadow Generator */
+     , (20517, 1972, 8, 4, '2005-02-09 10:00:00') /* High Direlands Mountain Shadow Generator */;

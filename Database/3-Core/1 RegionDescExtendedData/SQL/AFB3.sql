@@ -8,4 +8,7 @@ VALUES (44979, 5150, 0, 5, '2005-02-09 10:00:00') /* Harmless Aluvian Generator 
      , (44979, 1996, 5, 1, '2005-02-09 10:00:00') /* Low A Aluvian Generator */
      , (44979, 1996, 6, 0, '2005-02-09 10:00:00') /* Low A Aluvian Generator */
      , (44979, 1996, 6, 4, '2005-02-09 10:00:00') /* Low A Aluvian Generator */
-     , (44979, 1996, 6, 6, '2005-02-09 10:00:00') /* Low A Aluvian Generator */;
+     , (44979, 1996, 6, 6, '2005-02-09 10:00:00') /* Low A Aluvian Generator */
+     , (44979, 1996, 7, 8, '2005-02-09 10:00:00') /* Low A Aluvian Generator */
+     , (44979, 1996, 8, 1, '2005-02-09 10:00:00') /* Low A Aluvian Generator */
+     , (44979, 1996, 8, 3, '2005-02-09 10:00:00') /* Low A Aluvian Generator */;

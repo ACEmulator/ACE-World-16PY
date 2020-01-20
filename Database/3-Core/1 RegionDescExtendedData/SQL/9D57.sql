@@ -7,4 +7,5 @@ VALUES (40279, 21177, 0, 5, '2005-02-09 10:00:00') /* Low Central Desert Mix Gen
      , (40279, 21177, 3, 3, '2005-02-09 10:00:00') /* Low Central Desert Mix Generator */
      , (40279, 21177, 4, 2, '2005-02-09 10:00:00') /* Low Central Desert Mix Generator */
      , (40279, 21177, 6, 4, '2005-02-09 10:00:00') /* Low Central Desert Mix Generator */
-     , (40279, 21177, 7, 7, '2005-02-09 10:00:00') /* Low Central Desert Mix Generator */;
+     , (40279, 21177, 7, 7, '2005-02-09 10:00:00') /* Low Central Desert Mix Generator */
+     , (40279, 21177, 7, 8, '2005-02-09 10:00:00') /* Low Central Desert Mix Generator */;

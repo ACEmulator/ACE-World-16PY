@@ -5,4 +5,5 @@ VALUES (6256, 1967, 2, 6, '2005-02-09 10:00:00') /* High Direlands Forest Genera
      , (6256, 1967, 3, 7, '2005-02-09 10:00:00') /* High Direlands Forest Generator */
      , (6256, 1967, 6, 2, '2005-02-09 10:00:00') /* High Direlands Forest Generator */
      , (6256, 1967, 6, 3, '2005-02-09 10:00:00') /* High Direlands Forest Generator */
-     , (6256, 1967, 7, 2, '2005-02-09 10:00:00') /* High Direlands Forest Generator */;
+     , (6256, 1967, 7, 2, '2005-02-09 10:00:00') /* High Direlands Forest Generator */
+     , (6256, 1967, 8, 5, '2005-02-09 10:00:00') /* High Direlands Forest Generator */;

@@ -12,4 +12,7 @@ VALUES (32869, 2008, 0, 3, '2005-02-09 10:00:00') /* Newbie Gharundim Generator 
      , (32869, 2008, 4, 5, '2005-02-09 10:00:00') /* Newbie Gharundim Generator */
      , (32869, 2008, 5, 6, '2005-02-09 10:00:00') /* Newbie Gharundim Generator */
      , (32869, 2008, 5, 7, '2005-02-09 10:00:00') /* Newbie Gharundim Generator */
-     , (32869, 2008, 6, 4, '2005-02-09 10:00:00') /* Newbie Gharundim Generator */;
+     , (32869, 2008, 6, 4, '2005-02-09 10:00:00') /* Newbie Gharundim Generator */
+     , (32869, 5151, 8, 0, '2005-02-09 10:00:00') /* Harmless Gharun Generator */
+     , (32869, 5151, 8, 1, '2005-02-09 10:00:00') /* Harmless Gharun Generator */
+     , (32869, 2008, 8, 6, '2005-02-09 10:00:00') /* Newbie Gharundim Generator */;

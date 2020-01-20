@@ -4,4 +4,5 @@ INSERT INTO `encounter` (`landblock`, `weenie_Class_Id`, `cell_X`, `cell_Y`, `la
 VALUES (2682, 1960, 0, 5, '2005-02-09 10:00:00') /* Extreme Direlands Forest Generator */
      , (2682, 1960, 1, 3, '2005-02-09 10:00:00') /* Extreme Direlands Forest Generator */
      , (2682, 1961, 5, 4, '2005-02-09 10:00:00') /* Extreme Direlands Forest Golem Generator */
-     , (2682, 1960, 7, 7, '2005-02-09 10:00:00') /* Extreme Direlands Forest Generator */;
+     , (2682, 1960, 7, 7, '2005-02-09 10:00:00') /* Extreme Direlands Forest Generator */
+     , (2682, 1961, 8, 8, '2005-02-09 10:00:00') /* Extreme Direlands Forest Golem Generator */;

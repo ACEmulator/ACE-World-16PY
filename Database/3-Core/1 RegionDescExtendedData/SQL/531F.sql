@@ -6,4 +6,5 @@ VALUES (21279, 1975, 1, 5, '2005-02-09 10:00:00') /* High Direlands South Mounta
      , (21279, 1966, 4, 5, '2005-02-09 10:00:00') /* High Direlands Desert Generator */
      , (21279, 1966, 5, 2, '2005-02-09 10:00:00') /* High Direlands Desert Generator */
      , (21279, 1966, 6, 6, '2005-02-09 10:00:00') /* High Direlands Desert Generator */
-     , (21279, 1966, 7, 3, '2005-02-09 10:00:00') /* High Direlands Desert Generator */;
+     , (21279, 1966, 7, 3, '2005-02-09 10:00:00') /* High Direlands Desert Generator */
+     , (21279, 1966, 8, 8, '2005-02-09 10:00:00') /* High Direlands Desert Generator */;

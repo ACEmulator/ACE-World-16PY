@@ -6,4 +6,5 @@ VALUES (56695, 23149, 2, 5, '2005-02-09 10:00:00') /* Mid Central Tumerok Mix Ge
      , (56695, 23148, 5, 5, '2005-02-09 10:00:00') /* Mid Central Plains Mix Generator */
      , (56695, 23148, 6, 6, '2005-02-09 10:00:00') /* Mid Central Plains Mix Generator */
      , (56695, 23148, 6, 7, '2005-02-09 10:00:00') /* Mid Central Plains Mix Generator */
-     , (56695, 23148, 7, 4, '2005-02-09 10:00:00') /* Mid Central Plains Mix Generator */;
+     , (56695, 23148, 7, 4, '2005-02-09 10:00:00') /* Mid Central Plains Mix Generator */
+     , (56695, 23148, 8, 8, '2005-02-09 10:00:00') /* Mid Central Plains Mix Generator */;

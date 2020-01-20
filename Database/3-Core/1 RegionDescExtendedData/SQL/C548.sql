@@ -9,4 +9,5 @@ VALUES (50504, 7890, 0, 4, '2005-02-09 10:00:00') /* Low Central Mountain Mix Ge
      , (50504, 7890, 3, 3, '2005-02-09 10:00:00') /* Low Central Mountain Mix Generator */
      , (50504, 7890, 5, 2, '2005-02-09 10:00:00') /* Low Central Mountain Mix Generator */
      , (50504, 7928, 6, 7, '2005-02-09 10:00:00') /* Low Central Mattekar Mountain Mix Generator */
+     , (50504, 7928, 6, 8, '2005-02-09 10:00:00') /* Low Central Mattekar Mountain Mix Generator */
      , (50504, 7927, 7, 5, '2005-02-09 10:00:00') /* Low Central Lugian Mountain Mix Generator */;

@@ -10,4 +10,7 @@ VALUES (7506, 1960, 0, 7, '2005-02-09 10:00:00') /* Extreme Direlands Forest Gen
      , (7506, 1960, 5, 7, '2005-02-09 10:00:00') /* Extreme Direlands Forest Generator */
      , (7506, 1959, 6, 2, '2005-02-09 10:00:00') /* Extreme Direlands Forest Drudge Generator */
      , (7506, 1960, 6, 7, '2005-02-09 10:00:00') /* Extreme Direlands Forest Generator */
-     , (7506, 1960, 7, 5, '2005-02-09 10:00:00') /* Extreme Direlands Forest Generator */;
+     , (7506, 1960, 7, 5, '2005-02-09 10:00:00') /* Extreme Direlands Forest Generator */
+     , (7506, 1960, 7, 8, '2005-02-09 10:00:00') /* Extreme Direlands Forest Generator */
+     , (7506, 1960, 8, 6, '2005-02-09 10:00:00') /* Extreme Direlands Forest Generator */
+     , (7506, 1960, 8, 7, '2005-02-09 10:00:00') /* Extreme Direlands Forest Generator */;

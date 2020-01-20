@@ -9,4 +9,9 @@ VALUES (62073, 22537, 0, 2, '2005-02-09 10:00:00') /* Tusker Island Mid Beach Mi
      , (62073, 22388, 2, 6, '2005-02-09 10:00:00') /* Tusker Island Mid Mix Gen */
      , (62073, 22537, 3, 4, '2005-02-09 10:00:00') /* Tusker Island Mid Beach Mix Gen */
      , (62073, 22537, 5, 3, '2005-02-09 10:00:00') /* Tusker Island Mid Beach Mix Gen */
-     , (62073, 22537, 7, 5, '2005-02-09 10:00:00') /* Tusker Island Mid Beach Mix Gen */;
+     , (62073, 22388, 5, 8, '2005-02-09 10:00:00') /* Tusker Island Mid Mix Gen */
+     , (62073, 22388, 6, 8, '2005-02-09 10:00:00') /* Tusker Island Mid Mix Gen */
+     , (62073, 22537, 7, 5, '2005-02-09 10:00:00') /* Tusker Island Mid Beach Mix Gen */
+     , (62073, 22388, 7, 8, '2005-02-09 10:00:00') /* Tusker Island Mid Mix Gen */
+     , (62073, 22537, 8, 6, '2005-02-09 10:00:00') /* Tusker Island Mid Beach Mix Gen */
+     , (62073, 22537, 8, 7, '2005-02-09 10:00:00') /* Tusker Island Mid Beach Mix Gen */;

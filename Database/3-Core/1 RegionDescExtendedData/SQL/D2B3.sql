@@ -10,4 +10,5 @@ VALUES (53939, 21185, 0, 4, '2005-02-09 10:00:00') /* Low North Mountain Mix Gen
      , (53939, 21185, 5, 4, '2005-02-09 10:00:00') /* Low North Mountain Mix Generator */
      , (53939, 21185, 6, 1, '2005-02-09 10:00:00') /* Low North Mountain Mix Generator */
      , (53939, 21185, 7, 3, '2005-02-09 10:00:00') /* Low North Mountain Mix Generator */
-     , (53939, 21185, 7, 5, '2005-02-09 10:00:00') /* Low North Mountain Mix Generator */;
+     , (53939, 21185, 7, 5, '2005-02-09 10:00:00') /* Low North Mountain Mix Generator */
+     , (53939, 21185, 8, 7, '2005-02-09 10:00:00') /* Low North Mountain Mix Generator */;

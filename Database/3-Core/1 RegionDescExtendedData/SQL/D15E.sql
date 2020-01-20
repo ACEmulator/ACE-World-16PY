@@ -9,4 +9,6 @@ VALUES (53598, 2001, 0, 3, '2005-02-09 10:00:00') /* Low B Aluvian Generator */
      , (53598, 2001, 3, 5, '2005-02-09 10:00:00') /* Low B Aluvian Generator */
      , (53598, 2001, 3, 7, '2005-02-09 10:00:00') /* Low B Aluvian Generator */
      , (53598, 2001, 4, 2, '2005-02-09 10:00:00') /* Low B Aluvian Generator */
-     , (53598, 2001, 6, 0, '2005-02-09 10:00:00') /* Low B Aluvian Generator */;
+     , (53598, 2001, 6, 0, '2005-02-09 10:00:00') /* Low B Aluvian Generator */
+     , (53598, 2001, 6, 8, '2005-02-09 10:00:00') /* Low B Aluvian Generator */
+     , (53598, 2000, 8, 2, '2005-02-09 10:00:00') /* Low B Gharundim Generator */;

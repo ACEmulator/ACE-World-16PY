@@ -5,4 +5,7 @@ VALUES (33235, 2004, 2, 3, '2005-02-09 10:00:00') /* High North Mountains Mattek
      , (33235, 2004, 2, 4, '2005-02-09 10:00:00') /* High North Mountains Mattekar Generator */
      , (33235, 2004, 3, 7, '2005-02-09 10:00:00') /* High North Mountains Mattekar Generator */
      , (33235, 2004, 5, 1, '2005-02-09 10:00:00') /* High North Mountains Mattekar Generator */
-     , (33235, 2004, 7, 2, '2005-02-09 10:00:00') /* High North Mountains Mattekar Generator */;
+     , (33235, 2004, 5, 8, '2005-02-09 10:00:00') /* High North Mountains Mattekar Generator */
+     , (33235, 2004, 7, 2, '2005-02-09 10:00:00') /* High North Mountains Mattekar Generator */
+     , (33235, 2004, 8, 1, '2005-02-09 10:00:00') /* High North Mountains Mattekar Generator */
+     , (33235, 2004, 8, 6, '2005-02-09 10:00:00') /* High North Mountains Mattekar Generator */;

@@ -6,4 +6,5 @@ VALUES (45416, 23185, 1, 4, '2005-02-09 10:00:00') /* Sho Newbie Plains Mix Gene
      , (45416, 23185, 4, 3, '2005-02-09 10:00:00') /* Sho Newbie Plains Mix Generator */
      , (45416, 23185, 5, 0, '2005-02-09 10:00:00') /* Sho Newbie Plains Mix Generator */
      , (45416, 23185, 5, 4, '2005-02-09 10:00:00') /* Sho Newbie Plains Mix Generator */
-     , (45416, 23185, 6, 2, '2005-02-09 10:00:00') /* Sho Newbie Plains Mix Generator */;
+     , (45416, 23185, 6, 2, '2005-02-09 10:00:00') /* Sho Newbie Plains Mix Generator */
+     , (45416, 23189, 8, 8, '2005-02-09 10:00:00') /* Sho Newbie Swamp Sclavus Mix Generator */;

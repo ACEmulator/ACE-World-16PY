@@ -5,4 +5,6 @@ VALUES (33239, 1970, 1, 6, '2005-02-09 10:00:00') /* High Direlands Mountain Gen
      , (33239, 1970, 2, 3, '2005-02-09 10:00:00') /* High Direlands Mountain Generator */
      , (33239, 4171, 3, 6, '2005-02-09 10:00:00') /* High North Mountains Tusker Generator */
      , (33239, 4171, 7, 5, '2005-02-09 10:00:00') /* High North Mountains Tusker Generator */
-     , (33239, 4171, 7, 6, '2005-02-09 10:00:00') /* High North Mountains Tusker Generator */;
+     , (33239, 4171, 7, 6, '2005-02-09 10:00:00') /* High North Mountains Tusker Generator */
+     , (33239, 1970, 8, 1, '2005-02-09 10:00:00') /* High Direlands Mountain Generator */
+     , (33239, 4171, 8, 6, '2005-02-09 10:00:00') /* High North Mountains Tusker Generator */;

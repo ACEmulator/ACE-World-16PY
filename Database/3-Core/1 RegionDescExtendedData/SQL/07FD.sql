@@ -8,4 +8,6 @@ VALUES (2045, 23181, 1, 7, '2005-02-09 10:00:00') /* Gharun'dim Newbie Shore Mix
      , (2045, 5151, 5, 6, '2005-02-09 10:00:00') /* Harmless Gharun Generator */
      , (2045, 23181, 6, 6, '2005-02-09 10:00:00') /* Gharun'dim Newbie Shore Mix Generator */
      , (2045, 23181, 7, 1, '2005-02-09 10:00:00') /* Gharun'dim Newbie Shore Mix Generator */
-     , (2045, 23181, 7, 2, '2005-02-09 10:00:00') /* Gharun'dim Newbie Shore Mix Generator */;
+     , (2045, 23181, 7, 2, '2005-02-09 10:00:00') /* Gharun'dim Newbie Shore Mix Generator */
+     , (2045, 23181, 7, 8, '2005-02-09 10:00:00') /* Gharun'dim Newbie Shore Mix Generator */
+     , (2045, 23178, 8, 8, '2005-02-09 10:00:00') /* Gharun'dim Newbie Desert Mix Generator */;

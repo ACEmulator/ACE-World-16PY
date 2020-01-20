@@ -8,4 +8,5 @@ VALUES (40173, 23151, 0, 4, '2005-02-09 10:00:00') /* Mid North Forest Mix Gener
      , (40173, 23162, 4, 5, '2005-02-09 10:00:00') /* Mid North Shore Generator */
      , (40173, 23151, 5, 0, '2005-02-09 10:00:00') /* Mid North Forest Mix Generator */
      , (40173, 23151, 5, 3, '2005-02-09 10:00:00') /* Mid North Forest Mix Generator */
-     , (40173, 23162, 5, 4, '2005-02-09 10:00:00') /* Mid North Shore Generator */;
+     , (40173, 23162, 5, 4, '2005-02-09 10:00:00') /* Mid North Shore Generator */
+     , (40173, 23151, 8, 0, '2005-02-09 10:00:00') /* Mid North Forest Mix Generator */;

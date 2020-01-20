@@ -5,6 +5,7 @@ VALUES (59771, 22385, 0, 0, '2005-02-09 10:00:00') /* Tusker Island Extreme Mix 
      , (59771, 22385, 0, 3, '2005-02-09 10:00:00') /* Tusker Island Extreme Mix Gen */
      , (59771, 22385, 0, 6, '2005-02-09 10:00:00') /* Tusker Island Extreme Mix Gen */
      , (59771, 22385, 2, 5, '2005-02-09 10:00:00') /* Tusker Island Extreme Mix Gen */
+     , (59771, 22385, 2, 8, '2005-02-09 10:00:00') /* Tusker Island Extreme Mix Gen */
      , (59771, 22385, 3, 0, '2005-02-09 10:00:00') /* Tusker Island Extreme Mix Gen */
      , (59771, 22385, 3, 2, '2005-02-09 10:00:00') /* Tusker Island Extreme Mix Gen */
      , (59771, 22385, 3, 3, '2005-02-09 10:00:00') /* Tusker Island Extreme Mix Gen */
@@ -13,6 +14,7 @@ VALUES (59771, 22385, 0, 0, '2005-02-09 10:00:00') /* Tusker Island Extreme Mix 
      , (59771, 22385, 4, 2, '2005-02-09 10:00:00') /* Tusker Island Extreme Mix Gen */
      , (59771, 22385, 4, 3, '2005-02-09 10:00:00') /* Tusker Island Extreme Mix Gen */
      , (59771, 22385, 4, 5, '2005-02-09 10:00:00') /* Tusker Island Extreme Mix Gen */
+     , (59771, 22385, 4, 8, '2005-02-09 10:00:00') /* Tusker Island Extreme Mix Gen */
      , (59771, 22532, 5, 0, '2005-02-09 10:00:00') /* Tusker Island Extreme Mountain Mix Gen */
      , (59771, 22385, 6, 3, '2005-02-09 10:00:00') /* Tusker Island Extreme Mix Gen */
      , (59771, 22532, 7, 6, '2005-02-09 10:00:00') /* Tusker Island Extreme Mountain Mix Gen */;

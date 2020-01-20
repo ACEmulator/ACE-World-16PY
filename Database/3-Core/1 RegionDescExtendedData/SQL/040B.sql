@@ -5,4 +5,6 @@ VALUES (1035, 25892, 2, 1, '2005-02-09 10:00:00') /* Western Singularity Caul Ge
      , (1035, 25892, 2, 3, '2005-02-09 10:00:00') /* Western Singularity Caul Gen */
      , (1035, 25892, 2, 6, '2005-02-09 10:00:00') /* Western Singularity Caul Gen */
      , (1035, 25892, 5, 2, '2005-02-09 10:00:00') /* Western Singularity Caul Gen */
-     , (1035, 25892, 5, 6, '2005-02-09 10:00:00') /* Western Singularity Caul Gen */;
+     , (1035, 25892, 5, 6, '2005-02-09 10:00:00') /* Western Singularity Caul Gen */
+     , (1035, 25892, 5, 8, '2005-02-09 10:00:00') /* Western Singularity Caul Gen */
+     , (1035, 25892, 8, 6, '2005-02-09 10:00:00') /* Western Singularity Caul Gen */;

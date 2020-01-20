@@ -8,5 +8,7 @@ VALUES (3454, 1965, 0, 4, '2005-02-09 10:00:00') /* Extreme Direlands Shore Gene
      , (3454, 1962, 2, 7, '2005-02-09 10:00:00') /* Extreme Direlands Plains Generator */
      , (3454, 1962, 3, 5, '2005-02-09 10:00:00') /* Extreme Direlands Plains Generator */
      , (3454, 1962, 4, 4, '2005-02-09 10:00:00') /* Extreme Direlands Plains Generator */
+     , (3454, 1962, 4, 8, '2005-02-09 10:00:00') /* Extreme Direlands Plains Generator */
      , (3454, 1962, 5, 7, '2005-02-09 10:00:00') /* Extreme Direlands Plains Generator */
-     , (3454, 1962, 6, 0, '2005-02-09 10:00:00') /* Extreme Direlands Plains Generator */;
+     , (3454, 1962, 6, 0, '2005-02-09 10:00:00') /* Extreme Direlands Plains Generator */
+     , (3454, 1962, 8, 7, '2005-02-09 10:00:00') /* Extreme Direlands Plains Generator */;

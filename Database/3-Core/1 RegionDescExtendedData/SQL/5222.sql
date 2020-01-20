@@ -5,4 +5,5 @@ VALUES (21026, 1968, 0, 6, '2005-02-09 10:00:00') /* High Direlands Shore Genera
      , (21026, 1968, 4, 3, '2005-02-09 10:00:00') /* High Direlands Shore Generator */
      , (21026, 1966, 5, 6, '2005-02-09 10:00:00') /* High Direlands Desert Generator */
      , (21026, 1968, 6, 3, '2005-02-09 10:00:00') /* High Direlands Shore Generator */
-     , (21026, 1968, 6, 5, '2005-02-09 10:00:00') /* High Direlands Shore Generator */;
+     , (21026, 1968, 6, 5, '2005-02-09 10:00:00') /* High Direlands Shore Generator */
+     , (21026, 1968, 8, 6, '2005-02-09 10:00:00') /* High Direlands Shore Generator */;

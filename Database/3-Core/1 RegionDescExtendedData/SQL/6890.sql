@@ -6,4 +6,5 @@ VALUES (26768, 23152, 1, 6, '2005-02-09 10:00:00') /* Mid North Inland Shore Gen
      , (26768, 23152, 2, 6, '2005-02-09 10:00:00') /* Mid North Inland Shore Generator */
      , (26768, 23152, 4, 6, '2005-02-09 10:00:00') /* Mid North Inland Shore Generator */
      , (26768, 23152, 5, 5, '2005-02-09 10:00:00') /* Mid North Inland Shore Generator */
-     , (26768, 23152, 5, 6, '2005-02-09 10:00:00') /* Mid North Inland Shore Generator */;
+     , (26768, 23152, 5, 6, '2005-02-09 10:00:00') /* Mid North Inland Shore Generator */
+     , (26768, 23152, 8, 6, '2005-02-09 10:00:00') /* Mid North Inland Shore Generator */;

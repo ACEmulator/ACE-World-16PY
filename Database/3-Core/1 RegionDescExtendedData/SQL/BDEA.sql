@@ -9,4 +9,5 @@ VALUES (48618, 7212, 0, 6, '2005-02-09 10:00:00') /* Aerlinthe Thorns East Mix G
      , (48618, 7212, 4, 5, '2005-02-09 10:00:00') /* Aerlinthe Thorns East Mix Gen */
      , (48618, 7212, 5, 5, '2005-02-09 10:00:00') /* Aerlinthe Thorns East Mix Gen */
      , (48618, 7212, 6, 7, '2005-02-09 10:00:00') /* Aerlinthe Thorns East Mix Gen */
-     , (48618, 7212, 7, 6, '2005-02-09 10:00:00') /* Aerlinthe Thorns East Mix Gen */;
+     , (48618, 7212, 7, 6, '2005-02-09 10:00:00') /* Aerlinthe Thorns East Mix Gen */
+     , (48618, 7212, 8, 7, '2005-02-09 10:00:00') /* Aerlinthe Thorns East Mix Gen */;

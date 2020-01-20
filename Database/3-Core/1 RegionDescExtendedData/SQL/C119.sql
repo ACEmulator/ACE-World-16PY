@@ -8,4 +8,6 @@ VALUES (49433, 23166, 0, 2, '2005-02-09 10:00:00') /* Mid SOuth Mountains Genera
      , (49433, 23166, 0, 7, '2005-02-09 10:00:00') /* Mid SOuth Mountains Generator */
      , (49433, 23166, 2, 6, '2005-02-09 10:00:00') /* Mid SOuth Mountains Generator */
      , (49433, 23166, 2, 7, '2005-02-09 10:00:00') /* Mid SOuth Mountains Generator */
-     , (49433, 23166, 5, 6, '2005-02-09 10:00:00') /* Mid SOuth Mountains Generator */;
+     , (49433, 23166, 5, 6, '2005-02-09 10:00:00') /* Mid SOuth Mountains Generator */
+     , (49433, 23166, 6, 8, '2005-02-09 10:00:00') /* Mid SOuth Mountains Generator */
+     , (49433, 23166, 8, 2, '2005-02-09 10:00:00') /* Mid SOuth Mountains Generator */;

@@ -10,4 +10,5 @@ VALUES (61476, 7231, 2, 3, '2005-02-09 10:00:00') /* Jungle Beach 2 Mix Generato
      , (61476, 7231, 6, 0, '2005-02-09 10:00:00') /* Jungle Beach 2 Mix Generator */
      , (61476, 7225, 6, 4, '2005-02-09 10:00:00') /* Jungle D1 Mix Generator */
      , (61476, 7225, 6, 6, '2005-02-09 10:00:00') /* Jungle D1 Mix Generator */
-     , (61476, 7225, 6, 7, '2005-02-09 10:00:00') /* Jungle D1 Mix Generator */;
+     , (61476, 7225, 6, 7, '2005-02-09 10:00:00') /* Jungle D1 Mix Generator */
+     , (61476, 7231, 8, 7, '2005-02-09 10:00:00') /* Jungle Beach 2 Mix Generator */;

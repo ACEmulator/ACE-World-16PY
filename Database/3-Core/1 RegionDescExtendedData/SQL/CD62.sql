@@ -7,4 +7,6 @@ VALUES (52578, 21175, 0, 0, '2005-02-09 10:00:00') /* Low Central Mosswart Swamp
      , (52578, 21175, 1, 0, '2005-02-09 10:00:00') /* Low Central Mosswart Swamp Mix Generator */
      , (52578, 21175, 1, 2, '2005-02-09 10:00:00') /* Low Central Mosswart Swamp Mix Generator */
      , (52578, 21176, 3, 0, '2005-02-09 10:00:00') /* Low Central Sclavus Swamp Mix Generator */
-     , (52578, 21176, 4, 0, '2005-02-09 10:00:00') /* Low Central Sclavus Swamp Mix Generator */;
+     , (52578, 21176, 4, 0, '2005-02-09 10:00:00') /* Low Central Sclavus Swamp Mix Generator */
+     , (52578, 21174, 5, 8, '2005-02-09 10:00:00') /* Low Central Swamp Mix Generator */
+     , (52578, 21176, 8, 0, '2005-02-09 10:00:00') /* Low Central Sclavus Swamp Mix Generator */;

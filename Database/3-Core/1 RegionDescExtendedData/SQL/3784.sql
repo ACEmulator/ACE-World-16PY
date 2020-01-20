@@ -9,4 +9,6 @@ VALUES (14212, 1975, 0, 6, '2005-02-09 10:00:00') /* High Direlands South Mounta
      , (14212, 1970, 6, 1, '2005-02-09 10:00:00') /* High Direlands Mountain Generator */
      , (14212, 1970, 6, 4, '2005-02-09 10:00:00') /* High Direlands Mountain Generator */
      , (14212, 1970, 7, 2, '2005-02-09 10:00:00') /* High Direlands Mountain Generator */
-     , (14212, 1970, 7, 6, '2005-02-09 10:00:00') /* High Direlands Mountain Generator */;
+     , (14212, 1970, 7, 6, '2005-02-09 10:00:00') /* High Direlands Mountain Generator */
+     , (14212, 1970, 8, 2, '2005-02-09 10:00:00') /* High Direlands Mountain Generator */
+     , (14212, 1970, 8, 7, '2005-02-09 10:00:00') /* High Direlands Mountain Generator */;

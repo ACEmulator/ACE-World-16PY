@@ -12,4 +12,7 @@ VALUES (61223, 7225, 0, 7, '2005-02-09 10:00:00') /* Jungle D1 Mix Generator */
      , (61223, 7225, 5, 7, '2005-02-09 10:00:00') /* Jungle D1 Mix Generator */
      , (61223, 7225, 6, 3, '2005-02-09 10:00:00') /* Jungle D1 Mix Generator */
      , (61223, 7225, 6, 4, '2005-02-09 10:00:00') /* Jungle D1 Mix Generator */
-     , (61223, 7225, 7, 4, '2005-02-09 10:00:00') /* Jungle D1 Mix Generator */;
+     , (61223, 7225, 7, 4, '2005-02-09 10:00:00') /* Jungle D1 Mix Generator */
+     , (61223, 7225, 8, 1, '2005-02-09 10:00:00') /* Jungle D1 Mix Generator */
+     , (61223, 7225, 8, 4, '2005-02-09 10:00:00') /* Jungle D1 Mix Generator */
+     , (61223, 7224, 8, 6, '2005-02-09 10:00:00') /* Jungle C2 Mix Generator */;

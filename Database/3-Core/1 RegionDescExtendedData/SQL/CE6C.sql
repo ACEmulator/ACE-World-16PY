@@ -9,4 +9,5 @@ VALUES (52844, 7930, 0, 4, '2005-02-09 10:00:00') /* Low Central Plains Mix Gene
      , (52844, 7930, 4, 0, '2005-02-09 10:00:00') /* Low Central Plains Mix Generator */
      , (52844, 7930, 5, 5, '2005-02-09 10:00:00') /* Low Central Plains Mix Generator */
      , (52844, 7930, 5, 7, '2005-02-09 10:00:00') /* Low Central Plains Mix Generator */
-     , (52844, 7930, 7, 0, '2005-02-09 10:00:00') /* Low Central Plains Mix Generator */;
+     , (52844, 7930, 7, 0, '2005-02-09 10:00:00') /* Low Central Plains Mix Generator */
+     , (52844, 7930, 7, 8, '2005-02-09 10:00:00') /* Low Central Plains Mix Generator */;

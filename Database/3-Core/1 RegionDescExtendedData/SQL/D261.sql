@@ -6,4 +6,5 @@ VALUES (53857, 23187, 0, 3, '2005-02-09 10:00:00') /* Sho Newbie Swamp Mix Gener
      , (53857, 23185, 2, 6, '2005-02-09 10:00:00') /* Sho Newbie Plains Mix Generator */
      , (53857, 23185, 3, 6, '2005-02-09 10:00:00') /* Sho Newbie Plains Mix Generator */
      , (53857, 23187, 5, 2, '2005-02-09 10:00:00') /* Sho Newbie Swamp Mix Generator */
+     , (53857, 23185, 6, 8, '2005-02-09 10:00:00') /* Sho Newbie Plains Mix Generator */
      , (53857, 23185, 7, 6, '2005-02-09 10:00:00') /* Sho Newbie Plains Mix Generator */;

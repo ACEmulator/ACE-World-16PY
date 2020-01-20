@@ -9,4 +9,6 @@ VALUES (7359, 11197, 0, 4, '2005-02-09 10:00:00') /* Northwest Marae Plateau Mas
      , (7359, 11197, 5, 2, '2005-02-09 10:00:00') /* Northwest Marae Plateau Master Gen */
      , (7359, 11197, 5, 4, '2005-02-09 10:00:00') /* Northwest Marae Plateau Master Gen */
      , (7359, 11197, 5, 5, '2005-02-09 10:00:00') /* Northwest Marae Plateau Master Gen */
-     , (7359, 11197, 5, 7, '2005-02-09 10:00:00') /* Northwest Marae Plateau Master Gen */;
+     , (7359, 11197, 5, 7, '2005-02-09 10:00:00') /* Northwest Marae Plateau Master Gen */
+     , (7359, 11197, 8, 2, '2005-02-09 10:00:00') /* Northwest Marae Plateau Master Gen */
+     , (7359, 11197, 8, 6, '2005-02-09 10:00:00') /* Northwest Marae Plateau Master Gen */;

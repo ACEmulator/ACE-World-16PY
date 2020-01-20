@@ -8,4 +8,5 @@ VALUES (12335, 1981, 0, 1, '2005-02-09 10:00:00') /* Obsidian Center Mix Generat
      , (12335, 1981, 3, 7, '2005-02-09 10:00:00') /* Obsidian Center Mix Generator */
      , (12335, 1981, 5, 3, '2005-02-09 10:00:00') /* Obsidian Center Mix Generator */
      , (12335, 1981, 5, 7, '2005-02-09 10:00:00') /* Obsidian Center Mix Generator */
-     , (12335, 1981, 7, 0, '2005-02-09 10:00:00') /* Obsidian Center Mix Generator */;
+     , (12335, 1981, 7, 0, '2005-02-09 10:00:00') /* Obsidian Center Mix Generator */
+     , (12335, 1981, 8, 7, '2005-02-09 10:00:00') /* Obsidian Center Mix Generator */;

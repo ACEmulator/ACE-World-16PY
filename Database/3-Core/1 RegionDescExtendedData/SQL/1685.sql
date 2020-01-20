@@ -9,4 +9,5 @@ VALUES (5765, 1971, 0, 3, '2005-02-09 10:00:00') /* High Direlands Mountain Gole
      , (5765, 1971, 4, 5, '2005-02-09 10:00:00') /* High Direlands Mountain Golem Generator */
      , (5765, 1971, 5, 5, '2005-02-09 10:00:00') /* High Direlands Mountain Golem Generator */
      , (5765, 1967, 5, 7, '2005-02-09 10:00:00') /* High Direlands Forest Generator */
-     , (5765, 1967, 7, 7, '2005-02-09 10:00:00') /* High Direlands Forest Generator */;
+     , (5765, 1967, 7, 7, '2005-02-09 10:00:00') /* High Direlands Forest Generator */
+     , (5765, 1971, 8, 2, '2005-02-09 10:00:00') /* High Direlands Mountain Golem Generator */;

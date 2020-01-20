@@ -7,4 +7,6 @@ VALUES (44729, 1999, 1, 7, '2005-02-09 10:00:00') /* Low B Aluvian Generator */
      , (44729, 1999, 5, 6, '2005-02-09 10:00:00') /* Low B Aluvian Generator */
      , (44729, 1999, 6, 4, '2005-02-09 10:00:00') /* Low B Aluvian Generator */
      , (44729, 1999, 7, 0, '2005-02-09 10:00:00') /* Low B Aluvian Generator */
-     , (44729, 1999, 7, 6, '2005-02-09 10:00:00') /* Low B Aluvian Generator */;
+     , (44729, 1999, 7, 6, '2005-02-09 10:00:00') /* Low B Aluvian Generator */
+     , (44729, 1999, 8, 3, '2005-02-09 10:00:00') /* Low B Aluvian Generator */
+     , (44729, 1999, 8, 4, '2005-02-09 10:00:00') /* Low B Aluvian Generator */;

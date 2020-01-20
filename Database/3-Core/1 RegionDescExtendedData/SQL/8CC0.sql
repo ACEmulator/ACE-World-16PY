@@ -7,4 +7,6 @@ VALUES (36032, 23157, 1, 4, '2005-02-09 10:00:00') /* Mid North Mountain Matteka
      , (36032, 23157, 3, 3, '2005-02-09 10:00:00') /* Mid North Mountain Mattekar Generator */
      , (36032, 23157, 4, 1, '2005-02-09 10:00:00') /* Mid North Mountain Mattekar Generator */
      , (36032, 23155, 6, 6, '2005-02-09 10:00:00') /* Mid North Mountains Mix Generator */
-     , (36032, 23155, 6, 7, '2005-02-09 10:00:00') /* Mid North Mountains Mix Generator */;
+     , (36032, 23155, 6, 7, '2005-02-09 10:00:00') /* Mid North Mountains Mix Generator */
+     , (36032, 23157, 8, 4, '2005-02-09 10:00:00') /* Mid North Mountain Mattekar Generator */
+     , (36032, 23157, 8, 5, '2005-02-09 10:00:00') /* Mid North Mountain Mattekar Generator */;

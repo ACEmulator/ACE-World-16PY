@@ -13,4 +13,5 @@ VALUES (55748, 23191, 0, 2, '2005-02-09 10:00:00') /* Olthoi High North Mountain
      , (55748, 23190, 5, 0, '2005-02-09 10:00:00') /* Olthoi High North Mix Generator */
      , (55748, 23190, 5, 3, '2005-02-09 10:00:00') /* Olthoi High North Mix Generator */
      , (55748, 23190, 5, 7, '2005-02-09 10:00:00') /* Olthoi High North Mix Generator */
-     , (55748, 23190, 6, 1, '2005-02-09 10:00:00') /* Olthoi High North Mix Generator */;
+     , (55748, 23190, 6, 1, '2005-02-09 10:00:00') /* Olthoi High North Mix Generator */
+     , (55748, 23190, 8, 7, '2005-02-09 10:00:00') /* Olthoi High North Mix Generator */;

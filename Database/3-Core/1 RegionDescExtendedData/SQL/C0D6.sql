@@ -5,4 +5,5 @@ VALUES (49366, 23154, 2, 2, '2005-02-09 10:00:00') /* Mid North Mountains Drudge
      , (49366, 23156, 2, 6, '2005-02-09 10:00:00') /* Mid North Mountains Golem Generator */
      , (49366, 23154, 3, 3, '2005-02-09 10:00:00') /* Mid North Mountains Drudge Generator */
      , (49366, 23156, 3, 4, '2005-02-09 10:00:00') /* Mid North Mountains Golem Generator */
+     , (49366, 23156, 4, 8, '2005-02-09 10:00:00') /* Mid North Mountains Golem Generator */
      , (49366, 23156, 6, 7, '2005-02-09 10:00:00') /* Mid North Mountains Golem Generator */;

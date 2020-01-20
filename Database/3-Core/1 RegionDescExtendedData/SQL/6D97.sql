@@ -5,4 +5,7 @@ VALUES (28055, 23160, 0, 1, '2005-02-09 10:00:00') /* Mid North Plains Monouga G
      , (28055, 23160, 1, 6, '2005-02-09 10:00:00') /* Mid North Plains Monouga Generator */
      , (28055, 23160, 2, 6, '2005-02-09 10:00:00') /* Mid North Plains Monouga Generator */
      , (28055, 23160, 4, 6, '2005-02-09 10:00:00') /* Mid North Plains Monouga Generator */
-     , (28055, 23160, 6, 0, '2005-02-09 10:00:00') /* Mid North Plains Monouga Generator */;
+     , (28055, 23160, 6, 0, '2005-02-09 10:00:00') /* Mid North Plains Monouga Generator */
+     , (28055, 23160, 8, 1, '2005-02-09 10:00:00') /* Mid North Plains Monouga Generator */
+     , (28055, 23160, 8, 5, '2005-02-09 10:00:00') /* Mid North Plains Monouga Generator */
+     , (28055, 23160, 8, 6, '2005-02-09 10:00:00') /* Mid North Plains Monouga Generator */;

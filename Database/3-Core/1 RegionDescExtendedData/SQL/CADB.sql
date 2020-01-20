@@ -7,4 +7,5 @@ VALUES (51931, 23159, 0, 5, '2005-02-09 10:00:00') /* Mid North Plains Generator
      , (51931, 23159, 4, 4, '2005-02-09 10:00:00') /* Mid North Plains Generator */
      , (51931, 23159, 5, 0, '2005-02-09 10:00:00') /* Mid North Plains Generator */
      , (51931, 23162, 6, 7, '2005-02-09 10:00:00') /* Mid North Shore Generator */
+     , (51931, 23162, 6, 8, '2005-02-09 10:00:00') /* Mid North Shore Generator */
      , (51931, 23162, 7, 7, '2005-02-09 10:00:00') /* Mid North Shore Generator */;

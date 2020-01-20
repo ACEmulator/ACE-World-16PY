@@ -8,4 +8,5 @@ VALUES (6585, 11199, 1, 3, '2005-02-09 10:00:00') /* Southwest Marae Plateau Mas
      , (6585, 11199, 5, 5, '2005-02-09 10:00:00') /* Southwest Marae Plateau Master Gen */
      , (6585, 11199, 6, 0, '2005-02-09 10:00:00') /* Southwest Marae Plateau Master Gen */
      , (6585, 11199, 6, 5, '2005-02-09 10:00:00') /* Southwest Marae Plateau Master Gen */
-     , (6585, 11199, 6, 6, '2005-02-09 10:00:00') /* Southwest Marae Plateau Master Gen */;
+     , (6585, 11199, 6, 6, '2005-02-09 10:00:00') /* Southwest Marae Plateau Master Gen */
+     , (6585, 11199, 8, 0, '2005-02-09 10:00:00') /* Southwest Marae Plateau Master Gen */;

@@ -7,4 +7,5 @@ VALUES (18246, 1968, 0, 7, '2005-02-09 10:00:00') /* High Direlands Shore Genera
      , (18246, 1968, 4, 1, '2005-02-09 10:00:00') /* High Direlands Shore Generator */
      , (18246, 1968, 5, 5, '2005-02-09 10:00:00') /* High Direlands Shore Generator */
      , (18246, 1968, 5, 7, '2005-02-09 10:00:00') /* High Direlands Shore Generator */
-     , (18246, 1968, 6, 7, '2005-02-09 10:00:00') /* High Direlands Shore Generator */;
+     , (18246, 1968, 6, 7, '2005-02-09 10:00:00') /* High Direlands Shore Generator */
+     , (18246, 1968, 8, 7, '2005-02-09 10:00:00') /* High Direlands Shore Generator */;

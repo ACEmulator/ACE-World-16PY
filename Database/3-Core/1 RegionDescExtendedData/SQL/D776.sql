@@ -7,5 +7,7 @@ VALUES (55158, 23149, 0, 0, '2005-02-09 10:00:00') /* Mid Central Tumerok Mix Ge
      , (55158, 23149, 3, 0, '2005-02-09 10:00:00') /* Mid Central Tumerok Mix Generator */
      , (55158, 23149, 4, 0, '2005-02-09 10:00:00') /* Mid Central Tumerok Mix Generator */
      , (55158, 23149, 4, 5, '2005-02-09 10:00:00') /* Mid Central Tumerok Mix Generator */
+     , (55158, 23149, 6, 8, '2005-02-09 10:00:00') /* Mid Central Tumerok Mix Generator */
      , (55158, 23149, 7, 2, '2005-02-09 10:00:00') /* Mid Central Tumerok Mix Generator */
-     , (55158, 23149, 7, 3, '2005-02-09 10:00:00') /* Mid Central Tumerok Mix Generator */;
+     , (55158, 23149, 7, 3, '2005-02-09 10:00:00') /* Mid Central Tumerok Mix Generator */
+     , (55158, 23149, 8, 1, '2005-02-09 10:00:00') /* Mid Central Tumerok Mix Generator */;

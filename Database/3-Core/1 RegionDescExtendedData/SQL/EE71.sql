@@ -4,11 +4,13 @@ INSERT INTO `encounter` (`landblock`, `weenie_Class_Id`, `cell_X`, `cell_Y`, `la
 VALUES (61041, 22389, 0, 2, '2005-02-09 10:00:00') /* Tusker Island Uber Mix Gen */
      , (61041, 22389, 0, 3, '2005-02-09 10:00:00') /* Tusker Island Uber Mix Gen */
      , (61041, 22389, 0, 5, '2005-02-09 10:00:00') /* Tusker Island Uber Mix Gen */
+     , (61041, 22389, 0, 8, '2005-02-09 10:00:00') /* Tusker Island Uber Mix Gen */
      , (61041, 22389, 1, 0, '2005-02-09 10:00:00') /* Tusker Island Uber Mix Gen */
      , (61041, 22389, 1, 1, '2005-02-09 10:00:00') /* Tusker Island Uber Mix Gen */
      , (61041, 22389, 1, 2, '2005-02-09 10:00:00') /* Tusker Island Uber Mix Gen */
      , (61041, 22389, 1, 3, '2005-02-09 10:00:00') /* Tusker Island Uber Mix Gen */
      , (61041, 22539, 1, 7, '2005-02-09 10:00:00') /* Tusker Island Uber Beach Mix Gen */
+     , (61041, 22539, 1, 8, '2005-02-09 10:00:00') /* Tusker Island Uber Beach Mix Gen */
      , (61041, 22389, 2, 0, '2005-02-09 10:00:00') /* Tusker Island Uber Mix Gen */
      , (61041, 22539, 2, 4, '2005-02-09 10:00:00') /* Tusker Island Uber Beach Mix Gen */
      , (61041, 22539, 2, 5, '2005-02-09 10:00:00') /* Tusker Island Uber Beach Mix Gen */
@@ -28,4 +30,6 @@ VALUES (61041, 22389, 0, 2, '2005-02-09 10:00:00') /* Tusker Island Uber Mix Gen
      , (61041, 22389, 7, 0, '2005-02-09 10:00:00') /* Tusker Island Uber Mix Gen */
      , (61041, 22539, 7, 2, '2005-02-09 10:00:00') /* Tusker Island Uber Beach Mix Gen */
      , (61041, 22539, 7, 3, '2005-02-09 10:00:00') /* Tusker Island Uber Beach Mix Gen */
-     , (61041, 22539, 7, 5, '2005-02-09 10:00:00') /* Tusker Island Uber Beach Mix Gen */;
+     , (61041, 22539, 7, 5, '2005-02-09 10:00:00') /* Tusker Island Uber Beach Mix Gen */
+     , (61041, 22539, 8, 0, '2005-02-09 10:00:00') /* Tusker Island Uber Beach Mix Gen */
+     , (61041, 22539, 8, 2, '2005-02-09 10:00:00') /* Tusker Island Uber Beach Mix Gen */;

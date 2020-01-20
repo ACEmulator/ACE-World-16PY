@@ -7,4 +7,5 @@ VALUES (54842, 7890, 1, 2, '2005-02-09 10:00:00') /* Low Central Mountain Mix Ge
      , (54842, 7890, 4, 2, '2005-02-09 10:00:00') /* Low Central Mountain Mix Generator */
      , (54842, 7890, 4, 4, '2005-02-09 10:00:00') /* Low Central Mountain Mix Generator */
      , (54842, 7890, 5, 1, '2005-02-09 10:00:00') /* Low Central Mountain Mix Generator */
-     , (54842, 7890, 6, 4, '2005-02-09 10:00:00') /* Low Central Mountain Mix Generator */;
+     , (54842, 7890, 6, 4, '2005-02-09 10:00:00') /* Low Central Mountain Mix Generator */
+     , (54842, 7890, 8, 6, '2005-02-09 10:00:00') /* Low Central Mountain Mix Generator */;

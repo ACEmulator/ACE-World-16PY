@@ -7,4 +7,5 @@ VALUES (14140, 1966, 0, 7, '2005-02-09 10:00:00') /* High Direlands Desert Gener
      , (14140, 1966, 3, 2, '2005-02-09 10:00:00') /* High Direlands Desert Generator */
      , (14140, 1966, 3, 7, '2005-02-09 10:00:00') /* High Direlands Desert Generator */
      , (14140, 1966, 6, 3, '2005-02-09 10:00:00') /* High Direlands Desert Generator */
-     , (14140, 1966, 6, 6, '2005-02-09 10:00:00') /* High Direlands Desert Generator */;
+     , (14140, 1966, 6, 6, '2005-02-09 10:00:00') /* High Direlands Desert Generator */
+     , (14140, 1966, 8, 6, '2005-02-09 10:00:00') /* High Direlands Desert Generator */;

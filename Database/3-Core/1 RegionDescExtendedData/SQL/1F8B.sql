@@ -10,8 +10,11 @@ VALUES (8075, 1971, 0, 0, '2005-02-09 10:00:00') /* High Direlands Mountain Gole
      , (8075, 1971, 2, 6, '2005-02-09 10:00:00') /* High Direlands Mountain Golem Generator */
      , (8075, 1971, 3, 7, '2005-02-09 10:00:00') /* High Direlands Mountain Golem Generator */
      , (8075, 1971, 4, 1, '2005-02-09 10:00:00') /* High Direlands Mountain Golem Generator */
+     , (8075, 1971, 4, 8, '2005-02-09 10:00:00') /* High Direlands Mountain Golem Generator */
      , (8075, 1971, 5, 2, '2005-02-09 10:00:00') /* High Direlands Mountain Golem Generator */
      , (8075, 1971, 5, 7, '2005-02-09 10:00:00') /* High Direlands Mountain Golem Generator */
      , (8075, 1971, 6, 6, '2005-02-09 10:00:00') /* High Direlands Mountain Golem Generator */
      , (8075, 1971, 6, 7, '2005-02-09 10:00:00') /* High Direlands Mountain Golem Generator */
-     , (8075, 1971, 7, 0, '2005-02-09 10:00:00') /* High Direlands Mountain Golem Generator */;
+     , (8075, 1971, 7, 0, '2005-02-09 10:00:00') /* High Direlands Mountain Golem Generator */
+     , (8075, 1971, 7, 8, '2005-02-09 10:00:00') /* High Direlands Mountain Golem Generator */
+     , (8075, 1971, 8, 5, '2005-02-09 10:00:00') /* High Direlands Mountain Golem Generator */;

@@ -6,4 +6,5 @@ VALUES (23271, 4583, 2, 2, '2005-02-09 10:00:00') /* High North Plains Generator
      , (23271, 4583, 3, 7, '2005-02-09 10:00:00') /* High North Plains Generator */
      , (23271, 4583, 6, 1, '2005-02-09 10:00:00') /* High North Plains Generator */
      , (23271, 4583, 6, 6, '2005-02-09 10:00:00') /* High North Plains Generator */
+     , (23271, 4583, 6, 8, '2005-02-09 10:00:00') /* High North Plains Generator */
      , (23271, 1979, 7, 7, '2005-02-09 10:00:00') /* High North Forest Generator */;

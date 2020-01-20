@@ -5,4 +5,5 @@ VALUES (17827, 23155, 0, 5, '2005-02-09 10:00:00') /* Mid North Mountains Mix Ge
      , (17827, 23155, 2, 6, '2005-02-09 10:00:00') /* Mid North Mountains Mix Generator */
      , (17827, 23159, 4, 7, '2005-02-09 10:00:00') /* Mid North Plains Generator */
      , (17827, 23159, 6, 1, '2005-02-09 10:00:00') /* Mid North Plains Generator */
-     , (17827, 23159, 7, 7, '2005-02-09 10:00:00') /* Mid North Plains Generator */;
+     , (17827, 23159, 7, 7, '2005-02-09 10:00:00') /* Mid North Plains Generator */
+     , (17827, 23159, 8, 7, '2005-02-09 10:00:00') /* Mid North Plains Generator */;

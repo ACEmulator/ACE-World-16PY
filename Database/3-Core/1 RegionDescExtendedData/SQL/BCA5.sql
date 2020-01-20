@@ -10,4 +10,5 @@ VALUES (48293, 23175, 0, 1, '2005-02-09 10:00:00') /* Alvian Newbie General Mix 
      , (48293, 23175, 4, 4, '2005-02-09 10:00:00') /* Alvian Newbie General Mix Generator */
      , (48293, 23175, 5, 6, '2005-02-09 10:00:00') /* Alvian Newbie General Mix Generator */
      , (48293, 23175, 5, 7, '2005-02-09 10:00:00') /* Alvian Newbie General Mix Generator */
-     , (48293, 23175, 7, 2, '2005-02-09 10:00:00') /* Alvian Newbie General Mix Generator */;
+     , (48293, 23175, 7, 2, '2005-02-09 10:00:00') /* Alvian Newbie General Mix Generator */
+     , (48293, 23175, 8, 6, '2005-02-09 10:00:00') /* Alvian Newbie General Mix Generator */;

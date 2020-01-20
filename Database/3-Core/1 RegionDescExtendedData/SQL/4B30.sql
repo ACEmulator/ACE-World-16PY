@@ -5,4 +5,5 @@ VALUES (19248, 1972, 0, 5, '2005-02-09 10:00:00') /* High Direlands Mountain Sha
      , (19248, 1972, 1, 1, '2005-02-09 10:00:00') /* High Direlands Mountain Shadow Generator */
      , (19248, 1972, 4, 7, '2005-02-09 10:00:00') /* High Direlands Mountain Shadow Generator */
      , (19248, 1972, 5, 4, '2005-02-09 10:00:00') /* High Direlands Mountain Shadow Generator */
-     , (19248, 1972, 6, 2, '2005-02-09 10:00:00') /* High Direlands Mountain Shadow Generator */;
+     , (19248, 1972, 6, 2, '2005-02-09 10:00:00') /* High Direlands Mountain Shadow Generator */
+     , (19248, 1972, 8, 6, '2005-02-09 10:00:00') /* High Direlands Mountain Shadow Generator */;

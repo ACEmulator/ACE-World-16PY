@@ -1,7 +1,8 @@
 DELETE FROM `encounter` WHERE `landblock` = 60957;
 
 INSERT INTO `encounter` (`landblock`, `weenie_Class_Id`, `cell_X`, `cell_Y`, `last_Modified`)
-VALUES (60957, 7222, 1, 5, '2005-02-09 10:00:00') /* Jungle B Mix Generator */
+VALUES (60957, 7223, 0, 8, '2005-02-09 10:00:00') /* Jungle C1 Mix Generator */
+     , (60957, 7222, 1, 5, '2005-02-09 10:00:00') /* Jungle B Mix Generator */
      , (60957, 7223, 1, 7, '2005-02-09 10:00:00') /* Jungle C1 Mix Generator */
      , (60957, 7231, 2, 1, '2005-02-09 10:00:00') /* Jungle Beach 2 Mix Generator */
      , (60957, 7223, 2, 7, '2005-02-09 10:00:00') /* Jungle C1 Mix Generator */

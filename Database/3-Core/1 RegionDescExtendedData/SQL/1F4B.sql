@@ -8,4 +8,6 @@ VALUES (8011, 1959, 0, 0, '2005-02-09 10:00:00') /* Extreme Direlands Forest Dru
      , (8011, 1960, 4, 2, '2005-02-09 10:00:00') /* Extreme Direlands Forest Generator */
      , (8011, 1960, 4, 5, '2005-02-09 10:00:00') /* Extreme Direlands Forest Generator */
      , (8011, 1960, 4, 6, '2005-02-09 10:00:00') /* Extreme Direlands Forest Generator */
-     , (8011, 1960, 5, 0, '2005-02-09 10:00:00') /* Extreme Direlands Forest Generator */;
+     , (8011, 1960, 5, 0, '2005-02-09 10:00:00') /* Extreme Direlands Forest Generator */
+     , (8011, 1960, 6, 8, '2005-02-09 10:00:00') /* Extreme Direlands Forest Generator */
+     , (8011, 1957, 8, 8, '2005-02-09 10:00:00') /* Extreme Direlands Desert Shadow Generator */;

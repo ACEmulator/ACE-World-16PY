@@ -6,4 +6,6 @@ VALUES (40769, 21182, 0, 1, '2005-02-09 10:00:00') /* Low Central Desert Undead 
      , (40769, 21182, 5, 0, '2005-02-09 10:00:00') /* Low Central Desert Undead Mix Generator */
      , (40769, 21182, 6, 1, '2005-02-09 10:00:00') /* Low Central Desert Undead Mix Generator */
      , (40769, 21182, 6, 6, '2005-02-09 10:00:00') /* Low Central Desert Undead Mix Generator */
-     , (40769, 21182, 6, 7, '2005-02-09 10:00:00') /* Low Central Desert Undead Mix Generator */;
+     , (40769, 21182, 6, 7, '2005-02-09 10:00:00') /* Low Central Desert Undead Mix Generator */
+     , (40769, 21181, 6, 8, '2005-02-09 10:00:00') /* Low Central Desert Skeleton Mix Generator */
+     , (40769, 21177, 8, 6, '2005-02-09 10:00:00') /* Low Central Desert Mix Generator */;

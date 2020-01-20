@@ -8,4 +8,6 @@ VALUES (3707, 1961, 0, 1, '2005-02-09 10:00:00') /* Extreme Direlands Forest Gol
      , (3707, 1961, 1, 6, '2005-02-09 10:00:00') /* Extreme Direlands Forest Golem Generator */
      , (3707, 1961, 2, 1, '2005-02-09 10:00:00') /* Extreme Direlands Forest Golem Generator */
      , (3707, 1960, 3, 7, '2005-02-09 10:00:00') /* Extreme Direlands Forest Generator */
-     , (3707, 1961, 7, 4, '2005-02-09 10:00:00') /* Extreme Direlands Forest Golem Generator */;
+     , (3707, 1960, 3, 8, '2005-02-09 10:00:00') /* Extreme Direlands Forest Generator */
+     , (3707, 1961, 7, 4, '2005-02-09 10:00:00') /* Extreme Direlands Forest Golem Generator */
+     , (3707, 1961, 8, 4, '2005-02-09 10:00:00') /* Extreme Direlands Forest Golem Generator */;

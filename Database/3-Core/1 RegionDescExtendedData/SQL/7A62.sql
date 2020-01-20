@@ -6,5 +6,8 @@ VALUES (31330, 1997, 2, 0, '2005-02-09 10:00:00') /* Low A Gharundim Generator *
      , (31330, 5149, 2, 4, '2005-02-09 10:00:00') /* Harmless Sho Generator */
      , (31330, 1997, 2, 7, '2005-02-09 10:00:00') /* Low A Gharundim Generator */
      , (31330, 1997, 4, 4, '2005-02-09 10:00:00') /* Low A Gharundim Generator */
+     , (31330, 1997, 4, 8, '2005-02-09 10:00:00') /* Low A Gharundim Generator */
      , (31330, 1997, 6, 5, '2005-02-09 10:00:00') /* Low A Gharundim Generator */
-     , (31330, 1997, 6, 7, '2005-02-09 10:00:00') /* Low A Gharundim Generator */;
+     , (31330, 1997, 6, 7, '2005-02-09 10:00:00') /* Low A Gharundim Generator */
+     , (31330, 2008, 8, 0, '2005-02-09 10:00:00') /* Newbie Gharundim Generator */
+     , (31330, 2008, 8, 2, '2005-02-09 10:00:00') /* Newbie Gharundim Generator */;

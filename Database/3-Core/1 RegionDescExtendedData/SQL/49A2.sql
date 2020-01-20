@@ -5,6 +5,8 @@ VALUES (18850, 23161, 1, 1, '2005-02-09 10:00:00') /* Mid North Plains Tumerok G
      , (18850, 23161, 2, 1, '2005-02-09 10:00:00') /* Mid North Plains Tumerok Generator */
      , (18850, 23161, 2, 2, '2005-02-09 10:00:00') /* Mid North Plains Tumerok Generator */
      , (18850, 23161, 2, 3, '2005-02-09 10:00:00') /* Mid North Plains Tumerok Generator */
+     , (18850, 23161, 3, 8, '2005-02-09 10:00:00') /* Mid North Plains Tumerok Generator */
      , (18850, 23161, 6, 0, '2005-02-09 10:00:00') /* Mid North Plains Tumerok Generator */
      , (18850, 23161, 6, 6, '2005-02-09 10:00:00') /* Mid North Plains Tumerok Generator */
-     , (18850, 23161, 7, 0, '2005-02-09 10:00:00') /* Mid North Plains Tumerok Generator */;
+     , (18850, 23161, 7, 0, '2005-02-09 10:00:00') /* Mid North Plains Tumerok Generator */
+     , (18850, 23161, 8, 1, '2005-02-09 10:00:00') /* Mid North Plains Tumerok Generator */;

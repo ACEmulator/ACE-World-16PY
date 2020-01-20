@@ -9,4 +9,6 @@ VALUES (52065, 21176, 0, 6, '2005-02-09 10:00:00') /* Low Central Sclavus Swamp 
      , (52065, 21176, 4, 4, '2005-02-09 10:00:00') /* Low Central Sclavus Swamp Mix Generator */
      , (52065, 21176, 4, 5, '2005-02-09 10:00:00') /* Low Central Sclavus Swamp Mix Generator */
      , (52065, 21176, 5, 1, '2005-02-09 10:00:00') /* Low Central Sclavus Swamp Mix Generator */
-     , (52065, 21176, 6, 3, '2005-02-09 10:00:00') /* Low Central Sclavus Swamp Mix Generator */;
+     , (52065, 21176, 6, 3, '2005-02-09 10:00:00') /* Low Central Sclavus Swamp Mix Generator */
+     , (52065, 21176, 6, 8, '2005-02-09 10:00:00') /* Low Central Sclavus Swamp Mix Generator */
+     , (52065, 21176, 7, 8, '2005-02-09 10:00:00') /* Low Central Sclavus Swamp Mix Generator */;

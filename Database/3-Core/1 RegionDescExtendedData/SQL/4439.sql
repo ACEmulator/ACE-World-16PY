@@ -11,4 +11,7 @@ VALUES (17465, 1978, 0, 1, '2005-02-09 10:00:00') /* High Direlands Swamp Sclavu
      , (17465, 1978, 5, 1, '2005-02-09 10:00:00') /* High Direlands Swamp Sclavus Generator */
      , (17465, 1978, 5, 5, '2005-02-09 10:00:00') /* High Direlands Swamp Sclavus Generator */
      , (17465, 1978, 5, 6, '2005-02-09 10:00:00') /* High Direlands Swamp Sclavus Generator */
-     , (17465, 1978, 6, 6, '2005-02-09 10:00:00') /* High Direlands Swamp Sclavus Generator */;
+     , (17465, 1978, 6, 6, '2005-02-09 10:00:00') /* High Direlands Swamp Sclavus Generator */
+     , (17465, 1978, 7, 8, '2005-02-09 10:00:00') /* High Direlands Swamp Sclavus Generator */
+     , (17465, 1978, 8, 1, '2005-02-09 10:00:00') /* High Direlands Swamp Sclavus Generator */
+     , (17465, 1978, 8, 3, '2005-02-09 10:00:00') /* High Direlands Swamp Sclavus Generator */;

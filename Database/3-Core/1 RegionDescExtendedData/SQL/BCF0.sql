@@ -10,4 +10,6 @@ VALUES (48368, 7218, 0, 3, '2005-02-09 10:00:00') /* Aerlinthe Heights East Mix 
      , (48368, 7218, 5, 6, '2005-02-09 10:00:00') /* Aerlinthe Heights East Mix Gen */
      , (48368, 7218, 7, 1, '2005-02-09 10:00:00') /* Aerlinthe Heights East Mix Gen */
      , (48368, 7218, 7, 6, '2005-02-09 10:00:00') /* Aerlinthe Heights East Mix Gen */
-     , (48368, 7218, 7, 7, '2005-02-09 10:00:00') /* Aerlinthe Heights East Mix Gen */;
+     , (48368, 7218, 7, 7, '2005-02-09 10:00:00') /* Aerlinthe Heights East Mix Gen */
+     , (48368, 7218, 8, 4, '2005-02-09 10:00:00') /* Aerlinthe Heights East Mix Gen */
+     , (48368, 7218, 8, 6, '2005-02-09 10:00:00') /* Aerlinthe Heights East Mix Gen */;

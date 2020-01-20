@@ -6,4 +6,5 @@ VALUES (50470, 23164, 0, 4, '2005-02-09 10:00:00') /* Mid South Forest Generator
      , (50470, 23164, 3, 7, '2005-02-09 10:00:00') /* Mid South Forest Generator */
      , (50470, 23164, 4, 1, '2005-02-09 10:00:00') /* Mid South Forest Generator */
      , (50470, 23164, 4, 7, '2005-02-09 10:00:00') /* Mid South Forest Generator */
-     , (50470, 23164, 6, 0, '2005-02-09 10:00:00') /* Mid South Forest Generator */;
+     , (50470, 23164, 6, 0, '2005-02-09 10:00:00') /* Mid South Forest Generator */
+     , (50470, 23164, 8, 3, '2005-02-09 10:00:00') /* Mid South Forest Generator */;

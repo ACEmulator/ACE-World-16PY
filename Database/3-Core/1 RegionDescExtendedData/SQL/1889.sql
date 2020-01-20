@@ -8,4 +8,5 @@ VALUES (6281, 1967, 0, 3, '2005-02-09 10:00:00') /* High Direlands Forest Genera
      , (6281, 1967, 5, 2, '2005-02-09 10:00:00') /* High Direlands Forest Generator */
      , (6281, 1967, 6, 0, '2005-02-09 10:00:00') /* High Direlands Forest Generator */
      , (6281, 1967, 7, 0, '2005-02-09 10:00:00') /* High Direlands Forest Generator */
-     , (6281, 1971, 7, 7, '2005-02-09 10:00:00') /* High Direlands Mountain Golem Generator */;
+     , (6281, 1971, 7, 7, '2005-02-09 10:00:00') /* High Direlands Mountain Golem Generator */
+     , (6281, 1971, 8, 8, '2005-02-09 10:00:00') /* High Direlands Mountain Golem Generator */;

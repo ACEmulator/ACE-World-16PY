@@ -8,4 +8,5 @@ VALUES (9230, 1956, 0, 5, '2005-02-09 10:00:00') /* Extreme Direlands Desert Gen
      , (9230, 1965, 5, 1, '2005-02-09 10:00:00') /* Extreme Direlands Shore Generator */
      , (9230, 1956, 6, 5, '2005-02-09 10:00:00') /* Extreme Direlands Desert Generator */
      , (9230, 1965, 7, 1, '2005-02-09 10:00:00') /* Extreme Direlands Shore Generator */
-     , (9230, 1965, 7, 2, '2005-02-09 10:00:00') /* Extreme Direlands Shore Generator */;
+     , (9230, 1965, 7, 2, '2005-02-09 10:00:00') /* Extreme Direlands Shore Generator */
+     , (9230, 1965, 8, 2, '2005-02-09 10:00:00') /* Extreme Direlands Shore Generator */;

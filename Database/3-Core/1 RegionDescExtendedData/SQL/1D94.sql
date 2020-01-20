@@ -6,4 +6,5 @@ VALUES (7572, 1967, 0, 1, '2005-02-09 10:00:00') /* High Direlands Forest Genera
      , (7572, 1967, 3, 0, '2005-02-09 10:00:00') /* High Direlands Forest Generator */
      , (7572, 1974, 5, 6, '2005-02-09 10:00:00') /* High Direlands Shore Generator */
      , (7572, 1967, 6, 0, '2005-02-09 10:00:00') /* High Direlands Forest Generator */
-     , (7572, 1974, 6, 4, '2005-02-09 10:00:00') /* High Direlands Shore Generator */;
+     , (7572, 1974, 6, 4, '2005-02-09 10:00:00') /* High Direlands Shore Generator */
+     , (7572, 1967, 8, 1, '2005-02-09 10:00:00') /* High Direlands Forest Generator */;

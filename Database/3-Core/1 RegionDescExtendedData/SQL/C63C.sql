@@ -8,4 +8,5 @@ VALUES (50748, 21172, 0, 2, '2005-02-09 10:00:00') /* Low Central Undead Plains 
      , (50748, 4623, 4, 4, '2005-02-09 10:00:00') /* Low Central Forest Mix Generator */
      , (50748, 4623, 5, 3, '2005-02-09 10:00:00') /* Low Central Forest Mix Generator */
      , (50748, 4623, 6, 5, '2005-02-09 10:00:00') /* Low Central Forest Mix Generator */
-     , (50748, 4623, 6, 7, '2005-02-09 10:00:00') /* Low Central Forest Mix Generator */;
+     , (50748, 4623, 6, 7, '2005-02-09 10:00:00') /* Low Central Forest Mix Generator */
+     , (50748, 4623, 8, 2, '2005-02-09 10:00:00') /* Low Central Forest Mix Generator */;

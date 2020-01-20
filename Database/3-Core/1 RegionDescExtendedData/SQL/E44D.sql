@@ -4,6 +4,7 @@ INSERT INTO `encounter` (`landblock`, `weenie_Class_Id`, `cell_X`, `cell_Y`, `la
 VALUES (58445, 23184, 0, 3, '2005-02-09 10:00:00') /* Sho Newbie Hills Mix Generator */
      , (58445, 23184, 0, 4, '2005-02-09 10:00:00') /* Sho Newbie Hills Mix Generator */
      , (58445, 23184, 0, 7, '2005-02-09 10:00:00') /* Sho Newbie Hills Mix Generator */
+     , (58445, 23184, 0, 8, '2005-02-09 10:00:00') /* Sho Newbie Hills Mix Generator */
      , (58445, 23184, 1, 1, '2005-02-09 10:00:00') /* Sho Newbie Hills Mix Generator */
      , (58445, 23184, 2, 5, '2005-02-09 10:00:00') /* Sho Newbie Hills Mix Generator */
      , (58445, 23184, 4, 1, '2005-02-09 10:00:00') /* Sho Newbie Hills Mix Generator */

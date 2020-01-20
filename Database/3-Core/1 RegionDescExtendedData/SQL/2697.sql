@@ -5,4 +5,5 @@ VALUES (9879, 1967, 0, 1, '2005-02-09 10:00:00') /* High Direlands Forest Genera
      , (9879, 1967, 0, 2, '2005-02-09 10:00:00') /* High Direlands Forest Generator */
      , (9879, 1967, 5, 0, '2005-02-09 10:00:00') /* High Direlands Forest Generator */
      , (9879, 1967, 5, 6, '2005-02-09 10:00:00') /* High Direlands Forest Generator */
+     , (9879, 1967, 5, 8, '2005-02-09 10:00:00') /* High Direlands Forest Generator */
      , (9879, 1967, 6, 7, '2005-02-09 10:00:00') /* High Direlands Forest Generator */;

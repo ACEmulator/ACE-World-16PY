@@ -7,4 +7,6 @@ VALUES (42165, 1996, 0, 4, '2005-02-09 10:00:00') /* Low A Aluvian Generator */
      , (42165, 5150, 2, 5, '2005-02-09 10:00:00') /* Harmless Aluvian Generator */
      , (42165, 2007, 3, 4, '2005-02-09 10:00:00') /* Newbie Aluvian Generator */
      , (42165, 2007, 4, 1, '2005-02-09 10:00:00') /* Newbie Aluvian Generator */
-     , (42165, 2007, 5, 4, '2005-02-09 10:00:00') /* Newbie Aluvian Generator */;
+     , (42165, 2007, 5, 4, '2005-02-09 10:00:00') /* Newbie Aluvian Generator */
+     , (42165, 2007, 5, 8, '2005-02-09 10:00:00') /* Newbie Aluvian Generator */
+     , (42165, 2007, 8, 5, '2005-02-09 10:00:00') /* Newbie Aluvian Generator */;

@@ -8,4 +8,5 @@ VALUES (44213, 5150, 0, 7, '2005-02-09 10:00:00') /* Harmless Aluvian Generator 
      , (44213, 2007, 5, 6, '2005-02-09 10:00:00') /* Newbie Aluvian Generator */
      , (44213, 2007, 6, 6, '2005-02-09 10:00:00') /* Newbie Aluvian Generator */
      , (44213, 2007, 6, 7, '2005-02-09 10:00:00') /* Newbie Aluvian Generator */
-     , (44213, 2007, 7, 5, '2005-02-09 10:00:00') /* Newbie Aluvian Generator */;
+     , (44213, 2007, 7, 5, '2005-02-09 10:00:00') /* Newbie Aluvian Generator */
+     , (44213, 2007, 8, 1, '2005-02-09 10:00:00') /* Newbie Aluvian Generator */;

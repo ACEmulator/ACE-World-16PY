@@ -6,4 +6,6 @@ VALUES (37672, 23168, 2, 1, '2005-02-09 10:00:00') /* Mid South Mountains Mattek
      , (37672, 23168, 2, 6, '2005-02-09 10:00:00') /* Mid South Mountains Mattekar Generator */
      , (37672, 23168, 3, 3, '2005-02-09 10:00:00') /* Mid South Mountains Mattekar Generator */
      , (37672, 23168, 4, 3, '2005-02-09 10:00:00') /* Mid South Mountains Mattekar Generator */
-     , (37672, 23168, 6, 6, '2005-02-09 10:00:00') /* Mid South Mountains Mattekar Generator */;
+     , (37672, 23168, 6, 6, '2005-02-09 10:00:00') /* Mid South Mountains Mattekar Generator */
+     , (37672, 23168, 8, 1, '2005-02-09 10:00:00') /* Mid South Mountains Mattekar Generator */
+     , (37672, 23168, 8, 5, '2005-02-09 10:00:00') /* Mid South Mountains Mattekar Generator */;

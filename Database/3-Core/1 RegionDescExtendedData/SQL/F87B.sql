@@ -11,4 +11,5 @@ VALUES (63611, 22387, 0, 4, '2005-02-09 10:00:00') /* Tusker Island Low Mix Gen 
      , (63611, 22536, 5, 0, '2005-02-09 10:00:00') /* Tusker Island Low Mountain Mix Gen */
      , (63611, 22387, 5, 2, '2005-02-09 10:00:00') /* Tusker Island Low Mix Gen */
      , (63611, 22539, 5, 4, '2005-02-09 10:00:00') /* Tusker Island Uber Beach Mix Gen */
-     , (63611, 22536, 5, 5, '2005-02-09 10:00:00') /* Tusker Island Low Mountain Mix Gen */;
+     , (63611, 22536, 5, 5, '2005-02-09 10:00:00') /* Tusker Island Low Mountain Mix Gen */
+     , (63611, 22387, 8, 7, '2005-02-09 10:00:00') /* Tusker Island Low Mix Gen */;

@@ -12,4 +12,5 @@ VALUES (58446, 23184, 0, 0, '2005-02-09 10:00:00') /* Sho Newbie Hills Mix Gener
      , (58446, 23184, 6, 1, '2005-02-09 10:00:00') /* Sho Newbie Hills Mix Generator */
      , (58446, 23184, 6, 2, '2005-02-09 10:00:00') /* Sho Newbie Hills Mix Generator */
      , (58446, 23184, 7, 3, '2005-02-09 10:00:00') /* Sho Newbie Hills Mix Generator */
-     , (58446, 23184, 7, 5, '2005-02-09 10:00:00') /* Sho Newbie Hills Mix Generator */;
+     , (58446, 23184, 7, 5, '2005-02-09 10:00:00') /* Sho Newbie Hills Mix Generator */
+     , (58446, 23184, 8, 4, '2005-02-09 10:00:00') /* Sho Newbie Hills Mix Generator */;

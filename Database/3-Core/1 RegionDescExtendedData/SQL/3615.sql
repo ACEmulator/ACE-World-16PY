@@ -10,5 +10,8 @@ VALUES (13845, 1966, 0, 7, '2005-02-09 10:00:00') /* High Direlands Desert Gener
      , (13845, 1966, 4, 6, '2005-02-09 10:00:00') /* High Direlands Desert Generator */
      , (13845, 1969, 5, 5, '2005-02-09 10:00:00') /* High Direlands Desert Undead Generator */
      , (13845, 1969, 6, 5, '2005-02-09 10:00:00') /* High Direlands Desert Undead Generator */
+     , (13845, 1969, 6, 8, '2005-02-09 10:00:00') /* High Direlands Desert Undead Generator */
      , (13845, 1969, 7, 5, '2005-02-09 10:00:00') /* High Direlands Desert Undead Generator */
-     , (13845, 1969, 7, 7, '2005-02-09 10:00:00') /* High Direlands Desert Undead Generator */;
+     , (13845, 1969, 7, 7, '2005-02-09 10:00:00') /* High Direlands Desert Undead Generator */
+     , (13845, 1969, 8, 0, '2005-02-09 10:00:00') /* High Direlands Desert Undead Generator */
+     , (13845, 1969, 8, 5, '2005-02-09 10:00:00') /* High Direlands Desert Undead Generator */;

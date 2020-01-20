@@ -5,4 +5,5 @@ VALUES (38432, 23166, 0, 0, '2005-02-09 10:00:00') /* Mid SOuth Mountains Genera
      , (38432, 23172, 1, 3, '2005-02-09 10:00:00') /* Mid South Plains Generator */
      , (38432, 23172, 3, 6, '2005-02-09 10:00:00') /* Mid South Plains Generator */
      , (38432, 23172, 6, 6, '2005-02-09 10:00:00') /* Mid South Plains Generator */
-     , (38432, 23172, 7, 0, '2005-02-09 10:00:00') /* Mid South Plains Generator */;
+     , (38432, 23172, 7, 0, '2005-02-09 10:00:00') /* Mid South Plains Generator */
+     , (38432, 23172, 8, 7, '2005-02-09 10:00:00') /* Mid South Plains Generator */;

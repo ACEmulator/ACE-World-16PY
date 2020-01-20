@@ -6,6 +6,10 @@ VALUES (10343, 1966, 0, 4, '2005-02-09 10:00:00') /* High Direlands Desert Gener
      , (10343, 1966, 1, 0, '2005-02-09 10:00:00') /* High Direlands Desert Generator */
      , (10343, 1966, 1, 2, '2005-02-09 10:00:00') /* High Direlands Desert Generator */
      , (10343, 1966, 2, 6, '2005-02-09 10:00:00') /* High Direlands Desert Generator */
+     , (10343, 1966, 2, 8, '2005-02-09 10:00:00') /* High Direlands Desert Generator */
      , (10343, 1966, 4, 0, '2005-02-09 10:00:00') /* High Direlands Desert Generator */
      , (10343, 1966, 5, 3, '2005-02-09 10:00:00') /* High Direlands Desert Generator */
-     , (10343, 1966, 7, 7, '2005-02-09 10:00:00') /* High Direlands Desert Generator */;
+     , (10343, 1966, 7, 7, '2005-02-09 10:00:00') /* High Direlands Desert Generator */
+     , (10343, 1966, 7, 8, '2005-02-09 10:00:00') /* High Direlands Desert Generator */
+     , (10343, 1966, 8, 0, '2005-02-09 10:00:00') /* High Direlands Desert Generator */
+     , (10343, 1973, 8, 8, '2005-02-09 10:00:00') /* East Shore Direland Mix Generator */;

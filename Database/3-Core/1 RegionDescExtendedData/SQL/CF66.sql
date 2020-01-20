@@ -7,4 +7,5 @@ VALUES (53094, 21174, 0, 7, '2005-02-09 10:00:00') /* Low Central Swamp Mix Gene
      , (53094, 21174, 2, 1, '2005-02-09 10:00:00') /* Low Central Swamp Mix Generator */
      , (53094, 21174, 3, 3, '2005-02-09 10:00:00') /* Low Central Swamp Mix Generator */
      , (53094, 21174, 5, 4, '2005-02-09 10:00:00') /* Low Central Swamp Mix Generator */
-     , (53094, 21174, 6, 7, '2005-02-09 10:00:00') /* Low Central Swamp Mix Generator */;
+     , (53094, 21174, 6, 7, '2005-02-09 10:00:00') /* Low Central Swamp Mix Generator */
+     , (53094, 21174, 8, 4, '2005-02-09 10:00:00') /* Low Central Swamp Mix Generator */;

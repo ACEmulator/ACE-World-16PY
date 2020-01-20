@@ -6,4 +6,5 @@ VALUES (57922, 23182, 0, 2, '2005-02-09 10:00:00') /* Sho Newbie Forest Mix Gene
      , (57922, 23182, 2, 7, '2005-02-09 10:00:00') /* Sho Newbie Forest Mix Generator */
      , (57922, 23182, 6, 5, '2005-02-09 10:00:00') /* Sho Newbie Forest Mix Generator */
      , (57922, 23182, 6, 6, '2005-02-09 10:00:00') /* Sho Newbie Forest Mix Generator */
-     , (57922, 23182, 7, 1, '2005-02-09 10:00:00') /* Sho Newbie Forest Mix Generator */;
+     , (57922, 23182, 7, 1, '2005-02-09 10:00:00') /* Sho Newbie Forest Mix Generator */
+     , (57922, 23182, 8, 4, '2005-02-09 10:00:00') /* Sho Newbie Forest Mix Generator */;

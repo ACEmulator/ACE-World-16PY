@@ -7,4 +7,5 @@ VALUES (51913, 23191, 0, 0, '2005-02-09 10:00:00') /* Olthoi High North Mountain
      , (51913, 23191, 4, 6, '2005-02-09 10:00:00') /* Olthoi High North Mountains Generator */
      , (51913, 23191, 5, 4, '2005-02-09 10:00:00') /* Olthoi High North Mountains Generator */
      , (51913, 23191, 5, 7, '2005-02-09 10:00:00') /* Olthoi High North Mountains Generator */
-     , (51913, 23191, 7, 2, '2005-02-09 10:00:00') /* Olthoi High North Mountains Generator */;
+     , (51913, 23191, 7, 2, '2005-02-09 10:00:00') /* Olthoi High North Mountains Generator */
+     , (51913, 23191, 8, 1, '2005-02-09 10:00:00') /* Olthoi High North Mountains Generator */;

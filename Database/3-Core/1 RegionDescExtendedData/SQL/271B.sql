@@ -6,4 +6,8 @@ VALUES (10011, 1956, 0, 3, '2005-02-09 10:00:00') /* Extreme Direlands Desert Ge
      , (10011, 1956, 3, 2, '2005-02-09 10:00:00') /* Extreme Direlands Desert Generator */
      , (10011, 1956, 3, 3, '2005-02-09 10:00:00') /* Extreme Direlands Desert Generator */
      , (10011, 1956, 3, 5, '2005-02-09 10:00:00') /* Extreme Direlands Desert Generator */
-     , (10011, 1956, 6, 5, '2005-02-09 10:00:00') /* Extreme Direlands Desert Generator */;
+     , (10011, 1956, 6, 5, '2005-02-09 10:00:00') /* Extreme Direlands Desert Generator */
+     , (10011, 1956, 6, 8, '2005-02-09 10:00:00') /* Extreme Direlands Desert Generator */
+     , (10011, 1956, 8, 1, '2005-02-09 10:00:00') /* Extreme Direlands Desert Generator */
+     , (10011, 1956, 8, 4, '2005-02-09 10:00:00') /* Extreme Direlands Desert Generator */
+     , (10011, 1956, 8, 8, '2005-02-09 10:00:00') /* Extreme Direlands Desert Generator */;

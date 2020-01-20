@@ -8,5 +8,7 @@ VALUES (26596, 1979, 0, 0, '2005-02-09 10:00:00') /* High North Forest Generator
      , (26596, 1979, 3, 7, '2005-02-09 10:00:00') /* High North Forest Generator */
      , (26596, 1979, 5, 2, '2005-02-09 10:00:00') /* High North Forest Generator */
      , (26596, 1979, 5, 3, '2005-02-09 10:00:00') /* High North Forest Generator */
+     , (26596, 1979, 5, 8, '2005-02-09 10:00:00') /* High North Forest Generator */
      , (26596, 1979, 7, 1, '2005-02-09 10:00:00') /* High North Forest Generator */
-     , (26596, 1979, 7, 2, '2005-02-09 10:00:00') /* High North Forest Generator */;
+     , (26596, 1979, 7, 2, '2005-02-09 10:00:00') /* High North Forest Generator */
+     , (26596, 1979, 8, 7, '2005-02-09 10:00:00') /* High North Forest Generator */;

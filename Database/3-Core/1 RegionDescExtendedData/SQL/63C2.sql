@@ -4,4 +4,5 @@ INSERT INTO `encounter` (`landblock`, `weenie_Class_Id`, `cell_X`, `cell_Y`, `la
 VALUES (25538, 1979, 0, 6, '2005-02-09 10:00:00') /* High North Forest Generator */
      , (25538, 1979, 1, 5, '2005-02-09 10:00:00') /* High North Forest Generator */
      , (25538, 1979, 2, 5, '2005-02-09 10:00:00') /* High North Forest Generator */
-     , (25538, 1970, 3, 5, '2005-02-09 10:00:00') /* High Direlands Mountain Generator */;
+     , (25538, 1970, 3, 5, '2005-02-09 10:00:00') /* High Direlands Mountain Generator */
+     , (25538, 1970, 8, 8, '2005-02-09 10:00:00') /* High Direlands Mountain Generator */;

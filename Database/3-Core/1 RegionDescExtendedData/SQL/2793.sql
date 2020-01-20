@@ -11,4 +11,5 @@ VALUES (10131, 1971, 0, 0, '2005-02-09 10:00:00') /* High Direlands Mountain Gol
      , (10131, 1971, 6, 0, '2005-02-09 10:00:00') /* High Direlands Mountain Golem Generator */
      , (10131, 1967, 6, 4, '2005-02-09 10:00:00') /* High Direlands Forest Generator */
      , (10131, 1971, 7, 0, '2005-02-09 10:00:00') /* High Direlands Mountain Golem Generator */
-     , (10131, 1967, 7, 2, '2005-02-09 10:00:00') /* High Direlands Forest Generator */;
+     , (10131, 1967, 7, 2, '2005-02-09 10:00:00') /* High Direlands Forest Generator */
+     , (10131, 1967, 7, 8, '2005-02-09 10:00:00') /* High Direlands Forest Generator */;

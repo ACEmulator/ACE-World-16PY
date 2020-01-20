@@ -6,4 +6,6 @@ VALUES (41637, 5150, 0, 4, '2005-02-09 10:00:00') /* Harmless Aluvian Generator 
      , (41637, 23147, 3, 0, '2005-02-09 10:00:00') /* Low North Shore Mix Generator */
      , (41637, 5150, 3, 4, '2005-02-09 10:00:00') /* Harmless Aluvian Generator */
      , (41637, 5150, 4, 0, '2005-02-09 10:00:00') /* Harmless Aluvian Generator */
-     , (41637, 5150, 7, 2, '2005-02-09 10:00:00') /* Harmless Aluvian Generator */;
+     , (41637, 5150, 7, 2, '2005-02-09 10:00:00') /* Harmless Aluvian Generator */
+     , (41637, 5150, 8, 0, '2005-02-09 10:00:00') /* Harmless Aluvian Generator */
+     , (41637, 21183, 8, 8, '2005-02-09 10:00:00') /* Low North Forest Mix Generator */;

@@ -7,4 +7,6 @@ VALUES (8978, 1956, 0, 0, '2005-02-09 10:00:00') /* Extreme Direlands Desert Gen
      , (8978, 1956, 3, 1, '2005-02-09 10:00:00') /* Extreme Direlands Desert Generator */
      , (8978, 1956, 4, 1, '2005-02-09 10:00:00') /* Extreme Direlands Desert Generator */
      , (8978, 1956, 5, 6, '2005-02-09 10:00:00') /* Extreme Direlands Desert Generator */
-     , (8978, 1956, 7, 6, '2005-02-09 10:00:00') /* Extreme Direlands Desert Generator */;
+     , (8978, 1956, 5, 8, '2005-02-09 10:00:00') /* Extreme Direlands Desert Generator */
+     , (8978, 1956, 7, 6, '2005-02-09 10:00:00') /* Extreme Direlands Desert Generator */
+     , (8978, 1956, 8, 1, '2005-02-09 10:00:00') /* Extreme Direlands Desert Generator */;

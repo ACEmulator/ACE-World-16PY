@@ -4,6 +4,8 @@ INSERT INTO `encounter` (`landblock`, `weenie_Class_Id`, `cell_X`, `cell_Y`, `la
 VALUES (46958, 5149, 1, 6, '2005-02-09 10:00:00') /* Harmless Sho Generator */
      , (46958, 5149, 2, 1, '2005-02-09 10:00:00') /* Harmless Sho Generator */
      , (46958, 5149, 3, 1, '2005-02-09 10:00:00') /* Harmless Sho Generator */
+     , (46958, 5149, 4, 8, '2005-02-09 10:00:00') /* Harmless Sho Generator */
      , (46958, 5149, 5, 0, '2005-02-09 10:00:00') /* Harmless Sho Generator */
      , (46958, 5149, 5, 5, '2005-02-09 10:00:00') /* Harmless Sho Generator */
-     , (46958, 5149, 5, 6, '2005-02-09 10:00:00') /* Harmless Sho Generator */;
+     , (46958, 5149, 5, 6, '2005-02-09 10:00:00') /* Harmless Sho Generator */
+     , (46958, 5149, 8, 2, '2005-02-09 10:00:00') /* Harmless Sho Generator */;

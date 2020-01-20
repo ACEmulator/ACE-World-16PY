@@ -7,4 +7,5 @@ VALUES (10377, 1967, 0, 3, '2005-02-09 10:00:00') /* High Direlands Forest Gener
      , (10377, 1967, 3, 2, '2005-02-09 10:00:00') /* High Direlands Forest Generator */
      , (10377, 1967, 3, 4, '2005-02-09 10:00:00') /* High Direlands Forest Generator */
      , (10377, 1967, 4, 3, '2005-02-09 10:00:00') /* High Direlands Forest Generator */
-     , (10377, 1967, 5, 6, '2005-02-09 10:00:00') /* High Direlands Forest Generator */;
+     , (10377, 1967, 5, 6, '2005-02-09 10:00:00') /* High Direlands Forest Generator */
+     , (10377, 1967, 8, 8, '2005-02-09 10:00:00') /* High Direlands Forest Generator */;

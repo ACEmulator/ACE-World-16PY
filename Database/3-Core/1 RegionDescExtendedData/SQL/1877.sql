@@ -9,4 +9,6 @@ VALUES (6263, 1967, 0, 2, '2005-02-09 10:00:00') /* High Direlands Forest Genera
      , (6263, 1967, 5, 1, '2005-02-09 10:00:00') /* High Direlands Forest Generator */
      , (6263, 1967, 6, 0, '2005-02-09 10:00:00') /* High Direlands Forest Generator */
      , (6263, 1967, 7, 4, '2005-02-09 10:00:00') /* High Direlands Forest Generator */
-     , (6263, 1967, 7, 5, '2005-02-09 10:00:00') /* High Direlands Forest Generator */;
+     , (6263, 1967, 7, 5, '2005-02-09 10:00:00') /* High Direlands Forest Generator */
+     , (6263, 1967, 8, 6, '2005-02-09 10:00:00') /* High Direlands Forest Generator */
+     , (6263, 1967, 8, 7, '2005-02-09 10:00:00') /* High Direlands Forest Generator */;

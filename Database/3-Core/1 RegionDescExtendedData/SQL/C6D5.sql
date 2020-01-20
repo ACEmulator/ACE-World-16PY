@@ -9,4 +9,7 @@ VALUES (50901, 21185, 0, 7, '2005-02-09 10:00:00') /* Low North Mountain Mix Gen
      , (50901, 23193, 6, 3, '2005-02-09 10:00:00') /* Olthoi Mid North Generator */
      , (50901, 23193, 7, 0, '2005-02-09 10:00:00') /* Olthoi Mid North Generator */
      , (50901, 23193, 7, 3, '2005-02-09 10:00:00') /* Olthoi Mid North Generator */
-     , (50901, 23193, 7, 5, '2005-02-09 10:00:00') /* Olthoi Mid North Generator */;
+     , (50901, 23193, 7, 5, '2005-02-09 10:00:00') /* Olthoi Mid North Generator */
+     , (50901, 23193, 8, 0, '2005-02-09 10:00:00') /* Olthoi Mid North Generator */
+     , (50901, 23193, 8, 5, '2005-02-09 10:00:00') /* Olthoi Mid North Generator */
+     , (50901, 23193, 8, 6, '2005-02-09 10:00:00') /* Olthoi Mid North Generator */;

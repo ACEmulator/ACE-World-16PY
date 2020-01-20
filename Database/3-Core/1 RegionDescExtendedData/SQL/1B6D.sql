@@ -6,5 +6,7 @@ VALUES (7021, 1967, 1, 1, '2005-02-09 10:00:00') /* High Direlands Forest Genera
      , (7021, 1975, 3, 1, '2005-02-09 10:00:00') /* High Direlands South Mountains Generator */
      , (7021, 1975, 3, 3, '2005-02-09 10:00:00') /* High Direlands South Mountains Generator */
      , (7021, 1975, 3, 4, '2005-02-09 10:00:00') /* High Direlands South Mountains Generator */
+     , (7021, 1975, 4, 8, '2005-02-09 10:00:00') /* High Direlands South Mountains Generator */
      , (7021, 1975, 5, 5, '2005-02-09 10:00:00') /* High Direlands South Mountains Generator */
-     , (7021, 1975, 6, 2, '2005-02-09 10:00:00') /* High Direlands South Mountains Generator */;
+     , (7021, 1975, 6, 2, '2005-02-09 10:00:00') /* High Direlands South Mountains Generator */
+     , (7021, 1975, 8, 8, '2005-02-09 10:00:00') /* High Direlands South Mountains Generator */;

@@ -10,4 +10,5 @@ VALUES (50245, 7928, 1, 1, '2005-02-09 10:00:00') /* Low Central Mattekar Mounta
      , (50245, 7928, 4, 5, '2005-02-09 10:00:00') /* Low Central Mattekar Mountain Mix Generator */
      , (50245, 7928, 5, 5, '2005-02-09 10:00:00') /* Low Central Mattekar Mountain Mix Generator */
      , (50245, 7928, 6, 6, '2005-02-09 10:00:00') /* Low Central Mattekar Mountain Mix Generator */
-     , (50245, 7928, 6, 7, '2005-02-09 10:00:00') /* Low Central Mattekar Mountain Mix Generator */;
+     , (50245, 7928, 6, 7, '2005-02-09 10:00:00') /* Low Central Mattekar Mountain Mix Generator */
+     , (50245, 7928, 8, 5, '2005-02-09 10:00:00') /* Low Central Mattekar Mountain Mix Generator */;

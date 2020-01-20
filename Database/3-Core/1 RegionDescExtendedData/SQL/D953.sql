@@ -9,4 +9,7 @@ VALUES (55635, 2008, 1, 3, '2005-02-09 10:00:00') /* Newbie Gharundim Generator 
      , (55635, 2009, 6, 3, '2005-02-09 10:00:00') /* Newbie Sho Generator */
      , (55635, 2009, 6, 6, '2005-02-09 10:00:00') /* Newbie Sho Generator */
      , (55635, 2009, 7, 1, '2005-02-09 10:00:00') /* Newbie Sho Generator */
-     , (55635, 2009, 7, 4, '2005-02-09 10:00:00') /* Newbie Sho Generator */;
+     , (55635, 2009, 7, 4, '2005-02-09 10:00:00') /* Newbie Sho Generator */
+     , (55635, 2009, 8, 4, '2005-02-09 10:00:00') /* Newbie Sho Generator */
+     , (55635, 2009, 8, 5, '2005-02-09 10:00:00') /* Newbie Sho Generator */
+     , (55635, 2009, 8, 8, '2005-02-09 10:00:00') /* Newbie Sho Generator */;

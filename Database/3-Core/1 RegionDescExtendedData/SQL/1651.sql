@@ -7,10 +7,13 @@ VALUES (5713, 1959, 0, 0, '2005-02-09 10:00:00') /* Extreme Direlands Forest Dru
      , (5713, 1959, 1, 3, '2005-02-09 10:00:00') /* Extreme Direlands Forest Drudge Generator */
      , (5713, 1959, 2, 3, '2005-02-09 10:00:00') /* Extreme Direlands Forest Drudge Generator */
      , (5713, 1959, 3, 5, '2005-02-09 10:00:00') /* Extreme Direlands Forest Drudge Generator */
+     , (5713, 1959, 3, 8, '2005-02-09 10:00:00') /* Extreme Direlands Forest Drudge Generator */
      , (5713, 1959, 5, 1, '2005-02-09 10:00:00') /* Extreme Direlands Forest Drudge Generator */
      , (5713, 1959, 5, 3, '2005-02-09 10:00:00') /* Extreme Direlands Forest Drudge Generator */
      , (5713, 1959, 5, 4, '2005-02-09 10:00:00') /* Extreme Direlands Forest Drudge Generator */
      , (5713, 1959, 5, 5, '2005-02-09 10:00:00') /* Extreme Direlands Forest Drudge Generator */
      , (5713, 1959, 5, 6, '2005-02-09 10:00:00') /* Extreme Direlands Forest Drudge Generator */
+     , (5713, 1959, 5, 8, '2005-02-09 10:00:00') /* Extreme Direlands Forest Drudge Generator */
      , (5713, 1959, 6, 5, '2005-02-09 10:00:00') /* Extreme Direlands Forest Drudge Generator */
-     , (5713, 1959, 7, 1, '2005-02-09 10:00:00') /* Extreme Direlands Forest Drudge Generator */;
+     , (5713, 1959, 7, 1, '2005-02-09 10:00:00') /* Extreme Direlands Forest Drudge Generator */
+     , (5713, 1959, 8, 2, '2005-02-09 10:00:00') /* Extreme Direlands Forest Drudge Generator */;

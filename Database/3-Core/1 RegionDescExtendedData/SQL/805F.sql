@@ -7,4 +7,6 @@ VALUES (32863, 2000, 0, 5, '2005-02-09 10:00:00') /* Low B Gharundim Generator *
      , (32863, 2000, 1, 5, '2005-02-09 10:00:00') /* Low B Gharundim Generator */
      , (32863, 2000, 6, 5, '2005-02-09 10:00:00') /* Low B Gharundim Generator */
      , (32863, 2000, 6, 7, '2005-02-09 10:00:00') /* Low B Gharundim Generator */
-     , (32863, 2000, 7, 7, '2005-02-09 10:00:00') /* Low B Gharundim Generator */;
+     , (32863, 2000, 7, 7, '2005-02-09 10:00:00') /* Low B Gharundim Generator */
+     , (32863, 2000, 7, 8, '2005-02-09 10:00:00') /* Low B Gharundim Generator */
+     , (32863, 2000, 8, 6, '2005-02-09 10:00:00') /* Low B Gharundim Generator */;

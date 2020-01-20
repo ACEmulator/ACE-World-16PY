@@ -7,4 +7,5 @@ VALUES (41022, 21171, 0, 5, '2005-02-09 10:00:00') /* Low Central Shadow Plains 
      , (41022, 21171, 5, 1, '2005-02-09 10:00:00') /* Low Central Shadow Plains Mix Generator */
      , (41022, 21171, 5, 7, '2005-02-09 10:00:00') /* Low Central Shadow Plains Mix Generator */
      , (41022, 21171, 6, 2, '2005-02-09 10:00:00') /* Low Central Shadow Plains Mix Generator */
-     , (41022, 21171, 7, 1, '2005-02-09 10:00:00') /* Low Central Shadow Plains Mix Generator */;
+     , (41022, 21171, 7, 1, '2005-02-09 10:00:00') /* Low Central Shadow Plains Mix Generator */
+     , (41022, 7931, 8, 8, '2005-02-09 10:00:00') /* Low Central Reedshark Plains Mix Generator */;

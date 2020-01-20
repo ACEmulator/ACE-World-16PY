@@ -5,4 +5,5 @@ VALUES (31652, 23151, 1, 4, '2005-02-09 10:00:00') /* Mid North Forest Mix Gener
      , (31652, 23151, 2, 7, '2005-02-09 10:00:00') /* Mid North Forest Mix Generator */
      , (31652, 23151, 4, 4, '2005-02-09 10:00:00') /* Mid North Forest Mix Generator */
      , (31652, 23151, 5, 4, '2005-02-09 10:00:00') /* Mid North Forest Mix Generator */
-     , (31652, 23151, 5, 5, '2005-02-09 10:00:00') /* Mid North Forest Mix Generator */;
+     , (31652, 23151, 5, 5, '2005-02-09 10:00:00') /* Mid North Forest Mix Generator */
+     , (31652, 23161, 8, 1, '2005-02-09 10:00:00') /* Mid North Plains Tumerok Generator */;

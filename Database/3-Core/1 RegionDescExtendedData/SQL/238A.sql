@@ -8,4 +8,7 @@ VALUES (9098, 1967, 0, 4, '2005-02-09 10:00:00') /* High Direlands Forest Genera
      , (9098, 1967, 2, 3, '2005-02-09 10:00:00') /* High Direlands Forest Generator */
      , (9098, 1967, 4, 3, '2005-02-09 10:00:00') /* High Direlands Forest Generator */
      , (9098, 1967, 5, 7, '2005-02-09 10:00:00') /* High Direlands Forest Generator */
-     , (9098, 1970, 7, 0, '2005-02-09 10:00:00') /* High Direlands Mountain Generator */;
+     , (9098, 1970, 7, 0, '2005-02-09 10:00:00') /* High Direlands Mountain Generator */
+     , (9098, 1967, 7, 8, '2005-02-09 10:00:00') /* High Direlands Forest Generator */
+     , (9098, 1970, 8, 0, '2005-02-09 10:00:00') /* High Direlands Mountain Generator */
+     , (9098, 1970, 8, 3, '2005-02-09 10:00:00') /* High Direlands Mountain Generator */;

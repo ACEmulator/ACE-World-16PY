@@ -7,4 +7,5 @@ VALUES (11481, 30425, 0, 1, '2005-02-09 10:00:00') /* Mid North Forest Mix Gener
      , (11481, 30427, 2, 5, '2005-02-09 10:00:00') /* Mid North Forest Mix Generator */
      , (11481, 30425, 4, 1, '2005-02-09 10:00:00') /* Mid North Forest Mix Generator */
      , (11481, 30425, 4, 5, '2005-02-09 10:00:00') /* Mid North Forest Mix Generator */
+     , (11481, 30425, 4, 8, '2005-02-09 10:00:00') /* Mid North Forest Mix Generator */
      , (11481, 30427, 5, 4, '2005-02-09 10:00:00') /* Mid North Forest Mix Generator */;

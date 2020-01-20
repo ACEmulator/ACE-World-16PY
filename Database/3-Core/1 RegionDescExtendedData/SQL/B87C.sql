@@ -7,4 +7,5 @@ VALUES (47228, 23185, 0, 1, '2005-02-09 10:00:00') /* Sho Newbie Plains Mix Gene
      , (47228, 23176, 6, 4, '2005-02-09 10:00:00') /* Aluvian Newbie Plains Mix Generator */
      , (47228, 23176, 6, 7, '2005-02-09 10:00:00') /* Aluvian Newbie Plains Mix Generator */
      , (47228, 23176, 7, 4, '2005-02-09 10:00:00') /* Aluvian Newbie Plains Mix Generator */
-     , (47228, 23176, 7, 5, '2005-02-09 10:00:00') /* Aluvian Newbie Plains Mix Generator */;
+     , (47228, 23176, 7, 5, '2005-02-09 10:00:00') /* Aluvian Newbie Plains Mix Generator */
+     , (47228, 23176, 8, 7, '2005-02-09 10:00:00') /* Aluvian Newbie Plains Mix Generator */;

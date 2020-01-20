@@ -7,4 +7,5 @@ VALUES (51303, 21173, 2, 6, '2005-02-09 10:00:00') /* Low Central Shore Mix Gene
      , (51303, 21174, 4, 0, '2005-02-09 10:00:00') /* Low Central Swamp Mix Generator */
      , (51303, 21174, 4, 5, '2005-02-09 10:00:00') /* Low Central Swamp Mix Generator */
      , (51303, 21174, 7, 0, '2005-02-09 10:00:00') /* Low Central Swamp Mix Generator */
-     , (51303, 21174, 7, 3, '2005-02-09 10:00:00') /* Low Central Swamp Mix Generator */;
+     , (51303, 21174, 7, 3, '2005-02-09 10:00:00') /* Low Central Swamp Mix Generator */
+     , (51303, 21174, 8, 2, '2005-02-09 10:00:00') /* Low Central Swamp Mix Generator */;

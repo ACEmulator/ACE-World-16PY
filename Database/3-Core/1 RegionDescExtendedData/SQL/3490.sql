@@ -7,4 +7,5 @@ VALUES (13456, 1973, 1, 3, '2005-02-09 10:00:00') /* East Shore Direland Mix Gen
      , (13456, 1973, 3, 6, '2005-02-09 10:00:00') /* East Shore Direland Mix Generator */
      , (13456, 1973, 5, 7, '2005-02-09 10:00:00') /* East Shore Direland Mix Generator */
      , (13456, 1973, 6, 0, '2005-02-09 10:00:00') /* East Shore Direland Mix Generator */
-     , (13456, 1973, 7, 4, '2005-02-09 10:00:00') /* East Shore Direland Mix Generator */;
+     , (13456, 1973, 7, 4, '2005-02-09 10:00:00') /* East Shore Direland Mix Generator */
+     , (13456, 1973, 8, 2, '2005-02-09 10:00:00') /* East Shore Direland Mix Generator */;

@@ -5,4 +5,6 @@ VALUES (46576, 7219, 2, 1, '2005-02-09 10:00:00') /* Aerlinthe Heights West Mix 
      , (46576, 7219, 3, 3, '2005-02-09 10:00:00') /* Aerlinthe Heights West Mix Gen */
      , (46576, 7219, 3, 5, '2005-02-09 10:00:00') /* Aerlinthe Heights West Mix Gen */
      , (46576, 7219, 5, 6, '2005-02-09 10:00:00') /* Aerlinthe Heights West Mix Gen */
-     , (46576, 7219, 6, 4, '2005-02-09 10:00:00') /* Aerlinthe Heights West Mix Gen */;
+     , (46576, 7219, 6, 4, '2005-02-09 10:00:00') /* Aerlinthe Heights West Mix Gen */
+     , (46576, 7219, 7, 8, '2005-02-09 10:00:00') /* Aerlinthe Heights West Mix Gen */
+     , (46576, 7219, 8, 3, '2005-02-09 10:00:00') /* Aerlinthe Heights West Mix Gen */;

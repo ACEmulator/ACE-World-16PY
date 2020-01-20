@@ -10,4 +10,6 @@ VALUES (16933, 1972, 2, 6, '2005-02-09 10:00:00') /* High Direlands Mountain Sha
      , (16933, 1972, 5, 2, '2005-02-09 10:00:00') /* High Direlands Mountain Shadow Generator */
      , (16933, 1972, 5, 6, '2005-02-09 10:00:00') /* High Direlands Mountain Shadow Generator */
      , (16933, 1972, 6, 5, '2005-02-09 10:00:00') /* High Direlands Mountain Shadow Generator */
-     , (16933, 1972, 7, 0, '2005-02-09 10:00:00') /* High Direlands Mountain Shadow Generator */;
+     , (16933, 1972, 7, 0, '2005-02-09 10:00:00') /* High Direlands Mountain Shadow Generator */
+     , (16933, 1972, 8, 6, '2005-02-09 10:00:00') /* High Direlands Mountain Shadow Generator */
+     , (16933, 1972, 8, 7, '2005-02-09 10:00:00') /* High Direlands Mountain Shadow Generator */;

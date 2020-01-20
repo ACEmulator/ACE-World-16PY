@@ -7,4 +7,5 @@ VALUES (62797, 4623, 0, 0, '2005-02-09 10:00:00') /* Low Central Forest Mix Gene
      , (62797, 4623, 3, 7, '2005-02-09 10:00:00') /* Low Central Forest Mix Generator */
      , (62797, 4623, 5, 0, '2005-02-09 10:00:00') /* Low Central Forest Mix Generator */
      , (62797, 4623, 6, 0, '2005-02-09 10:00:00') /* Low Central Forest Mix Generator */
-     , (62797, 4623, 6, 5, '2005-02-09 10:00:00') /* Low Central Forest Mix Generator */;
+     , (62797, 4623, 6, 5, '2005-02-09 10:00:00') /* Low Central Forest Mix Generator */
+     , (62797, 21173, 8, 5, '2005-02-09 10:00:00') /* Low Central Shore Mix Generator */;

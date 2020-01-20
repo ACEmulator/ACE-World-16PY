@@ -6,4 +6,5 @@ VALUES (34142, 2000, 0, 1, '2005-02-09 10:00:00') /* Low B Gharundim Generator *
      , (34142, 2000, 2, 6, '2005-02-09 10:00:00') /* Low B Gharundim Generator */
      , (34142, 2000, 4, 1, '2005-02-09 10:00:00') /* Low B Gharundim Generator */
      , (34142, 2000, 5, 1, '2005-02-09 10:00:00') /* Low B Gharundim Generator */
-     , (34142, 2000, 6, 7, '2005-02-09 10:00:00') /* Low B Gharundim Generator */;
+     , (34142, 2000, 6, 7, '2005-02-09 10:00:00') /* Low B Gharundim Generator */
+     , (34142, 2009, 8, 2, '2005-02-09 10:00:00') /* Newbie Sho Generator */;

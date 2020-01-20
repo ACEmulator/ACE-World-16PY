@@ -5,4 +5,6 @@ VALUES (16285, 23159, 0, 5, '2005-02-09 10:00:00') /* Mid North Plains Generator
      , (16285, 23159, 0, 7, '2005-02-09 10:00:00') /* Mid North Plains Generator */
      , (16285, 23152, 2, 7, '2005-02-09 10:00:00') /* Mid North Inland Shore Generator */
      , (16285, 23162, 3, 1, '2005-02-09 10:00:00') /* Mid North Shore Generator */
-     , (16285, 23159, 4, 4, '2005-02-09 10:00:00') /* Mid North Plains Generator */;
+     , (16285, 23161, 3, 8, '2005-02-09 10:00:00') /* Mid North Plains Tumerok Generator */
+     , (16285, 23159, 4, 4, '2005-02-09 10:00:00') /* Mid North Plains Generator */
+     , (16285, 23161, 7, 8, '2005-02-09 10:00:00') /* Mid North Plains Tumerok Generator */;

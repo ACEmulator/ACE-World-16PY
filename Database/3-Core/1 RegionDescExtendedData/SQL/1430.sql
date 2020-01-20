@@ -5,4 +5,6 @@ VALUES (5168, 1965, 0, 0, '2005-02-09 10:00:00') /* Extreme Direlands Shore Gene
      , (5168, 1960, 0, 2, '2005-02-09 10:00:00') /* Extreme Direlands Forest Generator */
      , (5168, 1960, 3, 3, '2005-02-09 10:00:00') /* Extreme Direlands Forest Generator */
      , (5168, 1960, 3, 4, '2005-02-09 10:00:00') /* Extreme Direlands Forest Generator */
-     , (5168, 1960, 4, 3, '2005-02-09 10:00:00') /* Extreme Direlands Forest Generator */;
+     , (5168, 1960, 4, 3, '2005-02-09 10:00:00') /* Extreme Direlands Forest Generator */
+     , (5168, 1960, 6, 8, '2005-02-09 10:00:00') /* Extreme Direlands Forest Generator */
+     , (5168, 1960, 8, 8, '2005-02-09 10:00:00') /* Extreme Direlands Forest Generator */;

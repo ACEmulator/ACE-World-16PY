@@ -6,9 +6,14 @@ VALUES (8017, 1960, 0, 6, '2005-02-09 10:00:00') /* Extreme Direlands Forest Gen
      , (8017, 1960, 2, 0, '2005-02-09 10:00:00') /* Extreme Direlands Forest Generator */
      , (8017, 1960, 2, 7, '2005-02-09 10:00:00') /* Extreme Direlands Forest Generator */
      , (8017, 1960, 3, 3, '2005-02-09 10:00:00') /* Extreme Direlands Forest Generator */
+     , (8017, 1957, 3, 8, '2005-02-09 10:00:00') /* Extreme Direlands Desert Shadow Generator */
      , (8017, 1960, 4, 2, '2005-02-09 10:00:00') /* Extreme Direlands Forest Generator */
      , (8017, 1960, 5, 3, '2005-02-09 10:00:00') /* Extreme Direlands Forest Generator */
      , (8017, 1960, 5, 5, '2005-02-09 10:00:00') /* Extreme Direlands Forest Generator */
+     , (8017, 1957, 5, 8, '2005-02-09 10:00:00') /* Extreme Direlands Desert Shadow Generator */
      , (8017, 1960, 6, 4, '2005-02-09 10:00:00') /* Extreme Direlands Forest Generator */
+     , (8017, 1957, 6, 8, '2005-02-09 10:00:00') /* Extreme Direlands Desert Shadow Generator */
      , (8017, 1960, 7, 5, '2005-02-09 10:00:00') /* Extreme Direlands Forest Generator */
-     , (8017, 1960, 7, 7, '2005-02-09 10:00:00') /* Extreme Direlands Forest Generator */;
+     , (8017, 1960, 7, 7, '2005-02-09 10:00:00') /* Extreme Direlands Forest Generator */
+     , (8017, 1957, 7, 8, '2005-02-09 10:00:00') /* Extreme Direlands Desert Shadow Generator */
+     , (8017, 1957, 8, 1, '2005-02-09 10:00:00') /* Extreme Direlands Desert Shadow Generator */;

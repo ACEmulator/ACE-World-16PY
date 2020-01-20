@@ -9,5 +9,8 @@ VALUES (12824, 1969, 0, 4, '2005-02-09 10:00:00') /* High Direlands Desert Undea
      , (12824, 1969, 5, 0, '2005-02-09 10:00:00') /* High Direlands Desert Undead Generator */
      , (12824, 1969, 5, 1, '2005-02-09 10:00:00') /* High Direlands Desert Undead Generator */
      , (12824, 1969, 5, 3, '2005-02-09 10:00:00') /* High Direlands Desert Undead Generator */
+     , (12824, 1966, 5, 8, '2005-02-09 10:00:00') /* High Direlands Desert Generator */
      , (12824, 1969, 6, 2, '2005-02-09 10:00:00') /* High Direlands Desert Undead Generator */
-     , (12824, 1966, 7, 7, '2005-02-09 10:00:00') /* High Direlands Desert Generator */;
+     , (12824, 1966, 7, 7, '2005-02-09 10:00:00') /* High Direlands Desert Generator */
+     , (12824, 1966, 8, 6, '2005-02-09 10:00:00') /* High Direlands Desert Generator */
+     , (12824, 1966, 8, 7, '2005-02-09 10:00:00') /* High Direlands Desert Generator */;

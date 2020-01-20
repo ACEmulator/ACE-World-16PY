@@ -8,4 +8,5 @@ VALUES (5955, 1960, 1, 1, '2005-02-09 10:00:00') /* Extreme Direlands Forest Gen
      , (5955, 1957, 4, 2, '2005-02-09 10:00:00') /* Extreme Direlands Desert Shadow Generator */
      , (5955, 1960, 4, 5, '2005-02-09 10:00:00') /* Extreme Direlands Forest Generator */
      , (5955, 1960, 5, 3, '2005-02-09 10:00:00') /* Extreme Direlands Forest Generator */
-     , (5955, 1959, 7, 2, '2005-02-09 10:00:00') /* Extreme Direlands Forest Drudge Generator */;
+     , (5955, 1959, 7, 2, '2005-02-09 10:00:00') /* Extreme Direlands Forest Drudge Generator */
+     , (5955, 1959, 8, 0, '2005-02-09 10:00:00') /* Extreme Direlands Forest Drudge Generator */;

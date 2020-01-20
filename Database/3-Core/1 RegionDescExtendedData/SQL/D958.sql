@@ -8,4 +8,5 @@ VALUES (55640, 5149, 1, 5, '2005-02-09 10:00:00') /* Harmless Sho Generator */
      , (55640, 2009, 5, 2, '2005-02-09 10:00:00') /* Newbie Sho Generator */
      , (55640, 2009, 5, 6, '2005-02-09 10:00:00') /* Newbie Sho Generator */
      , (55640, 2009, 6, 5, '2005-02-09 10:00:00') /* Newbie Sho Generator */
+     , (55640, 2009, 6, 8, '2005-02-09 10:00:00') /* Newbie Sho Generator */
      , (55640, 2009, 7, 6, '2005-02-09 10:00:00') /* Newbie Sho Generator */;

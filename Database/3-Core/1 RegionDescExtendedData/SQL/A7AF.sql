@@ -4,4 +4,7 @@ INSERT INTO `encounter` (`landblock`, `weenie_Class_Id`, `cell_X`, `cell_Y`, `la
 VALUES (42927, 1996, 3, 0, '2005-02-09 10:00:00') /* Low A Aluvian Generator */
      , (42927, 2007, 3, 7, '2005-02-09 10:00:00') /* Newbie Aluvian Generator */
      , (42927, 1996, 6, 0, '2005-02-09 10:00:00') /* Low A Aluvian Generator */
-     , (42927, 2007, 7, 5, '2005-02-09 10:00:00') /* Newbie Aluvian Generator */;
+     , (42927, 2007, 6, 8, '2005-02-09 10:00:00') /* Newbie Aluvian Generator */
+     , (42927, 2007, 7, 5, '2005-02-09 10:00:00') /* Newbie Aluvian Generator */
+     , (42927, 2007, 8, 4, '2005-02-09 10:00:00') /* Newbie Aluvian Generator */
+     , (42927, 5150, 8, 5, '2005-02-09 10:00:00') /* Harmless Aluvian Generator */;

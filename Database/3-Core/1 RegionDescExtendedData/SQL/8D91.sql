@@ -5,4 +5,7 @@ VALUES (36241, 21183, 0, 1, '2005-02-09 10:00:00') /* Low North Forest Mix Gener
      , (36241, 21183, 1, 6, '2005-02-09 10:00:00') /* Low North Forest Mix Generator */
      , (36241, 21183, 2, 6, '2005-02-09 10:00:00') /* Low North Forest Mix Generator */
      , (36241, 21183, 4, 6, '2005-02-09 10:00:00') /* Low North Forest Mix Generator */
-     , (36241, 21183, 6, 0, '2005-02-09 10:00:00') /* Low North Forest Mix Generator */;
+     , (36241, 21183, 6, 0, '2005-02-09 10:00:00') /* Low North Forest Mix Generator */
+     , (36241, 21183, 8, 1, '2005-02-09 10:00:00') /* Low North Forest Mix Generator */
+     , (36241, 21183, 8, 5, '2005-02-09 10:00:00') /* Low North Forest Mix Generator */
+     , (36241, 21183, 8, 6, '2005-02-09 10:00:00') /* Low North Forest Mix Generator */;

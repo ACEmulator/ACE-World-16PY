@@ -8,4 +8,5 @@ VALUES (31168, 1970, 0, 5, '2005-02-09 10:00:00') /* High Direlands Mountain Gen
      , (31168, 2002, 4, 5, '2005-02-09 10:00:00') /* High North Mountains Drudge Generator */
      , (31168, 2002, 5, 7, '2005-02-09 10:00:00') /* High North Mountains Drudge Generator */
      , (31168, 2002, 6, 0, '2005-02-09 10:00:00') /* High North Mountains Drudge Generator */
-     , (31168, 2002, 7, 2, '2005-02-09 10:00:00') /* High North Mountains Drudge Generator */;
+     , (31168, 2002, 7, 2, '2005-02-09 10:00:00') /* High North Mountains Drudge Generator */
+     , (31168, 2002, 7, 8, '2005-02-09 10:00:00') /* High North Mountains Drudge Generator */;
