@@ -12,7 +12,7 @@ VALUES (657,   1,         16) /* ItemType - Creature */
      , (657,  16,         32) /* ItemUseable - Remote */
      , (657,  25,          6) /* Level */
      , (657,  27,          0) /* ArmorType - None */
-     , (657,  74,     288679) /* MerchandiseItemTypes - Vestments, Food, Weapon, LockableMagicTarget, Useless, Writable, Key, PromissoryNote */
+     , (657,  74,     288679) /* MerchandiseItemTypes - Vestements, Food, Weapon, LockableMagicTarget, Useless, Writable, Key, PromissoryNote */
      , (657,  75,          0) /* MerchandiseMinValue */
      , (657,  76,     100000) /* MerchandiseMaxValue */
      , (657,  93,    2098200) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */

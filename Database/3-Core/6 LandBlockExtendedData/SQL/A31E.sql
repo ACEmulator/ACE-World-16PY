@@ -1,73 +1,73 @@
-DELETE FROM `landblock_instance` WHERE `landblock` = 41758;
+DELETE FROM `landblock_instance` WHERE `landblock` = 0xA31E;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (2050088960,  7923, 2736652288, 13.0734, 124.101, 532, 0.991106, 0, 0, -0.133077, False, '2005-02-09 10:00:00'); /* Linkable Monster Generator ( 3 Min.) */
+VALUES (0x7A31E000,  7923, 0xA31E0000, 13.0734, 124.101, 532, 0.991106, 0, 0, -0.133077, False, '2005-02-09 10:00:00'); /* Linkable Monster Generator ( 3 Min.) */
 /* @teleloc 0xA31E0000 [13.073400 124.101000 532.000000] 0.991106 0.000000 0.000000 -0.133077 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (2050088960, 2050088965, '2005-02-09 10:00:00') /* Lithos Raider */
-     , (2050088960, 2050088966, '2005-02-09 10:00:00') /* Lithos Raider */
-     , (2050088960, 2050088967, '2005-02-09 10:00:00') /* Lithos Raider */
-     , (2050088960, 2050088968, '2005-02-09 10:00:00') /* Amploth Raider */
-     , (2050088960, 2050088969, '2005-02-09 10:00:00') /* Amploth Raider */
-     , (2050088960, 2050088970, '2005-02-09 10:00:00') /* Obeloth Raider */
-     , (2050088960, 2050088971, '2005-02-09 10:00:00') /* Obeloth Raider */
-     , (2050088960, 2050088972, '2005-02-09 10:00:00') /* Obeloth Raider */
-     , (2050088960, 2050088973, '2005-02-09 10:00:00') /* Amploth Raider */;
+VALUES (0x7A31E000, 0x7A31E005, '2005-02-09 10:00:00') /* Lithos Raider */
+     , (0x7A31E000, 0x7A31E006, '2005-02-09 10:00:00') /* Lithos Raider */
+     , (0x7A31E000, 0x7A31E007, '2005-02-09 10:00:00') /* Lithos Raider */
+     , (0x7A31E000, 0x7A31E008, '2005-02-09 10:00:00') /* Amploth Raider */
+     , (0x7A31E000, 0x7A31E009, '2005-02-09 10:00:00') /* Amploth Raider */
+     , (0x7A31E000, 0x7A31E00A, '2005-02-09 10:00:00') /* Obeloth Raider */
+     , (0x7A31E000, 0x7A31E00B, '2005-02-09 10:00:00') /* Obeloth Raider */
+     , (0x7A31E000, 0x7A31E00C, '2005-02-09 10:00:00') /* Obeloth Raider */
+     , (0x7A31E000, 0x7A31E00D, '2005-02-09 10:00:00') /* Amploth Raider */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (2050088961,  7924, 2736652288, 12.071, 124.375, 532, 0.991106, 0, 0, -0.133078, False, '2005-02-09 10:00:00'); /* Linkable Monster Generator ( 5 Min.) */
+VALUES (0x7A31E001,  7924, 0xA31E0000, 12.071, 124.375, 532, 0.991106, 0, 0, -0.133078, False, '2005-02-09 10:00:00'); /* Linkable Monster Generator ( 5 Min.) */
 /* @teleloc 0xA31E0000 [12.071000 124.375000 532.000000] 0.991106 0.000000 0.000000 -0.133078 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (2050088961, 2050088962, '2005-02-09 10:00:00') /* Extas Raider */
-     , (2050088961, 2050088963, '2005-02-09 10:00:00') /* Extas Raider */
-     , (2050088961, 2050088964, '2005-02-09 10:00:00') /* Tiatus Raider */;
+VALUES (0x7A31E001, 0x7A31E002, '2005-02-09 10:00:00') /* Extas Raider */
+     , (0x7A31E001, 0x7A31E003, '2005-02-09 10:00:00') /* Extas Raider */
+     , (0x7A31E001, 0x7A31E004, '2005-02-09 10:00:00') /* Tiatus Raider */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (2050088962,  8138, 2736652288, 14.686, 124.553, 532.01, 0.998291, 0, 0, -0.0584353,  True, '2005-02-09 10:00:00'); /* Extas Raider */
+VALUES (0x7A31E002,  8138, 0xA31E0000, 14.686, 124.553, 532.01, 0.998291, 0, 0, -0.0584353,  True, '2005-02-09 10:00:00'); /* Extas Raider */
 /* @teleloc 0xA31E0000 [14.686000 124.553000 532.010000] 0.998291 0.000000 0.000000 -0.058435 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (2050088963,  8138, 2736652288, 9.023, 128.421, 532.01, 0.732579, 0, 0, -0.680683,  True, '2005-02-09 10:00:00'); /* Extas Raider */
+VALUES (0x7A31E003,  8138, 0xA31E0000, 9.023, 128.421, 532.01, 0.732579, 0, 0, -0.680683,  True, '2005-02-09 10:00:00'); /* Extas Raider */
 /* @teleloc 0xA31E0000 [9.023000 128.421000 532.010000] 0.732579 0.000000 0.000000 -0.680683 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (2050088964,  8137, 2736652288, 10.733, 124.283, 532.01, 0.915736, 0, 0, -0.40178,  True, '2005-02-09 10:00:00'); /* Tiatus Raider */
+VALUES (0x7A31E004,  8137, 0xA31E0000, 10.733, 124.283, 532.01, 0.915736, 0, 0, -0.40178,  True, '2005-02-09 10:00:00'); /* Tiatus Raider */
 /* @teleloc 0xA31E0000 [10.733000 124.283000 532.010000] 0.915736 0.000000 0.000000 -0.401780 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (2050088965,  8141, 2736652288, 92.3845, 122.211, 528.946, 0.876107, 0, 0, -0.482116,  True, '2005-02-09 10:00:00'); /* Lithos Raider */
+VALUES (0x7A31E005,  8141, 0xA31E0000, 92.3845, 122.211, 528.946, 0.876107, 0, 0, -0.482116,  True, '2005-02-09 10:00:00'); /* Lithos Raider */
 /* @teleloc 0xA31E0000 [92.384500 122.211000 528.946000] 0.876107 0.000000 0.000000 -0.482116 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (2050088966,  8141, 2736652288, 90.6823, 125.656, 527.785, 0.746461, 0, 0, -0.665429,  True, '2005-02-09 10:00:00'); /* Lithos Raider */
+VALUES (0x7A31E006,  8141, 0xA31E0000, 90.6823, 125.656, 527.785, 0.746461, 0, 0, -0.665429,  True, '2005-02-09 10:00:00'); /* Lithos Raider */
 /* @teleloc 0xA31E0000 [90.682300 125.656000 527.785000] 0.746461 0.000000 0.000000 -0.665429 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (2050088967,  8141, 2736652288, 95.0238, 122.153, 527.226, -0.995526, 0, 0, 0.0944906,  True, '2005-02-09 10:00:00'); /* Lithos Raider */
+VALUES (0x7A31E007,  8141, 0xA31E0000, 95.0238, 122.153, 527.226, -0.995526, 0, 0, 0.0944906,  True, '2005-02-09 10:00:00'); /* Lithos Raider */
 /* @teleloc 0xA31E0000 [95.023800 122.153000 527.226000] -0.995526 0.000000 0.000000 0.094491 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (2050088968,  8143, 2736652288, 168.653, 112.32, 484.695, 0.913755, 0, 0, -0.406265,  True, '2005-02-09 10:00:00'); /* Amploth Raider */
+VALUES (0x7A31E008,  8143, 0xA31E0000, 168.653, 112.32, 484.695, 0.913755, 0, 0, -0.406265,  True, '2005-02-09 10:00:00'); /* Amploth Raider */
 /* @teleloc 0xA31E0000 [168.653000 112.320000 484.695000] 0.913755 0.000000 0.000000 -0.406265 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (2050088969,  8143, 2736652288, 164.815, 116.881, 484.213, 0.781549, 0, 0, -0.623843,  True, '2005-02-09 10:00:00'); /* Amploth Raider */
+VALUES (0x7A31E009,  8143, 0xA31E0000, 164.815, 116.881, 484.213, 0.781549, 0, 0, -0.623843,  True, '2005-02-09 10:00:00'); /* Amploth Raider */
 /* @teleloc 0xA31E0000 [164.815000 116.881000 484.213000] 0.781549 0.000000 0.000000 -0.623843 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (2050088970,  8142, 2736652288, 165.364, 113.744, 485.938, 0.853229, 0, 0, -0.521537,  True, '2005-02-09 10:00:00'); /* Obeloth Raider */
+VALUES (0x7A31E00A,  8142, 0xA31E0000, 165.364, 113.744, 485.938, 0.853229, 0, 0, -0.521537,  True, '2005-02-09 10:00:00'); /* Obeloth Raider */
 /* @teleloc 0xA31E0000 [165.364000 113.744000 485.938000] 0.853229 0.000000 0.000000 -0.521537 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (2050088971,  8142, 2736652288, 125.111, 186.062, 464.561, 0.963455, 0, 0, -0.267872,  True, '2005-02-09 10:00:00'); /* Obeloth Raider */
+VALUES (0x7A31E00B,  8142, 0xA31E0000, 125.111, 186.062, 464.561, 0.963455, 0, 0, -0.267872,  True, '2005-02-09 10:00:00'); /* Obeloth Raider */
 /* @teleloc 0xA31E0000 [125.111000 186.062000 464.561000] 0.963455 0.000000 0.000000 -0.267872 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (2050088972,  8142, 2736652288, 121.091, 187.369, 466.37, 0.963455, 0, 0, -0.267872,  True, '2005-02-09 10:00:00'); /* Obeloth Raider */
+VALUES (0x7A31E00C,  8142, 0xA31E0000, 121.091, 187.369, 466.37, 0.963455, 0, 0, -0.267872,  True, '2005-02-09 10:00:00'); /* Obeloth Raider */
 /* @teleloc 0xA31E0000 [121.091000 187.369000 466.370000] 0.963455 0.000000 0.000000 -0.267872 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (2050088973,  8143, 2736652288, 125.768, 181.43, 467.211, 0.985384, 0, 0, -0.170349,  True, '2005-02-09 10:00:00'); /* Amploth Raider */
+VALUES (0x7A31E00D,  8143, 0xA31E0000, 125.768, 181.43, 467.211, 0.985384, 0, 0, -0.170349,  True, '2005-02-09 10:00:00'); /* Amploth Raider */
 /* @teleloc 0xA31E0000 [125.768000 181.430000 467.211000] 0.985384 0.000000 0.000000 -0.170349 */

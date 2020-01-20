@@ -12,7 +12,7 @@ VALUES (1355,   1,         16) /* ItemType - Creature */
      , (1355,  16,         32) /* ItemUseable - Remote */
      , (1355,  25,         10) /* Level */
      , (1355,  27,          0) /* ArmorType - None */
-     , (1355,  74,      25511) /* MerchandiseItemTypes - Vestments, Food, Weapon, LockableMagicTarget, Writable, Key */
+     , (1355,  74,      25511) /* MerchandiseItemTypes - Vestements, Food, Weapon, LockableMagicTarget, Writable, Key */
      , (1355,  75,          0) /* MerchandiseMinValue */
      , (1355,  76,     100000) /* MerchandiseMaxValue */
      , (1355,  93,    2098200) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */

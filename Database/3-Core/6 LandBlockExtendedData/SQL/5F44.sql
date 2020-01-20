@@ -1,196 +1,196 @@
-DELETE FROM `landblock_instance` WHERE `landblock` = 24388;
+DELETE FROM `landblock_instance` WHERE `landblock` = 0x5F44;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (1978941440, 22477, 1598292225, 0, -30, 0.0132, 0, 0, 0, -1,  True, '2005-02-09 10:00:00'); /* Statue of Knifer's Wish */
+VALUES (0x75F44000, 22477, 0x5F440101, 0, -30, 0.0132, 0, 0, 0, -1,  True, '2005-02-09 10:00:00'); /* Statue of Knifer's Wish */
 /* @teleloc 0x5F440101 [0.000000 -30.000000 0.013200] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (1978941441, 22472, 1598292231, 10, -20, 0.0132, -4.37114E-08, 0, 0, -1,  True, '2005-02-09 10:00:00'); /* Statue of Axer's Wishes */
+VALUES (0x75F44001, 22472, 0x5F440107, 10, -20, 0.0132, -4.37114E-08, 0, 0, -1,  True, '2005-02-09 10:00:00'); /* Statue of Axer's Wishes */
 /* @teleloc 0x5F440107 [10.000000 -20.000000 0.013200] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (1978941442, 22478, 1598292235, 10, -30, 0.0132, 0, 0, 0, -1,  True, '2005-02-09 10:00:00'); /* Statue of Fletcher's Dreams */
+VALUES (0x75F44002, 22478, 0x5F44010B, 10, -30, 0.0132, 0, 0, 0, -1,  True, '2005-02-09 10:00:00'); /* Statue of Fletcher's Dreams */
 /* @teleloc 0x5F44010B [10.000000 -30.000000 0.013200] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (1978941443, 22484, 1598292240, 10, -50, 0.0132, 1, 0, 0, -4.37114E-08,  True, '2005-02-09 10:00:00'); /* Statue of Lockpicker's Wish */
+VALUES (0x75F44003, 22484, 0x5F440110, 10, -50, 0.0132, 1, 0, 0, -4.37114E-08,  True, '2005-02-09 10:00:00'); /* Statue of Lockpicker's Wish */
 /* @teleloc 0x5F440110 [10.000000 -50.000000 0.013200] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (1978941444, 22489, 1598292245, 10, -60, 0.0132, 1, 0, 0, 0,  True, '2005-02-09 10:00:00'); /* Statue of Evasive Wishes */
+VALUES (0x75F44004, 22489, 0x5F440115, 10, -60, 0.0132, 1, 0, 0, 0,  True, '2005-02-09 10:00:00'); /* Statue of Evasive Wishes */
 /* @teleloc 0x5F440115 [10.000000 -60.000000 0.013200] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (1978941445, 22469, 1598292249, 20, -10, 0.0132, -4.37114E-08, 0, 0, -1,  True, '2005-02-09 10:00:00'); /* Statue of Scholarly Wishes */
+VALUES (0x75F44005, 22469, 0x5F440119, 20, -10, 0.0132, -4.37114E-08, 0, 0, -1,  True, '2005-02-09 10:00:00'); /* Statue of Scholarly Wishes */
 /* @teleloc 0x5F440119 [20.000000 -10.000000 0.013200] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (1978941446, 22473, 1598292253, 20, -20, 0.0132, 0, 0, 0, -1,  True, '2005-02-09 10:00:00'); /* Statue of Bowman's Wish */
+VALUES (0x75F44006, 22473, 0x5F44011D, 20, -20, 0.0132, 0, 0, 0, -1,  True, '2005-02-09 10:00:00'); /* Statue of Bowman's Wish */
 /* @teleloc 0x5F44011D [20.000000 -20.000000 0.013200] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (1978941447, 22479, 1598292259, 20, -30, 0.0132, 0, 0, 0, -1,  True, '2005-02-09 10:00:00'); /* Statue of Healer's Wish */
+VALUES (0x75F44007, 22479, 0x5F440123, 20, -30, 0.0132, 0, 0, 0, -1,  True, '2005-02-09 10:00:00'); /* Statue of Healer's Wish */
 /* @teleloc 0x5F440123 [20.000000 -30.000000 0.013200] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (1978941448, 22491, 1598292264, 20, -40, 0.0132, 0.707107, 0, 0, -0.707107,  True, '2005-02-09 10:00:00'); /* Statue of Greedy Wishes */
+VALUES (0x75F44008, 22491, 0x5F440128, 20, -40, 0.0132, 0.707107, 0, 0, -0.707107,  True, '2005-02-09 10:00:00'); /* Statue of Greedy Wishes */
 /* @teleloc 0x5F440128 [20.000000 -40.000000 0.013200] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (1978941449, 22485, 1598292267, 20, -50, 0.0132, 1, 0, 0, -4.37114E-08,  True, '2005-02-09 10:00:00'); /* Statue of Macer's Wish */
+VALUES (0x75F44009, 22485, 0x5F44012B, 20, -50, 0.0132, 1, 0, 0, -4.37114E-08,  True, '2005-02-09 10:00:00'); /* Statue of Macer's Wish */
 /* @teleloc 0x5F44012B [20.000000 -50.000000 0.013200] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (1978941450, 22490, 1598292272, 20, -60, 0.0132, 1, 0, 0, 0,  True, '2005-02-09 10:00:00'); /* Statue of Dodge Wishes */
+VALUES (0x75F4400A, 22490, 0x5F440130, 20, -60, 0.0132, 1, 0, 0, 0,  True, '2005-02-09 10:00:00'); /* Statue of Dodge Wishes */
 /* @teleloc 0x5F440130 [20.000000 -60.000000 0.013200] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (1978941451, 22495, 1598292278, 20, -70, 0.0132, 1, 0, 0, 0,  True, '2005-02-09 10:00:00'); /* Statue of Swordsman's Wish */
+VALUES (0x75F4400B, 22495, 0x5F440136, 20, -70, 0.0132, 1, 0, 0, 0,  True, '2005-02-09 10:00:00'); /* Statue of Swordsman's Wish */
 /* @teleloc 0x5F440136 [20.000000 -70.000000 0.013200] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (1978941452, 22468, 1598292282, 30, 0, 0.0132, -4.37114E-08, 0, 0, -1,  True, '2005-02-09 10:00:00'); /* Statue of Alchemical Wishes */
+VALUES (0x75F4400C, 22468, 0x5F44013A, 30, 0, 0.0132, -4.37114E-08, 0, 0, -1,  True, '2005-02-09 10:00:00'); /* Statue of Alchemical Wishes */
 /* @teleloc 0x5F44013A [30.000000 0.000000 0.013200] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (1978941453, 22470, 1598292285, 30, -10, 0.0132, 0, 0, 0, -1,  True, '2005-02-09 10:00:00'); /* Statue of Armor Tinker's Wish */
+VALUES (0x75F4400D, 22470, 0x5F44013D, 30, -10, 0.0132, 0, 0, 0, -1,  True, '2005-02-09 10:00:00'); /* Statue of Armor Tinker's Wish */
 /* @teleloc 0x5F44013D [30.000000 -10.000000 0.013200] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (1978941454, 22474, 1598292291, 30, -20, 0.0132, 0, 0, 0, -1,  True, '2005-02-09 10:00:00'); /* Statue of Cook's Wish */
+VALUES (0x75F4400E, 22474, 0x5F440143, 30, -20, 0.0132, 0, 0, 0, -1,  True, '2005-02-09 10:00:00'); /* Statue of Cook's Wish */
 /* @teleloc 0x5F440143 [30.000000 -20.000000 0.013200] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (1978941455, 22480, 1598292297, 30, -30, 0.0132, 0, 0, 0, -1,  True, '2005-02-09 10:00:00'); /* Statue of Artificer's Wish */
+VALUES (0x75F4400F, 22480, 0x5F440149, 30, -30, 0.0132, 0, 0, 0, -1,  True, '2005-02-09 10:00:00'); /* Statue of Artificer's Wish */
 /* @teleloc 0x5F440149 [30.000000 -30.000000 0.013200] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (1978941456, 22486, 1598292306, 30, -50, 0.0132, 1, 0, 0, 0,  True, '2005-02-09 10:00:00'); /* Statue of Resistance Wishes */
+VALUES (0x75F44010, 22486, 0x5F440152, 30, -50, 0.0132, 1, 0, 0, 0,  True, '2005-02-09 10:00:00'); /* Statue of Resistance Wishes */
 /* @teleloc 0x5F440152 [30.000000 -50.000000 0.013200] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (1978941457, 22492, 1598292309, 30, -60, 0.0132, 1, 0, 0, 0,  True, '2005-02-09 10:00:00'); /* Statue of Sprinter's Wish */
+VALUES (0x75F44011, 22492, 0x5F440155, 30, -60, 0.0132, 1, 0, 0, 0,  True, '2005-02-09 10:00:00'); /* Statue of Sprinter's Wish */
 /* @teleloc 0x5F440155 [30.000000 -60.000000 0.013200] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (1978941458, 22496, 1598292315, 30, -70, 0.0132, 1, 0, 0, 0,  True, '2005-02-09 10:00:00'); /* Statue of Brawler's Wish */
+VALUES (0x75F44012, 22496, 0x5F44015B, 30, -70, 0.0132, 1, 0, 0, 0,  True, '2005-02-09 10:00:00'); /* Statue of Brawler's Wish */
 /* @teleloc 0x5F44015B [30.000000 -70.000000 0.013200] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (1978941459, 22498, 1598292321, 30, -80, 0.0132, 1, 0, 0, 0,  True, '2005-02-09 10:00:00'); /* Statue of Weapon Tinker's Wish */
+VALUES (0x75F44013, 22498, 0x5F440161, 30, -80, 0.0132, 1, 0, 0, 0,  True, '2005-02-09 10:00:00'); /* Statue of Weapon Tinker's Wish */
 /* @teleloc 0x5F440161 [30.000000 -80.000000 0.013200] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (1978941460, 22471, 1598292324, 40, -10, 0.0132, 0, 0, 0, -1,  True, '2005-02-09 10:00:00'); /* Statue of Thrower's Wish */
+VALUES (0x75F44014, 22471, 0x5F440164, 40, -10, 0.0132, 0, 0, 0, -1,  True, '2005-02-09 10:00:00'); /* Statue of Thrower's Wish */
 /* @teleloc 0x5F440164 [40.000000 -10.000000 0.013200] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (1978941461, 22475, 1598292328, 40, -20, 0.0132, 0, 0, 0, -1,  True, '2005-02-09 10:00:00'); /* Statue of Enchanter's Wish */
+VALUES (0x75F44015, 22475, 0x5F440168, 40, -20, 0.0132, 0, 0, 0, -1,  True, '2005-02-09 10:00:00'); /* Statue of Enchanter's Wish */
 /* @teleloc 0x5F440168 [40.000000 -20.000000 0.013200] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (1978941462, 22481, 1598292334, 40, -30, 0.0132, 0, 0, 0, -1,  True, '2005-02-09 10:00:00'); /* Statue of Item Tinker's Wish */
+VALUES (0x75F44016, 22481, 0x5F44016E, 40, -30, 0.0132, 0, 0, 0, -1,  True, '2005-02-09 10:00:00'); /* Statue of Item Tinker's Wish */
 /* @teleloc 0x5F44016E [40.000000 -30.000000 0.013200] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (1978941463, 22491, 1598292339, 40, -40, 0.0132, -0.707107, 0, 0, -0.707107,  True, '2005-02-09 10:00:00'); /* Statue of Greedy Wishes */
+VALUES (0x75F44017, 22491, 0x5F440173, 40, -40, 0.0132, -0.707107, 0, 0, -0.707107,  True, '2005-02-09 10:00:00'); /* Statue of Greedy Wishes */
 /* @teleloc 0x5F440173 [40.000000 -40.000000 0.013200] -0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (1978941464, 22487, 1598292342, 40, -50, 0.0132, 1, 0, 0, -4.37114E-08,  True, '2005-02-09 10:00:00'); /* Statue of Magic Tinker's Wish */
+VALUES (0x75F44018, 22487, 0x5F440176, 40, -50, 0.0132, 1, 0, 0, -4.37114E-08,  True, '2005-02-09 10:00:00'); /* Statue of Magic Tinker's Wish */
 /* @teleloc 0x5F440176 [40.000000 -50.000000 0.013200] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (1978941465, 22493, 1598292347, 40, -60, 0.0132, 1, 0, 0, 0,  True, '2005-02-09 10:00:00'); /* Statue of Spearman's Wish */
+VALUES (0x75F44019, 22493, 0x5F44017B, 40, -60, 0.0132, 1, 0, 0, 0,  True, '2005-02-09 10:00:00'); /* Statue of Spearman's Wish */
 /* @teleloc 0x5F44017B [40.000000 -60.000000 0.013200] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (1978941466, 22497, 1598292353, 40, -70, 0.0132, 1, 0, 0, 0,  True, '2005-02-09 10:00:00'); /* Statue of Sorcerer's Wish */
+VALUES (0x75F4401A, 22497, 0x5F440181, 40, -70, 0.0132, 1, 0, 0, 0,  True, '2005-02-09 10:00:00'); /* Statue of Sorcerer's Wish */
 /* @teleloc 0x5F440181 [40.000000 -70.000000 0.013200] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (1978941467, 22476, 1598292357, 50, -20, 0.0132, 0, 0, 0, -1,  True, '2005-02-09 10:00:00'); /* Statue of Crossbowman's Wish */
+VALUES (0x75F4401B, 22476, 0x5F440185, 50, -20, 0.0132, 0, 0, 0, -1,  True, '2005-02-09 10:00:00'); /* Statue of Crossbowman's Wish */
 /* @teleloc 0x5F440185 [50.000000 -20.000000 0.013200] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (1978941468, 22482, 1598292361, 50, -30, 0.0132, 0, 0, 0, -1,  True, '2005-02-09 10:00:00'); /* Statue of Leaper's Wish */
+VALUES (0x75F4401C, 22482, 0x5F440189, 50, -30, 0.0132, 0, 0, 0, -1,  True, '2005-02-09 10:00:00'); /* Statue of Leaper's Wish */
 /* @teleloc 0x5F440189 [50.000000 -30.000000 0.013200] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (1978941469, 22488, 1598292366, 50, -50, 0.0132, 1, 0, 0, -4.37114E-08,  True, '2005-02-09 10:00:00'); /* Statue of Archmage's Wish */
+VALUES (0x75F4401D, 22488, 0x5F44018E, 50, -50, 0.0132, 1, 0, 0, -4.37114E-08,  True, '2005-02-09 10:00:00'); /* Statue of Archmage's Wish */
 /* @teleloc 0x5F44018E [50.000000 -50.000000 0.013200] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (1978941470, 22494, 1598292371, 50, -60, 0.0132, 1, 0, 0, 0,  True, '2005-02-09 10:00:00'); /* Statue of Staffer's Wish */
+VALUES (0x75F4401E, 22494, 0x5F440193, 50, -60, 0.0132, 1, 0, 0, 0,  True, '2005-02-09 10:00:00'); /* Statue of Staffer's Wish */
 /* @teleloc 0x5F440193 [50.000000 -60.000000 0.013200] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (1978941471, 22483, 1598292375, 60, -30, 0.0132, 0, 0, 0, -1,  True, '2005-02-09 10:00:00'); /* Statue of Life Giver's Wish */
+VALUES (0x75F4401F, 22483, 0x5F440197, 60, -30, 0.0132, 0, 0, 0, -1,  True, '2005-02-09 10:00:00'); /* Statue of Life Giver's Wish */
 /* @teleloc 0x5F440197 [60.000000 -30.000000 0.013200] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (1978941472, 22656, 1598292381, 130, -47.415, 0.005, 1, 0, 0, 0, False, '2005-02-09 10:00:00'); /* Arena of the Tusker Hero */
+VALUES (0x75F44020, 22656, 0x5F44019D, 130, -47.415, 0.005, 1, 0, 0, 0, False, '2005-02-09 10:00:00'); /* Arena of the Tusker Hero */
 /* @teleloc 0x5F44019D [130.000000 -47.415000 0.005000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (1978941473,  8580, 1598292385, 230.352, -79.5477, 0.005, 1, 0, 0, 0, False, '2005-02-09 10:00:00'); /* Waterfall */
+VALUES (0x75F44021,  8580, 0x5F4401A1, 230.352, -79.5477, 0.005, 1, 0, 0, 0, False, '2005-02-09 10:00:00'); /* Waterfall */
 /* @teleloc 0x5F4401A1 [230.352000 -79.547700 0.005000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (1978941474, 22500, 1598292386, 230, -91.5, 0.0132, 0, 0, 0, -1,  True, '2005-02-09 10:00:00'); /* Oolutanga, the Tusker King */
+VALUES (0x75F44022, 22500, 0x5F4401A2, 230, -91.5, 0.0132, 0, 0, 0, -1,  True, '2005-02-09 10:00:00'); /* Oolutanga, the Tusker King */
 /* @teleloc 0x5F4401A2 [230.000000 -91.500000 0.013200] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (1978941475,  5086, 1598292387, 230.325, -97.5091, 0.005, 0.999993, 0, 0, 0.003737, False, '2005-02-09 10:00:00'); /* Linkable Monster Gen - 30 sec. */
+VALUES (0x75F44023,  5086, 0x5F4401A3, 230.325, -97.5091, 0.005, 0.999993, 0, 0, 0.003737, False, '2005-02-09 10:00:00'); /* Linkable Monster Gen - 30 sec. */
 /* @teleloc 0x5F4401A3 [230.325000 -97.509100 0.005000] 0.999993 0.000000 0.000000 0.003737 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (1978941475, 1978941440, '2005-02-09 10:00:00') /* Statue of Knifer's Wish */
-     , (1978941475, 1978941441, '2005-02-09 10:00:00') /* Statue of Axer's Wishes */
-     , (1978941475, 1978941442, '2005-02-09 10:00:00') /* Statue of Fletcher's Dreams */
-     , (1978941475, 1978941443, '2005-02-09 10:00:00') /* Statue of Lockpicker's Wish */
-     , (1978941475, 1978941444, '2005-02-09 10:00:00') /* Statue of Evasive Wishes */
-     , (1978941475, 1978941445, '2005-02-09 10:00:00') /* Statue of Scholarly Wishes */
-     , (1978941475, 1978941446, '2005-02-09 10:00:00') /* Statue of Bowman's Wish */
-     , (1978941475, 1978941447, '2005-02-09 10:00:00') /* Statue of Healer's Wish */
-     , (1978941475, 1978941448, '2005-02-09 10:00:00') /* Statue of Greedy Wishes */
-     , (1978941475, 1978941449, '2005-02-09 10:00:00') /* Statue of Macer's Wish */
-     , (1978941475, 1978941450, '2005-02-09 10:00:00') /* Statue of Dodge Wishes */
-     , (1978941475, 1978941451, '2005-02-09 10:00:00') /* Statue of Swordsman's Wish */
-     , (1978941475, 1978941452, '2005-02-09 10:00:00') /* Statue of Alchemical Wishes */
-     , (1978941475, 1978941453, '2005-02-09 10:00:00') /* Statue of Armor Tinker's Wish */
-     , (1978941475, 1978941454, '2005-02-09 10:00:00') /* Statue of Cook's Wish */
-     , (1978941475, 1978941455, '2005-02-09 10:00:00') /* Statue of Artificer's Wish */
-     , (1978941475, 1978941456, '2005-02-09 10:00:00') /* Statue of Resistance Wishes */
-     , (1978941475, 1978941457, '2005-02-09 10:00:00') /* Statue of Sprinter's Wish */
-     , (1978941475, 1978941458, '2005-02-09 10:00:00') /* Statue of Brawler's Wish */
-     , (1978941475, 1978941459, '2005-02-09 10:00:00') /* Statue of Weapon Tinker's Wish */
-     , (1978941475, 1978941460, '2005-02-09 10:00:00') /* Statue of Thrower's Wish */
-     , (1978941475, 1978941461, '2005-02-09 10:00:00') /* Statue of Enchanter's Wish */
-     , (1978941475, 1978941462, '2005-02-09 10:00:00') /* Statue of Item Tinker's Wish */
-     , (1978941475, 1978941463, '2005-02-09 10:00:00') /* Statue of Greedy Wishes */
-     , (1978941475, 1978941464, '2005-02-09 10:00:00') /* Statue of Magic Tinker's Wish */
-     , (1978941475, 1978941465, '2005-02-09 10:00:00') /* Statue of Spearman's Wish */
-     , (1978941475, 1978941466, '2005-02-09 10:00:00') /* Statue of Sorcerer's Wish */
-     , (1978941475, 1978941467, '2005-02-09 10:00:00') /* Statue of Crossbowman's Wish */
-     , (1978941475, 1978941468, '2005-02-09 10:00:00') /* Statue of Leaper's Wish */
-     , (1978941475, 1978941469, '2005-02-09 10:00:00') /* Statue of Archmage's Wish */
-     , (1978941475, 1978941470, '2005-02-09 10:00:00') /* Statue of Staffer's Wish */
-     , (1978941475, 1978941471, '2005-02-09 10:00:00') /* Statue of Life Giver's Wish */
-     , (1978941475, 1978941474, '2005-02-09 10:00:00') /* Oolutanga, the Tusker King */;
+VALUES (0x75F44023, 0x75F44000, '2005-02-09 10:00:00') /* Statue of Knifer's Wish */
+     , (0x75F44023, 0x75F44001, '2005-02-09 10:00:00') /* Statue of Axer's Wishes */
+     , (0x75F44023, 0x75F44002, '2005-02-09 10:00:00') /* Statue of Fletcher's Dreams */
+     , (0x75F44023, 0x75F44003, '2005-02-09 10:00:00') /* Statue of Lockpicker's Wish */
+     , (0x75F44023, 0x75F44004, '2005-02-09 10:00:00') /* Statue of Evasive Wishes */
+     , (0x75F44023, 0x75F44005, '2005-02-09 10:00:00') /* Statue of Scholarly Wishes */
+     , (0x75F44023, 0x75F44006, '2005-02-09 10:00:00') /* Statue of Bowman's Wish */
+     , (0x75F44023, 0x75F44007, '2005-02-09 10:00:00') /* Statue of Healer's Wish */
+     , (0x75F44023, 0x75F44008, '2005-02-09 10:00:00') /* Statue of Greedy Wishes */
+     , (0x75F44023, 0x75F44009, '2005-02-09 10:00:00') /* Statue of Macer's Wish */
+     , (0x75F44023, 0x75F4400A, '2005-02-09 10:00:00') /* Statue of Dodge Wishes */
+     , (0x75F44023, 0x75F4400B, '2005-02-09 10:00:00') /* Statue of Swordsman's Wish */
+     , (0x75F44023, 0x75F4400C, '2005-02-09 10:00:00') /* Statue of Alchemical Wishes */
+     , (0x75F44023, 0x75F4400D, '2005-02-09 10:00:00') /* Statue of Armor Tinker's Wish */
+     , (0x75F44023, 0x75F4400E, '2005-02-09 10:00:00') /* Statue of Cook's Wish */
+     , (0x75F44023, 0x75F4400F, '2005-02-09 10:00:00') /* Statue of Artificer's Wish */
+     , (0x75F44023, 0x75F44010, '2005-02-09 10:00:00') /* Statue of Resistance Wishes */
+     , (0x75F44023, 0x75F44011, '2005-02-09 10:00:00') /* Statue of Sprinter's Wish */
+     , (0x75F44023, 0x75F44012, '2005-02-09 10:00:00') /* Statue of Brawler's Wish */
+     , (0x75F44023, 0x75F44013, '2005-02-09 10:00:00') /* Statue of Weapon Tinker's Wish */
+     , (0x75F44023, 0x75F44014, '2005-02-09 10:00:00') /* Statue of Thrower's Wish */
+     , (0x75F44023, 0x75F44015, '2005-02-09 10:00:00') /* Statue of Enchanter's Wish */
+     , (0x75F44023, 0x75F44016, '2005-02-09 10:00:00') /* Statue of Item Tinker's Wish */
+     , (0x75F44023, 0x75F44017, '2005-02-09 10:00:00') /* Statue of Greedy Wishes */
+     , (0x75F44023, 0x75F44018, '2005-02-09 10:00:00') /* Statue of Magic Tinker's Wish */
+     , (0x75F44023, 0x75F44019, '2005-02-09 10:00:00') /* Statue of Spearman's Wish */
+     , (0x75F44023, 0x75F4401A, '2005-02-09 10:00:00') /* Statue of Sorcerer's Wish */
+     , (0x75F44023, 0x75F4401B, '2005-02-09 10:00:00') /* Statue of Crossbowman's Wish */
+     , (0x75F44023, 0x75F4401C, '2005-02-09 10:00:00') /* Statue of Leaper's Wish */
+     , (0x75F44023, 0x75F4401D, '2005-02-09 10:00:00') /* Statue of Archmage's Wish */
+     , (0x75F44023, 0x75F4401E, '2005-02-09 10:00:00') /* Statue of Staffer's Wish */
+     , (0x75F44023, 0x75F4401F, '2005-02-09 10:00:00') /* Statue of Life Giver's Wish */
+     , (0x75F44023, 0x75F44022, '2005-02-09 10:00:00') /* Oolutanga, the Tusker King */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (1978941476,   278, 1598292390, 230, -125.25, 0, 1, 0, 0, 0, False, '2005-02-09 10:00:00'); /* Door */
+VALUES (0x75F44024,   278, 0x5F4401A6, 230, -125.25, 0, 1, 0, 0, 0, False, '2005-02-09 10:00:00'); /* Door */
 /* @teleloc 0x5F4401A6 [230.000000 -125.250000 0.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (1978941477, 22708, 1598292384, 220.084, -112.341, 0.005, -0.0156759, 0, 0, -0.999877, False, '2005-02-09 10:00:00'); /* Idol of Wishes */
+VALUES (0x75F44025, 22708, 0x5F4401A0, 220.084, -112.341, 0.005, -0.0156759, 0, 0, -0.999877, False, '2005-02-09 10:00:00'); /* Idol of Wishes */
 /* @teleloc 0x5F4401A0 [220.084000 -112.341000 0.005000] -0.015676 0.000000 0.000000 -0.999877 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (1978941478, 22685, 1598292394, 239.477, -112.149, 0.005, 0.0427559, 0, 0, -0.999086, False, '2005-02-09 10:00:00'); /* Surface */
+VALUES (0x75F44026, 22685, 0x5F4401AA, 239.477, -112.149, 0.005, 0.0427559, 0, 0, -0.999086, False, '2005-02-09 10:00:00'); /* Surface */
 /* @teleloc 0x5F4401AA [239.477000 -112.149000 0.005000] 0.042756 0.000000 0.000000 -0.999086 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (1978941479, 22684, 1598292378, 61.6234, -50.0506, 0.005, -0.711512, 0, 0, 0.702674, False, '2005-02-09 10:00:00'); /* Throne of the Tusker King */
+VALUES (0x75F44027, 22684, 0x5F44019A, 61.6234, -50.0506, 0.005, -0.711512, 0, 0, 0.702674, False, '2005-02-09 10:00:00'); /* Throne of the Tusker King */
 /* @teleloc 0x5F44019A [61.623400 -50.050600 0.005000] -0.711512 0.000000 0.000000 0.702674 */

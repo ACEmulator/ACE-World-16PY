@@ -16,7 +16,7 @@ VALUES (22101,   1,        128) /* ItemType - Misc */
      , (22101,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
      , (22101,  19,        100) /* Value */
      , (22101,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (22101,  94,          6) /* TargetType - Vestments */
+     , (22101,  94,          6) /* TargetType - Vestements */
      , (22101, 150,        103) /* HookPlacement - Hook */
      , (22101, 151,          2) /* HookType - Wall */;
 

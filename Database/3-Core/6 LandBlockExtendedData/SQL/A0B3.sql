@@ -1,20 +1,20 @@
-DELETE FROM `landblock_instance` WHERE `landblock` = 41139;
+DELETE FROM `landblock_instance` WHERE `landblock` = 0xA0B3;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (2047553536,   412, 2696085504, 62.6462, 36.1343, 76, 0.33843, 0, 0, -0.940992, False, '2005-02-09 10:00:00'); /* Door */
+VALUES (0x7A0B3000,   412, 0xA0B30000, 62.6462, 36.1343, 76, 0.33843, 0, 0, -0.940992, False, '2005-02-09 10:00:00'); /* Door */
 /* @teleloc 0xA0B30000 [62.646200 36.134300 76.000000] 0.338430 0.000000 0.000000 -0.940992 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (2047553539, 22801, 2696085764, 65.084, 37.131, 75.205, -0.939693, 0, 0, -0.34202, False, '2005-02-09 10:00:00'); /* Runed Chest */
+VALUES (0x7A0B3003, 22801, 0xA0B30104, 65.084, 37.131, 75.205, -0.939693, 0, 0, -0.34202, False, '2005-02-09 10:00:00'); /* Runed Chest */
 /* @teleloc 0xA0B30104 [65.084000 37.131000 75.205000] -0.939693 0.000000 0.000000 -0.342020 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (2047553540,  1630, 2696085762, 62.2363, 32.4963, 75.2075, -0.761412, 0, 0, 0.648268,  True, '2005-02-09 10:00:00'); /* Lich Lord */
+VALUES (0x7A0B3004,  1630, 0xA0B30102, 62.2363, 32.4963, 75.2075, -0.761412, 0, 0, 0.648268,  True, '2005-02-09 10:00:00'); /* Lich Lord */
 /* @teleloc 0xA0B30102 [62.236300 32.496300 75.207500] -0.761412 0.000000 0.000000 0.648268 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (2047553541,  7924, 2696085762, 64.5935, 32.0175, 75.205, -0.435959, 0, 0, -0.899966, False, '2005-02-09 10:00:00'); /* Linkable Monster Generator ( 5 Min.) */
+VALUES (0x7A0B3005,  7924, 0xA0B30102, 64.5935, 32.0175, 75.205, -0.435959, 0, 0, -0.899966, False, '2005-02-09 10:00:00'); /* Linkable Monster Generator ( 5 Min.) */
 /* @teleloc 0xA0B30102 [64.593500 32.017500 75.205000] -0.435959 0.000000 0.000000 -0.899966 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (2047553541, 2047553540, '2005-02-09 10:00:00') /* Lich Lord */;
+VALUES (0x7A0B3005, 0x7A0B3004, '2005-02-09 10:00:00') /* Lich Lord */;

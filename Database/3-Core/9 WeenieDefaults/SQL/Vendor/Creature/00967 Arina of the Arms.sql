@@ -12,7 +12,7 @@ VALUES (967,   1,         16) /* ItemType - Creature */
      , (967,  16,         32) /* ItemUseable - Remote */
      , (967,  25,         14) /* Level */
      , (967,  27,          0) /* ArmorType - None */
-     , (967,  74, 1074003974) /* MerchandiseItemTypes - Vestments, PromissoryNote, TinkeringMaterial */
+     , (967,  74, 1074003974) /* MerchandiseItemTypes - Vestements, PromissoryNote, TinkeringMaterial */
      , (967,  75,          0) /* MerchandiseMinValue */
      , (967,  76,      25000) /* MerchandiseMaxValue */
      , (967,  93,    2098200) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */

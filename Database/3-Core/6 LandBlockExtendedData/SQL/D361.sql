@@ -1,43 +1,43 @@
-DELETE FROM `landblock_instance` WHERE `landblock` = 54113;
+DELETE FROM `landblock_instance` WHERE `landblock` = 0xD361;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (2100695040,   200, 3546349568, 104.825, 17.3837, 6.011, -0.310096, 0, 0, 0.950705,  True, '2005-02-09 10:00:00'); /* Mud Golem */
+VALUES (0x7D361000,   200, 0xD3610000, 104.825, 17.3837, 6.011, -0.310096, 0, 0, 0.950705,  True, '2005-02-09 10:00:00'); /* Mud Golem */
 /* @teleloc 0xD3610000 [104.825000 17.383700 6.011000] -0.310096 0.000000 0.000000 0.950705 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (2100695041,   200, 3546349568, 110.097, 16.62, 6.011, 0.632445, 0, 0, 0.774605,  True, '2005-02-09 10:00:00'); /* Mud Golem */
+VALUES (0x7D361001,   200, 0xD3610000, 110.097, 16.62, 6.011, 0.632445, 0, 0, 0.774605,  True, '2005-02-09 10:00:00'); /* Mud Golem */
 /* @teleloc 0xD3610000 [110.097000 16.620000 6.011000] 0.632445 0.000000 0.000000 0.774605 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (2100695042,   200, 3546349568, 105.468, 11.7266, 6.011, 0.98856, 0, 0, -0.150831,  True, '2005-02-09 10:00:00'); /* Mud Golem */
+VALUES (0x7D361002,   200, 0xD3610000, 105.468, 11.7266, 6.011, 0.98856, 0, 0, -0.150831,  True, '2005-02-09 10:00:00'); /* Mud Golem */
 /* @teleloc 0xD3610000 [105.468000 11.726600 6.011000] 0.988560 0.000000 0.000000 -0.150831 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (2100695043,   200, 3546349568, 115.69, 5.72483, 6.011, 0.26614, 0, 0, -0.963934,  True, '2005-02-09 10:00:00'); /* Mud Golem */
+VALUES (0x7D361003,   200, 0xD3610000, 115.69, 5.72483, 6.011, 0.26614, 0, 0, -0.963934,  True, '2005-02-09 10:00:00'); /* Mud Golem */
 /* @teleloc 0xD3610000 [115.690000 5.724830 6.011000] 0.266140 0.000000 0.000000 -0.963934 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (2100695044,   776, 3546349568, 111.332, 13.7564, 6.005, 0.911619, 0, 0, 0.411036,  True, '2005-02-09 10:00:00'); /* Mugwort */
+VALUES (0x7D361004,   776, 0xD3610000, 111.332, 13.7564, 6.005, 0.911619, 0, 0, 0.411036,  True, '2005-02-09 10:00:00'); /* Mugwort */
 /* @teleloc 0xD3610000 [111.332000 13.756400 6.005000] 0.911619 0.000000 0.000000 0.411036 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (2100695045,   776, 3546349568, 110.592, 13.5861, 6.005, 0.911619, 0, 0, 0.411036,  True, '2005-02-09 10:00:00'); /* Mugwort */
+VALUES (0x7D361005,   776, 0xD3610000, 110.592, 13.5861, 6.005, 0.911619, 0, 0, 0.411036,  True, '2005-02-09 10:00:00'); /* Mugwort */
 /* @teleloc 0xD3610000 [110.592000 13.586100 6.005000] 0.911619 0.000000 0.000000 0.411036 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (2100695046,  1154, 3546349568, 109.588, 14.5499, 6.005, 0.697717, 0, 0, 0.716374, False, '2005-02-09 10:00:00'); /* Linkable Monster Generator */
+VALUES (0x7D361006,  1154, 0xD3610000, 109.588, 14.5499, 6.005, 0.697717, 0, 0, 0.716374, False, '2005-02-09 10:00:00'); /* Linkable Monster Generator */
 /* @teleloc 0xD3610000 [109.588000 14.549900 6.005000] 0.697717 0.000000 0.000000 0.716374 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (2100695046, 2100695040, '2005-02-09 10:00:00') /* Mud Golem */
-     , (2100695046, 2100695041, '2005-02-09 10:00:00') /* Mud Golem */
-     , (2100695046, 2100695042, '2005-02-09 10:00:00') /* Mud Golem */
-     , (2100695046, 2100695043, '2005-02-09 10:00:00') /* Mud Golem */;
+VALUES (0x7D361006, 0x7D361000, '2005-02-09 10:00:00') /* Mud Golem */
+     , (0x7D361006, 0x7D361001, '2005-02-09 10:00:00') /* Mud Golem */
+     , (0x7D361006, 0x7D361002, '2005-02-09 10:00:00') /* Mud Golem */
+     , (0x7D361006, 0x7D361003, '2005-02-09 10:00:00') /* Mud Golem */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (2100695047,  1542, 3546349568, 109.588, 14.5499, 6.005, 0.697717, 0, 0, 0.716374, False, '2005-02-09 10:00:00'); /* Linkable Item Generator */
+VALUES (0x7D361007,  1542, 0xD3610000, 109.588, 14.5499, 6.005, 0.697717, 0, 0, 0.716374, False, '2005-02-09 10:00:00'); /* Linkable Item Generator */
 /* @teleloc 0xD3610000 [109.588000 14.549900 6.005000] 0.697717 0.000000 0.000000 0.716374 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (2100695047, 2100695044, '2005-02-09 10:00:00') /* Mugwort */
-     , (2100695047, 2100695045, '2005-02-09 10:00:00') /* Mugwort */;
+VALUES (0x7D361007, 0x7D361004, '2005-02-09 10:00:00') /* Mugwort */
+     , (0x7D361007, 0x7D361005, '2005-02-09 10:00:00') /* Mugwort */;

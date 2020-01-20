@@ -12,7 +12,7 @@ VALUES (2293,   1,         16) /* ItemType - Creature */
      , (2293,  16,         32) /* ItemUseable - Remote */
      , (2293,  25,         17) /* Level */
      , (2293,  27,          0) /* ArmorType - None */
-     , (2293,  74, 1074005895) /* MerchandiseItemTypes - Vestments, Weapon, LockableMagicTarget, Useless, PromissoryNote, TinkeringMaterial */
+     , (2293,  74, 1074005895) /* MerchandiseItemTypes - Vestements, Weapon, LockableMagicTarget, Useless, PromissoryNote, TinkeringMaterial */
      , (2293,  75,          0) /* MerchandiseMinValue */
      , (2293,  76,     100000) /* MerchandiseMaxValue */
      , (2293,  93,    2098200) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */

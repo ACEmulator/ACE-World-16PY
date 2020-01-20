@@ -17,7 +17,7 @@ VALUES (11476,   1,    4194304) /* ItemType - CraftCookingBase */
      , (11476,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
      , (11476,  19,        100) /* Value */
      , (11476,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (11476,  94,        134) /* TargetType - Vestments, Misc */
+     , (11476,  94,        134) /* TargetType - Vestements, Misc */
      , (11476, 150,        103) /* HookPlacement - Hook */
      , (11476, 151,          9) /* HookType - Floor, Yard */;
 
