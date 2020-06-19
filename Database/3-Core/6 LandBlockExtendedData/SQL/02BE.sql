@@ -53,23 +53,23 @@ VALUES (0x702BE00C,  7925, 0x02BE011D, 52.0524, -51.1907, 0, -4.37114E-08, 0, 0,
 /* @teleloc 0x02BE011D [52.052400 -51.190700 0.000000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x702BE00C, 0x702BE006, '2005-02-09 10:00:00') /* Slithis Eye Stalk */;
+VALUES (0x702BE00C, 0x702BE006, '2005-02-09 10:00:00') /* Slithis Eye Stalk (4258) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x702BE00D,  7932, 0x02BE011D, 50.8075, -52.1129, 0, -4.37114E-08, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Linkable Monster Generator ( 4 Min.) */
 /* @teleloc 0x02BE011D [50.807500 -52.112900 0.000000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x702BE00D, 0x702BE000, '2005-02-09 10:00:00') /* Lich */
-     , (0x702BE00D, 0x702BE001, '2005-02-09 10:00:00') /* Lich */
-     , (0x702BE00D, 0x702BE002, '2005-02-09 10:00:00') /* Lich */
-     , (0x702BE00D, 0x702BE003, '2005-02-09 10:00:00') /* Ulu Sclavus */
-     , (0x702BE00D, 0x702BE004, '2005-02-09 10:00:00') /* Lich */
-     , (0x702BE00D, 0x702BE005, '2005-02-09 10:00:00') /* Ulu Sclavus */
-     , (0x702BE00D, 0x702BE009, '2005-02-09 10:00:00') /* Ulu Sclavus */
-     , (0x702BE00D, 0x702BE00A, '2005-02-09 10:00:00') /* Lich */
-     , (0x702BE00D, 0x702BE00B, '2005-02-09 10:00:00') /* Ulu Sclavus */
-     , (0x702BE00D, 0x702BE00E, '2005-02-09 10:00:00') /* Lich */;
+VALUES (0x702BE00D, 0x702BE000, '2005-02-09 10:00:00') /* Lich (204) */
+     , (0x702BE00D, 0x702BE001, '2005-02-09 10:00:00') /* Lich (204) */
+     , (0x702BE00D, 0x702BE002, '2005-02-09 10:00:00') /* Lich (204) */
+     , (0x702BE00D, 0x702BE003, '2005-02-09 10:00:00') /* Ulu Sclavus (7110) */
+     , (0x702BE00D, 0x702BE004, '2005-02-09 10:00:00') /* Lich (204) */
+     , (0x702BE00D, 0x702BE005, '2005-02-09 10:00:00') /* Ulu Sclavus (7110) */
+     , (0x702BE00D, 0x702BE009, '2005-02-09 10:00:00') /* Ulu Sclavus (7110) */
+     , (0x702BE00D, 0x702BE00A, '2005-02-09 10:00:00') /* Lich (204) */
+     , (0x702BE00D, 0x702BE00B, '2005-02-09 10:00:00') /* Ulu Sclavus (7110) */
+     , (0x702BE00D, 0x702BE00E, '2005-02-09 10:00:00') /* Lich (204) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x702BE00E,   204, 0x02BE011F, 56.6291, -10.0501, 0.00825, 0.659983, 0, 0, 0.75128,  True, '2005-02-09 10:00:00'); /* Lich */

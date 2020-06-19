@@ -5,9 +5,9 @@ VALUES (0x7A3AE003,  7924, 0xA3AE0000, 127.54, 113.006, 46.005, -0.967671, 0, 0,
 /* @teleloc 0xA3AE0000 [127.540000 113.006000 46.005000] -0.967671 0.000000 0.000000 -0.252216 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A3AE003, 0x7A3AE005, '2005-02-09 10:00:00') /* Scrawed Grievver */
-     , (0x7A3AE003, 0x7A3AE006, '2005-02-09 10:00:00') /* Scrawed Grievver */
-     , (0x7A3AE003, 0x7A3AE007, '2005-02-09 10:00:00') /* Scrawed Grievver */;
+VALUES (0x7A3AE003, 0x7A3AE005, '2005-02-09 10:00:00') /* Scrawed Grievver (7978) */
+     , (0x7A3AE003, 0x7A3AE006, '2005-02-09 10:00:00') /* Scrawed Grievver (7978) */
+     , (0x7A3AE003, 0x7A3AE007, '2005-02-09 10:00:00') /* Scrawed Grievver (7978) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A3AE004, 22807, 0xA3AE0000, 132.6, 113.72, 46.005, -0.965807, 0, 0, 0.259262, False, '2005-02-09 10:00:00'); /* Runed Chest */

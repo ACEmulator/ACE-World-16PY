@@ -1,11 +1,7 @@
-DELETE FROM `encounter` WHERE `landblock` = 31405;
+DELETE FROM `encounter` WHERE `landblock` = 0x7AAD;
 
 INSERT INTO `encounter` (`landblock`, `weenie_Class_Id`, `cell_X`, `cell_Y`, `last_Modified`)
-VALUES (31405, 23153, 0, 6, '2005-02-09 10:00:00') /* Mid North Mountains Banderling Generator */
-     , (31405, 23153, 0, 7, '2005-02-09 10:00:00') /* Mid North Mountains Banderling Generator */
-     , (31405, 23153, 0, 8, '2005-02-09 10:00:00') /* Mid North Mountains Banderling Generator */
-     , (31405, 23153, 1, 8, '2005-02-09 10:00:00') /* Mid North Mountains Banderling Generator */
-     , (31405, 23153, 3, 1, '2005-02-09 10:00:00') /* Mid North Mountains Banderling Generator */
-     , (31405, 23153, 4, 0, '2005-02-09 10:00:00') /* Mid North Mountains Banderling Generator */
-     , (31405, 23153, 8, 1, '2005-02-09 10:00:00') /* Mid North Mountains Banderling Generator */
-     , (31405, 23153, 8, 8, '2005-02-09 10:00:00') /* Mid North Mountains Banderling Generator */;
+VALUES (0x7AAD, 23153, 0, 6, '2005-02-09 10:00:00') /* Mid North Mountains Banderling Generator */
+     , (0x7AAD, 23153, 0, 7, '2005-02-09 10:00:00') /* Mid North Mountains Banderling Generator */
+     , (0x7AAD, 23153, 3, 1, '2005-02-09 10:00:00') /* Mid North Mountains Banderling Generator */
+     , (0x7AAD, 23153, 4, 0, '2005-02-09 10:00:00') /* Mid North Mountains Banderling Generator */;

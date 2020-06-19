@@ -41,12 +41,12 @@ VALUES (0x7A235009,  1154, 0xA2350000, 46.2111, 84.6621, 68.005, -0.359305, 0, 0
 /* @teleloc 0xA2350000 [46.211100 84.662100 68.005000] -0.359305 0.000000 0.000000 -0.933220 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A235009, 0x7A235000, '2005-02-09 10:00:00') /* Gotrok Amploth */
-     , (0x7A235009, 0x7A235001, '2005-02-09 10:00:00') /* Gotrok Amploth */
-     , (0x7A235009, 0x7A235002, '2005-02-09 10:00:00') /* Gotrok Laigus */
-     , (0x7A235009, 0x7A235003, '2005-02-09 10:00:00') /* Gotrok Laigus */
-     , (0x7A235009, 0x7A235004, '2005-02-09 10:00:00') /* Gotrok Obeloth */
-     , (0x7A235009, 0x7A23500A, '2005-02-09 10:00:00') /* Gotrok Lithos */;
+VALUES (0x7A235009, 0x7A235000, '2005-02-09 10:00:00') /* Gotrok Amploth (24939) */
+     , (0x7A235009, 0x7A235001, '2005-02-09 10:00:00') /* Gotrok Amploth (24939) */
+     , (0x7A235009, 0x7A235002, '2005-02-09 10:00:00') /* Gotrok Laigus (24941) */
+     , (0x7A235009, 0x7A235003, '2005-02-09 10:00:00') /* Gotrok Laigus (24941) */
+     , (0x7A235009, 0x7A235004, '2005-02-09 10:00:00') /* Gotrok Obeloth (24943) */
+     , (0x7A235009, 0x7A23500A, '2005-02-09 10:00:00') /* Gotrok Lithos (24942) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A23500A, 24942, 0xA2350000, 37.3495, 40.2498, 65.3657, 0.205992, 0, 0, -0.978554,  True, '2005-02-09 10:00:00'); /* Gotrok Lithos */

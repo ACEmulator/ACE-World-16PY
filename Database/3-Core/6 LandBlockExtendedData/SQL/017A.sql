@@ -13,7 +13,7 @@ VALUES (0x7017A002, 15759, 0x017A0103, 0.111239, -8.93708, -5.995, 0.999687, 0, 
 /* @teleloc 0x017A0103 [0.111239 -8.937080 -5.995000] 0.999687 0.000000 0.000000 -0.024997 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7017A002, 0x7017A003, '2005-02-09 10:00:00') /* Hand of Vagurat */;
+VALUES (0x7017A002, 0x7017A003, '2005-02-09 10:00:00') /* Hand of Vagurat (27901) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7017A003, 27901, 0x017A0103, 0.447397, -6.66148, -4.916, 0.707107, 0, 0, -0.707107,  True, '2005-02-09 10:00:00'); /* Hand of Vagurat */
@@ -88,29 +88,29 @@ VALUES (0x7017A014,  7932, 0x017A013E, 39.9859, -0.054964, 0, 0.707107, 0, 0, -0
 /* @teleloc 0x017A013E [39.985900 -0.054964 0.000000] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7017A014, 0x7017A001, '2005-02-09 10:00:00') /* Banderling Raider */
-     , (0x7017A014, 0x7017A005, '2005-02-09 10:00:00') /* Banderling Raider */
-     , (0x7017A014, 0x7017A006, '2005-02-09 10:00:00') /* Banderling Raider */
-     , (0x7017A014, 0x7017A007, '2005-02-09 10:00:00') /* Banderling Breeder */
-     , (0x7017A014, 0x7017A008, '2005-02-09 10:00:00') /* Banderling Breeder */
-     , (0x7017A014, 0x7017A009, '2005-02-09 10:00:00') /* Banderling Guard */
-     , (0x7017A014, 0x7017A00A, '2005-02-09 10:00:00') /* Banderling Guard */
-     , (0x7017A014, 0x7017A00B, '2005-02-09 10:00:00') /* Banderling Captain */
-     , (0x7017A014, 0x7017A00C, '2005-02-09 10:00:00') /* Banderling Captain */
-     , (0x7017A014, 0x7017A00D, '2005-02-09 10:00:00') /* Banderling Captain */
-     , (0x7017A014, 0x7017A010, '2005-02-09 10:00:00') /* Banderling Chief */
-     , (0x7017A014, 0x7017A011, '2005-02-09 10:00:00') /* Banderling Guard */
-     , (0x7017A014, 0x7017A012, '2005-02-09 10:00:00') /* Banderling Guard */
-     , (0x7017A014, 0x7017A013, '2005-02-09 10:00:00') /* Banderling Guard */
-     , (0x7017A014, 0x7017A015, '2005-02-09 10:00:00') /* Banderling Captain */
-     , (0x7017A014, 0x7017A016, '2005-02-09 10:00:00') /* Banderling Captain */
-     , (0x7017A014, 0x7017A017, '2005-02-09 10:00:00') /* Banderling Chief */
-     , (0x7017A014, 0x7017A019, '2005-02-09 10:00:00') /* Banderling Chief */
-     , (0x7017A014, 0x7017A01A, '2005-02-09 10:00:00') /* Banderling Guard */
-     , (0x7017A014, 0x7017A01C, '2005-02-09 10:00:00') /* Banderling Raider */
-     , (0x7017A014, 0x7017A01D, '2005-02-09 10:00:00') /* Banderling Guard */
-     , (0x7017A014, 0x7017A01E, '2005-02-09 10:00:00') /* Banderling Breeder */
-     , (0x7017A014, 0x7017A01F, '2005-02-09 10:00:00') /* Banderling Breeder */;
+VALUES (0x7017A014, 0x7017A001, '2005-02-09 10:00:00') /* Banderling Raider (938) */
+     , (0x7017A014, 0x7017A005, '2005-02-09 10:00:00') /* Banderling Raider (938) */
+     , (0x7017A014, 0x7017A006, '2005-02-09 10:00:00') /* Banderling Raider (938) */
+     , (0x7017A014, 0x7017A007, '2005-02-09 10:00:00') /* Banderling Breeder (1668) */
+     , (0x7017A014, 0x7017A008, '2005-02-09 10:00:00') /* Banderling Breeder (1668) */
+     , (0x7017A014, 0x7017A009, '2005-02-09 10:00:00') /* Banderling Guard (937) */
+     , (0x7017A014, 0x7017A00A, '2005-02-09 10:00:00') /* Banderling Guard (937) */
+     , (0x7017A014, 0x7017A00B, '2005-02-09 10:00:00') /* Banderling Captain (184) */
+     , (0x7017A014, 0x7017A00C, '2005-02-09 10:00:00') /* Banderling Captain (184) */
+     , (0x7017A014, 0x7017A00D, '2005-02-09 10:00:00') /* Banderling Captain (184) */
+     , (0x7017A014, 0x7017A010, '2005-02-09 10:00:00') /* Banderling Chief (1669) */
+     , (0x7017A014, 0x7017A011, '2005-02-09 10:00:00') /* Banderling Guard (937) */
+     , (0x7017A014, 0x7017A012, '2005-02-09 10:00:00') /* Banderling Guard (937) */
+     , (0x7017A014, 0x7017A013, '2005-02-09 10:00:00') /* Banderling Guard (937) */
+     , (0x7017A014, 0x7017A015, '2005-02-09 10:00:00') /* Banderling Captain (184) */
+     , (0x7017A014, 0x7017A016, '2005-02-09 10:00:00') /* Banderling Captain (184) */
+     , (0x7017A014, 0x7017A017, '2005-02-09 10:00:00') /* Banderling Chief (1669) */
+     , (0x7017A014, 0x7017A019, '2005-02-09 10:00:00') /* Banderling Chief (1669) */
+     , (0x7017A014, 0x7017A01A, '2005-02-09 10:00:00') /* Banderling Guard (937) */
+     , (0x7017A014, 0x7017A01C, '2005-02-09 10:00:00') /* Banderling Raider (938) */
+     , (0x7017A014, 0x7017A01D, '2005-02-09 10:00:00') /* Banderling Guard (937) */
+     , (0x7017A014, 0x7017A01E, '2005-02-09 10:00:00') /* Banderling Breeder (1668) */
+     , (0x7017A014, 0x7017A01F, '2005-02-09 10:00:00') /* Banderling Breeder (1668) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7017A015,   184, 0x017A0140, 42.4729, -62.7545, 0.00935, -0.862178, 0, 0, -0.506606,  True, '2005-02-09 10:00:00'); /* Banderling Captain */

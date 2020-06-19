@@ -145,35 +145,35 @@ VALUES (0x702C3023,  4219, 0x02C3028A, 141.52, -49.5892, 0.005, 0.999687, 0, 0, 
 /* @teleloc 0x02C3028A [141.520000 -49.589200 0.005000] 0.999687 0.000000 0.000000 0.024998 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x702C3023, 0x702C3001, '2005-02-09 10:00:00') /* Slithayr Eye Stalk */
-     , (0x702C3023, 0x702C3002, '2005-02-09 10:00:00') /* Slithayr Eye Stalk */
-     , (0x702C3023, 0x702C3003, '2005-02-09 10:00:00') /* Slithayr Eye Stalk */
-     , (0x702C3023, 0x702C3004, '2005-02-09 10:00:00') /* Slithayr Eye Stalk */
-     , (0x702C3023, 0x702C3005, '2005-02-09 10:00:00') /* Slithayr Eye Stalk */
-     , (0x702C3023, 0x702C3006, '2005-02-09 10:00:00') /* Slithayr Eye Stalk */
-     , (0x702C3023, 0x702C3007, '2005-02-09 10:00:00') /* Slithayr Eye Stalk */
-     , (0x702C3023, 0x702C3008, '2005-02-09 10:00:00') /* Slithayr Eye Stalk */
-     , (0x702C3023, 0x702C3009, '2005-02-09 10:00:00') /* Slithayr Eye Stalk */
-     , (0x702C3023, 0x702C300A, '2005-02-09 10:00:00') /* Slithayr Eye Stalk */
-     , (0x702C3023, 0x702C300B, '2005-02-09 10:00:00') /* Slithayr Eye Stalk */
-     , (0x702C3023, 0x702C300C, '2005-02-09 10:00:00') /* Slithayr Eye Stalk */
-     , (0x702C3023, 0x702C300D, '2005-02-09 10:00:00') /* Slithayr Eye Stalk */
-     , (0x702C3023, 0x702C300E, '2005-02-09 10:00:00') /* Slithayr Eye Stalk */
-     , (0x702C3023, 0x702C300F, '2005-02-09 10:00:00') /* Slithayr Eye Stalk */
-     , (0x702C3023, 0x702C3010, '2005-02-09 10:00:00') /* Slithayr Eye Stalk */
-     , (0x702C3023, 0x702C3011, '2005-02-09 10:00:00') /* Slithayr Eye Stalk */
-     , (0x702C3023, 0x702C3013, '2005-02-09 10:00:00') /* Slithayr Eye Stalk */
-     , (0x702C3023, 0x702C3017, '2005-02-09 10:00:00') /* Slithayr Eye Stalk */
-     , (0x702C3023, 0x702C3018, '2005-02-09 10:00:00') /* Slithayr Eye Stalk */
-     , (0x702C3023, 0x702C3019, '2005-02-09 10:00:00') /* Slithayr Eye Stalk */
-     , (0x702C3023, 0x702C301A, '2005-02-09 10:00:00') /* Slithayr Eye Stalk */
-     , (0x702C3023, 0x702C3020, '2005-02-09 10:00:00') /* Slithayr Eye Stalk */
-     , (0x702C3023, 0x702C3021, '2005-02-09 10:00:00') /* Slithayr Eye Stalk */;
+VALUES (0x702C3023, 0x702C3001, '2005-02-09 10:00:00') /* Slithayr Eye Stalk (4261) */
+     , (0x702C3023, 0x702C3002, '2005-02-09 10:00:00') /* Slithayr Eye Stalk (4261) */
+     , (0x702C3023, 0x702C3003, '2005-02-09 10:00:00') /* Slithayr Eye Stalk (4261) */
+     , (0x702C3023, 0x702C3004, '2005-02-09 10:00:00') /* Slithayr Eye Stalk (4261) */
+     , (0x702C3023, 0x702C3005, '2005-02-09 10:00:00') /* Slithayr Eye Stalk (4261) */
+     , (0x702C3023, 0x702C3006, '2005-02-09 10:00:00') /* Slithayr Eye Stalk (4261) */
+     , (0x702C3023, 0x702C3007, '2005-02-09 10:00:00') /* Slithayr Eye Stalk (4261) */
+     , (0x702C3023, 0x702C3008, '2005-02-09 10:00:00') /* Slithayr Eye Stalk (4261) */
+     , (0x702C3023, 0x702C3009, '2005-02-09 10:00:00') /* Slithayr Eye Stalk (4261) */
+     , (0x702C3023, 0x702C300A, '2005-02-09 10:00:00') /* Slithayr Eye Stalk (4261) */
+     , (0x702C3023, 0x702C300B, '2005-02-09 10:00:00') /* Slithayr Eye Stalk (4261) */
+     , (0x702C3023, 0x702C300C, '2005-02-09 10:00:00') /* Slithayr Eye Stalk (4261) */
+     , (0x702C3023, 0x702C300D, '2005-02-09 10:00:00') /* Slithayr Eye Stalk (4261) */
+     , (0x702C3023, 0x702C300E, '2005-02-09 10:00:00') /* Slithayr Eye Stalk (4261) */
+     , (0x702C3023, 0x702C300F, '2005-02-09 10:00:00') /* Slithayr Eye Stalk (4261) */
+     , (0x702C3023, 0x702C3010, '2005-02-09 10:00:00') /* Slithayr Eye Stalk (4261) */
+     , (0x702C3023, 0x702C3011, '2005-02-09 10:00:00') /* Slithayr Eye Stalk (4261) */
+     , (0x702C3023, 0x702C3013, '2005-02-09 10:00:00') /* Slithayr Eye Stalk (4261) */
+     , (0x702C3023, 0x702C3017, '2005-02-09 10:00:00') /* Slithayr Eye Stalk (4261) */
+     , (0x702C3023, 0x702C3018, '2005-02-09 10:00:00') /* Slithayr Eye Stalk (4261) */
+     , (0x702C3023, 0x702C3019, '2005-02-09 10:00:00') /* Slithayr Eye Stalk (4261) */
+     , (0x702C3023, 0x702C301A, '2005-02-09 10:00:00') /* Slithayr Eye Stalk (4261) */
+     , (0x702C3023, 0x702C3020, '2005-02-09 10:00:00') /* Slithayr Eye Stalk (4261) */
+     , (0x702C3023, 0x702C3021, '2005-02-09 10:00:00') /* Slithayr Eye Stalk (4261) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x702C3024,  7924, 0x02C3028A, 139.733, -49.7589, 0.005, 0.999687, 0, 0, 0.0249976, False, '2005-02-09 10:00:00'); /* Linkable Monster Generator ( 5 Min.) */
 /* @teleloc 0x02C3028A [139.733000 -49.758900 0.005000] 0.999687 0.000000 0.000000 0.024998 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x702C3024, 0x702C3012, '2005-02-09 10:00:00') /* Slithis Eye Stalk */
-     , (0x702C3024, 0x702C301E, '2005-02-09 10:00:00') /* Slithis Eye Stalk */;
+VALUES (0x702C3024, 0x702C3012, '2005-02-09 10:00:00') /* Slithis Eye Stalk (4258) */
+     , (0x702C3024, 0x702C301E, '2005-02-09 10:00:00') /* Slithis Eye Stalk (4258) */;

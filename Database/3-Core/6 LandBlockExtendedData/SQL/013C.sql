@@ -17,31 +17,31 @@ VALUES (0x7013C003,  3955, 0x013C0118, 49.5196, -47.6043, 0, -4.37114E-08, 0, 0,
 /* @teleloc 0x013C0118 [49.519600 -47.604300 0.000000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7013C003, 0x7013C000, '2005-02-09 10:00:00') /* Banderling Scout */
-     , (0x7013C003, 0x7013C001, '2005-02-09 10:00:00') /* Water Wisp */
-     , (0x7013C003, 0x7013C002, '2005-02-09 10:00:00') /* Water Wisp */
-     , (0x7013C003, 0x7013C004, '2005-02-09 10:00:00') /* Banderling Raver */
-     , (0x7013C003, 0x7013C005, '2005-02-09 10:00:00') /* Banderling Raver */
-     , (0x7013C003, 0x7013C006, '2005-02-09 10:00:00') /* Banderling Scout */
-     , (0x7013C003, 0x7013C007, '2005-02-09 10:00:00') /* Banderling Raver */
-     , (0x7013C003, 0x7013C008, '2005-02-09 10:00:00') /* Banderling Scout */
-     , (0x7013C003, 0x7013C009, '2005-02-09 10:00:00') /* Banderling Scout */
-     , (0x7013C003, 0x7013C00A, '2005-02-09 10:00:00') /* Banderling Guard */
-     , (0x7013C003, 0x7013C00B, '2005-02-09 10:00:00') /* Banderling Scout */
-     , (0x7013C003, 0x7013C00D, '2005-02-09 10:00:00') /* Banderling Raver */
-     , (0x7013C003, 0x7013C00E, '2005-02-09 10:00:00') /* Banderling Guard */
-     , (0x7013C003, 0x7013C00F, '2005-02-09 10:00:00') /* Banderling Breeder */
-     , (0x7013C003, 0x7013C010, '2005-02-09 10:00:00') /* Banderling Breeder */
-     , (0x7013C003, 0x7013C011, '2005-02-09 10:00:00') /* Banderling Raver */
-     , (0x7013C003, 0x7013C012, '2005-02-09 10:00:00') /* Banderling Guard */
-     , (0x7013C003, 0x7013C013, '2005-02-09 10:00:00') /* Banderling Raver */
-     , (0x7013C003, 0x7013C014, '2005-02-09 10:00:00') /* Banderling Raver */
-     , (0x7013C003, 0x7013C015, '2005-02-09 10:00:00') /* Banderling Raver */
-     , (0x7013C003, 0x7013C017, '2005-02-09 10:00:00') /* Banderling Raver */
-     , (0x7013C003, 0x7013C018, '2005-02-09 10:00:00') /* Banderling Raver */
-     , (0x7013C003, 0x7013C01C, '2005-02-09 10:00:00') /* Ghost Wisp */
-     , (0x7013C003, 0x7013C01D, '2005-02-09 10:00:00') /* Banderling Raver */
-     , (0x7013C003, 0x7013C01E, '2005-02-09 10:00:00') /* Banderling Raver */;
+VALUES (0x7013C003, 0x7013C000, '2005-02-09 10:00:00') /* Banderling Scout (6) */
+     , (0x7013C003, 0x7013C001, '2005-02-09 10:00:00') /* Water Wisp (1986) */
+     , (0x7013C003, 0x7013C002, '2005-02-09 10:00:00') /* Water Wisp (1986) */
+     , (0x7013C003, 0x7013C004, '2005-02-09 10:00:00') /* Banderling Raver (183) */
+     , (0x7013C003, 0x7013C005, '2005-02-09 10:00:00') /* Banderling Raver (183) */
+     , (0x7013C003, 0x7013C006, '2005-02-09 10:00:00') /* Banderling Scout (6) */
+     , (0x7013C003, 0x7013C007, '2005-02-09 10:00:00') /* Banderling Raver (183) */
+     , (0x7013C003, 0x7013C008, '2005-02-09 10:00:00') /* Banderling Scout (6) */
+     , (0x7013C003, 0x7013C009, '2005-02-09 10:00:00') /* Banderling Scout (6) */
+     , (0x7013C003, 0x7013C00A, '2005-02-09 10:00:00') /* Banderling Guard (937) */
+     , (0x7013C003, 0x7013C00B, '2005-02-09 10:00:00') /* Banderling Scout (6) */
+     , (0x7013C003, 0x7013C00D, '2005-02-09 10:00:00') /* Banderling Raver (183) */
+     , (0x7013C003, 0x7013C00E, '2005-02-09 10:00:00') /* Banderling Guard (937) */
+     , (0x7013C003, 0x7013C00F, '2005-02-09 10:00:00') /* Banderling Breeder (1668) */
+     , (0x7013C003, 0x7013C010, '2005-02-09 10:00:00') /* Banderling Breeder (1668) */
+     , (0x7013C003, 0x7013C011, '2005-02-09 10:00:00') /* Banderling Raver (183) */
+     , (0x7013C003, 0x7013C012, '2005-02-09 10:00:00') /* Banderling Guard (937) */
+     , (0x7013C003, 0x7013C013, '2005-02-09 10:00:00') /* Banderling Raver (183) */
+     , (0x7013C003, 0x7013C014, '2005-02-09 10:00:00') /* Banderling Raver (183) */
+     , (0x7013C003, 0x7013C015, '2005-02-09 10:00:00') /* Banderling Raver (183) */
+     , (0x7013C003, 0x7013C017, '2005-02-09 10:00:00') /* Banderling Raver (183) */
+     , (0x7013C003, 0x7013C018, '2005-02-09 10:00:00') /* Banderling Raver (183) */
+     , (0x7013C003, 0x7013C01C, '2005-02-09 10:00:00') /* Ghost Wisp (1987) */
+     , (0x7013C003, 0x7013C01D, '2005-02-09 10:00:00') /* Banderling Raver (183) */
+     , (0x7013C003, 0x7013C01E, '2005-02-09 10:00:00') /* Banderling Raver (183) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7013C004,   183, 0x013C0118, 50, -50, 0.0055, 0.992612, 0, 0, -0.121328,  True, '2005-02-09 10:00:00'); /* Banderling Raver */

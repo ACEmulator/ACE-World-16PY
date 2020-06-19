@@ -33,13 +33,13 @@ VALUES (0x77B69007,  7925, 0x7B690000, 8.18566, 12.756, 0.942, -0.800168, 0, 0, 
 /* @teleloc 0x7B690000 [8.185660 12.756000 0.942000] -0.800168 0.000000 0.000000 0.599776 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x77B69007, 0x77B69000, '2005-02-09 10:00:00') /* Tumerok Scout */
-     , (0x77B69007, 0x77B69001, '2005-02-09 10:00:00') /* Tumerok Fighter */
-     , (0x77B69007, 0x77B69002, '2005-02-09 10:00:00') /* Tumerok Fighter */
-     , (0x77B69007, 0x77B69003, '2005-02-09 10:00:00') /* Tumerok Warrior */
-     , (0x77B69007, 0x77B69004, '2005-02-09 10:00:00') /* Tumerok Warrior */
-     , (0x77B69007, 0x77B69005, '2005-02-09 10:00:00') /* Tumerok Fighter */
-     , (0x77B69007, 0x77B69006, '2005-02-09 10:00:00') /* Tumerok Fighter */;
+VALUES (0x77B69007, 0x77B69000, '2005-02-09 10:00:00') /* Tumerok Scout (232) */
+     , (0x77B69007, 0x77B69001, '2005-02-09 10:00:00') /* Tumerok Fighter (2439) */
+     , (0x77B69007, 0x77B69002, '2005-02-09 10:00:00') /* Tumerok Fighter (2439) */
+     , (0x77B69007, 0x77B69003, '2005-02-09 10:00:00') /* Tumerok Warrior (233) */
+     , (0x77B69007, 0x77B69004, '2005-02-09 10:00:00') /* Tumerok Warrior (233) */
+     , (0x77B69007, 0x77B69005, '2005-02-09 10:00:00') /* Tumerok Fighter (2439) */
+     , (0x77B69007, 0x77B69006, '2005-02-09 10:00:00') /* Tumerok Fighter (2439) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x77B69008, 26627, 0x7B690000, 3.56929, 12.8601, 0.935192, 0.318773, 0, 0, -0.947831, False, '2005-02-09 10:00:00'); /* Runed Chest */

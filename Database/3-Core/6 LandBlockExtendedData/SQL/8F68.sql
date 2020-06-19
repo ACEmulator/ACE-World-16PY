@@ -13,12 +13,12 @@ VALUES (0x78F68008,  7923, 0x8F680100, 57.8821, 80.676, 14.005, -0.364343, 0, 0,
 /* @teleloc 0x8F680100 [57.882100 80.676000 14.005000] -0.364343 0.000000 0.000000 0.931265 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x78F68008, 0x78F68004, '2005-02-09 10:00:00') /* Skeleton Captain */
-     , (0x78F68008, 0x78F68006, '2005-02-09 10:00:00') /* Skeleton Lord */
-     , (0x78F68008, 0x78F68009, '2005-02-09 10:00:00') /* Skeleton Captain */
-     , (0x78F68008, 0x78F6800A, '2005-02-09 10:00:00') /* Skeleton Captain */
-     , (0x78F68008, 0x78F6800B, '2005-02-09 10:00:00') /* Skeleton Captain */
-     , (0x78F68008, 0x78F6800C, '2005-02-09 10:00:00') /* Skeleton Captain */;
+VALUES (0x78F68008, 0x78F68004, '2005-02-09 10:00:00') /* Skeleton Captain (1761) */
+     , (0x78F68008, 0x78F68006, '2005-02-09 10:00:00') /* Skeleton Lord (6775) */
+     , (0x78F68008, 0x78F68009, '2005-02-09 10:00:00') /* Skeleton Captain (1761) */
+     , (0x78F68008, 0x78F6800A, '2005-02-09 10:00:00') /* Skeleton Captain (1761) */
+     , (0x78F68008, 0x78F6800B, '2005-02-09 10:00:00') /* Skeleton Captain (1761) */
+     , (0x78F68008, 0x78F6800C, '2005-02-09 10:00:00') /* Skeleton Captain (1761) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x78F68009,  1761, 0x8F680000, 110.125, 60.1054, 10.0025, -0.191943, 0, 0, -0.981406,  True, '2005-02-09 10:00:00'); /* Skeleton Captain */

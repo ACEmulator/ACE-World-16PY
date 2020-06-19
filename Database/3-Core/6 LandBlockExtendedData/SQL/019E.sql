@@ -97,32 +97,32 @@ VALUES (0x7019E03E,  4219, 0x019E0114, 10, -40, 0, -0.999932, 0, 0, -0.011672, F
 /* @teleloc 0x019E0114 [10.000000 -40.000000 0.000000] -0.999932 0.000000 0.000000 -0.011672 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7019E03E, 0x7019E018, '2005-02-09 10:00:00') /* Drudge Slinker */
-     , (0x7019E03E, 0x7019E019, '2005-02-09 10:00:00') /* Drudge Slinker */
-     , (0x7019E03E, 0x7019E01D, '2005-02-09 10:00:00') /* Drudge Robber */
-     , (0x7019E03E, 0x7019E01E, '2005-02-09 10:00:00') /* Drudge Robber */
-     , (0x7019E03E, 0x7019E01F, '2005-02-09 10:00:00') /* Drudge Robber */
-     , (0x7019E03E, 0x7019E020, '2005-02-09 10:00:00') /* Drudge Robber */
-     , (0x7019E03E, 0x7019E021, '2005-02-09 10:00:00') /* Drudge Robber */
-     , (0x7019E03E, 0x7019E023, '2005-02-09 10:00:00') /* Drudge Servant */
-     , (0x7019E03E, 0x7019E027, '2005-02-09 10:00:00') /* Drudge Servant */
-     , (0x7019E03E, 0x7019E02A, '2005-02-09 10:00:00') /* Drudge Servant */
-     , (0x7019E03E, 0x7019E02D, '2005-02-09 10:00:00') /* Drudge Servant */
-     , (0x7019E03E, 0x7019E036, '2005-02-09 10:00:00') /* Drudge Servant */
-     , (0x7019E03E, 0x7019E03B, '2005-02-09 10:00:00') /* Drudge Slave */
-     , (0x7019E03E, 0x7019E03C, '2005-02-09 10:00:00') /* Drudge Slave */
-     , (0x7019E03E, 0x7019E03F, '2005-02-09 10:00:00') /* Drudge Robber */
-     , (0x7019E03E, 0x7019E040, '2005-02-09 10:00:00') /* Drudge Slinker */
-     , (0x7019E03E, 0x7019E041, '2005-02-09 10:00:00') /* Drudge Slinker */
-     , (0x7019E03E, 0x7019E042, '2005-02-09 10:00:00') /* Drudge Robber */
-     , (0x7019E03E, 0x7019E043, '2005-02-09 10:00:00') /* Drudge Robber */
-     , (0x7019E03E, 0x7019E044, '2005-02-09 10:00:00') /* Drudge Robber */
-     , (0x7019E03E, 0x7019E045, '2005-02-09 10:00:00') /* Drudge Robber */
-     , (0x7019E03E, 0x7019E046, '2005-02-09 10:00:00') /* Drudge Robber */
-     , (0x7019E03E, 0x7019E047, '2005-02-09 10:00:00') /* Drudge Robber */
-     , (0x7019E03E, 0x7019E048, '2005-02-09 10:00:00') /* Drudge Robber */
-     , (0x7019E03E, 0x7019E049, '2005-02-09 10:00:00') /* Drudge Robber */
-     , (0x7019E03E, 0x7019E04D, '2005-02-09 10:00:00') /* Drudge Robber Baron */;
+VALUES (0x7019E03E, 0x7019E018, '2005-02-09 10:00:00') /* Drudge Slinker (193) */
+     , (0x7019E03E, 0x7019E019, '2005-02-09 10:00:00') /* Drudge Slinker (193) */
+     , (0x7019E03E, 0x7019E01D, '2005-02-09 10:00:00') /* Drudge Robber (1464) */
+     , (0x7019E03E, 0x7019E01E, '2005-02-09 10:00:00') /* Drudge Robber (1464) */
+     , (0x7019E03E, 0x7019E01F, '2005-02-09 10:00:00') /* Drudge Robber (1464) */
+     , (0x7019E03E, 0x7019E020, '2005-02-09 10:00:00') /* Drudge Robber (1464) */
+     , (0x7019E03E, 0x7019E021, '2005-02-09 10:00:00') /* Drudge Robber (1464) */
+     , (0x7019E03E, 0x7019E023, '2005-02-09 10:00:00') /* Drudge Servant (1631) */
+     , (0x7019E03E, 0x7019E027, '2005-02-09 10:00:00') /* Drudge Servant (1631) */
+     , (0x7019E03E, 0x7019E02A, '2005-02-09 10:00:00') /* Drudge Servant (1631) */
+     , (0x7019E03E, 0x7019E02D, '2005-02-09 10:00:00') /* Drudge Servant (1631) */
+     , (0x7019E03E, 0x7019E036, '2005-02-09 10:00:00') /* Drudge Servant (1631) */
+     , (0x7019E03E, 0x7019E03B, '2005-02-09 10:00:00') /* Drudge Slave (1632) */
+     , (0x7019E03E, 0x7019E03C, '2005-02-09 10:00:00') /* Drudge Slave (1632) */
+     , (0x7019E03E, 0x7019E03F, '2005-02-09 10:00:00') /* Drudge Robber (1464) */
+     , (0x7019E03E, 0x7019E040, '2005-02-09 10:00:00') /* Drudge Slinker (193) */
+     , (0x7019E03E, 0x7019E041, '2005-02-09 10:00:00') /* Drudge Slinker (193) */
+     , (0x7019E03E, 0x7019E042, '2005-02-09 10:00:00') /* Drudge Robber (1464) */
+     , (0x7019E03E, 0x7019E043, '2005-02-09 10:00:00') /* Drudge Robber (1464) */
+     , (0x7019E03E, 0x7019E044, '2005-02-09 10:00:00') /* Drudge Robber (1464) */
+     , (0x7019E03E, 0x7019E045, '2005-02-09 10:00:00') /* Drudge Robber (1464) */
+     , (0x7019E03E, 0x7019E046, '2005-02-09 10:00:00') /* Drudge Robber (1464) */
+     , (0x7019E03E, 0x7019E047, '2005-02-09 10:00:00') /* Drudge Robber (1464) */
+     , (0x7019E03E, 0x7019E048, '2005-02-09 10:00:00') /* Drudge Robber (1464) */
+     , (0x7019E03E, 0x7019E049, '2005-02-09 10:00:00') /* Drudge Robber (1464) */
+     , (0x7019E03E, 0x7019E04D, '2005-02-09 10:00:00') /* Drudge Robber Baron (30490) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7019E03F,  1464, 0x019E011B, 16.9825, -22.4934, 0.005, 0.987999, 0, 0, -0.15446,  True, '2005-02-09 10:00:00'); /* Drudge Robber */
@@ -173,9 +173,9 @@ VALUES (0x7019E04A,  5085, 0x019E0114, 10.1677, -41.6601, 0.005, 0.735801, 0, 0,
 /* @teleloc 0x019E0114 [10.167700 -41.660100 0.005000] 0.735801 0.000000 0.000000 0.677198 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7019E04A, 0x7019E04B, '2005-02-09 10:00:00') /* Bag of Wheat Seed */
-     , (0x7019E04A, 0x7019E04C, '2005-02-09 10:00:00') /* Bag of Rye Seed */
-     , (0x7019E04A, 0x7019E04E, '2005-02-09 10:00:00') /* Bag of Corn Seed */;
+VALUES (0x7019E04A, 0x7019E04B, '2005-02-09 10:00:00') /* Bag of Wheat Seed (30489) */
+     , (0x7019E04A, 0x7019E04C, '2005-02-09 10:00:00') /* Bag of Rye Seed (30488) */
+     , (0x7019E04A, 0x7019E04E, '2005-02-09 10:00:00') /* Bag of Corn Seed (30487) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7019E04B, 30489, 0x019E011B, 22.6587, -21.7402, 0.005, 0.738252, 0, 0, -0.674525,  True, '2005-02-09 10:00:00'); /* Bag of Wheat Seed */

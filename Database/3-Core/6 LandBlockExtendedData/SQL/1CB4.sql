@@ -17,4 +17,4 @@ VALUES (0x71CB4003,  3951, 0x1CB40101, 105.936, 19.0624, 2.005, -0.607226, 0, 0,
 /* @teleloc 0x1CB40101 [105.936000 19.062400 2.005000] -0.607226 0.000000 0.000000 -0.794529 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71CB4003, 0x71CB4002, '2005-02-09 10:00:00') /* Undead Mechanic */;
+VALUES (0x71CB4003, 0x71CB4002, '2005-02-09 10:00:00') /* Undead Mechanic (25314) */;

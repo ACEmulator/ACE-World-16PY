@@ -65,23 +65,23 @@ VALUES (0x7817900F,  3955, 0x81790107, 113.412, 36.1192, -3.595, -0.00786489, 0,
 /* @teleloc 0x81790107 [113.412000 36.119200 -3.595000] -0.007865 0.000000 0.000000 0.999969 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7817900F, 0x78179009, '2005-02-09 10:00:00') /* Greater Mu-miyah */
-     , (0x7817900F, 0x7817900A, '2005-02-09 10:00:00') /* Greater Mu-miyah */
-     , (0x7817900F, 0x7817900B, '2005-02-09 10:00:00') /* Greater Mu-miyah */
-     , (0x7817900F, 0x7817900C, '2005-02-09 10:00:00') /* Horrible Mu-miyah */
-     , (0x7817900F, 0x7817900D, '2005-02-09 10:00:00') /* Greater Mu-miyah */;
+VALUES (0x7817900F, 0x78179009, '2005-02-09 10:00:00') /* Greater Mu-miyah (1764) */
+     , (0x7817900F, 0x7817900A, '2005-02-09 10:00:00') /* Greater Mu-miyah (1764) */
+     , (0x7817900F, 0x7817900B, '2005-02-09 10:00:00') /* Greater Mu-miyah (1764) */
+     , (0x7817900F, 0x7817900C, '2005-02-09 10:00:00') /* Horrible Mu-miyah (1765) */
+     , (0x7817900F, 0x7817900D, '2005-02-09 10:00:00') /* Greater Mu-miyah (1764) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x78179010,  3953, 0x81790000, 108.528, 14.9776, 12.005, -0.0177537, 0, 0, -0.999842, False, '2005-02-09 10:00:00'); /* Linkable Monster Gen (30 min.) */
 /* @teleloc 0x81790000 [108.528000 14.977600 12.005000] -0.017754 0.000000 0.000000 -0.999842 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x78179010, 0x78179000, '2005-02-09 10:00:00') /* Skeleton Warrior */
-     , (0x78179010, 0x78179001, '2005-02-09 10:00:00') /* Lesser Mu-miyah */
-     , (0x78179010, 0x78179002, '2005-02-09 10:00:00') /* Lesser Mu-miyah */
-     , (0x78179010, 0x78179003, '2005-02-09 10:00:00') /* Greater Mu-miyah */
-     , (0x78179010, 0x78179004, '2005-02-09 10:00:00') /* Greater Mu-miyah */
-     , (0x78179010, 0x78179005, '2005-02-09 10:00:00') /* Skeleton Warrior */
-     , (0x78179010, 0x78179006, '2005-02-09 10:00:00') /* Skeleton Captain */
-     , (0x78179010, 0x78179007, '2005-02-09 10:00:00') /* Greater Mu-miyah */
-     , (0x78179010, 0x78179008, '2005-02-09 10:00:00') /* Horrible Mu-miyah */;
+VALUES (0x78179010, 0x78179000, '2005-02-09 10:00:00') /* Skeleton Warrior (1760) */
+     , (0x78179010, 0x78179001, '2005-02-09 10:00:00') /* Lesser Mu-miyah (1763) */
+     , (0x78179010, 0x78179002, '2005-02-09 10:00:00') /* Lesser Mu-miyah (1763) */
+     , (0x78179010, 0x78179003, '2005-02-09 10:00:00') /* Greater Mu-miyah (1764) */
+     , (0x78179010, 0x78179004, '2005-02-09 10:00:00') /* Greater Mu-miyah (1764) */
+     , (0x78179010, 0x78179005, '2005-02-09 10:00:00') /* Skeleton Warrior (1760) */
+     , (0x78179010, 0x78179006, '2005-02-09 10:00:00') /* Skeleton Captain (1761) */
+     , (0x78179010, 0x78179007, '2005-02-09 10:00:00') /* Greater Mu-miyah (1764) */
+     , (0x78179010, 0x78179008, '2005-02-09 10:00:00') /* Horrible Mu-miyah (1765) */;

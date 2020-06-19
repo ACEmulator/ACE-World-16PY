@@ -29,11 +29,11 @@ VALUES (0x7EF57006,  3955, 0xEF570000, 69.1658, 6.7285, 0.00500005, -0.742455, 0
 /* @teleloc 0xEF570000 [69.165800 6.728500 0.005000] -0.742455 0.000000 0.000000 -0.669896 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7EF57006, 0x7EF57001, '2005-02-09 10:00:00') /* Lesser Mu-miyah */
-     , (0x7EF57006, 0x7EF57002, '2005-02-09 10:00:00') /* Lesser Mu-miyah */
-     , (0x7EF57006, 0x7EF57003, '2005-02-09 10:00:00') /* Lesser Mu-miyah */
-     , (0x7EF57006, 0x7EF57004, '2005-02-09 10:00:00') /* Lesser Mu-miyah */
-     , (0x7EF57006, 0x7EF57005, '2005-02-09 10:00:00') /* Lesser Mu-miyah */;
+VALUES (0x7EF57006, 0x7EF57001, '2005-02-09 10:00:00') /* Lesser Mu-miyah (1763) */
+     , (0x7EF57006, 0x7EF57002, '2005-02-09 10:00:00') /* Lesser Mu-miyah (1763) */
+     , (0x7EF57006, 0x7EF57003, '2005-02-09 10:00:00') /* Lesser Mu-miyah (1763) */
+     , (0x7EF57006, 0x7EF57004, '2005-02-09 10:00:00') /* Lesser Mu-miyah (1763) */
+     , (0x7EF57006, 0x7EF57005, '2005-02-09 10:00:00') /* Lesser Mu-miyah (1763) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7EF57007,  3970, 0xEF570000, 56.5735, 13.7491, 15.205, 0.66715, 0, 0, 0.744923, False, '2005-02-09 10:00:00'); /* Chest */
@@ -44,7 +44,7 @@ VALUES (0x7EF57008,  2181, 0xEF570101, 55.7042, 8.96617, 8.882, 0.707107, 0, 0, 
 /* @teleloc 0xEF570101 [55.704200 8.966170 8.882000] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7EF57008, 0x7EF57000, '2005-02-09 10:00:00') /* Pressure Plate */;
+VALUES (0x7EF57008, 0x7EF57000, '2005-02-09 10:00:00') /* Pressure Plate (298) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7EF57009,  1763, 0xEF570000, 56.4839, 9.79876, 15.205, 0.96079, 0, 0, -0.277279,  True, '2005-02-09 10:00:00'); /* Lesser Mu-miyah */
@@ -55,4 +55,4 @@ VALUES (0x7EF5700A,  1154, 0xEF570000, 49.0242, 7.67184, 0.005, 0.303765, 0, 0, 
 /* @teleloc 0xEF570000 [49.024200 7.671840 0.005000] 0.303765 0.000000 0.000000 -0.952747 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7EF5700A, 0x7EF57009, '2005-02-09 10:00:00') /* Lesser Mu-miyah */;
+VALUES (0x7EF5700A, 0x7EF57009, '2005-02-09 10:00:00') /* Lesser Mu-miyah (1763) */;

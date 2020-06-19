@@ -137,33 +137,33 @@ VALUES (0x701DC021,  1154, 0x01DC0163, 38.288, -39.9331, 6, -4.37114E-08, 0, 0, 
 /* @teleloc 0x01DC0163 [38.288000 -39.933100 6.000000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x701DC021, 0x701DC003, '2005-02-09 10:00:00') /* Drudge Prowler */
-     , (0x701DC021, 0x701DC004, '2005-02-09 10:00:00') /* Drudge Prowler */
-     , (0x701DC021, 0x701DC011, '2005-02-09 10:00:00') /* Drudge Prowler */
-     , (0x701DC021, 0x701DC016, '2005-02-09 10:00:00') /* Drudge Sneaker */
-     , (0x701DC021, 0x701DC018, '2005-02-09 10:00:00') /* Drudge Prowler */
-     , (0x701DC021, 0x701DC01D, '2005-02-09 10:00:00') /* Drudge Skulker */
-     , (0x701DC021, 0x701DC01E, '2005-02-09 10:00:00') /* Drudge Skulker */
-     , (0x701DC021, 0x701DC01F, '2005-02-09 10:00:00') /* Drudge Skulker */
-     , (0x701DC021, 0x701DC020, '2005-02-09 10:00:00') /* Drudge Skulker */;
+VALUES (0x701DC021, 0x701DC003, '2005-02-09 10:00:00') /* Drudge Prowler (192) */
+     , (0x701DC021, 0x701DC004, '2005-02-09 10:00:00') /* Drudge Prowler (192) */
+     , (0x701DC021, 0x701DC011, '2005-02-09 10:00:00') /* Drudge Prowler (192) */
+     , (0x701DC021, 0x701DC016, '2005-02-09 10:00:00') /* Drudge Sneaker (940) */
+     , (0x701DC021, 0x701DC018, '2005-02-09 10:00:00') /* Drudge Prowler (192) */
+     , (0x701DC021, 0x701DC01D, '2005-02-09 10:00:00') /* Drudge Skulker (7) */
+     , (0x701DC021, 0x701DC01E, '2005-02-09 10:00:00') /* Drudge Skulker (7) */
+     , (0x701DC021, 0x701DC01F, '2005-02-09 10:00:00') /* Drudge Skulker (7) */
+     , (0x701DC021, 0x701DC020, '2005-02-09 10:00:00') /* Drudge Skulker (7) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x701DC022,  1154, 0x01DC0163, 40, -40, 6, -4.37114E-08, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Linkable Monster Generator */
 /* @teleloc 0x01DC0163 [40.000000 -40.000000 6.000000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x701DC022, 0x701DC002, '2005-02-09 10:00:00') /* Drudge Sneaker */
-     , (0x701DC022, 0x701DC017, '2005-02-09 10:00:00') /* Drudge Sneaker */
-     , (0x701DC022, 0x701DC01B, '2005-02-09 10:00:00') /* Drudge Prowler */
-     , (0x701DC022, 0x701DC01C, '2005-02-09 10:00:00') /* Drudge Prowler */;
+VALUES (0x701DC022, 0x701DC002, '2005-02-09 10:00:00') /* Drudge Sneaker (940) */
+     , (0x701DC022, 0x701DC017, '2005-02-09 10:00:00') /* Drudge Sneaker (940) */
+     , (0x701DC022, 0x701DC01B, '2005-02-09 10:00:00') /* Drudge Prowler (192) */
+     , (0x701DC022, 0x701DC01C, '2005-02-09 10:00:00') /* Drudge Prowler (192) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x701DC023,  1154, 0x01DC0163, 41.2171, -39.9733, 6, -4.37114E-08, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Linkable Monster Generator */
 /* @teleloc 0x01DC0163 [41.217100 -39.973300 6.000000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x701DC023, 0x701DC008, '2005-02-09 10:00:00') /* Drudge Skulker */
-     , (0x701DC023, 0x701DC00B, '2005-02-09 10:00:00') /* Drudge Skulker */
-     , (0x701DC023, 0x701DC00C, '2005-02-09 10:00:00') /* Drudge Skulker */
-     , (0x701DC023, 0x701DC00D, '2005-02-09 10:00:00') /* Drudge Skulker */
-     , (0x701DC023, 0x701DC01A, '2005-02-09 10:00:00') /* Drudge Sneaker */;
+VALUES (0x701DC023, 0x701DC008, '2005-02-09 10:00:00') /* Drudge Skulker (7) */
+     , (0x701DC023, 0x701DC00B, '2005-02-09 10:00:00') /* Drudge Skulker (7) */
+     , (0x701DC023, 0x701DC00C, '2005-02-09 10:00:00') /* Drudge Skulker (7) */
+     , (0x701DC023, 0x701DC00D, '2005-02-09 10:00:00') /* Drudge Skulker (7) */
+     , (0x701DC023, 0x701DC01A, '2005-02-09 10:00:00') /* Drudge Sneaker (940) */;

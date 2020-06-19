@@ -9,7 +9,7 @@ VALUES (0x78064001,  7923, 0x80640100, 150.541, 159.992, 27.705, 0.976016, 0, 0,
 /* @teleloc 0x80640100 [150.541000 159.992000 27.705000] 0.976016 0.000000 0.000000 0.217700 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x78064001, 0x78064004, '2005-02-09 10:00:00') /* Ahyara */;
+VALUES (0x78064001, 0x78064004, '2005-02-09 10:00:00') /* Ahyara (5177) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x78064002,  4676, 0x80640000, 140.068, 163.032, 28.3777, -0.997157, 0, 0, -0.0753527, False, '2005-02-09 10:00:00'); /* Yaraq Outpost */
@@ -28,7 +28,7 @@ VALUES (0x78064006,  7923, 0x80640000, 105.176, 56.5036, 95.205, -0.3468, 0, 0, 
 /* @teleloc 0x80640000 [105.176000 56.503600 95.205000] -0.346800 0.000000 0.000000 0.937939 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x78064006, 0x78064007, '2005-02-09 10:00:00') /* Sentry */;
+VALUES (0x78064006, 0x78064007, '2005-02-09 10:00:00') /* Sentry (12725) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x78064007, 12725, 0x80640000, 104.801, 58.7744, 95.205, -0.792624, 0, 0, -0.609711,  True, '2005-02-09 10:00:00'); /* Sentry */

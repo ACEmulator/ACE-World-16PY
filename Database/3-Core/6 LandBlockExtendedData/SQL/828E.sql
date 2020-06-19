@@ -9,7 +9,7 @@ VALUES (0x7828E001,  2181, 0x828E0100, 80.9392, 128.015, 124.082, -4.37114E-08, 
 /* @teleloc 0x828E0100 [80.939200 128.015000 124.082000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7828E001, 0x7828E009, '2005-02-09 10:00:00') /* Button */;
+VALUES (0x7828E001, 0x7828E009, '2005-02-09 10:00:00') /* Button (269) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7828E002,  3956, 0x828E0000, 66.3802, 190.522, 124.005, -0.0223798, 0, 0, 0.99975, False, '2005-02-09 10:00:00'); /* Four Towers Entrance */
@@ -52,4 +52,4 @@ VALUES (0x7828E00B,  1154, 0x828E0000, 75.9655, 122.64, 124.005, -0.667943, 0, 0
 /* @teleloc 0x828E0000 [75.965500 122.640000 124.005000] -0.667943 0.000000 0.000000 -0.744212 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7828E00B, 0x7828E008, '2005-02-09 10:00:00') /* Dizah ibn Nadqab */;
+VALUES (0x7828E00B, 0x7828E008, '2005-02-09 10:00:00') /* Dizah ibn Nadqab (5636) */;

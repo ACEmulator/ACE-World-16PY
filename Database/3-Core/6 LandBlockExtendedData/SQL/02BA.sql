@@ -97,35 +97,35 @@ VALUES (0x702BA017,  7924, 0x02BA01F8, 121.217, -68.5905, 0.005, 1, 0, 0, 0, Fal
 /* @teleloc 0x02BA01F8 [121.217000 -68.590500 0.005000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x702BA017, 0x702BA000, '2005-02-09 10:00:00') /* Foul Moarsman */
-     , (0x702BA017, 0x702BA001, '2005-02-09 10:00:00') /* Putrid Moarsman */
-     , (0x702BA017, 0x702BA002, '2005-02-09 10:00:00') /* Putrid Moarsman */
-     , (0x702BA017, 0x702BA003, '2005-02-09 10:00:00') /* Putrid Moarsman */
-     , (0x702BA017, 0x702BA004, '2005-02-09 10:00:00') /* Brown Rabbit */
-     , (0x702BA017, 0x702BA005, '2005-02-09 10:00:00') /* Brown Rabbit */
-     , (0x702BA017, 0x702BA007, '2005-02-09 10:00:00') /* Foul Moarsman */
-     , (0x702BA017, 0x702BA00A, '2005-02-09 10:00:00') /* Foul Moarsman */
-     , (0x702BA017, 0x702BA00B, '2005-02-09 10:00:00') /* Foul Moarsman */
-     , (0x702BA017, 0x702BA00C, '2005-02-09 10:00:00') /* Foul Moarsman */
-     , (0x702BA017, 0x702BA00D, '2005-02-09 10:00:00') /* Shallows Devourer */
-     , (0x702BA017, 0x702BA00E, '2005-02-09 10:00:00') /* Shallows Devourer */
-     , (0x702BA017, 0x702BA00F, '2005-02-09 10:00:00') /* Water Golem */
-     , (0x702BA017, 0x702BA011, '2005-02-09 10:00:00') /* Foul Moarsman */
-     , (0x702BA017, 0x702BA012, '2005-02-09 10:00:00') /* Jungle Phyntos Wasp */
-     , (0x702BA017, 0x702BA013, '2005-02-09 10:00:00') /* Foul Moarsman */
-     , (0x702BA017, 0x702BA014, '2005-02-09 10:00:00') /* Foul Moarsman */
-     , (0x702BA017, 0x702BA015, '2005-02-09 10:00:00') /* Foul Moarsman */
-     , (0x702BA017, 0x702BA016, '2005-02-09 10:00:00') /* Foul Moarsman */
-     , (0x702BA017, 0x702BA01A, '2005-02-09 10:00:00') /* Rank Moarsman */;
+VALUES (0x702BA017, 0x702BA000, '2005-02-09 10:00:00') /* Foul Moarsman (4247) */
+     , (0x702BA017, 0x702BA001, '2005-02-09 10:00:00') /* Putrid Moarsman (4248) */
+     , (0x702BA017, 0x702BA002, '2005-02-09 10:00:00') /* Putrid Moarsman (4248) */
+     , (0x702BA017, 0x702BA003, '2005-02-09 10:00:00') /* Putrid Moarsman (4248) */
+     , (0x702BA017, 0x702BA004, '2005-02-09 10:00:00') /* Brown Rabbit (2567) */
+     , (0x702BA017, 0x702BA005, '2005-02-09 10:00:00') /* Brown Rabbit (2567) */
+     , (0x702BA017, 0x702BA007, '2005-02-09 10:00:00') /* Foul Moarsman (4247) */
+     , (0x702BA017, 0x702BA00A, '2005-02-09 10:00:00') /* Foul Moarsman (4247) */
+     , (0x702BA017, 0x702BA00B, '2005-02-09 10:00:00') /* Foul Moarsman (4247) */
+     , (0x702BA017, 0x702BA00C, '2005-02-09 10:00:00') /* Foul Moarsman (4247) */
+     , (0x702BA017, 0x702BA00D, '2005-02-09 10:00:00') /* Shallows Devourer (7109) */
+     , (0x702BA017, 0x702BA00E, '2005-02-09 10:00:00') /* Shallows Devourer (7109) */
+     , (0x702BA017, 0x702BA00F, '2005-02-09 10:00:00') /* Water Golem (941) */
+     , (0x702BA017, 0x702BA011, '2005-02-09 10:00:00') /* Foul Moarsman (4247) */
+     , (0x702BA017, 0x702BA012, '2005-02-09 10:00:00') /* Jungle Phyntos Wasp (7183) */
+     , (0x702BA017, 0x702BA013, '2005-02-09 10:00:00') /* Foul Moarsman (4247) */
+     , (0x702BA017, 0x702BA014, '2005-02-09 10:00:00') /* Foul Moarsman (4247) */
+     , (0x702BA017, 0x702BA015, '2005-02-09 10:00:00') /* Foul Moarsman (4247) */
+     , (0x702BA017, 0x702BA016, '2005-02-09 10:00:00') /* Foul Moarsman (4247) */
+     , (0x702BA017, 0x702BA01A, '2005-02-09 10:00:00') /* Rank Moarsman (4246) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x702BA018,  7925, 0x02BA01F8, 118.917, -70.6554, 0.005, 1, 0, 0, 0, False, '2005-02-09 10:00:00'); /* Linkable Monster Generator ( 10 Min.) */
 /* @teleloc 0x02BA01F8 [118.917000 -70.655400 0.005000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x702BA018, 0x702BA006, '2005-02-09 10:00:00') /* Foul Moarsman */
-     , (0x702BA018, 0x702BA009, '2005-02-09 10:00:00') /* Rank Moarsman */
-     , (0x702BA018, 0x702BA010, '2005-02-09 10:00:00') /* Putrid Moarsman */;
+VALUES (0x702BA018, 0x702BA006, '2005-02-09 10:00:00') /* Foul Moarsman (4247) */
+     , (0x702BA018, 0x702BA009, '2005-02-09 10:00:00') /* Rank Moarsman (4246) */
+     , (0x702BA018, 0x702BA010, '2005-02-09 10:00:00') /* Putrid Moarsman (4248) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x702BA019,  8599, 0x02BA01FD, 129.511, -29.7786, 0.005, -0.904504, 0, 0, -0.426465, False, '2005-02-09 10:00:00'); /* Surface */

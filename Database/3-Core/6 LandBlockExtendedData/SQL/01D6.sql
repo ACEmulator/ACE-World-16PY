@@ -37,25 +37,25 @@ VALUES (0x701D6008,  3955, 0x01D6012E, 40.2587, -7.59353, -5.995, 0.143895, 0, 0
 /* @teleloc 0x01D6012E [40.258700 -7.593530 -5.995000] 0.143895 0.000000 0.000000 0.989593 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x701D6008, 0x701D6004, '2005-02-09 10:00:00') /* Drudge Sneaker */
-     , (0x701D6008, 0x701D6005, '2005-02-09 10:00:00') /* Drudge Prowler */
-     , (0x701D6008, 0x701D6009, '2005-02-09 10:00:00') /* Veteran Reedshark */
-     , (0x701D6008, 0x701D600A, '2005-02-09 10:00:00') /* Reedshark Pup */
-     , (0x701D6008, 0x701D600B, '2005-02-09 10:00:00') /* Reedshark Pup */
-     , (0x701D6008, 0x701D600C, '2005-02-09 10:00:00') /* Reedshark Pup */
-     , (0x701D6008, 0x701D600D, '2005-02-09 10:00:00') /* Drudge Prowler */
-     , (0x701D6008, 0x701D600E, '2005-02-09 10:00:00') /* Drudge Prowler */
-     , (0x701D6008, 0x701D600F, '2005-02-09 10:00:00') /* Drudge Prowler */
-     , (0x701D6008, 0x701D6010, '2005-02-09 10:00:00') /* Drudge Prowler */
-     , (0x701D6008, 0x701D6011, '2005-02-09 10:00:00') /* Drudge Prowler */
-     , (0x701D6008, 0x701D6013, '2005-02-09 10:00:00') /* Drudge Prowler */
-     , (0x701D6008, 0x701D6014, '2005-02-09 10:00:00') /* Drudge Prowler */
-     , (0x701D6008, 0x701D6015, '2005-02-09 10:00:00') /* Drudge Slinker */
-     , (0x701D6008, 0x701D6017, '2005-02-09 10:00:00') /* Drudge Slinker */
-     , (0x701D6008, 0x701D6018, '2005-02-09 10:00:00') /* Drudge Prowler */
-     , (0x701D6008, 0x701D6019, '2005-02-09 10:00:00') /* Drudge Prowler */
-     , (0x701D6008, 0x701D601A, '2005-02-09 10:00:00') /* Drudge Slinker */
-     , (0x701D6008, 0x701D601D, '2005-02-09 10:00:00') /* Undead */;
+VALUES (0x701D6008, 0x701D6004, '2005-02-09 10:00:00') /* Drudge Sneaker (940) */
+     , (0x701D6008, 0x701D6005, '2005-02-09 10:00:00') /* Drudge Prowler (192) */
+     , (0x701D6008, 0x701D6009, '2005-02-09 10:00:00') /* Veteran Reedshark (222) */
+     , (0x701D6008, 0x701D600A, '2005-02-09 10:00:00') /* Reedshark Pup (223) */
+     , (0x701D6008, 0x701D600B, '2005-02-09 10:00:00') /* Reedshark Pup (223) */
+     , (0x701D6008, 0x701D600C, '2005-02-09 10:00:00') /* Reedshark Pup (223) */
+     , (0x701D6008, 0x701D600D, '2005-02-09 10:00:00') /* Drudge Prowler (192) */
+     , (0x701D6008, 0x701D600E, '2005-02-09 10:00:00') /* Drudge Prowler (192) */
+     , (0x701D6008, 0x701D600F, '2005-02-09 10:00:00') /* Drudge Prowler (192) */
+     , (0x701D6008, 0x701D6010, '2005-02-09 10:00:00') /* Drudge Prowler (192) */
+     , (0x701D6008, 0x701D6011, '2005-02-09 10:00:00') /* Drudge Prowler (192) */
+     , (0x701D6008, 0x701D6013, '2005-02-09 10:00:00') /* Drudge Prowler (192) */
+     , (0x701D6008, 0x701D6014, '2005-02-09 10:00:00') /* Drudge Prowler (192) */
+     , (0x701D6008, 0x701D6015, '2005-02-09 10:00:00') /* Drudge Slinker (193) */
+     , (0x701D6008, 0x701D6017, '2005-02-09 10:00:00') /* Drudge Slinker (193) */
+     , (0x701D6008, 0x701D6018, '2005-02-09 10:00:00') /* Drudge Prowler (192) */
+     , (0x701D6008, 0x701D6019, '2005-02-09 10:00:00') /* Drudge Prowler (192) */
+     , (0x701D6008, 0x701D601A, '2005-02-09 10:00:00') /* Drudge Slinker (193) */
+     , (0x701D6008, 0x701D601D, '2005-02-09 10:00:00') /* Undead (16) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x701D6009,   222, 0x01D6012E, 38.2372, -12.408, -5.9986, 0.993584, 0, 0, -0.113095,  True, '2005-02-09 10:00:00'); /* Veteran Reedshark */
@@ -234,17 +234,17 @@ VALUES (0x701D6034,  1154, 0x01D601BB, 138.016, -25.0957, 0, -0.00829004, 0, 0, 
 /* @teleloc 0x01D601BB [138.016000 -25.095700 0.000000] -0.008290 0.000000 0.000000 -0.999966 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x701D6034, 0x701D601F, '2005-02-09 10:00:00') /* Banderling Guard */
-     , (0x701D6034, 0x701D6020, '2005-02-09 10:00:00') /* Banderling Guard */
-     , (0x701D6034, 0x701D6021, '2005-02-09 10:00:00') /* Banderling Guard */
-     , (0x701D6034, 0x701D6022, '2005-02-09 10:00:00') /* Banderling Guard */
-     , (0x701D6034, 0x701D6024, '2005-02-09 10:00:00') /* Banderling Breeder */
-     , (0x701D6034, 0x701D6027, '2005-02-09 10:00:00') /* Banderling Raider */
-     , (0x701D6034, 0x701D6028, '2005-02-09 10:00:00') /* Banderling Raider */
-     , (0x701D6034, 0x701D6029, '2005-02-09 10:00:00') /* Banderling Guard */
-     , (0x701D6034, 0x701D602C, '2005-02-09 10:00:00') /* Banderling Raider */
-     , (0x701D6034, 0x701D602D, '2005-02-09 10:00:00') /* Banderling Raider */
-     , (0x701D6034, 0x701D6033, '2005-02-09 10:00:00') /* Banderling Captain */;
+VALUES (0x701D6034, 0x701D601F, '2005-02-09 10:00:00') /* Banderling Guard (937) */
+     , (0x701D6034, 0x701D6020, '2005-02-09 10:00:00') /* Banderling Guard (937) */
+     , (0x701D6034, 0x701D6021, '2005-02-09 10:00:00') /* Banderling Guard (937) */
+     , (0x701D6034, 0x701D6022, '2005-02-09 10:00:00') /* Banderling Guard (937) */
+     , (0x701D6034, 0x701D6024, '2005-02-09 10:00:00') /* Banderling Breeder (1668) */
+     , (0x701D6034, 0x701D6027, '2005-02-09 10:00:00') /* Banderling Raider (938) */
+     , (0x701D6034, 0x701D6028, '2005-02-09 10:00:00') /* Banderling Raider (938) */
+     , (0x701D6034, 0x701D6029, '2005-02-09 10:00:00') /* Banderling Guard (937) */
+     , (0x701D6034, 0x701D602C, '2005-02-09 10:00:00') /* Banderling Raider (938) */
+     , (0x701D6034, 0x701D602D, '2005-02-09 10:00:00') /* Banderling Raider (938) */
+     , (0x701D6034, 0x701D6033, '2005-02-09 10:00:00') /* Banderling Captain (1356) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x701D6035,  4022, 0x01D601BB, 136.421, -29.0914, 0, 0.707107, 0, 0, -0.707107, False, '2005-02-09 10:00:00'); /* Valuable General Generator */

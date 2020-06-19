@@ -17,11 +17,11 @@ VALUES (0x73B4100B,  7924, 0x3B410000, 152.272, 135.974, 88.005, -0.636651, 0, 0
 /* @teleloc 0x3B410000 [152.272000 135.974000 88.005000] -0.636651 0.000000 0.000000 0.771152 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73B4100B, 0x73B41008, '2005-02-09 10:00:00') /* Nomad Mu-miyah */
-     , (0x73B4100B, 0x73B41009, '2005-02-09 10:00:00') /* Nomad Mu-miyah */
-     , (0x73B4100B, 0x73B4100A, '2005-02-09 10:00:00') /* Nomad Mu-miyah */
-     , (0x73B4100B, 0x73B4100C, '2005-02-09 10:00:00') /* Nomad Mu-miyah */
-     , (0x73B4100B, 0x73B4100D, '2005-02-09 10:00:00') /* Nomad Mu-miyah */;
+VALUES (0x73B4100B, 0x73B41008, '2005-02-09 10:00:00') /* Nomad Mu-miyah (8431) */
+     , (0x73B4100B, 0x73B41009, '2005-02-09 10:00:00') /* Nomad Mu-miyah (8431) */
+     , (0x73B4100B, 0x73B4100A, '2005-02-09 10:00:00') /* Nomad Mu-miyah (8431) */
+     , (0x73B4100B, 0x73B4100C, '2005-02-09 10:00:00') /* Nomad Mu-miyah (8431) */
+     , (0x73B4100B, 0x73B4100D, '2005-02-09 10:00:00') /* Nomad Mu-miyah (8431) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73B4100C,  8431, 0x3B410000, 151.781, 139.59, 88.0065, -0.774152, 0, 0, 0.633,  True, '2005-02-09 10:00:00'); /* Nomad Mu-miyah */

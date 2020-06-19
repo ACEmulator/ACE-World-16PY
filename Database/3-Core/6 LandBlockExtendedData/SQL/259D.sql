@@ -13,16 +13,16 @@ VALUES (0x7259D002,  7923, 0x259D0000, 83.798, 85.3239, 30.005, -0.998155, 0, 0,
 /* @teleloc 0x259D0000 [83.798000 85.323900 30.005000] -0.998155 0.000000 0.000000 0.060719 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7259D002, 0x7259D000, '2005-02-09 10:00:00') /* Aun Tahuirea */;
+VALUES (0x7259D002, 0x7259D000, '2005-02-09 10:00:00') /* Aun Tahuirea (27280) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7259D003,  7923, 0x259D0000, 88.8606, 82.224, 30.005, 0.994767, 0, 0, -0.10217, False, '2005-02-09 10:00:00'); /* Linkable Monster Generator ( 3 Min.) */
 /* @teleloc 0x259D0000 [88.860600 82.224000 30.005000] 0.994767 0.000000 0.000000 -0.102170 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7259D003, 0x7259D004, '2005-02-09 10:00:00') /* Marsh Siraluun */
-     , (0x7259D003, 0x7259D005, '2005-02-09 10:00:00') /* Marsh Siraluun */
-     , (0x7259D003, 0x7259D006, '2005-02-09 10:00:00') /* Marsh Siraluun */;
+VALUES (0x7259D003, 0x7259D004, '2005-02-09 10:00:00') /* Marsh Siraluun (11488) */
+     , (0x7259D003, 0x7259D005, '2005-02-09 10:00:00') /* Marsh Siraluun (11488) */
+     , (0x7259D003, 0x7259D006, '2005-02-09 10:00:00') /* Marsh Siraluun (11488) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7259D004, 11488, 0x259D0000, 88.563, 84.2319, 30.005, 0.994767, 0, 0, -0.10217,  True, '2005-02-09 10:00:00'); /* Marsh Siraluun */

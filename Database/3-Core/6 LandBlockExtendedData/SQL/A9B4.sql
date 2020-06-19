@@ -225,11 +225,11 @@ VALUES (0x7A9B4039,  7923, 0xA9B40172, 163.283, 7.1682, 94.005, -0.185739, 0, 0,
 /* @teleloc 0xA9B40172 [163.283000 7.168200 94.005000] -0.185739 0.000000 0.000000 0.982599 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A9B4039, 0x7A9B4061, '2005-02-09 10:00:00') /* Alchemy Forge */
-     , (0x7A9B4039, 0x7A9B4062, '2005-02-09 10:00:00') /* Fletching Forge */
-     , (0x7A9B4039, 0x7A9B4063, '2005-02-09 10:00:00') /* Cooking Forge */
-     , (0x7A9B4039, 0x7A9B4064, '2005-02-09 10:00:00') /* Lockpick Forge */
-     , (0x7A9B4039, 0x7A9B4065, '2005-02-09 10:00:00') /* Salvaging Forge */;
+VALUES (0x7A9B4039, 0x7A9B4061, '2005-02-09 10:00:00') /* Alchemy Forge (30465) */
+     , (0x7A9B4039, 0x7A9B4062, '2005-02-09 10:00:00') /* Fletching Forge (30467) */
+     , (0x7A9B4039, 0x7A9B4063, '2005-02-09 10:00:00') /* Cooking Forge (30466) */
+     , (0x7A9B4039, 0x7A9B4064, '2005-02-09 10:00:00') /* Lockpick Forge (30460) */
+     , (0x7A9B4039, 0x7A9B4065, '2005-02-09 10:00:00') /* Salvaging Forge (30461) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A9B403A,   412, 0xA9B40170, 155.429, 15.8632, 94, -4.37114E-08, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Door */
@@ -288,11 +288,11 @@ VALUES (0x7A9B4052,  7923, 0xA9B40000, 91.8298, 23.3139, 94.005, -0.361835, 0, 0
 /* @teleloc 0xA9B40000 [91.829800 23.313900 94.005000] -0.361835 0.000000 0.000000 -0.932242 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A9B4052, 0x7A9B4032, '2005-02-09 10:00:00') /* Flinrala Ryndmad */
-     , (0x7A9B4052, 0x7A9B4038, '2005-02-09 10:00:00') /* Agent of the Arcanum */
-     , (0x7A9B4052, 0x7A9B4053, '2005-02-09 10:00:00') /* Apprentice Alchemist */
-     , (0x7A9B4052, 0x7A9B405C, '2005-02-09 10:00:00') /* Worcer */
-     , (0x7A9B4052, 0x7A9B405E, '2005-02-09 10:00:00') /* Alfrin */;
+VALUES (0x7A9B4052, 0x7A9B4032, '2005-02-09 10:00:00') /* Flinrala Ryndmad (5033) */
+     , (0x7A9B4052, 0x7A9B4038, '2005-02-09 10:00:00') /* Agent of the Arcanum (12050) */
+     , (0x7A9B4052, 0x7A9B4053, '2005-02-09 10:00:00') /* Apprentice Alchemist (27740) */
+     , (0x7A9B4052, 0x7A9B405C, '2005-02-09 10:00:00') /* Worcer (5035) */
+     , (0x7A9B4052, 0x7A9B405E, '2005-02-09 10:00:00') /* Alfrin (30479) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A9B4053, 27740, 0xA9B4014D, 139.637, 8.1292, 97.005, -0.850506, 0, 0, -0.525965,  True, '2005-02-09 10:00:00'); /* Apprentice Alchemist */
@@ -351,4 +351,4 @@ VALUES (0x7A9B406C,  7924, 0xA9B40000, 102.483, 19.116, 94.005, -0.549961, 0, 0,
 /* @teleloc 0xA9B40000 [102.483000 19.116000 94.005000] -0.549961 0.000000 0.000000 -0.835190 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A9B406C, 0x7A9B406B, '2005-02-09 10:00:00') /* Tirenia */;
+VALUES (0x7A9B406C, 0x7A9B406B, '2005-02-09 10:00:00') /* Tirenia (30696) */;

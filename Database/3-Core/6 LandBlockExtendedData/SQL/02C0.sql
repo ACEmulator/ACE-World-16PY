@@ -61,23 +61,23 @@ VALUES (0x702C000E,  7925, 0x02C0011D, 52.0524, -51.1907, 0, -4.37114E-08, 0, 0,
 /* @teleloc 0x02C0011D [52.052400 -51.190700 0.000000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x702C000E, 0x702C0006, '2005-02-09 10:00:00') /* Sulthis Eye Stalk */;
+VALUES (0x702C000E, 0x702C0006, '2005-02-09 10:00:00') /* Sulthis Eye Stalk (8470) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x702C000F,  7932, 0x02C0011D, 50.8075, -52.1129, 0, -4.37114E-08, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Linkable Monster Generator ( 4 Min.) */
 /* @teleloc 0x02C0011D [50.807500 -52.112900 0.000000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x702C000F, 0x702C0000, '2005-02-09 10:00:00') /* Dark Magus */
-     , (0x702C000F, 0x702C0001, '2005-02-09 10:00:00') /* Dark Leech */
-     , (0x702C000F, 0x702C0002, '2005-02-09 10:00:00') /* Dark Leech */
-     , (0x702C000F, 0x702C0003, '2005-02-09 10:00:00') /* Chomu Sclavus */
-     , (0x702C000F, 0x702C0004, '2005-02-09 10:00:00') /* Dark Magus */
-     , (0x702C000F, 0x702C0005, '2005-02-09 10:00:00') /* Chomu Sclavus */
-     , (0x702C000F, 0x702C000B, '2005-02-09 10:00:00') /* Chomu Sclavus */
-     , (0x702C000F, 0x702C000C, '2005-02-09 10:00:00') /* Dark Magus */
-     , (0x702C000F, 0x702C000D, '2005-02-09 10:00:00') /* Chomu Sclavus */
-     , (0x702C000F, 0x702C0010, '2005-02-09 10:00:00') /* Dark Leech */;
+VALUES (0x702C000F, 0x702C0000, '2005-02-09 10:00:00') /* Dark Magus (7124) */
+     , (0x702C000F, 0x702C0001, '2005-02-09 10:00:00') /* Dark Leech (7123) */
+     , (0x702C000F, 0x702C0002, '2005-02-09 10:00:00') /* Dark Leech (7123) */
+     , (0x702C000F, 0x702C0003, '2005-02-09 10:00:00') /* Chomu Sclavus (7112) */
+     , (0x702C000F, 0x702C0004, '2005-02-09 10:00:00') /* Dark Magus (7124) */
+     , (0x702C000F, 0x702C0005, '2005-02-09 10:00:00') /* Chomu Sclavus (7112) */
+     , (0x702C000F, 0x702C000B, '2005-02-09 10:00:00') /* Chomu Sclavus (7112) */
+     , (0x702C000F, 0x702C000C, '2005-02-09 10:00:00') /* Dark Magus (7124) */
+     , (0x702C000F, 0x702C000D, '2005-02-09 10:00:00') /* Chomu Sclavus (7112) */
+     , (0x702C000F, 0x702C0010, '2005-02-09 10:00:00') /* Dark Leech (7123) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x702C0010,  7123, 0x02C0011F, 56.6291, -10.0501, 0.00825, 0.659983, 0, 0, 0.75128,  True, '2005-02-09 10:00:00'); /* Dark Leech */

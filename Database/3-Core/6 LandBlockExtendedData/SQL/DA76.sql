@@ -13,15 +13,15 @@ VALUES (0x7DA7600F,  7924, 0xDA760000, 56.1603, 181.085, 18.005, 0.999135, 0, 0,
 /* @teleloc 0xDA760000 [56.160300 181.085000 18.005000] 0.999135 0.000000 0.000000 -0.041576 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7DA7600F, 0x7DA76010, '2005-02-09 10:00:00') /* Tumerok Gladiator */
-     , (0x7DA7600F, 0x7DA76011, '2005-02-09 10:00:00') /* Tumerok Gladiator */
-     , (0x7DA7600F, 0x7DA76012, '2005-02-09 10:00:00') /* Tumerok Gladiator */
-     , (0x7DA7600F, 0x7DA76013, '2005-02-09 10:00:00') /* Tumerok Priest */
-     , (0x7DA7600F, 0x7DA76014, '2005-02-09 10:00:00') /* Tumerok Priest */
-     , (0x7DA7600F, 0x7DA76015, '2005-02-09 10:00:00') /* Tumerok Gladiator */
-     , (0x7DA7600F, 0x7DA76016, '2005-02-09 10:00:00') /* Tumerok Priest */
-     , (0x7DA7600F, 0x7DA76017, '2005-02-09 10:00:00') /* Tumerok Gladiator */
-     , (0x7DA7600F, 0x7DA76018, '2005-02-09 10:00:00') /* Tumerok Gladiator */;
+VALUES (0x7DA7600F, 0x7DA76010, '2005-02-09 10:00:00') /* Tumerok Gladiator (227) */
+     , (0x7DA7600F, 0x7DA76011, '2005-02-09 10:00:00') /* Tumerok Gladiator (227) */
+     , (0x7DA7600F, 0x7DA76012, '2005-02-09 10:00:00') /* Tumerok Gladiator (227) */
+     , (0x7DA7600F, 0x7DA76013, '2005-02-09 10:00:00') /* Tumerok Priest (231) */
+     , (0x7DA7600F, 0x7DA76014, '2005-02-09 10:00:00') /* Tumerok Priest (231) */
+     , (0x7DA7600F, 0x7DA76015, '2005-02-09 10:00:00') /* Tumerok Gladiator (227) */
+     , (0x7DA7600F, 0x7DA76016, '2005-02-09 10:00:00') /* Tumerok Priest (231) */
+     , (0x7DA7600F, 0x7DA76017, '2005-02-09 10:00:00') /* Tumerok Gladiator (227) */
+     , (0x7DA7600F, 0x7DA76018, '2005-02-09 10:00:00') /* Tumerok Gladiator (227) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7DA76010,   227, 0xDA760000, 113.575, 187.534, 18.006, 0.877545, 0, 0, 0.479494,  True, '2005-02-09 10:00:00'); /* Tumerok Gladiator */

@@ -45,7 +45,7 @@ VALUES (0x767DE00A,  7925, 0x67DE0000, 13.0947, 12.1339, 52.1875, 0.77736, 0, 0,
 /* @teleloc 0x67DE0000 [13.094700 12.133900 52.187500] 0.777360 0.000000 0.000000 0.629056 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x767DE00A, 0x767DE00B, '2005-02-09 10:00:00') /* Red Phyntos Wasp */;
+VALUES (0x767DE00A, 0x767DE00B, '2005-02-09 10:00:00') /* Red Phyntos Wasp (19435) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x767DE00B, 19435, 0x67DE0000, 13.0947, 12.1339, 52.1945, 0.792842, 0, 0, 0.609428,  True, '2005-02-09 10:00:00'); /* Red Phyntos Wasp */
@@ -60,7 +60,7 @@ VALUES (0x767DE00D,  7924, 0x67DE0103, 117.388, 64.336, 64.405, -0.818654, 0, 0,
 /* @teleloc 0x67DE0103 [117.388000 64.336000 64.405000] -0.818654 0.000000 0.000000 0.574288 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x767DE00D, 0x767DE00E, '2005-02-09 10:00:00') /* Scrawed Grievver */;
+VALUES (0x767DE00D, 0x767DE00E, '2005-02-09 10:00:00') /* Scrawed Grievver (7978) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x767DE00E,  7978, 0x67DE0103, 117.846, 64.569, 64.405, -0.596707, 0, 0, -0.802459,  True, '2005-02-09 10:00:00'); /* Scrawed Grievver */

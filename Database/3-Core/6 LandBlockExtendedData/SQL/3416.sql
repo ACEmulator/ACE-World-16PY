@@ -5,10 +5,10 @@ VALUES (0x73416000,  7924, 0x34160000, 155.391, 12.7672, 84.005, -0.99724, 0, 0,
 /* @teleloc 0x34160000 [155.391000 12.767200 84.005000] -0.997240 0.000000 0.000000 0.074246 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73416000, 0x73416001, '2005-02-09 10:00:00') /* Extas Raider */
-     , (0x73416000, 0x73416002, '2005-02-09 10:00:00') /* Extas Raider */
-     , (0x73416000, 0x73416003, '2005-02-09 10:00:00') /* Extas Raider */
-     , (0x73416000, 0x73416004, '2005-02-09 10:00:00') /* Extas Raider */;
+VALUES (0x73416000, 0x73416001, '2005-02-09 10:00:00') /* Extas Raider (8138) */
+     , (0x73416000, 0x73416002, '2005-02-09 10:00:00') /* Extas Raider (8138) */
+     , (0x73416000, 0x73416003, '2005-02-09 10:00:00') /* Extas Raider (8138) */
+     , (0x73416000, 0x73416004, '2005-02-09 10:00:00') /* Extas Raider (8138) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73416001,  8138, 0x34160000, 138.116, 13.3426, 84.01, -0.948241, 0, 0, -0.31755,  True, '2005-02-09 10:00:00'); /* Extas Raider */

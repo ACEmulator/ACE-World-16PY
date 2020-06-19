@@ -45,11 +45,11 @@ VALUES (0x78BAF00A,  3955, 0x8BAF0000, 82.2958, 166.553, 64.005, 0.231185, 0, 0,
 /* @teleloc 0x8BAF0000 [82.295800 166.553000 64.005000] 0.231185 0.000000 0.000000 0.972910 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x78BAF00A, 0x78BAF000, '2005-02-09 10:00:00') /* Shadow Lieutenant */
-     , (0x78BAF00A, 0x78BAF001, '2005-02-09 10:00:00') /* Shadow Child */
-     , (0x78BAF00A, 0x78BAF002, '2005-02-09 10:00:00') /* Shadow Child */
-     , (0x78BAF00A, 0x78BAF003, '2005-02-09 10:00:00') /* Shadow */
-     , (0x78BAF00A, 0x78BAF004, '2005-02-09 10:00:00') /* Shadow */
-     , (0x78BAF00A, 0x78BAF005, '2005-02-09 10:00:00') /* Shadow Child */
-     , (0x78BAF00A, 0x78BAF006, '2005-02-09 10:00:00') /* Shadow Child */
-     , (0x78BAF00A, 0x78BAF008, '2005-02-09 10:00:00') /* Shadow Child */;
+VALUES (0x78BAF00A, 0x78BAF000, '2005-02-09 10:00:00') /* Shadow Lieutenant (1757) */
+     , (0x78BAF00A, 0x78BAF001, '2005-02-09 10:00:00') /* Shadow Child (1756) */
+     , (0x78BAF00A, 0x78BAF002, '2005-02-09 10:00:00') /* Shadow Child (1756) */
+     , (0x78BAF00A, 0x78BAF003, '2005-02-09 10:00:00') /* Shadow (1758) */
+     , (0x78BAF00A, 0x78BAF004, '2005-02-09 10:00:00') /* Shadow (1758) */
+     , (0x78BAF00A, 0x78BAF005, '2005-02-09 10:00:00') /* Shadow Child (1756) */
+     , (0x78BAF00A, 0x78BAF006, '2005-02-09 10:00:00') /* Shadow Child (1756) */
+     , (0x78BAF00A, 0x78BAF008, '2005-02-09 10:00:00') /* Shadow Child (1756) */;

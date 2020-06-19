@@ -17,33 +17,33 @@ VALUES (0x71B13003,  3955, 0x1B130000, 4.0759, 85.6901, 0.005, -0.673999, 0, 0, 
 /* @teleloc 0x1B130000 [4.075900 85.690100 0.005000] -0.673999 0.000000 0.000000 0.738733 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71B13003, 0x71B13000, '2005-02-09 10:00:00') /* Withered Banderling Paragon */
-     , (0x71B13003, 0x71B13001, '2005-02-09 10:00:00') /* Withered Banderling Paragon */
-     , (0x71B13003, 0x71B13002, '2005-02-09 10:00:00') /* Withered Banderling Paragon */
-     , (0x71B13003, 0x71B13004, '2005-02-09 10:00:00') /* Withered Banderling Paragon */
-     , (0x71B13003, 0x71B13005, '2005-02-09 10:00:00') /* Withered Banderling Paragon */
-     , (0x71B13003, 0x71B13006, '2005-02-09 10:00:00') /* Withered Banderling Paragon */
-     , (0x71B13003, 0x71B13007, '2005-02-09 10:00:00') /* Withered Banderling Paragon */
-     , (0x71B13003, 0x71B13008, '2005-02-09 10:00:00') /* Withered Banderling Hierophant */
-     , (0x71B13003, 0x71B13009, '2005-02-09 10:00:00') /* Withered Banderling Hierophant */
-     , (0x71B13003, 0x71B1300A, '2005-02-09 10:00:00') /* Withered Banderling Hierophant */
-     , (0x71B13003, 0x71B1300B, '2005-02-09 10:00:00') /* Withered Banderling Paragon */
-     , (0x71B13003, 0x71B1300C, '2005-02-09 10:00:00') /* Withered Banderling Paragon */
-     , (0x71B13003, 0x71B1300D, '2005-02-09 10:00:00') /* Withered Banderling Paragon */
-     , (0x71B13003, 0x71B1300E, '2005-02-09 10:00:00') /* Withered Banderling Paragon */
-     , (0x71B13003, 0x71B1300F, '2005-02-09 10:00:00') /* Withered Banderling Paragon */
-     , (0x71B13003, 0x71B13010, '2005-02-09 10:00:00') /* Withered Banderling Hierophant */
-     , (0x71B13003, 0x71B13011, '2005-02-09 10:00:00') /* Withered Banderling Hierophant */
-     , (0x71B13003, 0x71B13012, '2005-02-09 10:00:00') /* Withered Banderling Hierophant */
-     , (0x71B13003, 0x71B13014, '2005-02-09 10:00:00') /* Withered Banderling Hierophant */
-     , (0x71B13003, 0x71B13015, '2005-02-09 10:00:00') /* Withered Banderling Paragon */
-     , (0x71B13003, 0x71B13016, '2005-02-09 10:00:00') /* Withered Banderling Paragon */
-     , (0x71B13003, 0x71B13017, '2005-02-09 10:00:00') /* Withered Banderling Paragon */
-     , (0x71B13003, 0x71B13019, '2005-02-09 10:00:00') /* Withered Drudge Seraph */
-     , (0x71B13003, 0x71B1301B, '2005-02-09 10:00:00') /* Withered Drudge Seraph */
-     , (0x71B13003, 0x71B1301F, '2005-02-09 10:00:00') /* Withered Drudge Seraph Mystic */
-     , (0x71B13003, 0x71B13020, '2005-02-09 10:00:00') /* Withered Drudge Seraph */
-     , (0x71B13003, 0x71B13021, '2005-02-09 10:00:00') /* Withered Drudge Seraph */;
+VALUES (0x71B13003, 0x71B13000, '2005-02-09 10:00:00') /* Withered Banderling Paragon (30685) */
+     , (0x71B13003, 0x71B13001, '2005-02-09 10:00:00') /* Withered Banderling Paragon (30685) */
+     , (0x71B13003, 0x71B13002, '2005-02-09 10:00:00') /* Withered Banderling Paragon (30685) */
+     , (0x71B13003, 0x71B13004, '2005-02-09 10:00:00') /* Withered Banderling Paragon (30685) */
+     , (0x71B13003, 0x71B13005, '2005-02-09 10:00:00') /* Withered Banderling Paragon (30685) */
+     , (0x71B13003, 0x71B13006, '2005-02-09 10:00:00') /* Withered Banderling Paragon (30685) */
+     , (0x71B13003, 0x71B13007, '2005-02-09 10:00:00') /* Withered Banderling Paragon (30685) */
+     , (0x71B13003, 0x71B13008, '2005-02-09 10:00:00') /* Withered Banderling Hierophant (30683) */
+     , (0x71B13003, 0x71B13009, '2005-02-09 10:00:00') /* Withered Banderling Hierophant (30683) */
+     , (0x71B13003, 0x71B1300A, '2005-02-09 10:00:00') /* Withered Banderling Hierophant (30683) */
+     , (0x71B13003, 0x71B1300B, '2005-02-09 10:00:00') /* Withered Banderling Paragon (30685) */
+     , (0x71B13003, 0x71B1300C, '2005-02-09 10:00:00') /* Withered Banderling Paragon (30685) */
+     , (0x71B13003, 0x71B1300D, '2005-02-09 10:00:00') /* Withered Banderling Paragon (30685) */
+     , (0x71B13003, 0x71B1300E, '2005-02-09 10:00:00') /* Withered Banderling Paragon (30685) */
+     , (0x71B13003, 0x71B1300F, '2005-02-09 10:00:00') /* Withered Banderling Paragon (30685) */
+     , (0x71B13003, 0x71B13010, '2005-02-09 10:00:00') /* Withered Banderling Hierophant (30683) */
+     , (0x71B13003, 0x71B13011, '2005-02-09 10:00:00') /* Withered Banderling Hierophant (30683) */
+     , (0x71B13003, 0x71B13012, '2005-02-09 10:00:00') /* Withered Banderling Hierophant (30683) */
+     , (0x71B13003, 0x71B13014, '2005-02-09 10:00:00') /* Withered Banderling Hierophant (30683) */
+     , (0x71B13003, 0x71B13015, '2005-02-09 10:00:00') /* Withered Banderling Paragon (30685) */
+     , (0x71B13003, 0x71B13016, '2005-02-09 10:00:00') /* Withered Banderling Paragon (30685) */
+     , (0x71B13003, 0x71B13017, '2005-02-09 10:00:00') /* Withered Banderling Paragon (30685) */
+     , (0x71B13003, 0x71B13019, '2005-02-09 10:00:00') /* Withered Drudge Seraph (30680) */
+     , (0x71B13003, 0x71B1301B, '2005-02-09 10:00:00') /* Withered Drudge Seraph (30680) */
+     , (0x71B13003, 0x71B1301F, '2005-02-09 10:00:00') /* Withered Drudge Seraph Mystic (30682) */
+     , (0x71B13003, 0x71B13020, '2005-02-09 10:00:00') /* Withered Drudge Seraph (30680) */
+     , (0x71B13003, 0x71B13021, '2005-02-09 10:00:00') /* Withered Drudge Seraph (30680) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71B13004, 30685, 0x1B130000, 5.42052, 92.2775, 0.00824997, 0.884829, 0, 0, -0.465917,  True, '2005-02-09 10:00:00'); /* Withered Banderling Paragon */
@@ -146,19 +146,19 @@ VALUES (0x71B13022,  3955, 0x1B130000, 131.982, 177.36, 4.00207, 0.999862, 0, 0,
 /* @teleloc 0x1B130000 [131.982000 177.360000 4.002070] 0.999862 0.000000 0.000000 -0.016620 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71B13022, 0x71B13023, '2005-02-09 10:00:00') /* Withered Raider Prefect */
-     , (0x71B13022, 0x71B13024, '2005-02-09 10:00:00') /* Withered Raider Prefect */
-     , (0x71B13022, 0x71B13025, '2005-02-09 10:00:00') /* Withered Transcendent Tumerok */
-     , (0x71B13022, 0x71B13026, '2005-02-09 10:00:00') /* Withered Transcendent Tumerok */
-     , (0x71B13022, 0x71B13027, '2005-02-09 10:00:00') /* Withered Drudge Seraph Mystic */
-     , (0x71B13022, 0x71B13028, '2005-02-09 10:00:00') /* Withered Drudge Seraph Mystic */
-     , (0x71B13022, 0x71B13029, '2005-02-09 10:00:00') /* Withered Transcendent Tumerok */
-     , (0x71B13022, 0x71B1302A, '2005-02-09 10:00:00') /* Withered Transcendent Tumerok */
-     , (0x71B13022, 0x71B1302B, '2005-02-09 10:00:00') /* Withered Transcendent Tumerok */
-     , (0x71B13022, 0x71B1302C, '2005-02-09 10:00:00') /* Withered Raider Prefect */
-     , (0x71B13022, 0x71B1302D, '2005-02-09 10:00:00') /* Withered Raider Prefect */
-     , (0x71B13022, 0x71B1302E, '2005-02-09 10:00:00') /* Withered Raider Justicar */
-     , (0x71B13022, 0x71B1302F, '2005-02-09 10:00:00') /* Withered Raider Justicar */;
+VALUES (0x71B13022, 0x71B13023, '2005-02-09 10:00:00') /* Withered Raider Prefect (30689) */
+     , (0x71B13022, 0x71B13024, '2005-02-09 10:00:00') /* Withered Raider Prefect (30689) */
+     , (0x71B13022, 0x71B13025, '2005-02-09 10:00:00') /* Withered Transcendent Tumerok (30686) */
+     , (0x71B13022, 0x71B13026, '2005-02-09 10:00:00') /* Withered Transcendent Tumerok (30686) */
+     , (0x71B13022, 0x71B13027, '2005-02-09 10:00:00') /* Withered Drudge Seraph Mystic (30682) */
+     , (0x71B13022, 0x71B13028, '2005-02-09 10:00:00') /* Withered Drudge Seraph Mystic (30682) */
+     , (0x71B13022, 0x71B13029, '2005-02-09 10:00:00') /* Withered Transcendent Tumerok (30686) */
+     , (0x71B13022, 0x71B1302A, '2005-02-09 10:00:00') /* Withered Transcendent Tumerok (30686) */
+     , (0x71B13022, 0x71B1302B, '2005-02-09 10:00:00') /* Withered Transcendent Tumerok (30686) */
+     , (0x71B13022, 0x71B1302C, '2005-02-09 10:00:00') /* Withered Raider Prefect (30689) */
+     , (0x71B13022, 0x71B1302D, '2005-02-09 10:00:00') /* Withered Raider Prefect (30689) */
+     , (0x71B13022, 0x71B1302E, '2005-02-09 10:00:00') /* Withered Raider Justicar (30691) */
+     , (0x71B13022, 0x71B1302F, '2005-02-09 10:00:00') /* Withered Raider Justicar (30691) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71B13023, 30689, 0x1B130000, 131.29, 185.778, 3.89161, 0.999443, 0, 0, 0.033373,  True, '2005-02-09 10:00:00'); /* Withered Raider Prefect */

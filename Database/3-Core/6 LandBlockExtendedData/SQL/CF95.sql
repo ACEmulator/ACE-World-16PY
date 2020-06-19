@@ -13,4 +13,4 @@ VALUES (0x7CF95002,  7923, 0xCF950000, 158.841, 149.622, 20.005, -0.803664, 0, 0
 /* @teleloc 0xCF950000 [158.841000 149.622000 20.005000] -0.803664 0.000000 0.000000 0.595084 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7CF95002, 0x7CF95001, '2005-02-09 10:00:00') /* Emissary of Asheron */;
+VALUES (0x7CF95002, 0x7CF95001, '2005-02-09 10:00:00') /* Emissary of Asheron (19714) */;

@@ -25,7 +25,7 @@ VALUES (0x7E722005,  7924, 0xE7220000, 178.849, 138.365, 0.005, -0.00128939, 0, 
 /* @teleloc 0xE7220000 [178.849000 138.365000 0.005000] -0.001289 0.000000 0.000000 0.999999 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7E722005, 0x7E722001, '2005-02-09 10:00:00') /* Mosswart Soul Trapper */
-     , (0x7E722005, 0x7E722002, '2005-02-09 10:00:00') /* Mosswart Soul Trapper */
-     , (0x7E722005, 0x7E722003, '2005-02-09 10:00:00') /* Mosswart Idolator */
-     , (0x7E722005, 0x7E722004, '2005-02-09 10:00:00') /* Mosswart Idolator */;
+VALUES (0x7E722005, 0x7E722001, '2005-02-09 10:00:00') /* Mosswart Soul Trapper (8430) */
+     , (0x7E722005, 0x7E722002, '2005-02-09 10:00:00') /* Mosswart Soul Trapper (8430) */
+     , (0x7E722005, 0x7E722003, '2005-02-09 10:00:00') /* Mosswart Idolator (8428) */
+     , (0x7E722005, 0x7E722004, '2005-02-09 10:00:00') /* Mosswart Idolator (8428) */;

@@ -81,8 +81,8 @@ VALUES (0x7014B013,  2179, 0x014B0125, 5.23789, -39.9943, -18, -0.707107, 0, 0, 
 /* @teleloc 0x014B0125 [5.237890 -39.994300 -18.000000] -0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7014B013, 0x7014B00C, '2005-02-09 10:00:00') /* Lever */
-     , (0x7014B013, 0x7014B043, '2005-02-09 10:00:00') /* Lever */;
+VALUES (0x7014B013, 0x7014B00C, '2005-02-09 10:00:00') /* Lever (2609) */
+     , (0x7014B013, 0x7014B043, '2005-02-09 10:00:00') /* Lever (2609) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7014B014,   278, 0x014B0126, 14.75, -40, -18, 0.707107, 0, 0, -0.707107, False, '2005-02-09 10:00:00'); /* Door */
@@ -105,7 +105,7 @@ VALUES (0x7014B018,  4139, 0x014B0129, 14.75, -50, -18, 0.707107, 0, 0, -0.70710
 /* @teleloc 0x014B0129 [14.750000 -50.000000 -18.000000] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7014B018, 0x7014B019, '2005-02-09 10:00:00') /* Pressure Plate */;
+VALUES (0x7014B018, 0x7014B019, '2005-02-09 10:00:00') /* Pressure Plate (2131) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7014B019,  2131, 0x014B0134, 19.9284, -52.7111, -18, 0.999932, 0, 0, -0.011672,  True, '2005-02-09 10:00:00'); /* Pressure Plate */
@@ -208,7 +208,7 @@ VALUES (0x7014B031,  2179, 0x014B01B1, 20, -65.25, -12, 1, 0, 0, 0, False, '2005
 /* @teleloc 0x014B01B1 [20.000000 -65.250000 -12.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7014B031, 0x7014B037, '2005-02-09 10:00:00') /* Lever */;
+VALUES (0x7014B031, 0x7014B037, '2005-02-09 10:00:00') /* Lever (286) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7014B032,   232, 0x014B01B5, 26.1072, -40.0878, -11.995, 0.892979, 0, 0, -0.450098,  True, '2005-02-09 10:00:00'); /* Tumerok Scout */
@@ -303,43 +303,43 @@ VALUES (0x7014B04A,  3955, 0x014B0213, 81.2974, -121.284, 0, 1, 0, 0, 0, False, 
 /* @teleloc 0x014B0213 [81.297400 -121.284000 0.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7014B04A, 0x7014B007, '2005-02-09 10:00:00') /* Tumerok Warrior */
-     , (0x7014B04A, 0x7014B00A, '2005-02-09 10:00:00') /* Tumerok Warrior */
-     , (0x7014B04A, 0x7014B00B, '2005-02-09 10:00:00') /* Tumerok Priest */
-     , (0x7014B04A, 0x7014B00E, '2005-02-09 10:00:00') /* Tumerok Fighter */
-     , (0x7014B04A, 0x7014B00F, '2005-02-09 10:00:00') /* Tumerok Fighter */
-     , (0x7014B04A, 0x7014B010, '2005-02-09 10:00:00') /* Tumerok Priest */
-     , (0x7014B04A, 0x7014B012, '2005-02-09 10:00:00') /* Tumerok Fighter */
-     , (0x7014B04A, 0x7014B015, '2005-02-09 10:00:00') /* Hunter Shreth */
-     , (0x7014B04A, 0x7014B016, '2005-02-09 10:00:00') /* Hunter Shreth */
-     , (0x7014B04A, 0x7014B01A, '2005-02-09 10:00:00') /* Tumerok Worker */
-     , (0x7014B04A, 0x7014B01C, '2005-02-09 10:00:00') /* Tumerok Scout */
-     , (0x7014B04A, 0x7014B021, '2005-02-09 10:00:00') /* Tumerok Fighter */
-     , (0x7014B04A, 0x7014B022, '2005-02-09 10:00:00') /* Tumerok Priest */
-     , (0x7014B04A, 0x7014B026, '2005-02-09 10:00:00') /* Tumerok Scout */
-     , (0x7014B04A, 0x7014B02E, '2005-02-09 10:00:00') /* Tumerok Fighter */
-     , (0x7014B04A, 0x7014B03C, '2005-02-09 10:00:00') /* Tumerok Fighter */;
+VALUES (0x7014B04A, 0x7014B007, '2005-02-09 10:00:00') /* Tumerok Warrior (233) */
+     , (0x7014B04A, 0x7014B00A, '2005-02-09 10:00:00') /* Tumerok Warrior (4100) */
+     , (0x7014B04A, 0x7014B00B, '2005-02-09 10:00:00') /* Tumerok Priest (231) */
+     , (0x7014B04A, 0x7014B00E, '2005-02-09 10:00:00') /* Tumerok Fighter (2439) */
+     , (0x7014B04A, 0x7014B00F, '2005-02-09 10:00:00') /* Tumerok Fighter (4101) */
+     , (0x7014B04A, 0x7014B010, '2005-02-09 10:00:00') /* Tumerok Priest (231) */
+     , (0x7014B04A, 0x7014B012, '2005-02-09 10:00:00') /* Tumerok Fighter (2439) */
+     , (0x7014B04A, 0x7014B015, '2005-02-09 10:00:00') /* Hunter Shreth (4111) */
+     , (0x7014B04A, 0x7014B016, '2005-02-09 10:00:00') /* Hunter Shreth (4111) */
+     , (0x7014B04A, 0x7014B01A, '2005-02-09 10:00:00') /* Tumerok Worker (234) */
+     , (0x7014B04A, 0x7014B01C, '2005-02-09 10:00:00') /* Tumerok Scout (232) */
+     , (0x7014B04A, 0x7014B021, '2005-02-09 10:00:00') /* Tumerok Fighter (2439) */
+     , (0x7014B04A, 0x7014B022, '2005-02-09 10:00:00') /* Tumerok Priest (231) */
+     , (0x7014B04A, 0x7014B026, '2005-02-09 10:00:00') /* Tumerok Scout (232) */
+     , (0x7014B04A, 0x7014B02E, '2005-02-09 10:00:00') /* Tumerok Fighter (2439) */
+     , (0x7014B04A, 0x7014B03C, '2005-02-09 10:00:00') /* Tumerok Fighter (4101) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7014B04B,  7923, 0x014B0213, 82.5145, -121.458, 0, 1, 0, 0, 0, False, '2005-02-09 10:00:00'); /* Linkable Monster Generator ( 3 Min.) */
 /* @teleloc 0x014B0213 [82.514500 -121.458000 0.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7014B04B, 0x7014B01B, '2005-02-09 10:00:00') /* Tumerok Scout */
-     , (0x7014B04B, 0x7014B02A, '2005-02-09 10:00:00') /* Tumerok Scout */
-     , (0x7014B04B, 0x7014B02B, '2005-02-09 10:00:00') /* Tumerok Scout */
-     , (0x7014B04B, 0x7014B02C, '2005-02-09 10:00:00') /* Tumerok Scout */
-     , (0x7014B04B, 0x7014B02D, '2005-02-09 10:00:00') /* Tumerok Scout */
-     , (0x7014B04B, 0x7014B02F, '2005-02-09 10:00:00') /* Tumerok Scout */
-     , (0x7014B04B, 0x7014B030, '2005-02-09 10:00:00') /* Tumerok Worker */
-     , (0x7014B04B, 0x7014B032, '2005-02-09 10:00:00') /* Tumerok Scout */
-     , (0x7014B04B, 0x7014B033, '2005-02-09 10:00:00') /* Tumerok Scout */
-     , (0x7014B04B, 0x7014B039, '2005-02-09 10:00:00') /* Tumerok Scout */
-     , (0x7014B04B, 0x7014B03D, '2005-02-09 10:00:00') /* Tumerok Worker */
-     , (0x7014B04B, 0x7014B03E, '2005-02-09 10:00:00') /* Tumerok Worker */
-     , (0x7014B04B, 0x7014B041, '2005-02-09 10:00:00') /* Tumerok Worker */
-     , (0x7014B04B, 0x7014B046, '2005-02-09 10:00:00') /* Rough Monouga */
-     , (0x7014B04B, 0x7014B047, '2005-02-09 10:00:00') /* Rough Monouga */;
+VALUES (0x7014B04B, 0x7014B01B, '2005-02-09 10:00:00') /* Tumerok Scout (232) */
+     , (0x7014B04B, 0x7014B02A, '2005-02-09 10:00:00') /* Tumerok Scout (232) */
+     , (0x7014B04B, 0x7014B02B, '2005-02-09 10:00:00') /* Tumerok Scout (4099) */
+     , (0x7014B04B, 0x7014B02C, '2005-02-09 10:00:00') /* Tumerok Scout (4099) */
+     , (0x7014B04B, 0x7014B02D, '2005-02-09 10:00:00') /* Tumerok Scout (4099) */
+     , (0x7014B04B, 0x7014B02F, '2005-02-09 10:00:00') /* Tumerok Scout (232) */
+     , (0x7014B04B, 0x7014B030, '2005-02-09 10:00:00') /* Tumerok Worker (234) */
+     , (0x7014B04B, 0x7014B032, '2005-02-09 10:00:00') /* Tumerok Scout (232) */
+     , (0x7014B04B, 0x7014B033, '2005-02-09 10:00:00') /* Tumerok Scout (232) */
+     , (0x7014B04B, 0x7014B039, '2005-02-09 10:00:00') /* Tumerok Scout (232) */
+     , (0x7014B04B, 0x7014B03D, '2005-02-09 10:00:00') /* Tumerok Worker (234) */
+     , (0x7014B04B, 0x7014B03E, '2005-02-09 10:00:00') /* Tumerok Worker (234) */
+     , (0x7014B04B, 0x7014B041, '2005-02-09 10:00:00') /* Tumerok Worker (234) */
+     , (0x7014B04B, 0x7014B046, '2005-02-09 10:00:00') /* Rough Monouga (2574) */
+     , (0x7014B04B, 0x7014B047, '2005-02-09 10:00:00') /* Rough Monouga (2574) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7014B04C,   278, 0x014B01CE, 50, -54.75, -12, -4.37114E-08, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Door */

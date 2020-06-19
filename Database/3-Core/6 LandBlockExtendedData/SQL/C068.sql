@@ -61,8 +61,8 @@ VALUES (0x7C06800E,  1154, 0xC0680000, 154.959, 33.298, 89.205, -0.597297, 0, 0,
 /* @teleloc 0xC0680000 [154.959000 33.298000 89.205000] -0.597297 0.000000 0.000000 0.802020 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C06800E, 0x7C06800B, '2005-02-09 10:00:00') /* Mosswart Shaman */
-     , (0x7C06800E, 0x7C06800C, '2005-02-09 10:00:00') /* Mosswart Shaman */;
+VALUES (0x7C06800E, 0x7C06800B, '2005-02-09 10:00:00') /* Mosswart Shaman (1619) */
+     , (0x7C06800E, 0x7C06800C, '2005-02-09 10:00:00') /* Mosswart Shaman (1619) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C06800F,   899, 0xC0680000, 153.784, 31.7534, 91.1381, 0.716334, 0, 0, -0.697757, False, '2005-02-09 10:00:00'); /* Mosswart Mudlurk Generator */

@@ -41,25 +41,25 @@ VALUES (0x73B42022,  7924, 0x3B420105, 116.71, 61.575, 24.405, 1, 0, 0, 0, False
 /* @teleloc 0x3B420105 [116.710000 61.575000 24.405000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73B42022, 0x73B42019, '2005-02-09 10:00:00') /* Nomad Mu-miyah */
-     , (0x73B42022, 0x73B4201A, '2005-02-09 10:00:00') /* Guardian Mu-miyah */
-     , (0x73B42022, 0x73B4201B, '2005-02-09 10:00:00') /* Guardian Mu-miyah */
-     , (0x73B42022, 0x73B4201C, '2005-02-09 10:00:00') /* Imperial Mu-miyah */
-     , (0x73B42022, 0x73B4201D, '2005-02-09 10:00:00') /* Royal Mu-miyah */
-     , (0x73B42022, 0x73B4201E, '2005-02-09 10:00:00') /* Nomad Mu-miyah */
-     , (0x73B42022, 0x73B4201F, '2005-02-09 10:00:00') /* Guardian Mu-miyah */
-     , (0x73B42022, 0x73B42020, '2005-02-09 10:00:00') /* Guardian Mu-miyah */
-     , (0x73B42022, 0x73B42023, '2005-02-09 10:00:00') /* Nomad Mu-miyah */
-     , (0x73B42022, 0x73B42024, '2005-02-09 10:00:00') /* Guardian Mu-miyah */
-     , (0x73B42022, 0x73B42025, '2005-02-09 10:00:00') /* Guardian Mu-miyah */
-     , (0x73B42022, 0x73B42026, '2005-02-09 10:00:00') /* Guardian Mu-miyah */
-     , (0x73B42022, 0x73B42028, '2005-02-09 10:00:00') /* Guardian Mu-miyah */
-     , (0x73B42022, 0x73B42029, '2005-02-09 10:00:00') /* Guardian Mu-miyah */
-     , (0x73B42022, 0x73B4202A, '2005-02-09 10:00:00') /* Nomad Mu-miyah */
-     , (0x73B42022, 0x73B4202B, '2005-02-09 10:00:00') /* Royal Mu-miyah */
-     , (0x73B42022, 0x73B4202C, '2005-02-09 10:00:00') /* Guardian Mu-miyah */
-     , (0x73B42022, 0x73B4202D, '2005-02-09 10:00:00') /* Nomad Mu-miyah */
-     , (0x73B42022, 0x73B4202E, '2005-02-09 10:00:00') /* Nomad Mu-miyah */;
+VALUES (0x73B42022, 0x73B42019, '2005-02-09 10:00:00') /* Nomad Mu-miyah (8431) */
+     , (0x73B42022, 0x73B4201A, '2005-02-09 10:00:00') /* Guardian Mu-miyah (7117) */
+     , (0x73B42022, 0x73B4201B, '2005-02-09 10:00:00') /* Guardian Mu-miyah (7117) */
+     , (0x73B42022, 0x73B4201C, '2005-02-09 10:00:00') /* Imperial Mu-miyah (7119) */
+     , (0x73B42022, 0x73B4201D, '2005-02-09 10:00:00') /* Royal Mu-miyah (7118) */
+     , (0x73B42022, 0x73B4201E, '2005-02-09 10:00:00') /* Nomad Mu-miyah (8431) */
+     , (0x73B42022, 0x73B4201F, '2005-02-09 10:00:00') /* Guardian Mu-miyah (7117) */
+     , (0x73B42022, 0x73B42020, '2005-02-09 10:00:00') /* Guardian Mu-miyah (7117) */
+     , (0x73B42022, 0x73B42023, '2005-02-09 10:00:00') /* Nomad Mu-miyah (8431) */
+     , (0x73B42022, 0x73B42024, '2005-02-09 10:00:00') /* Guardian Mu-miyah (7117) */
+     , (0x73B42022, 0x73B42025, '2005-02-09 10:00:00') /* Guardian Mu-miyah (7117) */
+     , (0x73B42022, 0x73B42026, '2005-02-09 10:00:00') /* Guardian Mu-miyah (7117) */
+     , (0x73B42022, 0x73B42028, '2005-02-09 10:00:00') /* Guardian Mu-miyah (7117) */
+     , (0x73B42022, 0x73B42029, '2005-02-09 10:00:00') /* Guardian Mu-miyah (7117) */
+     , (0x73B42022, 0x73B4202A, '2005-02-09 10:00:00') /* Nomad Mu-miyah (8431) */
+     , (0x73B42022, 0x73B4202B, '2005-02-09 10:00:00') /* Royal Mu-miyah (7118) */
+     , (0x73B42022, 0x73B4202C, '2005-02-09 10:00:00') /* Guardian Mu-miyah (7117) */
+     , (0x73B42022, 0x73B4202D, '2005-02-09 10:00:00') /* Nomad Mu-miyah (8431) */
+     , (0x73B42022, 0x73B4202E, '2005-02-09 10:00:00') /* Nomad Mu-miyah (8431) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73B42023,  8431, 0x3B420105, 113.561, 58.7545, 24.4065, -0.999143, 0, 0, 0.0413813,  True, '2005-02-09 10:00:00'); /* Nomad Mu-miyah */

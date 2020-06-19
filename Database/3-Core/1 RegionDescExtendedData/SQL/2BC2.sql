@@ -1,8 +1,6 @@
-DELETE FROM `encounter` WHERE `landblock` = 11202;
+DELETE FROM `encounter` WHERE `landblock` = 0x2BC2;
 
 INSERT INTO `encounter` (`landblock`, `weenie_Class_Id`, `cell_X`, `cell_Y`, `last_Modified`)
-VALUES (11202, 27738, 0, 2, '2005-02-09 10:00:00') /* Marae Mid Plains Generator */
-     , (11202, 27737, 1, 6, '2005-02-09 10:00:00') /* Marae Mid Marsh Generator */
-     , (11202, 27737, 4, 2, '2005-02-09 10:00:00') /* Marae Mid Marsh Generator */
-     , (11202, 27738, 6, 8, '2005-02-09 10:00:00') /* Marae Mid Plains Generator */
-     , (11202, 27737, 8, 5, '2005-02-09 10:00:00') /* Marae Mid Marsh Generator */;
+VALUES (0x2BC2, 27738, 0, 2, '2005-02-09 10:00:00') /* Marae Mid Plains Generator */
+     , (0x2BC2, 27737, 1, 6, '2005-02-09 10:00:00') /* Marae Mid Marsh Generator */
+     , (0x2BC2, 27737, 4, 2, '2005-02-09 10:00:00') /* Marae Mid Marsh Generator */;

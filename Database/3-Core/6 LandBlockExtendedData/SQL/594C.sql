@@ -65,52 +65,52 @@ VALUES (0x7594C00F,  7932, 0x594C0143, 46.9818, -10, -5.995, 1, 0, 0, 0, False, 
 /* @teleloc 0x594C0143 [46.981800 -10.000000 -5.995000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7594C00F, 0x7594C000, '2005-02-09 10:00:00') /* Drudge Ravener */
-     , (0x7594C00F, 0x7594C001, '2005-02-09 10:00:00') /* Drudge Ravener */
-     , (0x7594C00F, 0x7594C002, '2005-02-09 10:00:00') /* Shadow Lieutenant */
-     , (0x7594C00F, 0x7594C003, '2005-02-09 10:00:00') /* Shadow Lieutenant */
-     , (0x7594C00F, 0x7594C004, '2005-02-09 10:00:00') /* Drudge Ravener */
-     , (0x7594C00F, 0x7594C005, '2005-02-09 10:00:00') /* Tusker Slave */
-     , (0x7594C00F, 0x7594C006, '2005-02-09 10:00:00') /* Shadow Lieutenant */
-     , (0x7594C00F, 0x7594C007, '2005-02-09 10:00:00') /* Shadow Lieutenant */
-     , (0x7594C00F, 0x7594C008, '2005-02-09 10:00:00') /* Tusker Slave */
-     , (0x7594C00F, 0x7594C009, '2005-02-09 10:00:00') /* Tusker Slave */
-     , (0x7594C00F, 0x7594C00A, '2005-02-09 10:00:00') /* Shadow Lieutenant */
-     , (0x7594C00F, 0x7594C00C, '2005-02-09 10:00:00') /* Shadow Lieutenant */
-     , (0x7594C00F, 0x7594C00D, '2005-02-09 10:00:00') /* Tusker Slave */
-     , (0x7594C00F, 0x7594C00E, '2005-02-09 10:00:00') /* Drudge Ravener */
-     , (0x7594C00F, 0x7594C010, '2005-02-09 10:00:00') /* Shadow Lieutenant */
-     , (0x7594C00F, 0x7594C011, '2005-02-09 10:00:00') /* Drudge Ravener */
-     , (0x7594C00F, 0x7594C012, '2005-02-09 10:00:00') /* Tusker Slave */
-     , (0x7594C00F, 0x7594C013, '2005-02-09 10:00:00') /* Shadow Lieutenant */
-     , (0x7594C00F, 0x7594C014, '2005-02-09 10:00:00') /* Drudge Ravener */
-     , (0x7594C00F, 0x7594C01B, '2005-02-09 10:00:00') /* Drudge Ravener */
-     , (0x7594C00F, 0x7594C01D, '2005-02-09 10:00:00') /* Shadow Lieutenant */
-     , (0x7594C00F, 0x7594C01E, '2005-02-09 10:00:00') /* Shadow Lieutenant */
-     , (0x7594C00F, 0x7594C021, '2005-02-09 10:00:00') /* Drudge Ravener */
-     , (0x7594C00F, 0x7594C022, '2005-02-09 10:00:00') /* Shadow Lieutenant */
-     , (0x7594C00F, 0x7594C023, '2005-02-09 10:00:00') /* Shadow Lieutenant */
-     , (0x7594C00F, 0x7594C026, '2005-02-09 10:00:00') /* Shadow Lieutenant */
-     , (0x7594C00F, 0x7594C027, '2005-02-09 10:00:00') /* Shadow Lieutenant */
-     , (0x7594C00F, 0x7594C02A, '2005-02-09 10:00:00') /* Drudge Ravener */
-     , (0x7594C00F, 0x7594C02B, '2005-02-09 10:00:00') /* Drudge Ravener */
-     , (0x7594C00F, 0x7594C02C, '2005-02-09 10:00:00') /* Shadow Lieutenant */
-     , (0x7594C00F, 0x7594C02D, '2005-02-09 10:00:00') /* Shadow Lieutenant */
-     , (0x7594C00F, 0x7594C030, '2005-02-09 10:00:00') /* Shadow Lieutenant */
-     , (0x7594C00F, 0x7594C031, '2005-02-09 10:00:00') /* Shadow Lieutenant */
-     , (0x7594C00F, 0x7594C034, '2005-02-09 10:00:00') /* Drudge Ravener */
-     , (0x7594C00F, 0x7594C035, '2005-02-09 10:00:00') /* Shadow Lieutenant */
-     , (0x7594C00F, 0x7594C036, '2005-02-09 10:00:00') /* Shadow Lieutenant */
-     , (0x7594C00F, 0x7594C039, '2005-02-09 10:00:00') /* Drudge Ravener */
-     , (0x7594C00F, 0x7594C03A, '2005-02-09 10:00:00') /* Drudge Ravener */
-     , (0x7594C00F, 0x7594C03B, '2005-02-09 10:00:00') /* Shadow Lieutenant */
-     , (0x7594C00F, 0x7594C03C, '2005-02-09 10:00:00') /* Shadow Lieutenant */
-     , (0x7594C00F, 0x7594C03F, '2005-02-09 10:00:00') /* Drudge Ravener */
-     , (0x7594C00F, 0x7594C040, '2005-02-09 10:00:00') /* Shadow Lieutenant */
-     , (0x7594C00F, 0x7594C041, '2005-02-09 10:00:00') /* Shadow Lieutenant */
-     , (0x7594C00F, 0x7594C044, '2005-02-09 10:00:00') /* Shadow Lieutenant */
-     , (0x7594C00F, 0x7594C045, '2005-02-09 10:00:00') /* Shadow Lieutenant */
-     , (0x7594C00F, 0x7594C048, '2005-02-09 10:00:00') /* Drudge Ravener */;
+VALUES (0x7594C00F, 0x7594C000, '2005-02-09 10:00:00') /* Drudge Ravener (1610) */
+     , (0x7594C00F, 0x7594C001, '2005-02-09 10:00:00') /* Drudge Ravener (1610) */
+     , (0x7594C00F, 0x7594C002, '2005-02-09 10:00:00') /* Shadow Lieutenant (1757) */
+     , (0x7594C00F, 0x7594C003, '2005-02-09 10:00:00') /* Shadow Lieutenant (1757) */
+     , (0x7594C00F, 0x7594C004, '2005-02-09 10:00:00') /* Drudge Ravener (1610) */
+     , (0x7594C00F, 0x7594C005, '2005-02-09 10:00:00') /* Tusker Slave (1628) */
+     , (0x7594C00F, 0x7594C006, '2005-02-09 10:00:00') /* Shadow Lieutenant (1757) */
+     , (0x7594C00F, 0x7594C007, '2005-02-09 10:00:00') /* Shadow Lieutenant (1757) */
+     , (0x7594C00F, 0x7594C008, '2005-02-09 10:00:00') /* Tusker Slave (1628) */
+     , (0x7594C00F, 0x7594C009, '2005-02-09 10:00:00') /* Tusker Slave (1628) */
+     , (0x7594C00F, 0x7594C00A, '2005-02-09 10:00:00') /* Shadow Lieutenant (1757) */
+     , (0x7594C00F, 0x7594C00C, '2005-02-09 10:00:00') /* Shadow Lieutenant (1757) */
+     , (0x7594C00F, 0x7594C00D, '2005-02-09 10:00:00') /* Tusker Slave (1628) */
+     , (0x7594C00F, 0x7594C00E, '2005-02-09 10:00:00') /* Drudge Ravener (1610) */
+     , (0x7594C00F, 0x7594C010, '2005-02-09 10:00:00') /* Shadow Lieutenant (1757) */
+     , (0x7594C00F, 0x7594C011, '2005-02-09 10:00:00') /* Drudge Ravener (1610) */
+     , (0x7594C00F, 0x7594C012, '2005-02-09 10:00:00') /* Tusker Slave (1628) */
+     , (0x7594C00F, 0x7594C013, '2005-02-09 10:00:00') /* Shadow Lieutenant (1757) */
+     , (0x7594C00F, 0x7594C014, '2005-02-09 10:00:00') /* Drudge Ravener (1610) */
+     , (0x7594C00F, 0x7594C01B, '2005-02-09 10:00:00') /* Drudge Ravener (1610) */
+     , (0x7594C00F, 0x7594C01D, '2005-02-09 10:00:00') /* Shadow Lieutenant (1757) */
+     , (0x7594C00F, 0x7594C01E, '2005-02-09 10:00:00') /* Shadow Lieutenant (1757) */
+     , (0x7594C00F, 0x7594C021, '2005-02-09 10:00:00') /* Drudge Ravener (1610) */
+     , (0x7594C00F, 0x7594C022, '2005-02-09 10:00:00') /* Shadow Lieutenant (1757) */
+     , (0x7594C00F, 0x7594C023, '2005-02-09 10:00:00') /* Shadow Lieutenant (1757) */
+     , (0x7594C00F, 0x7594C026, '2005-02-09 10:00:00') /* Shadow Lieutenant (1757) */
+     , (0x7594C00F, 0x7594C027, '2005-02-09 10:00:00') /* Shadow Lieutenant (1757) */
+     , (0x7594C00F, 0x7594C02A, '2005-02-09 10:00:00') /* Drudge Ravener (1610) */
+     , (0x7594C00F, 0x7594C02B, '2005-02-09 10:00:00') /* Drudge Ravener (1610) */
+     , (0x7594C00F, 0x7594C02C, '2005-02-09 10:00:00') /* Shadow Lieutenant (1757) */
+     , (0x7594C00F, 0x7594C02D, '2005-02-09 10:00:00') /* Shadow Lieutenant (1757) */
+     , (0x7594C00F, 0x7594C030, '2005-02-09 10:00:00') /* Shadow Lieutenant (1757) */
+     , (0x7594C00F, 0x7594C031, '2005-02-09 10:00:00') /* Shadow Lieutenant (1757) */
+     , (0x7594C00F, 0x7594C034, '2005-02-09 10:00:00') /* Drudge Ravener (1610) */
+     , (0x7594C00F, 0x7594C035, '2005-02-09 10:00:00') /* Shadow Lieutenant (1757) */
+     , (0x7594C00F, 0x7594C036, '2005-02-09 10:00:00') /* Shadow Lieutenant (1757) */
+     , (0x7594C00F, 0x7594C039, '2005-02-09 10:00:00') /* Drudge Ravener (1610) */
+     , (0x7594C00F, 0x7594C03A, '2005-02-09 10:00:00') /* Drudge Ravener (1610) */
+     , (0x7594C00F, 0x7594C03B, '2005-02-09 10:00:00') /* Shadow Lieutenant (1757) */
+     , (0x7594C00F, 0x7594C03C, '2005-02-09 10:00:00') /* Shadow Lieutenant (1757) */
+     , (0x7594C00F, 0x7594C03F, '2005-02-09 10:00:00') /* Drudge Ravener (1610) */
+     , (0x7594C00F, 0x7594C040, '2005-02-09 10:00:00') /* Shadow Lieutenant (1757) */
+     , (0x7594C00F, 0x7594C041, '2005-02-09 10:00:00') /* Shadow Lieutenant (1757) */
+     , (0x7594C00F, 0x7594C044, '2005-02-09 10:00:00') /* Shadow Lieutenant (1757) */
+     , (0x7594C00F, 0x7594C045, '2005-02-09 10:00:00') /* Shadow Lieutenant (1757) */
+     , (0x7594C00F, 0x7594C048, '2005-02-09 10:00:00') /* Drudge Ravener (1610) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7594C010,  1757, 0x594C0146, 47.9883, -39.9791, -5.995, 0.696706, 0, 0, 0.717356,  True, '2005-02-09 10:00:00'); /* Shadow Lieutenant */
@@ -517,31 +517,31 @@ VALUES (0x7594C074,  7924, 0x594C0242, 47.6775, -20.0865, 18.005, 0.698981, 0, 0
 /* @teleloc 0x594C0242 [47.677500 -20.086500 18.005000] 0.698981 0.000000 0.000000 -0.715140 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7594C074, 0x7594C073, '2005-02-09 10:00:00') /* Representative of the Singularity */;
+VALUES (0x7594C074, 0x7594C073, '2005-02-09 10:00:00') /* Representative of the Singularity (25388) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7594C075,  7932, 0x594C0242, 51.9953, -21.7554, 18.005, 1, 0, 0, 0, False, '2005-02-09 10:00:00'); /* Linkable Monster Generator ( 4 Min.) */
 /* @teleloc 0x594C0242 [51.995300 -21.755400 18.005000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7594C075, 0x7594C015, '2005-02-09 10:00:00') /* Shadow Lieutenant */
-     , (0x7594C075, 0x7594C016, '2005-02-09 10:00:00') /* Panumbris Shadow */
-     , (0x7594C075, 0x7594C017, '2005-02-09 10:00:00') /* Shadow Lieutenant */
-     , (0x7594C075, 0x7594C018, '2005-02-09 10:00:00') /* Umbris Shadow */
-     , (0x7594C075, 0x7594C019, '2005-02-09 10:00:00') /* Shadow Lieutenant */
-     , (0x7594C075, 0x7594C01A, '2005-02-09 10:00:00') /* Panumbris Shadow */
-     , (0x7594C075, 0x7594C01C, '2005-02-09 10:00:00') /* Shadow Lieutenant */
-     , (0x7594C075, 0x7594C049, '2005-02-09 10:00:00') /* Umbris Shadow */
-     , (0x7594C075, 0x7594C04A, '2005-02-09 10:00:00') /* Terebrous Hollow Minion */
-     , (0x7594C075, 0x7594C04B, '2005-02-09 10:00:00') /* Umbris Shadow */
-     , (0x7594C075, 0x7594C04C, '2005-02-09 10:00:00') /* Terebrous Hollow Minion */
-     , (0x7594C075, 0x7594C04D, '2005-02-09 10:00:00') /* Terebrous Hollow Minion */
-     , (0x7594C075, 0x7594C04E, '2005-02-09 10:00:00') /* Terebrous Hollow Minion */
-     , (0x7594C075, 0x7594C061, '2005-02-09 10:00:00') /* Terebrous Hollow Minion */
-     , (0x7594C075, 0x7594C062, '2005-02-09 10:00:00') /* Virindi Profatrix */
-     , (0x7594C075, 0x7594C063, '2005-02-09 10:00:00') /* Terebrous Hollow Minion */
-     , (0x7594C075, 0x7594C064, '2005-02-09 10:00:00') /* Terebrous Hollow Minion */
-     , (0x7594C075, 0x7594C070, '2005-02-09 10:00:00') /* Virindi Profatrix */;
+VALUES (0x7594C075, 0x7594C015, '2005-02-09 10:00:00') /* Shadow Lieutenant (1757) */
+     , (0x7594C075, 0x7594C016, '2005-02-09 10:00:00') /* Panumbris Shadow (4253) */
+     , (0x7594C075, 0x7594C017, '2005-02-09 10:00:00') /* Shadow Lieutenant (1757) */
+     , (0x7594C075, 0x7594C018, '2005-02-09 10:00:00') /* Umbris Shadow (4254) */
+     , (0x7594C075, 0x7594C019, '2005-02-09 10:00:00') /* Shadow Lieutenant (1757) */
+     , (0x7594C075, 0x7594C01A, '2005-02-09 10:00:00') /* Panumbris Shadow (4253) */
+     , (0x7594C075, 0x7594C01C, '2005-02-09 10:00:00') /* Shadow Lieutenant (1757) */
+     , (0x7594C075, 0x7594C049, '2005-02-09 10:00:00') /* Umbris Shadow (4254) */
+     , (0x7594C075, 0x7594C04A, '2005-02-09 10:00:00') /* Terebrous Hollow Minion (10787) */
+     , (0x7594C075, 0x7594C04B, '2005-02-09 10:00:00') /* Umbris Shadow (4254) */
+     , (0x7594C075, 0x7594C04C, '2005-02-09 10:00:00') /* Terebrous Hollow Minion (10787) */
+     , (0x7594C075, 0x7594C04D, '2005-02-09 10:00:00') /* Terebrous Hollow Minion (10787) */
+     , (0x7594C075, 0x7594C04E, '2005-02-09 10:00:00') /* Terebrous Hollow Minion (10787) */
+     , (0x7594C075, 0x7594C061, '2005-02-09 10:00:00') /* Terebrous Hollow Minion (10787) */
+     , (0x7594C075, 0x7594C062, '2005-02-09 10:00:00') /* Virindi Profatrix (22054) */
+     , (0x7594C075, 0x7594C063, '2005-02-09 10:00:00') /* Terebrous Hollow Minion (10787) */
+     , (0x7594C075, 0x7594C064, '2005-02-09 10:00:00') /* Terebrous Hollow Minion (10787) */
+     , (0x7594C075, 0x7594C070, '2005-02-09 10:00:00') /* Virindi Profatrix (22054) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7594C076,  4254, 0x594C024A, 72.4104, -10, 18.005, 1, 0, 0, 0,  True, '2005-02-09 10:00:00'); /* Umbris Shadow */
@@ -556,31 +556,31 @@ VALUES (0x7594C078,  7932, 0x594C024A, 70, -12.9999, 18.005, 1, 0, 0, 0, False, 
 /* @teleloc 0x594C024A [70.000000 -12.999900 18.005000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7594C078, 0x7594C04F, '2005-02-09 10:00:00') /* Panumbris Shadow */
-     , (0x7594C078, 0x7594C050, '2005-02-09 10:00:00') /* Panumbris Shadow */
-     , (0x7594C078, 0x7594C053, '2005-02-09 10:00:00') /* Panumbris Shadow */
-     , (0x7594C078, 0x7594C054, '2005-02-09 10:00:00') /* Panumbris Shadow */
-     , (0x7594C078, 0x7594C057, '2005-02-09 10:00:00') /* Panumbris Shadow */
-     , (0x7594C078, 0x7594C058, '2005-02-09 10:00:00') /* Panumbris Shadow */
-     , (0x7594C078, 0x7594C05A, '2005-02-09 10:00:00') /* Panumbris Shadow */
-     , (0x7594C078, 0x7594C05B, '2005-02-09 10:00:00') /* Panumbris Shadow */
-     , (0x7594C078, 0x7594C05C, '2005-02-09 10:00:00') /* Altered Drudge */
-     , (0x7594C078, 0x7594C05D, '2005-02-09 10:00:00') /* Altered Drudge */
-     , (0x7594C078, 0x7594C05E, '2005-02-09 10:00:00') /* Panumbris Shadow */
-     , (0x7594C078, 0x7594C05F, '2005-02-09 10:00:00') /* Panumbris Shadow */
-     , (0x7594C078, 0x7594C060, '2005-02-09 10:00:00') /* Altered Drudge */
-     , (0x7594C078, 0x7594C065, '2005-02-09 10:00:00') /* Panumbris Shadow */
-     , (0x7594C078, 0x7594C066, '2005-02-09 10:00:00') /* Panumbris Shadow */
-     , (0x7594C078, 0x7594C069, '2005-02-09 10:00:00') /* Panumbris Shadow */
-     , (0x7594C078, 0x7594C06A, '2005-02-09 10:00:00') /* Umbris Shadow */
-     , (0x7594C078, 0x7594C06B, '2005-02-09 10:00:00') /* Umbris Shadow */
-     , (0x7594C078, 0x7594C06E, '2005-02-09 10:00:00') /* Augmented Drudge */
-     , (0x7594C078, 0x7594C06F, '2005-02-09 10:00:00') /* Augmented Drudge */
-     , (0x7594C078, 0x7594C071, '2005-02-09 10:00:00') /* Umbris Shadow */
-     , (0x7594C078, 0x7594C072, '2005-02-09 10:00:00') /* Umbris Shadow */
-     , (0x7594C078, 0x7594C076, '2005-02-09 10:00:00') /* Umbris Shadow */
-     , (0x7594C078, 0x7594C077, '2005-02-09 10:00:00') /* Umbris Shadow */
-     , (0x7594C078, 0x7594C07A, '2005-02-09 10:00:00') /* Augmented Drudge */;
+VALUES (0x7594C078, 0x7594C04F, '2005-02-09 10:00:00') /* Panumbris Shadow (4253) */
+     , (0x7594C078, 0x7594C050, '2005-02-09 10:00:00') /* Panumbris Shadow (4253) */
+     , (0x7594C078, 0x7594C053, '2005-02-09 10:00:00') /* Panumbris Shadow (4253) */
+     , (0x7594C078, 0x7594C054, '2005-02-09 10:00:00') /* Panumbris Shadow (4253) */
+     , (0x7594C078, 0x7594C057, '2005-02-09 10:00:00') /* Panumbris Shadow (4253) */
+     , (0x7594C078, 0x7594C058, '2005-02-09 10:00:00') /* Panumbris Shadow (4253) */
+     , (0x7594C078, 0x7594C05A, '2005-02-09 10:00:00') /* Panumbris Shadow (4253) */
+     , (0x7594C078, 0x7594C05B, '2005-02-09 10:00:00') /* Panumbris Shadow (4253) */
+     , (0x7594C078, 0x7594C05C, '2005-02-09 10:00:00') /* Altered Drudge (7089) */
+     , (0x7594C078, 0x7594C05D, '2005-02-09 10:00:00') /* Altered Drudge (7089) */
+     , (0x7594C078, 0x7594C05E, '2005-02-09 10:00:00') /* Panumbris Shadow (4253) */
+     , (0x7594C078, 0x7594C05F, '2005-02-09 10:00:00') /* Panumbris Shadow (4253) */
+     , (0x7594C078, 0x7594C060, '2005-02-09 10:00:00') /* Altered Drudge (7089) */
+     , (0x7594C078, 0x7594C065, '2005-02-09 10:00:00') /* Panumbris Shadow (4253) */
+     , (0x7594C078, 0x7594C066, '2005-02-09 10:00:00') /* Panumbris Shadow (4253) */
+     , (0x7594C078, 0x7594C069, '2005-02-09 10:00:00') /* Panumbris Shadow (4253) */
+     , (0x7594C078, 0x7594C06A, '2005-02-09 10:00:00') /* Umbris Shadow (4254) */
+     , (0x7594C078, 0x7594C06B, '2005-02-09 10:00:00') /* Umbris Shadow (4254) */
+     , (0x7594C078, 0x7594C06E, '2005-02-09 10:00:00') /* Augmented Drudge (7090) */
+     , (0x7594C078, 0x7594C06F, '2005-02-09 10:00:00') /* Augmented Drudge (7090) */
+     , (0x7594C078, 0x7594C071, '2005-02-09 10:00:00') /* Umbris Shadow (4254) */
+     , (0x7594C078, 0x7594C072, '2005-02-09 10:00:00') /* Umbris Shadow (4254) */
+     , (0x7594C078, 0x7594C076, '2005-02-09 10:00:00') /* Umbris Shadow (4254) */
+     , (0x7594C078, 0x7594C077, '2005-02-09 10:00:00') /* Umbris Shadow (4254) */
+     , (0x7594C078, 0x7594C07A, '2005-02-09 10:00:00') /* Augmented Drudge (7090) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7594C079,   568, 0x594C024C, 70, -5.25, 18, 1, 0, 0, 0, False, '2005-02-09 10:00:00'); /* Door */

@@ -81,9 +81,9 @@ VALUES (0x70007013,  7924, 0x000701D9, 178.508, -97.3392, 6.005, 0.107786, 0, 0,
 /* @teleloc 0x000701D9 [178.508000 -97.339200 6.005000] 0.107786 0.000000 0.000000 -0.994174 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x70007013, 0x70007010, '2005-02-09 10:00:00') /* Black Rabbit */
-     , (0x70007013, 0x70007011, '2005-02-09 10:00:00') /* Black Rabbit */
-     , (0x70007013, 0x7000701D, '2005-02-09 10:00:00') /* Russet Rat */;
+VALUES (0x70007013, 0x70007010, '2005-02-09 10:00:00') /* Black Rabbit (2566) */
+     , (0x70007013, 0x70007011, '2005-02-09 10:00:00') /* Black Rabbit (2566) */
+     , (0x70007013, 0x7000701D, '2005-02-09 10:00:00') /* Russet Rat (4132) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x70007014,   152, 0x000701DA, 190.555, -97.0686, 6, -0.707107, 0, 0, -0.707107, False, '2005-02-09 10:00:00'); /* Font */

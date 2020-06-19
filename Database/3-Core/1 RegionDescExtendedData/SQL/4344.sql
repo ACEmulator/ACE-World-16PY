@@ -1,5 +1,5 @@
-DELETE FROM `encounter` WHERE `landblock` = 17220;
+DELETE FROM `encounter` WHERE `landblock` = 0x4344;
 
 INSERT INTO `encounter` (`landblock`, `weenie_Class_Id`, `cell_X`, `cell_Y`, `last_Modified`)
-VALUES (17220, 1976, 3, 6, '2005-02-09 10:00:00') /* High Direlands Swamp Generator */
-     , (17220, 1976, 4, 4, '2005-02-09 10:00:00') /* High Direlands Swamp Generator */;
+VALUES (0x4344, 1976, 3, 6, '2005-02-09 10:00:00') /* High Direlands Swamp Generator */
+     , (0x4344, 1976, 4, 4, '2005-02-09 10:00:00') /* High Direlands Swamp Generator */;

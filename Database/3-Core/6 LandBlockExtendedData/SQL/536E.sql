@@ -17,12 +17,12 @@ VALUES (0x7536E004,  7923, 0x536E012A, 32.558, -88.2067, -113.995, -0.705446, 0,
 /* @teleloc 0x536E012A [32.558000 -88.206700 -113.995000] -0.705446 0.000000 0.000000 0.708763 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7536E004, 0x7536E003, '2005-02-09 10:00:00') /* Augmented Olthoi */
-     , (0x7536E004, 0x7536E005, '2005-02-09 10:00:00') /* Altered Olthoi */
-     , (0x7536E004, 0x7536E006, '2005-02-09 10:00:00') /* Altered Olthoi */
-     , (0x7536E004, 0x7536E007, '2005-02-09 10:00:00') /* Augmented Olthoi */
-     , (0x7536E004, 0x7536E008, '2005-02-09 10:00:00') /* Virindi Master */
-     , (0x7536E004, 0x7536E009, '2005-02-09 10:00:00') /* Virindi Master */;
+VALUES (0x7536E004, 0x7536E003, '2005-02-09 10:00:00') /* Augmented Olthoi (14874) */
+     , (0x7536E004, 0x7536E005, '2005-02-09 10:00:00') /* Altered Olthoi (14872) */
+     , (0x7536E004, 0x7536E006, '2005-02-09 10:00:00') /* Altered Olthoi (14872) */
+     , (0x7536E004, 0x7536E007, '2005-02-09 10:00:00') /* Augmented Olthoi (14874) */
+     , (0x7536E004, 0x7536E008, '2005-02-09 10:00:00') /* Virindi Master (8869) */
+     , (0x7536E004, 0x7536E009, '2005-02-09 10:00:00') /* Virindi Master (8869) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7536E005, 14872, 0x536E012C, 30.2714, -91.0509, -113.995, -0.705446, 0, 0, 0.708763,  True, '2005-02-09 10:00:00'); /* Altered Olthoi */
@@ -257,58 +257,58 @@ VALUES (0x7536E03E,  7924, 0x536E0256, 90, -50, -23.995, 1, 0, 0, 0, False, '200
 /* @teleloc 0x536E0256 [90.000000 -50.000000 -23.995000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7536E03E, 0x7536E00A, '2005-02-09 10:00:00') /* Martinate Simulacrum */
-     , (0x7536E03E, 0x7536E00B, '2005-02-09 10:00:00') /* Martinate Simulacrum */
-     , (0x7536E03E, 0x7536E00C, '2005-02-09 10:00:00') /* Martinate Simulacrum */
-     , (0x7536E03E, 0x7536E00D, '2005-02-09 10:00:00') /* Martinate Simulacrum Magician */
-     , (0x7536E03E, 0x7536E00E, '2005-02-09 10:00:00') /* Martinate Simulacrum */
-     , (0x7536E03E, 0x7536E00F, '2005-02-09 10:00:00') /* Martinate Simulacrum */
-     , (0x7536E03E, 0x7536E010, '2005-02-09 10:00:00') /* Martinate Simulacrum */
-     , (0x7536E03E, 0x7536E011, '2005-02-09 10:00:00') /* Martinate Simulacrum Magician */
-     , (0x7536E03E, 0x7536E012, '2005-02-09 10:00:00') /* Martinate Simulacrum Magician */
-     , (0x7536E03E, 0x7536E013, '2005-02-09 10:00:00') /* Virindi Master */
-     , (0x7536E03E, 0x7536E014, '2005-02-09 10:00:00') /* Drudge Ravener */
-     , (0x7536E03E, 0x7536E015, '2005-02-09 10:00:00') /* Drudge Ravener */
-     , (0x7536E03E, 0x7536E016, '2005-02-09 10:00:00') /* Drudge Ravener */
-     , (0x7536E03E, 0x7536E017, '2005-02-09 10:00:00') /* Drudge Ravener */
-     , (0x7536E03E, 0x7536E018, '2005-02-09 10:00:00') /* Virindi Master */
-     , (0x7536E03E, 0x7536E019, '2005-02-09 10:00:00') /* Virindi Master */
-     , (0x7536E03E, 0x7536E01A, '2005-02-09 10:00:00') /* Virindi Puppet */
-     , (0x7536E03E, 0x7536E01B, '2005-02-09 10:00:00') /* Drudge Ravener */
-     , (0x7536E03E, 0x7536E01C, '2005-02-09 10:00:00') /* Drudge Stalker */
-     , (0x7536E03E, 0x7536E01D, '2005-02-09 10:00:00') /* Martinate Simulacrum */
-     , (0x7536E03E, 0x7536E01E, '2005-02-09 10:00:00') /* Martinate Simulacrum */
-     , (0x7536E03E, 0x7536E01F, '2005-02-09 10:00:00') /* Drudge Stalker */
-     , (0x7536E03E, 0x7536E020, '2005-02-09 10:00:00') /* Drudge Ravener */
-     , (0x7536E03E, 0x7536E021, '2005-02-09 10:00:00') /* Virindi Master */
-     , (0x7536E03E, 0x7536E022, '2005-02-09 10:00:00') /* Virindi Puppet */
-     , (0x7536E03E, 0x7536E023, '2005-02-09 10:00:00') /* Drudge Stalker */
-     , (0x7536E03E, 0x7536E024, '2005-02-09 10:00:00') /* Drudge Stalker */
-     , (0x7536E03E, 0x7536E025, '2005-02-09 10:00:00') /* Drudge Stalker */
-     , (0x7536E03E, 0x7536E026, '2005-02-09 10:00:00') /* Martinate Simulacrum Magician */
-     , (0x7536E03E, 0x7536E027, '2005-02-09 10:00:00') /* Martinate Simulacrum */
-     , (0x7536E03E, 0x7536E028, '2005-02-09 10:00:00') /* Drudge Ravener */
-     , (0x7536E03E, 0x7536E029, '2005-02-09 10:00:00') /* Drudge Ravener */
-     , (0x7536E03E, 0x7536E02A, '2005-02-09 10:00:00') /* Drudge Ravener */
-     , (0x7536E03E, 0x7536E02B, '2005-02-09 10:00:00') /* Martinate Simulacrum */
-     , (0x7536E03E, 0x7536E02C, '2005-02-09 10:00:00') /* Martinate Simulacrum */
-     , (0x7536E03E, 0x7536E02D, '2005-02-09 10:00:00') /* Martinate Simulacrum Magician */
-     , (0x7536E03E, 0x7536E02E, '2005-02-09 10:00:00') /* Drudge Ravener */
-     , (0x7536E03E, 0x7536E02F, '2005-02-09 10:00:00') /* Drudge Stalker */
-     , (0x7536E03E, 0x7536E030, '2005-02-09 10:00:00') /* Drudge Stalker */
-     , (0x7536E03E, 0x7536E031, '2005-02-09 10:00:00') /* Martinate Simulacrum */
-     , (0x7536E03E, 0x7536E032, '2005-02-09 10:00:00') /* Martinate Simulacrum */
-     , (0x7536E03E, 0x7536E033, '2005-02-09 10:00:00') /* Martinate Simulacrum Magician */
-     , (0x7536E03E, 0x7536E034, '2005-02-09 10:00:00') /* Drudge Stalker */
-     , (0x7536E03E, 0x7536E035, '2005-02-09 10:00:00') /* Drudge Stalker */
-     , (0x7536E03E, 0x7536E036, '2005-02-09 10:00:00') /* Drudge Ravener */
-     , (0x7536E03E, 0x7536E037, '2005-02-09 10:00:00') /* Martinate Simulacrum Magician */
-     , (0x7536E03E, 0x7536E038, '2005-02-09 10:00:00') /* Martinate Simulacrum */
-     , (0x7536E03E, 0x7536E039, '2005-02-09 10:00:00') /* Martinate Simulacrum */
-     , (0x7536E03E, 0x7536E03A, '2005-02-09 10:00:00') /* Virindi Master */
-     , (0x7536E03E, 0x7536E03B, '2005-02-09 10:00:00') /* Virindi Puppet */
-     , (0x7536E03E, 0x7536E03C, '2005-02-09 10:00:00') /* Virindi Puppet */
-     , (0x7536E03E, 0x7536E03D, '2005-02-09 10:00:00') /* Virindi Master */;
+VALUES (0x7536E03E, 0x7536E00A, '2005-02-09 10:00:00') /* Martinate Simulacrum (15299) */
+     , (0x7536E03E, 0x7536E00B, '2005-02-09 10:00:00') /* Martinate Simulacrum (15299) */
+     , (0x7536E03E, 0x7536E00C, '2005-02-09 10:00:00') /* Martinate Simulacrum (15299) */
+     , (0x7536E03E, 0x7536E00D, '2005-02-09 10:00:00') /* Martinate Simulacrum Magician (15300) */
+     , (0x7536E03E, 0x7536E00E, '2005-02-09 10:00:00') /* Martinate Simulacrum (15299) */
+     , (0x7536E03E, 0x7536E00F, '2005-02-09 10:00:00') /* Martinate Simulacrum (15299) */
+     , (0x7536E03E, 0x7536E010, '2005-02-09 10:00:00') /* Martinate Simulacrum (15299) */
+     , (0x7536E03E, 0x7536E011, '2005-02-09 10:00:00') /* Martinate Simulacrum Magician (15300) */
+     , (0x7536E03E, 0x7536E012, '2005-02-09 10:00:00') /* Martinate Simulacrum Magician (15300) */
+     , (0x7536E03E, 0x7536E013, '2005-02-09 10:00:00') /* Virindi Master (237) */
+     , (0x7536E03E, 0x7536E014, '2005-02-09 10:00:00') /* Drudge Ravener (1610) */
+     , (0x7536E03E, 0x7536E015, '2005-02-09 10:00:00') /* Drudge Ravener (1610) */
+     , (0x7536E03E, 0x7536E016, '2005-02-09 10:00:00') /* Drudge Ravener (1610) */
+     , (0x7536E03E, 0x7536E017, '2005-02-09 10:00:00') /* Drudge Ravener (1610) */
+     , (0x7536E03E, 0x7536E018, '2005-02-09 10:00:00') /* Virindi Master (237) */
+     , (0x7536E03E, 0x7536E019, '2005-02-09 10:00:00') /* Virindi Master (237) */
+     , (0x7536E03E, 0x7536E01A, '2005-02-09 10:00:00') /* Virindi Puppet (238) */
+     , (0x7536E03E, 0x7536E01B, '2005-02-09 10:00:00') /* Drudge Ravener (1610) */
+     , (0x7536E03E, 0x7536E01C, '2005-02-09 10:00:00') /* Drudge Stalker (1609) */
+     , (0x7536E03E, 0x7536E01D, '2005-02-09 10:00:00') /* Martinate Simulacrum (15299) */
+     , (0x7536E03E, 0x7536E01E, '2005-02-09 10:00:00') /* Martinate Simulacrum (15299) */
+     , (0x7536E03E, 0x7536E01F, '2005-02-09 10:00:00') /* Drudge Stalker (1609) */
+     , (0x7536E03E, 0x7536E020, '2005-02-09 10:00:00') /* Drudge Ravener (1610) */
+     , (0x7536E03E, 0x7536E021, '2005-02-09 10:00:00') /* Virindi Master (237) */
+     , (0x7536E03E, 0x7536E022, '2005-02-09 10:00:00') /* Virindi Puppet (238) */
+     , (0x7536E03E, 0x7536E023, '2005-02-09 10:00:00') /* Drudge Stalker (1609) */
+     , (0x7536E03E, 0x7536E024, '2005-02-09 10:00:00') /* Drudge Stalker (1609) */
+     , (0x7536E03E, 0x7536E025, '2005-02-09 10:00:00') /* Drudge Stalker (1609) */
+     , (0x7536E03E, 0x7536E026, '2005-02-09 10:00:00') /* Martinate Simulacrum Magician (15300) */
+     , (0x7536E03E, 0x7536E027, '2005-02-09 10:00:00') /* Martinate Simulacrum (15299) */
+     , (0x7536E03E, 0x7536E028, '2005-02-09 10:00:00') /* Drudge Ravener (1610) */
+     , (0x7536E03E, 0x7536E029, '2005-02-09 10:00:00') /* Drudge Ravener (1610) */
+     , (0x7536E03E, 0x7536E02A, '2005-02-09 10:00:00') /* Drudge Ravener (1610) */
+     , (0x7536E03E, 0x7536E02B, '2005-02-09 10:00:00') /* Martinate Simulacrum (15299) */
+     , (0x7536E03E, 0x7536E02C, '2005-02-09 10:00:00') /* Martinate Simulacrum (15299) */
+     , (0x7536E03E, 0x7536E02D, '2005-02-09 10:00:00') /* Martinate Simulacrum Magician (15300) */
+     , (0x7536E03E, 0x7536E02E, '2005-02-09 10:00:00') /* Drudge Ravener (1610) */
+     , (0x7536E03E, 0x7536E02F, '2005-02-09 10:00:00') /* Drudge Stalker (1609) */
+     , (0x7536E03E, 0x7536E030, '2005-02-09 10:00:00') /* Drudge Stalker (1609) */
+     , (0x7536E03E, 0x7536E031, '2005-02-09 10:00:00') /* Martinate Simulacrum (15299) */
+     , (0x7536E03E, 0x7536E032, '2005-02-09 10:00:00') /* Martinate Simulacrum (15299) */
+     , (0x7536E03E, 0x7536E033, '2005-02-09 10:00:00') /* Martinate Simulacrum Magician (15300) */
+     , (0x7536E03E, 0x7536E034, '2005-02-09 10:00:00') /* Drudge Stalker (1609) */
+     , (0x7536E03E, 0x7536E035, '2005-02-09 10:00:00') /* Drudge Stalker (1609) */
+     , (0x7536E03E, 0x7536E036, '2005-02-09 10:00:00') /* Drudge Ravener (1610) */
+     , (0x7536E03E, 0x7536E037, '2005-02-09 10:00:00') /* Martinate Simulacrum Magician (15300) */
+     , (0x7536E03E, 0x7536E038, '2005-02-09 10:00:00') /* Martinate Simulacrum (15299) */
+     , (0x7536E03E, 0x7536E039, '2005-02-09 10:00:00') /* Martinate Simulacrum (15299) */
+     , (0x7536E03E, 0x7536E03A, '2005-02-09 10:00:00') /* Virindi Master (237) */
+     , (0x7536E03E, 0x7536E03B, '2005-02-09 10:00:00') /* Virindi Puppet (238) */
+     , (0x7536E03E, 0x7536E03C, '2005-02-09 10:00:00') /* Virindi Puppet (238) */
+     , (0x7536E03E, 0x7536E03D, '2005-02-09 10:00:00') /* Virindi Master (237) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7536E03F, 14889, 0x536E0256, 86.5016, -47.0359, -23.995, 0.930508, 0, 0, 0.366273, False, '2005-02-09 10:00:00'); /* Surface */
@@ -335,8 +335,8 @@ VALUES (0x7536E044,  5086, 0x536E011A, 17.9035, -91.6553, -113.995, 0.648651, 0,
 /* @teleloc 0x536E011A [17.903500 -91.655300 -113.995000] 0.648651 0.000000 0.000000 -0.761086 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7536E044, 0x7536E002, '2005-02-09 10:00:00') /* Altered Olthoi */
-     , (0x7536E044, 0x7536E040, '2005-02-09 10:00:00') /* Altered Olthoi */
-     , (0x7536E044, 0x7536E041, '2005-02-09 10:00:00') /* Altered Olthoi */
-     , (0x7536E044, 0x7536E042, '2005-02-09 10:00:00') /* Altered Olthoi */
-     , (0x7536E044, 0x7536E043, '2005-02-09 10:00:00') /* Altered Olthoi */;
+VALUES (0x7536E044, 0x7536E002, '2005-02-09 10:00:00') /* Altered Olthoi (14873) */
+     , (0x7536E044, 0x7536E040, '2005-02-09 10:00:00') /* Altered Olthoi (14873) */
+     , (0x7536E044, 0x7536E041, '2005-02-09 10:00:00') /* Altered Olthoi (14873) */
+     , (0x7536E044, 0x7536E042, '2005-02-09 10:00:00') /* Altered Olthoi (14873) */
+     , (0x7536E044, 0x7536E043, '2005-02-09 10:00:00') /* Altered Olthoi (14873) */;

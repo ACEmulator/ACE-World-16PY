@@ -5,16 +5,16 @@ VALUES (0x76F9A000,  7924, 0x6F9A0000, 127.381, 10.6922, 240.005, 0.704555, 0, 0
 /* @teleloc 0x6F9A0000 [127.381000 10.692200 240.005000] 0.704555 0.000000 0.000000 -0.709649 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x76F9A000, 0x76F9A001, '2005-02-09 10:00:00') /* Essa Sclavus Lord */
-     , (0x76F9A000, 0x76F9A002, '2005-02-09 10:00:00') /* Aste Sclavus Lord */
-     , (0x76F9A000, 0x76F9A003, '2005-02-09 10:00:00') /* Ulu Sclavus */
-     , (0x76F9A000, 0x76F9A004, '2005-02-09 10:00:00') /* Ulu Sclavus */
-     , (0x76F9A000, 0x76F9A005, '2005-02-09 10:00:00') /* Faisi Sclavus */
-     , (0x76F9A000, 0x76F9A006, '2005-02-09 10:00:00') /* Faisi Sclavus */
-     , (0x76F9A000, 0x76F9A007, '2005-02-09 10:00:00') /* Faisi Sclavus */
-     , (0x76F9A000, 0x76F9A008, '2005-02-09 10:00:00') /* Ulu Sclavus */
-     , (0x76F9A000, 0x76F9A009, '2005-02-09 10:00:00') /* Ulu Sclavus */
-     , (0x76F9A000, 0x76F9A00A, '2005-02-09 10:00:00') /* Ulu Sclavus */;
+VALUES (0x76F9A000, 0x76F9A001, '2005-02-09 10:00:00') /* Essa Sclavus Lord (23485) */
+     , (0x76F9A000, 0x76F9A002, '2005-02-09 10:00:00') /* Aste Sclavus Lord (23483) */
+     , (0x76F9A000, 0x76F9A003, '2005-02-09 10:00:00') /* Ulu Sclavus (7110) */
+     , (0x76F9A000, 0x76F9A004, '2005-02-09 10:00:00') /* Ulu Sclavus (7110) */
+     , (0x76F9A000, 0x76F9A005, '2005-02-09 10:00:00') /* Faisi Sclavus (7111) */
+     , (0x76F9A000, 0x76F9A006, '2005-02-09 10:00:00') /* Faisi Sclavus (7111) */
+     , (0x76F9A000, 0x76F9A007, '2005-02-09 10:00:00') /* Faisi Sclavus (7111) */
+     , (0x76F9A000, 0x76F9A008, '2005-02-09 10:00:00') /* Ulu Sclavus (7110) */
+     , (0x76F9A000, 0x76F9A009, '2005-02-09 10:00:00') /* Ulu Sclavus (7110) */
+     , (0x76F9A000, 0x76F9A00A, '2005-02-09 10:00:00') /* Ulu Sclavus (7110) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x76F9A001, 23485, 0x6F9A0000, 185.274, 17.7994, 240.005, 0.557548, 0, 0, 0.830145,  True, '2005-02-09 10:00:00'); /* Essa Sclavus Lord */

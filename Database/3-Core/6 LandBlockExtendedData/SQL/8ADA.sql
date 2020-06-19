@@ -29,12 +29,12 @@ VALUES (0x78ADA006,  1154, 0x8ADA0000, 20.5274, 155.352, 224.479, 0.645637, 0, 0
 /* @teleloc 0x8ADA0000 [20.527400 155.352000 224.479000] 0.645637 0.000000 0.000000 -0.763645 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x78ADA006, 0x78ADA000, '2005-02-09 10:00:00') /* Ice Golem */
-     , (0x78ADA006, 0x78ADA001, '2005-02-09 10:00:00') /* Ice Golem */
-     , (0x78ADA006, 0x78ADA002, '2005-02-09 10:00:00') /* Ice Golem */
-     , (0x78ADA006, 0x78ADA003, '2005-02-09 10:00:00') /* Ice Golem */
-     , (0x78ADA006, 0x78ADA004, '2005-02-09 10:00:00') /* Ice Golem */
-     , (0x78ADA006, 0x78ADA005, '2005-02-09 10:00:00') /* Ice Golem */;
+VALUES (0x78ADA006, 0x78ADA000, '2005-02-09 10:00:00') /* Ice Golem (196) */
+     , (0x78ADA006, 0x78ADA001, '2005-02-09 10:00:00') /* Ice Golem (196) */
+     , (0x78ADA006, 0x78ADA002, '2005-02-09 10:00:00') /* Ice Golem (196) */
+     , (0x78ADA006, 0x78ADA003, '2005-02-09 10:00:00') /* Ice Golem (196) */
+     , (0x78ADA006, 0x78ADA004, '2005-02-09 10:00:00') /* Ice Golem (196) */
+     , (0x78ADA006, 0x78ADA005, '2005-02-09 10:00:00') /* Ice Golem (196) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x78ADA007,  1130, 0x8ADA0000, 33.4421, 161.359, 224.005, 0.0501534, 0, 0, -0.998742, False, '2005-02-09 10:00:00'); /* Item Talisman Generator */

@@ -1,14 +1,13 @@
-DELETE FROM `encounter` WHERE `landblock` = 50308;
+DELETE FROM `encounter` WHERE `landblock` = 0xC484;
 
 INSERT INTO `encounter` (`landblock`, `weenie_Class_Id`, `cell_X`, `cell_Y`, `last_Modified`)
-VALUES (50308, 23176, 0, 3, '2005-02-09 10:00:00') /* Aluvian Newbie Plains Mix Generator */
-     , (50308, 23176, 1, 2, '2005-02-09 10:00:00') /* Aluvian Newbie Plains Mix Generator */
-     , (50308, 23176, 1, 3, '2005-02-09 10:00:00') /* Aluvian Newbie Plains Mix Generator */
-     , (50308, 23176, 2, 2, '2005-02-09 10:00:00') /* Aluvian Newbie Plains Mix Generator */
-     , (50308, 23176, 3, 1, '2005-02-09 10:00:00') /* Aluvian Newbie Plains Mix Generator */
-     , (50308, 23176, 3, 2, '2005-02-09 10:00:00') /* Aluvian Newbie Plains Mix Generator */
-     , (50308, 23176, 3, 7, '2005-02-09 10:00:00') /* Aluvian Newbie Plains Mix Generator */
-     , (50308, 23176, 6, 6, '2005-02-09 10:00:00') /* Aluvian Newbie Plains Mix Generator */
-     , (50308, 23176, 7, 4, '2005-02-09 10:00:00') /* Aluvian Newbie Plains Mix Generator */
-     , (50308, 23176, 7, 7, '2005-02-09 10:00:00') /* Aluvian Newbie Plains Mix Generator */
-     , (50308, 23176, 8, 5, '2005-02-09 10:00:00') /* Aluvian Newbie Plains Mix Generator */;
+VALUES (0xC484, 23176, 0, 3, '2005-02-09 10:00:00') /* Aluvian Newbie Plains Mix Generator */
+     , (0xC484, 23176, 1, 2, '2005-02-09 10:00:00') /* Aluvian Newbie Plains Mix Generator */
+     , (0xC484, 23176, 1, 3, '2005-02-09 10:00:00') /* Aluvian Newbie Plains Mix Generator */
+     , (0xC484, 23176, 2, 2, '2005-02-09 10:00:00') /* Aluvian Newbie Plains Mix Generator */
+     , (0xC484, 23176, 3, 1, '2005-02-09 10:00:00') /* Aluvian Newbie Plains Mix Generator */
+     , (0xC484, 23176, 3, 2, '2005-02-09 10:00:00') /* Aluvian Newbie Plains Mix Generator */
+     , (0xC484, 23176, 3, 7, '2005-02-09 10:00:00') /* Aluvian Newbie Plains Mix Generator */
+     , (0xC484, 23176, 6, 6, '2005-02-09 10:00:00') /* Aluvian Newbie Plains Mix Generator */
+     , (0xC484, 23176, 7, 4, '2005-02-09 10:00:00') /* Aluvian Newbie Plains Mix Generator */
+     , (0xC484, 23176, 7, 7, '2005-02-09 10:00:00') /* Aluvian Newbie Plains Mix Generator */;

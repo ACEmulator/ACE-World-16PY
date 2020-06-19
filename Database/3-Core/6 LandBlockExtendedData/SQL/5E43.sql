@@ -57,18 +57,18 @@ VALUES (0x75E4300E,  7923, 0x5E43012B, 41.6783, -30.4984, 12.005, 0.712798, 0, 0
 /* @teleloc 0x5E43012B [41.678300 -30.498400 12.005000] 0.712798 0.000000 0.000000 0.701369 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x75E4300E, 0x75E43002, '2005-02-09 10:00:00') /* Tuskie Gunner */
-     , (0x75E4300E, 0x75E43003, '2005-02-09 10:00:00') /* Tuskie Gunner */
-     , (0x75E4300E, 0x75E43004, '2005-02-09 10:00:00') /* Tuskie Gunner */
-     , (0x75E4300E, 0x75E43005, '2005-02-09 10:00:00') /* Tuskie Gunner */
-     , (0x75E4300E, 0x75E43006, '2005-02-09 10:00:00') /* Tuskie Gunner */
-     , (0x75E4300E, 0x75E43007, '2005-02-09 10:00:00') /* Tuskie Gunner */
-     , (0x75E4300E, 0x75E43008, '2005-02-09 10:00:00') /* Tuskie Gunner */
-     , (0x75E4300E, 0x75E43009, '2005-02-09 10:00:00') /* Tuskie Gunner */
-     , (0x75E4300E, 0x75E4300A, '2005-02-09 10:00:00') /* Tuskie Gunner */
-     , (0x75E4300E, 0x75E4300B, '2005-02-09 10:00:00') /* Tuskie Gunner */
-     , (0x75E4300E, 0x75E4300C, '2005-02-09 10:00:00') /* Tuskie Gunner */
-     , (0x75E4300E, 0x75E4300D, '2005-02-09 10:00:00') /* Tuskie Gunner */;
+VALUES (0x75E4300E, 0x75E43002, '2005-02-09 10:00:00') /* Tuskie Gunner (22606) */
+     , (0x75E4300E, 0x75E43003, '2005-02-09 10:00:00') /* Tuskie Gunner (22606) */
+     , (0x75E4300E, 0x75E43004, '2005-02-09 10:00:00') /* Tuskie Gunner (22606) */
+     , (0x75E4300E, 0x75E43005, '2005-02-09 10:00:00') /* Tuskie Gunner (22606) */
+     , (0x75E4300E, 0x75E43006, '2005-02-09 10:00:00') /* Tuskie Gunner (22606) */
+     , (0x75E4300E, 0x75E43007, '2005-02-09 10:00:00') /* Tuskie Gunner (22606) */
+     , (0x75E4300E, 0x75E43008, '2005-02-09 10:00:00') /* Tuskie Gunner (22606) */
+     , (0x75E4300E, 0x75E43009, '2005-02-09 10:00:00') /* Tuskie Gunner (22606) */
+     , (0x75E4300E, 0x75E4300A, '2005-02-09 10:00:00') /* Tuskie Gunner (22606) */
+     , (0x75E4300E, 0x75E4300B, '2005-02-09 10:00:00') /* Tuskie Gunner (22606) */
+     , (0x75E4300E, 0x75E4300C, '2005-02-09 10:00:00') /* Tuskie Gunner (22606) */
+     , (0x75E4300E, 0x75E4300D, '2005-02-09 10:00:00') /* Tuskie Gunner (22606) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75E43010, 22859, 0x5E430115, 1.45175, -8.56894, 12.005, 0.702448, 0, 0, -0.711735, False, '2005-02-09 10:00:00'); /* Cermony Disrupted Extreme Gen */

@@ -21,6 +21,6 @@ VALUES (0x7A5B0005,  7925, 0xA5B00000, 62.4987, 146.685, 42.005, -0.990677, 0, 0
 /* @teleloc 0xA5B00000 [62.498700 146.685000 42.005000] -0.990677 0.000000 0.000000 0.136229 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A5B0005, 0x7A5B0002, '2005-02-09 10:00:00') /* Banderling Raider */
-     , (0x7A5B0005, 0x7A5B0003, '2005-02-09 10:00:00') /* Banderling Raider */
-     , (0x7A5B0005, 0x7A5B0004, '2005-02-09 10:00:00') /* Banderling Chief */;
+VALUES (0x7A5B0005, 0x7A5B0002, '2005-02-09 10:00:00') /* Banderling Raider (938) */
+     , (0x7A5B0005, 0x7A5B0003, '2005-02-09 10:00:00') /* Banderling Raider (938) */
+     , (0x7A5B0005, 0x7A5B0004, '2005-02-09 10:00:00') /* Banderling Chief (1669) */;

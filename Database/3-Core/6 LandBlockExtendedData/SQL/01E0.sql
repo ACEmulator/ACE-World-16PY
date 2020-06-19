@@ -37,20 +37,20 @@ VALUES (0x701E000F,  7923, 0x01E0010C, 20.863, -19.1314, 0.005, -0.994587, 0, 0,
 /* @teleloc 0x01E0010C [20.863000 -19.131400 0.005000] -0.994587 0.000000 0.000000 -0.103905 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x701E000F, 0x701E0001, '2005-02-09 10:00:00') /* Banderling Scout */
-     , (0x701E000F, 0x701E0003, '2005-02-09 10:00:00') /* Banderling Scout */
-     , (0x701E000F, 0x701E000B, '2005-02-09 10:00:00') /* Banderling Raider */
-     , (0x701E000F, 0x701E000C, '2005-02-09 10:00:00') /* Banderling Guard */
-     , (0x701E000F, 0x701E000D, '2005-02-09 10:00:00') /* Banderling Raver */
-     , (0x701E000F, 0x701E0010, '2005-02-09 10:00:00') /* Banderling Chief */
-     , (0x701E000F, 0x701E0012, '2005-02-09 10:00:00') /* Banderling Guard */
-     , (0x701E000F, 0x701E0013, '2005-02-09 10:00:00') /* Banderling Breeder */
-     , (0x701E000F, 0x701E0016, '2005-02-09 10:00:00') /* Banderling Raider */
-     , (0x701E000F, 0x701E0017, '2005-02-09 10:00:00') /* Banderling Raver */
-     , (0x701E000F, 0x701E001C, '2005-02-09 10:00:00') /* Banderling Guard */
-     , (0x701E000F, 0x701E001D, '2005-02-09 10:00:00') /* Banderling Raider */
-     , (0x701E000F, 0x701E001F, '2005-02-09 10:00:00') /* Banderling Guard */
-     , (0x701E000F, 0x701E0020, '2005-02-09 10:00:00') /* Banderling Raver */;
+VALUES (0x701E000F, 0x701E0001, '2005-02-09 10:00:00') /* Banderling Scout (6) */
+     , (0x701E000F, 0x701E0003, '2005-02-09 10:00:00') /* Banderling Scout (6) */
+     , (0x701E000F, 0x701E000B, '2005-02-09 10:00:00') /* Banderling Raider (938) */
+     , (0x701E000F, 0x701E000C, '2005-02-09 10:00:00') /* Banderling Guard (937) */
+     , (0x701E000F, 0x701E000D, '2005-02-09 10:00:00') /* Banderling Raver (183) */
+     , (0x701E000F, 0x701E0010, '2005-02-09 10:00:00') /* Banderling Chief (1669) */
+     , (0x701E000F, 0x701E0012, '2005-02-09 10:00:00') /* Banderling Guard (937) */
+     , (0x701E000F, 0x701E0013, '2005-02-09 10:00:00') /* Banderling Breeder (1668) */
+     , (0x701E000F, 0x701E0016, '2005-02-09 10:00:00') /* Banderling Raider (938) */
+     , (0x701E000F, 0x701E0017, '2005-02-09 10:00:00') /* Banderling Raver (183) */
+     , (0x701E000F, 0x701E001C, '2005-02-09 10:00:00') /* Banderling Guard (937) */
+     , (0x701E000F, 0x701E001D, '2005-02-09 10:00:00') /* Banderling Raider (938) */
+     , (0x701E000F, 0x701E001F, '2005-02-09 10:00:00') /* Banderling Guard (937) */
+     , (0x701E000F, 0x701E0020, '2005-02-09 10:00:00') /* Banderling Raver (183) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x701E0010,  1669, 0x01E0010C, 24.1716, -20.0438, 0.00715, -0.706849, 0, 0, -0.707365,  True, '2005-02-09 10:00:00'); /* Banderling Chief */

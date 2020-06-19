@@ -13,10 +13,10 @@ VALUES (0x7A672006,  5485, 0xA6720000, 110.515, 123.404, 26.005, 0.997801, 0, 0,
 /* @teleloc 0xA6720000 [110.515000 123.404000 26.005000] 0.997801 0.000000 0.000000 -0.066282 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A672006, 0x7A672005, '2005-02-09 10:00:00') /* Leikotha */
-     , (0x7A672006, 0x7A672007, '2005-02-09 10:00:00') /* Greater Mu-miyah */
-     , (0x7A672006, 0x7A672008, '2005-02-09 10:00:00') /* Greater Mu-miyah */
-     , (0x7A672006, 0x7A672009, '2005-02-09 10:00:00') /* Greater Mu-miyah */;
+VALUES (0x7A672006, 0x7A672005, '2005-02-09 10:00:00') /* Leikotha (6771) */
+     , (0x7A672006, 0x7A672007, '2005-02-09 10:00:00') /* Greater Mu-miyah (1764) */
+     , (0x7A672006, 0x7A672008, '2005-02-09 10:00:00') /* Greater Mu-miyah (1764) */
+     , (0x7A672006, 0x7A672009, '2005-02-09 10:00:00') /* Greater Mu-miyah (1764) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A672007,  1764, 0xA6720100, 106.459, 144.141, 19.6605, 0.104869, 0, 0, 0.994486,  True, '2005-02-09 10:00:00'); /* Greater Mu-miyah */

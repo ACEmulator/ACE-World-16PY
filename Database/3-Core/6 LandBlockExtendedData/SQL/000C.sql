@@ -317,26 +317,26 @@ VALUES (0x7000C053,  7923, 0x000C0133, 131.527, -50.721, -23.995, 0.771473, 0, 0
 /* @teleloc 0x000C0133 [131.527000 -50.721000 -23.995000] 0.771473 0.000000 0.000000 0.636262 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7000C053, 0x7000C037, '2005-02-09 10:00:00') /* Apozim */
-     , (0x7000C053, 0x7000C038, '2005-02-09 10:00:00') /* Apozim */
-     , (0x7000C053, 0x7000C039, '2005-02-09 10:00:00') /* Gold Phyntos Wasp */
-     , (0x7000C053, 0x7000C03A, '2005-02-09 10:00:00') /* Gold Phyntos Wasp */
-     , (0x7000C053, 0x7000C03B, '2005-02-09 10:00:00') /* Apozim */
-     , (0x7000C053, 0x7000C03C, '2005-02-09 10:00:00') /* Apozim */
-     , (0x7000C053, 0x7000C03D, '2005-02-09 10:00:00') /* White Phyntos Wasp */
-     , (0x7000C053, 0x7000C03E, '2005-02-09 10:00:00') /* White Phyntos Wasp */
-     , (0x7000C053, 0x7000C03F, '2005-02-09 10:00:00') /* White Phyntos Wasp */
-     , (0x7000C053, 0x7000C040, '2005-02-09 10:00:00') /* Gold Phyntos Wasp */
-     , (0x7000C053, 0x7000C041, '2005-02-09 10:00:00') /* Gold Phyntos Wasp */
-     , (0x7000C053, 0x7000C050, '2005-02-09 10:00:00') /* Spiked Grievver */
-     , (0x7000C053, 0x7000C051, '2005-02-09 10:00:00') /* Gold Phyntos Wasp */
-     , (0x7000C053, 0x7000C052, '2005-02-09 10:00:00') /* Gold Phyntos Wasp */
-     , (0x7000C053, 0x7000C054, '2005-02-09 10:00:00') /* Spiked Grievver */
-     , (0x7000C053, 0x7000C055, '2005-02-09 10:00:00') /* Apozim */
-     , (0x7000C053, 0x7000C056, '2005-02-09 10:00:00') /* Apozim */
-     , (0x7000C053, 0x7000C057, '2005-02-09 10:00:00') /* Apozim */
-     , (0x7000C053, 0x7000C058, '2005-02-09 10:00:00') /* Apozim */
-     , (0x7000C053, 0x7000C0AC, '2005-02-09 10:00:00') /* Spiked Grievver */;
+VALUES (0x7000C053, 0x7000C037, '2005-02-09 10:00:00') /* Apozim (20186) */
+     , (0x7000C053, 0x7000C038, '2005-02-09 10:00:00') /* Apozim (20186) */
+     , (0x7000C053, 0x7000C039, '2005-02-09 10:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x7000C053, 0x7000C03A, '2005-02-09 10:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x7000C053, 0x7000C03B, '2005-02-09 10:00:00') /* Apozim (20186) */
+     , (0x7000C053, 0x7000C03C, '2005-02-09 10:00:00') /* Apozim (20186) */
+     , (0x7000C053, 0x7000C03D, '2005-02-09 10:00:00') /* White Phyntos Wasp (7105) */
+     , (0x7000C053, 0x7000C03E, '2005-02-09 10:00:00') /* White Phyntos Wasp (7105) */
+     , (0x7000C053, 0x7000C03F, '2005-02-09 10:00:00') /* White Phyntos Wasp (7105) */
+     , (0x7000C053, 0x7000C040, '2005-02-09 10:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x7000C053, 0x7000C041, '2005-02-09 10:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x7000C053, 0x7000C050, '2005-02-09 10:00:00') /* Spiked Grievver (28554) */
+     , (0x7000C053, 0x7000C051, '2005-02-09 10:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x7000C053, 0x7000C052, '2005-02-09 10:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x7000C053, 0x7000C054, '2005-02-09 10:00:00') /* Spiked Grievver (28554) */
+     , (0x7000C053, 0x7000C055, '2005-02-09 10:00:00') /* Apozim (20186) */
+     , (0x7000C053, 0x7000C056, '2005-02-09 10:00:00') /* Apozim (20186) */
+     , (0x7000C053, 0x7000C057, '2005-02-09 10:00:00') /* Apozim (20186) */
+     , (0x7000C053, 0x7000C058, '2005-02-09 10:00:00') /* Apozim (20186) */
+     , (0x7000C053, 0x7000C0AC, '2005-02-09 10:00:00') /* Spiked Grievver (28554) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7000C054, 28554, 0x000C0139, 150.303, -48.2534, -23.995, -0.2682, 0, 0, 0.963363,  True, '2005-02-09 10:00:00'); /* Spiked Grievver */
@@ -371,43 +371,43 @@ VALUES (0x7000C05B, 15274, 0x000C0151, 214.564, -89.973, -23.995, 0.675254, 0, 0
 /* @teleloc 0x000C0151 [214.564000 -89.973000 -23.995000] 0.675254 0.000000 0.000000 -0.737586 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7000C05B, 0x7000C059, '2005-02-09 10:00:00') /* Sewer Rat */
-     , (0x7000C05B, 0x7000C05A, '2005-02-09 10:00:00') /* Sewer Rat */
-     , (0x7000C05B, 0x7000C05E, '2005-02-09 10:00:00') /* Sewer Rat */
-     , (0x7000C05B, 0x7000C05F, '2005-02-09 10:00:00') /* Sewer Rat */
-     , (0x7000C05B, 0x7000C060, '2005-02-09 10:00:00') /* Sewer Rat */
-     , (0x7000C05B, 0x7000C061, '2005-02-09 10:00:00') /* Sewer Rat */
-     , (0x7000C05B, 0x7000C067, '2005-02-09 10:00:00') /* Sewer Rat */
-     , (0x7000C05B, 0x7000C068, '2005-02-09 10:00:00') /* Sewer Rat */
-     , (0x7000C05B, 0x7000C069, '2005-02-09 10:00:00') /* Sewer Rat */
-     , (0x7000C05B, 0x7000C06A, '2005-02-09 10:00:00') /* Sewer Rat */
-     , (0x7000C05B, 0x7000C06E, '2005-02-09 10:00:00') /* Sewer Rat */
-     , (0x7000C05B, 0x7000C06F, '2005-02-09 10:00:00') /* Sewer Rat */
-     , (0x7000C05B, 0x7000C0C1, '2005-02-09 10:00:00') /* Sewer Rat */
-     , (0x7000C05B, 0x7000C0C2, '2005-02-09 10:00:00') /* Sewer Rat */
-     , (0x7000C05B, 0x7000C0C4, '2005-02-09 10:00:00') /* Sewer Rat */;
+VALUES (0x7000C05B, 0x7000C059, '2005-02-09 10:00:00') /* Sewer Rat (7106) */
+     , (0x7000C05B, 0x7000C05A, '2005-02-09 10:00:00') /* Sewer Rat (7106) */
+     , (0x7000C05B, 0x7000C05E, '2005-02-09 10:00:00') /* Sewer Rat (7106) */
+     , (0x7000C05B, 0x7000C05F, '2005-02-09 10:00:00') /* Sewer Rat (7106) */
+     , (0x7000C05B, 0x7000C060, '2005-02-09 10:00:00') /* Sewer Rat (7106) */
+     , (0x7000C05B, 0x7000C061, '2005-02-09 10:00:00') /* Sewer Rat (7106) */
+     , (0x7000C05B, 0x7000C067, '2005-02-09 10:00:00') /* Sewer Rat (7106) */
+     , (0x7000C05B, 0x7000C068, '2005-02-09 10:00:00') /* Sewer Rat (7106) */
+     , (0x7000C05B, 0x7000C069, '2005-02-09 10:00:00') /* Sewer Rat (7106) */
+     , (0x7000C05B, 0x7000C06A, '2005-02-09 10:00:00') /* Sewer Rat (7106) */
+     , (0x7000C05B, 0x7000C06E, '2005-02-09 10:00:00') /* Sewer Rat (7106) */
+     , (0x7000C05B, 0x7000C06F, '2005-02-09 10:00:00') /* Sewer Rat (7106) */
+     , (0x7000C05B, 0x7000C0C1, '2005-02-09 10:00:00') /* Sewer Rat (7106) */
+     , (0x7000C05B, 0x7000C0C2, '2005-02-09 10:00:00') /* Sewer Rat (7106) */
+     , (0x7000C05B, 0x7000C0C4, '2005-02-09 10:00:00') /* Sewer Rat (7106) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7000C05C,  7923, 0x000C0151, 210.29, -90.037, -23.995, -0.847547, 0, 0, 0.53072, False, '2005-02-09 10:00:00'); /* Linkable Monster Generator ( 3 Min.) */
 /* @teleloc 0x000C0151 [210.290000 -90.037000 -23.995000] -0.847547 0.000000 0.000000 0.530720 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7000C05C, 0x7000C0B0, '2005-02-09 10:00:00') /* White Phyntos Wasp */
-     , (0x7000C05C, 0x7000C0B1, '2005-02-09 10:00:00') /* Gold Phyntos Wasp */
-     , (0x7000C05C, 0x7000C0B2, '2005-02-09 10:00:00') /* Gold Phyntos Wasp */
-     , (0x7000C05C, 0x7000C0B7, '2005-02-09 10:00:00') /* Gold Phyntos Wasp */
-     , (0x7000C05C, 0x7000C0B8, '2005-02-09 10:00:00') /* Gold Phyntos Wasp */
-     , (0x7000C05C, 0x7000C0B9, '2005-02-09 10:00:00') /* Gold Phyntos Wasp */
-     , (0x7000C05C, 0x7000C0BA, '2005-02-09 10:00:00') /* Gold Phyntos Wasp */
-     , (0x7000C05C, 0x7000C0BB, '2005-02-09 10:00:00') /* Gold Phyntos Wasp */
-     , (0x7000C05C, 0x7000C0BC, '2005-02-09 10:00:00') /* Gold Phyntos Wasp */
-     , (0x7000C05C, 0x7000C0BD, '2005-02-09 10:00:00') /* Gold Phyntos Wasp */
-     , (0x7000C05C, 0x7000C0BE, '2005-02-09 10:00:00') /* Gold Phyntos Wasp */
-     , (0x7000C05C, 0x7000C0BF, '2005-02-09 10:00:00') /* Spiked Grievver */
-     , (0x7000C05C, 0x7000C0C0, '2005-02-09 10:00:00') /* White Phyntos Wasp */
-     , (0x7000C05C, 0x7000C0C3, '2005-02-09 10:00:00') /* Spiked Grievver */
-     , (0x7000C05C, 0x7000C0C5, '2005-02-09 10:00:00') /* White Phyntos Wasp */
-     , (0x7000C05C, 0x7000C0C6, '2005-02-09 10:00:00') /* White Phyntos Wasp */;
+VALUES (0x7000C05C, 0x7000C0B0, '2005-02-09 10:00:00') /* White Phyntos Wasp (7105) */
+     , (0x7000C05C, 0x7000C0B1, '2005-02-09 10:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x7000C05C, 0x7000C0B2, '2005-02-09 10:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x7000C05C, 0x7000C0B7, '2005-02-09 10:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x7000C05C, 0x7000C0B8, '2005-02-09 10:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x7000C05C, 0x7000C0B9, '2005-02-09 10:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x7000C05C, 0x7000C0BA, '2005-02-09 10:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x7000C05C, 0x7000C0BB, '2005-02-09 10:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x7000C05C, 0x7000C0BC, '2005-02-09 10:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x7000C05C, 0x7000C0BD, '2005-02-09 10:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x7000C05C, 0x7000C0BE, '2005-02-09 10:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x7000C05C, 0x7000C0BF, '2005-02-09 10:00:00') /* Spiked Grievver (28554) */
+     , (0x7000C05C, 0x7000C0C0, '2005-02-09 10:00:00') /* White Phyntos Wasp (7105) */
+     , (0x7000C05C, 0x7000C0C3, '2005-02-09 10:00:00') /* Spiked Grievver (28554) */
+     , (0x7000C05C, 0x7000C0C5, '2005-02-09 10:00:00') /* White Phyntos Wasp (7105) */
+     , (0x7000C05C, 0x7000C0C6, '2005-02-09 10:00:00') /* White Phyntos Wasp (7105) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7000C05D,  7106, 0x000C0154, 214.627, -120.019, -23.945, 0.528164, 0, 0, 0.849142,  True, '2005-02-09 10:00:00'); /* Sewer Rat */
@@ -450,26 +450,26 @@ VALUES (0x7000C066,  7923, 0x000C015B, 223.946, -140.829, -23.995, 0.779241, 0, 
 /* @teleloc 0x000C015B [223.946000 -140.829000 -23.995000] 0.779241 0.000000 0.000000 0.626725 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7000C066, 0x7000C06B, '2005-02-09 10:00:00') /* Apozim */
-     , (0x7000C066, 0x7000C06C, '2005-02-09 10:00:00') /* Apozim */
-     , (0x7000C066, 0x7000C06D, '2005-02-09 10:00:00') /* Apozim */
-     , (0x7000C066, 0x7000C070, '2005-02-09 10:00:00') /* Spiked Grievver */
-     , (0x7000C066, 0x7000C071, '2005-02-09 10:00:00') /* Spiked Grievver */
-     , (0x7000C066, 0x7000C072, '2005-02-09 10:00:00') /* Gold Phyntos Wasp */
-     , (0x7000C066, 0x7000C073, '2005-02-09 10:00:00') /* Gold Phyntos Wasp */
-     , (0x7000C066, 0x7000C074, '2005-02-09 10:00:00') /* Apozim */
-     , (0x7000C066, 0x7000C075, '2005-02-09 10:00:00') /* White Phyntos Wasp */
-     , (0x7000C066, 0x7000C076, '2005-02-09 10:00:00') /* White Phyntos Wasp */
-     , (0x7000C066, 0x7000C077, '2005-02-09 10:00:00') /* Spiked Grievver */
-     , (0x7000C066, 0x7000C078, '2005-02-09 10:00:00') /* Spiked Grievver */
-     , (0x7000C066, 0x7000C079, '2005-02-09 10:00:00') /* Gold Phyntos Wasp */
-     , (0x7000C066, 0x7000C07A, '2005-02-09 10:00:00') /* Gold Phyntos Wasp */
-     , (0x7000C066, 0x7000C07B, '2005-02-09 10:00:00') /* Gold Phyntos Wasp */
-     , (0x7000C066, 0x7000C07C, '2005-02-09 10:00:00') /* Gold Phyntos Wasp */
-     , (0x7000C066, 0x7000C07D, '2005-02-09 10:00:00') /* Gold Phyntos Wasp */
-     , (0x7000C066, 0x7000C07E, '2005-02-09 10:00:00') /* Gold Phyntos Wasp */
-     , (0x7000C066, 0x7000C07F, '2005-02-09 10:00:00') /* Gold Phyntos Wasp */
-     , (0x7000C066, 0x7000C080, '2005-02-09 10:00:00') /* White Phyntos Wasp */;
+VALUES (0x7000C066, 0x7000C06B, '2005-02-09 10:00:00') /* Apozim (20186) */
+     , (0x7000C066, 0x7000C06C, '2005-02-09 10:00:00') /* Apozim (20186) */
+     , (0x7000C066, 0x7000C06D, '2005-02-09 10:00:00') /* Apozim (20186) */
+     , (0x7000C066, 0x7000C070, '2005-02-09 10:00:00') /* Spiked Grievver (28554) */
+     , (0x7000C066, 0x7000C071, '2005-02-09 10:00:00') /* Spiked Grievver (28554) */
+     , (0x7000C066, 0x7000C072, '2005-02-09 10:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x7000C066, 0x7000C073, '2005-02-09 10:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x7000C066, 0x7000C074, '2005-02-09 10:00:00') /* Apozim (20186) */
+     , (0x7000C066, 0x7000C075, '2005-02-09 10:00:00') /* White Phyntos Wasp (7105) */
+     , (0x7000C066, 0x7000C076, '2005-02-09 10:00:00') /* White Phyntos Wasp (7105) */
+     , (0x7000C066, 0x7000C077, '2005-02-09 10:00:00') /* Spiked Grievver (28554) */
+     , (0x7000C066, 0x7000C078, '2005-02-09 10:00:00') /* Spiked Grievver (28554) */
+     , (0x7000C066, 0x7000C079, '2005-02-09 10:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x7000C066, 0x7000C07A, '2005-02-09 10:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x7000C066, 0x7000C07B, '2005-02-09 10:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x7000C066, 0x7000C07C, '2005-02-09 10:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x7000C066, 0x7000C07D, '2005-02-09 10:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x7000C066, 0x7000C07E, '2005-02-09 10:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x7000C066, 0x7000C07F, '2005-02-09 10:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x7000C066, 0x7000C080, '2005-02-09 10:00:00') /* White Phyntos Wasp (7105) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7000C067,  7106, 0x000C0160, 229.967, -59.8961, -23.945, -0.597765, 0, 0, 0.801671,  True, '2005-02-09 10:00:00'); /* Sewer Rat */
@@ -580,20 +580,20 @@ VALUES (0x7000C081, 24129, 0x000C0199, -2.70317, -96.7571, -17.995, 0.668142, 0,
 /* @teleloc 0x000C0199 [-2.703170 -96.757100 -17.995000] 0.668142 0.000000 0.000000 0.744034 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7000C081, 0x7000C082, '2005-02-09 10:00:00') /* White Phyntos Wasp */
-     , (0x7000C081, 0x7000C083, '2005-02-09 10:00:00') /* Gold Phyntos Wasp */
-     , (0x7000C081, 0x7000C085, '2005-02-09 10:00:00') /* Spiked Grievver */
-     , (0x7000C081, 0x7000C088, '2005-02-09 10:00:00') /* White Phyntos Wasp */
-     , (0x7000C081, 0x7000C089, '2005-02-09 10:00:00') /* Gold Phyntos Wasp */
-     , (0x7000C081, 0x7000C08A, '2005-02-09 10:00:00') /* White Phyntos Wasp */
-     , (0x7000C081, 0x7000C08D, '2005-02-09 10:00:00') /* Gold Phyntos Wasp */
-     , (0x7000C081, 0x7000C08E, '2005-02-09 10:00:00') /* White Phyntos Wasp */
-     , (0x7000C081, 0x7000C08F, '2005-02-09 10:00:00') /* Gold Phyntos Wasp */
-     , (0x7000C081, 0x7000C090, '2005-02-09 10:00:00') /* Gold Phyntos Wasp */
-     , (0x7000C081, 0x7000C091, '2005-02-09 10:00:00') /* Gold Phyntos Wasp */
-     , (0x7000C081, 0x7000C093, '2005-02-09 10:00:00') /* Gold Phyntos Wasp */
-     , (0x7000C081, 0x7000C094, '2005-02-09 10:00:00') /* Gold Phyntos Wasp */
-     , (0x7000C081, 0x7000C095, '2005-02-09 10:00:00') /* Gold Phyntos Wasp */;
+VALUES (0x7000C081, 0x7000C082, '2005-02-09 10:00:00') /* White Phyntos Wasp (7105) */
+     , (0x7000C081, 0x7000C083, '2005-02-09 10:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x7000C081, 0x7000C085, '2005-02-09 10:00:00') /* Spiked Grievver (28554) */
+     , (0x7000C081, 0x7000C088, '2005-02-09 10:00:00') /* White Phyntos Wasp (7105) */
+     , (0x7000C081, 0x7000C089, '2005-02-09 10:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x7000C081, 0x7000C08A, '2005-02-09 10:00:00') /* White Phyntos Wasp (7105) */
+     , (0x7000C081, 0x7000C08D, '2005-02-09 10:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x7000C081, 0x7000C08E, '2005-02-09 10:00:00') /* White Phyntos Wasp (7105) */
+     , (0x7000C081, 0x7000C08F, '2005-02-09 10:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x7000C081, 0x7000C090, '2005-02-09 10:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x7000C081, 0x7000C091, '2005-02-09 10:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x7000C081, 0x7000C093, '2005-02-09 10:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x7000C081, 0x7000C094, '2005-02-09 10:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x7000C081, 0x7000C095, '2005-02-09 10:00:00') /* Gold Phyntos Wasp (217) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7000C082,  7105, 0x000C019C, 10.5016, -88.3526, -17.988, -0.0806859, 0, 0, 0.99674,  True, '2005-02-09 10:00:00'); /* White Phyntos Wasp */
@@ -620,18 +620,18 @@ VALUES (0x7000C087, 15274, 0x000C01A5, 12.0122, -110.345, -17.995, 0.998373, 0, 
 /* @teleloc 0x000C01A5 [12.012200 -110.345000 -17.995000] 0.998373 0.000000 0.000000 -0.057028 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7000C087, 0x7000C042, '2005-02-09 10:00:00') /* Sewer Rat */
-     , (0x7000C087, 0x7000C045, '2005-02-09 10:00:00') /* Sewer Rat */
-     , (0x7000C087, 0x7000C04A, '2005-02-09 10:00:00') /* Sewer Rat */
-     , (0x7000C087, 0x7000C084, '2005-02-09 10:00:00') /* Sewer Rat */
-     , (0x7000C087, 0x7000C086, '2005-02-09 10:00:00') /* Sewer Rat */
-     , (0x7000C087, 0x7000C08B, '2005-02-09 10:00:00') /* Sewer Rat */
-     , (0x7000C087, 0x7000C08C, '2005-02-09 10:00:00') /* Sewer Rat */
-     , (0x7000C087, 0x7000C092, '2005-02-09 10:00:00') /* Sewer Rat */
-     , (0x7000C087, 0x7000C0CC, '2005-02-09 10:00:00') /* Sewer Rat */
-     , (0x7000C087, 0x7000C0CD, '2005-02-09 10:00:00') /* Sewer Rat */
-     , (0x7000C087, 0x7000C0CE, '2005-02-09 10:00:00') /* Sewer Rat */
-     , (0x7000C087, 0x7000C0CF, '2005-02-09 10:00:00') /* Sewer Rat */;
+VALUES (0x7000C087, 0x7000C042, '2005-02-09 10:00:00') /* Sewer Rat (7106) */
+     , (0x7000C087, 0x7000C045, '2005-02-09 10:00:00') /* Sewer Rat (7106) */
+     , (0x7000C087, 0x7000C04A, '2005-02-09 10:00:00') /* Sewer Rat (7106) */
+     , (0x7000C087, 0x7000C084, '2005-02-09 10:00:00') /* Sewer Rat (7106) */
+     , (0x7000C087, 0x7000C086, '2005-02-09 10:00:00') /* Sewer Rat (7106) */
+     , (0x7000C087, 0x7000C08B, '2005-02-09 10:00:00') /* Sewer Rat (7106) */
+     , (0x7000C087, 0x7000C08C, '2005-02-09 10:00:00') /* Sewer Rat (7106) */
+     , (0x7000C087, 0x7000C092, '2005-02-09 10:00:00') /* Sewer Rat (7106) */
+     , (0x7000C087, 0x7000C0CC, '2005-02-09 10:00:00') /* Sewer Rat (7106) */
+     , (0x7000C087, 0x7000C0CD, '2005-02-09 10:00:00') /* Sewer Rat (7106) */
+     , (0x7000C087, 0x7000C0CE, '2005-02-09 10:00:00') /* Sewer Rat (7106) */
+     , (0x7000C087, 0x7000C0CF, '2005-02-09 10:00:00') /* Sewer Rat (7106) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7000C088,  7105, 0x000C01A5, 7.48358, -108.827, -17.988, -0.979483, 0, 0, 0.201526,  True, '2005-02-09 10:00:00'); /* White Phyntos Wasp */
@@ -698,21 +698,21 @@ VALUES (0x7000C097, 24129, 0x000C01C1, 42.6553, -102.66, -17.995, 0.566507, 0, 0
 /* @teleloc 0x000C01C1 [42.655300 -102.660000 -17.995000] 0.566507 0.000000 0.000000 -0.824057 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7000C097, 0x7000C043, '2005-02-09 10:00:00') /* Gold Phyntos Wasp */
-     , (0x7000C097, 0x7000C044, '2005-02-09 10:00:00') /* Spiked Grievver */
-     , (0x7000C097, 0x7000C046, '2005-02-09 10:00:00') /* Gold Phyntos Wasp */
-     , (0x7000C097, 0x7000C047, '2005-02-09 10:00:00') /* Gold Phyntos Wasp */
-     , (0x7000C097, 0x7000C048, '2005-02-09 10:00:00') /* White Phyntos Wasp */
-     , (0x7000C097, 0x7000C049, '2005-02-09 10:00:00') /* Spiked Grievver */
-     , (0x7000C097, 0x7000C04B, '2005-02-09 10:00:00') /* Gold Phyntos Wasp */
-     , (0x7000C097, 0x7000C04C, '2005-02-09 10:00:00') /* White Phyntos Wasp */
-     , (0x7000C097, 0x7000C04D, '2005-02-09 10:00:00') /* Gold Phyntos Wasp */
-     , (0x7000C097, 0x7000C04E, '2005-02-09 10:00:00') /* Gold Phyntos Wasp */
-     , (0x7000C097, 0x7000C04F, '2005-02-09 10:00:00') /* Gold Phyntos Wasp */
-     , (0x7000C097, 0x7000C096, '2005-02-09 10:00:00') /* Spiked Grievver */
-     , (0x7000C097, 0x7000C098, '2005-02-09 10:00:00') /* Spiked Grievver */
-     , (0x7000C097, 0x7000C0D0, '2005-02-09 10:00:00') /* Spiked Grievver */
-     , (0x7000C097, 0x7000C0D1, '2005-02-09 10:00:00') /* Spiked Grievver */;
+VALUES (0x7000C097, 0x7000C043, '2005-02-09 10:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x7000C097, 0x7000C044, '2005-02-09 10:00:00') /* Spiked Grievver (28554) */
+     , (0x7000C097, 0x7000C046, '2005-02-09 10:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x7000C097, 0x7000C047, '2005-02-09 10:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x7000C097, 0x7000C048, '2005-02-09 10:00:00') /* White Phyntos Wasp (7105) */
+     , (0x7000C097, 0x7000C049, '2005-02-09 10:00:00') /* Spiked Grievver (28554) */
+     , (0x7000C097, 0x7000C04B, '2005-02-09 10:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x7000C097, 0x7000C04C, '2005-02-09 10:00:00') /* White Phyntos Wasp (7105) */
+     , (0x7000C097, 0x7000C04D, '2005-02-09 10:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x7000C097, 0x7000C04E, '2005-02-09 10:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x7000C097, 0x7000C04F, '2005-02-09 10:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x7000C097, 0x7000C096, '2005-02-09 10:00:00') /* Spiked Grievver (28554) */
+     , (0x7000C097, 0x7000C098, '2005-02-09 10:00:00') /* Spiked Grievver (28554) */
+     , (0x7000C097, 0x7000C0D0, '2005-02-09 10:00:00') /* Spiked Grievver (28554) */
+     , (0x7000C097, 0x7000C0D1, '2005-02-09 10:00:00') /* Spiked Grievver (28554) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7000C098, 28554, 0x000C01C2, 40.394, -108.249, -17.995, 0.978716, 0, 0, -0.20522,  True, '2005-02-09 10:00:00'); /* Spiked Grievver */
@@ -795,14 +795,14 @@ VALUES (0x7000C0AB, 15274, 0x000C01F5, 168.216, -89.6698, -17.995, 0.743501, 0, 
 /* @teleloc 0x000C01F5 [168.216000 -89.669800 -17.995000] 0.743501 0.000000 0.000000 -0.668734 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7000C0AB, 0x7000C05D, '2005-02-09 10:00:00') /* Sewer Rat */
-     , (0x7000C0AB, 0x7000C062, '2005-02-09 10:00:00') /* Sewer Rat */
-     , (0x7000C0AB, 0x7000C063, '2005-02-09 10:00:00') /* Sewer Rat */
-     , (0x7000C0AB, 0x7000C064, '2005-02-09 10:00:00') /* Sewer Rat */
-     , (0x7000C0AB, 0x7000C065, '2005-02-09 10:00:00') /* Sewer Rat */
-     , (0x7000C0AB, 0x7000C0A9, '2005-02-09 10:00:00') /* Sewer Rat */
-     , (0x7000C0AB, 0x7000C0AA, '2005-02-09 10:00:00') /* Sewer Rat */
-     , (0x7000C0AB, 0x7000C0B3, '2005-02-09 10:00:00') /* Sewer Rat */;
+VALUES (0x7000C0AB, 0x7000C05D, '2005-02-09 10:00:00') /* Sewer Rat (7106) */
+     , (0x7000C0AB, 0x7000C062, '2005-02-09 10:00:00') /* Sewer Rat (7106) */
+     , (0x7000C0AB, 0x7000C063, '2005-02-09 10:00:00') /* Sewer Rat (7106) */
+     , (0x7000C0AB, 0x7000C064, '2005-02-09 10:00:00') /* Sewer Rat (7106) */
+     , (0x7000C0AB, 0x7000C065, '2005-02-09 10:00:00') /* Sewer Rat (7106) */
+     , (0x7000C0AB, 0x7000C0A9, '2005-02-09 10:00:00') /* Sewer Rat (7106) */
+     , (0x7000C0AB, 0x7000C0AA, '2005-02-09 10:00:00') /* Sewer Rat (7106) */
+     , (0x7000C0AB, 0x7000C0B3, '2005-02-09 10:00:00') /* Sewer Rat (7106) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7000C0AC, 28554, 0x000C01F5, 170.752, -91.0594, -17.995, 0.99698, 0, 0, -0.0776602,  True, '2005-02-09 10:00:00'); /* Spiked Grievver */
@@ -821,14 +821,14 @@ VALUES (0x7000C0AF,  7923, 0x000C01FD, 187.478, -50.8353, -17.995, -0.66892, 0, 
 /* @teleloc 0x000C01FD [187.478000 -50.835300 -17.995000] -0.668920 0.000000 0.000000 0.743334 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7000C0AF, 0x7000C0AD, '2005-02-09 10:00:00') /* Gold Phyntos Wasp */
-     , (0x7000C0AF, 0x7000C0AE, '2005-02-09 10:00:00') /* White Phyntos Wasp */
-     , (0x7000C0AF, 0x7000C0B4, '2005-02-09 10:00:00') /* Gold Phyntos Wasp */
-     , (0x7000C0AF, 0x7000C0B5, '2005-02-09 10:00:00') /* Gold Phyntos Wasp */
-     , (0x7000C0AF, 0x7000C0B6, '2005-02-09 10:00:00') /* Gold Phyntos Wasp */
-     , (0x7000C0AF, 0x7000C0D5, '2005-02-09 10:00:00') /* Spiked Grievver */
-     , (0x7000C0AF, 0x7000C0E8, '2005-02-09 10:00:00') /* Gold Phyntos Wasp */
-     , (0x7000C0AF, 0x7000C0E9, '2005-02-09 10:00:00') /* Gold Phyntos Wasp */;
+VALUES (0x7000C0AF, 0x7000C0AD, '2005-02-09 10:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x7000C0AF, 0x7000C0AE, '2005-02-09 10:00:00') /* White Phyntos Wasp (7105) */
+     , (0x7000C0AF, 0x7000C0B4, '2005-02-09 10:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x7000C0AF, 0x7000C0B5, '2005-02-09 10:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x7000C0AF, 0x7000C0B6, '2005-02-09 10:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x7000C0AF, 0x7000C0D5, '2005-02-09 10:00:00') /* Spiked Grievver (28554) */
+     , (0x7000C0AF, 0x7000C0E8, '2005-02-09 10:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x7000C0AF, 0x7000C0E9, '2005-02-09 10:00:00') /* Gold Phyntos Wasp (217) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7000C0B0,  7105, 0x000C01FF, 191.415, -72.3552, -17.988, 0.999983, 0, 0, 0.00574592,  True, '2005-02-09 10:00:00'); /* White Phyntos Wasp */
@@ -995,16 +995,16 @@ VALUES (0x7000C0D8, 15274, 0x000C026C, 160.142, -60.1576, -11.995, 0.885989, 0, 
 /* @teleloc 0x000C026C [160.142000 -60.157600 -11.995000] 0.885989 0.000000 0.000000 0.463706 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7000C0D8, 0x7000C099, '2005-02-09 10:00:00') /* Sewer Rat */
-     , (0x7000C0D8, 0x7000C09A, '2005-02-09 10:00:00') /* Sewer Rat */
-     , (0x7000C0D8, 0x7000C09B, '2005-02-09 10:00:00') /* Sewer Rat */
-     , (0x7000C0D8, 0x7000C09C, '2005-02-09 10:00:00') /* Sewer Rat */
-     , (0x7000C0D8, 0x7000C0A0, '2005-02-09 10:00:00') /* Sewer Rat */
-     , (0x7000C0D8, 0x7000C0A4, '2005-02-09 10:00:00') /* Sewer Rat */
-     , (0x7000C0D8, 0x7000C0A5, '2005-02-09 10:00:00') /* Sewer Rat */
-     , (0x7000C0D8, 0x7000C0A7, '2005-02-09 10:00:00') /* Sewer Rat */
-     , (0x7000C0D8, 0x7000C0D6, '2005-02-09 10:00:00') /* Sewer Rat */
-     , (0x7000C0D8, 0x7000C0D7, '2005-02-09 10:00:00') /* Sewer Rat */;
+VALUES (0x7000C0D8, 0x7000C099, '2005-02-09 10:00:00') /* Sewer Rat (7106) */
+     , (0x7000C0D8, 0x7000C09A, '2005-02-09 10:00:00') /* Sewer Rat (7106) */
+     , (0x7000C0D8, 0x7000C09B, '2005-02-09 10:00:00') /* Sewer Rat (7106) */
+     , (0x7000C0D8, 0x7000C09C, '2005-02-09 10:00:00') /* Sewer Rat (7106) */
+     , (0x7000C0D8, 0x7000C0A0, '2005-02-09 10:00:00') /* Sewer Rat (7106) */
+     , (0x7000C0D8, 0x7000C0A4, '2005-02-09 10:00:00') /* Sewer Rat (7106) */
+     , (0x7000C0D8, 0x7000C0A5, '2005-02-09 10:00:00') /* Sewer Rat (7106) */
+     , (0x7000C0D8, 0x7000C0A7, '2005-02-09 10:00:00') /* Sewer Rat (7106) */
+     , (0x7000C0D8, 0x7000C0D6, '2005-02-09 10:00:00') /* Sewer Rat (7106) */
+     , (0x7000C0D8, 0x7000C0D7, '2005-02-09 10:00:00') /* Sewer Rat (7106) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7000C0D9,   217, 0x000C026C, 162.016, -62.3806, -11.988, -0.792744, 0, 0, -0.609554,  True, '2005-02-09 10:00:00'); /* Gold Phyntos Wasp */
@@ -1015,15 +1015,15 @@ VALUES (0x7000C0DA,  7923, 0x000C026C, 159.029, -61.5866, -11.995, -0.792744, 0,
 /* @teleloc 0x000C026C [159.029000 -61.586600 -11.995000] -0.792744 0.000000 0.000000 -0.609554 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7000C0DA, 0x7000C09D, '2005-02-09 10:00:00') /* Gold Phyntos Wasp */
-     , (0x7000C0DA, 0x7000C09E, '2005-02-09 10:00:00') /* Gold Phyntos Wasp */
-     , (0x7000C0DA, 0x7000C09F, '2005-02-09 10:00:00') /* White Phyntos Wasp */
-     , (0x7000C0DA, 0x7000C0A1, '2005-02-09 10:00:00') /* Gold Phyntos Wasp */
-     , (0x7000C0DA, 0x7000C0A2, '2005-02-09 10:00:00') /* Gold Phyntos Wasp */
-     , (0x7000C0DA, 0x7000C0A3, '2005-02-09 10:00:00') /* White Phyntos Wasp */
-     , (0x7000C0DA, 0x7000C0A6, '2005-02-09 10:00:00') /* Gold Phyntos Wasp */
-     , (0x7000C0DA, 0x7000C0A8, '2005-02-09 10:00:00') /* Spiked Grievver */
-     , (0x7000C0DA, 0x7000C0D9, '2005-02-09 10:00:00') /* Gold Phyntos Wasp */;
+VALUES (0x7000C0DA, 0x7000C09D, '2005-02-09 10:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x7000C0DA, 0x7000C09E, '2005-02-09 10:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x7000C0DA, 0x7000C09F, '2005-02-09 10:00:00') /* White Phyntos Wasp (7105) */
+     , (0x7000C0DA, 0x7000C0A1, '2005-02-09 10:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x7000C0DA, 0x7000C0A2, '2005-02-09 10:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x7000C0DA, 0x7000C0A3, '2005-02-09 10:00:00') /* White Phyntos Wasp (7105) */
+     , (0x7000C0DA, 0x7000C0A6, '2005-02-09 10:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x7000C0DA, 0x7000C0A8, '2005-02-09 10:00:00') /* Spiked Grievver (28554) */
+     , (0x7000C0DA, 0x7000C0D9, '2005-02-09 10:00:00') /* Gold Phyntos Wasp (217) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7000C0DB,  7106, 0x000C0274, 166.604, -31.0757, -11.945, 0.790177, 0, 0, -0.612879,  True, '2005-02-09 10:00:00'); /* Sewer Rat */
@@ -1034,20 +1034,20 @@ VALUES (0x7000C0DC, 15274, 0x000C0274, 165.833, -29.5279, -11.995, 0.752314, 0, 
 /* @teleloc 0x000C0274 [165.833000 -29.527900 -11.995000] 0.752314 0.000000 0.000000 -0.658805 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7000C0DC, 0x7000C0C7, '2005-02-09 10:00:00') /* Sewer Rat */
-     , (0x7000C0DC, 0x7000C0C8, '2005-02-09 10:00:00') /* Sewer Rat */
-     , (0x7000C0DC, 0x7000C0C9, '2005-02-09 10:00:00') /* Sewer Rat */
-     , (0x7000C0DC, 0x7000C0CA, '2005-02-09 10:00:00') /* Sewer Rat */
-     , (0x7000C0DC, 0x7000C0CB, '2005-02-09 10:00:00') /* Sewer Rat */
-     , (0x7000C0DC, 0x7000C0D2, '2005-02-09 10:00:00') /* Sewer Rat */
-     , (0x7000C0DC, 0x7000C0D3, '2005-02-09 10:00:00') /* Sewer Rat */
-     , (0x7000C0DC, 0x7000C0D4, '2005-02-09 10:00:00') /* Sewer Rat */
-     , (0x7000C0DC, 0x7000C0DB, '2005-02-09 10:00:00') /* Sewer Rat */
-     , (0x7000C0DC, 0x7000C0DD, '2005-02-09 10:00:00') /* Sewer Rat */
-     , (0x7000C0DC, 0x7000C0DE, '2005-02-09 10:00:00') /* Sewer Rat */
-     , (0x7000C0DC, 0x7000C0DF, '2005-02-09 10:00:00') /* Sewer Rat */
-     , (0x7000C0DC, 0x7000C0E0, '2005-02-09 10:00:00') /* Sewer Rat */
-     , (0x7000C0DC, 0x7000C0E1, '2005-02-09 10:00:00') /* Sewer Rat */;
+VALUES (0x7000C0DC, 0x7000C0C7, '2005-02-09 10:00:00') /* Sewer Rat (7106) */
+     , (0x7000C0DC, 0x7000C0C8, '2005-02-09 10:00:00') /* Sewer Rat (7106) */
+     , (0x7000C0DC, 0x7000C0C9, '2005-02-09 10:00:00') /* Sewer Rat (7106) */
+     , (0x7000C0DC, 0x7000C0CA, '2005-02-09 10:00:00') /* Sewer Rat (7106) */
+     , (0x7000C0DC, 0x7000C0CB, '2005-02-09 10:00:00') /* Sewer Rat (7106) */
+     , (0x7000C0DC, 0x7000C0D2, '2005-02-09 10:00:00') /* Sewer Rat (7106) */
+     , (0x7000C0DC, 0x7000C0D3, '2005-02-09 10:00:00') /* Sewer Rat (7106) */
+     , (0x7000C0DC, 0x7000C0D4, '2005-02-09 10:00:00') /* Sewer Rat (7106) */
+     , (0x7000C0DC, 0x7000C0DB, '2005-02-09 10:00:00') /* Sewer Rat (7106) */
+     , (0x7000C0DC, 0x7000C0DD, '2005-02-09 10:00:00') /* Sewer Rat (7106) */
+     , (0x7000C0DC, 0x7000C0DE, '2005-02-09 10:00:00') /* Sewer Rat (7106) */
+     , (0x7000C0DC, 0x7000C0DF, '2005-02-09 10:00:00') /* Sewer Rat (7106) */
+     , (0x7000C0DC, 0x7000C0E0, '2005-02-09 10:00:00') /* Sewer Rat (7106) */
+     , (0x7000C0DC, 0x7000C0E1, '2005-02-09 10:00:00') /* Sewer Rat (7106) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7000C0DD,  7106, 0x000C0276, 165.722, -49.5608, -11.988, 0.492753, 0, 0, 0.870169,  True, '2005-02-09 10:00:00'); /* Sewer Rat */
@@ -1082,34 +1082,34 @@ VALUES (0x7000C0E4,  7923, 0x000C0284, 179.983, -82.1422, -11.995, -0.346583, 0,
 /* @teleloc 0x000C0284 [179.983000 -82.142200 -11.995000] -0.346583 0.000000 0.000000 -0.938019 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7000C0E4, 0x7000C0E2, '2005-02-09 10:00:00') /* White Phyntos Wasp */
-     , (0x7000C0E4, 0x7000C0E3, '2005-02-09 10:00:00') /* White Phyntos Wasp */
-     , (0x7000C0E4, 0x7000C0E5, '2005-02-09 10:00:00') /* Gold Phyntos Wasp */
-     , (0x7000C0E4, 0x7000C0E6, '2005-02-09 10:00:00') /* White Phyntos Wasp */
-     , (0x7000C0E4, 0x7000C0E7, '2005-02-09 10:00:00') /* Gold Phyntos Wasp */
-     , (0x7000C0E4, 0x7000C0EA, '2005-02-09 10:00:00') /* Spiked Grievver */
-     , (0x7000C0E4, 0x7000C0EB, '2005-02-09 10:00:00') /* White Phyntos Wasp */
-     , (0x7000C0E4, 0x7000C0EC, '2005-02-09 10:00:00') /* Gold Phyntos Wasp */
-     , (0x7000C0E4, 0x7000C0ED, '2005-02-09 10:00:00') /* Gold Phyntos Wasp */
-     , (0x7000C0E4, 0x7000C0EE, '2005-02-09 10:00:00') /* Gold Phyntos Wasp */
-     , (0x7000C0E4, 0x7000C0EF, '2005-02-09 10:00:00') /* Gold Phyntos Wasp */
-     , (0x7000C0E4, 0x7000C0F0, '2005-02-09 10:00:00') /* Spiked Grievver */
-     , (0x7000C0E4, 0x7000C0F1, '2005-02-09 10:00:00') /* Apozim */
-     , (0x7000C0E4, 0x7000C0F2, '2005-02-09 10:00:00') /* Apozim */
-     , (0x7000C0E4, 0x7000C0F3, '2005-02-09 10:00:00') /* Apozim */
-     , (0x7000C0E4, 0x7000C0F4, '2005-02-09 10:00:00') /* Apozim */
-     , (0x7000C0E4, 0x7000C0F5, '2005-02-09 10:00:00') /* Sewer Rat */
-     , (0x7000C0E4, 0x7000C0F6, '2005-02-09 10:00:00') /* Sewer Rat */
-     , (0x7000C0E4, 0x7000C0F7, '2005-02-09 10:00:00') /* Sewer Rat */
-     , (0x7000C0E4, 0x7000C0F8, '2005-02-09 10:00:00') /* Sewer Rat */
-     , (0x7000C0E4, 0x7000C0F9, '2005-02-09 10:00:00') /* Apozim */
-     , (0x7000C0E4, 0x7000C0FA, '2005-02-09 10:00:00') /* Apozim */
-     , (0x7000C0E4, 0x7000C0FB, '2005-02-09 10:00:00') /* Gold Phyntos Wasp */
-     , (0x7000C0E4, 0x7000C0FC, '2005-02-09 10:00:00') /* Gold Phyntos Wasp */
-     , (0x7000C0E4, 0x7000C0FD, '2005-02-09 10:00:00') /* Gold Phyntos Wasp */
-     , (0x7000C0E4, 0x7000C0FE, '2005-02-09 10:00:00') /* Spiked Grievver */
-     , (0x7000C0E4, 0x7000C0FF, '2005-02-09 10:00:00') /* Gold Phyntos Wasp */
-     , (0x7000C0E4, 0x7000C100, '2005-02-09 10:00:00') /* Spiked Grievver */;
+VALUES (0x7000C0E4, 0x7000C0E2, '2005-02-09 10:00:00') /* White Phyntos Wasp (7105) */
+     , (0x7000C0E4, 0x7000C0E3, '2005-02-09 10:00:00') /* White Phyntos Wasp (7105) */
+     , (0x7000C0E4, 0x7000C0E5, '2005-02-09 10:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x7000C0E4, 0x7000C0E6, '2005-02-09 10:00:00') /* White Phyntos Wasp (7105) */
+     , (0x7000C0E4, 0x7000C0E7, '2005-02-09 10:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x7000C0E4, 0x7000C0EA, '2005-02-09 10:00:00') /* Spiked Grievver (28554) */
+     , (0x7000C0E4, 0x7000C0EB, '2005-02-09 10:00:00') /* White Phyntos Wasp (7105) */
+     , (0x7000C0E4, 0x7000C0EC, '2005-02-09 10:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x7000C0E4, 0x7000C0ED, '2005-02-09 10:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x7000C0E4, 0x7000C0EE, '2005-02-09 10:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x7000C0E4, 0x7000C0EF, '2005-02-09 10:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x7000C0E4, 0x7000C0F0, '2005-02-09 10:00:00') /* Spiked Grievver (28554) */
+     , (0x7000C0E4, 0x7000C0F1, '2005-02-09 10:00:00') /* Apozim (20186) */
+     , (0x7000C0E4, 0x7000C0F2, '2005-02-09 10:00:00') /* Apozim (20186) */
+     , (0x7000C0E4, 0x7000C0F3, '2005-02-09 10:00:00') /* Apozim (20186) */
+     , (0x7000C0E4, 0x7000C0F4, '2005-02-09 10:00:00') /* Apozim (20186) */
+     , (0x7000C0E4, 0x7000C0F5, '2005-02-09 10:00:00') /* Sewer Rat (7106) */
+     , (0x7000C0E4, 0x7000C0F6, '2005-02-09 10:00:00') /* Sewer Rat (7106) */
+     , (0x7000C0E4, 0x7000C0F7, '2005-02-09 10:00:00') /* Sewer Rat (7106) */
+     , (0x7000C0E4, 0x7000C0F8, '2005-02-09 10:00:00') /* Sewer Rat (7106) */
+     , (0x7000C0E4, 0x7000C0F9, '2005-02-09 10:00:00') /* Apozim (20186) */
+     , (0x7000C0E4, 0x7000C0FA, '2005-02-09 10:00:00') /* Apozim (20186) */
+     , (0x7000C0E4, 0x7000C0FB, '2005-02-09 10:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x7000C0E4, 0x7000C0FC, '2005-02-09 10:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x7000C0E4, 0x7000C0FD, '2005-02-09 10:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x7000C0E4, 0x7000C0FE, '2005-02-09 10:00:00') /* Spiked Grievver (28554) */
+     , (0x7000C0E4, 0x7000C0FF, '2005-02-09 10:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x7000C0E4, 0x7000C100, '2005-02-09 10:00:00') /* Spiked Grievver (28554) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7000C0E5,   217, 0x000C0289, 179.887, -100.066, -11.988, -0.929621, 0, 0, 0.368516,  True, '2005-02-09 10:00:00'); /* Gold Phyntos Wasp */

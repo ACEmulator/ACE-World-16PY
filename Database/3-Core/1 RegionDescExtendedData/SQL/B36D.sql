@@ -1,6 +1,4 @@
-DELETE FROM `encounter` WHERE `landblock` = 45933;
+DELETE FROM `encounter` WHERE `landblock` = 0xB36D;
 
 INSERT INTO `encounter` (`landblock`, `weenie_Class_Id`, `cell_X`, `cell_Y`, `last_Modified`)
-VALUES (45933, 23185, 1, 4, '2005-02-09 10:00:00') /* Sho Newbie Plains Mix Generator */
-     , (45933, 23185, 7, 8, '2005-02-09 10:00:00') /* Sho Newbie Plains Mix Generator */
-     , (45933, 23185, 8, 3, '2005-02-09 10:00:00') /* Sho Newbie Plains Mix Generator */;
+VALUES (0xB36D, 23185, 1, 4, '2005-02-09 10:00:00') /* Sho Newbie Plains Mix Generator */;

@@ -61,29 +61,29 @@ VALUES (0x7614B00E,  7924, 0x614B010F, 28.2106, -56.7136, 0, 0.936128, 0, 0, 0.3
 /* @teleloc 0x614B010F [28.210600 -56.713600 0.000000] 0.936128 0.000000 0.000000 0.351659 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7614B00E, 0x7614B000, '2005-02-09 10:00:00') /* Drudge Stalker */
-     , (0x7614B00E, 0x7614B001, '2005-02-09 10:00:00') /* Drudge Lurker */
-     , (0x7614B00E, 0x7614B002, '2005-02-09 10:00:00') /* Kerthump the Ear Taker */
-     , (0x7614B00E, 0x7614B003, '2005-02-09 10:00:00') /* Drudge Stalker */
-     , (0x7614B00E, 0x7614B004, '2005-02-09 10:00:00') /* Drudge Stalker */
-     , (0x7614B00E, 0x7614B006, '2005-02-09 10:00:00') /* Baktak the Human Slayer */
-     , (0x7614B00E, 0x7614B007, '2005-02-09 10:00:00') /* Drudge Stalker */
-     , (0x7614B00E, 0x7614B008, '2005-02-09 10:00:00') /* Drudge Lurker */
-     , (0x7614B00E, 0x7614B009, '2005-02-09 10:00:00') /* Drudge Lurker */
-     , (0x7614B00E, 0x7614B00A, '2005-02-09 10:00:00') /* Drudge Lurker */
-     , (0x7614B00E, 0x7614B00B, '2005-02-09 10:00:00') /* Drudge Lurker */
-     , (0x7614B00E, 0x7614B00C, '2005-02-09 10:00:00') /* Drudge Lurker */
-     , (0x7614B00E, 0x7614B00D, '2005-02-09 10:00:00') /* Drudge Lurker */
-     , (0x7614B00E, 0x7614B00F, '2005-02-09 10:00:00') /* Drudge Lurker */
-     , (0x7614B00E, 0x7614B010, '2005-02-09 10:00:00') /* Drudge Lurker */
-     , (0x7614B00E, 0x7614B011, '2005-02-09 10:00:00') /* Drudge Stalker */
-     , (0x7614B00E, 0x7614B012, '2005-02-09 10:00:00') /* Drudge Lurker */
-     , (0x7614B00E, 0x7614B013, '2005-02-09 10:00:00') /* Drudge Lurker */
-     , (0x7614B00E, 0x7614B014, '2005-02-09 10:00:00') /* Drudge Lurker */
-     , (0x7614B00E, 0x7614B015, '2005-02-09 10:00:00') /* Drudge Lurker */
-     , (0x7614B00E, 0x7614B016, '2005-02-09 10:00:00') /* Drudge Lurker */
-     , (0x7614B00E, 0x7614B017, '2005-02-09 10:00:00') /* Drudge Stalker */
-     , (0x7614B00E, 0x7614B018, '2005-02-09 10:00:00') /* Drudge Stalker */;
+VALUES (0x7614B00E, 0x7614B000, '2005-02-09 10:00:00') /* Drudge Stalker (1609) */
+     , (0x7614B00E, 0x7614B001, '2005-02-09 10:00:00') /* Drudge Lurker (1608) */
+     , (0x7614B00E, 0x7614B002, '2005-02-09 10:00:00') /* Kerthump the Ear Taker (27414) */
+     , (0x7614B00E, 0x7614B003, '2005-02-09 10:00:00') /* Drudge Stalker (1609) */
+     , (0x7614B00E, 0x7614B004, '2005-02-09 10:00:00') /* Drudge Stalker (1609) */
+     , (0x7614B00E, 0x7614B006, '2005-02-09 10:00:00') /* Baktak the Human Slayer (27415) */
+     , (0x7614B00E, 0x7614B007, '2005-02-09 10:00:00') /* Drudge Stalker (1609) */
+     , (0x7614B00E, 0x7614B008, '2005-02-09 10:00:00') /* Drudge Lurker (1608) */
+     , (0x7614B00E, 0x7614B009, '2005-02-09 10:00:00') /* Drudge Lurker (1608) */
+     , (0x7614B00E, 0x7614B00A, '2005-02-09 10:00:00') /* Drudge Lurker (1608) */
+     , (0x7614B00E, 0x7614B00B, '2005-02-09 10:00:00') /* Drudge Lurker (1608) */
+     , (0x7614B00E, 0x7614B00C, '2005-02-09 10:00:00') /* Drudge Lurker (1608) */
+     , (0x7614B00E, 0x7614B00D, '2005-02-09 10:00:00') /* Drudge Lurker (1608) */
+     , (0x7614B00E, 0x7614B00F, '2005-02-09 10:00:00') /* Drudge Lurker (1608) */
+     , (0x7614B00E, 0x7614B010, '2005-02-09 10:00:00') /* Drudge Lurker (1608) */
+     , (0x7614B00E, 0x7614B011, '2005-02-09 10:00:00') /* Drudge Stalker (1609) */
+     , (0x7614B00E, 0x7614B012, '2005-02-09 10:00:00') /* Drudge Lurker (1608) */
+     , (0x7614B00E, 0x7614B013, '2005-02-09 10:00:00') /* Drudge Lurker (1608) */
+     , (0x7614B00E, 0x7614B014, '2005-02-09 10:00:00') /* Drudge Lurker (1608) */
+     , (0x7614B00E, 0x7614B015, '2005-02-09 10:00:00') /* Drudge Lurker (1608) */
+     , (0x7614B00E, 0x7614B016, '2005-02-09 10:00:00') /* Drudge Lurker (1608) */
+     , (0x7614B00E, 0x7614B017, '2005-02-09 10:00:00') /* Drudge Stalker (1609) */
+     , (0x7614B00E, 0x7614B018, '2005-02-09 10:00:00') /* Drudge Stalker (1609) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7614B00F,  1608, 0x614B011E, 83.2104, -1.7819, 0.005, 0.823904, 0, 0, -0.566729,  True, '2005-02-09 10:00:00'); /* Drudge Lurker */

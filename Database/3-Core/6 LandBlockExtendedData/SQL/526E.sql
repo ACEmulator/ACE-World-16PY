@@ -25,14 +25,14 @@ VALUES (0x7526E005,  7923, 0x526E0104, 11.1914, -93.3023, -47.995, -0.999729, 0,
 /* @teleloc 0x526E0104 [11.191400 -93.302300 -47.995000] -0.999729 0.000000 0.000000 -0.023262 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7526E005, 0x7526E001, '2005-02-09 10:00:00') /* Olthoi Eviscerator */
-     , (0x7526E005, 0x7526E002, '2005-02-09 10:00:00') /* Olthoi Eviscerator */
-     , (0x7526E005, 0x7526E003, '2005-02-09 10:00:00') /* Olthoi Noble */
-     , (0x7526E005, 0x7526E004, '2005-02-09 10:00:00') /* Olthoi Eviscerator */
-     , (0x7526E005, 0x7526E006, '2005-02-09 10:00:00') /* Olthoi Noble */
-     , (0x7526E005, 0x7526E007, '2005-02-09 10:00:00') /* Olthoi Noble */
-     , (0x7526E005, 0x7526E008, '2005-02-09 10:00:00') /* Olthoi Noble */
-     , (0x7526E005, 0x7526E009, '2005-02-09 10:00:00') /* Olthoi Eviscerator */;
+VALUES (0x7526E005, 0x7526E001, '2005-02-09 10:00:00') /* Olthoi Eviscerator (11478) */
+     , (0x7526E005, 0x7526E002, '2005-02-09 10:00:00') /* Olthoi Eviscerator (11478) */
+     , (0x7526E005, 0x7526E003, '2005-02-09 10:00:00') /* Olthoi Noble (212) */
+     , (0x7526E005, 0x7526E004, '2005-02-09 10:00:00') /* Olthoi Eviscerator (11478) */
+     , (0x7526E005, 0x7526E006, '2005-02-09 10:00:00') /* Olthoi Noble (212) */
+     , (0x7526E005, 0x7526E007, '2005-02-09 10:00:00') /* Olthoi Noble (212) */
+     , (0x7526E005, 0x7526E008, '2005-02-09 10:00:00') /* Olthoi Noble (212) */
+     , (0x7526E005, 0x7526E009, '2005-02-09 10:00:00') /* Olthoi Eviscerator (11478) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7526E006,   212, 0x526E0106, 10.0965, -109.839, -47.995, 0.017019, 0, 0, 0.999855,  True, '2005-02-09 10:00:00'); /* Olthoi Noble */
@@ -83,16 +83,16 @@ VALUES (0x7526E011,  7923, 0x526E0125, 30.1733, -63.7516, -35.995, -0.045251, 0,
 /* @teleloc 0x526E0125 [30.173300 -63.751600 -35.995000] -0.045251 0.000000 0.000000 0.998976 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7526E011, 0x7526E00B, '2005-02-09 10:00:00') /* Olthoi Eviscerator */
-     , (0x7526E011, 0x7526E00C, '2005-02-09 10:00:00') /* Olthoi Noble */
-     , (0x7526E011, 0x7526E00D, '2005-02-09 10:00:00') /* Olthoi Noble */
-     , (0x7526E011, 0x7526E00E, '2005-02-09 10:00:00') /* Olthoi Eviscerator */
-     , (0x7526E011, 0x7526E00F, '2005-02-09 10:00:00') /* Olthoi Eviscerator */
-     , (0x7526E011, 0x7526E010, '2005-02-09 10:00:00') /* Olthoi Eviscerator */
-     , (0x7526E011, 0x7526E012, '2005-02-09 10:00:00') /* Olthoi Noble */
-     , (0x7526E011, 0x7526E013, '2005-02-09 10:00:00') /* Olthoi Eviscerator */
-     , (0x7526E011, 0x7526E014, '2005-02-09 10:00:00') /* Olthoi Eviscerator */
-     , (0x7526E011, 0x7526E015, '2005-02-09 10:00:00') /* Olthoi Noble */;
+VALUES (0x7526E011, 0x7526E00B, '2005-02-09 10:00:00') /* Olthoi Eviscerator (11478) */
+     , (0x7526E011, 0x7526E00C, '2005-02-09 10:00:00') /* Olthoi Noble (212) */
+     , (0x7526E011, 0x7526E00D, '2005-02-09 10:00:00') /* Olthoi Noble (212) */
+     , (0x7526E011, 0x7526E00E, '2005-02-09 10:00:00') /* Olthoi Eviscerator (11478) */
+     , (0x7526E011, 0x7526E00F, '2005-02-09 10:00:00') /* Olthoi Eviscerator (11478) */
+     , (0x7526E011, 0x7526E010, '2005-02-09 10:00:00') /* Olthoi Eviscerator (11478) */
+     , (0x7526E011, 0x7526E012, '2005-02-09 10:00:00') /* Olthoi Noble (212) */
+     , (0x7526E011, 0x7526E013, '2005-02-09 10:00:00') /* Olthoi Eviscerator (11478) */
+     , (0x7526E011, 0x7526E014, '2005-02-09 10:00:00') /* Olthoi Eviscerator (11478) */
+     , (0x7526E011, 0x7526E015, '2005-02-09 10:00:00') /* Olthoi Noble (212) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7526E012,   212, 0x526E0126, 28.0402, -70.9692, -35.995, 0.831233, 0, 0, -0.555925,  True, '2005-02-09 10:00:00'); /* Olthoi Noble */
@@ -151,18 +151,18 @@ VALUES (0x7526E01F,  7923, 0x526E014C, 34.0992, -5.55604, 0.005, -0.84501, 0, 0,
 /* @teleloc 0x526E014C [34.099200 -5.556040 0.005000] -0.845010 0.000000 0.000000 0.534750 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7526E01F, 0x7526E017, '2005-02-09 10:00:00') /* Olthoi Noble */
-     , (0x7526E01F, 0x7526E018, '2005-02-09 10:00:00') /* Olthoi Noble */
-     , (0x7526E01F, 0x7526E019, '2005-02-09 10:00:00') /* Olthoi Noble */
-     , (0x7526E01F, 0x7526E01A, '2005-02-09 10:00:00') /* Olthoi Noble */
-     , (0x7526E01F, 0x7526E01B, '2005-02-09 10:00:00') /* Olthoi Noble */
-     , (0x7526E01F, 0x7526E01C, '2005-02-09 10:00:00') /* Olthoi Noble */
-     , (0x7526E01F, 0x7526E01D, '2005-02-09 10:00:00') /* Olthoi Noble */
-     , (0x7526E01F, 0x7526E01E, '2005-02-09 10:00:00') /* Olthoi Noble */
-     , (0x7526E01F, 0x7526E022, '2005-02-09 10:00:00') /* Olthoi Noble */
-     , (0x7526E01F, 0x7526E023, '2005-02-09 10:00:00') /* Olthoi Noble */
-     , (0x7526E01F, 0x7526E024, '2005-02-09 10:00:00') /* Olthoi Noble */
-     , (0x7526E01F, 0x7526E025, '2005-02-09 10:00:00') /* Olthoi Noble */;
+VALUES (0x7526E01F, 0x7526E017, '2005-02-09 10:00:00') /* Olthoi Noble (6637) */
+     , (0x7526E01F, 0x7526E018, '2005-02-09 10:00:00') /* Olthoi Noble (6637) */
+     , (0x7526E01F, 0x7526E019, '2005-02-09 10:00:00') /* Olthoi Noble (6637) */
+     , (0x7526E01F, 0x7526E01A, '2005-02-09 10:00:00') /* Olthoi Noble (6637) */
+     , (0x7526E01F, 0x7526E01B, '2005-02-09 10:00:00') /* Olthoi Noble (6637) */
+     , (0x7526E01F, 0x7526E01C, '2005-02-09 10:00:00') /* Olthoi Noble (6637) */
+     , (0x7526E01F, 0x7526E01D, '2005-02-09 10:00:00') /* Olthoi Noble (6637) */
+     , (0x7526E01F, 0x7526E01E, '2005-02-09 10:00:00') /* Olthoi Noble (6637) */
+     , (0x7526E01F, 0x7526E022, '2005-02-09 10:00:00') /* Olthoi Noble (6637) */
+     , (0x7526E01F, 0x7526E023, '2005-02-09 10:00:00') /* Olthoi Noble (6637) */
+     , (0x7526E01F, 0x7526E024, '2005-02-09 10:00:00') /* Olthoi Noble (6637) */
+     , (0x7526E01F, 0x7526E025, '2005-02-09 10:00:00') /* Olthoi Noble (6637) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7526E020, 14497, 0x526E014C, 27.836, -12, 0, 0.923879, 0, 0, -0.382684, False, '2005-02-09 10:00:00'); /* Surface */

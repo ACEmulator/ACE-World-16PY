@@ -37,16 +37,16 @@ VALUES (0x718B500E,  4219, 0x18B50000, 58.8829, 134.065, 68.005, 0.611619, 0, 0,
 /* @teleloc 0x18B50000 [58.882900 134.065000 68.005000] 0.611619 0.000000 0.000000 -0.791152 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x718B500E, 0x718B5000, '2005-02-09 10:00:00') /* Hea Elder Shaman */
-     , (0x718B500E, 0x718B5002, '2005-02-09 10:00:00') /* Hea Elder Shaman */
-     , (0x718B500E, 0x718B5004, '2005-02-09 10:00:00') /* Hea Itealuan */
-     , (0x718B500E, 0x718B5008, '2005-02-09 10:00:00') /* Hea Itealuan */
-     , (0x718B500E, 0x718B500B, '2005-02-09 10:00:00') /* Hea Nualuan */
-     , (0x718B500E, 0x718B500F, '2005-02-09 10:00:00') /* Hea Shaman */
-     , (0x718B500E, 0x718B5010, '2005-02-09 10:00:00') /* Hea Shaman */
-     , (0x718B500E, 0x718B5011, '2005-02-09 10:00:00') /* Hea Shaman */
-     , (0x718B500E, 0x718B5012, '2005-02-09 10:00:00') /* Hea Shaman */
-     , (0x718B500E, 0x718B5013, '2005-02-09 10:00:00') /* Hea Shaman */;
+VALUES (0x718B500E, 0x718B5000, '2005-02-09 10:00:00') /* Hea Elder Shaman (11517) */
+     , (0x718B500E, 0x718B5002, '2005-02-09 10:00:00') /* Hea Elder Shaman (11517) */
+     , (0x718B500E, 0x718B5004, '2005-02-09 10:00:00') /* Hea Itealuan (11519) */
+     , (0x718B500E, 0x718B5008, '2005-02-09 10:00:00') /* Hea Itealuan (11519) */
+     , (0x718B500E, 0x718B500B, '2005-02-09 10:00:00') /* Hea Nualuan (11520) */
+     , (0x718B500E, 0x718B500F, '2005-02-09 10:00:00') /* Hea Shaman (11522) */
+     , (0x718B500E, 0x718B5010, '2005-02-09 10:00:00') /* Hea Shaman (11522) */
+     , (0x718B500E, 0x718B5011, '2005-02-09 10:00:00') /* Hea Shaman (11522) */
+     , (0x718B500E, 0x718B5012, '2005-02-09 10:00:00') /* Hea Shaman (11522) */
+     , (0x718B500E, 0x718B5013, '2005-02-09 10:00:00') /* Hea Shaman (11522) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x718B500F, 11522, 0x18B50000, 38.111, 103.716, 83.363, -0.855023, 0, 0, 0.518591,  True, '2005-02-09 10:00:00'); /* Hea Shaman */

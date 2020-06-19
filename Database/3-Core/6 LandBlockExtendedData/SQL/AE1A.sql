@@ -5,36 +5,36 @@ VALUES (0x7AE1A001,  7923, 0xAE1A0000, 92.1558, 87.9948, 237.356, 0.995797, 0, 0
 /* @teleloc 0xAE1A0000 [92.155800 87.994800 237.356000] 0.995797 0.000000 0.000000 0.091589 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7AE1A001, 0x7AE1A002, '2005-02-09 10:00:00') /* Gotrok Obeloth */
-     , (0x7AE1A001, 0x7AE1A003, '2005-02-09 10:00:00') /* Gotrok Gigas */
-     , (0x7AE1A001, 0x7AE1A004, '2005-02-09 10:00:00') /* Gotrok Gigas */
-     , (0x7AE1A001, 0x7AE1A005, '2005-02-09 10:00:00') /* Gotrok Gigas */
-     , (0x7AE1A001, 0x7AE1A006, '2005-02-09 10:00:00') /* Gotrok Gigas */
-     , (0x7AE1A001, 0x7AE1A007, '2005-02-09 10:00:00') /* Gotrok Gigas */
-     , (0x7AE1A001, 0x7AE1A008, '2005-02-09 10:00:00') /* Gotrok Gigas */
-     , (0x7AE1A001, 0x7AE1A009, '2005-02-09 10:00:00') /* Gotrok Lithos */
-     , (0x7AE1A001, 0x7AE1A00A, '2005-02-09 10:00:00') /* Gotrok Lithos */
-     , (0x7AE1A001, 0x7AE1A00B, '2005-02-09 10:00:00') /* Gotrok Lithos */
-     , (0x7AE1A001, 0x7AE1A00C, '2005-02-09 10:00:00') /* Gotrok Lithos */
-     , (0x7AE1A001, 0x7AE1A00D, '2005-02-09 10:00:00') /* Gotrok Lithos */
-     , (0x7AE1A001, 0x7AE1A00E, '2005-02-09 10:00:00') /* Gotrok Lithos */
-     , (0x7AE1A001, 0x7AE1A010, '2005-02-09 10:00:00') /* Gotrok Lithos */
-     , (0x7AE1A001, 0x7AE1A01D, '2005-02-09 10:00:00') /* Gotrok Obeloth */
-     , (0x7AE1A001, 0x7AE1A01E, '2005-02-09 10:00:00') /* Gotrok Montok */
-     , (0x7AE1A001, 0x7AE1A01F, '2005-02-09 10:00:00') /* Gigas Raider */
-     , (0x7AE1A001, 0x7AE1A020, '2005-02-09 10:00:00') /* Gigas Raider */
-     , (0x7AE1A001, 0x7AE1A021, '2005-02-09 10:00:00') /* Gigas Raider */
-     , (0x7AE1A001, 0x7AE1A022, '2005-02-09 10:00:00') /* Gigas Raider */
-     , (0x7AE1A001, 0x7AE1A023, '2005-02-09 10:00:00') /* Gigas Raider */
-     , (0x7AE1A001, 0x7AE1A024, '2005-02-09 10:00:00') /* Gigas Raider */
-     , (0x7AE1A001, 0x7AE1A025, '2005-02-09 10:00:00') /* Gigas Raider */
-     , (0x7AE1A001, 0x7AE1A026, '2005-02-09 10:00:00') /* Dread Mattekar */
-     , (0x7AE1A001, 0x7AE1A027, '2005-02-09 10:00:00') /* Gotrok Montok */
-     , (0x7AE1A001, 0x7AE1A028, '2005-02-09 10:00:00') /* Gotrok Montok */
-     , (0x7AE1A001, 0x7AE1A029, '2005-02-09 10:00:00') /* Gotrok Montok */
-     , (0x7AE1A001, 0x7AE1A02A, '2005-02-09 10:00:00') /* Gotrok Montok */
-     , (0x7AE1A001, 0x7AE1A02D, '2005-02-09 10:00:00') /* Dread Mattekar */
-     , (0x7AE1A001, 0x7AE1A02E, '2005-02-09 10:00:00') /* Gigas Raider */;
+VALUES (0x7AE1A001, 0x7AE1A002, '2005-02-09 10:00:00') /* Gotrok Obeloth (24943) */
+     , (0x7AE1A001, 0x7AE1A003, '2005-02-09 10:00:00') /* Gotrok Gigas (24940) */
+     , (0x7AE1A001, 0x7AE1A004, '2005-02-09 10:00:00') /* Gotrok Gigas (24940) */
+     , (0x7AE1A001, 0x7AE1A005, '2005-02-09 10:00:00') /* Gotrok Gigas (24940) */
+     , (0x7AE1A001, 0x7AE1A006, '2005-02-09 10:00:00') /* Gotrok Gigas (24940) */
+     , (0x7AE1A001, 0x7AE1A007, '2005-02-09 10:00:00') /* Gotrok Gigas (24940) */
+     , (0x7AE1A001, 0x7AE1A008, '2005-02-09 10:00:00') /* Gotrok Gigas (24940) */
+     , (0x7AE1A001, 0x7AE1A009, '2005-02-09 10:00:00') /* Gotrok Lithos (24942) */
+     , (0x7AE1A001, 0x7AE1A00A, '2005-02-09 10:00:00') /* Gotrok Lithos (24942) */
+     , (0x7AE1A001, 0x7AE1A00B, '2005-02-09 10:00:00') /* Gotrok Lithos (24942) */
+     , (0x7AE1A001, 0x7AE1A00C, '2005-02-09 10:00:00') /* Gotrok Lithos (24942) */
+     , (0x7AE1A001, 0x7AE1A00D, '2005-02-09 10:00:00') /* Gotrok Lithos (24942) */
+     , (0x7AE1A001, 0x7AE1A00E, '2005-02-09 10:00:00') /* Gotrok Lithos (24942) */
+     , (0x7AE1A001, 0x7AE1A010, '2005-02-09 10:00:00') /* Gotrok Lithos (24942) */
+     , (0x7AE1A001, 0x7AE1A01D, '2005-02-09 10:00:00') /* Gotrok Obeloth (24943) */
+     , (0x7AE1A001, 0x7AE1A01E, '2005-02-09 10:00:00') /* Gotrok Montok (24955) */
+     , (0x7AE1A001, 0x7AE1A01F, '2005-02-09 10:00:00') /* Gigas Raider (8139) */
+     , (0x7AE1A001, 0x7AE1A020, '2005-02-09 10:00:00') /* Gigas Raider (8139) */
+     , (0x7AE1A001, 0x7AE1A021, '2005-02-09 10:00:00') /* Gigas Raider (8139) */
+     , (0x7AE1A001, 0x7AE1A022, '2005-02-09 10:00:00') /* Gigas Raider (8139) */
+     , (0x7AE1A001, 0x7AE1A023, '2005-02-09 10:00:00') /* Gigas Raider (8139) */
+     , (0x7AE1A001, 0x7AE1A024, '2005-02-09 10:00:00') /* Gigas Raider (8139) */
+     , (0x7AE1A001, 0x7AE1A025, '2005-02-09 10:00:00') /* Gigas Raider (8139) */
+     , (0x7AE1A001, 0x7AE1A026, '2005-02-09 10:00:00') /* Dread Mattekar (9401) */
+     , (0x7AE1A001, 0x7AE1A027, '2005-02-09 10:00:00') /* Gotrok Montok (24955) */
+     , (0x7AE1A001, 0x7AE1A028, '2005-02-09 10:00:00') /* Gotrok Montok (24955) */
+     , (0x7AE1A001, 0x7AE1A029, '2005-02-09 10:00:00') /* Gotrok Montok (24955) */
+     , (0x7AE1A001, 0x7AE1A02A, '2005-02-09 10:00:00') /* Gotrok Montok (24955) */
+     , (0x7AE1A001, 0x7AE1A02D, '2005-02-09 10:00:00') /* Dread Mattekar (9401) */
+     , (0x7AE1A001, 0x7AE1A02E, '2005-02-09 10:00:00') /* Gigas Raider (8139) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7AE1A002, 24943, 0xAE1A0000, 170.436, 163.172, 255.187, -0.600563, 0, 0, 0.799577,  True, '2005-02-09 10:00:00'); /* Gotrok Obeloth */
@@ -169,5 +169,5 @@ VALUES (0x7AE1A02F, 24129, 0xAE1A0000, 94.9075, 86.9661, 237.07, -0.451311, 0, 0
 /* @teleloc 0xAE1A0000 [94.907500 86.966100 237.070000] -0.451311 0.000000 0.000000 -0.892367 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7AE1A02F, 0x7AE1A02B, '2005-02-09 10:00:00') /* Master of the Hunt */
-     , (0x7AE1A02F, 0x7AE1A02C, '2005-02-09 10:00:00') /* Lieutenant Master of the Hunt */;
+VALUES (0x7AE1A02F, 0x7AE1A02B, '2005-02-09 10:00:00') /* Master of the Hunt (9396) */
+     , (0x7AE1A02F, 0x7AE1A02C, '2005-02-09 10:00:00') /* Lieutenant Master of the Hunt (9463) */;

@@ -53,23 +53,23 @@ VALUES (0x7AFC600C,  1154, 0xAFC60000, 47.967, 72.1165, 120.005, -0.999996, 0, 0
 /* @teleloc 0xAFC60000 [47.967000 72.116500 120.005000] -0.999996 0.000000 0.000000 0.002855 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7AFC600C, 0x7AFC6006, '2005-02-09 10:00:00') /* Banderling Guard */
-     , (0x7AFC600C, 0x7AFC600A, '2005-02-09 10:00:00') /* Banderling Guard */
-     , (0x7AFC600C, 0x7AFC600D, '2005-02-09 10:00:00') /* Banderling Raider */
-     , (0x7AFC600C, 0x7AFC600E, '2005-02-09 10:00:00') /* Banderling Guard */
-     , (0x7AFC600C, 0x7AFC600F, '2005-02-09 10:00:00') /* Banderling Guard */
-     , (0x7AFC600C, 0x7AFC6010, '2005-02-09 10:00:00') /* Banderling Guard */
-     , (0x7AFC600C, 0x7AFC6011, '2005-02-09 10:00:00') /* Banderling Guard */
-     , (0x7AFC600C, 0x7AFC6012, '2005-02-09 10:00:00') /* Banderling Guard */
-     , (0x7AFC600C, 0x7AFC6014, '2005-02-09 10:00:00') /* Banderling Guard */
-     , (0x7AFC600C, 0x7AFC6015, '2005-02-09 10:00:00') /* Banderling Guard */
-     , (0x7AFC600C, 0x7AFC6016, '2005-02-09 10:00:00') /* Banderling Guard */
-     , (0x7AFC600C, 0x7AFC6017, '2005-02-09 10:00:00') /* Banderling Guard */
-     , (0x7AFC600C, 0x7AFC6018, '2005-02-09 10:00:00') /* Banderling Guard */
-     , (0x7AFC600C, 0x7AFC6019, '2005-02-09 10:00:00') /* Banderling Guard */
-     , (0x7AFC600C, 0x7AFC601A, '2005-02-09 10:00:00') /* Banderling Guard */
-     , (0x7AFC600C, 0x7AFC601B, '2005-02-09 10:00:00') /* Banderling Guard */
-     , (0x7AFC600C, 0x7AFC6022, '2005-02-09 10:00:00') /* Banderling Raver */;
+VALUES (0x7AFC600C, 0x7AFC6006, '2005-02-09 10:00:00') /* Banderling Guard (937) */
+     , (0x7AFC600C, 0x7AFC600A, '2005-02-09 10:00:00') /* Banderling Guard (937) */
+     , (0x7AFC600C, 0x7AFC600D, '2005-02-09 10:00:00') /* Banderling Raider (1520) */
+     , (0x7AFC600C, 0x7AFC600E, '2005-02-09 10:00:00') /* Banderling Guard (937) */
+     , (0x7AFC600C, 0x7AFC600F, '2005-02-09 10:00:00') /* Banderling Guard (937) */
+     , (0x7AFC600C, 0x7AFC6010, '2005-02-09 10:00:00') /* Banderling Guard (937) */
+     , (0x7AFC600C, 0x7AFC6011, '2005-02-09 10:00:00') /* Banderling Guard (937) */
+     , (0x7AFC600C, 0x7AFC6012, '2005-02-09 10:00:00') /* Banderling Guard (937) */
+     , (0x7AFC600C, 0x7AFC6014, '2005-02-09 10:00:00') /* Banderling Guard (937) */
+     , (0x7AFC600C, 0x7AFC6015, '2005-02-09 10:00:00') /* Banderling Guard (937) */
+     , (0x7AFC600C, 0x7AFC6016, '2005-02-09 10:00:00') /* Banderling Guard (937) */
+     , (0x7AFC600C, 0x7AFC6017, '2005-02-09 10:00:00') /* Banderling Guard (937) */
+     , (0x7AFC600C, 0x7AFC6018, '2005-02-09 10:00:00') /* Banderling Guard (937) */
+     , (0x7AFC600C, 0x7AFC6019, '2005-02-09 10:00:00') /* Banderling Guard (937) */
+     , (0x7AFC600C, 0x7AFC601A, '2005-02-09 10:00:00') /* Banderling Guard (937) */
+     , (0x7AFC600C, 0x7AFC601B, '2005-02-09 10:00:00') /* Banderling Guard (937) */
+     , (0x7AFC600C, 0x7AFC6022, '2005-02-09 10:00:00') /* Banderling Raver (183) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7AFC600D,  1520, 0xAFC60108, 135.497, 59.2485, 120.008, -0.999996, 0, 0, 0.002855,  True, '2005-02-09 10:00:00'); /* Banderling Raider */
@@ -136,8 +136,8 @@ VALUES (0x7AFC601C,  2181, 0xAFC60000, 105.578, 18.9003, 120.082, 0.353985, 0, 0
 /* @teleloc 0xAFC60000 [105.578000 18.900300 120.082000] 0.353985 0.000000 0.000000 -0.935251 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7AFC601C, 0x7AFC601D, '2005-02-09 10:00:00') /* Pressure Plate */
-     , (0x7AFC601C, 0x7AFC6020, '2005-02-09 10:00:00') /* Pressure Plate */;
+VALUES (0x7AFC601C, 0x7AFC601D, '2005-02-09 10:00:00') /* Pressure Plate (2131) */
+     , (0x7AFC601C, 0x7AFC6020, '2005-02-09 10:00:00') /* Pressure Plate (2131) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7AFC601D,  2131, 0xAFC6014B, 106.841, 17.5231, 120.005, -0.928739, 0, 0, -0.370733,  True, '2005-02-09 10:00:00'); /* Pressure Plate */
@@ -148,7 +148,7 @@ VALUES (0x7AFC601E,  2181, 0xAFC60000, 107.319, 7.55613, 120.082, -0.930238, 0, 
 /* @teleloc 0xAFC60000 [107.319000 7.556130 120.082000] -0.930238 0.000000 0.000000 -0.366957 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7AFC601E, 0x7AFC601F, '2005-02-09 10:00:00') /* Pressure Plate */;
+VALUES (0x7AFC601E, 0x7AFC601F, '2005-02-09 10:00:00') /* Pressure Plate (2131) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7AFC601F,  2131, 0xAFC6014B, 106.208, 8.59995, 120.005, 0.389074, 0, 0, -0.921207,  True, '2005-02-09 10:00:00'); /* Pressure Plate */

@@ -1,9 +1,6 @@
-DELETE FROM `encounter` WHERE `landblock` = 50895;
+DELETE FROM `encounter` WHERE `landblock` = 0xC6CF;
 
 INSERT INTO `encounter` (`landblock`, `weenie_Class_Id`, `cell_X`, `cell_Y`, `last_Modified`)
-VALUES (50895, 23193, 2, 3, '2005-02-09 10:00:00') /* Olthoi Mid North Generator */
-     , (50895, 23190, 5, 8, '2005-02-09 10:00:00') /* Olthoi High North Mix Generator */
-     , (50895, 23190, 6, 8, '2005-02-09 10:00:00') /* Olthoi High North Mix Generator */
-     , (50895, 23190, 7, 4, '2005-02-09 10:00:00') /* Olthoi High North Mix Generator */
-     , (50895, 23190, 7, 6, '2005-02-09 10:00:00') /* Olthoi High North Mix Generator */
-     , (50895, 23190, 7, 8, '2005-02-09 10:00:00') /* Olthoi High North Mix Generator */;
+VALUES (0xC6CF, 23193, 2, 3, '2005-02-09 10:00:00') /* Olthoi Mid North Generator */
+     , (0xC6CF, 23190, 7, 4, '2005-02-09 10:00:00') /* Olthoi High North Mix Generator */
+     , (0xC6CF, 23190, 7, 6, '2005-02-09 10:00:00') /* Olthoi High North Mix Generator */;

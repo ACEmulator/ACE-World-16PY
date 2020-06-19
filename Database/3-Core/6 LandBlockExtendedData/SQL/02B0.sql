@@ -13,75 +13,75 @@ VALUES (0x702B0003,  7923, 0x02B00106, 129.639, -62.7068, -6, 1, 0, 0, 0, False,
 /* @teleloc 0x02B00106 [129.639000 -62.706800 -6.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x702B0003, 0x702B0002, '2005-02-09 10:00:00') /* Bane Grievver */
-     , (0x702B0003, 0x702B0007, '2005-02-09 10:00:00') /* A Shadow of Black Ferah */
-     , (0x702B0003, 0x702B000A, '2005-02-09 10:00:00') /* Bane Grievver */
-     , (0x702B0003, 0x702B000C, '2005-02-09 10:00:00') /* Shadow Wraith */
-     , (0x702B0003, 0x702B000D, '2005-02-09 10:00:00') /* Bane Grievver */
-     , (0x702B0003, 0x702B000F, '2005-02-09 10:00:00') /* Shadow Wraith */
-     , (0x702B0003, 0x702B0010, '2005-02-09 10:00:00') /* Bane Grievver */
-     , (0x702B0003, 0x702B0012, '2005-02-09 10:00:00') /* Shadow Wraith */
-     , (0x702B0003, 0x702B0013, '2005-02-09 10:00:00') /* Bane Grievver */
-     , (0x702B0003, 0x702B0015, '2005-02-09 10:00:00') /* Shadow Wraith */
-     , (0x702B0003, 0x702B00AC, '2005-02-09 10:00:00') /* Shadow Wraith */
-     , (0x702B0003, 0x702B00AE, '2005-02-09 10:00:00') /* Shadow Wraith */
-     , (0x702B0003, 0x702B00B0, '2005-02-09 10:00:00') /* Shadow Wraith */
-     , (0x702B0003, 0x702B00B2, '2005-02-09 10:00:00') /* Shadow Wraith */
-     , (0x702B0003, 0x702B00B6, '2005-02-09 10:00:00') /* Bane Grievver */
-     , (0x702B0003, 0x702B00B7, '2005-02-09 10:00:00') /* Shadow Wraith */
-     , (0x702B0003, 0x702B00B8, '2005-02-09 10:00:00') /* Shadow Wraith */
-     , (0x702B0003, 0x702B00B9, '2005-02-09 10:00:00') /* Bane Grievver */
-     , (0x702B0003, 0x702B00BA, '2005-02-09 10:00:00') /* Shadow Wraith */
-     , (0x702B0003, 0x702B00BB, '2005-02-09 10:00:00') /* Shadow Wraith */
-     , (0x702B0003, 0x702B00BC, '2005-02-09 10:00:00') /* Bane Grievver */
-     , (0x702B0003, 0x702B00BE, '2005-02-09 10:00:00') /* Shadow Phantom */
-     , (0x702B0003, 0x702B00BF, '2005-02-09 10:00:00') /* Shadow Phantom */
-     , (0x702B0003, 0x702B00C0, '2005-02-09 10:00:00') /* Shadow Phantom */
-     , (0x702B0003, 0x702B00C1, '2005-02-09 10:00:00') /* Bane Grievver */
-     , (0x702B0003, 0x702B00C2, '2005-02-09 10:00:00') /* Shadow Phantom */
-     , (0x702B0003, 0x702B00CB, '2005-02-09 10:00:00') /* Bile Grievver */
-     , (0x702B0003, 0x702B00CC, '2005-02-09 10:00:00') /* Bile Grievver */;
+VALUES (0x702B0003, 0x702B0002, '2005-02-09 10:00:00') /* Bane Grievver (7983) */
+     , (0x702B0003, 0x702B0007, '2005-02-09 10:00:00') /* A Shadow of Black Ferah (8822) */
+     , (0x702B0003, 0x702B000A, '2005-02-09 10:00:00') /* Bane Grievver (7983) */
+     , (0x702B0003, 0x702B000C, '2005-02-09 10:00:00') /* Shadow Wraith (23091) */
+     , (0x702B0003, 0x702B000D, '2005-02-09 10:00:00') /* Bane Grievver (7983) */
+     , (0x702B0003, 0x702B000F, '2005-02-09 10:00:00') /* Shadow Wraith (23091) */
+     , (0x702B0003, 0x702B0010, '2005-02-09 10:00:00') /* Bane Grievver (7983) */
+     , (0x702B0003, 0x702B0012, '2005-02-09 10:00:00') /* Shadow Wraith (23091) */
+     , (0x702B0003, 0x702B0013, '2005-02-09 10:00:00') /* Bane Grievver (7983) */
+     , (0x702B0003, 0x702B0015, '2005-02-09 10:00:00') /* Shadow Wraith (23091) */
+     , (0x702B0003, 0x702B00AC, '2005-02-09 10:00:00') /* Shadow Wraith (23091) */
+     , (0x702B0003, 0x702B00AE, '2005-02-09 10:00:00') /* Shadow Wraith (23091) */
+     , (0x702B0003, 0x702B00B0, '2005-02-09 10:00:00') /* Shadow Wraith (23091) */
+     , (0x702B0003, 0x702B00B2, '2005-02-09 10:00:00') /* Shadow Wraith (23091) */
+     , (0x702B0003, 0x702B00B6, '2005-02-09 10:00:00') /* Bane Grievver (7983) */
+     , (0x702B0003, 0x702B00B7, '2005-02-09 10:00:00') /* Shadow Wraith (23091) */
+     , (0x702B0003, 0x702B00B8, '2005-02-09 10:00:00') /* Shadow Wraith (23091) */
+     , (0x702B0003, 0x702B00B9, '2005-02-09 10:00:00') /* Bane Grievver (7983) */
+     , (0x702B0003, 0x702B00BA, '2005-02-09 10:00:00') /* Shadow Wraith (23091) */
+     , (0x702B0003, 0x702B00BB, '2005-02-09 10:00:00') /* Shadow Wraith (23091) */
+     , (0x702B0003, 0x702B00BC, '2005-02-09 10:00:00') /* Bane Grievver (7983) */
+     , (0x702B0003, 0x702B00BE, '2005-02-09 10:00:00') /* Shadow Phantom (23089) */
+     , (0x702B0003, 0x702B00BF, '2005-02-09 10:00:00') /* Shadow Phantom (23089) */
+     , (0x702B0003, 0x702B00C0, '2005-02-09 10:00:00') /* Shadow Phantom (23089) */
+     , (0x702B0003, 0x702B00C1, '2005-02-09 10:00:00') /* Bane Grievver (7983) */
+     , (0x702B0003, 0x702B00C2, '2005-02-09 10:00:00') /* Shadow Phantom (23089) */
+     , (0x702B0003, 0x702B00CB, '2005-02-09 10:00:00') /* Bile Grievver (22900) */
+     , (0x702B0003, 0x702B00CC, '2005-02-09 10:00:00') /* Bile Grievver (22900) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x702B0004,  4219, 0x02B00106, 132.434, -62.8905, -5.995, 0.035739, 0, 0, -0.999361, False, '2005-02-09 10:00:00'); /* Linkable Monster Generator ( 7 Min.) */
 /* @teleloc 0x02B00106 [132.434000 -62.890500 -5.995000] 0.035739 0.000000 0.000000 -0.999361 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x702B0004, 0x702B000B, '2005-02-09 10:00:00') /* Shadow Wraith */
-     , (0x702B0004, 0x702B000E, '2005-02-09 10:00:00') /* Shadow Wraith */
-     , (0x702B0004, 0x702B0011, '2005-02-09 10:00:00') /* Shadow Wraith */
-     , (0x702B0004, 0x702B0014, '2005-02-09 10:00:00') /* Shadow Wraith */
-     , (0x702B0004, 0x702B0016, '2005-02-09 10:00:00') /* Bane Grievver */
-     , (0x702B0004, 0x702B0027, '2005-02-09 10:00:00') /* Bane Grievver */
-     , (0x702B0004, 0x702B002D, '2005-02-09 10:00:00') /* Bane Grievver */
-     , (0x702B0004, 0x702B0030, '2005-02-09 10:00:00') /* Bane Grievver */
-     , (0x702B0004, 0x702B0037, '2005-02-09 10:00:00') /* Bane Grievver */
-     , (0x702B0004, 0x702B003B, '2005-02-09 10:00:00') /* Shadow Wraith */
-     , (0x702B0004, 0x702B003C, '2005-02-09 10:00:00') /* Shadow Wraith */
-     , (0x702B0004, 0x702B0043, '2005-02-09 10:00:00') /* Bane Grievver */
-     , (0x702B0004, 0x702B004A, '2005-02-09 10:00:00') /* Bane Grievver */
-     , (0x702B0004, 0x702B004D, '2005-02-09 10:00:00') /* Bane Grievver */
-     , (0x702B0004, 0x702B004E, '2005-02-09 10:00:00') /* Shadow Wraith */
-     , (0x702B0004, 0x702B0056, '2005-02-09 10:00:00') /* Bane Grievver */
-     , (0x702B0004, 0x702B005D, '2005-02-09 10:00:00') /* Bane Grievver */
-     , (0x702B0004, 0x702B0060, '2005-02-09 10:00:00') /* Shadow Wraith */
-     , (0x702B0004, 0x702B0066, '2005-02-09 10:00:00') /* Bane Grievver */
-     , (0x702B0004, 0x702B006B, '2005-02-09 10:00:00') /* Bane Grievver */
-     , (0x702B0004, 0x702B0072, '2005-02-09 10:00:00') /* Bane Grievver */
-     , (0x702B0004, 0x702B0073, '2005-02-09 10:00:00') /* Bane Grievver */
-     , (0x702B0004, 0x702B0079, '2005-02-09 10:00:00') /* Bane Grievver */
-     , (0x702B0004, 0x702B007B, '2005-02-09 10:00:00') /* Bane Grievver */
-     , (0x702B0004, 0x702B0086, '2005-02-09 10:00:00') /* Bane Grievver */
-     , (0x702B0004, 0x702B0093, '2005-02-09 10:00:00') /* Bane Grievver */
-     , (0x702B0004, 0x702B009A, '2005-02-09 10:00:00') /* Bane Grievver */
-     , (0x702B0004, 0x702B00A4, '2005-02-09 10:00:00') /* Bane Grievver */
-     , (0x702B0004, 0x702B00A6, '2005-02-09 10:00:00') /* Bane Grievver */
-     , (0x702B0004, 0x702B00A8, '2005-02-09 10:00:00') /* Shadow Phantom */
-     , (0x702B0004, 0x702B00A9, '2005-02-09 10:00:00') /* Shadow Phantom */
-     , (0x702B0004, 0x702B00AA, '2005-02-09 10:00:00') /* Bane Grievver */
-     , (0x702B0004, 0x702B00B3, '2005-02-09 10:00:00') /* Shadow Phantom */
-     , (0x702B0004, 0x702B00B4, '2005-02-09 10:00:00') /* Shadow Phantom */
-     , (0x702B0004, 0x702B00B5, '2005-02-09 10:00:00') /* Shadow Phantom */;
+VALUES (0x702B0004, 0x702B000B, '2005-02-09 10:00:00') /* Shadow Wraith (23091) */
+     , (0x702B0004, 0x702B000E, '2005-02-09 10:00:00') /* Shadow Wraith (23091) */
+     , (0x702B0004, 0x702B0011, '2005-02-09 10:00:00') /* Shadow Wraith (23091) */
+     , (0x702B0004, 0x702B0014, '2005-02-09 10:00:00') /* Shadow Wraith (23091) */
+     , (0x702B0004, 0x702B0016, '2005-02-09 10:00:00') /* Bane Grievver (7983) */
+     , (0x702B0004, 0x702B0027, '2005-02-09 10:00:00') /* Bane Grievver (7983) */
+     , (0x702B0004, 0x702B002D, '2005-02-09 10:00:00') /* Bane Grievver (7983) */
+     , (0x702B0004, 0x702B0030, '2005-02-09 10:00:00') /* Bane Grievver (7983) */
+     , (0x702B0004, 0x702B0037, '2005-02-09 10:00:00') /* Bane Grievver (7983) */
+     , (0x702B0004, 0x702B003B, '2005-02-09 10:00:00') /* Shadow Wraith (23091) */
+     , (0x702B0004, 0x702B003C, '2005-02-09 10:00:00') /* Shadow Wraith (23091) */
+     , (0x702B0004, 0x702B0043, '2005-02-09 10:00:00') /* Bane Grievver (7983) */
+     , (0x702B0004, 0x702B004A, '2005-02-09 10:00:00') /* Bane Grievver (7983) */
+     , (0x702B0004, 0x702B004D, '2005-02-09 10:00:00') /* Bane Grievver (7983) */
+     , (0x702B0004, 0x702B004E, '2005-02-09 10:00:00') /* Shadow Wraith (23091) */
+     , (0x702B0004, 0x702B0056, '2005-02-09 10:00:00') /* Bane Grievver (7983) */
+     , (0x702B0004, 0x702B005D, '2005-02-09 10:00:00') /* Bane Grievver (7983) */
+     , (0x702B0004, 0x702B0060, '2005-02-09 10:00:00') /* Shadow Wraith (23091) */
+     , (0x702B0004, 0x702B0066, '2005-02-09 10:00:00') /* Bane Grievver (7983) */
+     , (0x702B0004, 0x702B006B, '2005-02-09 10:00:00') /* Bane Grievver (7983) */
+     , (0x702B0004, 0x702B0072, '2005-02-09 10:00:00') /* Bane Grievver (7983) */
+     , (0x702B0004, 0x702B0073, '2005-02-09 10:00:00') /* Bane Grievver (7983) */
+     , (0x702B0004, 0x702B0079, '2005-02-09 10:00:00') /* Bane Grievver (7983) */
+     , (0x702B0004, 0x702B007B, '2005-02-09 10:00:00') /* Bane Grievver (7983) */
+     , (0x702B0004, 0x702B0086, '2005-02-09 10:00:00') /* Bane Grievver (7983) */
+     , (0x702B0004, 0x702B0093, '2005-02-09 10:00:00') /* Bane Grievver (7983) */
+     , (0x702B0004, 0x702B009A, '2005-02-09 10:00:00') /* Bane Grievver (7983) */
+     , (0x702B0004, 0x702B00A4, '2005-02-09 10:00:00') /* Bane Grievver (7983) */
+     , (0x702B0004, 0x702B00A6, '2005-02-09 10:00:00') /* Bane Grievver (7983) */
+     , (0x702B0004, 0x702B00A8, '2005-02-09 10:00:00') /* Shadow Phantom (23089) */
+     , (0x702B0004, 0x702B00A9, '2005-02-09 10:00:00') /* Shadow Phantom (23089) */
+     , (0x702B0004, 0x702B00AA, '2005-02-09 10:00:00') /* Bane Grievver (7983) */
+     , (0x702B0004, 0x702B00B3, '2005-02-09 10:00:00') /* Shadow Phantom (23089) */
+     , (0x702B0004, 0x702B00B4, '2005-02-09 10:00:00') /* Shadow Phantom (23089) */
+     , (0x702B0004, 0x702B00B5, '2005-02-09 10:00:00') /* Shadow Phantom (23089) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x702B0005,  7925, 0x02B00107, 127.138, -70.4555, -5.995, -0.98877, 0, 0, 0.149446, False, '2005-02-09 10:00:00'); /* Linkable Monster Generator ( 10 Min.) */
@@ -628,8 +628,8 @@ VALUES (0x702B008D,  8410, 0x02B00199, 95.96, -60, 36.005, -0.707107, 0, 0, -0.7
 /* @teleloc 0x02B00199 [95.960000 -60.000000 36.005000] -0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x702B008D, 0x702B008E, '2005-02-09 10:00:00') /* Pressure Plate */
-     , (0x702B008D, 0x702B00BD, '2005-02-09 10:00:00') /* Lever */;
+VALUES (0x702B008D, 0x702B008E, '2005-02-09 10:00:00') /* Pressure Plate (2131) */
+     , (0x702B008D, 0x702B00BD, '2005-02-09 10:00:00') /* Lever (2609) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x702B008E,  2131, 0x02B00199, 98.4876, -60.0173, 36.005, -0.707107, 0, 0, -0.707107,  True, '2005-02-09 10:00:00'); /* Pressure Plate */
@@ -692,7 +692,7 @@ VALUES (0x702B009C,  8410, 0x02B001A5, 115.218, -60, 36.005, -0.707107, 0, 0, -0
 /* @teleloc 0x02B001A5 [115.218000 -60.000000 36.005000] -0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x702B009C, 0x702B003A, '2005-02-09 10:00:00') /* Button */;
+VALUES (0x702B009C, 0x702B003A, '2005-02-09 10:00:00') /* Button (269) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x702B009D,  8887, 0x02B001A5, 116.762, -60.0053, 36.005, 0.732312, 0, 0, 0.680969, False, '2005-02-09 10:00:00'); /* Invisible Shadow Floor Hotspot */
@@ -855,7 +855,7 @@ VALUES (0x702B00C4,  8548, 0x02B0027F, 230, -50, 73.2355, 0.696707, 0, 0, -0.717
 /* @teleloc 0x02B0027F [230.000000 -50.000000 73.235500] 0.696707 0.000000 0.000000 -0.717356 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x702B00C4, 0x702B00C3, '2005-02-09 10:00:00') /* Pressure Plate */;
+VALUES (0x702B00C4, 0x702B00C3, '2005-02-09 10:00:00') /* Pressure Plate (2131) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x702B00C5,  4456, 0x02B00283, 234.413, -50, 72.005, 0.707107, 0, 0, -0.707107, False, '2005-02-09 10:00:00'); /* Door */
@@ -870,7 +870,7 @@ VALUES (0x702B00C7,  7562, 0x02B00289, 230.743, -70.0784, 73.1552, 0.690705, 0, 
 /* @teleloc 0x02B00289 [230.743000 -70.078400 73.155200] 0.690705 0.000000 0.000000 -0.723137 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x702B00C7, 0x702B00C8, '2005-02-09 10:00:00') /* Pressure Plate */;
+VALUES (0x702B00C7, 0x702B00C8, '2005-02-09 10:00:00') /* Pressure Plate (2131) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x702B00C8,  2131, 0x02B00289, 230.813, -70.0009, 72.005, 0.923879, 0, 0, -0.382684,  True, '2005-02-09 10:00:00'); /* Pressure Plate */

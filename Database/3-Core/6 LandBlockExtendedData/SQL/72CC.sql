@@ -41,15 +41,15 @@ VALUES (0x772CC009,  1154, 0x72CC0000, 126.764, 61.4589, 381.127, 0.996105, 0, 0
 /* @teleloc 0x72CC0000 [126.764000 61.458900 381.127000] 0.996105 0.000000 0.000000 0.088175 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x772CC009, 0x772CC000, '2005-02-09 10:00:00') /* Ice Golem */
-     , (0x772CC009, 0x772CC001, '2005-02-09 10:00:00') /* Ice Golem */
-     , (0x772CC009, 0x772CC002, '2005-02-09 10:00:00') /* Ice Golem */
-     , (0x772CC009, 0x772CC003, '2005-02-09 10:00:00') /* Ice Golem */
-     , (0x772CC009, 0x772CC004, '2005-02-09 10:00:00') /* Ice Golem */
-     , (0x772CC009, 0x772CC005, '2005-02-09 10:00:00') /* Ice Golem */
-     , (0x772CC009, 0x772CC006, '2005-02-09 10:00:00') /* Ice Golem */
-     , (0x772CC009, 0x772CC007, '2005-02-09 10:00:00') /* Ice Golem */
-     , (0x772CC009, 0x772CC008, '2005-02-09 10:00:00') /* Ice Golem */;
+VALUES (0x772CC009, 0x772CC000, '2005-02-09 10:00:00') /* Ice Golem (196) */
+     , (0x772CC009, 0x772CC001, '2005-02-09 10:00:00') /* Ice Golem (196) */
+     , (0x772CC009, 0x772CC002, '2005-02-09 10:00:00') /* Ice Golem (196) */
+     , (0x772CC009, 0x772CC003, '2005-02-09 10:00:00') /* Ice Golem (196) */
+     , (0x772CC009, 0x772CC004, '2005-02-09 10:00:00') /* Ice Golem (196) */
+     , (0x772CC009, 0x772CC005, '2005-02-09 10:00:00') /* Ice Golem (196) */
+     , (0x772CC009, 0x772CC006, '2005-02-09 10:00:00') /* Ice Golem (196) */
+     , (0x772CC009, 0x772CC007, '2005-02-09 10:00:00') /* Ice Golem (196) */
+     , (0x772CC009, 0x772CC008, '2005-02-09 10:00:00') /* Ice Golem (196) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x772CC00A,  1104, 0x72CC0000, 132.489, 31.7628, 374.511, 0.997852, 0, 0, 0.0655158, False, '2005-02-09 10:00:00'); /* North Direlands Portal */

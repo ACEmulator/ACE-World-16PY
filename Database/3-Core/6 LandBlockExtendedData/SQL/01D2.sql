@@ -81,7 +81,7 @@ VALUES (0x701D2013,  4098, 0x01D20142, 9.87102, -60.5932, -3.65438, -0.04173, 0,
 /* @teleloc 0x01D20142 [9.871020 -60.593200 -3.654380] -0.041730 0.000000 0.000000 0.999129 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x701D2013, 0x701D2014, '2005-02-09 10:00:00') /* Pressure Plate */;
+VALUES (0x701D2013, 0x701D2014, '2005-02-09 10:00:00') /* Pressure Plate (298) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x701D2014,   298, 0x01D20142, 9.88435, -60.592, -5.995, -0.04173, 0, 0, 0.999129,  True, '2005-02-09 10:00:00'); /* Pressure Plate */
@@ -96,7 +96,7 @@ VALUES (0x701D2016,  4086, 0x01D2014A, 19.8781, -59.9327, -3.60088, -0.022998, 0
 /* @teleloc 0x01D2014A [19.878100 -59.932700 -3.600880] -0.022998 0.000000 0.000000 0.999735 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x701D2016, 0x701D2017, '2005-02-09 10:00:00') /* Pressure Plate */;
+VALUES (0x701D2016, 0x701D2017, '2005-02-09 10:00:00') /* Pressure Plate (298) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x701D2017,   298, 0x01D2014A, 19.9316, -59.9303, -5.995, -0.022998, 0, 0, 0.999735,  True, '2005-02-09 10:00:00'); /* Pressure Plate */
@@ -179,7 +179,7 @@ VALUES (0x701D202A,  4092, 0x01D20211, 109.994, -92.7329, -3.86838, -0.032194, 0
 /* @teleloc 0x01D20211 [109.994000 -92.732900 -3.868380] -0.032194 0.000000 0.000000 -0.999482 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x701D202A, 0x701D202B, '2005-02-09 10:00:00') /* Pressure Plate */;
+VALUES (0x701D202A, 0x701D202B, '2005-02-09 10:00:00') /* Pressure Plate (298) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x701D202B,   298, 0x01D20211, 110.021, -92.7346, -5.995, -0.032194, 0, 0, -0.999482,  True, '2005-02-09 10:00:00'); /* Pressure Plate */
@@ -202,7 +202,7 @@ VALUES (0x701D202F,  4077, 0x01D2022D, 116.198, -99.9614, -3.8015, 0.697506, 0, 
 /* @teleloc 0x01D2022D [116.198000 -99.961400 -3.801500] 0.697506 0.000000 0.000000 -0.716579 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x701D202F, 0x701D202E, '2005-02-09 10:00:00') /* Pressure Plate */;
+VALUES (0x701D202F, 0x701D202E, '2005-02-09 10:00:00') /* Pressure Plate (298) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x701D2030,   298, 0x01D20236, 116.499, -120.897, -5.995, 0.660204, 0, 0, -0.751087,  True, '2005-02-09 10:00:00'); /* Pressure Plate */
@@ -213,7 +213,7 @@ VALUES (0x701D2031,  4086, 0x01D20236, 116.097, -120.36, -3.748, 0.660204, 0, 0,
 /* @teleloc 0x01D20236 [116.097000 -120.360000 -3.748000] 0.660204 0.000000 0.000000 -0.751087 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x701D2031, 0x701D2030, '2005-02-09 10:00:00') /* Pressure Plate */;
+VALUES (0x701D2031, 0x701D2030, '2005-02-09 10:00:00') /* Pressure Plate (298) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x701D2032,  9255, 0x01D20239, 121.712, -129.371, -5.99375, 1, 0, 0, 0,  True, '2005-02-09 10:00:00'); /* Dread Mu-miyah */
@@ -236,7 +236,7 @@ VALUES (0x701D2036, 14548, 0x01D2023A, 123.091, -133.115, -2.95325, 0.426378, 0,
 /* @teleloc 0x01D2023A [123.091000 -133.115000 -2.953250] 0.426378 0.000000 0.000000 -0.904545 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x701D2036, 0x701D2035, '2005-02-09 10:00:00') /* Pressure Plate */;
+VALUES (0x701D2036, 0x701D2035, '2005-02-09 10:00:00') /* Pressure Plate (298) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x701D2037,  5624, 0x01D2023B, 120, -125.25, -6, 1, 0, 0, 0, False, '2005-02-09 10:00:00'); /* Door */
@@ -247,7 +247,7 @@ VALUES (0x701D2038,  4086, 0x01D2023D, 130.114, -84.3148, -3.57413, 0.010631, 0,
 /* @teleloc 0x01D2023D [130.114000 -84.314800 -3.574130] 0.010631 0.000000 0.000000 0.999943 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x701D2038, 0x701D2039, '2005-02-09 10:00:00') /* Pressure Plate */;
+VALUES (0x701D2038, 0x701D2039, '2005-02-09 10:00:00') /* Pressure Plate (298) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x701D2039,   298, 0x01D2023D, 130.177, -84.5034, -5.995, 0.010631, 0, 0, 0.999943,  True, '2005-02-09 10:00:00'); /* Pressure Plate */
@@ -270,7 +270,7 @@ VALUES (0x701D203D,  4077, 0x01D2024E, 128.073, -109.977, -3.86837, -0.686589, 0
 /* @teleloc 0x01D2024E [128.073000 -109.977000 -3.868370] -0.686589 0.000000 0.000000 -0.727046 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x701D203D, 0x701D203E, '2005-02-09 10:00:00') /* Pressure Plate */;
+VALUES (0x701D203D, 0x701D203E, '2005-02-09 10:00:00') /* Pressure Plate (298) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x701D203E,   298, 0x01D2024E, 127.646, -110.015, -5.995, -0.686589, 0, 0, -0.727046,  True, '2005-02-09 10:00:00'); /* Pressure Plate */
@@ -325,8 +325,8 @@ VALUES (0x701D204A,  2180, 0x01D20265, 25.25, -60, 0, -0.707107, 0, 0, -0.707107
 /* @teleloc 0x01D20265 [25.250000 -60.000000 0.000000] -0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x701D204A, 0x701D2042, '2005-02-09 10:00:00') /* Lever */
-     , (0x701D204A, 0x701D2046, '2005-02-09 10:00:00') /* Lever */;
+VALUES (0x701D204A, 0x701D2042, '2005-02-09 10:00:00') /* Lever (286) */
+     , (0x701D204A, 0x701D2046, '2005-02-09 10:00:00') /* Lever (286) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x701D204B,  1914, 0x01D20271, 46.2702, -22.1122, 0, -0.717671, 0, 0, -0.696383, False, '2005-02-09 10:00:00'); /* Chest */
@@ -473,67 +473,67 @@ VALUES (0x701D206E,  7923, 0x01D202F7, 49.9891, -69.9922, 12.005, 0.731689, 0, 0
 /* @teleloc 0x01D202F7 [49.989100 -69.992200 12.005000] 0.731689 0.000000 0.000000 -0.681639 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x701D206E, 0x701D2000, '2005-02-09 10:00:00') /* Dread Mu-miyah */
-     , (0x701D206E, 0x701D2001, '2005-02-09 10:00:00') /* High Mu-miyah */
-     , (0x701D206E, 0x701D2003, '2005-02-09 10:00:00') /* High Mu-miyah */
-     , (0x701D206E, 0x701D2004, '2005-02-09 10:00:00') /* Dread Mu-miyah */
-     , (0x701D206E, 0x701D2007, '2005-02-09 10:00:00') /* Dread Mu-miyah */
-     , (0x701D206E, 0x701D2008, '2005-02-09 10:00:00') /* Dread Mu-miyah */
-     , (0x701D206E, 0x701D200B, '2005-02-09 10:00:00') /* Dread Mu-miyah */
-     , (0x701D206E, 0x701D200D, '2005-02-09 10:00:00') /* Dread Mu-miyah */
-     , (0x701D206E, 0x701D2018, '2005-02-09 10:00:00') /* Dread Mu-miyah */
-     , (0x701D206E, 0x701D2019, '2005-02-09 10:00:00') /* Dread Mu-miyah */
-     , (0x701D206E, 0x701D201A, '2005-02-09 10:00:00') /* Dread Mu-miyah */
-     , (0x701D206E, 0x701D201D, '2005-02-09 10:00:00') /* Dread Mu-miyah */
-     , (0x701D206E, 0x701D201E, '2005-02-09 10:00:00') /* Dread Mu-miyah */
-     , (0x701D206E, 0x701D201F, '2005-02-09 10:00:00') /* Dread Mu-miyah */
-     , (0x701D206E, 0x701D2023, '2005-02-09 10:00:00') /* Dread Mu-miyah */
-     , (0x701D206E, 0x701D2025, '2005-02-09 10:00:00') /* Dread Mu-miyah */
-     , (0x701D206E, 0x701D2026, '2005-02-09 10:00:00') /* Dread Mu-miyah */
-     , (0x701D206E, 0x701D2028, '2005-02-09 10:00:00') /* Dread Mu-miyah */
-     , (0x701D206E, 0x701D2029, '2005-02-09 10:00:00') /* Dread Mu-miyah */
-     , (0x701D206E, 0x701D202C, '2005-02-09 10:00:00') /* Dread Mu-miyah */
-     , (0x701D206E, 0x701D2032, '2005-02-09 10:00:00') /* Dread Mu-miyah */
-     , (0x701D206E, 0x701D2033, '2005-02-09 10:00:00') /* Dread Mu-miyah */
-     , (0x701D206E, 0x701D203A, '2005-02-09 10:00:00') /* Dread Mu-miyah */
-     , (0x701D206E, 0x701D203F, '2005-02-09 10:00:00') /* Dread Mu-miyah */
-     , (0x701D206E, 0x701D2040, '2005-02-09 10:00:00') /* Dread Mu-miyah */
-     , (0x701D206E, 0x701D2043, '2005-02-09 10:00:00') /* Dread Mu-miyah */
-     , (0x701D206E, 0x701D2048, '2005-02-09 10:00:00') /* Dread Mu-miyah */
-     , (0x701D206E, 0x701D2049, '2005-02-09 10:00:00') /* Dread Mu-miyah */
-     , (0x701D206E, 0x701D204C, '2005-02-09 10:00:00') /* Dread Mu-miyah */
-     , (0x701D206E, 0x701D204E, '2005-02-09 10:00:00') /* Dread Mu-miyah */
-     , (0x701D206E, 0x701D204F, '2005-02-09 10:00:00') /* Dread Mu-miyah */
-     , (0x701D206E, 0x701D2052, '2005-02-09 10:00:00') /* Dread Mu-miyah */
-     , (0x701D206E, 0x701D2053, '2005-02-09 10:00:00') /* Dread Mu-miyah */
-     , (0x701D206E, 0x701D2054, '2005-02-09 10:00:00') /* Dread Mu-miyah */
-     , (0x701D206E, 0x701D205B, '2005-02-09 10:00:00') /* Dread Mu-miyah */
-     , (0x701D206E, 0x701D205F, '2005-02-09 10:00:00') /* Dread Mu-miyah */
-     , (0x701D206E, 0x701D2060, '2005-02-09 10:00:00') /* Dread Mu-miyah */
-     , (0x701D206E, 0x701D2061, '2005-02-09 10:00:00') /* Dread Mu-miyah */
-     , (0x701D206E, 0x701D2063, '2005-02-09 10:00:00') /* Dread Mu-miyah */
-     , (0x701D206E, 0x701D2066, '2005-02-09 10:00:00') /* Dread Mu-miyah */
-     , (0x701D206E, 0x701D2068, '2005-02-09 10:00:00') /* Dread Mu-miyah */
-     , (0x701D206E, 0x701D206C, '2005-02-09 10:00:00') /* Dread Mu-miyah */
-     , (0x701D206E, 0x701D2070, '2005-02-09 10:00:00') /* Dread Mu-miyah */
-     , (0x701D206E, 0x701D2072, '2005-02-09 10:00:00') /* Dread Mu-miyah */
-     , (0x701D206E, 0x701D2074, '2005-02-09 10:00:00') /* Dread Mu-miyah */
-     , (0x701D206E, 0x701D2075, '2005-02-09 10:00:00') /* Dread Mu-miyah */
-     , (0x701D206E, 0x701D2078, '2005-02-09 10:00:00') /* Dread Mu-miyah */
-     , (0x701D206E, 0x701D2079, '2005-02-09 10:00:00') /* Dread Mu-miyah */
-     , (0x701D206E, 0x701D207D, '2005-02-09 10:00:00') /* Dread Mu-miyah */
-     , (0x701D206E, 0x701D207F, '2005-02-09 10:00:00') /* Dread Mu-miyah */
-     , (0x701D206E, 0x701D2081, '2005-02-09 10:00:00') /* Dread Mu-miyah */
-     , (0x701D206E, 0x701D2082, '2005-02-09 10:00:00') /* Dread Mu-miyah */
-     , (0x701D206E, 0x701D2085, '2005-02-09 10:00:00') /* Dread Mu-miyah */
-     , (0x701D206E, 0x701D2088, '2005-02-09 10:00:00') /* Dread Mu-miyah */
-     , (0x701D206E, 0x701D2089, '2005-02-09 10:00:00') /* Dread Mu-miyah */
-     , (0x701D206E, 0x701D208B, '2005-02-09 10:00:00') /* Dread Mu-miyah */
-     , (0x701D206E, 0x701D2090, '2005-02-09 10:00:00') /* Dread Mu-miyah */
-     , (0x701D206E, 0x701D2092, '2005-02-09 10:00:00') /* Dread Mu-miyah */
-     , (0x701D206E, 0x701D2094, '2005-02-09 10:00:00') /* Dread Mu-miyah */
-     , (0x701D206E, 0x701D2096, '2005-02-09 10:00:00') /* Dread Mu-miyah */
-     , (0x701D206E, 0x701D2097, '2005-02-09 10:00:00') /* Dread Mu-miyah */;
+VALUES (0x701D206E, 0x701D2000, '2005-02-09 10:00:00') /* Dread Mu-miyah (9255) */
+     , (0x701D206E, 0x701D2001, '2005-02-09 10:00:00') /* High Mu-miyah (7116) */
+     , (0x701D206E, 0x701D2003, '2005-02-09 10:00:00') /* High Mu-miyah (7116) */
+     , (0x701D206E, 0x701D2004, '2005-02-09 10:00:00') /* Dread Mu-miyah (9255) */
+     , (0x701D206E, 0x701D2007, '2005-02-09 10:00:00') /* Dread Mu-miyah (9255) */
+     , (0x701D206E, 0x701D2008, '2005-02-09 10:00:00') /* Dread Mu-miyah (9255) */
+     , (0x701D206E, 0x701D200B, '2005-02-09 10:00:00') /* Dread Mu-miyah (9255) */
+     , (0x701D206E, 0x701D200D, '2005-02-09 10:00:00') /* Dread Mu-miyah (9255) */
+     , (0x701D206E, 0x701D2018, '2005-02-09 10:00:00') /* Dread Mu-miyah (9255) */
+     , (0x701D206E, 0x701D2019, '2005-02-09 10:00:00') /* Dread Mu-miyah (9255) */
+     , (0x701D206E, 0x701D201A, '2005-02-09 10:00:00') /* Dread Mu-miyah (9255) */
+     , (0x701D206E, 0x701D201D, '2005-02-09 10:00:00') /* Dread Mu-miyah (9255) */
+     , (0x701D206E, 0x701D201E, '2005-02-09 10:00:00') /* Dread Mu-miyah (9255) */
+     , (0x701D206E, 0x701D201F, '2005-02-09 10:00:00') /* Dread Mu-miyah (9255) */
+     , (0x701D206E, 0x701D2023, '2005-02-09 10:00:00') /* Dread Mu-miyah (9255) */
+     , (0x701D206E, 0x701D2025, '2005-02-09 10:00:00') /* Dread Mu-miyah (9255) */
+     , (0x701D206E, 0x701D2026, '2005-02-09 10:00:00') /* Dread Mu-miyah (9255) */
+     , (0x701D206E, 0x701D2028, '2005-02-09 10:00:00') /* Dread Mu-miyah (9255) */
+     , (0x701D206E, 0x701D2029, '2005-02-09 10:00:00') /* Dread Mu-miyah (9255) */
+     , (0x701D206E, 0x701D202C, '2005-02-09 10:00:00') /* Dread Mu-miyah (9255) */
+     , (0x701D206E, 0x701D2032, '2005-02-09 10:00:00') /* Dread Mu-miyah (9255) */
+     , (0x701D206E, 0x701D2033, '2005-02-09 10:00:00') /* Dread Mu-miyah (9255) */
+     , (0x701D206E, 0x701D203A, '2005-02-09 10:00:00') /* Dread Mu-miyah (9255) */
+     , (0x701D206E, 0x701D203F, '2005-02-09 10:00:00') /* Dread Mu-miyah (9255) */
+     , (0x701D206E, 0x701D2040, '2005-02-09 10:00:00') /* Dread Mu-miyah (9255) */
+     , (0x701D206E, 0x701D2043, '2005-02-09 10:00:00') /* Dread Mu-miyah (9255) */
+     , (0x701D206E, 0x701D2048, '2005-02-09 10:00:00') /* Dread Mu-miyah (9255) */
+     , (0x701D206E, 0x701D2049, '2005-02-09 10:00:00') /* Dread Mu-miyah (9255) */
+     , (0x701D206E, 0x701D204C, '2005-02-09 10:00:00') /* Dread Mu-miyah (9255) */
+     , (0x701D206E, 0x701D204E, '2005-02-09 10:00:00') /* Dread Mu-miyah (9255) */
+     , (0x701D206E, 0x701D204F, '2005-02-09 10:00:00') /* Dread Mu-miyah (9255) */
+     , (0x701D206E, 0x701D2052, '2005-02-09 10:00:00') /* Dread Mu-miyah (9255) */
+     , (0x701D206E, 0x701D2053, '2005-02-09 10:00:00') /* Dread Mu-miyah (9255) */
+     , (0x701D206E, 0x701D2054, '2005-02-09 10:00:00') /* Dread Mu-miyah (9255) */
+     , (0x701D206E, 0x701D205B, '2005-02-09 10:00:00') /* Dread Mu-miyah (9255) */
+     , (0x701D206E, 0x701D205F, '2005-02-09 10:00:00') /* Dread Mu-miyah (9255) */
+     , (0x701D206E, 0x701D2060, '2005-02-09 10:00:00') /* Dread Mu-miyah (9255) */
+     , (0x701D206E, 0x701D2061, '2005-02-09 10:00:00') /* Dread Mu-miyah (9255) */
+     , (0x701D206E, 0x701D2063, '2005-02-09 10:00:00') /* Dread Mu-miyah (9255) */
+     , (0x701D206E, 0x701D2066, '2005-02-09 10:00:00') /* Dread Mu-miyah (9255) */
+     , (0x701D206E, 0x701D2068, '2005-02-09 10:00:00') /* Dread Mu-miyah (9255) */
+     , (0x701D206E, 0x701D206C, '2005-02-09 10:00:00') /* Dread Mu-miyah (9255) */
+     , (0x701D206E, 0x701D2070, '2005-02-09 10:00:00') /* Dread Mu-miyah (9255) */
+     , (0x701D206E, 0x701D2072, '2005-02-09 10:00:00') /* Dread Mu-miyah (9255) */
+     , (0x701D206E, 0x701D2074, '2005-02-09 10:00:00') /* Dread Mu-miyah (9255) */
+     , (0x701D206E, 0x701D2075, '2005-02-09 10:00:00') /* Dread Mu-miyah (9255) */
+     , (0x701D206E, 0x701D2078, '2005-02-09 10:00:00') /* Dread Mu-miyah (9255) */
+     , (0x701D206E, 0x701D2079, '2005-02-09 10:00:00') /* Dread Mu-miyah (9255) */
+     , (0x701D206E, 0x701D207D, '2005-02-09 10:00:00') /* Dread Mu-miyah (9255) */
+     , (0x701D206E, 0x701D207F, '2005-02-09 10:00:00') /* Dread Mu-miyah (9255) */
+     , (0x701D206E, 0x701D2081, '2005-02-09 10:00:00') /* Dread Mu-miyah (9255) */
+     , (0x701D206E, 0x701D2082, '2005-02-09 10:00:00') /* Dread Mu-miyah (9255) */
+     , (0x701D206E, 0x701D2085, '2005-02-09 10:00:00') /* Dread Mu-miyah (9255) */
+     , (0x701D206E, 0x701D2088, '2005-02-09 10:00:00') /* Dread Mu-miyah (9255) */
+     , (0x701D206E, 0x701D2089, '2005-02-09 10:00:00') /* Dread Mu-miyah (9255) */
+     , (0x701D206E, 0x701D208B, '2005-02-09 10:00:00') /* Dread Mu-miyah (9255) */
+     , (0x701D206E, 0x701D2090, '2005-02-09 10:00:00') /* Dread Mu-miyah (9255) */
+     , (0x701D206E, 0x701D2092, '2005-02-09 10:00:00') /* Dread Mu-miyah (9255) */
+     , (0x701D206E, 0x701D2094, '2005-02-09 10:00:00') /* Dread Mu-miyah (9255) */
+     , (0x701D206E, 0x701D2096, '2005-02-09 10:00:00') /* Dread Mu-miyah (9255) */
+     , (0x701D206E, 0x701D2097, '2005-02-09 10:00:00') /* Dread Mu-miyah (9255) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x701D2070,  9255, 0x01D202F8, 48.7369, -118.746, 12.0063, 0.589373, 0, 0, -0.807861,  True, '2005-02-09 10:00:00'); /* Dread Mu-miyah */
@@ -716,7 +716,7 @@ VALUES (0x701D209C, 15759, 0x01D202A2, 92.944, -50.446, 0.005, -0.71133, 0, 0, -
 /* @teleloc 0x01D202A2 [92.944000 -50.446000 0.005000] -0.711330 0.000000 0.000000 -0.702859 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x701D209C, 0x701D209B, '2005-02-09 10:00:00') /* Alloy Sprocket */;
+VALUES (0x701D209C, 0x701D209B, '2005-02-09 10:00:00') /* Alloy Sprocket (25325) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x701D209D,  9255, 0x01D20101, 0, -90, -11.9937, -0.995808, 0, 0, 0.0914642,  True, '2005-02-09 10:00:00'); /* Dread Mu-miyah */
@@ -919,77 +919,77 @@ VALUES (0x701D20CE,  7923, 0x01D202F7, 49.9716, -70.7525, 12.005, 0.731689, 0, 0
 /* @teleloc 0x01D202F7 [49.971600 -70.752500 12.005000] 0.731689 0.000000 0.000000 -0.681639 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x701D20CE, 0x701D209D, '2005-02-09 10:00:00') /* Dread Mu-miyah */
-     , (0x701D20CE, 0x701D209E, '2005-02-09 10:00:00') /* Dread Mu-miyah */
-     , (0x701D20CE, 0x701D209F, '2005-02-09 10:00:00') /* Dread Mu-miyah */
-     , (0x701D20CE, 0x701D20A0, '2005-02-09 10:00:00') /* Dread Mu-miyah */
-     , (0x701D20CE, 0x701D20A1, '2005-02-09 10:00:00') /* Dread Mu-miyah */
-     , (0x701D20CE, 0x701D20A2, '2005-02-09 10:00:00') /* Dread Mu-miyah */
-     , (0x701D20CE, 0x701D20A3, '2005-02-09 10:00:00') /* Dread Mu-miyah */
-     , (0x701D20CE, 0x701D20A4, '2005-02-09 10:00:00') /* Dread Mu-miyah */
-     , (0x701D20CE, 0x701D20A5, '2005-02-09 10:00:00') /* Dread Mu-miyah */
-     , (0x701D20CE, 0x701D20A6, '2005-02-09 10:00:00') /* Dread Mu-miyah */
-     , (0x701D20CE, 0x701D20A7, '2005-02-09 10:00:00') /* Dread Mu-miyah */
-     , (0x701D20CE, 0x701D20A8, '2005-02-09 10:00:00') /* Dread Mu-miyah */
-     , (0x701D20CE, 0x701D20A9, '2005-02-09 10:00:00') /* Dread Mu-miyah */
-     , (0x701D20CE, 0x701D20AA, '2005-02-09 10:00:00') /* Dread Mu-miyah */
-     , (0x701D20CE, 0x701D20AB, '2005-02-09 10:00:00') /* Dread Mu-miyah */
-     , (0x701D20CE, 0x701D20AC, '2005-02-09 10:00:00') /* Dread Mu-miyah */
-     , (0x701D20CE, 0x701D20AD, '2005-02-09 10:00:00') /* Dread Mu-miyah */
-     , (0x701D20CE, 0x701D20AE, '2005-02-09 10:00:00') /* Dread Mu-miyah */
-     , (0x701D20CE, 0x701D20AF, '2005-02-09 10:00:00') /* Dread Mu-miyah */
-     , (0x701D20CE, 0x701D20B0, '2005-02-09 10:00:00') /* Dread Mu-miyah */
-     , (0x701D20CE, 0x701D20B1, '2005-02-09 10:00:00') /* Dread Mu-miyah */
-     , (0x701D20CE, 0x701D20B2, '2005-02-09 10:00:00') /* Dread Mu-miyah */
-     , (0x701D20CE, 0x701D20B3, '2005-02-09 10:00:00') /* Dread Mu-miyah */
-     , (0x701D20CE, 0x701D20B4, '2005-02-09 10:00:00') /* Dread Mu-miyah */
-     , (0x701D20CE, 0x701D20B5, '2005-02-09 10:00:00') /* Dread Mu-miyah */
-     , (0x701D20CE, 0x701D20B6, '2005-02-09 10:00:00') /* Dread Mu-miyah */
-     , (0x701D20CE, 0x701D20B7, '2005-02-09 10:00:00') /* Dread Mu-miyah */
-     , (0x701D20CE, 0x701D20B8, '2005-02-09 10:00:00') /* Dread Mu-miyah */
-     , (0x701D20CE, 0x701D20B9, '2005-02-09 10:00:00') /* Dread Mu-miyah */
-     , (0x701D20CE, 0x701D20BA, '2005-02-09 10:00:00') /* Dread Mu-miyah */
-     , (0x701D20CE, 0x701D20BB, '2005-02-09 10:00:00') /* Dread Mu-miyah */
-     , (0x701D20CE, 0x701D20BC, '2005-02-09 10:00:00') /* Dread Mu-miyah */
-     , (0x701D20CE, 0x701D20BD, '2005-02-09 10:00:00') /* Dread Mu-miyah */
-     , (0x701D20CE, 0x701D20BE, '2005-02-09 10:00:00') /* Dread Mu-miyah */
-     , (0x701D20CE, 0x701D20BF, '2005-02-09 10:00:00') /* Dread Mu-miyah */
-     , (0x701D20CE, 0x701D20C0, '2005-02-09 10:00:00') /* Dread Mu-miyah */
-     , (0x701D20CE, 0x701D20C1, '2005-02-09 10:00:00') /* Dread Mu-miyah */
-     , (0x701D20CE, 0x701D20C2, '2005-02-09 10:00:00') /* Dread Mu-miyah */
-     , (0x701D20CE, 0x701D20C3, '2005-02-09 10:00:00') /* Dread Mu-miyah */
-     , (0x701D20CE, 0x701D20C4, '2005-02-09 10:00:00') /* Dread Mu-miyah */
-     , (0x701D20CE, 0x701D20C5, '2005-02-09 10:00:00') /* Dread Mu-miyah */
-     , (0x701D20CE, 0x701D20C6, '2005-02-09 10:00:00') /* Dread Mu-miyah */
-     , (0x701D20CE, 0x701D20C7, '2005-02-09 10:00:00') /* Dread Mu-miyah */
-     , (0x701D20CE, 0x701D20C8, '2005-02-09 10:00:00') /* Dread Mu-miyah */
-     , (0x701D20CE, 0x701D20C9, '2005-02-09 10:00:00') /* Dread Mu-miyah */
-     , (0x701D20CE, 0x701D20CA, '2005-02-09 10:00:00') /* Dread Mu-miyah */
-     , (0x701D20CE, 0x701D20CB, '2005-02-09 10:00:00') /* Dread Mu-miyah */
-     , (0x701D20CE, 0x701D20CC, '2005-02-09 10:00:00') /* Dread Mu-miyah */
-     , (0x701D20CE, 0x701D20CD, '2005-02-09 10:00:00') /* Dread Mu-miyah */
-     , (0x701D20CE, 0x701D20CF, '2005-02-09 10:00:00') /* Dread Mu-miyah */
-     , (0x701D20CE, 0x701D20D0, '2005-02-09 10:00:00') /* Dread Mu-miyah */
-     , (0x701D20CE, 0x701D20D1, '2005-02-09 10:00:00') /* Dread Mu-miyah */
-     , (0x701D20CE, 0x701D20D2, '2005-02-09 10:00:00') /* Dread Mu-miyah */
-     , (0x701D20CE, 0x701D20D3, '2005-02-09 10:00:00') /* Dread Mu-miyah */
-     , (0x701D20CE, 0x701D20D4, '2005-02-09 10:00:00') /* Dread Mu-miyah */
-     , (0x701D20CE, 0x701D20D5, '2005-02-09 10:00:00') /* Dread Mu-miyah */
-     , (0x701D20CE, 0x701D20D6, '2005-02-09 10:00:00') /* Dread Mu-miyah */
-     , (0x701D20CE, 0x701D20D7, '2005-02-09 10:00:00') /* Dread Mu-miyah */
-     , (0x701D20CE, 0x701D20D8, '2005-02-09 10:00:00') /* Dread Mu-miyah */
-     , (0x701D20CE, 0x701D20D9, '2005-02-09 10:00:00') /* Dread Mu-miyah */
-     , (0x701D20CE, 0x701D20DA, '2005-02-09 10:00:00') /* Dread Mu-miyah */
-     , (0x701D20CE, 0x701D20DB, '2005-02-09 10:00:00') /* Dread Mu-miyah */
-     , (0x701D20CE, 0x701D20DC, '2005-02-09 10:00:00') /* Dread Mu-miyah */
-     , (0x701D20CE, 0x701D20DD, '2005-02-09 10:00:00') /* Dread Mu-miyah */
-     , (0x701D20CE, 0x701D20DE, '2005-02-09 10:00:00') /* Dread Mu-miyah */
-     , (0x701D20CE, 0x701D20DF, '2005-02-09 10:00:00') /* Dread Mu-miyah */
-     , (0x701D20CE, 0x701D20E0, '2005-02-09 10:00:00') /* Dread Mu-miyah */
-     , (0x701D20CE, 0x701D20E1, '2005-02-09 10:00:00') /* Dread Mu-miyah */
-     , (0x701D20CE, 0x701D20E2, '2005-02-09 10:00:00') /* Dread Mu-miyah */
-     , (0x701D20CE, 0x701D20E3, '2005-02-09 10:00:00') /* Dread Mu-miyah */
-     , (0x701D20CE, 0x701D20E4, '2005-02-09 10:00:00') /* Dread Mu-miyah */;
+VALUES (0x701D20CE, 0x701D209D, '2005-02-09 10:00:00') /* Dread Mu-miyah (9255) */
+     , (0x701D20CE, 0x701D209E, '2005-02-09 10:00:00') /* Dread Mu-miyah (9255) */
+     , (0x701D20CE, 0x701D209F, '2005-02-09 10:00:00') /* Dread Mu-miyah (9255) */
+     , (0x701D20CE, 0x701D20A0, '2005-02-09 10:00:00') /* Dread Mu-miyah (9255) */
+     , (0x701D20CE, 0x701D20A1, '2005-02-09 10:00:00') /* Dread Mu-miyah (9255) */
+     , (0x701D20CE, 0x701D20A2, '2005-02-09 10:00:00') /* Dread Mu-miyah (9255) */
+     , (0x701D20CE, 0x701D20A3, '2005-02-09 10:00:00') /* Dread Mu-miyah (9255) */
+     , (0x701D20CE, 0x701D20A4, '2005-02-09 10:00:00') /* Dread Mu-miyah (9255) */
+     , (0x701D20CE, 0x701D20A5, '2005-02-09 10:00:00') /* Dread Mu-miyah (9255) */
+     , (0x701D20CE, 0x701D20A6, '2005-02-09 10:00:00') /* Dread Mu-miyah (9255) */
+     , (0x701D20CE, 0x701D20A7, '2005-02-09 10:00:00') /* Dread Mu-miyah (9255) */
+     , (0x701D20CE, 0x701D20A8, '2005-02-09 10:00:00') /* Dread Mu-miyah (9255) */
+     , (0x701D20CE, 0x701D20A9, '2005-02-09 10:00:00') /* Dread Mu-miyah (9255) */
+     , (0x701D20CE, 0x701D20AA, '2005-02-09 10:00:00') /* Dread Mu-miyah (9255) */
+     , (0x701D20CE, 0x701D20AB, '2005-02-09 10:00:00') /* Dread Mu-miyah (9255) */
+     , (0x701D20CE, 0x701D20AC, '2005-02-09 10:00:00') /* Dread Mu-miyah (9255) */
+     , (0x701D20CE, 0x701D20AD, '2005-02-09 10:00:00') /* Dread Mu-miyah (9255) */
+     , (0x701D20CE, 0x701D20AE, '2005-02-09 10:00:00') /* Dread Mu-miyah (9255) */
+     , (0x701D20CE, 0x701D20AF, '2005-02-09 10:00:00') /* Dread Mu-miyah (9255) */
+     , (0x701D20CE, 0x701D20B0, '2005-02-09 10:00:00') /* Dread Mu-miyah (9255) */
+     , (0x701D20CE, 0x701D20B1, '2005-02-09 10:00:00') /* Dread Mu-miyah (9255) */
+     , (0x701D20CE, 0x701D20B2, '2005-02-09 10:00:00') /* Dread Mu-miyah (9255) */
+     , (0x701D20CE, 0x701D20B3, '2005-02-09 10:00:00') /* Dread Mu-miyah (9255) */
+     , (0x701D20CE, 0x701D20B4, '2005-02-09 10:00:00') /* Dread Mu-miyah (9255) */
+     , (0x701D20CE, 0x701D20B5, '2005-02-09 10:00:00') /* Dread Mu-miyah (9255) */
+     , (0x701D20CE, 0x701D20B6, '2005-02-09 10:00:00') /* Dread Mu-miyah (9255) */
+     , (0x701D20CE, 0x701D20B7, '2005-02-09 10:00:00') /* Dread Mu-miyah (9255) */
+     , (0x701D20CE, 0x701D20B8, '2005-02-09 10:00:00') /* Dread Mu-miyah (9255) */
+     , (0x701D20CE, 0x701D20B9, '2005-02-09 10:00:00') /* Dread Mu-miyah (9255) */
+     , (0x701D20CE, 0x701D20BA, '2005-02-09 10:00:00') /* Dread Mu-miyah (9255) */
+     , (0x701D20CE, 0x701D20BB, '2005-02-09 10:00:00') /* Dread Mu-miyah (9255) */
+     , (0x701D20CE, 0x701D20BC, '2005-02-09 10:00:00') /* Dread Mu-miyah (9255) */
+     , (0x701D20CE, 0x701D20BD, '2005-02-09 10:00:00') /* Dread Mu-miyah (9255) */
+     , (0x701D20CE, 0x701D20BE, '2005-02-09 10:00:00') /* Dread Mu-miyah (9255) */
+     , (0x701D20CE, 0x701D20BF, '2005-02-09 10:00:00') /* Dread Mu-miyah (9255) */
+     , (0x701D20CE, 0x701D20C0, '2005-02-09 10:00:00') /* Dread Mu-miyah (9255) */
+     , (0x701D20CE, 0x701D20C1, '2005-02-09 10:00:00') /* Dread Mu-miyah (9255) */
+     , (0x701D20CE, 0x701D20C2, '2005-02-09 10:00:00') /* Dread Mu-miyah (9255) */
+     , (0x701D20CE, 0x701D20C3, '2005-02-09 10:00:00') /* Dread Mu-miyah (9255) */
+     , (0x701D20CE, 0x701D20C4, '2005-02-09 10:00:00') /* Dread Mu-miyah (9255) */
+     , (0x701D20CE, 0x701D20C5, '2005-02-09 10:00:00') /* Dread Mu-miyah (9255) */
+     , (0x701D20CE, 0x701D20C6, '2005-02-09 10:00:00') /* Dread Mu-miyah (9255) */
+     , (0x701D20CE, 0x701D20C7, '2005-02-09 10:00:00') /* Dread Mu-miyah (9255) */
+     , (0x701D20CE, 0x701D20C8, '2005-02-09 10:00:00') /* Dread Mu-miyah (9255) */
+     , (0x701D20CE, 0x701D20C9, '2005-02-09 10:00:00') /* Dread Mu-miyah (9255) */
+     , (0x701D20CE, 0x701D20CA, '2005-02-09 10:00:00') /* Dread Mu-miyah (9255) */
+     , (0x701D20CE, 0x701D20CB, '2005-02-09 10:00:00') /* Dread Mu-miyah (9255) */
+     , (0x701D20CE, 0x701D20CC, '2005-02-09 10:00:00') /* Dread Mu-miyah (9255) */
+     , (0x701D20CE, 0x701D20CD, '2005-02-09 10:00:00') /* Dread Mu-miyah (9255) */
+     , (0x701D20CE, 0x701D20CF, '2005-02-09 10:00:00') /* Dread Mu-miyah (9255) */
+     , (0x701D20CE, 0x701D20D0, '2005-02-09 10:00:00') /* Dread Mu-miyah (9255) */
+     , (0x701D20CE, 0x701D20D1, '2005-02-09 10:00:00') /* Dread Mu-miyah (9255) */
+     , (0x701D20CE, 0x701D20D2, '2005-02-09 10:00:00') /* Dread Mu-miyah (9255) */
+     , (0x701D20CE, 0x701D20D3, '2005-02-09 10:00:00') /* Dread Mu-miyah (9255) */
+     , (0x701D20CE, 0x701D20D4, '2005-02-09 10:00:00') /* Dread Mu-miyah (9255) */
+     , (0x701D20CE, 0x701D20D5, '2005-02-09 10:00:00') /* Dread Mu-miyah (9255) */
+     , (0x701D20CE, 0x701D20D6, '2005-02-09 10:00:00') /* Dread Mu-miyah (9255) */
+     , (0x701D20CE, 0x701D20D7, '2005-02-09 10:00:00') /* Dread Mu-miyah (9255) */
+     , (0x701D20CE, 0x701D20D8, '2005-02-09 10:00:00') /* Dread Mu-miyah (9255) */
+     , (0x701D20CE, 0x701D20D9, '2005-02-09 10:00:00') /* Dread Mu-miyah (9255) */
+     , (0x701D20CE, 0x701D20DA, '2005-02-09 10:00:00') /* Dread Mu-miyah (9255) */
+     , (0x701D20CE, 0x701D20DB, '2005-02-09 10:00:00') /* Dread Mu-miyah (9255) */
+     , (0x701D20CE, 0x701D20DC, '2005-02-09 10:00:00') /* Dread Mu-miyah (9255) */
+     , (0x701D20CE, 0x701D20DD, '2005-02-09 10:00:00') /* Dread Mu-miyah (9255) */
+     , (0x701D20CE, 0x701D20DE, '2005-02-09 10:00:00') /* Dread Mu-miyah (9255) */
+     , (0x701D20CE, 0x701D20DF, '2005-02-09 10:00:00') /* Dread Mu-miyah (9255) */
+     , (0x701D20CE, 0x701D20E0, '2005-02-09 10:00:00') /* Dread Mu-miyah (9255) */
+     , (0x701D20CE, 0x701D20E1, '2005-02-09 10:00:00') /* Dread Mu-miyah (9255) */
+     , (0x701D20CE, 0x701D20E2, '2005-02-09 10:00:00') /* Dread Mu-miyah (9255) */
+     , (0x701D20CE, 0x701D20E3, '2005-02-09 10:00:00') /* Dread Mu-miyah (9255) */
+     , (0x701D20CE, 0x701D20E4, '2005-02-09 10:00:00') /* Dread Mu-miyah (9255) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x701D20CF,  9255, 0x01D202FF, 59.0272, -2.16454, 12.0063, 0.938175, 0, 0, -0.346161,  True, '2005-02-09 10:00:00'); /* Dread Mu-miyah */

@@ -17,16 +17,16 @@ VALUES (0x7868C00E,  4219, 0x868C0000, 181.948, 88.5992, 300.005, -0.455532, 0, 
 /* @teleloc 0x868C0000 [181.948000 88.599200 300.005000] -0.455532 0.000000 0.000000 -0.890220 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7868C00E, 0x7868C00F, '2005-02-09 10:00:00') /* Banderling Bandit */
-     , (0x7868C00E, 0x7868C010, '2005-02-09 10:00:00') /* Wily Monouga */
-     , (0x7868C00E, 0x7868C012, '2005-02-09 10:00:00') /* Sewer Rat */
-     , (0x7868C00E, 0x7868C013, '2005-02-09 10:00:00') /* Sewer Rat */
-     , (0x7868C00E, 0x7868C014, '2005-02-09 10:00:00') /* Grizzled Monouga */
-     , (0x7868C00E, 0x7868C015, '2005-02-09 10:00:00') /* Brutish Monouga */
-     , (0x7868C00E, 0x7868C016, '2005-02-09 10:00:00') /* Brutish Monouga */
-     , (0x7868C00E, 0x7868C017, '2005-02-09 10:00:00') /* Brutish Monouga */
-     , (0x7868C00E, 0x7868C018, '2005-02-09 10:00:00') /* Brutish Monouga */
-     , (0x7868C00E, 0x7868C019, '2005-02-09 10:00:00') /* Brutish Monouga */;
+VALUES (0x7868C00E, 0x7868C00F, '2005-02-09 10:00:00') /* Banderling Bandit (22809) */
+     , (0x7868C00E, 0x7868C010, '2005-02-09 10:00:00') /* Wily Monouga (9253) */
+     , (0x7868C00E, 0x7868C012, '2005-02-09 10:00:00') /* Sewer Rat (7106) */
+     , (0x7868C00E, 0x7868C013, '2005-02-09 10:00:00') /* Sewer Rat (7106) */
+     , (0x7868C00E, 0x7868C014, '2005-02-09 10:00:00') /* Grizzled Monouga (28555) */
+     , (0x7868C00E, 0x7868C015, '2005-02-09 10:00:00') /* Brutish Monouga (9251) */
+     , (0x7868C00E, 0x7868C016, '2005-02-09 10:00:00') /* Brutish Monouga (9251) */
+     , (0x7868C00E, 0x7868C017, '2005-02-09 10:00:00') /* Brutish Monouga (9251) */
+     , (0x7868C00E, 0x7868C018, '2005-02-09 10:00:00') /* Brutish Monouga (9251) */
+     , (0x7868C00E, 0x7868C019, '2005-02-09 10:00:00') /* Brutish Monouga (9251) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7868C00F, 22809, 0x868C0000, 175.222, 78.4842, 308.855, 0.977797, 0, 0, 0.209552,  True, '2005-02-09 10:00:00'); /* Banderling Bandit */

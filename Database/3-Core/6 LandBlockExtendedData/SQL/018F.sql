@@ -49,8 +49,8 @@ VALUES (0x7018F00E,  1542, 0x018F011E, 38.3007, -53.6225, -18, -0.707107, 0, 0, 
 /* @teleloc 0x018F011E [38.300700 -53.622500 -18.000000] -0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7018F00E, 0x7018F06C, '2005-02-09 10:00:00') /* Peerless Lockpick */
-     , (0x7018F00E, 0x7018F06D, '2005-02-09 10:00:00') /* Peerless Lockpick */;
+VALUES (0x7018F00E, 0x7018F06C, '2005-02-09 10:00:00') /* Peerless Lockpick (516) */
+     , (0x7018F00E, 0x7018F06D, '2005-02-09 10:00:00') /* Peerless Lockpick (516) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7018F00F,  3647, 0x018F011E, 35.5399, -52.0999, -18, -0.707107, 0, 0, -0.707107, False, '2005-02-09 10:00:00'); /* Worn Chest */
@@ -109,8 +109,8 @@ VALUES (0x7018F01C,  2179, 0x018F0141, 100, -125.25, -18, 1, 0, 0, 0, False, '20
 /* @teleloc 0x018F0141 [100.000000 -125.250000 -18.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7018F01C, 0x7018F01B, '2005-02-09 10:00:00') /* Pressure Plate */
-     , (0x7018F01C, 0x7018F01F, '2005-02-09 10:00:00') /* Pressure Plate */;
+VALUES (0x7018F01C, 0x7018F01B, '2005-02-09 10:00:00') /* Pressure Plate (2131) */
+     , (0x7018F01C, 0x7018F01F, '2005-02-09 10:00:00') /* Pressure Plate (2131) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7018F01D,  1626, 0x018F0149, 113.726, -108.005, -17.988, -4.37114E-08, 0, 0, -1,  True, '2005-02-09 10:00:00'); /* Silver Rat */
@@ -413,85 +413,85 @@ VALUES (0x7018F06E,  4219, 0x018F0250, 56.095, -93.3055, 0.005, 0.00618438, 0, 0
 /* @teleloc 0x018F0250 [56.095000 -93.305500 0.005000] 0.006184 0.000000 0.000000 0.999981 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7018F06E, 0x7018F014, '2005-02-09 10:00:00') /* Skeleton Lord */
-     , (0x7018F06E, 0x7018F015, '2005-02-09 10:00:00') /* Skeleton Lord */
-     , (0x7018F06E, 0x7018F016, '2005-02-09 10:00:00') /* Skeleton Lord */
-     , (0x7018F06E, 0x7018F017, '2005-02-09 10:00:00') /* Skeleton Lord */
-     , (0x7018F06E, 0x7018F018, '2005-02-09 10:00:00') /* Skeleton Lord */
-     , (0x7018F06E, 0x7018F022, '2005-02-09 10:00:00') /* Skeleton Wraith */
-     , (0x7018F06E, 0x7018F030, '2005-02-09 10:00:00') /* Ash Gromnie */
-     , (0x7018F06E, 0x7018F032, '2005-02-09 10:00:00') /* Wild Monouga */
-     , (0x7018F06E, 0x7018F033, '2005-02-09 10:00:00') /* Wild Monouga */
-     , (0x7018F06E, 0x7018F038, '2005-02-09 10:00:00') /* Wild Monouga */
-     , (0x7018F06E, 0x7018F048, '2005-02-09 10:00:00') /* Wild Monouga */
-     , (0x7018F06E, 0x7018F049, '2005-02-09 10:00:00') /* Wild Monouga */
-     , (0x7018F06E, 0x7018F04B, '2005-02-09 10:00:00') /* Wild Monouga */
-     , (0x7018F06E, 0x7018F04C, '2005-02-09 10:00:00') /* Brutish Monouga */
-     , (0x7018F06E, 0x7018F04D, '2005-02-09 10:00:00') /* Wild Monouga */
-     , (0x7018F06E, 0x7018F050, '2005-02-09 10:00:00') /* Brutish Monouga */
-     , (0x7018F06E, 0x7018F051, '2005-02-09 10:00:00') /* Wild Monouga */
-     , (0x7018F06E, 0x7018F053, '2005-02-09 10:00:00') /* Skeleton Lord */
-     , (0x7018F06E, 0x7018F05B, '2005-02-09 10:00:00') /* Wild Monouga */
-     , (0x7018F06E, 0x7018F05C, '2005-02-09 10:00:00') /* Wild Monouga */;
+VALUES (0x7018F06E, 0x7018F014, '2005-02-09 10:00:00') /* Skeleton Lord (7822) */
+     , (0x7018F06E, 0x7018F015, '2005-02-09 10:00:00') /* Skeleton Lord (7822) */
+     , (0x7018F06E, 0x7018F016, '2005-02-09 10:00:00') /* Skeleton Lord (7822) */
+     , (0x7018F06E, 0x7018F017, '2005-02-09 10:00:00') /* Skeleton Lord (7822) */
+     , (0x7018F06E, 0x7018F018, '2005-02-09 10:00:00') /* Skeleton Lord (7822) */
+     , (0x7018F06E, 0x7018F022, '2005-02-09 10:00:00') /* Skeleton Wraith (22208) */
+     , (0x7018F06E, 0x7018F030, '2005-02-09 10:00:00') /* Ash Gromnie (1615) */
+     , (0x7018F06E, 0x7018F032, '2005-02-09 10:00:00') /* Wild Monouga (2576) */
+     , (0x7018F06E, 0x7018F033, '2005-02-09 10:00:00') /* Wild Monouga (2576) */
+     , (0x7018F06E, 0x7018F038, '2005-02-09 10:00:00') /* Wild Monouga (2576) */
+     , (0x7018F06E, 0x7018F048, '2005-02-09 10:00:00') /* Wild Monouga (2576) */
+     , (0x7018F06E, 0x7018F049, '2005-02-09 10:00:00') /* Wild Monouga (2576) */
+     , (0x7018F06E, 0x7018F04B, '2005-02-09 10:00:00') /* Wild Monouga (2576) */
+     , (0x7018F06E, 0x7018F04C, '2005-02-09 10:00:00') /* Brutish Monouga (9251) */
+     , (0x7018F06E, 0x7018F04D, '2005-02-09 10:00:00') /* Wild Monouga (2576) */
+     , (0x7018F06E, 0x7018F050, '2005-02-09 10:00:00') /* Brutish Monouga (9251) */
+     , (0x7018F06E, 0x7018F051, '2005-02-09 10:00:00') /* Wild Monouga (2576) */
+     , (0x7018F06E, 0x7018F053, '2005-02-09 10:00:00') /* Skeleton Lord (7822) */
+     , (0x7018F06E, 0x7018F05B, '2005-02-09 10:00:00') /* Wild Monouga (2576) */
+     , (0x7018F06E, 0x7018F05C, '2005-02-09 10:00:00') /* Wild Monouga (2576) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7018F06F,  4219, 0x018F0250, 56.9112, -93.2692, 0.005, -0.018814, 0, 0, 0.999823, False, '2005-02-09 10:00:00'); /* Linkable Monster Generator ( 7 Min.) */
 /* @teleloc 0x018F0250 [56.911200 -93.269200 0.005000] -0.018814 0.000000 0.000000 0.999823 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7018F06F, 0x7018F001, '2005-02-09 10:00:00') /* Shadow Child */
-     , (0x7018F06F, 0x7018F003, '2005-02-09 10:00:00') /* Shadow Child */
-     , (0x7018F06F, 0x7018F005, '2005-02-09 10:00:00') /* Shadow Child */
-     , (0x7018F06F, 0x7018F006, '2005-02-09 10:00:00') /* Shadow Child */
-     , (0x7018F06F, 0x7018F007, '2005-02-09 10:00:00') /* Shadow Child */
-     , (0x7018F06F, 0x7018F00C, '2005-02-09 10:00:00') /* Ash Gromnie */
-     , (0x7018F06F, 0x7018F010, '2005-02-09 10:00:00') /* Ash Gromnie */
-     , (0x7018F06F, 0x7018F011, '2005-02-09 10:00:00') /* Ash Gromnie */
-     , (0x7018F06F, 0x7018F023, '2005-02-09 10:00:00') /* Skeleton Lord */
-     , (0x7018F06F, 0x7018F024, '2005-02-09 10:00:00') /* Skeleton Lord */
-     , (0x7018F06F, 0x7018F02E, '2005-02-09 10:00:00') /* Ash Gromnie */
-     , (0x7018F06F, 0x7018F03B, '2005-02-09 10:00:00') /* Wild Monouga */
-     , (0x7018F06F, 0x7018F03C, '2005-02-09 10:00:00') /* Wild Monouga */
-     , (0x7018F06F, 0x7018F046, '2005-02-09 10:00:00') /* Ash Gromnie */
-     , (0x7018F06F, 0x7018F054, '2005-02-09 10:00:00') /* Skeleton Wraith */
-     , (0x7018F06F, 0x7018F055, '2005-02-09 10:00:00') /* Skeleton Lord */
-     , (0x7018F06F, 0x7018F057, '2005-02-09 10:00:00') /* Skeleton Lord */
-     , (0x7018F06F, 0x7018F058, '2005-02-09 10:00:00') /* Skeleton Lord */
-     , (0x7018F06F, 0x7018F059, '2005-02-09 10:00:00') /* Skeleton Lord */
-     , (0x7018F06F, 0x7018F05D, '2005-02-09 10:00:00') /* Wild Monouga */;
+VALUES (0x7018F06F, 0x7018F001, '2005-02-09 10:00:00') /* Shadow Child (1756) */
+     , (0x7018F06F, 0x7018F003, '2005-02-09 10:00:00') /* Shadow Child (1756) */
+     , (0x7018F06F, 0x7018F005, '2005-02-09 10:00:00') /* Shadow Child (1756) */
+     , (0x7018F06F, 0x7018F006, '2005-02-09 10:00:00') /* Shadow Child (1756) */
+     , (0x7018F06F, 0x7018F007, '2005-02-09 10:00:00') /* Shadow Child (1756) */
+     , (0x7018F06F, 0x7018F00C, '2005-02-09 10:00:00') /* Ash Gromnie (1615) */
+     , (0x7018F06F, 0x7018F010, '2005-02-09 10:00:00') /* Ash Gromnie (1615) */
+     , (0x7018F06F, 0x7018F011, '2005-02-09 10:00:00') /* Ash Gromnie (1615) */
+     , (0x7018F06F, 0x7018F023, '2005-02-09 10:00:00') /* Skeleton Lord (7822) */
+     , (0x7018F06F, 0x7018F024, '2005-02-09 10:00:00') /* Skeleton Lord (7822) */
+     , (0x7018F06F, 0x7018F02E, '2005-02-09 10:00:00') /* Ash Gromnie (1615) */
+     , (0x7018F06F, 0x7018F03B, '2005-02-09 10:00:00') /* Wild Monouga (2576) */
+     , (0x7018F06F, 0x7018F03C, '2005-02-09 10:00:00') /* Wild Monouga (2576) */
+     , (0x7018F06F, 0x7018F046, '2005-02-09 10:00:00') /* Ash Gromnie (1615) */
+     , (0x7018F06F, 0x7018F054, '2005-02-09 10:00:00') /* Skeleton Wraith (22208) */
+     , (0x7018F06F, 0x7018F055, '2005-02-09 10:00:00') /* Skeleton Lord (7822) */
+     , (0x7018F06F, 0x7018F057, '2005-02-09 10:00:00') /* Skeleton Lord (7822) */
+     , (0x7018F06F, 0x7018F058, '2005-02-09 10:00:00') /* Skeleton Lord (7822) */
+     , (0x7018F06F, 0x7018F059, '2005-02-09 10:00:00') /* Skeleton Lord (7822) */
+     , (0x7018F06F, 0x7018F05D, '2005-02-09 10:00:00') /* Wild Monouga (2576) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7018F070,  4219, 0x018F0250, 57.7201, -93.2297, 0.005, -0.018814, 0, 0, 0.999823, False, '2005-02-09 10:00:00'); /* Linkable Monster Generator ( 7 Min.) */
 /* @teleloc 0x018F0250 [57.720100 -93.229700 0.005000] -0.018814 0.000000 0.000000 0.999823 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7018F070, 0x7018F000, '2005-02-09 10:00:00') /* Shadow */
-     , (0x7018F070, 0x7018F01D, '2005-02-09 10:00:00') /* Silver Rat */
-     , (0x7018F070, 0x7018F026, '2005-02-09 10:00:00') /* Silver Rat */
-     , (0x7018F070, 0x7018F028, '2005-02-09 10:00:00') /* Silver Rat */
-     , (0x7018F070, 0x7018F029, '2005-02-09 10:00:00') /* Silver Rat */
-     , (0x7018F070, 0x7018F02A, '2005-02-09 10:00:00') /* Silver Rat */
-     , (0x7018F070, 0x7018F02D, '2005-02-09 10:00:00') /* Ash Gromnie */
-     , (0x7018F070, 0x7018F03E, '2005-02-09 10:00:00') /* Wild Monouga */
-     , (0x7018F070, 0x7018F041, '2005-02-09 10:00:00') /* Wild Monouga */
-     , (0x7018F070, 0x7018F042, '2005-02-09 10:00:00') /* Wild Monouga */
-     , (0x7018F070, 0x7018F043, '2005-02-09 10:00:00') /* Wild Monouga */
-     , (0x7018F070, 0x7018F044, '2005-02-09 10:00:00') /* Wild Monouga */
-     , (0x7018F070, 0x7018F045, '2005-02-09 10:00:00') /* Wild Monouga */
-     , (0x7018F070, 0x7018F060, '2005-02-09 10:00:00') /* Wild Monouga */
-     , (0x7018F070, 0x7018F063, '2005-02-09 10:00:00') /* Brutish Monouga */
-     , (0x7018F070, 0x7018F065, '2005-02-09 10:00:00') /* Brutish Monouga */
-     , (0x7018F070, 0x7018F066, '2005-02-09 10:00:00') /* Wild Monouga */
-     , (0x7018F070, 0x7018F067, '2005-02-09 10:00:00') /* Wild Monouga */
-     , (0x7018F070, 0x7018F068, '2005-02-09 10:00:00') /* Wild Monouga */
-     , (0x7018F070, 0x7018F069, '2005-02-09 10:00:00') /* Brutish Monouga */;
+VALUES (0x7018F070, 0x7018F000, '2005-02-09 10:00:00') /* Shadow (1758) */
+     , (0x7018F070, 0x7018F01D, '2005-02-09 10:00:00') /* Silver Rat (1626) */
+     , (0x7018F070, 0x7018F026, '2005-02-09 10:00:00') /* Silver Rat (1626) */
+     , (0x7018F070, 0x7018F028, '2005-02-09 10:00:00') /* Silver Rat (1626) */
+     , (0x7018F070, 0x7018F029, '2005-02-09 10:00:00') /* Silver Rat (1626) */
+     , (0x7018F070, 0x7018F02A, '2005-02-09 10:00:00') /* Silver Rat (1626) */
+     , (0x7018F070, 0x7018F02D, '2005-02-09 10:00:00') /* Ash Gromnie (1615) */
+     , (0x7018F070, 0x7018F03E, '2005-02-09 10:00:00') /* Wild Monouga (2576) */
+     , (0x7018F070, 0x7018F041, '2005-02-09 10:00:00') /* Wild Monouga (2576) */
+     , (0x7018F070, 0x7018F042, '2005-02-09 10:00:00') /* Wild Monouga (2576) */
+     , (0x7018F070, 0x7018F043, '2005-02-09 10:00:00') /* Wild Monouga (2576) */
+     , (0x7018F070, 0x7018F044, '2005-02-09 10:00:00') /* Wild Monouga (2576) */
+     , (0x7018F070, 0x7018F045, '2005-02-09 10:00:00') /* Wild Monouga (2576) */
+     , (0x7018F070, 0x7018F060, '2005-02-09 10:00:00') /* Wild Monouga (2576) */
+     , (0x7018F070, 0x7018F063, '2005-02-09 10:00:00') /* Brutish Monouga (9251) */
+     , (0x7018F070, 0x7018F065, '2005-02-09 10:00:00') /* Brutish Monouga (9251) */
+     , (0x7018F070, 0x7018F066, '2005-02-09 10:00:00') /* Wild Monouga (2576) */
+     , (0x7018F070, 0x7018F067, '2005-02-09 10:00:00') /* Wild Monouga (2576) */
+     , (0x7018F070, 0x7018F068, '2005-02-09 10:00:00') /* Wild Monouga (2576) */
+     , (0x7018F070, 0x7018F069, '2005-02-09 10:00:00') /* Brutish Monouga (9251) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7018F071,  4219, 0x018F0250, 58.4838, -93.2466, 0.005, -0.018814, 0, 0, 0.999823, False, '2005-02-09 10:00:00'); /* Linkable Monster Generator ( 7 Min.) */
 /* @teleloc 0x018F0250 [58.483800 -93.246600 0.005000] -0.018814 0.000000 0.000000 0.999823 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7018F071, 0x7018F039, '2005-02-09 10:00:00') /* Brutish Monouga */
-     , (0x7018F071, 0x7018F03A, '2005-02-09 10:00:00') /* Wild Monouga */
-     , (0x7018F071, 0x7018F06A, '2005-02-09 10:00:00') /* Shadow */
-     , (0x7018F071, 0x7018F06B, '2005-02-09 10:00:00') /* Shadow */;
+VALUES (0x7018F071, 0x7018F039, '2005-02-09 10:00:00') /* Brutish Monouga (9251) */
+     , (0x7018F071, 0x7018F03A, '2005-02-09 10:00:00') /* Wild Monouga (2576) */
+     , (0x7018F071, 0x7018F06A, '2005-02-09 10:00:00') /* Shadow (1758) */
+     , (0x7018F071, 0x7018F06B, '2005-02-09 10:00:00') /* Shadow (1758) */;

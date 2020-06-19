@@ -1,6 +1,6 @@
-DELETE FROM `encounter` WHERE `landblock` = 25576;
+DELETE FROM `encounter` WHERE `landblock` = 0x63E8;
 
 INSERT INTO `encounter` (`landblock`, `weenie_Class_Id`, `cell_X`, `cell_Y`, `last_Modified`)
-VALUES (25576, 4583, 1, 1, '2005-02-09 10:00:00') /* High North Plains Generator */
-     , (25576, 4583, 6, 3, '2005-02-09 10:00:00') /* High North Plains Generator */
-     , (25576, 1979, 7, 5, '2005-02-09 10:00:00') /* High North Forest Generator */;
+VALUES (0x63E8, 4583, 1, 1, '2005-02-09 10:00:00') /* High North Plains Generator */
+     , (0x63E8, 4583, 6, 3, '2005-02-09 10:00:00') /* High North Plains Generator */
+     , (0x63E8, 1979, 7, 5, '2005-02-09 10:00:00') /* High North Forest Generator */;

@@ -77,7 +77,7 @@ VALUES (0x7634B012, 15759, 0x634B0138, 66.9315, -62.3988, -47.995, 0.983152, 0, 
 /* @teleloc 0x634B0138 [66.931500 -62.398800 -47.995000] 0.983152 0.000000 0.000000 -0.182789 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7634B012, 0x7634B011, '2005-02-09 10:00:00') /* Blackened Tome */;
+VALUES (0x7634B012, 0x7634B011, '2005-02-09 10:00:00') /* Blackened Tome (27783) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7634B013, 27861, 0x634B013A, 66.34, -73.12, -47.9936, 0.655746, 0, 0, 0.754982,  True, '2005-02-09 10:00:00'); /* Squallid Moarsman */
@@ -100,7 +100,7 @@ VALUES (0x7634B017, 15759, 0x634B014B, 42.3067, -62.2595, -41.07, 0.953633, 0, 0
 /* @teleloc 0x634B014B [42.306700 -62.259500 -41.070000] 0.953633 0.000000 0.000000 0.300971 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7634B017, 0x7634B016, '2005-02-09 10:00:00') /* Rotting Tome */;
+VALUES (0x7634B017, 0x7634B016, '2005-02-09 10:00:00') /* Rotting Tome (27785) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7634B018, 27856, 0x634B0151, 44.6077, -67.027, -41.945, 0.550413, 0, 0, -0.834892,  True, '2005-02-09 10:00:00'); /* Miry Moarsman */
@@ -191,7 +191,7 @@ VALUES (0x7634B02D, 15759, 0x634B01DB, 67.9796, -68.9058, -35.07, 0.145844, 0, 0
 /* @teleloc 0x634B01DB [67.979600 -68.905800 -35.070000] 0.145844 0.000000 0.000000 -0.989308 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7634B02D, 0x7634B02C, '2005-02-09 10:00:00') /* Filthy Tome */;
+VALUES (0x7634B02D, 0x7634B02C, '2005-02-09 10:00:00') /* Filthy Tome (27789) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7634B02E, 27862, 0x634B01DB, 66.2738, -67.425, -35.9936, -0.903829, 0, 0, -0.427894,  True, '2005-02-09 10:00:00'); /* Viscous Moarsman */
@@ -238,7 +238,7 @@ VALUES (0x7634B038, 15759, 0x634B0205, 44.1145, -67.842, -29.995, -0.146838, 0, 
 /* @teleloc 0x634B0205 [44.114500 -67.842000 -29.995000] -0.146838 0.000000 0.000000 0.989161 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7634B038, 0x7634B037, '2005-02-09 10:00:00') /* Decaying Tome */;
+VALUES (0x7634B038, 0x7634B037, '2005-02-09 10:00:00') /* Decaying Tome (27787) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7634B039, 27854, 0x634B020A, 54.5415, -62.2137, -29.945, -0.404972, 0, 0, -0.914329,  True, '2005-02-09 10:00:00'); /* Fetid Moarsman */
@@ -305,7 +305,7 @@ VALUES (0x7634B048, 15759, 0x634B026F, 52.645, -68.3211, -23.995, 0.0198145, 0, 
 /* @teleloc 0x634B026F [52.645000 -68.321100 -23.995000] 0.019815 0.000000 0.000000 0.999804 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7634B048, 0x7634B047, '2005-02-09 10:00:00') /* Muddy Tome */;
+VALUES (0x7634B048, 0x7634B047, '2005-02-09 10:00:00') /* Muddy Tome (27791) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7634B049, 27859, 0x634B0281, 63.5341, -68.267, -23.9936, -0.927204, 0, 0, -0.374556,  True, '2005-02-09 10:00:00'); /* Pallid Moarsman */
@@ -740,45 +740,45 @@ VALUES (0x7634B0B5,  7923, 0x634B0410, 30, -130, 0.005, 1, 0, 0, 0, False, '2005
 /* @teleloc 0x634B0410 [30.000000 -130.000000 0.005000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7634B0B5, 0x7634B023, '2005-02-09 10:00:00') /* Foul Moarsman */
-     , (0x7634B0B5, 0x7634B024, '2005-02-09 10:00:00') /* Disgusting Moarsman */
-     , (0x7634B0B5, 0x7634B025, '2005-02-09 10:00:00') /* Disgusting Moarsman */
-     , (0x7634B0B5, 0x7634B026, '2005-02-09 10:00:00') /* Foul Moarsman */
-     , (0x7634B0B5, 0x7634B027, '2005-02-09 10:00:00') /* Foul Moarsman */
-     , (0x7634B0B5, 0x7634B028, '2005-02-09 10:00:00') /* Viscous Moarsman */
-     , (0x7634B0B5, 0x7634B029, '2005-02-09 10:00:00') /* Foul Moarsman */
-     , (0x7634B0B5, 0x7634B02A, '2005-02-09 10:00:00') /* Viscous Moarsman */
-     , (0x7634B0B5, 0x7634B02B, '2005-02-09 10:00:00') /* Disgusting Moarsman */
-     , (0x7634B0B5, 0x7634B02E, '2005-02-09 10:00:00') /* Viscous Moarsman */
-     , (0x7634B0B5, 0x7634B033, '2005-02-09 10:00:00') /* Foul Moarsman */
-     , (0x7634B0B5, 0x7634B034, '2005-02-09 10:00:00') /* Foul Moarsman */
-     , (0x7634B0B5, 0x7634B04F, '2005-02-09 10:00:00') /* Viscous Moarsman */
-     , (0x7634B0B5, 0x7634B063, '2005-02-09 10:00:00') /* Disgusting Moarsman */
-     , (0x7634B0B5, 0x7634B064, '2005-02-09 10:00:00') /* Viscous Moarsman */
-     , (0x7634B0B5, 0x7634B065, '2005-02-09 10:00:00') /* Foul Moarsman */
-     , (0x7634B0B5, 0x7634B066, '2005-02-09 10:00:00') /* Disgusting Moarsman */
-     , (0x7634B0B5, 0x7634B067, '2005-02-09 10:00:00') /* Foul Moarsman */
-     , (0x7634B0B5, 0x7634B068, '2005-02-09 10:00:00') /* Disgusting Moarsman */
-     , (0x7634B0B5, 0x7634B069, '2005-02-09 10:00:00') /* Foul Moarsman */
-     , (0x7634B0B5, 0x7634B06A, '2005-02-09 10:00:00') /* Viscous Moarsman */
-     , (0x7634B0B5, 0x7634B06B, '2005-02-09 10:00:00') /* Foul Moarsman */
-     , (0x7634B0B5, 0x7634B06C, '2005-02-09 10:00:00') /* Viscous Moarsman */
-     , (0x7634B0B5, 0x7634B06D, '2005-02-09 10:00:00') /* Disgusting Moarsman */
-     , (0x7634B0B5, 0x7634B06E, '2005-02-09 10:00:00') /* Viscous Moarsman */
-     , (0x7634B0B5, 0x7634B06F, '2005-02-09 10:00:00') /* Foul Moarsman */
-     , (0x7634B0B5, 0x7634B070, '2005-02-09 10:00:00') /* Disgusting Moarsman */
-     , (0x7634B0B5, 0x7634B089, '2005-02-09 10:00:00') /* Viscous Moarsman */
-     , (0x7634B0B5, 0x7634B08A, '2005-02-09 10:00:00') /* Disgusting Moarsman */
-     , (0x7634B0B5, 0x7634B08B, '2005-02-09 10:00:00') /* Viscous Moarsman */
-     , (0x7634B0B5, 0x7634B092, '2005-02-09 10:00:00') /* Foul Moarsman */
-     , (0x7634B0B5, 0x7634B093, '2005-02-09 10:00:00') /* Disgusting Moarsman */
-     , (0x7634B0B5, 0x7634B097, '2005-02-09 10:00:00') /* Foul Moarsman */
-     , (0x7634B0B5, 0x7634B098, '2005-02-09 10:00:00') /* Foul Moarsman */
-     , (0x7634B0B5, 0x7634B099, '2005-02-09 10:00:00') /* Foul Moarsman */
-     , (0x7634B0B5, 0x7634B09A, '2005-02-09 10:00:00') /* Viscous Moarsman */
-     , (0x7634B0B5, 0x7634B09D, '2005-02-09 10:00:00') /* Foul Moarsman */
-     , (0x7634B0B5, 0x7634B09F, '2005-02-09 10:00:00') /* Disgusting Moarsman */
-     , (0x7634B0B5, 0x7634B0A0, '2005-02-09 10:00:00') /* Foul Moarsman */;
+VALUES (0x7634B0B5, 0x7634B023, '2005-02-09 10:00:00') /* Foul Moarsman (4247) */
+     , (0x7634B0B5, 0x7634B024, '2005-02-09 10:00:00') /* Disgusting Moarsman (27853) */
+     , (0x7634B0B5, 0x7634B025, '2005-02-09 10:00:00') /* Disgusting Moarsman (27853) */
+     , (0x7634B0B5, 0x7634B026, '2005-02-09 10:00:00') /* Foul Moarsman (4247) */
+     , (0x7634B0B5, 0x7634B027, '2005-02-09 10:00:00') /* Foul Moarsman (4247) */
+     , (0x7634B0B5, 0x7634B028, '2005-02-09 10:00:00') /* Viscous Moarsman (27862) */
+     , (0x7634B0B5, 0x7634B029, '2005-02-09 10:00:00') /* Foul Moarsman (4247) */
+     , (0x7634B0B5, 0x7634B02A, '2005-02-09 10:00:00') /* Viscous Moarsman (27862) */
+     , (0x7634B0B5, 0x7634B02B, '2005-02-09 10:00:00') /* Disgusting Moarsman (27853) */
+     , (0x7634B0B5, 0x7634B02E, '2005-02-09 10:00:00') /* Viscous Moarsman (27862) */
+     , (0x7634B0B5, 0x7634B033, '2005-02-09 10:00:00') /* Foul Moarsman (4247) */
+     , (0x7634B0B5, 0x7634B034, '2005-02-09 10:00:00') /* Foul Moarsman (4247) */
+     , (0x7634B0B5, 0x7634B04F, '2005-02-09 10:00:00') /* Viscous Moarsman (27862) */
+     , (0x7634B0B5, 0x7634B063, '2005-02-09 10:00:00') /* Disgusting Moarsman (27853) */
+     , (0x7634B0B5, 0x7634B064, '2005-02-09 10:00:00') /* Viscous Moarsman (27862) */
+     , (0x7634B0B5, 0x7634B065, '2005-02-09 10:00:00') /* Foul Moarsman (4247) */
+     , (0x7634B0B5, 0x7634B066, '2005-02-09 10:00:00') /* Disgusting Moarsman (27853) */
+     , (0x7634B0B5, 0x7634B067, '2005-02-09 10:00:00') /* Foul Moarsman (4247) */
+     , (0x7634B0B5, 0x7634B068, '2005-02-09 10:00:00') /* Disgusting Moarsman (27853) */
+     , (0x7634B0B5, 0x7634B069, '2005-02-09 10:00:00') /* Foul Moarsman (4247) */
+     , (0x7634B0B5, 0x7634B06A, '2005-02-09 10:00:00') /* Viscous Moarsman (27862) */
+     , (0x7634B0B5, 0x7634B06B, '2005-02-09 10:00:00') /* Foul Moarsman (4247) */
+     , (0x7634B0B5, 0x7634B06C, '2005-02-09 10:00:00') /* Viscous Moarsman (27862) */
+     , (0x7634B0B5, 0x7634B06D, '2005-02-09 10:00:00') /* Disgusting Moarsman (27853) */
+     , (0x7634B0B5, 0x7634B06E, '2005-02-09 10:00:00') /* Viscous Moarsman (27862) */
+     , (0x7634B0B5, 0x7634B06F, '2005-02-09 10:00:00') /* Foul Moarsman (4247) */
+     , (0x7634B0B5, 0x7634B070, '2005-02-09 10:00:00') /* Disgusting Moarsman (27853) */
+     , (0x7634B0B5, 0x7634B089, '2005-02-09 10:00:00') /* Viscous Moarsman (27862) */
+     , (0x7634B0B5, 0x7634B08A, '2005-02-09 10:00:00') /* Disgusting Moarsman (27853) */
+     , (0x7634B0B5, 0x7634B08B, '2005-02-09 10:00:00') /* Viscous Moarsman (27862) */
+     , (0x7634B0B5, 0x7634B092, '2005-02-09 10:00:00') /* Foul Moarsman (4247) */
+     , (0x7634B0B5, 0x7634B093, '2005-02-09 10:00:00') /* Disgusting Moarsman (27853) */
+     , (0x7634B0B5, 0x7634B097, '2005-02-09 10:00:00') /* Foul Moarsman (4247) */
+     , (0x7634B0B5, 0x7634B098, '2005-02-09 10:00:00') /* Foul Moarsman (4247) */
+     , (0x7634B0B5, 0x7634B099, '2005-02-09 10:00:00') /* Foul Moarsman (4247) */
+     , (0x7634B0B5, 0x7634B09A, '2005-02-09 10:00:00') /* Viscous Moarsman (27862) */
+     , (0x7634B0B5, 0x7634B09D, '2005-02-09 10:00:00') /* Foul Moarsman (4247) */
+     , (0x7634B0B5, 0x7634B09F, '2005-02-09 10:00:00') /* Disgusting Moarsman (27853) */
+     , (0x7634B0B5, 0x7634B0A0, '2005-02-09 10:00:00') /* Foul Moarsman (4247) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7634B0B6, 27861, 0x634B0418, 39.7936, -31.8587, 0.105, 0.00879639, 0, 0, 0.999961,  True, '2005-02-09 10:00:00'); /* Squallid Moarsman */
@@ -809,87 +809,87 @@ VALUES (0x7634B0BC,  7923, 0x634B043E, 40, -130, 0.005, 1, 0, 0, 0, False, '2005
 /* @teleloc 0x634B043E [40.000000 -130.000000 0.005000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7634B0BC, 0x7634B000, '2005-02-09 10:00:00') /* Filth Dweller */
-     , (0x7634B0BC, 0x7634B001, '2005-02-09 10:00:00') /* Desolation Moarsman */
-     , (0x7634B0BC, 0x7634B002, '2005-02-09 10:00:00') /* Squallid Moarsman */
-     , (0x7634B0BC, 0x7634B003, '2005-02-09 10:00:00') /* Squallid Moarsman */
-     , (0x7634B0BC, 0x7634B004, '2005-02-09 10:00:00') /* Desolation Moarsman */
-     , (0x7634B0BC, 0x7634B005, '2005-02-09 10:00:00') /* Filth Dweller */
-     , (0x7634B0BC, 0x7634B006, '2005-02-09 10:00:00') /* Filth Dweller */
-     , (0x7634B0BC, 0x7634B007, '2005-02-09 10:00:00') /* Desolation Moarsman */
-     , (0x7634B0BC, 0x7634B008, '2005-02-09 10:00:00') /* Desolation Moarsman */
-     , (0x7634B0BC, 0x7634B009, '2005-02-09 10:00:00') /* Filth Dweller */
-     , (0x7634B0BC, 0x7634B00A, '2005-02-09 10:00:00') /* Squallid Moarsman */
-     , (0x7634B0BC, 0x7634B00B, '2005-02-09 10:00:00') /* Desolation Moarsman */
-     , (0x7634B0BC, 0x7634B00C, '2005-02-09 10:00:00') /* Filth Dweller */
-     , (0x7634B0BC, 0x7634B00D, '2005-02-09 10:00:00') /* Filth Dweller */
-     , (0x7634B0BC, 0x7634B00E, '2005-02-09 10:00:00') /* Squallid Moarsman */
-     , (0x7634B0BC, 0x7634B00F, '2005-02-09 10:00:00') /* Desolation Moarsman */
-     , (0x7634B0BC, 0x7634B010, '2005-02-09 10:00:00') /* Squallid Moarsman */
-     , (0x7634B0BC, 0x7634B013, '2005-02-09 10:00:00') /* Squallid Moarsman */
-     , (0x7634B0BC, 0x7634B014, '2005-02-09 10:00:00') /* Desolation Moarsman */
-     , (0x7634B0BC, 0x7634B015, '2005-02-09 10:00:00') /* Squallid Moarsman */
-     , (0x7634B0BC, 0x7634B031, '2005-02-09 10:00:00') /* Desolation Moarsman */
-     , (0x7634B0BC, 0x7634B032, '2005-02-09 10:00:00') /* Desolation Moarsman */
-     , (0x7634B0BC, 0x7634B042, '2005-02-09 10:00:00') /* Filth Dweller */
-     , (0x7634B0BC, 0x7634B04D, '2005-02-09 10:00:00') /* Squallid Moarsman */
-     , (0x7634B0BC, 0x7634B04E, '2005-02-09 10:00:00') /* Filth Dweller */
-     , (0x7634B0BC, 0x7634B05C, '2005-02-09 10:00:00') /* Squallid Moarsman */
-     , (0x7634B0BC, 0x7634B05E, '2005-02-09 10:00:00') /* Squallid Moarsman */
-     , (0x7634B0BC, 0x7634B05F, '2005-02-09 10:00:00') /* Desolation Moarsman */
-     , (0x7634B0BC, 0x7634B061, '2005-02-09 10:00:00') /* Desolation Moarsman */
-     , (0x7634B0BC, 0x7634B088, '2005-02-09 10:00:00') /* Squallid Moarsman */
-     , (0x7634B0BC, 0x7634B08D, '2005-02-09 10:00:00') /* Filth Dweller */
-     , (0x7634B0BC, 0x7634B08E, '2005-02-09 10:00:00') /* Desolation Moarsman */
-     , (0x7634B0BC, 0x7634B091, '2005-02-09 10:00:00') /* Filth Dweller */
-     , (0x7634B0BC, 0x7634B094, '2005-02-09 10:00:00') /* Squallid Moarsman */
-     , (0x7634B0BC, 0x7634B096, '2005-02-09 10:00:00') /* Desolation Moarsman */
-     , (0x7634B0BC, 0x7634B0AF, '2005-02-09 10:00:00') /* Desolation Moarsman */
-     , (0x7634B0BC, 0x7634B0B1, '2005-02-09 10:00:00') /* Filth Dweller */
-     , (0x7634B0BC, 0x7634B0B2, '2005-02-09 10:00:00') /* Squallid Moarsman */
-     , (0x7634B0BC, 0x7634B0B3, '2005-02-09 10:00:00') /* Desolation Moarsman */
-     , (0x7634B0BC, 0x7634B0B4, '2005-02-09 10:00:00') /* Desolation Moarsman */
-     , (0x7634B0BC, 0x7634B0B6, '2005-02-09 10:00:00') /* Squallid Moarsman */
-     , (0x7634B0BC, 0x7634B0B7, '2005-02-09 10:00:00') /* Desolation Moarsman */
-     , (0x7634B0BC, 0x7634B0B8, '2005-02-09 10:00:00') /* Desolation Moarsman */
-     , (0x7634B0BC, 0x7634B0BB, '2005-02-09 10:00:00') /* Desolation Moarsman */;
+VALUES (0x7634B0BC, 0x7634B000, '2005-02-09 10:00:00') /* Filth Dweller (27855) */
+     , (0x7634B0BC, 0x7634B001, '2005-02-09 10:00:00') /* Desolation Moarsman (7181) */
+     , (0x7634B0BC, 0x7634B002, '2005-02-09 10:00:00') /* Squallid Moarsman (27861) */
+     , (0x7634B0BC, 0x7634B003, '2005-02-09 10:00:00') /* Squallid Moarsman (27861) */
+     , (0x7634B0BC, 0x7634B004, '2005-02-09 10:00:00') /* Desolation Moarsman (7181) */
+     , (0x7634B0BC, 0x7634B005, '2005-02-09 10:00:00') /* Filth Dweller (27855) */
+     , (0x7634B0BC, 0x7634B006, '2005-02-09 10:00:00') /* Filth Dweller (27855) */
+     , (0x7634B0BC, 0x7634B007, '2005-02-09 10:00:00') /* Desolation Moarsman (7181) */
+     , (0x7634B0BC, 0x7634B008, '2005-02-09 10:00:00') /* Desolation Moarsman (7181) */
+     , (0x7634B0BC, 0x7634B009, '2005-02-09 10:00:00') /* Filth Dweller (27855) */
+     , (0x7634B0BC, 0x7634B00A, '2005-02-09 10:00:00') /* Squallid Moarsman (27861) */
+     , (0x7634B0BC, 0x7634B00B, '2005-02-09 10:00:00') /* Desolation Moarsman (7181) */
+     , (0x7634B0BC, 0x7634B00C, '2005-02-09 10:00:00') /* Filth Dweller (27855) */
+     , (0x7634B0BC, 0x7634B00D, '2005-02-09 10:00:00') /* Filth Dweller (27855) */
+     , (0x7634B0BC, 0x7634B00E, '2005-02-09 10:00:00') /* Squallid Moarsman (27861) */
+     , (0x7634B0BC, 0x7634B00F, '2005-02-09 10:00:00') /* Desolation Moarsman (7181) */
+     , (0x7634B0BC, 0x7634B010, '2005-02-09 10:00:00') /* Squallid Moarsman (27861) */
+     , (0x7634B0BC, 0x7634B013, '2005-02-09 10:00:00') /* Squallid Moarsman (27861) */
+     , (0x7634B0BC, 0x7634B014, '2005-02-09 10:00:00') /* Desolation Moarsman (7181) */
+     , (0x7634B0BC, 0x7634B015, '2005-02-09 10:00:00') /* Squallid Moarsman (27861) */
+     , (0x7634B0BC, 0x7634B031, '2005-02-09 10:00:00') /* Desolation Moarsman (7181) */
+     , (0x7634B0BC, 0x7634B032, '2005-02-09 10:00:00') /* Desolation Moarsman (7181) */
+     , (0x7634B0BC, 0x7634B042, '2005-02-09 10:00:00') /* Filth Dweller (27855) */
+     , (0x7634B0BC, 0x7634B04D, '2005-02-09 10:00:00') /* Squallid Moarsman (27861) */
+     , (0x7634B0BC, 0x7634B04E, '2005-02-09 10:00:00') /* Filth Dweller (27855) */
+     , (0x7634B0BC, 0x7634B05C, '2005-02-09 10:00:00') /* Squallid Moarsman (27861) */
+     , (0x7634B0BC, 0x7634B05E, '2005-02-09 10:00:00') /* Squallid Moarsman (27861) */
+     , (0x7634B0BC, 0x7634B05F, '2005-02-09 10:00:00') /* Desolation Moarsman (7181) */
+     , (0x7634B0BC, 0x7634B061, '2005-02-09 10:00:00') /* Desolation Moarsman (7181) */
+     , (0x7634B0BC, 0x7634B088, '2005-02-09 10:00:00') /* Squallid Moarsman (27861) */
+     , (0x7634B0BC, 0x7634B08D, '2005-02-09 10:00:00') /* Filth Dweller (27855) */
+     , (0x7634B0BC, 0x7634B08E, '2005-02-09 10:00:00') /* Desolation Moarsman (7181) */
+     , (0x7634B0BC, 0x7634B091, '2005-02-09 10:00:00') /* Filth Dweller (27855) */
+     , (0x7634B0BC, 0x7634B094, '2005-02-09 10:00:00') /* Squallid Moarsman (27861) */
+     , (0x7634B0BC, 0x7634B096, '2005-02-09 10:00:00') /* Desolation Moarsman (7181) */
+     , (0x7634B0BC, 0x7634B0AF, '2005-02-09 10:00:00') /* Desolation Moarsman (7181) */
+     , (0x7634B0BC, 0x7634B0B1, '2005-02-09 10:00:00') /* Filth Dweller (27855) */
+     , (0x7634B0BC, 0x7634B0B2, '2005-02-09 10:00:00') /* Squallid Moarsman (27861) */
+     , (0x7634B0BC, 0x7634B0B3, '2005-02-09 10:00:00') /* Desolation Moarsman (7181) */
+     , (0x7634B0BC, 0x7634B0B4, '2005-02-09 10:00:00') /* Desolation Moarsman (7181) */
+     , (0x7634B0BC, 0x7634B0B6, '2005-02-09 10:00:00') /* Squallid Moarsman (27861) */
+     , (0x7634B0BC, 0x7634B0B7, '2005-02-09 10:00:00') /* Desolation Moarsman (7181) */
+     , (0x7634B0BC, 0x7634B0B8, '2005-02-09 10:00:00') /* Desolation Moarsman (7181) */
+     , (0x7634B0BC, 0x7634B0BB, '2005-02-09 10:00:00') /* Desolation Moarsman (7181) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7634B0BD,  7923, 0x634B044A, 50, -130, 0.005, 1, 0, 0, 0, False, '2005-02-09 10:00:00'); /* Linkable Monster Generator ( 3 Min.) */
 /* @teleloc 0x634B044A [50.000000 -130.000000 0.005000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7634B0BD, 0x7634B035, '2005-02-09 10:00:00') /* Fetid Moarsman */
-     , (0x7634B0BD, 0x7634B036, '2005-02-09 10:00:00') /* Rank Moarsman */
-     , (0x7634B0BD, 0x7634B039, '2005-02-09 10:00:00') /* Fetid Moarsman */
-     , (0x7634B0BD, 0x7634B03A, '2005-02-09 10:00:00') /* Rank Moarsman */
-     , (0x7634B0BD, 0x7634B03B, '2005-02-09 10:00:00') /* Muculent Moarsman */
-     , (0x7634B0BD, 0x7634B03C, '2005-02-09 10:00:00') /* Rank Moarsman */
-     , (0x7634B0BD, 0x7634B03D, '2005-02-09 10:00:00') /* Muculent Moarsman */
-     , (0x7634B0BD, 0x7634B03E, '2005-02-09 10:00:00') /* Rank Moarsman */
-     , (0x7634B0BD, 0x7634B03F, '2005-02-09 10:00:00') /* Rank Moarsman */
-     , (0x7634B0BD, 0x7634B040, '2005-02-09 10:00:00') /* Muculent Moarsman */
-     , (0x7634B0BD, 0x7634B041, '2005-02-09 10:00:00') /* Rank Moarsman */
-     , (0x7634B0BD, 0x7634B051, '2005-02-09 10:00:00') /* Fetid Moarsman */
-     , (0x7634B0BD, 0x7634B056, '2005-02-09 10:00:00') /* Muculent Moarsman */
-     , (0x7634B0BD, 0x7634B057, '2005-02-09 10:00:00') /* Muculent Moarsman */
-     , (0x7634B0BD, 0x7634B058, '2005-02-09 10:00:00') /* Rank Moarsman */
-     , (0x7634B0BD, 0x7634B059, '2005-02-09 10:00:00') /* Rank Moarsman */
-     , (0x7634B0BD, 0x7634B05A, '2005-02-09 10:00:00') /* Fetid Moarsman */
-     , (0x7634B0BD, 0x7634B05B, '2005-02-09 10:00:00') /* Muculent Moarsman */
-     , (0x7634B0BD, 0x7634B074, '2005-02-09 10:00:00') /* Muculent Moarsman */
-     , (0x7634B0BD, 0x7634B075, '2005-02-09 10:00:00') /* Rank Moarsman */
-     , (0x7634B0BD, 0x7634B076, '2005-02-09 10:00:00') /* Rank Moarsman */
-     , (0x7634B0BD, 0x7634B077, '2005-02-09 10:00:00') /* Muculent Moarsman */
-     , (0x7634B0BD, 0x7634B078, '2005-02-09 10:00:00') /* Fetid Moarsman */
-     , (0x7634B0BD, 0x7634B079, '2005-02-09 10:00:00') /* Muculent Moarsman */
-     , (0x7634B0BD, 0x7634B07A, '2005-02-09 10:00:00') /* Rank Moarsman */
-     , (0x7634B0BD, 0x7634B07B, '2005-02-09 10:00:00') /* Fetid Moarsman */
-     , (0x7634B0BD, 0x7634B082, '2005-02-09 10:00:00') /* Rank Moarsman */
-     , (0x7634B0BD, 0x7634B083, '2005-02-09 10:00:00') /* Muculent Moarsman */
-     , (0x7634B0BD, 0x7634B084, '2005-02-09 10:00:00') /* Fetid Moarsman */
-     , (0x7634B0BD, 0x7634B0B9, '2005-02-09 10:00:00') /* Rank Moarsman */
-     , (0x7634B0BD, 0x7634B0BA, '2005-02-09 10:00:00') /* Rank Moarsman */;
+VALUES (0x7634B0BD, 0x7634B035, '2005-02-09 10:00:00') /* Fetid Moarsman (27854) */
+     , (0x7634B0BD, 0x7634B036, '2005-02-09 10:00:00') /* Rank Moarsman (4246) */
+     , (0x7634B0BD, 0x7634B039, '2005-02-09 10:00:00') /* Fetid Moarsman (27854) */
+     , (0x7634B0BD, 0x7634B03A, '2005-02-09 10:00:00') /* Rank Moarsman (4246) */
+     , (0x7634B0BD, 0x7634B03B, '2005-02-09 10:00:00') /* Muculent Moarsman (27858) */
+     , (0x7634B0BD, 0x7634B03C, '2005-02-09 10:00:00') /* Rank Moarsman (4246) */
+     , (0x7634B0BD, 0x7634B03D, '2005-02-09 10:00:00') /* Muculent Moarsman (27858) */
+     , (0x7634B0BD, 0x7634B03E, '2005-02-09 10:00:00') /* Rank Moarsman (4246) */
+     , (0x7634B0BD, 0x7634B03F, '2005-02-09 10:00:00') /* Rank Moarsman (4246) */
+     , (0x7634B0BD, 0x7634B040, '2005-02-09 10:00:00') /* Muculent Moarsman (27858) */
+     , (0x7634B0BD, 0x7634B041, '2005-02-09 10:00:00') /* Rank Moarsman (4246) */
+     , (0x7634B0BD, 0x7634B051, '2005-02-09 10:00:00') /* Fetid Moarsman (27854) */
+     , (0x7634B0BD, 0x7634B056, '2005-02-09 10:00:00') /* Muculent Moarsman (27858) */
+     , (0x7634B0BD, 0x7634B057, '2005-02-09 10:00:00') /* Muculent Moarsman (27858) */
+     , (0x7634B0BD, 0x7634B058, '2005-02-09 10:00:00') /* Rank Moarsman (4246) */
+     , (0x7634B0BD, 0x7634B059, '2005-02-09 10:00:00') /* Rank Moarsman (4246) */
+     , (0x7634B0BD, 0x7634B05A, '2005-02-09 10:00:00') /* Fetid Moarsman (27854) */
+     , (0x7634B0BD, 0x7634B05B, '2005-02-09 10:00:00') /* Muculent Moarsman (27858) */
+     , (0x7634B0BD, 0x7634B074, '2005-02-09 10:00:00') /* Muculent Moarsman (27858) */
+     , (0x7634B0BD, 0x7634B075, '2005-02-09 10:00:00') /* Rank Moarsman (4246) */
+     , (0x7634B0BD, 0x7634B076, '2005-02-09 10:00:00') /* Rank Moarsman (4246) */
+     , (0x7634B0BD, 0x7634B077, '2005-02-09 10:00:00') /* Muculent Moarsman (27858) */
+     , (0x7634B0BD, 0x7634B078, '2005-02-09 10:00:00') /* Fetid Moarsman (27854) */
+     , (0x7634B0BD, 0x7634B079, '2005-02-09 10:00:00') /* Muculent Moarsman (27858) */
+     , (0x7634B0BD, 0x7634B07A, '2005-02-09 10:00:00') /* Rank Moarsman (4246) */
+     , (0x7634B0BD, 0x7634B07B, '2005-02-09 10:00:00') /* Fetid Moarsman (27854) */
+     , (0x7634B0BD, 0x7634B082, '2005-02-09 10:00:00') /* Rank Moarsman (4246) */
+     , (0x7634B0BD, 0x7634B083, '2005-02-09 10:00:00') /* Muculent Moarsman (27858) */
+     , (0x7634B0BD, 0x7634B084, '2005-02-09 10:00:00') /* Fetid Moarsman (27854) */
+     , (0x7634B0BD, 0x7634B0B9, '2005-02-09 10:00:00') /* Rank Moarsman (4246) */
+     , (0x7634B0BD, 0x7634B0BA, '2005-02-09 10:00:00') /* Rank Moarsman (4246) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7634B0BE, 27856, 0x634B0452, 59.8936, -33.9262, 0.038941, 0.00591072, 0, 0, -0.999983,  True, '2005-02-09 10:00:00'); /* Miry Moarsman */
@@ -912,42 +912,42 @@ VALUES (0x7634B0C2,  7923, 0x634B0478, 60, -130, 0.005, 1, 0, 0, 0, False, '2005
 /* @teleloc 0x634B0478 [60.000000 -130.000000 0.005000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7634B0C2, 0x7634B018, '2005-02-09 10:00:00') /* Miry Moarsman */
-     , (0x7634B0C2, 0x7634B019, '2005-02-09 10:00:00') /* Putrid Moarsman */
-     , (0x7634B0C2, 0x7634B01A, '2005-02-09 10:00:00') /* Muck Glutton */
-     , (0x7634B0C2, 0x7634B01B, '2005-02-09 10:00:00') /* Muck Glutton */
-     , (0x7634B0C2, 0x7634B01C, '2005-02-09 10:00:00') /* Miry Moarsman */
-     , (0x7634B0C2, 0x7634B01D, '2005-02-09 10:00:00') /* Muck Glutton */
-     , (0x7634B0C2, 0x7634B01E, '2005-02-09 10:00:00') /* Miry Moarsman */
-     , (0x7634B0C2, 0x7634B01F, '2005-02-09 10:00:00') /* Muck Glutton */
-     , (0x7634B0C2, 0x7634B020, '2005-02-09 10:00:00') /* Muck Glutton */
-     , (0x7634B0C2, 0x7634B021, '2005-02-09 10:00:00') /* Putrid Moarsman */
-     , (0x7634B0C2, 0x7634B022, '2005-02-09 10:00:00') /* Putrid Moarsman */
-     , (0x7634B0C2, 0x7634B02F, '2005-02-09 10:00:00') /* Putrid Moarsman */
-     , (0x7634B0C2, 0x7634B030, '2005-02-09 10:00:00') /* Miry Moarsman */
-     , (0x7634B0C2, 0x7634B04C, '2005-02-09 10:00:00') /* Muck Glutton */
-     , (0x7634B0C2, 0x7634B052, '2005-02-09 10:00:00') /* Putrid Moarsman */
-     , (0x7634B0C2, 0x7634B053, '2005-02-09 10:00:00') /* Miry Moarsman */
-     , (0x7634B0C2, 0x7634B054, '2005-02-09 10:00:00') /* Miry Moarsman */
-     , (0x7634B0C2, 0x7634B055, '2005-02-09 10:00:00') /* Putrid Moarsman */
-     , (0x7634B0C2, 0x7634B07C, '2005-02-09 10:00:00') /* Putrid Moarsman */
-     , (0x7634B0C2, 0x7634B07F, '2005-02-09 10:00:00') /* Miry Moarsman */
-     , (0x7634B0C2, 0x7634B081, '2005-02-09 10:00:00') /* Miry Moarsman */
-     , (0x7634B0C2, 0x7634B085, '2005-02-09 10:00:00') /* Muck Glutton */
-     , (0x7634B0C2, 0x7634B086, '2005-02-09 10:00:00') /* Putrid Moarsman */
-     , (0x7634B0C2, 0x7634B0A2, '2005-02-09 10:00:00') /* Putrid Moarsman */
-     , (0x7634B0C2, 0x7634B0A5, '2005-02-09 10:00:00') /* Putrid Moarsman */
-     , (0x7634B0C2, 0x7634B0A7, '2005-02-09 10:00:00') /* Miry Moarsman */
-     , (0x7634B0C2, 0x7634B0A9, '2005-02-09 10:00:00') /* Putrid Moarsman */
-     , (0x7634B0C2, 0x7634B0AA, '2005-02-09 10:00:00') /* Muck Glutton */
-     , (0x7634B0C2, 0x7634B0BE, '2005-02-09 10:00:00') /* Miry Moarsman */
-     , (0x7634B0C2, 0x7634B0BF, '2005-02-09 10:00:00') /* Miry Moarsman */
-     , (0x7634B0C2, 0x7634B0C1, '2005-02-09 10:00:00') /* Putrid Moarsman */
-     , (0x7634B0C2, 0x7634B0C3, '2005-02-09 10:00:00') /* Putrid Moarsman */
-     , (0x7634B0C2, 0x7634B0C5, '2005-02-09 10:00:00') /* Putrid Moarsman */
-     , (0x7634B0C2, 0x7634B0C6, '2005-02-09 10:00:00') /* Miry Moarsman */
-     , (0x7634B0C2, 0x7634B0C7, '2005-02-09 10:00:00') /* Miry Moarsman */
-     , (0x7634B0C2, 0x7634B0C8, '2005-02-09 10:00:00') /* Muck Glutton */;
+VALUES (0x7634B0C2, 0x7634B018, '2005-02-09 10:00:00') /* Miry Moarsman (27856) */
+     , (0x7634B0C2, 0x7634B019, '2005-02-09 10:00:00') /* Putrid Moarsman (4248) */
+     , (0x7634B0C2, 0x7634B01A, '2005-02-09 10:00:00') /* Muck Glutton (27857) */
+     , (0x7634B0C2, 0x7634B01B, '2005-02-09 10:00:00') /* Muck Glutton (27857) */
+     , (0x7634B0C2, 0x7634B01C, '2005-02-09 10:00:00') /* Miry Moarsman (27856) */
+     , (0x7634B0C2, 0x7634B01D, '2005-02-09 10:00:00') /* Muck Glutton (27857) */
+     , (0x7634B0C2, 0x7634B01E, '2005-02-09 10:00:00') /* Miry Moarsman (27856) */
+     , (0x7634B0C2, 0x7634B01F, '2005-02-09 10:00:00') /* Muck Glutton (27857) */
+     , (0x7634B0C2, 0x7634B020, '2005-02-09 10:00:00') /* Muck Glutton (27857) */
+     , (0x7634B0C2, 0x7634B021, '2005-02-09 10:00:00') /* Putrid Moarsman (4248) */
+     , (0x7634B0C2, 0x7634B022, '2005-02-09 10:00:00') /* Putrid Moarsman (4248) */
+     , (0x7634B0C2, 0x7634B02F, '2005-02-09 10:00:00') /* Putrid Moarsman (4248) */
+     , (0x7634B0C2, 0x7634B030, '2005-02-09 10:00:00') /* Miry Moarsman (27856) */
+     , (0x7634B0C2, 0x7634B04C, '2005-02-09 10:00:00') /* Muck Glutton (27857) */
+     , (0x7634B0C2, 0x7634B052, '2005-02-09 10:00:00') /* Putrid Moarsman (4248) */
+     , (0x7634B0C2, 0x7634B053, '2005-02-09 10:00:00') /* Miry Moarsman (27856) */
+     , (0x7634B0C2, 0x7634B054, '2005-02-09 10:00:00') /* Miry Moarsman (27856) */
+     , (0x7634B0C2, 0x7634B055, '2005-02-09 10:00:00') /* Putrid Moarsman (4248) */
+     , (0x7634B0C2, 0x7634B07C, '2005-02-09 10:00:00') /* Putrid Moarsman (4248) */
+     , (0x7634B0C2, 0x7634B07F, '2005-02-09 10:00:00') /* Miry Moarsman (27856) */
+     , (0x7634B0C2, 0x7634B081, '2005-02-09 10:00:00') /* Miry Moarsman (27856) */
+     , (0x7634B0C2, 0x7634B085, '2005-02-09 10:00:00') /* Muck Glutton (27857) */
+     , (0x7634B0C2, 0x7634B086, '2005-02-09 10:00:00') /* Putrid Moarsman (4248) */
+     , (0x7634B0C2, 0x7634B0A2, '2005-02-09 10:00:00') /* Putrid Moarsman (4248) */
+     , (0x7634B0C2, 0x7634B0A5, '2005-02-09 10:00:00') /* Putrid Moarsman (4248) */
+     , (0x7634B0C2, 0x7634B0A7, '2005-02-09 10:00:00') /* Miry Moarsman (27856) */
+     , (0x7634B0C2, 0x7634B0A9, '2005-02-09 10:00:00') /* Putrid Moarsman (4248) */
+     , (0x7634B0C2, 0x7634B0AA, '2005-02-09 10:00:00') /* Muck Glutton (27857) */
+     , (0x7634B0C2, 0x7634B0BE, '2005-02-09 10:00:00') /* Miry Moarsman (27856) */
+     , (0x7634B0C2, 0x7634B0BF, '2005-02-09 10:00:00') /* Miry Moarsman (27856) */
+     , (0x7634B0C2, 0x7634B0C1, '2005-02-09 10:00:00') /* Putrid Moarsman (4248) */
+     , (0x7634B0C2, 0x7634B0C3, '2005-02-09 10:00:00') /* Putrid Moarsman (4248) */
+     , (0x7634B0C2, 0x7634B0C5, '2005-02-09 10:00:00') /* Putrid Moarsman (4248) */
+     , (0x7634B0C2, 0x7634B0C6, '2005-02-09 10:00:00') /* Miry Moarsman (27856) */
+     , (0x7634B0C2, 0x7634B0C7, '2005-02-09 10:00:00') /* Miry Moarsman (27856) */
+     , (0x7634B0C2, 0x7634B0C8, '2005-02-09 10:00:00') /* Muck Glutton (27857) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7634B0C3,  4248, 0x634B0481, 68.8824, -107.781, 0.00672, -0.557133, 0, 0, -0.830423,  True, '2005-02-09 10:00:00'); /* Putrid Moarsman */
@@ -958,23 +958,23 @@ VALUES (0x7634B0C4,  7923, 0x634B0483, 70, -130, 0.005, 1, 0, 0, 0, False, '2005
 /* @teleloc 0x634B0483 [70.000000 -130.000000 0.005000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7634B0C4, 0x7634B043, '2005-02-09 10:00:00') /* Ashen Moarsman */
-     , (0x7634B0C4, 0x7634B044, '2005-02-09 10:00:00') /* Sallow Moarsman */
-     , (0x7634B0C4, 0x7634B045, '2005-02-09 10:00:00') /* Sallow Moarsman */
-     , (0x7634B0C4, 0x7634B046, '2005-02-09 10:00:00') /* Pallid Moarsman */
-     , (0x7634B0C4, 0x7634B049, '2005-02-09 10:00:00') /* Pallid Moarsman */
-     , (0x7634B0C4, 0x7634B04B, '2005-02-09 10:00:00') /* Sallow Moarsman */
-     , (0x7634B0C4, 0x7634B050, '2005-02-09 10:00:00') /* Pallid Moarsman */
-     , (0x7634B0C4, 0x7634B071, '2005-02-09 10:00:00') /* Sallow Moarsman */
-     , (0x7634B0C4, 0x7634B072, '2005-02-09 10:00:00') /* Ashen Moarsman */
-     , (0x7634B0C4, 0x7634B073, '2005-02-09 10:00:00') /* Pallid Moarsman */
-     , (0x7634B0C4, 0x7634B09B, '2005-02-09 10:00:00') /* Pallid Moarsman */
-     , (0x7634B0C4, 0x7634B09E, '2005-02-09 10:00:00') /* Ashen Moarsman */
-     , (0x7634B0C4, 0x7634B0A3, '2005-02-09 10:00:00') /* Pallid Moarsman */
-     , (0x7634B0C4, 0x7634B0AB, '2005-02-09 10:00:00') /* Sallow Moarsman */
-     , (0x7634B0C4, 0x7634B0AC, '2005-02-09 10:00:00') /* Sallow Moarsman */
-     , (0x7634B0C4, 0x7634B0AD, '2005-02-09 10:00:00') /* Pallid Moarsman */
-     , (0x7634B0C4, 0x7634B0AE, '2005-02-09 10:00:00') /* Sallow Moarsman */;
+VALUES (0x7634B0C4, 0x7634B043, '2005-02-09 10:00:00') /* Ashen Moarsman (7180) */
+     , (0x7634B0C4, 0x7634B044, '2005-02-09 10:00:00') /* Sallow Moarsman (27860) */
+     , (0x7634B0C4, 0x7634B045, '2005-02-09 10:00:00') /* Sallow Moarsman (27860) */
+     , (0x7634B0C4, 0x7634B046, '2005-02-09 10:00:00') /* Pallid Moarsman (27859) */
+     , (0x7634B0C4, 0x7634B049, '2005-02-09 10:00:00') /* Pallid Moarsman (27859) */
+     , (0x7634B0C4, 0x7634B04B, '2005-02-09 10:00:00') /* Sallow Moarsman (27860) */
+     , (0x7634B0C4, 0x7634B050, '2005-02-09 10:00:00') /* Pallid Moarsman (27859) */
+     , (0x7634B0C4, 0x7634B071, '2005-02-09 10:00:00') /* Sallow Moarsman (27860) */
+     , (0x7634B0C4, 0x7634B072, '2005-02-09 10:00:00') /* Ashen Moarsman (7180) */
+     , (0x7634B0C4, 0x7634B073, '2005-02-09 10:00:00') /* Pallid Moarsman (27859) */
+     , (0x7634B0C4, 0x7634B09B, '2005-02-09 10:00:00') /* Pallid Moarsman (27859) */
+     , (0x7634B0C4, 0x7634B09E, '2005-02-09 10:00:00') /* Ashen Moarsman (7180) */
+     , (0x7634B0C4, 0x7634B0A3, '2005-02-09 10:00:00') /* Pallid Moarsman (27859) */
+     , (0x7634B0C4, 0x7634B0AB, '2005-02-09 10:00:00') /* Sallow Moarsman (27860) */
+     , (0x7634B0C4, 0x7634B0AC, '2005-02-09 10:00:00') /* Sallow Moarsman (27860) */
+     , (0x7634B0C4, 0x7634B0AD, '2005-02-09 10:00:00') /* Pallid Moarsman (27859) */
+     , (0x7634B0C4, 0x7634B0AE, '2005-02-09 10:00:00') /* Sallow Moarsman (27860) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7634B0C5,  4248, 0x634B0487, 82.3755, -79.8563, 0.00672, -0.23132, 0, 0, -0.972878,  True, '2005-02-09 10:00:00'); /* Putrid Moarsman */

@@ -9,10 +9,10 @@ VALUES (0x7000A003,  5086, 0x000A0101, 33.963, -47.6447, -23.995, 0.794824, 0, 0
 /* @teleloc 0x000A0101 [33.963000 -47.644700 -23.995000] 0.794824 0.000000 0.000000 -0.606841 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7000A003, 0x7000A002, '2005-02-09 10:00:00') /* Restless Spirit */
-     , (0x7000A003, 0x7000A005, '2005-02-09 10:00:00') /* Restless Spirit */
-     , (0x7000A003, 0x7000A006, '2005-02-09 10:00:00') /* Restless Spirit */
-     , (0x7000A003, 0x7000A008, '2005-02-09 10:00:00') /* Restless Spirit */;
+VALUES (0x7000A003, 0x7000A002, '2005-02-09 10:00:00') /* Restless Spirit (30711) */
+     , (0x7000A003, 0x7000A005, '2005-02-09 10:00:00') /* Restless Spirit (30711) */
+     , (0x7000A003, 0x7000A006, '2005-02-09 10:00:00') /* Restless Spirit (30711) */
+     , (0x7000A003, 0x7000A008, '2005-02-09 10:00:00') /* Restless Spirit (30711) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7000A004, 24129, 0x000A0101, 30.6103, -47.6066, -23.995, 0.840963, 0, 0, -0.541093, False, '2005-02-09 10:00:00'); /* Linkable Monster Generator ( 2 Min.) */
@@ -51,25 +51,25 @@ VALUES (0x7000A00D, 15274, 0x000A0117, 47.5147, -69.6649, -17.995, 0.0764015, 0,
 /* @teleloc 0x000A0117 [47.514700 -69.664900 -17.995000] 0.076402 0.000000 0.000000 -0.997077 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7000A00D, 0x7000A009, '2005-02-09 10:00:00') /* Pestilence Rat */
-     , (0x7000A00D, 0x7000A00A, '2005-02-09 10:00:00') /* Pestilence Rat */
-     , (0x7000A00D, 0x7000A00B, '2005-02-09 10:00:00') /* Pestilence Rat */
-     , (0x7000A00D, 0x7000A00C, '2005-02-09 10:00:00') /* Pestilence Rat */
-     , (0x7000A00D, 0x7000A00E, '2005-02-09 10:00:00') /* Pestilence Rat */
-     , (0x7000A00D, 0x7000A00F, '2005-02-09 10:00:00') /* Pestilence Rat */
-     , (0x7000A00D, 0x7000A010, '2005-02-09 10:00:00') /* Pestilence Rat */
-     , (0x7000A00D, 0x7000A011, '2005-02-09 10:00:00') /* Pestilence Rat */
-     , (0x7000A00D, 0x7000A012, '2005-02-09 10:00:00') /* Pestilence Rat */
-     , (0x7000A00D, 0x7000A017, '2005-02-09 10:00:00') /* Pestilence Rat */
-     , (0x7000A00D, 0x7000A018, '2005-02-09 10:00:00') /* Pestilence Rat */
-     , (0x7000A00D, 0x7000A019, '2005-02-09 10:00:00') /* Pestilence Rat */
-     , (0x7000A00D, 0x7000A01A, '2005-02-09 10:00:00') /* Pestilence Rat */
-     , (0x7000A00D, 0x7000A01B, '2005-02-09 10:00:00') /* Pestilence Rat */
-     , (0x7000A00D, 0x7000A01C, '2005-02-09 10:00:00') /* Pestilence Rat */
-     , (0x7000A00D, 0x7000A01D, '2005-02-09 10:00:00') /* Pestilence Rat */
-     , (0x7000A00D, 0x7000A038, '2005-02-09 10:00:00') /* Pestilence Rat */
-     , (0x7000A00D, 0x7000A039, '2005-02-09 10:00:00') /* Pestilence Rat */
-     , (0x7000A00D, 0x7000A03A, '2005-02-09 10:00:00') /* Pestilence Rat */;
+VALUES (0x7000A00D, 0x7000A009, '2005-02-09 10:00:00') /* Pestilence Rat (25879) */
+     , (0x7000A00D, 0x7000A00A, '2005-02-09 10:00:00') /* Pestilence Rat (25879) */
+     , (0x7000A00D, 0x7000A00B, '2005-02-09 10:00:00') /* Pestilence Rat (25879) */
+     , (0x7000A00D, 0x7000A00C, '2005-02-09 10:00:00') /* Pestilence Rat (25879) */
+     , (0x7000A00D, 0x7000A00E, '2005-02-09 10:00:00') /* Pestilence Rat (25879) */
+     , (0x7000A00D, 0x7000A00F, '2005-02-09 10:00:00') /* Pestilence Rat (25879) */
+     , (0x7000A00D, 0x7000A010, '2005-02-09 10:00:00') /* Pestilence Rat (25879) */
+     , (0x7000A00D, 0x7000A011, '2005-02-09 10:00:00') /* Pestilence Rat (25879) */
+     , (0x7000A00D, 0x7000A012, '2005-02-09 10:00:00') /* Pestilence Rat (25879) */
+     , (0x7000A00D, 0x7000A017, '2005-02-09 10:00:00') /* Pestilence Rat (25879) */
+     , (0x7000A00D, 0x7000A018, '2005-02-09 10:00:00') /* Pestilence Rat (25879) */
+     , (0x7000A00D, 0x7000A019, '2005-02-09 10:00:00') /* Pestilence Rat (25879) */
+     , (0x7000A00D, 0x7000A01A, '2005-02-09 10:00:00') /* Pestilence Rat (25879) */
+     , (0x7000A00D, 0x7000A01B, '2005-02-09 10:00:00') /* Pestilence Rat (25879) */
+     , (0x7000A00D, 0x7000A01C, '2005-02-09 10:00:00') /* Pestilence Rat (25879) */
+     , (0x7000A00D, 0x7000A01D, '2005-02-09 10:00:00') /* Pestilence Rat (25879) */
+     , (0x7000A00D, 0x7000A038, '2005-02-09 10:00:00') /* Pestilence Rat (25879) */
+     , (0x7000A00D, 0x7000A039, '2005-02-09 10:00:00') /* Pestilence Rat (25879) */
+     , (0x7000A00D, 0x7000A03A, '2005-02-09 10:00:00') /* Pestilence Rat (25879) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7000A00E, 25879, 0x000A0118, 59.2692, -57.853, -17.945, -0.540508, 0, 0, -0.841339,  True, '2005-02-09 10:00:00'); /* Pestilence Rat */
@@ -176,12 +176,12 @@ VALUES (0x7000A029,  7923, 0x000A0192, 37.2614, -59.2395, 0.005, 0.983296, 0, 0,
 /* @teleloc 0x000A0192 [37.261400 -59.239500 0.005000] 0.983296 0.000000 0.000000 0.182014 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7000A029, 0x7000A01F, '2005-02-09 10:00:00') /* Restless Spirit */
-     , (0x7000A029, 0x7000A020, '2005-02-09 10:00:00') /* Restless Spirit */
-     , (0x7000A029, 0x7000A024, '2005-02-09 10:00:00') /* Restless Spirit */
-     , (0x7000A029, 0x7000A025, '2005-02-09 10:00:00') /* Restless Spirit */
-     , (0x7000A029, 0x7000A033, '2005-02-09 10:00:00') /* Restless Spirit */
-     , (0x7000A029, 0x7000A034, '2005-02-09 10:00:00') /* Restless Spirit */;
+VALUES (0x7000A029, 0x7000A01F, '2005-02-09 10:00:00') /* Restless Spirit (30712) */
+     , (0x7000A029, 0x7000A020, '2005-02-09 10:00:00') /* Restless Spirit (30712) */
+     , (0x7000A029, 0x7000A024, '2005-02-09 10:00:00') /* Restless Spirit (30712) */
+     , (0x7000A029, 0x7000A025, '2005-02-09 10:00:00') /* Restless Spirit (30712) */
+     , (0x7000A029, 0x7000A033, '2005-02-09 10:00:00') /* Restless Spirit (30712) */
+     , (0x7000A029, 0x7000A034, '2005-02-09 10:00:00') /* Restless Spirit (30712) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7000A02A,  5621, 0x000A0192, 40.0054, -64.4875, 5.36621, -0.0110698, 0, 0, 0.999939, False, '2005-02-09 10:00:00'); /* Hot Air */
@@ -228,19 +228,19 @@ VALUES (0x7000A037, 24129, 0x000A01C6, 59.8004, -72.3197, 0.005, 0.481801, 0, 0,
 /* @teleloc 0x000A01C6 [59.800400 -72.319700 0.005000] 0.481801 0.000000 0.000000 -0.876281 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7000A037, 0x7000A013, '2005-02-09 10:00:00') /* Pestilence Rat */
-     , (0x7000A037, 0x7000A014, '2005-02-09 10:00:00') /* Restless Spirit */
-     , (0x7000A037, 0x7000A015, '2005-02-09 10:00:00') /* Restless Spirit */
-     , (0x7000A037, 0x7000A01E, '2005-02-09 10:00:00') /* Restless Spirit */
-     , (0x7000A037, 0x7000A022, '2005-02-09 10:00:00') /* Restless Spirit */
-     , (0x7000A037, 0x7000A023, '2005-02-09 10:00:00') /* Restless Spirit */
-     , (0x7000A037, 0x7000A028, '2005-02-09 10:00:00') /* Restless Spirit */
-     , (0x7000A037, 0x7000A02B, '2005-02-09 10:00:00') /* Restless Spirit */
-     , (0x7000A037, 0x7000A02D, '2005-02-09 10:00:00') /* Restless Spirit */
-     , (0x7000A037, 0x7000A02E, '2005-02-09 10:00:00') /* Restless Spirit */
-     , (0x7000A037, 0x7000A030, '2005-02-09 10:00:00') /* Restless Spirit */
-     , (0x7000A037, 0x7000A031, '2005-02-09 10:00:00') /* Restless Spirit */
-     , (0x7000A037, 0x7000A035, '2005-02-09 10:00:00') /* Restless Spirit */;
+VALUES (0x7000A037, 0x7000A013, '2005-02-09 10:00:00') /* Pestilence Rat (25879) */
+     , (0x7000A037, 0x7000A014, '2005-02-09 10:00:00') /* Restless Spirit (30712) */
+     , (0x7000A037, 0x7000A015, '2005-02-09 10:00:00') /* Restless Spirit (30712) */
+     , (0x7000A037, 0x7000A01E, '2005-02-09 10:00:00') /* Restless Spirit (30712) */
+     , (0x7000A037, 0x7000A022, '2005-02-09 10:00:00') /* Restless Spirit (30712) */
+     , (0x7000A037, 0x7000A023, '2005-02-09 10:00:00') /* Restless Spirit (30712) */
+     , (0x7000A037, 0x7000A028, '2005-02-09 10:00:00') /* Restless Spirit (30712) */
+     , (0x7000A037, 0x7000A02B, '2005-02-09 10:00:00') /* Restless Spirit (30712) */
+     , (0x7000A037, 0x7000A02D, '2005-02-09 10:00:00') /* Restless Spirit (30712) */
+     , (0x7000A037, 0x7000A02E, '2005-02-09 10:00:00') /* Restless Spirit (30712) */
+     , (0x7000A037, 0x7000A030, '2005-02-09 10:00:00') /* Restless Spirit (30712) */
+     , (0x7000A037, 0x7000A031, '2005-02-09 10:00:00') /* Restless Spirit (30712) */
+     , (0x7000A037, 0x7000A035, '2005-02-09 10:00:00') /* Restless Spirit (30712) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7000A038, 25879, 0x000A01CB, 3.4564, -80.4752, 6.012, 0.841772, 0, 0, -0.539833,  True, '2005-02-09 10:00:00'); /* Pestilence Rat */

@@ -65,23 +65,23 @@ VALUES (0x71D14010,  3955, 0x1D140000, 122.999, 187.364, 50.005, -0.989434, 0, 0
 /* @teleloc 0x1D140000 [122.999000 187.364000 50.005000] -0.989434 0.000000 0.000000 0.144983 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71D14010, 0x71D14002, '2005-02-09 10:00:00') /* Withered Drudge Seraph Mystic */
-     , (0x71D14010, 0x71D14003, '2005-02-09 10:00:00') /* Withered Drudge Seraph Mystic */
-     , (0x71D14010, 0x71D14005, '2005-02-09 10:00:00') /* Withered Drudge Seraph */
-     , (0x71D14010, 0x71D14006, '2005-02-09 10:00:00') /* Withered Banderling Paragon */
-     , (0x71D14010, 0x71D14007, '2005-02-09 10:00:00') /* Withered Banderling Paragon */
-     , (0x71D14010, 0x71D14008, '2005-02-09 10:00:00') /* Withered Banderling Paragon */
-     , (0x71D14010, 0x71D14009, '2005-02-09 10:00:00') /* Withered Banderling Paragon */
-     , (0x71D14010, 0x71D1400A, '2005-02-09 10:00:00') /* Withered Raider Justicar */
-     , (0x71D14010, 0x71D1400B, '2005-02-09 10:00:00') /* Withered Raider Justicar */
-     , (0x71D14010, 0x71D1400C, '2005-02-09 10:00:00') /* Withered Raider Prefect */
-     , (0x71D14010, 0x71D1400D, '2005-02-09 10:00:00') /* Withered Transcendent Tumerok */
-     , (0x71D14010, 0x71D1400E, '2005-02-09 10:00:00') /* Withered Transcendent Tumerok */
-     , (0x71D14010, 0x71D1400F, '2005-02-09 10:00:00') /* Withered Revered Tumerok Shaman */
-     , (0x71D14010, 0x71D14011, '2005-02-09 10:00:00') /* Withered Raider Prefect */
-     , (0x71D14010, 0x71D14012, '2005-02-09 10:00:00') /* Withered Raider Prefect */
-     , (0x71D14010, 0x71D14013, '2005-02-09 10:00:00') /* Withered Banderling Paragon */
-     , (0x71D14010, 0x71D14014, '2005-02-09 10:00:00') /* Withered Banderling Paragon */;
+VALUES (0x71D14010, 0x71D14002, '2005-02-09 10:00:00') /* Withered Drudge Seraph Mystic (30682) */
+     , (0x71D14010, 0x71D14003, '2005-02-09 10:00:00') /* Withered Drudge Seraph Mystic (30682) */
+     , (0x71D14010, 0x71D14005, '2005-02-09 10:00:00') /* Withered Drudge Seraph (30680) */
+     , (0x71D14010, 0x71D14006, '2005-02-09 10:00:00') /* Withered Banderling Paragon (30685) */
+     , (0x71D14010, 0x71D14007, '2005-02-09 10:00:00') /* Withered Banderling Paragon (30685) */
+     , (0x71D14010, 0x71D14008, '2005-02-09 10:00:00') /* Withered Banderling Paragon (30685) */
+     , (0x71D14010, 0x71D14009, '2005-02-09 10:00:00') /* Withered Banderling Paragon (30685) */
+     , (0x71D14010, 0x71D1400A, '2005-02-09 10:00:00') /* Withered Raider Justicar (30691) */
+     , (0x71D14010, 0x71D1400B, '2005-02-09 10:00:00') /* Withered Raider Justicar (30691) */
+     , (0x71D14010, 0x71D1400C, '2005-02-09 10:00:00') /* Withered Raider Prefect (30689) */
+     , (0x71D14010, 0x71D1400D, '2005-02-09 10:00:00') /* Withered Transcendent Tumerok (30686) */
+     , (0x71D14010, 0x71D1400E, '2005-02-09 10:00:00') /* Withered Transcendent Tumerok (30686) */
+     , (0x71D14010, 0x71D1400F, '2005-02-09 10:00:00') /* Withered Revered Tumerok Shaman (30687) */
+     , (0x71D14010, 0x71D14011, '2005-02-09 10:00:00') /* Withered Raider Prefect (30689) */
+     , (0x71D14010, 0x71D14012, '2005-02-09 10:00:00') /* Withered Raider Prefect (30689) */
+     , (0x71D14010, 0x71D14013, '2005-02-09 10:00:00') /* Withered Banderling Paragon (30685) */
+     , (0x71D14010, 0x71D14014, '2005-02-09 10:00:00') /* Withered Banderling Paragon (30685) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71D14011, 30689, 0x1D140000, 54.7646, 76.855, 43.6917, -0.954408, 0, 0, 0.298506,  True, '2005-02-09 10:00:00'); /* Withered Raider Prefect */

@@ -41,14 +41,14 @@ VALUES (0x7C660009,  1154, 0xC6600000, 69.5128, 40.5334, 5.105, 0.0830387, 0, 0,
 /* @teleloc 0xC6600000 [69.512800 40.533400 5.105000] 0.083039 0.000000 0.000000 -0.996546 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C660009, 0x7C660002, '2005-02-09 10:00:00') /* Swamp Gromnie */
-     , (0x7C660009, 0x7C660003, '2005-02-09 10:00:00') /* Swamp Gromnie */
-     , (0x7C660009, 0x7C660004, '2005-02-09 10:00:00') /* Swamp Gromnie */
-     , (0x7C660009, 0x7C660005, '2005-02-09 10:00:00') /* Swamp Gromnie */
-     , (0x7C660009, 0x7C660006, '2005-02-09 10:00:00') /* Mire Phyntos Wasp */
-     , (0x7C660009, 0x7C660007, '2005-02-09 10:00:00') /* Mire Phyntos Wasp */
-     , (0x7C660009, 0x7C660008, '2005-02-09 10:00:00') /* Mire Phyntos Wasp */
-     , (0x7C660009, 0x7C66000A, '2005-02-09 10:00:00') /* Water Wisp */;
+VALUES (0x7C660009, 0x7C660002, '2005-02-09 10:00:00') /* Swamp Gromnie (1616) */
+     , (0x7C660009, 0x7C660003, '2005-02-09 10:00:00') /* Swamp Gromnie (1616) */
+     , (0x7C660009, 0x7C660004, '2005-02-09 10:00:00') /* Swamp Gromnie (1616) */
+     , (0x7C660009, 0x7C660005, '2005-02-09 10:00:00') /* Swamp Gromnie (1616) */
+     , (0x7C660009, 0x7C660006, '2005-02-09 10:00:00') /* Mire Phyntos Wasp (1622) */
+     , (0x7C660009, 0x7C660007, '2005-02-09 10:00:00') /* Mire Phyntos Wasp (1622) */
+     , (0x7C660009, 0x7C660008, '2005-02-09 10:00:00') /* Mire Phyntos Wasp (1622) */
+     , (0x7C660009, 0x7C66000A, '2005-02-09 10:00:00') /* Water Wisp (1986) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C66000A,  1986, 0xC6600000, 112.458, 85.2777, 6.5, -0.767368, 0, 0, 0.641206,  True, '2005-02-09 10:00:00'); /* Water Wisp */

@@ -41,6 +41,6 @@ VALUES (0x77D6600C,  4219, 0x7D660000, 115.654, 95.1658, 10.005, 0.579403, 0, 0,
 /* @teleloc 0x7D660000 [115.654000 95.165800 10.005000] 0.579403 0.000000 0.000000 0.815041 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x77D6600C, 0x77D66009, '2005-02-09 10:00:00') /* Drudge Prowler */
-     , (0x77D6600C, 0x77D6600A, '2005-02-09 10:00:00') /* Drudge Sneaker */
-     , (0x77D6600C, 0x77D6600B, '2005-02-09 10:00:00') /* Drudge Sneaker */;
+VALUES (0x77D6600C, 0x77D66009, '2005-02-09 10:00:00') /* Drudge Prowler (192) */
+     , (0x77D6600C, 0x77D6600A, '2005-02-09 10:00:00') /* Drudge Sneaker (940) */
+     , (0x77D6600C, 0x77D6600B, '2005-02-09 10:00:00') /* Drudge Sneaker (940) */;

@@ -73,8 +73,8 @@ VALUES (0x76348011,  2180, 0x6348022B, 39.9879, -154.768, -5.995, 1, 0, 0, 0, Fa
 /* @teleloc 0x6348022B [39.987900 -154.768000 -5.995000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x76348011, 0x76348013, '2005-02-09 10:00:00') /* Lever */
-     , (0x76348011, 0x7634802A, '2005-02-09 10:00:00') /* Lever */;
+VALUES (0x76348011, 0x76348013, '2005-02-09 10:00:00') /* Lever (286) */
+     , (0x76348011, 0x7634802A, '2005-02-09 10:00:00') /* Lever (286) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x76348012,  5625, 0x63480238, 54.7332, -150, -5.995, -0.707107, 0, 0, -0.707107, False, '2005-02-09 10:00:00'); /* Door */
@@ -117,8 +117,8 @@ VALUES (0x7634801B,  2180, 0x634802C8, 159.988, -145.246, -5.995, 0, 0, 0, -1, F
 /* @teleloc 0x634802C8 [159.988000 -145.246000 -5.995000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7634801B, 0x76348019, '2005-02-09 10:00:00') /* Lever */
-     , (0x7634801B, 0x7634801C, '2005-02-09 10:00:00') /* Button */;
+VALUES (0x7634801B, 0x76348019, '2005-02-09 10:00:00') /* Lever (286) */
+     , (0x7634801B, 0x7634801C, '2005-02-09 10:00:00') /* Button (8420) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7634801C,  8420, 0x634802DB, 74.888, -149.877, 0.3, 0.707107, 0, 0, -0.707107,  True, '2005-02-09 10:00:00'); /* Button */
@@ -193,15 +193,15 @@ VALUES (0x7634802D, 25670, 0x63480207, 44.6414, -59.9949, -29.995, 0.707107, 0, 
 /* @teleloc 0x63480207 [44.641400 -59.994900 -29.995000] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7634802D, 0x76348010, '2005-02-09 10:00:00') /* Pressure Plate */;
+VALUES (0x7634802D, 0x76348010, '2005-02-09 10:00:00') /* Pressure Plate (298) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7634802E, 25669, 0x63480288, 99.997, -98.1332, -5.995, 1, 0, 0, 0, False, '2005-02-09 10:00:00'); /* Door */
 /* @teleloc 0x63480288 [99.997000 -98.133200 -5.995000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7634802E, 0x76348017, '2005-02-09 10:00:00') /* Torch */
-     , (0x7634802E, 0x76348023, '2005-02-09 10:00:00') /* Button */;
+VALUES (0x7634802E, 0x76348017, '2005-02-09 10:00:00') /* Torch (7323) */
+     , (0x7634802E, 0x76348023, '2005-02-09 10:00:00') /* Button (8420) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7634802F, 25666, 0x634802F0, 94.1145, -59.9974, 0.005, 0.707107, 0, 0, -0.707107,  True, '2005-02-09 10:00:00'); /* Reinforced Door */
@@ -212,8 +212,8 @@ VALUES (0x76348030,  7924, 0x634802F0, 85.9815, -64.0144, 0.005, 0.305269, 0, 0,
 /* @teleloc 0x634802F0 [85.981500 -64.014400 0.005000] 0.305269 0.000000 0.000000 0.952266 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x76348030, 0x7634802F, '2005-02-09 10:00:00') /* Reinforced Door */
-     , (0x76348030, 0x76348032, '2005-02-09 10:00:00') /* Reinforced Door */;
+VALUES (0x76348030, 0x7634802F, '2005-02-09 10:00:00') /* Reinforced Door (25666) */
+     , (0x76348030, 0x76348032, '2005-02-09 10:00:00') /* Reinforced Door (25666) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x76348031, 25675, 0x6348031A, 99.8037, -220.154, 0.5, 1, 0, 0, 0, False, '2005-02-09 10:00:00'); /* Exit */
@@ -228,16 +228,16 @@ VALUES (0x76348035,  2180, 0x634803D5, 94.7439, -130, 12.005, 0.707107, 0, 0, -0
 /* @teleloc 0x634803D5 [94.743900 -130.000000 12.005000] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x76348035, 0x76348027, '2005-02-09 10:00:00') /* Lever */
-     , (0x76348035, 0x76348037, '2005-02-09 10:00:00') /* Lever */;
+VALUES (0x76348035, 0x76348027, '2005-02-09 10:00:00') /* Lever (286) */
+     , (0x76348035, 0x76348037, '2005-02-09 10:00:00') /* Lever (286) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x76348036,  2180, 0x634803FA, 115.244, -130.011, 12.005, -0.707107, 0, 0, -0.707107, False, '2005-02-09 10:00:00'); /* Door */
 /* @teleloc 0x634803FA [115.244000 -130.011000 12.005000] -0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x76348036, 0x76348024, '2005-02-09 10:00:00') /* Lever */
-     , (0x76348036, 0x76348038, '2005-02-09 10:00:00') /* Lever */;
+VALUES (0x76348036, 0x76348024, '2005-02-09 10:00:00') /* Lever (286) */
+     , (0x76348036, 0x76348038, '2005-02-09 10:00:00') /* Lever (286) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x76348037,   286, 0x634803D2, 94.393, -132.603, 13.25, 0.707107, 0, 0, -0.707107,  True, '2005-02-09 10:00:00'); /* Lever */
@@ -264,27 +264,27 @@ VALUES (0x7634803C,  7923, 0x63480107, 24.2192, -49.896, -59.995, 0.722401, 0, 0
 /* @teleloc 0x63480107 [24.219200 -49.896000 -59.995000] 0.722401 0.000000 0.000000 0.691474 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7634803C, 0x7634803A, '2005-02-09 10:00:00') /* Lesser Void Knight */
-     , (0x7634803C, 0x7634803B, '2005-02-09 10:00:00') /* Lesser Shadow Wretch */
-     , (0x7634803C, 0x7634803D, '2005-02-09 10:00:00') /* Lesser Void Knight */
-     , (0x7634803C, 0x7634803E, '2005-02-09 10:00:00') /* Lesser Shadow Wretch */
-     , (0x7634803C, 0x7634803F, '2005-02-09 10:00:00') /* Lesser Void Knight */
-     , (0x7634803C, 0x76348040, '2005-02-09 10:00:00') /* Lesser Void Knight */
-     , (0x7634803C, 0x76348041, '2005-02-09 10:00:00') /* Tenebrous Shadow */
-     , (0x7634803C, 0x76348042, '2005-02-09 10:00:00') /* Lesser Void Knight */
-     , (0x7634803C, 0x76348043, '2005-02-09 10:00:00') /* Lesser Void Knight */
-     , (0x7634803C, 0x76348045, '2005-02-09 10:00:00') /* Panumbris Shadow */
-     , (0x7634803C, 0x76348046, '2005-02-09 10:00:00') /* Panumbris Shadow */
-     , (0x7634803C, 0x76348047, '2005-02-09 10:00:00') /* Panumbris Shadow */
-     , (0x7634803C, 0x76348048, '2005-02-09 10:00:00') /* Panumbris Shadow */
-     , (0x7634803C, 0x7634804A, '2005-02-09 10:00:00') /* Lesser Void Knight */
-     , (0x7634803C, 0x7634804B, '2005-02-09 10:00:00') /* Lesser Void Knight */
-     , (0x7634803C, 0x7634804E, '2005-02-09 10:00:00') /* Lesser Void Knight */
-     , (0x7634803C, 0x7634804F, '2005-02-09 10:00:00') /* Lesser Void Knight */
-     , (0x7634803C, 0x76348050, '2005-02-09 10:00:00') /* Lesser Shadow Wretch */
-     , (0x7634803C, 0x76348051, '2005-02-09 10:00:00') /* Lesser Void Knight */
-     , (0x7634803C, 0x76348052, '2005-02-09 10:00:00') /* Lesser Void Knight */
-     , (0x7634803C, 0x76348053, '2005-02-09 10:00:00') /* Lesser Shadow Wretch */;
+VALUES (0x7634803C, 0x7634803A, '2005-02-09 10:00:00') /* Lesser Void Knight (25662) */
+     , (0x7634803C, 0x7634803B, '2005-02-09 10:00:00') /* Lesser Shadow Wretch (25664) */
+     , (0x7634803C, 0x7634803D, '2005-02-09 10:00:00') /* Lesser Void Knight (25662) */
+     , (0x7634803C, 0x7634803E, '2005-02-09 10:00:00') /* Lesser Shadow Wretch (25664) */
+     , (0x7634803C, 0x7634803F, '2005-02-09 10:00:00') /* Lesser Void Knight (25662) */
+     , (0x7634803C, 0x76348040, '2005-02-09 10:00:00') /* Lesser Void Knight (25662) */
+     , (0x7634803C, 0x76348041, '2005-02-09 10:00:00') /* Tenebrous Shadow (23564) */
+     , (0x7634803C, 0x76348042, '2005-02-09 10:00:00') /* Lesser Void Knight (25662) */
+     , (0x7634803C, 0x76348043, '2005-02-09 10:00:00') /* Lesser Void Knight (25662) */
+     , (0x7634803C, 0x76348045, '2005-02-09 10:00:00') /* Panumbris Shadow (4253) */
+     , (0x7634803C, 0x76348046, '2005-02-09 10:00:00') /* Panumbris Shadow (4253) */
+     , (0x7634803C, 0x76348047, '2005-02-09 10:00:00') /* Panumbris Shadow (4253) */
+     , (0x7634803C, 0x76348048, '2005-02-09 10:00:00') /* Panumbris Shadow (4253) */
+     , (0x7634803C, 0x7634804A, '2005-02-09 10:00:00') /* Lesser Void Knight (25662) */
+     , (0x7634803C, 0x7634804B, '2005-02-09 10:00:00') /* Lesser Void Knight (25662) */
+     , (0x7634803C, 0x7634804E, '2005-02-09 10:00:00') /* Lesser Void Knight (25662) */
+     , (0x7634803C, 0x7634804F, '2005-02-09 10:00:00') /* Lesser Void Knight (25662) */
+     , (0x7634803C, 0x76348050, '2005-02-09 10:00:00') /* Lesser Shadow Wretch (25664) */
+     , (0x7634803C, 0x76348051, '2005-02-09 10:00:00') /* Lesser Void Knight (25662) */
+     , (0x7634803C, 0x76348052, '2005-02-09 10:00:00') /* Lesser Void Knight (25662) */
+     , (0x7634803C, 0x76348053, '2005-02-09 10:00:00') /* Lesser Shadow Wretch (25664) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7634803D, 25662, 0x6348010B, 20, -70, -59.9945, 1, 0, 0, 0,  True, '2005-02-09 10:00:00'); /* Lesser Void Knight */
@@ -355,7 +355,7 @@ VALUES (0x7634804D,  3951, 0x6348015A, 70, -50, -59.995, 1, 0, 0, 0, False, '200
 /* @teleloc 0x6348015A [70.000000 -50.000000 -59.995000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7634804D, 0x7634804C, '2005-02-09 10:00:00') /* Proselytic Shadow */;
+VALUES (0x7634804D, 0x7634804C, '2005-02-09 10:00:00') /* Proselytic Shadow (25673) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7634804E, 25662, 0x63480160, 70, -70, -59.9945, 1, 0, 0, 0,  True, '2005-02-09 10:00:00'); /* Lesser Void Knight */
@@ -498,49 +498,49 @@ VALUES (0x76348078,  7932, 0x634801E5, 50, -50, -47.995, 1, 0, 0, 0, False, '200
 /* @teleloc 0x634801E5 [50.000000 -50.000000 -47.995000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x76348078, 0x76348039, '2005-02-09 10:00:00') /* Umbris Shadow */
-     , (0x76348078, 0x76348044, '2005-02-09 10:00:00') /* Umbris Shadow */
-     , (0x76348078, 0x76348049, '2005-02-09 10:00:00') /* Umbris Shadow */
-     , (0x76348078, 0x76348054, '2005-02-09 10:00:00') /* Umbris Shadow */
-     , (0x76348078, 0x76348055, '2005-02-09 10:00:00') /* Umbris Shadow */
-     , (0x76348078, 0x76348056, '2005-02-09 10:00:00') /* Panumbris Shadow */
-     , (0x76348078, 0x76348057, '2005-02-09 10:00:00') /* Panumbris Shadow */
-     , (0x76348078, 0x76348058, '2005-02-09 10:00:00') /* Shadow Cyst */
-     , (0x76348078, 0x7634805C, '2005-02-09 10:00:00') /* Panumbris Shadow */
-     , (0x76348078, 0x7634805D, '2005-02-09 10:00:00') /* Umbris Shadow */
-     , (0x76348078, 0x76348066, '2005-02-09 10:00:00') /* Umbris Shadow */
-     , (0x76348078, 0x76348067, '2005-02-09 10:00:00') /* Panumbris Shadow */
-     , (0x76348078, 0x76348068, '2005-02-09 10:00:00') /* Panumbris Shadow */
-     , (0x76348078, 0x76348069, '2005-02-09 10:00:00') /* Panumbris Shadow */
-     , (0x76348078, 0x7634806A, '2005-02-09 10:00:00') /* Panumbris Shadow */
-     , (0x76348078, 0x7634806F, '2005-02-09 10:00:00') /* Panumbris Shadow */
-     , (0x76348078, 0x76348070, '2005-02-09 10:00:00') /* Panumbris Shadow */
-     , (0x76348078, 0x76348071, '2005-02-09 10:00:00') /* Umbris Shadow */
-     , (0x76348078, 0x76348072, '2005-02-09 10:00:00') /* Sinister Shadow */
-     , (0x76348078, 0x76348073, '2005-02-09 10:00:00') /* Shadow Cyst */
-     , (0x76348078, 0x76348074, '2005-02-09 10:00:00') /* Umbris Shadow */
-     , (0x76348078, 0x76348075, '2005-02-09 10:00:00') /* Shadow Cyst */
-     , (0x76348078, 0x76348076, '2005-02-09 10:00:00') /* Sinister Shadow */
-     , (0x76348078, 0x76348077, '2005-02-09 10:00:00') /* Umbris Shadow */
-     , (0x76348078, 0x7634807A, '2005-02-09 10:00:00') /* Umbris Shadow */
-     , (0x76348078, 0x7634807B, '2005-02-09 10:00:00') /* Sinister Shadow */
-     , (0x76348078, 0x7634807C, '2005-02-09 10:00:00') /* Shadow Cyst */
-     , (0x76348078, 0x7634807D, '2005-02-09 10:00:00') /* Umbris Shadow */
-     , (0x76348078, 0x7634807E, '2005-02-09 10:00:00') /* Shadow Cyst */
-     , (0x76348078, 0x7634807F, '2005-02-09 10:00:00') /* Sinister Shadow */;
+VALUES (0x76348078, 0x76348039, '2005-02-09 10:00:00') /* Umbris Shadow (4254) */
+     , (0x76348078, 0x76348044, '2005-02-09 10:00:00') /* Umbris Shadow (4254) */
+     , (0x76348078, 0x76348049, '2005-02-09 10:00:00') /* Umbris Shadow (4254) */
+     , (0x76348078, 0x76348054, '2005-02-09 10:00:00') /* Umbris Shadow (4254) */
+     , (0x76348078, 0x76348055, '2005-02-09 10:00:00') /* Umbris Shadow (4254) */
+     , (0x76348078, 0x76348056, '2005-02-09 10:00:00') /* Panumbris Shadow (4253) */
+     , (0x76348078, 0x76348057, '2005-02-09 10:00:00') /* Panumbris Shadow (4253) */
+     , (0x76348078, 0x76348058, '2005-02-09 10:00:00') /* Shadow Cyst (8105) */
+     , (0x76348078, 0x7634805C, '2005-02-09 10:00:00') /* Panumbris Shadow (4253) */
+     , (0x76348078, 0x7634805D, '2005-02-09 10:00:00') /* Umbris Shadow (4254) */
+     , (0x76348078, 0x76348066, '2005-02-09 10:00:00') /* Umbris Shadow (4254) */
+     , (0x76348078, 0x76348067, '2005-02-09 10:00:00') /* Panumbris Shadow (4253) */
+     , (0x76348078, 0x76348068, '2005-02-09 10:00:00') /* Panumbris Shadow (4253) */
+     , (0x76348078, 0x76348069, '2005-02-09 10:00:00') /* Panumbris Shadow (4253) */
+     , (0x76348078, 0x7634806A, '2005-02-09 10:00:00') /* Panumbris Shadow (4253) */
+     , (0x76348078, 0x7634806F, '2005-02-09 10:00:00') /* Panumbris Shadow (4253) */
+     , (0x76348078, 0x76348070, '2005-02-09 10:00:00') /* Panumbris Shadow (4253) */
+     , (0x76348078, 0x76348071, '2005-02-09 10:00:00') /* Umbris Shadow (4254) */
+     , (0x76348078, 0x76348072, '2005-02-09 10:00:00') /* Sinister Shadow (23563) */
+     , (0x76348078, 0x76348073, '2005-02-09 10:00:00') /* Shadow Cyst (8105) */
+     , (0x76348078, 0x76348074, '2005-02-09 10:00:00') /* Umbris Shadow (4254) */
+     , (0x76348078, 0x76348075, '2005-02-09 10:00:00') /* Shadow Cyst (8105) */
+     , (0x76348078, 0x76348076, '2005-02-09 10:00:00') /* Sinister Shadow (23563) */
+     , (0x76348078, 0x76348077, '2005-02-09 10:00:00') /* Umbris Shadow (4254) */
+     , (0x76348078, 0x7634807A, '2005-02-09 10:00:00') /* Umbris Shadow (4254) */
+     , (0x76348078, 0x7634807B, '2005-02-09 10:00:00') /* Sinister Shadow (23563) */
+     , (0x76348078, 0x7634807C, '2005-02-09 10:00:00') /* Shadow Cyst (8105) */
+     , (0x76348078, 0x7634807D, '2005-02-09 10:00:00') /* Umbris Shadow (4254) */
+     , (0x76348078, 0x7634807E, '2005-02-09 10:00:00') /* Shadow Cyst (8105) */
+     , (0x76348078, 0x7634807F, '2005-02-09 10:00:00') /* Sinister Shadow (23563) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x76348079,  7932, 0x634801E5, 50, -50, -47.995, 1, 0, 0, 0, False, '2005-02-09 10:00:00'); /* Linkable Monster Generator ( 4 Min.) */
 /* @teleloc 0x634801E5 [50.000000 -50.000000 -47.995000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x76348079, 0x7634805A, '2005-02-09 10:00:00') /* Shadow Cyst */
-     , (0x76348079, 0x7634805F, '2005-02-09 10:00:00') /* Shadow Cyst */
-     , (0x76348079, 0x76348061, '2005-02-09 10:00:00') /* Shadow Cyst */
-     , (0x76348079, 0x76348062, '2005-02-09 10:00:00') /* Shadow Cyst */
-     , (0x76348079, 0x76348065, '2005-02-09 10:00:00') /* Shadow Cyst */
-     , (0x76348079, 0x7634806C, '2005-02-09 10:00:00') /* Shadow Cyst */
-     , (0x76348079, 0x7634806E, '2005-02-09 10:00:00') /* Shadow Cyst */;
+VALUES (0x76348079, 0x7634805A, '2005-02-09 10:00:00') /* Shadow Cyst (8105) */
+     , (0x76348079, 0x7634805F, '2005-02-09 10:00:00') /* Shadow Cyst (8105) */
+     , (0x76348079, 0x76348061, '2005-02-09 10:00:00') /* Shadow Cyst (8105) */
+     , (0x76348079, 0x76348062, '2005-02-09 10:00:00') /* Shadow Cyst (8105) */
+     , (0x76348079, 0x76348065, '2005-02-09 10:00:00') /* Shadow Cyst (8105) */
+     , (0x76348079, 0x7634806C, '2005-02-09 10:00:00') /* Shadow Cyst (8105) */
+     , (0x76348079, 0x7634806E, '2005-02-09 10:00:00') /* Shadow Cyst (8105) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7634807A,  4254, 0x634801E6, 50, -60, -47.995, 1, 0, 0, 0,  True, '2005-02-09 10:00:00'); /* Umbris Shadow */
@@ -575,7 +575,7 @@ VALUES (0x76348081, 15759, 0x63480209, 46.624, -63.6065, -29.995, 0.561168, 0, 0
 /* @teleloc 0x63480209 [46.624000 -63.606500 -29.995000] 0.561168 0.000000 0.000000 0.827702 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x76348081, 0x76348080, '2005-02-09 10:00:00') /* Bewren's Journal */;
+VALUES (0x76348081, 0x76348080, '2005-02-09 10:00:00') /* Bewren's Journal (25679) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x76348082, 22749, 0x634802F7, 91.0501, -135.502, 0.005, 0.999687, 0, 0, -0.0249976,  True, '2005-02-09 10:00:00'); /* Twitch */
@@ -586,14 +586,14 @@ VALUES (0x76348083,  3951, 0x634802F7, 91.1008, -135.534, 0.005, 0.999687, 0, 0,
 /* @teleloc 0x634802F7 [91.100800 -135.534000 0.005000] 0.999687 0.000000 0.000000 -0.024998 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x76348083, 0x76348082, '2005-02-09 10:00:00') /* Twitch */;
+VALUES (0x76348083, 0x76348082, '2005-02-09 10:00:00') /* Twitch (22749) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x76348084, 15759, 0x63480300, 97.1546, -56.5873, 0.005, 0.954724, 0, 0, 0.297493, False, '2005-02-09 10:00:00'); /* Linkable Item Generator */
 /* @teleloc 0x63480300 [97.154600 -56.587300 0.005000] 0.954724 0.000000 0.000000 0.297493 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x76348084, 0x76348085, '2005-02-09 10:00:00') /* Jaeget's Journal */;
+VALUES (0x76348084, 0x76348085, '2005-02-09 10:00:00') /* Jaeget's Journal (25680) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x76348085, 25680, 0x63480300, 97.1546, -56.5873, 0.079, 0.954724, 0, 0, 0.297493,  True, '2005-02-09 10:00:00'); /* Jaeget's Journal */
@@ -608,7 +608,7 @@ VALUES (0x76348087, 15759, 0x63480313, 99.7859, -203.235, 0.005, 0.032935, 0, 0,
 /* @teleloc 0x63480313 [99.785900 -203.235000 0.005000] 0.032935 0.000000 0.000000 -0.999457 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x76348087, 0x76348086, '2005-02-09 10:00:00') /* Note */;
+VALUES (0x76348087, 0x76348086, '2005-02-09 10:00:00') /* Note (25681) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x76348088,   190, 0x6348020D, 50, -150, -11.995, 0.696707, 0, 0, -0.717356,  True, '2005-02-09 10:00:00'); /* Cultist Cohort */
@@ -811,7 +811,7 @@ VALUES (0x763480C2,  7925, 0x63480304, 99.2178, -110.033, 0.005, 0.497571, 0, 0,
 /* @teleloc 0x63480304 [99.217800 -110.033000 0.005000] 0.497571 0.000000 0.000000 -0.867423 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x763480C2, 0x763480C1, '2005-02-09 10:00:00') /* Dual Fragment */;
+VALUES (0x763480C2, 0x763480C1, '2005-02-09 10:00:00') /* Dual Fragment (8012) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x763480C3, 11501, 0x63480305, 99.8107, -122.273, 0.005, -0.999738, 0, 0, -0.0229053,  True, '2005-02-09 10:00:00'); /* Cultist */
@@ -830,132 +830,132 @@ VALUES (0x763480C8,  7932, 0x63480313, 96.006, -202.276, 0.005, 0.684682, 0, 0, 
 /* @teleloc 0x63480313 [96.006000 -202.276000 0.005000] 0.684682 0.000000 0.000000 0.728842 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x763480C8, 0x76348089, '2005-02-09 10:00:00') /* Cultist Cohort */
-     , (0x763480C8, 0x7634808A, '2005-02-09 10:00:00') /* Cultist Cohort */
-     , (0x763480C8, 0x7634808C, '2005-02-09 10:00:00') /* Cultist Priest */
-     , (0x763480C8, 0x7634808E, '2005-02-09 10:00:00') /* Cultist Priest */
-     , (0x763480C8, 0x76348090, '2005-02-09 10:00:00') /* Cultist High Priest */
-     , (0x763480C8, 0x76348096, '2005-02-09 10:00:00') /* Cultist High Priest */
-     , (0x763480C8, 0x7634809A, '2005-02-09 10:00:00') /* Cultist Priest */
-     , (0x763480C8, 0x7634809B, '2005-02-09 10:00:00') /* Cultist High Priest */
-     , (0x763480C8, 0x7634809C, '2005-02-09 10:00:00') /* Cultist Cohort */
-     , (0x763480C8, 0x7634809F, '2005-02-09 10:00:00') /* Cultist Cohort */
-     , (0x763480C8, 0x763480A0, '2005-02-09 10:00:00') /* Cultist Cohort */
-     , (0x763480C8, 0x763480A3, '2005-02-09 10:00:00') /* Cultist High Priest */
-     , (0x763480C8, 0x763480A4, '2005-02-09 10:00:00') /* Cultist Cohort */
-     , (0x763480C8, 0x763480A5, '2005-02-09 10:00:00') /* Cultist Cohort */
-     , (0x763480C8, 0x763480B0, '2005-02-09 10:00:00') /* Cultist Cohort */
-     , (0x763480C8, 0x763480B1, '2005-02-09 10:00:00') /* Cultist Cohort */
-     , (0x763480C8, 0x763480B2, '2005-02-09 10:00:00') /* Cultist Cohort */
-     , (0x763480C8, 0x763480B3, '2005-02-09 10:00:00') /* Cultist Cohort */
-     , (0x763480C8, 0x763480B5, '2005-02-09 10:00:00') /* Shadow Wisp */
-     , (0x763480C8, 0x763480B6, '2005-02-09 10:00:00') /* Cultist Priest */
-     , (0x763480C8, 0x763480C4, '2005-02-09 10:00:00') /* Cultist */
-     , (0x763480C8, 0x763480C7, '2005-02-09 10:00:00') /* Cultist */
-     , (0x763480C8, 0x763480CE, '2005-02-09 10:00:00') /* Cultist */
-     , (0x763480C8, 0x763480CF, '2005-02-09 10:00:00') /* Cultist */
-     , (0x763480C8, 0x763480D2, '2005-02-09 10:00:00') /* Cultist Priest */
-     , (0x763480C8, 0x763480D3, '2005-02-09 10:00:00') /* Summoned Pulsar Wisp */;
+VALUES (0x763480C8, 0x76348089, '2005-02-09 10:00:00') /* Cultist Cohort (190) */
+     , (0x763480C8, 0x7634808A, '2005-02-09 10:00:00') /* Cultist Cohort (190) */
+     , (0x763480C8, 0x7634808C, '2005-02-09 10:00:00') /* Cultist Priest (191) */
+     , (0x763480C8, 0x7634808E, '2005-02-09 10:00:00') /* Cultist Priest (191) */
+     , (0x763480C8, 0x76348090, '2005-02-09 10:00:00') /* Cultist High Priest (189) */
+     , (0x763480C8, 0x76348096, '2005-02-09 10:00:00') /* Cultist High Priest (189) */
+     , (0x763480C8, 0x7634809A, '2005-02-09 10:00:00') /* Cultist Priest (191) */
+     , (0x763480C8, 0x7634809B, '2005-02-09 10:00:00') /* Cultist High Priest (189) */
+     , (0x763480C8, 0x7634809C, '2005-02-09 10:00:00') /* Cultist Cohort (190) */
+     , (0x763480C8, 0x7634809F, '2005-02-09 10:00:00') /* Cultist Cohort (190) */
+     , (0x763480C8, 0x763480A0, '2005-02-09 10:00:00') /* Cultist Cohort (190) */
+     , (0x763480C8, 0x763480A3, '2005-02-09 10:00:00') /* Cultist High Priest (189) */
+     , (0x763480C8, 0x763480A4, '2005-02-09 10:00:00') /* Cultist Cohort (190) */
+     , (0x763480C8, 0x763480A5, '2005-02-09 10:00:00') /* Cultist Cohort (190) */
+     , (0x763480C8, 0x763480B0, '2005-02-09 10:00:00') /* Cultist Cohort (190) */
+     , (0x763480C8, 0x763480B1, '2005-02-09 10:00:00') /* Cultist Cohort (190) */
+     , (0x763480C8, 0x763480B2, '2005-02-09 10:00:00') /* Cultist Cohort (190) */
+     , (0x763480C8, 0x763480B3, '2005-02-09 10:00:00') /* Cultist Cohort (190) */
+     , (0x763480C8, 0x763480B5, '2005-02-09 10:00:00') /* Shadow Wisp (1989) */
+     , (0x763480C8, 0x763480B6, '2005-02-09 10:00:00') /* Cultist Priest (191) */
+     , (0x763480C8, 0x763480C4, '2005-02-09 10:00:00') /* Cultist (11501) */
+     , (0x763480C8, 0x763480C7, '2005-02-09 10:00:00') /* Cultist (11501) */
+     , (0x763480C8, 0x763480CE, '2005-02-09 10:00:00') /* Cultist (11501) */
+     , (0x763480C8, 0x763480CF, '2005-02-09 10:00:00') /* Cultist (11501) */
+     , (0x763480C8, 0x763480D2, '2005-02-09 10:00:00') /* Cultist Priest (191) */
+     , (0x763480C8, 0x763480D3, '2005-02-09 10:00:00') /* Summoned Pulsar Wisp (9099) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x763480C9,  7932, 0x63480313, 103.977, -202.289, 0.005, -0.666276, 0, 0, 0.745705, False, '2005-02-09 10:00:00'); /* Linkable Monster Generator ( 4 Min.) */
 /* @teleloc 0x63480313 [103.977000 -202.289000 0.005000] -0.666276 0.000000 0.000000 0.745705 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x763480C9, 0x76348088, '2005-02-09 10:00:00') /* Cultist Cohort */
-     , (0x763480C9, 0x7634808B, '2005-02-09 10:00:00') /* Cultist Cohort */
-     , (0x763480C9, 0x763480B4, '2005-02-09 10:00:00') /* Cultist Cohort */
-     , (0x763480C9, 0x763480B7, '2005-02-09 10:00:00') /* Cultist */
-     , (0x763480C9, 0x763480B9, '2005-02-09 10:00:00') /* Cultist Cohort */
-     , (0x763480C9, 0x763480BA, '2005-02-09 10:00:00') /* Cultist */
-     , (0x763480C9, 0x763480BB, '2005-02-09 10:00:00') /* Cultist Cohort */
-     , (0x763480C9, 0x763480BC, '2005-02-09 10:00:00') /* Cultist Cohort */
-     , (0x763480C9, 0x763480C0, '2005-02-09 10:00:00') /* Cultist */
-     , (0x763480C9, 0x763480C3, '2005-02-09 10:00:00') /* Cultist */
-     , (0x763480C9, 0x763480CD, '2005-02-09 10:00:00') /* Cultist Cohort */
-     , (0x763480C9, 0x763480D0, '2005-02-09 10:00:00') /* Cultist */
-     , (0x763480C9, 0x763480D4, '2005-02-09 10:00:00') /* Cultist Cohort */
-     , (0x763480C9, 0x763480D5, '2005-02-09 10:00:00') /* Cultist Cohort */
-     , (0x763480C9, 0x763480D6, '2005-02-09 10:00:00') /* Cultist Cohort */
-     , (0x763480C9, 0x763480D7, '2005-02-09 10:00:00') /* Cultist Cohort */
-     , (0x763480C9, 0x763480D8, '2005-02-09 10:00:00') /* Cultist Cohort */
-     , (0x763480C9, 0x763480D9, '2005-02-09 10:00:00') /* Cultist Priest */
-     , (0x763480C9, 0x763480DA, '2005-02-09 10:00:00') /* Cultist */
-     , (0x763480C9, 0x763480DE, '2005-02-09 10:00:00') /* Cultist */
-     , (0x763480C9, 0x763480ED, '2005-02-09 10:00:00') /* Cultist */
-     , (0x763480C9, 0x763480F0, '2005-02-09 10:00:00') /* Cultist Priest */
-     , (0x763480C9, 0x763480F1, '2005-02-09 10:00:00') /* Cultist Cohort */
-     , (0x763480C9, 0x763480F2, '2005-02-09 10:00:00') /* Cultist Cohort */
-     , (0x763480C9, 0x763480F3, '2005-02-09 10:00:00') /* Cultist */
-     , (0x763480C9, 0x763480F4, '2005-02-09 10:00:00') /* Cultist */
-     , (0x763480C9, 0x763480F6, '2005-02-09 10:00:00') /* Cultist Cohort */
-     , (0x763480C9, 0x763480F7, '2005-02-09 10:00:00') /* Cultist Cohort */;
+VALUES (0x763480C9, 0x76348088, '2005-02-09 10:00:00') /* Cultist Cohort (190) */
+     , (0x763480C9, 0x7634808B, '2005-02-09 10:00:00') /* Cultist Cohort (190) */
+     , (0x763480C9, 0x763480B4, '2005-02-09 10:00:00') /* Cultist Cohort (190) */
+     , (0x763480C9, 0x763480B7, '2005-02-09 10:00:00') /* Cultist (11501) */
+     , (0x763480C9, 0x763480B9, '2005-02-09 10:00:00') /* Cultist Cohort (190) */
+     , (0x763480C9, 0x763480BA, '2005-02-09 10:00:00') /* Cultist (11501) */
+     , (0x763480C9, 0x763480BB, '2005-02-09 10:00:00') /* Cultist Cohort (190) */
+     , (0x763480C9, 0x763480BC, '2005-02-09 10:00:00') /* Cultist Cohort (190) */
+     , (0x763480C9, 0x763480C0, '2005-02-09 10:00:00') /* Cultist (11501) */
+     , (0x763480C9, 0x763480C3, '2005-02-09 10:00:00') /* Cultist (11501) */
+     , (0x763480C9, 0x763480CD, '2005-02-09 10:00:00') /* Cultist Cohort (190) */
+     , (0x763480C9, 0x763480D0, '2005-02-09 10:00:00') /* Cultist (11501) */
+     , (0x763480C9, 0x763480D4, '2005-02-09 10:00:00') /* Cultist Cohort (190) */
+     , (0x763480C9, 0x763480D5, '2005-02-09 10:00:00') /* Cultist Cohort (190) */
+     , (0x763480C9, 0x763480D6, '2005-02-09 10:00:00') /* Cultist Cohort (190) */
+     , (0x763480C9, 0x763480D7, '2005-02-09 10:00:00') /* Cultist Cohort (190) */
+     , (0x763480C9, 0x763480D8, '2005-02-09 10:00:00') /* Cultist Cohort (190) */
+     , (0x763480C9, 0x763480D9, '2005-02-09 10:00:00') /* Cultist Priest (191) */
+     , (0x763480C9, 0x763480DA, '2005-02-09 10:00:00') /* Cultist (11501) */
+     , (0x763480C9, 0x763480DE, '2005-02-09 10:00:00') /* Cultist (11501) */
+     , (0x763480C9, 0x763480ED, '2005-02-09 10:00:00') /* Cultist (11501) */
+     , (0x763480C9, 0x763480F0, '2005-02-09 10:00:00') /* Cultist Priest (191) */
+     , (0x763480C9, 0x763480F1, '2005-02-09 10:00:00') /* Cultist Cohort (190) */
+     , (0x763480C9, 0x763480F2, '2005-02-09 10:00:00') /* Cultist Cohort (190) */
+     , (0x763480C9, 0x763480F3, '2005-02-09 10:00:00') /* Cultist (11501) */
+     , (0x763480C9, 0x763480F4, '2005-02-09 10:00:00') /* Cultist (11501) */
+     , (0x763480C9, 0x763480F6, '2005-02-09 10:00:00') /* Cultist Cohort (190) */
+     , (0x763480C9, 0x763480F7, '2005-02-09 10:00:00') /* Cultist Cohort (190) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x763480CA,  7932, 0x63480313, 96.0038, -197.668, 0.005, 0.721781, 0, 0, 0.692122, False, '2005-02-09 10:00:00'); /* Linkable Monster Generator ( 4 Min.) */
 /* @teleloc 0x63480313 [96.003800 -197.668000 0.005000] 0.721781 0.000000 0.000000 0.692122 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x763480CA, 0x763480BD, '2005-02-09 10:00:00') /* Apozim */
-     , (0x763480CA, 0x763480BE, '2005-02-09 10:00:00') /* Mox */
-     , (0x763480CA, 0x763480BF, '2005-02-09 10:00:00') /* Stringent */
-     , (0x763480CA, 0x763480DB, '2005-02-09 10:00:00') /* Cultist */
-     , (0x763480CA, 0x763480DD, '2005-02-09 10:00:00') /* Cultist */
-     , (0x763480CA, 0x763480DF, '2005-02-09 10:00:00') /* Cultist Cohort */
-     , (0x763480CA, 0x763480E0, '2005-02-09 10:00:00') /* Voltarc */
-     , (0x763480CA, 0x763480E1, '2005-02-09 10:00:00') /* Charge */
-     , (0x763480CA, 0x763480E2, '2005-02-09 10:00:00') /* Scintilla */
-     , (0x763480CA, 0x763480E4, '2005-02-09 10:00:00') /* Cultist Cohort */
-     , (0x763480CA, 0x763480E5, '2005-02-09 10:00:00') /* Gout */
-     , (0x763480CA, 0x763480E6, '2005-02-09 10:00:00') /* Ember */
-     , (0x763480CA, 0x763480E7, '2005-02-09 10:00:00') /* Inferno */
-     , (0x763480CA, 0x763480E8, '2005-02-09 10:00:00') /* Cultist Priest */
-     , (0x763480CA, 0x763480EC, '2005-02-09 10:00:00') /* Cultist Cohort */
-     , (0x763480CA, 0x763480EE, '2005-02-09 10:00:00') /* Cultist */
-     , (0x763480CA, 0x763480EF, '2005-02-09 10:00:00') /* Cultist */
-     , (0x763480CA, 0x763480F5, '2005-02-09 10:00:00') /* Cultist Cohort */
-     , (0x763480CA, 0x763480FE, '2005-02-09 10:00:00') /* Cultist Cohort */
-     , (0x763480CA, 0x763480FF, '2005-02-09 10:00:00') /* Cultist Cohort */
-     , (0x763480CA, 0x76348101, '2005-02-09 10:00:00') /* Cultist High Priest */
-     , (0x763480CA, 0x76348102, '2005-02-09 10:00:00') /* Cultist Priest */
-     , (0x763480CA, 0x76348103, '2005-02-09 10:00:00') /* Cultist Priest */
-     , (0x763480CA, 0x76348104, '2005-02-09 10:00:00') /* Cultist Cohort */
-     , (0x763480CA, 0x76348105, '2005-02-09 10:00:00') /* Cultist */
-     , (0x763480CA, 0x76348106, '2005-02-09 10:00:00') /* Cultist */
-     , (0x763480CA, 0x76348107, '2005-02-09 10:00:00') /* Mist Golem */
-     , (0x763480CA, 0x7634810A, '2005-02-09 10:00:00') /* Cultist */;
+VALUES (0x763480CA, 0x763480BD, '2005-02-09 10:00:00') /* Apozim (20186) */
+     , (0x763480CA, 0x763480BE, '2005-02-09 10:00:00') /* Mox (20188) */
+     , (0x763480CA, 0x763480BF, '2005-02-09 10:00:00') /* Stringent (21162) */
+     , (0x763480CA, 0x763480DB, '2005-02-09 10:00:00') /* Cultist (11501) */
+     , (0x763480CA, 0x763480DD, '2005-02-09 10:00:00') /* Cultist (11501) */
+     , (0x763480CA, 0x763480DF, '2005-02-09 10:00:00') /* Cultist Cohort (190) */
+     , (0x763480CA, 0x763480E0, '2005-02-09 10:00:00') /* Voltarc (21170) */
+     , (0x763480CA, 0x763480E1, '2005-02-09 10:00:00') /* Charge (21168) */
+     , (0x763480CA, 0x763480E2, '2005-02-09 10:00:00') /* Scintilla (21169) */
+     , (0x763480CA, 0x763480E4, '2005-02-09 10:00:00') /* Cultist Cohort (190) */
+     , (0x763480CA, 0x763480E5, '2005-02-09 10:00:00') /* Gout (21164) */
+     , (0x763480CA, 0x763480E6, '2005-02-09 10:00:00') /* Ember (7607) */
+     , (0x763480CA, 0x763480E7, '2005-02-09 10:00:00') /* Inferno (7487) */
+     , (0x763480CA, 0x763480E8, '2005-02-09 10:00:00') /* Cultist Priest (191) */
+     , (0x763480CA, 0x763480EC, '2005-02-09 10:00:00') /* Cultist Cohort (190) */
+     , (0x763480CA, 0x763480EE, '2005-02-09 10:00:00') /* Cultist (11501) */
+     , (0x763480CA, 0x763480EF, '2005-02-09 10:00:00') /* Cultist (11501) */
+     , (0x763480CA, 0x763480F5, '2005-02-09 10:00:00') /* Cultist Cohort (190) */
+     , (0x763480CA, 0x763480FE, '2005-02-09 10:00:00') /* Cultist Cohort (190) */
+     , (0x763480CA, 0x763480FF, '2005-02-09 10:00:00') /* Cultist Cohort (190) */
+     , (0x763480CA, 0x76348101, '2005-02-09 10:00:00') /* Cultist High Priest (189) */
+     , (0x763480CA, 0x76348102, '2005-02-09 10:00:00') /* Cultist Priest (191) */
+     , (0x763480CA, 0x76348103, '2005-02-09 10:00:00') /* Cultist Priest (191) */
+     , (0x763480CA, 0x76348104, '2005-02-09 10:00:00') /* Cultist Cohort (190) */
+     , (0x763480CA, 0x76348105, '2005-02-09 10:00:00') /* Cultist (11501) */
+     , (0x763480CA, 0x76348106, '2005-02-09 10:00:00') /* Cultist (11501) */
+     , (0x763480CA, 0x76348107, '2005-02-09 10:00:00') /* Mist Golem (22933) */
+     , (0x763480CA, 0x7634810A, '2005-02-09 10:00:00') /* Cultist (11501) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x763480CB,  7932, 0x63480313, 103.859, -197.822, 0.005, 0.708565, 0, 0, -0.705645, False, '2005-02-09 10:00:00'); /* Linkable Monster Generator ( 4 Min.) */
 /* @teleloc 0x63480313 [103.859000 -197.822000 0.005000] 0.708565 0.000000 0.000000 -0.705645 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x763480CB, 0x76348093, '2005-02-09 10:00:00') /* Cultist Cohort */
-     , (0x763480CB, 0x76348095, '2005-02-09 10:00:00') /* Cultist Cohort */
-     , (0x763480CB, 0x76348097, '2005-02-09 10:00:00') /* Cultist Priest */
-     , (0x763480CB, 0x7634809D, '2005-02-09 10:00:00') /* Cultist */
-     , (0x763480CB, 0x763480A1, '2005-02-09 10:00:00') /* Cultist Cohort */
-     , (0x763480CB, 0x763480A2, '2005-02-09 10:00:00') /* Cultist Priest */
-     , (0x763480CB, 0x763480A6, '2005-02-09 10:00:00') /* Cultist Cohort */
-     , (0x763480CB, 0x763480A8, '2005-02-09 10:00:00') /* Cultist Priest */
-     , (0x763480CB, 0x763480A9, '2005-02-09 10:00:00') /* Cultist Priest */
-     , (0x763480CB, 0x763480AA, '2005-02-09 10:00:00') /* Cultist Cohort */
-     , (0x763480CB, 0x763480AB, '2005-02-09 10:00:00') /* Cultist Cohort */
-     , (0x763480CB, 0x763480AC, '2005-02-09 10:00:00') /* Cultist Cohort */
-     , (0x763480CB, 0x763480AD, '2005-02-09 10:00:00') /* Cultist Cohort */
-     , (0x763480CB, 0x763480AE, '2005-02-09 10:00:00') /* Cultist Priest */
-     , (0x763480CB, 0x763480AF, '2005-02-09 10:00:00') /* Cultist Cohort */
-     , (0x763480CB, 0x763480B8, '2005-02-09 10:00:00') /* Cultist Cohort */
-     , (0x763480CB, 0x763480D1, '2005-02-09 10:00:00') /* Cultist Cohort */
-     , (0x763480CB, 0x763480F8, '2005-02-09 10:00:00') /* Cultist Cohort */
-     , (0x763480CB, 0x763480F9, '2005-02-09 10:00:00') /* Hyem */
-     , (0x763480CB, 0x763480FA, '2005-02-09 10:00:00') /* Chill */
-     , (0x763480CB, 0x763480FB, '2005-02-09 10:00:00') /* Frost */
-     , (0x763480CB, 0x763480FC, '2005-02-09 10:00:00') /* Flake */
-     , (0x763480CB, 0x763480FD, '2005-02-09 10:00:00') /* Flake */
-     , (0x763480CB, 0x76348100, '2005-02-09 10:00:00') /* Cultist Cohort */
-     , (0x763480CB, 0x76348108, '2005-02-09 10:00:00') /* Cultist Priest */
-     , (0x763480CB, 0x76348109, '2005-02-09 10:00:00') /* Cultist */;
+VALUES (0x763480CB, 0x76348093, '2005-02-09 10:00:00') /* Cultist Cohort (190) */
+     , (0x763480CB, 0x76348095, '2005-02-09 10:00:00') /* Cultist Cohort (190) */
+     , (0x763480CB, 0x76348097, '2005-02-09 10:00:00') /* Cultist Priest (191) */
+     , (0x763480CB, 0x7634809D, '2005-02-09 10:00:00') /* Cultist (11501) */
+     , (0x763480CB, 0x763480A1, '2005-02-09 10:00:00') /* Cultist Cohort (190) */
+     , (0x763480CB, 0x763480A2, '2005-02-09 10:00:00') /* Cultist Priest (191) */
+     , (0x763480CB, 0x763480A6, '2005-02-09 10:00:00') /* Cultist Cohort (190) */
+     , (0x763480CB, 0x763480A8, '2005-02-09 10:00:00') /* Cultist Priest (191) */
+     , (0x763480CB, 0x763480A9, '2005-02-09 10:00:00') /* Cultist Priest (191) */
+     , (0x763480CB, 0x763480AA, '2005-02-09 10:00:00') /* Cultist Cohort (190) */
+     , (0x763480CB, 0x763480AB, '2005-02-09 10:00:00') /* Cultist Cohort (190) */
+     , (0x763480CB, 0x763480AC, '2005-02-09 10:00:00') /* Cultist Cohort (190) */
+     , (0x763480CB, 0x763480AD, '2005-02-09 10:00:00') /* Cultist Cohort (190) */
+     , (0x763480CB, 0x763480AE, '2005-02-09 10:00:00') /* Cultist Priest (191) */
+     , (0x763480CB, 0x763480AF, '2005-02-09 10:00:00') /* Cultist Cohort (190) */
+     , (0x763480CB, 0x763480B8, '2005-02-09 10:00:00') /* Cultist Cohort (190) */
+     , (0x763480CB, 0x763480D1, '2005-02-09 10:00:00') /* Cultist Cohort (190) */
+     , (0x763480CB, 0x763480F8, '2005-02-09 10:00:00') /* Cultist Cohort (190) */
+     , (0x763480CB, 0x763480F9, '2005-02-09 10:00:00') /* Hyem (14875) */
+     , (0x763480CB, 0x763480FA, '2005-02-09 10:00:00') /* Chill (21165) */
+     , (0x763480CB, 0x763480FB, '2005-02-09 10:00:00') /* Frost (14517) */
+     , (0x763480CB, 0x763480FC, '2005-02-09 10:00:00') /* Flake (21166) */
+     , (0x763480CB, 0x763480FD, '2005-02-09 10:00:00') /* Flake (21166) */
+     , (0x763480CB, 0x76348100, '2005-02-09 10:00:00') /* Cultist Cohort (190) */
+     , (0x763480CB, 0x76348108, '2005-02-09 10:00:00') /* Cultist Priest (191) */
+     , (0x763480CB, 0x76348109, '2005-02-09 10:00:00') /* Cultist (11501) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x763480CC,  7932, 0x63480313, 102.215, -195.981, 0.005, -0.999317, 0, 0, 0.03695, False, '2005-02-09 10:00:00'); /* Linkable Monster Generator ( 4 Min.) */
@@ -1078,7 +1078,7 @@ VALUES (0x763480EB,  3953, 0x63480395, 100, -180, 6.005, 1, 0, 0, 0, False, '200
 /* @teleloc 0x63480395 [100.000000 -180.000000 6.005000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x763480EB, 0x763480EA, '2005-02-09 10:00:00') /* The Black Breath */;
+VALUES (0x763480EB, 0x763480EA, '2005-02-09 10:00:00') /* The Black Breath (8583) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x763480EC,   190, 0x6348039F, 109.022, -103.747, 6.005, -0.998925, 0, 0, 0.0463586,  True, '2005-02-09 10:00:00'); /* Cultist Cohort */

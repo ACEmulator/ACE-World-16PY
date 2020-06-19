@@ -21,10 +21,10 @@ VALUES (0x7BAEB006,  7924, 0xBAEB0000, 21.5414, 172.434, -0.095, 0.260299, 0, 0,
 /* @teleloc 0xBAEB0000 [21.541400 172.434000 -0.095000] 0.260299 0.000000 0.000000 0.965528 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BAEB006, 0x7BAEB000, '2005-02-09 10:00:00') /* Coral Golem */
-     , (0x7BAEB006, 0x7BAEB001, '2005-02-09 10:00:00') /* Coral Golem */
-     , (0x7BAEB006, 0x7BAEB003, '2005-02-09 10:00:00') /* Coral Golem */
-     , (0x7BAEB006, 0x7BAEB005, '2005-02-09 10:00:00') /* Coral Golem */;
+VALUES (0x7BAEB006, 0x7BAEB000, '2005-02-09 10:00:00') /* Coral Golem (7507) */
+     , (0x7BAEB006, 0x7BAEB001, '2005-02-09 10:00:00') /* Coral Golem (7507) */
+     , (0x7BAEB006, 0x7BAEB003, '2005-02-09 10:00:00') /* Coral Golem (7626) */
+     , (0x7BAEB006, 0x7BAEB005, '2005-02-09 10:00:00') /* Coral Golem (7626) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BAEB007,  7215, 0xBAEB0000, 61.234, 181.796, -0.445, -0.698891, 0, 0, 0.715228, False, '2005-02-09 10:00:00'); /* Aerlinthe Ash East Mix Gen */

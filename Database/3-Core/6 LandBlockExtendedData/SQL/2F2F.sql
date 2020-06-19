@@ -65,12 +65,12 @@ VALUES (0x72F2F00F,  3953, 0x2F2F0000, 123.984, 49.1467, 2.005, -0.997366, 0, 0,
 /* @teleloc 0x2F2F0000 [123.984000 49.146700 2.005000] -0.997366 0.000000 0.000000 -0.072530 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72F2F00F, 0x72F2F009, '2005-02-09 10:00:00') /* Tusker Guard */
-     , (0x72F2F00F, 0x72F2F00A, '2005-02-09 10:00:00') /* Tusker Guard */
-     , (0x72F2F00F, 0x72F2F00B, '2005-02-09 10:00:00') /* Tusker Guard */
-     , (0x72F2F00F, 0x72F2F00C, '2005-02-09 10:00:00') /* Tusker Guard */
-     , (0x72F2F00F, 0x72F2F00D, '2005-02-09 10:00:00') /* Tusker Guard */
-     , (0x72F2F00F, 0x72F2F00E, '2005-02-09 10:00:00') /* Tusker Guard */;
+VALUES (0x72F2F00F, 0x72F2F009, '2005-02-09 10:00:00') /* Tusker Guard (1629) */
+     , (0x72F2F00F, 0x72F2F00A, '2005-02-09 10:00:00') /* Tusker Guard (1629) */
+     , (0x72F2F00F, 0x72F2F00B, '2005-02-09 10:00:00') /* Tusker Guard (1629) */
+     , (0x72F2F00F, 0x72F2F00C, '2005-02-09 10:00:00') /* Tusker Guard (1629) */
+     , (0x72F2F00F, 0x72F2F00D, '2005-02-09 10:00:00') /* Tusker Guard (1629) */
+     , (0x72F2F00F, 0x72F2F00E, '2005-02-09 10:00:00') /* Tusker Guard (1629) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72F2F010,  5403, 0x2F2F0000, 158.53, 58.3353, 2.005, 0.588121, 0, 0, 0.808773, False, '2005-02-09 10:00:00'); /* Huge Virindi Mana Field */
@@ -93,21 +93,21 @@ VALUES (0x72F2F014,  5485, 0x2F2F0000, 124.069, 52.1698, 2.005, 0.99333, 0, 0, -
 /* @teleloc 0x2F2F0000 [124.069000 52.169800 2.005000] 0.993330 0.000000 0.000000 -0.115306 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72F2F014, 0x72F2F000, '2005-02-09 10:00:00') /* Virindi Servant */
-     , (0x72F2F014, 0x72F2F001, '2005-02-09 10:00:00') /* Virindi Servant */
-     , (0x72F2F014, 0x72F2F002, '2005-02-09 10:00:00') /* Virindi Servant */;
+VALUES (0x72F2F014, 0x72F2F000, '2005-02-09 10:00:00') /* Virindi Servant (23) */
+     , (0x72F2F014, 0x72F2F001, '2005-02-09 10:00:00') /* Virindi Servant (23) */
+     , (0x72F2F014, 0x72F2F002, '2005-02-09 10:00:00') /* Virindi Servant (23) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72F2F015,  3955, 0x2F2F0000, 126.428, 49.504, 2.005, -0.997366, 0, 0, -0.0725296, False, '2005-02-09 10:00:00'); /* Linkable Monster Gen (15 min.) */
 /* @teleloc 0x2F2F0000 [126.428000 49.504000 2.005000] -0.997366 0.000000 0.000000 -0.072530 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72F2F015, 0x72F2F003, '2005-02-09 10:00:00') /* Virindi Master */
-     , (0x72F2F015, 0x72F2F004, '2005-02-09 10:00:00') /* Virindi Master */
-     , (0x72F2F015, 0x72F2F005, '2005-02-09 10:00:00') /* Virindi Master */
-     , (0x72F2F015, 0x72F2F006, '2005-02-09 10:00:00') /* Virindi Puppet */
-     , (0x72F2F015, 0x72F2F007, '2005-02-09 10:00:00') /* Virindi Puppet */
-     , (0x72F2F015, 0x72F2F008, '2005-02-09 10:00:00') /* Virindi Puppet */;
+VALUES (0x72F2F015, 0x72F2F003, '2005-02-09 10:00:00') /* Virindi Master (237) */
+     , (0x72F2F015, 0x72F2F004, '2005-02-09 10:00:00') /* Virindi Master (237) */
+     , (0x72F2F015, 0x72F2F005, '2005-02-09 10:00:00') /* Virindi Master (237) */
+     , (0x72F2F015, 0x72F2F006, '2005-02-09 10:00:00') /* Virindi Puppet (238) */
+     , (0x72F2F015, 0x72F2F007, '2005-02-09 10:00:00') /* Virindi Puppet (238) */
+     , (0x72F2F015, 0x72F2F008, '2005-02-09 10:00:00') /* Virindi Puppet (238) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72F2F016,  5405, 0x2F2F0000, 126.361, 64, 2, -0.880907, 0, 0, -0.473289, False, '2005-02-09 10:00:00'); /* Medium Virindi Mana Field */

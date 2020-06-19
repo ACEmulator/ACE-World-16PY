@@ -13,11 +13,11 @@ VALUES (0x7A01C007,  7923, 0xA01C0000, 181.053, 81.2434, 333.688, 0.623628, 0, 0
 /* @teleloc 0xA01C0000 [181.053000 81.243400 333.688000] 0.623628 0.000000 0.000000 -0.781721 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A01C007, 0x7A01C005, '2005-02-09 10:00:00') /* Gigas Raider */
-     , (0x7A01C007, 0x7A01C006, '2005-02-09 10:00:00') /* Gigas Raider */
-     , (0x7A01C007, 0x7A01C008, '2005-02-09 10:00:00') /* Gigas Raider */
-     , (0x7A01C007, 0x7A01C009, '2005-02-09 10:00:00') /* Gigas Raider */
-     , (0x7A01C007, 0x7A01C00A, '2005-02-09 10:00:00') /* Gigas Raider */;
+VALUES (0x7A01C007, 0x7A01C005, '2005-02-09 10:00:00') /* Gigas Raider (8139) */
+     , (0x7A01C007, 0x7A01C006, '2005-02-09 10:00:00') /* Gigas Raider (8139) */
+     , (0x7A01C007, 0x7A01C008, '2005-02-09 10:00:00') /* Gigas Raider (8139) */
+     , (0x7A01C007, 0x7A01C009, '2005-02-09 10:00:00') /* Gigas Raider (8139) */
+     , (0x7A01C007, 0x7A01C00A, '2005-02-09 10:00:00') /* Gigas Raider (8139) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A01C008,  8139, 0xA01C0000, 187.603, 86.3809, 333.575, 0.467912, 0, 0, 0.883775,  True, '2005-02-09 10:00:00'); /* Gigas Raider */

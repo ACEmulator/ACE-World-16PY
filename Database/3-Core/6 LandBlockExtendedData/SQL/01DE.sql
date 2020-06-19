@@ -109,12 +109,12 @@ VALUES (0x701DE01A,  1154, 0x01DE01AF, 40, -40, 0, -0.707107, 0, 0, -0.707107, F
 /* @teleloc 0x01DE01AF [40.000000 -40.000000 0.000000] -0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x701DE01A, 0x701DE003, '2005-02-09 10:00:00') /* Mudlurk Mosswart */
-     , (0x701DE01A, 0x701DE006, '2005-02-09 10:00:00') /* Mosswart Shaman */
-     , (0x701DE01A, 0x701DE014, '2005-02-09 10:00:00') /* Barker Mosswart */
-     , (0x701DE01A, 0x701DE01B, '2005-02-09 10:00:00') /* Barker Mosswart */
-     , (0x701DE01A, 0x701DE01F, '2005-02-09 10:00:00') /* Mudlurk Mosswart */
-     , (0x701DE01A, 0x701DE020, '2005-02-09 10:00:00') /* Mudlurk Mosswart */;
+VALUES (0x701DE01A, 0x701DE003, '2005-02-09 10:00:00') /* Mudlurk Mosswart (211) */
+     , (0x701DE01A, 0x701DE006, '2005-02-09 10:00:00') /* Mosswart Shaman (1619) */
+     , (0x701DE01A, 0x701DE014, '2005-02-09 10:00:00') /* Barker Mosswart (947) */
+     , (0x701DE01A, 0x701DE01B, '2005-02-09 10:00:00') /* Barker Mosswart (947) */
+     , (0x701DE01A, 0x701DE01F, '2005-02-09 10:00:00') /* Mudlurk Mosswart (211) */
+     , (0x701DE01A, 0x701DE020, '2005-02-09 10:00:00') /* Mudlurk Mosswart (211) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x701DE01B,   947, 0x01DE01AF, 40.9076, -38.6577, 0.0055, -0.707107, 0, 0, -0.707107,  True, '2005-02-09 10:00:00'); /* Barker Mosswart */
@@ -125,13 +125,13 @@ VALUES (0x701DE01C,  1154, 0x01DE01B1, 40, -50, 0, 1, 0, 0, 0, False, '2005-02-0
 /* @teleloc 0x01DE01B1 [40.000000 -50.000000 0.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x701DE01C, 0x701DE009, '2005-02-09 10:00:00') /* Mudlurk Mosswart */
-     , (0x701DE01C, 0x701DE00C, '2005-02-09 10:00:00') /* Barker Mosswart */
-     , (0x701DE01C, 0x701DE00D, '2005-02-09 10:00:00') /* Barker Mosswart */
-     , (0x701DE01C, 0x701DE00E, '2005-02-09 10:00:00') /* Barker Mosswart */
-     , (0x701DE01C, 0x701DE00F, '2005-02-09 10:00:00') /* Mosswart Shaman */
-     , (0x701DE01C, 0x701DE010, '2005-02-09 10:00:00') /* Mudlurk Mosswart */
-     , (0x701DE01C, 0x701DE011, '2005-02-09 10:00:00') /* Barker Mosswart */;
+VALUES (0x701DE01C, 0x701DE009, '2005-02-09 10:00:00') /* Mudlurk Mosswart (211) */
+     , (0x701DE01C, 0x701DE00C, '2005-02-09 10:00:00') /* Barker Mosswart (947) */
+     , (0x701DE01C, 0x701DE00D, '2005-02-09 10:00:00') /* Barker Mosswart (947) */
+     , (0x701DE01C, 0x701DE00E, '2005-02-09 10:00:00') /* Barker Mosswart (947) */
+     , (0x701DE01C, 0x701DE00F, '2005-02-09 10:00:00') /* Mosswart Shaman (1619) */
+     , (0x701DE01C, 0x701DE010, '2005-02-09 10:00:00') /* Mudlurk Mosswart (211) */
+     , (0x701DE01C, 0x701DE011, '2005-02-09 10:00:00') /* Barker Mosswart (947) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x701DE01D,  1342, 0x01DE01B2, 40.2979, -59.2665, 0, 0.707107, 0, 0, -0.707107, False, '2005-02-09 10:00:00'); /* Surface */
@@ -162,7 +162,7 @@ VALUES (0x701DE023,  1154, 0x01DE01D6, 70, -50, 0, 1, 0, 0, 0, False, '2005-02-0
 /* @teleloc 0x01DE01D6 [70.000000 -50.000000 0.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x701DE023, 0x701DE024, '2005-02-09 10:00:00') /* Water Wisp */;
+VALUES (0x701DE023, 0x701DE024, '2005-02-09 10:00:00') /* Water Wisp (1986) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x701DE024,  1986, 0x01DE01D6, 70.573, -50.3183, 0.534999, 1, 0, 0, 0,  True, '2005-02-09 10:00:00'); /* Water Wisp */

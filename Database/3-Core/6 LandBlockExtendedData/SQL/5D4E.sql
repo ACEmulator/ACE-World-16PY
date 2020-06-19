@@ -17,7 +17,7 @@ VALUES (0x75D4E003, 15759, 0x5D4E0101, 58.9703, -69.2517, -59.995, 0.764095, 0, 
 /* @teleloc 0x5D4E0101 [58.970300 -69.251700 -59.995000] 0.764095 0.000000 0.000000 0.645103 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x75D4E003, 0x75D4E002, '2005-02-09 10:00:00') /* Untranslated Note */;
+VALUES (0x75D4E003, 0x75D4E002, '2005-02-09 10:00:00') /* Untranslated Note (25699) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75D4E004,  4453, 0x5D4E0109, 75.5, -70, -59.995, 0.707107, 0, 0, -0.707107, False, '2005-02-09 10:00:00'); /* Door */
@@ -644,141 +644,141 @@ VALUES (0x75D4E0A4,  7925, 0x5D4E02EA, 64.7509, -19.2257, 0.005, 1, 0, 0, 0, Fal
 /* @teleloc 0x5D4E02EA [64.750900 -19.225700 0.005000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x75D4E0A4, 0x75D4E061, '2005-02-09 10:00:00') /* Chimera */
-     , (0x75D4E0A4, 0x75D4E069, '2005-02-09 10:00:00') /* Chimera */
-     , (0x75D4E0A4, 0x75D4E076, '2005-02-09 10:00:00') /* Chimera */
-     , (0x75D4E0A4, 0x75D4E079, '2005-02-09 10:00:00') /* Archfiend */
-     , (0x75D4E0A4, 0x75D4E07A, '2005-02-09 10:00:00') /* Archfiend */
-     , (0x75D4E0A4, 0x75D4E07C, '2005-02-09 10:00:00') /* Archfiend */
-     , (0x75D4E0A4, 0x75D4E07E, '2005-02-09 10:00:00') /* Lich Oppressor */
-     , (0x75D4E0A4, 0x75D4E07F, '2005-02-09 10:00:00') /* Lich Oppressor */
-     , (0x75D4E0A4, 0x75D4E082, '2005-02-09 10:00:00') /* Lich Oppressor */
-     , (0x75D4E0A4, 0x75D4E083, '2005-02-09 10:00:00') /* Lich Oppressor */
-     , (0x75D4E0A4, 0x75D4E086, '2005-02-09 10:00:00') /* Lich Oppressor */
-     , (0x75D4E0A4, 0x75D4E08A, '2005-02-09 10:00:00') /* Lich Oppressor */
-     , (0x75D4E0A4, 0x75D4E08B, '2005-02-09 10:00:00') /* Lich Oppressor */
-     , (0x75D4E0A4, 0x75D4E092, '2005-02-09 10:00:00') /* Archfiend */
-     , (0x75D4E0A4, 0x75D4E093, '2005-02-09 10:00:00') /* Archfiend */
-     , (0x75D4E0A4, 0x75D4E094, '2005-02-09 10:00:00') /* Archfiend */
-     , (0x75D4E0A4, 0x75D4E095, '2005-02-09 10:00:00') /* Archfiend */
-     , (0x75D4E0A4, 0x75D4E096, '2005-02-09 10:00:00') /* Archfiend */
-     , (0x75D4E0A4, 0x75D4E097, '2005-02-09 10:00:00') /* Archfiend */
-     , (0x75D4E0A4, 0x75D4E0A3, '2005-02-09 10:00:00') /* Jaenyn, Stone Shaper */;
+VALUES (0x75D4E0A4, 0x75D4E061, '2005-02-09 10:00:00') /* Chimera (25807) */
+     , (0x75D4E0A4, 0x75D4E069, '2005-02-09 10:00:00') /* Chimera (25807) */
+     , (0x75D4E0A4, 0x75D4E076, '2005-02-09 10:00:00') /* Chimera (25807) */
+     , (0x75D4E0A4, 0x75D4E079, '2005-02-09 10:00:00') /* Archfiend (25803) */
+     , (0x75D4E0A4, 0x75D4E07A, '2005-02-09 10:00:00') /* Archfiend (25803) */
+     , (0x75D4E0A4, 0x75D4E07C, '2005-02-09 10:00:00') /* Archfiend (25803) */
+     , (0x75D4E0A4, 0x75D4E07E, '2005-02-09 10:00:00') /* Lich Oppressor (22905) */
+     , (0x75D4E0A4, 0x75D4E07F, '2005-02-09 10:00:00') /* Lich Oppressor (22905) */
+     , (0x75D4E0A4, 0x75D4E082, '2005-02-09 10:00:00') /* Lich Oppressor (22905) */
+     , (0x75D4E0A4, 0x75D4E083, '2005-02-09 10:00:00') /* Lich Oppressor (22905) */
+     , (0x75D4E0A4, 0x75D4E086, '2005-02-09 10:00:00') /* Lich Oppressor (22905) */
+     , (0x75D4E0A4, 0x75D4E08A, '2005-02-09 10:00:00') /* Lich Oppressor (22905) */
+     , (0x75D4E0A4, 0x75D4E08B, '2005-02-09 10:00:00') /* Lich Oppressor (22905) */
+     , (0x75D4E0A4, 0x75D4E092, '2005-02-09 10:00:00') /* Archfiend (25803) */
+     , (0x75D4E0A4, 0x75D4E093, '2005-02-09 10:00:00') /* Archfiend (25803) */
+     , (0x75D4E0A4, 0x75D4E094, '2005-02-09 10:00:00') /* Archfiend (25803) */
+     , (0x75D4E0A4, 0x75D4E095, '2005-02-09 10:00:00') /* Archfiend (25803) */
+     , (0x75D4E0A4, 0x75D4E096, '2005-02-09 10:00:00') /* Archfiend (25803) */
+     , (0x75D4E0A4, 0x75D4E097, '2005-02-09 10:00:00') /* Archfiend (25803) */
+     , (0x75D4E0A4, 0x75D4E0A3, '2005-02-09 10:00:00') /* Jaenyn, Stone Shaper (25683) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75D4E0A5,  7925, 0x5D4E02EF, 71.0548, -19.035, 0.075567, 1, 0, 0, 0, False, '2005-02-09 10:00:00'); /* Linkable Monster Generator ( 10 Min.) */
 /* @teleloc 0x5D4E02EF [71.054800 -19.035000 0.075567] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x75D4E0A5, 0x75D4E020, '2005-02-09 10:00:00') /* Tormenter */
-     , (0x75D4E0A5, 0x75D4E021, '2005-02-09 10:00:00') /* Tormenter */
-     , (0x75D4E0A5, 0x75D4E024, '2005-02-09 10:00:00') /* Olthoi Sentinel */
-     , (0x75D4E0A5, 0x75D4E026, '2005-02-09 10:00:00') /* Olthoi Sentinel */
-     , (0x75D4E0A5, 0x75D4E028, '2005-02-09 10:00:00') /* Olthoi Primordial */
-     , (0x75D4E0A5, 0x75D4E02C, '2005-02-09 10:00:00') /* Olthoi Primordial */
-     , (0x75D4E0A5, 0x75D4E02E, '2005-02-09 10:00:00') /* Olthoi Primordial */
-     , (0x75D4E0A5, 0x75D4E030, '2005-02-09 10:00:00') /* Olthoi Sentinel */
-     , (0x75D4E0A5, 0x75D4E032, '2005-02-09 10:00:00') /* Olthoi Sentinel */
-     , (0x75D4E0A5, 0x75D4E05F, '2005-02-09 10:00:00') /* Olthoi Primordial */
-     , (0x75D4E0A5, 0x75D4E060, '2005-02-09 10:00:00') /* Olthoi Primordial */
-     , (0x75D4E0A5, 0x75D4E062, '2005-02-09 10:00:00') /* Chimera */
-     , (0x75D4E0A5, 0x75D4E063, '2005-02-09 10:00:00') /* Chimera */
-     , (0x75D4E0A5, 0x75D4E064, '2005-02-09 10:00:00') /* Tormenter */
-     , (0x75D4E0A5, 0x75D4E065, '2005-02-09 10:00:00') /* Tormenter */
-     , (0x75D4E0A5, 0x75D4E066, '2005-02-09 10:00:00') /* Chimera */
-     , (0x75D4E0A5, 0x75D4E067, '2005-02-09 10:00:00') /* Chimera */
-     , (0x75D4E0A5, 0x75D4E070, '2005-02-09 10:00:00') /* Chimera */
-     , (0x75D4E0A5, 0x75D4E071, '2005-02-09 10:00:00') /* Chimera */
-     , (0x75D4E0A5, 0x75D4E072, '2005-02-09 10:00:00') /* Tormenter */
-     , (0x75D4E0A5, 0x75D4E073, '2005-02-09 10:00:00') /* Chimera */
-     , (0x75D4E0A5, 0x75D4E074, '2005-02-09 10:00:00') /* Chimera */
-     , (0x75D4E0A5, 0x75D4E075, '2005-02-09 10:00:00') /* Tormenter */
-     , (0x75D4E0A5, 0x75D4E077, '2005-02-09 10:00:00') /* Olthoi Primordial */
-     , (0x75D4E0A5, 0x75D4E078, '2005-02-09 10:00:00') /* Olthoi Primordial */;
+VALUES (0x75D4E0A5, 0x75D4E020, '2005-02-09 10:00:00') /* Tormenter (25806) */
+     , (0x75D4E0A5, 0x75D4E021, '2005-02-09 10:00:00') /* Tormenter (25806) */
+     , (0x75D4E0A5, 0x75D4E024, '2005-02-09 10:00:00') /* Olthoi Sentinel (25341) */
+     , (0x75D4E0A5, 0x75D4E026, '2005-02-09 10:00:00') /* Olthoi Sentinel (25341) */
+     , (0x75D4E0A5, 0x75D4E028, '2005-02-09 10:00:00') /* Olthoi Primordial (22902) */
+     , (0x75D4E0A5, 0x75D4E02C, '2005-02-09 10:00:00') /* Olthoi Primordial (22902) */
+     , (0x75D4E0A5, 0x75D4E02E, '2005-02-09 10:00:00') /* Olthoi Primordial (22902) */
+     , (0x75D4E0A5, 0x75D4E030, '2005-02-09 10:00:00') /* Olthoi Sentinel (25341) */
+     , (0x75D4E0A5, 0x75D4E032, '2005-02-09 10:00:00') /* Olthoi Sentinel (25341) */
+     , (0x75D4E0A5, 0x75D4E05F, '2005-02-09 10:00:00') /* Olthoi Primordial (22902) */
+     , (0x75D4E0A5, 0x75D4E060, '2005-02-09 10:00:00') /* Olthoi Primordial (22902) */
+     , (0x75D4E0A5, 0x75D4E062, '2005-02-09 10:00:00') /* Chimera (25807) */
+     , (0x75D4E0A5, 0x75D4E063, '2005-02-09 10:00:00') /* Chimera (25807) */
+     , (0x75D4E0A5, 0x75D4E064, '2005-02-09 10:00:00') /* Tormenter (25806) */
+     , (0x75D4E0A5, 0x75D4E065, '2005-02-09 10:00:00') /* Tormenter (25806) */
+     , (0x75D4E0A5, 0x75D4E066, '2005-02-09 10:00:00') /* Chimera (25807) */
+     , (0x75D4E0A5, 0x75D4E067, '2005-02-09 10:00:00') /* Chimera (25807) */
+     , (0x75D4E0A5, 0x75D4E070, '2005-02-09 10:00:00') /* Chimera (25807) */
+     , (0x75D4E0A5, 0x75D4E071, '2005-02-09 10:00:00') /* Chimera (25807) */
+     , (0x75D4E0A5, 0x75D4E072, '2005-02-09 10:00:00') /* Tormenter (25806) */
+     , (0x75D4E0A5, 0x75D4E073, '2005-02-09 10:00:00') /* Chimera (25807) */
+     , (0x75D4E0A5, 0x75D4E074, '2005-02-09 10:00:00') /* Chimera (25807) */
+     , (0x75D4E0A5, 0x75D4E075, '2005-02-09 10:00:00') /* Tormenter (25806) */
+     , (0x75D4E0A5, 0x75D4E077, '2005-02-09 10:00:00') /* Olthoi Primordial (22902) */
+     , (0x75D4E0A5, 0x75D4E078, '2005-02-09 10:00:00') /* Olthoi Primordial (22902) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75D4E0A6,  7925, 0x5D4E02EF, 69.2913, -18.928, 0.075567, 1, 0, 0, 0, False, '2005-02-09 10:00:00'); /* Linkable Monster Generator ( 10 Min.) */
 /* @teleloc 0x5D4E02EF [69.291300 -18.928000 0.075567] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x75D4E0A6, 0x75D4E005, '2005-02-09 10:00:00') /* Olthoi Primordial */
-     , (0x75D4E0A6, 0x75D4E006, '2005-02-09 10:00:00') /* Olthoi Primordial */
-     , (0x75D4E0A6, 0x75D4E009, '2005-02-09 10:00:00') /* Olthoi Primordial */
-     , (0x75D4E0A6, 0x75D4E00A, '2005-02-09 10:00:00') /* Olthoi Primordial */
-     , (0x75D4E0A6, 0x75D4E00B, '2005-02-09 10:00:00') /* Olthoi Primordial */
-     , (0x75D4E0A6, 0x75D4E00C, '2005-02-09 10:00:00') /* Olthoi Primordial */
-     , (0x75D4E0A6, 0x75D4E00D, '2005-02-09 10:00:00') /* Olthoi Sentinel */
-     , (0x75D4E0A6, 0x75D4E00F, '2005-02-09 10:00:00') /* Olthoi Primordial */
-     , (0x75D4E0A6, 0x75D4E011, '2005-02-09 10:00:00') /* Olthoi Sentinel */
-     , (0x75D4E0A6, 0x75D4E013, '2005-02-09 10:00:00') /* Olthoi Primordial */
-     , (0x75D4E0A6, 0x75D4E015, '2005-02-09 10:00:00') /* Olthoi Sentinel */
-     , (0x75D4E0A6, 0x75D4E016, '2005-02-09 10:00:00') /* Olthoi Sentinel */
-     , (0x75D4E0A6, 0x75D4E018, '2005-02-09 10:00:00') /* Olthoi Primordial */
-     , (0x75D4E0A6, 0x75D4E01A, '2005-02-09 10:00:00') /* Olthoi Sentinel */
-     , (0x75D4E0A6, 0x75D4E01C, '2005-02-09 10:00:00') /* Olthoi Primordial */
-     , (0x75D4E0A6, 0x75D4E01E, '2005-02-09 10:00:00') /* Olthoi Primordial */
-     , (0x75D4E0A6, 0x75D4E022, '2005-02-09 10:00:00') /* Chimera */
-     , (0x75D4E0A6, 0x75D4E02A, '2005-02-09 10:00:00') /* Olthoi Primordial */
-     , (0x75D4E0A6, 0x75D4E034, '2005-02-09 10:00:00') /* Chimera */
-     , (0x75D4E0A6, 0x75D4E035, '2005-02-09 10:00:00') /* Tormenter */
-     , (0x75D4E0A6, 0x75D4E036, '2005-02-09 10:00:00') /* Tormenter */
-     , (0x75D4E0A6, 0x75D4E038, '2005-02-09 10:00:00') /* Olthoi Primordial */
-     , (0x75D4E0A6, 0x75D4E03A, '2005-02-09 10:00:00') /* Olthoi Sentinel */
-     , (0x75D4E0A6, 0x75D4E03C, '2005-02-09 10:00:00') /* Olthoi Primordial */
-     , (0x75D4E0A6, 0x75D4E03E, '2005-02-09 10:00:00') /* Olthoi Primordial */;
+VALUES (0x75D4E0A6, 0x75D4E005, '2005-02-09 10:00:00') /* Olthoi Primordial (22902) */
+     , (0x75D4E0A6, 0x75D4E006, '2005-02-09 10:00:00') /* Olthoi Primordial (22902) */
+     , (0x75D4E0A6, 0x75D4E009, '2005-02-09 10:00:00') /* Olthoi Primordial (22902) */
+     , (0x75D4E0A6, 0x75D4E00A, '2005-02-09 10:00:00') /* Olthoi Primordial (22902) */
+     , (0x75D4E0A6, 0x75D4E00B, '2005-02-09 10:00:00') /* Olthoi Primordial (22902) */
+     , (0x75D4E0A6, 0x75D4E00C, '2005-02-09 10:00:00') /* Olthoi Primordial (22902) */
+     , (0x75D4E0A6, 0x75D4E00D, '2005-02-09 10:00:00') /* Olthoi Sentinel (25341) */
+     , (0x75D4E0A6, 0x75D4E00F, '2005-02-09 10:00:00') /* Olthoi Primordial (22902) */
+     , (0x75D4E0A6, 0x75D4E011, '2005-02-09 10:00:00') /* Olthoi Sentinel (25341) */
+     , (0x75D4E0A6, 0x75D4E013, '2005-02-09 10:00:00') /* Olthoi Primordial (22902) */
+     , (0x75D4E0A6, 0x75D4E015, '2005-02-09 10:00:00') /* Olthoi Sentinel (25341) */
+     , (0x75D4E0A6, 0x75D4E016, '2005-02-09 10:00:00') /* Olthoi Sentinel (25341) */
+     , (0x75D4E0A6, 0x75D4E018, '2005-02-09 10:00:00') /* Olthoi Primordial (22902) */
+     , (0x75D4E0A6, 0x75D4E01A, '2005-02-09 10:00:00') /* Olthoi Sentinel (25341) */
+     , (0x75D4E0A6, 0x75D4E01C, '2005-02-09 10:00:00') /* Olthoi Primordial (22902) */
+     , (0x75D4E0A6, 0x75D4E01E, '2005-02-09 10:00:00') /* Olthoi Primordial (22902) */
+     , (0x75D4E0A6, 0x75D4E022, '2005-02-09 10:00:00') /* Chimera (25807) */
+     , (0x75D4E0A6, 0x75D4E02A, '2005-02-09 10:00:00') /* Olthoi Primordial (22902) */
+     , (0x75D4E0A6, 0x75D4E034, '2005-02-09 10:00:00') /* Chimera (25807) */
+     , (0x75D4E0A6, 0x75D4E035, '2005-02-09 10:00:00') /* Tormenter (25806) */
+     , (0x75D4E0A6, 0x75D4E036, '2005-02-09 10:00:00') /* Tormenter (25806) */
+     , (0x75D4E0A6, 0x75D4E038, '2005-02-09 10:00:00') /* Olthoi Primordial (22902) */
+     , (0x75D4E0A6, 0x75D4E03A, '2005-02-09 10:00:00') /* Olthoi Sentinel (25341) */
+     , (0x75D4E0A6, 0x75D4E03C, '2005-02-09 10:00:00') /* Olthoi Primordial (22902) */
+     , (0x75D4E0A6, 0x75D4E03E, '2005-02-09 10:00:00') /* Olthoi Primordial (22902) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75D4E0A7,  7925, 0x5D4E02EF, 66.2787, -19.2257, 0.005, 1, 0, 0, 0, False, '2005-02-09 10:00:00'); /* Linkable Monster Generator ( 10 Min.) */
 /* @teleloc 0x5D4E02EF [66.278700 -19.225700 0.005000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x75D4E0A7, 0x75D4E007, '2005-02-09 10:00:00') /* Olthoi Primordial */
-     , (0x75D4E0A7, 0x75D4E008, '2005-02-09 10:00:00') /* Olthoi Primordial */
-     , (0x75D4E0A7, 0x75D4E040, '2005-02-09 10:00:00') /* Lich Oppressor */
-     , (0x75D4E0A7, 0x75D4E041, '2005-02-09 10:00:00') /* Lich Oppressor */
-     , (0x75D4E0A7, 0x75D4E044, '2005-02-09 10:00:00') /* Lich Oppressor */
-     , (0x75D4E0A7, 0x75D4E051, '2005-02-09 10:00:00') /* Lich Oppressor */
-     , (0x75D4E0A7, 0x75D4E054, '2005-02-09 10:00:00') /* Lich Oppressor */
-     , (0x75D4E0A7, 0x75D4E057, '2005-02-09 10:00:00') /* Archfiend */
-     , (0x75D4E0A7, 0x75D4E058, '2005-02-09 10:00:00') /* Archfiend */
-     , (0x75D4E0A7, 0x75D4E059, '2005-02-09 10:00:00') /* Archfiend */
-     , (0x75D4E0A7, 0x75D4E05A, '2005-02-09 10:00:00') /* Archfiend */
-     , (0x75D4E0A7, 0x75D4E05B, '2005-02-09 10:00:00') /* Archfiend */
-     , (0x75D4E0A7, 0x75D4E05C, '2005-02-09 10:00:00') /* Archfiend */
-     , (0x75D4E0A7, 0x75D4E05D, '2005-02-09 10:00:00') /* Archfiend */
-     , (0x75D4E0A7, 0x75D4E05E, '2005-02-09 10:00:00') /* Archfiend */
-     , (0x75D4E0A7, 0x75D4E08E, '2005-02-09 10:00:00') /* Archfiend */
-     , (0x75D4E0A7, 0x75D4E08F, '2005-02-09 10:00:00') /* Archfiend */
-     , (0x75D4E0A7, 0x75D4E090, '2005-02-09 10:00:00') /* Archfiend */
-     , (0x75D4E0A7, 0x75D4E091, '2005-02-09 10:00:00') /* Archfiend */
-     , (0x75D4E0A7, 0x75D4E098, '2005-02-09 10:00:00') /* Archfiend */
-     , (0x75D4E0A7, 0x75D4E099, '2005-02-09 10:00:00') /* Archfiend */
-     , (0x75D4E0A7, 0x75D4E09A, '2005-02-09 10:00:00') /* Archfiend */
-     , (0x75D4E0A7, 0x75D4E09B, '2005-02-09 10:00:00') /* Archfiend */
-     , (0x75D4E0A7, 0x75D4E09C, '2005-02-09 10:00:00') /* Archfiend */
-     , (0x75D4E0A7, 0x75D4E09D, '2005-02-09 10:00:00') /* Archfiend */;
+VALUES (0x75D4E0A7, 0x75D4E007, '2005-02-09 10:00:00') /* Olthoi Primordial (22902) */
+     , (0x75D4E0A7, 0x75D4E008, '2005-02-09 10:00:00') /* Olthoi Primordial (22902) */
+     , (0x75D4E0A7, 0x75D4E040, '2005-02-09 10:00:00') /* Lich Oppressor (22905) */
+     , (0x75D4E0A7, 0x75D4E041, '2005-02-09 10:00:00') /* Lich Oppressor (22905) */
+     , (0x75D4E0A7, 0x75D4E044, '2005-02-09 10:00:00') /* Lich Oppressor (22905) */
+     , (0x75D4E0A7, 0x75D4E051, '2005-02-09 10:00:00') /* Lich Oppressor (22905) */
+     , (0x75D4E0A7, 0x75D4E054, '2005-02-09 10:00:00') /* Lich Oppressor (22905) */
+     , (0x75D4E0A7, 0x75D4E057, '2005-02-09 10:00:00') /* Archfiend (25803) */
+     , (0x75D4E0A7, 0x75D4E058, '2005-02-09 10:00:00') /* Archfiend (25803) */
+     , (0x75D4E0A7, 0x75D4E059, '2005-02-09 10:00:00') /* Archfiend (25803) */
+     , (0x75D4E0A7, 0x75D4E05A, '2005-02-09 10:00:00') /* Archfiend (25803) */
+     , (0x75D4E0A7, 0x75D4E05B, '2005-02-09 10:00:00') /* Archfiend (25803) */
+     , (0x75D4E0A7, 0x75D4E05C, '2005-02-09 10:00:00') /* Archfiend (25803) */
+     , (0x75D4E0A7, 0x75D4E05D, '2005-02-09 10:00:00') /* Archfiend (25803) */
+     , (0x75D4E0A7, 0x75D4E05E, '2005-02-09 10:00:00') /* Archfiend (25803) */
+     , (0x75D4E0A7, 0x75D4E08E, '2005-02-09 10:00:00') /* Archfiend (25803) */
+     , (0x75D4E0A7, 0x75D4E08F, '2005-02-09 10:00:00') /* Archfiend (25803) */
+     , (0x75D4E0A7, 0x75D4E090, '2005-02-09 10:00:00') /* Archfiend (25803) */
+     , (0x75D4E0A7, 0x75D4E091, '2005-02-09 10:00:00') /* Archfiend (25803) */
+     , (0x75D4E0A7, 0x75D4E098, '2005-02-09 10:00:00') /* Archfiend (25803) */
+     , (0x75D4E0A7, 0x75D4E099, '2005-02-09 10:00:00') /* Archfiend (25803) */
+     , (0x75D4E0A7, 0x75D4E09A, '2005-02-09 10:00:00') /* Archfiend (25803) */
+     , (0x75D4E0A7, 0x75D4E09B, '2005-02-09 10:00:00') /* Archfiend (25803) */
+     , (0x75D4E0A7, 0x75D4E09C, '2005-02-09 10:00:00') /* Archfiend (25803) */
+     , (0x75D4E0A7, 0x75D4E09D, '2005-02-09 10:00:00') /* Archfiend (25803) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75D4E0A8,  7925, 0x5D4E02EF, 67.6573, -18.9949, 0.075566, 1, 0, 0, 0, False, '2005-02-09 10:00:00'); /* Linkable Monster Generator ( 10 Min.) */
 /* @teleloc 0x5D4E02EF [67.657300 -18.994900 0.075566] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x75D4E0A8, 0x75D4E045, '2005-02-09 10:00:00') /* Lich Oppressor */
-     , (0x75D4E0A8, 0x75D4E047, '2005-02-09 10:00:00') /* Lich Oppressor */
-     , (0x75D4E0A8, 0x75D4E048, '2005-02-09 10:00:00') /* Lich Oppressor */
-     , (0x75D4E0A8, 0x75D4E049, '2005-02-09 10:00:00') /* Lich Oppressor */
-     , (0x75D4E0A8, 0x75D4E04A, '2005-02-09 10:00:00') /* Lich Oppressor */
-     , (0x75D4E0A8, 0x75D4E04B, '2005-02-09 10:00:00') /* Lich Oppressor */
-     , (0x75D4E0A8, 0x75D4E04C, '2005-02-09 10:00:00') /* Lich Oppressor */
-     , (0x75D4E0A8, 0x75D4E04D, '2005-02-09 10:00:00') /* Lich Oppressor */
-     , (0x75D4E0A8, 0x75D4E04E, '2005-02-09 10:00:00') /* Lich Oppressor */
-     , (0x75D4E0A8, 0x75D4E050, '2005-02-09 10:00:00') /* Lich Oppressor */
-     , (0x75D4E0A8, 0x75D4E055, '2005-02-09 10:00:00') /* Lich Oppressor */
-     , (0x75D4E0A8, 0x75D4E068, '2005-02-09 10:00:00') /* Lich Oppressor */
-     , (0x75D4E0A8, 0x75D4E06A, '2005-02-09 10:00:00') /* Lich Oppressor */
-     , (0x75D4E0A8, 0x75D4E06B, '2005-02-09 10:00:00') /* Chimera */
-     , (0x75D4E0A8, 0x75D4E06C, '2005-02-09 10:00:00') /* Lich Oppressor */
-     , (0x75D4E0A8, 0x75D4E06D, '2005-02-09 10:00:00') /* Lich Oppressor */
-     , (0x75D4E0A8, 0x75D4E06E, '2005-02-09 10:00:00') /* Chimera */
-     , (0x75D4E0A8, 0x75D4E06F, '2005-02-09 10:00:00') /* Chimera */
-     , (0x75D4E0A8, 0x75D4E087, '2005-02-09 10:00:00') /* Lich Oppressor */;
+VALUES (0x75D4E0A8, 0x75D4E045, '2005-02-09 10:00:00') /* Lich Oppressor (22905) */
+     , (0x75D4E0A8, 0x75D4E047, '2005-02-09 10:00:00') /* Lich Oppressor (22905) */
+     , (0x75D4E0A8, 0x75D4E048, '2005-02-09 10:00:00') /* Lich Oppressor (22905) */
+     , (0x75D4E0A8, 0x75D4E049, '2005-02-09 10:00:00') /* Lich Oppressor (22905) */
+     , (0x75D4E0A8, 0x75D4E04A, '2005-02-09 10:00:00') /* Lich Oppressor (22905) */
+     , (0x75D4E0A8, 0x75D4E04B, '2005-02-09 10:00:00') /* Lich Oppressor (22905) */
+     , (0x75D4E0A8, 0x75D4E04C, '2005-02-09 10:00:00') /* Lich Oppressor (22905) */
+     , (0x75D4E0A8, 0x75D4E04D, '2005-02-09 10:00:00') /* Lich Oppressor (22905) */
+     , (0x75D4E0A8, 0x75D4E04E, '2005-02-09 10:00:00') /* Lich Oppressor (22905) */
+     , (0x75D4E0A8, 0x75D4E050, '2005-02-09 10:00:00') /* Lich Oppressor (22905) */
+     , (0x75D4E0A8, 0x75D4E055, '2005-02-09 10:00:00') /* Lich Oppressor (22905) */
+     , (0x75D4E0A8, 0x75D4E068, '2005-02-09 10:00:00') /* Lich Oppressor (22905) */
+     , (0x75D4E0A8, 0x75D4E06A, '2005-02-09 10:00:00') /* Lich Oppressor (22905) */
+     , (0x75D4E0A8, 0x75D4E06B, '2005-02-09 10:00:00') /* Chimera (25807) */
+     , (0x75D4E0A8, 0x75D4E06C, '2005-02-09 10:00:00') /* Lich Oppressor (22905) */
+     , (0x75D4E0A8, 0x75D4E06D, '2005-02-09 10:00:00') /* Lich Oppressor (22905) */
+     , (0x75D4E0A8, 0x75D4E06E, '2005-02-09 10:00:00') /* Chimera (25807) */
+     , (0x75D4E0A8, 0x75D4E06F, '2005-02-09 10:00:00') /* Chimera (25807) */
+     , (0x75D4E0A8, 0x75D4E087, '2005-02-09 10:00:00') /* Lich Oppressor (22905) */;

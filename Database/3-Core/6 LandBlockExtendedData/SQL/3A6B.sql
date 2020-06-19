@@ -25,8 +25,8 @@ VALUES (0x73A6B005,  1154, 0x3A6B0000, 156.292, 39.9381, 40.005, 0.974924, 0, 0,
 /* @teleloc 0x3A6B0000 [156.292000 39.938100 40.005000] 0.974924 0.000000 0.000000 0.222539 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73A6B005, 0x73A6B000, '2005-02-09 10:00:00') /* Tumerok Warrior */
-     , (0x73A6B005, 0x73A6B001, '2005-02-09 10:00:00') /* Tumerok Warrior */
-     , (0x73A6B005, 0x73A6B002, '2005-02-09 10:00:00') /* Tumerok Fighter */
-     , (0x73A6B005, 0x73A6B003, '2005-02-09 10:00:00') /* Tumerok Fighter */
-     , (0x73A6B005, 0x73A6B004, '2005-02-09 10:00:00') /* Tumerok Scout */;
+VALUES (0x73A6B005, 0x73A6B000, '2005-02-09 10:00:00') /* Tumerok Warrior (233) */
+     , (0x73A6B005, 0x73A6B001, '2005-02-09 10:00:00') /* Tumerok Warrior (233) */
+     , (0x73A6B005, 0x73A6B002, '2005-02-09 10:00:00') /* Tumerok Fighter (2439) */
+     , (0x73A6B005, 0x73A6B003, '2005-02-09 10:00:00') /* Tumerok Fighter (2439) */
+     , (0x73A6B005, 0x73A6B004, '2005-02-09 10:00:00') /* Tumerok Scout (232) */;

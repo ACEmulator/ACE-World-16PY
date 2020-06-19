@@ -73,8 +73,8 @@ VALUES (0x7DB3B011,  7923, 0xDB3B011B, 17.5146, 110.961, 2.005, 0.958376, 0, 0, 
 /* @teleloc 0xDB3B011B [17.514600 110.961000 2.005000] 0.958376 0.000000 0.000000 -0.285508 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7DB3B011, 0x7DB3B010, '2005-02-09 10:00:00') /* Agent of the Arcanum */
-     , (0x7DB3B011, 0x7DB3B01F, '2005-02-09 10:00:00') /* Apprentice Alchemist */;
+VALUES (0x7DB3B011, 0x7DB3B010, '2005-02-09 10:00:00') /* Agent of the Arcanum (12050) */
+     , (0x7DB3B011, 0x7DB3B01F, '2005-02-09 10:00:00') /* Apprentice Alchemist (28184) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7DB3B012, 12304, 0xDB3B0000, 8.46963, 115.209, 2.005, 0.346835, 0, 0, 0.937926, False, '2005-02-09 10:00:00'); /* Agent of the Arcanum  */

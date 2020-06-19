@@ -17,6 +17,6 @@ VALUES (0x78BDE003,  1154, 0x8BDE0000, 131.655, 175.889, 31.905, -0.958729, 0, 0
 /* @teleloc 0x8BDE0000 [131.655000 175.889000 31.905000] -0.958729 0.000000 0.000000 -0.284323 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x78BDE003, 0x78BDE000, '2005-02-09 10:00:00') /* Water Wisp */
-     , (0x78BDE003, 0x78BDE001, '2005-02-09 10:00:00') /* Water Wisp */
-     , (0x78BDE003, 0x78BDE002, '2005-02-09 10:00:00') /* Water Wisp */;
+VALUES (0x78BDE003, 0x78BDE000, '2005-02-09 10:00:00') /* Water Wisp (1986) */
+     , (0x78BDE003, 0x78BDE001, '2005-02-09 10:00:00') /* Water Wisp (1986) */
+     , (0x78BDE003, 0x78BDE002, '2005-02-09 10:00:00') /* Water Wisp (1986) */;

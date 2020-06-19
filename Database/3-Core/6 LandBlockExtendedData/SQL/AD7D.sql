@@ -17,9 +17,9 @@ VALUES (0x7AD7D003,  3955, 0xAD7D0000, 37.858, 62.979, 52.7584, 0.997473, 0, 0, 
 /* @teleloc 0xAD7D0000 [37.858000 62.979000 52.758400] 0.997473 0.000000 0.000000 0.071046 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7AD7D003, 0x7AD7D000, '2005-02-09 10:00:00') /* Kayna bint Iswas */
-     , (0x7AD7D003, 0x7AD7D001, '2005-02-09 10:00:00') /* Iron Golem */
-     , (0x7AD7D003, 0x7AD7D002, '2005-02-09 10:00:00') /* Iron Golem */;
+VALUES (0x7AD7D003, 0x7AD7D000, '2005-02-09 10:00:00') /* Kayna bint Iswas (6770) */
+     , (0x7AD7D003, 0x7AD7D001, '2005-02-09 10:00:00') /* Iron Golem (197) */
+     , (0x7AD7D003, 0x7AD7D002, '2005-02-09 10:00:00') /* Iron Golem (197) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7AD7D004,   143, 0xAD7D011B, 34.5244, 92.9991, 52, 0.997609, 0, 0, 0.0691146, False, '2005-02-09 10:00:00'); /* Chest */

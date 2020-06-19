@@ -9,4 +9,4 @@ VALUES (0x78B22001,  7924, 0x8B220000, 155.172, 19.994, -0.445, -0.874108, 0, 0,
 /* @teleloc 0x8B220000 [155.172000 19.994000 -0.445000] -0.874108 0.000000 0.000000 -0.485732 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x78B22001, 0x78B22000, '2005-02-09 10:00:00') /* Floating Bottle */;
+VALUES (0x78B22001, 0x78B22000, '2005-02-09 10:00:00') /* Floating Bottle (27805) */;

@@ -9,10 +9,10 @@ VALUES (0x701EC003,  5086, 0x01EC0101, 33.963, -47.6447, -23.995, 0.794824, 0, 0
 /* @teleloc 0x01EC0101 [33.963000 -47.644700 -23.995000] 0.794824 0.000000 0.000000 -0.606841 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x701EC003, 0x701EC002, '2005-02-09 10:00:00') /* Phantom */
-     , (0x701EC003, 0x701EC005, '2005-02-09 10:00:00') /* Phantom */
-     , (0x701EC003, 0x701EC006, '2005-02-09 10:00:00') /* Phantom */
-     , (0x701EC003, 0x701EC008, '2005-02-09 10:00:00') /* Phantom */;
+VALUES (0x701EC003, 0x701EC002, '2005-02-09 10:00:00') /* Phantom (30714) */
+     , (0x701EC003, 0x701EC005, '2005-02-09 10:00:00') /* Phantom (30714) */
+     , (0x701EC003, 0x701EC006, '2005-02-09 10:00:00') /* Phantom (30714) */
+     , (0x701EC003, 0x701EC008, '2005-02-09 10:00:00') /* Phantom (30714) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x701EC004, 24129, 0x01EC0101, 30.6103, -47.6066, -23.995, 0.840963, 0, 0, -0.541093, False, '2005-02-09 10:00:00'); /* Linkable Monster Generator ( 2 Min.) */
@@ -51,24 +51,24 @@ VALUES (0x701EC00D, 15274, 0x01EC0117, 47.5147, -69.6649, -17.995, 0.0764015, 0,
 /* @teleloc 0x01EC0117 [47.514700 -69.664900 -17.995000] 0.076402 0.000000 0.000000 -0.997077 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x701EC00D, 0x701EC009, '2005-02-09 10:00:00') /* Direland Rat */
-     , (0x701EC00D, 0x701EC00A, '2005-02-09 10:00:00') /* Direland Rat */
-     , (0x701EC00D, 0x701EC00B, '2005-02-09 10:00:00') /* Direland Rat */
-     , (0x701EC00D, 0x701EC00C, '2005-02-09 10:00:00') /* Direland Rat */
-     , (0x701EC00D, 0x701EC00E, '2005-02-09 10:00:00') /* Direland Rat */
-     , (0x701EC00D, 0x701EC00F, '2005-02-09 10:00:00') /* Direland Rat */
-     , (0x701EC00D, 0x701EC010, '2005-02-09 10:00:00') /* Direland Rat */
-     , (0x701EC00D, 0x701EC011, '2005-02-09 10:00:00') /* Direland Rat */
-     , (0x701EC00D, 0x701EC016, '2005-02-09 10:00:00') /* Direland Rat */
-     , (0x701EC00D, 0x701EC017, '2005-02-09 10:00:00') /* Direland Rat */
-     , (0x701EC00D, 0x701EC018, '2005-02-09 10:00:00') /* Direland Rat */
-     , (0x701EC00D, 0x701EC019, '2005-02-09 10:00:00') /* Direland Rat */
-     , (0x701EC00D, 0x701EC01A, '2005-02-09 10:00:00') /* Direland Rat */
-     , (0x701EC00D, 0x701EC01B, '2005-02-09 10:00:00') /* Direland Rat */
-     , (0x701EC00D, 0x701EC036, '2005-02-09 10:00:00') /* Direland Rat */
-     , (0x701EC00D, 0x701EC037, '2005-02-09 10:00:00') /* Direland Rat */
-     , (0x701EC00D, 0x701EC038, '2005-02-09 10:00:00') /* Direland Rat */
-     , (0x701EC00D, 0x701EC039, '2005-02-09 10:00:00') /* Direland Rat */;
+VALUES (0x701EC00D, 0x701EC009, '2005-02-09 10:00:00') /* Direland Rat (24310) */
+     , (0x701EC00D, 0x701EC00A, '2005-02-09 10:00:00') /* Direland Rat (24310) */
+     , (0x701EC00D, 0x701EC00B, '2005-02-09 10:00:00') /* Direland Rat (24310) */
+     , (0x701EC00D, 0x701EC00C, '2005-02-09 10:00:00') /* Direland Rat (24310) */
+     , (0x701EC00D, 0x701EC00E, '2005-02-09 10:00:00') /* Direland Rat (24310) */
+     , (0x701EC00D, 0x701EC00F, '2005-02-09 10:00:00') /* Direland Rat (24310) */
+     , (0x701EC00D, 0x701EC010, '2005-02-09 10:00:00') /* Direland Rat (24310) */
+     , (0x701EC00D, 0x701EC011, '2005-02-09 10:00:00') /* Direland Rat (24310) */
+     , (0x701EC00D, 0x701EC016, '2005-02-09 10:00:00') /* Direland Rat (24310) */
+     , (0x701EC00D, 0x701EC017, '2005-02-09 10:00:00') /* Direland Rat (24310) */
+     , (0x701EC00D, 0x701EC018, '2005-02-09 10:00:00') /* Direland Rat (24310) */
+     , (0x701EC00D, 0x701EC019, '2005-02-09 10:00:00') /* Direland Rat (24310) */
+     , (0x701EC00D, 0x701EC01A, '2005-02-09 10:00:00') /* Direland Rat (24310) */
+     , (0x701EC00D, 0x701EC01B, '2005-02-09 10:00:00') /* Direland Rat (24310) */
+     , (0x701EC00D, 0x701EC036, '2005-02-09 10:00:00') /* Direland Rat (24310) */
+     , (0x701EC00D, 0x701EC037, '2005-02-09 10:00:00') /* Direland Rat (24310) */
+     , (0x701EC00D, 0x701EC038, '2005-02-09 10:00:00') /* Direland Rat (24310) */
+     , (0x701EC00D, 0x701EC039, '2005-02-09 10:00:00') /* Direland Rat (24310) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x701EC00E, 24310, 0x01EC0118, 59.2692, -57.853, -17.945, -0.540508, 0, 0, -0.841339,  True, '2005-02-09 10:00:00'); /* Direland Rat */
@@ -163,11 +163,11 @@ VALUES (0x701EC027,  7923, 0x01EC0192, 37.2614, -59.2395, 0.005, 0.983296, 0, 0,
 /* @teleloc 0x01EC0192 [37.261400 -59.239500 0.005000] 0.983296 0.000000 0.000000 0.182014 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x701EC027, 0x701EC01E, '2005-02-09 10:00:00') /* Phantom */
-     , (0x701EC027, 0x701EC022, '2005-02-09 10:00:00') /* Phantom */
-     , (0x701EC027, 0x701EC023, '2005-02-09 10:00:00') /* Phantom */
-     , (0x701EC027, 0x701EC02D, '2005-02-09 10:00:00') /* Phantom */
-     , (0x701EC027, 0x701EC030, '2005-02-09 10:00:00') /* Phantom */;
+VALUES (0x701EC027, 0x701EC01E, '2005-02-09 10:00:00') /* Phantom (28244) */
+     , (0x701EC027, 0x701EC022, '2005-02-09 10:00:00') /* Phantom (28244) */
+     , (0x701EC027, 0x701EC023, '2005-02-09 10:00:00') /* Phantom (28244) */
+     , (0x701EC027, 0x701EC02D, '2005-02-09 10:00:00') /* Phantom (28244) */
+     , (0x701EC027, 0x701EC030, '2005-02-09 10:00:00') /* Phantom (28244) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x701EC028,  5621, 0x01EC0192, 40.0054, -64.4875, 5.36621, -0.0110698, 0, 0, 0.999939, False, '2005-02-09 10:00:00'); /* Hot Air */
@@ -210,18 +210,18 @@ VALUES (0x701EC035, 24129, 0x01EC01C6, 59.8004, -72.3197, 0.005, 0.481801, 0, 0,
 /* @teleloc 0x01EC01C6 [59.800400 -72.319700 0.005000] 0.481801 0.000000 0.000000 -0.876281 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x701EC035, 0x701EC012, '2005-02-09 10:00:00') /* Direland Rat */
-     , (0x701EC035, 0x701EC013, '2005-02-09 10:00:00') /* Phantom */
-     , (0x701EC035, 0x701EC014, '2005-02-09 10:00:00') /* Phantom */
-     , (0x701EC035, 0x701EC01C, '2005-02-09 10:00:00') /* Phantom */
-     , (0x701EC035, 0x701EC020, '2005-02-09 10:00:00') /* Phantom */
-     , (0x701EC035, 0x701EC021, '2005-02-09 10:00:00') /* Phantom */
-     , (0x701EC035, 0x701EC026, '2005-02-09 10:00:00') /* Phantom */
-     , (0x701EC035, 0x701EC029, '2005-02-09 10:00:00') /* Phantom */
-     , (0x701EC035, 0x701EC02B, '2005-02-09 10:00:00') /* Phantom */
-     , (0x701EC035, 0x701EC02C, '2005-02-09 10:00:00') /* Phantom */
-     , (0x701EC035, 0x701EC02F, '2005-02-09 10:00:00') /* Phantom */
-     , (0x701EC035, 0x701EC033, '2005-02-09 10:00:00') /* Phantom */;
+VALUES (0x701EC035, 0x701EC012, '2005-02-09 10:00:00') /* Direland Rat (24310) */
+     , (0x701EC035, 0x701EC013, '2005-02-09 10:00:00') /* Phantom (28244) */
+     , (0x701EC035, 0x701EC014, '2005-02-09 10:00:00') /* Phantom (28244) */
+     , (0x701EC035, 0x701EC01C, '2005-02-09 10:00:00') /* Phantom (28244) */
+     , (0x701EC035, 0x701EC020, '2005-02-09 10:00:00') /* Phantom (28244) */
+     , (0x701EC035, 0x701EC021, '2005-02-09 10:00:00') /* Phantom (28244) */
+     , (0x701EC035, 0x701EC026, '2005-02-09 10:00:00') /* Phantom (28244) */
+     , (0x701EC035, 0x701EC029, '2005-02-09 10:00:00') /* Phantom (28244) */
+     , (0x701EC035, 0x701EC02B, '2005-02-09 10:00:00') /* Phantom (28244) */
+     , (0x701EC035, 0x701EC02C, '2005-02-09 10:00:00') /* Phantom (28244) */
+     , (0x701EC035, 0x701EC02F, '2005-02-09 10:00:00') /* Phantom (28244) */
+     , (0x701EC035, 0x701EC033, '2005-02-09 10:00:00') /* Phantom (28244) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x701EC036, 24310, 0x01EC01CB, 3.4564, -80.4752, 6.012, 0.841772, 0, 0, -0.539833,  True, '2005-02-09 10:00:00'); /* Direland Rat */

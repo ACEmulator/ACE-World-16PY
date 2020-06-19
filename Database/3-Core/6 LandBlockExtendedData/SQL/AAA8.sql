@@ -73,19 +73,19 @@ VALUES (0x7AAA8022,  7924, 0xAAA80000, 154.782, 48.4998, 172.366, -0.0534219, 0,
 /* @teleloc 0xAAA80000 [154.782000 48.499800 172.366000] -0.053422 0.000000 0.000000 -0.998572 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7AAA8022, 0x7AAA8012, '2005-02-09 10:00:00') /* Drudge Ravener */
-     , (0x7AAA8022, 0x7AAA8013, '2005-02-09 10:00:00') /* Drudge Ravener */
-     , (0x7AAA8022, 0x7AAA8014, '2005-02-09 10:00:00') /* Drudge Ravener */
-     , (0x7AAA8022, 0x7AAA8015, '2005-02-09 10:00:00') /* Drudge Ravener */
-     , (0x7AAA8022, 0x7AAA8016, '2005-02-09 10:00:00') /* Drudge Ravener */
-     , (0x7AAA8022, 0x7AAA8017, '2005-02-09 10:00:00') /* Drudge Ravener */
-     , (0x7AAA8022, 0x7AAA8018, '2005-02-09 10:00:00') /* Drudge Ravener */
-     , (0x7AAA8022, 0x7AAA8019, '2005-02-09 10:00:00') /* Drudge Ravener */
-     , (0x7AAA8022, 0x7AAA801A, '2005-02-09 10:00:00') /* Drudge Ravener */
-     , (0x7AAA8022, 0x7AAA801B, '2005-02-09 10:00:00') /* Drudge Ravener */
-     , (0x7AAA8022, 0x7AAA801C, '2005-02-09 10:00:00') /* Drudge Ravener */
-     , (0x7AAA8022, 0x7AAA801D, '2005-02-09 10:00:00') /* Drudge Ravener */
-     , (0x7AAA8022, 0x7AAA801E, '2005-02-09 10:00:00') /* Drudge Ravener */
-     , (0x7AAA8022, 0x7AAA801F, '2005-02-09 10:00:00') /* Drudge Ravener */
-     , (0x7AAA8022, 0x7AAA8020, '2005-02-09 10:00:00') /* Drudge Ravener */
-     , (0x7AAA8022, 0x7AAA8021, '2005-02-09 10:00:00') /* Drudge Ravener */;
+VALUES (0x7AAA8022, 0x7AAA8012, '2005-02-09 10:00:00') /* Drudge Ravener (1610) */
+     , (0x7AAA8022, 0x7AAA8013, '2005-02-09 10:00:00') /* Drudge Ravener (1610) */
+     , (0x7AAA8022, 0x7AAA8014, '2005-02-09 10:00:00') /* Drudge Ravener (1610) */
+     , (0x7AAA8022, 0x7AAA8015, '2005-02-09 10:00:00') /* Drudge Ravener (1610) */
+     , (0x7AAA8022, 0x7AAA8016, '2005-02-09 10:00:00') /* Drudge Ravener (1610) */
+     , (0x7AAA8022, 0x7AAA8017, '2005-02-09 10:00:00') /* Drudge Ravener (1610) */
+     , (0x7AAA8022, 0x7AAA8018, '2005-02-09 10:00:00') /* Drudge Ravener (1610) */
+     , (0x7AAA8022, 0x7AAA8019, '2005-02-09 10:00:00') /* Drudge Ravener (1610) */
+     , (0x7AAA8022, 0x7AAA801A, '2005-02-09 10:00:00') /* Drudge Ravener (1610) */
+     , (0x7AAA8022, 0x7AAA801B, '2005-02-09 10:00:00') /* Drudge Ravener (1610) */
+     , (0x7AAA8022, 0x7AAA801C, '2005-02-09 10:00:00') /* Drudge Ravener (1610) */
+     , (0x7AAA8022, 0x7AAA801D, '2005-02-09 10:00:00') /* Drudge Ravener (1610) */
+     , (0x7AAA8022, 0x7AAA801E, '2005-02-09 10:00:00') /* Drudge Ravener (1610) */
+     , (0x7AAA8022, 0x7AAA801F, '2005-02-09 10:00:00') /* Drudge Ravener (1610) */
+     , (0x7AAA8022, 0x7AAA8020, '2005-02-09 10:00:00') /* Drudge Ravener (1610) */
+     , (0x7AAA8022, 0x7AAA8021, '2005-02-09 10:00:00') /* Drudge Ravener (1610) */;

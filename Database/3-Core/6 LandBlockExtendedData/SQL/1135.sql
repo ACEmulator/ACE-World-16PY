@@ -13,7 +13,7 @@ VALUES (0x71135002,  1154, 0x11350100, 12.3716, 86.4013, 71.705, 0.830928, 0, 0,
 /* @teleloc 0x11350100 [12.371600 86.401300 71.705000] 0.830928 0.000000 0.000000 -0.556380 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71135002, 0x71135003, '2005-02-09 10:00:00') /* Leopold */;
+VALUES (0x71135002, 0x71135003, '2005-02-09 10:00:00') /* Leopold (8155) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71135003,  8155, 0x11350100, 9.8968, 83.6549, 71.729, 0.460377, 0, 0, -0.887724,  True, '2005-02-09 10:00:00'); /* Leopold */

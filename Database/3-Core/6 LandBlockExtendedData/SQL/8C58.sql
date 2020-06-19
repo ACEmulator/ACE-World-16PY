@@ -9,7 +9,7 @@ VALUES (0x78C58003,  1154, 0x8C580119, 179.304, 57.8139, 30.005, -0.698926, 0, 0
 /* @teleloc 0x8C580119 [179.304000 57.813900 30.005000] -0.698926 0.000000 0.000000 0.715194 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x78C58003, 0x78C5800A, '2005-02-09 10:00:00') /* Nurbaha bint Dah */;
+VALUES (0x78C58003, 0x78C5800A, '2005-02-09 10:00:00') /* Nurbaha bint Dah (5153) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x78C58004,  4648, 0x8C580000, 176.986, 74.8604, 30.2383, -0.19904, 0, 0, -0.979991, False, '2005-02-09 10:00:00'); /* Al-Arqas Outpost  */

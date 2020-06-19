@@ -1,8 +1,5 @@
-DELETE FROM `encounter` WHERE `landblock` = 38367;
+DELETE FROM `encounter` WHERE `landblock` = 0x95DF;
 
 INSERT INTO `encounter` (`landblock`, `weenie_Class_Id`, `cell_X`, `cell_Y`, `last_Modified`)
-VALUES (38367, 23158, 0, 6, '2005-02-09 10:00:00') /* Mid North Mountains Tusker Generator */
-     , (38367, 23155, 5, 8, '2005-02-09 10:00:00') /* Mid North Mountains Mix Generator */
-     , (38367, 23155, 6, 5, '2005-02-09 10:00:00') /* Mid North Mountains Mix Generator */
-     , (38367, 23155, 8, 4, '2005-02-09 10:00:00') /* Mid North Mountains Mix Generator */
-     , (38367, 23155, 8, 6, '2005-02-09 10:00:00') /* Mid North Mountains Mix Generator */;
+VALUES (0x95DF, 23158, 0, 6, '2005-02-09 10:00:00') /* Mid North Mountains Tusker Generator */
+     , (0x95DF, 23155, 6, 5, '2005-02-09 10:00:00') /* Mid North Mountains Mix Generator */;

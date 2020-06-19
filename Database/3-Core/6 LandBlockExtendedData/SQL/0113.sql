@@ -25,8 +25,8 @@ VALUES (0x7011300D,  4139, 0x01130146, 70, -52, -11.995, 1, 0, 0, -4.37114E-08, 
 /* @teleloc 0x01130146 [70.000000 -52.000000 -11.995000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7011300D, 0x7011300B, '2005-02-09 10:00:00') /* Lever */
-     , (0x7011300D, 0x70113025, '2005-02-09 10:00:00') /* Lever */;
+VALUES (0x7011300D, 0x7011300B, '2005-02-09 10:00:00') /* Lever (285) */
+     , (0x7011300D, 0x70113025, '2005-02-09 10:00:00') /* Lever (285) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x70113025,   285, 0x01130211, 29.2355, -15.6046, 7.42488, 1, 0, 0, 0,  True, '2005-02-09 10:00:00'); /* Lever */
@@ -37,7 +37,7 @@ VALUES (0x70113027,  5485, 0x01130211, 28.3837, -23.116, 6.005, -0.634636, 0, 0,
 /* @teleloc 0x01130211 [28.383700 -23.116000 6.005000] -0.634636 0.000000 0.000000 -0.772811 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x70113027, 0x7011300C, '2005-02-09 10:00:00') /* Skeleton Lord */;
+VALUES (0x70113027, 0x7011300C, '2005-02-09 10:00:00') /* Skeleton Lord (6774) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x70113028,  6780, 0x0113021C, 50, -16.359, 6.583, 1, 0, 0, 0, False, '2005-02-09 10:00:00'); /* Surface Portal */
@@ -172,42 +172,42 @@ VALUES (0x70113048,  4219, 0x01130211, 29.373, -23.2115, 6.005, -0.0740164, 0, 0
 /* @teleloc 0x01130211 [29.373000 -23.211500 6.005000] -0.074016 0.000000 0.000000 -0.997257 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x70113048, 0x70113032, '2005-02-09 10:00:00') /* Skeleton Captain */
-     , (0x70113048, 0x70113033, '2005-02-09 10:00:00') /* Skeleton Captain */
-     , (0x70113048, 0x70113034, '2005-02-09 10:00:00') /* Skeleton Captain */
-     , (0x70113048, 0x70113035, '2005-02-09 10:00:00') /* Skeleton Captain */
-     , (0x70113048, 0x7011303A, '2005-02-09 10:00:00') /* Skeleton Captain */
-     , (0x70113048, 0x70113040, '2005-02-09 10:00:00') /* Skeleton Captain */
-     , (0x70113048, 0x70113041, '2005-02-09 10:00:00') /* Skeleton Captain */
-     , (0x70113048, 0x70113042, '2005-02-09 10:00:00') /* Skeleton Captain */
-     , (0x70113048, 0x70113043, '2005-02-09 10:00:00') /* Skeleton Captain */
-     , (0x70113048, 0x70113044, '2005-02-09 10:00:00') /* Skeleton Captain */
-     , (0x70113048, 0x70113045, '2005-02-09 10:00:00') /* Skeleton Captain */
-     , (0x70113048, 0x70113046, '2005-02-09 10:00:00') /* Skeleton Captain */
-     , (0x70113048, 0x70113047, '2005-02-09 10:00:00') /* Skeleton Captain */;
+VALUES (0x70113048, 0x70113032, '2005-02-09 10:00:00') /* Skeleton Captain (1761) */
+     , (0x70113048, 0x70113033, '2005-02-09 10:00:00') /* Skeleton Captain (1761) */
+     , (0x70113048, 0x70113034, '2005-02-09 10:00:00') /* Skeleton Captain (1761) */
+     , (0x70113048, 0x70113035, '2005-02-09 10:00:00') /* Skeleton Captain (1761) */
+     , (0x70113048, 0x7011303A, '2005-02-09 10:00:00') /* Skeleton Captain (1761) */
+     , (0x70113048, 0x70113040, '2005-02-09 10:00:00') /* Skeleton Captain (1761) */
+     , (0x70113048, 0x70113041, '2005-02-09 10:00:00') /* Skeleton Captain (1761) */
+     , (0x70113048, 0x70113042, '2005-02-09 10:00:00') /* Skeleton Captain (1761) */
+     , (0x70113048, 0x70113043, '2005-02-09 10:00:00') /* Skeleton Captain (1761) */
+     , (0x70113048, 0x70113044, '2005-02-09 10:00:00') /* Skeleton Captain (1761) */
+     , (0x70113048, 0x70113045, '2005-02-09 10:00:00') /* Skeleton Captain (1761) */
+     , (0x70113048, 0x70113046, '2005-02-09 10:00:00') /* Skeleton Captain (1761) */
+     , (0x70113048, 0x70113047, '2005-02-09 10:00:00') /* Skeleton Captain (1761) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x70113049,  4219, 0x01130211, 30.2543, -23.1833, 6.005, -0.0740164, 0, 0, -0.997257, False, '2005-02-09 10:00:00'); /* Linkable Monster Generator ( 7 Min.) */
 /* @teleloc 0x01130211 [30.254300 -23.183300 6.005000] -0.074016 0.000000 0.000000 -0.997257 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x70113049, 0x70113005, '2005-02-09 10:00:00') /* Skeleton Captain */
-     , (0x70113049, 0x70113008, '2005-02-09 10:00:00') /* Skeleton Captain */
-     , (0x70113049, 0x70113029, '2005-02-09 10:00:00') /* Skeleton Captain */
-     , (0x70113049, 0x7011302A, '2005-02-09 10:00:00') /* Skeleton Captain */
-     , (0x70113049, 0x7011302B, '2005-02-09 10:00:00') /* Skeleton Captain */
-     , (0x70113049, 0x7011302C, '2005-02-09 10:00:00') /* Skeleton Captain */
-     , (0x70113049, 0x7011302D, '2005-02-09 10:00:00') /* Skeleton Captain */
-     , (0x70113049, 0x7011302E, '2005-02-09 10:00:00') /* Skeleton Captain */
-     , (0x70113049, 0x7011302F, '2005-02-09 10:00:00') /* Skeleton Captain */
-     , (0x70113049, 0x70113030, '2005-02-09 10:00:00') /* Skeleton Captain */
-     , (0x70113049, 0x70113031, '2005-02-09 10:00:00') /* Skeleton Captain */
-     , (0x70113049, 0x70113036, '2005-02-09 10:00:00') /* Skeleton Captain */
-     , (0x70113049, 0x70113037, '2005-02-09 10:00:00') /* Skeleton Captain */
-     , (0x70113049, 0x70113038, '2005-02-09 10:00:00') /* Skeleton Captain */
-     , (0x70113049, 0x70113039, '2005-02-09 10:00:00') /* Skeleton Captain */
-     , (0x70113049, 0x7011303B, '2005-02-09 10:00:00') /* Skeleton Captain */
-     , (0x70113049, 0x7011303C, '2005-02-09 10:00:00') /* Skeleton Captain */
-     , (0x70113049, 0x7011303D, '2005-02-09 10:00:00') /* Skeleton Captain */
-     , (0x70113049, 0x7011303E, '2005-02-09 10:00:00') /* Skeleton Captain */
-     , (0x70113049, 0x7011303F, '2005-02-09 10:00:00') /* Skeleton Captain */;
+VALUES (0x70113049, 0x70113005, '2005-02-09 10:00:00') /* Skeleton Captain (1761) */
+     , (0x70113049, 0x70113008, '2005-02-09 10:00:00') /* Skeleton Captain (1761) */
+     , (0x70113049, 0x70113029, '2005-02-09 10:00:00') /* Skeleton Captain (1761) */
+     , (0x70113049, 0x7011302A, '2005-02-09 10:00:00') /* Skeleton Captain (1761) */
+     , (0x70113049, 0x7011302B, '2005-02-09 10:00:00') /* Skeleton Captain (1761) */
+     , (0x70113049, 0x7011302C, '2005-02-09 10:00:00') /* Skeleton Captain (1761) */
+     , (0x70113049, 0x7011302D, '2005-02-09 10:00:00') /* Skeleton Captain (1761) */
+     , (0x70113049, 0x7011302E, '2005-02-09 10:00:00') /* Skeleton Captain (1761) */
+     , (0x70113049, 0x7011302F, '2005-02-09 10:00:00') /* Skeleton Captain (1761) */
+     , (0x70113049, 0x70113030, '2005-02-09 10:00:00') /* Skeleton Captain (1761) */
+     , (0x70113049, 0x70113031, '2005-02-09 10:00:00') /* Skeleton Captain (1761) */
+     , (0x70113049, 0x70113036, '2005-02-09 10:00:00') /* Skeleton Captain (1761) */
+     , (0x70113049, 0x70113037, '2005-02-09 10:00:00') /* Skeleton Captain (1761) */
+     , (0x70113049, 0x70113038, '2005-02-09 10:00:00') /* Skeleton Captain (1761) */
+     , (0x70113049, 0x70113039, '2005-02-09 10:00:00') /* Skeleton Captain (1761) */
+     , (0x70113049, 0x7011303B, '2005-02-09 10:00:00') /* Skeleton Captain (1761) */
+     , (0x70113049, 0x7011303C, '2005-02-09 10:00:00') /* Skeleton Captain (1761) */
+     , (0x70113049, 0x7011303D, '2005-02-09 10:00:00') /* Skeleton Captain (1761) */
+     , (0x70113049, 0x7011303E, '2005-02-09 10:00:00') /* Skeleton Captain (1761) */
+     , (0x70113049, 0x7011303F, '2005-02-09 10:00:00') /* Skeleton Captain (1761) */;

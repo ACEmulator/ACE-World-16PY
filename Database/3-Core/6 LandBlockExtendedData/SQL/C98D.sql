@@ -29,18 +29,18 @@ VALUES (0x7C98D006,  7923, 0xC98D0000, 23.414, 19.3411, 3.555, -0.709936, 0, 0, 
 /* @teleloc 0xC98D0000 [23.414000 19.341100 3.555000] -0.709936 0.000000 0.000000 -0.704266 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C98D006, 0x7C98D003, '2005-02-09 10:00:00') /* Fishing Hole */
-     , (0x7C98D006, 0x7C98D004, '2005-02-09 10:00:00') /* Fishing Hole */
-     , (0x7C98D006, 0x7C98D005, '2005-02-09 10:00:00') /* Fishing Hole */
-     , (0x7C98D006, 0x7C98D007, '2005-02-09 10:00:00') /* Fishing Hole */
-     , (0x7C98D006, 0x7C98D008, '2005-02-09 10:00:00') /* Fishing Hole */
-     , (0x7C98D006, 0x7C98D009, '2005-02-09 10:00:00') /* Fishing Hole */
-     , (0x7C98D006, 0x7C98D00A, '2005-02-09 10:00:00') /* Fishing Hole */
-     , (0x7C98D006, 0x7C98D00B, '2005-02-09 10:00:00') /* Fishing Hole */
-     , (0x7C98D006, 0x7C98D00C, '2005-02-09 10:00:00') /* Fishing Hole */
-     , (0x7C98D006, 0x7C98D00D, '2005-02-09 10:00:00') /* Fishing Hole */
-     , (0x7C98D006, 0x7C98D00E, '2005-02-09 10:00:00') /* Fishing Hole */
-     , (0x7C98D006, 0x7C98D00F, '2005-02-09 10:00:00') /* Fishing Hole */;
+VALUES (0x7C98D006, 0x7C98D003, '2005-02-09 10:00:00') /* Fishing Hole (22257) */
+     , (0x7C98D006, 0x7C98D004, '2005-02-09 10:00:00') /* Fishing Hole (22257) */
+     , (0x7C98D006, 0x7C98D005, '2005-02-09 10:00:00') /* Fishing Hole (22257) */
+     , (0x7C98D006, 0x7C98D007, '2005-02-09 10:00:00') /* Fishing Hole (22257) */
+     , (0x7C98D006, 0x7C98D008, '2005-02-09 10:00:00') /* Fishing Hole (22257) */
+     , (0x7C98D006, 0x7C98D009, '2005-02-09 10:00:00') /* Fishing Hole (22257) */
+     , (0x7C98D006, 0x7C98D00A, '2005-02-09 10:00:00') /* Fishing Hole (22257) */
+     , (0x7C98D006, 0x7C98D00B, '2005-02-09 10:00:00') /* Fishing Hole (22257) */
+     , (0x7C98D006, 0x7C98D00C, '2005-02-09 10:00:00') /* Fishing Hole (22257) */
+     , (0x7C98D006, 0x7C98D00D, '2005-02-09 10:00:00') /* Fishing Hole (22257) */
+     , (0x7C98D006, 0x7C98D00E, '2005-02-09 10:00:00') /* Fishing Hole (22257) */
+     , (0x7C98D006, 0x7C98D00F, '2005-02-09 10:00:00') /* Fishing Hole (22257) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C98D007, 22257, 0xC98D0000, 29.2819, 44.763, 3.555, -0.661895, 0, 0, 0.749597,  True, '2005-02-09 10:00:00'); /* Fishing Hole */

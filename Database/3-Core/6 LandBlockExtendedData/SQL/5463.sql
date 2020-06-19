@@ -257,16 +257,16 @@ VALUES (0x7546303F, 15759, 0x54630328, 151.614, -69.8769, 0.005, -0.42371, 0, 0,
 /* @teleloc 0x54630328 [151.614000 -69.876900 0.005000] -0.423710 0.000000 0.000000 0.905798 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7546303F, 0x7546300A, '2005-02-09 10:00:00') /* A Hastily Scrawled Note */
-     , (0x7546303F, 0x75463010, '2005-02-09 10:00:00') /* A Hastily Scrawled Note */
-     , (0x7546303F, 0x7546301F, '2005-02-09 10:00:00') /* A Hastily Scrawled Note */
-     , (0x7546303F, 0x75463040, '2005-02-09 10:00:00') /* Empty Binding */
-     , (0x7546303F, 0x75463045, '2005-02-09 10:00:00') /* A Hastily Scrawled Note */
-     , (0x7546303F, 0x7546304C, '2005-02-09 10:00:00') /* A Hastily Scrawled Note */
-     , (0x7546303F, 0x7546304D, '2005-02-09 10:00:00') /* A Hastily Scrawled Note */
-     , (0x7546303F, 0x75463059, '2005-02-09 10:00:00') /* A Hastily Scrawled Note */
-     , (0x7546303F, 0x75463069, '2005-02-09 10:00:00') /* Gelidite Dais */
-     , (0x7546303F, 0x7546306A, '2005-02-09 10:00:00') /* A Hastily Scrawled Note */;
+VALUES (0x7546303F, 0x7546300A, '2005-02-09 10:00:00') /* A Hastily Scrawled Note (15785) */
+     , (0x7546303F, 0x75463010, '2005-02-09 10:00:00') /* A Hastily Scrawled Note (15786) */
+     , (0x7546303F, 0x7546301F, '2005-02-09 10:00:00') /* A Hastily Scrawled Note (15787) */
+     , (0x7546303F, 0x75463040, '2005-02-09 10:00:00') /* Empty Binding (15853) */
+     , (0x7546303F, 0x75463045, '2005-02-09 10:00:00') /* A Hastily Scrawled Note (15782) */
+     , (0x7546303F, 0x7546304C, '2005-02-09 10:00:00') /* A Hastily Scrawled Note (15783) */
+     , (0x7546303F, 0x7546304D, '2005-02-09 10:00:00') /* A Hastily Scrawled Note (15781) */
+     , (0x7546303F, 0x75463059, '2005-02-09 10:00:00') /* A Hastily Scrawled Note (15784) */
+     , (0x7546303F, 0x75463069, '2005-02-09 10:00:00') /* Gelidite Dais (15855) */
+     , (0x7546303F, 0x7546306A, '2005-02-09 10:00:00') /* A Hastily Scrawled Note (15788) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75463040, 15853, 0x54630328, 148.727, -69.6912, 0.057, 0.423643, 0, 0, 0.905829,  True, '2005-02-09 10:00:00'); /* Empty Binding */
@@ -453,4 +453,4 @@ VALUES (0x7546306D,  5086, 0x546302A5, 217.473, -71.8105, -5.995, -0.687509, 0, 
 /* @teleloc 0x546302A5 [217.473000 -71.810500 -5.995000] -0.687509 0.000000 0.000000 0.726176 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7546306D, 0x7546306C, '2005-02-09 10:00:00') /* Oubliette Gatekeeper */;
+VALUES (0x7546306D, 0x7546306C, '2005-02-09 10:00:00') /* Oubliette Gatekeeper (16912) */;

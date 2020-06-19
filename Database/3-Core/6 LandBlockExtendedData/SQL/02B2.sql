@@ -9,7 +9,7 @@ VALUES (0x702B2001,  4142, 0x02B20104, 10.2167, -61.0567, -29.995, 0.71802, 0, 0
 /* @teleloc 0x02B20104 [10.216700 -61.056700 -29.995000] 0.718020 0.000000 0.000000 0.696023 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x702B2001, 0x702B2000, '2005-02-09 10:00:00') /* Heart of Shadow */;
+VALUES (0x702B2001, 0x702B2000, '2005-02-09 10:00:00') /* Heart of Shadow (8778) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x702B2002, 23562, 0x02B20104, 13.1936, -57.3048, -29.995, 0.732756, 0, 0, -0.680491,  True, '2005-02-09 10:00:00'); /* Abyssal Shadow */
@@ -40,7 +40,7 @@ VALUES (0x702B2008,  4454, 0x02B2011F, 41, -60, -23.995, -0.714424, 0, 0, -0.699
 /* @teleloc 0x02B2011F [41.000000 -60.000000 -23.995000] -0.714424 0.000000 0.000000 -0.699713 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x702B2008, 0x702B205E, '2005-02-09 10:00:00') /* Lever */;
+VALUES (0x702B2008, 0x702B205E, '2005-02-09 10:00:00') /* Lever (2609) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x702B2009,  8418, 0x02B2012E, 74, -20, -17.995, -0.707107, 0, 0, -0.707107, False, '2005-02-09 10:00:00'); /* Door */
@@ -75,7 +75,7 @@ VALUES (0x702B2010,  4095, 0x02B20132, 80.0011, -22.8442, -17.995, 0.999688, 0, 
 /* @teleloc 0x02B20132 [80.001100 -22.844200 -17.995000] 0.999688 0.000000 0.000000 0.024997 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x702B2010, 0x702B200F, '2005-02-09 10:00:00') /* Lever */;
+VALUES (0x702B2010, 0x702B200F, '2005-02-09 10:00:00') /* Lever (2609) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x702B2011, 23562, 0x02B2013B, 75.2047, -59.6421, -17.995, 0.663092, 0, 0, -0.748538,  True, '2005-02-09 10:00:00'); /* Abyssal Shadow */
@@ -118,7 +118,7 @@ VALUES (0x702B201A,  4454, 0x02B20156, 116, -60, -11.995, -0.707107, 0, 0, -0.70
 /* @teleloc 0x02B20156 [116.000000 -60.000000 -11.995000] -0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x702B201A, 0x702B2046, '2005-02-09 10:00:00') /* Lever */;
+VALUES (0x702B201A, 0x702B2046, '2005-02-09 10:00:00') /* Lever (2609) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x702B201B, 23562, 0x02B2015C, 161.058, -78.6396, -11.995, -0.762929, 0, 0, 0.646483,  True, '2005-02-09 10:00:00'); /* Abyssal Shadow */
@@ -245,60 +245,60 @@ VALUES (0x702B2039,  2179, 0x02B201EF, 160, -155, 6.005, 1, 0, 0, 0, False, '200
 /* @teleloc 0x02B201EF [160.000000 -155.000000 6.005000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x702B2039, 0x702B2052, '2005-02-09 10:00:00') /* Lever */;
+VALUES (0x702B2039, 0x702B2052, '2005-02-09 10:00:00') /* Lever (2609) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x702B203A,  7932, 0x02B201F9, 170, -190, 6.005, 1, 0, 0, 0, False, '2005-02-09 10:00:00'); /* Linkable Monster Generator ( 4 Min.) */
 /* @teleloc 0x02B201F9 [170.000000 -190.000000 6.005000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x702B203A, 0x702B2002, '2005-02-09 10:00:00') /* Abyssal Shadow */
-     , (0x702B203A, 0x702B2003, '2005-02-09 10:00:00') /* Abyssal Shadow */
-     , (0x702B203A, 0x702B200A, '2005-02-09 10:00:00') /* Harrower Grievver */
-     , (0x702B203A, 0x702B200C, '2005-02-09 10:00:00') /* Harrower Grievver */
-     , (0x702B203A, 0x702B200E, '2005-02-09 10:00:00') /* Harrower Grievver */
-     , (0x702B203A, 0x702B2011, '2005-02-09 10:00:00') /* Abyssal Shadow */
-     , (0x702B203A, 0x702B2012, '2005-02-09 10:00:00') /* Abyssal Shadow */
-     , (0x702B203A, 0x702B2015, '2005-02-09 10:00:00') /* Destroyer Grievver */
-     , (0x702B203A, 0x702B2017, '2005-02-09 10:00:00') /* Harrower Grievver */
-     , (0x702B203A, 0x702B2019, '2005-02-09 10:00:00') /* Harrower Grievver */
-     , (0x702B203A, 0x702B201B, '2005-02-09 10:00:00') /* Abyssal Shadow */
-     , (0x702B203A, 0x702B201C, '2005-02-09 10:00:00') /* Abyssal Shadow */
-     , (0x702B203A, 0x702B201D, '2005-02-09 10:00:00') /* Tenebrous Shadow */
-     , (0x702B203A, 0x702B201E, '2005-02-09 10:00:00') /* Tenebrous Shadow */
-     , (0x702B203A, 0x702B2021, '2005-02-09 10:00:00') /* Destroyer Grievver */
-     , (0x702B203A, 0x702B2024, '2005-02-09 10:00:00') /* Destroyer Grievver */
-     , (0x702B203A, 0x702B2025, '2005-02-09 10:00:00') /* Tenebrous Shadow */
-     , (0x702B203A, 0x702B2026, '2005-02-09 10:00:00') /* Tenebrous Shadow */
-     , (0x702B203A, 0x702B2027, '2005-02-09 10:00:00') /* Abyssal Shadow */
-     , (0x702B203A, 0x702B2028, '2005-02-09 10:00:00') /* Harrower Grievver */
-     , (0x702B203A, 0x702B2029, '2005-02-09 10:00:00') /* Harrower Grievver */
-     , (0x702B203A, 0x702B202F, '2005-02-09 10:00:00') /* Harrower Grievver */
-     , (0x702B203A, 0x702B2030, '2005-02-09 10:00:00') /* Tenebrous Shadow */
-     , (0x702B203A, 0x702B2031, '2005-02-09 10:00:00') /* Tenebrous Shadow */
-     , (0x702B203A, 0x702B2032, '2005-02-09 10:00:00') /* Harrower Grievver */
-     , (0x702B203A, 0x702B2033, '2005-02-09 10:00:00') /* Tenebrous Shadow */
-     , (0x702B203A, 0x702B2034, '2005-02-09 10:00:00') /* Tenebrous Shadow */
-     , (0x702B203A, 0x702B2035, '2005-02-09 10:00:00') /* Tenebrous Shadow */
-     , (0x702B203A, 0x702B2036, '2005-02-09 10:00:00') /* Tenebrous Shadow */
-     , (0x702B203A, 0x702B2041, '2005-02-09 10:00:00') /* Tenebrous Shadow */
-     , (0x702B203A, 0x702B2042, '2005-02-09 10:00:00') /* Tenebrous Shadow */
-     , (0x702B203A, 0x702B2043, '2005-02-09 10:00:00') /* Tenebrous Shadow */
-     , (0x702B203A, 0x702B2047, '2005-02-09 10:00:00') /* Tenebrous Shadow */
-     , (0x702B203A, 0x702B2048, '2005-02-09 10:00:00') /* Tenebrous Shadow */
-     , (0x702B203A, 0x702B2049, '2005-02-09 10:00:00') /* Tenebrous Shadow */
-     , (0x702B203A, 0x702B204F, '2005-02-09 10:00:00') /* Sinister Shadow */
-     , (0x702B203A, 0x702B2050, '2005-02-09 10:00:00') /* Sinister Shadow */
-     , (0x702B203A, 0x702B2051, '2005-02-09 10:00:00') /* Tenebrous Shadow */
-     , (0x702B203A, 0x702B2059, '2005-02-09 10:00:00') /* Tenebrous Shadow */
-     , (0x702B203A, 0x702B205A, '2005-02-09 10:00:00') /* Tenebrous Shadow */
-     , (0x702B203A, 0x702B205B, '2005-02-09 10:00:00') /* Tenebrous Shadow */
-     , (0x702B203A, 0x702B205C, '2005-02-09 10:00:00') /* Tenebrous Shadow */
-     , (0x702B203A, 0x702B2060, '2005-02-09 10:00:00') /* Sinister Shadow */
-     , (0x702B203A, 0x702B2061, '2005-02-09 10:00:00') /* Sinister Shadow */
-     , (0x702B203A, 0x702B2063, '2005-02-09 10:00:00') /* Sinister Shadow */
-     , (0x702B203A, 0x702B2064, '2005-02-09 10:00:00') /* Sinister Shadow */
-     , (0x702B203A, 0x702B2065, '2005-02-09 10:00:00') /* Sinister Shadow */;
+VALUES (0x702B203A, 0x702B2002, '2005-02-09 10:00:00') /* Abyssal Shadow (23562) */
+     , (0x702B203A, 0x702B2003, '2005-02-09 10:00:00') /* Abyssal Shadow (23562) */
+     , (0x702B203A, 0x702B200A, '2005-02-09 10:00:00') /* Harrower Grievver (7981) */
+     , (0x702B203A, 0x702B200C, '2005-02-09 10:00:00') /* Harrower Grievver (7981) */
+     , (0x702B203A, 0x702B200E, '2005-02-09 10:00:00') /* Harrower Grievver (7981) */
+     , (0x702B203A, 0x702B2011, '2005-02-09 10:00:00') /* Abyssal Shadow (23562) */
+     , (0x702B203A, 0x702B2012, '2005-02-09 10:00:00') /* Abyssal Shadow (23562) */
+     , (0x702B203A, 0x702B2015, '2005-02-09 10:00:00') /* Destroyer Grievver (7982) */
+     , (0x702B203A, 0x702B2017, '2005-02-09 10:00:00') /* Harrower Grievver (7981) */
+     , (0x702B203A, 0x702B2019, '2005-02-09 10:00:00') /* Harrower Grievver (7981) */
+     , (0x702B203A, 0x702B201B, '2005-02-09 10:00:00') /* Abyssal Shadow (23562) */
+     , (0x702B203A, 0x702B201C, '2005-02-09 10:00:00') /* Abyssal Shadow (23562) */
+     , (0x702B203A, 0x702B201D, '2005-02-09 10:00:00') /* Tenebrous Shadow (23564) */
+     , (0x702B203A, 0x702B201E, '2005-02-09 10:00:00') /* Tenebrous Shadow (23564) */
+     , (0x702B203A, 0x702B2021, '2005-02-09 10:00:00') /* Destroyer Grievver (7982) */
+     , (0x702B203A, 0x702B2024, '2005-02-09 10:00:00') /* Destroyer Grievver (7982) */
+     , (0x702B203A, 0x702B2025, '2005-02-09 10:00:00') /* Tenebrous Shadow (23564) */
+     , (0x702B203A, 0x702B2026, '2005-02-09 10:00:00') /* Tenebrous Shadow (23564) */
+     , (0x702B203A, 0x702B2027, '2005-02-09 10:00:00') /* Abyssal Shadow (23562) */
+     , (0x702B203A, 0x702B2028, '2005-02-09 10:00:00') /* Harrower Grievver (7981) */
+     , (0x702B203A, 0x702B2029, '2005-02-09 10:00:00') /* Harrower Grievver (7981) */
+     , (0x702B203A, 0x702B202F, '2005-02-09 10:00:00') /* Harrower Grievver (7981) */
+     , (0x702B203A, 0x702B2030, '2005-02-09 10:00:00') /* Tenebrous Shadow (23564) */
+     , (0x702B203A, 0x702B2031, '2005-02-09 10:00:00') /* Tenebrous Shadow (23564) */
+     , (0x702B203A, 0x702B2032, '2005-02-09 10:00:00') /* Harrower Grievver (7981) */
+     , (0x702B203A, 0x702B2033, '2005-02-09 10:00:00') /* Tenebrous Shadow (23564) */
+     , (0x702B203A, 0x702B2034, '2005-02-09 10:00:00') /* Tenebrous Shadow (23564) */
+     , (0x702B203A, 0x702B2035, '2005-02-09 10:00:00') /* Tenebrous Shadow (23564) */
+     , (0x702B203A, 0x702B2036, '2005-02-09 10:00:00') /* Tenebrous Shadow (23564) */
+     , (0x702B203A, 0x702B2041, '2005-02-09 10:00:00') /* Tenebrous Shadow (23564) */
+     , (0x702B203A, 0x702B2042, '2005-02-09 10:00:00') /* Tenebrous Shadow (23564) */
+     , (0x702B203A, 0x702B2043, '2005-02-09 10:00:00') /* Tenebrous Shadow (23564) */
+     , (0x702B203A, 0x702B2047, '2005-02-09 10:00:00') /* Tenebrous Shadow (23564) */
+     , (0x702B203A, 0x702B2048, '2005-02-09 10:00:00') /* Tenebrous Shadow (23564) */
+     , (0x702B203A, 0x702B2049, '2005-02-09 10:00:00') /* Tenebrous Shadow (23564) */
+     , (0x702B203A, 0x702B204F, '2005-02-09 10:00:00') /* Sinister Shadow (23563) */
+     , (0x702B203A, 0x702B2050, '2005-02-09 10:00:00') /* Sinister Shadow (23563) */
+     , (0x702B203A, 0x702B2051, '2005-02-09 10:00:00') /* Tenebrous Shadow (23564) */
+     , (0x702B203A, 0x702B2059, '2005-02-09 10:00:00') /* Tenebrous Shadow (23564) */
+     , (0x702B203A, 0x702B205A, '2005-02-09 10:00:00') /* Tenebrous Shadow (23564) */
+     , (0x702B203A, 0x702B205B, '2005-02-09 10:00:00') /* Tenebrous Shadow (23564) */
+     , (0x702B203A, 0x702B205C, '2005-02-09 10:00:00') /* Tenebrous Shadow (23564) */
+     , (0x702B203A, 0x702B2060, '2005-02-09 10:00:00') /* Sinister Shadow (23563) */
+     , (0x702B203A, 0x702B2061, '2005-02-09 10:00:00') /* Sinister Shadow (23563) */
+     , (0x702B203A, 0x702B2063, '2005-02-09 10:00:00') /* Sinister Shadow (23563) */
+     , (0x702B203A, 0x702B2064, '2005-02-09 10:00:00') /* Sinister Shadow (23563) */
+     , (0x702B203A, 0x702B2065, '2005-02-09 10:00:00') /* Sinister Shadow (23563) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x702B203B,  2609, 0x02B201F9, 167, -192, 6.059, -0.707107, 0, 0, -0.707107,  True, '2005-02-09 10:00:00'); /* Lever */
@@ -317,22 +317,22 @@ VALUES (0x702B203E,  4065, 0x02B201F9, 165.5, -190, 7, -0.708857, 0, 0, -0.70535
 /* @teleloc 0x02B201F9 [165.500000 -190.000000 7.000000] -0.708857 0.000000 0.000000 -0.705352 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x702B203E, 0x702B203C, '2005-02-09 10:00:00') /* Lever */;
+VALUES (0x702B203E, 0x702B203C, '2005-02-09 10:00:00') /* Lever (2609) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x702B203F,  4066, 0x02B201F9, 165.5, -188, 7, -0.999458, 0, 0, -0.032911, False, '2005-02-09 10:00:00'); /* Flame Trap */
 /* @teleloc 0x02B201F9 [165.500000 -188.000000 7.000000] -0.999458 0.000000 0.000000 -0.032911 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x702B203F, 0x702B203D, '2005-02-09 10:00:00') /* Lever */;
+VALUES (0x702B203F, 0x702B203D, '2005-02-09 10:00:00') /* Lever (2609) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x702B2040,  7923, 0x02B201F9, 171.421, -190.156, 6.005, 0.968912, 0, 0, 0.247404, False, '2005-02-09 10:00:00'); /* Linkable Monster Generator ( 3 Min.) */
 /* @teleloc 0x02B201F9 [171.421000 -190.156000 6.005000] 0.968912 0.000000 0.000000 0.247404 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x702B2040, 0x702B2004, '2005-02-09 10:00:00') /* Lower Shadow Heart Leader */
-     , (0x702B2040, 0x702B205F, '2005-02-09 10:00:00') /* Upper Shadow Heart Leader */;
+VALUES (0x702B2040, 0x702B2004, '2005-02-09 10:00:00') /* Lower Shadow Heart Leader (8817) */
+     , (0x702B2040, 0x702B205F, '2005-02-09 10:00:00') /* Upper Shadow Heart Leader (8818) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x702B2041, 23564, 0x02B201FC, 181.12, -140.128, 6.005, -0.72395, 0, 0, -0.689853,  True, '2005-02-09 10:00:00'); /* Tenebrous Shadow */
@@ -355,7 +355,7 @@ VALUES (0x702B2045,  4064, 0x02B20207, 28.0848, -300.586, 12.024, 0.731689, 0, 0
 /* @teleloc 0x02B20207 [28.084800 -300.586000 12.024000] 0.731689 0.000000 0.000000 0.681639 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x702B2045, 0x702B2044, '2005-02-09 10:00:00') /* Lever */;
+VALUES (0x702B2045, 0x702B2044, '2005-02-09 10:00:00') /* Lever (2609) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x702B2046,  2609, 0x02B2020D, 30, -320, 12.005, 1, 0, 0, 0,  True, '2005-02-09 10:00:00'); /* Lever */
@@ -382,7 +382,7 @@ VALUES (0x702B204B,  4064, 0x02B20223, 53.063, -300.435, 12.024, 0.779585, 0, 0,
 /* @teleloc 0x02B20223 [53.063000 -300.435000 12.024000] 0.779585 0.000000 0.000000 -0.626297 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x702B204B, 0x702B204A, '2005-02-09 10:00:00') /* Lever */;
+VALUES (0x702B204B, 0x702B204A, '2005-02-09 10:00:00') /* Lever (2609) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x702B204C,  2609, 0x02B20229, 50, -320, 12.005, 1, 0, 0, 0,  True, '2005-02-09 10:00:00'); /* Lever */
@@ -393,14 +393,14 @@ VALUES (0x702B204D,  4064, 0x02B20229, 53.5768, -320.975, 12.024, 0.687862, 0, 0
 /* @teleloc 0x02B20229 [53.576800 -320.975000 12.024000] 0.687862 0.000000 0.000000 -0.725842 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x702B204D, 0x702B204C, '2005-02-09 10:00:00') /* Lever */;
+VALUES (0x702B204D, 0x702B204C, '2005-02-09 10:00:00') /* Lever (2609) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x702B204E,  2179, 0x02B20243, 165, -270, 12.005, -0.707107, 0, 0, -0.707107, False, '2005-02-09 10:00:00'); /* Door */
 /* @teleloc 0x02B20243 [165.000000 -270.000000 12.005000] -0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x702B204E, 0x702B203B, '2005-02-09 10:00:00') /* Lever */;
+VALUES (0x702B204E, 0x702B203B, '2005-02-09 10:00:00') /* Lever (2609) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x702B204F, 23563, 0x02B20250, 177.918, -268.067, 12.0042, 0.941646, 0, 0, -0.336604,  True, '2005-02-09 10:00:00'); /* Sinister Shadow */
@@ -431,14 +431,14 @@ VALUES (0x702B2055,  4064, 0x02B20253, 193.5, -208, 13, 0.717817, 0, 0, -0.69623
 /* @teleloc 0x02B20253 [193.500000 -208.000000 13.000000] 0.717817 0.000000 0.000000 -0.696232 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x702B2055, 0x702B2054, '2005-02-09 10:00:00') /* Lever */;
+VALUES (0x702B2055, 0x702B2054, '2005-02-09 10:00:00') /* Lever (2609) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x702B2056,  4068, 0x02B20253, 193.5, -212, 13, 0.691954, 0, 0, -0.721941, False, '2005-02-09 10:00:00'); /* Shockwave Trap */
 /* @teleloc 0x02B20253 [193.500000 -212.000000 13.000000] 0.691954 0.000000 0.000000 -0.721941 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x702B2056, 0x702B2053, '2005-02-09 10:00:00') /* Lever */;
+VALUES (0x702B2056, 0x702B2053, '2005-02-09 10:00:00') /* Lever (2609) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x702B2057,  8850, 0x02B2025A, 210, -180, 12.005, 1, 0, 0, 0, False, '2005-02-09 10:00:00'); /* Surface Portal */
@@ -469,7 +469,7 @@ VALUES (0x702B205D,  2179, 0x02B20297, 210, -350, 24.005, 0.707107, 0, 0, -0.707
 /* @teleloc 0x02B20297 [210.000000 -350.000000 24.005000] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x702B205D, 0x702B2013, '2005-02-09 10:00:00') /* Lever */;
+VALUES (0x702B205D, 0x702B2013, '2005-02-09 10:00:00') /* Lever (2609) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x702B205E,  2609, 0x02B202A6, 250, -303, 30.005, 0.999894, 0, 0, -0.014538,  True, '2005-02-09 10:00:00'); /* Lever */

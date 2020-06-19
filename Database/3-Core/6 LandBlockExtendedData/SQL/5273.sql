@@ -9,7 +9,7 @@ VALUES (0x75273001,  7562, 0x52730101, 14.3632, -130.066, -40.7913, 0.71209, 0, 
 /* @teleloc 0x52730101 [14.363200 -130.066000 -40.791300] 0.712090 0.000000 0.000000 -0.702088 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x75273001, 0x75273000, '2005-02-09 10:00:00') /* Pressure Plate */;
+VALUES (0x75273001, 0x75273000, '2005-02-09 10:00:00') /* Pressure Plate (2131) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75273002,  4216, 0x5273010B, 9.61118, -177.679, -41.945, 1, 0, 0, -4.37114E-08,  True, '2005-02-09 10:00:00'); /* Diamond Golem */
@@ -32,14 +32,14 @@ VALUES (0x75273006,  7561, 0x5273010D, 22.8207, -130.075, -40.4301, 0.71209, 0, 
 /* @teleloc 0x5273010D [22.820700 -130.075000 -40.430100] 0.712090 0.000000 0.000000 -0.702088 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x75273006, 0x75273005, '2005-02-09 10:00:00') /* Pressure Plate */;
+VALUES (0x75273006, 0x75273005, '2005-02-09 10:00:00') /* Pressure Plate (2131) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75273007,  7561, 0x5273010D, 17.2507, -129.822, -40.7244, 0.71209, 0, 0, -0.702088, False, '2005-02-09 10:00:00'); /* Magic trap */
 /* @teleloc 0x5273010D [17.250700 -129.822000 -40.724400] 0.712090 0.000000 0.000000 -0.702088 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x75273007, 0x75273004, '2005-02-09 10:00:00') /* Pressure Plate */;
+VALUES (0x75273007, 0x75273004, '2005-02-09 10:00:00') /* Pressure Plate (2131) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75273008, 14520, 0x5273010D, 20, -130, -41.99, 0.7485, 0, 0, 0.663135,  True, '2005-02-09 10:00:00'); /* Pyreal Golem */
@@ -94,14 +94,14 @@ VALUES (0x75273014,  4454, 0x52730132, 60, -135, -42, 0, 0, 0, -1, False, '2005-
 /* @teleloc 0x52730132 [60.000000 -135.000000 -42.000000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x75273014, 0x75273096, '2005-02-09 10:00:00') /* Lever */;
+VALUES (0x75273014, 0x75273096, '2005-02-09 10:00:00') /* Lever (285) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75273015,  2179, 0x52730137, 60, -155.25, -42, 1, 0, 0, 0, False, '2005-02-09 10:00:00'); /* Door */
 /* @teleloc 0x52730137 [60.000000 -155.250000 -42.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x75273015, 0x75273095, '2005-02-09 10:00:00') /* Lever */;
+VALUES (0x75273015, 0x75273095, '2005-02-09 10:00:00') /* Lever (285) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75273016,   286, 0x5273013E, 61.8, -190, -40.5, -0.707107, 0, 0, -0.707107,  True, '2005-02-09 10:00:00'); /* Lever */
@@ -124,7 +124,7 @@ VALUES (0x7527301B,  2179, 0x5273016B, 10, -164.75, -36, 0, 0, 0, -1, False, '20
 /* @teleloc 0x5273016B [10.000000 -164.750000 -36.000000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7527301B, 0x7527308C, '2005-02-09 10:00:00') /* Lever */;
+VALUES (0x7527301B, 0x7527308C, '2005-02-09 10:00:00') /* Lever (285) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7527301C,  4216, 0x5273018B, -0.388821, -167.679, -23.945, 1, 0, 0, -4.37114E-08,  True, '2005-02-09 10:00:00'); /* Diamond Golem */
@@ -147,42 +147,42 @@ VALUES (0x75273021, 14549, 0x527301A7, -2.2619, -98.9349, -10.0901, -0.711276, 0
 /* @teleloc 0x527301A7 [-2.261900 -98.934900 -10.090100] -0.711276 0.000000 0.000000 -0.702913 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x75273021, 0x75273020, '2005-02-09 10:00:00') /* Pressure Plate */;
+VALUES (0x75273021, 0x75273020, '2005-02-09 10:00:00') /* Pressure Plate (2131) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75273022, 14549, 0x527301A7, -2.75581, -98.3306, -10.1838, -0.40439, 0, 0, -0.914587, False, '2005-02-09 10:00:00'); /* Lightning Trap */
 /* @teleloc 0x527301A7 [-2.755810 -98.330600 -10.183800] -0.404390 0.000000 0.000000 -0.914587 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x75273022, 0x7527301F, '2005-02-09 10:00:00') /* Pressure Plate */;
+VALUES (0x75273022, 0x7527301F, '2005-02-09 10:00:00') /* Pressure Plate (2131) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75273023, 14549, 0x527301A7, -3.50311, -97.4821, -10.1971, -0.0413, 0, 0, -0.999147, False, '2005-02-09 10:00:00'); /* Lightning Trap */
 /* @teleloc 0x527301A7 [-3.503110 -97.482100 -10.197100] -0.041300 0.000000 0.000000 -0.999147 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x75273023, 0x7527302C, '2005-02-09 10:00:00') /* Pressure Plate */;
+VALUES (0x75273023, 0x7527302C, '2005-02-09 10:00:00') /* Pressure Plate (2131) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75273024, 14549, 0x527301A7, -2.03079, -101.244, -10.0767, -0.851076, 0, 0, -0.525043, False, '2005-02-09 10:00:00'); /* Lightning Trap */
 /* @teleloc 0x527301A7 [-2.030790 -101.244000 -10.076700] -0.851076 0.000000 0.000000 -0.525043 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x75273024, 0x75273028, '2005-02-09 10:00:00') /* Pressure Plate */;
+VALUES (0x75273024, 0x75273028, '2005-02-09 10:00:00') /* Pressure Plate (2131) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75273025, 14549, 0x527301A7, -2.93206, -101.863, -10.4914, -0.999615, 0, 0, -0.027761, False, '2005-02-09 10:00:00'); /* Lightning Trap */
 /* @teleloc 0x527301A7 [-2.932060 -101.863000 -10.491400] -0.999615 0.000000 0.000000 -0.027761 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x75273025, 0x75273030, '2005-02-09 10:00:00') /* Pressure Plate */;
+VALUES (0x75273025, 0x75273030, '2005-02-09 10:00:00') /* Pressure Plate (2131) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75273026, 14549, 0x527301A7, -3.5846, -102.562, -10.2774, -0.993934, 0, 0, -0.109978, False, '2005-02-09 10:00:00'); /* Lightning Trap */
 /* @teleloc 0x527301A7 [-3.584600 -102.562000 -10.277400] -0.993934 0.000000 0.000000 -0.109978 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x75273026, 0x7527302D, '2005-02-09 10:00:00') /* Pressure Plate */;
+VALUES (0x75273026, 0x7527302D, '2005-02-09 10:00:00') /* Pressure Plate (2131) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75273027,  4216, 0x527301A7, 4.92774, -99.6664, -11.99, -0.930247, 0, 0, 0.366934,  True, '2005-02-09 10:00:00'); /* Diamond Golem */
@@ -233,7 +233,7 @@ VALUES (0x75273032,  2179, 0x527301C4, 15.25, -90, -12, 0.707107, 0, 0, -0.70710
 /* @teleloc 0x527301C4 [15.250000 -90.000000 -12.000000] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x75273032, 0x75273089, '2005-02-09 10:00:00') /* Button */;
+VALUES (0x75273032, 0x75273089, '2005-02-09 10:00:00') /* Button (8420) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75273033,   286, 0x527301D2, 28.2, -110, -10.5, 0.707107, 0, 0, -0.707107, False, '2005-02-09 10:00:00'); /* Lever */
@@ -260,7 +260,7 @@ VALUES (0x75273038,  7385, 0x527301D6, 39.9933, -57.4705, -10.2506, 0.999816, 0,
 /* @teleloc 0x527301D6 [39.993300 -57.470500 -10.250600] 0.999816 0.000000 0.000000 -0.019207 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x75273038, 0x75273036, '2005-02-09 10:00:00') /* Button */;
+VALUES (0x75273038, 0x75273036, '2005-02-09 10:00:00') /* Button (269) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75273039,  4216, 0x527301F0, 70, -90, -5.99, 1, 0, 0, 0,  True, '2005-02-09 10:00:00'); /* Diamond Golem */
@@ -279,7 +279,7 @@ VALUES (0x7527303C,  2179, 0x527301F4, 80, -54.75, -6, -4.37114E-08, 0, 0, -1, F
 /* @teleloc 0x527301F4 [80.000000 -54.750000 -6.000000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7527303C, 0x7527307C, '2005-02-09 10:00:00') /* Button */;
+VALUES (0x7527303C, 0x7527307C, '2005-02-09 10:00:00') /* Button (269) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7527303D, 14520, 0x527301F6, 83.879, -61.1808, -5.99, 0.475732, 0, 0, -0.87959,  True, '2005-02-09 10:00:00'); /* Pyreal Golem */
@@ -358,7 +358,7 @@ VALUES (0x75273050,  4454, 0x5273023B, 75, -150, 0, 0.707107, 0, 0, -0.707107, F
 /* @teleloc 0x5273023B [75.000000 -150.000000 0.000000] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x75273050, 0x75273060, '2005-02-09 10:00:00') /* Lever */;
+VALUES (0x75273050, 0x75273060, '2005-02-09 10:00:00') /* Lever (286) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75273051,  4216, 0x5273023C, 67.137, -156.227, 0.01, 0.689217, 0, 0, -0.724555,  True, '2005-02-09 10:00:00'); /* Diamond Golem */
@@ -385,59 +385,59 @@ VALUES (0x75273056,  7924, 0x52730255, 95.6643, -140.092, 0.005, 0.752082, 0, 0,
 /* @teleloc 0x52730255 [95.664300 -140.092000 0.005000] 0.752082 0.000000 0.000000 0.659070 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x75273056, 0x75273002, '2005-02-09 10:00:00') /* Diamond Golem */
-     , (0x75273056, 0x75273003, '2005-02-09 10:00:00') /* Diamond Golem */
-     , (0x75273056, 0x75273008, '2005-02-09 10:00:00') /* Pyreal Golem */
-     , (0x75273056, 0x75273009, '2005-02-09 10:00:00') /* Diamond Golem */
-     , (0x75273056, 0x7527300A, '2005-02-09 10:00:00') /* Diamond Golem */
-     , (0x75273056, 0x7527300B, '2005-02-09 10:00:00') /* Pyreal Golem */
-     , (0x75273056, 0x7527300C, '2005-02-09 10:00:00') /* Pyreal Golem */
-     , (0x75273056, 0x7527300E, '2005-02-09 10:00:00') /* Diamond Golem */
-     , (0x75273056, 0x7527300F, '2005-02-09 10:00:00') /* Diamond Golem */
-     , (0x75273056, 0x75273010, '2005-02-09 10:00:00') /* Pyreal Golem */
-     , (0x75273056, 0x75273011, '2005-02-09 10:00:00') /* Pyreal Golem */
-     , (0x75273056, 0x75273012, '2005-02-09 10:00:00') /* Astyrrian */
-     , (0x75273056, 0x75273013, '2005-02-09 10:00:00') /* Astyrrian */
-     , (0x75273056, 0x75273018, '2005-02-09 10:00:00') /* Pyreal Golem */
-     , (0x75273056, 0x75273019, '2005-02-09 10:00:00') /* Pyreal Golem */
-     , (0x75273056, 0x7527301C, '2005-02-09 10:00:00') /* Diamond Golem */
-     , (0x75273056, 0x7527301D, '2005-02-09 10:00:00') /* Diamond Golem */
-     , (0x75273056, 0x75273027, '2005-02-09 10:00:00') /* Diamond Golem */
-     , (0x75273056, 0x75273029, '2005-02-09 10:00:00') /* Pyreal Golem */
-     , (0x75273056, 0x7527302A, '2005-02-09 10:00:00') /* Diamond Golem */
-     , (0x75273056, 0x7527302B, '2005-02-09 10:00:00') /* Diamond Golem */
-     , (0x75273056, 0x7527302E, '2005-02-09 10:00:00') /* Pyreal Golem */
-     , (0x75273056, 0x7527302F, '2005-02-09 10:00:00') /* Pyreal Golem */
-     , (0x75273056, 0x75273031, '2005-02-09 10:00:00') /* Astyrrian */
-     , (0x75273056, 0x75273034, '2005-02-09 10:00:00') /* Pyreal Golem */
-     , (0x75273056, 0x75273035, '2005-02-09 10:00:00') /* Diamond Golem */
-     , (0x75273056, 0x75273037, '2005-02-09 10:00:00') /* Pyreal Golem */
-     , (0x75273056, 0x75273039, '2005-02-09 10:00:00') /* Diamond Golem */
-     , (0x75273056, 0x7527303A, '2005-02-09 10:00:00') /* Astyrrian */
-     , (0x75273056, 0x7527303B, '2005-02-09 10:00:00') /* Astyrrian */
-     , (0x75273056, 0x7527303D, '2005-02-09 10:00:00') /* Pyreal Golem */
-     , (0x75273056, 0x7527303E, '2005-02-09 10:00:00') /* Pyreal Golem */
-     , (0x75273056, 0x7527303F, '2005-02-09 10:00:00') /* Pyreal Golem */
-     , (0x75273056, 0x75273040, '2005-02-09 10:00:00') /* Pyreal Golem */
-     , (0x75273056, 0x75273041, '2005-02-09 10:00:00') /* Pyreal Golem */
-     , (0x75273056, 0x75273042, '2005-02-09 10:00:00') /* Diamond Golem */
-     , (0x75273056, 0x75273043, '2005-02-09 10:00:00') /* Diamond Golem */
-     , (0x75273056, 0x75273044, '2005-02-09 10:00:00') /* Diamond Golem */
-     , (0x75273056, 0x75273046, '2005-02-09 10:00:00') /* Diamond Golem */
-     , (0x75273056, 0x75273047, '2005-02-09 10:00:00') /* Astyrrian */
-     , (0x75273056, 0x75273048, '2005-02-09 10:00:00') /* Astyrrian */
-     , (0x75273056, 0x7527304B, '2005-02-09 10:00:00') /* Diamond Golem */
-     , (0x75273056, 0x7527304C, '2005-02-09 10:00:00') /* Diamond Golem */
-     , (0x75273056, 0x7527304D, '2005-02-09 10:00:00') /* Pyreal Golem */
-     , (0x75273056, 0x7527304F, '2005-02-09 10:00:00') /* Diamond Golem */
-     , (0x75273056, 0x75273051, '2005-02-09 10:00:00') /* Diamond Golem */
-     , (0x75273056, 0x75273053, '2005-02-09 10:00:00') /* Diamond Golem */
-     , (0x75273056, 0x75273054, '2005-02-09 10:00:00') /* Pyreal Golem */
-     , (0x75273056, 0x75273055, '2005-02-09 10:00:00') /* Diamond Golem */
-     , (0x75273056, 0x75273057, '2005-02-09 10:00:00') /* Pyreal Golem */
-     , (0x75273056, 0x7527305A, '2005-02-09 10:00:00') /* Diamond Golem */
-     , (0x75273056, 0x7527305B, '2005-02-09 10:00:00') /* Diamond Golem */
-     , (0x75273056, 0x7527305D, '2005-02-09 10:00:00') /* Pyreal Golem */;
+VALUES (0x75273056, 0x75273002, '2005-02-09 10:00:00') /* Diamond Golem (4216) */
+     , (0x75273056, 0x75273003, '2005-02-09 10:00:00') /* Diamond Golem (4216) */
+     , (0x75273056, 0x75273008, '2005-02-09 10:00:00') /* Pyreal Golem (14520) */
+     , (0x75273056, 0x75273009, '2005-02-09 10:00:00') /* Diamond Golem (4216) */
+     , (0x75273056, 0x7527300A, '2005-02-09 10:00:00') /* Diamond Golem (4216) */
+     , (0x75273056, 0x7527300B, '2005-02-09 10:00:00') /* Pyreal Golem (14520) */
+     , (0x75273056, 0x7527300C, '2005-02-09 10:00:00') /* Pyreal Golem (14520) */
+     , (0x75273056, 0x7527300E, '2005-02-09 10:00:00') /* Diamond Golem (4216) */
+     , (0x75273056, 0x7527300F, '2005-02-09 10:00:00') /* Diamond Golem (4216) */
+     , (0x75273056, 0x75273010, '2005-02-09 10:00:00') /* Pyreal Golem (14520) */
+     , (0x75273056, 0x75273011, '2005-02-09 10:00:00') /* Pyreal Golem (14520) */
+     , (0x75273056, 0x75273012, '2005-02-09 10:00:00') /* Astyrrian (6379) */
+     , (0x75273056, 0x75273013, '2005-02-09 10:00:00') /* Astyrrian (6379) */
+     , (0x75273056, 0x75273018, '2005-02-09 10:00:00') /* Pyreal Golem (14520) */
+     , (0x75273056, 0x75273019, '2005-02-09 10:00:00') /* Pyreal Golem (14520) */
+     , (0x75273056, 0x7527301C, '2005-02-09 10:00:00') /* Diamond Golem (4216) */
+     , (0x75273056, 0x7527301D, '2005-02-09 10:00:00') /* Diamond Golem (4216) */
+     , (0x75273056, 0x75273027, '2005-02-09 10:00:00') /* Diamond Golem (4216) */
+     , (0x75273056, 0x75273029, '2005-02-09 10:00:00') /* Pyreal Golem (14520) */
+     , (0x75273056, 0x7527302A, '2005-02-09 10:00:00') /* Diamond Golem (4216) */
+     , (0x75273056, 0x7527302B, '2005-02-09 10:00:00') /* Diamond Golem (4216) */
+     , (0x75273056, 0x7527302E, '2005-02-09 10:00:00') /* Pyreal Golem (14520) */
+     , (0x75273056, 0x7527302F, '2005-02-09 10:00:00') /* Pyreal Golem (14520) */
+     , (0x75273056, 0x75273031, '2005-02-09 10:00:00') /* Astyrrian (6379) */
+     , (0x75273056, 0x75273034, '2005-02-09 10:00:00') /* Pyreal Golem (14520) */
+     , (0x75273056, 0x75273035, '2005-02-09 10:00:00') /* Diamond Golem (4216) */
+     , (0x75273056, 0x75273037, '2005-02-09 10:00:00') /* Pyreal Golem (14520) */
+     , (0x75273056, 0x75273039, '2005-02-09 10:00:00') /* Diamond Golem (4216) */
+     , (0x75273056, 0x7527303A, '2005-02-09 10:00:00') /* Astyrrian (6379) */
+     , (0x75273056, 0x7527303B, '2005-02-09 10:00:00') /* Astyrrian (6379) */
+     , (0x75273056, 0x7527303D, '2005-02-09 10:00:00') /* Pyreal Golem (14520) */
+     , (0x75273056, 0x7527303E, '2005-02-09 10:00:00') /* Pyreal Golem (14520) */
+     , (0x75273056, 0x7527303F, '2005-02-09 10:00:00') /* Pyreal Golem (14520) */
+     , (0x75273056, 0x75273040, '2005-02-09 10:00:00') /* Pyreal Golem (14520) */
+     , (0x75273056, 0x75273041, '2005-02-09 10:00:00') /* Pyreal Golem (14520) */
+     , (0x75273056, 0x75273042, '2005-02-09 10:00:00') /* Diamond Golem (4216) */
+     , (0x75273056, 0x75273043, '2005-02-09 10:00:00') /* Diamond Golem (4216) */
+     , (0x75273056, 0x75273044, '2005-02-09 10:00:00') /* Diamond Golem (4216) */
+     , (0x75273056, 0x75273046, '2005-02-09 10:00:00') /* Diamond Golem (4216) */
+     , (0x75273056, 0x75273047, '2005-02-09 10:00:00') /* Astyrrian (6379) */
+     , (0x75273056, 0x75273048, '2005-02-09 10:00:00') /* Astyrrian (6379) */
+     , (0x75273056, 0x7527304B, '2005-02-09 10:00:00') /* Diamond Golem (4216) */
+     , (0x75273056, 0x7527304C, '2005-02-09 10:00:00') /* Diamond Golem (4216) */
+     , (0x75273056, 0x7527304D, '2005-02-09 10:00:00') /* Pyreal Golem (14520) */
+     , (0x75273056, 0x7527304F, '2005-02-09 10:00:00') /* Diamond Golem (4216) */
+     , (0x75273056, 0x75273051, '2005-02-09 10:00:00') /* Diamond Golem (4216) */
+     , (0x75273056, 0x75273053, '2005-02-09 10:00:00') /* Diamond Golem (4216) */
+     , (0x75273056, 0x75273054, '2005-02-09 10:00:00') /* Pyreal Golem (14520) */
+     , (0x75273056, 0x75273055, '2005-02-09 10:00:00') /* Diamond Golem (4216) */
+     , (0x75273056, 0x75273057, '2005-02-09 10:00:00') /* Pyreal Golem (14520) */
+     , (0x75273056, 0x7527305A, '2005-02-09 10:00:00') /* Diamond Golem (4216) */
+     , (0x75273056, 0x7527305B, '2005-02-09 10:00:00') /* Diamond Golem (4216) */
+     , (0x75273056, 0x7527305D, '2005-02-09 10:00:00') /* Pyreal Golem (14520) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75273057, 14520, 0x5273026B, 124.93, -146.585, 0.01, 0.820944, 0, 0, 0.571009,  True, '2005-02-09 10:00:00'); /* Pyreal Golem */
@@ -448,7 +448,7 @@ VALUES (0x75273058,  7385, 0x5273026C, 131.509, -110.676, 1.85637, 0.752057, 0, 
 /* @teleloc 0x5273026C [131.509000 -110.676000 1.856370] 0.752057 0.000000 0.000000 -0.659098 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x75273058, 0x7527305C, '2005-02-09 10:00:00') /* Lever */;
+VALUES (0x75273058, 0x7527305C, '2005-02-09 10:00:00') /* Lever (286) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75273059,  2609, 0x52730272, 126.5, -130, 0, 0.707107, 0, 0, -0.707107,  True, '2005-02-09 10:00:00'); /* Lever */
@@ -479,32 +479,32 @@ VALUES (0x7527305F,  7924, 0x52730278, 41.4914, -40.1184, 6.005, 0.678557, 0, 0,
 /* @teleloc 0x52730278 [41.491400 -40.118400 6.005000] 0.678557 0.000000 0.000000 -0.734548 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7527305F, 0x75273062, '2005-02-09 10:00:00') /* Pyreal Golem */
-     , (0x7527305F, 0x75273063, '2005-02-09 10:00:00') /* Diamond Golem */
-     , (0x7527305F, 0x75273064, '2005-02-09 10:00:00') /* Diamond Golem */
-     , (0x7527305F, 0x75273065, '2005-02-09 10:00:00') /* Diamond Golem */
-     , (0x7527305F, 0x75273066, '2005-02-09 10:00:00') /* Diamond Golem */
-     , (0x7527305F, 0x75273067, '2005-02-09 10:00:00') /* Diamond Golem */
-     , (0x7527305F, 0x7527306A, '2005-02-09 10:00:00') /* Pyreal Golem */
-     , (0x7527305F, 0x75273076, '2005-02-09 10:00:00') /* Pyreal Golem */
-     , (0x7527305F, 0x75273077, '2005-02-09 10:00:00') /* Diamond Golem */
-     , (0x7527305F, 0x75273078, '2005-02-09 10:00:00') /* Astyrrian */
-     , (0x7527305F, 0x75273079, '2005-02-09 10:00:00') /* Astyrrian */
-     , (0x7527305F, 0x7527307A, '2005-02-09 10:00:00') /* Pyreal Golem */
-     , (0x7527305F, 0x7527307D, '2005-02-09 10:00:00') /* Pyreal Golem */
-     , (0x7527305F, 0x7527307E, '2005-02-09 10:00:00') /* Pyreal Golem */
-     , (0x7527305F, 0x7527307F, '2005-02-09 10:00:00') /* Pyreal Golem */
-     , (0x7527305F, 0x75273080, '2005-02-09 10:00:00') /* Diamond Golem */
-     , (0x7527305F, 0x75273081, '2005-02-09 10:00:00') /* Diamond Golem */
-     , (0x7527305F, 0x75273082, '2005-02-09 10:00:00') /* Diamond Golem */
-     , (0x7527305F, 0x7527308A, '2005-02-09 10:00:00') /* Pyreal Golem */
-     , (0x7527305F, 0x7527308B, '2005-02-09 10:00:00') /* Diamond Golem */
-     , (0x7527305F, 0x7527308D, '2005-02-09 10:00:00') /* Astyrrian */
-     , (0x7527305F, 0x7527308E, '2005-02-09 10:00:00') /* Pyreal Golem */
-     , (0x7527305F, 0x7527308F, '2005-02-09 10:00:00') /* Pyreal Golem */
-     , (0x7527305F, 0x75273091, '2005-02-09 10:00:00') /* Diamond Golem */
-     , (0x7527305F, 0x75273092, '2005-02-09 10:00:00') /* Diamond Golem */
-     , (0x7527305F, 0x75273093, '2005-02-09 10:00:00') /* Astyrrian */;
+VALUES (0x7527305F, 0x75273062, '2005-02-09 10:00:00') /* Pyreal Golem (14520) */
+     , (0x7527305F, 0x75273063, '2005-02-09 10:00:00') /* Diamond Golem (4216) */
+     , (0x7527305F, 0x75273064, '2005-02-09 10:00:00') /* Diamond Golem (4216) */
+     , (0x7527305F, 0x75273065, '2005-02-09 10:00:00') /* Diamond Golem (4216) */
+     , (0x7527305F, 0x75273066, '2005-02-09 10:00:00') /* Diamond Golem (4216) */
+     , (0x7527305F, 0x75273067, '2005-02-09 10:00:00') /* Diamond Golem (4216) */
+     , (0x7527305F, 0x7527306A, '2005-02-09 10:00:00') /* Pyreal Golem (14520) */
+     , (0x7527305F, 0x75273076, '2005-02-09 10:00:00') /* Pyreal Golem (14520) */
+     , (0x7527305F, 0x75273077, '2005-02-09 10:00:00') /* Diamond Golem (4216) */
+     , (0x7527305F, 0x75273078, '2005-02-09 10:00:00') /* Astyrrian (6379) */
+     , (0x7527305F, 0x75273079, '2005-02-09 10:00:00') /* Astyrrian (6379) */
+     , (0x7527305F, 0x7527307A, '2005-02-09 10:00:00') /* Pyreal Golem (14520) */
+     , (0x7527305F, 0x7527307D, '2005-02-09 10:00:00') /* Pyreal Golem (14520) */
+     , (0x7527305F, 0x7527307E, '2005-02-09 10:00:00') /* Pyreal Golem (14520) */
+     , (0x7527305F, 0x7527307F, '2005-02-09 10:00:00') /* Pyreal Golem (14520) */
+     , (0x7527305F, 0x75273080, '2005-02-09 10:00:00') /* Diamond Golem (4216) */
+     , (0x7527305F, 0x75273081, '2005-02-09 10:00:00') /* Diamond Golem (4216) */
+     , (0x7527305F, 0x75273082, '2005-02-09 10:00:00') /* Diamond Golem (4216) */
+     , (0x7527305F, 0x7527308A, '2005-02-09 10:00:00') /* Pyreal Golem (14520) */
+     , (0x7527305F, 0x7527308B, '2005-02-09 10:00:00') /* Diamond Golem (4216) */
+     , (0x7527305F, 0x7527308D, '2005-02-09 10:00:00') /* Astyrrian (6379) */
+     , (0x7527305F, 0x7527308E, '2005-02-09 10:00:00') /* Pyreal Golem (14520) */
+     , (0x7527305F, 0x7527308F, '2005-02-09 10:00:00') /* Pyreal Golem (14520) */
+     , (0x7527305F, 0x75273091, '2005-02-09 10:00:00') /* Diamond Golem (4216) */
+     , (0x7527305F, 0x75273092, '2005-02-09 10:00:00') /* Diamond Golem (4216) */
+     , (0x7527305F, 0x75273093, '2005-02-09 10:00:00') /* Astyrrian (6379) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75273060,   286, 0x5273027D, 50, -18.2, 7.5, 0, 0, 0, -1,  True, '2005-02-09 10:00:00'); /* Lever */
@@ -515,7 +515,7 @@ VALUES (0x75273061,  2179, 0x52730281, 55, -40, 6, -0.707107, 0, 0, -0.707107, F
 /* @teleloc 0x52730281 [55.000000 -40.000000 6.000000] -0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x75273061, 0x75273059, '2005-02-09 10:00:00') /* Lever */;
+VALUES (0x75273061, 0x75273059, '2005-02-09 10:00:00') /* Lever (2609) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75273062, 14520, 0x5273028B, 60, -20, 6.01, 1, 0, 0, 0,  True, '2005-02-09 10:00:00'); /* Pyreal Golem */
@@ -550,7 +550,7 @@ VALUES (0x75273069,  7385, 0x52730297, 69.9527, -6.51996, 7.66913, 0.999978, 0, 
 /* @teleloc 0x52730297 [69.952700 -6.519960 7.669130] 0.999978 0.000000 0.000000 0.006577 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x75273069, 0x75273068, '2005-02-09 10:00:00') /* Lever */;
+VALUES (0x75273069, 0x75273068, '2005-02-09 10:00:00') /* Lever (286) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7527306A, 14520, 0x5273029E, 65.324, -46.2399, 6.055, 0.714421, 0, 0, 0.699716,  True, '2005-02-09 10:00:00'); /* Pyreal Golem */
@@ -561,14 +561,14 @@ VALUES (0x7527306B,  2179, 0x5273029F, 70, -55.25, 6, 1, 0, 0, 0, False, '2005-0
 /* @teleloc 0x5273029F [70.000000 -55.250000 6.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7527306B, 0x7527304E, '2005-02-09 10:00:00') /* Lever */;
+VALUES (0x7527306B, 0x7527304E, '2005-02-09 10:00:00') /* Lever (2609) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7527306C,  7385, 0x527302AA, 83.8997, -50.176, 7.44175, 0.714421, 0, 0, -0.699716, False, '2005-02-09 10:00:00'); /* Empyrean magical defense battery */
 /* @teleloc 0x527302AA [83.899700 -50.176000 7.441750] 0.714421 0.000000 0.000000 -0.699716 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7527306C, 0x7527306F, '2005-02-09 10:00:00') /* Button */;
+VALUES (0x7527306C, 0x7527306F, '2005-02-09 10:00:00') /* Button (269) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7527306D,   269, 0x527302B1, 94.4, -40.25, 7.5, 0.686073, 0, 0, -0.727533,  True, '2005-02-09 10:00:00'); /* Button */
@@ -579,7 +579,7 @@ VALUES (0x7527306E,  7385, 0x527302B1, 89.5566, -40.1366, 7.522, -0.704043, 0, 0
 /* @teleloc 0x527302B1 [89.556600 -40.136600 7.522000] -0.704043 0.000000 0.000000 0.710158 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7527306E, 0x7527306D, '2005-02-09 10:00:00') /* Button */;
+VALUES (0x7527306E, 0x7527306D, '2005-02-09 10:00:00') /* Button (269) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7527306F,   269, 0x527302B4, 88.2, -50.15, 7.5, 0.707107, 0, 0, -0.707107,  True, '2005-02-09 10:00:00'); /* Button */
@@ -594,7 +594,7 @@ VALUES (0x75273071,  7385, 0x527302BD, 100.119, -99.8907, 7.69587, -0.022289, 0,
 /* @teleloc 0x527302BD [100.119000 -99.890700 7.695870] -0.022289 0.000000 0.000000 -0.999752 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x75273071, 0x75273072, '2005-02-09 10:00:00') /* Lever */;
+VALUES (0x75273071, 0x75273072, '2005-02-09 10:00:00') /* Lever (286) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75273072,   286, 0x527302BD, 100, -104.4, 7.5, 0, 0, 0, -1,  True, '2005-02-09 10:00:00'); /* Lever */
@@ -609,7 +609,7 @@ VALUES (0x75273074,  7385, 0x527302C2, 130.965, -69.9318, 7.97675, 0.679654, 0, 
 /* @teleloc 0x527302C2 [130.965000 -69.931800 7.976750] 0.679654 0.000000 0.000000 -0.733533 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x75273074, 0x75273073, '2005-02-09 10:00:00') /* Button */;
+VALUES (0x75273074, 0x75273073, '2005-02-09 10:00:00') /* Button (269) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75273076, 14520, 0x527302DF, 63.9488, -28.0923, 18.01, -0.0956497, 0, 0, 0.995415,  True, '2005-02-09 10:00:00'); /* Pyreal Golem */
@@ -636,7 +636,7 @@ VALUES (0x7527307B,  2179, 0x527302F2, 70, -65.25, 18, 1, 0, 0, 0, False, '2005-
 /* @teleloc 0x527302F2 [70.000000 -65.250000 18.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7527307B, 0x75273016, '2005-02-09 10:00:00') /* Lever */;
+VALUES (0x7527307B, 0x75273016, '2005-02-09 10:00:00') /* Lever (286) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7527307C,   269, 0x527302F5, 80, 4.39999, 19.5, 1, 0, 0, 0,  True, '2005-02-09 10:00:00'); /* Button */
@@ -671,14 +671,14 @@ VALUES (0x75273083,  2179, 0x52730305, 85, -60, 18, 0.707107, 0, 0, -0.707107, F
 /* @teleloc 0x52730305 [85.000000 -60.000000 18.000000] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x75273083, 0x7527304A, '2005-02-09 10:00:00') /* Lever */;
+VALUES (0x75273083, 0x7527304A, '2005-02-09 10:00:00') /* Lever (285) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75273084,  7385, 0x52730314, 99.9191, -73.5747, 19.7494, -0.00625931, 0, 0, 0.99998, False, '2005-02-09 10:00:00'); /* Empyrean magical defense battery */
 /* @teleloc 0x52730314 [99.919100 -73.574700 19.749400] -0.006259 0.000000 0.000000 0.999980 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x75273084, 0x75273085, '2005-02-09 10:00:00') /* Lever */;
+VALUES (0x75273084, 0x75273085, '2005-02-09 10:00:00') /* Lever (286) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75273085,   286, 0x52730318, 100, -78.233, 19.5, 0, 0, 0, -1,  True, '2005-02-09 10:00:00'); /* Lever */
@@ -697,7 +697,7 @@ VALUES (0x75273088,  7385, 0x5273031E, 40.2582, -66.8244, 25.6424, 0.999985, 0, 
 /* @teleloc 0x5273031E [40.258200 -66.824400 25.642400] 0.999985 0.000000 0.000000 -0.005442 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x75273088, 0x75273087, '2005-02-09 10:00:00') /* Lever */;
+VALUES (0x75273088, 0x75273087, '2005-02-09 10:00:00') /* Lever (2609) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75273089,  8420, 0x52730320, 48.45, -33.5, 25.5, -0.707107, 0, 0, -0.707107,  True, '2005-02-09 10:00:00'); /* Button */
@@ -792,10 +792,10 @@ VALUES (0x752730A1,  7923, 0x52730142, 70, -120, -41.995, 1, 0, 0, 0, False, '20
 /* @teleloc 0x52730142 [70.000000 -120.000000 -41.995000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x752730A1, 0x7527309E, '2005-02-09 10:00:00') /* Synnast */
-     , (0x752730A1, 0x7527309F, '2005-02-09 10:00:00') /* Synnast */
-     , (0x752730A1, 0x752730A0, '2005-02-09 10:00:00') /* Synnast */
-     , (0x752730A1, 0x752730A2, '2005-02-09 10:00:00') /* Synnast */;
+VALUES (0x752730A1, 0x7527309E, '2005-02-09 10:00:00') /* Synnast (7094) */
+     , (0x752730A1, 0x7527309F, '2005-02-09 10:00:00') /* Synnast (7094) */
+     , (0x752730A1, 0x752730A0, '2005-02-09 10:00:00') /* Synnast (7094) */
+     , (0x752730A1, 0x752730A2, '2005-02-09 10:00:00') /* Synnast (7094) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x752730A2,  7094, 0x52730159, 90, -100, -41.9915, 1, 0, 0, 0,  True, '2005-02-09 10:00:00'); /* Synnast */

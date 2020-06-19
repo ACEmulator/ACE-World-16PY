@@ -45,8 +45,8 @@ VALUES (0x7015000A,  2180, 0x01500135, 64.75, -80, -12, -0.707107, 0, 0, 0.70710
 /* @teleloc 0x01500135 [64.750000 -80.000000 -12.000000] -0.707107 0.000000 0.000000 0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7015000A, 0x70150009, '2005-02-09 10:00:00') /* Lever */
-     , (0x7015000A, 0x7015000C, '2005-02-09 10:00:00') /* Lever */;
+VALUES (0x7015000A, 0x70150009, '2005-02-09 10:00:00') /* Lever (2609) */
+     , (0x7015000A, 0x7015000C, '2005-02-09 10:00:00') /* Lever (2609) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7015000B,  4109, 0x01500137, 60.6373, -93.1509, -11.989, -0.996664, 0, 0, -0.081613,  True, '2005-02-09 10:00:00'); /* Carrion Shreth */
@@ -117,8 +117,8 @@ VALUES (0x7015001B,  2180, 0x01500150, 34.75, -80, -6, 0.707107, 0, 0, -0.707107
 /* @teleloc 0x01500150 [34.750000 -80.000000 -6.000000] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7015001B, 0x7015001A, '2005-02-09 10:00:00') /* Lever */
-     , (0x7015001B, 0x70150031, '2005-02-09 10:00:00') /* Lever */;
+VALUES (0x7015001B, 0x7015001A, '2005-02-09 10:00:00') /* Lever (285) */
+     , (0x7015001B, 0x70150031, '2005-02-09 10:00:00') /* Lever (2609) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7015001C,   939, 0x01500151, 41.8938, 1.23421, -5.9923, -0.501415, 0, 0, -0.865207,  True, '2005-02-09 10:00:00'); /* Young Banderling */
@@ -149,8 +149,8 @@ VALUES (0x70150022,  2180, 0x0150015D, 39.9896, -65.2194, -6, -4.37114E-08, 0, 0
 /* @teleloc 0x0150015D [39.989600 -65.219400 -6.000000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x70150022, 0x70150015, '2005-02-09 10:00:00') /* Lever */
-     , (0x70150022, 0x70150029, '2005-02-09 10:00:00') /* Pressure Plate */;
+VALUES (0x70150022, 0x70150015, '2005-02-09 10:00:00') /* Lever (2609) */
+     , (0x70150022, 0x70150029, '2005-02-09 10:00:00') /* Pressure Plate (2131) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x70150023,  1468, 0x01500160, 52.6071, 1.54598, -5.9965, -0.980379, 0, 0, -0.197123,  True, '2005-02-09 10:00:00'); /* Drudge Slinker */
@@ -217,8 +217,8 @@ VALUES (0x70150032,  2180, 0x01500176, 55.25, -80, -6, -0.707107, 0, 0, -0.70710
 /* @teleloc 0x01500176 [55.250000 -80.000000 -6.000000] -0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x70150032, 0x7015002A, '2005-02-09 10:00:00') /* Pressure Plate */
-     , (0x70150032, 0x7015002F, '2005-02-09 10:00:00') /* Lever */;
+VALUES (0x70150032, 0x7015002A, '2005-02-09 10:00:00') /* Pressure Plate (2131) */
+     , (0x70150032, 0x7015002F, '2005-02-09 10:00:00') /* Lever (2609) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x70150033,  1913, 0x01500177, 69.38, -4.075, -6, 0, 0, 0, 1, False, '2005-02-09 10:00:00'); /* Chest */
@@ -269,40 +269,40 @@ VALUES (0x7015003E,  2180, 0x01500189, 20, -35.25, 0, 1, 0, 0, 0, False, '2005-0
 /* @teleloc 0x01500189 [20.000000 -35.250000 0.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7015003E, 0x7015003A, '2005-02-09 10:00:00') /* Lever */
-     , (0x7015003E, 0x7015003C, '2005-02-09 10:00:00') /* Lever */;
+VALUES (0x7015003E, 0x7015003A, '2005-02-09 10:00:00') /* Lever (285) */
+     , (0x7015003E, 0x7015003C, '2005-02-09 10:00:00') /* Lever (285) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7015003F,  7923, 0x0150018A, 30, 0, 0, 1, 0, 0, 0, False, '2005-02-09 10:00:00'); /* Linkable Monster Generator ( 3 Min.) */
 /* @teleloc 0x0150018A [30.000000 0.000000 0.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7015003F, 0x70150000, '2005-02-09 10:00:00') /* Young Banderling */
-     , (0x7015003F, 0x70150001, '2005-02-09 10:00:00') /* Young Banderling */
-     , (0x7015003F, 0x70150003, '2005-02-09 10:00:00') /* Young Banderling */
-     , (0x7015003F, 0x70150007, '2005-02-09 10:00:00') /* White Rat */
-     , (0x7015003F, 0x70150008, '2005-02-09 10:00:00') /* White Rat */
-     , (0x7015003F, 0x7015000B, '2005-02-09 10:00:00') /* Carrion Shreth */
-     , (0x7015003F, 0x7015000E, '2005-02-09 10:00:00') /* Russet Rat */
-     , (0x7015003F, 0x70150010, '2005-02-09 10:00:00') /* Young Banderling */
-     , (0x7015003F, 0x70150011, '2005-02-09 10:00:00') /* Young Banderling */
-     , (0x7015003F, 0x70150014, '2005-02-09 10:00:00') /* Young Banderling */
-     , (0x7015003F, 0x70150016, '2005-02-09 10:00:00') /* Drudge Slinker */
-     , (0x7015003F, 0x70150017, '2005-02-09 10:00:00') /* Drudge Slinker */
-     , (0x7015003F, 0x7015001C, '2005-02-09 10:00:00') /* Young Banderling */
-     , (0x7015003F, 0x7015001F, '2005-02-09 10:00:00') /* Russet Rat */
-     , (0x7015003F, 0x70150020, '2005-02-09 10:00:00') /* Russet Rat */
-     , (0x7015003F, 0x70150021, '2005-02-09 10:00:00') /* Drudge Skulker */
-     , (0x7015003F, 0x70150023, '2005-02-09 10:00:00') /* Drudge Slinker */
-     , (0x7015003F, 0x70150024, '2005-02-09 10:00:00') /* Drudge Skulker */
-     , (0x7015003F, 0x70150026, '2005-02-09 10:00:00') /* Drudge Skulker */
-     , (0x7015003F, 0x7015002B, '2005-02-09 10:00:00') /* Young Banderling */
-     , (0x7015003F, 0x70150030, '2005-02-09 10:00:00') /* Skeleton */
-     , (0x7015003F, 0x70150034, '2005-02-09 10:00:00') /* Young Banderling */
-     , (0x7015003F, 0x70150038, '2005-02-09 10:00:00') /* Gnawer Shreth */
-     , (0x7015003F, 0x70150039, '2005-02-09 10:00:00') /* Carrion Shreth */
-     , (0x7015003F, 0x7015003D, '2005-02-09 10:00:00') /* Gnawer Shreth */
-     , (0x7015003F, 0x70150041, '2005-02-09 10:00:00') /* Gnawer Shreth */;
+VALUES (0x7015003F, 0x70150000, '2005-02-09 10:00:00') /* Young Banderling (939) */
+     , (0x7015003F, 0x70150001, '2005-02-09 10:00:00') /* Young Banderling (939) */
+     , (0x7015003F, 0x70150003, '2005-02-09 10:00:00') /* Young Banderling (939) */
+     , (0x7015003F, 0x70150007, '2005-02-09 10:00:00') /* White Rat (13) */
+     , (0x7015003F, 0x70150008, '2005-02-09 10:00:00') /* White Rat (13) */
+     , (0x7015003F, 0x7015000B, '2005-02-09 10:00:00') /* Carrion Shreth (4109) */
+     , (0x7015003F, 0x7015000E, '2005-02-09 10:00:00') /* Russet Rat (4132) */
+     , (0x7015003F, 0x70150010, '2005-02-09 10:00:00') /* Young Banderling (939) */
+     , (0x7015003F, 0x70150011, '2005-02-09 10:00:00') /* Young Banderling (939) */
+     , (0x7015003F, 0x70150014, '2005-02-09 10:00:00') /* Young Banderling (939) */
+     , (0x7015003F, 0x70150016, '2005-02-09 10:00:00') /* Drudge Slinker (1468) */
+     , (0x7015003F, 0x70150017, '2005-02-09 10:00:00') /* Drudge Slinker (193) */
+     , (0x7015003F, 0x7015001C, '2005-02-09 10:00:00') /* Young Banderling (939) */
+     , (0x7015003F, 0x7015001F, '2005-02-09 10:00:00') /* Russet Rat (4132) */
+     , (0x7015003F, 0x70150020, '2005-02-09 10:00:00') /* Russet Rat (4132) */
+     , (0x7015003F, 0x70150021, '2005-02-09 10:00:00') /* Drudge Skulker (7) */
+     , (0x7015003F, 0x70150023, '2005-02-09 10:00:00') /* Drudge Slinker (1468) */
+     , (0x7015003F, 0x70150024, '2005-02-09 10:00:00') /* Drudge Skulker (7) */
+     , (0x7015003F, 0x70150026, '2005-02-09 10:00:00') /* Drudge Skulker (7) */
+     , (0x7015003F, 0x7015002B, '2005-02-09 10:00:00') /* Young Banderling (939) */
+     , (0x7015003F, 0x70150030, '2005-02-09 10:00:00') /* Skeleton (1759) */
+     , (0x7015003F, 0x70150034, '2005-02-09 10:00:00') /* Young Banderling (939) */
+     , (0x7015003F, 0x70150038, '2005-02-09 10:00:00') /* Gnawer Shreth (4108) */
+     , (0x7015003F, 0x70150039, '2005-02-09 10:00:00') /* Carrion Shreth (4109) */
+     , (0x7015003F, 0x7015003D, '2005-02-09 10:00:00') /* Gnawer Shreth (4108) */
+     , (0x7015003F, 0x70150041, '2005-02-09 10:00:00') /* Gnawer Shreth (4108) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x70150040,   420, 0x0150018C, 31.9205, -17.1611, 0, -0.30995, 0, 0, -0.950753, False, '2005-02-09 10:00:00'); /* Item Food Generator */
@@ -317,7 +317,7 @@ VALUES (0x70150042, 15759, 0x01500103, -0.580694, -76.2755, -17.995, 0.920566, 0
 /* @teleloc 0x01500103 [-0.580694 -76.275500 -17.995000] 0.920566 0.000000 0.000000 0.390587 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x70150042, 0x70150043, '2005-02-09 10:00:00') /* Alloy Device */;
+VALUES (0x70150042, 0x70150043, '2005-02-09 10:00:00') /* Alloy Device (25315) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x70150043, 25315, 0x01500103, -0.215941, -76.5535, -17.995, 0.962425, 0, 0, 0.271547,  True, '2005-02-09 10:00:00'); /* Alloy Device */

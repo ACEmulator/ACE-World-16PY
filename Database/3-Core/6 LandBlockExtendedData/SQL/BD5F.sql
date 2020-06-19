@@ -57,16 +57,16 @@ VALUES (0x7BD5F015,  7923, 0xBD5F0000, 178.837, 12.4531, 5.555, -0.142626, 0, 0,
 /* @teleloc 0xBD5F0000 [178.837000 12.453100 5.555000] -0.142626 0.000000 0.000000 -0.989777 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BD5F015, 0x7BD5F008, '2005-02-09 10:00:00') /* Water Golem */
-     , (0x7BD5F015, 0x7BD5F009, '2005-02-09 10:00:00') /* Water Golem */
-     , (0x7BD5F015, 0x7BD5F00A, '2005-02-09 10:00:00') /* Water Golem */
-     , (0x7BD5F015, 0x7BD5F00B, '2005-02-09 10:00:00') /* Water Golem */
-     , (0x7BD5F015, 0x7BD5F00C, '2005-02-09 10:00:00') /* Water Golem */
-     , (0x7BD5F015, 0x7BD5F00D, '2005-02-09 10:00:00') /* Water Golem */
-     , (0x7BD5F015, 0x7BD5F00E, '2005-02-09 10:00:00') /* Water Golem */
-     , (0x7BD5F015, 0x7BD5F00F, '2005-02-09 10:00:00') /* Water Golem */
-     , (0x7BD5F015, 0x7BD5F010, '2005-02-09 10:00:00') /* Water Golem */
-     , (0x7BD5F015, 0x7BD5F011, '2005-02-09 10:00:00') /* Water Golem */
-     , (0x7BD5F015, 0x7BD5F012, '2005-02-09 10:00:00') /* Water Golem */
-     , (0x7BD5F015, 0x7BD5F013, '2005-02-09 10:00:00') /* Water Golem */
-     , (0x7BD5F015, 0x7BD5F014, '2005-02-09 10:00:00') /* Water Golem */;
+VALUES (0x7BD5F015, 0x7BD5F008, '2005-02-09 10:00:00') /* Water Golem (941) */
+     , (0x7BD5F015, 0x7BD5F009, '2005-02-09 10:00:00') /* Water Golem (941) */
+     , (0x7BD5F015, 0x7BD5F00A, '2005-02-09 10:00:00') /* Water Golem (941) */
+     , (0x7BD5F015, 0x7BD5F00B, '2005-02-09 10:00:00') /* Water Golem (941) */
+     , (0x7BD5F015, 0x7BD5F00C, '2005-02-09 10:00:00') /* Water Golem (941) */
+     , (0x7BD5F015, 0x7BD5F00D, '2005-02-09 10:00:00') /* Water Golem (941) */
+     , (0x7BD5F015, 0x7BD5F00E, '2005-02-09 10:00:00') /* Water Golem (941) */
+     , (0x7BD5F015, 0x7BD5F00F, '2005-02-09 10:00:00') /* Water Golem (941) */
+     , (0x7BD5F015, 0x7BD5F010, '2005-02-09 10:00:00') /* Water Golem (941) */
+     , (0x7BD5F015, 0x7BD5F011, '2005-02-09 10:00:00') /* Water Golem (941) */
+     , (0x7BD5F015, 0x7BD5F012, '2005-02-09 10:00:00') /* Water Golem (941) */
+     , (0x7BD5F015, 0x7BD5F013, '2005-02-09 10:00:00') /* Water Golem (941) */
+     , (0x7BD5F015, 0x7BD5F014, '2005-02-09 10:00:00') /* Water Golem (941) */;

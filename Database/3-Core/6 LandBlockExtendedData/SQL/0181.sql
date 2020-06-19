@@ -73,58 +73,58 @@ VALUES (0x70181015,  7923, 0x01810162, 99.1009, -156.735, 0, -4.37114E-08, 0, 0,
 /* @teleloc 0x01810162 [99.100900 -156.735000 0.000000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x70181015, 0x70181000, '2005-02-09 10:00:00') /* High Mu-miyah */
-     , (0x70181015, 0x70181002, '2005-02-09 10:00:00') /* Peerless Healing Kit */
-     , (0x70181015, 0x70181004, '2005-02-09 10:00:00') /* Bowl of Stew */
-     , (0x70181015, 0x70181006, '2005-02-09 10:00:00') /* Drudge Ravener */
-     , (0x70181015, 0x70181007, '2005-02-09 10:00:00') /* Drudge Ravener */
-     , (0x70181015, 0x70181008, '2005-02-09 10:00:00') /* Drudge Ravener */
-     , (0x70181015, 0x70181009, '2005-02-09 10:00:00') /* Drudge Ravener */
-     , (0x70181015, 0x7018100A, '2005-02-09 10:00:00') /* Drudge Ravener */
-     , (0x70181015, 0x7018100B, '2005-02-09 10:00:00') /* Drudge Ravener */
-     , (0x70181015, 0x7018100D, '2005-02-09 10:00:00') /* Drudge Ravener */
-     , (0x70181015, 0x7018100E, '2005-02-09 10:00:00') /* Drudge Ravener */
-     , (0x70181015, 0x70181018, '2005-02-09 10:00:00') /* Drudge Ravener */
-     , (0x70181015, 0x70181019, '2005-02-09 10:00:00') /* Drudge Ravener */
-     , (0x70181015, 0x7018101B, '2005-02-09 10:00:00') /* Banderling Berserker */
-     , (0x70181015, 0x7018101C, '2005-02-09 10:00:00') /* Banderling Berserker */
-     , (0x70181015, 0x7018101D, '2005-02-09 10:00:00') /* Drudge Ravener */
-     , (0x70181015, 0x7018101E, '2005-02-09 10:00:00') /* Drudge Ravener */
-     , (0x70181015, 0x7018101F, '2005-02-09 10:00:00') /* Drudge Ravener */
-     , (0x70181015, 0x70181020, '2005-02-09 10:00:00') /* Drudge Ravener */
-     , (0x70181015, 0x70181021, '2005-02-09 10:00:00') /* Small Beer */
-     , (0x70181015, 0x70181022, '2005-02-09 10:00:00') /* Drudge Ravener */
-     , (0x70181015, 0x70181025, '2005-02-09 10:00:00') /* Drudge Ravener */
-     , (0x70181015, 0x70181026, '2005-02-09 10:00:00') /* Drudge Ravener */
-     , (0x70181015, 0x7018102A, '2005-02-09 10:00:00') /* Broken Sigil */
-     , (0x70181015, 0x7018102B, '2005-02-09 10:00:00') /* Banderling Berserker */
-     , (0x70181015, 0x7018102C, '2005-02-09 10:00:00') /* Banderling Berserker */
-     , (0x70181015, 0x7018102D, '2005-02-09 10:00:00') /* Banderling Berserker */
-     , (0x70181015, 0x7018102E, '2005-02-09 10:00:00') /* Banderling Berserker */
-     , (0x70181015, 0x70181032, '2005-02-09 10:00:00') /* Banderling Berserker */
-     , (0x70181015, 0x70181033, '2005-02-09 10:00:00') /* Banderling Berserker */
-     , (0x70181015, 0x70181036, '2005-02-09 10:00:00') /* Drudge Ravener */
-     , (0x70181015, 0x70181037, '2005-02-09 10:00:00') /* Drudge Ravener */
-     , (0x70181015, 0x70181038, '2005-02-09 10:00:00') /* Drudge Ravener */
-     , (0x70181015, 0x7018103F, '2005-02-09 10:00:00') /* Drudge Ravener */
-     , (0x70181015, 0x70181040, '2005-02-09 10:00:00') /* Drudge Ravener */
-     , (0x70181015, 0x70181042, '2005-02-09 10:00:00') /* Drudge Ravener */
-     , (0x70181015, 0x70181043, '2005-02-09 10:00:00') /* Drudge Ravener */
-     , (0x70181015, 0x70181045, '2005-02-09 10:00:00') /* Drudge Ravener */
-     , (0x70181015, 0x70181046, '2005-02-09 10:00:00') /* Red Wine */
-     , (0x70181015, 0x70181047, '2005-02-09 10:00:00') /* Knife */
-     , (0x70181015, 0x7018104A, '2005-02-09 10:00:00') /* Drudge Ravener */
-     , (0x70181015, 0x7018104D, '2005-02-09 10:00:00') /* Drudge Ravener */
-     , (0x70181015, 0x7018104F, '2005-02-09 10:00:00') /* Drudge Ravener */
-     , (0x70181015, 0x70181051, '2005-02-09 10:00:00') /* Drudge Ravener */
-     , (0x70181015, 0x70181053, '2005-02-09 10:00:00') /* Drudge Ravener */
-     , (0x70181015, 0x70181054, '2005-02-09 10:00:00') /* Drudge Ravener */
-     , (0x70181015, 0x7018105D, '2005-02-09 10:00:00') /* Drudge Ravener */
-     , (0x70181015, 0x7018105E, '2005-02-09 10:00:00') /* Drudge Ravener */
-     , (0x70181015, 0x7018105F, '2005-02-09 10:00:00') /* Drudge Ravener */
-     , (0x70181015, 0x70181060, '2005-02-09 10:00:00') /* High Mu-miyah */
-     , (0x70181015, 0x70181061, '2005-02-09 10:00:00') /* High Mu-miyah */
-     , (0x70181015, 0x70181062, '2005-02-09 10:00:00') /* High Mu-miyah */;
+VALUES (0x70181015, 0x70181000, '2005-02-09 10:00:00') /* High Mu-miyah (7116) */
+     , (0x70181015, 0x70181002, '2005-02-09 10:00:00') /* Peerless Healing Kit (632) */
+     , (0x70181015, 0x70181004, '2005-02-09 10:00:00') /* Bowl of Stew (549) */
+     , (0x70181015, 0x70181006, '2005-02-09 10:00:00') /* Drudge Ravener (1610) */
+     , (0x70181015, 0x70181007, '2005-02-09 10:00:00') /* Drudge Ravener (1610) */
+     , (0x70181015, 0x70181008, '2005-02-09 10:00:00') /* Drudge Ravener (1610) */
+     , (0x70181015, 0x70181009, '2005-02-09 10:00:00') /* Drudge Ravener (1610) */
+     , (0x70181015, 0x7018100A, '2005-02-09 10:00:00') /* Drudge Ravener (1610) */
+     , (0x70181015, 0x7018100B, '2005-02-09 10:00:00') /* Drudge Ravener (1610) */
+     , (0x70181015, 0x7018100D, '2005-02-09 10:00:00') /* Drudge Ravener (1610) */
+     , (0x70181015, 0x7018100E, '2005-02-09 10:00:00') /* Drudge Ravener (1610) */
+     , (0x70181015, 0x70181018, '2005-02-09 10:00:00') /* Drudge Ravener (1610) */
+     , (0x70181015, 0x70181019, '2005-02-09 10:00:00') /* Drudge Ravener (1610) */
+     , (0x70181015, 0x7018101B, '2005-02-09 10:00:00') /* Banderling Berserker (7085) */
+     , (0x70181015, 0x7018101C, '2005-02-09 10:00:00') /* Banderling Berserker (7085) */
+     , (0x70181015, 0x7018101D, '2005-02-09 10:00:00') /* Drudge Ravener (1610) */
+     , (0x70181015, 0x7018101E, '2005-02-09 10:00:00') /* Drudge Ravener (1610) */
+     , (0x70181015, 0x7018101F, '2005-02-09 10:00:00') /* Drudge Ravener (1610) */
+     , (0x70181015, 0x70181020, '2005-02-09 10:00:00') /* Drudge Ravener (1610) */
+     , (0x70181015, 0x70181021, '2005-02-09 10:00:00') /* Small Beer (2469) */
+     , (0x70181015, 0x70181022, '2005-02-09 10:00:00') /* Drudge Ravener (1610) */
+     , (0x70181015, 0x70181025, '2005-02-09 10:00:00') /* Drudge Ravener (1610) */
+     , (0x70181015, 0x70181026, '2005-02-09 10:00:00') /* Drudge Ravener (1610) */
+     , (0x70181015, 0x7018102A, '2005-02-09 10:00:00') /* Broken Sigil (4206) */
+     , (0x70181015, 0x7018102B, '2005-02-09 10:00:00') /* Banderling Berserker (7085) */
+     , (0x70181015, 0x7018102C, '2005-02-09 10:00:00') /* Banderling Berserker (7085) */
+     , (0x70181015, 0x7018102D, '2005-02-09 10:00:00') /* Banderling Berserker (7085) */
+     , (0x70181015, 0x7018102E, '2005-02-09 10:00:00') /* Banderling Berserker (7085) */
+     , (0x70181015, 0x70181032, '2005-02-09 10:00:00') /* Banderling Berserker (7085) */
+     , (0x70181015, 0x70181033, '2005-02-09 10:00:00') /* Banderling Berserker (7085) */
+     , (0x70181015, 0x70181036, '2005-02-09 10:00:00') /* Drudge Ravener (1610) */
+     , (0x70181015, 0x70181037, '2005-02-09 10:00:00') /* Drudge Ravener (1610) */
+     , (0x70181015, 0x70181038, '2005-02-09 10:00:00') /* Drudge Ravener (1610) */
+     , (0x70181015, 0x7018103F, '2005-02-09 10:00:00') /* Drudge Ravener (1610) */
+     , (0x70181015, 0x70181040, '2005-02-09 10:00:00') /* Drudge Ravener (1610) */
+     , (0x70181015, 0x70181042, '2005-02-09 10:00:00') /* Drudge Ravener (1610) */
+     , (0x70181015, 0x70181043, '2005-02-09 10:00:00') /* Drudge Ravener (1610) */
+     , (0x70181015, 0x70181045, '2005-02-09 10:00:00') /* Drudge Ravener (1610) */
+     , (0x70181015, 0x70181046, '2005-02-09 10:00:00') /* Red Wine (2467) */
+     , (0x70181015, 0x70181047, '2005-02-09 10:00:00') /* Knife (329) */
+     , (0x70181015, 0x7018104A, '2005-02-09 10:00:00') /* Drudge Ravener (1610) */
+     , (0x70181015, 0x7018104D, '2005-02-09 10:00:00') /* Drudge Ravener (1610) */
+     , (0x70181015, 0x7018104F, '2005-02-09 10:00:00') /* Drudge Ravener (1610) */
+     , (0x70181015, 0x70181051, '2005-02-09 10:00:00') /* Drudge Ravener (1610) */
+     , (0x70181015, 0x70181053, '2005-02-09 10:00:00') /* Drudge Ravener (1610) */
+     , (0x70181015, 0x70181054, '2005-02-09 10:00:00') /* Drudge Ravener (1610) */
+     , (0x70181015, 0x7018105D, '2005-02-09 10:00:00') /* Drudge Ravener (1610) */
+     , (0x70181015, 0x7018105E, '2005-02-09 10:00:00') /* Drudge Ravener (1610) */
+     , (0x70181015, 0x7018105F, '2005-02-09 10:00:00') /* Drudge Ravener (1610) */
+     , (0x70181015, 0x70181060, '2005-02-09 10:00:00') /* High Mu-miyah (7116) */
+     , (0x70181015, 0x70181061, '2005-02-09 10:00:00') /* High Mu-miyah (7116) */
+     , (0x70181015, 0x70181062, '2005-02-09 10:00:00') /* High Mu-miyah (7116) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x70181016,  1946, 0x01810169, 105.875, -149.216, 6, 0, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Chest */
@@ -235,8 +235,8 @@ VALUES (0x70181031,  2180, 0x018101EA, 115.25, -120, 6, -0.707107, 0, 0, -0.7071
 /* @teleloc 0x018101EA [115.250000 -120.000000 6.000000] -0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x70181031, 0x70181027, '2005-02-09 10:00:00') /* Pressure Plate */
-     , (0x70181031, 0x70181028, '2005-02-09 10:00:00') /* Lever */;
+VALUES (0x70181031, 0x70181027, '2005-02-09 10:00:00') /* Pressure Plate (2131) */
+     , (0x70181031, 0x70181028, '2005-02-09 10:00:00') /* Lever (285) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x70181032,  7085, 0x018101F1, 72.3147, -111.18, 12.0077, -0.996511, 0, 0, -0.083461,  True, '2005-02-09 10:00:00'); /* Banderling Berserker */
@@ -275,7 +275,7 @@ VALUES (0x7018103A,  4095, 0x01810217, 79.0501, -59.9366, 20.6616, 0.707107, 0, 
 /* @teleloc 0x01810217 [79.050100 -59.936600 20.661600] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7018103A, 0x70181039, '2005-02-09 10:00:00') /* Pressure Plate */;
+VALUES (0x7018103A, 0x70181039, '2005-02-09 10:00:00') /* Pressure Plate (298) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7018103B,  4032, 0x01810217, 76.4782, -56.5772, 18, 0.707107, 0, 0, -0.707107, False, '2005-02-09 10:00:00'); /* Valuable Warrior Generator */
@@ -290,7 +290,7 @@ VALUES (0x7018103D,  4086, 0x01810217, 82.0255, -60.0419, 20.1049, 0.474214, 0, 
 /* @teleloc 0x01810217 [82.025500 -60.041900 20.104900] 0.474214 0.000000 0.000000 -0.880410 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7018103D, 0x7018103C, '2005-02-09 10:00:00') /* Pressure Plate */;
+VALUES (0x7018103D, 0x7018103C, '2005-02-09 10:00:00') /* Pressure Plate (2131) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7018103E,  1291, 0x01810219, 84.75, -60, 18, 0.707107, 0, 0, -0.707107, False, '2005-02-09 10:00:00'); /* Door */
@@ -353,7 +353,7 @@ VALUES (0x7018104C,  4098, 0x01810238, 90.0328, -66.9538, 20.8405, -1, 0, 0, -0.
 /* @teleloc 0x01810238 [90.032800 -66.953800 20.840500] -1.000000 0.000000 0.000000 -0.000629 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7018104C, 0x7018104B, '2005-02-09 10:00:00') /* Pressure Plate */;
+VALUES (0x7018104C, 0x7018104B, '2005-02-09 10:00:00') /* Pressure Plate (2131) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7018104D,  1610, 0x0181023F, 87.1832, -93.211, 18.0045, -0.988228, 0, 0, -0.152985,  True, '2005-02-09 10:00:00'); /* Drudge Ravener */
@@ -372,7 +372,7 @@ VALUES (0x70181050,  4074, 0x01810246, 89.9995, -119.987, 20.7017, 0.707107, 0, 
 /* @teleloc 0x01810246 [89.999500 -119.987000 20.701700] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x70181050, 0x7018105A, '2005-02-09 10:00:00') /* Pressure Plate */;
+VALUES (0x70181050, 0x7018105A, '2005-02-09 10:00:00') /* Pressure Plate (2131) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x70181051,  1610, 0x01810248, 90.6549, -127.265, 18.0045, -0.0500469, 0, 0, -0.998747,  True, '2005-02-09 10:00:00'); /* Drudge Ravener */
@@ -395,7 +395,7 @@ VALUES (0x70181056,  4089, 0x0181024B, 100.401, -60.944, 20.68, 0.726949, 0, 0, 
 /* @teleloc 0x0181024B [100.401000 -60.944000 20.680000] 0.726949 0.000000 0.000000 -0.686692 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x70181056, 0x70181055, '2005-02-09 10:00:00') /* Pressure Plate */;
+VALUES (0x70181056, 0x70181055, '2005-02-09 10:00:00') /* Pressure Plate (2131) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x70181057,  1925, 0x0181024B, 103.78, -63.6049, 18, 0.695286, 0, 0, -0.718733, False, '2005-02-09 10:00:00'); /* Chest */
@@ -454,4 +454,4 @@ VALUES (0x70181064, 15759, 0x01810100, -3.30552, 3.014, -5.995, -0.900594, 0, 0,
 /* @teleloc 0x01810100 [-3.305520 3.014000 -5.995000] -0.900594 0.000000 0.000000 -0.434662 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x70181064, 0x70181063, '2005-02-09 10:00:00') /* Alloy Dynamo */;
+VALUES (0x70181064, 0x70181063, '2005-02-09 10:00:00') /* Alloy Dynamo (25327) */;

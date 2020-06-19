@@ -237,34 +237,34 @@ VALUES (0x701CA03A,  3955, 0x01CA0291, 40, -190, 0, 1, 0, 0, 0, False, '2005-02-
 /* @teleloc 0x01CA0291 [40.000000 -190.000000 0.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x701CA03A, 0x701CA00F, '2005-02-09 10:00:00') /* Zombie */
-     , (0x701CA03A, 0x701CA01D, '2005-02-09 10:00:00') /* Lich */
-     , (0x701CA03A, 0x701CA01E, '2005-02-09 10:00:00') /* Spikey Armoredillo */
-     , (0x701CA03A, 0x701CA020, '2005-02-09 10:00:00') /* Spikey Armoredillo */
-     , (0x701CA03A, 0x701CA021, '2005-02-09 10:00:00') /* Spiny Armoredillo */
-     , (0x701CA03A, 0x701CA022, '2005-02-09 10:00:00') /* Spiny Armoredillo */
-     , (0x701CA03A, 0x701CA027, '2005-02-09 10:00:00') /* Spiny Armoredillo */
-     , (0x701CA03A, 0x701CA028, '2005-02-09 10:00:00') /* Spiny Armoredillo */
-     , (0x701CA03A, 0x701CA029, '2005-02-09 10:00:00') /* Spiny Armoredillo */
-     , (0x701CA03A, 0x701CA02A, '2005-02-09 10:00:00') /* Spiny Armoredillo */
-     , (0x701CA03A, 0x701CA02D, '2005-02-09 10:00:00') /* Spiny Armoredillo */
-     , (0x701CA03A, 0x701CA02E, '2005-02-09 10:00:00') /* Spiny Armoredillo */
-     , (0x701CA03A, 0x701CA031, '2005-02-09 10:00:00') /* Black Rat */
-     , (0x701CA03A, 0x701CA032, '2005-02-09 10:00:00') /* Black Rat */
-     , (0x701CA03A, 0x701CA033, '2005-02-09 10:00:00') /* Blue Phyntos Wasp */
-     , (0x701CA03A, 0x701CA034, '2005-02-09 10:00:00') /* Blue Phyntos Wasp */
-     , (0x701CA03A, 0x701CA035, '2005-02-09 10:00:00') /* Black Rat */
-     , (0x701CA03A, 0x701CA036, '2005-02-09 10:00:00') /* Black Rat */
-     , (0x701CA03A, 0x701CA037, '2005-02-09 10:00:00') /* Blue Phyntos Wasp */
-     , (0x701CA03A, 0x701CA038, '2005-02-09 10:00:00') /* Grey Rat */
-     , (0x701CA03A, 0x701CA03B, '2005-02-09 10:00:00') /* Blue Phyntos Wasp */
-     , (0x701CA03A, 0x701CA03C, '2005-02-09 10:00:00') /* Grey Rat */
-     , (0x701CA03A, 0x701CA03D, '2005-02-09 10:00:00') /* Blue Phyntos Wasp */
-     , (0x701CA03A, 0x701CA03E, '2005-02-09 10:00:00') /* Grey Rat */
-     , (0x701CA03A, 0x701CA03F, '2005-02-09 10:00:00') /* Black Rat */
-     , (0x701CA03A, 0x701CA040, '2005-02-09 10:00:00') /* Black Rat */
-     , (0x701CA03A, 0x701CA041, '2005-02-09 10:00:00') /* Black Rat */
-     , (0x701CA03A, 0x701CA042, '2005-02-09 10:00:00') /* Black Rat */;
+VALUES (0x701CA03A, 0x701CA00F, '2005-02-09 10:00:00') /* Zombie (950) */
+     , (0x701CA03A, 0x701CA01D, '2005-02-09 10:00:00') /* Lich (204) */
+     , (0x701CA03A, 0x701CA01E, '2005-02-09 10:00:00') /* Spikey Armoredillo (179) */
+     , (0x701CA03A, 0x701CA020, '2005-02-09 10:00:00') /* Spikey Armoredillo (179) */
+     , (0x701CA03A, 0x701CA021, '2005-02-09 10:00:00') /* Spiny Armoredillo (177) */
+     , (0x701CA03A, 0x701CA022, '2005-02-09 10:00:00') /* Spiny Armoredillo (177) */
+     , (0x701CA03A, 0x701CA027, '2005-02-09 10:00:00') /* Spiny Armoredillo (177) */
+     , (0x701CA03A, 0x701CA028, '2005-02-09 10:00:00') /* Spiny Armoredillo (177) */
+     , (0x701CA03A, 0x701CA029, '2005-02-09 10:00:00') /* Spiny Armoredillo (177) */
+     , (0x701CA03A, 0x701CA02A, '2005-02-09 10:00:00') /* Spiny Armoredillo (177) */
+     , (0x701CA03A, 0x701CA02D, '2005-02-09 10:00:00') /* Spiny Armoredillo (177) */
+     , (0x701CA03A, 0x701CA02E, '2005-02-09 10:00:00') /* Spiny Armoredillo (177) */
+     , (0x701CA03A, 0x701CA031, '2005-02-09 10:00:00') /* Black Rat (218) */
+     , (0x701CA03A, 0x701CA032, '2005-02-09 10:00:00') /* Black Rat (218) */
+     , (0x701CA03A, 0x701CA033, '2005-02-09 10:00:00') /* Blue Phyntos Wasp (215) */
+     , (0x701CA03A, 0x701CA034, '2005-02-09 10:00:00') /* Blue Phyntos Wasp (215) */
+     , (0x701CA03A, 0x701CA035, '2005-02-09 10:00:00') /* Black Rat (218) */
+     , (0x701CA03A, 0x701CA036, '2005-02-09 10:00:00') /* Black Rat (218) */
+     , (0x701CA03A, 0x701CA037, '2005-02-09 10:00:00') /* Blue Phyntos Wasp (215) */
+     , (0x701CA03A, 0x701CA038, '2005-02-09 10:00:00') /* Grey Rat (219) */
+     , (0x701CA03A, 0x701CA03B, '2005-02-09 10:00:00') /* Blue Phyntos Wasp (215) */
+     , (0x701CA03A, 0x701CA03C, '2005-02-09 10:00:00') /* Grey Rat (219) */
+     , (0x701CA03A, 0x701CA03D, '2005-02-09 10:00:00') /* Blue Phyntos Wasp (215) */
+     , (0x701CA03A, 0x701CA03E, '2005-02-09 10:00:00') /* Grey Rat (219) */
+     , (0x701CA03A, 0x701CA03F, '2005-02-09 10:00:00') /* Black Rat (218) */
+     , (0x701CA03A, 0x701CA040, '2005-02-09 10:00:00') /* Black Rat (218) */
+     , (0x701CA03A, 0x701CA041, '2005-02-09 10:00:00') /* Black Rat (218) */
+     , (0x701CA03A, 0x701CA042, '2005-02-09 10:00:00') /* Black Rat (218) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x701CA03B,   215, 0x01CA0295, 40, -200, 0.01, 1, 0, 0, 0,  True, '2005-02-09 10:00:00'); /* Blue Phyntos Wasp */

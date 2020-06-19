@@ -49,7 +49,7 @@ VALUES (0x7EA3D00E,  1154, 0xEA3D0100, 10.2572, 181.39, 78.005, -0.312238, 0, 0,
 /* @teleloc 0xEA3D0100 [10.257200 181.390000 78.005000] -0.312238 0.000000 0.000000 -0.950004 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7EA3D00E, 0x7EA3D00D, '2005-02-09 10:00:00') /* Inuo KonKou */;
+VALUES (0x7EA3D00E, 0x7EA3D00D, '2005-02-09 10:00:00') /* Inuo KonKou (5119) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7EA3D00F,  5108, 0xEA3D0000, 32.1708, 178.5, 78.6876, -0.976906, 0, 0, -0.21367, False, '2005-02-09 10:00:00'); /* LIFESTONES SIGN */

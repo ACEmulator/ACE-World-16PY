@@ -353,87 +353,87 @@ VALUES (0x701BD058,  7924, 0x01BD0107, 20.3216, -82.8525, 0.005, -0.0291999, 0, 
 /* @teleloc 0x01BD0107 [20.321600 -82.852500 0.005000] -0.029200 0.000000 0.000000 0.999574 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x701BD058, 0x701BD00C, '2005-02-09 10:00:00') /* Augmented Drudge */
-     , (0x701BD058, 0x701BD00D, '2005-02-09 10:00:00') /* Augmented Drudge */
-     , (0x701BD058, 0x701BD010, '2005-02-09 10:00:00') /* Augmented Tumerok */
-     , (0x701BD058, 0x701BD011, '2005-02-09 10:00:00') /* Augmented Tumerok */
-     , (0x701BD058, 0x701BD012, '2005-02-09 10:00:00') /* Augmented Tumerok */
-     , (0x701BD058, 0x701BD013, '2005-02-09 10:00:00') /* Augmented Drudge */
-     , (0x701BD058, 0x701BD014, '2005-02-09 10:00:00') /* Augmented Drudge */
-     , (0x701BD058, 0x701BD015, '2005-02-09 10:00:00') /* Augmented Drudge */
-     , (0x701BD058, 0x701BD017, '2005-02-09 10:00:00') /* Augmented Tumerok */
-     , (0x701BD058, 0x701BD018, '2005-02-09 10:00:00') /* Ascendant Tumerok */
-     , (0x701BD058, 0x701BD019, '2005-02-09 10:00:00') /* Ascendant Tumerok */
-     , (0x701BD058, 0x701BD01B, '2005-02-09 10:00:00') /* Ascendant Tumerok */
-     , (0x701BD058, 0x701BD022, '2005-02-09 10:00:00') /* Augmented Drudge */
-     , (0x701BD058, 0x701BD027, '2005-02-09 10:00:00') /* Augmented Tumerok */
-     , (0x701BD058, 0x701BD028, '2005-02-09 10:00:00') /* Augmented Tumerok */
-     , (0x701BD058, 0x701BD02A, '2005-02-09 10:00:00') /* Augmented Drudge */
-     , (0x701BD058, 0x701BD02B, '2005-02-09 10:00:00') /* Augmented Tumerok */
-     , (0x701BD058, 0x701BD02C, '2005-02-09 10:00:00') /* Augmented Drudge */
-     , (0x701BD058, 0x701BD02D, '2005-02-09 10:00:00') /* Augmented Drudge */
-     , (0x701BD058, 0x701BD033, '2005-02-09 10:00:00') /* Ascendant Tumerok */
-     , (0x701BD058, 0x701BD034, '2005-02-09 10:00:00') /* Ascendant Tumerok */
-     , (0x701BD058, 0x701BD036, '2005-02-09 10:00:00') /* Ascendant Tumerok */
-     , (0x701BD058, 0x701BD037, '2005-02-09 10:00:00') /* Ascendant Tumerok */
-     , (0x701BD058, 0x701BD038, '2005-02-09 10:00:00') /* Augmented Tumerok */
-     , (0x701BD058, 0x701BD039, '2005-02-09 10:00:00') /* Augmented Tumerok */;
+VALUES (0x701BD058, 0x701BD00C, '2005-02-09 10:00:00') /* Augmented Drudge (7090) */
+     , (0x701BD058, 0x701BD00D, '2005-02-09 10:00:00') /* Augmented Drudge (7090) */
+     , (0x701BD058, 0x701BD010, '2005-02-09 10:00:00') /* Augmented Tumerok (10807) */
+     , (0x701BD058, 0x701BD011, '2005-02-09 10:00:00') /* Augmented Tumerok (10807) */
+     , (0x701BD058, 0x701BD012, '2005-02-09 10:00:00') /* Augmented Tumerok (10807) */
+     , (0x701BD058, 0x701BD013, '2005-02-09 10:00:00') /* Augmented Drudge (7090) */
+     , (0x701BD058, 0x701BD014, '2005-02-09 10:00:00') /* Augmented Drudge (7090) */
+     , (0x701BD058, 0x701BD015, '2005-02-09 10:00:00') /* Augmented Drudge (7090) */
+     , (0x701BD058, 0x701BD017, '2005-02-09 10:00:00') /* Augmented Tumerok (10807) */
+     , (0x701BD058, 0x701BD018, '2005-02-09 10:00:00') /* Ascendant Tumerok (10806) */
+     , (0x701BD058, 0x701BD019, '2005-02-09 10:00:00') /* Ascendant Tumerok (10806) */
+     , (0x701BD058, 0x701BD01B, '2005-02-09 10:00:00') /* Ascendant Tumerok (10806) */
+     , (0x701BD058, 0x701BD022, '2005-02-09 10:00:00') /* Augmented Drudge (7090) */
+     , (0x701BD058, 0x701BD027, '2005-02-09 10:00:00') /* Augmented Tumerok (10807) */
+     , (0x701BD058, 0x701BD028, '2005-02-09 10:00:00') /* Augmented Tumerok (10807) */
+     , (0x701BD058, 0x701BD02A, '2005-02-09 10:00:00') /* Augmented Drudge (7090) */
+     , (0x701BD058, 0x701BD02B, '2005-02-09 10:00:00') /* Augmented Tumerok (10807) */
+     , (0x701BD058, 0x701BD02C, '2005-02-09 10:00:00') /* Augmented Drudge (7090) */
+     , (0x701BD058, 0x701BD02D, '2005-02-09 10:00:00') /* Augmented Drudge (7090) */
+     , (0x701BD058, 0x701BD033, '2005-02-09 10:00:00') /* Ascendant Tumerok (10806) */
+     , (0x701BD058, 0x701BD034, '2005-02-09 10:00:00') /* Ascendant Tumerok (10806) */
+     , (0x701BD058, 0x701BD036, '2005-02-09 10:00:00') /* Ascendant Tumerok (10806) */
+     , (0x701BD058, 0x701BD037, '2005-02-09 10:00:00') /* Ascendant Tumerok (10806) */
+     , (0x701BD058, 0x701BD038, '2005-02-09 10:00:00') /* Augmented Tumerok (10807) */
+     , (0x701BD058, 0x701BD039, '2005-02-09 10:00:00') /* Augmented Tumerok (10807) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x701BD059,  7924, 0x01BD0107, 21.2514, -82.7981, 0.005, -0.0291999, 0, 0, 0.999574, False, '2005-02-09 10:00:00'); /* Linkable Monster Generator ( 5 Min.) */
 /* @teleloc 0x01BD0107 [21.251400 -82.798100 0.005000] -0.029200 0.000000 0.000000 0.999574 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x701BD059, 0x701BD003, '2005-02-09 10:00:00') /* Augmented Tumerok */
-     , (0x701BD059, 0x701BD004, '2005-02-09 10:00:00') /* Ascendant Tumerok */
-     , (0x701BD059, 0x701BD00A, '2005-02-09 10:00:00') /* Augmented Tumerok */
-     , (0x701BD059, 0x701BD00B, '2005-02-09 10:00:00') /* Augmented Tumerok */
-     , (0x701BD059, 0x701BD01A, '2005-02-09 10:00:00') /* Ascendant Tumerok */
-     , (0x701BD059, 0x701BD01F, '2005-02-09 10:00:00') /* Ascendant Tumerok */
-     , (0x701BD059, 0x701BD020, '2005-02-09 10:00:00') /* Ascendant Tumerok */
-     , (0x701BD059, 0x701BD023, '2005-02-09 10:00:00') /* Augmented Tumerok */
-     , (0x701BD059, 0x701BD024, '2005-02-09 10:00:00') /* Augmented Tumerok */
-     , (0x701BD059, 0x701BD025, '2005-02-09 10:00:00') /* Augmented Tumerok */
-     , (0x701BD059, 0x701BD026, '2005-02-09 10:00:00') /* Augmented Tumerok */
-     , (0x701BD059, 0x701BD031, '2005-02-09 10:00:00') /* Augmented Tumerok */
-     , (0x701BD059, 0x701BD03A, '2005-02-09 10:00:00') /* Wasteland Rat */
-     , (0x701BD059, 0x701BD03B, '2005-02-09 10:00:00') /* Wasteland Rat */
-     , (0x701BD059, 0x701BD03C, '2005-02-09 10:00:00') /* Wasteland Rat */
-     , (0x701BD059, 0x701BD03D, '2005-02-09 10:00:00') /* Wasteland Rat */
-     , (0x701BD059, 0x701BD03E, '2005-02-09 10:00:00') /* Wasteland Rat */
-     , (0x701BD059, 0x701BD03F, '2005-02-09 10:00:00') /* Wasteland Rat */
-     , (0x701BD059, 0x701BD040, '2005-02-09 10:00:00') /* Wasteland Rat */
-     , (0x701BD059, 0x701BD041, '2005-02-09 10:00:00') /* Augmented Tumerok */
-     , (0x701BD059, 0x701BD043, '2005-02-09 10:00:00') /* Augmented Tumerok */
-     , (0x701BD059, 0x701BD044, '2005-02-09 10:00:00') /* Ascendant Tumerok */
-     , (0x701BD059, 0x701BD055, '2005-02-09 10:00:00') /* Augmented Drudge */
-     , (0x701BD059, 0x701BD056, '2005-02-09 10:00:00') /* Augmented Drudge */
-     , (0x701BD059, 0x701BD057, '2005-02-09 10:00:00') /* Augmented Drudge */;
+VALUES (0x701BD059, 0x701BD003, '2005-02-09 10:00:00') /* Augmented Tumerok (10807) */
+     , (0x701BD059, 0x701BD004, '2005-02-09 10:00:00') /* Ascendant Tumerok (10806) */
+     , (0x701BD059, 0x701BD00A, '2005-02-09 10:00:00') /* Augmented Tumerok (10807) */
+     , (0x701BD059, 0x701BD00B, '2005-02-09 10:00:00') /* Augmented Tumerok (10807) */
+     , (0x701BD059, 0x701BD01A, '2005-02-09 10:00:00') /* Ascendant Tumerok (10806) */
+     , (0x701BD059, 0x701BD01F, '2005-02-09 10:00:00') /* Ascendant Tumerok (10806) */
+     , (0x701BD059, 0x701BD020, '2005-02-09 10:00:00') /* Ascendant Tumerok (10806) */
+     , (0x701BD059, 0x701BD023, '2005-02-09 10:00:00') /* Augmented Tumerok (10807) */
+     , (0x701BD059, 0x701BD024, '2005-02-09 10:00:00') /* Augmented Tumerok (10807) */
+     , (0x701BD059, 0x701BD025, '2005-02-09 10:00:00') /* Augmented Tumerok (10807) */
+     , (0x701BD059, 0x701BD026, '2005-02-09 10:00:00') /* Augmented Tumerok (10807) */
+     , (0x701BD059, 0x701BD031, '2005-02-09 10:00:00') /* Augmented Tumerok (10807) */
+     , (0x701BD059, 0x701BD03A, '2005-02-09 10:00:00') /* Wasteland Rat (7107) */
+     , (0x701BD059, 0x701BD03B, '2005-02-09 10:00:00') /* Wasteland Rat (7107) */
+     , (0x701BD059, 0x701BD03C, '2005-02-09 10:00:00') /* Wasteland Rat (7107) */
+     , (0x701BD059, 0x701BD03D, '2005-02-09 10:00:00') /* Wasteland Rat (7107) */
+     , (0x701BD059, 0x701BD03E, '2005-02-09 10:00:00') /* Wasteland Rat (7107) */
+     , (0x701BD059, 0x701BD03F, '2005-02-09 10:00:00') /* Wasteland Rat (7107) */
+     , (0x701BD059, 0x701BD040, '2005-02-09 10:00:00') /* Wasteland Rat (7107) */
+     , (0x701BD059, 0x701BD041, '2005-02-09 10:00:00') /* Augmented Tumerok (10807) */
+     , (0x701BD059, 0x701BD043, '2005-02-09 10:00:00') /* Augmented Tumerok (10807) */
+     , (0x701BD059, 0x701BD044, '2005-02-09 10:00:00') /* Ascendant Tumerok (10806) */
+     , (0x701BD059, 0x701BD055, '2005-02-09 10:00:00') /* Augmented Drudge (7090) */
+     , (0x701BD059, 0x701BD056, '2005-02-09 10:00:00') /* Augmented Drudge (7090) */
+     , (0x701BD059, 0x701BD057, '2005-02-09 10:00:00') /* Augmented Drudge (7090) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x701BD05A,  7924, 0x01BD0107, 19.3187, -82.9112, 0.005, -0.0291999, 0, 0, 0.999574, False, '2005-02-09 10:00:00'); /* Linkable Monster Generator ( 5 Min.) */
 /* @teleloc 0x01BD0107 [19.318700 -82.911200 0.005000] -0.029200 0.000000 0.000000 0.999574 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x701BD05A, 0x701BD001, '2005-02-09 10:00:00') /* Augmented Tumerok */
-     , (0x701BD05A, 0x701BD002, '2005-02-09 10:00:00') /* Augmented Tumerok */
-     , (0x701BD05A, 0x701BD005, '2005-02-09 10:00:00') /* Augmented Tumerok */
-     , (0x701BD05A, 0x701BD007, '2005-02-09 10:00:00') /* Augmented Tumerok */
-     , (0x701BD05A, 0x701BD008, '2005-02-09 10:00:00') /* Augmented Tumerok */
-     , (0x701BD05A, 0x701BD009, '2005-02-09 10:00:00') /* Augmented Tumerok */
-     , (0x701BD05A, 0x701BD00E, '2005-02-09 10:00:00') /* Augmented Tumerok */
-     , (0x701BD05A, 0x701BD00F, '2005-02-09 10:00:00') /* Augmented Tumerok */
-     , (0x701BD05A, 0x701BD016, '2005-02-09 10:00:00') /* Ascendant Tumerok */
-     , (0x701BD05A, 0x701BD02E, '2005-02-09 10:00:00') /* Augmented Tumerok */
-     , (0x701BD05A, 0x701BD032, '2005-02-09 10:00:00') /* Ascendant Tumerok */
-     , (0x701BD05A, 0x701BD045, '2005-02-09 10:00:00') /* Ascendant Tumerok */
-     , (0x701BD05A, 0x701BD046, '2005-02-09 10:00:00') /* Augmented Tumerok */
-     , (0x701BD05A, 0x701BD047, '2005-02-09 10:00:00') /* Augmented Tumerok */
-     , (0x701BD05A, 0x701BD049, '2005-02-09 10:00:00') /* Augmented Tumerok */
-     , (0x701BD05A, 0x701BD04A, '2005-02-09 10:00:00') /* Ascendant Tumerok */
-     , (0x701BD05A, 0x701BD04C, '2005-02-09 10:00:00') /* Ascendant Tumerok */
-     , (0x701BD05A, 0x701BD04D, '2005-02-09 10:00:00') /* Augmented Tumerok */
-     , (0x701BD05A, 0x701BD04E, '2005-02-09 10:00:00') /* Augmented Tumerok */
-     , (0x701BD05A, 0x701BD04F, '2005-02-09 10:00:00') /* Ascendant Tumerok */
-     , (0x701BD05A, 0x701BD050, '2005-02-09 10:00:00') /* Ascendant Tumerok */
-     , (0x701BD05A, 0x701BD054, '2005-02-09 10:00:00') /* Ascendant Tumerok */;
+VALUES (0x701BD05A, 0x701BD001, '2005-02-09 10:00:00') /* Augmented Tumerok (10807) */
+     , (0x701BD05A, 0x701BD002, '2005-02-09 10:00:00') /* Augmented Tumerok (10807) */
+     , (0x701BD05A, 0x701BD005, '2005-02-09 10:00:00') /* Augmented Tumerok (10807) */
+     , (0x701BD05A, 0x701BD007, '2005-02-09 10:00:00') /* Augmented Tumerok (10807) */
+     , (0x701BD05A, 0x701BD008, '2005-02-09 10:00:00') /* Augmented Tumerok (10807) */
+     , (0x701BD05A, 0x701BD009, '2005-02-09 10:00:00') /* Augmented Tumerok (10807) */
+     , (0x701BD05A, 0x701BD00E, '2005-02-09 10:00:00') /* Augmented Tumerok (10807) */
+     , (0x701BD05A, 0x701BD00F, '2005-02-09 10:00:00') /* Augmented Tumerok (10807) */
+     , (0x701BD05A, 0x701BD016, '2005-02-09 10:00:00') /* Ascendant Tumerok (10806) */
+     , (0x701BD05A, 0x701BD02E, '2005-02-09 10:00:00') /* Augmented Tumerok (10807) */
+     , (0x701BD05A, 0x701BD032, '2005-02-09 10:00:00') /* Ascendant Tumerok (10806) */
+     , (0x701BD05A, 0x701BD045, '2005-02-09 10:00:00') /* Ascendant Tumerok (10806) */
+     , (0x701BD05A, 0x701BD046, '2005-02-09 10:00:00') /* Augmented Tumerok (10807) */
+     , (0x701BD05A, 0x701BD047, '2005-02-09 10:00:00') /* Augmented Tumerok (10807) */
+     , (0x701BD05A, 0x701BD049, '2005-02-09 10:00:00') /* Augmented Tumerok (10807) */
+     , (0x701BD05A, 0x701BD04A, '2005-02-09 10:00:00') /* Ascendant Tumerok (10806) */
+     , (0x701BD05A, 0x701BD04C, '2005-02-09 10:00:00') /* Ascendant Tumerok (10806) */
+     , (0x701BD05A, 0x701BD04D, '2005-02-09 10:00:00') /* Augmented Tumerok (10807) */
+     , (0x701BD05A, 0x701BD04E, '2005-02-09 10:00:00') /* Augmented Tumerok (10807) */
+     , (0x701BD05A, 0x701BD04F, '2005-02-09 10:00:00') /* Ascendant Tumerok (10806) */
+     , (0x701BD05A, 0x701BD050, '2005-02-09 10:00:00') /* Ascendant Tumerok (10806) */
+     , (0x701BD05A, 0x701BD054, '2005-02-09 10:00:00') /* Ascendant Tumerok (10806) */;

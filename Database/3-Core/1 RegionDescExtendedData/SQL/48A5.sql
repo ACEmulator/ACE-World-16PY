@@ -1,7 +1,5 @@
-DELETE FROM `encounter` WHERE `landblock` = 18597;
+DELETE FROM `encounter` WHERE `landblock` = 0x48A5;
 
 INSERT INTO `encounter` (`landblock`, `weenie_Class_Id`, `cell_X`, `cell_Y`, `last_Modified`)
-VALUES (18597, 23159, 0, 3, '2005-02-09 10:00:00') /* Mid North Plains Generator */
-     , (18597, 23161, 7, 1, '2005-02-09 10:00:00') /* Mid North Plains Tumerok Generator */
-     , (18597, 23161, 8, 3, '2005-02-09 10:00:00') /* Mid North Plains Tumerok Generator */
-     , (18597, 23161, 8, 5, '2005-02-09 10:00:00') /* Mid North Plains Tumerok Generator */;
+VALUES (0x48A5, 23159, 0, 3, '2005-02-09 10:00:00') /* Mid North Plains Generator */
+     , (0x48A5, 23161, 7, 1, '2005-02-09 10:00:00') /* Mid North Plains Tumerok Generator */;

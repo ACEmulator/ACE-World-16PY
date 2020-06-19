@@ -9,30 +9,30 @@ VALUES (0x71B12001,  3955, 0x1B120101, 182.196, 131.095, 2.005, 0.289233, 0, 0, 
 /* @teleloc 0x1B120101 [182.196000 131.095000 2.005000] 0.289233 0.000000 0.000000 -0.957259 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71B12001, 0x71B12002, '2005-02-09 10:00:00') /* Withered Drudge Seraph */
-     , (0x71B12001, 0x71B12003, '2005-02-09 10:00:00') /* Withered Drudge Seraph Mystic */
-     , (0x71B12001, 0x71B12004, '2005-02-09 10:00:00') /* Withered Drudge Seraph Mystic */
-     , (0x71B12001, 0x71B12005, '2005-02-09 10:00:00') /* Withered Drudge Seraph */
-     , (0x71B12001, 0x71B12006, '2005-02-09 10:00:00') /* Withered Drudge Seraph */
-     , (0x71B12001, 0x71B12007, '2005-02-09 10:00:00') /* Withered Drudge Seraph */
-     , (0x71B12001, 0x71B12008, '2005-02-09 10:00:00') /* Withered Drudge Seraph */
-     , (0x71B12001, 0x71B12009, '2005-02-09 10:00:00') /* Withered Drudge Seraph */
-     , (0x71B12001, 0x71B1200A, '2005-02-09 10:00:00') /* Withered Drudge Seraph */
-     , (0x71B12001, 0x71B1200B, '2005-02-09 10:00:00') /* Withered Drudge Seraph */
-     , (0x71B12001, 0x71B1200C, '2005-02-09 10:00:00') /* Withered Drudge Seraph Mystic */
-     , (0x71B12001, 0x71B1200D, '2005-02-09 10:00:00') /* Withered Drudge Seraph Mystic */
-     , (0x71B12001, 0x71B1200E, '2005-02-09 10:00:00') /* Withered Drudge Seraph Mystic */
-     , (0x71B12001, 0x71B12010, '2005-02-09 10:00:00') /* Withered Drudge Seraph Mystic */
-     , (0x71B12001, 0x71B12011, '2005-02-09 10:00:00') /* Withered Drudge Seraph Mystic */
-     , (0x71B12001, 0x71B12012, '2005-02-09 10:00:00') /* Withered Drudge Seraph */
-     , (0x71B12001, 0x71B12013, '2005-02-09 10:00:00') /* Withered Drudge Seraph */
-     , (0x71B12001, 0x71B12014, '2005-02-09 10:00:00') /* Withered Drudge Seraph */
-     , (0x71B12001, 0x71B12015, '2005-02-09 10:00:00') /* Withered Drudge Seraph */
-     , (0x71B12001, 0x71B12016, '2005-02-09 10:00:00') /* Withered Drudge Seraph */
-     , (0x71B12001, 0x71B12017, '2005-02-09 10:00:00') /* Withered Drudge Seraph */
-     , (0x71B12001, 0x71B12018, '2005-02-09 10:00:00') /* Withered Drudge Seraph */
-     , (0x71B12001, 0x71B12019, '2005-02-09 10:00:00') /* Withered Drudge Seraph */
-     , (0x71B12001, 0x71B1201A, '2005-02-09 10:00:00') /* Withered Drudge Seraph Mystic */;
+VALUES (0x71B12001, 0x71B12002, '2005-02-09 10:00:00') /* Withered Drudge Seraph (30680) */
+     , (0x71B12001, 0x71B12003, '2005-02-09 10:00:00') /* Withered Drudge Seraph Mystic (30682) */
+     , (0x71B12001, 0x71B12004, '2005-02-09 10:00:00') /* Withered Drudge Seraph Mystic (30682) */
+     , (0x71B12001, 0x71B12005, '2005-02-09 10:00:00') /* Withered Drudge Seraph (30680) */
+     , (0x71B12001, 0x71B12006, '2005-02-09 10:00:00') /* Withered Drudge Seraph (30680) */
+     , (0x71B12001, 0x71B12007, '2005-02-09 10:00:00') /* Withered Drudge Seraph (30680) */
+     , (0x71B12001, 0x71B12008, '2005-02-09 10:00:00') /* Withered Drudge Seraph (30680) */
+     , (0x71B12001, 0x71B12009, '2005-02-09 10:00:00') /* Withered Drudge Seraph (30680) */
+     , (0x71B12001, 0x71B1200A, '2005-02-09 10:00:00') /* Withered Drudge Seraph (30680) */
+     , (0x71B12001, 0x71B1200B, '2005-02-09 10:00:00') /* Withered Drudge Seraph (30680) */
+     , (0x71B12001, 0x71B1200C, '2005-02-09 10:00:00') /* Withered Drudge Seraph Mystic (30682) */
+     , (0x71B12001, 0x71B1200D, '2005-02-09 10:00:00') /* Withered Drudge Seraph Mystic (30682) */
+     , (0x71B12001, 0x71B1200E, '2005-02-09 10:00:00') /* Withered Drudge Seraph Mystic (30682) */
+     , (0x71B12001, 0x71B12010, '2005-02-09 10:00:00') /* Withered Drudge Seraph Mystic (30682) */
+     , (0x71B12001, 0x71B12011, '2005-02-09 10:00:00') /* Withered Drudge Seraph Mystic (30682) */
+     , (0x71B12001, 0x71B12012, '2005-02-09 10:00:00') /* Withered Drudge Seraph (30680) */
+     , (0x71B12001, 0x71B12013, '2005-02-09 10:00:00') /* Withered Drudge Seraph (30680) */
+     , (0x71B12001, 0x71B12014, '2005-02-09 10:00:00') /* Withered Drudge Seraph (30680) */
+     , (0x71B12001, 0x71B12015, '2005-02-09 10:00:00') /* Withered Drudge Seraph (30680) */
+     , (0x71B12001, 0x71B12016, '2005-02-09 10:00:00') /* Withered Drudge Seraph (30680) */
+     , (0x71B12001, 0x71B12017, '2005-02-09 10:00:00') /* Withered Drudge Seraph (30680) */
+     , (0x71B12001, 0x71B12018, '2005-02-09 10:00:00') /* Withered Drudge Seraph (30680) */
+     , (0x71B12001, 0x71B12019, '2005-02-09 10:00:00') /* Withered Drudge Seraph (30680) */
+     , (0x71B12001, 0x71B1201A, '2005-02-09 10:00:00') /* Withered Drudge Seraph Mystic (30682) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71B12002, 30680, 0x1B120000, 177.334, 121.949, 0.00524997, -0.244076, 0, 0, -0.969756,  True, '2005-02-09 10:00:00'); /* Withered Drudge Seraph */

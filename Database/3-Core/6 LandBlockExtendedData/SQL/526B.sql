@@ -25,7 +25,7 @@ VALUES (0x7526B005, 14595, 0x526B0107, 20.0522, -144.153, -41.6606, 1, 0, 0, 0, 
 /* @teleloc 0x526B0107 [20.052200 -144.153000 -41.660600] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7526B005, 0x7526B08A, '2005-02-09 10:00:00') /* Lever */;
+VALUES (0x7526B005, 0x7526B08A, '2005-02-09 10:00:00') /* Lever (14565) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7526B006, 14565, 0x526B0107, 15.7799, -142.402, -41.995, 0.482885, 0, 0, 0.875684,  True, '2005-02-09 10:00:00'); /* Lever */
@@ -64,21 +64,21 @@ VALUES (0x7526B00F,  7384, 0x526B0115, 39.9605, -89.9931, -40.8926, 0.714421, 0,
 /* @teleloc 0x526B0115 [39.960500 -89.993100 -40.892600] 0.714421 0.000000 0.000000 -0.699716 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7526B00F, 0x7526B00E, '2005-02-09 10:00:00') /* Pressure Plate */;
+VALUES (0x7526B00F, 0x7526B00E, '2005-02-09 10:00:00') /* Pressure Plate (2131) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7526B010,  7384, 0x526B0115, 39.8866, -90.4146, -40.8926, 0.714421, 0, 0, -0.699716, False, '2005-02-09 10:00:00'); /* Empyrean magical defense battery */
 /* @teleloc 0x526B0115 [39.886600 -90.414600 -40.892600] 0.714421 0.000000 0.000000 -0.699716 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7526B010, 0x7526B013, '2005-02-09 10:00:00') /* Pressure Plate */;
+VALUES (0x7526B010, 0x7526B013, '2005-02-09 10:00:00') /* Pressure Plate (2131) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7526B011,  7384, 0x526B0115, 40.2938, -90.1058, -40.8926, 0.714421, 0, 0, -0.699716, False, '2005-02-09 10:00:00'); /* Empyrean magical defense battery */
 /* @teleloc 0x526B0115 [40.293800 -90.105800 -40.892600] 0.714421 0.000000 0.000000 -0.699716 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7526B011, 0x7526B012, '2005-02-09 10:00:00') /* Pressure Plate */;
+VALUES (0x7526B011, 0x7526B012, '2005-02-09 10:00:00') /* Pressure Plate (2131) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7526B012,  2131, 0x526B0118, 44.7303, -90.9995, -41.995, 0.685716, 0, 0, -0.727869,  True, '2005-02-09 10:00:00'); /* Pressure Plate */
@@ -121,21 +121,21 @@ VALUES (0x7526B01B, 14549, 0x526B0129, 50.1511, -100.238, -41.1468, 1, 0, 0, 0, 
 /* @teleloc 0x526B0129 [50.151100 -100.238000 -41.146800] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7526B01B, 0x7526B01E, '2005-02-09 10:00:00') /* Pressure Plate */;
+VALUES (0x7526B01B, 0x7526B01E, '2005-02-09 10:00:00') /* Pressure Plate (2131) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7526B01C, 14549, 0x526B0129, 49.96, -100.012, -41.1601, 1, 0, 0, 0, False, '2005-02-09 10:00:00'); /* Lightning Trap */
 /* @teleloc 0x526B0129 [49.960000 -100.012000 -41.160100] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7526B01C, 0x7526B024, '2005-02-09 10:00:00') /* Pressure Plate */;
+VALUES (0x7526B01C, 0x7526B024, '2005-02-09 10:00:00') /* Pressure Plate (2131) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7526B01D, 14549, 0x526B0129, 50.2934, -99.8397, -41.1468, 1, 0, 0, 0, False, '2005-02-09 10:00:00'); /* Lightning Trap */
 /* @teleloc 0x526B0129 [50.293400 -99.839700 -41.146800] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7526B01D, 0x7526B025, '2005-02-09 10:00:00') /* Pressure Plate */;
+VALUES (0x7526B01D, 0x7526B025, '2005-02-09 10:00:00') /* Pressure Plate (2131) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7526B01E,  2131, 0x526B012F, 50.0503, -106.889, -42, -0.05597, 0, 0, 0.998432,  True, '2005-02-09 10:00:00'); /* Pressure Plate */
@@ -150,7 +150,7 @@ VALUES (0x7526B020, 14597, 0x526B0132, 55.5242, -19.9034, -41.6606, 0.707107, 0,
 /* @teleloc 0x526B0132 [55.524200 -19.903400 -41.660600] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7526B020, 0x7526B006, '2005-02-09 10:00:00') /* Lever */;
+VALUES (0x7526B020, 0x7526B006, '2005-02-09 10:00:00') /* Lever (14565) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7526B021, 14565, 0x526B0132, 57.7446, -16.1399, -41.995, 0.999954, 0, 0, -0.009613,  True, '2005-02-09 10:00:00'); /* Lever */
@@ -201,7 +201,7 @@ VALUES (0x7526B02D, 14595, 0x526B0143, 65.6603, -100.071, -41.3261, 0.707107, 0,
 /* @teleloc 0x526B0143 [65.660300 -100.071000 -41.326100] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7526B02D, 0x7526B068, '2005-02-09 10:00:00') /* Lever */;
+VALUES (0x7526B02D, 0x7526B068, '2005-02-09 10:00:00') /* Lever (14565) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7526B02E, 14565, 0x526B0143, 66.2765, -103.865, -41.995, 0.711987, 0, 0, 0.702193,  True, '2005-02-09 10:00:00'); /* Lever */
@@ -252,21 +252,21 @@ VALUES (0x7526B03A,  7384, 0x526B0165, 90.0601, -159.831, -40.9194, 1, 0, 0, -4.
 /* @teleloc 0x526B0165 [90.060100 -159.831000 -40.919400] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7526B03A, 0x7526B03D, '2005-02-09 10:00:00') /* Pressure Plate */;
+VALUES (0x7526B03A, 0x7526B03D, '2005-02-09 10:00:00') /* Pressure Plate (2131) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7526B03B,  7384, 0x526B0165, 89.5284, -159.941, -41.1066, 1, 0, 0, -4.37114E-08, False, '2005-02-09 10:00:00'); /* Empyrean magical defense battery */
 /* @teleloc 0x526B0165 [89.528400 -159.941000 -41.106600] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7526B03B, 0x7526B035, '2005-02-09 10:00:00') /* Pressure Plate */;
+VALUES (0x7526B03B, 0x7526B035, '2005-02-09 10:00:00') /* Pressure Plate (2131) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7526B03C,  7384, 0x526B0165, 90.2407, -160.102, -40.7589, 1, 0, 0, -4.37114E-08, False, '2005-02-09 10:00:00'); /* Empyrean magical defense battery */
 /* @teleloc 0x526B0165 [90.240700 -160.102000 -40.758900] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7526B03C, 0x7526B03E, '2005-02-09 10:00:00') /* Pressure Plate */;
+VALUES (0x7526B03C, 0x7526B03E, '2005-02-09 10:00:00') /* Pressure Plate (2131) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7526B03D,  2131, 0x526B0168, 88.8723, -155.504, -41.995, 1, 0, 0, -4.37114E-08,  True, '2005-02-09 10:00:00'); /* Pressure Plate */
@@ -281,21 +281,21 @@ VALUES (0x7526B040, 14549, 0x526B016F, 100, -50, -40.9996, 1, 0, 0, 0, False, '2
 /* @teleloc 0x526B016F [100.000000 -50.000000 -40.999600] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7526B040, 0x7526B043, '2005-02-09 10:00:00') /* Pressure Plate */;
+VALUES (0x7526B040, 0x7526B043, '2005-02-09 10:00:00') /* Pressure Plate (2131) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7526B041, 14549, 0x526B016F, 100.193, -49.8348, -41.12, 1, 0, 0, 0, False, '2005-02-09 10:00:00'); /* Lightning Trap */
 /* @teleloc 0x526B016F [100.193000 -49.834800 -41.120000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7526B041, 0x7526B045, '2005-02-09 10:00:00') /* Pressure Plate */;
+VALUES (0x7526B041, 0x7526B045, '2005-02-09 10:00:00') /* Pressure Plate (2131) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7526B042, 14549, 0x526B016F, 99.8664, -50.1319, -41.2136, 1, 0, 0, 0, False, '2005-02-09 10:00:00'); /* Lightning Trap */
 /* @teleloc 0x526B016F [99.866400 -50.131900 -41.213600] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7526B042, 0x7526B044, '2005-02-09 10:00:00') /* Pressure Plate */;
+VALUES (0x7526B042, 0x7526B044, '2005-02-09 10:00:00') /* Pressure Plate (2131) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7526B043,  2131, 0x526B0171, 95.3267, -49.8099, -41.995, -0.737671, 0, 0, -0.67516,  True, '2005-02-09 10:00:00'); /* Pressure Plate */
@@ -314,7 +314,7 @@ VALUES (0x7526B046, 14597, 0x526B0178, 99.9408, -65.4658, -41.567, 0, 0, 0, -1, 
 /* @teleloc 0x526B0178 [99.940800 -65.465800 -41.567000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7526B046, 0x7526B02E, '2005-02-09 10:00:00') /* Lever */;
+VALUES (0x7526B046, 0x7526B02E, '2005-02-09 10:00:00') /* Lever (14565) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7526B047, 14565, 0x526B0178, 96.1938, -65.6813, -41.995, 0.999399, 0, 0, 0.0346716,  True, '2005-02-09 10:00:00'); /* Lever */
@@ -325,7 +325,7 @@ VALUES (0x7526B048, 14600, 0x526B017D, 100.069, -134.569, -41.4734, 1, 0, 0, 0, 
 /* @teleloc 0x526B017D [100.069000 -134.569000 -41.473400] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7526B048, 0x7526B047, '2005-02-09 10:00:00') /* Lever */;
+VALUES (0x7526B048, 0x7526B047, '2005-02-09 10:00:00') /* Lever (14565) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7526B049, 14565, 0x526B017D, 104.314, -133.294, -41.995, 0.0239469, 0, 0, -0.999713,  True, '2005-02-09 10:00:00'); /* Lever */
@@ -336,21 +336,21 @@ VALUES (0x7526B04A, 14549, 0x526B0183, 99.9181, -150.183, -40.5449, 1, 0, 0, -4.
 /* @teleloc 0x526B0183 [99.918100 -150.183000 -40.544900] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7526B04A, 0x7526B057, '2005-02-09 10:00:00') /* Pressure Plate */;
+VALUES (0x7526B04A, 0x7526B057, '2005-02-09 10:00:00') /* Pressure Plate (2131) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7526B04B, 14549, 0x526B0183, 100.027, -149.939, -40.5449, 1, 0, 0, -4.37114E-08, False, '2005-02-09 10:00:00'); /* Lightning Trap */
 /* @teleloc 0x526B0183 [100.027000 -149.939000 -40.544900] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7526B04B, 0x7526B04E, '2005-02-09 10:00:00') /* Pressure Plate */;
+VALUES (0x7526B04B, 0x7526B04E, '2005-02-09 10:00:00') /* Pressure Plate (2131) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7526B04C, 14549, 0x526B0183, 99.9618, -150.085, -40.7455, 1, 0, 0, -4.37114E-08, False, '2005-02-09 10:00:00'); /* Lightning Trap */
 /* @teleloc 0x526B0183 [99.961800 -150.085000 -40.745500] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7526B04C, 0x7526B04D, '2005-02-09 10:00:00') /* Pressure Plate */;
+VALUES (0x7526B04C, 0x7526B04D, '2005-02-09 10:00:00') /* Pressure Plate (2131) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7526B04D,  2131, 0x526B0186, 101.215, -145.37, -41.995, 0.705712, 0, 0, 0.708499,  True, '2005-02-09 10:00:00'); /* Pressure Plate */
@@ -373,21 +373,21 @@ VALUES (0x7526B051,  7384, 0x526B018D, 109.657, -40.4248, -40.6786, 1, 0, 0, 0, 
 /* @teleloc 0x526B018D [109.657000 -40.424800 -40.678600] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7526B051, 0x7526B050, '2005-02-09 10:00:00') /* Pressure Plate */;
+VALUES (0x7526B051, 0x7526B050, '2005-02-09 10:00:00') /* Pressure Plate (2131) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7526B052,  7384, 0x526B018D, 109.913, -40.0621, -40.6786, 1, 0, 0, 0, False, '2005-02-09 10:00:00'); /* Empyrean magical defense battery */
 /* @teleloc 0x526B018D [109.913000 -40.062100 -40.678600] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7526B052, 0x7526B04F, '2005-02-09 10:00:00') /* Pressure Plate */;
+VALUES (0x7526B052, 0x7526B04F, '2005-02-09 10:00:00') /* Pressure Plate (2131) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7526B053,  7384, 0x526B018D, 110.13, -40.3856, -40.6786, 1, 0, 0, 0, False, '2005-02-09 10:00:00'); /* Empyrean magical defense battery */
 /* @teleloc 0x526B018D [110.130000 -40.385600 -40.678600] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7526B053, 0x7526B05A, '2005-02-09 10:00:00') /* Pressure Plate */;
+VALUES (0x7526B053, 0x7526B05A, '2005-02-09 10:00:00') /* Pressure Plate (2131) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7526B054, 14560, 0x526B0196, 110, -70, -36, 0.870283, 0, 0, 0.492552,  True, '2005-02-09 10:00:00'); /* Quiddity Rift */
@@ -466,7 +466,7 @@ VALUES (0x7526B067, 14596, 0x526B01B7, 144.26, -100.003, -41.4868, -0.707107, 0,
 /* @teleloc 0x526B01B7 [144.260000 -100.003000 -41.486800] -0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7526B067, 0x7526B049, '2005-02-09 10:00:00') /* Lever */;
+VALUES (0x7526B067, 0x7526B049, '2005-02-09 10:00:00') /* Lever (14565) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7526B068, 14565, 0x526B01B7, 143.183, -95.8661, -41.995, 0.713594, 0, 0, -0.70056,  True, '2005-02-09 10:00:00'); /* Lever */
@@ -485,7 +485,7 @@ VALUES (0x7526B06B, 14600, 0x526B01BA, 144.86, -179.997, -41.313, -0.707107, 0, 
 /* @teleloc 0x526B01BA [144.860000 -179.997000 -41.313000] -0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7526B06B, 0x7526B021, '2005-02-09 10:00:00') /* Lever */;
+VALUES (0x7526B06B, 0x7526B021, '2005-02-09 10:00:00') /* Lever (14565) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7526B06C, 14565, 0x526B01BA, 142.453, -183.206, -41.995, 0.0478709, 0, 0, -0.998854,  True, '2005-02-09 10:00:00'); /* Lever */
@@ -516,21 +516,21 @@ VALUES (0x7526B072, 14549, 0x526B01CC, 160.067, -100.006, -41.0398, 0.911039, 0,
 /* @teleloc 0x526B01CC [160.067000 -100.006000 -41.039800] 0.911039 0.000000 0.000000 0.412321 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7526B072, 0x7526B070, '2005-02-09 10:00:00') /* Pressure Plate */;
+VALUES (0x7526B072, 0x7526B070, '2005-02-09 10:00:00') /* Pressure Plate (2131) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7526B073, 14549, 0x526B01CC, 159.803, -100.234, -41.0398, 0.911039, 0, 0, 0.412321, False, '2005-02-09 10:00:00'); /* Lightning Trap */
 /* @teleloc 0x526B01CC [159.803000 -100.234000 -41.039800] 0.911039 0.000000 0.000000 0.412321 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7526B073, 0x7526B076, '2005-02-09 10:00:00') /* Pressure Plate */;
+VALUES (0x7526B073, 0x7526B076, '2005-02-09 10:00:00') /* Pressure Plate (2131) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7526B074, 14549, 0x526B01CC, 159.768, -99.9308, -41.0398, 0.911039, 0, 0, 0.412321, False, '2005-02-09 10:00:00'); /* Lightning Trap */
 /* @teleloc 0x526B01CC [159.768000 -99.930800 -41.039800] 0.911039 0.000000 0.000000 0.412321 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7526B074, 0x7526B075, '2005-02-09 10:00:00') /* Pressure Plate */;
+VALUES (0x7526B074, 0x7526B075, '2005-02-09 10:00:00') /* Pressure Plate (2131) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7526B075,  2131, 0x526B01CF, 155.378, -98.8762, -41.995, 0.678337, 0, 0, -0.734751,  True, '2005-02-09 10:00:00'); /* Pressure Plate */
@@ -573,21 +573,21 @@ VALUES (0x7526B07E,  7384, 0x526B01DD, 169.932, -110.064, -40.8659, 1, 0, 0, 0, 
 /* @teleloc 0x526B01DD [169.932000 -110.064000 -40.865900] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7526B07E, 0x7526B081, '2005-02-09 10:00:00') /* Pressure Plate */;
+VALUES (0x7526B07E, 0x7526B081, '2005-02-09 10:00:00') /* Pressure Plate (2131) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7526B07F,  7384, 0x526B01DD, 170.114, -110.534, -40.8659, 1, 0, 0, 0, False, '2005-02-09 10:00:00'); /* Empyrean magical defense battery */
 /* @teleloc 0x526B01DD [170.114000 -110.534000 -40.865900] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7526B07F, 0x7526B082, '2005-02-09 10:00:00') /* Pressure Plate */;
+VALUES (0x7526B07F, 0x7526B082, '2005-02-09 10:00:00') /* Pressure Plate (2131) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7526B080,  7384, 0x526B01DD, 169.761, -110.332, -40.8659, 1, 0, 0, 0, False, '2005-02-09 10:00:00'); /* Empyrean magical defense battery */
 /* @teleloc 0x526B01DD [169.761000 -110.332000 -40.865900] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7526B080, 0x7526B077, '2005-02-09 10:00:00') /* Pressure Plate */;
+VALUES (0x7526B080, 0x7526B077, '2005-02-09 10:00:00') /* Pressure Plate (2131) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7526B081,  2131, 0x526B01E0, 165.146, -108.866, -41.995, 0.677111, 0, 0, -0.735881,  True, '2005-02-09 10:00:00'); /* Pressure Plate */
@@ -618,7 +618,7 @@ VALUES (0x7526B089, 14596, 0x526B01EE, 190.068, -55.456, -41.433, 0, 0, 0, -1, F
 /* @teleloc 0x526B01EE [190.068000 -55.456000 -41.433000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7526B089, 0x7526B06C, '2005-02-09 10:00:00') /* Lever */;
+VALUES (0x7526B089, 0x7526B06C, '2005-02-09 10:00:00') /* Lever (14565) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7526B08A, 14565, 0x526B01EE, 193.833, -57.2619, -41.995, 0.721289, 0, 0, -0.692634,  True, '2005-02-09 10:00:00'); /* Lever */
@@ -657,7 +657,7 @@ VALUES (0x7526B092, 14586, 0x526B01FE, 18.956, -29.0898, -34.8792, 0.960314, 0, 
 /* @teleloc 0x526B01FE [18.956000 -29.089800 -34.879200] 0.960314 0.000000 0.000000 0.278920 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7526B092, 0x7526B091, '2005-02-09 10:00:00') /* Pressure Plate */;
+VALUES (0x7526B092, 0x7526B091, '2005-02-09 10:00:00') /* Pressure Plate (7625) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7526B093,  5406, 0x526B0200, 21.2901, -36.6724, -30, 0.107129, 0, 0, -0.994245, False, '2005-02-09 10:00:00'); /* Large Virindi Mana Field */
@@ -668,7 +668,7 @@ VALUES (0x7526B094, 14597, 0x526B0203, 19.0813, -40.1126, -35.46, -0.707107, 0, 
 /* @teleloc 0x526B0203 [19.081300 -40.112600 -35.460000] -0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7526B094, 0x7526B0A1, '2005-02-09 10:00:00') /* Lever */;
+VALUES (0x7526B094, 0x7526B0A1, '2005-02-09 10:00:00') /* Lever (14565) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7526B095, 14565, 0x526B0203, 18.6415, -36.3592, -35.995, 0.413904, 0, 0, -0.910321,  True, '2005-02-09 10:00:00'); /* Lever */
@@ -683,7 +683,7 @@ VALUES (0x7526B097, 14586, 0x526B0206, 19.5956, -51.8446, -34.7856, 0.952272, 0,
 /* @teleloc 0x526B0206 [19.595600 -51.844600 -34.785600] 0.952272 0.000000 0.000000 0.305251 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7526B097, 0x7526B096, '2005-02-09 10:00:00') /* Pressure Plate */;
+VALUES (0x7526B097, 0x7526B096, '2005-02-09 10:00:00') /* Pressure Plate (7625) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7526B098, 14560, 0x526B0210, 30, -30, -30, 1, 0, 0, 0,  True, '2005-02-09 10:00:00'); /* Quiddity Rift */
@@ -706,7 +706,7 @@ VALUES (0x7526B09C, 14586, 0x526B0227, 28.5859, -191.37, -34.7856, 1, 0, 0, 0, F
 /* @teleloc 0x526B0227 [28.585900 -191.370000 -34.785600] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7526B09C, 0x7526B09D, '2005-02-09 10:00:00') /* Pressure Plate */;
+VALUES (0x7526B09C, 0x7526B09D, '2005-02-09 10:00:00') /* Pressure Plate (7625) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7526B09D,  7625, 0x526B0227, 28.7006, -190.723, -35.995, 0.985354, 0, 0, 0.170524,  True, '2005-02-09 10:00:00'); /* Pressure Plate */
@@ -725,7 +725,7 @@ VALUES (0x7526B0A0, 14595, 0x526B0240, 40, -190.844, -35.42, 0, 0, 0, -1, False,
 /* @teleloc 0x526B0240 [40.000000 -190.844000 -35.420000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7526B0A0, 0x7526B0B0, '2005-02-09 10:00:00') /* Lever */;
+VALUES (0x7526B0A0, 0x7526B0B0, '2005-02-09 10:00:00') /* Lever (14565) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7526B0A1, 14565, 0x526B0240, 36.5678, -190.761, -35.995, 0.946872, 0, 0, -0.32161,  True, '2005-02-09 10:00:00'); /* Lever */
@@ -768,7 +768,7 @@ VALUES (0x7526B0AB, 14586, 0x526B0294, 159.09, -18.9513, -34.7589, 0.474746, 0, 
 /* @teleloc 0x526B0294 [159.090000 -18.951300 -34.758900] 0.474746 0.000000 0.000000 0.880123 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7526B0AB, 0x7526B0AC, '2005-02-09 10:00:00') /* Pressure Plate */;
+VALUES (0x7526B0AB, 0x7526B0AC, '2005-02-09 10:00:00') /* Pressure Plate (7625) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7526B0AC,  7625, 0x526B0294, 158.93, -18.5324, -35.995, -0.716969, 0, 0, -0.697105,  True, '2005-02-09 10:00:00'); /* Pressure Plate */
@@ -787,7 +787,7 @@ VALUES (0x7526B0AF, 14596, 0x526B02A1, 169.974, -20.5083, -35.3931, 0, 0, 0, -1,
 /* @teleloc 0x526B02A1 [169.974000 -20.508300 -35.393100] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7526B0AF, 0x7526B0BB, '2005-02-09 10:00:00') /* Lever */;
+VALUES (0x7526B0AF, 0x7526B0BB, '2005-02-09 10:00:00') /* Lever (14565) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7526B0B0, 14565, 0x526B02A2, 173.761, -19.1076, -35.995, 0.343469, 0, 0, 0.939164,  True, '2005-02-09 10:00:00'); /* Lever */
@@ -818,7 +818,7 @@ VALUES (0x7526B0B6, 14586, 0x526B02BF, 181.475, -20.2813, -34.5373, 0.993341, 0,
 /* @teleloc 0x526B02BF [181.475000 -20.281300 -34.537300] 0.993341 0.000000 0.000000 0.115215 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7526B0B6, 0x7526B0B5, '2005-02-09 10:00:00') /* Pressure Plate */;
+VALUES (0x7526B0B6, 0x7526B0B5, '2005-02-09 10:00:00') /* Pressure Plate (7625) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7526B0B7,  7625, 0x526B02CE, 181.257, -148.89, -35.995, 1, 0, 0, 0,  True, '2005-02-09 10:00:00'); /* Pressure Plate */
@@ -829,7 +829,7 @@ VALUES (0x7526B0B8, 14586, 0x526B02CE, 180.91, -148.998, -34.4236, 0.934609, 0, 
 /* @teleloc 0x526B02CE [180.910000 -148.998000 -34.423600] 0.934609 0.000000 0.000000 0.355678 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7526B0B8, 0x7526B0B7, '2005-02-09 10:00:00') /* Pressure Plate */;
+VALUES (0x7526B0B8, 0x7526B0B7, '2005-02-09 10:00:00') /* Pressure Plate (7625) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7526B0B9,  5406, 0x526B02D0, 179.069, -162.214, -30, 0.997189, 0, 0, -0.07493, False, '2005-02-09 10:00:00'); /* Large Virindi Mana Field */
@@ -840,7 +840,7 @@ VALUES (0x7526B0BA, 14600, 0x526B02D3, 180.429, -160.106, -35.3263, 0.707107, 0,
 /* @teleloc 0x526B02D3 [180.429000 -160.106000 -35.326300] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7526B0BA, 0x7526B095, '2005-02-09 10:00:00') /* Lever */;
+VALUES (0x7526B0BA, 0x7526B095, '2005-02-09 10:00:00') /* Lever (14565) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7526B0BB, 14565, 0x526B02D3, 181.101, -163.755, -35.995, 0.919702, 0, 0, 0.392617,  True, '2005-02-09 10:00:00'); /* Lever */
@@ -855,7 +855,7 @@ VALUES (0x7526B0BD, 14586, 0x526B02D6, 179.987, -170, -34.7832, 1, 0, 0, 0, Fals
 /* @teleloc 0x526B02D6 [179.987000 -170.000000 -34.783200] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7526B0BD, 0x7526B0BC, '2005-02-09 10:00:00') /* Pressure Plate */;
+VALUES (0x7526B0BD, 0x7526B0BC, '2005-02-09 10:00:00') /* Pressure Plate (7625) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7526B0BE, 14799, 0x526B02E6, 23.9929, -32.335, -29.971, 0.891182, 0, 0, 0.453645,  True, '2005-02-09 10:00:00'); /* Vibrant Virindi Energy Cluster */
@@ -1010,62 +1010,62 @@ VALUES (0x7526B0E8,  7923, 0x526B045A, 100, -80, 0.005, 1, 0, 0, 0, False, '2005
 /* @teleloc 0x526B045A [100.000000 -80.000000 0.005000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7526B0E8, 0x7526B01A, '2005-02-09 10:00:00') /* Vibrant Virindi Energy Cluster */
-     , (0x7526B0E8, 0x7526B02C, '2005-02-09 10:00:00') /* Quiddity Rift */
-     , (0x7526B0E8, 0x7526B02F, '2005-02-09 10:00:00') /* Quiddity Rift */
-     , (0x7526B0E8, 0x7526B034, '2005-02-09 10:00:00') /* Dim Virindi Energy Cluster */
-     , (0x7526B0E8, 0x7526B039, '2005-02-09 10:00:00') /* Quiddity Rift */
-     , (0x7526B0E8, 0x7526B054, '2005-02-09 10:00:00') /* Quiddity Rift */
-     , (0x7526B0E8, 0x7526B055, '2005-02-09 10:00:00') /* Quiddity Rift */
-     , (0x7526B0E8, 0x7526B05B, '2005-02-09 10:00:00') /* Blinding Virindi Energy Cluster */
-     , (0x7526B0E8, 0x7526B066, '2005-02-09 10:00:00') /* Quiddity Rift */
-     , (0x7526B0E8, 0x7526B069, '2005-02-09 10:00:00') /* Quiddity Rift */
-     , (0x7526B0E8, 0x7526B079, '2005-02-09 10:00:00') /* Faint Virindi Energy Cluster */
-     , (0x7526B0E8, 0x7526B098, '2005-02-09 10:00:00') /* Quiddity Rift */
-     , (0x7526B0E8, 0x7526B09A, '2005-02-09 10:00:00') /* Quiddity Rift */
-     , (0x7526B0E8, 0x7526B09B, '2005-02-09 10:00:00') /* Quiddity Rift */
-     , (0x7526B0E8, 0x7526B0A2, '2005-02-09 10:00:00') /* Quiddity Rift */
-     , (0x7526B0E8, 0x7526B0A5, '2005-02-09 10:00:00') /* Vibrant Virindi Energy Cluster */
-     , (0x7526B0E8, 0x7526B0A6, '2005-02-09 10:00:00') /* Quiddity Rift */
-     , (0x7526B0E8, 0x7526B0A8, '2005-02-09 10:00:00') /* Dim Virindi Energy Cluster */
-     , (0x7526B0E8, 0x7526B0A9, '2005-02-09 10:00:00') /* Faint Virindi Energy Cluster */
-     , (0x7526B0E8, 0x7526B0AD, '2005-02-09 10:00:00') /* Quiddity Rift */
-     , (0x7526B0E8, 0x7526B0B2, '2005-02-09 10:00:00') /* Quiddity Rift */
-     , (0x7526B0E8, 0x7526B0B4, '2005-02-09 10:00:00') /* Quiddity Rift */
-     , (0x7526B0E8, 0x7526B0BE, '2005-02-09 10:00:00') /* Vibrant Virindi Energy Cluster */
-     , (0x7526B0E8, 0x7526B0C0, '2005-02-09 10:00:00') /* Vibrant Virindi Energy Cluster */
-     , (0x7526B0E8, 0x7526B0C3, '2005-02-09 10:00:00') /* Dim Virindi Energy Cluster */
-     , (0x7526B0E8, 0x7526B0C4, '2005-02-09 10:00:00') /* Vibrant Virindi Energy Cluster */
-     , (0x7526B0E8, 0x7526B0C6, '2005-02-09 10:00:00') /* Vibrant Virindi Energy Cluster */
-     , (0x7526B0E8, 0x7526B0C7, '2005-02-09 10:00:00') /* Faint Virindi Energy Cluster */
-     , (0x7526B0E8, 0x7526B0CA, '2005-02-09 10:00:00') /* Vibrant Virindi Energy Cluster */
-     , (0x7526B0E8, 0x7526B0CB, '2005-02-09 10:00:00') /* Quiddity Rift */
-     , (0x7526B0E8, 0x7526B0CC, '2005-02-09 10:00:00') /* Vibrant Virindi Energy Cluster */
-     , (0x7526B0E8, 0x7526B0CD, '2005-02-09 10:00:00') /* Vibrant Virindi Energy Cluster */
-     , (0x7526B0E8, 0x7526B0CE, '2005-02-09 10:00:00') /* Vibrant Virindi Energy Cluster */
-     , (0x7526B0E8, 0x7526B0CF, '2005-02-09 10:00:00') /* Vibrant Virindi Energy Cluster */
-     , (0x7526B0E8, 0x7526B0D0, '2005-02-09 10:00:00') /* Vibrant Virindi Energy Cluster */
-     , (0x7526B0E8, 0x7526B0D2, '2005-02-09 10:00:00') /* Dim Virindi Energy Cluster */
-     , (0x7526B0E8, 0x7526B0D3, '2005-02-09 10:00:00') /* Dim Virindi Energy Cluster */
-     , (0x7526B0E8, 0x7526B0D4, '2005-02-09 10:00:00') /* Vibrant Virindi Energy Cluster */
-     , (0x7526B0E8, 0x7526B0D5, '2005-02-09 10:00:00') /* Vibrant Virindi Energy Cluster */
-     , (0x7526B0E8, 0x7526B0D6, '2005-02-09 10:00:00') /* Vibrant Virindi Energy Cluster */
-     , (0x7526B0E8, 0x7526B0D7, '2005-02-09 10:00:00') /* Vibrant Virindi Energy Cluster */
-     , (0x7526B0E8, 0x7526B0D8, '2005-02-09 10:00:00') /* Faint Virindi Energy Cluster */
-     , (0x7526B0E8, 0x7526B0D9, '2005-02-09 10:00:00') /* Faint Virindi Energy Cluster */
-     , (0x7526B0E8, 0x7526B0DA, '2005-02-09 10:00:00') /* Faint Virindi Energy Cluster */
-     , (0x7526B0E8, 0x7526B0DC, '2005-02-09 10:00:00') /* Dim Virindi Energy Cluster */
-     , (0x7526B0E8, 0x7526B0DD, '2005-02-09 10:00:00') /* Vibrant Virindi Energy Cluster */
-     , (0x7526B0E8, 0x7526B0DE, '2005-02-09 10:00:00') /* Vibrant Virindi Energy Cluster */
-     , (0x7526B0E8, 0x7526B0E5, '2005-02-09 10:00:00') /* Dim Virindi Energy Cluster */
-     , (0x7526B0E8, 0x7526B0ED, '2005-02-09 10:00:00') /* Vibrant Virindi Energy Cluster */
-     , (0x7526B0E8, 0x7526B0EE, '2005-02-09 10:00:00') /* Vibrant Virindi Energy Cluster */
-     , (0x7526B0E8, 0x7526B0EF, '2005-02-09 10:00:00') /* Vibrant Virindi Energy Cluster */
-     , (0x7526B0E8, 0x7526B0F0, '2005-02-09 10:00:00') /* Vibrant Virindi Energy Cluster */
-     , (0x7526B0E8, 0x7526B0F1, '2005-02-09 10:00:00') /* Vibrant Virindi Energy Cluster */
-     , (0x7526B0E8, 0x7526B0F2, '2005-02-09 10:00:00') /* Vibrant Virindi Energy Cluster */
-     , (0x7526B0E8, 0x7526B0F3, '2005-02-09 10:00:00') /* Vibrant Virindi Energy Cluster */
-     , (0x7526B0E8, 0x7526B0F4, '2005-02-09 10:00:00') /* Vibrant Virindi Energy Cluster */;
+VALUES (0x7526B0E8, 0x7526B01A, '2005-02-09 10:00:00') /* Vibrant Virindi Energy Cluster (14558) */
+     , (0x7526B0E8, 0x7526B02C, '2005-02-09 10:00:00') /* Quiddity Rift (14562) */
+     , (0x7526B0E8, 0x7526B02F, '2005-02-09 10:00:00') /* Quiddity Rift (14562) */
+     , (0x7526B0E8, 0x7526B034, '2005-02-09 10:00:00') /* Dim Virindi Energy Cluster (14556) */
+     , (0x7526B0E8, 0x7526B039, '2005-02-09 10:00:00') /* Quiddity Rift (14560) */
+     , (0x7526B0E8, 0x7526B054, '2005-02-09 10:00:00') /* Quiddity Rift (14560) */
+     , (0x7526B0E8, 0x7526B055, '2005-02-09 10:00:00') /* Quiddity Rift (14563) */
+     , (0x7526B0E8, 0x7526B05B, '2005-02-09 10:00:00') /* Blinding Virindi Energy Cluster (14555) */
+     , (0x7526B0E8, 0x7526B066, '2005-02-09 10:00:00') /* Quiddity Rift (14561) */
+     , (0x7526B0E8, 0x7526B069, '2005-02-09 10:00:00') /* Quiddity Rift (14561) */
+     , (0x7526B0E8, 0x7526B079, '2005-02-09 10:00:00') /* Faint Virindi Energy Cluster (14557) */
+     , (0x7526B0E8, 0x7526B098, '2005-02-09 10:00:00') /* Quiddity Rift (14560) */
+     , (0x7526B0E8, 0x7526B09A, '2005-02-09 10:00:00') /* Quiddity Rift (14560) */
+     , (0x7526B0E8, 0x7526B09B, '2005-02-09 10:00:00') /* Quiddity Rift (14562) */
+     , (0x7526B0E8, 0x7526B0A2, '2005-02-09 10:00:00') /* Quiddity Rift (14562) */
+     , (0x7526B0E8, 0x7526B0A5, '2005-02-09 10:00:00') /* Vibrant Virindi Energy Cluster (14558) */
+     , (0x7526B0E8, 0x7526B0A6, '2005-02-09 10:00:00') /* Quiddity Rift (14563) */
+     , (0x7526B0E8, 0x7526B0A8, '2005-02-09 10:00:00') /* Dim Virindi Energy Cluster (14556) */
+     , (0x7526B0E8, 0x7526B0A9, '2005-02-09 10:00:00') /* Faint Virindi Energy Cluster (14557) */
+     , (0x7526B0E8, 0x7526B0AD, '2005-02-09 10:00:00') /* Quiddity Rift (14561) */
+     , (0x7526B0E8, 0x7526B0B2, '2005-02-09 10:00:00') /* Quiddity Rift (14563) */
+     , (0x7526B0E8, 0x7526B0B4, '2005-02-09 10:00:00') /* Quiddity Rift (14563) */
+     , (0x7526B0E8, 0x7526B0BE, '2005-02-09 10:00:00') /* Vibrant Virindi Energy Cluster (14799) */
+     , (0x7526B0E8, 0x7526B0C0, '2005-02-09 10:00:00') /* Vibrant Virindi Energy Cluster (14799) */
+     , (0x7526B0E8, 0x7526B0C3, '2005-02-09 10:00:00') /* Dim Virindi Energy Cluster (14556) */
+     , (0x7526B0E8, 0x7526B0C4, '2005-02-09 10:00:00') /* Vibrant Virindi Energy Cluster (14558) */
+     , (0x7526B0E8, 0x7526B0C6, '2005-02-09 10:00:00') /* Vibrant Virindi Energy Cluster (14558) */
+     , (0x7526B0E8, 0x7526B0C7, '2005-02-09 10:00:00') /* Faint Virindi Energy Cluster (14557) */
+     , (0x7526B0E8, 0x7526B0CA, '2005-02-09 10:00:00') /* Vibrant Virindi Energy Cluster (14799) */
+     , (0x7526B0E8, 0x7526B0CB, '2005-02-09 10:00:00') /* Quiddity Rift (14561) */
+     , (0x7526B0E8, 0x7526B0CC, '2005-02-09 10:00:00') /* Vibrant Virindi Energy Cluster (14799) */
+     , (0x7526B0E8, 0x7526B0CD, '2005-02-09 10:00:00') /* Vibrant Virindi Energy Cluster (14799) */
+     , (0x7526B0E8, 0x7526B0CE, '2005-02-09 10:00:00') /* Vibrant Virindi Energy Cluster (14799) */
+     , (0x7526B0E8, 0x7526B0CF, '2005-02-09 10:00:00') /* Vibrant Virindi Energy Cluster (14799) */
+     , (0x7526B0E8, 0x7526B0D0, '2005-02-09 10:00:00') /* Vibrant Virindi Energy Cluster (14799) */
+     , (0x7526B0E8, 0x7526B0D2, '2005-02-09 10:00:00') /* Dim Virindi Energy Cluster (14556) */
+     , (0x7526B0E8, 0x7526B0D3, '2005-02-09 10:00:00') /* Dim Virindi Energy Cluster (14556) */
+     , (0x7526B0E8, 0x7526B0D4, '2005-02-09 10:00:00') /* Vibrant Virindi Energy Cluster (14799) */
+     , (0x7526B0E8, 0x7526B0D5, '2005-02-09 10:00:00') /* Vibrant Virindi Energy Cluster (14799) */
+     , (0x7526B0E8, 0x7526B0D6, '2005-02-09 10:00:00') /* Vibrant Virindi Energy Cluster (14799) */
+     , (0x7526B0E8, 0x7526B0D7, '2005-02-09 10:00:00') /* Vibrant Virindi Energy Cluster (14799) */
+     , (0x7526B0E8, 0x7526B0D8, '2005-02-09 10:00:00') /* Faint Virindi Energy Cluster (14557) */
+     , (0x7526B0E8, 0x7526B0D9, '2005-02-09 10:00:00') /* Faint Virindi Energy Cluster (14557) */
+     , (0x7526B0E8, 0x7526B0DA, '2005-02-09 10:00:00') /* Faint Virindi Energy Cluster (14557) */
+     , (0x7526B0E8, 0x7526B0DC, '2005-02-09 10:00:00') /* Dim Virindi Energy Cluster (14556) */
+     , (0x7526B0E8, 0x7526B0DD, '2005-02-09 10:00:00') /* Vibrant Virindi Energy Cluster (14558) */
+     , (0x7526B0E8, 0x7526B0DE, '2005-02-09 10:00:00') /* Vibrant Virindi Energy Cluster (14558) */
+     , (0x7526B0E8, 0x7526B0E5, '2005-02-09 10:00:00') /* Dim Virindi Energy Cluster (14556) */
+     , (0x7526B0E8, 0x7526B0ED, '2005-02-09 10:00:00') /* Vibrant Virindi Energy Cluster (14799) */
+     , (0x7526B0E8, 0x7526B0EE, '2005-02-09 10:00:00') /* Vibrant Virindi Energy Cluster (14799) */
+     , (0x7526B0E8, 0x7526B0EF, '2005-02-09 10:00:00') /* Vibrant Virindi Energy Cluster (14799) */
+     , (0x7526B0E8, 0x7526B0F0, '2005-02-09 10:00:00') /* Vibrant Virindi Energy Cluster (14799) */
+     , (0x7526B0E8, 0x7526B0F1, '2005-02-09 10:00:00') /* Vibrant Virindi Energy Cluster (14799) */
+     , (0x7526B0E8, 0x7526B0F2, '2005-02-09 10:00:00') /* Vibrant Virindi Energy Cluster (14799) */
+     , (0x7526B0E8, 0x7526B0F3, '2005-02-09 10:00:00') /* Vibrant Virindi Energy Cluster (14799) */
+     , (0x7526B0E8, 0x7526B0F4, '2005-02-09 10:00:00') /* Vibrant Virindi Energy Cluster (14799) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7526B0EC,   298, 0x526B017B, 104.19, -99.6481, -39.425, 0.0216863, 0, 0, -0.999765, False, '2005-02-09 10:00:00'); /* Pressure Plate */

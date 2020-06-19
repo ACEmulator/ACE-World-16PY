@@ -105,63 +105,63 @@ VALUES (0x70110019,  4065, 0x01100192, 40, -130.016, -44.8933, 1, 0, 0, 0, False
 /* @teleloc 0x01100192 [40.000000 -130.016000 -44.893300] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x70110019, 0x7011000D, '2005-02-09 10:00:00') /* Pressure Plate */;
+VALUES (0x70110019, 0x7011000D, '2005-02-09 10:00:00') /* Pressure Plate (2131) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7011001A,  4065, 0x01100192, 40.034, -129.345, -44.8933, 1, 0, 0, 0, False, '2005-02-09 10:00:00'); /* Lightning Trap */
 /* @teleloc 0x01100192 [40.034000 -129.345000 -44.893300] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7011001A, 0x7011000F, '2005-02-09 10:00:00') /* Pressure Plate */;
+VALUES (0x7011001A, 0x7011000F, '2005-02-09 10:00:00') /* Pressure Plate (2131) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7011001B,  4065, 0x01100192, 39.9759, -130.588, -44.8933, 1, 0, 0, 0, False, '2005-02-09 10:00:00'); /* Lightning Trap */
 /* @teleloc 0x01100192 [39.975900 -130.588000 -44.893300] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7011001B, 0x7011000E, '2005-02-09 10:00:00') /* Pressure Plate */;
+VALUES (0x7011001B, 0x7011000E, '2005-02-09 10:00:00') /* Pressure Plate (2131) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7011001C,  4065, 0x01100192, 39.29, -129.963, -44.8933, 0.998344, 0, 0, 0.057524, False, '2005-02-09 10:00:00'); /* Lightning Trap */
 /* @teleloc 0x01100192 [39.290000 -129.963000 -44.893300] 0.998344 0.000000 0.000000 0.057524 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7011001C, 0x70110011, '2005-02-09 10:00:00') /* Pressure Plate */;
+VALUES (0x7011001C, 0x70110011, '2005-02-09 10:00:00') /* Pressure Plate (2131) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7011001D,  4065, 0x01100192, 40.7154, -129.94, -44.8933, 0.772458, 0, 0, -0.635065, False, '2005-02-09 10:00:00'); /* Lightning Trap */
 /* @teleloc 0x01100192 [40.715400 -129.940000 -44.893300] 0.772458 0.000000 0.000000 -0.635065 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7011001D, 0x70110010, '2005-02-09 10:00:00') /* Pressure Plate */;
+VALUES (0x7011001D, 0x70110010, '2005-02-09 10:00:00') /* Pressure Plate (2131) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7011001E,  4065, 0x01100192, 39.5244, -129.596, -44.8988, -0.950789, 0, 0, -0.309839, False, '2005-02-09 10:00:00'); /* Lightning Trap */
 /* @teleloc 0x01100192 [39.524400 -129.596000 -44.898800] -0.950789 0.000000 0.000000 -0.309839 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7011001E, 0x70110012, '2005-02-09 10:00:00') /* Pressure Plate */;
+VALUES (0x7011001E, 0x70110012, '2005-02-09 10:00:00') /* Pressure Plate (2131) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7011001F,  4065, 0x01100192, 40.4433, -129.546, -44.9122, -0.95998, 0, 0, 0.280069, False, '2005-02-09 10:00:00'); /* Lightning Trap */
 /* @teleloc 0x01100192 [40.443300 -129.546000 -44.912200] -0.959980 0.000000 0.000000 0.280069 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7011001F, 0x70110013, '2005-02-09 10:00:00') /* Pressure Plate */;
+VALUES (0x7011001F, 0x70110013, '2005-02-09 10:00:00') /* Pressure Plate (2131) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x70110020,  4065, 0x01100192, 39.4785, -130.359, -44.8854, -0.919601, 0, 0, 0.392854, False, '2005-02-09 10:00:00'); /* Lightning Trap */
 /* @teleloc 0x01100192 [39.478500 -130.359000 -44.885400] -0.919601 0.000000 0.000000 0.392854 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x70110020, 0x70110014, '2005-02-09 10:00:00') /* Pressure Plate */;
+VALUES (0x70110020, 0x70110014, '2005-02-09 10:00:00') /* Pressure Plate (2131) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x70110021,  4065, 0x01100192, 40.4672, -130.328, -44.9122, -0.663864, 0, 0, 0.747854, False, '2005-02-09 10:00:00'); /* Lightning Trap */
 /* @teleloc 0x01100192 [40.467200 -130.328000 -44.912200] -0.663864 0.000000 0.000000 0.747854 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x70110021, 0x70110015, '2005-02-09 10:00:00') /* Pressure Plate */;
+VALUES (0x70110021, 0x70110015, '2005-02-09 10:00:00') /* Pressure Plate (2131) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x70110022,  4253, 0x011001BC, 40, -120, -35.995, 0.020795, 0, 0, 0.999784,  True, '2005-02-09 10:00:00'); /* Panumbris Shadow */
@@ -248,63 +248,63 @@ VALUES (0x70110036,  4065, 0x01100215, 39.2522, -130.101, -17.9178, 0.999834, 0,
 /* @teleloc 0x01100215 [39.252200 -130.101000 -17.917800] 0.999834 0.000000 0.000000 -0.018220 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x70110036, 0x70110027, '2005-02-09 10:00:00') /* Pressure Plate */;
+VALUES (0x70110036, 0x70110027, '2005-02-09 10:00:00') /* Pressure Plate (2131) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x70110037,  4065, 0x01100215, 39.8198, -130.915, -17.9177, 1, 0, 0, 0, False, '2005-02-09 10:00:00'); /* Lightning Trap */
 /* @teleloc 0x01100215 [39.819800 -130.915000 -17.917700] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x70110037, 0x70110024, '2005-02-09 10:00:00') /* Pressure Plate */;
+VALUES (0x70110037, 0x70110024, '2005-02-09 10:00:00') /* Pressure Plate (2131) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x70110038,  4065, 0x01100215, 39.9794, -130.222, -17.8642, 1, 0, 0, 0, False, '2005-02-09 10:00:00'); /* Lightning Trap */
 /* @teleloc 0x01100215 [39.979400 -130.222000 -17.864200] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x70110038, 0x70110023, '2005-02-09 10:00:00') /* Pressure Plate */;
+VALUES (0x70110038, 0x70110023, '2005-02-09 10:00:00') /* Pressure Plate (2131) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x70110039,  4065, 0x01100215, 40.0704, -129.438, -17.8509, 1, 0, 0, 0, False, '2005-02-09 10:00:00'); /* Lightning Trap */
 /* @teleloc 0x01100215 [40.070400 -129.438000 -17.850900] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x70110039, 0x70110025, '2005-02-09 10:00:00') /* Pressure Plate */;
+VALUES (0x70110039, 0x70110025, '2005-02-09 10:00:00') /* Pressure Plate (2131) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7011003A,  4065, 0x01100215, 40.6287, -130.139, -17.8117, 0.999834, 0, 0, -0.01822, False, '2005-02-09 10:00:00'); /* Lightning Trap */
 /* @teleloc 0x01100215 [40.628700 -130.139000 -17.811700] 0.999834 0.000000 0.000000 -0.018220 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7011003A, 0x70110026, '2005-02-09 10:00:00') /* Pressure Plate */;
+VALUES (0x7011003A, 0x70110026, '2005-02-09 10:00:00') /* Pressure Plate (2131) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7011003B,  4065, 0x01100215, 39.5626, -129.621, -17.927, -0.964117, 0, 0, -0.265476, False, '2005-02-09 10:00:00'); /* Lightning Trap */
 /* @teleloc 0x01100215 [39.562600 -129.621000 -17.927000] -0.964117 0.000000 0.000000 -0.265476 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7011003B, 0x7011002A, '2005-02-09 10:00:00') /* Pressure Plate */;
+VALUES (0x7011003B, 0x7011002A, '2005-02-09 10:00:00') /* Pressure Plate (2131) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7011003C,  4065, 0x01100215, 40.5074, -129.705, -17.8468, -0.501663, 0, 0, 0.865063, False, '2005-02-09 10:00:00'); /* Lightning Trap */
 /* @teleloc 0x01100215 [40.507400 -129.705000 -17.846800] -0.501663 0.000000 0.000000 0.865063 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7011003C, 0x70110028, '2005-02-09 10:00:00') /* Pressure Plate */;
+VALUES (0x7011003C, 0x70110028, '2005-02-09 10:00:00') /* Pressure Plate (2131) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7011003D,  4065, 0x01100215, 40.4308, -130.656, -17.9003, 0.542407, 0, 0, 0.840116, False, '2005-02-09 10:00:00'); /* Lightning Trap */
 /* @teleloc 0x01100215 [40.430800 -130.656000 -17.900300] 0.542407 0.000000 0.000000 0.840116 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7011003D, 0x70110029, '2005-02-09 10:00:00') /* Pressure Plate */;
+VALUES (0x7011003D, 0x70110029, '2005-02-09 10:00:00') /* Pressure Plate (2131) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7011003E,  4065, 0x01100215, 39.4119, -130.618, -17.8334, 0.762212, 0, 0, 0.647327, False, '2005-02-09 10:00:00'); /* Lightning Trap */
 /* @teleloc 0x01100215 [39.411900 -130.618000 -17.833400] 0.762212 0.000000 0.000000 0.647327 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7011003E, 0x7011002B, '2005-02-09 10:00:00') /* Pressure Plate */;
+VALUES (0x7011003E, 0x7011002B, '2005-02-09 10:00:00') /* Pressure Plate (2131) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7011003F,  4253, 0x01100228, 70, -100, -17.995, 0.315322, 0, 0, -0.948985,  True, '2005-02-09 10:00:00'); /* Panumbris Shadow */
@@ -391,63 +391,63 @@ VALUES (0x70110053,  4065, 0x01100284, 39.5402, -129.845, 9.59375, 0.999999, 0, 
 /* @teleloc 0x01100284 [39.540200 -129.845000 9.593750] 0.999999 0.000000 0.000000 -0.001398 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x70110053, 0x70110047, '2005-02-09 10:00:00') /* Pressure Plate */;
+VALUES (0x70110053, 0x70110047, '2005-02-09 10:00:00') /* Pressure Plate (2131) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x70110054,  4065, 0x01100284, 40.8459, -129.942, 9.52688, 0.999999, 0, 0, -0.001398, False, '2005-02-09 10:00:00'); /* Lightning Trap */
 /* @teleloc 0x01100284 [40.845900 -129.942000 9.526880] 0.999999 0.000000 0.000000 -0.001398 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x70110054, 0x7011004A, '2005-02-09 10:00:00') /* Pressure Plate */;
+VALUES (0x70110054, 0x7011004A, '2005-02-09 10:00:00') /* Pressure Plate (2131) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x70110055,  4065, 0x01100284, 40.1783, -129.271, 9.52688, 0.999999, 0, 0, -0.001398, False, '2005-02-09 10:00:00'); /* Lightning Trap */
 /* @teleloc 0x01100284 [40.178300 -129.271000 9.526880] 0.999999 0.000000 0.000000 -0.001398 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x70110055, 0x70110049, '2005-02-09 10:00:00') /* Pressure Plate */;
+VALUES (0x70110055, 0x70110049, '2005-02-09 10:00:00') /* Pressure Plate (2131) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x70110056,  4065, 0x01100284, 40.1067, -130.45, 9.567, 0.999999, 0, 0, -0.001398, False, '2005-02-09 10:00:00'); /* Lightning Trap */
 /* @teleloc 0x01100284 [40.106700 -130.450000 9.567000] 0.999999 0.000000 0.000000 -0.001398 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x70110056, 0x70110048, '2005-02-09 10:00:00') /* Pressure Plate */;
+VALUES (0x70110056, 0x70110048, '2005-02-09 10:00:00') /* Pressure Plate (2131) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x70110057,  4065, 0x01100284, 40.148, -129.789, 9.62049, 0.999999, 0, 0, -0.001398, False, '2005-02-09 10:00:00'); /* Lightning Trap */
 /* @teleloc 0x01100284 [40.148000 -129.789000 9.620490] 0.999999 0.000000 0.000000 -0.001398 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x70110057, 0x7011004B, '2005-02-09 10:00:00') /* Pressure Plate */;
+VALUES (0x70110057, 0x7011004B, '2005-02-09 10:00:00') /* Pressure Plate (2131) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x70110058,  4065, 0x01100284, 39.6945, -129.489, 9.55944, 0.941437, 0, 0, 0.33719, False, '2005-02-09 10:00:00'); /* Lightning Trap */
 /* @teleloc 0x01100284 [39.694500 -129.489000 9.559440] 0.941437 0.000000 0.000000 0.337190 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x70110058, 0x7011004C, '2005-02-09 10:00:00') /* Pressure Plate */;
+VALUES (0x70110058, 0x7011004C, '2005-02-09 10:00:00') /* Pressure Plate (2131) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x70110059,  4065, 0x01100284, 40.7073, -129.495, 9.62631, 0.904038, 0, 0, -0.427453, False, '2005-02-09 10:00:00'); /* Lightning Trap */
 /* @teleloc 0x01100284 [40.707300 -129.495000 9.626310] 0.904038 0.000000 0.000000 -0.427453 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x70110059, 0x7011004D, '2005-02-09 10:00:00') /* Pressure Plate */;
+VALUES (0x70110059, 0x7011004D, '2005-02-09 10:00:00') /* Pressure Plate (2131) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7011005A,  4065, 0x01100284, 39.6107, -130.237, 9.62632, 0.894133, 0, 0, -0.447801, False, '2005-02-09 10:00:00'); /* Lightning Trap */
 /* @teleloc 0x01100284 [39.610700 -130.237000 9.626320] 0.894133 0.000000 0.000000 -0.447801 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7011005A, 0x7011004E, '2005-02-09 10:00:00') /* Pressure Plate */;
+VALUES (0x7011005A, 0x7011004E, '2005-02-09 10:00:00') /* Pressure Plate (2131) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7011005B,  4065, 0x01100284, 40.5949, -130.257, 9.63969, 0.657206, 0, 0, -0.753711, False, '2005-02-09 10:00:00'); /* Lightning Trap */
 /* @teleloc 0x01100284 [40.594900 -130.257000 9.639690] 0.657206 0.000000 0.000000 -0.753711 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7011005B, 0x7011004F, '2005-02-09 10:00:00') /* Pressure Plate */;
+VALUES (0x7011005B, 0x7011004F, '2005-02-09 10:00:00') /* Pressure Plate (2131) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7011005C,  6122, 0x0110028A, 40, -140, 12.005, 1, 0, 0, 0, False, '2005-02-09 10:00:00'); /* Acid */
@@ -554,80 +554,80 @@ VALUES (0x70110075,  3955, 0x011002DD, 40, -210, 24.005, 1, 0, 0, 0, False, '200
 /* @teleloc 0x011002DD [40.000000 -210.000000 24.005000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x70110075, 0x70110000, '2005-02-09 10:00:00') /* Shadow Lieutenant */
-     , (0x70110075, 0x70110001, '2005-02-09 10:00:00') /* Panumbris Shadow */
-     , (0x70110075, 0x70110002, '2005-02-09 10:00:00') /* Shadow Lieutenant */
-     , (0x70110075, 0x70110003, '2005-02-09 10:00:00') /* Shadow Lieutenant */
-     , (0x70110075, 0x7011000A, '2005-02-09 10:00:00') /* Umbris Shadow */
-     , (0x70110075, 0x7011000B, '2005-02-09 10:00:00') /* Panumbris Shadow */
-     , (0x70110075, 0x7011000C, '2005-02-09 10:00:00') /* Panumbris Shadow */
-     , (0x70110075, 0x70110016, '2005-02-09 10:00:00') /* Shadow Lieutenant */
-     , (0x70110075, 0x70110017, '2005-02-09 10:00:00') /* Shadow Lieutenant */
-     , (0x70110075, 0x70110018, '2005-02-09 10:00:00') /* Shadow Lieutenant */
-     , (0x70110075, 0x70110022, '2005-02-09 10:00:00') /* Panumbris Shadow */
-     , (0x70110075, 0x7011002C, '2005-02-09 10:00:00') /* Panumbris Shadow */
-     , (0x70110075, 0x7011002D, '2005-02-09 10:00:00') /* Shadow Lieutenant */
-     , (0x70110075, 0x7011002E, '2005-02-09 10:00:00') /* Panumbris Shadow */
-     , (0x70110075, 0x7011002F, '2005-02-09 10:00:00') /* Shadow Lieutenant */
-     , (0x70110075, 0x70110030, '2005-02-09 10:00:00') /* Shadow Lieutenant */
-     , (0x70110075, 0x70110031, '2005-02-09 10:00:00') /* Shadow Lieutenant */
-     , (0x70110075, 0x70110032, '2005-02-09 10:00:00') /* Shadow Lieutenant */
-     , (0x70110075, 0x70110033, '2005-02-09 10:00:00') /* Panumbris Shadow */
-     , (0x70110075, 0x70110034, '2005-02-09 10:00:00') /* Panumbris Shadow */
-     , (0x70110075, 0x70110035, '2005-02-09 10:00:00') /* Panumbris Shadow */
-     , (0x70110075, 0x7011003F, '2005-02-09 10:00:00') /* Panumbris Shadow */
-     , (0x70110075, 0x70110040, '2005-02-09 10:00:00') /* Shadow Lieutenant */
-     , (0x70110075, 0x70110041, '2005-02-09 10:00:00') /* Shadow Lieutenant */
-     , (0x70110075, 0x70110042, '2005-02-09 10:00:00') /* Shadow Lieutenant */
-     , (0x70110075, 0x70110043, '2005-02-09 10:00:00') /* Panumbris Shadow */
-     , (0x70110075, 0x70110045, '2005-02-09 10:00:00') /* Panumbris Shadow */
-     , (0x70110075, 0x70110046, '2005-02-09 10:00:00') /* Panumbris Shadow */
-     , (0x70110075, 0x70110050, '2005-02-09 10:00:00') /* Panumbris Shadow */
-     , (0x70110075, 0x70110051, '2005-02-09 10:00:00') /* Shadow Lieutenant */
-     , (0x70110075, 0x70110052, '2005-02-09 10:00:00') /* Shadow Lieutenant */
-     , (0x70110075, 0x7011005E, '2005-02-09 10:00:00') /* Shadow */
-     , (0x70110075, 0x7011005F, '2005-02-09 10:00:00') /* Shadow */
-     , (0x70110075, 0x70110060, '2005-02-09 10:00:00') /* Shadow */
-     , (0x70110075, 0x70110061, '2005-02-09 10:00:00') /* Shadow Lieutenant */
-     , (0x70110075, 0x70110062, '2005-02-09 10:00:00') /* Shadow Lieutenant */
-     , (0x70110075, 0x70110063, '2005-02-09 10:00:00') /* Shadow Lieutenant */
-     , (0x70110075, 0x70110064, '2005-02-09 10:00:00') /* Shadow Lieutenant */
-     , (0x70110075, 0x70110065, '2005-02-09 10:00:00') /* Shadow */
-     , (0x70110075, 0x70110066, '2005-02-09 10:00:00') /* Shadow */
-     , (0x70110075, 0x70110067, '2005-02-09 10:00:00') /* Shadow Lieutenant */
-     , (0x70110075, 0x70110068, '2005-02-09 10:00:00') /* Revenant */
-     , (0x70110075, 0x70110069, '2005-02-09 10:00:00') /* Revenant */
-     , (0x70110075, 0x7011006A, '2005-02-09 10:00:00') /* Dark Revenant */
-     , (0x70110075, 0x7011006D, '2005-02-09 10:00:00') /* Dark Revenant */
-     , (0x70110075, 0x7011006E, '2005-02-09 10:00:00') /* Dark Revenant */
-     , (0x70110075, 0x70110070, '2005-02-09 10:00:00') /* Revenant */
-     , (0x70110075, 0x70110071, '2005-02-09 10:00:00') /* Revenant */
-     , (0x70110075, 0x70110072, '2005-02-09 10:00:00') /* Revenant */
-     , (0x70110075, 0x70110073, '2005-02-09 10:00:00') /* Revenant */
-     , (0x70110075, 0x70110074, '2005-02-09 10:00:00') /* Revenant */
-     , (0x70110075, 0x7011007B, '2005-02-09 10:00:00') /* Revenant */
-     , (0x70110075, 0x7011007C, '2005-02-09 10:00:00') /* Revenant */
-     , (0x70110075, 0x7011007D, '2005-02-09 10:00:00') /* Revenant */
-     , (0x70110075, 0x7011007E, '2005-02-09 10:00:00') /* Revenant */
-     , (0x70110075, 0x7011007F, '2005-02-09 10:00:00') /* Revenant */;
+VALUES (0x70110075, 0x70110000, '2005-02-09 10:00:00') /* Shadow Lieutenant (1757) */
+     , (0x70110075, 0x70110001, '2005-02-09 10:00:00') /* Panumbris Shadow (4253) */
+     , (0x70110075, 0x70110002, '2005-02-09 10:00:00') /* Shadow Lieutenant (1757) */
+     , (0x70110075, 0x70110003, '2005-02-09 10:00:00') /* Shadow Lieutenant (1757) */
+     , (0x70110075, 0x7011000A, '2005-02-09 10:00:00') /* Umbris Shadow (4254) */
+     , (0x70110075, 0x7011000B, '2005-02-09 10:00:00') /* Panumbris Shadow (4253) */
+     , (0x70110075, 0x7011000C, '2005-02-09 10:00:00') /* Panumbris Shadow (4253) */
+     , (0x70110075, 0x70110016, '2005-02-09 10:00:00') /* Shadow Lieutenant (1757) */
+     , (0x70110075, 0x70110017, '2005-02-09 10:00:00') /* Shadow Lieutenant (1757) */
+     , (0x70110075, 0x70110018, '2005-02-09 10:00:00') /* Shadow Lieutenant (1757) */
+     , (0x70110075, 0x70110022, '2005-02-09 10:00:00') /* Panumbris Shadow (4253) */
+     , (0x70110075, 0x7011002C, '2005-02-09 10:00:00') /* Panumbris Shadow (4253) */
+     , (0x70110075, 0x7011002D, '2005-02-09 10:00:00') /* Shadow Lieutenant (1757) */
+     , (0x70110075, 0x7011002E, '2005-02-09 10:00:00') /* Panumbris Shadow (4253) */
+     , (0x70110075, 0x7011002F, '2005-02-09 10:00:00') /* Shadow Lieutenant (1757) */
+     , (0x70110075, 0x70110030, '2005-02-09 10:00:00') /* Shadow Lieutenant (1757) */
+     , (0x70110075, 0x70110031, '2005-02-09 10:00:00') /* Shadow Lieutenant (1757) */
+     , (0x70110075, 0x70110032, '2005-02-09 10:00:00') /* Shadow Lieutenant (1757) */
+     , (0x70110075, 0x70110033, '2005-02-09 10:00:00') /* Panumbris Shadow (4253) */
+     , (0x70110075, 0x70110034, '2005-02-09 10:00:00') /* Panumbris Shadow (4253) */
+     , (0x70110075, 0x70110035, '2005-02-09 10:00:00') /* Panumbris Shadow (4253) */
+     , (0x70110075, 0x7011003F, '2005-02-09 10:00:00') /* Panumbris Shadow (4253) */
+     , (0x70110075, 0x70110040, '2005-02-09 10:00:00') /* Shadow Lieutenant (1757) */
+     , (0x70110075, 0x70110041, '2005-02-09 10:00:00') /* Shadow Lieutenant (1757) */
+     , (0x70110075, 0x70110042, '2005-02-09 10:00:00') /* Shadow Lieutenant (1757) */
+     , (0x70110075, 0x70110043, '2005-02-09 10:00:00') /* Panumbris Shadow (4253) */
+     , (0x70110075, 0x70110045, '2005-02-09 10:00:00') /* Panumbris Shadow (4253) */
+     , (0x70110075, 0x70110046, '2005-02-09 10:00:00') /* Panumbris Shadow (4253) */
+     , (0x70110075, 0x70110050, '2005-02-09 10:00:00') /* Panumbris Shadow (4253) */
+     , (0x70110075, 0x70110051, '2005-02-09 10:00:00') /* Shadow Lieutenant (1757) */
+     , (0x70110075, 0x70110052, '2005-02-09 10:00:00') /* Shadow Lieutenant (1757) */
+     , (0x70110075, 0x7011005E, '2005-02-09 10:00:00') /* Shadow (1758) */
+     , (0x70110075, 0x7011005F, '2005-02-09 10:00:00') /* Shadow (1758) */
+     , (0x70110075, 0x70110060, '2005-02-09 10:00:00') /* Shadow (1758) */
+     , (0x70110075, 0x70110061, '2005-02-09 10:00:00') /* Shadow Lieutenant (1757) */
+     , (0x70110075, 0x70110062, '2005-02-09 10:00:00') /* Shadow Lieutenant (1757) */
+     , (0x70110075, 0x70110063, '2005-02-09 10:00:00') /* Shadow Lieutenant (1757) */
+     , (0x70110075, 0x70110064, '2005-02-09 10:00:00') /* Shadow Lieutenant (1757) */
+     , (0x70110075, 0x70110065, '2005-02-09 10:00:00') /* Shadow (1758) */
+     , (0x70110075, 0x70110066, '2005-02-09 10:00:00') /* Shadow (1758) */
+     , (0x70110075, 0x70110067, '2005-02-09 10:00:00') /* Shadow Lieutenant (1757) */
+     , (0x70110075, 0x70110068, '2005-02-09 10:00:00') /* Revenant (619) */
+     , (0x70110075, 0x70110069, '2005-02-09 10:00:00') /* Revenant (619) */
+     , (0x70110075, 0x7011006A, '2005-02-09 10:00:00') /* Dark Revenant (4217) */
+     , (0x70110075, 0x7011006D, '2005-02-09 10:00:00') /* Dark Revenant (4217) */
+     , (0x70110075, 0x7011006E, '2005-02-09 10:00:00') /* Dark Revenant (4217) */
+     , (0x70110075, 0x70110070, '2005-02-09 10:00:00') /* Revenant (619) */
+     , (0x70110075, 0x70110071, '2005-02-09 10:00:00') /* Revenant (619) */
+     , (0x70110075, 0x70110072, '2005-02-09 10:00:00') /* Revenant (619) */
+     , (0x70110075, 0x70110073, '2005-02-09 10:00:00') /* Revenant (619) */
+     , (0x70110075, 0x70110074, '2005-02-09 10:00:00') /* Revenant (619) */
+     , (0x70110075, 0x7011007B, '2005-02-09 10:00:00') /* Revenant (619) */
+     , (0x70110075, 0x7011007C, '2005-02-09 10:00:00') /* Revenant (619) */
+     , (0x70110075, 0x7011007D, '2005-02-09 10:00:00') /* Revenant (619) */
+     , (0x70110075, 0x7011007E, '2005-02-09 10:00:00') /* Revenant (619) */
+     , (0x70110075, 0x7011007F, '2005-02-09 10:00:00') /* Revenant (619) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x70110076,  3954, 0x011002DD, 40, -212.087, 24.005, 1, 0, 0, 0, False, '2005-02-09 10:00:00'); /* Linkable Item Gen (15 min.) */
 /* @teleloc 0x011002DD [40.000000 -212.087000 24.005000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x70110076, 0x70110079, '2005-02-09 10:00:00') /* Adventurer's warning */;
+VALUES (0x70110076, 0x70110079, '2005-02-09 10:00:00') /* Adventurer's warning (6812) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x70110077,  7923, 0x011002DD, 38.8125, -210.424, 24.005, 0.0109672, 0, 0, -0.99994, False, '2005-02-09 10:00:00'); /* Linkable Monster Generator ( 3 Min.) */
 /* @teleloc 0x011002DD [38.812500 -210.424000 24.005000] 0.010967 0.000000 0.000000 -0.999940 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x70110077, 0x70110005, '2005-02-09 10:00:00') /* Nexus Fragment */
-     , (0x70110077, 0x70110006, '2005-02-09 10:00:00') /* Nexus Fragment */
-     , (0x70110077, 0x70110007, '2005-02-09 10:00:00') /* Nexus Fragment */
-     , (0x70110077, 0x7011006C, '2005-02-09 10:00:00') /* Dark Revenant */
-     , (0x70110077, 0x7011006F, '2005-02-09 10:00:00') /* Dark Revenant */;
+VALUES (0x70110077, 0x70110005, '2005-02-09 10:00:00') /* Nexus Fragment (6806) */
+     , (0x70110077, 0x70110006, '2005-02-09 10:00:00') /* Nexus Fragment (6806) */
+     , (0x70110077, 0x70110007, '2005-02-09 10:00:00') /* Nexus Fragment (6806) */
+     , (0x70110077, 0x7011006C, '2005-02-09 10:00:00') /* Dark Revenant (4217) */
+     , (0x70110077, 0x7011006F, '2005-02-09 10:00:00') /* Dark Revenant (4217) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x70110078,   278, 0x011002DE, 40, -225, 24.005, 0, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Door */

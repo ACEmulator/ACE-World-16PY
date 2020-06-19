@@ -9,9 +9,9 @@ VALUES (0x7B96F064,  7924, 0xB96F0000, 91.976, 118.847, 10.005, 0.518971, 0, 0, 
 /* @teleloc 0xB96F0000 [91.976000 118.847000 10.005000] 0.518971 0.000000 0.000000 0.854792 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B96F064, 0x7B96F065, '2005-02-09 10:00:00') /* Emissary of Asheron */
-     , (0x7B96F064, 0x7B96F066, '2005-02-09 10:00:00') /* Vincadi */
-     , (0x7B96F064, 0x7B96F067, '2005-02-09 10:00:00') /* Issk */;
+VALUES (0x7B96F064, 0x7B96F065, '2005-02-09 10:00:00') /* Emissary of Asheron (21136) */
+     , (0x7B96F064, 0x7B96F066, '2005-02-09 10:00:00') /* Vincadi (24859) */
+     , (0x7B96F064, 0x7B96F067, '2005-02-09 10:00:00') /* Issk (24858) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B96F065, 21136, 0xB96F0000, 94.8979, 109.443, 10.005, -0.684872, 0, 0, 0.728663,  True, '2005-02-09 10:00:00'); /* Emissary of Asheron */

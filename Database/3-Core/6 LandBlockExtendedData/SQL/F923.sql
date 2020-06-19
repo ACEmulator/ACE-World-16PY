@@ -29,13 +29,13 @@ VALUES (0x7F923006,  4219, 0xF9230000, 100.642, 164.688, 22.005, -0.99944, 0, 0,
 /* @teleloc 0xF9230000 [100.642000 164.688000 22.005000] -0.999440 0.000000 0.000000 0.033466 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7F923006, 0x7F923000, '2005-02-09 10:00:00') /* Dark Leech */
-     , (0x7F923006, 0x7F923001, '2005-02-09 10:00:00') /* Ulu Sclavus */
-     , (0x7F923006, 0x7F923002, '2005-02-09 10:00:00') /* Dark Leech */
-     , (0x7F923006, 0x7F923003, '2005-02-09 10:00:00') /* Dark Leech */
-     , (0x7F923006, 0x7F923004, '2005-02-09 10:00:00') /* Ulu Sclavus */
-     , (0x7F923006, 0x7F923005, '2005-02-09 10:00:00') /* Dark Leech */
-     , (0x7F923006, 0x7F923007, '2005-02-09 10:00:00') /* Sata Sclavus */;
+VALUES (0x7F923006, 0x7F923000, '2005-02-09 10:00:00') /* Dark Leech (7123) */
+     , (0x7F923006, 0x7F923001, '2005-02-09 10:00:00') /* Ulu Sclavus (7110) */
+     , (0x7F923006, 0x7F923002, '2005-02-09 10:00:00') /* Dark Leech (7123) */
+     , (0x7F923006, 0x7F923003, '2005-02-09 10:00:00') /* Dark Leech (7123) */
+     , (0x7F923006, 0x7F923004, '2005-02-09 10:00:00') /* Ulu Sclavus (7110) */
+     , (0x7F923006, 0x7F923005, '2005-02-09 10:00:00') /* Dark Leech (7123) */
+     , (0x7F923006, 0x7F923007, '2005-02-09 10:00:00') /* Sata Sclavus (2586) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7F923007,  2586, 0xF9230000, 86.0622, 116.564, 22.005, 0.96376, 0, 0, -0.266772,  True, '2005-02-09 10:00:00'); /* Sata Sclavus */

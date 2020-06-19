@@ -9,7 +9,7 @@ VALUES (0x72484001,  1542, 0x24840102, 161.445, 80.5913, 339.205, 0.973412, 0, 0
 /* @teleloc 0x24840102 [161.445000 80.591300 339.205000] 0.973412 0.000000 0.000000 -0.229063 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72484001, 0x72484002, '2005-02-09 10:00:00') /* Reliable Lockpick */;
+VALUES (0x72484001, 0x72484002, '2005-02-09 10:00:00') /* Reliable Lockpick (545) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72484002,   545, 0x24840102, 160.722, 79.9802, 339.244, 0.973412, 0, 0, -0.229063,  True, '2005-02-09 10:00:00'); /* Reliable Lockpick */

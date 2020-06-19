@@ -21,10 +21,10 @@ VALUES (0x717B2004,  5086, 0x17B2010E, 127.03, 54.5464, 41.205, 0.765243, 0, 0, 
 /* @teleloc 0x17B2010E [127.030000 54.546400 41.205000] 0.765243 0.000000 0.000000 0.643742 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x717B2004, 0x717B2003, '2005-02-09 10:00:00') /* Ling Xiao the Collector */
-     , (0x717B2004, 0x717B2007, '2005-02-09 10:00:00') /* Behdo Yii */
-     , (0x717B2004, 0x717B200F, '2005-02-09 10:00:00') /* Town Crier */
-     , (0x717B2004, 0x717B2010, '2005-02-09 10:00:00') /* Bachus Flufens */;
+VALUES (0x717B2004, 0x717B2003, '2005-02-09 10:00:00') /* Ling Xiao the Collector (11347) */
+     , (0x717B2004, 0x717B2007, '2005-02-09 10:00:00') /* Behdo Yii (10842) */
+     , (0x717B2004, 0x717B200F, '2005-02-09 10:00:00') /* Town Crier (5772) */
+     , (0x717B2004, 0x717B2010, '2005-02-09 10:00:00') /* Bachus Flufens (11322) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x717B2005, 11399, 0x17B2011D, 153.693, 37.4657, 43.705, -0.898376, 0, 0, -0.439227, False, '2005-02-09 10:00:00'); /* Leyrale Shalorn the Tailor */

@@ -33,16 +33,16 @@ VALUES (0x7B68B007,  1154, 0xB68B0000, 82.4416, 83.007, 80.005, 0.956191, 0, 0, 
 /* @teleloc 0xB68B0000 [82.441600 83.007000 80.005000] 0.956191 0.000000 0.000000 -0.292743 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B68B007, 0x7B68B000, '2005-02-09 10:00:00') /* Wood Golem */
-     , (0x7B68B007, 0x7B68B001, '2005-02-09 10:00:00') /* Wood Golem */
-     , (0x7B68B007, 0x7B68B002, '2005-02-09 10:00:00') /* Wood Golem */
-     , (0x7B68B007, 0x7B68B003, '2005-02-09 10:00:00') /* Wood Golem */;
+VALUES (0x7B68B007, 0x7B68B000, '2005-02-09 10:00:00') /* Wood Golem (942) */
+     , (0x7B68B007, 0x7B68B001, '2005-02-09 10:00:00') /* Wood Golem (942) */
+     , (0x7B68B007, 0x7B68B002, '2005-02-09 10:00:00') /* Wood Golem (942) */
+     , (0x7B68B007, 0x7B68B003, '2005-02-09 10:00:00') /* Wood Golem (942) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B68B008,  1542, 0xB68B0000, 84.9983, 86.802, 80.3217, 0.956191, 0, 0, -0.292743, False, '2005-02-09 10:00:00'); /* Linkable Item Generator */
 /* @teleloc 0xB68B0000 [84.998300 86.802000 80.321700] 0.956191 0.000000 0.000000 -0.292743 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B68B008, 0x7B68B004, '2005-02-09 10:00:00') /* Gypsum */
-     , (0x7B68B008, 0x7B68B005, '2005-02-09 10:00:00') /* Powdered Agate */
-     , (0x7B68B008, 0x7B68B006, '2005-02-09 10:00:00') /* Comfrey */;
+VALUES (0x7B68B008, 0x7B68B004, '2005-02-09 10:00:00') /* Gypsum (758) */
+     , (0x7B68B008, 0x7B68B005, '2005-02-09 10:00:00') /* Powdered Agate (782) */
+     , (0x7B68B008, 0x7B68B006, '2005-02-09 10:00:00') /* Comfrey (767) */;

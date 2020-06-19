@@ -81,7 +81,7 @@ VALUES (0x70140013,  2180, 0x01400188, 70, -80.2, -12, -4.37114E-08, 0, 0, -1, F
 /* @teleloc 0x01400188 [70.000000 -80.200000 -12.000000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x70140013, 0x70140017, '2005-02-09 10:00:00') /* Lever */;
+VALUES (0x70140013, 0x70140017, '2005-02-09 10:00:00') /* Lever (2609) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x70140014,    23, 0x0140018B, 70.321, -97.551, -11.971, 0.573577, 0, 0, -0.819152,  True, '2005-02-09 10:00:00'); /* Virindi Servant */
@@ -104,14 +104,14 @@ VALUES (0x70140018,  2179, 0x0140018F, 90, -91.752, -12, -4.37114E-08, 0, 0, -1,
 /* @teleloc 0x0140018F [90.000000 -91.752000 -12.000000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x70140018, 0x70140048, '2005-02-09 10:00:00') /* Lever */;
+VALUES (0x70140018, 0x70140048, '2005-02-09 10:00:00') /* Lever (286) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x70140019,  2180, 0x01400193, 90, -106.924, -12, 0, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Door */
 /* @teleloc 0x01400193 [90.000000 -106.924000 -12.000000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x70140019, 0x7014002E, '2005-02-09 10:00:00') /* Lever */;
+VALUES (0x70140019, 0x7014002E, '2005-02-09 10:00:00') /* Lever (2609) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7014001A,    23, 0x01400194, 101.165, -91.9073, -11.971, -0.258819, 0, 0, -0.965926,  True, '2005-02-09 10:00:00'); /* Virindi Servant */
@@ -138,7 +138,7 @@ VALUES (0x7014001F,  2179, 0x014001A7, 120, -86.238, -12, 0, 0, 0, -1, False, '2
 /* @teleloc 0x014001A7 [120.000000 -86.238000 -12.000000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7014001F, 0x70140046, '2005-02-09 10:00:00') /* Lever */;
+VALUES (0x7014001F, 0x70140046, '2005-02-09 10:00:00') /* Lever (2609) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x70140020,  2609, 0x014001A8, 20.168, -102.756, -6, 1, 0, 0, 0,  True, '2005-02-09 10:00:00'); /* Lever */
@@ -205,7 +205,7 @@ VALUES (0x7014002F,  2179, 0x014001D6, 60, -105.25, -6, -1, 0, 0, 0, False, '200
 /* @teleloc 0x014001D6 [60.000000 -105.250000 -6.000000] -1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7014002F, 0x7014002B, '2005-02-09 10:00:00') /* Lever */;
+VALUES (0x7014002F, 0x7014002B, '2005-02-09 10:00:00') /* Lever (2609) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x70140030,    23, 0x014001D8, 68.3463, -28.417, -5.971, -0.369443, 0, 0, -0.929253,  True, '2005-02-09 10:00:00'); /* Virindi Servant */
@@ -220,8 +220,8 @@ VALUES (0x70140032,  2179, 0x014001F0, 30, -50, 0, 1, 0, 0, -4.37114E-08, False,
 /* @teleloc 0x014001F0 [30.000000 -50.000000 0.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x70140032, 0x70140034, '2005-02-09 10:00:00') /* Lever */
-     , (0x70140032, 0x70140042, '2005-02-09 10:00:00') /* Lever */;
+VALUES (0x70140032, 0x70140034, '2005-02-09 10:00:00') /* Lever (286) */
+     , (0x70140032, 0x70140042, '2005-02-09 10:00:00') /* Lever (2609) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x70140033,    23, 0x014001F1, 30.078, -47.559, 0.029, 1, 0, 0, -4.37114E-08,  True, '2005-02-09 10:00:00'); /* Virindi Servant */
@@ -240,53 +240,53 @@ VALUES (0x70140036,  3955, 0x01400209, 50, -10, 0, 1, 0, 0, 0, False, '2005-02-0
 /* @teleloc 0x01400209 [50.000000 -10.000000 0.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x70140036, 0x70140000, '2005-02-09 10:00:00') /* Virindi Puppet */
-     , (0x70140036, 0x70140002, '2005-02-09 10:00:00') /* Virindi Puppet */
-     , (0x70140036, 0x70140003, '2005-02-09 10:00:00') /* Virindi Puppet */
-     , (0x70140036, 0x70140004, '2005-02-09 10:00:00') /* Virindi Puppet */
-     , (0x70140036, 0x70140005, '2005-02-09 10:00:00') /* Virindi Puppet */
-     , (0x70140036, 0x70140006, '2005-02-09 10:00:00') /* Virindi Puppet */
-     , (0x70140036, 0x70140009, '2005-02-09 10:00:00') /* Virindi Puppet */
-     , (0x70140036, 0x7014000A, '2005-02-09 10:00:00') /* Virindi Puppet */
-     , (0x70140036, 0x7014000C, '2005-02-09 10:00:00') /* Virindi Puppet */
-     , (0x70140036, 0x7014000D, '2005-02-09 10:00:00') /* Virindi Puppet */
-     , (0x70140036, 0x7014000E, '2005-02-09 10:00:00') /* Zofrit Zefir */
-     , (0x70140036, 0x7014000F, '2005-02-09 10:00:00') /* Virindi Puppet */
-     , (0x70140036, 0x70140011, '2005-02-09 10:00:00') /* Virindi Puppet */
-     , (0x70140036, 0x70140012, '2005-02-09 10:00:00') /* Virindi Puppet */
-     , (0x70140036, 0x70140014, '2005-02-09 10:00:00') /* Virindi Servant */
-     , (0x70140036, 0x70140016, '2005-02-09 10:00:00') /* Tusker Slave */
-     , (0x70140036, 0x7014001A, '2005-02-09 10:00:00') /* Virindi Servant */
-     , (0x70140036, 0x7014001C, '2005-02-09 10:00:00') /* Tusker Slave */
-     , (0x70140036, 0x70140021, '2005-02-09 10:00:00') /* Tusker Slave */
-     , (0x70140036, 0x70140022, '2005-02-09 10:00:00') /* Virindi Servant */
-     , (0x70140036, 0x70140024, '2005-02-09 10:00:00') /* Virindi Servant */
-     , (0x70140036, 0x70140025, '2005-02-09 10:00:00') /* Tusker Guard */
-     , (0x70140036, 0x70140027, '2005-02-09 10:00:00') /* Virindi Servant */
-     , (0x70140036, 0x70140028, '2005-02-09 10:00:00') /* Virindi Servant */
-     , (0x70140036, 0x70140029, '2005-02-09 10:00:00') /* Virindi Master */
-     , (0x70140036, 0x7014002A, '2005-02-09 10:00:00') /* Tusker Slave */
-     , (0x70140036, 0x7014002C, '2005-02-09 10:00:00') /* Virindi Servant */
-     , (0x70140036, 0x7014002D, '2005-02-09 10:00:00') /* Tusker Guard */
-     , (0x70140036, 0x70140030, '2005-02-09 10:00:00') /* Virindi Servant */
-     , (0x70140036, 0x70140031, '2005-02-09 10:00:00') /* Kilif Zefir */
-     , (0x70140036, 0x70140033, '2005-02-09 10:00:00') /* Virindi Servant */
-     , (0x70140036, 0x70140038, '2005-02-09 10:00:00') /* Kilif Zefir */
-     , (0x70140036, 0x70140039, '2005-02-09 10:00:00') /* Virindi Servant */
-     , (0x70140036, 0x7014003D, '2005-02-09 10:00:00') /* Tusker Slave */
-     , (0x70140036, 0x7014003F, '2005-02-09 10:00:00') /* Virindi Master */
-     , (0x70140036, 0x70140040, '2005-02-09 10:00:00') /* Virindi Master */
-     , (0x70140036, 0x70140041, '2005-02-09 10:00:00') /* Tusker Slave */
-     , (0x70140036, 0x70140045, '2005-02-09 10:00:00') /* Virindi Puppet */
-     , (0x70140036, 0x70140047, '2005-02-09 10:00:00') /* Virindi Puppet */;
+VALUES (0x70140036, 0x70140000, '2005-02-09 10:00:00') /* Virindi Puppet (238) */
+     , (0x70140036, 0x70140002, '2005-02-09 10:00:00') /* Virindi Puppet (238) */
+     , (0x70140036, 0x70140003, '2005-02-09 10:00:00') /* Virindi Puppet (238) */
+     , (0x70140036, 0x70140004, '2005-02-09 10:00:00') /* Virindi Puppet (238) */
+     , (0x70140036, 0x70140005, '2005-02-09 10:00:00') /* Virindi Puppet (238) */
+     , (0x70140036, 0x70140006, '2005-02-09 10:00:00') /* Virindi Puppet (238) */
+     , (0x70140036, 0x70140009, '2005-02-09 10:00:00') /* Virindi Puppet (238) */
+     , (0x70140036, 0x7014000A, '2005-02-09 10:00:00') /* Virindi Puppet (238) */
+     , (0x70140036, 0x7014000C, '2005-02-09 10:00:00') /* Virindi Puppet (238) */
+     , (0x70140036, 0x7014000D, '2005-02-09 10:00:00') /* Virindi Puppet (238) */
+     , (0x70140036, 0x7014000E, '2005-02-09 10:00:00') /* Zofrit Zefir (2611) */
+     , (0x70140036, 0x7014000F, '2005-02-09 10:00:00') /* Virindi Puppet (238) */
+     , (0x70140036, 0x70140011, '2005-02-09 10:00:00') /* Virindi Puppet (238) */
+     , (0x70140036, 0x70140012, '2005-02-09 10:00:00') /* Virindi Puppet (238) */
+     , (0x70140036, 0x70140014, '2005-02-09 10:00:00') /* Virindi Servant (23) */
+     , (0x70140036, 0x70140016, '2005-02-09 10:00:00') /* Tusker Slave (1628) */
+     , (0x70140036, 0x7014001A, '2005-02-09 10:00:00') /* Virindi Servant (23) */
+     , (0x70140036, 0x7014001C, '2005-02-09 10:00:00') /* Tusker Slave (1628) */
+     , (0x70140036, 0x70140021, '2005-02-09 10:00:00') /* Tusker Slave (1628) */
+     , (0x70140036, 0x70140022, '2005-02-09 10:00:00') /* Virindi Servant (23) */
+     , (0x70140036, 0x70140024, '2005-02-09 10:00:00') /* Virindi Servant (23) */
+     , (0x70140036, 0x70140025, '2005-02-09 10:00:00') /* Tusker Guard (1629) */
+     , (0x70140036, 0x70140027, '2005-02-09 10:00:00') /* Virindi Servant (23) */
+     , (0x70140036, 0x70140028, '2005-02-09 10:00:00') /* Virindi Servant (23) */
+     , (0x70140036, 0x70140029, '2005-02-09 10:00:00') /* Virindi Master (237) */
+     , (0x70140036, 0x7014002A, '2005-02-09 10:00:00') /* Tusker Slave (1628) */
+     , (0x70140036, 0x7014002C, '2005-02-09 10:00:00') /* Virindi Servant (23) */
+     , (0x70140036, 0x7014002D, '2005-02-09 10:00:00') /* Tusker Guard (1629) */
+     , (0x70140036, 0x70140030, '2005-02-09 10:00:00') /* Virindi Servant (23) */
+     , (0x70140036, 0x70140031, '2005-02-09 10:00:00') /* Kilif Zefir (2610) */
+     , (0x70140036, 0x70140033, '2005-02-09 10:00:00') /* Virindi Servant (23) */
+     , (0x70140036, 0x70140038, '2005-02-09 10:00:00') /* Kilif Zefir (2610) */
+     , (0x70140036, 0x70140039, '2005-02-09 10:00:00') /* Virindi Servant (23) */
+     , (0x70140036, 0x7014003D, '2005-02-09 10:00:00') /* Tusker Slave (1628) */
+     , (0x70140036, 0x7014003F, '2005-02-09 10:00:00') /* Virindi Master (237) */
+     , (0x70140036, 0x70140040, '2005-02-09 10:00:00') /* Virindi Master (237) */
+     , (0x70140036, 0x70140041, '2005-02-09 10:00:00') /* Tusker Slave (1628) */
+     , (0x70140036, 0x70140045, '2005-02-09 10:00:00') /* Virindi Puppet (238) */
+     , (0x70140036, 0x70140047, '2005-02-09 10:00:00') /* Virindi Puppet (238) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x70140037,  2179, 0x01400221, 70, -50, 0, 1, 0, 0, -4.37114E-08, False, '2005-02-09 10:00:00'); /* Door */
 /* @teleloc 0x01400221 [70.000000 -50.000000 0.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x70140037, 0x7014003A, '2005-02-09 10:00:00') /* Lever */
-     , (0x70140037, 0x7014003B, '2005-02-09 10:00:00') /* Lever */;
+VALUES (0x70140037, 0x7014003A, '2005-02-09 10:00:00') /* Lever (286) */
+     , (0x70140037, 0x7014003B, '2005-02-09 10:00:00') /* Lever (2609) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x70140038,  2610, 0x01400222, 71.5975, -45.4519, 0.06, 1, 0, 0, -4.37114E-08,  True, '2005-02-09 10:00:00'); /* Kilif Zefir */
@@ -317,8 +317,8 @@ VALUES (0x7014003E,  2179, 0x01400236, 15.5, 0, 6, 0.707107, 0, 0, -0.707107, Fa
 /* @teleloc 0x01400236 [15.500000 0.000000 6.000000] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7014003E, 0x70140020, '2005-02-09 10:00:00') /* Lever */
-     , (0x7014003E, 0x7014003C, '2005-02-09 10:00:00') /* Lever */;
+VALUES (0x7014003E, 0x70140020, '2005-02-09 10:00:00') /* Lever (2609) */
+     , (0x7014003E, 0x7014003C, '2005-02-09 10:00:00') /* Lever (286) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7014003F,   237, 0x01400243, 60, -90, 6.029, 0.707107, 0, 0, -0.707107,  True, '2005-02-09 10:00:00'); /* Virindi Master */
@@ -345,8 +345,8 @@ VALUES (0x70140044,  2179, 0x01400252, 85.2516, 0.0132782, 6, -0.707107, 0, 0, -
 /* @teleloc 0x01400252 [85.251600 0.013278 6.000000] -0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x70140044, 0x70140023, '2005-02-09 10:00:00') /* Lever */
-     , (0x70140044, 0x70140043, '2005-02-09 10:00:00') /* Lever */;
+VALUES (0x70140044, 0x70140023, '2005-02-09 10:00:00') /* Lever (2609) */
+     , (0x70140044, 0x70140043, '2005-02-09 10:00:00') /* Lever (286) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x70140045,   238, 0x01400255, 89.886, -98.642, 6.029, -0.707107, 0, 0, -0.707107,  True, '2005-02-09 10:00:00'); /* Virindi Puppet */

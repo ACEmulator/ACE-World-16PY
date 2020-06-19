@@ -121,7 +121,7 @@ VALUES (0x7564601E, 15759, 0x56460140, 189.815, -51.4248, -41.995, 0.877851, 0, 
 /* @teleloc 0x56460140 [189.815000 -51.424800 -41.995000] 0.877851 0.000000 0.000000 -0.478934 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7564601E, 0x7564601D, '2005-02-09 10:00:00') /* A Note from Tamian Wilmot */;
+VALUES (0x7564601E, 0x7564601D, '2005-02-09 10:00:00') /* A Note from Tamian Wilmot (23355) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7564601F, 20632, 0x56460147, 10, -20, -35.995, 0.852525, 0, 0, -0.522687,  True, '2005-02-09 10:00:00'); /* Champion of the Blood */
@@ -260,71 +260,71 @@ VALUES (0x75646044, 15759, 0x564601D6, 28.114, -231.68, 0.005, 0.999295, 0, 0, 0
 /* @teleloc 0x564601D6 [28.114000 -231.680000 0.005000] 0.999295 0.000000 0.000000 0.037530 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x75646044, 0x75646043, '2005-02-09 10:00:00') /* A Note from Tamian Wilmot */;
+VALUES (0x75646044, 0x75646043, '2005-02-09 10:00:00') /* A Note from Tamian Wilmot (23354) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75646045,  7923, 0x564601DC, 28.1102, -248.891, 0.005, 0.995475, 0, 0, 0.095023, False, '2005-02-09 10:00:00'); /* Linkable Monster Generator ( 3 Min.) */
 /* @teleloc 0x564601DC [28.110200 -248.891000 0.005000] 0.995475 0.000000 0.000000 0.095023 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x75646045, 0x75646003, '2005-02-09 10:00:00') /* Warlock of the Blood */
-     , (0x75646045, 0x75646004, '2005-02-09 10:00:00') /* Warlock of the Blood */
-     , (0x75646045, 0x75646005, '2005-02-09 10:00:00') /* Champion of the Blood */
-     , (0x75646045, 0x75646006, '2005-02-09 10:00:00') /* Champion of the Blood */
-     , (0x75646045, 0x75646007, '2005-02-09 10:00:00') /* Warlock of the Blood */
-     , (0x75646045, 0x75646008, '2005-02-09 10:00:00') /* Champion of the Blood */
-     , (0x75646045, 0x75646009, '2005-02-09 10:00:00') /* Champion of the Blood */
-     , (0x75646045, 0x7564600A, '2005-02-09 10:00:00') /* Warlock of the Blood */
-     , (0x75646045, 0x7564600B, '2005-02-09 10:00:00') /* Warlock of the Blood */
-     , (0x75646045, 0x7564600C, '2005-02-09 10:00:00') /* Warlock of the Blood */
-     , (0x75646045, 0x7564600D, '2005-02-09 10:00:00') /* Champion of the Blood */
-     , (0x75646045, 0x7564600E, '2005-02-09 10:00:00') /* Champion of the Blood */
-     , (0x75646045, 0x7564600F, '2005-02-09 10:00:00') /* Warlock of the Blood */
-     , (0x75646045, 0x75646010, '2005-02-09 10:00:00') /* Warlock of the Blood */
-     , (0x75646045, 0x75646011, '2005-02-09 10:00:00') /* Champion of the Blood */
-     , (0x75646045, 0x75646012, '2005-02-09 10:00:00') /* Warlock of the Blood */
-     , (0x75646045, 0x75646013, '2005-02-09 10:00:00') /* Warlock of the Blood */
-     , (0x75646045, 0x75646014, '2005-02-09 10:00:00') /* Warlock of the Blood */
-     , (0x75646045, 0x75646015, '2005-02-09 10:00:00') /* Warlock of the Blood */
-     , (0x75646045, 0x75646016, '2005-02-09 10:00:00') /* Champion of the Blood */
-     , (0x75646045, 0x75646017, '2005-02-09 10:00:00') /* Warlock of the Blood */
-     , (0x75646045, 0x75646018, '2005-02-09 10:00:00') /* Champion of the Blood */
-     , (0x75646045, 0x75646019, '2005-02-09 10:00:00') /* Warlock of the Blood */
-     , (0x75646045, 0x7564601A, '2005-02-09 10:00:00') /* Warlock of the Blood */
-     , (0x75646045, 0x7564601B, '2005-02-09 10:00:00') /* Champion of the Blood */
-     , (0x75646045, 0x7564601C, '2005-02-09 10:00:00') /* Champion of the Blood */
-     , (0x75646045, 0x7564601F, '2005-02-09 10:00:00') /* Champion of the Blood */
-     , (0x75646045, 0x75646020, '2005-02-09 10:00:00') /* Champion of the Blood */
-     , (0x75646045, 0x75646023, '2005-02-09 10:00:00') /* Warlock of the Blood */
-     , (0x75646045, 0x75646024, '2005-02-09 10:00:00') /* Champion of the Blood */
-     , (0x75646045, 0x75646025, '2005-02-09 10:00:00') /* Warlock of the Blood */
-     , (0x75646045, 0x75646026, '2005-02-09 10:00:00') /* Champion of the Blood */
-     , (0x75646045, 0x75646027, '2005-02-09 10:00:00') /* Warlock of the Blood */
-     , (0x75646045, 0x75646028, '2005-02-09 10:00:00') /* Warlock of the Blood */
-     , (0x75646045, 0x75646029, '2005-02-09 10:00:00') /* Warlock of the Blood */
-     , (0x75646045, 0x7564602A, '2005-02-09 10:00:00') /* Champion of the Blood */
-     , (0x75646045, 0x7564602B, '2005-02-09 10:00:00') /* Champion of the Blood */
-     , (0x75646045, 0x7564602C, '2005-02-09 10:00:00') /* Champion of the Blood */
-     , (0x75646045, 0x7564602D, '2005-02-09 10:00:00') /* Champion of the Blood */
-     , (0x75646045, 0x7564602E, '2005-02-09 10:00:00') /* Warlock of the Blood */
-     , (0x75646045, 0x7564602F, '2005-02-09 10:00:00') /* Champion of the Blood */
-     , (0x75646045, 0x75646030, '2005-02-09 10:00:00') /* Warlock of the Blood */
-     , (0x75646045, 0x75646031, '2005-02-09 10:00:00') /* Warlock of the Blood */
-     , (0x75646045, 0x75646032, '2005-02-09 10:00:00') /* Warlock of the Blood */
-     , (0x75646045, 0x75646033, '2005-02-09 10:00:00') /* Champion of the Blood */
-     , (0x75646045, 0x75646034, '2005-02-09 10:00:00') /* Champion of the Blood */
-     , (0x75646045, 0x75646036, '2005-02-09 10:00:00') /* Warlock of the Blood */
-     , (0x75646045, 0x75646037, '2005-02-09 10:00:00') /* Champion of the Blood */
-     , (0x75646045, 0x75646038, '2005-02-09 10:00:00') /* Warlock of the Blood */
-     , (0x75646045, 0x75646039, '2005-02-09 10:00:00') /* Warlock of the Blood */
-     , (0x75646045, 0x7564603A, '2005-02-09 10:00:00') /* Champion of the Blood */
-     , (0x75646045, 0x7564603B, '2005-02-09 10:00:00') /* Champion of the Blood */
-     , (0x75646045, 0x7564603C, '2005-02-09 10:00:00') /* Warlock of the Blood */
-     , (0x75646045, 0x7564603D, '2005-02-09 10:00:00') /* Champion of the Blood */
-     , (0x75646045, 0x7564603E, '2005-02-09 10:00:00') /* Warlock of the Blood */
-     , (0x75646045, 0x7564603F, '2005-02-09 10:00:00') /* Lich */
-     , (0x75646045, 0x75646041, '2005-02-09 10:00:00') /* Warlock of the Blood */
-     , (0x75646045, 0x75646042, '2005-02-09 10:00:00') /* Lich */;
+VALUES (0x75646045, 0x75646003, '2005-02-09 10:00:00') /* Warlock of the Blood (20633) */
+     , (0x75646045, 0x75646004, '2005-02-09 10:00:00') /* Warlock of the Blood (20633) */
+     , (0x75646045, 0x75646005, '2005-02-09 10:00:00') /* Champion of the Blood (20632) */
+     , (0x75646045, 0x75646006, '2005-02-09 10:00:00') /* Champion of the Blood (20632) */
+     , (0x75646045, 0x75646007, '2005-02-09 10:00:00') /* Warlock of the Blood (20633) */
+     , (0x75646045, 0x75646008, '2005-02-09 10:00:00') /* Champion of the Blood (20632) */
+     , (0x75646045, 0x75646009, '2005-02-09 10:00:00') /* Champion of the Blood (20632) */
+     , (0x75646045, 0x7564600A, '2005-02-09 10:00:00') /* Warlock of the Blood (20633) */
+     , (0x75646045, 0x7564600B, '2005-02-09 10:00:00') /* Warlock of the Blood (20633) */
+     , (0x75646045, 0x7564600C, '2005-02-09 10:00:00') /* Warlock of the Blood (20633) */
+     , (0x75646045, 0x7564600D, '2005-02-09 10:00:00') /* Champion of the Blood (20632) */
+     , (0x75646045, 0x7564600E, '2005-02-09 10:00:00') /* Champion of the Blood (20632) */
+     , (0x75646045, 0x7564600F, '2005-02-09 10:00:00') /* Warlock of the Blood (20633) */
+     , (0x75646045, 0x75646010, '2005-02-09 10:00:00') /* Warlock of the Blood (20633) */
+     , (0x75646045, 0x75646011, '2005-02-09 10:00:00') /* Champion of the Blood (20632) */
+     , (0x75646045, 0x75646012, '2005-02-09 10:00:00') /* Warlock of the Blood (20633) */
+     , (0x75646045, 0x75646013, '2005-02-09 10:00:00') /* Warlock of the Blood (20633) */
+     , (0x75646045, 0x75646014, '2005-02-09 10:00:00') /* Warlock of the Blood (20633) */
+     , (0x75646045, 0x75646015, '2005-02-09 10:00:00') /* Warlock of the Blood (20633) */
+     , (0x75646045, 0x75646016, '2005-02-09 10:00:00') /* Champion of the Blood (20632) */
+     , (0x75646045, 0x75646017, '2005-02-09 10:00:00') /* Warlock of the Blood (20633) */
+     , (0x75646045, 0x75646018, '2005-02-09 10:00:00') /* Champion of the Blood (20632) */
+     , (0x75646045, 0x75646019, '2005-02-09 10:00:00') /* Warlock of the Blood (20633) */
+     , (0x75646045, 0x7564601A, '2005-02-09 10:00:00') /* Warlock of the Blood (20633) */
+     , (0x75646045, 0x7564601B, '2005-02-09 10:00:00') /* Champion of the Blood (20632) */
+     , (0x75646045, 0x7564601C, '2005-02-09 10:00:00') /* Champion of the Blood (20632) */
+     , (0x75646045, 0x7564601F, '2005-02-09 10:00:00') /* Champion of the Blood (20632) */
+     , (0x75646045, 0x75646020, '2005-02-09 10:00:00') /* Champion of the Blood (20632) */
+     , (0x75646045, 0x75646023, '2005-02-09 10:00:00') /* Warlock of the Blood (20633) */
+     , (0x75646045, 0x75646024, '2005-02-09 10:00:00') /* Champion of the Blood (20632) */
+     , (0x75646045, 0x75646025, '2005-02-09 10:00:00') /* Warlock of the Blood (20633) */
+     , (0x75646045, 0x75646026, '2005-02-09 10:00:00') /* Champion of the Blood (20632) */
+     , (0x75646045, 0x75646027, '2005-02-09 10:00:00') /* Warlock of the Blood (20633) */
+     , (0x75646045, 0x75646028, '2005-02-09 10:00:00') /* Warlock of the Blood (20633) */
+     , (0x75646045, 0x75646029, '2005-02-09 10:00:00') /* Warlock of the Blood (20633) */
+     , (0x75646045, 0x7564602A, '2005-02-09 10:00:00') /* Champion of the Blood (20632) */
+     , (0x75646045, 0x7564602B, '2005-02-09 10:00:00') /* Champion of the Blood (20632) */
+     , (0x75646045, 0x7564602C, '2005-02-09 10:00:00') /* Champion of the Blood (20632) */
+     , (0x75646045, 0x7564602D, '2005-02-09 10:00:00') /* Champion of the Blood (20632) */
+     , (0x75646045, 0x7564602E, '2005-02-09 10:00:00') /* Warlock of the Blood (20633) */
+     , (0x75646045, 0x7564602F, '2005-02-09 10:00:00') /* Champion of the Blood (20632) */
+     , (0x75646045, 0x75646030, '2005-02-09 10:00:00') /* Warlock of the Blood (20633) */
+     , (0x75646045, 0x75646031, '2005-02-09 10:00:00') /* Warlock of the Blood (20633) */
+     , (0x75646045, 0x75646032, '2005-02-09 10:00:00') /* Warlock of the Blood (20633) */
+     , (0x75646045, 0x75646033, '2005-02-09 10:00:00') /* Champion of the Blood (20632) */
+     , (0x75646045, 0x75646034, '2005-02-09 10:00:00') /* Champion of the Blood (20632) */
+     , (0x75646045, 0x75646036, '2005-02-09 10:00:00') /* Warlock of the Blood (20633) */
+     , (0x75646045, 0x75646037, '2005-02-09 10:00:00') /* Champion of the Blood (20632) */
+     , (0x75646045, 0x75646038, '2005-02-09 10:00:00') /* Warlock of the Blood (20633) */
+     , (0x75646045, 0x75646039, '2005-02-09 10:00:00') /* Warlock of the Blood (20633) */
+     , (0x75646045, 0x7564603A, '2005-02-09 10:00:00') /* Champion of the Blood (20632) */
+     , (0x75646045, 0x7564603B, '2005-02-09 10:00:00') /* Champion of the Blood (20632) */
+     , (0x75646045, 0x7564603C, '2005-02-09 10:00:00') /* Warlock of the Blood (20633) */
+     , (0x75646045, 0x7564603D, '2005-02-09 10:00:00') /* Champion of the Blood (20632) */
+     , (0x75646045, 0x7564603E, '2005-02-09 10:00:00') /* Warlock of the Blood (20633) */
+     , (0x75646045, 0x7564603F, '2005-02-09 10:00:00') /* Lich (204) */
+     , (0x75646045, 0x75646041, '2005-02-09 10:00:00') /* Warlock of the Blood (20633) */
+     , (0x75646045, 0x75646042, '2005-02-09 10:00:00') /* Lich (204) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75646046, 23346, 0x564601D6, 30, -230, 0.005, 0, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Door */

@@ -25,4 +25,4 @@ VALUES (0x787C9005,  1154, 0x87C90000, 71.1677, 50.414, 75.9356, -0.544745, 0, 0
 /* @teleloc 0x87C90000 [71.167700 50.414000 75.935600] -0.544745 0.000000 0.000000 -0.838602 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x787C9005, 0x787C9004, '2005-02-09 10:00:00') /* Tusker Crimsonback */;
+VALUES (0x787C9005, 0x787C9004, '2005-02-09 10:00:00') /* Tusker Crimsonback (1627) */;

@@ -389,41 +389,41 @@ VALUES (0x7545C060,  7925, 0x545C037B, 38.0798, -290.902, -11.995, 0.0363339, 0,
 /* @teleloc 0x545C037B [38.079800 -290.902000 -11.995000] 0.036334 0.000000 0.000000 0.999340 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7545C060, 0x7545C054, '2005-02-09 10:00:00') /* Sata Sclavus */
-     , (0x7545C060, 0x7545C057, '2005-02-09 10:00:00') /* Essa Sclavus */
-     , (0x7545C060, 0x7545C058, '2005-02-09 10:00:00') /* Essa Sclavus */
-     , (0x7545C060, 0x7545C05C, '2005-02-09 10:00:00') /* Sata Sclavus */
-     , (0x7545C060, 0x7545C061, '2005-02-09 10:00:00') /* Essa Sclavus */
-     , (0x7545C060, 0x7545C062, '2005-02-09 10:00:00') /* Sata Sclavus */
-     , (0x7545C060, 0x7545C066, '2005-02-09 10:00:00') /* Sata Sclavus */
-     , (0x7545C060, 0x7545C069, '2005-02-09 10:00:00') /* Essa Sclavus */
-     , (0x7545C060, 0x7545C06A, '2005-02-09 10:00:00') /* Essa Sclavus */
-     , (0x7545C060, 0x7545C06D, '2005-02-09 10:00:00') /* Sata Sclavus */
-     , (0x7545C060, 0x7545C081, '2005-02-09 10:00:00') /* Sata Sclavus */
-     , (0x7545C060, 0x7545C082, '2005-02-09 10:00:00') /* Essa Sclavus */
-     , (0x7545C060, 0x7545C083, '2005-02-09 10:00:00') /* Sata Sclavus */
-     , (0x7545C060, 0x7545C086, '2005-02-09 10:00:00') /* Essa Sclavus */
-     , (0x7545C060, 0x7545C08B, '2005-02-09 10:00:00') /* Sata Sclavus */
-     , (0x7545C060, 0x7545C08C, '2005-02-09 10:00:00') /* Sata Sclavus */
-     , (0x7545C060, 0x7545C08D, '2005-02-09 10:00:00') /* Essa Sclavus */
-     , (0x7545C060, 0x7545C08E, '2005-02-09 10:00:00') /* Sata Sclavus */
-     , (0x7545C060, 0x7545C093, '2005-02-09 10:00:00') /* Essa Sclavus */
-     , (0x7545C060, 0x7545C094, '2005-02-09 10:00:00') /* Essa Sclavus */
-     , (0x7545C060, 0x7545C095, '2005-02-09 10:00:00') /* Essa Sclavus */
-     , (0x7545C060, 0x7545C098, '2005-02-09 10:00:00') /* Sata Sclavus */
-     , (0x7545C060, 0x7545C099, '2005-02-09 10:00:00') /* Essa Sclavus */
-     , (0x7545C060, 0x7545C09A, '2005-02-09 10:00:00') /* Sata Sclavus */
-     , (0x7545C060, 0x7545C0B2, '2005-02-09 10:00:00') /* Essa Sclavus */
-     , (0x7545C060, 0x7545C0B3, '2005-02-09 10:00:00') /* Essa Sclavus */
-     , (0x7545C060, 0x7545C0B7, '2005-02-09 10:00:00') /* Sata Sclavus */
-     , (0x7545C060, 0x7545C0B8, '2005-02-09 10:00:00') /* Sata Sclavus */
-     , (0x7545C060, 0x7545C0B9, '2005-02-09 10:00:00') /* Sata Sclavus */
-     , (0x7545C060, 0x7545C0BE, '2005-02-09 10:00:00') /* Ulu Sclavus */
-     , (0x7545C060, 0x7545C0BF, '2005-02-09 10:00:00') /* Sata Sclavus */
-     , (0x7545C060, 0x7545C0C1, '2005-02-09 10:00:00') /* Ulu Sclavus */
-     , (0x7545C060, 0x7545C0C5, '2005-02-09 10:00:00') /* Sata Sclavus */
-     , (0x7545C060, 0x7545C0C8, '2005-02-09 10:00:00') /* Sata Sclavus */
-     , (0x7545C060, 0x7545C0CA, '2005-02-09 10:00:00') /* Ulu Sclavus */;
+VALUES (0x7545C060, 0x7545C054, '2005-02-09 10:00:00') /* Sata Sclavus (2586) */
+     , (0x7545C060, 0x7545C057, '2005-02-09 10:00:00') /* Essa Sclavus (2585) */
+     , (0x7545C060, 0x7545C058, '2005-02-09 10:00:00') /* Essa Sclavus (2585) */
+     , (0x7545C060, 0x7545C05C, '2005-02-09 10:00:00') /* Sata Sclavus (2586) */
+     , (0x7545C060, 0x7545C061, '2005-02-09 10:00:00') /* Essa Sclavus (2585) */
+     , (0x7545C060, 0x7545C062, '2005-02-09 10:00:00') /* Sata Sclavus (2586) */
+     , (0x7545C060, 0x7545C066, '2005-02-09 10:00:00') /* Sata Sclavus (2586) */
+     , (0x7545C060, 0x7545C069, '2005-02-09 10:00:00') /* Essa Sclavus (2585) */
+     , (0x7545C060, 0x7545C06A, '2005-02-09 10:00:00') /* Essa Sclavus (2585) */
+     , (0x7545C060, 0x7545C06D, '2005-02-09 10:00:00') /* Sata Sclavus (2586) */
+     , (0x7545C060, 0x7545C081, '2005-02-09 10:00:00') /* Sata Sclavus (2586) */
+     , (0x7545C060, 0x7545C082, '2005-02-09 10:00:00') /* Essa Sclavus (2585) */
+     , (0x7545C060, 0x7545C083, '2005-02-09 10:00:00') /* Sata Sclavus (2586) */
+     , (0x7545C060, 0x7545C086, '2005-02-09 10:00:00') /* Essa Sclavus (2585) */
+     , (0x7545C060, 0x7545C08B, '2005-02-09 10:00:00') /* Sata Sclavus (2586) */
+     , (0x7545C060, 0x7545C08C, '2005-02-09 10:00:00') /* Sata Sclavus (2586) */
+     , (0x7545C060, 0x7545C08D, '2005-02-09 10:00:00') /* Essa Sclavus (2585) */
+     , (0x7545C060, 0x7545C08E, '2005-02-09 10:00:00') /* Sata Sclavus (2586) */
+     , (0x7545C060, 0x7545C093, '2005-02-09 10:00:00') /* Essa Sclavus (2585) */
+     , (0x7545C060, 0x7545C094, '2005-02-09 10:00:00') /* Essa Sclavus (2585) */
+     , (0x7545C060, 0x7545C095, '2005-02-09 10:00:00') /* Essa Sclavus (2585) */
+     , (0x7545C060, 0x7545C098, '2005-02-09 10:00:00') /* Sata Sclavus (2586) */
+     , (0x7545C060, 0x7545C099, '2005-02-09 10:00:00') /* Essa Sclavus (2585) */
+     , (0x7545C060, 0x7545C09A, '2005-02-09 10:00:00') /* Sata Sclavus (2586) */
+     , (0x7545C060, 0x7545C0B2, '2005-02-09 10:00:00') /* Essa Sclavus (2585) */
+     , (0x7545C060, 0x7545C0B3, '2005-02-09 10:00:00') /* Essa Sclavus (2585) */
+     , (0x7545C060, 0x7545C0B7, '2005-02-09 10:00:00') /* Sata Sclavus (2586) */
+     , (0x7545C060, 0x7545C0B8, '2005-02-09 10:00:00') /* Sata Sclavus (2586) */
+     , (0x7545C060, 0x7545C0B9, '2005-02-09 10:00:00') /* Sata Sclavus (2586) */
+     , (0x7545C060, 0x7545C0BE, '2005-02-09 10:00:00') /* Ulu Sclavus (7110) */
+     , (0x7545C060, 0x7545C0BF, '2005-02-09 10:00:00') /* Sata Sclavus (2586) */
+     , (0x7545C060, 0x7545C0C1, '2005-02-09 10:00:00') /* Ulu Sclavus (7110) */
+     , (0x7545C060, 0x7545C0C5, '2005-02-09 10:00:00') /* Sata Sclavus (2586) */
+     , (0x7545C060, 0x7545C0C8, '2005-02-09 10:00:00') /* Sata Sclavus (2586) */
+     , (0x7545C060, 0x7545C0CA, '2005-02-09 10:00:00') /* Ulu Sclavus (7110) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7545C061,  2585, 0x545C037F, 37.8479, -309.858, -11.995, 0.696707, 0, 0, 0.717356,  True, '2005-02-09 10:00:00'); /* Essa Sclavus */
@@ -870,9 +870,9 @@ VALUES (0x7545C0CF,  5086, 0x545C067E, 93.4431, -259.988, 0.005, 0.999426, 0, 0,
 /* @teleloc 0x545C067E [93.443100 -259.988000 0.005000] 0.999426 0.000000 0.000000 0.033887 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7545C0CF, 0x7545C0CD, '2005-02-09 10:00:00') /* Guen, Royal Guardian */
-     , (0x7545C0CF, 0x7545C0CE, '2005-02-09 10:00:00') /* Isabelle, Royal Guardian */
-     , (0x7545C0CF, 0x7545C0D0, '2005-02-09 10:00:00') /* Etienne, Royal Guardian */;
+VALUES (0x7545C0CF, 0x7545C0CD, '2005-02-09 10:00:00') /* Guen, Royal Guardian (19462) */
+     , (0x7545C0CF, 0x7545C0CE, '2005-02-09 10:00:00') /* Isabelle, Royal Guardian (19463) */
+     , (0x7545C0CF, 0x7545C0D0, '2005-02-09 10:00:00') /* Etienne, Royal Guardian (19461) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7545C0D0, 19461, 0x545C0680, 104.402, -255.761, 0.005, -0.688756, 0, 0, -0.724993,  True, '2005-02-09 10:00:00'); /* Etienne, Royal Guardian */
@@ -887,175 +887,175 @@ VALUES (0x7545C0D2,  7925, 0x545C0684, 218, -310, 0.005, 1, 0, 0, 0, False, '200
 /* @teleloc 0x545C0684 [218.000000 -310.000000 0.005000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7545C0D2, 0x7545C000, '2005-02-09 10:00:00') /* Faisi Sclavus */
-     , (0x7545C0D2, 0x7545C001, '2005-02-09 10:00:00') /* Chomu Sclavus */
-     , (0x7545C0D2, 0x7545C002, '2005-02-09 10:00:00') /* Chomu Sclavus */
-     , (0x7545C0D2, 0x7545C003, '2005-02-09 10:00:00') /* Chomu Sclavus */
-     , (0x7545C0D2, 0x7545C004, '2005-02-09 10:00:00') /* Chomu Sclavus */
-     , (0x7545C0D2, 0x7545C005, '2005-02-09 10:00:00') /* Faisi Sclavus */
-     , (0x7545C0D2, 0x7545C006, '2005-02-09 10:00:00') /* Faisi Sclavus */
-     , (0x7545C0D2, 0x7545C007, '2005-02-09 10:00:00') /* Faisi Sclavus */
-     , (0x7545C0D2, 0x7545C009, '2005-02-09 10:00:00') /* Faisi Sclavus */
-     , (0x7545C0D2, 0x7545C00A, '2005-02-09 10:00:00') /* Chomu Sclavus */
-     , (0x7545C0D2, 0x7545C00B, '2005-02-09 10:00:00') /* Faisi Sclavus */
-     , (0x7545C0D2, 0x7545C00C, '2005-02-09 10:00:00') /* Chomu Sclavus */
-     , (0x7545C0D2, 0x7545C00E, '2005-02-09 10:00:00') /* Faisi Sclavus */
-     , (0x7545C0D2, 0x7545C00F, '2005-02-09 10:00:00') /* Faisi Sclavus */
-     , (0x7545C0D2, 0x7545C011, '2005-02-09 10:00:00') /* Chomu Sclavus */
-     , (0x7545C0D2, 0x7545C012, '2005-02-09 10:00:00') /* Chomu Sclavus */
-     , (0x7545C0D2, 0x7545C013, '2005-02-09 10:00:00') /* Faisi Sclavus */
-     , (0x7545C0D2, 0x7545C014, '2005-02-09 10:00:00') /* Chomu Sclavus */
-     , (0x7545C0D2, 0x7545C017, '2005-02-09 10:00:00') /* Faisi Sclavus */
-     , (0x7545C0D2, 0x7545C018, '2005-02-09 10:00:00') /* Chomu Sclavus */
-     , (0x7545C0D2, 0x7545C01A, '2005-02-09 10:00:00') /* Faisi Sclavus */
-     , (0x7545C0D2, 0x7545C01B, '2005-02-09 10:00:00') /* Chomu Sclavus */
-     , (0x7545C0D2, 0x7545C01D, '2005-02-09 10:00:00') /* Chomu Sclavus */
-     , (0x7545C0D2, 0x7545C01E, '2005-02-09 10:00:00') /* Faisi Sclavus */
-     , (0x7545C0D2, 0x7545C01F, '2005-02-09 10:00:00') /* Faisi Sclavus */
-     , (0x7545C0D2, 0x7545C020, '2005-02-09 10:00:00') /* Chomu Sclavus */
-     , (0x7545C0D2, 0x7545C021, '2005-02-09 10:00:00') /* Faisi Sclavus */
-     , (0x7545C0D2, 0x7545C022, '2005-02-09 10:00:00') /* Chomu Sclavus */
-     , (0x7545C0D2, 0x7545C024, '2005-02-09 10:00:00') /* Se Sclavus */
-     , (0x7545C0D2, 0x7545C025, '2005-02-09 10:00:00') /* Se Sclavus */
-     , (0x7545C0D2, 0x7545C027, '2005-02-09 10:00:00') /* Se Sclavus */
-     , (0x7545C0D2, 0x7545C028, '2005-02-09 10:00:00') /* Se Sclavus */
-     , (0x7545C0D2, 0x7545C02A, '2005-02-09 10:00:00') /* Aste Sclavus */
-     , (0x7545C0D2, 0x7545C02B, '2005-02-09 10:00:00') /* Aste Sclavus */
-     , (0x7545C0D2, 0x7545C02C, '2005-02-09 10:00:00') /* Aste Sclavus */
-     , (0x7545C0D2, 0x7545C02D, '2005-02-09 10:00:00') /* Aste Sclavus */
-     , (0x7545C0D2, 0x7545C02F, '2005-02-09 10:00:00') /* Se Sclavus */
-     , (0x7545C0D2, 0x7545C031, '2005-02-09 10:00:00') /* Aste Sclavus */
-     , (0x7545C0D2, 0x7545C032, '2005-02-09 10:00:00') /* Aste Sclavus */
-     , (0x7545C0D2, 0x7545C033, '2005-02-09 10:00:00') /* Aste Sclavus */
-     , (0x7545C0D2, 0x7545C035, '2005-02-09 10:00:00') /* Chomu Sclavus */
-     , (0x7545C0D2, 0x7545C036, '2005-02-09 10:00:00') /* Faisi Sclavus */
-     , (0x7545C0D2, 0x7545C037, '2005-02-09 10:00:00') /* Chomu Sclavus */
-     , (0x7545C0D2, 0x7545C038, '2005-02-09 10:00:00') /* Faisi Sclavus */
-     , (0x7545C0D2, 0x7545C039, '2005-02-09 10:00:00') /* Faisi Sclavus */
-     , (0x7545C0D2, 0x7545C03A, '2005-02-09 10:00:00') /* Chomu Sclavus */
-     , (0x7545C0D2, 0x7545C03C, '2005-02-09 10:00:00') /* Faisi Sclavus */
-     , (0x7545C0D2, 0x7545C03D, '2005-02-09 10:00:00') /* Faisi Sclavus */
-     , (0x7545C0D2, 0x7545C03E, '2005-02-09 10:00:00') /* Chomu Sclavus */
-     , (0x7545C0D2, 0x7545C03F, '2005-02-09 10:00:00') /* Chomu Sclavus */
-     , (0x7545C0D2, 0x7545C041, '2005-02-09 10:00:00') /* Faisi Sclavus */
-     , (0x7545C0D2, 0x7545C042, '2005-02-09 10:00:00') /* Se Sclavus */
-     , (0x7545C0D2, 0x7545C045, '2005-02-09 10:00:00') /* Aste Sclavus */
-     , (0x7545C0D2, 0x7545C046, '2005-02-09 10:00:00') /* Se Sclavus */
-     , (0x7545C0D2, 0x7545C047, '2005-02-09 10:00:00') /* Se Sclavus */
-     , (0x7545C0D2, 0x7545C048, '2005-02-09 10:00:00') /* Se Sclavus */
-     , (0x7545C0D2, 0x7545C04A, '2005-02-09 10:00:00') /* Aste Sclavus */
-     , (0x7545C0D2, 0x7545C04C, '2005-02-09 10:00:00') /* Se Sclavus */
-     , (0x7545C0D2, 0x7545C04D, '2005-02-09 10:00:00') /* Se Sclavus */
-     , (0x7545C0D2, 0x7545C050, '2005-02-09 10:00:00') /* Aste Sclavus */
-     , (0x7545C0D2, 0x7545C051, '2005-02-09 10:00:00') /* Se Sclavus */
-     , (0x7545C0D2, 0x7545C052, '2005-02-09 10:00:00') /* Se Sclavus */
-     , (0x7545C0D2, 0x7545C053, '2005-02-09 10:00:00') /* Aste Sclavus */
-     , (0x7545C0D2, 0x7545C056, '2005-02-09 10:00:00') /* Chomu Sclavus */
-     , (0x7545C0D2, 0x7545C059, '2005-02-09 10:00:00') /* Chomu Sclavus */
-     , (0x7545C0D2, 0x7545C05A, '2005-02-09 10:00:00') /* Faisi Sclavus */
-     , (0x7545C0D2, 0x7545C05B, '2005-02-09 10:00:00') /* Faisi Sclavus */
-     , (0x7545C0D2, 0x7545C05D, '2005-02-09 10:00:00') /* Faisi Sclavus */
-     , (0x7545C0D2, 0x7545C05E, '2005-02-09 10:00:00') /* Chomu Sclavus */
-     , (0x7545C0D2, 0x7545C064, '2005-02-09 10:00:00') /* Faisi Sclavus */
-     , (0x7545C0D2, 0x7545C065, '2005-02-09 10:00:00') /* Faisi Sclavus */
-     , (0x7545C0D2, 0x7545C067, '2005-02-09 10:00:00') /* Chomu Sclavus */
-     , (0x7545C0D2, 0x7545C06B, '2005-02-09 10:00:00') /* Faisi Sclavus */
-     , (0x7545C0D2, 0x7545C06C, '2005-02-09 10:00:00') /* Faisi Sclavus */
-     , (0x7545C0D2, 0x7545C06E, '2005-02-09 10:00:00') /* Chomu Sclavus */
-     , (0x7545C0D2, 0x7545C06F, '2005-02-09 10:00:00') /* Faisi Sclavus */
-     , (0x7545C0D2, 0x7545C070, '2005-02-09 10:00:00') /* Chomu Sclavus */
-     , (0x7545C0D2, 0x7545C071, '2005-02-09 10:00:00') /* Aste Sclavus */
-     , (0x7545C0D2, 0x7545C072, '2005-02-09 10:00:00') /* Se Sclavus */
-     , (0x7545C0D2, 0x7545C073, '2005-02-09 10:00:00') /* Aste Sclavus */
-     , (0x7545C0D2, 0x7545C077, '2005-02-09 10:00:00') /* Aste Sclavus */
-     , (0x7545C0D2, 0x7545C078, '2005-02-09 10:00:00') /* Aste Sclavus */
-     , (0x7545C0D2, 0x7545C079, '2005-02-09 10:00:00') /* Aste Sclavus */
-     , (0x7545C0D2, 0x7545C07C, '2005-02-09 10:00:00') /* Aste Sclavus */
-     , (0x7545C0D2, 0x7545C07D, '2005-02-09 10:00:00') /* Aste Sclavus */
-     , (0x7545C0D2, 0x7545C07E, '2005-02-09 10:00:00') /* Aste Sclavus */
-     , (0x7545C0D2, 0x7545C07F, '2005-02-09 10:00:00') /* Aste Sclavus */
-     , (0x7545C0D2, 0x7545C085, '2005-02-09 10:00:00') /* Chomu Sclavus */
-     , (0x7545C0D2, 0x7545C087, '2005-02-09 10:00:00') /* Faisi Sclavus */
-     , (0x7545C0D2, 0x7545C088, '2005-02-09 10:00:00') /* Chomu Sclavus */
-     , (0x7545C0D2, 0x7545C089, '2005-02-09 10:00:00') /* Faisi Sclavus */
-     , (0x7545C0D2, 0x7545C08A, '2005-02-09 10:00:00') /* Faisi Sclavus */
-     , (0x7545C0D2, 0x7545C090, '2005-02-09 10:00:00') /* Chomu Sclavus */
-     , (0x7545C0D2, 0x7545C091, '2005-02-09 10:00:00') /* Faisi Sclavus */
-     , (0x7545C0D2, 0x7545C092, '2005-02-09 10:00:00') /* Chomu Sclavus */
-     , (0x7545C0D2, 0x7545C096, '2005-02-09 10:00:00') /* Faisi Sclavus */
-     , (0x7545C0D2, 0x7545C09B, '2005-02-09 10:00:00') /* Chomu Sclavus */
-     , (0x7545C0D2, 0x7545C09C, '2005-02-09 10:00:00') /* Faisi Sclavus */
-     , (0x7545C0D2, 0x7545C09D, '2005-02-09 10:00:00') /* Chomu Sclavus */
-     , (0x7545C0D2, 0x7545C09E, '2005-02-09 10:00:00') /* Chomu Sclavus */
-     , (0x7545C0D2, 0x7545C0A1, '2005-02-09 10:00:00') /* Se Sclavus */
-     , (0x7545C0D2, 0x7545C0A2, '2005-02-09 10:00:00') /* Se Sclavus */
-     , (0x7545C0D2, 0x7545C0A3, '2005-02-09 10:00:00') /* Se Sclavus */
-     , (0x7545C0D2, 0x7545C0A4, '2005-02-09 10:00:00') /* Se Sclavus */
-     , (0x7545C0D2, 0x7545C0A5, '2005-02-09 10:00:00') /* Se Sclavus */
-     , (0x7545C0D2, 0x7545C0A6, '2005-02-09 10:00:00') /* Se Sclavus */
-     , (0x7545C0D2, 0x7545C0A7, '2005-02-09 10:00:00') /* Se Sclavus */
-     , (0x7545C0D2, 0x7545C0A8, '2005-02-09 10:00:00') /* Se Sclavus */
-     , (0x7545C0D2, 0x7545C0A9, '2005-02-09 10:00:00') /* Se Sclavus */
-     , (0x7545C0D2, 0x7545C0AA, '2005-02-09 10:00:00') /* Se Sclavus */
-     , (0x7545C0D2, 0x7545C0AB, '2005-02-09 10:00:00') /* Se Sclavus */
-     , (0x7545C0D2, 0x7545C0AC, '2005-02-09 10:00:00') /* Se Sclavus */
-     , (0x7545C0D2, 0x7545C0AD, '2005-02-09 10:00:00') /* Se Sclavus */
-     , (0x7545C0D2, 0x7545C0AE, '2005-02-09 10:00:00') /* Se Sclavus */
-     , (0x7545C0D2, 0x7545C0B5, '2005-02-09 10:00:00') /* Faisi Sclavus */
-     , (0x7545C0D2, 0x7545C0B6, '2005-02-09 10:00:00') /* Chomu Sclavus */
-     , (0x7545C0D2, 0x7545C0C2, '2005-02-09 10:00:00') /* Chomu Sclavus */
-     , (0x7545C0D2, 0x7545C0C3, '2005-02-09 10:00:00') /* Faisi Sclavus */
-     , (0x7545C0D2, 0x7545C0CB, '2005-02-09 10:00:00') /* Faisi Sclavus */
-     , (0x7545C0D2, 0x7545C0CC, '2005-02-09 10:00:00') /* Chomu Sclavus */;
+VALUES (0x7545C0D2, 0x7545C000, '2005-02-09 10:00:00') /* Faisi Sclavus (7111) */
+     , (0x7545C0D2, 0x7545C001, '2005-02-09 10:00:00') /* Chomu Sclavus (7112) */
+     , (0x7545C0D2, 0x7545C002, '2005-02-09 10:00:00') /* Chomu Sclavus (7112) */
+     , (0x7545C0D2, 0x7545C003, '2005-02-09 10:00:00') /* Chomu Sclavus (7112) */
+     , (0x7545C0D2, 0x7545C004, '2005-02-09 10:00:00') /* Chomu Sclavus (7112) */
+     , (0x7545C0D2, 0x7545C005, '2005-02-09 10:00:00') /* Faisi Sclavus (7111) */
+     , (0x7545C0D2, 0x7545C006, '2005-02-09 10:00:00') /* Faisi Sclavus (7111) */
+     , (0x7545C0D2, 0x7545C007, '2005-02-09 10:00:00') /* Faisi Sclavus (7111) */
+     , (0x7545C0D2, 0x7545C009, '2005-02-09 10:00:00') /* Faisi Sclavus (7111) */
+     , (0x7545C0D2, 0x7545C00A, '2005-02-09 10:00:00') /* Chomu Sclavus (7112) */
+     , (0x7545C0D2, 0x7545C00B, '2005-02-09 10:00:00') /* Faisi Sclavus (7111) */
+     , (0x7545C0D2, 0x7545C00C, '2005-02-09 10:00:00') /* Chomu Sclavus (7112) */
+     , (0x7545C0D2, 0x7545C00E, '2005-02-09 10:00:00') /* Faisi Sclavus (7111) */
+     , (0x7545C0D2, 0x7545C00F, '2005-02-09 10:00:00') /* Faisi Sclavus (7111) */
+     , (0x7545C0D2, 0x7545C011, '2005-02-09 10:00:00') /* Chomu Sclavus (7112) */
+     , (0x7545C0D2, 0x7545C012, '2005-02-09 10:00:00') /* Chomu Sclavus (7112) */
+     , (0x7545C0D2, 0x7545C013, '2005-02-09 10:00:00') /* Faisi Sclavus (7111) */
+     , (0x7545C0D2, 0x7545C014, '2005-02-09 10:00:00') /* Chomu Sclavus (7112) */
+     , (0x7545C0D2, 0x7545C017, '2005-02-09 10:00:00') /* Faisi Sclavus (7111) */
+     , (0x7545C0D2, 0x7545C018, '2005-02-09 10:00:00') /* Chomu Sclavus (7112) */
+     , (0x7545C0D2, 0x7545C01A, '2005-02-09 10:00:00') /* Faisi Sclavus (7111) */
+     , (0x7545C0D2, 0x7545C01B, '2005-02-09 10:00:00') /* Chomu Sclavus (7112) */
+     , (0x7545C0D2, 0x7545C01D, '2005-02-09 10:00:00') /* Chomu Sclavus (7112) */
+     , (0x7545C0D2, 0x7545C01E, '2005-02-09 10:00:00') /* Faisi Sclavus (7111) */
+     , (0x7545C0D2, 0x7545C01F, '2005-02-09 10:00:00') /* Faisi Sclavus (7111) */
+     , (0x7545C0D2, 0x7545C020, '2005-02-09 10:00:00') /* Chomu Sclavus (7112) */
+     , (0x7545C0D2, 0x7545C021, '2005-02-09 10:00:00') /* Faisi Sclavus (7111) */
+     , (0x7545C0D2, 0x7545C022, '2005-02-09 10:00:00') /* Chomu Sclavus (7112) */
+     , (0x7545C0D2, 0x7545C024, '2005-02-09 10:00:00') /* Se Sclavus (2583) */
+     , (0x7545C0D2, 0x7545C025, '2005-02-09 10:00:00') /* Se Sclavus (2583) */
+     , (0x7545C0D2, 0x7545C027, '2005-02-09 10:00:00') /* Se Sclavus (2583) */
+     , (0x7545C0D2, 0x7545C028, '2005-02-09 10:00:00') /* Se Sclavus (2583) */
+     , (0x7545C0D2, 0x7545C02A, '2005-02-09 10:00:00') /* Aste Sclavus (2584) */
+     , (0x7545C0D2, 0x7545C02B, '2005-02-09 10:00:00') /* Aste Sclavus (2584) */
+     , (0x7545C0D2, 0x7545C02C, '2005-02-09 10:00:00') /* Aste Sclavus (2584) */
+     , (0x7545C0D2, 0x7545C02D, '2005-02-09 10:00:00') /* Aste Sclavus (2584) */
+     , (0x7545C0D2, 0x7545C02F, '2005-02-09 10:00:00') /* Se Sclavus (2583) */
+     , (0x7545C0D2, 0x7545C031, '2005-02-09 10:00:00') /* Aste Sclavus (2584) */
+     , (0x7545C0D2, 0x7545C032, '2005-02-09 10:00:00') /* Aste Sclavus (2584) */
+     , (0x7545C0D2, 0x7545C033, '2005-02-09 10:00:00') /* Aste Sclavus (2584) */
+     , (0x7545C0D2, 0x7545C035, '2005-02-09 10:00:00') /* Chomu Sclavus (7112) */
+     , (0x7545C0D2, 0x7545C036, '2005-02-09 10:00:00') /* Faisi Sclavus (7111) */
+     , (0x7545C0D2, 0x7545C037, '2005-02-09 10:00:00') /* Chomu Sclavus (7112) */
+     , (0x7545C0D2, 0x7545C038, '2005-02-09 10:00:00') /* Faisi Sclavus (7111) */
+     , (0x7545C0D2, 0x7545C039, '2005-02-09 10:00:00') /* Faisi Sclavus (7111) */
+     , (0x7545C0D2, 0x7545C03A, '2005-02-09 10:00:00') /* Chomu Sclavus (7112) */
+     , (0x7545C0D2, 0x7545C03C, '2005-02-09 10:00:00') /* Faisi Sclavus (7111) */
+     , (0x7545C0D2, 0x7545C03D, '2005-02-09 10:00:00') /* Faisi Sclavus (7111) */
+     , (0x7545C0D2, 0x7545C03E, '2005-02-09 10:00:00') /* Chomu Sclavus (7112) */
+     , (0x7545C0D2, 0x7545C03F, '2005-02-09 10:00:00') /* Chomu Sclavus (7112) */
+     , (0x7545C0D2, 0x7545C041, '2005-02-09 10:00:00') /* Faisi Sclavus (7111) */
+     , (0x7545C0D2, 0x7545C042, '2005-02-09 10:00:00') /* Se Sclavus (2583) */
+     , (0x7545C0D2, 0x7545C045, '2005-02-09 10:00:00') /* Aste Sclavus (2584) */
+     , (0x7545C0D2, 0x7545C046, '2005-02-09 10:00:00') /* Se Sclavus (2583) */
+     , (0x7545C0D2, 0x7545C047, '2005-02-09 10:00:00') /* Se Sclavus (2583) */
+     , (0x7545C0D2, 0x7545C048, '2005-02-09 10:00:00') /* Se Sclavus (2583) */
+     , (0x7545C0D2, 0x7545C04A, '2005-02-09 10:00:00') /* Aste Sclavus (2584) */
+     , (0x7545C0D2, 0x7545C04C, '2005-02-09 10:00:00') /* Se Sclavus (2583) */
+     , (0x7545C0D2, 0x7545C04D, '2005-02-09 10:00:00') /* Se Sclavus (2583) */
+     , (0x7545C0D2, 0x7545C050, '2005-02-09 10:00:00') /* Aste Sclavus (2584) */
+     , (0x7545C0D2, 0x7545C051, '2005-02-09 10:00:00') /* Se Sclavus (2583) */
+     , (0x7545C0D2, 0x7545C052, '2005-02-09 10:00:00') /* Se Sclavus (2583) */
+     , (0x7545C0D2, 0x7545C053, '2005-02-09 10:00:00') /* Aste Sclavus (2584) */
+     , (0x7545C0D2, 0x7545C056, '2005-02-09 10:00:00') /* Chomu Sclavus (7112) */
+     , (0x7545C0D2, 0x7545C059, '2005-02-09 10:00:00') /* Chomu Sclavus (7112) */
+     , (0x7545C0D2, 0x7545C05A, '2005-02-09 10:00:00') /* Faisi Sclavus (7111) */
+     , (0x7545C0D2, 0x7545C05B, '2005-02-09 10:00:00') /* Faisi Sclavus (7111) */
+     , (0x7545C0D2, 0x7545C05D, '2005-02-09 10:00:00') /* Faisi Sclavus (7111) */
+     , (0x7545C0D2, 0x7545C05E, '2005-02-09 10:00:00') /* Chomu Sclavus (7112) */
+     , (0x7545C0D2, 0x7545C064, '2005-02-09 10:00:00') /* Faisi Sclavus (7111) */
+     , (0x7545C0D2, 0x7545C065, '2005-02-09 10:00:00') /* Faisi Sclavus (7111) */
+     , (0x7545C0D2, 0x7545C067, '2005-02-09 10:00:00') /* Chomu Sclavus (7112) */
+     , (0x7545C0D2, 0x7545C06B, '2005-02-09 10:00:00') /* Faisi Sclavus (7111) */
+     , (0x7545C0D2, 0x7545C06C, '2005-02-09 10:00:00') /* Faisi Sclavus (7111) */
+     , (0x7545C0D2, 0x7545C06E, '2005-02-09 10:00:00') /* Chomu Sclavus (7112) */
+     , (0x7545C0D2, 0x7545C06F, '2005-02-09 10:00:00') /* Faisi Sclavus (7111) */
+     , (0x7545C0D2, 0x7545C070, '2005-02-09 10:00:00') /* Chomu Sclavus (7112) */
+     , (0x7545C0D2, 0x7545C071, '2005-02-09 10:00:00') /* Aste Sclavus (2584) */
+     , (0x7545C0D2, 0x7545C072, '2005-02-09 10:00:00') /* Se Sclavus (2583) */
+     , (0x7545C0D2, 0x7545C073, '2005-02-09 10:00:00') /* Aste Sclavus (2584) */
+     , (0x7545C0D2, 0x7545C077, '2005-02-09 10:00:00') /* Aste Sclavus (2584) */
+     , (0x7545C0D2, 0x7545C078, '2005-02-09 10:00:00') /* Aste Sclavus (2584) */
+     , (0x7545C0D2, 0x7545C079, '2005-02-09 10:00:00') /* Aste Sclavus (2584) */
+     , (0x7545C0D2, 0x7545C07C, '2005-02-09 10:00:00') /* Aste Sclavus (2584) */
+     , (0x7545C0D2, 0x7545C07D, '2005-02-09 10:00:00') /* Aste Sclavus (2584) */
+     , (0x7545C0D2, 0x7545C07E, '2005-02-09 10:00:00') /* Aste Sclavus (2584) */
+     , (0x7545C0D2, 0x7545C07F, '2005-02-09 10:00:00') /* Aste Sclavus (2584) */
+     , (0x7545C0D2, 0x7545C085, '2005-02-09 10:00:00') /* Chomu Sclavus (7112) */
+     , (0x7545C0D2, 0x7545C087, '2005-02-09 10:00:00') /* Faisi Sclavus (7111) */
+     , (0x7545C0D2, 0x7545C088, '2005-02-09 10:00:00') /* Chomu Sclavus (7112) */
+     , (0x7545C0D2, 0x7545C089, '2005-02-09 10:00:00') /* Faisi Sclavus (7111) */
+     , (0x7545C0D2, 0x7545C08A, '2005-02-09 10:00:00') /* Faisi Sclavus (7111) */
+     , (0x7545C0D2, 0x7545C090, '2005-02-09 10:00:00') /* Chomu Sclavus (7112) */
+     , (0x7545C0D2, 0x7545C091, '2005-02-09 10:00:00') /* Faisi Sclavus (7111) */
+     , (0x7545C0D2, 0x7545C092, '2005-02-09 10:00:00') /* Chomu Sclavus (7112) */
+     , (0x7545C0D2, 0x7545C096, '2005-02-09 10:00:00') /* Faisi Sclavus (7111) */
+     , (0x7545C0D2, 0x7545C09B, '2005-02-09 10:00:00') /* Chomu Sclavus (7112) */
+     , (0x7545C0D2, 0x7545C09C, '2005-02-09 10:00:00') /* Faisi Sclavus (7111) */
+     , (0x7545C0D2, 0x7545C09D, '2005-02-09 10:00:00') /* Chomu Sclavus (7112) */
+     , (0x7545C0D2, 0x7545C09E, '2005-02-09 10:00:00') /* Chomu Sclavus (7112) */
+     , (0x7545C0D2, 0x7545C0A1, '2005-02-09 10:00:00') /* Se Sclavus (2583) */
+     , (0x7545C0D2, 0x7545C0A2, '2005-02-09 10:00:00') /* Se Sclavus (2583) */
+     , (0x7545C0D2, 0x7545C0A3, '2005-02-09 10:00:00') /* Se Sclavus (2583) */
+     , (0x7545C0D2, 0x7545C0A4, '2005-02-09 10:00:00') /* Se Sclavus (2583) */
+     , (0x7545C0D2, 0x7545C0A5, '2005-02-09 10:00:00') /* Se Sclavus (2583) */
+     , (0x7545C0D2, 0x7545C0A6, '2005-02-09 10:00:00') /* Se Sclavus (2583) */
+     , (0x7545C0D2, 0x7545C0A7, '2005-02-09 10:00:00') /* Se Sclavus (2583) */
+     , (0x7545C0D2, 0x7545C0A8, '2005-02-09 10:00:00') /* Se Sclavus (2583) */
+     , (0x7545C0D2, 0x7545C0A9, '2005-02-09 10:00:00') /* Se Sclavus (2583) */
+     , (0x7545C0D2, 0x7545C0AA, '2005-02-09 10:00:00') /* Se Sclavus (2583) */
+     , (0x7545C0D2, 0x7545C0AB, '2005-02-09 10:00:00') /* Se Sclavus (2583) */
+     , (0x7545C0D2, 0x7545C0AC, '2005-02-09 10:00:00') /* Se Sclavus (2583) */
+     , (0x7545C0D2, 0x7545C0AD, '2005-02-09 10:00:00') /* Se Sclavus (2583) */
+     , (0x7545C0D2, 0x7545C0AE, '2005-02-09 10:00:00') /* Se Sclavus (2583) */
+     , (0x7545C0D2, 0x7545C0B5, '2005-02-09 10:00:00') /* Faisi Sclavus (7111) */
+     , (0x7545C0D2, 0x7545C0B6, '2005-02-09 10:00:00') /* Chomu Sclavus (7112) */
+     , (0x7545C0D2, 0x7545C0C2, '2005-02-09 10:00:00') /* Chomu Sclavus (7112) */
+     , (0x7545C0D2, 0x7545C0C3, '2005-02-09 10:00:00') /* Faisi Sclavus (7111) */
+     , (0x7545C0D2, 0x7545C0CB, '2005-02-09 10:00:00') /* Faisi Sclavus (7111) */
+     , (0x7545C0D2, 0x7545C0CC, '2005-02-09 10:00:00') /* Chomu Sclavus (7112) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7545C0D3,  4142, 0x545C0684, 219.069, -310, 0.005, 1, 0, 0, 0, False, '2005-02-09 10:00:00'); /* Linkable Item Generator */
 /* @teleloc 0x545C0684 [219.069000 -310.000000 0.005000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7545C0D3, 0x7545C00D, '2005-02-09 10:00:00') /* Unimbued Red Pyreal Gorget */
-     , (0x7545C0D3, 0x7545C010, '2005-02-09 10:00:00') /* Unimbued Red Pyreal Gorget */
-     , (0x7545C0D3, 0x7545C015, '2005-02-09 10:00:00') /* Unimbued Red Pyreal Gorget */
-     , (0x7545C0D3, 0x7545C019, '2005-02-09 10:00:00') /* Unimbued Red Pyreal Gorget */
-     , (0x7545C0D3, 0x7545C01C, '2005-02-09 10:00:00') /* Unimbued Red Pyreal Gorget */
-     , (0x7545C0D3, 0x7545C023, '2005-02-09 10:00:00') /* Unimbued Red Pyreal Gorget */
-     , (0x7545C0D3, 0x7545C026, '2005-02-09 10:00:00') /* Unimbued Green Pyreal Gorget */
-     , (0x7545C0D3, 0x7545C029, '2005-02-09 10:00:00') /* Unimbued Green Pyreal Gorget */
-     , (0x7545C0D3, 0x7545C02E, '2005-02-09 10:00:00') /* Unimbued Green Pyreal Gorget */
-     , (0x7545C0D3, 0x7545C030, '2005-02-09 10:00:00') /* Unimbued Green Pyreal Gorget */
-     , (0x7545C0D3, 0x7545C034, '2005-02-09 10:00:00') /* Unimbued Red Pyreal Gorget */
-     , (0x7545C0D3, 0x7545C03B, '2005-02-09 10:00:00') /* Unimbued Red Pyreal Gorget */
-     , (0x7545C0D3, 0x7545C040, '2005-02-09 10:00:00') /* Unimbued Red Pyreal Gorget */
-     , (0x7545C0D3, 0x7545C043, '2005-02-09 10:00:00') /* Unimbued Green Pyreal Gorget */
-     , (0x7545C0D3, 0x7545C044, '2005-02-09 10:00:00') /* Unimbued Green Pyreal Gorget */
-     , (0x7545C0D3, 0x7545C049, '2005-02-09 10:00:00') /* Unimbued Green Pyreal Gorget */
-     , (0x7545C0D3, 0x7545C04B, '2005-02-09 10:00:00') /* Unimbued Green Pyreal Gorget */
-     , (0x7545C0D3, 0x7545C04E, '2005-02-09 10:00:00') /* Unimbued Green Pyreal Gorget */
-     , (0x7545C0D3, 0x7545C04F, '2005-02-09 10:00:00') /* Unimbued Green Pyreal Gorget */
-     , (0x7545C0D3, 0x7545C055, '2005-02-09 10:00:00') /* Unimbued Red Pyreal Gorget */
-     , (0x7545C0D3, 0x7545C063, '2005-02-09 10:00:00') /* Unimbued Red Pyreal Gorget */
-     , (0x7545C0D3, 0x7545C068, '2005-02-09 10:00:00') /* Unimbued Red Pyreal Gorget */
-     , (0x7545C0D3, 0x7545C074, '2005-02-09 10:00:00') /* Unimbued Green Pyreal Gorget */
-     , (0x7545C0D3, 0x7545C075, '2005-02-09 10:00:00') /* Unimbued Green Pyreal Gorget */
-     , (0x7545C0D3, 0x7545C076, '2005-02-09 10:00:00') /* Unimbued Green Pyreal Gorget */
-     , (0x7545C0D3, 0x7545C07A, '2005-02-09 10:00:00') /* Unimbued Green Pyreal Gorget */
-     , (0x7545C0D3, 0x7545C07B, '2005-02-09 10:00:00') /* Unimbued Green Pyreal Gorget */
-     , (0x7545C0D3, 0x7545C080, '2005-02-09 10:00:00') /* Unimbued Green Pyreal Gorget */
-     , (0x7545C0D3, 0x7545C084, '2005-02-09 10:00:00') /* Unimbued Red Pyreal Gorget */
-     , (0x7545C0D3, 0x7545C08F, '2005-02-09 10:00:00') /* Unimbued Red Pyreal Gorget */
-     , (0x7545C0D3, 0x7545C09F, '2005-02-09 10:00:00') /* Unimbued Red Pyreal Gorget */
-     , (0x7545C0D3, 0x7545C0AF, '2005-02-09 10:00:00') /* Unimbued Blue Pyreal Gorget */
-     , (0x7545C0D3, 0x7545C0B0, '2005-02-09 10:00:00') /* Unimbued Blue Pyreal Gorget */
-     , (0x7545C0D3, 0x7545C0B1, '2005-02-09 10:00:00') /* Unimbued Blue Pyreal Gorget */
-     , (0x7545C0D3, 0x7545C0B4, '2005-02-09 10:00:00') /* Unimbued Blue Pyreal Gorget */
-     , (0x7545C0D3, 0x7545C0BA, '2005-02-09 10:00:00') /* Unimbued Blue Pyreal Gorget */
-     , (0x7545C0D3, 0x7545C0BB, '2005-02-09 10:00:00') /* Unimbued Blue Pyreal Gorget */
-     , (0x7545C0D3, 0x7545C0BD, '2005-02-09 10:00:00') /* Unimbued Blue Pyreal Gorget */
-     , (0x7545C0D3, 0x7545C0C0, '2005-02-09 10:00:00') /* Unimbued Blue Pyreal Gorget */
-     , (0x7545C0D3, 0x7545C0C4, '2005-02-09 10:00:00') /* Unimbued Blue Pyreal Gorget */
-     , (0x7545C0D3, 0x7545C0C6, '2005-02-09 10:00:00') /* Unimbued Blue Pyreal Gorget */
-     , (0x7545C0D3, 0x7545C0C7, '2005-02-09 10:00:00') /* Unimbued Blue Pyreal Gorget */
-     , (0x7545C0D3, 0x7545C0C9, '2005-02-09 10:00:00') /* Unimbued Blue Pyreal Gorget */;
+VALUES (0x7545C0D3, 0x7545C00D, '2005-02-09 10:00:00') /* Unimbued Red Pyreal Gorget (19412) */
+     , (0x7545C0D3, 0x7545C010, '2005-02-09 10:00:00') /* Unimbued Red Pyreal Gorget (19412) */
+     , (0x7545C0D3, 0x7545C015, '2005-02-09 10:00:00') /* Unimbued Red Pyreal Gorget (19412) */
+     , (0x7545C0D3, 0x7545C019, '2005-02-09 10:00:00') /* Unimbued Red Pyreal Gorget (19412) */
+     , (0x7545C0D3, 0x7545C01C, '2005-02-09 10:00:00') /* Unimbued Red Pyreal Gorget (19412) */
+     , (0x7545C0D3, 0x7545C023, '2005-02-09 10:00:00') /* Unimbued Red Pyreal Gorget (19412) */
+     , (0x7545C0D3, 0x7545C026, '2005-02-09 10:00:00') /* Unimbued Green Pyreal Gorget (19411) */
+     , (0x7545C0D3, 0x7545C029, '2005-02-09 10:00:00') /* Unimbued Green Pyreal Gorget (19411) */
+     , (0x7545C0D3, 0x7545C02E, '2005-02-09 10:00:00') /* Unimbued Green Pyreal Gorget (19411) */
+     , (0x7545C0D3, 0x7545C030, '2005-02-09 10:00:00') /* Unimbued Green Pyreal Gorget (19411) */
+     , (0x7545C0D3, 0x7545C034, '2005-02-09 10:00:00') /* Unimbued Red Pyreal Gorget (19412) */
+     , (0x7545C0D3, 0x7545C03B, '2005-02-09 10:00:00') /* Unimbued Red Pyreal Gorget (19412) */
+     , (0x7545C0D3, 0x7545C040, '2005-02-09 10:00:00') /* Unimbued Red Pyreal Gorget (19412) */
+     , (0x7545C0D3, 0x7545C043, '2005-02-09 10:00:00') /* Unimbued Green Pyreal Gorget (19411) */
+     , (0x7545C0D3, 0x7545C044, '2005-02-09 10:00:00') /* Unimbued Green Pyreal Gorget (19411) */
+     , (0x7545C0D3, 0x7545C049, '2005-02-09 10:00:00') /* Unimbued Green Pyreal Gorget (19411) */
+     , (0x7545C0D3, 0x7545C04B, '2005-02-09 10:00:00') /* Unimbued Green Pyreal Gorget (19411) */
+     , (0x7545C0D3, 0x7545C04E, '2005-02-09 10:00:00') /* Unimbued Green Pyreal Gorget (19411) */
+     , (0x7545C0D3, 0x7545C04F, '2005-02-09 10:00:00') /* Unimbued Green Pyreal Gorget (19411) */
+     , (0x7545C0D3, 0x7545C055, '2005-02-09 10:00:00') /* Unimbued Red Pyreal Gorget (19412) */
+     , (0x7545C0D3, 0x7545C063, '2005-02-09 10:00:00') /* Unimbued Red Pyreal Gorget (19412) */
+     , (0x7545C0D3, 0x7545C068, '2005-02-09 10:00:00') /* Unimbued Red Pyreal Gorget (19412) */
+     , (0x7545C0D3, 0x7545C074, '2005-02-09 10:00:00') /* Unimbued Green Pyreal Gorget (19411) */
+     , (0x7545C0D3, 0x7545C075, '2005-02-09 10:00:00') /* Unimbued Green Pyreal Gorget (19411) */
+     , (0x7545C0D3, 0x7545C076, '2005-02-09 10:00:00') /* Unimbued Green Pyreal Gorget (19411) */
+     , (0x7545C0D3, 0x7545C07A, '2005-02-09 10:00:00') /* Unimbued Green Pyreal Gorget (19411) */
+     , (0x7545C0D3, 0x7545C07B, '2005-02-09 10:00:00') /* Unimbued Green Pyreal Gorget (19411) */
+     , (0x7545C0D3, 0x7545C080, '2005-02-09 10:00:00') /* Unimbued Green Pyreal Gorget (19411) */
+     , (0x7545C0D3, 0x7545C084, '2005-02-09 10:00:00') /* Unimbued Red Pyreal Gorget (19412) */
+     , (0x7545C0D3, 0x7545C08F, '2005-02-09 10:00:00') /* Unimbued Red Pyreal Gorget (19412) */
+     , (0x7545C0D3, 0x7545C09F, '2005-02-09 10:00:00') /* Unimbued Red Pyreal Gorget (19412) */
+     , (0x7545C0D3, 0x7545C0AF, '2005-02-09 10:00:00') /* Unimbued Blue Pyreal Gorget (19413) */
+     , (0x7545C0D3, 0x7545C0B0, '2005-02-09 10:00:00') /* Unimbued Blue Pyreal Gorget (19413) */
+     , (0x7545C0D3, 0x7545C0B1, '2005-02-09 10:00:00') /* Unimbued Blue Pyreal Gorget (19413) */
+     , (0x7545C0D3, 0x7545C0B4, '2005-02-09 10:00:00') /* Unimbued Blue Pyreal Gorget (19413) */
+     , (0x7545C0D3, 0x7545C0BA, '2005-02-09 10:00:00') /* Unimbued Blue Pyreal Gorget (19413) */
+     , (0x7545C0D3, 0x7545C0BB, '2005-02-09 10:00:00') /* Unimbued Blue Pyreal Gorget (19413) */
+     , (0x7545C0D3, 0x7545C0BD, '2005-02-09 10:00:00') /* Unimbued Blue Pyreal Gorget (19413) */
+     , (0x7545C0D3, 0x7545C0C0, '2005-02-09 10:00:00') /* Unimbued Blue Pyreal Gorget (19413) */
+     , (0x7545C0D3, 0x7545C0C4, '2005-02-09 10:00:00') /* Unimbued Blue Pyreal Gorget (19413) */
+     , (0x7545C0D3, 0x7545C0C6, '2005-02-09 10:00:00') /* Unimbued Blue Pyreal Gorget (19413) */
+     , (0x7545C0D3, 0x7545C0C7, '2005-02-09 10:00:00') /* Unimbued Blue Pyreal Gorget (19413) */
+     , (0x7545C0D3, 0x7545C0C9, '2005-02-09 10:00:00') /* Unimbued Blue Pyreal Gorget (19413) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7545C0D4,   278, 0x545C032E, 14.75, -330, -12, 0.707107, 0, 0, -0.707107, False, '2005-02-09 10:00:00'); /* Door */

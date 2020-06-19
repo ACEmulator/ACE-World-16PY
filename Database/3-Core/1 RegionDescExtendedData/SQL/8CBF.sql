@@ -1,4 +1,4 @@
-DELETE FROM `encounter` WHERE `landblock` = 36031;
+DELETE FROM `encounter` WHERE `landblock` = 0x8CBF;
 
 INSERT INTO `encounter` (`landblock`, `weenie_Class_Id`, `cell_X`, `cell_Y`, `last_Modified`)
-VALUES (36031, 23157, 1, 3, '2005-02-09 10:00:00') /* Mid North Mountain Mattekar Generator */;
+VALUES (0x8CBF, 23157, 1, 3, '2005-02-09 10:00:00') /* Mid North Mountain Mattekar Generator */;

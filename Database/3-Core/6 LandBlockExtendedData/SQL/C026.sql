@@ -29,7 +29,7 @@ VALUES (0x7C026006,  1154, 0xC0260102, 155.901, 67.4274, 97.66, 0.0279036, 0, 0,
 /* @teleloc 0xC0260102 [155.901000 67.427400 97.660000] 0.027904 0.000000 0.000000 -0.999611 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C026006, 0x7C026005, '2005-02-09 10:00:00') /* Lich Lord */;
+VALUES (0x7C026006, 0x7C026005, '2005-02-09 10:00:00') /* Lich Lord (1630) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C026007,  1030, 0xC0260101, 155.768, 136.778, 108.005, 1, 0, 0, 0, False, '2005-02-09 10:00:00'); /* Portal to Yaraq */

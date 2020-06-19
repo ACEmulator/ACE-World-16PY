@@ -13,14 +13,14 @@ VALUES (0x7DC3C002,  3955, 0xDC3C0100, 85.8354, 14.8587, 15.705, 0.759564, 0, 0,
 /* @teleloc 0xDC3C0100 [85.835400 14.858700 15.705000] 0.759564 0.000000 0.000000 0.650433 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7DC3C002, 0x7DC3C001, '2005-02-09 10:00:00') /* Jaizen Tan */;
+VALUES (0x7DC3C002, 0x7DC3C001, '2005-02-09 10:00:00') /* Jaizen Tan (9546) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7DC3C003,  5085, 0xDC3C0100, 83.6986, 9.40472, 15.705, 0.999967, 0, 0, 0.0081536, False, '2005-02-09 10:00:00'); /* Linkable Item Gen - 25 seconds */
 /* @teleloc 0xDC3C0100 [83.698600 9.404720 15.705000] 0.999967 0.000000 0.000000 0.008154 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7DC3C003, 0x7DC3C004, '2005-02-09 10:00:00') /* Skill Puzzle Base Piece */;
+VALUES (0x7DC3C003, 0x7DC3C004, '2005-02-09 10:00:00') /* Skill Puzzle Base Piece (9594) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7DC3C004,  9594, 0xDC3C0100, 85.741, 9.88128, 15.7735, 0.012642, 0, 0, 0.99992,  True, '2005-02-09 10:00:00'); /* Skill Puzzle Base Piece */

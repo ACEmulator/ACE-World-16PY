@@ -5,19 +5,19 @@ VALUES (0x72C1500D,  1154, 0x2C150000, 183.039, 103.7, 56.005, -0.712975, 0, 0, 
 /* @teleloc 0x2C150000 [183.039000 103.700000 56.005000] -0.712975 0.000000 0.000000 -0.701189 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72C1500D, 0x72C1500E, '2005-02-09 10:00:00') /* Tumerok War Monger */
-     , (0x72C1500D, 0x72C1500F, '2005-02-09 10:00:00') /* Ascendant Tumerok */
-     , (0x72C1500D, 0x72C15010, '2005-02-09 10:00:00') /* Ascendant Tumerok */
-     , (0x72C1500D, 0x72C15011, '2005-02-09 10:00:00') /* Ascendant Tumerok */
-     , (0x72C1500D, 0x72C15012, '2005-02-09 10:00:00') /* Ascendant Tumerok */
-     , (0x72C1500D, 0x72C15013, '2005-02-09 10:00:00') /* Tumerok Champion */
-     , (0x72C1500D, 0x72C15014, '2005-02-09 10:00:00') /* Tumerok Champion */
-     , (0x72C1500D, 0x72C15015, '2005-02-09 10:00:00') /* Tumerok Champion */
-     , (0x72C1500D, 0x72C15016, '2005-02-09 10:00:00') /* Tumerok High Priest */
-     , (0x72C1500D, 0x72C15017, '2005-02-09 10:00:00') /* Tumerok Trooper */
-     , (0x72C1500D, 0x72C15018, '2005-02-09 10:00:00') /* Tumerok High Priest */
-     , (0x72C1500D, 0x72C15019, '2005-02-09 10:00:00') /* Tumerok Trooper */
-     , (0x72C1500D, 0x72C1501A, '2005-02-09 10:00:00') /* Tumerok Champion */;
+VALUES (0x72C1500D, 0x72C1500E, '2005-02-09 10:00:00') /* Tumerok War Monger (23567) */
+     , (0x72C1500D, 0x72C1500F, '2005-02-09 10:00:00') /* Ascendant Tumerok (10806) */
+     , (0x72C1500D, 0x72C15010, '2005-02-09 10:00:00') /* Ascendant Tumerok (10806) */
+     , (0x72C1500D, 0x72C15011, '2005-02-09 10:00:00') /* Ascendant Tumerok (10806) */
+     , (0x72C1500D, 0x72C15012, '2005-02-09 10:00:00') /* Ascendant Tumerok (10806) */
+     , (0x72C1500D, 0x72C15013, '2005-02-09 10:00:00') /* Tumerok Champion (23617) */
+     , (0x72C1500D, 0x72C15014, '2005-02-09 10:00:00') /* Tumerok Champion (23617) */
+     , (0x72C1500D, 0x72C15015, '2005-02-09 10:00:00') /* Tumerok Champion (23617) */
+     , (0x72C1500D, 0x72C15016, '2005-02-09 10:00:00') /* Tumerok High Priest (4106) */
+     , (0x72C1500D, 0x72C15017, '2005-02-09 10:00:00') /* Tumerok Trooper (23566) */
+     , (0x72C1500D, 0x72C15018, '2005-02-09 10:00:00') /* Tumerok High Priest (4106) */
+     , (0x72C1500D, 0x72C15019, '2005-02-09 10:00:00') /* Tumerok Trooper (23566) */
+     , (0x72C1500D, 0x72C1501A, '2005-02-09 10:00:00') /* Tumerok Champion (23617) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72C1500E, 23567, 0x2C150000, 189.264, 121.549, 56.0065, -0.831101, 0, 0, -0.556122,  True, '2005-02-09 10:00:00'); /* Tumerok War Monger */

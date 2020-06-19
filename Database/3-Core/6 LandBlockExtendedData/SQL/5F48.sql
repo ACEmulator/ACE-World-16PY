@@ -753,196 +753,196 @@ VALUES (0x75F480BD,  7924, 0x5F4802CC, 227.65, -71.1647, 0.005, 0.0207946, 0, 0,
 /* @teleloc 0x5F4802CC [227.650000 -71.164700 0.005000] 0.020795 0.000000 0.000000 0.999784 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x75F480BD, 0x75F48000, '2005-02-09 10:00:00') /* Banderling Paragon */
-     , (0x75F480BD, 0x75F48001, '2005-02-09 10:00:00') /* Banderling Hierophant */
-     , (0x75F480BD, 0x75F48002, '2005-02-09 10:00:00') /* Banderling Hierophant */
-     , (0x75F480BD, 0x75F48003, '2005-02-09 10:00:00') /* Banderling Paragon */
-     , (0x75F480BD, 0x75F48004, '2005-02-09 10:00:00') /* Banderling Hierophant */
-     , (0x75F480BD, 0x75F48005, '2005-02-09 10:00:00') /* Banderling Hierophant */
-     , (0x75F480BD, 0x75F48017, '2005-02-09 10:00:00') /* Harraag, Banderling Champion */
-     , (0x75F480BD, 0x75F48018, '2005-02-09 10:00:00') /* Banderling Champion */
-     , (0x75F480BD, 0x75F48019, '2005-02-09 10:00:00') /* Banderling Champion */
-     , (0x75F480BD, 0x75F4801A, '2005-02-09 10:00:00') /* Banderling Champion */
-     , (0x75F480BD, 0x75F4801B, '2005-02-09 10:00:00') /* Banderling Paragon */
-     , (0x75F480BD, 0x75F4804E, '2005-02-09 10:00:00') /* Banderling Hierophant */
-     , (0x75F480BD, 0x75F4804F, '2005-02-09 10:00:00') /* Banderling Hierophant */
-     , (0x75F480BD, 0x75F48050, '2005-02-09 10:00:00') /* Banderling Hierophant */
-     , (0x75F480BD, 0x75F48051, '2005-02-09 10:00:00') /* Banderling Hierophant */
-     , (0x75F480BD, 0x75F48052, '2005-02-09 10:00:00') /* Banderling Hierophant */
-     , (0x75F480BD, 0x75F48053, '2005-02-09 10:00:00') /* Banderling Hierophant */
-     , (0x75F480BD, 0x75F48054, '2005-02-09 10:00:00') /* Banderling Hierophant */
-     , (0x75F480BD, 0x75F48059, '2005-02-09 10:00:00') /* Banderling Paragon */
-     , (0x75F480BD, 0x75F48062, '2005-02-09 10:00:00') /* Banderling Paragon */
-     , (0x75F480BD, 0x75F48064, '2005-02-09 10:00:00') /* Drudge Seraph Mystic */
-     , (0x75F480BD, 0x75F48066, '2005-02-09 10:00:00') /* Drudge Seraph Mystic */
-     , (0x75F480BD, 0x75F48067, '2005-02-09 10:00:00') /* Drudge Seraph */
-     , (0x75F480BD, 0x75F48068, '2005-02-09 10:00:00') /* Drudge Seraph */
-     , (0x75F480BD, 0x75F48069, '2005-02-09 10:00:00') /* Drudge Seraph */
-     , (0x75F480BD, 0x75F4806A, '2005-02-09 10:00:00') /* Drudge Seraph */
-     , (0x75F480BD, 0x75F4806B, '2005-02-09 10:00:00') /* Drudge Seraph */
-     , (0x75F480BD, 0x75F4806C, '2005-02-09 10:00:00') /* Drudge Seraph */
-     , (0x75F480BD, 0x75F480A2, '2005-02-09 10:00:00') /* Banderling Paragon */
-     , (0x75F480BD, 0x75F480A7, '2005-02-09 10:00:00') /* Banderling Hierophant */
-     , (0x75F480BD, 0x75F480A8, '2005-02-09 10:00:00') /* Banderling Hierophant */
-     , (0x75F480BD, 0x75F480A9, '2005-02-09 10:00:00') /* Banderling Hierophant */
-     , (0x75F480BD, 0x75F480AA, '2005-02-09 10:00:00') /* Banderling Hierophant */
-     , (0x75F480BD, 0x75F480AB, '2005-02-09 10:00:00') /* Banderling Hierophant */
-     , (0x75F480BD, 0x75F480AC, '2005-02-09 10:00:00') /* Banderling Hierophant */
-     , (0x75F480BD, 0x75F480B4, '2005-02-09 10:00:00') /* Banderling Hierophant */
-     , (0x75F480BD, 0x75F480B9, '2005-02-09 10:00:00') /* Banderling Paragon */
-     , (0x75F480BD, 0x75F480BA, '2005-02-09 10:00:00') /* Banderling Paragon */
-     , (0x75F480BD, 0x75F480C1, '2005-02-09 10:00:00') /* Banderling Paragon */
-     , (0x75F480BD, 0x75F480C2, '2005-02-09 10:00:00') /* Banderling Paragon */;
+VALUES (0x75F480BD, 0x75F48000, '2005-02-09 10:00:00') /* Banderling Paragon (22898) */
+     , (0x75F480BD, 0x75F48001, '2005-02-09 10:00:00') /* Banderling Hierophant (22897) */
+     , (0x75F480BD, 0x75F48002, '2005-02-09 10:00:00') /* Banderling Hierophant (22897) */
+     , (0x75F480BD, 0x75F48003, '2005-02-09 10:00:00') /* Banderling Paragon (22898) */
+     , (0x75F480BD, 0x75F48004, '2005-02-09 10:00:00') /* Banderling Hierophant (22897) */
+     , (0x75F480BD, 0x75F48005, '2005-02-09 10:00:00') /* Banderling Hierophant (22897) */
+     , (0x75F480BD, 0x75F48017, '2005-02-09 10:00:00') /* Harraag, Banderling Champion (25568) */
+     , (0x75F480BD, 0x75F48018, '2005-02-09 10:00:00') /* Banderling Champion (25562) */
+     , (0x75F480BD, 0x75F48019, '2005-02-09 10:00:00') /* Banderling Champion (25562) */
+     , (0x75F480BD, 0x75F4801A, '2005-02-09 10:00:00') /* Banderling Champion (25562) */
+     , (0x75F480BD, 0x75F4801B, '2005-02-09 10:00:00') /* Banderling Paragon (22898) */
+     , (0x75F480BD, 0x75F4804E, '2005-02-09 10:00:00') /* Banderling Hierophant (22897) */
+     , (0x75F480BD, 0x75F4804F, '2005-02-09 10:00:00') /* Banderling Hierophant (22897) */
+     , (0x75F480BD, 0x75F48050, '2005-02-09 10:00:00') /* Banderling Hierophant (22897) */
+     , (0x75F480BD, 0x75F48051, '2005-02-09 10:00:00') /* Banderling Hierophant (22897) */
+     , (0x75F480BD, 0x75F48052, '2005-02-09 10:00:00') /* Banderling Hierophant (22897) */
+     , (0x75F480BD, 0x75F48053, '2005-02-09 10:00:00') /* Banderling Hierophant (22897) */
+     , (0x75F480BD, 0x75F48054, '2005-02-09 10:00:00') /* Banderling Hierophant (22897) */
+     , (0x75F480BD, 0x75F48059, '2005-02-09 10:00:00') /* Banderling Paragon (22898) */
+     , (0x75F480BD, 0x75F48062, '2005-02-09 10:00:00') /* Banderling Paragon (22898) */
+     , (0x75F480BD, 0x75F48064, '2005-02-09 10:00:00') /* Drudge Seraph Mystic (25563) */
+     , (0x75F480BD, 0x75F48066, '2005-02-09 10:00:00') /* Drudge Seraph Mystic (25563) */
+     , (0x75F480BD, 0x75F48067, '2005-02-09 10:00:00') /* Drudge Seraph (22899) */
+     , (0x75F480BD, 0x75F48068, '2005-02-09 10:00:00') /* Drudge Seraph (22899) */
+     , (0x75F480BD, 0x75F48069, '2005-02-09 10:00:00') /* Drudge Seraph (22899) */
+     , (0x75F480BD, 0x75F4806A, '2005-02-09 10:00:00') /* Drudge Seraph (22899) */
+     , (0x75F480BD, 0x75F4806B, '2005-02-09 10:00:00') /* Drudge Seraph (22899) */
+     , (0x75F480BD, 0x75F4806C, '2005-02-09 10:00:00') /* Drudge Seraph (22899) */
+     , (0x75F480BD, 0x75F480A2, '2005-02-09 10:00:00') /* Banderling Paragon (22898) */
+     , (0x75F480BD, 0x75F480A7, '2005-02-09 10:00:00') /* Banderling Hierophant (22897) */
+     , (0x75F480BD, 0x75F480A8, '2005-02-09 10:00:00') /* Banderling Hierophant (22897) */
+     , (0x75F480BD, 0x75F480A9, '2005-02-09 10:00:00') /* Banderling Hierophant (22897) */
+     , (0x75F480BD, 0x75F480AA, '2005-02-09 10:00:00') /* Banderling Hierophant (22897) */
+     , (0x75F480BD, 0x75F480AB, '2005-02-09 10:00:00') /* Banderling Hierophant (22897) */
+     , (0x75F480BD, 0x75F480AC, '2005-02-09 10:00:00') /* Banderling Hierophant (22897) */
+     , (0x75F480BD, 0x75F480B4, '2005-02-09 10:00:00') /* Banderling Hierophant (22897) */
+     , (0x75F480BD, 0x75F480B9, '2005-02-09 10:00:00') /* Banderling Paragon (22898) */
+     , (0x75F480BD, 0x75F480BA, '2005-02-09 10:00:00') /* Banderling Paragon (22898) */
+     , (0x75F480BD, 0x75F480C1, '2005-02-09 10:00:00') /* Banderling Paragon (22898) */
+     , (0x75F480BD, 0x75F480C2, '2005-02-09 10:00:00') /* Banderling Paragon (22898) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75F480BE,  7924, 0x5F4802CC, 233.753, -71.4187, 0.005, 0.0207946, 0, 0, 0.999784, False, '2005-02-09 10:00:00'); /* Linkable Monster Generator ( 5 Min.) */
 /* @teleloc 0x5F4802CC [233.753000 -71.418700 0.005000] 0.020795 0.000000 0.000000 0.999784 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x75F480BE, 0x75F48009, '2005-02-09 10:00:00') /* Drudge Seraph */
-     , (0x75F480BE, 0x75F4800A, '2005-02-09 10:00:00') /* Drudge Seraph Mystic */
-     , (0x75F480BE, 0x75F4800B, '2005-02-09 10:00:00') /* Drudge Seraph */
-     , (0x75F480BE, 0x75F4800C, '2005-02-09 10:00:00') /* Drudge Seraph */
-     , (0x75F480BE, 0x75F4800D, '2005-02-09 10:00:00') /* Drudge Seraph */
-     , (0x75F480BE, 0x75F4800E, '2005-02-09 10:00:00') /* Drudge Seraph */
-     , (0x75F480BE, 0x75F48010, '2005-02-09 10:00:00') /* Drudge Seraph Mystic */
-     , (0x75F480BE, 0x75F48014, '2005-02-09 10:00:00') /* Drudge Seraph Mystic */
-     , (0x75F480BE, 0x75F48015, '2005-02-09 10:00:00') /* Drudge Seraph */
-     , (0x75F480BE, 0x75F48016, '2005-02-09 10:00:00') /* Drudge Seraph */
-     , (0x75F480BE, 0x75F4803D, '2005-02-09 10:00:00') /* Drudge Seraph */
-     , (0x75F480BE, 0x75F4803E, '2005-02-09 10:00:00') /* Drudge Seraph */
-     , (0x75F480BE, 0x75F4803F, '2005-02-09 10:00:00') /* Drudge Seraph */
-     , (0x75F480BE, 0x75F48040, '2005-02-09 10:00:00') /* Drudge Seraph */
-     , (0x75F480BE, 0x75F48041, '2005-02-09 10:00:00') /* Drudge Seraph */
-     , (0x75F480BE, 0x75F48042, '2005-02-09 10:00:00') /* Drudge Seraph */
-     , (0x75F480BE, 0x75F48043, '2005-02-09 10:00:00') /* Drudge Seraph Mystic */
-     , (0x75F480BE, 0x75F48044, '2005-02-09 10:00:00') /* Drudge Seraph Mystic */
-     , (0x75F480BE, 0x75F48045, '2005-02-09 10:00:00') /* Drudge Seraph Mystic */
-     , (0x75F480BE, 0x75F48046, '2005-02-09 10:00:00') /* Drudge Seraph Mystic */
-     , (0x75F480BE, 0x75F48047, '2005-02-09 10:00:00') /* Drudge Seraph Mystic */
-     , (0x75F480BE, 0x75F48048, '2005-02-09 10:00:00') /* Drudge Seraph Mystic */
-     , (0x75F480BE, 0x75F4807C, '2005-02-09 10:00:00') /* Drudge Seraph */
-     , (0x75F480BE, 0x75F4807D, '2005-02-09 10:00:00') /* Drudge Seraph */
-     , (0x75F480BE, 0x75F4807E, '2005-02-09 10:00:00') /* Drudge Seraph */
-     , (0x75F480BE, 0x75F4809C, '2005-02-09 10:00:00') /* Drudge Seraph */
-     , (0x75F480BE, 0x75F4809D, '2005-02-09 10:00:00') /* Drudge Seraph */
-     , (0x75F480BE, 0x75F4809F, '2005-02-09 10:00:00') /* Drudge Seraph */
-     , (0x75F480BE, 0x75F480A0, '2005-02-09 10:00:00') /* Drudge Seraph */
-     , (0x75F480BE, 0x75F480A1, '2005-02-09 10:00:00') /* Drudge Seraph */
-     , (0x75F480BE, 0x75F480A5, '2005-02-09 10:00:00') /* Drudge Seraph */
-     , (0x75F480BE, 0x75F480A6, '2005-02-09 10:00:00') /* Drudge Seraph */;
+VALUES (0x75F480BE, 0x75F48009, '2005-02-09 10:00:00') /* Drudge Seraph (22899) */
+     , (0x75F480BE, 0x75F4800A, '2005-02-09 10:00:00') /* Drudge Seraph Mystic (25563) */
+     , (0x75F480BE, 0x75F4800B, '2005-02-09 10:00:00') /* Drudge Seraph (22899) */
+     , (0x75F480BE, 0x75F4800C, '2005-02-09 10:00:00') /* Drudge Seraph (22899) */
+     , (0x75F480BE, 0x75F4800D, '2005-02-09 10:00:00') /* Drudge Seraph (22899) */
+     , (0x75F480BE, 0x75F4800E, '2005-02-09 10:00:00') /* Drudge Seraph (22899) */
+     , (0x75F480BE, 0x75F48010, '2005-02-09 10:00:00') /* Drudge Seraph Mystic (25563) */
+     , (0x75F480BE, 0x75F48014, '2005-02-09 10:00:00') /* Drudge Seraph Mystic (25563) */
+     , (0x75F480BE, 0x75F48015, '2005-02-09 10:00:00') /* Drudge Seraph (22899) */
+     , (0x75F480BE, 0x75F48016, '2005-02-09 10:00:00') /* Drudge Seraph (22899) */
+     , (0x75F480BE, 0x75F4803D, '2005-02-09 10:00:00') /* Drudge Seraph (22899) */
+     , (0x75F480BE, 0x75F4803E, '2005-02-09 10:00:00') /* Drudge Seraph (22899) */
+     , (0x75F480BE, 0x75F4803F, '2005-02-09 10:00:00') /* Drudge Seraph (22899) */
+     , (0x75F480BE, 0x75F48040, '2005-02-09 10:00:00') /* Drudge Seraph (22899) */
+     , (0x75F480BE, 0x75F48041, '2005-02-09 10:00:00') /* Drudge Seraph (22899) */
+     , (0x75F480BE, 0x75F48042, '2005-02-09 10:00:00') /* Drudge Seraph (22899) */
+     , (0x75F480BE, 0x75F48043, '2005-02-09 10:00:00') /* Drudge Seraph Mystic (25563) */
+     , (0x75F480BE, 0x75F48044, '2005-02-09 10:00:00') /* Drudge Seraph Mystic (25563) */
+     , (0x75F480BE, 0x75F48045, '2005-02-09 10:00:00') /* Drudge Seraph Mystic (25563) */
+     , (0x75F480BE, 0x75F48046, '2005-02-09 10:00:00') /* Drudge Seraph Mystic (25563) */
+     , (0x75F480BE, 0x75F48047, '2005-02-09 10:00:00') /* Drudge Seraph Mystic (25563) */
+     , (0x75F480BE, 0x75F48048, '2005-02-09 10:00:00') /* Drudge Seraph Mystic (25563) */
+     , (0x75F480BE, 0x75F4807C, '2005-02-09 10:00:00') /* Drudge Seraph (22899) */
+     , (0x75F480BE, 0x75F4807D, '2005-02-09 10:00:00') /* Drudge Seraph (22899) */
+     , (0x75F480BE, 0x75F4807E, '2005-02-09 10:00:00') /* Drudge Seraph (22899) */
+     , (0x75F480BE, 0x75F4809C, '2005-02-09 10:00:00') /* Drudge Seraph (22899) */
+     , (0x75F480BE, 0x75F4809D, '2005-02-09 10:00:00') /* Drudge Seraph (22899) */
+     , (0x75F480BE, 0x75F4809F, '2005-02-09 10:00:00') /* Drudge Seraph (22899) */
+     , (0x75F480BE, 0x75F480A0, '2005-02-09 10:00:00') /* Drudge Seraph (22899) */
+     , (0x75F480BE, 0x75F480A1, '2005-02-09 10:00:00') /* Drudge Seraph (22899) */
+     , (0x75F480BE, 0x75F480A5, '2005-02-09 10:00:00') /* Drudge Seraph (22899) */
+     , (0x75F480BE, 0x75F480A6, '2005-02-09 10:00:00') /* Drudge Seraph (22899) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75F480BF,  7924, 0x5F4802CC, 225.917, -71.0926, 0.005, 0.0207946, 0, 0, 0.999784, False, '2005-02-09 10:00:00'); /* Linkable Monster Generator ( 5 Min.) */
 /* @teleloc 0x5F4802CC [225.917000 -71.092600 0.005000] 0.020795 0.000000 0.000000 0.999784 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x75F480BF, 0x75F4801D, '2005-02-09 10:00:00') /* Banderling Champion */
-     , (0x75F480BF, 0x75F4801E, '2005-02-09 10:00:00') /* Banderling Champion */
-     , (0x75F480BF, 0x75F4801F, '2005-02-09 10:00:00') /* Banderling Paragon */
-     , (0x75F480BF, 0x75F48020, '2005-02-09 10:00:00') /* Banderling Paragon */
-     , (0x75F480BF, 0x75F48021, '2005-02-09 10:00:00') /* Banderling Champion */
-     , (0x75F480BF, 0x75F48022, '2005-02-09 10:00:00') /* Banderling Champion */
-     , (0x75F480BF, 0x75F48023, '2005-02-09 10:00:00') /* Banderling Paragon */
-     , (0x75F480BF, 0x75F48024, '2005-02-09 10:00:00') /* Banderling Paragon */
-     , (0x75F480BF, 0x75F48025, '2005-02-09 10:00:00') /* Banderling Hierophant */
-     , (0x75F480BF, 0x75F48026, '2005-02-09 10:00:00') /* Banderling Hierophant */
-     , (0x75F480BF, 0x75F48027, '2005-02-09 10:00:00') /* Banderling Hierophant */
-     , (0x75F480BF, 0x75F48028, '2005-02-09 10:00:00') /* Banderling Hierophant */
-     , (0x75F480BF, 0x75F48029, '2005-02-09 10:00:00') /* Banderling Hierophant */
-     , (0x75F480BF, 0x75F4802A, '2005-02-09 10:00:00') /* Banderling Hierophant */
-     , (0x75F480BF, 0x75F48049, '2005-02-09 10:00:00') /* Banderling Hierophant */
-     , (0x75F480BF, 0x75F4804A, '2005-02-09 10:00:00') /* Banderling Hierophant */
-     , (0x75F480BF, 0x75F4804B, '2005-02-09 10:00:00') /* Banderling Hierophant */
-     , (0x75F480BF, 0x75F4804C, '2005-02-09 10:00:00') /* Banderling Champion */
-     , (0x75F480BF, 0x75F48055, '2005-02-09 10:00:00') /* Banderling Hierophant */
-     , (0x75F480BF, 0x75F48056, '2005-02-09 10:00:00') /* Banderling Hierophant */
-     , (0x75F480BF, 0x75F48057, '2005-02-09 10:00:00') /* Banderling Hierophant */
-     , (0x75F480BF, 0x75F48058, '2005-02-09 10:00:00') /* Banderling Hierophant */
-     , (0x75F480BF, 0x75F4805D, '2005-02-09 10:00:00') /* Banderling Champion */
-     , (0x75F480BF, 0x75F4805E, '2005-02-09 10:00:00') /* Banderling Hierophant */
-     , (0x75F480BF, 0x75F4805F, '2005-02-09 10:00:00') /* Banderling Hierophant */
-     , (0x75F480BF, 0x75F48060, '2005-02-09 10:00:00') /* Banderling Hierophant */
-     , (0x75F480BF, 0x75F48061, '2005-02-09 10:00:00') /* Banderling Hierophant */
-     , (0x75F480BF, 0x75F4807F, '2005-02-09 10:00:00') /* Banderling Paragon */
-     , (0x75F480BF, 0x75F48080, '2005-02-09 10:00:00') /* Banderling Champion */
-     , (0x75F480BF, 0x75F48081, '2005-02-09 10:00:00') /* Banderling Hierophant */
-     , (0x75F480BF, 0x75F48082, '2005-02-09 10:00:00') /* Banderling Hierophant */
-     , (0x75F480BF, 0x75F48084, '2005-02-09 10:00:00') /* Banderling Hierophant */
-     , (0x75F480BF, 0x75F48085, '2005-02-09 10:00:00') /* Banderling Paragon */
-     , (0x75F480BF, 0x75F48086, '2005-02-09 10:00:00') /* Banderling Paragon */
-     , (0x75F480BF, 0x75F48087, '2005-02-09 10:00:00') /* Banderling Paragon */
-     , (0x75F480BF, 0x75F48088, '2005-02-09 10:00:00') /* Banderling Hierophant */
-     , (0x75F480BF, 0x75F480A3, '2005-02-09 10:00:00') /* Banderling Paragon */
-     , (0x75F480BF, 0x75F480A4, '2005-02-09 10:00:00') /* Banderling Paragon */
-     , (0x75F480BF, 0x75F480AD, '2005-02-09 10:00:00') /* Banderling Hierophant */
-     , (0x75F480BF, 0x75F480AE, '2005-02-09 10:00:00') /* Banderling Hierophant */
-     , (0x75F480BF, 0x75F480AF, '2005-02-09 10:00:00') /* Banderling Paragon */
-     , (0x75F480BF, 0x75F480B0, '2005-02-09 10:00:00') /* Banderling Hierophant */
-     , (0x75F480BF, 0x75F480B1, '2005-02-09 10:00:00') /* Banderling Hierophant */
-     , (0x75F480BF, 0x75F480B2, '2005-02-09 10:00:00') /* Banderling Paragon */
-     , (0x75F480BF, 0x75F480B3, '2005-02-09 10:00:00') /* Banderling Champion */
-     , (0x75F480BF, 0x75F480B8, '2005-02-09 10:00:00') /* Banderling Hierophant */
-     , (0x75F480BF, 0x75F480BB, '2005-02-09 10:00:00') /* Banderling Champion */
-     , (0x75F480BF, 0x75F480BC, '2005-02-09 10:00:00') /* Banderling Paragon */
-     , (0x75F480BF, 0x75F480C3, '2005-02-09 10:00:00') /* Banderling Paragon */
-     , (0x75F480BF, 0x75F480C4, '2005-02-09 10:00:00') /* Banderling Paragon */
-     , (0x75F480BF, 0x75F480C6, '2005-02-09 10:00:00') /* Banderling Hierophant */;
+VALUES (0x75F480BF, 0x75F4801D, '2005-02-09 10:00:00') /* Banderling Champion (25562) */
+     , (0x75F480BF, 0x75F4801E, '2005-02-09 10:00:00') /* Banderling Champion (25562) */
+     , (0x75F480BF, 0x75F4801F, '2005-02-09 10:00:00') /* Banderling Paragon (22898) */
+     , (0x75F480BF, 0x75F48020, '2005-02-09 10:00:00') /* Banderling Paragon (22898) */
+     , (0x75F480BF, 0x75F48021, '2005-02-09 10:00:00') /* Banderling Champion (25562) */
+     , (0x75F480BF, 0x75F48022, '2005-02-09 10:00:00') /* Banderling Champion (25562) */
+     , (0x75F480BF, 0x75F48023, '2005-02-09 10:00:00') /* Banderling Paragon (22898) */
+     , (0x75F480BF, 0x75F48024, '2005-02-09 10:00:00') /* Banderling Paragon (22898) */
+     , (0x75F480BF, 0x75F48025, '2005-02-09 10:00:00') /* Banderling Hierophant (22897) */
+     , (0x75F480BF, 0x75F48026, '2005-02-09 10:00:00') /* Banderling Hierophant (22897) */
+     , (0x75F480BF, 0x75F48027, '2005-02-09 10:00:00') /* Banderling Hierophant (22897) */
+     , (0x75F480BF, 0x75F48028, '2005-02-09 10:00:00') /* Banderling Hierophant (22897) */
+     , (0x75F480BF, 0x75F48029, '2005-02-09 10:00:00') /* Banderling Hierophant (22897) */
+     , (0x75F480BF, 0x75F4802A, '2005-02-09 10:00:00') /* Banderling Hierophant (22897) */
+     , (0x75F480BF, 0x75F48049, '2005-02-09 10:00:00') /* Banderling Hierophant (22897) */
+     , (0x75F480BF, 0x75F4804A, '2005-02-09 10:00:00') /* Banderling Hierophant (22897) */
+     , (0x75F480BF, 0x75F4804B, '2005-02-09 10:00:00') /* Banderling Hierophant (22897) */
+     , (0x75F480BF, 0x75F4804C, '2005-02-09 10:00:00') /* Banderling Champion (25562) */
+     , (0x75F480BF, 0x75F48055, '2005-02-09 10:00:00') /* Banderling Hierophant (22897) */
+     , (0x75F480BF, 0x75F48056, '2005-02-09 10:00:00') /* Banderling Hierophant (22897) */
+     , (0x75F480BF, 0x75F48057, '2005-02-09 10:00:00') /* Banderling Hierophant (22897) */
+     , (0x75F480BF, 0x75F48058, '2005-02-09 10:00:00') /* Banderling Hierophant (22897) */
+     , (0x75F480BF, 0x75F4805D, '2005-02-09 10:00:00') /* Banderling Champion (25562) */
+     , (0x75F480BF, 0x75F4805E, '2005-02-09 10:00:00') /* Banderling Hierophant (22897) */
+     , (0x75F480BF, 0x75F4805F, '2005-02-09 10:00:00') /* Banderling Hierophant (22897) */
+     , (0x75F480BF, 0x75F48060, '2005-02-09 10:00:00') /* Banderling Hierophant (22897) */
+     , (0x75F480BF, 0x75F48061, '2005-02-09 10:00:00') /* Banderling Hierophant (22897) */
+     , (0x75F480BF, 0x75F4807F, '2005-02-09 10:00:00') /* Banderling Paragon (22898) */
+     , (0x75F480BF, 0x75F48080, '2005-02-09 10:00:00') /* Banderling Champion (25562) */
+     , (0x75F480BF, 0x75F48081, '2005-02-09 10:00:00') /* Banderling Hierophant (22897) */
+     , (0x75F480BF, 0x75F48082, '2005-02-09 10:00:00') /* Banderling Hierophant (22897) */
+     , (0x75F480BF, 0x75F48084, '2005-02-09 10:00:00') /* Banderling Hierophant (22897) */
+     , (0x75F480BF, 0x75F48085, '2005-02-09 10:00:00') /* Banderling Paragon (22898) */
+     , (0x75F480BF, 0x75F48086, '2005-02-09 10:00:00') /* Banderling Paragon (22898) */
+     , (0x75F480BF, 0x75F48087, '2005-02-09 10:00:00') /* Banderling Paragon (22898) */
+     , (0x75F480BF, 0x75F48088, '2005-02-09 10:00:00') /* Banderling Hierophant (22897) */
+     , (0x75F480BF, 0x75F480A3, '2005-02-09 10:00:00') /* Banderling Paragon (22898) */
+     , (0x75F480BF, 0x75F480A4, '2005-02-09 10:00:00') /* Banderling Paragon (22898) */
+     , (0x75F480BF, 0x75F480AD, '2005-02-09 10:00:00') /* Banderling Hierophant (22897) */
+     , (0x75F480BF, 0x75F480AE, '2005-02-09 10:00:00') /* Banderling Hierophant (22897) */
+     , (0x75F480BF, 0x75F480AF, '2005-02-09 10:00:00') /* Banderling Paragon (22898) */
+     , (0x75F480BF, 0x75F480B0, '2005-02-09 10:00:00') /* Banderling Hierophant (22897) */
+     , (0x75F480BF, 0x75F480B1, '2005-02-09 10:00:00') /* Banderling Hierophant (22897) */
+     , (0x75F480BF, 0x75F480B2, '2005-02-09 10:00:00') /* Banderling Paragon (22898) */
+     , (0x75F480BF, 0x75F480B3, '2005-02-09 10:00:00') /* Banderling Champion (25562) */
+     , (0x75F480BF, 0x75F480B8, '2005-02-09 10:00:00') /* Banderling Hierophant (22897) */
+     , (0x75F480BF, 0x75F480BB, '2005-02-09 10:00:00') /* Banderling Champion (25562) */
+     , (0x75F480BF, 0x75F480BC, '2005-02-09 10:00:00') /* Banderling Paragon (22898) */
+     , (0x75F480BF, 0x75F480C3, '2005-02-09 10:00:00') /* Banderling Paragon (22898) */
+     , (0x75F480BF, 0x75F480C4, '2005-02-09 10:00:00') /* Banderling Paragon (22898) */
+     , (0x75F480BF, 0x75F480C6, '2005-02-09 10:00:00') /* Banderling Hierophant (22897) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75F480C0,  7924, 0x5F4802D3, 235.255, -71.4812, 0.005, 0.0207946, 0, 0, 0.999784, False, '2005-02-09 10:00:00'); /* Linkable Monster Generator ( 5 Min.) */
 /* @teleloc 0x5F4802D3 [235.255000 -71.481200 0.005000] 0.020795 0.000000 0.000000 0.999784 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x75F480C0, 0x75F4802B, '2005-02-09 10:00:00') /* Drudge Seraph */
-     , (0x75F480C0, 0x75F4802C, '2005-02-09 10:00:00') /* Drudge Seraph */
-     , (0x75F480C0, 0x75F4802D, '2005-02-09 10:00:00') /* Drudge Seraph */
-     , (0x75F480C0, 0x75F4802E, '2005-02-09 10:00:00') /* Drudge Seraph */
-     , (0x75F480C0, 0x75F4802F, '2005-02-09 10:00:00') /* Drudge Seraph Mystic */
-     , (0x75F480C0, 0x75F48030, '2005-02-09 10:00:00') /* Drudge Seraph */
-     , (0x75F480C0, 0x75F48031, '2005-02-09 10:00:00') /* Drudge Seraph Mystic */
-     , (0x75F480C0, 0x75F48032, '2005-02-09 10:00:00') /* Drudge Seraph */
-     , (0x75F480C0, 0x75F48033, '2005-02-09 10:00:00') /* Drudge Seraph Mystic */
-     , (0x75F480C0, 0x75F48034, '2005-02-09 10:00:00') /* Drudge Seraph */
-     , (0x75F480C0, 0x75F48035, '2005-02-09 10:00:00') /* Drudge Seraph Mystic */
-     , (0x75F480C0, 0x75F48036, '2005-02-09 10:00:00') /* Drudge Seraph */
-     , (0x75F480C0, 0x75F48037, '2005-02-09 10:00:00') /* Drudge Seraph */
-     , (0x75F480C0, 0x75F48038, '2005-02-09 10:00:00') /* Drudge Seraph Mystic */
-     , (0x75F480C0, 0x75F48039, '2005-02-09 10:00:00') /* Drudge Seraph */
-     , (0x75F480C0, 0x75F4803A, '2005-02-09 10:00:00') /* Drudge Seraph Mystic */
-     , (0x75F480C0, 0x75F4803B, '2005-02-09 10:00:00') /* Drudge Seraph */
-     , (0x75F480C0, 0x75F4803C, '2005-02-09 10:00:00') /* Drudge Seraph */
-     , (0x75F480C0, 0x75F48065, '2005-02-09 10:00:00') /* Scrum, Drudge Seraph Mystic */
-     , (0x75F480C0, 0x75F4806D, '2005-02-09 10:00:00') /* Drudge Seraph Mystic */
-     , (0x75F480C0, 0x75F4806E, '2005-02-09 10:00:00') /* Drudge Seraph Mystic */
-     , (0x75F480C0, 0x75F48070, '2005-02-09 10:00:00') /* Drudge Seraph Mystic */
-     , (0x75F480C0, 0x75F48071, '2005-02-09 10:00:00') /* Drudge Seraph Mystic */
-     , (0x75F480C0, 0x75F48072, '2005-02-09 10:00:00') /* Drudge Seraph Mystic */
-     , (0x75F480C0, 0x75F48073, '2005-02-09 10:00:00') /* Drudge Seraph Mystic */
-     , (0x75F480C0, 0x75F48074, '2005-02-09 10:00:00') /* Drudge Seraph Mystic */
-     , (0x75F480C0, 0x75F48075, '2005-02-09 10:00:00') /* Drudge Seraph Mystic */
-     , (0x75F480C0, 0x75F48076, '2005-02-09 10:00:00') /* Drudge Seraph Mystic */
-     , (0x75F480C0, 0x75F48078, '2005-02-09 10:00:00') /* Drudge Seraph */
-     , (0x75F480C0, 0x75F48079, '2005-02-09 10:00:00') /* Drudge Seraph */
-     , (0x75F480C0, 0x75F4807A, '2005-02-09 10:00:00') /* Drudge Seraph */
-     , (0x75F480C0, 0x75F4807B, '2005-02-09 10:00:00') /* Drudge Seraph */
-     , (0x75F480C0, 0x75F48089, '2005-02-09 10:00:00') /* Drudge Seraph */
-     , (0x75F480C0, 0x75F4808A, '2005-02-09 10:00:00') /* Drudge Seraph */
-     , (0x75F480C0, 0x75F4808B, '2005-02-09 10:00:00') /* Drudge Seraph */
-     , (0x75F480C0, 0x75F4808C, '2005-02-09 10:00:00') /* Drudge Seraph */
-     , (0x75F480C0, 0x75F4808D, '2005-02-09 10:00:00') /* Drudge Seraph */
-     , (0x75F480C0, 0x75F4808E, '2005-02-09 10:00:00') /* Drudge Seraph */
-     , (0x75F480C0, 0x75F4808F, '2005-02-09 10:00:00') /* Drudge Seraph */
-     , (0x75F480C0, 0x75F48090, '2005-02-09 10:00:00') /* Drudge Seraph */
-     , (0x75F480C0, 0x75F48091, '2005-02-09 10:00:00') /* Drudge Seraph Mystic */
-     , (0x75F480C0, 0x75F48092, '2005-02-09 10:00:00') /* Drudge Seraph Mystic */
-     , (0x75F480C0, 0x75F48093, '2005-02-09 10:00:00') /* Drudge Seraph Mystic */
-     , (0x75F480C0, 0x75F48094, '2005-02-09 10:00:00') /* Drudge Seraph Mystic */
-     , (0x75F480C0, 0x75F48095, '2005-02-09 10:00:00') /* Drudge Seraph */
-     , (0x75F480C0, 0x75F48096, '2005-02-09 10:00:00') /* Drudge Seraph */
-     , (0x75F480C0, 0x75F48099, '2005-02-09 10:00:00') /* Drudge Seraph */
-     , (0x75F480C0, 0x75F4809A, '2005-02-09 10:00:00') /* Drudge Seraph */
-     , (0x75F480C0, 0x75F4809B, '2005-02-09 10:00:00') /* Drudge Seraph Mystic */;
+VALUES (0x75F480C0, 0x75F4802B, '2005-02-09 10:00:00') /* Drudge Seraph (22899) */
+     , (0x75F480C0, 0x75F4802C, '2005-02-09 10:00:00') /* Drudge Seraph (22899) */
+     , (0x75F480C0, 0x75F4802D, '2005-02-09 10:00:00') /* Drudge Seraph (22899) */
+     , (0x75F480C0, 0x75F4802E, '2005-02-09 10:00:00') /* Drudge Seraph (22899) */
+     , (0x75F480C0, 0x75F4802F, '2005-02-09 10:00:00') /* Drudge Seraph Mystic (25563) */
+     , (0x75F480C0, 0x75F48030, '2005-02-09 10:00:00') /* Drudge Seraph (22899) */
+     , (0x75F480C0, 0x75F48031, '2005-02-09 10:00:00') /* Drudge Seraph Mystic (25563) */
+     , (0x75F480C0, 0x75F48032, '2005-02-09 10:00:00') /* Drudge Seraph (22899) */
+     , (0x75F480C0, 0x75F48033, '2005-02-09 10:00:00') /* Drudge Seraph Mystic (25563) */
+     , (0x75F480C0, 0x75F48034, '2005-02-09 10:00:00') /* Drudge Seraph (22899) */
+     , (0x75F480C0, 0x75F48035, '2005-02-09 10:00:00') /* Drudge Seraph Mystic (25563) */
+     , (0x75F480C0, 0x75F48036, '2005-02-09 10:00:00') /* Drudge Seraph (22899) */
+     , (0x75F480C0, 0x75F48037, '2005-02-09 10:00:00') /* Drudge Seraph (22899) */
+     , (0x75F480C0, 0x75F48038, '2005-02-09 10:00:00') /* Drudge Seraph Mystic (25563) */
+     , (0x75F480C0, 0x75F48039, '2005-02-09 10:00:00') /* Drudge Seraph (22899) */
+     , (0x75F480C0, 0x75F4803A, '2005-02-09 10:00:00') /* Drudge Seraph Mystic (25563) */
+     , (0x75F480C0, 0x75F4803B, '2005-02-09 10:00:00') /* Drudge Seraph (22899) */
+     , (0x75F480C0, 0x75F4803C, '2005-02-09 10:00:00') /* Drudge Seraph (22899) */
+     , (0x75F480C0, 0x75F48065, '2005-02-09 10:00:00') /* Scrum, Drudge Seraph Mystic (25569) */
+     , (0x75F480C0, 0x75F4806D, '2005-02-09 10:00:00') /* Drudge Seraph Mystic (25563) */
+     , (0x75F480C0, 0x75F4806E, '2005-02-09 10:00:00') /* Drudge Seraph Mystic (25563) */
+     , (0x75F480C0, 0x75F48070, '2005-02-09 10:00:00') /* Drudge Seraph Mystic (25563) */
+     , (0x75F480C0, 0x75F48071, '2005-02-09 10:00:00') /* Drudge Seraph Mystic (25563) */
+     , (0x75F480C0, 0x75F48072, '2005-02-09 10:00:00') /* Drudge Seraph Mystic (25563) */
+     , (0x75F480C0, 0x75F48073, '2005-02-09 10:00:00') /* Drudge Seraph Mystic (25563) */
+     , (0x75F480C0, 0x75F48074, '2005-02-09 10:00:00') /* Drudge Seraph Mystic (25563) */
+     , (0x75F480C0, 0x75F48075, '2005-02-09 10:00:00') /* Drudge Seraph Mystic (25563) */
+     , (0x75F480C0, 0x75F48076, '2005-02-09 10:00:00') /* Drudge Seraph Mystic (25563) */
+     , (0x75F480C0, 0x75F48078, '2005-02-09 10:00:00') /* Drudge Seraph (22899) */
+     , (0x75F480C0, 0x75F48079, '2005-02-09 10:00:00') /* Drudge Seraph (22899) */
+     , (0x75F480C0, 0x75F4807A, '2005-02-09 10:00:00') /* Drudge Seraph (22899) */
+     , (0x75F480C0, 0x75F4807B, '2005-02-09 10:00:00') /* Drudge Seraph (22899) */
+     , (0x75F480C0, 0x75F48089, '2005-02-09 10:00:00') /* Drudge Seraph (22899) */
+     , (0x75F480C0, 0x75F4808A, '2005-02-09 10:00:00') /* Drudge Seraph (22899) */
+     , (0x75F480C0, 0x75F4808B, '2005-02-09 10:00:00') /* Drudge Seraph (22899) */
+     , (0x75F480C0, 0x75F4808C, '2005-02-09 10:00:00') /* Drudge Seraph (22899) */
+     , (0x75F480C0, 0x75F4808D, '2005-02-09 10:00:00') /* Drudge Seraph (22899) */
+     , (0x75F480C0, 0x75F4808E, '2005-02-09 10:00:00') /* Drudge Seraph (22899) */
+     , (0x75F480C0, 0x75F4808F, '2005-02-09 10:00:00') /* Drudge Seraph (22899) */
+     , (0x75F480C0, 0x75F48090, '2005-02-09 10:00:00') /* Drudge Seraph (22899) */
+     , (0x75F480C0, 0x75F48091, '2005-02-09 10:00:00') /* Drudge Seraph Mystic (25563) */
+     , (0x75F480C0, 0x75F48092, '2005-02-09 10:00:00') /* Drudge Seraph Mystic (25563) */
+     , (0x75F480C0, 0x75F48093, '2005-02-09 10:00:00') /* Drudge Seraph Mystic (25563) */
+     , (0x75F480C0, 0x75F48094, '2005-02-09 10:00:00') /* Drudge Seraph Mystic (25563) */
+     , (0x75F480C0, 0x75F48095, '2005-02-09 10:00:00') /* Drudge Seraph (22899) */
+     , (0x75F480C0, 0x75F48096, '2005-02-09 10:00:00') /* Drudge Seraph (22899) */
+     , (0x75F480C0, 0x75F48099, '2005-02-09 10:00:00') /* Drudge Seraph (22899) */
+     , (0x75F480C0, 0x75F4809A, '2005-02-09 10:00:00') /* Drudge Seraph (22899) */
+     , (0x75F480C0, 0x75F4809B, '2005-02-09 10:00:00') /* Drudge Seraph Mystic (25563) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75F480C1, 22898, 0x5F4802D5, 282.367, -70.8086, 0.00825, 0.694828, 0, 0, 0.719176,  True, '2005-02-09 10:00:00'); /* Banderling Paragon */
@@ -1001,7 +1001,7 @@ VALUES (0x75F480CE, 15759, 0x5F4801B6, -1.79583, -35.5864, -17.995, 0.74629, 0, 
 /* @teleloc 0x5F4801B6 [-1.795830 -35.586400 -17.995000] 0.746290 0.000000 0.000000 -0.665621 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x75F480CE, 0x75F480CD, '2005-02-09 10:00:00') /* Obsidian Shard */;
+VALUES (0x75F480CE, 0x75F480CD, '2005-02-09 10:00:00') /* Obsidian Shard (25575) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75F480CF, 25565, 0x5F480258, 156.7, -50, -11.995, 0.707107, 0, 0, -0.707107, False, '2005-02-09 10:00:00'); /* Sealed Door */

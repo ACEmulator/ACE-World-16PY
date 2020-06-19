@@ -37,56 +37,56 @@ VALUES (0x703A4008,  7924, 0x03A40134, 30, -40, -5.995, 1, 0, 0, 0, False, '2005
 /* @teleloc 0x03A40134 [30.000000 -40.000000 -5.995000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x703A4008, 0x703A4000, '2005-02-09 10:00:00') /* Virindi Master */
-     , (0x703A4008, 0x703A4002, '2005-02-09 10:00:00') /* Virindi Master */
-     , (0x703A4008, 0x703A4003, '2005-02-09 10:00:00') /* Virindi Master */
-     , (0x703A4008, 0x703A4004, '2005-02-09 10:00:00') /* Drudge Ravener */
-     , (0x703A4008, 0x703A4005, '2005-02-09 10:00:00') /* Drudge Ravener */
-     , (0x703A4008, 0x703A4006, '2005-02-09 10:00:00') /* Drudge Ravener */
-     , (0x703A4008, 0x703A4009, '2005-02-09 10:00:00') /* Sneaky Simulacrum */
-     , (0x703A4008, 0x703A400A, '2005-02-09 10:00:00') /* Sneaky Simulacrum */
-     , (0x703A4008, 0x703A400B, '2005-02-09 10:00:00') /* Sneaky Simulacrum */
-     , (0x703A4008, 0x703A400C, '2005-02-09 10:00:00') /* Subtle Simulacrum */
-     , (0x703A4008, 0x703A400D, '2005-02-09 10:00:00') /* Subtle Simulacrum */
-     , (0x703A4008, 0x703A400E, '2005-02-09 10:00:00') /* Drudge Ravener */
-     , (0x703A4008, 0x703A400F, '2005-02-09 10:00:00') /* Drudge Ravener */
-     , (0x703A4008, 0x703A4010, '2005-02-09 10:00:00') /* Drudge Ravener */
-     , (0x703A4008, 0x703A4011, '2005-02-09 10:00:00') /* Virindi Servant */
-     , (0x703A4008, 0x703A4012, '2005-02-09 10:00:00') /* Drudge Ravener */
-     , (0x703A4008, 0x703A4013, '2005-02-09 10:00:00') /* Drudge Ravener */
-     , (0x703A4008, 0x703A4016, '2005-02-09 10:00:00') /* Subtle Simulacrum */
-     , (0x703A4008, 0x703A4017, '2005-02-09 10:00:00') /* Drudge Ravener */
-     , (0x703A4008, 0x703A4018, '2005-02-09 10:00:00') /* Virindi Servant */
-     , (0x703A4008, 0x703A4019, '2005-02-09 10:00:00') /* Sneaky Simulacrum */
-     , (0x703A4008, 0x703A401A, '2005-02-09 10:00:00') /* Sneaky Simulacrum */
-     , (0x703A4008, 0x703A401B, '2005-02-09 10:00:00') /* Sneaky Simulacrum */
-     , (0x703A4008, 0x703A4021, '2005-02-09 10:00:00') /* Subtle Simulacrum */
-     , (0x703A4008, 0x703A4022, '2005-02-09 10:00:00') /* Drudge Ravener */
-     , (0x703A4008, 0x703A4023, '2005-02-09 10:00:00') /* Drudge Ravener */
-     , (0x703A4008, 0x703A4024, '2005-02-09 10:00:00') /* Virindi Servant */
-     , (0x703A4008, 0x703A4025, '2005-02-09 10:00:00') /* Sneaky Simulacrum */
-     , (0x703A4008, 0x703A4026, '2005-02-09 10:00:00') /* Sneaky Simulacrum */
-     , (0x703A4008, 0x703A4027, '2005-02-09 10:00:00') /* Sneaky Simulacrum */
-     , (0x703A4008, 0x703A4028, '2005-02-09 10:00:00') /* Sneaky Simulacrum */
-     , (0x703A4008, 0x703A4029, '2005-02-09 10:00:00') /* Sneaky Simulacrum */
-     , (0x703A4008, 0x703A402A, '2005-02-09 10:00:00') /* Subtle Simulacrum */
-     , (0x703A4008, 0x703A402B, '2005-02-09 10:00:00') /* Sneaky Simulacrum */
-     , (0x703A4008, 0x703A402C, '2005-02-09 10:00:00') /* Sneaky Simulacrum */
-     , (0x703A4008, 0x703A402D, '2005-02-09 10:00:00') /* Sneaky Simulacrum */
-     , (0x703A4008, 0x703A402E, '2005-02-09 10:00:00') /* Sneaky Simulacrum */
-     , (0x703A4008, 0x703A402F, '2005-02-09 10:00:00') /* Sneaky Simulacrum */
-     , (0x703A4008, 0x703A4030, '2005-02-09 10:00:00') /* Sneaky Simulacrum */
-     , (0x703A4008, 0x703A4031, '2005-02-09 10:00:00') /* Sneaky Simulacrum */
-     , (0x703A4008, 0x703A4032, '2005-02-09 10:00:00') /* Subtle Simulacrum */
-     , (0x703A4008, 0x703A4033, '2005-02-09 10:00:00') /* Sneaky Simulacrum */
-     , (0x703A4008, 0x703A4034, '2005-02-09 10:00:00') /* Sneaky Simulacrum */
-     , (0x703A4008, 0x703A4035, '2005-02-09 10:00:00') /* Subtle Simulacrum */
-     , (0x703A4008, 0x703A4036, '2005-02-09 10:00:00') /* Sneaky Simulacrum */
-     , (0x703A4008, 0x703A4037, '2005-02-09 10:00:00') /* Sneaky Simulacrum */
-     , (0x703A4008, 0x703A4038, '2005-02-09 10:00:00') /* Sneaky Simulacrum */
-     , (0x703A4008, 0x703A4039, '2005-02-09 10:00:00') /* Sneaky Simulacrum */
-     , (0x703A4008, 0x703A403A, '2005-02-09 10:00:00') /* Sneaky Simulacrum */
-     , (0x703A4008, 0x703A403B, '2005-02-09 10:00:00') /* Sneaky Simulacrum */;
+VALUES (0x703A4008, 0x703A4000, '2005-02-09 10:00:00') /* Virindi Master (237) */
+     , (0x703A4008, 0x703A4002, '2005-02-09 10:00:00') /* Virindi Master (237) */
+     , (0x703A4008, 0x703A4003, '2005-02-09 10:00:00') /* Virindi Master (237) */
+     , (0x703A4008, 0x703A4004, '2005-02-09 10:00:00') /* Drudge Ravener (1610) */
+     , (0x703A4008, 0x703A4005, '2005-02-09 10:00:00') /* Drudge Ravener (1610) */
+     , (0x703A4008, 0x703A4006, '2005-02-09 10:00:00') /* Drudge Ravener (1610) */
+     , (0x703A4008, 0x703A4009, '2005-02-09 10:00:00') /* Sneaky Simulacrum (12133) */
+     , (0x703A4008, 0x703A400A, '2005-02-09 10:00:00') /* Sneaky Simulacrum (12133) */
+     , (0x703A4008, 0x703A400B, '2005-02-09 10:00:00') /* Sneaky Simulacrum (12133) */
+     , (0x703A4008, 0x703A400C, '2005-02-09 10:00:00') /* Subtle Simulacrum (12134) */
+     , (0x703A4008, 0x703A400D, '2005-02-09 10:00:00') /* Subtle Simulacrum (12134) */
+     , (0x703A4008, 0x703A400E, '2005-02-09 10:00:00') /* Drudge Ravener (1610) */
+     , (0x703A4008, 0x703A400F, '2005-02-09 10:00:00') /* Drudge Ravener (1610) */
+     , (0x703A4008, 0x703A4010, '2005-02-09 10:00:00') /* Drudge Ravener (1610) */
+     , (0x703A4008, 0x703A4011, '2005-02-09 10:00:00') /* Virindi Servant (23) */
+     , (0x703A4008, 0x703A4012, '2005-02-09 10:00:00') /* Drudge Ravener (1610) */
+     , (0x703A4008, 0x703A4013, '2005-02-09 10:00:00') /* Drudge Ravener (1610) */
+     , (0x703A4008, 0x703A4016, '2005-02-09 10:00:00') /* Subtle Simulacrum (12134) */
+     , (0x703A4008, 0x703A4017, '2005-02-09 10:00:00') /* Drudge Ravener (1610) */
+     , (0x703A4008, 0x703A4018, '2005-02-09 10:00:00') /* Virindi Servant (23) */
+     , (0x703A4008, 0x703A4019, '2005-02-09 10:00:00') /* Sneaky Simulacrum (12133) */
+     , (0x703A4008, 0x703A401A, '2005-02-09 10:00:00') /* Sneaky Simulacrum (12133) */
+     , (0x703A4008, 0x703A401B, '2005-02-09 10:00:00') /* Sneaky Simulacrum (12133) */
+     , (0x703A4008, 0x703A4021, '2005-02-09 10:00:00') /* Subtle Simulacrum (12134) */
+     , (0x703A4008, 0x703A4022, '2005-02-09 10:00:00') /* Drudge Ravener (1610) */
+     , (0x703A4008, 0x703A4023, '2005-02-09 10:00:00') /* Drudge Ravener (1610) */
+     , (0x703A4008, 0x703A4024, '2005-02-09 10:00:00') /* Virindi Servant (23) */
+     , (0x703A4008, 0x703A4025, '2005-02-09 10:00:00') /* Sneaky Simulacrum (12133) */
+     , (0x703A4008, 0x703A4026, '2005-02-09 10:00:00') /* Sneaky Simulacrum (12133) */
+     , (0x703A4008, 0x703A4027, '2005-02-09 10:00:00') /* Sneaky Simulacrum (12133) */
+     , (0x703A4008, 0x703A4028, '2005-02-09 10:00:00') /* Sneaky Simulacrum (12133) */
+     , (0x703A4008, 0x703A4029, '2005-02-09 10:00:00') /* Sneaky Simulacrum (12133) */
+     , (0x703A4008, 0x703A402A, '2005-02-09 10:00:00') /* Subtle Simulacrum (12134) */
+     , (0x703A4008, 0x703A402B, '2005-02-09 10:00:00') /* Sneaky Simulacrum (12133) */
+     , (0x703A4008, 0x703A402C, '2005-02-09 10:00:00') /* Sneaky Simulacrum (12133) */
+     , (0x703A4008, 0x703A402D, '2005-02-09 10:00:00') /* Sneaky Simulacrum (12133) */
+     , (0x703A4008, 0x703A402E, '2005-02-09 10:00:00') /* Sneaky Simulacrum (12133) */
+     , (0x703A4008, 0x703A402F, '2005-02-09 10:00:00') /* Sneaky Simulacrum (12133) */
+     , (0x703A4008, 0x703A4030, '2005-02-09 10:00:00') /* Sneaky Simulacrum (12133) */
+     , (0x703A4008, 0x703A4031, '2005-02-09 10:00:00') /* Sneaky Simulacrum (12133) */
+     , (0x703A4008, 0x703A4032, '2005-02-09 10:00:00') /* Subtle Simulacrum (12134) */
+     , (0x703A4008, 0x703A4033, '2005-02-09 10:00:00') /* Sneaky Simulacrum (12133) */
+     , (0x703A4008, 0x703A4034, '2005-02-09 10:00:00') /* Sneaky Simulacrum (12133) */
+     , (0x703A4008, 0x703A4035, '2005-02-09 10:00:00') /* Subtle Simulacrum (12134) */
+     , (0x703A4008, 0x703A4036, '2005-02-09 10:00:00') /* Sneaky Simulacrum (12133) */
+     , (0x703A4008, 0x703A4037, '2005-02-09 10:00:00') /* Sneaky Simulacrum (12133) */
+     , (0x703A4008, 0x703A4038, '2005-02-09 10:00:00') /* Sneaky Simulacrum (12133) */
+     , (0x703A4008, 0x703A4039, '2005-02-09 10:00:00') /* Sneaky Simulacrum (12133) */
+     , (0x703A4008, 0x703A403A, '2005-02-09 10:00:00') /* Sneaky Simulacrum (12133) */
+     , (0x703A4008, 0x703A403B, '2005-02-09 10:00:00') /* Sneaky Simulacrum (12133) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x703A4009, 12133, 0x03A40138, 28.343, -181.463, -5.995, 0.839541, 0, 0, -0.543297,  True, '2005-02-09 10:00:00'); /* Sneaky Simulacrum */
@@ -177,12 +177,12 @@ VALUES (0x703A401E,  7923, 0x03A401A4, 90, -389.79, -5.995, 1, 0, 0, 0, False, '
 /* @teleloc 0x03A401A4 [90.000000 -389.790000 -5.995000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x703A401E, 0x703A4014, '2005-02-09 10:00:00') /* Sneaky Simulacrum */
-     , (0x703A401E, 0x703A4015, '2005-02-09 10:00:00') /* Subtle Simulacrum */
-     , (0x703A401E, 0x703A401C, '2005-02-09 10:00:00') /* Subtle Simulacrum */
-     , (0x703A401E, 0x703A401D, '2005-02-09 10:00:00') /* The Crafter */
-     , (0x703A401E, 0x703A401F, '2005-02-09 10:00:00') /* Subtle Simulacrum */
-     , (0x703A401E, 0x703A4020, '2005-02-09 10:00:00') /* Sneaky Simulacrum */;
+VALUES (0x703A401E, 0x703A4014, '2005-02-09 10:00:00') /* Sneaky Simulacrum (12133) */
+     , (0x703A401E, 0x703A4015, '2005-02-09 10:00:00') /* Subtle Simulacrum (12134) */
+     , (0x703A401E, 0x703A401C, '2005-02-09 10:00:00') /* Subtle Simulacrum (12134) */
+     , (0x703A401E, 0x703A401D, '2005-02-09 10:00:00') /* The Crafter (12129) */
+     , (0x703A401E, 0x703A401F, '2005-02-09 10:00:00') /* Subtle Simulacrum (12134) */
+     , (0x703A401E, 0x703A4020, '2005-02-09 10:00:00') /* Sneaky Simulacrum (12133) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x703A401F, 12134, 0x03A401B5, 99.7914, -393.921, -5.995, -0.0237454, 0, 0, -0.999718,  True, '2005-02-09 10:00:00'); /* Subtle Simulacrum */

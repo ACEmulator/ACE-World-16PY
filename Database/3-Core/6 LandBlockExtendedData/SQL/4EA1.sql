@@ -45,13 +45,13 @@ VALUES (0x74EA100A,  1154, 0x4EA10000, 116.201, 5.81525, 17.5204, -0.856779, 0, 
 /* @teleloc 0x4EA10000 [116.201000 5.815250 17.520400] -0.856779 0.000000 0.000000 0.515684 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x74EA100A, 0x74EA1000, '2005-02-09 10:00:00') /* Auroch Fire Cow */
-     , (0x74EA100A, 0x74EA1001, '2005-02-09 10:00:00') /* Auroch Fire Cow */
-     , (0x74EA100A, 0x74EA1002, '2005-02-09 10:00:00') /* Auroch Fire Cow */
-     , (0x74EA100A, 0x74EA1003, '2005-02-09 10:00:00') /* Auroch Fire Cow */
-     , (0x74EA100A, 0x74EA1004, '2005-02-09 10:00:00') /* Auroch Fire Bull */
-     , (0x74EA100A, 0x74EA1005, '2005-02-09 10:00:00') /* Auroch Fire Yearling */
-     , (0x74EA100A, 0x74EA1006, '2005-02-09 10:00:00') /* Auroch Fire Yearling */
-     , (0x74EA100A, 0x74EA1007, '2005-02-09 10:00:00') /* Auroch Fire Yearling */
-     , (0x74EA100A, 0x74EA1008, '2005-02-09 10:00:00') /* Tumerok Scout */
-     , (0x74EA100A, 0x74EA1009, '2005-02-09 10:00:00') /* Tumerok Scout */;
+VALUES (0x74EA100A, 0x74EA1000, '2005-02-09 10:00:00') /* Auroch Fire Cow (1606) */
+     , (0x74EA100A, 0x74EA1001, '2005-02-09 10:00:00') /* Auroch Fire Cow (1606) */
+     , (0x74EA100A, 0x74EA1002, '2005-02-09 10:00:00') /* Auroch Fire Cow (1606) */
+     , (0x74EA100A, 0x74EA1003, '2005-02-09 10:00:00') /* Auroch Fire Cow (1606) */
+     , (0x74EA100A, 0x74EA1004, '2005-02-09 10:00:00') /* Auroch Fire Bull (1607) */
+     , (0x74EA100A, 0x74EA1005, '2005-02-09 10:00:00') /* Auroch Fire Yearling (1605) */
+     , (0x74EA100A, 0x74EA1006, '2005-02-09 10:00:00') /* Auroch Fire Yearling (1605) */
+     , (0x74EA100A, 0x74EA1007, '2005-02-09 10:00:00') /* Auroch Fire Yearling (1605) */
+     , (0x74EA100A, 0x74EA1008, '2005-02-09 10:00:00') /* Tumerok Scout (232) */
+     , (0x74EA100A, 0x74EA1009, '2005-02-09 10:00:00') /* Tumerok Scout (232) */;

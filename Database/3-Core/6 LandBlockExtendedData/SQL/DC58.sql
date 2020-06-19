@@ -33,9 +33,9 @@ VALUES (0x7DC58008,  7932, 0xDC580000, 8.87614, 188.428, 5.905, 0.223343, 0, 0, 
 /* @teleloc 0xDC580000 [8.876140 188.428000 5.905000] 0.223343 0.000000 0.000000 0.974740 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7DC58008, 0x7DC58002, '2005-02-09 10:00:00') /* Drudge Prowler */
-     , (0x7DC58008, 0x7DC58003, '2005-02-09 10:00:00') /* Drudge Prowler */
-     , (0x7DC58008, 0x7DC58004, '2005-02-09 10:00:00') /* Drudge Slinker */
-     , (0x7DC58008, 0x7DC58005, '2005-02-09 10:00:00') /* Drudge Slinker */
-     , (0x7DC58008, 0x7DC58006, '2005-02-09 10:00:00') /* Drudge Sneaker */
-     , (0x7DC58008, 0x7DC58007, '2005-02-09 10:00:00') /* Drudge Skulker */;
+VALUES (0x7DC58008, 0x7DC58002, '2005-02-09 10:00:00') /* Drudge Prowler (27893) */
+     , (0x7DC58008, 0x7DC58003, '2005-02-09 10:00:00') /* Drudge Prowler (192) */
+     , (0x7DC58008, 0x7DC58004, '2005-02-09 10:00:00') /* Drudge Slinker (193) */
+     , (0x7DC58008, 0x7DC58005, '2005-02-09 10:00:00') /* Drudge Slinker (193) */
+     , (0x7DC58008, 0x7DC58006, '2005-02-09 10:00:00') /* Drudge Sneaker (940) */
+     , (0x7DC58008, 0x7DC58007, '2005-02-09 10:00:00') /* Drudge Skulker (7) */;

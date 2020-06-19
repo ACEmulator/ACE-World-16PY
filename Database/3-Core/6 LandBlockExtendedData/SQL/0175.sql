@@ -17,7 +17,7 @@ VALUES (0x70175003, 29656, 0x01750104, 41.4319, -42.7761, -77.995, 1, 0, 0, 0, F
 /* @teleloc 0x01750104 [41.431900 -42.776100 -77.995000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x70175003, 0x701750AB, '2005-02-09 10:00:00') /* Lever */;
+VALUES (0x70175003, 0x701750AB, '2005-02-09 10:00:00') /* Lever (29593) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x70175004,  7181, 0x01750105, 41.52, -47.2139, -77.9936, -0.592786, 0, 0, 0.80536,  True, '2005-02-09 10:00:00'); /* Desolation Moarsman */
@@ -36,14 +36,14 @@ VALUES (0x70175007, 29656, 0x01750106, 42.0837, -57.4374, -77.995, 0.0685002, 0,
 /* @teleloc 0x01750106 [42.083700 -57.437400 -77.995000] 0.068500 0.000000 0.000000 0.997651 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x70175007, 0x7017503D, '2005-02-09 10:00:00') /* Lever */;
+VALUES (0x70175007, 0x7017503D, '2005-02-09 10:00:00') /* Lever (29593) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x70175008, 29656, 0x0175010A, 57.4647, -42.2162, -77.995, 0.999862, 0, 0, -0.0166283, False, '2005-02-09 10:00:00'); /* Moarsmen Activated Generator */
 /* @teleloc 0x0175010A [57.464700 -42.216200 -77.995000] 0.999862 0.000000 0.000000 -0.016628 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x70175008, 0x7017502E, '2005-02-09 10:00:00') /* Lever */;
+VALUES (0x70175008, 0x7017502E, '2005-02-09 10:00:00') /* Lever (29593) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x70175009,  7181, 0x0175010B, 59.7012, -53.2302, -77.9936, 0.791018, 0, 0, 0.611793,  True, '2005-02-09 10:00:00'); /* Desolation Moarsman */
@@ -62,7 +62,7 @@ VALUES (0x7017500C, 29656, 0x0175010C, 59.296, -57.538, -77.995, 0.999862, 0, 0,
 /* @teleloc 0x0175010C [59.296000 -57.538000 -77.995000] 0.999862 0.000000 0.000000 -0.016628 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7017500C, 0x701750B9, '2005-02-09 10:00:00') /* Lever */;
+VALUES (0x7017500C, 0x701750B9, '2005-02-09 10:00:00') /* Lever (29593) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7017500D,  7181, 0x0175010D, 67.1101, -46.758, -77.9936, 0.534985, 0, 0, 0.844862,  True, '2005-02-09 10:00:00'); /* Desolation Moarsman */
@@ -121,7 +121,7 @@ VALUES (0x7017501A,  2179, 0x01750162, 50, -20.2408, -65.995, 1, 0, 0, 0, False,
 /* @teleloc 0x01750162 [50.000000 -20.240800 -65.995000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7017501A, 0x70175036, '2005-02-09 10:00:00') /* Lever */;
+VALUES (0x7017501A, 0x70175036, '2005-02-09 10:00:00') /* Lever (29593) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7017501B, 27857, 0x01750162, 50.245, -22.8508, -65.994, -0.999996, 0, 0, -0.002989,  True, '2005-02-09 10:00:00'); /* Muck Glutton */
@@ -136,7 +136,7 @@ VALUES (0x7017501D, 29656, 0x01750167, 50, -50, -60, 1, 0, 0, 0, False, '2005-02
 /* @teleloc 0x01750167 [50.000000 -50.000000 -60.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7017501D, 0x701750B2, '2005-02-09 10:00:00') /* Lever */;
+VALUES (0x7017501D, 0x701750B2, '2005-02-09 10:00:00') /* Lever (29593) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7017501E,  7181, 0x01750169, 50.1572, -68.7708, -69.6104, -0.0303429, 0, 0, 0.99954,  True, '2005-02-09 10:00:00'); /* Desolation Moarsman */
@@ -151,7 +151,7 @@ VALUES (0x70175020,  2179, 0x0175016E, 50, -79.746, -65.995, -4.37114E-08, 0, 0,
 /* @teleloc 0x0175016E [50.000000 -79.746000 -65.995000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x70175020, 0x70175045, '2005-02-09 10:00:00') /* Lever */;
+VALUES (0x70175020, 0x70175045, '2005-02-09 10:00:00') /* Lever (29593) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x70175021, 27857, 0x0175016E, 50.0799, -76.182, -65.994, 0.020795, 0, 0, -0.999784,  True, '2005-02-09 10:00:00'); /* Muck Glutton */
@@ -334,163 +334,163 @@ VALUES (0x7017504D,  7923, 0x01750277, 74.0059, -47.1024, -53.995, 0.71669, 0, 0
 /* @teleloc 0x01750277 [74.005900 -47.102400 -53.995000] 0.716690 0.000000 0.000000 -0.697392 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7017504D, 0x70175000, '2005-02-09 10:00:00') /* Squallid Moarsman */
-     , (0x7017504D, 0x70175001, '2005-02-09 10:00:00') /* Squallid Moarsman */
-     , (0x7017504D, 0x70175004, '2005-02-09 10:00:00') /* Desolation Moarsman */
-     , (0x7017504D, 0x70175005, '2005-02-09 10:00:00') /* Squallid Moarsman */
-     , (0x7017504D, 0x70175006, '2005-02-09 10:00:00') /* Filth Dweller */
-     , (0x7017504D, 0x70175009, '2005-02-09 10:00:00') /* Desolation Moarsman */
-     , (0x7017504D, 0x7017500A, '2005-02-09 10:00:00') /* Squallid Moarsman */
-     , (0x7017504D, 0x7017500B, '2005-02-09 10:00:00') /* Filth Dweller */
-     , (0x7017504D, 0x7017500D, '2005-02-09 10:00:00') /* Desolation Moarsman */
-     , (0x7017504D, 0x7017500E, '2005-02-09 10:00:00') /* Desolation Moarsman */
-     , (0x7017504D, 0x70175011, '2005-02-09 10:00:00') /* Desolation Moarsman */
-     , (0x7017504D, 0x70175018, '2005-02-09 10:00:00') /* Desolation Moarsman */
-     , (0x7017504D, 0x70175019, '2005-02-09 10:00:00') /* Desolation Moarsman */
-     , (0x7017504D, 0x7017501B, '2005-02-09 10:00:00') /* Muck Glutton */
-     , (0x7017504D, 0x7017501C, '2005-02-09 10:00:00') /* Desolation Moarsman */
-     , (0x7017504D, 0x7017501E, '2005-02-09 10:00:00') /* Desolation Moarsman */
-     , (0x7017504D, 0x70175021, '2005-02-09 10:00:00') /* Muck Glutton */
-     , (0x7017504D, 0x70175024, '2005-02-09 10:00:00') /* Desolation Moarsman */
-     , (0x7017504D, 0x70175029, '2005-02-09 10:00:00') /* Desolation Moarsman */
-     , (0x7017504D, 0x70175060, '2005-02-09 10:00:00') /* Putrid Moarsman */
-     , (0x7017504D, 0x70175061, '2005-02-09 10:00:00') /* Disgusting Moarsman */
-     , (0x7017504D, 0x70175062, '2005-02-09 10:00:00') /* Disgusting Moarsman */
-     , (0x7017504D, 0x70175063, '2005-02-09 10:00:00') /* Disgusting Moarsman */
-     , (0x7017504D, 0x70175064, '2005-02-09 10:00:00') /* Putrid Moarsman */
-     , (0x7017504D, 0x70175065, '2005-02-09 10:00:00') /* Disgusting Moarsman */
-     , (0x7017504D, 0x70175066, '2005-02-09 10:00:00') /* Disgusting Moarsman */
-     , (0x7017504D, 0x70175067, '2005-02-09 10:00:00') /* Putrid Moarsman */
-     , (0x7017504D, 0x70175068, '2005-02-09 10:00:00') /* Disgusting Moarsman */
-     , (0x7017504D, 0x70175069, '2005-02-09 10:00:00') /* Disgusting Moarsman */
-     , (0x7017504D, 0x7017506A, '2005-02-09 10:00:00') /* Disgusting Moarsman */
-     , (0x7017504D, 0x7017506B, '2005-02-09 10:00:00') /* Putrid Moarsman */
-     , (0x7017504D, 0x7017506D, '2005-02-09 10:00:00') /* Putrid Moarsman */
-     , (0x7017504D, 0x7017506F, '2005-02-09 10:00:00') /* Disgusting Moarsman */
-     , (0x7017504D, 0x70175071, '2005-02-09 10:00:00') /* Disgusting Moarsman */
-     , (0x7017504D, 0x7017507C, '2005-02-09 10:00:00') /* Disgusting Moarsman */
-     , (0x7017504D, 0x70175084, '2005-02-09 10:00:00') /* Disgusting Moarsman */
-     , (0x7017504D, 0x70175086, '2005-02-09 10:00:00') /* Disgusting Moarsman */
-     , (0x7017504D, 0x7017508E, '2005-02-09 10:00:00') /* Disgusting Moarsman */
-     , (0x7017504D, 0x70175099, '2005-02-09 10:00:00') /* Disgusting Moarsman */
-     , (0x7017504D, 0x7017509B, '2005-02-09 10:00:00') /* Disgusting Moarsman */;
+VALUES (0x7017504D, 0x70175000, '2005-02-09 10:00:00') /* Squallid Moarsman (27861) */
+     , (0x7017504D, 0x70175001, '2005-02-09 10:00:00') /* Squallid Moarsman (27861) */
+     , (0x7017504D, 0x70175004, '2005-02-09 10:00:00') /* Desolation Moarsman (7181) */
+     , (0x7017504D, 0x70175005, '2005-02-09 10:00:00') /* Squallid Moarsman (27861) */
+     , (0x7017504D, 0x70175006, '2005-02-09 10:00:00') /* Filth Dweller (27855) */
+     , (0x7017504D, 0x70175009, '2005-02-09 10:00:00') /* Desolation Moarsman (7181) */
+     , (0x7017504D, 0x7017500A, '2005-02-09 10:00:00') /* Squallid Moarsman (27861) */
+     , (0x7017504D, 0x7017500B, '2005-02-09 10:00:00') /* Filth Dweller (27855) */
+     , (0x7017504D, 0x7017500D, '2005-02-09 10:00:00') /* Desolation Moarsman (7181) */
+     , (0x7017504D, 0x7017500E, '2005-02-09 10:00:00') /* Desolation Moarsman (7181) */
+     , (0x7017504D, 0x70175011, '2005-02-09 10:00:00') /* Desolation Moarsman (7181) */
+     , (0x7017504D, 0x70175018, '2005-02-09 10:00:00') /* Desolation Moarsman (7181) */
+     , (0x7017504D, 0x70175019, '2005-02-09 10:00:00') /* Desolation Moarsman (7181) */
+     , (0x7017504D, 0x7017501B, '2005-02-09 10:00:00') /* Muck Glutton (27857) */
+     , (0x7017504D, 0x7017501C, '2005-02-09 10:00:00') /* Desolation Moarsman (7181) */
+     , (0x7017504D, 0x7017501E, '2005-02-09 10:00:00') /* Desolation Moarsman (7181) */
+     , (0x7017504D, 0x70175021, '2005-02-09 10:00:00') /* Muck Glutton (27857) */
+     , (0x7017504D, 0x70175024, '2005-02-09 10:00:00') /* Desolation Moarsman (7181) */
+     , (0x7017504D, 0x70175029, '2005-02-09 10:00:00') /* Desolation Moarsman (7181) */
+     , (0x7017504D, 0x70175060, '2005-02-09 10:00:00') /* Putrid Moarsman (4248) */
+     , (0x7017504D, 0x70175061, '2005-02-09 10:00:00') /* Disgusting Moarsman (27853) */
+     , (0x7017504D, 0x70175062, '2005-02-09 10:00:00') /* Disgusting Moarsman (27853) */
+     , (0x7017504D, 0x70175063, '2005-02-09 10:00:00') /* Disgusting Moarsman (27853) */
+     , (0x7017504D, 0x70175064, '2005-02-09 10:00:00') /* Putrid Moarsman (4248) */
+     , (0x7017504D, 0x70175065, '2005-02-09 10:00:00') /* Disgusting Moarsman (27853) */
+     , (0x7017504D, 0x70175066, '2005-02-09 10:00:00') /* Disgusting Moarsman (27853) */
+     , (0x7017504D, 0x70175067, '2005-02-09 10:00:00') /* Putrid Moarsman (4248) */
+     , (0x7017504D, 0x70175068, '2005-02-09 10:00:00') /* Disgusting Moarsman (27853) */
+     , (0x7017504D, 0x70175069, '2005-02-09 10:00:00') /* Disgusting Moarsman (27853) */
+     , (0x7017504D, 0x7017506A, '2005-02-09 10:00:00') /* Disgusting Moarsman (27853) */
+     , (0x7017504D, 0x7017506B, '2005-02-09 10:00:00') /* Putrid Moarsman (4248) */
+     , (0x7017504D, 0x7017506D, '2005-02-09 10:00:00') /* Putrid Moarsman (4248) */
+     , (0x7017504D, 0x7017506F, '2005-02-09 10:00:00') /* Disgusting Moarsman (27853) */
+     , (0x7017504D, 0x70175071, '2005-02-09 10:00:00') /* Disgusting Moarsman (27853) */
+     , (0x7017504D, 0x7017507C, '2005-02-09 10:00:00') /* Disgusting Moarsman (27853) */
+     , (0x7017504D, 0x70175084, '2005-02-09 10:00:00') /* Disgusting Moarsman (27853) */
+     , (0x7017504D, 0x70175086, '2005-02-09 10:00:00') /* Disgusting Moarsman (27853) */
+     , (0x7017504D, 0x7017508E, '2005-02-09 10:00:00') /* Disgusting Moarsman (27853) */
+     , (0x7017504D, 0x70175099, '2005-02-09 10:00:00') /* Disgusting Moarsman (27853) */
+     , (0x7017504D, 0x7017509B, '2005-02-09 10:00:00') /* Disgusting Moarsman (27853) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7017504E,  7923, 0x01750277, 74.0168, -48.6597, -53.995, 0.737529, 0, 0, -0.675316, False, '2005-02-09 10:00:00'); /* Linkable Monster Generator ( 3 Min.) */
 /* @teleloc 0x01750277 [74.016800 -48.659700 -53.995000] 0.737529 0.000000 0.000000 -0.675316 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7017504E, 0x7017506C, '2005-02-09 10:00:00') /* Putrid Moarsman */
-     , (0x7017504E, 0x7017506E, '2005-02-09 10:00:00') /* Putrid Moarsman */
-     , (0x7017504E, 0x70175073, '2005-02-09 10:00:00') /* Putrid Moarsman */
-     , (0x7017504E, 0x70175074, '2005-02-09 10:00:00') /* Miry Moarsman */
-     , (0x7017504E, 0x70175075, '2005-02-09 10:00:00') /* Viscous Moarsman */
-     , (0x7017504E, 0x70175077, '2005-02-09 10:00:00') /* Disgusting Moarsman */
-     , (0x7017504E, 0x70175079, '2005-02-09 10:00:00') /* Miry Moarsman */
-     , (0x7017504E, 0x7017507A, '2005-02-09 10:00:00') /* Miry Moarsman */
-     , (0x7017504E, 0x7017507B, '2005-02-09 10:00:00') /* Viscous Moarsman */
-     , (0x7017504E, 0x7017507F, '2005-02-09 10:00:00') /* Miry Moarsman */
-     , (0x7017504E, 0x70175080, '2005-02-09 10:00:00') /* Muck Glutton */
-     , (0x7017504E, 0x70175081, '2005-02-09 10:00:00') /* Muck Glutton */
-     , (0x7017504E, 0x70175083, '2005-02-09 10:00:00') /* Disgusting Moarsman */
-     , (0x7017504E, 0x70175089, '2005-02-09 10:00:00') /* Disgusting Moarsman */
-     , (0x7017504E, 0x7017508A, '2005-02-09 10:00:00') /* Muck Glutton */
-     , (0x7017504E, 0x7017508B, '2005-02-09 10:00:00') /* Muck Glutton */
-     , (0x7017504E, 0x7017508D, '2005-02-09 10:00:00') /* Miry Moarsman */
-     , (0x7017504E, 0x70175090, '2005-02-09 10:00:00') /* Miry Moarsman */
-     , (0x7017504E, 0x70175091, '2005-02-09 10:00:00') /* Viscous Moarsman */
-     , (0x7017504E, 0x70175093, '2005-02-09 10:00:00') /* Miry Moarsman */
-     , (0x7017504E, 0x70175095, '2005-02-09 10:00:00') /* Disgusting Moarsman */
-     , (0x7017504E, 0x70175096, '2005-02-09 10:00:00') /* Miry Moarsman */
-     , (0x7017504E, 0x70175097, '2005-02-09 10:00:00') /* Viscous Moarsman */
-     , (0x7017504E, 0x70175098, '2005-02-09 10:00:00') /* Putrid Moarsman */
-     , (0x7017504E, 0x7017509D, '2005-02-09 10:00:00') /* Putrid Moarsman */
-     , (0x7017504E, 0x7017509E, '2005-02-09 10:00:00') /* Putrid Moarsman */
-     , (0x7017504E, 0x7017509F, '2005-02-09 10:00:00') /* Putrid Moarsman */
-     , (0x7017504E, 0x701750A0, '2005-02-09 10:00:00') /* Disgusting Moarsman */
-     , (0x7017504E, 0x701750A1, '2005-02-09 10:00:00') /* Muck Glutton */
-     , (0x7017504E, 0x701750A2, '2005-02-09 10:00:00') /* Putrid Moarsman */
-     , (0x7017504E, 0x701750A7, '2005-02-09 10:00:00') /* Putrid Moarsman */
-     , (0x7017504E, 0x701750A8, '2005-02-09 10:00:00') /* Putrid Moarsman */
-     , (0x7017504E, 0x701750A9, '2005-02-09 10:00:00') /* Muck Glutton */
-     , (0x7017504E, 0x701750AA, '2005-02-09 10:00:00') /* Disgusting Moarsman */
-     , (0x7017504E, 0x701750AE, '2005-02-09 10:00:00') /* Disgusting Moarsman */
-     , (0x7017504E, 0x701750B1, '2005-02-09 10:00:00') /* Putrid Moarsman */
-     , (0x7017504E, 0x701750B5, '2005-02-09 10:00:00') /* Disgusting Moarsman */
-     , (0x7017504E, 0x701750B6, '2005-02-09 10:00:00') /* Putrid Moarsman */
-     , (0x7017504E, 0x701750B7, '2005-02-09 10:00:00') /* Putrid Moarsman */
-     , (0x7017504E, 0x701750B8, '2005-02-09 10:00:00') /* Muck Glutton */;
+VALUES (0x7017504E, 0x7017506C, '2005-02-09 10:00:00') /* Putrid Moarsman (4248) */
+     , (0x7017504E, 0x7017506E, '2005-02-09 10:00:00') /* Putrid Moarsman (4248) */
+     , (0x7017504E, 0x70175073, '2005-02-09 10:00:00') /* Putrid Moarsman (4248) */
+     , (0x7017504E, 0x70175074, '2005-02-09 10:00:00') /* Miry Moarsman (27856) */
+     , (0x7017504E, 0x70175075, '2005-02-09 10:00:00') /* Viscous Moarsman (27862) */
+     , (0x7017504E, 0x70175077, '2005-02-09 10:00:00') /* Disgusting Moarsman (27853) */
+     , (0x7017504E, 0x70175079, '2005-02-09 10:00:00') /* Miry Moarsman (27856) */
+     , (0x7017504E, 0x7017507A, '2005-02-09 10:00:00') /* Miry Moarsman (27856) */
+     , (0x7017504E, 0x7017507B, '2005-02-09 10:00:00') /* Viscous Moarsman (27862) */
+     , (0x7017504E, 0x7017507F, '2005-02-09 10:00:00') /* Miry Moarsman (27856) */
+     , (0x7017504E, 0x70175080, '2005-02-09 10:00:00') /* Muck Glutton (27857) */
+     , (0x7017504E, 0x70175081, '2005-02-09 10:00:00') /* Muck Glutton (27857) */
+     , (0x7017504E, 0x70175083, '2005-02-09 10:00:00') /* Disgusting Moarsman (27853) */
+     , (0x7017504E, 0x70175089, '2005-02-09 10:00:00') /* Disgusting Moarsman (27853) */
+     , (0x7017504E, 0x7017508A, '2005-02-09 10:00:00') /* Muck Glutton (27857) */
+     , (0x7017504E, 0x7017508B, '2005-02-09 10:00:00') /* Muck Glutton (27857) */
+     , (0x7017504E, 0x7017508D, '2005-02-09 10:00:00') /* Miry Moarsman (27856) */
+     , (0x7017504E, 0x70175090, '2005-02-09 10:00:00') /* Miry Moarsman (27856) */
+     , (0x7017504E, 0x70175091, '2005-02-09 10:00:00') /* Viscous Moarsman (27862) */
+     , (0x7017504E, 0x70175093, '2005-02-09 10:00:00') /* Miry Moarsman (27856) */
+     , (0x7017504E, 0x70175095, '2005-02-09 10:00:00') /* Disgusting Moarsman (27853) */
+     , (0x7017504E, 0x70175096, '2005-02-09 10:00:00') /* Miry Moarsman (27856) */
+     , (0x7017504E, 0x70175097, '2005-02-09 10:00:00') /* Viscous Moarsman (27862) */
+     , (0x7017504E, 0x70175098, '2005-02-09 10:00:00') /* Putrid Moarsman (4248) */
+     , (0x7017504E, 0x7017509D, '2005-02-09 10:00:00') /* Putrid Moarsman (4248) */
+     , (0x7017504E, 0x7017509E, '2005-02-09 10:00:00') /* Putrid Moarsman (4248) */
+     , (0x7017504E, 0x7017509F, '2005-02-09 10:00:00') /* Putrid Moarsman (4248) */
+     , (0x7017504E, 0x701750A0, '2005-02-09 10:00:00') /* Disgusting Moarsman (27853) */
+     , (0x7017504E, 0x701750A1, '2005-02-09 10:00:00') /* Muck Glutton (27857) */
+     , (0x7017504E, 0x701750A2, '2005-02-09 10:00:00') /* Putrid Moarsman (4248) */
+     , (0x7017504E, 0x701750A7, '2005-02-09 10:00:00') /* Putrid Moarsman (4248) */
+     , (0x7017504E, 0x701750A8, '2005-02-09 10:00:00') /* Putrid Moarsman (4248) */
+     , (0x7017504E, 0x701750A9, '2005-02-09 10:00:00') /* Muck Glutton (27857) */
+     , (0x7017504E, 0x701750AA, '2005-02-09 10:00:00') /* Disgusting Moarsman (27853) */
+     , (0x7017504E, 0x701750AE, '2005-02-09 10:00:00') /* Disgusting Moarsman (27853) */
+     , (0x7017504E, 0x701750B1, '2005-02-09 10:00:00') /* Putrid Moarsman (4248) */
+     , (0x7017504E, 0x701750B5, '2005-02-09 10:00:00') /* Disgusting Moarsman (27853) */
+     , (0x7017504E, 0x701750B6, '2005-02-09 10:00:00') /* Putrid Moarsman (4248) */
+     , (0x7017504E, 0x701750B7, '2005-02-09 10:00:00') /* Putrid Moarsman (4248) */
+     , (0x7017504E, 0x701750B8, '2005-02-09 10:00:00') /* Muck Glutton (27857) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7017504F,  7923, 0x01750277, 73.9603, -50, -53.995, 1, 0, 0, 0, False, '2005-02-09 10:00:00'); /* Linkable Monster Generator ( 3 Min.) */
 /* @teleloc 0x01750277 [73.960300 -50.000000 -53.995000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7017504F, 0x7017502B, '2005-02-09 10:00:00') /* Putrid Moarsman */
-     , (0x7017504F, 0x7017502C, '2005-02-09 10:00:00') /* Putrid Moarsman */
-     , (0x7017504F, 0x7017502D, '2005-02-09 10:00:00') /* Miry Moarsman */
-     , (0x7017504F, 0x70175030, '2005-02-09 10:00:00') /* Viscous Moarsman */
-     , (0x7017504F, 0x70175031, '2005-02-09 10:00:00') /* Putrid Moarsman */
-     , (0x7017504F, 0x70175032, '2005-02-09 10:00:00') /* Viscous Moarsman */
-     , (0x7017504F, 0x70175033, '2005-02-09 10:00:00') /* Miry Moarsman */
-     , (0x7017504F, 0x70175034, '2005-02-09 10:00:00') /* Putrid Moarsman */
-     , (0x7017504F, 0x70175035, '2005-02-09 10:00:00') /* Putrid Moarsman */
-     , (0x7017504F, 0x70175038, '2005-02-09 10:00:00') /* Putrid Moarsman */
-     , (0x7017504F, 0x70175039, '2005-02-09 10:00:00') /* Putrid Moarsman */
-     , (0x7017504F, 0x7017503A, '2005-02-09 10:00:00') /* Miry Moarsman */
-     , (0x7017504F, 0x7017503B, '2005-02-09 10:00:00') /* Putrid Moarsman */
-     , (0x7017504F, 0x7017503F, '2005-02-09 10:00:00') /* Viscous Moarsman */
-     , (0x7017504F, 0x70175040, '2005-02-09 10:00:00') /* Putrid Moarsman */
-     , (0x7017504F, 0x70175041, '2005-02-09 10:00:00') /* Viscous Moarsman */
-     , (0x7017504F, 0x70175042, '2005-02-09 10:00:00') /* Putrid Moarsman */
-     , (0x7017504F, 0x70175047, '2005-02-09 10:00:00') /* Putrid Moarsman */
-     , (0x7017504F, 0x70175048, '2005-02-09 10:00:00') /* Putrid Moarsman */
-     , (0x7017504F, 0x70175049, '2005-02-09 10:00:00') /* Putrid Moarsman */
-     , (0x7017504F, 0x7017504A, '2005-02-09 10:00:00') /* Putrid Moarsman */
-     , (0x7017504F, 0x7017504B, '2005-02-09 10:00:00') /* Putrid Moarsman */
-     , (0x7017504F, 0x7017504C, '2005-02-09 10:00:00') /* Putrid Moarsman */
-     , (0x7017504F, 0x70175051, '2005-02-09 10:00:00') /* Putrid Moarsman */
-     , (0x7017504F, 0x70175052, '2005-02-09 10:00:00') /* Putrid Moarsman */
-     , (0x7017504F, 0x70175053, '2005-02-09 10:00:00') /* Miry Moarsman */
-     , (0x7017504F, 0x70175054, '2005-02-09 10:00:00') /* Disgusting Moarsman */
-     , (0x7017504F, 0x70175055, '2005-02-09 10:00:00') /* Disgusting Moarsman */
-     , (0x7017504F, 0x70175056, '2005-02-09 10:00:00') /* Miry Moarsman */
-     , (0x7017504F, 0x70175057, '2005-02-09 10:00:00') /* Disgusting Moarsman */
-     , (0x7017504F, 0x70175058, '2005-02-09 10:00:00') /* Disgusting Moarsman */
-     , (0x7017504F, 0x70175059, '2005-02-09 10:00:00') /* Disgusting Moarsman */
-     , (0x7017504F, 0x7017505A, '2005-02-09 10:00:00') /* Disgusting Moarsman */
-     , (0x7017504F, 0x7017505B, '2005-02-09 10:00:00') /* Miry Moarsman */
-     , (0x7017504F, 0x7017505C, '2005-02-09 10:00:00') /* Disgusting Moarsman */
-     , (0x7017504F, 0x7017505D, '2005-02-09 10:00:00') /* Disgusting Moarsman */
-     , (0x7017504F, 0x7017505E, '2005-02-09 10:00:00') /* Miry Moarsman */
-     , (0x7017504F, 0x701750A3, '2005-02-09 10:00:00') /* Putrid Moarsman */
-     , (0x7017504F, 0x701750AF, '2005-02-09 10:00:00') /* Muck Glutton */
-     , (0x7017504F, 0x701750B0, '2005-02-09 10:00:00') /* Putrid Moarsman */;
+VALUES (0x7017504F, 0x7017502B, '2005-02-09 10:00:00') /* Putrid Moarsman (4248) */
+     , (0x7017504F, 0x7017502C, '2005-02-09 10:00:00') /* Putrid Moarsman (4248) */
+     , (0x7017504F, 0x7017502D, '2005-02-09 10:00:00') /* Miry Moarsman (27856) */
+     , (0x7017504F, 0x70175030, '2005-02-09 10:00:00') /* Viscous Moarsman (27862) */
+     , (0x7017504F, 0x70175031, '2005-02-09 10:00:00') /* Putrid Moarsman (4248) */
+     , (0x7017504F, 0x70175032, '2005-02-09 10:00:00') /* Viscous Moarsman (27862) */
+     , (0x7017504F, 0x70175033, '2005-02-09 10:00:00') /* Miry Moarsman (27856) */
+     , (0x7017504F, 0x70175034, '2005-02-09 10:00:00') /* Putrid Moarsman (4248) */
+     , (0x7017504F, 0x70175035, '2005-02-09 10:00:00') /* Putrid Moarsman (4248) */
+     , (0x7017504F, 0x70175038, '2005-02-09 10:00:00') /* Putrid Moarsman (4248) */
+     , (0x7017504F, 0x70175039, '2005-02-09 10:00:00') /* Putrid Moarsman (4248) */
+     , (0x7017504F, 0x7017503A, '2005-02-09 10:00:00') /* Miry Moarsman (27856) */
+     , (0x7017504F, 0x7017503B, '2005-02-09 10:00:00') /* Putrid Moarsman (4248) */
+     , (0x7017504F, 0x7017503F, '2005-02-09 10:00:00') /* Viscous Moarsman (27862) */
+     , (0x7017504F, 0x70175040, '2005-02-09 10:00:00') /* Putrid Moarsman (4248) */
+     , (0x7017504F, 0x70175041, '2005-02-09 10:00:00') /* Viscous Moarsman (27862) */
+     , (0x7017504F, 0x70175042, '2005-02-09 10:00:00') /* Putrid Moarsman (4248) */
+     , (0x7017504F, 0x70175047, '2005-02-09 10:00:00') /* Putrid Moarsman (4248) */
+     , (0x7017504F, 0x70175048, '2005-02-09 10:00:00') /* Putrid Moarsman (4248) */
+     , (0x7017504F, 0x70175049, '2005-02-09 10:00:00') /* Putrid Moarsman (4248) */
+     , (0x7017504F, 0x7017504A, '2005-02-09 10:00:00') /* Putrid Moarsman (4248) */
+     , (0x7017504F, 0x7017504B, '2005-02-09 10:00:00') /* Putrid Moarsman (4248) */
+     , (0x7017504F, 0x7017504C, '2005-02-09 10:00:00') /* Putrid Moarsman (4248) */
+     , (0x7017504F, 0x70175051, '2005-02-09 10:00:00') /* Putrid Moarsman (4248) */
+     , (0x7017504F, 0x70175052, '2005-02-09 10:00:00') /* Putrid Moarsman (4248) */
+     , (0x7017504F, 0x70175053, '2005-02-09 10:00:00') /* Miry Moarsman (27856) */
+     , (0x7017504F, 0x70175054, '2005-02-09 10:00:00') /* Disgusting Moarsman (27853) */
+     , (0x7017504F, 0x70175055, '2005-02-09 10:00:00') /* Disgusting Moarsman (27853) */
+     , (0x7017504F, 0x70175056, '2005-02-09 10:00:00') /* Miry Moarsman (27856) */
+     , (0x7017504F, 0x70175057, '2005-02-09 10:00:00') /* Disgusting Moarsman (27853) */
+     , (0x7017504F, 0x70175058, '2005-02-09 10:00:00') /* Disgusting Moarsman (27853) */
+     , (0x7017504F, 0x70175059, '2005-02-09 10:00:00') /* Disgusting Moarsman (27853) */
+     , (0x7017504F, 0x7017505A, '2005-02-09 10:00:00') /* Disgusting Moarsman (27853) */
+     , (0x7017504F, 0x7017505B, '2005-02-09 10:00:00') /* Miry Moarsman (27856) */
+     , (0x7017504F, 0x7017505C, '2005-02-09 10:00:00') /* Disgusting Moarsman (27853) */
+     , (0x7017504F, 0x7017505D, '2005-02-09 10:00:00') /* Disgusting Moarsman (27853) */
+     , (0x7017504F, 0x7017505E, '2005-02-09 10:00:00') /* Miry Moarsman (27856) */
+     , (0x7017504F, 0x701750A3, '2005-02-09 10:00:00') /* Putrid Moarsman (4248) */
+     , (0x7017504F, 0x701750AF, '2005-02-09 10:00:00') /* Muck Glutton (27857) */
+     , (0x7017504F, 0x701750B0, '2005-02-09 10:00:00') /* Putrid Moarsman (4248) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x70175050,  7923, 0x01750277, 74.0014, -51.8694, -53.995, 1, 0, 0, 0, False, '2005-02-09 10:00:00'); /* Linkable Monster Generator ( 3 Min.) */
 /* @teleloc 0x01750277 [74.001400 -51.869400 -53.995000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x70175050, 0x70175002, '2005-02-09 10:00:00') /* Sealed Valve */
-     , (0x70175050, 0x70175010, '2005-02-09 10:00:00') /* Muck Glutton */
-     , (0x70175050, 0x70175012, '2005-02-09 10:00:00') /* Muck Glutton */
-     , (0x70175050, 0x70175013, '2005-02-09 10:00:00') /* Miry Moarsman */
-     , (0x70175050, 0x70175014, '2005-02-09 10:00:00') /* Miry Moarsman */
-     , (0x70175050, 0x70175015, '2005-02-09 10:00:00') /* Muck Glutton */
-     , (0x70175050, 0x70175016, '2005-02-09 10:00:00') /* Desolation Moarsman */
-     , (0x70175050, 0x70175017, '2005-02-09 10:00:00') /* Muck Glutton */
-     , (0x70175050, 0x7017501F, '2005-02-09 10:00:00') /* Desolation Moarsman */
-     , (0x70175050, 0x70175022, '2005-02-09 10:00:00') /* Desolation Moarsman */
-     , (0x70175050, 0x70175023, '2005-02-09 10:00:00') /* Muck Glutton */
-     , (0x70175050, 0x70175025, '2005-02-09 10:00:00') /* Muck Glutton */
-     , (0x70175050, 0x70175026, '2005-02-09 10:00:00') /* Miry Moarsman */
-     , (0x70175050, 0x70175027, '2005-02-09 10:00:00') /* Miry Moarsman */
-     , (0x70175050, 0x70175028, '2005-02-09 10:00:00') /* Muck Glutton */
-     , (0x70175050, 0x7017502A, '2005-02-09 10:00:00') /* Muck Glutton */
-     , (0x70175050, 0x7017503C, '2005-02-09 10:00:00') /* Putrid Moarsman */
-     , (0x70175050, 0x70175043, '2005-02-09 10:00:00') /* Putrid Moarsman */
-     , (0x70175050, 0x70175044, '2005-02-09 10:00:00') /* Miry Moarsman */;
+VALUES (0x70175050, 0x70175002, '2005-02-09 10:00:00') /* Sealed Valve (29698) */
+     , (0x70175050, 0x70175010, '2005-02-09 10:00:00') /* Muck Glutton (27857) */
+     , (0x70175050, 0x70175012, '2005-02-09 10:00:00') /* Muck Glutton (27857) */
+     , (0x70175050, 0x70175013, '2005-02-09 10:00:00') /* Miry Moarsman (27856) */
+     , (0x70175050, 0x70175014, '2005-02-09 10:00:00') /* Miry Moarsman (27856) */
+     , (0x70175050, 0x70175015, '2005-02-09 10:00:00') /* Muck Glutton (27857) */
+     , (0x70175050, 0x70175016, '2005-02-09 10:00:00') /* Desolation Moarsman (7181) */
+     , (0x70175050, 0x70175017, '2005-02-09 10:00:00') /* Muck Glutton (27857) */
+     , (0x70175050, 0x7017501F, '2005-02-09 10:00:00') /* Desolation Moarsman (7181) */
+     , (0x70175050, 0x70175022, '2005-02-09 10:00:00') /* Desolation Moarsman (7181) */
+     , (0x70175050, 0x70175023, '2005-02-09 10:00:00') /* Muck Glutton (27857) */
+     , (0x70175050, 0x70175025, '2005-02-09 10:00:00') /* Muck Glutton (27857) */
+     , (0x70175050, 0x70175026, '2005-02-09 10:00:00') /* Miry Moarsman (27856) */
+     , (0x70175050, 0x70175027, '2005-02-09 10:00:00') /* Miry Moarsman (27856) */
+     , (0x70175050, 0x70175028, '2005-02-09 10:00:00') /* Muck Glutton (27857) */
+     , (0x70175050, 0x7017502A, '2005-02-09 10:00:00') /* Muck Glutton (27857) */
+     , (0x70175050, 0x7017503C, '2005-02-09 10:00:00') /* Putrid Moarsman (4248) */
+     , (0x70175050, 0x70175043, '2005-02-09 10:00:00') /* Putrid Moarsman (4248) */
+     , (0x70175050, 0x70175044, '2005-02-09 10:00:00') /* Miry Moarsman (27856) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x70175051,  4248, 0x01750284, 90.6789, -42.0723, -53.9933, -0.139896, 0, 0, -0.990166,  True, '2005-02-09 10:00:00'); /* Putrid Moarsman */
@@ -553,7 +553,7 @@ VALUES (0x7017505F, 29935, 0x017502D6, 50, -50, -36, 1, 0, 0, 0, False, '2005-02
 /* @teleloc 0x017502D6 [50.000000 -50.000000 -36.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7017505F, 0x701750A4, '2005-02-09 10:00:00') /* Lever */;
+VALUES (0x7017505F, 0x701750A4, '2005-02-09 10:00:00') /* Lever (29593) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x70175060,  4248, 0x017502D9, 10, -50, -35.9933, 0.707107, 0, 0, -0.707107,  True, '2005-02-09 10:00:00'); /* Putrid Moarsman */

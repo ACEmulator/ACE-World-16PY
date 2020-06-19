@@ -61,22 +61,22 @@ VALUES (0x7394A020,  7923, 0x394A0108, 13.5175, 179.674, 0.005, -0.11423, 0, 0, 
 /* @teleloc 0x394A0108 [13.517500 179.674000 0.005000] -0.114230 0.000000 0.000000 -0.993454 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7394A020, 0x7394A013, '2005-02-09 10:00:00') /* Tumerok Major */
-     , (0x7394A020, 0x7394A014, '2005-02-09 10:00:00') /* Tumerok Gladiator */
-     , (0x7394A020, 0x7394A015, '2005-02-09 10:00:00') /* Tumerok Gladiator */
-     , (0x7394A020, 0x7394A016, '2005-02-09 10:00:00') /* Tumerok Gladiator */
-     , (0x7394A020, 0x7394A017, '2005-02-09 10:00:00') /* Tumerok Gladiator */
-     , (0x7394A020, 0x7394A018, '2005-02-09 10:00:00') /* Tumerok Taskmaster */
-     , (0x7394A020, 0x7394A019, '2005-02-09 10:00:00') /* Tumerok Taskmaster */
-     , (0x7394A020, 0x7394A01A, '2005-02-09 10:00:00') /* Tumerok Taskmaster */
-     , (0x7394A020, 0x7394A01B, '2005-02-09 10:00:00') /* Tumerok Taskmaster */
-     , (0x7394A020, 0x7394A01C, '2005-02-09 10:00:00') /* Tumerok Major */
-     , (0x7394A020, 0x7394A01D, '2005-02-09 10:00:00') /* Tumerok Major */
-     , (0x7394A020, 0x7394A01E, '2005-02-09 10:00:00') /* Tumerok Major */
-     , (0x7394A020, 0x7394A01F, '2005-02-09 10:00:00') /* Tumerok Major */
-     , (0x7394A020, 0x7394A021, '2005-02-09 10:00:00') /* Tumerok Gladiator */
-     , (0x7394A020, 0x7394A022, '2005-02-09 10:00:00') /* Tumerok Taskmaster */
-     , (0x7394A020, 0x7394A023, '2005-02-09 10:00:00') /* Tumerok Major */;
+VALUES (0x7394A020, 0x7394A013, '2005-02-09 10:00:00') /* Tumerok Major (2482) */
+     , (0x7394A020, 0x7394A014, '2005-02-09 10:00:00') /* Tumerok Gladiator (227) */
+     , (0x7394A020, 0x7394A015, '2005-02-09 10:00:00') /* Tumerok Gladiator (227) */
+     , (0x7394A020, 0x7394A016, '2005-02-09 10:00:00') /* Tumerok Gladiator (227) */
+     , (0x7394A020, 0x7394A017, '2005-02-09 10:00:00') /* Tumerok Gladiator (227) */
+     , (0x7394A020, 0x7394A018, '2005-02-09 10:00:00') /* Tumerok Taskmaster (230) */
+     , (0x7394A020, 0x7394A019, '2005-02-09 10:00:00') /* Tumerok Taskmaster (230) */
+     , (0x7394A020, 0x7394A01A, '2005-02-09 10:00:00') /* Tumerok Taskmaster (230) */
+     , (0x7394A020, 0x7394A01B, '2005-02-09 10:00:00') /* Tumerok Taskmaster (230) */
+     , (0x7394A020, 0x7394A01C, '2005-02-09 10:00:00') /* Tumerok Major (23565) */
+     , (0x7394A020, 0x7394A01D, '2005-02-09 10:00:00') /* Tumerok Major (23565) */
+     , (0x7394A020, 0x7394A01E, '2005-02-09 10:00:00') /* Tumerok Major (23565) */
+     , (0x7394A020, 0x7394A01F, '2005-02-09 10:00:00') /* Tumerok Major (23565) */
+     , (0x7394A020, 0x7394A021, '2005-02-09 10:00:00') /* Tumerok Gladiator (227) */
+     , (0x7394A020, 0x7394A022, '2005-02-09 10:00:00') /* Tumerok Taskmaster (230) */
+     , (0x7394A020, 0x7394A023, '2005-02-09 10:00:00') /* Tumerok Major (23565) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7394A021,   227, 0x394A0102, 57.0538, 178.529, 0.00599998, 0.225875, 0, 0, -0.974156,  True, '2005-02-09 10:00:00'); /* Tumerok Gladiator */

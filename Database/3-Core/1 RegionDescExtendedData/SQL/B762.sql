@@ -1,12 +1,10 @@
-DELETE FROM `encounter` WHERE `landblock` = 46946;
+DELETE FROM `encounter` WHERE `landblock` = 0xB762;
 
 INSERT INTO `encounter` (`landblock`, `weenie_Class_Id`, `cell_X`, `cell_Y`, `last_Modified`)
-VALUES (46946, 23187, 2, 7, '2005-02-09 10:00:00') /* Sho Newbie Swamp Mix Generator */
-     , (46946, 23187, 3, 0, '2005-02-09 10:00:00') /* Sho Newbie Swamp Mix Generator */
-     , (46946, 23187, 4, 4, '2005-02-09 10:00:00') /* Sho Newbie Swamp Mix Generator */
-     , (46946, 23187, 5, 0, '2005-02-09 10:00:00') /* Sho Newbie Swamp Mix Generator */
-     , (46946, 23187, 5, 1, '2005-02-09 10:00:00') /* Sho Newbie Swamp Mix Generator */
-     , (46946, 23187, 7, 2, '2005-02-09 10:00:00') /* Sho Newbie Swamp Mix Generator */
-     , (46946, 23187, 7, 4, '2005-02-09 10:00:00') /* Sho Newbie Swamp Mix Generator */
-     , (46946, 23187, 8, 1, '2005-02-09 10:00:00') /* Sho Newbie Swamp Mix Generator */
-     , (46946, 23187, 8, 4, '2005-02-09 10:00:00') /* Sho Newbie Swamp Mix Generator */;
+VALUES (0xB762, 23187, 2, 7, '2005-02-09 10:00:00') /* Sho Newbie Swamp Mix Generator */
+     , (0xB762, 23187, 3, 0, '2005-02-09 10:00:00') /* Sho Newbie Swamp Mix Generator */
+     , (0xB762, 23187, 4, 4, '2005-02-09 10:00:00') /* Sho Newbie Swamp Mix Generator */
+     , (0xB762, 23187, 5, 0, '2005-02-09 10:00:00') /* Sho Newbie Swamp Mix Generator */
+     , (0xB762, 23187, 5, 1, '2005-02-09 10:00:00') /* Sho Newbie Swamp Mix Generator */
+     , (0xB762, 23187, 7, 2, '2005-02-09 10:00:00') /* Sho Newbie Swamp Mix Generator */
+     , (0xB762, 23187, 7, 4, '2005-02-09 10:00:00') /* Sho Newbie Swamp Mix Generator */;

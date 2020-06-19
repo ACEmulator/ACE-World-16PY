@@ -109,34 +109,34 @@ VALUES (0x7027C01A,  7924, 0x027C019F, 32.8605, -1.6696, 0.005, 0.76088, 0, 0, -
 /* @teleloc 0x027C019F [32.860500 -1.669600 0.005000] 0.760880 0.000000 0.000000 -0.648892 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7027C01A, 0x7027C000, '2005-02-09 10:00:00') /* Olthoi Legionary */
-     , (0x7027C01A, 0x7027C001, '2005-02-09 10:00:00') /* Olthoi Legionary */
-     , (0x7027C01A, 0x7027C002, '2005-02-09 10:00:00') /* Olthoi Legionary */
-     , (0x7027C01A, 0x7027C003, '2005-02-09 10:00:00') /* Olthoi Legionary */
-     , (0x7027C01A, 0x7027C004, '2005-02-09 10:00:00') /* Olthoi Legionary */
-     , (0x7027C01A, 0x7027C005, '2005-02-09 10:00:00') /* Olthoi Legionary */
-     , (0x7027C01A, 0x7027C006, '2005-02-09 10:00:00') /* Olthoi Legionary */
-     , (0x7027C01A, 0x7027C00D, '2005-02-09 10:00:00') /* Olthoi Legionary */
-     , (0x7027C01A, 0x7027C00F, '2005-02-09 10:00:00') /* Olthoi Legionary */
-     , (0x7027C01A, 0x7027C016, '2005-02-09 10:00:00') /* Olthoi Legionary */
-     , (0x7027C01A, 0x7027C017, '2005-02-09 10:00:00') /* Olthoi Legionary */
-     , (0x7027C01A, 0x7027C018, '2005-02-09 10:00:00') /* Olthoi Legionary */
-     , (0x7027C01A, 0x7027C019, '2005-02-09 10:00:00') /* Olthoi Legionary */
-     , (0x7027C01A, 0x7027C01C, '2005-02-09 10:00:00') /* Olthoi Legionary */
-     , (0x7027C01A, 0x7027C020, '2005-02-09 10:00:00') /* Olthoi Legionary */
-     , (0x7027C01A, 0x7027C021, '2005-02-09 10:00:00') /* Olthoi Legionary */
-     , (0x7027C01A, 0x7027C022, '2005-02-09 10:00:00') /* Olthoi Legionary */
-     , (0x7027C01A, 0x7027C023, '2005-02-09 10:00:00') /* Olthoi Legionary */
-     , (0x7027C01A, 0x7027C024, '2005-02-09 10:00:00') /* Olthoi Legionary */
-     , (0x7027C01A, 0x7027C025, '2005-02-09 10:00:00') /* Olthoi Legionary */
-     , (0x7027C01A, 0x7027C026, '2005-02-09 10:00:00') /* Olthoi Legionary */
-     , (0x7027C01A, 0x7027C027, '2005-02-09 10:00:00') /* Olthoi Legionary */
-     , (0x7027C01A, 0x7027C028, '2005-02-09 10:00:00') /* Olthoi Legionary */
-     , (0x7027C01A, 0x7027C029, '2005-02-09 10:00:00') /* Olthoi Legionary */
-     , (0x7027C01A, 0x7027C02A, '2005-02-09 10:00:00') /* Olthoi Legionary */
-     , (0x7027C01A, 0x7027C02B, '2005-02-09 10:00:00') /* Olthoi Legionary */
-     , (0x7027C01A, 0x7027C02C, '2005-02-09 10:00:00') /* Olthoi Legionary */
-     , (0x7027C01A, 0x7027C02D, '2005-02-09 10:00:00') /* Olthoi Legionary */;
+VALUES (0x7027C01A, 0x7027C000, '2005-02-09 10:00:00') /* Olthoi Legionary (11481) */
+     , (0x7027C01A, 0x7027C001, '2005-02-09 10:00:00') /* Olthoi Legionary (11481) */
+     , (0x7027C01A, 0x7027C002, '2005-02-09 10:00:00') /* Olthoi Legionary (11481) */
+     , (0x7027C01A, 0x7027C003, '2005-02-09 10:00:00') /* Olthoi Legionary (11481) */
+     , (0x7027C01A, 0x7027C004, '2005-02-09 10:00:00') /* Olthoi Legionary (11481) */
+     , (0x7027C01A, 0x7027C005, '2005-02-09 10:00:00') /* Olthoi Legionary (11481) */
+     , (0x7027C01A, 0x7027C006, '2005-02-09 10:00:00') /* Olthoi Legionary (11481) */
+     , (0x7027C01A, 0x7027C00D, '2005-02-09 10:00:00') /* Olthoi Legionary (11728) */
+     , (0x7027C01A, 0x7027C00F, '2005-02-09 10:00:00') /* Olthoi Legionary (11481) */
+     , (0x7027C01A, 0x7027C016, '2005-02-09 10:00:00') /* Olthoi Legionary (11481) */
+     , (0x7027C01A, 0x7027C017, '2005-02-09 10:00:00') /* Olthoi Legionary (11481) */
+     , (0x7027C01A, 0x7027C018, '2005-02-09 10:00:00') /* Olthoi Legionary (11481) */
+     , (0x7027C01A, 0x7027C019, '2005-02-09 10:00:00') /* Olthoi Legionary (11481) */
+     , (0x7027C01A, 0x7027C01C, '2005-02-09 10:00:00') /* Olthoi Legionary (11481) */
+     , (0x7027C01A, 0x7027C020, '2005-02-09 10:00:00') /* Olthoi Legionary (11481) */
+     , (0x7027C01A, 0x7027C021, '2005-02-09 10:00:00') /* Olthoi Legionary (11481) */
+     , (0x7027C01A, 0x7027C022, '2005-02-09 10:00:00') /* Olthoi Legionary (11481) */
+     , (0x7027C01A, 0x7027C023, '2005-02-09 10:00:00') /* Olthoi Legionary (11481) */
+     , (0x7027C01A, 0x7027C024, '2005-02-09 10:00:00') /* Olthoi Legionary (11481) */
+     , (0x7027C01A, 0x7027C025, '2005-02-09 10:00:00') /* Olthoi Legionary (11481) */
+     , (0x7027C01A, 0x7027C026, '2005-02-09 10:00:00') /* Olthoi Legionary (11481) */
+     , (0x7027C01A, 0x7027C027, '2005-02-09 10:00:00') /* Olthoi Legionary (11481) */
+     , (0x7027C01A, 0x7027C028, '2005-02-09 10:00:00') /* Olthoi Legionary (11481) */
+     , (0x7027C01A, 0x7027C029, '2005-02-09 10:00:00') /* Olthoi Legionary (11481) */
+     , (0x7027C01A, 0x7027C02A, '2005-02-09 10:00:00') /* Olthoi Legionary (11481) */
+     , (0x7027C01A, 0x7027C02B, '2005-02-09 10:00:00') /* Olthoi Legionary (11481) */
+     , (0x7027C01A, 0x7027C02C, '2005-02-09 10:00:00') /* Olthoi Legionary (11481) */
+     , (0x7027C01A, 0x7027C02D, '2005-02-09 10:00:00') /* Olthoi Legionary (11728) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7027C01B, 10854, 0x027C01A0, 29.7614, -8.66195, 0.005, -0.569767, 0, 0, -0.821806, False, '2005-02-09 10:00:00'); /* Surface Exit */
@@ -151,18 +151,18 @@ VALUES (0x7027C01D,  7924, 0x027C01B0, 36.4777, -2.94073, 0.005, 0.29143, 0, 0, 
 /* @teleloc 0x027C01B0 [36.477700 -2.940730 0.005000] 0.291430 0.000000 0.000000 -0.956592 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7027C01D, 0x7027C007, '2005-02-09 10:00:00') /* Olthoi Legionary */
-     , (0x7027C01D, 0x7027C008, '2005-02-09 10:00:00') /* Olthoi Legionary */
-     , (0x7027C01D, 0x7027C009, '2005-02-09 10:00:00') /* Olthoi Legionary */
-     , (0x7027C01D, 0x7027C00A, '2005-02-09 10:00:00') /* Olthoi Legionary */
-     , (0x7027C01D, 0x7027C00B, '2005-02-09 10:00:00') /* Olthoi Legionary */
-     , (0x7027C01D, 0x7027C00E, '2005-02-09 10:00:00') /* Olthoi Legionary */
-     , (0x7027C01D, 0x7027C010, '2005-02-09 10:00:00') /* Olthoi Legionary */
-     , (0x7027C01D, 0x7027C011, '2005-02-09 10:00:00') /* Olthoi Legionary */
-     , (0x7027C01D, 0x7027C012, '2005-02-09 10:00:00') /* Olthoi Legionary */
-     , (0x7027C01D, 0x7027C013, '2005-02-09 10:00:00') /* Olthoi Legionary */
-     , (0x7027C01D, 0x7027C014, '2005-02-09 10:00:00') /* Olthoi Legionary */
-     , (0x7027C01D, 0x7027C015, '2005-02-09 10:00:00') /* Olthoi Legionary */;
+VALUES (0x7027C01D, 0x7027C007, '2005-02-09 10:00:00') /* Olthoi Legionary (11481) */
+     , (0x7027C01D, 0x7027C008, '2005-02-09 10:00:00') /* Olthoi Legionary (11481) */
+     , (0x7027C01D, 0x7027C009, '2005-02-09 10:00:00') /* Olthoi Legionary (11481) */
+     , (0x7027C01D, 0x7027C00A, '2005-02-09 10:00:00') /* Olthoi Legionary (11481) */
+     , (0x7027C01D, 0x7027C00B, '2005-02-09 10:00:00') /* Olthoi Legionary (11481) */
+     , (0x7027C01D, 0x7027C00E, '2005-02-09 10:00:00') /* Olthoi Legionary (11481) */
+     , (0x7027C01D, 0x7027C010, '2005-02-09 10:00:00') /* Olthoi Legionary (11481) */
+     , (0x7027C01D, 0x7027C011, '2005-02-09 10:00:00') /* Olthoi Legionary (11481) */
+     , (0x7027C01D, 0x7027C012, '2005-02-09 10:00:00') /* Olthoi Legionary (11481) */
+     , (0x7027C01D, 0x7027C013, '2005-02-09 10:00:00') /* Olthoi Legionary (11481) */
+     , (0x7027C01D, 0x7027C014, '2005-02-09 10:00:00') /* Olthoi Legionary (11481) */
+     , (0x7027C01D, 0x7027C015, '2005-02-09 10:00:00') /* Olthoi Legionary (11481) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7027C020, 11481, 0x027C01DD, 61.08, -53.3467, 0.005, -0.75454, 0, 0, -0.656254,  True, '2005-02-09 10:00:00'); /* Olthoi Legionary */

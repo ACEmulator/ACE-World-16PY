@@ -9,4 +9,4 @@ VALUES (0x75DE1001, 15759, 0x5DE10000, 79.3224, 131.69, 134.108, 0.75502, 0, 0, 
 /* @teleloc 0x5DE10000 [79.322400 131.690000 134.108000] 0.755020 0.000000 0.000000 -0.655701 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x75DE1001, 0x75DE1000, '2005-02-09 10:00:00') /* Halaetan Magic Page 1 */;
+VALUES (0x75DE1001, 0x75DE1000, '2005-02-09 10:00:00') /* Halaetan Magic Page 1 (30917) */;

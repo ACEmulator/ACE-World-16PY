@@ -5,17 +5,17 @@ VALUES (0x749A7000,  1154, 0x49A70000, 81.142, 95.5928, 74.0389, -0.155055, 0, 0
 /* @teleloc 0x49A70000 [81.142000 95.592800 74.038900] -0.155055 0.000000 0.000000 -0.987906 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x749A7000, 0x749A7001, '2005-02-09 10:00:00') /* Crafter of Axes */
-     , (0x749A7000, 0x749A7002, '2005-02-09 10:00:00') /* Crafter of Bows */
-     , (0x749A7000, 0x749A7003, '2005-02-09 10:00:00') /* Crafter of Fists */
-     , (0x749A7000, 0x749A7004, '2005-02-09 10:00:00') /* Crafter of Arbelests */
-     , (0x749A7000, 0x749A7005, '2005-02-09 10:00:00') /* Crafter of Knives */
-     , (0x749A7000, 0x749A7006, '2005-02-09 10:00:00') /* Crafter of Maces */
-     , (0x749A7000, 0x749A7007, '2005-02-09 10:00:00') /* Crafter of Orbs */
-     , (0x749A7000, 0x749A7008, '2005-02-09 10:00:00') /* Crafter of Spears */
-     , (0x749A7000, 0x749A7009, '2005-02-09 10:00:00') /* Crafter of Staves */
-     , (0x749A7000, 0x749A700A, '2005-02-09 10:00:00') /* Crafter of Blades */
-     , (0x749A7000, 0x749A700B, '2005-02-09 10:00:00') /* Crafter of Atlatls */;
+VALUES (0x749A7000, 0x749A7001, '2005-02-09 10:00:00') /* Crafter of Axes (11636) */
+     , (0x749A7000, 0x749A7002, '2005-02-09 10:00:00') /* Crafter of Bows (11635) */
+     , (0x749A7000, 0x749A7003, '2005-02-09 10:00:00') /* Crafter of Fists (11634) */
+     , (0x749A7000, 0x749A7004, '2005-02-09 10:00:00') /* Crafter of Arbelests (11633) */
+     , (0x749A7000, 0x749A7005, '2005-02-09 10:00:00') /* Crafter of Knives (11632) */
+     , (0x749A7000, 0x749A7006, '2005-02-09 10:00:00') /* Crafter of Maces (11631) */
+     , (0x749A7000, 0x749A7007, '2005-02-09 10:00:00') /* Crafter of Orbs (11630) */
+     , (0x749A7000, 0x749A7008, '2005-02-09 10:00:00') /* Crafter of Spears (11629) */
+     , (0x749A7000, 0x749A7009, '2005-02-09 10:00:00') /* Crafter of Staves (11628) */
+     , (0x749A7000, 0x749A700A, '2005-02-09 10:00:00') /* Crafter of Blades (11627) */
+     , (0x749A7000, 0x749A700B, '2005-02-09 10:00:00') /* Crafter of Atlatls (23523) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x749A7001, 11636, 0x49A70000, 79.1373, 92.127, 74.453, -0.369233, 0, 0, 0.929337,  True, '2005-02-09 10:00:00'); /* Crafter of Axes */

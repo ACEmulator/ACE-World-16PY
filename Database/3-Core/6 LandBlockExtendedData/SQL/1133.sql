@@ -17,9 +17,9 @@ VALUES (0x71133008,  7923, 0x11330000, 75.8675, 101.632, 66.005, 0.912002, 0, 0,
 /* @teleloc 0x11330000 [75.867500 101.632000 66.005000] 0.912002 0.000000 0.000000 0.410186 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71133008, 0x71133006, '2005-02-09 10:00:00') /* Aun Aukherea */
-     , (0x71133008, 0x71133007, '2005-02-09 10:00:00') /* Aun Khekierea */
-     , (0x71133008, 0x71133009, '2005-02-09 10:00:00') /* Aludi al-Jaladh */;
+VALUES (0x71133008, 0x71133006, '2005-02-09 10:00:00') /* Aun Aukherea (27262) */
+     , (0x71133008, 0x71133007, '2005-02-09 10:00:00') /* Aun Khekierea (27267) */
+     , (0x71133008, 0x71133009, '2005-02-09 10:00:00') /* Aludi al-Jaladh (30629) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71133009, 30629, 0x11330000, 88.5902, 110.812, 66.005, -0.714805, 0, 0, -0.699323,  True, '2005-02-09 10:00:00'); /* Aludi al-Jaladh */

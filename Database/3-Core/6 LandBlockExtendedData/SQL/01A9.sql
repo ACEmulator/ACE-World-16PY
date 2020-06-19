@@ -45,7 +45,7 @@ VALUES (0x701A900A,  3952, 0x01A90119, 58.9469, -67.7523, -66, 1, 0, 0, 0, False
 /* @teleloc 0x01A90119 [58.946900 -67.752300 -66.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x701A900A, 0x701A9009, '2005-02-09 10:00:00') /* Dusty Volume */;
+VALUES (0x701A900A, 0x701A9009, '2005-02-09 10:00:00') /* Dusty Volume (5830) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x701A900B,   234, 0x01A9011F, 70.109, -31.381, -65.995, 1, 0, 0, 0,  True, '2005-02-09 10:00:00'); /* Tumerok Worker */
@@ -176,8 +176,8 @@ VALUES (0x701A902B,  2180, 0x01A901CC, 44.7366, -19.9999, -36, 0.707107, 0, 0, -
 /* @teleloc 0x01A901CC [44.736600 -19.999900 -36.000000] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x701A902B, 0x701A902A, '2005-02-09 10:00:00') /* Lever */
-     , (0x701A902B, 0x701A9030, '2005-02-09 10:00:00') /* Pressure Plate */;
+VALUES (0x701A902B, 0x701A902A, '2005-02-09 10:00:00') /* Lever (285) */
+     , (0x701A902B, 0x701A9030, '2005-02-09 10:00:00') /* Pressure Plate (2131) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x701A902C,   234, 0x01A901CD, 40.4647, -31.7555, -35.995, -0.707107, 0, 0, -0.707107,  True, '2005-02-09 10:00:00'); /* Tumerok Worker */
@@ -236,8 +236,8 @@ VALUES (0x701A9039,  2180, 0x01A901F8, 25.25, -20, -30, -0.707107, 0, 0, -0.7071
 /* @teleloc 0x01A901F8 [25.250000 -20.000000 -30.000000] -0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x701A9039, 0x701A9034, '2005-02-09 10:00:00') /* Pressure Plate */
-     , (0x701A9039, 0x701A9038, '2005-02-09 10:00:00') /* Lever */;
+VALUES (0x701A9039, 0x701A9034, '2005-02-09 10:00:00') /* Pressure Plate (2131) */
+     , (0x701A9039, 0x701A9038, '2005-02-09 10:00:00') /* Lever (285) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x701A903A,  1759, 0x01A901F9, 30.0029, -31.7517, -29.9975, -0.707107, 0, 0, -0.707107,  True, '2005-02-09 10:00:00'); /* Skeleton */
@@ -256,8 +256,8 @@ VALUES (0x701A903D,  2180, 0x01A901FB, 25.25, -30, -30, -0.707107, 0, 0, -0.7071
 /* @teleloc 0x01A901FB [25.250000 -30.000000 -30.000000] -0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x701A903D, 0x701A9035, '2005-02-09 10:00:00') /* Pressure Plate */
-     , (0x701A903D, 0x701A903C, '2005-02-09 10:00:00') /* Lever */;
+VALUES (0x701A903D, 0x701A9035, '2005-02-09 10:00:00') /* Pressure Plate (2131) */
+     , (0x701A903D, 0x701A903C, '2005-02-09 10:00:00') /* Lever (285) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x701A903E,   226, 0x01A90204, 37.7968, -20.903, -29.994, 1, 0, 0, 0,  True, '2005-02-09 10:00:00'); /* High Tumerok */
@@ -292,8 +292,8 @@ VALUES (0x701A9045,  2180, 0x01A9020A, 40, -34.75, -30, -4.37114E-08, 0, 0, -1, 
 /* @teleloc 0x01A9020A [40.000000 -34.750000 -30.000000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x701A9045, 0x701A9043, '2005-02-09 10:00:00') /* Lever */
-     , (0x701A9045, 0x701A904C, '2005-02-09 10:00:00') /* Lever */;
+VALUES (0x701A9045, 0x701A9043, '2005-02-09 10:00:00') /* Lever (285) */
+     , (0x701A9045, 0x701A904C, '2005-02-09 10:00:00') /* Lever (285) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x701A9046,  1759, 0x01A9020B, 38.2972, -40.9791, -29.9975, 1, 0, 0, 0,  True, '2005-02-09 10:00:00'); /* Skeleton */
@@ -376,8 +376,8 @@ VALUES (0x701A9059,  2180, 0x01A90234, 30, -25.25, -24, 1, 0, 0, 0, False, '2005
 /* @teleloc 0x01A90234 [30.000000 -25.250000 -24.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x701A9059, 0x701A9055, '2005-02-09 10:00:00') /* Lever */
-     , (0x701A9059, 0x701A9057, '2005-02-09 10:00:00') /* Lever */;
+VALUES (0x701A9059, 0x701A9055, '2005-02-09 10:00:00') /* Lever (285) */
+     , (0x701A9059, 0x701A9057, '2005-02-09 10:00:00') /* Lever (286) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x701A905A,   234, 0x01A90235, 31.5486, -41.5444, -23.995, 0.707107, 0, 0, -0.707107,  True, '2005-02-09 10:00:00'); /* Tumerok Worker */
@@ -432,7 +432,7 @@ VALUES (0x701A9066,  1542, 0x01A90263, 28.8548, -29.4228, -18, -4.37114E-08, 0, 
 /* @teleloc 0x01A90263 [28.854800 -29.422800 -18.000000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x701A9066, 0x701A9068, '2005-02-09 10:00:00') /* Fire Auroch Meat */;
+VALUES (0x701A9066, 0x701A9068, '2005-02-09 10:00:00') /* Fire Auroch Meat (1446) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x701A9067,   278, 0x01A90265, 30, -34.75, -18, -4.37114E-08, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Door */
@@ -559,48 +559,48 @@ VALUES (0x701A9085,  1154, 0x01A902D4, 53.6956, -26.8417, 1.16363, -0.707107, 0,
 /* @teleloc 0x01A902D4 [53.695600 -26.841700 1.163630] -0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x701A9085, 0x701A9002, '2005-02-09 10:00:00') /* High Tumerok */
-     , (0x701A9085, 0x701A9003, '2005-02-09 10:00:00') /* Tumerok Warrior */
-     , (0x701A9085, 0x701A9004, '2005-02-09 10:00:00') /* Tumerok Warrior */
-     , (0x701A9085, 0x701A900B, '2005-02-09 10:00:00') /* Tumerok Worker */
-     , (0x701A9085, 0x701A900D, '2005-02-09 10:00:00') /* Tumerok Worker */
-     , (0x701A9085, 0x701A9010, '2005-02-09 10:00:00') /* Tumerok Worker */
-     , (0x701A9085, 0x701A9012, '2005-02-09 10:00:00') /* Tumerok Worker */
-     , (0x701A9085, 0x701A9013, '2005-02-09 10:00:00') /* Tumerok Worker */
-     , (0x701A9085, 0x701A9018, '2005-02-09 10:00:00') /* Tumerok Scout */
-     , (0x701A9085, 0x701A9019, '2005-02-09 10:00:00') /* Tumerok Scout */
-     , (0x701A9085, 0x701A9022, '2005-02-09 10:00:00') /* Tumerok Worker */
-     , (0x701A9085, 0x701A9023, '2005-02-09 10:00:00') /* Tumerok Worker */
-     , (0x701A9085, 0x701A9025, '2005-02-09 10:00:00') /* Tumerok Worker */
-     , (0x701A9085, 0x701A9029, '2005-02-09 10:00:00') /* High Tumerok */
-     , (0x701A9085, 0x701A902C, '2005-02-09 10:00:00') /* Tumerok Worker */
-     , (0x701A9085, 0x701A9031, '2005-02-09 10:00:00') /* Tumerok Priest */
-     , (0x701A9085, 0x701A9032, '2005-02-09 10:00:00') /* Tumerok Priest */
-     , (0x701A9085, 0x701A9036, '2005-02-09 10:00:00') /* Skeleton */
-     , (0x701A9085, 0x701A9037, '2005-02-09 10:00:00') /* Skeleton */
-     , (0x701A9085, 0x701A903A, '2005-02-09 10:00:00') /* Skeleton */
-     , (0x701A9085, 0x701A903B, '2005-02-09 10:00:00') /* Skeleton */
-     , (0x701A9085, 0x701A903E, '2005-02-09 10:00:00') /* High Tumerok */
-     , (0x701A9085, 0x701A903F, '2005-02-09 10:00:00') /* Tumerok Scout */
-     , (0x701A9085, 0x701A9046, '2005-02-09 10:00:00') /* Skeleton */
-     , (0x701A9085, 0x701A9047, '2005-02-09 10:00:00') /* Skeleton */
-     , (0x701A9085, 0x701A9048, '2005-02-09 10:00:00') /* Skeleton */
-     , (0x701A9085, 0x701A9049, '2005-02-09 10:00:00') /* Skeleton */
-     , (0x701A9085, 0x701A904A, '2005-02-09 10:00:00') /* Skeleton Captain */
-     , (0x701A9085, 0x701A904E, '2005-02-09 10:00:00') /* Tumerok Worker */
-     , (0x701A9085, 0x701A905A, '2005-02-09 10:00:00') /* Tumerok Worker */
-     , (0x701A9085, 0x701A905B, '2005-02-09 10:00:00') /* Tumerok Worker */
-     , (0x701A9085, 0x701A905C, '2005-02-09 10:00:00') /* High Tumerok */
-     , (0x701A9085, 0x701A905E, '2005-02-09 10:00:00') /* Tumerok Priest */
-     , (0x701A9085, 0x701A905F, '2005-02-09 10:00:00') /* Tumerok Priest */
-     , (0x701A9085, 0x701A9065, '2005-02-09 10:00:00') /* Tumerok Worker */
-     , (0x701A9085, 0x701A906A, '2005-02-09 10:00:00') /* Tumerok Scout */
-     , (0x701A9085, 0x701A906B, '2005-02-09 10:00:00') /* Tumerok Officer */
-     , (0x701A9085, 0x701A906C, '2005-02-09 10:00:00') /* Tumerok Scout */
-     , (0x701A9085, 0x701A906F, '2005-02-09 10:00:00') /* Tumerok Officer */
-     , (0x701A9085, 0x701A9072, '2005-02-09 10:00:00') /* Tumerok Worker */
-     , (0x701A9085, 0x701A9073, '2005-02-09 10:00:00') /* Tumerok Scout */
-     , (0x701A9085, 0x701A9076, '2005-02-09 10:00:00') /* Tumerok Worker */
-     , (0x701A9085, 0x701A907B, '2005-02-09 10:00:00') /* Tumerok Worker */
-     , (0x701A9085, 0x701A9080, '2005-02-09 10:00:00') /* Tumerok Scout */
-     , (0x701A9085, 0x701A9082, '2005-02-09 10:00:00') /* Tumerok Scout */;
+VALUES (0x701A9085, 0x701A9002, '2005-02-09 10:00:00') /* High Tumerok (226) */
+     , (0x701A9085, 0x701A9003, '2005-02-09 10:00:00') /* Tumerok Warrior (233) */
+     , (0x701A9085, 0x701A9004, '2005-02-09 10:00:00') /* Tumerok Warrior (233) */
+     , (0x701A9085, 0x701A900B, '2005-02-09 10:00:00') /* Tumerok Worker (234) */
+     , (0x701A9085, 0x701A900D, '2005-02-09 10:00:00') /* Tumerok Worker (234) */
+     , (0x701A9085, 0x701A9010, '2005-02-09 10:00:00') /* Tumerok Worker (234) */
+     , (0x701A9085, 0x701A9012, '2005-02-09 10:00:00') /* Tumerok Worker (234) */
+     , (0x701A9085, 0x701A9013, '2005-02-09 10:00:00') /* Tumerok Worker (234) */
+     , (0x701A9085, 0x701A9018, '2005-02-09 10:00:00') /* Tumerok Scout (232) */
+     , (0x701A9085, 0x701A9019, '2005-02-09 10:00:00') /* Tumerok Scout (232) */
+     , (0x701A9085, 0x701A9022, '2005-02-09 10:00:00') /* Tumerok Worker (234) */
+     , (0x701A9085, 0x701A9023, '2005-02-09 10:00:00') /* Tumerok Worker (234) */
+     , (0x701A9085, 0x701A9025, '2005-02-09 10:00:00') /* Tumerok Worker (234) */
+     , (0x701A9085, 0x701A9029, '2005-02-09 10:00:00') /* High Tumerok (226) */
+     , (0x701A9085, 0x701A902C, '2005-02-09 10:00:00') /* Tumerok Worker (234) */
+     , (0x701A9085, 0x701A9031, '2005-02-09 10:00:00') /* Tumerok Priest (231) */
+     , (0x701A9085, 0x701A9032, '2005-02-09 10:00:00') /* Tumerok Priest (231) */
+     , (0x701A9085, 0x701A9036, '2005-02-09 10:00:00') /* Skeleton (1759) */
+     , (0x701A9085, 0x701A9037, '2005-02-09 10:00:00') /* Skeleton (1759) */
+     , (0x701A9085, 0x701A903A, '2005-02-09 10:00:00') /* Skeleton (1759) */
+     , (0x701A9085, 0x701A903B, '2005-02-09 10:00:00') /* Skeleton (1759) */
+     , (0x701A9085, 0x701A903E, '2005-02-09 10:00:00') /* High Tumerok (226) */
+     , (0x701A9085, 0x701A903F, '2005-02-09 10:00:00') /* Tumerok Scout (232) */
+     , (0x701A9085, 0x701A9046, '2005-02-09 10:00:00') /* Skeleton (1759) */
+     , (0x701A9085, 0x701A9047, '2005-02-09 10:00:00') /* Skeleton (1759) */
+     , (0x701A9085, 0x701A9048, '2005-02-09 10:00:00') /* Skeleton (1759) */
+     , (0x701A9085, 0x701A9049, '2005-02-09 10:00:00') /* Skeleton (1759) */
+     , (0x701A9085, 0x701A904A, '2005-02-09 10:00:00') /* Skeleton Captain (1761) */
+     , (0x701A9085, 0x701A904E, '2005-02-09 10:00:00') /* Tumerok Worker (234) */
+     , (0x701A9085, 0x701A905A, '2005-02-09 10:00:00') /* Tumerok Worker (234) */
+     , (0x701A9085, 0x701A905B, '2005-02-09 10:00:00') /* Tumerok Worker (234) */
+     , (0x701A9085, 0x701A905C, '2005-02-09 10:00:00') /* High Tumerok (226) */
+     , (0x701A9085, 0x701A905E, '2005-02-09 10:00:00') /* Tumerok Priest (231) */
+     , (0x701A9085, 0x701A905F, '2005-02-09 10:00:00') /* Tumerok Priest (231) */
+     , (0x701A9085, 0x701A9065, '2005-02-09 10:00:00') /* Tumerok Worker (234) */
+     , (0x701A9085, 0x701A906A, '2005-02-09 10:00:00') /* Tumerok Scout (232) */
+     , (0x701A9085, 0x701A906B, '2005-02-09 10:00:00') /* Tumerok Officer (229) */
+     , (0x701A9085, 0x701A906C, '2005-02-09 10:00:00') /* Tumerok Scout (232) */
+     , (0x701A9085, 0x701A906F, '2005-02-09 10:00:00') /* Tumerok Officer (229) */
+     , (0x701A9085, 0x701A9072, '2005-02-09 10:00:00') /* Tumerok Worker (234) */
+     , (0x701A9085, 0x701A9073, '2005-02-09 10:00:00') /* Tumerok Scout (232) */
+     , (0x701A9085, 0x701A9076, '2005-02-09 10:00:00') /* Tumerok Worker (234) */
+     , (0x701A9085, 0x701A907B, '2005-02-09 10:00:00') /* Tumerok Worker (234) */
+     , (0x701A9085, 0x701A9080, '2005-02-09 10:00:00') /* Tumerok Scout (232) */
+     , (0x701A9085, 0x701A9082, '2005-02-09 10:00:00') /* Tumerok Scout (232) */;

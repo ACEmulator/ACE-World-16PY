@@ -33,10 +33,10 @@ VALUES (0x7CF50007,  1154, 0xCF500000, 146.572, 149.777, 246.663, 0.786434, 0, 0
 /* @teleloc 0xCF500000 [146.572000 149.777000 246.663000] 0.786434 0.000000 0.000000 0.617674 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7CF50007, 0x7CF50000, '2005-02-09 10:00:00') /* Limestone Golem */
-     , (0x7CF50007, 0x7CF50001, '2005-02-09 10:00:00') /* Limestone Golem */
-     , (0x7CF50007, 0x7CF50002, '2005-02-09 10:00:00') /* Limestone Golem */
-     , (0x7CF50007, 0x7CF50003, '2005-02-09 10:00:00') /* Limestone Golem */
-     , (0x7CF50007, 0x7CF50004, '2005-02-09 10:00:00') /* Limestone Golem */
-     , (0x7CF50007, 0x7CF50005, '2005-02-09 10:00:00') /* Limestone Golem */
-     , (0x7CF50007, 0x7CF50006, '2005-02-09 10:00:00') /* Limestone Golem */;
+VALUES (0x7CF50007, 0x7CF50000, '2005-02-09 10:00:00') /* Limestone Golem (198) */
+     , (0x7CF50007, 0x7CF50001, '2005-02-09 10:00:00') /* Limestone Golem (198) */
+     , (0x7CF50007, 0x7CF50002, '2005-02-09 10:00:00') /* Limestone Golem (198) */
+     , (0x7CF50007, 0x7CF50003, '2005-02-09 10:00:00') /* Limestone Golem (198) */
+     , (0x7CF50007, 0x7CF50004, '2005-02-09 10:00:00') /* Limestone Golem (198) */
+     , (0x7CF50007, 0x7CF50005, '2005-02-09 10:00:00') /* Limestone Golem (198) */
+     , (0x7CF50007, 0x7CF50006, '2005-02-09 10:00:00') /* Limestone Golem (198) */;

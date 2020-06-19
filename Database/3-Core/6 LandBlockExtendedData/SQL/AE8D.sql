@@ -73,20 +73,20 @@ VALUES (0x7AE8D022,  3955, 0xAE8D0000, 159.35, 128.866, 39.2841, 0.959144, 0, 0,
 /* @teleloc 0xAE8D0000 [159.350000 128.866000 39.284100] 0.959144 0.000000 0.000000 0.282919 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7AE8D022, 0x7AE8D011, '2005-02-09 10:00:00') /* Auroch Fire Yearling */
-     , (0x7AE8D022, 0x7AE8D012, '2005-02-09 10:00:00') /* Auroch Fire Bull */
-     , (0x7AE8D022, 0x7AE8D013, '2005-02-09 10:00:00') /* Auroch Fire Cow */
-     , (0x7AE8D022, 0x7AE8D014, '2005-02-09 10:00:00') /* Auroch Fire Cow */
-     , (0x7AE8D022, 0x7AE8D015, '2005-02-09 10:00:00') /* Auroch Fire Cow */
-     , (0x7AE8D022, 0x7AE8D016, '2005-02-09 10:00:00') /* Auroch Fire Cow */
-     , (0x7AE8D022, 0x7AE8D017, '2005-02-09 10:00:00') /* Auroch Fire Yearling */
-     , (0x7AE8D022, 0x7AE8D018, '2005-02-09 10:00:00') /* Auroch Fire Yearling */
-     , (0x7AE8D022, 0x7AE8D019, '2005-02-09 10:00:00') /* Auroch Fire Yearling */
-     , (0x7AE8D022, 0x7AE8D01A, '2005-02-09 10:00:00') /* Auroch Fire Yearling */
-     , (0x7AE8D022, 0x7AE8D01B, '2005-02-09 10:00:00') /* Auroch Fire Yearling */
-     , (0x7AE8D022, 0x7AE8D01C, '2005-02-09 10:00:00') /* Auroch Fire Cow */
-     , (0x7AE8D022, 0x7AE8D01D, '2005-02-09 10:00:00') /* Auroch Fire Cow */
-     , (0x7AE8D022, 0x7AE8D01E, '2005-02-09 10:00:00') /* Auroch Fire Cow */
-     , (0x7AE8D022, 0x7AE8D01F, '2005-02-09 10:00:00') /* Auroch Fire Yearling */
-     , (0x7AE8D022, 0x7AE8D020, '2005-02-09 10:00:00') /* Auroch Fire Bull */
-     , (0x7AE8D022, 0x7AE8D021, '2005-02-09 10:00:00') /* Auroch Fire Yearling */;
+VALUES (0x7AE8D022, 0x7AE8D011, '2005-02-09 10:00:00') /* Auroch Fire Yearling (1605) */
+     , (0x7AE8D022, 0x7AE8D012, '2005-02-09 10:00:00') /* Auroch Fire Bull (1607) */
+     , (0x7AE8D022, 0x7AE8D013, '2005-02-09 10:00:00') /* Auroch Fire Cow (1606) */
+     , (0x7AE8D022, 0x7AE8D014, '2005-02-09 10:00:00') /* Auroch Fire Cow (1606) */
+     , (0x7AE8D022, 0x7AE8D015, '2005-02-09 10:00:00') /* Auroch Fire Cow (1606) */
+     , (0x7AE8D022, 0x7AE8D016, '2005-02-09 10:00:00') /* Auroch Fire Cow (1606) */
+     , (0x7AE8D022, 0x7AE8D017, '2005-02-09 10:00:00') /* Auroch Fire Yearling (1605) */
+     , (0x7AE8D022, 0x7AE8D018, '2005-02-09 10:00:00') /* Auroch Fire Yearling (1605) */
+     , (0x7AE8D022, 0x7AE8D019, '2005-02-09 10:00:00') /* Auroch Fire Yearling (1605) */
+     , (0x7AE8D022, 0x7AE8D01A, '2005-02-09 10:00:00') /* Auroch Fire Yearling (1605) */
+     , (0x7AE8D022, 0x7AE8D01B, '2005-02-09 10:00:00') /* Auroch Fire Yearling (1605) */
+     , (0x7AE8D022, 0x7AE8D01C, '2005-02-09 10:00:00') /* Auroch Fire Cow (1606) */
+     , (0x7AE8D022, 0x7AE8D01D, '2005-02-09 10:00:00') /* Auroch Fire Cow (1606) */
+     , (0x7AE8D022, 0x7AE8D01E, '2005-02-09 10:00:00') /* Auroch Fire Cow (1606) */
+     , (0x7AE8D022, 0x7AE8D01F, '2005-02-09 10:00:00') /* Auroch Fire Yearling (1605) */
+     , (0x7AE8D022, 0x7AE8D020, '2005-02-09 10:00:00') /* Auroch Fire Bull (1607) */
+     , (0x7AE8D022, 0x7AE8D021, '2005-02-09 10:00:00') /* Auroch Fire Yearling (1605) */;

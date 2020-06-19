@@ -185,9 +185,9 @@ VALUES (0x701CF02D,  2179, 0x01CF01A2, 83.0071, -39.9645, -12, -0.707107, 0, 0, 
 /* @teleloc 0x01CF01A2 [83.007100 -39.964500 -12.000000] -0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x701CF02D, 0x701CF01C, '2005-02-09 10:00:00') /* Pressure Plate */
-     , (0x701CF02D, 0x701CF02C, '2005-02-09 10:00:00') /* Pressure Plate */
-     , (0x701CF02D, 0x701CF038, '2005-02-09 10:00:00') /* Lever */;
+VALUES (0x701CF02D, 0x701CF01C, '2005-02-09 10:00:00') /* Pressure Plate (298) */
+     , (0x701CF02D, 0x701CF02C, '2005-02-09 10:00:00') /* Pressure Plate (2131) */
+     , (0x701CF02D, 0x701CF038, '2005-02-09 10:00:00') /* Lever (285) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x701CF02E,  2131, 0x01CF01A4, 80, -50, -12, -0.707107, 0, 0, -0.707107,  True, '2005-02-09 10:00:00'); /* Pressure Plate */
@@ -198,9 +198,9 @@ VALUES (0x701CF02F,  2179, 0x01CF01A7, 81.7755, -49.978, -12, -0.707107, 0, 0, -
 /* @teleloc 0x01CF01A7 [81.775500 -49.978000 -12.000000] -0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x701CF02F, 0x701CF02A, '2005-02-09 10:00:00') /* Pressure Plate */
-     , (0x701CF02F, 0x701CF02E, '2005-02-09 10:00:00') /* Pressure Plate */
-     , (0x701CF02F, 0x701CF03C, '2005-02-09 10:00:00') /* Lever */;
+VALUES (0x701CF02F, 0x701CF02A, '2005-02-09 10:00:00') /* Pressure Plate (298) */
+     , (0x701CF02F, 0x701CF02E, '2005-02-09 10:00:00') /* Pressure Plate (2131) */
+     , (0x701CF02F, 0x701CF03C, '2005-02-09 10:00:00') /* Lever (285) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x701CF030,   420, 0x01CF01A9, 78.7157, -67.2038, -12, -0.707107, 0, 0, -0.707107, False, '2005-02-09 10:00:00'); /* Item Food Generator */
@@ -355,64 +355,64 @@ VALUES (0x701CF055,  7923, 0x01CF0237, 119.809, -162.411, 6, 0.707107, 0, 0, -0.
 /* @teleloc 0x01CF0237 [119.809000 -162.411000 6.000000] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x701CF055, 0x701CF001, '2005-02-09 10:00:00') /* Drudge Slinker */
-     , (0x701CF055, 0x701CF002, '2005-02-09 10:00:00') /* Drudge Slinker */
-     , (0x701CF055, 0x701CF005, '2005-02-09 10:00:00') /* Drudge Robber */
-     , (0x701CF055, 0x701CF00A, '2005-02-09 10:00:00') /* Carrion Shreth */
-     , (0x701CF055, 0x701CF00E, '2005-02-09 10:00:00') /* Drudge Prowler */
-     , (0x701CF055, 0x701CF00F, '2005-02-09 10:00:00') /* Drudge Prowler */
-     , (0x701CF055, 0x701CF010, '2005-02-09 10:00:00') /* Drudge Prowler */
-     , (0x701CF055, 0x701CF013, '2005-02-09 10:00:00') /* Drudge Prowler */
-     , (0x701CF055, 0x701CF014, '2005-02-09 10:00:00') /* Drudge Prowler */
-     , (0x701CF055, 0x701CF015, '2005-02-09 10:00:00') /* Carrion Shreth */
-     , (0x701CF055, 0x701CF016, '2005-02-09 10:00:00') /* Carrion Shreth */
-     , (0x701CF055, 0x701CF018, '2005-02-09 10:00:00') /* Carrion Shreth */
-     , (0x701CF055, 0x701CF01A, '2005-02-09 10:00:00') /* Drudge Prowler */
-     , (0x701CF055, 0x701CF01B, '2005-02-09 10:00:00') /* Drudge Skulker */
-     , (0x701CF055, 0x701CF01D, '2005-02-09 10:00:00') /* Drudge Skulker */
-     , (0x701CF055, 0x701CF01E, '2005-02-09 10:00:00') /* Drudge Skulker */
-     , (0x701CF055, 0x701CF021, '2005-02-09 10:00:00') /* Gnawer Shreth */
-     , (0x701CF055, 0x701CF025, '2005-02-09 10:00:00') /* Drudge Slinker */
-     , (0x701CF055, 0x701CF026, '2005-02-09 10:00:00') /* Drudge Slinker */
-     , (0x701CF055, 0x701CF027, '2005-02-09 10:00:00') /* Drudge Slinker */
-     , (0x701CF055, 0x701CF028, '2005-02-09 10:00:00') /* Drudge Skulker */
-     , (0x701CF055, 0x701CF029, '2005-02-09 10:00:00') /* Drudge Sneaker */
-     , (0x701CF055, 0x701CF033, '2005-02-09 10:00:00') /* Gnawer Shreth */
-     , (0x701CF055, 0x701CF034, '2005-02-09 10:00:00') /* Drudge Slinker */
-     , (0x701CF055, 0x701CF035, '2005-02-09 10:00:00') /* Drudge Prowler */
-     , (0x701CF055, 0x701CF039, '2005-02-09 10:00:00') /* Drudge Sneaker */
-     , (0x701CF055, 0x701CF03A, '2005-02-09 10:00:00') /* Drudge Sneaker */
-     , (0x701CF055, 0x701CF03D, '2005-02-09 10:00:00') /* Drudge Slinker */
-     , (0x701CF055, 0x701CF03E, '2005-02-09 10:00:00') /* Drudge Slinker */
-     , (0x701CF055, 0x701CF040, '2005-02-09 10:00:00') /* Drudge Skulker */
-     , (0x701CF055, 0x701CF044, '2005-02-09 10:00:00') /* Drudge Prowler */
-     , (0x701CF055, 0x701CF046, '2005-02-09 10:00:00') /* Drudge Skulker */
-     , (0x701CF055, 0x701CF047, '2005-02-09 10:00:00') /* Drudge Skulker */
-     , (0x701CF055, 0x701CF048, '2005-02-09 10:00:00') /* Drudge Sneaker */
-     , (0x701CF055, 0x701CF049, '2005-02-09 10:00:00') /* Drudge Prowler */
-     , (0x701CF055, 0x701CF04A, '2005-02-09 10:00:00') /* Drudge Skulker */
-     , (0x701CF055, 0x701CF04B, '2005-02-09 10:00:00') /* Gnawer Shreth */
-     , (0x701CF055, 0x701CF04C, '2005-02-09 10:00:00') /* Carrion Shreth */
-     , (0x701CF055, 0x701CF04D, '2005-02-09 10:00:00') /* Drudge Prowler */
-     , (0x701CF055, 0x701CF04E, '2005-02-09 10:00:00') /* Drudge Prowler */
-     , (0x701CF055, 0x701CF051, '2005-02-09 10:00:00') /* Drudge Sneaker */
-     , (0x701CF055, 0x701CF052, '2005-02-09 10:00:00') /* Carrion Shreth */
-     , (0x701CF055, 0x701CF053, '2005-02-09 10:00:00') /* Gnawer Shreth */
-     , (0x701CF055, 0x701CF054, '2005-02-09 10:00:00') /* Carrion Shreth */
-     , (0x701CF055, 0x701CF057, '2005-02-09 10:00:00') /* Drudge Sneaker */
-     , (0x701CF055, 0x701CF059, '2005-02-09 10:00:00') /* Drudge Sneaker */
-     , (0x701CF055, 0x701CF05C, '2005-02-09 10:00:00') /* Drudge Sneaker */
-     , (0x701CF055, 0x701CF05F, '2005-02-09 10:00:00') /* Drudge Sneaker */
-     , (0x701CF055, 0x701CF060, '2005-02-09 10:00:00') /* Drudge Sneaker */
-     , (0x701CF055, 0x701CF061, '2005-02-09 10:00:00') /* Drudge Sneaker */
-     , (0x701CF055, 0x701CF063, '2005-02-09 10:00:00') /* Drudge Sneaker */
-     , (0x701CF055, 0x701CF064, '2005-02-09 10:00:00') /* Drudge Sneaker */
-     , (0x701CF055, 0x701CF065, '2005-02-09 10:00:00') /* Drudge Sneaker */
-     , (0x701CF055, 0x701CF066, '2005-02-09 10:00:00') /* Drudge Prowler */
-     , (0x701CF055, 0x701CF067, '2005-02-09 10:00:00') /* Drudge Prowler */
-     , (0x701CF055, 0x701CF068, '2005-02-09 10:00:00') /* Drudge Prowler */
-     , (0x701CF055, 0x701CF069, '2005-02-09 10:00:00') /* Drudge Prowler */
-     , (0x701CF055, 0x701CF06F, '2005-02-09 10:00:00') /* Hunter Shreth */;
+VALUES (0x701CF055, 0x701CF001, '2005-02-09 10:00:00') /* Drudge Slinker (193) */
+     , (0x701CF055, 0x701CF002, '2005-02-09 10:00:00') /* Drudge Slinker (193) */
+     , (0x701CF055, 0x701CF005, '2005-02-09 10:00:00') /* Drudge Robber (1464) */
+     , (0x701CF055, 0x701CF00A, '2005-02-09 10:00:00') /* Carrion Shreth (4109) */
+     , (0x701CF055, 0x701CF00E, '2005-02-09 10:00:00') /* Drudge Prowler (192) */
+     , (0x701CF055, 0x701CF00F, '2005-02-09 10:00:00') /* Drudge Prowler (192) */
+     , (0x701CF055, 0x701CF010, '2005-02-09 10:00:00') /* Drudge Prowler (192) */
+     , (0x701CF055, 0x701CF013, '2005-02-09 10:00:00') /* Drudge Prowler (192) */
+     , (0x701CF055, 0x701CF014, '2005-02-09 10:00:00') /* Drudge Prowler (192) */
+     , (0x701CF055, 0x701CF015, '2005-02-09 10:00:00') /* Carrion Shreth (4109) */
+     , (0x701CF055, 0x701CF016, '2005-02-09 10:00:00') /* Carrion Shreth (4109) */
+     , (0x701CF055, 0x701CF018, '2005-02-09 10:00:00') /* Carrion Shreth (4109) */
+     , (0x701CF055, 0x701CF01A, '2005-02-09 10:00:00') /* Drudge Prowler (192) */
+     , (0x701CF055, 0x701CF01B, '2005-02-09 10:00:00') /* Drudge Skulker (7) */
+     , (0x701CF055, 0x701CF01D, '2005-02-09 10:00:00') /* Drudge Skulker (7) */
+     , (0x701CF055, 0x701CF01E, '2005-02-09 10:00:00') /* Drudge Skulker (7) */
+     , (0x701CF055, 0x701CF021, '2005-02-09 10:00:00') /* Gnawer Shreth (4108) */
+     , (0x701CF055, 0x701CF025, '2005-02-09 10:00:00') /* Drudge Slinker (193) */
+     , (0x701CF055, 0x701CF026, '2005-02-09 10:00:00') /* Drudge Slinker (193) */
+     , (0x701CF055, 0x701CF027, '2005-02-09 10:00:00') /* Drudge Slinker (193) */
+     , (0x701CF055, 0x701CF028, '2005-02-09 10:00:00') /* Drudge Skulker (1321) */
+     , (0x701CF055, 0x701CF029, '2005-02-09 10:00:00') /* Drudge Sneaker (940) */
+     , (0x701CF055, 0x701CF033, '2005-02-09 10:00:00') /* Gnawer Shreth (4108) */
+     , (0x701CF055, 0x701CF034, '2005-02-09 10:00:00') /* Drudge Slinker (193) */
+     , (0x701CF055, 0x701CF035, '2005-02-09 10:00:00') /* Drudge Prowler (192) */
+     , (0x701CF055, 0x701CF039, '2005-02-09 10:00:00') /* Drudge Sneaker (940) */
+     , (0x701CF055, 0x701CF03A, '2005-02-09 10:00:00') /* Drudge Sneaker (940) */
+     , (0x701CF055, 0x701CF03D, '2005-02-09 10:00:00') /* Drudge Slinker (193) */
+     , (0x701CF055, 0x701CF03E, '2005-02-09 10:00:00') /* Drudge Slinker (193) */
+     , (0x701CF055, 0x701CF040, '2005-02-09 10:00:00') /* Drudge Skulker (7) */
+     , (0x701CF055, 0x701CF044, '2005-02-09 10:00:00') /* Drudge Prowler (192) */
+     , (0x701CF055, 0x701CF046, '2005-02-09 10:00:00') /* Drudge Skulker (7) */
+     , (0x701CF055, 0x701CF047, '2005-02-09 10:00:00') /* Drudge Skulker (7) */
+     , (0x701CF055, 0x701CF048, '2005-02-09 10:00:00') /* Drudge Sneaker (940) */
+     , (0x701CF055, 0x701CF049, '2005-02-09 10:00:00') /* Drudge Prowler (192) */
+     , (0x701CF055, 0x701CF04A, '2005-02-09 10:00:00') /* Drudge Skulker (7) */
+     , (0x701CF055, 0x701CF04B, '2005-02-09 10:00:00') /* Gnawer Shreth (4108) */
+     , (0x701CF055, 0x701CF04C, '2005-02-09 10:00:00') /* Carrion Shreth (4109) */
+     , (0x701CF055, 0x701CF04D, '2005-02-09 10:00:00') /* Drudge Prowler (192) */
+     , (0x701CF055, 0x701CF04E, '2005-02-09 10:00:00') /* Drudge Prowler (192) */
+     , (0x701CF055, 0x701CF051, '2005-02-09 10:00:00') /* Drudge Sneaker (940) */
+     , (0x701CF055, 0x701CF052, '2005-02-09 10:00:00') /* Carrion Shreth (4109) */
+     , (0x701CF055, 0x701CF053, '2005-02-09 10:00:00') /* Gnawer Shreth (4108) */
+     , (0x701CF055, 0x701CF054, '2005-02-09 10:00:00') /* Carrion Shreth (4109) */
+     , (0x701CF055, 0x701CF057, '2005-02-09 10:00:00') /* Drudge Sneaker (940) */
+     , (0x701CF055, 0x701CF059, '2005-02-09 10:00:00') /* Drudge Sneaker (1322) */
+     , (0x701CF055, 0x701CF05C, '2005-02-09 10:00:00') /* Drudge Sneaker (940) */
+     , (0x701CF055, 0x701CF05F, '2005-02-09 10:00:00') /* Drudge Sneaker (940) */
+     , (0x701CF055, 0x701CF060, '2005-02-09 10:00:00') /* Drudge Sneaker (940) */
+     , (0x701CF055, 0x701CF061, '2005-02-09 10:00:00') /* Drudge Sneaker (940) */
+     , (0x701CF055, 0x701CF063, '2005-02-09 10:00:00') /* Drudge Sneaker (940) */
+     , (0x701CF055, 0x701CF064, '2005-02-09 10:00:00') /* Drudge Sneaker (940) */
+     , (0x701CF055, 0x701CF065, '2005-02-09 10:00:00') /* Drudge Sneaker (940) */
+     , (0x701CF055, 0x701CF066, '2005-02-09 10:00:00') /* Drudge Prowler (192) */
+     , (0x701CF055, 0x701CF067, '2005-02-09 10:00:00') /* Drudge Prowler (192) */
+     , (0x701CF055, 0x701CF068, '2005-02-09 10:00:00') /* Drudge Prowler (192) */
+     , (0x701CF055, 0x701CF069, '2005-02-09 10:00:00') /* Drudge Prowler (192) */
+     , (0x701CF055, 0x701CF06F, '2005-02-09 10:00:00') /* Hunter Shreth (4111) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x701CF056,  1324, 0x01CF023C, 128.078, -166.807, 6.19004, 0.707107, 0, 0, -0.707107, False, '2005-02-09 10:00:00'); /* Surface Portal */

@@ -45,16 +45,16 @@ VALUES (0x7D59000A,  1154, 0xD5900000, 34.2698, 112.047, -9.31323E-10, -0.998563
 /* @teleloc 0xD5900000 [34.269800 112.047000 0.000000] -0.998563 0.000000 0.000000 -0.053587 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7D59000A, 0x7D590000, '2005-02-09 10:00:00') /* Azure Gromnie */
-     , (0x7D59000A, 0x7D590001, '2005-02-09 10:00:00') /* Azure Gromnie */
-     , (0x7D59000A, 0x7D590002, '2005-02-09 10:00:00') /* Azure Gromnie */
-     , (0x7D59000A, 0x7D590003, '2005-02-09 10:00:00') /* Azure Gromnie */
-     , (0x7D59000A, 0x7D590004, '2005-02-09 10:00:00') /* Azure Gromnie */
-     , (0x7D59000A, 0x7D590005, '2005-02-09 10:00:00') /* Azure Gromnie */
-     , (0x7D59000A, 0x7D590006, '2005-02-09 10:00:00') /* Azure Gromnie */
-     , (0x7D59000A, 0x7D590007, '2005-02-09 10:00:00') /* Azure Gromnie */
-     , (0x7D59000A, 0x7D590008, '2005-02-09 10:00:00') /* Azure Gromnie */
-     , (0x7D59000A, 0x7D590009, '2005-02-09 10:00:00') /* Azure Gromnie */;
+VALUES (0x7D59000A, 0x7D590000, '2005-02-09 10:00:00') /* Azure Gromnie (1612) */
+     , (0x7D59000A, 0x7D590001, '2005-02-09 10:00:00') /* Azure Gromnie (1612) */
+     , (0x7D59000A, 0x7D590002, '2005-02-09 10:00:00') /* Azure Gromnie (1612) */
+     , (0x7D59000A, 0x7D590003, '2005-02-09 10:00:00') /* Azure Gromnie (1612) */
+     , (0x7D59000A, 0x7D590004, '2005-02-09 10:00:00') /* Azure Gromnie (1612) */
+     , (0x7D59000A, 0x7D590005, '2005-02-09 10:00:00') /* Azure Gromnie (1612) */
+     , (0x7D59000A, 0x7D590006, '2005-02-09 10:00:00') /* Azure Gromnie (1612) */
+     , (0x7D59000A, 0x7D590007, '2005-02-09 10:00:00') /* Azure Gromnie (1612) */
+     , (0x7D59000A, 0x7D590008, '2005-02-09 10:00:00') /* Azure Gromnie (1612) */
+     , (0x7D59000A, 0x7D590009, '2005-02-09 10:00:00') /* Azure Gromnie (1612) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7D59000B,  1400, 0xD5900000, 38.4644, 114.582, 0.005, 0.611391, 0, 0, -0.791329, False, '2005-02-09 10:00:00'); /* Item Fish Generator */

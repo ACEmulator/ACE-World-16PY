@@ -1,5 +1,5 @@
-DELETE FROM `encounter` WHERE `landblock` = 44050;
+DELETE FROM `encounter` WHERE `landblock` = 0xAC12;
 
 INSERT INTO `encounter` (`landblock`, `weenie_Class_Id`, `cell_X`, `cell_Y`, `last_Modified`)
-VALUES (44050, 23165, 0, 2, '2005-02-09 10:00:00') /* Mid South Lakes Generator */
-     , (44050, 23165, 2, 7, '2005-02-09 10:00:00') /* Mid South Lakes Generator */;
+VALUES (0xAC12, 23165, 0, 2, '2005-02-09 10:00:00') /* Mid South Lakes Generator */
+     , (0xAC12, 23165, 2, 7, '2005-02-09 10:00:00') /* Mid South Lakes Generator */;

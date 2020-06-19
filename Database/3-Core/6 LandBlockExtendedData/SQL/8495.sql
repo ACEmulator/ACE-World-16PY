@@ -21,7 +21,7 @@ VALUES (0x7849500C,  7924, 0x84950000, 12.423, 3.70224, 224.005, -0.999938, 0, 0
 /* @teleloc 0x84950000 [12.423000 3.702240 224.005000] -0.999938 0.000000 0.000000 0.011106 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7849500C, 0x78495008, '2005-02-09 10:00:00') /* Ferocious Monouga */
-     , (0x7849500C, 0x78495009, '2005-02-09 10:00:00') /* Ferocious Monouga */
-     , (0x7849500C, 0x7849500A, '2005-02-09 10:00:00') /* Ferocious Monouga */
-     , (0x7849500C, 0x7849500B, '2005-02-09 10:00:00') /* Ferocious Monouga */;
+VALUES (0x7849500C, 0x78495008, '2005-02-09 10:00:00') /* Ferocious Monouga (9252) */
+     , (0x7849500C, 0x78495009, '2005-02-09 10:00:00') /* Ferocious Monouga (9252) */
+     , (0x7849500C, 0x7849500A, '2005-02-09 10:00:00') /* Ferocious Monouga (9252) */
+     , (0x7849500C, 0x7849500B, '2005-02-09 10:00:00') /* Ferocious Monouga (9252) */;

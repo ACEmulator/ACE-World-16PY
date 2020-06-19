@@ -69,7 +69,7 @@ VALUES (0x7E53E010,  1154, 0xE53E0103, 84.4189, 6.62258, 120.005, 0.235566, 0, 0
 /* @teleloc 0xE53E0103 [84.418900 6.622580 120.005000] 0.235566 0.000000 0.000000 -0.971858 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7E53E010, 0x7E53E011, '2005-02-09 10:00:00') /* Shin Ro */;
+VALUES (0x7E53E010, 0x7E53E011, '2005-02-09 10:00:00') /* Shin Ro (5121) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7E53E011,  5121, 0xE53E0103, 83.112, 5.9495, 120.005, 0.235566, 0, 0, -0.971858,  True, '2005-02-09 10:00:00'); /* Shin Ro */

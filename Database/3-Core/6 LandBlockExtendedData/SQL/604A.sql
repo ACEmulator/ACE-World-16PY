@@ -5,8 +5,8 @@ VALUES (0x7604A001,  5085, 0x604A0107, 75.9775, -103.884, -59.995, 0.689547, 0, 
 /* @teleloc 0x604A0107 [75.977500 -103.884000 -59.995000] 0.689547 0.000000 0.000000 -0.724241 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7604A001, 0x7604A027, '2005-02-09 10:00:00') /* Book of Memories */
-     , (0x7604A001, 0x7604A0CF, '2005-02-09 10:00:00') /* Falatacot Tome */;
+VALUES (0x7604A001, 0x7604A027, '2005-02-09 10:00:00') /* Book of Memories (25591) */
+     , (0x7604A001, 0x7604A0CF, '2005-02-09 10:00:00') /* Falatacot Tome (25593) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7604A002, 23486, 0x604A0114, 29.4588, -74.9168, -47.995, -0.866398, 0, 0, 0.499354,  True, '2005-02-09 10:00:00'); /* Faisi Sclavus Lord */
@@ -33,24 +33,24 @@ VALUES (0x7604A008, 25582, 0x604A011F, 55.35, -80, -47.995, -0.707107, 0, 0, -0.
 /* @teleloc 0x604A011F [55.350000 -80.000000 -47.995000] -0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7604A008, 0x7604A0AD, '2005-02-09 10:00:00') /* Torch */;
+VALUES (0x7604A008, 0x7604A0AD, '2005-02-09 10:00:00') /* Torch (7323) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7604A009,  7924, 0x604A0121, 18.4732, -69.8505, -41.995, -0.696696, 0, 0, 0.717366, False, '2005-02-09 10:00:00'); /* Linkable Monster Generator ( 5 Min.) */
 /* @teleloc 0x604A0121 [18.473200 -69.850500 -41.995000] -0.696696 0.000000 0.000000 0.717366 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7604A009, 0x7604A002, '2005-02-09 10:00:00') /* Faisi Sclavus Lord */
-     , (0x7604A009, 0x7604A003, '2005-02-09 10:00:00') /* Faisi Sclavus Lord */
-     , (0x7604A009, 0x7604A004, '2005-02-09 10:00:00') /* Faisi Sclavus Lord */
-     , (0x7604A009, 0x7604A005, '2005-02-09 10:00:00') /* Faisi Sclavus Lord */
-     , (0x7604A009, 0x7604A006, '2005-02-09 10:00:00') /* Faisi Sclavus Lord */
-     , (0x7604A009, 0x7604A00D, '2005-02-09 10:00:00') /* Faisi Sclavus Lord */
-     , (0x7604A009, 0x7604A00E, '2005-02-09 10:00:00') /* Chomu Sclavus Lord */
-     , (0x7604A009, 0x7604A010, '2005-02-09 10:00:00') /* Faisi Sclavus Lord */
-     , (0x7604A009, 0x7604A015, '2005-02-09 10:00:00') /* Chomu Sclavus Lord */
-     , (0x7604A009, 0x7604A0AF, '2005-02-09 10:00:00') /* Torch */
-     , (0x7604A009, 0x7604A0B3, '2005-02-09 10:00:00') /* Sarcophagus */;
+VALUES (0x7604A009, 0x7604A002, '2005-02-09 10:00:00') /* Faisi Sclavus Lord (23486) */
+     , (0x7604A009, 0x7604A003, '2005-02-09 10:00:00') /* Faisi Sclavus Lord (23486) */
+     , (0x7604A009, 0x7604A004, '2005-02-09 10:00:00') /* Faisi Sclavus Lord (23486) */
+     , (0x7604A009, 0x7604A005, '2005-02-09 10:00:00') /* Faisi Sclavus Lord (23486) */
+     , (0x7604A009, 0x7604A006, '2005-02-09 10:00:00') /* Faisi Sclavus Lord (23486) */
+     , (0x7604A009, 0x7604A00D, '2005-02-09 10:00:00') /* Faisi Sclavus Lord (23486) */
+     , (0x7604A009, 0x7604A00E, '2005-02-09 10:00:00') /* Chomu Sclavus Lord (23484) */
+     , (0x7604A009, 0x7604A010, '2005-02-09 10:00:00') /* Faisi Sclavus Lord (23486) */
+     , (0x7604A009, 0x7604A015, '2005-02-09 10:00:00') /* Chomu Sclavus Lord (23484) */
+     , (0x7604A009, 0x7604A0AF, '2005-02-09 10:00:00') /* Torch (25587) */
+     , (0x7604A009, 0x7604A0B3, '2005-02-09 10:00:00') /* Sarcophagus (25580) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7604A00A, 23487, 0x604A0123, 30.034, -32.1981, -41.9902, -0.815094, 0, 0, -0.579329,  True, '2005-02-09 10:00:00'); /* Sata Sclavus Lord */
@@ -165,8 +165,8 @@ VALUES (0x7604A026, 25581, 0x604A0163, 94.66, -30, -41.995, 0.707107, 0, 0, -0.7
 /* @teleloc 0x604A0163 [94.660000 -30.000000 -41.995000] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7604A026, 0x7604A025, '2005-02-09 10:00:00') /* Torch */
-     , (0x7604A026, 0x7604A0C3, '2005-02-09 10:00:00') /* Torch */;
+VALUES (0x7604A026, 0x7604A025, '2005-02-09 10:00:00') /* Torch (7323) */
+     , (0x7604A026, 0x7604A0C3, '2005-02-09 10:00:00') /* Torch (7323) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7604A027, 25591, 0x604A0174, 137.698, -83.8688, -41.943, 1, 0, 0, 0,  True, '2005-02-09 10:00:00'); /* Book of Memories */
@@ -209,75 +209,75 @@ VALUES (0x7604A030,  7924, 0x604A018F, 23.407, -43.373, -35.995, -0.92388, 0, 0,
 /* @teleloc 0x604A018F [23.407000 -43.373000 -35.995000] -0.923880 0.000000 0.000000 -0.382683 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7604A030, 0x7604A00A, '2005-02-09 10:00:00') /* Sata Sclavus Lord */
-     , (0x7604A030, 0x7604A00B, '2005-02-09 10:00:00') /* Sata Sclavus Lord */
-     , (0x7604A030, 0x7604A012, '2005-02-09 10:00:00') /* Sata Sclavus Lord */
-     , (0x7604A030, 0x7604A013, '2005-02-09 10:00:00') /* Sata Sclavus Lord */
-     , (0x7604A030, 0x7604A014, '2005-02-09 10:00:00') /* Sata Sclavus Lord */
-     , (0x7604A030, 0x7604A016, '2005-02-09 10:00:00') /* Faisi Sclavus Lord */
-     , (0x7604A030, 0x7604A017, '2005-02-09 10:00:00') /* Faisi Sclavus Lord */
-     , (0x7604A030, 0x7604A018, '2005-02-09 10:00:00') /* Faisi Sclavus Lord */
-     , (0x7604A030, 0x7604A019, '2005-02-09 10:00:00') /* Faisi Sclavus Lord */
-     , (0x7604A030, 0x7604A01A, '2005-02-09 10:00:00') /* Faisi Sclavus Lord */
-     , (0x7604A030, 0x7604A01B, '2005-02-09 10:00:00') /* Faisi Sclavus Lord */
-     , (0x7604A030, 0x7604A01C, '2005-02-09 10:00:00') /* Chomu Sclavus Lord */
-     , (0x7604A030, 0x7604A01E, '2005-02-09 10:00:00') /* Faisi Sclavus Lord */
-     , (0x7604A030, 0x7604A01F, '2005-02-09 10:00:00') /* Faisi Sclavus Lord */
-     , (0x7604A030, 0x7604A020, '2005-02-09 10:00:00') /* Chomu Sclavus Lord */
-     , (0x7604A030, 0x7604A022, '2005-02-09 10:00:00') /* Chomu Sclavus Lord */
-     , (0x7604A030, 0x7604A023, '2005-02-09 10:00:00') /* Chomu Sclavus Lord */
-     , (0x7604A030, 0x7604A024, '2005-02-09 10:00:00') /* Chomu Sclavus Lord */
-     , (0x7604A030, 0x7604A028, '2005-02-09 10:00:00') /* Ulu Sclavus Lord */
-     , (0x7604A030, 0x7604A029, '2005-02-09 10:00:00') /* Sata Sclavus Lord */
-     , (0x7604A030, 0x7604A02A, '2005-02-09 10:00:00') /* Sata Sclavus Lord */
-     , (0x7604A030, 0x7604A02B, '2005-02-09 10:00:00') /* Sata Sclavus Lord */
-     , (0x7604A030, 0x7604A02C, '2005-02-09 10:00:00') /* Sata Sclavus Lord */
-     , (0x7604A030, 0x7604A02D, '2005-02-09 10:00:00') /* Ulu Sclavus Lord */
-     , (0x7604A030, 0x7604A02E, '2005-02-09 10:00:00') /* Ulu Sclavus Lord */
-     , (0x7604A030, 0x7604A02F, '2005-02-09 10:00:00') /* Ulu Sclavus Lord */
-     , (0x7604A030, 0x7604A031, '2005-02-09 10:00:00') /* Sata Sclavus Lord */
-     , (0x7604A030, 0x7604A032, '2005-02-09 10:00:00') /* Sata Sclavus Lord */
-     , (0x7604A030, 0x7604A033, '2005-02-09 10:00:00') /* Sata Sclavus Lord */
-     , (0x7604A030, 0x7604A034, '2005-02-09 10:00:00') /* Faisi Sclavus Lord */
-     , (0x7604A030, 0x7604A035, '2005-02-09 10:00:00') /* Faisi Sclavus Lord */
-     , (0x7604A030, 0x7604A036, '2005-02-09 10:00:00') /* Chomu Sclavus Lord */
-     , (0x7604A030, 0x7604A037, '2005-02-09 10:00:00') /* Sata Sclavus Lord */
-     , (0x7604A030, 0x7604A038, '2005-02-09 10:00:00') /* Sata Sclavus Lord */
-     , (0x7604A030, 0x7604A03C, '2005-02-09 10:00:00') /* Sata Sclavus Lord */
-     , (0x7604A030, 0x7604A03D, '2005-02-09 10:00:00') /* Sata Sclavus Lord */
-     , (0x7604A030, 0x7604A03E, '2005-02-09 10:00:00') /* Faisi Sclavus Lord */
-     , (0x7604A030, 0x7604A03F, '2005-02-09 10:00:00') /* Faisi Sclavus Lord */
-     , (0x7604A030, 0x7604A040, '2005-02-09 10:00:00') /* Sata Sclavus Lord */
-     , (0x7604A030, 0x7604A041, '2005-02-09 10:00:00') /* Sata Sclavus Lord */
-     , (0x7604A030, 0x7604A042, '2005-02-09 10:00:00') /* Faisi Sclavus Lord */
-     , (0x7604A030, 0x7604A045, '2005-02-09 10:00:00') /* Sata Sclavus Lord */
-     , (0x7604A030, 0x7604A046, '2005-02-09 10:00:00') /* Sata Sclavus Lord */
-     , (0x7604A030, 0x7604A047, '2005-02-09 10:00:00') /* Faisi Sclavus Lord */
-     , (0x7604A030, 0x7604A048, '2005-02-09 10:00:00') /* Faisi Sclavus Lord */
-     , (0x7604A030, 0x7604A049, '2005-02-09 10:00:00') /* Faisi Sclavus Lord */
-     , (0x7604A030, 0x7604A04A, '2005-02-09 10:00:00') /* Sata Sclavus Lord */
-     , (0x7604A030, 0x7604A04B, '2005-02-09 10:00:00') /* Sata Sclavus Lord */
-     , (0x7604A030, 0x7604A04C, '2005-02-09 10:00:00') /* Faisi Sclavus Lord */
-     , (0x7604A030, 0x7604A04D, '2005-02-09 10:00:00') /* Faisi Sclavus Lord */
-     , (0x7604A030, 0x7604A04E, '2005-02-09 10:00:00') /* Sata Sclavus Lord */
-     , (0x7604A030, 0x7604A04F, '2005-02-09 10:00:00') /* Sata Sclavus Lord */
-     , (0x7604A030, 0x7604A050, '2005-02-09 10:00:00') /* Sata Sclavus Lord */
-     , (0x7604A030, 0x7604A07A, '2005-02-09 10:00:00') /* Ulu Sclavus Lord */
-     , (0x7604A030, 0x7604A07B, '2005-02-09 10:00:00') /* Ulu Sclavus Lord */
-     , (0x7604A030, 0x7604A0AE, '2005-02-09 10:00:00') /* Faisi Sclavus Lord */
-     , (0x7604A030, 0x7604A0C4, '2005-02-09 10:00:00') /* Sata Sclavus Lord */
-     , (0x7604A030, 0x7604A0C5, '2005-02-09 10:00:00') /* Sata Sclavus Lord */
-     , (0x7604A030, 0x7604A0C7, '2005-02-09 10:00:00') /* Faisi Sclavus Lord */
-     , (0x7604A030, 0x7604A0CA, '2005-02-09 10:00:00') /* Sata Sclavus Lord */
-     , (0x7604A030, 0x7604A0CB, '2005-02-09 10:00:00') /* Sata Sclavus Lord */
-     , (0x7604A030, 0x7604A0CC, '2005-02-09 10:00:00') /* Sata Sclavus Lord */
-     , (0x7604A030, 0x7604A0D2, '2005-02-09 10:00:00') /* White Rat */
-     , (0x7604A030, 0x7604A0D3, '2005-02-09 10:00:00') /* White Rat */
-     , (0x7604A030, 0x7604A0D4, '2005-02-09 10:00:00') /* White Rat */
-     , (0x7604A030, 0x7604A0D5, '2005-02-09 10:00:00') /* Black Rat */
-     , (0x7604A030, 0x7604A0D6, '2005-02-09 10:00:00') /* Black Rat */
-     , (0x7604A030, 0x7604A0D7, '2005-02-09 10:00:00') /* Brown Rat */
-     , (0x7604A030, 0x7604A0D8, '2005-02-09 10:00:00') /* Brown Rat */;
+VALUES (0x7604A030, 0x7604A00A, '2005-02-09 10:00:00') /* Sata Sclavus Lord (23487) */
+     , (0x7604A030, 0x7604A00B, '2005-02-09 10:00:00') /* Sata Sclavus Lord (23487) */
+     , (0x7604A030, 0x7604A012, '2005-02-09 10:00:00') /* Sata Sclavus Lord (23487) */
+     , (0x7604A030, 0x7604A013, '2005-02-09 10:00:00') /* Sata Sclavus Lord (23487) */
+     , (0x7604A030, 0x7604A014, '2005-02-09 10:00:00') /* Sata Sclavus Lord (23487) */
+     , (0x7604A030, 0x7604A016, '2005-02-09 10:00:00') /* Faisi Sclavus Lord (23486) */
+     , (0x7604A030, 0x7604A017, '2005-02-09 10:00:00') /* Faisi Sclavus Lord (23486) */
+     , (0x7604A030, 0x7604A018, '2005-02-09 10:00:00') /* Faisi Sclavus Lord (23486) */
+     , (0x7604A030, 0x7604A019, '2005-02-09 10:00:00') /* Faisi Sclavus Lord (23486) */
+     , (0x7604A030, 0x7604A01A, '2005-02-09 10:00:00') /* Faisi Sclavus Lord (23486) */
+     , (0x7604A030, 0x7604A01B, '2005-02-09 10:00:00') /* Faisi Sclavus Lord (23486) */
+     , (0x7604A030, 0x7604A01C, '2005-02-09 10:00:00') /* Chomu Sclavus Lord (23484) */
+     , (0x7604A030, 0x7604A01E, '2005-02-09 10:00:00') /* Faisi Sclavus Lord (23486) */
+     , (0x7604A030, 0x7604A01F, '2005-02-09 10:00:00') /* Faisi Sclavus Lord (23486) */
+     , (0x7604A030, 0x7604A020, '2005-02-09 10:00:00') /* Chomu Sclavus Lord (23484) */
+     , (0x7604A030, 0x7604A022, '2005-02-09 10:00:00') /* Chomu Sclavus Lord (23484) */
+     , (0x7604A030, 0x7604A023, '2005-02-09 10:00:00') /* Chomu Sclavus Lord (23484) */
+     , (0x7604A030, 0x7604A024, '2005-02-09 10:00:00') /* Chomu Sclavus Lord (23484) */
+     , (0x7604A030, 0x7604A028, '2005-02-09 10:00:00') /* Ulu Sclavus Lord (23488) */
+     , (0x7604A030, 0x7604A029, '2005-02-09 10:00:00') /* Sata Sclavus Lord (23487) */
+     , (0x7604A030, 0x7604A02A, '2005-02-09 10:00:00') /* Sata Sclavus Lord (23487) */
+     , (0x7604A030, 0x7604A02B, '2005-02-09 10:00:00') /* Sata Sclavus Lord (23487) */
+     , (0x7604A030, 0x7604A02C, '2005-02-09 10:00:00') /* Sata Sclavus Lord (23487) */
+     , (0x7604A030, 0x7604A02D, '2005-02-09 10:00:00') /* Ulu Sclavus Lord (23488) */
+     , (0x7604A030, 0x7604A02E, '2005-02-09 10:00:00') /* Ulu Sclavus Lord (23488) */
+     , (0x7604A030, 0x7604A02F, '2005-02-09 10:00:00') /* Ulu Sclavus Lord (23488) */
+     , (0x7604A030, 0x7604A031, '2005-02-09 10:00:00') /* Sata Sclavus Lord (23487) */
+     , (0x7604A030, 0x7604A032, '2005-02-09 10:00:00') /* Sata Sclavus Lord (23487) */
+     , (0x7604A030, 0x7604A033, '2005-02-09 10:00:00') /* Sata Sclavus Lord (23487) */
+     , (0x7604A030, 0x7604A034, '2005-02-09 10:00:00') /* Faisi Sclavus Lord (23486) */
+     , (0x7604A030, 0x7604A035, '2005-02-09 10:00:00') /* Faisi Sclavus Lord (23486) */
+     , (0x7604A030, 0x7604A036, '2005-02-09 10:00:00') /* Chomu Sclavus Lord (23484) */
+     , (0x7604A030, 0x7604A037, '2005-02-09 10:00:00') /* Sata Sclavus Lord (23487) */
+     , (0x7604A030, 0x7604A038, '2005-02-09 10:00:00') /* Sata Sclavus Lord (23487) */
+     , (0x7604A030, 0x7604A03C, '2005-02-09 10:00:00') /* Sata Sclavus Lord (23487) */
+     , (0x7604A030, 0x7604A03D, '2005-02-09 10:00:00') /* Sata Sclavus Lord (23487) */
+     , (0x7604A030, 0x7604A03E, '2005-02-09 10:00:00') /* Faisi Sclavus Lord (23486) */
+     , (0x7604A030, 0x7604A03F, '2005-02-09 10:00:00') /* Faisi Sclavus Lord (23486) */
+     , (0x7604A030, 0x7604A040, '2005-02-09 10:00:00') /* Sata Sclavus Lord (23487) */
+     , (0x7604A030, 0x7604A041, '2005-02-09 10:00:00') /* Sata Sclavus Lord (23487) */
+     , (0x7604A030, 0x7604A042, '2005-02-09 10:00:00') /* Faisi Sclavus Lord (23486) */
+     , (0x7604A030, 0x7604A045, '2005-02-09 10:00:00') /* Sata Sclavus Lord (23487) */
+     , (0x7604A030, 0x7604A046, '2005-02-09 10:00:00') /* Sata Sclavus Lord (23487) */
+     , (0x7604A030, 0x7604A047, '2005-02-09 10:00:00') /* Faisi Sclavus Lord (23486) */
+     , (0x7604A030, 0x7604A048, '2005-02-09 10:00:00') /* Faisi Sclavus Lord (23486) */
+     , (0x7604A030, 0x7604A049, '2005-02-09 10:00:00') /* Faisi Sclavus Lord (23486) */
+     , (0x7604A030, 0x7604A04A, '2005-02-09 10:00:00') /* Sata Sclavus Lord (23487) */
+     , (0x7604A030, 0x7604A04B, '2005-02-09 10:00:00') /* Sata Sclavus Lord (23487) */
+     , (0x7604A030, 0x7604A04C, '2005-02-09 10:00:00') /* Faisi Sclavus Lord (23486) */
+     , (0x7604A030, 0x7604A04D, '2005-02-09 10:00:00') /* Faisi Sclavus Lord (23486) */
+     , (0x7604A030, 0x7604A04E, '2005-02-09 10:00:00') /* Sata Sclavus Lord (23487) */
+     , (0x7604A030, 0x7604A04F, '2005-02-09 10:00:00') /* Sata Sclavus Lord (23487) */
+     , (0x7604A030, 0x7604A050, '2005-02-09 10:00:00') /* Sata Sclavus Lord (23487) */
+     , (0x7604A030, 0x7604A07A, '2005-02-09 10:00:00') /* Ulu Sclavus Lord (23488) */
+     , (0x7604A030, 0x7604A07B, '2005-02-09 10:00:00') /* Ulu Sclavus Lord (23488) */
+     , (0x7604A030, 0x7604A0AE, '2005-02-09 10:00:00') /* Faisi Sclavus Lord (23486) */
+     , (0x7604A030, 0x7604A0C4, '2005-02-09 10:00:00') /* Sata Sclavus Lord (23487) */
+     , (0x7604A030, 0x7604A0C5, '2005-02-09 10:00:00') /* Sata Sclavus Lord (23487) */
+     , (0x7604A030, 0x7604A0C7, '2005-02-09 10:00:00') /* Faisi Sclavus Lord (23486) */
+     , (0x7604A030, 0x7604A0CA, '2005-02-09 10:00:00') /* Sata Sclavus Lord (23487) */
+     , (0x7604A030, 0x7604A0CB, '2005-02-09 10:00:00') /* Sata Sclavus Lord (23487) */
+     , (0x7604A030, 0x7604A0CC, '2005-02-09 10:00:00') /* Sata Sclavus Lord (23487) */
+     , (0x7604A030, 0x7604A0D2, '2005-02-09 10:00:00') /* White Rat (13) */
+     , (0x7604A030, 0x7604A0D3, '2005-02-09 10:00:00') /* White Rat (13) */
+     , (0x7604A030, 0x7604A0D4, '2005-02-09 10:00:00') /* White Rat (13) */
+     , (0x7604A030, 0x7604A0D5, '2005-02-09 10:00:00') /* Black Rat (218) */
+     , (0x7604A030, 0x7604A0D6, '2005-02-09 10:00:00') /* Black Rat (218) */
+     , (0x7604A030, 0x7604A0D7, '2005-02-09 10:00:00') /* Brown Rat (220) */
+     , (0x7604A030, 0x7604A0D8, '2005-02-09 10:00:00') /* Brown Rat (220) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7604A031, 23487, 0x604A018F, 21.9442, -36.6964, -35.9902, -0.505655, 0, 0, -0.862736,  True, '2005-02-09 10:00:00'); /* Sata Sclavus Lord */
@@ -636,64 +636,64 @@ VALUES (0x7604A08B,  7924, 0x604A02E0, 19.2965, -49.9336, -26.995, 0.703272, 0, 
 /* @teleloc 0x604A02E0 [19.296500 -49.933600 -26.995000] 0.703272 0.000000 0.000000 -0.710921 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7604A08B, 0x7604A052, '2005-02-09 10:00:00') /* Ulu Sclavus Lord */
-     , (0x7604A08B, 0x7604A053, '2005-02-09 10:00:00') /* Ulu Sclavus Lord */
-     , (0x7604A08B, 0x7604A054, '2005-02-09 10:00:00') /* Ulu Sclavus Lord */
-     , (0x7604A08B, 0x7604A055, '2005-02-09 10:00:00') /* Ulu Sclavus Lord */
-     , (0x7604A08B, 0x7604A056, '2005-02-09 10:00:00') /* Faisi Sclavus Lord */
-     , (0x7604A08B, 0x7604A057, '2005-02-09 10:00:00') /* Sata Sclavus Lord */
-     , (0x7604A08B, 0x7604A059, '2005-02-09 10:00:00') /* Faisi Sclavus Lord */
-     , (0x7604A08B, 0x7604A05A, '2005-02-09 10:00:00') /* Ulu Sclavus Lord */
-     , (0x7604A08B, 0x7604A05B, '2005-02-09 10:00:00') /* Faisi Sclavus Lord */
-     , (0x7604A08B, 0x7604A05C, '2005-02-09 10:00:00') /* Faisi Sclavus Lord */
-     , (0x7604A08B, 0x7604A05D, '2005-02-09 10:00:00') /* Ulu Sclavus Lord */
-     , (0x7604A08B, 0x7604A05E, '2005-02-09 10:00:00') /* Ulu Sclavus Lord */
-     , (0x7604A08B, 0x7604A05F, '2005-02-09 10:00:00') /* Sata Sclavus Lord */
-     , (0x7604A08B, 0x7604A060, '2005-02-09 10:00:00') /* Sata Sclavus Lord */
-     , (0x7604A08B, 0x7604A061, '2005-02-09 10:00:00') /* Ulu Sclavus Lord */
-     , (0x7604A08B, 0x7604A062, '2005-02-09 10:00:00') /* Sata Sclavus Lord */
-     , (0x7604A08B, 0x7604A063, '2005-02-09 10:00:00') /* Ulu Sclavus Lord */
-     , (0x7604A08B, 0x7604A064, '2005-02-09 10:00:00') /* Sata Sclavus Lord */
-     , (0x7604A08B, 0x7604A065, '2005-02-09 10:00:00') /* Ulu Sclavus Lord */
-     , (0x7604A08B, 0x7604A066, '2005-02-09 10:00:00') /* Ulu Sclavus Lord */
-     , (0x7604A08B, 0x7604A067, '2005-02-09 10:00:00') /* Ulu Sclavus Lord */
-     , (0x7604A08B, 0x7604A068, '2005-02-09 10:00:00') /* Sata Sclavus Lord */
-     , (0x7604A08B, 0x7604A069, '2005-02-09 10:00:00') /* Faisi Sclavus Lord */
-     , (0x7604A08B, 0x7604A06A, '2005-02-09 10:00:00') /* Sata Sclavus Lord */
-     , (0x7604A08B, 0x7604A06B, '2005-02-09 10:00:00') /* Ulu Sclavus Lord */
-     , (0x7604A08B, 0x7604A06C, '2005-02-09 10:00:00') /* Ulu Sclavus Lord */
-     , (0x7604A08B, 0x7604A06D, '2005-02-09 10:00:00') /* Ulu Sclavus Lord */
-     , (0x7604A08B, 0x7604A06E, '2005-02-09 10:00:00') /* Ulu Sclavus Lord */
-     , (0x7604A08B, 0x7604A06F, '2005-02-09 10:00:00') /* Ulu Sclavus Lord */
-     , (0x7604A08B, 0x7604A070, '2005-02-09 10:00:00') /* Ulu Sclavus Lord */
-     , (0x7604A08B, 0x7604A071, '2005-02-09 10:00:00') /* Ulu Sclavus Lord */
-     , (0x7604A08B, 0x7604A072, '2005-02-09 10:00:00') /* Strange Sclavus */
-     , (0x7604A08B, 0x7604A073, '2005-02-09 10:00:00') /* Ulu Sclavus Lord */
-     , (0x7604A08B, 0x7604A074, '2005-02-09 10:00:00') /* Ulu Sclavus Lord */
-     , (0x7604A08B, 0x7604A075, '2005-02-09 10:00:00') /* Ulu Sclavus Lord */
-     , (0x7604A08B, 0x7604A076, '2005-02-09 10:00:00') /* Ulu Sclavus Lord */
-     , (0x7604A08B, 0x7604A077, '2005-02-09 10:00:00') /* Sata Sclavus Lord */
-     , (0x7604A08B, 0x7604A078, '2005-02-09 10:00:00') /* Sata Sclavus Lord */
-     , (0x7604A08B, 0x7604A079, '2005-02-09 10:00:00') /* Faisi Sclavus Lord */
-     , (0x7604A08B, 0x7604A07C, '2005-02-09 10:00:00') /* Ulu Sclavus Lord */
-     , (0x7604A08B, 0x7604A07D, '2005-02-09 10:00:00') /* Ulu Sclavus Lord */
-     , (0x7604A08B, 0x7604A07E, '2005-02-09 10:00:00') /* Sata Sclavus Lord */
-     , (0x7604A08B, 0x7604A07F, '2005-02-09 10:00:00') /* Faisi Sclavus Lord */
-     , (0x7604A08B, 0x7604A080, '2005-02-09 10:00:00') /* Sata Sclavus Lord */
-     , (0x7604A08B, 0x7604A081, '2005-02-09 10:00:00') /* Sata Sclavus Lord */
-     , (0x7604A08B, 0x7604A082, '2005-02-09 10:00:00') /* Sata Sclavus Lord */
-     , (0x7604A08B, 0x7604A083, '2005-02-09 10:00:00') /* Faisi Sclavus Lord */
-     , (0x7604A08B, 0x7604A085, '2005-02-09 10:00:00') /* Sata Sclavus Lord */
-     , (0x7604A08B, 0x7604A086, '2005-02-09 10:00:00') /* Sata Sclavus Lord */
-     , (0x7604A08B, 0x7604A087, '2005-02-09 10:00:00') /* Sata Sclavus Lord */
-     , (0x7604A08B, 0x7604A088, '2005-02-09 10:00:00') /* Sata Sclavus Lord */
-     , (0x7604A08B, 0x7604A089, '2005-02-09 10:00:00') /* Sata Sclavus Lord */
-     , (0x7604A08B, 0x7604A08A, '2005-02-09 10:00:00') /* Sata Sclavus Lord */
-     , (0x7604A08B, 0x7604A09B, '2005-02-09 10:00:00') /* Essa Sclavus Lord */
-     , (0x7604A08B, 0x7604A09C, '2005-02-09 10:00:00') /* Essa Sclavus Lord */
-     , (0x7604A08B, 0x7604A09F, '2005-02-09 10:00:00') /* Essa Sclavus Lord */
-     , (0x7604A08B, 0x7604A0A0, '2005-02-09 10:00:00') /* Essa Sclavus Lord */
-     , (0x7604A08B, 0x7604A0A1, '2005-02-09 10:00:00') /* Ulu Sclavus Lord */;
+VALUES (0x7604A08B, 0x7604A052, '2005-02-09 10:00:00') /* Ulu Sclavus Lord (23488) */
+     , (0x7604A08B, 0x7604A053, '2005-02-09 10:00:00') /* Ulu Sclavus Lord (23488) */
+     , (0x7604A08B, 0x7604A054, '2005-02-09 10:00:00') /* Ulu Sclavus Lord (23488) */
+     , (0x7604A08B, 0x7604A055, '2005-02-09 10:00:00') /* Ulu Sclavus Lord (23488) */
+     , (0x7604A08B, 0x7604A056, '2005-02-09 10:00:00') /* Faisi Sclavus Lord (23486) */
+     , (0x7604A08B, 0x7604A057, '2005-02-09 10:00:00') /* Sata Sclavus Lord (23487) */
+     , (0x7604A08B, 0x7604A059, '2005-02-09 10:00:00') /* Faisi Sclavus Lord (23486) */
+     , (0x7604A08B, 0x7604A05A, '2005-02-09 10:00:00') /* Ulu Sclavus Lord (23488) */
+     , (0x7604A08B, 0x7604A05B, '2005-02-09 10:00:00') /* Faisi Sclavus Lord (23486) */
+     , (0x7604A08B, 0x7604A05C, '2005-02-09 10:00:00') /* Faisi Sclavus Lord (23486) */
+     , (0x7604A08B, 0x7604A05D, '2005-02-09 10:00:00') /* Ulu Sclavus Lord (23488) */
+     , (0x7604A08B, 0x7604A05E, '2005-02-09 10:00:00') /* Ulu Sclavus Lord (23488) */
+     , (0x7604A08B, 0x7604A05F, '2005-02-09 10:00:00') /* Sata Sclavus Lord (23487) */
+     , (0x7604A08B, 0x7604A060, '2005-02-09 10:00:00') /* Sata Sclavus Lord (23487) */
+     , (0x7604A08B, 0x7604A061, '2005-02-09 10:00:00') /* Ulu Sclavus Lord (23488) */
+     , (0x7604A08B, 0x7604A062, '2005-02-09 10:00:00') /* Sata Sclavus Lord (23487) */
+     , (0x7604A08B, 0x7604A063, '2005-02-09 10:00:00') /* Ulu Sclavus Lord (23488) */
+     , (0x7604A08B, 0x7604A064, '2005-02-09 10:00:00') /* Sata Sclavus Lord (23487) */
+     , (0x7604A08B, 0x7604A065, '2005-02-09 10:00:00') /* Ulu Sclavus Lord (23488) */
+     , (0x7604A08B, 0x7604A066, '2005-02-09 10:00:00') /* Ulu Sclavus Lord (23488) */
+     , (0x7604A08B, 0x7604A067, '2005-02-09 10:00:00') /* Ulu Sclavus Lord (23488) */
+     , (0x7604A08B, 0x7604A068, '2005-02-09 10:00:00') /* Sata Sclavus Lord (23487) */
+     , (0x7604A08B, 0x7604A069, '2005-02-09 10:00:00') /* Faisi Sclavus Lord (23486) */
+     , (0x7604A08B, 0x7604A06A, '2005-02-09 10:00:00') /* Sata Sclavus Lord (23487) */
+     , (0x7604A08B, 0x7604A06B, '2005-02-09 10:00:00') /* Ulu Sclavus Lord (23488) */
+     , (0x7604A08B, 0x7604A06C, '2005-02-09 10:00:00') /* Ulu Sclavus Lord (23488) */
+     , (0x7604A08B, 0x7604A06D, '2005-02-09 10:00:00') /* Ulu Sclavus Lord (23488) */
+     , (0x7604A08B, 0x7604A06E, '2005-02-09 10:00:00') /* Ulu Sclavus Lord (23488) */
+     , (0x7604A08B, 0x7604A06F, '2005-02-09 10:00:00') /* Ulu Sclavus Lord (23488) */
+     , (0x7604A08B, 0x7604A070, '2005-02-09 10:00:00') /* Ulu Sclavus Lord (23488) */
+     , (0x7604A08B, 0x7604A071, '2005-02-09 10:00:00') /* Ulu Sclavus Lord (23488) */
+     , (0x7604A08B, 0x7604A072, '2005-02-09 10:00:00') /* Strange Sclavus (25586) */
+     , (0x7604A08B, 0x7604A073, '2005-02-09 10:00:00') /* Ulu Sclavus Lord (23488) */
+     , (0x7604A08B, 0x7604A074, '2005-02-09 10:00:00') /* Ulu Sclavus Lord (23488) */
+     , (0x7604A08B, 0x7604A075, '2005-02-09 10:00:00') /* Ulu Sclavus Lord (23488) */
+     , (0x7604A08B, 0x7604A076, '2005-02-09 10:00:00') /* Ulu Sclavus Lord (23488) */
+     , (0x7604A08B, 0x7604A077, '2005-02-09 10:00:00') /* Sata Sclavus Lord (23487) */
+     , (0x7604A08B, 0x7604A078, '2005-02-09 10:00:00') /* Sata Sclavus Lord (23487) */
+     , (0x7604A08B, 0x7604A079, '2005-02-09 10:00:00') /* Faisi Sclavus Lord (23486) */
+     , (0x7604A08B, 0x7604A07C, '2005-02-09 10:00:00') /* Ulu Sclavus Lord (23488) */
+     , (0x7604A08B, 0x7604A07D, '2005-02-09 10:00:00') /* Ulu Sclavus Lord (23488) */
+     , (0x7604A08B, 0x7604A07E, '2005-02-09 10:00:00') /* Sata Sclavus Lord (23487) */
+     , (0x7604A08B, 0x7604A07F, '2005-02-09 10:00:00') /* Faisi Sclavus Lord (23486) */
+     , (0x7604A08B, 0x7604A080, '2005-02-09 10:00:00') /* Sata Sclavus Lord (23487) */
+     , (0x7604A08B, 0x7604A081, '2005-02-09 10:00:00') /* Sata Sclavus Lord (23487) */
+     , (0x7604A08B, 0x7604A082, '2005-02-09 10:00:00') /* Sata Sclavus Lord (23487) */
+     , (0x7604A08B, 0x7604A083, '2005-02-09 10:00:00') /* Faisi Sclavus Lord (23486) */
+     , (0x7604A08B, 0x7604A085, '2005-02-09 10:00:00') /* Sata Sclavus Lord (23487) */
+     , (0x7604A08B, 0x7604A086, '2005-02-09 10:00:00') /* Sata Sclavus Lord (23487) */
+     , (0x7604A08B, 0x7604A087, '2005-02-09 10:00:00') /* Sata Sclavus Lord (23487) */
+     , (0x7604A08B, 0x7604A088, '2005-02-09 10:00:00') /* Sata Sclavus Lord (23487) */
+     , (0x7604A08B, 0x7604A089, '2005-02-09 10:00:00') /* Sata Sclavus Lord (23487) */
+     , (0x7604A08B, 0x7604A08A, '2005-02-09 10:00:00') /* Sata Sclavus Lord (23487) */
+     , (0x7604A08B, 0x7604A09B, '2005-02-09 10:00:00') /* Essa Sclavus Lord (23485) */
+     , (0x7604A08B, 0x7604A09C, '2005-02-09 10:00:00') /* Essa Sclavus Lord (23485) */
+     , (0x7604A08B, 0x7604A09F, '2005-02-09 10:00:00') /* Essa Sclavus Lord (23485) */
+     , (0x7604A08B, 0x7604A0A0, '2005-02-09 10:00:00') /* Essa Sclavus Lord (23485) */
+     , (0x7604A08B, 0x7604A0A1, '2005-02-09 10:00:00') /* Ulu Sclavus Lord (23488) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7604A08C, 23488, 0x604A02E1, 25.1989, -19.4464, -23.995, -0.010113, 0, 0, -0.999949,  True, '2005-02-09 10:00:00'); /* Ulu Sclavus Lord */
@@ -808,33 +808,33 @@ VALUES (0x7604A0A7,  7924, 0x604A036C, 60, -50, -11.995, 1, 0, 0, 0, False, '200
 /* @teleloc 0x604A036C [60.000000 -50.000000 -11.995000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7604A0A7, 0x7604A08C, '2005-02-09 10:00:00') /* Ulu Sclavus Lord */
-     , (0x7604A0A7, 0x7604A08D, '2005-02-09 10:00:00') /* Essa Sclavus Lord */
-     , (0x7604A0A7, 0x7604A08E, '2005-02-09 10:00:00') /* Essa Sclavus Lord */
-     , (0x7604A0A7, 0x7604A08F, '2005-02-09 10:00:00') /* Ulu Sclavus Lord */
-     , (0x7604A0A7, 0x7604A090, '2005-02-09 10:00:00') /* Sata Sclavus Lord */
-     , (0x7604A0A7, 0x7604A091, '2005-02-09 10:00:00') /* Sata Sclavus Lord */
-     , (0x7604A0A7, 0x7604A092, '2005-02-09 10:00:00') /* Ulu Sclavus Lord */
-     , (0x7604A0A7, 0x7604A093, '2005-02-09 10:00:00') /* Essa Sclavus Lord */
-     , (0x7604A0A7, 0x7604A094, '2005-02-09 10:00:00') /* Essa Sclavus Lord */
-     , (0x7604A0A7, 0x7604A095, '2005-02-09 10:00:00') /* Essa Sclavus Lord */
-     , (0x7604A0A7, 0x7604A096, '2005-02-09 10:00:00') /* Essa Sclavus Lord */
-     , (0x7604A0A7, 0x7604A097, '2005-02-09 10:00:00') /* Ulu Sclavus Lord */
-     , (0x7604A0A7, 0x7604A098, '2005-02-09 10:00:00') /* Ulu Sclavus Lord */
-     , (0x7604A0A7, 0x7604A099, '2005-02-09 10:00:00') /* Ulu Sclavus Lord */
-     , (0x7604A0A7, 0x7604A09A, '2005-02-09 10:00:00') /* Ulu Sclavus Lord */
-     , (0x7604A0A7, 0x7604A09D, '2005-02-09 10:00:00') /* Essa Sclavus Lord */
-     , (0x7604A0A7, 0x7604A09E, '2005-02-09 10:00:00') /* Essa Sclavus Lord */
-     , (0x7604A0A7, 0x7604A0A2, '2005-02-09 10:00:00') /* Aste Sclavus Lord */
-     , (0x7604A0A7, 0x7604A0A3, '2005-02-09 10:00:00') /* Essa Sclavus Lord */
-     , (0x7604A0A7, 0x7604A0A4, '2005-02-09 10:00:00') /* Aste Sclavus Lord */
-     , (0x7604A0A7, 0x7604A0A5, '2005-02-09 10:00:00') /* Ulu Sclavus Lord */
-     , (0x7604A0A7, 0x7604A0A6, '2005-02-09 10:00:00') /* Aste Sclavus Lord */
-     , (0x7604A0A7, 0x7604A0A8, '2005-02-09 10:00:00') /* Aste Sclavus Lord */
-     , (0x7604A0A7, 0x7604A0A9, '2005-02-09 10:00:00') /* Ulu Sclavus Lord */
-     , (0x7604A0A7, 0x7604A0AA, '2005-02-09 10:00:00') /* Aste Sclavus Lord */
-     , (0x7604A0A7, 0x7604A0AB, '2005-02-09 10:00:00') /* Essa Sclavus Lord */
-     , (0x7604A0A7, 0x7604A0AC, '2005-02-09 10:00:00') /* Aste Sclavus Lord */;
+VALUES (0x7604A0A7, 0x7604A08C, '2005-02-09 10:00:00') /* Ulu Sclavus Lord (23488) */
+     , (0x7604A0A7, 0x7604A08D, '2005-02-09 10:00:00') /* Essa Sclavus Lord (23485) */
+     , (0x7604A0A7, 0x7604A08E, '2005-02-09 10:00:00') /* Essa Sclavus Lord (23485) */
+     , (0x7604A0A7, 0x7604A08F, '2005-02-09 10:00:00') /* Ulu Sclavus Lord (23488) */
+     , (0x7604A0A7, 0x7604A090, '2005-02-09 10:00:00') /* Sata Sclavus Lord (23487) */
+     , (0x7604A0A7, 0x7604A091, '2005-02-09 10:00:00') /* Sata Sclavus Lord (23487) */
+     , (0x7604A0A7, 0x7604A092, '2005-02-09 10:00:00') /* Ulu Sclavus Lord (23488) */
+     , (0x7604A0A7, 0x7604A093, '2005-02-09 10:00:00') /* Essa Sclavus Lord (23485) */
+     , (0x7604A0A7, 0x7604A094, '2005-02-09 10:00:00') /* Essa Sclavus Lord (23485) */
+     , (0x7604A0A7, 0x7604A095, '2005-02-09 10:00:00') /* Essa Sclavus Lord (23485) */
+     , (0x7604A0A7, 0x7604A096, '2005-02-09 10:00:00') /* Essa Sclavus Lord (23485) */
+     , (0x7604A0A7, 0x7604A097, '2005-02-09 10:00:00') /* Ulu Sclavus Lord (23488) */
+     , (0x7604A0A7, 0x7604A098, '2005-02-09 10:00:00') /* Ulu Sclavus Lord (23488) */
+     , (0x7604A0A7, 0x7604A099, '2005-02-09 10:00:00') /* Ulu Sclavus Lord (23488) */
+     , (0x7604A0A7, 0x7604A09A, '2005-02-09 10:00:00') /* Ulu Sclavus Lord (23488) */
+     , (0x7604A0A7, 0x7604A09D, '2005-02-09 10:00:00') /* Essa Sclavus Lord (23485) */
+     , (0x7604A0A7, 0x7604A09E, '2005-02-09 10:00:00') /* Essa Sclavus Lord (23485) */
+     , (0x7604A0A7, 0x7604A0A2, '2005-02-09 10:00:00') /* Aste Sclavus Lord (23483) */
+     , (0x7604A0A7, 0x7604A0A3, '2005-02-09 10:00:00') /* Essa Sclavus Lord (23485) */
+     , (0x7604A0A7, 0x7604A0A4, '2005-02-09 10:00:00') /* Aste Sclavus Lord (23483) */
+     , (0x7604A0A7, 0x7604A0A5, '2005-02-09 10:00:00') /* Ulu Sclavus Lord (23488) */
+     , (0x7604A0A7, 0x7604A0A6, '2005-02-09 10:00:00') /* Aste Sclavus Lord (23483) */
+     , (0x7604A0A7, 0x7604A0A8, '2005-02-09 10:00:00') /* Aste Sclavus Lord (23483) */
+     , (0x7604A0A7, 0x7604A0A9, '2005-02-09 10:00:00') /* Ulu Sclavus Lord (23488) */
+     , (0x7604A0A7, 0x7604A0AA, '2005-02-09 10:00:00') /* Aste Sclavus Lord (23483) */
+     , (0x7604A0A7, 0x7604A0AB, '2005-02-09 10:00:00') /* Essa Sclavus Lord (23485) */
+     , (0x7604A0A7, 0x7604A0AC, '2005-02-09 10:00:00') /* Aste Sclavus Lord (23483) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7604A0A8, 23483, 0x604A0370, 59.9097, -69.6996, -11.995, -0.999916, 0, 0, 0.0129507,  True, '2005-02-09 10:00:00'); /* Aste Sclavus Lord */

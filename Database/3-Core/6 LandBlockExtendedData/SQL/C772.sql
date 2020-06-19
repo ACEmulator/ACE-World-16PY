@@ -37,21 +37,21 @@ VALUES (0x7C772008,  7923, 0xC7720000, 81.4519, 123.315, 40.005, 0.396359, 0, 0,
 /* @teleloc 0xC7720000 [81.451900 123.315000 40.005000] 0.396359 0.000000 0.000000 -0.918096 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C772008, 0x7C772000, '2005-02-09 10:00:00') /* Tumerok Gladiator */
-     , (0x7C772008, 0x7C772001, '2005-02-09 10:00:00') /* Tumerok Gladiator */
-     , (0x7C772008, 0x7C772002, '2005-02-09 10:00:00') /* Tumerok Gladiator */
-     , (0x7C772008, 0x7C772003, '2005-02-09 10:00:00') /* Tumerok Gladiator */
-     , (0x7C772008, 0x7C772004, '2005-02-09 10:00:00') /* Tumerok Gladiator */
-     , (0x7C772008, 0x7C772005, '2005-02-09 10:00:00') /* Tumerok Gladiator */
-     , (0x7C772008, 0x7C772006, '2005-02-09 10:00:00') /* Tumerok Gladiator */
-     , (0x7C772008, 0x7C772007, '2005-02-09 10:00:00') /* Tumerok Gladiator */;
+VALUES (0x7C772008, 0x7C772000, '2005-02-09 10:00:00') /* Tumerok Gladiator (15862) */
+     , (0x7C772008, 0x7C772001, '2005-02-09 10:00:00') /* Tumerok Gladiator (15862) */
+     , (0x7C772008, 0x7C772002, '2005-02-09 10:00:00') /* Tumerok Gladiator (15862) */
+     , (0x7C772008, 0x7C772003, '2005-02-09 10:00:00') /* Tumerok Gladiator (15862) */
+     , (0x7C772008, 0x7C772004, '2005-02-09 10:00:00') /* Tumerok Gladiator (15862) */
+     , (0x7C772008, 0x7C772005, '2005-02-09 10:00:00') /* Tumerok Gladiator (15862) */
+     , (0x7C772008, 0x7C772006, '2005-02-09 10:00:00') /* Tumerok Gladiator (15862) */
+     , (0x7C772008, 0x7C772007, '2005-02-09 10:00:00') /* Tumerok Gladiator (15862) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C772009,  7923, 0xC7720000, 80.7895, 106.809, 55.205, -0.0234928, 0, 0, -0.999724, False, '2005-02-09 10:00:00'); /* Linkable Monster Generator ( 3 Min.) */
 /* @teleloc 0xC7720000 [80.789500 106.809000 55.205000] -0.023493 0.000000 0.000000 -0.999724 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C772009, 0x7C77200A, '2005-02-09 10:00:00') /* Brontynn Marshad */;
+VALUES (0x7C772009, 0x7C77200A, '2005-02-09 10:00:00') /* Brontynn Marshad (15809) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C77200A, 15809, 0xC7720000, 81.1637, 109.752, 55.205, -0.542571, 0, 0, -0.84001,  True, '2005-02-09 10:00:00'); /* Brontynn Marshad */

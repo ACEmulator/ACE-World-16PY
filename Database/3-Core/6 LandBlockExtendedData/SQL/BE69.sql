@@ -69,18 +69,18 @@ VALUES (0x7BE69014,  7924, 0xBE690000, 131.941, 42.9082, 26.005, 0.0409167, 0, 0
 /* @teleloc 0xBE690000 [131.941000 42.908200 26.005000] 0.040917 0.000000 0.000000 0.999163 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BE69014, 0x7BE69005, '2005-02-09 10:00:00') /* Burun Ruuk Lout */
-     , (0x7BE69014, 0x7BE69006, '2005-02-09 10:00:00') /* Burun Ruuk Lout */
-     , (0x7BE69014, 0x7BE69007, '2005-02-09 10:00:00') /* Burun Ruuk Lout */
-     , (0x7BE69014, 0x7BE69008, '2005-02-09 10:00:00') /* Burun Ruuk Lout */
-     , (0x7BE69014, 0x7BE69009, '2005-02-09 10:00:00') /* Burun Ruuk Lout */
-     , (0x7BE69014, 0x7BE6900A, '2005-02-09 10:00:00') /* Burun Ruuk Lout */
-     , (0x7BE69014, 0x7BE6900B, '2005-02-09 10:00:00') /* Burun Ruuk Seer */
-     , (0x7BE69014, 0x7BE6900C, '2005-02-09 10:00:00') /* Burun Ruuk Seer */
-     , (0x7BE69014, 0x7BE6900D, '2005-02-09 10:00:00') /* Burun Ruuk Seer */
-     , (0x7BE69014, 0x7BE6900E, '2005-02-09 10:00:00') /* Burun Ruuk Seer */
-     , (0x7BE69014, 0x7BE6900F, '2005-02-09 10:00:00') /* Burun Ruuk Seer */
-     , (0x7BE69014, 0x7BE69010, '2005-02-09 10:00:00') /* Burun Ruuk Seer */
-     , (0x7BE69014, 0x7BE69011, '2005-02-09 10:00:00') /* Burun Ruuk Fiend */
-     , (0x7BE69014, 0x7BE69012, '2005-02-09 10:00:00') /* Burun Ruuk Fiend */
-     , (0x7BE69014, 0x7BE69013, '2005-02-09 10:00:00') /* Burun Ruuk Soothsayer */;
+VALUES (0x7BE69014, 0x7BE69005, '2005-02-09 10:00:00') /* Burun Ruuk Lout (26015) */
+     , (0x7BE69014, 0x7BE69006, '2005-02-09 10:00:00') /* Burun Ruuk Lout (26015) */
+     , (0x7BE69014, 0x7BE69007, '2005-02-09 10:00:00') /* Burun Ruuk Lout (26015) */
+     , (0x7BE69014, 0x7BE69008, '2005-02-09 10:00:00') /* Burun Ruuk Lout (26015) */
+     , (0x7BE69014, 0x7BE69009, '2005-02-09 10:00:00') /* Burun Ruuk Lout (26015) */
+     , (0x7BE69014, 0x7BE6900A, '2005-02-09 10:00:00') /* Burun Ruuk Lout (26015) */
+     , (0x7BE69014, 0x7BE6900B, '2005-02-09 10:00:00') /* Burun Ruuk Seer (26019) */
+     , (0x7BE69014, 0x7BE6900C, '2005-02-09 10:00:00') /* Burun Ruuk Seer (26019) */
+     , (0x7BE69014, 0x7BE6900D, '2005-02-09 10:00:00') /* Burun Ruuk Seer (26019) */
+     , (0x7BE69014, 0x7BE6900E, '2005-02-09 10:00:00') /* Burun Ruuk Seer (26019) */
+     , (0x7BE69014, 0x7BE6900F, '2005-02-09 10:00:00') /* Burun Ruuk Seer (26019) */
+     , (0x7BE69014, 0x7BE69010, '2005-02-09 10:00:00') /* Burun Ruuk Seer (26019) */
+     , (0x7BE69014, 0x7BE69011, '2005-02-09 10:00:00') /* Burun Ruuk Fiend (26014) */
+     , (0x7BE69014, 0x7BE69012, '2005-02-09 10:00:00') /* Burun Ruuk Fiend (26014) */
+     , (0x7BE69014, 0x7BE69013, '2005-02-09 10:00:00') /* Burun Ruuk Soothsayer (26021) */;

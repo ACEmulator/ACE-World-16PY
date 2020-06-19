@@ -1,4 +1,4 @@
-DELETE FROM `encounter` WHERE `landblock` = 18079;
+DELETE FROM `encounter` WHERE `landblock` = 0x469F;
 
 INSERT INTO `encounter` (`landblock`, `weenie_Class_Id`, `cell_X`, `cell_Y`, `last_Modified`)
-VALUES (18079, 23161, 0, 1, '2005-02-09 10:00:00') /* Mid North Plains Tumerok Generator */;
+VALUES (0x469F, 23161, 0, 1, '2005-02-09 10:00:00') /* Mid North Plains Tumerok Generator */;

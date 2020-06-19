@@ -137,10 +137,10 @@ VALUES (0x78090022,  7923, 0x80900000, 38.3559, 125.411, 124.005, 0.943517, 0, 0
 /* @teleloc 0x80900000 [38.355900 125.411000 124.005000] 0.943517 0.000000 0.000000 -0.331324 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x78090022, 0x78090020, '2005-02-09 10:00:00') /* Ufet, Prophet of Blades */
-     , (0x78090022, 0x78090033, '2005-02-09 10:00:00') /* Coron Usgin */
-     , (0x78090022, 0x7809004D, '2005-02-09 10:00:00') /* Sign */
-     , (0x78090022, 0x78090052, '2005-02-09 10:00:00') /* Coman ibn Rashid */;
+VALUES (0x78090022, 0x78090020, '2005-02-09 10:00:00') /* Ufet, Prophet of Blades (11810) */
+     , (0x78090022, 0x78090033, '2005-02-09 10:00:00') /* Coron Usgin (19464) */
+     , (0x78090022, 0x7809004D, '2005-02-09 10:00:00') /* Sign (25722) */
+     , (0x78090022, 0x78090052, '2005-02-09 10:00:00') /* Coman ibn Rashid (28476) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x78090029, 15837, 0x80900000, 31.852, 34.507, 124.005, -4.37114E-08, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Sanctum Residential Halls Portal */

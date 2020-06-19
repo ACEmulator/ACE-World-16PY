@@ -29,8 +29,8 @@ VALUES (0x70283006,  7924, 0x0283012C, 80.8012, -146.414, -17.995, -0.0607059, 0
 /* @teleloc 0x0283012C [80.801200 -146.414000 -17.995000] -0.060706 0.000000 0.000000 0.998156 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x70283006, 0x70283005, '2005-02-09 10:00:00') /* Olthoi Gardener */
-     , (0x70283006, 0x70283013, '2005-02-09 10:00:00') /* Olthoi Harvester */;
+VALUES (0x70283006, 0x70283005, '2005-02-09 10:00:00') /* Olthoi Gardener (11479) */
+     , (0x70283006, 0x70283013, '2005-02-09 10:00:00') /* Olthoi Harvester (11480) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x70283007, 11480, 0x0283012D, 91.4692, -123.24, -17.995, -0.492766, 0, 0, -0.870162,  True, '2005-02-09 10:00:00'); /* Olthoi Harvester */
@@ -69,27 +69,27 @@ VALUES (0x7028300F,  7932, 0x0283015E, 10.4616, -5.06265, 0.005, -0.154147, 0, 0
 /* @teleloc 0x0283015E [10.461600 -5.062650 0.005000] -0.154147 0.000000 0.000000 -0.988048 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7028300F, 0x70283000, '2005-02-09 10:00:00') /* Olthoi Gardener */
-     , (0x7028300F, 0x70283002, '2005-02-09 10:00:00') /* Olthoi Gardener */
-     , (0x7028300F, 0x70283003, '2005-02-09 10:00:00') /* Olthoi Gardener */
-     , (0x7028300F, 0x70283007, '2005-02-09 10:00:00') /* Olthoi Harvester */
-     , (0x7028300F, 0x70283008, '2005-02-09 10:00:00') /* Olthoi Harvester */
-     , (0x7028300F, 0x70283009, '2005-02-09 10:00:00') /* Olthoi Gardener */
-     , (0x7028300F, 0x7028300A, '2005-02-09 10:00:00') /* Olthoi Gardener */
-     , (0x7028300F, 0x7028300B, '2005-02-09 10:00:00') /* Olthoi Gardener */
-     , (0x7028300F, 0x7028300C, '2005-02-09 10:00:00') /* Olthoi Gardener */
-     , (0x7028300F, 0x7028300D, '2005-02-09 10:00:00') /* Olthoi Gardener */
-     , (0x7028300F, 0x70283010, '2005-02-09 10:00:00') /* Olthoi Harvester */
-     , (0x7028300F, 0x70283011, '2005-02-09 10:00:00') /* Olthoi Harvester */
-     , (0x7028300F, 0x70283014, '2005-02-09 10:00:00') /* Olthoi Harvester */
-     , (0x7028300F, 0x70283015, '2005-02-09 10:00:00') /* Olthoi Gardener */
-     , (0x7028300F, 0x70283016, '2005-02-09 10:00:00') /* Olthoi Gardener */
-     , (0x7028300F, 0x70283017, '2005-02-09 10:00:00') /* Olthoi Gardener */
-     , (0x7028300F, 0x70283018, '2005-02-09 10:00:00') /* Olthoi Gardener */
-     , (0x7028300F, 0x70283019, '2005-02-09 10:00:00') /* Olthoi Gardener */
-     , (0x7028300F, 0x7028301A, '2005-02-09 10:00:00') /* Olthoi Gardener */
-     , (0x7028300F, 0x7028301B, '2005-02-09 10:00:00') /* Olthoi Gardener */
-     , (0x7028300F, 0x7028301C, '2005-02-09 10:00:00') /* Olthoi Gardener */;
+VALUES (0x7028300F, 0x70283000, '2005-02-09 10:00:00') /* Olthoi Gardener (11479) */
+     , (0x7028300F, 0x70283002, '2005-02-09 10:00:00') /* Olthoi Gardener (11479) */
+     , (0x7028300F, 0x70283003, '2005-02-09 10:00:00') /* Olthoi Gardener (11479) */
+     , (0x7028300F, 0x70283007, '2005-02-09 10:00:00') /* Olthoi Harvester (11480) */
+     , (0x7028300F, 0x70283008, '2005-02-09 10:00:00') /* Olthoi Harvester (11480) */
+     , (0x7028300F, 0x70283009, '2005-02-09 10:00:00') /* Olthoi Gardener (11479) */
+     , (0x7028300F, 0x7028300A, '2005-02-09 10:00:00') /* Olthoi Gardener (11479) */
+     , (0x7028300F, 0x7028300B, '2005-02-09 10:00:00') /* Olthoi Gardener (11726) */
+     , (0x7028300F, 0x7028300C, '2005-02-09 10:00:00') /* Olthoi Gardener (11479) */
+     , (0x7028300F, 0x7028300D, '2005-02-09 10:00:00') /* Olthoi Gardener (11479) */
+     , (0x7028300F, 0x70283010, '2005-02-09 10:00:00') /* Olthoi Harvester (11480) */
+     , (0x7028300F, 0x70283011, '2005-02-09 10:00:00') /* Olthoi Harvester (11480) */
+     , (0x7028300F, 0x70283014, '2005-02-09 10:00:00') /* Olthoi Harvester (11480) */
+     , (0x7028300F, 0x70283015, '2005-02-09 10:00:00') /* Olthoi Gardener (11479) */
+     , (0x7028300F, 0x70283016, '2005-02-09 10:00:00') /* Olthoi Gardener (11479) */
+     , (0x7028300F, 0x70283017, '2005-02-09 10:00:00') /* Olthoi Gardener (11479) */
+     , (0x7028300F, 0x70283018, '2005-02-09 10:00:00') /* Olthoi Gardener (11479) */
+     , (0x7028300F, 0x70283019, '2005-02-09 10:00:00') /* Olthoi Gardener (11479) */
+     , (0x7028300F, 0x7028301A, '2005-02-09 10:00:00') /* Olthoi Gardener (11479) */
+     , (0x7028300F, 0x7028301B, '2005-02-09 10:00:00') /* Olthoi Gardener (11726) */
+     , (0x7028300F, 0x7028301C, '2005-02-09 10:00:00') /* Olthoi Gardener (11726) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x70283010, 11480, 0x0283016B, 28.364, -19.9383, 0.005, -0.966549, 0, 0, -0.256481,  True, '2005-02-09 10:00:00'); /* Olthoi Harvester */

@@ -37,8 +37,8 @@ VALUES (0x701CD009,  2180, 0x01CD0111, 40, -55.25, -6, 1, 0, 0, 0, False, '2005-
 /* @teleloc 0x01CD0111 [40.000000 -55.250000 -6.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x701CD009, 0x701CD005, '2005-02-09 10:00:00') /* Pressure Plate */
-     , (0x701CD009, 0x701CD006, '2005-02-09 10:00:00') /* Lever */;
+VALUES (0x701CD009, 0x701CD005, '2005-02-09 10:00:00') /* Pressure Plate (2131) */
+     , (0x701CD009, 0x701CD006, '2005-02-09 10:00:00') /* Lever (286) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x701CD00A,  1406, 0x01CD0112, 50, -30, -5.988, -4.37114E-08, 0, 0, -1,  True, '2005-02-09 10:00:00'); /* Desert Rat */
@@ -205,44 +205,44 @@ VALUES (0x701CD037,  7923, 0x01CD0144, 36.3716, -49.918, 0, 1, 0, 0, 0, False, '
 /* @teleloc 0x01CD0144 [36.371600 -49.918000 0.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x701CD037, 0x701CD000, '2005-02-09 10:00:00') /* Desert Rat */
-     , (0x701CD037, 0x701CD007, '2005-02-09 10:00:00') /* Lich */
-     , (0x701CD037, 0x701CD00A, '2005-02-09 10:00:00') /* Desert Rat */
-     , (0x701CD037, 0x701CD00D, '2005-02-09 10:00:00') /* Desert Rat */
-     , (0x701CD037, 0x701CD00E, '2005-02-09 10:00:00') /* Desert Rat */
-     , (0x701CD037, 0x701CD012, '2005-02-09 10:00:00') /* Hunter Shreth */
-     , (0x701CD037, 0x701CD013, '2005-02-09 10:00:00') /* Hunter Shreth */
-     , (0x701CD037, 0x701CD014, '2005-02-09 10:00:00') /* Hunter Shreth */
-     , (0x701CD037, 0x701CD015, '2005-02-09 10:00:00') /* Mire Phyntos Wasp */
-     , (0x701CD037, 0x701CD016, '2005-02-09 10:00:00') /* Mire Phyntos Wasp */
-     , (0x701CD037, 0x701CD01E, '2005-02-09 10:00:00') /* Hunter Shreth */
-     , (0x701CD037, 0x701CD01F, '2005-02-09 10:00:00') /* Hunter Shreth */
-     , (0x701CD037, 0x701CD020, '2005-02-09 10:00:00') /* Mire Phyntos Wasp */
-     , (0x701CD037, 0x701CD021, '2005-02-09 10:00:00') /* Mire Phyntos Wasp */
-     , (0x701CD037, 0x701CD022, '2005-02-09 10:00:00') /* Hunter Shreth */
-     , (0x701CD037, 0x701CD023, '2005-02-09 10:00:00') /* Hunter Shreth */
-     , (0x701CD037, 0x701CD024, '2005-02-09 10:00:00') /* Hunter Shreth */
-     , (0x701CD037, 0x701CD02A, '2005-02-09 10:00:00') /* Mire Phyntos Wasp */
-     , (0x701CD037, 0x701CD02B, '2005-02-09 10:00:00') /* Mire Phyntos Wasp */
-     , (0x701CD037, 0x701CD02C, '2005-02-09 10:00:00') /* Mire Phyntos Wasp */
-     , (0x701CD037, 0x701CD02F, '2005-02-09 10:00:00') /* Hunter Shreth */
-     , (0x701CD037, 0x701CD030, '2005-02-09 10:00:00') /* Hunter Shreth */
-     , (0x701CD037, 0x701CD034, '2005-02-09 10:00:00') /* Mire Phyntos Wasp */
-     , (0x701CD037, 0x701CD038, '2005-02-09 10:00:00') /* Desert Rat */
-     , (0x701CD037, 0x701CD039, '2005-02-09 10:00:00') /* Desert Rat */
-     , (0x701CD037, 0x701CD03A, '2005-02-09 10:00:00') /* Desert Rat */
-     , (0x701CD037, 0x701CD03B, '2005-02-09 10:00:00') /* Desert Rat */
-     , (0x701CD037, 0x701CD03C, '2005-02-09 10:00:00') /* Desert Rat */
-     , (0x701CD037, 0x701CD03D, '2005-02-09 10:00:00') /* Desert Rat */
-     , (0x701CD037, 0x701CD03E, '2005-02-09 10:00:00') /* Desert Rat */
-     , (0x701CD037, 0x701CD03F, '2005-02-09 10:00:00') /* Hunter Shreth */
-     , (0x701CD037, 0x701CD040, '2005-02-09 10:00:00') /* Hunter Shreth */
-     , (0x701CD037, 0x701CD041, '2005-02-09 10:00:00') /* Hunter Shreth */
-     , (0x701CD037, 0x701CD042, '2005-02-09 10:00:00') /* Hunter Shreth */
-     , (0x701CD037, 0x701CD043, '2005-02-09 10:00:00') /* Hunter Shreth */
-     , (0x701CD037, 0x701CD044, '2005-02-09 10:00:00') /* Hunter Shreth */
-     , (0x701CD037, 0x701CD045, '2005-02-09 10:00:00') /* Hunter Shreth */
-     , (0x701CD037, 0x701CD046, '2005-02-09 10:00:00') /* Hunter Shreth */;
+VALUES (0x701CD037, 0x701CD000, '2005-02-09 10:00:00') /* Desert Rat (1623) */
+     , (0x701CD037, 0x701CD007, '2005-02-09 10:00:00') /* Lich (204) */
+     , (0x701CD037, 0x701CD00A, '2005-02-09 10:00:00') /* Desert Rat (1406) */
+     , (0x701CD037, 0x701CD00D, '2005-02-09 10:00:00') /* Desert Rat (1623) */
+     , (0x701CD037, 0x701CD00E, '2005-02-09 10:00:00') /* Desert Rat (1623) */
+     , (0x701CD037, 0x701CD012, '2005-02-09 10:00:00') /* Hunter Shreth (4111) */
+     , (0x701CD037, 0x701CD013, '2005-02-09 10:00:00') /* Hunter Shreth (4111) */
+     , (0x701CD037, 0x701CD014, '2005-02-09 10:00:00') /* Hunter Shreth (4111) */
+     , (0x701CD037, 0x701CD015, '2005-02-09 10:00:00') /* Mire Phyntos Wasp (1622) */
+     , (0x701CD037, 0x701CD016, '2005-02-09 10:00:00') /* Mire Phyntos Wasp (1622) */
+     , (0x701CD037, 0x701CD01E, '2005-02-09 10:00:00') /* Hunter Shreth (4111) */
+     , (0x701CD037, 0x701CD01F, '2005-02-09 10:00:00') /* Hunter Shreth (4111) */
+     , (0x701CD037, 0x701CD020, '2005-02-09 10:00:00') /* Mire Phyntos Wasp (1622) */
+     , (0x701CD037, 0x701CD021, '2005-02-09 10:00:00') /* Mire Phyntos Wasp (1622) */
+     , (0x701CD037, 0x701CD022, '2005-02-09 10:00:00') /* Hunter Shreth (4111) */
+     , (0x701CD037, 0x701CD023, '2005-02-09 10:00:00') /* Hunter Shreth (4111) */
+     , (0x701CD037, 0x701CD024, '2005-02-09 10:00:00') /* Hunter Shreth (4111) */
+     , (0x701CD037, 0x701CD02A, '2005-02-09 10:00:00') /* Mire Phyntos Wasp (1622) */
+     , (0x701CD037, 0x701CD02B, '2005-02-09 10:00:00') /* Mire Phyntos Wasp (1622) */
+     , (0x701CD037, 0x701CD02C, '2005-02-09 10:00:00') /* Mire Phyntos Wasp (1622) */
+     , (0x701CD037, 0x701CD02F, '2005-02-09 10:00:00') /* Hunter Shreth (4111) */
+     , (0x701CD037, 0x701CD030, '2005-02-09 10:00:00') /* Hunter Shreth (4111) */
+     , (0x701CD037, 0x701CD034, '2005-02-09 10:00:00') /* Mire Phyntos Wasp (1622) */
+     , (0x701CD037, 0x701CD038, '2005-02-09 10:00:00') /* Desert Rat (1623) */
+     , (0x701CD037, 0x701CD039, '2005-02-09 10:00:00') /* Desert Rat (1623) */
+     , (0x701CD037, 0x701CD03A, '2005-02-09 10:00:00') /* Desert Rat (1623) */
+     , (0x701CD037, 0x701CD03B, '2005-02-09 10:00:00') /* Desert Rat (1623) */
+     , (0x701CD037, 0x701CD03C, '2005-02-09 10:00:00') /* Desert Rat (1623) */
+     , (0x701CD037, 0x701CD03D, '2005-02-09 10:00:00') /* Desert Rat (1623) */
+     , (0x701CD037, 0x701CD03E, '2005-02-09 10:00:00') /* Desert Rat (1623) */
+     , (0x701CD037, 0x701CD03F, '2005-02-09 10:00:00') /* Hunter Shreth (4111) */
+     , (0x701CD037, 0x701CD040, '2005-02-09 10:00:00') /* Hunter Shreth (4111) */
+     , (0x701CD037, 0x701CD041, '2005-02-09 10:00:00') /* Hunter Shreth (4111) */
+     , (0x701CD037, 0x701CD042, '2005-02-09 10:00:00') /* Hunter Shreth (4111) */
+     , (0x701CD037, 0x701CD043, '2005-02-09 10:00:00') /* Hunter Shreth (4111) */
+     , (0x701CD037, 0x701CD044, '2005-02-09 10:00:00') /* Hunter Shreth (4111) */
+     , (0x701CD037, 0x701CD045, '2005-02-09 10:00:00') /* Hunter Shreth (4111) */
+     , (0x701CD037, 0x701CD046, '2005-02-09 10:00:00') /* Hunter Shreth (4111) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x701CD038,  1623, 0x01CD0100, 27.0064, -29.6715, -5.988, -0.32329, 0, 0, 0.9463,  True, '2005-02-09 10:00:00'); /* Desert Rat */

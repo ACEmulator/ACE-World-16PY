@@ -9,8 +9,8 @@ VALUES (0x7C174001,  1154, 0xC1740000, 157.077, 91.4179, 20.005, 0.999992, 0, 0,
 /* @teleloc 0xC1740000 [157.077000 91.417900 20.005000] 0.999992 0.000000 0.000000 0.004067 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C174001, 0x7C174002, '2005-02-09 10:00:00') /* Wood Golem */
-     , (0x7C174001, 0x7C174004, '2005-02-09 10:00:00') /* Felscuda */;
+VALUES (0x7C174001, 0x7C174002, '2005-02-09 10:00:00') /* Wood Golem (942) */
+     , (0x7C174001, 0x7C174004, '2005-02-09 10:00:00') /* Felscuda (5020) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C174002,   942, 0xC1740000, 125.554, 146.324, 20.011, -0.343027, 0, 0, -0.939326,  True, '2005-02-09 10:00:00'); /* Wood Golem */

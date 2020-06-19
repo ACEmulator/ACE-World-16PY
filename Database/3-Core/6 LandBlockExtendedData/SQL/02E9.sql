@@ -73,7 +73,7 @@ VALUES (0x702E9011,  7561, 0x02E90131, 150, -340, -11.995, 1, 0, 0, 0, False, '2
 /* @teleloc 0x02E90131 [150.000000 -340.000000 -11.995000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x702E9011, 0x702E9012, '2005-02-09 10:00:00') /* Pressure Plate */;
+VALUES (0x702E9011, 0x702E9012, '2005-02-09 10:00:00') /* Pressure Plate (2131) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x702E9012,  2131, 0x02E90131, 150, -338.173, -11.995, 1, 0, 0, 0,  True, '2005-02-09 10:00:00'); /* Pressure Plate */
@@ -92,29 +92,29 @@ VALUES (0x702E9015,  7923, 0x02E90133, 150, -360, -11.995, 1, 0, 0, 0, False, '2
 /* @teleloc 0x02E90133 [150.000000 -360.000000 -11.995000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x702E9015, 0x702E9000, '2005-02-09 10:00:00') /* Amploth Raider */
-     , (0x702E9015, 0x702E9001, '2005-02-09 10:00:00') /* Amploth Raider */
-     , (0x702E9015, 0x702E9002, '2005-02-09 10:00:00') /* Amploth Raider */
-     , (0x702E9015, 0x702E9004, '2005-02-09 10:00:00') /* Amploth Raider */
-     , (0x702E9015, 0x702E9005, '2005-02-09 10:00:00') /* Amploth Raider */
-     , (0x702E9015, 0x702E9007, '2005-02-09 10:00:00') /* Amploth Raider */
-     , (0x702E9015, 0x702E9008, '2005-02-09 10:00:00') /* Amploth Raider */
-     , (0x702E9015, 0x702E9009, '2005-02-09 10:00:00') /* Amploth Raider */
-     , (0x702E9015, 0x702E900A, '2005-02-09 10:00:00') /* Amploth Raider */
-     , (0x702E9015, 0x702E900D, '2005-02-09 10:00:00') /* Amploth Raider */
-     , (0x702E9015, 0x702E900E, '2005-02-09 10:00:00') /* Amploth Raider */
-     , (0x702E9015, 0x702E900F, '2005-02-09 10:00:00') /* Amploth Raider */
-     , (0x702E9015, 0x702E9016, '2005-02-09 10:00:00') /* Amploth Raider */
-     , (0x702E9015, 0x702E9017, '2005-02-09 10:00:00') /* Amploth Raider */
-     , (0x702E9015, 0x702E9018, '2005-02-09 10:00:00') /* Amploth Raider */
-     , (0x702E9015, 0x702E901C, '2005-02-09 10:00:00') /* Amploth Raider */
-     , (0x702E9015, 0x702E901D, '2005-02-09 10:00:00') /* Amploth Raider */
-     , (0x702E9015, 0x702E901E, '2005-02-09 10:00:00') /* Amploth Raider */
-     , (0x702E9015, 0x702E901F, '2005-02-09 10:00:00') /* Amploth Raider */
-     , (0x702E9015, 0x702E9020, '2005-02-09 10:00:00') /* Amploth Raider */
-     , (0x702E9015, 0x702E9023, '2005-02-09 10:00:00') /* Amploth Raider */
-     , (0x702E9015, 0x702E9024, '2005-02-09 10:00:00') /* Amploth Raider */
-     , (0x702E9015, 0x702E9025, '2005-02-09 10:00:00') /* Amploth Raider */;
+VALUES (0x702E9015, 0x702E9000, '2005-02-09 10:00:00') /* Amploth Raider (7550) */
+     , (0x702E9015, 0x702E9001, '2005-02-09 10:00:00') /* Amploth Raider (7550) */
+     , (0x702E9015, 0x702E9002, '2005-02-09 10:00:00') /* Amploth Raider (7550) */
+     , (0x702E9015, 0x702E9004, '2005-02-09 10:00:00') /* Amploth Raider (7550) */
+     , (0x702E9015, 0x702E9005, '2005-02-09 10:00:00') /* Amploth Raider (7550) */
+     , (0x702E9015, 0x702E9007, '2005-02-09 10:00:00') /* Amploth Raider (7550) */
+     , (0x702E9015, 0x702E9008, '2005-02-09 10:00:00') /* Amploth Raider (7550) */
+     , (0x702E9015, 0x702E9009, '2005-02-09 10:00:00') /* Amploth Raider (7550) */
+     , (0x702E9015, 0x702E900A, '2005-02-09 10:00:00') /* Amploth Raider (7550) */
+     , (0x702E9015, 0x702E900D, '2005-02-09 10:00:00') /* Amploth Raider (7550) */
+     , (0x702E9015, 0x702E900E, '2005-02-09 10:00:00') /* Amploth Raider (7550) */
+     , (0x702E9015, 0x702E900F, '2005-02-09 10:00:00') /* Amploth Raider (7550) */
+     , (0x702E9015, 0x702E9016, '2005-02-09 10:00:00') /* Amploth Raider (7550) */
+     , (0x702E9015, 0x702E9017, '2005-02-09 10:00:00') /* Amploth Raider (7550) */
+     , (0x702E9015, 0x702E9018, '2005-02-09 10:00:00') /* Amploth Raider (7550) */
+     , (0x702E9015, 0x702E901C, '2005-02-09 10:00:00') /* Amploth Raider (7550) */
+     , (0x702E9015, 0x702E901D, '2005-02-09 10:00:00') /* Amploth Raider (7550) */
+     , (0x702E9015, 0x702E901E, '2005-02-09 10:00:00') /* Amploth Raider (7550) */
+     , (0x702E9015, 0x702E901F, '2005-02-09 10:00:00') /* Amploth Raider (7550) */
+     , (0x702E9015, 0x702E9020, '2005-02-09 10:00:00') /* Amploth Raider (7550) */
+     , (0x702E9015, 0x702E9023, '2005-02-09 10:00:00') /* Amploth Raider (7550) */
+     , (0x702E9015, 0x702E9024, '2005-02-09 10:00:00') /* Amploth Raider (7550) */
+     , (0x702E9015, 0x702E9025, '2005-02-09 10:00:00') /* Amploth Raider (7550) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x702E9016,  7550, 0x02E90140, 197.567, -455.376, -11.99, 0.991404, 0, 0, -0.130836,  True, '2005-02-09 10:00:00'); /* Amploth Raider */
@@ -209,7 +209,7 @@ VALUES (0x702E902C,  7561, 0x02E9019D, 150, -261.48, -5.995, 1, 0, 0, 0, False, 
 /* @teleloc 0x02E9019D [150.000000 -261.480000 -5.995000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x702E902C, 0x702E902B, '2005-02-09 10:00:00') /* Pressure Plate */;
+VALUES (0x702E902C, 0x702E902B, '2005-02-09 10:00:00') /* Pressure Plate (2131) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x702E902D,  7550, 0x02E901B7, 169.229, -308.166, -5.99, 0.999444, 0, 0, 0.033327,  True, '2005-02-09 10:00:00'); /* Amploth Raider */
@@ -264,39 +264,39 @@ VALUES (0x702E9039,  3955, 0x02E9020D, 148.504, -31.3805, 0.005, -0.0386512, 0, 
 /* @teleloc 0x02E9020D [148.504000 -31.380500 0.005000] -0.038651 0.000000 0.000000 0.999253 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x702E9039, 0x702E900B, '2005-02-09 10:00:00') /* Amploth Raider */
-     , (0x702E9039, 0x702E900C, '2005-02-09 10:00:00') /* Amploth Raider */
-     , (0x702E9039, 0x702E9013, '2005-02-09 10:00:00') /* Amploth Raider */
-     , (0x702E9039, 0x702E9014, '2005-02-09 10:00:00') /* Amploth Raider */
-     , (0x702E9039, 0x702E901A, '2005-02-09 10:00:00') /* Amploth Raider */
-     , (0x702E9039, 0x702E901B, '2005-02-09 10:00:00') /* Amploth Raider */
-     , (0x702E9039, 0x702E9022, '2005-02-09 10:00:00') /* Amploth Raider */
-     , (0x702E9039, 0x702E9026, '2005-02-09 10:00:00') /* Laigus Raider */
-     , (0x702E9039, 0x702E9027, '2005-02-09 10:00:00') /* Laigus Raider */
-     , (0x702E9039, 0x702E9028, '2005-02-09 10:00:00') /* Amploth Raider */
-     , (0x702E9039, 0x702E9029, '2005-02-09 10:00:00') /* Amploth Raider */
-     , (0x702E9039, 0x702E902A, '2005-02-09 10:00:00') /* Amploth Raider */
-     , (0x702E9039, 0x702E902D, '2005-02-09 10:00:00') /* Amploth Raider */
-     , (0x702E9039, 0x702E902E, '2005-02-09 10:00:00') /* Amploth Raider */
-     , (0x702E9039, 0x702E902F, '2005-02-09 10:00:00') /* Amploth Raider */
-     , (0x702E9039, 0x702E9030, '2005-02-09 10:00:00') /* Amploth Raider */
-     , (0x702E9039, 0x702E9031, '2005-02-09 10:00:00') /* Laigus Raider */
-     , (0x702E9039, 0x702E9032, '2005-02-09 10:00:00') /* Laigus Raider */
-     , (0x702E9039, 0x702E9033, '2005-02-09 10:00:00') /* Laigus Raider */
-     , (0x702E9039, 0x702E9034, '2005-02-09 10:00:00') /* Laigus Raider */
-     , (0x702E9039, 0x702E9035, '2005-02-09 10:00:00') /* Laigus Raider */
-     , (0x702E9039, 0x702E9036, '2005-02-09 10:00:00') /* Laigus Raider */
-     , (0x702E9039, 0x702E9037, '2005-02-09 10:00:00') /* Laigus Raider */
-     , (0x702E9039, 0x702E903A, '2005-02-09 10:00:00') /* Laigus Raider */
-     , (0x702E9039, 0x702E903B, '2005-02-09 10:00:00') /* Laigus Raider */
-     , (0x702E9039, 0x702E903C, '2005-02-09 10:00:00') /* Amploth Raider */
-     , (0x702E9039, 0x702E903D, '2005-02-09 10:00:00') /* Laigus Raider */
-     , (0x702E9039, 0x702E903E, '2005-02-09 10:00:00') /* Laigus Raider */
-     , (0x702E9039, 0x702E903F, '2005-02-09 10:00:00') /* Laigus Raider */
-     , (0x702E9039, 0x702E9040, '2005-02-09 10:00:00') /* Laigus Raider */
-     , (0x702E9039, 0x702E9041, '2005-02-09 10:00:00') /* Laigus Raider */
-     , (0x702E9039, 0x702E9042, '2005-02-09 10:00:00') /* Laigus Raider */
-     , (0x702E9039, 0x702E9043, '2005-02-09 10:00:00') /* Laigus Raider */;
+VALUES (0x702E9039, 0x702E900B, '2005-02-09 10:00:00') /* Amploth Raider (7550) */
+     , (0x702E9039, 0x702E900C, '2005-02-09 10:00:00') /* Amploth Raider (7550) */
+     , (0x702E9039, 0x702E9013, '2005-02-09 10:00:00') /* Amploth Raider (7550) */
+     , (0x702E9039, 0x702E9014, '2005-02-09 10:00:00') /* Amploth Raider (7550) */
+     , (0x702E9039, 0x702E901A, '2005-02-09 10:00:00') /* Amploth Raider (7550) */
+     , (0x702E9039, 0x702E901B, '2005-02-09 10:00:00') /* Amploth Raider (7550) */
+     , (0x702E9039, 0x702E9022, '2005-02-09 10:00:00') /* Amploth Raider (7550) */
+     , (0x702E9039, 0x702E9026, '2005-02-09 10:00:00') /* Laigus Raider (7553) */
+     , (0x702E9039, 0x702E9027, '2005-02-09 10:00:00') /* Laigus Raider (7553) */
+     , (0x702E9039, 0x702E9028, '2005-02-09 10:00:00') /* Amploth Raider (7550) */
+     , (0x702E9039, 0x702E9029, '2005-02-09 10:00:00') /* Amploth Raider (7550) */
+     , (0x702E9039, 0x702E902A, '2005-02-09 10:00:00') /* Amploth Raider (7550) */
+     , (0x702E9039, 0x702E902D, '2005-02-09 10:00:00') /* Amploth Raider (7550) */
+     , (0x702E9039, 0x702E902E, '2005-02-09 10:00:00') /* Amploth Raider (7550) */
+     , (0x702E9039, 0x702E902F, '2005-02-09 10:00:00') /* Amploth Raider (7550) */
+     , (0x702E9039, 0x702E9030, '2005-02-09 10:00:00') /* Amploth Raider (7550) */
+     , (0x702E9039, 0x702E9031, '2005-02-09 10:00:00') /* Laigus Raider (7553) */
+     , (0x702E9039, 0x702E9032, '2005-02-09 10:00:00') /* Laigus Raider (7553) */
+     , (0x702E9039, 0x702E9033, '2005-02-09 10:00:00') /* Laigus Raider (7553) */
+     , (0x702E9039, 0x702E9034, '2005-02-09 10:00:00') /* Laigus Raider (7553) */
+     , (0x702E9039, 0x702E9035, '2005-02-09 10:00:00') /* Laigus Raider (7553) */
+     , (0x702E9039, 0x702E9036, '2005-02-09 10:00:00') /* Laigus Raider (7553) */
+     , (0x702E9039, 0x702E9037, '2005-02-09 10:00:00') /* Laigus Raider (7553) */
+     , (0x702E9039, 0x702E903A, '2005-02-09 10:00:00') /* Laigus Raider (7553) */
+     , (0x702E9039, 0x702E903B, '2005-02-09 10:00:00') /* Laigus Raider (7553) */
+     , (0x702E9039, 0x702E903C, '2005-02-09 10:00:00') /* Amploth Raider (7550) */
+     , (0x702E9039, 0x702E903D, '2005-02-09 10:00:00') /* Laigus Raider (7553) */
+     , (0x702E9039, 0x702E903E, '2005-02-09 10:00:00') /* Laigus Raider (7553) */
+     , (0x702E9039, 0x702E903F, '2005-02-09 10:00:00') /* Laigus Raider (7553) */
+     , (0x702E9039, 0x702E9040, '2005-02-09 10:00:00') /* Laigus Raider (7553) */
+     , (0x702E9039, 0x702E9041, '2005-02-09 10:00:00') /* Laigus Raider (7553) */
+     , (0x702E9039, 0x702E9042, '2005-02-09 10:00:00') /* Laigus Raider (7553) */
+     , (0x702E9039, 0x702E9043, '2005-02-09 10:00:00') /* Laigus Raider (7553) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x702E903A,  7553, 0x02E90219, 148.648, -142.573, 0.01, 0.995695, 0, 0, -0.092692,  True, '2005-02-09 10:00:00'); /* Laigus Raider */

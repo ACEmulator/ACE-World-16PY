@@ -9,4 +9,4 @@ VALUES (0x717B4003, 15759, 0x17B40000, 184.261, 45.6114, 20.6499, 0.819313, 0, 0
 /* @teleloc 0x17B40000 [184.261000 45.611400 20.649900] 0.819313 0.000000 0.000000 -0.573346 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x717B4003, 0x717B4002, '2005-02-09 10:00:00') /* Note from Aun Mariona to Hea Toneawa */;
+VALUES (0x717B4003, 0x717B4002, '2005-02-09 10:00:00') /* Note from Aun Mariona to Hea Toneawa (27595) */;

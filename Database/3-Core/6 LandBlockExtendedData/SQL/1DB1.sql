@@ -49,13 +49,13 @@ VALUES (0x71DB100E,  7924, 0x1DB10000, 119.176, 172.133, -0.095, -0.154223, 0, 0
 /* @teleloc 0x1DB10000 [119.176000 172.133000 -0.095000] -0.154223 0.000000 0.000000 -0.988036 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71DB100E, 0x71DB1004, '2005-02-09 10:00:00') /* Hea Nualuan */
-     , (0x71DB100E, 0x71DB1005, '2005-02-09 10:00:00') /* Hea Itealuan */
-     , (0x71DB100E, 0x71DB1006, '2005-02-09 10:00:00') /* Hea Itealuan */
-     , (0x71DB100E, 0x71DB1007, '2005-02-09 10:00:00') /* Hea Itealuan */
-     , (0x71DB100E, 0x71DB1008, '2005-02-09 10:00:00') /* Tumerok Warrior */
-     , (0x71DB100E, 0x71DB1009, '2005-02-09 10:00:00') /* Tumerok Warrior */
-     , (0x71DB100E, 0x71DB100A, '2005-02-09 10:00:00') /* Tumerok Warrior */
-     , (0x71DB100E, 0x71DB100B, '2005-02-09 10:00:00') /* Hea Windreave */
-     , (0x71DB100E, 0x71DB100C, '2005-02-09 10:00:00') /* Hea Windreave */
-     , (0x71DB100E, 0x71DB100D, '2005-02-09 10:00:00') /* Hea Windreave */;
+VALUES (0x71DB100E, 0x71DB1004, '2005-02-09 10:00:00') /* Hea Nualuan (11520) */
+     , (0x71DB100E, 0x71DB1005, '2005-02-09 10:00:00') /* Hea Itealuan (11519) */
+     , (0x71DB100E, 0x71DB1006, '2005-02-09 10:00:00') /* Hea Itealuan (11519) */
+     , (0x71DB100E, 0x71DB1007, '2005-02-09 10:00:00') /* Hea Itealuan (11519) */
+     , (0x71DB100E, 0x71DB1008, '2005-02-09 10:00:00') /* Tumerok Warrior (233) */
+     , (0x71DB100E, 0x71DB1009, '2005-02-09 10:00:00') /* Tumerok Warrior (233) */
+     , (0x71DB100E, 0x71DB100A, '2005-02-09 10:00:00') /* Tumerok Warrior (233) */
+     , (0x71DB100E, 0x71DB100B, '2005-02-09 10:00:00') /* Hea Windreave (11524) */
+     , (0x71DB100E, 0x71DB100C, '2005-02-09 10:00:00') /* Hea Windreave (11524) */
+     , (0x71DB100E, 0x71DB100D, '2005-02-09 10:00:00') /* Hea Windreave (11524) */;

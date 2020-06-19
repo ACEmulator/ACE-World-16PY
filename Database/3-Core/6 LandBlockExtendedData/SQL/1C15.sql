@@ -9,14 +9,14 @@ VALUES (0x71C15001,  3955, 0x1C150000, 178.882, 50.4954, 0.00499999, 0.948576, 0
 /* @teleloc 0x1C150000 [178.882000 50.495400 0.005000] 0.948576 0.000000 0.000000 -0.316548 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71C15001, 0x71C15002, '2005-02-09 10:00:00') /* Withered Raider Prefect */
-     , (0x71C15001, 0x71C15003, '2005-02-09 10:00:00') /* Withered Raider Prefect */
-     , (0x71C15001, 0x71C15004, '2005-02-09 10:00:00') /* Withered Transcendent Tumerok */
-     , (0x71C15001, 0x71C1500A, '2005-02-09 10:00:00') /* Withered Banderling Hierophant */
-     , (0x71C15001, 0x71C1500B, '2005-02-09 10:00:00') /* Withered Raider Justicar */
-     , (0x71C15001, 0x71C1500C, '2005-02-09 10:00:00') /* Withered Raider Justicar */
-     , (0x71C15001, 0x71C1500E, '2005-02-09 10:00:00') /* Withered Raider Justicar */
-     , (0x71C15001, 0x71C1500F, '2005-02-09 10:00:00') /* Withered Banderling Hierophant */;
+VALUES (0x71C15001, 0x71C15002, '2005-02-09 10:00:00') /* Withered Raider Prefect (30689) */
+     , (0x71C15001, 0x71C15003, '2005-02-09 10:00:00') /* Withered Raider Prefect (30689) */
+     , (0x71C15001, 0x71C15004, '2005-02-09 10:00:00') /* Withered Transcendent Tumerok (30686) */
+     , (0x71C15001, 0x71C1500A, '2005-02-09 10:00:00') /* Withered Banderling Hierophant (30683) */
+     , (0x71C15001, 0x71C1500B, '2005-02-09 10:00:00') /* Withered Raider Justicar (30691) */
+     , (0x71C15001, 0x71C1500C, '2005-02-09 10:00:00') /* Withered Raider Justicar (30691) */
+     , (0x71C15001, 0x71C1500E, '2005-02-09 10:00:00') /* Withered Raider Justicar (30691) */
+     , (0x71C15001, 0x71C1500F, '2005-02-09 10:00:00') /* Withered Banderling Hierophant (30683) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71C15002, 30689, 0x1C150000, 136.118, 30.661, -0.09, 0.938641, 0, 0, -0.344896,  True, '2005-02-09 10:00:00'); /* Withered Raider Prefect */

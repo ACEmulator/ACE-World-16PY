@@ -17,6 +17,6 @@ VALUES (0x79DC1003,  1154, 0x9DC10000, 151.332, 44.4401, 27.555, -0.989659, 0, 0
 /* @teleloc 0x9DC10000 [151.332000 44.440100 27.555000] -0.989659 0.000000 0.000000 -0.143441 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79DC1003, 0x79DC1000, '2005-02-09 10:00:00') /* Water Golem */
-     , (0x79DC1003, 0x79DC1001, '2005-02-09 10:00:00') /* Water Golem */
-     , (0x79DC1003, 0x79DC1002, '2005-02-09 10:00:00') /* Water Golem */;
+VALUES (0x79DC1003, 0x79DC1000, '2005-02-09 10:00:00') /* Water Golem (941) */
+     , (0x79DC1003, 0x79DC1001, '2005-02-09 10:00:00') /* Water Golem (941) */
+     , (0x79DC1003, 0x79DC1002, '2005-02-09 10:00:00') /* Water Golem (941) */;

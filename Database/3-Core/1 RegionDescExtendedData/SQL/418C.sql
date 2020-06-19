@@ -1,11 +1,9 @@
-DELETE FROM `encounter` WHERE `landblock` = 16780;
+DELETE FROM `encounter` WHERE `landblock` = 0x418C;
 
 INSERT INTO `encounter` (`landblock`, `weenie_Class_Id`, `cell_X`, `cell_Y`, `last_Modified`)
-VALUES (16780, 1968, 0, 1, '2005-02-09 10:00:00') /* High Direlands Shore Generator */
-     , (16780, 1968, 1, 8, '2005-02-09 10:00:00') /* High Direlands Shore Generator */
-     , (16780, 1968, 2, 0, '2005-02-09 10:00:00') /* High Direlands Shore Generator */
-     , (16780, 1968, 2, 5, '2005-02-09 10:00:00') /* High Direlands Shore Generator */
-     , (16780, 1968, 2, 7, '2005-02-09 10:00:00') /* High Direlands Shore Generator */
-     , (16780, 1968, 3, 5, '2005-02-09 10:00:00') /* High Direlands Shore Generator */
-     , (16780, 1968, 3, 8, '2005-02-09 10:00:00') /* High Direlands Shore Generator */
-     , (16780, 1968, 6, 0, '2005-02-09 10:00:00') /* High Direlands Shore Generator */;
+VALUES (0x418C, 1968, 0, 1, '2005-02-09 10:00:00') /* High Direlands Shore Generator */
+     , (0x418C, 1968, 2, 0, '2005-02-09 10:00:00') /* High Direlands Shore Generator */
+     , (0x418C, 1968, 2, 5, '2005-02-09 10:00:00') /* High Direlands Shore Generator */
+     , (0x418C, 1968, 2, 7, '2005-02-09 10:00:00') /* High Direlands Shore Generator */
+     , (0x418C, 1968, 3, 5, '2005-02-09 10:00:00') /* High Direlands Shore Generator */
+     , (0x418C, 1968, 6, 0, '2005-02-09 10:00:00') /* High Direlands Shore Generator */;

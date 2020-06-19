@@ -5,33 +5,33 @@ VALUES (0x7E51D000,  7923, 0xE51D0000, 122.74, 134.071, 19.203, 0.102863, 0, 0, 
 /* @teleloc 0xE51D0000 [122.740000 134.071000 19.203000] 0.102863 0.000000 0.000000 -0.994696 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7E51D000, 0x7E51D007, '2005-02-09 10:00:00') /* Mosswart Idolator */
-     , (0x7E51D000, 0x7E51D008, '2005-02-09 10:00:00') /* Mosswart Fanatic */
-     , (0x7E51D000, 0x7E51D009, '2005-02-09 10:00:00') /* Mosswart Fanatic */
-     , (0x7E51D000, 0x7E51D00A, '2005-02-09 10:00:00') /* Mosswart Fanatic */
-     , (0x7E51D000, 0x7E51D00B, '2005-02-09 10:00:00') /* Mosswart Fanatic */
-     , (0x7E51D000, 0x7E51D00C, '2005-02-09 10:00:00') /* Mosswart Idolator */
-     , (0x7E51D000, 0x7E51D00D, '2005-02-09 10:00:00') /* Mosswart Idolator */
-     , (0x7E51D000, 0x7E51D00E, '2005-02-09 10:00:00') /* Mosswart Idolator */
-     , (0x7E51D000, 0x7E51D00F, '2005-02-09 10:00:00') /* Mosswart Idolator */
-     , (0x7E51D000, 0x7E51D010, '2005-02-09 10:00:00') /* Mosswart Idolator */
-     , (0x7E51D000, 0x7E51D011, '2005-02-09 10:00:00') /* Mosswart Fanatic */
-     , (0x7E51D000, 0x7E51D012, '2005-02-09 10:00:00') /* Mosswart Fanatic */
-     , (0x7E51D000, 0x7E51D013, '2005-02-09 10:00:00') /* Mosswart Fanatic */
-     , (0x7E51D000, 0x7E51D014, '2005-02-09 10:00:00') /* Mosswart Fanatic */
-     , (0x7E51D000, 0x7E51D015, '2005-02-09 10:00:00') /* Mosswart Idolator */
-     , (0x7E51D000, 0x7E51D016, '2005-02-09 10:00:00') /* Mosswart Idolator */;
+VALUES (0x7E51D000, 0x7E51D007, '2005-02-09 10:00:00') /* Mosswart Idolator (8428) */
+     , (0x7E51D000, 0x7E51D008, '2005-02-09 10:00:00') /* Mosswart Fanatic (8427) */
+     , (0x7E51D000, 0x7E51D009, '2005-02-09 10:00:00') /* Mosswart Fanatic (8427) */
+     , (0x7E51D000, 0x7E51D00A, '2005-02-09 10:00:00') /* Mosswart Fanatic (8427) */
+     , (0x7E51D000, 0x7E51D00B, '2005-02-09 10:00:00') /* Mosswart Fanatic (8427) */
+     , (0x7E51D000, 0x7E51D00C, '2005-02-09 10:00:00') /* Mosswart Idolator (8428) */
+     , (0x7E51D000, 0x7E51D00D, '2005-02-09 10:00:00') /* Mosswart Idolator (8428) */
+     , (0x7E51D000, 0x7E51D00E, '2005-02-09 10:00:00') /* Mosswart Idolator (8428) */
+     , (0x7E51D000, 0x7E51D00F, '2005-02-09 10:00:00') /* Mosswart Idolator (8428) */
+     , (0x7E51D000, 0x7E51D010, '2005-02-09 10:00:00') /* Mosswart Idolator (8428) */
+     , (0x7E51D000, 0x7E51D011, '2005-02-09 10:00:00') /* Mosswart Fanatic (8427) */
+     , (0x7E51D000, 0x7E51D012, '2005-02-09 10:00:00') /* Mosswart Fanatic (8427) */
+     , (0x7E51D000, 0x7E51D013, '2005-02-09 10:00:00') /* Mosswart Fanatic (8427) */
+     , (0x7E51D000, 0x7E51D014, '2005-02-09 10:00:00') /* Mosswart Fanatic (8427) */
+     , (0x7E51D000, 0x7E51D015, '2005-02-09 10:00:00') /* Mosswart Idolator (8428) */
+     , (0x7E51D000, 0x7E51D016, '2005-02-09 10:00:00') /* Mosswart Idolator (8428) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7E51D001,  7924, 0xE51D0000, 118.919, 131.862, 19.8478, -0.996031, 0, 0, 0.0890073, False, '2005-02-09 10:00:00'); /* Linkable Monster Generator ( 5 Min.) */
 /* @teleloc 0xE51D0000 [118.919000 131.862000 19.847800] -0.996031 0.000000 0.000000 0.089007 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7E51D001, 0x7E51D002, '2005-02-09 10:00:00') /* Idol */
-     , (0x7E51D001, 0x7E51D003, '2005-02-09 10:00:00') /* Mosswart Soul Trapper */
-     , (0x7E51D001, 0x7E51D004, '2005-02-09 10:00:00') /* Mosswart Soul Trapper */
-     , (0x7E51D001, 0x7E51D005, '2005-02-09 10:00:00') /* Mosswart Zealot */
-     , (0x7E51D001, 0x7E51D006, '2005-02-09 10:00:00') /* Mosswart Zealot */;
+VALUES (0x7E51D001, 0x7E51D002, '2005-02-09 10:00:00') /* Idol (8466) */
+     , (0x7E51D001, 0x7E51D003, '2005-02-09 10:00:00') /* Mosswart Soul Trapper (8430) */
+     , (0x7E51D001, 0x7E51D004, '2005-02-09 10:00:00') /* Mosswart Soul Trapper (8430) */
+     , (0x7E51D001, 0x7E51D005, '2005-02-09 10:00:00') /* Mosswart Zealot (8429) */
+     , (0x7E51D001, 0x7E51D006, '2005-02-09 10:00:00') /* Mosswart Zealot (8429) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7E51D002,  8466, 0xE51D0000, 122.618, 128.973, 20.0831, -0.0848662, 0, 0, 0.996392,  True, '2005-02-09 10:00:00'); /* Idol */

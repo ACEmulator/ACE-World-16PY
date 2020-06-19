@@ -9,15 +9,15 @@ VALUES (0x7328900C,  7923, 0x32890000, 163.856, 76.7638, 26.005, -0.225822, 0, 0
 /* @teleloc 0x32890000 [163.856000 76.763800 26.005000] -0.225822 0.000000 0.000000 0.974169 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7328900C, 0x7328900D, '2005-02-09 10:00:00') /* Tumerok Taskmaster */
-     , (0x7328900C, 0x7328900E, '2005-02-09 10:00:00') /* Tumerok Taskmaster */
-     , (0x7328900C, 0x7328900F, '2005-02-09 10:00:00') /* Tumerok Taskmaster */
-     , (0x7328900C, 0x73289010, '2005-02-09 10:00:00') /* Tumerok Taskmaster */
-     , (0x7328900C, 0x73289011, '2005-02-09 10:00:00') /* Tumerok Taskmaster */
-     , (0x7328900C, 0x73289012, '2005-02-09 10:00:00') /* Tumerok Taskmaster */
-     , (0x7328900C, 0x73289013, '2005-02-09 10:00:00') /* Tumerok Taskmaster */
-     , (0x7328900C, 0x73289014, '2005-02-09 10:00:00') /* Tumerok Taskmaster */
-     , (0x7328900C, 0x73289015, '2005-02-09 10:00:00') /* Tumerok Taskmaster */;
+VALUES (0x7328900C, 0x7328900D, '2005-02-09 10:00:00') /* Tumerok Taskmaster (230) */
+     , (0x7328900C, 0x7328900E, '2005-02-09 10:00:00') /* Tumerok Taskmaster (230) */
+     , (0x7328900C, 0x7328900F, '2005-02-09 10:00:00') /* Tumerok Taskmaster (230) */
+     , (0x7328900C, 0x73289010, '2005-02-09 10:00:00') /* Tumerok Taskmaster (230) */
+     , (0x7328900C, 0x73289011, '2005-02-09 10:00:00') /* Tumerok Taskmaster (230) */
+     , (0x7328900C, 0x73289012, '2005-02-09 10:00:00') /* Tumerok Taskmaster (230) */
+     , (0x7328900C, 0x73289013, '2005-02-09 10:00:00') /* Tumerok Taskmaster (230) */
+     , (0x7328900C, 0x73289014, '2005-02-09 10:00:00') /* Tumerok Taskmaster (230) */
+     , (0x7328900C, 0x73289015, '2005-02-09 10:00:00') /* Tumerok Taskmaster (230) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7328900D,   230, 0x32890000, 173.809, 82.7962, 30.0065, -0.892468, 0, 0, 0.451111,  True, '2005-02-09 10:00:00'); /* Tumerok Taskmaster */

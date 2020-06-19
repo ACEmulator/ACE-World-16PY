@@ -29,15 +29,15 @@ VALUES (0x7D361006,  1154, 0xD3610000, 109.588, 14.5499, 6.005, 0.697717, 0, 0, 
 /* @teleloc 0xD3610000 [109.588000 14.549900 6.005000] 0.697717 0.000000 0.000000 0.716374 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7D361006, 0x7D361000, '2005-02-09 10:00:00') /* Mud Golem */
-     , (0x7D361006, 0x7D361001, '2005-02-09 10:00:00') /* Mud Golem */
-     , (0x7D361006, 0x7D361002, '2005-02-09 10:00:00') /* Mud Golem */
-     , (0x7D361006, 0x7D361003, '2005-02-09 10:00:00') /* Mud Golem */;
+VALUES (0x7D361006, 0x7D361000, '2005-02-09 10:00:00') /* Mud Golem (200) */
+     , (0x7D361006, 0x7D361001, '2005-02-09 10:00:00') /* Mud Golem (200) */
+     , (0x7D361006, 0x7D361002, '2005-02-09 10:00:00') /* Mud Golem (200) */
+     , (0x7D361006, 0x7D361003, '2005-02-09 10:00:00') /* Mud Golem (200) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7D361007,  1542, 0xD3610000, 109.588, 14.5499, 6.005, 0.697717, 0, 0, 0.716374, False, '2005-02-09 10:00:00'); /* Linkable Item Generator */
 /* @teleloc 0xD3610000 [109.588000 14.549900 6.005000] 0.697717 0.000000 0.000000 0.716374 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7D361007, 0x7D361004, '2005-02-09 10:00:00') /* Mugwort */
-     , (0x7D361007, 0x7D361005, '2005-02-09 10:00:00') /* Mugwort */;
+VALUES (0x7D361007, 0x7D361004, '2005-02-09 10:00:00') /* Mugwort (776) */
+     , (0x7D361007, 0x7D361005, '2005-02-09 10:00:00') /* Mugwort (776) */;

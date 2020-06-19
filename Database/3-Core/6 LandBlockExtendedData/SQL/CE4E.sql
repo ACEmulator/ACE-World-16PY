@@ -29,9 +29,9 @@ VALUES (0x7CE4E006,  1154, 0xCE4E0000, 157.066, 71.5049, 257.096, -0.999982, 0, 
 /* @teleloc 0xCE4E0000 [157.066000 71.504900 257.096000] -0.999982 0.000000 0.000000 -0.005968 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7CE4E006, 0x7CE4E000, '2005-02-09 10:00:00') /* Blood Shreth */
-     , (0x7CE4E006, 0x7CE4E001, '2005-02-09 10:00:00') /* Blood Shreth */
-     , (0x7CE4E006, 0x7CE4E002, '2005-02-09 10:00:00') /* Blood Shreth */
-     , (0x7CE4E006, 0x7CE4E003, '2005-02-09 10:00:00') /* Blood Shreth */
-     , (0x7CE4E006, 0x7CE4E004, '2005-02-09 10:00:00') /* Blood Shreth */
-     , (0x7CE4E006, 0x7CE4E005, '2005-02-09 10:00:00') /* Blood Shreth */;
+VALUES (0x7CE4E006, 0x7CE4E000, '2005-02-09 10:00:00') /* Blood Shreth (4110) */
+     , (0x7CE4E006, 0x7CE4E001, '2005-02-09 10:00:00') /* Blood Shreth (4110) */
+     , (0x7CE4E006, 0x7CE4E002, '2005-02-09 10:00:00') /* Blood Shreth (4110) */
+     , (0x7CE4E006, 0x7CE4E003, '2005-02-09 10:00:00') /* Blood Shreth (4110) */
+     , (0x7CE4E006, 0x7CE4E004, '2005-02-09 10:00:00') /* Blood Shreth (4110) */
+     , (0x7CE4E006, 0x7CE4E005, '2005-02-09 10:00:00') /* Blood Shreth (4110) */;

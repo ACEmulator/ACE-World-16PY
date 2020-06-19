@@ -21,9 +21,9 @@ VALUES (0x7B4EE00A,  7924, 0xB4EE0000, 164.681, 86.8979, 171.388, -0.0165247, 0,
 /* @teleloc 0xB4EE0000 [164.681000 86.897900 171.388000] -0.016525 0.000000 0.000000 0.999864 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B4EE00A, 0x7B4EE000, '2005-02-09 10:00:00') /* Diamond Golem */
-     , (0x7B4EE00A, 0x7B4EE002, '2005-02-09 10:00:00') /* Diamond Golem */
-     , (0x7B4EE00A, 0x7B4EE007, '2005-02-09 10:00:00') /* Diamond Golem */;
+VALUES (0x7B4EE00A, 0x7B4EE000, '2005-02-09 10:00:00') /* Diamond Golem (4216) */
+     , (0x7B4EE00A, 0x7B4EE002, '2005-02-09 10:00:00') /* Diamond Golem (4216) */
+     , (0x7B4EE00A, 0x7B4EE007, '2005-02-09 10:00:00') /* Diamond Golem (4216) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B4EE00B, 23551, 0xB4EE0000, 148.62, 149.873, 300.008, -0.945162, 0, 0, 0.326601,  True, '2005-02-09 10:00:00'); /* Adolescent Ash Gromnie */
@@ -34,11 +34,11 @@ VALUES (0x7B4EE00C,  3951, 0xB4EE0000, 174.726, 135.9, 300.005, 0.988922, 0, 0, 
 /* @teleloc 0xB4EE0000 [174.726000 135.900000 300.005000] 0.988922 0.000000 0.000000 0.148434 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B4EE00C, 0x7B4EE00B, '2005-02-09 10:00:00') /* Adolescent Ash Gromnie */
-     , (0x7B4EE00C, 0x7B4EE00D, '2005-02-09 10:00:00') /* Sapphire Gromnie */
-     , (0x7B4EE00C, 0x7B4EE00E, '2005-02-09 10:00:00') /* Ruby Gromnie */
-     , (0x7B4EE00C, 0x7B4EE00F, '2005-02-09 10:00:00') /* Emerald Gromnie */
-     , (0x7B4EE00C, 0x7B4EE010, '2005-02-09 10:00:00') /* Amethyst Gromnie */;
+VALUES (0x7B4EE00C, 0x7B4EE00B, '2005-02-09 10:00:00') /* Adolescent Ash Gromnie (23551) */
+     , (0x7B4EE00C, 0x7B4EE00D, '2005-02-09 10:00:00') /* Sapphire Gromnie (25599) */
+     , (0x7B4EE00C, 0x7B4EE00E, '2005-02-09 10:00:00') /* Ruby Gromnie (25598) */
+     , (0x7B4EE00C, 0x7B4EE00F, '2005-02-09 10:00:00') /* Emerald Gromnie (25597) */
+     , (0x7B4EE00C, 0x7B4EE010, '2005-02-09 10:00:00') /* Amethyst Gromnie (25596) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B4EE00D, 25599, 0xB4EE0000, 183.422, 140.176, 300.005, 0.611113, 0, 0, 0.791543,  True, '2005-02-09 10:00:00'); /* Sapphire Gromnie */

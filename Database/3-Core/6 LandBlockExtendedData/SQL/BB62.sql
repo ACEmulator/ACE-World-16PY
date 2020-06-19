@@ -57,24 +57,24 @@ VALUES (0x7BB62021,  7925, 0xBB620111, 56.6531, 49.4952, -4.395, 0.589601, 0, 0,
 /* @teleloc 0xBB620111 [56.653100 49.495200 -4.395000] 0.589601 0.000000 0.000000 0.807695 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BB62021, 0x7BB62004, '2005-02-09 10:00:00') /* Mosswart Shaman */
-     , (0x7BB62021, 0x7BB62019, '2005-02-09 10:00:00') /* Mudlurk Mosswart */
-     , (0x7BB62021, 0x7BB6201A, '2005-02-09 10:00:00') /* Mudlurk Mosswart */
-     , (0x7BB62021, 0x7BB6201B, '2005-02-09 10:00:00') /* Mudlurk Mosswart */
-     , (0x7BB62021, 0x7BB6201C, '2005-02-09 10:00:00') /* Sandstone Golem */
-     , (0x7BB62021, 0x7BB6201D, '2005-02-09 10:00:00') /* Barker Mosswart */
-     , (0x7BB62021, 0x7BB6201E, '2005-02-09 10:00:00') /* Barker Mosswart */
-     , (0x7BB62021, 0x7BB6201F, '2005-02-09 10:00:00') /* Barker Mosswart */
-     , (0x7BB62021, 0x7BB62020, '2005-02-09 10:00:00') /* Barker Mosswart */
-     , (0x7BB62021, 0x7BB62022, '2005-02-09 10:00:00') /* Limestone Golem */
-     , (0x7BB62021, 0x7BB62023, '2005-02-09 10:00:00') /* Sandstone Golem */
-     , (0x7BB62021, 0x7BB62024, '2005-02-09 10:00:00') /* Barker Mosswart */
-     , (0x7BB62021, 0x7BB62025, '2005-02-09 10:00:00') /* Barker Mosswart */
-     , (0x7BB62021, 0x7BB62027, '2005-02-09 10:00:00') /* Barker Mosswart */
-     , (0x7BB62021, 0x7BB62028, '2005-02-09 10:00:00') /* Mudlurk Mosswart */
-     , (0x7BB62021, 0x7BB62029, '2005-02-09 10:00:00') /* Mudlurk Mosswart */
-     , (0x7BB62021, 0x7BB6202A, '2005-02-09 10:00:00') /* Mudlurk Mosswart */
-     , (0x7BB62021, 0x7BB6202B, '2005-02-09 10:00:00') /* Barker Mosswart */;
+VALUES (0x7BB62021, 0x7BB62004, '2005-02-09 10:00:00') /* Mosswart Shaman (1619) */
+     , (0x7BB62021, 0x7BB62019, '2005-02-09 10:00:00') /* Mudlurk Mosswart (211) */
+     , (0x7BB62021, 0x7BB6201A, '2005-02-09 10:00:00') /* Mudlurk Mosswart (211) */
+     , (0x7BB62021, 0x7BB6201B, '2005-02-09 10:00:00') /* Mudlurk Mosswart (211) */
+     , (0x7BB62021, 0x7BB6201C, '2005-02-09 10:00:00') /* Sandstone Golem (202) */
+     , (0x7BB62021, 0x7BB6201D, '2005-02-09 10:00:00') /* Barker Mosswart (947) */
+     , (0x7BB62021, 0x7BB6201E, '2005-02-09 10:00:00') /* Barker Mosswart (947) */
+     , (0x7BB62021, 0x7BB6201F, '2005-02-09 10:00:00') /* Barker Mosswart (947) */
+     , (0x7BB62021, 0x7BB62020, '2005-02-09 10:00:00') /* Barker Mosswart (947) */
+     , (0x7BB62021, 0x7BB62022, '2005-02-09 10:00:00') /* Limestone Golem (198) */
+     , (0x7BB62021, 0x7BB62023, '2005-02-09 10:00:00') /* Sandstone Golem (202) */
+     , (0x7BB62021, 0x7BB62024, '2005-02-09 10:00:00') /* Barker Mosswart (947) */
+     , (0x7BB62021, 0x7BB62025, '2005-02-09 10:00:00') /* Barker Mosswart (947) */
+     , (0x7BB62021, 0x7BB62027, '2005-02-09 10:00:00') /* Barker Mosswart (947) */
+     , (0x7BB62021, 0x7BB62028, '2005-02-09 10:00:00') /* Mudlurk Mosswart (211) */
+     , (0x7BB62021, 0x7BB62029, '2005-02-09 10:00:00') /* Mudlurk Mosswart (211) */
+     , (0x7BB62021, 0x7BB6202A, '2005-02-09 10:00:00') /* Mudlurk Mosswart (211) */
+     , (0x7BB62021, 0x7BB6202B, '2005-02-09 10:00:00') /* Barker Mosswart (947) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BB62022,   198, 0xBB620100, 65.8366, 33.9701, -4.389, 0.0434876, 0, 0, 0.999054,  True, '2005-02-09 10:00:00'); /* Limestone Golem */

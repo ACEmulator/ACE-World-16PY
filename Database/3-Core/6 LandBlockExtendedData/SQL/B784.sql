@@ -21,4 +21,4 @@ VALUES (0x7B784004,  7923, 0xB7840102, 83.18, 60.1115, 29.205, 0.95473, 0, 0, 0.
 /* @teleloc 0xB7840102 [83.180000 60.111500 29.205000] 0.954730 0.000000 0.000000 0.297473 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B784004, 0x7B784003, '2005-02-09 10:00:00') /* Slithe Tradittor */;
+VALUES (0x7B784004, 0x7B784003, '2005-02-09 10:00:00') /* Slithe Tradittor (20204) */;

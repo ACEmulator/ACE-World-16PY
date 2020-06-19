@@ -209,67 +209,67 @@ VALUES (0x7018B038,  5085, 0x018B0109, 68.6784, -108.938, -17.9878, -4.37114E-08
 /* @teleloc 0x018B0109 [68.678400 -108.938000 -17.987800] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7018B038, 0x7018B00C, '2005-02-09 10:00:00') /* Tibri's Fire Spear */;
+VALUES (0x7018B038, 0x7018B00C, '2005-02-09 10:00:00') /* Tibri's Fire Spear (3645) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7018B039,  7924, 0x018B0191, 50, -10, 0, 1, 0, 0, 0, False, '2005-02-09 10:00:00'); /* Linkable Monster Generator ( 5 Min.) */
 /* @teleloc 0x018B0191 [50.000000 -10.000000 0.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7018B039, 0x7018B000, '2005-02-09 10:00:00') /* Mountain Rat */
-     , (0x7018B039, 0x7018B001, '2005-02-09 10:00:00') /* Mountain Rat */
-     , (0x7018B039, 0x7018B002, '2005-02-09 10:00:00') /* Mountain Rat */
-     , (0x7018B039, 0x7018B003, '2005-02-09 10:00:00') /* Mountain Rat */
-     , (0x7018B039, 0x7018B010, '2005-02-09 10:00:00') /* Banderling Ogre */
-     , (0x7018B039, 0x7018B011, '2005-02-09 10:00:00') /* Banderling Ogre */
-     , (0x7018B039, 0x7018B013, '2005-02-09 10:00:00') /* Mountain Rat */
-     , (0x7018B039, 0x7018B025, '2005-02-09 10:00:00') /* Banderling Chief */
-     , (0x7018B039, 0x7018B028, '2005-02-09 10:00:00') /* Banderling Blade */
-     , (0x7018B039, 0x7018B029, '2005-02-09 10:00:00') /* Banderling Blade */
-     , (0x7018B039, 0x7018B02A, '2005-02-09 10:00:00') /* Banderling Blade */
-     , (0x7018B039, 0x7018B02B, '2005-02-09 10:00:00') /* Banderling Blade */
-     , (0x7018B039, 0x7018B02C, '2005-02-09 10:00:00') /* Banderling Blade */
-     , (0x7018B039, 0x7018B02D, '2005-02-09 10:00:00') /* Banderling Ogre */
-     , (0x7018B039, 0x7018B02E, '2005-02-09 10:00:00') /* Banderling Blade */
-     , (0x7018B039, 0x7018B02F, '2005-02-09 10:00:00') /* Banderling Blade */
-     , (0x7018B039, 0x7018B030, '2005-02-09 10:00:00') /* Banderling Raider */
-     , (0x7018B039, 0x7018B032, '2005-02-09 10:00:00') /* Banderling Raider */
-     , (0x7018B039, 0x7018B033, '2005-02-09 10:00:00') /* Banderling Raider */
-     , (0x7018B039, 0x7018B034, '2005-02-09 10:00:00') /* Banderling Raider */;
+VALUES (0x7018B039, 0x7018B000, '2005-02-09 10:00:00') /* Mountain Rat (1625) */
+     , (0x7018B039, 0x7018B001, '2005-02-09 10:00:00') /* Mountain Rat (1625) */
+     , (0x7018B039, 0x7018B002, '2005-02-09 10:00:00') /* Mountain Rat (1625) */
+     , (0x7018B039, 0x7018B003, '2005-02-09 10:00:00') /* Mountain Rat (1625) */
+     , (0x7018B039, 0x7018B010, '2005-02-09 10:00:00') /* Banderling Ogre (7087) */
+     , (0x7018B039, 0x7018B011, '2005-02-09 10:00:00') /* Banderling Ogre (7087) */
+     , (0x7018B039, 0x7018B013, '2005-02-09 10:00:00') /* Mountain Rat (1625) */
+     , (0x7018B039, 0x7018B025, '2005-02-09 10:00:00') /* Banderling Chief (1669) */
+     , (0x7018B039, 0x7018B028, '2005-02-09 10:00:00') /* Banderling Blade (7332) */
+     , (0x7018B039, 0x7018B029, '2005-02-09 10:00:00') /* Banderling Blade (7332) */
+     , (0x7018B039, 0x7018B02A, '2005-02-09 10:00:00') /* Banderling Blade (7332) */
+     , (0x7018B039, 0x7018B02B, '2005-02-09 10:00:00') /* Banderling Blade (7332) */
+     , (0x7018B039, 0x7018B02C, '2005-02-09 10:00:00') /* Banderling Blade (7332) */
+     , (0x7018B039, 0x7018B02D, '2005-02-09 10:00:00') /* Banderling Ogre (7087) */
+     , (0x7018B039, 0x7018B02E, '2005-02-09 10:00:00') /* Banderling Blade (7332) */
+     , (0x7018B039, 0x7018B02F, '2005-02-09 10:00:00') /* Banderling Blade (7332) */
+     , (0x7018B039, 0x7018B030, '2005-02-09 10:00:00') /* Banderling Raider (938) */
+     , (0x7018B039, 0x7018B032, '2005-02-09 10:00:00') /* Banderling Raider (938) */
+     , (0x7018B039, 0x7018B033, '2005-02-09 10:00:00') /* Banderling Raider (938) */
+     , (0x7018B039, 0x7018B034, '2005-02-09 10:00:00') /* Banderling Raider (938) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7018B03A,  7924, 0x018B0191, 49.3415, -9.98849, 0, 1, 0, 0, 0, False, '2005-02-09 10:00:00'); /* Linkable Monster Generator ( 5 Min.) */
 /* @teleloc 0x018B0191 [49.341500 -9.988490 0.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7018B03A, 0x7018B004, '2005-02-09 10:00:00') /* Mountain Rat */
-     , (0x7018B03A, 0x7018B005, '2005-02-09 10:00:00') /* Mountain Rat */
-     , (0x7018B03A, 0x7018B009, '2005-02-09 10:00:00') /* Mountain Rat */
-     , (0x7018B03A, 0x7018B00A, '2005-02-09 10:00:00') /* Mountain Rat */
-     , (0x7018B03A, 0x7018B00B, '2005-02-09 10:00:00') /* Mountain Rat */
-     , (0x7018B03A, 0x7018B00F, '2005-02-09 10:00:00') /* Mountain Rat */
-     , (0x7018B03A, 0x7018B012, '2005-02-09 10:00:00') /* Banderling Ogre */
-     , (0x7018B03A, 0x7018B014, '2005-02-09 10:00:00') /* Banderling Ogre */
-     , (0x7018B03A, 0x7018B015, '2005-02-09 10:00:00') /* Banderling Blade */
-     , (0x7018B03A, 0x7018B016, '2005-02-09 10:00:00') /* Banderling Blade */
-     , (0x7018B03A, 0x7018B017, '2005-02-09 10:00:00') /* Banderling Blade */
-     , (0x7018B03A, 0x7018B018, '2005-02-09 10:00:00') /* Banderling Blade */
-     , (0x7018B03A, 0x7018B019, '2005-02-09 10:00:00') /* Banderling Ogre */
-     , (0x7018B03A, 0x7018B01A, '2005-02-09 10:00:00') /* Banderling Ogre */
-     , (0x7018B03A, 0x7018B01B, '2005-02-09 10:00:00') /* Banderling Raider */
-     , (0x7018B03A, 0x7018B01C, '2005-02-09 10:00:00') /* Banderling Raider */
-     , (0x7018B03A, 0x7018B01D, '2005-02-09 10:00:00') /* Banderling Blade */
-     , (0x7018B03A, 0x7018B01E, '2005-02-09 10:00:00') /* Banderling Ogre */
-     , (0x7018B03A, 0x7018B020, '2005-02-09 10:00:00') /* Banderling Bandit */
-     , (0x7018B03A, 0x7018B021, '2005-02-09 10:00:00') /* Banderling Ogre */
-     , (0x7018B03A, 0x7018B022, '2005-02-09 10:00:00') /* Banderling Ogre */
-     , (0x7018B03A, 0x7018B023, '2005-02-09 10:00:00') /* Banderling Raider */
-     , (0x7018B03A, 0x7018B024, '2005-02-09 10:00:00') /* Banderling Blade */
-     , (0x7018B03A, 0x7018B027, '2005-02-09 10:00:00') /* Banderling Ogre */;
+VALUES (0x7018B03A, 0x7018B004, '2005-02-09 10:00:00') /* Mountain Rat (1625) */
+     , (0x7018B03A, 0x7018B005, '2005-02-09 10:00:00') /* Mountain Rat (1625) */
+     , (0x7018B03A, 0x7018B009, '2005-02-09 10:00:00') /* Mountain Rat (1625) */
+     , (0x7018B03A, 0x7018B00A, '2005-02-09 10:00:00') /* Mountain Rat (1625) */
+     , (0x7018B03A, 0x7018B00B, '2005-02-09 10:00:00') /* Mountain Rat (1625) */
+     , (0x7018B03A, 0x7018B00F, '2005-02-09 10:00:00') /* Mountain Rat (1625) */
+     , (0x7018B03A, 0x7018B012, '2005-02-09 10:00:00') /* Banderling Ogre (7087) */
+     , (0x7018B03A, 0x7018B014, '2005-02-09 10:00:00') /* Banderling Ogre (7087) */
+     , (0x7018B03A, 0x7018B015, '2005-02-09 10:00:00') /* Banderling Blade (7332) */
+     , (0x7018B03A, 0x7018B016, '2005-02-09 10:00:00') /* Banderling Blade (7332) */
+     , (0x7018B03A, 0x7018B017, '2005-02-09 10:00:00') /* Banderling Blade (7332) */
+     , (0x7018B03A, 0x7018B018, '2005-02-09 10:00:00') /* Banderling Blade (7332) */
+     , (0x7018B03A, 0x7018B019, '2005-02-09 10:00:00') /* Banderling Ogre (7087) */
+     , (0x7018B03A, 0x7018B01A, '2005-02-09 10:00:00') /* Banderling Ogre (7087) */
+     , (0x7018B03A, 0x7018B01B, '2005-02-09 10:00:00') /* Banderling Raider (938) */
+     , (0x7018B03A, 0x7018B01C, '2005-02-09 10:00:00') /* Banderling Raider (938) */
+     , (0x7018B03A, 0x7018B01D, '2005-02-09 10:00:00') /* Banderling Blade (7332) */
+     , (0x7018B03A, 0x7018B01E, '2005-02-09 10:00:00') /* Banderling Ogre (7087) */
+     , (0x7018B03A, 0x7018B020, '2005-02-09 10:00:00') /* Banderling Bandit (22809) */
+     , (0x7018B03A, 0x7018B021, '2005-02-09 10:00:00') /* Banderling Ogre (7087) */
+     , (0x7018B03A, 0x7018B022, '2005-02-09 10:00:00') /* Banderling Ogre (7087) */
+     , (0x7018B03A, 0x7018B023, '2005-02-09 10:00:00') /* Banderling Raider (938) */
+     , (0x7018B03A, 0x7018B024, '2005-02-09 10:00:00') /* Banderling Blade (7332) */
+     , (0x7018B03A, 0x7018B027, '2005-02-09 10:00:00') /* Banderling Ogre (7087) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7018B03B,  3951, 0x018B01C7, 80, -60, 0, 0.707107, 0, 0, -0.707107, False, '2005-02-09 10:00:00'); /* Linkable Monster Gen (1 hour) */
 /* @teleloc 0x018B01C7 [80.000000 -60.000000 0.000000] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7018B03B, 0x7018B036, '2005-02-09 10:00:00') /* Tibri the Cavedweller */;
+VALUES (0x7018B03B, 0x7018B036, '2005-02-09 10:00:00') /* Tibri the Cavedweller (3607) */;

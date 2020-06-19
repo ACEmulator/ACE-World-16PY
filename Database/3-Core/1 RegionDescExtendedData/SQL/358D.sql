@@ -1,11 +1,10 @@
-DELETE FROM `encounter` WHERE `landblock` = 13709;
+DELETE FROM `encounter` WHERE `landblock` = 0x358D;
 
 INSERT INTO `encounter` (`landblock`, `weenie_Class_Id`, `cell_X`, `cell_Y`, `last_Modified`)
-VALUES (13709, 1975, 2, 4, '2005-02-09 10:00:00') /* High Direlands South Mountains Generator */
-     , (13709, 1975, 2, 8, '2005-02-09 10:00:00') /* High Direlands South Mountains Generator */
-     , (13709, 1975, 3, 3, '2005-02-09 10:00:00') /* High Direlands South Mountains Generator */
-     , (13709, 1975, 3, 6, '2005-02-09 10:00:00') /* High Direlands South Mountains Generator */
-     , (13709, 1975, 4, 4, '2005-02-09 10:00:00') /* High Direlands South Mountains Generator */
-     , (13709, 1975, 5, 3, '2005-02-09 10:00:00') /* High Direlands South Mountains Generator */
-     , (13709, 1975, 6, 6, '2005-02-09 10:00:00') /* High Direlands South Mountains Generator */
-     , (13709, 1975, 7, 6, '2005-02-09 10:00:00') /* High Direlands South Mountains Generator */;
+VALUES (0x358D, 1975, 2, 4, '2005-02-09 10:00:00') /* High Direlands South Mountains Generator */
+     , (0x358D, 1975, 3, 3, '2005-02-09 10:00:00') /* High Direlands South Mountains Generator */
+     , (0x358D, 1975, 3, 6, '2005-02-09 10:00:00') /* High Direlands South Mountains Generator */
+     , (0x358D, 1975, 4, 4, '2005-02-09 10:00:00') /* High Direlands South Mountains Generator */
+     , (0x358D, 1975, 5, 3, '2005-02-09 10:00:00') /* High Direlands South Mountains Generator */
+     , (0x358D, 1975, 6, 6, '2005-02-09 10:00:00') /* High Direlands South Mountains Generator */
+     , (0x358D, 1975, 7, 6, '2005-02-09 10:00:00') /* High Direlands South Mountains Generator */;

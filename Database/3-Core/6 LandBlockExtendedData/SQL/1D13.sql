@@ -21,48 +21,48 @@ VALUES (0x71D13004,  3955, 0x1D130119, 128.496, 11.3592, 2.06358, 0.877463, 0, 0
 /* @teleloc 0x1D130119 [128.496000 11.359200 2.063580] 0.877463 0.000000 0.000000 0.479645 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71D13004, 0x71D13000, '2005-02-09 10:00:00') /* Withered Raider Prefect */
-     , (0x71D13004, 0x71D13002, '2005-02-09 10:00:00') /* Withered Raider Justicar */
-     , (0x71D13004, 0x71D13003, '2005-02-09 10:00:00') /* Withered Raider Justicar */
-     , (0x71D13004, 0x71D13005, '2005-02-09 10:00:00') /* Withered Raider Prefect */
-     , (0x71D13004, 0x71D13006, '2005-02-09 10:00:00') /* Withered Raider Prefect */
-     , (0x71D13004, 0x71D13007, '2005-02-09 10:00:00') /* Withered Raider Prefect */
-     , (0x71D13004, 0x71D13008, '2005-02-09 10:00:00') /* Withered Raider Prefect */
-     , (0x71D13004, 0x71D13009, '2005-02-09 10:00:00') /* Withered Raider Justicar */
-     , (0x71D13004, 0x71D1300A, '2005-02-09 10:00:00') /* Withered Raider Justicar */
-     , (0x71D13004, 0x71D1300B, '2005-02-09 10:00:00') /* Withered Raider Justicar */
-     , (0x71D13004, 0x71D1300D, '2005-02-09 10:00:00') /* Withered Raider Justicar */
-     , (0x71D13004, 0x71D1300E, '2005-02-09 10:00:00') /* Withered Raider Justicar */
-     , (0x71D13004, 0x71D1300F, '2005-02-09 10:00:00') /* Withered Raider Justicar */
-     , (0x71D13004, 0x71D13011, '2005-02-09 10:00:00') /* Withered Raider Justicar */
-     , (0x71D13004, 0x71D13012, '2005-02-09 10:00:00') /* Withered Raider Justicar */
-     , (0x71D13004, 0x71D13013, '2005-02-09 10:00:00') /* Withered Raider Justicar */
-     , (0x71D13004, 0x71D13014, '2005-02-09 10:00:00') /* Withered Raider Prefect */
-     , (0x71D13004, 0x71D13015, '2005-02-09 10:00:00') /* Withered Raider Prefect */
-     , (0x71D13004, 0x71D13017, '2005-02-09 10:00:00') /* Withered Raider Prefect */
-     , (0x71D13004, 0x71D13018, '2005-02-09 10:00:00') /* Withered Raider Prefect */
-     , (0x71D13004, 0x71D13019, '2005-02-09 10:00:00') /* Withered Raider Justicar */
-     , (0x71D13004, 0x71D1301A, '2005-02-09 10:00:00') /* Withered Raider Justicar */
-     , (0x71D13004, 0x71D1301B, '2005-02-09 10:00:00') /* Withered Raider Justicar */
-     , (0x71D13004, 0x71D1301E, '2005-02-09 10:00:00') /* Withered Raider Justicar */
-     , (0x71D13004, 0x71D1301F, '2005-02-09 10:00:00') /* Withered Raider Justicar */
-     , (0x71D13004, 0x71D13020, '2005-02-09 10:00:00') /* Withered Raider Prefect */
-     , (0x71D13004, 0x71D13021, '2005-02-09 10:00:00') /* Withered Raider Prefect */
-     , (0x71D13004, 0x71D13022, '2005-02-09 10:00:00') /* Withered Raider Prefect */
-     , (0x71D13004, 0x71D13023, '2005-02-09 10:00:00') /* Withered Raider Prefect */
-     , (0x71D13004, 0x71D13024, '2005-02-09 10:00:00') /* Withered Raider Justicar */
-     , (0x71D13004, 0x71D13025, '2005-02-09 10:00:00') /* Withered Raider Justicar */
-     , (0x71D13004, 0x71D13026, '2005-02-09 10:00:00') /* Withered Raider Justicar */
-     , (0x71D13004, 0x71D13027, '2005-02-09 10:00:00') /* Withered Raider Prefect */
-     , (0x71D13004, 0x71D13028, '2005-02-09 10:00:00') /* Withered Raider Prefect */
-     , (0x71D13004, 0x71D13029, '2005-02-09 10:00:00') /* Withered Raider Prefect */
-     , (0x71D13004, 0x71D1302A, '2005-02-09 10:00:00') /* Withered Raider Prefect */
-     , (0x71D13004, 0x71D1302B, '2005-02-09 10:00:00') /* Withered Raider Justicar */
-     , (0x71D13004, 0x71D1302C, '2005-02-09 10:00:00') /* Withered Raider Justicar */
-     , (0x71D13004, 0x71D1302D, '2005-02-09 10:00:00') /* Withered Raider Justicar */
-     , (0x71D13004, 0x71D1302E, '2005-02-09 10:00:00') /* Withered Raider Justicar */
-     , (0x71D13004, 0x71D1302F, '2005-02-09 10:00:00') /* Withered Raider Prefect */
-     , (0x71D13004, 0x71D13030, '2005-02-09 10:00:00') /* Withered Raider Prefect */;
+VALUES (0x71D13004, 0x71D13000, '2005-02-09 10:00:00') /* Withered Raider Prefect (30689) */
+     , (0x71D13004, 0x71D13002, '2005-02-09 10:00:00') /* Withered Raider Justicar (30691) */
+     , (0x71D13004, 0x71D13003, '2005-02-09 10:00:00') /* Withered Raider Justicar (30691) */
+     , (0x71D13004, 0x71D13005, '2005-02-09 10:00:00') /* Withered Raider Prefect (30689) */
+     , (0x71D13004, 0x71D13006, '2005-02-09 10:00:00') /* Withered Raider Prefect (30689) */
+     , (0x71D13004, 0x71D13007, '2005-02-09 10:00:00') /* Withered Raider Prefect (30689) */
+     , (0x71D13004, 0x71D13008, '2005-02-09 10:00:00') /* Withered Raider Prefect (30689) */
+     , (0x71D13004, 0x71D13009, '2005-02-09 10:00:00') /* Withered Raider Justicar (30691) */
+     , (0x71D13004, 0x71D1300A, '2005-02-09 10:00:00') /* Withered Raider Justicar (30691) */
+     , (0x71D13004, 0x71D1300B, '2005-02-09 10:00:00') /* Withered Raider Justicar (30691) */
+     , (0x71D13004, 0x71D1300D, '2005-02-09 10:00:00') /* Withered Raider Justicar (30691) */
+     , (0x71D13004, 0x71D1300E, '2005-02-09 10:00:00') /* Withered Raider Justicar (30691) */
+     , (0x71D13004, 0x71D1300F, '2005-02-09 10:00:00') /* Withered Raider Justicar (30691) */
+     , (0x71D13004, 0x71D13011, '2005-02-09 10:00:00') /* Withered Raider Justicar (30691) */
+     , (0x71D13004, 0x71D13012, '2005-02-09 10:00:00') /* Withered Raider Justicar (30691) */
+     , (0x71D13004, 0x71D13013, '2005-02-09 10:00:00') /* Withered Raider Justicar (30691) */
+     , (0x71D13004, 0x71D13014, '2005-02-09 10:00:00') /* Withered Raider Prefect (30689) */
+     , (0x71D13004, 0x71D13015, '2005-02-09 10:00:00') /* Withered Raider Prefect (30689) */
+     , (0x71D13004, 0x71D13017, '2005-02-09 10:00:00') /* Withered Raider Prefect (30689) */
+     , (0x71D13004, 0x71D13018, '2005-02-09 10:00:00') /* Withered Raider Prefect (30689) */
+     , (0x71D13004, 0x71D13019, '2005-02-09 10:00:00') /* Withered Raider Justicar (30691) */
+     , (0x71D13004, 0x71D1301A, '2005-02-09 10:00:00') /* Withered Raider Justicar (30691) */
+     , (0x71D13004, 0x71D1301B, '2005-02-09 10:00:00') /* Withered Raider Justicar (30691) */
+     , (0x71D13004, 0x71D1301E, '2005-02-09 10:00:00') /* Withered Raider Justicar (30691) */
+     , (0x71D13004, 0x71D1301F, '2005-02-09 10:00:00') /* Withered Raider Justicar (30691) */
+     , (0x71D13004, 0x71D13020, '2005-02-09 10:00:00') /* Withered Raider Prefect (30689) */
+     , (0x71D13004, 0x71D13021, '2005-02-09 10:00:00') /* Withered Raider Prefect (30689) */
+     , (0x71D13004, 0x71D13022, '2005-02-09 10:00:00') /* Withered Raider Prefect (30689) */
+     , (0x71D13004, 0x71D13023, '2005-02-09 10:00:00') /* Withered Raider Prefect (30689) */
+     , (0x71D13004, 0x71D13024, '2005-02-09 10:00:00') /* Withered Raider Justicar (30691) */
+     , (0x71D13004, 0x71D13025, '2005-02-09 10:00:00') /* Withered Raider Justicar (30691) */
+     , (0x71D13004, 0x71D13026, '2005-02-09 10:00:00') /* Withered Raider Justicar (30691) */
+     , (0x71D13004, 0x71D13027, '2005-02-09 10:00:00') /* Withered Raider Prefect (30689) */
+     , (0x71D13004, 0x71D13028, '2005-02-09 10:00:00') /* Withered Raider Prefect (30689) */
+     , (0x71D13004, 0x71D13029, '2005-02-09 10:00:00') /* Withered Raider Prefect (30689) */
+     , (0x71D13004, 0x71D1302A, '2005-02-09 10:00:00') /* Withered Raider Prefect (30689) */
+     , (0x71D13004, 0x71D1302B, '2005-02-09 10:00:00') /* Withered Raider Justicar (30691) */
+     , (0x71D13004, 0x71D1302C, '2005-02-09 10:00:00') /* Withered Raider Justicar (30691) */
+     , (0x71D13004, 0x71D1302D, '2005-02-09 10:00:00') /* Withered Raider Justicar (30691) */
+     , (0x71D13004, 0x71D1302E, '2005-02-09 10:00:00') /* Withered Raider Justicar (30691) */
+     , (0x71D13004, 0x71D1302F, '2005-02-09 10:00:00') /* Withered Raider Prefect (30689) */
+     , (0x71D13004, 0x71D13030, '2005-02-09 10:00:00') /* Withered Raider Prefect (30689) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71D13005, 30689, 0x1D130000, 142.573, 11.0432, 1.04918, -0.547567, 0, 0, 0.836762,  True, '2005-02-09 10:00:00'); /* Withered Raider Prefect */
@@ -225,23 +225,23 @@ VALUES (0x71D13031,  3955, 0x1D130000, 10.0814, 180.34, 56.005, -0.420966, 0, 0,
 /* @teleloc 0x1D130000 [10.081400 180.340000 56.005000] -0.420966 0.000000 0.000000 0.907076 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71D13031, 0x71D13032, '2005-02-09 10:00:00') /* Withered Revered Tumerok Shaman */
-     , (0x71D13031, 0x71D13033, '2005-02-09 10:00:00') /* Withered Revered Tumerok Shaman */
-     , (0x71D13031, 0x71D13034, '2005-02-09 10:00:00') /* Withered Revered Tumerok Shaman */
-     , (0x71D13031, 0x71D13035, '2005-02-09 10:00:00') /* Withered Transcendent Tumerok */
-     , (0x71D13031, 0x71D13036, '2005-02-09 10:00:00') /* Withered Transcendent Tumerok */
-     , (0x71D13031, 0x71D13038, '2005-02-09 10:00:00') /* Withered Revered Tumerok Shaman */
-     , (0x71D13031, 0x71D13039, '2005-02-09 10:00:00') /* Withered Transcendent Tumerok */
-     , (0x71D13031, 0x71D1303A, '2005-02-09 10:00:00') /* Withered Transcendent Tumerok */
-     , (0x71D13031, 0x71D1303B, '2005-02-09 10:00:00') /* Withered Transcendent Tumerok */
-     , (0x71D13031, 0x71D1303C, '2005-02-09 10:00:00') /* Withered Transcendent Tumerok */
-     , (0x71D13031, 0x71D1303D, '2005-02-09 10:00:00') /* Withered Transcendent Tumerok */
-     , (0x71D13031, 0x71D1303E, '2005-02-09 10:00:00') /* Withered Transcendent Tumerok */
-     , (0x71D13031, 0x71D1303F, '2005-02-09 10:00:00') /* Withered Transcendent Tumerok */
-     , (0x71D13031, 0x71D13040, '2005-02-09 10:00:00') /* Withered Transcendent Tumerok */
-     , (0x71D13031, 0x71D13041, '2005-02-09 10:00:00') /* Withered Transcendent Tumerok */
-     , (0x71D13031, 0x71D13043, '2005-02-09 10:00:00') /* Withered Transcendent Tumerok */
-     , (0x71D13031, 0x71D13045, '2005-02-09 10:00:00') /* Withered Revered Tumerok Shaman */;
+VALUES (0x71D13031, 0x71D13032, '2005-02-09 10:00:00') /* Withered Revered Tumerok Shaman (30687) */
+     , (0x71D13031, 0x71D13033, '2005-02-09 10:00:00') /* Withered Revered Tumerok Shaman (30687) */
+     , (0x71D13031, 0x71D13034, '2005-02-09 10:00:00') /* Withered Revered Tumerok Shaman (30687) */
+     , (0x71D13031, 0x71D13035, '2005-02-09 10:00:00') /* Withered Transcendent Tumerok (30686) */
+     , (0x71D13031, 0x71D13036, '2005-02-09 10:00:00') /* Withered Transcendent Tumerok (30686) */
+     , (0x71D13031, 0x71D13038, '2005-02-09 10:00:00') /* Withered Revered Tumerok Shaman (30687) */
+     , (0x71D13031, 0x71D13039, '2005-02-09 10:00:00') /* Withered Transcendent Tumerok (30686) */
+     , (0x71D13031, 0x71D1303A, '2005-02-09 10:00:00') /* Withered Transcendent Tumerok (30686) */
+     , (0x71D13031, 0x71D1303B, '2005-02-09 10:00:00') /* Withered Transcendent Tumerok (30686) */
+     , (0x71D13031, 0x71D1303C, '2005-02-09 10:00:00') /* Withered Transcendent Tumerok (30686) */
+     , (0x71D13031, 0x71D1303D, '2005-02-09 10:00:00') /* Withered Transcendent Tumerok (30686) */
+     , (0x71D13031, 0x71D1303E, '2005-02-09 10:00:00') /* Withered Transcendent Tumerok (30686) */
+     , (0x71D13031, 0x71D1303F, '2005-02-09 10:00:00') /* Withered Transcendent Tumerok (30686) */
+     , (0x71D13031, 0x71D13040, '2005-02-09 10:00:00') /* Withered Transcendent Tumerok (30686) */
+     , (0x71D13031, 0x71D13041, '2005-02-09 10:00:00') /* Withered Transcendent Tumerok (30686) */
+     , (0x71D13031, 0x71D13043, '2005-02-09 10:00:00') /* Withered Transcendent Tumerok (30686) */
+     , (0x71D13031, 0x71D13045, '2005-02-09 10:00:00') /* Withered Revered Tumerok Shaman (30687) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71D13032, 30687, 0x1D130000, 16.4384, 183.125, 56.0065, -0.271336, 0, 0, 0.962485,  True, '2005-02-09 10:00:00'); /* Withered Revered Tumerok Shaman */

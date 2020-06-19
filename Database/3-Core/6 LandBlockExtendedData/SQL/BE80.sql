@@ -9,7 +9,7 @@ VALUES (0x7BE80002,  7923, 0xBE80010A, 136.316, 35.9708, 30.005, 0.275266, 0, 0,
 /* @teleloc 0xBE80010A [136.316000 35.970800 30.005000] 0.275266 0.000000 0.000000 -0.961368 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BE80002, 0x7BE80003, '2005-02-09 10:00:00') /* Agent of the Arcanum */;
+VALUES (0x7BE80002, 0x7BE80003, '2005-02-09 10:00:00') /* Agent of the Arcanum (12050) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BE80003, 12050, 0xBE80010A, 137.325, 35.1687, 30.005, -0.708803, 0, 0, -0.705406,  True, '2005-02-09 10:00:00'); /* Agent of the Arcanum */

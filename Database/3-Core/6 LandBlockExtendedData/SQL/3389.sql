@@ -5,12 +5,12 @@ VALUES (0x73389007,  7923, 0x33890000, 148.753, 62.6419, 35.9608, -0.19108, 0, 0
 /* @teleloc 0x33890000 [148.753000 62.641900 35.960800] -0.191080 0.000000 0.000000 0.981574 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73389007, 0x73389008, '2005-02-09 10:00:00') /* Tumerok Taskmaster */
-     , (0x73389007, 0x73389009, '2005-02-09 10:00:00') /* Tumerok Taskmaster */
-     , (0x73389007, 0x7338900A, '2005-02-09 10:00:00') /* Tumerok Taskmaster */
-     , (0x73389007, 0x7338900B, '2005-02-09 10:00:00') /* Tumerok Taskmaster */
-     , (0x73389007, 0x7338900C, '2005-02-09 10:00:00') /* Tumerok Taskmaster */
-     , (0x73389007, 0x7338900D, '2005-02-09 10:00:00') /* Augmented Drudge */;
+VALUES (0x73389007, 0x73389008, '2005-02-09 10:00:00') /* Tumerok Taskmaster (230) */
+     , (0x73389007, 0x73389009, '2005-02-09 10:00:00') /* Tumerok Taskmaster (230) */
+     , (0x73389007, 0x7338900A, '2005-02-09 10:00:00') /* Tumerok Taskmaster (230) */
+     , (0x73389007, 0x7338900B, '2005-02-09 10:00:00') /* Tumerok Taskmaster (230) */
+     , (0x73389007, 0x7338900C, '2005-02-09 10:00:00') /* Tumerok Taskmaster (230) */
+     , (0x73389007, 0x7338900D, '2005-02-09 10:00:00') /* Augmented Drudge (7090) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73389008,   230, 0x33890000, 146.01, 58.8212, 36.3705, 0.969713, 0, 0, -0.244246,  True, '2005-02-09 10:00:00'); /* Tumerok Taskmaster */

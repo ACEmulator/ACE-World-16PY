@@ -29,8 +29,8 @@ VALUES (0x7444F029,  7924, 0x444F010A, 27.4732, 155.857, -22.195, 0.743236, 0, 0
 /* @teleloc 0x444F010A [27.473200 155.857000 -22.195000] 0.743236 0.000000 0.000000 0.669030 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7444F029, 0x7444F028, '2005-02-09 10:00:00') /* Odd Looking Vine */
-     , (0x7444F029, 0x7444F02A, '2005-02-09 10:00:00') /* Backpack */;
+VALUES (0x7444F029, 0x7444F028, '2005-02-09 10:00:00') /* Odd Looking Vine (28430) */
+     , (0x7444F029, 0x7444F02A, '2005-02-09 10:00:00') /* Backpack (28413) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7444F02A, 28413, 0x444F0100, 36.4547, 151.022, 2.405, 0.69941, 0, 0, -0.71472,  True, '2005-02-09 10:00:00'); /* Backpack */

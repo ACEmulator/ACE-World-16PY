@@ -9,7 +9,7 @@ VALUES (0x7132C001,  3951, 0x132C0102, 38.3862, 162.78, 9.205, 0.587764, 0, 0, 0
 /* @teleloc 0x132C0102 [38.386200 162.780000 9.205000] 0.587764 0.000000 0.000000 0.809032 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7132C001, 0x7132C002, '2005-02-09 10:00:00') /* Ishaq the Philosopher */;
+VALUES (0x7132C001, 0x7132C002, '2005-02-09 10:00:00') /* Ishaq the Philosopher (29229) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7132C002, 29229, 0x132C0102, 39.6756, 160.974, 9.205, 0.997095, 0, 0, -0.0761725,  True, '2005-02-09 10:00:00'); /* Ishaq the Philosopher */

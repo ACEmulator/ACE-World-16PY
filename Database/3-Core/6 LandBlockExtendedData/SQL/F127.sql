@@ -9,8 +9,8 @@ VALUES (0x7F127001,  1154, 0xF1270000, 53.1713, 166.207, 22.005, 0.898824, 0, 0,
 /* @teleloc 0xF1270000 [53.171300 166.207000 22.005000] 0.898824 0.000000 0.000000 -0.438310 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7F127001, 0x7F127002, '2005-02-09 10:00:00') /* Cursed Wisp */
-     , (0x7F127001, 0x7F127003, '2005-02-09 10:00:00') /* Cursed Wisp */;
+VALUES (0x7F127001, 0x7F127002, '2005-02-09 10:00:00') /* Cursed Wisp (7126) */
+     , (0x7F127001, 0x7F127003, '2005-02-09 10:00:00') /* Cursed Wisp (7126) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7F127002,  7126, 0xF1270000, 66.0058, 156.303, 25.7577, -0.7399, 0, 0, -0.672717,  True, '2005-02-09 10:00:00'); /* Cursed Wisp */

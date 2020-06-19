@@ -37,7 +37,7 @@ VALUES (0x702EF008,  4139, 0x02EF0116, 98.1296, -90.0186, -24, 0.707107, 0, 0, -
 /* @teleloc 0x02EF0116 [98.129600 -90.018600 -24.000000] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x702EF008, 0x702EF014, '2005-02-09 10:00:00') /* Lever */;
+VALUES (0x702EF008, 0x702EF014, '2005-02-09 10:00:00') /* Lever (2609) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x702EF009,  7809, 0x02EF011E, 104.447, -59.9839, -17.995, -0.679024, 0, 0, -0.734116, False, '2005-02-09 10:00:00'); /* Sarcophagus */
@@ -60,7 +60,7 @@ VALUES (0x702EF00D,  4139, 0x02EF0122, 100, -105.25, -18, -1, 0, 0, 0, False, '2
 /* @teleloc 0x02EF0122 [100.000000 -105.250000 -18.000000] -1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x702EF00D, 0x702EF006, '2005-02-09 10:00:00') /* Button */;
+VALUES (0x702EF00D, 0x702EF006, '2005-02-09 10:00:00') /* Button (269) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x702EF00E,  7808, 0x02EF0124, 109.418, -54.3707, -17.995, -0.999241, 0, 0, -0.038956, False, '2005-02-09 10:00:00'); /* Sarcophagus */
@@ -95,7 +95,7 @@ VALUES (0x702EF015,  4068, 0x02EF016A, 121.416, -79.8986, -9.52837, 0.727655, 0,
 /* @teleloc 0x02EF016A [121.416000 -79.898600 -9.528370] 0.727655 0.000000 0.000000 0.685943 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x702EF015, 0x702EF016, '2005-02-09 10:00:00') /* Pressure Plate */;
+VALUES (0x702EF015, 0x702EF016, '2005-02-09 10:00:00') /* Pressure Plate (2131) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x702EF016,  2131, 0x02EF0182, 125.166, -79.8605, -11.995, -0.719004, 0, 0, 0.695006,  True, '2005-02-09 10:00:00'); /* Pressure Plate */
@@ -158,7 +158,7 @@ VALUES (0x702EF024,  4068, 0x02EF01D5, 189.533, -44.138, -8.63225, -0.999267, 0,
 /* @teleloc 0x02EF01D5 [189.533000 -44.138000 -8.632250] -0.999267 0.000000 0.000000 0.038288 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x702EF024, 0x702EF023, '2005-02-09 10:00:00') /* Pressure Plate */;
+VALUES (0x702EF024, 0x702EF023, '2005-02-09 10:00:00') /* Pressure Plate (2131) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x702EF025,  7484, 0x02EF01D5, 186.488, -43.5974, -11.995, 0.0122761, 0, 0, 0.999925, False, '2005-02-09 10:00:00'); /* Undead Activated Pressure Plate */
@@ -209,8 +209,8 @@ VALUES (0x702EF030,  4139, 0x02EF0219, 130, -135.25, -6, -1, 0, 0, 0, False, '20
 /* @teleloc 0x02EF0219 [130.000000 -135.250000 -6.000000] -1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x702EF030, 0x702EF013, '2005-02-09 10:00:00') /* Button */
-     , (0x702EF030, 0x702EF02F, '2005-02-09 10:00:00') /* Button */;
+VALUES (0x702EF030, 0x702EF013, '2005-02-09 10:00:00') /* Button (269) */
+     , (0x702EF030, 0x702EF02F, '2005-02-09 10:00:00') /* Button (269) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x702EF031,  7485, 0x02EF021D, 126.774, -170.16, -5.995, 0.69969, 0, 0, 0.714447, False, '2005-02-09 10:00:00'); /* Skeleton Capt. Activated Pressure Plate */
@@ -277,8 +277,8 @@ VALUES (0x702EF040,  4139, 0x02EF026B, 214.75, -110, -6, 0.707107, 0, 0, -0.7071
 /* @teleloc 0x02EF026B [214.750000 -110.000000 -6.000000] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x702EF040, 0x702EF03D, '2005-02-09 10:00:00') /* Button */
-     , (0x702EF040, 0x702EF073, '2005-02-09 10:00:00') /* Lever */;
+VALUES (0x702EF040, 0x702EF03D, '2005-02-09 10:00:00') /* Button (269) */
+     , (0x702EF040, 0x702EF073, '2005-02-09 10:00:00') /* Lever (2609) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x702EF041,  7924, 0x02EF026F, 208.756, -149.947, -5.995, 1, 0, 0, -4.37114E-08, False, '2005-02-09 10:00:00'); /* Linkable Monster Generator ( 5 Min.) */
@@ -289,9 +289,9 @@ VALUES (0x702EF042,  7932, 0x02EF026F, 211.948, -150.106, -5.995, 0.999687, 0, 0
 /* @teleloc 0x02EF026F [211.948000 -150.106000 -5.995000] 0.999687 0.000000 0.000000 -0.024997 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x702EF042, 0x702EF003, '2005-02-09 10:00:00') /* Lesser Acolyte */
-     , (0x702EF042, 0x702EF021, '2005-02-09 10:00:00') /* Lesser Acolyte */
-     , (0x702EF042, 0x702EF04B, '2005-02-09 10:00:00') /* High Acolyte */;
+VALUES (0x702EF042, 0x702EF003, '2005-02-09 10:00:00') /* Lesser Acolyte (7349) */
+     , (0x702EF042, 0x702EF021, '2005-02-09 10:00:00') /* Lesser Acolyte (7348) */
+     , (0x702EF042, 0x702EF04B, '2005-02-09 10:00:00') /* High Acolyte (7350) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x702EF043,  7342, 0x02EF0271, 210, -160, -5.995, 1, 0, 0, 0, False, '2005-02-09 10:00:00'); /* Surface Portal */
@@ -314,8 +314,8 @@ VALUES (0x702EF047,  4139, 0x02EF0280, 225.25, -110, -6, -0.707107, 0, 0, -0.707
 /* @teleloc 0x02EF0280 [225.250000 -110.000000 -6.000000] -0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x702EF047, 0x702EF048, '2005-02-09 10:00:00') /* Button */
-     , (0x702EF047, 0x702EF067, '2005-02-09 10:00:00') /* Button */;
+VALUES (0x702EF047, 0x702EF048, '2005-02-09 10:00:00') /* Button (269) */
+     , (0x702EF047, 0x702EF067, '2005-02-09 10:00:00') /* Button (269) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x702EF048,   269, 0x02EF0283, 228.233, -130.011, -5.072, 0.707107, 0, 0, -0.707107,  True, '2005-02-09 10:00:00'); /* Button */
@@ -370,8 +370,8 @@ VALUES (0x702EF054,  4139, 0x02EF02E1, 110, -55.25, 0, 1, 0, 0, 0, False, '2005-
 /* @teleloc 0x02EF02E1 [110.000000 -55.250000 0.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x702EF054, 0x702EF04C, '2005-02-09 10:00:00') /* Button */
-     , (0x702EF054, 0x702EF050, '2005-02-09 10:00:00') /* Button */;
+VALUES (0x702EF054, 0x702EF04C, '2005-02-09 10:00:00') /* Button (269) */
+     , (0x702EF054, 0x702EF050, '2005-02-09 10:00:00') /* Button (269) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x702EF055,  5624, 0x02EF02E2, 105.25, -70, 0, -0.707107, 0, 0, -0.707107, False, '2005-02-09 10:00:00'); /* Door */
@@ -418,8 +418,8 @@ VALUES (0x702EF05F,  2180, 0x02EF02FD, 134.75, -70, 0, 0.707107, 0, 0, -0.707107
 /* @teleloc 0x02EF02FD [134.750000 -70.000000 0.000000] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x702EF05F, 0x702EF059, '2005-02-09 10:00:00') /* Button */
-     , (0x702EF05F, 0x702EF06B, '2005-02-09 10:00:00') /* Button */;
+VALUES (0x702EF05F, 0x702EF059, '2005-02-09 10:00:00') /* Button (269) */
+     , (0x702EF05F, 0x702EF06B, '2005-02-09 10:00:00') /* Button (269) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x702EF060,  7483, 0x02EF0302, 128.368, -89.8992, 0.005, 0.723111, 0, 0, 0.690732, False, '2005-02-09 10:00:00'); /* Lich Activated Pressure Plate */
@@ -478,7 +478,7 @@ VALUES (0x702EF06D,  4068, 0x02EF0376, 119.967, -36.1154, 14.5251, -0.999996, 0,
 /* @teleloc 0x02EF0376 [119.967000 -36.115400 14.525100] -0.999996 0.000000 0.000000 0.002937 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x702EF06D, 0x702EF06C, '2005-02-09 10:00:00') /* Pressure Plate */;
+VALUES (0x702EF06D, 0x702EF06C, '2005-02-09 10:00:00') /* Pressure Plate (2131) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x702EF06E,  7483, 0x02EF0386, 120.035, -62.8817, 12.005, -0.999627, 0, 0, -0.027313, False, '2005-02-09 10:00:00'); /* Lich Activated Pressure Plate */
@@ -509,7 +509,7 @@ VALUES (0x702EF074,  4068, 0x02EF03A8, 220.011, -100.124, 16.1013, 0.682347, 0, 
 /* @teleloc 0x02EF03A8 [220.011000 -100.124000 16.101300] 0.682347 0.000000 0.000000 0.731029 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x702EF074, 0x702EF076, '2005-02-09 10:00:00') /* Pressure Plate */;
+VALUES (0x702EF074, 0x702EF076, '2005-02-09 10:00:00') /* Pressure Plate (2131) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x702EF075,  7484, 0x02EF03A8, 220.162, -103.079, 12.2992, -0.999994, 0, 0, 0.003624, False, '2005-02-09 10:00:00'); /* Undead Activated Pressure Plate */

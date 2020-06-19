@@ -49,23 +49,23 @@ VALUES (0x703A100B,  5086, 0x03A10116, 169.191, -80, -35.995, 1, 0, 0, 0, False,
 /* @teleloc 0x03A10116 [169.191000 -80.000000 -35.995000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x703A100B, 0x703A1000, '2005-02-09 10:00:00') /* Pristine Doll */
-     , (0x703A100B, 0x703A1001, '2005-02-09 10:00:00') /* Pristine Doll */
-     , (0x703A100B, 0x703A1004, '2005-02-09 10:00:00') /* Drudge Ravener */
-     , (0x703A100B, 0x703A1005, '2005-02-09 10:00:00') /* Drudge Ravener */
-     , (0x703A100B, 0x703A1006, '2005-02-09 10:00:00') /* Drudge Ravener */
-     , (0x703A100B, 0x703A1008, '2005-02-09 10:00:00') /* Pristine Doll */
-     , (0x703A100B, 0x703A1009, '2005-02-09 10:00:00') /* Pristine Doll */
-     , (0x703A100B, 0x703A100A, '2005-02-09 10:00:00') /* Pristine Doll */
-     , (0x703A100B, 0x703A1010, '2005-02-09 10:00:00') /* Drudge Ravener */
-     , (0x703A100B, 0x703A1011, '2005-02-09 10:00:00') /* Drudge Ravener */;
+VALUES (0x703A100B, 0x703A1000, '2005-02-09 10:00:00') /* Pristine Doll (9244) */
+     , (0x703A100B, 0x703A1001, '2005-02-09 10:00:00') /* Pristine Doll (9244) */
+     , (0x703A100B, 0x703A1004, '2005-02-09 10:00:00') /* Drudge Ravener (1610) */
+     , (0x703A100B, 0x703A1005, '2005-02-09 10:00:00') /* Drudge Ravener (1610) */
+     , (0x703A100B, 0x703A1006, '2005-02-09 10:00:00') /* Drudge Ravener (1610) */
+     , (0x703A100B, 0x703A1008, '2005-02-09 10:00:00') /* Pristine Doll (9244) */
+     , (0x703A100B, 0x703A1009, '2005-02-09 10:00:00') /* Pristine Doll (9244) */
+     , (0x703A100B, 0x703A100A, '2005-02-09 10:00:00') /* Pristine Doll (9244) */
+     , (0x703A100B, 0x703A1010, '2005-02-09 10:00:00') /* Drudge Ravener (1610) */
+     , (0x703A100B, 0x703A1011, '2005-02-09 10:00:00') /* Drudge Ravener (1610) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x703A100C,  7923, 0x03A10116, 169.191, -82.0665, -35.995, 1, 0, 0, 0, False, '2005-02-09 10:00:00'); /* Linkable Monster Generator ( 3 Min.) */
 /* @teleloc 0x03A10116 [169.191000 -82.066500 -35.995000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x703A100C, 0x703A100D, '2005-02-09 10:00:00') /* Singular Doll */;
+VALUES (0x703A100C, 0x703A100D, '2005-02-09 10:00:00') /* Singular Doll (12237) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x703A100D, 12237, 0x03A10116, 168.303, -78.214, -35.971, 0.999949, 0, 0, -0.0100897,  True, '2005-02-09 10:00:00'); /* Singular Doll */
@@ -268,51 +268,51 @@ VALUES (0x703A103E,  7924, 0x03A102B5, 90, -590, 0.005, 1, 0, 0, 0, False, '2005
 /* @teleloc 0x03A102B5 [90.000000 -590.000000 0.005000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x703A103E, 0x703A1013, '2005-02-09 10:00:00') /* Drudge Ravener */
-     , (0x703A103E, 0x703A1014, '2005-02-09 10:00:00') /* Drudge Ravener */
-     , (0x703A103E, 0x703A1015, '2005-02-09 10:00:00') /* Drudge Ravener */
-     , (0x703A103E, 0x703A1016, '2005-02-09 10:00:00') /* Drudge Ravener */
-     , (0x703A103E, 0x703A1017, '2005-02-09 10:00:00') /* Drudge Ravener */
-     , (0x703A103E, 0x703A1018, '2005-02-09 10:00:00') /* Drudge Ravener */
-     , (0x703A103E, 0x703A1019, '2005-02-09 10:00:00') /* Pristine Doll */
-     , (0x703A103E, 0x703A101A, '2005-02-09 10:00:00') /* Pristine Doll */
-     , (0x703A103E, 0x703A101B, '2005-02-09 10:00:00') /* Drudge Ravener */
-     , (0x703A103E, 0x703A101C, '2005-02-09 10:00:00') /* Drudge Ravener */
-     , (0x703A103E, 0x703A101D, '2005-02-09 10:00:00') /* Drudge Ravener */
-     , (0x703A103E, 0x703A101E, '2005-02-09 10:00:00') /* Drudge Ravener */
-     , (0x703A103E, 0x703A101F, '2005-02-09 10:00:00') /* Drudge Ravener */
-     , (0x703A103E, 0x703A1020, '2005-02-09 10:00:00') /* Drudge Ravener */
-     , (0x703A103E, 0x703A1021, '2005-02-09 10:00:00') /* Pristine Doll */
-     , (0x703A103E, 0x703A1022, '2005-02-09 10:00:00') /* Drudge Ravener */
-     , (0x703A103E, 0x703A1023, '2005-02-09 10:00:00') /* Drudge Ravener */
-     , (0x703A103E, 0x703A1024, '2005-02-09 10:00:00') /* Pristine Doll */
-     , (0x703A103E, 0x703A1025, '2005-02-09 10:00:00') /* Innocuous Doll */
-     , (0x703A103E, 0x703A1026, '2005-02-09 10:00:00') /* Innocuous Doll */
-     , (0x703A103E, 0x703A1027, '2005-02-09 10:00:00') /* Drudge Ravener */
-     , (0x703A103E, 0x703A1028, '2005-02-09 10:00:00') /* Drudge Ravener */
-     , (0x703A103E, 0x703A1029, '2005-02-09 10:00:00') /* Drudge Ravener */
-     , (0x703A103E, 0x703A102A, '2005-02-09 10:00:00') /* Drudge Ravener */
-     , (0x703A103E, 0x703A102B, '2005-02-09 10:00:00') /* Innocuous Doll */
-     , (0x703A103E, 0x703A102C, '2005-02-09 10:00:00') /* Drudge Ravener */
-     , (0x703A103E, 0x703A102D, '2005-02-09 10:00:00') /* Drudge Ravener */
-     , (0x703A103E, 0x703A102E, '2005-02-09 10:00:00') /* Drudge Ravener */
-     , (0x703A103E, 0x703A102F, '2005-02-09 10:00:00') /* Drudge Ravener */
-     , (0x703A103E, 0x703A1030, '2005-02-09 10:00:00') /* Drudge Ravener */
-     , (0x703A103E, 0x703A1031, '2005-02-09 10:00:00') /* Drudge Ravener */
-     , (0x703A103E, 0x703A1032, '2005-02-09 10:00:00') /* Drudge Ravener */
-     , (0x703A103E, 0x703A1033, '2005-02-09 10:00:00') /* Drudge Ravener */
-     , (0x703A103E, 0x703A1034, '2005-02-09 10:00:00') /* Drudge Ravener */
-     , (0x703A103E, 0x703A1035, '2005-02-09 10:00:00') /* Innocuous Doll */
-     , (0x703A103E, 0x703A1036, '2005-02-09 10:00:00') /* Innocuous Doll */
-     , (0x703A103E, 0x703A1037, '2005-02-09 10:00:00') /* Drudge Ravener */
-     , (0x703A103E, 0x703A1038, '2005-02-09 10:00:00') /* Drudge Ravener */
-     , (0x703A103E, 0x703A1039, '2005-02-09 10:00:00') /* Drudge Ravener */
-     , (0x703A103E, 0x703A103A, '2005-02-09 10:00:00') /* Drudge Ravener */
-     , (0x703A103E, 0x703A103B, '2005-02-09 10:00:00') /* Innocuous Doll */
-     , (0x703A103E, 0x703A103C, '2005-02-09 10:00:00') /* Innocent Doll */
-     , (0x703A103E, 0x703A103D, '2005-02-09 10:00:00') /* Innocent Doll */
-     , (0x703A103E, 0x703A103F, '2005-02-09 10:00:00') /* Innocent Doll */
-     , (0x703A103E, 0x703A1040, '2005-02-09 10:00:00') /* Innocent Doll */;
+VALUES (0x703A103E, 0x703A1013, '2005-02-09 10:00:00') /* Drudge Ravener (1610) */
+     , (0x703A103E, 0x703A1014, '2005-02-09 10:00:00') /* Drudge Ravener (1610) */
+     , (0x703A103E, 0x703A1015, '2005-02-09 10:00:00') /* Drudge Ravener (1610) */
+     , (0x703A103E, 0x703A1016, '2005-02-09 10:00:00') /* Drudge Ravener (1610) */
+     , (0x703A103E, 0x703A1017, '2005-02-09 10:00:00') /* Drudge Ravener (1610) */
+     , (0x703A103E, 0x703A1018, '2005-02-09 10:00:00') /* Drudge Ravener (1610) */
+     , (0x703A103E, 0x703A1019, '2005-02-09 10:00:00') /* Pristine Doll (9244) */
+     , (0x703A103E, 0x703A101A, '2005-02-09 10:00:00') /* Pristine Doll (9244) */
+     , (0x703A103E, 0x703A101B, '2005-02-09 10:00:00') /* Drudge Ravener (1610) */
+     , (0x703A103E, 0x703A101C, '2005-02-09 10:00:00') /* Drudge Ravener (1610) */
+     , (0x703A103E, 0x703A101D, '2005-02-09 10:00:00') /* Drudge Ravener (1610) */
+     , (0x703A103E, 0x703A101E, '2005-02-09 10:00:00') /* Drudge Ravener (1610) */
+     , (0x703A103E, 0x703A101F, '2005-02-09 10:00:00') /* Drudge Ravener (1610) */
+     , (0x703A103E, 0x703A1020, '2005-02-09 10:00:00') /* Drudge Ravener (1610) */
+     , (0x703A103E, 0x703A1021, '2005-02-09 10:00:00') /* Pristine Doll (9244) */
+     , (0x703A103E, 0x703A1022, '2005-02-09 10:00:00') /* Drudge Ravener (1610) */
+     , (0x703A103E, 0x703A1023, '2005-02-09 10:00:00') /* Drudge Ravener (1610) */
+     , (0x703A103E, 0x703A1024, '2005-02-09 10:00:00') /* Pristine Doll (9244) */
+     , (0x703A103E, 0x703A1025, '2005-02-09 10:00:00') /* Innocuous Doll (9243) */
+     , (0x703A103E, 0x703A1026, '2005-02-09 10:00:00') /* Innocuous Doll (9243) */
+     , (0x703A103E, 0x703A1027, '2005-02-09 10:00:00') /* Drudge Ravener (1610) */
+     , (0x703A103E, 0x703A1028, '2005-02-09 10:00:00') /* Drudge Ravener (1610) */
+     , (0x703A103E, 0x703A1029, '2005-02-09 10:00:00') /* Drudge Ravener (1610) */
+     , (0x703A103E, 0x703A102A, '2005-02-09 10:00:00') /* Drudge Ravener (1610) */
+     , (0x703A103E, 0x703A102B, '2005-02-09 10:00:00') /* Innocuous Doll (9243) */
+     , (0x703A103E, 0x703A102C, '2005-02-09 10:00:00') /* Drudge Ravener (1610) */
+     , (0x703A103E, 0x703A102D, '2005-02-09 10:00:00') /* Drudge Ravener (1610) */
+     , (0x703A103E, 0x703A102E, '2005-02-09 10:00:00') /* Drudge Ravener (1610) */
+     , (0x703A103E, 0x703A102F, '2005-02-09 10:00:00') /* Drudge Ravener (1610) */
+     , (0x703A103E, 0x703A1030, '2005-02-09 10:00:00') /* Drudge Ravener (1610) */
+     , (0x703A103E, 0x703A1031, '2005-02-09 10:00:00') /* Drudge Ravener (1610) */
+     , (0x703A103E, 0x703A1032, '2005-02-09 10:00:00') /* Drudge Ravener (1610) */
+     , (0x703A103E, 0x703A1033, '2005-02-09 10:00:00') /* Drudge Ravener (1610) */
+     , (0x703A103E, 0x703A1034, '2005-02-09 10:00:00') /* Drudge Ravener (1610) */
+     , (0x703A103E, 0x703A1035, '2005-02-09 10:00:00') /* Innocuous Doll (9243) */
+     , (0x703A103E, 0x703A1036, '2005-02-09 10:00:00') /* Innocuous Doll (9243) */
+     , (0x703A103E, 0x703A1037, '2005-02-09 10:00:00') /* Drudge Ravener (1610) */
+     , (0x703A103E, 0x703A1038, '2005-02-09 10:00:00') /* Drudge Ravener (1610) */
+     , (0x703A103E, 0x703A1039, '2005-02-09 10:00:00') /* Drudge Ravener (1610) */
+     , (0x703A103E, 0x703A103A, '2005-02-09 10:00:00') /* Drudge Ravener (1610) */
+     , (0x703A103E, 0x703A103B, '2005-02-09 10:00:00') /* Innocuous Doll (9243) */
+     , (0x703A103E, 0x703A103C, '2005-02-09 10:00:00') /* Innocent Doll (9242) */
+     , (0x703A103E, 0x703A103D, '2005-02-09 10:00:00') /* Innocent Doll (9242) */
+     , (0x703A103E, 0x703A103F, '2005-02-09 10:00:00') /* Innocent Doll (9242) */
+     , (0x703A103E, 0x703A1040, '2005-02-09 10:00:00') /* Innocent Doll (9242) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x703A103F,  9242, 0x03A102C8, 130.804, -549.009, 0.029, 0.276386, 0, 0, 0.961047,  True, '2005-02-09 10:00:00'); /* Innocent Doll */

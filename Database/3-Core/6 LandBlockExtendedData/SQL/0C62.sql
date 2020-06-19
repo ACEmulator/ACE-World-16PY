@@ -5,26 +5,26 @@ VALUES (0x70C6200A,  1154, 0x0C620000, 39.3362, 37.5256, 0.108625, -0.962062, 0,
 /* @teleloc 0x0C620000 [39.336200 37.525600 0.108625] -0.962062 0.000000 0.000000 0.272830 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x70C6200A, 0x70C62012, '2005-02-09 10:00:00') /* Undead Sailor */
-     , (0x70C6200A, 0x70C62015, '2005-02-09 10:00:00') /* Undead Captain */
-     , (0x70C6200A, 0x70C62016, '2005-02-09 10:00:00') /* Skeletal Mate */
-     , (0x70C6200A, 0x70C62017, '2005-02-09 10:00:00') /* Skeletal Mate */
-     , (0x70C6200A, 0x70C62018, '2005-02-09 10:00:00') /* Skeletal Mate */
-     , (0x70C6200A, 0x70C62019, '2005-02-09 10:00:00') /* Skeletal Mate */
-     , (0x70C6200A, 0x70C6201A, '2005-02-09 10:00:00') /* Skeletal Mate */
-     , (0x70C6200A, 0x70C6201B, '2005-02-09 10:00:00') /* Skeletal Mate */
-     , (0x70C6200A, 0x70C6201C, '2005-02-09 10:00:00') /* Skeletal Swashbuckler */
-     , (0x70C6200A, 0x70C6201D, '2005-02-09 10:00:00') /* Skeletal Swashbuckler */
-     , (0x70C6200A, 0x70C6201E, '2005-02-09 10:00:00') /* Skeletal Swashbuckler */
-     , (0x70C6200A, 0x70C6201F, '2005-02-09 10:00:00') /* Skeletal Swashbuckler */
-     , (0x70C6200A, 0x70C62020, '2005-02-09 10:00:00') /* Skeletal Swashbuckler */
-     , (0x70C6200A, 0x70C62021, '2005-02-09 10:00:00') /* Skeletal Swashbuckler */
-     , (0x70C6200A, 0x70C62022, '2005-02-09 10:00:00') /* Undead Sailor */
-     , (0x70C6200A, 0x70C62023, '2005-02-09 10:00:00') /* Undead Sailor */
-     , (0x70C6200A, 0x70C62024, '2005-02-09 10:00:00') /* Undead Sailor */
-     , (0x70C6200A, 0x70C62025, '2005-02-09 10:00:00') /* Undead Sailor */
-     , (0x70C6200A, 0x70C62026, '2005-02-09 10:00:00') /* Undead Sailor */
-     , (0x70C6200A, 0x70C62027, '2005-02-09 10:00:00') /* Undead Sailor */;
+VALUES (0x70C6200A, 0x70C62012, '2005-02-09 10:00:00') /* Undead Sailor (24323) */
+     , (0x70C6200A, 0x70C62015, '2005-02-09 10:00:00') /* Undead Captain (24321) */
+     , (0x70C6200A, 0x70C62016, '2005-02-09 10:00:00') /* Skeletal Mate (24316) */
+     , (0x70C6200A, 0x70C62017, '2005-02-09 10:00:00') /* Skeletal Mate (24316) */
+     , (0x70C6200A, 0x70C62018, '2005-02-09 10:00:00') /* Skeletal Mate (24316) */
+     , (0x70C6200A, 0x70C62019, '2005-02-09 10:00:00') /* Skeletal Mate (24316) */
+     , (0x70C6200A, 0x70C6201A, '2005-02-09 10:00:00') /* Skeletal Mate (24316) */
+     , (0x70C6200A, 0x70C6201B, '2005-02-09 10:00:00') /* Skeletal Mate (24316) */
+     , (0x70C6200A, 0x70C6201C, '2005-02-09 10:00:00') /* Skeletal Swashbuckler (24318) */
+     , (0x70C6200A, 0x70C6201D, '2005-02-09 10:00:00') /* Skeletal Swashbuckler (24318) */
+     , (0x70C6200A, 0x70C6201E, '2005-02-09 10:00:00') /* Skeletal Swashbuckler (24318) */
+     , (0x70C6200A, 0x70C6201F, '2005-02-09 10:00:00') /* Skeletal Swashbuckler (24318) */
+     , (0x70C6200A, 0x70C62020, '2005-02-09 10:00:00') /* Skeletal Swashbuckler (24318) */
+     , (0x70C6200A, 0x70C62021, '2005-02-09 10:00:00') /* Skeletal Swashbuckler (24318) */
+     , (0x70C6200A, 0x70C62022, '2005-02-09 10:00:00') /* Undead Sailor (24323) */
+     , (0x70C6200A, 0x70C62023, '2005-02-09 10:00:00') /* Undead Sailor (24323) */
+     , (0x70C6200A, 0x70C62024, '2005-02-09 10:00:00') /* Undead Sailor (24323) */
+     , (0x70C6200A, 0x70C62025, '2005-02-09 10:00:00') /* Undead Sailor (24323) */
+     , (0x70C6200A, 0x70C62026, '2005-02-09 10:00:00') /* Undead Sailor (24323) */
+     , (0x70C6200A, 0x70C62027, '2005-02-09 10:00:00') /* Undead Sailor (24323) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x70C62011, 24662, 0x0C620000, 42.0957, 42.4065, -0.095, 0.62181, 0, 0, -0.783168, False, '2005-02-09 10:00:00'); /* Runed Chest */

@@ -73,14 +73,14 @@ VALUES (0x702F4011,  4063, 0x02F4016A, 30, 1, -40.976, 1, 0, 0, -4.37114E-08, Fa
 /* @teleloc 0x02F4016A [30.000000 1.000000 -40.976000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x702F4011, 0x702F4014, '2005-02-09 10:00:00') /* Pressure Plate */;
+VALUES (0x702F4011, 0x702F4014, '2005-02-09 10:00:00') /* Pressure Plate (2131) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x702F4012,  4095, 0x02F4016A, 33.5438, 1.36339, -41.995, -0.999965, 0, 0, 0.00840704, False, '2005-02-09 10:00:00'); /* Magic trap */
 /* @teleloc 0x02F4016A [33.543800 1.363390 -41.995000] -0.999965 0.000000 0.000000 0.008407 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x702F4012, 0x702F4013, '2005-02-09 10:00:00') /* Pressure Plate */;
+VALUES (0x702F4012, 0x702F4013, '2005-02-09 10:00:00') /* Pressure Plate (2131) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x702F4013,  2131, 0x02F4016A, 33.5, -3.0598E-07, -41.995, -0.707107, 0, 0, -0.707107,  True, '2005-02-09 10:00:00'); /* Pressure Plate */
@@ -99,7 +99,7 @@ VALUES (0x702F4016,  4063, 0x02F40171, 30, -61.041, -40.976, 1, 0, 0, 0, False, 
 /* @teleloc 0x02F40171 [30.000000 -61.041000 -40.976000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x702F4016, 0x702F4015, '2005-02-09 10:00:00') /* Pressure Plate */;
+VALUES (0x702F4016, 0x702F4015, '2005-02-09 10:00:00') /* Pressure Plate (2131) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x702F4017,  2131, 0x02F40173, 40, -10, -41.995, 1, 0, 0, -4.37114E-08,  True, '2005-02-09 10:00:00'); /* Pressure Plate */
@@ -110,7 +110,7 @@ VALUES (0x702F4018,  4077, 0x02F40173, 42.2427, -10.051, -41.995, 0.720823, 0, 0
 /* @teleloc 0x02F40173 [42.242700 -10.051000 -41.995000] 0.720823 0.000000 0.000000 -0.693119 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x702F4018, 0x702F4017, '2005-02-09 10:00:00') /* Pressure Plate */;
+VALUES (0x702F4018, 0x702F4017, '2005-02-09 10:00:00') /* Pressure Plate (2131) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x702F4019,   619, 0x02F40176, 40.7342, -34.5655, -41.945, -0.013623, 0, 0, 0.999907,  True, '2005-02-09 10:00:00'); /* Revenant */
@@ -129,7 +129,7 @@ VALUES (0x702F401C,  4098, 0x02F40178, 39.9251, -47.5489, -41.995, -0.99872, 0, 
 /* @teleloc 0x02F40178 [39.925100 -47.548900 -41.995000] -0.998720 0.000000 0.000000 0.050575 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x702F401C, 0x702F401B, '2005-02-09 10:00:00') /* Pressure Plate */;
+VALUES (0x702F401C, 0x702F401B, '2005-02-09 10:00:00') /* Pressure Plate (2131) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x702F401D,   619, 0x02F4017A, 40.2895, -60.3869, -41.9917, -0.692486, 0, 0, -0.721431,  True, '2005-02-09 10:00:00'); /* Revenant */
@@ -152,14 +152,14 @@ VALUES (0x702F4021,  4083, 0x02F4018A, 62.1104, -60.3552, -41.995, 0.780707, 0, 
 /* @teleloc 0x02F4018A [62.110400 -60.355200 -41.995000] 0.780707 0.000000 0.000000 -0.624897 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x702F4021, 0x702F4020, '2005-02-09 10:00:00') /* Pressure Plate */;
+VALUES (0x702F4021, 0x702F4020, '2005-02-09 10:00:00') /* Pressure Plate (2131) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x702F4022,  4077, 0x02F4018C, 70, -12.0249, -41.995, 1, 0, 0, 0, False, '2005-02-09 10:00:00'); /* Magic trap */
 /* @teleloc 0x02F4018C [70.000000 -12.024900 -41.995000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x702F4022, 0x702F4023, '2005-02-09 10:00:00') /* Pressure Plate */;
+VALUES (0x702F4022, 0x702F4023, '2005-02-09 10:00:00') /* Pressure Plate (2131) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x702F4023,  2131, 0x02F4018C, 70, -10, -41.995, 1, 0, 0, 0,  True, '2005-02-09 10:00:00'); /* Pressure Plate */
@@ -178,7 +178,7 @@ VALUES (0x702F4026,  4071, 0x02F40195, 67.349, -49.9031, -41.995, -0.717785, 0, 
 /* @teleloc 0x02F40195 [67.349000 -49.903100 -41.995000] -0.717785 0.000000 0.000000 -0.696265 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x702F4026, 0x702F4025, '2005-02-09 10:00:00') /* Pressure Plate */;
+VALUES (0x702F4026, 0x702F4025, '2005-02-09 10:00:00') /* Pressure Plate (2131) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x702F4027,   201, 0x02F401AF, 40, -42.997, -29.99, 0, 0, 0, -1,  True, '2005-02-09 10:00:00'); /* Obsidian Golem */
@@ -197,7 +197,7 @@ VALUES (0x702F402A,  4068, 0x02F401B4, 64.2264, -40.1378, -28.976, 1, 0, 0, 0, F
 /* @teleloc 0x02F401B4 [64.226400 -40.137800 -28.976000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x702F402A, 0x702F4029, '2005-02-09 10:00:00') /* Pressure Plate */;
+VALUES (0x702F402A, 0x702F4029, '2005-02-09 10:00:00') /* Pressure Plate (2131) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x702F402B,  3988, 0x02F401B4, 61.5, -40, -29.995, 0.707107, 0, 0, -0.707107, False, '2005-02-09 10:00:00'); /* Chest */
@@ -376,79 +376,79 @@ VALUES (0x702F4056,  7923, 0x02F40296, 102.011, -319.496, 0.005, 1, 0, 0, 0, Fal
 /* @teleloc 0x02F40296 [102.011000 -319.496000 0.005000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x702F4056, 0x702F4001, '2005-02-09 10:00:00') /* Obsidian Golem */
-     , (0x702F4056, 0x702F4002, '2005-02-09 10:00:00') /* Revenant */
-     , (0x702F4056, 0x702F4003, '2005-02-09 10:00:00') /* Revenant */
-     , (0x702F4056, 0x702F4004, '2005-02-09 10:00:00') /* Obsidian Golem */
-     , (0x702F4056, 0x702F4005, '2005-02-09 10:00:00') /* Obsidian Golem */
-     , (0x702F4056, 0x702F4006, '2005-02-09 10:00:00') /* Obsidian Golem */
-     , (0x702F4056, 0x702F4007, '2005-02-09 10:00:00') /* Obsidian Golem */
-     , (0x702F4056, 0x702F4008, '2005-02-09 10:00:00') /* Obsidian Golem */
-     , (0x702F4056, 0x702F4009, '2005-02-09 10:00:00') /* Revenant */
-     , (0x702F4056, 0x702F400A, '2005-02-09 10:00:00') /* Revenant */
-     , (0x702F4056, 0x702F400B, '2005-02-09 10:00:00') /* Revenant */
-     , (0x702F4056, 0x702F400C, '2005-02-09 10:00:00') /* Revenant */
-     , (0x702F4056, 0x702F400D, '2005-02-09 10:00:00') /* Revenant */
-     , (0x702F4056, 0x702F400F, '2005-02-09 10:00:00') /* Revenant */
-     , (0x702F4056, 0x702F4010, '2005-02-09 10:00:00') /* Revenant */
-     , (0x702F4056, 0x702F4019, '2005-02-09 10:00:00') /* Revenant */
-     , (0x702F4056, 0x702F401A, '2005-02-09 10:00:00') /* Revenant */
-     , (0x702F4056, 0x702F401D, '2005-02-09 10:00:00') /* Revenant */
-     , (0x702F4056, 0x702F401E, '2005-02-09 10:00:00') /* Revenant */
-     , (0x702F4056, 0x702F401F, '2005-02-09 10:00:00') /* Revenant */
-     , (0x702F4056, 0x702F4024, '2005-02-09 10:00:00') /* Revenant */
-     , (0x702F4056, 0x702F4027, '2005-02-09 10:00:00') /* Obsidian Golem */
-     , (0x702F4056, 0x702F4028, '2005-02-09 10:00:00') /* Obsidian Golem */
-     , (0x702F4056, 0x702F402C, '2005-02-09 10:00:00') /* Obsidian Golem */
-     , (0x702F4056, 0x702F402D, '2005-02-09 10:00:00') /* Obsidian Golem */
-     , (0x702F4056, 0x702F402E, '2005-02-09 10:00:00') /* Obsidian Golem */
-     , (0x702F4056, 0x702F402F, '2005-02-09 10:00:00') /* Obsidian Golem */
-     , (0x702F4056, 0x702F4030, '2005-02-09 10:00:00') /* Revenant */
-     , (0x702F4056, 0x702F4031, '2005-02-09 10:00:00') /* Obsidian Golem */
-     , (0x702F4056, 0x702F4032, '2005-02-09 10:00:00') /* Revenant */
-     , (0x702F4056, 0x702F4033, '2005-02-09 10:00:00') /* Revenant */
-     , (0x702F4056, 0x702F4034, '2005-02-09 10:00:00') /* Revenant */
-     , (0x702F4056, 0x702F4035, '2005-02-09 10:00:00') /* Revenant */
-     , (0x702F4056, 0x702F4036, '2005-02-09 10:00:00') /* Revenant */
-     , (0x702F4056, 0x702F4037, '2005-02-09 10:00:00') /* Revenant */
-     , (0x702F4056, 0x702F4039, '2005-02-09 10:00:00') /* Revenant */
-     , (0x702F4056, 0x702F403B, '2005-02-09 10:00:00') /* Iron Golem */
-     , (0x702F4056, 0x702F403C, '2005-02-09 10:00:00') /* Iron Golem */
-     , (0x702F4056, 0x702F403E, '2005-02-09 10:00:00') /* Iron Golem */
-     , (0x702F4056, 0x702F403F, '2005-02-09 10:00:00') /* Granite Golem */
-     , (0x702F4056, 0x702F4040, '2005-02-09 10:00:00') /* Granite Golem */
-     , (0x702F4056, 0x702F4041, '2005-02-09 10:00:00') /* Iron Golem */
-     , (0x702F4056, 0x702F4042, '2005-02-09 10:00:00') /* Iron Golem */
-     , (0x702F4056, 0x702F4043, '2005-02-09 10:00:00') /* Iron Golem */
-     , (0x702F4056, 0x702F4044, '2005-02-09 10:00:00') /* Iron Golem */
-     , (0x702F4056, 0x702F4045, '2005-02-09 10:00:00') /* Iron Golem */
-     , (0x702F4056, 0x702F4046, '2005-02-09 10:00:00') /* Iron Golem */
-     , (0x702F4056, 0x702F4047, '2005-02-09 10:00:00') /* Iron Golem */
-     , (0x702F4056, 0x702F4048, '2005-02-09 10:00:00') /* Iron Golem */
-     , (0x702F4056, 0x702F4049, '2005-02-09 10:00:00') /* Iron Golem */
-     , (0x702F4056, 0x702F404A, '2005-02-09 10:00:00') /* Granite Golem */
-     , (0x702F4056, 0x702F404B, '2005-02-09 10:00:00') /* Granite Golem */
-     , (0x702F4056, 0x702F404C, '2005-02-09 10:00:00') /* Granite Golem */
-     , (0x702F4056, 0x702F404D, '2005-02-09 10:00:00') /* Granite Golem */
-     , (0x702F4056, 0x702F404E, '2005-02-09 10:00:00') /* Granite Golem */
-     , (0x702F4056, 0x702F404F, '2005-02-09 10:00:00') /* Lich */
-     , (0x702F4056, 0x702F4050, '2005-02-09 10:00:00') /* Lich */
-     , (0x702F4056, 0x702F4051, '2005-02-09 10:00:00') /* Lich */
-     , (0x702F4056, 0x702F4052, '2005-02-09 10:00:00') /* Lich Lord */
-     , (0x702F4056, 0x702F4053, '2005-02-09 10:00:00') /* Lich */
-     , (0x702F4056, 0x702F4054, '2005-02-09 10:00:00') /* Lich */
-     , (0x702F4056, 0x702F4055, '2005-02-09 10:00:00') /* Lich */
-     , (0x702F4056, 0x702F4057, '2005-02-09 10:00:00') /* Lich */
-     , (0x702F4056, 0x702F4058, '2005-02-09 10:00:00') /* Lich */
-     , (0x702F4056, 0x702F405A, '2005-02-09 10:00:00') /* Granite Golem */
-     , (0x702F4056, 0x702F405B, '2005-02-09 10:00:00') /* Granite Golem */
-     , (0x702F4056, 0x702F405C, '2005-02-09 10:00:00') /* Granite Golem */
-     , (0x702F4056, 0x702F405D, '2005-02-09 10:00:00') /* Granite Golem */
-     , (0x702F4056, 0x702F405E, '2005-02-09 10:00:00') /* Granite Golem */
-     , (0x702F4056, 0x702F405F, '2005-02-09 10:00:00') /* Granite Golem */
-     , (0x702F4056, 0x702F4060, '2005-02-09 10:00:00') /* Granite Golem */
-     , (0x702F4056, 0x702F4061, '2005-02-09 10:00:00') /* Granite Golem */
-     , (0x702F4056, 0x702F4062, '2005-02-09 10:00:00') /* Granite Golem */;
+VALUES (0x702F4056, 0x702F4001, '2005-02-09 10:00:00') /* Obsidian Golem (201) */
+     , (0x702F4056, 0x702F4002, '2005-02-09 10:00:00') /* Revenant (619) */
+     , (0x702F4056, 0x702F4003, '2005-02-09 10:00:00') /* Revenant (619) */
+     , (0x702F4056, 0x702F4004, '2005-02-09 10:00:00') /* Obsidian Golem (201) */
+     , (0x702F4056, 0x702F4005, '2005-02-09 10:00:00') /* Obsidian Golem (201) */
+     , (0x702F4056, 0x702F4006, '2005-02-09 10:00:00') /* Obsidian Golem (201) */
+     , (0x702F4056, 0x702F4007, '2005-02-09 10:00:00') /* Obsidian Golem (201) */
+     , (0x702F4056, 0x702F4008, '2005-02-09 10:00:00') /* Obsidian Golem (201) */
+     , (0x702F4056, 0x702F4009, '2005-02-09 10:00:00') /* Revenant (619) */
+     , (0x702F4056, 0x702F400A, '2005-02-09 10:00:00') /* Revenant (619) */
+     , (0x702F4056, 0x702F400B, '2005-02-09 10:00:00') /* Revenant (619) */
+     , (0x702F4056, 0x702F400C, '2005-02-09 10:00:00') /* Revenant (619) */
+     , (0x702F4056, 0x702F400D, '2005-02-09 10:00:00') /* Revenant (619) */
+     , (0x702F4056, 0x702F400F, '2005-02-09 10:00:00') /* Revenant (619) */
+     , (0x702F4056, 0x702F4010, '2005-02-09 10:00:00') /* Revenant (619) */
+     , (0x702F4056, 0x702F4019, '2005-02-09 10:00:00') /* Revenant (619) */
+     , (0x702F4056, 0x702F401A, '2005-02-09 10:00:00') /* Revenant (619) */
+     , (0x702F4056, 0x702F401D, '2005-02-09 10:00:00') /* Revenant (619) */
+     , (0x702F4056, 0x702F401E, '2005-02-09 10:00:00') /* Revenant (619) */
+     , (0x702F4056, 0x702F401F, '2005-02-09 10:00:00') /* Revenant (619) */
+     , (0x702F4056, 0x702F4024, '2005-02-09 10:00:00') /* Revenant (619) */
+     , (0x702F4056, 0x702F4027, '2005-02-09 10:00:00') /* Obsidian Golem (201) */
+     , (0x702F4056, 0x702F4028, '2005-02-09 10:00:00') /* Obsidian Golem (201) */
+     , (0x702F4056, 0x702F402C, '2005-02-09 10:00:00') /* Obsidian Golem (201) */
+     , (0x702F4056, 0x702F402D, '2005-02-09 10:00:00') /* Obsidian Golem (201) */
+     , (0x702F4056, 0x702F402E, '2005-02-09 10:00:00') /* Obsidian Golem (201) */
+     , (0x702F4056, 0x702F402F, '2005-02-09 10:00:00') /* Obsidian Golem (201) */
+     , (0x702F4056, 0x702F4030, '2005-02-09 10:00:00') /* Revenant (619) */
+     , (0x702F4056, 0x702F4031, '2005-02-09 10:00:00') /* Obsidian Golem (201) */
+     , (0x702F4056, 0x702F4032, '2005-02-09 10:00:00') /* Revenant (619) */
+     , (0x702F4056, 0x702F4033, '2005-02-09 10:00:00') /* Revenant (619) */
+     , (0x702F4056, 0x702F4034, '2005-02-09 10:00:00') /* Revenant (619) */
+     , (0x702F4056, 0x702F4035, '2005-02-09 10:00:00') /* Revenant (619) */
+     , (0x702F4056, 0x702F4036, '2005-02-09 10:00:00') /* Revenant (619) */
+     , (0x702F4056, 0x702F4037, '2005-02-09 10:00:00') /* Revenant (619) */
+     , (0x702F4056, 0x702F4039, '2005-02-09 10:00:00') /* Revenant (619) */
+     , (0x702F4056, 0x702F403B, '2005-02-09 10:00:00') /* Iron Golem (197) */
+     , (0x702F4056, 0x702F403C, '2005-02-09 10:00:00') /* Iron Golem (197) */
+     , (0x702F4056, 0x702F403E, '2005-02-09 10:00:00') /* Iron Golem (197) */
+     , (0x702F4056, 0x702F403F, '2005-02-09 10:00:00') /* Granite Golem (195) */
+     , (0x702F4056, 0x702F4040, '2005-02-09 10:00:00') /* Granite Golem (195) */
+     , (0x702F4056, 0x702F4041, '2005-02-09 10:00:00') /* Iron Golem (197) */
+     , (0x702F4056, 0x702F4042, '2005-02-09 10:00:00') /* Iron Golem (197) */
+     , (0x702F4056, 0x702F4043, '2005-02-09 10:00:00') /* Iron Golem (197) */
+     , (0x702F4056, 0x702F4044, '2005-02-09 10:00:00') /* Iron Golem (197) */
+     , (0x702F4056, 0x702F4045, '2005-02-09 10:00:00') /* Iron Golem (197) */
+     , (0x702F4056, 0x702F4046, '2005-02-09 10:00:00') /* Iron Golem (197) */
+     , (0x702F4056, 0x702F4047, '2005-02-09 10:00:00') /* Iron Golem (197) */
+     , (0x702F4056, 0x702F4048, '2005-02-09 10:00:00') /* Iron Golem (197) */
+     , (0x702F4056, 0x702F4049, '2005-02-09 10:00:00') /* Iron Golem (197) */
+     , (0x702F4056, 0x702F404A, '2005-02-09 10:00:00') /* Granite Golem (195) */
+     , (0x702F4056, 0x702F404B, '2005-02-09 10:00:00') /* Granite Golem (195) */
+     , (0x702F4056, 0x702F404C, '2005-02-09 10:00:00') /* Granite Golem (195) */
+     , (0x702F4056, 0x702F404D, '2005-02-09 10:00:00') /* Granite Golem (195) */
+     , (0x702F4056, 0x702F404E, '2005-02-09 10:00:00') /* Granite Golem (195) */
+     , (0x702F4056, 0x702F404F, '2005-02-09 10:00:00') /* Lich (204) */
+     , (0x702F4056, 0x702F4050, '2005-02-09 10:00:00') /* Lich (204) */
+     , (0x702F4056, 0x702F4051, '2005-02-09 10:00:00') /* Lich (204) */
+     , (0x702F4056, 0x702F4052, '2005-02-09 10:00:00') /* Lich Lord (1630) */
+     , (0x702F4056, 0x702F4053, '2005-02-09 10:00:00') /* Lich (204) */
+     , (0x702F4056, 0x702F4054, '2005-02-09 10:00:00') /* Lich (204) */
+     , (0x702F4056, 0x702F4055, '2005-02-09 10:00:00') /* Lich (204) */
+     , (0x702F4056, 0x702F4057, '2005-02-09 10:00:00') /* Lich (204) */
+     , (0x702F4056, 0x702F4058, '2005-02-09 10:00:00') /* Lich (204) */
+     , (0x702F4056, 0x702F405A, '2005-02-09 10:00:00') /* Granite Golem (195) */
+     , (0x702F4056, 0x702F405B, '2005-02-09 10:00:00') /* Granite Golem (195) */
+     , (0x702F4056, 0x702F405C, '2005-02-09 10:00:00') /* Granite Golem (195) */
+     , (0x702F4056, 0x702F405D, '2005-02-09 10:00:00') /* Granite Golem (195) */
+     , (0x702F4056, 0x702F405E, '2005-02-09 10:00:00') /* Granite Golem (195) */
+     , (0x702F4056, 0x702F405F, '2005-02-09 10:00:00') /* Granite Golem (195) */
+     , (0x702F4056, 0x702F4060, '2005-02-09 10:00:00') /* Granite Golem (195) */
+     , (0x702F4056, 0x702F4061, '2005-02-09 10:00:00') /* Granite Golem (195) */
+     , (0x702F4056, 0x702F4062, '2005-02-09 10:00:00') /* Granite Golem (195) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x702F4057,   204, 0x02F402AA, 109.473, -290.169, 0.0075, 0.109366, 0, 0, 0.994002,  True, '2005-02-09 10:00:00'); /* Lich */

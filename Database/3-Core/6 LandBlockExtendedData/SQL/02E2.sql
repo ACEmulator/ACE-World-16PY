@@ -5,28 +5,28 @@ VALUES (0x702E2000,  2179, 0x02E20116, 74.682, -40, 6.005, 0.710744, 0, 0, -0.70
 /* @teleloc 0x02E20116 [74.682000 -40.000000 6.005000] 0.710744 0.000000 0.000000 -0.703450 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x702E2000, 0x702E2005, '2005-02-09 10:00:00') /* Lever */;
+VALUES (0x702E2000, 0x702E2005, '2005-02-09 10:00:00') /* Lever (2609) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x702E2001,  2179, 0x02E20117, 70, -44.721, 6.005, 1, 0, 0, -4.37114E-08, False, '2005-02-09 10:00:00'); /* Door */
 /* @teleloc 0x02E20117 [70.000000 -44.721000 6.005000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x702E2001, 0x702E2004, '2005-02-09 10:00:00') /* Lever */;
+VALUES (0x702E2001, 0x702E2004, '2005-02-09 10:00:00') /* Lever (2609) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x702E2002,  2179, 0x02E2011C, 70, -65.164, 6.005, 0.0162656, 0, 0, -0.999868, False, '2005-02-09 10:00:00'); /* Door */
 /* @teleloc 0x02E2011C [70.000000 -65.164000 6.005000] 0.016266 0.000000 0.000000 -0.999868 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x702E2002, 0x702E2007, '2005-02-09 10:00:00') /* Lever */;
+VALUES (0x702E2002, 0x702E2007, '2005-02-09 10:00:00') /* Lever (2609) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x702E2003,  2179, 0x02E2011D, 74.838, -70, 6.005, 0.725591, 0, 0, -0.688127, False, '2005-02-09 10:00:00'); /* Door */
 /* @teleloc 0x02E2011D [74.838000 -70.000000 6.005000] 0.725591 0.000000 0.000000 -0.688127 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x702E2003, 0x702E2006, '2005-02-09 10:00:00') /* Lever */;
+VALUES (0x702E2003, 0x702E2006, '2005-02-09 10:00:00') /* Lever (2609) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x702E2004,  2609, 0x02E20159, 60.1701, -51.478, 12.055, -0.707107, 0, 0, -0.707107,  True, '2005-02-09 10:00:00'); /* Lever */

@@ -1,13 +1,9 @@
-DELETE FROM `encounter` WHERE `landblock` = 41950;
+DELETE FROM `encounter` WHERE `landblock` = 0xA3DE;
 
 INSERT INTO `encounter` (`landblock`, `weenie_Class_Id`, `cell_X`, `cell_Y`, `last_Modified`)
-VALUES (41950, 23159, 0, 7, '2005-02-09 10:00:00') /* Mid North Plains Generator */
-     , (41950, 23159, 1, 5, '2005-02-09 10:00:00') /* Mid North Plains Generator */
-     , (41950, 23159, 3, 6, '2005-02-09 10:00:00') /* Mid North Plains Generator */
-     , (41950, 23159, 3, 8, '2005-02-09 10:00:00') /* Mid North Plains Generator */
-     , (41950, 23159, 4, 5, '2005-02-09 10:00:00') /* Mid North Plains Generator */
-     , (41950, 23159, 5, 6, '2005-02-09 10:00:00') /* Mid North Plains Generator */
-     , (41950, 23159, 6, 8, '2005-02-09 10:00:00') /* Mid North Plains Generator */
-     , (41950, 23159, 7, 6, '2005-02-09 10:00:00') /* Mid North Plains Generator */
-     , (41950, 23159, 8, 0, '2005-02-09 10:00:00') /* Mid North Plains Generator */
-     , (41950, 23159, 8, 6, '2005-02-09 10:00:00') /* Mid North Plains Generator */;
+VALUES (0xA3DE, 23159, 0, 7, '2005-02-09 10:00:00') /* Mid North Plains Generator */
+     , (0xA3DE, 23159, 1, 5, '2005-02-09 10:00:00') /* Mid North Plains Generator */
+     , (0xA3DE, 23159, 3, 6, '2005-02-09 10:00:00') /* Mid North Plains Generator */
+     , (0xA3DE, 23159, 4, 5, '2005-02-09 10:00:00') /* Mid North Plains Generator */
+     , (0xA3DE, 23159, 5, 6, '2005-02-09 10:00:00') /* Mid North Plains Generator */
+     , (0xA3DE, 23159, 7, 6, '2005-02-09 10:00:00') /* Mid North Plains Generator */;

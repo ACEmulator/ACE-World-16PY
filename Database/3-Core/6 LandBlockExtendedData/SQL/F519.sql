@@ -29,12 +29,12 @@ VALUES (0x7F519006,  4219, 0xF5190000, 89.6071, 96.0039, 99.555, 0.61172, 0, 0, 
 /* @teleloc 0xF5190000 [89.607100 96.003900 99.555000] 0.611720 0.000000 0.000000 -0.791075 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7F519006, 0x7F519000, '2005-02-09 10:00:00') /* Slithayr Eye Stalk */
-     , (0x7F519006, 0x7F519001, '2005-02-09 10:00:00') /* Slithayr Eye Stalk */
-     , (0x7F519006, 0x7F519002, '2005-02-09 10:00:00') /* Slithis Eye Stalk */
-     , (0x7F519006, 0x7F519003, '2005-02-09 10:00:00') /* Slithis Eye Stalk */
-     , (0x7F519006, 0x7F519004, '2005-02-09 10:00:00') /* Slithis Eye Stalk */
-     , (0x7F519006, 0x7F519005, '2005-02-09 10:00:00') /* Sulthis Eye Stalk */;
+VALUES (0x7F519006, 0x7F519000, '2005-02-09 10:00:00') /* Slithayr Eye Stalk (4261) */
+     , (0x7F519006, 0x7F519001, '2005-02-09 10:00:00') /* Slithayr Eye Stalk (4261) */
+     , (0x7F519006, 0x7F519002, '2005-02-09 10:00:00') /* Slithis Eye Stalk (4258) */
+     , (0x7F519006, 0x7F519003, '2005-02-09 10:00:00') /* Slithis Eye Stalk (4258) */
+     , (0x7F519006, 0x7F519004, '2005-02-09 10:00:00') /* Slithis Eye Stalk (4258) */
+     , (0x7F519006, 0x7F519005, '2005-02-09 10:00:00') /* Sulthis Eye Stalk (8470) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7F519007,  5408, 0xF5190000, 43.198, 115.197, 30.005, -0.692695, 0, 0, 0.72123, False, '2005-02-09 10:00:00'); /* Waterfall */

@@ -25,7 +25,7 @@ VALUES (0x7BA61005,  7924, 0xBA610000, 47.8888, 131.507, 6.005, 0.642609, 0, 0, 
 /* @teleloc 0xBA610000 [47.888800 131.507000 6.005000] 0.642609 0.000000 0.000000 0.766194 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BA61005, 0x7BA61000, '2005-02-09 10:00:00') /* Burun Ruuk Lout */
-     , (0x7BA61005, 0x7BA61001, '2005-02-09 10:00:00') /* Burun Ruuk Lout */
-     , (0x7BA61005, 0x7BA61002, '2005-02-09 10:00:00') /* Burun Ruuk Adherent */
-     , (0x7BA61005, 0x7BA61003, '2005-02-09 10:00:00') /* Burun Ruuk Adherent */;
+VALUES (0x7BA61005, 0x7BA61000, '2005-02-09 10:00:00') /* Burun Ruuk Lout (26015) */
+     , (0x7BA61005, 0x7BA61001, '2005-02-09 10:00:00') /* Burun Ruuk Lout (26015) */
+     , (0x7BA61005, 0x7BA61002, '2005-02-09 10:00:00') /* Burun Ruuk Adherent (26013) */
+     , (0x7BA61005, 0x7BA61003, '2005-02-09 10:00:00') /* Burun Ruuk Adherent (26013) */;

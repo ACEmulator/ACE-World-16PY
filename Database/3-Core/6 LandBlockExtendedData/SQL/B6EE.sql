@@ -69,15 +69,15 @@ VALUES (0x7B6EE015,  7924, 0xB6EE0000, 24.7691, 87.132, 170.005, -0.557317, 0, 0
 /* @teleloc 0xB6EE0000 [24.769100 87.132000 170.005000] -0.557317 0.000000 0.000000 0.830300 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B6EE015, 0x7B6EE016, '2005-02-09 10:00:00') /* Hellfire */
-     , (0x7B6EE015, 0x7B6EE017, '2005-02-09 10:00:00') /* Hellfire */
-     , (0x7B6EE015, 0x7B6EE018, '2005-02-09 10:00:00') /* Hellfire */
-     , (0x7B6EE015, 0x7B6EE019, '2005-02-09 10:00:00') /* Plasma Golem */
-     , (0x7B6EE015, 0x7B6EE01A, '2005-02-09 10:00:00') /* Plasma Golem */
-     , (0x7B6EE015, 0x7B6EE01B, '2005-02-09 10:00:00') /* Plasma Golem */
-     , (0x7B6EE015, 0x7B6EE01C, '2005-02-09 10:00:00') /* Vapor Golem */
-     , (0x7B6EE015, 0x7B6EE01D, '2005-02-09 10:00:00') /* Vapor Golem */
-     , (0x7B6EE015, 0x7B6EE01E, '2005-02-09 10:00:00') /* Vapor Golem */;
+VALUES (0x7B6EE015, 0x7B6EE016, '2005-02-09 10:00:00') /* Hellfire (7093) */
+     , (0x7B6EE015, 0x7B6EE017, '2005-02-09 10:00:00') /* Hellfire (7093) */
+     , (0x7B6EE015, 0x7B6EE018, '2005-02-09 10:00:00') /* Hellfire (7093) */
+     , (0x7B6EE015, 0x7B6EE019, '2005-02-09 10:00:00') /* Plasma Golem (7098) */
+     , (0x7B6EE015, 0x7B6EE01A, '2005-02-09 10:00:00') /* Plasma Golem (7098) */
+     , (0x7B6EE015, 0x7B6EE01B, '2005-02-09 10:00:00') /* Plasma Golem (7098) */
+     , (0x7B6EE015, 0x7B6EE01C, '2005-02-09 10:00:00') /* Vapor Golem (7099) */
+     , (0x7B6EE015, 0x7B6EE01D, '2005-02-09 10:00:00') /* Vapor Golem (7099) */
+     , (0x7B6EE015, 0x7B6EE01E, '2005-02-09 10:00:00') /* Vapor Golem (7099) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B6EE016,  7093, 0xB6EE0000, 29.0425, 88.9732, 170.008, 0.945792, 0, 0, 0.324773,  True, '2005-02-09 10:00:00'); /* Hellfire */

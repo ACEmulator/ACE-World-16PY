@@ -61,7 +61,7 @@ VALUES (0x702AB00E,  9107, 0x02AB011B, 32.1063, -160.07, -11.995, 0.714421, 0, 0
 /* @teleloc 0x02AB011B [32.106300 -160.070000 -11.995000] 0.714421 0.000000 0.000000 -0.699716 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x702AB00E, 0x702AB00F, '2005-02-09 10:00:00') /* Pressure Plate */;
+VALUES (0x702AB00E, 0x702AB00F, '2005-02-09 10:00:00') /* Pressure Plate (2131) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x702AB00F,  2131, 0x02AB011B, 31.19, -160.135, -11.995, 0.748499, 0, 0, -0.663136,  True, '2005-02-09 10:00:00'); /* Pressure Plate */
@@ -152,36 +152,36 @@ VALUES (0x702AB026,  7923, 0x02AB0167, 120, 1.84574, 0.005, 1, 0, 0, 0, False, '
 /* @teleloc 0x02AB0167 [120.000000 1.845740 0.005000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x702AB026, 0x702AB007, '2005-02-09 10:00:00') /* Fleshless Warrior */
-     , (0x702AB026, 0x702AB00A, '2005-02-09 10:00:00') /* Fleshless Warrior */
-     , (0x702AB026, 0x702AB00B, '2005-02-09 10:00:00') /* Fleshless Warrior */
-     , (0x702AB026, 0x702AB010, '2005-02-09 10:00:00') /* Decaying Warrior */
-     , (0x702AB026, 0x702AB011, '2005-02-09 10:00:00') /* Fleshless Warrior */
-     , (0x702AB026, 0x702AB01D, '2005-02-09 10:00:00') /* Fleshless Warrior */
-     , (0x702AB026, 0x702AB01E, '2005-02-09 10:00:00') /* Fleshless Warrior */
-     , (0x702AB026, 0x702AB030, '2005-02-09 10:00:00') /* Decaying Warrior */
-     , (0x702AB026, 0x702AB032, '2005-02-09 10:00:00') /* Decaying Warrior */
-     , (0x702AB026, 0x702AB035, '2005-02-09 10:00:00') /* Decaying Warrior */
-     , (0x702AB026, 0x702AB037, '2005-02-09 10:00:00') /* Decaying Warrior */
-     , (0x702AB026, 0x702AB038, '2005-02-09 10:00:00') /* Decaying Warrior */
-     , (0x702AB026, 0x702AB039, '2005-02-09 10:00:00') /* Decaying Warrior */
-     , (0x702AB026, 0x702AB03D, '2005-02-09 10:00:00') /* Decaying Warrior */
-     , (0x702AB026, 0x702AB03F, '2005-02-09 10:00:00') /* Decaying Warrior */
-     , (0x702AB026, 0x702AB040, '2005-02-09 10:00:00') /* Decaying Warrior */
-     , (0x702AB026, 0x702AB041, '2005-02-09 10:00:00') /* Decaying Warrior */
-     , (0x702AB026, 0x702AB043, '2005-02-09 10:00:00') /* Decaying Warrior */
-     , (0x702AB026, 0x702AB044, '2005-02-09 10:00:00') /* Decaying Warrior */
-     , (0x702AB026, 0x702AB045, '2005-02-09 10:00:00') /* Decaying Warrior */;
+VALUES (0x702AB026, 0x702AB007, '2005-02-09 10:00:00') /* Fleshless Warrior (8968) */
+     , (0x702AB026, 0x702AB00A, '2005-02-09 10:00:00') /* Fleshless Warrior (8968) */
+     , (0x702AB026, 0x702AB00B, '2005-02-09 10:00:00') /* Fleshless Warrior (8968) */
+     , (0x702AB026, 0x702AB010, '2005-02-09 10:00:00') /* Decaying Warrior (8967) */
+     , (0x702AB026, 0x702AB011, '2005-02-09 10:00:00') /* Fleshless Warrior (8968) */
+     , (0x702AB026, 0x702AB01D, '2005-02-09 10:00:00') /* Fleshless Warrior (8968) */
+     , (0x702AB026, 0x702AB01E, '2005-02-09 10:00:00') /* Fleshless Warrior (8968) */
+     , (0x702AB026, 0x702AB030, '2005-02-09 10:00:00') /* Decaying Warrior (8967) */
+     , (0x702AB026, 0x702AB032, '2005-02-09 10:00:00') /* Decaying Warrior (8967) */
+     , (0x702AB026, 0x702AB035, '2005-02-09 10:00:00') /* Decaying Warrior (8967) */
+     , (0x702AB026, 0x702AB037, '2005-02-09 10:00:00') /* Decaying Warrior (8967) */
+     , (0x702AB026, 0x702AB038, '2005-02-09 10:00:00') /* Decaying Warrior (8967) */
+     , (0x702AB026, 0x702AB039, '2005-02-09 10:00:00') /* Decaying Warrior (8967) */
+     , (0x702AB026, 0x702AB03D, '2005-02-09 10:00:00') /* Decaying Warrior (8967) */
+     , (0x702AB026, 0x702AB03F, '2005-02-09 10:00:00') /* Decaying Warrior (8967) */
+     , (0x702AB026, 0x702AB040, '2005-02-09 10:00:00') /* Decaying Warrior (8967) */
+     , (0x702AB026, 0x702AB041, '2005-02-09 10:00:00') /* Decaying Warrior (8967) */
+     , (0x702AB026, 0x702AB043, '2005-02-09 10:00:00') /* Decaying Warrior (8967) */
+     , (0x702AB026, 0x702AB044, '2005-02-09 10:00:00') /* Decaying Warrior (8967) */
+     , (0x702AB026, 0x702AB045, '2005-02-09 10:00:00') /* Decaying Warrior (8967) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x702AB027,  7924, 0x02AB0167, 121.489, 1.85972, 0.005, 0.999686, 0, 0, -0.0250676, False, '2005-02-09 10:00:00'); /* Linkable Monster Generator ( 5 Min.) */
 /* @teleloc 0x02AB0167 [121.489000 1.859720 0.005000] 0.999686 0.000000 0.000000 -0.025068 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x702AB027, 0x702AB004, '2005-02-09 10:00:00') /* Unstable Magma Golem */
-     , (0x702AB027, 0x702AB006, '2005-02-09 10:00:00') /* Unstable Magma Golem */
-     , (0x702AB027, 0x702AB031, '2005-02-09 10:00:00') /* Granite Golem */
-     , (0x702AB027, 0x702AB034, '2005-02-09 10:00:00') /* Granite Golem */;
+VALUES (0x702AB027, 0x702AB004, '2005-02-09 10:00:00') /* Unstable Magma Golem (6645) */
+     , (0x702AB027, 0x702AB006, '2005-02-09 10:00:00') /* Unstable Magma Golem (6645) */
+     , (0x702AB027, 0x702AB031, '2005-02-09 10:00:00') /* Granite Golem (195) */
+     , (0x702AB027, 0x702AB034, '2005-02-09 10:00:00') /* Granite Golem (195) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x702AB028,  8970, 0x02AB0169, 121.58, -58.5491, 0.005, 0.999861, 0, 0, 0.016666, False, '2005-02-09 10:00:00'); /* Magma Golem Activated Pressure Plate */

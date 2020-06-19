@@ -37,10 +37,10 @@ VALUES (0x7EB0F008,  4219, 0xEB0F0000, 110.17, 139.306, 150.005, -0.704969, 0, 0
 /* @teleloc 0xEB0F0000 [110.170000 139.306000 150.005000] -0.704969 0.000000 0.000000 -0.709238 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7EB0F008, 0x7EB0F001, '2005-02-09 10:00:00') /* Cursed Wisp */
-     , (0x7EB0F008, 0x7EB0F002, '2005-02-09 10:00:00') /* Enku Zefir */
-     , (0x7EB0F008, 0x7EB0F003, '2005-02-09 10:00:00') /* Enku Zefir */
-     , (0x7EB0F008, 0x7EB0F004, '2005-02-09 10:00:00') /* Azael Zefir */
-     , (0x7EB0F008, 0x7EB0F005, '2005-02-09 10:00:00') /* Azael Zefir */
-     , (0x7EB0F008, 0x7EB0F006, '2005-02-09 10:00:00') /* Azael Zefir */
-     , (0x7EB0F008, 0x7EB0F007, '2005-02-09 10:00:00') /* Azael Zefir */;
+VALUES (0x7EB0F008, 0x7EB0F001, '2005-02-09 10:00:00') /* Cursed Wisp (7126) */
+     , (0x7EB0F008, 0x7EB0F002, '2005-02-09 10:00:00') /* Enku Zefir (11534) */
+     , (0x7EB0F008, 0x7EB0F003, '2005-02-09 10:00:00') /* Enku Zefir (11534) */
+     , (0x7EB0F008, 0x7EB0F004, '2005-02-09 10:00:00') /* Azael Zefir (11533) */
+     , (0x7EB0F008, 0x7EB0F005, '2005-02-09 10:00:00') /* Azael Zefir (11533) */
+     , (0x7EB0F008, 0x7EB0F006, '2005-02-09 10:00:00') /* Azael Zefir (11533) */
+     , (0x7EB0F008, 0x7EB0F007, '2005-02-09 10:00:00') /* Azael Zefir (11533) */;

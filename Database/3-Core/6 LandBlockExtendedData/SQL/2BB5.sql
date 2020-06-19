@@ -33,7 +33,7 @@ VALUES (0x72BB5008,  5086, 0x2BB50000, 179.401, 76.9476, 0.005, -0.162572, 0, 0,
 /* @teleloc 0x2BB50000 [179.401000 76.947600 0.005000] -0.162572 0.000000 0.000000 0.986697 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72BB5008, 0x72BB500A, '2005-02-09 10:00:00') /* Town Crier */;
+VALUES (0x72BB5008, 0x72BB500A, '2005-02-09 10:00:00') /* Town Crier (5777) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72BB5009,   509, 0x2BB50000, 155.71, 9.3781, 99.005, 0.27163, 0, 0, -0.962402, False, '2005-02-09 10:00:00'); /* Life Stone */

@@ -33,7 +33,7 @@ VALUES (0x70144014,  2179, 0x0144015F, 19.9796, -54.8083, 6, -0.019963, 0, 0, -0
 /* @teleloc 0x0144015F [19.979600 -54.808300 6.000000] -0.019963 0.000000 0.000000 -0.999801 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x70144014, 0x70144013, '2005-02-09 10:00:00') /* Lever */;
+VALUES (0x70144014, 0x70144013, '2005-02-09 10:00:00') /* Lever (286) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x70144015,     7, 0x01440163, 19.9893, -77.2695, 6.00332, -0.6226, 0, 0, -0.78254,  True, '2005-02-09 10:00:00'); /* Drudge Skulker */
@@ -68,7 +68,7 @@ VALUES (0x7014401D,  7923, 0x014401B4, 30, -50, 12, -4.37114E-08, 0, 0, -1, Fals
 /* @teleloc 0x014401B4 [30.000000 -50.000000 12.000000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7014401D, 0x7014401C, '2005-02-09 10:00:00') /* Drudge Slinker */;
+VALUES (0x7014401D, 0x7014401C, '2005-02-09 10:00:00') /* Drudge Slinker (193) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7014401E,  4972, 0x014401B9, 26.408, -80.0188, 12, 0.707107, 0, 0, -0.707107, False, '2005-02-09 10:00:00'); /* Surface Portal */
@@ -95,24 +95,24 @@ VALUES (0x70144026,  7932, 0x01440113, 49.3156, -49.9398, 0.005, 0.749155, 0, 0,
 /* @teleloc 0x01440113 [49.315600 -49.939800 0.005000] 0.749155 0.000000 0.000000 -0.662395 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x70144026, 0x7014400E, '2005-02-09 10:00:00') /* Drudge Slinker */
-     , (0x70144026, 0x70144015, '2005-02-09 10:00:00') /* Drudge Skulker */
-     , (0x70144026, 0x70144018, '2005-02-09 10:00:00') /* Drudge Skulker */
-     , (0x70144026, 0x7014401A, '2005-02-09 10:00:00') /* Drudge Skulker */
-     , (0x70144026, 0x70144023, '2005-02-09 10:00:00') /* Hollow Minion */
-     , (0x70144026, 0x70144024, '2005-02-09 10:00:00') /* Hollow Minion */
-     , (0x70144026, 0x70144025, '2005-02-09 10:00:00') /* Hollow Minion */
-     , (0x70144026, 0x70144029, '2005-02-09 10:00:00') /* Hollow Minion */
-     , (0x70144026, 0x7014402B, '2005-02-09 10:00:00') /* Hollow Minion */
-     , (0x70144026, 0x7014402C, '2005-02-09 10:00:00') /* Hollow Minion */
-     , (0x70144026, 0x7014402D, '2005-02-09 10:00:00') /* Drudge Lurker */
-     , (0x70144026, 0x70144030, '2005-02-09 10:00:00') /* Hollow Minion */
-     , (0x70144026, 0x70144031, '2005-02-09 10:00:00') /* Hollow Minion */
-     , (0x70144026, 0x70144032, '2005-02-09 10:00:00') /* Drudge Lurker */
-     , (0x70144026, 0x70144033, '2005-02-09 10:00:00') /* Hollow Minion */
-     , (0x70144026, 0x70144035, '2005-02-09 10:00:00') /* Drudge Lurker */
-     , (0x70144026, 0x70144037, '2005-02-09 10:00:00') /* Drudge Lurker */
-     , (0x70144026, 0x70144038, '2005-02-09 10:00:00') /* Drudge Lurker */;
+VALUES (0x70144026, 0x7014400E, '2005-02-09 10:00:00') /* Drudge Slinker (193) */
+     , (0x70144026, 0x70144015, '2005-02-09 10:00:00') /* Drudge Skulker (7) */
+     , (0x70144026, 0x70144018, '2005-02-09 10:00:00') /* Drudge Skulker (7) */
+     , (0x70144026, 0x7014401A, '2005-02-09 10:00:00') /* Drudge Skulker (7) */
+     , (0x70144026, 0x70144023, '2005-02-09 10:00:00') /* Hollow Minion (14427) */
+     , (0x70144026, 0x70144024, '2005-02-09 10:00:00') /* Hollow Minion (14427) */
+     , (0x70144026, 0x70144025, '2005-02-09 10:00:00') /* Hollow Minion (14427) */
+     , (0x70144026, 0x70144029, '2005-02-09 10:00:00') /* Hollow Minion (14427) */
+     , (0x70144026, 0x7014402B, '2005-02-09 10:00:00') /* Hollow Minion (14427) */
+     , (0x70144026, 0x7014402C, '2005-02-09 10:00:00') /* Hollow Minion (14427) */
+     , (0x70144026, 0x7014402D, '2005-02-09 10:00:00') /* Drudge Lurker (1608) */
+     , (0x70144026, 0x70144030, '2005-02-09 10:00:00') /* Hollow Minion (14429) */
+     , (0x70144026, 0x70144031, '2005-02-09 10:00:00') /* Hollow Minion (14427) */
+     , (0x70144026, 0x70144032, '2005-02-09 10:00:00') /* Drudge Lurker (1608) */
+     , (0x70144026, 0x70144033, '2005-02-09 10:00:00') /* Hollow Minion (14427) */
+     , (0x70144026, 0x70144035, '2005-02-09 10:00:00') /* Drudge Lurker (1608) */
+     , (0x70144026, 0x70144037, '2005-02-09 10:00:00') /* Drudge Lurker (1608) */
+     , (0x70144026, 0x70144038, '2005-02-09 10:00:00') /* Drudge Lurker (1608) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x70144027,  5624, 0x01440114, 50.0763, -54.8018, 0.005, -4.37114E-08, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Door */

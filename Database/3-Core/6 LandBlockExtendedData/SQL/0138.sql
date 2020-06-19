@@ -377,14 +377,14 @@ VALUES (0x7013806D,  4064, 0x0138022D, 123.795, -151.061, 4.614, 1, 0, 0, 0, Fal
 /* @teleloc 0x0138022D [123.795000 -151.061000 4.614000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7013806D, 0x70138038, '2005-02-09 10:00:00') /* Pressure Plate */;
+VALUES (0x7013806D, 0x70138038, '2005-02-09 10:00:00') /* Pressure Plate (2131) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7013806E,  4064, 0x0138022D, 123.803, -149.215, 4.574, 1, 0, 0, 0, False, '2005-02-09 10:00:00'); /* Whirling Blade Trap */
 /* @teleloc 0x0138022D [123.803000 -149.215000 4.574000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7013806E, 0x70138037, '2005-02-09 10:00:00') /* Pressure Plate */;
+VALUES (0x7013806E, 0x70138037, '2005-02-09 10:00:00') /* Pressure Plate (2131) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7013806F,  4984, 0x0138022F, 130, -90, 0.0075, 0.707107, 0, 0, -0.707107,  True, '2005-02-09 10:00:00'); /* Gelidite Acolyte */
@@ -471,7 +471,7 @@ VALUES (0x70138086,  4067, 0x01380282, 159.989, -171.741, 0.53225, -4.37114E-08,
 /* @teleloc 0x01380282 [159.989000 -171.741000 0.532250] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x70138086, 0x70138085, '2005-02-09 10:00:00') /* Pressure Plate */;
+VALUES (0x70138086, 0x70138085, '2005-02-09 10:00:00') /* Pressure Plate (2131) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x70138087,  4999, 0x01380287, 162.97, -190.041, 6, -0.707107, 0, 0, -0.707107, False, '2005-02-09 10:00:00'); /* Chilly Air Level 3 */
@@ -510,7 +510,7 @@ VALUES (0x7013808F,  4139, 0x013802B2, 180, -114.75, 0, -4.37114E-08, 0, 0, -1, 
 /* @teleloc 0x013802B2 [180.000000 -114.750000 0.000000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7013808F, 0x701380AF, '2005-02-09 10:00:00') /* Lever */;
+VALUES (0x7013808F, 0x701380AF, '2005-02-09 10:00:00') /* Lever (2609) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x70138090,  5117, 0x013802B3, 180, -120, 0, 1, 0, 0, 0, False, '2005-02-09 10:00:00'); /* Chilly Air Level 1 */
@@ -633,7 +633,7 @@ VALUES (0x701380BA,  4068, 0x01380400, 112.056, -100.995, 13.926, 0.707107, 0, 0
 /* @teleloc 0x01380400 [112.056000 -100.995000 13.926000] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x701380BA, 0x701380BB, '2005-02-09 10:00:00') /* Pressure Plate */;
+VALUES (0x701380BA, 0x701380BB, '2005-02-09 10:00:00') /* Pressure Plate (2131) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x701380BB,  2131, 0x01380400, 109.929, -96.3489, 12, 1, 0, 0, 0,  True, '2005-02-09 10:00:00'); /* Pressure Plate */
@@ -784,71 +784,71 @@ VALUES (0x701380E7,  7925, 0x01380180, 40.8908, -277.673, -5.995, 1, 0, 0, 0, Fa
 /* @teleloc 0x01380180 [40.890800 -277.673000 -5.995000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x701380E7, 0x701380E1, '2005-02-09 10:00:00') /* Gelidite Golem */
-     , (0x701380E7, 0x701380E2, '2005-02-09 10:00:00') /* Gelidite Golem */
-     , (0x701380E7, 0x701380E3, '2005-02-09 10:00:00') /* Gelidite Golem */
-     , (0x701380E7, 0x701380E4, '2005-02-09 10:00:00') /* Gelidite Golem */
-     , (0x701380E7, 0x701380E5, '2005-02-09 10:00:00') /* Gelidite Golem */
-     , (0x701380E7, 0x701380E6, '2005-02-09 10:00:00') /* Gelidite Golem */
-     , (0x701380E7, 0x701380E9, '2005-02-09 10:00:00') /* Gelidite Golem */
-     , (0x701380E7, 0x701380EA, '2005-02-09 10:00:00') /* Gelidite Golem */
-     , (0x701380E7, 0x701380EB, '2005-02-09 10:00:00') /* Gelidite Golem */
-     , (0x701380E7, 0x701380EC, '2005-02-09 10:00:00') /* Gelidite Golem */
-     , (0x701380E7, 0x701380ED, '2005-02-09 10:00:00') /* Gelidite Golem */
-     , (0x701380E7, 0x701380EE, '2005-02-09 10:00:00') /* Gelidite Golem */
-     , (0x701380E7, 0x701380EF, '2005-02-09 10:00:00') /* Gelidite Golem */
-     , (0x701380E7, 0x701380F0, '2005-02-09 10:00:00') /* Crystal Shard */
-     , (0x701380E7, 0x701380F1, '2005-02-09 10:00:00') /* Crystal Shard */
-     , (0x701380E7, 0x701380F2, '2005-02-09 10:00:00') /* Crystal Shard */;
+VALUES (0x701380E7, 0x701380E1, '2005-02-09 10:00:00') /* Gelidite Golem (26008) */
+     , (0x701380E7, 0x701380E2, '2005-02-09 10:00:00') /* Gelidite Golem (26008) */
+     , (0x701380E7, 0x701380E3, '2005-02-09 10:00:00') /* Gelidite Golem (26008) */
+     , (0x701380E7, 0x701380E4, '2005-02-09 10:00:00') /* Gelidite Golem (26008) */
+     , (0x701380E7, 0x701380E5, '2005-02-09 10:00:00') /* Gelidite Golem (26008) */
+     , (0x701380E7, 0x701380E6, '2005-02-09 10:00:00') /* Gelidite Golem (26008) */
+     , (0x701380E7, 0x701380E9, '2005-02-09 10:00:00') /* Gelidite Golem (26008) */
+     , (0x701380E7, 0x701380EA, '2005-02-09 10:00:00') /* Gelidite Golem (26008) */
+     , (0x701380E7, 0x701380EB, '2005-02-09 10:00:00') /* Gelidite Golem (26008) */
+     , (0x701380E7, 0x701380EC, '2005-02-09 10:00:00') /* Gelidite Golem (26008) */
+     , (0x701380E7, 0x701380ED, '2005-02-09 10:00:00') /* Gelidite Golem (26008) */
+     , (0x701380E7, 0x701380EE, '2005-02-09 10:00:00') /* Gelidite Golem (26008) */
+     , (0x701380E7, 0x701380EF, '2005-02-09 10:00:00') /* Gelidite Golem (26008) */
+     , (0x701380E7, 0x701380F0, '2005-02-09 10:00:00') /* Crystal Shard (23616) */
+     , (0x701380E7, 0x701380F1, '2005-02-09 10:00:00') /* Crystal Shard (23616) */
+     , (0x701380E7, 0x701380F2, '2005-02-09 10:00:00') /* Crystal Shard (23616) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x701380E8,  4219, 0x01380180, 37.6995, -277.673, -6, -0.707107, 0, 0, -0.707107, False, '2005-02-09 10:00:00'); /* Linkable Monster Generator ( 7 Min.) */
 /* @teleloc 0x01380180 [37.699500 -277.673000 -6.000000] -0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x701380E8, 0x70138005, '2005-02-09 10:00:00') /* Mountain Rat */
-     , (0x701380E8, 0x70138008, '2005-02-09 10:00:00') /* Gelidite Initiate */
-     , (0x701380E8, 0x7013800E, '2005-02-09 10:00:00') /* Gelidite Initiate */
-     , (0x701380E8, 0x70138018, '2005-02-09 10:00:00') /* Gelidite Initiate */
-     , (0x701380E8, 0x7013801C, '2005-02-09 10:00:00') /* Mountain Rat */
-     , (0x701380E8, 0x7013801D, '2005-02-09 10:00:00') /* Mountain Rat */
-     , (0x701380E8, 0x70138021, '2005-02-09 10:00:00') /* Gelidite Acolyte */
-     , (0x701380E8, 0x7013803B, '2005-02-09 10:00:00') /* Gelidite Initiate */
-     , (0x701380E8, 0x7013803F, '2005-02-09 10:00:00') /* Gelidite Initiate */
-     , (0x701380E8, 0x70138044, '2005-02-09 10:00:00') /* Gelidite Initiate */
-     , (0x701380E8, 0x70138046, '2005-02-09 10:00:00') /* Gelidite Acolyte */
-     , (0x701380E8, 0x7013804D, '2005-02-09 10:00:00') /* Gelidite Acolyte */
-     , (0x701380E8, 0x70138054, '2005-02-09 10:00:00') /* Gelidite Acolyte */
-     , (0x701380E8, 0x70138055, '2005-02-09 10:00:00') /* Gelidite Acolyte */
-     , (0x701380E8, 0x70138059, '2005-02-09 10:00:00') /* Gelidite Acolyte */
-     , (0x701380E8, 0x7013805A, '2005-02-09 10:00:00') /* Gelidite Acolyte */
-     , (0x701380E8, 0x7013805E, '2005-02-09 10:00:00') /* Gelidite Initiate */
-     , (0x701380E8, 0x7013805F, '2005-02-09 10:00:00') /* Gelidite Lord */
-     , (0x701380E8, 0x70138069, '2005-02-09 10:00:00') /* Gelidite Acolyte */
-     , (0x701380E8, 0x7013806F, '2005-02-09 10:00:00') /* Gelidite Acolyte */
-     , (0x701380E8, 0x70138070, '2005-02-09 10:00:00') /* Gelidite Acolyte */
-     , (0x701380E8, 0x70138071, '2005-02-09 10:00:00') /* Gelidite Acolyte */
-     , (0x701380E8, 0x70138072, '2005-02-09 10:00:00') /* Gelidite Acolyte */
-     , (0x701380E8, 0x70138074, '2005-02-09 10:00:00') /* Gelidite Acolyte */
-     , (0x701380E8, 0x70138079, '2005-02-09 10:00:00') /* Gelidite Acolyte */
-     , (0x701380E8, 0x7013807A, '2005-02-09 10:00:00') /* Gelidite Acolyte */
-     , (0x701380E8, 0x7013807C, '2005-02-09 10:00:00') /* Gelidite Lord */
-     , (0x701380E8, 0x7013807F, '2005-02-09 10:00:00') /* Gelidite Acolyte */
-     , (0x701380E8, 0x70138083, '2005-02-09 10:00:00') /* Gelidite Initiate */
-     , (0x701380E8, 0x7013808B, '2005-02-09 10:00:00') /* Gelidite Initiate */
-     , (0x701380E8, 0x7013808C, '2005-02-09 10:00:00') /* Gelidite Acolyte */
-     , (0x701380E8, 0x70138091, '2005-02-09 10:00:00') /* Gelidite Acolyte */
-     , (0x701380E8, 0x70138095, '2005-02-09 10:00:00') /* Gelidite Acolyte */
-     , (0x701380E8, 0x7013809A, '2005-02-09 10:00:00') /* Gelidite Acolyte */
-     , (0x701380E8, 0x7013809C, '2005-02-09 10:00:00') /* Gelidite Acolyte */
-     , (0x701380E8, 0x7013809D, '2005-02-09 10:00:00') /* Gelidite Acolyte */
-     , (0x701380E8, 0x701380A0, '2005-02-09 10:00:00') /* Gelidite Initiate */
-     , (0x701380E8, 0x701380B5, '2005-02-09 10:00:00') /* Gelidite Initiate */
-     , (0x701380E8, 0x701380B7, '2005-02-09 10:00:00') /* Gelidite Acolyte */
-     , (0x701380E8, 0x701380B8, '2005-02-09 10:00:00') /* Gelidite Lord */
-     , (0x701380E8, 0x701380BC, '2005-02-09 10:00:00') /* Gelidite Lord */
-     , (0x701380E8, 0x701380BF, '2005-02-09 10:00:00') /* Gelidite Lord */
-     , (0x701380E8, 0x701380DE, '2005-02-09 10:00:00') /* Gelidite Lord */;
+VALUES (0x701380E8, 0x70138005, '2005-02-09 10:00:00') /* Mountain Rat (1625) */
+     , (0x701380E8, 0x70138008, '2005-02-09 10:00:00') /* Gelidite Initiate (4986) */
+     , (0x701380E8, 0x7013800E, '2005-02-09 10:00:00') /* Gelidite Initiate (4986) */
+     , (0x701380E8, 0x70138018, '2005-02-09 10:00:00') /* Gelidite Initiate (4986) */
+     , (0x701380E8, 0x7013801C, '2005-02-09 10:00:00') /* Mountain Rat (1625) */
+     , (0x701380E8, 0x7013801D, '2005-02-09 10:00:00') /* Mountain Rat (1625) */
+     , (0x701380E8, 0x70138021, '2005-02-09 10:00:00') /* Gelidite Acolyte (4984) */
+     , (0x701380E8, 0x7013803B, '2005-02-09 10:00:00') /* Gelidite Initiate (4986) */
+     , (0x701380E8, 0x7013803F, '2005-02-09 10:00:00') /* Gelidite Initiate (4986) */
+     , (0x701380E8, 0x70138044, '2005-02-09 10:00:00') /* Gelidite Initiate (4986) */
+     , (0x701380E8, 0x70138046, '2005-02-09 10:00:00') /* Gelidite Acolyte (4984) */
+     , (0x701380E8, 0x7013804D, '2005-02-09 10:00:00') /* Gelidite Acolyte (4984) */
+     , (0x701380E8, 0x70138054, '2005-02-09 10:00:00') /* Gelidite Acolyte (4984) */
+     , (0x701380E8, 0x70138055, '2005-02-09 10:00:00') /* Gelidite Acolyte (4984) */
+     , (0x701380E8, 0x70138059, '2005-02-09 10:00:00') /* Gelidite Acolyte (4984) */
+     , (0x701380E8, 0x7013805A, '2005-02-09 10:00:00') /* Gelidite Acolyte (4984) */
+     , (0x701380E8, 0x7013805E, '2005-02-09 10:00:00') /* Gelidite Initiate (4986) */
+     , (0x701380E8, 0x7013805F, '2005-02-09 10:00:00') /* Gelidite Lord (5868) */
+     , (0x701380E8, 0x70138069, '2005-02-09 10:00:00') /* Gelidite Acolyte (4984) */
+     , (0x701380E8, 0x7013806F, '2005-02-09 10:00:00') /* Gelidite Acolyte (4984) */
+     , (0x701380E8, 0x70138070, '2005-02-09 10:00:00') /* Gelidite Acolyte (4984) */
+     , (0x701380E8, 0x70138071, '2005-02-09 10:00:00') /* Gelidite Acolyte (4984) */
+     , (0x701380E8, 0x70138072, '2005-02-09 10:00:00') /* Gelidite Acolyte (4984) */
+     , (0x701380E8, 0x70138074, '2005-02-09 10:00:00') /* Gelidite Acolyte (4984) */
+     , (0x701380E8, 0x70138079, '2005-02-09 10:00:00') /* Gelidite Acolyte (4984) */
+     , (0x701380E8, 0x7013807A, '2005-02-09 10:00:00') /* Gelidite Acolyte (4984) */
+     , (0x701380E8, 0x7013807C, '2005-02-09 10:00:00') /* Gelidite Lord (5868) */
+     , (0x701380E8, 0x7013807F, '2005-02-09 10:00:00') /* Gelidite Acolyte (4984) */
+     , (0x701380E8, 0x70138083, '2005-02-09 10:00:00') /* Gelidite Initiate (4986) */
+     , (0x701380E8, 0x7013808B, '2005-02-09 10:00:00') /* Gelidite Initiate (4986) */
+     , (0x701380E8, 0x7013808C, '2005-02-09 10:00:00') /* Gelidite Acolyte (4984) */
+     , (0x701380E8, 0x70138091, '2005-02-09 10:00:00') /* Gelidite Acolyte (4984) */
+     , (0x701380E8, 0x70138095, '2005-02-09 10:00:00') /* Gelidite Acolyte (4984) */
+     , (0x701380E8, 0x7013809A, '2005-02-09 10:00:00') /* Gelidite Acolyte (4984) */
+     , (0x701380E8, 0x7013809C, '2005-02-09 10:00:00') /* Gelidite Acolyte (4984) */
+     , (0x701380E8, 0x7013809D, '2005-02-09 10:00:00') /* Gelidite Acolyte (4984) */
+     , (0x701380E8, 0x701380A0, '2005-02-09 10:00:00') /* Gelidite Initiate (4986) */
+     , (0x701380E8, 0x701380B5, '2005-02-09 10:00:00') /* Gelidite Initiate (4986) */
+     , (0x701380E8, 0x701380B7, '2005-02-09 10:00:00') /* Gelidite Acolyte (4984) */
+     , (0x701380E8, 0x701380B8, '2005-02-09 10:00:00') /* Gelidite Lord (5868) */
+     , (0x701380E8, 0x701380BC, '2005-02-09 10:00:00') /* Gelidite Lord (5868) */
+     , (0x701380E8, 0x701380BF, '2005-02-09 10:00:00') /* Gelidite Lord (5868) */
+     , (0x701380E8, 0x701380DE, '2005-02-09 10:00:00') /* Gelidite Lord (5868) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x701380E9, 26008, 0x01380185, 50, -270, -5.989, -0.707107, 0, 0, -0.707107,  True, '2005-02-09 10:00:00'); /* Gelidite Golem */

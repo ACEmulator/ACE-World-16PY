@@ -9,7 +9,7 @@ VALUES (0x75271001,  7562, 0x52710101, 23.7004, -120.243, -41.2861, 0.693347, 0,
 /* @teleloc 0x52710101 [23.700400 -120.243000 -41.286100] 0.693347 0.000000 0.000000 -0.720604 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x75271001, 0x75271000, '2005-02-09 10:00:00') /* Pressure Plate */;
+VALUES (0x75271001, 0x75271000, '2005-02-09 10:00:00') /* Pressure Plate (2131) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75271002,  2131, 0x52710106, 26.4223, -120.101, -41.995, 0.715857, 0, 0, 0.698246,  True, '2005-02-09 10:00:00'); /* Pressure Plate */
@@ -24,14 +24,14 @@ VALUES (0x75271004,  7561, 0x52710106, 26.3601, -120.133, -41.2861, 0.717682, 0,
 /* @teleloc 0x52710106 [26.360100 -120.133000 -41.286100] 0.717682 0.000000 0.000000 0.696371 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x75271004, 0x75271002, '2005-02-09 10:00:00') /* Pressure Plate */;
+VALUES (0x75271004, 0x75271002, '2005-02-09 10:00:00') /* Pressure Plate (2131) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75271005,  7561, 0x52710106, 33.3517, -119.947, -41.2059, 0.675504, 0, 0, -0.737357, False, '2005-02-09 10:00:00'); /* Magic trap */
 /* @teleloc 0x52710106 [33.351700 -119.947000 -41.205900] 0.675504 0.000000 0.000000 -0.737357 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x75271005, 0x75271003, '2005-02-09 10:00:00') /* Pressure Plate */;
+VALUES (0x75271005, 0x75271003, '2005-02-09 10:00:00') /* Pressure Plate (2131) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75271006, 14521, 0x52710106, 30.2025, -118.826, -41.99, 0.764842, 0, 0, 0.644218,  True, '2005-02-09 10:00:00'); /* Glacial Golem */
@@ -62,14 +62,14 @@ VALUES (0x7527100C,  4454, 0x52710126, 70, -125, -42, 0, 0, 0, -1, False, '2005-
 /* @teleloc 0x52710126 [70.000000 -125.000000 -42.000000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7527100C, 0x75271080, '2005-02-09 10:00:00') /* Lever */;
+VALUES (0x7527100C, 0x75271080, '2005-02-09 10:00:00') /* Lever (2609) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7527100D,  2180, 0x5271012B, 70, -145.25, -42, 0, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Door */
 /* @teleloc 0x5271012B [70.000000 -145.250000 -42.000000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7527100D, 0x75271087, '2005-02-09 10:00:00') /* Lever */;
+VALUES (0x7527100D, 0x75271087, '2005-02-09 10:00:00') /* Lever (2609) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7527100E,   285, 0x52710136, 69.8796, -184.396, -40.7089, 0, 0, 0, 1, False, '2005-02-09 10:00:00'); /* Lever */
@@ -112,7 +112,7 @@ VALUES (0x75271018,  7561, 0x52710146, 90.0614, -83.8281, -41.995, -0.999996, 0,
 /* @teleloc 0x52710146 [90.061400 -83.828100 -41.995000] -0.999996 0.000000 0.000000 -0.002840 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x75271018, 0x75271017, '2005-02-09 10:00:00') /* Pressure Plate */;
+VALUES (0x75271018, 0x75271017, '2005-02-09 10:00:00') /* Pressure Plate (2131) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7527101B, 14490, 0x5271014A, 86.82, -140.104, -41.995, 0.696707, 0, 0, -0.717356, False, '2005-02-09 10:00:00'); /* Surface */
@@ -123,7 +123,7 @@ VALUES (0x7527101C,  2180, 0x52710160, 20, -154.75, -36, 0, 0, 0, -1, False, '20
 /* @teleloc 0x52710160 [20.000000 -154.750000 -36.000000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7527101C, 0x75271076, '2005-02-09 10:00:00') /* Lever */;
+VALUES (0x7527101C, 0x75271076, '2005-02-09 10:00:00') /* Lever (2609) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7527101E, 14521, 0x5271019E, 0, -110, -11.99, 0.731689, 0, 0, -0.681639,  True, '2005-02-09 10:00:00'); /* Glacial Golem */
@@ -154,7 +154,7 @@ VALUES (0x75271024,  2180, 0x527101A4, 15.25, -100, -12, 0.707107, 0, 0, -0.7071
 /* @teleloc 0x527101A4 [15.250000 -100.000000 -12.000000] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x75271024, 0x752710B0, '2005-02-09 10:00:00') /* Lever */;
+VALUES (0x75271024, 0x752710B0, '2005-02-09 10:00:00') /* Lever (2609) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75271025, 14522, 0x527101B5, 49.919, -42.492, -11.99, -4.37114E-08, 0, 0, -1,  True, '2005-02-09 10:00:00'); /* Unstable Glacial Golem */
@@ -165,7 +165,7 @@ VALUES (0x75271026,  4067, 0x527101C3, 70.1046, -57.4078, -9.91625, -0.052462, 0
 /* @teleloc 0x527101C3 [70.104600 -57.407800 -9.916250] -0.052462 0.000000 0.000000 -0.998623 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x75271026, 0x75271027, '2005-02-09 10:00:00') /* Pressure Plate */;
+VALUES (0x75271026, 0x75271027, '2005-02-09 10:00:00') /* Pressure Plate (2131) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75271027,  2131, 0x527101C3, 70.1576, -57.032, -12, -0.052462, 0, 0, -0.998623,  True, '2005-02-09 10:00:00'); /* Pressure Plate */
@@ -224,7 +224,7 @@ VALUES (0x75271036,  2180, 0x527101F5, 144.75, -70, -6, -0.707107, 0, 0, -0.7071
 /* @teleloc 0x527101F5 [144.750000 -70.000000 -6.000000] -0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x75271036, 0x7527106E, '2005-02-09 10:00:00') /* Lever */;
+VALUES (0x75271036, 0x7527106E, '2005-02-09 10:00:00') /* Lever (2609) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75271037,   298, 0x527101F6, 137.051, -79.851, -6, -0.671941, 0, 0, 0.740604,  True, '2005-02-09 10:00:00'); /* Pressure Plate */
@@ -235,7 +235,7 @@ VALUES (0x75271038,  4067, 0x527101F6, 136.09, -79.9592, -4.00988, -0.671941, 0,
 /* @teleloc 0x527101F6 [136.090000 -79.959200 -4.009880] -0.671941 0.000000 0.000000 0.740604 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x75271038, 0x75271037, '2005-02-09 10:00:00') /* Pressure Plate */;
+VALUES (0x75271038, 0x75271037, '2005-02-09 10:00:00') /* Pressure Plate (298) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75271039, 14521, 0x527101F7, 154.719, -73.3263, -5.945, -0.810984, 0, 0, -0.585068,  True, '2005-02-09 10:00:00'); /* Glacial Golem */
@@ -262,39 +262,39 @@ VALUES (0x7527103F,  7924, 0x527101FF, 60, -130, 0.005, 0.0457802, 0, 0, 0.99895
 /* @teleloc 0x527101FF [60.000000 -130.000000 0.005000] 0.045780 0.000000 0.000000 0.998952 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7527103F, 0x75271006, '2005-02-09 10:00:00') /* Glacial Golem */
-     , (0x7527103F, 0x75271007, '2005-02-09 10:00:00') /* Glacial Golem */
-     , (0x7527103F, 0x75271008, '2005-02-09 10:00:00') /* Unstable Glacial Golem */
-     , (0x7527103F, 0x75271009, '2005-02-09 10:00:00') /* Unstable Glacial Golem */
-     , (0x7527103F, 0x7527100A, '2005-02-09 10:00:00') /* Unstable Glacial Golem */
-     , (0x7527103F, 0x7527100B, '2005-02-09 10:00:00') /* Unstable Glacial Golem */
-     , (0x7527103F, 0x7527101E, '2005-02-09 10:00:00') /* Glacial Golem */
-     , (0x7527103F, 0x7527101F, '2005-02-09 10:00:00') /* Glacial Golem */
-     , (0x7527103F, 0x75271020, '2005-02-09 10:00:00') /* Glacial Golem */
-     , (0x7527103F, 0x75271021, '2005-02-09 10:00:00') /* Glacial Golem */
-     , (0x7527103F, 0x75271022, '2005-02-09 10:00:00') /* Glacial Golem */
-     , (0x7527103F, 0x75271023, '2005-02-09 10:00:00') /* Glacial Golem */
-     , (0x7527103F, 0x75271025, '2005-02-09 10:00:00') /* Unstable Glacial Golem */
-     , (0x7527103F, 0x75271028, '2005-02-09 10:00:00') /* Glacial Golem */
-     , (0x7527103F, 0x75271029, '2005-02-09 10:00:00') /* Glacial Golem */
-     , (0x7527103F, 0x7527102C, '2005-02-09 10:00:00') /* Unstable Glacial Golem */
-     , (0x7527103F, 0x7527102D, '2005-02-09 10:00:00') /* Glacial Golem */
-     , (0x7527103F, 0x7527102E, '2005-02-09 10:00:00') /* Glacial Golem */
-     , (0x7527103F, 0x7527102F, '2005-02-09 10:00:00') /* Unstable Glacial Golem */
-     , (0x7527103F, 0x75271030, '2005-02-09 10:00:00') /* Glacial Golem */
-     , (0x7527103F, 0x75271031, '2005-02-09 10:00:00') /* Unstable Glacial Golem */
-     , (0x7527103F, 0x75271032, '2005-02-09 10:00:00') /* Glacial Golem */
-     , (0x7527103F, 0x75271033, '2005-02-09 10:00:00') /* Glacial Golem */
-     , (0x7527103F, 0x75271039, '2005-02-09 10:00:00') /* Glacial Golem */
-     , (0x7527103F, 0x7527103A, '2005-02-09 10:00:00') /* Glacial Golem */
-     , (0x7527103F, 0x7527103C, '2005-02-09 10:00:00') /* Unstable Glacial Golem */
-     , (0x7527103F, 0x7527103E, '2005-02-09 10:00:00') /* Unstable Glacial Golem */
-     , (0x7527103F, 0x75271041, '2005-02-09 10:00:00') /* Glacial Golem */
-     , (0x7527103F, 0x75271042, '2005-02-09 10:00:00') /* Glacial Golem */
-     , (0x7527103F, 0x75271043, '2005-02-09 10:00:00') /* Glacial Golem */
-     , (0x7527103F, 0x75271046, '2005-02-09 10:00:00') /* Glacial Golem */
-     , (0x7527103F, 0x75271047, '2005-02-09 10:00:00') /* Glacial Golem */
-     , (0x7527103F, 0x75271049, '2005-02-09 10:00:00') /* Unstable Glacial Golem */;
+VALUES (0x7527103F, 0x75271006, '2005-02-09 10:00:00') /* Glacial Golem (14521) */
+     , (0x7527103F, 0x75271007, '2005-02-09 10:00:00') /* Glacial Golem (14521) */
+     , (0x7527103F, 0x75271008, '2005-02-09 10:00:00') /* Unstable Glacial Golem (14522) */
+     , (0x7527103F, 0x75271009, '2005-02-09 10:00:00') /* Unstable Glacial Golem (14522) */
+     , (0x7527103F, 0x7527100A, '2005-02-09 10:00:00') /* Unstable Glacial Golem (14522) */
+     , (0x7527103F, 0x7527100B, '2005-02-09 10:00:00') /* Unstable Glacial Golem (14522) */
+     , (0x7527103F, 0x7527101E, '2005-02-09 10:00:00') /* Glacial Golem (14521) */
+     , (0x7527103F, 0x7527101F, '2005-02-09 10:00:00') /* Glacial Golem (14521) */
+     , (0x7527103F, 0x75271020, '2005-02-09 10:00:00') /* Glacial Golem (14521) */
+     , (0x7527103F, 0x75271021, '2005-02-09 10:00:00') /* Glacial Golem (14521) */
+     , (0x7527103F, 0x75271022, '2005-02-09 10:00:00') /* Glacial Golem (14521) */
+     , (0x7527103F, 0x75271023, '2005-02-09 10:00:00') /* Glacial Golem (14521) */
+     , (0x7527103F, 0x75271025, '2005-02-09 10:00:00') /* Unstable Glacial Golem (14522) */
+     , (0x7527103F, 0x75271028, '2005-02-09 10:00:00') /* Glacial Golem (14521) */
+     , (0x7527103F, 0x75271029, '2005-02-09 10:00:00') /* Glacial Golem (14521) */
+     , (0x7527103F, 0x7527102C, '2005-02-09 10:00:00') /* Unstable Glacial Golem (14522) */
+     , (0x7527103F, 0x7527102D, '2005-02-09 10:00:00') /* Glacial Golem (14521) */
+     , (0x7527103F, 0x7527102E, '2005-02-09 10:00:00') /* Glacial Golem (14521) */
+     , (0x7527103F, 0x7527102F, '2005-02-09 10:00:00') /* Unstable Glacial Golem (14522) */
+     , (0x7527103F, 0x75271030, '2005-02-09 10:00:00') /* Glacial Golem (14521) */
+     , (0x7527103F, 0x75271031, '2005-02-09 10:00:00') /* Unstable Glacial Golem (14522) */
+     , (0x7527103F, 0x75271032, '2005-02-09 10:00:00') /* Glacial Golem (14521) */
+     , (0x7527103F, 0x75271033, '2005-02-09 10:00:00') /* Glacial Golem (14521) */
+     , (0x7527103F, 0x75271039, '2005-02-09 10:00:00') /* Glacial Golem (14521) */
+     , (0x7527103F, 0x7527103A, '2005-02-09 10:00:00') /* Glacial Golem (14521) */
+     , (0x7527103F, 0x7527103C, '2005-02-09 10:00:00') /* Unstable Glacial Golem (14522) */
+     , (0x7527103F, 0x7527103E, '2005-02-09 10:00:00') /* Unstable Glacial Golem (14522) */
+     , (0x7527103F, 0x75271041, '2005-02-09 10:00:00') /* Glacial Golem (14521) */
+     , (0x7527103F, 0x75271042, '2005-02-09 10:00:00') /* Glacial Golem (14521) */
+     , (0x7527103F, 0x75271043, '2005-02-09 10:00:00') /* Glacial Golem (14521) */
+     , (0x7527103F, 0x75271046, '2005-02-09 10:00:00') /* Glacial Golem (14521) */
+     , (0x7527103F, 0x75271047, '2005-02-09 10:00:00') /* Glacial Golem (14521) */
+     , (0x7527103F, 0x75271049, '2005-02-09 10:00:00') /* Unstable Glacial Golem (14522) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75271040, 14500, 0x52710208, 67.9133, -127.865, 0.005, -0.423168, 0, 0, 0.906051, False, '2005-02-09 10:00:00'); /* Empyrean Ice Propylaeum */
@@ -317,7 +317,7 @@ VALUES (0x75271045,  4472, 0x52710246, 134.5, -120, 0, -0.707107, 0, 0, -0.70710
 /* @teleloc 0x52710246 [134.500000 -120.000000 0.000000] -0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x75271045, 0x75271060, '2005-02-09 10:00:00') /* Button */;
+VALUES (0x75271045, 0x75271060, '2005-02-09 10:00:00') /* Button (8420) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75271046, 14521, 0x52710248, 140, -120, 0.01, 1, 0, 0, 0,  True, '2005-02-09 10:00:00'); /* Glacial Golem */
@@ -340,47 +340,47 @@ VALUES (0x7527104B,  7924, 0x5271025B, 50.0253, -30.0184, 6.005, 0.721341, 0, 0,
 /* @teleloc 0x5271025B [50.025300 -30.018400 6.005000] 0.721341 0.000000 0.000000 -0.692580 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7527104B, 0x75271056, '2005-02-09 10:00:00') /* Glacial Golem */
-     , (0x7527104B, 0x75271057, '2005-02-09 10:00:00') /* Glacial Golem */
-     , (0x7527104B, 0x75271058, '2005-02-09 10:00:00') /* Glacial Golem */
-     , (0x7527104B, 0x75271059, '2005-02-09 10:00:00') /* Glacial Golem */
-     , (0x7527104B, 0x7527105A, '2005-02-09 10:00:00') /* Glacial Golem */
-     , (0x7527104B, 0x7527105F, '2005-02-09 10:00:00') /* Glacial Golem */
-     , (0x7527104B, 0x75271063, '2005-02-09 10:00:00') /* Glacial Golem */
-     , (0x7527104B, 0x75271064, '2005-02-09 10:00:00') /* Unstable Glacial Golem */
-     , (0x7527104B, 0x75271065, '2005-02-09 10:00:00') /* Unstable Glacial Golem */
-     , (0x7527104B, 0x75271066, '2005-02-09 10:00:00') /* Glacial Golem */
-     , (0x7527104B, 0x75271067, '2005-02-09 10:00:00') /* Unstable Glacial Golem */
-     , (0x7527104B, 0x7527106A, '2005-02-09 10:00:00') /* Glacial Golem */
-     , (0x7527104B, 0x7527106B, '2005-02-09 10:00:00') /* Glacial Golem */
-     , (0x7527104B, 0x7527106C, '2005-02-09 10:00:00') /* Glacial Golem */
-     , (0x7527104B, 0x75271073, '2005-02-09 10:00:00') /* Unstable Glacial Golem */
-     , (0x7527104B, 0x75271074, '2005-02-09 10:00:00') /* Unstable Glacial Golem */
-     , (0x7527104B, 0x75271075, '2005-02-09 10:00:00') /* Glacial Golem */
-     , (0x7527104B, 0x75271077, '2005-02-09 10:00:00') /* Glacial Golem */
-     , (0x7527104B, 0x75271078, '2005-02-09 10:00:00') /* Glacial Golem */
-     , (0x7527104B, 0x75271079, '2005-02-09 10:00:00') /* Unstable Glacial Golem */
-     , (0x7527104B, 0x7527107A, '2005-02-09 10:00:00') /* Unstable Glacial Golem */
-     , (0x7527104B, 0x75271093, '2005-02-09 10:00:00') /* Frost */
-     , (0x7527104B, 0x75271094, '2005-02-09 10:00:00') /* Frost */
-     , (0x7527104B, 0x75271095, '2005-02-09 10:00:00') /* Frost */
-     , (0x7527104B, 0x75271098, '2005-02-09 10:00:00') /* Frost */
-     , (0x7527104B, 0x75271099, '2005-02-09 10:00:00') /* Frost */
-     , (0x7527104B, 0x7527109A, '2005-02-09 10:00:00') /* Frost */
-     , (0x7527104B, 0x7527109B, '2005-02-09 10:00:00') /* Frost */
-     , (0x7527104B, 0x7527109C, '2005-02-09 10:00:00') /* Frost */
-     , (0x7527104B, 0x7527109D, '2005-02-09 10:00:00') /* Frost */
-     , (0x7527104B, 0x7527109E, '2005-02-09 10:00:00') /* Frost */
-     , (0x7527104B, 0x7527109F, '2005-02-09 10:00:00') /* Frost */
-     , (0x7527104B, 0x752710A0, '2005-02-09 10:00:00') /* Frost */
-     , (0x7527104B, 0x752710A1, '2005-02-09 10:00:00') /* Frost */
-     , (0x7527104B, 0x752710A2, '2005-02-09 10:00:00') /* Frost */
-     , (0x7527104B, 0x752710A3, '2005-02-09 10:00:00') /* Frost */
-     , (0x7527104B, 0x752710A4, '2005-02-09 10:00:00') /* Frost */
-     , (0x7527104B, 0x752710A5, '2005-02-09 10:00:00') /* Frost */
-     , (0x7527104B, 0x752710A6, '2005-02-09 10:00:00') /* Frost */
-     , (0x7527104B, 0x752710A7, '2005-02-09 10:00:00') /* Frost */
-     , (0x7527104B, 0x752710A8, '2005-02-09 10:00:00') /* Frost */;
+VALUES (0x7527104B, 0x75271056, '2005-02-09 10:00:00') /* Glacial Golem (14521) */
+     , (0x7527104B, 0x75271057, '2005-02-09 10:00:00') /* Glacial Golem (14521) */
+     , (0x7527104B, 0x75271058, '2005-02-09 10:00:00') /* Glacial Golem (14521) */
+     , (0x7527104B, 0x75271059, '2005-02-09 10:00:00') /* Glacial Golem (14521) */
+     , (0x7527104B, 0x7527105A, '2005-02-09 10:00:00') /* Glacial Golem (14521) */
+     , (0x7527104B, 0x7527105F, '2005-02-09 10:00:00') /* Glacial Golem (14521) */
+     , (0x7527104B, 0x75271063, '2005-02-09 10:00:00') /* Glacial Golem (14521) */
+     , (0x7527104B, 0x75271064, '2005-02-09 10:00:00') /* Unstable Glacial Golem (14522) */
+     , (0x7527104B, 0x75271065, '2005-02-09 10:00:00') /* Unstable Glacial Golem (14522) */
+     , (0x7527104B, 0x75271066, '2005-02-09 10:00:00') /* Glacial Golem (14521) */
+     , (0x7527104B, 0x75271067, '2005-02-09 10:00:00') /* Unstable Glacial Golem (14522) */
+     , (0x7527104B, 0x7527106A, '2005-02-09 10:00:00') /* Glacial Golem (14521) */
+     , (0x7527104B, 0x7527106B, '2005-02-09 10:00:00') /* Glacial Golem (14521) */
+     , (0x7527104B, 0x7527106C, '2005-02-09 10:00:00') /* Glacial Golem (14521) */
+     , (0x7527104B, 0x75271073, '2005-02-09 10:00:00') /* Unstable Glacial Golem (14522) */
+     , (0x7527104B, 0x75271074, '2005-02-09 10:00:00') /* Unstable Glacial Golem (14522) */
+     , (0x7527104B, 0x75271075, '2005-02-09 10:00:00') /* Glacial Golem (14521) */
+     , (0x7527104B, 0x75271077, '2005-02-09 10:00:00') /* Glacial Golem (14521) */
+     , (0x7527104B, 0x75271078, '2005-02-09 10:00:00') /* Glacial Golem (14521) */
+     , (0x7527104B, 0x75271079, '2005-02-09 10:00:00') /* Unstable Glacial Golem (14522) */
+     , (0x7527104B, 0x7527107A, '2005-02-09 10:00:00') /* Unstable Glacial Golem (14522) */
+     , (0x7527104B, 0x75271093, '2005-02-09 10:00:00') /* Frost (14517) */
+     , (0x7527104B, 0x75271094, '2005-02-09 10:00:00') /* Frost (14517) */
+     , (0x7527104B, 0x75271095, '2005-02-09 10:00:00') /* Frost (14517) */
+     , (0x7527104B, 0x75271098, '2005-02-09 10:00:00') /* Frost (14517) */
+     , (0x7527104B, 0x75271099, '2005-02-09 10:00:00') /* Frost (14517) */
+     , (0x7527104B, 0x7527109A, '2005-02-09 10:00:00') /* Frost (14517) */
+     , (0x7527104B, 0x7527109B, '2005-02-09 10:00:00') /* Frost (14517) */
+     , (0x7527104B, 0x7527109C, '2005-02-09 10:00:00') /* Frost (14517) */
+     , (0x7527104B, 0x7527109D, '2005-02-09 10:00:00') /* Frost (14517) */
+     , (0x7527104B, 0x7527109E, '2005-02-09 10:00:00') /* Frost (14517) */
+     , (0x7527104B, 0x7527109F, '2005-02-09 10:00:00') /* Frost (14517) */
+     , (0x7527104B, 0x752710A0, '2005-02-09 10:00:00') /* Frost (14517) */
+     , (0x7527104B, 0x752710A1, '2005-02-09 10:00:00') /* Frost (14517) */
+     , (0x7527104B, 0x752710A2, '2005-02-09 10:00:00') /* Frost (14517) */
+     , (0x7527104B, 0x752710A3, '2005-02-09 10:00:00') /* Frost (14517) */
+     , (0x7527104B, 0x752710A4, '2005-02-09 10:00:00') /* Frost (14517) */
+     , (0x7527104B, 0x752710A5, '2005-02-09 10:00:00') /* Frost (14517) */
+     , (0x7527104B, 0x752710A6, '2005-02-09 10:00:00') /* Frost (14517) */
+     , (0x7527104B, 0x752710A7, '2005-02-09 10:00:00') /* Frost (14517) */
+     , (0x7527104B, 0x752710A8, '2005-02-09 10:00:00') /* Frost (14517) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7527104C,  5628, 0x5271025B, 55, -30.052, 6.005, -0.707107, 0, 0, -0.707107, False, '2005-02-09 10:00:00'); /* Door */
@@ -411,28 +411,28 @@ VALUES (0x75271052,  4067, 0x5271026A, 69.8994, -13.3206, 7.49525, 0.019377, 0, 
 /* @teleloc 0x5271026A [69.899400 -13.320600 7.495250] 0.019377 0.000000 0.000000 0.999812 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x75271052, 0x7527104E, '2005-02-09 10:00:00') /* Lever */;
+VALUES (0x75271052, 0x7527104E, '2005-02-09 10:00:00') /* Lever (286) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75271053,  7561, 0x5271026A, 68.0943, -6.56939, 6.005, 0.999776, 0, 0, 0.0211849, False, '2005-02-09 10:00:00'); /* Magic trap */
 /* @teleloc 0x5271026A [68.094300 -6.569390 6.005000] 0.999776 0.000000 0.000000 0.021185 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x75271053, 0x75271051, '2005-02-09 10:00:00') /* Pressure Plate */;
+VALUES (0x75271053, 0x75271051, '2005-02-09 10:00:00') /* Pressure Plate (2131) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75271054,  7561, 0x5271026A, 70.3679, -6.70055, 6.005, 0.999585, 0, 0, -0.02881, False, '2005-02-09 10:00:00'); /* Magic trap */
 /* @teleloc 0x5271026A [70.367900 -6.700550 6.005000] 0.999585 0.000000 0.000000 -0.028810 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x75271054, 0x7527104F, '2005-02-09 10:00:00') /* Pressure Plate */;
+VALUES (0x75271054, 0x7527104F, '2005-02-09 10:00:00') /* Pressure Plate (2131) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75271055,  7561, 0x5271026A, 72.4284, -6.81943, 6.005, 0.999585, 0, 0, -0.02881, False, '2005-02-09 10:00:00'); /* Magic trap */
 /* @teleloc 0x5271026A [72.428400 -6.819430 6.005000] 0.999585 0.000000 0.000000 -0.028810 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x75271055, 0x75271050, '2005-02-09 10:00:00') /* Pressure Plate */;
+VALUES (0x75271055, 0x75271050, '2005-02-09 10:00:00') /* Pressure Plate (2131) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75271056, 14521, 0x52710270, 70, -30, 6.01, 0.889293, 0, 0, 0.457338,  True, '2005-02-09 10:00:00'); /* Glacial Golem */
@@ -467,7 +467,7 @@ VALUES (0x7527105D,  4067, 0x52710292, 95.5152, -39.3788, 8.33787, -0.703721, 0,
 /* @teleloc 0x52710292 [95.515200 -39.378800 8.337870] -0.703721 0.000000 0.000000 0.710477 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7527105D, 0x7527105C, '2005-02-09 10:00:00') /* Pressure Plate */;
+VALUES (0x7527105D, 0x7527105C, '2005-02-09 10:00:00') /* Pressure Plate (2131) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7527105F, 14521, 0x52710299, 110, -10, 6.01, 1, 0, 0, -4.37114E-08,  True, '2005-02-09 10:00:00'); /* Glacial Golem */
@@ -510,7 +510,7 @@ VALUES (0x75271069,  4454, 0x527102D6, 90, -35, 18, 0, 0, 0, -1, False, '2005-02
 /* @teleloc 0x527102D6 [90.000000 -35.000000 18.000000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x75271069, 0x7527103B, '2005-02-09 10:00:00') /* Button */;
+VALUES (0x75271069, 0x7527103B, '2005-02-09 10:00:00') /* Button (8420) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7527106A, 14521, 0x527102D8, 91.4924, -49.8942, 18.01, 0.731689, 0, 0, -0.681639,  True, '2005-02-09 10:00:00'); /* Glacial Golem */
@@ -529,7 +529,7 @@ VALUES (0x7527106D,  2180, 0x527102DE, 95.29, -50, 18, 0.707107, 0, 0, -0.707107
 /* @teleloc 0x527102DE [95.290000 -50.000000 18.000000] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7527106D, 0x752710AF, '2005-02-09 10:00:00') /* Lever */;
+VALUES (0x7527106D, 0x752710AF, '2005-02-09 10:00:00') /* Lever (2609) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7527106E,  2609, 0x527102E0, 110, -23, 18, 1, 0, 0, -4.37114E-08,  True, '2005-02-09 10:00:00'); /* Lever */
@@ -780,10 +780,10 @@ VALUES (0x752710AD,  7923, 0x5271013C, 80, -110, -41.995, 1, 0, 0, 0, False, '20
 /* @teleloc 0x5271013C [80.000000 -110.000000 -41.995000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x752710AD, 0x752710AA, '2005-02-09 10:00:00') /* Shivver */
-     , (0x752710AD, 0x752710AB, '2005-02-09 10:00:00') /* Shivver */
-     , (0x752710AD, 0x752710AC, '2005-02-09 10:00:00') /* Shivver */
-     , (0x752710AD, 0x752710AE, '2005-02-09 10:00:00') /* Shivver */;
+VALUES (0x752710AD, 0x752710AA, '2005-02-09 10:00:00') /* Shivver (14518) */
+     , (0x752710AD, 0x752710AB, '2005-02-09 10:00:00') /* Shivver (14518) */
+     , (0x752710AD, 0x752710AC, '2005-02-09 10:00:00') /* Shivver (14518) */
+     , (0x752710AD, 0x752710AE, '2005-02-09 10:00:00') /* Shivver (14518) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x752710AE, 14518, 0x5271014C, 100, -90, -41.9915, 1, 0, 0, 0,  True, '2005-02-09 10:00:00'); /* Shivver */

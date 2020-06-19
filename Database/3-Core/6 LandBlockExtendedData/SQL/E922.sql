@@ -57,9 +57,9 @@ VALUES (0x7E92200D,  1154, 0xE9220126, 18.7139, 82.3475, -1.195, 0.605892, 0, 0,
 /* @teleloc 0xE9220126 [18.713900 82.347500 -1.195000] 0.605892 0.000000 0.000000 0.795547 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7E92200D, 0x7E922018, '2005-02-09 10:00:00') /* Zenzaburou Hensu */
-     , (0x7E92200D, 0x7E922019, '2005-02-09 10:00:00') /* Leather Crafter */
-     , (0x7E92200D, 0x7E92201A, '2005-02-09 10:00:00') /* Ivory Crafter */;
+VALUES (0x7E92200D, 0x7E922018, '2005-02-09 10:00:00') /* Zenzaburou Hensu (8441) */
+     , (0x7E92200D, 0x7E922019, '2005-02-09 10:00:00') /* Leather Crafter (4213) */
+     , (0x7E92200D, 0x7E92201A, '2005-02-09 10:00:00') /* Ivory Crafter (3926) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7E92200E,  8435, 0xE9220126, 17.7115, 85.0731, -1.195, 0.565374, 0, 0, 0.824835, False, '2005-02-09 10:00:00'); /* Sharon the Skilled, Bowyer */

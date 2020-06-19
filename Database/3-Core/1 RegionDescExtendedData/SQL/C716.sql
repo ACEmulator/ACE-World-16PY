@@ -1,14 +1,11 @@
-DELETE FROM `encounter` WHERE `landblock` = 50966;
+DELETE FROM `encounter` WHERE `landblock` = 0xC716;
 
 INSERT INTO `encounter` (`landblock`, `weenie_Class_Id`, `cell_X`, `cell_Y`, `last_Modified`)
-VALUES (50966, 23164, 3, 1, '2005-02-09 10:00:00') /* Mid South Forest Generator */
-     , (50966, 23164, 4, 1, '2005-02-09 10:00:00') /* Mid South Forest Generator */
-     , (50966, 23164, 4, 4, '2005-02-09 10:00:00') /* Mid South Forest Generator */
-     , (50966, 23164, 4, 6, '2005-02-09 10:00:00') /* Mid South Forest Generator */
-     , (50966, 23164, 4, 7, '2005-02-09 10:00:00') /* Mid South Forest Generator */
-     , (50966, 23166, 4, 8, '2005-02-09 10:00:00') /* Mid SOuth Mountains Generator */
-     , (50966, 23164, 5, 2, '2005-02-09 10:00:00') /* Mid South Forest Generator */
-     , (50966, 23164, 6, 1, '2005-02-09 10:00:00') /* Mid South Forest Generator */
-     , (50966, 23164, 7, 3, '2005-02-09 10:00:00') /* Mid South Forest Generator */
-     , (50966, 23164, 8, 6, '2005-02-09 10:00:00') /* Mid South Forest Generator */
-     , (50966, 23164, 8, 7, '2005-02-09 10:00:00') /* Mid South Forest Generator */;
+VALUES (0xC716, 23164, 3, 1, '2005-02-09 10:00:00') /* Mid South Forest Generator */
+     , (0xC716, 23164, 4, 1, '2005-02-09 10:00:00') /* Mid South Forest Generator */
+     , (0xC716, 23164, 4, 4, '2005-02-09 10:00:00') /* Mid South Forest Generator */
+     , (0xC716, 23164, 4, 6, '2005-02-09 10:00:00') /* Mid South Forest Generator */
+     , (0xC716, 23164, 4, 7, '2005-02-09 10:00:00') /* Mid South Forest Generator */
+     , (0xC716, 23164, 5, 2, '2005-02-09 10:00:00') /* Mid South Forest Generator */
+     , (0xC716, 23164, 6, 1, '2005-02-09 10:00:00') /* Mid South Forest Generator */
+     , (0xC716, 23164, 7, 3, '2005-02-09 10:00:00') /* Mid South Forest Generator */;

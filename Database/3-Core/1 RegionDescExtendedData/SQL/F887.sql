@@ -1,6 +1,6 @@
-DELETE FROM `encounter` WHERE `landblock` = 63623;
+DELETE FROM `encounter` WHERE `landblock` = 0xF887;
 
 INSERT INTO `encounter` (`landblock`, `weenie_Class_Id`, `cell_X`, `cell_Y`, `last_Modified`)
-VALUES (63623, 22535, 0, 5, '2005-02-09 10:00:00') /* Tusker Island Low Beach Mix Gen */
-     , (63623, 22535, 3, 4, '2005-02-09 10:00:00') /* Tusker Island Low Beach Mix Gen */
-     , (63623, 22535, 6, 0, '2005-02-09 10:00:00') /* Tusker Island Low Beach Mix Gen */;
+VALUES (0xF887, 22535, 0, 5, '2005-02-09 10:00:00') /* Tusker Island Low Beach Mix Gen */
+     , (0xF887, 22535, 3, 4, '2005-02-09 10:00:00') /* Tusker Island Low Beach Mix Gen */
+     , (0xF887, 22535, 6, 0, '2005-02-09 10:00:00') /* Tusker Island Low Beach Mix Gen */;

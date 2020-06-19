@@ -1,4 +1,4 @@
-DELETE FROM `encounter` WHERE `landblock` = 29672;
+DELETE FROM `encounter` WHERE `landblock` = 0x73E8;
 
 INSERT INTO `encounter` (`landblock`, `weenie_Class_Id`, `cell_X`, `cell_Y`, `last_Modified`)
-VALUES (29672, 2003, 5, 2, '2005-02-09 10:00:00') /* High North Mountains Golem Generator */;
+VALUES (0x73E8, 2003, 5, 2, '2005-02-09 10:00:00') /* High North Mountains Golem Generator */;

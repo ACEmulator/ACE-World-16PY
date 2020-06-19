@@ -5,7 +5,7 @@ VALUES (0x75F46000, 24188, 0x5F460103, 10.0076, -70.1067, -9.34112, 0.731689, 0,
 /* @teleloc 0x5F460103 [10.007600 -70.106700 -9.341120] 0.731689 0.000000 0.000000 -0.681639 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x75F46000, 0x75F46004, '2005-02-09 10:00:00') /* Pressure Plate */;
+VALUES (0x75F46000, 0x75F46004, '2005-02-09 10:00:00') /* Pressure Plate (2131) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75F46001,   187, 0x5F460105, 10, -87.5317, -11.995, 1, 0, 0, -4.37114E-08,  True, '2005-02-09 10:00:00'); /* Bandit Lord */
@@ -44,7 +44,7 @@ VALUES (0x75F46009, 24190, 0x5F46011C, 69.2054, -70.1684, -9.38125, -0.734558, 0
 /* @teleloc 0x5F46011C [69.205400 -70.168400 -9.381250] -0.734558 0.000000 0.000000 -0.678546 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x75F46009, 0x75F46005, '2005-02-09 10:00:00') /* Pressure Plate */;
+VALUES (0x75F46009, 0x75F46005, '2005-02-09 10:00:00') /* Pressure Plate (2131) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75F4600A,  2131, 0x5F460130, 26.42, -99.946, -5.995, 0.708433, 0, 0, 0.705778,  True, '2005-02-09 10:00:00'); /* Pressure Plate */
@@ -71,7 +71,7 @@ VALUES (0x75F4600F, 24189, 0x5F460136, 36.6626, -59.9474, -4.61938, 0.701367, 0,
 /* @teleloc 0x5F460136 [36.662600 -59.947400 -4.619380] 0.701367 0.000000 0.000000 0.712801 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x75F4600F, 0x75F46010, '2005-02-09 10:00:00') /* Pressure Plate */;
+VALUES (0x75F4600F, 0x75F46010, '2005-02-09 10:00:00') /* Pressure Plate (2131) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75F46010,  2131, 0x5F460136, 36.3111, -59.9333, -11.995, -0.71288, 0, 0, 0.701286,  True, '2005-02-09 10:00:00'); /* Pressure Plate */
@@ -82,7 +82,7 @@ VALUES (0x75F46011, 24189, 0x5F460137, 43.2318, -59.9618, -4.61938, -0.688424, 0
 /* @teleloc 0x5F460137 [43.231800 -59.961800 -4.619380] -0.688424 0.000000 0.000000 0.725309 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x75F46011, 0x75F46012, '2005-02-09 10:00:00') /* Pressure Plate */;
+VALUES (0x75F46011, 0x75F46012, '2005-02-09 10:00:00') /* Pressure Plate (2131) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75F46012,  2131, 0x5F460137, 43.8867, -60.0251, -11.995, -0.71288, 0, 0, 0.701286,  True, '2005-02-09 10:00:00'); /* Pressure Plate */
@@ -117,14 +117,14 @@ VALUES (0x75F46019, 24189, 0x5F46013C, 39.3238, -99.8906, -4.19713, -0.701862, 0
 /* @teleloc 0x5F46013C [39.323800 -99.890600 -4.197130] -0.701862 0.000000 0.000000 0.712313 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x75F46019, 0x75F4600A, '2005-02-09 10:00:00') /* Pressure Plate */;
+VALUES (0x75F46019, 0x75F4600A, '2005-02-09 10:00:00') /* Pressure Plate (2131) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75F4601A, 24189, 0x5F46013C, 40.7815, -99.872, -4.2105, -0.701862, 0, 0, 0.712313, False, '2005-02-09 10:00:00'); /* Evisceration Trap */
 /* @teleloc 0x5F46013C [40.781500 -99.872000 -4.210500] -0.701862 0.000000 0.000000 0.712313 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x75F4601A, 0x75F46023, '2005-02-09 10:00:00') /* Pressure Plate */;
+VALUES (0x75F4601A, 0x75F46023, '2005-02-09 10:00:00') /* Pressure Plate (2131) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75F4601B,  2131, 0x5F46013C, 40.0325, -100.139, -5.995, -0.00397896, 0, 0, 0.999992,  True, '2005-02-09 10:00:00'); /* Pressure Plate */
@@ -143,7 +143,7 @@ VALUES (0x75F4601E, 24189, 0x5F46013E, 39.9594, -103.156, -4.18375, -0.00397896,
 /* @teleloc 0x5F46013E [39.959400 -103.156000 -4.183750] -0.003979 0.000000 0.000000 0.999992 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x75F4601E, 0x75F4601B, '2005-02-09 10:00:00') /* Pressure Plate */;
+VALUES (0x75F4601E, 0x75F4601B, '2005-02-09 10:00:00') /* Pressure Plate (2131) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75F4601F,  1295, 0x5F46013E, 40, -105, -6, 0, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Door */
@@ -174,7 +174,7 @@ VALUES (0x75F46025,  7923, 0x5F460154, 107.83, -162.466, -5.995, 0.997189, 0, 0,
 /* @teleloc 0x5F460154 [107.830000 -162.466000 -5.995000] 0.997189 0.000000 0.000000 0.074929 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x75F46025, 0x75F46024, '2005-02-09 10:00:00') /* Body of Jaleh al-Thani */;
+VALUES (0x75F46025, 0x75F46024, '2005-02-09 10:00:00') /* Body of Jaleh al-Thani (24184) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75F46026, 24178, 0x5F460154, 111.714, -159.991, -5.995, 0.96571, 0, 0, 0.259622,  True, '2005-02-09 10:00:00'); /* Jaleh's Slippers */
@@ -225,105 +225,105 @@ VALUES (0x75F46031,  7924, 0x5F460189, 36.9956, 0.158069, 0.005, 0.0267718, 0, 0
 /* @teleloc 0x5F460189 [36.995600 0.158069 0.005000] 0.026772 0.000000 0.000000 0.999642 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x75F46031, 0x75F46001, '2005-02-09 10:00:00') /* Bandit Lord */
-     , (0x75F46031, 0x75F46002, '2005-02-09 10:00:00') /* Bandit Mage */
-     , (0x75F46031, 0x75F46003, '2005-02-09 10:00:00') /* Thief */
-     , (0x75F46031, 0x75F46006, '2005-02-09 10:00:00') /* Bandit Mage */
-     , (0x75F46031, 0x75F46007, '2005-02-09 10:00:00') /* Thief */
-     , (0x75F46031, 0x75F46008, '2005-02-09 10:00:00') /* Bandit Lord */
-     , (0x75F46031, 0x75F46013, '2005-02-09 10:00:00') /* Rogue */
-     , (0x75F46031, 0x75F46014, '2005-02-09 10:00:00') /* Rogue Mage */
-     , (0x75F46031, 0x75F46015, '2005-02-09 10:00:00') /* Rogue Mage */
-     , (0x75F46031, 0x75F46016, '2005-02-09 10:00:00') /* Thief */
-     , (0x75F46031, 0x75F46017, '2005-02-09 10:00:00') /* Bandit Mage */
-     , (0x75F46031, 0x75F46018, '2005-02-09 10:00:00') /* Bandit Mage */
-     , (0x75F46031, 0x75F46020, '2005-02-09 10:00:00') /* Thief */
-     , (0x75F46031, 0x75F46021, '2005-02-09 10:00:00') /* Thief */
-     , (0x75F46031, 0x75F46022, '2005-02-09 10:00:00') /* Mercenary */
-     , (0x75F46031, 0x75F4604F, '2005-02-09 10:00:00') /* Bandit Mage */
-     , (0x75F46031, 0x75F46050, '2005-02-09 10:00:00') /* Mercenary */
-     , (0x75F46031, 0x75F46051, '2005-02-09 10:00:00') /* Thief */
-     , (0x75F46031, 0x75F4605A, '2005-02-09 10:00:00') /* Mercenary */
-     , (0x75F46031, 0x75F4605B, '2005-02-09 10:00:00') /* Mercenary */
-     , (0x75F46031, 0x75F4605C, '2005-02-09 10:00:00') /* Mercenary */
-     , (0x75F46031, 0x75F4605D, '2005-02-09 10:00:00') /* Thief */
-     , (0x75F46031, 0x75F4605E, '2005-02-09 10:00:00') /* Thief */
-     , (0x75F46031, 0x75F46063, '2005-02-09 10:00:00') /* Bandit Mage */
-     , (0x75F46031, 0x75F46064, '2005-02-09 10:00:00') /* Thief */
-     , (0x75F46031, 0x75F46065, '2005-02-09 10:00:00') /* Bandit Mage */
-     , (0x75F46031, 0x75F46066, '2005-02-09 10:00:00') /* Bandit Mage */
-     , (0x75F46031, 0x75F46067, '2005-02-09 10:00:00') /* Bandit Mage */
-     , (0x75F46031, 0x75F4606F, '2005-02-09 10:00:00') /* Bandit Mage */
-     , (0x75F46031, 0x75F46070, '2005-02-09 10:00:00') /* Mercenary */
-     , (0x75F46031, 0x75F46071, '2005-02-09 10:00:00') /* Mercenary */
-     , (0x75F46031, 0x75F46072, '2005-02-09 10:00:00') /* Mercenary */
-     , (0x75F46031, 0x75F46073, '2005-02-09 10:00:00') /* Thief */
-     , (0x75F46031, 0x75F46074, '2005-02-09 10:00:00') /* Thief */
-     , (0x75F46031, 0x75F4607A, '2005-02-09 10:00:00') /* Bandit Mage */
-     , (0x75F46031, 0x75F4607B, '2005-02-09 10:00:00') /* Mercenary */
-     , (0x75F46031, 0x75F4607C, '2005-02-09 10:00:00') /* Thief */
-     , (0x75F46031, 0x75F4607D, '2005-02-09 10:00:00') /* Thief */
-     , (0x75F46031, 0x75F4607F, '2005-02-09 10:00:00') /* Bandit Mage */
-     , (0x75F46031, 0x75F46080, '2005-02-09 10:00:00') /* Mercenary */
-     , (0x75F46031, 0x75F46081, '2005-02-09 10:00:00') /* Bandit Mage */
-     , (0x75F46031, 0x75F46082, '2005-02-09 10:00:00') /* Bandit Mage */
-     , (0x75F46031, 0x75F46089, '2005-02-09 10:00:00') /* Bandit Mage */
-     , (0x75F46031, 0x75F4608A, '2005-02-09 10:00:00') /* Bandit Mage */
-     , (0x75F46031, 0x75F4608B, '2005-02-09 10:00:00') /* Mercenary */
-     , (0x75F46031, 0x75F46096, '2005-02-09 10:00:00') /* Rogue */
-     , (0x75F46031, 0x75F46097, '2005-02-09 10:00:00') /* Rogue */
-     , (0x75F46031, 0x75F46098, '2005-02-09 10:00:00') /* Rogue Mage */;
+VALUES (0x75F46031, 0x75F46001, '2005-02-09 10:00:00') /* Bandit Lord (187) */
+     , (0x75F46031, 0x75F46002, '2005-02-09 10:00:00') /* Bandit Mage (188) */
+     , (0x75F46031, 0x75F46003, '2005-02-09 10:00:00') /* Thief (1218) */
+     , (0x75F46031, 0x75F46006, '2005-02-09 10:00:00') /* Bandit Mage (188) */
+     , (0x75F46031, 0x75F46007, '2005-02-09 10:00:00') /* Thief (1218) */
+     , (0x75F46031, 0x75F46008, '2005-02-09 10:00:00') /* Bandit Lord (187) */
+     , (0x75F46031, 0x75F46013, '2005-02-09 10:00:00') /* Rogue (224) */
+     , (0x75F46031, 0x75F46014, '2005-02-09 10:00:00') /* Rogue Mage (225) */
+     , (0x75F46031, 0x75F46015, '2005-02-09 10:00:00') /* Rogue Mage (225) */
+     , (0x75F46031, 0x75F46016, '2005-02-09 10:00:00') /* Thief (1218) */
+     , (0x75F46031, 0x75F46017, '2005-02-09 10:00:00') /* Bandit Mage (188) */
+     , (0x75F46031, 0x75F46018, '2005-02-09 10:00:00') /* Bandit Mage (188) */
+     , (0x75F46031, 0x75F46020, '2005-02-09 10:00:00') /* Thief (1218) */
+     , (0x75F46031, 0x75F46021, '2005-02-09 10:00:00') /* Thief (1218) */
+     , (0x75F46031, 0x75F46022, '2005-02-09 10:00:00') /* Mercenary (1210) */
+     , (0x75F46031, 0x75F4604F, '2005-02-09 10:00:00') /* Bandit Mage (188) */
+     , (0x75F46031, 0x75F46050, '2005-02-09 10:00:00') /* Mercenary (1210) */
+     , (0x75F46031, 0x75F46051, '2005-02-09 10:00:00') /* Thief (1218) */
+     , (0x75F46031, 0x75F4605A, '2005-02-09 10:00:00') /* Mercenary (1210) */
+     , (0x75F46031, 0x75F4605B, '2005-02-09 10:00:00') /* Mercenary (1210) */
+     , (0x75F46031, 0x75F4605C, '2005-02-09 10:00:00') /* Mercenary (1210) */
+     , (0x75F46031, 0x75F4605D, '2005-02-09 10:00:00') /* Thief (1218) */
+     , (0x75F46031, 0x75F4605E, '2005-02-09 10:00:00') /* Thief (1218) */
+     , (0x75F46031, 0x75F46063, '2005-02-09 10:00:00') /* Bandit Mage (188) */
+     , (0x75F46031, 0x75F46064, '2005-02-09 10:00:00') /* Thief (1218) */
+     , (0x75F46031, 0x75F46065, '2005-02-09 10:00:00') /* Bandit Mage (188) */
+     , (0x75F46031, 0x75F46066, '2005-02-09 10:00:00') /* Bandit Mage (188) */
+     , (0x75F46031, 0x75F46067, '2005-02-09 10:00:00') /* Bandit Mage (188) */
+     , (0x75F46031, 0x75F4606F, '2005-02-09 10:00:00') /* Bandit Mage (188) */
+     , (0x75F46031, 0x75F46070, '2005-02-09 10:00:00') /* Mercenary (1210) */
+     , (0x75F46031, 0x75F46071, '2005-02-09 10:00:00') /* Mercenary (1210) */
+     , (0x75F46031, 0x75F46072, '2005-02-09 10:00:00') /* Mercenary (1210) */
+     , (0x75F46031, 0x75F46073, '2005-02-09 10:00:00') /* Thief (1218) */
+     , (0x75F46031, 0x75F46074, '2005-02-09 10:00:00') /* Thief (1218) */
+     , (0x75F46031, 0x75F4607A, '2005-02-09 10:00:00') /* Bandit Mage (188) */
+     , (0x75F46031, 0x75F4607B, '2005-02-09 10:00:00') /* Mercenary (1210) */
+     , (0x75F46031, 0x75F4607C, '2005-02-09 10:00:00') /* Thief (1218) */
+     , (0x75F46031, 0x75F4607D, '2005-02-09 10:00:00') /* Thief (1218) */
+     , (0x75F46031, 0x75F4607F, '2005-02-09 10:00:00') /* Bandit Mage (188) */
+     , (0x75F46031, 0x75F46080, '2005-02-09 10:00:00') /* Mercenary (1210) */
+     , (0x75F46031, 0x75F46081, '2005-02-09 10:00:00') /* Bandit Mage (188) */
+     , (0x75F46031, 0x75F46082, '2005-02-09 10:00:00') /* Bandit Mage (188) */
+     , (0x75F46031, 0x75F46089, '2005-02-09 10:00:00') /* Bandit Mage (188) */
+     , (0x75F46031, 0x75F4608A, '2005-02-09 10:00:00') /* Bandit Mage (188) */
+     , (0x75F46031, 0x75F4608B, '2005-02-09 10:00:00') /* Mercenary (1210) */
+     , (0x75F46031, 0x75F46096, '2005-02-09 10:00:00') /* Rogue (224) */
+     , (0x75F46031, 0x75F46097, '2005-02-09 10:00:00') /* Rogue (224) */
+     , (0x75F46031, 0x75F46098, '2005-02-09 10:00:00') /* Rogue Mage (225) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75F46032,  7924, 0x5F460189, 39.2474, 0.038084, 0.005, 0.0267718, 0, 0, 0.999642, False, '2005-02-09 10:00:00'); /* Linkable Monster Generator ( 5 Min.) */
 /* @teleloc 0x5F460189 [39.247400 0.038084 0.005000] 0.026772 0.000000 0.000000 0.999642 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x75F46032, 0x75F46028, '2005-02-09 10:00:00') /* Bandit Mage */
-     , (0x75F46032, 0x75F46029, '2005-02-09 10:00:00') /* Bandit Mage */
-     , (0x75F46032, 0x75F4602A, '2005-02-09 10:00:00') /* Thief */
-     , (0x75F46032, 0x75F4602B, '2005-02-09 10:00:00') /* Mercenary */
-     , (0x75F46032, 0x75F4603F, '2005-02-09 10:00:00') /* Mercenary */
-     , (0x75F46032, 0x75F46040, '2005-02-09 10:00:00') /* Mercenary */
-     , (0x75F46032, 0x75F46041, '2005-02-09 10:00:00') /* Mercenary */
-     , (0x75F46032, 0x75F46042, '2005-02-09 10:00:00') /* Thief */
-     , (0x75F46032, 0x75F46043, '2005-02-09 10:00:00') /* Thief */
-     , (0x75F46032, 0x75F46044, '2005-02-09 10:00:00') /* Thief */
-     , (0x75F46032, 0x75F4605F, '2005-02-09 10:00:00') /* Mercenary */
-     , (0x75F46032, 0x75F46060, '2005-02-09 10:00:00') /* Bandit Mage */
-     , (0x75F46032, 0x75F46061, '2005-02-09 10:00:00') /* Thief */
-     , (0x75F46032, 0x75F46069, '2005-02-09 10:00:00') /* Thief */
-     , (0x75F46032, 0x75F4606A, '2005-02-09 10:00:00') /* Thief */
-     , (0x75F46032, 0x75F4606B, '2005-02-09 10:00:00') /* Mercenary */
-     , (0x75F46032, 0x75F46075, '2005-02-09 10:00:00') /* Mercenary */
-     , (0x75F46032, 0x75F46076, '2005-02-09 10:00:00') /* Thief */
-     , (0x75F46032, 0x75F46078, '2005-02-09 10:00:00') /* Bandit Mage */
-     , (0x75F46032, 0x75F46083, '2005-02-09 10:00:00') /* Rogue Mage */
-     , (0x75F46032, 0x75F46084, '2005-02-09 10:00:00') /* Bandit Mage */
-     , (0x75F46032, 0x75F46085, '2005-02-09 10:00:00') /* Bandit Mage */
-     , (0x75F46032, 0x75F46086, '2005-02-09 10:00:00') /* Mercenary */
-     , (0x75F46032, 0x75F46087, '2005-02-09 10:00:00') /* Mercenary */
-     , (0x75F46032, 0x75F4608C, '2005-02-09 10:00:00') /* Rogue Mage */
-     , (0x75F46032, 0x75F4608F, '2005-02-09 10:00:00') /* Mercenary */
-     , (0x75F46032, 0x75F46090, '2005-02-09 10:00:00') /* Bandit Mage */
-     , (0x75F46032, 0x75F46091, '2005-02-09 10:00:00') /* Rogue Mage */
-     , (0x75F46032, 0x75F460A1, '2005-02-09 10:00:00') /* Bandit Lord */
-     , (0x75F46032, 0x75F460A4, '2005-02-09 10:00:00') /* Rogue Mage */
-     , (0x75F46032, 0x75F460A5, '2005-02-09 10:00:00') /* Rogue Mage */
-     , (0x75F46032, 0x75F460A6, '2005-02-09 10:00:00') /* Bandit Mage */
-     , (0x75F46032, 0x75F460A7, '2005-02-09 10:00:00') /* Bandit Lord */
-     , (0x75F46032, 0x75F460A8, '2005-02-09 10:00:00') /* Mercenary */;
+VALUES (0x75F46032, 0x75F46028, '2005-02-09 10:00:00') /* Bandit Mage (188) */
+     , (0x75F46032, 0x75F46029, '2005-02-09 10:00:00') /* Bandit Mage (188) */
+     , (0x75F46032, 0x75F4602A, '2005-02-09 10:00:00') /* Thief (1218) */
+     , (0x75F46032, 0x75F4602B, '2005-02-09 10:00:00') /* Mercenary (1210) */
+     , (0x75F46032, 0x75F4603F, '2005-02-09 10:00:00') /* Mercenary (1210) */
+     , (0x75F46032, 0x75F46040, '2005-02-09 10:00:00') /* Mercenary (1210) */
+     , (0x75F46032, 0x75F46041, '2005-02-09 10:00:00') /* Mercenary (1210) */
+     , (0x75F46032, 0x75F46042, '2005-02-09 10:00:00') /* Thief (1218) */
+     , (0x75F46032, 0x75F46043, '2005-02-09 10:00:00') /* Thief (1218) */
+     , (0x75F46032, 0x75F46044, '2005-02-09 10:00:00') /* Thief (1218) */
+     , (0x75F46032, 0x75F4605F, '2005-02-09 10:00:00') /* Mercenary (1210) */
+     , (0x75F46032, 0x75F46060, '2005-02-09 10:00:00') /* Bandit Mage (188) */
+     , (0x75F46032, 0x75F46061, '2005-02-09 10:00:00') /* Thief (1218) */
+     , (0x75F46032, 0x75F46069, '2005-02-09 10:00:00') /* Thief (1218) */
+     , (0x75F46032, 0x75F4606A, '2005-02-09 10:00:00') /* Thief (1218) */
+     , (0x75F46032, 0x75F4606B, '2005-02-09 10:00:00') /* Mercenary (1210) */
+     , (0x75F46032, 0x75F46075, '2005-02-09 10:00:00') /* Mercenary (1210) */
+     , (0x75F46032, 0x75F46076, '2005-02-09 10:00:00') /* Thief (1218) */
+     , (0x75F46032, 0x75F46078, '2005-02-09 10:00:00') /* Bandit Mage (188) */
+     , (0x75F46032, 0x75F46083, '2005-02-09 10:00:00') /* Rogue Mage (225) */
+     , (0x75F46032, 0x75F46084, '2005-02-09 10:00:00') /* Bandit Mage (188) */
+     , (0x75F46032, 0x75F46085, '2005-02-09 10:00:00') /* Bandit Mage (188) */
+     , (0x75F46032, 0x75F46086, '2005-02-09 10:00:00') /* Mercenary (1210) */
+     , (0x75F46032, 0x75F46087, '2005-02-09 10:00:00') /* Mercenary (1210) */
+     , (0x75F46032, 0x75F4608C, '2005-02-09 10:00:00') /* Rogue Mage (225) */
+     , (0x75F46032, 0x75F4608F, '2005-02-09 10:00:00') /* Mercenary (1210) */
+     , (0x75F46032, 0x75F46090, '2005-02-09 10:00:00') /* Bandit Mage (188) */
+     , (0x75F46032, 0x75F46091, '2005-02-09 10:00:00') /* Rogue Mage (225) */
+     , (0x75F46032, 0x75F460A1, '2005-02-09 10:00:00') /* Bandit Lord (187) */
+     , (0x75F46032, 0x75F460A4, '2005-02-09 10:00:00') /* Rogue Mage (225) */
+     , (0x75F46032, 0x75F460A5, '2005-02-09 10:00:00') /* Rogue Mage (225) */
+     , (0x75F46032, 0x75F460A6, '2005-02-09 10:00:00') /* Bandit Mage (188) */
+     , (0x75F46032, 0x75F460A7, '2005-02-09 10:00:00') /* Bandit Lord (187) */
+     , (0x75F46032, 0x75F460A8, '2005-02-09 10:00:00') /* Mercenary (1210) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75F46033,  7924, 0x5F460189, 42.19, -0.120364, 0.005, 0.0267718, 0, 0, 0.999642, False, '2005-02-09 10:00:00'); /* Linkable Monster Generator ( 5 Min.) */
 /* @teleloc 0x5F460189 [42.190000 -0.120364 0.005000] 0.026772 0.000000 0.000000 0.999642 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x75F46033, 0x75F46055, '2005-02-09 10:00:00') /* Adroth Salson */
-     , (0x75F46033, 0x75F46056, '2005-02-09 10:00:00') /* Li Fanli */
-     , (0x75F46033, 0x75F46057, '2005-02-09 10:00:00') /* Itala the Knife */
-     , (0x75F46033, 0x75F46058, '2005-02-09 10:00:00') /* Torgrym the Magnificent */
-     , (0x75F46033, 0x75F46059, '2005-02-09 10:00:00') /* Den-Ru Chang */;
+VALUES (0x75F46033, 0x75F46055, '2005-02-09 10:00:00') /* Adroth Salson (10942) */
+     , (0x75F46033, 0x75F46056, '2005-02-09 10:00:00') /* Li Fanli (10938) */
+     , (0x75F46033, 0x75F46057, '2005-02-09 10:00:00') /* Itala the Knife (10940) */
+     , (0x75F46033, 0x75F46058, '2005-02-09 10:00:00') /* Torgrym the Magnificent (10941) */
+     , (0x75F46033, 0x75F46059, '2005-02-09 10:00:00') /* Den-Ru Chang (10943) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75F46034, 24192, 0x5F46018B, 40.04, -13.755, 0.005, 0, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Bludgeon Vulnerability Trap */
@@ -338,7 +338,7 @@ VALUES (0x75F46036, 24188, 0x5F46018E, 40.0684, -21.9855, 1.38825, -0.002522, 0,
 /* @teleloc 0x5F46018E [40.068400 -21.985500 1.388250] -0.002522 0.000000 0.000000 0.999997 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x75F46036, 0x75F46037, '2005-02-09 10:00:00') /* Pressure Plate */;
+VALUES (0x75F46036, 0x75F46037, '2005-02-09 10:00:00') /* Pressure Plate (298) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75F46037,   298, 0x5F46018E, 39.9788, -18.0623, 0.005, -0.002522, 0, 0, 0.999997,  True, '2005-02-09 10:00:00'); /* Pressure Plate */
@@ -357,14 +357,14 @@ VALUES (0x75F4603A, 24188, 0x5F46018E, 40.7418, -20.936, 1.38825, 1, 0, 0, 0, Fa
 /* @teleloc 0x5F46018E [40.741800 -20.936000 1.388250] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x75F4603A, 0x75F46038, '2005-02-09 10:00:00') /* Pressure Plate */;
+VALUES (0x75F4603A, 0x75F46038, '2005-02-09 10:00:00') /* Pressure Plate (298) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75F4603B, 24188, 0x5F46018E, 39.1443, -20.936, 1.4685, 1, 0, 0, 0, False, '2005-02-09 10:00:00'); /* Crushing Trap */
 /* @teleloc 0x5F46018E [39.144300 -20.936000 1.468500] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x75F4603B, 0x75F46039, '2005-02-09 10:00:00') /* Pressure Plate */;
+VALUES (0x75F4603B, 0x75F46039, '2005-02-09 10:00:00') /* Pressure Plate (298) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75F4603C, 24182, 0x5F46018E, 40.0002, -17.1126, 0.024, 0.707107, 0, 0, -0.707107,  True, '2005-02-09 10:00:00'); /* Key to Jaleh's Chest */
@@ -375,7 +375,7 @@ VALUES (0x75F4603D, 24190, 0x5F46018F, 40.09, -34.591, -3.8895, -0.999975, 0, 0,
 /* @teleloc 0x5F46018F [40.090000 -34.591000 -3.889500] -0.999975 0.000000 0.000000 0.007063 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x75F4603D, 0x75F4600C, '2005-02-09 10:00:00') /* Pressure Plate */;
+VALUES (0x75F4603D, 0x75F4600C, '2005-02-09 10:00:00') /* Pressure Plate (2131) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75F4603E, 24191, 0x5F460193, 39.4678, -196.88, 0.005, 0.016347, 0, 0, 0.999866, False, '2005-02-09 10:00:00'); /* Blade Vulnerability Trap */
@@ -422,21 +422,21 @@ VALUES (0x75F46048, 24190, 0x5F4601A5, 49.7247, -219.24, 2.95313, -0.724054, 0, 
 /* @teleloc 0x5F4601A5 [49.724700 -219.240000 2.953130] -0.724054 0.000000 0.000000 0.689744 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x75F46048, 0x75F46046, '2005-02-09 10:00:00') /* Pressure Plate */;
+VALUES (0x75F46048, 0x75F46046, '2005-02-09 10:00:00') /* Pressure Plate (2131) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75F46049, 24188, 0x5F4601A5, 49.7909, -220.603, 2.89963, -0.724054, 0, 0, 0.689744, False, '2005-02-09 10:00:00'); /* Crushing Trap */
 /* @teleloc 0x5F4601A5 [49.790900 -220.603000 2.899630] -0.724054 0.000000 0.000000 0.689744 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x75F46049, 0x75F46045, '2005-02-09 10:00:00') /* Pressure Plate */;
+VALUES (0x75F46049, 0x75F46045, '2005-02-09 10:00:00') /* Pressure Plate (2131) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75F4604A, 24189, 0x5F4601A5, 49.8514, -221.849, 2.83275, -0.724054, 0, 0, 0.689744, False, '2005-02-09 10:00:00'); /* Evisceration Trap */
 /* @teleloc 0x5F4601A5 [49.851400 -221.849000 2.832750] -0.724054 0.000000 0.000000 0.689744 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x75F4604A, 0x75F46047, '2005-02-09 10:00:00') /* Pressure Plate */;
+VALUES (0x75F4604A, 0x75F46047, '2005-02-09 10:00:00') /* Pressure Plate (2131) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75F4604B, 24192, 0x5F4601AF, 59.8754, -230.134, 0.005, -0.719164, 0, 0, 0.69484, False, '2005-02-09 10:00:00'); /* Bludgeon Vulnerability Trap */
@@ -479,15 +479,15 @@ VALUES (0x75F46054, 15759, 0x5F4601CB, 80.7561, -216.967, 0.005, -0.00797996, 0,
 /* @teleloc 0x5F4601CB [80.756100 -216.967000 0.005000] -0.007980 0.000000 0.000000 0.999968 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x75F46054, 0x75F46026, '2005-02-09 10:00:00') /* Jaleh's Slippers */
-     , (0x75F46054, 0x75F46027, '2005-02-09 10:00:00') /* Jaleh's Wedding Ring */
-     , (0x75F46054, 0x75F4602D, '2005-02-09 10:00:00') /* Blood Stained Book */
-     , (0x75F46054, 0x75F4603C, '2005-02-09 10:00:00') /* Key to Jaleh's Chest */
-     , (0x75F46054, 0x75F46052, '2005-02-09 10:00:00') /* Jaleh's Necklace */
-     , (0x75F46054, 0x75F46053, '2005-02-09 10:00:00') /* Jaleh's Silk Shirt */
-     , (0x75F46054, 0x75F46068, '2005-02-09 10:00:00') /* Note scrawled in blood */
-     , (0x75F46054, 0x75F4606C, '2005-02-09 10:00:00') /* Jaleh's Turban */
-     , (0x75F46054, 0x75F46092, '2005-02-09 10:00:00') /* Aged Page */;
+VALUES (0x75F46054, 0x75F46026, '2005-02-09 10:00:00') /* Jaleh's Slippers (24178) */
+     , (0x75F46054, 0x75F46027, '2005-02-09 10:00:00') /* Jaleh's Wedding Ring (24176) */
+     , (0x75F46054, 0x75F4602D, '2005-02-09 10:00:00') /* Blood Stained Book (24193) */
+     , (0x75F46054, 0x75F4603C, '2005-02-09 10:00:00') /* Key to Jaleh's Chest (24182) */
+     , (0x75F46054, 0x75F46052, '2005-02-09 10:00:00') /* Jaleh's Necklace (24183) */
+     , (0x75F46054, 0x75F46053, '2005-02-09 10:00:00') /* Jaleh's Silk Shirt (24177) */
+     , (0x75F46054, 0x75F46068, '2005-02-09 10:00:00') /* Note scrawled in blood (24195) */
+     , (0x75F46054, 0x75F4606C, '2005-02-09 10:00:00') /* Jaleh's Turban (24180) */
+     , (0x75F46054, 0x75F46092, '2005-02-09 10:00:00') /* Aged Page (24196) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75F46055, 10942, 0x5F4601CF, 77.4642, -230.053, 0.005, 0.696707, 0, 0, 0.717356,  True, '2005-02-09 10:00:00'); /* Adroth Salson */
@@ -718,7 +718,7 @@ VALUES (0x75F4608D, 24190, 0x5F460297, 31.256, -151.512, 14.6321, 0.469278, 0, 0
 /* @teleloc 0x5F460297 [31.256000 -151.512000 14.632100] 0.469278 0.000000 0.000000 0.883051 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x75F4608D, 0x75F46099, '2005-02-09 10:00:00') /* Pressure Plate */;
+VALUES (0x75F4608D, 0x75F46099, '2005-02-09 10:00:00') /* Pressure Plate (2131) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75F4608E,  3991, 0x5F46029B, 32.6523, -160.902, 12.005, 1, 0, 0, -4.37114E-08, False, '2005-02-09 10:00:00'); /* Chest */
@@ -781,21 +781,21 @@ VALUES (0x75F4609C, 24188, 0x5F4602A5, 39.9468, -154.046, 14.5519, -0.999601, 0,
 /* @teleloc 0x5F4602A5 [39.946800 -154.046000 14.551900] -0.999601 0.000000 0.000000 0.028248 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x75F4609C, 0x75F4609A, '2005-02-09 10:00:00') /* Pressure Plate */;
+VALUES (0x75F4609C, 0x75F4609A, '2005-02-09 10:00:00') /* Pressure Plate (2131) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75F4609D, 24189, 0x5F4602A8, 38.316, -167.889, 14.5118, -0.999889, 0, 0, -0.0149079, False, '2005-02-09 10:00:00'); /* Evisceration Trap */
 /* @teleloc 0x5F4602A8 [38.316000 -167.889000 14.511800] -0.999889 0.000000 0.000000 -0.014908 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x75F4609D, 0x75F460A0, '2005-02-09 10:00:00') /* Pressure Plate */;
+VALUES (0x75F4609D, 0x75F460A0, '2005-02-09 10:00:00') /* Pressure Plate (2131) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75F4609E, 24190, 0x5F4602A8, 41.2644, -167.803, 14.4716, -0.999889, 0, 0, -0.0149079, False, '2005-02-09 10:00:00'); /* Spike Trap */
 /* @teleloc 0x5F4602A8 [41.264400 -167.803000 14.471600] -0.999889 0.000000 0.000000 -0.014908 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x75F4609E, 0x75F4609F, '2005-02-09 10:00:00') /* Pressure Plate */;
+VALUES (0x75F4609E, 0x75F4609F, '2005-02-09 10:00:00') /* Pressure Plate (2131) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75F4609F,  2131, 0x5F4602AA, 41.25, -171.25, 12.005, 1, 0, 0, 0,  True, '2005-02-09 10:00:00'); /* Pressure Plate */
@@ -814,7 +814,7 @@ VALUES (0x75F460A2, 24189, 0x5F4602AD, 50.1936, -152.657, 14.3914, -0.51109, 0, 
 /* @teleloc 0x5F4602AD [50.193600 -152.657000 14.391400] -0.511090 0.000000 0.000000 0.859527 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x75F460A2, 0x75F4609B, '2005-02-09 10:00:00') /* Pressure Plate */;
+VALUES (0x75F460A2, 0x75F4609B, '2005-02-09 10:00:00') /* Pressure Plate (2131) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75F460A3,  7297, 0x5F4602B1, 47.776, -160.736, 12.005, 1, 0, 0, 0, False, '2005-02-09 10:00:00'); /* Chest */

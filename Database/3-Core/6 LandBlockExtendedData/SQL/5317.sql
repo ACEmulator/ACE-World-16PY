@@ -21,18 +21,18 @@ VALUES (0x75317014,  7924, 0x53170000, 184.3, 31.8215, 43.2883, -0.910002, 0, 0,
 /* @teleloc 0x53170000 [184.300000 31.821500 43.288300] -0.910002 0.000000 0.000000 0.414604 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x75317014, 0x75317010, '2005-02-09 10:00:00') /* Banderling Enforcer */
-     , (0x75317014, 0x75317011, '2005-02-09 10:00:00') /* Banderling Enforcer */
-     , (0x75317014, 0x75317012, '2005-02-09 10:00:00') /* Banderling Enforcer */
-     , (0x75317014, 0x75317013, '2005-02-09 10:00:00') /* Banderling Enforcer */
-     , (0x75317014, 0x75317015, '2005-02-09 10:00:00') /* Banderling Enforcer */
-     , (0x75317014, 0x75317016, '2005-02-09 10:00:00') /* Augmented Drudge */
-     , (0x75317014, 0x75317017, '2005-02-09 10:00:00') /* Banderling Enforcer */
-     , (0x75317014, 0x75317018, '2005-02-09 10:00:00') /* Augmented Drudge */
-     , (0x75317014, 0x75317019, '2005-02-09 10:00:00') /* Augmented Drudge */
-     , (0x75317014, 0x7531701A, '2005-02-09 10:00:00') /* Altered Drudge */
-     , (0x75317014, 0x7531701B, '2005-02-09 10:00:00') /* Altered Drudge */
-     , (0x75317014, 0x7531701D, '2005-02-09 10:00:00') /* Altered Drudge */;
+VALUES (0x75317014, 0x75317010, '2005-02-09 10:00:00') /* Banderling Enforcer (7346) */
+     , (0x75317014, 0x75317011, '2005-02-09 10:00:00') /* Banderling Enforcer (7346) */
+     , (0x75317014, 0x75317012, '2005-02-09 10:00:00') /* Banderling Enforcer (7346) */
+     , (0x75317014, 0x75317013, '2005-02-09 10:00:00') /* Banderling Enforcer (7346) */
+     , (0x75317014, 0x75317015, '2005-02-09 10:00:00') /* Banderling Enforcer (7346) */
+     , (0x75317014, 0x75317016, '2005-02-09 10:00:00') /* Augmented Drudge (7090) */
+     , (0x75317014, 0x75317017, '2005-02-09 10:00:00') /* Banderling Enforcer (7346) */
+     , (0x75317014, 0x75317018, '2005-02-09 10:00:00') /* Augmented Drudge (7090) */
+     , (0x75317014, 0x75317019, '2005-02-09 10:00:00') /* Augmented Drudge (7090) */
+     , (0x75317014, 0x7531701A, '2005-02-09 10:00:00') /* Altered Drudge (7089) */
+     , (0x75317014, 0x7531701B, '2005-02-09 10:00:00') /* Altered Drudge (7089) */
+     , (0x75317014, 0x7531701D, '2005-02-09 10:00:00') /* Altered Drudge (7089) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75317015,  7346, 0x53170000, 180.76, 30.0447, 43.2857, -0.718221, 0, 0, 0.695815,  True, '2005-02-09 10:00:00'); /* Banderling Enforcer */

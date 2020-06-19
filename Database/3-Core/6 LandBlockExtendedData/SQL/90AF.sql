@@ -13,8 +13,8 @@ VALUES (0x790AF002,  1154, 0x90AF0000, 4.91148, 19.3304, 47.905, -0.882277, 0, 0
 /* @teleloc 0x90AF0000 [4.911480 19.330400 47.905000] -0.882277 0.000000 0.000000 0.470731 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x790AF002, 0x790AF000, '2005-02-09 10:00:00') /* Water Wisp */
-     , (0x790AF002, 0x790AF001, '2005-02-09 10:00:00') /* Water Wisp */;
+VALUES (0x790AF002, 0x790AF000, '2005-02-09 10:00:00') /* Water Wisp (1986) */
+     , (0x790AF002, 0x790AF001, '2005-02-09 10:00:00') /* Water Wisp (1986) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x790AF003,  1930, 0x90AF0000, 21.3742, 6.21625, 47.555, -0.0681249, 0, 0, 0.997677, False, '2005-02-09 10:00:00'); /* Chest */

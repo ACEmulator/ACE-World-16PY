@@ -9,13 +9,13 @@ VALUES (0x77A87001,  7924, 0x7A870000, 165.179, 99.4624, 20.6356, 0.577084, 0, 0
 /* @teleloc 0x7A870000 [165.179000 99.462400 20.635600] 0.577084 0.000000 0.000000 0.816685 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x77A87001, 0x77A87002, '2005-02-09 10:00:00') /* Tumerok Warrior */
-     , (0x77A87001, 0x77A87003, '2005-02-09 10:00:00') /* Tumerok Warrior */
-     , (0x77A87001, 0x77A87004, '2005-02-09 10:00:00') /* Tumerok Priest */
-     , (0x77A87001, 0x77A87005, '2005-02-09 10:00:00') /* Tumerok Priest */
-     , (0x77A87001, 0x77A87006, '2005-02-09 10:00:00') /* Tumerok Warrior */
-     , (0x77A87001, 0x77A87007, '2005-02-09 10:00:00') /* Tumerok Warrior */
-     , (0x77A87001, 0x77A87008, '2005-02-09 10:00:00') /* Tumerok High Priest */;
+VALUES (0x77A87001, 0x77A87002, '2005-02-09 10:00:00') /* Tumerok Warrior (233) */
+     , (0x77A87001, 0x77A87003, '2005-02-09 10:00:00') /* Tumerok Warrior (4100) */
+     , (0x77A87001, 0x77A87004, '2005-02-09 10:00:00') /* Tumerok Priest (231) */
+     , (0x77A87001, 0x77A87005, '2005-02-09 10:00:00') /* Tumerok Priest (231) */
+     , (0x77A87001, 0x77A87006, '2005-02-09 10:00:00') /* Tumerok Warrior (4100) */
+     , (0x77A87001, 0x77A87007, '2005-02-09 10:00:00') /* Tumerok Warrior (4100) */
+     , (0x77A87001, 0x77A87008, '2005-02-09 10:00:00') /* Tumerok High Priest (228) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x77A87002,   233, 0x7A870000, 162.199, 96.2657, 19.5885, 0.677183, 0, 0, 0.735814,  True, '2005-02-09 10:00:00'); /* Tumerok Warrior */

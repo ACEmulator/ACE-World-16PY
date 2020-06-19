@@ -21,9 +21,9 @@ VALUES (0x7A6AF006,  7925, 0xA6AF0100, 156.14, 56.9367, 48.005, -0.23531, 0, 0, 
 /* @teleloc 0xA6AF0100 [156.140000 56.936700 48.005000] -0.235310 0.000000 0.000000 0.971920 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A6AF006, 0x7A6AF007, '2005-02-09 10:00:00') /* Drudge Servant */
-     , (0x7A6AF006, 0x7A6AF008, '2005-02-09 10:00:00') /* Drudge Robber */
-     , (0x7A6AF006, 0x7A6AF009, '2005-02-09 10:00:00') /* Drudge Servant */;
+VALUES (0x7A6AF006, 0x7A6AF007, '2005-02-09 10:00:00') /* Drudge Servant (1631) */
+     , (0x7A6AF006, 0x7A6AF008, '2005-02-09 10:00:00') /* Drudge Robber (1464) */
+     , (0x7A6AF006, 0x7A6AF009, '2005-02-09 10:00:00') /* Drudge Servant (1631) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A6AF007,  1631, 0xA6AF0100, 156.994, 60.8472, 48.005, -0.586184, 0, 0, -0.810178,  True, '2005-02-09 10:00:00'); /* Drudge Servant */

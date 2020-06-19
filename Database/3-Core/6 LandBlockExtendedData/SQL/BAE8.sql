@@ -25,6 +25,6 @@ VALUES (0x7BAE8005,  7925, 0xBAE80106, 17.7595, 107.901, -1.795, 0.762323, 0, 0,
 /* @teleloc 0xBAE80106 [17.759500 107.901000 -1.795000] 0.762323 0.000000 0.000000 0.647197 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BAE8005, 0x7BAE8002, '2005-02-09 10:00:00') /* Relic Bones */
-     , (0x7BAE8005, 0x7BAE8003, '2005-02-09 10:00:00') /* Wasteland Rat */
-     , (0x7BAE8005, 0x7BAE8004, '2005-02-09 10:00:00') /* Cursed Bones */;
+VALUES (0x7BAE8005, 0x7BAE8002, '2005-02-09 10:00:00') /* Relic Bones (7179) */
+     , (0x7BAE8005, 0x7BAE8003, '2005-02-09 10:00:00') /* Wasteland Rat (7107) */
+     , (0x7BAE8005, 0x7BAE8004, '2005-02-09 10:00:00') /* Cursed Bones (7178) */;

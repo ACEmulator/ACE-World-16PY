@@ -9,4 +9,4 @@ VALUES (0x77FEE001,  3951, 0x7FEE0000, 96.6065, 90.2369, 106.536, -0.941187, 0, 
 /* @teleloc 0x7FEE0000 [96.606500 90.236900 106.536000] -0.941187 0.000000 0.000000 0.337886 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x77FEE001, 0x77FEE000, '2005-02-09 10:00:00') /* Guardian of the Temple of Forgetfulness */;
+VALUES (0x77FEE001, 0x77FEE000, '2005-02-09 10:00:00') /* Guardian of the Temple of Forgetfulness (22754) */;

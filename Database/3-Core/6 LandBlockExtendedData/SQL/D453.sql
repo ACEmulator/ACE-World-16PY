@@ -13,9 +13,9 @@ VALUES (0x7D453005,  1154, 0xD4530100, 101.277, 44.7385, 34.805, -0.866671, 0, 0
 /* @teleloc 0xD4530100 [101.277000 44.738500 34.805000] -0.866671 0.000000 0.000000 -0.498880 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7D453005, 0x7D453006, '2005-02-09 10:00:00') /* Sandstone Golem */
-     , (0x7D453005, 0x7D453007, '2005-02-09 10:00:00') /* Sandstone Golem */
-     , (0x7D453005, 0x7D453008, '2005-02-09 10:00:00') /* Sandstone Golem */;
+VALUES (0x7D453005, 0x7D453006, '2005-02-09 10:00:00') /* Sandstone Golem (202) */
+     , (0x7D453005, 0x7D453007, '2005-02-09 10:00:00') /* Sandstone Golem (202) */
+     , (0x7D453005, 0x7D453008, '2005-02-09 10:00:00') /* Sandstone Golem (202) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7D453006,   202, 0xD4530100, 99.7039, 43.9486, 34.81, 0.117349, 0, 0, -0.993091,  True, '2005-02-09 10:00:00'); /* Sandstone Golem */

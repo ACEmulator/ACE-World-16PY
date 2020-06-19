@@ -5,12 +5,12 @@ VALUES (0x74619006,  1154, 0x46190000, 88.1845, 110.805, 38.9323, 0.391638, 0, 0
 /* @teleloc 0x46190000 [88.184500 110.805000 38.932300] 0.391638 0.000000 0.000000 -0.920119 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x74619006, 0x74619007, '2005-02-09 10:00:00') /* Ascendant Tumerok */
-     , (0x74619006, 0x74619008, '2005-02-09 10:00:00') /* Banderling Enforcer */
-     , (0x74619006, 0x74619009, '2005-02-09 10:00:00') /* Banderling Enforcer */
-     , (0x74619006, 0x7461900A, '2005-02-09 10:00:00') /* Banderling Enforcer */
-     , (0x74619006, 0x7461900B, '2005-02-09 10:00:00') /* Tumerok Champion */
-     , (0x74619006, 0x7461900C, '2005-02-09 10:00:00') /* Banderling Thrasher */;
+VALUES (0x74619006, 0x74619007, '2005-02-09 10:00:00') /* Ascendant Tumerok (10806) */
+     , (0x74619006, 0x74619008, '2005-02-09 10:00:00') /* Banderling Enforcer (7346) */
+     , (0x74619006, 0x74619009, '2005-02-09 10:00:00') /* Banderling Enforcer (7346) */
+     , (0x74619006, 0x7461900A, '2005-02-09 10:00:00') /* Banderling Enforcer (7346) */
+     , (0x74619006, 0x7461900B, '2005-02-09 10:00:00') /* Tumerok Champion (23617) */
+     , (0x74619006, 0x7461900C, '2005-02-09 10:00:00') /* Banderling Thrasher (7086) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x74619007, 10806, 0x46190000, 86.2441, 113.521, 37.8344, -0.499125, 0, 0, -0.86653,  True, '2005-02-09 10:00:00'); /* Ascendant Tumerok */

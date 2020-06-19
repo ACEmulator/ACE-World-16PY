@@ -21,10 +21,10 @@ VALUES (0x77FF1004,  3953, 0x7FF10000, 176.541, 80.0171, 198.005, -0.942869, 0, 
 /* @teleloc 0x7FF10000 [176.541000 80.017100 198.005000] -0.942869 0.000000 0.000000 -0.333163 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x77FF1004, 0x77FF1002, '2005-02-09 10:00:00') /* Snowy Mattekar */
-     , (0x77FF1004, 0x77FF1003, '2005-02-09 10:00:00') /* Snowy Mattekar */
-     , (0x77FF1004, 0x77FF1005, '2005-02-09 10:00:00') /* Ice Golem */
-     , (0x77FF1004, 0x77FF1006, '2005-02-09 10:00:00') /* Ethereal Wisp */;
+VALUES (0x77FF1004, 0x77FF1002, '2005-02-09 10:00:00') /* Snowy Mattekar (2581) */
+     , (0x77FF1004, 0x77FF1003, '2005-02-09 10:00:00') /* Snowy Mattekar (2581) */
+     , (0x77FF1004, 0x77FF1005, '2005-02-09 10:00:00') /* Ice Golem (196) */
+     , (0x77FF1004, 0x77FF1006, '2005-02-09 10:00:00') /* Ethereal Wisp (1535) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x77FF1005,   196, 0x7FF10102, 177.881, 85.1991, 197.211, 0.40291, 0, 0, -0.91524,  True, '2005-02-09 10:00:00'); /* Ice Golem */

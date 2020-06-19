@@ -57,15 +57,15 @@ VALUES (0x764D600D,  1542, 0x64D60000, 136.891, 138.719, 158.005, -0.758823, 0, 
 /* @teleloc 0x64D60000 [136.891000 138.719000 158.005000] -0.758823 0.000000 0.000000 -0.651296 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x764D600D, 0x764D600C, '2005-02-09 10:00:00') /* Hazel Talisman */;
+VALUES (0x764D600D, 0x764D600C, '2005-02-09 10:00:00') /* Hazel Talisman (746) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x764D600E,  1154, 0x64D60000, 134.721, 139.052, 158.005, -0.758823, 0, 0, -0.651296, False, '2005-02-09 10:00:00'); /* Linkable Monster Generator */
 /* @teleloc 0x64D60000 [134.721000 139.052000 158.005000] -0.758823 0.000000 0.000000 -0.651296 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x764D600E, 0x764D6007, '2005-02-09 10:00:00') /* Mountain Rat */
-     , (0x764D600E, 0x764D6008, '2005-02-09 10:00:00') /* Mountain Rat */
-     , (0x764D600E, 0x764D6009, '2005-02-09 10:00:00') /* Mountain Rat */
-     , (0x764D600E, 0x764D600A, '2005-02-09 10:00:00') /* Mountain Rat */
-     , (0x764D600E, 0x764D600B, '2005-02-09 10:00:00') /* Mountain Rat */;
+VALUES (0x764D600E, 0x764D6007, '2005-02-09 10:00:00') /* Mountain Rat (1625) */
+     , (0x764D600E, 0x764D6008, '2005-02-09 10:00:00') /* Mountain Rat (1625) */
+     , (0x764D600E, 0x764D6009, '2005-02-09 10:00:00') /* Mountain Rat (1625) */
+     , (0x764D600E, 0x764D600A, '2005-02-09 10:00:00') /* Mountain Rat (1625) */
+     , (0x764D600E, 0x764D600B, '2005-02-09 10:00:00') /* Mountain Rat (1625) */;

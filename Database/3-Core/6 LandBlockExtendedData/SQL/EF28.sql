@@ -33,9 +33,9 @@ VALUES (0x7EF28007,  4219, 0xEF280100, 154.32, 6.8126, 16.805, 0.648138, 0, 0, 0
 /* @teleloc 0xEF280100 [154.320000 6.812600 16.805000] 0.648138 0.000000 0.000000 0.761523 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7EF28007, 0x7EF28001, '2005-02-09 10:00:00') /* Foul Moarsman */
-     , (0x7EF28007, 0x7EF28002, '2005-02-09 10:00:00') /* Viscous Moarsman */
-     , (0x7EF28007, 0x7EF28003, '2005-02-09 10:00:00') /* Disgusting Moarsman */
-     , (0x7EF28007, 0x7EF28004, '2005-02-09 10:00:00') /* Foul Moarsman */
-     , (0x7EF28007, 0x7EF28005, '2005-02-09 10:00:00') /* Disgusting Moarsman */
-     , (0x7EF28007, 0x7EF28006, '2005-02-09 10:00:00') /* Disgusting Moarsman */;
+VALUES (0x7EF28007, 0x7EF28001, '2005-02-09 10:00:00') /* Foul Moarsman (4247) */
+     , (0x7EF28007, 0x7EF28002, '2005-02-09 10:00:00') /* Viscous Moarsman (27862) */
+     , (0x7EF28007, 0x7EF28003, '2005-02-09 10:00:00') /* Disgusting Moarsman (27853) */
+     , (0x7EF28007, 0x7EF28004, '2005-02-09 10:00:00') /* Foul Moarsman (4247) */
+     , (0x7EF28007, 0x7EF28005, '2005-02-09 10:00:00') /* Disgusting Moarsman (27853) */
+     , (0x7EF28007, 0x7EF28006, '2005-02-09 10:00:00') /* Disgusting Moarsman (27853) */;

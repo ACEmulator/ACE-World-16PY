@@ -9,10 +9,10 @@ VALUES (0x703A2001,  7923, 0x03A20109, 0, -380, 0.005, 0.696707, 0, 0, -0.717356
 /* @teleloc 0x03A20109 [0.000000 -380.000000 0.005000] 0.696707 0.000000 0.000000 -0.717356 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x703A2001, 0x703A2002, '2005-02-09 10:00:00') /* Sneaky Simulacrum */
-     , (0x703A2001, 0x703A2003, '2005-02-09 10:00:00') /* Sneaky Simulacrum */
-     , (0x703A2001, 0x703A2004, '2005-02-09 10:00:00') /* Sneaky Simulacrum */
-     , (0x703A2001, 0x703A2005, '2005-02-09 10:00:00') /* Southern Infiltrator Master */;
+VALUES (0x703A2001, 0x703A2002, '2005-02-09 10:00:00') /* Sneaky Simulacrum (12133) */
+     , (0x703A2001, 0x703A2003, '2005-02-09 10:00:00') /* Sneaky Simulacrum (12133) */
+     , (0x703A2001, 0x703A2004, '2005-02-09 10:00:00') /* Sneaky Simulacrum (12133) */
+     , (0x703A2001, 0x703A2005, '2005-02-09 10:00:00') /* Southern Infiltrator Master (12132) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x703A2002, 12133, 0x03A2010E, 12.6292, -380.838, 0.005, 0.653021, 0, 0, -0.75734,  True, '2005-02-09 10:00:00'); /* Sneaky Simulacrum */
@@ -223,53 +223,53 @@ VALUES (0x703A2035,  7924, 0x03A2025F, 310, -20, 12.005, 1, 0, 0, 0, False, '200
 /* @teleloc 0x03A2025F [310.000000 -20.000000 12.005000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x703A2035, 0x703A2006, '2005-02-09 10:00:00') /* Sneaky Simulacrum */
-     , (0x703A2035, 0x703A2007, '2005-02-09 10:00:00') /* Sneaky Simulacrum */
-     , (0x703A2035, 0x703A2008, '2005-02-09 10:00:00') /* Sneaky Simulacrum */
-     , (0x703A2035, 0x703A2009, '2005-02-09 10:00:00') /* Sneaky Simulacrum */
-     , (0x703A2035, 0x703A200A, '2005-02-09 10:00:00') /* Crafty Simulacrum */
-     , (0x703A2035, 0x703A200B, '2005-02-09 10:00:00') /* Crafty Simulacrum */
-     , (0x703A2035, 0x703A200C, '2005-02-09 10:00:00') /* Crafty Simulacrum */
-     , (0x703A2035, 0x703A200D, '2005-02-09 10:00:00') /* Crafty Simulacrum */
-     , (0x703A2035, 0x703A200E, '2005-02-09 10:00:00') /* Crafty Simulacrum */
-     , (0x703A2035, 0x703A200F, '2005-02-09 10:00:00') /* Sneaky Simulacrum */
-     , (0x703A2035, 0x703A2010, '2005-02-09 10:00:00') /* Sneaky Simulacrum */
-     , (0x703A2035, 0x703A2011, '2005-02-09 10:00:00') /* Sneaky Simulacrum */
-     , (0x703A2035, 0x703A2012, '2005-02-09 10:00:00') /* Sneaky Simulacrum */
-     , (0x703A2035, 0x703A2013, '2005-02-09 10:00:00') /* Sneaky Simulacrum */
-     , (0x703A2035, 0x703A2014, '2005-02-09 10:00:00') /* Sneaky Simulacrum */
-     , (0x703A2035, 0x703A2015, '2005-02-09 10:00:00') /* Sneaky Simulacrum */
-     , (0x703A2035, 0x703A2016, '2005-02-09 10:00:00') /* Sneaky Simulacrum */
-     , (0x703A2035, 0x703A2017, '2005-02-09 10:00:00') /* Drudge Stalker */
-     , (0x703A2035, 0x703A2018, '2005-02-09 10:00:00') /* Drudge Stalker */
-     , (0x703A2035, 0x703A2019, '2005-02-09 10:00:00') /* Drudge Stalker */
-     , (0x703A2035, 0x703A201A, '2005-02-09 10:00:00') /* Drudge Stalker */
-     , (0x703A2035, 0x703A201B, '2005-02-09 10:00:00') /* Drudge Stalker */
-     , (0x703A2035, 0x703A201C, '2005-02-09 10:00:00') /* Drudge Stalker */
-     , (0x703A2035, 0x703A201D, '2005-02-09 10:00:00') /* Drudge Stalker */
-     , (0x703A2035, 0x703A201E, '2005-02-09 10:00:00') /* Drudge Stalker */
-     , (0x703A2035, 0x703A201F, '2005-02-09 10:00:00') /* Drudge Stalker */
-     , (0x703A2035, 0x703A2020, '2005-02-09 10:00:00') /* Drudge Stalker */
-     , (0x703A2035, 0x703A2021, '2005-02-09 10:00:00') /* Drudge Stalker */
-     , (0x703A2035, 0x703A2022, '2005-02-09 10:00:00') /* Sneaky Simulacrum */
-     , (0x703A2035, 0x703A2023, '2005-02-09 10:00:00') /* Sneaky Simulacrum */
-     , (0x703A2035, 0x703A2024, '2005-02-09 10:00:00') /* Drudge Stalker */
-     , (0x703A2035, 0x703A2025, '2005-02-09 10:00:00') /* Drudge Stalker */
-     , (0x703A2035, 0x703A2026, '2005-02-09 10:00:00') /* Drudge Stalker */
-     , (0x703A2035, 0x703A2027, '2005-02-09 10:00:00') /* Drudge Stalker */
-     , (0x703A2035, 0x703A2028, '2005-02-09 10:00:00') /* Drudge Stalker */
-     , (0x703A2035, 0x703A2029, '2005-02-09 10:00:00') /* Drudge Stalker */
-     , (0x703A2035, 0x703A202A, '2005-02-09 10:00:00') /* Drudge Stalker */
-     , (0x703A2035, 0x703A202B, '2005-02-09 10:00:00') /* Tumerok Warrior */
-     , (0x703A2035, 0x703A202C, '2005-02-09 10:00:00') /* Tumerok Warrior */
-     , (0x703A2035, 0x703A202D, '2005-02-09 10:00:00') /* Tumerok Warrior */
-     , (0x703A2035, 0x703A202E, '2005-02-09 10:00:00') /* Tumerok Warrior */
-     , (0x703A2035, 0x703A202F, '2005-02-09 10:00:00') /* Tumerok Warrior */
-     , (0x703A2035, 0x703A2030, '2005-02-09 10:00:00') /* Tumerok Warrior */
-     , (0x703A2035, 0x703A2031, '2005-02-09 10:00:00') /* Tumerok High Priest */
-     , (0x703A2035, 0x703A2032, '2005-02-09 10:00:00') /* Tumerok High Priest */
-     , (0x703A2035, 0x703A2033, '2005-02-09 10:00:00') /* Tumerok Warrior */
-     , (0x703A2035, 0x703A2034, '2005-02-09 10:00:00') /* Tumerok Warrior */;
+VALUES (0x703A2035, 0x703A2006, '2005-02-09 10:00:00') /* Sneaky Simulacrum (12133) */
+     , (0x703A2035, 0x703A2007, '2005-02-09 10:00:00') /* Sneaky Simulacrum (12133) */
+     , (0x703A2035, 0x703A2008, '2005-02-09 10:00:00') /* Sneaky Simulacrum (12133) */
+     , (0x703A2035, 0x703A2009, '2005-02-09 10:00:00') /* Sneaky Simulacrum (12133) */
+     , (0x703A2035, 0x703A200A, '2005-02-09 10:00:00') /* Crafty Simulacrum (12130) */
+     , (0x703A2035, 0x703A200B, '2005-02-09 10:00:00') /* Crafty Simulacrum (12130) */
+     , (0x703A2035, 0x703A200C, '2005-02-09 10:00:00') /* Crafty Simulacrum (12130) */
+     , (0x703A2035, 0x703A200D, '2005-02-09 10:00:00') /* Crafty Simulacrum (12130) */
+     , (0x703A2035, 0x703A200E, '2005-02-09 10:00:00') /* Crafty Simulacrum (12130) */
+     , (0x703A2035, 0x703A200F, '2005-02-09 10:00:00') /* Sneaky Simulacrum (12133) */
+     , (0x703A2035, 0x703A2010, '2005-02-09 10:00:00') /* Sneaky Simulacrum (12133) */
+     , (0x703A2035, 0x703A2011, '2005-02-09 10:00:00') /* Sneaky Simulacrum (12133) */
+     , (0x703A2035, 0x703A2012, '2005-02-09 10:00:00') /* Sneaky Simulacrum (12133) */
+     , (0x703A2035, 0x703A2013, '2005-02-09 10:00:00') /* Sneaky Simulacrum (12133) */
+     , (0x703A2035, 0x703A2014, '2005-02-09 10:00:00') /* Sneaky Simulacrum (12133) */
+     , (0x703A2035, 0x703A2015, '2005-02-09 10:00:00') /* Sneaky Simulacrum (12133) */
+     , (0x703A2035, 0x703A2016, '2005-02-09 10:00:00') /* Sneaky Simulacrum (12133) */
+     , (0x703A2035, 0x703A2017, '2005-02-09 10:00:00') /* Drudge Stalker (1609) */
+     , (0x703A2035, 0x703A2018, '2005-02-09 10:00:00') /* Drudge Stalker (1609) */
+     , (0x703A2035, 0x703A2019, '2005-02-09 10:00:00') /* Drudge Stalker (1609) */
+     , (0x703A2035, 0x703A201A, '2005-02-09 10:00:00') /* Drudge Stalker (1609) */
+     , (0x703A2035, 0x703A201B, '2005-02-09 10:00:00') /* Drudge Stalker (1609) */
+     , (0x703A2035, 0x703A201C, '2005-02-09 10:00:00') /* Drudge Stalker (1609) */
+     , (0x703A2035, 0x703A201D, '2005-02-09 10:00:00') /* Drudge Stalker (1609) */
+     , (0x703A2035, 0x703A201E, '2005-02-09 10:00:00') /* Drudge Stalker (1609) */
+     , (0x703A2035, 0x703A201F, '2005-02-09 10:00:00') /* Drudge Stalker (1609) */
+     , (0x703A2035, 0x703A2020, '2005-02-09 10:00:00') /* Drudge Stalker (1609) */
+     , (0x703A2035, 0x703A2021, '2005-02-09 10:00:00') /* Drudge Stalker (1609) */
+     , (0x703A2035, 0x703A2022, '2005-02-09 10:00:00') /* Sneaky Simulacrum (12133) */
+     , (0x703A2035, 0x703A2023, '2005-02-09 10:00:00') /* Sneaky Simulacrum (12133) */
+     , (0x703A2035, 0x703A2024, '2005-02-09 10:00:00') /* Drudge Stalker (1609) */
+     , (0x703A2035, 0x703A2025, '2005-02-09 10:00:00') /* Drudge Stalker (1609) */
+     , (0x703A2035, 0x703A2026, '2005-02-09 10:00:00') /* Drudge Stalker (1609) */
+     , (0x703A2035, 0x703A2027, '2005-02-09 10:00:00') /* Drudge Stalker (1609) */
+     , (0x703A2035, 0x703A2028, '2005-02-09 10:00:00') /* Drudge Stalker (1609) */
+     , (0x703A2035, 0x703A2029, '2005-02-09 10:00:00') /* Drudge Stalker (1609) */
+     , (0x703A2035, 0x703A202A, '2005-02-09 10:00:00') /* Drudge Stalker (1609) */
+     , (0x703A2035, 0x703A202B, '2005-02-09 10:00:00') /* Tumerok Warrior (233) */
+     , (0x703A2035, 0x703A202C, '2005-02-09 10:00:00') /* Tumerok Warrior (4100) */
+     , (0x703A2035, 0x703A202D, '2005-02-09 10:00:00') /* Tumerok Warrior (233) */
+     , (0x703A2035, 0x703A202E, '2005-02-09 10:00:00') /* Tumerok Warrior (4100) */
+     , (0x703A2035, 0x703A202F, '2005-02-09 10:00:00') /* Tumerok Warrior (4100) */
+     , (0x703A2035, 0x703A2030, '2005-02-09 10:00:00') /* Tumerok Warrior (4100) */
+     , (0x703A2035, 0x703A2031, '2005-02-09 10:00:00') /* Tumerok High Priest (4106) */
+     , (0x703A2035, 0x703A2032, '2005-02-09 10:00:00') /* Tumerok High Priest (4106) */
+     , (0x703A2035, 0x703A2033, '2005-02-09 10:00:00') /* Tumerok Warrior (4100) */
+     , (0x703A2035, 0x703A2034, '2005-02-09 10:00:00') /* Tumerok Warrior (4100) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x703A2036, 12153, 0x03A20261, 310, -40, 12.005, 1, 0, 0, 0, False, '2005-02-09 10:00:00'); /* Surface */

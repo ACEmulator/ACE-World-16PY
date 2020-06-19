@@ -5,14 +5,14 @@ VALUES (0x71A8E001,  3955, 0x1A8E0104, -351.004, -17.626, 88.405, 0.952765, 0, 0
 /* @teleloc 0x1A8E0104 [-351.004000 -17.626000 88.405000] 0.952765 0.000000 0.000000 -0.303708 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71A8E001, 0x71A8E063, '2005-02-09 10:00:00') /* Shadow */;
+VALUES (0x71A8E001, 0x71A8E063, '2005-02-09 10:00:00') /* Shadow (30826) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71A8E002,  7924, 0x1A8E010B, -208.791, -2.25, 88.405, -0.882959, 0, 0, 0.46945, False, '2005-02-09 10:00:00'); /* Linkable Monster Generator ( 5 Min.) */
 /* @teleloc 0x1A8E010B [-208.791000 -2.250000 88.405000] -0.882959 0.000000 0.000000 0.469450 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71A8E002, 0x71A8E003, '2005-02-09 10:00:00') /* Shadow Lugian Portal */;
+VALUES (0x71A8E002, 0x71A8E003, '2005-02-09 10:00:00') /* Shadow Lugian Portal (30834) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71A8E003, 30834, 0x1A8E0112, -198, -15, 88.875, 1, 0, 0, 0,  True, '2005-02-09 10:00:00'); /* Shadow Lugian Portal */
@@ -39,10 +39,10 @@ VALUES (0x71A8E008,  7932, 0x1A8E013B, -147.097, 26.658, 94.405, 0.96129, 0, 0, 
 /* @teleloc 0x1A8E013B [-147.097000 26.658000 94.405000] 0.961290 0.000000 0.000000 0.275538 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71A8E008, 0x71A8E004, '2005-02-09 10:00:00') /* Shadow Infiltrator */
-     , (0x71A8E008, 0x71A8E005, '2005-02-09 10:00:00') /* Shadow Commander */
-     , (0x71A8E008, 0x71A8E006, '2005-02-09 10:00:00') /* Shadow Infiltrator */
-     , (0x71A8E008, 0x71A8E007, '2005-02-09 10:00:00') /* Shadow Commander */;
+VALUES (0x71A8E008, 0x71A8E004, '2005-02-09 10:00:00') /* Shadow Infiltrator (30837) */
+     , (0x71A8E008, 0x71A8E005, '2005-02-09 10:00:00') /* Shadow Commander (30838) */
+     , (0x71A8E008, 0x71A8E006, '2005-02-09 10:00:00') /* Shadow Infiltrator (30837) */
+     , (0x71A8E008, 0x71A8E007, '2005-02-09 10:00:00') /* Shadow Commander (30838) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71A8E009, 30838, 0x1A8E0140, -175.54, 86.368, 100.41, 0.45614, 0, 0, -0.889908,  True, '2005-02-09 10:00:00'); /* Shadow Commander */
@@ -57,20 +57,20 @@ VALUES (0x71A8E00B,  7923, 0x1A8E0146, -156.308, 72.616, 100.405, -0.879391, 0, 
 /* @teleloc 0x1A8E0146 [-156.308000 72.616000 100.405000] -0.879391 0.000000 0.000000 0.476101 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71A8E00B, 0x71A8E009, '2005-02-09 10:00:00') /* Shadow Commander */
-     , (0x71A8E00B, 0x71A8E00A, '2005-02-09 10:00:00') /* Shadow Infiltrator */
-     , (0x71A8E00B, 0x71A8E00E, '2005-02-09 10:00:00') /* Shadow Infiltrator */
-     , (0x71A8E00B, 0x71A8E019, '2005-02-09 10:00:00') /* Shadow Commander */
-     , (0x71A8E00B, 0x71A8E01A, '2005-02-09 10:00:00') /* Shadow Infiltrator */
-     , (0x71A8E00B, 0x71A8E01B, '2005-02-09 10:00:00') /* Shadow Commander */
-     , (0x71A8E00B, 0x71A8E01E, '2005-02-09 10:00:00') /* Shadow Commander */;
+VALUES (0x71A8E00B, 0x71A8E009, '2005-02-09 10:00:00') /* Shadow Commander (30838) */
+     , (0x71A8E00B, 0x71A8E00A, '2005-02-09 10:00:00') /* Shadow Infiltrator (30837) */
+     , (0x71A8E00B, 0x71A8E00E, '2005-02-09 10:00:00') /* Shadow Infiltrator (30837) */
+     , (0x71A8E00B, 0x71A8E019, '2005-02-09 10:00:00') /* Shadow Commander (30838) */
+     , (0x71A8E00B, 0x71A8E01A, '2005-02-09 10:00:00') /* Shadow Infiltrator (30837) */
+     , (0x71A8E00B, 0x71A8E01B, '2005-02-09 10:00:00') /* Shadow Commander (30838) */
+     , (0x71A8E00B, 0x71A8E01E, '2005-02-09 10:00:00') /* Shadow Commander (30838) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71A8E00C,  7924, 0x1A8E014D, -146.298, 65.085, 100.405, 0.999687, 0, 0, 0.024997, False, '2005-02-09 10:00:00'); /* Linkable Monster Generator ( 5 Min.) */
 /* @teleloc 0x1A8E014D [-146.298000 65.085000 100.405000] 0.999687 0.000000 0.000000 0.024997 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71A8E00C, 0x71A8E00D, '2005-02-09 10:00:00') /* Amaroth */;
+VALUES (0x71A8E00C, 0x71A8E00D, '2005-02-09 10:00:00') /* Amaroth (30835) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71A8E00D, 30835, 0x1A8E014D, -148.058, 64.997, 100.41, 0.999687, 0, 0, 0.024997,  True, '2005-02-09 10:00:00'); /* Amaroth */
@@ -141,7 +141,7 @@ VALUES (0x71A8E01D,  7924, 0x1A8E0173, -158.463, 147.29, 112.405, 0.516173, 0, 0
 /* @teleloc 0x1A8E0173 [-158.463000 147.290000 112.405000] 0.516173 0.000000 0.000000 0.856484 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71A8E01D, 0x71A8E01C, '2005-02-09 10:00:00') /* Urleg */;
+VALUES (0x71A8E01D, 0x71A8E01C, '2005-02-09 10:00:00') /* Urleg (30839) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71A8E01E, 30838, 0x1A8E0176, -147.713, 136.255, 112.41, 0.363178, 0, 0, -0.93172,  True, '2005-02-09 10:00:00'); /* Shadow Commander */
@@ -156,7 +156,7 @@ VALUES (0x71A8E020, 24129, 0x1A8E0180, -216.29, 145.894, 118.405, -0.740556, 0, 
 /* @teleloc 0x1A8E0180 [-216.290000 145.894000 118.405000] -0.740556 0.000000 0.000000 -0.671995 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71A8E020, 0x71A8E01F, '2005-02-09 10:00:00') /* Shadow Commander */;
+VALUES (0x71A8E020, 0x71A8E01F, '2005-02-09 10:00:00') /* Shadow Commander (30838) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71A8E021, 30838, 0x1A8E018D, -228.575, 173.408, 124.41, -0.963042, 0, 0, 0.269351,  True, '2005-02-09 10:00:00'); /* Shadow Commander */
@@ -167,16 +167,16 @@ VALUES (0x71A8E022,  7932, 0x1A8E0195, -206.661, 173.013, 124.405, -0.999847, 0,
 /* @teleloc 0x1A8E0195 [-206.661000 173.013000 124.405000] -0.999847 0.000000 0.000000 -0.017489 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71A8E022, 0x71A8E021, '2005-02-09 10:00:00') /* Shadow Commander */
-     , (0x71A8E022, 0x71A8E023, '2005-02-09 10:00:00') /* Shadow Commander */
-     , (0x71A8E022, 0x71A8E024, '2005-02-09 10:00:00') /* Shadow Infiltrator */
-     , (0x71A8E022, 0x71A8E025, '2005-02-09 10:00:00') /* Shadow Infiltrator */
-     , (0x71A8E022, 0x71A8E026, '2005-02-09 10:00:00') /* Shadow Infiltrator */
-     , (0x71A8E022, 0x71A8E027, '2005-02-09 10:00:00') /* Shadow Commander */
-     , (0x71A8E022, 0x71A8E028, '2005-02-09 10:00:00') /* Shadow Commander */
-     , (0x71A8E022, 0x71A8E030, '2005-02-09 10:00:00') /* Shadow Commander */
-     , (0x71A8E022, 0x71A8E032, '2005-02-09 10:00:00') /* Shadow Commander */
-     , (0x71A8E022, 0x71A8E033, '2005-02-09 10:00:00') /* Shadow Infiltrator */;
+VALUES (0x71A8E022, 0x71A8E021, '2005-02-09 10:00:00') /* Shadow Commander (30838) */
+     , (0x71A8E022, 0x71A8E023, '2005-02-09 10:00:00') /* Shadow Commander (30838) */
+     , (0x71A8E022, 0x71A8E024, '2005-02-09 10:00:00') /* Shadow Infiltrator (30837) */
+     , (0x71A8E022, 0x71A8E025, '2005-02-09 10:00:00') /* Shadow Infiltrator (30837) */
+     , (0x71A8E022, 0x71A8E026, '2005-02-09 10:00:00') /* Shadow Infiltrator (30837) */
+     , (0x71A8E022, 0x71A8E027, '2005-02-09 10:00:00') /* Shadow Commander (30838) */
+     , (0x71A8E022, 0x71A8E028, '2005-02-09 10:00:00') /* Shadow Commander (30838) */
+     , (0x71A8E022, 0x71A8E030, '2005-02-09 10:00:00') /* Shadow Commander (30838) */
+     , (0x71A8E022, 0x71A8E032, '2005-02-09 10:00:00') /* Shadow Commander (30838) */
+     , (0x71A8E022, 0x71A8E033, '2005-02-09 10:00:00') /* Shadow Infiltrator (30837) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71A8E023, 30838, 0x1A8E0196, -211.677, 165.839, 124.41, -0.915664, 0, 0, 0.401944,  True, '2005-02-09 10:00:00'); /* Shadow Commander */
@@ -219,7 +219,7 @@ VALUES (0x71A8E02C, 15759, 0x1A8E01DD, -169.737, 158.175, 130.405, 0.955337, 0, 
 /* @teleloc 0x1A8E01DD [-169.737000 158.175000 130.405000] 0.955337 0.000000 0.000000 0.295520 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71A8E02C, 0x71A8E02B, '2005-02-09 10:00:00') /* Filthy Key */;
+VALUES (0x71A8E02C, 0x71A8E02B, '2005-02-09 10:00:00') /* Filthy Key (30842) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71A8E02D, 30840, 0x1A8E01DD, -168, 155, 130.41, -0.684709, 0, 0, 0.728817,  True, '2005-02-09 10:00:00'); /* Shoktok */
@@ -230,21 +230,21 @@ VALUES (0x71A8E02E,  7924, 0x1A8E01DD, -168.986, 153.571, 130.405, -0.990088, 0,
 /* @teleloc 0x1A8E01DD [-168.986000 153.571000 130.405000] -0.990088 0.000000 0.000000 0.140450 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71A8E02E, 0x71A8E02D, '2005-02-09 10:00:00') /* Shoktok */;
+VALUES (0x71A8E02E, 0x71A8E02D, '2005-02-09 10:00:00') /* Shoktok (30840) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71A8E02F,  7932, 0x1A8E01DE, -167.335, 150.211, 130.405, -0.965019, 0, 0, 0.262181, False, '2005-02-09 10:00:00'); /* Linkable Monster Generator ( 4 Min.) */
 /* @teleloc 0x1A8E01DE [-167.335000 150.211000 130.405000] -0.965019 0.000000 0.000000 0.262181 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71A8E02F, 0x71A8E029, '2005-02-09 10:00:00') /* Shadow Infiltrator */
-     , (0x71A8E02F, 0x71A8E02A, '2005-02-09 10:00:00') /* Shadow Infiltrator */
-     , (0x71A8E02F, 0x71A8E031, '2005-02-09 10:00:00') /* Shadow Infiltrator */
-     , (0x71A8E02F, 0x71A8E034, '2005-02-09 10:00:00') /* Shadow Infiltrator */
-     , (0x71A8E02F, 0x71A8E035, '2005-02-09 10:00:00') /* Shadow Commander */
-     , (0x71A8E02F, 0x71A8E036, '2005-02-09 10:00:00') /* Shadow Infiltrator */
-     , (0x71A8E02F, 0x71A8E037, '2005-02-09 10:00:00') /* Shadow Infiltrator */
-     , (0x71A8E02F, 0x71A8E03B, '2005-02-09 10:00:00') /* Shadow Commander */;
+VALUES (0x71A8E02F, 0x71A8E029, '2005-02-09 10:00:00') /* Shadow Infiltrator (30837) */
+     , (0x71A8E02F, 0x71A8E02A, '2005-02-09 10:00:00') /* Shadow Infiltrator (30837) */
+     , (0x71A8E02F, 0x71A8E031, '2005-02-09 10:00:00') /* Shadow Infiltrator (30837) */
+     , (0x71A8E02F, 0x71A8E034, '2005-02-09 10:00:00') /* Shadow Infiltrator (30837) */
+     , (0x71A8E02F, 0x71A8E035, '2005-02-09 10:00:00') /* Shadow Commander (30838) */
+     , (0x71A8E02F, 0x71A8E036, '2005-02-09 10:00:00') /* Shadow Infiltrator (30837) */
+     , (0x71A8E02F, 0x71A8E037, '2005-02-09 10:00:00') /* Shadow Infiltrator (30837) */
+     , (0x71A8E02F, 0x71A8E03B, '2005-02-09 10:00:00') /* Shadow Commander (30838) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71A8E030, 30838, 0x1A8E01E8, -166.599, 234.761, 136.41, -0.485693, 0, 0, 0.874129,  True, '2005-02-09 10:00:00'); /* Shadow Commander */
@@ -291,7 +291,7 @@ VALUES (0x71A8E03A, 24129, 0x1A8E0238, -117.76, 214.524, 142.405, 0.673602, 0, 0
 /* @teleloc 0x1A8E0238 [-117.760000 214.524000 142.405000] 0.673602 0.000000 0.000000 0.739094 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71A8E03A, 0x71A8E039, '2005-02-09 10:00:00') /* Shadow Commander */;
+VALUES (0x71A8E03A, 0x71A8E039, '2005-02-09 10:00:00') /* Shadow Commander (30838) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71A8E03B, 30838, 0x1A8E0240, -118.381, 185.769, 142.41, -0.998638, 0, 0, -0.052167,  True, '2005-02-09 10:00:00'); /* Shadow Commander */
@@ -306,9 +306,9 @@ VALUES (0x71A8E03D,  7923, 0x1A8E0252, -89.594, 214.633, 142.405, 0.709899, 0, 0
 /* @teleloc 0x1A8E0252 [-89.594000 214.633000 142.405000] 0.709899 0.000000 0.000000 -0.704303 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71A8E03D, 0x71A8E03C, '2005-02-09 10:00:00') /* Shadow Infiltrator */
-     , (0x71A8E03D, 0x71A8E03E, '2005-02-09 10:00:00') /* Shadow Infiltrator */
-     , (0x71A8E03D, 0x71A8E03F, '2005-02-09 10:00:00') /* Shadow Infiltrator */;
+VALUES (0x71A8E03D, 0x71A8E03C, '2005-02-09 10:00:00') /* Shadow Infiltrator (30837) */
+     , (0x71A8E03D, 0x71A8E03E, '2005-02-09 10:00:00') /* Shadow Infiltrator (30837) */
+     , (0x71A8E03D, 0x71A8E03F, '2005-02-09 10:00:00') /* Shadow Infiltrator (30837) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71A8E03E, 30837, 0x1A8E0253, -78.923, 222.739, 142.41, 0.105688, 0, 0, -0.994399,  True, '2005-02-09 10:00:00'); /* Shadow Infiltrator */
@@ -327,10 +327,10 @@ VALUES (0x71A8E041,  3955, 0x1A8E0263, -78, 255, 148.405, 1, 0, 0, 0, False, '20
 /* @teleloc 0x1A8E0263 [-78.000000 255.000000 148.405000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71A8E041, 0x71A8E040, '2005-02-09 10:00:00') /* Lugian Prisoner */
-     , (0x71A8E041, 0x71A8E042, '2005-02-09 10:00:00') /* Lugian Prisoner */
-     , (0x71A8E041, 0x71A8E043, '2005-02-09 10:00:00') /* Lugian Prisoner */
-     , (0x71A8E041, 0x71A8E044, '2005-02-09 10:00:00') /* Lugian Prisoner */;
+VALUES (0x71A8E041, 0x71A8E040, '2005-02-09 10:00:00') /* Lugian Prisoner (30825) */
+     , (0x71A8E041, 0x71A8E042, '2005-02-09 10:00:00') /* Lugian Prisoner (30824) */
+     , (0x71A8E041, 0x71A8E043, '2005-02-09 10:00:00') /* Lugian Prisoner (30827) */
+     , (0x71A8E041, 0x71A8E044, '2005-02-09 10:00:00') /* Lugian Prisoner (30828) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71A8E042, 30824, 0x1A8E0269, -68.112, 261.424, 148.41, 0.0635029, 0, 0, -0.997982,  True, '2005-02-09 10:00:00'); /* Lugian Prisoner */
@@ -357,12 +357,12 @@ VALUES (0x71A8E047,  7923, 0x1A8E028B, -146.663, 85.275, 178.405, -0.999969, 0, 
 /* @teleloc 0x1A8E028B [-146.663000 85.275000 178.405000] -0.999969 0.000000 0.000000 -0.007912 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71A8E047, 0x71A8E045, '2005-02-09 10:00:00') /* Shadow Infiltrator */
-     , (0x71A8E047, 0x71A8E046, '2005-02-09 10:00:00') /* Shadow Commander */
-     , (0x71A8E047, 0x71A8E049, '2005-02-09 10:00:00') /* Shadow Infiltrator */
-     , (0x71A8E047, 0x71A8E05A, '2005-02-09 10:00:00') /* Shadow Infiltrator */
-     , (0x71A8E047, 0x71A8E05B, '2005-02-09 10:00:00') /* Shadow Seeker */
-     , (0x71A8E047, 0x71A8E05C, '2005-02-09 10:00:00') /* Shadow Seeker */;
+VALUES (0x71A8E047, 0x71A8E045, '2005-02-09 10:00:00') /* Shadow Infiltrator (30837) */
+     , (0x71A8E047, 0x71A8E046, '2005-02-09 10:00:00') /* Shadow Commander (30838) */
+     , (0x71A8E047, 0x71A8E049, '2005-02-09 10:00:00') /* Shadow Infiltrator (30837) */
+     , (0x71A8E047, 0x71A8E05A, '2005-02-09 10:00:00') /* Shadow Infiltrator (30837) */
+     , (0x71A8E047, 0x71A8E05B, '2005-02-09 10:00:00') /* Shadow Seeker (30836) */
+     , (0x71A8E047, 0x71A8E05C, '2005-02-09 10:00:00') /* Shadow Seeker (30836) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71A8E048, 30846, 0x1A8E028D, -147.97, 77.312, 178.405, 1, 0, 0, -4.37114E-08, False, '2005-02-09 10:00:00'); /* Inner Stronghold */
@@ -401,12 +401,12 @@ VALUES (0x71A8E050,  7923, 0x1A8E0299, -137.721, 155.568, 184.405, -0.371568, 0,
 /* @teleloc 0x1A8E0299 [-137.721000 155.568000 184.405000] -0.371568 0.000000 0.000000 -0.928406 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71A8E050, 0x71A8E04E, '2005-02-09 10:00:00') /* Shadow Seeker */
-     , (0x71A8E050, 0x71A8E04F, '2005-02-09 10:00:00') /* Shadow Infiltrator */
-     , (0x71A8E050, 0x71A8E051, '2005-02-09 10:00:00') /* Shadow Seeker */
-     , (0x71A8E050, 0x71A8E052, '2005-02-09 10:00:00') /* Shadow Seeker */
-     , (0x71A8E050, 0x71A8E05D, '2005-02-09 10:00:00') /* Shadow Seeker */
-     , (0x71A8E050, 0x71A8E05E, '2005-02-09 10:00:00') /* Shadow Infiltrator */;
+VALUES (0x71A8E050, 0x71A8E04E, '2005-02-09 10:00:00') /* Shadow Seeker (30836) */
+     , (0x71A8E050, 0x71A8E04F, '2005-02-09 10:00:00') /* Shadow Infiltrator (30837) */
+     , (0x71A8E050, 0x71A8E051, '2005-02-09 10:00:00') /* Shadow Seeker (30836) */
+     , (0x71A8E050, 0x71A8E052, '2005-02-09 10:00:00') /* Shadow Seeker (30836) */
+     , (0x71A8E050, 0x71A8E05D, '2005-02-09 10:00:00') /* Shadow Seeker (30836) */
+     , (0x71A8E050, 0x71A8E05E, '2005-02-09 10:00:00') /* Shadow Infiltrator (30837) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71A8E051, 30836, 0x1A8E029D, -118.099, 162.301, 184.41, -0.039729, 0, 0, 0.99921,  True, '2005-02-09 10:00:00'); /* Shadow Seeker */
@@ -473,16 +473,16 @@ VALUES (0x71A8E060,  7923, 0x1A8E02FA, -87.754, 155.22, 190.405, 0.724683, 0, 0,
 /* @teleloc 0x1A8E02FA [-87.754000 155.220000 190.405000] 0.724683 0.000000 0.000000 -0.689082 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71A8E060, 0x71A8E053, '2005-02-09 10:00:00') /* Shadow Infiltrator */
-     , (0x71A8E060, 0x71A8E054, '2005-02-09 10:00:00') /* Shadow Seeker */
-     , (0x71A8E060, 0x71A8E055, '2005-02-09 10:00:00') /* Shadow Infiltrator */
-     , (0x71A8E060, 0x71A8E056, '2005-02-09 10:00:00') /* Shadow Seeker */
-     , (0x71A8E060, 0x71A8E057, '2005-02-09 10:00:00') /* Shadow Seeker */
-     , (0x71A8E060, 0x71A8E058, '2005-02-09 10:00:00') /* Shadow Seeker */
-     , (0x71A8E060, 0x71A8E059, '2005-02-09 10:00:00') /* Shadow Seeker */
-     , (0x71A8E060, 0x71A8E05F, '2005-02-09 10:00:00') /* Shadow Infiltrator */
-     , (0x71A8E060, 0x71A8E061, '2005-02-09 10:00:00') /* Shadow Seeker */
-     , (0x71A8E060, 0x71A8E062, '2005-02-09 10:00:00') /* Shadow Seeker */;
+VALUES (0x71A8E060, 0x71A8E053, '2005-02-09 10:00:00') /* Shadow Infiltrator (30837) */
+     , (0x71A8E060, 0x71A8E054, '2005-02-09 10:00:00') /* Shadow Seeker (30836) */
+     , (0x71A8E060, 0x71A8E055, '2005-02-09 10:00:00') /* Shadow Infiltrator (30837) */
+     , (0x71A8E060, 0x71A8E056, '2005-02-09 10:00:00') /* Shadow Seeker (30836) */
+     , (0x71A8E060, 0x71A8E057, '2005-02-09 10:00:00') /* Shadow Seeker (30836) */
+     , (0x71A8E060, 0x71A8E058, '2005-02-09 10:00:00') /* Shadow Seeker (30836) */
+     , (0x71A8E060, 0x71A8E059, '2005-02-09 10:00:00') /* Shadow Seeker (30836) */
+     , (0x71A8E060, 0x71A8E05F, '2005-02-09 10:00:00') /* Shadow Infiltrator (30837) */
+     , (0x71A8E060, 0x71A8E061, '2005-02-09 10:00:00') /* Shadow Seeker (30836) */
+     , (0x71A8E060, 0x71A8E062, '2005-02-09 10:00:00') /* Shadow Seeker (30836) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71A8E061, 30836, 0x1A8E0305, 2.36099, 137.212, 190.41, -0.992173, 0, 0, 0.124873,  True, '2005-02-09 10:00:00'); /* Shadow Seeker */
@@ -533,14 +533,14 @@ VALUES (0x71A8E06C,  7924, 0x1A8E0000, 20.9885, 99.9713, 220.005, 0.751508, 0, 0
 /* @teleloc 0x1A8E0000 [20.988500 99.971300 220.005000] 0.751508 0.000000 0.000000 0.659724 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71A8E06C, 0x71A8E064, '2005-02-09 10:00:00') /* Shadow Seeker */
-     , (0x71A8E06C, 0x71A8E065, '2005-02-09 10:00:00') /* Shadow Seeker */
-     , (0x71A8E06C, 0x71A8E066, '2005-02-09 10:00:00') /* Shadow Seeker */
-     , (0x71A8E06C, 0x71A8E067, '2005-02-09 10:00:00') /* Shadow Infiltrator */
-     , (0x71A8E06C, 0x71A8E068, '2005-02-09 10:00:00') /* Shadow Infiltrator */
-     , (0x71A8E06C, 0x71A8E069, '2005-02-09 10:00:00') /* Shadow Infiltrator */
-     , (0x71A8E06C, 0x71A8E06A, '2005-02-09 10:00:00') /* Shadow Seeker */
-     , (0x71A8E06C, 0x71A8E06B, '2005-02-09 10:00:00') /* Shadow Seeker */;
+VALUES (0x71A8E06C, 0x71A8E064, '2005-02-09 10:00:00') /* Shadow Seeker (30836) */
+     , (0x71A8E06C, 0x71A8E065, '2005-02-09 10:00:00') /* Shadow Seeker (30836) */
+     , (0x71A8E06C, 0x71A8E066, '2005-02-09 10:00:00') /* Shadow Seeker (30836) */
+     , (0x71A8E06C, 0x71A8E067, '2005-02-09 10:00:00') /* Shadow Infiltrator (30837) */
+     , (0x71A8E06C, 0x71A8E068, '2005-02-09 10:00:00') /* Shadow Infiltrator (30837) */
+     , (0x71A8E06C, 0x71A8E069, '2005-02-09 10:00:00') /* Shadow Infiltrator (30837) */
+     , (0x71A8E06C, 0x71A8E06A, '2005-02-09 10:00:00') /* Shadow Seeker (30836) */
+     , (0x71A8E06C, 0x71A8E06B, '2005-02-09 10:00:00') /* Shadow Seeker (30836) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71A8E06D, 30836, 0x1A8E0125, -169.207, 26.258, 88.41, -0.57842, 0, 0, 0.815739,  True, '2005-02-09 10:00:00'); /* Shadow Seeker */
@@ -615,20 +615,20 @@ VALUES (0x71A8E07E,  7932, 0x1A8E0325, 2.41501, 153.747, 208.405, -0.975665, 0, 
 /* @teleloc 0x1A8E0325 [2.415010 153.747000 208.405000] -0.975665 0.000000 0.000000 0.219268 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71A8E07E, 0x71A8E06D, '2005-02-09 10:00:00') /* Shadow Seeker */
-     , (0x71A8E07E, 0x71A8E06E, '2005-02-09 10:00:00') /* Shadow Seeker */
-     , (0x71A8E07E, 0x71A8E06F, '2005-02-09 10:00:00') /* Shadow Seeker */
-     , (0x71A8E07E, 0x71A8E070, '2005-02-09 10:00:00') /* Shadow Seeker */
-     , (0x71A8E07E, 0x71A8E071, '2005-02-09 10:00:00') /* Shadow Seeker */
-     , (0x71A8E07E, 0x71A8E072, '2005-02-09 10:00:00') /* Shadow Seeker */
-     , (0x71A8E07E, 0x71A8E073, '2005-02-09 10:00:00') /* Shadow Seeker */
-     , (0x71A8E07E, 0x71A8E074, '2005-02-09 10:00:00') /* Shadow Seeker */
-     , (0x71A8E07E, 0x71A8E075, '2005-02-09 10:00:00') /* Shadow Seeker */
-     , (0x71A8E07E, 0x71A8E076, '2005-02-09 10:00:00') /* Shadow Seeker */
-     , (0x71A8E07E, 0x71A8E077, '2005-02-09 10:00:00') /* Shadow Seeker */
-     , (0x71A8E07E, 0x71A8E078, '2005-02-09 10:00:00') /* Shadow Seeker */
-     , (0x71A8E07E, 0x71A8E079, '2005-02-09 10:00:00') /* Shadow Seeker */
-     , (0x71A8E07E, 0x71A8E07A, '2005-02-09 10:00:00') /* Shadow Seeker */
-     , (0x71A8E07E, 0x71A8E07B, '2005-02-09 10:00:00') /* Shadow Seeker */
-     , (0x71A8E07E, 0x71A8E07C, '2005-02-09 10:00:00') /* Shadow Seeker */
-     , (0x71A8E07E, 0x71A8E07D, '2005-02-09 10:00:00') /* Shadow Seeker */;
+VALUES (0x71A8E07E, 0x71A8E06D, '2005-02-09 10:00:00') /* Shadow Seeker (30836) */
+     , (0x71A8E07E, 0x71A8E06E, '2005-02-09 10:00:00') /* Shadow Seeker (30836) */
+     , (0x71A8E07E, 0x71A8E06F, '2005-02-09 10:00:00') /* Shadow Seeker (30836) */
+     , (0x71A8E07E, 0x71A8E070, '2005-02-09 10:00:00') /* Shadow Seeker (30836) */
+     , (0x71A8E07E, 0x71A8E071, '2005-02-09 10:00:00') /* Shadow Seeker (30836) */
+     , (0x71A8E07E, 0x71A8E072, '2005-02-09 10:00:00') /* Shadow Seeker (30836) */
+     , (0x71A8E07E, 0x71A8E073, '2005-02-09 10:00:00') /* Shadow Seeker (30836) */
+     , (0x71A8E07E, 0x71A8E074, '2005-02-09 10:00:00') /* Shadow Seeker (30836) */
+     , (0x71A8E07E, 0x71A8E075, '2005-02-09 10:00:00') /* Shadow Seeker (30836) */
+     , (0x71A8E07E, 0x71A8E076, '2005-02-09 10:00:00') /* Shadow Seeker (30836) */
+     , (0x71A8E07E, 0x71A8E077, '2005-02-09 10:00:00') /* Shadow Seeker (30836) */
+     , (0x71A8E07E, 0x71A8E078, '2005-02-09 10:00:00') /* Shadow Seeker (30836) */
+     , (0x71A8E07E, 0x71A8E079, '2005-02-09 10:00:00') /* Shadow Seeker (30836) */
+     , (0x71A8E07E, 0x71A8E07A, '2005-02-09 10:00:00') /* Shadow Seeker (30836) */
+     , (0x71A8E07E, 0x71A8E07B, '2005-02-09 10:00:00') /* Shadow Seeker (30836) */
+     , (0x71A8E07E, 0x71A8E07C, '2005-02-09 10:00:00') /* Shadow Seeker (30836) */
+     , (0x71A8E07E, 0x71A8E07D, '2005-02-09 10:00:00') /* Shadow Seeker (30836) */;

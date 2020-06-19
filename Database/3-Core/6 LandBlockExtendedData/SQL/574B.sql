@@ -13,7 +13,7 @@ VALUES (0x7574B002,  7923, 0x574B0126, 89.5831, -23.588, 0.005, 0.702244, 0, 0, 
 /* @teleloc 0x574B0126 [89.583100 -23.588000 0.005000] 0.702244 0.000000 0.000000 -0.711937 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7574B002, 0x7574B003, '2005-02-09 10:00:00') /* Aun Talamura */;
+VALUES (0x7574B002, 0x7574B003, '2005-02-09 10:00:00') /* Aun Talamura (23040) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7574B003, 23040, 0x574B0126, 91.3513, -21.514, 0.006, 0.785533, 0, 0, 0.61882,  True, '2005-02-09 10:00:00'); /* Aun Talamura */

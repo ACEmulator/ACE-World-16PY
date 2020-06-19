@@ -29,13 +29,13 @@ VALUES (0x7F85A006,  3955, 0xF85A0000, 32.331, 68.1912, 100.005, 0.385131, 0, 0,
 /* @teleloc 0xF85A0000 [32.331000 68.191200 100.005000] 0.385131 0.000000 0.000000 0.922862 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7F85A006, 0x7F85A000, '2005-02-09 10:00:00') /* Green Phyntos Wasp */
-     , (0x7F85A006, 0x7F85A001, '2005-02-09 10:00:00') /* Green Phyntos Wasp */
-     , (0x7F85A006, 0x7F85A002, '2005-02-09 10:00:00') /* Blue Phyntos Wasp */
-     , (0x7F85A006, 0x7F85A003, '2005-02-09 10:00:00') /* Young Banderling */
-     , (0x7F85A006, 0x7F85A005, '2005-02-09 10:00:00') /* Banderling Raver */
-     , (0x7F85A006, 0x7F85A007, '2005-02-09 10:00:00') /* Shallows Shark */
-     , (0x7F85A006, 0x7F85A008, '2005-02-09 10:00:00') /* Shallows Shark */;
+VALUES (0x7F85A006, 0x7F85A000, '2005-02-09 10:00:00') /* Green Phyntos Wasp (216) */
+     , (0x7F85A006, 0x7F85A001, '2005-02-09 10:00:00') /* Green Phyntos Wasp (216) */
+     , (0x7F85A006, 0x7F85A002, '2005-02-09 10:00:00') /* Blue Phyntos Wasp (215) */
+     , (0x7F85A006, 0x7F85A003, '2005-02-09 10:00:00') /* Young Banderling (939) */
+     , (0x7F85A006, 0x7F85A005, '2005-02-09 10:00:00') /* Banderling Raver (183) */
+     , (0x7F85A006, 0x7F85A007, '2005-02-09 10:00:00') /* Shallows Shark (2577) */
+     , (0x7F85A006, 0x7F85A008, '2005-02-09 10:00:00') /* Shallows Shark (2577) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7F85A007,  2577, 0xF85A0000, 162.621, 24.5584, -0.445, -0.505498, 0, 0, 0.862828,  True, '2005-02-09 10:00:00'); /* Shallows Shark */

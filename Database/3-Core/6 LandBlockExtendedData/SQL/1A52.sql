@@ -5,19 +5,19 @@ VALUES (0x71A5200A,  4219, 0x1A520100, 31.0253, 65.9115, -6.34, -0.696548, 0, 0,
 /* @teleloc 0x1A520100 [31.025300 65.911500 -6.340000] -0.696548 0.000000 0.000000 -0.717510 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71A5200A, 0x71A5200B, '2005-02-09 10:00:00') /* Shadow Phantom */
-     , (0x71A5200A, 0x71A5200C, '2005-02-09 10:00:00') /* Shadow Phantom */
-     , (0x71A5200A, 0x71A5200D, '2005-02-09 10:00:00') /* Shadow Spectre */
-     , (0x71A5200A, 0x71A5200E, '2005-02-09 10:00:00') /* Shadow Wraith */
-     , (0x71A5200A, 0x71A5200F, '2005-02-09 10:00:00') /* Shadow Wraith */
-     , (0x71A5200A, 0x71A52010, '2005-02-09 10:00:00') /* Shadow Phantom */
-     , (0x71A5200A, 0x71A52011, '2005-02-09 10:00:00') /* Shadow Phantom */
-     , (0x71A5200A, 0x71A52012, '2005-02-09 10:00:00') /* Shadow Phantom */
-     , (0x71A5200A, 0x71A52013, '2005-02-09 10:00:00') /* Shadow Spectre */
-     , (0x71A5200A, 0x71A52014, '2005-02-09 10:00:00') /* Shadow Spectre */
-     , (0x71A5200A, 0x71A52015, '2005-02-09 10:00:00') /* Shadow Wraith */
-     , (0x71A5200A, 0x71A52016, '2005-02-09 10:00:00') /* Bane Grievver */
-     , (0x71A5200A, 0x71A52017, '2005-02-09 10:00:00') /* Bane Grievver */;
+VALUES (0x71A5200A, 0x71A5200B, '2005-02-09 10:00:00') /* Shadow Phantom (23089) */
+     , (0x71A5200A, 0x71A5200C, '2005-02-09 10:00:00') /* Shadow Phantom (23089) */
+     , (0x71A5200A, 0x71A5200D, '2005-02-09 10:00:00') /* Shadow Spectre (23090) */
+     , (0x71A5200A, 0x71A5200E, '2005-02-09 10:00:00') /* Shadow Wraith (23091) */
+     , (0x71A5200A, 0x71A5200F, '2005-02-09 10:00:00') /* Shadow Wraith (23091) */
+     , (0x71A5200A, 0x71A52010, '2005-02-09 10:00:00') /* Shadow Phantom (23089) */
+     , (0x71A5200A, 0x71A52011, '2005-02-09 10:00:00') /* Shadow Phantom (23089) */
+     , (0x71A5200A, 0x71A52012, '2005-02-09 10:00:00') /* Shadow Phantom (23089) */
+     , (0x71A5200A, 0x71A52013, '2005-02-09 10:00:00') /* Shadow Spectre (23090) */
+     , (0x71A5200A, 0x71A52014, '2005-02-09 10:00:00') /* Shadow Spectre (23090) */
+     , (0x71A5200A, 0x71A52015, '2005-02-09 10:00:00') /* Shadow Wraith (23091) */
+     , (0x71A5200A, 0x71A52016, '2005-02-09 10:00:00') /* Bane Grievver (7983) */
+     , (0x71A5200A, 0x71A52017, '2005-02-09 10:00:00') /* Bane Grievver (7983) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71A5200B, 23089, 0x1A520000, 34.0946, 52.5491, 0.005, -0.0101081, 0, 0, -0.999949,  True, '2005-02-09 10:00:00'); /* Shadow Phantom */

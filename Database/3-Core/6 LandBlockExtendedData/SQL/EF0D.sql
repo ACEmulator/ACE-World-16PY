@@ -97,28 +97,28 @@ VALUES (0x7EF0D017,  4219, 0xEF0D0000, 69.5622, 71.0414, 107.905, -0.696779, 0, 
 /* @teleloc 0xEF0D0000 [69.562200 71.041400 107.905000] -0.696779 0.000000 0.000000 -0.717286 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7EF0D017, 0x7EF0D001, '2005-02-09 10:00:00') /* Small Water Golem */
-     , (0x7EF0D017, 0x7EF0D002, '2005-02-09 10:00:00') /* Small Water Golem */
-     , (0x7EF0D017, 0x7EF0D003, '2005-02-09 10:00:00') /* Small Water Golem */
-     , (0x7EF0D017, 0x7EF0D004, '2005-02-09 10:00:00') /* Small Water Golem */
-     , (0x7EF0D017, 0x7EF0D005, '2005-02-09 10:00:00') /* Small Water Golem */
-     , (0x7EF0D017, 0x7EF0D006, '2005-02-09 10:00:00') /* Small Water Golem */
-     , (0x7EF0D017, 0x7EF0D007, '2005-02-09 10:00:00') /* Small Water Golem */
-     , (0x7EF0D017, 0x7EF0D008, '2005-02-09 10:00:00') /* Small Water Golem */
-     , (0x7EF0D017, 0x7EF0D009, '2005-02-09 10:00:00') /* Small Water Golem */
-     , (0x7EF0D017, 0x7EF0D00A, '2005-02-09 10:00:00') /* Small Mud Golem */
-     , (0x7EF0D017, 0x7EF0D00B, '2005-02-09 10:00:00') /* Small Mud Golem */
-     , (0x7EF0D017, 0x7EF0D00C, '2005-02-09 10:00:00') /* Small Mud Golem */
-     , (0x7EF0D017, 0x7EF0D00D, '2005-02-09 10:00:00') /* Small Mud Golem */
-     , (0x7EF0D017, 0x7EF0D00E, '2005-02-09 10:00:00') /* Small Water Golem */
-     , (0x7EF0D017, 0x7EF0D00F, '2005-02-09 10:00:00') /* Small Water Golem */
-     , (0x7EF0D017, 0x7EF0D010, '2005-02-09 10:00:00') /* Small Water Golem */
-     , (0x7EF0D017, 0x7EF0D011, '2005-02-09 10:00:00') /* Nubilous Golem */
-     , (0x7EF0D017, 0x7EF0D012, '2005-02-09 10:00:00') /* Nubilous Golem */
-     , (0x7EF0D017, 0x7EF0D013, '2005-02-09 10:00:00') /* Nubilous Golem */
-     , (0x7EF0D017, 0x7EF0D014, '2005-02-09 10:00:00') /* Nubilous Golem */
-     , (0x7EF0D017, 0x7EF0D015, '2005-02-09 10:00:00') /* Diamond Golem */
-     , (0x7EF0D017, 0x7EF0D016, '2005-02-09 10:00:00') /* Cursed Wisp */;
+VALUES (0x7EF0D017, 0x7EF0D001, '2005-02-09 10:00:00') /* Small Water Golem (24485) */
+     , (0x7EF0D017, 0x7EF0D002, '2005-02-09 10:00:00') /* Small Water Golem (24485) */
+     , (0x7EF0D017, 0x7EF0D003, '2005-02-09 10:00:00') /* Small Water Golem (24485) */
+     , (0x7EF0D017, 0x7EF0D004, '2005-02-09 10:00:00') /* Small Water Golem (24485) */
+     , (0x7EF0D017, 0x7EF0D005, '2005-02-09 10:00:00') /* Small Water Golem (24485) */
+     , (0x7EF0D017, 0x7EF0D006, '2005-02-09 10:00:00') /* Small Water Golem (24485) */
+     , (0x7EF0D017, 0x7EF0D007, '2005-02-09 10:00:00') /* Small Water Golem (24485) */
+     , (0x7EF0D017, 0x7EF0D008, '2005-02-09 10:00:00') /* Small Water Golem (24485) */
+     , (0x7EF0D017, 0x7EF0D009, '2005-02-09 10:00:00') /* Small Water Golem (24485) */
+     , (0x7EF0D017, 0x7EF0D00A, '2005-02-09 10:00:00') /* Small Mud Golem (24482) */
+     , (0x7EF0D017, 0x7EF0D00B, '2005-02-09 10:00:00') /* Small Mud Golem (24482) */
+     , (0x7EF0D017, 0x7EF0D00C, '2005-02-09 10:00:00') /* Small Mud Golem (24482) */
+     , (0x7EF0D017, 0x7EF0D00D, '2005-02-09 10:00:00') /* Small Mud Golem (24482) */
+     , (0x7EF0D017, 0x7EF0D00E, '2005-02-09 10:00:00') /* Small Water Golem (24485) */
+     , (0x7EF0D017, 0x7EF0D00F, '2005-02-09 10:00:00') /* Small Water Golem (24485) */
+     , (0x7EF0D017, 0x7EF0D010, '2005-02-09 10:00:00') /* Small Water Golem (24485) */
+     , (0x7EF0D017, 0x7EF0D011, '2005-02-09 10:00:00') /* Nubilous Golem (23082) */
+     , (0x7EF0D017, 0x7EF0D012, '2005-02-09 10:00:00') /* Nubilous Golem (23082) */
+     , (0x7EF0D017, 0x7EF0D013, '2005-02-09 10:00:00') /* Nubilous Golem (23082) */
+     , (0x7EF0D017, 0x7EF0D014, '2005-02-09 10:00:00') /* Nubilous Golem (23082) */
+     , (0x7EF0D017, 0x7EF0D015, '2005-02-09 10:00:00') /* Diamond Golem (4216) */
+     , (0x7EF0D017, 0x7EF0D016, '2005-02-09 10:00:00') /* Cursed Wisp (7126) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7EF0D018, 29786, 0xEF0D0102, 86.0265, 107.745, 108.31, 0.983488, 0, 0, 0.180974, False, '2005-02-09 10:00:00'); /* Steamy Font */
@@ -153,7 +153,7 @@ VALUES (0x7EF0D022,  7924, 0xEF0D0000, 61.4612, 38.548, 173.805, -0.23004, 0, 0,
 /* @teleloc 0xEF0D0000 [61.461200 38.548000 173.805000] -0.230040 0.000000 0.000000 -0.973181 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7EF0D022, 0x7EF0D021, '2005-02-09 10:00:00') /* Font Guardian */;
+VALUES (0x7EF0D022, 0x7EF0D021, '2005-02-09 10:00:00') /* Font Guardian (29730) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7EF0D023, 29674, 0xEF0D0000, 91.8137, 23.639, 107.555, -0.463161, 0, 0, 0.886274, False, '2005-02-09 10:00:00'); /* Heat Font Hotspot Generator */

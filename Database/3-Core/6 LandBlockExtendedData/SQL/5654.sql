@@ -21,7 +21,7 @@ VALUES (0x7565400F,  7926, 0x56540129, 16.7562, -19.5619, 24.005, 0.018665, 0, 0
 /* @teleloc 0x56540129 [16.756200 -19.561900 24.005000] 0.018665 0.000000 0.000000 0.999826 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7565400F, 0x7565400D, '2005-02-09 10:00:00') /* Gaerlan's Phylacteric Prison */;
+VALUES (0x7565400F, 0x7565400D, '2005-02-09 10:00:00') /* Gaerlan's Phylacteric Prison (21720) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75654010, 21400, 0x5654012A, 19.9771, -32.172, 24.005, -0.00420373, 0, 0, 0.999991, False, '2005-02-09 10:00:00'); /* Citadel Apex */

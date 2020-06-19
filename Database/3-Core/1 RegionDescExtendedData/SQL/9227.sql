@@ -1,7 +1,6 @@
-DELETE FROM `encounter` WHERE `landblock` = 37415;
+DELETE FROM `encounter` WHERE `landblock` = 0x9227;
 
 INSERT INTO `encounter` (`landblock`, `weenie_Class_Id`, `cell_X`, `cell_Y`, `last_Modified`)
-VALUES (37415, 23168, 3, 6, '2005-02-09 10:00:00') /* Mid South Mountains Mattekar Generator */
-     , (37415, 23168, 5, 0, '2005-02-09 10:00:00') /* Mid South Mountains Mattekar Generator */
-     , (37415, 23168, 7, 0, '2005-02-09 10:00:00') /* Mid South Mountains Mattekar Generator */
-     , (37415, 23168, 7, 8, '2005-02-09 10:00:00') /* Mid South Mountains Mattekar Generator */;
+VALUES (0x9227, 23168, 3, 6, '2005-02-09 10:00:00') /* Mid South Mountains Mattekar Generator */
+     , (0x9227, 23168, 5, 0, '2005-02-09 10:00:00') /* Mid South Mountains Mattekar Generator */
+     , (0x9227, 23168, 7, 0, '2005-02-09 10:00:00') /* Mid South Mountains Mattekar Generator */;

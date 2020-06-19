@@ -25,5 +25,5 @@ VALUES (0x7B38100E,  1542, 0xB3810109, 86.505, 157.424, 23.205, 0.988473, 0, 0, 
 /* @teleloc 0xB3810109 [86.505000 157.424000 23.205000] 0.988473 0.000000 0.000000 -0.151396 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B38100E, 0x7B381008, '2005-02-09 10:00:00') /* Purchasing Order */
-     , (0x7B38100E, 0x7B38100D, '2005-02-09 10:00:00') /* Larry the Rabbit Master */;
+VALUES (0x7B38100E, 0x7B381008, '2005-02-09 10:00:00') /* Purchasing Order (9614) */
+     , (0x7B38100E, 0x7B38100D, '2005-02-09 10:00:00') /* Larry the Rabbit Master (9527) */;

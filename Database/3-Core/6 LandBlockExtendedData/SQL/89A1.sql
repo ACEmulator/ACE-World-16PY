@@ -9,8 +9,8 @@ VALUES (0x789A1001,  3950, 0x89A10000, 19.9381, 7.36239, 95.3931, 0.902691, 0, 0
 /* @teleloc 0x89A10000 [19.938100 7.362390 95.393100] 0.902691 0.000000 0.000000 0.430289 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x789A1001, 0x789A1000, '2005-02-09 10:00:00') /* Letter of Request  */
-     , (0x789A1001, 0x789A1002, '2005-02-09 10:00:00') /* Frog Crotch Arrow */;
+VALUES (0x789A1001, 0x789A1000, '2005-02-09 10:00:00') /* Letter of Request  (3949) */
+     , (0x789A1001, 0x789A1002, '2005-02-09 10:00:00') /* Frog Crotch Arrow (3601) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x789A1002,  3601, 0x89A10000, 17.5833, 8.78472, 95.4269, 0.828489, 0, 0, -0.560006,  True, '2005-02-09 10:00:00'); /* Frog Crotch Arrow */

@@ -153,8 +153,8 @@ VALUES (0x701A0028,  2180, 0x01A001CD, 110, -94.75, 0, 1, 0, 0, 0, False, '2005-
 /* @teleloc 0x01A001CD [110.000000 -94.750000 0.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x701A0028, 0x701A0027, '2005-02-09 10:00:00') /* Pressure Plate */
-     , (0x701A0028, 0x701A002C, '2005-02-09 10:00:00') /* Pressure Plate */;
+VALUES (0x701A0028, 0x701A0027, '2005-02-09 10:00:00') /* Pressure Plate (2131) */
+     , (0x701A0028, 0x701A002C, '2005-02-09 10:00:00') /* Pressure Plate (298) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x701A0029,  1293, 0x01A001CE, 110.001, -85.2633, 0, 1, 0, 0, 0, False, '2005-02-09 10:00:00'); /* Door */
@@ -857,122 +857,122 @@ VALUES (0x701A00E0,  4219, 0x01A0013A, 37.2696, -47.3174, 0.005, 0.99875, 0, 0, 
 /* @teleloc 0x01A0013A [37.269600 -47.317400 0.005000] 0.998750 0.000000 0.000000 0.049979 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x701A00E0, 0x701A0000, '2005-02-09 10:00:00') /* Wasteland Rat */
-     , (0x701A00E0, 0x701A0001, '2005-02-09 10:00:00') /* Wasteland Rat */
-     , (0x701A00E0, 0x701A0007, '2005-02-09 10:00:00') /* Banderling Enforcer */
-     , (0x701A00E0, 0x701A000B, '2005-02-09 10:00:00') /* Diamond Golem */
-     , (0x701A00E0, 0x701A0015, '2005-02-09 10:00:00') /* Wasteland Rat */
-     , (0x701A00E0, 0x701A0016, '2005-02-09 10:00:00') /* Wasteland Rat */
-     , (0x701A00E0, 0x701A0020, '2005-02-09 10:00:00') /* Banderling Enforcer */
-     , (0x701A00E0, 0x701A0023, '2005-02-09 10:00:00') /* Banderling Enforcer */
-     , (0x701A00E0, 0x701A0057, '2005-02-09 10:00:00') /* Banderling Enforcer */
-     , (0x701A00E0, 0x701A005A, '2005-02-09 10:00:00') /* Augmented Tumerok */
-     , (0x701A00E0, 0x701A0062, '2005-02-09 10:00:00') /* Ascendant Tumerok */
-     , (0x701A00E0, 0x701A0063, '2005-02-09 10:00:00') /* Ascendant Tumerok */
-     , (0x701A00E0, 0x701A0087, '2005-02-09 10:00:00') /* Augmented Tumerok */
-     , (0x701A00E0, 0x701A0096, '2005-02-09 10:00:00') /* Augmented Tumerok */
-     , (0x701A00E0, 0x701A0097, '2005-02-09 10:00:00') /* Ascendant Tumerok */
-     , (0x701A00E0, 0x701A00B4, '2005-02-09 10:00:00') /* Wasteland Rat */
-     , (0x701A00E0, 0x701A00B5, '2005-02-09 10:00:00') /* Wasteland Rat */
-     , (0x701A00E0, 0x701A00C2, '2005-02-09 10:00:00') /* Augmented Tumerok */
-     , (0x701A00E0, 0x701A00C3, '2005-02-09 10:00:00') /* Ascendant Tumerok */
-     , (0x701A00E0, 0x701A00D7, '2005-02-09 10:00:00') /* Wasteland Rat */
-     , (0x701A00E0, 0x701A00DA, '2005-02-09 10:00:00') /* Augmented Drudge */
-     , (0x701A00E0, 0x701A00DB, '2005-02-09 10:00:00') /* Augmented Drudge */
-     , (0x701A00E0, 0x701A00DD, '2005-02-09 10:00:00') /* Augmented Tumerok */
-     , (0x701A00E0, 0x701A00E4, '2005-02-09 10:00:00') /* Plate Armoredillo */
-     , (0x701A00E0, 0x701A00E6, '2005-02-09 10:00:00') /* Plate Armoredillo */;
+VALUES (0x701A00E0, 0x701A0000, '2005-02-09 10:00:00') /* Wasteland Rat (7107) */
+     , (0x701A00E0, 0x701A0001, '2005-02-09 10:00:00') /* Wasteland Rat (7107) */
+     , (0x701A00E0, 0x701A0007, '2005-02-09 10:00:00') /* Banderling Enforcer (7346) */
+     , (0x701A00E0, 0x701A000B, '2005-02-09 10:00:00') /* Diamond Golem (4216) */
+     , (0x701A00E0, 0x701A0015, '2005-02-09 10:00:00') /* Wasteland Rat (7107) */
+     , (0x701A00E0, 0x701A0016, '2005-02-09 10:00:00') /* Wasteland Rat (7107) */
+     , (0x701A00E0, 0x701A0020, '2005-02-09 10:00:00') /* Banderling Enforcer (7346) */
+     , (0x701A00E0, 0x701A0023, '2005-02-09 10:00:00') /* Banderling Enforcer (7346) */
+     , (0x701A00E0, 0x701A0057, '2005-02-09 10:00:00') /* Banderling Enforcer (7346) */
+     , (0x701A00E0, 0x701A005A, '2005-02-09 10:00:00') /* Augmented Tumerok (10807) */
+     , (0x701A00E0, 0x701A0062, '2005-02-09 10:00:00') /* Ascendant Tumerok (10806) */
+     , (0x701A00E0, 0x701A0063, '2005-02-09 10:00:00') /* Ascendant Tumerok (10806) */
+     , (0x701A00E0, 0x701A0087, '2005-02-09 10:00:00') /* Augmented Tumerok (10807) */
+     , (0x701A00E0, 0x701A0096, '2005-02-09 10:00:00') /* Augmented Tumerok (10807) */
+     , (0x701A00E0, 0x701A0097, '2005-02-09 10:00:00') /* Ascendant Tumerok (10806) */
+     , (0x701A00E0, 0x701A00B4, '2005-02-09 10:00:00') /* Wasteland Rat (7107) */
+     , (0x701A00E0, 0x701A00B5, '2005-02-09 10:00:00') /* Wasteland Rat (7107) */
+     , (0x701A00E0, 0x701A00C2, '2005-02-09 10:00:00') /* Augmented Tumerok (10807) */
+     , (0x701A00E0, 0x701A00C3, '2005-02-09 10:00:00') /* Ascendant Tumerok (10806) */
+     , (0x701A00E0, 0x701A00D7, '2005-02-09 10:00:00') /* Wasteland Rat (7107) */
+     , (0x701A00E0, 0x701A00DA, '2005-02-09 10:00:00') /* Augmented Drudge (7090) */
+     , (0x701A00E0, 0x701A00DB, '2005-02-09 10:00:00') /* Augmented Drudge (7090) */
+     , (0x701A00E0, 0x701A00DD, '2005-02-09 10:00:00') /* Augmented Tumerok (10807) */
+     , (0x701A00E0, 0x701A00E4, '2005-02-09 10:00:00') /* Plate Armoredillo (7081) */
+     , (0x701A00E0, 0x701A00E6, '2005-02-09 10:00:00') /* Plate Armoredillo (7081) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x701A00E1,  4219, 0x01A0013A, 38.3329, -47.2107, 0.005, 0.99875, 0, 0, 0.049979, False, '2005-02-09 10:00:00'); /* Linkable Monster Generator ( 7 Min.) */
 /* @teleloc 0x01A0013A [38.332900 -47.210700 0.005000] 0.998750 0.000000 0.000000 0.049979 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x701A00E1, 0x701A0002, '2005-02-09 10:00:00') /* Augmented Tumerok */
-     , (0x701A00E1, 0x701A0003, '2005-02-09 10:00:00') /* Ascendant Tumerok */
-     , (0x701A00E1, 0x701A000C, '2005-02-09 10:00:00') /* Augmented Drudge */
-     , (0x701A00E1, 0x701A000D, '2005-02-09 10:00:00') /* Augmented Drudge */
-     , (0x701A00E1, 0x701A002A, '2005-02-09 10:00:00') /* Augmented Tumerok */
-     , (0x701A00E1, 0x701A002B, '2005-02-09 10:00:00') /* Ascendant Tumerok */
-     , (0x701A00E1, 0x701A002E, '2005-02-09 10:00:00') /* Pyreal Golem */
-     , (0x701A00E1, 0x701A002F, '2005-02-09 10:00:00') /* Augmented Tumerok */
-     , (0x701A00E1, 0x701A0035, '2005-02-09 10:00:00') /* Ascendant Tumerok */
-     , (0x701A00E1, 0x701A0036, '2005-02-09 10:00:00') /* Augmented Tumerok */
-     , (0x701A00E1, 0x701A0037, '2005-02-09 10:00:00') /* Ascendant Tumerok */
-     , (0x701A00E1, 0x701A0067, '2005-02-09 10:00:00') /* Augmented Tumerok */
-     , (0x701A00E1, 0x701A0071, '2005-02-09 10:00:00') /* Ascendant Tumerok */
-     , (0x701A00E1, 0x701A007D, '2005-02-09 10:00:00') /* Ascendant Tumerok */
-     , (0x701A00E1, 0x701A007E, '2005-02-09 10:00:00') /* Augmented Tumerok */
-     , (0x701A00E1, 0x701A008B, '2005-02-09 10:00:00') /* Ascendant Tumerok */
-     , (0x701A00E1, 0x701A00A4, '2005-02-09 10:00:00') /* Augmented Tumerok */
-     , (0x701A00E1, 0x701A00B6, '2005-02-09 10:00:00') /* Ascendant Tumerok */
-     , (0x701A00E1, 0x701A00B7, '2005-02-09 10:00:00') /* Ascendant Tumerok */
-     , (0x701A00E1, 0x701A00C4, '2005-02-09 10:00:00') /* Augmented Tumerok */
-     , (0x701A00E1, 0x701A00C5, '2005-02-09 10:00:00') /* Augmented Tumerok */
-     , (0x701A00E1, 0x701A00D3, '2005-02-09 10:00:00') /* Augmented Drudge */
-     , (0x701A00E1, 0x701A00D4, '2005-02-09 10:00:00') /* Augmented Drudge */
-     , (0x701A00E1, 0x701A00D8, '2005-02-09 10:00:00') /* Wasteland Rat */
-     , (0x701A00E1, 0x701A00E5, '2005-02-09 10:00:00') /* Plate Armoredillo */;
+VALUES (0x701A00E1, 0x701A0002, '2005-02-09 10:00:00') /* Augmented Tumerok (10807) */
+     , (0x701A00E1, 0x701A0003, '2005-02-09 10:00:00') /* Ascendant Tumerok (10806) */
+     , (0x701A00E1, 0x701A000C, '2005-02-09 10:00:00') /* Augmented Drudge (7090) */
+     , (0x701A00E1, 0x701A000D, '2005-02-09 10:00:00') /* Augmented Drudge (7090) */
+     , (0x701A00E1, 0x701A002A, '2005-02-09 10:00:00') /* Augmented Tumerok (10807) */
+     , (0x701A00E1, 0x701A002B, '2005-02-09 10:00:00') /* Ascendant Tumerok (10806) */
+     , (0x701A00E1, 0x701A002E, '2005-02-09 10:00:00') /* Pyreal Golem (14520) */
+     , (0x701A00E1, 0x701A002F, '2005-02-09 10:00:00') /* Augmented Tumerok (10807) */
+     , (0x701A00E1, 0x701A0035, '2005-02-09 10:00:00') /* Ascendant Tumerok (10806) */
+     , (0x701A00E1, 0x701A0036, '2005-02-09 10:00:00') /* Augmented Tumerok (10807) */
+     , (0x701A00E1, 0x701A0037, '2005-02-09 10:00:00') /* Ascendant Tumerok (10806) */
+     , (0x701A00E1, 0x701A0067, '2005-02-09 10:00:00') /* Augmented Tumerok (10807) */
+     , (0x701A00E1, 0x701A0071, '2005-02-09 10:00:00') /* Ascendant Tumerok (10806) */
+     , (0x701A00E1, 0x701A007D, '2005-02-09 10:00:00') /* Ascendant Tumerok (10806) */
+     , (0x701A00E1, 0x701A007E, '2005-02-09 10:00:00') /* Augmented Tumerok (10807) */
+     , (0x701A00E1, 0x701A008B, '2005-02-09 10:00:00') /* Ascendant Tumerok (10806) */
+     , (0x701A00E1, 0x701A00A4, '2005-02-09 10:00:00') /* Augmented Tumerok (10807) */
+     , (0x701A00E1, 0x701A00B6, '2005-02-09 10:00:00') /* Ascendant Tumerok (10806) */
+     , (0x701A00E1, 0x701A00B7, '2005-02-09 10:00:00') /* Ascendant Tumerok (10806) */
+     , (0x701A00E1, 0x701A00C4, '2005-02-09 10:00:00') /* Augmented Tumerok (10807) */
+     , (0x701A00E1, 0x701A00C5, '2005-02-09 10:00:00') /* Augmented Tumerok (10807) */
+     , (0x701A00E1, 0x701A00D3, '2005-02-09 10:00:00') /* Augmented Drudge (7090) */
+     , (0x701A00E1, 0x701A00D4, '2005-02-09 10:00:00') /* Augmented Drudge (7090) */
+     , (0x701A00E1, 0x701A00D8, '2005-02-09 10:00:00') /* Wasteland Rat (7107) */
+     , (0x701A00E1, 0x701A00E5, '2005-02-09 10:00:00') /* Plate Armoredillo (7081) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x701A00E2,  4219, 0x01A0013A, 39.3279, -47.1109, 0.005, 0.99875, 0, 0, 0.049979, False, '2005-02-09 10:00:00'); /* Linkable Monster Generator ( 7 Min.) */
 /* @teleloc 0x01A0013A [39.327900 -47.110900 0.005000] 0.998750 0.000000 0.000000 0.049979 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x701A00E2, 0x701A0014, '2005-02-09 10:00:00') /* Ascendant Tumerok */
-     , (0x701A00E2, 0x701A0032, '2005-02-09 10:00:00') /* Great Skeleton */
-     , (0x701A00E2, 0x701A0033, '2005-02-09 10:00:00') /* Great Skeleton */
-     , (0x701A00E2, 0x701A0034, '2005-02-09 10:00:00') /* Great Skeleton */
-     , (0x701A00E2, 0x701A003B, '2005-02-09 10:00:00') /* Altered Drudge */
-     , (0x701A00E2, 0x701A0040, '2005-02-09 10:00:00') /* Augmented Tumerok */
-     , (0x701A00E2, 0x701A0041, '2005-02-09 10:00:00') /* Augmented Tumerok */
-     , (0x701A00E2, 0x701A0042, '2005-02-09 10:00:00') /* Ascendant Tumerok */
-     , (0x701A00E2, 0x701A006A, '2005-02-09 10:00:00') /* Wasteland Rat */
-     , (0x701A00E2, 0x701A0074, '2005-02-09 10:00:00') /* Augmented Tumerok */
-     , (0x701A00E2, 0x701A0076, '2005-02-09 10:00:00') /* Altered Drudge */
-     , (0x701A00E2, 0x701A0077, '2005-02-09 10:00:00') /* Great Skeleton */
-     , (0x701A00E2, 0x701A0078, '2005-02-09 10:00:00') /* Ascendant Tumerok */
-     , (0x701A00E2, 0x701A0079, '2005-02-09 10:00:00') /* Augmented Tumerok */
-     , (0x701A00E2, 0x701A007A, '2005-02-09 10:00:00') /* Augmented Tumerok */
-     , (0x701A00E2, 0x701A0081, '2005-02-09 10:00:00') /* Ascendant Tumerok */
-     , (0x701A00E2, 0x701A0083, '2005-02-09 10:00:00') /* Ascendant Tumerok */
-     , (0x701A00E2, 0x701A008C, '2005-02-09 10:00:00') /* Ascendant Tumerok */
-     , (0x701A00E2, 0x701A00A3, '2005-02-09 10:00:00') /* Wasteland Rat */
-     , (0x701A00E2, 0x701A00A8, '2005-02-09 10:00:00') /* Banderling Thrasher */
-     , (0x701A00E2, 0x701A00A9, '2005-02-09 10:00:00') /* Banderling Thrasher */
-     , (0x701A00E2, 0x701A00BF, '2005-02-09 10:00:00') /* Banderling Thrasher */
-     , (0x701A00E2, 0x701A00C0, '2005-02-09 10:00:00') /* Banderling Thrasher */
-     , (0x701A00E2, 0x701A00D9, '2005-02-09 10:00:00') /* Ascendant Tumerok */
-     , (0x701A00E2, 0x701A00DF, '2005-02-09 10:00:00') /* Ascendant Tumerok */;
+VALUES (0x701A00E2, 0x701A0014, '2005-02-09 10:00:00') /* Ascendant Tumerok (10806) */
+     , (0x701A00E2, 0x701A0032, '2005-02-09 10:00:00') /* Great Skeleton (7122) */
+     , (0x701A00E2, 0x701A0033, '2005-02-09 10:00:00') /* Great Skeleton (7122) */
+     , (0x701A00E2, 0x701A0034, '2005-02-09 10:00:00') /* Great Skeleton (7122) */
+     , (0x701A00E2, 0x701A003B, '2005-02-09 10:00:00') /* Altered Drudge (7089) */
+     , (0x701A00E2, 0x701A0040, '2005-02-09 10:00:00') /* Augmented Tumerok (10807) */
+     , (0x701A00E2, 0x701A0041, '2005-02-09 10:00:00') /* Augmented Tumerok (10807) */
+     , (0x701A00E2, 0x701A0042, '2005-02-09 10:00:00') /* Ascendant Tumerok (10806) */
+     , (0x701A00E2, 0x701A006A, '2005-02-09 10:00:00') /* Wasteland Rat (7107) */
+     , (0x701A00E2, 0x701A0074, '2005-02-09 10:00:00') /* Augmented Tumerok (10807) */
+     , (0x701A00E2, 0x701A0076, '2005-02-09 10:00:00') /* Altered Drudge (7089) */
+     , (0x701A00E2, 0x701A0077, '2005-02-09 10:00:00') /* Great Skeleton (7122) */
+     , (0x701A00E2, 0x701A0078, '2005-02-09 10:00:00') /* Ascendant Tumerok (10806) */
+     , (0x701A00E2, 0x701A0079, '2005-02-09 10:00:00') /* Augmented Tumerok (10807) */
+     , (0x701A00E2, 0x701A007A, '2005-02-09 10:00:00') /* Augmented Tumerok (10807) */
+     , (0x701A00E2, 0x701A0081, '2005-02-09 10:00:00') /* Ascendant Tumerok (10806) */
+     , (0x701A00E2, 0x701A0083, '2005-02-09 10:00:00') /* Ascendant Tumerok (10806) */
+     , (0x701A00E2, 0x701A008C, '2005-02-09 10:00:00') /* Ascendant Tumerok (10806) */
+     , (0x701A00E2, 0x701A00A3, '2005-02-09 10:00:00') /* Wasteland Rat (7107) */
+     , (0x701A00E2, 0x701A00A8, '2005-02-09 10:00:00') /* Banderling Thrasher (7086) */
+     , (0x701A00E2, 0x701A00A9, '2005-02-09 10:00:00') /* Banderling Thrasher (7086) */
+     , (0x701A00E2, 0x701A00BF, '2005-02-09 10:00:00') /* Banderling Thrasher (7086) */
+     , (0x701A00E2, 0x701A00C0, '2005-02-09 10:00:00') /* Banderling Thrasher (7086) */
+     , (0x701A00E2, 0x701A00D9, '2005-02-09 10:00:00') /* Ascendant Tumerok (10806) */
+     , (0x701A00E2, 0x701A00DF, '2005-02-09 10:00:00') /* Ascendant Tumerok (10806) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x701A00E3,  4219, 0x01A0013A, 40.3912, -47.0042, 0.005, 0.99875, 0, 0, 0.049979, False, '2005-02-09 10:00:00'); /* Linkable Monster Generator ( 7 Min.) */
 /* @teleloc 0x01A0013A [40.391200 -47.004200 0.005000] 0.998750 0.000000 0.000000 0.049979 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x701A00E3, 0x701A0013, '2005-02-09 10:00:00') /* Diamond Golem */
-     , (0x701A00E3, 0x701A003C, '2005-02-09 10:00:00') /* Augmented Drudge */
-     , (0x701A00E3, 0x701A003D, '2005-02-09 10:00:00') /* Augmented Drudge */
-     , (0x701A00E3, 0x701A004A, '2005-02-09 10:00:00') /* Altered Drudge */
-     , (0x701A00E3, 0x701A004B, '2005-02-09 10:00:00') /* Altered Drudge */
-     , (0x701A00E3, 0x701A004C, '2005-02-09 10:00:00') /* Augmented Drudge */
-     , (0x701A00E3, 0x701A0051, '2005-02-09 10:00:00') /* Banderling Enforcer */
-     , (0x701A00E3, 0x701A0052, '2005-02-09 10:00:00') /* Banderling Enforcer */
-     , (0x701A00E3, 0x701A0053, '2005-02-09 10:00:00') /* Banderling Thrasher */
-     , (0x701A00E3, 0x701A0056, '2005-02-09 10:00:00') /* Banderling Thrasher */
-     , (0x701A00E3, 0x701A005C, '2005-02-09 10:00:00') /* Banderling Enforcer */
-     , (0x701A00E3, 0x701A005F, '2005-02-09 10:00:00') /* Banderling Thrasher */
-     , (0x701A00E3, 0x701A0060, '2005-02-09 10:00:00') /* Banderling Thrasher */
-     , (0x701A00E3, 0x701A006B, '2005-02-09 10:00:00') /* Wasteland Rat */
-     , (0x701A00E3, 0x701A006C, '2005-02-09 10:00:00') /* Wasteland Rat */
-     , (0x701A00E3, 0x701A0073, '2005-02-09 10:00:00') /* Ascendant Tumerok */
-     , (0x701A00E3, 0x701A0075, '2005-02-09 10:00:00') /* Augmented Tumerok */
-     , (0x701A00E3, 0x701A0084, '2005-02-09 10:00:00') /* Banderling Thrasher */
-     , (0x701A00E3, 0x701A008F, '2005-02-09 10:00:00') /* Wasteland Rat */
-     , (0x701A00E3, 0x701A0090, '2005-02-09 10:00:00') /* Wasteland Rat */
-     , (0x701A00E3, 0x701A0091, '2005-02-09 10:00:00') /* Wasteland Rat */
-     , (0x701A00E3, 0x701A0095, '2005-02-09 10:00:00') /* Wasteland Rat */
-     , (0x701A00E3, 0x701A00AA, '2005-02-09 10:00:00') /* Banderling Enforcer */;
+VALUES (0x701A00E3, 0x701A0013, '2005-02-09 10:00:00') /* Diamond Golem (4216) */
+     , (0x701A00E3, 0x701A003C, '2005-02-09 10:00:00') /* Augmented Drudge (7090) */
+     , (0x701A00E3, 0x701A003D, '2005-02-09 10:00:00') /* Augmented Drudge (7090) */
+     , (0x701A00E3, 0x701A004A, '2005-02-09 10:00:00') /* Altered Drudge (7089) */
+     , (0x701A00E3, 0x701A004B, '2005-02-09 10:00:00') /* Altered Drudge (7089) */
+     , (0x701A00E3, 0x701A004C, '2005-02-09 10:00:00') /* Augmented Drudge (7090) */
+     , (0x701A00E3, 0x701A0051, '2005-02-09 10:00:00') /* Banderling Enforcer (7346) */
+     , (0x701A00E3, 0x701A0052, '2005-02-09 10:00:00') /* Banderling Enforcer (7346) */
+     , (0x701A00E3, 0x701A0053, '2005-02-09 10:00:00') /* Banderling Thrasher (7086) */
+     , (0x701A00E3, 0x701A0056, '2005-02-09 10:00:00') /* Banderling Thrasher (7086) */
+     , (0x701A00E3, 0x701A005C, '2005-02-09 10:00:00') /* Banderling Enforcer (7346) */
+     , (0x701A00E3, 0x701A005F, '2005-02-09 10:00:00') /* Banderling Thrasher (7086) */
+     , (0x701A00E3, 0x701A0060, '2005-02-09 10:00:00') /* Banderling Thrasher (7086) */
+     , (0x701A00E3, 0x701A006B, '2005-02-09 10:00:00') /* Wasteland Rat (7107) */
+     , (0x701A00E3, 0x701A006C, '2005-02-09 10:00:00') /* Wasteland Rat (7107) */
+     , (0x701A00E3, 0x701A0073, '2005-02-09 10:00:00') /* Ascendant Tumerok (10806) */
+     , (0x701A00E3, 0x701A0075, '2005-02-09 10:00:00') /* Augmented Tumerok (10807) */
+     , (0x701A00E3, 0x701A0084, '2005-02-09 10:00:00') /* Banderling Thrasher (7086) */
+     , (0x701A00E3, 0x701A008F, '2005-02-09 10:00:00') /* Wasteland Rat (7107) */
+     , (0x701A00E3, 0x701A0090, '2005-02-09 10:00:00') /* Wasteland Rat (7107) */
+     , (0x701A00E3, 0x701A0091, '2005-02-09 10:00:00') /* Wasteland Rat (7107) */
+     , (0x701A00E3, 0x701A0095, '2005-02-09 10:00:00') /* Wasteland Rat (7107) */
+     , (0x701A00E3, 0x701A00AA, '2005-02-09 10:00:00') /* Banderling Enforcer (7346) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x701A00E4,  7081, 0x01A002F5, 61.4259, -82.7088, 12.0168, -0.421629, 0, 0, -0.906769,  True, '2005-02-09 10:00:00'); /* Plate Armoredillo */

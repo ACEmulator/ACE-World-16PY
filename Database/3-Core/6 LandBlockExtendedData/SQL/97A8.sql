@@ -17,9 +17,9 @@ VALUES (0x797A8003,  3955, 0x97A80000, 70.3777, 94.5784, 22.005, -0.795967, 0, 0
 /* @teleloc 0x97A80000 [70.377700 94.578400 22.005000] -0.795967 0.000000 0.000000 0.605340 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x797A8003, 0x797A8000, '2005-02-09 10:00:00') /* Banderling Scout */
-     , (0x797A8003, 0x797A8001, '2005-02-09 10:00:00') /* Banderling Scout */
-     , (0x797A8003, 0x797A8002, '2005-02-09 10:00:00') /* Banderling Scout */;
+VALUES (0x797A8003, 0x797A8000, '2005-02-09 10:00:00') /* Banderling Scout (6) */
+     , (0x797A8003, 0x797A8001, '2005-02-09 10:00:00') /* Banderling Scout (6) */
+     , (0x797A8003, 0x797A8002, '2005-02-09 10:00:00') /* Banderling Scout (6) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x797A8004,   420, 0x97A80000, 74.2978, 96.5758, 22.285, -0.910959, 0, 0, 0.412496, False, '2005-02-09 10:00:00'); /* Item Food Generator */

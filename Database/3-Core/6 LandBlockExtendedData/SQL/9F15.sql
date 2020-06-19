@@ -25,12 +25,12 @@ VALUES (0x79F15005,  1154, 0x9F150100, 85.5614, 181.278, 120.005, 0.99768, 0, 0,
 /* @teleloc 0x9F150100 [85.561400 181.278000 120.005000] 0.997680 0.000000 0.000000 0.068076 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79F15005, 0x79F15000, '2005-02-09 10:00:00') /* Lich */
-     , (0x79F15005, 0x79F15001, '2005-02-09 10:00:00') /* Lich */
-     , (0x79F15005, 0x79F15002, '2005-02-09 10:00:00') /* Lich */
-     , (0x79F15005, 0x79F15004, '2005-02-09 10:00:00') /* Lich */
-     , (0x79F15005, 0x79F15007, '2005-02-09 10:00:00') /* Lich */
-     , (0x79F15005, 0x79F1500C, '2005-02-09 10:00:00') /* Lich */;
+VALUES (0x79F15005, 0x79F15000, '2005-02-09 10:00:00') /* Lich (204) */
+     , (0x79F15005, 0x79F15001, '2005-02-09 10:00:00') /* Lich (204) */
+     , (0x79F15005, 0x79F15002, '2005-02-09 10:00:00') /* Lich (204) */
+     , (0x79F15005, 0x79F15004, '2005-02-09 10:00:00') /* Lich (204) */
+     , (0x79F15005, 0x79F15007, '2005-02-09 10:00:00') /* Lich (204) */
+     , (0x79F15005, 0x79F1500C, '2005-02-09 10:00:00') /* Lich (204) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79F15006,   204, 0x9F150000, 78.878, 175.188, 128.805, 0.804587, 0, 0, 0.593835,  True, '2005-02-09 10:00:00'); /* Lich */
@@ -45,7 +45,7 @@ VALUES (0x79F15008,  1154, 0x9F150000, 81.0857, 177.267, 135.205, 0.999363, 0, 0
 /* @teleloc 0x9F150000 [81.085700 177.267000 135.205000] 0.999363 0.000000 0.000000 0.035688 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79F15008, 0x79F1500D, '2005-02-09 10:00:00') /* Lich Archmage */;
+VALUES (0x79F15008, 0x79F1500D, '2005-02-09 10:00:00') /* Lich Archmage (2540) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79F15009, 27244, 0x9F150100, 87.1423, 180.54, 120.005, 1, 0, 0, 0, False, '2005-02-09 10:00:00'); /* Chest */
@@ -76,12 +76,12 @@ VALUES (0x79F1500F,  1154, 0x9F150000, 76.7931, 184.216, 120.005, 0.589011, 0, 0
 /* @teleloc 0x9F150000 [76.793100 184.216000 120.005000] 0.589011 0.000000 0.000000 -0.808125 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79F1500F, 0x79F15003, '2005-02-09 10:00:00') /* Lich */
-     , (0x79F1500F, 0x79F15006, '2005-02-09 10:00:00') /* Lich */
-     , (0x79F1500F, 0x79F1500A, '2005-02-09 10:00:00') /* Lich */
-     , (0x79F1500F, 0x79F1500B, '2005-02-09 10:00:00') /* Lich */
-     , (0x79F1500F, 0x79F1500E, '2005-02-09 10:00:00') /* Lich */
-     , (0x79F1500F, 0x79F15010, '2005-02-09 10:00:00') /* Lich */;
+VALUES (0x79F1500F, 0x79F15003, '2005-02-09 10:00:00') /* Lich (204) */
+     , (0x79F1500F, 0x79F15006, '2005-02-09 10:00:00') /* Lich (204) */
+     , (0x79F1500F, 0x79F1500A, '2005-02-09 10:00:00') /* Lich (204) */
+     , (0x79F1500F, 0x79F1500B, '2005-02-09 10:00:00') /* Lich (204) */
+     , (0x79F1500F, 0x79F1500E, '2005-02-09 10:00:00') /* Lich (204) */
+     , (0x79F1500F, 0x79F15010, '2005-02-09 10:00:00') /* Lich (204) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79F15010,   204, 0x9F150000, 89.1161, 185.342, 128.805, 0.277905, 0, 0, -0.960609,  True, '2005-02-09 10:00:00'); /* Lich */

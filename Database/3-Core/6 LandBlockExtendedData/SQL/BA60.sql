@@ -61,22 +61,22 @@ VALUES (0x7BA6001F,  7925, 0xBA600100, 130.929, 165.133, -0.34, -0.999057, 0, 0,
 /* @teleloc 0xBA600100 [130.929000 165.133000 -0.340000] -0.999057 0.000000 0.000000 0.043424 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BA6001F, 0x7BA60013, '2005-02-09 10:00:00') /* Sewer Rat */
-     , (0x7BA6001F, 0x7BA60015, '2005-02-09 10:00:00') /* Sewer Rat */
-     , (0x7BA6001F, 0x7BA60016, '2005-02-09 10:00:00') /* Sewer Rat */
-     , (0x7BA6001F, 0x7BA60017, '2005-02-09 10:00:00') /* Sewer Rat */
-     , (0x7BA6001F, 0x7BA60018, '2005-02-09 10:00:00') /* Sewer Rat */
-     , (0x7BA6001F, 0x7BA60019, '2005-02-09 10:00:00') /* Sewer Rat */
-     , (0x7BA6001F, 0x7BA6001A, '2005-02-09 10:00:00') /* Sewer Rat */
-     , (0x7BA6001F, 0x7BA6001B, '2005-02-09 10:00:00') /* Sewer Rat */
-     , (0x7BA6001F, 0x7BA6001C, '2005-02-09 10:00:00') /* Sewer Rat */
-     , (0x7BA6001F, 0x7BA6001D, '2005-02-09 10:00:00') /* Sewer Rat */
-     , (0x7BA6001F, 0x7BA6001E, '2005-02-09 10:00:00') /* Sewer Rat */
-     , (0x7BA6001F, 0x7BA60020, '2005-02-09 10:00:00') /* Mosswart Zealot */
-     , (0x7BA6001F, 0x7BA60021, '2005-02-09 10:00:00') /* Mosswart Soul Trapper */
-     , (0x7BA6001F, 0x7BA60022, '2005-02-09 10:00:00') /* Mosswart Soul Trapper */
-     , (0x7BA6001F, 0x7BA60024, '2005-02-09 10:00:00') /* Mosswart Soul Trapper */
-     , (0x7BA6001F, 0x7BA60025, '2005-02-09 10:00:00') /* Mosswart Zealot */;
+VALUES (0x7BA6001F, 0x7BA60013, '2005-02-09 10:00:00') /* Sewer Rat (7106) */
+     , (0x7BA6001F, 0x7BA60015, '2005-02-09 10:00:00') /* Sewer Rat (7106) */
+     , (0x7BA6001F, 0x7BA60016, '2005-02-09 10:00:00') /* Sewer Rat (7106) */
+     , (0x7BA6001F, 0x7BA60017, '2005-02-09 10:00:00') /* Sewer Rat (7106) */
+     , (0x7BA6001F, 0x7BA60018, '2005-02-09 10:00:00') /* Sewer Rat (7106) */
+     , (0x7BA6001F, 0x7BA60019, '2005-02-09 10:00:00') /* Sewer Rat (7106) */
+     , (0x7BA6001F, 0x7BA6001A, '2005-02-09 10:00:00') /* Sewer Rat (7106) */
+     , (0x7BA6001F, 0x7BA6001B, '2005-02-09 10:00:00') /* Sewer Rat (7106) */
+     , (0x7BA6001F, 0x7BA6001C, '2005-02-09 10:00:00') /* Sewer Rat (7106) */
+     , (0x7BA6001F, 0x7BA6001D, '2005-02-09 10:00:00') /* Sewer Rat (7106) */
+     , (0x7BA6001F, 0x7BA6001E, '2005-02-09 10:00:00') /* Sewer Rat (7106) */
+     , (0x7BA6001F, 0x7BA60020, '2005-02-09 10:00:00') /* Mosswart Zealot (8429) */
+     , (0x7BA6001F, 0x7BA60021, '2005-02-09 10:00:00') /* Mosswart Soul Trapper (8430) */
+     , (0x7BA6001F, 0x7BA60022, '2005-02-09 10:00:00') /* Mosswart Soul Trapper (8430) */
+     , (0x7BA6001F, 0x7BA60024, '2005-02-09 10:00:00') /* Mosswart Soul Trapper (8430) */
+     , (0x7BA6001F, 0x7BA60025, '2005-02-09 10:00:00') /* Mosswart Zealot (8429) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BA60020,  8429, 0xBA600103, 129.605, 153.59, 6.0573, -0.692717, 0, 0, 0.721209,  True, '2005-02-09 10:00:00'); /* Mosswart Zealot */
@@ -95,9 +95,9 @@ VALUES (0x7BA60023,  5085, 0xBA600100, 133.186, 175.343, -0.34, -0.852699, 0, 0,
 /* @teleloc 0xBA600100 [133.186000 175.343000 -0.340000] -0.852699 0.000000 0.000000 -0.522402 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BA60023, 0x7BA60011, '2005-02-09 10:00:00') /* Minor Stinging Stone */
-     , (0x7BA60023, 0x7BA60012, '2005-02-09 10:00:00') /* Soiled Parchment */
-     , (0x7BA60023, 0x7BA60014, '2005-02-09 10:00:00') /* Textbook */;
+VALUES (0x7BA60023, 0x7BA60011, '2005-02-09 10:00:00') /* Minor Stinging Stone (6319) */
+     , (0x7BA60023, 0x7BA60012, '2005-02-09 10:00:00') /* Soiled Parchment (6415) */
+     , (0x7BA60023, 0x7BA60014, '2005-02-09 10:00:00') /* Textbook (6407) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BA60024,  8430, 0xBA600103, 129.584, 154.954, 6.05812, 0.700092, 0, 0, -0.714052,  True, '2005-02-09 10:00:00'); /* Mosswart Soul Trapper */

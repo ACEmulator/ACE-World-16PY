@@ -25,8 +25,8 @@ VALUES (0x7A2BD005,  1154, 0xA2BD0000, 5.41592, 65.6351, 28.2237, -0.362597, 0, 
 /* @teleloc 0xA2BD0000 [5.415920 65.635100 28.223700] -0.362597 0.000000 0.000000 -0.931946 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A2BD005, 0x7A2BD000, '2005-02-09 10:00:00') /* Freshwater Armoredillo */
-     , (0x7A2BD005, 0x7A2BD001, '2005-02-09 10:00:00') /* Freshwater Armoredillo */
-     , (0x7A2BD005, 0x7A2BD002, '2005-02-09 10:00:00') /* Freshwater Armoredillo */
-     , (0x7A2BD005, 0x7A2BD003, '2005-02-09 10:00:00') /* Freshwater Armoredillo */
-     , (0x7A2BD005, 0x7A2BD004, '2005-02-09 10:00:00') /* Freshwater Armoredillo */;
+VALUES (0x7A2BD005, 0x7A2BD000, '2005-02-09 10:00:00') /* Freshwater Armoredillo (2564) */
+     , (0x7A2BD005, 0x7A2BD001, '2005-02-09 10:00:00') /* Freshwater Armoredillo (2564) */
+     , (0x7A2BD005, 0x7A2BD002, '2005-02-09 10:00:00') /* Freshwater Armoredillo (2564) */
+     , (0x7A2BD005, 0x7A2BD003, '2005-02-09 10:00:00') /* Freshwater Armoredillo (2564) */
+     , (0x7A2BD005, 0x7A2BD004, '2005-02-09 10:00:00') /* Freshwater Armoredillo (2564) */;

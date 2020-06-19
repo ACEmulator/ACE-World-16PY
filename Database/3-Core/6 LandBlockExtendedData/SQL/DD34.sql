@@ -49,20 +49,20 @@ VALUES (0x7DD3400B,  7932, 0xDD340100, 160.082, 103.593, 134.805, 1, 0, 0, 0, Fa
 /* @teleloc 0xDD340100 [160.082000 103.593000 134.805000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7DD3400B, 0x7DD34003, '2005-02-09 10:00:00') /* Sufut Zefir */
-     , (0x7DD3400B, 0x7DD34004, '2005-02-09 10:00:00') /* Sufut Zefir */
-     , (0x7DD3400B, 0x7DD34005, '2005-02-09 10:00:00') /* Sufut Zefir */
-     , (0x7DD3400B, 0x7DD34006, '2005-02-09 10:00:00') /* Sufut Zefir */
-     , (0x7DD3400B, 0x7DD34007, '2005-02-09 10:00:00') /* Sufut Zefir */
-     , (0x7DD3400B, 0x7DD34008, '2005-02-09 10:00:00') /* Sufut Zefir */
-     , (0x7DD3400B, 0x7DD34009, '2005-02-09 10:00:00') /* Sufut Zefir */
-     , (0x7DD3400B, 0x7DD3400A, '2005-02-09 10:00:00') /* Sufut Zefir */;
+VALUES (0x7DD3400B, 0x7DD34003, '2005-02-09 10:00:00') /* Sufut Zefir (7128) */
+     , (0x7DD3400B, 0x7DD34004, '2005-02-09 10:00:00') /* Sufut Zefir (7128) */
+     , (0x7DD3400B, 0x7DD34005, '2005-02-09 10:00:00') /* Sufut Zefir (7128) */
+     , (0x7DD3400B, 0x7DD34006, '2005-02-09 10:00:00') /* Sufut Zefir (7128) */
+     , (0x7DD3400B, 0x7DD34007, '2005-02-09 10:00:00') /* Sufut Zefir (7128) */
+     , (0x7DD3400B, 0x7DD34008, '2005-02-09 10:00:00') /* Sufut Zefir (7128) */
+     , (0x7DD3400B, 0x7DD34009, '2005-02-09 10:00:00') /* Sufut Zefir (7128) */
+     , (0x7DD3400B, 0x7DD3400A, '2005-02-09 10:00:00') /* Sufut Zefir (7128) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7DD3400C,  5085, 0xDD340100, 159.131, 103.483, 134.805, 1, 0, 0, 0, False, '2005-02-09 10:00:00'); /* Linkable Item Gen - 25 seconds */
 /* @teleloc 0xDD340100 [159.131000 103.483000 134.805000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7DD3400C, 0x7DD34000, '2005-02-09 10:00:00') /* Hastily Scrawled Note */
-     , (0x7DD3400C, 0x7DD34001, '2005-02-09 10:00:00') /* Textbook */
-     , (0x7DD3400C, 0x7DD34002, '2005-02-09 10:00:00') /* Minor Sparking Stone */;
+VALUES (0x7DD3400C, 0x7DD34000, '2005-02-09 10:00:00') /* Hastily Scrawled Note (6409) */
+     , (0x7DD3400C, 0x7DD34001, '2005-02-09 10:00:00') /* Textbook (6407) */
+     , (0x7DD3400C, 0x7DD34002, '2005-02-09 10:00:00') /* Minor Sparking Stone (6318) */;

@@ -145,4 +145,4 @@ VALUES (0x70115035,  5086, 0x011501C2, 57.5073, -18.3513, 24.005, 0.983956, 0, 0
 /* @teleloc 0x011501C2 [57.507300 -18.351300 24.005000] 0.983956 0.000000 0.000000 0.178412 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x70115035, 0x70115033, '2005-02-09 10:00:00') /* Grand Sentinel Muroba */;
+VALUES (0x70115035, 0x70115033, '2005-02-09 10:00:00') /* Grand Sentinel Muroba (14921) */;

@@ -13,11 +13,11 @@ VALUES (0x7F819002,  7924, 0xF8190100, 131.484, 23.6339, 15.66, 0.0582289, 0, 0,
 /* @teleloc 0xF8190100 [131.484000 23.633900 15.660000] 0.058229 0.000000 0.000000 -0.998303 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7F819002, 0x7F819001, '2005-02-09 10:00:00') /* Chomu Sclavus */
-     , (0x7F819002, 0x7F819003, '2005-02-09 10:00:00') /* Chomu Sclavus */
-     , (0x7F819002, 0x7F819004, '2005-02-09 10:00:00') /* Chomu Sclavus */
-     , (0x7F819002, 0x7F819005, '2005-02-09 10:00:00') /* Chomu Sclavus */
-     , (0x7F819002, 0x7F819006, '2005-02-09 10:00:00') /* Chomu Sclavus */;
+VALUES (0x7F819002, 0x7F819001, '2005-02-09 10:00:00') /* Chomu Sclavus (7112) */
+     , (0x7F819002, 0x7F819003, '2005-02-09 10:00:00') /* Chomu Sclavus (7112) */
+     , (0x7F819002, 0x7F819004, '2005-02-09 10:00:00') /* Chomu Sclavus (7112) */
+     , (0x7F819002, 0x7F819005, '2005-02-09 10:00:00') /* Chomu Sclavus (7112) */
+     , (0x7F819002, 0x7F819006, '2005-02-09 10:00:00') /* Chomu Sclavus (7112) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7F819003,  7112, 0xF8190103, 131.635, 8.56724, 22.0938, 0.0831657, 0, 0, -0.996536,  True, '2005-02-09 10:00:00'); /* Chomu Sclavus */

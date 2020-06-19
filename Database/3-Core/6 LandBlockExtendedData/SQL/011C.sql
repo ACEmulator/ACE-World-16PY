@@ -437,108 +437,108 @@ VALUES (0x7011C06F,  7925, 0x011C0314, 104.518, -192.524, 0.005, 1, 0, 0, 0, Fal
 /* @teleloc 0x011C0314 [104.518000 -192.524000 0.005000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7011C06F, 0x7011C002, '2005-02-09 10:00:00') /* Hamud ibn Rafik */
-     , (0x7011C06F, 0x7011C00D, '2005-02-09 10:00:00') /* Shadow Lieutenant */
-     , (0x7011C06F, 0x7011C013, '2005-02-09 10:00:00') /* Shadow Lieutenant */
-     , (0x7011C06F, 0x7011C016, '2005-02-09 10:00:00') /* Shadow Lieutenant */
-     , (0x7011C06F, 0x7011C017, '2005-02-09 10:00:00') /* Shadow Lieutenant */
-     , (0x7011C06F, 0x7011C01A, '2005-02-09 10:00:00') /* Shadow Lieutenant */
-     , (0x7011C06F, 0x7011C01B, '2005-02-09 10:00:00') /* Shadow Lieutenant */
-     , (0x7011C06F, 0x7011C01C, '2005-02-09 10:00:00') /* Shadow Lieutenant */
-     , (0x7011C06F, 0x7011C01E, '2005-02-09 10:00:00') /* Shadow Lieutenant */
-     , (0x7011C06F, 0x7011C01F, '2005-02-09 10:00:00') /* Shadow Lieutenant */
-     , (0x7011C06F, 0x7011C020, '2005-02-09 10:00:00') /* Shadow Lieutenant */
-     , (0x7011C06F, 0x7011C021, '2005-02-09 10:00:00') /* Shadow Lieutenant */
-     , (0x7011C06F, 0x7011C022, '2005-02-09 10:00:00') /* Shadow Lieutenant */
-     , (0x7011C06F, 0x7011C023, '2005-02-09 10:00:00') /* Shadow Lieutenant */
-     , (0x7011C06F, 0x7011C024, '2005-02-09 10:00:00') /* Shadow Lieutenant */
-     , (0x7011C06F, 0x7011C025, '2005-02-09 10:00:00') /* Shadow Lieutenant */
-     , (0x7011C06F, 0x7011C026, '2005-02-09 10:00:00') /* Shadow Lieutenant */
-     , (0x7011C06F, 0x7011C02A, '2005-02-09 10:00:00') /* Panumbris Shadow */
-     , (0x7011C06F, 0x7011C02B, '2005-02-09 10:00:00') /* Shadow Lieutenant */
-     , (0x7011C06F, 0x7011C02C, '2005-02-09 10:00:00') /* Shadow Lieutenant */
-     , (0x7011C06F, 0x7011C059, '2005-02-09 10:00:00') /* Sufut Zefir */
-     , (0x7011C06F, 0x7011C05B, '2005-02-09 10:00:00') /* Sufut Zefir */;
+VALUES (0x7011C06F, 0x7011C002, '2005-02-09 10:00:00') /* Hamud ibn Rafik (6025) */
+     , (0x7011C06F, 0x7011C00D, '2005-02-09 10:00:00') /* Shadow Lieutenant (1757) */
+     , (0x7011C06F, 0x7011C013, '2005-02-09 10:00:00') /* Shadow Lieutenant (1757) */
+     , (0x7011C06F, 0x7011C016, '2005-02-09 10:00:00') /* Shadow Lieutenant (1757) */
+     , (0x7011C06F, 0x7011C017, '2005-02-09 10:00:00') /* Shadow Lieutenant (1757) */
+     , (0x7011C06F, 0x7011C01A, '2005-02-09 10:00:00') /* Shadow Lieutenant (1757) */
+     , (0x7011C06F, 0x7011C01B, '2005-02-09 10:00:00') /* Shadow Lieutenant (1757) */
+     , (0x7011C06F, 0x7011C01C, '2005-02-09 10:00:00') /* Shadow Lieutenant (1757) */
+     , (0x7011C06F, 0x7011C01E, '2005-02-09 10:00:00') /* Shadow Lieutenant (1757) */
+     , (0x7011C06F, 0x7011C01F, '2005-02-09 10:00:00') /* Shadow Lieutenant (1757) */
+     , (0x7011C06F, 0x7011C020, '2005-02-09 10:00:00') /* Shadow Lieutenant (1757) */
+     , (0x7011C06F, 0x7011C021, '2005-02-09 10:00:00') /* Shadow Lieutenant (1757) */
+     , (0x7011C06F, 0x7011C022, '2005-02-09 10:00:00') /* Shadow Lieutenant (1757) */
+     , (0x7011C06F, 0x7011C023, '2005-02-09 10:00:00') /* Shadow Lieutenant (1757) */
+     , (0x7011C06F, 0x7011C024, '2005-02-09 10:00:00') /* Shadow Lieutenant (1757) */
+     , (0x7011C06F, 0x7011C025, '2005-02-09 10:00:00') /* Shadow Lieutenant (1757) */
+     , (0x7011C06F, 0x7011C026, '2005-02-09 10:00:00') /* Shadow Lieutenant (1757) */
+     , (0x7011C06F, 0x7011C02A, '2005-02-09 10:00:00') /* Panumbris Shadow (4253) */
+     , (0x7011C06F, 0x7011C02B, '2005-02-09 10:00:00') /* Shadow Lieutenant (1757) */
+     , (0x7011C06F, 0x7011C02C, '2005-02-09 10:00:00') /* Shadow Lieutenant (1757) */
+     , (0x7011C06F, 0x7011C059, '2005-02-09 10:00:00') /* Sufut Zefir (7128) */
+     , (0x7011C06F, 0x7011C05B, '2005-02-09 10:00:00') /* Sufut Zefir (7128) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7011C070,  7925, 0x011C0314, 104.504, -193.198, 0.005, 1, 0, 0, 0, False, '2005-02-09 10:00:00'); /* Linkable Monster Generator ( 10 Min.) */
 /* @teleloc 0x011C0314 [104.504000 -193.198000 0.005000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7011C070, 0x7011C042, '2005-02-09 10:00:00') /* Nalif Zefir */
-     , (0x7011C070, 0x7011C043, '2005-02-09 10:00:00') /* Sufut Zefir */
-     , (0x7011C070, 0x7011C044, '2005-02-09 10:00:00') /* Sufut Zefir */
-     , (0x7011C070, 0x7011C046, '2005-02-09 10:00:00') /* Sufut Zefir */
-     , (0x7011C070, 0x7011C047, '2005-02-09 10:00:00') /* Sufut Zefir */
-     , (0x7011C070, 0x7011C048, '2005-02-09 10:00:00') /* Sufut Zefir */
-     , (0x7011C070, 0x7011C049, '2005-02-09 10:00:00') /* Sufut Zefir */
-     , (0x7011C070, 0x7011C04A, '2005-02-09 10:00:00') /* Sufut Zefir */
-     , (0x7011C070, 0x7011C04B, '2005-02-09 10:00:00') /* Sufut Zefir */
-     , (0x7011C070, 0x7011C04C, '2005-02-09 10:00:00') /* Sufut Zefir */
-     , (0x7011C070, 0x7011C04D, '2005-02-09 10:00:00') /* Sufut Zefir */
-     , (0x7011C070, 0x7011C04E, '2005-02-09 10:00:00') /* Sufut Zefir */
-     , (0x7011C070, 0x7011C05A, '2005-02-09 10:00:00') /* Sufut Zefir */
-     , (0x7011C070, 0x7011C05C, '2005-02-09 10:00:00') /* Sufut Zefir */
-     , (0x7011C070, 0x7011C05E, '2005-02-09 10:00:00') /* Sufut Zefir */
-     , (0x7011C070, 0x7011C05F, '2005-02-09 10:00:00') /* Sufut Zefir */
-     , (0x7011C070, 0x7011C067, '2005-02-09 10:00:00') /* Nalif Zefir */
-     , (0x7011C070, 0x7011C068, '2005-02-09 10:00:00') /* Nalif Zefir */
-     , (0x7011C070, 0x7011C069, '2005-02-09 10:00:00') /* Nalif Zefir */
-     , (0x7011C070, 0x7011C06B, '2005-02-09 10:00:00') /* Sufut Zefir */
-     , (0x7011C070, 0x7011C06D, '2005-02-09 10:00:00') /* Sufut Zefir */
-     , (0x7011C070, 0x7011C06E, '2005-02-09 10:00:00') /* Sufut Zefir */;
+VALUES (0x7011C070, 0x7011C042, '2005-02-09 10:00:00') /* Nalif Zefir (7129) */
+     , (0x7011C070, 0x7011C043, '2005-02-09 10:00:00') /* Sufut Zefir (7128) */
+     , (0x7011C070, 0x7011C044, '2005-02-09 10:00:00') /* Sufut Zefir (7128) */
+     , (0x7011C070, 0x7011C046, '2005-02-09 10:00:00') /* Sufut Zefir (7128) */
+     , (0x7011C070, 0x7011C047, '2005-02-09 10:00:00') /* Sufut Zefir (7128) */
+     , (0x7011C070, 0x7011C048, '2005-02-09 10:00:00') /* Sufut Zefir (7128) */
+     , (0x7011C070, 0x7011C049, '2005-02-09 10:00:00') /* Sufut Zefir (7128) */
+     , (0x7011C070, 0x7011C04A, '2005-02-09 10:00:00') /* Sufut Zefir (7128) */
+     , (0x7011C070, 0x7011C04B, '2005-02-09 10:00:00') /* Sufut Zefir (7128) */
+     , (0x7011C070, 0x7011C04C, '2005-02-09 10:00:00') /* Sufut Zefir (7128) */
+     , (0x7011C070, 0x7011C04D, '2005-02-09 10:00:00') /* Sufut Zefir (7128) */
+     , (0x7011C070, 0x7011C04E, '2005-02-09 10:00:00') /* Sufut Zefir (7128) */
+     , (0x7011C070, 0x7011C05A, '2005-02-09 10:00:00') /* Sufut Zefir (7128) */
+     , (0x7011C070, 0x7011C05C, '2005-02-09 10:00:00') /* Sufut Zefir (7128) */
+     , (0x7011C070, 0x7011C05E, '2005-02-09 10:00:00') /* Sufut Zefir (7128) */
+     , (0x7011C070, 0x7011C05F, '2005-02-09 10:00:00') /* Sufut Zefir (7128) */
+     , (0x7011C070, 0x7011C067, '2005-02-09 10:00:00') /* Nalif Zefir (7129) */
+     , (0x7011C070, 0x7011C068, '2005-02-09 10:00:00') /* Nalif Zefir (7129) */
+     , (0x7011C070, 0x7011C069, '2005-02-09 10:00:00') /* Nalif Zefir (7129) */
+     , (0x7011C070, 0x7011C06B, '2005-02-09 10:00:00') /* Sufut Zefir (7128) */
+     , (0x7011C070, 0x7011C06D, '2005-02-09 10:00:00') /* Sufut Zefir (7128) */
+     , (0x7011C070, 0x7011C06E, '2005-02-09 10:00:00') /* Sufut Zefir (7128) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7011C071,  7925, 0x011C0314, 104.522, -193.869, 0.005, 1, 0, 0, 0, False, '2005-02-09 10:00:00'); /* Linkable Monster Generator ( 10 Min.) */
 /* @teleloc 0x011C0314 [104.522000 -193.869000 0.005000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7011C071, 0x7011C02F, '2005-02-09 10:00:00') /* Shadow Lieutenant */
-     , (0x7011C071, 0x7011C030, '2005-02-09 10:00:00') /* Shadow Lieutenant */
-     , (0x7011C071, 0x7011C031, '2005-02-09 10:00:00') /* Shadow Lieutenant */
-     , (0x7011C071, 0x7011C034, '2005-02-09 10:00:00') /* Shadow Lieutenant */
-     , (0x7011C071, 0x7011C036, '2005-02-09 10:00:00') /* Shadow Lieutenant */
-     , (0x7011C071, 0x7011C037, '2005-02-09 10:00:00') /* Shadow Lieutenant */
-     , (0x7011C071, 0x7011C038, '2005-02-09 10:00:00') /* Shadow Lieutenant */
-     , (0x7011C071, 0x7011C039, '2005-02-09 10:00:00') /* Shadow Lieutenant */
-     , (0x7011C071, 0x7011C03A, '2005-02-09 10:00:00') /* Shadow Lieutenant */
-     , (0x7011C071, 0x7011C03B, '2005-02-09 10:00:00') /* Shadow Lieutenant */
-     , (0x7011C071, 0x7011C03C, '2005-02-09 10:00:00') /* Shadow Lieutenant */
-     , (0x7011C071, 0x7011C03D, '2005-02-09 10:00:00') /* Shadow Lieutenant */
-     , (0x7011C071, 0x7011C03E, '2005-02-09 10:00:00') /* Shadow Lieutenant */
-     , (0x7011C071, 0x7011C03F, '2005-02-09 10:00:00') /* Shadow Lieutenant */
-     , (0x7011C071, 0x7011C040, '2005-02-09 10:00:00') /* Shadow Lieutenant */
-     , (0x7011C071, 0x7011C041, '2005-02-09 10:00:00') /* Shadow Lieutenant */
-     , (0x7011C071, 0x7011C056, '2005-02-09 10:00:00') /* Sufut Zefir */
-     , (0x7011C071, 0x7011C057, '2005-02-09 10:00:00') /* Sufut Zefir */
-     , (0x7011C071, 0x7011C05D, '2005-02-09 10:00:00') /* Sufut Zefir */
-     , (0x7011C071, 0x7011C062, '2005-02-09 10:00:00') /* Nalif Zefir */
-     , (0x7011C071, 0x7011C06A, '2005-02-09 10:00:00') /* Sufut Zefir */
-     , (0x7011C071, 0x7011C06C, '2005-02-09 10:00:00') /* Sufut Zefir */;
+VALUES (0x7011C071, 0x7011C02F, '2005-02-09 10:00:00') /* Shadow Lieutenant (1757) */
+     , (0x7011C071, 0x7011C030, '2005-02-09 10:00:00') /* Shadow Lieutenant (1757) */
+     , (0x7011C071, 0x7011C031, '2005-02-09 10:00:00') /* Shadow Lieutenant (1757) */
+     , (0x7011C071, 0x7011C034, '2005-02-09 10:00:00') /* Shadow Lieutenant (1757) */
+     , (0x7011C071, 0x7011C036, '2005-02-09 10:00:00') /* Shadow Lieutenant (1757) */
+     , (0x7011C071, 0x7011C037, '2005-02-09 10:00:00') /* Shadow Lieutenant (1757) */
+     , (0x7011C071, 0x7011C038, '2005-02-09 10:00:00') /* Shadow Lieutenant (1757) */
+     , (0x7011C071, 0x7011C039, '2005-02-09 10:00:00') /* Shadow Lieutenant (1757) */
+     , (0x7011C071, 0x7011C03A, '2005-02-09 10:00:00') /* Shadow Lieutenant (1757) */
+     , (0x7011C071, 0x7011C03B, '2005-02-09 10:00:00') /* Shadow Lieutenant (1757) */
+     , (0x7011C071, 0x7011C03C, '2005-02-09 10:00:00') /* Shadow Lieutenant (1757) */
+     , (0x7011C071, 0x7011C03D, '2005-02-09 10:00:00') /* Shadow Lieutenant (1757) */
+     , (0x7011C071, 0x7011C03E, '2005-02-09 10:00:00') /* Shadow Lieutenant (1757) */
+     , (0x7011C071, 0x7011C03F, '2005-02-09 10:00:00') /* Shadow Lieutenant (1757) */
+     , (0x7011C071, 0x7011C040, '2005-02-09 10:00:00') /* Shadow Lieutenant (1757) */
+     , (0x7011C071, 0x7011C041, '2005-02-09 10:00:00') /* Shadow Lieutenant (1757) */
+     , (0x7011C071, 0x7011C056, '2005-02-09 10:00:00') /* Sufut Zefir (7128) */
+     , (0x7011C071, 0x7011C057, '2005-02-09 10:00:00') /* Sufut Zefir (7128) */
+     , (0x7011C071, 0x7011C05D, '2005-02-09 10:00:00') /* Sufut Zefir (7128) */
+     , (0x7011C071, 0x7011C062, '2005-02-09 10:00:00') /* Nalif Zefir (7129) */
+     , (0x7011C071, 0x7011C06A, '2005-02-09 10:00:00') /* Sufut Zefir (7128) */
+     , (0x7011C071, 0x7011C06C, '2005-02-09 10:00:00') /* Sufut Zefir (7128) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7011C072,  7925, 0x011C0314, 104.522, -194.563, 0.005, 1, 0, 0, 0, False, '2005-02-09 10:00:00'); /* Linkable Monster Generator ( 10 Min.) */
 /* @teleloc 0x011C0314 [104.522000 -194.563000 0.005000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7011C072, 0x7011C000, '2005-02-09 10:00:00') /* Shadow Lieutenant */
-     , (0x7011C072, 0x7011C006, '2005-02-09 10:00:00') /* Panumbris Shadow */
-     , (0x7011C072, 0x7011C007, '2005-02-09 10:00:00') /* Panumbris Shadow */
-     , (0x7011C072, 0x7011C00A, '2005-02-09 10:00:00') /* Shadow Lieutenant */
-     , (0x7011C072, 0x7011C00B, '2005-02-09 10:00:00') /* Shadow Lieutenant */
-     , (0x7011C072, 0x7011C00E, '2005-02-09 10:00:00') /* Shadow Lieutenant */
-     , (0x7011C072, 0x7011C010, '2005-02-09 10:00:00') /* Shadow Lieutenant */
-     , (0x7011C072, 0x7011C011, '2005-02-09 10:00:00') /* Shadow Lieutenant */
-     , (0x7011C072, 0x7011C012, '2005-02-09 10:00:00') /* Shadow Lieutenant */
-     , (0x7011C072, 0x7011C014, '2005-02-09 10:00:00') /* Shadow Lieutenant */
-     , (0x7011C072, 0x7011C015, '2005-02-09 10:00:00') /* Shadow Lieutenant */
-     , (0x7011C072, 0x7011C018, '2005-02-09 10:00:00') /* Shadow Lieutenant */
-     , (0x7011C072, 0x7011C019, '2005-02-09 10:00:00') /* Shadow Lieutenant */
-     , (0x7011C072, 0x7011C01D, '2005-02-09 10:00:00') /* Shadow Lieutenant */
-     , (0x7011C072, 0x7011C027, '2005-02-09 10:00:00') /* Shadow Lieutenant */
-     , (0x7011C072, 0x7011C028, '2005-02-09 10:00:00') /* Shadow Lieutenant */
-     , (0x7011C072, 0x7011C029, '2005-02-09 10:00:00') /* Shadow Lieutenant */
-     , (0x7011C072, 0x7011C02D, '2005-02-09 10:00:00') /* Panumbris Shadow */
-     , (0x7011C072, 0x7011C032, '2005-02-09 10:00:00') /* Shadow Lieutenant */
-     , (0x7011C072, 0x7011C035, '2005-02-09 10:00:00') /* Shadow Lieutenant */
-     , (0x7011C072, 0x7011C061, '2005-02-09 10:00:00') /* Nalif Zefir */;
+VALUES (0x7011C072, 0x7011C000, '2005-02-09 10:00:00') /* Shadow Lieutenant (1757) */
+     , (0x7011C072, 0x7011C006, '2005-02-09 10:00:00') /* Panumbris Shadow (4253) */
+     , (0x7011C072, 0x7011C007, '2005-02-09 10:00:00') /* Panumbris Shadow (4253) */
+     , (0x7011C072, 0x7011C00A, '2005-02-09 10:00:00') /* Shadow Lieutenant (1757) */
+     , (0x7011C072, 0x7011C00B, '2005-02-09 10:00:00') /* Shadow Lieutenant (1757) */
+     , (0x7011C072, 0x7011C00E, '2005-02-09 10:00:00') /* Shadow Lieutenant (1757) */
+     , (0x7011C072, 0x7011C010, '2005-02-09 10:00:00') /* Shadow Lieutenant (1757) */
+     , (0x7011C072, 0x7011C011, '2005-02-09 10:00:00') /* Shadow Lieutenant (1757) */
+     , (0x7011C072, 0x7011C012, '2005-02-09 10:00:00') /* Shadow Lieutenant (1757) */
+     , (0x7011C072, 0x7011C014, '2005-02-09 10:00:00') /* Shadow Lieutenant (1757) */
+     , (0x7011C072, 0x7011C015, '2005-02-09 10:00:00') /* Shadow Lieutenant (1757) */
+     , (0x7011C072, 0x7011C018, '2005-02-09 10:00:00') /* Shadow Lieutenant (1757) */
+     , (0x7011C072, 0x7011C019, '2005-02-09 10:00:00') /* Shadow Lieutenant (1757) */
+     , (0x7011C072, 0x7011C01D, '2005-02-09 10:00:00') /* Shadow Lieutenant (1757) */
+     , (0x7011C072, 0x7011C027, '2005-02-09 10:00:00') /* Shadow Lieutenant (1757) */
+     , (0x7011C072, 0x7011C028, '2005-02-09 10:00:00') /* Shadow Lieutenant (1757) */
+     , (0x7011C072, 0x7011C029, '2005-02-09 10:00:00') /* Shadow Lieutenant (1757) */
+     , (0x7011C072, 0x7011C02D, '2005-02-09 10:00:00') /* Panumbris Shadow (4253) */
+     , (0x7011C072, 0x7011C032, '2005-02-09 10:00:00') /* Shadow Lieutenant (1757) */
+     , (0x7011C072, 0x7011C035, '2005-02-09 10:00:00') /* Shadow Lieutenant (1757) */
+     , (0x7011C072, 0x7011C061, '2005-02-09 10:00:00') /* Nalif Zefir (7129) */;

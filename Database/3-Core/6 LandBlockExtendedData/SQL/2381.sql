@@ -5,24 +5,24 @@ VALUES (0x72381009,  7923, 0x23810000, 126.917, 81.373, 220.005, 0.687776, 0, 0,
 /* @teleloc 0x23810000 [126.917000 81.373000 220.005000] 0.687776 0.000000 0.000000 -0.725923 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72381009, 0x7238100A, '2005-02-09 10:00:00') /* Gotrok Extas */
-     , (0x72381009, 0x7238100B, '2005-02-09 10:00:00') /* Gotrok Extas */
-     , (0x72381009, 0x7238100C, '2005-02-09 10:00:00') /* Gotrok Extas */
-     , (0x72381009, 0x7238100F, '2005-02-09 10:00:00') /* Tumerok Trooper */
-     , (0x72381009, 0x72381010, '2005-02-09 10:00:00') /* Tumerok Trooper */
-     , (0x72381009, 0x72381011, '2005-02-09 10:00:00') /* Tumerok Trooper */
-     , (0x72381009, 0x72381012, '2005-02-09 10:00:00') /* Tumerok High Priest */
-     , (0x72381009, 0x72381013, '2005-02-09 10:00:00') /* Tumerok High Priest */
-     , (0x72381009, 0x72381014, '2005-02-09 10:00:00') /* Tumerok High Priest */
-     , (0x72381009, 0x72381015, '2005-02-09 10:00:00') /* Tumerok High Priest */
-     , (0x72381009, 0x72381016, '2005-02-09 10:00:00') /* Tumerok High Priest */
-     , (0x72381009, 0x72381017, '2005-02-09 10:00:00') /* Tiatus Raider */
-     , (0x72381009, 0x72381018, '2005-02-09 10:00:00') /* Tiatus Raider */
-     , (0x72381009, 0x72381019, '2005-02-09 10:00:00') /* Tiatus Raider */
-     , (0x72381009, 0x7238101A, '2005-02-09 10:00:00') /* Tiatus Raider */
-     , (0x72381009, 0x7238101C, '2005-02-09 10:00:00') /* Raider Juggernaut */
-     , (0x72381009, 0x7238101D, '2005-02-09 10:00:00') /* Raider Juggernaut */
-     , (0x72381009, 0x7238101E, '2005-02-09 10:00:00') /* Raider Juggernaut */;
+VALUES (0x72381009, 0x7238100A, '2005-02-09 10:00:00') /* Gotrok Extas (24494) */
+     , (0x72381009, 0x7238100B, '2005-02-09 10:00:00') /* Gotrok Extas (24494) */
+     , (0x72381009, 0x7238100C, '2005-02-09 10:00:00') /* Gotrok Extas (24494) */
+     , (0x72381009, 0x7238100F, '2005-02-09 10:00:00') /* Tumerok Trooper (23566) */
+     , (0x72381009, 0x72381010, '2005-02-09 10:00:00') /* Tumerok Trooper (23566) */
+     , (0x72381009, 0x72381011, '2005-02-09 10:00:00') /* Tumerok Trooper (23566) */
+     , (0x72381009, 0x72381012, '2005-02-09 10:00:00') /* Tumerok High Priest (228) */
+     , (0x72381009, 0x72381013, '2005-02-09 10:00:00') /* Tumerok High Priest (228) */
+     , (0x72381009, 0x72381014, '2005-02-09 10:00:00') /* Tumerok High Priest (228) */
+     , (0x72381009, 0x72381015, '2005-02-09 10:00:00') /* Tumerok High Priest (4106) */
+     , (0x72381009, 0x72381016, '2005-02-09 10:00:00') /* Tumerok High Priest (4106) */
+     , (0x72381009, 0x72381017, '2005-02-09 10:00:00') /* Tiatus Raider (8137) */
+     , (0x72381009, 0x72381018, '2005-02-09 10:00:00') /* Tiatus Raider (8137) */
+     , (0x72381009, 0x72381019, '2005-02-09 10:00:00') /* Tiatus Raider (8137) */
+     , (0x72381009, 0x7238101A, '2005-02-09 10:00:00') /* Tiatus Raider (8137) */
+     , (0x72381009, 0x7238101C, '2005-02-09 10:00:00') /* Raider Juggernaut (24285) */
+     , (0x72381009, 0x7238101D, '2005-02-09 10:00:00') /* Raider Juggernaut (24285) */
+     , (0x72381009, 0x7238101E, '2005-02-09 10:00:00') /* Raider Juggernaut (24285) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7238100A, 24494, 0x23810108, 103.292, 55.8369, 220.01, -0.857373, 0, 0, 0.514695,  True, '2005-02-09 10:00:00'); /* Gotrok Extas */
@@ -105,9 +105,9 @@ VALUES (0x7238101F,  3951, 0x23810000, 83.2216, 26.4446, 220.005, 0.936836, 0, 0
 /* @teleloc 0x23810000 [83.221600 26.444600 220.005000] 0.936836 0.000000 0.000000 -0.349768 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7238101F, 0x72381020, '2005-02-09 10:00:00') /* Renegade Commander Walanawa */
-     , (0x7238101F, 0x72381021, '2005-02-09 10:00:00') /* Renegade Commander Kianar */
-     , (0x7238101F, 0x72381022, '2005-02-09 10:00:00') /* General Garsh */;
+VALUES (0x7238101F, 0x72381020, '2005-02-09 10:00:00') /* Renegade Commander Walanawa (24501) */
+     , (0x7238101F, 0x72381021, '2005-02-09 10:00:00') /* Renegade Commander Kianar (24500) */
+     , (0x7238101F, 0x72381022, '2005-02-09 10:00:00') /* General Garsh (24496) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72381020, 24501, 0x23810102, 106.081, 113.559, 220.008, -0.0883572, 0, 0, 0.996089,  True, '2005-02-09 10:00:00'); /* Renegade Commander Walanawa */

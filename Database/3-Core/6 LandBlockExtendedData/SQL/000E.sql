@@ -177,26 +177,26 @@ VALUES (0x7000E02B,  7923, 0x000E0133, 131.527, -50.721, -23.995, 0.771473, 0, 0
 /* @teleloc 0x000E0133 [131.527000 -50.721000 -23.995000] 0.771473 0.000000 0.000000 0.636262 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7000E02B, 0x7000E006, '2005-02-09 10:00:00') /* Miasma */
-     , (0x7000E02B, 0x7000E007, '2005-02-09 10:00:00') /* Miasma */
-     , (0x7000E02B, 0x7000E008, '2005-02-09 10:00:00') /* Giant Phyntos Wasp */
-     , (0x7000E02B, 0x7000E009, '2005-02-09 10:00:00') /* Giant Phyntos Wasp */
-     , (0x7000E02B, 0x7000E00A, '2005-02-09 10:00:00') /* Miasma */
-     , (0x7000E02B, 0x7000E00B, '2005-02-09 10:00:00') /* Miasma */
-     , (0x7000E02B, 0x7000E00C, '2005-02-09 10:00:00') /* Giant Phyntos Wasp */
-     , (0x7000E02B, 0x7000E00D, '2005-02-09 10:00:00') /* Giant Phyntos Wasp */
-     , (0x7000E02B, 0x7000E010, '2005-02-09 10:00:00') /* Giant Phyntos Wasp */
-     , (0x7000E02B, 0x7000E011, '2005-02-09 10:00:00') /* Giant Phyntos Wasp */
-     , (0x7000E02B, 0x7000E012, '2005-02-09 10:00:00') /* Giant Phyntos Wasp */
-     , (0x7000E02B, 0x7000E028, '2005-02-09 10:00:00') /* Bane Grievver */
-     , (0x7000E02B, 0x7000E029, '2005-02-09 10:00:00') /* Giant Phyntos Wasp */
-     , (0x7000E02B, 0x7000E02A, '2005-02-09 10:00:00') /* Giant Phyntos Wasp */
-     , (0x7000E02B, 0x7000E02D, '2005-02-09 10:00:00') /* Bane Grievver */
-     , (0x7000E02B, 0x7000E037, '2005-02-09 10:00:00') /* Miasma */
-     , (0x7000E02B, 0x7000E038, '2005-02-09 10:00:00') /* Miasma */
-     , (0x7000E02B, 0x7000E039, '2005-02-09 10:00:00') /* Miasma */
-     , (0x7000E02B, 0x7000E03A, '2005-02-09 10:00:00') /* Miasma */
-     , (0x7000E02B, 0x7000E084, '2005-02-09 10:00:00') /* Bane Grievver */;
+VALUES (0x7000E02B, 0x7000E006, '2005-02-09 10:00:00') /* Miasma (14514) */
+     , (0x7000E02B, 0x7000E007, '2005-02-09 10:00:00') /* Miasma (14514) */
+     , (0x7000E02B, 0x7000E008, '2005-02-09 10:00:00') /* Giant Phyntos Wasp (28253) */
+     , (0x7000E02B, 0x7000E009, '2005-02-09 10:00:00') /* Giant Phyntos Wasp (28253) */
+     , (0x7000E02B, 0x7000E00A, '2005-02-09 10:00:00') /* Miasma (14514) */
+     , (0x7000E02B, 0x7000E00B, '2005-02-09 10:00:00') /* Miasma (14514) */
+     , (0x7000E02B, 0x7000E00C, '2005-02-09 10:00:00') /* Giant Phyntos Wasp (28253) */
+     , (0x7000E02B, 0x7000E00D, '2005-02-09 10:00:00') /* Giant Phyntos Wasp (28253) */
+     , (0x7000E02B, 0x7000E010, '2005-02-09 10:00:00') /* Giant Phyntos Wasp (28253) */
+     , (0x7000E02B, 0x7000E011, '2005-02-09 10:00:00') /* Giant Phyntos Wasp (28253) */
+     , (0x7000E02B, 0x7000E012, '2005-02-09 10:00:00') /* Giant Phyntos Wasp (28253) */
+     , (0x7000E02B, 0x7000E028, '2005-02-09 10:00:00') /* Bane Grievver (7983) */
+     , (0x7000E02B, 0x7000E029, '2005-02-09 10:00:00') /* Giant Phyntos Wasp (28253) */
+     , (0x7000E02B, 0x7000E02A, '2005-02-09 10:00:00') /* Giant Phyntos Wasp (28253) */
+     , (0x7000E02B, 0x7000E02D, '2005-02-09 10:00:00') /* Bane Grievver (7983) */
+     , (0x7000E02B, 0x7000E037, '2005-02-09 10:00:00') /* Miasma (14514) */
+     , (0x7000E02B, 0x7000E038, '2005-02-09 10:00:00') /* Miasma (14514) */
+     , (0x7000E02B, 0x7000E039, '2005-02-09 10:00:00') /* Miasma (14514) */
+     , (0x7000E02B, 0x7000E03A, '2005-02-09 10:00:00') /* Miasma (14514) */
+     , (0x7000E02B, 0x7000E084, '2005-02-09 10:00:00') /* Bane Grievver (7983) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7000E02C,  4979, 0x000E0139, 153.135, -53.1949, -23.995, -0.371948, 0, 0, 0.928254, False, '2005-02-09 10:00:00'); /* Sewer */
@@ -267,36 +267,36 @@ VALUES (0x7000E03C, 15274, 0x000E0151, 214.564, -89.973, -23.995, 0.675254, 0, 0
 /* @teleloc 0x000E0151 [214.564000 -89.973000 -23.995000] 0.675254 0.000000 0.000000 -0.737586 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7000E03C, 0x7000E03B, '2005-02-09 10:00:00') /* Infested Rat */
-     , (0x7000E03C, 0x7000E03E, '2005-02-09 10:00:00') /* Infested Rat */
-     , (0x7000E03C, 0x7000E03F, '2005-02-09 10:00:00') /* Infested Rat */
-     , (0x7000E03C, 0x7000E044, '2005-02-09 10:00:00') /* Infested Rat */
-     , (0x7000E03C, 0x7000E045, '2005-02-09 10:00:00') /* Infested Rat */
-     , (0x7000E03C, 0x7000E049, '2005-02-09 10:00:00') /* Infested Rat */
-     , (0x7000E03C, 0x7000E04A, '2005-02-09 10:00:00') /* Infested Rat */
-     , (0x7000E03C, 0x7000E09A, '2005-02-09 10:00:00') /* Infested Rat */;
+VALUES (0x7000E03C, 0x7000E03B, '2005-02-09 10:00:00') /* Infested Rat (25878) */
+     , (0x7000E03C, 0x7000E03E, '2005-02-09 10:00:00') /* Infested Rat (25878) */
+     , (0x7000E03C, 0x7000E03F, '2005-02-09 10:00:00') /* Infested Rat (25878) */
+     , (0x7000E03C, 0x7000E044, '2005-02-09 10:00:00') /* Infested Rat (25878) */
+     , (0x7000E03C, 0x7000E045, '2005-02-09 10:00:00') /* Infested Rat (25878) */
+     , (0x7000E03C, 0x7000E049, '2005-02-09 10:00:00') /* Infested Rat (25878) */
+     , (0x7000E03C, 0x7000E04A, '2005-02-09 10:00:00') /* Infested Rat (25878) */
+     , (0x7000E03C, 0x7000E09A, '2005-02-09 10:00:00') /* Infested Rat (25878) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7000E03D,  7923, 0x000E0151, 210.29, -90.037, -23.995, -0.847547, 0, 0, 0.53072, False, '2005-02-09 10:00:00'); /* Linkable Monster Generator ( 3 Min.) */
 /* @teleloc 0x000E0151 [210.290000 -90.037000 -23.995000] -0.847547 0.000000 0.000000 0.530720 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7000E03D, 0x7000E088, '2005-02-09 10:00:00') /* Giant Phyntos Wasp */
-     , (0x7000E03D, 0x7000E089, '2005-02-09 10:00:00') /* Giant Phyntos Wasp */
-     , (0x7000E03D, 0x7000E08A, '2005-02-09 10:00:00') /* Giant Phyntos Wasp */
-     , (0x7000E03D, 0x7000E08F, '2005-02-09 10:00:00') /* Giant Phyntos Wasp */
-     , (0x7000E03D, 0x7000E090, '2005-02-09 10:00:00') /* Giant Phyntos Wasp */
-     , (0x7000E03D, 0x7000E091, '2005-02-09 10:00:00') /* Giant Phyntos Wasp */
-     , (0x7000E03D, 0x7000E092, '2005-02-09 10:00:00') /* Giant Phyntos Wasp */
-     , (0x7000E03D, 0x7000E093, '2005-02-09 10:00:00') /* Giant Phyntos Wasp */
-     , (0x7000E03D, 0x7000E094, '2005-02-09 10:00:00') /* Giant Phyntos Wasp */
-     , (0x7000E03D, 0x7000E095, '2005-02-09 10:00:00') /* Giant Phyntos Wasp */
-     , (0x7000E03D, 0x7000E096, '2005-02-09 10:00:00') /* Giant Phyntos Wasp */
-     , (0x7000E03D, 0x7000E097, '2005-02-09 10:00:00') /* Bane Grievver */
-     , (0x7000E03D, 0x7000E098, '2005-02-09 10:00:00') /* Giant Phyntos Wasp */
-     , (0x7000E03D, 0x7000E099, '2005-02-09 10:00:00') /* Bane Grievver */
-     , (0x7000E03D, 0x7000E09B, '2005-02-09 10:00:00') /* Giant Phyntos Wasp */
-     , (0x7000E03D, 0x7000E09E, '2005-02-09 10:00:00') /* Giant Phyntos Wasp */;
+VALUES (0x7000E03D, 0x7000E088, '2005-02-09 10:00:00') /* Giant Phyntos Wasp (28253) */
+     , (0x7000E03D, 0x7000E089, '2005-02-09 10:00:00') /* Giant Phyntos Wasp (28253) */
+     , (0x7000E03D, 0x7000E08A, '2005-02-09 10:00:00') /* Giant Phyntos Wasp (28253) */
+     , (0x7000E03D, 0x7000E08F, '2005-02-09 10:00:00') /* Giant Phyntos Wasp (28253) */
+     , (0x7000E03D, 0x7000E090, '2005-02-09 10:00:00') /* Giant Phyntos Wasp (28253) */
+     , (0x7000E03D, 0x7000E091, '2005-02-09 10:00:00') /* Giant Phyntos Wasp (28253) */
+     , (0x7000E03D, 0x7000E092, '2005-02-09 10:00:00') /* Giant Phyntos Wasp (28253) */
+     , (0x7000E03D, 0x7000E093, '2005-02-09 10:00:00') /* Giant Phyntos Wasp (28253) */
+     , (0x7000E03D, 0x7000E094, '2005-02-09 10:00:00') /* Giant Phyntos Wasp (28253) */
+     , (0x7000E03D, 0x7000E095, '2005-02-09 10:00:00') /* Giant Phyntos Wasp (28253) */
+     , (0x7000E03D, 0x7000E096, '2005-02-09 10:00:00') /* Giant Phyntos Wasp (28253) */
+     , (0x7000E03D, 0x7000E097, '2005-02-09 10:00:00') /* Bane Grievver (7983) */
+     , (0x7000E03D, 0x7000E098, '2005-02-09 10:00:00') /* Giant Phyntos Wasp (28253) */
+     , (0x7000E03D, 0x7000E099, '2005-02-09 10:00:00') /* Bane Grievver (7983) */
+     , (0x7000E03D, 0x7000E09B, '2005-02-09 10:00:00') /* Giant Phyntos Wasp (28253) */
+     , (0x7000E03D, 0x7000E09E, '2005-02-09 10:00:00') /* Giant Phyntos Wasp (28253) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7000E03E, 25878, 0x000E0155, 222.578, -50.3688, -23.988, -0.722683, 0, 0, 0.69118,  True, '2005-02-09 10:00:00'); /* Infested Rat */
@@ -323,26 +323,26 @@ VALUES (0x7000E043,  7923, 0x000E015B, 223.946, -140.829, -23.995, 0.779241, 0, 
 /* @teleloc 0x000E015B [223.946000 -140.829000 -23.995000] 0.779241 0.000000 0.000000 0.626725 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7000E043, 0x7000E046, '2005-02-09 10:00:00') /* Miasma */
-     , (0x7000E043, 0x7000E047, '2005-02-09 10:00:00') /* Miasma */
-     , (0x7000E043, 0x7000E048, '2005-02-09 10:00:00') /* Miasma */
-     , (0x7000E043, 0x7000E04B, '2005-02-09 10:00:00') /* Bane Grievver */
-     , (0x7000E043, 0x7000E04C, '2005-02-09 10:00:00') /* Bane Grievver */
-     , (0x7000E043, 0x7000E04E, '2005-02-09 10:00:00') /* Giant Phyntos Wasp */
-     , (0x7000E043, 0x7000E04F, '2005-02-09 10:00:00') /* Giant Phyntos Wasp */
-     , (0x7000E043, 0x7000E050, '2005-02-09 10:00:00') /* Miasma */
-     , (0x7000E043, 0x7000E051, '2005-02-09 10:00:00') /* Giant Phyntos Wasp */
-     , (0x7000E043, 0x7000E052, '2005-02-09 10:00:00') /* Giant Phyntos Wasp */
-     , (0x7000E043, 0x7000E053, '2005-02-09 10:00:00') /* Bane Grievver */
-     , (0x7000E043, 0x7000E054, '2005-02-09 10:00:00') /* Bane Grievver */
-     , (0x7000E043, 0x7000E055, '2005-02-09 10:00:00') /* Giant Phyntos Wasp */
-     , (0x7000E043, 0x7000E056, '2005-02-09 10:00:00') /* Giant Phyntos Wasp */
-     , (0x7000E043, 0x7000E057, '2005-02-09 10:00:00') /* Giant Phyntos Wasp */
-     , (0x7000E043, 0x7000E058, '2005-02-09 10:00:00') /* Giant Phyntos Wasp */
-     , (0x7000E043, 0x7000E059, '2005-02-09 10:00:00') /* Giant Phyntos Wasp */
-     , (0x7000E043, 0x7000E05A, '2005-02-09 10:00:00') /* Giant Phyntos Wasp */
-     , (0x7000E043, 0x7000E05B, '2005-02-09 10:00:00') /* Giant Phyntos Wasp */
-     , (0x7000E043, 0x7000E05C, '2005-02-09 10:00:00') /* Giant Phyntos Wasp */;
+VALUES (0x7000E043, 0x7000E046, '2005-02-09 10:00:00') /* Miasma (14514) */
+     , (0x7000E043, 0x7000E047, '2005-02-09 10:00:00') /* Miasma (14514) */
+     , (0x7000E043, 0x7000E048, '2005-02-09 10:00:00') /* Miasma (14514) */
+     , (0x7000E043, 0x7000E04B, '2005-02-09 10:00:00') /* Bane Grievver (7983) */
+     , (0x7000E043, 0x7000E04C, '2005-02-09 10:00:00') /* Bane Grievver (7983) */
+     , (0x7000E043, 0x7000E04E, '2005-02-09 10:00:00') /* Giant Phyntos Wasp (28253) */
+     , (0x7000E043, 0x7000E04F, '2005-02-09 10:00:00') /* Giant Phyntos Wasp (28253) */
+     , (0x7000E043, 0x7000E050, '2005-02-09 10:00:00') /* Miasma (14514) */
+     , (0x7000E043, 0x7000E051, '2005-02-09 10:00:00') /* Giant Phyntos Wasp (28253) */
+     , (0x7000E043, 0x7000E052, '2005-02-09 10:00:00') /* Giant Phyntos Wasp (28253) */
+     , (0x7000E043, 0x7000E053, '2005-02-09 10:00:00') /* Bane Grievver (7983) */
+     , (0x7000E043, 0x7000E054, '2005-02-09 10:00:00') /* Bane Grievver (7983) */
+     , (0x7000E043, 0x7000E055, '2005-02-09 10:00:00') /* Giant Phyntos Wasp (28253) */
+     , (0x7000E043, 0x7000E056, '2005-02-09 10:00:00') /* Giant Phyntos Wasp (28253) */
+     , (0x7000E043, 0x7000E057, '2005-02-09 10:00:00') /* Giant Phyntos Wasp (28253) */
+     , (0x7000E043, 0x7000E058, '2005-02-09 10:00:00') /* Giant Phyntos Wasp (28253) */
+     , (0x7000E043, 0x7000E059, '2005-02-09 10:00:00') /* Giant Phyntos Wasp (28253) */
+     , (0x7000E043, 0x7000E05A, '2005-02-09 10:00:00') /* Giant Phyntos Wasp (28253) */
+     , (0x7000E043, 0x7000E05B, '2005-02-09 10:00:00') /* Giant Phyntos Wasp (28253) */
+     , (0x7000E043, 0x7000E05C, '2005-02-09 10:00:00') /* Giant Phyntos Wasp (28253) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7000E044, 25878, 0x000E0160, 230.266, -58.8908, -23.988, -0.597765, 0, 0, 0.801671,  True, '2005-02-09 10:00:00'); /* Infested Rat */
@@ -449,20 +449,20 @@ VALUES (0x7000E05D, 24129, 0x000E0199, -2.70317, -96.7571, -17.995, 0.668142, 0,
 /* @teleloc 0x000E0199 [-2.703170 -96.757100 -17.995000] 0.668142 0.000000 0.000000 0.744034 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7000E05D, 0x7000E05F, '2005-02-09 10:00:00') /* Giant Phyntos Wasp */
-     , (0x7000E05D, 0x7000E060, '2005-02-09 10:00:00') /* Giant Phyntos Wasp */
-     , (0x7000E05D, 0x7000E061, '2005-02-09 10:00:00') /* Bane Grievver */
-     , (0x7000E05D, 0x7000E064, '2005-02-09 10:00:00') /* Giant Phyntos Wasp */
-     , (0x7000E05D, 0x7000E065, '2005-02-09 10:00:00') /* Giant Phyntos Wasp */
-     , (0x7000E05D, 0x7000E066, '2005-02-09 10:00:00') /* Giant Phyntos Wasp */
-     , (0x7000E05D, 0x7000E069, '2005-02-09 10:00:00') /* Giant Phyntos Wasp */
-     , (0x7000E05D, 0x7000E06A, '2005-02-09 10:00:00') /* Giant Phyntos Wasp */
-     , (0x7000E05D, 0x7000E06B, '2005-02-09 10:00:00') /* Giant Phyntos Wasp */
-     , (0x7000E05D, 0x7000E06C, '2005-02-09 10:00:00') /* Giant Phyntos Wasp */
-     , (0x7000E05D, 0x7000E06D, '2005-02-09 10:00:00') /* Giant Phyntos Wasp */
-     , (0x7000E05D, 0x7000E06E, '2005-02-09 10:00:00') /* Giant Phyntos Wasp */
-     , (0x7000E05D, 0x7000E06F, '2005-02-09 10:00:00') /* Giant Phyntos Wasp */
-     , (0x7000E05D, 0x7000E070, '2005-02-09 10:00:00') /* Giant Phyntos Wasp */;
+VALUES (0x7000E05D, 0x7000E05F, '2005-02-09 10:00:00') /* Giant Phyntos Wasp (28253) */
+     , (0x7000E05D, 0x7000E060, '2005-02-09 10:00:00') /* Giant Phyntos Wasp (28253) */
+     , (0x7000E05D, 0x7000E061, '2005-02-09 10:00:00') /* Bane Grievver (7983) */
+     , (0x7000E05D, 0x7000E064, '2005-02-09 10:00:00') /* Giant Phyntos Wasp (28253) */
+     , (0x7000E05D, 0x7000E065, '2005-02-09 10:00:00') /* Giant Phyntos Wasp (28253) */
+     , (0x7000E05D, 0x7000E066, '2005-02-09 10:00:00') /* Giant Phyntos Wasp (28253) */
+     , (0x7000E05D, 0x7000E069, '2005-02-09 10:00:00') /* Giant Phyntos Wasp (28253) */
+     , (0x7000E05D, 0x7000E06A, '2005-02-09 10:00:00') /* Giant Phyntos Wasp (28253) */
+     , (0x7000E05D, 0x7000E06B, '2005-02-09 10:00:00') /* Giant Phyntos Wasp (28253) */
+     , (0x7000E05D, 0x7000E06C, '2005-02-09 10:00:00') /* Giant Phyntos Wasp (28253) */
+     , (0x7000E05D, 0x7000E06D, '2005-02-09 10:00:00') /* Giant Phyntos Wasp (28253) */
+     , (0x7000E05D, 0x7000E06E, '2005-02-09 10:00:00') /* Giant Phyntos Wasp (28253) */
+     , (0x7000E05D, 0x7000E06F, '2005-02-09 10:00:00') /* Giant Phyntos Wasp (28253) */
+     , (0x7000E05D, 0x7000E070, '2005-02-09 10:00:00') /* Giant Phyntos Wasp (28253) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7000E05E, 30730, 0x000E0199, 0, -100, -17.995, 0.707107, 0, 0, -0.707107, False, '2005-02-09 10:00:00'); /* Reinforced Royal Vault */
@@ -489,14 +489,14 @@ VALUES (0x7000E063, 15274, 0x000E01A5, 12.0122, -110.345, -17.995, 0.998373, 0, 
 /* @teleloc 0x000E01A5 [12.012200 -110.345000 -17.995000] 0.998373 0.000000 0.000000 -0.057028 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7000E063, 0x7000E01B, '2005-02-09 10:00:00') /* Infested Rat */
-     , (0x7000E063, 0x7000E022, '2005-02-09 10:00:00') /* Infested Rat */
-     , (0x7000E063, 0x7000E062, '2005-02-09 10:00:00') /* Infested Rat */
-     , (0x7000E063, 0x7000E067, '2005-02-09 10:00:00') /* Infested Rat */
-     , (0x7000E063, 0x7000E068, '2005-02-09 10:00:00') /* Infested Rat */
-     , (0x7000E063, 0x7000E0A7, '2005-02-09 10:00:00') /* Infested Rat */
-     , (0x7000E063, 0x7000E0A8, '2005-02-09 10:00:00') /* Infested Rat */
-     , (0x7000E063, 0x7000E0A9, '2005-02-09 10:00:00') /* Infested Rat */;
+VALUES (0x7000E063, 0x7000E01B, '2005-02-09 10:00:00') /* Infested Rat (25878) */
+     , (0x7000E063, 0x7000E022, '2005-02-09 10:00:00') /* Infested Rat (25878) */
+     , (0x7000E063, 0x7000E062, '2005-02-09 10:00:00') /* Infested Rat (25878) */
+     , (0x7000E063, 0x7000E067, '2005-02-09 10:00:00') /* Infested Rat (25878) */
+     , (0x7000E063, 0x7000E068, '2005-02-09 10:00:00') /* Infested Rat (25878) */
+     , (0x7000E063, 0x7000E0A7, '2005-02-09 10:00:00') /* Infested Rat (25878) */
+     , (0x7000E063, 0x7000E0A8, '2005-02-09 10:00:00') /* Infested Rat (25878) */
+     , (0x7000E063, 0x7000E0A9, '2005-02-09 10:00:00') /* Infested Rat (25878) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7000E064, 28253, 0x000E01A5, 7.48358, -108.827, -17.986, -0.979483, 0, 0, 0.201526,  True, '2005-02-09 10:00:00'); /* Giant Phyntos Wasp */
@@ -559,21 +559,21 @@ VALUES (0x7000E072, 24129, 0x000E01C1, 42.6553, -102.66, -17.995, 0.566507, 0, 0
 /* @teleloc 0x000E01C1 [42.655300 -102.660000 -17.995000] 0.566507 0.000000 0.000000 -0.824057 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7000E072, 0x7000E01C, '2005-02-09 10:00:00') /* Giant Phyntos Wasp */
-     , (0x7000E072, 0x7000E01D, '2005-02-09 10:00:00') /* Bane Grievver */
-     , (0x7000E072, 0x7000E01E, '2005-02-09 10:00:00') /* Giant Phyntos Wasp */
-     , (0x7000E072, 0x7000E01F, '2005-02-09 10:00:00') /* Giant Phyntos Wasp */
-     , (0x7000E072, 0x7000E020, '2005-02-09 10:00:00') /* Giant Phyntos Wasp */
-     , (0x7000E072, 0x7000E021, '2005-02-09 10:00:00') /* Bane Grievver */
-     , (0x7000E072, 0x7000E023, '2005-02-09 10:00:00') /* Giant Phyntos Wasp */
-     , (0x7000E072, 0x7000E024, '2005-02-09 10:00:00') /* Giant Phyntos Wasp */
-     , (0x7000E072, 0x7000E025, '2005-02-09 10:00:00') /* Giant Phyntos Wasp */
-     , (0x7000E072, 0x7000E026, '2005-02-09 10:00:00') /* Giant Phyntos Wasp */
-     , (0x7000E072, 0x7000E027, '2005-02-09 10:00:00') /* Giant Phyntos Wasp */
-     , (0x7000E072, 0x7000E071, '2005-02-09 10:00:00') /* Bane Grievver */
-     , (0x7000E072, 0x7000E073, '2005-02-09 10:00:00') /* Bane Grievver */
-     , (0x7000E072, 0x7000E0AA, '2005-02-09 10:00:00') /* Bane Grievver */
-     , (0x7000E072, 0x7000E0AB, '2005-02-09 10:00:00') /* Bane Grievver */;
+VALUES (0x7000E072, 0x7000E01C, '2005-02-09 10:00:00') /* Giant Phyntos Wasp (28253) */
+     , (0x7000E072, 0x7000E01D, '2005-02-09 10:00:00') /* Bane Grievver (7983) */
+     , (0x7000E072, 0x7000E01E, '2005-02-09 10:00:00') /* Giant Phyntos Wasp (28253) */
+     , (0x7000E072, 0x7000E01F, '2005-02-09 10:00:00') /* Giant Phyntos Wasp (28253) */
+     , (0x7000E072, 0x7000E020, '2005-02-09 10:00:00') /* Giant Phyntos Wasp (28253) */
+     , (0x7000E072, 0x7000E021, '2005-02-09 10:00:00') /* Bane Grievver (7983) */
+     , (0x7000E072, 0x7000E023, '2005-02-09 10:00:00') /* Giant Phyntos Wasp (28253) */
+     , (0x7000E072, 0x7000E024, '2005-02-09 10:00:00') /* Giant Phyntos Wasp (28253) */
+     , (0x7000E072, 0x7000E025, '2005-02-09 10:00:00') /* Giant Phyntos Wasp (28253) */
+     , (0x7000E072, 0x7000E026, '2005-02-09 10:00:00') /* Giant Phyntos Wasp (28253) */
+     , (0x7000E072, 0x7000E027, '2005-02-09 10:00:00') /* Giant Phyntos Wasp (28253) */
+     , (0x7000E072, 0x7000E071, '2005-02-09 10:00:00') /* Bane Grievver (7983) */
+     , (0x7000E072, 0x7000E073, '2005-02-09 10:00:00') /* Bane Grievver (7983) */
+     , (0x7000E072, 0x7000E0AA, '2005-02-09 10:00:00') /* Bane Grievver (7983) */
+     , (0x7000E072, 0x7000E0AB, '2005-02-09 10:00:00') /* Bane Grievver (7983) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7000E073,  7983, 0x000E01C2, 40.394, -108.249, -17.995, 0.978716, 0, 0, -0.20522,  True, '2005-02-09 10:00:00'); /* Bane Grievver */
@@ -644,10 +644,10 @@ VALUES (0x7000E083, 15274, 0x000E01F5, 168.216, -89.6698, -17.995, 0.743501, 0, 
 /* @teleloc 0x000E01F5 [168.216000 -89.669800 -17.995000] 0.743501 0.000000 0.000000 -0.668734 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7000E083, 0x7000E041, '2005-02-09 10:00:00') /* Infested Rat */
-     , (0x7000E083, 0x7000E042, '2005-02-09 10:00:00') /* Infested Rat */
-     , (0x7000E083, 0x7000E082, '2005-02-09 10:00:00') /* Infested Rat */
-     , (0x7000E083, 0x7000E08B, '2005-02-09 10:00:00') /* Infested Rat */;
+VALUES (0x7000E083, 0x7000E041, '2005-02-09 10:00:00') /* Infested Rat (25878) */
+     , (0x7000E083, 0x7000E042, '2005-02-09 10:00:00') /* Infested Rat (25878) */
+     , (0x7000E083, 0x7000E082, '2005-02-09 10:00:00') /* Infested Rat (25878) */
+     , (0x7000E083, 0x7000E08B, '2005-02-09 10:00:00') /* Infested Rat (25878) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7000E084,  7983, 0x000E01F5, 170.752, -91.0594, -17.995, 0.99698, 0, 0, -0.0776602,  True, '2005-02-09 10:00:00'); /* Bane Grievver */
@@ -666,14 +666,14 @@ VALUES (0x7000E087,  7923, 0x000E01FD, 187.478, -50.8353, -17.995, -0.66892, 0, 
 /* @teleloc 0x000E01FD [187.478000 -50.835300 -17.995000] -0.668920 0.000000 0.000000 0.743334 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7000E087, 0x7000E085, '2005-02-09 10:00:00') /* Giant Phyntos Wasp */
-     , (0x7000E087, 0x7000E086, '2005-02-09 10:00:00') /* Giant Phyntos Wasp */
-     , (0x7000E087, 0x7000E08C, '2005-02-09 10:00:00') /* Giant Phyntos Wasp */
-     , (0x7000E087, 0x7000E08D, '2005-02-09 10:00:00') /* Giant Phyntos Wasp */
-     , (0x7000E087, 0x7000E08E, '2005-02-09 10:00:00') /* Giant Phyntos Wasp */
-     , (0x7000E087, 0x7000E0B1, '2005-02-09 10:00:00') /* Bane Grievver */
-     , (0x7000E087, 0x7000E0C5, '2005-02-09 10:00:00') /* Giant Phyntos Wasp */
-     , (0x7000E087, 0x7000E0C6, '2005-02-09 10:00:00') /* Giant Phyntos Wasp */;
+VALUES (0x7000E087, 0x7000E085, '2005-02-09 10:00:00') /* Giant Phyntos Wasp (28253) */
+     , (0x7000E087, 0x7000E086, '2005-02-09 10:00:00') /* Giant Phyntos Wasp (28253) */
+     , (0x7000E087, 0x7000E08C, '2005-02-09 10:00:00') /* Giant Phyntos Wasp (28253) */
+     , (0x7000E087, 0x7000E08D, '2005-02-09 10:00:00') /* Giant Phyntos Wasp (28253) */
+     , (0x7000E087, 0x7000E08E, '2005-02-09 10:00:00') /* Giant Phyntos Wasp (28253) */
+     , (0x7000E087, 0x7000E0B1, '2005-02-09 10:00:00') /* Bane Grievver (7983) */
+     , (0x7000E087, 0x7000E0C5, '2005-02-09 10:00:00') /* Giant Phyntos Wasp (28253) */
+     , (0x7000E087, 0x7000E0C6, '2005-02-09 10:00:00') /* Giant Phyntos Wasp (28253) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7000E088, 28253, 0x000E01FF, 191.415, -72.3552, -17.986, 0.999983, 0, 0, 0.00574592,  True, '2005-02-09 10:00:00'); /* Giant Phyntos Wasp */
@@ -860,13 +860,13 @@ VALUES (0x7000E0B5, 15274, 0x000E026C, 160.142, -60.1576, -11.995, 0.885989, 0, 
 /* @teleloc 0x000E026C [160.142000 -60.157600 -11.995000] 0.885989 0.000000 0.000000 0.463706 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7000E0B5, 0x7000E074, '2005-02-09 10:00:00') /* Infested Rat */
-     , (0x7000E0B5, 0x7000E075, '2005-02-09 10:00:00') /* Infested Rat */
-     , (0x7000E0B5, 0x7000E079, '2005-02-09 10:00:00') /* Infested Rat */
-     , (0x7000E0B5, 0x7000E07D, '2005-02-09 10:00:00') /* Infested Rat */
-     , (0x7000E0B5, 0x7000E080, '2005-02-09 10:00:00') /* Infested Rat */
-     , (0x7000E0B5, 0x7000E0B3, '2005-02-09 10:00:00') /* Infested Rat */
-     , (0x7000E0B5, 0x7000E0B4, '2005-02-09 10:00:00') /* Infested Rat */;
+VALUES (0x7000E0B5, 0x7000E074, '2005-02-09 10:00:00') /* Infested Rat (25878) */
+     , (0x7000E0B5, 0x7000E075, '2005-02-09 10:00:00') /* Infested Rat (25878) */
+     , (0x7000E0B5, 0x7000E079, '2005-02-09 10:00:00') /* Infested Rat (25878) */
+     , (0x7000E0B5, 0x7000E07D, '2005-02-09 10:00:00') /* Infested Rat (25878) */
+     , (0x7000E0B5, 0x7000E080, '2005-02-09 10:00:00') /* Infested Rat (25878) */
+     , (0x7000E0B5, 0x7000E0B3, '2005-02-09 10:00:00') /* Infested Rat (25878) */
+     , (0x7000E0B5, 0x7000E0B4, '2005-02-09 10:00:00') /* Infested Rat (25878) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7000E0B6, 28253, 0x000E026C, 162.016, -62.3806, -11.986, -0.792744, 0, 0, -0.609554,  True, '2005-02-09 10:00:00'); /* Giant Phyntos Wasp */
@@ -877,16 +877,16 @@ VALUES (0x7000E0B7,  7923, 0x000E026C, 159.029, -61.5866, -11.995, -0.792744, 0,
 /* @teleloc 0x000E026C [159.029000 -61.586600 -11.995000] -0.792744 0.000000 0.000000 -0.609554 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7000E0B7, 0x7000E076, '2005-02-09 10:00:00') /* Giant Phyntos Wasp */
-     , (0x7000E0B7, 0x7000E077, '2005-02-09 10:00:00') /* Giant Phyntos Wasp */
-     , (0x7000E0B7, 0x7000E078, '2005-02-09 10:00:00') /* Giant Phyntos Wasp */
-     , (0x7000E0B7, 0x7000E07A, '2005-02-09 10:00:00') /* Giant Phyntos Wasp */
-     , (0x7000E0B7, 0x7000E07B, '2005-02-09 10:00:00') /* Giant Phyntos Wasp */
-     , (0x7000E0B7, 0x7000E07C, '2005-02-09 10:00:00') /* Giant Phyntos Wasp */
-     , (0x7000E0B7, 0x7000E07E, '2005-02-09 10:00:00') /* Giant Phyntos Wasp */
-     , (0x7000E0B7, 0x7000E081, '2005-02-09 10:00:00') /* Bane Grievver */
-     , (0x7000E0B7, 0x7000E0B6, '2005-02-09 10:00:00') /* Giant Phyntos Wasp */
-     , (0x7000E0B7, 0x7000E0B8, '2005-02-09 10:00:00') /* Giant Phyntos Wasp */;
+VALUES (0x7000E0B7, 0x7000E076, '2005-02-09 10:00:00') /* Giant Phyntos Wasp (28253) */
+     , (0x7000E0B7, 0x7000E077, '2005-02-09 10:00:00') /* Giant Phyntos Wasp (28253) */
+     , (0x7000E0B7, 0x7000E078, '2005-02-09 10:00:00') /* Giant Phyntos Wasp (28253) */
+     , (0x7000E0B7, 0x7000E07A, '2005-02-09 10:00:00') /* Giant Phyntos Wasp (28253) */
+     , (0x7000E0B7, 0x7000E07B, '2005-02-09 10:00:00') /* Giant Phyntos Wasp (28253) */
+     , (0x7000E0B7, 0x7000E07C, '2005-02-09 10:00:00') /* Giant Phyntos Wasp (28253) */
+     , (0x7000E0B7, 0x7000E07E, '2005-02-09 10:00:00') /* Giant Phyntos Wasp (28253) */
+     , (0x7000E0B7, 0x7000E081, '2005-02-09 10:00:00') /* Bane Grievver (7983) */
+     , (0x7000E0B7, 0x7000E0B6, '2005-02-09 10:00:00') /* Giant Phyntos Wasp (28253) */
+     , (0x7000E0B7, 0x7000E0B8, '2005-02-09 10:00:00') /* Giant Phyntos Wasp (28253) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7000E0B8, 28253, 0x000E026C, 159.568, -58.8351, -11.986, 0.497571, 0, 0, 0.867423,  True, '2005-02-09 10:00:00'); /* Giant Phyntos Wasp */
@@ -897,15 +897,15 @@ VALUES (0x7000E0B9, 15274, 0x000E0274, 165.833, -29.5279, -11.995, 0.752314, 0, 
 /* @teleloc 0x000E0274 [165.833000 -29.527900 -11.995000] 0.752314 0.000000 0.000000 -0.658805 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7000E0B9, 0x7000E09F, '2005-02-09 10:00:00') /* Infested Rat */
-     , (0x7000E0B9, 0x7000E0A3, '2005-02-09 10:00:00') /* Infested Rat */
-     , (0x7000E0B9, 0x7000E0A4, '2005-02-09 10:00:00') /* Infested Rat */
-     , (0x7000E0B9, 0x7000E0A6, '2005-02-09 10:00:00') /* Infested Rat */
-     , (0x7000E0B9, 0x7000E0AC, '2005-02-09 10:00:00') /* Infested Rat */
-     , (0x7000E0B9, 0x7000E0AF, '2005-02-09 10:00:00') /* Infested Rat */
-     , (0x7000E0B9, 0x7000E0B0, '2005-02-09 10:00:00') /* Infested Rat */
-     , (0x7000E0B9, 0x7000E0BA, '2005-02-09 10:00:00') /* Infested Rat */
-     , (0x7000E0B9, 0x7000E0BB, '2005-02-09 10:00:00') /* Infested Rat */;
+VALUES (0x7000E0B9, 0x7000E09F, '2005-02-09 10:00:00') /* Infested Rat (25878) */
+     , (0x7000E0B9, 0x7000E0A3, '2005-02-09 10:00:00') /* Infested Rat (25878) */
+     , (0x7000E0B9, 0x7000E0A4, '2005-02-09 10:00:00') /* Infested Rat (25878) */
+     , (0x7000E0B9, 0x7000E0A6, '2005-02-09 10:00:00') /* Infested Rat (25878) */
+     , (0x7000E0B9, 0x7000E0AC, '2005-02-09 10:00:00') /* Infested Rat (25878) */
+     , (0x7000E0B9, 0x7000E0AF, '2005-02-09 10:00:00') /* Infested Rat (25878) */
+     , (0x7000E0B9, 0x7000E0B0, '2005-02-09 10:00:00') /* Infested Rat (25878) */
+     , (0x7000E0B9, 0x7000E0BA, '2005-02-09 10:00:00') /* Infested Rat (25878) */
+     , (0x7000E0B9, 0x7000E0BB, '2005-02-09 10:00:00') /* Infested Rat (25878) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7000E0BA, 25878, 0x000E027B, 180.036, -27.1487, -11.988, -0.373351, 0, 0, 0.92769,  True, '2005-02-09 10:00:00'); /* Infested Rat */
@@ -928,34 +928,34 @@ VALUES (0x7000E0BE,  7923, 0x000E0284, 179.983, -82.1422, -11.995, -0.346583, 0,
 /* @teleloc 0x000E0284 [179.983000 -82.142200 -11.995000] -0.346583 0.000000 0.000000 -0.938019 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7000E0BE, 0x7000E0BC, '2005-02-09 10:00:00') /* Giant Phyntos Wasp */
-     , (0x7000E0BE, 0x7000E0BD, '2005-02-09 10:00:00') /* Giant Phyntos Wasp */
-     , (0x7000E0BE, 0x7000E0BF, '2005-02-09 10:00:00') /* Giant Phyntos Wasp */
-     , (0x7000E0BE, 0x7000E0C1, '2005-02-09 10:00:00') /* Giant Phyntos Wasp */
-     , (0x7000E0BE, 0x7000E0C3, '2005-02-09 10:00:00') /* Giant Phyntos Wasp */
-     , (0x7000E0BE, 0x7000E0C7, '2005-02-09 10:00:00') /* Bane Grievver */
-     , (0x7000E0BE, 0x7000E0C9, '2005-02-09 10:00:00') /* Giant Phyntos Wasp */
-     , (0x7000E0BE, 0x7000E0CA, '2005-02-09 10:00:00') /* Giant Phyntos Wasp */
-     , (0x7000E0BE, 0x7000E0CB, '2005-02-09 10:00:00') /* Giant Phyntos Wasp */
-     , (0x7000E0BE, 0x7000E0CC, '2005-02-09 10:00:00') /* Giant Phyntos Wasp */
-     , (0x7000E0BE, 0x7000E0CE, '2005-02-09 10:00:00') /* Giant Phyntos Wasp */
-     , (0x7000E0BE, 0x7000E0CF, '2005-02-09 10:00:00') /* Bane Grievver */
-     , (0x7000E0BE, 0x7000E0D1, '2005-02-09 10:00:00') /* Miasma */
-     , (0x7000E0BE, 0x7000E0D2, '2005-02-09 10:00:00') /* Miasma */
-     , (0x7000E0BE, 0x7000E0D5, '2005-02-09 10:00:00') /* Miasma */
-     , (0x7000E0BE, 0x7000E0D7, '2005-02-09 10:00:00') /* Miasma */
-     , (0x7000E0BE, 0x7000E0D8, '2005-02-09 10:00:00') /* Infested Rat */
-     , (0x7000E0BE, 0x7000E0D9, '2005-02-09 10:00:00') /* Infested Rat */
-     , (0x7000E0BE, 0x7000E0DA, '2005-02-09 10:00:00') /* Infested Rat */
-     , (0x7000E0BE, 0x7000E0DB, '2005-02-09 10:00:00') /* Infested Rat */
-     , (0x7000E0BE, 0x7000E0DC, '2005-02-09 10:00:00') /* Miasma */
-     , (0x7000E0BE, 0x7000E0DD, '2005-02-09 10:00:00') /* Miasma */
-     , (0x7000E0BE, 0x7000E0DE, '2005-02-09 10:00:00') /* Giant Phyntos Wasp */
-     , (0x7000E0BE, 0x7000E0DF, '2005-02-09 10:00:00') /* Giant Phyntos Wasp */
-     , (0x7000E0BE, 0x7000E0E0, '2005-02-09 10:00:00') /* Giant Phyntos Wasp */
-     , (0x7000E0BE, 0x7000E0E1, '2005-02-09 10:00:00') /* Bane Grievver */
-     , (0x7000E0BE, 0x7000E0E2, '2005-02-09 10:00:00') /* Giant Phyntos Wasp */
-     , (0x7000E0BE, 0x7000E0E3, '2005-02-09 10:00:00') /* Bane Grievver */;
+VALUES (0x7000E0BE, 0x7000E0BC, '2005-02-09 10:00:00') /* Giant Phyntos Wasp (28253) */
+     , (0x7000E0BE, 0x7000E0BD, '2005-02-09 10:00:00') /* Giant Phyntos Wasp (28253) */
+     , (0x7000E0BE, 0x7000E0BF, '2005-02-09 10:00:00') /* Giant Phyntos Wasp (28253) */
+     , (0x7000E0BE, 0x7000E0C1, '2005-02-09 10:00:00') /* Giant Phyntos Wasp (28253) */
+     , (0x7000E0BE, 0x7000E0C3, '2005-02-09 10:00:00') /* Giant Phyntos Wasp (28253) */
+     , (0x7000E0BE, 0x7000E0C7, '2005-02-09 10:00:00') /* Bane Grievver (7983) */
+     , (0x7000E0BE, 0x7000E0C9, '2005-02-09 10:00:00') /* Giant Phyntos Wasp (28253) */
+     , (0x7000E0BE, 0x7000E0CA, '2005-02-09 10:00:00') /* Giant Phyntos Wasp (28253) */
+     , (0x7000E0BE, 0x7000E0CB, '2005-02-09 10:00:00') /* Giant Phyntos Wasp (28253) */
+     , (0x7000E0BE, 0x7000E0CC, '2005-02-09 10:00:00') /* Giant Phyntos Wasp (28253) */
+     , (0x7000E0BE, 0x7000E0CE, '2005-02-09 10:00:00') /* Giant Phyntos Wasp (28253) */
+     , (0x7000E0BE, 0x7000E0CF, '2005-02-09 10:00:00') /* Bane Grievver (7983) */
+     , (0x7000E0BE, 0x7000E0D1, '2005-02-09 10:00:00') /* Miasma (14514) */
+     , (0x7000E0BE, 0x7000E0D2, '2005-02-09 10:00:00') /* Miasma (14514) */
+     , (0x7000E0BE, 0x7000E0D5, '2005-02-09 10:00:00') /* Miasma (14514) */
+     , (0x7000E0BE, 0x7000E0D7, '2005-02-09 10:00:00') /* Miasma (14514) */
+     , (0x7000E0BE, 0x7000E0D8, '2005-02-09 10:00:00') /* Infested Rat (25878) */
+     , (0x7000E0BE, 0x7000E0D9, '2005-02-09 10:00:00') /* Infested Rat (25878) */
+     , (0x7000E0BE, 0x7000E0DA, '2005-02-09 10:00:00') /* Infested Rat (25878) */
+     , (0x7000E0BE, 0x7000E0DB, '2005-02-09 10:00:00') /* Infested Rat (25878) */
+     , (0x7000E0BE, 0x7000E0DC, '2005-02-09 10:00:00') /* Miasma (14514) */
+     , (0x7000E0BE, 0x7000E0DD, '2005-02-09 10:00:00') /* Miasma (14514) */
+     , (0x7000E0BE, 0x7000E0DE, '2005-02-09 10:00:00') /* Giant Phyntos Wasp (28253) */
+     , (0x7000E0BE, 0x7000E0DF, '2005-02-09 10:00:00') /* Giant Phyntos Wasp (28253) */
+     , (0x7000E0BE, 0x7000E0E0, '2005-02-09 10:00:00') /* Giant Phyntos Wasp (28253) */
+     , (0x7000E0BE, 0x7000E0E1, '2005-02-09 10:00:00') /* Bane Grievver (7983) */
+     , (0x7000E0BE, 0x7000E0E2, '2005-02-09 10:00:00') /* Giant Phyntos Wasp (28253) */
+     , (0x7000E0BE, 0x7000E0E3, '2005-02-09 10:00:00') /* Bane Grievver (7983) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7000E0BF, 28253, 0x000E0289, 179.887, -100.066, -11.986, -0.929621, 0, 0, 0.368516,  True, '2005-02-09 10:00:00'); /* Giant Phyntos Wasp */

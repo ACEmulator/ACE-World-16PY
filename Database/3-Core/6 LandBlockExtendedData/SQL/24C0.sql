@@ -13,9 +13,9 @@ VALUES (0x724C0003,  4219, 0x24C00000, 92.7633, 49.089, 134.355, -0.977858, 0, 0
 /* @teleloc 0x24C00000 [92.763300 49.089000 134.355000] -0.977858 0.000000 0.000000 0.209268 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x724C0003, 0x724C0001, '2005-02-09 10:00:00') /* Tall Tree */
-     , (0x724C0003, 0x724C0002, '2005-02-09 10:00:00') /* Tall Tree */
-     , (0x724C0003, 0x724C0004, '2005-02-09 10:00:00') /* Tall Tree */;
+VALUES (0x724C0003, 0x724C0001, '2005-02-09 10:00:00') /* Tall Tree (10932) */
+     , (0x724C0003, 0x724C0002, '2005-02-09 10:00:00') /* Tall Tree (10930) */
+     , (0x724C0003, 0x724C0004, '2005-02-09 10:00:00') /* Tall Tree (10931) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x724C0004, 10931, 0x24C00000, 86.4037, 57.9199, 134.8, -0.740239, 0, 0, -0.672343,  True, '2005-02-09 10:00:00'); /* Tall Tree */

@@ -9,4 +9,4 @@ VALUES (0x77F15001,  3951, 0x7F150000, 89.5383, 152.001, 22.005, -0.650242, 0, 0
 /* @teleloc 0x7F150000 [89.538300 152.001000 22.005000] -0.650242 0.000000 0.000000 0.759727 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x77F15001, 0x77F15000, '2005-02-09 10:00:00') /* Guardian of the Temple of Enlightenment */;
+VALUES (0x77F15001, 0x77F15000, '2005-02-09 10:00:00') /* Guardian of the Temple of Enlightenment (22753) */;

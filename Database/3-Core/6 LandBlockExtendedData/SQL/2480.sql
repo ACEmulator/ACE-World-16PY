@@ -5,16 +5,16 @@ VALUES (0x72480004,  1154, 0x24800100, 60.4093, 21.6623, 214.805, 0.947804, 0, 0
 /* @teleloc 0x24800100 [60.409300 21.662300 214.805000] 0.947804 0.000000 0.000000 0.318855 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72480004, 0x7248000B, '2005-02-09 10:00:00') /* Merciless Monouga */
-     , (0x72480004, 0x7248000C, '2005-02-09 10:00:00') /* Merciless Monouga */
-     , (0x72480004, 0x7248000D, '2005-02-09 10:00:00') /* Merciless Monouga */
-     , (0x72480004, 0x7248000E, '2005-02-09 10:00:00') /* Merciless Monouga */
-     , (0x72480004, 0x7248000F, '2005-02-09 10:00:00') /* Merciless Monouga */
-     , (0x72480004, 0x72480010, '2005-02-09 10:00:00') /* Merciless Monouga */
-     , (0x72480004, 0x72480011, '2005-02-09 10:00:00') /* Insidious Monouga */
-     , (0x72480004, 0x72480012, '2005-02-09 10:00:00') /* Insidious Monouga */
-     , (0x72480004, 0x72480013, '2005-02-09 10:00:00') /* Insidious Monouga */
-     , (0x72480004, 0x72480014, '2005-02-09 10:00:00') /* Insidious Monouga */;
+VALUES (0x72480004, 0x7248000B, '2005-02-09 10:00:00') /* Merciless Monouga (24291) */
+     , (0x72480004, 0x7248000C, '2005-02-09 10:00:00') /* Merciless Monouga (24291) */
+     , (0x72480004, 0x7248000D, '2005-02-09 10:00:00') /* Merciless Monouga (24291) */
+     , (0x72480004, 0x7248000E, '2005-02-09 10:00:00') /* Merciless Monouga (24291) */
+     , (0x72480004, 0x7248000F, '2005-02-09 10:00:00') /* Merciless Monouga (24291) */
+     , (0x72480004, 0x72480010, '2005-02-09 10:00:00') /* Merciless Monouga (24291) */
+     , (0x72480004, 0x72480011, '2005-02-09 10:00:00') /* Insidious Monouga (24290) */
+     , (0x72480004, 0x72480012, '2005-02-09 10:00:00') /* Insidious Monouga (24290) */
+     , (0x72480004, 0x72480013, '2005-02-09 10:00:00') /* Insidious Monouga (24290) */
+     , (0x72480004, 0x72480014, '2005-02-09 10:00:00') /* Insidious Monouga (24290) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7248000B, 24291, 0x24800100, 63.3938, 26.3017, 214.805, -0.271679, 0, 0, -0.962388,  True, '2005-02-09 10:00:00'); /* Merciless Monouga */

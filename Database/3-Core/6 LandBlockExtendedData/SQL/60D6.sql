@@ -9,7 +9,7 @@ VALUES (0x760D6001,  3953, 0x60D60000, 24.586, 156.676, 175.061, 0.995016, 0, 0,
 /* @teleloc 0x60D60000 [24.586000 156.676000 175.061000] 0.995016 0.000000 0.000000 0.099711 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x760D6001, 0x760D6002, '2005-02-09 10:00:00') /* Snowman */;
+VALUES (0x760D6001, 0x760D6002, '2005-02-09 10:00:00') /* Snowman (5765) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x760D6002,  5765, 0x60D60000, 24.586, 156.676, 175.061, 0.995016, 0, 0, 0.0997108,  True, '2005-02-09 10:00:00'); /* Snowman */

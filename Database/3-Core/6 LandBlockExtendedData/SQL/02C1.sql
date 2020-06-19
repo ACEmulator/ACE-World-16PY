@@ -53,20 +53,20 @@ VALUES (0x702C100D,  7924, 0x02C1017D, 139.456, -21.1812, 6.01222, 0.707107, 0, 
 /* @teleloc 0x02C1017D [139.456000 -21.181200 6.012220] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x702C100D, 0x702C1000, '2005-02-09 10:00:00') /* Pallid Moarsman */
-     , (0x702C100D, 0x702C1001, '2005-02-09 10:00:00') /* Sallow Moarsman */
-     , (0x702C100D, 0x702C1002, '2005-02-09 10:00:00') /* Sallow Moarsman */
-     , (0x702C100D, 0x702C1003, '2005-02-09 10:00:00') /* Ashen Moarsman */
-     , (0x702C100D, 0x702C1004, '2005-02-09 10:00:00') /* Sallow Moarsman */
-     , (0x702C100D, 0x702C1006, '2005-02-09 10:00:00') /* Ashen Moarsman */
-     , (0x702C100D, 0x702C1007, '2005-02-09 10:00:00') /* Pallid Moarsman */
-     , (0x702C100D, 0x702C1008, '2005-02-09 10:00:00') /* Sallow Moarsman */
-     , (0x702C100D, 0x702C1009, '2005-02-09 10:00:00') /* Pallid Moarsman */
-     , (0x702C100D, 0x702C100A, '2005-02-09 10:00:00') /* Ashen Moarsman */
-     , (0x702C100D, 0x702C100B, '2005-02-09 10:00:00') /* Sallow Moarsman */
-     , (0x702C100D, 0x702C1011, '2005-02-09 10:00:00') /* Ashen Moarsman */
-     , (0x702C100D, 0x702C1012, '2005-02-09 10:00:00') /* Sallow Moarsman */
-     , (0x702C100D, 0x702C1013, '2005-02-09 10:00:00') /* Pallid Moarsman */;
+VALUES (0x702C100D, 0x702C1000, '2005-02-09 10:00:00') /* Pallid Moarsman (27859) */
+     , (0x702C100D, 0x702C1001, '2005-02-09 10:00:00') /* Sallow Moarsman (27860) */
+     , (0x702C100D, 0x702C1002, '2005-02-09 10:00:00') /* Sallow Moarsman (27860) */
+     , (0x702C100D, 0x702C1003, '2005-02-09 10:00:00') /* Ashen Moarsman (7180) */
+     , (0x702C100D, 0x702C1004, '2005-02-09 10:00:00') /* Sallow Moarsman (27860) */
+     , (0x702C100D, 0x702C1006, '2005-02-09 10:00:00') /* Ashen Moarsman (7180) */
+     , (0x702C100D, 0x702C1007, '2005-02-09 10:00:00') /* Pallid Moarsman (27859) */
+     , (0x702C100D, 0x702C1008, '2005-02-09 10:00:00') /* Sallow Moarsman (27860) */
+     , (0x702C100D, 0x702C1009, '2005-02-09 10:00:00') /* Pallid Moarsman (27859) */
+     , (0x702C100D, 0x702C100A, '2005-02-09 10:00:00') /* Ashen Moarsman (7180) */
+     , (0x702C100D, 0x702C100B, '2005-02-09 10:00:00') /* Sallow Moarsman (27860) */
+     , (0x702C100D, 0x702C1011, '2005-02-09 10:00:00') /* Ashen Moarsman (7180) */
+     , (0x702C100D, 0x702C1012, '2005-02-09 10:00:00') /* Sallow Moarsman (27860) */
+     , (0x702C100D, 0x702C1013, '2005-02-09 10:00:00') /* Pallid Moarsman (27859) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x702C100E, 27772, 0x02C10112, 37.0318, -36.4181, -5.995, -0.9415, 0, 0, -0.337012,  True, '2005-02-09 10:00:00'); /* Adjanite Gem */
@@ -81,8 +81,8 @@ VALUES (0x702C1010, 15759, 0x02C1011A, 55.987, -23.2608, -5.995, 0.747184, 0, 0,
 /* @teleloc 0x02C1011A [55.987000 -23.260800 -5.995000] 0.747184 0.000000 0.000000 0.664617 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x702C1010, 0x702C100E, '2005-02-09 10:00:00') /* Adjanite Gem */
-     , (0x702C1010, 0x702C100F, '2005-02-09 10:00:00') /* Labyrinthine Necklace */;
+VALUES (0x702C1010, 0x702C100E, '2005-02-09 10:00:00') /* Adjanite Gem (27772) */
+     , (0x702C1010, 0x702C100F, '2005-02-09 10:00:00') /* Labyrinthine Necklace (27774) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x702C1011,  7180, 0x02C10124, 7.65236, -87.4898, 0.0064, 0.974794, 0, 0, 0.223106,  True, '2005-02-09 10:00:00'); /* Ashen Moarsman */

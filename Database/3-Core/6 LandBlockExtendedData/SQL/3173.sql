@@ -21,18 +21,18 @@ VALUES (0x73173004,  4219, 0x31730000, 17.485, 44.801, 36.005, 1, 0, 0, 0, False
 /* @teleloc 0x31730000 [17.485000 44.801000 36.005000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73173004, 0x73173005, '2005-02-09 10:00:00') /* Augmented Tumerok */
-     , (0x73173004, 0x73173007, '2005-02-09 10:00:00') /* Augmented Tumerok */
-     , (0x73173004, 0x73173008, '2005-02-09 10:00:00') /* Augmented Tumerok */
-     , (0x73173004, 0x7317300B, '2005-02-09 10:00:00') /* Augmented Tumerok */
-     , (0x73173004, 0x7317300D, '2005-02-09 10:00:00') /* Ascendant Tumerok */
-     , (0x73173004, 0x7317300E, '2005-02-09 10:00:00') /* Augmented Tumerok */
-     , (0x73173004, 0x73173011, '2005-02-09 10:00:00') /* Banderling Enforcer */
-     , (0x73173004, 0x73173012, '2005-02-09 10:00:00') /* Banderling Enforcer */
-     , (0x73173004, 0x73173013, '2005-02-09 10:00:00') /* Ascendant Tumerok */
-     , (0x73173004, 0x73173015, '2005-02-09 10:00:00') /* Ascendant Tumerok */
-     , (0x73173004, 0x73173016, '2005-02-09 10:00:00') /* Ascendant Tumerok */
-     , (0x73173004, 0x73173017, '2005-02-09 10:00:00') /* Ascendant Tumerok */;
+VALUES (0x73173004, 0x73173005, '2005-02-09 10:00:00') /* Augmented Tumerok (10807) */
+     , (0x73173004, 0x73173007, '2005-02-09 10:00:00') /* Augmented Tumerok (10807) */
+     , (0x73173004, 0x73173008, '2005-02-09 10:00:00') /* Augmented Tumerok (10807) */
+     , (0x73173004, 0x7317300B, '2005-02-09 10:00:00') /* Augmented Tumerok (10807) */
+     , (0x73173004, 0x7317300D, '2005-02-09 10:00:00') /* Ascendant Tumerok (10806) */
+     , (0x73173004, 0x7317300E, '2005-02-09 10:00:00') /* Augmented Tumerok (10807) */
+     , (0x73173004, 0x73173011, '2005-02-09 10:00:00') /* Banderling Enforcer (7346) */
+     , (0x73173004, 0x73173012, '2005-02-09 10:00:00') /* Banderling Enforcer (7346) */
+     , (0x73173004, 0x73173013, '2005-02-09 10:00:00') /* Ascendant Tumerok (10806) */
+     , (0x73173004, 0x73173015, '2005-02-09 10:00:00') /* Ascendant Tumerok (10806) */
+     , (0x73173004, 0x73173016, '2005-02-09 10:00:00') /* Ascendant Tumerok (10806) */
+     , (0x73173004, 0x73173017, '2005-02-09 10:00:00') /* Ascendant Tumerok (10806) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73173005, 10807, 0x31730000, 7.06253, 80.6727, 44.8065, -0.896579, 0, 0, -0.442884,  True, '2005-02-09 10:00:00'); /* Augmented Tumerok */
@@ -43,17 +43,17 @@ VALUES (0x73173006,  4219, 0x31730000, 16.702, 44.7863, 36.005, 1, 0, 0, 0, Fals
 /* @teleloc 0x31730000 [16.702000 44.786300 36.005000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73173006, 0x73173000, '2005-02-09 10:00:00') /* Augmented Tumerok */
-     , (0x73173006, 0x73173001, '2005-02-09 10:00:00') /* Augmented Tumerok */
-     , (0x73173006, 0x73173002, '2005-02-09 10:00:00') /* Augmented Tumerok */
-     , (0x73173006, 0x73173009, '2005-02-09 10:00:00') /* Augmented Tumerok */
-     , (0x73173006, 0x7317300A, '2005-02-09 10:00:00') /* Augmented Tumerok */
-     , (0x73173006, 0x7317300C, '2005-02-09 10:00:00') /* Ascendant Tumerok */
-     , (0x73173006, 0x7317300F, '2005-02-09 10:00:00') /* Plate Armoredillo */
-     , (0x73173006, 0x73173010, '2005-02-09 10:00:00') /* Plate Armoredillo */
-     , (0x73173006, 0x73173014, '2005-02-09 10:00:00') /* Augmented Tumerok */
-     , (0x73173006, 0x73173018, '2005-02-09 10:00:00') /* Banderling Enforcer */
-     , (0x73173006, 0x73173019, '2005-02-09 10:00:00') /* Banderling Enforcer */;
+VALUES (0x73173006, 0x73173000, '2005-02-09 10:00:00') /* Augmented Tumerok (10807) */
+     , (0x73173006, 0x73173001, '2005-02-09 10:00:00') /* Augmented Tumerok (10807) */
+     , (0x73173006, 0x73173002, '2005-02-09 10:00:00') /* Augmented Tumerok (10807) */
+     , (0x73173006, 0x73173009, '2005-02-09 10:00:00') /* Augmented Tumerok (10807) */
+     , (0x73173006, 0x7317300A, '2005-02-09 10:00:00') /* Augmented Tumerok (10807) */
+     , (0x73173006, 0x7317300C, '2005-02-09 10:00:00') /* Ascendant Tumerok (10806) */
+     , (0x73173006, 0x7317300F, '2005-02-09 10:00:00') /* Plate Armoredillo (7081) */
+     , (0x73173006, 0x73173010, '2005-02-09 10:00:00') /* Plate Armoredillo (7081) */
+     , (0x73173006, 0x73173014, '2005-02-09 10:00:00') /* Augmented Tumerok (10807) */
+     , (0x73173006, 0x73173018, '2005-02-09 10:00:00') /* Banderling Enforcer (7346) */
+     , (0x73173006, 0x73173019, '2005-02-09 10:00:00') /* Banderling Enforcer (7346) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73173007, 10807, 0x31730000, 14.6121, 86.7365, 51.2065, 0.0485746, 0, 0, -0.99882,  True, '2005-02-09 10:00:00'); /* Augmented Tumerok */

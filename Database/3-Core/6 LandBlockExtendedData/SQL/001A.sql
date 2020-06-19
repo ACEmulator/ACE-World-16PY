@@ -93,44 +93,44 @@ VALUES (0x7001A016,  7923, 0x001A0180, 190, -100, 0.005, 1, 0, 0, 0, False, '200
 /* @teleloc 0x001A0180 [190.000000 -100.000000 0.005000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7001A016, 0x7001A000, '2005-02-09 10:00:00') /* Drudge Prowler */
-     , (0x7001A016, 0x7001A001, '2005-02-09 10:00:00') /* Drudge Prowler */
-     , (0x7001A016, 0x7001A002, '2005-02-09 10:00:00') /* Drudge Prowler */
-     , (0x7001A016, 0x7001A003, '2005-02-09 10:00:00') /* Drudge Prowler */
-     , (0x7001A016, 0x7001A004, '2005-02-09 10:00:00') /* Drudge Prowler */
-     , (0x7001A016, 0x7001A005, '2005-02-09 10:00:00') /* Drudge Prowler */
-     , (0x7001A016, 0x7001A006, '2005-02-09 10:00:00') /* Drudge Prowler */
-     , (0x7001A016, 0x7001A007, '2005-02-09 10:00:00') /* Drudge Prowler */
-     , (0x7001A016, 0x7001A008, '2005-02-09 10:00:00') /* Drudge Prowler */
-     , (0x7001A016, 0x7001A009, '2005-02-09 10:00:00') /* Drudge Prowler */
-     , (0x7001A016, 0x7001A00A, '2005-02-09 10:00:00') /* Drudge Prowler */
-     , (0x7001A016, 0x7001A00B, '2005-02-09 10:00:00') /* Drudge Prowler */
-     , (0x7001A016, 0x7001A00C, '2005-02-09 10:00:00') /* Drudge Prowler */
-     , (0x7001A016, 0x7001A00D, '2005-02-09 10:00:00') /* Drudge Prowler */
-     , (0x7001A016, 0x7001A00E, '2005-02-09 10:00:00') /* Drudge Prowler */
-     , (0x7001A016, 0x7001A00F, '2005-02-09 10:00:00') /* Drudge Prowler */
-     , (0x7001A016, 0x7001A010, '2005-02-09 10:00:00') /* Drudge Prowler */
-     , (0x7001A016, 0x7001A011, '2005-02-09 10:00:00') /* Drudge Prowler */
-     , (0x7001A016, 0x7001A012, '2005-02-09 10:00:00') /* Drudge Prowler */
-     , (0x7001A016, 0x7001A013, '2005-02-09 10:00:00') /* Drudge Prowler */
-     , (0x7001A016, 0x7001A014, '2005-02-09 10:00:00') /* Drudge Prowler */
-     , (0x7001A016, 0x7001A015, '2005-02-09 10:00:00') /* Drudge Prowler */
-     , (0x7001A016, 0x7001A017, '2005-02-09 10:00:00') /* Drudge Prowler */
-     , (0x7001A016, 0x7001A018, '2005-02-09 10:00:00') /* Drudge Prowler */
-     , (0x7001A016, 0x7001A019, '2005-02-09 10:00:00') /* Drudge Prowler */
-     , (0x7001A016, 0x7001A01A, '2005-02-09 10:00:00') /* Drudge Prowler */
-     , (0x7001A016, 0x7001A01B, '2005-02-09 10:00:00') /* Drudge Prowler */
-     , (0x7001A016, 0x7001A01C, '2005-02-09 10:00:00') /* Drudge Prowler */
-     , (0x7001A016, 0x7001A01D, '2005-02-09 10:00:00') /* Drudge Prowler */
-     , (0x7001A016, 0x7001A01E, '2005-02-09 10:00:00') /* Drudge Prowler */
-     , (0x7001A016, 0x7001A02C, '2005-02-09 10:00:00') /* Drudge Prowler */
-     , (0x7001A016, 0x7001A02E, '2005-02-09 10:00:00') /* Drudge Prowler */
-     , (0x7001A016, 0x7001A048, '2005-02-09 10:00:00') /* Drudge Prowler */
-     , (0x7001A016, 0x7001A049, '2005-02-09 10:00:00') /* Drudge Prowler */
-     , (0x7001A016, 0x7001A04A, '2005-02-09 10:00:00') /* Drudge Prowler */
-     , (0x7001A016, 0x7001A04B, '2005-02-09 10:00:00') /* Drudge Prowler */
-     , (0x7001A016, 0x7001A04C, '2005-02-09 10:00:00') /* Drudge Prowler */
-     , (0x7001A016, 0x7001A04D, '2005-02-09 10:00:00') /* Drudge Prowler */;
+VALUES (0x7001A016, 0x7001A000, '2005-02-09 10:00:00') /* Drudge Prowler (28656) */
+     , (0x7001A016, 0x7001A001, '2005-02-09 10:00:00') /* Drudge Prowler (28637) */
+     , (0x7001A016, 0x7001A002, '2005-02-09 10:00:00') /* Drudge Prowler (28637) */
+     , (0x7001A016, 0x7001A003, '2005-02-09 10:00:00') /* Drudge Prowler (28637) */
+     , (0x7001A016, 0x7001A004, '2005-02-09 10:00:00') /* Drudge Prowler (28637) */
+     , (0x7001A016, 0x7001A005, '2005-02-09 10:00:00') /* Drudge Prowler (28637) */
+     , (0x7001A016, 0x7001A006, '2005-02-09 10:00:00') /* Drudge Prowler (28656) */
+     , (0x7001A016, 0x7001A007, '2005-02-09 10:00:00') /* Drudge Prowler (28656) */
+     , (0x7001A016, 0x7001A008, '2005-02-09 10:00:00') /* Drudge Prowler (28656) */
+     , (0x7001A016, 0x7001A009, '2005-02-09 10:00:00') /* Drudge Prowler (29303) */
+     , (0x7001A016, 0x7001A00A, '2005-02-09 10:00:00') /* Drudge Prowler (28637) */
+     , (0x7001A016, 0x7001A00B, '2005-02-09 10:00:00') /* Drudge Prowler (28652) */
+     , (0x7001A016, 0x7001A00C, '2005-02-09 10:00:00') /* Drudge Prowler (28652) */
+     , (0x7001A016, 0x7001A00D, '2005-02-09 10:00:00') /* Drudge Prowler (28652) */
+     , (0x7001A016, 0x7001A00E, '2005-02-09 10:00:00') /* Drudge Prowler (29303) */
+     , (0x7001A016, 0x7001A00F, '2005-02-09 10:00:00') /* Drudge Prowler (28652) */
+     , (0x7001A016, 0x7001A010, '2005-02-09 10:00:00') /* Drudge Prowler (28652) */
+     , (0x7001A016, 0x7001A011, '2005-02-09 10:00:00') /* Drudge Prowler (28652) */
+     , (0x7001A016, 0x7001A012, '2005-02-09 10:00:00') /* Drudge Prowler (28637) */
+     , (0x7001A016, 0x7001A013, '2005-02-09 10:00:00') /* Drudge Prowler (28656) */
+     , (0x7001A016, 0x7001A014, '2005-02-09 10:00:00') /* Drudge Prowler (29303) */
+     , (0x7001A016, 0x7001A015, '2005-02-09 10:00:00') /* Drudge Prowler (29303) */
+     , (0x7001A016, 0x7001A017, '2005-02-09 10:00:00') /* Drudge Prowler (28652) */
+     , (0x7001A016, 0x7001A018, '2005-02-09 10:00:00') /* Drudge Prowler (28652) */
+     , (0x7001A016, 0x7001A019, '2005-02-09 10:00:00') /* Drudge Prowler (28656) */
+     , (0x7001A016, 0x7001A01A, '2005-02-09 10:00:00') /* Drudge Prowler (28656) */
+     , (0x7001A016, 0x7001A01B, '2005-02-09 10:00:00') /* Drudge Prowler (29303) */
+     , (0x7001A016, 0x7001A01C, '2005-02-09 10:00:00') /* Drudge Prowler (29303) */
+     , (0x7001A016, 0x7001A01D, '2005-02-09 10:00:00') /* Drudge Prowler (28635) */
+     , (0x7001A016, 0x7001A01E, '2005-02-09 10:00:00') /* Drudge Prowler (28635) */
+     , (0x7001A016, 0x7001A02C, '2005-02-09 10:00:00') /* Drudge Prowler (28635) */
+     , (0x7001A016, 0x7001A02E, '2005-02-09 10:00:00') /* Drudge Prowler (28635) */
+     , (0x7001A016, 0x7001A048, '2005-02-09 10:00:00') /* Drudge Prowler (30301) */
+     , (0x7001A016, 0x7001A049, '2005-02-09 10:00:00') /* Drudge Prowler (30301) */
+     , (0x7001A016, 0x7001A04A, '2005-02-09 10:00:00') /* Drudge Prowler (30297) */
+     , (0x7001A016, 0x7001A04B, '2005-02-09 10:00:00') /* Drudge Prowler (30297) */
+     , (0x7001A016, 0x7001A04C, '2005-02-09 10:00:00') /* Drudge Prowler (30301) */
+     , (0x7001A016, 0x7001A04D, '2005-02-09 10:00:00') /* Drudge Prowler (30301) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7001A017, 28652, 0x001A0181, 190, -107.92, 0.005, 1, 0, 0, -4.37114E-08,  True, '2005-02-09 10:00:00'); /* Drudge Prowler */
@@ -201,40 +201,40 @@ VALUES (0x7001A027, 30287, 0x001A01E9, 130, -284, 6.005, 1, 0, 0, -4.37114E-08, 
 /* @teleloc 0x001A01E9 [130.000000 -284.000000 6.005000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7001A027, 0x7001A02D, '2005-02-09 10:00:00') /* Lever */;
+VALUES (0x7001A027, 0x7001A02D, '2005-02-09 10:00:00') /* Lever (286) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7001A028,  7923, 0x001A01F2, 130, -320, 6.005, 1, 0, 0, 0, False, '2005-02-09 10:00:00'); /* Linkable Monster Generator ( 3 Min.) */
 /* @teleloc 0x001A01F2 [130.000000 -320.000000 6.005000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7001A028, 0x7001A022, '2005-02-09 10:00:00') /* Platinum Legion Quartermaster */
-     , (0x7001A028, 0x7001A023, '2005-02-09 10:00:00') /* Drudge Prowler */
-     , (0x7001A028, 0x7001A024, '2005-02-09 10:00:00') /* Drudge Prowler */
-     , (0x7001A028, 0x7001A025, '2005-02-09 10:00:00') /* Drudge Prowler */
-     , (0x7001A028, 0x7001A026, '2005-02-09 10:00:00') /* Drudge Prowler */
-     , (0x7001A028, 0x7001A029, '2005-02-09 10:00:00') /* Drudge Prowler */
-     , (0x7001A028, 0x7001A02A, '2005-02-09 10:00:00') /* Drudge Prowler */
-     , (0x7001A028, 0x7001A02F, '2005-02-09 10:00:00') /* Drudge Prowler */
-     , (0x7001A028, 0x7001A033, '2005-02-09 10:00:00') /* Drudge Prowler */
-     , (0x7001A028, 0x7001A034, '2005-02-09 10:00:00') /* Drudge Prowler */
-     , (0x7001A028, 0x7001A036, '2005-02-09 10:00:00') /* Drudge Prowler */
-     , (0x7001A028, 0x7001A037, '2005-02-09 10:00:00') /* Drudge Prowler */
-     , (0x7001A028, 0x7001A038, '2005-02-09 10:00:00') /* Platinum Legion Doorkeeper */
-     , (0x7001A028, 0x7001A039, '2005-02-09 10:00:00') /* Drudge Prowler */
-     , (0x7001A028, 0x7001A03A, '2005-02-09 10:00:00') /* Drudge Prowler */
-     , (0x7001A028, 0x7001A03B, '2005-02-09 10:00:00') /* Drudge Prowler */
-     , (0x7001A028, 0x7001A03C, '2005-02-09 10:00:00') /* Drudge Prowler */
-     , (0x7001A028, 0x7001A03D, '2005-02-09 10:00:00') /* Drudge Prowler */
-     , (0x7001A028, 0x7001A03F, '2005-02-09 10:00:00') /* Drudge Prowler */
-     , (0x7001A028, 0x7001A040, '2005-02-09 10:00:00') /* Drudge Prowler */
-     , (0x7001A028, 0x7001A041, '2005-02-09 10:00:00') /* Drudge Prowler */
-     , (0x7001A028, 0x7001A042, '2005-02-09 10:00:00') /* Drudge Prowler */
-     , (0x7001A028, 0x7001A044, '2005-02-09 10:00:00') /* Drudge Prowler */
-     , (0x7001A028, 0x7001A045, '2005-02-09 10:00:00') /* Drudge Prowler */
-     , (0x7001A028, 0x7001A046, '2005-02-09 10:00:00') /* Drudge Prowler */
-     , (0x7001A028, 0x7001A04E, '2005-02-09 10:00:00') /* Drudge Prowler */
-     , (0x7001A028, 0x7001A04F, '2005-02-09 10:00:00') /* Drudge Prowler */;
+VALUES (0x7001A028, 0x7001A022, '2005-02-09 10:00:00') /* Platinum Legion Quartermaster (29424) */
+     , (0x7001A028, 0x7001A023, '2005-02-09 10:00:00') /* Drudge Prowler (29303) */
+     , (0x7001A028, 0x7001A024, '2005-02-09 10:00:00') /* Drudge Prowler (29303) */
+     , (0x7001A028, 0x7001A025, '2005-02-09 10:00:00') /* Drudge Prowler (28655) */
+     , (0x7001A028, 0x7001A026, '2005-02-09 10:00:00') /* Drudge Prowler (28655) */
+     , (0x7001A028, 0x7001A029, '2005-02-09 10:00:00') /* Drudge Prowler (28635) */
+     , (0x7001A028, 0x7001A02A, '2005-02-09 10:00:00') /* Drudge Prowler (28635) */
+     , (0x7001A028, 0x7001A02F, '2005-02-09 10:00:00') /* Drudge Prowler (29303) */
+     , (0x7001A028, 0x7001A033, '2005-02-09 10:00:00') /* Drudge Prowler (28655) */
+     , (0x7001A028, 0x7001A034, '2005-02-09 10:00:00') /* Drudge Prowler (28655) */
+     , (0x7001A028, 0x7001A036, '2005-02-09 10:00:00') /* Drudge Prowler (30300) */
+     , (0x7001A028, 0x7001A037, '2005-02-09 10:00:00') /* Drudge Prowler (30300) */
+     , (0x7001A028, 0x7001A038, '2005-02-09 10:00:00') /* Platinum Legion Doorkeeper (29414) */
+     , (0x7001A028, 0x7001A039, '2005-02-09 10:00:00') /* Drudge Prowler (28655) */
+     , (0x7001A028, 0x7001A03A, '2005-02-09 10:00:00') /* Drudge Prowler (28655) */
+     , (0x7001A028, 0x7001A03B, '2005-02-09 10:00:00') /* Drudge Prowler (28655) */
+     , (0x7001A028, 0x7001A03C, '2005-02-09 10:00:00') /* Drudge Prowler (30297) */
+     , (0x7001A028, 0x7001A03D, '2005-02-09 10:00:00') /* Drudge Prowler (30301) */
+     , (0x7001A028, 0x7001A03F, '2005-02-09 10:00:00') /* Drudge Prowler (30297) */
+     , (0x7001A028, 0x7001A040, '2005-02-09 10:00:00') /* Drudge Prowler (29303) */
+     , (0x7001A028, 0x7001A041, '2005-02-09 10:00:00') /* Drudge Prowler (28656) */
+     , (0x7001A028, 0x7001A042, '2005-02-09 10:00:00') /* Drudge Prowler (28656) */
+     , (0x7001A028, 0x7001A044, '2005-02-09 10:00:00') /* Drudge Prowler (30297) */
+     , (0x7001A028, 0x7001A045, '2005-02-09 10:00:00') /* Drudge Prowler (30301) */
+     , (0x7001A028, 0x7001A046, '2005-02-09 10:00:00') /* Drudge Prowler (30297) */
+     , (0x7001A028, 0x7001A04E, '2005-02-09 10:00:00') /* Drudge Prowler (30300) */
+     , (0x7001A028, 0x7001A04F, '2005-02-09 10:00:00') /* Drudge Prowler (30300) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7001A029, 28635, 0x001A01F2, 128.165, -315.933, 6.005, 0.0199227, 0, 0, 0.999802,  True, '2005-02-09 10:00:00'); /* Drudge Prowler */
@@ -249,7 +249,7 @@ VALUES (0x7001A02B, 30287, 0x001A01FA, 130, -404, 6.005, 1, 0, 0, -4.37114E-08, 
 /* @teleloc 0x001A01FA [130.000000 -404.000000 6.005000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7001A02B, 0x7001A047, '2005-02-09 10:00:00') /* Lever */;
+VALUES (0x7001A02B, 0x7001A047, '2005-02-09 10:00:00') /* Lever (2609) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7001A02C, 28635, 0x001A01FB, 130, -410, 6.005, 0.659983, 0, 0, -0.751281,  True, '2005-02-09 10:00:00'); /* Drudge Prowler */
@@ -348,7 +348,7 @@ VALUES (0x7001A043, 30287, 0x001A02AE, 130, -250, 12.005, 1, 0, 0, -4.37114E-08,
 /* @teleloc 0x001A02AE [130.000000 -250.000000 12.005000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7001A043, 0x7001A03E, '2005-02-09 10:00:00') /* Lever */;
+VALUES (0x7001A043, 0x7001A03E, '2005-02-09 10:00:00') /* Lever (286) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7001A044, 30297, 0x001A02C6, 139.75, -272.209, 12.005, 0.99878, 0, 0, 0.04939,  True, '2005-02-09 10:00:00'); /* Drudge Prowler */

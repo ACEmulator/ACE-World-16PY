@@ -1,7 +1,5 @@
-DELETE FROM `encounter` WHERE `landblock` = 44715;
+DELETE FROM `encounter` WHERE `landblock` = 0xAEAB;
 
 INSERT INTO `encounter` (`landblock`, `weenie_Class_Id`, `cell_X`, `cell_Y`, `last_Modified`)
-VALUES (44715, 23174, 3, 3, '2005-02-09 10:00:00') /* Aluvian Newbie Forest Mix Generator */
-     , (44715, 23174, 3, 5, '2005-02-09 10:00:00') /* Aluvian Newbie Forest Mix Generator */
-     , (44715, 23185, 6, 8, '2005-02-09 10:00:00') /* Sho Newbie Plains Mix Generator */
-     , (44715, 23174, 8, 1, '2005-02-09 10:00:00') /* Aluvian Newbie Forest Mix Generator */;
+VALUES (0xAEAB, 23174, 3, 3, '2005-02-09 10:00:00') /* Aluvian Newbie Forest Mix Generator */
+     , (0xAEAB, 23174, 3, 5, '2005-02-09 10:00:00') /* Aluvian Newbie Forest Mix Generator */;

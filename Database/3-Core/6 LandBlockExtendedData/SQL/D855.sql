@@ -9,13 +9,13 @@ VALUES (0x7D855001,  3955, 0xD8550000, 125.303, 131.25, 30.2847, 0.181531, 0, 0,
 /* @teleloc 0xD8550000 [125.303000 131.250000 30.284700] 0.181531 0.000000 0.000000 0.983385 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7D855001, 0x7D855002, '2005-02-09 10:00:00') /* Brown Rabbit */
-     , (0x7D855001, 0x7D855003, '2005-02-09 10:00:00') /* Brown Rabbit */
-     , (0x7D855001, 0x7D855004, '2005-02-09 10:00:00') /* Brown Rabbit */
-     , (0x7D855001, 0x7D855005, '2005-02-09 10:00:00') /* Brown Rabbit */
-     , (0x7D855001, 0x7D855006, '2005-02-09 10:00:00') /* Brown Rabbit */
-     , (0x7D855001, 0x7D855007, '2005-02-09 10:00:00') /* Brown Rabbit */
-     , (0x7D855001, 0x7D855008, '2005-02-09 10:00:00') /* Brown Rabbit */;
+VALUES (0x7D855001, 0x7D855002, '2005-02-09 10:00:00') /* Brown Rabbit (2567) */
+     , (0x7D855001, 0x7D855003, '2005-02-09 10:00:00') /* Brown Rabbit (2567) */
+     , (0x7D855001, 0x7D855004, '2005-02-09 10:00:00') /* Brown Rabbit (2567) */
+     , (0x7D855001, 0x7D855005, '2005-02-09 10:00:00') /* Brown Rabbit (2567) */
+     , (0x7D855001, 0x7D855006, '2005-02-09 10:00:00') /* Brown Rabbit (2567) */
+     , (0x7D855001, 0x7D855007, '2005-02-09 10:00:00') /* Brown Rabbit (2567) */
+     , (0x7D855001, 0x7D855008, '2005-02-09 10:00:00') /* Brown Rabbit (2567) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7D855002,  2567, 0xD8550000, 116.618, 119.029, 28.005, 0.887486, 0, 0, -0.460834,  True, '2005-02-09 10:00:00'); /* Brown Rabbit */

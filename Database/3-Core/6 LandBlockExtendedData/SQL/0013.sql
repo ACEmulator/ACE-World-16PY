@@ -13,16 +13,16 @@ VALUES (0x70013002,  7923, 0x00130110, 29.6226, -210.767, -29.995, -0.791505, 0,
 /* @teleloc 0x00130110 [29.622600 -210.767000 -29.995000] -0.791505 0.000000 0.000000 0.611163 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x70013002, 0x70013000, '2005-02-09 10:00:00') /* Virindi Consul */
-     , (0x70013002, 0x70013001, '2005-02-09 10:00:00') /* Shadow Phantom */
-     , (0x70013002, 0x70013003, '2005-02-09 10:00:00') /* Virindi Consul */
-     , (0x70013002, 0x70013004, '2005-02-09 10:00:00') /* Virindi Consul */
-     , (0x70013002, 0x70013005, '2005-02-09 10:00:00') /* Shadow Phantom */
-     , (0x70013002, 0x70013006, '2005-02-09 10:00:00') /* Shadow Phantom */
-     , (0x70013002, 0x70013007, '2005-02-09 10:00:00') /* Virindi Consul */
-     , (0x70013002, 0x70013008, '2005-02-09 10:00:00') /* Virindi Consul */
-     , (0x70013002, 0x70013009, '2005-02-09 10:00:00') /* Shadow Phantom */
-     , (0x70013002, 0x7001300A, '2005-02-09 10:00:00') /* Shadow Phantom */;
+VALUES (0x70013002, 0x70013000, '2005-02-09 10:00:00') /* Virindi Consul (23489) */
+     , (0x70013002, 0x70013001, '2005-02-09 10:00:00') /* Shadow Phantom (23089) */
+     , (0x70013002, 0x70013003, '2005-02-09 10:00:00') /* Virindi Consul (23489) */
+     , (0x70013002, 0x70013004, '2005-02-09 10:00:00') /* Virindi Consul (23489) */
+     , (0x70013002, 0x70013005, '2005-02-09 10:00:00') /* Shadow Phantom (23089) */
+     , (0x70013002, 0x70013006, '2005-02-09 10:00:00') /* Shadow Phantom (23089) */
+     , (0x70013002, 0x70013007, '2005-02-09 10:00:00') /* Virindi Consul (23489) */
+     , (0x70013002, 0x70013008, '2005-02-09 10:00:00') /* Virindi Consul (23489) */
+     , (0x70013002, 0x70013009, '2005-02-09 10:00:00') /* Shadow Phantom (23089) */
+     , (0x70013002, 0x7001300A, '2005-02-09 10:00:00') /* Shadow Phantom (23089) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x70013003, 23489, 0x00130111, 34.2093, -209.648, -29.945, 0.655338, 0, 0, 0.755336,  True, '2005-02-09 10:00:00'); /* Virindi Consul */
@@ -85,17 +85,17 @@ VALUES (0x70013011,  7932, 0x00130168, 80.5493, -236.759, -29.995, 0.184168, 0, 
 /* @teleloc 0x00130168 [80.549300 -236.759000 -29.995000] 0.184168 0.000000 0.000000 0.982895 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x70013011, 0x7001300B, '2005-02-09 10:00:00') /* Virindi Consul */
-     , (0x70013011, 0x7001300D, '2005-02-09 10:00:00') /* Virindi Consul */
-     , (0x70013011, 0x7001300F, '2005-02-09 10:00:00') /* Shadow Spectre */
-     , (0x70013011, 0x70013010, '2005-02-09 10:00:00') /* Shadow Spectre */
-     , (0x70013011, 0x70013014, '2005-02-09 10:00:00') /* Shadow Spectre */
-     , (0x70013011, 0x70013017, '2005-02-09 10:00:00') /* Virindi Consul */
-     , (0x70013011, 0x70013018, '2005-02-09 10:00:00') /* Shadow Spectre */
-     , (0x70013011, 0x7001301B, '2005-02-09 10:00:00') /* Virindi Adjudicator */
-     , (0x70013011, 0x7001302D, '2005-02-09 10:00:00') /* Unconquered Drudge */
-     , (0x70013011, 0x7001302E, '2005-02-09 10:00:00') /* Unconquered Drudge */
-     , (0x70013011, 0x7001302F, '2005-02-09 10:00:00') /* Virindi Adjudicator */;
+VALUES (0x70013011, 0x7001300B, '2005-02-09 10:00:00') /* Virindi Consul (23489) */
+     , (0x70013011, 0x7001300D, '2005-02-09 10:00:00') /* Virindi Consul (23489) */
+     , (0x70013011, 0x7001300F, '2005-02-09 10:00:00') /* Shadow Spectre (23090) */
+     , (0x70013011, 0x70013010, '2005-02-09 10:00:00') /* Shadow Spectre (23090) */
+     , (0x70013011, 0x70013014, '2005-02-09 10:00:00') /* Shadow Spectre (23090) */
+     , (0x70013011, 0x70013017, '2005-02-09 10:00:00') /* Virindi Consul (23489) */
+     , (0x70013011, 0x70013018, '2005-02-09 10:00:00') /* Shadow Spectre (23090) */
+     , (0x70013011, 0x7001301B, '2005-02-09 10:00:00') /* Virindi Adjudicator (23569) */
+     , (0x70013011, 0x7001302D, '2005-02-09 10:00:00') /* Unconquered Drudge (10776) */
+     , (0x70013011, 0x7001302E, '2005-02-09 10:00:00') /* Unconquered Drudge (10776) */
+     , (0x70013011, 0x7001302F, '2005-02-09 10:00:00') /* Virindi Adjudicator (23569) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x70013012, 10776, 0x00130169, 81.9346, -252.377, -29.995, 0.01179, 0, 0, 0.999931,  True, '2005-02-09 10:00:00'); /* Unconquered Drudge */
@@ -130,13 +130,13 @@ VALUES (0x70013019,  7923, 0x0013016F, 86.6194, -253.717, -29.995, -0.67842, 0, 
 /* @teleloc 0x0013016F [86.619400 -253.717000 -29.995000] -0.678420 0.000000 0.000000 -0.734674 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x70013019, 0x7001300C, '2005-02-09 10:00:00') /* Unconquered Drudge */
-     , (0x70013019, 0x7001300E, '2005-02-09 10:00:00') /* Unconquered Drudge */
-     , (0x70013019, 0x70013012, '2005-02-09 10:00:00') /* Unconquered Drudge */
-     , (0x70013019, 0x70013013, '2005-02-09 10:00:00') /* Unconquered Drudge */
-     , (0x70013019, 0x70013015, '2005-02-09 10:00:00') /* Unconquered Drudge */
-     , (0x70013019, 0x70013016, '2005-02-09 10:00:00') /* Unconquered Drudge */
-     , (0x70013019, 0x7001301A, '2005-02-09 10:00:00') /* Unconquered Drudge */;
+VALUES (0x70013019, 0x7001300C, '2005-02-09 10:00:00') /* Unconquered Drudge (10776) */
+     , (0x70013019, 0x7001300E, '2005-02-09 10:00:00') /* Unconquered Drudge (10776) */
+     , (0x70013019, 0x70013012, '2005-02-09 10:00:00') /* Unconquered Drudge (10776) */
+     , (0x70013019, 0x70013013, '2005-02-09 10:00:00') /* Unconquered Drudge (10776) */
+     , (0x70013019, 0x70013015, '2005-02-09 10:00:00') /* Unconquered Drudge (10776) */
+     , (0x70013019, 0x70013016, '2005-02-09 10:00:00') /* Unconquered Drudge (10776) */
+     , (0x70013019, 0x7001301A, '2005-02-09 10:00:00') /* Unconquered Drudge (10776) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7001301A, 10776, 0x00130170, 86.8731, -256.898, -29.995, -0.67842, 0, 0, -0.734674,  True, '2005-02-09 10:00:00'); /* Unconquered Drudge */
@@ -159,9 +159,9 @@ VALUES (0x7001301E,  3953, 0x00130180, 30, -229.991, -23.995, 1, 0, 0, 0, False,
 /* @teleloc 0x00130180 [30.000000 -229.991000 -23.995000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7001301E, 0x7001301D, '2005-02-09 10:00:00') /* Olthoi Swarm Matron */
-     , (0x7001301E, 0x7001301F, '2005-02-09 10:00:00') /* Olthoi Swarm Matron */
-     , (0x7001301E, 0x70013025, '2005-02-09 10:00:00') /* Olthoi Swarm Matron */;
+VALUES (0x7001301E, 0x7001301D, '2005-02-09 10:00:00') /* Olthoi Swarm Matron (24303) */
+     , (0x7001301E, 0x7001301F, '2005-02-09 10:00:00') /* Olthoi Swarm Matron (24303) */
+     , (0x7001301E, 0x70013025, '2005-02-09 10:00:00') /* Olthoi Swarm Matron (24303) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7001301F, 24303, 0x00130181, 40.8678, -231.383, -23.995, 0.96446, 0, 0, -0.264229,  True, '2005-02-09 10:00:00'); /* Olthoi Swarm Matron */
@@ -184,27 +184,27 @@ VALUES (0x70013023, 24129, 0x00130182, 50.1461, -198.512, -23.995, -0.273435, 0,
 /* @teleloc 0x00130182 [50.146100 -198.512000 -23.995000] -0.273435 0.000000 0.000000 -0.961890 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x70013023, 0x70013020, '2005-02-09 10:00:00') /* Unconquered Drudge */
-     , (0x70013023, 0x70013021, '2005-02-09 10:00:00') /* Unconquered Drudge */
-     , (0x70013023, 0x70013022, '2005-02-09 10:00:00') /* Unconquered Drudge */;
+VALUES (0x70013023, 0x70013020, '2005-02-09 10:00:00') /* Unconquered Drudge (10776) */
+     , (0x70013023, 0x70013021, '2005-02-09 10:00:00') /* Unconquered Drudge (10776) */
+     , (0x70013023, 0x70013022, '2005-02-09 10:00:00') /* Unconquered Drudge (10776) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x70013024,  7923, 0x00130182, 49.2791, -200.429, -23.995, 0.542187, 0, 0, -0.840258, False, '2005-02-09 10:00:00'); /* Linkable Monster Generator ( 3 Min.) */
 /* @teleloc 0x00130182 [49.279100 -200.429000 -23.995000] 0.542187 0.000000 0.000000 -0.840258 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x70013024, 0x70013026, '2005-02-09 10:00:00') /* Unconquered Drudge */
-     , (0x70013024, 0x70013028, '2005-02-09 10:00:00') /* Unconquered Drudge */
-     , (0x70013024, 0x7001302C, '2005-02-09 10:00:00') /* Unconquered Drudge */
-     , (0x70013024, 0x70013042, '2005-02-09 10:00:00') /* Unconquered Drudge */
-     , (0x70013024, 0x70013043, '2005-02-09 10:00:00') /* Unconquered Drudge */
-     , (0x70013024, 0x70013044, '2005-02-09 10:00:00') /* Virindi Adjudicator */
-     , (0x70013024, 0x70013069, '2005-02-09 10:00:00') /* Unconquered Drudge */
-     , (0x70013024, 0x7001306A, '2005-02-09 10:00:00') /* Unconquered Drudge */
-     , (0x70013024, 0x7001306B, '2005-02-09 10:00:00') /* Virindi Adjudicator */
-     , (0x70013024, 0x7001306D, '2005-02-09 10:00:00') /* Virindi Adjudicator */
-     , (0x70013024, 0x7001306E, '2005-02-09 10:00:00') /* Unconquered Drudge */
-     , (0x70013024, 0x7001306F, '2005-02-09 10:00:00') /* Unconquered Drudge */;
+VALUES (0x70013024, 0x70013026, '2005-02-09 10:00:00') /* Unconquered Drudge (10776) */
+     , (0x70013024, 0x70013028, '2005-02-09 10:00:00') /* Unconquered Drudge (10776) */
+     , (0x70013024, 0x7001302C, '2005-02-09 10:00:00') /* Unconquered Drudge (10776) */
+     , (0x70013024, 0x70013042, '2005-02-09 10:00:00') /* Unconquered Drudge (10776) */
+     , (0x70013024, 0x70013043, '2005-02-09 10:00:00') /* Unconquered Drudge (10776) */
+     , (0x70013024, 0x70013044, '2005-02-09 10:00:00') /* Virindi Adjudicator (23569) */
+     , (0x70013024, 0x70013069, '2005-02-09 10:00:00') /* Unconquered Drudge (10776) */
+     , (0x70013024, 0x7001306A, '2005-02-09 10:00:00') /* Unconquered Drudge (10776) */
+     , (0x70013024, 0x7001306B, '2005-02-09 10:00:00') /* Virindi Adjudicator (23569) */
+     , (0x70013024, 0x7001306D, '2005-02-09 10:00:00') /* Virindi Adjudicator (23569) */
+     , (0x70013024, 0x7001306E, '2005-02-09 10:00:00') /* Unconquered Drudge (10776) */
+     , (0x70013024, 0x7001306F, '2005-02-09 10:00:00') /* Unconquered Drudge (10776) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x70013025, 24303, 0x00130183, 50.6754, -229.149, -23.995, 0.561168, 0, 0, 0.827702,  True, '2005-02-09 10:00:00'); /* Olthoi Swarm Matron */
@@ -263,7 +263,7 @@ VALUES (0x70013039, 24129, 0x00130202, 43.7014, -229.772, -17.608, -0.770376, 0,
 /* @teleloc 0x00130202 [43.701400 -229.772000 -17.608000] -0.770376 0.000000 0.000000 -0.637590 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x70013039, 0x70013037, '2005-02-09 10:00:00') /* Unconquered Drudge */;
+VALUES (0x70013039, 0x70013037, '2005-02-09 10:00:00') /* Unconquered Drudge (10776) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7001303A, 10776, 0x00130206, 52.0401, -227.738, -17.608, -0.677786, 0, 0, -0.735259,  True, '2005-02-09 10:00:00'); /* Unconquered Drudge */
@@ -282,13 +282,13 @@ VALUES (0x7001303E,  7923, 0x00130206, 49.132, -228.15, -17.608, 0.335171, 0, 0,
 /* @teleloc 0x00130206 [49.132000 -228.150000 -17.608000] 0.335171 0.000000 0.000000 0.942157 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7001303E, 0x7001301C, '2005-02-09 10:00:00') /* Shadow Spectre */
-     , (0x7001303E, 0x70013030, '2005-02-09 10:00:00') /* Shadow Spectre */
-     , (0x7001303E, 0x70013031, '2005-02-09 10:00:00') /* Unconquered Drudge */
-     , (0x7001303E, 0x70013036, '2005-02-09 10:00:00') /* Shadow Spectre */
-     , (0x7001303E, 0x7001303A, '2005-02-09 10:00:00') /* Unconquered Drudge */
-     , (0x7001303E, 0x7001303C, '2005-02-09 10:00:00') /* Shadow Spectre */
-     , (0x7001303E, 0x7001303D, '2005-02-09 10:00:00') /* Virindi Consul */;
+VALUES (0x7001303E, 0x7001301C, '2005-02-09 10:00:00') /* Shadow Spectre (23090) */
+     , (0x7001303E, 0x70013030, '2005-02-09 10:00:00') /* Shadow Spectre (23090) */
+     , (0x7001303E, 0x70013031, '2005-02-09 10:00:00') /* Unconquered Drudge (10776) */
+     , (0x7001303E, 0x70013036, '2005-02-09 10:00:00') /* Shadow Spectre (23090) */
+     , (0x7001303E, 0x7001303A, '2005-02-09 10:00:00') /* Unconquered Drudge (10776) */
+     , (0x7001303E, 0x7001303C, '2005-02-09 10:00:00') /* Shadow Spectre (23090) */
+     , (0x7001303E, 0x7001303D, '2005-02-09 10:00:00') /* Virindi Consul (23489) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7001303F, 23569, 0x00130208, 29.4323, -198.37, -11.971, -0.137939, 0, 0, -0.990441,  True, '2005-02-09 10:00:00'); /* Virindi Adjudicator */
@@ -323,8 +323,8 @@ VALUES (0x70013047, 24129, 0x0013021C, 71.3413, -321.745, -11.995, 0.417404, 0, 
 /* @teleloc 0x0013021C [71.341300 -321.745000 -11.995000] 0.417404 0.000000 0.000000 -0.908721 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x70013047, 0x7001304F, '2005-02-09 10:00:00') /* Unconquered Drudge */
-     , (0x70013047, 0x70013054, '2005-02-09 10:00:00') /* Unconquered Drudge */;
+VALUES (0x70013047, 0x7001304F, '2005-02-09 10:00:00') /* Unconquered Drudge (10776) */
+     , (0x70013047, 0x70013054, '2005-02-09 10:00:00') /* Unconquered Drudge (10776) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x70013048, 23090, 0x0013021C, 73.2267, -319.487, -11.9935, 0.101897, 0, 0, -0.994795,  True, '2005-02-09 10:00:00'); /* Shadow Spectre */
@@ -339,7 +339,7 @@ VALUES (0x7001304A,  7932, 0x0013021D, 67.1658, -329.322, -11.995, -0.180959, 0,
 /* @teleloc 0x0013021D [67.165800 -329.322000 -11.995000] -0.180959 0.000000 0.000000 -0.983491 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7001304A, 0x70013049, '2005-02-09 10:00:00') /* Shadow Annihilator */;
+VALUES (0x7001304A, 0x70013049, '2005-02-09 10:00:00') /* Shadow Annihilator (30707) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7001304C, 23489, 0x0013021D, 72.1004, -326.589, -11.971, 0.622053, 0, 0, -0.782975,  True, '2005-02-09 10:00:00'); /* Virindi Consul */
@@ -350,11 +350,11 @@ VALUES (0x7001304D,  7923, 0x0013021D, 69.2122, -330.277, -11.995, 0.263613, 0, 
 /* @teleloc 0x0013021D [69.212200 -330.277000 -11.995000] 0.263613 0.000000 0.000000 -0.964629 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7001304D, 0x70013048, '2005-02-09 10:00:00') /* Shadow Spectre */
-     , (0x7001304D, 0x7001304C, '2005-02-09 10:00:00') /* Virindi Consul */
-     , (0x7001304D, 0x7001304E, '2005-02-09 10:00:00') /* Shadow Spectre */
-     , (0x7001304D, 0x70013050, '2005-02-09 10:00:00') /* Virindi Consul */
-     , (0x7001304D, 0x70013055, '2005-02-09 10:00:00') /* Virindi Consul */;
+VALUES (0x7001304D, 0x70013048, '2005-02-09 10:00:00') /* Shadow Spectre (23090) */
+     , (0x7001304D, 0x7001304C, '2005-02-09 10:00:00') /* Virindi Consul (23489) */
+     , (0x7001304D, 0x7001304E, '2005-02-09 10:00:00') /* Shadow Spectre (23090) */
+     , (0x7001304D, 0x70013050, '2005-02-09 10:00:00') /* Virindi Consul (23489) */
+     , (0x7001304D, 0x70013055, '2005-02-09 10:00:00') /* Virindi Consul (23489) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7001304E, 23090, 0x0013021D, 72.854, -329.508, -11.9935, 0.764842, 0, 0, -0.644218,  True, '2005-02-09 10:00:00'); /* Shadow Spectre */
@@ -373,7 +373,7 @@ VALUES (0x70013052, 15274, 0x0013021F, 77.2509, -322.768, -11.995, 0.362357, 0, 
 /* @teleloc 0x0013021F [77.250900 -322.768000 -11.995000] 0.362357 0.000000 0.000000 -0.932039 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x70013052, 0x70013053, '2005-02-09 10:00:00') /* Unconquered Drudge */;
+VALUES (0x70013052, 0x70013053, '2005-02-09 10:00:00') /* Unconquered Drudge (10776) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x70013053, 10776, 0x0013021F, 76.5101, -323.446, -11.995, 0.362357, 0, 0, -0.932039,  True, '2005-02-09 10:00:00'); /* Unconquered Drudge */
@@ -404,13 +404,13 @@ VALUES (0x7001305E,  7923, 0x00130233, 98.5797, -326.819, -11.995, -0.999042, 0,
 /* @teleloc 0x00130233 [98.579700 -326.819000 -11.995000] -0.999042 0.000000 0.000000 0.043764 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7001305E, 0x70013058, '2005-02-09 10:00:00') /* Virindi Adjudicator */
-     , (0x7001305E, 0x70013059, '2005-02-09 10:00:00') /* Virindi Consul */
-     , (0x7001305E, 0x7001305C, '2005-02-09 10:00:00') /* Unconquered Drudge */
-     , (0x7001305E, 0x70013091, '2005-02-09 10:00:00') /* Shadow Spectre */
-     , (0x7001305E, 0x70013092, '2005-02-09 10:00:00') /* Shadow Phantom */
-     , (0x7001305E, 0x70013095, '2005-02-09 10:00:00') /* Shadow Spectre */
-     , (0x7001305E, 0x70013096, '2005-02-09 10:00:00') /* Unconquered Drudge */;
+VALUES (0x7001305E, 0x70013058, '2005-02-09 10:00:00') /* Virindi Adjudicator (23569) */
+     , (0x7001305E, 0x70013059, '2005-02-09 10:00:00') /* Virindi Consul (23489) */
+     , (0x7001305E, 0x7001305C, '2005-02-09 10:00:00') /* Unconquered Drudge (10776) */
+     , (0x7001305E, 0x70013091, '2005-02-09 10:00:00') /* Shadow Spectre (23090) */
+     , (0x7001305E, 0x70013092, '2005-02-09 10:00:00') /* Shadow Phantom (23089) */
+     , (0x7001305E, 0x70013095, '2005-02-09 10:00:00') /* Shadow Spectre (23090) */
+     , (0x7001305E, 0x70013096, '2005-02-09 10:00:00') /* Unconquered Drudge (10776) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7001305F, 23489, 0x0013023B, 19.0205, -181.041, -5.971, -0.670735, 0, 0, 0.741697,  True, '2005-02-09 10:00:00'); /* Virindi Consul */
@@ -453,8 +453,8 @@ VALUES (0x7001306C, 24129, 0x0013026B, 48.088, -279.808, -5.995, 0.91294, 0, 0, 
 /* @teleloc 0x0013026B [48.088000 -279.808000 -5.995000] 0.912940 0.000000 0.000000 0.408094 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7001306C, 0x70013066, '2005-02-09 10:00:00') /* Unconquered Drudge */
-     , (0x7001306C, 0x70013067, '2005-02-09 10:00:00') /* Unconquered Drudge */;
+VALUES (0x7001306C, 0x70013066, '2005-02-09 10:00:00') /* Unconquered Drudge (10776) */
+     , (0x7001306C, 0x70013067, '2005-02-09 10:00:00') /* Unconquered Drudge (10776) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7001306D, 23569, 0x00130271, 59.0074, -173.589, -5.971, 1, 0, 0, 0,  True, '2005-02-09 10:00:00'); /* Virindi Adjudicator */
@@ -481,13 +481,13 @@ VALUES (0x70013075,  7923, 0x00130274, 61.9555, -257.082, -5.995, -0.620536, 0, 
 /* @teleloc 0x00130274 [61.955500 -257.082000 -5.995000] -0.620536 0.000000 0.000000 -0.784178 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x70013075, 0x70013072, '2005-02-09 10:00:00') /* Virindi Consul */
-     , (0x70013075, 0x7001307E, '2005-02-09 10:00:00') /* Virindi Consul */
-     , (0x70013075, 0x70013086, '2005-02-09 10:00:00') /* Virindi Consul */
-     , (0x70013075, 0x70013088, '2005-02-09 10:00:00') /* Virindi Adjudicator */
-     , (0x70013075, 0x7001308E, '2005-02-09 10:00:00') /* Virindi Adjudicator */
-     , (0x70013075, 0x7001308F, '2005-02-09 10:00:00') /* Virindi Consul */
-     , (0x70013075, 0x70013090, '2005-02-09 10:00:00') /* Virindi Consul */;
+VALUES (0x70013075, 0x70013072, '2005-02-09 10:00:00') /* Virindi Consul (23489) */
+     , (0x70013075, 0x7001307E, '2005-02-09 10:00:00') /* Virindi Consul (23489) */
+     , (0x70013075, 0x70013086, '2005-02-09 10:00:00') /* Virindi Consul (23489) */
+     , (0x70013075, 0x70013088, '2005-02-09 10:00:00') /* Virindi Adjudicator (23569) */
+     , (0x70013075, 0x7001308E, '2005-02-09 10:00:00') /* Virindi Adjudicator (23569) */
+     , (0x70013075, 0x7001308F, '2005-02-09 10:00:00') /* Virindi Consul (23489) */
+     , (0x70013075, 0x70013090, '2005-02-09 10:00:00') /* Virindi Consul (23489) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x70013076, 23090, 0x00130275, 58.258, -277.945, -5.9935, 0.601834, 0, 0, 0.798621,  True, '2005-02-09 10:00:00'); /* Shadow Spectre */
@@ -538,13 +538,13 @@ VALUES (0x70013085,  7923, 0x0013028B, 76.2786, -240.863, -5.995, -0.850054, 0, 
 /* @teleloc 0x0013028B [76.278600 -240.863000 -5.995000] -0.850054 0.000000 0.000000 -0.526695 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x70013085, 0x70013071, '2005-02-09 10:00:00') /* Virindi Consul */
-     , (0x70013085, 0x7001307B, '2005-02-09 10:00:00') /* Unconquered Drudge */
-     , (0x70013085, 0x7001307C, '2005-02-09 10:00:00') /* Unconquered Drudge */
-     , (0x70013085, 0x7001307D, '2005-02-09 10:00:00') /* Shadow Phantom */
-     , (0x70013085, 0x70013082, '2005-02-09 10:00:00') /* Virindi Consul */
-     , (0x70013085, 0x70013084, '2005-02-09 10:00:00') /* Shadow Phantom */
-     , (0x70013085, 0x700130B1, '2005-02-09 10:00:00') /* Unconquered Drudge */;
+VALUES (0x70013085, 0x70013071, '2005-02-09 10:00:00') /* Virindi Consul (23489) */
+     , (0x70013085, 0x7001307B, '2005-02-09 10:00:00') /* Unconquered Drudge (10776) */
+     , (0x70013085, 0x7001307C, '2005-02-09 10:00:00') /* Unconquered Drudge (10776) */
+     , (0x70013085, 0x7001307D, '2005-02-09 10:00:00') /* Shadow Phantom (23089) */
+     , (0x70013085, 0x70013082, '2005-02-09 10:00:00') /* Virindi Consul (23489) */
+     , (0x70013085, 0x70013084, '2005-02-09 10:00:00') /* Shadow Phantom (23089) */
+     , (0x70013085, 0x700130B1, '2005-02-09 10:00:00') /* Unconquered Drudge (10776) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x70013086, 23489, 0x0013028C, 80.5424, -262.723, -5.971, -0.999464, 0, 0, 0.0327291,  True, '2005-02-09 10:00:00'); /* Virindi Consul */
@@ -575,15 +575,15 @@ VALUES (0x7001308D,  7923, 0x0013028D, 80.3664, -281.382, -5.995, -0.787251, 0, 
 /* @teleloc 0x0013028D [80.366400 -281.382000 -5.995000] -0.787251 0.000000 0.000000 -0.616633 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7001308D, 0x70013076, '2005-02-09 10:00:00') /* Shadow Spectre */
-     , (0x7001308D, 0x70013077, '2005-02-09 10:00:00') /* Shadow Spectre */
-     , (0x7001308D, 0x70013078, '2005-02-09 10:00:00') /* Virindi Adjudicator */
-     , (0x7001308D, 0x70013080, '2005-02-09 10:00:00') /* Shadow Spectre */
-     , (0x7001308D, 0x70013081, '2005-02-09 10:00:00') /* Virindi Adjudicator */
-     , (0x7001308D, 0x70013089, '2005-02-09 10:00:00') /* Shadow Phantom */
-     , (0x7001308D, 0x7001308A, '2005-02-09 10:00:00') /* Shadow Phantom */
-     , (0x7001308D, 0x7001308B, '2005-02-09 10:00:00') /* Virindi Consul */
-     , (0x7001308D, 0x7001308C, '2005-02-09 10:00:00') /* Virindi Consul */;
+VALUES (0x7001308D, 0x70013076, '2005-02-09 10:00:00') /* Shadow Spectre (23090) */
+     , (0x7001308D, 0x70013077, '2005-02-09 10:00:00') /* Shadow Spectre (23090) */
+     , (0x7001308D, 0x70013078, '2005-02-09 10:00:00') /* Virindi Adjudicator (23569) */
+     , (0x7001308D, 0x70013080, '2005-02-09 10:00:00') /* Shadow Spectre (23090) */
+     , (0x7001308D, 0x70013081, '2005-02-09 10:00:00') /* Virindi Adjudicator (23569) */
+     , (0x7001308D, 0x70013089, '2005-02-09 10:00:00') /* Shadow Phantom (23089) */
+     , (0x7001308D, 0x7001308A, '2005-02-09 10:00:00') /* Shadow Phantom (23089) */
+     , (0x7001308D, 0x7001308B, '2005-02-09 10:00:00') /* Virindi Consul (23489) */
+     , (0x7001308D, 0x7001308C, '2005-02-09 10:00:00') /* Virindi Consul (23489) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7001308E, 23569, 0x0013029C, 87.5964, -260.291, -5.971, -0.709373, 0, 0, 0.704833,  True, '2005-02-09 10:00:00'); /* Virindi Adjudicator */
@@ -626,8 +626,8 @@ VALUES (0x70013099, 15274, 0x001302D2, -2.4338, 1.5851, 0.005, -0.055233, 0, 0, 
 /* @teleloc 0x001302D2 [-2.433800 1.585100 0.005000] -0.055233 0.000000 0.000000 0.998473 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x70013099, 0x70013097, '2005-02-09 10:00:00') /* Sewer Rat */
-     , (0x70013099, 0x70013098, '2005-02-09 10:00:00') /* Sewer Rat */;
+VALUES (0x70013099, 0x70013097, '2005-02-09 10:00:00') /* Sewer Rat (7106) */
+     , (0x70013099, 0x70013098, '2005-02-09 10:00:00') /* Sewer Rat (7106) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7001309A, 23089, 0x001302E3, 19.8159, -200.978, 0.005, -0.998048, 0, 0, -0.062444,  True, '2005-02-09 10:00:00'); /* Shadow Phantom */
@@ -706,29 +706,29 @@ VALUES (0x700130AD,  7923, 0x00130308, 50.9382, -150.045, 0.005, -0.501924, 0, 0
 /* @teleloc 0x00130308 [50.938200 -150.045000 0.005000] -0.501924 0.000000 0.000000 -0.864912 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x700130AD, 0x7001309B, '2005-02-09 10:00:00') /* Virindi Adjudicator */
-     , (0x700130AD, 0x7001309C, '2005-02-09 10:00:00') /* Virindi Adjudicator */
-     , (0x700130AD, 0x7001309D, '2005-02-09 10:00:00') /* Unconquered Drudge */
-     , (0x700130AD, 0x7001309E, '2005-02-09 10:00:00') /* Unconquered Drudge */
-     , (0x700130AD, 0x7001309F, '2005-02-09 10:00:00') /* Virindi Adjudicator */
-     , (0x700130AD, 0x700130A0, '2005-02-09 10:00:00') /* Unconquered Drudge */
-     , (0x700130AD, 0x700130A4, '2005-02-09 10:00:00') /* Unconquered Drudge */
-     , (0x700130AD, 0x700130A5, '2005-02-09 10:00:00') /* Virindi Adjudicator */
-     , (0x700130AD, 0x700130A6, '2005-02-09 10:00:00') /* Unconquered Drudge */
-     , (0x700130AD, 0x700130A7, '2005-02-09 10:00:00') /* Unconquered Drudge */
-     , (0x700130AD, 0x700130A8, '2005-02-09 10:00:00') /* Virindi Adjudicator */
-     , (0x700130AD, 0x700130A9, '2005-02-09 10:00:00') /* Unconquered Drudge */
-     , (0x700130AD, 0x700130AB, '2005-02-09 10:00:00') /* Unconquered Drudge */
-     , (0x700130AD, 0x700130AC, '2005-02-09 10:00:00') /* Virindi Adjudicator */
-     , (0x700130AD, 0x700130B2, '2005-02-09 10:00:00') /* Unconquered Drudge */
-     , (0x700130AD, 0x700130B3, '2005-02-09 10:00:00') /* Unconquered Drudge */
-     , (0x700130AD, 0x700130B4, '2005-02-09 10:00:00') /* Unconquered Drudge */
-     , (0x700130AD, 0x700130B5, '2005-02-09 10:00:00') /* Virindi Adjudicator */
-     , (0x700130AD, 0x700130B6, '2005-02-09 10:00:00') /* Unconquered Drudge */
-     , (0x700130AD, 0x700130B8, '2005-02-09 10:00:00') /* Virindi Adjudicator */
-     , (0x700130AD, 0x700130B9, '2005-02-09 10:00:00') /* Unconquered Drudge */
-     , (0x700130AD, 0x700130BB, '2005-02-09 10:00:00') /* Virindi Adjudicator */
-     , (0x700130AD, 0x700130BE, '2005-02-09 10:00:00') /* Virindi Adjudicator */;
+VALUES (0x700130AD, 0x7001309B, '2005-02-09 10:00:00') /* Virindi Adjudicator (23569) */
+     , (0x700130AD, 0x7001309C, '2005-02-09 10:00:00') /* Virindi Adjudicator (23569) */
+     , (0x700130AD, 0x7001309D, '2005-02-09 10:00:00') /* Unconquered Drudge (10776) */
+     , (0x700130AD, 0x7001309E, '2005-02-09 10:00:00') /* Unconquered Drudge (10776) */
+     , (0x700130AD, 0x7001309F, '2005-02-09 10:00:00') /* Virindi Adjudicator (23569) */
+     , (0x700130AD, 0x700130A0, '2005-02-09 10:00:00') /* Unconquered Drudge (10776) */
+     , (0x700130AD, 0x700130A4, '2005-02-09 10:00:00') /* Unconquered Drudge (10776) */
+     , (0x700130AD, 0x700130A5, '2005-02-09 10:00:00') /* Virindi Adjudicator (23569) */
+     , (0x700130AD, 0x700130A6, '2005-02-09 10:00:00') /* Unconquered Drudge (10776) */
+     , (0x700130AD, 0x700130A7, '2005-02-09 10:00:00') /* Unconquered Drudge (10776) */
+     , (0x700130AD, 0x700130A8, '2005-02-09 10:00:00') /* Virindi Adjudicator (23569) */
+     , (0x700130AD, 0x700130A9, '2005-02-09 10:00:00') /* Unconquered Drudge (10776) */
+     , (0x700130AD, 0x700130AB, '2005-02-09 10:00:00') /* Unconquered Drudge (10776) */
+     , (0x700130AD, 0x700130AC, '2005-02-09 10:00:00') /* Virindi Adjudicator (23569) */
+     , (0x700130AD, 0x700130B2, '2005-02-09 10:00:00') /* Unconquered Drudge (10776) */
+     , (0x700130AD, 0x700130B3, '2005-02-09 10:00:00') /* Unconquered Drudge (10776) */
+     , (0x700130AD, 0x700130B4, '2005-02-09 10:00:00') /* Unconquered Drudge (10776) */
+     , (0x700130AD, 0x700130B5, '2005-02-09 10:00:00') /* Virindi Adjudicator (23569) */
+     , (0x700130AD, 0x700130B6, '2005-02-09 10:00:00') /* Unconquered Drudge (10776) */
+     , (0x700130AD, 0x700130B8, '2005-02-09 10:00:00') /* Virindi Adjudicator (23569) */
+     , (0x700130AD, 0x700130B9, '2005-02-09 10:00:00') /* Unconquered Drudge (10776) */
+     , (0x700130AD, 0x700130BB, '2005-02-09 10:00:00') /* Virindi Adjudicator (23569) */
+     , (0x700130AD, 0x700130BE, '2005-02-09 10:00:00') /* Virindi Adjudicator (23569) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x700130AE, 23090, 0x0013030B, 50.4724, -180.77, 0.0065, 0.644583, 0, 0, 0.764534,  True, '2005-02-09 10:00:00'); /* Shadow Spectre */
@@ -743,21 +743,21 @@ VALUES (0x700130B0,  7923, 0x00130313, 49.4107, -186.597, 0.005, -0.012264, 0, 0
 /* @teleloc 0x00130313 [49.410700 -186.597000 0.005000] -0.012264 0.000000 0.000000 0.999925 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x700130B0, 0x70013033, '2005-02-09 10:00:00') /* Virindi Adjudicator */
-     , (0x700130B0, 0x70013034, '2005-02-09 10:00:00') /* Virindi Adjudicator */
-     , (0x700130B0, 0x7001303F, '2005-02-09 10:00:00') /* Virindi Adjudicator */
-     , (0x700130B0, 0x70013040, '2005-02-09 10:00:00') /* Virindi Adjudicator */
-     , (0x700130B0, 0x70013041, '2005-02-09 10:00:00') /* Virindi Adjudicator */
-     , (0x700130B0, 0x7001305F, '2005-02-09 10:00:00') /* Virindi Consul */
-     , (0x700130B0, 0x70013060, '2005-02-09 10:00:00') /* Unconquered Drudge */
-     , (0x700130B0, 0x70013061, '2005-02-09 10:00:00') /* Unconquered Drudge */
-     , (0x700130B0, 0x70013062, '2005-02-09 10:00:00') /* Virindi Adjudicator */
-     , (0x700130B0, 0x7001309A, '2005-02-09 10:00:00') /* Shadow Phantom */
-     , (0x700130B0, 0x700130A1, '2005-02-09 10:00:00') /* Shadow Phantom */
-     , (0x700130B0, 0x700130A2, '2005-02-09 10:00:00') /* Virindi Consul */
-     , (0x700130B0, 0x700130A3, '2005-02-09 10:00:00') /* Shadow Phantom */
-     , (0x700130B0, 0x700130AE, '2005-02-09 10:00:00') /* Shadow Spectre */
-     , (0x700130B0, 0x700130AF, '2005-02-09 10:00:00') /* Shadow Spectre */;
+VALUES (0x700130B0, 0x70013033, '2005-02-09 10:00:00') /* Virindi Adjudicator (23569) */
+     , (0x700130B0, 0x70013034, '2005-02-09 10:00:00') /* Virindi Adjudicator (23569) */
+     , (0x700130B0, 0x7001303F, '2005-02-09 10:00:00') /* Virindi Adjudicator (23569) */
+     , (0x700130B0, 0x70013040, '2005-02-09 10:00:00') /* Virindi Adjudicator (23569) */
+     , (0x700130B0, 0x70013041, '2005-02-09 10:00:00') /* Virindi Adjudicator (23569) */
+     , (0x700130B0, 0x7001305F, '2005-02-09 10:00:00') /* Virindi Consul (23489) */
+     , (0x700130B0, 0x70013060, '2005-02-09 10:00:00') /* Unconquered Drudge (10776) */
+     , (0x700130B0, 0x70013061, '2005-02-09 10:00:00') /* Unconquered Drudge (10776) */
+     , (0x700130B0, 0x70013062, '2005-02-09 10:00:00') /* Virindi Adjudicator (23569) */
+     , (0x700130B0, 0x7001309A, '2005-02-09 10:00:00') /* Shadow Phantom (23089) */
+     , (0x700130B0, 0x700130A1, '2005-02-09 10:00:00') /* Shadow Phantom (23089) */
+     , (0x700130B0, 0x700130A2, '2005-02-09 10:00:00') /* Virindi Consul (23489) */
+     , (0x700130B0, 0x700130A3, '2005-02-09 10:00:00') /* Shadow Phantom (23089) */
+     , (0x700130B0, 0x700130AE, '2005-02-09 10:00:00') /* Shadow Spectre (23090) */
+     , (0x700130B0, 0x700130AF, '2005-02-09 10:00:00') /* Shadow Spectre (23090) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x700130B1, 10776, 0x0013031E, 50.0105, -207.809, 0.005, -0.998402, 0, 0, 0.0565091,  True, '2005-02-09 10:00:00'); /* Unconquered Drudge */
@@ -848,15 +848,15 @@ VALUES (0x700130D2,  7923, 0x0013038C, 59.0607, -93.0154, 6.005, -0.03304, 0, 0,
 /* @teleloc 0x0013038C [59.060700 -93.015400 6.005000] -0.033040 0.000000 0.000000 0.999454 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x700130D2, 0x700130BF, '2005-02-09 10:00:00') /* Unconquered Drudge */
-     , (0x700130D2, 0x700130C0, '2005-02-09 10:00:00') /* Unconquered Drudge */
-     , (0x700130D2, 0x700130C4, '2005-02-09 10:00:00') /* Unconquered Drudge */
-     , (0x700130D2, 0x700130C6, '2005-02-09 10:00:00') /* Unconquered Drudge */
-     , (0x700130D2, 0x700130C9, '2005-02-09 10:00:00') /* Unconquered Drudge */
-     , (0x700130D2, 0x700130CC, '2005-02-09 10:00:00') /* Unconquered Drudge */
-     , (0x700130D2, 0x700130CD, '2005-02-09 10:00:00') /* Unconquered Drudge */
-     , (0x700130D2, 0x700130CF, '2005-02-09 10:00:00') /* Unconquered Drudge */
-     , (0x700130D2, 0x700130D0, '2005-02-09 10:00:00') /* Unconquered Drudge */;
+VALUES (0x700130D2, 0x700130BF, '2005-02-09 10:00:00') /* Unconquered Drudge (10776) */
+     , (0x700130D2, 0x700130C0, '2005-02-09 10:00:00') /* Unconquered Drudge (10776) */
+     , (0x700130D2, 0x700130C4, '2005-02-09 10:00:00') /* Unconquered Drudge (10776) */
+     , (0x700130D2, 0x700130C6, '2005-02-09 10:00:00') /* Unconquered Drudge (10776) */
+     , (0x700130D2, 0x700130C9, '2005-02-09 10:00:00') /* Unconquered Drudge (10776) */
+     , (0x700130D2, 0x700130CC, '2005-02-09 10:00:00') /* Unconquered Drudge (10776) */
+     , (0x700130D2, 0x700130CD, '2005-02-09 10:00:00') /* Unconquered Drudge (10776) */
+     , (0x700130D2, 0x700130CF, '2005-02-09 10:00:00') /* Unconquered Drudge (10776) */
+     , (0x700130D2, 0x700130D0, '2005-02-09 10:00:00') /* Unconquered Drudge (10776) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x700130D3,   568, 0x00130397, 65.25, -80, 6, -0.707107, 0, 0, -0.707107, False, '2005-02-09 10:00:00'); /* Door */
@@ -891,13 +891,13 @@ VALUES (0x700130DA,  7924, 0x001303B7, 38.0789, -10.017, 18.005, 0.774392, 0, 0,
 /* @teleloc 0x001303B7 [38.078900 -10.017000 18.005000] 0.774392 0.000000 0.000000 0.632706 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x700130DA, 0x700130D5, '2005-02-09 10:00:00') /* Royal Guard */
-     , (0x700130DA, 0x700130D6, '2005-02-09 10:00:00') /* Royal Guard */
-     , (0x700130DA, 0x700130D9, '2005-02-09 10:00:00') /* Royal Guard */
-     , (0x700130DA, 0x700130DB, '2005-02-09 10:00:00') /* Royal Guard */
-     , (0x700130DA, 0x700130DC, '2005-02-09 10:00:00') /* Royal Guard */
-     , (0x700130DA, 0x700130DD, '2005-02-09 10:00:00') /* Royal Guard */
-     , (0x700130DA, 0x700130DE, '2005-02-09 10:00:00') /* Royal Guard */;
+VALUES (0x700130DA, 0x700130D5, '2005-02-09 10:00:00') /* Royal Guard (30758) */
+     , (0x700130DA, 0x700130D6, '2005-02-09 10:00:00') /* Royal Guard (30760) */
+     , (0x700130DA, 0x700130D9, '2005-02-09 10:00:00') /* Royal Guard (30759) */
+     , (0x700130DA, 0x700130DB, '2005-02-09 10:00:00') /* Royal Guard (30758) */
+     , (0x700130DA, 0x700130DC, '2005-02-09 10:00:00') /* Royal Guard (30760) */
+     , (0x700130DA, 0x700130DD, '2005-02-09 10:00:00') /* Royal Guard (30759) */
+     , (0x700130DA, 0x700130DE, '2005-02-09 10:00:00') /* Royal Guard (30759) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x700130DB, 30758, 0x001303BC, 38.7635, -18.5129, 18.005, 0.0928594, 0, 0, 0.995679,  True, '2005-02-09 10:00:00'); /* Royal Guard */

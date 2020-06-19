@@ -13,11 +13,11 @@ VALUES (0x7CF62002,  1154, 0xCF620100, 155.602, 93.3779, -0.34, -0.999626, 0, 0,
 /* @teleloc 0xCF620100 [155.602000 93.377900 -0.340000] -0.999626 0.000000 0.000000 0.027349 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7CF62002, 0x7CF62000, '2005-02-09 10:00:00') /* Se Sclavus */
-     , (0x7CF62002, 0x7CF62001, '2005-02-09 10:00:00') /* Se Sclavus */
-     , (0x7CF62002, 0x7CF62003, '2005-02-09 10:00:00') /* Se Sclavus */
-     , (0x7CF62002, 0x7CF62008, '2005-02-09 10:00:00') /* Se Sclavus */
-     , (0x7CF62002, 0x7CF62009, '2005-02-09 10:00:00') /* Se Sclavus */;
+VALUES (0x7CF62002, 0x7CF62000, '2005-02-09 10:00:00') /* Se Sclavus (2583) */
+     , (0x7CF62002, 0x7CF62001, '2005-02-09 10:00:00') /* Se Sclavus (2583) */
+     , (0x7CF62002, 0x7CF62003, '2005-02-09 10:00:00') /* Se Sclavus (2583) */
+     , (0x7CF62002, 0x7CF62008, '2005-02-09 10:00:00') /* Se Sclavus (2583) */
+     , (0x7CF62002, 0x7CF62009, '2005-02-09 10:00:00') /* Se Sclavus (2583) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7CF62003,  2583, 0xCF620000, 184.601, 96.1294, 6.005, 0.986033, 0, 0, -0.166547,  True, '2005-02-09 10:00:00'); /* Se Sclavus */
@@ -32,7 +32,7 @@ VALUES (0x7CF62005,  1542, 0xCF620100, 159.981, 102.166, -0.34, 0.716213, 0, 0, 
 /* @teleloc 0xCF620100 [159.981000 102.166000 -0.340000] 0.716213 0.000000 0.000000 -0.697882 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7CF62005, 0x7CF62004, '2005-02-09 10:00:00') /* Diamond */;
+VALUES (0x7CF62005, 0x7CF62004, '2005-02-09 10:00:00') /* Diamond (2409) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7CF62006, 27244, 0xCF620100, 157.539, 103.449, -0.34, -0.99988, 0, 0, 0.0155113, False, '2005-02-09 10:00:00'); /* Chest */

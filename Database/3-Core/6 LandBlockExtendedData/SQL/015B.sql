@@ -81,26 +81,26 @@ VALUES (0x7015B013,  5485, 0x015B016E, 33.304, -2.77246, 6, -0.707107, 0, 0, -0.
 /* @teleloc 0x015B016E [33.304000 -2.772460 6.000000] -0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7015B013, 0x7015B000, '2005-02-09 10:00:00') /* Gnawer Shreth */
-     , (0x7015B013, 0x7015B001, '2005-02-09 10:00:00') /* Drudge Skulker */
-     , (0x7015B013, 0x7015B002, '2005-02-09 10:00:00') /* Gnawer Shreth */
-     , (0x7015B013, 0x7015B004, '2005-02-09 10:00:00') /* Gnawer Shreth */
-     , (0x7015B013, 0x7015B007, '2005-02-09 10:00:00') /* Drudge Skulker */
-     , (0x7015B013, 0x7015B008, '2005-02-09 10:00:00') /* Gnawer Shreth */
-     , (0x7015B013, 0x7015B00B, '2005-02-09 10:00:00') /* Russet Rat */
-     , (0x7015B013, 0x7015B00C, '2005-02-09 10:00:00') /* Gnawer Shreth */
-     , (0x7015B013, 0x7015B00E, '2005-02-09 10:00:00') /* Drudge Skulker */
-     , (0x7015B013, 0x7015B00F, '2005-02-09 10:00:00') /* Drudge Skulker */
-     , (0x7015B013, 0x7015B011, '2005-02-09 10:00:00') /* Drudge Skulker */
-     , (0x7015B013, 0x7015B016, '2005-02-09 10:00:00') /* Drudge Skulker */
-     , (0x7015B013, 0x7015B017, '2005-02-09 10:00:00') /* Drudge Skulker */;
+VALUES (0x7015B013, 0x7015B000, '2005-02-09 10:00:00') /* Gnawer Shreth (4108) */
+     , (0x7015B013, 0x7015B001, '2005-02-09 10:00:00') /* Drudge Skulker (7) */
+     , (0x7015B013, 0x7015B002, '2005-02-09 10:00:00') /* Gnawer Shreth (4108) */
+     , (0x7015B013, 0x7015B004, '2005-02-09 10:00:00') /* Gnawer Shreth (4108) */
+     , (0x7015B013, 0x7015B007, '2005-02-09 10:00:00') /* Drudge Skulker (7) */
+     , (0x7015B013, 0x7015B008, '2005-02-09 10:00:00') /* Gnawer Shreth (4108) */
+     , (0x7015B013, 0x7015B00B, '2005-02-09 10:00:00') /* Russet Rat (4132) */
+     , (0x7015B013, 0x7015B00C, '2005-02-09 10:00:00') /* Gnawer Shreth (4108) */
+     , (0x7015B013, 0x7015B00E, '2005-02-09 10:00:00') /* Drudge Skulker (7) */
+     , (0x7015B013, 0x7015B00F, '2005-02-09 10:00:00') /* Drudge Skulker (7) */
+     , (0x7015B013, 0x7015B011, '2005-02-09 10:00:00') /* Drudge Skulker (7) */
+     , (0x7015B013, 0x7015B016, '2005-02-09 10:00:00') /* Drudge Skulker (7) */
+     , (0x7015B013, 0x7015B017, '2005-02-09 10:00:00') /* Drudge Skulker (7) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7015B014,  3955, 0x015B016E, 33.8084, 2.81297, 6, -0.707107, 0, 0, -0.707107, False, '2005-02-09 10:00:00'); /* Linkable Monster Gen (15 min.) */
 /* @teleloc 0x015B016E [33.808400 2.812970 6.000000] -0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7015B014, 0x7015B006, '2005-02-09 10:00:00') /* Drudge Slinker */;
+VALUES (0x7015B014, 0x7015B006, '2005-02-09 10:00:00') /* Drudge Slinker (193) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7015B015,   278, 0x015B0173, 34.737, -20.001, 6, -0.707107, 0, 0, -0.707107, False, '2005-02-09 10:00:00'); /* Door */

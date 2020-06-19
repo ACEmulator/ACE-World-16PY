@@ -21,8 +21,8 @@ VALUES (0x75F4F004, 26553, 0x5F4F0142, 40.16, -50, 0.005, 0.707107, 0, 0, -0.707
 /* @teleloc 0x5F4F0142 [40.160000 -50.000000 0.005000] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x75F4F004, 0x75F4F003, '2005-02-09 10:00:00') /* Button */
-     , (0x75F4F004, 0x75F4F006, '2005-02-09 10:00:00') /* Torch */;
+VALUES (0x75F4F004, 0x75F4F003, '2005-02-09 10:00:00') /* Button (8420) */
+     , (0x75F4F004, 0x75F4F006, '2005-02-09 10:00:00') /* Torch (7323) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75F4F005, 28020, 0x5F4F0142, 44.75, -50, 0.005, -0.707107, 0, 0, -0.707107, False, '2005-02-09 10:00:00'); /* Prison Door */
@@ -45,8 +45,8 @@ VALUES (0x75F4F009, 26553, 0x5F4F0150, 40.16, -80, 0.005, 0.707107, 0, 0, -0.707
 /* @teleloc 0x5F4F0150 [40.160000 -80.000000 0.005000] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x75F4F009, 0x75F4F008, '2005-02-09 10:00:00') /* Button */
-     , (0x75F4F009, 0x75F4F00B, '2005-02-09 10:00:00') /* Torch */;
+VALUES (0x75F4F009, 0x75F4F008, '2005-02-09 10:00:00') /* Button (8420) */
+     , (0x75F4F009, 0x75F4F00B, '2005-02-09 10:00:00') /* Torch (7323) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75F4F00A, 28020, 0x5F4F0150, 44.75, -80, 0.005, -0.707107, 0, 0, -0.707107, False, '2005-02-09 10:00:00'); /* Prison Door */
@@ -77,8 +77,8 @@ VALUES (0x75F4F010, 26553, 0x5F4F018C, 60, -40.16, 0.005, 0, 0, 0, 1, False, '20
 /* @teleloc 0x5F4F018C [60.000000 -40.160000 0.005000] 0.000000 0.000000 0.000000 1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x75F4F010, 0x75F4F00F, '2005-02-09 10:00:00') /* Button */
-     , (0x75F4F010, 0x75F4F012, '2005-02-09 10:00:00') /* Torch */;
+VALUES (0x75F4F010, 0x75F4F00F, '2005-02-09 10:00:00') /* Button (8420) */
+     , (0x75F4F010, 0x75F4F012, '2005-02-09 10:00:00') /* Torch (7323) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75F4F011, 28020, 0x5F4F018C, 60, -44.75, 0.005, 1, 0, 0, 0, False, '2005-02-09 10:00:00'); /* Prison Door */
@@ -101,8 +101,8 @@ VALUES (0x75F4F015, 26553, 0x5F4F0197, 60, -89.84, 0.005, 1, 0, 0, -4.37114E-08,
 /* @teleloc 0x5F4F0197 [60.000000 -89.840000 0.005000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x75F4F015, 0x75F4F014, '2005-02-09 10:00:00') /* Button */
-     , (0x75F4F015, 0x75F4F017, '2005-02-09 10:00:00') /* Torch */;
+VALUES (0x75F4F015, 0x75F4F014, '2005-02-09 10:00:00') /* Button (8420) */
+     , (0x75F4F015, 0x75F4F017, '2005-02-09 10:00:00') /* Torch (7323) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75F4F016, 28020, 0x5F4F0197, 60, -85.25, 0.005, -4.37114E-08, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Prison Door */
@@ -121,30 +121,30 @@ VALUES (0x75F4F01A,  7923, 0x5F4F01B1, 71.7045, -80, 0.005, 1, 0, 0, 0, False, '
 /* @teleloc 0x5F4F01B1 [71.704500 -80.000000 0.005000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x75F4F01A, 0x75F4F000, '2005-02-09 10:00:00') /* Tormented Attendant */
-     , (0x75F4F01A, 0x75F4F001, '2005-02-09 10:00:00') /* Tormented Attendant */
-     , (0x75F4F01A, 0x75F4F00C, '2005-02-09 10:00:00') /* Tormented Attendant */
-     , (0x75F4F01A, 0x75F4F00D, '2005-02-09 10:00:00') /* Tormented Attendant */
-     , (0x75F4F01A, 0x75F4F026, '2005-02-09 10:00:00') /* Tormented Attendant */
-     , (0x75F4F01A, 0x75F4F027, '2005-02-09 10:00:00') /* Tormented Attendant */
-     , (0x75F4F01A, 0x75F4F032, '2005-02-09 10:00:00') /* Tormented Attendant */
-     , (0x75F4F01A, 0x75F4F033, '2005-02-09 10:00:00') /* Tormented Attendant */
-     , (0x75F4F01A, 0x75F4F034, '2005-02-09 10:00:00') /* Guardian */;
+VALUES (0x75F4F01A, 0x75F4F000, '2005-02-09 10:00:00') /* Tormented Attendant (28016) */
+     , (0x75F4F01A, 0x75F4F001, '2005-02-09 10:00:00') /* Tormented Attendant (28016) */
+     , (0x75F4F01A, 0x75F4F00C, '2005-02-09 10:00:00') /* Tormented Attendant (28016) */
+     , (0x75F4F01A, 0x75F4F00D, '2005-02-09 10:00:00') /* Tormented Attendant (28016) */
+     , (0x75F4F01A, 0x75F4F026, '2005-02-09 10:00:00') /* Tormented Attendant (28016) */
+     , (0x75F4F01A, 0x75F4F027, '2005-02-09 10:00:00') /* Tormented Attendant (28016) */
+     , (0x75F4F01A, 0x75F4F032, '2005-02-09 10:00:00') /* Tormented Attendant (28016) */
+     , (0x75F4F01A, 0x75F4F033, '2005-02-09 10:00:00') /* Tormented Attendant (28016) */
+     , (0x75F4F01A, 0x75F4F034, '2005-02-09 10:00:00') /* Guardian (27955) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75F4F01B,  4219, 0x5F4F01B1, 69.47, -80, 0.005, 1, 0, 0, 0, False, '2005-02-09 10:00:00'); /* Linkable Monster Generator ( 7 Min.) */
 /* @teleloc 0x5F4F01B1 [69.470000 -80.000000 0.005000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x75F4F01B, 0x75F4F019, '2005-02-09 10:00:00') /* Jrvik */
-     , (0x75F4F01B, 0x75F4F035, '2005-02-09 10:00:00') /* Tormented Attendant */
-     , (0x75F4F01B, 0x75F4F036, '2005-02-09 10:00:00') /* Tormented Attendant */
-     , (0x75F4F01B, 0x75F4F037, '2005-02-09 10:00:00') /* Tormented Attendant */
-     , (0x75F4F01B, 0x75F4F038, '2005-02-09 10:00:00') /* Tormented Attendant */
-     , (0x75F4F01B, 0x75F4F039, '2005-02-09 10:00:00') /* Tormented Attendant */
-     , (0x75F4F01B, 0x75F4F03A, '2005-02-09 10:00:00') /* Tormented Attendant */
-     , (0x75F4F01B, 0x75F4F03B, '2005-02-09 10:00:00') /* Tormented Attendant */
-     , (0x75F4F01B, 0x75F4F03C, '2005-02-09 10:00:00') /* Tormented Attendant */;
+VALUES (0x75F4F01B, 0x75F4F019, '2005-02-09 10:00:00') /* Jrvik (27918) */
+     , (0x75F4F01B, 0x75F4F035, '2005-02-09 10:00:00') /* Tormented Attendant (27920) */
+     , (0x75F4F01B, 0x75F4F036, '2005-02-09 10:00:00') /* Tormented Attendant (27920) */
+     , (0x75F4F01B, 0x75F4F037, '2005-02-09 10:00:00') /* Tormented Attendant (27920) */
+     , (0x75F4F01B, 0x75F4F038, '2005-02-09 10:00:00') /* Tormented Attendant (27920) */
+     , (0x75F4F01B, 0x75F4F039, '2005-02-09 10:00:00') /* Tormented Attendant (27920) */
+     , (0x75F4F01B, 0x75F4F03A, '2005-02-09 10:00:00') /* Tormented Attendant (27920) */
+     , (0x75F4F01B, 0x75F4F03B, '2005-02-09 10:00:00') /* Tormented Attendant (27920) */
+     , (0x75F4F01B, 0x75F4F03C, '2005-02-09 10:00:00') /* Tormented Attendant (27920) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75F4F01C, 28026, 0x5F4F01C0, 80, -37.75, 0, 1, 0, 0, 0, False, '2005-02-09 10:00:00'); /* Corroding Bile */
@@ -159,8 +159,8 @@ VALUES (0x75F4F01E, 26553, 0x5F4F01C3, 80, -40.16, 0.005, 0, 0, 0, 1, False, '20
 /* @teleloc 0x5F4F01C3 [80.000000 -40.160000 0.005000] 0.000000 0.000000 0.000000 1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x75F4F01E, 0x75F4F01D, '2005-02-09 10:00:00') /* Button */
-     , (0x75F4F01E, 0x75F4F020, '2005-02-09 10:00:00') /* Torch */;
+VALUES (0x75F4F01E, 0x75F4F01D, '2005-02-09 10:00:00') /* Button (8420) */
+     , (0x75F4F01E, 0x75F4F020, '2005-02-09 10:00:00') /* Torch (7323) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75F4F01F, 28020, 0x5F4F01C3, 80, -44.75, 0.005, 1, 0, 0, 0, False, '2005-02-09 10:00:00'); /* Prison Door */
@@ -183,8 +183,8 @@ VALUES (0x75F4F023, 26553, 0x5F4F01CE, 80, -89.84, 0.005, 1, 0, 0, -4.37114E-08,
 /* @teleloc 0x5F4F01CE [80.000000 -89.840000 0.005000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x75F4F023, 0x75F4F022, '2005-02-09 10:00:00') /* Button */
-     , (0x75F4F023, 0x75F4F025, '2005-02-09 10:00:00') /* Torch */;
+VALUES (0x75F4F023, 0x75F4F022, '2005-02-09 10:00:00') /* Button (8420) */
+     , (0x75F4F023, 0x75F4F025, '2005-02-09 10:00:00') /* Torch (7323) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75F4F024, 28020, 0x5F4F01CE, 80, -85.25, 0.005, -4.37114E-08, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Prison Door */
@@ -215,8 +215,8 @@ VALUES (0x75F4F02A, 26553, 0x5F4F020A, 99.84, -50, 0.005, 0.707107, 0, 0, 0.7071
 /* @teleloc 0x5F4F020A [99.840000 -50.000000 0.005000] 0.707107 0.000000 0.000000 0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x75F4F02A, 0x75F4F029, '2005-02-09 10:00:00') /* Button */
-     , (0x75F4F02A, 0x75F4F02C, '2005-02-09 10:00:00') /* Torch */;
+VALUES (0x75F4F02A, 0x75F4F029, '2005-02-09 10:00:00') /* Button (8420) */
+     , (0x75F4F02A, 0x75F4F02C, '2005-02-09 10:00:00') /* Torch (7323) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75F4F02B, 28020, 0x5F4F020A, 95.25, -50, 0.005, 0.707107, 0, 0, -0.707107, False, '2005-02-09 10:00:00'); /* Prison Door */
@@ -239,8 +239,8 @@ VALUES (0x75F4F02F, 26553, 0x5F4F0218, 99.84, -80, 0.005, 0.707107, 0, 0, 0.7071
 /* @teleloc 0x5F4F0218 [99.840000 -80.000000 0.005000] 0.707107 0.000000 0.000000 0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x75F4F02F, 0x75F4F02E, '2005-02-09 10:00:00') /* Button */
-     , (0x75F4F02F, 0x75F4F031, '2005-02-09 10:00:00') /* Torch */;
+VALUES (0x75F4F02F, 0x75F4F02E, '2005-02-09 10:00:00') /* Button (8420) */
+     , (0x75F4F02F, 0x75F4F031, '2005-02-09 10:00:00') /* Torch (7323) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75F4F030, 28020, 0x5F4F0218, 95.25, -80, 0.005, 0.707107, 0, 0, -0.707107, False, '2005-02-09 10:00:00'); /* Prison Door */
@@ -303,4 +303,4 @@ VALUES (0x75F4F03E, 28104, 0x5F4F01AB, 70, -44.84, 0.005, 1, 0, 0, 0, False, '20
 /* @teleloc 0x5F4F01AB [70.000000 -44.840000 0.005000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x75F4F03E, 0x75F4F03D, '2005-02-09 10:00:00') /* Button */;
+VALUES (0x75F4F03E, 0x75F4F03D, '2005-02-09 10:00:00') /* Button (8420) */;

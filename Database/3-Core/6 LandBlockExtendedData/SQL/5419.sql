@@ -5,14 +5,14 @@ VALUES (0x7541900B,  7924, 0x54190000, 42.643, 120.951, 30.0842, -0.816001, 0, 0
 /* @teleloc 0x54190000 [42.643000 120.951000 30.084200] -0.816001 0.000000 0.000000 -0.578050 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7541900B, 0x7541900C, '2005-02-09 10:00:00') /* Banderling Thrasher */
-     , (0x7541900B, 0x7541900D, '2005-02-09 10:00:00') /* Banderling Thrasher */
-     , (0x7541900B, 0x7541900E, '2005-02-09 10:00:00') /* Banderling Thrasher */
-     , (0x7541900B, 0x7541900F, '2005-02-09 10:00:00') /* Banderling Thrasher */
-     , (0x7541900B, 0x75419010, '2005-02-09 10:00:00') /* Banderling Thrasher */
-     , (0x7541900B, 0x75419011, '2005-02-09 10:00:00') /* Banderling Thrasher */
-     , (0x7541900B, 0x75419012, '2005-02-09 10:00:00') /* Banderling Thrasher */
-     , (0x7541900B, 0x75419013, '2005-02-09 10:00:00') /* Banderling Thrasher */;
+VALUES (0x7541900B, 0x7541900C, '2005-02-09 10:00:00') /* Banderling Thrasher (7086) */
+     , (0x7541900B, 0x7541900D, '2005-02-09 10:00:00') /* Banderling Thrasher (7086) */
+     , (0x7541900B, 0x7541900E, '2005-02-09 10:00:00') /* Banderling Thrasher (7086) */
+     , (0x7541900B, 0x7541900F, '2005-02-09 10:00:00') /* Banderling Thrasher (7086) */
+     , (0x7541900B, 0x75419010, '2005-02-09 10:00:00') /* Banderling Thrasher (7086) */
+     , (0x7541900B, 0x75419011, '2005-02-09 10:00:00') /* Banderling Thrasher (7086) */
+     , (0x7541900B, 0x75419012, '2005-02-09 10:00:00') /* Banderling Thrasher (7086) */
+     , (0x7541900B, 0x75419013, '2005-02-09 10:00:00') /* Banderling Thrasher (7086) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7541900C,  7086, 0x54190000, 53.3087, 118.765, 32.0855, 0.803319, 0, 0, 0.595549,  True, '2005-02-09 10:00:00'); /* Banderling Thrasher */

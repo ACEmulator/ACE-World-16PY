@@ -5,16 +5,16 @@ VALUES (0x7DA7700C,  7924, 0xDA770000, 110.464, 121.476, 19.0873, 0.793186, 0, 0
 /* @teleloc 0xDA770000 [110.464000 121.476000 19.087300] 0.793186 0.000000 0.000000 0.608979 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7DA7700C, 0x7DA7700D, '2005-02-09 10:00:00') /* Tumerok Priest */
-     , (0x7DA7700C, 0x7DA7700E, '2005-02-09 10:00:00') /* Tumerok Priest */
-     , (0x7DA7700C, 0x7DA7700F, '2005-02-09 10:00:00') /* Tumerok Priest */
-     , (0x7DA7700C, 0x7DA77010, '2005-02-09 10:00:00') /* Tumerok Gladiator */
-     , (0x7DA7700C, 0x7DA77011, '2005-02-09 10:00:00') /* Tumerok Gladiator */
-     , (0x7DA7700C, 0x7DA77012, '2005-02-09 10:00:00') /* Tumerok Gladiator */
-     , (0x7DA7700C, 0x7DA77013, '2005-02-09 10:00:00') /* Tumerok Gladiator */
-     , (0x7DA7700C, 0x7DA77014, '2005-02-09 10:00:00') /* Tumerok Gladiator */
-     , (0x7DA7700C, 0x7DA77015, '2005-02-09 10:00:00') /* Tumerok Gladiator */
-     , (0x7DA7700C, 0x7DA77016, '2005-02-09 10:00:00') /* Tumerok Gladiator */;
+VALUES (0x7DA7700C, 0x7DA7700D, '2005-02-09 10:00:00') /* Tumerok Priest (231) */
+     , (0x7DA7700C, 0x7DA7700E, '2005-02-09 10:00:00') /* Tumerok Priest (231) */
+     , (0x7DA7700C, 0x7DA7700F, '2005-02-09 10:00:00') /* Tumerok Priest (231) */
+     , (0x7DA7700C, 0x7DA77010, '2005-02-09 10:00:00') /* Tumerok Gladiator (227) */
+     , (0x7DA7700C, 0x7DA77011, '2005-02-09 10:00:00') /* Tumerok Gladiator (227) */
+     , (0x7DA7700C, 0x7DA77012, '2005-02-09 10:00:00') /* Tumerok Gladiator (227) */
+     , (0x7DA7700C, 0x7DA77013, '2005-02-09 10:00:00') /* Tumerok Gladiator (227) */
+     , (0x7DA7700C, 0x7DA77014, '2005-02-09 10:00:00') /* Tumerok Gladiator (227) */
+     , (0x7DA7700C, 0x7DA77015, '2005-02-09 10:00:00') /* Tumerok Gladiator (227) */
+     , (0x7DA7700C, 0x7DA77016, '2005-02-09 10:00:00') /* Tumerok Gladiator (227) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7DA7700D,   231, 0xDA770000, 108.604, 123.606, 18.758, 0.875284, 0, 0, 0.483609,  True, '2005-02-09 10:00:00'); /* Tumerok Priest */

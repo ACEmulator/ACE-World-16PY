@@ -53,13 +53,13 @@ VALUES (0x73ED5010,  4219, 0x3ED50000, 175.158, 73.8189, 0.005, -0.957279, 0, 0,
 /* @teleloc 0x3ED50000 [175.158000 73.818900 0.005000] -0.957279 0.000000 0.000000 0.289167 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73ED5010, 0x73ED5005, '2005-02-09 10:00:00') /* Auroch Fire Cow */
-     , (0x73ED5010, 0x73ED5006, '2005-02-09 10:00:00') /* Auroch Fire Yearling */
-     , (0x73ED5010, 0x73ED500D, '2005-02-09 10:00:00') /* Auroch Fire Bull */
-     , (0x73ED5010, 0x73ED500E, '2005-02-09 10:00:00') /* Auroch Fire Cow */
-     , (0x73ED5010, 0x73ED500F, '2005-02-09 10:00:00') /* Auroch Fire Cow */
-     , (0x73ED5010, 0x73ED5011, '2005-02-09 10:00:00') /* Auroch Fire Bull */
-     , (0x73ED5010, 0x73ED5012, '2005-02-09 10:00:00') /* Auroch Fire Bull */;
+VALUES (0x73ED5010, 0x73ED5005, '2005-02-09 10:00:00') /* Auroch Fire Cow (1606) */
+     , (0x73ED5010, 0x73ED5006, '2005-02-09 10:00:00') /* Auroch Fire Yearling (1605) */
+     , (0x73ED5010, 0x73ED500D, '2005-02-09 10:00:00') /* Auroch Fire Bull (1607) */
+     , (0x73ED5010, 0x73ED500E, '2005-02-09 10:00:00') /* Auroch Fire Cow (1606) */
+     , (0x73ED5010, 0x73ED500F, '2005-02-09 10:00:00') /* Auroch Fire Cow (1606) */
+     , (0x73ED5010, 0x73ED5011, '2005-02-09 10:00:00') /* Auroch Fire Bull (1607) */
+     , (0x73ED5010, 0x73ED5012, '2005-02-09 10:00:00') /* Auroch Fire Bull (1607) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73ED5011,  1607, 0x3ED50000, 171.829, 1.42418, 1.89067, 0.967859, 0, 0, -0.251495,  True, '2005-02-09 10:00:00'); /* Auroch Fire Bull */

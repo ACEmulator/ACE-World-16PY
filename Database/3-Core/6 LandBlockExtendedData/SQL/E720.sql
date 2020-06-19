@@ -37,10 +37,10 @@ VALUES (0x7E720008,  7924, 0xE7200103, 68.1045, 141.673, -4.795, 0.529572, 0, 0,
 /* @teleloc 0xE7200103 [68.104500 141.673000 -4.795000] 0.529572 0.000000 0.000000 0.848265 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7E720008, 0x7E720001, '2005-02-09 10:00:00') /* Mosswart Soul Trapper */
-     , (0x7E720008, 0x7E720002, '2005-02-09 10:00:00') /* Mosswart Soul Trapper */
-     , (0x7E720008, 0x7E720003, '2005-02-09 10:00:00') /* Mosswart Soul Trapper */
-     , (0x7E720008, 0x7E720004, '2005-02-09 10:00:00') /* Mosswart Soul Trapper */
-     , (0x7E720008, 0x7E720005, '2005-02-09 10:00:00') /* Mosswart Idolator */
-     , (0x7E720008, 0x7E720006, '2005-02-09 10:00:00') /* Mosswart Idolator */
-     , (0x7E720008, 0x7E720007, '2005-02-09 10:00:00') /* Shadow Lieutenant */;
+VALUES (0x7E720008, 0x7E720001, '2005-02-09 10:00:00') /* Mosswart Soul Trapper (8430) */
+     , (0x7E720008, 0x7E720002, '2005-02-09 10:00:00') /* Mosswart Soul Trapper (8430) */
+     , (0x7E720008, 0x7E720003, '2005-02-09 10:00:00') /* Mosswart Soul Trapper (8430) */
+     , (0x7E720008, 0x7E720004, '2005-02-09 10:00:00') /* Mosswart Soul Trapper (8430) */
+     , (0x7E720008, 0x7E720005, '2005-02-09 10:00:00') /* Mosswart Idolator (8428) */
+     , (0x7E720008, 0x7E720006, '2005-02-09 10:00:00') /* Mosswart Idolator (8428) */
+     , (0x7E720008, 0x7E720007, '2005-02-09 10:00:00') /* Shadow Lieutenant (1757) */;

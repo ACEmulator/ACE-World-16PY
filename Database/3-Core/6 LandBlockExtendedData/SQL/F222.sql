@@ -57,10 +57,10 @@ VALUES (0x7F22200D,  3955, 0xF2220000, 142.634, 175.015, 18.005, -0.991134, 0, 0
 /* @teleloc 0xF2220000 [142.634000 175.015000 18.005000] -0.991134 0.000000 0.000000 -0.132863 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7F22200D, 0x7F22200C, '2005-02-09 10:00:00') /* MacNiall the Unruled */
-     , (0x7F22200D, 0x7F22201D, '2005-02-09 10:00:00') /* Open Journal */
-     , (0x7F22200D, 0x7F22201E, '2005-02-09 10:00:00') /* Gentleman Jake Hawkins */
-     , (0x7F22200D, 0x7F222020, '2005-02-09 10:00:00') /* Journeyman Fletcher */;
+VALUES (0x7F22200D, 0x7F22200C, '2005-02-09 10:00:00') /* MacNiall the Unruled (8490) */
+     , (0x7F22200D, 0x7F22201D, '2005-02-09 10:00:00') /* Open Journal (25714) */
+     , (0x7F22200D, 0x7F22201E, '2005-02-09 10:00:00') /* Gentleman Jake Hawkins (25721) */
+     , (0x7F22200D, 0x7F222020, '2005-02-09 10:00:00') /* Journeyman Fletcher (28925) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7F222014, 16919, 0xF2220000, 158.572, 133.945, 18, -0.0214868, 0, 0, -0.999769, False, '2005-02-09 10:00:00'); /* Pedestal Weak Spot */

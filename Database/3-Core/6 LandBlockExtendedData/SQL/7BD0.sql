@@ -5,16 +5,16 @@ VALUES (0x77BD000B,  7924, 0x7BD00000, 87.0125, 140.577, 98.9958, 0.944563, 0, 0
 /* @teleloc 0x7BD00000 [87.012500 140.577000 98.995800] 0.944563 0.000000 0.000000 -0.328330 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x77BD000B, 0x77BD000C, '2005-02-09 10:00:00') /* Banderling Rogue */
-     , (0x77BD000B, 0x77BD000D, '2005-02-09 10:00:00') /* Banderling Thrasher */
-     , (0x77BD000B, 0x77BD000E, '2005-02-09 10:00:00') /* Banderling Enforcer */
-     , (0x77BD000B, 0x77BD000F, '2005-02-09 10:00:00') /* Banderling Enforcer */
-     , (0x77BD000B, 0x77BD0010, '2005-02-09 10:00:00') /* Banderling Enforcer */
-     , (0x77BD000B, 0x77BD0011, '2005-02-09 10:00:00') /* Banderling Thrasher */
-     , (0x77BD000B, 0x77BD0012, '2005-02-09 10:00:00') /* Banderling Enforcer */
-     , (0x77BD000B, 0x77BD0013, '2005-02-09 10:00:00') /* Banderling Enforcer */
-     , (0x77BD000B, 0x77BD0014, '2005-02-09 10:00:00') /* Banderling Thrasher */
-     , (0x77BD000B, 0x77BD0015, '2005-02-09 10:00:00') /* Banderling Thrasher */;
+VALUES (0x77BD000B, 0x77BD000C, '2005-02-09 10:00:00') /* Banderling Rogue (1462) */
+     , (0x77BD000B, 0x77BD000D, '2005-02-09 10:00:00') /* Banderling Thrasher (7086) */
+     , (0x77BD000B, 0x77BD000E, '2005-02-09 10:00:00') /* Banderling Enforcer (7346) */
+     , (0x77BD000B, 0x77BD000F, '2005-02-09 10:00:00') /* Banderling Enforcer (7346) */
+     , (0x77BD000B, 0x77BD0010, '2005-02-09 10:00:00') /* Banderling Enforcer (7346) */
+     , (0x77BD000B, 0x77BD0011, '2005-02-09 10:00:00') /* Banderling Thrasher (7086) */
+     , (0x77BD000B, 0x77BD0012, '2005-02-09 10:00:00') /* Banderling Enforcer (7346) */
+     , (0x77BD000B, 0x77BD0013, '2005-02-09 10:00:00') /* Banderling Enforcer (7346) */
+     , (0x77BD000B, 0x77BD0014, '2005-02-09 10:00:00') /* Banderling Thrasher (7086) */
+     , (0x77BD000B, 0x77BD0015, '2005-02-09 10:00:00') /* Banderling Thrasher (7086) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x77BD000C,  1462, 0x7BD00000, 85.1139, 138.584, 99.6364, -0.476066, 0, 0, -0.87941,  True, '2005-02-09 10:00:00'); /* Banderling Rogue */

@@ -41,11 +41,11 @@ VALUES (0x788AF00E,  7924, 0x88AF0000, 66.2591, 29.3099, 122.075, 0.672522, 0, 0
 /* @teleloc 0x88AF0000 [66.259100 29.309900 122.075000] 0.672522 0.000000 0.000000 0.740077 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x788AF00E, 0x788AF004, '2005-02-09 10:00:00') /* Banderling Rogue */
-     , (0x788AF00E, 0x788AF005, '2005-02-09 10:00:00') /* Banderling Rogue */
-     , (0x788AF00E, 0x788AF007, '2005-02-09 10:00:00') /* Banderling Striker */
-     , (0x788AF00E, 0x788AF008, '2005-02-09 10:00:00') /* Banderling Berserker */
-     , (0x788AF00E, 0x788AF009, '2005-02-09 10:00:00') /* Banderling Berserker */
-     , (0x788AF00E, 0x788AF00A, '2005-02-09 10:00:00') /* Banderling Striker */
-     , (0x788AF00E, 0x788AF00B, '2005-02-09 10:00:00') /* Banderling Berserker */
-     , (0x788AF00E, 0x788AF00C, '2005-02-09 10:00:00') /* Banderling Berserker */;
+VALUES (0x788AF00E, 0x788AF004, '2005-02-09 10:00:00') /* Banderling Rogue (22810) */
+     , (0x788AF00E, 0x788AF005, '2005-02-09 10:00:00') /* Banderling Rogue (1462) */
+     , (0x788AF00E, 0x788AF007, '2005-02-09 10:00:00') /* Banderling Striker (7345) */
+     , (0x788AF00E, 0x788AF008, '2005-02-09 10:00:00') /* Banderling Berserker (7085) */
+     , (0x788AF00E, 0x788AF009, '2005-02-09 10:00:00') /* Banderling Berserker (7085) */
+     , (0x788AF00E, 0x788AF00A, '2005-02-09 10:00:00') /* Banderling Striker (7345) */
+     , (0x788AF00E, 0x788AF00B, '2005-02-09 10:00:00') /* Banderling Berserker (7085) */
+     , (0x788AF00E, 0x788AF00C, '2005-02-09 10:00:00') /* Banderling Berserker (7085) */;

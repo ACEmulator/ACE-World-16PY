@@ -1,5 +1,4 @@
-DELETE FROM `encounter` WHERE `landblock` = 35172;
+DELETE FROM `encounter` WHERE `landblock` = 0x8964;
 
 INSERT INTO `encounter` (`landblock`, `weenie_Class_Id`, `cell_X`, `cell_Y`, `last_Modified`)
-VALUES (35172, 23178, 1, 8, '2005-02-09 10:00:00') /* Gharun'dim Newbie Desert Mix Generator */
-     , (35172, 23178, 5, 1, '2005-02-09 10:00:00') /* Gharun'dim Newbie Desert Mix Generator */;
+VALUES (0x8964, 23178, 5, 1, '2005-02-09 10:00:00') /* Gharun'dim Newbie Desert Mix Generator */;

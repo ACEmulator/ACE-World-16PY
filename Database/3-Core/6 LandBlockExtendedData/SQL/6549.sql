@@ -109,178 +109,178 @@ VALUES (0x7654901A,  7932, 0x6549013A, 81.3448, -89.7218, 0.005, 1, 0, 0, 0, Fal
 /* @teleloc 0x6549013A [81.344800 -89.721800 0.005000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7654901A, 0x76549011, '2005-02-09 10:00:00') /* Gotrok Extas */
-     , (0x7654901A, 0x76549012, '2005-02-09 10:00:00') /* Gotrok Extas */
-     , (0x7654901A, 0x76549023, '2005-02-09 10:00:00') /* Gotrok Tiatus */
-     , (0x7654901A, 0x76549024, '2005-02-09 10:00:00') /* Gotrok Tiatus */
-     , (0x7654901A, 0x76549026, '2005-02-09 10:00:00') /* Gotrok Fortress Guard */
-     , (0x7654901A, 0x76549027, '2005-02-09 10:00:00') /* Gotrok Fortress Guard */
-     , (0x7654901A, 0x7654902D, '2005-02-09 10:00:00') /* Gotrok Fortress Guard */
-     , (0x7654901A, 0x7654902E, '2005-02-09 10:00:00') /* Gotrok Fortress Guard */
-     , (0x7654901A, 0x76549046, '2005-02-09 10:00:00') /* Gotrok Fortress Guard */
-     , (0x7654901A, 0x76549047, '2005-02-09 10:00:00') /* Gotrok Fortress Guard */
-     , (0x7654901A, 0x76549048, '2005-02-09 10:00:00') /* Gotrok Fortress Guard */
-     , (0x7654901A, 0x76549053, '2005-02-09 10:00:00') /* Gotrok Fortress Guard */
-     , (0x7654901A, 0x76549057, '2005-02-09 10:00:00') /* Gotrok Fortress Guard */
-     , (0x7654901A, 0x7654905F, '2005-02-09 10:00:00') /* Gotrok Fortress Guard */
-     , (0x7654901A, 0x76549069, '2005-02-09 10:00:00') /* Gotrok Tiatus */
-     , (0x7654901A, 0x7654906A, '2005-02-09 10:00:00') /* Gotrok Tiatus */
-     , (0x7654901A, 0x7654907B, '2005-02-09 10:00:00') /* Gotrok Fortress Guard */
-     , (0x7654901A, 0x7654907F, '2005-02-09 10:00:00') /* Tumerok High Priest */
-     , (0x7654901A, 0x76549080, '2005-02-09 10:00:00') /* Tumerok High Priest */
-     , (0x7654901A, 0x76549081, '2005-02-09 10:00:00') /* Tumerok High Priest */
-     , (0x7654901A, 0x7654908B, '2005-02-09 10:00:00') /* Gotrok Fortress Guard */
-     , (0x7654901A, 0x7654908C, '2005-02-09 10:00:00') /* Gotrok Fortress Guard */
-     , (0x7654901A, 0x7654908E, '2005-02-09 10:00:00') /* Gotrok Tiatus */
-     , (0x7654901A, 0x76549090, '2005-02-09 10:00:00') /* Gotrok Tiatus */;
+VALUES (0x7654901A, 0x76549011, '2005-02-09 10:00:00') /* Gotrok Extas (24494) */
+     , (0x7654901A, 0x76549012, '2005-02-09 10:00:00') /* Gotrok Extas (24494) */
+     , (0x7654901A, 0x76549023, '2005-02-09 10:00:00') /* Gotrok Tiatus (24497) */
+     , (0x7654901A, 0x76549024, '2005-02-09 10:00:00') /* Gotrok Tiatus (24497) */
+     , (0x7654901A, 0x76549026, '2005-02-09 10:00:00') /* Gotrok Fortress Guard (27460) */
+     , (0x7654901A, 0x76549027, '2005-02-09 10:00:00') /* Gotrok Fortress Guard (27460) */
+     , (0x7654901A, 0x7654902D, '2005-02-09 10:00:00') /* Gotrok Fortress Guard (27460) */
+     , (0x7654901A, 0x7654902E, '2005-02-09 10:00:00') /* Gotrok Fortress Guard (27460) */
+     , (0x7654901A, 0x76549046, '2005-02-09 10:00:00') /* Gotrok Fortress Guard (27460) */
+     , (0x7654901A, 0x76549047, '2005-02-09 10:00:00') /* Gotrok Fortress Guard (27460) */
+     , (0x7654901A, 0x76549048, '2005-02-09 10:00:00') /* Gotrok Fortress Guard (27460) */
+     , (0x7654901A, 0x76549053, '2005-02-09 10:00:00') /* Gotrok Fortress Guard (27460) */
+     , (0x7654901A, 0x76549057, '2005-02-09 10:00:00') /* Gotrok Fortress Guard (27460) */
+     , (0x7654901A, 0x7654905F, '2005-02-09 10:00:00') /* Gotrok Fortress Guard (27460) */
+     , (0x7654901A, 0x76549069, '2005-02-09 10:00:00') /* Gotrok Tiatus (24497) */
+     , (0x7654901A, 0x7654906A, '2005-02-09 10:00:00') /* Gotrok Tiatus (24497) */
+     , (0x7654901A, 0x7654907B, '2005-02-09 10:00:00') /* Gotrok Fortress Guard (27460) */
+     , (0x7654901A, 0x7654907F, '2005-02-09 10:00:00') /* Tumerok High Priest (6013) */
+     , (0x7654901A, 0x76549080, '2005-02-09 10:00:00') /* Tumerok High Priest (6013) */
+     , (0x7654901A, 0x76549081, '2005-02-09 10:00:00') /* Tumerok High Priest (6013) */
+     , (0x7654901A, 0x7654908B, '2005-02-09 10:00:00') /* Gotrok Fortress Guard (27460) */
+     , (0x7654901A, 0x7654908C, '2005-02-09 10:00:00') /* Gotrok Fortress Guard (27460) */
+     , (0x7654901A, 0x7654908E, '2005-02-09 10:00:00') /* Gotrok Tiatus (24497) */
+     , (0x7654901A, 0x76549090, '2005-02-09 10:00:00') /* Gotrok Tiatus (24497) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7654901B,  7932, 0x6549013A, 80.1451, -90, 0.005, 1, 0, 0, 0, False, '2005-02-09 10:00:00'); /* Linkable Monster Generator ( 4 Min.) */
 /* @teleloc 0x6549013A [80.145100 -90.000000 0.005000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7654901B, 0x7654900F, '2005-02-09 10:00:00') /* Ascendant Tumerok */
-     , (0x7654901B, 0x76549010, '2005-02-09 10:00:00') /* Ascendant Tumerok */
-     , (0x7654901B, 0x76549019, '2005-02-09 10:00:00') /* Tumerok High Priest */
-     , (0x7654901B, 0x76549025, '2005-02-09 10:00:00') /* Ascendant Tumerok */
-     , (0x7654901B, 0x76549041, '2005-02-09 10:00:00') /* Ascendant Tumerok */
-     , (0x7654901B, 0x76549044, '2005-02-09 10:00:00') /* Ascendant Tumerok */
-     , (0x7654901B, 0x76549045, '2005-02-09 10:00:00') /* Ascendant Tumerok */
-     , (0x7654901B, 0x76549049, '2005-02-09 10:00:00') /* Ascendant Tumerok */
-     , (0x7654901B, 0x7654904D, '2005-02-09 10:00:00') /* Ascendant Tumerok */
-     , (0x7654901B, 0x7654904F, '2005-02-09 10:00:00') /* Tumerok Champion */
-     , (0x7654901B, 0x76549050, '2005-02-09 10:00:00') /* Tumerok Champion */
-     , (0x7654901B, 0x76549054, '2005-02-09 10:00:00') /* Ascendant Tumerok */
-     , (0x7654901B, 0x76549058, '2005-02-09 10:00:00') /* Tumerok Champion */
-     , (0x7654901B, 0x76549059, '2005-02-09 10:00:00') /* Tumerok Champion */
-     , (0x7654901B, 0x7654905C, '2005-02-09 10:00:00') /* Ascendant Tumerok */
-     , (0x7654901B, 0x7654905E, '2005-02-09 10:00:00') /* Ascendant Tumerok */
-     , (0x7654901B, 0x76549060, '2005-02-09 10:00:00') /* Tumerok Champion */
-     , (0x7654901B, 0x7654907C, '2005-02-09 10:00:00') /* Tumerok Champion */
-     , (0x7654901B, 0x7654907D, '2005-02-09 10:00:00') /* Tumerok Champion */
-     , (0x7654901B, 0x7654907E, '2005-02-09 10:00:00') /* Tumerok High Priest */
-     , (0x7654901B, 0x76549094, '2005-02-09 10:00:00') /* Tumerok High Priest */
-     , (0x7654901B, 0x76549095, '2005-02-09 10:00:00') /* Tumerok High Priest */
-     , (0x7654901B, 0x76549096, '2005-02-09 10:00:00') /* Tumerok High Priest */
-     , (0x7654901B, 0x76549097, '2005-02-09 10:00:00') /* Tumerok High Priest */;
+VALUES (0x7654901B, 0x7654900F, '2005-02-09 10:00:00') /* Ascendant Tumerok (10806) */
+     , (0x7654901B, 0x76549010, '2005-02-09 10:00:00') /* Ascendant Tumerok (10806) */
+     , (0x7654901B, 0x76549019, '2005-02-09 10:00:00') /* Tumerok High Priest (6013) */
+     , (0x7654901B, 0x76549025, '2005-02-09 10:00:00') /* Ascendant Tumerok (10806) */
+     , (0x7654901B, 0x76549041, '2005-02-09 10:00:00') /* Ascendant Tumerok (10806) */
+     , (0x7654901B, 0x76549044, '2005-02-09 10:00:00') /* Ascendant Tumerok (10806) */
+     , (0x7654901B, 0x76549045, '2005-02-09 10:00:00') /* Ascendant Tumerok (10806) */
+     , (0x7654901B, 0x76549049, '2005-02-09 10:00:00') /* Ascendant Tumerok (10806) */
+     , (0x7654901B, 0x7654904D, '2005-02-09 10:00:00') /* Ascendant Tumerok (10806) */
+     , (0x7654901B, 0x7654904F, '2005-02-09 10:00:00') /* Tumerok Champion (23617) */
+     , (0x7654901B, 0x76549050, '2005-02-09 10:00:00') /* Tumerok Champion (23617) */
+     , (0x7654901B, 0x76549054, '2005-02-09 10:00:00') /* Ascendant Tumerok (10806) */
+     , (0x7654901B, 0x76549058, '2005-02-09 10:00:00') /* Tumerok Champion (23617) */
+     , (0x7654901B, 0x76549059, '2005-02-09 10:00:00') /* Tumerok Champion (23617) */
+     , (0x7654901B, 0x7654905C, '2005-02-09 10:00:00') /* Ascendant Tumerok (10806) */
+     , (0x7654901B, 0x7654905E, '2005-02-09 10:00:00') /* Ascendant Tumerok (10806) */
+     , (0x7654901B, 0x76549060, '2005-02-09 10:00:00') /* Tumerok Champion (23617) */
+     , (0x7654901B, 0x7654907C, '2005-02-09 10:00:00') /* Tumerok Champion (23617) */
+     , (0x7654901B, 0x7654907D, '2005-02-09 10:00:00') /* Tumerok Champion (23617) */
+     , (0x7654901B, 0x7654907E, '2005-02-09 10:00:00') /* Tumerok High Priest (6013) */
+     , (0x7654901B, 0x76549094, '2005-02-09 10:00:00') /* Tumerok High Priest (6013) */
+     , (0x7654901B, 0x76549095, '2005-02-09 10:00:00') /* Tumerok High Priest (6013) */
+     , (0x7654901B, 0x76549096, '2005-02-09 10:00:00') /* Tumerok High Priest (6013) */
+     , (0x7654901B, 0x76549097, '2005-02-09 10:00:00') /* Tumerok High Priest (6013) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7654901C,  7932, 0x6549013A, 79.1087, -90, 0.005, 1, 0, 0, 0, False, '2005-02-09 10:00:00'); /* Linkable Monster Generator ( 4 Min.) */
 /* @teleloc 0x6549013A [79.108700 -90.000000 0.005000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7654901C, 0x76549000, '2005-02-09 10:00:00') /* Tumerok Champion */
-     , (0x7654901C, 0x76549003, '2005-02-09 10:00:00') /* Tumerok Champion */
-     , (0x7654901C, 0x76549004, '2005-02-09 10:00:00') /* Tumerok Champion */
-     , (0x7654901C, 0x76549005, '2005-02-09 10:00:00') /* Tumerok Champion */
-     , (0x7654901C, 0x76549006, '2005-02-09 10:00:00') /* Tumerok High Priest */
-     , (0x7654901C, 0x76549007, '2005-02-09 10:00:00') /* Tumerok Champion */
-     , (0x7654901C, 0x76549008, '2005-02-09 10:00:00') /* Tumerok Champion */
-     , (0x7654901C, 0x76549009, '2005-02-09 10:00:00') /* Tumerok High Priest */
-     , (0x7654901C, 0x7654900A, '2005-02-09 10:00:00') /* Ascendant Tumerok */
-     , (0x7654901C, 0x7654900B, '2005-02-09 10:00:00') /* Ascendant Tumerok */
-     , (0x7654901C, 0x7654900E, '2005-02-09 10:00:00') /* Ascendant Tumerok */
-     , (0x7654901C, 0x76549042, '2005-02-09 10:00:00') /* Gotrok Tiatus */
-     , (0x7654901C, 0x76549043, '2005-02-09 10:00:00') /* Gotrok Tiatus */
-     , (0x7654901C, 0x7654904A, '2005-02-09 10:00:00') /* Gotrok Tiatus */
-     , (0x7654901C, 0x7654904B, '2005-02-09 10:00:00') /* Gotrok Tiatus */
-     , (0x7654901C, 0x76549051, '2005-02-09 10:00:00') /* Gotrok Tiatus */
-     , (0x7654901C, 0x76549052, '2005-02-09 10:00:00') /* Gotrok Tiatus */
-     , (0x7654901C, 0x7654905A, '2005-02-09 10:00:00') /* Gotrok Tiatus */
-     , (0x7654901C, 0x7654905B, '2005-02-09 10:00:00') /* Gotrok Tiatus */
-     , (0x7654901C, 0x7654907A, '2005-02-09 10:00:00') /* Tumerok Champion */
-     , (0x7654901C, 0x76549089, '2005-02-09 10:00:00') /* Tumerok Champion */
-     , (0x7654901C, 0x7654908A, '2005-02-09 10:00:00') /* Tumerok Champion */
-     , (0x7654901C, 0x7654908F, '2005-02-09 10:00:00') /* Tumerok Champion */
-     , (0x7654901C, 0x76549091, '2005-02-09 10:00:00') /* Tumerok Champion */
-     , (0x7654901C, 0x76549093, '2005-02-09 10:00:00') /* Tumerok Champion */;
+VALUES (0x7654901C, 0x76549000, '2005-02-09 10:00:00') /* Tumerok Champion (23617) */
+     , (0x7654901C, 0x76549003, '2005-02-09 10:00:00') /* Tumerok Champion (23617) */
+     , (0x7654901C, 0x76549004, '2005-02-09 10:00:00') /* Tumerok Champion (23617) */
+     , (0x7654901C, 0x76549005, '2005-02-09 10:00:00') /* Tumerok Champion (23617) */
+     , (0x7654901C, 0x76549006, '2005-02-09 10:00:00') /* Tumerok High Priest (6013) */
+     , (0x7654901C, 0x76549007, '2005-02-09 10:00:00') /* Tumerok Champion (23617) */
+     , (0x7654901C, 0x76549008, '2005-02-09 10:00:00') /* Tumerok Champion (23617) */
+     , (0x7654901C, 0x76549009, '2005-02-09 10:00:00') /* Tumerok High Priest (6013) */
+     , (0x7654901C, 0x7654900A, '2005-02-09 10:00:00') /* Ascendant Tumerok (10806) */
+     , (0x7654901C, 0x7654900B, '2005-02-09 10:00:00') /* Ascendant Tumerok (10806) */
+     , (0x7654901C, 0x7654900E, '2005-02-09 10:00:00') /* Ascendant Tumerok (10806) */
+     , (0x7654901C, 0x76549042, '2005-02-09 10:00:00') /* Gotrok Tiatus (24497) */
+     , (0x7654901C, 0x76549043, '2005-02-09 10:00:00') /* Gotrok Tiatus (24497) */
+     , (0x7654901C, 0x7654904A, '2005-02-09 10:00:00') /* Gotrok Tiatus (24497) */
+     , (0x7654901C, 0x7654904B, '2005-02-09 10:00:00') /* Gotrok Tiatus (24497) */
+     , (0x7654901C, 0x76549051, '2005-02-09 10:00:00') /* Gotrok Tiatus (24497) */
+     , (0x7654901C, 0x76549052, '2005-02-09 10:00:00') /* Gotrok Tiatus (24497) */
+     , (0x7654901C, 0x7654905A, '2005-02-09 10:00:00') /* Gotrok Tiatus (24497) */
+     , (0x7654901C, 0x7654905B, '2005-02-09 10:00:00') /* Gotrok Tiatus (24497) */
+     , (0x7654901C, 0x7654907A, '2005-02-09 10:00:00') /* Tumerok Champion (23617) */
+     , (0x7654901C, 0x76549089, '2005-02-09 10:00:00') /* Tumerok Champion (23617) */
+     , (0x7654901C, 0x7654908A, '2005-02-09 10:00:00') /* Tumerok Champion (23617) */
+     , (0x7654901C, 0x7654908F, '2005-02-09 10:00:00') /* Tumerok Champion (23617) */
+     , (0x7654901C, 0x76549091, '2005-02-09 10:00:00') /* Tumerok Champion (23617) */
+     , (0x7654901C, 0x76549093, '2005-02-09 10:00:00') /* Tumerok Champion (23617) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7654901D,  7932, 0x6549013A, 78.06, -90, 0.005, 1, 0, 0, 0, False, '2005-02-09 10:00:00'); /* Linkable Monster Generator ( 4 Min.) */
 /* @teleloc 0x6549013A [78.060000 -90.000000 0.005000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7654901D, 0x76549001, '2005-02-09 10:00:00') /* Gotrok Tiatus */
-     , (0x7654901D, 0x76549002, '2005-02-09 10:00:00') /* Gotrok Tiatus */
-     , (0x7654901D, 0x76549013, '2005-02-09 10:00:00') /* Ascendant Tumerok */
-     , (0x7654901D, 0x76549014, '2005-02-09 10:00:00') /* Ascendant Tumerok */
-     , (0x7654901D, 0x76549032, '2005-02-09 10:00:00') /* Ascendant Tumerok */
-     , (0x7654901D, 0x76549034, '2005-02-09 10:00:00') /* Ascendant Tumerok */
-     , (0x7654901D, 0x76549038, '2005-02-09 10:00:00') /* Ascendant Tumerok */
-     , (0x7654901D, 0x7654903B, '2005-02-09 10:00:00') /* Ascendant Tumerok */
-     , (0x7654901D, 0x7654904C, '2005-02-09 10:00:00') /* Gotrok Tiatus */
-     , (0x7654901D, 0x7654904E, '2005-02-09 10:00:00') /* Gotrok Tiatus */
-     , (0x7654901D, 0x76549055, '2005-02-09 10:00:00') /* Gotrok Tiatus */
-     , (0x7654901D, 0x76549056, '2005-02-09 10:00:00') /* Gotrok Tiatus */
-     , (0x7654901D, 0x7654905D, '2005-02-09 10:00:00') /* Gotrok Tiatus */
-     , (0x7654901D, 0x76549061, '2005-02-09 10:00:00') /* Tumerok Champion */
-     , (0x7654901D, 0x76549063, '2005-02-09 10:00:00') /* Tumerok Champion */
-     , (0x7654901D, 0x76549067, '2005-02-09 10:00:00') /* Tumerok Champion */
-     , (0x7654901D, 0x7654906B, '2005-02-09 10:00:00') /* Tumerok Champion */
-     , (0x7654901D, 0x7654906C, '2005-02-09 10:00:00') /* Tumerok Champion */
-     , (0x7654901D, 0x7654906D, '2005-02-09 10:00:00') /* Tumerok Champion */
-     , (0x7654901D, 0x76549070, '2005-02-09 10:00:00') /* Tumerok Champion */
-     , (0x7654901D, 0x76549075, '2005-02-09 10:00:00') /* Tumerok Champion */
-     , (0x7654901D, 0x76549077, '2005-02-09 10:00:00') /* Ascendant Tumerok */
-     , (0x7654901D, 0x76549078, '2005-02-09 10:00:00') /* Gotrok Tiatus */
-     , (0x7654901D, 0x76549079, '2005-02-09 10:00:00') /* Gotrok Tiatus */
-     , (0x7654901D, 0x76549087, '2005-02-09 10:00:00') /* Gotrok Tiatus */;
+VALUES (0x7654901D, 0x76549001, '2005-02-09 10:00:00') /* Gotrok Tiatus (24497) */
+     , (0x7654901D, 0x76549002, '2005-02-09 10:00:00') /* Gotrok Tiatus (24497) */
+     , (0x7654901D, 0x76549013, '2005-02-09 10:00:00') /* Ascendant Tumerok (10806) */
+     , (0x7654901D, 0x76549014, '2005-02-09 10:00:00') /* Ascendant Tumerok (10806) */
+     , (0x7654901D, 0x76549032, '2005-02-09 10:00:00') /* Ascendant Tumerok (10806) */
+     , (0x7654901D, 0x76549034, '2005-02-09 10:00:00') /* Ascendant Tumerok (10806) */
+     , (0x7654901D, 0x76549038, '2005-02-09 10:00:00') /* Ascendant Tumerok (10806) */
+     , (0x7654901D, 0x7654903B, '2005-02-09 10:00:00') /* Ascendant Tumerok (10806) */
+     , (0x7654901D, 0x7654904C, '2005-02-09 10:00:00') /* Gotrok Tiatus (24497) */
+     , (0x7654901D, 0x7654904E, '2005-02-09 10:00:00') /* Gotrok Tiatus (24497) */
+     , (0x7654901D, 0x76549055, '2005-02-09 10:00:00') /* Gotrok Tiatus (24497) */
+     , (0x7654901D, 0x76549056, '2005-02-09 10:00:00') /* Gotrok Tiatus (24497) */
+     , (0x7654901D, 0x7654905D, '2005-02-09 10:00:00') /* Gotrok Tiatus (24497) */
+     , (0x7654901D, 0x76549061, '2005-02-09 10:00:00') /* Tumerok Champion (23617) */
+     , (0x7654901D, 0x76549063, '2005-02-09 10:00:00') /* Tumerok Champion (23617) */
+     , (0x7654901D, 0x76549067, '2005-02-09 10:00:00') /* Tumerok Champion (23617) */
+     , (0x7654901D, 0x7654906B, '2005-02-09 10:00:00') /* Tumerok Champion (23617) */
+     , (0x7654901D, 0x7654906C, '2005-02-09 10:00:00') /* Tumerok Champion (23617) */
+     , (0x7654901D, 0x7654906D, '2005-02-09 10:00:00') /* Tumerok Champion (23617) */
+     , (0x7654901D, 0x76549070, '2005-02-09 10:00:00') /* Tumerok Champion (23617) */
+     , (0x7654901D, 0x76549075, '2005-02-09 10:00:00') /* Tumerok Champion (23617) */
+     , (0x7654901D, 0x76549077, '2005-02-09 10:00:00') /* Ascendant Tumerok (10806) */
+     , (0x7654901D, 0x76549078, '2005-02-09 10:00:00') /* Gotrok Tiatus (24497) */
+     , (0x7654901D, 0x76549079, '2005-02-09 10:00:00') /* Gotrok Tiatus (24497) */
+     , (0x7654901D, 0x76549087, '2005-02-09 10:00:00') /* Gotrok Tiatus (24497) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7654901E,  7932, 0x6549013A, 81.47, -91.2083, 0.005, 1, 0, 0, 0, False, '2005-02-09 10:00:00'); /* Linkable Monster Generator ( 4 Min.) */
 /* @teleloc 0x6549013A [81.470000 -91.208300 0.005000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7654901E, 0x7654900D, '2005-02-09 10:00:00') /* Gotrok Tiatus */
-     , (0x7654901E, 0x76549015, '2005-02-09 10:00:00') /* Gotrok Tiatus */
-     , (0x7654901E, 0x76549016, '2005-02-09 10:00:00') /* Gotrok Tiatus */
-     , (0x7654901E, 0x76549017, '2005-02-09 10:00:00') /* Extas Raider */
-     , (0x7654901E, 0x76549018, '2005-02-09 10:00:00') /* Extas Raider */
-     , (0x7654901E, 0x76549021, '2005-02-09 10:00:00') /* Tumerok Champion */
-     , (0x7654901E, 0x76549022, '2005-02-09 10:00:00') /* Tumerok Champion */
-     , (0x7654901E, 0x76549029, '2005-02-09 10:00:00') /* Tumerok Champion */
-     , (0x7654901E, 0x7654902A, '2005-02-09 10:00:00') /* Tumerok Champion */
-     , (0x7654901E, 0x7654902B, '2005-02-09 10:00:00') /* Tumerok Champion */
-     , (0x7654901E, 0x7654902C, '2005-02-09 10:00:00') /* Gotrok Tiatus */
-     , (0x7654901E, 0x7654902F, '2005-02-09 10:00:00') /* Gotrok Tiatus */
-     , (0x7654901E, 0x76549030, '2005-02-09 10:00:00') /* Gotrok Tiatus */
-     , (0x7654901E, 0x76549031, '2005-02-09 10:00:00') /* Gotrok Tiatus */
-     , (0x7654901E, 0x76549033, '2005-02-09 10:00:00') /* Gotrok Tiatus */
-     , (0x7654901E, 0x76549035, '2005-02-09 10:00:00') /* Gotrok Tiatus */
-     , (0x7654901E, 0x76549036, '2005-02-09 10:00:00') /* Ascendant Tumerok */
-     , (0x7654901E, 0x76549037, '2005-02-09 10:00:00') /* Tumerok Champion */
-     , (0x7654901E, 0x76549039, '2005-02-09 10:00:00') /* Gotrok Tiatus */
-     , (0x7654901E, 0x7654903A, '2005-02-09 10:00:00') /* Gotrok Tiatus */
-     , (0x7654901E, 0x7654903C, '2005-02-09 10:00:00') /* Tumerok Champion */
-     , (0x7654901E, 0x7654903D, '2005-02-09 10:00:00') /* Ascendant Tumerok */
-     , (0x7654901E, 0x76549062, '2005-02-09 10:00:00') /* Tumerok Champion */
-     , (0x7654901E, 0x76549088, '2005-02-09 10:00:00') /* Gotrok Tiatus */
-     , (0x7654901E, 0x76549092, '2005-02-09 10:00:00') /* Gotrok Tiatus */;
+VALUES (0x7654901E, 0x7654900D, '2005-02-09 10:00:00') /* Gotrok Tiatus (24497) */
+     , (0x7654901E, 0x76549015, '2005-02-09 10:00:00') /* Gotrok Tiatus (24497) */
+     , (0x7654901E, 0x76549016, '2005-02-09 10:00:00') /* Gotrok Tiatus (24497) */
+     , (0x7654901E, 0x76549017, '2005-02-09 10:00:00') /* Extas Raider (8138) */
+     , (0x7654901E, 0x76549018, '2005-02-09 10:00:00') /* Extas Raider (8138) */
+     , (0x7654901E, 0x76549021, '2005-02-09 10:00:00') /* Tumerok Champion (23617) */
+     , (0x7654901E, 0x76549022, '2005-02-09 10:00:00') /* Tumerok Champion (23617) */
+     , (0x7654901E, 0x76549029, '2005-02-09 10:00:00') /* Tumerok Champion (23617) */
+     , (0x7654901E, 0x7654902A, '2005-02-09 10:00:00') /* Tumerok Champion (23617) */
+     , (0x7654901E, 0x7654902B, '2005-02-09 10:00:00') /* Tumerok Champion (23617) */
+     , (0x7654901E, 0x7654902C, '2005-02-09 10:00:00') /* Gotrok Tiatus (24497) */
+     , (0x7654901E, 0x7654902F, '2005-02-09 10:00:00') /* Gotrok Tiatus (24497) */
+     , (0x7654901E, 0x76549030, '2005-02-09 10:00:00') /* Gotrok Tiatus (24497) */
+     , (0x7654901E, 0x76549031, '2005-02-09 10:00:00') /* Gotrok Tiatus (24497) */
+     , (0x7654901E, 0x76549033, '2005-02-09 10:00:00') /* Gotrok Tiatus (24497) */
+     , (0x7654901E, 0x76549035, '2005-02-09 10:00:00') /* Gotrok Tiatus (24497) */
+     , (0x7654901E, 0x76549036, '2005-02-09 10:00:00') /* Ascendant Tumerok (10806) */
+     , (0x7654901E, 0x76549037, '2005-02-09 10:00:00') /* Tumerok Champion (23617) */
+     , (0x7654901E, 0x76549039, '2005-02-09 10:00:00') /* Gotrok Tiatus (24497) */
+     , (0x7654901E, 0x7654903A, '2005-02-09 10:00:00') /* Gotrok Tiatus (24497) */
+     , (0x7654901E, 0x7654903C, '2005-02-09 10:00:00') /* Tumerok Champion (23617) */
+     , (0x7654901E, 0x7654903D, '2005-02-09 10:00:00') /* Ascendant Tumerok (10806) */
+     , (0x7654901E, 0x76549062, '2005-02-09 10:00:00') /* Tumerok Champion (23617) */
+     , (0x7654901E, 0x76549088, '2005-02-09 10:00:00') /* Gotrok Tiatus (24497) */
+     , (0x7654901E, 0x76549092, '2005-02-09 10:00:00') /* Gotrok Tiatus (24497) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7654901F,  7932, 0x6549013A, 80.6596, -91.1694, 0.005, 1, 0, 0, 0, False, '2005-02-09 10:00:00'); /* Linkable Monster Generator ( 4 Min.) */
 /* @teleloc 0x6549013A [80.659600 -91.169400 0.005000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7654901F, 0x7654900C, '2005-02-09 10:00:00') /* Gotrok Tiatus */
-     , (0x7654901F, 0x7654903E, '2005-02-09 10:00:00') /* Gotrok Fortress Guard */
-     , (0x7654901F, 0x7654903F, '2005-02-09 10:00:00') /* Gotrok Fortress Guard */
-     , (0x7654901F, 0x76549040, '2005-02-09 10:00:00') /* Gotrok Fortress Guard */
-     , (0x7654901F, 0x76549066, '2005-02-09 10:00:00') /* Gotrok Fortress Guard */
-     , (0x7654901F, 0x76549068, '2005-02-09 10:00:00') /* Gotrok Tiatus */
-     , (0x7654901F, 0x7654906E, '2005-02-09 10:00:00') /* Gotrok Tiatus */
-     , (0x7654901F, 0x7654906F, '2005-02-09 10:00:00') /* Gotrok Tiatus */
-     , (0x7654901F, 0x76549071, '2005-02-09 10:00:00') /* Gotrok Fortress Guard */
-     , (0x7654901F, 0x76549072, '2005-02-09 10:00:00') /* Gotrok Fortress Guard */
-     , (0x7654901F, 0x76549073, '2005-02-09 10:00:00') /* Gotrok Fortress Guard */
-     , (0x7654901F, 0x76549074, '2005-02-09 10:00:00') /* Gotrok Fortress Guard */
-     , (0x7654901F, 0x76549076, '2005-02-09 10:00:00') /* Gotrok Fortress Guard */
-     , (0x7654901F, 0x76549082, '2005-02-09 10:00:00') /* Gotrok Fortress Guard */
-     , (0x7654901F, 0x76549083, '2005-02-09 10:00:00') /* Gotrok Fortress Guard */
-     , (0x7654901F, 0x76549084, '2005-02-09 10:00:00') /* Gotrok Fortress Guard */
-     , (0x7654901F, 0x76549085, '2005-02-09 10:00:00') /* Gotrok Fortress Guard */
-     , (0x7654901F, 0x76549086, '2005-02-09 10:00:00') /* Gotrok Fortress Guard */
-     , (0x7654901F, 0x7654908D, '2005-02-09 10:00:00') /* Ollar, Renegade Captain */;
+VALUES (0x7654901F, 0x7654900C, '2005-02-09 10:00:00') /* Gotrok Tiatus (24497) */
+     , (0x7654901F, 0x7654903E, '2005-02-09 10:00:00') /* Gotrok Fortress Guard (27460) */
+     , (0x7654901F, 0x7654903F, '2005-02-09 10:00:00') /* Gotrok Fortress Guard (27460) */
+     , (0x7654901F, 0x76549040, '2005-02-09 10:00:00') /* Gotrok Fortress Guard (27460) */
+     , (0x7654901F, 0x76549066, '2005-02-09 10:00:00') /* Gotrok Fortress Guard (27460) */
+     , (0x7654901F, 0x76549068, '2005-02-09 10:00:00') /* Gotrok Tiatus (24497) */
+     , (0x7654901F, 0x7654906E, '2005-02-09 10:00:00') /* Gotrok Tiatus (24497) */
+     , (0x7654901F, 0x7654906F, '2005-02-09 10:00:00') /* Gotrok Tiatus (24497) */
+     , (0x7654901F, 0x76549071, '2005-02-09 10:00:00') /* Gotrok Fortress Guard (27460) */
+     , (0x7654901F, 0x76549072, '2005-02-09 10:00:00') /* Gotrok Fortress Guard (27460) */
+     , (0x7654901F, 0x76549073, '2005-02-09 10:00:00') /* Gotrok Fortress Guard (27460) */
+     , (0x7654901F, 0x76549074, '2005-02-09 10:00:00') /* Gotrok Fortress Guard (27460) */
+     , (0x7654901F, 0x76549076, '2005-02-09 10:00:00') /* Gotrok Fortress Guard (27460) */
+     , (0x7654901F, 0x76549082, '2005-02-09 10:00:00') /* Gotrok Fortress Guard (27460) */
+     , (0x7654901F, 0x76549083, '2005-02-09 10:00:00') /* Gotrok Fortress Guard (27460) */
+     , (0x7654901F, 0x76549084, '2005-02-09 10:00:00') /* Gotrok Fortress Guard (27460) */
+     , (0x7654901F, 0x76549085, '2005-02-09 10:00:00') /* Gotrok Fortress Guard (27460) */
+     , (0x7654901F, 0x76549086, '2005-02-09 10:00:00') /* Gotrok Fortress Guard (27460) */
+     , (0x7654901F, 0x7654908D, '2005-02-09 10:00:00') /* Ollar, Renegade Captain (27666) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x76549021, 23617, 0x65490143, 103.6, -12.3128, 0.0065, 0.534162, 0, 0, 0.845382,  True, '2005-02-09 10:00:00'); /* Tumerok Champion */

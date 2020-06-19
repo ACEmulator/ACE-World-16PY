@@ -1,5 +1,4 @@
-DELETE FROM `encounter` WHERE `landblock` = 50573;
+DELETE FROM `encounter` WHERE `landblock` = 0xC58D;
 
 INSERT INTO `encounter` (`landblock`, `weenie_Class_Id`, `cell_X`, `cell_Y`, `last_Modified`)
-VALUES (50573, 5150, 5, 1, '2005-02-09 10:00:00') /* Harmless Aluvian Generator */
-     , (50573, 23176, 8, 5, '2005-02-09 10:00:00') /* Aluvian Newbie Plains Mix Generator */;
+VALUES (0xC58D, 5150, 5, 1, '2005-02-09 10:00:00') /* Harmless Aluvian Generator */;

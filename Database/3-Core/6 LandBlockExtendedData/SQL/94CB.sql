@@ -21,6 +21,6 @@ VALUES (0x794CB004,  1154, 0x94CB0000, 46.6238, 2.3637, 162.17, -0.967923, 0, 0,
 /* @teleloc 0x94CB0000 [46.623800 2.363700 162.170000] -0.967923 0.000000 0.000000 0.251248 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x794CB004, 0x794CB001, '2005-02-09 10:00:00') /* Limestone Golem */
-     , (0x794CB004, 0x794CB002, '2005-02-09 10:00:00') /* Limestone Golem */
-     , (0x794CB004, 0x794CB003, '2005-02-09 10:00:00') /* Limestone Golem */;
+VALUES (0x794CB004, 0x794CB001, '2005-02-09 10:00:00') /* Limestone Golem (198) */
+     , (0x794CB004, 0x794CB002, '2005-02-09 10:00:00') /* Limestone Golem (198) */
+     , (0x794CB004, 0x794CB003, '2005-02-09 10:00:00') /* Limestone Golem (198) */;

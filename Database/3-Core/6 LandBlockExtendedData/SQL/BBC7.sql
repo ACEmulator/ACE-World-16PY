@@ -9,11 +9,11 @@ VALUES (0x7BBC7009,  7924, 0xBBC70000, 180.234, 120.857, 60.005, 0.753622, 0, 0,
 /* @teleloc 0xBBC70000 [180.234000 120.857000 60.005000] 0.753622 0.000000 0.000000 0.657308 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BBC7009, 0x7BBC7008, '2005-02-09 10:00:00') /* Asheron's Platinum Golem */
-     , (0x7BBC7009, 0x7BBC700A, '2005-02-09 10:00:00') /* Ornate Pillar */
-     , (0x7BBC7009, 0x7BBC700B, '2005-02-09 10:00:00') /* Ornate Pillar */
-     , (0x7BBC7009, 0x7BBC700C, '2005-02-09 10:00:00') /* Ornate Pillar */
-     , (0x7BBC7009, 0x7BBC700D, '2005-02-09 10:00:00') /* Ornate Pillar */;
+VALUES (0x7BBC7009, 0x7BBC7008, '2005-02-09 10:00:00') /* Asheron's Platinum Golem (21489) */
+     , (0x7BBC7009, 0x7BBC700A, '2005-02-09 10:00:00') /* Ornate Pillar (21493) */
+     , (0x7BBC7009, 0x7BBC700B, '2005-02-09 10:00:00') /* Ornate Pillar (21493) */
+     , (0x7BBC7009, 0x7BBC700C, '2005-02-09 10:00:00') /* Ornate Pillar (21493) */
+     , (0x7BBC7009, 0x7BBC700D, '2005-02-09 10:00:00') /* Ornate Pillar (21493) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BBC700A, 21493, 0xBBC70000, 77.8543, 89.3185, 71.005, 0.950514, 0, 0, 0.31068,  True, '2005-02-09 10:00:00'); /* Ornate Pillar */

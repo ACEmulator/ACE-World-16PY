@@ -5,7 +5,7 @@ VALUES (0x70277000,  4219, 0x02770129, 30.3478, -40, 0.005, 1, 0, 0, 0, False, '
 /* @teleloc 0x02770129 [30.347800 -40.000000 0.005000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x70277000, 0x70277001, '2005-02-09 10:00:00') /* Coglock */;
+VALUES (0x70277000, 0x70277001, '2005-02-09 10:00:00') /* Coglock (28381) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x70277001, 28381, 0x02770129, 30, -40, 0.044864, 0, 0, 0, -1,  True, '2005-02-09 10:00:00'); /* Coglock */
@@ -20,23 +20,23 @@ VALUES (0x70277003,  4219, 0x02770180, 110, -40, 0.005, 1, 0, 0, 0, False, '2005
 /* @teleloc 0x02770180 [110.000000 -40.000000 0.005000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x70277003, 0x70277002, '2005-02-09 10:00:00') /* Glogluuk */;
+VALUES (0x70277003, 0x70277002, '2005-02-09 10:00:00') /* Glogluuk (28382) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x70277004,  7924, 0x02770185, 105.53, -94.5153, 0.005, 1, 0, 0, -4.37114E-08, False, '2005-02-09 10:00:00'); /* Linkable Monster Generator ( 5 Min.) */
 /* @teleloc 0x02770185 [105.530000 -94.515300 0.005000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x70277004, 0x70277008, '2005-02-09 10:00:00') /* Guardian of the Crypt */
-     , (0x70277004, 0x70277009, '2005-02-09 10:00:00') /* Guardian of the Crypt */
-     , (0x70277004, 0x7027700A, '2005-02-09 10:00:00') /* Guardian of the Crypt */;
+VALUES (0x70277004, 0x70277008, '2005-02-09 10:00:00') /* Guardian of the Crypt (28427) */
+     , (0x70277004, 0x70277009, '2005-02-09 10:00:00') /* Guardian of the Crypt (28427) */
+     , (0x70277004, 0x7027700A, '2005-02-09 10:00:00') /* Guardian of the Crypt (28427) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x70277006,  4219, 0x027701D7, 190, -40, 0.005, 1, 0, 0, 0, False, '2005-02-09 10:00:00'); /* Linkable Monster Generator ( 7 Min.) */
 /* @teleloc 0x027701D7 [190.000000 -40.000000 0.005000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x70277006, 0x70277007, '2005-02-09 10:00:00') /* Plocagruuk */;
+VALUES (0x70277006, 0x70277007, '2005-02-09 10:00:00') /* Plocagruuk (28384) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x70277007, 28384, 0x027701D7, 190, -40, 0.044864, 0, 0, 0, -1,  True, '2005-02-09 10:00:00'); /* Plocagruuk */

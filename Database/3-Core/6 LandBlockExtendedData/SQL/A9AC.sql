@@ -25,7 +25,7 @@ VALUES (0x7A9AC007,  3951, 0xA9AC0105, 35.0556, 16.3168, 78.005, 0.704387, 0, 0,
 /* @teleloc 0xA9AC0105 [35.055600 16.316800 78.005000] 0.704387 0.000000 0.000000 0.709816 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A9AC007, 0x7A9AC008, '2005-02-09 10:00:00') /* Eldrista the Adventurer */;
+VALUES (0x7A9AC007, 0x7A9AC008, '2005-02-09 10:00:00') /* Eldrista the Adventurer (22818) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A9AC008, 22818, 0xA9AC0105, 37.0194, 14.6406, 78.005, -0.130067, 0, 0, -0.991505,  True, '2005-02-09 10:00:00'); /* Eldrista the Adventurer */

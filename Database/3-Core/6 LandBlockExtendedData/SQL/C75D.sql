@@ -45,7 +45,7 @@ VALUES (0x7C75D00A,  1154, 0xC75D0000, 110.196, 105.122, 21.205, -0.900668, 0, 0
 /* @teleloc 0xC75D0000 [110.196000 105.122000 21.205000] -0.900668 0.000000 0.000000 -0.434507 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C75D00A, 0x7C75D009, '2005-02-09 10:00:00') /* Mosswart Shaman */;
+VALUES (0x7C75D00A, 0x7C75D009, '2005-02-09 10:00:00') /* Mosswart Shaman (1619) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C75D00B,   962, 0xC75D0000, 112.212, 112.141, 21.205, -0.99715, 0, 0, 0.0754376, False, '2005-02-09 10:00:00'); /* Mosswart Feeder Generator */

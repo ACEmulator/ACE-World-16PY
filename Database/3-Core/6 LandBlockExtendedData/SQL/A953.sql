@@ -5,34 +5,34 @@ VALUES (0x7A953000,  7923, 0xA9530000, 91.6526, 97.3899, 118.005, 0.677407, 0, 0
 /* @teleloc 0xA9530000 [91.652600 97.389900 118.005000] 0.677407 0.000000 0.000000 -0.735608 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A953000, 0x7A953001, '2005-02-09 10:00:00') /* Lich Lord */
-     , (0x7A953000, 0x7A953002, '2005-02-09 10:00:00') /* Lich Lord */
-     , (0x7A953000, 0x7A953003, '2005-02-09 10:00:00') /* Warlock of the Blood */
-     , (0x7A953000, 0x7A953004, '2005-02-09 10:00:00') /* Warlock of the Blood */
-     , (0x7A953000, 0x7A953005, '2005-02-09 10:00:00') /* Warlock of the Blood */
-     , (0x7A953000, 0x7A953006, '2005-02-09 10:00:00') /* Warlock of the Blood */
-     , (0x7A953000, 0x7A953007, '2005-02-09 10:00:00') /* Champion of the Blood */
-     , (0x7A953000, 0x7A953008, '2005-02-09 10:00:00') /* Champion of the Blood */
-     , (0x7A953000, 0x7A953009, '2005-02-09 10:00:00') /* Champion of the Blood */
-     , (0x7A953000, 0x7A95300A, '2005-02-09 10:00:00') /* Champion of the Blood */
-     , (0x7A953000, 0x7A95300B, '2005-02-09 10:00:00') /* Champion of the Blood */
-     , (0x7A953000, 0x7A95300C, '2005-02-09 10:00:00') /* Champion of the Blood */
-     , (0x7A953000, 0x7A95300D, '2005-02-09 10:00:00') /* Warlock of the Blood */
-     , (0x7A953000, 0x7A95300E, '2005-02-09 10:00:00') /* Warlock of the Blood */
-     , (0x7A953000, 0x7A95300F, '2005-02-09 10:00:00') /* Champion of the Blood */
-     , (0x7A953000, 0x7A953010, '2005-02-09 10:00:00') /* Champion of the Blood */
-     , (0x7A953000, 0x7A953011, '2005-02-09 10:00:00') /* Champion of the Blood */
-     , (0x7A953000, 0x7A953012, '2005-02-09 10:00:00') /* Warlock of the Blood */
-     , (0x7A953000, 0x7A953013, '2005-02-09 10:00:00') /* Warlock of the Blood */
-     , (0x7A953000, 0x7A953014, '2005-02-09 10:00:00') /* Warlock of the Blood */
-     , (0x7A953000, 0x7A953015, '2005-02-09 10:00:00') /* Warlock of the Blood */
-     , (0x7A953000, 0x7A953016, '2005-02-09 10:00:00') /* Champion of the Blood */
-     , (0x7A953000, 0x7A953017, '2005-02-09 10:00:00') /* Champion of the Blood */
-     , (0x7A953000, 0x7A953018, '2005-02-09 10:00:00') /* Champion of the Blood */
-     , (0x7A953000, 0x7A953019, '2005-02-09 10:00:00') /* Warlock of the Blood */
-     , (0x7A953000, 0x7A95301A, '2005-02-09 10:00:00') /* Warlock of the Blood */
-     , (0x7A953000, 0x7A95301B, '2005-02-09 10:00:00') /* Warlock of the Blood */
-     , (0x7A953000, 0x7A95301C, '2005-02-09 10:00:00') /* Champion of the Blood */;
+VALUES (0x7A953000, 0x7A953001, '2005-02-09 10:00:00') /* Lich Lord (7423) */
+     , (0x7A953000, 0x7A953002, '2005-02-09 10:00:00') /* Lich Lord (7423) */
+     , (0x7A953000, 0x7A953003, '2005-02-09 10:00:00') /* Warlock of the Blood (20633) */
+     , (0x7A953000, 0x7A953004, '2005-02-09 10:00:00') /* Warlock of the Blood (20633) */
+     , (0x7A953000, 0x7A953005, '2005-02-09 10:00:00') /* Warlock of the Blood (20633) */
+     , (0x7A953000, 0x7A953006, '2005-02-09 10:00:00') /* Warlock of the Blood (20633) */
+     , (0x7A953000, 0x7A953007, '2005-02-09 10:00:00') /* Champion of the Blood (20632) */
+     , (0x7A953000, 0x7A953008, '2005-02-09 10:00:00') /* Champion of the Blood (20632) */
+     , (0x7A953000, 0x7A953009, '2005-02-09 10:00:00') /* Champion of the Blood (20632) */
+     , (0x7A953000, 0x7A95300A, '2005-02-09 10:00:00') /* Champion of the Blood (20632) */
+     , (0x7A953000, 0x7A95300B, '2005-02-09 10:00:00') /* Champion of the Blood (20632) */
+     , (0x7A953000, 0x7A95300C, '2005-02-09 10:00:00') /* Champion of the Blood (20632) */
+     , (0x7A953000, 0x7A95300D, '2005-02-09 10:00:00') /* Warlock of the Blood (20633) */
+     , (0x7A953000, 0x7A95300E, '2005-02-09 10:00:00') /* Warlock of the Blood (20633) */
+     , (0x7A953000, 0x7A95300F, '2005-02-09 10:00:00') /* Champion of the Blood (20632) */
+     , (0x7A953000, 0x7A953010, '2005-02-09 10:00:00') /* Champion of the Blood (20632) */
+     , (0x7A953000, 0x7A953011, '2005-02-09 10:00:00') /* Champion of the Blood (20632) */
+     , (0x7A953000, 0x7A953012, '2005-02-09 10:00:00') /* Warlock of the Blood (20633) */
+     , (0x7A953000, 0x7A953013, '2005-02-09 10:00:00') /* Warlock of the Blood (20633) */
+     , (0x7A953000, 0x7A953014, '2005-02-09 10:00:00') /* Warlock of the Blood (20633) */
+     , (0x7A953000, 0x7A953015, '2005-02-09 10:00:00') /* Warlock of the Blood (20633) */
+     , (0x7A953000, 0x7A953016, '2005-02-09 10:00:00') /* Champion of the Blood (20632) */
+     , (0x7A953000, 0x7A953017, '2005-02-09 10:00:00') /* Champion of the Blood (20632) */
+     , (0x7A953000, 0x7A953018, '2005-02-09 10:00:00') /* Champion of the Blood (20632) */
+     , (0x7A953000, 0x7A953019, '2005-02-09 10:00:00') /* Warlock of the Blood (20633) */
+     , (0x7A953000, 0x7A95301A, '2005-02-09 10:00:00') /* Warlock of the Blood (20633) */
+     , (0x7A953000, 0x7A95301B, '2005-02-09 10:00:00') /* Warlock of the Blood (20633) */
+     , (0x7A953000, 0x7A95301C, '2005-02-09 10:00:00') /* Champion of the Blood (20632) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A953001,  7423, 0xA9530000, 54.07, 142.05, 108.17, -0.769809, 0, 0, 0.638274,  True, '2005-02-09 10:00:00'); /* Lich Lord */
@@ -171,14 +171,14 @@ VALUES (0x7A953022, 15759, 0xA9530000, 83.7095, 109.934, 147.936, 0.0250212, 0, 
 /* @teleloc 0xA9530000 [83.709500 109.934000 147.936000] 0.025021 0.000000 0.000000 -0.999687 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A953022, 0x7A953021, '2005-02-09 10:00:00') /* A Note from Tamian Wilmot */;
+VALUES (0x7A953022, 0x7A953021, '2005-02-09 10:00:00') /* A Note from Tamian Wilmot (23517) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A953023,  7923, 0xA9530100, 83.5521, 105.081, 119.51, -0.923737, 0, 0, 0.383027, False, '2005-02-09 10:00:00'); /* Linkable Monster Generator ( 3 Min.) */
 /* @teleloc 0xA9530100 [83.552100 105.081000 119.510000] -0.923737 0.000000 0.000000 0.383027 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A953023, 0x7A953024, '2005-02-09 10:00:00') /* Spear of the Given Heart */;
+VALUES (0x7A953023, 0x7A953024, '2005-02-09 10:00:00') /* Spear of the Given Heart (23511) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A953024, 23511, 0xA9530100, 85.0429, 107.848, 119.51, 0.707107, 0, 0, -0.707107,  True, '2005-02-09 10:00:00'); /* Spear of the Given Heart */

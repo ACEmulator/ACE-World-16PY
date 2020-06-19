@@ -5,9 +5,9 @@ VALUES (0x7424B003,  7923, 0x424B0000, 84.159, 90.346, 0.005, 0.15546, 0, 0, 0.9
 /* @teleloc 0x424B0000 [84.159000 90.346000 0.005000] 0.155460 0.000000 0.000000 0.987842 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7424B003, 0x7424B004, '2005-02-09 10:00:00') /* Shadow Phantom */
-     , (0x7424B003, 0x7424B005, '2005-02-09 10:00:00') /* Shadow Phantom */
-     , (0x7424B003, 0x7424B006, '2005-02-09 10:00:00') /* Shadow Phantom */;
+VALUES (0x7424B003, 0x7424B004, '2005-02-09 10:00:00') /* Shadow Phantom (23089) */
+     , (0x7424B003, 0x7424B005, '2005-02-09 10:00:00') /* Shadow Phantom (23089) */
+     , (0x7424B003, 0x7424B006, '2005-02-09 10:00:00') /* Shadow Phantom (23089) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7424B004, 23089, 0x424B0101, 84.0889, 85.7377, 0.405, -0.99994, 0, 0, -0.0109966,  True, '2005-02-09 10:00:00'); /* Shadow Phantom */

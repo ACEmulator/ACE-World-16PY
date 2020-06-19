@@ -17,6 +17,6 @@ VALUES (0x7A360003,  3953, 0xA3600100, 61.1315, 178.797, 17.705, -0.346289, 0, 0
 /* @teleloc 0xA3600100 [61.131500 178.797000 17.705000] -0.346289 0.000000 0.000000 0.938128 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A360003, 0x7A360000, '2005-02-09 10:00:00') /* Gersan the Sureshot */
-     , (0x7A360003, 0x7A360001, '2005-02-09 10:00:00') /* Gerloc the Defender */
-     , (0x7A360003, 0x7A360002, '2005-02-09 10:00:00') /* Gervena the Oblique */;
+VALUES (0x7A360003, 0x7A360000, '2005-02-09 10:00:00') /* Gersan the Sureshot (8124) */
+     , (0x7A360003, 0x7A360001, '2005-02-09 10:00:00') /* Gerloc the Defender (8126) */
+     , (0x7A360003, 0x7A360002, '2005-02-09 10:00:00') /* Gervena the Oblique (8125) */;

@@ -73,7 +73,7 @@ VALUES (0x7B8EB012,  1542, 0xB8EB0000, 119.167, 141.825, 12.005, 0.0882256, 0, 0
 /* @teleloc 0xB8EB0000 [119.167000 141.825000 12.005000] 0.088226 0.000000 0.000000 0.996100 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B8EB012, 0x7B8EB009, '2005-02-09 10:00:00') /* Charred Book */;
+VALUES (0x7B8EB012, 0x7B8EB009, '2005-02-09 10:00:00') /* Charred Book (7382) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B8EB013,  7505, 0xB8EB0103, 83.7368, 78.8158, 28.005, 0.288023, 0, 0, -0.957623, False, '2005-02-09 10:00:00'); /* Statue */
@@ -172,39 +172,39 @@ VALUES (0x7B8EB02A,  7924, 0xB8EB0000, 140.095, 71.3091, 12.005, -0.991783, 0, 0
 /* @teleloc 0xB8EB0000 [140.095000 71.309100 12.005000] -0.991783 0.000000 0.000000 -0.127931 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B8EB02A, 0x7B8EB000, '2005-02-09 10:00:00') /* Smith Ejan */
-     , (0x7B8EB02A, 0x7B8EB018, '2005-02-09 10:00:00') /* Cursed Bones */
-     , (0x7B8EB02A, 0x7B8EB019, '2005-02-09 10:00:00') /* Cursed Bones */
-     , (0x7B8EB02A, 0x7B8EB01A, '2005-02-09 10:00:00') /* Cursed Bones */
-     , (0x7B8EB02A, 0x7B8EB01B, '2005-02-09 10:00:00') /* Cursed Bones */
-     , (0x7B8EB02A, 0x7B8EB01C, '2005-02-09 10:00:00') /* Cursed Bones */
-     , (0x7B8EB02A, 0x7B8EB01D, '2005-02-09 10:00:00') /* Cursed Bones */
-     , (0x7B8EB02A, 0x7B8EB01E, '2005-02-09 10:00:00') /* Cursed Bones */
-     , (0x7B8EB02A, 0x7B8EB01F, '2005-02-09 10:00:00') /* Cursed Bones */
-     , (0x7B8EB02A, 0x7B8EB020, '2005-02-09 10:00:00') /* Cursed Bones */
-     , (0x7B8EB02A, 0x7B8EB021, '2005-02-09 10:00:00') /* Cursed Bones */
-     , (0x7B8EB02A, 0x7B8EB022, '2005-02-09 10:00:00') /* Cursed Bones */
-     , (0x7B8EB02A, 0x7B8EB023, '2005-02-09 10:00:00') /* Diamond Golem */
-     , (0x7B8EB02A, 0x7B8EB024, '2005-02-09 10:00:00') /* Diamond Golem */
-     , (0x7B8EB02A, 0x7B8EB025, '2005-02-09 10:00:00') /* Diamond Golem */
-     , (0x7B8EB02A, 0x7B8EB026, '2005-02-09 10:00:00') /* Coral Golem */
-     , (0x7B8EB02A, 0x7B8EB027, '2005-02-09 10:00:00') /* Coral Golem */
-     , (0x7B8EB02A, 0x7B8EB028, '2005-02-09 10:00:00') /* Coral Golem */
-     , (0x7B8EB02A, 0x7B8EB02B, '2005-02-09 10:00:00') /* Coral Golem */
-     , (0x7B8EB02A, 0x7B8EB030, '2005-02-09 10:00:00') /* Relic Bones */
-     , (0x7B8EB02A, 0x7B8EB031, '2005-02-09 10:00:00') /* Relic Bones */
-     , (0x7B8EB02A, 0x7B8EB032, '2005-02-09 10:00:00') /* Relic Bones */
-     , (0x7B8EB02A, 0x7B8EB033, '2005-02-09 10:00:00') /* Relic Bones */
-     , (0x7B8EB02A, 0x7B8EB034, '2005-02-09 10:00:00') /* Relic Bones */
-     , (0x7B8EB02A, 0x7B8EB035, '2005-02-09 10:00:00') /* Relic Bones */
-     , (0x7B8EB02A, 0x7B8EB036, '2005-02-09 10:00:00') /* Cursed Bones */
-     , (0x7B8EB02A, 0x7B8EB037, '2005-02-09 10:00:00') /* Cursed Bones */
-     , (0x7B8EB02A, 0x7B8EB038, '2005-02-09 10:00:00') /* Cursed Bones */
-     , (0x7B8EB02A, 0x7B8EB039, '2005-02-09 10:00:00') /* Diamond Golem */
-     , (0x7B8EB02A, 0x7B8EB03A, '2005-02-09 10:00:00') /* Diamond Golem */
-     , (0x7B8EB02A, 0x7B8EB03B, '2005-02-09 10:00:00') /* Diamond Golem */
-     , (0x7B8EB02A, 0x7B8EB03C, '2005-02-09 10:00:00') /* Fire Wisp */
-     , (0x7B8EB02A, 0x7B8EB03D, '2005-02-09 10:00:00') /* Fire Wisp */;
+VALUES (0x7B8EB02A, 0x7B8EB000, '2005-02-09 10:00:00') /* Smith Ejan (7401) */
+     , (0x7B8EB02A, 0x7B8EB018, '2005-02-09 10:00:00') /* Cursed Bones (7178) */
+     , (0x7B8EB02A, 0x7B8EB019, '2005-02-09 10:00:00') /* Cursed Bones (7178) */
+     , (0x7B8EB02A, 0x7B8EB01A, '2005-02-09 10:00:00') /* Cursed Bones (7178) */
+     , (0x7B8EB02A, 0x7B8EB01B, '2005-02-09 10:00:00') /* Cursed Bones (7178) */
+     , (0x7B8EB02A, 0x7B8EB01C, '2005-02-09 10:00:00') /* Cursed Bones (7178) */
+     , (0x7B8EB02A, 0x7B8EB01D, '2005-02-09 10:00:00') /* Cursed Bones (7178) */
+     , (0x7B8EB02A, 0x7B8EB01E, '2005-02-09 10:00:00') /* Cursed Bones (7178) */
+     , (0x7B8EB02A, 0x7B8EB01F, '2005-02-09 10:00:00') /* Cursed Bones (7178) */
+     , (0x7B8EB02A, 0x7B8EB020, '2005-02-09 10:00:00') /* Cursed Bones (7178) */
+     , (0x7B8EB02A, 0x7B8EB021, '2005-02-09 10:00:00') /* Cursed Bones (7178) */
+     , (0x7B8EB02A, 0x7B8EB022, '2005-02-09 10:00:00') /* Cursed Bones (7178) */
+     , (0x7B8EB02A, 0x7B8EB023, '2005-02-09 10:00:00') /* Diamond Golem (4216) */
+     , (0x7B8EB02A, 0x7B8EB024, '2005-02-09 10:00:00') /* Diamond Golem (4216) */
+     , (0x7B8EB02A, 0x7B8EB025, '2005-02-09 10:00:00') /* Diamond Golem (4216) */
+     , (0x7B8EB02A, 0x7B8EB026, '2005-02-09 10:00:00') /* Coral Golem (7507) */
+     , (0x7B8EB02A, 0x7B8EB027, '2005-02-09 10:00:00') /* Coral Golem (7626) */
+     , (0x7B8EB02A, 0x7B8EB028, '2005-02-09 10:00:00') /* Coral Golem (7507) */
+     , (0x7B8EB02A, 0x7B8EB02B, '2005-02-09 10:00:00') /* Coral Golem (7626) */
+     , (0x7B8EB02A, 0x7B8EB030, '2005-02-09 10:00:00') /* Relic Bones (7179) */
+     , (0x7B8EB02A, 0x7B8EB031, '2005-02-09 10:00:00') /* Relic Bones (7179) */
+     , (0x7B8EB02A, 0x7B8EB032, '2005-02-09 10:00:00') /* Relic Bones (7179) */
+     , (0x7B8EB02A, 0x7B8EB033, '2005-02-09 10:00:00') /* Relic Bones (7179) */
+     , (0x7B8EB02A, 0x7B8EB034, '2005-02-09 10:00:00') /* Relic Bones (7179) */
+     , (0x7B8EB02A, 0x7B8EB035, '2005-02-09 10:00:00') /* Relic Bones (7179) */
+     , (0x7B8EB02A, 0x7B8EB036, '2005-02-09 10:00:00') /* Cursed Bones (7178) */
+     , (0x7B8EB02A, 0x7B8EB037, '2005-02-09 10:00:00') /* Cursed Bones (7178) */
+     , (0x7B8EB02A, 0x7B8EB038, '2005-02-09 10:00:00') /* Cursed Bones (7178) */
+     , (0x7B8EB02A, 0x7B8EB039, '2005-02-09 10:00:00') /* Diamond Golem (4216) */
+     , (0x7B8EB02A, 0x7B8EB03A, '2005-02-09 10:00:00') /* Diamond Golem (4216) */
+     , (0x7B8EB02A, 0x7B8EB03B, '2005-02-09 10:00:00') /* Diamond Golem (4216) */
+     , (0x7B8EB02A, 0x7B8EB03C, '2005-02-09 10:00:00') /* Fire Wisp (5748) */
+     , (0x7B8EB02A, 0x7B8EB03D, '2005-02-09 10:00:00') /* Fire Wisp (5748) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B8EB02B,  7626, 0xB8EB0000, 177.109, 178.794, -0.09, -0.754659, 0, 0, 0.656117,  True, '2005-02-09 10:00:00'); /* Coral Golem */

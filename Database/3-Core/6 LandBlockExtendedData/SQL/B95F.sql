@@ -29,18 +29,18 @@ VALUES (0x7B95F01E,  7925, 0xB95F0000, 30.0169, 42.4576, 6.005, 0.847184, 0, 0, 
 /* @teleloc 0xB95F0000 [30.016900 42.457600 6.005000] 0.847184 0.000000 0.000000 -0.531300 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B95F01E, 0x7B95F01B, '2005-02-09 10:00:00') /* Burun Ruuk Scamp */
-     , (0x7B95F01E, 0x7B95F01C, '2005-02-09 10:00:00') /* Burun Ruuk Scamp */
-     , (0x7B95F01E, 0x7B95F01D, '2005-02-09 10:00:00') /* Burun Ruuk Scamp */;
+VALUES (0x7B95F01E, 0x7B95F01B, '2005-02-09 10:00:00') /* Burun Ruuk Scamp (26018) */
+     , (0x7B95F01E, 0x7B95F01C, '2005-02-09 10:00:00') /* Burun Ruuk Scamp (26018) */
+     , (0x7B95F01E, 0x7B95F01D, '2005-02-09 10:00:00') /* Burun Ruuk Scamp (26018) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B95F023, 15759, 0xB95F0000, 60.4296, 94.1743, 6.005, -0.999987, 0, 0, -0.00518702, False, '2005-02-09 10:00:00'); /* Linkable Item Generator */
 /* @teleloc 0xB95F0000 [60.429600 94.174300 6.005000] -0.999987 0.000000 0.000000 -0.005187 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B95F023, 0x7B95F014, '2005-02-09 10:00:00') /* A Missive */
-     , (0x7B95F023, 0x7B95F015, '2005-02-09 10:00:00') /* A Missive */
-     , (0x7B95F023, 0x7B95F016, '2005-02-09 10:00:00') /* Blueprints for a Burun Fortress */;
+VALUES (0x7B95F023, 0x7B95F014, '2005-02-09 10:00:00') /* A Missive (28105) */
+     , (0x7B95F023, 0x7B95F015, '2005-02-09 10:00:00') /* A Missive (28106) */
+     , (0x7B95F023, 0x7B95F016, '2005-02-09 10:00:00') /* Blueprints for a Burun Fortress (28073) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B95F024, 27978, 0xB95F0000, 56.2384, 87.5961, 6.005, 0.0589436, 0, 0, -0.998261,  True, '2005-02-09 10:00:00'); /* Guruk Basher */
@@ -151,7 +151,7 @@ VALUES (0x7B95F03F,  7923, 0xB95F0000, 60.6868, 71.3063, 6.005, -0.0635993, 0, 0
 /* @teleloc 0xB95F0000 [60.686800 71.306300 6.005000] -0.063599 0.000000 0.000000 0.997976 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B95F03F, 0x7B95F03E, '2005-02-09 10:00:00') /* Fortress Barrier */;
+VALUES (0x7B95F03F, 0x7B95F03E, '2005-02-09 10:00:00') /* Fortress Barrier (28449) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B95F040, 26019, 0xB95F0000, 80.4505, 59.6937, 22.5385, -0.0136418, 0, 0, 0.999907,  True, '2005-02-09 10:00:00'); /* Burun Ruuk Seer */
@@ -238,47 +238,47 @@ VALUES (0x7B95F054,  4219, 0xB95F0000, 61.0124, 92.4646, 6.005, 0.675164, 0, 0, 
 /* @teleloc 0xB95F0000 [61.012400 92.464600 6.005000] 0.675164 0.000000 0.000000 0.737668 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B95F054, 0x7B95F024, '2005-02-09 10:00:00') /* Guruk Basher */
-     , (0x7B95F054, 0x7B95F025, '2005-02-09 10:00:00') /* Burun Ruuk Seer */
-     , (0x7B95F054, 0x7B95F026, '2005-02-09 10:00:00') /* Guruk Basher */
-     , (0x7B95F054, 0x7B95F027, '2005-02-09 10:00:00') /* Guruk Basher */
-     , (0x7B95F054, 0x7B95F028, '2005-02-09 10:00:00') /* Burun Ruuk Seer */
-     , (0x7B95F054, 0x7B95F029, '2005-02-09 10:00:00') /* Burun Ruuk Seer */
-     , (0x7B95F054, 0x7B95F02A, '2005-02-09 10:00:00') /* Burun Ruuk Seer */
-     , (0x7B95F054, 0x7B95F02B, '2005-02-09 10:00:00') /* Burun Ruuk Lout */
-     , (0x7B95F054, 0x7B95F02C, '2005-02-09 10:00:00') /* Burun Ruuk Seer */
-     , (0x7B95F054, 0x7B95F02D, '2005-02-09 10:00:00') /* Burun Ruuk Seer */
-     , (0x7B95F054, 0x7B95F033, '2005-02-09 10:00:00') /* Burun Ruuk Lout */
-     , (0x7B95F054, 0x7B95F034, '2005-02-09 10:00:00') /* Burun Ruuk Lout */
-     , (0x7B95F054, 0x7B95F035, '2005-02-09 10:00:00') /* Burun Ruuk Lout */
-     , (0x7B95F054, 0x7B95F036, '2005-02-09 10:00:00') /* Burun Ruuk Lout */
-     , (0x7B95F054, 0x7B95F037, '2005-02-09 10:00:00') /* Burun Ruuk Seer */
-     , (0x7B95F054, 0x7B95F038, '2005-02-09 10:00:00') /* Burun Ruuk Lout */
-     , (0x7B95F054, 0x7B95F039, '2005-02-09 10:00:00') /* Guruk Boor */
-     , (0x7B95F054, 0x7B95F03A, '2005-02-09 10:00:00') /* Guruk Boor */
-     , (0x7B95F054, 0x7B95F03B, '2005-02-09 10:00:00') /* Guruk Boor */
-     , (0x7B95F054, 0x7B95F03C, '2005-02-09 10:00:00') /* Guruk Boor */
-     , (0x7B95F054, 0x7B95F03D, '2005-02-09 10:00:00') /* Guruk Basher */
-     , (0x7B95F054, 0x7B95F040, '2005-02-09 10:00:00') /* Burun Ruuk Seer */
-     , (0x7B95F054, 0x7B95F041, '2005-02-09 10:00:00') /* Burun Ruuk Seer */
-     , (0x7B95F054, 0x7B95F042, '2005-02-09 10:00:00') /* Burun Ruuk Seer */
-     , (0x7B95F054, 0x7B95F043, '2005-02-09 10:00:00') /* Burun Ruuk Seer */
-     , (0x7B95F054, 0x7B95F044, '2005-02-09 10:00:00') /* Burun Ruuk Seer */
-     , (0x7B95F054, 0x7B95F045, '2005-02-09 10:00:00') /* Burun Ruuk Seer */
-     , (0x7B95F054, 0x7B95F046, '2005-02-09 10:00:00') /* Burun Ruuk Seer */
-     , (0x7B95F054, 0x7B95F047, '2005-02-09 10:00:00') /* Burun Ruuk Seer */
-     , (0x7B95F054, 0x7B95F048, '2005-02-09 10:00:00') /* Burun Ruuk Seer */
-     , (0x7B95F054, 0x7B95F049, '2005-02-09 10:00:00') /* Burun Ruuk Seer */
-     , (0x7B95F054, 0x7B95F04A, '2005-02-09 10:00:00') /* Burun Ruuk Seer */
-     , (0x7B95F054, 0x7B95F04B, '2005-02-09 10:00:00') /* Burun Ruuk Seer */
-     , (0x7B95F054, 0x7B95F04C, '2005-02-09 10:00:00') /* Burun Ruuk Seer */
-     , (0x7B95F054, 0x7B95F04D, '2005-02-09 10:00:00') /* Burun Ruuk Seer */
-     , (0x7B95F054, 0x7B95F04E, '2005-02-09 10:00:00') /* Guruk Basher */
-     , (0x7B95F054, 0x7B95F04F, '2005-02-09 10:00:00') /* Guruk Basher */
-     , (0x7B95F054, 0x7B95F050, '2005-02-09 10:00:00') /* Guruk Basher */
-     , (0x7B95F054, 0x7B95F051, '2005-02-09 10:00:00') /* Guruk Basher */
-     , (0x7B95F054, 0x7B95F052, '2005-02-09 10:00:00') /* Guruk Basher */
-     , (0x7B95F054, 0x7B95F053, '2005-02-09 10:00:00') /* Guruk Basher */;
+VALUES (0x7B95F054, 0x7B95F024, '2005-02-09 10:00:00') /* Guruk Basher (27978) */
+     , (0x7B95F054, 0x7B95F025, '2005-02-09 10:00:00') /* Burun Ruuk Seer (26019) */
+     , (0x7B95F054, 0x7B95F026, '2005-02-09 10:00:00') /* Guruk Basher (27978) */
+     , (0x7B95F054, 0x7B95F027, '2005-02-09 10:00:00') /* Guruk Basher (27978) */
+     , (0x7B95F054, 0x7B95F028, '2005-02-09 10:00:00') /* Burun Ruuk Seer (26019) */
+     , (0x7B95F054, 0x7B95F029, '2005-02-09 10:00:00') /* Burun Ruuk Seer (26019) */
+     , (0x7B95F054, 0x7B95F02A, '2005-02-09 10:00:00') /* Burun Ruuk Seer (26019) */
+     , (0x7B95F054, 0x7B95F02B, '2005-02-09 10:00:00') /* Burun Ruuk Lout (26015) */
+     , (0x7B95F054, 0x7B95F02C, '2005-02-09 10:00:00') /* Burun Ruuk Seer (26019) */
+     , (0x7B95F054, 0x7B95F02D, '2005-02-09 10:00:00') /* Burun Ruuk Seer (26019) */
+     , (0x7B95F054, 0x7B95F033, '2005-02-09 10:00:00') /* Burun Ruuk Lout (26015) */
+     , (0x7B95F054, 0x7B95F034, '2005-02-09 10:00:00') /* Burun Ruuk Lout (26015) */
+     , (0x7B95F054, 0x7B95F035, '2005-02-09 10:00:00') /* Burun Ruuk Lout (26015) */
+     , (0x7B95F054, 0x7B95F036, '2005-02-09 10:00:00') /* Burun Ruuk Lout (26015) */
+     , (0x7B95F054, 0x7B95F037, '2005-02-09 10:00:00') /* Burun Ruuk Seer (26019) */
+     , (0x7B95F054, 0x7B95F038, '2005-02-09 10:00:00') /* Burun Ruuk Lout (26015) */
+     , (0x7B95F054, 0x7B95F039, '2005-02-09 10:00:00') /* Guruk Boor (27981) */
+     , (0x7B95F054, 0x7B95F03A, '2005-02-09 10:00:00') /* Guruk Boor (27981) */
+     , (0x7B95F054, 0x7B95F03B, '2005-02-09 10:00:00') /* Guruk Boor (27981) */
+     , (0x7B95F054, 0x7B95F03C, '2005-02-09 10:00:00') /* Guruk Boor (27981) */
+     , (0x7B95F054, 0x7B95F03D, '2005-02-09 10:00:00') /* Guruk Basher (27978) */
+     , (0x7B95F054, 0x7B95F040, '2005-02-09 10:00:00') /* Burun Ruuk Seer (26019) */
+     , (0x7B95F054, 0x7B95F041, '2005-02-09 10:00:00') /* Burun Ruuk Seer (26019) */
+     , (0x7B95F054, 0x7B95F042, '2005-02-09 10:00:00') /* Burun Ruuk Seer (26019) */
+     , (0x7B95F054, 0x7B95F043, '2005-02-09 10:00:00') /* Burun Ruuk Seer (26019) */
+     , (0x7B95F054, 0x7B95F044, '2005-02-09 10:00:00') /* Burun Ruuk Seer (26019) */
+     , (0x7B95F054, 0x7B95F045, '2005-02-09 10:00:00') /* Burun Ruuk Seer (26019) */
+     , (0x7B95F054, 0x7B95F046, '2005-02-09 10:00:00') /* Burun Ruuk Seer (26019) */
+     , (0x7B95F054, 0x7B95F047, '2005-02-09 10:00:00') /* Burun Ruuk Seer (26019) */
+     , (0x7B95F054, 0x7B95F048, '2005-02-09 10:00:00') /* Burun Ruuk Seer (26019) */
+     , (0x7B95F054, 0x7B95F049, '2005-02-09 10:00:00') /* Burun Ruuk Seer (26019) */
+     , (0x7B95F054, 0x7B95F04A, '2005-02-09 10:00:00') /* Burun Ruuk Seer (26019) */
+     , (0x7B95F054, 0x7B95F04B, '2005-02-09 10:00:00') /* Burun Ruuk Seer (26019) */
+     , (0x7B95F054, 0x7B95F04C, '2005-02-09 10:00:00') /* Burun Ruuk Seer (26019) */
+     , (0x7B95F054, 0x7B95F04D, '2005-02-09 10:00:00') /* Burun Ruuk Seer (26019) */
+     , (0x7B95F054, 0x7B95F04E, '2005-02-09 10:00:00') /* Guruk Basher (27978) */
+     , (0x7B95F054, 0x7B95F04F, '2005-02-09 10:00:00') /* Guruk Basher (27978) */
+     , (0x7B95F054, 0x7B95F050, '2005-02-09 10:00:00') /* Guruk Basher (27978) */
+     , (0x7B95F054, 0x7B95F051, '2005-02-09 10:00:00') /* Guruk Basher (27978) */
+     , (0x7B95F054, 0x7B95F052, '2005-02-09 10:00:00') /* Guruk Basher (27978) */
+     , (0x7B95F054, 0x7B95F053, '2005-02-09 10:00:00') /* Guruk Basher (27978) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B95F055, 28482, 0xB95F010E, 86.2473, 84.5953, 4.59706, 0.694129, 0, 0, -0.719851, False, '2005-02-09 10:00:00'); /* Vile-Smelling Refuse */

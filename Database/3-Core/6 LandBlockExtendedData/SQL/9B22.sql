@@ -17,6 +17,6 @@ VALUES (0x79B22003,  7923, 0x9B220000, 20.3054, 27.8405, 108.005, 0.976964, 0, 0
 /* @teleloc 0x9B220000 [20.305400 27.840500 108.005000] 0.976964 0.000000 0.000000 -0.213405 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79B22003, 0x79B22000, '2005-02-09 10:00:00') /* Oak Target Drudge */
-     , (0x79B22003, 0x79B22001, '2005-02-09 10:00:00') /* Oak Target Drudge */
-     , (0x79B22003, 0x79B22002, '2005-02-09 10:00:00') /* Oak Target Drudge */;
+VALUES (0x79B22003, 0x79B22000, '2005-02-09 10:00:00') /* Oak Target Drudge (6077) */
+     , (0x79B22003, 0x79B22001, '2005-02-09 10:00:00') /* Oak Target Drudge (6077) */
+     , (0x79B22003, 0x79B22002, '2005-02-09 10:00:00') /* Oak Target Drudge (6077) */;

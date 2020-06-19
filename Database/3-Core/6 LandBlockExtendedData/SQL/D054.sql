@@ -129,20 +129,20 @@ VALUES (0x7D054020,  4219, 0xD0540000, 86.2542, 67.3827, 238.005, -0.998063, 0, 
 /* @teleloc 0xD0540000 [86.254200 67.382700 238.005000] -0.998063 0.000000 0.000000 0.062206 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7D054020, 0x7D054011, '2005-02-09 10:00:00') /* Gotrok Amploth */
-     , (0x7D054020, 0x7D054012, '2005-02-09 10:00:00') /* Gotrok Laigus */
-     , (0x7D054020, 0x7D054013, '2005-02-09 10:00:00') /* Gotrok Laigus */
-     , (0x7D054020, 0x7D054014, '2005-02-09 10:00:00') /* Gotrok Laigus */
-     , (0x7D054020, 0x7D054015, '2005-02-09 10:00:00') /* Gotrok Amploth */
-     , (0x7D054020, 0x7D054016, '2005-02-09 10:00:00') /* Gotrok Amploth */
-     , (0x7D054020, 0x7D054017, '2005-02-09 10:00:00') /* Gotrok Amploth */
-     , (0x7D054020, 0x7D054018, '2005-02-09 10:00:00') /* Gotrok Obeloth */
-     , (0x7D054020, 0x7D054019, '2005-02-09 10:00:00') /* Gotrok Obeloth */
-     , (0x7D054020, 0x7D05401A, '2005-02-09 10:00:00') /* Gotrok Obeloth */
-     , (0x7D054020, 0x7D05401B, '2005-02-09 10:00:00') /* Gotrok Obeloth */
-     , (0x7D054020, 0x7D05401C, '2005-02-09 10:00:00') /* Gotrok Lithos */
-     , (0x7D054020, 0x7D05401D, '2005-02-09 10:00:00') /* Gotrok Lithos */
-     , (0x7D054020, 0x7D05401F, '2005-02-09 10:00:00') /* Gotrok Amploth */;
+VALUES (0x7D054020, 0x7D054011, '2005-02-09 10:00:00') /* Gotrok Amploth (24939) */
+     , (0x7D054020, 0x7D054012, '2005-02-09 10:00:00') /* Gotrok Laigus (24941) */
+     , (0x7D054020, 0x7D054013, '2005-02-09 10:00:00') /* Gotrok Laigus (24941) */
+     , (0x7D054020, 0x7D054014, '2005-02-09 10:00:00') /* Gotrok Laigus (24941) */
+     , (0x7D054020, 0x7D054015, '2005-02-09 10:00:00') /* Gotrok Amploth (24939) */
+     , (0x7D054020, 0x7D054016, '2005-02-09 10:00:00') /* Gotrok Amploth (24939) */
+     , (0x7D054020, 0x7D054017, '2005-02-09 10:00:00') /* Gotrok Amploth (24939) */
+     , (0x7D054020, 0x7D054018, '2005-02-09 10:00:00') /* Gotrok Obeloth (24943) */
+     , (0x7D054020, 0x7D054019, '2005-02-09 10:00:00') /* Gotrok Obeloth (24943) */
+     , (0x7D054020, 0x7D05401A, '2005-02-09 10:00:00') /* Gotrok Obeloth (24943) */
+     , (0x7D054020, 0x7D05401B, '2005-02-09 10:00:00') /* Gotrok Obeloth (24943) */
+     , (0x7D054020, 0x7D05401C, '2005-02-09 10:00:00') /* Gotrok Lithos (24942) */
+     , (0x7D054020, 0x7D05401D, '2005-02-09 10:00:00') /* Gotrok Lithos (24942) */
+     , (0x7D054020, 0x7D05401F, '2005-02-09 10:00:00') /* Gotrok Amploth (24939) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7D054021, 27676, 0xD0540108, 87.0872, 89.6804, 238.005, 0.695983, 0, 0, 0.718059, False, '2005-02-09 10:00:00'); /* Renegade Shoushi Portal */

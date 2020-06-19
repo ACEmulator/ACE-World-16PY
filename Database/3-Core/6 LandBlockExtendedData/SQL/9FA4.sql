@@ -65,4 +65,4 @@ VALUES (0x79FA400F,  7923, 0x9FA40104, 134.887, 162.785, 86.005, -0.924589, 0, 0
 /* @teleloc 0x9FA40104 [134.887000 162.785000 86.005000] -0.924589 0.000000 0.000000 0.380965 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79FA400F, 0x79FA400E, '2005-02-09 10:00:00') /* Weaponsmith Omaro Nagate */;
+VALUES (0x79FA400F, 0x79FA400E, '2005-02-09 10:00:00') /* Weaponsmith Omaro Nagate (24069) */;

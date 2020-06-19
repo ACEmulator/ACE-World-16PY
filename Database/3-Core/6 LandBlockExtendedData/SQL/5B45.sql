@@ -281,39 +281,39 @@ VALUES (0x75B45048,  7923, 0x5B450307, 19.5736, -9.70313, -11.995, -0.999992, 0,
 /* @teleloc 0x5B450307 [19.573600 -9.703130 -11.995000] -0.999992 0.000000 0.000000 0.003929 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x75B45048, 0x75B45031, '2005-02-09 10:00:00') /* Virindi Observer */
-     , (0x75B45048, 0x75B45032, '2005-02-09 10:00:00') /* Virindi Observer */
-     , (0x75B45048, 0x75B45033, '2005-02-09 10:00:00') /* Virindi Observer */
-     , (0x75B45048, 0x75B45034, '2005-02-09 10:00:00') /* Virindi Observer */
-     , (0x75B45048, 0x75B45035, '2005-02-09 10:00:00') /* Virindi Observer */
-     , (0x75B45048, 0x75B45036, '2005-02-09 10:00:00') /* Augmented Drudge */
-     , (0x75B45048, 0x75B45037, '2005-02-09 10:00:00') /* Altered Drudge */
-     , (0x75B45048, 0x75B45038, '2005-02-09 10:00:00') /* Virindi Observer */
-     , (0x75B45048, 0x75B45039, '2005-02-09 10:00:00') /* Virindi Observer */
-     , (0x75B45048, 0x75B4503A, '2005-02-09 10:00:00') /* Virindi Observer */
-     , (0x75B45048, 0x75B4503B, '2005-02-09 10:00:00') /* Virindi Observer */
-     , (0x75B45048, 0x75B4503C, '2005-02-09 10:00:00') /* Virindi Observer */
-     , (0x75B45048, 0x75B4503D, '2005-02-09 10:00:00') /* Virindi Director */
-     , (0x75B45048, 0x75B4503E, '2005-02-09 10:00:00') /* Virindi Director */
-     , (0x75B45048, 0x75B4503F, '2005-02-09 10:00:00') /* Virindi Director */
-     , (0x75B45048, 0x75B45040, '2005-02-09 10:00:00') /* Augmented Drudge */
-     , (0x75B45048, 0x75B45041, '2005-02-09 10:00:00') /* Altered Drudge */
-     , (0x75B45048, 0x75B45042, '2005-02-09 10:00:00') /* Augmented Drudge */
-     , (0x75B45048, 0x75B45043, '2005-02-09 10:00:00') /* Augmented Drudge */
-     , (0x75B45048, 0x75B45044, '2005-02-09 10:00:00') /* Augmented Drudge */
-     , (0x75B45048, 0x75B45045, '2005-02-09 10:00:00') /* Altered Drudge */
-     , (0x75B45048, 0x75B45046, '2005-02-09 10:00:00') /* Altered Drudge */
-     , (0x75B45048, 0x75B45047, '2005-02-09 10:00:00') /* Altered Drudge */
-     , (0x75B45048, 0x75B4504B, '2005-02-09 10:00:00') /* Tusker Guard */
-     , (0x75B45048, 0x75B45052, '2005-02-09 10:00:00') /* Tusker Guard */
-     , (0x75B45048, 0x75B45053, '2005-02-09 10:00:00') /* Tusker Guard */;
+VALUES (0x75B45048, 0x75B45031, '2005-02-09 10:00:00') /* Virindi Observer (7340) */
+     , (0x75B45048, 0x75B45032, '2005-02-09 10:00:00') /* Virindi Observer (7340) */
+     , (0x75B45048, 0x75B45033, '2005-02-09 10:00:00') /* Virindi Observer (7340) */
+     , (0x75B45048, 0x75B45034, '2005-02-09 10:00:00') /* Virindi Observer (7340) */
+     , (0x75B45048, 0x75B45035, '2005-02-09 10:00:00') /* Virindi Observer (7340) */
+     , (0x75B45048, 0x75B45036, '2005-02-09 10:00:00') /* Augmented Drudge (7090) */
+     , (0x75B45048, 0x75B45037, '2005-02-09 10:00:00') /* Altered Drudge (7089) */
+     , (0x75B45048, 0x75B45038, '2005-02-09 10:00:00') /* Virindi Observer (10957) */
+     , (0x75B45048, 0x75B45039, '2005-02-09 10:00:00') /* Virindi Observer (10957) */
+     , (0x75B45048, 0x75B4503A, '2005-02-09 10:00:00') /* Virindi Observer (7340) */
+     , (0x75B45048, 0x75B4503B, '2005-02-09 10:00:00') /* Virindi Observer (7340) */
+     , (0x75B45048, 0x75B4503C, '2005-02-09 10:00:00') /* Virindi Observer (10957) */
+     , (0x75B45048, 0x75B4503D, '2005-02-09 10:00:00') /* Virindi Director (16918) */
+     , (0x75B45048, 0x75B4503E, '2005-02-09 10:00:00') /* Virindi Director (16918) */
+     , (0x75B45048, 0x75B4503F, '2005-02-09 10:00:00') /* Virindi Director (16918) */
+     , (0x75B45048, 0x75B45040, '2005-02-09 10:00:00') /* Augmented Drudge (7090) */
+     , (0x75B45048, 0x75B45041, '2005-02-09 10:00:00') /* Altered Drudge (7089) */
+     , (0x75B45048, 0x75B45042, '2005-02-09 10:00:00') /* Augmented Drudge (7090) */
+     , (0x75B45048, 0x75B45043, '2005-02-09 10:00:00') /* Augmented Drudge (7090) */
+     , (0x75B45048, 0x75B45044, '2005-02-09 10:00:00') /* Augmented Drudge (7090) */
+     , (0x75B45048, 0x75B45045, '2005-02-09 10:00:00') /* Altered Drudge (7089) */
+     , (0x75B45048, 0x75B45046, '2005-02-09 10:00:00') /* Altered Drudge (7089) */
+     , (0x75B45048, 0x75B45047, '2005-02-09 10:00:00') /* Altered Drudge (7089) */
+     , (0x75B45048, 0x75B4504B, '2005-02-09 10:00:00') /* Tusker Guard (1629) */
+     , (0x75B45048, 0x75B45052, '2005-02-09 10:00:00') /* Tusker Guard (1629) */
+     , (0x75B45048, 0x75B45053, '2005-02-09 10:00:00') /* Tusker Guard (22592) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75B45049,  5086, 0x5B450167, 40, -220, -83.995, 1, 0, 0, -4.37114E-08, False, '2005-02-09 10:00:00'); /* Linkable Monster Gen - 30 sec. */
 /* @teleloc 0x5B450167 [40.000000 -220.000000 -83.995000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x75B45049, 0x75B4504A, '2005-02-09 10:00:00') /* Virindi Obsidian Shard */;
+VALUES (0x75B45049, 0x75B4504A, '2005-02-09 10:00:00') /* Virindi Obsidian Shard (24135) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75B4504A, 24135, 0x5B450167, 39.9834, -217.998, -83.981, 1, 0, 0, -4.37114E-08,  True, '2005-02-09 10:00:00'); /* Virindi Obsidian Shard */
@@ -328,8 +328,8 @@ VALUES (0x75B4504C,  5086, 0x5B450186, 59.8805, -228.654, -83.995, 0.921061, 0, 
 /* @teleloc 0x5B450186 [59.880500 -228.654000 -83.995000] 0.921061 0.000000 0.000000 0.389418 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x75B4504C, 0x75B4504D, '2005-02-09 10:00:00') /* Virindi Obsidian Shard */
-     , (0x75B4504C, 0x75B45057, '2005-02-09 10:00:00') /* A Tale of Paths */;
+VALUES (0x75B4504C, 0x75B4504D, '2005-02-09 10:00:00') /* Virindi Obsidian Shard (24135) */
+     , (0x75B4504C, 0x75B45057, '2005-02-09 10:00:00') /* A Tale of Paths (24105) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75B4504D, 24135, 0x5B450186, 60.05, -227.309, -83.981, 0.921061, 0, 0, 0.389418,  True, '2005-02-09 10:00:00'); /* Virindi Obsidian Shard */
@@ -344,7 +344,7 @@ VALUES (0x75B4504F,  5086, 0x5B45018C, 70.0122, -171.869, -83.995, -0.00420404, 
 /* @teleloc 0x5B45018C [70.012200 -171.869000 -83.995000] -0.004204 0.000000 0.000000 -0.999991 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x75B4504F, 0x75B4504E, '2005-02-09 10:00:00') /* Virindi Obsidian Shard */;
+VALUES (0x75B4504F, 0x75B4504E, '2005-02-09 10:00:00') /* Virindi Obsidian Shard (24135) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75B45050, 24135, 0x5B450198, 80.0283, -210.187, -83.981, 1, 0, 0, -4.37114E-08,  True, '2005-02-09 10:00:00'); /* Virindi Obsidian Shard */
@@ -355,7 +355,7 @@ VALUES (0x75B45051,  5086, 0x5B450198, 80, -211.286, -83.995, 1, 0, 0, -4.37114E
 /* @teleloc 0x5B450198 [80.000000 -211.286000 -83.995000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x75B45051, 0x75B45050, '2005-02-09 10:00:00') /* Virindi Obsidian Shard */;
+VALUES (0x75B45051, 0x75B45050, '2005-02-09 10:00:00') /* Virindi Obsidian Shard (24135) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75B45052,  1629, 0x5B4502BA, 59.0582, -52.35, -59.989, 0.972901, 0, 0, -0.231222,  True, '2005-02-09 10:00:00'); /* Tusker Guard */
@@ -378,7 +378,7 @@ VALUES (0x75B45056,  5086, 0x5B45015C, 41.0677, -99.2609, -83.995, -0.679681, 0,
 /* @teleloc 0x5B45015C [41.067700 -99.260900 -83.995000] -0.679681 0.000000 0.000000 -0.733508 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x75B45056, 0x75B45055, '2005-02-09 10:00:00') /* Virindi Obsidian Shard */;
+VALUES (0x75B45056, 0x75B45055, '2005-02-09 10:00:00') /* Virindi Obsidian Shard (24135) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75B45057, 24105, 0x5B450185, 60, -220, -83.9305, 0.931056, 0, 0, -0.364876,  True, '2005-02-09 10:00:00'); /* A Tale of Paths */
@@ -393,7 +393,7 @@ VALUES (0x75B45059,  5086, 0x5B4501B8, 173.106, -261.955, -83.995, 0.771608, 0, 
 /* @teleloc 0x5B4501B8 [173.106000 -261.955000 -83.995000] 0.771608 0.000000 0.000000 -0.636098 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x75B45059, 0x75B45058, '2005-02-09 10:00:00') /* Virindi Obsidian Shard */;
+VALUES (0x75B45059, 0x75B45058, '2005-02-09 10:00:00') /* Virindi Obsidian Shard (24135) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75B4505A, 24048, 0x5B4501B9, 170, -270, -83.995, 1, 0, 0, -4.37114E-08, False, '2005-02-09 10:00:00'); /* Portal */

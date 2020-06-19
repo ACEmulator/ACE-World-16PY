@@ -9,7 +9,7 @@ VALUES (0x78388001,  3951, 0x83880000, 38.4487, 62.1956, 86.005, -0.395977, 0, 0
 /* @teleloc 0x83880000 [38.448700 62.195600 86.005000] -0.395977 0.000000 0.000000 0.918260 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x78388001, 0x78388002, '2005-02-09 10:00:00') /* Jibril ibn Rashid */;
+VALUES (0x78388001, 0x78388002, '2005-02-09 10:00:00') /* Jibril ibn Rashid (6592) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x78388002,  6592, 0x83880000, 40.0448, 61.8951, 86.005, -0.393058, 0, 0, 0.919514,  True, '2005-02-09 10:00:00'); /* Jibril ibn Rashid */

@@ -41,16 +41,16 @@ VALUES (0x7485D009,  1154, 0x485D0000, 114.75, 116.619, 3.87579, 0.891514, 0, 0,
 /* @teleloc 0x485D0000 [114.750000 116.619000 3.875790] 0.891514 0.000000 0.000000 0.452993 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7485D009, 0x7485D000, '2005-02-09 10:00:00') /* Skeleton Lord */
-     , (0x7485D009, 0x7485D001, '2005-02-09 10:00:00') /* Skeleton Captain */
-     , (0x7485D009, 0x7485D002, '2005-02-09 10:00:00') /* Skeleton Captain */
-     , (0x7485D009, 0x7485D003, '2005-02-09 10:00:00') /* Skeleton Warrior */
-     , (0x7485D009, 0x7485D004, '2005-02-09 10:00:00') /* Skeleton Warrior */
-     , (0x7485D009, 0x7485D005, '2005-02-09 10:00:00') /* Skeleton Warrior */
-     , (0x7485D009, 0x7485D006, '2005-02-09 10:00:00') /* Skeleton Warrior */
-     , (0x7485D009, 0x7485D007, '2005-02-09 10:00:00') /* Skeleton Warrior */
-     , (0x7485D009, 0x7485D008, '2005-02-09 10:00:00') /* Skeleton Warrior */
-     , (0x7485D009, 0x7485D00B, '2005-02-09 10:00:00') /* Skeleton Warrior */;
+VALUES (0x7485D009, 0x7485D000, '2005-02-09 10:00:00') /* Skeleton Lord (1762) */
+     , (0x7485D009, 0x7485D001, '2005-02-09 10:00:00') /* Skeleton Captain (1761) */
+     , (0x7485D009, 0x7485D002, '2005-02-09 10:00:00') /* Skeleton Captain (1761) */
+     , (0x7485D009, 0x7485D003, '2005-02-09 10:00:00') /* Skeleton Warrior (1760) */
+     , (0x7485D009, 0x7485D004, '2005-02-09 10:00:00') /* Skeleton Warrior (1760) */
+     , (0x7485D009, 0x7485D005, '2005-02-09 10:00:00') /* Skeleton Warrior (1760) */
+     , (0x7485D009, 0x7485D006, '2005-02-09 10:00:00') /* Skeleton Warrior (1760) */
+     , (0x7485D009, 0x7485D007, '2005-02-09 10:00:00') /* Skeleton Warrior (1760) */
+     , (0x7485D009, 0x7485D008, '2005-02-09 10:00:00') /* Skeleton Warrior (1760) */
+     , (0x7485D009, 0x7485D00B, '2005-02-09 10:00:00') /* Skeleton Warrior (1760) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7485D00A,  1936, 0x485D0000, 112.938, 118.467, 4.33808, 0.605725, 0, 0, 0.795674, False, '2005-02-09 10:00:00'); /* Chest */

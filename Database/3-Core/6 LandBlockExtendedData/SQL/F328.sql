@@ -5,28 +5,28 @@ VALUES (0x7F328000,  7923, 0xF3280000, 170.068, 81.3513, 14.3496, 0.694507, 0, 0
 /* @teleloc 0xF3280000 [170.068000 81.351300 14.349600] 0.694507 0.000000 0.000000 -0.719486 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7F328000, 0x7F328007, '2005-02-09 10:00:00') /* Obsidian Golem */
-     , (0x7F328000, 0x7F328008, '2005-02-09 10:00:00') /* Obsidian Golem */
-     , (0x7F328000, 0x7F328009, '2005-02-09 10:00:00') /* Obsidian Golem */
-     , (0x7F328000, 0x7F32800A, '2005-02-09 10:00:00') /* Obsidian Golem */
-     , (0x7F328000, 0x7F32800B, '2005-02-09 10:00:00') /* Obsidian Golem */
-     , (0x7F328000, 0x7F32800C, '2005-02-09 10:00:00') /* Obsidian Golem */
-     , (0x7F328000, 0x7F32800D, '2005-02-09 10:00:00') /* Obsidian Golem */
-     , (0x7F328000, 0x7F32800E, '2005-02-09 10:00:00') /* Obsidian Golem */
-     , (0x7F328000, 0x7F32800F, '2005-02-09 10:00:00') /* Obsidian Golem */
-     , (0x7F328000, 0x7F328010, '2005-02-09 10:00:00') /* Obsidian Golem */
-     , (0x7F328000, 0x7F328011, '2005-02-09 10:00:00') /* Obsidian Golem */;
+VALUES (0x7F328000, 0x7F328007, '2005-02-09 10:00:00') /* Obsidian Golem (201) */
+     , (0x7F328000, 0x7F328008, '2005-02-09 10:00:00') /* Obsidian Golem (201) */
+     , (0x7F328000, 0x7F328009, '2005-02-09 10:00:00') /* Obsidian Golem (201) */
+     , (0x7F328000, 0x7F32800A, '2005-02-09 10:00:00') /* Obsidian Golem (201) */
+     , (0x7F328000, 0x7F32800B, '2005-02-09 10:00:00') /* Obsidian Golem (201) */
+     , (0x7F328000, 0x7F32800C, '2005-02-09 10:00:00') /* Obsidian Golem (201) */
+     , (0x7F328000, 0x7F32800D, '2005-02-09 10:00:00') /* Obsidian Golem (201) */
+     , (0x7F328000, 0x7F32800E, '2005-02-09 10:00:00') /* Obsidian Golem (201) */
+     , (0x7F328000, 0x7F32800F, '2005-02-09 10:00:00') /* Obsidian Golem (201) */
+     , (0x7F328000, 0x7F328010, '2005-02-09 10:00:00') /* Obsidian Golem (201) */
+     , (0x7F328000, 0x7F328011, '2005-02-09 10:00:00') /* Obsidian Golem (201) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7F328001,  7924, 0xF3280000, 170.139, 83.4186, 14.3615, 0.694507, 0, 0, -0.719486, False, '2005-02-09 10:00:00'); /* Linkable Monster Generator ( 5 Min.) */
 /* @teleloc 0xF3280000 [170.139000 83.418600 14.361500] 0.694507 0.000000 0.000000 -0.719486 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7F328001, 0x7F328002, '2005-02-09 10:00:00') /* Diamond Golem */
-     , (0x7F328001, 0x7F328003, '2005-02-09 10:00:00') /* Dark Magus */
-     , (0x7F328001, 0x7F328004, '2005-02-09 10:00:00') /* Obsidian Golem */
-     , (0x7F328001, 0x7F328005, '2005-02-09 10:00:00') /* Obsidian Golem */
-     , (0x7F328001, 0x7F328006, '2005-02-09 10:00:00') /* Obsidian Golem */;
+VALUES (0x7F328001, 0x7F328002, '2005-02-09 10:00:00') /* Diamond Golem (4216) */
+     , (0x7F328001, 0x7F328003, '2005-02-09 10:00:00') /* Dark Magus (7124) */
+     , (0x7F328001, 0x7F328004, '2005-02-09 10:00:00') /* Obsidian Golem (201) */
+     , (0x7F328001, 0x7F328005, '2005-02-09 10:00:00') /* Obsidian Golem (201) */
+     , (0x7F328001, 0x7F328006, '2005-02-09 10:00:00') /* Obsidian Golem (201) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7F328002,  4216, 0xF3280000, 169.191, 81.2512, 14.2085, -0.704889, 0, 0, -0.709318,  True, '2005-02-09 10:00:00'); /* Diamond Golem */

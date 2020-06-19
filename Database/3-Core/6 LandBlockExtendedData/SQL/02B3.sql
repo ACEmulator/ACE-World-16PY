@@ -61,35 +61,35 @@ VALUES (0x702B300F,  7923, 0x02B301A6, 70, -50, 0, 0.707107, 0, 0, -0.707107, Fa
 /* @teleloc 0x02B301A6 [70.000000 -50.000000 0.000000] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x702B300F, 0x702B3000, '2005-02-09 10:00:00') /* Putrid Moarsman */
-     , (0x702B300F, 0x702B3002, '2005-02-09 10:00:00') /* Putrid Moarsman */
-     , (0x702B300F, 0x702B3003, '2005-02-09 10:00:00') /* Putrid Moarsman */
-     , (0x702B300F, 0x702B3004, '2005-02-09 10:00:00') /* Miry Moarsman */
-     , (0x702B300F, 0x702B3005, '2005-02-09 10:00:00') /* Muck Glutton */
-     , (0x702B300F, 0x702B3007, '2005-02-09 10:00:00') /* Putrid Moarsman */
-     , (0x702B300F, 0x702B3008, '2005-02-09 10:00:00') /* Putrid Moarsman */
-     , (0x702B300F, 0x702B3009, '2005-02-09 10:00:00') /* Miry Moarsman */
-     , (0x702B300F, 0x702B300A, '2005-02-09 10:00:00') /* Muck Glutton */
-     , (0x702B300F, 0x702B300B, '2005-02-09 10:00:00') /* Putrid Moarsman */
-     , (0x702B300F, 0x702B300C, '2005-02-09 10:00:00') /* Miry Moarsman */
-     , (0x702B300F, 0x702B300D, '2005-02-09 10:00:00') /* Miry Moarsman */
-     , (0x702B300F, 0x702B3010, '2005-02-09 10:00:00') /* Muck Glutton */
-     , (0x702B300F, 0x702B3011, '2005-02-09 10:00:00') /* Putrid Moarsman */
-     , (0x702B300F, 0x702B3012, '2005-02-09 10:00:00') /* Desert Rabbit */
-     , (0x702B300F, 0x702B3013, '2005-02-09 10:00:00') /* Direland Rat */
-     , (0x702B300F, 0x702B3015, '2005-02-09 10:00:00') /* Miry Moarsman */
-     , (0x702B300F, 0x702B3016, '2005-02-09 10:00:00') /* Muck Glutton */
-     , (0x702B300F, 0x702B3017, '2005-02-09 10:00:00') /* Miry Moarsman */
-     , (0x702B300F, 0x702B3018, '2005-02-09 10:00:00') /* Muck Glutton */
-     , (0x702B300F, 0x702B301D, '2005-02-09 10:00:00') /* Muck Glutton */
-     , (0x702B300F, 0x702B301E, '2005-02-09 10:00:00') /* Muck Glutton */
-     , (0x702B300F, 0x702B301F, '2005-02-09 10:00:00') /* Miry Moarsman */
-     , (0x702B300F, 0x702B3020, '2005-02-09 10:00:00') /* Muck Glutton */
-     , (0x702B300F, 0x702B3021, '2005-02-09 10:00:00') /* Muck Glutton */
-     , (0x702B300F, 0x702B3022, '2005-02-09 10:00:00') /* Muck Glutton */
-     , (0x702B300F, 0x702B3023, '2005-02-09 10:00:00') /* Muck Glutton */
-     , (0x702B300F, 0x702B3024, '2005-02-09 10:00:00') /* Miry Moarsman */
-     , (0x702B300F, 0x702B3025, '2005-02-09 10:00:00') /* Miry Moarsman */;
+VALUES (0x702B300F, 0x702B3000, '2005-02-09 10:00:00') /* Putrid Moarsman (4248) */
+     , (0x702B300F, 0x702B3002, '2005-02-09 10:00:00') /* Putrid Moarsman (4248) */
+     , (0x702B300F, 0x702B3003, '2005-02-09 10:00:00') /* Putrid Moarsman (4248) */
+     , (0x702B300F, 0x702B3004, '2005-02-09 10:00:00') /* Miry Moarsman (27856) */
+     , (0x702B300F, 0x702B3005, '2005-02-09 10:00:00') /* Muck Glutton (27857) */
+     , (0x702B300F, 0x702B3007, '2005-02-09 10:00:00') /* Putrid Moarsman (4248) */
+     , (0x702B300F, 0x702B3008, '2005-02-09 10:00:00') /* Putrid Moarsman (4248) */
+     , (0x702B300F, 0x702B3009, '2005-02-09 10:00:00') /* Miry Moarsman (27856) */
+     , (0x702B300F, 0x702B300A, '2005-02-09 10:00:00') /* Muck Glutton (27857) */
+     , (0x702B300F, 0x702B300B, '2005-02-09 10:00:00') /* Putrid Moarsman (4248) */
+     , (0x702B300F, 0x702B300C, '2005-02-09 10:00:00') /* Miry Moarsman (27856) */
+     , (0x702B300F, 0x702B300D, '2005-02-09 10:00:00') /* Miry Moarsman (27856) */
+     , (0x702B300F, 0x702B3010, '2005-02-09 10:00:00') /* Muck Glutton (27857) */
+     , (0x702B300F, 0x702B3011, '2005-02-09 10:00:00') /* Putrid Moarsman (4248) */
+     , (0x702B300F, 0x702B3012, '2005-02-09 10:00:00') /* Desert Rabbit (5429) */
+     , (0x702B300F, 0x702B3013, '2005-02-09 10:00:00') /* Direland Rat (24310) */
+     , (0x702B300F, 0x702B3015, '2005-02-09 10:00:00') /* Miry Moarsman (27856) */
+     , (0x702B300F, 0x702B3016, '2005-02-09 10:00:00') /* Muck Glutton (27857) */
+     , (0x702B300F, 0x702B3017, '2005-02-09 10:00:00') /* Miry Moarsman (27856) */
+     , (0x702B300F, 0x702B3018, '2005-02-09 10:00:00') /* Muck Glutton (27857) */
+     , (0x702B300F, 0x702B301D, '2005-02-09 10:00:00') /* Muck Glutton (27857) */
+     , (0x702B300F, 0x702B301E, '2005-02-09 10:00:00') /* Muck Glutton (27857) */
+     , (0x702B300F, 0x702B301F, '2005-02-09 10:00:00') /* Miry Moarsman (27856) */
+     , (0x702B300F, 0x702B3020, '2005-02-09 10:00:00') /* Muck Glutton (27857) */
+     , (0x702B300F, 0x702B3021, '2005-02-09 10:00:00') /* Muck Glutton (27857) */
+     , (0x702B300F, 0x702B3022, '2005-02-09 10:00:00') /* Muck Glutton (27857) */
+     , (0x702B300F, 0x702B3023, '2005-02-09 10:00:00') /* Muck Glutton (27857) */
+     , (0x702B300F, 0x702B3024, '2005-02-09 10:00:00') /* Miry Moarsman (27856) */
+     , (0x702B300F, 0x702B3025, '2005-02-09 10:00:00') /* Miry Moarsman (27856) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x702B3010, 27857, 0x02B301B5, 101.837, -0.59299, 0.006, -0.374101, 0, 0, -0.927388,  True, '2005-02-09 10:00:00'); /* Muck Glutton */
@@ -136,9 +136,9 @@ VALUES (0x702B301A, 15759, 0x02B30139, 70.311, -63.3602, -11.995, -0.015326, 0, 
 /* @teleloc 0x02B30139 [70.311000 -63.360200 -11.995000] -0.015326 0.000000 0.000000 0.999883 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x702B301A, 0x702B3019, '2005-02-09 10:00:00') /* Aquamarine Prisms */
-     , (0x702B301A, 0x702B301B, '2005-02-09 10:00:00') /* Aquamarine Prisms */
-     , (0x702B301A, 0x702B301C, '2005-02-09 10:00:00') /* Aquamarine Prisms */;
+VALUES (0x702B301A, 0x702B3019, '2005-02-09 10:00:00') /* Aquamarine Prisms (27767) */
+     , (0x702B301A, 0x702B301B, '2005-02-09 10:00:00') /* Aquamarine Prisms (27767) */
+     , (0x702B301A, 0x702B301C, '2005-02-09 10:00:00') /* Aquamarine Prisms (27767) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x702B301B, 27767, 0x02B30139, 70.8071, -56.2895, -11.995, -0.230167, 0, 0, -0.973151,  True, '2005-02-09 10:00:00'); /* Aquamarine Prisms */

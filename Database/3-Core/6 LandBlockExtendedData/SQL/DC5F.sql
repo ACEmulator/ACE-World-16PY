@@ -85,16 +85,16 @@ VALUES (0x7DC5F023,  7924, 0xDC5F0000, 88.1009, 149.742, 24.326, -0.999962, 0, 0
 /* @teleloc 0xDC5F0000 [88.100900 149.742000 24.326000] -0.999962 0.000000 0.000000 -0.008682 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7DC5F023, 0x7DC5F015, '2005-02-09 10:00:00') /* Mosswart Fanatic */
-     , (0x7DC5F023, 0x7DC5F017, '2005-02-09 10:00:00') /* Mosswart Fanatic */
-     , (0x7DC5F023, 0x7DC5F018, '2005-02-09 10:00:00') /* Mosswart Fanatic */
-     , (0x7DC5F023, 0x7DC5F019, '2005-02-09 10:00:00') /* Mosswart Fanatic */
-     , (0x7DC5F023, 0x7DC5F01A, '2005-02-09 10:00:00') /* Mosswart Chief */
-     , (0x7DC5F023, 0x7DC5F01B, '2005-02-09 10:00:00') /* Mosswart Fanatic */
-     , (0x7DC5F023, 0x7DC5F01C, '2005-02-09 10:00:00') /* Mosswart Fanatic */
-     , (0x7DC5F023, 0x7DC5F01D, '2005-02-09 10:00:00') /* Mosswart Fanatic */
-     , (0x7DC5F023, 0x7DC5F01E, '2005-02-09 10:00:00') /* Mosswart Fanatic */
-     , (0x7DC5F023, 0x7DC5F01F, '2005-02-09 10:00:00') /* Mosswart Fanatic */
-     , (0x7DC5F023, 0x7DC5F020, '2005-02-09 10:00:00') /* Mosswart Fanatic */
-     , (0x7DC5F023, 0x7DC5F021, '2005-02-09 10:00:00') /* Mosswart Fanatic */
-     , (0x7DC5F023, 0x7DC5F022, '2005-02-09 10:00:00') /* Mosswart Fanatic */;
+VALUES (0x7DC5F023, 0x7DC5F015, '2005-02-09 10:00:00') /* Mosswart Fanatic (8427) */
+     , (0x7DC5F023, 0x7DC5F017, '2005-02-09 10:00:00') /* Mosswart Fanatic (8427) */
+     , (0x7DC5F023, 0x7DC5F018, '2005-02-09 10:00:00') /* Mosswart Fanatic (8427) */
+     , (0x7DC5F023, 0x7DC5F019, '2005-02-09 10:00:00') /* Mosswart Fanatic (8427) */
+     , (0x7DC5F023, 0x7DC5F01A, '2005-02-09 10:00:00') /* Mosswart Chief (210) */
+     , (0x7DC5F023, 0x7DC5F01B, '2005-02-09 10:00:00') /* Mosswart Fanatic (8427) */
+     , (0x7DC5F023, 0x7DC5F01C, '2005-02-09 10:00:00') /* Mosswart Fanatic (8427) */
+     , (0x7DC5F023, 0x7DC5F01D, '2005-02-09 10:00:00') /* Mosswart Fanatic (8427) */
+     , (0x7DC5F023, 0x7DC5F01E, '2005-02-09 10:00:00') /* Mosswart Fanatic (8427) */
+     , (0x7DC5F023, 0x7DC5F01F, '2005-02-09 10:00:00') /* Mosswart Fanatic (8427) */
+     , (0x7DC5F023, 0x7DC5F020, '2005-02-09 10:00:00') /* Mosswart Fanatic (8427) */
+     , (0x7DC5F023, 0x7DC5F021, '2005-02-09 10:00:00') /* Mosswart Fanatic (8427) */
+     , (0x7DC5F023, 0x7DC5F022, '2005-02-09 10:00:00') /* Mosswart Fanatic (8427) */;

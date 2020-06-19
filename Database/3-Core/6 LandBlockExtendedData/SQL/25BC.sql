@@ -9,10 +9,10 @@ VALUES (0x725BC001,  4219, 0x25BC0000, 14.5357, 125.945, 21.555, -0.0677989, 0, 
 /* @teleloc 0x25BC0000 [14.535700 125.945000 21.555000] -0.067799 0.000000 0.000000 0.997699 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x725BC001, 0x725BC000, '2005-02-09 10:00:00') /* Water Golem */
-     , (0x725BC001, 0x725BC002, '2005-02-09 10:00:00') /* Littoral Siraluun */
-     , (0x725BC001, 0x725BC003, '2005-02-09 10:00:00') /* Littoral Siraluun */
-     , (0x725BC001, 0x725BC004, '2005-02-09 10:00:00') /* Littoral Siraluun */;
+VALUES (0x725BC001, 0x725BC000, '2005-02-09 10:00:00') /* Water Golem (941) */
+     , (0x725BC001, 0x725BC002, '2005-02-09 10:00:00') /* Littoral Siraluun (11487) */
+     , (0x725BC001, 0x725BC003, '2005-02-09 10:00:00') /* Littoral Siraluun (11487) */
+     , (0x725BC001, 0x725BC004, '2005-02-09 10:00:00') /* Littoral Siraluun (11487) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x725BC002, 11487, 0x25BC0000, 9.37434, 99.3125, 21.905, 0.999949, 0, 0, -0.0101438,  True, '2005-02-09 10:00:00'); /* Littoral Siraluun */

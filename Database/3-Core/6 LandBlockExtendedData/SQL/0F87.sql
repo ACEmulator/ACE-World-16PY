@@ -17,5 +17,5 @@ VALUES (0x70F87003,  7926, 0x0F870100, 60.4309, 58.6084, 70.005, 0.648936, 0, 0,
 /* @teleloc 0x0F870100 [60.430900 58.608400 70.005000] 0.648936 0.000000 0.000000 0.760843 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x70F87003, 0x70F87001, '2005-02-09 10:00:00') /* Nomad Mu-miyah */
-     , (0x70F87003, 0x70F87002, '2005-02-09 10:00:00') /* Nomad Mu-miyah */;
+VALUES (0x70F87003, 0x70F87001, '2005-02-09 10:00:00') /* Nomad Mu-miyah (8431) */
+     , (0x70F87003, 0x70F87002, '2005-02-09 10:00:00') /* Nomad Mu-miyah (8431) */;

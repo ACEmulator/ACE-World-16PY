@@ -101,12 +101,12 @@ VALUES (0x7B97201D,  7923, 0xB9720000, 106.933, 18.923, 24.005, 0.888566, 0, 0, 
 /* @teleloc 0xB9720000 [106.933000 18.923000 24.005000] 0.888566 0.000000 0.000000 0.458749 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B97201D, 0x7B972005, '2005-02-09 10:00:00') /* Agent of the Arcanum */
-     , (0x7B97201D, 0x7B972017, '2005-02-09 10:00:00') /* Dai Ya the Scholar */
-     , (0x7B97201D, 0x7B97201C, '2005-02-09 10:00:00') /* Collector */
-     , (0x7B97201D, 0x7B972035, '2005-02-09 10:00:00') /* Apprentice Fletcher */
-     , (0x7B97201D, 0x7B972036, '2005-02-09 10:00:00') /* Bleeargh, Mosswart Swamp Lord */
-     , (0x7B97201D, 0x7B972037, '2005-02-09 10:00:00') /* Ydnew */;
+VALUES (0x7B97201D, 0x7B972005, '2005-02-09 10:00:00') /* Agent of the Arcanum (12050) */
+     , (0x7B97201D, 0x7B972017, '2005-02-09 10:00:00') /* Dai Ya the Scholar (5063) */
+     , (0x7B97201D, 0x7B97201C, '2005-02-09 10:00:00') /* Collector (21338) */
+     , (0x7B97201D, 0x7B972035, '2005-02-09 10:00:00') /* Apprentice Fletcher (27748) */
+     , (0x7B97201D, 0x7B972036, '2005-02-09 10:00:00') /* Bleeargh, Mosswart Swamp Lord (27899) */
+     , (0x7B97201D, 0x7B972037, '2005-02-09 10:00:00') /* Ydnew (28094) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B97201E, 21340, 0xB9720106, 86.834, 87.8486, 33.705, -0.26143, 0, 0, -0.965222, False, '2005-02-09 10:00:00'); /* Wedding Planner */

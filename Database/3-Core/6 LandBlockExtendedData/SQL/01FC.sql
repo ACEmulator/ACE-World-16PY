@@ -13,28 +13,28 @@ VALUES (0x701FC002,  1154, 0x01FC0114, 20, -60, 0, 1, 0, 0, 0, False, '2005-02-0
 /* @teleloc 0x01FC0114 [20.000000 -60.000000 0.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x701FC002, 0x701FC000, '2005-02-09 10:00:00') /* Red Phyntos Wasp */
-     , (0x701FC002, 0x701FC001, '2005-02-09 10:00:00') /* Red Phyntos Wasp */
-     , (0x701FC002, 0x701FC004, '2005-02-09 10:00:00') /* Spiny Armoredillo */
-     , (0x701FC002, 0x701FC005, '2005-02-09 10:00:00') /* Spiny Armoredillo */
-     , (0x701FC002, 0x701FC006, '2005-02-09 10:00:00') /* Red Phyntos Wasp */
-     , (0x701FC002, 0x701FC009, '2005-02-09 10:00:00') /* Red Phyntos Wasp */
-     , (0x701FC002, 0x701FC00A, '2005-02-09 10:00:00') /* Red Phyntos Wasp */
-     , (0x701FC002, 0x701FC00C, '2005-02-09 10:00:00') /* Adult Reedshark */
-     , (0x701FC002, 0x701FC00D, '2005-02-09 10:00:00') /* Reedshark Pup */
-     , (0x701FC002, 0x701FC00E, '2005-02-09 10:00:00') /* Reedshark Pup */
-     , (0x701FC002, 0x701FC011, '2005-02-09 10:00:00') /* Reedshark Pup */
-     , (0x701FC002, 0x701FC012, '2005-02-09 10:00:00') /* Reedshark Pup */
-     , (0x701FC002, 0x701FC014, '2005-02-09 10:00:00') /* Reedshark Pup */
-     , (0x701FC002, 0x701FC017, '2005-02-09 10:00:00') /* Reedshark Pup */
-     , (0x701FC002, 0x701FC018, '2005-02-09 10:00:00') /* Adult Reedshark */
-     , (0x701FC002, 0x701FC019, '2005-02-09 10:00:00') /* Adult Reedshark */
-     , (0x701FC002, 0x701FC01B, '2005-02-09 10:00:00') /* Red Phyntos Wasp */
-     , (0x701FC002, 0x701FC01C, '2005-02-09 10:00:00') /* Red Phyntos Wasp */
-     , (0x701FC002, 0x701FC01D, '2005-02-09 10:00:00') /* Reedshark Pup */
-     , (0x701FC002, 0x701FC01E, '2005-02-09 10:00:00') /* Red Phyntos Wasp */
-     , (0x701FC002, 0x701FC01F, '2005-02-09 10:00:00') /* Reedshark Pup */
-     , (0x701FC002, 0x701FC021, '2005-02-09 10:00:00') /* Red Phyntos Wasp */;
+VALUES (0x701FC002, 0x701FC000, '2005-02-09 10:00:00') /* Red Phyntos Wasp (12) */
+     , (0x701FC002, 0x701FC001, '2005-02-09 10:00:00') /* Red Phyntos Wasp (12) */
+     , (0x701FC002, 0x701FC004, '2005-02-09 10:00:00') /* Spiny Armoredillo (177) */
+     , (0x701FC002, 0x701FC005, '2005-02-09 10:00:00') /* Spiny Armoredillo (177) */
+     , (0x701FC002, 0x701FC006, '2005-02-09 10:00:00') /* Red Phyntos Wasp (12) */
+     , (0x701FC002, 0x701FC009, '2005-02-09 10:00:00') /* Red Phyntos Wasp (12) */
+     , (0x701FC002, 0x701FC00A, '2005-02-09 10:00:00') /* Red Phyntos Wasp (12) */
+     , (0x701FC002, 0x701FC00C, '2005-02-09 10:00:00') /* Adult Reedshark (221) */
+     , (0x701FC002, 0x701FC00D, '2005-02-09 10:00:00') /* Reedshark Pup (223) */
+     , (0x701FC002, 0x701FC00E, '2005-02-09 10:00:00') /* Reedshark Pup (223) */
+     , (0x701FC002, 0x701FC011, '2005-02-09 10:00:00') /* Reedshark Pup (223) */
+     , (0x701FC002, 0x701FC012, '2005-02-09 10:00:00') /* Reedshark Pup (223) */
+     , (0x701FC002, 0x701FC014, '2005-02-09 10:00:00') /* Reedshark Pup (223) */
+     , (0x701FC002, 0x701FC017, '2005-02-09 10:00:00') /* Reedshark Pup (223) */
+     , (0x701FC002, 0x701FC018, '2005-02-09 10:00:00') /* Adult Reedshark (221) */
+     , (0x701FC002, 0x701FC019, '2005-02-09 10:00:00') /* Adult Reedshark (221) */
+     , (0x701FC002, 0x701FC01B, '2005-02-09 10:00:00') /* Red Phyntos Wasp (12) */
+     , (0x701FC002, 0x701FC01C, '2005-02-09 10:00:00') /* Red Phyntos Wasp (12) */
+     , (0x701FC002, 0x701FC01D, '2005-02-09 10:00:00') /* Reedshark Pup (223) */
+     , (0x701FC002, 0x701FC01E, '2005-02-09 10:00:00') /* Red Phyntos Wasp (12) */
+     , (0x701FC002, 0x701FC01F, '2005-02-09 10:00:00') /* Reedshark Pup (223) */
+     , (0x701FC002, 0x701FC021, '2005-02-09 10:00:00') /* Red Phyntos Wasp (12) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x701FC003,  1128, 0x01FC0115, 18.8631, -71.5911, 0, 0.917711, 0, 0, -0.397248, False, '2005-02-09 10:00:00'); /* Surface Portal */

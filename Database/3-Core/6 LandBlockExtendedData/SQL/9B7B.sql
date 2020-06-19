@@ -9,7 +9,7 @@ VALUES (0x79B7B002,  7923, 0x9B7B0101, 10.3362, 66.2962, 21.705, -0.197269, 0, 0
 /* @teleloc 0x9B7B0101 [10.336200 66.296200 21.705000] -0.197269 0.000000 0.000000 0.980349 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79B7B002, 0x79B7B009, '2005-02-09 10:00:00') /* Saqat */;
+VALUES (0x79B7B002, 0x79B7B009, '2005-02-09 10:00:00') /* Saqat (5138) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79B7B003,   509, 0x9B7B0000, 29.7163, 104.495, 16.483, 0.468905, 0, 0, 0.883249, False, '2005-02-09 10:00:00'); /* Life Stone */

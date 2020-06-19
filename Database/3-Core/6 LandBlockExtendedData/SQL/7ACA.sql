@@ -37,8 +37,8 @@ VALUES (0x77ACA00B,  1154, 0x7ACA0135, 68.3721, 15.9495, 200.005, -0.151709, 0, 
 /* @teleloc 0x7ACA0135 [68.372100 15.949500 200.005000] -0.151709 0.000000 0.000000 0.988425 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x77ACA00B, 0x77ACA00A, '2005-02-09 10:00:00') /* Collector */
-     , (0x77ACA00B, 0x77ACA00D, '2005-02-09 10:00:00') /* Ulgrim the Unpleasant */;
+VALUES (0x77ACA00B, 0x77ACA00A, '2005-02-09 10:00:00') /* Collector (3917) */
+     , (0x77ACA00B, 0x77ACA00D, '2005-02-09 10:00:00') /* Ulgrim the Unpleasant (6873) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x77ACA00C,  8377, 0x7ACA0110, 33.25, 38.75, 201.075, 1, 0, 0, 0, False, '2005-02-09 10:00:00'); /* Beer Keg */

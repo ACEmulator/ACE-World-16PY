@@ -117,47 +117,47 @@ VALUES (0x701A701C,  1154, 0x01A701AD, 30.0986, -28.615, 138, -0.707107, 0, 0, -
 /* @teleloc 0x01A701AD [30.098600 -28.615000 138.000000] -0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x701A701C, 0x701A7001, '2005-02-09 10:00:00') /* Jibrit Zefir */
-     , (0x701A701C, 0x701A7002, '2005-02-09 10:00:00') /* Jibrit Zefir */
-     , (0x701A701C, 0x701A7003, '2005-02-09 10:00:00') /* Jibrit Zefir */
-     , (0x701A701C, 0x701A7005, '2005-02-09 10:00:00') /* Kilif Zefir */
-     , (0x701A701C, 0x701A7006, '2005-02-09 10:00:00') /* Kilif Zefir */
-     , (0x701A701C, 0x701A7009, '2005-02-09 10:00:00') /* Kilif Zefir */
-     , (0x701A701C, 0x701A700B, '2005-02-09 10:00:00') /* Kilif Zefir */
-     , (0x701A701C, 0x701A700D, '2005-02-09 10:00:00') /* Dark Wisp */
-     , (0x701A701C, 0x701A7011, '2005-02-09 10:00:00') /* Zofrit Zefir */
-     , (0x701A701C, 0x701A7012, '2005-02-09 10:00:00') /* Kilif Zefir */;
+VALUES (0x701A701C, 0x701A7001, '2005-02-09 10:00:00') /* Jibrit Zefir (2608) */
+     , (0x701A701C, 0x701A7002, '2005-02-09 10:00:00') /* Jibrit Zefir (2608) */
+     , (0x701A701C, 0x701A7003, '2005-02-09 10:00:00') /* Jibrit Zefir (2608) */
+     , (0x701A701C, 0x701A7005, '2005-02-09 10:00:00') /* Kilif Zefir (2610) */
+     , (0x701A701C, 0x701A7006, '2005-02-09 10:00:00') /* Kilif Zefir (2610) */
+     , (0x701A701C, 0x701A7009, '2005-02-09 10:00:00') /* Kilif Zefir (2610) */
+     , (0x701A701C, 0x701A700B, '2005-02-09 10:00:00') /* Kilif Zefir (2610) */
+     , (0x701A701C, 0x701A700D, '2005-02-09 10:00:00') /* Dark Wisp (1988) */
+     , (0x701A701C, 0x701A7011, '2005-02-09 10:00:00') /* Zofrit Zefir (2611) */
+     , (0x701A701C, 0x701A7012, '2005-02-09 10:00:00') /* Kilif Zefir (2610) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x701A701D,  1154, 0x01A701AD, 30.077, -26.5, 138, -0.707107, 0, 0, -0.707107, False, '2005-02-09 10:00:00'); /* Linkable Monster Generator */
 /* @teleloc 0x01A701AD [30.077000 -26.500000 138.000000] -0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x701A701D, 0x701A7007, '2005-02-09 10:00:00') /* Kilif Zefir */
-     , (0x701A701D, 0x701A7008, '2005-02-09 10:00:00') /* Kilif Zefir */
-     , (0x701A701D, 0x701A700E, '2005-02-09 10:00:00') /* Dark Wisp */
-     , (0x701A701D, 0x701A700F, '2005-02-09 10:00:00') /* Dark Wisp */
-     , (0x701A701D, 0x701A7010, '2005-02-09 10:00:00') /* Zofrit Zefir */;
+VALUES (0x701A701D, 0x701A7007, '2005-02-09 10:00:00') /* Kilif Zefir (2610) */
+     , (0x701A701D, 0x701A7008, '2005-02-09 10:00:00') /* Kilif Zefir (2610) */
+     , (0x701A701D, 0x701A700E, '2005-02-09 10:00:00') /* Dark Wisp (1988) */
+     , (0x701A701D, 0x701A700F, '2005-02-09 10:00:00') /* Dark Wisp (1988) */
+     , (0x701A701D, 0x701A7010, '2005-02-09 10:00:00') /* Zofrit Zefir (2611) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x701A701E,  1154, 0x01A701AD, 31.9287, -26.3968, 138, -0.707107, 0, 0, -0.707107, False, '2005-02-09 10:00:00'); /* Linkable Monster Generator */
 /* @teleloc 0x01A701AD [31.928700 -26.396800 138.000000] -0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x701A701E, 0x701A7013, '2005-02-09 10:00:00') /* Kilif Zefir */
-     , (0x701A701E, 0x701A7014, '2005-02-09 10:00:00') /* Kilif Zefir */
-     , (0x701A701E, 0x701A7017, '2005-02-09 10:00:00') /* Zofrit Zefir */
-     , (0x701A701E, 0x701A7018, '2005-02-09 10:00:00') /* Zofrit Zefir */
-     , (0x701A701E, 0x701A7019, '2005-02-09 10:00:00') /* Zofrit Zefir */;
+VALUES (0x701A701E, 0x701A7013, '2005-02-09 10:00:00') /* Kilif Zefir (2610) */
+     , (0x701A701E, 0x701A7014, '2005-02-09 10:00:00') /* Kilif Zefir (2610) */
+     , (0x701A701E, 0x701A7017, '2005-02-09 10:00:00') /* Zofrit Zefir (2611) */
+     , (0x701A701E, 0x701A7018, '2005-02-09 10:00:00') /* Zofrit Zefir (2611) */
+     , (0x701A701E, 0x701A7019, '2005-02-09 10:00:00') /* Zofrit Zefir (2611) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x701A701F,  1154, 0x01A701AD, 32.326, -28.3559, 138, -0.707107, 0, 0, -0.707107, False, '2005-02-09 10:00:00'); /* Linkable Monster Generator */
 /* @teleloc 0x01A701AD [32.326000 -28.355900 138.000000] -0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x701A701F, 0x701A7004, '2005-02-09 10:00:00') /* Jibrit Zefir */
-     , (0x701A701F, 0x701A700A, '2005-02-09 10:00:00') /* Kilif Zefir */
-     , (0x701A701F, 0x701A700C, '2005-02-09 10:00:00') /* Kilif Zefir */
-     , (0x701A701F, 0x701A7015, '2005-02-09 10:00:00') /* Kilif Zefir */
-     , (0x701A701F, 0x701A7016, '2005-02-09 10:00:00') /* Zofrit Zefir */
-     , (0x701A701F, 0x701A701A, '2005-02-09 10:00:00') /* Dark Wisp */;
+VALUES (0x701A701F, 0x701A7004, '2005-02-09 10:00:00') /* Jibrit Zefir (2608) */
+     , (0x701A701F, 0x701A700A, '2005-02-09 10:00:00') /* Kilif Zefir (2610) */
+     , (0x701A701F, 0x701A700C, '2005-02-09 10:00:00') /* Kilif Zefir (2610) */
+     , (0x701A701F, 0x701A7015, '2005-02-09 10:00:00') /* Kilif Zefir (2610) */
+     , (0x701A701F, 0x701A7016, '2005-02-09 10:00:00') /* Zofrit Zefir (2611) */
+     , (0x701A701F, 0x701A701A, '2005-02-09 10:00:00') /* Dark Wisp (1988) */;

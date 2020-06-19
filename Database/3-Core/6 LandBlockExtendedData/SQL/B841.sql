@@ -13,32 +13,32 @@ VALUES (0x7B841002,  7923, 0xB8410000, 74.362, 166.394, 30.005, -0.781315, 0, 0,
 /* @teleloc 0xB8410000 [74.362000 166.394000 30.005000] -0.781315 0.000000 0.000000 -0.624137 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B841002, 0x7B841004, '2005-02-09 10:00:00') /* Banderling Guard */
-     , (0x7B841002, 0x7B841005, '2005-02-09 10:00:00') /* Banderling Guard */
-     , (0x7B841002, 0x7B841006, '2005-02-09 10:00:00') /* Banderling Guard */
-     , (0x7B841002, 0x7B841007, '2005-02-09 10:00:00') /* Banderling Guard */
-     , (0x7B841002, 0x7B841008, '2005-02-09 10:00:00') /* Banderling Guard */
-     , (0x7B841002, 0x7B841009, '2005-02-09 10:00:00') /* Banderling Guard */
-     , (0x7B841002, 0x7B84100A, '2005-02-09 10:00:00') /* Banderling Guard */
-     , (0x7B841002, 0x7B84100B, '2005-02-09 10:00:00') /* Banderling Guard */
-     , (0x7B841002, 0x7B84100C, '2005-02-09 10:00:00') /* Banderling Guard */
-     , (0x7B841002, 0x7B84100E, '2005-02-09 10:00:00') /* Banderling Guard */
-     , (0x7B841002, 0x7B84100F, '2005-02-09 10:00:00') /* Banderling Guard */
-     , (0x7B841002, 0x7B841010, '2005-02-09 10:00:00') /* Banderling Guard */
-     , (0x7B841002, 0x7B841011, '2005-02-09 10:00:00') /* Banderling Guard */
-     , (0x7B841002, 0x7B841012, '2005-02-09 10:00:00') /* Banderling Guard */
-     , (0x7B841002, 0x7B841013, '2005-02-09 10:00:00') /* Banderling Scout */
-     , (0x7B841002, 0x7B841014, '2005-02-09 10:00:00') /* Banderling Scout */
-     , (0x7B841002, 0x7B841015, '2005-02-09 10:00:00') /* Banderling Scout */
-     , (0x7B841002, 0x7B841016, '2005-02-09 10:00:00') /* Banderling Scout */
-     , (0x7B841002, 0x7B841017, '2005-02-09 10:00:00') /* Banderling Scout */;
+VALUES (0x7B841002, 0x7B841004, '2005-02-09 10:00:00') /* Banderling Guard (937) */
+     , (0x7B841002, 0x7B841005, '2005-02-09 10:00:00') /* Banderling Guard (937) */
+     , (0x7B841002, 0x7B841006, '2005-02-09 10:00:00') /* Banderling Guard (937) */
+     , (0x7B841002, 0x7B841007, '2005-02-09 10:00:00') /* Banderling Guard (937) */
+     , (0x7B841002, 0x7B841008, '2005-02-09 10:00:00') /* Banderling Guard (937) */
+     , (0x7B841002, 0x7B841009, '2005-02-09 10:00:00') /* Banderling Guard (937) */
+     , (0x7B841002, 0x7B84100A, '2005-02-09 10:00:00') /* Banderling Guard (937) */
+     , (0x7B841002, 0x7B84100B, '2005-02-09 10:00:00') /* Banderling Guard (937) */
+     , (0x7B841002, 0x7B84100C, '2005-02-09 10:00:00') /* Banderling Guard (937) */
+     , (0x7B841002, 0x7B84100E, '2005-02-09 10:00:00') /* Banderling Guard (937) */
+     , (0x7B841002, 0x7B84100F, '2005-02-09 10:00:00') /* Banderling Guard (937) */
+     , (0x7B841002, 0x7B841010, '2005-02-09 10:00:00') /* Banderling Guard (937) */
+     , (0x7B841002, 0x7B841011, '2005-02-09 10:00:00') /* Banderling Guard (937) */
+     , (0x7B841002, 0x7B841012, '2005-02-09 10:00:00') /* Banderling Guard (937) */
+     , (0x7B841002, 0x7B841013, '2005-02-09 10:00:00') /* Banderling Scout (6) */
+     , (0x7B841002, 0x7B841014, '2005-02-09 10:00:00') /* Banderling Scout (6) */
+     , (0x7B841002, 0x7B841015, '2005-02-09 10:00:00') /* Banderling Scout (6) */
+     , (0x7B841002, 0x7B841016, '2005-02-09 10:00:00') /* Banderling Scout (6) */
+     , (0x7B841002, 0x7B841017, '2005-02-09 10:00:00') /* Banderling Scout (6) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B841003,  3955, 0xB8410000, 76.9058, 165.818, 30.005, -0.781315, 0, 0, -0.624137, False, '2005-02-09 10:00:00'); /* Linkable Monster Gen (15 min.) */
 /* @teleloc 0xB8410000 [76.905800 165.818000 30.005000] -0.781315 0.000000 0.000000 -0.624137 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B841003, 0x7B84100D, '2005-02-09 10:00:00') /* Banderling Captain */;
+VALUES (0x7B841003, 0x7B84100D, '2005-02-09 10:00:00') /* Banderling Captain (184) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B841004,   937, 0xB8410000, 82.1193, 164.655, 30.0077, 0.850409, 0, 0, 0.526123,  True, '2005-02-09 10:00:00'); /* Banderling Guard */

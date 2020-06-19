@@ -5,11 +5,11 @@ VALUES (0x72482001,  7923, 0x24820100, 36.9495, 28.5506, 214.805, -0.0962811, 0,
 /* @teleloc 0x24820100 [36.949500 28.550600 214.805000] -0.096281 0.000000 0.000000 -0.995354 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72482001, 0x72482006, '2005-02-09 10:00:00') /* Direland Rat */
-     , (0x72482001, 0x72482007, '2005-02-09 10:00:00') /* Direland Rat */
-     , (0x72482001, 0x72482008, '2005-02-09 10:00:00') /* Direland Rat */
-     , (0x72482001, 0x72482009, '2005-02-09 10:00:00') /* Direland Rat */
-     , (0x72482001, 0x7248200A, '2005-02-09 10:00:00') /* Pyreal Golem */;
+VALUES (0x72482001, 0x72482006, '2005-02-09 10:00:00') /* Direland Rat (24310) */
+     , (0x72482001, 0x72482007, '2005-02-09 10:00:00') /* Direland Rat (24310) */
+     , (0x72482001, 0x72482008, '2005-02-09 10:00:00') /* Direland Rat (24310) */
+     , (0x72482001, 0x72482009, '2005-02-09 10:00:00') /* Direland Rat (24310) */
+     , (0x72482001, 0x7248200A, '2005-02-09 10:00:00') /* Pyreal Golem (14520) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72482006, 24310, 0x24820100, 37.839, 23.7106, 214.812, 0.234256, 0, 0, 0.972175,  True, '2005-02-09 10:00:00'); /* Direland Rat */

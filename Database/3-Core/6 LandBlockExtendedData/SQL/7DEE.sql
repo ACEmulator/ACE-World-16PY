@@ -65,26 +65,26 @@ VALUES (0x77DEE022,  7923, 0x7DEE0102, 85.0822, 136.836, 156.005, 0.998661, 0, 0
 /* @teleloc 0x7DEE0102 [85.082200 136.836000 156.005000] 0.998661 0.000000 0.000000 -0.051733 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x77DEE022, 0x77DEE013, '2005-02-09 10:00:00') /* Vapor Golem */
-     , (0x77DEE022, 0x77DEE014, '2005-02-09 10:00:00') /* Vapor Golem */
-     , (0x77DEE022, 0x77DEE015, '2005-02-09 10:00:00') /* Vapor Golem */
-     , (0x77DEE022, 0x77DEE016, '2005-02-09 10:00:00') /* Stasis Wisp */
-     , (0x77DEE022, 0x77DEE017, '2005-02-09 10:00:00') /* Stasis Wisp */
-     , (0x77DEE022, 0x77DEE018, '2005-02-09 10:00:00') /* Stasis Wisp */
-     , (0x77DEE022, 0x77DEE019, '2005-02-09 10:00:00') /* Stasis Wisp */
-     , (0x77DEE022, 0x77DEE01A, '2005-02-09 10:00:00') /* Stasis Wisp */
-     , (0x77DEE022, 0x77DEE01B, '2005-02-09 10:00:00') /* Stasis Wisp */
-     , (0x77DEE022, 0x77DEE01C, '2005-02-09 10:00:00') /* Stasis Wisp */
-     , (0x77DEE022, 0x77DEE01D, '2005-02-09 10:00:00') /* Stasis Wisp */
-     , (0x77DEE022, 0x77DEE01E, '2005-02-09 10:00:00') /* Stasis Wisp */
-     , (0x77DEE022, 0x77DEE01F, '2005-02-09 10:00:00') /* Stasis Wisp */
-     , (0x77DEE022, 0x77DEE020, '2005-02-09 10:00:00') /* Vapor Golem */
-     , (0x77DEE022, 0x77DEE021, '2005-02-09 10:00:00') /* Vapor Golem */
-     , (0x77DEE022, 0x77DEE024, '2005-02-09 10:00:00') /* Stasis Wisp */
-     , (0x77DEE022, 0x77DEE025, '2005-02-09 10:00:00') /* Stasis Wisp */
-     , (0x77DEE022, 0x77DEE026, '2005-02-09 10:00:00') /* Stasis Wisp */
-     , (0x77DEE022, 0x77DEE027, '2005-02-09 10:00:00') /* Stasis Wisp */
-     , (0x77DEE022, 0x77DEE028, '2005-02-09 10:00:00') /* Stasis Wisp */;
+VALUES (0x77DEE022, 0x77DEE013, '2005-02-09 10:00:00') /* Vapor Golem (7099) */
+     , (0x77DEE022, 0x77DEE014, '2005-02-09 10:00:00') /* Vapor Golem (7099) */
+     , (0x77DEE022, 0x77DEE015, '2005-02-09 10:00:00') /* Vapor Golem (7099) */
+     , (0x77DEE022, 0x77DEE016, '2005-02-09 10:00:00') /* Stasis Wisp (21550) */
+     , (0x77DEE022, 0x77DEE017, '2005-02-09 10:00:00') /* Stasis Wisp (21550) */
+     , (0x77DEE022, 0x77DEE018, '2005-02-09 10:00:00') /* Stasis Wisp (21550) */
+     , (0x77DEE022, 0x77DEE019, '2005-02-09 10:00:00') /* Stasis Wisp (21550) */
+     , (0x77DEE022, 0x77DEE01A, '2005-02-09 10:00:00') /* Stasis Wisp (21550) */
+     , (0x77DEE022, 0x77DEE01B, '2005-02-09 10:00:00') /* Stasis Wisp (21550) */
+     , (0x77DEE022, 0x77DEE01C, '2005-02-09 10:00:00') /* Stasis Wisp (21550) */
+     , (0x77DEE022, 0x77DEE01D, '2005-02-09 10:00:00') /* Stasis Wisp (21550) */
+     , (0x77DEE022, 0x77DEE01E, '2005-02-09 10:00:00') /* Stasis Wisp (21550) */
+     , (0x77DEE022, 0x77DEE01F, '2005-02-09 10:00:00') /* Stasis Wisp (21550) */
+     , (0x77DEE022, 0x77DEE020, '2005-02-09 10:00:00') /* Vapor Golem (7099) */
+     , (0x77DEE022, 0x77DEE021, '2005-02-09 10:00:00') /* Vapor Golem (7099) */
+     , (0x77DEE022, 0x77DEE024, '2005-02-09 10:00:00') /* Stasis Wisp (21550) */
+     , (0x77DEE022, 0x77DEE025, '2005-02-09 10:00:00') /* Stasis Wisp (21550) */
+     , (0x77DEE022, 0x77DEE026, '2005-02-09 10:00:00') /* Stasis Wisp (21550) */
+     , (0x77DEE022, 0x77DEE027, '2005-02-09 10:00:00') /* Stasis Wisp (21550) */
+     , (0x77DEE022, 0x77DEE028, '2005-02-09 10:00:00') /* Stasis Wisp (21550) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x77DEE023, 23605, 0x7DEE0102, 80.3325, 133.726, 156.005, -0.789389, 0, 0, -0.613894, False, '2005-02-09 10:00:00'); /* Runed Chest */

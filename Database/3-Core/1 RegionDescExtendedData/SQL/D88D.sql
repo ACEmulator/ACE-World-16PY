@@ -1,5 +1,5 @@
-DELETE FROM `encounter` WHERE `landblock` = 55437;
+DELETE FROM `encounter` WHERE `landblock` = 0xD88D;
 
 INSERT INTO `encounter` (`landblock`, `weenie_Class_Id`, `cell_X`, `cell_Y`, `last_Modified`)
-VALUES (55437, 21173, 1, 1, '2005-02-09 10:00:00') /* Low Central Shore Mix Generator */
-     , (55437, 21173, 2, 0, '2005-02-09 10:00:00') /* Low Central Shore Mix Generator */;
+VALUES (0xD88D, 21173, 1, 1, '2005-02-09 10:00:00') /* Low Central Shore Mix Generator */
+     , (0xD88D, 21173, 2, 0, '2005-02-09 10:00:00') /* Low Central Shore Mix Generator */;

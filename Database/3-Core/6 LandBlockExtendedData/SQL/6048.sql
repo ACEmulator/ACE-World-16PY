@@ -13,9 +13,9 @@ VALUES (0x76048002,  4454, 0x60480113, 100, -180, -23.995, 0, 0, 0, -1, False, '
 /* @teleloc 0x60480113 [100.000000 -180.000000 -23.995000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x76048002, 0x76048000, '2005-02-09 10:00:00') /* Lever */
-     , (0x76048002, 0x76048005, '2005-02-09 10:00:00') /* Lever */
-     , (0x76048002, 0x760480EC, '2005-02-09 10:00:00') /* Lever */;
+VALUES (0x76048002, 0x76048000, '2005-02-09 10:00:00') /* Lever (14565) */
+     , (0x76048002, 0x76048005, '2005-02-09 10:00:00') /* Lever (14565) */
+     , (0x76048002, 0x760480EC, '2005-02-09 10:00:00') /* Lever (14565) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x76048003, 23090, 0x60480116, 100, -190, -23.9935, 1, 0, 0, 0,  True, '2005-02-09 10:00:00'); /* Shadow Spectre */
@@ -74,7 +74,7 @@ VALUES (0x76048010,  2179, 0x60480135, 60, -44.75, -17.995, -4.37114E-08, 0, 0, 
 /* @teleloc 0x60480135 [60.000000 -44.750000 -17.995000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x76048010, 0x76048019, '2005-02-09 10:00:00') /* Lever */;
+VALUES (0x76048010, 0x76048019, '2005-02-09 10:00:00') /* Lever (14565) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x76048011, 14565, 0x6048013D, 62.5264, -126.441, -17.995, 0.659983, 0, 0, 0.751281,  True, '2005-02-09 10:00:00'); /* Lever */
@@ -93,7 +93,7 @@ VALUES (0x76048014,  2179, 0x6048013F, 55.25, -130, -18, -0.707107, 0, 0, -0.707
 /* @teleloc 0x6048013F [55.250000 -130.000000 -18.000000] -0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x76048014, 0x7604800A, '2005-02-09 10:00:00') /* Lever */;
+VALUES (0x76048014, 0x7604800A, '2005-02-09 10:00:00') /* Lever (14565) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x76048015, 23555, 0x60480140, 60, -150, -17.995, 0.796084, 0, 0, 0.605186,  True, '2005-02-09 10:00:00'); /* Telumiat Hollow Minion */
@@ -112,7 +112,7 @@ VALUES (0x76048018,  2179, 0x60480148, 84.675, -160.037, -17.995, -0.707107, 0, 
 /* @teleloc 0x60480148 [84.675000 -160.037000 -17.995000] -0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x76048018, 0x76048011, '2005-02-09 10:00:00') /* Lever */;
+VALUES (0x76048018, 0x76048011, '2005-02-09 10:00:00') /* Lever (14565) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x76048019, 14565, 0x6048015F, 136.498, -36.5932, -17.995, 0.999385, 0, 0, -0.035076,  True, '2005-02-09 10:00:00'); /* Lever */
@@ -163,7 +163,7 @@ VALUES (0x76048024,  2179, 0x60480176, 164.75, -140, -17.995, -0.707107, 0, 0, -
 /* @teleloc 0x60480176 [164.750000 -140.000000 -17.995000] -0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x76048024, 0x7604801D, '2005-02-09 10:00:00') /* Lever */;
+VALUES (0x76048024, 0x7604801D, '2005-02-09 10:00:00') /* Lever (14565) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x76048025, 10776, 0x6048017D, 50, -150, -11.995, 1, 0, 0, -4.37114E-08,  True, '2005-02-09 10:00:00'); /* Unconquered Drudge */
@@ -302,14 +302,14 @@ VALUES (0x76048046,  2179, 0x604801E4, 100, -45.25, -5.995, 0, 0, 0, -1, False, 
 /* @teleloc 0x604801E4 [100.000000 -45.250000 -5.995000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x76048046, 0x7604800D, '2005-02-09 10:00:00') /* Lever */;
+VALUES (0x76048046, 0x7604800D, '2005-02-09 10:00:00') /* Lever (14565) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x76048047,  7561, 0x604801E9, 100, -70, -5.41987, 1, 0, 0, -4.37114E-08, False, '2005-02-09 10:00:00'); /* Magic trap */
 /* @teleloc 0x604801E9 [100.000000 -70.000000 -5.419870] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x76048047, 0x76048048, '2005-02-09 10:00:00') /* Pressure Plate */;
+VALUES (0x76048047, 0x76048048, '2005-02-09 10:00:00') /* Pressure Plate (298) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x76048048,   298, 0x604801E9, 100, -70, -5.995, 1, 0, 0, -4.37114E-08,  True, '2005-02-09 10:00:00'); /* Pressure Plate */
@@ -360,164 +360,164 @@ VALUES (0x76048053,  2179, 0x60480223, 100, -94.75, 0.005, -4.37114E-08, 0, 0, -
 /* @teleloc 0x60480223 [100.000000 -94.750000 0.005000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x76048053, 0x7604802F, '2005-02-09 10:00:00') /* Lever */
-     , (0x76048053, 0x760480E9, '2005-02-09 10:00:00') /* Lever */;
+VALUES (0x76048053, 0x7604802F, '2005-02-09 10:00:00') /* Lever (14565) */
+     , (0x76048053, 0x760480E9, '2005-02-09 10:00:00') /* Lever (14565) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x76048054,  7924, 0x60480225, 100, -110, 0.005, 1, 0, 0, 0, False, '2005-02-09 10:00:00'); /* Linkable Monster Generator ( 5 Min.) */
 /* @teleloc 0x60480225 [100.000000 -110.000000 0.005000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x76048054, 0x76048001, '2005-02-09 10:00:00') /* The Auditor */
-     , (0x76048054, 0x76048003, '2005-02-09 10:00:00') /* Shadow Spectre */
-     , (0x76048054, 0x76048004, '2005-02-09 10:00:00') /* Shadow Spectre */
-     , (0x76048054, 0x76048006, '2005-02-09 10:00:00') /* Shadow Spectre */
-     , (0x76048054, 0x76048007, '2005-02-09 10:00:00') /* Abyssal Shadow */
-     , (0x76048054, 0x76048008, '2005-02-09 10:00:00') /* Abyssal Shadow */
-     , (0x76048054, 0x76048009, '2005-02-09 10:00:00') /* Shadow Phantom */
-     , (0x76048054, 0x7604800E, '2005-02-09 10:00:00') /* Soiled Doll */
-     , (0x76048054, 0x7604800F, '2005-02-09 10:00:00') /* Tumerok Trooper */
-     , (0x76048054, 0x76048012, '2005-02-09 10:00:00') /* Desecrated Doll */
-     , (0x76048054, 0x76048013, '2005-02-09 10:00:00') /* Tumerok Trooper */
-     , (0x76048054, 0x76048015, '2005-02-09 10:00:00') /* Telumiat Hollow Minion */
-     , (0x76048054, 0x76048016, '2005-02-09 10:00:00') /* Soiled Doll */
-     , (0x76048054, 0x76048017, '2005-02-09 10:00:00') /* Unconquered Drudge */
-     , (0x76048054, 0x7604801A, '2005-02-09 10:00:00') /* Tumerok War Monger */
-     , (0x76048054, 0x7604801B, '2005-02-09 10:00:00') /* Drudge Bloodletter */
-     , (0x76048054, 0x7604801E, '2005-02-09 10:00:00') /* Tumerok War Monger */
-     , (0x76048054, 0x7604801F, '2005-02-09 10:00:00') /* Shadow Phantom */
-     , (0x76048054, 0x76048020, '2005-02-09 10:00:00') /* Telumiat Hollow Minion */
-     , (0x76048054, 0x76048021, '2005-02-09 10:00:00') /* Telumiat Hollow Minion */
-     , (0x76048054, 0x76048025, '2005-02-09 10:00:00') /* Unconquered Drudge */
-     , (0x76048054, 0x76048027, '2005-02-09 10:00:00') /* Ascendant Drudge */
-     , (0x76048054, 0x76048029, '2005-02-09 10:00:00') /* Tumerok War Monger */
-     , (0x76048054, 0x7604802B, '2005-02-09 10:00:00') /* Tumerok Trooper */
-     , (0x76048054, 0x7604802D, '2005-02-09 10:00:00') /* Shadow Spectre */
-     , (0x76048054, 0x7604802E, '2005-02-09 10:00:00') /* Shadow Spectre */
-     , (0x76048054, 0x76048030, '2005-02-09 10:00:00') /* Shadow Spectre */
-     , (0x76048054, 0x76048032, '2005-02-09 10:00:00') /* Drudge Bloodletter */
-     , (0x76048054, 0x76048034, '2005-02-09 10:00:00') /* Abyssal Shadow */
-     , (0x76048054, 0x76048037, '2005-02-09 10:00:00') /* Shadow Wraith */
-     , (0x76048054, 0x7604803B, '2005-02-09 10:00:00') /* Virindi Consul */
-     , (0x76048054, 0x7604803C, '2005-02-09 10:00:00') /* Shadow Phantom */
-     , (0x76048054, 0x7604803D, '2005-02-09 10:00:00') /* Virindi Consul */
-     , (0x76048054, 0x7604803E, '2005-02-09 10:00:00') /* Virindi Consul */
-     , (0x76048054, 0x7604804E, '2005-02-09 10:00:00') /* Desecrated Doll */
-     , (0x76048054, 0x7604804F, '2005-02-09 10:00:00') /* Shadow Phantom */
-     , (0x76048054, 0x76048050, '2005-02-09 10:00:00') /* Desecrated Doll */
-     , (0x76048054, 0x76048051, '2005-02-09 10:00:00') /* Desecrated Doll */
-     , (0x76048054, 0x76048058, '2005-02-09 10:00:00') /* Shadow Wraith */
-     , (0x76048054, 0x76048059, '2005-02-09 10:00:00') /* Shadow Wraith */
-     , (0x76048054, 0x7604805A, '2005-02-09 10:00:00') /* Abyssal Shadow */
-     , (0x76048054, 0x7604805B, '2005-02-09 10:00:00') /* Abyssal Shadow */
-     , (0x76048054, 0x7604805C, '2005-02-09 10:00:00') /* Shadow Wraith */
-     , (0x76048054, 0x7604805E, '2005-02-09 10:00:00') /* Soiled Doll */
-     , (0x76048054, 0x7604805F, '2005-02-09 10:00:00') /* Soiled Doll */
-     , (0x76048054, 0x76048060, '2005-02-09 10:00:00') /* Telumiat Hollow Minion */
-     , (0x76048054, 0x76048061, '2005-02-09 10:00:00') /* Telumiat Hollow Minion */
-     , (0x76048054, 0x76048065, '2005-02-09 10:00:00') /* Tumerok Trooper */
-     , (0x76048054, 0x76048066, '2005-02-09 10:00:00') /* Tumerok Trooper */
-     , (0x76048054, 0x76048067, '2005-02-09 10:00:00') /* Tumerok War Monger */
-     , (0x76048054, 0x76048068, '2005-02-09 10:00:00') /* Tumerok War Monger */
-     , (0x76048054, 0x7604806C, '2005-02-09 10:00:00') /* Shadow Phantom */
-     , (0x76048054, 0x7604806D, '2005-02-09 10:00:00') /* Shadow Phantom */
-     , (0x76048054, 0x7604806E, '2005-02-09 10:00:00') /* Desecrated Doll */
-     , (0x76048054, 0x76048071, '2005-02-09 10:00:00') /* Soiled Doll */
-     , (0x76048054, 0x76048074, '2005-02-09 10:00:00') /* Soiled Doll */
-     , (0x76048054, 0x76048076, '2005-02-09 10:00:00') /* Peerless Drudge */
-     , (0x76048054, 0x76048077, '2005-02-09 10:00:00') /* Unconquered Drudge */
-     , (0x76048054, 0x76048078, '2005-02-09 10:00:00') /* Unconquered Drudge */
-     , (0x76048054, 0x76048079, '2005-02-09 10:00:00') /* Ascendant Drudge */
-     , (0x76048054, 0x7604807A, '2005-02-09 10:00:00') /* Drudge Cabalist */
-     , (0x76048054, 0x7604807C, '2005-02-09 10:00:00') /* Drudge Bloodletter */
-     , (0x76048054, 0x7604807D, '2005-02-09 10:00:00') /* Ascendant Drudge */
-     , (0x76048054, 0x7604807E, '2005-02-09 10:00:00') /* Ascendant Drudge */
-     , (0x76048054, 0x7604807F, '2005-02-09 10:00:00') /* Shadow Spectre */
-     , (0x76048054, 0x76048080, '2005-02-09 10:00:00') /* Shadow Spectre */
-     , (0x76048054, 0x76048081, '2005-02-09 10:00:00') /* Abyssal Shadow */
-     , (0x76048054, 0x76048082, '2005-02-09 10:00:00') /* Shadow Phantom */
-     , (0x76048054, 0x76048084, '2005-02-09 10:00:00') /* Shadow Phantom */
-     , (0x76048054, 0x76048085, '2005-02-09 10:00:00') /* Ascendant Drudge */
-     , (0x76048054, 0x76048086, '2005-02-09 10:00:00') /* Ascendant Drudge */
-     , (0x76048054, 0x76048088, '2005-02-09 10:00:00') /* Unconquered Drudge */
-     , (0x76048054, 0x7604808C, '2005-02-09 10:00:00') /* Shadow Phantom */
-     , (0x76048054, 0x7604808D, '2005-02-09 10:00:00') /* Drudge Bloodletter */
-     , (0x76048054, 0x7604808E, '2005-02-09 10:00:00') /* Drudge Bloodletter */
-     , (0x76048054, 0x76048092, '2005-02-09 10:00:00') /* Shadow Phantom */
-     , (0x76048054, 0x76048093, '2005-02-09 10:00:00') /* Tumerok War Monger */
-     , (0x76048054, 0x76048094, '2005-02-09 10:00:00') /* Tumerok War Monger */
-     , (0x76048054, 0x76048095, '2005-02-09 10:00:00') /* Tumerok Trooper */
-     , (0x76048054, 0x76048099, '2005-02-09 10:00:00') /* Shadow Phantom */
-     , (0x76048054, 0x7604809A, '2005-02-09 10:00:00') /* Soiled Doll */
-     , (0x76048054, 0x7604809B, '2005-02-09 10:00:00') /* Ascendant Drudge */
-     , (0x76048054, 0x7604809C, '2005-02-09 10:00:00') /* Unconquered Drudge */
-     , (0x76048054, 0x7604809E, '2005-02-09 10:00:00') /* Shadow Phantom */
-     , (0x76048054, 0x7604809F, '2005-02-09 10:00:00') /* Malignant Marionette */
-     , (0x76048054, 0x760480A0, '2005-02-09 10:00:00') /* Malignant Marionette */
-     , (0x76048054, 0x760480A1, '2005-02-09 10:00:00') /* Desecrated Doll */
-     , (0x76048054, 0x760480A3, '2005-02-09 10:00:00') /* Shadow Phantom */
-     , (0x76048054, 0x760480A4, '2005-02-09 10:00:00') /* Unconquered Drudge */
-     , (0x76048054, 0x760480A5, '2005-02-09 10:00:00') /* Ascendant Drudge */
-     , (0x76048054, 0x760480A6, '2005-02-09 10:00:00') /* Abyssal Shadow */
-     , (0x76048054, 0x760480A7, '2005-02-09 10:00:00') /* Telumiat Hollow Minion */
-     , (0x76048054, 0x760480A8, '2005-02-09 10:00:00') /* Telumiat Hollow Minion */
-     , (0x76048054, 0x760480A9, '2005-02-09 10:00:00') /* Ascendant Drudge */
-     , (0x76048054, 0x760480AA, '2005-02-09 10:00:00') /* Tumerok Trooper */
-     , (0x76048054, 0x760480AE, '2005-02-09 10:00:00') /* Shadow Phantom */
-     , (0x76048054, 0x760480AF, '2005-02-09 10:00:00') /* Tumerok War Monger */
-     , (0x76048054, 0x760480B0, '2005-02-09 10:00:00') /* Soiled Doll */
-     , (0x76048054, 0x760480B1, '2005-02-09 10:00:00') /* Telumiat Hollow Minion */
-     , (0x76048054, 0x760480B2, '2005-02-09 10:00:00') /* Telumiat Hollow Minion */
-     , (0x76048054, 0x760480B4, '2005-02-09 10:00:00') /* Tumerok Trooper */
-     , (0x76048054, 0x760480B5, '2005-02-09 10:00:00') /* Tumerok Trooper */
-     , (0x76048054, 0x760480B6, '2005-02-09 10:00:00') /* Drudge Bloodletter */
-     , (0x76048054, 0x760480BA, '2005-02-09 10:00:00') /* Shadow Spectre */
-     , (0x76048054, 0x760480BB, '2005-02-09 10:00:00') /* Shadow Spectre */
-     , (0x76048054, 0x760480BC, '2005-02-09 10:00:00') /* Drudge Bloodletter */
-     , (0x76048054, 0x760480BD, '2005-02-09 10:00:00') /* Tumerok War Monger */
-     , (0x76048054, 0x760480BE, '2005-02-09 10:00:00') /* Shadow Spectre */
-     , (0x76048054, 0x760480C2, '2005-02-09 10:00:00') /* Unconquered Drudge */
-     , (0x76048054, 0x760480C3, '2005-02-09 10:00:00') /* Unconquered Drudge */
-     , (0x76048054, 0x760480C4, '2005-02-09 10:00:00') /* Telumiat Hollow Minion */
-     , (0x76048054, 0x760480C6, '2005-02-09 10:00:00') /* Shadow Phantom */
-     , (0x76048054, 0x760480C7, '2005-02-09 10:00:00') /* Tumerok Trooper */
-     , (0x76048054, 0x760480C8, '2005-02-09 10:00:00') /* Tumerok Trooper */
-     , (0x76048054, 0x760480C9, '2005-02-09 10:00:00') /* Abyssal Shadow */
-     , (0x76048054, 0x760480CA, '2005-02-09 10:00:00') /* Drudge Bloodletter */
-     , (0x76048054, 0x760480CE, '2005-02-09 10:00:00') /* Tumerok War Monger */
-     , (0x76048054, 0x760480CF, '2005-02-09 10:00:00') /* Tumerok War Monger */
-     , (0x76048054, 0x760480D0, '2005-02-09 10:00:00') /* Tumerok War Monger */
-     , (0x76048054, 0x760480D1, '2005-02-09 10:00:00') /* Tumerok War Monger */
-     , (0x76048054, 0x760480D2, '2005-02-09 10:00:00') /* Shadow Phantom */
-     , (0x76048054, 0x760480D4, '2005-02-09 10:00:00') /* Unconquered Drudge */
-     , (0x76048054, 0x760480D5, '2005-02-09 10:00:00') /* Shadow Spectre */
-     , (0x76048054, 0x760480D6, '2005-02-09 10:00:00') /* Tumerok War Monger */
-     , (0x76048054, 0x760480D9, '2005-02-09 10:00:00') /* Ascendant Drudge */
-     , (0x76048054, 0x760480DA, '2005-02-09 10:00:00') /* Shadow Wraith */
-     , (0x76048054, 0x760480DB, '2005-02-09 10:00:00') /* Shadow Wraith */
-     , (0x76048054, 0x760480DC, '2005-02-09 10:00:00') /* Shadow Phantom */
-     , (0x76048054, 0x760480DD, '2005-02-09 10:00:00') /* Unconquered Drudge */
-     , (0x76048054, 0x760480DE, '2005-02-09 10:00:00') /* Soiled Doll */
-     , (0x76048054, 0x760480DF, '2005-02-09 10:00:00') /* Shadow Spectre */
-     , (0x76048054, 0x760480E1, '2005-02-09 10:00:00') /* Shadow Phantom */
-     , (0x76048054, 0x760480E2, '2005-02-09 10:00:00') /* Ascendant Drudge */;
+VALUES (0x76048054, 0x76048001, '2005-02-09 10:00:00') /* The Auditor (22913) */
+     , (0x76048054, 0x76048003, '2005-02-09 10:00:00') /* Shadow Spectre (23090) */
+     , (0x76048054, 0x76048004, '2005-02-09 10:00:00') /* Shadow Spectre (23090) */
+     , (0x76048054, 0x76048006, '2005-02-09 10:00:00') /* Shadow Spectre (23090) */
+     , (0x76048054, 0x76048007, '2005-02-09 10:00:00') /* Abyssal Shadow (23562) */
+     , (0x76048054, 0x76048008, '2005-02-09 10:00:00') /* Abyssal Shadow (23562) */
+     , (0x76048054, 0x76048009, '2005-02-09 10:00:00') /* Shadow Phantom (23089) */
+     , (0x76048054, 0x7604800E, '2005-02-09 10:00:00') /* Soiled Doll (25858) */
+     , (0x76048054, 0x7604800F, '2005-02-09 10:00:00') /* Tumerok Trooper (23566) */
+     , (0x76048054, 0x76048012, '2005-02-09 10:00:00') /* Desecrated Doll (25857) */
+     , (0x76048054, 0x76048013, '2005-02-09 10:00:00') /* Tumerok Trooper (23566) */
+     , (0x76048054, 0x76048015, '2005-02-09 10:00:00') /* Telumiat Hollow Minion (23555) */
+     , (0x76048054, 0x76048016, '2005-02-09 10:00:00') /* Soiled Doll (25858) */
+     , (0x76048054, 0x76048017, '2005-02-09 10:00:00') /* Unconquered Drudge (10776) */
+     , (0x76048054, 0x7604801A, '2005-02-09 10:00:00') /* Tumerok War Monger (23567) */
+     , (0x76048054, 0x7604801B, '2005-02-09 10:00:00') /* Drudge Bloodletter (23480) */
+     , (0x76048054, 0x7604801E, '2005-02-09 10:00:00') /* Tumerok War Monger (23567) */
+     , (0x76048054, 0x7604801F, '2005-02-09 10:00:00') /* Shadow Phantom (23089) */
+     , (0x76048054, 0x76048020, '2005-02-09 10:00:00') /* Telumiat Hollow Minion (23555) */
+     , (0x76048054, 0x76048021, '2005-02-09 10:00:00') /* Telumiat Hollow Minion (23555) */
+     , (0x76048054, 0x76048025, '2005-02-09 10:00:00') /* Unconquered Drudge (10776) */
+     , (0x76048054, 0x76048027, '2005-02-09 10:00:00') /* Ascendant Drudge (7091) */
+     , (0x76048054, 0x76048029, '2005-02-09 10:00:00') /* Tumerok War Monger (23567) */
+     , (0x76048054, 0x7604802B, '2005-02-09 10:00:00') /* Tumerok Trooper (23566) */
+     , (0x76048054, 0x7604802D, '2005-02-09 10:00:00') /* Shadow Spectre (23090) */
+     , (0x76048054, 0x7604802E, '2005-02-09 10:00:00') /* Shadow Spectre (23090) */
+     , (0x76048054, 0x76048030, '2005-02-09 10:00:00') /* Shadow Spectre (23090) */
+     , (0x76048054, 0x76048032, '2005-02-09 10:00:00') /* Drudge Bloodletter (23480) */
+     , (0x76048054, 0x76048034, '2005-02-09 10:00:00') /* Abyssal Shadow (23562) */
+     , (0x76048054, 0x76048037, '2005-02-09 10:00:00') /* Shadow Wraith (23091) */
+     , (0x76048054, 0x7604803B, '2005-02-09 10:00:00') /* Virindi Consul (23489) */
+     , (0x76048054, 0x7604803C, '2005-02-09 10:00:00') /* Shadow Phantom (23089) */
+     , (0x76048054, 0x7604803D, '2005-02-09 10:00:00') /* Virindi Consul (23489) */
+     , (0x76048054, 0x7604803E, '2005-02-09 10:00:00') /* Virindi Consul (23489) */
+     , (0x76048054, 0x7604804E, '2005-02-09 10:00:00') /* Desecrated Doll (25857) */
+     , (0x76048054, 0x7604804F, '2005-02-09 10:00:00') /* Shadow Phantom (23089) */
+     , (0x76048054, 0x76048050, '2005-02-09 10:00:00') /* Desecrated Doll (25857) */
+     , (0x76048054, 0x76048051, '2005-02-09 10:00:00') /* Desecrated Doll (25857) */
+     , (0x76048054, 0x76048058, '2005-02-09 10:00:00') /* Shadow Wraith (23091) */
+     , (0x76048054, 0x76048059, '2005-02-09 10:00:00') /* Shadow Wraith (23091) */
+     , (0x76048054, 0x7604805A, '2005-02-09 10:00:00') /* Abyssal Shadow (23562) */
+     , (0x76048054, 0x7604805B, '2005-02-09 10:00:00') /* Abyssal Shadow (23562) */
+     , (0x76048054, 0x7604805C, '2005-02-09 10:00:00') /* Shadow Wraith (23091) */
+     , (0x76048054, 0x7604805E, '2005-02-09 10:00:00') /* Soiled Doll (25858) */
+     , (0x76048054, 0x7604805F, '2005-02-09 10:00:00') /* Soiled Doll (25858) */
+     , (0x76048054, 0x76048060, '2005-02-09 10:00:00') /* Telumiat Hollow Minion (23555) */
+     , (0x76048054, 0x76048061, '2005-02-09 10:00:00') /* Telumiat Hollow Minion (23555) */
+     , (0x76048054, 0x76048065, '2005-02-09 10:00:00') /* Tumerok Trooper (23566) */
+     , (0x76048054, 0x76048066, '2005-02-09 10:00:00') /* Tumerok Trooper (23566) */
+     , (0x76048054, 0x76048067, '2005-02-09 10:00:00') /* Tumerok War Monger (23567) */
+     , (0x76048054, 0x76048068, '2005-02-09 10:00:00') /* Tumerok War Monger (23567) */
+     , (0x76048054, 0x7604806C, '2005-02-09 10:00:00') /* Shadow Phantom (23089) */
+     , (0x76048054, 0x7604806D, '2005-02-09 10:00:00') /* Shadow Phantom (23089) */
+     , (0x76048054, 0x7604806E, '2005-02-09 10:00:00') /* Desecrated Doll (25857) */
+     , (0x76048054, 0x76048071, '2005-02-09 10:00:00') /* Soiled Doll (25858) */
+     , (0x76048054, 0x76048074, '2005-02-09 10:00:00') /* Soiled Doll (25858) */
+     , (0x76048054, 0x76048076, '2005-02-09 10:00:00') /* Peerless Drudge (24282) */
+     , (0x76048054, 0x76048077, '2005-02-09 10:00:00') /* Unconquered Drudge (10776) */
+     , (0x76048054, 0x76048078, '2005-02-09 10:00:00') /* Unconquered Drudge (10776) */
+     , (0x76048054, 0x76048079, '2005-02-09 10:00:00') /* Ascendant Drudge (7091) */
+     , (0x76048054, 0x7604807A, '2005-02-09 10:00:00') /* Drudge Cabalist (24278) */
+     , (0x76048054, 0x7604807C, '2005-02-09 10:00:00') /* Drudge Bloodletter (23480) */
+     , (0x76048054, 0x7604807D, '2005-02-09 10:00:00') /* Ascendant Drudge (7091) */
+     , (0x76048054, 0x7604807E, '2005-02-09 10:00:00') /* Ascendant Drudge (7091) */
+     , (0x76048054, 0x7604807F, '2005-02-09 10:00:00') /* Shadow Spectre (23090) */
+     , (0x76048054, 0x76048080, '2005-02-09 10:00:00') /* Shadow Spectre (23090) */
+     , (0x76048054, 0x76048081, '2005-02-09 10:00:00') /* Abyssal Shadow (23562) */
+     , (0x76048054, 0x76048082, '2005-02-09 10:00:00') /* Shadow Phantom (23089) */
+     , (0x76048054, 0x76048084, '2005-02-09 10:00:00') /* Shadow Phantom (23089) */
+     , (0x76048054, 0x76048085, '2005-02-09 10:00:00') /* Ascendant Drudge (7091) */
+     , (0x76048054, 0x76048086, '2005-02-09 10:00:00') /* Ascendant Drudge (7091) */
+     , (0x76048054, 0x76048088, '2005-02-09 10:00:00') /* Unconquered Drudge (10776) */
+     , (0x76048054, 0x7604808C, '2005-02-09 10:00:00') /* Shadow Phantom (23089) */
+     , (0x76048054, 0x7604808D, '2005-02-09 10:00:00') /* Drudge Bloodletter (23480) */
+     , (0x76048054, 0x7604808E, '2005-02-09 10:00:00') /* Drudge Bloodletter (23480) */
+     , (0x76048054, 0x76048092, '2005-02-09 10:00:00') /* Shadow Phantom (23089) */
+     , (0x76048054, 0x76048093, '2005-02-09 10:00:00') /* Tumerok War Monger (23567) */
+     , (0x76048054, 0x76048094, '2005-02-09 10:00:00') /* Tumerok War Monger (23567) */
+     , (0x76048054, 0x76048095, '2005-02-09 10:00:00') /* Tumerok Trooper (23566) */
+     , (0x76048054, 0x76048099, '2005-02-09 10:00:00') /* Shadow Phantom (23089) */
+     , (0x76048054, 0x7604809A, '2005-02-09 10:00:00') /* Soiled Doll (25858) */
+     , (0x76048054, 0x7604809B, '2005-02-09 10:00:00') /* Ascendant Drudge (7091) */
+     , (0x76048054, 0x7604809C, '2005-02-09 10:00:00') /* Unconquered Drudge (10776) */
+     , (0x76048054, 0x7604809E, '2005-02-09 10:00:00') /* Shadow Phantom (23089) */
+     , (0x76048054, 0x7604809F, '2005-02-09 10:00:00') /* Malignant Marionette (25867) */
+     , (0x76048054, 0x760480A0, '2005-02-09 10:00:00') /* Malignant Marionette (25867) */
+     , (0x76048054, 0x760480A1, '2005-02-09 10:00:00') /* Desecrated Doll (25857) */
+     , (0x76048054, 0x760480A3, '2005-02-09 10:00:00') /* Shadow Phantom (23089) */
+     , (0x76048054, 0x760480A4, '2005-02-09 10:00:00') /* Unconquered Drudge (10776) */
+     , (0x76048054, 0x760480A5, '2005-02-09 10:00:00') /* Ascendant Drudge (7091) */
+     , (0x76048054, 0x760480A6, '2005-02-09 10:00:00') /* Abyssal Shadow (23562) */
+     , (0x76048054, 0x760480A7, '2005-02-09 10:00:00') /* Telumiat Hollow Minion (23555) */
+     , (0x76048054, 0x760480A8, '2005-02-09 10:00:00') /* Telumiat Hollow Minion (23555) */
+     , (0x76048054, 0x760480A9, '2005-02-09 10:00:00') /* Ascendant Drudge (7091) */
+     , (0x76048054, 0x760480AA, '2005-02-09 10:00:00') /* Tumerok Trooper (23566) */
+     , (0x76048054, 0x760480AE, '2005-02-09 10:00:00') /* Shadow Phantom (23089) */
+     , (0x76048054, 0x760480AF, '2005-02-09 10:00:00') /* Tumerok War Monger (23567) */
+     , (0x76048054, 0x760480B0, '2005-02-09 10:00:00') /* Soiled Doll (25858) */
+     , (0x76048054, 0x760480B1, '2005-02-09 10:00:00') /* Telumiat Hollow Minion (23555) */
+     , (0x76048054, 0x760480B2, '2005-02-09 10:00:00') /* Telumiat Hollow Minion (23555) */
+     , (0x76048054, 0x760480B4, '2005-02-09 10:00:00') /* Tumerok Trooper (23566) */
+     , (0x76048054, 0x760480B5, '2005-02-09 10:00:00') /* Tumerok Trooper (23566) */
+     , (0x76048054, 0x760480B6, '2005-02-09 10:00:00') /* Drudge Bloodletter (23480) */
+     , (0x76048054, 0x760480BA, '2005-02-09 10:00:00') /* Shadow Spectre (23090) */
+     , (0x76048054, 0x760480BB, '2005-02-09 10:00:00') /* Shadow Spectre (23090) */
+     , (0x76048054, 0x760480BC, '2005-02-09 10:00:00') /* Drudge Bloodletter (23480) */
+     , (0x76048054, 0x760480BD, '2005-02-09 10:00:00') /* Tumerok War Monger (23567) */
+     , (0x76048054, 0x760480BE, '2005-02-09 10:00:00') /* Shadow Spectre (23090) */
+     , (0x76048054, 0x760480C2, '2005-02-09 10:00:00') /* Unconquered Drudge (10776) */
+     , (0x76048054, 0x760480C3, '2005-02-09 10:00:00') /* Unconquered Drudge (10776) */
+     , (0x76048054, 0x760480C4, '2005-02-09 10:00:00') /* Telumiat Hollow Minion (23555) */
+     , (0x76048054, 0x760480C6, '2005-02-09 10:00:00') /* Shadow Phantom (23089) */
+     , (0x76048054, 0x760480C7, '2005-02-09 10:00:00') /* Tumerok Trooper (23566) */
+     , (0x76048054, 0x760480C8, '2005-02-09 10:00:00') /* Tumerok Trooper (23566) */
+     , (0x76048054, 0x760480C9, '2005-02-09 10:00:00') /* Abyssal Shadow (23562) */
+     , (0x76048054, 0x760480CA, '2005-02-09 10:00:00') /* Drudge Bloodletter (23480) */
+     , (0x76048054, 0x760480CE, '2005-02-09 10:00:00') /* Tumerok War Monger (23567) */
+     , (0x76048054, 0x760480CF, '2005-02-09 10:00:00') /* Tumerok War Monger (23567) */
+     , (0x76048054, 0x760480D0, '2005-02-09 10:00:00') /* Tumerok War Monger (23567) */
+     , (0x76048054, 0x760480D1, '2005-02-09 10:00:00') /* Tumerok War Monger (23567) */
+     , (0x76048054, 0x760480D2, '2005-02-09 10:00:00') /* Shadow Phantom (23089) */
+     , (0x76048054, 0x760480D4, '2005-02-09 10:00:00') /* Unconquered Drudge (10776) */
+     , (0x76048054, 0x760480D5, '2005-02-09 10:00:00') /* Shadow Spectre (23090) */
+     , (0x76048054, 0x760480D6, '2005-02-09 10:00:00') /* Tumerok War Monger (23567) */
+     , (0x76048054, 0x760480D9, '2005-02-09 10:00:00') /* Ascendant Drudge (7091) */
+     , (0x76048054, 0x760480DA, '2005-02-09 10:00:00') /* Shadow Wraith (23091) */
+     , (0x76048054, 0x760480DB, '2005-02-09 10:00:00') /* Shadow Wraith (23091) */
+     , (0x76048054, 0x760480DC, '2005-02-09 10:00:00') /* Shadow Phantom (23089) */
+     , (0x76048054, 0x760480DD, '2005-02-09 10:00:00') /* Unconquered Drudge (10776) */
+     , (0x76048054, 0x760480DE, '2005-02-09 10:00:00') /* Soiled Doll (25858) */
+     , (0x76048054, 0x760480DF, '2005-02-09 10:00:00') /* Shadow Spectre (23090) */
+     , (0x76048054, 0x760480E1, '2005-02-09 10:00:00') /* Shadow Phantom (23089) */
+     , (0x76048054, 0x760480E2, '2005-02-09 10:00:00') /* Ascendant Drudge (7091) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x76048055,  2179, 0x60480227, 100, -125.25, 0.005, 1, 0, 0, 0, False, '2005-02-09 10:00:00'); /* Door */
 /* @teleloc 0x60480227 [100.000000 -125.250000 0.005000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x76048055, 0x76048036, '2005-02-09 10:00:00') /* Lever */
-     , (0x76048055, 0x76048083, '2005-02-09 10:00:00') /* Lever */
-     , (0x76048055, 0x760480EA, '2005-02-09 10:00:00') /* Lever */;
+VALUES (0x76048055, 0x76048036, '2005-02-09 10:00:00') /* Lever (14565) */
+     , (0x76048055, 0x76048083, '2005-02-09 10:00:00') /* Lever (14565) */
+     , (0x76048055, 0x760480EA, '2005-02-09 10:00:00') /* Lever (14565) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x76048056,  2179, 0x60480234, 115.25, -110, 0.005, -0.707107, 0, 0, -0.707107, False, '2005-02-09 10:00:00'); /* Door */
 /* @teleloc 0x60480234 [115.250000 -110.000000 0.005000] -0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x76048056, 0x7604805D, '2005-02-09 10:00:00') /* Lever */
-     , (0x76048056, 0x760480EB, '2005-02-09 10:00:00') /* Lever */;
+VALUES (0x76048056, 0x7604805D, '2005-02-09 10:00:00') /* Lever (14565) */
+     , (0x76048056, 0x760480EB, '2005-02-09 10:00:00') /* Lever (14565) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x76048057, 14565, 0x60480237, 16.2679, -86.277, 6.005, -0.717292, 0, 0, -0.696773,  True, '2005-02-09 10:00:00'); /* Lever */
@@ -620,15 +620,15 @@ VALUES (0x7604806F,  2179, 0x60480249, 64.7632, -100.002, 6.005, -0.707107, 0, 0
 /* @teleloc 0x60480249 [64.763200 -100.002000 6.005000] -0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7604806F, 0x760480B9, '2005-02-09 10:00:00') /* Lever */;
+VALUES (0x7604806F, 0x760480B9, '2005-02-09 10:00:00') /* Lever (14565) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x76048070,  2179, 0x60480249, 58, -100, 6.005, 0.707107, 0, 0, -0.707107, False, '2005-02-09 10:00:00'); /* Door */
 /* @teleloc 0x60480249 [58.000000 -100.000000 6.005000] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x76048070, 0x76048064, '2005-02-09 10:00:00') /* Lever */
-     , (0x76048070, 0x76048075, '2005-02-09 10:00:00') /* Lever */;
+VALUES (0x76048070, 0x76048064, '2005-02-09 10:00:00') /* Lever (14565) */
+     , (0x76048070, 0x76048075, '2005-02-09 10:00:00') /* Lever (14565) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x76048071, 25858, 0x60480249, 60, -100, 6.005, 1, 0, 0, -4.37114E-08,  True, '2005-02-09 10:00:00'); /* Soiled Doll */
@@ -639,15 +639,15 @@ VALUES (0x76048072,  2179, 0x6048024E, 64.75, -120, 6.005, -0.707107, 0, 0, -0.7
 /* @teleloc 0x6048024E [64.750000 -120.000000 6.005000] -0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x76048072, 0x76048057, '2005-02-09 10:00:00') /* Lever */;
+VALUES (0x76048072, 0x76048057, '2005-02-09 10:00:00') /* Lever (14565) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x76048073,  2179, 0x6048024E, 57.75, -120, 6.005, -0.731687, 0, 0, -0.681641, False, '2005-02-09 10:00:00'); /* Door */
 /* @teleloc 0x6048024E [57.750000 -120.000000 6.005000] -0.731687 0.000000 0.000000 -0.681641 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x76048073, 0x7604806B, '2005-02-09 10:00:00') /* Lever */
-     , (0x76048073, 0x7604807B, '2005-02-09 10:00:00') /* Lever */;
+VALUES (0x76048073, 0x7604806B, '2005-02-09 10:00:00') /* Lever (14565) */
+     , (0x76048073, 0x7604807B, '2005-02-09 10:00:00') /* Lever (14565) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x76048074, 25858, 0x6048024E, 60, -120, 6.005, 1, 0, 0, 0,  True, '2005-02-09 10:00:00'); /* Soiled Doll */
@@ -730,7 +730,7 @@ VALUES (0x76048087,  2179, 0x60480263, 135.25, -100, 6.005, 0.707107, 0, 0, -0.7
 /* @teleloc 0x60480263 [135.250000 -100.000000 6.005000] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x76048087, 0x760480C5, '2005-02-09 10:00:00') /* Lever */;
+VALUES (0x76048087, 0x760480C5, '2005-02-09 10:00:00') /* Lever (14565) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x76048088, 10776, 0x60480265, 140, -110, 6.005, 1, 0, 0, 0,  True, '2005-02-09 10:00:00'); /* Unconquered Drudge */
@@ -741,15 +741,15 @@ VALUES (0x76048089,  2179, 0x60480268, 135.25, -120, 6.005, 0.707107, 0, 0, -0.7
 /* @teleloc 0x60480268 [135.250000 -120.000000 6.005000] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x76048089, 0x7604809D, '2005-02-09 10:00:00') /* Lever */;
+VALUES (0x76048089, 0x7604809D, '2005-02-09 10:00:00') /* Lever (14565) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7604808A,  2179, 0x60480269, 140, -118, 6.005, 1, 0, 0, 0, False, '2005-02-09 10:00:00'); /* Door */
 /* @teleloc 0x60480269 [140.000000 -118.000000 6.005000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7604808A, 0x76048091, '2005-02-09 10:00:00') /* Lever */
-     , (0x7604808A, 0x76048098, '2005-02-09 10:00:00') /* Lever */;
+VALUES (0x7604808A, 0x76048091, '2005-02-09 10:00:00') /* Lever (14565) */
+     , (0x7604808A, 0x76048098, '2005-02-09 10:00:00') /* Lever (14565) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7604808B, 14565, 0x6048026A, 146.026, -76.4142, 6.005, 1, 0, 0, 0,  True, '2005-02-09 10:00:00'); /* Lever */
@@ -800,7 +800,7 @@ VALUES (0x76048096,  2179, 0x60480276, 170, -95.25, 6.005, 0, 0, 0, -1, False, '
 /* @teleloc 0x60480276 [170.000000 -95.250000 6.005000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x76048096, 0x7604808B, '2005-02-09 10:00:00') /* Lever */;
+VALUES (0x76048096, 0x7604808B, '2005-02-09 10:00:00') /* Lever (14565) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x76048097,  1302, 0x60480277, 170, -124.75, 6.005, 1, 0, 0, 0, False, '2005-02-09 10:00:00'); /* Door */
@@ -935,14 +935,14 @@ VALUES (0x760480B7,  2179, 0x6048028F, 30, -75.25, 12.005, 0, 0, 0, -1, False, '
 /* @teleloc 0x6048028F [30.000000 -75.250000 12.005000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x760480B7, 0x760480A2, '2005-02-09 10:00:00') /* Lever */;
+VALUES (0x760480B7, 0x760480A2, '2005-02-09 10:00:00') /* Lever (14565) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x760480B8,  2179, 0x60480293, 30, -144.75, 12.005, 1, 0, 0, -4.37114E-08, False, '2005-02-09 10:00:00'); /* Door */
 /* @teleloc 0x60480293 [30.000000 -144.750000 12.005000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x760480B8, 0x760480AD, '2005-02-09 10:00:00') /* Lever */;
+VALUES (0x760480B8, 0x760480AD, '2005-02-09 10:00:00') /* Lever (14565) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x760480B9, 14565, 0x60480295, 26.059, -164.068, 12.005, -0.013358, 0, 0, -0.999911,  True, '2005-02-09 10:00:00'); /* Lever */
@@ -977,16 +977,16 @@ VALUES (0x760480C0,  2179, 0x6048029F, 40, -138, 12.005, 1, 0, 0, 0, False, '200
 /* @teleloc 0x6048029F [40.000000 -138.000000 12.005000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x760480C0, 0x760480B3, '2005-02-09 10:00:00') /* Lever */
-     , (0x760480C0, 0x760480BF, '2005-02-09 10:00:00') /* Lever */;
+VALUES (0x760480C0, 0x760480B3, '2005-02-09 10:00:00') /* Lever (14565) */
+     , (0x760480C0, 0x760480BF, '2005-02-09 10:00:00') /* Lever (14565) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x760480C1,  2179, 0x604802BF, 160, -108, 12.005, 0, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Door */
 /* @teleloc 0x604802BF [160.000000 -108.000000 12.005000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x760480C1, 0x760480CD, '2005-02-09 10:00:00') /* Lever */
-     , (0x760480C1, 0x760480D3, '2005-02-09 10:00:00') /* Lever */;
+VALUES (0x760480C1, 0x760480CD, '2005-02-09 10:00:00') /* Lever (14565) */
+     , (0x760480C1, 0x760480D3, '2005-02-09 10:00:00') /* Lever (14565) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x760480C2, 10776, 0x604802C3, 160.968, -137.389, 12.005, 0.999786, 0, 0, -0.0206638,  True, '2005-02-09 10:00:00'); /* Unconquered Drudge */
@@ -1033,7 +1033,7 @@ VALUES (0x760480CC,  2179, 0x604802CC, 170, -144.75, 12.005, 1, 0, 0, -4.37114E-
 /* @teleloc 0x604802CC [170.000000 -144.750000 12.005000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x760480CC, 0x760480E0, '2005-02-09 10:00:00') /* Lever */;
+VALUES (0x760480CC, 0x760480E0, '2005-02-09 10:00:00') /* Lever (14565) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x760480CD, 14565, 0x604802CE, 165.952, -163.833, 12.005, -0.0157131, 0, 0, -0.999876,  True, '2005-02-09 10:00:00'); /* Lever */
@@ -1144,11 +1144,11 @@ VALUES (0x760480E7, 15759, 0x604801C0, 79.8692, -43.4742, -5.995, 0.997462, 0, 0
 /* @teleloc 0x604801C0 [79.869200 -43.474200 -5.995000] 0.997462 0.000000 0.000000 -0.071203 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x760480E7, 0x760480E3, '2005-02-09 10:00:00') /* Shimmering Message Shard */
-     , (0x760480E7, 0x760480E4, '2005-02-09 10:00:00') /* Warped Message Shard */
-     , (0x760480E7, 0x760480E5, '2005-02-09 10:00:00') /* Chipped Message Shard */
-     , (0x760480E7, 0x760480E6, '2005-02-09 10:00:00') /* Misty Message Shard */
-     , (0x760480E7, 0x760480E8, '2005-02-09 10:00:00') /* Twisted Message Shard */;
+VALUES (0x760480E7, 0x760480E3, '2005-02-09 10:00:00') /* Shimmering Message Shard (23123) */
+     , (0x760480E7, 0x760480E4, '2005-02-09 10:00:00') /* Warped Message Shard (23119) */
+     , (0x760480E7, 0x760480E5, '2005-02-09 10:00:00') /* Chipped Message Shard (23117) */
+     , (0x760480E7, 0x760480E6, '2005-02-09 10:00:00') /* Misty Message Shard (23125) */
+     , (0x760480E7, 0x760480E8, '2005-02-09 10:00:00') /* Twisted Message Shard (23121) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x760480E8, 23121, 0x6048020E, 129.6, -30.3184, -5.981, 0.661246, 0, 0, -0.750169,  True, '2005-02-09 10:00:00'); /* Twisted Message Shard */

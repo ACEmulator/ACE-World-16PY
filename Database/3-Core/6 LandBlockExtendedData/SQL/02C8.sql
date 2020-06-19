@@ -133,9 +133,9 @@ VALUES (0x702C8020,  5086, 0x02C80178, 137.377, -67.6884, -5.995, 0.593927, 0, 0
 /* @teleloc 0x02C80178 [137.377000 -67.688400 -5.995000] 0.593927 0.000000 0.000000 -0.804519 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x702C8020, 0x702C801E, '2005-02-09 10:00:00') /* Young Banderling */
-     , (0x702C8020, 0x702C801F, '2005-02-09 10:00:00') /* Young Banderling */
-     , (0x702C8020, 0x702C8021, '2005-02-09 10:00:00') /* Young Banderling */;
+VALUES (0x702C8020, 0x702C801E, '2005-02-09 10:00:00') /* Young Banderling (939) */
+     , (0x702C8020, 0x702C801F, '2005-02-09 10:00:00') /* Young Banderling (939) */
+     , (0x702C8020, 0x702C8021, '2005-02-09 10:00:00') /* Young Banderling (939) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x702C8021,   939, 0x02C8017B, 149.919, -72.1946, -5.945, -0.997903, 0, 0, -0.064722,  True, '2005-02-09 10:00:00'); /* Young Banderling */
@@ -258,68 +258,68 @@ VALUES (0x702C803E,  4219, 0x02C80258, 334.252, -10.7882, 0.005, -0.178908, 0, 0
 /* @teleloc 0x02C80258 [334.252000 -10.788200 0.005000] -0.178908 0.000000 0.000000 0.983866 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x702C803E, 0x702C8002, '2005-02-09 10:00:00') /* Banderling Raider */
-     , (0x702C803E, 0x702C8003, '2005-02-09 10:00:00') /* Banderling Captain */
-     , (0x702C803E, 0x702C8004, '2005-02-09 10:00:00') /* Banderling Raider */
-     , (0x702C803E, 0x702C8005, '2005-02-09 10:00:00') /* Banderling Breeder */
-     , (0x702C803E, 0x702C8006, '2005-02-09 10:00:00') /* Young Banderling */
-     , (0x702C803E, 0x702C8007, '2005-02-09 10:00:00') /* Young Banderling */
-     , (0x702C803E, 0x702C8008, '2005-02-09 10:00:00') /* Young Banderling */
-     , (0x702C803E, 0x702C8009, '2005-02-09 10:00:00') /* Banderling Guard */
-     , (0x702C803E, 0x702C800A, '2005-02-09 10:00:00') /* Banderling Chief */
-     , (0x702C803E, 0x702C800B, '2005-02-09 10:00:00') /* Banderling Breeder */
-     , (0x702C803E, 0x702C800C, '2005-02-09 10:00:00') /* Young Banderling */
-     , (0x702C803E, 0x702C800E, '2005-02-09 10:00:00') /* Banderling Guard */
-     , (0x702C803E, 0x702C800F, '2005-02-09 10:00:00') /* Banderling Raider */
-     , (0x702C803E, 0x702C8010, '2005-02-09 10:00:00') /* Banderling Raider */
-     , (0x702C803E, 0x702C8011, '2005-02-09 10:00:00') /* Banderling Raider */
-     , (0x702C803E, 0x702C8012, '2005-02-09 10:00:00') /* Banderling Raver */
-     , (0x702C803E, 0x702C8013, '2005-02-09 10:00:00') /* Banderling Raider */
-     , (0x702C803E, 0x702C8014, '2005-02-09 10:00:00') /* Banderling Raider */
-     , (0x702C803E, 0x702C8015, '2005-02-09 10:00:00') /* Banderling Raider */
-     , (0x702C803E, 0x702C8016, '2005-02-09 10:00:00') /* Banderling Guard */
-     , (0x702C803E, 0x702C8017, '2005-02-09 10:00:00') /* Banderling Raider */
-     , (0x702C803E, 0x702C8018, '2005-02-09 10:00:00') /* Banderling Guard */
-     , (0x702C803E, 0x702C8019, '2005-02-09 10:00:00') /* Banderling Raider */
-     , (0x702C803E, 0x702C801A, '2005-02-09 10:00:00') /* Banderling Raider */
-     , (0x702C803E, 0x702C801B, '2005-02-09 10:00:00') /* Banderling Raider */
-     , (0x702C803E, 0x702C801C, '2005-02-09 10:00:00') /* Banderling Raider */
-     , (0x702C803E, 0x702C801D, '2005-02-09 10:00:00') /* Banderling Raider */
-     , (0x702C803E, 0x702C8022, '2005-02-09 10:00:00') /* Young Banderling */
-     , (0x702C803E, 0x702C8023, '2005-02-09 10:00:00') /* Young Banderling */
-     , (0x702C803E, 0x702C8024, '2005-02-09 10:00:00') /* Young Banderling */
-     , (0x702C803E, 0x702C8025, '2005-02-09 10:00:00') /* Banderling Breeder */
-     , (0x702C803E, 0x702C8026, '2005-02-09 10:00:00') /* Banderling Guard */
-     , (0x702C803E, 0x702C8027, '2005-02-09 10:00:00') /* Banderling Guard */
-     , (0x702C803E, 0x702C8028, '2005-02-09 10:00:00') /* Banderling Guard */
-     , (0x702C803E, 0x702C8029, '2005-02-09 10:00:00') /* Banderling Scout */
-     , (0x702C803E, 0x702C802A, '2005-02-09 10:00:00') /* Banderling Scout */
-     , (0x702C803E, 0x702C802B, '2005-02-09 10:00:00') /* Banderling Raver */
-     , (0x702C803E, 0x702C802C, '2005-02-09 10:00:00') /* Banderling Scout */
-     , (0x702C803E, 0x702C802D, '2005-02-09 10:00:00') /* Banderling Raver */
-     , (0x702C803E, 0x702C802E, '2005-02-09 10:00:00') /* Banderling Raver */
-     , (0x702C803E, 0x702C802F, '2005-02-09 10:00:00') /* Banderling Scout */
-     , (0x702C803E, 0x702C8030, '2005-02-09 10:00:00') /* Banderling Guard */
-     , (0x702C803E, 0x702C8031, '2005-02-09 10:00:00') /* Banderling Scout */
-     , (0x702C803E, 0x702C8032, '2005-02-09 10:00:00') /* Banderling Scout */
-     , (0x702C803E, 0x702C8033, '2005-02-09 10:00:00') /* Banderling Scout */
-     , (0x702C803E, 0x702C8034, '2005-02-09 10:00:00') /* Banderling Raver */
-     , (0x702C803E, 0x702C8037, '2005-02-09 10:00:00') /* Banderling Scout */
-     , (0x702C803E, 0x702C8038, '2005-02-09 10:00:00') /* Banderling Raider */
-     , (0x702C803E, 0x702C8039, '2005-02-09 10:00:00') /* Banderling Scout */
-     , (0x702C803E, 0x702C803A, '2005-02-09 10:00:00') /* Banderling Guard */
-     , (0x702C803E, 0x702C803B, '2005-02-09 10:00:00') /* Banderling Scout */
-     , (0x702C803E, 0x702C803C, '2005-02-09 10:00:00') /* Banderling Raider */
-     , (0x702C803E, 0x702C8040, '2005-02-09 10:00:00') /* Banderling Scout */
-     , (0x702C803E, 0x702C8041, '2005-02-09 10:00:00') /* Banderling Guard */;
+VALUES (0x702C803E, 0x702C8002, '2005-02-09 10:00:00') /* Banderling Raider (938) */
+     , (0x702C803E, 0x702C8003, '2005-02-09 10:00:00') /* Banderling Captain (184) */
+     , (0x702C803E, 0x702C8004, '2005-02-09 10:00:00') /* Banderling Raider (938) */
+     , (0x702C803E, 0x702C8005, '2005-02-09 10:00:00') /* Banderling Breeder (1668) */
+     , (0x702C803E, 0x702C8006, '2005-02-09 10:00:00') /* Young Banderling (939) */
+     , (0x702C803E, 0x702C8007, '2005-02-09 10:00:00') /* Young Banderling (939) */
+     , (0x702C803E, 0x702C8008, '2005-02-09 10:00:00') /* Young Banderling (939) */
+     , (0x702C803E, 0x702C8009, '2005-02-09 10:00:00') /* Banderling Guard (937) */
+     , (0x702C803E, 0x702C800A, '2005-02-09 10:00:00') /* Banderling Chief (1669) */
+     , (0x702C803E, 0x702C800B, '2005-02-09 10:00:00') /* Banderling Breeder (1668) */
+     , (0x702C803E, 0x702C800C, '2005-02-09 10:00:00') /* Young Banderling (939) */
+     , (0x702C803E, 0x702C800E, '2005-02-09 10:00:00') /* Banderling Guard (937) */
+     , (0x702C803E, 0x702C800F, '2005-02-09 10:00:00') /* Banderling Raider (938) */
+     , (0x702C803E, 0x702C8010, '2005-02-09 10:00:00') /* Banderling Raider (938) */
+     , (0x702C803E, 0x702C8011, '2005-02-09 10:00:00') /* Banderling Raider (938) */
+     , (0x702C803E, 0x702C8012, '2005-02-09 10:00:00') /* Banderling Raver (183) */
+     , (0x702C803E, 0x702C8013, '2005-02-09 10:00:00') /* Banderling Raider (938) */
+     , (0x702C803E, 0x702C8014, '2005-02-09 10:00:00') /* Banderling Raider (938) */
+     , (0x702C803E, 0x702C8015, '2005-02-09 10:00:00') /* Banderling Raider (938) */
+     , (0x702C803E, 0x702C8016, '2005-02-09 10:00:00') /* Banderling Guard (937) */
+     , (0x702C803E, 0x702C8017, '2005-02-09 10:00:00') /* Banderling Raider (938) */
+     , (0x702C803E, 0x702C8018, '2005-02-09 10:00:00') /* Banderling Guard (937) */
+     , (0x702C803E, 0x702C8019, '2005-02-09 10:00:00') /* Banderling Raider (938) */
+     , (0x702C803E, 0x702C801A, '2005-02-09 10:00:00') /* Banderling Raider (938) */
+     , (0x702C803E, 0x702C801B, '2005-02-09 10:00:00') /* Banderling Raider (938) */
+     , (0x702C803E, 0x702C801C, '2005-02-09 10:00:00') /* Banderling Raider (938) */
+     , (0x702C803E, 0x702C801D, '2005-02-09 10:00:00') /* Banderling Raider (938) */
+     , (0x702C803E, 0x702C8022, '2005-02-09 10:00:00') /* Young Banderling (939) */
+     , (0x702C803E, 0x702C8023, '2005-02-09 10:00:00') /* Young Banderling (939) */
+     , (0x702C803E, 0x702C8024, '2005-02-09 10:00:00') /* Young Banderling (939) */
+     , (0x702C803E, 0x702C8025, '2005-02-09 10:00:00') /* Banderling Breeder (1668) */
+     , (0x702C803E, 0x702C8026, '2005-02-09 10:00:00') /* Banderling Guard (937) */
+     , (0x702C803E, 0x702C8027, '2005-02-09 10:00:00') /* Banderling Guard (937) */
+     , (0x702C803E, 0x702C8028, '2005-02-09 10:00:00') /* Banderling Guard (937) */
+     , (0x702C803E, 0x702C8029, '2005-02-09 10:00:00') /* Banderling Scout (6) */
+     , (0x702C803E, 0x702C802A, '2005-02-09 10:00:00') /* Banderling Scout (6) */
+     , (0x702C803E, 0x702C802B, '2005-02-09 10:00:00') /* Banderling Raver (183) */
+     , (0x702C803E, 0x702C802C, '2005-02-09 10:00:00') /* Banderling Scout (6) */
+     , (0x702C803E, 0x702C802D, '2005-02-09 10:00:00') /* Banderling Raver (183) */
+     , (0x702C803E, 0x702C802E, '2005-02-09 10:00:00') /* Banderling Raver (183) */
+     , (0x702C803E, 0x702C802F, '2005-02-09 10:00:00') /* Banderling Scout (6) */
+     , (0x702C803E, 0x702C8030, '2005-02-09 10:00:00') /* Banderling Guard (937) */
+     , (0x702C803E, 0x702C8031, '2005-02-09 10:00:00') /* Banderling Scout (6) */
+     , (0x702C803E, 0x702C8032, '2005-02-09 10:00:00') /* Banderling Scout (6) */
+     , (0x702C803E, 0x702C8033, '2005-02-09 10:00:00') /* Banderling Scout (6) */
+     , (0x702C803E, 0x702C8034, '2005-02-09 10:00:00') /* Banderling Raver (183) */
+     , (0x702C803E, 0x702C8037, '2005-02-09 10:00:00') /* Banderling Scout (6) */
+     , (0x702C803E, 0x702C8038, '2005-02-09 10:00:00') /* Banderling Raider (938) */
+     , (0x702C803E, 0x702C8039, '2005-02-09 10:00:00') /* Banderling Scout (6) */
+     , (0x702C803E, 0x702C803A, '2005-02-09 10:00:00') /* Banderling Guard (937) */
+     , (0x702C803E, 0x702C803B, '2005-02-09 10:00:00') /* Banderling Scout (6) */
+     , (0x702C803E, 0x702C803C, '2005-02-09 10:00:00') /* Banderling Raider (938) */
+     , (0x702C803E, 0x702C8040, '2005-02-09 10:00:00') /* Banderling Scout (6) */
+     , (0x702C803E, 0x702C8041, '2005-02-09 10:00:00') /* Banderling Guard (937) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x702C803F,  4142, 0x02C80258, 330, -10, 0.005, -0.104015, 0, 0, 0.994576, False, '2005-02-09 10:00:00'); /* Linkable Item Generator */
 /* @teleloc 0x02C80258 [330.000000 -10.000000 0.005000] -0.104015 0.000000 0.000000 0.994576 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x702C803F, 0x702C800D, '2005-02-09 10:00:00') /* Banderling Mace Shaft */
-     , (0x702C803F, 0x702C8035, '2005-02-09 10:00:00') /* A Battered Leather Journal */;
+VALUES (0x702C803F, 0x702C800D, '2005-02-09 10:00:00') /* Banderling Mace Shaft (8365) */
+     , (0x702C803F, 0x702C8035, '2005-02-09 10:00:00') /* A Battered Leather Journal (8360) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x702C8040,     6, 0x02C8025E, 329.874, -32.5939, 0.0077, -0.999138, 0, 0, 0.041505,  True, '2005-02-09 10:00:00'); /* Banderling Scout */

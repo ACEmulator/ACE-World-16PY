@@ -181,25 +181,25 @@ VALUES (0x77CD202C,  1542, 0x7CD20108, 112.811, 27.4047, 164.805, 0.387885, 0, 0
 /* @teleloc 0x7CD20108 [112.811000 27.404700 164.805000] 0.387885 0.000000 0.000000 -0.921708 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x77CD202C, 0x77CD2026, '2005-02-09 10:00:00') /* Gypsum */
-     , (0x77CD202C, 0x77CD2027, '2005-02-09 10:00:00') /* Cinnabar */
-     , (0x77CD202C, 0x77CD2028, '2005-02-09 10:00:00') /* Gypsum */
-     , (0x77CD202C, 0x77CD202A, '2005-02-09 10:00:00') /* Powdered Quartz */
-     , (0x77CD202C, 0x77CD202B, '2005-02-09 10:00:00') /* Powdered Hematite */;
+VALUES (0x77CD202C, 0x77CD2026, '2005-02-09 10:00:00') /* Gypsum (758) */
+     , (0x77CD202C, 0x77CD2027, '2005-02-09 10:00:00') /* Cinnabar (755) */
+     , (0x77CD202C, 0x77CD2028, '2005-02-09 10:00:00') /* Gypsum (758) */
+     , (0x77CD202C, 0x77CD202A, '2005-02-09 10:00:00') /* Powdered Quartz (791) */
+     , (0x77CD202C, 0x77CD202B, '2005-02-09 10:00:00') /* Powdered Hematite (626) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x77CD202D,  1154, 0x7CD20000, 105.186, 41.8897, 170.005, 0.317732, 0, 0, -0.948181, False, '2005-02-09 10:00:00'); /* Linkable Monster Generator */
 /* @teleloc 0x7CD20000 [105.186000 41.889700 170.005000] 0.317732 0.000000 0.000000 -0.948181 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x77CD202D, 0x77CD2014, '2005-02-09 10:00:00') /* Tumerok Fighter */
-     , (0x77CD202D, 0x77CD2015, '2005-02-09 10:00:00') /* Tumerok Warrior */
-     , (0x77CD202D, 0x77CD2020, '2005-02-09 10:00:00') /* Tumerok Warrior */
-     , (0x77CD202D, 0x77CD2021, '2005-02-09 10:00:00') /* Tumerok Worker */
-     , (0x77CD202D, 0x77CD2022, '2005-02-09 10:00:00') /* Tumerok Worker */
-     , (0x77CD202D, 0x77CD2023, '2005-02-09 10:00:00') /* Tumerok Warrior */
-     , (0x77CD202D, 0x77CD2025, '2005-02-09 10:00:00') /* Tumerok Fighter */
-     , (0x77CD202D, 0x77CD202E, '2005-02-09 10:00:00') /* Banderling Chief */;
+VALUES (0x77CD202D, 0x77CD2014, '2005-02-09 10:00:00') /* Tumerok Fighter (2439) */
+     , (0x77CD202D, 0x77CD2015, '2005-02-09 10:00:00') /* Tumerok Warrior (233) */
+     , (0x77CD202D, 0x77CD2020, '2005-02-09 10:00:00') /* Tumerok Warrior (233) */
+     , (0x77CD202D, 0x77CD2021, '2005-02-09 10:00:00') /* Tumerok Worker (234) */
+     , (0x77CD202D, 0x77CD2022, '2005-02-09 10:00:00') /* Tumerok Worker (234) */
+     , (0x77CD202D, 0x77CD2023, '2005-02-09 10:00:00') /* Tumerok Warrior (233) */
+     , (0x77CD202D, 0x77CD2025, '2005-02-09 10:00:00') /* Tumerok Fighter (2439) */
+     , (0x77CD202D, 0x77CD202E, '2005-02-09 10:00:00') /* Banderling Chief (1669) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x77CD202E,  1669, 0x7CD20000, 106.426, 37.5656, 174.606, -0.994089, 0, 0, -0.108565,  True, '2005-02-09 10:00:00'); /* Banderling Chief */

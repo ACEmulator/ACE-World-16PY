@@ -73,156 +73,156 @@ VALUES (0x75D4B011,  7924, 0x5D4B014B, 91.2417, -10, 0.005, 1, 0, 0, 0, False, '
 /* @teleloc 0x5D4B014B [91.241700 -10.000000 0.005000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x75D4B011, 0x75D4B02A, '2005-02-09 10:00:00') /* Cursed Bones */
-     , (0x75D4B011, 0x75D4B02B, '2005-02-09 10:00:00') /* Cursed Bones */
-     , (0x75D4B011, 0x75D4B02C, '2005-02-09 10:00:00') /* Cursed Bones */
-     , (0x75D4B011, 0x75D4B02D, '2005-02-09 10:00:00') /* Cursed Bones */
-     , (0x75D4B011, 0x75D4B02E, '2005-02-09 10:00:00') /* Cursed Bones */
-     , (0x75D4B011, 0x75D4B02F, '2005-02-09 10:00:00') /* Risen Lord */
-     , (0x75D4B011, 0x75D4B030, '2005-02-09 10:00:00') /* Cursed Bones */
-     , (0x75D4B011, 0x75D4B031, '2005-02-09 10:00:00') /* Cursed Bones */
-     , (0x75D4B011, 0x75D4B032, '2005-02-09 10:00:00') /* Cursed Bones */
-     , (0x75D4B011, 0x75D4B033, '2005-02-09 10:00:00') /* Cursed Bones */
-     , (0x75D4B011, 0x75D4B034, '2005-02-09 10:00:00') /* Risen Lord */
-     , (0x75D4B011, 0x75D4B035, '2005-02-09 10:00:00') /* Cursed Bones */
-     , (0x75D4B011, 0x75D4B036, '2005-02-09 10:00:00') /* Cursed Bones */
-     , (0x75D4B011, 0x75D4B037, '2005-02-09 10:00:00') /* Risen Lord */
-     , (0x75D4B011, 0x75D4B038, '2005-02-09 10:00:00') /* Risen Lord */
-     , (0x75D4B011, 0x75D4B039, '2005-02-09 10:00:00') /* Risen Lord */
-     , (0x75D4B011, 0x75D4B03A, '2005-02-09 10:00:00') /* Risen Lord */
-     , (0x75D4B011, 0x75D4B03B, '2005-02-09 10:00:00') /* Great Revenant */
-     , (0x75D4B011, 0x75D4B03C, '2005-02-09 10:00:00') /* Risen Lord */
-     , (0x75D4B011, 0x75D4B03D, '2005-02-09 10:00:00') /* Risen Lord */
-     , (0x75D4B011, 0x75D4B03E, '2005-02-09 10:00:00') /* Risen Lord */
-     , (0x75D4B011, 0x75D4B041, '2005-02-09 10:00:00') /* Olthoi Swarm Legionary */
-     , (0x75D4B011, 0x75D4B042, '2005-02-09 10:00:00') /* Olthoi Swarm Legionary */
-     , (0x75D4B011, 0x75D4B047, '2005-02-09 10:00:00') /* Risen Lord */
-     , (0x75D4B011, 0x75D4B04B, '2005-02-09 10:00:00') /* Great Revenant */
-     , (0x75D4B011, 0x75D4B04C, '2005-02-09 10:00:00') /* Risen Lord */
-     , (0x75D4B011, 0x75D4B04F, '2005-02-09 10:00:00') /* Olthoi Piercer */
-     , (0x75D4B011, 0x75D4B050, '2005-02-09 10:00:00') /* Olthoi Piercer */
-     , (0x75D4B011, 0x75D4B051, '2005-02-09 10:00:00') /* Olthoi Swarm Worker */;
+VALUES (0x75D4B011, 0x75D4B02A, '2005-02-09 10:00:00') /* Cursed Bones (7178) */
+     , (0x75D4B011, 0x75D4B02B, '2005-02-09 10:00:00') /* Cursed Bones (7178) */
+     , (0x75D4B011, 0x75D4B02C, '2005-02-09 10:00:00') /* Cursed Bones (7178) */
+     , (0x75D4B011, 0x75D4B02D, '2005-02-09 10:00:00') /* Cursed Bones (7178) */
+     , (0x75D4B011, 0x75D4B02E, '2005-02-09 10:00:00') /* Cursed Bones (7178) */
+     , (0x75D4B011, 0x75D4B02F, '2005-02-09 10:00:00') /* Risen Lord (24326) */
+     , (0x75D4B011, 0x75D4B030, '2005-02-09 10:00:00') /* Cursed Bones (7178) */
+     , (0x75D4B011, 0x75D4B031, '2005-02-09 10:00:00') /* Cursed Bones (7178) */
+     , (0x75D4B011, 0x75D4B032, '2005-02-09 10:00:00') /* Cursed Bones (7178) */
+     , (0x75D4B011, 0x75D4B033, '2005-02-09 10:00:00') /* Cursed Bones (7178) */
+     , (0x75D4B011, 0x75D4B034, '2005-02-09 10:00:00') /* Risen Lord (24326) */
+     , (0x75D4B011, 0x75D4B035, '2005-02-09 10:00:00') /* Cursed Bones (7178) */
+     , (0x75D4B011, 0x75D4B036, '2005-02-09 10:00:00') /* Cursed Bones (7178) */
+     , (0x75D4B011, 0x75D4B037, '2005-02-09 10:00:00') /* Risen Lord (24326) */
+     , (0x75D4B011, 0x75D4B038, '2005-02-09 10:00:00') /* Risen Lord (24326) */
+     , (0x75D4B011, 0x75D4B039, '2005-02-09 10:00:00') /* Risen Lord (24326) */
+     , (0x75D4B011, 0x75D4B03A, '2005-02-09 10:00:00') /* Risen Lord (24326) */
+     , (0x75D4B011, 0x75D4B03B, '2005-02-09 10:00:00') /* Great Revenant (24320) */
+     , (0x75D4B011, 0x75D4B03C, '2005-02-09 10:00:00') /* Risen Lord (24326) */
+     , (0x75D4B011, 0x75D4B03D, '2005-02-09 10:00:00') /* Risen Lord (24326) */
+     , (0x75D4B011, 0x75D4B03E, '2005-02-09 10:00:00') /* Risen Lord (24326) */
+     , (0x75D4B011, 0x75D4B041, '2005-02-09 10:00:00') /* Olthoi Swarm Legionary (24302) */
+     , (0x75D4B011, 0x75D4B042, '2005-02-09 10:00:00') /* Olthoi Swarm Legionary (24302) */
+     , (0x75D4B011, 0x75D4B047, '2005-02-09 10:00:00') /* Risen Lord (24326) */
+     , (0x75D4B011, 0x75D4B04B, '2005-02-09 10:00:00') /* Great Revenant (24320) */
+     , (0x75D4B011, 0x75D4B04C, '2005-02-09 10:00:00') /* Risen Lord (24326) */
+     , (0x75D4B011, 0x75D4B04F, '2005-02-09 10:00:00') /* Olthoi Piercer (24960) */
+     , (0x75D4B011, 0x75D4B050, '2005-02-09 10:00:00') /* Olthoi Piercer (24960) */
+     , (0x75D4B011, 0x75D4B051, '2005-02-09 10:00:00') /* Olthoi Swarm Worker (24306) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75D4B012,  7924, 0x5D4B014B, 90.2463, -10, 0.005, 1, 0, 0, 0, False, '2005-02-09 10:00:00'); /* Linkable Monster Generator ( 5 Min.) */
 /* @teleloc 0x5D4B014B [90.246300 -10.000000 0.005000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x75D4B012, 0x75D4B010, '2005-02-09 10:00:00') /* Dark Leech */
-     , (0x75D4B012, 0x75D4B016, '2005-02-09 10:00:00') /* Dark Revenant */
-     , (0x75D4B012, 0x75D4B017, '2005-02-09 10:00:00') /* Ashen Bones */
-     , (0x75D4B012, 0x75D4B018, '2005-02-09 10:00:00') /* Dark Leech */
-     , (0x75D4B012, 0x75D4B019, '2005-02-09 10:00:00') /* Dark Leech */
-     , (0x75D4B012, 0x75D4B01A, '2005-02-09 10:00:00') /* Dark Revenant */
-     , (0x75D4B012, 0x75D4B01B, '2005-02-09 10:00:00') /* Dark Revenant */
-     , (0x75D4B012, 0x75D4B03F, '2005-02-09 10:00:00') /* Olthoi Swarm Legionary */
-     , (0x75D4B012, 0x75D4B040, '2005-02-09 10:00:00') /* Olthoi Swarm Legionary */
-     , (0x75D4B012, 0x75D4B043, '2005-02-09 10:00:00') /* Olthoi Swarm Worker */
-     , (0x75D4B012, 0x75D4B044, '2005-02-09 10:00:00') /* Great Revenant */
-     , (0x75D4B012, 0x75D4B045, '2005-02-09 10:00:00') /* Great Skeleton */
-     , (0x75D4B012, 0x75D4B046, '2005-02-09 10:00:00') /* Risen Lord */
-     , (0x75D4B012, 0x75D4B048, '2005-02-09 10:00:00') /* Olthoi Swarm Worker */
-     , (0x75D4B012, 0x75D4B04A, '2005-02-09 10:00:00') /* Risen Lord */
-     , (0x75D4B012, 0x75D4B04E, '2005-02-09 10:00:00') /* Dark Revenant */
-     , (0x75D4B012, 0x75D4B052, '2005-02-09 10:00:00') /* Olthoi Swarm Soldier */
-     , (0x75D4B012, 0x75D4B053, '2005-02-09 10:00:00') /* Olthoi Swarm Soldier */
-     , (0x75D4B012, 0x75D4B054, '2005-02-09 10:00:00') /* Dark Revenant */
-     , (0x75D4B012, 0x75D4B055, '2005-02-09 10:00:00') /* Great Skeleton */
-     , (0x75D4B012, 0x75D4B056, '2005-02-09 10:00:00') /* Dark Revenant */
-     , (0x75D4B012, 0x75D4B057, '2005-02-09 10:00:00') /* Olthoi Swarm Soldier */
-     , (0x75D4B012, 0x75D4B05A, '2005-02-09 10:00:00') /* Olthoi Swarm Soldier */
-     , (0x75D4B012, 0x75D4B05B, '2005-02-09 10:00:00') /* Olthoi Swarm Soldier */
-     , (0x75D4B012, 0x75D4B05C, '2005-02-09 10:00:00') /* Olthoi Swarm Soldier */
-     , (0x75D4B012, 0x75D4B05D, '2005-02-09 10:00:00') /* Olthoi Swarm Soldier */
-     , (0x75D4B012, 0x75D4B05E, '2005-02-09 10:00:00') /* Olthoi Swarm Soldier */
-     , (0x75D4B012, 0x75D4B05F, '2005-02-09 10:00:00') /* Olthoi Swarm Soldier */
-     , (0x75D4B012, 0x75D4B060, '2005-02-09 10:00:00') /* Olthoi Swarm Soldier */
-     , (0x75D4B012, 0x75D4B061, '2005-02-09 10:00:00') /* Olthoi Swarm Soldier */;
+VALUES (0x75D4B012, 0x75D4B010, '2005-02-09 10:00:00') /* Dark Leech (7123) */
+     , (0x75D4B012, 0x75D4B016, '2005-02-09 10:00:00') /* Dark Revenant (4217) */
+     , (0x75D4B012, 0x75D4B017, '2005-02-09 10:00:00') /* Ashen Bones (7780) */
+     , (0x75D4B012, 0x75D4B018, '2005-02-09 10:00:00') /* Dark Leech (7123) */
+     , (0x75D4B012, 0x75D4B019, '2005-02-09 10:00:00') /* Dark Leech (7123) */
+     , (0x75D4B012, 0x75D4B01A, '2005-02-09 10:00:00') /* Dark Revenant (4217) */
+     , (0x75D4B012, 0x75D4B01B, '2005-02-09 10:00:00') /* Dark Revenant (4217) */
+     , (0x75D4B012, 0x75D4B03F, '2005-02-09 10:00:00') /* Olthoi Swarm Legionary (24302) */
+     , (0x75D4B012, 0x75D4B040, '2005-02-09 10:00:00') /* Olthoi Swarm Legionary (24302) */
+     , (0x75D4B012, 0x75D4B043, '2005-02-09 10:00:00') /* Olthoi Swarm Worker (24306) */
+     , (0x75D4B012, 0x75D4B044, '2005-02-09 10:00:00') /* Great Revenant (24320) */
+     , (0x75D4B012, 0x75D4B045, '2005-02-09 10:00:00') /* Great Skeleton (7122) */
+     , (0x75D4B012, 0x75D4B046, '2005-02-09 10:00:00') /* Risen Lord (24326) */
+     , (0x75D4B012, 0x75D4B048, '2005-02-09 10:00:00') /* Olthoi Swarm Worker (24306) */
+     , (0x75D4B012, 0x75D4B04A, '2005-02-09 10:00:00') /* Risen Lord (24326) */
+     , (0x75D4B012, 0x75D4B04E, '2005-02-09 10:00:00') /* Dark Revenant (4217) */
+     , (0x75D4B012, 0x75D4B052, '2005-02-09 10:00:00') /* Olthoi Swarm Soldier (23989) */
+     , (0x75D4B012, 0x75D4B053, '2005-02-09 10:00:00') /* Olthoi Swarm Soldier (23989) */
+     , (0x75D4B012, 0x75D4B054, '2005-02-09 10:00:00') /* Dark Revenant (4217) */
+     , (0x75D4B012, 0x75D4B055, '2005-02-09 10:00:00') /* Great Skeleton (7122) */
+     , (0x75D4B012, 0x75D4B056, '2005-02-09 10:00:00') /* Dark Revenant (4217) */
+     , (0x75D4B012, 0x75D4B057, '2005-02-09 10:00:00') /* Olthoi Swarm Soldier (23989) */
+     , (0x75D4B012, 0x75D4B05A, '2005-02-09 10:00:00') /* Olthoi Swarm Soldier (23989) */
+     , (0x75D4B012, 0x75D4B05B, '2005-02-09 10:00:00') /* Olthoi Swarm Soldier (23989) */
+     , (0x75D4B012, 0x75D4B05C, '2005-02-09 10:00:00') /* Olthoi Swarm Soldier (23989) */
+     , (0x75D4B012, 0x75D4B05D, '2005-02-09 10:00:00') /* Olthoi Swarm Soldier (23989) */
+     , (0x75D4B012, 0x75D4B05E, '2005-02-09 10:00:00') /* Olthoi Swarm Soldier (23989) */
+     , (0x75D4B012, 0x75D4B05F, '2005-02-09 10:00:00') /* Olthoi Swarm Soldier (23989) */
+     , (0x75D4B012, 0x75D4B060, '2005-02-09 10:00:00') /* Olthoi Swarm Soldier (23989) */
+     , (0x75D4B012, 0x75D4B061, '2005-02-09 10:00:00') /* Olthoi Swarm Soldier (23989) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75D4B013,  7924, 0x5D4B014B, 89.3503, -10, 0.005, 1, 0, 0, 0, False, '2005-02-09 10:00:00'); /* Linkable Monster Generator ( 5 Min.) */
 /* @teleloc 0x5D4B014B [89.350300 -10.000000 0.005000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x75D4B013, 0x75D4B01C, '2005-02-09 10:00:00') /* Relic Bones */
-     , (0x75D4B013, 0x75D4B01D, '2005-02-09 10:00:00') /* Relic Bones */
-     , (0x75D4B013, 0x75D4B01F, '2005-02-09 10:00:00') /* Great Revenant */
-     , (0x75D4B013, 0x75D4B020, '2005-02-09 10:00:00') /* Great Skeleton */
-     , (0x75D4B013, 0x75D4B021, '2005-02-09 10:00:00') /* Risen Lord */
-     , (0x75D4B013, 0x75D4B058, '2005-02-09 10:00:00') /* Olthoi Swarm Soldier */
-     , (0x75D4B013, 0x75D4B059, '2005-02-09 10:00:00') /* Olthoi Swarm Soldier */
-     , (0x75D4B013, 0x75D4B062, '2005-02-09 10:00:00') /* Olthoi Swarm Soldier */
-     , (0x75D4B013, 0x75D4B063, '2005-02-09 10:00:00') /* Olthoi Swarm Soldier */
-     , (0x75D4B013, 0x75D4B064, '2005-02-09 10:00:00') /* Olthoi Swarm Soldier */
-     , (0x75D4B013, 0x75D4B065, '2005-02-09 10:00:00') /* Olthoi Swarm Soldier */
-     , (0x75D4B013, 0x75D4B067, '2005-02-09 10:00:00') /* Olthoi Swarm Soldier */
-     , (0x75D4B013, 0x75D4B068, '2005-02-09 10:00:00') /* Olthoi Swarm Soldier */
-     , (0x75D4B013, 0x75D4B069, '2005-02-09 10:00:00') /* Great Skeleton */
-     , (0x75D4B013, 0x75D4B06A, '2005-02-09 10:00:00') /* Great Revenant */
-     , (0x75D4B013, 0x75D4B06B, '2005-02-09 10:00:00') /* Great Revenant */
-     , (0x75D4B013, 0x75D4B06C, '2005-02-09 10:00:00') /* Great Revenant */
-     , (0x75D4B013, 0x75D4B06D, '2005-02-09 10:00:00') /* Olthoi Swarm Soldier */
-     , (0x75D4B013, 0x75D4B06E, '2005-02-09 10:00:00') /* Great Skeleton */
-     , (0x75D4B013, 0x75D4B06F, '2005-02-09 10:00:00') /* Olthoi Swarm Soldier */
-     , (0x75D4B013, 0x75D4B070, '2005-02-09 10:00:00') /* Olthoi Swarm Soldier */
-     , (0x75D4B013, 0x75D4B071, '2005-02-09 10:00:00') /* Olthoi Swarm Soldier */
-     , (0x75D4B013, 0x75D4B072, '2005-02-09 10:00:00') /* Olthoi Swarm Soldier */
-     , (0x75D4B013, 0x75D4B073, '2005-02-09 10:00:00') /* Olthoi Swarm Soldier */
-     , (0x75D4B013, 0x75D4B074, '2005-02-09 10:00:00') /* Olthoi Swarm Soldier */
-     , (0x75D4B013, 0x75D4B075, '2005-02-09 10:00:00') /* Olthoi Swarm Soldier */
-     , (0x75D4B013, 0x75D4B077, '2005-02-09 10:00:00') /* Olthoi Swarm Soldier */
-     , (0x75D4B013, 0x75D4B078, '2005-02-09 10:00:00') /* Olthoi Swarm Soldier */
-     , (0x75D4B013, 0x75D4B079, '2005-02-09 10:00:00') /* Olthoi Swarm Soldier */
-     , (0x75D4B013, 0x75D4B083, '2005-02-09 10:00:00') /* Olthoi Swarm Soldier */;
+VALUES (0x75D4B013, 0x75D4B01C, '2005-02-09 10:00:00') /* Relic Bones (7179) */
+     , (0x75D4B013, 0x75D4B01D, '2005-02-09 10:00:00') /* Relic Bones (7179) */
+     , (0x75D4B013, 0x75D4B01F, '2005-02-09 10:00:00') /* Great Revenant (24320) */
+     , (0x75D4B013, 0x75D4B020, '2005-02-09 10:00:00') /* Great Skeleton (7122) */
+     , (0x75D4B013, 0x75D4B021, '2005-02-09 10:00:00') /* Risen Lord (24326) */
+     , (0x75D4B013, 0x75D4B058, '2005-02-09 10:00:00') /* Olthoi Swarm Soldier (23989) */
+     , (0x75D4B013, 0x75D4B059, '2005-02-09 10:00:00') /* Olthoi Swarm Soldier (23989) */
+     , (0x75D4B013, 0x75D4B062, '2005-02-09 10:00:00') /* Olthoi Swarm Soldier (23989) */
+     , (0x75D4B013, 0x75D4B063, '2005-02-09 10:00:00') /* Olthoi Swarm Soldier (23989) */
+     , (0x75D4B013, 0x75D4B064, '2005-02-09 10:00:00') /* Olthoi Swarm Soldier (23989) */
+     , (0x75D4B013, 0x75D4B065, '2005-02-09 10:00:00') /* Olthoi Swarm Soldier (23989) */
+     , (0x75D4B013, 0x75D4B067, '2005-02-09 10:00:00') /* Olthoi Swarm Soldier (23989) */
+     , (0x75D4B013, 0x75D4B068, '2005-02-09 10:00:00') /* Olthoi Swarm Soldier (23989) */
+     , (0x75D4B013, 0x75D4B069, '2005-02-09 10:00:00') /* Great Skeleton (7122) */
+     , (0x75D4B013, 0x75D4B06A, '2005-02-09 10:00:00') /* Great Revenant (24320) */
+     , (0x75D4B013, 0x75D4B06B, '2005-02-09 10:00:00') /* Great Revenant (24320) */
+     , (0x75D4B013, 0x75D4B06C, '2005-02-09 10:00:00') /* Great Revenant (24320) */
+     , (0x75D4B013, 0x75D4B06D, '2005-02-09 10:00:00') /* Olthoi Swarm Soldier (23989) */
+     , (0x75D4B013, 0x75D4B06E, '2005-02-09 10:00:00') /* Great Skeleton (7122) */
+     , (0x75D4B013, 0x75D4B06F, '2005-02-09 10:00:00') /* Olthoi Swarm Soldier (23989) */
+     , (0x75D4B013, 0x75D4B070, '2005-02-09 10:00:00') /* Olthoi Swarm Soldier (23989) */
+     , (0x75D4B013, 0x75D4B071, '2005-02-09 10:00:00') /* Olthoi Swarm Soldier (23989) */
+     , (0x75D4B013, 0x75D4B072, '2005-02-09 10:00:00') /* Olthoi Swarm Soldier (23989) */
+     , (0x75D4B013, 0x75D4B073, '2005-02-09 10:00:00') /* Olthoi Swarm Soldier (23989) */
+     , (0x75D4B013, 0x75D4B074, '2005-02-09 10:00:00') /* Olthoi Swarm Soldier (23989) */
+     , (0x75D4B013, 0x75D4B075, '2005-02-09 10:00:00') /* Olthoi Swarm Soldier (23989) */
+     , (0x75D4B013, 0x75D4B077, '2005-02-09 10:00:00') /* Olthoi Swarm Soldier (23989) */
+     , (0x75D4B013, 0x75D4B078, '2005-02-09 10:00:00') /* Olthoi Swarm Soldier (23989) */
+     , (0x75D4B013, 0x75D4B079, '2005-02-09 10:00:00') /* Olthoi Swarm Soldier (23989) */
+     , (0x75D4B013, 0x75D4B083, '2005-02-09 10:00:00') /* Olthoi Swarm Soldier (23989) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75D4B014,  7924, 0x5D4B014B, 88.355, -10, 0.005, 1, 0, 0, 0, False, '2005-02-09 10:00:00'); /* Linkable Monster Generator ( 5 Min.) */
 /* @teleloc 0x5D4B014B [88.355000 -10.000000 0.005000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x75D4B014, 0x75D4B003, '2005-02-09 10:00:00') /* Olthoi Swarm Drone */
-     , (0x75D4B014, 0x75D4B004, '2005-02-09 10:00:00') /* Olthoi Swarm Drone */
-     , (0x75D4B014, 0x75D4B005, '2005-02-09 10:00:00') /* Olthoi Swarm Drone */
-     , (0x75D4B014, 0x75D4B006, '2005-02-09 10:00:00') /* Olthoi Swarm Drone */
-     , (0x75D4B014, 0x75D4B007, '2005-02-09 10:00:00') /* Olthoi Swarm Drone */
-     , (0x75D4B014, 0x75D4B008, '2005-02-09 10:00:00') /* Olthoi Swarm Drone */
-     , (0x75D4B014, 0x75D4B009, '2005-02-09 10:00:00') /* Dark Revenant */
-     , (0x75D4B014, 0x75D4B00A, '2005-02-09 10:00:00') /* Dark Revenant */
-     , (0x75D4B014, 0x75D4B00B, '2005-02-09 10:00:00') /* Dark Leech */
-     , (0x75D4B014, 0x75D4B00C, '2005-02-09 10:00:00') /* Dark Leech */
-     , (0x75D4B014, 0x75D4B00D, '2005-02-09 10:00:00') /* Ashen Bones */
-     , (0x75D4B014, 0x75D4B00E, '2005-02-09 10:00:00') /* Dark Leech */
-     , (0x75D4B014, 0x75D4B00F, '2005-02-09 10:00:00') /* Ashen Bones */
-     , (0x75D4B014, 0x75D4B076, '2005-02-09 10:00:00') /* Olthoi Swarm Soldier */
-     , (0x75D4B014, 0x75D4B07A, '2005-02-09 10:00:00') /* Olthoi Swarm Soldier */
-     , (0x75D4B014, 0x75D4B07B, '2005-02-09 10:00:00') /* Olthoi Swarm Soldier */
-     , (0x75D4B014, 0x75D4B07C, '2005-02-09 10:00:00') /* Olthoi Swarm Soldier */
-     , (0x75D4B014, 0x75D4B07D, '2005-02-09 10:00:00') /* Olthoi Swarm Soldier */
-     , (0x75D4B014, 0x75D4B07E, '2005-02-09 10:00:00') /* Olthoi Swarm Soldier */
-     , (0x75D4B014, 0x75D4B07F, '2005-02-09 10:00:00') /* Olthoi Swarm Soldier */
-     , (0x75D4B014, 0x75D4B080, '2005-02-09 10:00:00') /* Olthoi Swarm Soldier */
-     , (0x75D4B014, 0x75D4B081, '2005-02-09 10:00:00') /* Olthoi Swarm Soldier */
-     , (0x75D4B014, 0x75D4B082, '2005-02-09 10:00:00') /* Olthoi Swarm Soldier */
-     , (0x75D4B014, 0x75D4B084, '2005-02-09 10:00:00') /* Olthoi Swarm Soldier */
-     , (0x75D4B014, 0x75D4B085, '2005-02-09 10:00:00') /* Olthoi Swarm Soldier */
-     , (0x75D4B014, 0x75D4B086, '2005-02-09 10:00:00') /* Olthoi Swarm Soldier */
-     , (0x75D4B014, 0x75D4B087, '2005-02-09 10:00:00') /* Olthoi Swarm Soldier */
-     , (0x75D4B014, 0x75D4B088, '2005-02-09 10:00:00') /* Olthoi Swarm Soldier */
-     , (0x75D4B014, 0x75D4B089, '2005-02-09 10:00:00') /* Olthoi Swarm Soldier */;
+VALUES (0x75D4B014, 0x75D4B003, '2005-02-09 10:00:00') /* Olthoi Swarm Drone (24299) */
+     , (0x75D4B014, 0x75D4B004, '2005-02-09 10:00:00') /* Olthoi Swarm Drone (24299) */
+     , (0x75D4B014, 0x75D4B005, '2005-02-09 10:00:00') /* Olthoi Swarm Drone (24299) */
+     , (0x75D4B014, 0x75D4B006, '2005-02-09 10:00:00') /* Olthoi Swarm Drone (24299) */
+     , (0x75D4B014, 0x75D4B007, '2005-02-09 10:00:00') /* Olthoi Swarm Drone (24299) */
+     , (0x75D4B014, 0x75D4B008, '2005-02-09 10:00:00') /* Olthoi Swarm Drone (24299) */
+     , (0x75D4B014, 0x75D4B009, '2005-02-09 10:00:00') /* Dark Revenant (4217) */
+     , (0x75D4B014, 0x75D4B00A, '2005-02-09 10:00:00') /* Dark Revenant (4217) */
+     , (0x75D4B014, 0x75D4B00B, '2005-02-09 10:00:00') /* Dark Leech (7123) */
+     , (0x75D4B014, 0x75D4B00C, '2005-02-09 10:00:00') /* Dark Leech (7123) */
+     , (0x75D4B014, 0x75D4B00D, '2005-02-09 10:00:00') /* Ashen Bones (7780) */
+     , (0x75D4B014, 0x75D4B00E, '2005-02-09 10:00:00') /* Dark Leech (7123) */
+     , (0x75D4B014, 0x75D4B00F, '2005-02-09 10:00:00') /* Ashen Bones (7780) */
+     , (0x75D4B014, 0x75D4B076, '2005-02-09 10:00:00') /* Olthoi Swarm Soldier (23989) */
+     , (0x75D4B014, 0x75D4B07A, '2005-02-09 10:00:00') /* Olthoi Swarm Soldier (23989) */
+     , (0x75D4B014, 0x75D4B07B, '2005-02-09 10:00:00') /* Olthoi Swarm Soldier (23989) */
+     , (0x75D4B014, 0x75D4B07C, '2005-02-09 10:00:00') /* Olthoi Swarm Soldier (23989) */
+     , (0x75D4B014, 0x75D4B07D, '2005-02-09 10:00:00') /* Olthoi Swarm Soldier (23989) */
+     , (0x75D4B014, 0x75D4B07E, '2005-02-09 10:00:00') /* Olthoi Swarm Soldier (23989) */
+     , (0x75D4B014, 0x75D4B07F, '2005-02-09 10:00:00') /* Olthoi Swarm Soldier (23989) */
+     , (0x75D4B014, 0x75D4B080, '2005-02-09 10:00:00') /* Olthoi Swarm Soldier (23989) */
+     , (0x75D4B014, 0x75D4B081, '2005-02-09 10:00:00') /* Olthoi Swarm Soldier (23989) */
+     , (0x75D4B014, 0x75D4B082, '2005-02-09 10:00:00') /* Olthoi Swarm Soldier (23989) */
+     , (0x75D4B014, 0x75D4B084, '2005-02-09 10:00:00') /* Olthoi Swarm Soldier (23989) */
+     , (0x75D4B014, 0x75D4B085, '2005-02-09 10:00:00') /* Olthoi Swarm Soldier (23989) */
+     , (0x75D4B014, 0x75D4B086, '2005-02-09 10:00:00') /* Olthoi Swarm Soldier (23989) */
+     , (0x75D4B014, 0x75D4B087, '2005-02-09 10:00:00') /* Olthoi Swarm Soldier (23989) */
+     , (0x75D4B014, 0x75D4B088, '2005-02-09 10:00:00') /* Olthoi Swarm Soldier (23989) */
+     , (0x75D4B014, 0x75D4B089, '2005-02-09 10:00:00') /* Olthoi Swarm Soldier (23989) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75D4B015,  7924, 0x5D4B014B, 90.9818, -11.5194, 0.005, 1, 0, 0, 0, False, '2005-02-09 10:00:00'); /* Linkable Monster Generator ( 5 Min.) */
 /* @teleloc 0x5D4B014B [90.981800 -11.519400 0.005000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x75D4B015, 0x75D4B022, '2005-02-09 10:00:00') /* Cursed Bones */
-     , (0x75D4B015, 0x75D4B023, '2005-02-09 10:00:00') /* Cursed Bones */
-     , (0x75D4B015, 0x75D4B024, '2005-02-09 10:00:00') /* Cursed Bones */
-     , (0x75D4B015, 0x75D4B025, '2005-02-09 10:00:00') /* Cursed Bones */
-     , (0x75D4B015, 0x75D4B026, '2005-02-09 10:00:00') /* Cursed Bones */
-     , (0x75D4B015, 0x75D4B027, '2005-02-09 10:00:00') /* Cursed Bones */
-     , (0x75D4B015, 0x75D4B028, '2005-02-09 10:00:00') /* Cursed Bones */
-     , (0x75D4B015, 0x75D4B029, '2005-02-09 10:00:00') /* Cursed Bones */;
+VALUES (0x75D4B015, 0x75D4B022, '2005-02-09 10:00:00') /* Cursed Bones (7178) */
+     , (0x75D4B015, 0x75D4B023, '2005-02-09 10:00:00') /* Cursed Bones (7178) */
+     , (0x75D4B015, 0x75D4B024, '2005-02-09 10:00:00') /* Cursed Bones (7178) */
+     , (0x75D4B015, 0x75D4B025, '2005-02-09 10:00:00') /* Cursed Bones (7178) */
+     , (0x75D4B015, 0x75D4B026, '2005-02-09 10:00:00') /* Cursed Bones (7178) */
+     , (0x75D4B015, 0x75D4B027, '2005-02-09 10:00:00') /* Cursed Bones (7178) */
+     , (0x75D4B015, 0x75D4B028, '2005-02-09 10:00:00') /* Cursed Bones (7178) */
+     , (0x75D4B015, 0x75D4B029, '2005-02-09 10:00:00') /* Cursed Bones (7178) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75D4B016,  4217, 0x5D4B0153, 90.5143, -49.1069, 0.00825, 0.998589, 0, 0, 0.053113,  True, '2005-02-09 10:00:00'); /* Dark Revenant */
@@ -689,7 +689,7 @@ VALUES (0x75D4B08B, 15759, 0x5D4B032E, 261.314, -651.385, 48.005, 0.999164, 0, 0
 /* @teleloc 0x5D4B032E [261.314000 -651.385000 48.005000] 0.999164 0.000000 0.000000 0.040871 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x75D4B08B, 0x75D4B08A, '2005-02-09 10:00:00') /* Untranslated Note */;
+VALUES (0x75D4B08B, 0x75D4B08A, '2005-02-09 10:00:00') /* Untranslated Note (25693) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75D4B08C, 25686, 0x5D4B032F, 259.993, -656.347, 48.005, 0.00603495, 0, 0, -0.999982, False, '2005-02-09 10:00:00'); /* Deep Olthoi Chasm */

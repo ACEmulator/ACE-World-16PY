@@ -1,5 +1,4 @@
-DELETE FROM `encounter` WHERE `landblock` = 30897;
+DELETE FROM `encounter` WHERE `landblock` = 0x78B1;
 
 INSERT INTO `encounter` (`landblock`, `weenie_Class_Id`, `cell_X`, `cell_Y`, `last_Modified`)
-VALUES (30897, 23151, 3, 4, '2005-02-09 10:00:00') /* Mid North Forest Mix Generator */
-     , (30897, 23151, 8, 2, '2005-02-09 10:00:00') /* Mid North Forest Mix Generator */;
+VALUES (0x78B1, 23151, 3, 4, '2005-02-09 10:00:00') /* Mid North Forest Mix Generator */;

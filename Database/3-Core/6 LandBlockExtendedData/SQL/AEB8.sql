@@ -33,5 +33,5 @@ VALUES (0x7AEB8009,  7925, 0xAEB80102, 11.3773, 81.8636, 96, -0.639249, 0, 0, 0.
 /* @teleloc 0xAEB80102 [11.377300 81.863600 96.000000] -0.639249 0.000000 0.000000 0.768999 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7AEB8009, 0x7AEB8007, '2005-02-09 10:00:00') /* Banderling Blade */
-     , (0x7AEB8009, 0x7AEB8008, '2005-02-09 10:00:00') /* Banderling Ogre */;
+VALUES (0x7AEB8009, 0x7AEB8007, '2005-02-09 10:00:00') /* Banderling Blade (7332) */
+     , (0x7AEB8009, 0x7AEB8008, '2005-02-09 10:00:00') /* Banderling Ogre (7087) */;

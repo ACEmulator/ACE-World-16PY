@@ -13,5 +13,5 @@ VALUES (0x7BC28002,  1154, 0xBC280000, 33.701, 182.551, 217.198, 0.288047, 0, 0,
 /* @teleloc 0xBC280000 [33.701000 182.551000 217.198000] 0.288047 0.000000 0.000000 -0.957616 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BC28002, 0x7BC28000, '2005-02-09 10:00:00') /* Gotrok Lithos */
-     , (0x7BC28002, 0x7BC28001, '2005-02-09 10:00:00') /* Gotrok Lithos */;
+VALUES (0x7BC28002, 0x7BC28000, '2005-02-09 10:00:00') /* Gotrok Lithos (24942) */
+     , (0x7BC28002, 0x7BC28001, '2005-02-09 10:00:00') /* Gotrok Lithos (24942) */;

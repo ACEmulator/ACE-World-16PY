@@ -309,8 +309,8 @@ VALUES (0x703A7050,  4464, 0x03A701D1, 50, -115.953, -53.995, 1, 0, 0, 0, False,
 /* @teleloc 0x03A701D1 [50.000000 -115.953000 -53.995000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x703A7050, 0x703A7086, '2005-02-09 10:00:00') /* Pressure Plate */
-     , (0x703A7050, 0x703A719C, '2005-02-09 10:00:00') /* Pressure Plate */;
+VALUES (0x703A7050, 0x703A7086, '2005-02-09 10:00:00') /* Pressure Plate (2131) */
+     , (0x703A7050, 0x703A719C, '2005-02-09 10:00:00') /* Pressure Plate (2131) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x703A7051,  5627, 0x03A701DF, 70, -124.749, -53.995, 1, 0, 0, 0, False, '2005-02-09 10:00:00'); /* Door */
@@ -1081,8 +1081,8 @@ VALUES (0x703A7112,  4464, 0x03A70354, 70, -123.999, -17.995, -4.37114E-08, 0, 0
 /* @teleloc 0x03A70354 [70.000000 -123.999000 -17.995000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x703A7112, 0x703A7069, '2005-02-09 10:00:00') /* Pressure Plate */
-     , (0x703A7112, 0x703A719D, '2005-02-09 10:00:00') /* Pressure Plate */;
+VALUES (0x703A7112, 0x703A7069, '2005-02-09 10:00:00') /* Pressure Plate (2131) */
+     , (0x703A7112, 0x703A719D, '2005-02-09 10:00:00') /* Pressure Plate (2131) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x703A7113,  4999, 0x03A70355, 113.655, -120.149, -17.995, 0.999956, 0, 0, -0.00936069, False, '2005-02-09 10:00:00'); /* Chilly Air Level 3 */
@@ -1589,62 +1589,62 @@ VALUES (0x703A7190,  7923, 0x03A703C2, 99.655, -168.895, 0.07557, 1, 0, 0, 0, Fa
 /* @teleloc 0x03A703C2 [99.655000 -168.895000 0.075570] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x703A7190, 0x703A7008, '2005-02-09 10:00:00') /* Olthoi Legionary */
-     , (0x703A7190, 0x703A700A, '2005-02-09 10:00:00') /* Olthoi Legionary */
-     , (0x703A7190, 0x703A700D, '2005-02-09 10:00:00') /* Olthoi Legionary */
-     , (0x703A7190, 0x703A700E, '2005-02-09 10:00:00') /* Olthoi Legionary */
-     , (0x703A7190, 0x703A7014, '2005-02-09 10:00:00') /* Olthoi Legionary */
-     , (0x703A7190, 0x703A7016, '2005-02-09 10:00:00') /* Olthoi Legionary */
-     , (0x703A7190, 0x703A7018, '2005-02-09 10:00:00') /* Olthoi Legionary */
-     , (0x703A7190, 0x703A701A, '2005-02-09 10:00:00') /* Olthoi Legionary */
-     , (0x703A7190, 0x703A7024, '2005-02-09 10:00:00') /* Olthoi Legionary */
-     , (0x703A7190, 0x703A7027, '2005-02-09 10:00:00') /* Olthoi Legionary */
-     , (0x703A7190, 0x703A7029, '2005-02-09 10:00:00') /* Olthoi Legionary */
-     , (0x703A7190, 0x703A702B, '2005-02-09 10:00:00') /* Olthoi Legionary */
-     , (0x703A7190, 0x703A7036, '2005-02-09 10:00:00') /* Olthoi Legionary */
-     , (0x703A7190, 0x703A7038, '2005-02-09 10:00:00') /* Olthoi Legionary */
-     , (0x703A7190, 0x703A703A, '2005-02-09 10:00:00') /* Olthoi Legionary */
-     , (0x703A7190, 0x703A703C, '2005-02-09 10:00:00') /* Olthoi Legionary */
-     , (0x703A7190, 0x703A7044, '2005-02-09 10:00:00') /* Olthoi Eviscerator */
-     , (0x703A7190, 0x703A7046, '2005-02-09 10:00:00') /* Olthoi Legionary */
-     , (0x703A7190, 0x703A7049, '2005-02-09 10:00:00') /* Olthoi Legionary */
-     , (0x703A7190, 0x703A704B, '2005-02-09 10:00:00') /* Olthoi Legionary */
-     , (0x703A7190, 0x703A704D, '2005-02-09 10:00:00') /* Olthoi Legionary */
-     , (0x703A7190, 0x703A704F, '2005-02-09 10:00:00') /* Olthoi Legionary */
-     , (0x703A7190, 0x703A7052, '2005-02-09 10:00:00') /* Olthoi Legionary */
-     , (0x703A7190, 0x703A7054, '2005-02-09 10:00:00') /* Olthoi Legionary */
-     , (0x703A7190, 0x703A7056, '2005-02-09 10:00:00') /* Olthoi Legionary */
-     , (0x703A7190, 0x703A7068, '2005-02-09 10:00:00') /* Olthoi Legionary */
-     , (0x703A7190, 0x703A7076, '2005-02-09 10:00:00') /* Olthoi Legionary */
-     , (0x703A7190, 0x703A7081, '2005-02-09 10:00:00') /* Olthoi Legionary */
-     , (0x703A7190, 0x703A7083, '2005-02-09 10:00:00') /* Olthoi Legionary */
-     , (0x703A7190, 0x703A7088, '2005-02-09 10:00:00') /* Olthoi Legionary */
-     , (0x703A7190, 0x703A708A, '2005-02-09 10:00:00') /* Olthoi Legionary */
-     , (0x703A7190, 0x703A7091, '2005-02-09 10:00:00') /* Olthoi Legionary */
-     , (0x703A7190, 0x703A7093, '2005-02-09 10:00:00') /* Olthoi Legionary */
-     , (0x703A7190, 0x703A70A2, '2005-02-09 10:00:00') /* Olthoi Legionary */
-     , (0x703A7190, 0x703A70A4, '2005-02-09 10:00:00') /* Olthoi Legionary */
-     , (0x703A7190, 0x703A70A5, '2005-02-09 10:00:00') /* Olthoi Legionary */
-     , (0x703A7190, 0x703A70A7, '2005-02-09 10:00:00') /* Olthoi Legionary */
-     , (0x703A7190, 0x703A70A9, '2005-02-09 10:00:00') /* Olthoi Legionary */
-     , (0x703A7190, 0x703A70B0, '2005-02-09 10:00:00') /* Olthoi Legionary */
-     , (0x703A7190, 0x703A70C2, '2005-02-09 10:00:00') /* Olthoi Legionary */
-     , (0x703A7190, 0x703A70C4, '2005-02-09 10:00:00') /* Olthoi Legionary */
-     , (0x703A7190, 0x703A70CB, '2005-02-09 10:00:00') /* Olthoi Legionary */
-     , (0x703A7190, 0x703A70D2, '2005-02-09 10:00:00') /* Olthoi Legionary */
-     , (0x703A7190, 0x703A70EA, '2005-02-09 10:00:00') /* Ebon Gromnie */
-     , (0x703A7190, 0x703A70EC, '2005-02-09 10:00:00') /* Olthoi Legionary */
-     , (0x703A7190, 0x703A70F8, '2005-02-09 10:00:00') /* Olthoi Legionary */
-     , (0x703A7190, 0x703A7110, '2005-02-09 10:00:00') /* Chaos Wisp */
-     , (0x703A7190, 0x703A7111, '2005-02-09 10:00:00') /* Chaos Wisp */
-     , (0x703A7190, 0x703A7114, '2005-02-09 10:00:00') /* Chaos Wisp */
-     , (0x703A7190, 0x703A711D, '2005-02-09 10:00:00') /* Chaos Wisp */
-     , (0x703A7190, 0x703A712B, '2005-02-09 10:00:00') /* Chaos Wisp */
-     , (0x703A7190, 0x703A7135, '2005-02-09 10:00:00') /* Chaos Wisp */
-     , (0x703A7190, 0x703A7142, '2005-02-09 10:00:00') /* Chaos Wisp */
-     , (0x703A7190, 0x703A715A, '2005-02-09 10:00:00') /* Chaos Wisp */
-     , (0x703A7190, 0x703A71A0, '2005-02-09 10:00:00') /* Olthoi Eviscerator */
-     , (0x703A7190, 0x703A71A1, '2005-02-09 10:00:00') /* Olthoi Eviscerator */;
+VALUES (0x703A7190, 0x703A7008, '2005-02-09 10:00:00') /* Olthoi Legionary (11481) */
+     , (0x703A7190, 0x703A700A, '2005-02-09 10:00:00') /* Olthoi Legionary (11481) */
+     , (0x703A7190, 0x703A700D, '2005-02-09 10:00:00') /* Olthoi Legionary (11481) */
+     , (0x703A7190, 0x703A700E, '2005-02-09 10:00:00') /* Olthoi Legionary (11481) */
+     , (0x703A7190, 0x703A7014, '2005-02-09 10:00:00') /* Olthoi Legionary (11481) */
+     , (0x703A7190, 0x703A7016, '2005-02-09 10:00:00') /* Olthoi Legionary (11481) */
+     , (0x703A7190, 0x703A7018, '2005-02-09 10:00:00') /* Olthoi Legionary (11481) */
+     , (0x703A7190, 0x703A701A, '2005-02-09 10:00:00') /* Olthoi Legionary (11481) */
+     , (0x703A7190, 0x703A7024, '2005-02-09 10:00:00') /* Olthoi Legionary (11481) */
+     , (0x703A7190, 0x703A7027, '2005-02-09 10:00:00') /* Olthoi Legionary (11481) */
+     , (0x703A7190, 0x703A7029, '2005-02-09 10:00:00') /* Olthoi Legionary (11481) */
+     , (0x703A7190, 0x703A702B, '2005-02-09 10:00:00') /* Olthoi Legionary (11481) */
+     , (0x703A7190, 0x703A7036, '2005-02-09 10:00:00') /* Olthoi Legionary (11481) */
+     , (0x703A7190, 0x703A7038, '2005-02-09 10:00:00') /* Olthoi Legionary (11481) */
+     , (0x703A7190, 0x703A703A, '2005-02-09 10:00:00') /* Olthoi Legionary (11481) */
+     , (0x703A7190, 0x703A703C, '2005-02-09 10:00:00') /* Olthoi Legionary (11481) */
+     , (0x703A7190, 0x703A7044, '2005-02-09 10:00:00') /* Olthoi Eviscerator (11478) */
+     , (0x703A7190, 0x703A7046, '2005-02-09 10:00:00') /* Olthoi Legionary (11481) */
+     , (0x703A7190, 0x703A7049, '2005-02-09 10:00:00') /* Olthoi Legionary (11481) */
+     , (0x703A7190, 0x703A704B, '2005-02-09 10:00:00') /* Olthoi Legionary (11695) */
+     , (0x703A7190, 0x703A704D, '2005-02-09 10:00:00') /* Olthoi Legionary (11695) */
+     , (0x703A7190, 0x703A704F, '2005-02-09 10:00:00') /* Olthoi Legionary (11695) */
+     , (0x703A7190, 0x703A7052, '2005-02-09 10:00:00') /* Olthoi Legionary (11695) */
+     , (0x703A7190, 0x703A7054, '2005-02-09 10:00:00') /* Olthoi Legionary (11695) */
+     , (0x703A7190, 0x703A7056, '2005-02-09 10:00:00') /* Olthoi Legionary (11481) */
+     , (0x703A7190, 0x703A7068, '2005-02-09 10:00:00') /* Olthoi Legionary (11695) */
+     , (0x703A7190, 0x703A7076, '2005-02-09 10:00:00') /* Olthoi Legionary (11695) */
+     , (0x703A7190, 0x703A7081, '2005-02-09 10:00:00') /* Olthoi Legionary (11695) */
+     , (0x703A7190, 0x703A7083, '2005-02-09 10:00:00') /* Olthoi Legionary (11695) */
+     , (0x703A7190, 0x703A7088, '2005-02-09 10:00:00') /* Olthoi Legionary (11481) */
+     , (0x703A7190, 0x703A708A, '2005-02-09 10:00:00') /* Olthoi Legionary (11481) */
+     , (0x703A7190, 0x703A7091, '2005-02-09 10:00:00') /* Olthoi Legionary (11481) */
+     , (0x703A7190, 0x703A7093, '2005-02-09 10:00:00') /* Olthoi Legionary (11481) */
+     , (0x703A7190, 0x703A70A2, '2005-02-09 10:00:00') /* Olthoi Legionary (11481) */
+     , (0x703A7190, 0x703A70A4, '2005-02-09 10:00:00') /* Olthoi Legionary (11481) */
+     , (0x703A7190, 0x703A70A5, '2005-02-09 10:00:00') /* Olthoi Legionary (11481) */
+     , (0x703A7190, 0x703A70A7, '2005-02-09 10:00:00') /* Olthoi Legionary (11481) */
+     , (0x703A7190, 0x703A70A9, '2005-02-09 10:00:00') /* Olthoi Legionary (11481) */
+     , (0x703A7190, 0x703A70B0, '2005-02-09 10:00:00') /* Olthoi Legionary (11481) */
+     , (0x703A7190, 0x703A70C2, '2005-02-09 10:00:00') /* Olthoi Legionary (11481) */
+     , (0x703A7190, 0x703A70C4, '2005-02-09 10:00:00') /* Olthoi Legionary (11481) */
+     , (0x703A7190, 0x703A70CB, '2005-02-09 10:00:00') /* Olthoi Legionary (11481) */
+     , (0x703A7190, 0x703A70D2, '2005-02-09 10:00:00') /* Olthoi Legionary (11481) */
+     , (0x703A7190, 0x703A70EA, '2005-02-09 10:00:00') /* Ebon Gromnie (11526) */
+     , (0x703A7190, 0x703A70EC, '2005-02-09 10:00:00') /* Olthoi Legionary (11481) */
+     , (0x703A7190, 0x703A70F8, '2005-02-09 10:00:00') /* Olthoi Legionary (11481) */
+     , (0x703A7190, 0x703A7110, '2005-02-09 10:00:00') /* Chaos Wisp (11535) */
+     , (0x703A7190, 0x703A7111, '2005-02-09 10:00:00') /* Chaos Wisp (11535) */
+     , (0x703A7190, 0x703A7114, '2005-02-09 10:00:00') /* Chaos Wisp (11535) */
+     , (0x703A7190, 0x703A711D, '2005-02-09 10:00:00') /* Chaos Wisp (11535) */
+     , (0x703A7190, 0x703A712B, '2005-02-09 10:00:00') /* Chaos Wisp (11535) */
+     , (0x703A7190, 0x703A7135, '2005-02-09 10:00:00') /* Chaos Wisp (11535) */
+     , (0x703A7190, 0x703A7142, '2005-02-09 10:00:00') /* Chaos Wisp (11535) */
+     , (0x703A7190, 0x703A715A, '2005-02-09 10:00:00') /* Chaos Wisp (11535) */
+     , (0x703A7190, 0x703A71A0, '2005-02-09 10:00:00') /* Olthoi Eviscerator (11478) */
+     , (0x703A7190, 0x703A71A1, '2005-02-09 10:00:00') /* Olthoi Eviscerator (11478) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x703A7191,  4999, 0x03A703C2, 96.9415, -167.544, 0.005, -0.999661, 0, 0, 0.0260456, False, '2005-02-09 10:00:00'); /* Chilly Air Level 3 */

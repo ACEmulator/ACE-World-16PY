@@ -1,6 +1,5 @@
-DELETE FROM `encounter` WHERE `landblock` = 33501;
+DELETE FROM `encounter` WHERE `landblock` = 0x82DD;
 
 INSERT INTO `encounter` (`landblock`, `weenie_Class_Id`, `cell_X`, `cell_Y`, `last_Modified`)
-VALUES (33501, 1970, 3, 6, '2005-02-09 10:00:00') /* High Direlands Mountain Generator */
-     , (33501, 4171, 7, 2, '2005-02-09 10:00:00') /* High North Mountains Tusker Generator */
-     , (33501, 4171, 8, 5, '2005-02-09 10:00:00') /* High North Mountains Tusker Generator */;
+VALUES (0x82DD, 1970, 3, 6, '2005-02-09 10:00:00') /* High Direlands Mountain Generator */
+     , (0x82DD, 4171, 7, 2, '2005-02-09 10:00:00') /* High North Mountains Tusker Generator */;

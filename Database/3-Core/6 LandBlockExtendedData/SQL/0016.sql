@@ -33,14 +33,14 @@ VALUES (0x70016007,  7923, 0x00160109, 6.49319, -19.8886, -23.995, 0.346774, 0, 
 /* @teleloc 0x00160109 [6.493190 -19.888600 -23.995000] 0.346774 0.000000 0.000000 -0.937949 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x70016007, 0x70016006, '2005-02-09 10:00:00') /* Withered Revered Tumerok Shaman */;
+VALUES (0x70016007, 0x70016006, '2005-02-09 10:00:00') /* Withered Revered Tumerok Shaman (30688) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x70016008,  2179, 0x0016010B, 14.6357, -29.9725, -24, 0.707107, 0, 0, -0.707107, False, '2005-02-09 10:00:00'); /* Door */
 /* @teleloc 0x0016010B [14.635700 -29.972500 -24.000000] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x70016008, 0x70016002, '2005-02-09 10:00:00') /* Lever */;
+VALUES (0x70016008, 0x70016002, '2005-02-09 10:00:00') /* Lever (286) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x70016009, 30687, 0x0016010C, 10.8906, -43.9709, -23.989, -0.352247, 0, 0, -0.935907,  True, '2005-02-09 10:00:00'); /* Withered Revered Tumerok Shaman */
@@ -135,7 +135,7 @@ VALUES (0x7001601F,  2179, 0x00160145, 14.75, -40, -12, 0.707107, 0, 0, -0.70710
 /* @teleloc 0x00160145 [14.750000 -40.000000 -12.000000] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7001601F, 0x70016028, '2005-02-09 10:00:00') /* Lever */;
+VALUES (0x7001601F, 0x70016028, '2005-02-09 10:00:00') /* Lever (286) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x70016020, 30683, 0x00160148, 10.8972, -64.139, -11.9929, -0.707107, 0, 0, -0.707107,  True, '2005-02-09 10:00:00'); /* Withered Banderling Hierophant */
@@ -158,7 +158,7 @@ VALUES (0x70016024,  2179, 0x00160165, 25.25, -50, -12, -0.707107, 0, 0, -0.7071
 /* @teleloc 0x00160165 [25.250000 -50.000000 -12.000000] -0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x70016024, 0x70016017, '2005-02-09 10:00:00') /* Lever */;
+VALUES (0x70016024, 0x70016017, '2005-02-09 10:00:00') /* Lever (286) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x70016025, 30683, 0x0016016A, 27.8448, -67.7091, -11.9467, 0.707107, 0, 0, -0.707107,  True, '2005-02-09 10:00:00'); /* Withered Banderling Hierophant */
@@ -237,31 +237,31 @@ VALUES (0x70016037,  7923, 0x001601CE, 20, -60, 12, -0.707107, 0, 0, -0.707107, 
 /* @teleloc 0x001601CE [20.000000 -60.000000 12.000000] -0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x70016037, 0x70016001, '2005-02-09 10:00:00') /* Withered Revered Tumerok Shaman */
-     , (0x70016037, 0x70016004, '2005-02-09 10:00:00') /* Withered Revered Tumerok Shaman */
-     , (0x70016037, 0x70016005, '2005-02-09 10:00:00') /* Withered Revered Tumerok Shaman */
-     , (0x70016037, 0x70016009, '2005-02-09 10:00:00') /* Withered Revered Tumerok Shaman */
-     , (0x70016037, 0x7001600A, '2005-02-09 10:00:00') /* Withered Revered Tumerok Shaman */
-     , (0x70016037, 0x7001600B, '2005-02-09 10:00:00') /* Withered Banderling Hierophant */
-     , (0x70016037, 0x7001600D, '2005-02-09 10:00:00') /* Withered Banderling Hierophant */
-     , (0x70016037, 0x7001600E, '2005-02-09 10:00:00') /* Withered Banderling Hierophant */
-     , (0x70016037, 0x7001600F, '2005-02-09 10:00:00') /* Withered Banderling Hierophant */
-     , (0x70016037, 0x70016013, '2005-02-09 10:00:00') /* Withered Revered Tumerok Shaman */
-     , (0x70016037, 0x70016014, '2005-02-09 10:00:00') /* Withered Banderling Hierophant */
-     , (0x70016037, 0x70016015, '2005-02-09 10:00:00') /* Withered Banderling Hierophant */
-     , (0x70016037, 0x70016019, '2005-02-09 10:00:00') /* Withered Banderling Hierophant */
-     , (0x70016037, 0x7001601C, '2005-02-09 10:00:00') /* Withered Banderling Hierophant */
-     , (0x70016037, 0x70016020, '2005-02-09 10:00:00') /* Withered Banderling Hierophant */
-     , (0x70016037, 0x70016022, '2005-02-09 10:00:00') /* Withered Banderling Paragon */
-     , (0x70016037, 0x70016023, '2005-02-09 10:00:00') /* Withered Banderling Paragon */
-     , (0x70016037, 0x70016025, '2005-02-09 10:00:00') /* Withered Banderling Hierophant */
-     , (0x70016037, 0x70016026, '2005-02-09 10:00:00') /* Withered Banderling Paragon */
-     , (0x70016037, 0x7001602B, '2005-02-09 10:00:00') /* Withered Banderling Paragon */
-     , (0x70016037, 0x70016030, '2005-02-09 10:00:00') /* Withered Banderling Hierophant */
-     , (0x70016037, 0x70016033, '2005-02-09 10:00:00') /* Withered Banderling Paragon */
-     , (0x70016037, 0x70016034, '2005-02-09 10:00:00') /* Withered Banderling Paragon */
-     , (0x70016037, 0x70016035, '2005-02-09 10:00:00') /* Withered Banderling Hierophant */
-     , (0x70016037, 0x70016038, '2005-02-09 10:00:00') /* Withered Banderling Hierophant */;
+VALUES (0x70016037, 0x70016001, '2005-02-09 10:00:00') /* Withered Revered Tumerok Shaman (30687) */
+     , (0x70016037, 0x70016004, '2005-02-09 10:00:00') /* Withered Revered Tumerok Shaman (30687) */
+     , (0x70016037, 0x70016005, '2005-02-09 10:00:00') /* Withered Revered Tumerok Shaman (30687) */
+     , (0x70016037, 0x70016009, '2005-02-09 10:00:00') /* Withered Revered Tumerok Shaman (30687) */
+     , (0x70016037, 0x7001600A, '2005-02-09 10:00:00') /* Withered Revered Tumerok Shaman (30687) */
+     , (0x70016037, 0x7001600B, '2005-02-09 10:00:00') /* Withered Banderling Hierophant (30683) */
+     , (0x70016037, 0x7001600D, '2005-02-09 10:00:00') /* Withered Banderling Hierophant (30683) */
+     , (0x70016037, 0x7001600E, '2005-02-09 10:00:00') /* Withered Banderling Hierophant (30683) */
+     , (0x70016037, 0x7001600F, '2005-02-09 10:00:00') /* Withered Banderling Hierophant (30683) */
+     , (0x70016037, 0x70016013, '2005-02-09 10:00:00') /* Withered Revered Tumerok Shaman (30687) */
+     , (0x70016037, 0x70016014, '2005-02-09 10:00:00') /* Withered Banderling Hierophant (30683) */
+     , (0x70016037, 0x70016015, '2005-02-09 10:00:00') /* Withered Banderling Hierophant (30683) */
+     , (0x70016037, 0x70016019, '2005-02-09 10:00:00') /* Withered Banderling Hierophant (30683) */
+     , (0x70016037, 0x7001601C, '2005-02-09 10:00:00') /* Withered Banderling Hierophant (30683) */
+     , (0x70016037, 0x70016020, '2005-02-09 10:00:00') /* Withered Banderling Hierophant (30683) */
+     , (0x70016037, 0x70016022, '2005-02-09 10:00:00') /* Withered Banderling Paragon (30685) */
+     , (0x70016037, 0x70016023, '2005-02-09 10:00:00') /* Withered Banderling Paragon (30685) */
+     , (0x70016037, 0x70016025, '2005-02-09 10:00:00') /* Withered Banderling Hierophant (30683) */
+     , (0x70016037, 0x70016026, '2005-02-09 10:00:00') /* Withered Banderling Paragon (30685) */
+     , (0x70016037, 0x7001602B, '2005-02-09 10:00:00') /* Withered Banderling Paragon (30685) */
+     , (0x70016037, 0x70016030, '2005-02-09 10:00:00') /* Withered Banderling Hierophant (30683) */
+     , (0x70016037, 0x70016033, '2005-02-09 10:00:00') /* Withered Banderling Paragon (30685) */
+     , (0x70016037, 0x70016034, '2005-02-09 10:00:00') /* Withered Banderling Paragon (30685) */
+     , (0x70016037, 0x70016035, '2005-02-09 10:00:00') /* Withered Banderling Hierophant (30683) */
+     , (0x70016037, 0x70016038, '2005-02-09 10:00:00') /* Withered Banderling Hierophant (30683) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x70016038, 30683, 0x001601D4, 39.0199, -45.8829, 12.0071, 0.406537, 0, 0, -0.913634,  True, '2005-02-09 10:00:00'); /* Withered Banderling Hierophant */
@@ -300,14 +300,14 @@ VALUES (0x70016040,  7923, 0x001601AC, 20, -20, 6.005, 1, 0, 0, 0, False, '2005-
 /* @teleloc 0x001601AC [20.000000 -20.000000 6.005000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x70016040, 0x70016039, '2005-02-09 10:00:00') /* Withered Banderling Hierophant */
-     , (0x70016040, 0x7001603A, '2005-02-09 10:00:00') /* Withered Banderling Hierophant */
-     , (0x70016040, 0x7001603B, '2005-02-09 10:00:00') /* Withered Banderling Hierophant */
-     , (0x70016040, 0x7001603C, '2005-02-09 10:00:00') /* Withered Banderling Hierophant */
-     , (0x70016040, 0x7001603D, '2005-02-09 10:00:00') /* Withered Banderling Hierophant */
-     , (0x70016040, 0x7001603E, '2005-02-09 10:00:00') /* Withered Banderling Hierophant */
-     , (0x70016040, 0x7001603F, '2005-02-09 10:00:00') /* Withered Banderling Hierophant */
-     , (0x70016040, 0x70016041, '2005-02-09 10:00:00') /* Withered Banderling Hierophant */;
+VALUES (0x70016040, 0x70016039, '2005-02-09 10:00:00') /* Withered Banderling Hierophant (30683) */
+     , (0x70016040, 0x7001603A, '2005-02-09 10:00:00') /* Withered Banderling Hierophant (30683) */
+     , (0x70016040, 0x7001603B, '2005-02-09 10:00:00') /* Withered Banderling Hierophant (30683) */
+     , (0x70016040, 0x7001603C, '2005-02-09 10:00:00') /* Withered Banderling Hierophant (30683) */
+     , (0x70016040, 0x7001603D, '2005-02-09 10:00:00') /* Withered Banderling Hierophant (30683) */
+     , (0x70016040, 0x7001603E, '2005-02-09 10:00:00') /* Withered Banderling Hierophant (30683) */
+     , (0x70016040, 0x7001603F, '2005-02-09 10:00:00') /* Withered Banderling Hierophant (30683) */
+     , (0x70016040, 0x70016041, '2005-02-09 10:00:00') /* Withered Banderling Hierophant (30683) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x70016041, 30683, 0x001601CF, 28.1633, -32.8427, 12.0071, -0.467036, 0, 0, 0.884238,  True, '2005-02-09 10:00:00'); /* Withered Banderling Hierophant */

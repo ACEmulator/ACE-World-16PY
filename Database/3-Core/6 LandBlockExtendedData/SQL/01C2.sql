@@ -189,8 +189,8 @@ VALUES (0x701C2048,  1542, 0x01C201A2, 21.336, -69.8225, 0, -4.37114E-08, 0, 0, 
 /* @teleloc 0x01C201A2 [21.336000 -69.822500 0.000000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x701C2048, 0x701C2047, '2005-02-09 10:00:00') /* Good Lockpick */
-     , (0x701C2048, 0x701C2049, '2005-02-09 10:00:00') /* Club */;
+VALUES (0x701C2048, 0x701C2047, '2005-02-09 10:00:00') /* Good Lockpick (512) */
+     , (0x701C2048, 0x701C2049, '2005-02-09 10:00:00') /* Club (309) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x701C2049,   309, 0x01C201A2, 18.786, -72.7281, 0.109375, -4.37114E-08, 0, 0, -1,  True, '2005-02-09 10:00:00'); /* Club */
@@ -245,18 +245,18 @@ VALUES (0x701C2072,  3955, 0x01C201F5, 90, -50, 0, 0.707107, 0, 0, -0.707107, Fa
 /* @teleloc 0x01C201F5 [90.000000 -50.000000 0.000000] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x701C2072, 0x701C2001, '2005-02-09 10:00:00') /* Skeleton Warrior */
-     , (0x701C2072, 0x701C2004, '2005-02-09 10:00:00') /* Skeleton Warrior */
-     , (0x701C2072, 0x701C2007, '2005-02-09 10:00:00') /* Skeleton Warrior */
-     , (0x701C2072, 0x701C200B, '2005-02-09 10:00:00') /* Skeleton Warrior */
-     , (0x701C2072, 0x701C200D, '2005-02-09 10:00:00') /* Skeleton Warrior */
-     , (0x701C2072, 0x701C200E, '2005-02-09 10:00:00') /* Skeleton Warrior */
-     , (0x701C2072, 0x701C2010, '2005-02-09 10:00:00') /* Skeleton Warrior */
-     , (0x701C2072, 0x701C2013, '2005-02-09 10:00:00') /* Skeleton Captain */
-     , (0x701C2072, 0x701C2021, '2005-02-09 10:00:00') /* Skeleton Warrior */
-     , (0x701C2072, 0x701C202A, '2005-02-09 10:00:00') /* Skeleton Warrior */
-     , (0x701C2072, 0x701C2030, '2005-02-09 10:00:00') /* Skeleton Warrior */
-     , (0x701C2072, 0x701C2031, '2005-02-09 10:00:00') /* Skeleton Warrior */;
+VALUES (0x701C2072, 0x701C2001, '2005-02-09 10:00:00') /* Skeleton Warrior (1760) */
+     , (0x701C2072, 0x701C2004, '2005-02-09 10:00:00') /* Skeleton Warrior (1760) */
+     , (0x701C2072, 0x701C2007, '2005-02-09 10:00:00') /* Skeleton Warrior (1760) */
+     , (0x701C2072, 0x701C200B, '2005-02-09 10:00:00') /* Skeleton Warrior (1760) */
+     , (0x701C2072, 0x701C200D, '2005-02-09 10:00:00') /* Skeleton Warrior (1760) */
+     , (0x701C2072, 0x701C200E, '2005-02-09 10:00:00') /* Skeleton Warrior (1760) */
+     , (0x701C2072, 0x701C2010, '2005-02-09 10:00:00') /* Skeleton Warrior (1760) */
+     , (0x701C2072, 0x701C2013, '2005-02-09 10:00:00') /* Skeleton Captain (1761) */
+     , (0x701C2072, 0x701C2021, '2005-02-09 10:00:00') /* Skeleton Warrior (1760) */
+     , (0x701C2072, 0x701C202A, '2005-02-09 10:00:00') /* Skeleton Warrior (1760) */
+     , (0x701C2072, 0x701C2030, '2005-02-09 10:00:00') /* Skeleton Warrior (1760) */
+     , (0x701C2072, 0x701C2031, '2005-02-09 10:00:00') /* Skeleton Warrior (1760) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x701C2073,   278, 0x01C20203, 95.25, -40, 0, -0.707107, 0, 0, -0.707107, False, '2005-02-09 10:00:00'); /* Door */
@@ -267,32 +267,32 @@ VALUES (0x701C2078,  7923, 0x01C20204, 100, -50, 0, -0.707107, 0, 0, -0.707107, 
 /* @teleloc 0x01C20204 [100.000000 -50.000000 0.000000] -0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x701C2078, 0x701C2027, '2005-02-09 10:00:00') /* Skeleton Warrior */
-     , (0x701C2078, 0x701C2029, '2005-02-09 10:00:00') /* Skeleton Warrior */
-     , (0x701C2078, 0x701C2082, '2005-02-09 10:00:00') /* Skeleton Warrior */
-     , (0x701C2078, 0x701C2083, '2005-02-09 10:00:00') /* Skeleton Captain */
-     , (0x701C2078, 0x701C2084, '2005-02-09 10:00:00') /* Skeleton Captain */
-     , (0x701C2078, 0x701C2085, '2005-02-09 10:00:00') /* Skeleton Warrior */
-     , (0x701C2078, 0x701C2086, '2005-02-09 10:00:00') /* Hollow Minion */
-     , (0x701C2078, 0x701C2088, '2005-02-09 10:00:00') /* Skeleton Captain */
-     , (0x701C2078, 0x701C2089, '2005-02-09 10:00:00') /* Skeleton Warrior */
-     , (0x701C2078, 0x701C208A, '2005-02-09 10:00:00') /* Skeleton Warrior */
-     , (0x701C2078, 0x701C208B, '2005-02-09 10:00:00') /* Skeleton Warrior */
-     , (0x701C2078, 0x701C208C, '2005-02-09 10:00:00') /* Skeleton Captain */
-     , (0x701C2078, 0x701C208D, '2005-02-09 10:00:00') /* Mountain Rat */
-     , (0x701C2078, 0x701C208E, '2005-02-09 10:00:00') /* Hollow Minion */
-     , (0x701C2078, 0x701C208F, '2005-02-09 10:00:00') /* Skeleton Captain */
-     , (0x701C2078, 0x701C2090, '2005-02-09 10:00:00') /* Hollow Minion */
-     , (0x701C2078, 0x701C2092, '2005-02-09 10:00:00') /* Hollow Minion */
-     , (0x701C2078, 0x701C2093, '2005-02-09 10:00:00') /* Hollow Minion */
-     , (0x701C2078, 0x701C2094, '2005-02-09 10:00:00') /* Mountain Rat */
-     , (0x701C2078, 0x701C2097, '2005-02-09 10:00:00') /* Mountain Rat */
-     , (0x701C2078, 0x701C2098, '2005-02-09 10:00:00') /* Mountain Rat */
-     , (0x701C2078, 0x701C2099, '2005-02-09 10:00:00') /* Mountain Rat */
-     , (0x701C2078, 0x701C209A, '2005-02-09 10:00:00') /* Hollow Minion */
-     , (0x701C2078, 0x701C209C, '2005-02-09 10:00:00') /* Mountain Rat */
-     , (0x701C2078, 0x701C209E, '2005-02-09 10:00:00') /* Mountain Rat */
-     , (0x701C2078, 0x701C209F, '2005-02-09 10:00:00') /* Hollow Minion */;
+VALUES (0x701C2078, 0x701C2027, '2005-02-09 10:00:00') /* Skeleton Warrior (1760) */
+     , (0x701C2078, 0x701C2029, '2005-02-09 10:00:00') /* Skeleton Warrior (1760) */
+     , (0x701C2078, 0x701C2082, '2005-02-09 10:00:00') /* Skeleton Warrior (1760) */
+     , (0x701C2078, 0x701C2083, '2005-02-09 10:00:00') /* Skeleton Captain (1761) */
+     , (0x701C2078, 0x701C2084, '2005-02-09 10:00:00') /* Skeleton Captain (1761) */
+     , (0x701C2078, 0x701C2085, '2005-02-09 10:00:00') /* Skeleton Warrior (1760) */
+     , (0x701C2078, 0x701C2086, '2005-02-09 10:00:00') /* Hollow Minion (14427) */
+     , (0x701C2078, 0x701C2088, '2005-02-09 10:00:00') /* Skeleton Captain (1761) */
+     , (0x701C2078, 0x701C2089, '2005-02-09 10:00:00') /* Skeleton Warrior (1760) */
+     , (0x701C2078, 0x701C208A, '2005-02-09 10:00:00') /* Skeleton Warrior (1760) */
+     , (0x701C2078, 0x701C208B, '2005-02-09 10:00:00') /* Skeleton Warrior (1760) */
+     , (0x701C2078, 0x701C208C, '2005-02-09 10:00:00') /* Skeleton Captain (1761) */
+     , (0x701C2078, 0x701C208D, '2005-02-09 10:00:00') /* Mountain Rat (1625) */
+     , (0x701C2078, 0x701C208E, '2005-02-09 10:00:00') /* Hollow Minion (14427) */
+     , (0x701C2078, 0x701C208F, '2005-02-09 10:00:00') /* Skeleton Captain (1761) */
+     , (0x701C2078, 0x701C2090, '2005-02-09 10:00:00') /* Hollow Minion (14427) */
+     , (0x701C2078, 0x701C2092, '2005-02-09 10:00:00') /* Hollow Minion (14427) */
+     , (0x701C2078, 0x701C2093, '2005-02-09 10:00:00') /* Hollow Minion (14427) */
+     , (0x701C2078, 0x701C2094, '2005-02-09 10:00:00') /* Mountain Rat (1625) */
+     , (0x701C2078, 0x701C2097, '2005-02-09 10:00:00') /* Mountain Rat (1625) */
+     , (0x701C2078, 0x701C2098, '2005-02-09 10:00:00') /* Mountain Rat (1625) */
+     , (0x701C2078, 0x701C2099, '2005-02-09 10:00:00') /* Mountain Rat (1625) */
+     , (0x701C2078, 0x701C209A, '2005-02-09 10:00:00') /* Hollow Minion (14427) */
+     , (0x701C2078, 0x701C209C, '2005-02-09 10:00:00') /* Mountain Rat (1625) */
+     , (0x701C2078, 0x701C209E, '2005-02-09 10:00:00') /* Mountain Rat (1625) */
+     , (0x701C2078, 0x701C209F, '2005-02-09 10:00:00') /* Hollow Minion (14431) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x701C2079,   568, 0x01C20206, 95.25, -50, 0, -0.707107, 0, 0, -0.707107, False, '2005-02-09 10:00:00'); /* Door */

@@ -21,7 +21,7 @@ VALUES (0x701FA004,  4058, 0x01FA0109, 109.951, -21.1427, -22.4513, 0.707107, 0,
 /* @teleloc 0x01FA0109 [109.951000 -21.142700 -22.451300] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x701FA004, 0x701FA003, '2005-02-09 10:00:00') /* Pressure Plate */;
+VALUES (0x701FA004, 0x701FA003, '2005-02-09 10:00:00') /* Pressure Plate (2131) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x701FA005,  4012, 0x01FA011F, 63.3725, -20, -18, -0.783141, 0, 0, -0.621844, False, '2005-02-09 10:00:00'); /* Cheap Glitter Generator */
@@ -328,7 +328,7 @@ VALUES (0x701FA053,  4073, 0x01FA02A0, 69.9357, -70.9073, 1.64513, 0.707107, 0, 
 /* @teleloc 0x01FA02A0 [69.935700 -70.907300 1.645130] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x701FA053, 0x701FA052, '2005-02-09 10:00:00') /* Pressure Plate */;
+VALUES (0x701FA053, 0x701FA052, '2005-02-09 10:00:00') /* Pressure Plate (298) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x701FA054,  1912, 0x01FA02A4, 73.7935, -110.225, 0.013, 0.707107, 0, 0, -0.707107, False, '2005-02-09 10:00:00'); /* Chest */
@@ -407,7 +407,7 @@ VALUES (0x701FA068,  4084, 0x01FA0307, 120.638, -69.9305, 2.18012, 1, 0, 0, 0, F
 /* @teleloc 0x01FA0307 [120.638000 -69.930500 2.180120] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x701FA068, 0x701FA067, '2005-02-09 10:00:00') /* Pressure Plate */;
+VALUES (0x701FA068, 0x701FA067, '2005-02-09 10:00:00') /* Pressure Plate (298) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x701FA069,   420, 0x01FA030F, 122.083, -90.854, 0, 1, 0, 0, 0, False, '2005-02-09 10:00:00'); /* Item Food Generator */
@@ -538,7 +538,7 @@ VALUES (0x701FA089,  4091, 0x01FA036D, 131.257, -41.0338, 7.05662, -0.707107, 0,
 /* @teleloc 0x01FA036D [131.257000 -41.033800 7.056620] -0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x701FA089, 0x701FA088, '2005-02-09 10:00:00') /* Pressure Plate */;
+VALUES (0x701FA089, 0x701FA088, '2005-02-09 10:00:00') /* Pressure Plate (2131) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x701FA08A,   905, 0x01FA036F, 129.923, -46.3808, 6, 0.943285, 0, 0, -0.331984, False, '2005-02-09 10:00:00'); /* Black Rat Generator */
@@ -565,7 +565,7 @@ VALUES (0x701FA08F, 15759, 0x01FA0108, 96.8517, -66.9134, -23.995, 0.921061, 0, 
 /* @teleloc 0x01FA0108 [96.851700 -66.913400 -23.995000] 0.921061 0.000000 0.000000 0.389418 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x701FA08F, 0x701FA090, '2005-02-09 10:00:00') /* Alloy Mechanism */;
+VALUES (0x701FA08F, 0x701FA090, '2005-02-09 10:00:00') /* Alloy Mechanism (25322) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x701FA090, 25322, 0x01FA0108, 97.9714, -68.0009, -23.995, 0.921061, 0, 0, 0.389418,  True, '2005-02-09 10:00:00'); /* Alloy Mechanism */
@@ -588,94 +588,94 @@ VALUES (0x701FA094,  7924, 0x01FA034B, 80.1191, -51.3991, 6.005, -0.885537, 0, 0
 /* @teleloc 0x01FA034B [80.119100 -51.399100 6.005000] -0.885537 0.000000 0.000000 -0.464568 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x701FA094, 0x701FA001, '2005-02-09 10:00:00') /* Lich Lord */
-     , (0x701FA094, 0x701FA002, '2005-02-09 10:00:00') /* Scroll of Heartseeker V */
-     , (0x701FA094, 0x701FA00C, '2005-02-09 10:00:00') /* Lich Lord */
-     , (0x701FA094, 0x701FA00E, '2005-02-09 10:00:00') /* Sewer Rat */
-     , (0x701FA094, 0x701FA00F, '2005-02-09 10:00:00') /* Banderling Striker */
-     , (0x701FA094, 0x701FA041, '2005-02-09 10:00:00') /* Lich Lord */
-     , (0x701FA094, 0x701FA042, '2005-02-09 10:00:00') /* Scroll of Armor Other V */
-     , (0x701FA094, 0x701FA044, '2005-02-09 10:00:00') /* Lich Lord */
-     , (0x701FA094, 0x701FA045, '2005-02-09 10:00:00') /* Lich Lord */
-     , (0x701FA094, 0x701FA047, '2005-02-09 10:00:00') /* Lich Lord */
-     , (0x701FA094, 0x701FA049, '2005-02-09 10:00:00') /* Lich Lord */
-     , (0x701FA094, 0x701FA04A, '2005-02-09 10:00:00') /* Lich Lord */
-     , (0x701FA094, 0x701FA04B, '2005-02-09 10:00:00') /* Lich Lord */
-     , (0x701FA094, 0x701FA04C, '2005-02-09 10:00:00') /* Lich Lord */
-     , (0x701FA094, 0x701FA04E, '2005-02-09 10:00:00') /* Lich Lord */
-     , (0x701FA094, 0x701FA04F, '2005-02-09 10:00:00') /* Lich Lord */
-     , (0x701FA094, 0x701FA050, '2005-02-09 10:00:00') /* Lich Lord */
-     , (0x701FA094, 0x701FA055, '2005-02-09 10:00:00') /* Banderling Striker */
-     , (0x701FA094, 0x701FA057, '2005-02-09 10:00:00') /* Lich Lord */
-     , (0x701FA094, 0x701FA05C, '2005-02-09 10:00:00') /* Banderling Striker */
-     , (0x701FA094, 0x701FA05F, '2005-02-09 10:00:00') /* Gold Phyntos Wasp */
-     , (0x701FA094, 0x701FA061, '2005-02-09 10:00:00') /* Banderling Striker */
-     , (0x701FA094, 0x701FA063, '2005-02-09 10:00:00') /* Banderling Striker */
-     , (0x701FA094, 0x701FA065, '2005-02-09 10:00:00') /* Gold Phyntos Wasp */
-     , (0x701FA094, 0x701FA066, '2005-02-09 10:00:00') /* Banderling Striker */
-     , (0x701FA094, 0x701FA06B, '2005-02-09 10:00:00') /* Banderling Striker */
-     , (0x701FA094, 0x701FA06C, '2005-02-09 10:00:00') /* Banderling Striker */
-     , (0x701FA094, 0x701FA06E, '2005-02-09 10:00:00') /* Banderling Striker */
-     , (0x701FA094, 0x701FA070, '2005-02-09 10:00:00') /* Banderling Striker */
-     , (0x701FA094, 0x701FA072, '2005-02-09 10:00:00') /* Sewer Rat */
-     , (0x701FA094, 0x701FA073, '2005-02-09 10:00:00') /* Lich Lord */
-     , (0x701FA094, 0x701FA074, '2005-02-09 10:00:00') /* Lich Lord */
-     , (0x701FA094, 0x701FA077, '2005-02-09 10:00:00') /* Lich Lord */
-     , (0x701FA094, 0x701FA078, '2005-02-09 10:00:00') /* Banderling Striker */
-     , (0x701FA094, 0x701FA079, '2005-02-09 10:00:00') /* Gold Phyntos Wasp */
-     , (0x701FA094, 0x701FA07A, '2005-02-09 10:00:00') /* Banderling Striker */
-     , (0x701FA094, 0x701FA07B, '2005-02-09 10:00:00') /* Lich Lord */
-     , (0x701FA094, 0x701FA07E, '2005-02-09 10:00:00') /* Sewer Rat */
-     , (0x701FA094, 0x701FA080, '2005-02-09 10:00:00') /* Banderling Striker */
-     , (0x701FA094, 0x701FA083, '2005-02-09 10:00:00') /* Banderling Striker */
-     , (0x701FA094, 0x701FA084, '2005-02-09 10:00:00') /* Banderling Striker */
-     , (0x701FA094, 0x701FA086, '2005-02-09 10:00:00') /* Banderling Striker */
-     , (0x701FA094, 0x701FA087, '2005-02-09 10:00:00') /* Banderling Striker */
-     , (0x701FA094, 0x701FA08B, '2005-02-09 10:00:00') /* Banderling Striker */
-     , (0x701FA094, 0x701FA08C, '2005-02-09 10:00:00') /* Banderling Striker */
-     , (0x701FA094, 0x701FA08D, '2005-02-09 10:00:00') /* Lich Lord */
-     , (0x701FA094, 0x701FA08E, '2005-02-09 10:00:00') /* Lich Lord */
-     , (0x701FA094, 0x701FA091, '2005-02-09 10:00:00') /* Gold Phyntos Wasp */
-     , (0x701FA094, 0x701FA092, '2005-02-09 10:00:00') /* Lich Lord */
-     , (0x701FA094, 0x701FA093, '2005-02-09 10:00:00') /* Lich Lord */;
+VALUES (0x701FA094, 0x701FA001, '2005-02-09 10:00:00') /* Lich Lord (1630) */
+     , (0x701FA094, 0x701FA002, '2005-02-09 10:00:00') /* Scroll of Heartseeker V (2835) */
+     , (0x701FA094, 0x701FA00C, '2005-02-09 10:00:00') /* Lich Lord (1630) */
+     , (0x701FA094, 0x701FA00E, '2005-02-09 10:00:00') /* Sewer Rat (7106) */
+     , (0x701FA094, 0x701FA00F, '2005-02-09 10:00:00') /* Banderling Striker (7345) */
+     , (0x701FA094, 0x701FA041, '2005-02-09 10:00:00') /* Lich Lord (1630) */
+     , (0x701FA094, 0x701FA042, '2005-02-09 10:00:00') /* Scroll of Armor Other V (4388) */
+     , (0x701FA094, 0x701FA044, '2005-02-09 10:00:00') /* Lich Lord (1630) */
+     , (0x701FA094, 0x701FA045, '2005-02-09 10:00:00') /* Lich Lord (1630) */
+     , (0x701FA094, 0x701FA047, '2005-02-09 10:00:00') /* Lich Lord (1630) */
+     , (0x701FA094, 0x701FA049, '2005-02-09 10:00:00') /* Lich Lord (1630) */
+     , (0x701FA094, 0x701FA04A, '2005-02-09 10:00:00') /* Lich Lord (1630) */
+     , (0x701FA094, 0x701FA04B, '2005-02-09 10:00:00') /* Lich Lord (1630) */
+     , (0x701FA094, 0x701FA04C, '2005-02-09 10:00:00') /* Lich Lord (1630) */
+     , (0x701FA094, 0x701FA04E, '2005-02-09 10:00:00') /* Lich Lord (1630) */
+     , (0x701FA094, 0x701FA04F, '2005-02-09 10:00:00') /* Lich Lord (1630) */
+     , (0x701FA094, 0x701FA050, '2005-02-09 10:00:00') /* Lich Lord (1630) */
+     , (0x701FA094, 0x701FA055, '2005-02-09 10:00:00') /* Banderling Striker (7345) */
+     , (0x701FA094, 0x701FA057, '2005-02-09 10:00:00') /* Lich Lord (1630) */
+     , (0x701FA094, 0x701FA05C, '2005-02-09 10:00:00') /* Banderling Striker (7345) */
+     , (0x701FA094, 0x701FA05F, '2005-02-09 10:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x701FA094, 0x701FA061, '2005-02-09 10:00:00') /* Banderling Striker (7345) */
+     , (0x701FA094, 0x701FA063, '2005-02-09 10:00:00') /* Banderling Striker (7345) */
+     , (0x701FA094, 0x701FA065, '2005-02-09 10:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x701FA094, 0x701FA066, '2005-02-09 10:00:00') /* Banderling Striker (7345) */
+     , (0x701FA094, 0x701FA06B, '2005-02-09 10:00:00') /* Banderling Striker (7345) */
+     , (0x701FA094, 0x701FA06C, '2005-02-09 10:00:00') /* Banderling Striker (7345) */
+     , (0x701FA094, 0x701FA06E, '2005-02-09 10:00:00') /* Banderling Striker (7345) */
+     , (0x701FA094, 0x701FA070, '2005-02-09 10:00:00') /* Banderling Striker (7345) */
+     , (0x701FA094, 0x701FA072, '2005-02-09 10:00:00') /* Sewer Rat (7106) */
+     , (0x701FA094, 0x701FA073, '2005-02-09 10:00:00') /* Lich Lord (1630) */
+     , (0x701FA094, 0x701FA074, '2005-02-09 10:00:00') /* Lich Lord (1630) */
+     , (0x701FA094, 0x701FA077, '2005-02-09 10:00:00') /* Lich Lord (1630) */
+     , (0x701FA094, 0x701FA078, '2005-02-09 10:00:00') /* Banderling Striker (7345) */
+     , (0x701FA094, 0x701FA079, '2005-02-09 10:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x701FA094, 0x701FA07A, '2005-02-09 10:00:00') /* Banderling Striker (7345) */
+     , (0x701FA094, 0x701FA07B, '2005-02-09 10:00:00') /* Lich Lord (1630) */
+     , (0x701FA094, 0x701FA07E, '2005-02-09 10:00:00') /* Sewer Rat (7106) */
+     , (0x701FA094, 0x701FA080, '2005-02-09 10:00:00') /* Banderling Striker (7345) */
+     , (0x701FA094, 0x701FA083, '2005-02-09 10:00:00') /* Banderling Striker (7345) */
+     , (0x701FA094, 0x701FA084, '2005-02-09 10:00:00') /* Banderling Striker (7345) */
+     , (0x701FA094, 0x701FA086, '2005-02-09 10:00:00') /* Banderling Striker (7345) */
+     , (0x701FA094, 0x701FA087, '2005-02-09 10:00:00') /* Banderling Striker (7345) */
+     , (0x701FA094, 0x701FA08B, '2005-02-09 10:00:00') /* Banderling Striker (7345) */
+     , (0x701FA094, 0x701FA08C, '2005-02-09 10:00:00') /* Banderling Striker (7345) */
+     , (0x701FA094, 0x701FA08D, '2005-02-09 10:00:00') /* Lich Lord (1630) */
+     , (0x701FA094, 0x701FA08E, '2005-02-09 10:00:00') /* Lich Lord (1630) */
+     , (0x701FA094, 0x701FA091, '2005-02-09 10:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x701FA094, 0x701FA092, '2005-02-09 10:00:00') /* Lich Lord (1630) */
+     , (0x701FA094, 0x701FA093, '2005-02-09 10:00:00') /* Lich Lord (1630) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x701FA095,  7924, 0x01FA034B, 80.6557, -50.8392, 6.005, -0.885537, 0, 0, -0.464568, False, '2005-02-09 10:00:00'); /* Linkable Monster Generator ( 5 Min.) */
 /* @teleloc 0x01FA034B [80.655700 -50.839200 6.005000] -0.885537 0.000000 0.000000 -0.464568 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x701FA095, 0x701FA006, '2005-02-09 10:00:00') /* Lich Lord */
-     , (0x701FA095, 0x701FA007, '2005-02-09 10:00:00') /* Lich Lord */
-     , (0x701FA095, 0x701FA008, '2005-02-09 10:00:00') /* Lich Lord */
-     , (0x701FA095, 0x701FA00A, '2005-02-09 10:00:00') /* Sewer Rat */
-     , (0x701FA095, 0x701FA00B, '2005-02-09 10:00:00') /* Sewer Rat */
-     , (0x701FA095, 0x701FA010, '2005-02-09 10:00:00') /* Banderling Striker */
-     , (0x701FA095, 0x701FA011, '2005-02-09 10:00:00') /* Banderling Striker */
-     , (0x701FA095, 0x701FA012, '2005-02-09 10:00:00') /* Banderling Striker */
-     , (0x701FA095, 0x701FA013, '2005-02-09 10:00:00') /* Banderling Rogue */
-     , (0x701FA095, 0x701FA017, '2005-02-09 10:00:00') /* Banderling Striker */
-     , (0x701FA095, 0x701FA018, '2005-02-09 10:00:00') /* Banderling Striker */
-     , (0x701FA095, 0x701FA019, '2005-02-09 10:00:00') /* Banderling Striker */
-     , (0x701FA095, 0x701FA01A, '2005-02-09 10:00:00') /* Banderling Striker */
-     , (0x701FA095, 0x701FA01C, '2005-02-09 10:00:00') /* Lich Lord */
-     , (0x701FA095, 0x701FA01E, '2005-02-09 10:00:00') /* Banderling Striker */
-     , (0x701FA095, 0x701FA01F, '2005-02-09 10:00:00') /* Banderling Striker */
-     , (0x701FA095, 0x701FA020, '2005-02-09 10:00:00') /* Banderling Striker */
-     , (0x701FA095, 0x701FA021, '2005-02-09 10:00:00') /* Banderling Striker */
-     , (0x701FA095, 0x701FA025, '2005-02-09 10:00:00') /* Gold Phyntos Wasp */
-     , (0x701FA095, 0x701FA026, '2005-02-09 10:00:00') /* Banderling Striker */
-     , (0x701FA095, 0x701FA027, '2005-02-09 10:00:00') /* Banderling Striker */
-     , (0x701FA095, 0x701FA02B, '2005-02-09 10:00:00') /* Banderling Striker */
-     , (0x701FA095, 0x701FA02C, '2005-02-09 10:00:00') /* Banderling Striker */
-     , (0x701FA095, 0x701FA02D, '2005-02-09 10:00:00') /* Banderling Striker */
-     , (0x701FA095, 0x701FA02E, '2005-02-09 10:00:00') /* Sewer Rat */
-     , (0x701FA095, 0x701FA02F, '2005-02-09 10:00:00') /* Sewer Rat */
-     , (0x701FA095, 0x701FA030, '2005-02-09 10:00:00') /* Sewer Rat */
-     , (0x701FA095, 0x701FA033, '2005-02-09 10:00:00') /* Banderling Striker */
-     , (0x701FA095, 0x701FA035, '2005-02-09 10:00:00') /* Sewer Rat */
-     , (0x701FA095, 0x701FA036, '2005-02-09 10:00:00') /* Sewer Rat */
-     , (0x701FA095, 0x701FA037, '2005-02-09 10:00:00') /* Sewer Rat */
-     , (0x701FA095, 0x701FA03B, '2005-02-09 10:00:00') /* Banderling Striker */
-     , (0x701FA095, 0x701FA03F, '2005-02-09 10:00:00') /* Sewer Rat */
-     , (0x701FA095, 0x701FA051, '2005-02-09 10:00:00') /* Banderling Striker */
-     , (0x701FA095, 0x701FA056, '2005-02-09 10:00:00') /* Banderling Striker */;
+VALUES (0x701FA095, 0x701FA006, '2005-02-09 10:00:00') /* Lich Lord (1630) */
+     , (0x701FA095, 0x701FA007, '2005-02-09 10:00:00') /* Lich Lord (1630) */
+     , (0x701FA095, 0x701FA008, '2005-02-09 10:00:00') /* Lich Lord (1630) */
+     , (0x701FA095, 0x701FA00A, '2005-02-09 10:00:00') /* Sewer Rat (7106) */
+     , (0x701FA095, 0x701FA00B, '2005-02-09 10:00:00') /* Sewer Rat (7106) */
+     , (0x701FA095, 0x701FA010, '2005-02-09 10:00:00') /* Banderling Striker (7345) */
+     , (0x701FA095, 0x701FA011, '2005-02-09 10:00:00') /* Banderling Striker (7345) */
+     , (0x701FA095, 0x701FA012, '2005-02-09 10:00:00') /* Banderling Striker (7345) */
+     , (0x701FA095, 0x701FA013, '2005-02-09 10:00:00') /* Banderling Rogue (22810) */
+     , (0x701FA095, 0x701FA017, '2005-02-09 10:00:00') /* Banderling Striker (7345) */
+     , (0x701FA095, 0x701FA018, '2005-02-09 10:00:00') /* Banderling Striker (7345) */
+     , (0x701FA095, 0x701FA019, '2005-02-09 10:00:00') /* Banderling Striker (7345) */
+     , (0x701FA095, 0x701FA01A, '2005-02-09 10:00:00') /* Banderling Striker (7345) */
+     , (0x701FA095, 0x701FA01C, '2005-02-09 10:00:00') /* Lich Lord (1630) */
+     , (0x701FA095, 0x701FA01E, '2005-02-09 10:00:00') /* Banderling Striker (7345) */
+     , (0x701FA095, 0x701FA01F, '2005-02-09 10:00:00') /* Banderling Striker (7345) */
+     , (0x701FA095, 0x701FA020, '2005-02-09 10:00:00') /* Banderling Striker (7345) */
+     , (0x701FA095, 0x701FA021, '2005-02-09 10:00:00') /* Banderling Striker (7345) */
+     , (0x701FA095, 0x701FA025, '2005-02-09 10:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x701FA095, 0x701FA026, '2005-02-09 10:00:00') /* Banderling Striker (7345) */
+     , (0x701FA095, 0x701FA027, '2005-02-09 10:00:00') /* Banderling Striker (7345) */
+     , (0x701FA095, 0x701FA02B, '2005-02-09 10:00:00') /* Banderling Striker (7345) */
+     , (0x701FA095, 0x701FA02C, '2005-02-09 10:00:00') /* Banderling Striker (7345) */
+     , (0x701FA095, 0x701FA02D, '2005-02-09 10:00:00') /* Banderling Striker (7345) */
+     , (0x701FA095, 0x701FA02E, '2005-02-09 10:00:00') /* Sewer Rat (7106) */
+     , (0x701FA095, 0x701FA02F, '2005-02-09 10:00:00') /* Sewer Rat (7106) */
+     , (0x701FA095, 0x701FA030, '2005-02-09 10:00:00') /* Sewer Rat (7106) */
+     , (0x701FA095, 0x701FA033, '2005-02-09 10:00:00') /* Banderling Striker (7345) */
+     , (0x701FA095, 0x701FA035, '2005-02-09 10:00:00') /* Sewer Rat (7106) */
+     , (0x701FA095, 0x701FA036, '2005-02-09 10:00:00') /* Sewer Rat (7106) */
+     , (0x701FA095, 0x701FA037, '2005-02-09 10:00:00') /* Sewer Rat (7106) */
+     , (0x701FA095, 0x701FA03B, '2005-02-09 10:00:00') /* Banderling Striker (7345) */
+     , (0x701FA095, 0x701FA03F, '2005-02-09 10:00:00') /* Sewer Rat (7106) */
+     , (0x701FA095, 0x701FA051, '2005-02-09 10:00:00') /* Banderling Striker (7345) */
+     , (0x701FA095, 0x701FA056, '2005-02-09 10:00:00') /* Banderling Striker (7345) */;

@@ -29,14 +29,14 @@ VALUES (0x78E6800D,  7923, 0x8E680000, 184.622, 129.966, 10.005, 0.921354, 0, 0,
 /* @teleloc 0x8E680000 [184.622000 129.966000 10.005000] 0.921354 0.000000 0.000000 0.388725 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x78E6800D, 0x78E68007, '2005-02-09 10:00:00') /* Skeleton Lord */
-     , (0x78E6800D, 0x78E68008, '2005-02-09 10:00:00') /* Skeleton Lord */
-     , (0x78E6800D, 0x78E68009, '2005-02-09 10:00:00') /* Skeleton Lord */
-     , (0x78E6800D, 0x78E6800A, '2005-02-09 10:00:00') /* Skeleton Lord */
-     , (0x78E6800D, 0x78E6800B, '2005-02-09 10:00:00') /* Skeleton Lord */
-     , (0x78E6800D, 0x78E6800C, '2005-02-09 10:00:00') /* Skeleton Lord */
-     , (0x78E6800D, 0x78E6800E, '2005-02-09 10:00:00') /* Skeleton Lord */
-     , (0x78E6800D, 0x78E6800F, '2005-02-09 10:00:00') /* Skeleton Lord */;
+VALUES (0x78E6800D, 0x78E68007, '2005-02-09 10:00:00') /* Skeleton Lord (1762) */
+     , (0x78E6800D, 0x78E68008, '2005-02-09 10:00:00') /* Skeleton Lord (1762) */
+     , (0x78E6800D, 0x78E68009, '2005-02-09 10:00:00') /* Skeleton Lord (1762) */
+     , (0x78E6800D, 0x78E6800A, '2005-02-09 10:00:00') /* Skeleton Lord (1762) */
+     , (0x78E6800D, 0x78E6800B, '2005-02-09 10:00:00') /* Skeleton Lord (1762) */
+     , (0x78E6800D, 0x78E6800C, '2005-02-09 10:00:00') /* Skeleton Lord (1762) */
+     , (0x78E6800D, 0x78E6800E, '2005-02-09 10:00:00') /* Skeleton Lord (1762) */
+     , (0x78E6800D, 0x78E6800F, '2005-02-09 10:00:00') /* Skeleton Lord (1762) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x78E6800E,  1762, 0x8E680000, 185.87, 132.931, 10.005, 0.389269, 0, 0, 0.921124,  True, '2005-02-09 10:00:00'); /* Skeleton Lord */

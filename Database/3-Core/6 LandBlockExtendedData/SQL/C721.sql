@@ -33,10 +33,10 @@ VALUES (0x7C721007,  3596, 0xC7210000, 67.8723, 85.6777, 196.005, -0.955863, 0, 
 /* @teleloc 0xC7210000 [67.872300 85.677700 196.005000] -0.955863 0.000000 0.000000 0.293814 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C721007, 0x7C721003, '2005-02-09 10:00:00') /* Lich */
-     , (0x7C721007, 0x7C721004, '2005-02-09 10:00:00') /* Undead */
-     , (0x7C721007, 0x7C721005, '2005-02-09 10:00:00') /* Lich */
-     , (0x7C721007, 0x7C721006, '2005-02-09 10:00:00') /* Skeleton Warrior */;
+VALUES (0x7C721007, 0x7C721003, '2005-02-09 10:00:00') /* Lich (204) */
+     , (0x7C721007, 0x7C721004, '2005-02-09 10:00:00') /* Undead (16) */
+     , (0x7C721007, 0x7C721005, '2005-02-09 10:00:00') /* Lich (204) */
+     , (0x7C721007, 0x7C721006, '2005-02-09 10:00:00') /* Skeleton Warrior (1760) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C721008,  4053, 0xC7210100, 2.97536, 17.8265, 209.66, -0.972699, 0, 0, 0.232071, False, '2005-02-09 10:00:00'); /* Mines of Despair */

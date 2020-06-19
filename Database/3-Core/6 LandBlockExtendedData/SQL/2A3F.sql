@@ -41,15 +41,15 @@ VALUES (0x72A3F009,  7925, 0x2A3F0000, 118.561, 17.3293, -0.095, 0.0812632, 0, 0
 /* @teleloc 0x2A3F0000 [118.561000 17.329300 -0.095000] 0.081263 0.000000 0.000000 0.996693 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72A3F009, 0x72A3F000, '2005-02-09 10:00:00') /* Pillar */
-     , (0x72A3F009, 0x72A3F001, '2005-02-09 10:00:00') /* Pillar */
-     , (0x72A3F009, 0x72A3F002, '2005-02-09 10:00:00') /* Pillar */
-     , (0x72A3F009, 0x72A3F003, '2005-02-09 10:00:00') /* Pillar */
-     , (0x72A3F009, 0x72A3F004, '2005-02-09 10:00:00') /* Tormented Attendant */
-     , (0x72A3F009, 0x72A3F005, '2005-02-09 10:00:00') /* Tormented Attendant */
-     , (0x72A3F009, 0x72A3F006, '2005-02-09 10:00:00') /* Tormented Attendant */
-     , (0x72A3F009, 0x72A3F007, '2005-02-09 10:00:00') /* Tormented Attendant */
-     , (0x72A3F009, 0x72A3F008, '2005-02-09 10:00:00') /* Tormented Attendant */;
+VALUES (0x72A3F009, 0x72A3F000, '2005-02-09 10:00:00') /* Pillar (27963) */
+     , (0x72A3F009, 0x72A3F001, '2005-02-09 10:00:00') /* Pillar (27965) */
+     , (0x72A3F009, 0x72A3F002, '2005-02-09 10:00:00') /* Pillar (27964) */
+     , (0x72A3F009, 0x72A3F003, '2005-02-09 10:00:00') /* Pillar (27966) */
+     , (0x72A3F009, 0x72A3F004, '2005-02-09 10:00:00') /* Tormented Attendant (27920) */
+     , (0x72A3F009, 0x72A3F005, '2005-02-09 10:00:00') /* Tormented Attendant (27920) */
+     , (0x72A3F009, 0x72A3F006, '2005-02-09 10:00:00') /* Tormented Attendant (27920) */
+     , (0x72A3F009, 0x72A3F007, '2005-02-09 10:00:00') /* Tormented Attendant (27920) */
+     , (0x72A3F009, 0x72A3F008, '2005-02-09 10:00:00') /* Tormented Attendant (27920) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72A3F00A, 27926, 0x2A3F0000, 114.8, 27.8458, 12.633, 0.994333, 0, 0, -0.106312,  True, '2005-02-09 10:00:00'); /* A Carved Plate */
@@ -72,10 +72,10 @@ VALUES (0x72A3F00E, 15759, 0x2A3F0000, 107.916, 6.37673, 5.005, -0.999798, 0, 0,
 /* @teleloc 0x2A3F0000 [107.916000 6.376730 5.005000] -0.999798 0.000000 0.000000 -0.020091 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72A3F00E, 0x72A3F00A, '2005-02-09 10:00:00') /* A Carved Plate */
-     , (0x72A3F00E, 0x72A3F00B, '2005-02-09 10:00:00') /* A Carved Plate */
-     , (0x72A3F00E, 0x72A3F00C, '2005-02-09 10:00:00') /* A Carved Plate */
-     , (0x72A3F00E, 0x72A3F00D, '2005-02-09 10:00:00') /* A Carved Plate */;
+VALUES (0x72A3F00E, 0x72A3F00A, '2005-02-09 10:00:00') /* A Carved Plate (27926) */
+     , (0x72A3F00E, 0x72A3F00B, '2005-02-09 10:00:00') /* A Carved Plate (27927) */
+     , (0x72A3F00E, 0x72A3F00C, '2005-02-09 10:00:00') /* A Carved Plate (27928) */
+     , (0x72A3F00E, 0x72A3F00D, '2005-02-09 10:00:00') /* A Carved Plate (27929) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72A3F00F, 29682, 0x2A3F010A, 101.86, 42.4885, -11.995, 0.920127, 0, 0, 0.39162, False, '2005-02-09 10:00:00'); /* Hixk Ri Watcher Generator */

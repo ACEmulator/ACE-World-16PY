@@ -205,7 +205,7 @@ VALUES (0x75C4B032,  5086, 0x5C4B0270, 86.7472, -57.7795, -11.995, 0.931675, 0, 
 /* @teleloc 0x5C4B0270 [86.747200 -57.779500 -11.995000] 0.931675 0.000000 0.000000 -0.363294 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x75C4B032, 0x75C4B031, '2005-02-09 10:00:00') /* Obsidian Shard from Aerbax */;
+VALUES (0x75C4B032, 0x75C4B031, '2005-02-09 10:00:00') /* Obsidian Shard from Aerbax (24136) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75C4B033,  7090, 0x5C4B0272, 90, -240, -11.995, 0.640997, 0, 0, 0.767544,  True, '2005-02-09 10:00:00'); /* Augmented Drudge */
@@ -228,7 +228,7 @@ VALUES (0x75C4B037,  5086, 0x5C4B028B, 110.905, -37.8984, -11.995, 0.974509, 0, 
 /* @teleloc 0x5C4B028B [110.905000 -37.898400 -11.995000] 0.974509 0.000000 0.000000 -0.224348 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x75C4B037, 0x75C4B038, '2005-02-09 10:00:00') /* Obsidian Shard from Aerbax */;
+VALUES (0x75C4B037, 0x75C4B038, '2005-02-09 10:00:00') /* Obsidian Shard from Aerbax (24136) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75C4B038, 24136, 0x5C4B028B, 109.741, -38.1825, -11.981, 0.962771, 0, 0, 0.27032,  True, '2005-02-09 10:00:00'); /* Obsidian Shard from Aerbax */
@@ -335,7 +335,7 @@ VALUES (0x75C4B051,  5086, 0x5C4B02E9, 174.302, -30.8697, -11.995, 0.634412, 0, 
 /* @teleloc 0x5C4B02E9 [174.302000 -30.869700 -11.995000] 0.634412 0.000000 0.000000 0.772995 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x75C4B051, 0x75C4B050, '2005-02-09 10:00:00') /* Obsidian Shard from Aerbax */;
+VALUES (0x75C4B051, 0x75C4B050, '2005-02-09 10:00:00') /* Obsidian Shard from Aerbax (24136) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75C4B052, 24036, 0x5C4B02EA, 180, -10, -11.971, 0.839192, 0, 0, 0.543835,  True, '2005-02-09 10:00:00'); /* Virindi Interrogator */
@@ -366,7 +366,7 @@ VALUES (0x75C4B058,  5086, 0x5C4B02F7, 191.127, -10.013, -11.995, 0.947651, 0, 0
 /* @teleloc 0x5C4B02F7 [191.127000 -10.013000 -11.995000] 0.947651 0.000000 0.000000 -0.319309 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x75C4B058, 0x75C4B059, '2005-02-09 10:00:00') /* Obsidian Shard from Aerbax */;
+VALUES (0x75C4B058, 0x75C4B059, '2005-02-09 10:00:00') /* Obsidian Shard from Aerbax (24136) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75C4B059, 24136, 0x5C4B02F7, 189.829, -9.79606, -11.981, 0.877582, 0, 0, -0.479426,  True, '2005-02-09 10:00:00'); /* Obsidian Shard from Aerbax */
@@ -393,9 +393,9 @@ VALUES (0x75C4B05E,  7923, 0x5C4B0307, 223.75, -20.1086, -11.995, 0.678557, 0, 0
 /* @teleloc 0x5C4B0307 [223.750000 -20.108600 -11.995000] 0.678557 0.000000 0.000000 0.734548 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x75C4B05E, 0x75C4B05F, '2005-02-09 10:00:00') /* Virindi Interrogator */
-     , (0x75C4B05E, 0x75C4B060, '2005-02-09 10:00:00') /* Virindi Interrogator */
-     , (0x75C4B05E, 0x75C4B061, '2005-02-09 10:00:00') /* Virindi Interrogator */;
+VALUES (0x75C4B05E, 0x75C4B05F, '2005-02-09 10:00:00') /* Virindi Interrogator (24036) */
+     , (0x75C4B05E, 0x75C4B060, '2005-02-09 10:00:00') /* Virindi Interrogator (24036) */
+     , (0x75C4B05E, 0x75C4B061, '2005-02-09 10:00:00') /* Virindi Interrogator (24036) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75C4B05F, 24036, 0x5C4B030C, 231.901, -39.3278, -11.971, 0.960385, 0, 0, 0.278676,  True, '2005-02-09 10:00:00'); /* Virindi Interrogator */
@@ -422,14 +422,14 @@ VALUES (0x75C4B064,  5086, 0x5C4B0315, 246.555, -36.8421, -11.995, -0.655712, 0,
 /* @teleloc 0x5C4B0315 [246.555000 -36.842100 -11.995000] -0.655712 0.000000 0.000000 0.755011 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x75C4B064, 0x75C4B063, '2005-02-09 10:00:00') /* Obsidian Shard from Aerbax */;
+VALUES (0x75C4B064, 0x75C4B063, '2005-02-09 10:00:00') /* Obsidian Shard from Aerbax (24136) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75C4B065, 15274, 0x5C4B034A, 233.328, -16.3636, -5.995, 0.625555, 0, 0, 0.78018, False, '2005-02-09 10:00:00'); /* Linkable Monster Gen (1 min.) */
 /* @teleloc 0x5C4B034A [233.328000 -16.363600 -5.995000] 0.625555 0.000000 0.000000 0.780180 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x75C4B065, 0x75C4B066, '2005-02-09 10:00:00') /* Virindi Executor */;
+VALUES (0x75C4B065, 0x75C4B066, '2005-02-09 10:00:00') /* Virindi Executor (10955) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75C4B066, 10955, 0x5C4B034A, 233.738, -17.6898, -5.971, 0.553795, 0, 0, 0.832653,  True, '2005-02-09 10:00:00'); /* Virindi Executor */
@@ -448,86 +448,86 @@ VALUES (0x75C4B06A,  7923, 0x5C4B0370, 63.186, -289.64, 0.005, 0.9999, 0, 0, -0.
 /* @teleloc 0x5C4B0370 [63.186000 -289.640000 0.005000] 0.999900 0.000000 0.000000 -0.014175 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x75C4B06A, 0x75C4B000, '2005-02-09 10:00:00') /* Tusker Slave */
-     , (0x75C4B06A, 0x75C4B001, '2005-02-09 10:00:00') /* Virindi Observer */
-     , (0x75C4B06A, 0x75C4B002, '2005-02-09 10:00:00') /* Virindi Observer */
-     , (0x75C4B06A, 0x75C4B003, '2005-02-09 10:00:00') /* Virindi Observer */
-     , (0x75C4B06A, 0x75C4B004, '2005-02-09 10:00:00') /* Virindi Observer */
-     , (0x75C4B06A, 0x75C4B005, '2005-02-09 10:00:00') /* Tusker Slave */
-     , (0x75C4B06A, 0x75C4B006, '2005-02-09 10:00:00') /* Tusker Slave */
-     , (0x75C4B06A, 0x75C4B007, '2005-02-09 10:00:00') /* Virindi Observer */
-     , (0x75C4B06A, 0x75C4B008, '2005-02-09 10:00:00') /* Tusker Slave */
-     , (0x75C4B06A, 0x75C4B009, '2005-02-09 10:00:00') /* Tusker Slave */
-     , (0x75C4B06A, 0x75C4B00A, '2005-02-09 10:00:00') /* Virindi Observer */
-     , (0x75C4B06A, 0x75C4B00B, '2005-02-09 10:00:00') /* Tusker Slave */
-     , (0x75C4B06A, 0x75C4B00C, '2005-02-09 10:00:00') /* Virindi Observer */
-     , (0x75C4B06A, 0x75C4B00D, '2005-02-09 10:00:00') /* Virindi Executor */
-     , (0x75C4B06A, 0x75C4B00E, '2005-02-09 10:00:00') /* Virindi Observer */
-     , (0x75C4B06A, 0x75C4B00F, '2005-02-09 10:00:00') /* Virindi Observer */
-     , (0x75C4B06A, 0x75C4B010, '2005-02-09 10:00:00') /* Virindi Observer */
-     , (0x75C4B06A, 0x75C4B011, '2005-02-09 10:00:00') /* Virindi Observer */
-     , (0x75C4B06A, 0x75C4B012, '2005-02-09 10:00:00') /* Virindi Observer */
-     , (0x75C4B06A, 0x75C4B013, '2005-02-09 10:00:00') /* Tusker Slave */
-     , (0x75C4B06A, 0x75C4B014, '2005-02-09 10:00:00') /* Tusker Slave */
-     , (0x75C4B06A, 0x75C4B015, '2005-02-09 10:00:00') /* Tusker Slave */
-     , (0x75C4B06A, 0x75C4B016, '2005-02-09 10:00:00') /* Tusker Slave */
-     , (0x75C4B06A, 0x75C4B017, '2005-02-09 10:00:00') /* Tusker Slave */
-     , (0x75C4B06A, 0x75C4B018, '2005-02-09 10:00:00') /* Virindi Observer */
-     , (0x75C4B06A, 0x75C4B019, '2005-02-09 10:00:00') /* Virindi Observer */
-     , (0x75C4B06A, 0x75C4B01A, '2005-02-09 10:00:00') /* Virindi Observer */
-     , (0x75C4B06A, 0x75C4B01B, '2005-02-09 10:00:00') /* Virindi Observer */
-     , (0x75C4B06A, 0x75C4B01C, '2005-02-09 10:00:00') /* Virindi Observer */
-     , (0x75C4B06A, 0x75C4B01D, '2005-02-09 10:00:00') /* Virindi Observer */
-     , (0x75C4B06A, 0x75C4B01E, '2005-02-09 10:00:00') /* Virindi Observer */
-     , (0x75C4B06A, 0x75C4B01F, '2005-02-09 10:00:00') /* Virindi Observer */
-     , (0x75C4B06A, 0x75C4B020, '2005-02-09 10:00:00') /* Altered Drudge */
-     , (0x75C4B06A, 0x75C4B021, '2005-02-09 10:00:00') /* Virindi Observer */
-     , (0x75C4B06A, 0x75C4B022, '2005-02-09 10:00:00') /* Terebrous Hollow Minion */
-     , (0x75C4B06A, 0x75C4B023, '2005-02-09 10:00:00') /* Virindi Executor */
-     , (0x75C4B06A, 0x75C4B024, '2005-02-09 10:00:00') /* Virindi Observer */
-     , (0x75C4B06A, 0x75C4B025, '2005-02-09 10:00:00') /* Pristine Doll */
-     , (0x75C4B06A, 0x75C4B026, '2005-02-09 10:00:00') /* Virindi Observer */
-     , (0x75C4B06A, 0x75C4B027, '2005-02-09 10:00:00') /* Virindi Observer */
-     , (0x75C4B06A, 0x75C4B028, '2005-02-09 10:00:00') /* Tusker Guard */
-     , (0x75C4B06A, 0x75C4B029, '2005-02-09 10:00:00') /* Tusker Guard */
-     , (0x75C4B06A, 0x75C4B02A, '2005-02-09 10:00:00') /* Pristine Doll */
-     , (0x75C4B06A, 0x75C4B02B, '2005-02-09 10:00:00') /* Pristine Doll */
-     , (0x75C4B06A, 0x75C4B02C, '2005-02-09 10:00:00') /* Terebrous Hollow Minion */
-     , (0x75C4B06A, 0x75C4B02D, '2005-02-09 10:00:00') /* Virindi Observer */
-     , (0x75C4B06A, 0x75C4B02E, '2005-02-09 10:00:00') /* Virindi Observer */
-     , (0x75C4B06A, 0x75C4B02F, '2005-02-09 10:00:00') /* Terebrous Hollow Minion */
-     , (0x75C4B06A, 0x75C4B030, '2005-02-09 10:00:00') /* Terebrous Hollow Minion */
-     , (0x75C4B06A, 0x75C4B033, '2005-02-09 10:00:00') /* Augmented Drudge */
-     , (0x75C4B06A, 0x75C4B034, '2005-02-09 10:00:00') /* Augmented Drudge */
-     , (0x75C4B06A, 0x75C4B035, '2005-02-09 10:00:00') /* Virindi Observer */
-     , (0x75C4B06A, 0x75C4B036, '2005-02-09 10:00:00') /* Virindi Observer */
-     , (0x75C4B06A, 0x75C4B039, '2005-02-09 10:00:00') /* Virindi Observer */
-     , (0x75C4B06A, 0x75C4B03A, '2005-02-09 10:00:00') /* Altered Drudge */
-     , (0x75C4B06A, 0x75C4B03B, '2005-02-09 10:00:00') /* Virindi Interrogator */
-     , (0x75C4B06A, 0x75C4B03C, '2005-02-09 10:00:00') /* Pristine Doll */
-     , (0x75C4B06A, 0x75C4B03D, '2005-02-09 10:00:00') /* Pristine Doll */
-     , (0x75C4B06A, 0x75C4B03E, '2005-02-09 10:00:00') /* Augmented Drudge */
-     , (0x75C4B06A, 0x75C4B03F, '2005-02-09 10:00:00') /* Augmented Drudge */
-     , (0x75C4B06A, 0x75C4B040, '2005-02-09 10:00:00') /* Altered Drudge */
-     , (0x75C4B06A, 0x75C4B041, '2005-02-09 10:00:00') /* Silver Tusker */
-     , (0x75C4B06A, 0x75C4B042, '2005-02-09 10:00:00') /* Silver Tusker */
-     , (0x75C4B06A, 0x75C4B043, '2005-02-09 10:00:00') /* Virindi Executor */
-     , (0x75C4B06A, 0x75C4B044, '2005-02-09 10:00:00') /* Virindi Observer */
-     , (0x75C4B06A, 0x75C4B045, '2005-02-09 10:00:00') /* Virindi Observer */
-     , (0x75C4B06A, 0x75C4B046, '2005-02-09 10:00:00') /* Virindi Observer */
-     , (0x75C4B06A, 0x75C4B047, '2005-02-09 10:00:00') /* Tusker Slave */
-     , (0x75C4B06A, 0x75C4B048, '2005-02-09 10:00:00') /* Tusker Slave */
-     , (0x75C4B06A, 0x75C4B04B, '2005-02-09 10:00:00') /* Silver Tusker */
-     , (0x75C4B06A, 0x75C4B04E, '2005-02-09 10:00:00') /* Terebrous Hollow Minion */
-     , (0x75C4B06A, 0x75C4B04F, '2005-02-09 10:00:00') /* Terebrous Hollow Minion */
-     , (0x75C4B06A, 0x75C4B052, '2005-02-09 10:00:00') /* Virindi Interrogator */
-     , (0x75C4B06A, 0x75C4B053, '2005-02-09 10:00:00') /* Tusker Slave */
-     , (0x75C4B06A, 0x75C4B054, '2005-02-09 10:00:00') /* Tusker Slave */
-     , (0x75C4B06A, 0x75C4B05B, '2005-02-09 10:00:00') /* Silver Tusker */
-     , (0x75C4B06A, 0x75C4B05C, '2005-02-09 10:00:00') /* Virindi Interrogator */
-     , (0x75C4B06A, 0x75C4B05D, '2005-02-09 10:00:00') /* Virindi Interrogator */
-     , (0x75C4B06A, 0x75C4B067, '2005-02-09 10:00:00') /* Virindi Observer */
-     , (0x75C4B06A, 0x75C4B068, '2005-02-09 10:00:00') /* Virindi Observer */;
+VALUES (0x75C4B06A, 0x75C4B000, '2005-02-09 10:00:00') /* Tusker Slave (22604) */
+     , (0x75C4B06A, 0x75C4B001, '2005-02-09 10:00:00') /* Virindi Observer (7340) */
+     , (0x75C4B06A, 0x75C4B002, '2005-02-09 10:00:00') /* Virindi Observer (7340) */
+     , (0x75C4B06A, 0x75C4B003, '2005-02-09 10:00:00') /* Virindi Observer (7340) */
+     , (0x75C4B06A, 0x75C4B004, '2005-02-09 10:00:00') /* Virindi Observer (7340) */
+     , (0x75C4B06A, 0x75C4B005, '2005-02-09 10:00:00') /* Tusker Slave (22604) */
+     , (0x75C4B06A, 0x75C4B006, '2005-02-09 10:00:00') /* Tusker Slave (22604) */
+     , (0x75C4B06A, 0x75C4B007, '2005-02-09 10:00:00') /* Virindi Observer (7340) */
+     , (0x75C4B06A, 0x75C4B008, '2005-02-09 10:00:00') /* Tusker Slave (22604) */
+     , (0x75C4B06A, 0x75C4B009, '2005-02-09 10:00:00') /* Tusker Slave (22604) */
+     , (0x75C4B06A, 0x75C4B00A, '2005-02-09 10:00:00') /* Virindi Observer (10957) */
+     , (0x75C4B06A, 0x75C4B00B, '2005-02-09 10:00:00') /* Tusker Slave (22604) */
+     , (0x75C4B06A, 0x75C4B00C, '2005-02-09 10:00:00') /* Virindi Observer (10957) */
+     , (0x75C4B06A, 0x75C4B00D, '2005-02-09 10:00:00') /* Virindi Executor (10955) */
+     , (0x75C4B06A, 0x75C4B00E, '2005-02-09 10:00:00') /* Virindi Observer (10957) */
+     , (0x75C4B06A, 0x75C4B00F, '2005-02-09 10:00:00') /* Virindi Observer (10957) */
+     , (0x75C4B06A, 0x75C4B010, '2005-02-09 10:00:00') /* Virindi Observer (10957) */
+     , (0x75C4B06A, 0x75C4B011, '2005-02-09 10:00:00') /* Virindi Observer (10957) */
+     , (0x75C4B06A, 0x75C4B012, '2005-02-09 10:00:00') /* Virindi Observer (10957) */
+     , (0x75C4B06A, 0x75C4B013, '2005-02-09 10:00:00') /* Tusker Slave (22604) */
+     , (0x75C4B06A, 0x75C4B014, '2005-02-09 10:00:00') /* Tusker Slave (22604) */
+     , (0x75C4B06A, 0x75C4B015, '2005-02-09 10:00:00') /* Tusker Slave (22604) */
+     , (0x75C4B06A, 0x75C4B016, '2005-02-09 10:00:00') /* Tusker Slave (22604) */
+     , (0x75C4B06A, 0x75C4B017, '2005-02-09 10:00:00') /* Tusker Slave (22604) */
+     , (0x75C4B06A, 0x75C4B018, '2005-02-09 10:00:00') /* Virindi Observer (10957) */
+     , (0x75C4B06A, 0x75C4B019, '2005-02-09 10:00:00') /* Virindi Observer (7340) */
+     , (0x75C4B06A, 0x75C4B01A, '2005-02-09 10:00:00') /* Virindi Observer (7340) */
+     , (0x75C4B06A, 0x75C4B01B, '2005-02-09 10:00:00') /* Virindi Observer (7340) */
+     , (0x75C4B06A, 0x75C4B01C, '2005-02-09 10:00:00') /* Virindi Observer (10957) */
+     , (0x75C4B06A, 0x75C4B01D, '2005-02-09 10:00:00') /* Virindi Observer (7340) */
+     , (0x75C4B06A, 0x75C4B01E, '2005-02-09 10:00:00') /* Virindi Observer (7340) */
+     , (0x75C4B06A, 0x75C4B01F, '2005-02-09 10:00:00') /* Virindi Observer (7340) */
+     , (0x75C4B06A, 0x75C4B020, '2005-02-09 10:00:00') /* Altered Drudge (7089) */
+     , (0x75C4B06A, 0x75C4B021, '2005-02-09 10:00:00') /* Virindi Observer (7340) */
+     , (0x75C4B06A, 0x75C4B022, '2005-02-09 10:00:00') /* Terebrous Hollow Minion (10787) */
+     , (0x75C4B06A, 0x75C4B023, '2005-02-09 10:00:00') /* Virindi Executor (10955) */
+     , (0x75C4B06A, 0x75C4B024, '2005-02-09 10:00:00') /* Virindi Observer (7340) */
+     , (0x75C4B06A, 0x75C4B025, '2005-02-09 10:00:00') /* Pristine Doll (9244) */
+     , (0x75C4B06A, 0x75C4B026, '2005-02-09 10:00:00') /* Virindi Observer (7340) */
+     , (0x75C4B06A, 0x75C4B027, '2005-02-09 10:00:00') /* Virindi Observer (7340) */
+     , (0x75C4B06A, 0x75C4B028, '2005-02-09 10:00:00') /* Tusker Guard (22592) */
+     , (0x75C4B06A, 0x75C4B029, '2005-02-09 10:00:00') /* Tusker Guard (22592) */
+     , (0x75C4B06A, 0x75C4B02A, '2005-02-09 10:00:00') /* Pristine Doll (9244) */
+     , (0x75C4B06A, 0x75C4B02B, '2005-02-09 10:00:00') /* Pristine Doll (9244) */
+     , (0x75C4B06A, 0x75C4B02C, '2005-02-09 10:00:00') /* Terebrous Hollow Minion (10787) */
+     , (0x75C4B06A, 0x75C4B02D, '2005-02-09 10:00:00') /* Virindi Observer (7340) */
+     , (0x75C4B06A, 0x75C4B02E, '2005-02-09 10:00:00') /* Virindi Observer (7340) */
+     , (0x75C4B06A, 0x75C4B02F, '2005-02-09 10:00:00') /* Terebrous Hollow Minion (10787) */
+     , (0x75C4B06A, 0x75C4B030, '2005-02-09 10:00:00') /* Terebrous Hollow Minion (10787) */
+     , (0x75C4B06A, 0x75C4B033, '2005-02-09 10:00:00') /* Augmented Drudge (7090) */
+     , (0x75C4B06A, 0x75C4B034, '2005-02-09 10:00:00') /* Augmented Drudge (7090) */
+     , (0x75C4B06A, 0x75C4B035, '2005-02-09 10:00:00') /* Virindi Observer (10957) */
+     , (0x75C4B06A, 0x75C4B036, '2005-02-09 10:00:00') /* Virindi Observer (7340) */
+     , (0x75C4B06A, 0x75C4B039, '2005-02-09 10:00:00') /* Virindi Observer (10957) */
+     , (0x75C4B06A, 0x75C4B03A, '2005-02-09 10:00:00') /* Altered Drudge (7089) */
+     , (0x75C4B06A, 0x75C4B03B, '2005-02-09 10:00:00') /* Virindi Interrogator (24036) */
+     , (0x75C4B06A, 0x75C4B03C, '2005-02-09 10:00:00') /* Pristine Doll (9244) */
+     , (0x75C4B06A, 0x75C4B03D, '2005-02-09 10:00:00') /* Pristine Doll (9244) */
+     , (0x75C4B06A, 0x75C4B03E, '2005-02-09 10:00:00') /* Augmented Drudge (7090) */
+     , (0x75C4B06A, 0x75C4B03F, '2005-02-09 10:00:00') /* Augmented Drudge (7090) */
+     , (0x75C4B06A, 0x75C4B040, '2005-02-09 10:00:00') /* Altered Drudge (7089) */
+     , (0x75C4B06A, 0x75C4B041, '2005-02-09 10:00:00') /* Silver Tusker (22602) */
+     , (0x75C4B06A, 0x75C4B042, '2005-02-09 10:00:00') /* Silver Tusker (22602) */
+     , (0x75C4B06A, 0x75C4B043, '2005-02-09 10:00:00') /* Virindi Executor (9264) */
+     , (0x75C4B06A, 0x75C4B044, '2005-02-09 10:00:00') /* Virindi Observer (7340) */
+     , (0x75C4B06A, 0x75C4B045, '2005-02-09 10:00:00') /* Virindi Observer (7340) */
+     , (0x75C4B06A, 0x75C4B046, '2005-02-09 10:00:00') /* Virindi Observer (7340) */
+     , (0x75C4B06A, 0x75C4B047, '2005-02-09 10:00:00') /* Tusker Slave (22604) */
+     , (0x75C4B06A, 0x75C4B048, '2005-02-09 10:00:00') /* Tusker Slave (22604) */
+     , (0x75C4B06A, 0x75C4B04B, '2005-02-09 10:00:00') /* Silver Tusker (22602) */
+     , (0x75C4B06A, 0x75C4B04E, '2005-02-09 10:00:00') /* Terebrous Hollow Minion (10787) */
+     , (0x75C4B06A, 0x75C4B04F, '2005-02-09 10:00:00') /* Terebrous Hollow Minion (10787) */
+     , (0x75C4B06A, 0x75C4B052, '2005-02-09 10:00:00') /* Virindi Interrogator (24036) */
+     , (0x75C4B06A, 0x75C4B053, '2005-02-09 10:00:00') /* Tusker Slave (22604) */
+     , (0x75C4B06A, 0x75C4B054, '2005-02-09 10:00:00') /* Tusker Slave (22604) */
+     , (0x75C4B06A, 0x75C4B05B, '2005-02-09 10:00:00') /* Silver Tusker (22602) */
+     , (0x75C4B06A, 0x75C4B05C, '2005-02-09 10:00:00') /* Virindi Interrogator (24036) */
+     , (0x75C4B06A, 0x75C4B05D, '2005-02-09 10:00:00') /* Virindi Interrogator (24036) */
+     , (0x75C4B06A, 0x75C4B067, '2005-02-09 10:00:00') /* Virindi Observer (7340) */
+     , (0x75C4B06A, 0x75C4B068, '2005-02-09 10:00:00') /* Virindi Observer (7340) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75C4B06B, 24071, 0x5C4B036C, 59.9731, -246.357, 0.005, 1, 0, 0, 0, False, '2005-02-09 10:00:00'); /* Exit */

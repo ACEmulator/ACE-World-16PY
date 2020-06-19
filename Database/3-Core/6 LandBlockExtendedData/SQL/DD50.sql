@@ -21,7 +21,7 @@ VALUES (0x7DD50010, 14453, 0xDD500102, 157.066, 136.389, 21.505, 0.998846, 0, 0,
 /* @teleloc 0xDD500102 [157.066000 136.389000 21.505000] 0.998846 0.000000 0.000000 -0.048036 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7DD50010, 0x7DD5000F, '2005-02-09 10:00:00') /* Trap Door */;
+VALUES (0x7DD50010, 0x7DD5000F, '2005-02-09 10:00:00') /* Trap Door (14418) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7DD50011, 14411, 0xDD500100, 151.275, 128.013, 22.005, 0.588842, 0, 0, -0.808248, False, '2005-02-09 10:00:00'); /* Ostentatious Farmer */

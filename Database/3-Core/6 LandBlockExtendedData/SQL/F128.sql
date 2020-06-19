@@ -5,14 +5,14 @@ VALUES (0x7F128000,  4219, 0xF1280000, 137.609, 45.2189, 18.005, -0.997587, 0, 0
 /* @teleloc 0xF1280000 [137.609000 45.218900 18.005000] -0.997587 0.000000 0.000000 0.069425 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7F128000, 0x7F128001, '2005-02-09 10:00:00') /* Mosswart Clinger */
-     , (0x7F128000, 0x7F128002, '2005-02-09 10:00:00') /* Mosswart Clinger */
-     , (0x7F128000, 0x7F128003, '2005-02-09 10:00:00') /* Mosswart Clinger */
-     , (0x7F128000, 0x7F128004, '2005-02-09 10:00:00') /* Mosswart Mire-Witch */
-     , (0x7F128000, 0x7F128005, '2005-02-09 10:00:00') /* Mosswart Clinger */
-     , (0x7F128000, 0x7F128006, '2005-02-09 10:00:00') /* Mosswart Clinger */
-     , (0x7F128000, 0x7F128007, '2005-02-09 10:00:00') /* Mosswart Mire-Witch */
-     , (0x7F128000, 0x7F128008, '2005-02-09 10:00:00') /* Mosswart Clinger */;
+VALUES (0x7F128000, 0x7F128001, '2005-02-09 10:00:00') /* Mosswart Clinger (7103) */
+     , (0x7F128000, 0x7F128002, '2005-02-09 10:00:00') /* Mosswart Clinger (7103) */
+     , (0x7F128000, 0x7F128003, '2005-02-09 10:00:00') /* Mosswart Clinger (7103) */
+     , (0x7F128000, 0x7F128004, '2005-02-09 10:00:00') /* Mosswart Mire-Witch (7102) */
+     , (0x7F128000, 0x7F128005, '2005-02-09 10:00:00') /* Mosswart Clinger (7103) */
+     , (0x7F128000, 0x7F128006, '2005-02-09 10:00:00') /* Mosswart Clinger (7103) */
+     , (0x7F128000, 0x7F128007, '2005-02-09 10:00:00') /* Mosswart Mire-Witch (7102) */
+     , (0x7F128000, 0x7F128008, '2005-02-09 10:00:00') /* Mosswart Clinger (7103) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7F128001,  7103, 0xF1280000, 135.55, 44.434, 18.0066, -0.831578, 0, 0, -0.555408,  True, '2005-02-09 10:00:00'); /* Mosswart Clinger */

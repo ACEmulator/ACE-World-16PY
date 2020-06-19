@@ -13,7 +13,7 @@ VALUES (0x73550003,  7923, 0x35500100, 133.328, 60.2339, 206.005, 0.700094, 0, 0
 /* @teleloc 0x35500100 [133.328000 60.233900 206.005000] 0.700094 0.000000 0.000000 0.714050 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73550003, 0x73550001, '2005-02-09 10:00:00') /* Alatar Locke */;
+VALUES (0x73550003, 0x73550001, '2005-02-09 10:00:00') /* Alatar Locke (20203) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73550004, 20634, 0x35500000, 131.616, 103.685, 149.561, 0.998407, 0, 0, -0.0564199,  True, '2005-02-09 10:00:00'); /* Warrior of the Blood */
@@ -80,30 +80,30 @@ VALUES (0x73550013, 15274, 0x35500000, 33.0977, 156.176, 119.58, -0.718972, 0, 0
 /* @teleloc 0x35500000 [33.097700 156.176000 119.580000] -0.718972 0.000000 0.000000 -0.695039 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73550013, 0x73550004, '2005-02-09 10:00:00') /* Warrior of the Blood */
-     , (0x73550013, 0x73550005, '2005-02-09 10:00:00') /* Champion of the Blood */
-     , (0x73550013, 0x73550006, '2005-02-09 10:00:00') /* Warrior of the Blood */
-     , (0x73550013, 0x73550007, '2005-02-09 10:00:00') /* Warrior of the Blood */
-     , (0x73550013, 0x73550008, '2005-02-09 10:00:00') /* Warlock of the Blood */
-     , (0x73550013, 0x73550009, '2005-02-09 10:00:00') /* Warlock of the Blood */
-     , (0x73550013, 0x7355000A, '2005-02-09 10:00:00') /* Champion of the Blood */
-     , (0x73550013, 0x7355000B, '2005-02-09 10:00:00') /* Warrior of the Blood */
-     , (0x73550013, 0x7355000C, '2005-02-09 10:00:00') /* Champion of the Blood */
-     , (0x73550013, 0x7355000D, '2005-02-09 10:00:00') /* Warrior of the Blood */
-     , (0x73550013, 0x7355000E, '2005-02-09 10:00:00') /* Warrior of the Blood */
-     , (0x73550013, 0x7355000F, '2005-02-09 10:00:00') /* Champion of the Blood */
-     , (0x73550013, 0x73550010, '2005-02-09 10:00:00') /* Warlock of the Blood */
-     , (0x73550013, 0x73550011, '2005-02-09 10:00:00') /* Warlock of the Blood */
-     , (0x73550013, 0x73550012, '2005-02-09 10:00:00') /* Warlock of the Blood */
-     , (0x73550013, 0x73550014, '2005-02-09 10:00:00') /* Warlock of the Blood */
-     , (0x73550013, 0x73550015, '2005-02-09 10:00:00') /* Warlock of the Blood */
-     , (0x73550013, 0x73550016, '2005-02-09 10:00:00') /* Champion of the Blood */
-     , (0x73550013, 0x73550017, '2005-02-09 10:00:00') /* Warlock of the Blood */
-     , (0x73550013, 0x73550018, '2005-02-09 10:00:00') /* Warlock of the Blood */
-     , (0x73550013, 0x73550019, '2005-02-09 10:00:00') /* Champion of the Blood */
-     , (0x73550013, 0x7355001A, '2005-02-09 10:00:00') /* Warlock of the Blood */
-     , (0x73550013, 0x7355001B, '2005-02-09 10:00:00') /* Warlock of the Blood */
-     , (0x73550013, 0x7355001C, '2005-02-09 10:00:00') /* Champion of the Blood */;
+VALUES (0x73550013, 0x73550004, '2005-02-09 10:00:00') /* Warrior of the Blood (20634) */
+     , (0x73550013, 0x73550005, '2005-02-09 10:00:00') /* Champion of the Blood (20632) */
+     , (0x73550013, 0x73550006, '2005-02-09 10:00:00') /* Warrior of the Blood (20634) */
+     , (0x73550013, 0x73550007, '2005-02-09 10:00:00') /* Warrior of the Blood (20634) */
+     , (0x73550013, 0x73550008, '2005-02-09 10:00:00') /* Warlock of the Blood (20633) */
+     , (0x73550013, 0x73550009, '2005-02-09 10:00:00') /* Warlock of the Blood (20633) */
+     , (0x73550013, 0x7355000A, '2005-02-09 10:00:00') /* Champion of the Blood (20632) */
+     , (0x73550013, 0x7355000B, '2005-02-09 10:00:00') /* Warrior of the Blood (20634) */
+     , (0x73550013, 0x7355000C, '2005-02-09 10:00:00') /* Champion of the Blood (20632) */
+     , (0x73550013, 0x7355000D, '2005-02-09 10:00:00') /* Warrior of the Blood (20634) */
+     , (0x73550013, 0x7355000E, '2005-02-09 10:00:00') /* Warrior of the Blood (20634) */
+     , (0x73550013, 0x7355000F, '2005-02-09 10:00:00') /* Champion of the Blood (20632) */
+     , (0x73550013, 0x73550010, '2005-02-09 10:00:00') /* Warlock of the Blood (20633) */
+     , (0x73550013, 0x73550011, '2005-02-09 10:00:00') /* Warlock of the Blood (20633) */
+     , (0x73550013, 0x73550012, '2005-02-09 10:00:00') /* Warlock of the Blood (20633) */
+     , (0x73550013, 0x73550014, '2005-02-09 10:00:00') /* Warlock of the Blood (20633) */
+     , (0x73550013, 0x73550015, '2005-02-09 10:00:00') /* Warlock of the Blood (20633) */
+     , (0x73550013, 0x73550016, '2005-02-09 10:00:00') /* Champion of the Blood (20632) */
+     , (0x73550013, 0x73550017, '2005-02-09 10:00:00') /* Warlock of the Blood (20633) */
+     , (0x73550013, 0x73550018, '2005-02-09 10:00:00') /* Warlock of the Blood (20633) */
+     , (0x73550013, 0x73550019, '2005-02-09 10:00:00') /* Champion of the Blood (20632) */
+     , (0x73550013, 0x7355001A, '2005-02-09 10:00:00') /* Warlock of the Blood (20633) */
+     , (0x73550013, 0x7355001B, '2005-02-09 10:00:00') /* Warlock of the Blood (20633) */
+     , (0x73550013, 0x7355001C, '2005-02-09 10:00:00') /* Champion of the Blood (20632) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73550014, 20633, 0x35500000, 135.41, 8.16282, 139.584, 0.550457, 0, 0, 0.834864,  True, '2005-02-09 10:00:00'); /* Warlock of the Blood */

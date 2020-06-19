@@ -13,149 +13,149 @@ VALUES (0x7017F002,  7924, 0x017F0111, 9.79852, -306.563, 0.005, -0.999946, 0, 0
 /* @teleloc 0x017F0111 [9.798520 -306.563000 0.005000] -0.999946 0.000000 0.000000 0.010432 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7017F002, 0x7017F000, '2005-02-09 10:00:00') /* Gotrok Juggernaut */
-     , (0x7017F002, 0x7017F001, '2005-02-09 10:00:00') /* Gotrok Juggernaut */
-     , (0x7017F002, 0x7017F006, '2005-02-09 10:00:00') /* Gotrok Tiatus */
-     , (0x7017F002, 0x7017F007, '2005-02-09 10:00:00') /* Gotrok Tiatus */
-     , (0x7017F002, 0x7017F009, '2005-02-09 10:00:00') /* Gotrok Juggernaut */
-     , (0x7017F002, 0x7017F00A, '2005-02-09 10:00:00') /* Gotrok Juggernaut */
-     , (0x7017F002, 0x7017F00D, '2005-02-09 10:00:00') /* Gotrok Juggernaut */
-     , (0x7017F002, 0x7017F010, '2005-02-09 10:00:00') /* Gotrok Juggernaut */
-     , (0x7017F002, 0x7017F011, '2005-02-09 10:00:00') /* Gotrok Juggernaut */
-     , (0x7017F002, 0x7017F016, '2005-02-09 10:00:00') /* Gotrok Juggernaut */
-     , (0x7017F002, 0x7017F018, '2005-02-09 10:00:00') /* Gotrok Juggernaut */
-     , (0x7017F002, 0x7017F019, '2005-02-09 10:00:00') /* Gotrok Juggernaut */
-     , (0x7017F002, 0x7017F01B, '2005-02-09 10:00:00') /* Gotrok Juggernaut */
-     , (0x7017F002, 0x7017F01C, '2005-02-09 10:00:00') /* Gotrok Juggernaut */
-     , (0x7017F002, 0x7017F01D, '2005-02-09 10:00:00') /* Gotrok Juggernaut */
-     , (0x7017F002, 0x7017F01F, '2005-02-09 10:00:00') /* Gotrok Juggernaut */
-     , (0x7017F002, 0x7017F020, '2005-02-09 10:00:00') /* Gotrok Juggernaut */
-     , (0x7017F002, 0x7017F022, '2005-02-09 10:00:00') /* Gotrok Juggernaut */
-     , (0x7017F002, 0x7017F023, '2005-02-09 10:00:00') /* Gotrok Juggernaut */
-     , (0x7017F002, 0x7017F025, '2005-02-09 10:00:00') /* Gotrok Juggernaut */
-     , (0x7017F002, 0x7017F028, '2005-02-09 10:00:00') /* Gotrok Juggernaut */
-     , (0x7017F002, 0x7017F029, '2005-02-09 10:00:00') /* Gotrok Juggernaut */
-     , (0x7017F002, 0x7017F02A, '2005-02-09 10:00:00') /* Gotrok Juggernaut */
-     , (0x7017F002, 0x7017F02B, '2005-02-09 10:00:00') /* Gotrok Juggernaut */
-     , (0x7017F002, 0x7017F02C, '2005-02-09 10:00:00') /* Gotrok Juggernaut */
-     , (0x7017F002, 0x7017F030, '2005-02-09 10:00:00') /* Gotrok Juggernaut */
-     , (0x7017F002, 0x7017F031, '2005-02-09 10:00:00') /* Gotrok Juggernaut */
-     , (0x7017F002, 0x7017F033, '2005-02-09 10:00:00') /* Gotrok Juggernaut */
-     , (0x7017F002, 0x7017F035, '2005-02-09 10:00:00') /* Gotrok Juggernaut */
-     , (0x7017F002, 0x7017F036, '2005-02-09 10:00:00') /* Gotrok Juggernaut */
-     , (0x7017F002, 0x7017F037, '2005-02-09 10:00:00') /* Gotrok Juggernaut */
-     , (0x7017F002, 0x7017F038, '2005-02-09 10:00:00') /* Gotrok Juggernaut */
-     , (0x7017F002, 0x7017F039, '2005-02-09 10:00:00') /* Gotrok Juggernaut */
-     , (0x7017F002, 0x7017F03A, '2005-02-09 10:00:00') /* Gotrok Juggernaut */
-     , (0x7017F002, 0x7017F03B, '2005-02-09 10:00:00') /* Gotrok Juggernaut */
-     , (0x7017F002, 0x7017F03C, '2005-02-09 10:00:00') /* Gotrok Juggernaut */
-     , (0x7017F002, 0x7017F03D, '2005-02-09 10:00:00') /* Gotrok Juggernaut */
-     , (0x7017F002, 0x7017F03E, '2005-02-09 10:00:00') /* Gotrok Juggernaut */
-     , (0x7017F002, 0x7017F03F, '2005-02-09 10:00:00') /* Gotrok Juggernaut */
-     , (0x7017F002, 0x7017F040, '2005-02-09 10:00:00') /* Gotrok Juggernaut */
-     , (0x7017F002, 0x7017F043, '2005-02-09 10:00:00') /* Gotrok Juggernaut */
-     , (0x7017F002, 0x7017F044, '2005-02-09 10:00:00') /* Gotrok Juggernaut */
-     , (0x7017F002, 0x7017F045, '2005-02-09 10:00:00') /* Gotrok Juggernaut */
-     , (0x7017F002, 0x7017F049, '2005-02-09 10:00:00') /* Gotrok Juggernaut */
-     , (0x7017F002, 0x7017F04A, '2005-02-09 10:00:00') /* Gotrok Juggernaut */
-     , (0x7017F002, 0x7017F04D, '2005-02-09 10:00:00') /* Gotrok Juggernaut */
-     , (0x7017F002, 0x7017F04F, '2005-02-09 10:00:00') /* Gotrok Juggernaut */
-     , (0x7017F002, 0x7017F052, '2005-02-09 10:00:00') /* Gotrok Juggernaut */
-     , (0x7017F002, 0x7017F054, '2005-02-09 10:00:00') /* Gotrok Juggernaut */
-     , (0x7017F002, 0x7017F055, '2005-02-09 10:00:00') /* Gotrok Juggernaut */
-     , (0x7017F002, 0x7017F056, '2005-02-09 10:00:00') /* Gotrok Juggernaut */
-     , (0x7017F002, 0x7017F058, '2005-02-09 10:00:00') /* Gotrok Juggernaut */
-     , (0x7017F002, 0x7017F059, '2005-02-09 10:00:00') /* Gotrok Juggernaut */
-     , (0x7017F002, 0x7017F05E, '2005-02-09 10:00:00') /* Gotrok Juggernaut */
-     , (0x7017F002, 0x7017F05F, '2005-02-09 10:00:00') /* Gotrok Juggernaut */
-     , (0x7017F002, 0x7017F065, '2005-02-09 10:00:00') /* Gotrok Juggernaut */
-     , (0x7017F002, 0x7017F066, '2005-02-09 10:00:00') /* Gotrok Juggernaut */
-     , (0x7017F002, 0x7017F068, '2005-02-09 10:00:00') /* Gotrok Juggernaut */
-     , (0x7017F002, 0x7017F069, '2005-02-09 10:00:00') /* Gotrok Juggernaut */
-     , (0x7017F002, 0x7017F06E, '2005-02-09 10:00:00') /* Gotrok Juggernaut */
-     , (0x7017F002, 0x7017F072, '2005-02-09 10:00:00') /* Gotrok Juggernaut */
-     , (0x7017F002, 0x7017F075, '2005-02-09 10:00:00') /* Gotrok Juggernaut */
-     , (0x7017F002, 0x7017F076, '2005-02-09 10:00:00') /* Gotrok Juggernaut */
-     , (0x7017F002, 0x7017F07D, '2005-02-09 10:00:00') /* Gotrok Juggernaut */
-     , (0x7017F002, 0x7017F081, '2005-02-09 10:00:00') /* Gotrok Juggernaut */
-     , (0x7017F002, 0x7017F082, '2005-02-09 10:00:00') /* Gotrok Juggernaut */
-     , (0x7017F002, 0x7017F084, '2005-02-09 10:00:00') /* Gotrok Juggernaut */
-     , (0x7017F002, 0x7017F085, '2005-02-09 10:00:00') /* Gotrok Juggernaut */
-     , (0x7017F002, 0x7017F086, '2005-02-09 10:00:00') /* Gotrok Juggernaut */;
+VALUES (0x7017F002, 0x7017F000, '2005-02-09 10:00:00') /* Gotrok Juggernaut (24495) */
+     , (0x7017F002, 0x7017F001, '2005-02-09 10:00:00') /* Gotrok Juggernaut (24495) */
+     , (0x7017F002, 0x7017F006, '2005-02-09 10:00:00') /* Gotrok Tiatus (24497) */
+     , (0x7017F002, 0x7017F007, '2005-02-09 10:00:00') /* Gotrok Tiatus (24497) */
+     , (0x7017F002, 0x7017F009, '2005-02-09 10:00:00') /* Gotrok Juggernaut (24495) */
+     , (0x7017F002, 0x7017F00A, '2005-02-09 10:00:00') /* Gotrok Juggernaut (24495) */
+     , (0x7017F002, 0x7017F00D, '2005-02-09 10:00:00') /* Gotrok Juggernaut (24495) */
+     , (0x7017F002, 0x7017F010, '2005-02-09 10:00:00') /* Gotrok Juggernaut (24495) */
+     , (0x7017F002, 0x7017F011, '2005-02-09 10:00:00') /* Gotrok Juggernaut (24495) */
+     , (0x7017F002, 0x7017F016, '2005-02-09 10:00:00') /* Gotrok Juggernaut (24495) */
+     , (0x7017F002, 0x7017F018, '2005-02-09 10:00:00') /* Gotrok Juggernaut (24495) */
+     , (0x7017F002, 0x7017F019, '2005-02-09 10:00:00') /* Gotrok Juggernaut (24495) */
+     , (0x7017F002, 0x7017F01B, '2005-02-09 10:00:00') /* Gotrok Juggernaut (24495) */
+     , (0x7017F002, 0x7017F01C, '2005-02-09 10:00:00') /* Gotrok Juggernaut (24495) */
+     , (0x7017F002, 0x7017F01D, '2005-02-09 10:00:00') /* Gotrok Juggernaut (24495) */
+     , (0x7017F002, 0x7017F01F, '2005-02-09 10:00:00') /* Gotrok Juggernaut (24495) */
+     , (0x7017F002, 0x7017F020, '2005-02-09 10:00:00') /* Gotrok Juggernaut (24495) */
+     , (0x7017F002, 0x7017F022, '2005-02-09 10:00:00') /* Gotrok Juggernaut (24495) */
+     , (0x7017F002, 0x7017F023, '2005-02-09 10:00:00') /* Gotrok Juggernaut (24495) */
+     , (0x7017F002, 0x7017F025, '2005-02-09 10:00:00') /* Gotrok Juggernaut (24495) */
+     , (0x7017F002, 0x7017F028, '2005-02-09 10:00:00') /* Gotrok Juggernaut (24495) */
+     , (0x7017F002, 0x7017F029, '2005-02-09 10:00:00') /* Gotrok Juggernaut (24495) */
+     , (0x7017F002, 0x7017F02A, '2005-02-09 10:00:00') /* Gotrok Juggernaut (24495) */
+     , (0x7017F002, 0x7017F02B, '2005-02-09 10:00:00') /* Gotrok Juggernaut (24495) */
+     , (0x7017F002, 0x7017F02C, '2005-02-09 10:00:00') /* Gotrok Juggernaut (24495) */
+     , (0x7017F002, 0x7017F030, '2005-02-09 10:00:00') /* Gotrok Juggernaut (24495) */
+     , (0x7017F002, 0x7017F031, '2005-02-09 10:00:00') /* Gotrok Juggernaut (24495) */
+     , (0x7017F002, 0x7017F033, '2005-02-09 10:00:00') /* Gotrok Juggernaut (24495) */
+     , (0x7017F002, 0x7017F035, '2005-02-09 10:00:00') /* Gotrok Juggernaut (24495) */
+     , (0x7017F002, 0x7017F036, '2005-02-09 10:00:00') /* Gotrok Juggernaut (24495) */
+     , (0x7017F002, 0x7017F037, '2005-02-09 10:00:00') /* Gotrok Juggernaut (24495) */
+     , (0x7017F002, 0x7017F038, '2005-02-09 10:00:00') /* Gotrok Juggernaut (24495) */
+     , (0x7017F002, 0x7017F039, '2005-02-09 10:00:00') /* Gotrok Juggernaut (24495) */
+     , (0x7017F002, 0x7017F03A, '2005-02-09 10:00:00') /* Gotrok Juggernaut (24495) */
+     , (0x7017F002, 0x7017F03B, '2005-02-09 10:00:00') /* Gotrok Juggernaut (24495) */
+     , (0x7017F002, 0x7017F03C, '2005-02-09 10:00:00') /* Gotrok Juggernaut (24495) */
+     , (0x7017F002, 0x7017F03D, '2005-02-09 10:00:00') /* Gotrok Juggernaut (24495) */
+     , (0x7017F002, 0x7017F03E, '2005-02-09 10:00:00') /* Gotrok Juggernaut (24495) */
+     , (0x7017F002, 0x7017F03F, '2005-02-09 10:00:00') /* Gotrok Juggernaut (24495) */
+     , (0x7017F002, 0x7017F040, '2005-02-09 10:00:00') /* Gotrok Juggernaut (24495) */
+     , (0x7017F002, 0x7017F043, '2005-02-09 10:00:00') /* Gotrok Juggernaut (24495) */
+     , (0x7017F002, 0x7017F044, '2005-02-09 10:00:00') /* Gotrok Juggernaut (24495) */
+     , (0x7017F002, 0x7017F045, '2005-02-09 10:00:00') /* Gotrok Juggernaut (24495) */
+     , (0x7017F002, 0x7017F049, '2005-02-09 10:00:00') /* Gotrok Juggernaut (24495) */
+     , (0x7017F002, 0x7017F04A, '2005-02-09 10:00:00') /* Gotrok Juggernaut (24495) */
+     , (0x7017F002, 0x7017F04D, '2005-02-09 10:00:00') /* Gotrok Juggernaut (24495) */
+     , (0x7017F002, 0x7017F04F, '2005-02-09 10:00:00') /* Gotrok Juggernaut (24495) */
+     , (0x7017F002, 0x7017F052, '2005-02-09 10:00:00') /* Gotrok Juggernaut (24495) */
+     , (0x7017F002, 0x7017F054, '2005-02-09 10:00:00') /* Gotrok Juggernaut (24495) */
+     , (0x7017F002, 0x7017F055, '2005-02-09 10:00:00') /* Gotrok Juggernaut (24495) */
+     , (0x7017F002, 0x7017F056, '2005-02-09 10:00:00') /* Gotrok Juggernaut (24495) */
+     , (0x7017F002, 0x7017F058, '2005-02-09 10:00:00') /* Gotrok Juggernaut (24495) */
+     , (0x7017F002, 0x7017F059, '2005-02-09 10:00:00') /* Gotrok Juggernaut (24495) */
+     , (0x7017F002, 0x7017F05E, '2005-02-09 10:00:00') /* Gotrok Juggernaut (24495) */
+     , (0x7017F002, 0x7017F05F, '2005-02-09 10:00:00') /* Gotrok Juggernaut (24495) */
+     , (0x7017F002, 0x7017F065, '2005-02-09 10:00:00') /* Gotrok Juggernaut (24495) */
+     , (0x7017F002, 0x7017F066, '2005-02-09 10:00:00') /* Gotrok Juggernaut (24495) */
+     , (0x7017F002, 0x7017F068, '2005-02-09 10:00:00') /* Gotrok Juggernaut (24495) */
+     , (0x7017F002, 0x7017F069, '2005-02-09 10:00:00') /* Gotrok Juggernaut (24495) */
+     , (0x7017F002, 0x7017F06E, '2005-02-09 10:00:00') /* Gotrok Juggernaut (24495) */
+     , (0x7017F002, 0x7017F072, '2005-02-09 10:00:00') /* Gotrok Juggernaut (24495) */
+     , (0x7017F002, 0x7017F075, '2005-02-09 10:00:00') /* Gotrok Juggernaut (24495) */
+     , (0x7017F002, 0x7017F076, '2005-02-09 10:00:00') /* Gotrok Juggernaut (24495) */
+     , (0x7017F002, 0x7017F07D, '2005-02-09 10:00:00') /* Gotrok Juggernaut (24495) */
+     , (0x7017F002, 0x7017F081, '2005-02-09 10:00:00') /* Gotrok Juggernaut (24495) */
+     , (0x7017F002, 0x7017F082, '2005-02-09 10:00:00') /* Gotrok Juggernaut (24495) */
+     , (0x7017F002, 0x7017F084, '2005-02-09 10:00:00') /* Gotrok Juggernaut (24495) */
+     , (0x7017F002, 0x7017F085, '2005-02-09 10:00:00') /* Gotrok Juggernaut (24495) */
+     , (0x7017F002, 0x7017F086, '2005-02-09 10:00:00') /* Gotrok Juggernaut (24495) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7017F003,  7924, 0x017F0111, 8.62719, -306.036, 0.005, 0.999871, 0, 0, -0.016068, False, '2005-02-09 10:00:00'); /* Linkable Monster Generator ( 5 Min.) */
 /* @teleloc 0x017F0111 [8.627190 -306.036000 0.005000] 0.999871 0.000000 0.000000 -0.016068 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7017F003, 0x7017F012, '2005-02-09 10:00:00') /* Tumerok War Monger */
-     , (0x7017F003, 0x7017F015, '2005-02-09 10:00:00') /* Tumerok War Monger */
-     , (0x7017F003, 0x7017F017, '2005-02-09 10:00:00') /* Tumerok War Monger */
-     , (0x7017F003, 0x7017F01A, '2005-02-09 10:00:00') /* Tumerok War Monger */
-     , (0x7017F003, 0x7017F024, '2005-02-09 10:00:00') /* Tumerok War Monger */
-     , (0x7017F003, 0x7017F026, '2005-02-09 10:00:00') /* Tumerok War Monger */
-     , (0x7017F003, 0x7017F02D, '2005-02-09 10:00:00') /* Tumerok War Monger */
-     , (0x7017F003, 0x7017F034, '2005-02-09 10:00:00') /* Tumerok War Monger */
-     , (0x7017F003, 0x7017F04B, '2005-02-09 10:00:00') /* Tumerok War Monger */
-     , (0x7017F003, 0x7017F04C, '2005-02-09 10:00:00') /* Tumerok War Monger */
-     , (0x7017F003, 0x7017F04E, '2005-02-09 10:00:00') /* Tumerok War Monger */
-     , (0x7017F003, 0x7017F050, '2005-02-09 10:00:00') /* Tumerok War Monger */
-     , (0x7017F003, 0x7017F051, '2005-02-09 10:00:00') /* Tumerok War Monger */
-     , (0x7017F003, 0x7017F053, '2005-02-09 10:00:00') /* Tumerok War Monger */
-     , (0x7017F003, 0x7017F057, '2005-02-09 10:00:00') /* Tumerok War Monger */
-     , (0x7017F003, 0x7017F05A, '2005-02-09 10:00:00') /* Gotrok Titan */
-     , (0x7017F003, 0x7017F05B, '2005-02-09 10:00:00') /* Tumerok War Monger */
-     , (0x7017F003, 0x7017F05C, '2005-02-09 10:00:00') /* Tumerok War Monger */
-     , (0x7017F003, 0x7017F060, '2005-02-09 10:00:00') /* Tumerok War Monger */
-     , (0x7017F003, 0x7017F061, '2005-02-09 10:00:00') /* Tumerok War Monger */
-     , (0x7017F003, 0x7017F06A, '2005-02-09 10:00:00') /* Tumerok War Monger */
-     , (0x7017F003, 0x7017F06B, '2005-02-09 10:00:00') /* Gotrok Titan */
-     , (0x7017F003, 0x7017F06C, '2005-02-09 10:00:00') /* Tumerok War Monger */
-     , (0x7017F003, 0x7017F06D, '2005-02-09 10:00:00') /* Tumerok War Monger */
-     , (0x7017F003, 0x7017F06F, '2005-02-09 10:00:00') /* Tumerok War Monger */
-     , (0x7017F003, 0x7017F070, '2005-02-09 10:00:00') /* Tumerok War Monger */
-     , (0x7017F003, 0x7017F077, '2005-02-09 10:00:00') /* Gotrok Titan */
-     , (0x7017F003, 0x7017F078, '2005-02-09 10:00:00') /* Tumerok War Monger */
-     , (0x7017F003, 0x7017F079, '2005-02-09 10:00:00') /* Tumerok War Monger */
-     , (0x7017F003, 0x7017F07A, '2005-02-09 10:00:00') /* Gotrok Titan */
-     , (0x7017F003, 0x7017F07B, '2005-02-09 10:00:00') /* Tumerok War Monger */
-     , (0x7017F003, 0x7017F07C, '2005-02-09 10:00:00') /* Tumerok War Monger */
-     , (0x7017F003, 0x7017F07E, '2005-02-09 10:00:00') /* Tumerok War Monger */
-     , (0x7017F003, 0x7017F07F, '2005-02-09 10:00:00') /* Tumerok War Monger */
-     , (0x7017F003, 0x7017F080, '2005-02-09 10:00:00') /* Gotrok Titan */
-     , (0x7017F003, 0x7017F083, '2005-02-09 10:00:00') /* Tumerok War Monger */
-     , (0x7017F003, 0x7017F087, '2005-02-09 10:00:00') /* Gotrok Titan */
-     , (0x7017F003, 0x7017F088, '2005-02-09 10:00:00') /* Tumerok War Monger */
-     , (0x7017F003, 0x7017F089, '2005-02-09 10:00:00') /* Tumerok War Monger */
-     , (0x7017F003, 0x7017F08A, '2005-02-09 10:00:00') /* Tumerok War Monger */
-     , (0x7017F003, 0x7017F08B, '2005-02-09 10:00:00') /* Tumerok War Monger */;
+VALUES (0x7017F003, 0x7017F012, '2005-02-09 10:00:00') /* Tumerok War Monger (23567) */
+     , (0x7017F003, 0x7017F015, '2005-02-09 10:00:00') /* Tumerok War Monger (23567) */
+     , (0x7017F003, 0x7017F017, '2005-02-09 10:00:00') /* Tumerok War Monger (23567) */
+     , (0x7017F003, 0x7017F01A, '2005-02-09 10:00:00') /* Tumerok War Monger (23567) */
+     , (0x7017F003, 0x7017F024, '2005-02-09 10:00:00') /* Tumerok War Monger (23567) */
+     , (0x7017F003, 0x7017F026, '2005-02-09 10:00:00') /* Tumerok War Monger (23567) */
+     , (0x7017F003, 0x7017F02D, '2005-02-09 10:00:00') /* Tumerok War Monger (23567) */
+     , (0x7017F003, 0x7017F034, '2005-02-09 10:00:00') /* Tumerok War Monger (23567) */
+     , (0x7017F003, 0x7017F04B, '2005-02-09 10:00:00') /* Tumerok War Monger (23567) */
+     , (0x7017F003, 0x7017F04C, '2005-02-09 10:00:00') /* Tumerok War Monger (23567) */
+     , (0x7017F003, 0x7017F04E, '2005-02-09 10:00:00') /* Tumerok War Monger (23567) */
+     , (0x7017F003, 0x7017F050, '2005-02-09 10:00:00') /* Tumerok War Monger (23567) */
+     , (0x7017F003, 0x7017F051, '2005-02-09 10:00:00') /* Tumerok War Monger (23567) */
+     , (0x7017F003, 0x7017F053, '2005-02-09 10:00:00') /* Tumerok War Monger (23567) */
+     , (0x7017F003, 0x7017F057, '2005-02-09 10:00:00') /* Tumerok War Monger (23567) */
+     , (0x7017F003, 0x7017F05A, '2005-02-09 10:00:00') /* Gotrok Titan (24951) */
+     , (0x7017F003, 0x7017F05B, '2005-02-09 10:00:00') /* Tumerok War Monger (23567) */
+     , (0x7017F003, 0x7017F05C, '2005-02-09 10:00:00') /* Tumerok War Monger (23567) */
+     , (0x7017F003, 0x7017F060, '2005-02-09 10:00:00') /* Tumerok War Monger (23567) */
+     , (0x7017F003, 0x7017F061, '2005-02-09 10:00:00') /* Tumerok War Monger (23567) */
+     , (0x7017F003, 0x7017F06A, '2005-02-09 10:00:00') /* Tumerok War Monger (23567) */
+     , (0x7017F003, 0x7017F06B, '2005-02-09 10:00:00') /* Gotrok Titan (24951) */
+     , (0x7017F003, 0x7017F06C, '2005-02-09 10:00:00') /* Tumerok War Monger (23567) */
+     , (0x7017F003, 0x7017F06D, '2005-02-09 10:00:00') /* Tumerok War Monger (23567) */
+     , (0x7017F003, 0x7017F06F, '2005-02-09 10:00:00') /* Tumerok War Monger (23567) */
+     , (0x7017F003, 0x7017F070, '2005-02-09 10:00:00') /* Tumerok War Monger (23567) */
+     , (0x7017F003, 0x7017F077, '2005-02-09 10:00:00') /* Gotrok Titan (24951) */
+     , (0x7017F003, 0x7017F078, '2005-02-09 10:00:00') /* Tumerok War Monger (23567) */
+     , (0x7017F003, 0x7017F079, '2005-02-09 10:00:00') /* Tumerok War Monger (23567) */
+     , (0x7017F003, 0x7017F07A, '2005-02-09 10:00:00') /* Gotrok Titan (24951) */
+     , (0x7017F003, 0x7017F07B, '2005-02-09 10:00:00') /* Tumerok War Monger (23567) */
+     , (0x7017F003, 0x7017F07C, '2005-02-09 10:00:00') /* Tumerok War Monger (23567) */
+     , (0x7017F003, 0x7017F07E, '2005-02-09 10:00:00') /* Tumerok War Monger (23567) */
+     , (0x7017F003, 0x7017F07F, '2005-02-09 10:00:00') /* Tumerok War Monger (23567) */
+     , (0x7017F003, 0x7017F080, '2005-02-09 10:00:00') /* Gotrok Titan (24951) */
+     , (0x7017F003, 0x7017F083, '2005-02-09 10:00:00') /* Tumerok War Monger (23567) */
+     , (0x7017F003, 0x7017F087, '2005-02-09 10:00:00') /* Gotrok Titan (24951) */
+     , (0x7017F003, 0x7017F088, '2005-02-09 10:00:00') /* Tumerok War Monger (23567) */
+     , (0x7017F003, 0x7017F089, '2005-02-09 10:00:00') /* Tumerok War Monger (23567) */
+     , (0x7017F003, 0x7017F08A, '2005-02-09 10:00:00') /* Tumerok War Monger (23567) */
+     , (0x7017F003, 0x7017F08B, '2005-02-09 10:00:00') /* Tumerok War Monger (23567) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7017F004,  7924, 0x017F0111, 10.997, -306.521, 0.005, 1, 0, 0, -4.37114E-08, False, '2005-02-09 10:00:00'); /* Linkable Monster Generator ( 5 Min.) */
 /* @teleloc 0x017F0111 [10.997000 -306.521000 0.005000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7017F004, 0x7017F008, '2005-02-09 10:00:00') /* Tumerok War Monger */
-     , (0x7017F004, 0x7017F00B, '2005-02-09 10:00:00') /* Tumerok War Monger */
-     , (0x7017F004, 0x7017F00C, '2005-02-09 10:00:00') /* Tumerok War Monger */
-     , (0x7017F004, 0x7017F00E, '2005-02-09 10:00:00') /* Tumerok War Monger */
-     , (0x7017F004, 0x7017F00F, '2005-02-09 10:00:00') /* Tumerok War Monger */
-     , (0x7017F004, 0x7017F014, '2005-02-09 10:00:00') /* Tumerok War Monger */
-     , (0x7017F004, 0x7017F01E, '2005-02-09 10:00:00') /* Tumerok War Monger */
-     , (0x7017F004, 0x7017F021, '2005-02-09 10:00:00') /* Tumerok War Monger */
-     , (0x7017F004, 0x7017F02E, '2005-02-09 10:00:00') /* Gotrok Titan */
-     , (0x7017F004, 0x7017F02F, '2005-02-09 10:00:00') /* Gotrok Titan */
-     , (0x7017F004, 0x7017F032, '2005-02-09 10:00:00') /* Tumerok War Monger */
-     , (0x7017F004, 0x7017F041, '2005-02-09 10:00:00') /* Tumerok War Monger */
-     , (0x7017F004, 0x7017F042, '2005-02-09 10:00:00') /* Tumerok War Monger */
-     , (0x7017F004, 0x7017F046, '2005-02-09 10:00:00') /* Gotrok Titan */
-     , (0x7017F004, 0x7017F047, '2005-02-09 10:00:00') /* Tumerok War Monger */
-     , (0x7017F004, 0x7017F048, '2005-02-09 10:00:00') /* Tumerok War Monger */
-     , (0x7017F004, 0x7017F05D, '2005-02-09 10:00:00') /* Gotrok Titan */
-     , (0x7017F004, 0x7017F062, '2005-02-09 10:00:00') /* Tumerok War Monger */
-     , (0x7017F004, 0x7017F063, '2005-02-09 10:00:00') /* Tumerok War Monger */
-     , (0x7017F004, 0x7017F064, '2005-02-09 10:00:00') /* Tumerok War Monger */
-     , (0x7017F004, 0x7017F067, '2005-02-09 10:00:00') /* Tumerok War Monger */;
+VALUES (0x7017F004, 0x7017F008, '2005-02-09 10:00:00') /* Tumerok War Monger (23567) */
+     , (0x7017F004, 0x7017F00B, '2005-02-09 10:00:00') /* Tumerok War Monger (23567) */
+     , (0x7017F004, 0x7017F00C, '2005-02-09 10:00:00') /* Tumerok War Monger (23567) */
+     , (0x7017F004, 0x7017F00E, '2005-02-09 10:00:00') /* Tumerok War Monger (23567) */
+     , (0x7017F004, 0x7017F00F, '2005-02-09 10:00:00') /* Tumerok War Monger (23567) */
+     , (0x7017F004, 0x7017F014, '2005-02-09 10:00:00') /* Tumerok War Monger (23567) */
+     , (0x7017F004, 0x7017F01E, '2005-02-09 10:00:00') /* Tumerok War Monger (23567) */
+     , (0x7017F004, 0x7017F021, '2005-02-09 10:00:00') /* Tumerok War Monger (23567) */
+     , (0x7017F004, 0x7017F02E, '2005-02-09 10:00:00') /* Gotrok Titan (24951) */
+     , (0x7017F004, 0x7017F02F, '2005-02-09 10:00:00') /* Gotrok Titan (24951) */
+     , (0x7017F004, 0x7017F032, '2005-02-09 10:00:00') /* Tumerok War Monger (23567) */
+     , (0x7017F004, 0x7017F041, '2005-02-09 10:00:00') /* Tumerok War Monger (23567) */
+     , (0x7017F004, 0x7017F042, '2005-02-09 10:00:00') /* Tumerok War Monger (23567) */
+     , (0x7017F004, 0x7017F046, '2005-02-09 10:00:00') /* Gotrok Titan (24951) */
+     , (0x7017F004, 0x7017F047, '2005-02-09 10:00:00') /* Tumerok War Monger (23567) */
+     , (0x7017F004, 0x7017F048, '2005-02-09 10:00:00') /* Tumerok War Monger (23567) */
+     , (0x7017F004, 0x7017F05D, '2005-02-09 10:00:00') /* Gotrok Titan (24951) */
+     , (0x7017F004, 0x7017F062, '2005-02-09 10:00:00') /* Tumerok War Monger (23567) */
+     , (0x7017F004, 0x7017F063, '2005-02-09 10:00:00') /* Tumerok War Monger (23567) */
+     , (0x7017F004, 0x7017F064, '2005-02-09 10:00:00') /* Tumerok War Monger (23567) */
+     , (0x7017F004, 0x7017F067, '2005-02-09 10:00:00') /* Tumerok War Monger (23567) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7017F005, 28102, 0x017F0111, 10.0127, -307.823, 0.005, 0.011864, 0, 0, -0.99993, False, '2005-02-09 10:00:00'); /* Tunnels */
@@ -606,9 +606,9 @@ VALUES (0x7017F074, 15759, 0x017F02A8, 66.8192, -216.438, 12.005, 0.913898, 0, 0
 /* @teleloc 0x017F02A8 [66.819200 -216.438000 12.005000] 0.913898 0.000000 0.000000 0.405944 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7017F074, 0x7017F013, '2005-02-09 10:00:00') /* Report to Niarltah */
-     , (0x7017F074, 0x7017F027, '2005-02-09 10:00:00') /* Report to Niarltah */
-     , (0x7017F074, 0x7017F073, '2005-02-09 10:00:00') /* Report to Niarltah */;
+VALUES (0x7017F074, 0x7017F013, '2005-02-09 10:00:00') /* Report to Niarltah (28127) */
+     , (0x7017F074, 0x7017F027, '2005-02-09 10:00:00') /* Report to Niarltah (28128) */
+     , (0x7017F074, 0x7017F073, '2005-02-09 10:00:00') /* Report to Niarltah (28129) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7017F075, 24495, 0x017F02AA, 70.9366, -238.388, 12.01, 0.82768, 0, 0, -0.561201,  True, '2005-02-09 10:00:00'); /* Gotrok Juggernaut */

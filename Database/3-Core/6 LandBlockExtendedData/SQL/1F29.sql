@@ -5,10 +5,10 @@ VALUES (0x71F29000,  7924, 0x1F290000, 11.8622, 179.957, 148.005, 0.37651, 0, 0,
 /* @teleloc 0x1F290000 [11.862200 179.957000 148.005000] 0.376510 0.000000 0.000000 0.926413 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71F29000, 0x71F29001, '2005-02-09 10:00:00') /* Bane Grievver */
-     , (0x71F29000, 0x71F29002, '2005-02-09 10:00:00') /* Bane Grievver */
-     , (0x71F29000, 0x71F29003, '2005-02-09 10:00:00') /* Bane Grievver */
-     , (0x71F29000, 0x71F29004, '2005-02-09 10:00:00') /* Bane Grievver */;
+VALUES (0x71F29000, 0x71F29001, '2005-02-09 10:00:00') /* Bane Grievver (7983) */
+     , (0x71F29000, 0x71F29002, '2005-02-09 10:00:00') /* Bane Grievver (7983) */
+     , (0x71F29000, 0x71F29003, '2005-02-09 10:00:00') /* Bane Grievver (7983) */
+     , (0x71F29000, 0x71F29004, '2005-02-09 10:00:00') /* Bane Grievver (7983) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71F29001,  7983, 0x1F290000, 42.9444, 175.293, 148.005, -0.731167, 0, 0, -0.682199,  True, '2005-02-09 10:00:00'); /* Bane Grievver */

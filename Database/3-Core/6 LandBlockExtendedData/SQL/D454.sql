@@ -9,13 +9,13 @@ VALUES (0x7D454008,  1154, 0xD4540000, 159.13, 53.7013, 80.005, -0.267735, 0, 0,
 /* @teleloc 0xD4540000 [159.130000 53.701300 80.005000] -0.267735 0.000000 0.000000 0.963493 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7D454008, 0x7D454009, '2005-02-09 10:00:00') /* Hunter Shreth */
-     , (0x7D454008, 0x7D45400A, '2005-02-09 10:00:00') /* Hunter Shreth */
-     , (0x7D454008, 0x7D45400B, '2005-02-09 10:00:00') /* Hunter Shreth */
-     , (0x7D454008, 0x7D45400C, '2005-02-09 10:00:00') /* Hunter Shreth */
-     , (0x7D454008, 0x7D45400D, '2005-02-09 10:00:00') /* Hunter Shreth */
-     , (0x7D454008, 0x7D45400E, '2005-02-09 10:00:00') /* Vorous Shreth */
-     , (0x7D454008, 0x7D45400F, '2005-02-09 10:00:00') /* Vorous Shreth */;
+VALUES (0x7D454008, 0x7D454009, '2005-02-09 10:00:00') /* Hunter Shreth (4111) */
+     , (0x7D454008, 0x7D45400A, '2005-02-09 10:00:00') /* Hunter Shreth (4111) */
+     , (0x7D454008, 0x7D45400B, '2005-02-09 10:00:00') /* Hunter Shreth (4111) */
+     , (0x7D454008, 0x7D45400C, '2005-02-09 10:00:00') /* Hunter Shreth (4111) */
+     , (0x7D454008, 0x7D45400D, '2005-02-09 10:00:00') /* Hunter Shreth (4111) */
+     , (0x7D454008, 0x7D45400E, '2005-02-09 10:00:00') /* Vorous Shreth (4112) */
+     , (0x7D454008, 0x7D45400F, '2005-02-09 10:00:00') /* Vorous Shreth (4112) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7D454009,  4111, 0xD4540000, 161.664, 66.6471, 80.011, -0.999681, 0, 0, -0.0252414,  True, '2005-02-09 10:00:00'); /* Hunter Shreth */

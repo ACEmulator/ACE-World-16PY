@@ -5,12 +5,12 @@ VALUES (0x7D4B4000,  1154, 0xD4B40000, 22.7863, 151.442, 0, -0.910259, 0, 0, -0.
 /* @teleloc 0xD4B40000 [22.786300 151.442000 0.000000] -0.910259 0.000000 0.000000 -0.414040 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7D4B4000, 0x7D4B4001, '2005-02-09 10:00:00') /* Shore Armoredillo */
-     , (0x7D4B4000, 0x7D4B4002, '2005-02-09 10:00:00') /* Shore Armoredillo */
-     , (0x7D4B4000, 0x7D4B4003, '2005-02-09 10:00:00') /* Shore Armoredillo */
-     , (0x7D4B4000, 0x7D4B4004, '2005-02-09 10:00:00') /* Shore Armoredillo */
-     , (0x7D4B4000, 0x7D4B4005, '2005-02-09 10:00:00') /* Shore Armoredillo */
-     , (0x7D4B4000, 0x7D4B4006, '2005-02-09 10:00:00') /* Shore Armoredillo */;
+VALUES (0x7D4B4000, 0x7D4B4001, '2005-02-09 10:00:00') /* Shore Armoredillo (2565) */
+     , (0x7D4B4000, 0x7D4B4002, '2005-02-09 10:00:00') /* Shore Armoredillo (2565) */
+     , (0x7D4B4000, 0x7D4B4003, '2005-02-09 10:00:00') /* Shore Armoredillo (2565) */
+     , (0x7D4B4000, 0x7D4B4004, '2005-02-09 10:00:00') /* Shore Armoredillo (2565) */
+     , (0x7D4B4000, 0x7D4B4005, '2005-02-09 10:00:00') /* Shore Armoredillo (2565) */
+     , (0x7D4B4000, 0x7D4B4006, '2005-02-09 10:00:00') /* Shore Armoredillo (2565) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7D4B4001,  2565, 0xD4B40000, 33.8389, 153.998, -0.0894999, -0.452982, 0, 0, -0.89152,  True, '2005-02-09 10:00:00'); /* Shore Armoredillo */

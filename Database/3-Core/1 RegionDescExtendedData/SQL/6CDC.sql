@@ -1,9 +1,8 @@
-DELETE FROM `encounter` WHERE `landblock` = 27868;
+DELETE FROM `encounter` WHERE `landblock` = 0x6CDC;
 
 INSERT INTO `encounter` (`landblock`, `weenie_Class_Id`, `cell_X`, `cell_Y`, `last_Modified`)
-VALUES (27868, 1970, 0, 2, '2005-02-09 10:00:00') /* High Direlands Mountain Generator */
-     , (27868, 1970, 1, 1, '2005-02-09 10:00:00') /* High Direlands Mountain Generator */
-     , (27868, 1970, 4, 3, '2005-02-09 10:00:00') /* High Direlands Mountain Generator */
-     , (27868, 1970, 5, 7, '2005-02-09 10:00:00') /* High Direlands Mountain Generator */
-     , (27868, 1970, 6, 7, '2005-02-09 10:00:00') /* High Direlands Mountain Generator */
-     , (27868, 1970, 8, 0, '2005-02-09 10:00:00') /* High Direlands Mountain Generator */;
+VALUES (0x6CDC, 1970, 0, 2, '2005-02-09 10:00:00') /* High Direlands Mountain Generator */
+     , (0x6CDC, 1970, 1, 1, '2005-02-09 10:00:00') /* High Direlands Mountain Generator */
+     , (0x6CDC, 1970, 4, 3, '2005-02-09 10:00:00') /* High Direlands Mountain Generator */
+     , (0x6CDC, 1970, 5, 7, '2005-02-09 10:00:00') /* High Direlands Mountain Generator */
+     , (0x6CDC, 1970, 6, 7, '2005-02-09 10:00:00') /* High Direlands Mountain Generator */;

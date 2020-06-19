@@ -17,7 +17,7 @@ VALUES (0x7CD96003,  3951, 0xCD960000, 177.868, 117.425, 20.005, -0.999308, 0, 0
 /* @teleloc 0xCD960000 [177.868000 117.425000 20.005000] -0.999308 0.000000 0.000000 -0.037188 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7CD96003, 0x7CD96002, '2005-02-09 10:00:00') /* Alean the Steel Forger */;
+VALUES (0x7CD96003, 0x7CD96002, '2005-02-09 10:00:00') /* Alean the Steel Forger (6625) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7CD96004, 14865, 0xCD960000, 180.514, 124.01, 19.6708, 0.246045, 0, 0, 0.969258, False, '2005-02-09 10:00:00'); /* Maere the Dyepot Peddlar */

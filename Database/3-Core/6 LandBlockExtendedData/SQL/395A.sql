@@ -5,24 +5,24 @@ VALUES (0x7395A000,  7924, 0x395A0000, 163.484, 142.606, 39.4846, 0.975622, 0, 0
 /* @teleloc 0x395A0000 [163.484000 142.606000 39.484600] 0.975622 0.000000 0.000000 -0.219460 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7395A000, 0x7395A002, '2005-02-09 10:00:00') /* Virindi Observer */;
+VALUES (0x7395A000, 0x7395A002, '2005-02-09 10:00:00') /* Virindi Observer (7340) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7395A001,  7923, 0x395A0000, 159.952, 143.024, 38.8263, 0.999909, 0, 0, 0.0134922, False, '2005-02-09 10:00:00'); /* Linkable Monster Generator ( 3 Min.) */
 /* @teleloc 0x395A0000 [159.952000 143.024000 38.826300] 0.999909 0.000000 0.000000 0.013492 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7395A001, 0x7395A003, '2005-02-09 10:00:00') /* Rampager */
-     , (0x7395A001, 0x7395A004, '2005-02-09 10:00:00') /* Rampager */
-     , (0x7395A001, 0x7395A005, '2005-02-09 10:00:00') /* Rampager */
-     , (0x7395A001, 0x7395A006, '2005-02-09 10:00:00') /* Rampager */
-     , (0x7395A001, 0x7395A007, '2005-02-09 10:00:00') /* Rampager */
-     , (0x7395A001, 0x7395A008, '2005-02-09 10:00:00') /* Terebrous Hollow Minion */
-     , (0x7395A001, 0x7395A009, '2005-02-09 10:00:00') /* Terebrous Hollow Minion */
-     , (0x7395A001, 0x7395A00A, '2005-02-09 10:00:00') /* Terebrous Hollow Minion */
-     , (0x7395A001, 0x7395A00B, '2005-02-09 10:00:00') /* Gloom Drudge */
-     , (0x7395A001, 0x7395A00C, '2005-02-09 10:00:00') /* Gloom Drudge */
-     , (0x7395A001, 0x7395A00D, '2005-02-09 10:00:00') /* Gloom Drudge */;
+VALUES (0x7395A001, 0x7395A003, '2005-02-09 10:00:00') /* Rampager (10810) */
+     , (0x7395A001, 0x7395A004, '2005-02-09 10:00:00') /* Rampager (10810) */
+     , (0x7395A001, 0x7395A005, '2005-02-09 10:00:00') /* Rampager (10810) */
+     , (0x7395A001, 0x7395A006, '2005-02-09 10:00:00') /* Rampager (10810) */
+     , (0x7395A001, 0x7395A007, '2005-02-09 10:00:00') /* Rampager (10810) */
+     , (0x7395A001, 0x7395A008, '2005-02-09 10:00:00') /* Terebrous Hollow Minion (10787) */
+     , (0x7395A001, 0x7395A009, '2005-02-09 10:00:00') /* Terebrous Hollow Minion (10787) */
+     , (0x7395A001, 0x7395A00A, '2005-02-09 10:00:00') /* Terebrous Hollow Minion (10787) */
+     , (0x7395A001, 0x7395A00B, '2005-02-09 10:00:00') /* Gloom Drudge (24279) */
+     , (0x7395A001, 0x7395A00C, '2005-02-09 10:00:00') /* Gloom Drudge (24279) */
+     , (0x7395A001, 0x7395A00D, '2005-02-09 10:00:00') /* Gloom Drudge (24279) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7395A002,  7340, 0x395A0000, 158.479, 135.897, 39.7927, -0.998563, 0, 0, 0.0535967,  True, '2005-02-09 10:00:00'); /* Virindi Observer */

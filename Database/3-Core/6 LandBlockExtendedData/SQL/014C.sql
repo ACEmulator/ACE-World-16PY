@@ -57,15 +57,15 @@ VALUES (0x7014C00D,  5485, 0x014C0102, 70.6444, -126.38, -11.995, 0.701623, 0, 0
 /* @teleloc 0x014C0102 [70.644400 -126.380000 -11.995000] 0.701623 0.000000 0.000000 -0.712549 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7014C00D, 0x7014C001, '2005-02-09 10:00:00') /* Veteran Reedshark */
-     , (0x7014C00D, 0x7014C002, '2005-02-09 10:00:00') /* Reedshark Elder */
-     , (0x7014C00D, 0x7014C009, '2005-02-09 10:00:00') /* Swamp Rat */
-     , (0x7014C00D, 0x7014C00A, '2005-02-09 10:00:00') /* Veteran Reedshark */
-     , (0x7014C00D, 0x7014C00B, '2005-02-09 10:00:00') /* Veteran Reedshark */
-     , (0x7014C00D, 0x7014C00C, '2005-02-09 10:00:00') /* Silver Rat */
-     , (0x7014C00D, 0x7014C013, '2005-02-09 10:00:00') /* Swamp Rat */
-     , (0x7014C00D, 0x7014C014, '2005-02-09 10:00:00') /* Silver Rat */
-     , (0x7014C00D, 0x7014C015, '2005-02-09 10:00:00') /* Silver Rat */;
+VALUES (0x7014C00D, 0x7014C001, '2005-02-09 10:00:00') /* Veteran Reedshark (222) */
+     , (0x7014C00D, 0x7014C002, '2005-02-09 10:00:00') /* Reedshark Elder (18) */
+     , (0x7014C00D, 0x7014C009, '2005-02-09 10:00:00') /* Swamp Rat (1624) */
+     , (0x7014C00D, 0x7014C00A, '2005-02-09 10:00:00') /* Veteran Reedshark (222) */
+     , (0x7014C00D, 0x7014C00B, '2005-02-09 10:00:00') /* Veteran Reedshark (222) */
+     , (0x7014C00D, 0x7014C00C, '2005-02-09 10:00:00') /* Silver Rat (1626) */
+     , (0x7014C00D, 0x7014C013, '2005-02-09 10:00:00') /* Swamp Rat (1624) */
+     , (0x7014C00D, 0x7014C014, '2005-02-09 10:00:00') /* Silver Rat (1626) */
+     , (0x7014C00D, 0x7014C015, '2005-02-09 10:00:00') /* Silver Rat (1626) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7014C00E,  5619, 0x014C0102, 73.1165, -126.943, -11.995, 0.999485, 0, 0, 0.032095, False, '2005-02-09 10:00:00'); /* Hot Air */
@@ -160,49 +160,49 @@ VALUES (0x7014C024,  3955, 0x014C014F, 160, -170, 0, 1, 0, 0, 0, False, '2005-02
 /* @teleloc 0x014C014F [160.000000 -170.000000 0.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7014C024, 0x7014C01B, '2005-02-09 10:00:00') /* Adult Reedshark */
-     , (0x7014C024, 0x7014C01C, '2005-02-09 10:00:00') /* Adult Reedshark */
-     , (0x7014C024, 0x7014C01D, '2005-02-09 10:00:00') /* Adult Reedshark */
-     , (0x7014C024, 0x7014C01E, '2005-02-09 10:00:00') /* Adult Reedshark */
-     , (0x7014C024, 0x7014C01F, '2005-02-09 10:00:00') /* Adult Reedshark */
-     , (0x7014C024, 0x7014C028, '2005-02-09 10:00:00') /* Reedshark Elder */
-     , (0x7014C024, 0x7014C02E, '2005-02-09 10:00:00') /* Adult Reedshark */
-     , (0x7014C024, 0x7014C031, '2005-02-09 10:00:00') /* Reedshark Elder */
-     , (0x7014C024, 0x7014C03F, '2005-02-09 10:00:00') /* Adult Reedshark */
-     , (0x7014C024, 0x7014C041, '2005-02-09 10:00:00') /* Veteran Reedshark */
-     , (0x7014C024, 0x7014C042, '2005-02-09 10:00:00') /* Adult Reedshark */
-     , (0x7014C024, 0x7014C044, '2005-02-09 10:00:00') /* Adult Reedshark */
-     , (0x7014C024, 0x7014C045, '2005-02-09 10:00:00') /* Adult Reedshark */
-     , (0x7014C024, 0x7014C047, '2005-02-09 10:00:00') /* Veteran Reedshark */
-     , (0x7014C024, 0x7014C048, '2005-02-09 10:00:00') /* Adult Reedshark */
-     , (0x7014C024, 0x7014C049, '2005-02-09 10:00:00') /* Reedshark Elder */
-     , (0x7014C024, 0x7014C04A, '2005-02-09 10:00:00') /* Veteran Reedshark */
-     , (0x7014C024, 0x7014C051, '2005-02-09 10:00:00') /* Reedshark Elder */
-     , (0x7014C024, 0x7014C052, '2005-02-09 10:00:00') /* Reedshark Elder */
-     , (0x7014C024, 0x7014C053, '2005-02-09 10:00:00') /* Veteran Reedshark */
-     , (0x7014C024, 0x7014C054, '2005-02-09 10:00:00') /* Veteran Reedshark */
-     , (0x7014C024, 0x7014C055, '2005-02-09 10:00:00') /* Veteran Reedshark */
-     , (0x7014C024, 0x7014C056, '2005-02-09 10:00:00') /* Veteran Reedshark */
-     , (0x7014C024, 0x7014C057, '2005-02-09 10:00:00') /* Veteran Reedshark */
-     , (0x7014C024, 0x7014C058, '2005-02-09 10:00:00') /* Veteran Reedshark */
-     , (0x7014C024, 0x7014C059, '2005-02-09 10:00:00') /* Adult Reedshark */;
+VALUES (0x7014C024, 0x7014C01B, '2005-02-09 10:00:00') /* Adult Reedshark (221) */
+     , (0x7014C024, 0x7014C01C, '2005-02-09 10:00:00') /* Adult Reedshark (221) */
+     , (0x7014C024, 0x7014C01D, '2005-02-09 10:00:00') /* Adult Reedshark (221) */
+     , (0x7014C024, 0x7014C01E, '2005-02-09 10:00:00') /* Adult Reedshark (221) */
+     , (0x7014C024, 0x7014C01F, '2005-02-09 10:00:00') /* Adult Reedshark (221) */
+     , (0x7014C024, 0x7014C028, '2005-02-09 10:00:00') /* Reedshark Elder (18) */
+     , (0x7014C024, 0x7014C02E, '2005-02-09 10:00:00') /* Adult Reedshark (221) */
+     , (0x7014C024, 0x7014C031, '2005-02-09 10:00:00') /* Reedshark Elder (18) */
+     , (0x7014C024, 0x7014C03F, '2005-02-09 10:00:00') /* Adult Reedshark (221) */
+     , (0x7014C024, 0x7014C041, '2005-02-09 10:00:00') /* Veteran Reedshark (222) */
+     , (0x7014C024, 0x7014C042, '2005-02-09 10:00:00') /* Adult Reedshark (221) */
+     , (0x7014C024, 0x7014C044, '2005-02-09 10:00:00') /* Adult Reedshark (221) */
+     , (0x7014C024, 0x7014C045, '2005-02-09 10:00:00') /* Adult Reedshark (221) */
+     , (0x7014C024, 0x7014C047, '2005-02-09 10:00:00') /* Veteran Reedshark (222) */
+     , (0x7014C024, 0x7014C048, '2005-02-09 10:00:00') /* Adult Reedshark (221) */
+     , (0x7014C024, 0x7014C049, '2005-02-09 10:00:00') /* Reedshark Elder (18) */
+     , (0x7014C024, 0x7014C04A, '2005-02-09 10:00:00') /* Veteran Reedshark (222) */
+     , (0x7014C024, 0x7014C051, '2005-02-09 10:00:00') /* Reedshark Elder (18) */
+     , (0x7014C024, 0x7014C052, '2005-02-09 10:00:00') /* Reedshark Elder (18) */
+     , (0x7014C024, 0x7014C053, '2005-02-09 10:00:00') /* Veteran Reedshark (222) */
+     , (0x7014C024, 0x7014C054, '2005-02-09 10:00:00') /* Veteran Reedshark (222) */
+     , (0x7014C024, 0x7014C055, '2005-02-09 10:00:00') /* Veteran Reedshark (222) */
+     , (0x7014C024, 0x7014C056, '2005-02-09 10:00:00') /* Veteran Reedshark (222) */
+     , (0x7014C024, 0x7014C057, '2005-02-09 10:00:00') /* Veteran Reedshark (222) */
+     , (0x7014C024, 0x7014C058, '2005-02-09 10:00:00') /* Veteran Reedshark (222) */
+     , (0x7014C024, 0x7014C059, '2005-02-09 10:00:00') /* Adult Reedshark (221) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7014C025,  7923, 0x014C014F, 161.324, -170, 0, 1, 0, 0, 0, False, '2005-02-09 10:00:00'); /* Linkable Monster Generator ( 3 Min.) */
 /* @teleloc 0x014C014F [161.324000 -170.000000 0.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7014C025, 0x7014C021, '2005-02-09 10:00:00') /* Reedshark Pup */
-     , (0x7014C025, 0x7014C022, '2005-02-09 10:00:00') /* Reedshark Pup */
-     , (0x7014C025, 0x7014C023, '2005-02-09 10:00:00') /* Reedshark Pup */
-     , (0x7014C025, 0x7014C02A, '2005-02-09 10:00:00') /* Reedshark Pup */
-     , (0x7014C025, 0x7014C038, '2005-02-09 10:00:00') /* Reedshark Pup */
-     , (0x7014C025, 0x7014C03B, '2005-02-09 10:00:00') /* Reedshark Pup */
-     , (0x7014C025, 0x7014C03C, '2005-02-09 10:00:00') /* Reedshark Pup */
-     , (0x7014C025, 0x7014C03D, '2005-02-09 10:00:00') /* Reedshark Pup */
-     , (0x7014C025, 0x7014C04F, '2005-02-09 10:00:00') /* Reedshark Elder */
-     , (0x7014C025, 0x7014C050, '2005-02-09 10:00:00') /* Adult Reedshark */
-     , (0x7014C025, 0x7014C05A, '2005-02-09 10:00:00') /* Adult Reedshark */;
+VALUES (0x7014C025, 0x7014C021, '2005-02-09 10:00:00') /* Reedshark Pup (223) */
+     , (0x7014C025, 0x7014C022, '2005-02-09 10:00:00') /* Reedshark Pup (223) */
+     , (0x7014C025, 0x7014C023, '2005-02-09 10:00:00') /* Reedshark Pup (223) */
+     , (0x7014C025, 0x7014C02A, '2005-02-09 10:00:00') /* Reedshark Pup (223) */
+     , (0x7014C025, 0x7014C038, '2005-02-09 10:00:00') /* Reedshark Pup (223) */
+     , (0x7014C025, 0x7014C03B, '2005-02-09 10:00:00') /* Reedshark Pup (223) */
+     , (0x7014C025, 0x7014C03C, '2005-02-09 10:00:00') /* Reedshark Pup (223) */
+     , (0x7014C025, 0x7014C03D, '2005-02-09 10:00:00') /* Reedshark Pup (223) */
+     , (0x7014C025, 0x7014C04F, '2005-02-09 10:00:00') /* Reedshark Elder (18) */
+     , (0x7014C025, 0x7014C050, '2005-02-09 10:00:00') /* Adult Reedshark (221) */
+     , (0x7014C025, 0x7014C05A, '2005-02-09 10:00:00') /* Adult Reedshark (221) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7014C026,  1302, 0x014C0151, 155.25, -170, 0, -0.707107, 0, 0, -0.707107, False, '2005-02-09 10:00:00'); /* Door */
@@ -365,8 +365,8 @@ VALUES (0x7014C04D,  4139, 0x014C020D, 84.75, -130, 12, 0.707107, 0, 0, -0.70710
 /* @teleloc 0x014C020D [84.750000 -130.000000 12.000000] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7014C04D, 0x7014C027, '2005-02-09 10:00:00') /* Lever */
-     , (0x7014C04D, 0x7014C02D, '2005-02-09 10:00:00') /* Lever */;
+VALUES (0x7014C04D, 0x7014C027, '2005-02-09 10:00:00') /* Lever (2609) */
+     , (0x7014C04D, 0x7014C02D, '2005-02-09 10:00:00') /* Lever (2609) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7014C04E,  5624, 0x014C020E, 84.75, -140, 12, 0.707107, 0, 0, -0.707107, False, '2005-02-09 10:00:00'); /* Door */
