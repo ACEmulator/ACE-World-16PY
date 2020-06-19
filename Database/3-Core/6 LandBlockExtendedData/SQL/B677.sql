@@ -49,4 +49,4 @@ VALUES (0x7B67700B,  1154, 0xB6770000, 69.7333, 60.2981, 54.8442, -0.984064, 0, 
 /* @teleloc 0xB6770000 [69.733300 60.298100 54.844200] -0.984064 0.000000 0.000000 -0.177814 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B67700B, 0x7B67700A, '2005-02-09 10:00:00') /* Mosswart Shaman */;
+VALUES (0x7B67700B, 0x7B67700A, '2005-02-09 10:00:00') /* Mosswart Shaman (1619) */;

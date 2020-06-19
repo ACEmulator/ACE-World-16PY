@@ -37,7 +37,7 @@ VALUES (0x796BB008,  1154, 0x96BB0000, 84.1817, 148.148, 69.9747, 0.929631, 0, 0
 /* @teleloc 0x96BB0000 [84.181700 148.148000 69.974700] 0.929631 0.000000 0.000000 -0.368493 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x796BB008, 0x796BB007, '2005-02-09 10:00:00') /* Tusker Crimsonback */;
+VALUES (0x796BB008, 0x796BB007, '2005-02-09 10:00:00') /* Tusker Crimsonback (1627) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x796BB009,  1131, 0x96BB0000, 85.4351, 148.534, 69.7622, 0.142918, 0, 0, -0.989735, False, '2005-02-09 10:00:00'); /* Item Herb Generator */

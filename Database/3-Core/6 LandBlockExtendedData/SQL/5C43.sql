@@ -249,69 +249,69 @@ VALUES (0x75C4303D,  7924, 0x5C430272, 90.1119, -135.138, 12.005, 0.999687, 0, 0
 /* @teleloc 0x5C430272 [90.111900 -135.138000 12.005000] 0.999687 0.000000 0.000000 0.024997 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x75C4303D, 0x75C43001, '2005-02-09 10:00:00') /* Goldenback Tusker */
-     , (0x75C4303D, 0x75C43002, '2005-02-09 10:00:00') /* Goldenback Tusker */
-     , (0x75C4303D, 0x75C43003, '2005-02-09 10:00:00') /* Goldenback Tusker */
-     , (0x75C4303D, 0x75C43004, '2005-02-09 10:00:00') /* Goldenback Tusker */
-     , (0x75C4303D, 0x75C43005, '2005-02-09 10:00:00') /* Goldenback Tusker */
-     , (0x75C4303D, 0x75C43006, '2005-02-09 10:00:00') /* Goldenback Tusker */
-     , (0x75C4303D, 0x75C43007, '2005-02-09 10:00:00') /* Goldenback Tusker */
-     , (0x75C4303D, 0x75C43008, '2005-02-09 10:00:00') /* Goldenback Tusker */
-     , (0x75C4303D, 0x75C4300A, '2005-02-09 10:00:00') /* Goldenback Tusker */
-     , (0x75C4303D, 0x75C4300B, '2005-02-09 10:00:00') /* Goldenback Tusker */
-     , (0x75C4303D, 0x75C4300C, '2005-02-09 10:00:00') /* Goldenback Tusker */
-     , (0x75C4303D, 0x75C4300D, '2005-02-09 10:00:00') /* Goldenback Tusker */
-     , (0x75C4303D, 0x75C4300E, '2005-02-09 10:00:00') /* Goldenback Tusker */
-     , (0x75C4303D, 0x75C4300F, '2005-02-09 10:00:00') /* Goldenback Tusker */
-     , (0x75C4303D, 0x75C43010, '2005-02-09 10:00:00') /* Goldenback Tusker */
-     , (0x75C4303D, 0x75C43011, '2005-02-09 10:00:00') /* Goldenback Tusker */
-     , (0x75C4303D, 0x75C43012, '2005-02-09 10:00:00') /* Goldenback Tusker */
-     , (0x75C4303D, 0x75C43013, '2005-02-09 10:00:00') /* Goldenback Tusker */
-     , (0x75C4303D, 0x75C43014, '2005-02-09 10:00:00') /* Goldenback Tusker */
-     , (0x75C4303D, 0x75C43015, '2005-02-09 10:00:00') /* Goldenback Tusker */
-     , (0x75C4303D, 0x75C43016, '2005-02-09 10:00:00') /* Goldenback Tusker */
-     , (0x75C4303D, 0x75C43017, '2005-02-09 10:00:00') /* Goldenback Tusker */
-     , (0x75C4303D, 0x75C43018, '2005-02-09 10:00:00') /* Goldenback Tusker */
-     , (0x75C4303D, 0x75C43019, '2005-02-09 10:00:00') /* Goldenback Tusker */
-     , (0x75C4303D, 0x75C4301A, '2005-02-09 10:00:00') /* Goldenback Tusker */
-     , (0x75C4303D, 0x75C4301B, '2005-02-09 10:00:00') /* Goldenback Tusker */
-     , (0x75C4303D, 0x75C4301C, '2005-02-09 10:00:00') /* Goldenback Tusker */
-     , (0x75C4303D, 0x75C4301D, '2005-02-09 10:00:00') /* Goldenback Tusker */
-     , (0x75C4303D, 0x75C4301E, '2005-02-09 10:00:00') /* Goldenback Tusker */
-     , (0x75C4303D, 0x75C4301F, '2005-02-09 10:00:00') /* Goldenback Tusker */
-     , (0x75C4303D, 0x75C43020, '2005-02-09 10:00:00') /* Goldenback Tusker */
-     , (0x75C4303D, 0x75C43021, '2005-02-09 10:00:00') /* Goldenback Tusker */
-     , (0x75C4303D, 0x75C43022, '2005-02-09 10:00:00') /* Goldenback Tusker */
-     , (0x75C4303D, 0x75C43023, '2005-02-09 10:00:00') /* Goldenback Tusker */
-     , (0x75C4303D, 0x75C43024, '2005-02-09 10:00:00') /* Goldenback Tusker */
-     , (0x75C4303D, 0x75C43025, '2005-02-09 10:00:00') /* Goldenback Tusker */
-     , (0x75C4303D, 0x75C43026, '2005-02-09 10:00:00') /* Goldenback Tusker */
-     , (0x75C4303D, 0x75C43027, '2005-02-09 10:00:00') /* Goldenback Tusker */
-     , (0x75C4303D, 0x75C43028, '2005-02-09 10:00:00') /* Goldenback Tusker */
-     , (0x75C4303D, 0x75C43029, '2005-02-09 10:00:00') /* Goldenback Tusker */
-     , (0x75C4303D, 0x75C4302A, '2005-02-09 10:00:00') /* Goldenback Tusker */
-     , (0x75C4303D, 0x75C4302B, '2005-02-09 10:00:00') /* Goldenback Tusker */
-     , (0x75C4303D, 0x75C4302C, '2005-02-09 10:00:00') /* Goldenback Tusker */
-     , (0x75C4303D, 0x75C4302D, '2005-02-09 10:00:00') /* Goldenback Tusker */
-     , (0x75C4303D, 0x75C4302E, '2005-02-09 10:00:00') /* Goldenback Tusker */
-     , (0x75C4303D, 0x75C4302F, '2005-02-09 10:00:00') /* Goldenback Tusker */
-     , (0x75C4303D, 0x75C43030, '2005-02-09 10:00:00') /* Goldenback Tusker */
-     , (0x75C4303D, 0x75C43031, '2005-02-09 10:00:00') /* Goldenback Tusker */
-     , (0x75C4303D, 0x75C43032, '2005-02-09 10:00:00') /* Goldenback Tusker */
-     , (0x75C4303D, 0x75C43033, '2005-02-09 10:00:00') /* Goldenback Tusker */
-     , (0x75C4303D, 0x75C43034, '2005-02-09 10:00:00') /* Goldenback Tusker */
-     , (0x75C4303D, 0x75C43035, '2005-02-09 10:00:00') /* Goldenback Tusker */
-     , (0x75C4303D, 0x75C43036, '2005-02-09 10:00:00') /* Goldenback Tusker */
-     , (0x75C4303D, 0x75C43037, '2005-02-09 10:00:00') /* Goldenback Tusker */
-     , (0x75C4303D, 0x75C43038, '2005-02-09 10:00:00') /* Goldenback Tusker */
-     , (0x75C4303D, 0x75C43039, '2005-02-09 10:00:00') /* Goldenback Tusker */
-     , (0x75C4303D, 0x75C4303A, '2005-02-09 10:00:00') /* Goldenback Tusker */
-     , (0x75C4303D, 0x75C4303B, '2005-02-09 10:00:00') /* Goldenback Tusker */
-     , (0x75C4303D, 0x75C4303C, '2005-02-09 10:00:00') /* Goldenback Tusker */
-     , (0x75C4303D, 0x75C4303E, '2005-02-09 10:00:00') /* Goldenback Tusker */
-     , (0x75C4303D, 0x75C4303F, '2005-02-09 10:00:00') /* Goldenback Tusker */
-     , (0x75C4303D, 0x75C43040, '2005-02-09 10:00:00') /* Goldenback Tusker */
-     , (0x75C4303D, 0x75C43041, '2005-02-09 10:00:00') /* Goldenback Tusker */;
+VALUES (0x75C4303D, 0x75C43001, '2005-02-09 10:00:00') /* Goldenback Tusker (22591) */
+     , (0x75C4303D, 0x75C43002, '2005-02-09 10:00:00') /* Goldenback Tusker (235) */
+     , (0x75C4303D, 0x75C43003, '2005-02-09 10:00:00') /* Goldenback Tusker (22591) */
+     , (0x75C4303D, 0x75C43004, '2005-02-09 10:00:00') /* Goldenback Tusker (235) */
+     , (0x75C4303D, 0x75C43005, '2005-02-09 10:00:00') /* Goldenback Tusker (22591) */
+     , (0x75C4303D, 0x75C43006, '2005-02-09 10:00:00') /* Goldenback Tusker (235) */
+     , (0x75C4303D, 0x75C43007, '2005-02-09 10:00:00') /* Goldenback Tusker (22591) */
+     , (0x75C4303D, 0x75C43008, '2005-02-09 10:00:00') /* Goldenback Tusker (235) */
+     , (0x75C4303D, 0x75C4300A, '2005-02-09 10:00:00') /* Goldenback Tusker (235) */
+     , (0x75C4303D, 0x75C4300B, '2005-02-09 10:00:00') /* Goldenback Tusker (235) */
+     , (0x75C4303D, 0x75C4300C, '2005-02-09 10:00:00') /* Goldenback Tusker (235) */
+     , (0x75C4303D, 0x75C4300D, '2005-02-09 10:00:00') /* Goldenback Tusker (235) */
+     , (0x75C4303D, 0x75C4300E, '2005-02-09 10:00:00') /* Goldenback Tusker (235) */
+     , (0x75C4303D, 0x75C4300F, '2005-02-09 10:00:00') /* Goldenback Tusker (235) */
+     , (0x75C4303D, 0x75C43010, '2005-02-09 10:00:00') /* Goldenback Tusker (235) */
+     , (0x75C4303D, 0x75C43011, '2005-02-09 10:00:00') /* Goldenback Tusker (235) */
+     , (0x75C4303D, 0x75C43012, '2005-02-09 10:00:00') /* Goldenback Tusker (235) */
+     , (0x75C4303D, 0x75C43013, '2005-02-09 10:00:00') /* Goldenback Tusker (235) */
+     , (0x75C4303D, 0x75C43014, '2005-02-09 10:00:00') /* Goldenback Tusker (235) */
+     , (0x75C4303D, 0x75C43015, '2005-02-09 10:00:00') /* Goldenback Tusker (235) */
+     , (0x75C4303D, 0x75C43016, '2005-02-09 10:00:00') /* Goldenback Tusker (235) */
+     , (0x75C4303D, 0x75C43017, '2005-02-09 10:00:00') /* Goldenback Tusker (235) */
+     , (0x75C4303D, 0x75C43018, '2005-02-09 10:00:00') /* Goldenback Tusker (235) */
+     , (0x75C4303D, 0x75C43019, '2005-02-09 10:00:00') /* Goldenback Tusker (235) */
+     , (0x75C4303D, 0x75C4301A, '2005-02-09 10:00:00') /* Goldenback Tusker (235) */
+     , (0x75C4303D, 0x75C4301B, '2005-02-09 10:00:00') /* Goldenback Tusker (235) */
+     , (0x75C4303D, 0x75C4301C, '2005-02-09 10:00:00') /* Goldenback Tusker (235) */
+     , (0x75C4303D, 0x75C4301D, '2005-02-09 10:00:00') /* Goldenback Tusker (235) */
+     , (0x75C4303D, 0x75C4301E, '2005-02-09 10:00:00') /* Goldenback Tusker (235) */
+     , (0x75C4303D, 0x75C4301F, '2005-02-09 10:00:00') /* Goldenback Tusker (235) */
+     , (0x75C4303D, 0x75C43020, '2005-02-09 10:00:00') /* Goldenback Tusker (235) */
+     , (0x75C4303D, 0x75C43021, '2005-02-09 10:00:00') /* Goldenback Tusker (235) */
+     , (0x75C4303D, 0x75C43022, '2005-02-09 10:00:00') /* Goldenback Tusker (235) */
+     , (0x75C4303D, 0x75C43023, '2005-02-09 10:00:00') /* Goldenback Tusker (235) */
+     , (0x75C4303D, 0x75C43024, '2005-02-09 10:00:00') /* Goldenback Tusker (235) */
+     , (0x75C4303D, 0x75C43025, '2005-02-09 10:00:00') /* Goldenback Tusker (235) */
+     , (0x75C4303D, 0x75C43026, '2005-02-09 10:00:00') /* Goldenback Tusker (235) */
+     , (0x75C4303D, 0x75C43027, '2005-02-09 10:00:00') /* Goldenback Tusker (235) */
+     , (0x75C4303D, 0x75C43028, '2005-02-09 10:00:00') /* Goldenback Tusker (235) */
+     , (0x75C4303D, 0x75C43029, '2005-02-09 10:00:00') /* Goldenback Tusker (235) */
+     , (0x75C4303D, 0x75C4302A, '2005-02-09 10:00:00') /* Goldenback Tusker (235) */
+     , (0x75C4303D, 0x75C4302B, '2005-02-09 10:00:00') /* Goldenback Tusker (235) */
+     , (0x75C4303D, 0x75C4302C, '2005-02-09 10:00:00') /* Goldenback Tusker (235) */
+     , (0x75C4303D, 0x75C4302D, '2005-02-09 10:00:00') /* Goldenback Tusker (235) */
+     , (0x75C4303D, 0x75C4302E, '2005-02-09 10:00:00') /* Goldenback Tusker (235) */
+     , (0x75C4303D, 0x75C4302F, '2005-02-09 10:00:00') /* Goldenback Tusker (235) */
+     , (0x75C4303D, 0x75C43030, '2005-02-09 10:00:00') /* Goldenback Tusker (235) */
+     , (0x75C4303D, 0x75C43031, '2005-02-09 10:00:00') /* Goldenback Tusker (235) */
+     , (0x75C4303D, 0x75C43032, '2005-02-09 10:00:00') /* Goldenback Tusker (235) */
+     , (0x75C4303D, 0x75C43033, '2005-02-09 10:00:00') /* Goldenback Tusker (235) */
+     , (0x75C4303D, 0x75C43034, '2005-02-09 10:00:00') /* Goldenback Tusker (235) */
+     , (0x75C4303D, 0x75C43035, '2005-02-09 10:00:00') /* Goldenback Tusker (235) */
+     , (0x75C4303D, 0x75C43036, '2005-02-09 10:00:00') /* Goldenback Tusker (235) */
+     , (0x75C4303D, 0x75C43037, '2005-02-09 10:00:00') /* Goldenback Tusker (235) */
+     , (0x75C4303D, 0x75C43038, '2005-02-09 10:00:00') /* Goldenback Tusker (235) */
+     , (0x75C4303D, 0x75C43039, '2005-02-09 10:00:00') /* Goldenback Tusker (235) */
+     , (0x75C4303D, 0x75C4303A, '2005-02-09 10:00:00') /* Goldenback Tusker (235) */
+     , (0x75C4303D, 0x75C4303B, '2005-02-09 10:00:00') /* Goldenback Tusker (235) */
+     , (0x75C4303D, 0x75C4303C, '2005-02-09 10:00:00') /* Goldenback Tusker (235) */
+     , (0x75C4303D, 0x75C4303E, '2005-02-09 10:00:00') /* Goldenback Tusker (235) */
+     , (0x75C4303D, 0x75C4303F, '2005-02-09 10:00:00') /* Goldenback Tusker (235) */
+     , (0x75C4303D, 0x75C43040, '2005-02-09 10:00:00') /* Goldenback Tusker (235) */
+     , (0x75C4303D, 0x75C43041, '2005-02-09 10:00:00') /* Goldenback Tusker (235) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75C4303E,   235, 0x5C430273, 100.571, -99.9952, 12.0121, -0.004204, 0, 0, 0.999991,  True, '2005-02-09 10:00:00'); /* Goldenback Tusker */

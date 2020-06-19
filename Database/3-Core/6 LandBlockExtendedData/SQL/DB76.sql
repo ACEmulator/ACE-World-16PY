@@ -77,20 +77,20 @@ VALUES (0x7DB76027,  7924, 0xDB760000, 172.501, 90.4132, 16.005, 0.64182, 0, 0, 
 /* @teleloc 0xDB760000 [172.501000 90.413200 16.005000] 0.641820 0.000000 0.000000 0.766855 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7DB76027, 0x7DB76016, '2005-02-09 10:00:00') /* Tumerok Major */
-     , (0x7DB76027, 0x7DB76017, '2005-02-09 10:00:00') /* Tumerok Gladiator */
-     , (0x7DB76027, 0x7DB76018, '2005-02-09 10:00:00') /* Tumerok Gladiator */
-     , (0x7DB76027, 0x7DB76019, '2005-02-09 10:00:00') /* Tumerok Gladiator */
-     , (0x7DB76027, 0x7DB7601A, '2005-02-09 10:00:00') /* Tumerok Priest */
-     , (0x7DB76027, 0x7DB7601B, '2005-02-09 10:00:00') /* Tumerok Priest */
-     , (0x7DB76027, 0x7DB7601C, '2005-02-09 10:00:00') /* Tumerok Priest */
-     , (0x7DB76027, 0x7DB7601D, '2005-02-09 10:00:00') /* Tumerok Gladiator */
-     , (0x7DB76027, 0x7DB7601E, '2005-02-09 10:00:00') /* Tumerok Gladiator */
-     , (0x7DB76027, 0x7DB7601F, '2005-02-09 10:00:00') /* Tumerok Priest */
-     , (0x7DB76027, 0x7DB76020, '2005-02-09 10:00:00') /* Tumerok Priest */
-     , (0x7DB76027, 0x7DB76021, '2005-02-09 10:00:00') /* Tumerok Gladiator */
-     , (0x7DB76027, 0x7DB76022, '2005-02-09 10:00:00') /* Tumerok Gladiator */
-     , (0x7DB76027, 0x7DB76023, '2005-02-09 10:00:00') /* Tumerok Gladiator */
-     , (0x7DB76027, 0x7DB76024, '2005-02-09 10:00:00') /* Tumerok Gladiator */
-     , (0x7DB76027, 0x7DB76025, '2005-02-09 10:00:00') /* Tumerok Gladiator */
-     , (0x7DB76027, 0x7DB76026, '2005-02-09 10:00:00') /* Tumerok Gladiator */;
+VALUES (0x7DB76027, 0x7DB76016, '2005-02-09 10:00:00') /* Tumerok Major (23565) */
+     , (0x7DB76027, 0x7DB76017, '2005-02-09 10:00:00') /* Tumerok Gladiator (227) */
+     , (0x7DB76027, 0x7DB76018, '2005-02-09 10:00:00') /* Tumerok Gladiator (227) */
+     , (0x7DB76027, 0x7DB76019, '2005-02-09 10:00:00') /* Tumerok Gladiator (227) */
+     , (0x7DB76027, 0x7DB7601A, '2005-02-09 10:00:00') /* Tumerok Priest (231) */
+     , (0x7DB76027, 0x7DB7601B, '2005-02-09 10:00:00') /* Tumerok Priest (231) */
+     , (0x7DB76027, 0x7DB7601C, '2005-02-09 10:00:00') /* Tumerok Priest (231) */
+     , (0x7DB76027, 0x7DB7601D, '2005-02-09 10:00:00') /* Tumerok Gladiator (227) */
+     , (0x7DB76027, 0x7DB7601E, '2005-02-09 10:00:00') /* Tumerok Gladiator (227) */
+     , (0x7DB76027, 0x7DB7601F, '2005-02-09 10:00:00') /* Tumerok Priest (231) */
+     , (0x7DB76027, 0x7DB76020, '2005-02-09 10:00:00') /* Tumerok Priest (231) */
+     , (0x7DB76027, 0x7DB76021, '2005-02-09 10:00:00') /* Tumerok Gladiator (227) */
+     , (0x7DB76027, 0x7DB76022, '2005-02-09 10:00:00') /* Tumerok Gladiator (227) */
+     , (0x7DB76027, 0x7DB76023, '2005-02-09 10:00:00') /* Tumerok Gladiator (227) */
+     , (0x7DB76027, 0x7DB76024, '2005-02-09 10:00:00') /* Tumerok Gladiator (227) */
+     , (0x7DB76027, 0x7DB76025, '2005-02-09 10:00:00') /* Tumerok Gladiator (227) */
+     , (0x7DB76027, 0x7DB76026, '2005-02-09 10:00:00') /* Tumerok Gladiator (227) */;

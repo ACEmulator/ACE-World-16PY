@@ -57,33 +57,33 @@ VALUES (0x701B602F,  4219, 0x01B60100, 0.027693, 0.401601, 0.005, -0.00420404, 0
 /* @teleloc 0x01B60100 [0.027693 0.401601 0.005000] -0.004204 0.000000 0.000000 -0.999991 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x701B602F, 0x701B6030, '2005-02-09 10:00:00') /* Sandstone Golem */
-     , (0x701B602F, 0x701B6031, '2005-02-09 10:00:00') /* Sandstone Golem */
-     , (0x701B602F, 0x701B6032, '2005-02-09 10:00:00') /* Sandstone Golem */
-     , (0x701B602F, 0x701B6033, '2005-02-09 10:00:00') /* Sandstone Golem */
-     , (0x701B602F, 0x701B6034, '2005-02-09 10:00:00') /* Sandstone Golem */
-     , (0x701B602F, 0x701B6035, '2005-02-09 10:00:00') /* Skeleton Lord */
-     , (0x701B602F, 0x701B6036, '2005-02-09 10:00:00') /* Seared Skeleton */
-     , (0x701B602F, 0x701B6037, '2005-02-09 10:00:00') /* Seared Skeleton */
-     , (0x701B602F, 0x701B603A, '2005-02-09 10:00:00') /* Sandstone Golem */
-     , (0x701B602F, 0x701B603B, '2005-02-09 10:00:00') /* Seared Skeleton */
-     , (0x701B602F, 0x701B603C, '2005-02-09 10:00:00') /* Seared Skeleton */
-     , (0x701B602F, 0x701B603D, '2005-02-09 10:00:00') /* Seared Skeleton */
-     , (0x701B602F, 0x701B603E, '2005-02-09 10:00:00') /* Seared Skeleton */
-     , (0x701B602F, 0x701B603F, '2005-02-09 10:00:00') /* Seared Skeleton */
-     , (0x701B602F, 0x701B6040, '2005-02-09 10:00:00') /* Seared Skeleton */
-     , (0x701B602F, 0x701B6041, '2005-02-09 10:00:00') /* Seared Skeleton */
-     , (0x701B602F, 0x701B6042, '2005-02-09 10:00:00') /* Risen Soldier */
-     , (0x701B602F, 0x701B6043, '2005-02-09 10:00:00') /* Seared Skeleton */
-     , (0x701B602F, 0x701B6044, '2005-02-09 10:00:00') /* Risen Soldier */
-     , (0x701B602F, 0x701B6045, '2005-02-09 10:00:00') /* Seared Skeleton */
-     , (0x701B602F, 0x701B6046, '2005-02-09 10:00:00') /* Seared Skeleton */
-     , (0x701B602F, 0x701B6047, '2005-02-09 10:00:00') /* Seared Skeleton */
-     , (0x701B602F, 0x701B6048, '2005-02-09 10:00:00') /* Seared Skeleton */
-     , (0x701B602F, 0x701B6049, '2005-02-09 10:00:00') /* Seared Skeleton */
-     , (0x701B602F, 0x701B604A, '2005-02-09 10:00:00') /* Risen Soldier */
-     , (0x701B602F, 0x701B604B, '2005-02-09 10:00:00') /* Risen Soldier */
-     , (0x701B602F, 0x701B604C, '2005-02-09 10:00:00') /* Skeleton Lord */;
+VALUES (0x701B602F, 0x701B6030, '2005-02-09 10:00:00') /* Sandstone Golem (202) */
+     , (0x701B602F, 0x701B6031, '2005-02-09 10:00:00') /* Sandstone Golem (202) */
+     , (0x701B602F, 0x701B6032, '2005-02-09 10:00:00') /* Sandstone Golem (202) */
+     , (0x701B602F, 0x701B6033, '2005-02-09 10:00:00') /* Sandstone Golem (202) */
+     , (0x701B602F, 0x701B6034, '2005-02-09 10:00:00') /* Sandstone Golem (202) */
+     , (0x701B602F, 0x701B6035, '2005-02-09 10:00:00') /* Skeleton Lord (1762) */
+     , (0x701B602F, 0x701B6036, '2005-02-09 10:00:00') /* Seared Skeleton (5683) */
+     , (0x701B602F, 0x701B6037, '2005-02-09 10:00:00') /* Seared Skeleton (5683) */
+     , (0x701B602F, 0x701B603A, '2005-02-09 10:00:00') /* Sandstone Golem (202) */
+     , (0x701B602F, 0x701B603B, '2005-02-09 10:00:00') /* Seared Skeleton (5683) */
+     , (0x701B602F, 0x701B603C, '2005-02-09 10:00:00') /* Seared Skeleton (5683) */
+     , (0x701B602F, 0x701B603D, '2005-02-09 10:00:00') /* Seared Skeleton (5683) */
+     , (0x701B602F, 0x701B603E, '2005-02-09 10:00:00') /* Seared Skeleton (5683) */
+     , (0x701B602F, 0x701B603F, '2005-02-09 10:00:00') /* Seared Skeleton (5683) */
+     , (0x701B602F, 0x701B6040, '2005-02-09 10:00:00') /* Seared Skeleton (5683) */
+     , (0x701B602F, 0x701B6041, '2005-02-09 10:00:00') /* Seared Skeleton (5683) */
+     , (0x701B602F, 0x701B6042, '2005-02-09 10:00:00') /* Risen Soldier (8672) */
+     , (0x701B602F, 0x701B6043, '2005-02-09 10:00:00') /* Seared Skeleton (5683) */
+     , (0x701B602F, 0x701B6044, '2005-02-09 10:00:00') /* Risen Soldier (8672) */
+     , (0x701B602F, 0x701B6045, '2005-02-09 10:00:00') /* Seared Skeleton (5683) */
+     , (0x701B602F, 0x701B6046, '2005-02-09 10:00:00') /* Seared Skeleton (5683) */
+     , (0x701B602F, 0x701B6047, '2005-02-09 10:00:00') /* Seared Skeleton (5683) */
+     , (0x701B602F, 0x701B6048, '2005-02-09 10:00:00') /* Seared Skeleton (5683) */
+     , (0x701B602F, 0x701B6049, '2005-02-09 10:00:00') /* Seared Skeleton (5683) */
+     , (0x701B602F, 0x701B604A, '2005-02-09 10:00:00') /* Risen Soldier (8672) */
+     , (0x701B602F, 0x701B604B, '2005-02-09 10:00:00') /* Risen Soldier (8672) */
+     , (0x701B602F, 0x701B604C, '2005-02-09 10:00:00') /* Skeleton Lord (1762) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x701B6030,   202, 0x01B60105, 0.003534, -20.0129, 0.011, 1, 0, 0, 0,  True, '2005-02-09 10:00:00'); /* Sandstone Golem */

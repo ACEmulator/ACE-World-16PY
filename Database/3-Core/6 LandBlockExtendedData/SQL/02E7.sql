@@ -57,14 +57,14 @@ VALUES (0x702E700D,  7562, 0x02E70118, 309.172, -448.405, 0.005, 0.999973, 0, 0,
 /* @teleloc 0x02E70118 [309.172000 -448.405000 0.005000] 0.999973 0.000000 0.000000 -0.007313 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x702E700D, 0x702E700C, '2005-02-09 10:00:00') /* Pressure Plate */;
+VALUES (0x702E700D, 0x702E700C, '2005-02-09 10:00:00') /* Pressure Plate (2131) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x702E700E,  7561, 0x02E70118, 311.863, -448.292, 0.005, 0.76011, 0, 0, -0.649794, False, '2005-02-09 10:00:00'); /* Magic trap */
 /* @teleloc 0x02E70118 [311.863000 -448.292000 0.005000] 0.760110 0.000000 0.000000 -0.649794 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x702E700E, 0x702E700B, '2005-02-09 10:00:00') /* Pressure Plate */;
+VALUES (0x702E700E, 0x702E700B, '2005-02-09 10:00:00') /* Pressure Plate (2131) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x702E700F,  7551, 0x02E7011A, 323.573, -117.365, 0.01, -0.563768, 0, 0, 0.825933,  True, '2005-02-09 10:00:00'); /* Extas Raider */
@@ -111,42 +111,42 @@ VALUES (0x702E7019,  7923, 0x02E70130, 350, -350, 0.005, 1, 0, 0, 0, False, '200
 /* @teleloc 0x02E70130 [350.000000 -350.000000 0.005000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x702E7019, 0x702E7000, '2005-02-09 10:00:00') /* Extas Raider */
-     , (0x702E7019, 0x702E7001, '2005-02-09 10:00:00') /* Extas Raider */
-     , (0x702E7019, 0x702E7002, '2005-02-09 10:00:00') /* Extas Raider */
-     , (0x702E7019, 0x702E7004, '2005-02-09 10:00:00') /* Extas Raider */
-     , (0x702E7019, 0x702E7007, '2005-02-09 10:00:00') /* Extas Raider */
-     , (0x702E7019, 0x702E7008, '2005-02-09 10:00:00') /* Extas Raider */
-     , (0x702E7019, 0x702E700F, '2005-02-09 10:00:00') /* Extas Raider */
-     , (0x702E7019, 0x702E7014, '2005-02-09 10:00:00') /* Extas Raider */
-     , (0x702E7019, 0x702E7015, '2005-02-09 10:00:00') /* Extas Raider */
-     , (0x702E7019, 0x702E701C, '2005-02-09 10:00:00') /* Extas Raider */
-     , (0x702E7019, 0x702E701D, '2005-02-09 10:00:00') /* Extas Raider */
-     , (0x702E7019, 0x702E701E, '2005-02-09 10:00:00') /* Extas Raider */
-     , (0x702E7019, 0x702E701F, '2005-02-09 10:00:00') /* Extas Raider */
-     , (0x702E7019, 0x702E7020, '2005-02-09 10:00:00') /* Extas Raider */
-     , (0x702E7019, 0x702E7021, '2005-02-09 10:00:00') /* Extas Raider */
-     , (0x702E7019, 0x702E7024, '2005-02-09 10:00:00') /* Extas Raider */
-     , (0x702E7019, 0x702E7025, '2005-02-09 10:00:00') /* Extas Raider */
-     , (0x702E7019, 0x702E7026, '2005-02-09 10:00:00') /* Extas Raider */
-     , (0x702E7019, 0x702E7027, '2005-02-09 10:00:00') /* Extas Raider */
-     , (0x702E7019, 0x702E7028, '2005-02-09 10:00:00') /* Extas Raider */
-     , (0x702E7019, 0x702E7029, '2005-02-09 10:00:00') /* Extas Raider */
-     , (0x702E7019, 0x702E702A, '2005-02-09 10:00:00') /* Extas Raider */
-     , (0x702E7019, 0x702E702B, '2005-02-09 10:00:00') /* Extas Raider */
-     , (0x702E7019, 0x702E702C, '2005-02-09 10:00:00') /* Extas Raider */
-     , (0x702E7019, 0x702E702D, '2005-02-09 10:00:00') /* Extas Raider */
-     , (0x702E7019, 0x702E702F, '2005-02-09 10:00:00') /* Extas Raider */
-     , (0x702E7019, 0x702E7030, '2005-02-09 10:00:00') /* Extas Raider */
-     , (0x702E7019, 0x702E7031, '2005-02-09 10:00:00') /* Extas Raider */
-     , (0x702E7019, 0x702E7032, '2005-02-09 10:00:00') /* Extas Raider */
-     , (0x702E7019, 0x702E7033, '2005-02-09 10:00:00') /* Extas Raider */
-     , (0x702E7019, 0x702E7034, '2005-02-09 10:00:00') /* Extas Raider */
-     , (0x702E7019, 0x702E7035, '2005-02-09 10:00:00') /* Extas Raider */
-     , (0x702E7019, 0x702E7036, '2005-02-09 10:00:00') /* Extas Raider */
-     , (0x702E7019, 0x702E7037, '2005-02-09 10:00:00') /* Extas Raider */
-     , (0x702E7019, 0x702E7038, '2005-02-09 10:00:00') /* Extas Raider */
-     , (0x702E7019, 0x702E7039, '2005-02-09 10:00:00') /* Extas Raider */;
+VALUES (0x702E7019, 0x702E7000, '2005-02-09 10:00:00') /* Extas Raider (7551) */
+     , (0x702E7019, 0x702E7001, '2005-02-09 10:00:00') /* Extas Raider (7551) */
+     , (0x702E7019, 0x702E7002, '2005-02-09 10:00:00') /* Extas Raider (7551) */
+     , (0x702E7019, 0x702E7004, '2005-02-09 10:00:00') /* Extas Raider (7551) */
+     , (0x702E7019, 0x702E7007, '2005-02-09 10:00:00') /* Extas Raider (7551) */
+     , (0x702E7019, 0x702E7008, '2005-02-09 10:00:00') /* Extas Raider (7551) */
+     , (0x702E7019, 0x702E700F, '2005-02-09 10:00:00') /* Extas Raider (7551) */
+     , (0x702E7019, 0x702E7014, '2005-02-09 10:00:00') /* Extas Raider (7551) */
+     , (0x702E7019, 0x702E7015, '2005-02-09 10:00:00') /* Extas Raider (7551) */
+     , (0x702E7019, 0x702E701C, '2005-02-09 10:00:00') /* Extas Raider (7551) */
+     , (0x702E7019, 0x702E701D, '2005-02-09 10:00:00') /* Extas Raider (7551) */
+     , (0x702E7019, 0x702E701E, '2005-02-09 10:00:00') /* Extas Raider (7551) */
+     , (0x702E7019, 0x702E701F, '2005-02-09 10:00:00') /* Extas Raider (7551) */
+     , (0x702E7019, 0x702E7020, '2005-02-09 10:00:00') /* Extas Raider (7551) */
+     , (0x702E7019, 0x702E7021, '2005-02-09 10:00:00') /* Extas Raider (7551) */
+     , (0x702E7019, 0x702E7024, '2005-02-09 10:00:00') /* Extas Raider (7551) */
+     , (0x702E7019, 0x702E7025, '2005-02-09 10:00:00') /* Extas Raider (7551) */
+     , (0x702E7019, 0x702E7026, '2005-02-09 10:00:00') /* Extas Raider (7551) */
+     , (0x702E7019, 0x702E7027, '2005-02-09 10:00:00') /* Extas Raider (7551) */
+     , (0x702E7019, 0x702E7028, '2005-02-09 10:00:00') /* Extas Raider (7551) */
+     , (0x702E7019, 0x702E7029, '2005-02-09 10:00:00') /* Extas Raider (7551) */
+     , (0x702E7019, 0x702E702A, '2005-02-09 10:00:00') /* Extas Raider (7551) */
+     , (0x702E7019, 0x702E702B, '2005-02-09 10:00:00') /* Extas Raider (7551) */
+     , (0x702E7019, 0x702E702C, '2005-02-09 10:00:00') /* Extas Raider (7551) */
+     , (0x702E7019, 0x702E702D, '2005-02-09 10:00:00') /* Extas Raider (7551) */
+     , (0x702E7019, 0x702E702F, '2005-02-09 10:00:00') /* Extas Raider (7551) */
+     , (0x702E7019, 0x702E7030, '2005-02-09 10:00:00') /* Extas Raider (7551) */
+     , (0x702E7019, 0x702E7031, '2005-02-09 10:00:00') /* Extas Raider (7551) */
+     , (0x702E7019, 0x702E7032, '2005-02-09 10:00:00') /* Extas Raider (7551) */
+     , (0x702E7019, 0x702E7033, '2005-02-09 10:00:00') /* Extas Raider (7551) */
+     , (0x702E7019, 0x702E7034, '2005-02-09 10:00:00') /* Extas Raider (7551) */
+     , (0x702E7019, 0x702E7035, '2005-02-09 10:00:00') /* Extas Raider (7551) */
+     , (0x702E7019, 0x702E7036, '2005-02-09 10:00:00') /* Extas Raider (7551) */
+     , (0x702E7019, 0x702E7037, '2005-02-09 10:00:00') /* Extas Raider (7551) */
+     , (0x702E7019, 0x702E7038, '2005-02-09 10:00:00') /* Extas Raider (7551) */
+     , (0x702E7019, 0x702E7039, '2005-02-09 10:00:00') /* Extas Raider (7551) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x702E701A,  7552, 0x02E7013E, 359.74, -420.9, 0.01, 0.242665, 0, 0, 0.97011,  True, '2005-02-09 10:00:00'); /* Gigas Raider */
@@ -293,7 +293,7 @@ VALUES (0x702E703D,  7561, 0x02E70264, 220, -450, 12.005, 0.640997, 0, 0, -0.767
 /* @teleloc 0x02E70264 [220.000000 -450.000000 12.005000] 0.640997 0.000000 0.000000 -0.767544 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x702E703D, 0x702E703C, '2005-02-09 10:00:00') /* Pressure Plate */;
+VALUES (0x702E703D, 0x702E703C, '2005-02-09 10:00:00') /* Pressure Plate (2131) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x702E703E,  7552, 0x02E7026B, 231.679, -477.15, 12.01, 0.995004, 0, 0, 0.099833,  True, '2005-02-09 10:00:00'); /* Gigas Raider */
@@ -324,7 +324,7 @@ VALUES (0x702E7044,  7562, 0x02E7027F, 281.574, -449.967, 12.005, 0.714421, 0, 0
 /* @teleloc 0x02E7027F [281.574000 -449.967000 12.005000] 0.714421 0.000000 0.000000 -0.699716 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x702E7044, 0x702E7043, '2005-02-09 10:00:00') /* Pressure Plate */;
+VALUES (0x702E7044, 0x702E7043, '2005-02-09 10:00:00') /* Pressure Plate (2131) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x702E7045,  7613, 0x02E70282, 510, -10, 12.005, 1, 0, 0, 0, False, '2005-02-09 10:00:00'); /* Surface Portal */
@@ -339,37 +339,37 @@ VALUES (0x702E7047,  3955, 0x02E70290, 20, -550, 18.005, 1, 0, 0, 0, False, '200
 /* @teleloc 0x02E70290 [20.000000 -550.000000 18.005000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x702E7047, 0x702E7005, '2005-02-09 10:00:00') /* Gigas Raider */
-     , (0x702E7047, 0x702E7006, '2005-02-09 10:00:00') /* Gigas Raider */
-     , (0x702E7047, 0x702E7009, '2005-02-09 10:00:00') /* Gigas Raider */
-     , (0x702E7047, 0x702E700A, '2005-02-09 10:00:00') /* Gigas Raider */
-     , (0x702E7047, 0x702E7011, '2005-02-09 10:00:00') /* Extas Raider */
-     , (0x702E7047, 0x702E7012, '2005-02-09 10:00:00') /* Gigas Raider */
-     , (0x702E7047, 0x702E7013, '2005-02-09 10:00:00') /* Gigas Raider */
-     , (0x702E7047, 0x702E7016, '2005-02-09 10:00:00') /* Gigas Raider */
-     , (0x702E7047, 0x702E7017, '2005-02-09 10:00:00') /* Gigas Raider */
-     , (0x702E7047, 0x702E7018, '2005-02-09 10:00:00') /* Gigas Raider */
-     , (0x702E7047, 0x702E701A, '2005-02-09 10:00:00') /* Gigas Raider */
-     , (0x702E7047, 0x702E701B, '2005-02-09 10:00:00') /* Gigas Raider */
-     , (0x702E7047, 0x702E7022, '2005-02-09 10:00:00') /* Gigas Raider */
-     , (0x702E7047, 0x702E7023, '2005-02-09 10:00:00') /* Gigas Raider */
-     , (0x702E7047, 0x702E703B, '2005-02-09 10:00:00') /* Gigas Raider */
-     , (0x702E7047, 0x702E703E, '2005-02-09 10:00:00') /* Gigas Raider */
-     , (0x702E7047, 0x702E703F, '2005-02-09 10:00:00') /* Gigas Raider */
-     , (0x702E7047, 0x702E7040, '2005-02-09 10:00:00') /* Extas Raider */
-     , (0x702E7047, 0x702E7041, '2005-02-09 10:00:00') /* Extas Raider */
-     , (0x702E7047, 0x702E7042, '2005-02-09 10:00:00') /* Gigas Raider */
-     , (0x702E7047, 0x702E7048, '2005-02-09 10:00:00') /* Gigas Raider */
-     , (0x702E7047, 0x702E7049, '2005-02-09 10:00:00') /* Gigas Raider */
-     , (0x702E7047, 0x702E704C, '2005-02-09 10:00:00') /* Gigas Raider */
-     , (0x702E7047, 0x702E704D, '2005-02-09 10:00:00') /* Gigas Raider */
-     , (0x702E7047, 0x702E704E, '2005-02-09 10:00:00') /* Gigas Raider */
-     , (0x702E7047, 0x702E704F, '2005-02-09 10:00:00') /* Gigas Raider */
-     , (0x702E7047, 0x702E7050, '2005-02-09 10:00:00') /* Gigas Raider */
-     , (0x702E7047, 0x702E7053, '2005-02-09 10:00:00') /* Gigas Raider */
-     , (0x702E7047, 0x702E7054, '2005-02-09 10:00:00') /* Gigas Raider */
-     , (0x702E7047, 0x702E7055, '2005-02-09 10:00:00') /* Gigas Raider */
-     , (0x702E7047, 0x702E7056, '2005-02-09 10:00:00') /* Gigas Raider */;
+VALUES (0x702E7047, 0x702E7005, '2005-02-09 10:00:00') /* Gigas Raider (7552) */
+     , (0x702E7047, 0x702E7006, '2005-02-09 10:00:00') /* Gigas Raider (7552) */
+     , (0x702E7047, 0x702E7009, '2005-02-09 10:00:00') /* Gigas Raider (7552) */
+     , (0x702E7047, 0x702E700A, '2005-02-09 10:00:00') /* Gigas Raider (7552) */
+     , (0x702E7047, 0x702E7011, '2005-02-09 10:00:00') /* Extas Raider (7551) */
+     , (0x702E7047, 0x702E7012, '2005-02-09 10:00:00') /* Gigas Raider (7552) */
+     , (0x702E7047, 0x702E7013, '2005-02-09 10:00:00') /* Gigas Raider (7552) */
+     , (0x702E7047, 0x702E7016, '2005-02-09 10:00:00') /* Gigas Raider (7552) */
+     , (0x702E7047, 0x702E7017, '2005-02-09 10:00:00') /* Gigas Raider (7552) */
+     , (0x702E7047, 0x702E7018, '2005-02-09 10:00:00') /* Gigas Raider (7552) */
+     , (0x702E7047, 0x702E701A, '2005-02-09 10:00:00') /* Gigas Raider (7552) */
+     , (0x702E7047, 0x702E701B, '2005-02-09 10:00:00') /* Gigas Raider (7552) */
+     , (0x702E7047, 0x702E7022, '2005-02-09 10:00:00') /* Gigas Raider (7552) */
+     , (0x702E7047, 0x702E7023, '2005-02-09 10:00:00') /* Gigas Raider (7552) */
+     , (0x702E7047, 0x702E703B, '2005-02-09 10:00:00') /* Gigas Raider (7552) */
+     , (0x702E7047, 0x702E703E, '2005-02-09 10:00:00') /* Gigas Raider (7552) */
+     , (0x702E7047, 0x702E703F, '2005-02-09 10:00:00') /* Gigas Raider (7552) */
+     , (0x702E7047, 0x702E7040, '2005-02-09 10:00:00') /* Extas Raider (7551) */
+     , (0x702E7047, 0x702E7041, '2005-02-09 10:00:00') /* Extas Raider (7551) */
+     , (0x702E7047, 0x702E7042, '2005-02-09 10:00:00') /* Gigas Raider (7552) */
+     , (0x702E7047, 0x702E7048, '2005-02-09 10:00:00') /* Gigas Raider (7552) */
+     , (0x702E7047, 0x702E7049, '2005-02-09 10:00:00') /* Gigas Raider (7552) */
+     , (0x702E7047, 0x702E704C, '2005-02-09 10:00:00') /* Gigas Raider (7552) */
+     , (0x702E7047, 0x702E704D, '2005-02-09 10:00:00') /* Gigas Raider (7552) */
+     , (0x702E7047, 0x702E704E, '2005-02-09 10:00:00') /* Gigas Raider (7552) */
+     , (0x702E7047, 0x702E704F, '2005-02-09 10:00:00') /* Gigas Raider (7552) */
+     , (0x702E7047, 0x702E7050, '2005-02-09 10:00:00') /* Gigas Raider (7552) */
+     , (0x702E7047, 0x702E7053, '2005-02-09 10:00:00') /* Gigas Raider (7552) */
+     , (0x702E7047, 0x702E7054, '2005-02-09 10:00:00') /* Gigas Raider (7552) */
+     , (0x702E7047, 0x702E7055, '2005-02-09 10:00:00') /* Gigas Raider (7552) */
+     , (0x702E7047, 0x702E7056, '2005-02-09 10:00:00') /* Gigas Raider (7552) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x702E7048,  7552, 0x02E7029B, 48.4076, -488.959, 18.01, -0.440632, 0, 0, -0.897688,  True, '2005-02-09 10:00:00'); /* Gigas Raider */
@@ -384,7 +384,7 @@ VALUES (0x702E704A,  7561, 0x02E702A2, 70, -500, 18.005, 1, 0, 0, 0, False, '200
 /* @teleloc 0x02E702A2 [70.000000 -500.000000 18.005000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x702E704A, 0x702E704B, '2005-02-09 10:00:00') /* Pressure Plate */;
+VALUES (0x702E704A, 0x702E704B, '2005-02-09 10:00:00') /* Pressure Plate (2131) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x702E704B,  2131, 0x02E702A2, 67, -500, 18.005, 0.714424, 0, 0, -0.699713,  True, '2005-02-09 10:00:00'); /* Pressure Plate */
@@ -419,7 +419,7 @@ VALUES (0x702E7052,  7562, 0x02E702B9, 140, -480.529, 18.005, 1, 0, 0, 0, False,
 /* @teleloc 0x02E702B9 [140.000000 -480.529000 18.005000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x702E7052, 0x702E7051, '2005-02-09 10:00:00') /* Pressure Plate */;
+VALUES (0x702E7052, 0x702E7051, '2005-02-09 10:00:00') /* Pressure Plate (2131) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x702E7053,  7552, 0x02E702BB, 136.299, -499.764, 18.01, 0.698313, 0, 0, 0.715792,  True, '2005-02-09 10:00:00'); /* Gigas Raider */

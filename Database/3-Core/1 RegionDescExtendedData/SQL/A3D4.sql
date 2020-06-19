@@ -1,16 +1,14 @@
-DELETE FROM `encounter` WHERE `landblock` = 41940;
+DELETE FROM `encounter` WHERE `landblock` = 0xA3D4;
 
 INSERT INTO `encounter` (`landblock`, `weenie_Class_Id`, `cell_X`, `cell_Y`, `last_Modified`)
-VALUES (41940, 23158, 0, 3, '2005-02-09 10:00:00') /* Mid North Mountains Tusker Generator */
-     , (41940, 23158, 0, 5, '2005-02-09 10:00:00') /* Mid North Mountains Tusker Generator */
-     , (41940, 23158, 1, 7, '2005-02-09 10:00:00') /* Mid North Mountains Tusker Generator */
-     , (41940, 23158, 2, 1, '2005-02-09 10:00:00') /* Mid North Mountains Tusker Generator */
-     , (41940, 23158, 2, 7, '2005-02-09 10:00:00') /* Mid North Mountains Tusker Generator */
-     , (41940, 23158, 3, 2, '2005-02-09 10:00:00') /* Mid North Mountains Tusker Generator */
-     , (41940, 23158, 3, 3, '2005-02-09 10:00:00') /* Mid North Mountains Tusker Generator */
-     , (41940, 23158, 3, 5, '2005-02-09 10:00:00') /* Mid North Mountains Tusker Generator */
-     , (41940, 23158, 3, 6, '2005-02-09 10:00:00') /* Mid North Mountains Tusker Generator */
-     , (41940, 23158, 3, 7, '2005-02-09 10:00:00') /* Mid North Mountains Tusker Generator */
-     , (41940, 23158, 4, 3, '2005-02-09 10:00:00') /* Mid North Mountains Tusker Generator */
-     , (41940, 23158, 5, 8, '2005-02-09 10:00:00') /* Mid North Mountains Tusker Generator */
-     , (41940, 23158, 7, 8, '2005-02-09 10:00:00') /* Mid North Mountains Tusker Generator */;
+VALUES (0xA3D4, 23158, 0, 3, '2005-02-09 10:00:00') /* Mid North Mountains Tusker Generator */
+     , (0xA3D4, 23158, 0, 5, '2005-02-09 10:00:00') /* Mid North Mountains Tusker Generator */
+     , (0xA3D4, 23158, 1, 7, '2005-02-09 10:00:00') /* Mid North Mountains Tusker Generator */
+     , (0xA3D4, 23158, 2, 1, '2005-02-09 10:00:00') /* Mid North Mountains Tusker Generator */
+     , (0xA3D4, 23158, 2, 7, '2005-02-09 10:00:00') /* Mid North Mountains Tusker Generator */
+     , (0xA3D4, 23158, 3, 2, '2005-02-09 10:00:00') /* Mid North Mountains Tusker Generator */
+     , (0xA3D4, 23158, 3, 3, '2005-02-09 10:00:00') /* Mid North Mountains Tusker Generator */
+     , (0xA3D4, 23158, 3, 5, '2005-02-09 10:00:00') /* Mid North Mountains Tusker Generator */
+     , (0xA3D4, 23158, 3, 6, '2005-02-09 10:00:00') /* Mid North Mountains Tusker Generator */
+     , (0xA3D4, 23158, 3, 7, '2005-02-09 10:00:00') /* Mid North Mountains Tusker Generator */
+     , (0xA3D4, 23158, 4, 3, '2005-02-09 10:00:00') /* Mid North Mountains Tusker Generator */;

@@ -21,10 +21,10 @@ VALUES (0x7B5A3004,  1154, 0xB5A30000, 10.4562, 127.086, 27.9, 0.213569, 0, 0, -
 /* @teleloc 0xB5A30000 [10.456200 127.086000 27.900000] 0.213569 0.000000 0.000000 -0.976928 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B5A3004, 0x7B5A3000, '2005-02-09 10:00:00') /* Drudge Prowler */
-     , (0x7B5A3004, 0x7B5A3001, '2005-02-09 10:00:00') /* Drudge Prowler */
-     , (0x7B5A3004, 0x7B5A3002, '2005-02-09 10:00:00') /* Drudge Prowler */
-     , (0x7B5A3004, 0x7B5A3003, '2005-02-09 10:00:00') /* Drudge Skulker */;
+VALUES (0x7B5A3004, 0x7B5A3000, '2005-02-09 10:00:00') /* Drudge Prowler (192) */
+     , (0x7B5A3004, 0x7B5A3001, '2005-02-09 10:00:00') /* Drudge Prowler (192) */
+     , (0x7B5A3004, 0x7B5A3002, '2005-02-09 10:00:00') /* Drudge Prowler (192) */
+     , (0x7B5A3004, 0x7B5A3003, '2005-02-09 10:00:00') /* Drudge Skulker (7) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B5A3005, 22257, 0xB5A30000, 162.234, 122.528, 27.1, 0.964321, 0, 0, -0.264737,  True, '2005-02-09 10:00:00'); /* Fishing Hole */
@@ -39,14 +39,14 @@ VALUES (0x7B5A3007,  7923, 0xB5A30000, 163.074, 104.047, 27.105, 0.645675, 0, 0,
 /* @teleloc 0xB5A30000 [163.074000 104.047000 27.105000] 0.645675 0.000000 0.000000 -0.763612 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B5A3007, 0x7B5A3005, '2005-02-09 10:00:00') /* Fishing Hole */
-     , (0x7B5A3007, 0x7B5A3006, '2005-02-09 10:00:00') /* Fishing Hole */
-     , (0x7B5A3007, 0x7B5A3008, '2005-02-09 10:00:00') /* Fishing Hole */
-     , (0x7B5A3007, 0x7B5A3009, '2005-02-09 10:00:00') /* Fishing Hole */
-     , (0x7B5A3007, 0x7B5A300A, '2005-02-09 10:00:00') /* Fishing Hole */
-     , (0x7B5A3007, 0x7B5A300B, '2005-02-09 10:00:00') /* Fishing Hole */
-     , (0x7B5A3007, 0x7B5A300C, '2005-02-09 10:00:00') /* Fishing Hole */
-     , (0x7B5A3007, 0x7B5A300D, '2005-02-09 10:00:00') /* Fishing Hole */;
+VALUES (0x7B5A3007, 0x7B5A3005, '2005-02-09 10:00:00') /* Fishing Hole (22257) */
+     , (0x7B5A3007, 0x7B5A3006, '2005-02-09 10:00:00') /* Fishing Hole (22257) */
+     , (0x7B5A3007, 0x7B5A3008, '2005-02-09 10:00:00') /* Fishing Hole (22257) */
+     , (0x7B5A3007, 0x7B5A3009, '2005-02-09 10:00:00') /* Fishing Hole (22257) */
+     , (0x7B5A3007, 0x7B5A300A, '2005-02-09 10:00:00') /* Fishing Hole (22257) */
+     , (0x7B5A3007, 0x7B5A300B, '2005-02-09 10:00:00') /* Fishing Hole (22257) */
+     , (0x7B5A3007, 0x7B5A300C, '2005-02-09 10:00:00') /* Fishing Hole (22257) */
+     , (0x7B5A3007, 0x7B5A300D, '2005-02-09 10:00:00') /* Fishing Hole (22257) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B5A3008, 22257, 0xB5A30000, 162.482, 180.972, 27.105, 0.963628, 0, 0, -0.267247,  True, '2005-02-09 10:00:00'); /* Fishing Hole */

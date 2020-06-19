@@ -29,5 +29,5 @@ VALUES (0x74031006,  7923, 0x40310100, 86.3901, 130.739, 148.005, -0.0243289, 0,
 /* @teleloc 0x40310100 [86.390100 130.739000 148.005000] -0.024329 0.000000 0.000000 -0.999704 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x74031006, 0x74031004, '2005-02-09 10:00:00') /* Black Hill Collector */
-     , (0x74031006, 0x74031005, '2005-02-09 10:00:00') /* Black Hill Trophy Smith */;
+VALUES (0x74031006, 0x74031004, '2005-02-09 10:00:00') /* Black Hill Collector (24215) */
+     , (0x74031006, 0x74031005, '2005-02-09 10:00:00') /* Black Hill Trophy Smith (24216) */;

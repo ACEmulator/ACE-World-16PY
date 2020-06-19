@@ -1,4 +1,4 @@
-DELETE FROM `encounter` WHERE `landblock` = 52791;
+DELETE FROM `encounter` WHERE `landblock` = 0xCE37;
 
 INSERT INTO `encounter` (`landblock`, `weenie_Class_Id`, `cell_X`, `cell_Y`, `last_Modified`)
-VALUES (52791, 23170, 3, 1, '2005-02-09 10:00:00') /* Mid South Mountains Ursuin Generator */;
+VALUES (0xCE37, 23170, 3, 1, '2005-02-09 10:00:00') /* Mid South Mountains Ursuin Generator */;

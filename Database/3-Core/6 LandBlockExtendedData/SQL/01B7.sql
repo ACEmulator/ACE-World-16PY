@@ -173,58 +173,58 @@ VALUES (0x701B7037,  4219, 0x01B701AF, 10, -10, 0.005, 1, 0, 0, 0, False, '2005-
 /* @teleloc 0x01B701AF [10.000000 -10.000000 0.005000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x701B7037, 0x701B7002, '2005-02-09 10:00:00') /* Gnawer Shreth */
-     , (0x701B7037, 0x701B7003, '2005-02-09 10:00:00') /* Gnawer Shreth */
-     , (0x701B7037, 0x701B7006, '2005-02-09 10:00:00') /* Gnawer Shreth */
-     , (0x701B7037, 0x701B700B, '2005-02-09 10:00:00') /* Outcast Monouga */
-     , (0x701B7037, 0x701B7013, '2005-02-09 10:00:00') /* Young Mosswart */
-     , (0x701B7037, 0x701B7014, '2005-02-09 10:00:00') /* Young Mosswart */
-     , (0x701B7037, 0x701B7015, '2005-02-09 10:00:00') /* Young Mosswart */
-     , (0x701B7037, 0x701B7016, '2005-02-09 10:00:00') /* Green Phyntos Wasp */
-     , (0x701B7037, 0x701B7017, '2005-02-09 10:00:00') /* Gnawer Shreth */
-     , (0x701B7037, 0x701B7018, '2005-02-09 10:00:00') /* Gnawer Shreth */
-     , (0x701B7037, 0x701B7019, '2005-02-09 10:00:00') /* Carrion Shreth */
-     , (0x701B7037, 0x701B701B, '2005-02-09 10:00:00') /* Green Phyntos Wasp */
-     , (0x701B7037, 0x701B701E, '2005-02-09 10:00:00') /* Creeper Mosswart */
-     , (0x701B7037, 0x701B701F, '2005-02-09 10:00:00') /* Young Mosswart */
-     , (0x701B7037, 0x701B7020, '2005-02-09 10:00:00') /* Young Mosswart */
-     , (0x701B7037, 0x701B7021, '2005-02-09 10:00:00') /* Green Phyntos Wasp */
-     , (0x701B7037, 0x701B7022, '2005-02-09 10:00:00') /* Creeper Mosswart */
-     , (0x701B7037, 0x701B7023, '2005-02-09 10:00:00') /* Young Mosswart */
-     , (0x701B7037, 0x701B7024, '2005-02-09 10:00:00') /* Young Mosswart */
-     , (0x701B7037, 0x701B7025, '2005-02-09 10:00:00') /* Green Phyntos Wasp */
-     , (0x701B7037, 0x701B7027, '2005-02-09 10:00:00') /* Young Mosswart */
-     , (0x701B7037, 0x701B7029, '2005-02-09 10:00:00') /* Red Phyntos Wasp */
-     , (0x701B7037, 0x701B702A, '2005-02-09 10:00:00') /* Young Mosswart */
-     , (0x701B7037, 0x701B702B, '2005-02-09 10:00:00') /* Young Mosswart */
-     , (0x701B7037, 0x701B702C, '2005-02-09 10:00:00') /* Young Mosswart */
-     , (0x701B7037, 0x701B702E, '2005-02-09 10:00:00') /* Red Phyntos Wasp */
-     , (0x701B7037, 0x701B7030, '2005-02-09 10:00:00') /* Mosswart Feeder */
-     , (0x701B7037, 0x701B7032, '2005-02-09 10:00:00') /* Red Phyntos Wasp */
-     , (0x701B7037, 0x701B7033, '2005-02-09 10:00:00') /* Young Mosswart */
-     , (0x701B7037, 0x701B7034, '2005-02-09 10:00:00') /* Young Mosswart */
-     , (0x701B7037, 0x701B7035, '2005-02-09 10:00:00') /* Young Mosswart */
-     , (0x701B7037, 0x701B7036, '2005-02-09 10:00:00') /* Red Phyntos Wasp */
-     , (0x701B7037, 0x701B7039, '2005-02-09 10:00:00') /* Red Phyntos Wasp */
-     , (0x701B7037, 0x701B703A, '2005-02-09 10:00:00') /* Red Phyntos Wasp */
-     , (0x701B7037, 0x701B703D, '2005-02-09 10:00:00') /* Red Phyntos Wasp */
-     , (0x701B7037, 0x701B703F, '2005-02-09 10:00:00') /* Outcast Monouga */
-     , (0x701B7037, 0x701B7040, '2005-02-09 10:00:00') /* Outcast Monouga */
-     , (0x701B7037, 0x701B7042, '2005-02-09 10:00:00') /* Red Phyntos Wasp */
-     , (0x701B7037, 0x701B7043, '2005-02-09 10:00:00') /* Red Phyntos Wasp */
-     , (0x701B7037, 0x701B7044, '2005-02-09 10:00:00') /* Red Phyntos Wasp */;
+VALUES (0x701B7037, 0x701B7002, '2005-02-09 10:00:00') /* Gnawer Shreth (4108) */
+     , (0x701B7037, 0x701B7003, '2005-02-09 10:00:00') /* Gnawer Shreth (4108) */
+     , (0x701B7037, 0x701B7006, '2005-02-09 10:00:00') /* Gnawer Shreth (4108) */
+     , (0x701B7037, 0x701B700B, '2005-02-09 10:00:00') /* Outcast Monouga (2612) */
+     , (0x701B7037, 0x701B7013, '2005-02-09 10:00:00') /* Young Mosswart (4249) */
+     , (0x701B7037, 0x701B7014, '2005-02-09 10:00:00') /* Young Mosswart (4249) */
+     , (0x701B7037, 0x701B7015, '2005-02-09 10:00:00') /* Young Mosswart (4249) */
+     , (0x701B7037, 0x701B7016, '2005-02-09 10:00:00') /* Green Phyntos Wasp (216) */
+     , (0x701B7037, 0x701B7017, '2005-02-09 10:00:00') /* Gnawer Shreth (4108) */
+     , (0x701B7037, 0x701B7018, '2005-02-09 10:00:00') /* Gnawer Shreth (4108) */
+     , (0x701B7037, 0x701B7019, '2005-02-09 10:00:00') /* Carrion Shreth (4109) */
+     , (0x701B7037, 0x701B701B, '2005-02-09 10:00:00') /* Green Phyntos Wasp (216) */
+     , (0x701B7037, 0x701B701E, '2005-02-09 10:00:00') /* Creeper Mosswart (8) */
+     , (0x701B7037, 0x701B701F, '2005-02-09 10:00:00') /* Young Mosswart (4249) */
+     , (0x701B7037, 0x701B7020, '2005-02-09 10:00:00') /* Young Mosswart (4249) */
+     , (0x701B7037, 0x701B7021, '2005-02-09 10:00:00') /* Green Phyntos Wasp (216) */
+     , (0x701B7037, 0x701B7022, '2005-02-09 10:00:00') /* Creeper Mosswart (8) */
+     , (0x701B7037, 0x701B7023, '2005-02-09 10:00:00') /* Young Mosswart (4249) */
+     , (0x701B7037, 0x701B7024, '2005-02-09 10:00:00') /* Young Mosswart (4249) */
+     , (0x701B7037, 0x701B7025, '2005-02-09 10:00:00') /* Green Phyntos Wasp (216) */
+     , (0x701B7037, 0x701B7027, '2005-02-09 10:00:00') /* Young Mosswart (4249) */
+     , (0x701B7037, 0x701B7029, '2005-02-09 10:00:00') /* Red Phyntos Wasp (12) */
+     , (0x701B7037, 0x701B702A, '2005-02-09 10:00:00') /* Young Mosswart (4249) */
+     , (0x701B7037, 0x701B702B, '2005-02-09 10:00:00') /* Young Mosswart (4249) */
+     , (0x701B7037, 0x701B702C, '2005-02-09 10:00:00') /* Young Mosswart (4249) */
+     , (0x701B7037, 0x701B702E, '2005-02-09 10:00:00') /* Red Phyntos Wasp (12) */
+     , (0x701B7037, 0x701B7030, '2005-02-09 10:00:00') /* Mosswart Feeder (948) */
+     , (0x701B7037, 0x701B7032, '2005-02-09 10:00:00') /* Red Phyntos Wasp (12) */
+     , (0x701B7037, 0x701B7033, '2005-02-09 10:00:00') /* Young Mosswart (4249) */
+     , (0x701B7037, 0x701B7034, '2005-02-09 10:00:00') /* Young Mosswart (4249) */
+     , (0x701B7037, 0x701B7035, '2005-02-09 10:00:00') /* Young Mosswart (4249) */
+     , (0x701B7037, 0x701B7036, '2005-02-09 10:00:00') /* Red Phyntos Wasp (12) */
+     , (0x701B7037, 0x701B7039, '2005-02-09 10:00:00') /* Red Phyntos Wasp (12) */
+     , (0x701B7037, 0x701B703A, '2005-02-09 10:00:00') /* Red Phyntos Wasp (12) */
+     , (0x701B7037, 0x701B703D, '2005-02-09 10:00:00') /* Red Phyntos Wasp (12) */
+     , (0x701B7037, 0x701B703F, '2005-02-09 10:00:00') /* Outcast Monouga (2612) */
+     , (0x701B7037, 0x701B7040, '2005-02-09 10:00:00') /* Outcast Monouga (2612) */
+     , (0x701B7037, 0x701B7042, '2005-02-09 10:00:00') /* Red Phyntos Wasp (12) */
+     , (0x701B7037, 0x701B7043, '2005-02-09 10:00:00') /* Red Phyntos Wasp (12) */
+     , (0x701B7037, 0x701B7044, '2005-02-09 10:00:00') /* Red Phyntos Wasp (12) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x701B7038,  5085, 0x01B701AF, 8.85485, -10, 0.005, 1, 0, 0, 0, False, '2005-02-09 10:00:00'); /* Linkable Item Gen - 25 seconds */
 /* @teleloc 0x01B701AF [8.854850 -10.000000 0.005000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x701B7038, 0x701B7012, '2005-02-09 10:00:00') /* Lou Ka's Trident */
-     , (0x701B7038, 0x701B7026, '2005-02-09 10:00:00') /* Bai Den's Ring */
-     , (0x701B7038, 0x701B7028, '2005-02-09 10:00:00') /* Lou Ka's Katar */
-     , (0x701B7038, 0x701B7031, '2005-02-09 10:00:00') /* Bai Den's Necklace */
-     , (0x701B7038, 0x701B703C, '2005-02-09 10:00:00') /* Lou Ka's Shouken */
-     , (0x701B7038, 0x701B7041, '2005-02-09 10:00:00') /* Bai Den's Bracelet */;
+VALUES (0x701B7038, 0x701B7012, '2005-02-09 10:00:00') /* Lou Ka's Trident (30496) */
+     , (0x701B7038, 0x701B7026, '2005-02-09 10:00:00') /* Bai Den's Ring (30493) */
+     , (0x701B7038, 0x701B7028, '2005-02-09 10:00:00') /* Lou Ka's Katar (30497) */
+     , (0x701B7038, 0x701B7031, '2005-02-09 10:00:00') /* Bai Den's Necklace (30495) */
+     , (0x701B7038, 0x701B703C, '2005-02-09 10:00:00') /* Lou Ka's Shouken (30498) */
+     , (0x701B7038, 0x701B7041, '2005-02-09 10:00:00') /* Bai Den's Bracelet (30494) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x701B7039,    12, 0x01B701BB, 24.7806, -10.7803, 0.055, -0.444781, 0, 0, -0.895639,  True, '2005-02-09 10:00:00'); /* Red Phyntos Wasp */

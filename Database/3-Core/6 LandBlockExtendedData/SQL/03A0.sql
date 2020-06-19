@@ -5,15 +5,15 @@ VALUES (0x703A0001,  7923, 0x03A00133, 89.0539, -90.1345, -23.995, -1, 0, 0, 7.4
 /* @teleloc 0x03A00133 [89.053900 -90.134500 -23.995000] -1.000000 0.000000 0.000000 0.000074 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x703A0001, 0x703A0003, '2005-02-09 10:00:00') /* Singular Lugian Warlord */;
+VALUES (0x703A0001, 0x703A0003, '2005-02-09 10:00:00') /* Singular Lugian Warlord (12249) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x703A0002,  5086, 0x03A00133, 90.3011, -90.3455, -23.995, -0.122653, 0, 0, -0.99245, False, '2005-02-09 10:00:00'); /* Linkable Monster Gen - 30 sec. */
 /* @teleloc 0x03A00133 [90.301100 -90.345500 -23.995000] -0.122653 0.000000 0.000000 -0.992450 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x703A0002, 0x703A0004, '2005-02-09 10:00:00') /* Singular Extas Raider */
-     , (0x703A0002, 0x703A0006, '2005-02-09 10:00:00') /* Singular Extas Raider */;
+VALUES (0x703A0002, 0x703A0004, '2005-02-09 10:00:00') /* Singular Extas Raider (12272) */
+     , (0x703A0002, 0x703A0006, '2005-02-09 10:00:00') /* Singular Extas Raider (12272) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x703A0003, 12249, 0x03A00133, 89.4997, -88.5697, -23.99, -0.00491369, 0, 0, -0.999988,  True, '2005-02-09 10:00:00'); /* Singular Lugian Warlord */
@@ -224,54 +224,54 @@ VALUES (0x703A0039,  7924, 0x03A0027E, 90, -530, 0.005, 1, 0, 0, 0, False, '2005
 /* @teleloc 0x03A0027E [90.000000 -530.000000 0.005000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x703A0039, 0x703A0009, '2005-02-09 10:00:00') /* Singular Virindi Servant */
-     , (0x703A0039, 0x703A000A, '2005-02-09 10:00:00') /* Singular Gigas Raider */
-     , (0x703A0039, 0x703A000B, '2005-02-09 10:00:00') /* Singular Gigas Raider */
-     , (0x703A0039, 0x703A000C, '2005-02-09 10:00:00') /* Singular Virindi Servant */
-     , (0x703A0039, 0x703A000D, '2005-02-09 10:00:00') /* Singular Virindi Servant */
-     , (0x703A0039, 0x703A000E, '2005-02-09 10:00:00') /* Singular Gigas Raider */
-     , (0x703A0039, 0x703A000F, '2005-02-09 10:00:00') /* Singular Gigas Raider */
-     , (0x703A0039, 0x703A0010, '2005-02-09 10:00:00') /* Singular Virindi Servant */
-     , (0x703A0039, 0x703A0012, '2005-02-09 10:00:00') /* Singular Tiatus Raider */
-     , (0x703A0039, 0x703A0013, '2005-02-09 10:00:00') /* Singular Tiatus Raider */
-     , (0x703A0039, 0x703A0014, '2005-02-09 10:00:00') /* Singular Tiatus Raider */
-     , (0x703A0039, 0x703A0015, '2005-02-09 10:00:00') /* Singular Tiatus Raider */
-     , (0x703A0039, 0x703A0016, '2005-02-09 10:00:00') /* Singular Virindi Master */
-     , (0x703A0039, 0x703A0017, '2005-02-09 10:00:00') /* Singular Extas Raider */
-     , (0x703A0039, 0x703A0018, '2005-02-09 10:00:00') /* Singular Extas Raider */
-     , (0x703A0039, 0x703A0019, '2005-02-09 10:00:00') /* Singular Virindi Servant */
-     , (0x703A0039, 0x703A001B, '2005-02-09 10:00:00') /* Singular Gigas Raider */
-     , (0x703A0039, 0x703A001C, '2005-02-09 10:00:00') /* Singular Virindi Servant */
-     , (0x703A0039, 0x703A001D, '2005-02-09 10:00:00') /* Singular Virindi Servant */
-     , (0x703A0039, 0x703A001E, '2005-02-09 10:00:00') /* Singular Virindi Master */
-     , (0x703A0039, 0x703A001F, '2005-02-09 10:00:00') /* Singular Virindi Master */
-     , (0x703A0039, 0x703A0020, '2005-02-09 10:00:00') /* Singular Extas Raider */
-     , (0x703A0039, 0x703A0021, '2005-02-09 10:00:00') /* Singular Extas Raider */
-     , (0x703A0039, 0x703A0022, '2005-02-09 10:00:00') /* Singular Extas Raider */
-     , (0x703A0039, 0x703A0023, '2005-02-09 10:00:00') /* Singular Virindi Master */
-     , (0x703A0039, 0x703A0024, '2005-02-09 10:00:00') /* Singular Virindi Servant */
-     , (0x703A0039, 0x703A0025, '2005-02-09 10:00:00') /* Singular Gigas Raider */
-     , (0x703A0039, 0x703A0026, '2005-02-09 10:00:00') /* Singular Gigas Raider */
-     , (0x703A0039, 0x703A0027, '2005-02-09 10:00:00') /* Singular Gigas Raider */
-     , (0x703A0039, 0x703A0028, '2005-02-09 10:00:00') /* Singular Gigas Raider */
-     , (0x703A0039, 0x703A0029, '2005-02-09 10:00:00') /* Singular Gigas Raider */
-     , (0x703A0039, 0x703A002A, '2005-02-09 10:00:00') /* Singular Gigas Raider */
-     , (0x703A0039, 0x703A002B, '2005-02-09 10:00:00') /* Singular Gigas Raider */
-     , (0x703A0039, 0x703A002C, '2005-02-09 10:00:00') /* Singular Gigas Raider */
-     , (0x703A0039, 0x703A002D, '2005-02-09 10:00:00') /* Singular Gigas Raider */
-     , (0x703A0039, 0x703A002E, '2005-02-09 10:00:00') /* Singular Gigas Raider */
-     , (0x703A0039, 0x703A002F, '2005-02-09 10:00:00') /* Singular Gigas Raider */
-     , (0x703A0039, 0x703A0030, '2005-02-09 10:00:00') /* Singular Gigas Raider */
-     , (0x703A0039, 0x703A0031, '2005-02-09 10:00:00') /* Singular Gigas Raider */
-     , (0x703A0039, 0x703A0032, '2005-02-09 10:00:00') /* Singular Gigas Raider */
-     , (0x703A0039, 0x703A0033, '2005-02-09 10:00:00') /* Singular Gigas Raider */
-     , (0x703A0039, 0x703A0034, '2005-02-09 10:00:00') /* Singular Gigas Raider */
-     , (0x703A0039, 0x703A0035, '2005-02-09 10:00:00') /* Singular Gigas Raider */
-     , (0x703A0039, 0x703A0036, '2005-02-09 10:00:00') /* Singular Gigas Raider */
-     , (0x703A0039, 0x703A0037, '2005-02-09 10:00:00') /* Singular Gigas Raider */
-     , (0x703A0039, 0x703A0038, '2005-02-09 10:00:00') /* Singular Gigas Raider */
-     , (0x703A0039, 0x703A003A, '2005-02-09 10:00:00') /* Singular Gigas Raider */
-     , (0x703A0039, 0x703A003B, '2005-02-09 10:00:00') /* Singular Gigas Raider */;
+VALUES (0x703A0039, 0x703A0009, '2005-02-09 10:00:00') /* Singular Virindi Servant (12300) */
+     , (0x703A0039, 0x703A000A, '2005-02-09 10:00:00') /* Singular Gigas Raider (12273) */
+     , (0x703A0039, 0x703A000B, '2005-02-09 10:00:00') /* Singular Gigas Raider (12273) */
+     , (0x703A0039, 0x703A000C, '2005-02-09 10:00:00') /* Singular Virindi Servant (12300) */
+     , (0x703A0039, 0x703A000D, '2005-02-09 10:00:00') /* Singular Virindi Servant (12300) */
+     , (0x703A0039, 0x703A000E, '2005-02-09 10:00:00') /* Singular Gigas Raider (12273) */
+     , (0x703A0039, 0x703A000F, '2005-02-09 10:00:00') /* Singular Gigas Raider (12273) */
+     , (0x703A0039, 0x703A0010, '2005-02-09 10:00:00') /* Singular Virindi Servant (12300) */
+     , (0x703A0039, 0x703A0012, '2005-02-09 10:00:00') /* Singular Tiatus Raider (12274) */
+     , (0x703A0039, 0x703A0013, '2005-02-09 10:00:00') /* Singular Tiatus Raider (12274) */
+     , (0x703A0039, 0x703A0014, '2005-02-09 10:00:00') /* Singular Tiatus Raider (12274) */
+     , (0x703A0039, 0x703A0015, '2005-02-09 10:00:00') /* Singular Tiatus Raider (12274) */
+     , (0x703A0039, 0x703A0016, '2005-02-09 10:00:00') /* Singular Virindi Master (12299) */
+     , (0x703A0039, 0x703A0017, '2005-02-09 10:00:00') /* Singular Extas Raider (12272) */
+     , (0x703A0039, 0x703A0018, '2005-02-09 10:00:00') /* Singular Extas Raider (12272) */
+     , (0x703A0039, 0x703A0019, '2005-02-09 10:00:00') /* Singular Virindi Servant (12300) */
+     , (0x703A0039, 0x703A001B, '2005-02-09 10:00:00') /* Singular Gigas Raider (12273) */
+     , (0x703A0039, 0x703A001C, '2005-02-09 10:00:00') /* Singular Virindi Servant (12300) */
+     , (0x703A0039, 0x703A001D, '2005-02-09 10:00:00') /* Singular Virindi Servant (12300) */
+     , (0x703A0039, 0x703A001E, '2005-02-09 10:00:00') /* Singular Virindi Master (12299) */
+     , (0x703A0039, 0x703A001F, '2005-02-09 10:00:00') /* Singular Virindi Master (12299) */
+     , (0x703A0039, 0x703A0020, '2005-02-09 10:00:00') /* Singular Extas Raider (12272) */
+     , (0x703A0039, 0x703A0021, '2005-02-09 10:00:00') /* Singular Extas Raider (12272) */
+     , (0x703A0039, 0x703A0022, '2005-02-09 10:00:00') /* Singular Extas Raider (12272) */
+     , (0x703A0039, 0x703A0023, '2005-02-09 10:00:00') /* Singular Virindi Master (12299) */
+     , (0x703A0039, 0x703A0024, '2005-02-09 10:00:00') /* Singular Virindi Servant (12300) */
+     , (0x703A0039, 0x703A0025, '2005-02-09 10:00:00') /* Singular Gigas Raider (12273) */
+     , (0x703A0039, 0x703A0026, '2005-02-09 10:00:00') /* Singular Gigas Raider (12273) */
+     , (0x703A0039, 0x703A0027, '2005-02-09 10:00:00') /* Singular Gigas Raider (12273) */
+     , (0x703A0039, 0x703A0028, '2005-02-09 10:00:00') /* Singular Gigas Raider (12273) */
+     , (0x703A0039, 0x703A0029, '2005-02-09 10:00:00') /* Singular Gigas Raider (12273) */
+     , (0x703A0039, 0x703A002A, '2005-02-09 10:00:00') /* Singular Gigas Raider (12273) */
+     , (0x703A0039, 0x703A002B, '2005-02-09 10:00:00') /* Singular Gigas Raider (12273) */
+     , (0x703A0039, 0x703A002C, '2005-02-09 10:00:00') /* Singular Gigas Raider (12273) */
+     , (0x703A0039, 0x703A002D, '2005-02-09 10:00:00') /* Singular Gigas Raider (12273) */
+     , (0x703A0039, 0x703A002E, '2005-02-09 10:00:00') /* Singular Gigas Raider (12273) */
+     , (0x703A0039, 0x703A002F, '2005-02-09 10:00:00') /* Singular Gigas Raider (12273) */
+     , (0x703A0039, 0x703A0030, '2005-02-09 10:00:00') /* Singular Gigas Raider (12273) */
+     , (0x703A0039, 0x703A0031, '2005-02-09 10:00:00') /* Singular Gigas Raider (12273) */
+     , (0x703A0039, 0x703A0032, '2005-02-09 10:00:00') /* Singular Gigas Raider (12273) */
+     , (0x703A0039, 0x703A0033, '2005-02-09 10:00:00') /* Singular Gigas Raider (12273) */
+     , (0x703A0039, 0x703A0034, '2005-02-09 10:00:00') /* Singular Gigas Raider (12273) */
+     , (0x703A0039, 0x703A0035, '2005-02-09 10:00:00') /* Singular Gigas Raider (12273) */
+     , (0x703A0039, 0x703A0036, '2005-02-09 10:00:00') /* Singular Gigas Raider (12273) */
+     , (0x703A0039, 0x703A0037, '2005-02-09 10:00:00') /* Singular Gigas Raider (12273) */
+     , (0x703A0039, 0x703A0038, '2005-02-09 10:00:00') /* Singular Gigas Raider (12273) */
+     , (0x703A0039, 0x703A003A, '2005-02-09 10:00:00') /* Singular Gigas Raider (12273) */
+     , (0x703A0039, 0x703A003B, '2005-02-09 10:00:00') /* Singular Gigas Raider (12273) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x703A003A, 12273, 0x03A0028A, 108.242, -478.945, 0.01, 0.582994, 0, 0, -0.812477,  True, '2005-02-09 10:00:00'); /* Singular Gigas Raider */

@@ -45,7 +45,7 @@ VALUES (0x7CB5200A,  1154, 0xCB520100, 180.144, 25.7003, 34.805, -0.0384775, 0, 
 /* @teleloc 0xCB520100 [180.144000 25.700300 34.805000] -0.038478 0.000000 0.000000 0.999259 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7CB5200A, 0x7CB52009, '2005-02-09 10:00:00') /* Mosswart Shaman */;
+VALUES (0x7CB5200A, 0x7CB52009, '2005-02-09 10:00:00') /* Mosswart Shaman (1619) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7CB5200B,   420, 0xCB520000, 159.721, 21.0337, 40.005, -0.849534, 0, 0, 0.527534, False, '2005-02-09 10:00:00'); /* Item Food Generator */

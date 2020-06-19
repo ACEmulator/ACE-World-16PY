@@ -17,9 +17,9 @@ VALUES (0x75653003,  7924, 0x56530192, 7.19724, -10.3124, 42.005, -0.709856, 0, 
 /* @teleloc 0x56530192 [7.197240 -10.312400 42.005000] -0.709856 0.000000 0.000000 -0.704347 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x75653003, 0x75653000, '2005-02-09 10:00:00') /* Bookshelf */
-     , (0x75653003, 0x75653001, '2005-02-09 10:00:00') /* Bookshelf */
-     , (0x75653003, 0x75653002, '2005-02-09 10:00:00') /* Bookshelf */;
+VALUES (0x75653003, 0x75653000, '2005-02-09 10:00:00') /* Bookshelf (21485) */
+     , (0x75653003, 0x75653001, '2005-02-09 10:00:00') /* Bookshelf (21486) */
+     , (0x75653003, 0x75653002, '2005-02-09 10:00:00') /* Bookshelf (21487) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7565300F, 21409, 0x565301A4, 23.0127, -9.22269, 48.005, 1, 0, 0, 0.00071, False, '2005-02-09 10:00:00'); /* Fiery Consumption */

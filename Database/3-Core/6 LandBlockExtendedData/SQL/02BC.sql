@@ -109,31 +109,31 @@ VALUES (0x702BC01A,  4219, 0x02BC0145, 113.5, -60.3065, 0.005, 0.581683, 0, 0, 0
 /* @teleloc 0x02BC0145 [113.500000 -60.306500 0.005000] 0.581683 0.000000 0.000000 0.813416 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x702BC01A, 0x702BC000, '2005-02-09 10:00:00') /* Mosswart Zealot */
-     , (0x702BC01A, 0x702BC001, '2005-02-09 10:00:00') /* Mosswart Fanatic */
-     , (0x702BC01A, 0x702BC002, '2005-02-09 10:00:00') /* Shadow Child */
-     , (0x702BC01A, 0x702BC003, '2005-02-09 10:00:00') /* Sandstone Golem */
-     , (0x702BC01A, 0x702BC004, '2005-02-09 10:00:00') /* Mosswart Soul Trapper */
-     , (0x702BC01A, 0x702BC005, '2005-02-09 10:00:00') /* Mosswart Idolator */
-     , (0x702BC01A, 0x702BC006, '2005-02-09 10:00:00') /* Idol */
-     , (0x702BC01A, 0x702BC007, '2005-02-09 10:00:00') /* Mosswart Fanatic */
-     , (0x702BC01A, 0x702BC008, '2005-02-09 10:00:00') /* Mosswart Fanatic */
-     , (0x702BC01A, 0x702BC009, '2005-02-09 10:00:00') /* Mosswart Idolator */
-     , (0x702BC01A, 0x702BC00A, '2005-02-09 10:00:00') /* Mosswart Idolator */
-     , (0x702BC01A, 0x702BC00B, '2005-02-09 10:00:00') /* Mosswart Fanatic */
-     , (0x702BC01A, 0x702BC00C, '2005-02-09 10:00:00') /* Mosswart Fanatic */
-     , (0x702BC01A, 0x702BC00D, '2005-02-09 10:00:00') /* Mosswart Fanatic */
-     , (0x702BC01A, 0x702BC00E, '2005-02-09 10:00:00') /* Mosswart Idolator */
-     , (0x702BC01A, 0x702BC00F, '2005-02-09 10:00:00') /* Mosswart Fanatic */
-     , (0x702BC01A, 0x702BC010, '2005-02-09 10:00:00') /* Mosswart Idolator */
-     , (0x702BC01A, 0x702BC011, '2005-02-09 10:00:00') /* Mosswart Idolator */
-     , (0x702BC01A, 0x702BC012, '2005-02-09 10:00:00') /* Mosswart Fanatic */
-     , (0x702BC01A, 0x702BC013, '2005-02-09 10:00:00') /* Mosswart Fanatic */
-     , (0x702BC01A, 0x702BC015, '2005-02-09 10:00:00') /* Mosswart Idolator */
-     , (0x702BC01A, 0x702BC016, '2005-02-09 10:00:00') /* Mosswart Fanatic */
-     , (0x702BC01A, 0x702BC017, '2005-02-09 10:00:00') /* Mosswart Idolator */
-     , (0x702BC01A, 0x702BC018, '2005-02-09 10:00:00') /* Idol */
-     , (0x702BC01A, 0x702BC019, '2005-02-09 10:00:00') /* Mosswart Idolator */;
+VALUES (0x702BC01A, 0x702BC000, '2005-02-09 10:00:00') /* Mosswart Zealot (8429) */
+     , (0x702BC01A, 0x702BC001, '2005-02-09 10:00:00') /* Mosswart Fanatic (8427) */
+     , (0x702BC01A, 0x702BC002, '2005-02-09 10:00:00') /* Shadow Child (1756) */
+     , (0x702BC01A, 0x702BC003, '2005-02-09 10:00:00') /* Sandstone Golem (202) */
+     , (0x702BC01A, 0x702BC004, '2005-02-09 10:00:00') /* Mosswart Soul Trapper (8430) */
+     , (0x702BC01A, 0x702BC005, '2005-02-09 10:00:00') /* Mosswart Idolator (8428) */
+     , (0x702BC01A, 0x702BC006, '2005-02-09 10:00:00') /* Idol (8466) */
+     , (0x702BC01A, 0x702BC007, '2005-02-09 10:00:00') /* Mosswart Fanatic (8427) */
+     , (0x702BC01A, 0x702BC008, '2005-02-09 10:00:00') /* Mosswart Fanatic (8427) */
+     , (0x702BC01A, 0x702BC009, '2005-02-09 10:00:00') /* Mosswart Idolator (8428) */
+     , (0x702BC01A, 0x702BC00A, '2005-02-09 10:00:00') /* Mosswart Idolator (8428) */
+     , (0x702BC01A, 0x702BC00B, '2005-02-09 10:00:00') /* Mosswart Fanatic (8427) */
+     , (0x702BC01A, 0x702BC00C, '2005-02-09 10:00:00') /* Mosswart Fanatic (8427) */
+     , (0x702BC01A, 0x702BC00D, '2005-02-09 10:00:00') /* Mosswart Fanatic (8427) */
+     , (0x702BC01A, 0x702BC00E, '2005-02-09 10:00:00') /* Mosswart Idolator (8428) */
+     , (0x702BC01A, 0x702BC00F, '2005-02-09 10:00:00') /* Mosswart Fanatic (8427) */
+     , (0x702BC01A, 0x702BC010, '2005-02-09 10:00:00') /* Mosswart Idolator (8428) */
+     , (0x702BC01A, 0x702BC011, '2005-02-09 10:00:00') /* Mosswart Idolator (8428) */
+     , (0x702BC01A, 0x702BC012, '2005-02-09 10:00:00') /* Mosswart Fanatic (8427) */
+     , (0x702BC01A, 0x702BC013, '2005-02-09 10:00:00') /* Mosswart Fanatic (8427) */
+     , (0x702BC01A, 0x702BC015, '2005-02-09 10:00:00') /* Mosswart Idolator (8428) */
+     , (0x702BC01A, 0x702BC016, '2005-02-09 10:00:00') /* Mosswart Fanatic (8427) */
+     , (0x702BC01A, 0x702BC017, '2005-02-09 10:00:00') /* Mosswart Idolator (8428) */
+     , (0x702BC01A, 0x702BC018, '2005-02-09 10:00:00') /* Idol (8466) */
+     , (0x702BC01A, 0x702BC019, '2005-02-09 10:00:00') /* Mosswart Idolator (8428) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x702BC01B,  8487, 0x02BC0147, 122.201, -47.5941, 0.005, 0.925397, 0, 0, -0.378999, False, '2005-02-09 10:00:00'); /* Surface */

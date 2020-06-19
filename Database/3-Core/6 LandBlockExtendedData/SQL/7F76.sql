@@ -9,10 +9,10 @@ VALUES (0x77F76001,  7924, 0x7F760000, 82.9791, 15.6279, 10.005, 0.943096, 0, 0,
 /* @teleloc 0x7F760000 [82.979100 15.627900 10.005000] 0.943096 0.000000 0.000000 -0.332521 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x77F76001, 0x77F76002, '2005-02-09 10:00:00') /* Drudge Slave */
-     , (0x77F76001, 0x77F76003, '2005-02-09 10:00:00') /* Drudge Slave */
-     , (0x77F76001, 0x77F76004, '2005-02-09 10:00:00') /* Drudge Slave */
-     , (0x77F76001, 0x77F76005, '2005-02-09 10:00:00') /* Tumerok Fighter */;
+VALUES (0x77F76001, 0x77F76002, '2005-02-09 10:00:00') /* Drudge Slave (1632) */
+     , (0x77F76001, 0x77F76003, '2005-02-09 10:00:00') /* Drudge Slave (1632) */
+     , (0x77F76001, 0x77F76004, '2005-02-09 10:00:00') /* Drudge Slave (1632) */
+     , (0x77F76001, 0x77F76005, '2005-02-09 10:00:00') /* Tumerok Fighter (4101) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x77F76002,  1632, 0x7F760000, 82.1125, 17.2849, 10.005, 0.910468, 0, 0, -0.413579,  True, '2005-02-09 10:00:00'); /* Drudge Slave */

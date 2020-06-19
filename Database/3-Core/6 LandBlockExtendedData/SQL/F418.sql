@@ -17,9 +17,9 @@ VALUES (0x7F418003,  7925, 0xF4180000, 125.032, 184.679, 99.105, -0.0818356, 0, 
 /* @teleloc 0xF4180000 [125.032000 184.679000 99.105000] -0.081836 0.000000 0.000000 0.996646 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7F418003, 0x7F418001, '2005-02-09 10:00:00') /* Sulthis Eye Stalk */
-     , (0x7F418003, 0x7F418002, '2005-02-09 10:00:00') /* Slithayr Eye Stalk */
-     , (0x7F418003, 0x7F418009, '2005-02-09 10:00:00') /* Slithayr Eye Stalk */;
+VALUES (0x7F418003, 0x7F418001, '2005-02-09 10:00:00') /* Sulthis Eye Stalk (8470) */
+     , (0x7F418003, 0x7F418002, '2005-02-09 10:00:00') /* Slithayr Eye Stalk (4261) */
+     , (0x7F418003, 0x7F418009, '2005-02-09 10:00:00') /* Slithayr Eye Stalk (4261) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7F418004,  8514, 0xF4180115, 33.8706, 18.1776, 191.005, -0.134863, 0, 0, -0.990864, False, '2005-02-09 10:00:00'); /* Mistress' Chest */

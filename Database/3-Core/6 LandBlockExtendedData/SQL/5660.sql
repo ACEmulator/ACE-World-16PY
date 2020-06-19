@@ -37,9 +37,9 @@ VALUES (0x75660009, 15759, 0x56600135, -1.84415, -99.2989, 0.005, 0.384749, 0, 0
 /* @teleloc 0x56600135 [-1.844150 -99.298900 0.005000] 0.384749 0.000000 0.000000 0.923021 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x75660009, 0x75660004, '2005-02-09 10:00:00') /* Gaerlan's Diary */
-     , (0x75660009, 0x75660007, '2005-02-09 10:00:00') /* Tusker Husk */
-     , (0x75660009, 0x7566000A, '2005-02-09 10:00:00') /* Letter for Melanay */;
+VALUES (0x75660009, 0x75660004, '2005-02-09 10:00:00') /* Gaerlan's Diary (20955) */
+     , (0x75660009, 0x75660007, '2005-02-09 10:00:00') /* Tusker Husk (20996) */
+     , (0x75660009, 0x7566000A, '2005-02-09 10:00:00') /* Letter for Melanay (20960) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7566000A, 20960, 0x56600135, -3.99219, -100.817, 1.00188, 0.560456, 0, 0, 0.828184,  True, '2005-02-09 10:00:00'); /* Letter for Melanay */
@@ -90,14 +90,14 @@ VALUES (0x75660015,  7923, 0x5660018D, 150, -10, 0.005, 1, 0, 0, 0, False, '2005
 /* @teleloc 0x5660018D [150.000000 -10.000000 0.005000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x75660015, 0x75660006, '2005-02-09 10:00:00') /* Leandra */
-     , (0x75660015, 0x7566000D, '2005-02-09 10:00:00') /* Julian Bartok */
-     , (0x75660015, 0x75660010, '2005-02-09 10:00:00') /* Josef */
-     , (0x75660015, 0x75660013, '2005-02-09 10:00:00') /* Remmick */
-     , (0x75660015, 0x75660014, '2005-02-09 10:00:00') /* Kira Sojini */
-     , (0x75660015, 0x75660016, '2005-02-09 10:00:00') /* Timon Rae */
-     , (0x75660015, 0x75660019, '2005-02-09 10:00:00') /* Ambrosia Roe */
-     , (0x75660015, 0x7566001A, '2005-02-09 10:00:00') /* Hibdin Velos */;
+VALUES (0x75660015, 0x75660006, '2005-02-09 10:00:00') /* Leandra (20916) */
+     , (0x75660015, 0x7566000D, '2005-02-09 10:00:00') /* Julian Bartok (20914) */
+     , (0x75660015, 0x75660010, '2005-02-09 10:00:00') /* Josef (20913) */
+     , (0x75660015, 0x75660013, '2005-02-09 10:00:00') /* Remmick (20918) */
+     , (0x75660015, 0x75660014, '2005-02-09 10:00:00') /* Kira Sojini (20915) */
+     , (0x75660015, 0x75660016, '2005-02-09 10:00:00') /* Timon Rae (20925) */
+     , (0x75660015, 0x75660019, '2005-02-09 10:00:00') /* Ambrosia Roe (20911) */
+     , (0x75660015, 0x7566001A, '2005-02-09 10:00:00') /* Hibdin Velos (20912) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75660016, 20925, 0x566001A6, 162.679, -42.5244, 0.029, 0.918574, 0, 0, 0.39525,  True, '2005-02-09 10:00:00'); /* Timon Rae */

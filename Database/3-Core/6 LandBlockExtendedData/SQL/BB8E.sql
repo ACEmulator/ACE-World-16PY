@@ -653,477 +653,477 @@ VALUES (0x7BB8E0A5, 10512, 0xBB8E019D, 85.2287, 154.016, 40.005, -0.991481, 0, 0
 /* @teleloc 0xBB8E019D [85.228700 154.016000 40.005000] -0.991481 0.000000 0.000000 -0.130254 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BB8E0A5, 0x7BB8E08E, '2005-02-09 10:00:00') /* Wall Hook */
-     , (0x7BB8E0A5, 0x7BB8E08F, '2005-02-09 10:00:00') /* Wall Hook */
-     , (0x7BB8E0A5, 0x7BB8E090, '2005-02-09 10:00:00') /* Floor Hook */
-     , (0x7BB8E0A5, 0x7BB8E091, '2005-02-09 10:00:00') /* Wall Hook */
-     , (0x7BB8E0A5, 0x7BB8E092, '2005-02-09 10:00:00') /* Wall Hook */
-     , (0x7BB8E0A5, 0x7BB8E093, '2005-02-09 10:00:00') /* Wall Hook */
-     , (0x7BB8E0A5, 0x7BB8E094, '2005-02-09 10:00:00') /* Wall Hook */
-     , (0x7BB8E0A5, 0x7BB8E095, '2005-02-09 10:00:00') /* Floor Hook */
-     , (0x7BB8E0A5, 0x7BB8E096, '2005-02-09 10:00:00') /* Wall Hook */
-     , (0x7BB8E0A5, 0x7BB8E097, '2005-02-09 10:00:00') /* Wall Hook */
-     , (0x7BB8E0A5, 0x7BB8E098, '2005-02-09 10:00:00') /* Floor Hook */
-     , (0x7BB8E0A5, 0x7BB8E099, '2005-02-09 10:00:00') /* Floor Hook */
-     , (0x7BB8E0A5, 0x7BB8E09A, '2005-02-09 10:00:00') /* Wall Hook */
-     , (0x7BB8E0A5, 0x7BB8E09B, '2005-02-09 10:00:00') /* Floor Hook */
-     , (0x7BB8E0A5, 0x7BB8E09C, '2005-02-09 10:00:00') /* Floor Hook */
-     , (0x7BB8E0A5, 0x7BB8E09D, '2005-02-09 10:00:00') /* Ceiling Hook */
-     , (0x7BB8E0A5, 0x7BB8E09F, '2005-02-09 10:00:00') /* Wall Hook */
-     , (0x7BB8E0A5, 0x7BB8E0A2, '2005-02-09 10:00:00') /* Wall Hook */
-     , (0x7BB8E0A5, 0x7BB8E0A3, '2005-02-09 10:00:00') /* Wall Hook */
-     , (0x7BB8E0A5, 0x7BB8E0A4, '2005-02-09 10:00:00') /* Ceiling Hook */
-     , (0x7BB8E0A5, 0x7BB8E0AF, '2005-02-09 10:00:00') /* Villa */
-     , (0x7BB8E0A5, 0x7BB8E0B1, '2005-02-09 10:00:00') /* BootSpot */
-     , (0x7BB8E0A5, 0x7BB8E0B2, '2005-02-09 10:00:00') /* House Portal */
-     , (0x7BB8E0A5, 0x7BB8E1AB, '2005-02-09 10:00:00') /* Wall Hook */
-     , (0x7BB8E0A5, 0x7BB8E1AC, '2005-02-09 10:00:00') /* Ceiling Hook */
-     , (0x7BB8E0A5, 0x7BB8E1AD, '2005-02-09 10:00:00') /* Floor Hook */
-     , (0x7BB8E0A5, 0x7BB8E1AE, '2005-02-09 10:00:00') /* Floor Hook */
-     , (0x7BB8E0A5, 0x7BB8E1AF, '2005-02-09 10:00:00') /* Wall Hook */
-     , (0x7BB8E0A5, 0x7BB8E1B0, '2005-02-09 10:00:00') /* Floor Hook */
-     , (0x7BB8E0A5, 0x7BB8E1B1, '2005-02-09 10:00:00') /* Wall Hook */
-     , (0x7BB8E0A5, 0x7BB8E1B2, '2005-02-09 10:00:00') /* Wall Hook */
-     , (0x7BB8E0A5, 0x7BB8E1B3, '2005-02-09 10:00:00') /* Wall Hook */
-     , (0x7BB8E0A5, 0x7BB8E1B4, '2005-02-09 10:00:00') /* Wall Hook */
-     , (0x7BB8E0A5, 0x7BB8E1B5, '2005-02-09 10:00:00') /* Ceiling Hook */
-     , (0x7BB8E0A5, 0x7BB8E1B6, '2005-02-09 10:00:00') /* Floor Hook */
-     , (0x7BB8E0A5, 0x7BB8E1B7, '2005-02-09 10:00:00') /* Wall Hook */
-     , (0x7BB8E0A5, 0x7BB8E1B8, '2005-02-09 10:00:00') /* Wall Hook */
-     , (0x7BB8E0A5, 0x7BB8E1B9, '2005-02-09 10:00:00') /* Wall Hook */
-     , (0x7BB8E0A5, 0x7BB8E1BA, '2005-02-09 10:00:00') /* Wall Hook */
-     , (0x7BB8E0A5, 0x7BB8E1BB, '2005-02-09 10:00:00') /* Wall Hook */
-     , (0x7BB8E0A5, 0x7BB8E1BC, '2005-02-09 10:00:00') /* Wall Hook */
-     , (0x7BB8E0A5, 0x7BB8E1BD, '2005-02-09 10:00:00') /* Wall Hook */
-     , (0x7BB8E0A5, 0x7BB8E1BE, '2005-02-09 10:00:00') /* Ceiling Hook */
-     , (0x7BB8E0A5, 0x7BB8E1BF, '2005-02-09 10:00:00') /* Floor Hook */
-     , (0x7BB8E0A5, 0x7BB8E1C0, '2005-02-09 10:00:00') /* Floor Hook */
-     , (0x7BB8E0A5, 0x7BB8E1C1, '2005-02-09 10:00:00') /* Floor Hook */
-     , (0x7BB8E0A5, 0x7BB8E1C2, '2005-02-09 10:00:00') /* Wall Hook */
-     , (0x7BB8E0A5, 0x7BB8E1C3, '2005-02-09 10:00:00') /* Wall Hook */
-     , (0x7BB8E0A5, 0x7BB8E1C4, '2005-02-09 10:00:00') /* Wall Hook */
-     , (0x7BB8E0A5, 0x7BB8E1C5, '2005-02-09 10:00:00') /* Wall Hook */
-     , (0x7BB8E0A5, 0x7BB8E1C6, '2005-02-09 10:00:00') /* Wall Hook */
-     , (0x7BB8E0A5, 0x7BB8E1C7, '2005-02-09 10:00:00') /* Wall Hook */
-     , (0x7BB8E0A5, 0x7BB8E1C8, '2005-02-09 10:00:00') /* Wall Hook */
-     , (0x7BB8E0A5, 0x7BB8E1C9, '2005-02-09 10:00:00') /* Wall Hook */
-     , (0x7BB8E0A5, 0x7BB8E1CA, '2005-02-09 10:00:00') /* Wall Hook */
-     , (0x7BB8E0A5, 0x7BB8E1CB, '2005-02-09 10:00:00') /* Floor Hook */
-     , (0x7BB8E0A5, 0x7BB8E1CC, '2005-02-09 10:00:00') /* Wall Hook */
-     , (0x7BB8E0A5, 0x7BB8E1CD, '2005-02-09 10:00:00') /* Wall Hook */
-     , (0x7BB8E0A5, 0x7BB8E1CE, '2005-02-09 10:00:00') /* Ceiling Hook */
-     , (0x7BB8E0A5, 0x7BB8E1CF, '2005-02-09 10:00:00') /* Floor Hook */
-     , (0x7BB8E0A5, 0x7BB8E1D0, '2005-02-09 10:00:00') /* Wall Hook */
-     , (0x7BB8E0A5, 0x7BB8E1D1, '2005-02-09 10:00:00') /* Wall Hook */
-     , (0x7BB8E0A5, 0x7BB8E1D2, '2005-02-09 10:00:00') /* Wall Hook */
-     , (0x7BB8E0A5, 0x7BB8E1D3, '2005-02-09 10:00:00') /* Wall Hook */
-     , (0x7BB8E0A5, 0x7BB8E1D4, '2005-02-09 10:00:00') /* Wall Hook */
-     , (0x7BB8E0A5, 0x7BB8E1D5, '2005-02-09 10:00:00') /* Wall Hook */
-     , (0x7BB8E0A5, 0x7BB8E1D6, '2005-02-09 10:00:00') /* Yard Hook */
-     , (0x7BB8E0A5, 0x7BB8E1D7, '2005-02-09 10:00:00') /* Yard Hook */
-     , (0x7BB8E0A5, 0x7BB8E1D8, '2005-02-09 10:00:00') /* Yard Hook */
-     , (0x7BB8E0A5, 0x7BB8E1D9, '2005-02-09 10:00:00') /* Yard Hook */
-     , (0x7BB8E0A5, 0x7BB8E1DA, '2005-02-09 10:00:00') /* Yard Hook */
-     , (0x7BB8E0A5, 0x7BB8E1DB, '2005-02-09 10:00:00') /* Yard Hook */
-     , (0x7BB8E0A5, 0x7BB8E1DC, '2005-02-09 10:00:00') /* Roof Hook */
-     , (0x7BB8E0A5, 0x7BB8E1DD, '2005-02-09 10:00:00') /* Roof Hook */;
+VALUES (0x7BB8E0A5, 0x7BB8E08E, '2005-02-09 10:00:00') /* Wall Hook (9686) */
+     , (0x7BB8E0A5, 0x7BB8E08F, '2005-02-09 10:00:00') /* Wall Hook (9686) */
+     , (0x7BB8E0A5, 0x7BB8E090, '2005-02-09 10:00:00') /* Floor Hook (11697) */
+     , (0x7BB8E0A5, 0x7BB8E091, '2005-02-09 10:00:00') /* Wall Hook (9686) */
+     , (0x7BB8E0A5, 0x7BB8E092, '2005-02-09 10:00:00') /* Wall Hook (9686) */
+     , (0x7BB8E0A5, 0x7BB8E093, '2005-02-09 10:00:00') /* Wall Hook (9686) */
+     , (0x7BB8E0A5, 0x7BB8E094, '2005-02-09 10:00:00') /* Wall Hook (9686) */
+     , (0x7BB8E0A5, 0x7BB8E095, '2005-02-09 10:00:00') /* Floor Hook (11697) */
+     , (0x7BB8E0A5, 0x7BB8E096, '2005-02-09 10:00:00') /* Wall Hook (9686) */
+     , (0x7BB8E0A5, 0x7BB8E097, '2005-02-09 10:00:00') /* Wall Hook (9686) */
+     , (0x7BB8E0A5, 0x7BB8E098, '2005-02-09 10:00:00') /* Floor Hook (11697) */
+     , (0x7BB8E0A5, 0x7BB8E099, '2005-02-09 10:00:00') /* Floor Hook (11697) */
+     , (0x7BB8E0A5, 0x7BB8E09A, '2005-02-09 10:00:00') /* Wall Hook (9686) */
+     , (0x7BB8E0A5, 0x7BB8E09B, '2005-02-09 10:00:00') /* Floor Hook (11697) */
+     , (0x7BB8E0A5, 0x7BB8E09C, '2005-02-09 10:00:00') /* Floor Hook (11697) */
+     , (0x7BB8E0A5, 0x7BB8E09D, '2005-02-09 10:00:00') /* Ceiling Hook (11698) */
+     , (0x7BB8E0A5, 0x7BB8E09F, '2005-02-09 10:00:00') /* Wall Hook (9686) */
+     , (0x7BB8E0A5, 0x7BB8E0A2, '2005-02-09 10:00:00') /* Wall Hook (9686) */
+     , (0x7BB8E0A5, 0x7BB8E0A3, '2005-02-09 10:00:00') /* Wall Hook (9686) */
+     , (0x7BB8E0A5, 0x7BB8E0A4, '2005-02-09 10:00:00') /* Ceiling Hook (11698) */
+     , (0x7BB8E0A5, 0x7BB8E0AF, '2005-02-09 10:00:00') /* Villa (11717) */
+     , (0x7BB8E0A5, 0x7BB8E0B1, '2005-02-09 10:00:00') /* BootSpot (10707) */
+     , (0x7BB8E0A5, 0x7BB8E0B2, '2005-02-09 10:00:00') /* House Portal (11730) */
+     , (0x7BB8E0A5, 0x7BB8E1AB, '2005-02-09 10:00:00') /* Wall Hook (9686) */
+     , (0x7BB8E0A5, 0x7BB8E1AC, '2005-02-09 10:00:00') /* Ceiling Hook (11698) */
+     , (0x7BB8E0A5, 0x7BB8E1AD, '2005-02-09 10:00:00') /* Floor Hook (11697) */
+     , (0x7BB8E0A5, 0x7BB8E1AE, '2005-02-09 10:00:00') /* Floor Hook (11697) */
+     , (0x7BB8E0A5, 0x7BB8E1AF, '2005-02-09 10:00:00') /* Wall Hook (9686) */
+     , (0x7BB8E0A5, 0x7BB8E1B0, '2005-02-09 10:00:00') /* Floor Hook (11697) */
+     , (0x7BB8E0A5, 0x7BB8E1B1, '2005-02-09 10:00:00') /* Wall Hook (9686) */
+     , (0x7BB8E0A5, 0x7BB8E1B2, '2005-02-09 10:00:00') /* Wall Hook (9686) */
+     , (0x7BB8E0A5, 0x7BB8E1B3, '2005-02-09 10:00:00') /* Wall Hook (9686) */
+     , (0x7BB8E0A5, 0x7BB8E1B4, '2005-02-09 10:00:00') /* Wall Hook (9686) */
+     , (0x7BB8E0A5, 0x7BB8E1B5, '2005-02-09 10:00:00') /* Ceiling Hook (11698) */
+     , (0x7BB8E0A5, 0x7BB8E1B6, '2005-02-09 10:00:00') /* Floor Hook (11697) */
+     , (0x7BB8E0A5, 0x7BB8E1B7, '2005-02-09 10:00:00') /* Wall Hook (9686) */
+     , (0x7BB8E0A5, 0x7BB8E1B8, '2005-02-09 10:00:00') /* Wall Hook (9686) */
+     , (0x7BB8E0A5, 0x7BB8E1B9, '2005-02-09 10:00:00') /* Wall Hook (9686) */
+     , (0x7BB8E0A5, 0x7BB8E1BA, '2005-02-09 10:00:00') /* Wall Hook (9686) */
+     , (0x7BB8E0A5, 0x7BB8E1BB, '2005-02-09 10:00:00') /* Wall Hook (9686) */
+     , (0x7BB8E0A5, 0x7BB8E1BC, '2005-02-09 10:00:00') /* Wall Hook (9686) */
+     , (0x7BB8E0A5, 0x7BB8E1BD, '2005-02-09 10:00:00') /* Wall Hook (9686) */
+     , (0x7BB8E0A5, 0x7BB8E1BE, '2005-02-09 10:00:00') /* Ceiling Hook (11698) */
+     , (0x7BB8E0A5, 0x7BB8E1BF, '2005-02-09 10:00:00') /* Floor Hook (11697) */
+     , (0x7BB8E0A5, 0x7BB8E1C0, '2005-02-09 10:00:00') /* Floor Hook (11697) */
+     , (0x7BB8E0A5, 0x7BB8E1C1, '2005-02-09 10:00:00') /* Floor Hook (11697) */
+     , (0x7BB8E0A5, 0x7BB8E1C2, '2005-02-09 10:00:00') /* Wall Hook (9686) */
+     , (0x7BB8E0A5, 0x7BB8E1C3, '2005-02-09 10:00:00') /* Wall Hook (9686) */
+     , (0x7BB8E0A5, 0x7BB8E1C4, '2005-02-09 10:00:00') /* Wall Hook (9686) */
+     , (0x7BB8E0A5, 0x7BB8E1C5, '2005-02-09 10:00:00') /* Wall Hook (9686) */
+     , (0x7BB8E0A5, 0x7BB8E1C6, '2005-02-09 10:00:00') /* Wall Hook (9686) */
+     , (0x7BB8E0A5, 0x7BB8E1C7, '2005-02-09 10:00:00') /* Wall Hook (9686) */
+     , (0x7BB8E0A5, 0x7BB8E1C8, '2005-02-09 10:00:00') /* Wall Hook (9686) */
+     , (0x7BB8E0A5, 0x7BB8E1C9, '2005-02-09 10:00:00') /* Wall Hook (9686) */
+     , (0x7BB8E0A5, 0x7BB8E1CA, '2005-02-09 10:00:00') /* Wall Hook (9686) */
+     , (0x7BB8E0A5, 0x7BB8E1CB, '2005-02-09 10:00:00') /* Floor Hook (11697) */
+     , (0x7BB8E0A5, 0x7BB8E1CC, '2005-02-09 10:00:00') /* Wall Hook (9686) */
+     , (0x7BB8E0A5, 0x7BB8E1CD, '2005-02-09 10:00:00') /* Wall Hook (9686) */
+     , (0x7BB8E0A5, 0x7BB8E1CE, '2005-02-09 10:00:00') /* Ceiling Hook (11698) */
+     , (0x7BB8E0A5, 0x7BB8E1CF, '2005-02-09 10:00:00') /* Floor Hook (11697) */
+     , (0x7BB8E0A5, 0x7BB8E1D0, '2005-02-09 10:00:00') /* Wall Hook (9686) */
+     , (0x7BB8E0A5, 0x7BB8E1D1, '2005-02-09 10:00:00') /* Wall Hook (9686) */
+     , (0x7BB8E0A5, 0x7BB8E1D2, '2005-02-09 10:00:00') /* Wall Hook (9686) */
+     , (0x7BB8E0A5, 0x7BB8E1D3, '2005-02-09 10:00:00') /* Wall Hook (9686) */
+     , (0x7BB8E0A5, 0x7BB8E1D4, '2005-02-09 10:00:00') /* Wall Hook (9686) */
+     , (0x7BB8E0A5, 0x7BB8E1D5, '2005-02-09 10:00:00') /* Wall Hook (9686) */
+     , (0x7BB8E0A5, 0x7BB8E1D6, '2005-02-09 10:00:00') /* Yard Hook (12679) */
+     , (0x7BB8E0A5, 0x7BB8E1D7, '2005-02-09 10:00:00') /* Yard Hook (12679) */
+     , (0x7BB8E0A5, 0x7BB8E1D8, '2005-02-09 10:00:00') /* Yard Hook (12679) */
+     , (0x7BB8E0A5, 0x7BB8E1D9, '2005-02-09 10:00:00') /* Yard Hook (12679) */
+     , (0x7BB8E0A5, 0x7BB8E1DA, '2005-02-09 10:00:00') /* Yard Hook (12679) */
+     , (0x7BB8E0A5, 0x7BB8E1DB, '2005-02-09 10:00:00') /* Yard Hook (12679) */
+     , (0x7BB8E0A5, 0x7BB8E1DC, '2005-02-09 10:00:00') /* Roof Hook (12678) */
+     , (0x7BB8E0A5, 0x7BB8E1DD, '2005-02-09 10:00:00') /* Roof Hook (12678) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BB8E0A6, 10513, 0xBB8E0181, 154.316, 154.118, 36.005, -0.814241, 0, 0, 0.580527, False, '2005-02-09 10:00:00'); /* Villa */
 /* @teleloc 0xBB8E0181 [154.316000 154.118000 36.005000] -0.814241 0.000000 0.000000 0.580527 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BB8E0A6, 0x7BB8E074, '2005-02-09 10:00:00') /* Wall Hook */
-     , (0x7BB8E0A6, 0x7BB8E075, '2005-02-09 10:00:00') /* Wall Hook */
-     , (0x7BB8E0A6, 0x7BB8E076, '2005-02-09 10:00:00') /* Floor Hook */
-     , (0x7BB8E0A6, 0x7BB8E077, '2005-02-09 10:00:00') /* Wall Hook */
-     , (0x7BB8E0A6, 0x7BB8E078, '2005-02-09 10:00:00') /* Wall Hook */
-     , (0x7BB8E0A6, 0x7BB8E079, '2005-02-09 10:00:00') /* Wall Hook */
-     , (0x7BB8E0A6, 0x7BB8E07A, '2005-02-09 10:00:00') /* Wall Hook */
-     , (0x7BB8E0A6, 0x7BB8E07B, '2005-02-09 10:00:00') /* Floor Hook */
-     , (0x7BB8E0A6, 0x7BB8E07C, '2005-02-09 10:00:00') /* Wall Hook */
-     , (0x7BB8E0A6, 0x7BB8E07D, '2005-02-09 10:00:00') /* Wall Hook */
-     , (0x7BB8E0A6, 0x7BB8E07E, '2005-02-09 10:00:00') /* Floor Hook */
-     , (0x7BB8E0A6, 0x7BB8E07F, '2005-02-09 10:00:00') /* Floor Hook */
-     , (0x7BB8E0A6, 0x7BB8E080, '2005-02-09 10:00:00') /* Wall Hook */
-     , (0x7BB8E0A6, 0x7BB8E081, '2005-02-09 10:00:00') /* Floor Hook */
-     , (0x7BB8E0A6, 0x7BB8E082, '2005-02-09 10:00:00') /* Floor Hook */
-     , (0x7BB8E0A6, 0x7BB8E083, '2005-02-09 10:00:00') /* Ceiling Hook */
-     , (0x7BB8E0A6, 0x7BB8E085, '2005-02-09 10:00:00') /* Wall Hook */
-     , (0x7BB8E0A6, 0x7BB8E088, '2005-02-09 10:00:00') /* Wall Hook */
-     , (0x7BB8E0A6, 0x7BB8E089, '2005-02-09 10:00:00') /* Wall Hook */
-     , (0x7BB8E0A6, 0x7BB8E08A, '2005-02-09 10:00:00') /* Ceiling Hook */
-     , (0x7BB8E0A6, 0x7BB8E0B0, '2005-02-09 10:00:00') /* Villa */
-     , (0x7BB8E0A6, 0x7BB8E0B1, '2005-02-09 10:00:00') /* BootSpot */
-     , (0x7BB8E0A6, 0x7BB8E0B3, '2005-02-09 10:00:00') /* House Portal */
-     , (0x7BB8E0A6, 0x7BB8E178, '2005-02-09 10:00:00') /* Wall Hook */
-     , (0x7BB8E0A6, 0x7BB8E179, '2005-02-09 10:00:00') /* Ceiling Hook */
-     , (0x7BB8E0A6, 0x7BB8E17A, '2005-02-09 10:00:00') /* Floor Hook */
-     , (0x7BB8E0A6, 0x7BB8E17B, '2005-02-09 10:00:00') /* Floor Hook */
-     , (0x7BB8E0A6, 0x7BB8E17C, '2005-02-09 10:00:00') /* Wall Hook */
-     , (0x7BB8E0A6, 0x7BB8E17D, '2005-02-09 10:00:00') /* Floor Hook */
-     , (0x7BB8E0A6, 0x7BB8E17E, '2005-02-09 10:00:00') /* Wall Hook */
-     , (0x7BB8E0A6, 0x7BB8E17F, '2005-02-09 10:00:00') /* Wall Hook */
-     , (0x7BB8E0A6, 0x7BB8E180, '2005-02-09 10:00:00') /* Wall Hook */
-     , (0x7BB8E0A6, 0x7BB8E181, '2005-02-09 10:00:00') /* Wall Hook */
-     , (0x7BB8E0A6, 0x7BB8E182, '2005-02-09 10:00:00') /* Ceiling Hook */
-     , (0x7BB8E0A6, 0x7BB8E183, '2005-02-09 10:00:00') /* Floor Hook */
-     , (0x7BB8E0A6, 0x7BB8E184, '2005-02-09 10:00:00') /* Wall Hook */
-     , (0x7BB8E0A6, 0x7BB8E185, '2005-02-09 10:00:00') /* Wall Hook */
-     , (0x7BB8E0A6, 0x7BB8E186, '2005-02-09 10:00:00') /* Wall Hook */
-     , (0x7BB8E0A6, 0x7BB8E187, '2005-02-09 10:00:00') /* Wall Hook */
-     , (0x7BB8E0A6, 0x7BB8E188, '2005-02-09 10:00:00') /* Wall Hook */
-     , (0x7BB8E0A6, 0x7BB8E189, '2005-02-09 10:00:00') /* Wall Hook */
-     , (0x7BB8E0A6, 0x7BB8E18A, '2005-02-09 10:00:00') /* Wall Hook */
-     , (0x7BB8E0A6, 0x7BB8E18B, '2005-02-09 10:00:00') /* Ceiling Hook */
-     , (0x7BB8E0A6, 0x7BB8E18C, '2005-02-09 10:00:00') /* Floor Hook */
-     , (0x7BB8E0A6, 0x7BB8E18D, '2005-02-09 10:00:00') /* Floor Hook */
-     , (0x7BB8E0A6, 0x7BB8E18E, '2005-02-09 10:00:00') /* Floor Hook */
-     , (0x7BB8E0A6, 0x7BB8E18F, '2005-02-09 10:00:00') /* Wall Hook */
-     , (0x7BB8E0A6, 0x7BB8E190, '2005-02-09 10:00:00') /* Wall Hook */
-     , (0x7BB8E0A6, 0x7BB8E191, '2005-02-09 10:00:00') /* Wall Hook */
-     , (0x7BB8E0A6, 0x7BB8E192, '2005-02-09 10:00:00') /* Wall Hook */
-     , (0x7BB8E0A6, 0x7BB8E193, '2005-02-09 10:00:00') /* Wall Hook */
-     , (0x7BB8E0A6, 0x7BB8E194, '2005-02-09 10:00:00') /* Wall Hook */
-     , (0x7BB8E0A6, 0x7BB8E195, '2005-02-09 10:00:00') /* Wall Hook */
-     , (0x7BB8E0A6, 0x7BB8E196, '2005-02-09 10:00:00') /* Wall Hook */
-     , (0x7BB8E0A6, 0x7BB8E197, '2005-02-09 10:00:00') /* Wall Hook */
-     , (0x7BB8E0A6, 0x7BB8E198, '2005-02-09 10:00:00') /* Floor Hook */
-     , (0x7BB8E0A6, 0x7BB8E199, '2005-02-09 10:00:00') /* Wall Hook */
-     , (0x7BB8E0A6, 0x7BB8E19A, '2005-02-09 10:00:00') /* Wall Hook */
-     , (0x7BB8E0A6, 0x7BB8E19B, '2005-02-09 10:00:00') /* Ceiling Hook */
-     , (0x7BB8E0A6, 0x7BB8E19C, '2005-02-09 10:00:00') /* Floor Hook */
-     , (0x7BB8E0A6, 0x7BB8E19D, '2005-02-09 10:00:00') /* Wall Hook */
-     , (0x7BB8E0A6, 0x7BB8E19E, '2005-02-09 10:00:00') /* Wall Hook */
-     , (0x7BB8E0A6, 0x7BB8E19F, '2005-02-09 10:00:00') /* Wall Hook */
-     , (0x7BB8E0A6, 0x7BB8E1A0, '2005-02-09 10:00:00') /* Wall Hook */
-     , (0x7BB8E0A6, 0x7BB8E1A1, '2005-02-09 10:00:00') /* Wall Hook */
-     , (0x7BB8E0A6, 0x7BB8E1A2, '2005-02-09 10:00:00') /* Wall Hook */
-     , (0x7BB8E0A6, 0x7BB8E1A3, '2005-02-09 10:00:00') /* Yard Hook */
-     , (0x7BB8E0A6, 0x7BB8E1A4, '2005-02-09 10:00:00') /* Yard Hook */
-     , (0x7BB8E0A6, 0x7BB8E1A5, '2005-02-09 10:00:00') /* Yard Hook */
-     , (0x7BB8E0A6, 0x7BB8E1A6, '2005-02-09 10:00:00') /* Yard Hook */
-     , (0x7BB8E0A6, 0x7BB8E1A7, '2005-02-09 10:00:00') /* Yard Hook */
-     , (0x7BB8E0A6, 0x7BB8E1A8, '2005-02-09 10:00:00') /* Yard Hook */
-     , (0x7BB8E0A6, 0x7BB8E1A9, '2005-02-09 10:00:00') /* Roof Hook */
-     , (0x7BB8E0A6, 0x7BB8E1AA, '2005-02-09 10:00:00') /* Roof Hook */;
+VALUES (0x7BB8E0A6, 0x7BB8E074, '2005-02-09 10:00:00') /* Wall Hook (9686) */
+     , (0x7BB8E0A6, 0x7BB8E075, '2005-02-09 10:00:00') /* Wall Hook (9686) */
+     , (0x7BB8E0A6, 0x7BB8E076, '2005-02-09 10:00:00') /* Floor Hook (11697) */
+     , (0x7BB8E0A6, 0x7BB8E077, '2005-02-09 10:00:00') /* Wall Hook (9686) */
+     , (0x7BB8E0A6, 0x7BB8E078, '2005-02-09 10:00:00') /* Wall Hook (9686) */
+     , (0x7BB8E0A6, 0x7BB8E079, '2005-02-09 10:00:00') /* Wall Hook (9686) */
+     , (0x7BB8E0A6, 0x7BB8E07A, '2005-02-09 10:00:00') /* Wall Hook (9686) */
+     , (0x7BB8E0A6, 0x7BB8E07B, '2005-02-09 10:00:00') /* Floor Hook (11697) */
+     , (0x7BB8E0A6, 0x7BB8E07C, '2005-02-09 10:00:00') /* Wall Hook (9686) */
+     , (0x7BB8E0A6, 0x7BB8E07D, '2005-02-09 10:00:00') /* Wall Hook (9686) */
+     , (0x7BB8E0A6, 0x7BB8E07E, '2005-02-09 10:00:00') /* Floor Hook (11697) */
+     , (0x7BB8E0A6, 0x7BB8E07F, '2005-02-09 10:00:00') /* Floor Hook (11697) */
+     , (0x7BB8E0A6, 0x7BB8E080, '2005-02-09 10:00:00') /* Wall Hook (9686) */
+     , (0x7BB8E0A6, 0x7BB8E081, '2005-02-09 10:00:00') /* Floor Hook (11697) */
+     , (0x7BB8E0A6, 0x7BB8E082, '2005-02-09 10:00:00') /* Floor Hook (11697) */
+     , (0x7BB8E0A6, 0x7BB8E083, '2005-02-09 10:00:00') /* Ceiling Hook (11698) */
+     , (0x7BB8E0A6, 0x7BB8E085, '2005-02-09 10:00:00') /* Wall Hook (9686) */
+     , (0x7BB8E0A6, 0x7BB8E088, '2005-02-09 10:00:00') /* Wall Hook (9686) */
+     , (0x7BB8E0A6, 0x7BB8E089, '2005-02-09 10:00:00') /* Wall Hook (9686) */
+     , (0x7BB8E0A6, 0x7BB8E08A, '2005-02-09 10:00:00') /* Ceiling Hook (11698) */
+     , (0x7BB8E0A6, 0x7BB8E0B0, '2005-02-09 10:00:00') /* Villa (11717) */
+     , (0x7BB8E0A6, 0x7BB8E0B1, '2005-02-09 10:00:00') /* BootSpot (10707) */
+     , (0x7BB8E0A6, 0x7BB8E0B3, '2005-02-09 10:00:00') /* House Portal (11730) */
+     , (0x7BB8E0A6, 0x7BB8E178, '2005-02-09 10:00:00') /* Wall Hook (9686) */
+     , (0x7BB8E0A6, 0x7BB8E179, '2005-02-09 10:00:00') /* Ceiling Hook (11698) */
+     , (0x7BB8E0A6, 0x7BB8E17A, '2005-02-09 10:00:00') /* Floor Hook (11697) */
+     , (0x7BB8E0A6, 0x7BB8E17B, '2005-02-09 10:00:00') /* Floor Hook (11697) */
+     , (0x7BB8E0A6, 0x7BB8E17C, '2005-02-09 10:00:00') /* Wall Hook (9686) */
+     , (0x7BB8E0A6, 0x7BB8E17D, '2005-02-09 10:00:00') /* Floor Hook (11697) */
+     , (0x7BB8E0A6, 0x7BB8E17E, '2005-02-09 10:00:00') /* Wall Hook (9686) */
+     , (0x7BB8E0A6, 0x7BB8E17F, '2005-02-09 10:00:00') /* Wall Hook (9686) */
+     , (0x7BB8E0A6, 0x7BB8E180, '2005-02-09 10:00:00') /* Wall Hook (9686) */
+     , (0x7BB8E0A6, 0x7BB8E181, '2005-02-09 10:00:00') /* Wall Hook (9686) */
+     , (0x7BB8E0A6, 0x7BB8E182, '2005-02-09 10:00:00') /* Ceiling Hook (11698) */
+     , (0x7BB8E0A6, 0x7BB8E183, '2005-02-09 10:00:00') /* Floor Hook (11697) */
+     , (0x7BB8E0A6, 0x7BB8E184, '2005-02-09 10:00:00') /* Wall Hook (9686) */
+     , (0x7BB8E0A6, 0x7BB8E185, '2005-02-09 10:00:00') /* Wall Hook (9686) */
+     , (0x7BB8E0A6, 0x7BB8E186, '2005-02-09 10:00:00') /* Wall Hook (9686) */
+     , (0x7BB8E0A6, 0x7BB8E187, '2005-02-09 10:00:00') /* Wall Hook (9686) */
+     , (0x7BB8E0A6, 0x7BB8E188, '2005-02-09 10:00:00') /* Wall Hook (9686) */
+     , (0x7BB8E0A6, 0x7BB8E189, '2005-02-09 10:00:00') /* Wall Hook (9686) */
+     , (0x7BB8E0A6, 0x7BB8E18A, '2005-02-09 10:00:00') /* Wall Hook (9686) */
+     , (0x7BB8E0A6, 0x7BB8E18B, '2005-02-09 10:00:00') /* Ceiling Hook (11698) */
+     , (0x7BB8E0A6, 0x7BB8E18C, '2005-02-09 10:00:00') /* Floor Hook (11697) */
+     , (0x7BB8E0A6, 0x7BB8E18D, '2005-02-09 10:00:00') /* Floor Hook (11697) */
+     , (0x7BB8E0A6, 0x7BB8E18E, '2005-02-09 10:00:00') /* Floor Hook (11697) */
+     , (0x7BB8E0A6, 0x7BB8E18F, '2005-02-09 10:00:00') /* Wall Hook (9686) */
+     , (0x7BB8E0A6, 0x7BB8E190, '2005-02-09 10:00:00') /* Wall Hook (9686) */
+     , (0x7BB8E0A6, 0x7BB8E191, '2005-02-09 10:00:00') /* Wall Hook (9686) */
+     , (0x7BB8E0A6, 0x7BB8E192, '2005-02-09 10:00:00') /* Wall Hook (9686) */
+     , (0x7BB8E0A6, 0x7BB8E193, '2005-02-09 10:00:00') /* Wall Hook (9686) */
+     , (0x7BB8E0A6, 0x7BB8E194, '2005-02-09 10:00:00') /* Wall Hook (9686) */
+     , (0x7BB8E0A6, 0x7BB8E195, '2005-02-09 10:00:00') /* Wall Hook (9686) */
+     , (0x7BB8E0A6, 0x7BB8E196, '2005-02-09 10:00:00') /* Wall Hook (9686) */
+     , (0x7BB8E0A6, 0x7BB8E197, '2005-02-09 10:00:00') /* Wall Hook (9686) */
+     , (0x7BB8E0A6, 0x7BB8E198, '2005-02-09 10:00:00') /* Floor Hook (11697) */
+     , (0x7BB8E0A6, 0x7BB8E199, '2005-02-09 10:00:00') /* Wall Hook (9686) */
+     , (0x7BB8E0A6, 0x7BB8E19A, '2005-02-09 10:00:00') /* Wall Hook (9686) */
+     , (0x7BB8E0A6, 0x7BB8E19B, '2005-02-09 10:00:00') /* Ceiling Hook (11698) */
+     , (0x7BB8E0A6, 0x7BB8E19C, '2005-02-09 10:00:00') /* Floor Hook (11697) */
+     , (0x7BB8E0A6, 0x7BB8E19D, '2005-02-09 10:00:00') /* Wall Hook (9686) */
+     , (0x7BB8E0A6, 0x7BB8E19E, '2005-02-09 10:00:00') /* Wall Hook (9686) */
+     , (0x7BB8E0A6, 0x7BB8E19F, '2005-02-09 10:00:00') /* Wall Hook (9686) */
+     , (0x7BB8E0A6, 0x7BB8E1A0, '2005-02-09 10:00:00') /* Wall Hook (9686) */
+     , (0x7BB8E0A6, 0x7BB8E1A1, '2005-02-09 10:00:00') /* Wall Hook (9686) */
+     , (0x7BB8E0A6, 0x7BB8E1A2, '2005-02-09 10:00:00') /* Wall Hook (9686) */
+     , (0x7BB8E0A6, 0x7BB8E1A3, '2005-02-09 10:00:00') /* Yard Hook (12679) */
+     , (0x7BB8E0A6, 0x7BB8E1A4, '2005-02-09 10:00:00') /* Yard Hook (12679) */
+     , (0x7BB8E0A6, 0x7BB8E1A5, '2005-02-09 10:00:00') /* Yard Hook (12679) */
+     , (0x7BB8E0A6, 0x7BB8E1A6, '2005-02-09 10:00:00') /* Yard Hook (12679) */
+     , (0x7BB8E0A6, 0x7BB8E1A7, '2005-02-09 10:00:00') /* Yard Hook (12679) */
+     , (0x7BB8E0A6, 0x7BB8E1A8, '2005-02-09 10:00:00') /* Yard Hook (12679) */
+     , (0x7BB8E0A6, 0x7BB8E1A9, '2005-02-09 10:00:00') /* Roof Hook (12678) */
+     , (0x7BB8E0A6, 0x7BB8E1AA, '2005-02-09 10:00:00') /* Roof Hook (12678) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BB8E0A7, 10514, 0xBB8E0131, 162.888, 89.7302, 48.005, -0.487049, 0, 0, 0.873375, False, '2005-02-09 10:00:00'); /* Villa */
 /* @teleloc 0xBB8E0131 [162.888000 89.730200 48.005000] -0.487049 0.000000 0.000000 0.873375 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BB8E0A7, 0x7BB8E01D, '2005-02-09 10:00:00') /* Floor Hook */
-     , (0x7BB8E0A7, 0x7BB8E01E, '2005-02-09 10:00:00') /* Wall Hook */
-     , (0x7BB8E0A7, 0x7BB8E01F, '2005-02-09 10:00:00') /* Wall Hook */
-     , (0x7BB8E0A7, 0x7BB8E021, '2005-02-09 10:00:00') /* Wall Hook */
-     , (0x7BB8E0A7, 0x7BB8E022, '2005-02-09 10:00:00') /* Wall Hook */
-     , (0x7BB8E0A7, 0x7BB8E024, '2005-02-09 10:00:00') /* Wall Hook */
-     , (0x7BB8E0A7, 0x7BB8E025, '2005-02-09 10:00:00') /* Floor Hook */
-     , (0x7BB8E0A7, 0x7BB8E026, '2005-02-09 10:00:00') /* Floor Hook */
-     , (0x7BB8E0A7, 0x7BB8E027, '2005-02-09 10:00:00') /* Wall Hook */
-     , (0x7BB8E0A7, 0x7BB8E028, '2005-02-09 10:00:00') /* Wall Hook */
-     , (0x7BB8E0A7, 0x7BB8E029, '2005-02-09 10:00:00') /* Floor Hook */
-     , (0x7BB8E0A7, 0x7BB8E02A, '2005-02-09 10:00:00') /* Floor Hook */
-     , (0x7BB8E0A7, 0x7BB8E02B, '2005-02-09 10:00:00') /* Floor Hook */
-     , (0x7BB8E0A7, 0x7BB8E02C, '2005-02-09 10:00:00') /* Ceiling Hook */
-     , (0x7BB8E0A7, 0x7BB8E02D, '2005-02-09 10:00:00') /* Wall Hook */
-     , (0x7BB8E0A7, 0x7BB8E02E, '2005-02-09 10:00:00') /* Wall Hook */
-     , (0x7BB8E0A7, 0x7BB8E02F, '2005-02-09 10:00:00') /* Wall Hook */
-     , (0x7BB8E0A7, 0x7BB8E030, '2005-02-09 10:00:00') /* Wall Hook */
-     , (0x7BB8E0A7, 0x7BB8E032, '2005-02-09 10:00:00') /* Wall Hook */
-     , (0x7BB8E0A7, 0x7BB8E033, '2005-02-09 10:00:00') /* Ceiling Hook */
-     , (0x7BB8E0A7, 0x7BB8E034, '2005-02-09 10:00:00') /* Wall Hook */
-     , (0x7BB8E0A7, 0x7BB8E035, '2005-02-09 10:00:00') /* Wall Hook */
-     , (0x7BB8E0A7, 0x7BB8E037, '2005-02-09 10:00:00') /* Wall Hook */
-     , (0x7BB8E0A7, 0x7BB8E0AB, '2005-02-09 10:00:00') /* Villa */
-     , (0x7BB8E0A7, 0x7BB8E0B1, '2005-02-09 10:00:00') /* BootSpot */
-     , (0x7BB8E0A7, 0x7BB8E0B4, '2005-02-09 10:00:00') /* House Portal */
-     , (0x7BB8E0A7, 0x7BB8E0E7, '2005-02-09 10:00:00') /* Wall Hook */
-     , (0x7BB8E0A7, 0x7BB8E0E8, '2005-02-09 10:00:00') /* Ceiling Hook */
-     , (0x7BB8E0A7, 0x7BB8E0E9, '2005-02-09 10:00:00') /* Floor Hook */
-     , (0x7BB8E0A7, 0x7BB8E0EA, '2005-02-09 10:00:00') /* Floor Hook */
-     , (0x7BB8E0A7, 0x7BB8E0EB, '2005-02-09 10:00:00') /* Wall Hook */
-     , (0x7BB8E0A7, 0x7BB8E0EC, '2005-02-09 10:00:00') /* Wall Hook */
-     , (0x7BB8E0A7, 0x7BB8E0ED, '2005-02-09 10:00:00') /* Wall Hook */
-     , (0x7BB8E0A7, 0x7BB8E0EE, '2005-02-09 10:00:00') /* Wall Hook */
-     , (0x7BB8E0A7, 0x7BB8E0EF, '2005-02-09 10:00:00') /* Floor Hook */
-     , (0x7BB8E0A7, 0x7BB8E0F0, '2005-02-09 10:00:00') /* Wall Hook */
-     , (0x7BB8E0A7, 0x7BB8E0F1, '2005-02-09 10:00:00') /* Wall Hook */
-     , (0x7BB8E0A7, 0x7BB8E0F2, '2005-02-09 10:00:00') /* Wall Hook */
-     , (0x7BB8E0A7, 0x7BB8E0F3, '2005-02-09 10:00:00') /* Wall Hook */
-     , (0x7BB8E0A7, 0x7BB8E0F4, '2005-02-09 10:00:00') /* Wall Hook */
-     , (0x7BB8E0A7, 0x7BB8E0F5, '2005-02-09 10:00:00') /* Wall Hook */
-     , (0x7BB8E0A7, 0x7BB8E0F6, '2005-02-09 10:00:00') /* Wall Hook */
-     , (0x7BB8E0A7, 0x7BB8E0F7, '2005-02-09 10:00:00') /* Wall Hook */
-     , (0x7BB8E0A7, 0x7BB8E0F8, '2005-02-09 10:00:00') /* Wall Hook */
-     , (0x7BB8E0A7, 0x7BB8E0F9, '2005-02-09 10:00:00') /* Ceiling Hook */
-     , (0x7BB8E0A7, 0x7BB8E0FA, '2005-02-09 10:00:00') /* Ceiling Hook */
-     , (0x7BB8E0A7, 0x7BB8E0FB, '2005-02-09 10:00:00') /* Floor Hook */
-     , (0x7BB8E0A7, 0x7BB8E0FC, '2005-02-09 10:00:00') /* Wall Hook */
-     , (0x7BB8E0A7, 0x7BB8E0FD, '2005-02-09 10:00:00') /* Wall Hook */
-     , (0x7BB8E0A7, 0x7BB8E0FE, '2005-02-09 10:00:00') /* Floor Hook */
-     , (0x7BB8E0A7, 0x7BB8E0FF, '2005-02-09 10:00:00') /* Wall Hook */
-     , (0x7BB8E0A7, 0x7BB8E100, '2005-02-09 10:00:00') /* Wall Hook */
-     , (0x7BB8E0A7, 0x7BB8E101, '2005-02-09 10:00:00') /* Wall Hook */
-     , (0x7BB8E0A7, 0x7BB8E102, '2005-02-09 10:00:00') /* Floor Hook */
-     , (0x7BB8E0A7, 0x7BB8E103, '2005-02-09 10:00:00') /* Ceiling Hook */
-     , (0x7BB8E0A7, 0x7BB8E104, '2005-02-09 10:00:00') /* Floor Hook */
-     , (0x7BB8E0A7, 0x7BB8E105, '2005-02-09 10:00:00') /* Floor Hook */
-     , (0x7BB8E0A7, 0x7BB8E106, '2005-02-09 10:00:00') /* Wall Hook */
-     , (0x7BB8E0A7, 0x7BB8E107, '2005-02-09 10:00:00') /* Wall Hook */
-     , (0x7BB8E0A7, 0x7BB8E108, '2005-02-09 10:00:00') /* Floor Hook */
-     , (0x7BB8E0A7, 0x7BB8E109, '2005-02-09 10:00:00') /* Wall Hook */
-     , (0x7BB8E0A7, 0x7BB8E10A, '2005-02-09 10:00:00') /* Wall Hook */
-     , (0x7BB8E0A7, 0x7BB8E10B, '2005-02-09 10:00:00') /* Wall Hook */
-     , (0x7BB8E0A7, 0x7BB8E10C, '2005-02-09 10:00:00') /* Wall Hook */
-     , (0x7BB8E0A7, 0x7BB8E10D, '2005-02-09 10:00:00') /* Wall Hook */
-     , (0x7BB8E0A7, 0x7BB8E10E, '2005-02-09 10:00:00') /* Yard Hook */
-     , (0x7BB8E0A7, 0x7BB8E10F, '2005-02-09 10:00:00') /* Yard Hook */
-     , (0x7BB8E0A7, 0x7BB8E110, '2005-02-09 10:00:00') /* Yard Hook */
-     , (0x7BB8E0A7, 0x7BB8E111, '2005-02-09 10:00:00') /* Yard Hook */
-     , (0x7BB8E0A7, 0x7BB8E112, '2005-02-09 10:00:00') /* Yard Hook */
-     , (0x7BB8E0A7, 0x7BB8E113, '2005-02-09 10:00:00') /* Yard Hook */
-     , (0x7BB8E0A7, 0x7BB8E114, '2005-02-09 10:00:00') /* Roof Hook */
-     , (0x7BB8E0A7, 0x7BB8E115, '2005-02-09 10:00:00') /* Roof Hook */;
+VALUES (0x7BB8E0A7, 0x7BB8E01D, '2005-02-09 10:00:00') /* Floor Hook (11697) */
+     , (0x7BB8E0A7, 0x7BB8E01E, '2005-02-09 10:00:00') /* Wall Hook (9686) */
+     , (0x7BB8E0A7, 0x7BB8E01F, '2005-02-09 10:00:00') /* Wall Hook (9686) */
+     , (0x7BB8E0A7, 0x7BB8E021, '2005-02-09 10:00:00') /* Wall Hook (9686) */
+     , (0x7BB8E0A7, 0x7BB8E022, '2005-02-09 10:00:00') /* Wall Hook (9686) */
+     , (0x7BB8E0A7, 0x7BB8E024, '2005-02-09 10:00:00') /* Wall Hook (9686) */
+     , (0x7BB8E0A7, 0x7BB8E025, '2005-02-09 10:00:00') /* Floor Hook (11697) */
+     , (0x7BB8E0A7, 0x7BB8E026, '2005-02-09 10:00:00') /* Floor Hook (11697) */
+     , (0x7BB8E0A7, 0x7BB8E027, '2005-02-09 10:00:00') /* Wall Hook (9686) */
+     , (0x7BB8E0A7, 0x7BB8E028, '2005-02-09 10:00:00') /* Wall Hook (9686) */
+     , (0x7BB8E0A7, 0x7BB8E029, '2005-02-09 10:00:00') /* Floor Hook (11697) */
+     , (0x7BB8E0A7, 0x7BB8E02A, '2005-02-09 10:00:00') /* Floor Hook (11697) */
+     , (0x7BB8E0A7, 0x7BB8E02B, '2005-02-09 10:00:00') /* Floor Hook (11697) */
+     , (0x7BB8E0A7, 0x7BB8E02C, '2005-02-09 10:00:00') /* Ceiling Hook (11698) */
+     , (0x7BB8E0A7, 0x7BB8E02D, '2005-02-09 10:00:00') /* Wall Hook (9686) */
+     , (0x7BB8E0A7, 0x7BB8E02E, '2005-02-09 10:00:00') /* Wall Hook (9686) */
+     , (0x7BB8E0A7, 0x7BB8E02F, '2005-02-09 10:00:00') /* Wall Hook (9686) */
+     , (0x7BB8E0A7, 0x7BB8E030, '2005-02-09 10:00:00') /* Wall Hook (9686) */
+     , (0x7BB8E0A7, 0x7BB8E032, '2005-02-09 10:00:00') /* Wall Hook (9686) */
+     , (0x7BB8E0A7, 0x7BB8E033, '2005-02-09 10:00:00') /* Ceiling Hook (11698) */
+     , (0x7BB8E0A7, 0x7BB8E034, '2005-02-09 10:00:00') /* Wall Hook (9686) */
+     , (0x7BB8E0A7, 0x7BB8E035, '2005-02-09 10:00:00') /* Wall Hook (9686) */
+     , (0x7BB8E0A7, 0x7BB8E037, '2005-02-09 10:00:00') /* Wall Hook (9686) */
+     , (0x7BB8E0A7, 0x7BB8E0AB, '2005-02-09 10:00:00') /* Villa (11717) */
+     , (0x7BB8E0A7, 0x7BB8E0B1, '2005-02-09 10:00:00') /* BootSpot (10707) */
+     , (0x7BB8E0A7, 0x7BB8E0B4, '2005-02-09 10:00:00') /* House Portal (11730) */
+     , (0x7BB8E0A7, 0x7BB8E0E7, '2005-02-09 10:00:00') /* Wall Hook (9686) */
+     , (0x7BB8E0A7, 0x7BB8E0E8, '2005-02-09 10:00:00') /* Ceiling Hook (11698) */
+     , (0x7BB8E0A7, 0x7BB8E0E9, '2005-02-09 10:00:00') /* Floor Hook (11697) */
+     , (0x7BB8E0A7, 0x7BB8E0EA, '2005-02-09 10:00:00') /* Floor Hook (11697) */
+     , (0x7BB8E0A7, 0x7BB8E0EB, '2005-02-09 10:00:00') /* Wall Hook (9686) */
+     , (0x7BB8E0A7, 0x7BB8E0EC, '2005-02-09 10:00:00') /* Wall Hook (9686) */
+     , (0x7BB8E0A7, 0x7BB8E0ED, '2005-02-09 10:00:00') /* Wall Hook (9686) */
+     , (0x7BB8E0A7, 0x7BB8E0EE, '2005-02-09 10:00:00') /* Wall Hook (9686) */
+     , (0x7BB8E0A7, 0x7BB8E0EF, '2005-02-09 10:00:00') /* Floor Hook (11697) */
+     , (0x7BB8E0A7, 0x7BB8E0F0, '2005-02-09 10:00:00') /* Wall Hook (9686) */
+     , (0x7BB8E0A7, 0x7BB8E0F1, '2005-02-09 10:00:00') /* Wall Hook (9686) */
+     , (0x7BB8E0A7, 0x7BB8E0F2, '2005-02-09 10:00:00') /* Wall Hook (9686) */
+     , (0x7BB8E0A7, 0x7BB8E0F3, '2005-02-09 10:00:00') /* Wall Hook (9686) */
+     , (0x7BB8E0A7, 0x7BB8E0F4, '2005-02-09 10:00:00') /* Wall Hook (9686) */
+     , (0x7BB8E0A7, 0x7BB8E0F5, '2005-02-09 10:00:00') /* Wall Hook (9686) */
+     , (0x7BB8E0A7, 0x7BB8E0F6, '2005-02-09 10:00:00') /* Wall Hook (9686) */
+     , (0x7BB8E0A7, 0x7BB8E0F7, '2005-02-09 10:00:00') /* Wall Hook (9686) */
+     , (0x7BB8E0A7, 0x7BB8E0F8, '2005-02-09 10:00:00') /* Wall Hook (9686) */
+     , (0x7BB8E0A7, 0x7BB8E0F9, '2005-02-09 10:00:00') /* Ceiling Hook (11698) */
+     , (0x7BB8E0A7, 0x7BB8E0FA, '2005-02-09 10:00:00') /* Ceiling Hook (11698) */
+     , (0x7BB8E0A7, 0x7BB8E0FB, '2005-02-09 10:00:00') /* Floor Hook (11697) */
+     , (0x7BB8E0A7, 0x7BB8E0FC, '2005-02-09 10:00:00') /* Wall Hook (9686) */
+     , (0x7BB8E0A7, 0x7BB8E0FD, '2005-02-09 10:00:00') /* Wall Hook (9686) */
+     , (0x7BB8E0A7, 0x7BB8E0FE, '2005-02-09 10:00:00') /* Floor Hook (11697) */
+     , (0x7BB8E0A7, 0x7BB8E0FF, '2005-02-09 10:00:00') /* Wall Hook (9686) */
+     , (0x7BB8E0A7, 0x7BB8E100, '2005-02-09 10:00:00') /* Wall Hook (9686) */
+     , (0x7BB8E0A7, 0x7BB8E101, '2005-02-09 10:00:00') /* Wall Hook (9686) */
+     , (0x7BB8E0A7, 0x7BB8E102, '2005-02-09 10:00:00') /* Floor Hook (11697) */
+     , (0x7BB8E0A7, 0x7BB8E103, '2005-02-09 10:00:00') /* Ceiling Hook (11698) */
+     , (0x7BB8E0A7, 0x7BB8E104, '2005-02-09 10:00:00') /* Floor Hook (11697) */
+     , (0x7BB8E0A7, 0x7BB8E105, '2005-02-09 10:00:00') /* Floor Hook (11697) */
+     , (0x7BB8E0A7, 0x7BB8E106, '2005-02-09 10:00:00') /* Wall Hook (9686) */
+     , (0x7BB8E0A7, 0x7BB8E107, '2005-02-09 10:00:00') /* Wall Hook (9686) */
+     , (0x7BB8E0A7, 0x7BB8E108, '2005-02-09 10:00:00') /* Floor Hook (11697) */
+     , (0x7BB8E0A7, 0x7BB8E109, '2005-02-09 10:00:00') /* Wall Hook (9686) */
+     , (0x7BB8E0A7, 0x7BB8E10A, '2005-02-09 10:00:00') /* Wall Hook (9686) */
+     , (0x7BB8E0A7, 0x7BB8E10B, '2005-02-09 10:00:00') /* Wall Hook (9686) */
+     , (0x7BB8E0A7, 0x7BB8E10C, '2005-02-09 10:00:00') /* Wall Hook (9686) */
+     , (0x7BB8E0A7, 0x7BB8E10D, '2005-02-09 10:00:00') /* Wall Hook (9686) */
+     , (0x7BB8E0A7, 0x7BB8E10E, '2005-02-09 10:00:00') /* Yard Hook (12679) */
+     , (0x7BB8E0A7, 0x7BB8E10F, '2005-02-09 10:00:00') /* Yard Hook (12679) */
+     , (0x7BB8E0A7, 0x7BB8E110, '2005-02-09 10:00:00') /* Yard Hook (12679) */
+     , (0x7BB8E0A7, 0x7BB8E111, '2005-02-09 10:00:00') /* Yard Hook (12679) */
+     , (0x7BB8E0A7, 0x7BB8E112, '2005-02-09 10:00:00') /* Yard Hook (12679) */
+     , (0x7BB8E0A7, 0x7BB8E113, '2005-02-09 10:00:00') /* Yard Hook (12679) */
+     , (0x7BB8E0A7, 0x7BB8E114, '2005-02-09 10:00:00') /* Roof Hook (12678) */
+     , (0x7BB8E0A7, 0x7BB8E115, '2005-02-09 10:00:00') /* Roof Hook (12678) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BB8E0A8, 10515, 0xBB8E0146, 130.987, 37.7666, 62.005, 0.0912781, 0, 0, -0.995825, False, '2005-02-09 10:00:00'); /* Villa */
 /* @teleloc 0xBB8E0146 [130.987000 37.766600 62.005000] 0.091278 0.000000 0.000000 -0.995825 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BB8E0A8, 0x7BB8E03D, '2005-02-09 10:00:00') /* Wall Hook */
-     , (0x7BB8E0A8, 0x7BB8E03E, '2005-02-09 10:00:00') /* Wall Hook */
-     , (0x7BB8E0A8, 0x7BB8E03F, '2005-02-09 10:00:00') /* Floor Hook */
-     , (0x7BB8E0A8, 0x7BB8E040, '2005-02-09 10:00:00') /* Wall Hook */
-     , (0x7BB8E0A8, 0x7BB8E041, '2005-02-09 10:00:00') /* Wall Hook */
-     , (0x7BB8E0A8, 0x7BB8E042, '2005-02-09 10:00:00') /* Wall Hook */
-     , (0x7BB8E0A8, 0x7BB8E043, '2005-02-09 10:00:00') /* Wall Hook */
-     , (0x7BB8E0A8, 0x7BB8E044, '2005-02-09 10:00:00') /* Floor Hook */
-     , (0x7BB8E0A8, 0x7BB8E045, '2005-02-09 10:00:00') /* Wall Hook */
-     , (0x7BB8E0A8, 0x7BB8E046, '2005-02-09 10:00:00') /* Wall Hook */
-     , (0x7BB8E0A8, 0x7BB8E047, '2005-02-09 10:00:00') /* Floor Hook */
-     , (0x7BB8E0A8, 0x7BB8E048, '2005-02-09 10:00:00') /* Floor Hook */
-     , (0x7BB8E0A8, 0x7BB8E049, '2005-02-09 10:00:00') /* Wall Hook */
-     , (0x7BB8E0A8, 0x7BB8E04A, '2005-02-09 10:00:00') /* Floor Hook */
-     , (0x7BB8E0A8, 0x7BB8E04B, '2005-02-09 10:00:00') /* Floor Hook */
-     , (0x7BB8E0A8, 0x7BB8E04C, '2005-02-09 10:00:00') /* Ceiling Hook */
-     , (0x7BB8E0A8, 0x7BB8E04E, '2005-02-09 10:00:00') /* Wall Hook */
-     , (0x7BB8E0A8, 0x7BB8E051, '2005-02-09 10:00:00') /* Wall Hook */
-     , (0x7BB8E0A8, 0x7BB8E052, '2005-02-09 10:00:00') /* Wall Hook */
-     , (0x7BB8E0A8, 0x7BB8E053, '2005-02-09 10:00:00') /* Ceiling Hook */
-     , (0x7BB8E0A8, 0x7BB8E0AC, '2005-02-09 10:00:00') /* Villa */
-     , (0x7BB8E0A8, 0x7BB8E0B1, '2005-02-09 10:00:00') /* BootSpot */
-     , (0x7BB8E0A8, 0x7BB8E0B5, '2005-02-09 10:00:00') /* House Portal */
-     , (0x7BB8E0A8, 0x7BB8E116, '2005-02-09 10:00:00') /* Wall Hook */
-     , (0x7BB8E0A8, 0x7BB8E117, '2005-02-09 10:00:00') /* Ceiling Hook */
-     , (0x7BB8E0A8, 0x7BB8E118, '2005-02-09 10:00:00') /* Floor Hook */
-     , (0x7BB8E0A8, 0x7BB8E119, '2005-02-09 10:00:00') /* Floor Hook */
-     , (0x7BB8E0A8, 0x7BB8E11A, '2005-02-09 10:00:00') /* Wall Hook */
-     , (0x7BB8E0A8, 0x7BB8E11B, '2005-02-09 10:00:00') /* Floor Hook */
-     , (0x7BB8E0A8, 0x7BB8E11C, '2005-02-09 10:00:00') /* Wall Hook */
-     , (0x7BB8E0A8, 0x7BB8E11D, '2005-02-09 10:00:00') /* Wall Hook */
-     , (0x7BB8E0A8, 0x7BB8E11E, '2005-02-09 10:00:00') /* Wall Hook */
-     , (0x7BB8E0A8, 0x7BB8E11F, '2005-02-09 10:00:00') /* Wall Hook */
-     , (0x7BB8E0A8, 0x7BB8E120, '2005-02-09 10:00:00') /* Ceiling Hook */
-     , (0x7BB8E0A8, 0x7BB8E121, '2005-02-09 10:00:00') /* Floor Hook */
-     , (0x7BB8E0A8, 0x7BB8E122, '2005-02-09 10:00:00') /* Wall Hook */
-     , (0x7BB8E0A8, 0x7BB8E123, '2005-02-09 10:00:00') /* Wall Hook */
-     , (0x7BB8E0A8, 0x7BB8E124, '2005-02-09 10:00:00') /* Wall Hook */
-     , (0x7BB8E0A8, 0x7BB8E125, '2005-02-09 10:00:00') /* Wall Hook */
-     , (0x7BB8E0A8, 0x7BB8E126, '2005-02-09 10:00:00') /* Wall Hook */
-     , (0x7BB8E0A8, 0x7BB8E127, '2005-02-09 10:00:00') /* Wall Hook */
-     , (0x7BB8E0A8, 0x7BB8E128, '2005-02-09 10:00:00') /* Wall Hook */
-     , (0x7BB8E0A8, 0x7BB8E129, '2005-02-09 10:00:00') /* Ceiling Hook */
-     , (0x7BB8E0A8, 0x7BB8E12A, '2005-02-09 10:00:00') /* Floor Hook */
-     , (0x7BB8E0A8, 0x7BB8E12B, '2005-02-09 10:00:00') /* Floor Hook */
-     , (0x7BB8E0A8, 0x7BB8E12C, '2005-02-09 10:00:00') /* Floor Hook */
-     , (0x7BB8E0A8, 0x7BB8E12D, '2005-02-09 10:00:00') /* Wall Hook */
-     , (0x7BB8E0A8, 0x7BB8E12E, '2005-02-09 10:00:00') /* Wall Hook */
-     , (0x7BB8E0A8, 0x7BB8E12F, '2005-02-09 10:00:00') /* Wall Hook */
-     , (0x7BB8E0A8, 0x7BB8E130, '2005-02-09 10:00:00') /* Wall Hook */
-     , (0x7BB8E0A8, 0x7BB8E131, '2005-02-09 10:00:00') /* Wall Hook */
-     , (0x7BB8E0A8, 0x7BB8E132, '2005-02-09 10:00:00') /* Wall Hook */
-     , (0x7BB8E0A8, 0x7BB8E133, '2005-02-09 10:00:00') /* Wall Hook */
-     , (0x7BB8E0A8, 0x7BB8E134, '2005-02-09 10:00:00') /* Wall Hook */
-     , (0x7BB8E0A8, 0x7BB8E135, '2005-02-09 10:00:00') /* Wall Hook */
-     , (0x7BB8E0A8, 0x7BB8E136, '2005-02-09 10:00:00') /* Floor Hook */
-     , (0x7BB8E0A8, 0x7BB8E137, '2005-02-09 10:00:00') /* Wall Hook */
-     , (0x7BB8E0A8, 0x7BB8E138, '2005-02-09 10:00:00') /* Wall Hook */
-     , (0x7BB8E0A8, 0x7BB8E139, '2005-02-09 10:00:00') /* Ceiling Hook */
-     , (0x7BB8E0A8, 0x7BB8E13A, '2005-02-09 10:00:00') /* Floor Hook */
-     , (0x7BB8E0A8, 0x7BB8E13B, '2005-02-09 10:00:00') /* Wall Hook */
-     , (0x7BB8E0A8, 0x7BB8E13C, '2005-02-09 10:00:00') /* Wall Hook */
-     , (0x7BB8E0A8, 0x7BB8E13D, '2005-02-09 10:00:00') /* Wall Hook */
-     , (0x7BB8E0A8, 0x7BB8E13E, '2005-02-09 10:00:00') /* Wall Hook */
-     , (0x7BB8E0A8, 0x7BB8E13F, '2005-02-09 10:00:00') /* Wall Hook */
-     , (0x7BB8E0A8, 0x7BB8E140, '2005-02-09 10:00:00') /* Wall Hook */
-     , (0x7BB8E0A8, 0x7BB8E141, '2005-02-09 10:00:00') /* Yard Hook */
-     , (0x7BB8E0A8, 0x7BB8E142, '2005-02-09 10:00:00') /* Yard Hook */
-     , (0x7BB8E0A8, 0x7BB8E143, '2005-02-09 10:00:00') /* Yard Hook */
-     , (0x7BB8E0A8, 0x7BB8E144, '2005-02-09 10:00:00') /* Yard Hook */
-     , (0x7BB8E0A8, 0x7BB8E145, '2005-02-09 10:00:00') /* Yard Hook */
-     , (0x7BB8E0A8, 0x7BB8E146, '2005-02-09 10:00:00') /* Yard Hook */
-     , (0x7BB8E0A8, 0x7BB8E147, '2005-02-09 10:00:00') /* Roof Hook */
-     , (0x7BB8E0A8, 0x7BB8E148, '2005-02-09 10:00:00') /* Roof Hook */;
+VALUES (0x7BB8E0A8, 0x7BB8E03D, '2005-02-09 10:00:00') /* Wall Hook (9686) */
+     , (0x7BB8E0A8, 0x7BB8E03E, '2005-02-09 10:00:00') /* Wall Hook (9686) */
+     , (0x7BB8E0A8, 0x7BB8E03F, '2005-02-09 10:00:00') /* Floor Hook (11697) */
+     , (0x7BB8E0A8, 0x7BB8E040, '2005-02-09 10:00:00') /* Wall Hook (9686) */
+     , (0x7BB8E0A8, 0x7BB8E041, '2005-02-09 10:00:00') /* Wall Hook (9686) */
+     , (0x7BB8E0A8, 0x7BB8E042, '2005-02-09 10:00:00') /* Wall Hook (9686) */
+     , (0x7BB8E0A8, 0x7BB8E043, '2005-02-09 10:00:00') /* Wall Hook (9686) */
+     , (0x7BB8E0A8, 0x7BB8E044, '2005-02-09 10:00:00') /* Floor Hook (11697) */
+     , (0x7BB8E0A8, 0x7BB8E045, '2005-02-09 10:00:00') /* Wall Hook (9686) */
+     , (0x7BB8E0A8, 0x7BB8E046, '2005-02-09 10:00:00') /* Wall Hook (9686) */
+     , (0x7BB8E0A8, 0x7BB8E047, '2005-02-09 10:00:00') /* Floor Hook (11697) */
+     , (0x7BB8E0A8, 0x7BB8E048, '2005-02-09 10:00:00') /* Floor Hook (11697) */
+     , (0x7BB8E0A8, 0x7BB8E049, '2005-02-09 10:00:00') /* Wall Hook (9686) */
+     , (0x7BB8E0A8, 0x7BB8E04A, '2005-02-09 10:00:00') /* Floor Hook (11697) */
+     , (0x7BB8E0A8, 0x7BB8E04B, '2005-02-09 10:00:00') /* Floor Hook (11697) */
+     , (0x7BB8E0A8, 0x7BB8E04C, '2005-02-09 10:00:00') /* Ceiling Hook (11698) */
+     , (0x7BB8E0A8, 0x7BB8E04E, '2005-02-09 10:00:00') /* Wall Hook (9686) */
+     , (0x7BB8E0A8, 0x7BB8E051, '2005-02-09 10:00:00') /* Wall Hook (9686) */
+     , (0x7BB8E0A8, 0x7BB8E052, '2005-02-09 10:00:00') /* Wall Hook (9686) */
+     , (0x7BB8E0A8, 0x7BB8E053, '2005-02-09 10:00:00') /* Ceiling Hook (11698) */
+     , (0x7BB8E0A8, 0x7BB8E0AC, '2005-02-09 10:00:00') /* Villa (11717) */
+     , (0x7BB8E0A8, 0x7BB8E0B1, '2005-02-09 10:00:00') /* BootSpot (10707) */
+     , (0x7BB8E0A8, 0x7BB8E0B5, '2005-02-09 10:00:00') /* House Portal (11730) */
+     , (0x7BB8E0A8, 0x7BB8E116, '2005-02-09 10:00:00') /* Wall Hook (9686) */
+     , (0x7BB8E0A8, 0x7BB8E117, '2005-02-09 10:00:00') /* Ceiling Hook (11698) */
+     , (0x7BB8E0A8, 0x7BB8E118, '2005-02-09 10:00:00') /* Floor Hook (11697) */
+     , (0x7BB8E0A8, 0x7BB8E119, '2005-02-09 10:00:00') /* Floor Hook (11697) */
+     , (0x7BB8E0A8, 0x7BB8E11A, '2005-02-09 10:00:00') /* Wall Hook (9686) */
+     , (0x7BB8E0A8, 0x7BB8E11B, '2005-02-09 10:00:00') /* Floor Hook (11697) */
+     , (0x7BB8E0A8, 0x7BB8E11C, '2005-02-09 10:00:00') /* Wall Hook (9686) */
+     , (0x7BB8E0A8, 0x7BB8E11D, '2005-02-09 10:00:00') /* Wall Hook (9686) */
+     , (0x7BB8E0A8, 0x7BB8E11E, '2005-02-09 10:00:00') /* Wall Hook (9686) */
+     , (0x7BB8E0A8, 0x7BB8E11F, '2005-02-09 10:00:00') /* Wall Hook (9686) */
+     , (0x7BB8E0A8, 0x7BB8E120, '2005-02-09 10:00:00') /* Ceiling Hook (11698) */
+     , (0x7BB8E0A8, 0x7BB8E121, '2005-02-09 10:00:00') /* Floor Hook (11697) */
+     , (0x7BB8E0A8, 0x7BB8E122, '2005-02-09 10:00:00') /* Wall Hook (9686) */
+     , (0x7BB8E0A8, 0x7BB8E123, '2005-02-09 10:00:00') /* Wall Hook (9686) */
+     , (0x7BB8E0A8, 0x7BB8E124, '2005-02-09 10:00:00') /* Wall Hook (9686) */
+     , (0x7BB8E0A8, 0x7BB8E125, '2005-02-09 10:00:00') /* Wall Hook (9686) */
+     , (0x7BB8E0A8, 0x7BB8E126, '2005-02-09 10:00:00') /* Wall Hook (9686) */
+     , (0x7BB8E0A8, 0x7BB8E127, '2005-02-09 10:00:00') /* Wall Hook (9686) */
+     , (0x7BB8E0A8, 0x7BB8E128, '2005-02-09 10:00:00') /* Wall Hook (9686) */
+     , (0x7BB8E0A8, 0x7BB8E129, '2005-02-09 10:00:00') /* Ceiling Hook (11698) */
+     , (0x7BB8E0A8, 0x7BB8E12A, '2005-02-09 10:00:00') /* Floor Hook (11697) */
+     , (0x7BB8E0A8, 0x7BB8E12B, '2005-02-09 10:00:00') /* Floor Hook (11697) */
+     , (0x7BB8E0A8, 0x7BB8E12C, '2005-02-09 10:00:00') /* Floor Hook (11697) */
+     , (0x7BB8E0A8, 0x7BB8E12D, '2005-02-09 10:00:00') /* Wall Hook (9686) */
+     , (0x7BB8E0A8, 0x7BB8E12E, '2005-02-09 10:00:00') /* Wall Hook (9686) */
+     , (0x7BB8E0A8, 0x7BB8E12F, '2005-02-09 10:00:00') /* Wall Hook (9686) */
+     , (0x7BB8E0A8, 0x7BB8E130, '2005-02-09 10:00:00') /* Wall Hook (9686) */
+     , (0x7BB8E0A8, 0x7BB8E131, '2005-02-09 10:00:00') /* Wall Hook (9686) */
+     , (0x7BB8E0A8, 0x7BB8E132, '2005-02-09 10:00:00') /* Wall Hook (9686) */
+     , (0x7BB8E0A8, 0x7BB8E133, '2005-02-09 10:00:00') /* Wall Hook (9686) */
+     , (0x7BB8E0A8, 0x7BB8E134, '2005-02-09 10:00:00') /* Wall Hook (9686) */
+     , (0x7BB8E0A8, 0x7BB8E135, '2005-02-09 10:00:00') /* Wall Hook (9686) */
+     , (0x7BB8E0A8, 0x7BB8E136, '2005-02-09 10:00:00') /* Floor Hook (11697) */
+     , (0x7BB8E0A8, 0x7BB8E137, '2005-02-09 10:00:00') /* Wall Hook (9686) */
+     , (0x7BB8E0A8, 0x7BB8E138, '2005-02-09 10:00:00') /* Wall Hook (9686) */
+     , (0x7BB8E0A8, 0x7BB8E139, '2005-02-09 10:00:00') /* Ceiling Hook (11698) */
+     , (0x7BB8E0A8, 0x7BB8E13A, '2005-02-09 10:00:00') /* Floor Hook (11697) */
+     , (0x7BB8E0A8, 0x7BB8E13B, '2005-02-09 10:00:00') /* Wall Hook (9686) */
+     , (0x7BB8E0A8, 0x7BB8E13C, '2005-02-09 10:00:00') /* Wall Hook (9686) */
+     , (0x7BB8E0A8, 0x7BB8E13D, '2005-02-09 10:00:00') /* Wall Hook (9686) */
+     , (0x7BB8E0A8, 0x7BB8E13E, '2005-02-09 10:00:00') /* Wall Hook (9686) */
+     , (0x7BB8E0A8, 0x7BB8E13F, '2005-02-09 10:00:00') /* Wall Hook (9686) */
+     , (0x7BB8E0A8, 0x7BB8E140, '2005-02-09 10:00:00') /* Wall Hook (9686) */
+     , (0x7BB8E0A8, 0x7BB8E141, '2005-02-09 10:00:00') /* Yard Hook (12679) */
+     , (0x7BB8E0A8, 0x7BB8E142, '2005-02-09 10:00:00') /* Yard Hook (12679) */
+     , (0x7BB8E0A8, 0x7BB8E143, '2005-02-09 10:00:00') /* Yard Hook (12679) */
+     , (0x7BB8E0A8, 0x7BB8E144, '2005-02-09 10:00:00') /* Yard Hook (12679) */
+     , (0x7BB8E0A8, 0x7BB8E145, '2005-02-09 10:00:00') /* Yard Hook (12679) */
+     , (0x7BB8E0A8, 0x7BB8E146, '2005-02-09 10:00:00') /* Yard Hook (12679) */
+     , (0x7BB8E0A8, 0x7BB8E147, '2005-02-09 10:00:00') /* Roof Hook (12678) */
+     , (0x7BB8E0A8, 0x7BB8E148, '2005-02-09 10:00:00') /* Roof Hook (12678) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BB8E0A9, 10516, 0xBB8E0112, 65.435, 29.8462, 58.005, -0.207523, 0, 0, -0.97823, False, '2005-02-09 10:00:00'); /* Villa */
 /* @teleloc 0xBB8E0112 [65.435000 29.846200 58.005000] -0.207523 0.000000 0.000000 -0.978230 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BB8E0A9, 0x7BB8E000, '2005-02-09 10:00:00') /* Floor Hook */
-     , (0x7BB8E0A9, 0x7BB8E001, '2005-02-09 10:00:00') /* Wall Hook */
-     , (0x7BB8E0A9, 0x7BB8E002, '2005-02-09 10:00:00') /* Wall Hook */
-     , (0x7BB8E0A9, 0x7BB8E004, '2005-02-09 10:00:00') /* Wall Hook */
-     , (0x7BB8E0A9, 0x7BB8E005, '2005-02-09 10:00:00') /* Wall Hook */
-     , (0x7BB8E0A9, 0x7BB8E007, '2005-02-09 10:00:00') /* Wall Hook */
-     , (0x7BB8E0A9, 0x7BB8E008, '2005-02-09 10:00:00') /* Floor Hook */
-     , (0x7BB8E0A9, 0x7BB8E009, '2005-02-09 10:00:00') /* Floor Hook */
-     , (0x7BB8E0A9, 0x7BB8E00A, '2005-02-09 10:00:00') /* Wall Hook */
-     , (0x7BB8E0A9, 0x7BB8E00B, '2005-02-09 10:00:00') /* Wall Hook */
-     , (0x7BB8E0A9, 0x7BB8E00C, '2005-02-09 10:00:00') /* Floor Hook */
-     , (0x7BB8E0A9, 0x7BB8E00D, '2005-02-09 10:00:00') /* Floor Hook */
-     , (0x7BB8E0A9, 0x7BB8E00E, '2005-02-09 10:00:00') /* Floor Hook */
-     , (0x7BB8E0A9, 0x7BB8E00F, '2005-02-09 10:00:00') /* Ceiling Hook */
-     , (0x7BB8E0A9, 0x7BB8E010, '2005-02-09 10:00:00') /* Wall Hook */
-     , (0x7BB8E0A9, 0x7BB8E011, '2005-02-09 10:00:00') /* Wall Hook */
-     , (0x7BB8E0A9, 0x7BB8E012, '2005-02-09 10:00:00') /* Wall Hook */
-     , (0x7BB8E0A9, 0x7BB8E013, '2005-02-09 10:00:00') /* Wall Hook */
-     , (0x7BB8E0A9, 0x7BB8E015, '2005-02-09 10:00:00') /* Wall Hook */
-     , (0x7BB8E0A9, 0x7BB8E016, '2005-02-09 10:00:00') /* Ceiling Hook */
-     , (0x7BB8E0A9, 0x7BB8E017, '2005-02-09 10:00:00') /* Wall Hook */
-     , (0x7BB8E0A9, 0x7BB8E018, '2005-02-09 10:00:00') /* Wall Hook */
-     , (0x7BB8E0A9, 0x7BB8E01A, '2005-02-09 10:00:00') /* Wall Hook */
-     , (0x7BB8E0A9, 0x7BB8E0AD, '2005-02-09 10:00:00') /* Villa */
-     , (0x7BB8E0A9, 0x7BB8E0B1, '2005-02-09 10:00:00') /* BootSpot */
-     , (0x7BB8E0A9, 0x7BB8E0B6, '2005-02-09 10:00:00') /* House Portal */
-     , (0x7BB8E0A9, 0x7BB8E0B8, '2005-02-09 10:00:00') /* Wall Hook */
-     , (0x7BB8E0A9, 0x7BB8E0B9, '2005-02-09 10:00:00') /* Ceiling Hook */
-     , (0x7BB8E0A9, 0x7BB8E0BA, '2005-02-09 10:00:00') /* Floor Hook */
-     , (0x7BB8E0A9, 0x7BB8E0BB, '2005-02-09 10:00:00') /* Floor Hook */
-     , (0x7BB8E0A9, 0x7BB8E0BC, '2005-02-09 10:00:00') /* Wall Hook */
-     , (0x7BB8E0A9, 0x7BB8E0BD, '2005-02-09 10:00:00') /* Wall Hook */
-     , (0x7BB8E0A9, 0x7BB8E0BE, '2005-02-09 10:00:00') /* Wall Hook */
-     , (0x7BB8E0A9, 0x7BB8E0BF, '2005-02-09 10:00:00') /* Wall Hook */
-     , (0x7BB8E0A9, 0x7BB8E0C0, '2005-02-09 10:00:00') /* Floor Hook */
-     , (0x7BB8E0A9, 0x7BB8E0C1, '2005-02-09 10:00:00') /* Wall Hook */
-     , (0x7BB8E0A9, 0x7BB8E0C2, '2005-02-09 10:00:00') /* Wall Hook */
-     , (0x7BB8E0A9, 0x7BB8E0C3, '2005-02-09 10:00:00') /* Wall Hook */
-     , (0x7BB8E0A9, 0x7BB8E0C4, '2005-02-09 10:00:00') /* Wall Hook */
-     , (0x7BB8E0A9, 0x7BB8E0C5, '2005-02-09 10:00:00') /* Wall Hook */
-     , (0x7BB8E0A9, 0x7BB8E0C6, '2005-02-09 10:00:00') /* Wall Hook */
-     , (0x7BB8E0A9, 0x7BB8E0C7, '2005-02-09 10:00:00') /* Wall Hook */
-     , (0x7BB8E0A9, 0x7BB8E0C8, '2005-02-09 10:00:00') /* Wall Hook */
-     , (0x7BB8E0A9, 0x7BB8E0C9, '2005-02-09 10:00:00') /* Wall Hook */
-     , (0x7BB8E0A9, 0x7BB8E0CA, '2005-02-09 10:00:00') /* Ceiling Hook */
-     , (0x7BB8E0A9, 0x7BB8E0CB, '2005-02-09 10:00:00') /* Ceiling Hook */
-     , (0x7BB8E0A9, 0x7BB8E0CC, '2005-02-09 10:00:00') /* Floor Hook */
-     , (0x7BB8E0A9, 0x7BB8E0CD, '2005-02-09 10:00:00') /* Wall Hook */
-     , (0x7BB8E0A9, 0x7BB8E0CE, '2005-02-09 10:00:00') /* Wall Hook */
-     , (0x7BB8E0A9, 0x7BB8E0CF, '2005-02-09 10:00:00') /* Floor Hook */
-     , (0x7BB8E0A9, 0x7BB8E0D0, '2005-02-09 10:00:00') /* Wall Hook */
-     , (0x7BB8E0A9, 0x7BB8E0D1, '2005-02-09 10:00:00') /* Wall Hook */
-     , (0x7BB8E0A9, 0x7BB8E0D2, '2005-02-09 10:00:00') /* Wall Hook */
-     , (0x7BB8E0A9, 0x7BB8E0D3, '2005-02-09 10:00:00') /* Floor Hook */
-     , (0x7BB8E0A9, 0x7BB8E0D4, '2005-02-09 10:00:00') /* Ceiling Hook */
-     , (0x7BB8E0A9, 0x7BB8E0D5, '2005-02-09 10:00:00') /* Floor Hook */
-     , (0x7BB8E0A9, 0x7BB8E0D6, '2005-02-09 10:00:00') /* Floor Hook */
-     , (0x7BB8E0A9, 0x7BB8E0D7, '2005-02-09 10:00:00') /* Wall Hook */
-     , (0x7BB8E0A9, 0x7BB8E0D8, '2005-02-09 10:00:00') /* Wall Hook */
-     , (0x7BB8E0A9, 0x7BB8E0D9, '2005-02-09 10:00:00') /* Floor Hook */
-     , (0x7BB8E0A9, 0x7BB8E0DA, '2005-02-09 10:00:00') /* Wall Hook */
-     , (0x7BB8E0A9, 0x7BB8E0DB, '2005-02-09 10:00:00') /* Wall Hook */
-     , (0x7BB8E0A9, 0x7BB8E0DC, '2005-02-09 10:00:00') /* Wall Hook */
-     , (0x7BB8E0A9, 0x7BB8E0DD, '2005-02-09 10:00:00') /* Wall Hook */
-     , (0x7BB8E0A9, 0x7BB8E0DE, '2005-02-09 10:00:00') /* Wall Hook */
-     , (0x7BB8E0A9, 0x7BB8E0DF, '2005-02-09 10:00:00') /* Yard Hook */
-     , (0x7BB8E0A9, 0x7BB8E0E0, '2005-02-09 10:00:00') /* Yard Hook */
-     , (0x7BB8E0A9, 0x7BB8E0E1, '2005-02-09 10:00:00') /* Yard Hook */
-     , (0x7BB8E0A9, 0x7BB8E0E2, '2005-02-09 10:00:00') /* Yard Hook */
-     , (0x7BB8E0A9, 0x7BB8E0E3, '2005-02-09 10:00:00') /* Yard Hook */
-     , (0x7BB8E0A9, 0x7BB8E0E4, '2005-02-09 10:00:00') /* Yard Hook */
-     , (0x7BB8E0A9, 0x7BB8E0E5, '2005-02-09 10:00:00') /* Roof Hook */
-     , (0x7BB8E0A9, 0x7BB8E0E6, '2005-02-09 10:00:00') /* Roof Hook */;
+VALUES (0x7BB8E0A9, 0x7BB8E000, '2005-02-09 10:00:00') /* Floor Hook (11697) */
+     , (0x7BB8E0A9, 0x7BB8E001, '2005-02-09 10:00:00') /* Wall Hook (9686) */
+     , (0x7BB8E0A9, 0x7BB8E002, '2005-02-09 10:00:00') /* Wall Hook (9686) */
+     , (0x7BB8E0A9, 0x7BB8E004, '2005-02-09 10:00:00') /* Wall Hook (9686) */
+     , (0x7BB8E0A9, 0x7BB8E005, '2005-02-09 10:00:00') /* Wall Hook (9686) */
+     , (0x7BB8E0A9, 0x7BB8E007, '2005-02-09 10:00:00') /* Wall Hook (9686) */
+     , (0x7BB8E0A9, 0x7BB8E008, '2005-02-09 10:00:00') /* Floor Hook (11697) */
+     , (0x7BB8E0A9, 0x7BB8E009, '2005-02-09 10:00:00') /* Floor Hook (11697) */
+     , (0x7BB8E0A9, 0x7BB8E00A, '2005-02-09 10:00:00') /* Wall Hook (9686) */
+     , (0x7BB8E0A9, 0x7BB8E00B, '2005-02-09 10:00:00') /* Wall Hook (9686) */
+     , (0x7BB8E0A9, 0x7BB8E00C, '2005-02-09 10:00:00') /* Floor Hook (11697) */
+     , (0x7BB8E0A9, 0x7BB8E00D, '2005-02-09 10:00:00') /* Floor Hook (11697) */
+     , (0x7BB8E0A9, 0x7BB8E00E, '2005-02-09 10:00:00') /* Floor Hook (11697) */
+     , (0x7BB8E0A9, 0x7BB8E00F, '2005-02-09 10:00:00') /* Ceiling Hook (11698) */
+     , (0x7BB8E0A9, 0x7BB8E010, '2005-02-09 10:00:00') /* Wall Hook (9686) */
+     , (0x7BB8E0A9, 0x7BB8E011, '2005-02-09 10:00:00') /* Wall Hook (9686) */
+     , (0x7BB8E0A9, 0x7BB8E012, '2005-02-09 10:00:00') /* Wall Hook (9686) */
+     , (0x7BB8E0A9, 0x7BB8E013, '2005-02-09 10:00:00') /* Wall Hook (9686) */
+     , (0x7BB8E0A9, 0x7BB8E015, '2005-02-09 10:00:00') /* Wall Hook (9686) */
+     , (0x7BB8E0A9, 0x7BB8E016, '2005-02-09 10:00:00') /* Ceiling Hook (11698) */
+     , (0x7BB8E0A9, 0x7BB8E017, '2005-02-09 10:00:00') /* Wall Hook (9686) */
+     , (0x7BB8E0A9, 0x7BB8E018, '2005-02-09 10:00:00') /* Wall Hook (9686) */
+     , (0x7BB8E0A9, 0x7BB8E01A, '2005-02-09 10:00:00') /* Wall Hook (9686) */
+     , (0x7BB8E0A9, 0x7BB8E0AD, '2005-02-09 10:00:00') /* Villa (11717) */
+     , (0x7BB8E0A9, 0x7BB8E0B1, '2005-02-09 10:00:00') /* BootSpot (10707) */
+     , (0x7BB8E0A9, 0x7BB8E0B6, '2005-02-09 10:00:00') /* House Portal (11730) */
+     , (0x7BB8E0A9, 0x7BB8E0B8, '2005-02-09 10:00:00') /* Wall Hook (9686) */
+     , (0x7BB8E0A9, 0x7BB8E0B9, '2005-02-09 10:00:00') /* Ceiling Hook (11698) */
+     , (0x7BB8E0A9, 0x7BB8E0BA, '2005-02-09 10:00:00') /* Floor Hook (11697) */
+     , (0x7BB8E0A9, 0x7BB8E0BB, '2005-02-09 10:00:00') /* Floor Hook (11697) */
+     , (0x7BB8E0A9, 0x7BB8E0BC, '2005-02-09 10:00:00') /* Wall Hook (9686) */
+     , (0x7BB8E0A9, 0x7BB8E0BD, '2005-02-09 10:00:00') /* Wall Hook (9686) */
+     , (0x7BB8E0A9, 0x7BB8E0BE, '2005-02-09 10:00:00') /* Wall Hook (9686) */
+     , (0x7BB8E0A9, 0x7BB8E0BF, '2005-02-09 10:00:00') /* Wall Hook (9686) */
+     , (0x7BB8E0A9, 0x7BB8E0C0, '2005-02-09 10:00:00') /* Floor Hook (11697) */
+     , (0x7BB8E0A9, 0x7BB8E0C1, '2005-02-09 10:00:00') /* Wall Hook (9686) */
+     , (0x7BB8E0A9, 0x7BB8E0C2, '2005-02-09 10:00:00') /* Wall Hook (9686) */
+     , (0x7BB8E0A9, 0x7BB8E0C3, '2005-02-09 10:00:00') /* Wall Hook (9686) */
+     , (0x7BB8E0A9, 0x7BB8E0C4, '2005-02-09 10:00:00') /* Wall Hook (9686) */
+     , (0x7BB8E0A9, 0x7BB8E0C5, '2005-02-09 10:00:00') /* Wall Hook (9686) */
+     , (0x7BB8E0A9, 0x7BB8E0C6, '2005-02-09 10:00:00') /* Wall Hook (9686) */
+     , (0x7BB8E0A9, 0x7BB8E0C7, '2005-02-09 10:00:00') /* Wall Hook (9686) */
+     , (0x7BB8E0A9, 0x7BB8E0C8, '2005-02-09 10:00:00') /* Wall Hook (9686) */
+     , (0x7BB8E0A9, 0x7BB8E0C9, '2005-02-09 10:00:00') /* Wall Hook (9686) */
+     , (0x7BB8E0A9, 0x7BB8E0CA, '2005-02-09 10:00:00') /* Ceiling Hook (11698) */
+     , (0x7BB8E0A9, 0x7BB8E0CB, '2005-02-09 10:00:00') /* Ceiling Hook (11698) */
+     , (0x7BB8E0A9, 0x7BB8E0CC, '2005-02-09 10:00:00') /* Floor Hook (11697) */
+     , (0x7BB8E0A9, 0x7BB8E0CD, '2005-02-09 10:00:00') /* Wall Hook (9686) */
+     , (0x7BB8E0A9, 0x7BB8E0CE, '2005-02-09 10:00:00') /* Wall Hook (9686) */
+     , (0x7BB8E0A9, 0x7BB8E0CF, '2005-02-09 10:00:00') /* Floor Hook (11697) */
+     , (0x7BB8E0A9, 0x7BB8E0D0, '2005-02-09 10:00:00') /* Wall Hook (9686) */
+     , (0x7BB8E0A9, 0x7BB8E0D1, '2005-02-09 10:00:00') /* Wall Hook (9686) */
+     , (0x7BB8E0A9, 0x7BB8E0D2, '2005-02-09 10:00:00') /* Wall Hook (9686) */
+     , (0x7BB8E0A9, 0x7BB8E0D3, '2005-02-09 10:00:00') /* Floor Hook (11697) */
+     , (0x7BB8E0A9, 0x7BB8E0D4, '2005-02-09 10:00:00') /* Ceiling Hook (11698) */
+     , (0x7BB8E0A9, 0x7BB8E0D5, '2005-02-09 10:00:00') /* Floor Hook (11697) */
+     , (0x7BB8E0A9, 0x7BB8E0D6, '2005-02-09 10:00:00') /* Floor Hook (11697) */
+     , (0x7BB8E0A9, 0x7BB8E0D7, '2005-02-09 10:00:00') /* Wall Hook (9686) */
+     , (0x7BB8E0A9, 0x7BB8E0D8, '2005-02-09 10:00:00') /* Wall Hook (9686) */
+     , (0x7BB8E0A9, 0x7BB8E0D9, '2005-02-09 10:00:00') /* Floor Hook (11697) */
+     , (0x7BB8E0A9, 0x7BB8E0DA, '2005-02-09 10:00:00') /* Wall Hook (9686) */
+     , (0x7BB8E0A9, 0x7BB8E0DB, '2005-02-09 10:00:00') /* Wall Hook (9686) */
+     , (0x7BB8E0A9, 0x7BB8E0DC, '2005-02-09 10:00:00') /* Wall Hook (9686) */
+     , (0x7BB8E0A9, 0x7BB8E0DD, '2005-02-09 10:00:00') /* Wall Hook (9686) */
+     , (0x7BB8E0A9, 0x7BB8E0DE, '2005-02-09 10:00:00') /* Wall Hook (9686) */
+     , (0x7BB8E0A9, 0x7BB8E0DF, '2005-02-09 10:00:00') /* Yard Hook (12679) */
+     , (0x7BB8E0A9, 0x7BB8E0E0, '2005-02-09 10:00:00') /* Yard Hook (12679) */
+     , (0x7BB8E0A9, 0x7BB8E0E1, '2005-02-09 10:00:00') /* Yard Hook (12679) */
+     , (0x7BB8E0A9, 0x7BB8E0E2, '2005-02-09 10:00:00') /* Yard Hook (12679) */
+     , (0x7BB8E0A9, 0x7BB8E0E3, '2005-02-09 10:00:00') /* Yard Hook (12679) */
+     , (0x7BB8E0A9, 0x7BB8E0E4, '2005-02-09 10:00:00') /* Yard Hook (12679) */
+     , (0x7BB8E0A9, 0x7BB8E0E5, '2005-02-09 10:00:00') /* Roof Hook (12678) */
+     , (0x7BB8E0A9, 0x7BB8E0E6, '2005-02-09 10:00:00') /* Roof Hook (12678) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BB8E0AA, 10517, 0xBB8E016C, 30.3809, 102.751, 44.005, 0.925191, 0, 0, 0.379501, False, '2005-02-09 10:00:00'); /* Villa */
 /* @teleloc 0xBB8E016C [30.380900 102.751000 44.005000] 0.925191 0.000000 0.000000 0.379501 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BB8E0AA, 0x7BB8E054, '2005-02-09 10:00:00') /* Floor Hook */
-     , (0x7BB8E0AA, 0x7BB8E055, '2005-02-09 10:00:00') /* Wall Hook */
-     , (0x7BB8E0AA, 0x7BB8E056, '2005-02-09 10:00:00') /* Wall Hook */
-     , (0x7BB8E0AA, 0x7BB8E058, '2005-02-09 10:00:00') /* Wall Hook */
-     , (0x7BB8E0AA, 0x7BB8E059, '2005-02-09 10:00:00') /* Wall Hook */
-     , (0x7BB8E0AA, 0x7BB8E05B, '2005-02-09 10:00:00') /* Wall Hook */
-     , (0x7BB8E0AA, 0x7BB8E05C, '2005-02-09 10:00:00') /* Floor Hook */
-     , (0x7BB8E0AA, 0x7BB8E05D, '2005-02-09 10:00:00') /* Floor Hook */
-     , (0x7BB8E0AA, 0x7BB8E05E, '2005-02-09 10:00:00') /* Wall Hook */
-     , (0x7BB8E0AA, 0x7BB8E05F, '2005-02-09 10:00:00') /* Wall Hook */
-     , (0x7BB8E0AA, 0x7BB8E060, '2005-02-09 10:00:00') /* Floor Hook */
-     , (0x7BB8E0AA, 0x7BB8E061, '2005-02-09 10:00:00') /* Floor Hook */
-     , (0x7BB8E0AA, 0x7BB8E062, '2005-02-09 10:00:00') /* Floor Hook */
-     , (0x7BB8E0AA, 0x7BB8E063, '2005-02-09 10:00:00') /* Ceiling Hook */
-     , (0x7BB8E0AA, 0x7BB8E064, '2005-02-09 10:00:00') /* Wall Hook */
-     , (0x7BB8E0AA, 0x7BB8E065, '2005-02-09 10:00:00') /* Wall Hook */
-     , (0x7BB8E0AA, 0x7BB8E066, '2005-02-09 10:00:00') /* Wall Hook */
-     , (0x7BB8E0AA, 0x7BB8E067, '2005-02-09 10:00:00') /* Wall Hook */
-     , (0x7BB8E0AA, 0x7BB8E069, '2005-02-09 10:00:00') /* Wall Hook */
-     , (0x7BB8E0AA, 0x7BB8E06A, '2005-02-09 10:00:00') /* Ceiling Hook */
-     , (0x7BB8E0AA, 0x7BB8E06B, '2005-02-09 10:00:00') /* Wall Hook */
-     , (0x7BB8E0AA, 0x7BB8E06C, '2005-02-09 10:00:00') /* Wall Hook */
-     , (0x7BB8E0AA, 0x7BB8E06E, '2005-02-09 10:00:00') /* Wall Hook */
-     , (0x7BB8E0AA, 0x7BB8E0AE, '2005-02-09 10:00:00') /* Villa */
-     , (0x7BB8E0AA, 0x7BB8E0B1, '2005-02-09 10:00:00') /* BootSpot */
-     , (0x7BB8E0AA, 0x7BB8E0B7, '2005-02-09 10:00:00') /* House Portal */
-     , (0x7BB8E0AA, 0x7BB8E149, '2005-02-09 10:00:00') /* Wall Hook */
-     , (0x7BB8E0AA, 0x7BB8E14A, '2005-02-09 10:00:00') /* Ceiling Hook */
-     , (0x7BB8E0AA, 0x7BB8E14B, '2005-02-09 10:00:00') /* Floor Hook */
-     , (0x7BB8E0AA, 0x7BB8E14C, '2005-02-09 10:00:00') /* Floor Hook */
-     , (0x7BB8E0AA, 0x7BB8E14D, '2005-02-09 10:00:00') /* Wall Hook */
-     , (0x7BB8E0AA, 0x7BB8E14E, '2005-02-09 10:00:00') /* Wall Hook */
-     , (0x7BB8E0AA, 0x7BB8E14F, '2005-02-09 10:00:00') /* Wall Hook */
-     , (0x7BB8E0AA, 0x7BB8E150, '2005-02-09 10:00:00') /* Wall Hook */
-     , (0x7BB8E0AA, 0x7BB8E151, '2005-02-09 10:00:00') /* Floor Hook */
-     , (0x7BB8E0AA, 0x7BB8E152, '2005-02-09 10:00:00') /* Wall Hook */
-     , (0x7BB8E0AA, 0x7BB8E153, '2005-02-09 10:00:00') /* Wall Hook */
-     , (0x7BB8E0AA, 0x7BB8E154, '2005-02-09 10:00:00') /* Wall Hook */
-     , (0x7BB8E0AA, 0x7BB8E155, '2005-02-09 10:00:00') /* Wall Hook */
-     , (0x7BB8E0AA, 0x7BB8E156, '2005-02-09 10:00:00') /* Wall Hook */
-     , (0x7BB8E0AA, 0x7BB8E157, '2005-02-09 10:00:00') /* Wall Hook */
-     , (0x7BB8E0AA, 0x7BB8E158, '2005-02-09 10:00:00') /* Wall Hook */
-     , (0x7BB8E0AA, 0x7BB8E159, '2005-02-09 10:00:00') /* Wall Hook */
-     , (0x7BB8E0AA, 0x7BB8E15A, '2005-02-09 10:00:00') /* Wall Hook */
-     , (0x7BB8E0AA, 0x7BB8E15B, '2005-02-09 10:00:00') /* Ceiling Hook */
-     , (0x7BB8E0AA, 0x7BB8E15C, '2005-02-09 10:00:00') /* Ceiling Hook */
-     , (0x7BB8E0AA, 0x7BB8E15D, '2005-02-09 10:00:00') /* Floor Hook */
-     , (0x7BB8E0AA, 0x7BB8E15E, '2005-02-09 10:00:00') /* Wall Hook */
-     , (0x7BB8E0AA, 0x7BB8E15F, '2005-02-09 10:00:00') /* Wall Hook */
-     , (0x7BB8E0AA, 0x7BB8E160, '2005-02-09 10:00:00') /* Floor Hook */
-     , (0x7BB8E0AA, 0x7BB8E161, '2005-02-09 10:00:00') /* Wall Hook */
-     , (0x7BB8E0AA, 0x7BB8E162, '2005-02-09 10:00:00') /* Wall Hook */
-     , (0x7BB8E0AA, 0x7BB8E163, '2005-02-09 10:00:00') /* Wall Hook */
-     , (0x7BB8E0AA, 0x7BB8E164, '2005-02-09 10:00:00') /* Floor Hook */
-     , (0x7BB8E0AA, 0x7BB8E165, '2005-02-09 10:00:00') /* Ceiling Hook */
-     , (0x7BB8E0AA, 0x7BB8E166, '2005-02-09 10:00:00') /* Floor Hook */
-     , (0x7BB8E0AA, 0x7BB8E167, '2005-02-09 10:00:00') /* Floor Hook */
-     , (0x7BB8E0AA, 0x7BB8E168, '2005-02-09 10:00:00') /* Wall Hook */
-     , (0x7BB8E0AA, 0x7BB8E169, '2005-02-09 10:00:00') /* Wall Hook */
-     , (0x7BB8E0AA, 0x7BB8E16A, '2005-02-09 10:00:00') /* Floor Hook */
-     , (0x7BB8E0AA, 0x7BB8E16B, '2005-02-09 10:00:00') /* Wall Hook */
-     , (0x7BB8E0AA, 0x7BB8E16C, '2005-02-09 10:00:00') /* Wall Hook */
-     , (0x7BB8E0AA, 0x7BB8E16D, '2005-02-09 10:00:00') /* Wall Hook */
-     , (0x7BB8E0AA, 0x7BB8E16E, '2005-02-09 10:00:00') /* Wall Hook */
-     , (0x7BB8E0AA, 0x7BB8E16F, '2005-02-09 10:00:00') /* Wall Hook */
-     , (0x7BB8E0AA, 0x7BB8E170, '2005-02-09 10:00:00') /* Yard Hook */
-     , (0x7BB8E0AA, 0x7BB8E171, '2005-02-09 10:00:00') /* Yard Hook */
-     , (0x7BB8E0AA, 0x7BB8E172, '2005-02-09 10:00:00') /* Yard Hook */
-     , (0x7BB8E0AA, 0x7BB8E173, '2005-02-09 10:00:00') /* Yard Hook */
-     , (0x7BB8E0AA, 0x7BB8E174, '2005-02-09 10:00:00') /* Yard Hook */
-     , (0x7BB8E0AA, 0x7BB8E175, '2005-02-09 10:00:00') /* Yard Hook */
-     , (0x7BB8E0AA, 0x7BB8E176, '2005-02-09 10:00:00') /* Roof Hook */
-     , (0x7BB8E0AA, 0x7BB8E177, '2005-02-09 10:00:00') /* Roof Hook */;
+VALUES (0x7BB8E0AA, 0x7BB8E054, '2005-02-09 10:00:00') /* Floor Hook (11697) */
+     , (0x7BB8E0AA, 0x7BB8E055, '2005-02-09 10:00:00') /* Wall Hook (9686) */
+     , (0x7BB8E0AA, 0x7BB8E056, '2005-02-09 10:00:00') /* Wall Hook (9686) */
+     , (0x7BB8E0AA, 0x7BB8E058, '2005-02-09 10:00:00') /* Wall Hook (9686) */
+     , (0x7BB8E0AA, 0x7BB8E059, '2005-02-09 10:00:00') /* Wall Hook (9686) */
+     , (0x7BB8E0AA, 0x7BB8E05B, '2005-02-09 10:00:00') /* Wall Hook (9686) */
+     , (0x7BB8E0AA, 0x7BB8E05C, '2005-02-09 10:00:00') /* Floor Hook (11697) */
+     , (0x7BB8E0AA, 0x7BB8E05D, '2005-02-09 10:00:00') /* Floor Hook (11697) */
+     , (0x7BB8E0AA, 0x7BB8E05E, '2005-02-09 10:00:00') /* Wall Hook (9686) */
+     , (0x7BB8E0AA, 0x7BB8E05F, '2005-02-09 10:00:00') /* Wall Hook (9686) */
+     , (0x7BB8E0AA, 0x7BB8E060, '2005-02-09 10:00:00') /* Floor Hook (11697) */
+     , (0x7BB8E0AA, 0x7BB8E061, '2005-02-09 10:00:00') /* Floor Hook (11697) */
+     , (0x7BB8E0AA, 0x7BB8E062, '2005-02-09 10:00:00') /* Floor Hook (11697) */
+     , (0x7BB8E0AA, 0x7BB8E063, '2005-02-09 10:00:00') /* Ceiling Hook (11698) */
+     , (0x7BB8E0AA, 0x7BB8E064, '2005-02-09 10:00:00') /* Wall Hook (9686) */
+     , (0x7BB8E0AA, 0x7BB8E065, '2005-02-09 10:00:00') /* Wall Hook (9686) */
+     , (0x7BB8E0AA, 0x7BB8E066, '2005-02-09 10:00:00') /* Wall Hook (9686) */
+     , (0x7BB8E0AA, 0x7BB8E067, '2005-02-09 10:00:00') /* Wall Hook (9686) */
+     , (0x7BB8E0AA, 0x7BB8E069, '2005-02-09 10:00:00') /* Wall Hook (9686) */
+     , (0x7BB8E0AA, 0x7BB8E06A, '2005-02-09 10:00:00') /* Ceiling Hook (11698) */
+     , (0x7BB8E0AA, 0x7BB8E06B, '2005-02-09 10:00:00') /* Wall Hook (9686) */
+     , (0x7BB8E0AA, 0x7BB8E06C, '2005-02-09 10:00:00') /* Wall Hook (9686) */
+     , (0x7BB8E0AA, 0x7BB8E06E, '2005-02-09 10:00:00') /* Wall Hook (9686) */
+     , (0x7BB8E0AA, 0x7BB8E0AE, '2005-02-09 10:00:00') /* Villa (11717) */
+     , (0x7BB8E0AA, 0x7BB8E0B1, '2005-02-09 10:00:00') /* BootSpot (10707) */
+     , (0x7BB8E0AA, 0x7BB8E0B7, '2005-02-09 10:00:00') /* House Portal (11730) */
+     , (0x7BB8E0AA, 0x7BB8E149, '2005-02-09 10:00:00') /* Wall Hook (9686) */
+     , (0x7BB8E0AA, 0x7BB8E14A, '2005-02-09 10:00:00') /* Ceiling Hook (11698) */
+     , (0x7BB8E0AA, 0x7BB8E14B, '2005-02-09 10:00:00') /* Floor Hook (11697) */
+     , (0x7BB8E0AA, 0x7BB8E14C, '2005-02-09 10:00:00') /* Floor Hook (11697) */
+     , (0x7BB8E0AA, 0x7BB8E14D, '2005-02-09 10:00:00') /* Wall Hook (9686) */
+     , (0x7BB8E0AA, 0x7BB8E14E, '2005-02-09 10:00:00') /* Wall Hook (9686) */
+     , (0x7BB8E0AA, 0x7BB8E14F, '2005-02-09 10:00:00') /* Wall Hook (9686) */
+     , (0x7BB8E0AA, 0x7BB8E150, '2005-02-09 10:00:00') /* Wall Hook (9686) */
+     , (0x7BB8E0AA, 0x7BB8E151, '2005-02-09 10:00:00') /* Floor Hook (11697) */
+     , (0x7BB8E0AA, 0x7BB8E152, '2005-02-09 10:00:00') /* Wall Hook (9686) */
+     , (0x7BB8E0AA, 0x7BB8E153, '2005-02-09 10:00:00') /* Wall Hook (9686) */
+     , (0x7BB8E0AA, 0x7BB8E154, '2005-02-09 10:00:00') /* Wall Hook (9686) */
+     , (0x7BB8E0AA, 0x7BB8E155, '2005-02-09 10:00:00') /* Wall Hook (9686) */
+     , (0x7BB8E0AA, 0x7BB8E156, '2005-02-09 10:00:00') /* Wall Hook (9686) */
+     , (0x7BB8E0AA, 0x7BB8E157, '2005-02-09 10:00:00') /* Wall Hook (9686) */
+     , (0x7BB8E0AA, 0x7BB8E158, '2005-02-09 10:00:00') /* Wall Hook (9686) */
+     , (0x7BB8E0AA, 0x7BB8E159, '2005-02-09 10:00:00') /* Wall Hook (9686) */
+     , (0x7BB8E0AA, 0x7BB8E15A, '2005-02-09 10:00:00') /* Wall Hook (9686) */
+     , (0x7BB8E0AA, 0x7BB8E15B, '2005-02-09 10:00:00') /* Ceiling Hook (11698) */
+     , (0x7BB8E0AA, 0x7BB8E15C, '2005-02-09 10:00:00') /* Ceiling Hook (11698) */
+     , (0x7BB8E0AA, 0x7BB8E15D, '2005-02-09 10:00:00') /* Floor Hook (11697) */
+     , (0x7BB8E0AA, 0x7BB8E15E, '2005-02-09 10:00:00') /* Wall Hook (9686) */
+     , (0x7BB8E0AA, 0x7BB8E15F, '2005-02-09 10:00:00') /* Wall Hook (9686) */
+     , (0x7BB8E0AA, 0x7BB8E160, '2005-02-09 10:00:00') /* Floor Hook (11697) */
+     , (0x7BB8E0AA, 0x7BB8E161, '2005-02-09 10:00:00') /* Wall Hook (9686) */
+     , (0x7BB8E0AA, 0x7BB8E162, '2005-02-09 10:00:00') /* Wall Hook (9686) */
+     , (0x7BB8E0AA, 0x7BB8E163, '2005-02-09 10:00:00') /* Wall Hook (9686) */
+     , (0x7BB8E0AA, 0x7BB8E164, '2005-02-09 10:00:00') /* Floor Hook (11697) */
+     , (0x7BB8E0AA, 0x7BB8E165, '2005-02-09 10:00:00') /* Ceiling Hook (11698) */
+     , (0x7BB8E0AA, 0x7BB8E166, '2005-02-09 10:00:00') /* Floor Hook (11697) */
+     , (0x7BB8E0AA, 0x7BB8E167, '2005-02-09 10:00:00') /* Floor Hook (11697) */
+     , (0x7BB8E0AA, 0x7BB8E168, '2005-02-09 10:00:00') /* Wall Hook (9686) */
+     , (0x7BB8E0AA, 0x7BB8E169, '2005-02-09 10:00:00') /* Wall Hook (9686) */
+     , (0x7BB8E0AA, 0x7BB8E16A, '2005-02-09 10:00:00') /* Floor Hook (11697) */
+     , (0x7BB8E0AA, 0x7BB8E16B, '2005-02-09 10:00:00') /* Wall Hook (9686) */
+     , (0x7BB8E0AA, 0x7BB8E16C, '2005-02-09 10:00:00') /* Wall Hook (9686) */
+     , (0x7BB8E0AA, 0x7BB8E16D, '2005-02-09 10:00:00') /* Wall Hook (9686) */
+     , (0x7BB8E0AA, 0x7BB8E16E, '2005-02-09 10:00:00') /* Wall Hook (9686) */
+     , (0x7BB8E0AA, 0x7BB8E16F, '2005-02-09 10:00:00') /* Wall Hook (9686) */
+     , (0x7BB8E0AA, 0x7BB8E170, '2005-02-09 10:00:00') /* Yard Hook (12679) */
+     , (0x7BB8E0AA, 0x7BB8E171, '2005-02-09 10:00:00') /* Yard Hook (12679) */
+     , (0x7BB8E0AA, 0x7BB8E172, '2005-02-09 10:00:00') /* Yard Hook (12679) */
+     , (0x7BB8E0AA, 0x7BB8E173, '2005-02-09 10:00:00') /* Yard Hook (12679) */
+     , (0x7BB8E0AA, 0x7BB8E174, '2005-02-09 10:00:00') /* Yard Hook (12679) */
+     , (0x7BB8E0AA, 0x7BB8E175, '2005-02-09 10:00:00') /* Yard Hook (12679) */
+     , (0x7BB8E0AA, 0x7BB8E176, '2005-02-09 10:00:00') /* Roof Hook (12678) */
+     , (0x7BB8E0AA, 0x7BB8E177, '2005-02-09 10:00:00') /* Roof Hook (12678) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BB8E0AB, 11717, 0xBB8E0000, 145.412, 88.4683, 48.005, 0.707444, 0, 0, -0.706769,  True, '2005-02-09 10:00:00'); /* Villa */
@@ -1158,42 +1158,42 @@ VALUES (0x7BB8E0B2, 11730, 0xBB8E01AD, 93.274, 157.781, 35.205, 0.707107, 0, 0, 
 /* @teleloc 0xBB8E01AD [93.274000 157.781000 35.205000] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BB8E0B2, 0x7BB8E1E4, '2005-02-09 10:00:00') /* Portal Linkspot */;
+VALUES (0x7BB8E0B2, 0x7BB8E1E4, '2005-02-09 10:00:00') /* Portal Linkspot (10762) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BB8E0B3, 11730, 0xBB8E0191, 157.401, 147.059, 31.205, -4.37114E-08, 0, 0, -1,  True, '2005-02-09 10:00:00'); /* House Portal */
 /* @teleloc 0xBB8E0191 [157.401000 147.059000 31.205000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BB8E0B3, 0x7BB8E1E3, '2005-02-09 10:00:00') /* Portal Linkspot */;
+VALUES (0x7BB8E0B3, 0x7BB8E1E3, '2005-02-09 10:00:00') /* Portal Linkspot (10762) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BB8E0B4, 11730, 0xBB8E0137, 154.287, 85.495, 43.205, -0.707107, 0, 0, -0.707107,  True, '2005-02-09 10:00:00'); /* House Portal */
 /* @teleloc 0xBB8E0137 [154.287000 85.495000 43.205000] -0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BB8E0B4, 0x7BB8E1E2, '2005-02-09 10:00:00') /* Portal Linkspot */;
+VALUES (0x7BB8E0B4, 0x7BB8E1E2, '2005-02-09 10:00:00') /* Portal Linkspot (10762) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BB8E0B5, 11730, 0xBB8E0156, 122.761, 35.196, 57.205, -0.707107, 0, 0, -0.707107,  True, '2005-02-09 10:00:00'); /* House Portal */
 /* @teleloc 0xBB8E0156 [122.761000 35.196000 57.205000] -0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BB8E0B5, 0x7BB8E1DF, '2005-02-09 10:00:00') /* Portal Linkspot */;
+VALUES (0x7BB8E0B5, 0x7BB8E1DF, '2005-02-09 10:00:00') /* Portal Linkspot (10762) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BB8E0B6, 11730, 0xBB8E0118, 62.041, 37.951, 53.205, 1, 0, 0, 0,  True, '2005-02-09 10:00:00'); /* House Portal */
 /* @teleloc 0xBB8E0118 [62.041000 37.951000 53.205000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BB8E0B6, 0x7BB8E1E1, '2005-02-09 10:00:00') /* Portal Linkspot */;
+VALUES (0x7BB8E0B6, 0x7BB8E1E1, '2005-02-09 10:00:00') /* Portal Linkspot (10762) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BB8E0B7, 11730, 0xBB8E0172, 37.394, 105.865, 39.205, 0.707107, 0, 0, -0.707107,  True, '2005-02-09 10:00:00'); /* House Portal */
 /* @teleloc 0xBB8E0172 [37.394000 105.865000 39.205000] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BB8E0B7, 0x7BB8E1E0, '2005-02-09 10:00:00') /* Portal Linkspot */;
+VALUES (0x7BB8E0B7, 0x7BB8E1E0, '2005-02-09 10:00:00') /* Portal Linkspot (10762) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BB8E0B8,  9686, 0xBB8E0107, 55.9696, 25.0345, 60.25, -4.37114E-08, 0, 0, -1,  True, '2005-02-09 10:00:00'); /* Wall Hook */

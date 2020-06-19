@@ -45,9 +45,9 @@ VALUES (0x79F2F00A,  1154, 0x9F2F0000, 46.6406, 49.2597, 64.005, -0.343254, 0, 0
 /* @teleloc 0x9F2F0000 [46.640600 49.259700 64.005000] -0.343254 0.000000 0.000000 0.939243 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79F2F00A, 0x79F2F003, '2005-02-09 10:00:00') /* Gotrok Amploth */
-     , (0x79F2F00A, 0x79F2F004, '2005-02-09 10:00:00') /* Gotrok Amploth */
-     , (0x79F2F00A, 0x79F2F005, '2005-02-09 10:00:00') /* Gotrok Amploth */
-     , (0x79F2F00A, 0x79F2F006, '2005-02-09 10:00:00') /* Gotrok Amploth */
-     , (0x79F2F00A, 0x79F2F007, '2005-02-09 10:00:00') /* Gotrok Obeloth */
-     , (0x79F2F00A, 0x79F2F008, '2005-02-09 10:00:00') /* Gotrok Obeloth */;
+VALUES (0x79F2F00A, 0x79F2F003, '2005-02-09 10:00:00') /* Gotrok Amploth (24939) */
+     , (0x79F2F00A, 0x79F2F004, '2005-02-09 10:00:00') /* Gotrok Amploth (24939) */
+     , (0x79F2F00A, 0x79F2F005, '2005-02-09 10:00:00') /* Gotrok Amploth (24939) */
+     , (0x79F2F00A, 0x79F2F006, '2005-02-09 10:00:00') /* Gotrok Amploth (24939) */
+     , (0x79F2F00A, 0x79F2F007, '2005-02-09 10:00:00') /* Gotrok Obeloth (24943) */
+     , (0x79F2F00A, 0x79F2F008, '2005-02-09 10:00:00') /* Gotrok Obeloth (24943) */;

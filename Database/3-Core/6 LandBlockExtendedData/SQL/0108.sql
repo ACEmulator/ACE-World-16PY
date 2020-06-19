@@ -9,14 +9,14 @@ VALUES (0x70108001,  4047, 0x01080100, 50.3569, -140.511, -27.6487, 1, 0, 0, 0, 
 /* @teleloc 0x01080100 [50.356900 -140.511000 -27.648700] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x70108001, 0x70108000, '2005-02-09 10:00:00') /* Pressure Plate */;
+VALUES (0x70108001, 0x70108000, '2005-02-09 10:00:00') /* Pressure Plate (2131) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x70108002,  4057, 0x01080100, 50.0385, -139.029, -28.1169, 1, 0, 0, 0, False, '2005-02-09 10:00:00'); /* Acid Trap */
 /* @teleloc 0x01080100 [50.038500 -139.029000 -28.116900] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x70108002, 0x70108006, '2005-02-09 10:00:00') /* Pressure Plate */;
+VALUES (0x70108002, 0x70108006, '2005-02-09 10:00:00') /* Pressure Plate (2131) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x70108003,   211, 0x01080101, 50.3304, -145.704, -29.9945, -0.778143, 0, 0, 0.628088,  True, '2005-02-09 10:00:00'); /* Mudlurk Mosswart */
@@ -39,7 +39,7 @@ VALUES (0x70108007,  4059, 0x01080102, 59.2858, -140.21, -27.8627, 1, 0, 0, 0, F
 /* @teleloc 0x01080102 [59.285800 -140.210000 -27.862700] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x70108007, 0x70108004, '2005-02-09 10:00:00') /* Pressure Plate */;
+VALUES (0x70108007, 0x70108004, '2005-02-09 10:00:00') /* Pressure Plate (2131) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x70108008,   211, 0x01080102, 59.8646, -138.723, -29.9945, 1, 0, 0, 0,  True, '2005-02-09 10:00:00'); /* Mudlurk Mosswart */
@@ -66,7 +66,7 @@ VALUES (0x7010800D,  4059, 0x01080103, 60.5839, -149.809, -27.7959, 1, 0, 0, 0, 
 /* @teleloc 0x01080103 [60.583900 -149.809000 -27.795900] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7010800D, 0x7010800B, '2005-02-09 10:00:00') /* Pressure Plate */;
+VALUES (0x7010800D, 0x7010800B, '2005-02-09 10:00:00') /* Pressure Plate (2131) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7010800E,  2131, 0x01080104, 67.039, -141.359, -30, 1, 0, 0, -4.37114E-08,  True, '2005-02-09 10:00:00'); /* Pressure Plate */
@@ -77,14 +77,14 @@ VALUES (0x7010800F,  4057, 0x01080104, 69.9995, -140.781, -28.1254, -4.37114E-08
 /* @teleloc 0x01080104 [69.999500 -140.781000 -28.125400] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7010800F, 0x70108005, '2005-02-09 10:00:00') /* Pressure Plate */;
+VALUES (0x7010800F, 0x70108005, '2005-02-09 10:00:00') /* Pressure Plate (2131) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x70108010,  4047, 0x01080104, 69.781, -139.493, -27.6974, -4.37114E-08, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Acid Trap */
 /* @teleloc 0x01080104 [69.781000 -139.493000 -27.697400] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x70108010, 0x7010800E, '2005-02-09 10:00:00') /* Pressure Plate */;
+VALUES (0x70108010, 0x7010800E, '2005-02-09 10:00:00') /* Pressure Plate (2131) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x70108011,   948, 0x01080104, 65.3682, -138.882, -29.9945, 1, 0, 0, -4.37114E-08,  True, '2005-02-09 10:00:00'); /* Mosswart Feeder */
@@ -123,7 +123,7 @@ VALUES (0x70108019,  4047, 0x01080133, 20.059, -0.634262, -9.836, -0.707107, 0, 
 /* @teleloc 0x01080133 [20.059000 -0.634262 -9.836000] -0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x70108019, 0x7010801A, '2005-02-09 10:00:00') /* Pressure Plate */;
+VALUES (0x70108019, 0x7010801A, '2005-02-09 10:00:00') /* Pressure Plate (2131) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7010801A,  2131, 0x01080134, 19.9616, -3.35748, -12, -0.707107, 0, 0, -0.707107,  True, '2005-02-09 10:00:00'); /* Pressure Plate */
@@ -134,7 +134,7 @@ VALUES (0x7010801B,  4072, 0x01080136, 28.3958, 0.442192, -10.7244, -0.728893, 0
 /* @teleloc 0x01080136 [28.395800 0.442192 -10.724400] -0.728893 0.000000 0.000000 -0.684628 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7010801B, 0x7010801C, '2005-02-09 10:00:00') /* Pressure Plate */;
+VALUES (0x7010801B, 0x7010801C, '2005-02-09 10:00:00') /* Pressure Plate (2131) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7010801C,  2131, 0x01080137, 25.3447, 0.263021, -12, 1, 0, 0, 0,  True, '2005-02-09 10:00:00'); /* Pressure Plate */
@@ -149,7 +149,7 @@ VALUES (0x7010801E,  4047, 0x01080141, 39.4868, -9.36574, -9.86275, 0.707107, 0,
 /* @teleloc 0x01080141 [39.486800 -9.365740 -9.862750] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7010801E, 0x7010801D, '2005-02-09 10:00:00') /* Pressure Plate */;
+VALUES (0x7010801E, 0x7010801D, '2005-02-09 10:00:00') /* Pressure Plate (2131) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7010801F,   948, 0x01080145, 39.0533, -97.5948, -11.9945, -4.37114E-08, 0, 0, -1,  True, '2005-02-09 10:00:00'); /* Mosswart Feeder */
@@ -168,7 +168,7 @@ VALUES (0x70108022,  4093, 0x0108014A, 49.153, -0.100165, -9.18063, 1, 0, 0, 0, 
 /* @teleloc 0x0108014A [49.153000 -0.100165 -9.180630] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x70108022, 0x70108023, '2005-02-09 10:00:00') /* Pressure Plate */;
+VALUES (0x70108022, 0x70108023, '2005-02-09 10:00:00') /* Pressure Plate (2131) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x70108023,  2131, 0x0108014B, 45.7218, -0.612824, -12, 1, 0, 0, 0,  True, '2005-02-09 10:00:00'); /* Pressure Plate */
@@ -183,14 +183,14 @@ VALUES (0x70108025,  4084, 0x0108014E, 53.1681, -9.07807, -9.30663, -0.663052, 0
 /* @teleloc 0x0108014E [53.168100 -9.078070 -9.306630] -0.663052 0.000000 0.000000 0.748573 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x70108025, 0x70108024, '2005-02-09 10:00:00') /* Pressure Plate */;
+VALUES (0x70108025, 0x70108024, '2005-02-09 10:00:00') /* Pressure Plate (2131) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x70108026,  4069, 0x01080150, 50.6122, -19.8469, -9.27425, -0.707107, 0, 0, -0.707107, False, '2005-02-09 10:00:00'); /* Magic trap */
 /* @teleloc 0x01080150 [50.612200 -19.846900 -9.274250] -0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x70108026, 0x70108027, '2005-02-09 10:00:00') /* Pressure Plate */;
+VALUES (0x70108026, 0x70108027, '2005-02-09 10:00:00') /* Pressure Plate (2131) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x70108027,  2131, 0x01080152, 54.2325, -20.1421, -12, -0.707107, 0, 0, -0.707107,  True, '2005-02-09 10:00:00'); /* Pressure Plate */
@@ -201,7 +201,7 @@ VALUES (0x70108028,  4047, 0x01080156, 50.5751, -40.2756, -9.82263, -0.707107, 0
 /* @teleloc 0x01080156 [50.575100 -40.275600 -9.822630] -0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x70108028, 0x70108029, '2005-02-09 10:00:00') /* Pressure Plate */;
+VALUES (0x70108028, 0x70108029, '2005-02-09 10:00:00') /* Pressure Plate (2131) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x70108029,  2131, 0x01080158, 53.9554, -39.9594, -12, -0.707107, 0, 0, -0.707107,  True, '2005-02-09 10:00:00'); /* Pressure Plate */
@@ -216,14 +216,14 @@ VALUES (0x7010802B,  4057, 0x01080159, 49.147, -49.9708, -9.80925, -0.707107, 0,
 /* @teleloc 0x01080159 [49.147000 -49.970800 -9.809250] -0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7010802B, 0x7010802A, '2005-02-09 10:00:00') /* Pressure Plate */;
+VALUES (0x7010802B, 0x7010802A, '2005-02-09 10:00:00') /* Pressure Plate (2131) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7010802C,  4059, 0x01080161, 49.366, -110.068, -9.7825, 0.707107, 0, 0, -0.707107, False, '2005-02-09 10:00:00'); /* Lightning Trap */
 /* @teleloc 0x01080161 [49.366000 -110.068000 -9.782500] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7010802C, 0x7010802D, '2005-02-09 10:00:00') /* Pressure Plate */;
+VALUES (0x7010802C, 0x7010802D, '2005-02-09 10:00:00') /* Pressure Plate (2131) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7010802D,  2131, 0x01080161, 49.5064, -107.421, -12, 0.707107, 0, 0, -0.707107,  True, '2005-02-09 10:00:00'); /* Pressure Plate */
@@ -234,14 +234,14 @@ VALUES (0x7010802E,  4047, 0x01080164, 60.5964, -9.3987, -9.86275, 1, 0, 0, 0, F
 /* @teleloc 0x01080164 [60.596400 -9.398700 -9.862750] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7010802E, 0x70108037, '2005-02-09 10:00:00') /* Pressure Plate */;
+VALUES (0x7010802E, 0x70108037, '2005-02-09 10:00:00') /* Pressure Plate (2131) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7010802F,  4072, 0x01080167, 58.7836, -14.9048, -9.2665, -0.993211, 0, 0, -0.116329, False, '2005-02-09 10:00:00'); /* Magic trap */
 /* @teleloc 0x01080167 [58.783600 -14.904800 -9.266500] -0.993211 0.000000 0.000000 -0.116329 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7010802F, 0x70108030, '2005-02-09 10:00:00') /* Pressure Plate */;
+VALUES (0x7010802F, 0x70108030, '2005-02-09 10:00:00') /* Pressure Plate (2131) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x70108030,  2131, 0x01080169, 60.0149, -15.6198, -12, 1, 0, 0, 0,  True, '2005-02-09 10:00:00'); /* Pressure Plate */
@@ -252,7 +252,7 @@ VALUES (0x70108031,  4047, 0x0108016B, 59.6393, -30.7202, -9.78249, 1, 0, 0, 0, 
 /* @teleloc 0x0108016B [59.639300 -30.720200 -9.782490] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x70108031, 0x70108032, '2005-02-09 10:00:00') /* Pressure Plate */;
+VALUES (0x70108031, 0x70108032, '2005-02-09 10:00:00') /* Pressure Plate (2131) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x70108032,  2131, 0x0108016C, 56.3124, -30.4396, -12, 1, 0, 0, 0,  True, '2005-02-09 10:00:00'); /* Pressure Plate */
@@ -263,7 +263,7 @@ VALUES (0x70108033,  4084, 0x01080174, 59.3802, -100.609, -9.194, 1, 0, 0, 0, Fa
 /* @teleloc 0x01080174 [59.380200 -100.609000 -9.194000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x70108033, 0x70108034, '2005-02-09 10:00:00') /* Pressure Plate */;
+VALUES (0x70108033, 0x70108034, '2005-02-09 10:00:00') /* Pressure Plate (2131) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x70108034,  2131, 0x01080176, 59.9293, -103.486, -12, 1, 0, 0, 0,  True, '2005-02-09 10:00:00'); /* Pressure Plate */
@@ -278,7 +278,7 @@ VALUES (0x70108036,  4075, 0x0108017A, 60.7104, -120.455, -9.00675, -0.707107, 0
 /* @teleloc 0x0108017A [60.710400 -120.455000 -9.006750] -0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x70108036, 0x70108035, '2005-02-09 10:00:00') /* Pressure Plate */;
+VALUES (0x70108036, 0x70108035, '2005-02-09 10:00:00') /* Pressure Plate (2131) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x70108037,  2131, 0x01080181, 65.4119, -10.0373, -12, 1, 0, 0, 0,  True, '2005-02-09 10:00:00'); /* Pressure Plate */
@@ -293,7 +293,7 @@ VALUES (0x70108039,  4047, 0x01080183, 70.7237, -19.7392, -9.82262, -4.37114E-08
 /* @teleloc 0x01080183 [70.723700 -19.739200 -9.822620] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x70108039, 0x70108038, '2005-02-09 10:00:00') /* Pressure Plate */;
+VALUES (0x70108039, 0x70108038, '2005-02-09 10:00:00') /* Pressure Plate (2131) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7010803A,   948, 0x01080186, 65.038, -50.951, -11.994, -0.707107, 0, 0, -0.707107,  True, '2005-02-09 10:00:00'); /* Mosswart Feeder */
@@ -308,52 +308,52 @@ VALUES (0x7010803C,  4049, 0x01080189, 70.8271, -109.962, -9.8895, 0.707107, 0, 
 /* @teleloc 0x01080189 [70.827100 -109.962000 -9.889500] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7010803C, 0x7010803F, '2005-02-09 10:00:00') /* Pressure Plate */;
+VALUES (0x7010803C, 0x7010803F, '2005-02-09 10:00:00') /* Pressure Plate (2131) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7010803D,  3955, 0x01080189, 68.3598, -109.33, -12, 0.707107, 0, 0, -0.707107, False, '2005-02-09 10:00:00'); /* Linkable Monster Gen (15 min.) */
 /* @teleloc 0x01080189 [68.359800 -109.330000 -12.000000] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7010803D, 0x70108003, '2005-02-09 10:00:00') /* Mudlurk Mosswart */
-     , (0x7010803D, 0x70108012, '2005-02-09 10:00:00') /* Mosswart Feeder */
-     , (0x7010803D, 0x7010804C, '2005-02-09 10:00:00') /* Creeper Mosswart */
-     , (0x7010803D, 0x70108050, '2005-02-09 10:00:00') /* Creeper Mosswart */
-     , (0x7010803D, 0x70108051, '2005-02-09 10:00:00') /* Creeper Mosswart */
-     , (0x7010803D, 0x70108055, '2005-02-09 10:00:00') /* Creeper Mosswart */
-     , (0x7010803D, 0x70108056, '2005-02-09 10:00:00') /* Creeper Mosswart */
-     , (0x7010803D, 0x70108057, '2005-02-09 10:00:00') /* Creeper Mosswart */
-     , (0x7010803D, 0x70108058, '2005-02-09 10:00:00') /* Mosswart Feeder */
-     , (0x7010803D, 0x70108059, '2005-02-09 10:00:00') /* Mosswart Feeder */
-     , (0x7010803D, 0x7010805A, '2005-02-09 10:00:00') /* Mosswart Feeder */
-     , (0x7010803D, 0x7010805B, '2005-02-09 10:00:00') /* Creeper Mosswart */
-     , (0x7010803D, 0x7010805E, '2005-02-09 10:00:00') /* Mosswart Feeder */
-     , (0x7010803D, 0x7010805F, '2005-02-09 10:00:00') /* Creeper Mosswart */
-     , (0x7010803D, 0x70108060, '2005-02-09 10:00:00') /* Creeper Mosswart */;
+VALUES (0x7010803D, 0x70108003, '2005-02-09 10:00:00') /* Mudlurk Mosswart (211) */
+     , (0x7010803D, 0x70108012, '2005-02-09 10:00:00') /* Mosswart Feeder (948) */
+     , (0x7010803D, 0x7010804C, '2005-02-09 10:00:00') /* Creeper Mosswart (8) */
+     , (0x7010803D, 0x70108050, '2005-02-09 10:00:00') /* Creeper Mosswart (8) */
+     , (0x7010803D, 0x70108051, '2005-02-09 10:00:00') /* Creeper Mosswart (8) */
+     , (0x7010803D, 0x70108055, '2005-02-09 10:00:00') /* Creeper Mosswart (8) */
+     , (0x7010803D, 0x70108056, '2005-02-09 10:00:00') /* Creeper Mosswart (8) */
+     , (0x7010803D, 0x70108057, '2005-02-09 10:00:00') /* Creeper Mosswart (8) */
+     , (0x7010803D, 0x70108058, '2005-02-09 10:00:00') /* Mosswart Feeder (948) */
+     , (0x7010803D, 0x70108059, '2005-02-09 10:00:00') /* Mosswart Feeder (948) */
+     , (0x7010803D, 0x7010805A, '2005-02-09 10:00:00') /* Mosswart Feeder (948) */
+     , (0x7010803D, 0x7010805B, '2005-02-09 10:00:00') /* Creeper Mosswart (8) */
+     , (0x7010803D, 0x7010805E, '2005-02-09 10:00:00') /* Mosswart Feeder (948) */
+     , (0x7010803D, 0x7010805F, '2005-02-09 10:00:00') /* Creeper Mosswart (8) */
+     , (0x7010803D, 0x70108060, '2005-02-09 10:00:00') /* Creeper Mosswart (8) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7010803E,  3955, 0x01080189, 68.5734, -107.908, -12, 0.707107, 0, 0, -0.707107, False, '2005-02-09 10:00:00'); /* Linkable Monster Gen (15 min.) */
 /* @teleloc 0x01080189 [68.573400 -107.908000 -12.000000] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7010803E, 0x70108008, '2005-02-09 10:00:00') /* Mudlurk Mosswart */
-     , (0x7010803E, 0x7010800A, '2005-02-09 10:00:00') /* Barker Mosswart */
-     , (0x7010803E, 0x70108011, '2005-02-09 10:00:00') /* Mosswart Feeder */
-     , (0x7010803E, 0x70108013, '2005-02-09 10:00:00') /* Mosswart Feeder */
-     , (0x7010803E, 0x70108014, '2005-02-09 10:00:00') /* Mudlurk Mosswart */
-     , (0x7010803E, 0x70108015, '2005-02-09 10:00:00') /* Barker Mosswart */
-     , (0x7010803E, 0x70108016, '2005-02-09 10:00:00') /* Mosswart Feeder */
-     , (0x7010803E, 0x70108017, '2005-02-09 10:00:00') /* Barker Mosswart */
-     , (0x7010803E, 0x7010801F, '2005-02-09 10:00:00') /* Mosswart Feeder */
-     , (0x7010803E, 0x70108020, '2005-02-09 10:00:00') /* Mosswart Feeder */
-     , (0x7010803E, 0x7010803A, '2005-02-09 10:00:00') /* Mosswart Feeder */
-     , (0x7010803E, 0x7010803B, '2005-02-09 10:00:00') /* Mosswart Feeder */
-     , (0x7010803E, 0x70108048, '2005-02-09 10:00:00') /* Mosswart Feeder */
-     , (0x7010803E, 0x70108049, '2005-02-09 10:00:00') /* Mosswart Feeder */
-     , (0x7010803E, 0x7010804B, '2005-02-09 10:00:00') /* Mudlurk Mosswart */
-     , (0x7010803E, 0x7010804F, '2005-02-09 10:00:00') /* Barker Mosswart */
-     , (0x7010803E, 0x70108053, '2005-02-09 10:00:00') /* Creeper Mosswart */
-     , (0x7010803E, 0x70108061, '2005-02-09 10:00:00') /* Barker Mosswart */;
+VALUES (0x7010803E, 0x70108008, '2005-02-09 10:00:00') /* Mudlurk Mosswart (211) */
+     , (0x7010803E, 0x7010800A, '2005-02-09 10:00:00') /* Barker Mosswart (947) */
+     , (0x7010803E, 0x70108011, '2005-02-09 10:00:00') /* Mosswart Feeder (948) */
+     , (0x7010803E, 0x70108013, '2005-02-09 10:00:00') /* Mosswart Feeder (948) */
+     , (0x7010803E, 0x70108014, '2005-02-09 10:00:00') /* Mudlurk Mosswart (211) */
+     , (0x7010803E, 0x70108015, '2005-02-09 10:00:00') /* Barker Mosswart (947) */
+     , (0x7010803E, 0x70108016, '2005-02-09 10:00:00') /* Mosswart Feeder (948) */
+     , (0x7010803E, 0x70108017, '2005-02-09 10:00:00') /* Barker Mosswart (947) */
+     , (0x7010803E, 0x7010801F, '2005-02-09 10:00:00') /* Mosswart Feeder (948) */
+     , (0x7010803E, 0x70108020, '2005-02-09 10:00:00') /* Mosswart Feeder (948) */
+     , (0x7010803E, 0x7010803A, '2005-02-09 10:00:00') /* Mosswart Feeder (948) */
+     , (0x7010803E, 0x7010803B, '2005-02-09 10:00:00') /* Mosswart Feeder (948) */
+     , (0x7010803E, 0x70108048, '2005-02-09 10:00:00') /* Mosswart Feeder (948) */
+     , (0x7010803E, 0x70108049, '2005-02-09 10:00:00') /* Mosswart Feeder (948) */
+     , (0x7010803E, 0x7010804B, '2005-02-09 10:00:00') /* Mudlurk Mosswart (211) */
+     , (0x7010803E, 0x7010804F, '2005-02-09 10:00:00') /* Barker Mosswart (947) */
+     , (0x7010803E, 0x70108053, '2005-02-09 10:00:00') /* Creeper Mosswart (8) */
+     , (0x7010803E, 0x70108061, '2005-02-09 10:00:00') /* Barker Mosswart (947) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7010803F,  2131, 0x0108018E, 70.0478, -116.395, -12, 0.707107, 0, 0, -0.707107,  True, '2005-02-09 10:00:00'); /* Pressure Plate */
@@ -368,7 +368,7 @@ VALUES (0x70108041,  4075, 0x01080190, 67.1523, -130.694, -10.0155, -0.879537, 0
 /* @teleloc 0x01080190 [67.152300 -130.694000 -10.015500] -0.879537 0.000000 0.000000 0.475830 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x70108041, 0x70108040, '2005-02-09 10:00:00') /* Pressure Plate */;
+VALUES (0x70108041, 0x70108040, '2005-02-09 10:00:00') /* Pressure Plate (2131) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x70108042,  2131, 0x01080193, 71.9707, -139.255, -12, -0.38651, 0, 0, -0.922285,  True, '2005-02-09 10:00:00'); /* Pressure Plate */
@@ -379,14 +379,14 @@ VALUES (0x70108043,  4072, 0x01080193, 70.4362, -139.528, -9.28763, -4.37114E-08
 /* @teleloc 0x01080193 [70.436200 -139.528000 -9.287630] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x70108043, 0x70108042, '2005-02-09 10:00:00') /* Pressure Plate */;
+VALUES (0x70108043, 0x70108042, '2005-02-09 10:00:00') /* Pressure Plate (2131) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x70108044,  4047, 0x01080196, 80.6927, -10.5257, -9.86275, -0.707107, 0, 0, -0.707107, False, '2005-02-09 10:00:00'); /* Acid Trap */
 /* @teleloc 0x01080196 [80.692700 -10.525700 -9.862750] -0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x70108044, 0x70108045, '2005-02-09 10:00:00') /* Pressure Plate */;
+VALUES (0x70108044, 0x70108045, '2005-02-09 10:00:00') /* Pressure Plate (2131) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x70108045,  2131, 0x01080197, 80.1765, -14.7923, -12, -0.707107, 0, 0, -0.707107,  True, '2005-02-09 10:00:00'); /* Pressure Plate */
@@ -401,7 +401,7 @@ VALUES (0x70108047,  4049, 0x0108019C, 79.2821, -139.847, -9.82263, 0.707107, 0,
 /* @teleloc 0x0108019C [79.282100 -139.847000 -9.822630] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x70108047, 0x70108046, '2005-02-09 10:00:00') /* Pressure Plate */;
+VALUES (0x70108047, 0x70108046, '2005-02-09 10:00:00') /* Pressure Plate (2131) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x70108048,   948, 0x010801A2, 90.5693, -22.8821, -11.9945, 1, 0, 0, 0,  True, '2005-02-09 10:00:00'); /* Mosswart Feeder */
@@ -432,7 +432,7 @@ VALUES (0x7010804E,  4047, 0x010801C7, 10.5457, -68.729, 2.13725, 0.707107, 0, 0
 /* @teleloc 0x010801C7 [10.545700 -68.729000 2.137250] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7010804E, 0x7010804D, '2005-02-09 10:00:00') /* Pressure Plate */;
+VALUES (0x7010804E, 0x7010804D, '2005-02-09 10:00:00') /* Pressure Plate (2131) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7010804F,   947, 0x010801CB, 5.8137, -85.264, 0.0055, 1, 0, 0, -4.37114E-08,  True, '2005-02-09 10:00:00'); /* Barker Mosswart */
@@ -495,7 +495,7 @@ VALUES (0x7010805D,  4049, 0x01080261, 79.2404, -69.6906, 2.12387, 0.707107, 0, 
 /* @teleloc 0x01080261 [79.240400 -69.690600 2.123870] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7010805D, 0x7010805C, '2005-02-09 10:00:00') /* Pressure Plate */;
+VALUES (0x7010805D, 0x7010805C, '2005-02-09 10:00:00') /* Pressure Plate (2131) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7010805E,   948, 0x0108026A, 78.9192, -110.994, 0.00495, -0.770231, 0, 0, -0.637765,  True, '2005-02-09 10:00:00'); /* Mosswart Feeder */

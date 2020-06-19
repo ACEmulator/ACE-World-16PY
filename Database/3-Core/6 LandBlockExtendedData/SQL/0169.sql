@@ -37,12 +37,12 @@ VALUES (0x70169008,  1154, 0x0169011C, 20.7882, -142.681, -12, 1, 0, 0, 0, False
 /* @teleloc 0x0169011C [20.788200 -142.681000 -12.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x70169008, 0x70169001, '2005-02-09 10:00:00') /* Ice Golem */
-     , (0x70169008, 0x70169003, '2005-02-09 10:00:00') /* Ice Golem */
-     , (0x70169008, 0x70169004, '2005-02-09 10:00:00') /* Ice Golem */
-     , (0x70169008, 0x70169006, '2005-02-09 10:00:00') /* Ice Golem */
-     , (0x70169008, 0x70169007, '2005-02-09 10:00:00') /* Ice Golem */
-     , (0x70169008, 0x7016900C, '2005-02-09 10:00:00') /* Ice Golem */;
+VALUES (0x70169008, 0x70169001, '2005-02-09 10:00:00') /* Ice Golem (196) */
+     , (0x70169008, 0x70169003, '2005-02-09 10:00:00') /* Ice Golem (196) */
+     , (0x70169008, 0x70169004, '2005-02-09 10:00:00') /* Ice Golem (196) */
+     , (0x70169008, 0x70169006, '2005-02-09 10:00:00') /* Ice Golem (196) */
+     , (0x70169008, 0x70169007, '2005-02-09 10:00:00') /* Ice Golem (196) */
+     , (0x70169008, 0x7016900C, '2005-02-09 10:00:00') /* Ice Golem (196) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x70169009,  4015, 0x0169011C, 20, -140, -12, 1, 0, 0, 0, False, '2005-02-09 10:00:00'); /* Cheap Miner Generator */
@@ -97,22 +97,22 @@ VALUES (0x70169015,  1154, 0x0169015C, 30.8139, -121.709, 0.01222, 0.707107, 0, 
 /* @teleloc 0x0169015C [30.813900 -121.709000 0.012220] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x70169015, 0x7016900D, '2005-02-09 10:00:00') /* Great Mattekar */
-     , (0x70169015, 0x7016900E, '2005-02-09 10:00:00') /* Great Mattekar */
-     , (0x70169015, 0x7016900F, '2005-02-09 10:00:00') /* Great Mattekar */
-     , (0x70169015, 0x70169012, '2005-02-09 10:00:00') /* Snowy Mattekar */
-     , (0x70169015, 0x70169013, '2005-02-09 10:00:00') /* Great Mattekar */
-     , (0x70169015, 0x70169014, '2005-02-09 10:00:00') /* Great Mattekar */;
+VALUES (0x70169015, 0x7016900D, '2005-02-09 10:00:00') /* Great Mattekar (2582) */
+     , (0x70169015, 0x7016900E, '2005-02-09 10:00:00') /* Great Mattekar (2582) */
+     , (0x70169015, 0x7016900F, '2005-02-09 10:00:00') /* Great Mattekar (2582) */
+     , (0x70169015, 0x70169012, '2005-02-09 10:00:00') /* Snowy Mattekar (2581) */
+     , (0x70169015, 0x70169013, '2005-02-09 10:00:00') /* Great Mattekar (2582) */
+     , (0x70169015, 0x70169014, '2005-02-09 10:00:00') /* Great Mattekar (2582) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x70169016,  1154, 0x01690165, 42.6182, -163.702, 0.01222, 0.707107, 0, 0, -0.707107, False, '2005-02-09 10:00:00'); /* Linkable Monster Generator */
 /* @teleloc 0x01690165 [42.618200 -163.702000 0.012220] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x70169016, 0x70169010, '2005-02-09 10:00:00') /* Great Mattekar */
-     , (0x70169016, 0x70169011, '2005-02-09 10:00:00') /* Great Mattekar */
-     , (0x70169016, 0x70169017, '2005-02-09 10:00:00') /* Great Mattekar */
-     , (0x70169016, 0x70169018, '2005-02-09 10:00:00') /* Great Mattekar */;
+VALUES (0x70169016, 0x70169010, '2005-02-09 10:00:00') /* Great Mattekar (2582) */
+     , (0x70169016, 0x70169011, '2005-02-09 10:00:00') /* Great Mattekar (2582) */
+     , (0x70169016, 0x70169017, '2005-02-09 10:00:00') /* Great Mattekar (2582) */
+     , (0x70169016, 0x70169018, '2005-02-09 10:00:00') /* Great Mattekar (2582) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x70169017,  2582, 0x0169016A, 50.19, -162.475, 0.061, -0.707107, 0, 0, -0.707107,  True, '2005-02-09 10:00:00'); /* Great Mattekar */
@@ -131,11 +131,11 @@ VALUES (0x7016901A,  1154, 0x01690176, 84.4357, -83.8535, 0.01222, 1, 0, 0, 0, F
 /* @teleloc 0x01690176 [84.435700 -83.853500 0.012220] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7016901A, 0x70169019, '2005-02-09 10:00:00') /* Snowy Mattekar */
-     , (0x7016901A, 0x7016901B, '2005-02-09 10:00:00') /* Snowy Mattekar */
-     , (0x7016901A, 0x70169023, '2005-02-09 10:00:00') /* White Mattekar */
-     , (0x7016901A, 0x70169024, '2005-02-09 10:00:00') /* Snowy Mattekar */
-     , (0x7016901A, 0x70169025, '2005-02-09 10:00:00') /* Snowy Mattekar */;
+VALUES (0x7016901A, 0x70169019, '2005-02-09 10:00:00') /* Snowy Mattekar (2581) */
+     , (0x7016901A, 0x7016901B, '2005-02-09 10:00:00') /* Snowy Mattekar (2581) */
+     , (0x7016901A, 0x70169023, '2005-02-09 10:00:00') /* White Mattekar (2580) */
+     , (0x7016901A, 0x70169024, '2005-02-09 10:00:00') /* Snowy Mattekar (2581) */
+     , (0x7016901A, 0x70169025, '2005-02-09 10:00:00') /* Snowy Mattekar (2581) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7016901B,  2581, 0x01690178, 77.276, -98.795, 0.061, 1, 0, 0, -4.37114E-08,  True, '2005-02-09 10:00:00'); /* Snowy Mattekar */
@@ -166,11 +166,11 @@ VALUES (0x70169021,  1154, 0x0169019C, 143.81, -33.6072, 0, 1, 0, 0, 0, False, '
 /* @teleloc 0x0169019C [143.810000 -33.607200 0.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x70169021, 0x7016901D, '2005-02-09 10:00:00') /* Great Mattekar */
-     , (0x70169021, 0x7016901E, '2005-02-09 10:00:00') /* Great Mattekar */
-     , (0x70169021, 0x7016901F, '2005-02-09 10:00:00') /* White Mattekar */
-     , (0x70169021, 0x70169020, '2005-02-09 10:00:00') /* Snowy Mattekar */
-     , (0x70169021, 0x70169022, '2005-02-09 10:00:00') /* Snowy Mattekar */;
+VALUES (0x70169021, 0x7016901D, '2005-02-09 10:00:00') /* Great Mattekar (2582) */
+     , (0x70169021, 0x7016901E, '2005-02-09 10:00:00') /* Great Mattekar (2582) */
+     , (0x70169021, 0x7016901F, '2005-02-09 10:00:00') /* White Mattekar (2580) */
+     , (0x70169021, 0x70169020, '2005-02-09 10:00:00') /* Snowy Mattekar (2581) */
+     , (0x70169021, 0x70169022, '2005-02-09 10:00:00') /* Snowy Mattekar (2581) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x70169022,  2581, 0x0169019D, 144.733, -37.8071, 0.061099, 1, 0, 0, 0,  True, '2005-02-09 10:00:00'); /* Snowy Mattekar */

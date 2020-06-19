@@ -13,28 +13,28 @@ VALUES (0x7A8E0002,  5086, 0xA8E00000, 87.251, 108.925, 43.205, 0.21105, 0, 0, 0
 /* @teleloc 0xA8E00000 [87.251000 108.925000 43.205000] 0.211050 0.000000 0.000000 0.977475 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A8E0002, 0x7A8E0000, '2005-02-09 10:00:00') /* Spirit */
-     , (0x7A8E0002, 0x7A8E0001, '2005-02-09 10:00:00') /* Spirit */
-     , (0x7A8E0002, 0x7A8E0024, '2005-02-09 10:00:00') /* Spirit */
-     , (0x7A8E0002, 0x7A8E0025, '2005-02-09 10:00:00') /* Spirit */;
+VALUES (0x7A8E0002, 0x7A8E0000, '2005-02-09 10:00:00') /* Spirit (28246) */
+     , (0x7A8E0002, 0x7A8E0001, '2005-02-09 10:00:00') /* Spirit (28246) */
+     , (0x7A8E0002, 0x7A8E0024, '2005-02-09 10:00:00') /* Spirit (28246) */
+     , (0x7A8E0002, 0x7A8E0025, '2005-02-09 10:00:00') /* Spirit (28246) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A8E0003,  7923, 0xA8E00000, 134.867, 26.2454, 28.005, -0.342385, 0, 0, 0.93956, False, '2005-02-09 10:00:00'); /* Linkable Monster Generator ( 3 Min.) */
 /* @teleloc 0xA8E00000 [134.867000 26.245400 28.005000] -0.342385 0.000000 0.000000 0.939560 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A8E0003, 0x7A8E0004, '2005-02-09 10:00:00') /* Spirit */
-     , (0x7A8E0003, 0x7A8E0005, '2005-02-09 10:00:00') /* Spirit */
-     , (0x7A8E0003, 0x7A8E0006, '2005-02-09 10:00:00') /* Spirit */
-     , (0x7A8E0003, 0x7A8E0007, '2005-02-09 10:00:00') /* Spirit */
-     , (0x7A8E0003, 0x7A8E0008, '2005-02-09 10:00:00') /* Spirit */
-     , (0x7A8E0003, 0x7A8E0009, '2005-02-09 10:00:00') /* Spirit */
-     , (0x7A8E0003, 0x7A8E000A, '2005-02-09 10:00:00') /* Spirit */
-     , (0x7A8E0003, 0x7A8E000B, '2005-02-09 10:00:00') /* Spirit */
-     , (0x7A8E0003, 0x7A8E000C, '2005-02-09 10:00:00') /* Spirit */
-     , (0x7A8E0003, 0x7A8E000D, '2005-02-09 10:00:00') /* Spirit */
-     , (0x7A8E0003, 0x7A8E000E, '2005-02-09 10:00:00') /* Spirit */
-     , (0x7A8E0003, 0x7A8E000F, '2005-02-09 10:00:00') /* Spirit */;
+VALUES (0x7A8E0003, 0x7A8E0004, '2005-02-09 10:00:00') /* Spirit (28246) */
+     , (0x7A8E0003, 0x7A8E0005, '2005-02-09 10:00:00') /* Spirit (28246) */
+     , (0x7A8E0003, 0x7A8E0006, '2005-02-09 10:00:00') /* Spirit (28246) */
+     , (0x7A8E0003, 0x7A8E0007, '2005-02-09 10:00:00') /* Spirit (28246) */
+     , (0x7A8E0003, 0x7A8E0008, '2005-02-09 10:00:00') /* Spirit (28246) */
+     , (0x7A8E0003, 0x7A8E0009, '2005-02-09 10:00:00') /* Spirit (28246) */
+     , (0x7A8E0003, 0x7A8E000A, '2005-02-09 10:00:00') /* Spirit (28246) */
+     , (0x7A8E0003, 0x7A8E000B, '2005-02-09 10:00:00') /* Spirit (28246) */
+     , (0x7A8E0003, 0x7A8E000C, '2005-02-09 10:00:00') /* Spirit (28246) */
+     , (0x7A8E0003, 0x7A8E000D, '2005-02-09 10:00:00') /* Spirit (28246) */
+     , (0x7A8E0003, 0x7A8E000E, '2005-02-09 10:00:00') /* Spirit (28246) */
+     , (0x7A8E0003, 0x7A8E000F, '2005-02-09 10:00:00') /* Spirit (28246) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A8E0004, 28246, 0xA8E00000, 139.844, 26.2291, 28.029, -0.246875, 0, 0, 0.969047,  True, '2005-02-09 10:00:00'); /* Spirit */
@@ -89,10 +89,10 @@ VALUES (0x7A8E0010,  7923, 0xA8E00000, 87.5053, 79.005, 28.005, 0.0223514, 0, 0,
 /* @teleloc 0xA8E00000 [87.505300 79.005000 28.005000] 0.022351 0.000000 0.000000 -0.999750 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A8E0010, 0x7A8E0011, '2005-02-09 10:00:00') /* Spirit */
-     , (0x7A8E0010, 0x7A8E0012, '2005-02-09 10:00:00') /* Spirit */
-     , (0x7A8E0010, 0x7A8E0013, '2005-02-09 10:00:00') /* Spirit */
-     , (0x7A8E0010, 0x7A8E0014, '2005-02-09 10:00:00') /* Spirit */;
+VALUES (0x7A8E0010, 0x7A8E0011, '2005-02-09 10:00:00') /* Spirit (28246) */
+     , (0x7A8E0010, 0x7A8E0012, '2005-02-09 10:00:00') /* Spirit (28246) */
+     , (0x7A8E0010, 0x7A8E0013, '2005-02-09 10:00:00') /* Spirit (28246) */
+     , (0x7A8E0010, 0x7A8E0014, '2005-02-09 10:00:00') /* Spirit (28246) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A8E0011, 28246, 0xA8E00000, 87.7025, 74.5966, 28.029, -0.0526224, 0, 0, -0.998614,  True, '2005-02-09 10:00:00'); /* Spirit */
@@ -115,10 +115,10 @@ VALUES (0x7A8E0015,  7923, 0xA8E00000, 55.2425, 103.872, 28.005, -0.742398, 0, 0
 /* @teleloc 0xA8E00000 [55.242500 103.872000 28.005000] -0.742398 0.000000 0.000000 -0.669959 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A8E0015, 0x7A8E0016, '2005-02-09 10:00:00') /* Phantom */
-     , (0x7A8E0015, 0x7A8E0017, '2005-02-09 10:00:00') /* Phantom */
-     , (0x7A8E0015, 0x7A8E0018, '2005-02-09 10:00:00') /* Phantom */
-     , (0x7A8E0015, 0x7A8E0019, '2005-02-09 10:00:00') /* Phantom */;
+VALUES (0x7A8E0015, 0x7A8E0016, '2005-02-09 10:00:00') /* Phantom (28244) */
+     , (0x7A8E0015, 0x7A8E0017, '2005-02-09 10:00:00') /* Phantom (28244) */
+     , (0x7A8E0015, 0x7A8E0018, '2005-02-09 10:00:00') /* Phantom (28244) */
+     , (0x7A8E0015, 0x7A8E0019, '2005-02-09 10:00:00') /* Phantom (28244) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A8E0016, 28244, 0xA8E00000, 50.7567, 104.304, 28.029, -0.680405, 0, 0, -0.732837,  True, '2005-02-09 10:00:00'); /* Phantom */
@@ -141,10 +141,10 @@ VALUES (0x7A8E001A,  7923, 0xA8E00000, 75.5346, 135.138, 28.005, 0.938579, 0, 0,
 /* @teleloc 0xA8E00000 [75.534600 135.138000 28.005000] 0.938579 0.000000 0.000000 -0.345063 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A8E001A, 0x7A8E001C, '2005-02-09 10:00:00') /* Restless Spirit */
-     , (0x7A8E001A, 0x7A8E001D, '2005-02-09 10:00:00') /* Restless Spirit */
-     , (0x7A8E001A, 0x7A8E001E, '2005-02-09 10:00:00') /* Restless Spirit */
-     , (0x7A8E001A, 0x7A8E0023, '2005-02-09 10:00:00') /* Restless Spirit */;
+VALUES (0x7A8E001A, 0x7A8E001C, '2005-02-09 10:00:00') /* Restless Spirit (30712) */
+     , (0x7A8E001A, 0x7A8E001D, '2005-02-09 10:00:00') /* Restless Spirit (30712) */
+     , (0x7A8E001A, 0x7A8E001E, '2005-02-09 10:00:00') /* Restless Spirit (30712) */
+     , (0x7A8E001A, 0x7A8E0023, '2005-02-09 10:00:00') /* Restless Spirit (30712) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A8E001B, 28245, 0xA8E0010C, 117.631, 102.739, 23.229, 0.689437, 0, 0, 0.724346,  True, '2005-02-09 10:00:00'); /* Poltergeist */
@@ -167,10 +167,10 @@ VALUES (0x7A8E001F,  7923, 0xA8E00000, 115.81, 112.086, 28.005, -0.648616, 0, 0,
 /* @teleloc 0xA8E00000 [115.810000 112.086000 28.005000] -0.648616 0.000000 0.000000 0.761115 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A8E001F, 0x7A8E001B, '2005-02-09 10:00:00') /* Poltergeist */
-     , (0x7A8E001F, 0x7A8E0020, '2005-02-09 10:00:00') /* Poltergeist */
-     , (0x7A8E001F, 0x7A8E0021, '2005-02-09 10:00:00') /* Poltergeist */
-     , (0x7A8E001F, 0x7A8E0022, '2005-02-09 10:00:00') /* Poltergeist */;
+VALUES (0x7A8E001F, 0x7A8E001B, '2005-02-09 10:00:00') /* Poltergeist (28245) */
+     , (0x7A8E001F, 0x7A8E0020, '2005-02-09 10:00:00') /* Poltergeist (28245) */
+     , (0x7A8E001F, 0x7A8E0021, '2005-02-09 10:00:00') /* Poltergeist (28245) */
+     , (0x7A8E001F, 0x7A8E0022, '2005-02-09 10:00:00') /* Poltergeist (28245) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A8E0020, 28245, 0xA8E00000, 116.632, 110.465, 28.029, -0.648616, 0, 0, 0.761115,  True, '2005-02-09 10:00:00'); /* Poltergeist */

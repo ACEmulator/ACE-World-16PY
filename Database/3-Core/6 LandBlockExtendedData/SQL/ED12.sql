@@ -25,8 +25,8 @@ VALUES (0x7ED12005,  4219, 0xED120000, 37.6394, 131.731, -0.095, 0.370119, 0, 0,
 /* @teleloc 0xED120000 [37.639400 131.731000 -0.095000] 0.370119 0.000000 0.000000 0.928984 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7ED12005, 0x7ED12000, '2005-02-09 10:00:00') /* Plate Armoredillo */
-     , (0x7ED12005, 0x7ED12001, '2005-02-09 10:00:00') /* Plate Armoredillo */
-     , (0x7ED12005, 0x7ED12002, '2005-02-09 10:00:00') /* Plate Armoredillo */
-     , (0x7ED12005, 0x7ED12003, '2005-02-09 10:00:00') /* Hoary Armoredillo */
-     , (0x7ED12005, 0x7ED12004, '2005-02-09 10:00:00') /* Hoary Armoredillo */;
+VALUES (0x7ED12005, 0x7ED12000, '2005-02-09 10:00:00') /* Plate Armoredillo (7081) */
+     , (0x7ED12005, 0x7ED12001, '2005-02-09 10:00:00') /* Plate Armoredillo (7081) */
+     , (0x7ED12005, 0x7ED12002, '2005-02-09 10:00:00') /* Plate Armoredillo (7081) */
+     , (0x7ED12005, 0x7ED12003, '2005-02-09 10:00:00') /* Hoary Armoredillo (7084) */
+     , (0x7ED12005, 0x7ED12004, '2005-02-09 10:00:00') /* Hoary Armoredillo (7084) */;

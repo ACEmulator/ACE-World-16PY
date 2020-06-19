@@ -69,7 +69,7 @@ VALUES (0x75D4D010, 15759, 0x5D4D013A, 120.573, -492.284, -47.995, -0.976086, 0,
 /* @teleloc 0x5D4D013A [120.573000 -492.284000 -47.995000] -0.976086 0.000000 0.000000 -0.217383 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x75D4D010, 0x75D4D00F, '2005-02-09 10:00:00') /* Untranslated Note */;
+VALUES (0x75D4D010, 0x75D4D00F, '2005-02-09 10:00:00') /* Untranslated Note (25697) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75D4D011, 25688, 0x5D4D013B, 120.089, -495.744, -47.995, 0.012538, 0, 0, 0.999921, False, '2005-02-09 10:00:00'); /* Abyssal Olthoi Chasm */
@@ -624,176 +624,176 @@ VALUES (0x75D4D09A,  7924, 0x5D4D035F, 41.3641, -102.258, -11.995, 1, 0, 0, 0, F
 /* @teleloc 0x5D4D035F [41.364100 -102.258000 -11.995000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x75D4D09A, 0x75D4D00D, '2005-02-09 10:00:00') /* Olthoi Swarm Mutilator */
-     , (0x75D4D09A, 0x75D4D00E, '2005-02-09 10:00:00') /* Olthoi Swarm Mutilator */
-     , (0x75D4D09A, 0x75D4D05E, '2005-02-09 10:00:00') /* Elite Revenant */
-     , (0x75D4D09A, 0x75D4D05F, '2005-02-09 10:00:00') /* Skeletal Fiend */
-     , (0x75D4D09A, 0x75D4D061, '2005-02-09 10:00:00') /* Armored Skeleton Lord */
-     , (0x75D4D09A, 0x75D4D063, '2005-02-09 10:00:00') /* Elite Revenant */
-     , (0x75D4D09A, 0x75D4D067, '2005-02-09 10:00:00') /* Skeletal Fiend */
-     , (0x75D4D09A, 0x75D4D068, '2005-02-09 10:00:00') /* Elite Revenant */
-     , (0x75D4D09A, 0x75D4D070, '2005-02-09 10:00:00') /* Elite Revenant */
-     , (0x75D4D09A, 0x75D4D071, '2005-02-09 10:00:00') /* Skeletal Fiend */
-     , (0x75D4D09A, 0x75D4D087, '2005-02-09 10:00:00') /* Elite Revenant */
-     , (0x75D4D09A, 0x75D4D088, '2005-02-09 10:00:00') /* Elite Revenant */
-     , (0x75D4D09A, 0x75D4D08E, '2005-02-09 10:00:00') /* Elite Revenant */
-     , (0x75D4D09A, 0x75D4D08F, '2005-02-09 10:00:00') /* Skeletal Fiend */
-     , (0x75D4D09A, 0x75D4D090, '2005-02-09 10:00:00') /* Elite Revenant */
-     , (0x75D4D09A, 0x75D4D091, '2005-02-09 10:00:00') /* Skeletal Fiend */
-     , (0x75D4D09A, 0x75D4D092, '2005-02-09 10:00:00') /* Elite Revenant */
-     , (0x75D4D09A, 0x75D4D093, '2005-02-09 10:00:00') /* Skeletal Fiend */
-     , (0x75D4D09A, 0x75D4D094, '2005-02-09 10:00:00') /* Elite Revenant */
-     , (0x75D4D09A, 0x75D4D095, '2005-02-09 10:00:00') /* Skeletal Fiend */
-     , (0x75D4D09A, 0x75D4D096, '2005-02-09 10:00:00') /* Skeletal Fiend */
-     , (0x75D4D09A, 0x75D4D097, '2005-02-09 10:00:00') /* Skeletal Fiend */
-     , (0x75D4D09A, 0x75D4D098, '2005-02-09 10:00:00') /* Skeletal Fiend */
-     , (0x75D4D09A, 0x75D4D099, '2005-02-09 10:00:00') /* Skeletal Fiend */
-     , (0x75D4D09A, 0x75D4D09F, '2005-02-09 10:00:00') /* Skeletal Fiend */
-     , (0x75D4D09A, 0x75D4D0A0, '2005-02-09 10:00:00') /* Skeletal Fiend */
-     , (0x75D4D09A, 0x75D4D0A1, '2005-02-09 10:00:00') /* Elite Revenant */
-     , (0x75D4D09A, 0x75D4D0A2, '2005-02-09 10:00:00') /* Elite Revenant */
-     , (0x75D4D09A, 0x75D4D0A4, '2005-02-09 10:00:00') /* Skeletal Fiend */
-     , (0x75D4D09A, 0x75D4D0A5, '2005-02-09 10:00:00') /* Skeletal Fiend */;
+VALUES (0x75D4D09A, 0x75D4D00D, '2005-02-09 10:00:00') /* Olthoi Swarm Mutilator (24453) */
+     , (0x75D4D09A, 0x75D4D00E, '2005-02-09 10:00:00') /* Olthoi Swarm Mutilator (24453) */
+     , (0x75D4D09A, 0x75D4D05E, '2005-02-09 10:00:00') /* Elite Revenant (25809) */
+     , (0x75D4D09A, 0x75D4D05F, '2005-02-09 10:00:00') /* Skeletal Fiend (25805) */
+     , (0x75D4D09A, 0x75D4D061, '2005-02-09 10:00:00') /* Armored Skeleton Lord (25804) */
+     , (0x75D4D09A, 0x75D4D063, '2005-02-09 10:00:00') /* Elite Revenant (25809) */
+     , (0x75D4D09A, 0x75D4D067, '2005-02-09 10:00:00') /* Skeletal Fiend (25805) */
+     , (0x75D4D09A, 0x75D4D068, '2005-02-09 10:00:00') /* Elite Revenant (25809) */
+     , (0x75D4D09A, 0x75D4D070, '2005-02-09 10:00:00') /* Elite Revenant (25809) */
+     , (0x75D4D09A, 0x75D4D071, '2005-02-09 10:00:00') /* Skeletal Fiend (25805) */
+     , (0x75D4D09A, 0x75D4D087, '2005-02-09 10:00:00') /* Elite Revenant (25809) */
+     , (0x75D4D09A, 0x75D4D088, '2005-02-09 10:00:00') /* Elite Revenant (25809) */
+     , (0x75D4D09A, 0x75D4D08E, '2005-02-09 10:00:00') /* Elite Revenant (25809) */
+     , (0x75D4D09A, 0x75D4D08F, '2005-02-09 10:00:00') /* Skeletal Fiend (25805) */
+     , (0x75D4D09A, 0x75D4D090, '2005-02-09 10:00:00') /* Elite Revenant (25809) */
+     , (0x75D4D09A, 0x75D4D091, '2005-02-09 10:00:00') /* Skeletal Fiend (25805) */
+     , (0x75D4D09A, 0x75D4D092, '2005-02-09 10:00:00') /* Elite Revenant (25809) */
+     , (0x75D4D09A, 0x75D4D093, '2005-02-09 10:00:00') /* Skeletal Fiend (25805) */
+     , (0x75D4D09A, 0x75D4D094, '2005-02-09 10:00:00') /* Elite Revenant (25809) */
+     , (0x75D4D09A, 0x75D4D095, '2005-02-09 10:00:00') /* Skeletal Fiend (25805) */
+     , (0x75D4D09A, 0x75D4D096, '2005-02-09 10:00:00') /* Skeletal Fiend (25805) */
+     , (0x75D4D09A, 0x75D4D097, '2005-02-09 10:00:00') /* Skeletal Fiend (25805) */
+     , (0x75D4D09A, 0x75D4D098, '2005-02-09 10:00:00') /* Skeletal Fiend (25805) */
+     , (0x75D4D09A, 0x75D4D099, '2005-02-09 10:00:00') /* Skeletal Fiend (25805) */
+     , (0x75D4D09A, 0x75D4D09F, '2005-02-09 10:00:00') /* Skeletal Fiend (25805) */
+     , (0x75D4D09A, 0x75D4D0A0, '2005-02-09 10:00:00') /* Skeletal Fiend (25805) */
+     , (0x75D4D09A, 0x75D4D0A1, '2005-02-09 10:00:00') /* Elite Revenant (25809) */
+     , (0x75D4D09A, 0x75D4D0A2, '2005-02-09 10:00:00') /* Elite Revenant (25809) */
+     , (0x75D4D09A, 0x75D4D0A4, '2005-02-09 10:00:00') /* Skeletal Fiend (25805) */
+     , (0x75D4D09A, 0x75D4D0A5, '2005-02-09 10:00:00') /* Skeletal Fiend (25805) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75D4D09B,  7924, 0x5D4D035F, 40.5025, -102.258, -11.995, 1, 0, 0, 0, False, '2005-02-09 10:00:00'); /* Linkable Monster Generator ( 5 Min.) */
 /* @teleloc 0x5D4D035F [40.502500 -102.258000 -11.995000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x75D4D09B, 0x75D4D014, '2005-02-09 10:00:00') /* Olthoi Swarm Guardian */
-     , (0x75D4D09B, 0x75D4D015, '2005-02-09 10:00:00') /* Lacerator */
-     , (0x75D4D09B, 0x75D4D016, '2005-02-09 10:00:00') /* Olthoi Swarm Guardian */
-     , (0x75D4D09B, 0x75D4D017, '2005-02-09 10:00:00') /* Lacerator */
-     , (0x75D4D09B, 0x75D4D047, '2005-02-09 10:00:00') /* Olthoi Swarm Warrior */
-     , (0x75D4D09B, 0x75D4D062, '2005-02-09 10:00:00') /* Armored Skeleton Lord */
-     , (0x75D4D09B, 0x75D4D064, '2005-02-09 10:00:00') /* Armored Skeleton Lord */
-     , (0x75D4D09B, 0x75D4D065, '2005-02-09 10:00:00') /* Demilich */
-     , (0x75D4D09B, 0x75D4D066, '2005-02-09 10:00:00') /* Armored Skeleton Lord */
-     , (0x75D4D09B, 0x75D4D069, '2005-02-09 10:00:00') /* Skeletal Fiend */
-     , (0x75D4D09B, 0x75D4D06A, '2005-02-09 10:00:00') /* Armored Skeleton Lord */
-     , (0x75D4D09B, 0x75D4D06B, '2005-02-09 10:00:00') /* Demilich */
-     , (0x75D4D09B, 0x75D4D06C, '2005-02-09 10:00:00') /* Armored Skeleton Lord */
-     , (0x75D4D09B, 0x75D4D06D, '2005-02-09 10:00:00') /* Demilich */
-     , (0x75D4D09B, 0x75D4D06E, '2005-02-09 10:00:00') /* Armored Skeleton Lord */
-     , (0x75D4D09B, 0x75D4D072, '2005-02-09 10:00:00') /* Demilich */
-     , (0x75D4D09B, 0x75D4D073, '2005-02-09 10:00:00') /* Armored Skeleton Lord */
-     , (0x75D4D09B, 0x75D4D074, '2005-02-09 10:00:00') /* Demilich */
-     , (0x75D4D09B, 0x75D4D077, '2005-02-09 10:00:00') /* Demilich */
-     , (0x75D4D09B, 0x75D4D078, '2005-02-09 10:00:00') /* Demilich */
-     , (0x75D4D09B, 0x75D4D079, '2005-02-09 10:00:00') /* Armored Skeleton Lord */
-     , (0x75D4D09B, 0x75D4D07A, '2005-02-09 10:00:00') /* Armored Skeleton Lord */
-     , (0x75D4D09B, 0x75D4D07B, '2005-02-09 10:00:00') /* Armored Skeleton Lord */
-     , (0x75D4D09B, 0x75D4D07C, '2005-02-09 10:00:00') /* Demilich */
-     , (0x75D4D09B, 0x75D4D081, '2005-02-09 10:00:00') /* Armored Skeleton Lord */
-     , (0x75D4D09B, 0x75D4D082, '2005-02-09 10:00:00') /* Armored Skeleton Lord */
-     , (0x75D4D09B, 0x75D4D083, '2005-02-09 10:00:00') /* Demilich */
-     , (0x75D4D09B, 0x75D4D084, '2005-02-09 10:00:00') /* Armored Skeleton Lord */
-     , (0x75D4D09B, 0x75D4D085, '2005-02-09 10:00:00') /* Armored Skeleton Lord */
-     , (0x75D4D09B, 0x75D4D086, '2005-02-09 10:00:00') /* Demilich */;
+VALUES (0x75D4D09B, 0x75D4D014, '2005-02-09 10:00:00') /* Olthoi Swarm Guardian (23987) */
+     , (0x75D4D09B, 0x75D4D015, '2005-02-09 10:00:00') /* Lacerator (24957) */
+     , (0x75D4D09B, 0x75D4D016, '2005-02-09 10:00:00') /* Olthoi Swarm Guardian (23987) */
+     , (0x75D4D09B, 0x75D4D017, '2005-02-09 10:00:00') /* Lacerator (24957) */
+     , (0x75D4D09B, 0x75D4D047, '2005-02-09 10:00:00') /* Olthoi Swarm Warrior (24305) */
+     , (0x75D4D09B, 0x75D4D062, '2005-02-09 10:00:00') /* Armored Skeleton Lord (25804) */
+     , (0x75D4D09B, 0x75D4D064, '2005-02-09 10:00:00') /* Armored Skeleton Lord (25804) */
+     , (0x75D4D09B, 0x75D4D065, '2005-02-09 10:00:00') /* Demilich (25808) */
+     , (0x75D4D09B, 0x75D4D066, '2005-02-09 10:00:00') /* Armored Skeleton Lord (25804) */
+     , (0x75D4D09B, 0x75D4D069, '2005-02-09 10:00:00') /* Skeletal Fiend (25805) */
+     , (0x75D4D09B, 0x75D4D06A, '2005-02-09 10:00:00') /* Armored Skeleton Lord (25804) */
+     , (0x75D4D09B, 0x75D4D06B, '2005-02-09 10:00:00') /* Demilich (25808) */
+     , (0x75D4D09B, 0x75D4D06C, '2005-02-09 10:00:00') /* Armored Skeleton Lord (25804) */
+     , (0x75D4D09B, 0x75D4D06D, '2005-02-09 10:00:00') /* Demilich (25808) */
+     , (0x75D4D09B, 0x75D4D06E, '2005-02-09 10:00:00') /* Armored Skeleton Lord (25804) */
+     , (0x75D4D09B, 0x75D4D072, '2005-02-09 10:00:00') /* Demilich (25808) */
+     , (0x75D4D09B, 0x75D4D073, '2005-02-09 10:00:00') /* Armored Skeleton Lord (25804) */
+     , (0x75D4D09B, 0x75D4D074, '2005-02-09 10:00:00') /* Demilich (25808) */
+     , (0x75D4D09B, 0x75D4D077, '2005-02-09 10:00:00') /* Demilich (25808) */
+     , (0x75D4D09B, 0x75D4D078, '2005-02-09 10:00:00') /* Demilich (25808) */
+     , (0x75D4D09B, 0x75D4D079, '2005-02-09 10:00:00') /* Armored Skeleton Lord (25804) */
+     , (0x75D4D09B, 0x75D4D07A, '2005-02-09 10:00:00') /* Armored Skeleton Lord (25804) */
+     , (0x75D4D09B, 0x75D4D07B, '2005-02-09 10:00:00') /* Armored Skeleton Lord (25804) */
+     , (0x75D4D09B, 0x75D4D07C, '2005-02-09 10:00:00') /* Demilich (25808) */
+     , (0x75D4D09B, 0x75D4D081, '2005-02-09 10:00:00') /* Armored Skeleton Lord (25804) */
+     , (0x75D4D09B, 0x75D4D082, '2005-02-09 10:00:00') /* Armored Skeleton Lord (25804) */
+     , (0x75D4D09B, 0x75D4D083, '2005-02-09 10:00:00') /* Demilich (25808) */
+     , (0x75D4D09B, 0x75D4D084, '2005-02-09 10:00:00') /* Armored Skeleton Lord (25804) */
+     , (0x75D4D09B, 0x75D4D085, '2005-02-09 10:00:00') /* Armored Skeleton Lord (25804) */
+     , (0x75D4D09B, 0x75D4D086, '2005-02-09 10:00:00') /* Demilich (25808) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75D4D09C,  7924, 0x5D4D035F, 39.7792, -102.258, -11.995, 1, 0, 0, 0, False, '2005-02-09 10:00:00'); /* Linkable Monster Generator ( 5 Min.) */
 /* @teleloc 0x5D4D035F [39.779200 -102.258000 -11.995000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x75D4D09C, 0x75D4D042, '2005-02-09 10:00:00') /* Olthoi Swarm Guardian */
-     , (0x75D4D09C, 0x75D4D043, '2005-02-09 10:00:00') /* Olthoi Swarm Guardian */
-     , (0x75D4D09C, 0x75D4D044, '2005-02-09 10:00:00') /* Olthoi Swarm Guardian */
-     , (0x75D4D09C, 0x75D4D045, '2005-02-09 10:00:00') /* Lacerator */
-     , (0x75D4D09C, 0x75D4D046, '2005-02-09 10:00:00') /* Olthoi Swarm Warrior */
-     , (0x75D4D09C, 0x75D4D048, '2005-02-09 10:00:00') /* Olthoi Swarm Warrior */
-     , (0x75D4D09C, 0x75D4D049, '2005-02-09 10:00:00') /* Olthoi Swarm Warrior */
-     , (0x75D4D09C, 0x75D4D04A, '2005-02-09 10:00:00') /* Olthoi Swarm Warrior */
-     , (0x75D4D09C, 0x75D4D04B, '2005-02-09 10:00:00') /* Lacerator */
-     , (0x75D4D09C, 0x75D4D04C, '2005-02-09 10:00:00') /* Olthoi Swarm Warrior */
-     , (0x75D4D09C, 0x75D4D04D, '2005-02-09 10:00:00') /* Olthoi Swarm Warrior */
-     , (0x75D4D09C, 0x75D4D04E, '2005-02-09 10:00:00') /* Olthoi Swarm Warrior */
-     , (0x75D4D09C, 0x75D4D04F, '2005-02-09 10:00:00') /* Olthoi Swarm Warrior */
-     , (0x75D4D09C, 0x75D4D050, '2005-02-09 10:00:00') /* Olthoi Swarm Warrior */
-     , (0x75D4D09C, 0x75D4D051, '2005-02-09 10:00:00') /* Olthoi Swarm Warrior */
-     , (0x75D4D09C, 0x75D4D052, '2005-02-09 10:00:00') /* Olthoi Swarm Warrior */
-     , (0x75D4D09C, 0x75D4D053, '2005-02-09 10:00:00') /* Olthoi Swarm Guardian */
-     , (0x75D4D09C, 0x75D4D054, '2005-02-09 10:00:00') /* Olthoi Swarm Warrior */
-     , (0x75D4D09C, 0x75D4D056, '2005-02-09 10:00:00') /* Olthoi Swarm Guardian */
-     , (0x75D4D09C, 0x75D4D057, '2005-02-09 10:00:00') /* Lacerator */
-     , (0x75D4D09C, 0x75D4D058, '2005-02-09 10:00:00') /* Olthoi Swarm Warrior */
-     , (0x75D4D09C, 0x75D4D05B, '2005-02-09 10:00:00') /* Olthoi Swarm Warrior */
-     , (0x75D4D09C, 0x75D4D05C, '2005-02-09 10:00:00') /* Olthoi Swarm Warrior */
-     , (0x75D4D09C, 0x75D4D05D, '2005-02-09 10:00:00') /* Lacerator */
-     , (0x75D4D09C, 0x75D4D089, '2005-02-09 10:00:00') /* Skeletal Fiend */
-     , (0x75D4D09C, 0x75D4D08A, '2005-02-09 10:00:00') /* Skeletal Fiend */
-     , (0x75D4D09C, 0x75D4D08B, '2005-02-09 10:00:00') /* Armored Skeleton Lord */
-     , (0x75D4D09C, 0x75D4D0A6, '2005-02-09 10:00:00') /* Skeletal Fiend */
-     , (0x75D4D09C, 0x75D4D0A7, '2005-02-09 10:00:00') /* Skeletal Fiend */
-     , (0x75D4D09C, 0x75D4D0A8, '2005-02-09 10:00:00') /* Armored Skeleton Lord */;
+VALUES (0x75D4D09C, 0x75D4D042, '2005-02-09 10:00:00') /* Olthoi Swarm Guardian (23987) */
+     , (0x75D4D09C, 0x75D4D043, '2005-02-09 10:00:00') /* Olthoi Swarm Guardian (23987) */
+     , (0x75D4D09C, 0x75D4D044, '2005-02-09 10:00:00') /* Olthoi Swarm Guardian (23987) */
+     , (0x75D4D09C, 0x75D4D045, '2005-02-09 10:00:00') /* Lacerator (24957) */
+     , (0x75D4D09C, 0x75D4D046, '2005-02-09 10:00:00') /* Olthoi Swarm Warrior (24305) */
+     , (0x75D4D09C, 0x75D4D048, '2005-02-09 10:00:00') /* Olthoi Swarm Warrior (24305) */
+     , (0x75D4D09C, 0x75D4D049, '2005-02-09 10:00:00') /* Olthoi Swarm Warrior (24305) */
+     , (0x75D4D09C, 0x75D4D04A, '2005-02-09 10:00:00') /* Olthoi Swarm Warrior (24305) */
+     , (0x75D4D09C, 0x75D4D04B, '2005-02-09 10:00:00') /* Lacerator (24957) */
+     , (0x75D4D09C, 0x75D4D04C, '2005-02-09 10:00:00') /* Olthoi Swarm Warrior (24305) */
+     , (0x75D4D09C, 0x75D4D04D, '2005-02-09 10:00:00') /* Olthoi Swarm Warrior (24305) */
+     , (0x75D4D09C, 0x75D4D04E, '2005-02-09 10:00:00') /* Olthoi Swarm Warrior (24305) */
+     , (0x75D4D09C, 0x75D4D04F, '2005-02-09 10:00:00') /* Olthoi Swarm Warrior (24305) */
+     , (0x75D4D09C, 0x75D4D050, '2005-02-09 10:00:00') /* Olthoi Swarm Warrior (24305) */
+     , (0x75D4D09C, 0x75D4D051, '2005-02-09 10:00:00') /* Olthoi Swarm Warrior (24305) */
+     , (0x75D4D09C, 0x75D4D052, '2005-02-09 10:00:00') /* Olthoi Swarm Warrior (24305) */
+     , (0x75D4D09C, 0x75D4D053, '2005-02-09 10:00:00') /* Olthoi Swarm Guardian (23987) */
+     , (0x75D4D09C, 0x75D4D054, '2005-02-09 10:00:00') /* Olthoi Swarm Warrior (24305) */
+     , (0x75D4D09C, 0x75D4D056, '2005-02-09 10:00:00') /* Olthoi Swarm Guardian (23987) */
+     , (0x75D4D09C, 0x75D4D057, '2005-02-09 10:00:00') /* Lacerator (24957) */
+     , (0x75D4D09C, 0x75D4D058, '2005-02-09 10:00:00') /* Olthoi Swarm Warrior (24305) */
+     , (0x75D4D09C, 0x75D4D05B, '2005-02-09 10:00:00') /* Olthoi Swarm Warrior (24305) */
+     , (0x75D4D09C, 0x75D4D05C, '2005-02-09 10:00:00') /* Olthoi Swarm Warrior (24305) */
+     , (0x75D4D09C, 0x75D4D05D, '2005-02-09 10:00:00') /* Lacerator (24957) */
+     , (0x75D4D09C, 0x75D4D089, '2005-02-09 10:00:00') /* Skeletal Fiend (25805) */
+     , (0x75D4D09C, 0x75D4D08A, '2005-02-09 10:00:00') /* Skeletal Fiend (25805) */
+     , (0x75D4D09C, 0x75D4D08B, '2005-02-09 10:00:00') /* Armored Skeleton Lord (25804) */
+     , (0x75D4D09C, 0x75D4D0A6, '2005-02-09 10:00:00') /* Skeletal Fiend (25805) */
+     , (0x75D4D09C, 0x75D4D0A7, '2005-02-09 10:00:00') /* Skeletal Fiend (25805) */
+     , (0x75D4D09C, 0x75D4D0A8, '2005-02-09 10:00:00') /* Armored Skeleton Lord (25804) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75D4D09D,  7924, 0x5D4D035F, 39.018, -102.258, -11.995, 1, 0, 0, 0, False, '2005-02-09 10:00:00'); /* Linkable Monster Generator ( 5 Min.) */
 /* @teleloc 0x5D4D035F [39.018000 -102.258000 -11.995000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x75D4D09D, 0x75D4D018, '2005-02-09 10:00:00') /* Armored Skeleton Lord */
-     , (0x75D4D09D, 0x75D4D019, '2005-02-09 10:00:00') /* Olthoi Swarm Guardian */
-     , (0x75D4D09D, 0x75D4D01A, '2005-02-09 10:00:00') /* Lacerator */
-     , (0x75D4D09D, 0x75D4D01B, '2005-02-09 10:00:00') /* Armored Skeleton Lord */
-     , (0x75D4D09D, 0x75D4D01C, '2005-02-09 10:00:00') /* Armored Skeleton Lord */
-     , (0x75D4D09D, 0x75D4D01D, '2005-02-09 10:00:00') /* Lacerator */
-     , (0x75D4D09D, 0x75D4D01E, '2005-02-09 10:00:00') /* Olthoi Swarm Guardian */
-     , (0x75D4D09D, 0x75D4D01F, '2005-02-09 10:00:00') /* Olthoi Brood Matron */
-     , (0x75D4D09D, 0x75D4D021, '2005-02-09 10:00:00') /* Olthoi Brood Matron */
-     , (0x75D4D09D, 0x75D4D022, '2005-02-09 10:00:00') /* Olthoi Swarm Warrior */
-     , (0x75D4D09D, 0x75D4D023, '2005-02-09 10:00:00') /* Olthoi Swarm Warrior */
-     , (0x75D4D09D, 0x75D4D026, '2005-02-09 10:00:00') /* Demilich */
-     , (0x75D4D09D, 0x75D4D027, '2005-02-09 10:00:00') /* Demilich */
-     , (0x75D4D09D, 0x75D4D028, '2005-02-09 10:00:00') /* Armored Skeleton Lord */
-     , (0x75D4D09D, 0x75D4D02A, '2005-02-09 10:00:00') /* Armored Skeleton Lord */
-     , (0x75D4D09D, 0x75D4D02D, '2005-02-09 10:00:00') /* Demilich */
-     , (0x75D4D09D, 0x75D4D02E, '2005-02-09 10:00:00') /* Demilich */
-     , (0x75D4D09D, 0x75D4D030, '2005-02-09 10:00:00') /* Demilich */
-     , (0x75D4D09D, 0x75D4D03C, '2005-02-09 10:00:00') /* Armored Skeleton Lord */
-     , (0x75D4D09D, 0x75D4D03D, '2005-02-09 10:00:00') /* Armored Skeleton Lord */
-     , (0x75D4D09D, 0x75D4D03E, '2005-02-09 10:00:00') /* Demilich */
-     , (0x75D4D09D, 0x75D4D03F, '2005-02-09 10:00:00') /* Demilich */
-     , (0x75D4D09D, 0x75D4D040, '2005-02-09 10:00:00') /* Armored Skeleton Lord */
-     , (0x75D4D09D, 0x75D4D041, '2005-02-09 10:00:00') /* Armored Skeleton Lord */
-     , (0x75D4D09D, 0x75D4D055, '2005-02-09 10:00:00') /* Olthoi Swarm Warrior */
-     , (0x75D4D09D, 0x75D4D059, '2005-02-09 10:00:00') /* Olthoi Swarm Warrior */
-     , (0x75D4D09D, 0x75D4D05A, '2005-02-09 10:00:00') /* Olthoi Swarm Warrior */
-     , (0x75D4D09D, 0x75D4D07D, '2005-02-09 10:00:00') /* Skeletal Fiend */
-     , (0x75D4D09D, 0x75D4D07E, '2005-02-09 10:00:00') /* Skeletal Fiend */
-     , (0x75D4D09D, 0x75D4D07F, '2005-02-09 10:00:00') /* Armored Skeleton Lord */;
+VALUES (0x75D4D09D, 0x75D4D018, '2005-02-09 10:00:00') /* Armored Skeleton Lord (25804) */
+     , (0x75D4D09D, 0x75D4D019, '2005-02-09 10:00:00') /* Olthoi Swarm Guardian (23987) */
+     , (0x75D4D09D, 0x75D4D01A, '2005-02-09 10:00:00') /* Lacerator (24957) */
+     , (0x75D4D09D, 0x75D4D01B, '2005-02-09 10:00:00') /* Armored Skeleton Lord (25804) */
+     , (0x75D4D09D, 0x75D4D01C, '2005-02-09 10:00:00') /* Armored Skeleton Lord (25804) */
+     , (0x75D4D09D, 0x75D4D01D, '2005-02-09 10:00:00') /* Lacerator (24957) */
+     , (0x75D4D09D, 0x75D4D01E, '2005-02-09 10:00:00') /* Olthoi Swarm Guardian (23987) */
+     , (0x75D4D09D, 0x75D4D01F, '2005-02-09 10:00:00') /* Olthoi Brood Matron (24296) */
+     , (0x75D4D09D, 0x75D4D021, '2005-02-09 10:00:00') /* Olthoi Brood Matron (24296) */
+     , (0x75D4D09D, 0x75D4D022, '2005-02-09 10:00:00') /* Olthoi Swarm Warrior (24305) */
+     , (0x75D4D09D, 0x75D4D023, '2005-02-09 10:00:00') /* Olthoi Swarm Warrior (24305) */
+     , (0x75D4D09D, 0x75D4D026, '2005-02-09 10:00:00') /* Demilich (25808) */
+     , (0x75D4D09D, 0x75D4D027, '2005-02-09 10:00:00') /* Demilich (25808) */
+     , (0x75D4D09D, 0x75D4D028, '2005-02-09 10:00:00') /* Armored Skeleton Lord (25804) */
+     , (0x75D4D09D, 0x75D4D02A, '2005-02-09 10:00:00') /* Armored Skeleton Lord (25804) */
+     , (0x75D4D09D, 0x75D4D02D, '2005-02-09 10:00:00') /* Demilich (25808) */
+     , (0x75D4D09D, 0x75D4D02E, '2005-02-09 10:00:00') /* Demilich (25808) */
+     , (0x75D4D09D, 0x75D4D030, '2005-02-09 10:00:00') /* Demilich (25808) */
+     , (0x75D4D09D, 0x75D4D03C, '2005-02-09 10:00:00') /* Armored Skeleton Lord (25804) */
+     , (0x75D4D09D, 0x75D4D03D, '2005-02-09 10:00:00') /* Armored Skeleton Lord (25804) */
+     , (0x75D4D09D, 0x75D4D03E, '2005-02-09 10:00:00') /* Demilich (25808) */
+     , (0x75D4D09D, 0x75D4D03F, '2005-02-09 10:00:00') /* Demilich (25808) */
+     , (0x75D4D09D, 0x75D4D040, '2005-02-09 10:00:00') /* Armored Skeleton Lord (25804) */
+     , (0x75D4D09D, 0x75D4D041, '2005-02-09 10:00:00') /* Armored Skeleton Lord (25804) */
+     , (0x75D4D09D, 0x75D4D055, '2005-02-09 10:00:00') /* Olthoi Swarm Warrior (24305) */
+     , (0x75D4D09D, 0x75D4D059, '2005-02-09 10:00:00') /* Olthoi Swarm Warrior (24305) */
+     , (0x75D4D09D, 0x75D4D05A, '2005-02-09 10:00:00') /* Olthoi Swarm Warrior (24305) */
+     , (0x75D4D09D, 0x75D4D07D, '2005-02-09 10:00:00') /* Skeletal Fiend (25805) */
+     , (0x75D4D09D, 0x75D4D07E, '2005-02-09 10:00:00') /* Skeletal Fiend (25805) */
+     , (0x75D4D09D, 0x75D4D07F, '2005-02-09 10:00:00') /* Armored Skeleton Lord (25804) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75D4D09E,  7924, 0x5D4D035F, 38.3348, -102.258, -11.995, 1, 0, 0, 0, False, '2005-02-09 10:00:00'); /* Linkable Monster Generator ( 5 Min.) */
 /* @teleloc 0x5D4D035F [38.334800 -102.258000 -11.995000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x75D4D09E, 0x75D4D000, '2005-02-09 10:00:00') /* Olthoi Swarm Mutilator */
-     , (0x75D4D09E, 0x75D4D001, '2005-02-09 10:00:00') /* Olthoi Swarm Mutilator */
-     , (0x75D4D09E, 0x75D4D002, '2005-02-09 10:00:00') /* Olthoi Swarm Mutilator */
-     , (0x75D4D09E, 0x75D4D003, '2005-02-09 10:00:00') /* Olthoi Swarm Mutilator */
-     , (0x75D4D09E, 0x75D4D004, '2005-02-09 10:00:00') /* Olthoi Swarm Mutilator */
-     , (0x75D4D09E, 0x75D4D006, '2005-02-09 10:00:00') /* Olthoi Swarm Mutilator */
-     , (0x75D4D09E, 0x75D4D007, '2005-02-09 10:00:00') /* Olthoi Swarm Mutilator */
-     , (0x75D4D09E, 0x75D4D008, '2005-02-09 10:00:00') /* Olthoi Swarm Mutilator */
-     , (0x75D4D09E, 0x75D4D009, '2005-02-09 10:00:00') /* Olthoi Swarm Mutilator */
-     , (0x75D4D09E, 0x75D4D00A, '2005-02-09 10:00:00') /* Olthoi Swarm Mutilator */
-     , (0x75D4D09E, 0x75D4D00C, '2005-02-09 10:00:00') /* Olthoi Swarm Mutilator */
-     , (0x75D4D09E, 0x75D4D012, '2005-02-09 10:00:00') /* Olthoi Swarm Mutilator */
-     , (0x75D4D09E, 0x75D4D020, '2005-02-09 10:00:00') /* Lacerator */
-     , (0x75D4D09E, 0x75D4D024, '2005-02-09 10:00:00') /* Olthoi Swarm Warrior */
-     , (0x75D4D09E, 0x75D4D025, '2005-02-09 10:00:00') /* Lacerator */
-     , (0x75D4D09E, 0x75D4D029, '2005-02-09 10:00:00') /* Olthoi Swarm Warrior */
-     , (0x75D4D09E, 0x75D4D02B, '2005-02-09 10:00:00') /* Olthoi Swarm Warrior */
-     , (0x75D4D09E, 0x75D4D02C, '2005-02-09 10:00:00') /* Olthoi Brood Matron */
-     , (0x75D4D09E, 0x75D4D032, '2005-02-09 10:00:00') /* Olthoi Swarm Warrior */
-     , (0x75D4D09E, 0x75D4D033, '2005-02-09 10:00:00') /* Lacerator */
-     , (0x75D4D09E, 0x75D4D034, '2005-02-09 10:00:00') /* Elite Revenant */
-     , (0x75D4D09E, 0x75D4D035, '2005-02-09 10:00:00') /* Elite Revenant */
-     , (0x75D4D09E, 0x75D4D036, '2005-02-09 10:00:00') /* Demilich */
-     , (0x75D4D09E, 0x75D4D038, '2005-02-09 10:00:00') /* Elite Revenant */
-     , (0x75D4D09E, 0x75D4D039, '2005-02-09 10:00:00') /* Elite Revenant */
-     , (0x75D4D09E, 0x75D4D03A, '2005-02-09 10:00:00') /* Demilich */;
+VALUES (0x75D4D09E, 0x75D4D000, '2005-02-09 10:00:00') /* Olthoi Swarm Mutilator (24453) */
+     , (0x75D4D09E, 0x75D4D001, '2005-02-09 10:00:00') /* Olthoi Swarm Mutilator (24453) */
+     , (0x75D4D09E, 0x75D4D002, '2005-02-09 10:00:00') /* Olthoi Swarm Mutilator (24453) */
+     , (0x75D4D09E, 0x75D4D003, '2005-02-09 10:00:00') /* Olthoi Swarm Mutilator (24453) */
+     , (0x75D4D09E, 0x75D4D004, '2005-02-09 10:00:00') /* Olthoi Swarm Mutilator (24453) */
+     , (0x75D4D09E, 0x75D4D006, '2005-02-09 10:00:00') /* Olthoi Swarm Mutilator (24453) */
+     , (0x75D4D09E, 0x75D4D007, '2005-02-09 10:00:00') /* Olthoi Swarm Mutilator (24453) */
+     , (0x75D4D09E, 0x75D4D008, '2005-02-09 10:00:00') /* Olthoi Swarm Mutilator (24453) */
+     , (0x75D4D09E, 0x75D4D009, '2005-02-09 10:00:00') /* Olthoi Swarm Mutilator (24453) */
+     , (0x75D4D09E, 0x75D4D00A, '2005-02-09 10:00:00') /* Olthoi Swarm Mutilator (24453) */
+     , (0x75D4D09E, 0x75D4D00C, '2005-02-09 10:00:00') /* Olthoi Swarm Mutilator (24453) */
+     , (0x75D4D09E, 0x75D4D012, '2005-02-09 10:00:00') /* Olthoi Swarm Mutilator (24453) */
+     , (0x75D4D09E, 0x75D4D020, '2005-02-09 10:00:00') /* Lacerator (24957) */
+     , (0x75D4D09E, 0x75D4D024, '2005-02-09 10:00:00') /* Olthoi Swarm Warrior (24305) */
+     , (0x75D4D09E, 0x75D4D025, '2005-02-09 10:00:00') /* Lacerator (24957) */
+     , (0x75D4D09E, 0x75D4D029, '2005-02-09 10:00:00') /* Olthoi Swarm Warrior (24305) */
+     , (0x75D4D09E, 0x75D4D02B, '2005-02-09 10:00:00') /* Olthoi Swarm Warrior (24305) */
+     , (0x75D4D09E, 0x75D4D02C, '2005-02-09 10:00:00') /* Olthoi Brood Matron (24296) */
+     , (0x75D4D09E, 0x75D4D032, '2005-02-09 10:00:00') /* Olthoi Swarm Warrior (24305) */
+     , (0x75D4D09E, 0x75D4D033, '2005-02-09 10:00:00') /* Lacerator (24957) */
+     , (0x75D4D09E, 0x75D4D034, '2005-02-09 10:00:00') /* Elite Revenant (25809) */
+     , (0x75D4D09E, 0x75D4D035, '2005-02-09 10:00:00') /* Elite Revenant (25809) */
+     , (0x75D4D09E, 0x75D4D036, '2005-02-09 10:00:00') /* Demilich (25808) */
+     , (0x75D4D09E, 0x75D4D038, '2005-02-09 10:00:00') /* Elite Revenant (25809) */
+     , (0x75D4D09E, 0x75D4D039, '2005-02-09 10:00:00') /* Elite Revenant (25809) */
+     , (0x75D4D09E, 0x75D4D03A, '2005-02-09 10:00:00') /* Demilich (25808) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75D4D09F, 25805, 0x5D4D0366, 51.3186, -67.5496, -11.995, 0.997189, 0, 0, -0.0749293,  True, '2005-02-09 10:00:00'); /* Skeletal Fiend */

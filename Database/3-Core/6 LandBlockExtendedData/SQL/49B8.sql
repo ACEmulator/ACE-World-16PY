@@ -9,4 +9,4 @@ VALUES (0x749B8001,  5086, 0x49B80000, 55.6425, 98.481, 240.005, 0.115167, 0, 0,
 /* @teleloc 0x49B80000 [55.642500 98.481000 240.005000] 0.115167 0.000000 0.000000 0.993346 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x749B8001, 0x749B8000, '2005-02-09 10:00:00') /* Grand Sentinel Tretia */;
+VALUES (0x749B8001, 0x749B8000, '2005-02-09 10:00:00') /* Grand Sentinel Tretia (14922) */;

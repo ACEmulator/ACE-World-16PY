@@ -29,12 +29,12 @@ VALUES (0x77A60006,  7925, 0x7A600000, 101.946, 19.5955, 0.005, -0.328104, 0, 0,
 /* @teleloc 0x7A600000 [101.946000 19.595500 0.005000] -0.328104 0.000000 0.000000 0.944642 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x77A60006, 0x77A60000, '2005-02-09 10:00:00') /* Sandy Armoredillo */
-     , (0x77A60006, 0x77A60001, '2005-02-09 10:00:00') /* Sandy Armoredillo */
-     , (0x77A60006, 0x77A60002, '2005-02-09 10:00:00') /* Sandy Armoredillo */
-     , (0x77A60006, 0x77A60003, '2005-02-09 10:00:00') /* Shore Armoredillo */
-     , (0x77A60006, 0x77A60004, '2005-02-09 10:00:00') /* Shore Armoredillo */
-     , (0x77A60006, 0x77A60005, '2005-02-09 10:00:00') /* Shore Armoredillo */;
+VALUES (0x77A60006, 0x77A60000, '2005-02-09 10:00:00') /* Sandy Armoredillo (180) */
+     , (0x77A60006, 0x77A60001, '2005-02-09 10:00:00') /* Sandy Armoredillo (180) */
+     , (0x77A60006, 0x77A60002, '2005-02-09 10:00:00') /* Sandy Armoredillo (180) */
+     , (0x77A60006, 0x77A60003, '2005-02-09 10:00:00') /* Shore Armoredillo (2565) */
+     , (0x77A60006, 0x77A60004, '2005-02-09 10:00:00') /* Shore Armoredillo (2565) */
+     , (0x77A60006, 0x77A60005, '2005-02-09 10:00:00') /* Shore Armoredillo (2565) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x77A60007, 26614, 0x7A600000, 98.2965, 22.413, 0.005, 0.832615, 0, 0, -0.553852, False, '2005-02-09 10:00:00'); /* Runed Chest */

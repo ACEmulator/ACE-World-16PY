@@ -9,14 +9,14 @@ VALUES (0x7D657001,  1154, 0xD6570000, 149.664, 20.7554, 30.005, -0.0994797, 0, 
 /* @teleloc 0xD6570000 [149.664000 20.755400 30.005000] -0.099480 0.000000 0.000000 0.995040 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7D657001, 0x7D657000, '2005-02-09 10:00:00') /* Gnawer Shreth */
-     , (0x7D657001, 0x7D657002, '2005-02-09 10:00:00') /* Carrion Shreth */
-     , (0x7D657001, 0x7D657003, '2005-02-09 10:00:00') /* Drudge Skulker */
-     , (0x7D657001, 0x7D657004, '2005-02-09 10:00:00') /* Drudge Skulker */
-     , (0x7D657001, 0x7D657005, '2005-02-09 10:00:00') /* Drudge Skulker */
-     , (0x7D657001, 0x7D657006, '2005-02-09 10:00:00') /* Drudge Prowler */
-     , (0x7D657001, 0x7D657007, '2005-02-09 10:00:00') /* Drudge Slinker */
-     , (0x7D657001, 0x7D657008, '2005-02-09 10:00:00') /* Drudge Slinker */;
+VALUES (0x7D657001, 0x7D657000, '2005-02-09 10:00:00') /* Gnawer Shreth (4108) */
+     , (0x7D657001, 0x7D657002, '2005-02-09 10:00:00') /* Carrion Shreth (4109) */
+     , (0x7D657001, 0x7D657003, '2005-02-09 10:00:00') /* Drudge Skulker (7) */
+     , (0x7D657001, 0x7D657004, '2005-02-09 10:00:00') /* Drudge Skulker (7) */
+     , (0x7D657001, 0x7D657005, '2005-02-09 10:00:00') /* Drudge Skulker (7) */
+     , (0x7D657001, 0x7D657006, '2005-02-09 10:00:00') /* Drudge Prowler (192) */
+     , (0x7D657001, 0x7D657007, '2005-02-09 10:00:00') /* Drudge Slinker (193) */
+     , (0x7D657001, 0x7D657008, '2005-02-09 10:00:00') /* Drudge Slinker (193) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7D657002,  4109, 0xD6570000, 152.78, 20.3847, 30.011, -0.912033, 0, 0, 0.410118,  True, '2005-02-09 10:00:00'); /* Carrion Shreth */

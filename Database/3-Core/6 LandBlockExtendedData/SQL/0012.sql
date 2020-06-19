@@ -13,14 +13,14 @@ VALUES (0x70012002,  7923, 0x00120110, 29.6226, -210.767, -29.995, -0.791505, 0,
 /* @teleloc 0x00120110 [29.622600 -210.767000 -29.995000] -0.791505 0.000000 0.000000 0.611163 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x70012002, 0x70012000, '2005-02-09 10:00:00') /* Virindi Profane */
-     , (0x70012002, 0x70012001, '2005-02-09 10:00:00') /* Sinister Shadow */
-     , (0x70012002, 0x70012004, '2005-02-09 10:00:00') /* Virindi Profane */
-     , (0x70012002, 0x70012006, '2005-02-09 10:00:00') /* Sinister Shadow */
-     , (0x70012002, 0x70012007, '2005-02-09 10:00:00') /* Virindi Profane */
-     , (0x70012002, 0x70012008, '2005-02-09 10:00:00') /* Virindi Profane */
-     , (0x70012002, 0x70012009, '2005-02-09 10:00:00') /* Sinister Shadow */
-     , (0x70012002, 0x7001200A, '2005-02-09 10:00:00') /* Sinister Shadow */;
+VALUES (0x70012002, 0x70012000, '2005-02-09 10:00:00') /* Virindi Profane (22914) */
+     , (0x70012002, 0x70012001, '2005-02-09 10:00:00') /* Sinister Shadow (23563) */
+     , (0x70012002, 0x70012004, '2005-02-09 10:00:00') /* Virindi Profane (22914) */
+     , (0x70012002, 0x70012006, '2005-02-09 10:00:00') /* Sinister Shadow (23563) */
+     , (0x70012002, 0x70012007, '2005-02-09 10:00:00') /* Virindi Profane (22914) */
+     , (0x70012002, 0x70012008, '2005-02-09 10:00:00') /* Virindi Profane (22914) */
+     , (0x70012002, 0x70012009, '2005-02-09 10:00:00') /* Sinister Shadow (23563) */
+     , (0x70012002, 0x7001200A, '2005-02-09 10:00:00') /* Sinister Shadow (23563) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x70012004, 22914, 0x0012011C, 29.49, -219.715, -29.971, -0.719933, 0, 0, 0.694043,  True, '2005-02-09 10:00:00'); /* Virindi Profane */
@@ -75,17 +75,17 @@ VALUES (0x70012011,  7932, 0x00120168, 80.5493, -236.759, -29.995, 0.184168, 0, 
 /* @teleloc 0x00120168 [80.549300 -236.759000 -29.995000] 0.184168 0.000000 0.000000 0.982895 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x70012011, 0x7001200B, '2005-02-09 10:00:00') /* Virindi Profane */
-     , (0x70012011, 0x7001200D, '2005-02-09 10:00:00') /* Virindi Profane */
-     , (0x70012011, 0x7001200F, '2005-02-09 10:00:00') /* Paroxysm Shadow */
-     , (0x70012011, 0x70012010, '2005-02-09 10:00:00') /* Paroxysm Shadow */
-     , (0x70012011, 0x70012014, '2005-02-09 10:00:00') /* Paroxysm Shadow */
-     , (0x70012011, 0x70012017, '2005-02-09 10:00:00') /* Virindi Profane */
-     , (0x70012011, 0x70012018, '2005-02-09 10:00:00') /* Paroxysm Shadow */
-     , (0x70012011, 0x7001201B, '2005-02-09 10:00:00') /* Virindi Preceptor */
-     , (0x70012011, 0x7001202D, '2005-02-09 10:00:00') /* Gloom Drudge */
-     , (0x70012011, 0x7001202E, '2005-02-09 10:00:00') /* Murk Drudge */
-     , (0x70012011, 0x7001202F, '2005-02-09 10:00:00') /* Virindi Preceptor */;
+VALUES (0x70012011, 0x7001200B, '2005-02-09 10:00:00') /* Virindi Profane (22914) */
+     , (0x70012011, 0x7001200D, '2005-02-09 10:00:00') /* Virindi Profane (22914) */
+     , (0x70012011, 0x7001200F, '2005-02-09 10:00:00') /* Paroxysm Shadow (22911) */
+     , (0x70012011, 0x70012010, '2005-02-09 10:00:00') /* Paroxysm Shadow (22911) */
+     , (0x70012011, 0x70012014, '2005-02-09 10:00:00') /* Paroxysm Shadow (22911) */
+     , (0x70012011, 0x70012017, '2005-02-09 10:00:00') /* Virindi Profane (22914) */
+     , (0x70012011, 0x70012018, '2005-02-09 10:00:00') /* Paroxysm Shadow (22911) */
+     , (0x70012011, 0x7001201B, '2005-02-09 10:00:00') /* Virindi Preceptor (23769) */
+     , (0x70012011, 0x7001202D, '2005-02-09 10:00:00') /* Gloom Drudge (24279) */
+     , (0x70012011, 0x7001202E, '2005-02-09 10:00:00') /* Murk Drudge (24280) */
+     , (0x70012011, 0x7001202F, '2005-02-09 10:00:00') /* Virindi Preceptor (23769) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x70012012, 24280, 0x00120169, 81.9346, -252.377, -29.995, 0.01179, 0, 0, 0.999931,  True, '2005-02-09 10:00:00'); /* Murk Drudge */
@@ -120,13 +120,13 @@ VALUES (0x70012019,  7923, 0x0012016F, 86.6194, -253.717, -29.995, -0.67842, 0, 
 /* @teleloc 0x0012016F [86.619400 -253.717000 -29.995000] -0.678420 0.000000 0.000000 -0.734674 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x70012019, 0x7001200C, '2005-02-09 10:00:00') /* Gloom Drudge */
-     , (0x70012019, 0x7001200E, '2005-02-09 10:00:00') /* Murk Drudge */
-     , (0x70012019, 0x70012012, '2005-02-09 10:00:00') /* Murk Drudge */
-     , (0x70012019, 0x70012013, '2005-02-09 10:00:00') /* Murk Drudge */
-     , (0x70012019, 0x70012015, '2005-02-09 10:00:00') /* Murk Drudge */
-     , (0x70012019, 0x70012016, '2005-02-09 10:00:00') /* Gloom Drudge */
-     , (0x70012019, 0x7001201A, '2005-02-09 10:00:00') /* Gloom Drudge */;
+VALUES (0x70012019, 0x7001200C, '2005-02-09 10:00:00') /* Gloom Drudge (24279) */
+     , (0x70012019, 0x7001200E, '2005-02-09 10:00:00') /* Murk Drudge (24280) */
+     , (0x70012019, 0x70012012, '2005-02-09 10:00:00') /* Murk Drudge (24280) */
+     , (0x70012019, 0x70012013, '2005-02-09 10:00:00') /* Murk Drudge (24280) */
+     , (0x70012019, 0x70012015, '2005-02-09 10:00:00') /* Murk Drudge (24280) */
+     , (0x70012019, 0x70012016, '2005-02-09 10:00:00') /* Gloom Drudge (24279) */
+     , (0x70012019, 0x7001201A, '2005-02-09 10:00:00') /* Gloom Drudge (24279) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7001201A, 24279, 0x00120170, 86.8731, -256.898, -29.995, -0.67842, 0, 0, -0.734674,  True, '2005-02-09 10:00:00'); /* Gloom Drudge */
@@ -149,9 +149,9 @@ VALUES (0x7001201E,  3953, 0x00120180, 30, -229.991, -23.995, 1, 0, 0, 0, False,
 /* @teleloc 0x00120180 [30.000000 -229.991000 -23.995000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7001201E, 0x7001201D, '2005-02-09 10:00:00') /* Olthoi Swarm Matron */
-     , (0x7001201E, 0x7001201F, '2005-02-09 10:00:00') /* Olthoi Swarm Matron */
-     , (0x7001201E, 0x70012025, '2005-02-09 10:00:00') /* Olthoi Swarm Matron */;
+VALUES (0x7001201E, 0x7001201D, '2005-02-09 10:00:00') /* Olthoi Swarm Matron (24303) */
+     , (0x7001201E, 0x7001201F, '2005-02-09 10:00:00') /* Olthoi Swarm Matron (24303) */
+     , (0x7001201E, 0x70012025, '2005-02-09 10:00:00') /* Olthoi Swarm Matron (24303) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7001201F, 24303, 0x00120181, 40.8678, -231.383, -23.995, 0.96446, 0, 0, -0.264229,  True, '2005-02-09 10:00:00'); /* Olthoi Swarm Matron */
@@ -174,28 +174,28 @@ VALUES (0x70012023, 24129, 0x00120182, 50.1461, -198.512, -23.995, -0.273435, 0,
 /* @teleloc 0x00120182 [50.146100 -198.512000 -23.995000] -0.273435 0.000000 0.000000 -0.961890 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x70012023, 0x70012020, '2005-02-09 10:00:00') /* Murk Drudge */
-     , (0x70012023, 0x70012021, '2005-02-09 10:00:00') /* Murk Drudge */
-     , (0x70012023, 0x70012022, '2005-02-09 10:00:00') /* Murk Drudge */;
+VALUES (0x70012023, 0x70012020, '2005-02-09 10:00:00') /* Murk Drudge (24280) */
+     , (0x70012023, 0x70012021, '2005-02-09 10:00:00') /* Murk Drudge (24280) */
+     , (0x70012023, 0x70012022, '2005-02-09 10:00:00') /* Murk Drudge (24280) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x70012024,  7923, 0x00120182, 49.2791, -200.429, -23.995, 0.542187, 0, 0, -0.840258, False, '2005-02-09 10:00:00'); /* Linkable Monster Generator ( 3 Min.) */
 /* @teleloc 0x00120182 [49.279100 -200.429000 -23.995000] 0.542187 0.000000 0.000000 -0.840258 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x70012024, 0x70012027, '2005-02-09 10:00:00') /* Murk Drudge */
-     , (0x70012024, 0x70012028, '2005-02-09 10:00:00') /* Gloom Drudge */
-     , (0x70012024, 0x7001202A, '2005-02-09 10:00:00') /* Murk Drudge */
-     , (0x70012024, 0x7001202B, '2005-02-09 10:00:00') /* Murk Drudge */
-     , (0x70012024, 0x70012042, '2005-02-09 10:00:00') /* Murk Drudge */
-     , (0x70012024, 0x70012043, '2005-02-09 10:00:00') /* Murk Drudge */
-     , (0x70012024, 0x70012044, '2005-02-09 10:00:00') /* Virindi Preceptor */
-     , (0x70012024, 0x70012069, '2005-02-09 10:00:00') /* Gloom Drudge */
-     , (0x70012024, 0x7001206A, '2005-02-09 10:00:00') /* Murk Drudge */
-     , (0x70012024, 0x7001206B, '2005-02-09 10:00:00') /* Virindi Executor */
-     , (0x70012024, 0x7001206D, '2005-02-09 10:00:00') /* Virindi Executor */
-     , (0x70012024, 0x7001206E, '2005-02-09 10:00:00') /* Gloom Drudge */
-     , (0x70012024, 0x7001206F, '2005-02-09 10:00:00') /* Murk Drudge */;
+VALUES (0x70012024, 0x70012027, '2005-02-09 10:00:00') /* Murk Drudge (24280) */
+     , (0x70012024, 0x70012028, '2005-02-09 10:00:00') /* Gloom Drudge (24279) */
+     , (0x70012024, 0x7001202A, '2005-02-09 10:00:00') /* Murk Drudge (24280) */
+     , (0x70012024, 0x7001202B, '2005-02-09 10:00:00') /* Murk Drudge (24280) */
+     , (0x70012024, 0x70012042, '2005-02-09 10:00:00') /* Murk Drudge (24280) */
+     , (0x70012024, 0x70012043, '2005-02-09 10:00:00') /* Murk Drudge (24280) */
+     , (0x70012024, 0x70012044, '2005-02-09 10:00:00') /* Virindi Preceptor (23769) */
+     , (0x70012024, 0x70012069, '2005-02-09 10:00:00') /* Gloom Drudge (24279) */
+     , (0x70012024, 0x7001206A, '2005-02-09 10:00:00') /* Murk Drudge (24280) */
+     , (0x70012024, 0x7001206B, '2005-02-09 10:00:00') /* Virindi Executor (9264) */
+     , (0x70012024, 0x7001206D, '2005-02-09 10:00:00') /* Virindi Executor (9264) */
+     , (0x70012024, 0x7001206E, '2005-02-09 10:00:00') /* Gloom Drudge (24279) */
+     , (0x70012024, 0x7001206F, '2005-02-09 10:00:00') /* Murk Drudge (24280) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x70012025, 24303, 0x00120183, 50.6754, -229.149, -23.995, 0.561168, 0, 0, 0.827702,  True, '2005-02-09 10:00:00'); /* Olthoi Swarm Matron */
@@ -258,7 +258,7 @@ VALUES (0x70012039, 24129, 0x00120202, 43.7014, -229.772, -17.608, -0.770376, 0,
 /* @teleloc 0x00120202 [43.701400 -229.772000 -17.608000] -0.770376 0.000000 0.000000 -0.637590 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x70012039, 0x70012035, '2005-02-09 10:00:00') /* Murk Drudge */;
+VALUES (0x70012039, 0x70012035, '2005-02-09 10:00:00') /* Murk Drudge (24280) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7001203A, 24279, 0x00120206, 52.0401, -227.738, -17.608, -0.677786, 0, 0, -0.735259,  True, '2005-02-09 10:00:00'); /* Gloom Drudge */
@@ -277,13 +277,13 @@ VALUES (0x7001203E,  7923, 0x00120206, 49.132, -228.15, -17.608, 0.335171, 0, 0,
 /* @teleloc 0x00120206 [49.132000 -228.150000 -17.608000] 0.335171 0.000000 0.000000 0.942157 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7001203E, 0x7001201C, '2005-02-09 10:00:00') /* Paroxysm Shadow */
-     , (0x7001203E, 0x70012030, '2005-02-09 10:00:00') /* Paroxysm Shadow */
-     , (0x7001203E, 0x70012031, '2005-02-09 10:00:00') /* Gloom Drudge */
-     , (0x7001203E, 0x70012038, '2005-02-09 10:00:00') /* Paroxysm Shadow */
-     , (0x7001203E, 0x7001203A, '2005-02-09 10:00:00') /* Gloom Drudge */
-     , (0x7001203E, 0x7001203C, '2005-02-09 10:00:00') /* Paroxysm Shadow */
-     , (0x7001203E, 0x7001203D, '2005-02-09 10:00:00') /* Virindi Profane */;
+VALUES (0x7001203E, 0x7001201C, '2005-02-09 10:00:00') /* Paroxysm Shadow (22911) */
+     , (0x7001203E, 0x70012030, '2005-02-09 10:00:00') /* Paroxysm Shadow (22911) */
+     , (0x7001203E, 0x70012031, '2005-02-09 10:00:00') /* Gloom Drudge (24279) */
+     , (0x7001203E, 0x70012038, '2005-02-09 10:00:00') /* Paroxysm Shadow (22911) */
+     , (0x7001203E, 0x7001203A, '2005-02-09 10:00:00') /* Gloom Drudge (24279) */
+     , (0x7001203E, 0x7001203C, '2005-02-09 10:00:00') /* Paroxysm Shadow (22911) */
+     , (0x7001203E, 0x7001203D, '2005-02-09 10:00:00') /* Virindi Profane (22914) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7001203F, 23769, 0x00120208, 29.4323, -198.37, -11.971, -0.137939, 0, 0, -0.990441,  True, '2005-02-09 10:00:00'); /* Virindi Preceptor */
@@ -318,8 +318,8 @@ VALUES (0x70012047, 24129, 0x0012021C, 71.3413, -321.745, -11.995, 0.417404, 0, 
 /* @teleloc 0x0012021C [71.341300 -321.745000 -11.995000] 0.417404 0.000000 0.000000 -0.908721 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x70012047, 0x70012054, '2005-02-09 10:00:00') /* Murk Drudge */
-     , (0x70012047, 0x70012056, '2005-02-09 10:00:00') /* Murk Drudge */;
+VALUES (0x70012047, 0x70012054, '2005-02-09 10:00:00') /* Murk Drudge (24280) */
+     , (0x70012047, 0x70012056, '2005-02-09 10:00:00') /* Murk Drudge (24280) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x70012048, 22911, 0x0012021C, 73.2267, -319.487, -11.9935, 0.101897, 0, 0, -0.994795,  True, '2005-02-09 10:00:00'); /* Paroxysm Shadow */
@@ -334,7 +334,7 @@ VALUES (0x7001204A,  7932, 0x0012021D, 67.1658, -329.322, -11.995, -0.180959, 0,
 /* @teleloc 0x0012021D [67.165800 -329.322000 -11.995000] -0.180959 0.000000 0.000000 -0.983491 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7001204A, 0x70012049, '2005-02-09 10:00:00') /* Shadow Annihilator */;
+VALUES (0x7001204A, 0x70012049, '2005-02-09 10:00:00') /* Shadow Annihilator (30706) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7001204C, 22914, 0x0012021D, 72.1004, -326.589, -11.971, 0.622053, 0, 0, -0.782975,  True, '2005-02-09 10:00:00'); /* Virindi Profane */
@@ -345,10 +345,10 @@ VALUES (0x7001204D,  7923, 0x0012021D, 69.2122, -330.277, -11.995, 0.263613, 0, 
 /* @teleloc 0x0012021D [69.212200 -330.277000 -11.995000] 0.263613 0.000000 0.000000 -0.964629 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7001204D, 0x70012048, '2005-02-09 10:00:00') /* Paroxysm Shadow */
-     , (0x7001204D, 0x7001204C, '2005-02-09 10:00:00') /* Virindi Profane */
-     , (0x7001204D, 0x7001204E, '2005-02-09 10:00:00') /* Paroxysm Shadow */
-     , (0x7001204D, 0x70012050, '2005-02-09 10:00:00') /* Virindi Profane */;
+VALUES (0x7001204D, 0x70012048, '2005-02-09 10:00:00') /* Paroxysm Shadow (22911) */
+     , (0x7001204D, 0x7001204C, '2005-02-09 10:00:00') /* Virindi Profane (22914) */
+     , (0x7001204D, 0x7001204E, '2005-02-09 10:00:00') /* Paroxysm Shadow (22911) */
+     , (0x7001204D, 0x70012050, '2005-02-09 10:00:00') /* Virindi Profane (22914) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7001204E, 22911, 0x0012021D, 72.854, -329.508, -11.9935, 0.764842, 0, 0, -0.644218,  True, '2005-02-09 10:00:00'); /* Paroxysm Shadow */
@@ -363,7 +363,7 @@ VALUES (0x70012052, 15274, 0x0012021F, 77.2509, -322.768, -11.995, 0.362357, 0, 
 /* @teleloc 0x0012021F [77.250900 -322.768000 -11.995000] 0.362357 0.000000 0.000000 -0.932039 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x70012052, 0x70012053, '2005-02-09 10:00:00') /* Gloom Drudge */;
+VALUES (0x70012052, 0x70012053, '2005-02-09 10:00:00') /* Gloom Drudge (24279) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x70012053, 24279, 0x0012021F, 76.5101, -323.446, -11.995, 0.362357, 0, 0, -0.932039,  True, '2005-02-09 10:00:00'); /* Gloom Drudge */
@@ -398,13 +398,13 @@ VALUES (0x7001205E,  7923, 0x00120233, 98.5797, -326.819, -11.995, -0.999042, 0,
 /* @teleloc 0x00120233 [98.579700 -326.819000 -11.995000] -0.999042 0.000000 0.000000 0.043764 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7001205E, 0x70012057, '2005-02-09 10:00:00') /* Virindi Executor */
-     , (0x7001205E, 0x70012059, '2005-02-09 10:00:00') /* Virindi Profane */
-     , (0x7001205E, 0x7001205A, '2005-02-09 10:00:00') /* Virindi Profane */
-     , (0x7001205E, 0x7001205C, '2005-02-09 10:00:00') /* Gloom Drudge */
-     , (0x7001205E, 0x70012091, '2005-02-09 10:00:00') /* Paroxysm Shadow */
-     , (0x7001205E, 0x70012094, '2005-02-09 10:00:00') /* Sinister Shadow */
-     , (0x7001205E, 0x70012095, '2005-02-09 10:00:00') /* Paroxysm Shadow */;
+VALUES (0x7001205E, 0x70012057, '2005-02-09 10:00:00') /* Virindi Executor (9264) */
+     , (0x7001205E, 0x70012059, '2005-02-09 10:00:00') /* Virindi Profane (22914) */
+     , (0x7001205E, 0x7001205A, '2005-02-09 10:00:00') /* Virindi Profane (22914) */
+     , (0x7001205E, 0x7001205C, '2005-02-09 10:00:00') /* Gloom Drudge (24279) */
+     , (0x7001205E, 0x70012091, '2005-02-09 10:00:00') /* Paroxysm Shadow (22911) */
+     , (0x7001205E, 0x70012094, '2005-02-09 10:00:00') /* Sinister Shadow (23563) */
+     , (0x7001205E, 0x70012095, '2005-02-09 10:00:00') /* Paroxysm Shadow (22911) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7001205F, 22914, 0x0012023B, 19.0205, -181.041, -5.971, -0.670735, 0, 0, 0.741697,  True, '2005-02-09 10:00:00'); /* Virindi Profane */
@@ -451,9 +451,9 @@ VALUES (0x7001206C, 24129, 0x0012026B, 48.088, -279.808, -5.995, 0.91294, 0, 0, 
 /* @teleloc 0x0012026B [48.088000 -279.808000 -5.995000] 0.912940 0.000000 0.000000 0.408094 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7001206C, 0x70012063, '2005-02-09 10:00:00') /* Murk Drudge */
-     , (0x7001206C, 0x70012066, '2005-02-09 10:00:00') /* Gloom Drudge */
-     , (0x7001206C, 0x70012068, '2005-02-09 10:00:00') /* Murk Drudge */;
+VALUES (0x7001206C, 0x70012063, '2005-02-09 10:00:00') /* Murk Drudge (24280) */
+     , (0x7001206C, 0x70012066, '2005-02-09 10:00:00') /* Gloom Drudge (24279) */
+     , (0x7001206C, 0x70012068, '2005-02-09 10:00:00') /* Murk Drudge (24280) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7001206D,  9264, 0x00120271, 59.0074, -173.589, -5.971, 1, 0, 0, 0,  True, '2005-02-09 10:00:00'); /* Virindi Executor */
@@ -484,13 +484,13 @@ VALUES (0x70012075,  7923, 0x00120274, 61.9555, -257.082, -5.995, -0.620536, 0, 
 /* @teleloc 0x00120274 [61.955500 -257.082000 -5.995000] -0.620536 0.000000 0.000000 -0.784178 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x70012075, 0x70012072, '2005-02-09 10:00:00') /* Virindi Profane */
-     , (0x70012075, 0x70012073, '2005-02-09 10:00:00') /* Virindi Executor */
-     , (0x70012075, 0x7001207F, '2005-02-09 10:00:00') /* Virindi Profane */
-     , (0x70012075, 0x70012086, '2005-02-09 10:00:00') /* Virindi Profane */
-     , (0x70012075, 0x70012088, '2005-02-09 10:00:00') /* Virindi Executor */
-     , (0x70012075, 0x7001208F, '2005-02-09 10:00:00') /* Virindi Profane */
-     , (0x70012075, 0x70012090, '2005-02-09 10:00:00') /* Virindi Profane */;
+VALUES (0x70012075, 0x70012072, '2005-02-09 10:00:00') /* Virindi Profane (22914) */
+     , (0x70012075, 0x70012073, '2005-02-09 10:00:00') /* Virindi Executor (9264) */
+     , (0x70012075, 0x7001207F, '2005-02-09 10:00:00') /* Virindi Profane (22914) */
+     , (0x70012075, 0x70012086, '2005-02-09 10:00:00') /* Virindi Profane (22914) */
+     , (0x70012075, 0x70012088, '2005-02-09 10:00:00') /* Virindi Executor (9264) */
+     , (0x70012075, 0x7001208F, '2005-02-09 10:00:00') /* Virindi Profane (22914) */
+     , (0x70012075, 0x70012090, '2005-02-09 10:00:00') /* Virindi Profane (22914) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x70012077, 22911, 0x00120275, 60.105, -282.12, -5.9935, 0.778867, 0, 0, 0.627189,  True, '2005-02-09 10:00:00'); /* Paroxysm Shadow */
@@ -533,13 +533,13 @@ VALUES (0x70012085,  7923, 0x0012028B, 76.2786, -240.863, -5.995, -0.850054, 0, 
 /* @teleloc 0x0012028B [76.278600 -240.863000 -5.995000] -0.850054 0.000000 0.000000 -0.526695 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x70012085, 0x70012070, '2005-02-09 10:00:00') /* Virindi Profane */
-     , (0x70012085, 0x7001207B, '2005-02-09 10:00:00') /* Murk Drudge */
-     , (0x70012085, 0x7001207C, '2005-02-09 10:00:00') /* Murk Drudge */
-     , (0x70012085, 0x7001207D, '2005-02-09 10:00:00') /* Sinister Shadow */
-     , (0x70012085, 0x70012083, '2005-02-09 10:00:00') /* Virindi Profane */
-     , (0x70012085, 0x70012084, '2005-02-09 10:00:00') /* Sinister Shadow */
-     , (0x70012085, 0x700120B1, '2005-02-09 10:00:00') /* Gloom Drudge */;
+VALUES (0x70012085, 0x70012070, '2005-02-09 10:00:00') /* Virindi Profane (22914) */
+     , (0x70012085, 0x7001207B, '2005-02-09 10:00:00') /* Murk Drudge (24280) */
+     , (0x70012085, 0x7001207C, '2005-02-09 10:00:00') /* Murk Drudge (24280) */
+     , (0x70012085, 0x7001207D, '2005-02-09 10:00:00') /* Sinister Shadow (23563) */
+     , (0x70012085, 0x70012083, '2005-02-09 10:00:00') /* Virindi Profane (22914) */
+     , (0x70012085, 0x70012084, '2005-02-09 10:00:00') /* Sinister Shadow (23563) */
+     , (0x70012085, 0x700120B1, '2005-02-09 10:00:00') /* Gloom Drudge (24279) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x70012086, 22914, 0x0012028C, 80.5424, -262.723, -5.971, -0.999464, 0, 0, 0.0327291,  True, '2005-02-09 10:00:00'); /* Virindi Profane */
@@ -566,12 +566,12 @@ VALUES (0x7001208D,  7923, 0x0012028D, 80.3664, -281.382, -5.995, -0.787251, 0, 
 /* @teleloc 0x0012028D [80.366400 -281.382000 -5.995000] -0.787251 0.000000 0.000000 -0.616633 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7001208D, 0x70012077, '2005-02-09 10:00:00') /* Paroxysm Shadow */
-     , (0x7001208D, 0x70012078, '2005-02-09 10:00:00') /* Virindi Preceptor */
-     , (0x7001208D, 0x70012080, '2005-02-09 10:00:00') /* Paroxysm Shadow */
-     , (0x7001208D, 0x7001208A, '2005-02-09 10:00:00') /* Sinister Shadow */
-     , (0x7001208D, 0x7001208B, '2005-02-09 10:00:00') /* Virindi Profane */
-     , (0x7001208D, 0x7001208C, '2005-02-09 10:00:00') /* Virindi Profane */;
+VALUES (0x7001208D, 0x70012077, '2005-02-09 10:00:00') /* Paroxysm Shadow (22911) */
+     , (0x7001208D, 0x70012078, '2005-02-09 10:00:00') /* Virindi Preceptor (23769) */
+     , (0x7001208D, 0x70012080, '2005-02-09 10:00:00') /* Paroxysm Shadow (22911) */
+     , (0x7001208D, 0x7001208A, '2005-02-09 10:00:00') /* Sinister Shadow (23563) */
+     , (0x7001208D, 0x7001208B, '2005-02-09 10:00:00') /* Virindi Profane (22914) */
+     , (0x7001208D, 0x7001208C, '2005-02-09 10:00:00') /* Virindi Profane (22914) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7001208F, 22914, 0x001202AF, 99.537, -249.123, -5.971, -0.994242, 0, 0, -0.107156,  True, '2005-02-09 10:00:00'); /* Virindi Profane */
@@ -606,8 +606,8 @@ VALUES (0x70012099, 15274, 0x001202D2, -2.4338, 1.5851, 0.005, -0.055233, 0, 0, 
 /* @teleloc 0x001202D2 [-2.433800 1.585100 0.005000] -0.055233 0.000000 0.000000 0.998473 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x70012099, 0x70012097, '2005-02-09 10:00:00') /* Sewer Rat */
-     , (0x70012099, 0x70012098, '2005-02-09 10:00:00') /* Sewer Rat */;
+VALUES (0x70012099, 0x70012097, '2005-02-09 10:00:00') /* Sewer Rat (7106) */
+     , (0x70012099, 0x70012098, '2005-02-09 10:00:00') /* Sewer Rat (7106) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7001209A, 23563, 0x001202E3, 19.8159, -200.978, 0.005, -0.998048, 0, 0, -0.062444,  True, '2005-02-09 10:00:00'); /* Sinister Shadow */
@@ -662,25 +662,25 @@ VALUES (0x700120AD,  7923, 0x00120308, 50.9382, -150.045, 0.005, -0.501924, 0, 0
 /* @teleloc 0x00120308 [50.938200 -150.045000 0.005000] -0.501924 0.000000 0.000000 -0.864912 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x700120AD, 0x7001209D, '2005-02-09 10:00:00') /* Murk Drudge */
-     , (0x700120AD, 0x7001209F, '2005-02-09 10:00:00') /* Virindi Preceptor */
-     , (0x700120AD, 0x700120A4, '2005-02-09 10:00:00') /* Murk Drudge */
-     , (0x700120AD, 0x700120A7, '2005-02-09 10:00:00') /* Murk Drudge */
-     , (0x700120AD, 0x700120A8, '2005-02-09 10:00:00') /* Virindi Preceptor */
-     , (0x700120AD, 0x700120AA, '2005-02-09 10:00:00') /* Murk Drudge */
-     , (0x700120AD, 0x700120AB, '2005-02-09 10:00:00') /* Murk Drudge */
-     , (0x700120AD, 0x700120AC, '2005-02-09 10:00:00') /* Virindi Executor */
-     , (0x700120AD, 0x700120B3, '2005-02-09 10:00:00') /* Gloom Drudge */
-     , (0x700120AD, 0x700120B4, '2005-02-09 10:00:00') /* Gloom Drudge */
-     , (0x700120AD, 0x700120B5, '2005-02-09 10:00:00') /* Virindi Executor */
-     , (0x700120AD, 0x700120B6, '2005-02-09 10:00:00') /* Murk Drudge */
-     , (0x700120AD, 0x700120B7, '2005-02-09 10:00:00') /* Gloom Drudge */
-     , (0x700120AD, 0x700120B8, '2005-02-09 10:00:00') /* Virindi Preceptor */
-     , (0x700120AD, 0x700120B9, '2005-02-09 10:00:00') /* Gloom Drudge */
-     , (0x700120AD, 0x700120BA, '2005-02-09 10:00:00') /* Gloom Drudge */
-     , (0x700120AD, 0x700120BB, '2005-02-09 10:00:00') /* Virindi Preceptor */
-     , (0x700120AD, 0x700120BC, '2005-02-09 10:00:00') /* Gloom Drudge */
-     , (0x700120AD, 0x700120BE, '2005-02-09 10:00:00') /* Virindi Preceptor */;
+VALUES (0x700120AD, 0x7001209D, '2005-02-09 10:00:00') /* Murk Drudge (24280) */
+     , (0x700120AD, 0x7001209F, '2005-02-09 10:00:00') /* Virindi Preceptor (23769) */
+     , (0x700120AD, 0x700120A4, '2005-02-09 10:00:00') /* Murk Drudge (24280) */
+     , (0x700120AD, 0x700120A7, '2005-02-09 10:00:00') /* Murk Drudge (24280) */
+     , (0x700120AD, 0x700120A8, '2005-02-09 10:00:00') /* Virindi Preceptor (23769) */
+     , (0x700120AD, 0x700120AA, '2005-02-09 10:00:00') /* Murk Drudge (24280) */
+     , (0x700120AD, 0x700120AB, '2005-02-09 10:00:00') /* Murk Drudge (24280) */
+     , (0x700120AD, 0x700120AC, '2005-02-09 10:00:00') /* Virindi Executor (9264) */
+     , (0x700120AD, 0x700120B3, '2005-02-09 10:00:00') /* Gloom Drudge (24279) */
+     , (0x700120AD, 0x700120B4, '2005-02-09 10:00:00') /* Gloom Drudge (24279) */
+     , (0x700120AD, 0x700120B5, '2005-02-09 10:00:00') /* Virindi Executor (9264) */
+     , (0x700120AD, 0x700120B6, '2005-02-09 10:00:00') /* Murk Drudge (24280) */
+     , (0x700120AD, 0x700120B7, '2005-02-09 10:00:00') /* Gloom Drudge (24279) */
+     , (0x700120AD, 0x700120B8, '2005-02-09 10:00:00') /* Virindi Preceptor (23769) */
+     , (0x700120AD, 0x700120B9, '2005-02-09 10:00:00') /* Gloom Drudge (24279) */
+     , (0x700120AD, 0x700120BA, '2005-02-09 10:00:00') /* Gloom Drudge (24279) */
+     , (0x700120AD, 0x700120BB, '2005-02-09 10:00:00') /* Virindi Preceptor (23769) */
+     , (0x700120AD, 0x700120BC, '2005-02-09 10:00:00') /* Gloom Drudge (24279) */
+     , (0x700120AD, 0x700120BE, '2005-02-09 10:00:00') /* Virindi Preceptor (23769) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x700120AE, 22911, 0x0012030B, 50.4724, -180.77, 0.0065, 0.644583, 0, 0, 0.764534,  True, '2005-02-09 10:00:00'); /* Paroxysm Shadow */
@@ -695,21 +695,21 @@ VALUES (0x700120B0,  7923, 0x00120313, 49.4107, -186.597, 0.005, -0.012264, 0, 0
 /* @teleloc 0x00120313 [49.410700 -186.597000 0.005000] -0.012264 0.000000 0.000000 0.999925 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x700120B0, 0x70012032, '2005-02-09 10:00:00') /* Virindi Preceptor */
-     , (0x700120B0, 0x70012033, '2005-02-09 10:00:00') /* Virindi Preceptor */
-     , (0x700120B0, 0x7001203F, '2005-02-09 10:00:00') /* Virindi Preceptor */
-     , (0x700120B0, 0x70012040, '2005-02-09 10:00:00') /* Virindi Executor */
-     , (0x700120B0, 0x70012041, '2005-02-09 10:00:00') /* Virindi Executor */
-     , (0x700120B0, 0x7001205F, '2005-02-09 10:00:00') /* Virindi Profane */
-     , (0x700120B0, 0x70012060, '2005-02-09 10:00:00') /* Gloom Drudge */
-     , (0x700120B0, 0x70012061, '2005-02-09 10:00:00') /* Gloom Drudge */
-     , (0x700120B0, 0x70012062, '2005-02-09 10:00:00') /* Virindi Executor */
-     , (0x700120B0, 0x7001209A, '2005-02-09 10:00:00') /* Sinister Shadow */
-     , (0x700120B0, 0x700120A1, '2005-02-09 10:00:00') /* Sinister Shadow */
-     , (0x700120B0, 0x700120A2, '2005-02-09 10:00:00') /* Virindi Profane */
-     , (0x700120B0, 0x700120A3, '2005-02-09 10:00:00') /* Sinister Shadow */
-     , (0x700120B0, 0x700120AE, '2005-02-09 10:00:00') /* Paroxysm Shadow */
-     , (0x700120B0, 0x700120AF, '2005-02-09 10:00:00') /* Paroxysm Shadow */;
+VALUES (0x700120B0, 0x70012032, '2005-02-09 10:00:00') /* Virindi Preceptor (23769) */
+     , (0x700120B0, 0x70012033, '2005-02-09 10:00:00') /* Virindi Preceptor (23769) */
+     , (0x700120B0, 0x7001203F, '2005-02-09 10:00:00') /* Virindi Preceptor (23769) */
+     , (0x700120B0, 0x70012040, '2005-02-09 10:00:00') /* Virindi Executor (9264) */
+     , (0x700120B0, 0x70012041, '2005-02-09 10:00:00') /* Virindi Executor (9264) */
+     , (0x700120B0, 0x7001205F, '2005-02-09 10:00:00') /* Virindi Profane (22914) */
+     , (0x700120B0, 0x70012060, '2005-02-09 10:00:00') /* Gloom Drudge (24279) */
+     , (0x700120B0, 0x70012061, '2005-02-09 10:00:00') /* Gloom Drudge (24279) */
+     , (0x700120B0, 0x70012062, '2005-02-09 10:00:00') /* Virindi Executor (9264) */
+     , (0x700120B0, 0x7001209A, '2005-02-09 10:00:00') /* Sinister Shadow (23563) */
+     , (0x700120B0, 0x700120A1, '2005-02-09 10:00:00') /* Sinister Shadow (23563) */
+     , (0x700120B0, 0x700120A2, '2005-02-09 10:00:00') /* Virindi Profane (22914) */
+     , (0x700120B0, 0x700120A3, '2005-02-09 10:00:00') /* Sinister Shadow (23563) */
+     , (0x700120B0, 0x700120AE, '2005-02-09 10:00:00') /* Paroxysm Shadow (22911) */
+     , (0x700120B0, 0x700120AF, '2005-02-09 10:00:00') /* Paroxysm Shadow (22911) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x700120B1, 24279, 0x0012031E, 50.0105, -207.809, 0.005, -0.998402, 0, 0, 0.0565091,  True, '2005-02-09 10:00:00'); /* Gloom Drudge */
@@ -804,14 +804,14 @@ VALUES (0x700120D2,  7923, 0x0012038C, 59.0607, -93.0154, 6.005, -0.03304, 0, 0,
 /* @teleloc 0x0012038C [59.060700 -93.015400 6.005000] -0.033040 0.000000 0.000000 0.999454 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x700120D2, 0x700120BF, '2005-02-09 10:00:00') /* Murk Drudge */
-     , (0x700120D2, 0x700120C0, '2005-02-09 10:00:00') /* Murk Drudge */
-     , (0x700120D2, 0x700120C5, '2005-02-09 10:00:00') /* Gloom Drudge */
-     , (0x700120D2, 0x700120C6, '2005-02-09 10:00:00') /* Gloom Drudge */
-     , (0x700120D2, 0x700120C7, '2005-02-09 10:00:00') /* Murk Drudge */
-     , (0x700120D2, 0x700120C8, '2005-02-09 10:00:00') /* Gloom Drudge */
-     , (0x700120D2, 0x700120CA, '2005-02-09 10:00:00') /* Gloom Drudge */
-     , (0x700120D2, 0x700120D0, '2005-02-09 10:00:00') /* Murk Drudge */;
+VALUES (0x700120D2, 0x700120BF, '2005-02-09 10:00:00') /* Murk Drudge (24280) */
+     , (0x700120D2, 0x700120C0, '2005-02-09 10:00:00') /* Murk Drudge (24280) */
+     , (0x700120D2, 0x700120C5, '2005-02-09 10:00:00') /* Gloom Drudge (24279) */
+     , (0x700120D2, 0x700120C6, '2005-02-09 10:00:00') /* Gloom Drudge (24279) */
+     , (0x700120D2, 0x700120C7, '2005-02-09 10:00:00') /* Murk Drudge (24280) */
+     , (0x700120D2, 0x700120C8, '2005-02-09 10:00:00') /* Gloom Drudge (24279) */
+     , (0x700120D2, 0x700120CA, '2005-02-09 10:00:00') /* Gloom Drudge (24279) */
+     , (0x700120D2, 0x700120D0, '2005-02-09 10:00:00') /* Murk Drudge (24280) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x700120D3,   568, 0x00120397, 65.25, -80, 6, -0.707107, 0, 0, -0.707107, False, '2005-02-09 10:00:00'); /* Door */
@@ -846,13 +846,13 @@ VALUES (0x700120DA,  7924, 0x001203B7, 38.0789, -10.017, 18.005, 0.774392, 0, 0,
 /* @teleloc 0x001203B7 [38.078900 -10.017000 18.005000] 0.774392 0.000000 0.000000 0.632706 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x700120DA, 0x700120D5, '2005-02-09 10:00:00') /* Royal Guard */
-     , (0x700120DA, 0x700120D6, '2005-02-09 10:00:00') /* Royal Guard */
-     , (0x700120DA, 0x700120D9, '2005-02-09 10:00:00') /* Royal Guard */
-     , (0x700120DA, 0x700120DB, '2005-02-09 10:00:00') /* Royal Guard */
-     , (0x700120DA, 0x700120DC, '2005-02-09 10:00:00') /* Royal Guard */
-     , (0x700120DA, 0x700120DD, '2005-02-09 10:00:00') /* Royal Guard */
-     , (0x700120DA, 0x700120DE, '2005-02-09 10:00:00') /* Royal Guard */;
+VALUES (0x700120DA, 0x700120D5, '2005-02-09 10:00:00') /* Royal Guard (30758) */
+     , (0x700120DA, 0x700120D6, '2005-02-09 10:00:00') /* Royal Guard (30760) */
+     , (0x700120DA, 0x700120D9, '2005-02-09 10:00:00') /* Royal Guard (30759) */
+     , (0x700120DA, 0x700120DB, '2005-02-09 10:00:00') /* Royal Guard (30758) */
+     , (0x700120DA, 0x700120DC, '2005-02-09 10:00:00') /* Royal Guard (30760) */
+     , (0x700120DA, 0x700120DD, '2005-02-09 10:00:00') /* Royal Guard (30759) */
+     , (0x700120DA, 0x700120DE, '2005-02-09 10:00:00') /* Royal Guard (30759) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x700120DB, 30758, 0x001203BC, 38.7635, -18.5129, 18.005, 0.0928594, 0, 0, 0.995679,  True, '2005-02-09 10:00:00'); /* Royal Guard */

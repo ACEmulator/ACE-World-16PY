@@ -49,13 +49,13 @@ VALUES (0x7F828013,  4219, 0xF8280100, 14.531, 92.003, 13.205, 0.00841784, 0, 0,
 /* @teleloc 0xF8280100 [14.531000 92.003000 13.205000] 0.008418 0.000000 0.000000 -0.999965 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7F828013, 0x7F828009, '2005-02-09 10:00:00') /* Mosswart Scrounger */
-     , (0x7F828013, 0x7F82800A, '2005-02-09 10:00:00') /* Mosswart Scavenger */
-     , (0x7F828013, 0x7F82800B, '2005-02-09 10:00:00') /* Mosswart Scavenger */
-     , (0x7F828013, 0x7F82800C, '2005-02-09 10:00:00') /* Mosswart Scavenger */
-     , (0x7F828013, 0x7F82800D, '2005-02-09 10:00:00') /* Mosswart Scavenger */
-     , (0x7F828013, 0x7F82800E, '2005-02-09 10:00:00') /* Mosswart Scrounger */
-     , (0x7F828013, 0x7F82800F, '2005-02-09 10:00:00') /* Mosswart Scrounger */
-     , (0x7F828013, 0x7F828010, '2005-02-09 10:00:00') /* Mosswart Scrounger */
-     , (0x7F828013, 0x7F828011, '2005-02-09 10:00:00') /* Mosswart Scavenger */
-     , (0x7F828013, 0x7F828012, '2005-02-09 10:00:00') /* Mosswart Scavenger */;
+VALUES (0x7F828013, 0x7F828009, '2005-02-09 10:00:00') /* Mosswart Scrounger (28001) */
+     , (0x7F828013, 0x7F82800A, '2005-02-09 10:00:00') /* Mosswart Scavenger (28000) */
+     , (0x7F828013, 0x7F82800B, '2005-02-09 10:00:00') /* Mosswart Scavenger (28000) */
+     , (0x7F828013, 0x7F82800C, '2005-02-09 10:00:00') /* Mosswart Scavenger (28000) */
+     , (0x7F828013, 0x7F82800D, '2005-02-09 10:00:00') /* Mosswart Scavenger (28000) */
+     , (0x7F828013, 0x7F82800E, '2005-02-09 10:00:00') /* Mosswart Scrounger (28001) */
+     , (0x7F828013, 0x7F82800F, '2005-02-09 10:00:00') /* Mosswart Scrounger (28001) */
+     , (0x7F828013, 0x7F828010, '2005-02-09 10:00:00') /* Mosswart Scrounger (28001) */
+     , (0x7F828013, 0x7F828011, '2005-02-09 10:00:00') /* Mosswart Scavenger (28000) */
+     , (0x7F828013, 0x7F828012, '2005-02-09 10:00:00') /* Mosswart Scavenger (28000) */;

@@ -5,11 +5,11 @@ VALUES (0x7F11E000,  4219, 0xF11E0000, 33.7482, 37.1576, -0.895, 0.996355, 0, 0,
 /* @teleloc 0xF11E0000 [33.748200 37.157600 -0.895000] 0.996355 0.000000 0.000000 0.085302 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7F11E000, 0x7F11E001, '2005-02-09 10:00:00') /* Island Armoredillo */
-     , (0x7F11E000, 0x7F11E002, '2005-02-09 10:00:00') /* Island Armoredillo */
-     , (0x7F11E000, 0x7F11E003, '2005-02-09 10:00:00') /* Island Armoredillo */
-     , (0x7F11E000, 0x7F11E004, '2005-02-09 10:00:00') /* Island Armoredillo */
-     , (0x7F11E000, 0x7F11E005, '2005-02-09 10:00:00') /* Island Armoredillo */;
+VALUES (0x7F11E000, 0x7F11E001, '2005-02-09 10:00:00') /* Island Armoredillo (7082) */
+     , (0x7F11E000, 0x7F11E002, '2005-02-09 10:00:00') /* Island Armoredillo (7082) */
+     , (0x7F11E000, 0x7F11E003, '2005-02-09 10:00:00') /* Island Armoredillo (7082) */
+     , (0x7F11E000, 0x7F11E004, '2005-02-09 10:00:00') /* Island Armoredillo (7082) */
+     , (0x7F11E000, 0x7F11E005, '2005-02-09 10:00:00') /* Island Armoredillo (7082) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7F11E001,  7082, 0xF11E0000, 36.2669, 41.0294, -0.8874, 0.971434, 0, 0, -0.237308,  True, '2005-02-09 10:00:00'); /* Island Armoredillo */

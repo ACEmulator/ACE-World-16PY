@@ -145,39 +145,39 @@ VALUES (0x75F44023,  5086, 0x5F4401A3, 230.325, -97.5091, 0.005, 0.999993, 0, 0,
 /* @teleloc 0x5F4401A3 [230.325000 -97.509100 0.005000] 0.999993 0.000000 0.000000 0.003737 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x75F44023, 0x75F44000, '2005-02-09 10:00:00') /* Statue of Knifer's Wish */
-     , (0x75F44023, 0x75F44001, '2005-02-09 10:00:00') /* Statue of Axer's Wishes */
-     , (0x75F44023, 0x75F44002, '2005-02-09 10:00:00') /* Statue of Fletcher's Dreams */
-     , (0x75F44023, 0x75F44003, '2005-02-09 10:00:00') /* Statue of Lockpicker's Wish */
-     , (0x75F44023, 0x75F44004, '2005-02-09 10:00:00') /* Statue of Evasive Wishes */
-     , (0x75F44023, 0x75F44005, '2005-02-09 10:00:00') /* Statue of Scholarly Wishes */
-     , (0x75F44023, 0x75F44006, '2005-02-09 10:00:00') /* Statue of Bowman's Wish */
-     , (0x75F44023, 0x75F44007, '2005-02-09 10:00:00') /* Statue of Healer's Wish */
-     , (0x75F44023, 0x75F44008, '2005-02-09 10:00:00') /* Statue of Greedy Wishes */
-     , (0x75F44023, 0x75F44009, '2005-02-09 10:00:00') /* Statue of Macer's Wish */
-     , (0x75F44023, 0x75F4400A, '2005-02-09 10:00:00') /* Statue of Dodge Wishes */
-     , (0x75F44023, 0x75F4400B, '2005-02-09 10:00:00') /* Statue of Swordsman's Wish */
-     , (0x75F44023, 0x75F4400C, '2005-02-09 10:00:00') /* Statue of Alchemical Wishes */
-     , (0x75F44023, 0x75F4400D, '2005-02-09 10:00:00') /* Statue of Armor Tinker's Wish */
-     , (0x75F44023, 0x75F4400E, '2005-02-09 10:00:00') /* Statue of Cook's Wish */
-     , (0x75F44023, 0x75F4400F, '2005-02-09 10:00:00') /* Statue of Artificer's Wish */
-     , (0x75F44023, 0x75F44010, '2005-02-09 10:00:00') /* Statue of Resistance Wishes */
-     , (0x75F44023, 0x75F44011, '2005-02-09 10:00:00') /* Statue of Sprinter's Wish */
-     , (0x75F44023, 0x75F44012, '2005-02-09 10:00:00') /* Statue of Brawler's Wish */
-     , (0x75F44023, 0x75F44013, '2005-02-09 10:00:00') /* Statue of Weapon Tinker's Wish */
-     , (0x75F44023, 0x75F44014, '2005-02-09 10:00:00') /* Statue of Thrower's Wish */
-     , (0x75F44023, 0x75F44015, '2005-02-09 10:00:00') /* Statue of Enchanter's Wish */
-     , (0x75F44023, 0x75F44016, '2005-02-09 10:00:00') /* Statue of Item Tinker's Wish */
-     , (0x75F44023, 0x75F44017, '2005-02-09 10:00:00') /* Statue of Greedy Wishes */
-     , (0x75F44023, 0x75F44018, '2005-02-09 10:00:00') /* Statue of Magic Tinker's Wish */
-     , (0x75F44023, 0x75F44019, '2005-02-09 10:00:00') /* Statue of Spearman's Wish */
-     , (0x75F44023, 0x75F4401A, '2005-02-09 10:00:00') /* Statue of Sorcerer's Wish */
-     , (0x75F44023, 0x75F4401B, '2005-02-09 10:00:00') /* Statue of Crossbowman's Wish */
-     , (0x75F44023, 0x75F4401C, '2005-02-09 10:00:00') /* Statue of Leaper's Wish */
-     , (0x75F44023, 0x75F4401D, '2005-02-09 10:00:00') /* Statue of Archmage's Wish */
-     , (0x75F44023, 0x75F4401E, '2005-02-09 10:00:00') /* Statue of Staffer's Wish */
-     , (0x75F44023, 0x75F4401F, '2005-02-09 10:00:00') /* Statue of Life Giver's Wish */
-     , (0x75F44023, 0x75F44022, '2005-02-09 10:00:00') /* Oolutanga, the Tusker King */;
+VALUES (0x75F44023, 0x75F44000, '2005-02-09 10:00:00') /* Statue of Knifer's Wish (22477) */
+     , (0x75F44023, 0x75F44001, '2005-02-09 10:00:00') /* Statue of Axer's Wishes (22472) */
+     , (0x75F44023, 0x75F44002, '2005-02-09 10:00:00') /* Statue of Fletcher's Dreams (22478) */
+     , (0x75F44023, 0x75F44003, '2005-02-09 10:00:00') /* Statue of Lockpicker's Wish (22484) */
+     , (0x75F44023, 0x75F44004, '2005-02-09 10:00:00') /* Statue of Evasive Wishes (22489) */
+     , (0x75F44023, 0x75F44005, '2005-02-09 10:00:00') /* Statue of Scholarly Wishes (22469) */
+     , (0x75F44023, 0x75F44006, '2005-02-09 10:00:00') /* Statue of Bowman's Wish (22473) */
+     , (0x75F44023, 0x75F44007, '2005-02-09 10:00:00') /* Statue of Healer's Wish (22479) */
+     , (0x75F44023, 0x75F44008, '2005-02-09 10:00:00') /* Statue of Greedy Wishes (22491) */
+     , (0x75F44023, 0x75F44009, '2005-02-09 10:00:00') /* Statue of Macer's Wish (22485) */
+     , (0x75F44023, 0x75F4400A, '2005-02-09 10:00:00') /* Statue of Dodge Wishes (22490) */
+     , (0x75F44023, 0x75F4400B, '2005-02-09 10:00:00') /* Statue of Swordsman's Wish (22495) */
+     , (0x75F44023, 0x75F4400C, '2005-02-09 10:00:00') /* Statue of Alchemical Wishes (22468) */
+     , (0x75F44023, 0x75F4400D, '2005-02-09 10:00:00') /* Statue of Armor Tinker's Wish (22470) */
+     , (0x75F44023, 0x75F4400E, '2005-02-09 10:00:00') /* Statue of Cook's Wish (22474) */
+     , (0x75F44023, 0x75F4400F, '2005-02-09 10:00:00') /* Statue of Artificer's Wish (22480) */
+     , (0x75F44023, 0x75F44010, '2005-02-09 10:00:00') /* Statue of Resistance Wishes (22486) */
+     , (0x75F44023, 0x75F44011, '2005-02-09 10:00:00') /* Statue of Sprinter's Wish (22492) */
+     , (0x75F44023, 0x75F44012, '2005-02-09 10:00:00') /* Statue of Brawler's Wish (22496) */
+     , (0x75F44023, 0x75F44013, '2005-02-09 10:00:00') /* Statue of Weapon Tinker's Wish (22498) */
+     , (0x75F44023, 0x75F44014, '2005-02-09 10:00:00') /* Statue of Thrower's Wish (22471) */
+     , (0x75F44023, 0x75F44015, '2005-02-09 10:00:00') /* Statue of Enchanter's Wish (22475) */
+     , (0x75F44023, 0x75F44016, '2005-02-09 10:00:00') /* Statue of Item Tinker's Wish (22481) */
+     , (0x75F44023, 0x75F44017, '2005-02-09 10:00:00') /* Statue of Greedy Wishes (22491) */
+     , (0x75F44023, 0x75F44018, '2005-02-09 10:00:00') /* Statue of Magic Tinker's Wish (22487) */
+     , (0x75F44023, 0x75F44019, '2005-02-09 10:00:00') /* Statue of Spearman's Wish (22493) */
+     , (0x75F44023, 0x75F4401A, '2005-02-09 10:00:00') /* Statue of Sorcerer's Wish (22497) */
+     , (0x75F44023, 0x75F4401B, '2005-02-09 10:00:00') /* Statue of Crossbowman's Wish (22476) */
+     , (0x75F44023, 0x75F4401C, '2005-02-09 10:00:00') /* Statue of Leaper's Wish (22482) */
+     , (0x75F44023, 0x75F4401D, '2005-02-09 10:00:00') /* Statue of Archmage's Wish (22488) */
+     , (0x75F44023, 0x75F4401E, '2005-02-09 10:00:00') /* Statue of Staffer's Wish (22494) */
+     , (0x75F44023, 0x75F4401F, '2005-02-09 10:00:00') /* Statue of Life Giver's Wish (22483) */
+     , (0x75F44023, 0x75F44022, '2005-02-09 10:00:00') /* Oolutanga, the Tusker King (22500) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75F44024,   278, 0x5F4401A6, 230, -125.25, 0, 1, 0, 0, 0, False, '2005-02-09 10:00:00'); /* Door */

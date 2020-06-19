@@ -29,12 +29,12 @@ VALUES (0x775CE006,  1154, 0x75CE0000, 98.9431, 62.3637, 302.563, -0.13835, 0, 0
 /* @teleloc 0x75CE0000 [98.943100 62.363700 302.563000] -0.138350 0.000000 0.000000 0.990383 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x775CE006, 0x775CE000, '2005-02-09 10:00:00') /* Great Mattekar */
-     , (0x775CE006, 0x775CE001, '2005-02-09 10:00:00') /* Great Mattekar */
-     , (0x775CE006, 0x775CE002, '2005-02-09 10:00:00') /* Snowy Mattekar */
-     , (0x775CE006, 0x775CE003, '2005-02-09 10:00:00') /* Snowy Mattekar */
-     , (0x775CE006, 0x775CE004, '2005-02-09 10:00:00') /* Snowy Mattekar */
-     , (0x775CE006, 0x775CE005, '2005-02-09 10:00:00') /* Snowy Mattekar */;
+VALUES (0x775CE006, 0x775CE000, '2005-02-09 10:00:00') /* Great Mattekar (2582) */
+     , (0x775CE006, 0x775CE001, '2005-02-09 10:00:00') /* Great Mattekar (2582) */
+     , (0x775CE006, 0x775CE002, '2005-02-09 10:00:00') /* Snowy Mattekar (2581) */
+     , (0x775CE006, 0x775CE003, '2005-02-09 10:00:00') /* Snowy Mattekar (2581) */
+     , (0x775CE006, 0x775CE004, '2005-02-09 10:00:00') /* Snowy Mattekar (2581) */
+     , (0x775CE006, 0x775CE005, '2005-02-09 10:00:00') /* Snowy Mattekar (2581) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x775CE007,   196, 0x75CE0000, 54.3804, 40.5388, 302.545, 0.770503, 0, 0, -0.637436,  True, '2005-02-09 10:00:00'); /* Ice Golem */
@@ -57,10 +57,10 @@ VALUES (0x775CE00B,  1154, 0x75CE0000, 53.9273, 37.0303, 302.499, 0.997767, 0, 0
 /* @teleloc 0x75CE0000 [53.927300 37.030300 302.499000] 0.997767 0.000000 0.000000 0.066798 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x775CE00B, 0x775CE007, '2005-02-09 10:00:00') /* Ice Golem */
-     , (0x775CE00B, 0x775CE008, '2005-02-09 10:00:00') /* Ice Golem */
-     , (0x775CE00B, 0x775CE009, '2005-02-09 10:00:00') /* Ice Golem */
-     , (0x775CE00B, 0x775CE00A, '2005-02-09 10:00:00') /* Ice Golem */;
+VALUES (0x775CE00B, 0x775CE007, '2005-02-09 10:00:00') /* Ice Golem (196) */
+     , (0x775CE00B, 0x775CE008, '2005-02-09 10:00:00') /* Ice Golem (196) */
+     , (0x775CE00B, 0x775CE009, '2005-02-09 10:00:00') /* Ice Golem (196) */
+     , (0x775CE00B, 0x775CE00A, '2005-02-09 10:00:00') /* Ice Golem (196) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x775CE00C,  2399, 0x75CE0000, 56.7213, 38.0942, 302.728, 0.743068, 0, 0, -0.669216,  True, '2005-02-09 10:00:00'); /* White Jade */
@@ -71,4 +71,4 @@ VALUES (0x775CE00D,  1542, 0x75CE0000, 55.4336, 37.2557, 302.724, 0.978414, 0, 0
 /* @teleloc 0x75CE0000 [55.433600 37.255700 302.724000] 0.978414 0.000000 0.000000 -0.206653 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x775CE00D, 0x775CE00C, '2005-02-09 10:00:00') /* White Jade */;
+VALUES (0x775CE00D, 0x775CE00C, '2005-02-09 10:00:00') /* White Jade (2399) */;

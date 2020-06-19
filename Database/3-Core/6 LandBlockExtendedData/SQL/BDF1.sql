@@ -9,7 +9,7 @@ VALUES (0x7BDF100A,  7385, 0xBDF10000, 73.6265, 133.228, 58.0596, -0.999759, 0, 
 /* @teleloc 0xBDF10000 [73.626500 133.228000 58.059600] -0.999759 0.000000 0.000000 -0.021967 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BDF100A, 0x7BDF1062, '2005-02-09 10:00:00') /* Pressure Plate */;
+VALUES (0x7BDF100A, 0x7BDF1062, '2005-02-09 10:00:00') /* Pressure Plate (7625) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BDF1017,  7625, 0xBDF10000, 165.006, 5.22524, -0.00362497, 0.704269, 0, 0, -0.709933,  True, '2005-02-09 10:00:00'); /* Pressure Plate */
@@ -84,119 +84,119 @@ VALUES (0x7BDF1028,  7385, 0xBDF10000, 132.266, 54.823, 57.4979, -0.00366412, 0,
 /* @teleloc 0xBDF10000 [132.266000 54.823000 57.497900] -0.003664 0.000000 0.000000 0.999993 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BDF1028, 0x7BDF1019, '2005-02-09 10:00:00') /* Pressure Plate */;
+VALUES (0x7BDF1028, 0x7BDF1019, '2005-02-09 10:00:00') /* Pressure Plate (7625) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BDF1029,  7383, 0xBDF10000, 132.859, 54.8495, 57.7295, 0.0240685, 0, 0, 0.99971, False, '2005-02-09 10:00:00'); /* Empyrean magical defense battery */
 /* @teleloc 0xBDF10000 [132.859000 54.849500 57.729500] 0.024069 0.000000 0.000000 0.999710 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BDF1029, 0x7BDF101D, '2005-02-09 10:00:00') /* Pressure Plate */;
+VALUES (0x7BDF1029, 0x7BDF101D, '2005-02-09 10:00:00') /* Pressure Plate (7625) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BDF102A,  7389, 0xBDF10000, 133.337, 54.8434, 57.6493, -0.0144073, 0, 0, 0.999896, False, '2005-02-09 10:00:00'); /* Empyrean magical defense battery */
 /* @teleloc 0xBDF10000 [133.337000 54.843400 57.649300] -0.014407 0.000000 0.000000 0.999896 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BDF102A, 0x7BDF1020, '2005-02-09 10:00:00') /* Pressure Plate */;
+VALUES (0x7BDF102A, 0x7BDF1020, '2005-02-09 10:00:00') /* Pressure Plate (7625) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BDF102B,  7387, 0xBDF10000, 133.843, 54.8424, 57.6702, -0.0144073, 0, 0, 0.999896, False, '2005-02-09 10:00:00'); /* Empyrean magical defense battery */
 /* @teleloc 0xBDF10000 [133.843000 54.842400 57.670200] -0.014407 0.000000 0.000000 0.999896 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BDF102B, 0x7BDF1018, '2005-02-09 10:00:00') /* Pressure Plate */;
+VALUES (0x7BDF102B, 0x7BDF1018, '2005-02-09 10:00:00') /* Pressure Plate (7625) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BDF102C,  7385, 0xBDF10000, 135.489, 54.7737, 57.4979, -0.00366412, 0, 0, 0.999993, False, '2005-02-09 10:00:00'); /* Empyrean magical defense battery */
 /* @teleloc 0xBDF10000 [135.489000 54.773700 57.497900] -0.003664 0.000000 0.000000 0.999993 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BDF102C, 0x7BDF1025, '2005-02-09 10:00:00') /* Pressure Plate */;
+VALUES (0x7BDF102C, 0x7BDF1025, '2005-02-09 10:00:00') /* Pressure Plate (7625) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BDF102D,  7383, 0xBDF10000, 135.948, 54.7645, 57.7295, 0.0240685, 0, 0, 0.99971, False, '2005-02-09 10:00:00'); /* Empyrean magical defense battery */
 /* @teleloc 0xBDF10000 [135.948000 54.764500 57.729500] 0.024069 0.000000 0.000000 0.999710 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BDF102D, 0x7BDF101C, '2005-02-09 10:00:00') /* Pressure Plate */;
+VALUES (0x7BDF102D, 0x7BDF101C, '2005-02-09 10:00:00') /* Pressure Plate (7625) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BDF102E,  7389, 0xBDF10000, 136.411, 54.6916, 57.6493, -0.0144073, 0, 0, 0.999896, False, '2005-02-09 10:00:00'); /* Empyrean magical defense battery */
 /* @teleloc 0xBDF10000 [136.411000 54.691600 57.649300] -0.014407 0.000000 0.000000 0.999896 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BDF102E, 0x7BDF1017, '2005-02-09 10:00:00') /* Pressure Plate */;
+VALUES (0x7BDF102E, 0x7BDF1017, '2005-02-09 10:00:00') /* Pressure Plate (7625) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BDF102F,  7387, 0xBDF10000, 136.863, 54.6923, 57.6702, -0.0144073, 0, 0, 0.999896, False, '2005-02-09 10:00:00'); /* Empyrean magical defense battery */
 /* @teleloc 0xBDF10000 [136.863000 54.692300 57.670200] -0.014407 0.000000 0.000000 0.999896 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BDF102F, 0x7BDF1021, '2005-02-09 10:00:00') /* Pressure Plate */;
+VALUES (0x7BDF102F, 0x7BDF1021, '2005-02-09 10:00:00') /* Pressure Plate (7625) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BDF1030,  7385, 0xBDF10000, 139.3, 54.6594, 57.4979, -0.00366412, 0, 0, 0.999993, False, '2005-02-09 10:00:00'); /* Empyrean magical defense battery */
 /* @teleloc 0xBDF10000 [139.300000 54.659400 57.497900] -0.003664 0.000000 0.000000 0.999993 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BDF1030, 0x7BDF1023, '2005-02-09 10:00:00') /* Pressure Plate */;
+VALUES (0x7BDF1030, 0x7BDF1023, '2005-02-09 10:00:00') /* Pressure Plate (7625) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BDF1031,  7383, 0xBDF10000, 139.789, 54.7426, 57.7295, 0.0240685, 0, 0, 0.99971, False, '2005-02-09 10:00:00'); /* Empyrean magical defense battery */
 /* @teleloc 0xBDF10000 [139.789000 54.742600 57.729500] 0.024069 0.000000 0.000000 0.999710 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BDF1031, 0x7BDF101E, '2005-02-09 10:00:00') /* Pressure Plate */;
+VALUES (0x7BDF1031, 0x7BDF101E, '2005-02-09 10:00:00') /* Pressure Plate (7625) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BDF1032,  7389, 0xBDF10000, 140.159, 54.6869, 57.6493, -0.0144073, 0, 0, 0.999896, False, '2005-02-09 10:00:00'); /* Empyrean magical defense battery */
 /* @teleloc 0xBDF10000 [140.159000 54.686900 57.649300] -0.014407 0.000000 0.000000 0.999896 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BDF1032, 0x7BDF101A, '2005-02-09 10:00:00') /* Pressure Plate */;
+VALUES (0x7BDF1032, 0x7BDF101A, '2005-02-09 10:00:00') /* Pressure Plate (7625) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BDF1033,  7387, 0xBDF10000, 140.652, 54.7127, 57.6702, -0.0144073, 0, 0, 0.999896, False, '2005-02-09 10:00:00'); /* Empyrean magical defense battery */
 /* @teleloc 0xBDF10000 [140.652000 54.712700 57.670200] -0.014407 0.000000 0.000000 0.999896 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BDF1033, 0x7BDF101B, '2005-02-09 10:00:00') /* Pressure Plate */;
+VALUES (0x7BDF1033, 0x7BDF101B, '2005-02-09 10:00:00') /* Pressure Plate (7625) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BDF1034,  7385, 0xBDF10000, 141.716, 55.7549, 57.4979, -0.00366412, 0, 0, 0.999993, False, '2005-02-09 10:00:00'); /* Empyrean magical defense battery */
 /* @teleloc 0xBDF10000 [141.716000 55.754900 57.497900] -0.003664 0.000000 0.000000 0.999993 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BDF1034, 0x7BDF1024, '2005-02-09 10:00:00') /* Pressure Plate */;
+VALUES (0x7BDF1034, 0x7BDF1024, '2005-02-09 10:00:00') /* Pressure Plate (7625) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BDF1035,  7383, 0xBDF10000, 141.777, 56.1951, 57.7295, 0.0240685, 0, 0, 0.99971, False, '2005-02-09 10:00:00'); /* Empyrean magical defense battery */
 /* @teleloc 0xBDF10000 [141.777000 56.195100 57.729500] 0.024069 0.000000 0.000000 0.999710 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BDF1035, 0x7BDF101F, '2005-02-09 10:00:00') /* Pressure Plate */;
+VALUES (0x7BDF1035, 0x7BDF101F, '2005-02-09 10:00:00') /* Pressure Plate (7625) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BDF1036,  7389, 0xBDF10000, 141.772, 56.6221, 57.6493, -0.0144073, 0, 0, 0.999896, False, '2005-02-09 10:00:00'); /* Empyrean magical defense battery */
 /* @teleloc 0xBDF10000 [141.772000 56.622100 57.649300] -0.014407 0.000000 0.000000 0.999896 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BDF1036, 0x7BDF1026, '2005-02-09 10:00:00') /* Pressure Plate */;
+VALUES (0x7BDF1036, 0x7BDF1026, '2005-02-09 10:00:00') /* Pressure Plate (7625) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BDF1037,  7387, 0xBDF10000, 141.752, 57.052, 57.6702, -0.0144073, 0, 0, 0.999896, False, '2005-02-09 10:00:00'); /* Empyrean magical defense battery */
 /* @teleloc 0xBDF10000 [141.752000 57.052000 57.670200] -0.014407 0.000000 0.000000 0.999896 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BDF1037, 0x7BDF1027, '2005-02-09 10:00:00') /* Pressure Plate */;
+VALUES (0x7BDF1037, 0x7BDF1027, '2005-02-09 10:00:00') /* Pressure Plate (7625) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BDF1038,  7385, 0xBDF10000, 141.816, 58.9386, 57.4979, -0.00366412, 0, 0, 0.999993, False, '2005-02-09 10:00:00'); /* Empyrean magical defense battery */
 /* @teleloc 0xBDF10000 [141.816000 58.938600 57.497900] -0.003664 0.000000 0.000000 0.999993 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BDF1038, 0x7BDF1022, '2005-02-09 10:00:00') /* Pressure Plate */;
+VALUES (0x7BDF1038, 0x7BDF1022, '2005-02-09 10:00:00') /* Pressure Plate (7625) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BDF1039,  7625, 0xBDF10000, 100.965, 7.36145, -0.00362498, 0.999701, 0, 0, -0.024467,  True, '2005-02-09 10:00:00'); /* Pressure Plate */
@@ -263,133 +263,133 @@ VALUES (0x7BDF1048,  7385, 0xBDF10000, 82.5364, 54.7828, 56.8214, -0.124643, 0, 
 /* @teleloc 0xBDF10000 [82.536400 54.782800 56.821400] -0.124643 0.000000 0.000000 -0.992202 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BDF1048, 0x7BDF103C, '2005-02-09 10:00:00') /* Pressure Plate */;
+VALUES (0x7BDF1048, 0x7BDF103C, '2005-02-09 10:00:00') /* Pressure Plate (7625) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BDF1049,  7383, 0xBDF10000, 83.3784, 54.747, 56.9016, -0.124643, 0, 0, -0.992202, False, '2005-02-09 10:00:00'); /* Empyrean magical defense battery */
 /* @teleloc 0xBDF10000 [83.378400 54.747000 56.901600] -0.124643 0.000000 0.000000 -0.992202 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BDF1049, 0x7BDF103B, '2005-02-09 10:00:00') /* Pressure Plate */;
+VALUES (0x7BDF1049, 0x7BDF103B, '2005-02-09 10:00:00') /* Pressure Plate (7625) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BDF104A,  7389, 0xBDF10000, 84.152, 54.7453, 57.0621, -0.124643, 0, 0, -0.992202, False, '2005-02-09 10:00:00'); /* Empyrean magical defense battery */
 /* @teleloc 0xBDF10000 [84.152000 54.745300 57.062100] -0.124643 0.000000 0.000000 -0.992202 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BDF104A, 0x7BDF103A, '2005-02-09 10:00:00') /* Pressure Plate */;
+VALUES (0x7BDF104A, 0x7BDF103A, '2005-02-09 10:00:00') /* Pressure Plate (7625) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BDF104B,  7387, 0xBDF10000, 84.7198, 54.7206, 57.1872, -0.124641, 0, 0, -0.992202, False, '2005-02-09 10:00:00'); /* Empyrean magical defense battery */
 /* @teleloc 0xBDF10000 [84.719800 54.720600 57.187200] -0.124641 0.000000 0.000000 -0.992202 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BDF104B, 0x7BDF1039, '2005-02-09 10:00:00') /* Pressure Plate */;
+VALUES (0x7BDF104B, 0x7BDF1039, '2005-02-09 10:00:00') /* Pressure Plate (7625) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BDF104C,  7387, 0xBDF10000, 80.6428, 54.5188, 57.1872, -0.124641, 0, 0, -0.992202, False, '2005-02-09 10:00:00'); /* Empyrean magical defense battery */
 /* @teleloc 0xBDF10000 [80.642800 54.518800 57.187200] -0.124641 0.000000 0.000000 -0.992202 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BDF104C, 0x7BDF103D, '2005-02-09 10:00:00') /* Pressure Plate */;
+VALUES (0x7BDF104C, 0x7BDF103D, '2005-02-09 10:00:00') /* Pressure Plate (7625) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BDF104D,  7389, 0xBDF10000, 79.9808, 54.5824, 57.0621, -0.124643, 0, 0, -0.992202, False, '2005-02-09 10:00:00'); /* Empyrean magical defense battery */
 /* @teleloc 0xBDF10000 [79.980800 54.582400 57.062100] -0.124643 0.000000 0.000000 -0.992202 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BDF104D, 0x7BDF103E, '2005-02-09 10:00:00') /* Pressure Plate */;
+VALUES (0x7BDF104D, 0x7BDF103E, '2005-02-09 10:00:00') /* Pressure Plate (7625) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BDF104E,  7383, 0xBDF10000, 79.261, 54.558, 56.9016, -0.124643, 0, 0, -0.992202, False, '2005-02-09 10:00:00'); /* Empyrean magical defense battery */
 /* @teleloc 0xBDF10000 [79.261000 54.558000 56.901600] -0.124643 0.000000 0.000000 -0.992202 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BDF104E, 0x7BDF103F, '2005-02-09 10:00:00') /* Pressure Plate */;
+VALUES (0x7BDF104E, 0x7BDF103F, '2005-02-09 10:00:00') /* Pressure Plate (7625) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BDF104F,  7385, 0xBDF10000, 78.4995, 54.5816, 56.8214, -0.124643, 0, 0, -0.992202, False, '2005-02-09 10:00:00'); /* Empyrean magical defense battery */
 /* @teleloc 0xBDF10000 [78.499500 54.581600 56.821400] -0.124643 0.000000 0.000000 -0.992202 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BDF104F, 0x7BDF1040, '2005-02-09 10:00:00') /* Pressure Plate */;
+VALUES (0x7BDF104F, 0x7BDF1040, '2005-02-09 10:00:00') /* Pressure Plate (7625) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BDF1050,  7387, 0xBDF10000, 76.2073, 54.5527, 57.1872, -0.124641, 0, 0, -0.992202, False, '2005-02-09 10:00:00'); /* Empyrean magical defense battery */
 /* @teleloc 0xBDF10000 [76.207300 54.552700 57.187200] -0.124641 0.000000 0.000000 -0.992202 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BDF1050, 0x7BDF1041, '2005-02-09 10:00:00') /* Pressure Plate */;
+VALUES (0x7BDF1050, 0x7BDF1041, '2005-02-09 10:00:00') /* Pressure Plate (7625) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BDF1051,  7389, 0xBDF10000, 75.6146, 54.5636, 57.0621, -0.124643, 0, 0, -0.992202, False, '2005-02-09 10:00:00'); /* Empyrean magical defense battery */
 /* @teleloc 0xBDF10000 [75.614600 54.563600 57.062100] -0.124643 0.000000 0.000000 -0.992202 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BDF1051, 0x7BDF1042, '2005-02-09 10:00:00') /* Pressure Plate */;
+VALUES (0x7BDF1051, 0x7BDF1042, '2005-02-09 10:00:00') /* Pressure Plate (7625) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BDF1052,  7383, 0xBDF10000, 74.9824, 54.4338, 56.9016, -0.124643, 0, 0, -0.992202, False, '2005-02-09 10:00:00'); /* Empyrean magical defense battery */
 /* @teleloc 0xBDF10000 [74.982400 54.433800 56.901600] -0.124643 0.000000 0.000000 -0.992202 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BDF1052, 0x7BDF1043, '2005-02-09 10:00:00') /* Pressure Plate */;
+VALUES (0x7BDF1052, 0x7BDF1043, '2005-02-09 10:00:00') /* Pressure Plate (7625) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BDF1053,  7385, 0xBDF10000, 74.2873, 54.485, 56.8214, -0.124643, 0, 0, -0.992202, False, '2005-02-09 10:00:00'); /* Empyrean magical defense battery */
 /* @teleloc 0xBDF10000 [74.287300 54.485000 56.821400] -0.124643 0.000000 0.000000 -0.992202 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BDF1053, 0x7BDF1044, '2005-02-09 10:00:00') /* Pressure Plate */;
+VALUES (0x7BDF1053, 0x7BDF1044, '2005-02-09 10:00:00') /* Pressure Plate (7625) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BDF1054,  7387, 0xBDF10000, 74.0535, 56.4864, 57.1872, -0.124641, 0, 0, -0.992202, False, '2005-02-09 10:00:00'); /* Empyrean magical defense battery */
 /* @teleloc 0xBDF10000 [74.053500 56.486400 57.187200] -0.124641 0.000000 0.000000 -0.992202 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BDF1054, 0x7BDF1045, '2005-02-09 10:00:00') /* Pressure Plate */;
+VALUES (0x7BDF1054, 0x7BDF1045, '2005-02-09 10:00:00') /* Pressure Plate (7625) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BDF1055,  7389, 0xBDF10000, 74.0933, 57.1747, 57.0621, -0.124643, 0, 0, -0.992202, False, '2005-02-09 10:00:00'); /* Empyrean magical defense battery */
 /* @teleloc 0xBDF10000 [74.093300 57.174700 57.062100] -0.124643 0.000000 0.000000 -0.992202 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BDF1055, 0x7BDF1046, '2005-02-09 10:00:00') /* Pressure Plate */;
+VALUES (0x7BDF1055, 0x7BDF1046, '2005-02-09 10:00:00') /* Pressure Plate (7625) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BDF1056,  7383, 0xBDF10000, 74.1024, 57.8565, 56.9016, -0.124643, 0, 0, -0.992202, False, '2005-02-09 10:00:00'); /* Empyrean magical defense battery */
 /* @teleloc 0xBDF10000 [74.102400 57.856500 56.901600] -0.124643 0.000000 0.000000 -0.992202 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BDF1056, 0x7BDF1047, '2005-02-09 10:00:00') /* Pressure Plate */;
+VALUES (0x7BDF1056, 0x7BDF1047, '2005-02-09 10:00:00') /* Pressure Plate (7625) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BDF1057,  7385, 0xBDF10000, 83.1492, 137.592, 58.0596, -0.999759, 0, 0, -0.0219673, False, '2005-02-09 10:00:00'); /* Empyrean magical defense battery */
 /* @teleloc 0xBDF10000 [83.149200 137.592000 58.059600] -0.999759 0.000000 0.000000 -0.021967 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BDF1057, 0x7BDF1065, '2005-02-09 10:00:00') /* Pressure Plate */;
+VALUES (0x7BDF1057, 0x7BDF1065, '2005-02-09 10:00:00') /* Pressure Plate (7625) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BDF1058,  7387, 0xBDF10000, 82.4501, 137.812, 57.9259, -0.999759, 0, 0, -0.0219673, False, '2005-02-09 10:00:00'); /* Empyrean magical defense battery */
 /* @teleloc 0xBDF10000 [82.450100 137.812000 57.925900] -0.999759 0.000000 0.000000 -0.021967 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BDF1058, 0x7BDF1064, '2005-02-09 10:00:00') /* Pressure Plate */;
+VALUES (0x7BDF1058, 0x7BDF1064, '2005-02-09 10:00:00') /* Pressure Plate (7625) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BDF1059,  7389, 0xBDF10000, 81.6867, 137.817, 57.966, -0.999759, 0, 0, -0.0219673, False, '2005-02-09 10:00:00'); /* Empyrean magical defense battery */
 /* @teleloc 0xBDF10000 [81.686700 137.817000 57.966000] -0.999759 0.000000 0.000000 -0.021967 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BDF1059, 0x7BDF1063, '2005-02-09 10:00:00') /* Pressure Plate */;
+VALUES (0x7BDF1059, 0x7BDF1063, '2005-02-09 10:00:00') /* Pressure Plate (7625) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BDF105A,  7383, 0xBDF10000, 76.3216, 138.171, 57.9125, -0.999759, 0, 0, -0.0219673, False, '2005-02-09 10:00:00'); /* Empyrean magical defense battery */
 /* @teleloc 0xBDF10000 [76.321600 138.171000 57.912500] -0.999759 0.000000 0.000000 -0.021967 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BDF105A, 0x7BDF106F, '2005-02-09 10:00:00') /* Pressure Plate */;
+VALUES (0x7BDF105A, 0x7BDF106F, '2005-02-09 10:00:00') /* Pressure Plate (2131) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BDF105C,  7625, 0xBDF10000, 29.4278, 127.67, 0.049875, 0.00327349, 0, 0, 0.999995,  True, '2005-02-09 10:00:00'); /* Pressure Plate */
@@ -452,28 +452,28 @@ VALUES (0x7BDF106A,  7389, 0xBDF10000, 142.119, 137.938, 57.9392, 0.399259, 0, 0
 /* @teleloc 0xBDF10000 [142.119000 137.938000 57.939200] 0.399259 0.000000 0.000000 0.916838 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BDF106A, 0x7BDF1068, '2005-02-09 10:00:00') /* Pressure Plate */;
+VALUES (0x7BDF106A, 0x7BDF1068, '2005-02-09 10:00:00') /* Pressure Plate (2131) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BDF106B,  7383, 0xBDF10000, 141.33, 138.101, 58.0864, 0.399259, 0, 0, 0.916838, False, '2005-02-09 10:00:00'); /* Empyrean magical defense battery */
 /* @teleloc 0xBDF10000 [141.330000 138.101000 58.086400] 0.399259 0.000000 0.000000 0.916838 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BDF106B, 0x7BDF1069, '2005-02-09 10:00:00') /* Pressure Plate */;
+VALUES (0x7BDF106B, 0x7BDF1069, '2005-02-09 10:00:00') /* Pressure Plate (2131) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BDF106C,  7387, 0xBDF10000, 142.716, 136.862, 58.18, 0.399259, 0, 0, 0.916838, False, '2005-02-09 10:00:00'); /* Empyrean magical defense battery */
 /* @teleloc 0xBDF10000 [142.716000 136.862000 58.180000] 0.399259 0.000000 0.000000 0.916838 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BDF106C, 0x7BDF1067, '2005-02-09 10:00:00') /* Pressure Plate */;
+VALUES (0x7BDF106C, 0x7BDF1067, '2005-02-09 10:00:00') /* Pressure Plate (7625) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BDF106D,  7385, 0xBDF10000, 140.247, 138.006, 58.073, 0.399259, 0, 0, 0.916838, False, '2005-02-09 10:00:00'); /* Empyrean magical defense battery */
 /* @teleloc 0xBDF10000 [140.247000 138.006000 58.073000] 0.399259 0.000000 0.000000 0.916838 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BDF106D, 0x7BDF1066, '2005-02-09 10:00:00') /* Pressure Plate */;
+VALUES (0x7BDF106D, 0x7BDF1066, '2005-02-09 10:00:00') /* Pressure Plate (7625) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BDF106E,  2131, 0xBDF10000, 73.1569, 142.791, 30.005, -0.706585, 0, 0, -0.707628,  True, '2005-02-09 10:00:00'); /* Pressure Plate */
@@ -488,49 +488,49 @@ VALUES (0x7BDF1070,  7383, 0xBDF10000, 75.9064, 137.846, 57.9125, -0.999759, 0, 
 /* @teleloc 0xBDF10000 [75.906400 137.846000 57.912500] -0.999759 0.000000 0.000000 -0.021967 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BDF1070, 0x7BDF106E, '2005-02-09 10:00:00') /* Pressure Plate */;
+VALUES (0x7BDF1070, 0x7BDF106E, '2005-02-09 10:00:00') /* Pressure Plate (2131) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BDF1071,  7385, 0xBDF10000, 73.7734, 136.14, 58.0596, -0.999759, 0, 0, -0.0219673, False, '2005-02-09 10:00:00'); /* Empyrean magical defense battery */
 /* @teleloc 0xBDF10000 [73.773400 136.140000 58.059600] -0.999759 0.000000 0.000000 -0.021967 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BDF1071, 0x7BDF105E, '2005-02-09 10:00:00') /* Pressure Plate */;
+VALUES (0x7BDF1071, 0x7BDF105E, '2005-02-09 10:00:00') /* Pressure Plate (7625) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BDF1072,  7387, 0xBDF10000, 74.1174, 137.176, 57.9259, -0.999759, 0, 0, -0.0219673, False, '2005-02-09 10:00:00'); /* Empyrean magical defense battery */
 /* @teleloc 0xBDF10000 [74.117400 137.176000 57.925900] -0.999759 0.000000 0.000000 -0.021967 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BDF1072, 0x7BDF1060, '2005-02-09 10:00:00') /* Pressure Plate */;
+VALUES (0x7BDF1072, 0x7BDF1060, '2005-02-09 10:00:00') /* Pressure Plate (7625) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BDF1073,  7389, 0xBDF10000, 74.5649, 137.456, 57.966, -0.999759, 0, 0, -0.0219673, False, '2005-02-09 10:00:00'); /* Empyrean magical defense battery */
 /* @teleloc 0xBDF10000 [74.564900 137.456000 57.966000] -0.999759 0.000000 0.000000 -0.021967 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BDF1073, 0x7BDF1061, '2005-02-09 10:00:00') /* Pressure Plate */;
+VALUES (0x7BDF1073, 0x7BDF1061, '2005-02-09 10:00:00') /* Pressure Plate (7625) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BDF1074,  7383, 0xBDF10000, 73.7828, 136.747, 57.9125, -0.999759, 0, 0, -0.0219673, False, '2005-02-09 10:00:00'); /* Empyrean magical defense battery */
 /* @teleloc 0xBDF10000 [73.782800 136.747000 57.912500] -0.999759 0.000000 0.000000 -0.021967 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BDF1074, 0x7BDF105F, '2005-02-09 10:00:00') /* Pressure Plate */;
+VALUES (0x7BDF1074, 0x7BDF105F, '2005-02-09 10:00:00') /* Pressure Plate (7625) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BDF1075,  7387, 0xBDF10000, 73.8061, 134.592, 57.9259, -0.999759, 0, 0, -0.0219673, False, '2005-02-09 10:00:00'); /* Empyrean magical defense battery */
 /* @teleloc 0xBDF10000 [73.806100 134.592000 57.925900] -0.999759 0.000000 0.000000 -0.021967 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BDF1075, 0x7BDF105D, '2005-02-09 10:00:00') /* Pressure Plate */;
+VALUES (0x7BDF1075, 0x7BDF105D, '2005-02-09 10:00:00') /* Pressure Plate (7625) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BDF1076,  7389, 0xBDF10000, 73.7039, 133.829, 57.966, -0.999759, 0, 0, -0.0219673, False, '2005-02-09 10:00:00'); /* Empyrean magical defense battery */
 /* @teleloc 0xBDF10000 [73.703900 133.829000 57.966000] -0.999759 0.000000 0.000000 -0.021967 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BDF1076, 0x7BDF105C, '2005-02-09 10:00:00') /* Pressure Plate */;
+VALUES (0x7BDF1076, 0x7BDF105C, '2005-02-09 10:00:00') /* Pressure Plate (7625) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BDF1078, 28049, 0xBDF10000, 175.418, 103.716, -0.0870001, 0.691006, 0, 0, -0.722849,  True, '2005-02-09 10:00:00'); /* Ancient Coral Golem */
@@ -573,38 +573,38 @@ VALUES (0x7BDF1081,  7924, 0xBDF10000, 137.173, 13.787, -0.095, -0.999708, 0, 0,
 /* @teleloc 0xBDF10000 [137.173000 13.787000 -0.095000] -0.999708 0.000000 0.000000 0.024164 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BDF1081, 0x7BDF1078, '2005-02-09 10:00:00') /* Ancient Coral Golem */
-     , (0x7BDF1081, 0x7BDF1079, '2005-02-09 10:00:00') /* Ancient Coral Golem */
-     , (0x7BDF1081, 0x7BDF107A, '2005-02-09 10:00:00') /* Ancient Coral Golem */
-     , (0x7BDF1081, 0x7BDF107B, '2005-02-09 10:00:00') /* Ancient Coral Golem */
-     , (0x7BDF1081, 0x7BDF107C, '2005-02-09 10:00:00') /* Ancient Coral Golem */
-     , (0x7BDF1081, 0x7BDF107D, '2005-02-09 10:00:00') /* Ancient Coral Golem */
-     , (0x7BDF1081, 0x7BDF107E, '2005-02-09 10:00:00') /* Ancient Coral Golem */
-     , (0x7BDF1081, 0x7BDF107F, '2005-02-09 10:00:00') /* Ancient Coral Golem */
-     , (0x7BDF1081, 0x7BDF1080, '2005-02-09 10:00:00') /* Sapphire Golem */
-     , (0x7BDF1081, 0x7BDF1082, '2005-02-09 10:00:00') /* Diamond Golem */
-     , (0x7BDF1081, 0x7BDF1083, '2005-02-09 10:00:00') /* Diamond Golem */
-     , (0x7BDF1081, 0x7BDF1084, '2005-02-09 10:00:00') /* Diamond Golem */
-     , (0x7BDF1081, 0x7BDF1085, '2005-02-09 10:00:00') /* Diamond Golem */
-     , (0x7BDF1081, 0x7BDF1086, '2005-02-09 10:00:00') /* Diamond Golem */
-     , (0x7BDF1081, 0x7BDF1087, '2005-02-09 10:00:00') /* Gold Golem */
-     , (0x7BDF1081, 0x7BDF1088, '2005-02-09 10:00:00') /* Sapphire Golem */
-     , (0x7BDF1081, 0x7BDF1089, '2005-02-09 10:00:00') /* Platinum Golem */
-     , (0x7BDF1081, 0x7BDF108A, '2005-02-09 10:00:00') /* Pyreal Golem */
-     , (0x7BDF1081, 0x7BDF108B, '2005-02-09 10:00:00') /* Plasma Golem */
-     , (0x7BDF1081, 0x7BDF108C, '2005-02-09 10:00:00') /* Great Revenant */
-     , (0x7BDF1081, 0x7BDF108D, '2005-02-09 10:00:00') /* Great Revenant */
-     , (0x7BDF1081, 0x7BDF108E, '2005-02-09 10:00:00') /* Dark Master */
-     , (0x7BDF1081, 0x7BDF108F, '2005-02-09 10:00:00') /* Dark Master */
-     , (0x7BDF1081, 0x7BDF1090, '2005-02-09 10:00:00') /* Dark Master */
-     , (0x7BDF1081, 0x7BDF1091, '2005-02-09 10:00:00') /* Armored Skeleton */
-     , (0x7BDF1081, 0x7BDF1092, '2005-02-09 10:00:00') /* Armored Skeleton */
-     , (0x7BDF1081, 0x7BDF1093, '2005-02-09 10:00:00') /* Sapphire Golem */
-     , (0x7BDF1081, 0x7BDF1094, '2005-02-09 10:00:00') /* Sapphire Golem */
-     , (0x7BDF1081, 0x7BDF1095, '2005-02-09 10:00:00') /* Spectral Wisp */
-     , (0x7BDF1081, 0x7BDF1098, '2005-02-09 10:00:00') /* Relic Bones */
-     , (0x7BDF1081, 0x7BDF1099, '2005-02-09 10:00:00') /* Relic Bones */
-     , (0x7BDF1081, 0x7BDF109A, '2005-02-09 10:00:00') /* Relic Bones */;
+VALUES (0x7BDF1081, 0x7BDF1078, '2005-02-09 10:00:00') /* Ancient Coral Golem (28049) */
+     , (0x7BDF1081, 0x7BDF1079, '2005-02-09 10:00:00') /* Ancient Coral Golem (28051) */
+     , (0x7BDF1081, 0x7BDF107A, '2005-02-09 10:00:00') /* Ancient Coral Golem (28050) */
+     , (0x7BDF1081, 0x7BDF107B, '2005-02-09 10:00:00') /* Ancient Coral Golem (28049) */
+     , (0x7BDF1081, 0x7BDF107C, '2005-02-09 10:00:00') /* Ancient Coral Golem (28051) */
+     , (0x7BDF1081, 0x7BDF107D, '2005-02-09 10:00:00') /* Ancient Coral Golem (28049) */
+     , (0x7BDF1081, 0x7BDF107E, '2005-02-09 10:00:00') /* Ancient Coral Golem (28050) */
+     , (0x7BDF1081, 0x7BDF107F, '2005-02-09 10:00:00') /* Ancient Coral Golem (28051) */
+     , (0x7BDF1081, 0x7BDF1080, '2005-02-09 10:00:00') /* Sapphire Golem (28247) */
+     , (0x7BDF1081, 0x7BDF1082, '2005-02-09 10:00:00') /* Diamond Golem (7421) */
+     , (0x7BDF1081, 0x7BDF1083, '2005-02-09 10:00:00') /* Diamond Golem (7421) */
+     , (0x7BDF1081, 0x7BDF1084, '2005-02-09 10:00:00') /* Diamond Golem (7421) */
+     , (0x7BDF1081, 0x7BDF1085, '2005-02-09 10:00:00') /* Diamond Golem (7421) */
+     , (0x7BDF1081, 0x7BDF1086, '2005-02-09 10:00:00') /* Diamond Golem (4216) */
+     , (0x7BDF1081, 0x7BDF1087, '2005-02-09 10:00:00') /* Gold Golem (7096) */
+     , (0x7BDF1081, 0x7BDF1088, '2005-02-09 10:00:00') /* Sapphire Golem (28247) */
+     , (0x7BDF1081, 0x7BDF1089, '2005-02-09 10:00:00') /* Platinum Golem (7097) */
+     , (0x7BDF1081, 0x7BDF108A, '2005-02-09 10:00:00') /* Pyreal Golem (14520) */
+     , (0x7BDF1081, 0x7BDF108B, '2005-02-09 10:00:00') /* Plasma Golem (7098) */
+     , (0x7BDF1081, 0x7BDF108C, '2005-02-09 10:00:00') /* Great Revenant (24320) */
+     , (0x7BDF1081, 0x7BDF108D, '2005-02-09 10:00:00') /* Great Revenant (24320) */
+     , (0x7BDF1081, 0x7BDF108E, '2005-02-09 10:00:00') /* Dark Master (24319) */
+     , (0x7BDF1081, 0x7BDF108F, '2005-02-09 10:00:00') /* Dark Master (24319) */
+     , (0x7BDF1081, 0x7BDF1090, '2005-02-09 10:00:00') /* Dark Master (24319) */
+     , (0x7BDF1081, 0x7BDF1091, '2005-02-09 10:00:00') /* Armored Skeleton (24313) */
+     , (0x7BDF1081, 0x7BDF1092, '2005-02-09 10:00:00') /* Armored Skeleton (24313) */
+     , (0x7BDF1081, 0x7BDF1093, '2005-02-09 10:00:00') /* Sapphire Golem (28247) */
+     , (0x7BDF1081, 0x7BDF1094, '2005-02-09 10:00:00') /* Sapphire Golem (28247) */
+     , (0x7BDF1081, 0x7BDF1095, '2005-02-09 10:00:00') /* Spectral Wisp (28055) */
+     , (0x7BDF1081, 0x7BDF1098, '2005-02-09 10:00:00') /* Relic Bones (7179) */
+     , (0x7BDF1081, 0x7BDF1099, '2005-02-09 10:00:00') /* Relic Bones (7179) */
+     , (0x7BDF1081, 0x7BDF109A, '2005-02-09 10:00:00') /* Relic Bones (7179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BDF1082,  7421, 0xBDF10000, 75.4372, 50.2602, 30.01, -0.0103168, 0, 0, -0.999947,  True, '2005-02-09 10:00:00'); /* Diamond Golem */

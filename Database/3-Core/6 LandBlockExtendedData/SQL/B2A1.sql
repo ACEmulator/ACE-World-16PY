@@ -57,9 +57,9 @@ VALUES (0x7B2A100D,  1154, 0xB2A10112, 103.218, 40.9602, 86.5459, -0.468221, 0, 
 /* @teleloc 0xB2A10112 [103.218000 40.960200 86.545900] -0.468221 0.000000 0.000000 -0.883612 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B2A100D, 0x7B2A100A, '2005-02-09 10:00:00') /* Carrion Shreth */
-     , (0x7B2A100D, 0x7B2A100B, '2005-02-09 10:00:00') /* Carrion Shreth */
-     , (0x7B2A100D, 0x7B2A100C, '2005-02-09 10:00:00') /* Blood Shreth */;
+VALUES (0x7B2A100D, 0x7B2A100A, '2005-02-09 10:00:00') /* Carrion Shreth (4109) */
+     , (0x7B2A100D, 0x7B2A100B, '2005-02-09 10:00:00') /* Carrion Shreth (4109) */
+     , (0x7B2A100D, 0x7B2A100C, '2005-02-09 10:00:00') /* Blood Shreth (4110) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B2A100E,   951, 0xB2A10000, 105.127, 42.7001, 90.005, 0.994109, 0, 0, 0.108381, False, '2005-02-09 10:00:00'); /* Banderling Guard Generator */

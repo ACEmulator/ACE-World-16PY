@@ -9,9 +9,9 @@ VALUES (0x7CC97001,  1154, 0xCC970000, 115.784, 40.7742, 20.005, -0.997657, 0, 0
 /* @teleloc 0xCC970000 [115.784000 40.774200 20.005000] -0.997657 0.000000 0.000000 0.068409 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7CC97001, 0x7CC97000, '2005-02-09 10:00:00') /* Drudge Slinker */
-     , (0x7CC97001, 0x7CC97002, '2005-02-09 10:00:00') /* Drudge Slinker */
-     , (0x7CC97001, 0x7CC97003, '2005-02-09 10:00:00') /* Drudge Slinker */;
+VALUES (0x7CC97001, 0x7CC97000, '2005-02-09 10:00:00') /* Drudge Slinker (193) */
+     , (0x7CC97001, 0x7CC97002, '2005-02-09 10:00:00') /* Drudge Slinker (193) */
+     , (0x7CC97001, 0x7CC97003, '2005-02-09 10:00:00') /* Drudge Slinker (193) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7CC97002,   193, 0xCC970000, 94.7516, 35.3521, 20.005, 0.79502, 0, 0, -0.606583,  True, '2005-02-09 10:00:00'); /* Drudge Slinker */

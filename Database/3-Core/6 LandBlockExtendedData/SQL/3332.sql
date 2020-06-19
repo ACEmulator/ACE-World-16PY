@@ -5,24 +5,24 @@ VALUES (0x73332000,  7924, 0x33320000, 75.8876, 58.1047, 83.681, 0.93014, 0, 0, 
 /* @teleloc 0x33320000 [75.887600 58.104700 83.681000] 0.930140 0.000000 0.000000 0.367205 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73332000, 0x73332002, '2005-02-09 10:00:00') /* Virindi Consul */;
+VALUES (0x73332000, 0x73332002, '2005-02-09 10:00:00') /* Virindi Consul (23489) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73332001,  7923, 0x33320000, 73.5476, 58.6374, 83.876, 0.992075, 0, 0, -0.125645, False, '2005-02-09 10:00:00'); /* Linkable Monster Generator ( 3 Min.) */
 /* @teleloc 0x33320000 [73.547600 58.637400 83.876000] 0.992075 0.000000 0.000000 -0.125645 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73332001, 0x73332003, '2005-02-09 10:00:00') /* Assailer */
-     , (0x73332001, 0x73332004, '2005-02-09 10:00:00') /* Assailer */
-     , (0x73332001, 0x73332005, '2005-02-09 10:00:00') /* Assailer */
-     , (0x73332001, 0x73332006, '2005-02-09 10:00:00') /* Assailer */
-     , (0x73332001, 0x73332007, '2005-02-09 10:00:00') /* Assailer */
-     , (0x73332001, 0x73332008, '2005-02-09 10:00:00') /* Peerless Drudge */
-     , (0x73332001, 0x73332009, '2005-02-09 10:00:00') /* Peerless Drudge */
-     , (0x73332001, 0x7333200A, '2005-02-09 10:00:00') /* Drudge Cabalist */
-     , (0x73332001, 0x7333200B, '2005-02-09 10:00:00') /* Telumiat Hollow Minion */
-     , (0x73332001, 0x7333200C, '2005-02-09 10:00:00') /* Telumiat Hollow Minion */
-     , (0x73332001, 0x7333200D, '2005-02-09 10:00:00') /* Telumiat Hollow Minion */;
+VALUES (0x73332001, 0x73332003, '2005-02-09 10:00:00') /* Assailer (22053) */
+     , (0x73332001, 0x73332004, '2005-02-09 10:00:00') /* Assailer (22053) */
+     , (0x73332001, 0x73332005, '2005-02-09 10:00:00') /* Assailer (22053) */
+     , (0x73332001, 0x73332006, '2005-02-09 10:00:00') /* Assailer (22053) */
+     , (0x73332001, 0x73332007, '2005-02-09 10:00:00') /* Assailer (22053) */
+     , (0x73332001, 0x73332008, '2005-02-09 10:00:00') /* Peerless Drudge (24282) */
+     , (0x73332001, 0x73332009, '2005-02-09 10:00:00') /* Peerless Drudge (24282) */
+     , (0x73332001, 0x7333200A, '2005-02-09 10:00:00') /* Drudge Cabalist (24278) */
+     , (0x73332001, 0x7333200B, '2005-02-09 10:00:00') /* Telumiat Hollow Minion (23555) */
+     , (0x73332001, 0x7333200C, '2005-02-09 10:00:00') /* Telumiat Hollow Minion (23555) */
+     , (0x73332001, 0x7333200D, '2005-02-09 10:00:00') /* Telumiat Hollow Minion (23555) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73332002, 23489, 0x33320000, 73.0089, 56.5663, 83.9449, 0.947338, 0, 0, -0.320236,  True, '2005-02-09 10:00:00'); /* Virindi Consul */

@@ -21,35 +21,35 @@ VALUES (0x702D2004,  3955, 0x02D2011F, 72.1834, -121.668, 0.005, 0.029611, 0, 0,
 /* @teleloc 0x02D2011F [72.183400 -121.668000 0.005000] 0.029611 0.000000 0.000000 -0.999561 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x702D2004, 0x702D2005, '2005-02-09 10:00:00') /* Banderling Scout */
-     , (0x702D2004, 0x702D2006, '2005-02-09 10:00:00') /* Parfal Niffis */
-     , (0x702D2004, 0x702D2007, '2005-02-09 10:00:00') /* Banderling Scout */
-     , (0x702D2004, 0x702D2008, '2005-02-09 10:00:00') /* Banderling Guard */
-     , (0x702D2004, 0x702D2009, '2005-02-09 10:00:00') /* Parfal Niffis */
-     , (0x702D2004, 0x702D200A, '2005-02-09 10:00:00') /* Banderling Raider */
-     , (0x702D2004, 0x702D200C, '2005-02-09 10:00:00') /* Mite Warrior Princess */
-     , (0x702D2004, 0x702D200E, '2005-02-09 10:00:00') /* Mite Snippet */
-     , (0x702D2004, 0x702D200F, '2005-02-09 10:00:00') /* Mite Snippet */
-     , (0x702D2004, 0x702D2010, '2005-02-09 10:00:00') /* Mite Squire */
-     , (0x702D2004, 0x702D2011, '2005-02-09 10:00:00') /* Mite Snippet */
-     , (0x702D2004, 0x702D2012, '2005-02-09 10:00:00') /* Mite Snippet */
-     , (0x702D2004, 0x702D2013, '2005-02-09 10:00:00') /* Banderling Guard */
-     , (0x702D2004, 0x702D2014, '2005-02-09 10:00:00') /* Banderling Raider */
-     , (0x702D2004, 0x702D2015, '2005-02-09 10:00:00') /* Banderling Raver */
-     , (0x702D2004, 0x702D2016, '2005-02-09 10:00:00') /* Banderling Raver */
-     , (0x702D2004, 0x702D201C, '2005-02-09 10:00:00') /* Wood Golem */
-     , (0x702D2004, 0x702D201D, '2005-02-09 10:00:00') /* Shadow Sprite */
-     , (0x702D2004, 0x702D201E, '2005-02-09 10:00:00') /* Banderling Scout */
-     , (0x702D2004, 0x702D201F, '2005-02-09 10:00:00') /* Banderling Guard */
-     , (0x702D2004, 0x702D2020, '2005-02-09 10:00:00') /* Banderling Captain */
-     , (0x702D2004, 0x702D2021, '2005-02-09 10:00:00') /* Banderling Scout */
-     , (0x702D2004, 0x702D2022, '2005-02-09 10:00:00') /* Banderling Guard */
-     , (0x702D2004, 0x702D2023, '2005-02-09 10:00:00') /* Banderling Raider */
-     , (0x702D2004, 0x702D2025, '2005-02-09 10:00:00') /* Banderling Captain */
-     , (0x702D2004, 0x702D2035, '2005-02-09 10:00:00') /* Banderling Guard */
-     , (0x702D2004, 0x702D2036, '2005-02-09 10:00:00') /* Banderling Breeder */
-     , (0x702D2004, 0x702D2037, '2005-02-09 10:00:00') /* Banderling Raider */
-     , (0x702D2004, 0x702D2038, '2005-02-09 10:00:00') /* Banderling Guard */;
+VALUES (0x702D2004, 0x702D2005, '2005-02-09 10:00:00') /* Banderling Scout (6) */
+     , (0x702D2004, 0x702D2006, '2005-02-09 10:00:00') /* Parfal Niffis (7984) */
+     , (0x702D2004, 0x702D2007, '2005-02-09 10:00:00') /* Banderling Scout (6) */
+     , (0x702D2004, 0x702D2008, '2005-02-09 10:00:00') /* Banderling Guard (937) */
+     , (0x702D2004, 0x702D2009, '2005-02-09 10:00:00') /* Parfal Niffis (7984) */
+     , (0x702D2004, 0x702D200A, '2005-02-09 10:00:00') /* Banderling Raider (938) */
+     , (0x702D2004, 0x702D200C, '2005-02-09 10:00:00') /* Mite Warrior Princess (8215) */
+     , (0x702D2004, 0x702D200E, '2005-02-09 10:00:00') /* Mite Snippet (4245) */
+     , (0x702D2004, 0x702D200F, '2005-02-09 10:00:00') /* Mite Snippet (4245) */
+     , (0x702D2004, 0x702D2010, '2005-02-09 10:00:00') /* Mite Squire (8216) */
+     , (0x702D2004, 0x702D2011, '2005-02-09 10:00:00') /* Mite Snippet (4245) */
+     , (0x702D2004, 0x702D2012, '2005-02-09 10:00:00') /* Mite Snippet (4245) */
+     , (0x702D2004, 0x702D2013, '2005-02-09 10:00:00') /* Banderling Guard (937) */
+     , (0x702D2004, 0x702D2014, '2005-02-09 10:00:00') /* Banderling Raider (938) */
+     , (0x702D2004, 0x702D2015, '2005-02-09 10:00:00') /* Banderling Raver (183) */
+     , (0x702D2004, 0x702D2016, '2005-02-09 10:00:00') /* Banderling Raver (183) */
+     , (0x702D2004, 0x702D201C, '2005-02-09 10:00:00') /* Wood Golem (942) */
+     , (0x702D2004, 0x702D201D, '2005-02-09 10:00:00') /* Shadow Sprite (6534) */
+     , (0x702D2004, 0x702D201E, '2005-02-09 10:00:00') /* Banderling Scout (6) */
+     , (0x702D2004, 0x702D201F, '2005-02-09 10:00:00') /* Banderling Guard (937) */
+     , (0x702D2004, 0x702D2020, '2005-02-09 10:00:00') /* Banderling Captain (184) */
+     , (0x702D2004, 0x702D2021, '2005-02-09 10:00:00') /* Banderling Scout (6) */
+     , (0x702D2004, 0x702D2022, '2005-02-09 10:00:00') /* Banderling Guard (937) */
+     , (0x702D2004, 0x702D2023, '2005-02-09 10:00:00') /* Banderling Raider (938) */
+     , (0x702D2004, 0x702D2025, '2005-02-09 10:00:00') /* Banderling Captain (184) */
+     , (0x702D2004, 0x702D2035, '2005-02-09 10:00:00') /* Banderling Guard (937) */
+     , (0x702D2004, 0x702D2036, '2005-02-09 10:00:00') /* Banderling Breeder (1668) */
+     , (0x702D2004, 0x702D2037, '2005-02-09 10:00:00') /* Banderling Raider (938) */
+     , (0x702D2004, 0x702D2038, '2005-02-09 10:00:00') /* Banderling Guard (937) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x702D2005,     6, 0x02D2012A, 90.0256, -99.8937, 0.0077, 0.706505, 0, 0, 0.707708,  True, '2005-02-09 10:00:00'); /* Banderling Scout */
@@ -80,7 +80,7 @@ VALUES (0x702D200B,  4049, 0x02D20150, 18.9, -50, 8.859, 0.715095, 0, 0, -0.6990
 /* @teleloc 0x02D20150 [18.900000 -50.000000 8.859000] 0.715095 0.000000 0.000000 -0.699027 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x702D200B, 0x702D2002, '2005-02-09 10:00:00') /* Pressure Plate */;
+VALUES (0x702D200B, 0x702D2002, '2005-02-09 10:00:00') /* Pressure Plate (2131) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x702D200C,  8215, 0x02D20153, 29.8342, -50.0903, 6.006, 0.0208511, 0, 0, -0.999783,  True, '2005-02-09 10:00:00'); /* Mite Warrior Princess */
@@ -91,8 +91,8 @@ VALUES (0x702D200D,  4145, 0x02D20156, 25.254, -50, 6.005, 0.707107, 0, 0, -0.70
 /* @teleloc 0x02D20156 [25.254000 -50.000000 6.005000] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x702D200D, 0x702D2001, '2005-02-09 10:00:00') /* Lever */
-     , (0x702D200D, 0x702D2017, '2005-02-09 10:00:00') /* Lever */;
+VALUES (0x702D200D, 0x702D2001, '2005-02-09 10:00:00') /* Lever (286) */
+     , (0x702D200D, 0x702D2017, '2005-02-09 10:00:00') /* Lever (286) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x702D200E,  4245, 0x02D20157, 31.7459, -59.052, 6.005, -0.61619, 0, 0, 0.787597,  True, '2005-02-09 10:00:00'); /* Mite Snippet */
@@ -219,42 +219,42 @@ VALUES (0x702D202E,  4050, 0x02D201B8, 69.079, -58.308, 14.5786, 0.707107, 0, 0,
 /* @teleloc 0x02D201B8 [69.079000 -58.308000 14.578600] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x702D202E, 0x702D2029, '2005-02-09 10:00:00') /* Pressure Plate */;
+VALUES (0x702D202E, 0x702D2029, '2005-02-09 10:00:00') /* Pressure Plate (298) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x702D202F,  4050, 0x02D201B8, 72.482, -58.213, 14.6455, 0.707107, 0, 0, -0.707107, False, '2005-02-09 10:00:00'); /* Flame Trap */
 /* @teleloc 0x02D201B8 [72.482000 -58.213000 14.645500] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x702D202F, 0x702D202B, '2005-02-09 10:00:00') /* Pressure Plate */;
+VALUES (0x702D202F, 0x702D202B, '2005-02-09 10:00:00') /* Pressure Plate (298) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x702D2030,  4050, 0x02D201B8, 72.468, -61.679, 14.6187, 0.707107, 0, 0, -0.707107, False, '2005-02-09 10:00:00'); /* Flame Trap */
 /* @teleloc 0x02D201B8 [72.468000 -61.679000 14.618700] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x702D2030, 0x702D202A, '2005-02-09 10:00:00') /* Pressure Plate */;
+VALUES (0x702D2030, 0x702D202A, '2005-02-09 10:00:00') /* Pressure Plate (298) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x702D2031,  4050, 0x02D201B8, 69.045, -61.599, 14.6455, 0.707107, 0, 0, -0.707107, False, '2005-02-09 10:00:00'); /* Flame Trap */
 /* @teleloc 0x02D201B8 [69.045000 -61.599000 14.645500] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x702D2031, 0x702D2028, '2005-02-09 10:00:00') /* Pressure Plate */;
+VALUES (0x702D2031, 0x702D2028, '2005-02-09 10:00:00') /* Pressure Plate (298) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x702D2032,  4050, 0x02D201B8, 67.307, -59.999, 14.6455, 0.707107, 0, 0, -0.707107, False, '2005-02-09 10:00:00'); /* Flame Trap */
 /* @teleloc 0x02D201B8 [67.307000 -59.999000 14.645500] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x702D2032, 0x702D2027, '2005-02-09 10:00:00') /* Pressure Plate */;
+VALUES (0x702D2032, 0x702D2027, '2005-02-09 10:00:00') /* Pressure Plate (298) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x702D2033,  4050, 0x02D201B8, 74.066, -59.981, 14.6455, 0.707107, 0, 0, -0.707107, False, '2005-02-09 10:00:00'); /* Flame Trap */
 /* @teleloc 0x02D201B8 [74.066000 -59.981000 14.645500] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x702D2033, 0x702D2026, '2005-02-09 10:00:00') /* Pressure Plate */;
+VALUES (0x702D2033, 0x702D2026, '2005-02-09 10:00:00') /* Pressure Plate (298) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x702D2034,  4832, 0x02D201B8, 70.741, -60, 12.005, 1, 0, 0, 0, False, '2005-02-09 10:00:00'); /* Sarcophagus */

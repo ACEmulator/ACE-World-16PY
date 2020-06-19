@@ -13,47 +13,47 @@ VALUES (0x70288003,  7923, 0x02880105, 46.5476, -56.6388, -89.995, 0.998281, 0, 
 /* @teleloc 0x02880105 [46.547600 -56.638800 -89.995000] 0.998281 0.000000 0.000000 0.058605 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x70288003, 0x70288012, '2005-02-09 10:00:00') /* Olthoi Eviscerator */
-     , (0x70288003, 0x70288013, '2005-02-09 10:00:00') /* Olthoi Eviscerator */
-     , (0x70288003, 0x70288018, '2005-02-09 10:00:00') /* Olthoi Legionary */
-     , (0x70288003, 0x70288019, '2005-02-09 10:00:00') /* Olthoi Legionary */
-     , (0x70288003, 0x7028801A, '2005-02-09 10:00:00') /* Olthoi Eviscerator */
-     , (0x70288003, 0x7028801C, '2005-02-09 10:00:00') /* Olthoi Legionary */
-     , (0x70288003, 0x7028801D, '2005-02-09 10:00:00') /* Olthoi Eviscerator */
-     , (0x70288003, 0x7028801E, '2005-02-09 10:00:00') /* Olthoi Eviscerator */
-     , (0x70288003, 0x70288020, '2005-02-09 10:00:00') /* Olthoi Eviscerator */
-     , (0x70288003, 0x70288022, '2005-02-09 10:00:00') /* Olthoi Legionary */
-     , (0x70288003, 0x70288025, '2005-02-09 10:00:00') /* Olthoi Legionary */
-     , (0x70288003, 0x70288032, '2005-02-09 10:00:00') /* Olthoi Eviscerator */
-     , (0x70288003, 0x70288041, '2005-02-09 10:00:00') /* Olthoi Legionary */
-     , (0x70288003, 0x70288043, '2005-02-09 10:00:00') /* Olthoi Legionary */
-     , (0x70288003, 0x70288045, '2005-02-09 10:00:00') /* Olthoi Legionary */
-     , (0x70288003, 0x70288047, '2005-02-09 10:00:00') /* Olthoi Legionary */
-     , (0x70288003, 0x70288048, '2005-02-09 10:00:00') /* Olthoi Legionary */
-     , (0x70288003, 0x70288049, '2005-02-09 10:00:00') /* Olthoi Legionary */
-     , (0x70288003, 0x7028804A, '2005-02-09 10:00:00') /* Olthoi Legionary */
-     , (0x70288003, 0x7028804B, '2005-02-09 10:00:00') /* Olthoi Legionary */
-     , (0x70288003, 0x7028804C, '2005-02-09 10:00:00') /* Olthoi Legionary */
-     , (0x70288003, 0x7028804D, '2005-02-09 10:00:00') /* Olthoi Legionary */
-     , (0x70288003, 0x7028804E, '2005-02-09 10:00:00') /* Olthoi Legionary */
-     , (0x70288003, 0x70288053, '2005-02-09 10:00:00') /* Olthoi Legionary */
-     , (0x70288003, 0x70288054, '2005-02-09 10:00:00') /* Olthoi Eviscerator */
-     , (0x70288003, 0x70288055, '2005-02-09 10:00:00') /* Olthoi Legionary */
-     , (0x70288003, 0x70288056, '2005-02-09 10:00:00') /* Olthoi Legionary */
-     , (0x70288003, 0x70288058, '2005-02-09 10:00:00') /* Olthoi Legionary */
-     , (0x70288003, 0x70288059, '2005-02-09 10:00:00') /* Olthoi Legionary */
-     , (0x70288003, 0x7028805A, '2005-02-09 10:00:00') /* Olthoi Eviscerator */
-     , (0x70288003, 0x7028805B, '2005-02-09 10:00:00') /* Olthoi Legionary */
-     , (0x70288003, 0x70288063, '2005-02-09 10:00:00') /* Olthoi Legionary */
-     , (0x70288003, 0x70288065, '2005-02-09 10:00:00') /* Olthoi Legionary */
-     , (0x70288003, 0x70288067, '2005-02-09 10:00:00') /* Olthoi Legionary */
-     , (0x70288003, 0x70288069, '2005-02-09 10:00:00') /* Olthoi Legionary */
-     , (0x70288003, 0x7028806C, '2005-02-09 10:00:00') /* Olthoi Legionary */
-     , (0x70288003, 0x7028806D, '2005-02-09 10:00:00') /* Olthoi Legionary */
-     , (0x70288003, 0x70288070, '2005-02-09 10:00:00') /* Olthoi Eviscerator */
-     , (0x70288003, 0x70288071, '2005-02-09 10:00:00') /* Olthoi Eviscerator */
-     , (0x70288003, 0x70288072, '2005-02-09 10:00:00') /* Olthoi Eviscerator */
-     , (0x70288003, 0x70288073, '2005-02-09 10:00:00') /* Olthoi Eviscerator */;
+VALUES (0x70288003, 0x70288012, '2005-02-09 10:00:00') /* Olthoi Eviscerator (11478) */
+     , (0x70288003, 0x70288013, '2005-02-09 10:00:00') /* Olthoi Eviscerator (11478) */
+     , (0x70288003, 0x70288018, '2005-02-09 10:00:00') /* Olthoi Legionary (11481) */
+     , (0x70288003, 0x70288019, '2005-02-09 10:00:00') /* Olthoi Legionary (11695) */
+     , (0x70288003, 0x7028801A, '2005-02-09 10:00:00') /* Olthoi Eviscerator (11694) */
+     , (0x70288003, 0x7028801C, '2005-02-09 10:00:00') /* Olthoi Legionary (11695) */
+     , (0x70288003, 0x7028801D, '2005-02-09 10:00:00') /* Olthoi Eviscerator (11694) */
+     , (0x70288003, 0x7028801E, '2005-02-09 10:00:00') /* Olthoi Eviscerator (11478) */
+     , (0x70288003, 0x70288020, '2005-02-09 10:00:00') /* Olthoi Eviscerator (11478) */
+     , (0x70288003, 0x70288022, '2005-02-09 10:00:00') /* Olthoi Legionary (11481) */
+     , (0x70288003, 0x70288025, '2005-02-09 10:00:00') /* Olthoi Legionary (11481) */
+     , (0x70288003, 0x70288032, '2005-02-09 10:00:00') /* Olthoi Eviscerator (11478) */
+     , (0x70288003, 0x70288041, '2005-02-09 10:00:00') /* Olthoi Legionary (11481) */
+     , (0x70288003, 0x70288043, '2005-02-09 10:00:00') /* Olthoi Legionary (11481) */
+     , (0x70288003, 0x70288045, '2005-02-09 10:00:00') /* Olthoi Legionary (11481) */
+     , (0x70288003, 0x70288047, '2005-02-09 10:00:00') /* Olthoi Legionary (11481) */
+     , (0x70288003, 0x70288048, '2005-02-09 10:00:00') /* Olthoi Legionary (11481) */
+     , (0x70288003, 0x70288049, '2005-02-09 10:00:00') /* Olthoi Legionary (11481) */
+     , (0x70288003, 0x7028804A, '2005-02-09 10:00:00') /* Olthoi Legionary (11481) */
+     , (0x70288003, 0x7028804B, '2005-02-09 10:00:00') /* Olthoi Legionary (11481) */
+     , (0x70288003, 0x7028804C, '2005-02-09 10:00:00') /* Olthoi Legionary (11481) */
+     , (0x70288003, 0x7028804D, '2005-02-09 10:00:00') /* Olthoi Legionary (11481) */
+     , (0x70288003, 0x7028804E, '2005-02-09 10:00:00') /* Olthoi Legionary (11481) */
+     , (0x70288003, 0x70288053, '2005-02-09 10:00:00') /* Olthoi Legionary (11481) */
+     , (0x70288003, 0x70288054, '2005-02-09 10:00:00') /* Olthoi Eviscerator (11478) */
+     , (0x70288003, 0x70288055, '2005-02-09 10:00:00') /* Olthoi Legionary (11481) */
+     , (0x70288003, 0x70288056, '2005-02-09 10:00:00') /* Olthoi Legionary (11481) */
+     , (0x70288003, 0x70288058, '2005-02-09 10:00:00') /* Olthoi Legionary (11481) */
+     , (0x70288003, 0x70288059, '2005-02-09 10:00:00') /* Olthoi Legionary (11481) */
+     , (0x70288003, 0x7028805A, '2005-02-09 10:00:00') /* Olthoi Eviscerator (11478) */
+     , (0x70288003, 0x7028805B, '2005-02-09 10:00:00') /* Olthoi Legionary (11481) */
+     , (0x70288003, 0x70288063, '2005-02-09 10:00:00') /* Olthoi Legionary (11481) */
+     , (0x70288003, 0x70288065, '2005-02-09 10:00:00') /* Olthoi Legionary (11481) */
+     , (0x70288003, 0x70288067, '2005-02-09 10:00:00') /* Olthoi Legionary (11481) */
+     , (0x70288003, 0x70288069, '2005-02-09 10:00:00') /* Olthoi Legionary (11481) */
+     , (0x70288003, 0x7028806C, '2005-02-09 10:00:00') /* Olthoi Legionary (11481) */
+     , (0x70288003, 0x7028806D, '2005-02-09 10:00:00') /* Olthoi Legionary (11481) */
+     , (0x70288003, 0x70288070, '2005-02-09 10:00:00') /* Olthoi Eviscerator (11478) */
+     , (0x70288003, 0x70288071, '2005-02-09 10:00:00') /* Olthoi Eviscerator (11478) */
+     , (0x70288003, 0x70288072, '2005-02-09 10:00:00') /* Olthoi Eviscerator (11478) */
+     , (0x70288003, 0x70288073, '2005-02-09 10:00:00') /* Olthoi Eviscerator (11478) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x70288005,  5627, 0x02880108, 50, -85.937, -89.995, -4.37114E-08, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Door */
@@ -148,8 +148,8 @@ VALUES (0x7028801F,  4464, 0x02880172, 20, -50, -54, 0.707107, 0, 0, -0.707107, 
 /* @teleloc 0x02880172 [20.000000 -50.000000 -54.000000] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7028801F, 0x70288014, '2005-02-09 10:00:00') /* Pressure Plate */
-     , (0x7028801F, 0x70288068, '2005-02-09 10:00:00') /* Pressure Plate */;
+VALUES (0x7028801F, 0x70288014, '2005-02-09 10:00:00') /* Pressure Plate (2131) */
+     , (0x7028801F, 0x70288068, '2005-02-09 10:00:00') /* Pressure Plate (2131) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x70288020, 11478, 0x02880179, 38.2944, -10.6735, -53.995, -0.851077, 0, 0, -0.525041,  True, '2005-02-09 10:00:00'); /* Olthoi Eviscerator */
@@ -192,10 +192,10 @@ VALUES (0x70288029,  4464, 0x028801A5, 40, -26.655, -48, 1, 0, 0, 0, False, '200
 /* @teleloc 0x028801A5 [40.000000 -26.655000 -48.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x70288029, 0x70288015, '2005-02-09 10:00:00') /* Pressure Plate */
-     , (0x70288029, 0x70288016, '2005-02-09 10:00:00') /* Pressure Plate */
-     , (0x70288029, 0x70288017, '2005-02-09 10:00:00') /* Pressure Plate */
-     , (0x70288029, 0x70288066, '2005-02-09 10:00:00') /* Pressure Plate */;
+VALUES (0x70288029, 0x70288015, '2005-02-09 10:00:00') /* Pressure Plate (2131) */
+     , (0x70288029, 0x70288016, '2005-02-09 10:00:00') /* Pressure Plate (2131) */
+     , (0x70288029, 0x70288017, '2005-02-09 10:00:00') /* Pressure Plate (2131) */
+     , (0x70288029, 0x70288066, '2005-02-09 10:00:00') /* Pressure Plate (2131) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7028802A, 11720, 0x028801AA, 40, -60, -48, 1, 0, 0, 0, False, '2005-02-09 10:00:00'); /* Hot Air */
@@ -250,8 +250,8 @@ VALUES (0x70288036,  4464, 0x028801AE, 44.031, -90, -48, 0.707107, 0, 0, -0.7071
 /* @teleloc 0x028801AE [44.031000 -90.000000 -48.000000] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x70288036, 0x70288028, '2005-02-09 10:00:00') /* Pressure Plate */
-     , (0x70288036, 0x70288062, '2005-02-09 10:00:00') /* Pressure Plate */;
+VALUES (0x70288036, 0x70288028, '2005-02-09 10:00:00') /* Pressure Plate (2131) */
+     , (0x70288036, 0x70288062, '2005-02-09 10:00:00') /* Pressure Plate (2131) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x70288037, 11720, 0x028801AF, 50, -60, -48, 0.707107, 0, 0, -0.707107, False, '2005-02-09 10:00:00'); /* Hot Air */
@@ -362,8 +362,8 @@ VALUES (0x70288051,  4464, 0x028801DE, 54.302, -40, -41.995, 0.707107, 0, 0, -0.
 /* @teleloc 0x028801DE [54.302000 -40.000000 -41.995000] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x70288051, 0x70288038, '2005-02-09 10:00:00') /* Pressure Plate */
-     , (0x70288051, 0x70288064, '2005-02-09 10:00:00') /* Pressure Plate */;
+VALUES (0x70288051, 0x70288038, '2005-02-09 10:00:00') /* Pressure Plate (2131) */
+     , (0x70288051, 0x70288064, '2005-02-09 10:00:00') /* Pressure Plate (2131) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x70288052,  5627, 0x028801EC, 65.141, -40, -41.995, 0.707107, 0, 0, -0.707107, False, '2005-02-09 10:00:00'); /* Door */

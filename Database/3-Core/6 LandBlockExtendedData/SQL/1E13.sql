@@ -45,13 +45,13 @@ VALUES (0x71E1300B,  3955, 0x1E130000, 30.782, 140.493, -0.095, 1, 0, 0, 0, Fals
 /* @teleloc 0x1E130000 [30.782000 140.493000 -0.095000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71E1300B, 0x71E13000, '2005-02-09 10:00:00') /* Withered Banderling Hierophant */
-     , (0x71E1300B, 0x71E13001, '2005-02-09 10:00:00') /* Withered Banderling Hierophant */
-     , (0x71E1300B, 0x71E13002, '2005-02-09 10:00:00') /* Withered Transcendent Tumerok */
-     , (0x71E1300B, 0x71E13003, '2005-02-09 10:00:00') /* Withered Transcendent Tumerok */
-     , (0x71E1300B, 0x71E13004, '2005-02-09 10:00:00') /* Withered Drudge Seraph */
-     , (0x71E1300B, 0x71E13006, '2005-02-09 10:00:00') /* Withered Drudge Seraph */
-     , (0x71E1300B, 0x71E13007, '2005-02-09 10:00:00') /* Withered Drudge Seraph */
-     , (0x71E1300B, 0x71E13008, '2005-02-09 10:00:00') /* Withered Revered Tumerok Shaman */
-     , (0x71E1300B, 0x71E13009, '2005-02-09 10:00:00') /* Withered Revered Tumerok Shaman */
-     , (0x71E1300B, 0x71E1300A, '2005-02-09 10:00:00') /* Withered Revered Tumerok Shaman */;
+VALUES (0x71E1300B, 0x71E13000, '2005-02-09 10:00:00') /* Withered Banderling Hierophant (30683) */
+     , (0x71E1300B, 0x71E13001, '2005-02-09 10:00:00') /* Withered Banderling Hierophant (30683) */
+     , (0x71E1300B, 0x71E13002, '2005-02-09 10:00:00') /* Withered Transcendent Tumerok (30686) */
+     , (0x71E1300B, 0x71E13003, '2005-02-09 10:00:00') /* Withered Transcendent Tumerok (30686) */
+     , (0x71E1300B, 0x71E13004, '2005-02-09 10:00:00') /* Withered Drudge Seraph (30680) */
+     , (0x71E1300B, 0x71E13006, '2005-02-09 10:00:00') /* Withered Drudge Seraph (30680) */
+     , (0x71E1300B, 0x71E13007, '2005-02-09 10:00:00') /* Withered Drudge Seraph (30680) */
+     , (0x71E1300B, 0x71E13008, '2005-02-09 10:00:00') /* Withered Revered Tumerok Shaman (30687) */
+     , (0x71E1300B, 0x71E13009, '2005-02-09 10:00:00') /* Withered Revered Tumerok Shaman (30687) */
+     , (0x71E1300B, 0x71E1300A, '2005-02-09 10:00:00') /* Withered Revered Tumerok Shaman (30687) */;

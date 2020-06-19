@@ -49,7 +49,7 @@ VALUES (0x702E500B,  3953, 0x02E50151, 209.106, -10.1121, -23.995, 0.04514, 0, 0
 /* @teleloc 0x02E50151 [209.106000 -10.112100 -23.995000] 0.045140 0.000000 0.000000 0.998981 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x702E500B, 0x702E500A, '2005-02-09 10:00:00') /* Mi Krau-Li */;
+VALUES (0x702E500B, 0x702E500A, '2005-02-09 10:00:00') /* Mi Krau-Li (7773) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x702E500C,  7334, 0x02E50183, 0, -80, -5.995, 0.796084, 0, 0, -0.605186,  True, '2005-02-09 10:00:00'); /* Skeleton Bone Knight */
@@ -160,7 +160,7 @@ VALUES (0x702E5026,  2180, 0x02E50213, 40, -227, 0.005, 0, 0, 0, -1, False, '200
 /* @teleloc 0x02E50213 [40.000000 -227.000000 0.005000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x702E5026, 0x702E5016, '2005-02-09 10:00:00') /* Torch */;
+VALUES (0x702E5026, 0x702E5016, '2005-02-09 10:00:00') /* Torch (7323) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x702E5027,  1762, 0x02E50216, 49.1984, -174.376, 0.005, 0.070737, 0, 0, -0.997495,  True, '2005-02-09 10:00:00'); /* Skeleton Lord */
@@ -203,7 +203,7 @@ VALUES (0x702E5030,  2180, 0x02E5024C, 110, -197, 0.005, 1, 0, 0, 0, False, '200
 /* @teleloc 0x02E5024C [110.000000 -197.000000 0.005000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x702E5030, 0x702E503B, '2005-02-09 10:00:00') /* Lever */;
+VALUES (0x702E5030, 0x702E503B, '2005-02-09 10:00:00') /* Lever (2609) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x702E5032,  7617, 0x02E50259, 110, -280, 0.005, 1, 0, 0, 0, False, '2005-02-09 10:00:00'); /* Surface Portal */
@@ -230,14 +230,14 @@ VALUES (0x702E5037,  2180, 0x02E50287, 170, -210, 0.005, 0, 0, 0, -1, False, '20
 /* @teleloc 0x02E50287 [170.000000 -210.000000 0.005000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x702E5037, 0x702E5056, '2005-02-09 10:00:00') /* Lever */;
+VALUES (0x702E5037, 0x702E5056, '2005-02-09 10:00:00') /* Lever (2609) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x702E5038,  2180, 0x02E50292, 193, -170, 0.005, 0.707107, 0, 0, -0.707107, False, '2005-02-09 10:00:00'); /* Door */
 /* @teleloc 0x02E50292 [193.000000 -170.000000 0.005000] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x702E5038, 0x702E5012, '2005-02-09 10:00:00') /* Lever */;
+VALUES (0x702E5038, 0x702E5012, '2005-02-09 10:00:00') /* Lever (2609) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x702E5039,  1762, 0x02E50295, 189.252, -179.871, 0.005, 0.764842, 0, 0, 0.644218,  True, '2005-02-09 10:00:00'); /* Skeleton Lord */
@@ -376,89 +376,89 @@ VALUES (0x702E505A,  7925, 0x02E5024F, 109.987, -230.004, 0.005, 1, 0, 0, 0, Fal
 /* @teleloc 0x02E5024F [109.987000 -230.004000 0.005000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x702E505A, 0x702E500C, '2005-02-09 10:00:00') /* Skeleton Bone Knight */
-     , (0x702E505A, 0x702E500D, '2005-02-09 10:00:00') /* Skeleton Bone Knight */
-     , (0x702E505A, 0x702E500E, '2005-02-09 10:00:00') /* Skeleton Wraith */
-     , (0x702E505A, 0x702E500F, '2005-02-09 10:00:00') /* Skeleton Wraith */
-     , (0x702E505A, 0x702E5015, '2005-02-09 10:00:00') /* Skeleton Wraith */
-     , (0x702E505A, 0x702E5017, '2005-02-09 10:00:00') /* Skeleton Lord */
-     , (0x702E505A, 0x702E5018, '2005-02-09 10:00:00') /* Skeleton Lord */
-     , (0x702E505A, 0x702E5019, '2005-02-09 10:00:00') /* Skeleton Wraith */
-     , (0x702E505A, 0x702E501A, '2005-02-09 10:00:00') /* Skeleton Wraith */
-     , (0x702E505A, 0x702E501B, '2005-02-09 10:00:00') /* Skeleton Wraith */
-     , (0x702E505A, 0x702E501C, '2005-02-09 10:00:00') /* Skeleton Wraith */
-     , (0x702E505A, 0x702E501D, '2005-02-09 10:00:00') /* Skeleton Wraith */
-     , (0x702E505A, 0x702E501E, '2005-02-09 10:00:00') /* Skeleton Wraith */
-     , (0x702E505A, 0x702E501F, '2005-02-09 10:00:00') /* Skeleton Wraith */
-     , (0x702E505A, 0x702E5020, '2005-02-09 10:00:00') /* Skeleton Wraith */
-     , (0x702E505A, 0x702E5021, '2005-02-09 10:00:00') /* Skeleton Wraith */
-     , (0x702E505A, 0x702E5022, '2005-02-09 10:00:00') /* Skeleton Bone Knight */
-     , (0x702E505A, 0x702E5023, '2005-02-09 10:00:00') /* Skeleton Wraith */
-     , (0x702E505A, 0x702E5024, '2005-02-09 10:00:00') /* Skeleton Lord */
-     , (0x702E505A, 0x702E5025, '2005-02-09 10:00:00') /* Skeleton Lord */
-     , (0x702E505A, 0x702E5027, '2005-02-09 10:00:00') /* Skeleton Lord */
-     , (0x702E505A, 0x702E5028, '2005-02-09 10:00:00') /* Skeleton Wraith */
-     , (0x702E505A, 0x702E5029, '2005-02-09 10:00:00') /* Skeleton Lord */
-     , (0x702E505A, 0x702E502A, '2005-02-09 10:00:00') /* Skeleton Lord */
-     , (0x702E505A, 0x702E502B, '2005-02-09 10:00:00') /* Skeleton Lord */;
+VALUES (0x702E505A, 0x702E500C, '2005-02-09 10:00:00') /* Skeleton Bone Knight (7334) */
+     , (0x702E505A, 0x702E500D, '2005-02-09 10:00:00') /* Skeleton Bone Knight (7334) */
+     , (0x702E505A, 0x702E500E, '2005-02-09 10:00:00') /* Skeleton Wraith (22208) */
+     , (0x702E505A, 0x702E500F, '2005-02-09 10:00:00') /* Skeleton Wraith (22208) */
+     , (0x702E505A, 0x702E5015, '2005-02-09 10:00:00') /* Skeleton Wraith (22208) */
+     , (0x702E505A, 0x702E5017, '2005-02-09 10:00:00') /* Skeleton Lord (1762) */
+     , (0x702E505A, 0x702E5018, '2005-02-09 10:00:00') /* Skeleton Lord (1762) */
+     , (0x702E505A, 0x702E5019, '2005-02-09 10:00:00') /* Skeleton Wraith (22208) */
+     , (0x702E505A, 0x702E501A, '2005-02-09 10:00:00') /* Skeleton Wraith (22208) */
+     , (0x702E505A, 0x702E501B, '2005-02-09 10:00:00') /* Skeleton Wraith (22208) */
+     , (0x702E505A, 0x702E501C, '2005-02-09 10:00:00') /* Skeleton Wraith (22208) */
+     , (0x702E505A, 0x702E501D, '2005-02-09 10:00:00') /* Skeleton Wraith (22208) */
+     , (0x702E505A, 0x702E501E, '2005-02-09 10:00:00') /* Skeleton Wraith (22208) */
+     , (0x702E505A, 0x702E501F, '2005-02-09 10:00:00') /* Skeleton Wraith (22208) */
+     , (0x702E505A, 0x702E5020, '2005-02-09 10:00:00') /* Skeleton Wraith (22208) */
+     , (0x702E505A, 0x702E5021, '2005-02-09 10:00:00') /* Skeleton Wraith (22208) */
+     , (0x702E505A, 0x702E5022, '2005-02-09 10:00:00') /* Skeleton Bone Knight (7334) */
+     , (0x702E505A, 0x702E5023, '2005-02-09 10:00:00') /* Skeleton Wraith (22208) */
+     , (0x702E505A, 0x702E5024, '2005-02-09 10:00:00') /* Skeleton Lord (1762) */
+     , (0x702E505A, 0x702E5025, '2005-02-09 10:00:00') /* Skeleton Lord (1762) */
+     , (0x702E505A, 0x702E5027, '2005-02-09 10:00:00') /* Skeleton Lord (1762) */
+     , (0x702E505A, 0x702E5028, '2005-02-09 10:00:00') /* Skeleton Wraith (22208) */
+     , (0x702E505A, 0x702E5029, '2005-02-09 10:00:00') /* Skeleton Lord (1762) */
+     , (0x702E505A, 0x702E502A, '2005-02-09 10:00:00') /* Skeleton Lord (1762) */
+     , (0x702E505A, 0x702E502B, '2005-02-09 10:00:00') /* Skeleton Lord (1762) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x702E505B,  7925, 0x02E5024F, 110.723, -230.016, 0.005, 1, 0, 0, 0, False, '2005-02-09 10:00:00'); /* Linkable Monster Generator ( 10 Min.) */
 /* @teleloc 0x02E5024F [110.723000 -230.016000 0.005000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x702E505B, 0x702E5010, '2005-02-09 10:00:00') /* Skeleton Wraith */
-     , (0x702E505B, 0x702E5011, '2005-02-09 10:00:00') /* Skeleton Wraith */
-     , (0x702E505B, 0x702E5013, '2005-02-09 10:00:00') /* Skeleton Bone Knight */
-     , (0x702E505B, 0x702E5033, '2005-02-09 10:00:00') /* Skeleton Wraith */
-     , (0x702E505B, 0x702E5034, '2005-02-09 10:00:00') /* Skeleton Wraith */
-     , (0x702E505B, 0x702E5035, '2005-02-09 10:00:00') /* Skeleton Lord */
-     , (0x702E505B, 0x702E5036, '2005-02-09 10:00:00') /* Skeleton Lord */
-     , (0x702E505B, 0x702E5039, '2005-02-09 10:00:00') /* Skeleton Lord */
-     , (0x702E505B, 0x702E503A, '2005-02-09 10:00:00') /* Skeleton Wraith */
-     , (0x702E505B, 0x702E5043, '2005-02-09 10:00:00') /* Skeleton Bone Knight */
-     , (0x702E505B, 0x702E5044, '2005-02-09 10:00:00') /* Skeleton Lord */
-     , (0x702E505B, 0x702E5045, '2005-02-09 10:00:00') /* Skeleton Lord */
-     , (0x702E505B, 0x702E5049, '2005-02-09 10:00:00') /* Skeleton Lord */
-     , (0x702E505B, 0x702E504A, '2005-02-09 10:00:00') /* Skeleton Wraith */
-     , (0x702E505B, 0x702E504B, '2005-02-09 10:00:00') /* Skeleton Bone Knight */
-     , (0x702E505B, 0x702E504E, '2005-02-09 10:00:00') /* Skeleton Lord */
-     , (0x702E505B, 0x702E504F, '2005-02-09 10:00:00') /* Skeleton Lord */
-     , (0x702E505B, 0x702E5050, '2005-02-09 10:00:00') /* Skeleton Lord */
-     , (0x702E505B, 0x702E5051, '2005-02-09 10:00:00') /* Skeleton Bone Lord */
-     , (0x702E505B, 0x702E5052, '2005-02-09 10:00:00') /* Skeleton Wraith */
-     , (0x702E505B, 0x702E5053, '2005-02-09 10:00:00') /* Skeleton Lord */
-     , (0x702E505B, 0x702E5054, '2005-02-09 10:00:00') /* Skeleton Lord */
-     , (0x702E505B, 0x702E5057, '2005-02-09 10:00:00') /* Skeleton Wraith */
-     , (0x702E505B, 0x702E5058, '2005-02-09 10:00:00') /* Skeleton Wraith */
-     , (0x702E505B, 0x702E5059, '2005-02-09 10:00:00') /* Skeleton Wraith */;
+VALUES (0x702E505B, 0x702E5010, '2005-02-09 10:00:00') /* Skeleton Wraith (22208) */
+     , (0x702E505B, 0x702E5011, '2005-02-09 10:00:00') /* Skeleton Wraith (22208) */
+     , (0x702E505B, 0x702E5013, '2005-02-09 10:00:00') /* Skeleton Bone Knight (7334) */
+     , (0x702E505B, 0x702E5033, '2005-02-09 10:00:00') /* Skeleton Wraith (22208) */
+     , (0x702E505B, 0x702E5034, '2005-02-09 10:00:00') /* Skeleton Wraith (22208) */
+     , (0x702E505B, 0x702E5035, '2005-02-09 10:00:00') /* Skeleton Lord (1762) */
+     , (0x702E505B, 0x702E5036, '2005-02-09 10:00:00') /* Skeleton Lord (1762) */
+     , (0x702E505B, 0x702E5039, '2005-02-09 10:00:00') /* Skeleton Lord (1762) */
+     , (0x702E505B, 0x702E503A, '2005-02-09 10:00:00') /* Skeleton Wraith (22208) */
+     , (0x702E505B, 0x702E5043, '2005-02-09 10:00:00') /* Skeleton Bone Knight (7334) */
+     , (0x702E505B, 0x702E5044, '2005-02-09 10:00:00') /* Skeleton Lord (1762) */
+     , (0x702E505B, 0x702E5045, '2005-02-09 10:00:00') /* Skeleton Lord (1762) */
+     , (0x702E505B, 0x702E5049, '2005-02-09 10:00:00') /* Skeleton Lord (1762) */
+     , (0x702E505B, 0x702E504A, '2005-02-09 10:00:00') /* Skeleton Wraith (22208) */
+     , (0x702E505B, 0x702E504B, '2005-02-09 10:00:00') /* Skeleton Bone Knight (7334) */
+     , (0x702E505B, 0x702E504E, '2005-02-09 10:00:00') /* Skeleton Lord (1762) */
+     , (0x702E505B, 0x702E504F, '2005-02-09 10:00:00') /* Skeleton Lord (1762) */
+     , (0x702E505B, 0x702E5050, '2005-02-09 10:00:00') /* Skeleton Lord (1762) */
+     , (0x702E505B, 0x702E5051, '2005-02-09 10:00:00') /* Skeleton Bone Lord (7121) */
+     , (0x702E505B, 0x702E5052, '2005-02-09 10:00:00') /* Skeleton Wraith (22208) */
+     , (0x702E505B, 0x702E5053, '2005-02-09 10:00:00') /* Skeleton Lord (1762) */
+     , (0x702E505B, 0x702E5054, '2005-02-09 10:00:00') /* Skeleton Lord (1762) */
+     , (0x702E505B, 0x702E5057, '2005-02-09 10:00:00') /* Skeleton Wraith (22208) */
+     , (0x702E505B, 0x702E5058, '2005-02-09 10:00:00') /* Skeleton Wraith (22208) */
+     , (0x702E505B, 0x702E5059, '2005-02-09 10:00:00') /* Skeleton Wraith (22208) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x702E505C,  7925, 0x02E5024F, 109.266, -230.015, 0.005, 1, 0, 0, 0, False, '2005-02-09 10:00:00'); /* Linkable Monster Generator ( 10 Min.) */
 /* @teleloc 0x02E5024F [109.266000 -230.015000 0.005000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x702E505C, 0x702E5001, '2005-02-09 10:00:00') /* Great Skeleton */
-     , (0x702E505C, 0x702E5002, '2005-02-09 10:00:00') /* Skeleton Bone Lord */
-     , (0x702E505C, 0x702E5003, '2005-02-09 10:00:00') /* Skeleton Bone Lord */
-     , (0x702E505C, 0x702E5004, '2005-02-09 10:00:00') /* Skeleton Wraith */
-     , (0x702E505C, 0x702E5005, '2005-02-09 10:00:00') /* Skeleton Wraith */
-     , (0x702E505C, 0x702E5006, '2005-02-09 10:00:00') /* Skeleton Bone Knight */
-     , (0x702E505C, 0x702E5007, '2005-02-09 10:00:00') /* Skeleton Bone Knight */
-     , (0x702E505C, 0x702E5008, '2005-02-09 10:00:00') /* Skeleton Wraith */
-     , (0x702E505C, 0x702E5009, '2005-02-09 10:00:00') /* Skeleton Wraith */
-     , (0x702E505C, 0x702E502C, '2005-02-09 10:00:00') /* Skeleton Lord */
-     , (0x702E505C, 0x702E502D, '2005-02-09 10:00:00') /* Skeleton Lord */
-     , (0x702E505C, 0x702E502E, '2005-02-09 10:00:00') /* Skeleton Lord */
-     , (0x702E505C, 0x702E502F, '2005-02-09 10:00:00') /* Skeleton Wraith */
-     , (0x702E505C, 0x702E503C, '2005-02-09 10:00:00') /* Skeleton Bone Knight */
-     , (0x702E505C, 0x702E503D, '2005-02-09 10:00:00') /* Skeleton Bone Knight */
-     , (0x702E505C, 0x702E503F, '2005-02-09 10:00:00') /* Skeleton Wraith */
-     , (0x702E505C, 0x702E5040, '2005-02-09 10:00:00') /* Skeleton Wraith */
-     , (0x702E505C, 0x702E5041, '2005-02-09 10:00:00') /* Skeleton Wraith */
-     , (0x702E505C, 0x702E5042, '2005-02-09 10:00:00') /* Skeleton Wraith */
-     , (0x702E505C, 0x702E5046, '2005-02-09 10:00:00') /* Skeleton Wraith */
-     , (0x702E505C, 0x702E5047, '2005-02-09 10:00:00') /* Skeleton Lord */
-     , (0x702E505C, 0x702E5048, '2005-02-09 10:00:00') /* Skeleton Lord */
-     , (0x702E505C, 0x702E504C, '2005-02-09 10:00:00') /* Skeleton Wraith */
-     , (0x702E505C, 0x702E504D, '2005-02-09 10:00:00') /* Skeleton Wraith */;
+VALUES (0x702E505C, 0x702E5001, '2005-02-09 10:00:00') /* Great Skeleton (7122) */
+     , (0x702E505C, 0x702E5002, '2005-02-09 10:00:00') /* Skeleton Bone Lord (7121) */
+     , (0x702E505C, 0x702E5003, '2005-02-09 10:00:00') /* Skeleton Bone Lord (7121) */
+     , (0x702E505C, 0x702E5004, '2005-02-09 10:00:00') /* Skeleton Wraith (22208) */
+     , (0x702E505C, 0x702E5005, '2005-02-09 10:00:00') /* Skeleton Wraith (22208) */
+     , (0x702E505C, 0x702E5006, '2005-02-09 10:00:00') /* Skeleton Bone Knight (7334) */
+     , (0x702E505C, 0x702E5007, '2005-02-09 10:00:00') /* Skeleton Bone Knight (7334) */
+     , (0x702E505C, 0x702E5008, '2005-02-09 10:00:00') /* Skeleton Wraith (22208) */
+     , (0x702E505C, 0x702E5009, '2005-02-09 10:00:00') /* Skeleton Wraith (22208) */
+     , (0x702E505C, 0x702E502C, '2005-02-09 10:00:00') /* Skeleton Lord (1762) */
+     , (0x702E505C, 0x702E502D, '2005-02-09 10:00:00') /* Skeleton Lord (1762) */
+     , (0x702E505C, 0x702E502E, '2005-02-09 10:00:00') /* Skeleton Lord (1762) */
+     , (0x702E505C, 0x702E502F, '2005-02-09 10:00:00') /* Skeleton Wraith (22208) */
+     , (0x702E505C, 0x702E503C, '2005-02-09 10:00:00') /* Skeleton Bone Knight (7334) */
+     , (0x702E505C, 0x702E503D, '2005-02-09 10:00:00') /* Skeleton Bone Knight (7334) */
+     , (0x702E505C, 0x702E503F, '2005-02-09 10:00:00') /* Skeleton Wraith (22208) */
+     , (0x702E505C, 0x702E5040, '2005-02-09 10:00:00') /* Skeleton Wraith (22208) */
+     , (0x702E505C, 0x702E5041, '2005-02-09 10:00:00') /* Skeleton Wraith (22208) */
+     , (0x702E505C, 0x702E5042, '2005-02-09 10:00:00') /* Skeleton Wraith (22208) */
+     , (0x702E505C, 0x702E5046, '2005-02-09 10:00:00') /* Skeleton Wraith (22208) */
+     , (0x702E505C, 0x702E5047, '2005-02-09 10:00:00') /* Skeleton Lord (1762) */
+     , (0x702E505C, 0x702E5048, '2005-02-09 10:00:00') /* Skeleton Lord (1762) */
+     , (0x702E505C, 0x702E504C, '2005-02-09 10:00:00') /* Skeleton Wraith (22208) */
+     , (0x702E505C, 0x702E504D, '2005-02-09 10:00:00') /* Skeleton Wraith (22208) */;

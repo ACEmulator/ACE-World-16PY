@@ -37,27 +37,27 @@ VALUES (0x70D4A008,  7924, 0x0D4A011D, 107.372, 101.956, 18.205, -0.999997, 0, 0
 /* @teleloc 0x0D4A011D [107.372000 101.956000 18.205000] -0.999997 0.000000 0.000000 -0.002528 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x70D4A008, 0x70D4A000, '2005-02-09 10:00:00') /* Portal Device */
-     , (0x70D4A008, 0x70D4A001, '2005-02-09 10:00:00') /* Eye of the Watcher */
-     , (0x70D4A008, 0x70D4A002, '2005-02-09 10:00:00') /* Wailing Statue */
-     , (0x70D4A008, 0x70D4A003, '2005-02-09 10:00:00') /* Wailing Statue */
-     , (0x70D4A008, 0x70D4A004, '2005-02-09 10:00:00') /* Wailing Statue */
-     , (0x70D4A008, 0x70D4A005, '2005-02-09 10:00:00') /* Wailing Statue */
-     , (0x70D4A008, 0x70D4A006, '2005-02-09 10:00:00') /* Eye of the Watcher */
-     , (0x70D4A008, 0x70D4A007, '2005-02-09 10:00:00') /* Eye of the Watcher */
-     , (0x70D4A008, 0x70D4A009, '2005-02-09 10:00:00') /* Wailing Statue */
-     , (0x70D4A008, 0x70D4A00A, '2005-02-09 10:00:00') /* Wailing Statue */
-     , (0x70D4A008, 0x70D4A00B, '2005-02-09 10:00:00') /* Wailing Statue */
-     , (0x70D4A008, 0x70D4A00C, '2005-02-09 10:00:00') /* Wailing Statue */
-     , (0x70D4A008, 0x70D4A00D, '2005-02-09 10:00:00') /* Wailing Statue */
-     , (0x70D4A008, 0x70D4A00E, '2005-02-09 10:00:00') /* Wailing Statue */
-     , (0x70D4A008, 0x70D4A00F, '2005-02-09 10:00:00') /* Wailing Statue */
-     , (0x70D4A008, 0x70D4A010, '2005-02-09 10:00:00') /* Wailing Statue */
-     , (0x70D4A008, 0x70D4A011, '2005-02-09 10:00:00') /* Wailing Statue */
-     , (0x70D4A008, 0x70D4A012, '2005-02-09 10:00:00') /* Wailing Statue */
-     , (0x70D4A008, 0x70D4A013, '2005-02-09 10:00:00') /* Wailing Statue */
-     , (0x70D4A008, 0x70D4A014, '2005-02-09 10:00:00') /* Wailing Statue */
-     , (0x70D4A008, 0x70D4A015, '2005-02-09 10:00:00') /* Eye of the Watcher */;
+VALUES (0x70D4A008, 0x70D4A000, '2005-02-09 10:00:00') /* Portal Device (29728) */
+     , (0x70D4A008, 0x70D4A001, '2005-02-09 10:00:00') /* Eye of the Watcher (29715) */
+     , (0x70D4A008, 0x70D4A002, '2005-02-09 10:00:00') /* Wailing Statue (26568) */
+     , (0x70D4A008, 0x70D4A003, '2005-02-09 10:00:00') /* Wailing Statue (26568) */
+     , (0x70D4A008, 0x70D4A004, '2005-02-09 10:00:00') /* Wailing Statue (26543) */
+     , (0x70D4A008, 0x70D4A005, '2005-02-09 10:00:00') /* Wailing Statue (26543) */
+     , (0x70D4A008, 0x70D4A006, '2005-02-09 10:00:00') /* Eye of the Watcher (29716) */
+     , (0x70D4A008, 0x70D4A007, '2005-02-09 10:00:00') /* Eye of the Watcher (29717) */
+     , (0x70D4A008, 0x70D4A009, '2005-02-09 10:00:00') /* Wailing Statue (26543) */
+     , (0x70D4A008, 0x70D4A00A, '2005-02-09 10:00:00') /* Wailing Statue (26568) */
+     , (0x70D4A008, 0x70D4A00B, '2005-02-09 10:00:00') /* Wailing Statue (26568) */
+     , (0x70D4A008, 0x70D4A00C, '2005-02-09 10:00:00') /* Wailing Statue (26568) */
+     , (0x70D4A008, 0x70D4A00D, '2005-02-09 10:00:00') /* Wailing Statue (26568) */
+     , (0x70D4A008, 0x70D4A00E, '2005-02-09 10:00:00') /* Wailing Statue (26568) */
+     , (0x70D4A008, 0x70D4A00F, '2005-02-09 10:00:00') /* Wailing Statue (26543) */
+     , (0x70D4A008, 0x70D4A010, '2005-02-09 10:00:00') /* Wailing Statue (26543) */
+     , (0x70D4A008, 0x70D4A011, '2005-02-09 10:00:00') /* Wailing Statue (26568) */
+     , (0x70D4A008, 0x70D4A012, '2005-02-09 10:00:00') /* Wailing Statue (26568) */
+     , (0x70D4A008, 0x70D4A013, '2005-02-09 10:00:00') /* Wailing Statue (26543) */
+     , (0x70D4A008, 0x70D4A014, '2005-02-09 10:00:00') /* Wailing Statue (26543) */
+     , (0x70D4A008, 0x70D4A015, '2005-02-09 10:00:00') /* Eye of the Watcher (29718) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x70D4A009, 26543, 0x0D4A010D, 113, 32, 18.205, -0.707107, 0, 0, -0.707107,  True, '2005-02-09 10:00:00'); /* Wailing Statue */

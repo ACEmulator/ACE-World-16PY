@@ -13,7 +13,7 @@ VALUES (0x79626002,  4074, 0x96260104, 34.8515, 40.7461, 125.198, 0.630081, 0, 0
 /* @teleloc 0x96260104 [34.851500 40.746100 125.198000] 0.630081 0.000000 0.000000 0.776529 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79626002, 0x79626001, '2005-02-09 10:00:00') /* Pressure Plate */;
+VALUES (0x79626002, 0x79626001, '2005-02-09 10:00:00') /* Pressure Plate (2131) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79626003,  2131, 0x96260104, 43.4221, 38.7737, 123.205, 0.707968, 0, 0, 0.706244,  True, '2005-02-09 10:00:00'); /* Pressure Plate */
@@ -24,7 +24,7 @@ VALUES (0x79626004,  4086, 0x96260104, 42.3578, 40.5755, 125.519, 0.00547931, 0,
 /* @teleloc 0x96260104 [42.357800 40.575500 125.519000] 0.005479 0.000000 0.000000 0.999985 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79626004, 0x79626003, '2005-02-09 10:00:00') /* Pressure Plate */;
+VALUES (0x79626004, 0x79626003, '2005-02-09 10:00:00') /* Pressure Plate (2131) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79626006, 24942, 0x9626011C, 36.528, 18.9099, 128.41, -0.731989, 0, 0, -0.681317,  True, '2005-02-09 10:00:00'); /* Gotrok Lithos */
@@ -55,13 +55,13 @@ VALUES (0x7962600C,  3955, 0x96260000, 36.8896, 12.9941, 144.005, -0.98116, 0, 0
 /* @teleloc 0x96260000 [36.889600 12.994100 144.005000] -0.981160 0.000000 0.000000 -0.193199 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7962600C, 0x79626000, '2005-02-09 10:00:00') /* Gotrok Lithos */
-     , (0x7962600C, 0x79626008, '2005-02-09 10:00:00') /* Gotrok Obeloth */
-     , (0x7962600C, 0x79626015, '2005-02-09 10:00:00') /* Gotrok Lithos */
-     , (0x7962600C, 0x79626016, '2005-02-09 10:00:00') /* Gotrok Lithos */
-     , (0x7962600C, 0x79626023, '2005-02-09 10:00:00') /* Mountain Rat */
-     , (0x7962600C, 0x79626024, '2005-02-09 10:00:00') /* Mountain Rat */
-     , (0x7962600C, 0x79626025, '2005-02-09 10:00:00') /* Gotrok Lithos */;
+VALUES (0x7962600C, 0x79626000, '2005-02-09 10:00:00') /* Gotrok Lithos (24942) */
+     , (0x7962600C, 0x79626008, '2005-02-09 10:00:00') /* Gotrok Obeloth (24943) */
+     , (0x7962600C, 0x79626015, '2005-02-09 10:00:00') /* Gotrok Lithos (24942) */
+     , (0x7962600C, 0x79626016, '2005-02-09 10:00:00') /* Gotrok Lithos (24942) */
+     , (0x7962600C, 0x79626023, '2005-02-09 10:00:00') /* Mountain Rat (1625) */
+     , (0x7962600C, 0x79626024, '2005-02-09 10:00:00') /* Mountain Rat (1625) */
+     , (0x7962600C, 0x79626025, '2005-02-09 10:00:00') /* Gotrok Lithos (24942) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7962600D, 24942, 0x96260103, 40.7015, 43.3763, 128.41, -0.996251, 0, 0, -0.0865044,  True, '2005-02-09 10:00:00'); /* Gotrok Lithos */
@@ -72,18 +72,18 @@ VALUES (0x7962600E,  3953, 0x96260000, 36.7782, 6.15299, 144.005, -0.999986, 0, 
 /* @teleloc 0x96260000 [36.778200 6.152990 144.005000] -0.999986 0.000000 0.000000 -0.005317 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7962600E, 0x79626006, '2005-02-09 10:00:00') /* Gotrok Lithos */
-     , (0x7962600E, 0x79626009, '2005-02-09 10:00:00') /* Gotrok Lithos */
-     , (0x7962600E, 0x7962600A, '2005-02-09 10:00:00') /* Gotrok Lithos */
-     , (0x7962600E, 0x7962600B, '2005-02-09 10:00:00') /* Gotrok Obeloth */
-     , (0x7962600E, 0x7962600D, '2005-02-09 10:00:00') /* Gotrok Lithos */
-     , (0x7962600E, 0x79626010, '2005-02-09 10:00:00') /* Gotrok Lithos */
-     , (0x7962600E, 0x79626011, '2005-02-09 10:00:00') /* Gotrok Lithos */
-     , (0x7962600E, 0x79626014, '2005-02-09 10:00:00') /* Gotrok Obeloth */
-     , (0x7962600E, 0x79626019, '2005-02-09 10:00:00') /* Gotrok Lithos */
-     , (0x7962600E, 0x7962601E, '2005-02-09 10:00:00') /* Mountain Rat */
-     , (0x7962600E, 0x79626020, '2005-02-09 10:00:00') /* Mountain Rat */
-     , (0x7962600E, 0x79626021, '2005-02-09 10:00:00') /* Mountain Rat */;
+VALUES (0x7962600E, 0x79626006, '2005-02-09 10:00:00') /* Gotrok Lithos (24942) */
+     , (0x7962600E, 0x79626009, '2005-02-09 10:00:00') /* Gotrok Lithos (24942) */
+     , (0x7962600E, 0x7962600A, '2005-02-09 10:00:00') /* Gotrok Lithos (24942) */
+     , (0x7962600E, 0x7962600B, '2005-02-09 10:00:00') /* Gotrok Obeloth (24943) */
+     , (0x7962600E, 0x7962600D, '2005-02-09 10:00:00') /* Gotrok Lithos (24942) */
+     , (0x7962600E, 0x79626010, '2005-02-09 10:00:00') /* Gotrok Lithos (24942) */
+     , (0x7962600E, 0x79626011, '2005-02-09 10:00:00') /* Gotrok Lithos (24942) */
+     , (0x7962600E, 0x79626014, '2005-02-09 10:00:00') /* Gotrok Obeloth (24943) */
+     , (0x7962600E, 0x79626019, '2005-02-09 10:00:00') /* Gotrok Lithos (24942) */
+     , (0x7962600E, 0x7962601E, '2005-02-09 10:00:00') /* Mountain Rat (1625) */
+     , (0x7962600E, 0x79626020, '2005-02-09 10:00:00') /* Mountain Rat (1625) */
+     , (0x7962600E, 0x79626021, '2005-02-09 10:00:00') /* Mountain Rat (1625) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7962600F,  3971, 0x96260104, 32.9407, 38.0895, 123.205, 0.721601, 0, 0, 0.692309, False, '2005-02-09 10:00:00'); /* Chest */
@@ -114,7 +114,7 @@ VALUES (0x79626017,  4074, 0x96260104, 43.7059, 43.952, 125.8, 0.641132, 0, 0, 0
 /* @teleloc 0x96260104 [43.705900 43.952000 125.800000] 0.641132 0.000000 0.000000 0.767431 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79626017, 0x79626018, '2005-02-09 10:00:00') /* Pressure Plate */;
+VALUES (0x79626017, 0x79626018, '2005-02-09 10:00:00') /* Pressure Plate (2131) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79626018,  2131, 0x96260104, 43.7297, 43.8204, 123.205, 0.641132, 0, 0, 0.767431,  True, '2005-02-09 10:00:00'); /* Pressure Plate */
@@ -133,7 +133,7 @@ VALUES (0x7962601B,  4077, 0x9626010C, 35.9195, 44.7134, 140.704, -0.650038, 0, 
 /* @teleloc 0x9626010C [35.919500 44.713400 140.704000] -0.650038 0.000000 0.000000 0.759902 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7962601B, 0x7962601A, '2005-02-09 10:00:00') /* Pressure Plate */;
+VALUES (0x7962601B, 0x7962601A, '2005-02-09 10:00:00') /* Pressure Plate (2131) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7962601C,  2131, 0x96260104, 33.7602, 40.7589, 123.205, -0.734971, 0, 0, -0.678099,  True, '2005-02-09 10:00:00'); /* Pressure Plate */
@@ -144,7 +144,7 @@ VALUES (0x7962601D,  4086, 0x96260104, 35.7684, 43.9841, 125.492, -0.21139, 0, 0
 /* @teleloc 0x96260104 [35.768400 43.984100 125.492000] -0.211390 0.000000 0.000000 0.977402 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7962601D, 0x7962601C, '2005-02-09 10:00:00') /* Pressure Plate */;
+VALUES (0x7962601D, 0x7962601C, '2005-02-09 10:00:00') /* Pressure Plate (2131) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7962601E,  1625, 0x96260000, 29.8762, 16.1282, 144.012, -0.513964, 0, 0, 0.857812,  True, '2005-02-09 10:00:00'); /* Mountain Rat */

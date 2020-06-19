@@ -13,17 +13,17 @@ VALUES (0x7AD30002, 15274, 0xAD300000, 38.4064, 169.106, 89.3275, 0.994954, 0, 0
 /* @teleloc 0xAD300000 [38.406400 169.106000 89.327500] 0.994954 0.000000 0.000000 -0.100330 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7AD30002, 0x7AD30001, '2005-02-09 10:00:00') /* Iron Golem Guardian */
-     , (0x7AD30002, 0x7AD30003, '2005-02-09 10:00:00') /* Iron Golem Guardian */
-     , (0x7AD30002, 0x7AD30004, '2005-02-09 10:00:00') /* Iron Golem Guardian */
-     , (0x7AD30002, 0x7AD30005, '2005-02-09 10:00:00') /* Iron Golem Guardian */
-     , (0x7AD30002, 0x7AD30006, '2005-02-09 10:00:00') /* Iron Golem Guardian */
-     , (0x7AD30002, 0x7AD30007, '2005-02-09 10:00:00') /* Iron Golem Guardian */
-     , (0x7AD30002, 0x7AD30008, '2005-02-09 10:00:00') /* Iron Golem Guardian */
-     , (0x7AD30002, 0x7AD30009, '2005-02-09 10:00:00') /* Iron Golem Guardian */
-     , (0x7AD30002, 0x7AD3000A, '2005-02-09 10:00:00') /* Iron Golem Guardian */
-     , (0x7AD30002, 0x7AD3000B, '2005-02-09 10:00:00') /* Iron Golem Guardian */
-     , (0x7AD30002, 0x7AD3000C, '2005-02-09 10:00:00') /* Iron Golem Guardian */;
+VALUES (0x7AD30002, 0x7AD30001, '2005-02-09 10:00:00') /* Iron Golem Guardian (23345) */
+     , (0x7AD30002, 0x7AD30003, '2005-02-09 10:00:00') /* Iron Golem Guardian (23345) */
+     , (0x7AD30002, 0x7AD30004, '2005-02-09 10:00:00') /* Iron Golem Guardian (23345) */
+     , (0x7AD30002, 0x7AD30005, '2005-02-09 10:00:00') /* Iron Golem Guardian (23345) */
+     , (0x7AD30002, 0x7AD30006, '2005-02-09 10:00:00') /* Iron Golem Guardian (23345) */
+     , (0x7AD30002, 0x7AD30007, '2005-02-09 10:00:00') /* Iron Golem Guardian (23345) */
+     , (0x7AD30002, 0x7AD30008, '2005-02-09 10:00:00') /* Iron Golem Guardian (23345) */
+     , (0x7AD30002, 0x7AD30009, '2005-02-09 10:00:00') /* Iron Golem Guardian (23345) */
+     , (0x7AD30002, 0x7AD3000A, '2005-02-09 10:00:00') /* Iron Golem Guardian (23345) */
+     , (0x7AD30002, 0x7AD3000B, '2005-02-09 10:00:00') /* Iron Golem Guardian (23345) */
+     , (0x7AD30002, 0x7AD3000C, '2005-02-09 10:00:00') /* Iron Golem Guardian (23345) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7AD30003, 23345, 0xAD300000, 35.0564, 174.262, 88.6018, 0.929659, 0, 0, -0.36842,  True, '2005-02-09 10:00:00'); /* Iron Golem Guardian */

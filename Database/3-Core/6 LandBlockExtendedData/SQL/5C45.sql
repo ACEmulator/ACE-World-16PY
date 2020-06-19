@@ -489,127 +489,127 @@ VALUES (0x75C450EB,  7924, 0x5C45037E, 320, -100, 0.005, 1, 0, 0, 0, False, '200
 /* @teleloc 0x5C45037E [320.000000 -100.000000 0.005000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x75C450EB, 0x75C45000, '2005-02-09 10:00:00') /* Tusker Redeemer */
-     , (0x75C450EB, 0x75C45001, '2005-02-09 10:00:00') /* Tusker Redeemer */
-     , (0x75C450EB, 0x75C45002, '2005-02-09 10:00:00') /* Tusker Redeemer */
-     , (0x75C450EB, 0x75C45003, '2005-02-09 10:00:00') /* Tusker Redeemer */
-     , (0x75C450EB, 0x75C45004, '2005-02-09 10:00:00') /* Tusker Redeemer */
-     , (0x75C450EB, 0x75C45005, '2005-02-09 10:00:00') /* Tusker Redeemer */
-     , (0x75C450EB, 0x75C45006, '2005-02-09 10:00:00') /* Tusker Redeemer */
-     , (0x75C450EB, 0x75C45007, '2005-02-09 10:00:00') /* Tusker Redeemer */
-     , (0x75C450EB, 0x75C45008, '2005-02-09 10:00:00') /* Tusker Redeemer */
-     , (0x75C450EB, 0x75C45009, '2005-02-09 10:00:00') /* Tusker Redeemer */
-     , (0x75C450EB, 0x75C4500A, '2005-02-09 10:00:00') /* Tusker Redeemer */
-     , (0x75C450EB, 0x75C4500B, '2005-02-09 10:00:00') /* Tusker Redeemer */
-     , (0x75C450EB, 0x75C4500C, '2005-02-09 10:00:00') /* Tusker Redeemer */
-     , (0x75C450EB, 0x75C4500D, '2005-02-09 10:00:00') /* Tusker Redeemer */
-     , (0x75C450EB, 0x75C4500E, '2005-02-09 10:00:00') /* Tusker Redeemer */
-     , (0x75C450EB, 0x75C4500F, '2005-02-09 10:00:00') /* Tusker Redeemer */
-     , (0x75C450EB, 0x75C45010, '2005-02-09 10:00:00') /* Tusker Redeemer */
-     , (0x75C450EB, 0x75C45011, '2005-02-09 10:00:00') /* Tusker Redeemer */
-     , (0x75C450EB, 0x75C45012, '2005-02-09 10:00:00') /* Tusker Redeemer */
-     , (0x75C450EB, 0x75C45013, '2005-02-09 10:00:00') /* Tusker Redeemer */
-     , (0x75C450EB, 0x75C45014, '2005-02-09 10:00:00') /* Tusker Redeemer */
-     , (0x75C450EB, 0x75C45015, '2005-02-09 10:00:00') /* Tusker Redeemer */
-     , (0x75C450EB, 0x75C45016, '2005-02-09 10:00:00') /* Tusker Redeemer */
-     , (0x75C450EB, 0x75C45017, '2005-02-09 10:00:00') /* Tusker Redeemer */
-     , (0x75C450EB, 0x75C45018, '2005-02-09 10:00:00') /* Tusker Redeemer */
-     , (0x75C450EB, 0x75C45019, '2005-02-09 10:00:00') /* Tusker Redeemer */
-     , (0x75C450EB, 0x75C4501A, '2005-02-09 10:00:00') /* Tusker Redeemer */
-     , (0x75C450EB, 0x75C4501B, '2005-02-09 10:00:00') /* Tusker Redeemer */
-     , (0x75C450EB, 0x75C4501C, '2005-02-09 10:00:00') /* Tusker Redeemer */
-     , (0x75C450EB, 0x75C4501E, '2005-02-09 10:00:00') /* Tusker Redeemer */
-     , (0x75C450EB, 0x75C4501F, '2005-02-09 10:00:00') /* Tusker Redeemer */
-     , (0x75C450EB, 0x75C45020, '2005-02-09 10:00:00') /* Tusker Redeemer */
-     , (0x75C450EB, 0x75C45021, '2005-02-09 10:00:00') /* Tusker Redeemer */
-     , (0x75C450EB, 0x75C45022, '2005-02-09 10:00:00') /* Tusker Redeemer */
-     , (0x75C450EB, 0x75C45023, '2005-02-09 10:00:00') /* Tusker Redeemer */
-     , (0x75C450EB, 0x75C45024, '2005-02-09 10:00:00') /* Tusker Redeemer */
-     , (0x75C450EB, 0x75C45025, '2005-02-09 10:00:00') /* Tusker Redeemer */
-     , (0x75C450EB, 0x75C45026, '2005-02-09 10:00:00') /* Tusker Redeemer */
-     , (0x75C450EB, 0x75C45027, '2005-02-09 10:00:00') /* Tusker Redeemer */
-     , (0x75C450EB, 0x75C45029, '2005-02-09 10:00:00') /* Tusker Redeemer */
-     , (0x75C450EB, 0x75C4502A, '2005-02-09 10:00:00') /* Tusker Redeemer */
-     , (0x75C450EB, 0x75C4502C, '2005-02-09 10:00:00') /* Tusker Redeemer */
-     , (0x75C450EB, 0x75C4502D, '2005-02-09 10:00:00') /* Tusker Redeemer */
-     , (0x75C450EB, 0x75C4502E, '2005-02-09 10:00:00') /* Tusker Redeemer */
-     , (0x75C450EB, 0x75C45032, '2005-02-09 10:00:00') /* Tusker Redeemer */
-     , (0x75C450EB, 0x75C45033, '2005-02-09 10:00:00') /* Tusker Redeemer */
-     , (0x75C450EB, 0x75C45036, '2005-02-09 10:00:00') /* Tusker Redeemer */
-     , (0x75C450EB, 0x75C45037, '2005-02-09 10:00:00') /* Tusker Redeemer */
-     , (0x75C450EB, 0x75C45038, '2005-02-09 10:00:00') /* Tusker Redeemer */
-     , (0x75C450EB, 0x75C45039, '2005-02-09 10:00:00') /* Tusker Redeemer */
-     , (0x75C450EB, 0x75C4503A, '2005-02-09 10:00:00') /* Tusker Redeemer */
-     , (0x75C450EB, 0x75C4503B, '2005-02-09 10:00:00') /* Tusker Redeemer */
-     , (0x75C450EB, 0x75C4503C, '2005-02-09 10:00:00') /* Tusker Redeemer */
-     , (0x75C450EB, 0x75C4503D, '2005-02-09 10:00:00') /* Tusker Redeemer */
-     , (0x75C450EB, 0x75C4503E, '2005-02-09 10:00:00') /* Tusker Redeemer */
-     , (0x75C450EB, 0x75C4503F, '2005-02-09 10:00:00') /* Tusker Redeemer */
-     , (0x75C450EB, 0x75C45040, '2005-02-09 10:00:00') /* Tusker Redeemer */
-     , (0x75C450EB, 0x75C45041, '2005-02-09 10:00:00') /* Tusker Redeemer */
-     , (0x75C450EB, 0x75C45042, '2005-02-09 10:00:00') /* Tusker Redeemer */
-     , (0x75C450EB, 0x75C45043, '2005-02-09 10:00:00') /* Tusker Redeemer */
-     , (0x75C450EB, 0x75C45044, '2005-02-09 10:00:00') /* Tusker Redeemer */
-     , (0x75C450EB, 0x75C45045, '2005-02-09 10:00:00') /* Tusker Redeemer */
-     , (0x75C450EB, 0x75C45046, '2005-02-09 10:00:00') /* Tusker Redeemer */
-     , (0x75C450EB, 0x75C45047, '2005-02-09 10:00:00') /* Tusker Redeemer */
-     , (0x75C450EB, 0x75C45048, '2005-02-09 10:00:00') /* Tusker Redeemer */
-     , (0x75C450EB, 0x75C45049, '2005-02-09 10:00:00') /* Tusker Redeemer */
-     , (0x75C450EB, 0x75C4504A, '2005-02-09 10:00:00') /* Tusker Redeemer */
-     , (0x75C450EB, 0x75C4504B, '2005-02-09 10:00:00') /* Tusker Redeemer */
-     , (0x75C450EB, 0x75C4504C, '2005-02-09 10:00:00') /* Tusker Redeemer */
-     , (0x75C450EB, 0x75C4504D, '2005-02-09 10:00:00') /* Tusker Redeemer */
-     , (0x75C450EB, 0x75C4504E, '2005-02-09 10:00:00') /* Tusker Redeemer */
-     , (0x75C450EB, 0x75C4504F, '2005-02-09 10:00:00') /* Tusker Redeemer */
-     , (0x75C450EB, 0x75C45050, '2005-02-09 10:00:00') /* Tusker Redeemer */
-     , (0x75C450EB, 0x75C450BB, '2005-02-09 10:00:00') /* Tusker Redeemer */
-     , (0x75C450EB, 0x75C450BC, '2005-02-09 10:00:00') /* Tusker Redeemer */
-     , (0x75C450EB, 0x75C450BD, '2005-02-09 10:00:00') /* Tusker Redeemer */
-     , (0x75C450EB, 0x75C450BE, '2005-02-09 10:00:00') /* Tusker Redeemer */
-     , (0x75C450EB, 0x75C450BF, '2005-02-09 10:00:00') /* Tusker Redeemer */
-     , (0x75C450EB, 0x75C450C0, '2005-02-09 10:00:00') /* Tusker Redeemer */
-     , (0x75C450EB, 0x75C450C1, '2005-02-09 10:00:00') /* Tusker Redeemer */
-     , (0x75C450EB, 0x75C450C2, '2005-02-09 10:00:00') /* Tusker Redeemer */
-     , (0x75C450EB, 0x75C450C3, '2005-02-09 10:00:00') /* Tusker Redeemer */
-     , (0x75C450EB, 0x75C450C4, '2005-02-09 10:00:00') /* Tusker Redeemer */
-     , (0x75C450EB, 0x75C450C5, '2005-02-09 10:00:00') /* Tusker Redeemer */
-     , (0x75C450EB, 0x75C450C6, '2005-02-09 10:00:00') /* Tusker Redeemer */
-     , (0x75C450EB, 0x75C450C7, '2005-02-09 10:00:00') /* Tusker Redeemer */
-     , (0x75C450EB, 0x75C450C8, '2005-02-09 10:00:00') /* Tusker Redeemer */
-     , (0x75C450EB, 0x75C450C9, '2005-02-09 10:00:00') /* Tusker Redeemer */
-     , (0x75C450EB, 0x75C450CA, '2005-02-09 10:00:00') /* Tusker Redeemer */
-     , (0x75C450EB, 0x75C450CB, '2005-02-09 10:00:00') /* Tusker Redeemer */
-     , (0x75C450EB, 0x75C450CC, '2005-02-09 10:00:00') /* Tusker Redeemer */
-     , (0x75C450EB, 0x75C450CD, '2005-02-09 10:00:00') /* Tusker Redeemer */
-     , (0x75C450EB, 0x75C450CE, '2005-02-09 10:00:00') /* Tusker Redeemer */
-     , (0x75C450EB, 0x75C450CF, '2005-02-09 10:00:00') /* Tusker Redeemer */
-     , (0x75C450EB, 0x75C450D0, '2005-02-09 10:00:00') /* Tusker Redeemer */
-     , (0x75C450EB, 0x75C450D1, '2005-02-09 10:00:00') /* Tusker Redeemer */
-     , (0x75C450EB, 0x75C450D2, '2005-02-09 10:00:00') /* Tusker Redeemer */
-     , (0x75C450EB, 0x75C450D3, '2005-02-09 10:00:00') /* Tusker Redeemer */
-     , (0x75C450EB, 0x75C450D4, '2005-02-09 10:00:00') /* Tusker Redeemer */
-     , (0x75C450EB, 0x75C450D5, '2005-02-09 10:00:00') /* Tusker Redeemer */
-     , (0x75C450EB, 0x75C450D6, '2005-02-09 10:00:00') /* Tusker Redeemer */
-     , (0x75C450EB, 0x75C450D7, '2005-02-09 10:00:00') /* Tusker Redeemer */
-     , (0x75C450EB, 0x75C450D8, '2005-02-09 10:00:00') /* Tusker Redeemer */
-     , (0x75C450EB, 0x75C450D9, '2005-02-09 10:00:00') /* Tusker Redeemer */
-     , (0x75C450EB, 0x75C450DA, '2005-02-09 10:00:00') /* Tusker Redeemer */
-     , (0x75C450EB, 0x75C450DB, '2005-02-09 10:00:00') /* Tusker Redeemer */
-     , (0x75C450EB, 0x75C450DC, '2005-02-09 10:00:00') /* Tusker Redeemer */
-     , (0x75C450EB, 0x75C450DD, '2005-02-09 10:00:00') /* Tusker Redeemer */
-     , (0x75C450EB, 0x75C450DE, '2005-02-09 10:00:00') /* Tusker Redeemer */
-     , (0x75C450EB, 0x75C450DF, '2005-02-09 10:00:00') /* Tusker Redeemer */
-     , (0x75C450EB, 0x75C450E0, '2005-02-09 10:00:00') /* Tusker Redeemer */
-     , (0x75C450EB, 0x75C450E1, '2005-02-09 10:00:00') /* Tusker Redeemer */
-     , (0x75C450EB, 0x75C450E2, '2005-02-09 10:00:00') /* Tusker Redeemer */
-     , (0x75C450EB, 0x75C450E3, '2005-02-09 10:00:00') /* Tusker Redeemer */
-     , (0x75C450EB, 0x75C450E4, '2005-02-09 10:00:00') /* Tusker Redeemer */
-     , (0x75C450EB, 0x75C450E5, '2005-02-09 10:00:00') /* Tusker Redeemer */
-     , (0x75C450EB, 0x75C450E6, '2005-02-09 10:00:00') /* Tusker Redeemer */
-     , (0x75C450EB, 0x75C450E7, '2005-02-09 10:00:00') /* Tusker Redeemer */
-     , (0x75C450EB, 0x75C450E8, '2005-02-09 10:00:00') /* Tusker Redeemer */
-     , (0x75C450EB, 0x75C450E9, '2005-02-09 10:00:00') /* Tusker Redeemer */
-     , (0x75C450EB, 0x75C450EA, '2005-02-09 10:00:00') /* Tusker Redeemer */;
+VALUES (0x75C450EB, 0x75C45000, '2005-02-09 10:00:00') /* Tusker Redeemer (22600) */
+     , (0x75C450EB, 0x75C45001, '2005-02-09 10:00:00') /* Tusker Redeemer (22600) */
+     , (0x75C450EB, 0x75C45002, '2005-02-09 10:00:00') /* Tusker Redeemer (22600) */
+     , (0x75C450EB, 0x75C45003, '2005-02-09 10:00:00') /* Tusker Redeemer (22600) */
+     , (0x75C450EB, 0x75C45004, '2005-02-09 10:00:00') /* Tusker Redeemer (22600) */
+     , (0x75C450EB, 0x75C45005, '2005-02-09 10:00:00') /* Tusker Redeemer (22600) */
+     , (0x75C450EB, 0x75C45006, '2005-02-09 10:00:00') /* Tusker Redeemer (22600) */
+     , (0x75C450EB, 0x75C45007, '2005-02-09 10:00:00') /* Tusker Redeemer (22600) */
+     , (0x75C450EB, 0x75C45008, '2005-02-09 10:00:00') /* Tusker Redeemer (22600) */
+     , (0x75C450EB, 0x75C45009, '2005-02-09 10:00:00') /* Tusker Redeemer (22600) */
+     , (0x75C450EB, 0x75C4500A, '2005-02-09 10:00:00') /* Tusker Redeemer (22600) */
+     , (0x75C450EB, 0x75C4500B, '2005-02-09 10:00:00') /* Tusker Redeemer (22600) */
+     , (0x75C450EB, 0x75C4500C, '2005-02-09 10:00:00') /* Tusker Redeemer (22600) */
+     , (0x75C450EB, 0x75C4500D, '2005-02-09 10:00:00') /* Tusker Redeemer (22600) */
+     , (0x75C450EB, 0x75C4500E, '2005-02-09 10:00:00') /* Tusker Redeemer (22600) */
+     , (0x75C450EB, 0x75C4500F, '2005-02-09 10:00:00') /* Tusker Redeemer (22600) */
+     , (0x75C450EB, 0x75C45010, '2005-02-09 10:00:00') /* Tusker Redeemer (22600) */
+     , (0x75C450EB, 0x75C45011, '2005-02-09 10:00:00') /* Tusker Redeemer (22600) */
+     , (0x75C450EB, 0x75C45012, '2005-02-09 10:00:00') /* Tusker Redeemer (22600) */
+     , (0x75C450EB, 0x75C45013, '2005-02-09 10:00:00') /* Tusker Redeemer (22600) */
+     , (0x75C450EB, 0x75C45014, '2005-02-09 10:00:00') /* Tusker Redeemer (22600) */
+     , (0x75C450EB, 0x75C45015, '2005-02-09 10:00:00') /* Tusker Redeemer (22600) */
+     , (0x75C450EB, 0x75C45016, '2005-02-09 10:00:00') /* Tusker Redeemer (22600) */
+     , (0x75C450EB, 0x75C45017, '2005-02-09 10:00:00') /* Tusker Redeemer (22600) */
+     , (0x75C450EB, 0x75C45018, '2005-02-09 10:00:00') /* Tusker Redeemer (22520) */
+     , (0x75C450EB, 0x75C45019, '2005-02-09 10:00:00') /* Tusker Redeemer (22520) */
+     , (0x75C450EB, 0x75C4501A, '2005-02-09 10:00:00') /* Tusker Redeemer (22520) */
+     , (0x75C450EB, 0x75C4501B, '2005-02-09 10:00:00') /* Tusker Redeemer (22600) */
+     , (0x75C450EB, 0x75C4501C, '2005-02-09 10:00:00') /* Tusker Redeemer (22600) */
+     , (0x75C450EB, 0x75C4501E, '2005-02-09 10:00:00') /* Tusker Redeemer (22520) */
+     , (0x75C450EB, 0x75C4501F, '2005-02-09 10:00:00') /* Tusker Redeemer (22520) */
+     , (0x75C450EB, 0x75C45020, '2005-02-09 10:00:00') /* Tusker Redeemer (22600) */
+     , (0x75C450EB, 0x75C45021, '2005-02-09 10:00:00') /* Tusker Redeemer (22600) */
+     , (0x75C450EB, 0x75C45022, '2005-02-09 10:00:00') /* Tusker Redeemer (22600) */
+     , (0x75C450EB, 0x75C45023, '2005-02-09 10:00:00') /* Tusker Redeemer (22520) */
+     , (0x75C450EB, 0x75C45024, '2005-02-09 10:00:00') /* Tusker Redeemer (22600) */
+     , (0x75C450EB, 0x75C45025, '2005-02-09 10:00:00') /* Tusker Redeemer (22600) */
+     , (0x75C450EB, 0x75C45026, '2005-02-09 10:00:00') /* Tusker Redeemer (22600) */
+     , (0x75C450EB, 0x75C45027, '2005-02-09 10:00:00') /* Tusker Redeemer (22520) */
+     , (0x75C450EB, 0x75C45029, '2005-02-09 10:00:00') /* Tusker Redeemer (22520) */
+     , (0x75C450EB, 0x75C4502A, '2005-02-09 10:00:00') /* Tusker Redeemer (22520) */
+     , (0x75C450EB, 0x75C4502C, '2005-02-09 10:00:00') /* Tusker Redeemer (22520) */
+     , (0x75C450EB, 0x75C4502D, '2005-02-09 10:00:00') /* Tusker Redeemer (22520) */
+     , (0x75C450EB, 0x75C4502E, '2005-02-09 10:00:00') /* Tusker Redeemer (22520) */
+     , (0x75C450EB, 0x75C45032, '2005-02-09 10:00:00') /* Tusker Redeemer (22520) */
+     , (0x75C450EB, 0x75C45033, '2005-02-09 10:00:00') /* Tusker Redeemer (22520) */
+     , (0x75C450EB, 0x75C45036, '2005-02-09 10:00:00') /* Tusker Redeemer (22520) */
+     , (0x75C450EB, 0x75C45037, '2005-02-09 10:00:00') /* Tusker Redeemer (22520) */
+     , (0x75C450EB, 0x75C45038, '2005-02-09 10:00:00') /* Tusker Redeemer (22520) */
+     , (0x75C450EB, 0x75C45039, '2005-02-09 10:00:00') /* Tusker Redeemer (22600) */
+     , (0x75C450EB, 0x75C4503A, '2005-02-09 10:00:00') /* Tusker Redeemer (22600) */
+     , (0x75C450EB, 0x75C4503B, '2005-02-09 10:00:00') /* Tusker Redeemer (22600) */
+     , (0x75C450EB, 0x75C4503C, '2005-02-09 10:00:00') /* Tusker Redeemer (22600) */
+     , (0x75C450EB, 0x75C4503D, '2005-02-09 10:00:00') /* Tusker Redeemer (22600) */
+     , (0x75C450EB, 0x75C4503E, '2005-02-09 10:00:00') /* Tusker Redeemer (22600) */
+     , (0x75C450EB, 0x75C4503F, '2005-02-09 10:00:00') /* Tusker Redeemer (22600) */
+     , (0x75C450EB, 0x75C45040, '2005-02-09 10:00:00') /* Tusker Redeemer (22600) */
+     , (0x75C450EB, 0x75C45041, '2005-02-09 10:00:00') /* Tusker Redeemer (22600) */
+     , (0x75C450EB, 0x75C45042, '2005-02-09 10:00:00') /* Tusker Redeemer (22600) */
+     , (0x75C450EB, 0x75C45043, '2005-02-09 10:00:00') /* Tusker Redeemer (22600) */
+     , (0x75C450EB, 0x75C45044, '2005-02-09 10:00:00') /* Tusker Redeemer (22600) */
+     , (0x75C450EB, 0x75C45045, '2005-02-09 10:00:00') /* Tusker Redeemer (22600) */
+     , (0x75C450EB, 0x75C45046, '2005-02-09 10:00:00') /* Tusker Redeemer (22600) */
+     , (0x75C450EB, 0x75C45047, '2005-02-09 10:00:00') /* Tusker Redeemer (22600) */
+     , (0x75C450EB, 0x75C45048, '2005-02-09 10:00:00') /* Tusker Redeemer (22600) */
+     , (0x75C450EB, 0x75C45049, '2005-02-09 10:00:00') /* Tusker Redeemer (22600) */
+     , (0x75C450EB, 0x75C4504A, '2005-02-09 10:00:00') /* Tusker Redeemer (22600) */
+     , (0x75C450EB, 0x75C4504B, '2005-02-09 10:00:00') /* Tusker Redeemer (22600) */
+     , (0x75C450EB, 0x75C4504C, '2005-02-09 10:00:00') /* Tusker Redeemer (22600) */
+     , (0x75C450EB, 0x75C4504D, '2005-02-09 10:00:00') /* Tusker Redeemer (22600) */
+     , (0x75C450EB, 0x75C4504E, '2005-02-09 10:00:00') /* Tusker Redeemer (22600) */
+     , (0x75C450EB, 0x75C4504F, '2005-02-09 10:00:00') /* Tusker Redeemer (22600) */
+     , (0x75C450EB, 0x75C45050, '2005-02-09 10:00:00') /* Tusker Redeemer (22600) */
+     , (0x75C450EB, 0x75C450BB, '2005-02-09 10:00:00') /* Tusker Redeemer (22520) */
+     , (0x75C450EB, 0x75C450BC, '2005-02-09 10:00:00') /* Tusker Redeemer (22520) */
+     , (0x75C450EB, 0x75C450BD, '2005-02-09 10:00:00') /* Tusker Redeemer (22520) */
+     , (0x75C450EB, 0x75C450BE, '2005-02-09 10:00:00') /* Tusker Redeemer (22520) */
+     , (0x75C450EB, 0x75C450BF, '2005-02-09 10:00:00') /* Tusker Redeemer (22520) */
+     , (0x75C450EB, 0x75C450C0, '2005-02-09 10:00:00') /* Tusker Redeemer (22601) */
+     , (0x75C450EB, 0x75C450C1, '2005-02-09 10:00:00') /* Tusker Redeemer (22601) */
+     , (0x75C450EB, 0x75C450C2, '2005-02-09 10:00:00') /* Tusker Redeemer (22520) */
+     , (0x75C450EB, 0x75C450C3, '2005-02-09 10:00:00') /* Tusker Redeemer (22601) */
+     , (0x75C450EB, 0x75C450C4, '2005-02-09 10:00:00') /* Tusker Redeemer (22600) */
+     , (0x75C450EB, 0x75C450C5, '2005-02-09 10:00:00') /* Tusker Redeemer (22600) */
+     , (0x75C450EB, 0x75C450C6, '2005-02-09 10:00:00') /* Tusker Redeemer (22520) */
+     , (0x75C450EB, 0x75C450C7, '2005-02-09 10:00:00') /* Tusker Redeemer (22601) */
+     , (0x75C450EB, 0x75C450C8, '2005-02-09 10:00:00') /* Tusker Redeemer (22520) */
+     , (0x75C450EB, 0x75C450C9, '2005-02-09 10:00:00') /* Tusker Redeemer (22520) */
+     , (0x75C450EB, 0x75C450CA, '2005-02-09 10:00:00') /* Tusker Redeemer (22600) */
+     , (0x75C450EB, 0x75C450CB, '2005-02-09 10:00:00') /* Tusker Redeemer (22520) */
+     , (0x75C450EB, 0x75C450CC, '2005-02-09 10:00:00') /* Tusker Redeemer (22520) */
+     , (0x75C450EB, 0x75C450CD, '2005-02-09 10:00:00') /* Tusker Redeemer (22600) */
+     , (0x75C450EB, 0x75C450CE, '2005-02-09 10:00:00') /* Tusker Redeemer (22600) */
+     , (0x75C450EB, 0x75C450CF, '2005-02-09 10:00:00') /* Tusker Redeemer (22520) */
+     , (0x75C450EB, 0x75C450D0, '2005-02-09 10:00:00') /* Tusker Redeemer (22600) */
+     , (0x75C450EB, 0x75C450D1, '2005-02-09 10:00:00') /* Tusker Redeemer (22600) */
+     , (0x75C450EB, 0x75C450D2, '2005-02-09 10:00:00') /* Tusker Redeemer (22520) */
+     , (0x75C450EB, 0x75C450D3, '2005-02-09 10:00:00') /* Tusker Redeemer (22520) */
+     , (0x75C450EB, 0x75C450D4, '2005-02-09 10:00:00') /* Tusker Redeemer (22600) */
+     , (0x75C450EB, 0x75C450D5, '2005-02-09 10:00:00') /* Tusker Redeemer (22520) */
+     , (0x75C450EB, 0x75C450D6, '2005-02-09 10:00:00') /* Tusker Redeemer (22520) */
+     , (0x75C450EB, 0x75C450D7, '2005-02-09 10:00:00') /* Tusker Redeemer (22520) */
+     , (0x75C450EB, 0x75C450D8, '2005-02-09 10:00:00') /* Tusker Redeemer (22600) */
+     , (0x75C450EB, 0x75C450D9, '2005-02-09 10:00:00') /* Tusker Redeemer (22600) */
+     , (0x75C450EB, 0x75C450DA, '2005-02-09 10:00:00') /* Tusker Redeemer (22600) */
+     , (0x75C450EB, 0x75C450DB, '2005-02-09 10:00:00') /* Tusker Redeemer (22600) */
+     , (0x75C450EB, 0x75C450DC, '2005-02-09 10:00:00') /* Tusker Redeemer (22600) */
+     , (0x75C450EB, 0x75C450DD, '2005-02-09 10:00:00') /* Tusker Redeemer (22600) */
+     , (0x75C450EB, 0x75C450DE, '2005-02-09 10:00:00') /* Tusker Redeemer (22600) */
+     , (0x75C450EB, 0x75C450DF, '2005-02-09 10:00:00') /* Tusker Redeemer (22600) */
+     , (0x75C450EB, 0x75C450E0, '2005-02-09 10:00:00') /* Tusker Redeemer (22600) */
+     , (0x75C450EB, 0x75C450E1, '2005-02-09 10:00:00') /* Tusker Redeemer (22600) */
+     , (0x75C450EB, 0x75C450E2, '2005-02-09 10:00:00') /* Tusker Redeemer (22600) */
+     , (0x75C450EB, 0x75C450E3, '2005-02-09 10:00:00') /* Tusker Redeemer (22600) */
+     , (0x75C450EB, 0x75C450E4, '2005-02-09 10:00:00') /* Tusker Redeemer (22600) */
+     , (0x75C450EB, 0x75C450E5, '2005-02-09 10:00:00') /* Tusker Redeemer (22600) */
+     , (0x75C450EB, 0x75C450E6, '2005-02-09 10:00:00') /* Tusker Redeemer (22520) */
+     , (0x75C450EB, 0x75C450E7, '2005-02-09 10:00:00') /* Tusker Redeemer (22520) */
+     , (0x75C450EB, 0x75C450E8, '2005-02-09 10:00:00') /* Tusker Redeemer (22520) */
+     , (0x75C450EB, 0x75C450E9, '2005-02-09 10:00:00') /* Tusker Redeemer (22520) */
+     , (0x75C450EB, 0x75C450EA, '2005-02-09 10:00:00') /* Tusker Redeemer (22520) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75C450EC, 22655, 0x5C450150, 46.9509, -76.4964, -11.995, -0.999921, 0, 0, 0.0125936, False, '2005-02-09 10:00:00'); /* Surface */

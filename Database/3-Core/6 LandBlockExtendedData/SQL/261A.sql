@@ -5,13 +5,13 @@ VALUES (0x7261A003,  1154, 0x261A0000, 65.4223, 118.501, 10.4283, -0.209625, 0, 
 /* @teleloc 0x261A0000 [65.422300 118.501000 10.428300] -0.209625 0.000000 0.000000 0.977782 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7261A003, 0x7261A00C, '2005-02-09 10:00:00') /* Raider Juggernaut */
-     , (0x7261A003, 0x7261A00D, '2005-02-09 10:00:00') /* Dark Master */
-     , (0x7261A003, 0x7261A00E, '2005-02-09 10:00:00') /* Great Revenant */
-     , (0x7261A003, 0x7261A00F, '2005-02-09 10:00:00') /* Great Revenant */
-     , (0x7261A003, 0x7261A010, '2005-02-09 10:00:00') /* Risen Lord */
-     , (0x7261A003, 0x7261A011, '2005-02-09 10:00:00') /* Risen Lord */
-     , (0x7261A003, 0x7261A012, '2005-02-09 10:00:00') /* Raider Juggernaut */;
+VALUES (0x7261A003, 0x7261A00C, '2005-02-09 10:00:00') /* Raider Juggernaut (24285) */
+     , (0x7261A003, 0x7261A00D, '2005-02-09 10:00:00') /* Dark Master (24319) */
+     , (0x7261A003, 0x7261A00E, '2005-02-09 10:00:00') /* Great Revenant (24320) */
+     , (0x7261A003, 0x7261A00F, '2005-02-09 10:00:00') /* Great Revenant (24320) */
+     , (0x7261A003, 0x7261A010, '2005-02-09 10:00:00') /* Risen Lord (24326) */
+     , (0x7261A003, 0x7261A011, '2005-02-09 10:00:00') /* Risen Lord (24326) */
+     , (0x7261A003, 0x7261A012, '2005-02-09 10:00:00') /* Raider Juggernaut (24285) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7261A00A,  3969, 0x261A0000, 183.335, 152.343, 71.2, 0.0118041, 0, 0, -0.99993, False, '2005-02-09 10:00:00'); /* Chest */

@@ -17,7 +17,7 @@ VALUES (0x7937F005,  7923, 0x937F0101, 155.221, 85.4958, 33.705, 0.135068, 0, 0,
 /* @teleloc 0x937F0101 [155.221000 85.495800 33.705000] 0.135068 0.000000 0.000000 -0.990836 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7937F005, 0x7937F008, '2005-02-09 10:00:00') /* Rubid al-Jurma */;
+VALUES (0x7937F005, 0x7937F008, '2005-02-09 10:00:00') /* Rubid al-Jurma (5137) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7937F006,  4673, 0x937F0000, 165.977, 128.263, 32.1752, -0.438581, 0, 0, -0.898692, False, '2005-02-09 10:00:00'); /* Samsur Outpost */

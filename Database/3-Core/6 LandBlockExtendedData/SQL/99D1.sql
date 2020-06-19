@@ -57,7 +57,7 @@ VALUES (0x799D100D,  1154, 0x99D10000, 86.8463, 109.847, 103.633, -0.784558, 0, 
 /* @teleloc 0x99D10000 [86.846300 109.847000 103.633000] -0.784558 0.000000 0.000000 -0.620056 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x799D100D, 0x799D100C, '2005-02-09 10:00:00') /* Tusker Crimsonback */;
+VALUES (0x799D100D, 0x799D100C, '2005-02-09 10:00:00') /* Tusker Crimsonback (1627) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x799D100E,   420, 0x99D10000, 84.8316, 110.227, 103.213, -0.850738, 0, 0, 0.52559, False, '2005-02-09 10:00:00'); /* Item Food Generator */

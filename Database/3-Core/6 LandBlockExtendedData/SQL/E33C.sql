@@ -17,10 +17,10 @@ VALUES (0x7E33C003,  1154, 0xE33C0000, 71.145, 72.369, 102.005, 0.152635, 0, 0, 
 /* @teleloc 0xE33C0000 [71.145000 72.369000 102.005000] 0.152635 0.000000 0.000000 -0.988283 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7E33C003, 0x7E33C000, '2005-02-09 10:00:00') /* Gnawer Shreth */
-     , (0x7E33C003, 0x7E33C001, '2005-02-09 10:00:00') /* Gnawer Shreth */
-     , (0x7E33C003, 0x7E33C002, '2005-02-09 10:00:00') /* Gnawer Shreth */
-     , (0x7E33C003, 0x7E33C004, '2005-02-09 10:00:00') /* Gnawer Shreth */;
+VALUES (0x7E33C003, 0x7E33C000, '2005-02-09 10:00:00') /* Gnawer Shreth (4108) */
+     , (0x7E33C003, 0x7E33C001, '2005-02-09 10:00:00') /* Gnawer Shreth (4108) */
+     , (0x7E33C003, 0x7E33C002, '2005-02-09 10:00:00') /* Gnawer Shreth (4108) */
+     , (0x7E33C003, 0x7E33C004, '2005-02-09 10:00:00') /* Gnawer Shreth (4108) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7E33C004,  4108, 0xE33C0000, 22.645, 24.5366, 91.847, 0.260325, 0, 0, 0.965521,  True, '2005-02-09 10:00:00'); /* Gnawer Shreth */

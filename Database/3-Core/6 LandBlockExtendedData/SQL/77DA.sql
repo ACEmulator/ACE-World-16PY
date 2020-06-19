@@ -9,16 +9,16 @@ VALUES (0x777DA001,  7932, 0x77DA0000, 45.5984, 116.351, 215.901, 0.851917, 0, 0
 /* @teleloc 0x77DA0000 [45.598400 116.351000 215.901000] 0.851917 0.000000 0.000000 -0.523677 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x777DA001, 0x777DA000, '2005-02-09 10:00:00') /* Crude Statue */
-     , (0x777DA001, 0x777DA002, '2005-02-09 10:00:00') /* Banderling Spirit Dancer */
-     , (0x777DA001, 0x777DA003, '2005-02-09 10:00:00') /* Banderling Chanter */
-     , (0x777DA001, 0x777DA004, '2005-02-09 10:00:00') /* Banderling Chanter */
-     , (0x777DA001, 0x777DA005, '2005-02-09 10:00:00') /* Banderling Chanter */
-     , (0x777DA001, 0x777DA006, '2005-02-09 10:00:00') /* Banderling Chanter */
-     , (0x777DA001, 0x777DA007, '2005-02-09 10:00:00') /* Banderling Chanter */
-     , (0x777DA001, 0x777DA008, '2005-02-09 10:00:00') /* Amethyst Gromnie */
-     , (0x777DA001, 0x777DA009, '2005-02-09 10:00:00') /* Amethyst Gromnie */
-     , (0x777DA001, 0x777DA00A, '2005-02-09 10:00:00') /* Amethyst Gromnie */;
+VALUES (0x777DA001, 0x777DA000, '2005-02-09 10:00:00') /* Crude Statue (30626) */
+     , (0x777DA001, 0x777DA002, '2005-02-09 10:00:00') /* Banderling Spirit Dancer (30638) */
+     , (0x777DA001, 0x777DA003, '2005-02-09 10:00:00') /* Banderling Chanter (30754) */
+     , (0x777DA001, 0x777DA004, '2005-02-09 10:00:00') /* Banderling Chanter (30754) */
+     , (0x777DA001, 0x777DA005, '2005-02-09 10:00:00') /* Banderling Chanter (30754) */
+     , (0x777DA001, 0x777DA006, '2005-02-09 10:00:00') /* Banderling Chanter (30754) */
+     , (0x777DA001, 0x777DA007, '2005-02-09 10:00:00') /* Banderling Chanter (30754) */
+     , (0x777DA001, 0x777DA008, '2005-02-09 10:00:00') /* Amethyst Gromnie (25596) */
+     , (0x777DA001, 0x777DA009, '2005-02-09 10:00:00') /* Amethyst Gromnie (25596) */
+     , (0x777DA001, 0x777DA00A, '2005-02-09 10:00:00') /* Amethyst Gromnie (25596) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x777DA002, 30638, 0x77DA0000, 43.865, 121.266, 216.358, 0.997275, 0, 0, 0.0737721,  True, '2005-02-09 10:00:00'); /* Banderling Spirit Dancer */

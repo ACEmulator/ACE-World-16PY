@@ -9,10 +9,10 @@ VALUES (0x73C4000E,  1542, 0x3C400100, 124.736, 57.289, 74.805, 0.000473251, 0, 
 /* @teleloc 0x3C400100 [124.736000 57.289000 74.805000] 0.000473 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73C4000E, 0x73C4000D, '2005-02-09 10:00:00') /* Sack */
-     , (0x73C4000E, 0x73C40010, '2005-02-09 10:00:00') /* Super Cheese */
-     , (0x73C4000E, 0x73C40019, '2005-02-09 10:00:00') /* Peerless Healing Kit */
-     , (0x73C4000E, 0x73C4001A, '2005-02-09 10:00:00') /* Gifted Healing Kit */;
+VALUES (0x73C4000E, 0x73C4000D, '2005-02-09 10:00:00') /* Sack (166) */
+     , (0x73C4000E, 0x73C40010, '2005-02-09 10:00:00') /* Super Cheese (1452) */
+     , (0x73C4000E, 0x73C40019, '2005-02-09 10:00:00') /* Peerless Healing Kit (632) */
+     , (0x73C4000E, 0x73C4001A, '2005-02-09 10:00:00') /* Gifted Healing Kit (630) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73C40010,  1452, 0x3C400100, 124.736, 59.039, 74.824, 0.64458, 0, 0, -0.764537,  True, '2005-02-09 10:00:00'); /* Super Cheese */
@@ -67,12 +67,12 @@ VALUES (0x73C4001C,  7924, 0x3C400100, 126.322, 57.6728, 74.805, -0.951434, 0, 0
 /* @teleloc 0x3C400100 [126.322000 57.672800 74.805000] -0.951434 0.000000 0.000000 -0.307854 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73C4001C, 0x73C40011, '2005-02-09 10:00:00') /* Extas Raider */
-     , (0x73C4001C, 0x73C40012, '2005-02-09 10:00:00') /* Extas Raider */
-     , (0x73C4001C, 0x73C40013, '2005-02-09 10:00:00') /* Tiatus Raider */
-     , (0x73C4001C, 0x73C40014, '2005-02-09 10:00:00') /* Extas Raider */
-     , (0x73C4001C, 0x73C40015, '2005-02-09 10:00:00') /* Tiatus Raider */
-     , (0x73C4001C, 0x73C40016, '2005-02-09 10:00:00') /* Extas Raider */
-     , (0x73C4001C, 0x73C40017, '2005-02-09 10:00:00') /* Extas Raider */
-     , (0x73C4001C, 0x73C40018, '2005-02-09 10:00:00') /* Extas Raider */
-     , (0x73C4001C, 0x73C4001B, '2005-02-09 10:00:00') /* Tiatus Raider */;
+VALUES (0x73C4001C, 0x73C40011, '2005-02-09 10:00:00') /* Extas Raider (8138) */
+     , (0x73C4001C, 0x73C40012, '2005-02-09 10:00:00') /* Extas Raider (8138) */
+     , (0x73C4001C, 0x73C40013, '2005-02-09 10:00:00') /* Tiatus Raider (8137) */
+     , (0x73C4001C, 0x73C40014, '2005-02-09 10:00:00') /* Extas Raider (8138) */
+     , (0x73C4001C, 0x73C40015, '2005-02-09 10:00:00') /* Tiatus Raider (8137) */
+     , (0x73C4001C, 0x73C40016, '2005-02-09 10:00:00') /* Extas Raider (8138) */
+     , (0x73C4001C, 0x73C40017, '2005-02-09 10:00:00') /* Extas Raider (8138) */
+     , (0x73C4001C, 0x73C40018, '2005-02-09 10:00:00') /* Extas Raider (8138) */
+     , (0x73C4001C, 0x73C4001B, '2005-02-09 10:00:00') /* Tiatus Raider (8137) */;

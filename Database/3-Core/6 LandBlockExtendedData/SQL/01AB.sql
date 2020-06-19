@@ -153,13 +153,13 @@ VALUES (0x701AB025,  1154, 0x01AB0183, 80, -100, 0, 0.707107, 0, 0, -0.707107, F
 /* @teleloc 0x01AB0183 [80.000000 -100.000000 0.000000] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x701AB025, 0x701AB008, '2005-02-09 10:00:00') /* Gotrok Amploth */
-     , (0x701AB025, 0x701AB00A, '2005-02-09 10:00:00') /* Gotrok Obeloth */
-     , (0x701AB025, 0x701AB00D, '2005-02-09 10:00:00') /* Gotrok Obeloth */
-     , (0x701AB025, 0x701AB018, '2005-02-09 10:00:00') /* Gotrok Amploth */
-     , (0x701AB025, 0x701AB01F, '2005-02-09 10:00:00') /* Gotrok Lithos */
-     , (0x701AB025, 0x701AB020, '2005-02-09 10:00:00') /* Gotrok Lithos */
-     , (0x701AB025, 0x701AB024, '2005-02-09 10:00:00') /* Gotrok Gigas */;
+VALUES (0x701AB025, 0x701AB008, '2005-02-09 10:00:00') /* Gotrok Amploth (24939) */
+     , (0x701AB025, 0x701AB00A, '2005-02-09 10:00:00') /* Gotrok Obeloth (24943) */
+     , (0x701AB025, 0x701AB00D, '2005-02-09 10:00:00') /* Gotrok Obeloth (24943) */
+     , (0x701AB025, 0x701AB018, '2005-02-09 10:00:00') /* Gotrok Amploth (24939) */
+     , (0x701AB025, 0x701AB01F, '2005-02-09 10:00:00') /* Gotrok Lithos (24942) */
+     , (0x701AB025, 0x701AB020, '2005-02-09 10:00:00') /* Gotrok Lithos (24942) */
+     , (0x701AB025, 0x701AB024, '2005-02-09 10:00:00') /* Gotrok Gigas (24940) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x701AB026,  1922, 0x01AB0185, 86.2024, -97.691, 0, 1, 0, 0, 0, False, '2005-02-09 10:00:00'); /* Chest */

@@ -13,5 +13,5 @@ VALUES (0x75E4C002,  7924, 0x5E4C01A6, 20.222, -61.9202, 0.005, 0.999994, 0, 0, 
 /* @teleloc 0x5E4C01A6 [20.222000 -61.920200 0.005000] 0.999994 0.000000 0.000000 -0.003472 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x75E4C002, 0x75E4C000, '2005-02-09 10:00:00') /* Graven Idol */
-     , (0x75E4C002, 0x75E4C001, '2005-02-09 10:00:00') /* Bookcase */;
+VALUES (0x75E4C002, 0x75E4C000, '2005-02-09 10:00:00') /* Graven Idol (25719) */
+     , (0x75E4C002, 0x75E4C001, '2005-02-09 10:00:00') /* Bookcase (25713) */;

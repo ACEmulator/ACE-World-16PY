@@ -77,21 +77,21 @@ VALUES (0x7010B01B,  3955, 0x010B0199, -1.72538, 0.1605, 0, -4.37114E-08, 0, 0, 
 /* @teleloc 0x010B0199 [-1.725380 0.160500 0.000000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7010B01B, 0x7010B006, '2005-02-09 10:00:00') /* Banderling Scout */
-     , (0x7010B01B, 0x7010B007, '2005-02-09 10:00:00') /* Banderling Scout */
-     , (0x7010B01B, 0x7010B00A, '2005-02-09 10:00:00') /* Young Banderling */
-     , (0x7010B01B, 0x7010B00B, '2005-02-09 10:00:00') /* Young Banderling */
-     , (0x7010B01B, 0x7010B00C, '2005-02-09 10:00:00') /* Banderling Scout */
-     , (0x7010B01B, 0x7010B00D, '2005-02-09 10:00:00') /* Banderling Guard */
-     , (0x7010B01B, 0x7010B00F, '2005-02-09 10:00:00') /* Banderling Scout */
-     , (0x7010B01B, 0x7010B015, '2005-02-09 10:00:00') /* Banderling Raider */
-     , (0x7010B01B, 0x7010B018, '2005-02-09 10:00:00') /* Banderling Raider */
-     , (0x7010B01B, 0x7010B01D, '2005-02-09 10:00:00') /* Young Banderling */
-     , (0x7010B01B, 0x7010B01E, '2005-02-09 10:00:00') /* Young Banderling */
-     , (0x7010B01B, 0x7010B01F, '2005-02-09 10:00:00') /* Banderling Scout */
-     , (0x7010B01B, 0x7010B022, '2005-02-09 10:00:00') /* Young Banderling */
-     , (0x7010B01B, 0x7010B023, '2005-02-09 10:00:00') /* Banderling Guard */
-     , (0x7010B01B, 0x7010B024, '2005-02-09 10:00:00') /* Banderling Guard */;
+VALUES (0x7010B01B, 0x7010B006, '2005-02-09 10:00:00') /* Banderling Scout (6) */
+     , (0x7010B01B, 0x7010B007, '2005-02-09 10:00:00') /* Banderling Scout (6) */
+     , (0x7010B01B, 0x7010B00A, '2005-02-09 10:00:00') /* Young Banderling (939) */
+     , (0x7010B01B, 0x7010B00B, '2005-02-09 10:00:00') /* Young Banderling (939) */
+     , (0x7010B01B, 0x7010B00C, '2005-02-09 10:00:00') /* Banderling Scout (6) */
+     , (0x7010B01B, 0x7010B00D, '2005-02-09 10:00:00') /* Banderling Guard (937) */
+     , (0x7010B01B, 0x7010B00F, '2005-02-09 10:00:00') /* Banderling Scout (6) */
+     , (0x7010B01B, 0x7010B015, '2005-02-09 10:00:00') /* Banderling Raider (938) */
+     , (0x7010B01B, 0x7010B018, '2005-02-09 10:00:00') /* Banderling Raider (938) */
+     , (0x7010B01B, 0x7010B01D, '2005-02-09 10:00:00') /* Young Banderling (939) */
+     , (0x7010B01B, 0x7010B01E, '2005-02-09 10:00:00') /* Young Banderling (939) */
+     , (0x7010B01B, 0x7010B01F, '2005-02-09 10:00:00') /* Banderling Scout (6) */
+     , (0x7010B01B, 0x7010B022, '2005-02-09 10:00:00') /* Young Banderling (939) */
+     , (0x7010B01B, 0x7010B023, '2005-02-09 10:00:00') /* Banderling Guard (937) */
+     , (0x7010B01B, 0x7010B024, '2005-02-09 10:00:00') /* Banderling Guard (937) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7010B01C,  7199, 0x010B019E, -0.349737, -23.1029, 0, 1, 0, 0, 0, False, '2005-02-09 10:00:00'); /* Surface Portal */
@@ -146,22 +146,22 @@ VALUES (0x7010B02A,  7923, 0x010B0123, 98.5882, -44.9936, -11.995, -0.99997, 0, 
 /* @teleloc 0x010B0123 [98.588200 -44.993600 -11.995000] -0.999970 0.000000 0.000000 -0.007713 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7010B02A, 0x7010B010, '2005-02-09 10:00:00') /* Banderling Guard */
-     , (0x7010B02A, 0x7010B017, '2005-02-09 10:00:00') /* Banderling Guard */
-     , (0x7010B02A, 0x7010B027, '2005-02-09 10:00:00') /* Hollow Minion */
-     , (0x7010B02A, 0x7010B029, '2005-02-09 10:00:00') /* Hollow Minion */
-     , (0x7010B02A, 0x7010B02B, '2005-02-09 10:00:00') /* Hollow Minion */
-     , (0x7010B02A, 0x7010B02C, '2005-02-09 10:00:00') /* Hollow Minion */
-     , (0x7010B02A, 0x7010B02F, '2005-02-09 10:00:00') /* Hollow Minion */
-     , (0x7010B02A, 0x7010B030, '2005-02-09 10:00:00') /* Hollow Minion */
-     , (0x7010B02A, 0x7010B035, '2005-02-09 10:00:00') /* Hollow Minion */
-     , (0x7010B02A, 0x7010B036, '2005-02-09 10:00:00') /* Hollow Minion */
-     , (0x7010B02A, 0x7010B037, '2005-02-09 10:00:00') /* Hollow Minion */
-     , (0x7010B02A, 0x7010B038, '2005-02-09 10:00:00') /* Banderling Berserker */
-     , (0x7010B02A, 0x7010B039, '2005-02-09 10:00:00') /* Banderling Berserker */
-     , (0x7010B02A, 0x7010B03A, '2005-02-09 10:00:00') /* Banderling Berserker */
-     , (0x7010B02A, 0x7010B03B, '2005-02-09 10:00:00') /* Banderling Berserker */
-     , (0x7010B02A, 0x7010B03C, '2005-02-09 10:00:00') /* Banderling Berserker */;
+VALUES (0x7010B02A, 0x7010B010, '2005-02-09 10:00:00') /* Banderling Guard (937) */
+     , (0x7010B02A, 0x7010B017, '2005-02-09 10:00:00') /* Banderling Guard (937) */
+     , (0x7010B02A, 0x7010B027, '2005-02-09 10:00:00') /* Hollow Minion (14427) */
+     , (0x7010B02A, 0x7010B029, '2005-02-09 10:00:00') /* Hollow Minion (14427) */
+     , (0x7010B02A, 0x7010B02B, '2005-02-09 10:00:00') /* Hollow Minion (14427) */
+     , (0x7010B02A, 0x7010B02C, '2005-02-09 10:00:00') /* Hollow Minion (14427) */
+     , (0x7010B02A, 0x7010B02F, '2005-02-09 10:00:00') /* Hollow Minion (14427) */
+     , (0x7010B02A, 0x7010B030, '2005-02-09 10:00:00') /* Hollow Minion (14430) */
+     , (0x7010B02A, 0x7010B035, '2005-02-09 10:00:00') /* Hollow Minion (14427) */
+     , (0x7010B02A, 0x7010B036, '2005-02-09 10:00:00') /* Hollow Minion (14427) */
+     , (0x7010B02A, 0x7010B037, '2005-02-09 10:00:00') /* Hollow Minion (14427) */
+     , (0x7010B02A, 0x7010B038, '2005-02-09 10:00:00') /* Banderling Berserker (7085) */
+     , (0x7010B02A, 0x7010B039, '2005-02-09 10:00:00') /* Banderling Berserker (7085) */
+     , (0x7010B02A, 0x7010B03A, '2005-02-09 10:00:00') /* Banderling Berserker (7085) */
+     , (0x7010B02A, 0x7010B03B, '2005-02-09 10:00:00') /* Banderling Berserker (7085) */
+     , (0x7010B02A, 0x7010B03C, '2005-02-09 10:00:00') /* Banderling Berserker (7085) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7010B02B, 14427, 0x010B012F, 113.007, -57.278, -11.995, -0.915718, 0, 0, -0.401821,  True, '2005-02-09 10:00:00'); /* Hollow Minion */
@@ -204,9 +204,9 @@ VALUES (0x7010B034,  4219, 0x010B0199, 2.49688, -0.0276002, 0.005, -0.079121, 0,
 /* @teleloc 0x010B0199 [2.496880 -0.027600 0.005000] -0.079121 0.000000 0.000000 -0.996865 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7010B034, 0x7010B025, '2005-02-09 10:00:00') /* Hollow Minion */
-     , (0x7010B034, 0x7010B032, '2005-02-09 10:00:00') /* Hollow Minion */
-     , (0x7010B034, 0x7010B033, '2005-02-09 10:00:00') /* Hollow Minion */;
+VALUES (0x7010B034, 0x7010B025, '2005-02-09 10:00:00') /* Hollow Minion (14427) */
+     , (0x7010B034, 0x7010B032, '2005-02-09 10:00:00') /* Hollow Minion (14427) */
+     , (0x7010B034, 0x7010B033, '2005-02-09 10:00:00') /* Hollow Minion (14427) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7010B035, 14427, 0x010B0124, 100, -50, -11.995, -0.737394, 0, 0, 0.675463,  True, '2005-02-09 10:00:00'); /* Hollow Minion */

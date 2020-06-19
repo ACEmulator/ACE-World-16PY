@@ -5,9 +5,9 @@ VALUES (0x764DE000,  7923, 0x64DE0000, 157.042, 76.836, 83.8313, 0.505383, 0, 0,
 /* @teleloc 0x64DE0000 [157.042000 76.836000 83.831300] 0.505383 0.000000 0.000000 -0.862895 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x764DE000, 0x764DE003, '2005-02-09 10:00:00') /* Virulent Grievver */
-     , (0x764DE000, 0x764DE004, '2005-02-09 10:00:00') /* Scrawed Grievver */
-     , (0x764DE000, 0x764DE005, '2005-02-09 10:00:00') /* Scrawed Grievver */;
+VALUES (0x764DE000, 0x764DE003, '2005-02-09 10:00:00') /* Virulent Grievver (7979) */
+     , (0x764DE000, 0x764DE004, '2005-02-09 10:00:00') /* Scrawed Grievver (7978) */
+     , (0x764DE000, 0x764DE005, '2005-02-09 10:00:00') /* Scrawed Grievver (7978) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x764DE001,  7980, 0x64DE0000, 158, 76.3683, 83.6716, 0.86342, 0, 0, 0.504486,  True, '2005-02-09 10:00:00'); /* Venomous Grievver */
@@ -18,7 +18,7 @@ VALUES (0x764DE002,  7925, 0x64DE0000, 159.113, 78.2742, 83.4862, 0.808742, 0, 0
 /* @teleloc 0x64DE0000 [159.113000 78.274200 83.486200] 0.808742 0.000000 0.000000 0.588163 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x764DE002, 0x764DE001, '2005-02-09 10:00:00') /* Venomous Grievver */;
+VALUES (0x764DE002, 0x764DE001, '2005-02-09 10:00:00') /* Venomous Grievver (7980) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x764DE003,  7979, 0x64DE0000, 143.5, 72.987, 86.04, -0.864294, 0, 0, -0.502987,  True, '2005-02-09 10:00:00'); /* Virulent Grievver */

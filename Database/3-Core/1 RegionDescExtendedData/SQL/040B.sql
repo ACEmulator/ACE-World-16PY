@@ -1,10 +1,8 @@
-DELETE FROM `encounter` WHERE `landblock` = 1035;
+DELETE FROM `encounter` WHERE `landblock` = 0x040B;
 
 INSERT INTO `encounter` (`landblock`, `weenie_Class_Id`, `cell_X`, `cell_Y`, `last_Modified`)
-VALUES (1035, 25892, 2, 1, '2005-02-09 10:00:00') /* Western Singularity Caul Gen */
-     , (1035, 25892, 2, 3, '2005-02-09 10:00:00') /* Western Singularity Caul Gen */
-     , (1035, 25892, 2, 6, '2005-02-09 10:00:00') /* Western Singularity Caul Gen */
-     , (1035, 25892, 5, 2, '2005-02-09 10:00:00') /* Western Singularity Caul Gen */
-     , (1035, 25892, 5, 6, '2005-02-09 10:00:00') /* Western Singularity Caul Gen */
-     , (1035, 25892, 5, 8, '2005-02-09 10:00:00') /* Western Singularity Caul Gen */
-     , (1035, 25892, 8, 6, '2005-02-09 10:00:00') /* Western Singularity Caul Gen */;
+VALUES (0x040B, 25892, 2, 1, '2005-02-09 10:00:00') /* Western Singularity Caul Gen */
+     , (0x040B, 25892, 2, 3, '2005-02-09 10:00:00') /* Western Singularity Caul Gen */
+     , (0x040B, 25892, 2, 6, '2005-02-09 10:00:00') /* Western Singularity Caul Gen */
+     , (0x040B, 25892, 5, 2, '2005-02-09 10:00:00') /* Western Singularity Caul Gen */
+     , (0x040B, 25892, 5, 6, '2005-02-09 10:00:00') /* Western Singularity Caul Gen */;

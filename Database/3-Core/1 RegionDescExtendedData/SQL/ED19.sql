@@ -1,4 +1,4 @@
-DELETE FROM `encounter` WHERE `landblock` = 60697;
+DELETE FROM `encounter` WHERE `landblock` = 0xED19;
 
 INSERT INTO `encounter` (`landblock`, `weenie_Class_Id`, `cell_X`, `cell_Y`, `last_Modified`)
-VALUES (60697, 7229, 6, 4, '2005-02-09 10:00:00') /* Jungle F2 Mix Generator */;
+VALUES (0xED19, 7229, 6, 4, '2005-02-09 10:00:00') /* Jungle F2 Mix Generator */;

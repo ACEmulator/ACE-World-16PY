@@ -49,7 +49,7 @@ VALUES (0x7536D00B,  5085, 0x536D0141, 131.323, -71.0999, -41.995, -0.711827, 0,
 /* @teleloc 0x536D0141 [131.323000 -71.099900 -41.995000] -0.711827 0.000000 0.000000 0.702355 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7536D00B, 0x7536D00C, '2005-02-09 10:00:00') /* Nuhmudira's Journal */;
+VALUES (0x7536D00B, 0x7536D00C, '2005-02-09 10:00:00') /* Nuhmudira's Journal (14890) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7536D00C, 14890, 0x536D0141, 133.738, -71.0755, -41.0611, -0.711827, 0, 0, 0.702355,  True, '2005-02-09 10:00:00'); /* Nuhmudira's Journal */
@@ -68,8 +68,8 @@ VALUES (0x7536D00F, 15301, 0x536D01C4, 110, -54.3, -6, -4.37114E-08, 0, 0, -1, F
 /* @teleloc 0x536D01C4 [110.000000 -54.300000 -6.000000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7536D00F, 0x7536D010, '2005-02-09 10:00:00') /* Tome */
-     , (0x7536D00F, 0x7536D021, '2005-02-09 10:00:00') /* Candle */;
+VALUES (0x7536D00F, 0x7536D010, '2005-02-09 10:00:00') /* Tome (15302) */
+     , (0x7536D00F, 0x7536D021, '2005-02-09 10:00:00') /* Candle (14468) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7536D010, 15302, 0x536D01C4, 106, -49, -6, 0.707107, 0, 0, -0.707107,  True, '2005-02-09 10:00:00'); /* Tome */
@@ -80,21 +80,21 @@ VALUES (0x7536D011,  7925, 0x536D01C4, 109.996, -50.1553, -5.995, -0.0541771, 0,
 /* @teleloc 0x536D01C4 [109.996000 -50.155300 -5.995000] -0.054177 0.000000 0.000000 -0.998531 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7536D011, 0x7536D001, '2005-02-09 10:00:00') /* Essa Sclavus */
-     , (0x7536D011, 0x7536D002, '2005-02-09 10:00:00') /* Se Sclavus */
-     , (0x7536D011, 0x7536D003, '2005-02-09 10:00:00') /* Aste Sclavus */
-     , (0x7536D011, 0x7536D004, '2005-02-09 10:00:00') /* Aste Sclavus */
-     , (0x7536D011, 0x7536D006, '2005-02-09 10:00:00') /* Se Sclavus */
-     , (0x7536D011, 0x7536D007, '2005-02-09 10:00:00') /* Se Sclavus */
-     , (0x7536D011, 0x7536D008, '2005-02-09 10:00:00') /* Se Sclavus */
-     , (0x7536D011, 0x7536D009, '2005-02-09 10:00:00') /* Essa Sclavus */
-     , (0x7536D011, 0x7536D022, '2005-02-09 10:00:00') /* Se Sclavus */
-     , (0x7536D011, 0x7536D023, '2005-02-09 10:00:00') /* Se Sclavus */
-     , (0x7536D011, 0x7536D024, '2005-02-09 10:00:00') /* Se Sclavus */
-     , (0x7536D011, 0x7536D025, '2005-02-09 10:00:00') /* Aste Sclavus */
-     , (0x7536D011, 0x7536D026, '2005-02-09 10:00:00') /* Se Sclavus */
-     , (0x7536D011, 0x7536D027, '2005-02-09 10:00:00') /* Se Sclavus */
-     , (0x7536D011, 0x7536D028, '2005-02-09 10:00:00') /* Aste Sclavus */;
+VALUES (0x7536D011, 0x7536D001, '2005-02-09 10:00:00') /* Essa Sclavus (2585) */
+     , (0x7536D011, 0x7536D002, '2005-02-09 10:00:00') /* Se Sclavus (2583) */
+     , (0x7536D011, 0x7536D003, '2005-02-09 10:00:00') /* Aste Sclavus (2584) */
+     , (0x7536D011, 0x7536D004, '2005-02-09 10:00:00') /* Aste Sclavus (2584) */
+     , (0x7536D011, 0x7536D006, '2005-02-09 10:00:00') /* Se Sclavus (2583) */
+     , (0x7536D011, 0x7536D007, '2005-02-09 10:00:00') /* Se Sclavus (2583) */
+     , (0x7536D011, 0x7536D008, '2005-02-09 10:00:00') /* Se Sclavus (2583) */
+     , (0x7536D011, 0x7536D009, '2005-02-09 10:00:00') /* Essa Sclavus (2585) */
+     , (0x7536D011, 0x7536D022, '2005-02-09 10:00:00') /* Se Sclavus (2583) */
+     , (0x7536D011, 0x7536D023, '2005-02-09 10:00:00') /* Se Sclavus (2583) */
+     , (0x7536D011, 0x7536D024, '2005-02-09 10:00:00') /* Se Sclavus (2583) */
+     , (0x7536D011, 0x7536D025, '2005-02-09 10:00:00') /* Aste Sclavus (2584) */
+     , (0x7536D011, 0x7536D026, '2005-02-09 10:00:00') /* Se Sclavus (2583) */
+     , (0x7536D011, 0x7536D027, '2005-02-09 10:00:00') /* Se Sclavus (2583) */
+     , (0x7536D011, 0x7536D028, '2005-02-09 10:00:00') /* Aste Sclavus (2584) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7536D012,   278, 0x536D01CB, 124.75, -20, -6, -0.707107, 0, 0, 0.707107, False, '2005-02-09 10:00:00'); /* Door */

@@ -117,7 +117,7 @@ VALUES (0x7526A01D, 14586, 0x526A0279, 151.568, -78.6392, -22.8124, 0.968912, 0,
 /* @teleloc 0x526A0279 [151.568000 -78.639200 -22.812400] 0.968912 0.000000 0.000000 -0.247404 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7526A01D, 0x7526A01C, '2005-02-09 10:00:00') /* Pressure Plate */;
+VALUES (0x7526A01D, 0x7526A01C, '2005-02-09 10:00:00') /* Pressure Plate (7625) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7526A01E, 14799, 0x526A027B, 160, -54.1285, -23.971, 1, 0, 0, -4.37114E-08,  True, '2005-02-09 10:00:00'); /* Vibrant Virindi Energy Cluster */
@@ -136,7 +136,7 @@ VALUES (0x7526A021, 14586, 0x526A0283, 168.666, -77.8676, -22.6786, 0.877582, 0,
 /* @teleloc 0x526A0283 [168.666000 -77.867600 -22.678600] 0.877582 0.000000 0.000000 0.479426 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7526A021, 0x7526A020, '2005-02-09 10:00:00') /* Pressure Plate */;
+VALUES (0x7526A021, 0x7526A020, '2005-02-09 10:00:00') /* Pressure Plate (7625) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7526A024, 14812, 0x526A028D, 210, -50, -23.995, -0.707107, 0, 0, -0.707107, False, '2005-02-09 10:00:00'); /* Portal Space */
@@ -211,20 +211,20 @@ VALUES (0x7526A035,  7923, 0x526A0320, 66.9413, -65.8488, -11.995, 0.094411, 0, 
 /* @teleloc 0x526A0320 [66.941300 -65.848800 -11.995000] 0.094411 0.000000 0.000000 -0.995533 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7526A035, 0x7526A001, '2005-02-09 10:00:00') /* Quiddity Rift */
-     , (0x7526A035, 0x7526A003, '2005-02-09 10:00:00') /* Quiddity Rift */
-     , (0x7526A035, 0x7526A004, '2005-02-09 10:00:00') /* Quiddity Rift */
-     , (0x7526A035, 0x7526A005, '2005-02-09 10:00:00') /* Quiddity Rift */
-     , (0x7526A035, 0x7526A007, '2005-02-09 10:00:00') /* Quiddity Rift */
-     , (0x7526A035, 0x7526A00B, '2005-02-09 10:00:00') /* Quiddity Rift */
-     , (0x7526A035, 0x7526A01B, '2005-02-09 10:00:00') /* Vibrant Virindi Energy Cluster */
-     , (0x7526A035, 0x7526A01E, '2005-02-09 10:00:00') /* Vibrant Virindi Energy Cluster */
-     , (0x7526A035, 0x7526A01F, '2005-02-09 10:00:00') /* Vibrant Virindi Energy Cluster */
-     , (0x7526A035, 0x7526A031, '2005-02-09 10:00:00') /* Lilitha */
-     , (0x7526A035, 0x7526A032, '2005-02-09 10:00:00') /* Yalaini Woman */
-     , (0x7526A035, 0x7526A033, '2005-02-09 10:00:00') /* Yalaini Man */
-     , (0x7526A035, 0x7526A034, '2005-02-09 10:00:00') /* Aun Tanua */
-     , (0x7526A035, 0x7526A036, '2005-02-09 10:00:00') /* Quiddity Rift */;
+VALUES (0x7526A035, 0x7526A001, '2005-02-09 10:00:00') /* Quiddity Rift (14560) */
+     , (0x7526A035, 0x7526A003, '2005-02-09 10:00:00') /* Quiddity Rift (14560) */
+     , (0x7526A035, 0x7526A004, '2005-02-09 10:00:00') /* Quiddity Rift (14560) */
+     , (0x7526A035, 0x7526A005, '2005-02-09 10:00:00') /* Quiddity Rift (14560) */
+     , (0x7526A035, 0x7526A007, '2005-02-09 10:00:00') /* Quiddity Rift (14561) */
+     , (0x7526A035, 0x7526A00B, '2005-02-09 10:00:00') /* Quiddity Rift (14562) */
+     , (0x7526A035, 0x7526A01B, '2005-02-09 10:00:00') /* Vibrant Virindi Energy Cluster (14799) */
+     , (0x7526A035, 0x7526A01E, '2005-02-09 10:00:00') /* Vibrant Virindi Energy Cluster (14799) */
+     , (0x7526A035, 0x7526A01F, '2005-02-09 10:00:00') /* Vibrant Virindi Energy Cluster (14799) */
+     , (0x7526A035, 0x7526A031, '2005-02-09 10:00:00') /* Lilitha (14574) */
+     , (0x7526A035, 0x7526A032, '2005-02-09 10:00:00') /* Yalaini Woman (14572) */
+     , (0x7526A035, 0x7526A033, '2005-02-09 10:00:00') /* Yalaini Man (14573) */
+     , (0x7526A035, 0x7526A034, '2005-02-09 10:00:00') /* Aun Tanua (14575) */
+     , (0x7526A035, 0x7526A036, '2005-02-09 10:00:00') /* Quiddity Rift (14560) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7526A036, 14560, 0x526A01BA, 121.051, -51.1758, -29.9925, -0.147164, 0, 0, -0.989112,  True, '2005-02-09 10:00:00'); /* Quiddity Rift */

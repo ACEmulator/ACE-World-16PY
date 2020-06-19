@@ -325,7 +325,7 @@ VALUES (0x7014E052, 14548, 0x014E01F5, 138.985, -9.92627, 2.81938, -0.707107, 0,
 /* @teleloc 0x014E01F5 [138.985000 -9.926270 2.819380] -0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7014E052, 0x7014E051, '2005-02-09 10:00:00') /* Pressure Plate */;
+VALUES (0x7014E052, 0x7014E051, '2005-02-09 10:00:00') /* Pressure Plate (2131) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7014E053,  7345, 0x014E01FB, 140, -50, 0.00715, 0.707107, 0, 0, -0.707107,  True, '2005-02-09 10:00:00'); /* Banderling Striker */
@@ -392,7 +392,7 @@ VALUES (0x7014E062, 14548, 0x014E0226, 156.272, -124.176, 1.97675, 0.707107, 0, 
 /* @teleloc 0x014E0226 [156.272000 -124.176000 1.976750] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7014E062, 0x7014E064, '2005-02-09 10:00:00') /* Pressure Plate */;
+VALUES (0x7014E062, 0x7014E064, '2005-02-09 10:00:00') /* Pressure Plate (298) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7014E063,   269, 0x014E0226, 156.27, -124.395, 1.378, 0, 0, 0, -1,  True, '2005-02-09 10:00:00'); /* Button */
@@ -423,15 +423,15 @@ VALUES (0x7014E069,  2179, 0x014E0229, 174.75, -4.15258E-07, 0, -0.707107, 0, 0,
 /* @teleloc 0x014E0229 [174.750000 0.000000 0.000000] -0.707107 0.000000 0.000000 0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7014E069, 0x7014E068, '2005-02-09 10:00:00') /* Pressure Plate */
-     , (0x7014E069, 0x7014E074, '2005-02-09 10:00:00') /* Button */;
+VALUES (0x7014E069, 0x7014E068, '2005-02-09 10:00:00') /* Pressure Plate (2131) */
+     , (0x7014E069, 0x7014E074, '2005-02-09 10:00:00') /* Button (269) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7014E06A, 14548, 0x014E0229, 173.516, -0.0234583, 1.736, -0.707107, 0, 0, -0.707107, False, '2005-02-09 10:00:00'); /* Acid Trap */
 /* @teleloc 0x014E0229 [173.516000 -0.023458 1.736000] -0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7014E06A, 0x7014E072, '2005-02-09 10:00:00') /* Pressure Plate */;
+VALUES (0x7014E06A, 0x7014E072, '2005-02-09 10:00:00') /* Pressure Plate (2131) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7014E06B,  7345, 0x014E022C, 170, -20, 0.00715, -0.707107, 0, 0, -0.707107,  True, '2005-02-09 10:00:00'); /* Banderling Striker */
@@ -442,8 +442,8 @@ VALUES (0x7014E06C,  2180, 0x014E022E, 165.25, -30, 0.082, -0.707107, 0, 0, -0.7
 /* @teleloc 0x014E022E [165.250000 -30.000000 0.082000] -0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7014E06C, 0x7014E05F, '2005-02-09 10:00:00') /* Button */
-     , (0x7014E06C, 0x7014E06D, '2005-02-09 10:00:00') /* Pressure Plate */;
+VALUES (0x7014E06C, 0x7014E05F, '2005-02-09 10:00:00') /* Button (269) */
+     , (0x7014E06C, 0x7014E06D, '2005-02-09 10:00:00') /* Pressure Plate (298) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7014E06D,   298, 0x014E022E, 171.076, -30.5929, 0, 1, 0, 0, 0,  True, '2005-02-09 10:00:00'); /* Pressure Plate */
@@ -466,8 +466,8 @@ VALUES (0x7014E071,  2179, 0x014E023D, 170, -115.25, 0, 1, 0, 0, 0, False, '2005
 /* @teleloc 0x014E023D [170.000000 -115.250000 0.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7014E071, 0x7014E063, '2005-02-09 10:00:00') /* Button */
-     , (0x7014E071, 0x7014E070, '2005-02-09 10:00:00') /* Pressure Plate */;
+VALUES (0x7014E071, 0x7014E063, '2005-02-09 10:00:00') /* Button (269) */
+     , (0x7014E071, 0x7014E070, '2005-02-09 10:00:00') /* Pressure Plate (2131) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7014E072,  2131, 0x014E023F, 175.772, 0.0704931, 0, -0.707107, 0, 0, -0.707107,  True, '2005-02-09 10:00:00'); /* Pressure Plate */
@@ -578,77 +578,77 @@ VALUES (0x7014E08F, 15759, 0x014E0113, 62.2645, -128.042, -23.995, -0.999923, 0,
 /* @teleloc 0x014E0113 [62.264500 -128.042000 -23.995000] -0.999923 0.000000 0.000000 -0.012406 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7014E08F, 0x7014E08E, '2005-02-09 10:00:00') /* Alloy Contrivance */;
+VALUES (0x7014E08F, 0x7014E08E, '2005-02-09 10:00:00') /* Alloy Contrivance (25324) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7014E090,  7923, 0x014E025D, 187.5, -15.9876, 0, 0.707107, 0, 0, -0.707107, False, '2005-02-09 10:00:00'); /* Linkable Monster Generator ( 3 Min.) */
 /* @teleloc 0x014E025D [187.500000 -15.987600 0.000000] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7014E090, 0x7014E000, '2005-02-09 10:00:00') /* Banderling Rogue */
-     , (0x7014E090, 0x7014E001, '2005-02-09 10:00:00') /* Banderling Striker */
-     , (0x7014E090, 0x7014E004, '2005-02-09 10:00:00') /* Banderling Striker */
-     , (0x7014E090, 0x7014E007, '2005-02-09 10:00:00') /* Banderling Striker */
-     , (0x7014E090, 0x7014E008, '2005-02-09 10:00:00') /* Banderling Rogue */
-     , (0x7014E090, 0x7014E009, '2005-02-09 10:00:00') /* Banderling Rogue */
-     , (0x7014E090, 0x7014E00D, '2005-02-09 10:00:00') /* Banderling Striker */
-     , (0x7014E090, 0x7014E00F, '2005-02-09 10:00:00') /* Banderling Striker */
-     , (0x7014E090, 0x7014E010, '2005-02-09 10:00:00') /* Banderling Rogue */
-     , (0x7014E090, 0x7014E011, '2005-02-09 10:00:00') /* Banderling Striker */
-     , (0x7014E090, 0x7014E013, '2005-02-09 10:00:00') /* Banderling Rogue */
-     , (0x7014E090, 0x7014E014, '2005-02-09 10:00:00') /* Banderling Rogue */
-     , (0x7014E090, 0x7014E016, '2005-02-09 10:00:00') /* Banderling Striker */
-     , (0x7014E090, 0x7014E017, '2005-02-09 10:00:00') /* Banderling Striker */
-     , (0x7014E090, 0x7014E018, '2005-02-09 10:00:00') /* Banderling Striker */
-     , (0x7014E090, 0x7014E019, '2005-02-09 10:00:00') /* Banderling Striker */
-     , (0x7014E090, 0x7014E022, '2005-02-09 10:00:00') /* Banderling Rogue */
-     , (0x7014E090, 0x7014E023, '2005-02-09 10:00:00') /* Banderling Striker */
-     , (0x7014E090, 0x7014E024, '2005-02-09 10:00:00') /* Banderling Rogue */
-     , (0x7014E090, 0x7014E028, '2005-02-09 10:00:00') /* Banderling Rogue */
-     , (0x7014E090, 0x7014E029, '2005-02-09 10:00:00') /* Banderling Rogue */
-     , (0x7014E090, 0x7014E02B, '2005-02-09 10:00:00') /* Banderling Striker */
-     , (0x7014E090, 0x7014E02D, '2005-02-09 10:00:00') /* Banderling Rogue */
-     , (0x7014E090, 0x7014E02F, '2005-02-09 10:00:00') /* Banderling Rogue */
-     , (0x7014E090, 0x7014E030, '2005-02-09 10:00:00') /* Banderling Rogue */
-     , (0x7014E090, 0x7014E031, '2005-02-09 10:00:00') /* Banderling Striker */
-     , (0x7014E090, 0x7014E033, '2005-02-09 10:00:00') /* Banderling Rogue */
-     , (0x7014E090, 0x7014E035, '2005-02-09 10:00:00') /* Banderling Striker */
-     , (0x7014E090, 0x7014E036, '2005-02-09 10:00:00') /* Banderling Rogue */
-     , (0x7014E090, 0x7014E037, '2005-02-09 10:00:00') /* Banderling Striker */
-     , (0x7014E090, 0x7014E039, '2005-02-09 10:00:00') /* Banderling Rogue */
-     , (0x7014E090, 0x7014E03A, '2005-02-09 10:00:00') /* Banderling Rogue */
-     , (0x7014E090, 0x7014E03D, '2005-02-09 10:00:00') /* Banderling Striker */
-     , (0x7014E090, 0x7014E03F, '2005-02-09 10:00:00') /* Opor Niffis */
-     , (0x7014E090, 0x7014E041, '2005-02-09 10:00:00') /* Banderling Striker */
-     , (0x7014E090, 0x7014E042, '2005-02-09 10:00:00') /* Opor Niffis */
-     , (0x7014E090, 0x7014E043, '2005-02-09 10:00:00') /* Stale Bread */
-     , (0x7014E090, 0x7014E044, '2005-02-09 10:00:00') /* Water */
-     , (0x7014E090, 0x7014E047, '2005-02-09 10:00:00') /* Opor Niffis */
-     , (0x7014E090, 0x7014E049, '2005-02-09 10:00:00') /* Opor Niffis */
-     , (0x7014E090, 0x7014E04D, '2005-02-09 10:00:00') /* Banderling Striker */
-     , (0x7014E090, 0x7014E04E, '2005-02-09 10:00:00') /* Banderling Striker */
-     , (0x7014E090, 0x7014E053, '2005-02-09 10:00:00') /* Banderling Striker */
-     , (0x7014E090, 0x7014E055, '2005-02-09 10:00:00') /* Banderling Striker */
-     , (0x7014E090, 0x7014E056, '2005-02-09 10:00:00') /* Banderling Rogue */
-     , (0x7014E090, 0x7014E057, '2005-02-09 10:00:00') /* Banderling Rogue */
-     , (0x7014E090, 0x7014E059, '2005-02-09 10:00:00') /* Banderling Striker */
-     , (0x7014E090, 0x7014E05A, '2005-02-09 10:00:00') /* Banderling Striker */
-     , (0x7014E090, 0x7014E05B, '2005-02-09 10:00:00') /* Banderling Striker */
-     , (0x7014E090, 0x7014E05C, '2005-02-09 10:00:00') /* Banderling Striker */
-     , (0x7014E090, 0x7014E05E, '2005-02-09 10:00:00') /* Banderling Striker */
-     , (0x7014E090, 0x7014E060, '2005-02-09 10:00:00') /* Banderling Striker */
-     , (0x7014E090, 0x7014E066, '2005-02-09 10:00:00') /* Banderling Rogue */
-     , (0x7014E090, 0x7014E06B, '2005-02-09 10:00:00') /* Banderling Striker */
-     , (0x7014E090, 0x7014E06E, '2005-02-09 10:00:00') /* Banderling Striker */
-     , (0x7014E090, 0x7014E073, '2005-02-09 10:00:00') /* Banderling Striker */
-     , (0x7014E090, 0x7014E078, '2005-02-09 10:00:00') /* Banderling Striker */
-     , (0x7014E090, 0x7014E07A, '2005-02-09 10:00:00') /* Banderling Striker */
-     , (0x7014E090, 0x7014E07B, '2005-02-09 10:00:00') /* Banderling Striker */
-     , (0x7014E090, 0x7014E07E, '2005-02-09 10:00:00') /* Banderling Striker */
-     , (0x7014E090, 0x7014E083, '2005-02-09 10:00:00') /* Banderling Striker */
-     , (0x7014E090, 0x7014E084, '2005-02-09 10:00:00') /* Banderling Striker */
-     , (0x7014E090, 0x7014E085, '2005-02-09 10:00:00') /* Banderling Rogue */
-     , (0x7014E090, 0x7014E086, '2005-02-09 10:00:00') /* Banderling Striker */
-     , (0x7014E090, 0x7014E089, '2005-02-09 10:00:00') /* Banderling Striker */
-     , (0x7014E090, 0x7014E08A, '2005-02-09 10:00:00') /* Banderling Striker */
-     , (0x7014E090, 0x7014E08D, '2005-02-09 10:00:00') /* Banderling Rogue */;
+VALUES (0x7014E090, 0x7014E000, '2005-02-09 10:00:00') /* Banderling Rogue (22810) */
+     , (0x7014E090, 0x7014E001, '2005-02-09 10:00:00') /* Banderling Striker (7345) */
+     , (0x7014E090, 0x7014E004, '2005-02-09 10:00:00') /* Banderling Striker (7345) */
+     , (0x7014E090, 0x7014E007, '2005-02-09 10:00:00') /* Banderling Striker (7345) */
+     , (0x7014E090, 0x7014E008, '2005-02-09 10:00:00') /* Banderling Rogue (22810) */
+     , (0x7014E090, 0x7014E009, '2005-02-09 10:00:00') /* Banderling Rogue (22810) */
+     , (0x7014E090, 0x7014E00D, '2005-02-09 10:00:00') /* Banderling Striker (7345) */
+     , (0x7014E090, 0x7014E00F, '2005-02-09 10:00:00') /* Banderling Striker (7345) */
+     , (0x7014E090, 0x7014E010, '2005-02-09 10:00:00') /* Banderling Rogue (22810) */
+     , (0x7014E090, 0x7014E011, '2005-02-09 10:00:00') /* Banderling Striker (7345) */
+     , (0x7014E090, 0x7014E013, '2005-02-09 10:00:00') /* Banderling Rogue (22810) */
+     , (0x7014E090, 0x7014E014, '2005-02-09 10:00:00') /* Banderling Rogue (22810) */
+     , (0x7014E090, 0x7014E016, '2005-02-09 10:00:00') /* Banderling Striker (7345) */
+     , (0x7014E090, 0x7014E017, '2005-02-09 10:00:00') /* Banderling Striker (7345) */
+     , (0x7014E090, 0x7014E018, '2005-02-09 10:00:00') /* Banderling Striker (7345) */
+     , (0x7014E090, 0x7014E019, '2005-02-09 10:00:00') /* Banderling Striker (7345) */
+     , (0x7014E090, 0x7014E022, '2005-02-09 10:00:00') /* Banderling Rogue (22810) */
+     , (0x7014E090, 0x7014E023, '2005-02-09 10:00:00') /* Banderling Striker (7345) */
+     , (0x7014E090, 0x7014E024, '2005-02-09 10:00:00') /* Banderling Rogue (22810) */
+     , (0x7014E090, 0x7014E028, '2005-02-09 10:00:00') /* Banderling Rogue (22810) */
+     , (0x7014E090, 0x7014E029, '2005-02-09 10:00:00') /* Banderling Rogue (22810) */
+     , (0x7014E090, 0x7014E02B, '2005-02-09 10:00:00') /* Banderling Striker (7345) */
+     , (0x7014E090, 0x7014E02D, '2005-02-09 10:00:00') /* Banderling Rogue (22810) */
+     , (0x7014E090, 0x7014E02F, '2005-02-09 10:00:00') /* Banderling Rogue (22810) */
+     , (0x7014E090, 0x7014E030, '2005-02-09 10:00:00') /* Banderling Rogue (22810) */
+     , (0x7014E090, 0x7014E031, '2005-02-09 10:00:00') /* Banderling Striker (7345) */
+     , (0x7014E090, 0x7014E033, '2005-02-09 10:00:00') /* Banderling Rogue (22810) */
+     , (0x7014E090, 0x7014E035, '2005-02-09 10:00:00') /* Banderling Striker (7345) */
+     , (0x7014E090, 0x7014E036, '2005-02-09 10:00:00') /* Banderling Rogue (22810) */
+     , (0x7014E090, 0x7014E037, '2005-02-09 10:00:00') /* Banderling Striker (7345) */
+     , (0x7014E090, 0x7014E039, '2005-02-09 10:00:00') /* Banderling Rogue (22810) */
+     , (0x7014E090, 0x7014E03A, '2005-02-09 10:00:00') /* Banderling Rogue (22810) */
+     , (0x7014E090, 0x7014E03D, '2005-02-09 10:00:00') /* Banderling Striker (7345) */
+     , (0x7014E090, 0x7014E03F, '2005-02-09 10:00:00') /* Opor Niffis (7987) */
+     , (0x7014E090, 0x7014E041, '2005-02-09 10:00:00') /* Banderling Striker (7345) */
+     , (0x7014E090, 0x7014E042, '2005-02-09 10:00:00') /* Opor Niffis (7987) */
+     , (0x7014E090, 0x7014E043, '2005-02-09 10:00:00') /* Stale Bread (5088) */
+     , (0x7014E090, 0x7014E044, '2005-02-09 10:00:00') /* Water (4746) */
+     , (0x7014E090, 0x7014E047, '2005-02-09 10:00:00') /* Opor Niffis (7987) */
+     , (0x7014E090, 0x7014E049, '2005-02-09 10:00:00') /* Opor Niffis (7987) */
+     , (0x7014E090, 0x7014E04D, '2005-02-09 10:00:00') /* Banderling Striker (7345) */
+     , (0x7014E090, 0x7014E04E, '2005-02-09 10:00:00') /* Banderling Striker (7345) */
+     , (0x7014E090, 0x7014E053, '2005-02-09 10:00:00') /* Banderling Striker (7345) */
+     , (0x7014E090, 0x7014E055, '2005-02-09 10:00:00') /* Banderling Striker (7345) */
+     , (0x7014E090, 0x7014E056, '2005-02-09 10:00:00') /* Banderling Rogue (22810) */
+     , (0x7014E090, 0x7014E057, '2005-02-09 10:00:00') /* Banderling Rogue (22810) */
+     , (0x7014E090, 0x7014E059, '2005-02-09 10:00:00') /* Banderling Striker (7345) */
+     , (0x7014E090, 0x7014E05A, '2005-02-09 10:00:00') /* Banderling Striker (7345) */
+     , (0x7014E090, 0x7014E05B, '2005-02-09 10:00:00') /* Banderling Striker (7345) */
+     , (0x7014E090, 0x7014E05C, '2005-02-09 10:00:00') /* Banderling Striker (7345) */
+     , (0x7014E090, 0x7014E05E, '2005-02-09 10:00:00') /* Banderling Striker (7345) */
+     , (0x7014E090, 0x7014E060, '2005-02-09 10:00:00') /* Banderling Striker (7345) */
+     , (0x7014E090, 0x7014E066, '2005-02-09 10:00:00') /* Banderling Rogue (22810) */
+     , (0x7014E090, 0x7014E06B, '2005-02-09 10:00:00') /* Banderling Striker (7345) */
+     , (0x7014E090, 0x7014E06E, '2005-02-09 10:00:00') /* Banderling Striker (7345) */
+     , (0x7014E090, 0x7014E073, '2005-02-09 10:00:00') /* Banderling Striker (7345) */
+     , (0x7014E090, 0x7014E078, '2005-02-09 10:00:00') /* Banderling Striker (7345) */
+     , (0x7014E090, 0x7014E07A, '2005-02-09 10:00:00') /* Banderling Striker (7345) */
+     , (0x7014E090, 0x7014E07B, '2005-02-09 10:00:00') /* Banderling Striker (7345) */
+     , (0x7014E090, 0x7014E07E, '2005-02-09 10:00:00') /* Banderling Striker (7345) */
+     , (0x7014E090, 0x7014E083, '2005-02-09 10:00:00') /* Banderling Striker (7345) */
+     , (0x7014E090, 0x7014E084, '2005-02-09 10:00:00') /* Banderling Striker (7345) */
+     , (0x7014E090, 0x7014E085, '2005-02-09 10:00:00') /* Banderling Rogue (22810) */
+     , (0x7014E090, 0x7014E086, '2005-02-09 10:00:00') /* Banderling Striker (7345) */
+     , (0x7014E090, 0x7014E089, '2005-02-09 10:00:00') /* Banderling Striker (7345) */
+     , (0x7014E090, 0x7014E08A, '2005-02-09 10:00:00') /* Banderling Striker (7345) */
+     , (0x7014E090, 0x7014E08D, '2005-02-09 10:00:00') /* Banderling Rogue (22810) */;

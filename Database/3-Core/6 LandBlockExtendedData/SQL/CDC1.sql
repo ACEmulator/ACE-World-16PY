@@ -9,13 +9,13 @@ VALUES (0x7CDC1018,  7923, 0xCDC10000, 76.6211, 72.1866, 0.005, -0.736561, 0, 0,
 /* @teleloc 0xCDC10000 [76.621100 72.186600 0.005000] -0.736561 0.000000 0.000000 -0.676371 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7CDC1018, 0x7CDC1019, '2005-02-09 10:00:00') /* Chill */
-     , (0x7CDC1018, 0x7CDC101A, '2005-02-09 10:00:00') /* Chill */
-     , (0x7CDC1018, 0x7CDC101B, '2005-02-09 10:00:00') /* Chill */
-     , (0x7CDC1018, 0x7CDC101C, '2005-02-09 10:00:00') /* Chill */
-     , (0x7CDC1018, 0x7CDC101D, '2005-02-09 10:00:00') /* Shivver */
-     , (0x7CDC1018, 0x7CDC101E, '2005-02-09 10:00:00') /* Shivver */
-     , (0x7CDC1018, 0x7CDC101F, '2005-02-09 10:00:00') /* Shivver */;
+VALUES (0x7CDC1018, 0x7CDC1019, '2005-02-09 10:00:00') /* Chill (21165) */
+     , (0x7CDC1018, 0x7CDC101A, '2005-02-09 10:00:00') /* Chill (21165) */
+     , (0x7CDC1018, 0x7CDC101B, '2005-02-09 10:00:00') /* Chill (21165) */
+     , (0x7CDC1018, 0x7CDC101C, '2005-02-09 10:00:00') /* Chill (21165) */
+     , (0x7CDC1018, 0x7CDC101D, '2005-02-09 10:00:00') /* Shivver (14518) */
+     , (0x7CDC1018, 0x7CDC101E, '2005-02-09 10:00:00') /* Shivver (14518) */
+     , (0x7CDC1018, 0x7CDC101F, '2005-02-09 10:00:00') /* Shivver (14518) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7CDC1019, 21165, 0xCDC10000, 74.1741, 64.445, 0.005, -0.0439141, 0, 0, -0.999035,  True, '2005-02-09 10:00:00'); /* Chill */

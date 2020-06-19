@@ -5,12 +5,12 @@ VALUES (0x7849400C,  4219, 0x84940000, 12.3372, 143.433, 240.005, 0.820733, 0, 0
 /* @teleloc 0x84940000 [12.337200 143.433000 240.005000] 0.820733 0.000000 0.000000 0.571311 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7849400C, 0x7849400D, '2005-02-09 10:00:00') /* Wily Monouga */
-     , (0x7849400C, 0x7849400E, '2005-02-09 10:00:00') /* Wily Monouga */
-     , (0x7849400C, 0x7849400F, '2005-02-09 10:00:00') /* Wily Monouga */
-     , (0x7849400C, 0x78494010, '2005-02-09 10:00:00') /* Wily Monouga */
-     , (0x7849400C, 0x78494011, '2005-02-09 10:00:00') /* Wily Monouga */
-     , (0x7849400C, 0x78494012, '2005-02-09 10:00:00') /* Brutish Monouga */;
+VALUES (0x7849400C, 0x7849400D, '2005-02-09 10:00:00') /* Wily Monouga (9253) */
+     , (0x7849400C, 0x7849400E, '2005-02-09 10:00:00') /* Wily Monouga (9253) */
+     , (0x7849400C, 0x7849400F, '2005-02-09 10:00:00') /* Wily Monouga (9253) */
+     , (0x7849400C, 0x78494010, '2005-02-09 10:00:00') /* Wily Monouga (9253) */
+     , (0x7849400C, 0x78494011, '2005-02-09 10:00:00') /* Wily Monouga (9253) */
+     , (0x7849400C, 0x78494012, '2005-02-09 10:00:00') /* Brutish Monouga (9251) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7849400D,  9253, 0x84940000, 94.4551, 70.6837, 240.005, 0.92131, 0, 0, -0.388828,  True, '2005-02-09 10:00:00'); /* Wily Monouga */

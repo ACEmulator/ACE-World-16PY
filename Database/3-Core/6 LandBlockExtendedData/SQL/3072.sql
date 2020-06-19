@@ -61,18 +61,18 @@ VALUES (0x7307200E,  4219, 0x30720000, 134.546, 172.16, 36.005, 0.53721, 0, 0, -
 /* @teleloc 0x30720000 [134.546000 172.160000 36.005000] 0.537210 0.000000 0.000000 -0.843449 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7307200E, 0x73072000, '2005-02-09 10:00:00') /* Augmented Tumerok */
-     , (0x7307200E, 0x73072001, '2005-02-09 10:00:00') /* Augmented Tumerok */
-     , (0x7307200E, 0x73072002, '2005-02-09 10:00:00') /* Augmented Tumerok */
-     , (0x7307200E, 0x73072005, '2005-02-09 10:00:00') /* Augmented Tumerok */
-     , (0x7307200E, 0x73072007, '2005-02-09 10:00:00') /* Augmented Tumerok */
-     , (0x7307200E, 0x73072008, '2005-02-09 10:00:00') /* Augmented Tumerok */
-     , (0x7307200E, 0x73072009, '2005-02-09 10:00:00') /* Augmented Tumerok */
-     , (0x7307200E, 0x7307200A, '2005-02-09 10:00:00') /* Augmented Tumerok */
-     , (0x7307200E, 0x7307200C, '2005-02-09 10:00:00') /* Augmented Tumerok */
-     , (0x7307200E, 0x7307201A, '2005-02-09 10:00:00') /* Banderling Enforcer */
-     , (0x7307200E, 0x7307201C, '2005-02-09 10:00:00') /* Banderling Enforcer */
-     , (0x7307200E, 0x7307201D, '2005-02-09 10:00:00') /* Banderling Enforcer */;
+VALUES (0x7307200E, 0x73072000, '2005-02-09 10:00:00') /* Augmented Tumerok (10807) */
+     , (0x7307200E, 0x73072001, '2005-02-09 10:00:00') /* Augmented Tumerok (10807) */
+     , (0x7307200E, 0x73072002, '2005-02-09 10:00:00') /* Augmented Tumerok (10807) */
+     , (0x7307200E, 0x73072005, '2005-02-09 10:00:00') /* Augmented Tumerok (10807) */
+     , (0x7307200E, 0x73072007, '2005-02-09 10:00:00') /* Augmented Tumerok (10807) */
+     , (0x7307200E, 0x73072008, '2005-02-09 10:00:00') /* Augmented Tumerok (10807) */
+     , (0x7307200E, 0x73072009, '2005-02-09 10:00:00') /* Augmented Tumerok (10807) */
+     , (0x7307200E, 0x7307200A, '2005-02-09 10:00:00') /* Augmented Tumerok (10807) */
+     , (0x7307200E, 0x7307200C, '2005-02-09 10:00:00') /* Augmented Tumerok (10807) */
+     , (0x7307200E, 0x7307201A, '2005-02-09 10:00:00') /* Banderling Enforcer (7346) */
+     , (0x7307200E, 0x7307201C, '2005-02-09 10:00:00') /* Banderling Enforcer (7346) */
+     , (0x7307200E, 0x7307201D, '2005-02-09 10:00:00') /* Banderling Enforcer (7346) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7307200F, 10807, 0x30720000, 60.9662, 190.894, 41.005, -0.947105, 0, 0, 0.320923,  True, '2005-02-09 10:00:00'); /* Augmented Tumerok */
@@ -99,14 +99,14 @@ VALUES (0x73072014,  4219, 0x30720000, 136.438, 171.277, 36.005, 0.53721, 0, 0, 
 /* @teleloc 0x30720000 [136.438000 171.277000 36.005000] 0.537210 0.000000 0.000000 -0.843449 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73072014, 0x7307200B, '2005-02-09 10:00:00') /* Augmented Tumerok */
-     , (0x73072014, 0x7307200D, '2005-02-09 10:00:00') /* Augmented Tumerok */
-     , (0x73072014, 0x73072010, '2005-02-09 10:00:00') /* Augmented Tumerok */
-     , (0x73072014, 0x73072016, '2005-02-09 10:00:00') /* Ascendant Tumerok */
-     , (0x73072014, 0x73072017, '2005-02-09 10:00:00') /* Ascendant Tumerok */
-     , (0x73072014, 0x73072019, '2005-02-09 10:00:00') /* Banderling Enforcer */
-     , (0x73072014, 0x7307201B, '2005-02-09 10:00:00') /* Banderling Enforcer */
-     , (0x73072014, 0x7307201E, '2005-02-09 10:00:00') /* Banderling Enforcer */;
+VALUES (0x73072014, 0x7307200B, '2005-02-09 10:00:00') /* Augmented Tumerok (10807) */
+     , (0x73072014, 0x7307200D, '2005-02-09 10:00:00') /* Augmented Tumerok (10807) */
+     , (0x73072014, 0x73072010, '2005-02-09 10:00:00') /* Augmented Tumerok (10807) */
+     , (0x73072014, 0x73072016, '2005-02-09 10:00:00') /* Ascendant Tumerok (10806) */
+     , (0x73072014, 0x73072017, '2005-02-09 10:00:00') /* Ascendant Tumerok (10806) */
+     , (0x73072014, 0x73072019, '2005-02-09 10:00:00') /* Banderling Enforcer (7346) */
+     , (0x73072014, 0x7307201B, '2005-02-09 10:00:00') /* Banderling Enforcer (7346) */
+     , (0x73072014, 0x7307201E, '2005-02-09 10:00:00') /* Banderling Enforcer (7346) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73072015, 10806, 0x30720104, 62.8942, 158.809, 36.0065, 0.981377, 0, 0, -0.192094, False, '2005-02-09 10:00:00'); /* Ascendant Tumerok */
@@ -125,13 +125,13 @@ VALUES (0x73072018,  4219, 0x30720000, 135.85, 169.98, 36.005, -0.279117, 0, 0, 
 /* @teleloc 0x30720000 [135.850000 169.980000 36.005000] -0.279117 0.000000 0.000000 -0.960257 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73072018, 0x73072003, '2005-02-09 10:00:00') /* Ascendant Tumerok */
-     , (0x73072018, 0x73072004, '2005-02-09 10:00:00') /* Augmented Tumerok */
-     , (0x73072018, 0x73072006, '2005-02-09 10:00:00') /* Augmented Tumerok */
-     , (0x73072018, 0x7307200F, '2005-02-09 10:00:00') /* Augmented Tumerok */
-     , (0x73072018, 0x73072011, '2005-02-09 10:00:00') /* Banderling Enforcer */
-     , (0x73072018, 0x73072012, '2005-02-09 10:00:00') /* Banderling Enforcer */
-     , (0x73072018, 0x73072013, '2005-02-09 10:00:00') /* Banderling Enforcer */;
+VALUES (0x73072018, 0x73072003, '2005-02-09 10:00:00') /* Ascendant Tumerok (10806) */
+     , (0x73072018, 0x73072004, '2005-02-09 10:00:00') /* Augmented Tumerok (10807) */
+     , (0x73072018, 0x73072006, '2005-02-09 10:00:00') /* Augmented Tumerok (10807) */
+     , (0x73072018, 0x7307200F, '2005-02-09 10:00:00') /* Augmented Tumerok (10807) */
+     , (0x73072018, 0x73072011, '2005-02-09 10:00:00') /* Banderling Enforcer (7346) */
+     , (0x73072018, 0x73072012, '2005-02-09 10:00:00') /* Banderling Enforcer (7346) */
+     , (0x73072018, 0x73072013, '2005-02-09 10:00:00') /* Banderling Enforcer (7346) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73072019,  7346, 0x30720000, 97.0601, 155.274, 41.005, 0.0653298, 0, 0, 0.997864,  True, '2005-02-09 10:00:00'); /* Banderling Enforcer */

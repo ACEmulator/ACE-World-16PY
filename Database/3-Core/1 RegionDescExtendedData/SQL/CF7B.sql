@@ -1,6 +1,5 @@
-DELETE FROM `encounter` WHERE `landblock` = 53115;
+DELETE FROM `encounter` WHERE `landblock` = 0xCF7B;
 
 INSERT INTO `encounter` (`landblock`, `weenie_Class_Id`, `cell_X`, `cell_Y`, `last_Modified`)
-VALUES (53115, 23186, 0, 2, '2005-02-09 10:00:00') /* Sho Newbie Shore Mix Generator */
-     , (53115, 23186, 2, 2, '2005-02-09 10:00:00') /* Sho Newbie Shore Mix Generator */
-     , (53115, 23186, 3, 8, '2005-02-09 10:00:00') /* Sho Newbie Shore Mix Generator */;
+VALUES (0xCF7B, 23186, 0, 2, '2005-02-09 10:00:00') /* Sho Newbie Shore Mix Generator */
+     , (0xCF7B, 23186, 2, 2, '2005-02-09 10:00:00') /* Sho Newbie Shore Mix Generator */;

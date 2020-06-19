@@ -21,4 +21,4 @@ VALUES (0x77B61005,  7923, 0x7B610105, 175.633, 164.047, 10.01, 0.205925, 0, 0, 
 /* @teleloc 0x7B610105 [175.633000 164.047000 10.010000] 0.205925 0.000000 0.000000 -0.978568 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x77B61005, 0x77B61004, '2005-02-09 10:00:00') /* Stranger in Town */;
+VALUES (0x77B61005, 0x77B61004, '2005-02-09 10:00:00') /* Stranger in Town (14412) */;

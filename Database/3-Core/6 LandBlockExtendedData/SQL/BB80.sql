@@ -41,7 +41,7 @@ VALUES (0x7BB8000B,  3955, 0xBB800000, 191.677, 104.1, 44.005, 0.991288, 0, 0, -
 /* @teleloc 0xBB800000 [191.677000 104.100000 44.005000] 0.991288 0.000000 0.000000 -0.131712 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BB8000B, 0x7BB8000E, '2005-02-09 10:00:00') /* Beltslora */;
+VALUES (0x7BB8000B, 0x7BB8000E, '2005-02-09 10:00:00') /* Beltslora (5047) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BB8000D,  4427, 0xBB800000, 167.854, 123.495, 44.0188, -0.0814868, 0, 0, 0.996674, False, '2005-02-09 10:00:00'); /* Lytelthorpe Outpost */

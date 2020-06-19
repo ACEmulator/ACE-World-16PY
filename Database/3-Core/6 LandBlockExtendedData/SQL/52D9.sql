@@ -13,24 +13,24 @@ VALUES (0x752D900B,  7923, 0x52D90100, 184.255, 124.968, 16.805, 0.994792, 0, 0,
 /* @teleloc 0x52D90100 [184.255000 124.968000 16.805000] 0.994792 0.000000 0.000000 -0.101925 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x752D900B, 0x752D900A, '2005-02-09 10:00:00') /* Banderling Thrasher */
-     , (0x752D900B, 0x752D900C, '2005-02-09 10:00:00') /* Enku Zefir */
-     , (0x752D900B, 0x752D900D, '2005-02-09 10:00:00') /* Enku Zefir */
-     , (0x752D900B, 0x752D900E, '2005-02-09 10:00:00') /* Enku Zefir */
-     , (0x752D900B, 0x752D900F, '2005-02-09 10:00:00') /* Enku Zefir */
-     , (0x752D900B, 0x752D9010, '2005-02-09 10:00:00') /* Enku Zefir */
-     , (0x752D900B, 0x752D9013, '2005-02-09 10:00:00') /* Banderling Antagonist */
-     , (0x752D900B, 0x752D9014, '2005-02-09 10:00:00') /* Banderling Antagonist */
-     , (0x752D900B, 0x752D9015, '2005-02-09 10:00:00') /* Banderling Antagonist */
-     , (0x752D900B, 0x752D9016, '2005-02-09 10:00:00') /* Banderling Antagonist */
-     , (0x752D900B, 0x752D9017, '2005-02-09 10:00:00') /* Banderling Slayer */
-     , (0x752D900B, 0x752D9018, '2005-02-09 10:00:00') /* Banderling Slayer */
-     , (0x752D900B, 0x752D9019, '2005-02-09 10:00:00') /* Banderling Slayer */
-     , (0x752D900B, 0x752D901A, '2005-02-09 10:00:00') /* Banderling Slayer */
-     , (0x752D900B, 0x752D901B, '2005-02-09 10:00:00') /* Banderling Slayer */
-     , (0x752D900B, 0x752D901C, '2005-02-09 10:00:00') /* Enku Zefir */
-     , (0x752D900B, 0x752D901D, '2005-02-09 10:00:00') /* Enku Zefir */
-     , (0x752D900B, 0x752D901E, '2005-02-09 10:00:00') /* Enku Zefir */;
+VALUES (0x752D900B, 0x752D900A, '2005-02-09 10:00:00') /* Banderling Thrasher (7086) */
+     , (0x752D900B, 0x752D900C, '2005-02-09 10:00:00') /* Enku Zefir (11534) */
+     , (0x752D900B, 0x752D900D, '2005-02-09 10:00:00') /* Enku Zefir (11534) */
+     , (0x752D900B, 0x752D900E, '2005-02-09 10:00:00') /* Enku Zefir (11534) */
+     , (0x752D900B, 0x752D900F, '2005-02-09 10:00:00') /* Enku Zefir (11534) */
+     , (0x752D900B, 0x752D9010, '2005-02-09 10:00:00') /* Enku Zefir (11534) */
+     , (0x752D900B, 0x752D9013, '2005-02-09 10:00:00') /* Banderling Antagonist (24275) */
+     , (0x752D900B, 0x752D9014, '2005-02-09 10:00:00') /* Banderling Antagonist (24275) */
+     , (0x752D900B, 0x752D9015, '2005-02-09 10:00:00') /* Banderling Antagonist (24275) */
+     , (0x752D900B, 0x752D9016, '2005-02-09 10:00:00') /* Banderling Antagonist (24275) */
+     , (0x752D900B, 0x752D9017, '2005-02-09 10:00:00') /* Banderling Slayer (24277) */
+     , (0x752D900B, 0x752D9018, '2005-02-09 10:00:00') /* Banderling Slayer (24277) */
+     , (0x752D900B, 0x752D9019, '2005-02-09 10:00:00') /* Banderling Slayer (24277) */
+     , (0x752D900B, 0x752D901A, '2005-02-09 10:00:00') /* Banderling Slayer (24277) */
+     , (0x752D900B, 0x752D901B, '2005-02-09 10:00:00') /* Banderling Slayer (24277) */
+     , (0x752D900B, 0x752D901C, '2005-02-09 10:00:00') /* Enku Zefir (11534) */
+     , (0x752D900B, 0x752D901D, '2005-02-09 10:00:00') /* Enku Zefir (11534) */
+     , (0x752D900B, 0x752D901E, '2005-02-09 10:00:00') /* Enku Zefir (11534) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x752D900C, 11534, 0x52D90000, 58.3235, 132.273, 41.205, 0.811575, 0, 0, 0.584248,  True, '2005-02-09 10:00:00'); /* Enku Zefir */

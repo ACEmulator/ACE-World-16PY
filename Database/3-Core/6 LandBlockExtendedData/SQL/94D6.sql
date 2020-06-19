@@ -5,8 +5,8 @@ VALUES (0x794D6000,  2181, 0x94D60102, 16.472, 108, 132.082, 0.707107, 0, 0, -0.
 /* @teleloc 0x94D60102 [16.472000 108.000000 132.082000] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x794D6000, 0x794D600A, '2005-02-09 10:00:00') /* Pressure Plate */
-     , (0x794D6000, 0x794D600B, '2005-02-09 10:00:00') /* Lever */;
+VALUES (0x794D6000, 0x794D600A, '2005-02-09 10:00:00') /* Pressure Plate (2131) */
+     , (0x794D6000, 0x794D600B, '2005-02-09 10:00:00') /* Lever (285) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x794D6001,  3970, 0x94D60100, 10.5789, 111.361, 140.889, 1, 0, 0, 0, False, '2005-02-09 10:00:00'); /* Chest */
@@ -37,14 +37,14 @@ VALUES (0x794D6007,  3955, 0x94D60000, 30.7177, 111.846, 132.005, -0.674865, 0, 
 /* @teleloc 0x94D60000 [30.717700 111.846000 132.005000] -0.674865 0.000000 0.000000 -0.737941 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x794D6007, 0x794D6002, '2005-02-09 10:00:00') /* Blue Phyntos Wasp */
-     , (0x794D6007, 0x794D6003, '2005-02-09 10:00:00') /* Blue Phyntos Wasp */
-     , (0x794D6007, 0x794D6004, '2005-02-09 10:00:00') /* Blue Phyntos Wasp */
-     , (0x794D6007, 0x794D6005, '2005-02-09 10:00:00') /* Ethereal Wisp */
-     , (0x794D6007, 0x794D6006, '2005-02-09 10:00:00') /* Wood Golem */
-     , (0x794D6007, 0x794D6009, '2005-02-09 10:00:00') /* Ivory Crafter */
-     , (0x794D6007, 0x794D600C, '2005-02-09 10:00:00') /* Ethereal Wisp */
-     , (0x794D6007, 0x794D600D, '2005-02-09 10:00:00') /* Ethereal Wisp */;
+VALUES (0x794D6007, 0x794D6002, '2005-02-09 10:00:00') /* Blue Phyntos Wasp (215) */
+     , (0x794D6007, 0x794D6003, '2005-02-09 10:00:00') /* Blue Phyntos Wasp (215) */
+     , (0x794D6007, 0x794D6004, '2005-02-09 10:00:00') /* Blue Phyntos Wasp (215) */
+     , (0x794D6007, 0x794D6005, '2005-02-09 10:00:00') /* Ethereal Wisp (1535) */
+     , (0x794D6007, 0x794D6006, '2005-02-09 10:00:00') /* Wood Golem (942) */
+     , (0x794D6007, 0x794D6009, '2005-02-09 10:00:00') /* Ivory Crafter (3925) */
+     , (0x794D6007, 0x794D600C, '2005-02-09 10:00:00') /* Ethereal Wisp (1535) */
+     , (0x794D6007, 0x794D600D, '2005-02-09 10:00:00') /* Ethereal Wisp (1535) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x794D6008,  4180, 0x94D60000, 9.68077, 111.024, 147.206, -0.578764, 0, 0, -0.815495, False, '2005-02-09 10:00:00'); /* Corpse */

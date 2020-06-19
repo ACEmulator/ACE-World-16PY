@@ -145,8 +145,8 @@ VALUES (0x70146024,  2180, 0x01460150, 40, -54.75, -60, 0, 0, 0, 1, False, '2005
 /* @teleloc 0x01460150 [40.000000 -54.750000 -60.000000] 0.000000 0.000000 0.000000 1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x70146024, 0x70146022, '2005-02-09 10:00:00') /* Lever */
-     , (0x70146024, 0x70146029, '2005-02-09 10:00:00') /* Lever */;
+VALUES (0x70146024, 0x70146022, '2005-02-09 10:00:00') /* Lever (2609) */
+     , (0x70146024, 0x70146029, '2005-02-09 10:00:00') /* Lever (2609) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x70146025,  7395, 0x01460152, 40, -60, -59.8, 0.707107, 0, 0, -0.707107, False, '2005-02-09 10:00:00'); /* Hot Air */
@@ -185,7 +185,7 @@ VALUES (0x7014602D,  2180, 0x0146015C, 40, -85.25, -60, 1, 0, 0, 0, False, '2005
 /* @teleloc 0x0146015C [40.000000 -85.250000 -60.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7014602D, 0x7014600C, '2005-02-09 10:00:00') /* Lever */;
+VALUES (0x7014602D, 0x7014600C, '2005-02-09 10:00:00') /* Lever (2609) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x70146030,  7093, 0x01460169, 70, -70, -59.9915, 1, 0, 0, 0,  True, '2005-02-09 10:00:00'); /* Hellfire */
@@ -332,7 +332,7 @@ VALUES (0x70146059,  7444, 0x01460203, 60.0071, -19.9173, -20.6724, 0.707107, 0,
 /* @teleloc 0x01460203 [60.007100 -19.917300 -20.672400] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x70146059, 0x7014605A, '2005-02-09 10:00:00') /* Pressure Plate */;
+VALUES (0x70146059, 0x7014605A, '2005-02-09 10:00:00') /* Pressure Plate (2131) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7014605A,  2131, 0x01460209, 66.8102, -19.903, -24, 0.707107, 0, 0, -0.707107,  True, '2005-02-09 10:00:00'); /* Pressure Plate */
@@ -351,7 +351,7 @@ VALUES (0x7014605D,  7444, 0x01460216, 60.8054, -68.8728, -15.2341, 0.0233416, 0
 /* @teleloc 0x01460216 [60.805400 -68.872800 -15.234100] 0.023342 0.000000 0.000000 -0.999728 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7014605D, 0x7014605C, '2005-02-09 10:00:00') /* Pressure Plate */;
+VALUES (0x7014605D, 0x7014605C, '2005-02-09 10:00:00') /* Pressure Plate (2131) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7014605E,  4032, 0x01460218, 67.7767, -51.1974, -17.9611, -0.990674, 0, 0, -0.136255, False, '2005-02-09 10:00:00'); /* Valuable Warrior Generator */
@@ -378,7 +378,7 @@ VALUES (0x70146063,  7444, 0x01460221, 78.7893, -50.6212, -15.301, 0, 0, 0, -1, 
 /* @teleloc 0x01460221 [78.789300 -50.621200 -15.301000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x70146063, 0x70146061, '2005-02-09 10:00:00') /* Pressure Plate */;
+VALUES (0x70146063, 0x70146061, '2005-02-09 10:00:00') /* Pressure Plate (2131) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x70146064, 22052, 0x01460222, 78.9427, -57.405, -17.9975, -0.589373, 0, 0, -0.807861,  True, '2005-02-09 10:00:00'); /* Seared Guard */
@@ -469,60 +469,60 @@ VALUES (0x70146079,  7444, 0x0146028F, 73.3045, -47.409, -3.44812, -4.37114E-08,
 /* @teleloc 0x0146028F [73.304500 -47.409000 -3.448120] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x70146079, 0x70146078, '2005-02-09 10:00:00') /* Pressure Plate */;
+VALUES (0x70146079, 0x70146078, '2005-02-09 10:00:00') /* Pressure Plate (2131) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7014607A,  7923, 0x0146029B, 68.4117, -20.834, 0, 1, 0, 0, 0, False, '2005-02-09 10:00:00'); /* Linkable Monster Generator ( 3 Min.) */
 /* @teleloc 0x0146029B [68.411700 -20.834000 0.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7014607A, 0x70146000, '2005-02-09 10:00:00') /* Hellfire */
-     , (0x7014607A, 0x70146002, '2005-02-09 10:00:00') /* Virindi Observer */
-     , (0x7014607A, 0x70146003, '2005-02-09 10:00:00') /* Altered Drudge */
-     , (0x7014607A, 0x70146004, '2005-02-09 10:00:00') /* Augmented Drudge */
-     , (0x7014607A, 0x7014600A, '2005-02-09 10:00:00') /* Virindi Overseer */
-     , (0x7014607A, 0x7014600E, '2005-02-09 10:00:00') /* Lord Cambarth */
-     , (0x7014607A, 0x7014600F, '2005-02-09 10:00:00') /* Foreman Brelax */
-     , (0x7014607A, 0x70146010, '2005-02-09 10:00:00') /* Altered Drudge */
-     , (0x7014607A, 0x70146011, '2005-02-09 10:00:00') /* Augmented Drudge */
-     , (0x7014607A, 0x70146018, '2005-02-09 10:00:00') /* Charred Miner */
-     , (0x7014607A, 0x70146019, '2005-02-09 10:00:00') /* Charred Miner */
-     , (0x7014607A, 0x7014601D, '2005-02-09 10:00:00') /* Ember */
-     , (0x7014607A, 0x70146020, '2005-02-09 10:00:00') /* Charred Miner */
-     , (0x7014607A, 0x70146021, '2005-02-09 10:00:00') /* Ember */
-     , (0x7014607A, 0x70146026, '2005-02-09 10:00:00') /* Magma Golem */
-     , (0x7014607A, 0x7014602C, '2005-02-09 10:00:00') /* Inferno */
-     , (0x7014607A, 0x70146030, '2005-02-09 10:00:00') /* Hellfire */
-     , (0x7014607A, 0x70146032, '2005-02-09 10:00:00') /* Inferno */
-     , (0x7014607A, 0x70146033, '2005-02-09 10:00:00') /* Magma Golem */
-     , (0x7014607A, 0x70146035, '2005-02-09 10:00:00') /* Charred Miner */
-     , (0x7014607A, 0x70146036, '2005-02-09 10:00:00') /* Charred Miner */
-     , (0x7014607A, 0x70146039, '2005-02-09 10:00:00') /* Seared Guard */
-     , (0x7014607A, 0x7014603A, '2005-02-09 10:00:00') /* Seared Guard */
-     , (0x7014607A, 0x7014603B, '2005-02-09 10:00:00') /* Firestorm */
-     , (0x7014607A, 0x7014603C, '2005-02-09 10:00:00') /* Seared Guard */
-     , (0x7014607A, 0x7014603D, '2005-02-09 10:00:00') /* Charred Miner */
-     , (0x7014607A, 0x70146041, '2005-02-09 10:00:00') /* Fire Wisp */
-     , (0x7014607A, 0x70146042, '2005-02-09 10:00:00') /* Seared Guard */
-     , (0x7014607A, 0x70146043, '2005-02-09 10:00:00') /* Seared Guard */
-     , (0x7014607A, 0x70146045, '2005-02-09 10:00:00') /* Augmented Drudge */
-     , (0x7014607A, 0x7014604C, '2005-02-09 10:00:00') /* Augmented Drudge */
-     , (0x7014607A, 0x70146052, '2005-02-09 10:00:00') /* Magma Golem */
-     , (0x7014607A, 0x70146054, '2005-02-09 10:00:00') /* Altered Drudge */
-     , (0x7014607A, 0x70146055, '2005-02-09 10:00:00') /* Augmented Drudge */
-     , (0x7014607A, 0x70146057, '2005-02-09 10:00:00') /* Seared Guard */
-     , (0x7014607A, 0x70146058, '2005-02-09 10:00:00') /* Charred Miner */
-     , (0x7014607A, 0x7014605B, '2005-02-09 10:00:00') /* Magma Golem */
-     , (0x7014607A, 0x7014605F, '2005-02-09 10:00:00') /* Inferno */
-     , (0x7014607A, 0x70146062, '2005-02-09 10:00:00') /* Virindi Observer */
-     , (0x7014607A, 0x70146064, '2005-02-09 10:00:00') /* Seared Guard */
-     , (0x7014607A, 0x70146065, '2005-02-09 10:00:00') /* Charred Miner */
-     , (0x7014607A, 0x70146066, '2005-02-09 10:00:00') /* Charred Miner */
-     , (0x7014607A, 0x70146067, '2005-02-09 10:00:00') /* Seared Guard */
-     , (0x7014607A, 0x70146069, '2005-02-09 10:00:00') /* Virindi Observer */
-     , (0x7014607A, 0x7014606D, '2005-02-09 10:00:00') /* Seared Guard */
-     , (0x7014607A, 0x7014606E, '2005-02-09 10:00:00') /* Virindi Observer */
-     , (0x7014607A, 0x70146077, '2005-02-09 10:00:00') /* Charred Miner */;
+VALUES (0x7014607A, 0x70146000, '2005-02-09 10:00:00') /* Hellfire (7093) */
+     , (0x7014607A, 0x70146002, '2005-02-09 10:00:00') /* Virindi Observer (7340) */
+     , (0x7014607A, 0x70146003, '2005-02-09 10:00:00') /* Altered Drudge (7089) */
+     , (0x7014607A, 0x70146004, '2005-02-09 10:00:00') /* Augmented Drudge (7090) */
+     , (0x7014607A, 0x7014600A, '2005-02-09 10:00:00') /* Virindi Overseer (22077) */
+     , (0x7014607A, 0x7014600E, '2005-02-09 10:00:00') /* Lord Cambarth (22050) */
+     , (0x7014607A, 0x7014600F, '2005-02-09 10:00:00') /* Foreman Brelax (22049) */
+     , (0x7014607A, 0x70146010, '2005-02-09 10:00:00') /* Altered Drudge (7089) */
+     , (0x7014607A, 0x70146011, '2005-02-09 10:00:00') /* Augmented Drudge (7090) */
+     , (0x7014607A, 0x70146018, '2005-02-09 10:00:00') /* Charred Miner (22051) */
+     , (0x7014607A, 0x70146019, '2005-02-09 10:00:00') /* Charred Miner (22051) */
+     , (0x7014607A, 0x7014601D, '2005-02-09 10:00:00') /* Ember (7607) */
+     , (0x7014607A, 0x70146020, '2005-02-09 10:00:00') /* Charred Miner (22051) */
+     , (0x7014607A, 0x70146021, '2005-02-09 10:00:00') /* Ember (7607) */
+     , (0x7014607A, 0x70146026, '2005-02-09 10:00:00') /* Magma Golem (199) */
+     , (0x7014607A, 0x7014602C, '2005-02-09 10:00:00') /* Inferno (7487) */
+     , (0x7014607A, 0x70146030, '2005-02-09 10:00:00') /* Hellfire (7093) */
+     , (0x7014607A, 0x70146032, '2005-02-09 10:00:00') /* Inferno (7487) */
+     , (0x7014607A, 0x70146033, '2005-02-09 10:00:00') /* Magma Golem (199) */
+     , (0x7014607A, 0x70146035, '2005-02-09 10:00:00') /* Charred Miner (22051) */
+     , (0x7014607A, 0x70146036, '2005-02-09 10:00:00') /* Charred Miner (22051) */
+     , (0x7014607A, 0x70146039, '2005-02-09 10:00:00') /* Seared Guard (22052) */
+     , (0x7014607A, 0x7014603A, '2005-02-09 10:00:00') /* Seared Guard (22052) */
+     , (0x7014607A, 0x7014603B, '2005-02-09 10:00:00') /* Firestorm (7092) */
+     , (0x7014607A, 0x7014603C, '2005-02-09 10:00:00') /* Seared Guard (22052) */
+     , (0x7014607A, 0x7014603D, '2005-02-09 10:00:00') /* Charred Miner (22051) */
+     , (0x7014607A, 0x70146041, '2005-02-09 10:00:00') /* Fire Wisp (5748) */
+     , (0x7014607A, 0x70146042, '2005-02-09 10:00:00') /* Seared Guard (22052) */
+     , (0x7014607A, 0x70146043, '2005-02-09 10:00:00') /* Seared Guard (22052) */
+     , (0x7014607A, 0x70146045, '2005-02-09 10:00:00') /* Augmented Drudge (7090) */
+     , (0x7014607A, 0x7014604C, '2005-02-09 10:00:00') /* Augmented Drudge (7090) */
+     , (0x7014607A, 0x70146052, '2005-02-09 10:00:00') /* Magma Golem (199) */
+     , (0x7014607A, 0x70146054, '2005-02-09 10:00:00') /* Altered Drudge (7089) */
+     , (0x7014607A, 0x70146055, '2005-02-09 10:00:00') /* Augmented Drudge (7090) */
+     , (0x7014607A, 0x70146057, '2005-02-09 10:00:00') /* Seared Guard (22052) */
+     , (0x7014607A, 0x70146058, '2005-02-09 10:00:00') /* Charred Miner (22051) */
+     , (0x7014607A, 0x7014605B, '2005-02-09 10:00:00') /* Magma Golem (199) */
+     , (0x7014607A, 0x7014605F, '2005-02-09 10:00:00') /* Inferno (7487) */
+     , (0x7014607A, 0x70146062, '2005-02-09 10:00:00') /* Virindi Observer (7340) */
+     , (0x7014607A, 0x70146064, '2005-02-09 10:00:00') /* Seared Guard (22052) */
+     , (0x7014607A, 0x70146065, '2005-02-09 10:00:00') /* Charred Miner (22051) */
+     , (0x7014607A, 0x70146066, '2005-02-09 10:00:00') /* Charred Miner (22051) */
+     , (0x7014607A, 0x70146067, '2005-02-09 10:00:00') /* Seared Guard (22052) */
+     , (0x7014607A, 0x70146069, '2005-02-09 10:00:00') /* Virindi Observer (7340) */
+     , (0x7014607A, 0x7014606D, '2005-02-09 10:00:00') /* Seared Guard (22052) */
+     , (0x7014607A, 0x7014606E, '2005-02-09 10:00:00') /* Virindi Observer (7340) */
+     , (0x7014607A, 0x70146077, '2005-02-09 10:00:00') /* Charred Miner (22051) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7014607B,  5673, 0x0146029D, 68.1217, -29.4294, 0, -0.142954, 0, 0, -0.989729, False, '2005-02-09 10:00:00'); /* Charred Sign */

@@ -9,7 +9,7 @@ VALUES (0x79FA7001,  7923, 0x9FA70000, 78.2863, 110.498, 67.4811, -0.456234, 0, 
 /* @teleloc 0x9FA70000 [78.286300 110.498000 67.481100] -0.456234 0.000000 0.000000 -0.889860 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79FA7001, 0x79FA7002, '2005-02-09 10:00:00') /* Chunk of Wood */;
+VALUES (0x79FA7001, 0x79FA7002, '2005-02-09 10:00:00') /* Chunk of Wood (24158) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79FA7002, 24158, 0x9FA70000, 75.9116, 108.765, 67.6922, -0.456234, 0, 0, -0.88986,  True, '2005-02-09 10:00:00'); /* Chunk of Wood */

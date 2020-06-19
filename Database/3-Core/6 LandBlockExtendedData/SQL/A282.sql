@@ -41,15 +41,15 @@ VALUES (0x7A282009,  1154, 0xA2820000, 38.7309, 60.3152, 33.205, -0.0856339, 0, 
 /* @teleloc 0xA2820000 [38.730900 60.315200 33.205000] -0.085634 0.000000 0.000000 0.996327 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A282009, 0x7A282000, '2005-02-09 10:00:00') /* Skeleton */
-     , (0x7A282009, 0x7A282001, '2005-02-09 10:00:00') /* Skeleton */
-     , (0x7A282009, 0x7A282002, '2005-02-09 10:00:00') /* Skeleton */
-     , (0x7A282009, 0x7A282003, '2005-02-09 10:00:00') /* Skeleton Warrior */
-     , (0x7A282009, 0x7A282004, '2005-02-09 10:00:00') /* Skeleton Warrior */
-     , (0x7A282009, 0x7A282005, '2005-02-09 10:00:00') /* Skeleton Warrior */
-     , (0x7A282009, 0x7A282006, '2005-02-09 10:00:00') /* Skeleton Warrior */
-     , (0x7A282009, 0x7A282007, '2005-02-09 10:00:00') /* Skeleton Warrior */
-     , (0x7A282009, 0x7A282008, '2005-02-09 10:00:00') /* Skeleton Captain */;
+VALUES (0x7A282009, 0x7A282000, '2005-02-09 10:00:00') /* Skeleton (1759) */
+     , (0x7A282009, 0x7A282001, '2005-02-09 10:00:00') /* Skeleton (1759) */
+     , (0x7A282009, 0x7A282002, '2005-02-09 10:00:00') /* Skeleton (1759) */
+     , (0x7A282009, 0x7A282003, '2005-02-09 10:00:00') /* Skeleton Warrior (1760) */
+     , (0x7A282009, 0x7A282004, '2005-02-09 10:00:00') /* Skeleton Warrior (1760) */
+     , (0x7A282009, 0x7A282005, '2005-02-09 10:00:00') /* Skeleton Warrior (1760) */
+     , (0x7A282009, 0x7A282006, '2005-02-09 10:00:00') /* Skeleton Warrior (1760) */
+     , (0x7A282009, 0x7A282007, '2005-02-09 10:00:00') /* Skeleton Warrior (1760) */
+     , (0x7A282009, 0x7A282008, '2005-02-09 10:00:00') /* Skeleton Captain (1761) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A28200A,  1915, 0xA2820000, 39.1707, 63.0432, 33.205, -0.999949, 0, 0, 0.0100571, False, '2005-02-09 10:00:00'); /* Chest */

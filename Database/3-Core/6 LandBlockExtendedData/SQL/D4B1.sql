@@ -5,14 +5,14 @@ VALUES (0x7D4B1000,  1154, 0xD4B10000, 124.996, 115.145, -0.095, 0.471069, 0, 0,
 /* @teleloc 0xD4B10000 [124.996000 115.145000 -0.095000] 0.471069 0.000000 0.000000 0.882096 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7D4B1000, 0x7D4B1001, '2005-02-09 10:00:00') /* Shallows Slayer */
-     , (0x7D4B1000, 0x7D4B1002, '2005-02-09 10:00:00') /* Shallows Slayer */
-     , (0x7D4B1000, 0x7D4B1003, '2005-02-09 10:00:00') /* Shallows Shark */
-     , (0x7D4B1000, 0x7D4B1004, '2005-02-09 10:00:00') /* Shallows Shark */
-     , (0x7D4B1000, 0x7D4B1005, '2005-02-09 10:00:00') /* Shallows Slayer */
-     , (0x7D4B1000, 0x7D4B1006, '2005-02-09 10:00:00') /* Shallows Slayer */
-     , (0x7D4B1000, 0x7D4B1007, '2005-02-09 10:00:00') /* Shallows Slayer */
-     , (0x7D4B1000, 0x7D4B1008, '2005-02-09 10:00:00') /* Shallows Shark */;
+VALUES (0x7D4B1000, 0x7D4B1001, '2005-02-09 10:00:00') /* Shallows Slayer (2579) */
+     , (0x7D4B1000, 0x7D4B1002, '2005-02-09 10:00:00') /* Shallows Slayer (2579) */
+     , (0x7D4B1000, 0x7D4B1003, '2005-02-09 10:00:00') /* Shallows Shark (2577) */
+     , (0x7D4B1000, 0x7D4B1004, '2005-02-09 10:00:00') /* Shallows Shark (2577) */
+     , (0x7D4B1000, 0x7D4B1005, '2005-02-09 10:00:00') /* Shallows Slayer (2579) */
+     , (0x7D4B1000, 0x7D4B1006, '2005-02-09 10:00:00') /* Shallows Slayer (2579) */
+     , (0x7D4B1000, 0x7D4B1007, '2005-02-09 10:00:00') /* Shallows Slayer (2579) */
+     , (0x7D4B1000, 0x7D4B1008, '2005-02-09 10:00:00') /* Shallows Shark (2577) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7D4B1001,  2579, 0xD4B10000, 160.758, 148.716, -0.895, 0.776673, 0, 0, 0.629904,  True, '2005-02-09 10:00:00'); /* Shallows Slayer */

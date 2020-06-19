@@ -37,17 +37,17 @@ VALUES (0x7231C016,  7924, 0x231C0000, 59.1989, 173.545, 56.005, 0.743286, 0, 0,
 /* @teleloc 0x231C0000 [59.198900 173.545000 56.005000] 0.743286 0.000000 0.000000 0.668973 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7231C016, 0x7231C00B, '2005-02-09 10:00:00') /* Raider Juggernaut */
-     , (0x7231C016, 0x7231C010, '2005-02-09 10:00:00') /* Raider Juggernaut */
-     , (0x7231C016, 0x7231C011, '2005-02-09 10:00:00') /* Raider Juggernaut */
-     , (0x7231C016, 0x7231C012, '2005-02-09 10:00:00') /* Raider Juggernaut */
-     , (0x7231C016, 0x7231C013, '2005-02-09 10:00:00') /* Tumerok War Monger */
-     , (0x7231C016, 0x7231C014, '2005-02-09 10:00:00') /* Tumerok War Monger */
-     , (0x7231C016, 0x7231C015, '2005-02-09 10:00:00') /* Tumerok War Monger */
-     , (0x7231C016, 0x7231C017, '2005-02-09 10:00:00') /* Raider Juggernaut */
-     , (0x7231C016, 0x7231C018, '2005-02-09 10:00:00') /* Raider Juggernaut */
-     , (0x7231C016, 0x7231C019, '2005-02-09 10:00:00') /* Raider Juggernaut */
-     , (0x7231C016, 0x7231C01A, '2005-02-09 10:00:00') /* Tumerok War Monger */;
+VALUES (0x7231C016, 0x7231C00B, '2005-02-09 10:00:00') /* Raider Juggernaut (24285) */
+     , (0x7231C016, 0x7231C010, '2005-02-09 10:00:00') /* Raider Juggernaut (24285) */
+     , (0x7231C016, 0x7231C011, '2005-02-09 10:00:00') /* Raider Juggernaut (24285) */
+     , (0x7231C016, 0x7231C012, '2005-02-09 10:00:00') /* Raider Juggernaut (24285) */
+     , (0x7231C016, 0x7231C013, '2005-02-09 10:00:00') /* Tumerok War Monger (23567) */
+     , (0x7231C016, 0x7231C014, '2005-02-09 10:00:00') /* Tumerok War Monger (23567) */
+     , (0x7231C016, 0x7231C015, '2005-02-09 10:00:00') /* Tumerok War Monger (23567) */
+     , (0x7231C016, 0x7231C017, '2005-02-09 10:00:00') /* Raider Juggernaut (24285) */
+     , (0x7231C016, 0x7231C018, '2005-02-09 10:00:00') /* Raider Juggernaut (24285) */
+     , (0x7231C016, 0x7231C019, '2005-02-09 10:00:00') /* Raider Juggernaut (24285) */
+     , (0x7231C016, 0x7231C01A, '2005-02-09 10:00:00') /* Tumerok War Monger (23567) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7231C017, 24285, 0x231C0000, 43.2046, 186.985, 56.01, -0.793724, 0, 0, 0.608278,  True, '2005-02-09 10:00:00'); /* Raider Juggernaut */

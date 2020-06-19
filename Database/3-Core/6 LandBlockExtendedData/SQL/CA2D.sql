@@ -9,7 +9,7 @@ VALUES (0x7CA2D001,  1154, 0xCA2D0104, 182.498, 113.026, 161.66, -0.998842, 0, 0
 /* @teleloc 0xCA2D0104 [182.498000 113.026000 161.660000] -0.998842 0.000000 0.000000 -0.048101 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7CA2D001, 0x7CA2D002, '2005-02-09 10:00:00') /* Greater Mu-miyah */;
+VALUES (0x7CA2D001, 0x7CA2D002, '2005-02-09 10:00:00') /* Greater Mu-miyah (1764) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7CA2D002,  1764, 0xCA2D0104, 179.709, 112.689, 161.66, -0.998842, 0, 0, -0.0481011,  True, '2005-02-09 10:00:00'); /* Greater Mu-miyah */

@@ -17,6 +17,6 @@ VALUES (0x7884B003,  3955, 0x884B0000, 0.87706, 24.6562, -0.895, -0.994365, 0, 0
 /* @teleloc 0x884B0000 [0.877060 24.656200 -0.895000] -0.994365 0.000000 0.000000 0.106012 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7884B003, 0x7884B000, '2005-02-09 10:00:00') /* Sandy Armoredillo */
-     , (0x7884B003, 0x7884B001, '2005-02-09 10:00:00') /* Sandy Armoredillo */
-     , (0x7884B003, 0x7884B002, '2005-02-09 10:00:00') /* Sandy Armoredillo */;
+VALUES (0x7884B003, 0x7884B000, '2005-02-09 10:00:00') /* Sandy Armoredillo (180) */
+     , (0x7884B003, 0x7884B001, '2005-02-09 10:00:00') /* Sandy Armoredillo (180) */
+     , (0x7884B003, 0x7884B002, '2005-02-09 10:00:00') /* Sandy Armoredillo (180) */;

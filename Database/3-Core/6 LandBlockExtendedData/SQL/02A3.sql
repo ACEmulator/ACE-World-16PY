@@ -5,19 +5,19 @@ VALUES (0x702A3000,  7924, 0x02A30100, -3.63826, -1.331, 0.005, 0.683673, 0, 0, 
 /* @teleloc 0x02A30100 [-3.638260 -1.331000 0.005000] 0.683673 0.000000 0.000000 -0.729788 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x702A3000, 0x702A3002, '2005-02-09 10:00:00') /* Broken Virindi */
-     , (0x702A3000, 0x702A3004, '2005-02-09 10:00:00') /* Conquered Virindi */
-     , (0x702A3000, 0x702A3005, '2005-02-09 10:00:00') /* Leashed Virindi */
-     , (0x702A3000, 0x702A3006, '2005-02-09 10:00:00') /* Tamed Virindi */
-     , (0x702A3000, 0x702A3007, '2005-02-09 10:00:00') /* Beaten Virindi */
-     , (0x702A3000, 0x702A3008, '2005-02-09 10:00:00') /* Staff Minion */
-     , (0x702A3000, 0x702A3009, '2005-02-09 10:00:00') /* Bow Minion */
-     , (0x702A3000, 0x702A300A, '2005-02-09 10:00:00') /* Crossbow Minion */
-     , (0x702A3000, 0x702A300B, '2005-02-09 10:00:00') /* Unarmed Minion */
-     , (0x702A3000, 0x702A300C, '2005-02-09 10:00:00') /* Dagger Minion */
-     , (0x702A3000, 0x702A300D, '2005-02-09 10:00:00') /* Atlatl Minion */
-     , (0x702A3000, 0x702A300E, '2005-02-09 10:00:00') /* Life Magic Minion */
-     , (0x702A3000, 0x702A300F, '2005-02-09 10:00:00') /* War Magic Minion */;
+VALUES (0x702A3000, 0x702A3002, '2005-02-09 10:00:00') /* Broken Virindi (9132) */
+     , (0x702A3000, 0x702A3004, '2005-02-09 10:00:00') /* Conquered Virindi (9133) */
+     , (0x702A3000, 0x702A3005, '2005-02-09 10:00:00') /* Leashed Virindi (9134) */
+     , (0x702A3000, 0x702A3006, '2005-02-09 10:00:00') /* Tamed Virindi (9135) */
+     , (0x702A3000, 0x702A3007, '2005-02-09 10:00:00') /* Beaten Virindi (9131) */
+     , (0x702A3000, 0x702A3008, '2005-02-09 10:00:00') /* Staff Minion (14472) */
+     , (0x702A3000, 0x702A3009, '2005-02-09 10:00:00') /* Bow Minion (14469) */
+     , (0x702A3000, 0x702A300A, '2005-02-09 10:00:00') /* Crossbow Minion (14470) */
+     , (0x702A3000, 0x702A300B, '2005-02-09 10:00:00') /* Unarmed Minion (14473) */
+     , (0x702A3000, 0x702A300C, '2005-02-09 10:00:00') /* Dagger Minion (14471) */
+     , (0x702A3000, 0x702A300D, '2005-02-09 10:00:00') /* Atlatl Minion (23524) */
+     , (0x702A3000, 0x702A300E, '2005-02-09 10:00:00') /* Life Magic Minion (27812) */
+     , (0x702A3000, 0x702A300F, '2005-02-09 10:00:00') /* War Magic Minion (27813) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x702A3001,  9162, 0x02A30104, 13.2282, 4.88946, 2.10013, 0, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Statue */

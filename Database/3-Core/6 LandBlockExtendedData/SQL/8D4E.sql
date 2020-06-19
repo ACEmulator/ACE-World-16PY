@@ -57,16 +57,16 @@ VALUES (0x78D4E00D,  4219, 0x8D4E0000, 151.201, 46.9993, 10.0834, -0.309889, 0, 
 /* @teleloc 0x8D4E0000 [151.201000 46.999300 10.083400] -0.309889 0.000000 0.000000 0.950773 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x78D4E00D, 0x78D4E000, '2005-02-09 10:00:00') /* Burun Ruuk Ruffian */
-     , (0x78D4E00D, 0x78D4E001, '2005-02-09 10:00:00') /* Burun Ruuk Ruffian */
-     , (0x78D4E00D, 0x78D4E002, '2005-02-09 10:00:00') /* Burun Ruuk Ruffian */
-     , (0x78D4E00D, 0x78D4E003, '2005-02-09 10:00:00') /* Burun Ruuk Ruffian */
-     , (0x78D4E00D, 0x78D4E004, '2005-02-09 10:00:00') /* Burun Ruuk Ruffian */
-     , (0x78D4E00D, 0x78D4E005, '2005-02-09 10:00:00') /* Burun Ruuk Ruffian */
-     , (0x78D4E00D, 0x78D4E006, '2005-02-09 10:00:00') /* Burun Ruuk Ruffian */
-     , (0x78D4E00D, 0x78D4E007, '2005-02-09 10:00:00') /* Burun Ruuk Adherent */
-     , (0x78D4E00D, 0x78D4E008, '2005-02-09 10:00:00') /* Burun Ruuk Adherent */
-     , (0x78D4E00D, 0x78D4E009, '2005-02-09 10:00:00') /* Burun Ruuk Adherent */
-     , (0x78D4E00D, 0x78D4E00A, '2005-02-09 10:00:00') /* Burun Ruuk Adherent */
-     , (0x78D4E00D, 0x78D4E00B, '2005-02-09 10:00:00') /* Burun Ruuk Adherent */
-     , (0x78D4E00D, 0x78D4E00C, '2005-02-09 10:00:00') /* Burun Ruuk Adherent */;
+VALUES (0x78D4E00D, 0x78D4E000, '2005-02-09 10:00:00') /* Burun Ruuk Ruffian (26016) */
+     , (0x78D4E00D, 0x78D4E001, '2005-02-09 10:00:00') /* Burun Ruuk Ruffian (26016) */
+     , (0x78D4E00D, 0x78D4E002, '2005-02-09 10:00:00') /* Burun Ruuk Ruffian (26016) */
+     , (0x78D4E00D, 0x78D4E003, '2005-02-09 10:00:00') /* Burun Ruuk Ruffian (26016) */
+     , (0x78D4E00D, 0x78D4E004, '2005-02-09 10:00:00') /* Burun Ruuk Ruffian (26016) */
+     , (0x78D4E00D, 0x78D4E005, '2005-02-09 10:00:00') /* Burun Ruuk Ruffian (26016) */
+     , (0x78D4E00D, 0x78D4E006, '2005-02-09 10:00:00') /* Burun Ruuk Ruffian (26016) */
+     , (0x78D4E00D, 0x78D4E007, '2005-02-09 10:00:00') /* Burun Ruuk Adherent (26013) */
+     , (0x78D4E00D, 0x78D4E008, '2005-02-09 10:00:00') /* Burun Ruuk Adherent (26013) */
+     , (0x78D4E00D, 0x78D4E009, '2005-02-09 10:00:00') /* Burun Ruuk Adherent (26013) */
+     , (0x78D4E00D, 0x78D4E00A, '2005-02-09 10:00:00') /* Burun Ruuk Adherent (26013) */
+     , (0x78D4E00D, 0x78D4E00B, '2005-02-09 10:00:00') /* Burun Ruuk Adherent (26013) */
+     , (0x78D4E00D, 0x78D4E00C, '2005-02-09 10:00:00') /* Burun Ruuk Adherent (26013) */;

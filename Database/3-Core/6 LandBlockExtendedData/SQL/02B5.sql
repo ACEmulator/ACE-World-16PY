@@ -65,35 +65,35 @@ VALUES (0x702B500F,  7923, 0x02B5019C, 88.9787, -79.2721, -35.995, -0.993724, 0,
 /* @teleloc 0x02B5019C [88.978700 -79.272100 -35.995000] -0.993724 0.000000 0.000000 -0.111861 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x702B500F, 0x702B5000, '2005-02-09 10:00:00') /* Desolation Moarsman */
-     , (0x702B500F, 0x702B5001, '2005-02-09 10:00:00') /* Squallid Moarsman */
-     , (0x702B500F, 0x702B5002, '2005-02-09 10:00:00') /* Filth Dweller */
-     , (0x702B500F, 0x702B5003, '2005-02-09 10:00:00') /* Filth Dweller */
-     , (0x702B500F, 0x702B5004, '2005-02-09 10:00:00') /* Desolation Moarsman */
-     , (0x702B500F, 0x702B5005, '2005-02-09 10:00:00') /* Squallid Moarsman */
-     , (0x702B500F, 0x702B5006, '2005-02-09 10:00:00') /* Squallid Moarsman */
-     , (0x702B500F, 0x702B5007, '2005-02-09 10:00:00') /* Desolation Moarsman */
-     , (0x702B500F, 0x702B5008, '2005-02-09 10:00:00') /* Squallid Moarsman */
-     , (0x702B500F, 0x702B5009, '2005-02-09 10:00:00') /* Desolation Moarsman */
-     , (0x702B500F, 0x702B500A, '2005-02-09 10:00:00') /* Filth Dweller */
-     , (0x702B500F, 0x702B500B, '2005-02-09 10:00:00') /* Squallid Moarsman */
-     , (0x702B500F, 0x702B500C, '2005-02-09 10:00:00') /* Desolation Moarsman */
-     , (0x702B500F, 0x702B500D, '2005-02-09 10:00:00') /* Filth Dweller */
-     , (0x702B500F, 0x702B500E, '2005-02-09 10:00:00') /* Squallid Moarsman */
-     , (0x702B500F, 0x702B5010, '2005-02-09 10:00:00') /* Squallid Moarsman */
-     , (0x702B500F, 0x702B5011, '2005-02-09 10:00:00') /* Desolation Moarsman */
-     , (0x702B500F, 0x702B5013, '2005-02-09 10:00:00') /* Filth Dweller */
-     , (0x702B500F, 0x702B5014, '2005-02-09 10:00:00') /* Squallid Moarsman */
-     , (0x702B500F, 0x702B5015, '2005-02-09 10:00:00') /* Filth Dweller */
-     , (0x702B500F, 0x702B5067, '2005-02-09 10:00:00') /* Desolation Moarsman */
-     , (0x702B500F, 0x702B5068, '2005-02-09 10:00:00') /* Squallid Moarsman */
-     , (0x702B500F, 0x702B5069, '2005-02-09 10:00:00') /* Squallid Moarsman */
-     , (0x702B500F, 0x702B506A, '2005-02-09 10:00:00') /* Squallid Moarsman */
-     , (0x702B500F, 0x702B506B, '2005-02-09 10:00:00') /* Squallid Moarsman */
-     , (0x702B500F, 0x702B506E, '2005-02-09 10:00:00') /* Filth Dweller */
-     , (0x702B500F, 0x702B506F, '2005-02-09 10:00:00') /* Squallid Moarsman */
-     , (0x702B500F, 0x702B5070, '2005-02-09 10:00:00') /* Squallid Moarsman */
-     , (0x702B500F, 0x702B5071, '2005-02-09 10:00:00') /* Filth Dweller */;
+VALUES (0x702B500F, 0x702B5000, '2005-02-09 10:00:00') /* Desolation Moarsman (7181) */
+     , (0x702B500F, 0x702B5001, '2005-02-09 10:00:00') /* Squallid Moarsman (27861) */
+     , (0x702B500F, 0x702B5002, '2005-02-09 10:00:00') /* Filth Dweller (27855) */
+     , (0x702B500F, 0x702B5003, '2005-02-09 10:00:00') /* Filth Dweller (27855) */
+     , (0x702B500F, 0x702B5004, '2005-02-09 10:00:00') /* Desolation Moarsman (7181) */
+     , (0x702B500F, 0x702B5005, '2005-02-09 10:00:00') /* Squallid Moarsman (27861) */
+     , (0x702B500F, 0x702B5006, '2005-02-09 10:00:00') /* Squallid Moarsman (27861) */
+     , (0x702B500F, 0x702B5007, '2005-02-09 10:00:00') /* Desolation Moarsman (7181) */
+     , (0x702B500F, 0x702B5008, '2005-02-09 10:00:00') /* Squallid Moarsman (27861) */
+     , (0x702B500F, 0x702B5009, '2005-02-09 10:00:00') /* Desolation Moarsman (7181) */
+     , (0x702B500F, 0x702B500A, '2005-02-09 10:00:00') /* Filth Dweller (27855) */
+     , (0x702B500F, 0x702B500B, '2005-02-09 10:00:00') /* Squallid Moarsman (27861) */
+     , (0x702B500F, 0x702B500C, '2005-02-09 10:00:00') /* Desolation Moarsman (7181) */
+     , (0x702B500F, 0x702B500D, '2005-02-09 10:00:00') /* Filth Dweller (27855) */
+     , (0x702B500F, 0x702B500E, '2005-02-09 10:00:00') /* Squallid Moarsman (27861) */
+     , (0x702B500F, 0x702B5010, '2005-02-09 10:00:00') /* Squallid Moarsman (27861) */
+     , (0x702B500F, 0x702B5011, '2005-02-09 10:00:00') /* Desolation Moarsman (7181) */
+     , (0x702B500F, 0x702B5013, '2005-02-09 10:00:00') /* Filth Dweller (27855) */
+     , (0x702B500F, 0x702B5014, '2005-02-09 10:00:00') /* Squallid Moarsman (27861) */
+     , (0x702B500F, 0x702B5015, '2005-02-09 10:00:00') /* Filth Dweller (27855) */
+     , (0x702B500F, 0x702B5067, '2005-02-09 10:00:00') /* Desolation Moarsman (7181) */
+     , (0x702B500F, 0x702B5068, '2005-02-09 10:00:00') /* Squallid Moarsman (27861) */
+     , (0x702B500F, 0x702B5069, '2005-02-09 10:00:00') /* Squallid Moarsman (27861) */
+     , (0x702B500F, 0x702B506A, '2005-02-09 10:00:00') /* Squallid Moarsman (27861) */
+     , (0x702B500F, 0x702B506B, '2005-02-09 10:00:00') /* Squallid Moarsman (27861) */
+     , (0x702B500F, 0x702B506E, '2005-02-09 10:00:00') /* Filth Dweller (27855) */
+     , (0x702B500F, 0x702B506F, '2005-02-09 10:00:00') /* Squallid Moarsman (27861) */
+     , (0x702B500F, 0x702B5070, '2005-02-09 10:00:00') /* Squallid Moarsman (27861) */
+     , (0x702B500F, 0x702B5071, '2005-02-09 10:00:00') /* Filth Dweller (27855) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x702B5010, 27861, 0x02B501A0, 92.8417, -110.004, -35.9936, -0.711958, 0, 0, 0.702222,  True, '2005-02-09 10:00:00'); /* Squallid Moarsman */
@@ -272,59 +272,59 @@ VALUES (0x702B503B,  7923, 0x02B502C1, 119.005, -261.849, 0.005, 1, 0, 0, 0, Fal
 /* @teleloc 0x02B502C1 [119.005000 -261.849000 0.005000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x702B503B, 0x702B5017, '2005-02-09 10:00:00') /* Elite Revenant */
-     , (0x702B503B, 0x702B5019, '2005-02-09 10:00:00') /* Demilich */
-     , (0x702B503B, 0x702B501B, '2005-02-09 10:00:00') /* Elite Revenant */
-     , (0x702B503B, 0x702B501D, '2005-02-09 10:00:00') /* Demilich */
-     , (0x702B503B, 0x702B501E, '2005-02-09 10:00:00') /* Mosswart Scrounger */
-     , (0x702B503B, 0x702B501F, '2005-02-09 10:00:00') /* Mosswart Scavenger */
-     , (0x702B503B, 0x702B5020, '2005-02-09 10:00:00') /* Mosswart Scavenger */
-     , (0x702B503B, 0x702B5021, '2005-02-09 10:00:00') /* Mosswart Scavenger */
-     , (0x702B503B, 0x702B5023, '2005-02-09 10:00:00') /* Mosswart Scavenger */
-     , (0x702B503B, 0x702B5024, '2005-02-09 10:00:00') /* Mosswart Scrounger */
-     , (0x702B503B, 0x702B5025, '2005-02-09 10:00:00') /* Mosswart Scavenger */
-     , (0x702B503B, 0x702B5026, '2005-02-09 10:00:00') /* Mosswart Scavenger */
-     , (0x702B503B, 0x702B5027, '2005-02-09 10:00:00') /* Mosswart Scrounger */
-     , (0x702B503B, 0x702B5028, '2005-02-09 10:00:00') /* Mosswart Scavenger */
-     , (0x702B503B, 0x702B5029, '2005-02-09 10:00:00') /* Mosswart Clinger */
-     , (0x702B503B, 0x702B502A, '2005-02-09 10:00:00') /* Mosswart Scavenger */
-     , (0x702B503B, 0x702B502B, '2005-02-09 10:00:00') /* Mosswart Scrounger */
-     , (0x702B503B, 0x702B502C, '2005-02-09 10:00:00') /* Mosswart Scrounger */
-     , (0x702B503B, 0x702B502D, '2005-02-09 10:00:00') /* Mosswart Scrounger */
-     , (0x702B503B, 0x702B5034, '2005-02-09 10:00:00') /* Mosswart Scavenger */
-     , (0x702B503B, 0x702B5035, '2005-02-09 10:00:00') /* Mosswart Scrounger */
-     , (0x702B503B, 0x702B5036, '2005-02-09 10:00:00') /* Mosswart Scavenger */
-     , (0x702B503B, 0x702B5037, '2005-02-09 10:00:00') /* Mosswart Scavenger */
-     , (0x702B503B, 0x702B5039, '2005-02-09 10:00:00') /* Mosswart Scavenger */
-     , (0x702B503B, 0x702B503A, '2005-02-09 10:00:00') /* Mosswart Scrounger */
-     , (0x702B503B, 0x702B503D, '2005-02-09 10:00:00') /* Mosswart Scavenger */
-     , (0x702B503B, 0x702B503E, '2005-02-09 10:00:00') /* Mosswart Scavenger */
-     , (0x702B503B, 0x702B503F, '2005-02-09 10:00:00') /* Mosswart Scavenger */
-     , (0x702B503B, 0x702B5040, '2005-02-09 10:00:00') /* Mosswart Scrounger */
-     , (0x702B503B, 0x702B5041, '2005-02-09 10:00:00') /* Mosswart Scavenger */
-     , (0x702B503B, 0x702B5042, '2005-02-09 10:00:00') /* Mosswart Scavenger */
-     , (0x702B503B, 0x702B5043, '2005-02-09 10:00:00') /* Mosswart Scavenger */
-     , (0x702B503B, 0x702B5044, '2005-02-09 10:00:00') /* Mosswart Scavenger */
-     , (0x702B503B, 0x702B5045, '2005-02-09 10:00:00') /* Mosswart Scavenger */
-     , (0x702B503B, 0x702B5046, '2005-02-09 10:00:00') /* Mosswart Scavenger */
-     , (0x702B503B, 0x702B5047, '2005-02-09 10:00:00') /* Mosswart Scavenger */
-     , (0x702B503B, 0x702B5048, '2005-02-09 10:00:00') /* Mosswart Scavenger */
-     , (0x702B503B, 0x702B5049, '2005-02-09 10:00:00') /* Mosswart Scavenger */
-     , (0x702B503B, 0x702B504A, '2005-02-09 10:00:00') /* Mosswart Scrounger */
-     , (0x702B503B, 0x702B504B, '2005-02-09 10:00:00') /* Mosswart Scavenger */
-     , (0x702B503B, 0x702B504C, '2005-02-09 10:00:00') /* Mosswart Scrounger */
-     , (0x702B503B, 0x702B504D, '2005-02-09 10:00:00') /* Mosswart Scavenger */
-     , (0x702B503B, 0x702B504E, '2005-02-09 10:00:00') /* Mosswart Scrounger */
-     , (0x702B503B, 0x702B504F, '2005-02-09 10:00:00') /* Mosswart Scrounger */
-     , (0x702B503B, 0x702B5052, '2005-02-09 10:00:00') /* Mosswart Scavenger */
-     , (0x702B503B, 0x702B5054, '2005-02-09 10:00:00') /* Mosswart Scrounger */
-     , (0x702B503B, 0x702B5056, '2005-02-09 10:00:00') /* Mosswart Scavenger */
-     , (0x702B503B, 0x702B5058, '2005-02-09 10:00:00') /* Mosswart Scrounger */
-     , (0x702B503B, 0x702B505A, '2005-02-09 10:00:00') /* Mosswart Scavenger */
-     , (0x702B503B, 0x702B505B, '2005-02-09 10:00:00') /* Mosswart Scrounger */
-     , (0x702B503B, 0x702B505C, '2005-02-09 10:00:00') /* Mosswart Scavenger */
-     , (0x702B503B, 0x702B505F, '2005-02-09 10:00:00') /* Mosswart Scrounger */
-     , (0x702B503B, 0x702B5062, '2005-02-09 10:00:00') /* Mosswart Scavenger */;
+VALUES (0x702B503B, 0x702B5017, '2005-02-09 10:00:00') /* Elite Revenant (25809) */
+     , (0x702B503B, 0x702B5019, '2005-02-09 10:00:00') /* Demilich (25808) */
+     , (0x702B503B, 0x702B501B, '2005-02-09 10:00:00') /* Elite Revenant (25809) */
+     , (0x702B503B, 0x702B501D, '2005-02-09 10:00:00') /* Demilich (25808) */
+     , (0x702B503B, 0x702B501E, '2005-02-09 10:00:00') /* Mosswart Scrounger (28001) */
+     , (0x702B503B, 0x702B501F, '2005-02-09 10:00:00') /* Mosswart Scavenger (28000) */
+     , (0x702B503B, 0x702B5020, '2005-02-09 10:00:00') /* Mosswart Scavenger (28000) */
+     , (0x702B503B, 0x702B5021, '2005-02-09 10:00:00') /* Mosswart Scavenger (28000) */
+     , (0x702B503B, 0x702B5023, '2005-02-09 10:00:00') /* Mosswart Scavenger (28000) */
+     , (0x702B503B, 0x702B5024, '2005-02-09 10:00:00') /* Mosswart Scrounger (28001) */
+     , (0x702B503B, 0x702B5025, '2005-02-09 10:00:00') /* Mosswart Scavenger (28000) */
+     , (0x702B503B, 0x702B5026, '2005-02-09 10:00:00') /* Mosswart Scavenger (28000) */
+     , (0x702B503B, 0x702B5027, '2005-02-09 10:00:00') /* Mosswart Scrounger (28001) */
+     , (0x702B503B, 0x702B5028, '2005-02-09 10:00:00') /* Mosswart Scavenger (28000) */
+     , (0x702B503B, 0x702B5029, '2005-02-09 10:00:00') /* Mosswart Clinger (7103) */
+     , (0x702B503B, 0x702B502A, '2005-02-09 10:00:00') /* Mosswart Scavenger (28000) */
+     , (0x702B503B, 0x702B502B, '2005-02-09 10:00:00') /* Mosswart Scrounger (28001) */
+     , (0x702B503B, 0x702B502C, '2005-02-09 10:00:00') /* Mosswart Scrounger (28001) */
+     , (0x702B503B, 0x702B502D, '2005-02-09 10:00:00') /* Mosswart Scrounger (28001) */
+     , (0x702B503B, 0x702B5034, '2005-02-09 10:00:00') /* Mosswart Scavenger (28000) */
+     , (0x702B503B, 0x702B5035, '2005-02-09 10:00:00') /* Mosswart Scrounger (28001) */
+     , (0x702B503B, 0x702B5036, '2005-02-09 10:00:00') /* Mosswart Scavenger (28000) */
+     , (0x702B503B, 0x702B5037, '2005-02-09 10:00:00') /* Mosswart Scavenger (28000) */
+     , (0x702B503B, 0x702B5039, '2005-02-09 10:00:00') /* Mosswart Scavenger (28000) */
+     , (0x702B503B, 0x702B503A, '2005-02-09 10:00:00') /* Mosswart Scrounger (28001) */
+     , (0x702B503B, 0x702B503D, '2005-02-09 10:00:00') /* Mosswart Scavenger (28000) */
+     , (0x702B503B, 0x702B503E, '2005-02-09 10:00:00') /* Mosswart Scavenger (28000) */
+     , (0x702B503B, 0x702B503F, '2005-02-09 10:00:00') /* Mosswart Scavenger (28000) */
+     , (0x702B503B, 0x702B5040, '2005-02-09 10:00:00') /* Mosswart Scrounger (28001) */
+     , (0x702B503B, 0x702B5041, '2005-02-09 10:00:00') /* Mosswart Scavenger (28000) */
+     , (0x702B503B, 0x702B5042, '2005-02-09 10:00:00') /* Mosswart Scavenger (28000) */
+     , (0x702B503B, 0x702B5043, '2005-02-09 10:00:00') /* Mosswart Scavenger (28000) */
+     , (0x702B503B, 0x702B5044, '2005-02-09 10:00:00') /* Mosswart Scavenger (28000) */
+     , (0x702B503B, 0x702B5045, '2005-02-09 10:00:00') /* Mosswart Scavenger (28000) */
+     , (0x702B503B, 0x702B5046, '2005-02-09 10:00:00') /* Mosswart Scavenger (28000) */
+     , (0x702B503B, 0x702B5047, '2005-02-09 10:00:00') /* Mosswart Scavenger (28000) */
+     , (0x702B503B, 0x702B5048, '2005-02-09 10:00:00') /* Mosswart Scavenger (28000) */
+     , (0x702B503B, 0x702B5049, '2005-02-09 10:00:00') /* Mosswart Scavenger (28000) */
+     , (0x702B503B, 0x702B504A, '2005-02-09 10:00:00') /* Mosswart Scrounger (28001) */
+     , (0x702B503B, 0x702B504B, '2005-02-09 10:00:00') /* Mosswart Scavenger (28000) */
+     , (0x702B503B, 0x702B504C, '2005-02-09 10:00:00') /* Mosswart Scrounger (28001) */
+     , (0x702B503B, 0x702B504D, '2005-02-09 10:00:00') /* Mosswart Scavenger (28000) */
+     , (0x702B503B, 0x702B504E, '2005-02-09 10:00:00') /* Mosswart Scrounger (28001) */
+     , (0x702B503B, 0x702B504F, '2005-02-09 10:00:00') /* Mosswart Scrounger (28001) */
+     , (0x702B503B, 0x702B5052, '2005-02-09 10:00:00') /* Mosswart Scavenger (28000) */
+     , (0x702B503B, 0x702B5054, '2005-02-09 10:00:00') /* Mosswart Scrounger (28001) */
+     , (0x702B503B, 0x702B5056, '2005-02-09 10:00:00') /* Mosswart Scavenger (28000) */
+     , (0x702B503B, 0x702B5058, '2005-02-09 10:00:00') /* Mosswart Scrounger (28001) */
+     , (0x702B503B, 0x702B505A, '2005-02-09 10:00:00') /* Mosswart Scavenger (28000) */
+     , (0x702B503B, 0x702B505B, '2005-02-09 10:00:00') /* Mosswart Scrounger (28001) */
+     , (0x702B503B, 0x702B505C, '2005-02-09 10:00:00') /* Mosswart Scavenger (28000) */
+     , (0x702B503B, 0x702B505F, '2005-02-09 10:00:00') /* Mosswart Scrounger (28001) */
+     , (0x702B503B, 0x702B5062, '2005-02-09 10:00:00') /* Mosswart Scavenger (28000) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x702B503C,  7923, 0x02B502C1, 120.901, -261.849, 0.005, 1, 0, 0, 0, False, '2005-02-09 10:00:00'); /* Linkable Monster Generator ( 3 Min.) */
@@ -495,15 +495,15 @@ VALUES (0x702B5065,  7923, 0x02B5037B, 126.582, -156.631, 6.005, -0.999265, 0, 0
 /* @teleloc 0x02B5037B [126.582000 -156.631000 6.005000] -0.999265 0.000000 0.000000 0.038329 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x702B5065, 0x702B502E, '2005-02-09 10:00:00') /* Mosswart Scavenger */
-     , (0x702B5065, 0x702B502F, '2005-02-09 10:00:00') /* Mosswart Scrounger */
-     , (0x702B5065, 0x702B5030, '2005-02-09 10:00:00') /* Mosswart Scavenger */
-     , (0x702B5065, 0x702B5031, '2005-02-09 10:00:00') /* Mosswart Scrounger */
-     , (0x702B5065, 0x702B5032, '2005-02-09 10:00:00') /* Mosswart Scavenger */
-     , (0x702B5065, 0x702B5033, '2005-02-09 10:00:00') /* Mosswart Scrounger */
-     , (0x702B5065, 0x702B5063, '2005-02-09 10:00:00') /* Mosswart Scrounger */
-     , (0x702B5065, 0x702B5064, '2005-02-09 10:00:00') /* Mosswart Scavenger */
-     , (0x702B5065, 0x702B5066, '2005-02-09 10:00:00') /* Mosswart Scrounger */;
+VALUES (0x702B5065, 0x702B502E, '2005-02-09 10:00:00') /* Mosswart Scavenger (28000) */
+     , (0x702B5065, 0x702B502F, '2005-02-09 10:00:00') /* Mosswart Scrounger (28001) */
+     , (0x702B5065, 0x702B5030, '2005-02-09 10:00:00') /* Mosswart Scavenger (28000) */
+     , (0x702B5065, 0x702B5031, '2005-02-09 10:00:00') /* Mosswart Scrounger (28001) */
+     , (0x702B5065, 0x702B5032, '2005-02-09 10:00:00') /* Mosswart Scavenger (28000) */
+     , (0x702B5065, 0x702B5033, '2005-02-09 10:00:00') /* Mosswart Scrounger (28001) */
+     , (0x702B5065, 0x702B5063, '2005-02-09 10:00:00') /* Mosswart Scrounger (28001) */
+     , (0x702B5065, 0x702B5064, '2005-02-09 10:00:00') /* Mosswart Scavenger (28000) */
+     , (0x702B5065, 0x702B5066, '2005-02-09 10:00:00') /* Mosswart Scrounger (28001) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x702B5066, 28001, 0x02B5037E, 136.166, -155.78, 6.0055, -0.999265, 0, 0, 0.038329,  True, '2005-02-09 10:00:00'); /* Mosswart Scrounger */
@@ -538,7 +538,7 @@ VALUES (0x702B506D, 15759, 0x02B50121, 53.9981, -120.077, -59.995, -0.710619, 0,
 /* @teleloc 0x02B50121 [53.998100 -120.077000 -59.995000] -0.710619 0.000000 0.000000 0.703577 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x702B506D, 0x702B506C, '2005-02-09 10:00:00') /* Jade Dais */;
+VALUES (0x702B506D, 0x702B506C, '2005-02-09 10:00:00') /* Jade Dais (27766) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x702B506E, 27855, 0x02B50121, 49.4334, -120.995, -59.9936, -0.828384, 0, 0, -0.560161,  True, '2005-02-09 10:00:00'); /* Filth Dweller */

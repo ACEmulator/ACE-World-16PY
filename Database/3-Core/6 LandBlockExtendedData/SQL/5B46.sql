@@ -45,87 +45,87 @@ VALUES (0x75B4600A,  7924, 0x5B460115, 69.8214, -117.878, -29.995, 0.999302, 0, 
 /* @teleloc 0x5B460115 [69.821400 -117.878000 -29.995000] 0.999302 0.000000 0.000000 0.037361 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x75B4600A, 0x75B46000, '2005-02-09 10:00:00') /* Tusker Crimsonback */
-     , (0x75B4600A, 0x75B46001, '2005-02-09 10:00:00') /* Tusker Crimsonback */
-     , (0x75B4600A, 0x75B46002, '2005-02-09 10:00:00') /* Tusker Crimsonback */
-     , (0x75B4600A, 0x75B46003, '2005-02-09 10:00:00') /* Tusker Crimsonback */
-     , (0x75B4600A, 0x75B46004, '2005-02-09 10:00:00') /* Tusker Crimsonback */
-     , (0x75B4600A, 0x75B46005, '2005-02-09 10:00:00') /* Tusker Crimsonback */
-     , (0x75B4600A, 0x75B46006, '2005-02-09 10:00:00') /* Tusker Crimsonback */
-     , (0x75B4600A, 0x75B46007, '2005-02-09 10:00:00') /* Tusker Crimsonback */
-     , (0x75B4600A, 0x75B46008, '2005-02-09 10:00:00') /* Tusker Crimsonback */
-     , (0x75B4600A, 0x75B46009, '2005-02-09 10:00:00') /* Tusker Crimsonback */
-     , (0x75B4600A, 0x75B4600B, '2005-02-09 10:00:00') /* Tusker Crimsonback */
-     , (0x75B4600A, 0x75B4600C, '2005-02-09 10:00:00') /* Tusker Crimsonback */
-     , (0x75B4600A, 0x75B4600D, '2005-02-09 10:00:00') /* Tusker Crimsonback */
-     , (0x75B4600A, 0x75B4600E, '2005-02-09 10:00:00') /* Tusker Crimsonback */
-     , (0x75B4600A, 0x75B4600F, '2005-02-09 10:00:00') /* Tusker Crimsonback */
-     , (0x75B4600A, 0x75B46010, '2005-02-09 10:00:00') /* Tusker Crimsonback */
-     , (0x75B4600A, 0x75B46011, '2005-02-09 10:00:00') /* Tusker Crimsonback */
-     , (0x75B4600A, 0x75B46012, '2005-02-09 10:00:00') /* Tusker Crimsonback */
-     , (0x75B4600A, 0x75B46013, '2005-02-09 10:00:00') /* Tusker Crimsonback */
-     , (0x75B4600A, 0x75B46014, '2005-02-09 10:00:00') /* Tusker Crimsonback */
-     , (0x75B4600A, 0x75B46015, '2005-02-09 10:00:00') /* Tusker Crimsonback */
-     , (0x75B4600A, 0x75B46016, '2005-02-09 10:00:00') /* Tusker Crimsonback */
-     , (0x75B4600A, 0x75B46017, '2005-02-09 10:00:00') /* Tusker Crimsonback */
-     , (0x75B4600A, 0x75B46018, '2005-02-09 10:00:00') /* Tusker Crimsonback */
-     , (0x75B4600A, 0x75B46019, '2005-02-09 10:00:00') /* Tusker Crimsonback */
-     , (0x75B4600A, 0x75B4601A, '2005-02-09 10:00:00') /* Tusker Crimsonback */
-     , (0x75B4600A, 0x75B4601B, '2005-02-09 10:00:00') /* Tusker Crimsonback */
-     , (0x75B4600A, 0x75B4601C, '2005-02-09 10:00:00') /* Tusker Crimsonback */
-     , (0x75B4600A, 0x75B4601D, '2005-02-09 10:00:00') /* Tusker Crimsonback */
-     , (0x75B4600A, 0x75B4601E, '2005-02-09 10:00:00') /* Tusker Crimsonback */
-     , (0x75B4600A, 0x75B4601F, '2005-02-09 10:00:00') /* Tusker Crimsonback */
-     , (0x75B4600A, 0x75B46020, '2005-02-09 10:00:00') /* Tusker Crimsonback */
-     , (0x75B4600A, 0x75B46021, '2005-02-09 10:00:00') /* Tusker Crimsonback */
-     , (0x75B4600A, 0x75B46022, '2005-02-09 10:00:00') /* Tusker Crimsonback */
-     , (0x75B4600A, 0x75B46023, '2005-02-09 10:00:00') /* Tusker Crimsonback */
-     , (0x75B4600A, 0x75B46024, '2005-02-09 10:00:00') /* Tusker Crimsonback */
-     , (0x75B4600A, 0x75B46025, '2005-02-09 10:00:00') /* Tusker Crimsonback */
-     , (0x75B4600A, 0x75B46026, '2005-02-09 10:00:00') /* Tusker Crimsonback */
-     , (0x75B4600A, 0x75B46027, '2005-02-09 10:00:00') /* Tusker Crimsonback */
-     , (0x75B4600A, 0x75B46028, '2005-02-09 10:00:00') /* Tusker Crimsonback */
-     , (0x75B4600A, 0x75B46029, '2005-02-09 10:00:00') /* Tusker Crimsonback */
-     , (0x75B4600A, 0x75B4602A, '2005-02-09 10:00:00') /* Tusker Crimsonback */
-     , (0x75B4600A, 0x75B4602B, '2005-02-09 10:00:00') /* Tusker Crimsonback */
-     , (0x75B4600A, 0x75B4602C, '2005-02-09 10:00:00') /* Tusker Crimsonback */
-     , (0x75B4600A, 0x75B4602D, '2005-02-09 10:00:00') /* Tusker Crimsonback */
-     , (0x75B4600A, 0x75B4602E, '2005-02-09 10:00:00') /* Tusker Crimsonback */
-     , (0x75B4600A, 0x75B4602F, '2005-02-09 10:00:00') /* Tusker Crimsonback */
-     , (0x75B4600A, 0x75B46030, '2005-02-09 10:00:00') /* Tusker Crimsonback */
-     , (0x75B4600A, 0x75B46031, '2005-02-09 10:00:00') /* Tusker Crimsonback */
-     , (0x75B4600A, 0x75B46032, '2005-02-09 10:00:00') /* Tusker Crimsonback */
-     , (0x75B4600A, 0x75B46033, '2005-02-09 10:00:00') /* Tusker Crimsonback */
-     , (0x75B4600A, 0x75B46034, '2005-02-09 10:00:00') /* Tusker Crimsonback */
-     , (0x75B4600A, 0x75B46035, '2005-02-09 10:00:00') /* Tusker Crimsonback */
-     , (0x75B4600A, 0x75B46036, '2005-02-09 10:00:00') /* Tusker Crimsonback */
-     , (0x75B4600A, 0x75B46038, '2005-02-09 10:00:00') /* Tusker Crimsonback */
-     , (0x75B4600A, 0x75B46039, '2005-02-09 10:00:00') /* Tusker Crimsonback */
-     , (0x75B4600A, 0x75B4603A, '2005-02-09 10:00:00') /* Tusker Crimsonback */
-     , (0x75B4600A, 0x75B4603B, '2005-02-09 10:00:00') /* Tusker Crimsonback */
-     , (0x75B4600A, 0x75B4603C, '2005-02-09 10:00:00') /* Tusker Crimsonback */
-     , (0x75B4600A, 0x75B4603D, '2005-02-09 10:00:00') /* Tusker Crimsonback */
-     , (0x75B4600A, 0x75B4603E, '2005-02-09 10:00:00') /* Tusker Crimsonback */
-     , (0x75B4600A, 0x75B4603F, '2005-02-09 10:00:00') /* Tusker Crimsonback */
-     , (0x75B4600A, 0x75B46040, '2005-02-09 10:00:00') /* Tusker Crimsonback */
-     , (0x75B4600A, 0x75B46041, '2005-02-09 10:00:00') /* Tusker Crimsonback */
-     , (0x75B4600A, 0x75B46042, '2005-02-09 10:00:00') /* Tusker Crimsonback */
-     , (0x75B4600A, 0x75B46043, '2005-02-09 10:00:00') /* Tusker Crimsonback */
-     , (0x75B4600A, 0x75B46044, '2005-02-09 10:00:00') /* Tusker Crimsonback */
-     , (0x75B4600A, 0x75B46045, '2005-02-09 10:00:00') /* Tusker Crimsonback */
-     , (0x75B4600A, 0x75B46046, '2005-02-09 10:00:00') /* Tusker Crimsonback */
-     , (0x75B4600A, 0x75B46047, '2005-02-09 10:00:00') /* Tusker Crimsonback */
-     , (0x75B4600A, 0x75B46048, '2005-02-09 10:00:00') /* Tusker Crimsonback */
-     , (0x75B4600A, 0x75B46049, '2005-02-09 10:00:00') /* Tusker Crimsonback */
-     , (0x75B4600A, 0x75B4604A, '2005-02-09 10:00:00') /* Tusker Crimsonback */
-     , (0x75B4600A, 0x75B4604B, '2005-02-09 10:00:00') /* Tusker Crimsonback */
-     , (0x75B4600A, 0x75B4604C, '2005-02-09 10:00:00') /* Tusker Crimsonback */
-     , (0x75B4600A, 0x75B4604D, '2005-02-09 10:00:00') /* Tusker Crimsonback */
-     , (0x75B4600A, 0x75B4604E, '2005-02-09 10:00:00') /* Tusker Crimsonback */
-     , (0x75B4600A, 0x75B4604F, '2005-02-09 10:00:00') /* Tusker Crimsonback */
-     , (0x75B4600A, 0x75B46050, '2005-02-09 10:00:00') /* Tusker Crimsonback */
-     , (0x75B4600A, 0x75B46051, '2005-02-09 10:00:00') /* Tusker Crimsonback */
-     , (0x75B4600A, 0x75B46052, '2005-02-09 10:00:00') /* Tusker Crimsonback */;
+VALUES (0x75B4600A, 0x75B46000, '2005-02-09 10:00:00') /* Tusker Crimsonback (1627) */
+     , (0x75B4600A, 0x75B46001, '2005-02-09 10:00:00') /* Tusker Crimsonback (1627) */
+     , (0x75B4600A, 0x75B46002, '2005-02-09 10:00:00') /* Tusker Crimsonback (1627) */
+     , (0x75B4600A, 0x75B46003, '2005-02-09 10:00:00') /* Tusker Crimsonback (1627) */
+     , (0x75B4600A, 0x75B46004, '2005-02-09 10:00:00') /* Tusker Crimsonback (1627) */
+     , (0x75B4600A, 0x75B46005, '2005-02-09 10:00:00') /* Tusker Crimsonback (1627) */
+     , (0x75B4600A, 0x75B46006, '2005-02-09 10:00:00') /* Tusker Crimsonback (1627) */
+     , (0x75B4600A, 0x75B46007, '2005-02-09 10:00:00') /* Tusker Crimsonback (1627) */
+     , (0x75B4600A, 0x75B46008, '2005-02-09 10:00:00') /* Tusker Crimsonback (1627) */
+     , (0x75B4600A, 0x75B46009, '2005-02-09 10:00:00') /* Tusker Crimsonback (1627) */
+     , (0x75B4600A, 0x75B4600B, '2005-02-09 10:00:00') /* Tusker Crimsonback (1627) */
+     , (0x75B4600A, 0x75B4600C, '2005-02-09 10:00:00') /* Tusker Crimsonback (1627) */
+     , (0x75B4600A, 0x75B4600D, '2005-02-09 10:00:00') /* Tusker Crimsonback (1627) */
+     , (0x75B4600A, 0x75B4600E, '2005-02-09 10:00:00') /* Tusker Crimsonback (1627) */
+     , (0x75B4600A, 0x75B4600F, '2005-02-09 10:00:00') /* Tusker Crimsonback (1627) */
+     , (0x75B4600A, 0x75B46010, '2005-02-09 10:00:00') /* Tusker Crimsonback (1627) */
+     , (0x75B4600A, 0x75B46011, '2005-02-09 10:00:00') /* Tusker Crimsonback (1627) */
+     , (0x75B4600A, 0x75B46012, '2005-02-09 10:00:00') /* Tusker Crimsonback (1627) */
+     , (0x75B4600A, 0x75B46013, '2005-02-09 10:00:00') /* Tusker Crimsonback (1627) */
+     , (0x75B4600A, 0x75B46014, '2005-02-09 10:00:00') /* Tusker Crimsonback (1627) */
+     , (0x75B4600A, 0x75B46015, '2005-02-09 10:00:00') /* Tusker Crimsonback (1627) */
+     , (0x75B4600A, 0x75B46016, '2005-02-09 10:00:00') /* Tusker Crimsonback (1627) */
+     , (0x75B4600A, 0x75B46017, '2005-02-09 10:00:00') /* Tusker Crimsonback (1627) */
+     , (0x75B4600A, 0x75B46018, '2005-02-09 10:00:00') /* Tusker Crimsonback (1627) */
+     , (0x75B4600A, 0x75B46019, '2005-02-09 10:00:00') /* Tusker Crimsonback (1627) */
+     , (0x75B4600A, 0x75B4601A, '2005-02-09 10:00:00') /* Tusker Crimsonback (1627) */
+     , (0x75B4600A, 0x75B4601B, '2005-02-09 10:00:00') /* Tusker Crimsonback (1627) */
+     , (0x75B4600A, 0x75B4601C, '2005-02-09 10:00:00') /* Tusker Crimsonback (1627) */
+     , (0x75B4600A, 0x75B4601D, '2005-02-09 10:00:00') /* Tusker Crimsonback (1627) */
+     , (0x75B4600A, 0x75B4601E, '2005-02-09 10:00:00') /* Tusker Crimsonback (1627) */
+     , (0x75B4600A, 0x75B4601F, '2005-02-09 10:00:00') /* Tusker Crimsonback (1627) */
+     , (0x75B4600A, 0x75B46020, '2005-02-09 10:00:00') /* Tusker Crimsonback (1627) */
+     , (0x75B4600A, 0x75B46021, '2005-02-09 10:00:00') /* Tusker Crimsonback (1627) */
+     , (0x75B4600A, 0x75B46022, '2005-02-09 10:00:00') /* Tusker Crimsonback (1627) */
+     , (0x75B4600A, 0x75B46023, '2005-02-09 10:00:00') /* Tusker Crimsonback (1627) */
+     , (0x75B4600A, 0x75B46024, '2005-02-09 10:00:00') /* Tusker Crimsonback (1627) */
+     , (0x75B4600A, 0x75B46025, '2005-02-09 10:00:00') /* Tusker Crimsonback (1627) */
+     , (0x75B4600A, 0x75B46026, '2005-02-09 10:00:00') /* Tusker Crimsonback (1627) */
+     , (0x75B4600A, 0x75B46027, '2005-02-09 10:00:00') /* Tusker Crimsonback (1627) */
+     , (0x75B4600A, 0x75B46028, '2005-02-09 10:00:00') /* Tusker Crimsonback (1627) */
+     , (0x75B4600A, 0x75B46029, '2005-02-09 10:00:00') /* Tusker Crimsonback (1627) */
+     , (0x75B4600A, 0x75B4602A, '2005-02-09 10:00:00') /* Tusker Crimsonback (1627) */
+     , (0x75B4600A, 0x75B4602B, '2005-02-09 10:00:00') /* Tusker Crimsonback (1627) */
+     , (0x75B4600A, 0x75B4602C, '2005-02-09 10:00:00') /* Tusker Crimsonback (1627) */
+     , (0x75B4600A, 0x75B4602D, '2005-02-09 10:00:00') /* Tusker Crimsonback (1627) */
+     , (0x75B4600A, 0x75B4602E, '2005-02-09 10:00:00') /* Tusker Crimsonback (1627) */
+     , (0x75B4600A, 0x75B4602F, '2005-02-09 10:00:00') /* Tusker Crimsonback (22585) */
+     , (0x75B4600A, 0x75B46030, '2005-02-09 10:00:00') /* Tusker Crimsonback (22585) */
+     , (0x75B4600A, 0x75B46031, '2005-02-09 10:00:00') /* Tusker Crimsonback (1627) */
+     , (0x75B4600A, 0x75B46032, '2005-02-09 10:00:00') /* Tusker Crimsonback (1627) */
+     , (0x75B4600A, 0x75B46033, '2005-02-09 10:00:00') /* Tusker Crimsonback (1627) */
+     , (0x75B4600A, 0x75B46034, '2005-02-09 10:00:00') /* Tusker Crimsonback (1627) */
+     , (0x75B4600A, 0x75B46035, '2005-02-09 10:00:00') /* Tusker Crimsonback (1627) */
+     , (0x75B4600A, 0x75B46036, '2005-02-09 10:00:00') /* Tusker Crimsonback (1627) */
+     , (0x75B4600A, 0x75B46038, '2005-02-09 10:00:00') /* Tusker Crimsonback (1627) */
+     , (0x75B4600A, 0x75B46039, '2005-02-09 10:00:00') /* Tusker Crimsonback (1627) */
+     , (0x75B4600A, 0x75B4603A, '2005-02-09 10:00:00') /* Tusker Crimsonback (1627) */
+     , (0x75B4600A, 0x75B4603B, '2005-02-09 10:00:00') /* Tusker Crimsonback (1627) */
+     , (0x75B4600A, 0x75B4603C, '2005-02-09 10:00:00') /* Tusker Crimsonback (1627) */
+     , (0x75B4600A, 0x75B4603D, '2005-02-09 10:00:00') /* Tusker Crimsonback (1627) */
+     , (0x75B4600A, 0x75B4603E, '2005-02-09 10:00:00') /* Tusker Crimsonback (1627) */
+     , (0x75B4600A, 0x75B4603F, '2005-02-09 10:00:00') /* Tusker Crimsonback (1627) */
+     , (0x75B4600A, 0x75B46040, '2005-02-09 10:00:00') /* Tusker Crimsonback (22585) */
+     , (0x75B4600A, 0x75B46041, '2005-02-09 10:00:00') /* Tusker Crimsonback (1627) */
+     , (0x75B4600A, 0x75B46042, '2005-02-09 10:00:00') /* Tusker Crimsonback (1627) */
+     , (0x75B4600A, 0x75B46043, '2005-02-09 10:00:00') /* Tusker Crimsonback (1627) */
+     , (0x75B4600A, 0x75B46044, '2005-02-09 10:00:00') /* Tusker Crimsonback (1627) */
+     , (0x75B4600A, 0x75B46045, '2005-02-09 10:00:00') /* Tusker Crimsonback (1627) */
+     , (0x75B4600A, 0x75B46046, '2005-02-09 10:00:00') /* Tusker Crimsonback (22585) */
+     , (0x75B4600A, 0x75B46047, '2005-02-09 10:00:00') /* Tusker Crimsonback (1627) */
+     , (0x75B4600A, 0x75B46048, '2005-02-09 10:00:00') /* Tusker Crimsonback (1627) */
+     , (0x75B4600A, 0x75B46049, '2005-02-09 10:00:00') /* Tusker Crimsonback (1627) */
+     , (0x75B4600A, 0x75B4604A, '2005-02-09 10:00:00') /* Tusker Crimsonback (1627) */
+     , (0x75B4600A, 0x75B4604B, '2005-02-09 10:00:00') /* Tusker Crimsonback (1627) */
+     , (0x75B4600A, 0x75B4604C, '2005-02-09 10:00:00') /* Tusker Crimsonback (1627) */
+     , (0x75B4600A, 0x75B4604D, '2005-02-09 10:00:00') /* Tusker Crimsonback (1627) */
+     , (0x75B4600A, 0x75B4604E, '2005-02-09 10:00:00') /* Tusker Crimsonback (1627) */
+     , (0x75B4600A, 0x75B4604F, '2005-02-09 10:00:00') /* Tusker Crimsonback (1627) */
+     , (0x75B4600A, 0x75B46050, '2005-02-09 10:00:00') /* Tusker Crimsonback (1627) */
+     , (0x75B4600A, 0x75B46051, '2005-02-09 10:00:00') /* Tusker Crimsonback (1627) */
+     , (0x75B4600A, 0x75B46052, '2005-02-09 10:00:00') /* Tusker Crimsonback (1627) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75B4600B,  1627, 0x5B46011E, 31.1614, -69.5987, -23.9879, 0.810963, 0, 0, -0.585097,  True, '2005-02-09 10:00:00'); /* Tusker Crimsonback */

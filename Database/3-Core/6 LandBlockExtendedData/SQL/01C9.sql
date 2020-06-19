@@ -77,7 +77,7 @@ VALUES (0x701C9012,  1154, 0x01C90164, 63.5041, -43.706, -29.9878, 0.707107, 0, 
 /* @teleloc 0x01C90164 [63.504100 -43.706000 -29.987800] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x701C9012, 0x701C9011, '2005-02-09 10:00:00') /* Undead Miner */;
+VALUES (0x701C9012, 0x701C9011, '2005-02-09 10:00:00') /* Undead Miner (1524) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x701C9013,  1524, 0x01C90165, 60.2056, -47.1412, -29.945, -0.317822, 0, 0, -0.94815,  True, '2005-02-09 10:00:00'); /* Undead Miner */
@@ -92,8 +92,8 @@ VALUES (0x701C9015,  1154, 0x01C90165, 60.3436, -50.0192, -29.9878, 0.707107, 0,
 /* @teleloc 0x01C90165 [60.343600 -50.019200 -29.987800] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x701C9015, 0x701C9013, '2005-02-09 10:00:00') /* Undead Miner */
-     , (0x701C9015, 0x701C9014, '2005-02-09 10:00:00') /* Undead Miner */;
+VALUES (0x701C9015, 0x701C9013, '2005-02-09 10:00:00') /* Undead Miner (1524) */
+     , (0x701C9015, 0x701C9014, '2005-02-09 10:00:00') /* Undead Miner (1524) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x701C9016,  1524, 0x01C90184, 30.0136, -100.023, -23.9925, 0.992612, 0, 0, -0.121328,  True, '2005-02-09 10:00:00'); /* Undead Miner */
@@ -104,8 +104,8 @@ VALUES (0x701C9017,  1154, 0x01C90184, 29.1709, -100.743, -24, -0.879025, 0, 0, 
 /* @teleloc 0x01C90184 [29.170900 -100.743000 -24.000000] -0.879025 0.000000 0.000000 -0.476775 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x701C9017, 0x701C9016, '2005-02-09 10:00:00') /* Undead Miner */
-     , (0x701C9017, 0x701C9018, '2005-02-09 10:00:00') /* Undead Miner */;
+VALUES (0x701C9017, 0x701C9016, '2005-02-09 10:00:00') /* Undead Miner (1524) */
+     , (0x701C9017, 0x701C9018, '2005-02-09 10:00:00') /* Undead Miner (1524) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x701C9018,  1524, 0x01C90187, 29.9636, -95.5291, -23.95, 0.398949, 0, 0, -0.916973,  True, '2005-02-09 10:00:00'); /* Undead Miner */
@@ -132,7 +132,7 @@ VALUES (0x701C901F,  1154, 0x01C901D1, 60, -80, -6, -0.707107, 0, 0, -0.707107, 
 /* @teleloc 0x01C901D1 [60.000000 -80.000000 -6.000000] -0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x701C901F, 0x701C901E, '2005-02-09 10:00:00') /* Undead Miner */;
+VALUES (0x701C901F, 0x701C901E, '2005-02-09 10:00:00') /* Undead Miner (1524) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x701C9020,  1296, 0x01C901D3, 60, -119.022, -6, 1, 0, 0, 0, False, '2005-02-09 10:00:00'); /* Door */
@@ -159,7 +159,7 @@ VALUES (0x701C9025,  1154, 0x01C901E1, 80.7059, -99.1063, -6, 1, 0, 0, 0, False,
 /* @teleloc 0x01C901E1 [80.705900 -99.106300 -6.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x701C9025, 0x701C9024, '2005-02-09 10:00:00') /* Undead Miner */;
+VALUES (0x701C9025, 0x701C9024, '2005-02-09 10:00:00') /* Undead Miner (1524) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x701C9026,   953, 0x01C901E3, 90.7528, -81.5298, -6, 1, 0, 0, 0, False, '2005-02-09 10:00:00'); /* Young Banderling Generator */

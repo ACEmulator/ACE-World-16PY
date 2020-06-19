@@ -13,9 +13,9 @@ VALUES (0x77E65002,  5086, 0x7E650100, 79.2905, 39.9044, 14.005, 0.887857, 0, 0,
 /* @teleloc 0x7E650100 [79.290500 39.904400 14.005000] 0.887857 0.000000 0.000000 -0.460119 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x77E65002, 0x77E65001, '2005-02-09 10:00:00') /* Dame Tsaya */
-     , (0x77E65002, 0x77E65003, '2005-02-09 10:00:00') /* Sentry */
-     , (0x77E65002, 0x77E65004, '2005-02-09 10:00:00') /* Sentry */;
+VALUES (0x77E65002, 0x77E65001, '2005-02-09 10:00:00') /* Dame Tsaya (14415) */
+     , (0x77E65002, 0x77E65003, '2005-02-09 10:00:00') /* Sentry (14457) */
+     , (0x77E65002, 0x77E65004, '2005-02-09 10:00:00') /* Sentry (14459) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x77E65003, 14457, 0x7E650000, 67.0613, 52.118, 14.005, 0.857997, 0, 0, 0.513654,  True, '2005-02-09 10:00:00'); /* Sentry */

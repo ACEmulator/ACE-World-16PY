@@ -69,21 +69,21 @@ VALUES (0x72D15023,  7924, 0x2D150000, 60.2866, 79.4155, 56.005, 0.963106, 0, 0,
 /* @teleloc 0x2D150000 [60.286600 79.415500 56.005000] 0.963106 0.000000 0.000000 -0.269123 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72D15023, 0x72D15014, '2005-02-09 10:00:00') /* Gotrok Tiatus */
-     , (0x72D15023, 0x72D15015, '2005-02-09 10:00:00') /* Extas Raider */
-     , (0x72D15023, 0x72D15016, '2005-02-09 10:00:00') /* Tumerok Champion */
-     , (0x72D15023, 0x72D15017, '2005-02-09 10:00:00') /* Ascendant Tumerok */
-     , (0x72D15023, 0x72D15018, '2005-02-09 10:00:00') /* Tiatus Raider */
-     , (0x72D15023, 0x72D15019, '2005-02-09 10:00:00') /* Tumerok High Priest */
-     , (0x72D15023, 0x72D1501A, '2005-02-09 10:00:00') /* Ascendant Tumerok */
-     , (0x72D15023, 0x72D1501B, '2005-02-09 10:00:00') /* Tumerok High Priest */
-     , (0x72D15023, 0x72D1501C, '2005-02-09 10:00:00') /* Tumerok Champion */
-     , (0x72D15023, 0x72D1501D, '2005-02-09 10:00:00') /* Gotrok Juggernaut */
-     , (0x72D15023, 0x72D1501E, '2005-02-09 10:00:00') /* Tumerok Champion */
-     , (0x72D15023, 0x72D1501F, '2005-02-09 10:00:00') /* Tumerok Trooper */
-     , (0x72D15023, 0x72D15020, '2005-02-09 10:00:00') /* Gotrok Tiatus */
-     , (0x72D15023, 0x72D15021, '2005-02-09 10:00:00') /* Gotrok Tiatus */
-     , (0x72D15023, 0x72D15022, '2005-02-09 10:00:00') /* Ascendant Tumerok */;
+VALUES (0x72D15023, 0x72D15014, '2005-02-09 10:00:00') /* Gotrok Tiatus (24497) */
+     , (0x72D15023, 0x72D15015, '2005-02-09 10:00:00') /* Extas Raider (8138) */
+     , (0x72D15023, 0x72D15016, '2005-02-09 10:00:00') /* Tumerok Champion (23617) */
+     , (0x72D15023, 0x72D15017, '2005-02-09 10:00:00') /* Ascendant Tumerok (10806) */
+     , (0x72D15023, 0x72D15018, '2005-02-09 10:00:00') /* Tiatus Raider (8137) */
+     , (0x72D15023, 0x72D15019, '2005-02-09 10:00:00') /* Tumerok High Priest (228) */
+     , (0x72D15023, 0x72D1501A, '2005-02-09 10:00:00') /* Ascendant Tumerok (10806) */
+     , (0x72D15023, 0x72D1501B, '2005-02-09 10:00:00') /* Tumerok High Priest (228) */
+     , (0x72D15023, 0x72D1501C, '2005-02-09 10:00:00') /* Tumerok Champion (23617) */
+     , (0x72D15023, 0x72D1501D, '2005-02-09 10:00:00') /* Gotrok Juggernaut (24495) */
+     , (0x72D15023, 0x72D1501E, '2005-02-09 10:00:00') /* Tumerok Champion (23617) */
+     , (0x72D15023, 0x72D1501F, '2005-02-09 10:00:00') /* Tumerok Trooper (23566) */
+     , (0x72D15023, 0x72D15020, '2005-02-09 10:00:00') /* Gotrok Tiatus (24497) */
+     , (0x72D15023, 0x72D15021, '2005-02-09 10:00:00') /* Gotrok Tiatus (24497) */
+     , (0x72D15023, 0x72D15022, '2005-02-09 10:00:00') /* Ascendant Tumerok (10806) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72D15024,  1923, 0x2D150100, 153.924, 78.8207, 49.66, -0.694964, 0, 0, 0.719044, False, '2005-02-09 10:00:00'); /* Chest */

@@ -13,17 +13,17 @@ VALUES (0x7F15A00A,  7923, 0xF15A0000, 121.658, 94.2721, 0.00499997, -0.696955, 
 /* @teleloc 0xF15A0000 [121.658000 94.272100 0.005000] -0.696955 0.000000 0.000000 0.717115 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7F15A00A, 0x7F15A00B, '2005-02-09 10:00:00') /* Banderling Striker */
-     , (0x7F15A00A, 0x7F15A00C, '2005-02-09 10:00:00') /* Banderling Bandit */
-     , (0x7F15A00A, 0x7F15A00D, '2005-02-09 10:00:00') /* Banderling Bandit */
-     , (0x7F15A00A, 0x7F15A00E, '2005-02-09 10:00:00') /* Banderling Bandit */
-     , (0x7F15A00A, 0x7F15A011, '2005-02-09 10:00:00') /* Banderling Bandit */
-     , (0x7F15A00A, 0x7F15A012, '2005-02-09 10:00:00') /* Banderling Bandit */
-     , (0x7F15A00A, 0x7F15A013, '2005-02-09 10:00:00') /* Banderling Bandit */
-     , (0x7F15A00A, 0x7F15A016, '2005-02-09 10:00:00') /* Banderling Bandit */
-     , (0x7F15A00A, 0x7F15A017, '2005-02-09 10:00:00') /* Banderling Bandit */
-     , (0x7F15A00A, 0x7F15A018, '2005-02-09 10:00:00') /* Banderling Bandit */
-     , (0x7F15A00A, 0x7F15A01D, '2005-02-09 10:00:00') /* Banderling Bandit */;
+VALUES (0x7F15A00A, 0x7F15A00B, '2005-02-09 10:00:00') /* Banderling Striker (7345) */
+     , (0x7F15A00A, 0x7F15A00C, '2005-02-09 10:00:00') /* Banderling Bandit (22809) */
+     , (0x7F15A00A, 0x7F15A00D, '2005-02-09 10:00:00') /* Banderling Bandit (22809) */
+     , (0x7F15A00A, 0x7F15A00E, '2005-02-09 10:00:00') /* Banderling Bandit (22809) */
+     , (0x7F15A00A, 0x7F15A011, '2005-02-09 10:00:00') /* Banderling Bandit (22809) */
+     , (0x7F15A00A, 0x7F15A012, '2005-02-09 10:00:00') /* Banderling Bandit (22809) */
+     , (0x7F15A00A, 0x7F15A013, '2005-02-09 10:00:00') /* Banderling Bandit (22809) */
+     , (0x7F15A00A, 0x7F15A016, '2005-02-09 10:00:00') /* Banderling Bandit (22809) */
+     , (0x7F15A00A, 0x7F15A017, '2005-02-09 10:00:00') /* Banderling Bandit (22809) */
+     , (0x7F15A00A, 0x7F15A018, '2005-02-09 10:00:00') /* Banderling Bandit (22809) */
+     , (0x7F15A00A, 0x7F15A01D, '2005-02-09 10:00:00') /* Banderling Bandit (22809) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7F15A00B,  7345, 0xF15A0000, 110.229, 86.8625, 15.2093, 0.342449, 0, 0, 0.939536,  True, '2005-02-09 10:00:00'); /* Banderling Striker */

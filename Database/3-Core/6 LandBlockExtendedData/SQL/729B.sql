@@ -5,26 +5,26 @@ VALUES (0x7729B000,  3955, 0x729B0107, 80.34, 133.409, 244.005, 0.880185, 0, 0, 
 /* @teleloc 0x729B0107 [80.340000 133.409000 244.005000] 0.880185 0.000000 0.000000 -0.474631 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7729B000, 0x7729B001, '2005-02-09 10:00:00') /* Black Rat */
-     , (0x7729B000, 0x7729B002, '2005-02-09 10:00:00') /* Black Rat */
-     , (0x7729B000, 0x7729B003, '2005-02-09 10:00:00') /* Black Rat */
-     , (0x7729B000, 0x7729B004, '2005-02-09 10:00:00') /* Banderling Guard */
-     , (0x7729B000, 0x7729B006, '2005-02-09 10:00:00') /* Black Rat */
-     , (0x7729B000, 0x7729B007, '2005-02-09 10:00:00') /* Banderling Raver */
-     , (0x7729B000, 0x7729B008, '2005-02-09 10:00:00') /* Banderling Guard */
-     , (0x7729B000, 0x7729B009, '2005-02-09 10:00:00') /* Banderling Guard */
-     , (0x7729B000, 0x7729B00A, '2005-02-09 10:00:00') /* Banderling Raver */
-     , (0x7729B000, 0x7729B00B, '2005-02-09 10:00:00') /* Banderling Raver */
-     , (0x7729B000, 0x7729B00D, '2005-02-09 10:00:00') /* Banderling Guard */
-     , (0x7729B000, 0x7729B00E, '2005-02-09 10:00:00') /* Zombie */
-     , (0x7729B000, 0x7729B016, '2005-02-09 10:00:00') /* Banderling Raver */
-     , (0x7729B000, 0x7729B017, '2005-02-09 10:00:00') /* Banderling Raver */
-     , (0x7729B000, 0x7729B018, '2005-02-09 10:00:00') /* Banderling Guard */
-     , (0x7729B000, 0x7729B019, '2005-02-09 10:00:00') /* Banderling Raider */
-     , (0x7729B000, 0x7729B01C, '2005-02-09 10:00:00') /* Banderling Raider */
-     , (0x7729B000, 0x7729B01D, '2005-02-09 10:00:00') /* Banderling Raider */
-     , (0x7729B000, 0x7729B01F, '2005-02-09 10:00:00') /* Zombie */
-     , (0x7729B000, 0x7729B020, '2005-02-09 10:00:00') /* Banderling Guard */;
+VALUES (0x7729B000, 0x7729B001, '2005-02-09 10:00:00') /* Black Rat (218) */
+     , (0x7729B000, 0x7729B002, '2005-02-09 10:00:00') /* Black Rat (218) */
+     , (0x7729B000, 0x7729B003, '2005-02-09 10:00:00') /* Black Rat (218) */
+     , (0x7729B000, 0x7729B004, '2005-02-09 10:00:00') /* Banderling Guard (937) */
+     , (0x7729B000, 0x7729B006, '2005-02-09 10:00:00') /* Black Rat (218) */
+     , (0x7729B000, 0x7729B007, '2005-02-09 10:00:00') /* Banderling Raver (183) */
+     , (0x7729B000, 0x7729B008, '2005-02-09 10:00:00') /* Banderling Guard (937) */
+     , (0x7729B000, 0x7729B009, '2005-02-09 10:00:00') /* Banderling Guard (937) */
+     , (0x7729B000, 0x7729B00A, '2005-02-09 10:00:00') /* Banderling Raver (183) */
+     , (0x7729B000, 0x7729B00B, '2005-02-09 10:00:00') /* Banderling Raver (183) */
+     , (0x7729B000, 0x7729B00D, '2005-02-09 10:00:00') /* Banderling Guard (937) */
+     , (0x7729B000, 0x7729B00E, '2005-02-09 10:00:00') /* Zombie (950) */
+     , (0x7729B000, 0x7729B016, '2005-02-09 10:00:00') /* Banderling Raver (183) */
+     , (0x7729B000, 0x7729B017, '2005-02-09 10:00:00') /* Banderling Raver (183) */
+     , (0x7729B000, 0x7729B018, '2005-02-09 10:00:00') /* Banderling Guard (937) */
+     , (0x7729B000, 0x7729B019, '2005-02-09 10:00:00') /* Banderling Raider (938) */
+     , (0x7729B000, 0x7729B01C, '2005-02-09 10:00:00') /* Banderling Raider (938) */
+     , (0x7729B000, 0x7729B01D, '2005-02-09 10:00:00') /* Banderling Raider (938) */
+     , (0x7729B000, 0x7729B01F, '2005-02-09 10:00:00') /* Zombie (950) */
+     , (0x7729B000, 0x7729B020, '2005-02-09 10:00:00') /* Banderling Guard (937) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7729B001,   218, 0x729B0116, 65.6906, 158.941, 240.008, -0.408161, 0, 0, -0.91291,  True, '2005-02-09 10:00:00'); /* Black Rat */
@@ -87,12 +87,12 @@ VALUES (0x7729B010,  1154, 0x729B0107, 83.4484, 131.139, 244.005, 0.999434, 0, 0
 /* @teleloc 0x729B0107 [83.448400 131.139000 244.005000] 0.999434 0.000000 0.000000 0.033630 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7729B010, 0x7729B00F, '2005-02-09 10:00:00') /* Banderling Chief */
-     , (0x7729B010, 0x7729B011, '2005-02-09 10:00:00') /* Banderling Breeder */
-     , (0x7729B010, 0x7729B012, '2005-02-09 10:00:00') /* Banderling Breeder */
-     , (0x7729B010, 0x7729B013, '2005-02-09 10:00:00') /* Banderling Breeder */
-     , (0x7729B010, 0x7729B014, '2005-02-09 10:00:00') /* Banderling Breeder */
-     , (0x7729B010, 0x7729B015, '2005-02-09 10:00:00') /* Banderling Breeder */;
+VALUES (0x7729B010, 0x7729B00F, '2005-02-09 10:00:00') /* Banderling Chief (1669) */
+     , (0x7729B010, 0x7729B011, '2005-02-09 10:00:00') /* Banderling Breeder (1668) */
+     , (0x7729B010, 0x7729B012, '2005-02-09 10:00:00') /* Banderling Breeder (1668) */
+     , (0x7729B010, 0x7729B013, '2005-02-09 10:00:00') /* Banderling Breeder (1668) */
+     , (0x7729B010, 0x7729B014, '2005-02-09 10:00:00') /* Banderling Breeder (1668) */
+     , (0x7729B010, 0x7729B015, '2005-02-09 10:00:00') /* Banderling Breeder (1668) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7729B011,  1668, 0x729B0122, 111.676, 153.67, 244.007, 0.985042, 0, 0, -0.172315,  True, '2005-02-09 10:00:00'); /* Banderling Breeder */

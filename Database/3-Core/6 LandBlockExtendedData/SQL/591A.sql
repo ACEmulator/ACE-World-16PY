@@ -49,16 +49,16 @@ VALUES (0x7591A00B,  1154, 0x591A0000, 100.781, 158.504, 0.005, 0.729432, 0, 0, 
 /* @teleloc 0x591A0000 [100.781000 158.504000 0.005000] 0.729432 0.000000 0.000000 -0.684053 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7591A00B, 0x7591A000, '2005-02-09 10:00:00') /* Tumerok Fighter */
-     , (0x7591A00B, 0x7591A001, '2005-02-09 10:00:00') /* Tumerok Fighter */
-     , (0x7591A00B, 0x7591A002, '2005-02-09 10:00:00') /* Tumerok Fighter */
-     , (0x7591A00B, 0x7591A003, '2005-02-09 10:00:00') /* Tumerok Fighter */
-     , (0x7591A00B, 0x7591A004, '2005-02-09 10:00:00') /* Tumerok Fighter */
-     , (0x7591A00B, 0x7591A005, '2005-02-09 10:00:00') /* Tumerok Priest */
-     , (0x7591A00B, 0x7591A006, '2005-02-09 10:00:00') /* Tumerok Priest */
-     , (0x7591A00B, 0x7591A007, '2005-02-09 10:00:00') /* Tumerok Warrior */
-     , (0x7591A00B, 0x7591A009, '2005-02-09 10:00:00') /* Tumerok Worker */
-     , (0x7591A00B, 0x7591A00A, '2005-02-09 10:00:00') /* Drudge Servant */;
+VALUES (0x7591A00B, 0x7591A000, '2005-02-09 10:00:00') /* Tumerok Fighter (2439) */
+     , (0x7591A00B, 0x7591A001, '2005-02-09 10:00:00') /* Tumerok Fighter (2439) */
+     , (0x7591A00B, 0x7591A002, '2005-02-09 10:00:00') /* Tumerok Fighter (2439) */
+     , (0x7591A00B, 0x7591A003, '2005-02-09 10:00:00') /* Tumerok Fighter (2439) */
+     , (0x7591A00B, 0x7591A004, '2005-02-09 10:00:00') /* Tumerok Fighter (2439) */
+     , (0x7591A00B, 0x7591A005, '2005-02-09 10:00:00') /* Tumerok Priest (231) */
+     , (0x7591A00B, 0x7591A006, '2005-02-09 10:00:00') /* Tumerok Priest (231) */
+     , (0x7591A00B, 0x7591A007, '2005-02-09 10:00:00') /* Tumerok Warrior (233) */
+     , (0x7591A00B, 0x7591A009, '2005-02-09 10:00:00') /* Tumerok Worker (234) */
+     , (0x7591A00B, 0x7591A00A, '2005-02-09 10:00:00') /* Drudge Servant (1631) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7591A00C,  2439, 0x591A0102, 107.012, 76.127, -6.34, 0.489756, 0, 0, -0.871859,  True, '2005-02-09 10:00:00'); /* Tumerok Fighter */
@@ -97,18 +97,18 @@ VALUES (0x7591A014,  1154, 0x591A0000, 107.06, 91.0788, 0.005, 0.971599, 0, 0, 0
 /* @teleloc 0x591A0000 [107.060000 91.078800 0.005000] 0.971599 0.000000 0.000000 0.236633 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7591A014, 0x7591A00C, '2005-02-09 10:00:00') /* Tumerok Fighter */
-     , (0x7591A014, 0x7591A00D, '2005-02-09 10:00:00') /* Tumerok Fighter */
-     , (0x7591A014, 0x7591A00E, '2005-02-09 10:00:00') /* Tumerok Fighter */
-     , (0x7591A014, 0x7591A011, '2005-02-09 10:00:00') /* Tumerok Worker */
-     , (0x7591A014, 0x7591A012, '2005-02-09 10:00:00') /* Tumerok Warrior */
-     , (0x7591A014, 0x7591A013, '2005-02-09 10:00:00') /* Tumerok Priest */
-     , (0x7591A014, 0x7591A015, '2005-02-09 10:00:00') /* Tumerok Fighter */
-     , (0x7591A014, 0x7591A016, '2005-02-09 10:00:00') /* Drudge Servant */
-     , (0x7591A014, 0x7591A017, '2005-02-09 10:00:00') /* Drudge Servant */
-     , (0x7591A014, 0x7591A018, '2005-02-09 10:00:00') /* Drudge Servant */
-     , (0x7591A014, 0x7591A019, '2005-02-09 10:00:00') /* Drudge Servant */
-     , (0x7591A014, 0x7591A01B, '2005-02-09 10:00:00') /* Tumerok Fighter */;
+VALUES (0x7591A014, 0x7591A00C, '2005-02-09 10:00:00') /* Tumerok Fighter (2439) */
+     , (0x7591A014, 0x7591A00D, '2005-02-09 10:00:00') /* Tumerok Fighter (2439) */
+     , (0x7591A014, 0x7591A00E, '2005-02-09 10:00:00') /* Tumerok Fighter (2439) */
+     , (0x7591A014, 0x7591A011, '2005-02-09 10:00:00') /* Tumerok Worker (234) */
+     , (0x7591A014, 0x7591A012, '2005-02-09 10:00:00') /* Tumerok Warrior (233) */
+     , (0x7591A014, 0x7591A013, '2005-02-09 10:00:00') /* Tumerok Priest (231) */
+     , (0x7591A014, 0x7591A015, '2005-02-09 10:00:00') /* Tumerok Fighter (2439) */
+     , (0x7591A014, 0x7591A016, '2005-02-09 10:00:00') /* Drudge Servant (1631) */
+     , (0x7591A014, 0x7591A017, '2005-02-09 10:00:00') /* Drudge Servant (1631) */
+     , (0x7591A014, 0x7591A018, '2005-02-09 10:00:00') /* Drudge Servant (1631) */
+     , (0x7591A014, 0x7591A019, '2005-02-09 10:00:00') /* Drudge Servant (1631) */
+     , (0x7591A014, 0x7591A01B, '2005-02-09 10:00:00') /* Tumerok Fighter (2439) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7591A015,  2439, 0x591A0107, 82.3356, 50.9304, -6.34, -0.669009, 0, 0, 0.743254,  True, '2005-02-09 10:00:00'); /* Tumerok Fighter */

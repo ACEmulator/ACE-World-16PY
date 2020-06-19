@@ -13,7 +13,7 @@ VALUES (0x79E79002,  1154, 0x9E790000, 146.029, 60.5156, 26.005, -0.866249, 0, 0
 /* @teleloc 0x9E790000 [146.029000 60.515600 26.005000] -0.866249 0.000000 0.000000 0.499613 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79E79002, 0x79E79001, '2005-02-09 10:00:00') /* Skeleton Warrior */;
+VALUES (0x79E79002, 0x79E79001, '2005-02-09 10:00:00') /* Skeleton Warrior (1760) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79E79003,   152, 0x9E790000, 148.891, 60.5195, 26.005, 1, 0, 0, 0, False, '2005-02-09 10:00:00'); /* Font */

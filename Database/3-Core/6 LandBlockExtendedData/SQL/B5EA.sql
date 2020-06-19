@@ -9,13 +9,13 @@ VALUES (0x7B5EA001,  3955, 0xB5EA0000, 124.79, 60.8914, 40.005, -0.999904, 0, 0,
 /* @teleloc 0xB5EA0000 [124.790000 60.891400 40.005000] -0.999904 0.000000 0.000000 0.013862 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B5EA001, 0x7B5EA002, '2005-02-09 10:00:00') /* Diamond Golem */
-     , (0x7B5EA001, 0x7B5EA003, '2005-02-09 10:00:00') /* Diamond Golem */
-     , (0x7B5EA001, 0x7B5EA004, '2005-02-09 10:00:00') /* Sewer Rat */
-     , (0x7B5EA001, 0x7B5EA005, '2005-02-09 10:00:00') /* Sewer Rat */
-     , (0x7B5EA001, 0x7B5EA006, '2005-02-09 10:00:00') /* Relic Bones */
-     , (0x7B5EA001, 0x7B5EA007, '2005-02-09 10:00:00') /* Relic Bones */
-     , (0x7B5EA001, 0x7B5EA008, '2005-02-09 10:00:00') /* Diamond Golem */;
+VALUES (0x7B5EA001, 0x7B5EA002, '2005-02-09 10:00:00') /* Diamond Golem (7421) */
+     , (0x7B5EA001, 0x7B5EA003, '2005-02-09 10:00:00') /* Diamond Golem (7421) */
+     , (0x7B5EA001, 0x7B5EA004, '2005-02-09 10:00:00') /* Sewer Rat (7106) */
+     , (0x7B5EA001, 0x7B5EA005, '2005-02-09 10:00:00') /* Sewer Rat (7106) */
+     , (0x7B5EA001, 0x7B5EA006, '2005-02-09 10:00:00') /* Relic Bones (7179) */
+     , (0x7B5EA001, 0x7B5EA007, '2005-02-09 10:00:00') /* Relic Bones (7179) */
+     , (0x7B5EA001, 0x7B5EA008, '2005-02-09 10:00:00') /* Diamond Golem (7421) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B5EA002,  7421, 0xB5EA0000, 126.735, 49.2839, 40.01, -0.309996, 0, 0, -0.950738,  True, '2005-02-09 10:00:00'); /* Diamond Golem */

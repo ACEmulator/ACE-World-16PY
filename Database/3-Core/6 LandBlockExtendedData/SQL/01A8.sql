@@ -53,7 +53,7 @@ VALUES (0x701A800C,  1154, 0x01A80135, 21.958, -52.1969, 0, -4.37114E-08, 0, 0, 
 /* @teleloc 0x01A80135 [21.958000 -52.196900 0.000000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x701A800C, 0x701A800B, '2005-02-09 10:00:00') /* Desert Rat */;
+VALUES (0x701A800C, 0x701A800B, '2005-02-09 10:00:00') /* Desert Rat (1623) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x701A800D,   286, 0x01A80135, 15.6019, -52.6277, 1.49012, -0.712945, 0, 0, -0.70122,  True, '2005-02-09 10:00:00'); /* Lever */
@@ -64,9 +64,9 @@ VALUES (0x701A800E,  2179, 0x01A80137, 24.75, -50, 0, -0.707107, 0, 0, 0.707107,
 /* @teleloc 0x01A80137 [24.750000 -50.000000 0.000000] -0.707107 0.000000 0.000000 0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x701A800E, 0x701A800D, '2005-02-09 10:00:00') /* Lever */
-     , (0x701A800E, 0x701A8018, '2005-02-09 10:00:00') /* Pressure Plate */
-     , (0x701A800E, 0x701A801A, '2005-02-09 10:00:00') /* Pressure Plate */;
+VALUES (0x701A800E, 0x701A800D, '2005-02-09 10:00:00') /* Lever (286) */
+     , (0x701A800E, 0x701A8018, '2005-02-09 10:00:00') /* Pressure Plate (298) */
+     , (0x701A800E, 0x701A801A, '2005-02-09 10:00:00') /* Pressure Plate (2131) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x701A800F,   568, 0x01A80139, 20, -54.75, 0, -4.37114E-08, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Door */
@@ -89,8 +89,8 @@ VALUES (0x701A8013,  2179, 0x01A8013D, 24.75, -60, 0, 0.707107, 0, 0, -0.707107,
 /* @teleloc 0x01A8013D [24.750000 -60.000000 0.000000] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x701A8013, 0x701A8012, '2005-02-09 10:00:00') /* Lever */
-     , (0x701A8013, 0x701A8019, '2005-02-09 10:00:00') /* Pressure Plate */;
+VALUES (0x701A8013, 0x701A8012, '2005-02-09 10:00:00') /* Lever (286) */
+     , (0x701A8013, 0x701A8019, '2005-02-09 10:00:00') /* Pressure Plate (298) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x701A8014,  1296, 0x01A80140, 24.75, -70, 0, -0.707107, 0, 0, 0.707107, False, '2005-02-09 10:00:00'); /* Door */
@@ -201,8 +201,8 @@ VALUES (0x701A802E,  2179, 0x01A80178, 45.25, -70, 0, -0.707107, 0, 0, -0.707107
 /* @teleloc 0x01A80178 [45.250000 -70.000000 0.000000] -0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x701A802E, 0x701A8026, '2005-02-09 10:00:00') /* Pressure Plate */
-     , (0x701A802E, 0x701A802D, '2005-02-09 10:00:00') /* Lever */;
+VALUES (0x701A802E, 0x701A8026, '2005-02-09 10:00:00') /* Pressure Plate (298) */
+     , (0x701A802E, 0x701A802D, '2005-02-09 10:00:00') /* Lever (286) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x701A802F,   885, 0x01A80179, 50, -80, 0, -0.707107, 0, 0, -0.707107, False, '2005-02-09 10:00:00'); /* Spikey Armoredillo Generator */
@@ -217,7 +217,7 @@ VALUES (0x701A8031,  1154, 0x01A80179, 48.1605, -78.0885, 0, 1, 0, 0, 0, False, 
 /* @teleloc 0x01A80179 [48.160500 -78.088500 0.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x701A8031, 0x701A8030, '2005-02-09 10:00:00') /* Desert Rat */;
+VALUES (0x701A8031, 0x701A8030, '2005-02-09 10:00:00') /* Desert Rat (1623) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x701A8032,   286, 0x01A80179, 54.3947, -77.6591, 1.63725, 0.717671, 0, 0, -0.696382,  True, '2005-02-09 10:00:00'); /* Lever */
@@ -228,9 +228,9 @@ VALUES (0x701A8033,  2179, 0x01A8017B, 45.25, -80, 0, -0.707107, 0, 0, -0.707107
 /* @teleloc 0x01A8017B [45.250000 -80.000000 0.000000] -0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x701A8033, 0x701A8025, '2005-02-09 10:00:00') /* Pressure Plate */
-     , (0x701A8033, 0x701A8027, '2005-02-09 10:00:00') /* Pressure Plate */
-     , (0x701A8033, 0x701A8032, '2005-02-09 10:00:00') /* Lever */;
+VALUES (0x701A8033, 0x701A8025, '2005-02-09 10:00:00') /* Pressure Plate (2131) */
+     , (0x701A8033, 0x701A8027, '2005-02-09 10:00:00') /* Pressure Plate (298) */
+     , (0x701A8033, 0x701A8032, '2005-02-09 10:00:00') /* Lever (286) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x701A8034,   568, 0x01A8017D, 50, -75.25, 0, 1, 0, 0, 0, False, '2005-02-09 10:00:00'); /* Door */

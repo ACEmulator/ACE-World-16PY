@@ -29,8 +29,8 @@ VALUES (0x7CC8C008,  3955, 0xCC8C0000, 69.1434, 37.8993, 26.005, -0.674986, 0, 0
 /* @teleloc 0xCC8C0000 [69.143400 37.899300 26.005000] -0.674986 0.000000 0.000000 -0.737830 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7CC8C008, 0x7CC8C007, '2005-02-09 10:00:00') /* Mindorla */
-     , (0x7CC8C008, 0x7CC8C00B, '2005-02-09 10:00:00') /* Cow */;
+VALUES (0x7CC8C008, 0x7CC8C007, '2005-02-09 10:00:00') /* Mindorla (4796) */
+     , (0x7CC8C008, 0x7CC8C00B, '2005-02-09 10:00:00') /* Cow (14) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7CC8C009,  4431, 0xCC8C0000, 26.6086, 56.118, 25.3302, 0.568074, 0, 0, -0.822978, False, '2005-02-09 10:00:00'); /* Rithwic Outpost */

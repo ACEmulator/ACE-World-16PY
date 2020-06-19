@@ -257,32 +257,32 @@ VALUES (0x702EC03F,  7932, 0x02EC027D, 230, -70, 0.005, 1, 0, 0, 0, False, '2005
 /* @teleloc 0x02EC027D [230.000000 -70.000000 0.005000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x702EC03F, 0x702EC02F, '2005-02-09 10:00:00') /* Mist Golem */
-     , (0x702EC03F, 0x702EC030, '2005-02-09 10:00:00') /* Mist Golem */
-     , (0x702EC03F, 0x702EC03B, '2005-02-09 10:00:00') /* Coral Golem */
-     , (0x702EC03F, 0x702EC03D, '2005-02-09 10:00:00') /* Coral Golem */
-     , (0x702EC03F, 0x702EC040, '2005-02-09 10:00:00') /* Mist Golem */
-     , (0x702EC03F, 0x702EC041, '2005-02-09 10:00:00') /* Mist Golem */
-     , (0x702EC03F, 0x702EC045, '2005-02-09 10:00:00') /* Nubilous Golem */
-     , (0x702EC03F, 0x702EC046, '2005-02-09 10:00:00') /* Relic Bones */
-     , (0x702EC03F, 0x702EC04A, '2005-02-09 10:00:00') /* Ashen Bones */
-     , (0x702EC03F, 0x702EC04B, '2005-02-09 10:00:00') /* Ashen Bones */
-     , (0x702EC03F, 0x702EC04E, '2005-02-09 10:00:00') /* Mist Golem */
-     , (0x702EC03F, 0x702EC04F, '2005-02-09 10:00:00') /* Nubilous Golem */
-     , (0x702EC03F, 0x702EC050, '2005-02-09 10:00:00') /* Relic Bones */
-     , (0x702EC03F, 0x702EC054, '2005-02-09 10:00:00') /* Nubilous Golem */
-     , (0x702EC03F, 0x702EC05E, '2005-02-09 10:00:00') /* Mist Golem */
-     , (0x702EC03F, 0x702EC05F, '2005-02-09 10:00:00') /* Nubilous Golem */
-     , (0x702EC03F, 0x702EC063, '2005-02-09 10:00:00') /* Cursed Bones */
-     , (0x702EC03F, 0x702EC064, '2005-02-09 10:00:00') /* Relic Bones */
-     , (0x702EC03F, 0x702EC066, '2005-02-09 10:00:00') /* Cursed Bones */
-     , (0x702EC03F, 0x702EC067, '2005-02-09 10:00:00') /* Relic Bones */
-     , (0x702EC03F, 0x702EC068, '2005-02-09 10:00:00') /* Relic Bones */
-     , (0x702EC03F, 0x702EC069, '2005-02-09 10:00:00') /* Cursed Bones */
-     , (0x702EC03F, 0x702EC06A, '2005-02-09 10:00:00') /* Cursed Bones */
-     , (0x702EC03F, 0x702EC06B, '2005-02-09 10:00:00') /* Cursed Bones */
-     , (0x702EC03F, 0x702EC06C, '2005-02-09 10:00:00') /* Cursed Bones */
-     , (0x702EC03F, 0x702EC06D, '2005-02-09 10:00:00') /* Relic Bones */;
+VALUES (0x702EC03F, 0x702EC02F, '2005-02-09 10:00:00') /* Mist Golem (22933) */
+     , (0x702EC03F, 0x702EC030, '2005-02-09 10:00:00') /* Mist Golem (22933) */
+     , (0x702EC03F, 0x702EC03B, '2005-02-09 10:00:00') /* Coral Golem (7626) */
+     , (0x702EC03F, 0x702EC03D, '2005-02-09 10:00:00') /* Coral Golem (7626) */
+     , (0x702EC03F, 0x702EC040, '2005-02-09 10:00:00') /* Mist Golem (22933) */
+     , (0x702EC03F, 0x702EC041, '2005-02-09 10:00:00') /* Mist Golem (22933) */
+     , (0x702EC03F, 0x702EC045, '2005-02-09 10:00:00') /* Nubilous Golem (23082) */
+     , (0x702EC03F, 0x702EC046, '2005-02-09 10:00:00') /* Relic Bones (7179) */
+     , (0x702EC03F, 0x702EC04A, '2005-02-09 10:00:00') /* Ashen Bones (7780) */
+     , (0x702EC03F, 0x702EC04B, '2005-02-09 10:00:00') /* Ashen Bones (7780) */
+     , (0x702EC03F, 0x702EC04E, '2005-02-09 10:00:00') /* Mist Golem (22933) */
+     , (0x702EC03F, 0x702EC04F, '2005-02-09 10:00:00') /* Nubilous Golem (23082) */
+     , (0x702EC03F, 0x702EC050, '2005-02-09 10:00:00') /* Relic Bones (7179) */
+     , (0x702EC03F, 0x702EC054, '2005-02-09 10:00:00') /* Nubilous Golem (23082) */
+     , (0x702EC03F, 0x702EC05E, '2005-02-09 10:00:00') /* Mist Golem (22933) */
+     , (0x702EC03F, 0x702EC05F, '2005-02-09 10:00:00') /* Nubilous Golem (23082) */
+     , (0x702EC03F, 0x702EC063, '2005-02-09 10:00:00') /* Cursed Bones (7178) */
+     , (0x702EC03F, 0x702EC064, '2005-02-09 10:00:00') /* Relic Bones (7179) */
+     , (0x702EC03F, 0x702EC066, '2005-02-09 10:00:00') /* Cursed Bones (7178) */
+     , (0x702EC03F, 0x702EC067, '2005-02-09 10:00:00') /* Relic Bones (7179) */
+     , (0x702EC03F, 0x702EC068, '2005-02-09 10:00:00') /* Relic Bones (7179) */
+     , (0x702EC03F, 0x702EC069, '2005-02-09 10:00:00') /* Cursed Bones (7178) */
+     , (0x702EC03F, 0x702EC06A, '2005-02-09 10:00:00') /* Cursed Bones (7178) */
+     , (0x702EC03F, 0x702EC06B, '2005-02-09 10:00:00') /* Cursed Bones (7178) */
+     , (0x702EC03F, 0x702EC06C, '2005-02-09 10:00:00') /* Cursed Bones (7178) */
+     , (0x702EC03F, 0x702EC06D, '2005-02-09 10:00:00') /* Relic Bones (7179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x702EC040, 22933, 0x02EC027E, 230.385, -100.222, 0.01, 1, 0, 0, 0,  True, '2005-02-09 10:00:00'); /* Mist Golem */
@@ -297,91 +297,91 @@ VALUES (0x702EC042,  7932, 0x02EC0284, 280, -50, 0.005, 1, 0, 0, 0, False, '2005
 /* @teleloc 0x02EC0284 [280.000000 -50.000000 0.005000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x702EC042, 0x702EC000, '2005-02-09 10:00:00') /* Magma Golem */
-     , (0x702EC042, 0x702EC001, '2005-02-09 10:00:00') /* Magma Golem */
-     , (0x702EC042, 0x702EC003, '2005-02-09 10:00:00') /* Coral Golem */
-     , (0x702EC042, 0x702EC015, '2005-02-09 10:00:00') /* Coral Golem */
-     , (0x702EC042, 0x702EC016, '2005-02-09 10:00:00') /* Coral Golem */
-     , (0x702EC042, 0x702EC031, '2005-02-09 10:00:00') /* Coral Golem */
-     , (0x702EC042, 0x702EC032, '2005-02-09 10:00:00') /* Coral Golem */
-     , (0x702EC042, 0x702EC033, '2005-02-09 10:00:00') /* Coral Golem */
-     , (0x702EC042, 0x702EC034, '2005-02-09 10:00:00') /* Coral Golem */
-     , (0x702EC042, 0x702EC047, '2005-02-09 10:00:00') /* Relic Bones */
-     , (0x702EC042, 0x702EC051, '2005-02-09 10:00:00') /* Relic Bones */
-     , (0x702EC042, 0x702EC055, '2005-02-09 10:00:00') /* Relic Bones */
-     , (0x702EC042, 0x702EC056, '2005-02-09 10:00:00') /* Relic Bones */
-     , (0x702EC042, 0x702EC058, '2005-02-09 10:00:00') /* Ashen Bones */
-     , (0x702EC042, 0x702EC059, '2005-02-09 10:00:00') /* Ashen Bones */
-     , (0x702EC042, 0x702EC05A, '2005-02-09 10:00:00') /* Ashen Bones */
-     , (0x702EC042, 0x702EC05B, '2005-02-09 10:00:00') /* Ashen Bones */
-     , (0x702EC042, 0x702EC060, '2005-02-09 10:00:00') /* Relic Bones */
-     , (0x702EC042, 0x702EC061, '2005-02-09 10:00:00') /* Relic Bones */
-     , (0x702EC042, 0x702EC06E, '2005-02-09 10:00:00') /* Relic Bones */
-     , (0x702EC042, 0x702EC06F, '2005-02-09 10:00:00') /* Relic Bones */
-     , (0x702EC042, 0x702EC071, '2005-02-09 10:00:00') /* Cursed Bones */
-     , (0x702EC042, 0x702EC072, '2005-02-09 10:00:00') /* Relic Bones */
-     , (0x702EC042, 0x702EC073, '2005-02-09 10:00:00') /* Relic Bones */
-     , (0x702EC042, 0x702EC074, '2005-02-09 10:00:00') /* Cursed Bones */
-     , (0x702EC042, 0x702EC075, '2005-02-09 10:00:00') /* Cursed Bones */
-     , (0x702EC042, 0x702EC076, '2005-02-09 10:00:00') /* Cursed Bones */
-     , (0x702EC042, 0x702EC077, '2005-02-09 10:00:00') /* Relic Bones */
-     , (0x702EC042, 0x702EC078, '2005-02-09 10:00:00') /* Relic Bones */;
+VALUES (0x702EC042, 0x702EC000, '2005-02-09 10:00:00') /* Magma Golem (199) */
+     , (0x702EC042, 0x702EC001, '2005-02-09 10:00:00') /* Magma Golem (199) */
+     , (0x702EC042, 0x702EC003, '2005-02-09 10:00:00') /* Coral Golem (7507) */
+     , (0x702EC042, 0x702EC015, '2005-02-09 10:00:00') /* Coral Golem (7507) */
+     , (0x702EC042, 0x702EC016, '2005-02-09 10:00:00') /* Coral Golem (7626) */
+     , (0x702EC042, 0x702EC031, '2005-02-09 10:00:00') /* Coral Golem (7626) */
+     , (0x702EC042, 0x702EC032, '2005-02-09 10:00:00') /* Coral Golem (7507) */
+     , (0x702EC042, 0x702EC033, '2005-02-09 10:00:00') /* Coral Golem (7626) */
+     , (0x702EC042, 0x702EC034, '2005-02-09 10:00:00') /* Coral Golem (7626) */
+     , (0x702EC042, 0x702EC047, '2005-02-09 10:00:00') /* Relic Bones (7179) */
+     , (0x702EC042, 0x702EC051, '2005-02-09 10:00:00') /* Relic Bones (7179) */
+     , (0x702EC042, 0x702EC055, '2005-02-09 10:00:00') /* Relic Bones (7179) */
+     , (0x702EC042, 0x702EC056, '2005-02-09 10:00:00') /* Relic Bones (7179) */
+     , (0x702EC042, 0x702EC058, '2005-02-09 10:00:00') /* Ashen Bones (7780) */
+     , (0x702EC042, 0x702EC059, '2005-02-09 10:00:00') /* Ashen Bones (7780) */
+     , (0x702EC042, 0x702EC05A, '2005-02-09 10:00:00') /* Ashen Bones (7780) */
+     , (0x702EC042, 0x702EC05B, '2005-02-09 10:00:00') /* Ashen Bones (7780) */
+     , (0x702EC042, 0x702EC060, '2005-02-09 10:00:00') /* Relic Bones (7179) */
+     , (0x702EC042, 0x702EC061, '2005-02-09 10:00:00') /* Relic Bones (7179) */
+     , (0x702EC042, 0x702EC06E, '2005-02-09 10:00:00') /* Relic Bones (7179) */
+     , (0x702EC042, 0x702EC06F, '2005-02-09 10:00:00') /* Relic Bones (7179) */
+     , (0x702EC042, 0x702EC071, '2005-02-09 10:00:00') /* Cursed Bones (7178) */
+     , (0x702EC042, 0x702EC072, '2005-02-09 10:00:00') /* Relic Bones (7179) */
+     , (0x702EC042, 0x702EC073, '2005-02-09 10:00:00') /* Relic Bones (7179) */
+     , (0x702EC042, 0x702EC074, '2005-02-09 10:00:00') /* Cursed Bones (7178) */
+     , (0x702EC042, 0x702EC075, '2005-02-09 10:00:00') /* Cursed Bones (7178) */
+     , (0x702EC042, 0x702EC076, '2005-02-09 10:00:00') /* Cursed Bones (7178) */
+     , (0x702EC042, 0x702EC077, '2005-02-09 10:00:00') /* Relic Bones (7179) */
+     , (0x702EC042, 0x702EC078, '2005-02-09 10:00:00') /* Relic Bones (7179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x702EC043,  7932, 0x02EC0285, 290, -70, 0.005, 1, 0, 0, 0, False, '2005-02-09 10:00:00'); /* Linkable Monster Generator ( 4 Min.) */
 /* @teleloc 0x02EC0285 [290.000000 -70.000000 0.005000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x702EC043, 0x702EC002, '2005-02-09 10:00:00') /* Obsidian Golem */
-     , (0x702EC043, 0x702EC004, '2005-02-09 10:00:00') /* Obsidian Golem */
-     , (0x702EC043, 0x702EC005, '2005-02-09 10:00:00') /* Magma Golem */
-     , (0x702EC043, 0x702EC006, '2005-02-09 10:00:00') /* Obsidian Golem */
-     , (0x702EC043, 0x702EC007, '2005-02-09 10:00:00') /* Obsidian Golem */
-     , (0x702EC043, 0x702EC008, '2005-02-09 10:00:00') /* Magma Golem */
-     , (0x702EC043, 0x702EC009, '2005-02-09 10:00:00') /* Magma Golem */
-     , (0x702EC043, 0x702EC00A, '2005-02-09 10:00:00') /* Magma Golem */
-     , (0x702EC043, 0x702EC00B, '2005-02-09 10:00:00') /* Obsidian Golem */
-     , (0x702EC043, 0x702EC00C, '2005-02-09 10:00:00') /* Magma Golem */
-     , (0x702EC043, 0x702EC00D, '2005-02-09 10:00:00') /* Magma Golem */
-     , (0x702EC043, 0x702EC00E, '2005-02-09 10:00:00') /* Obsidian Golem */
-     , (0x702EC043, 0x702EC00F, '2005-02-09 10:00:00') /* Magma Golem */
-     , (0x702EC043, 0x702EC010, '2005-02-09 10:00:00') /* Magma Golem */
-     , (0x702EC043, 0x702EC011, '2005-02-09 10:00:00') /* Coral Golem */
-     , (0x702EC043, 0x702EC012, '2005-02-09 10:00:00') /* Nubilous Golem */
-     , (0x702EC043, 0x702EC013, '2005-02-09 10:00:00') /* Coral Golem */
-     , (0x702EC043, 0x702EC014, '2005-02-09 10:00:00') /* Coral Golem */
-     , (0x702EC043, 0x702EC017, '2005-02-09 10:00:00') /* Coral Golem */
-     , (0x702EC043, 0x702EC018, '2005-02-09 10:00:00') /* Coral Golem */
-     , (0x702EC043, 0x702EC019, '2005-02-09 10:00:00') /* Coral Golem */
-     , (0x702EC043, 0x702EC01A, '2005-02-09 10:00:00') /* Coral Golem */
-     , (0x702EC043, 0x702EC01B, '2005-02-09 10:00:00') /* Mist Golem */
-     , (0x702EC043, 0x702EC01C, '2005-02-09 10:00:00') /* Coral Golem */
-     , (0x702EC043, 0x702EC01D, '2005-02-09 10:00:00') /* Coral Golem */
-     , (0x702EC043, 0x702EC01E, '2005-02-09 10:00:00') /* Coral Golem */
-     , (0x702EC043, 0x702EC01F, '2005-02-09 10:00:00') /* Mist Golem */
-     , (0x702EC043, 0x702EC020, '2005-02-09 10:00:00') /* Mist Golem */
-     , (0x702EC043, 0x702EC021, '2005-02-09 10:00:00') /* Coral Golem */
-     , (0x702EC043, 0x702EC022, '2005-02-09 10:00:00') /* Coral Golem */
-     , (0x702EC043, 0x702EC023, '2005-02-09 10:00:00') /* Coral Golem */
-     , (0x702EC043, 0x702EC024, '2005-02-09 10:00:00') /* Nubilous Golem */
-     , (0x702EC043, 0x702EC025, '2005-02-09 10:00:00') /* Coral Golem */
-     , (0x702EC043, 0x702EC026, '2005-02-09 10:00:00') /* Coral Golem */
-     , (0x702EC043, 0x702EC027, '2005-02-09 10:00:00') /* Nubilous Golem */
-     , (0x702EC043, 0x702EC028, '2005-02-09 10:00:00') /* Coral Golem */
-     , (0x702EC043, 0x702EC029, '2005-02-09 10:00:00') /* Coral Golem */
-     , (0x702EC043, 0x702EC02A, '2005-02-09 10:00:00') /* Coral Golem */
-     , (0x702EC043, 0x702EC02B, '2005-02-09 10:00:00') /* Coral Golem */
-     , (0x702EC043, 0x702EC02C, '2005-02-09 10:00:00') /* Coral Golem */
-     , (0x702EC043, 0x702EC02D, '2005-02-09 10:00:00') /* Coral Golem */
-     , (0x702EC043, 0x702EC02E, '2005-02-09 10:00:00') /* Coral Golem */
-     , (0x702EC043, 0x702EC035, '2005-02-09 10:00:00') /* Mist Golem */
-     , (0x702EC043, 0x702EC036, '2005-02-09 10:00:00') /* Coral Golem */
-     , (0x702EC043, 0x702EC037, '2005-02-09 10:00:00') /* Coral Golem */
-     , (0x702EC043, 0x702EC038, '2005-02-09 10:00:00') /* Coral Golem */
-     , (0x702EC043, 0x702EC039, '2005-02-09 10:00:00') /* Coral Golem */
-     , (0x702EC043, 0x702EC03A, '2005-02-09 10:00:00') /* Coral Golem */
-     , (0x702EC043, 0x702EC03C, '2005-02-09 10:00:00') /* Coral Golem */
-     , (0x702EC043, 0x702EC03E, '2005-02-09 10:00:00') /* Coral Golem */;
+VALUES (0x702EC043, 0x702EC002, '2005-02-09 10:00:00') /* Obsidian Golem (201) */
+     , (0x702EC043, 0x702EC004, '2005-02-09 10:00:00') /* Obsidian Golem (201) */
+     , (0x702EC043, 0x702EC005, '2005-02-09 10:00:00') /* Magma Golem (199) */
+     , (0x702EC043, 0x702EC006, '2005-02-09 10:00:00') /* Obsidian Golem (201) */
+     , (0x702EC043, 0x702EC007, '2005-02-09 10:00:00') /* Obsidian Golem (201) */
+     , (0x702EC043, 0x702EC008, '2005-02-09 10:00:00') /* Magma Golem (199) */
+     , (0x702EC043, 0x702EC009, '2005-02-09 10:00:00') /* Magma Golem (199) */
+     , (0x702EC043, 0x702EC00A, '2005-02-09 10:00:00') /* Magma Golem (199) */
+     , (0x702EC043, 0x702EC00B, '2005-02-09 10:00:00') /* Obsidian Golem (201) */
+     , (0x702EC043, 0x702EC00C, '2005-02-09 10:00:00') /* Magma Golem (199) */
+     , (0x702EC043, 0x702EC00D, '2005-02-09 10:00:00') /* Magma Golem (199) */
+     , (0x702EC043, 0x702EC00E, '2005-02-09 10:00:00') /* Obsidian Golem (201) */
+     , (0x702EC043, 0x702EC00F, '2005-02-09 10:00:00') /* Magma Golem (199) */
+     , (0x702EC043, 0x702EC010, '2005-02-09 10:00:00') /* Magma Golem (199) */
+     , (0x702EC043, 0x702EC011, '2005-02-09 10:00:00') /* Coral Golem (7507) */
+     , (0x702EC043, 0x702EC012, '2005-02-09 10:00:00') /* Nubilous Golem (23082) */
+     , (0x702EC043, 0x702EC013, '2005-02-09 10:00:00') /* Coral Golem (7626) */
+     , (0x702EC043, 0x702EC014, '2005-02-09 10:00:00') /* Coral Golem (7507) */
+     , (0x702EC043, 0x702EC017, '2005-02-09 10:00:00') /* Coral Golem (7626) */
+     , (0x702EC043, 0x702EC018, '2005-02-09 10:00:00') /* Coral Golem (7626) */
+     , (0x702EC043, 0x702EC019, '2005-02-09 10:00:00') /* Coral Golem (7507) */
+     , (0x702EC043, 0x702EC01A, '2005-02-09 10:00:00') /* Coral Golem (7507) */
+     , (0x702EC043, 0x702EC01B, '2005-02-09 10:00:00') /* Mist Golem (22933) */
+     , (0x702EC043, 0x702EC01C, '2005-02-09 10:00:00') /* Coral Golem (7507) */
+     , (0x702EC043, 0x702EC01D, '2005-02-09 10:00:00') /* Coral Golem (7507) */
+     , (0x702EC043, 0x702EC01E, '2005-02-09 10:00:00') /* Coral Golem (7626) */
+     , (0x702EC043, 0x702EC01F, '2005-02-09 10:00:00') /* Mist Golem (22933) */
+     , (0x702EC043, 0x702EC020, '2005-02-09 10:00:00') /* Mist Golem (22933) */
+     , (0x702EC043, 0x702EC021, '2005-02-09 10:00:00') /* Coral Golem (7626) */
+     , (0x702EC043, 0x702EC022, '2005-02-09 10:00:00') /* Coral Golem (7626) */
+     , (0x702EC043, 0x702EC023, '2005-02-09 10:00:00') /* Coral Golem (7626) */
+     , (0x702EC043, 0x702EC024, '2005-02-09 10:00:00') /* Nubilous Golem (23082) */
+     , (0x702EC043, 0x702EC025, '2005-02-09 10:00:00') /* Coral Golem (7626) */
+     , (0x702EC043, 0x702EC026, '2005-02-09 10:00:00') /* Coral Golem (7507) */
+     , (0x702EC043, 0x702EC027, '2005-02-09 10:00:00') /* Nubilous Golem (23082) */
+     , (0x702EC043, 0x702EC028, '2005-02-09 10:00:00') /* Coral Golem (7507) */
+     , (0x702EC043, 0x702EC029, '2005-02-09 10:00:00') /* Coral Golem (7507) */
+     , (0x702EC043, 0x702EC02A, '2005-02-09 10:00:00') /* Coral Golem (7626) */
+     , (0x702EC043, 0x702EC02B, '2005-02-09 10:00:00') /* Coral Golem (7507) */
+     , (0x702EC043, 0x702EC02C, '2005-02-09 10:00:00') /* Coral Golem (7626) */
+     , (0x702EC043, 0x702EC02D, '2005-02-09 10:00:00') /* Coral Golem (7626) */
+     , (0x702EC043, 0x702EC02E, '2005-02-09 10:00:00') /* Coral Golem (7507) */
+     , (0x702EC043, 0x702EC035, '2005-02-09 10:00:00') /* Mist Golem (22933) */
+     , (0x702EC043, 0x702EC036, '2005-02-09 10:00:00') /* Coral Golem (7626) */
+     , (0x702EC043, 0x702EC037, '2005-02-09 10:00:00') /* Coral Golem (7626) */
+     , (0x702EC043, 0x702EC038, '2005-02-09 10:00:00') /* Coral Golem (7507) */
+     , (0x702EC043, 0x702EC039, '2005-02-09 10:00:00') /* Coral Golem (7507) */
+     , (0x702EC043, 0x702EC03A, '2005-02-09 10:00:00') /* Coral Golem (7626) */
+     , (0x702EC043, 0x702EC03C, '2005-02-09 10:00:00') /* Coral Golem (7507) */
+     , (0x702EC043, 0x702EC03E, '2005-02-09 10:00:00') /* Coral Golem (7507) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x702EC045, 23082, 0x02EC029E, 30, -80, 6.01, 1, 0, 0, 0,  True, '2005-02-09 10:00:00'); /* Nubilous Golem */
@@ -412,8 +412,8 @@ VALUES (0x702EC04C,  2180, 0x02EC02CB, 50.001, -65.248, 6.005, -4.37114E-08, 0, 
 /* @teleloc 0x02EC02CB [50.001000 -65.248000 6.005000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x702EC04C, 0x702EC04D, '2005-02-09 10:00:00') /* Pressure Plate */
-     , (0x702EC04C, 0x702EC065, '2005-02-09 10:00:00') /* Lever */;
+VALUES (0x702EC04C, 0x702EC04D, '2005-02-09 10:00:00') /* Pressure Plate (2131) */
+     , (0x702EC04C, 0x702EC065, '2005-02-09 10:00:00') /* Lever (2609) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x702EC04D,  2131, 0x02EC02CB, 50.0267, -66.7632, 6.005, 1, 0, 0, -4.37114E-08,  True, '2005-02-09 10:00:00'); /* Pressure Plate */
@@ -472,8 +472,8 @@ VALUES (0x702EC05C,  2180, 0x02EC032D, 260.005, -65.257, 6.005, -4.37114E-08, 0,
 /* @teleloc 0x02EC032D [260.005000 -65.257000 6.005000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x702EC05C, 0x702EC05D, '2005-02-09 10:00:00') /* Pressure Plate */
-     , (0x702EC05C, 0x702EC070, '2005-02-09 10:00:00') /* Lever */;
+VALUES (0x702EC05C, 0x702EC05D, '2005-02-09 10:00:00') /* Pressure Plate (2131) */
+     , (0x702EC05C, 0x702EC070, '2005-02-09 10:00:00') /* Lever (2609) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x702EC05D,  2131, 0x02EC032D, 260, -67.745, 6.005, 1, 0, 0, -4.37114E-08,  True, '2005-02-09 10:00:00'); /* Pressure Plate */

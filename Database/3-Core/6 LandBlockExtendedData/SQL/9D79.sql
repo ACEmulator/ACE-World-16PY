@@ -5,13 +5,13 @@ VALUES (0x79D79000,  7923, 0x9D790000, 179.404, 134.602, 41.205, 0.647271, 0, 0,
 /* @teleloc 0x9D790000 [179.404000 134.602000 41.205000] 0.647271 0.000000 0.000000 0.762260 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79D79000, 0x79D79001, '2005-02-09 10:00:00') /* Drudge Sneaker */
-     , (0x79D79000, 0x79D79002, '2005-02-09 10:00:00') /* Drudge Prowler */
-     , (0x79D79000, 0x79D79003, '2005-02-09 10:00:00') /* Drudge Prowler */
-     , (0x79D79000, 0x79D79004, '2005-02-09 10:00:00') /* Drudge Prowler */
-     , (0x79D79000, 0x79D79005, '2005-02-09 10:00:00') /* Drudge Prowler */
-     , (0x79D79000, 0x79D79006, '2005-02-09 10:00:00') /* Drudge Prowler */
-     , (0x79D79000, 0x79D79007, '2005-02-09 10:00:00') /* Drudge Prowler */;
+VALUES (0x79D79000, 0x79D79001, '2005-02-09 10:00:00') /* Drudge Sneaker (940) */
+     , (0x79D79000, 0x79D79002, '2005-02-09 10:00:00') /* Drudge Prowler (192) */
+     , (0x79D79000, 0x79D79003, '2005-02-09 10:00:00') /* Drudge Prowler (192) */
+     , (0x79D79000, 0x79D79004, '2005-02-09 10:00:00') /* Drudge Prowler (192) */
+     , (0x79D79000, 0x79D79005, '2005-02-09 10:00:00') /* Drudge Prowler (192) */
+     , (0x79D79000, 0x79D79006, '2005-02-09 10:00:00') /* Drudge Prowler (192) */
+     , (0x79D79000, 0x79D79007, '2005-02-09 10:00:00') /* Drudge Prowler (192) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79D79001,   940, 0x9D790100, 178.239, 133.563, 26.005, 0.374759, 0, 0, 0.927122,  True, '2005-02-09 10:00:00'); /* Drudge Sneaker */

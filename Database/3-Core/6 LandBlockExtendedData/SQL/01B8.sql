@@ -41,10 +41,10 @@ VALUES (0x701B8009,  1154, 0x01B8010D, 39.454, -21.8344, -12, -0.707107, 0, 0, -
 /* @teleloc 0x01B8010D [39.454000 -21.834400 -12.000000] -0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x701B8009, 0x701B8004, '2005-02-09 10:00:00') /* Gnawer Shreth */
-     , (0x701B8009, 0x701B8005, '2005-02-09 10:00:00') /* Gnawer Shreth */
-     , (0x701B8009, 0x701B8006, '2005-02-09 10:00:00') /* Gnawer Shreth */
-     , (0x701B8009, 0x701B8008, '2005-02-09 10:00:00') /* Gnawer Shreth */;
+VALUES (0x701B8009, 0x701B8004, '2005-02-09 10:00:00') /* Gnawer Shreth (4108) */
+     , (0x701B8009, 0x701B8005, '2005-02-09 10:00:00') /* Gnawer Shreth (4108) */
+     , (0x701B8009, 0x701B8006, '2005-02-09 10:00:00') /* Gnawer Shreth (4108) */
+     , (0x701B8009, 0x701B8008, '2005-02-09 10:00:00') /* Gnawer Shreth (4108) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x701B800A,   381, 0x01B80121, 10, -40, 0.011, 1, 0, 0, 0, False, '2005-02-09 10:00:00'); /* Drudge Generator */
@@ -59,12 +59,12 @@ VALUES (0x701B800C,  1154, 0x01B80122, 20, -20, 0, -4.37114E-08, 0, 0, -1, False
 /* @teleloc 0x01B80122 [20.000000 -20.000000 0.000000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x701B800C, 0x701B8000, '2005-02-09 10:00:00') /* Outcast Monouga */
-     , (0x701B800C, 0x701B8001, '2005-02-09 10:00:00') /* Outcast Monouga */
-     , (0x701B800C, 0x701B8007, '2005-02-09 10:00:00') /* Outcast Monouga */
-     , (0x701B800C, 0x701B800B, '2005-02-09 10:00:00') /* Outcast Monouga */
-     , (0x701B800C, 0x701B8016, '2005-02-09 10:00:00') /* Outcast Monouga */
-     , (0x701B800C, 0x701B8017, '2005-02-09 10:00:00') /* Outcast Monouga */;
+VALUES (0x701B800C, 0x701B8000, '2005-02-09 10:00:00') /* Outcast Monouga (2612) */
+     , (0x701B800C, 0x701B8001, '2005-02-09 10:00:00') /* Outcast Monouga (2612) */
+     , (0x701B800C, 0x701B8007, '2005-02-09 10:00:00') /* Outcast Monouga (2612) */
+     , (0x701B800C, 0x701B800B, '2005-02-09 10:00:00') /* Outcast Monouga (2612) */
+     , (0x701B800C, 0x701B8016, '2005-02-09 10:00:00') /* Outcast Monouga (2612) */
+     , (0x701B800C, 0x701B8017, '2005-02-09 10:00:00') /* Outcast Monouga (2612) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x701B800D,   278, 0x01B80124, 20, -24.755, 0, -4.37114E-08, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Door */

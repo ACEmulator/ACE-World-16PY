@@ -21,7 +21,7 @@ VALUES (0x7BA9E004,  7923, 0xBA9E0108, 53.686, 32.3644, 54.005, -0.964041, 0, 0,
 /* @teleloc 0xBA9E0108 [53.686000 32.364400 54.005000] -0.964041 0.000000 0.000000 -0.265752 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BA9E004, 0x7BA9E003, '2005-02-09 10:00:00') /* Agent of the Arcanum */;
+VALUES (0x7BA9E004, 0x7BA9E003, '2005-02-09 10:00:00') /* Agent of the Arcanum (12050) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BA9E005, 12238, 0xBA9E0108, 57.262, 33.2901, 54.005, 0.994314, 0, 0, -0.106491,  True, '2005-02-09 10:00:00'); /* Bartholomew Steiner */
@@ -36,7 +36,7 @@ VALUES (0x7BA9E009,  7923, 0xBA9E0108, 56.9426, 34.597, 54.005, -0.0624601, 0, 0
 /* @teleloc 0xBA9E0108 [56.942600 34.597000 54.005000] -0.062460 0.000000 0.000000 0.998047 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BA9E009, 0x7BA9E005, '2005-02-09 10:00:00') /* Bartholomew Steiner */;
+VALUES (0x7BA9E009, 0x7BA9E005, '2005-02-09 10:00:00') /* Bartholomew Steiner (12238) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BA9E00A, 12304, 0xBA9E0000, 52.2586, 41.961, 54.005, -0.37948, 0, 0, -0.9252, False, '2005-02-09 10:00:00'); /* Agent of the Arcanum  */

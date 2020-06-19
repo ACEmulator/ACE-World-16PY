@@ -9,9 +9,9 @@ VALUES (0x7F527001,  4219, 0xF5270000, 70.384, 138.871, 21.7211, 0.994111, 0, 0,
 /* @teleloc 0xF5270000 [70.384000 138.871000 21.721100] 0.994111 0.000000 0.000000 0.108366 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7F527001, 0x7F527002, '2005-02-09 10:00:00') /* Slithis Eye Stalk */
-     , (0x7F527001, 0x7F527003, '2005-02-09 10:00:00') /* Slithis Eye Stalk */
-     , (0x7F527001, 0x7F527004, '2005-02-09 10:00:00') /* Slithis Eye Stalk */;
+VALUES (0x7F527001, 0x7F527002, '2005-02-09 10:00:00') /* Slithis Eye Stalk (4258) */
+     , (0x7F527001, 0x7F527003, '2005-02-09 10:00:00') /* Slithis Eye Stalk (4258) */
+     , (0x7F527001, 0x7F527004, '2005-02-09 10:00:00') /* Slithis Eye Stalk (4258) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7F527002,  4258, 0xF5270000, 65.3785, 134.568, 21.8675, 0.631383, 0, 0, -0.775471,  True, '2005-02-09 10:00:00'); /* Slithis Eye Stalk */

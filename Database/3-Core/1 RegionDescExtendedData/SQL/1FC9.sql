@@ -1,10 +1,7 @@
-DELETE FROM `encounter` WHERE `landblock` = 8137;
+DELETE FROM `encounter` WHERE `landblock` = 0x1FC9;
 
 INSERT INTO `encounter` (`landblock`, `weenie_Class_Id`, `cell_X`, `cell_Y`, `last_Modified`)
-VALUES (8137, 27733, 0, 0, '2005-02-09 10:00:00') /* Marae High Plains Generator */
-     , (8137, 27732, 0, 8, '2005-02-09 10:00:00') /* Marae Mid Plains Generator */
-     , (8137, 27732, 2, 7, '2005-02-09 10:00:00') /* Marae Mid Plains Generator */
-     , (8137, 27732, 4, 5, '2005-02-09 10:00:00') /* Marae Mid Plains Generator */
-     , (8137, 27732, 5, 7, '2005-02-09 10:00:00') /* Marae Mid Plains Generator */
-     , (8137, 27733, 8, 0, '2005-02-09 10:00:00') /* Marae High Plains Generator */
-     , (8137, 27732, 8, 7, '2005-02-09 10:00:00') /* Marae Mid Plains Generator */;
+VALUES (0x1FC9, 27733, 0, 0, '2005-02-09 10:00:00') /* Marae High Plains Generator */
+     , (0x1FC9, 27732, 2, 7, '2005-02-09 10:00:00') /* Marae Mid Plains Generator */
+     , (0x1FC9, 27732, 4, 5, '2005-02-09 10:00:00') /* Marae Mid Plains Generator */
+     , (0x1FC9, 27732, 5, 7, '2005-02-09 10:00:00') /* Marae Mid Plains Generator */;

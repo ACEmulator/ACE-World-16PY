@@ -29,13 +29,13 @@ VALUES (0x7A66C00D,  4219, 0xA66C0100, 83.1969, 138.771, 16.7914, -0.992499, 0, 
 /* @teleloc 0xA66C0100 [83.196900 138.771000 16.791400] -0.992499 0.000000 0.000000 -0.122254 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A66C00D, 0x7A66C008, '2005-02-09 10:00:00') /* Gout */
-     , (0x7A66C00D, 0x7A66C009, '2005-02-09 10:00:00') /* Gout */
-     , (0x7A66C00D, 0x7A66C00A, '2005-02-09 10:00:00') /* Gout */
-     , (0x7A66C00D, 0x7A66C00B, '2005-02-09 10:00:00') /* Gout */
-     , (0x7A66C00D, 0x7A66C00C, '2005-02-09 10:00:00') /* Gout */
-     , (0x7A66C00D, 0x7A66C00E, '2005-02-09 10:00:00') /* Gout */
-     , (0x7A66C00D, 0x7A66C00F, '2005-02-09 10:00:00') /* Gout */;
+VALUES (0x7A66C00D, 0x7A66C008, '2005-02-09 10:00:00') /* Gout (21164) */
+     , (0x7A66C00D, 0x7A66C009, '2005-02-09 10:00:00') /* Gout (21164) */
+     , (0x7A66C00D, 0x7A66C00A, '2005-02-09 10:00:00') /* Gout (21164) */
+     , (0x7A66C00D, 0x7A66C00B, '2005-02-09 10:00:00') /* Gout (21164) */
+     , (0x7A66C00D, 0x7A66C00C, '2005-02-09 10:00:00') /* Gout (21164) */
+     , (0x7A66C00D, 0x7A66C00E, '2005-02-09 10:00:00') /* Gout (21164) */
+     , (0x7A66C00D, 0x7A66C00F, '2005-02-09 10:00:00') /* Gout (21164) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A66C00E, 21164, 0xA66C0000, 85.0433, 125.48, 22.6385, -0.201976, 0, 0, 0.979391,  True, '2005-02-09 10:00:00'); /* Gout */
@@ -50,8 +50,8 @@ VALUES (0x7A66C010,  5085, 0xA66C0100, 82.2278, 144.605, 16.7914, 0.810963, 0, 0
 /* @teleloc 0xA66C0100 [82.227800 144.605000 16.791400] 0.810963 0.000000 0.000000 0.585097 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A66C010, 0x7A66C000, '2005-02-09 10:00:00') /* Minor Smoldering Stone */
-     , (0x7A66C010, 0x7A66C011, '2005-02-09 10:00:00') /* Textbook */;
+VALUES (0x7A66C010, 0x7A66C000, '2005-02-09 10:00:00') /* Minor Smoldering Stone (6320) */
+     , (0x7A66C010, 0x7A66C011, '2005-02-09 10:00:00') /* Textbook (6407) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A66C011,  6407, 0xA66C0100, 86.0686, 145.183, 16.8559, 0.33447, 0, 0, -0.942406,  True, '2005-02-09 10:00:00'); /* Textbook */

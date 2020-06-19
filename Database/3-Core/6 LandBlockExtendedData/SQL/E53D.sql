@@ -61,9 +61,9 @@ VALUES (0x7E53D00E,  7923, 0xE53D0113, 176.396, 155.359, 96.005, -0.949231, 0, 0
 /* @teleloc 0xE53D0113 [176.396000 155.359000 96.005000] -0.949231 0.000000 0.000000 0.314581 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7E53D00E, 0x7E53D00A, '2005-02-09 10:00:00') /* Wa Shi */
-     , (0x7E53D00E, 0x7E53D00D, '2005-02-09 10:00:00') /* Miyako Nujou-Wah  */
-     , (0x7E53D00E, 0x7E53D014, '2005-02-09 10:00:00') /* Apprentice Cook */;
+VALUES (0x7E53D00E, 0x7E53D00A, '2005-02-09 10:00:00') /* Wa Shi (5122) */
+     , (0x7E53D00E, 0x7E53D00D, '2005-02-09 10:00:00') /* Miyako Nujou-Wah  (6890) */
+     , (0x7E53D00E, 0x7E53D014, '2005-02-09 10:00:00') /* Apprentice Cook (27745) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7E53D00F,  8377, 0xE53D0100, 186.998, 172.117, 96.47, 0.0108708, 0, 0, -0.999941, False, '2005-02-09 10:00:00'); /* Beer Keg */

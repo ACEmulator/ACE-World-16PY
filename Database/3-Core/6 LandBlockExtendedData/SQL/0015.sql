@@ -33,14 +33,14 @@ VALUES (0x70015007,  7923, 0x00150109, 6.06863, -21.8074, -23.995, -0.26299, 0, 
 /* @teleloc 0x00150109 [6.068630 -21.807400 -23.995000] -0.262990 0.000000 0.000000 0.964799 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x70015007, 0x70015006, '2005-02-09 10:00:00') /* Withered Drudge Seraph */;
+VALUES (0x70015007, 0x70015006, '2005-02-09 10:00:00') /* Withered Drudge Seraph (30681) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x70015008,  2179, 0x0015010B, 14.6357, -29.9725, -24, 0.707107, 0, 0, -0.707107, False, '2005-02-09 10:00:00'); /* Door */
 /* @teleloc 0x0015010B [14.635700 -29.972500 -24.000000] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x70015008, 0x70015002, '2005-02-09 10:00:00') /* Lever */;
+VALUES (0x70015008, 0x70015002, '2005-02-09 10:00:00') /* Lever (286) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x70015009, 30687, 0x0015010C, 10.8906, -43.9709, -23.989, -0.352247, 0, 0, -0.935907,  True, '2005-02-09 10:00:00'); /* Withered Revered Tumerok Shaman */
@@ -135,7 +135,7 @@ VALUES (0x7001501F,  2179, 0x00150145, 14.75, -40, -12, 0.707107, 0, 0, -0.70710
 /* @teleloc 0x00150145 [14.750000 -40.000000 -12.000000] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7001501F, 0x70015028, '2005-02-09 10:00:00') /* Lever */;
+VALUES (0x7001501F, 0x70015028, '2005-02-09 10:00:00') /* Lever (286) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x70015020, 30680, 0x00150148, 10.8972, -64.139, -11.9948, -0.707107, 0, 0, -0.707107,  True, '2005-02-09 10:00:00'); /* Withered Drudge Seraph */
@@ -158,7 +158,7 @@ VALUES (0x70015024,  2179, 0x00150165, 25.25, -50, -12, -0.707107, 0, 0, -0.7071
 /* @teleloc 0x00150165 [25.250000 -50.000000 -12.000000] -0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x70015024, 0x70015017, '2005-02-09 10:00:00') /* Lever */;
+VALUES (0x70015024, 0x70015017, '2005-02-09 10:00:00') /* Lever (286) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x70015025, 30680, 0x0015016A, 27.8913, -67.7547, -11.9467, 0.707107, 0, 0, -0.707107,  True, '2005-02-09 10:00:00'); /* Withered Drudge Seraph */
@@ -237,31 +237,31 @@ VALUES (0x70015037,  7923, 0x001501CE, 20, -60, 12, -0.707107, 0, 0, -0.707107, 
 /* @teleloc 0x001501CE [20.000000 -60.000000 12.000000] -0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x70015037, 0x70015001, '2005-02-09 10:00:00') /* Withered Revered Tumerok Shaman */
-     , (0x70015037, 0x70015004, '2005-02-09 10:00:00') /* Withered Revered Tumerok Shaman */
-     , (0x70015037, 0x70015005, '2005-02-09 10:00:00') /* Withered Revered Tumerok Shaman */
-     , (0x70015037, 0x70015009, '2005-02-09 10:00:00') /* Withered Revered Tumerok Shaman */
-     , (0x70015037, 0x7001500A, '2005-02-09 10:00:00') /* Withered Revered Tumerok Shaman */
-     , (0x70015037, 0x7001500B, '2005-02-09 10:00:00') /* Withered Drudge Seraph */
-     , (0x70015037, 0x7001500D, '2005-02-09 10:00:00') /* Withered Drudge Seraph */
-     , (0x70015037, 0x7001500E, '2005-02-09 10:00:00') /* Withered Drudge Seraph */
-     , (0x70015037, 0x7001500F, '2005-02-09 10:00:00') /* Withered Drudge Seraph */
-     , (0x70015037, 0x70015013, '2005-02-09 10:00:00') /* Withered Revered Tumerok Shaman */
-     , (0x70015037, 0x70015014, '2005-02-09 10:00:00') /* Withered Drudge Seraph */
-     , (0x70015037, 0x70015015, '2005-02-09 10:00:00') /* Withered Drudge Seraph */
-     , (0x70015037, 0x70015019, '2005-02-09 10:00:00') /* Withered Drudge Seraph */
-     , (0x70015037, 0x7001501C, '2005-02-09 10:00:00') /* Withered Drudge Seraph */
-     , (0x70015037, 0x70015020, '2005-02-09 10:00:00') /* Withered Drudge Seraph */
-     , (0x70015037, 0x70015022, '2005-02-09 10:00:00') /* Withered Drudge Seraph Mystic */
-     , (0x70015037, 0x70015023, '2005-02-09 10:00:00') /* Withered Drudge Seraph Mystic */
-     , (0x70015037, 0x70015025, '2005-02-09 10:00:00') /* Withered Drudge Seraph */
-     , (0x70015037, 0x70015026, '2005-02-09 10:00:00') /* Withered Drudge Seraph Mystic */
-     , (0x70015037, 0x7001502B, '2005-02-09 10:00:00') /* Withered Drudge Seraph Mystic */
-     , (0x70015037, 0x70015030, '2005-02-09 10:00:00') /* Withered Drudge Seraph */
-     , (0x70015037, 0x70015033, '2005-02-09 10:00:00') /* Withered Drudge Seraph Mystic */
-     , (0x70015037, 0x70015034, '2005-02-09 10:00:00') /* Withered Drudge Seraph Mystic */
-     , (0x70015037, 0x70015035, '2005-02-09 10:00:00') /* Withered Drudge Seraph */
-     , (0x70015037, 0x70015038, '2005-02-09 10:00:00') /* Withered Drudge Seraph */;
+VALUES (0x70015037, 0x70015001, '2005-02-09 10:00:00') /* Withered Revered Tumerok Shaman (30687) */
+     , (0x70015037, 0x70015004, '2005-02-09 10:00:00') /* Withered Revered Tumerok Shaman (30687) */
+     , (0x70015037, 0x70015005, '2005-02-09 10:00:00') /* Withered Revered Tumerok Shaman (30687) */
+     , (0x70015037, 0x70015009, '2005-02-09 10:00:00') /* Withered Revered Tumerok Shaman (30687) */
+     , (0x70015037, 0x7001500A, '2005-02-09 10:00:00') /* Withered Revered Tumerok Shaman (30687) */
+     , (0x70015037, 0x7001500B, '2005-02-09 10:00:00') /* Withered Drudge Seraph (30680) */
+     , (0x70015037, 0x7001500D, '2005-02-09 10:00:00') /* Withered Drudge Seraph (30680) */
+     , (0x70015037, 0x7001500E, '2005-02-09 10:00:00') /* Withered Drudge Seraph (30680) */
+     , (0x70015037, 0x7001500F, '2005-02-09 10:00:00') /* Withered Drudge Seraph (30680) */
+     , (0x70015037, 0x70015013, '2005-02-09 10:00:00') /* Withered Revered Tumerok Shaman (30687) */
+     , (0x70015037, 0x70015014, '2005-02-09 10:00:00') /* Withered Drudge Seraph (30680) */
+     , (0x70015037, 0x70015015, '2005-02-09 10:00:00') /* Withered Drudge Seraph (30680) */
+     , (0x70015037, 0x70015019, '2005-02-09 10:00:00') /* Withered Drudge Seraph (30680) */
+     , (0x70015037, 0x7001501C, '2005-02-09 10:00:00') /* Withered Drudge Seraph (30680) */
+     , (0x70015037, 0x70015020, '2005-02-09 10:00:00') /* Withered Drudge Seraph (30680) */
+     , (0x70015037, 0x70015022, '2005-02-09 10:00:00') /* Withered Drudge Seraph Mystic (30682) */
+     , (0x70015037, 0x70015023, '2005-02-09 10:00:00') /* Withered Drudge Seraph Mystic (30682) */
+     , (0x70015037, 0x70015025, '2005-02-09 10:00:00') /* Withered Drudge Seraph (30680) */
+     , (0x70015037, 0x70015026, '2005-02-09 10:00:00') /* Withered Drudge Seraph Mystic (30682) */
+     , (0x70015037, 0x7001502B, '2005-02-09 10:00:00') /* Withered Drudge Seraph Mystic (30682) */
+     , (0x70015037, 0x70015030, '2005-02-09 10:00:00') /* Withered Drudge Seraph (30680) */
+     , (0x70015037, 0x70015033, '2005-02-09 10:00:00') /* Withered Drudge Seraph Mystic (30682) */
+     , (0x70015037, 0x70015034, '2005-02-09 10:00:00') /* Withered Drudge Seraph Mystic (30682) */
+     , (0x70015037, 0x70015035, '2005-02-09 10:00:00') /* Withered Drudge Seraph (30680) */
+     , (0x70015037, 0x70015038, '2005-02-09 10:00:00') /* Withered Drudge Seraph (30680) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x70015038, 30680, 0x001501D4, 39.0199, -45.8829, 12.0052, 0.406537, 0, 0, -0.913634,  True, '2005-02-09 10:00:00'); /* Withered Drudge Seraph */
@@ -276,15 +276,15 @@ VALUES (0x7001503A,  7923, 0x00150111, 19.9727, -29.6402, -23.995, 0.049083, 0, 
 /* @teleloc 0x00150111 [19.972700 -29.640200 -23.995000] 0.049083 0.000000 0.000000 0.998795 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7001503A, 0x70015039, '2005-02-09 10:00:00') /* Withered Drudge Seraph */
-     , (0x7001503A, 0x7001503B, '2005-02-09 10:00:00') /* Withered Drudge Seraph */
-     , (0x7001503A, 0x7001503C, '2005-02-09 10:00:00') /* Withered Drudge Seraph */
-     , (0x7001503A, 0x7001503D, '2005-02-09 10:00:00') /* Withered Drudge Seraph */
-     , (0x7001503A, 0x7001503E, '2005-02-09 10:00:00') /* Withered Drudge Seraph */
-     , (0x7001503A, 0x7001503F, '2005-02-09 10:00:00') /* Withered Drudge Seraph */
-     , (0x7001503A, 0x70015040, '2005-02-09 10:00:00') /* Withered Drudge Seraph */
-     , (0x7001503A, 0x70015041, '2005-02-09 10:00:00') /* Withered Drudge Seraph */
-     , (0x7001503A, 0x70015042, '2005-02-09 10:00:00') /* Withered Drudge Seraph */;
+VALUES (0x7001503A, 0x70015039, '2005-02-09 10:00:00') /* Withered Drudge Seraph (30680) */
+     , (0x7001503A, 0x7001503B, '2005-02-09 10:00:00') /* Withered Drudge Seraph (30680) */
+     , (0x7001503A, 0x7001503C, '2005-02-09 10:00:00') /* Withered Drudge Seraph (30680) */
+     , (0x7001503A, 0x7001503D, '2005-02-09 10:00:00') /* Withered Drudge Seraph (30680) */
+     , (0x7001503A, 0x7001503E, '2005-02-09 10:00:00') /* Withered Drudge Seraph (30680) */
+     , (0x7001503A, 0x7001503F, '2005-02-09 10:00:00') /* Withered Drudge Seraph (30680) */
+     , (0x7001503A, 0x70015040, '2005-02-09 10:00:00') /* Withered Drudge Seraph (30680) */
+     , (0x7001503A, 0x70015041, '2005-02-09 10:00:00') /* Withered Drudge Seraph (30680) */
+     , (0x7001503A, 0x70015042, '2005-02-09 10:00:00') /* Withered Drudge Seraph (30680) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7001503B, 30680, 0x0015011A, 23.0187, -68.8667, -23.9948, 0.952112, 0, 0, 0.305749,  True, '2005-02-09 10:00:00'); /* Withered Drudge Seraph */

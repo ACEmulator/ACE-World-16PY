@@ -45,7 +45,7 @@ VALUES (0x701F400A,  8548, 0x01F4015E, 289.415, -139.46, -16.6441, 0.820217, 0, 
 /* @teleloc 0x01F4015E [289.415000 -139.460000 -16.644100] 0.820217 0.000000 0.000000 0.572052 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x701F400A, 0x701F4009, '2005-02-09 10:00:00') /* Pressure Plate */;
+VALUES (0x701F400A, 0x701F4009, '2005-02-09 10:00:00') /* Pressure Plate (298) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x701F400B,   298, 0x01F40176, 306.072, -171.737, -17.995, 0.688807, 0, 0, 0.724945,  True, '2005-02-09 10:00:00'); /* Pressure Plate */
@@ -56,7 +56,7 @@ VALUES (0x701F400C,  8548, 0x01F40176, 306.072, -171.737, -17.139, 0.688807, 0, 
 /* @teleloc 0x01F40176 [306.072000 -171.737000 -17.139000] 0.688807 0.000000 0.000000 0.724945 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x701F400C, 0x701F400B, '2005-02-09 10:00:00') /* Pressure Plate */;
+VALUES (0x701F400C, 0x701F400B, '2005-02-09 10:00:00') /* Pressure Plate (298) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x701F400D,  9051, 0x01F40177, 310, -170, -17.99, 0.696707, 0, 0, 0.717356,  True, '2005-02-09 10:00:00'); /* Turbid Nephol Golem */
@@ -75,7 +75,7 @@ VALUES (0x701F4010,  8548, 0x01F40181, 339.322, -187.871, -16.7913, -0.0342876, 
 /* @teleloc 0x01F40181 [339.322000 -187.871000 -16.791300] -0.034288 0.000000 0.000000 0.999412 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x701F4010, 0x701F400F, '2005-02-09 10:00:00') /* Pressure Plate */;
+VALUES (0x701F4010, 0x701F400F, '2005-02-09 10:00:00') /* Pressure Plate (2131) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x701F4011,  2131, 0x01F40182, 348.785, -151.185, -17.995, 0.999609, 0, 0, -0.0279774,  True, '2005-02-09 10:00:00'); /* Pressure Plate */
@@ -86,14 +86,14 @@ VALUES (0x701F4012,  8548, 0x01F40182, 348.85, -150.966, -17.3396, 0.999609, 0, 
 /* @teleloc 0x01F40182 [348.850000 -150.966000 -17.339600] 0.999609 0.000000 0.000000 -0.027977 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x701F4012, 0x701F4011, '2005-02-09 10:00:00') /* Pressure Plate */;
+VALUES (0x701F4012, 0x701F4011, '2005-02-09 10:00:00') /* Pressure Plate (2131) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x701F4013,  8548, 0x01F40188, 356.951, -168.979, -17.0186, -0.711229, 0, 0, 0.70296, False, '2005-02-09 10:00:00'); /* Magic trap */
 /* @teleloc 0x01F40188 [356.951000 -168.979000 -17.018600] -0.711229 0.000000 0.000000 0.702960 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x701F4013, 0x701F4014, '2005-02-09 10:00:00') /* Pressure Plate */;
+VALUES (0x701F4013, 0x701F4014, '2005-02-09 10:00:00') /* Pressure Plate (2131) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x701F4014,  2131, 0x01F40188, 357.596, -168.9, -17.995, -0.711229, 0, 0, 0.70296,  True, '2005-02-09 10:00:00'); /* Pressure Plate */
@@ -120,7 +120,7 @@ VALUES (0x701F4019,  8548, 0x01F40225, 248.532, -144.172, -10.7244, 0.016619, 0,
 /* @teleloc 0x01F40225 [248.532000 -144.172000 -10.724400] 0.016619 0.000000 0.000000 0.999862 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x701F4019, 0x701F4018, '2005-02-09 10:00:00') /* Pressure Plate */;
+VALUES (0x701F4019, 0x701F4018, '2005-02-09 10:00:00') /* Pressure Plate (298) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x701F401A,  9051, 0x01F4022B, 249.559, -193.731, -11.99, -0.963952, 0, 0, 0.266076,  True, '2005-02-09 10:00:00'); /* Turbid Nephol Golem */
@@ -135,7 +135,7 @@ VALUES (0x701F401C,  8548, 0x01F40239, 256.466, -191.483, -11.0588, -0.721114, 0
 /* @teleloc 0x01F40239 [256.466000 -191.483000 -11.058800] -0.721114 0.000000 0.000000 -0.692816 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x701F401C, 0x701F401B, '2005-02-09 10:00:00') /* Pressure Plate */;
+VALUES (0x701F401C, 0x701F401B, '2005-02-09 10:00:00') /* Pressure Plate (298) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x701F401D,   298, 0x01F40245, 282.641, -173.207, -11.995, -0.355479, 0, 0, -0.934684,  True, '2005-02-09 10:00:00'); /* Pressure Plate */
@@ -146,7 +146,7 @@ VALUES (0x701F401E,  8548, 0x01F40245, 282.641, -173.207, -11.1791, -0.355479, 0
 /* @teleloc 0x01F40245 [282.641000 -173.207000 -11.179100] -0.355479 0.000000 0.000000 -0.934684 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x701F401E, 0x701F401D, '2005-02-09 10:00:00') /* Pressure Plate */;
+VALUES (0x701F401E, 0x701F401D, '2005-02-09 10:00:00') /* Pressure Plate (298) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x701F401F,  2131, 0x01F4025A, 310.428, -153.861, -11.995, -0.709941, 0, 0, 0.704261,  True, '2005-02-09 10:00:00'); /* Pressure Plate */
@@ -157,7 +157,7 @@ VALUES (0x701F4020,  8548, 0x01F4025A, 310.428, -153.861, -11.0989, -0.709941, 0
 /* @teleloc 0x01F4025A [310.428000 -153.861000 -11.098900] -0.709941 0.000000 0.000000 0.704261 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x701F4020, 0x701F401F, '2005-02-09 10:00:00') /* Pressure Plate */;
+VALUES (0x701F4020, 0x701F401F, '2005-02-09 10:00:00') /* Pressure Plate (2131) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x701F4021,  9051, 0x01F40268, 329.371, -186.611, -14.5209, 0.89245, 0, 0, -0.451146,  True, '2005-02-09 10:00:00'); /* Turbid Nephol Golem */
@@ -180,18 +180,18 @@ VALUES (0x701F4025,  7924, 0x01F402DD, 180, -180, 0.005, 1, 0, 0, 0, False, '200
 /* @teleloc 0x01F402DD [180.000000 -180.000000 0.005000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x701F4025, 0x701F4000, '2005-02-09 10:00:00') /* Tenuous Nephol Golem */
-     , (0x701F4025, 0x701F4002, '2005-02-09 10:00:00') /* Tenuous Nephol Golem */
-     , (0x701F4025, 0x701F4003, '2005-02-09 10:00:00') /* Tenuous Nephol Golem */
-     , (0x701F4025, 0x701F4004, '2005-02-09 10:00:00') /* Diaphanous Nephol Golem */
-     , (0x701F4025, 0x701F4006, '2005-02-09 10:00:00') /* Diaphanous Nephol Golem */
-     , (0x701F4025, 0x701F4008, '2005-02-09 10:00:00') /* Diaphanous Nephol Golem */
-     , (0x701F4025, 0x701F400D, '2005-02-09 10:00:00') /* Turbid Nephol Golem */
-     , (0x701F4025, 0x701F4015, '2005-02-09 10:00:00') /* Turbid Nephol Golem */
-     , (0x701F4025, 0x701F4016, '2005-02-09 10:00:00') /* Tenuous Nephol Golem */
-     , (0x701F4025, 0x701F4017, '2005-02-09 10:00:00') /* Diaphanous Nephol Golem */
-     , (0x701F4025, 0x701F401A, '2005-02-09 10:00:00') /* Turbid Nephol Golem */
-     , (0x701F4025, 0x701F4021, '2005-02-09 10:00:00') /* Turbid Nephol Golem */;
+VALUES (0x701F4025, 0x701F4000, '2005-02-09 10:00:00') /* Tenuous Nephol Golem (9052) */
+     , (0x701F4025, 0x701F4002, '2005-02-09 10:00:00') /* Tenuous Nephol Golem (9053) */
+     , (0x701F4025, 0x701F4003, '2005-02-09 10:00:00') /* Tenuous Nephol Golem (9053) */
+     , (0x701F4025, 0x701F4004, '2005-02-09 10:00:00') /* Diaphanous Nephol Golem (9055) */
+     , (0x701F4025, 0x701F4006, '2005-02-09 10:00:00') /* Diaphanous Nephol Golem (9054) */
+     , (0x701F4025, 0x701F4008, '2005-02-09 10:00:00') /* Diaphanous Nephol Golem (9055) */
+     , (0x701F4025, 0x701F400D, '2005-02-09 10:00:00') /* Turbid Nephol Golem (9051) */
+     , (0x701F4025, 0x701F4015, '2005-02-09 10:00:00') /* Turbid Nephol Golem (9050) */
+     , (0x701F4025, 0x701F4016, '2005-02-09 10:00:00') /* Tenuous Nephol Golem (9053) */
+     , (0x701F4025, 0x701F4017, '2005-02-09 10:00:00') /* Diaphanous Nephol Golem (9055) */
+     , (0x701F4025, 0x701F401A, '2005-02-09 10:00:00') /* Turbid Nephol Golem (9051) */
+     , (0x701F4025, 0x701F4021, '2005-02-09 10:00:00') /* Turbid Nephol Golem (9051) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x701F4026,  9028, 0x01F402E0, 195.492, -170, 0.005, -0.707107, 0, 0, -0.707107, False, '2005-02-09 10:00:00'); /* The Third Threshold */

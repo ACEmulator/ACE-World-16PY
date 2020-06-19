@@ -9,7 +9,7 @@ VALUES (0x7CE94001,  5085, 0xCE940100, 106.82, 129.329, 19.705, -0.999922, 0, 0,
 /* @teleloc 0xCE940100 [106.820000 129.329000 19.705000] -0.999922 0.000000 0.000000 0.012458 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7CE94001, 0x7CE94002, '2005-02-09 10:00:00') /* Skill Puzzle Base Piece */;
+VALUES (0x7CE94001, 0x7CE94002, '2005-02-09 10:00:00') /* Skill Puzzle Base Piece (9594) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7CE94002,  9594, 0xCE940100, 106.879, 130.784, 19.7735, -0.990556, 0, 0, -0.137109,  True, '2005-02-09 10:00:00'); /* Skill Puzzle Base Piece */
@@ -20,7 +20,7 @@ VALUES (0x7CE94003,  7925, 0xCE940100, 109.599, 133.49, 19.705, 0.618366, 0, 0, 
 /* @teleloc 0xCE940100 [109.599000 133.490000 19.705000] 0.618366 0.000000 0.000000 0.785890 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7CE94003, 0x7CE94004, '2005-02-09 10:00:00') /* Eluard the Namer */;
+VALUES (0x7CE94003, 0x7CE94004, '2005-02-09 10:00:00') /* Eluard the Namer (9544) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7CE94004,  9544, 0xCE940100, 110.227, 130.517, 19.705, 0.99687, 0, 0, 0.0790519,  True, '2005-02-09 10:00:00'); /* Eluard the Namer */
@@ -35,7 +35,7 @@ VALUES (0x7CE94006,  7923, 0xCE940000, 175.724, 7.53503, 18.005, 0.998994, 0, 0,
 /* @teleloc 0xCE940000 [175.724000 7.535030 18.005000] 0.998994 0.000000 0.000000 0.044842 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7CE94006, 0x7CE94007, '2005-02-09 10:00:00') /* Aun Tiulerea */;
+VALUES (0x7CE94006, 0x7CE94007, '2005-02-09 10:00:00') /* Aun Tiulerea (27264) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7CE94007, 27264, 0xCE940000, 175.724, 7.53503, 18.005, 0.998994, 0, 0, 0.0448415,  True, '2005-02-09 10:00:00'); /* Aun Tiulerea */

@@ -1,5 +1,5 @@
-DELETE FROM `encounter` WHERE `landblock` = 13606;
+DELETE FROM `encounter` WHERE `landblock` = 0x3526;
 
 INSERT INTO `encounter` (`landblock`, `weenie_Class_Id`, `cell_X`, `cell_Y`, `last_Modified`)
-VALUES (13606, 1982, 0, 7, '2005-02-09 10:00:00') /* Obsidian Outer Mix Generator */
-     , (13606, 1982, 4, 7, '2005-02-09 10:00:00') /* Obsidian Outer Mix Generator */;
+VALUES (0x3526, 1982, 0, 7, '2005-02-09 10:00:00') /* Obsidian Outer Mix Generator */
+     , (0x3526, 1982, 4, 7, '2005-02-09 10:00:00') /* Obsidian Outer Mix Generator */;

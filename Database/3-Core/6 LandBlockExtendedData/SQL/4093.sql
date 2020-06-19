@@ -93,34 +93,34 @@ VALUES (0x74093016,  1154, 0x40930000, 67.7747, 130.478, 220.005, -0.516087, 0, 
 /* @teleloc 0x40930000 [67.774700 130.478000 220.005000] -0.516087 0.000000 0.000000 -0.856536 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x74093016, 0x74093006, '2005-02-09 10:00:00') /* Tumerok Warrior */
-     , (0x74093016, 0x74093008, '2005-02-09 10:00:00') /* Tumerok Warrior */
-     , (0x74093016, 0x7409300C, '2005-02-09 10:00:00') /* Tumerok Fighter */
-     , (0x74093016, 0x7409300D, '2005-02-09 10:00:00') /* Tumerok Fighter */;
+VALUES (0x74093016, 0x74093006, '2005-02-09 10:00:00') /* Tumerok Warrior (233) */
+     , (0x74093016, 0x74093008, '2005-02-09 10:00:00') /* Tumerok Warrior (233) */
+     , (0x74093016, 0x7409300C, '2005-02-09 10:00:00') /* Tumerok Fighter (2439) */
+     , (0x74093016, 0x7409300D, '2005-02-09 10:00:00') /* Tumerok Fighter (2439) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x74093017,  1154, 0x40930000, 66.1587, 129.624, 220.005, -0.516087, 0, 0, -0.856536, False, '2005-02-09 10:00:00'); /* Linkable Monster Generator */
 /* @teleloc 0x40930000 [66.158700 129.624000 220.005000] -0.516087 0.000000 0.000000 -0.856536 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x74093017, 0x74093000, '2005-02-09 10:00:00') /* Tumerok Fighter */
-     , (0x74093017, 0x74093001, '2005-02-09 10:00:00') /* Tumerok Fighter */
-     , (0x74093017, 0x74093009, '2005-02-09 10:00:00') /* Tumerok Priest */
-     , (0x74093017, 0x7409300E, '2005-02-09 10:00:00') /* Tumerok Fighter */
-     , (0x74093017, 0x7409300F, '2005-02-09 10:00:00') /* Tumerok Warrior */
-     , (0x74093017, 0x74093010, '2005-02-09 10:00:00') /* Tumerok Warrior */
-     , (0x74093017, 0x74093011, '2005-02-09 10:00:00') /* Tumerok Warrior */;
+VALUES (0x74093017, 0x74093000, '2005-02-09 10:00:00') /* Tumerok Fighter (2439) */
+     , (0x74093017, 0x74093001, '2005-02-09 10:00:00') /* Tumerok Fighter (2439) */
+     , (0x74093017, 0x74093009, '2005-02-09 10:00:00') /* Tumerok Priest (231) */
+     , (0x74093017, 0x7409300E, '2005-02-09 10:00:00') /* Tumerok Fighter (2439) */
+     , (0x74093017, 0x7409300F, '2005-02-09 10:00:00') /* Tumerok Warrior (233) */
+     , (0x74093017, 0x74093010, '2005-02-09 10:00:00') /* Tumerok Warrior (233) */
+     , (0x74093017, 0x74093011, '2005-02-09 10:00:00') /* Tumerok Warrior (233) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x74093018,  1154, 0x40930000, 65.3557, 130.749, 220.005, -0.95429, 0, 0, -0.298881, False, '2005-02-09 10:00:00'); /* Linkable Monster Generator */
 /* @teleloc 0x40930000 [65.355700 130.749000 220.005000] -0.954290 0.000000 0.000000 -0.298881 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x74093018, 0x7409300A, '2005-02-09 10:00:00') /* Tumerok Warrior */
-     , (0x74093018, 0x74093012, '2005-02-09 10:00:00') /* Tumerok Warrior */
-     , (0x74093018, 0x74093013, '2005-02-09 10:00:00') /* Tumerok Warrior */
-     , (0x74093018, 0x74093014, '2005-02-09 10:00:00') /* Tumerok Fighter */
-     , (0x74093018, 0x74093015, '2005-02-09 10:00:00') /* Tumerok Fighter */;
+VALUES (0x74093018, 0x7409300A, '2005-02-09 10:00:00') /* Tumerok Warrior (233) */
+     , (0x74093018, 0x74093012, '2005-02-09 10:00:00') /* Tumerok Warrior (233) */
+     , (0x74093018, 0x74093013, '2005-02-09 10:00:00') /* Tumerok Warrior (233) */
+     , (0x74093018, 0x74093014, '2005-02-09 10:00:00') /* Tumerok Fighter (2439) */
+     , (0x74093018, 0x74093015, '2005-02-09 10:00:00') /* Tumerok Fighter (2439) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x74093019,  1931, 0x40930108, 86.7316, 154.619, 220.005, 0.707107, 0, 0, -0.707107, False, '2005-02-09 10:00:00'); /* Chest */

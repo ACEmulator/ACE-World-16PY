@@ -49,7 +49,7 @@ VALUES (0x701F300B,  9186, 0x01F30113, 120.001, -89.9867, -3.06588, 0.731689, 0,
 /* @teleloc 0x01F30113 [120.001000 -89.986700 -3.065880] 0.731689 0.000000 0.000000 0.681639 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x701F300B, 0x701F300C, '2005-02-09 10:00:00') /* Lever */;
+VALUES (0x701F300B, 0x701F300C, '2005-02-09 10:00:00') /* Lever (2609) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x701F300C,  2609, 0x01F30113, 120, -90, -5.995, 0.731689, 0, 0, 0.681639,  True, '2005-02-09 10:00:00'); /* Lever */
@@ -116,8 +116,8 @@ VALUES (0x701F301B,  2180, 0x01F3014C, 64.75, -130, 0, 0.707107, 0, 0, -0.707107
 /* @teleloc 0x01F3014C [64.750000 -130.000000 0.000000] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x701F301B, 0x701F301A, '2005-02-09 10:00:00') /* Button */
-     , (0x701F301B, 0x701F3036, '2005-02-09 10:00:00') /* Lever */;
+VALUES (0x701F301B, 0x701F301A, '2005-02-09 10:00:00') /* Button (8420) */
+     , (0x701F301B, 0x701F3036, '2005-02-09 10:00:00') /* Lever (2609) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x701F301C,  9187, 0x01F3014F, 68.5961, -1.20947, 0.005, 0.696707, 0, 0, 0.717356, False, '2005-02-09 10:00:00'); /* Random Risen Gen */
@@ -156,8 +156,8 @@ VALUES (0x701F3024,  2180, 0x01F30162, 80, -44.75, 0, -4.37114E-08, 0, 0, -1, Fa
 /* @teleloc 0x01F30162 [80.000000 -44.750000 0.000000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x701F3024, 0x701F3022, '2005-02-09 10:00:00') /* Button */
-     , (0x701F3024, 0x701F3038, '2005-02-09 10:00:00') /* Lever */;
+VALUES (0x701F3024, 0x701F3022, '2005-02-09 10:00:00') /* Button (8420) */
+     , (0x701F3024, 0x701F3038, '2005-02-09 10:00:00') /* Lever (2609) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x701F3025,  9187, 0x01F30164, 80.274, -56.5566, 0.005, -0.711552, 0, 0, -0.702634, False, '2005-02-09 10:00:00'); /* Random Risen Gen */
@@ -200,8 +200,8 @@ VALUES (0x701F302E,  2180, 0x01F3019D, 90, -135.25, 0, 1, 0, 0, 0, False, '2005-
 /* @teleloc 0x01F3019D [90.000000 -135.250000 0.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x701F302E, 0x701F3026, '2005-02-09 10:00:00') /* Lever */
-     , (0x701F302E, 0x701F3039, '2005-02-09 10:00:00') /* Lever */;
+VALUES (0x701F302E, 0x701F3026, '2005-02-09 10:00:00') /* Lever (286) */
+     , (0x701F302E, 0x701F3039, '2005-02-09 10:00:00') /* Lever (286) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x701F302F,  9185, 0x01F3019D, 90, -140, 0.005, 1, 0, 0, 0, False, '2005-02-09 10:00:00'); /* Tomb of the Dead Risen Gen */
@@ -212,8 +212,8 @@ VALUES (0x701F3030,  2180, 0x01F301AA, 95.25, -60, 0, -0.707107, 0, 0, -0.707107
 /* @teleloc 0x01F301AA [95.250000 -60.000000 0.000000] -0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x701F3030, 0x701F3031, '2005-02-09 10:00:00') /* Button */
-     , (0x701F3030, 0x701F3037, '2005-02-09 10:00:00') /* Lever */;
+VALUES (0x701F3030, 0x701F3031, '2005-02-09 10:00:00') /* Button (8420) */
+     , (0x701F3030, 0x701F3037, '2005-02-09 10:00:00') /* Lever (2609) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x701F3031,  8420, 0x01F301AA, 101.563, -61.0559, 0.847625, 0.707107, 0, 0, -0.707107,  True, '2005-02-09 10:00:00'); /* Button */
@@ -272,27 +272,27 @@ VALUES (0x701F303E,  4219, 0x01F301C4, 129.852, -100.533, 0.005, 0.784777, 0, 0,
 /* @teleloc 0x01F301C4 [129.852000 -100.533000 0.005000] 0.784777 0.000000 0.000000 0.619779 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x701F303E, 0x701F3011, '2005-02-09 10:00:00') /* Risen Soldier */
-     , (0x701F303E, 0x701F301E, '2005-02-09 10:00:00') /* Risen Soldier */
-     , (0x701F303E, 0x701F3023, '2005-02-09 10:00:00') /* Risen Soldier */
-     , (0x701F303E, 0x701F3028, '2005-02-09 10:00:00') /* Risen Soldier */
-     , (0x701F303E, 0x701F3032, '2005-02-09 10:00:00') /* Dark Wisp */
-     , (0x701F303E, 0x701F3033, '2005-02-09 10:00:00') /* Dark Wisp */
-     , (0x701F303E, 0x701F3034, '2005-02-09 10:00:00') /* Dark Wisp */
-     , (0x701F303E, 0x701F3035, '2005-02-09 10:00:00') /* Dark Wisp */
-     , (0x701F303E, 0x701F303C, '2005-02-09 10:00:00') /* Dark Wisp */
-     , (0x701F303E, 0x701F3041, '2005-02-09 10:00:00') /* Risen Knight */
-     , (0x701F303E, 0x701F3042, '2005-02-09 10:00:00') /* Risen Knight */
-     , (0x701F303E, 0x701F3043, '2005-02-09 10:00:00') /* Risen Knight */
-     , (0x701F303E, 0x701F304B, '2005-02-09 10:00:00') /* Risen Knight */
-     , (0x701F303E, 0x701F304C, '2005-02-09 10:00:00') /* Risen Knight */
-     , (0x701F303E, 0x701F304D, '2005-02-09 10:00:00') /* Dark Wisp */
-     , (0x701F303E, 0x701F304E, '2005-02-09 10:00:00') /* Dark Wisp */
-     , (0x701F303E, 0x701F304F, '2005-02-09 10:00:00') /* Risen Soldier */
-     , (0x701F303E, 0x701F3050, '2005-02-09 10:00:00') /* Risen Soldier */
-     , (0x701F303E, 0x701F3051, '2005-02-09 10:00:00') /* Dark Wisp */
-     , (0x701F303E, 0x701F3052, '2005-02-09 10:00:00') /* Dark Wisp */
-     , (0x701F303E, 0x701F3055, '2005-02-09 10:00:00') /* Shadow Wisp */;
+VALUES (0x701F303E, 0x701F3011, '2005-02-09 10:00:00') /* Risen Soldier (8672) */
+     , (0x701F303E, 0x701F301E, '2005-02-09 10:00:00') /* Risen Soldier (8672) */
+     , (0x701F303E, 0x701F3023, '2005-02-09 10:00:00') /* Risen Soldier (8672) */
+     , (0x701F303E, 0x701F3028, '2005-02-09 10:00:00') /* Risen Soldier (8672) */
+     , (0x701F303E, 0x701F3032, '2005-02-09 10:00:00') /* Dark Wisp (1988) */
+     , (0x701F303E, 0x701F3033, '2005-02-09 10:00:00') /* Dark Wisp (1988) */
+     , (0x701F303E, 0x701F3034, '2005-02-09 10:00:00') /* Dark Wisp (1988) */
+     , (0x701F303E, 0x701F3035, '2005-02-09 10:00:00') /* Dark Wisp (1988) */
+     , (0x701F303E, 0x701F303C, '2005-02-09 10:00:00') /* Dark Wisp (1988) */
+     , (0x701F303E, 0x701F3041, '2005-02-09 10:00:00') /* Risen Knight (8673) */
+     , (0x701F303E, 0x701F3042, '2005-02-09 10:00:00') /* Risen Knight (8673) */
+     , (0x701F303E, 0x701F3043, '2005-02-09 10:00:00') /* Risen Knight (8673) */
+     , (0x701F303E, 0x701F304B, '2005-02-09 10:00:00') /* Risen Knight (8673) */
+     , (0x701F303E, 0x701F304C, '2005-02-09 10:00:00') /* Risen Knight (8673) */
+     , (0x701F303E, 0x701F304D, '2005-02-09 10:00:00') /* Dark Wisp (1988) */
+     , (0x701F303E, 0x701F304E, '2005-02-09 10:00:00') /* Dark Wisp (1988) */
+     , (0x701F303E, 0x701F304F, '2005-02-09 10:00:00') /* Risen Soldier (8672) */
+     , (0x701F303E, 0x701F3050, '2005-02-09 10:00:00') /* Risen Soldier (8672) */
+     , (0x701F303E, 0x701F3051, '2005-02-09 10:00:00') /* Dark Wisp (1988) */
+     , (0x701F303E, 0x701F3052, '2005-02-09 10:00:00') /* Dark Wisp (1988) */
+     , (0x701F303E, 0x701F3055, '2005-02-09 10:00:00') /* Shadow Wisp (1989) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x701F303F,  9189, 0x01F301C6, 140, -90, 0.005, 1, 0, 0, -4.37114E-08, False, '2005-02-09 10:00:00'); /* Surface */
@@ -403,4 +403,4 @@ VALUES (0x701F3059, 15759, 0x01F30284, 156.419, -53.551, 18.005, -0.182239, 0, 0
 /* @teleloc 0x01F30284 [156.419000 -53.551000 18.005000] -0.182239 0.000000 0.000000 -0.983254 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x701F3059, 0x701F3058, '2005-02-09 10:00:00') /* Alloy Contraption */;
+VALUES (0x701F3059, 0x701F3058, '2005-02-09 10:00:00') /* Alloy Contraption (25319) */;

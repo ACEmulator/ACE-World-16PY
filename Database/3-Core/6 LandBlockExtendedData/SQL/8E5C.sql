@@ -29,18 +29,18 @@ VALUES (0x78E5C006,  3954, 0x8E5C0100, 90.4717, 133.824, 9.66, 0.209443, 0, 0, 0
 /* @teleloc 0x8E5C0100 [90.471700 133.824000 9.660000] 0.209443 0.000000 0.000000 0.977821 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x78E5C006, 0x78E5C005, '2005-02-09 10:00:00') /* Drudge Charm */;
+VALUES (0x78E5C006, 0x78E5C005, '2005-02-09 10:00:00') /* Drudge Charm (3669) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x78E5C007,  7923, 0x8E5C0100, 92.8843, 132.096, 9.66, -0.691811, 0, 0, 0.722078, False, '2005-02-09 10:00:00'); /* Linkable Monster Generator ( 3 Min.) */
 /* @teleloc 0x8E5C0100 [92.884300 132.096000 9.660000] -0.691811 0.000000 0.000000 0.722078 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x78E5C007, 0x78E5C000, '2005-02-09 10:00:00') /* Drudge Skulker */
-     , (0x78E5C007, 0x78E5C001, '2005-02-09 10:00:00') /* Drudge Slinker */
-     , (0x78E5C007, 0x78E5C002, '2005-02-09 10:00:00') /* Drudge Skulker */
-     , (0x78E5C007, 0x78E5C003, '2005-02-09 10:00:00') /* Drudge Slinker */
-     , (0x78E5C007, 0x78E5C008, '2005-02-09 10:00:00') /* Drudge Skulker */;
+VALUES (0x78E5C007, 0x78E5C000, '2005-02-09 10:00:00') /* Drudge Skulker (7) */
+     , (0x78E5C007, 0x78E5C001, '2005-02-09 10:00:00') /* Drudge Slinker (193) */
+     , (0x78E5C007, 0x78E5C002, '2005-02-09 10:00:00') /* Drudge Skulker (7) */
+     , (0x78E5C007, 0x78E5C003, '2005-02-09 10:00:00') /* Drudge Slinker (193) */
+     , (0x78E5C007, 0x78E5C008, '2005-02-09 10:00:00') /* Drudge Skulker (7) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x78E5C008,     7, 0x8E5C0000, 114.634, 131.561, 16.005, -0.746749, 0, 0, 0.665106,  True, '2005-02-09 10:00:00'); /* Drudge Skulker */

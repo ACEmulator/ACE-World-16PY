@@ -121,9 +121,9 @@ VALUES (0x7013A023,  7923, 0x013A02C7, 160, -50, 12, -4.37114E-08, 0, 0, -1, Fal
 /* @teleloc 0x013A02C7 [160.000000 -50.000000 12.000000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7013A023, 0x7013A018, '2005-02-09 10:00:00') /* Black Rabbit */
-     , (0x7013A023, 0x7013A019, '2005-02-09 10:00:00') /* Black Rabbit */
-     , (0x7013A023, 0x7013A026, '2005-02-09 10:00:00') /* Russet Rat */;
+VALUES (0x7013A023, 0x7013A018, '2005-02-09 10:00:00') /* Black Rabbit (2566) */
+     , (0x7013A023, 0x7013A019, '2005-02-09 10:00:00') /* Black Rabbit (2566) */
+     , (0x7013A023, 0x7013A026, '2005-02-09 10:00:00') /* Russet Rat (4132) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7013A024,   165, 0x013A02C8, 160, -60, 12.05, -4.37114E-08, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Pool */

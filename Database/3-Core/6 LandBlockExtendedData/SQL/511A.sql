@@ -5,10 +5,10 @@ VALUES (0x7511A006,  1154, 0x511A0000, 64.0488, 86.3032, 44.8018, 0.831677, 0, 0
 /* @teleloc 0x511A0000 [64.048800 86.303200 44.801800] 0.831677 0.000000 0.000000 0.555260 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7511A006, 0x7511A007, '2005-02-09 10:00:00') /* Tumerok Champion */
-     , (0x7511A006, 0x7511A008, '2005-02-09 10:00:00') /* Tumerok Champion */
-     , (0x7511A006, 0x7511A009, '2005-02-09 10:00:00') /* Tumerok Champion */
-     , (0x7511A006, 0x7511A00A, '2005-02-09 10:00:00') /* Tumerok Champion */;
+VALUES (0x7511A006, 0x7511A007, '2005-02-09 10:00:00') /* Tumerok Champion (23617) */
+     , (0x7511A006, 0x7511A008, '2005-02-09 10:00:00') /* Tumerok Champion (23617) */
+     , (0x7511A006, 0x7511A009, '2005-02-09 10:00:00') /* Tumerok Champion (23617) */
+     , (0x7511A006, 0x7511A00A, '2005-02-09 10:00:00') /* Tumerok Champion (23617) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7511A007, 23617, 0x511A0000, 68.0656, 85.7887, 43.841, 0.755961, 0, 0, 0.654616,  True, '2005-02-09 10:00:00'); /* Tumerok Champion */

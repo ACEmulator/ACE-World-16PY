@@ -13,12 +13,12 @@ VALUES (0x70D09002,  3955, 0x0D090000, 7.46557, 80.1403, 64.005, 0.521053, 0, 0,
 /* @teleloc 0x0D090000 [7.465570 80.140300 64.005000] 0.521053 0.000000 0.000000 0.853524 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x70D09002, 0x70D09001, '2005-02-09 10:00:00') /* Stalking Margul */
-     , (0x70D09002, 0x70D09003, '2005-02-09 10:00:00') /* Stalking Margul */
-     , (0x70D09002, 0x70D09004, '2005-02-09 10:00:00') /* Stalking Margul */
-     , (0x70D09002, 0x70D09005, '2005-02-09 10:00:00') /* Stalking Margul */
-     , (0x70D09002, 0x70D09006, '2005-02-09 10:00:00') /* Helcan Margul */
-     , (0x70D09002, 0x70D09007, '2005-02-09 10:00:00') /* Helcan Margul */;
+VALUES (0x70D09002, 0x70D09001, '2005-02-09 10:00:00') /* Stalking Margul (25864) */
+     , (0x70D09002, 0x70D09003, '2005-02-09 10:00:00') /* Stalking Margul (25864) */
+     , (0x70D09002, 0x70D09004, '2005-02-09 10:00:00') /* Stalking Margul (25864) */
+     , (0x70D09002, 0x70D09005, '2005-02-09 10:00:00') /* Stalking Margul (25864) */
+     , (0x70D09002, 0x70D09006, '2005-02-09 10:00:00') /* Helcan Margul (25862) */
+     , (0x70D09002, 0x70D09007, '2005-02-09 10:00:00') /* Helcan Margul (25862) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x70D09003, 25864, 0x0D090000, 6.32793, 75.9066, 64.005, 0.999223, 0, 0, -0.0394195,  True, '2005-02-09 10:00:00'); /* Stalking Margul */
@@ -73,9 +73,9 @@ VALUES (0x70D0900F,  7924, 0x0D090000, 9.2035, 80.9744, 93.8706, -0.999086, 0, 0
 /* @teleloc 0x0D090000 [9.203500 80.974400 93.870600] -0.999086 0.000000 0.000000 0.042742 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x70D0900F, 0x70D09009, '2005-02-09 10:00:00') /* Helcan Margul */
-     , (0x70D0900F, 0x70D0900A, '2005-02-09 10:00:00') /* Helcan Margul */
-     , (0x70D0900F, 0x70D0900B, '2005-02-09 10:00:00') /* Creeping Margul */
-     , (0x70D0900F, 0x70D0900C, '2005-02-09 10:00:00') /* Stalking Margul */
-     , (0x70D0900F, 0x70D0900D, '2005-02-09 10:00:00') /* Stalking Margul */
-     , (0x70D0900F, 0x70D0900E, '2005-02-09 10:00:00') /* Helcan Margul */;
+VALUES (0x70D0900F, 0x70D09009, '2005-02-09 10:00:00') /* Helcan Margul (25862) */
+     , (0x70D0900F, 0x70D0900A, '2005-02-09 10:00:00') /* Helcan Margul (25862) */
+     , (0x70D0900F, 0x70D0900B, '2005-02-09 10:00:00') /* Creeping Margul (25860) */
+     , (0x70D0900F, 0x70D0900C, '2005-02-09 10:00:00') /* Stalking Margul (25864) */
+     , (0x70D0900F, 0x70D0900D, '2005-02-09 10:00:00') /* Stalking Margul (25864) */
+     , (0x70D0900F, 0x70D0900E, '2005-02-09 10:00:00') /* Helcan Margul (25862) */;

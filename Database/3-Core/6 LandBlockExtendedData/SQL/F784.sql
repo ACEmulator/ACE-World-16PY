@@ -41,21 +41,21 @@ VALUES (0x7F784009,  4064, 0xF7840130, 417.851, 498.568, -23.576, 1, 0, 0, 0, Fa
 /* @teleloc 0xF7840130 [417.851000 498.568000 -23.576000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7F784009, 0x7F7840DB, '2005-02-09 10:00:00') /* Pressure Plate */;
+VALUES (0x7F784009, 0x7F7840DB, '2005-02-09 10:00:00') /* Pressure Plate (4144) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7F78400A,  4064, 0xF7840131, 422.581, 498.237, -23.576, 0.696707, 0, 0, 0.717356, False, '2005-02-09 10:00:00'); /* Whirling Blade Trap */
 /* @teleloc 0xF7840131 [422.581000 498.237000 -23.576000] 0.696707 0.000000 0.000000 0.717356 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7F78400A, 0x7F7840DE, '2005-02-09 10:00:00') /* Pressure Plate */;
+VALUES (0x7F78400A, 0x7F7840DE, '2005-02-09 10:00:00') /* Pressure Plate (4144) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7F78400B,  4064, 0xF7840131, 425.698, 498.328, -23.576, 0.696707, 0, 0, 0.717356, False, '2005-02-09 10:00:00'); /* Whirling Blade Trap */
 /* @teleloc 0xF7840131 [425.698000 498.328000 -23.576000] 0.696707 0.000000 0.000000 0.717356 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7F78400B, 0x7F7840DC, '2005-02-09 10:00:00') /* Pressure Plate */;
+VALUES (0x7F78400B, 0x7F7840DC, '2005-02-09 10:00:00') /* Pressure Plate (4144) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7F78400C, 22594, 0xF7840132, 428.292, 485.839, -23.5901, 0.719132, 0, 0, -0.694874,  True, '2005-02-09 10:00:00'); /* Tusker Liberator */
@@ -74,7 +74,7 @@ VALUES (0x7F78400F,  7385, 0xF7840134, 436.263, 498.631, -23.576, 0.693187, 0, 0
 /* @teleloc 0xF7840134 [436.263000 498.631000 -23.576000] 0.693187 0.000000 0.000000 0.720758 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7F78400F, 0x7F7840DD, '2005-02-09 10:00:00') /* Pressure Plate */;
+VALUES (0x7F78400F, 0x7F7840DD, '2005-02-09 10:00:00') /* Pressure Plate (4144) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7F784010, 22594, 0xF7840138, 433.078, 490.257, -23.5901, 0.705291, 0, 0, -0.708918,  True, '2005-02-09 10:00:00'); /* Tusker Liberator */
@@ -85,21 +85,21 @@ VALUES (0x7F784011,  7383, 0xF784013C, 442.708, 498.714, -23.576, 0.688892, 0, 0
 /* @teleloc 0xF784013C [442.708000 498.714000 -23.576000] 0.688892 0.000000 0.000000 0.724864 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7F784011, 0x7F7840DF, '2005-02-09 10:00:00') /* Pressure Plate */;
+VALUES (0x7F784011, 0x7F7840DF, '2005-02-09 10:00:00') /* Pressure Plate (4144) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7F784012,  7383, 0xF784013C, 449.805, 498.102, -23.576, 0.688892, 0, 0, 0.724864, False, '2005-02-09 10:00:00'); /* Empyrean magical defense battery */
 /* @teleloc 0xF784013C [449.805000 498.102000 -23.576000] 0.688892 0.000000 0.000000 0.724864 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7F784012, 0x7F7840E0, '2005-02-09 10:00:00') /* Pressure Plate */;
+VALUES (0x7F784012, 0x7F7840E0, '2005-02-09 10:00:00') /* Pressure Plate (4144) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7F784013,  7383, 0xF7840141, 456.639, 495.235, -23.576, 0.706796, 0, 0, 0.707417, False, '2005-02-09 10:00:00'); /* Empyrean magical defense battery */
 /* @teleloc 0xF7840141 [456.639000 495.235000 -23.576000] 0.706796 0.000000 0.000000 0.707417 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7F784013, 0x7F7840E2, '2005-02-09 10:00:00') /* Pressure Plate */;
+VALUES (0x7F784013, 0x7F7840E2, '2005-02-09 10:00:00') /* Pressure Plate (4144) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7F784014, 22594, 0xF784014C, 458.404, 467.32, -23.5901, -0.987434, 0, 0, -0.15803,  True, '2005-02-09 10:00:00'); /* Tusker Liberator */
@@ -570,148 +570,148 @@ VALUES (0x7F78408A,  7923, 0xF784031F, 56.2592, 277.711, 0.404999, 0.825336, 0, 
 /* @teleloc 0xF784031F [56.259200 277.711000 0.404999] 0.825336 0.000000 0.000000 -0.564642 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7F78408A, 0x7F784000, '2005-02-09 10:00:00') /* Tusker Redeemer */
-     , (0x7F78408A, 0x7F784001, '2005-02-09 10:00:00') /* Tusker Redeemer */
-     , (0x7F78408A, 0x7F784002, '2005-02-09 10:00:00') /* Tusker Minion */
-     , (0x7F78408A, 0x7F784003, '2005-02-09 10:00:00') /* Tusker Liberator */
-     , (0x7F78408A, 0x7F784004, '2005-02-09 10:00:00') /* Tusker Minion */
-     , (0x7F78408A, 0x7F784005, '2005-02-09 10:00:00') /* Tusker Minion */
-     , (0x7F78408A, 0x7F784006, '2005-02-09 10:00:00') /* Tusker Liberator */
-     , (0x7F78408A, 0x7F784007, '2005-02-09 10:00:00') /* Tusker Liberator */
-     , (0x7F78408A, 0x7F784008, '2005-02-09 10:00:00') /* Tusker Liberator */
-     , (0x7F78408A, 0x7F78400C, '2005-02-09 10:00:00') /* Tusker Liberator */
-     , (0x7F78408A, 0x7F78400D, '2005-02-09 10:00:00') /* Tusker Liberator */
-     , (0x7F78408A, 0x7F78400E, '2005-02-09 10:00:00') /* Tusker Liberator */
-     , (0x7F78408A, 0x7F784010, '2005-02-09 10:00:00') /* Tusker Liberator */
-     , (0x7F78408A, 0x7F784014, '2005-02-09 10:00:00') /* Tusker Liberator */
-     , (0x7F78408A, 0x7F784015, '2005-02-09 10:00:00') /* Tusker Liberator */
-     , (0x7F78408A, 0x7F784016, '2005-02-09 10:00:00') /* Tusker Redeemer */
-     , (0x7F78408A, 0x7F784017, '2005-02-09 10:00:00') /* Tusker Redeemer */
-     , (0x7F78408A, 0x7F78401B, '2005-02-09 10:00:00') /* Tusker Liberator */
-     , (0x7F78408A, 0x7F78401C, '2005-02-09 10:00:00') /* Tusker Minion */
-     , (0x7F78408A, 0x7F784020, '2005-02-09 10:00:00') /* Tusker Liberator */
-     , (0x7F78408A, 0x7F784021, '2005-02-09 10:00:00') /* Tusker Minion */
-     , (0x7F78408A, 0x7F784022, '2005-02-09 10:00:00') /* Tusker Minion */
-     , (0x7F78408A, 0x7F784023, '2005-02-09 10:00:00') /* Tusker Liberator */
-     , (0x7F78408A, 0x7F784024, '2005-02-09 10:00:00') /* Tusker Liberator */
-     , (0x7F78408A, 0x7F784025, '2005-02-09 10:00:00') /* Tusker Redeemer */
-     , (0x7F78408A, 0x7F784026, '2005-02-09 10:00:00') /* Tusker Redeemer */
-     , (0x7F78408A, 0x7F784027, '2005-02-09 10:00:00') /* Tusker Liberator */
-     , (0x7F78408A, 0x7F784028, '2005-02-09 10:00:00') /* Tusker Liberator */
-     , (0x7F78408A, 0x7F784029, '2005-02-09 10:00:00') /* Tusker Minion */
-     , (0x7F78408A, 0x7F78402A, '2005-02-09 10:00:00') /* Tusker Liberator */
-     , (0x7F78408A, 0x7F78402B, '2005-02-09 10:00:00') /* Tusker Liberator */
-     , (0x7F78408A, 0x7F78402C, '2005-02-09 10:00:00') /* Tusker Liberator */
-     , (0x7F78408A, 0x7F78402D, '2005-02-09 10:00:00') /* Tusker Redeemer */
-     , (0x7F78408A, 0x7F78402E, '2005-02-09 10:00:00') /* Tusker Liberator */
-     , (0x7F78408A, 0x7F78402F, '2005-02-09 10:00:00') /* Tusker Liberator */
-     , (0x7F78408A, 0x7F784030, '2005-02-09 10:00:00') /* Tusker Liberator */
-     , (0x7F78408A, 0x7F784031, '2005-02-09 10:00:00') /* Tusker Liberator */
-     , (0x7F78408A, 0x7F784032, '2005-02-09 10:00:00') /* Tusker Liberator */
-     , (0x7F78408A, 0x7F784033, '2005-02-09 10:00:00') /* Tusker Redeemer */
-     , (0x7F78408A, 0x7F784034, '2005-02-09 10:00:00') /* Tusker Redeemer */
-     , (0x7F78408A, 0x7F784035, '2005-02-09 10:00:00') /* Tusker Redeemer */
-     , (0x7F78408A, 0x7F784036, '2005-02-09 10:00:00') /* Tusker Redeemer */
-     , (0x7F78408A, 0x7F784037, '2005-02-09 10:00:00') /* Tusker Liberator */
-     , (0x7F78408A, 0x7F784038, '2005-02-09 10:00:00') /* Tusker Liberator */
-     , (0x7F78408A, 0x7F784039, '2005-02-09 10:00:00') /* Tusker Liberator */
-     , (0x7F78408A, 0x7F78403A, '2005-02-09 10:00:00') /* Tusker Liberator */
-     , (0x7F78408A, 0x7F78403E, '2005-02-09 10:00:00') /* Tusker Minion */
-     , (0x7F78408A, 0x7F784040, '2005-02-09 10:00:00') /* Tusker Liberator */
-     , (0x7F78408A, 0x7F784043, '2005-02-09 10:00:00') /* Tusker Minion */
-     , (0x7F78408A, 0x7F784044, '2005-02-09 10:00:00') /* Tusker Minion */
-     , (0x7F78408A, 0x7F784045, '2005-02-09 10:00:00') /* Tusker Redeemer */
-     , (0x7F78408A, 0x7F784049, '2005-02-09 10:00:00') /* Tusker Liberator */
-     , (0x7F78408A, 0x7F78404A, '2005-02-09 10:00:00') /* Tusker Liberator */
-     , (0x7F78408A, 0x7F78404B, '2005-02-09 10:00:00') /* Tusker Minion */
-     , (0x7F78408A, 0x7F784050, '2005-02-09 10:00:00') /* Tusker Liberator */
-     , (0x7F78408A, 0x7F784053, '2005-02-09 10:00:00') /* Tusker Redeemer */
-     , (0x7F78408A, 0x7F784054, '2005-02-09 10:00:00') /* Tusker Redeemer */
-     , (0x7F78408A, 0x7F784056, '2005-02-09 10:00:00') /* Tusker Redeemer */
-     , (0x7F78408A, 0x7F784057, '2005-02-09 10:00:00') /* Tusker Liberator */
-     , (0x7F78408A, 0x7F784058, '2005-02-09 10:00:00') /* Tusker Liberator */
-     , (0x7F78408A, 0x7F784059, '2005-02-09 10:00:00') /* Tusker Liberator */
-     , (0x7F78408A, 0x7F78405A, '2005-02-09 10:00:00') /* Tusker Liberator */
-     , (0x7F78408A, 0x7F78405B, '2005-02-09 10:00:00') /* Tusker Redeemer */
-     , (0x7F78408A, 0x7F78405C, '2005-02-09 10:00:00') /* Tusker Minion */
-     , (0x7F78408A, 0x7F78405D, '2005-02-09 10:00:00') /* Tusker Redeemer */
-     , (0x7F78408A, 0x7F78405E, '2005-02-09 10:00:00') /* Tusker Minion */
-     , (0x7F78408A, 0x7F78405F, '2005-02-09 10:00:00') /* Tusker Minion */
-     , (0x7F78408A, 0x7F784060, '2005-02-09 10:00:00') /* Tusker Liberator */
-     , (0x7F78408A, 0x7F784061, '2005-02-09 10:00:00') /* Tusker Liberator */
-     , (0x7F78408A, 0x7F784062, '2005-02-09 10:00:00') /* Tusker Liberator */
-     , (0x7F78408A, 0x7F784063, '2005-02-09 10:00:00') /* Tusker Minion */
-     , (0x7F78408A, 0x7F784064, '2005-02-09 10:00:00') /* Tusker Liberator */
-     , (0x7F78408A, 0x7F784065, '2005-02-09 10:00:00') /* Tusker Redeemer */
-     , (0x7F78408A, 0x7F784066, '2005-02-09 10:00:00') /* Tusker Liberator */
-     , (0x7F78408A, 0x7F784069, '2005-02-09 10:00:00') /* Tusker Minion */
-     , (0x7F78408A, 0x7F78406A, '2005-02-09 10:00:00') /* Tusker Liberator */
-     , (0x7F78408A, 0x7F78406B, '2005-02-09 10:00:00') /* Tusker Liberator */
-     , (0x7F78408A, 0x7F78406C, '2005-02-09 10:00:00') /* Tusker Minion */
-     , (0x7F78408A, 0x7F78406D, '2005-02-09 10:00:00') /* Tusker Liberator */
-     , (0x7F78408A, 0x7F78406E, '2005-02-09 10:00:00') /* Tusker Liberator */
-     , (0x7F78408A, 0x7F78406F, '2005-02-09 10:00:00') /* Tusker Liberator */
-     , (0x7F78408A, 0x7F784070, '2005-02-09 10:00:00') /* Tusker Liberator */
-     , (0x7F78408A, 0x7F784071, '2005-02-09 10:00:00') /* Tusker Liberator */
-     , (0x7F78408A, 0x7F784072, '2005-02-09 10:00:00') /* Tusker Minion */
-     , (0x7F78408A, 0x7F784073, '2005-02-09 10:00:00') /* Tusker Minion */
-     , (0x7F78408A, 0x7F784074, '2005-02-09 10:00:00') /* Tusker Redeemer */
-     , (0x7F78408A, 0x7F784075, '2005-02-09 10:00:00') /* Tusker Minion */
-     , (0x7F78408A, 0x7F784076, '2005-02-09 10:00:00') /* Tusker Redeemer */
-     , (0x7F78408A, 0x7F784077, '2005-02-09 10:00:00') /* Tusker Minion */
-     , (0x7F78408A, 0x7F784078, '2005-02-09 10:00:00') /* Tusker Minion */
-     , (0x7F78408A, 0x7F784079, '2005-02-09 10:00:00') /* Tusker Liberator */
-     , (0x7F78408A, 0x7F78407A, '2005-02-09 10:00:00') /* Tusker Liberator */
-     , (0x7F78408A, 0x7F78407B, '2005-02-09 10:00:00') /* Tusker Redeemer */
-     , (0x7F78408A, 0x7F78407C, '2005-02-09 10:00:00') /* Tusker Redeemer */
-     , (0x7F78408A, 0x7F78407D, '2005-02-09 10:00:00') /* Tusker Liberator */
-     , (0x7F78408A, 0x7F78407E, '2005-02-09 10:00:00') /* Tusker Liberator */
-     , (0x7F78408A, 0x7F78407F, '2005-02-09 10:00:00') /* Tusker Minion */
-     , (0x7F78408A, 0x7F784080, '2005-02-09 10:00:00') /* Tusker Liberator */
-     , (0x7F78408A, 0x7F784081, '2005-02-09 10:00:00') /* Tusker Redeemer */
-     , (0x7F78408A, 0x7F784082, '2005-02-09 10:00:00') /* Tusker Liberator */
-     , (0x7F78408A, 0x7F784083, '2005-02-09 10:00:00') /* Tusker Liberator */
-     , (0x7F78408A, 0x7F784084, '2005-02-09 10:00:00') /* Tusker Liberator */
-     , (0x7F78408A, 0x7F784085, '2005-02-09 10:00:00') /* Tusker Liberator */
-     , (0x7F78408A, 0x7F784086, '2005-02-09 10:00:00') /* Tusker Minion */
-     , (0x7F78408A, 0x7F784087, '2005-02-09 10:00:00') /* Tusker Liberator */
-     , (0x7F78408A, 0x7F784088, '2005-02-09 10:00:00') /* Tusker Minion */
-     , (0x7F78408A, 0x7F784089, '2005-02-09 10:00:00') /* Tusker Redeemer */
-     , (0x7F78408A, 0x7F78408B, '2005-02-09 10:00:00') /* Tusker Redeemer */
-     , (0x7F78408A, 0x7F78408D, '2005-02-09 10:00:00') /* Tusker Redeemer */
-     , (0x7F78408A, 0x7F78408F, '2005-02-09 10:00:00') /* Tusker Redeemer */
-     , (0x7F78408A, 0x7F784090, '2005-02-09 10:00:00') /* Tusker Redeemer */
-     , (0x7F78408A, 0x7F784092, '2005-02-09 10:00:00') /* Tusker Redeemer */
-     , (0x7F78408A, 0x7F784093, '2005-02-09 10:00:00') /* Tusker Redeemer */
-     , (0x7F78408A, 0x7F784095, '2005-02-09 10:00:00') /* Tusker Liberator */
-     , (0x7F78408A, 0x7F784096, '2005-02-09 10:00:00') /* Tusker Liberator */
-     , (0x7F78408A, 0x7F784099, '2005-02-09 10:00:00') /* Tusker Liberator */
-     , (0x7F78408A, 0x7F78409A, '2005-02-09 10:00:00') /* Tusker Liberator */
-     , (0x7F78408A, 0x7F78409B, '2005-02-09 10:00:00') /* Tusker Liberator */
-     , (0x7F78408A, 0x7F78409C, '2005-02-09 10:00:00') /* Tusker Liberator */
-     , (0x7F78408A, 0x7F78409D, '2005-02-09 10:00:00') /* Tusker Liberator */
-     , (0x7F78408A, 0x7F78409E, '2005-02-09 10:00:00') /* Tusker Redeemer */
-     , (0x7F78408A, 0x7F7840A3, '2005-02-09 10:00:00') /* Tusker Liberator */
-     , (0x7F78408A, 0x7F7840A4, '2005-02-09 10:00:00') /* Tusker Liberator */
-     , (0x7F78408A, 0x7F7840A5, '2005-02-09 10:00:00') /* Tusker Liberator */
-     , (0x7F78408A, 0x7F7840A6, '2005-02-09 10:00:00') /* Tusker Liberator */
-     , (0x7F78408A, 0x7F7840A7, '2005-02-09 10:00:00') /* Tusker Redeemer */
-     , (0x7F78408A, 0x7F7840A9, '2005-02-09 10:00:00') /* Tusker Redeemer */
-     , (0x7F78408A, 0x7F7840AD, '2005-02-09 10:00:00') /* Tusker Liberator */
-     , (0x7F78408A, 0x7F7840B2, '2005-02-09 10:00:00') /* Tusker Redeemer */
-     , (0x7F78408A, 0x7F7840B3, '2005-02-09 10:00:00') /* Tusker Liberator */
-     , (0x7F78408A, 0x7F7840B4, '2005-02-09 10:00:00') /* Tusker Redeemer */
-     , (0x7F78408A, 0x7F7840B6, '2005-02-09 10:00:00') /* Tusker Redeemer */
-     , (0x7F78408A, 0x7F7840B7, '2005-02-09 10:00:00') /* Tusker Redeemer */
-     , (0x7F78408A, 0x7F7840B8, '2005-02-09 10:00:00') /* Tusker Liberator */
-     , (0x7F78408A, 0x7F7840B9, '2005-02-09 10:00:00') /* Tusker Liberator */
-     , (0x7F78408A, 0x7F7840BA, '2005-02-09 10:00:00') /* Tusker Redeemer */
-     , (0x7F78408A, 0x7F7840BB, '2005-02-09 10:00:00') /* Tusker Redeemer */
-     , (0x7F78408A, 0x7F7840C0, '2005-02-09 10:00:00') /* Tusker Redeemer */
-     , (0x7F78408A, 0x7F7840C2, '2005-02-09 10:00:00') /* Tusker Liberator */
-     , (0x7F78408A, 0x7F7840C3, '2005-02-09 10:00:00') /* Tusker Liberator */
-     , (0x7F78408A, 0x7F7840C4, '2005-02-09 10:00:00') /* Tusker Liberator */
-     , (0x7F78408A, 0x7F7840C5, '2005-02-09 10:00:00') /* Tusker Liberator */;
+VALUES (0x7F78408A, 0x7F784000, '2005-02-09 10:00:00') /* Tusker Redeemer (22520) */
+     , (0x7F78408A, 0x7F784001, '2005-02-09 10:00:00') /* Tusker Redeemer (22520) */
+     , (0x7F78408A, 0x7F784002, '2005-02-09 10:00:00') /* Tusker Minion (22512) */
+     , (0x7F78408A, 0x7F784003, '2005-02-09 10:00:00') /* Tusker Liberator (22519) */
+     , (0x7F78408A, 0x7F784004, '2005-02-09 10:00:00') /* Tusker Minion (22512) */
+     , (0x7F78408A, 0x7F784005, '2005-02-09 10:00:00') /* Tusker Minion (22512) */
+     , (0x7F78408A, 0x7F784006, '2005-02-09 10:00:00') /* Tusker Liberator (22519) */
+     , (0x7F78408A, 0x7F784007, '2005-02-09 10:00:00') /* Tusker Liberator (22519) */
+     , (0x7F78408A, 0x7F784008, '2005-02-09 10:00:00') /* Tusker Liberator (22519) */
+     , (0x7F78408A, 0x7F78400C, '2005-02-09 10:00:00') /* Tusker Liberator (22594) */
+     , (0x7F78408A, 0x7F78400D, '2005-02-09 10:00:00') /* Tusker Liberator (22594) */
+     , (0x7F78408A, 0x7F78400E, '2005-02-09 10:00:00') /* Tusker Liberator (22594) */
+     , (0x7F78408A, 0x7F784010, '2005-02-09 10:00:00') /* Tusker Liberator (22594) */
+     , (0x7F78408A, 0x7F784014, '2005-02-09 10:00:00') /* Tusker Liberator (22594) */
+     , (0x7F78408A, 0x7F784015, '2005-02-09 10:00:00') /* Tusker Liberator (22594) */
+     , (0x7F78408A, 0x7F784016, '2005-02-09 10:00:00') /* Tusker Redeemer (22600) */
+     , (0x7F78408A, 0x7F784017, '2005-02-09 10:00:00') /* Tusker Redeemer (22600) */
+     , (0x7F78408A, 0x7F78401B, '2005-02-09 10:00:00') /* Tusker Liberator (22519) */
+     , (0x7F78408A, 0x7F78401C, '2005-02-09 10:00:00') /* Tusker Minion (22512) */
+     , (0x7F78408A, 0x7F784020, '2005-02-09 10:00:00') /* Tusker Liberator (22519) */
+     , (0x7F78408A, 0x7F784021, '2005-02-09 10:00:00') /* Tusker Minion (22512) */
+     , (0x7F78408A, 0x7F784022, '2005-02-09 10:00:00') /* Tusker Minion (22511) */
+     , (0x7F78408A, 0x7F784023, '2005-02-09 10:00:00') /* Tusker Liberator (22519) */
+     , (0x7F78408A, 0x7F784024, '2005-02-09 10:00:00') /* Tusker Liberator (22519) */
+     , (0x7F78408A, 0x7F784025, '2005-02-09 10:00:00') /* Tusker Redeemer (22520) */
+     , (0x7F78408A, 0x7F784026, '2005-02-09 10:00:00') /* Tusker Redeemer (22520) */
+     , (0x7F78408A, 0x7F784027, '2005-02-09 10:00:00') /* Tusker Liberator (22519) */
+     , (0x7F78408A, 0x7F784028, '2005-02-09 10:00:00') /* Tusker Liberator (22519) */
+     , (0x7F78408A, 0x7F784029, '2005-02-09 10:00:00') /* Tusker Minion (22511) */
+     , (0x7F78408A, 0x7F78402A, '2005-02-09 10:00:00') /* Tusker Liberator (22519) */
+     , (0x7F78408A, 0x7F78402B, '2005-02-09 10:00:00') /* Tusker Liberator (22519) */
+     , (0x7F78408A, 0x7F78402C, '2005-02-09 10:00:00') /* Tusker Liberator (22594) */
+     , (0x7F78408A, 0x7F78402D, '2005-02-09 10:00:00') /* Tusker Redeemer (22600) */
+     , (0x7F78408A, 0x7F78402E, '2005-02-09 10:00:00') /* Tusker Liberator (22594) */
+     , (0x7F78408A, 0x7F78402F, '2005-02-09 10:00:00') /* Tusker Liberator (22594) */
+     , (0x7F78408A, 0x7F784030, '2005-02-09 10:00:00') /* Tusker Liberator (22594) */
+     , (0x7F78408A, 0x7F784031, '2005-02-09 10:00:00') /* Tusker Liberator (22594) */
+     , (0x7F78408A, 0x7F784032, '2005-02-09 10:00:00') /* Tusker Liberator (22594) */
+     , (0x7F78408A, 0x7F784033, '2005-02-09 10:00:00') /* Tusker Redeemer (22600) */
+     , (0x7F78408A, 0x7F784034, '2005-02-09 10:00:00') /* Tusker Redeemer (22600) */
+     , (0x7F78408A, 0x7F784035, '2005-02-09 10:00:00') /* Tusker Redeemer (22600) */
+     , (0x7F78408A, 0x7F784036, '2005-02-09 10:00:00') /* Tusker Redeemer (22600) */
+     , (0x7F78408A, 0x7F784037, '2005-02-09 10:00:00') /* Tusker Liberator (22594) */
+     , (0x7F78408A, 0x7F784038, '2005-02-09 10:00:00') /* Tusker Liberator (22594) */
+     , (0x7F78408A, 0x7F784039, '2005-02-09 10:00:00') /* Tusker Liberator (22594) */
+     , (0x7F78408A, 0x7F78403A, '2005-02-09 10:00:00') /* Tusker Liberator (22594) */
+     , (0x7F78408A, 0x7F78403E, '2005-02-09 10:00:00') /* Tusker Minion (22512) */
+     , (0x7F78408A, 0x7F784040, '2005-02-09 10:00:00') /* Tusker Liberator (22519) */
+     , (0x7F78408A, 0x7F784043, '2005-02-09 10:00:00') /* Tusker Minion (22511) */
+     , (0x7F78408A, 0x7F784044, '2005-02-09 10:00:00') /* Tusker Minion (22511) */
+     , (0x7F78408A, 0x7F784045, '2005-02-09 10:00:00') /* Tusker Redeemer (22520) */
+     , (0x7F78408A, 0x7F784049, '2005-02-09 10:00:00') /* Tusker Liberator (22519) */
+     , (0x7F78408A, 0x7F78404A, '2005-02-09 10:00:00') /* Tusker Liberator (22519) */
+     , (0x7F78408A, 0x7F78404B, '2005-02-09 10:00:00') /* Tusker Minion (22512) */
+     , (0x7F78408A, 0x7F784050, '2005-02-09 10:00:00') /* Tusker Liberator (22519) */
+     , (0x7F78408A, 0x7F784053, '2005-02-09 10:00:00') /* Tusker Redeemer (22520) */
+     , (0x7F78408A, 0x7F784054, '2005-02-09 10:00:00') /* Tusker Redeemer (22520) */
+     , (0x7F78408A, 0x7F784056, '2005-02-09 10:00:00') /* Tusker Redeemer (22520) */
+     , (0x7F78408A, 0x7F784057, '2005-02-09 10:00:00') /* Tusker Liberator (22594) */
+     , (0x7F78408A, 0x7F784058, '2005-02-09 10:00:00') /* Tusker Liberator (22594) */
+     , (0x7F78408A, 0x7F784059, '2005-02-09 10:00:00') /* Tusker Liberator (22594) */
+     , (0x7F78408A, 0x7F78405A, '2005-02-09 10:00:00') /* Tusker Liberator (22594) */
+     , (0x7F78408A, 0x7F78405B, '2005-02-09 10:00:00') /* Tusker Redeemer (22600) */
+     , (0x7F78408A, 0x7F78405C, '2005-02-09 10:00:00') /* Tusker Minion (22511) */
+     , (0x7F78408A, 0x7F78405D, '2005-02-09 10:00:00') /* Tusker Redeemer (22520) */
+     , (0x7F78408A, 0x7F78405E, '2005-02-09 10:00:00') /* Tusker Minion (22511) */
+     , (0x7F78408A, 0x7F78405F, '2005-02-09 10:00:00') /* Tusker Minion (22512) */
+     , (0x7F78408A, 0x7F784060, '2005-02-09 10:00:00') /* Tusker Liberator (22519) */
+     , (0x7F78408A, 0x7F784061, '2005-02-09 10:00:00') /* Tusker Liberator (22519) */
+     , (0x7F78408A, 0x7F784062, '2005-02-09 10:00:00') /* Tusker Liberator (22519) */
+     , (0x7F78408A, 0x7F784063, '2005-02-09 10:00:00') /* Tusker Minion (22512) */
+     , (0x7F78408A, 0x7F784064, '2005-02-09 10:00:00') /* Tusker Liberator (22519) */
+     , (0x7F78408A, 0x7F784065, '2005-02-09 10:00:00') /* Tusker Redeemer (22520) */
+     , (0x7F78408A, 0x7F784066, '2005-02-09 10:00:00') /* Tusker Liberator (22519) */
+     , (0x7F78408A, 0x7F784069, '2005-02-09 10:00:00') /* Tusker Minion (22511) */
+     , (0x7F78408A, 0x7F78406A, '2005-02-09 10:00:00') /* Tusker Liberator (22519) */
+     , (0x7F78408A, 0x7F78406B, '2005-02-09 10:00:00') /* Tusker Liberator (22519) */
+     , (0x7F78408A, 0x7F78406C, '2005-02-09 10:00:00') /* Tusker Minion (22511) */
+     , (0x7F78408A, 0x7F78406D, '2005-02-09 10:00:00') /* Tusker Liberator (22519) */
+     , (0x7F78408A, 0x7F78406E, '2005-02-09 10:00:00') /* Tusker Liberator (22519) */
+     , (0x7F78408A, 0x7F78406F, '2005-02-09 10:00:00') /* Tusker Liberator (22519) */
+     , (0x7F78408A, 0x7F784070, '2005-02-09 10:00:00') /* Tusker Liberator (22519) */
+     , (0x7F78408A, 0x7F784071, '2005-02-09 10:00:00') /* Tusker Liberator (22519) */
+     , (0x7F78408A, 0x7F784072, '2005-02-09 10:00:00') /* Tusker Minion (22512) */
+     , (0x7F78408A, 0x7F784073, '2005-02-09 10:00:00') /* Tusker Minion (22512) */
+     , (0x7F78408A, 0x7F784074, '2005-02-09 10:00:00') /* Tusker Redeemer (22520) */
+     , (0x7F78408A, 0x7F784075, '2005-02-09 10:00:00') /* Tusker Minion (22511) */
+     , (0x7F78408A, 0x7F784076, '2005-02-09 10:00:00') /* Tusker Redeemer (22520) */
+     , (0x7F78408A, 0x7F784077, '2005-02-09 10:00:00') /* Tusker Minion (22511) */
+     , (0x7F78408A, 0x7F784078, '2005-02-09 10:00:00') /* Tusker Minion (22512) */
+     , (0x7F78408A, 0x7F784079, '2005-02-09 10:00:00') /* Tusker Liberator (22519) */
+     , (0x7F78408A, 0x7F78407A, '2005-02-09 10:00:00') /* Tusker Liberator (22519) */
+     , (0x7F78408A, 0x7F78407B, '2005-02-09 10:00:00') /* Tusker Redeemer (22600) */
+     , (0x7F78408A, 0x7F78407C, '2005-02-09 10:00:00') /* Tusker Redeemer (22600) */
+     , (0x7F78408A, 0x7F78407D, '2005-02-09 10:00:00') /* Tusker Liberator (22519) */
+     , (0x7F78408A, 0x7F78407E, '2005-02-09 10:00:00') /* Tusker Liberator (22519) */
+     , (0x7F78408A, 0x7F78407F, '2005-02-09 10:00:00') /* Tusker Minion (22512) */
+     , (0x7F78408A, 0x7F784080, '2005-02-09 10:00:00') /* Tusker Liberator (22594) */
+     , (0x7F78408A, 0x7F784081, '2005-02-09 10:00:00') /* Tusker Redeemer (22600) */
+     , (0x7F78408A, 0x7F784082, '2005-02-09 10:00:00') /* Tusker Liberator (22519) */
+     , (0x7F78408A, 0x7F784083, '2005-02-09 10:00:00') /* Tusker Liberator (22519) */
+     , (0x7F78408A, 0x7F784084, '2005-02-09 10:00:00') /* Tusker Liberator (22594) */
+     , (0x7F78408A, 0x7F784085, '2005-02-09 10:00:00') /* Tusker Liberator (22594) */
+     , (0x7F78408A, 0x7F784086, '2005-02-09 10:00:00') /* Tusker Minion (22512) */
+     , (0x7F78408A, 0x7F784087, '2005-02-09 10:00:00') /* Tusker Liberator (22594) */
+     , (0x7F78408A, 0x7F784088, '2005-02-09 10:00:00') /* Tusker Minion (22511) */
+     , (0x7F78408A, 0x7F784089, '2005-02-09 10:00:00') /* Tusker Redeemer (22600) */
+     , (0x7F78408A, 0x7F78408B, '2005-02-09 10:00:00') /* Tusker Redeemer (22520) */
+     , (0x7F78408A, 0x7F78408D, '2005-02-09 10:00:00') /* Tusker Redeemer (22520) */
+     , (0x7F78408A, 0x7F78408F, '2005-02-09 10:00:00') /* Tusker Redeemer (22520) */
+     , (0x7F78408A, 0x7F784090, '2005-02-09 10:00:00') /* Tusker Redeemer (22520) */
+     , (0x7F78408A, 0x7F784092, '2005-02-09 10:00:00') /* Tusker Redeemer (22520) */
+     , (0x7F78408A, 0x7F784093, '2005-02-09 10:00:00') /* Tusker Redeemer (22520) */
+     , (0x7F78408A, 0x7F784095, '2005-02-09 10:00:00') /* Tusker Liberator (22519) */
+     , (0x7F78408A, 0x7F784096, '2005-02-09 10:00:00') /* Tusker Liberator (22519) */
+     , (0x7F78408A, 0x7F784099, '2005-02-09 10:00:00') /* Tusker Liberator (22519) */
+     , (0x7F78408A, 0x7F78409A, '2005-02-09 10:00:00') /* Tusker Liberator (22519) */
+     , (0x7F78408A, 0x7F78409B, '2005-02-09 10:00:00') /* Tusker Liberator (22519) */
+     , (0x7F78408A, 0x7F78409C, '2005-02-09 10:00:00') /* Tusker Liberator (22519) */
+     , (0x7F78408A, 0x7F78409D, '2005-02-09 10:00:00') /* Tusker Liberator (22519) */
+     , (0x7F78408A, 0x7F78409E, '2005-02-09 10:00:00') /* Tusker Redeemer (22520) */
+     , (0x7F78408A, 0x7F7840A3, '2005-02-09 10:00:00') /* Tusker Liberator (22519) */
+     , (0x7F78408A, 0x7F7840A4, '2005-02-09 10:00:00') /* Tusker Liberator (22519) */
+     , (0x7F78408A, 0x7F7840A5, '2005-02-09 10:00:00') /* Tusker Liberator (22519) */
+     , (0x7F78408A, 0x7F7840A6, '2005-02-09 10:00:00') /* Tusker Liberator (22519) */
+     , (0x7F78408A, 0x7F7840A7, '2005-02-09 10:00:00') /* Tusker Redeemer (22520) */
+     , (0x7F78408A, 0x7F7840A9, '2005-02-09 10:00:00') /* Tusker Redeemer (22520) */
+     , (0x7F78408A, 0x7F7840AD, '2005-02-09 10:00:00') /* Tusker Liberator (22519) */
+     , (0x7F78408A, 0x7F7840B2, '2005-02-09 10:00:00') /* Tusker Redeemer (22520) */
+     , (0x7F78408A, 0x7F7840B3, '2005-02-09 10:00:00') /* Tusker Liberator (22519) */
+     , (0x7F78408A, 0x7F7840B4, '2005-02-09 10:00:00') /* Tusker Redeemer (22520) */
+     , (0x7F78408A, 0x7F7840B6, '2005-02-09 10:00:00') /* Tusker Redeemer (22520) */
+     , (0x7F78408A, 0x7F7840B7, '2005-02-09 10:00:00') /* Tusker Redeemer (22520) */
+     , (0x7F78408A, 0x7F7840B8, '2005-02-09 10:00:00') /* Tusker Liberator (22519) */
+     , (0x7F78408A, 0x7F7840B9, '2005-02-09 10:00:00') /* Tusker Liberator (22519) */
+     , (0x7F78408A, 0x7F7840BA, '2005-02-09 10:00:00') /* Tusker Redeemer (22520) */
+     , (0x7F78408A, 0x7F7840BB, '2005-02-09 10:00:00') /* Tusker Redeemer (22520) */
+     , (0x7F78408A, 0x7F7840C0, '2005-02-09 10:00:00') /* Tusker Redeemer (22520) */
+     , (0x7F78408A, 0x7F7840C2, '2005-02-09 10:00:00') /* Tusker Liberator (22519) */
+     , (0x7F78408A, 0x7F7840C3, '2005-02-09 10:00:00') /* Tusker Liberator (22519) */
+     , (0x7F78408A, 0x7F7840C4, '2005-02-09 10:00:00') /* Tusker Liberator (22519) */
+     , (0x7F78408A, 0x7F7840C5, '2005-02-09 10:00:00') /* Tusker Liberator (22519) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7F78408B, 22520, 0xF7840321, 51.7612, 278.627, 0.455002, 0.693294, 0, 0, -0.720655,  True, '2005-02-09 10:00:00'); /* Tusker Redeemer */
@@ -966,7 +966,7 @@ VALUES (0x7F7840CD,  7923, 0xF7840000, 28.7987, 144.929, 42.005, -0.97633, 0, 0,
 /* @teleloc 0xF7840000 [28.798700 144.929000 42.005000] -0.976330 0.000000 0.000000 0.216285 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7F7840CD, 0x7F7840CC, '2005-02-09 10:00:00') /* Hawker for Ketnan */;
+VALUES (0x7F7840CD, 0x7F7840CC, '2005-02-09 10:00:00') /* Hawker for Ketnan (22644) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7F7840CE, 22718, 0xF7840000, 31.1431, 145.591, 42.005, 0.983398, 0, 0, -0.181459, False, '2005-02-09 10:00:00'); /* Tusker Emporium Sign */
@@ -1029,7 +1029,7 @@ VALUES (0x7F7840E3,  7383, 0xF7840141, 457.219, 498.278, -21.9977, 0.726149, 0, 
 /* @teleloc 0xF7840141 [457.219000 498.278000 -21.997700] 0.726149 0.000000 0.000000 -0.687538 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7F7840E3, 0x7F7840E1, '2005-02-09 10:00:00') /* Pressure Plate */;
+VALUES (0x7F7840E3, 0x7F7840E1, '2005-02-09 10:00:00') /* Pressure Plate (4144) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7F7840E4, 22600, 0xF784018C, 422.826, 471.512, -17.5901, 0.702705, 0, 0, -0.711481,  True, '2005-02-09 10:00:00'); /* Tusker Redeemer */
@@ -1044,29 +1044,29 @@ VALUES (0x7F7840E6, 15274, 0xF784018D, 424.314, 463.404, -17.595, 0.999687, 0, 0
 /* @teleloc 0xF784018D [424.314000 463.404000 -17.595000] 0.999687 0.000000 0.000000 -0.024998 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7F7840E6, 0x7F7840E4, '2005-02-09 10:00:00') /* Tusker Redeemer */
-     , (0x7F7840E6, 0x7F7840E5, '2005-02-09 10:00:00') /* Tusker Redeemer */;
+VALUES (0x7F7840E6, 0x7F7840E4, '2005-02-09 10:00:00') /* Tusker Redeemer (22600) */
+     , (0x7F7840E6, 0x7F7840E5, '2005-02-09 10:00:00') /* Tusker Redeemer (22600) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7F7840E7,  7383, 0xF784020D, 423.851, 498.571, -11.576, 0.748499, 0, 0, -0.663136, False, '2005-02-09 10:00:00'); /* Empyrean magical defense battery */
 /* @teleloc 0xF784020D [423.851000 498.571000 -11.576000] 0.748499 0.000000 0.000000 -0.663136 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7F7840E7, 0x7F7840EB, '2005-02-09 10:00:00') /* Pressure Plate */;
+VALUES (0x7F7840E7, 0x7F7840EB, '2005-02-09 10:00:00') /* Pressure Plate (4144) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7F7840E8,  7383, 0xF784020D, 429.834, 499.426, -11.576, 0.731689, 0, 0, -0.681639, False, '2005-02-09 10:00:00'); /* Empyrean magical defense battery */
 /* @teleloc 0xF784020D [429.834000 499.426000 -11.576000] 0.731689 0.000000 0.000000 -0.681639 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7F7840E8, 0x7F7840EE, '2005-02-09 10:00:00') /* Pressure Plate */;
+VALUES (0x7F7840E8, 0x7F7840EE, '2005-02-09 10:00:00') /* Pressure Plate (4144) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7F7840E9,  7383, 0xF7840216, 436.194, 497.942, -11.576, 0.764843, 0, 0, -0.644217, False, '2005-02-09 10:00:00'); /* Empyrean magical defense battery */
 /* @teleloc 0xF7840216 [436.194000 497.942000 -11.576000] 0.764843 0.000000 0.000000 -0.644217 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7F7840E9, 0x7F7840ED, '2005-02-09 10:00:00') /* Pressure Plate */;
+VALUES (0x7F7840E9, 0x7F7840ED, '2005-02-09 10:00:00') /* Pressure Plate (4144) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7F7840EA,  4144, 0xF784021B, 446.552, 498.399, -11.595, 0.714421, 0, 0, 0.699716,  True, '2005-02-09 10:00:00'); /* Pressure Plate */
@@ -1081,7 +1081,7 @@ VALUES (0x7F7840EC,  7383, 0xF784021B, 449.099, 497.83, -11.576, 0.759415, 0, 0,
 /* @teleloc 0xF784021B [449.099000 497.830000 -11.576000] 0.759415 0.000000 0.000000 -0.650607 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7F7840EC, 0x7F7840EA, '2005-02-09 10:00:00') /* Pressure Plate */;
+VALUES (0x7F7840EC, 0x7F7840EA, '2005-02-09 10:00:00') /* Pressure Plate (4144) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7F7840ED,  4144, 0xF7840229, 459.751, 498.268, -11.595, 0.696707, 0, 0, 0.717356,  True, '2005-02-09 10:00:00'); /* Pressure Plate */
@@ -1116,7 +1116,7 @@ VALUES (0x7F7840FB,  7923, 0xF784010A, 459.339, 466.735, -29.595, -0.315854, 0, 
 /* @teleloc 0xF784010A [459.339000 466.735000 -29.595000] -0.315854 0.000000 0.000000 -0.948808 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7F7840FB, 0x7F7840FC, '2005-02-09 10:00:00') /* Tusker Liberator */;
+VALUES (0x7F7840FB, 0x7F7840FC, '2005-02-09 10:00:00') /* Tusker Liberator (22594) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7F7840FC, 22594, 0xF784010A, 458.747, 465.668, -29.5901, -0.367257, 0, 0, -0.930119,  True, '2005-02-09 10:00:00'); /* Tusker Liberator */

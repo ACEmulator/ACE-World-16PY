@@ -9,10 +9,10 @@ VALUES (0x71444006,  7924, 0x14440000, 176.115, 0.621163, 54.005, 0.773652, 0, 0
 /* @teleloc 0x14440000 [176.115000 0.621163 54.005000] 0.773652 0.000000 0.000000 -0.633611 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71444006, 0x71444005, '2005-02-09 10:00:00') /* Plasma Golem */
-     , (0x71444006, 0x71444007, '2005-02-09 10:00:00') /* Plasma Golem */
-     , (0x71444006, 0x71444008, '2005-02-09 10:00:00') /* Plasma Golem */
-     , (0x71444006, 0x71444009, '2005-02-09 10:00:00') /* Plasma Golem */;
+VALUES (0x71444006, 0x71444005, '2005-02-09 10:00:00') /* Plasma Golem (7098) */
+     , (0x71444006, 0x71444007, '2005-02-09 10:00:00') /* Plasma Golem (7098) */
+     , (0x71444006, 0x71444008, '2005-02-09 10:00:00') /* Plasma Golem (7098) */
+     , (0x71444006, 0x71444009, '2005-02-09 10:00:00') /* Plasma Golem (7098) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71444007,  7098, 0x14440000, 164.902, 9.322, 54.3, 0.913889, 0, 0, -0.405963,  True, '2005-02-09 10:00:00'); /* Plasma Golem */

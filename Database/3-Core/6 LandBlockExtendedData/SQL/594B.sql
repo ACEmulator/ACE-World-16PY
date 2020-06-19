@@ -25,36 +25,36 @@ VALUES (0x7594B005,  7932, 0x594B0109, 176.546, -59.624, -5.995, -0.673556, 0, 0
 /* @teleloc 0x594B0109 [176.546000 -59.624000 -5.995000] -0.673556 0.000000 0.000000 0.739136 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7594B005, 0x7594B001, '2005-02-09 10:00:00') /* Abyssal Shadow */
-     , (0x7594B005, 0x7594B002, '2005-02-09 10:00:00') /* Abyssal Shadow */
-     , (0x7594B005, 0x7594B003, '2005-02-09 10:00:00') /* Shadow Spectre */
-     , (0x7594B005, 0x7594B004, '2005-02-09 10:00:00') /* Shadow Wraith */
-     , (0x7594B005, 0x7594B006, '2005-02-09 10:00:00') /* Shadow Spectre */
-     , (0x7594B005, 0x7594B007, '2005-02-09 10:00:00') /* Shadow Phantom */
-     , (0x7594B005, 0x7594B009, '2005-02-09 10:00:00') /* Virindi Profatrix */
-     , (0x7594B005, 0x7594B012, '2005-02-09 10:00:00') /* Plated Tusker */
-     , (0x7594B005, 0x7594B016, '2005-02-09 10:00:00') /* Virindi Profatrix */
-     , (0x7594B005, 0x7594B01B, '2005-02-09 10:00:00') /* Sinister Shadow */
-     , (0x7594B005, 0x7594B01C, '2005-02-09 10:00:00') /* Tenebrous Shadow */
-     , (0x7594B005, 0x7594B01D, '2005-02-09 10:00:00') /* Maelstrom Shadow */
-     , (0x7594B005, 0x7594B01E, '2005-02-09 10:00:00') /* Plated Tusker */
-     , (0x7594B005, 0x7594B01F, '2005-02-09 10:00:00') /* Virindi Profatrix */
-     , (0x7594B005, 0x7594B021, '2005-02-09 10:00:00') /* Virindi Profatrix */
-     , (0x7594B005, 0x7594B022, '2005-02-09 10:00:00') /* Virindi Profatrix */
-     , (0x7594B005, 0x7594B02C, '2005-02-09 10:00:00') /* Sinister Shadow */
-     , (0x7594B005, 0x7594B02D, '2005-02-09 10:00:00') /* Maelstrom Shadow */
-     , (0x7594B005, 0x7594B02E, '2005-02-09 10:00:00') /* Maelstrom Shadow */
-     , (0x7594B005, 0x7594B02F, '2005-02-09 10:00:00') /* Sinister Shadow */
-     , (0x7594B005, 0x7594B030, '2005-02-09 10:00:00') /* Sinister Shadow */
-     , (0x7594B005, 0x7594B031, '2005-02-09 10:00:00') /* Maelstrom Shadow */
-     , (0x7594B005, 0x7594B032, '2005-02-09 10:00:00') /* Tenebrous Shadow */
-     , (0x7594B005, 0x7594B033, '2005-02-09 10:00:00') /* Sinister Shadow */
-     , (0x7594B005, 0x7594B034, '2005-02-09 10:00:00') /* Tenebrous Shadow */
-     , (0x7594B005, 0x7594B035, '2005-02-09 10:00:00') /* Maelstrom Shadow */
-     , (0x7594B005, 0x7594B036, '2005-02-09 10:00:00') /* Tenebrous Shadow */
-     , (0x7594B005, 0x7594B037, '2005-02-09 10:00:00') /* Tenebrous Shadow */
-     , (0x7594B005, 0x7594B038, '2005-02-09 10:00:00') /* Tenebrous Shadow */
-     , (0x7594B005, 0x7594B039, '2005-02-09 10:00:00') /* Tenebrous Shadow */;
+VALUES (0x7594B005, 0x7594B001, '2005-02-09 10:00:00') /* Abyssal Shadow (23562) */
+     , (0x7594B005, 0x7594B002, '2005-02-09 10:00:00') /* Abyssal Shadow (23562) */
+     , (0x7594B005, 0x7594B003, '2005-02-09 10:00:00') /* Shadow Spectre (23090) */
+     , (0x7594B005, 0x7594B004, '2005-02-09 10:00:00') /* Shadow Wraith (23091) */
+     , (0x7594B005, 0x7594B006, '2005-02-09 10:00:00') /* Shadow Spectre (23090) */
+     , (0x7594B005, 0x7594B007, '2005-02-09 10:00:00') /* Shadow Phantom (23089) */
+     , (0x7594B005, 0x7594B009, '2005-02-09 10:00:00') /* Virindi Profatrix (22054) */
+     , (0x7594B005, 0x7594B012, '2005-02-09 10:00:00') /* Plated Tusker (11541) */
+     , (0x7594B005, 0x7594B016, '2005-02-09 10:00:00') /* Virindi Profatrix (22054) */
+     , (0x7594B005, 0x7594B01B, '2005-02-09 10:00:00') /* Sinister Shadow (23563) */
+     , (0x7594B005, 0x7594B01C, '2005-02-09 10:00:00') /* Tenebrous Shadow (23564) */
+     , (0x7594B005, 0x7594B01D, '2005-02-09 10:00:00') /* Maelstrom Shadow (22909) */
+     , (0x7594B005, 0x7594B01E, '2005-02-09 10:00:00') /* Plated Tusker (11541) */
+     , (0x7594B005, 0x7594B01F, '2005-02-09 10:00:00') /* Virindi Profatrix (22054) */
+     , (0x7594B005, 0x7594B021, '2005-02-09 10:00:00') /* Virindi Profatrix (22054) */
+     , (0x7594B005, 0x7594B022, '2005-02-09 10:00:00') /* Virindi Profatrix (22054) */
+     , (0x7594B005, 0x7594B02C, '2005-02-09 10:00:00') /* Sinister Shadow (23563) */
+     , (0x7594B005, 0x7594B02D, '2005-02-09 10:00:00') /* Maelstrom Shadow (22909) */
+     , (0x7594B005, 0x7594B02E, '2005-02-09 10:00:00') /* Maelstrom Shadow (22909) */
+     , (0x7594B005, 0x7594B02F, '2005-02-09 10:00:00') /* Sinister Shadow (23563) */
+     , (0x7594B005, 0x7594B030, '2005-02-09 10:00:00') /* Sinister Shadow (23563) */
+     , (0x7594B005, 0x7594B031, '2005-02-09 10:00:00') /* Maelstrom Shadow (22909) */
+     , (0x7594B005, 0x7594B032, '2005-02-09 10:00:00') /* Tenebrous Shadow (23564) */
+     , (0x7594B005, 0x7594B033, '2005-02-09 10:00:00') /* Sinister Shadow (23563) */
+     , (0x7594B005, 0x7594B034, '2005-02-09 10:00:00') /* Tenebrous Shadow (23564) */
+     , (0x7594B005, 0x7594B035, '2005-02-09 10:00:00') /* Maelstrom Shadow (22909) */
+     , (0x7594B005, 0x7594B036, '2005-02-09 10:00:00') /* Tenebrous Shadow (23564) */
+     , (0x7594B005, 0x7594B037, '2005-02-09 10:00:00') /* Tenebrous Shadow (23564) */
+     , (0x7594B005, 0x7594B038, '2005-02-09 10:00:00') /* Tenebrous Shadow (23564) */
+     , (0x7594B005, 0x7594B039, '2005-02-09 10:00:00') /* Tenebrous Shadow (23564) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7594B006, 23090, 0x594B010A, 175.53, -68.3774, -5.995, -0.997293, 0, 0, 0.073536,  True, '2005-02-09 10:00:00'); /* Shadow Spectre */
@@ -185,29 +185,29 @@ VALUES (0x7594B025,  7923, 0x594B0193, 40, -110, 6.005, 1, 0, 0, -4.37114E-08, F
 /* @teleloc 0x594B0193 [40.000000 -110.000000 6.005000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7594B025, 0x7594B023, '2005-02-09 10:00:00') /* Magically Sealed Dais */;
+VALUES (0x7594B025, 0x7594B023, '2005-02-09 10:00:00') /* Magically Sealed Dais (25375) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7594B026,  7932, 0x594B0193, 44.291, -109.903, 6.005, 0.710119, 0, 0, -0.704081, False, '2005-02-09 10:00:00'); /* Linkable Monster Generator ( 4 Min.) */
 /* @teleloc 0x594B0193 [44.291000 -109.903000 6.005000] 0.710119 0.000000 0.000000 -0.704081 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7594B026, 0x7594B000, '2005-02-09 10:00:00') /* Virindi Profatrix */
-     , (0x7594B026, 0x7594B008, '2005-02-09 10:00:00') /* Tenebrous Shadow */
-     , (0x7594B026, 0x7594B00B, '2005-02-09 10:00:00') /* Tenebrous Shadow */
-     , (0x7594B026, 0x7594B00C, '2005-02-09 10:00:00') /* Shadow Phantom */
-     , (0x7594B026, 0x7594B00D, '2005-02-09 10:00:00') /* Shadow Phantom */
-     , (0x7594B026, 0x7594B00E, '2005-02-09 10:00:00') /* Tenebrous Shadow */
-     , (0x7594B026, 0x7594B00F, '2005-02-09 10:00:00') /* Tenebrous Shadow */
-     , (0x7594B026, 0x7594B010, '2005-02-09 10:00:00') /* Abyssal Shadow */
-     , (0x7594B026, 0x7594B011, '2005-02-09 10:00:00') /* Abyssal Shadow */
-     , (0x7594B026, 0x7594B013, '2005-02-09 10:00:00') /* Shadow Spectre */
-     , (0x7594B026, 0x7594B014, '2005-02-09 10:00:00') /* Shadow Spectre */
-     , (0x7594B026, 0x7594B027, '2005-02-09 10:00:00') /* Virindi Profatrix */
-     , (0x7594B026, 0x7594B028, '2005-02-09 10:00:00') /* Virindi Profatrix */
-     , (0x7594B026, 0x7594B029, '2005-02-09 10:00:00') /* Virindi Profatrix */
-     , (0x7594B026, 0x7594B02A, '2005-02-09 10:00:00') /* Virindi Profatrix */
-     , (0x7594B026, 0x7594B02B, '2005-02-09 10:00:00') /* Virindi Profatrix */;
+VALUES (0x7594B026, 0x7594B000, '2005-02-09 10:00:00') /* Virindi Profatrix (22054) */
+     , (0x7594B026, 0x7594B008, '2005-02-09 10:00:00') /* Tenebrous Shadow (23564) */
+     , (0x7594B026, 0x7594B00B, '2005-02-09 10:00:00') /* Tenebrous Shadow (23564) */
+     , (0x7594B026, 0x7594B00C, '2005-02-09 10:00:00') /* Shadow Phantom (23089) */
+     , (0x7594B026, 0x7594B00D, '2005-02-09 10:00:00') /* Shadow Phantom (23089) */
+     , (0x7594B026, 0x7594B00E, '2005-02-09 10:00:00') /* Tenebrous Shadow (23564) */
+     , (0x7594B026, 0x7594B00F, '2005-02-09 10:00:00') /* Tenebrous Shadow (23564) */
+     , (0x7594B026, 0x7594B010, '2005-02-09 10:00:00') /* Abyssal Shadow (23562) */
+     , (0x7594B026, 0x7594B011, '2005-02-09 10:00:00') /* Abyssal Shadow (23562) */
+     , (0x7594B026, 0x7594B013, '2005-02-09 10:00:00') /* Shadow Spectre (23090) */
+     , (0x7594B026, 0x7594B014, '2005-02-09 10:00:00') /* Shadow Spectre (23090) */
+     , (0x7594B026, 0x7594B027, '2005-02-09 10:00:00') /* Virindi Profatrix (22054) */
+     , (0x7594B026, 0x7594B028, '2005-02-09 10:00:00') /* Virindi Profatrix (22054) */
+     , (0x7594B026, 0x7594B029, '2005-02-09 10:00:00') /* Virindi Profatrix (22054) */
+     , (0x7594B026, 0x7594B02A, '2005-02-09 10:00:00') /* Virindi Profatrix (22054) */
+     , (0x7594B026, 0x7594B02B, '2005-02-09 10:00:00') /* Virindi Profatrix (22054) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7594B027, 22054, 0x594B019B, 50, -110, 6.029, 0.99875, 0, 0, -0.0499797,  True, '2005-02-09 10:00:00'); /* Virindi Profatrix */

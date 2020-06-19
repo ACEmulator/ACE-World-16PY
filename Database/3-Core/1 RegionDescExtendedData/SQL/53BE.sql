@@ -1,4 +1,4 @@
-DELETE FROM `encounter` WHERE `landblock` = 21438;
+DELETE FROM `encounter` WHERE `landblock` = 0x53BE;
 
 INSERT INTO `encounter` (`landblock`, `weenie_Class_Id`, `cell_X`, `cell_Y`, `last_Modified`)
-VALUES (21438, 23159, 1, 4, '2005-02-09 10:00:00') /* Mid North Plains Generator */;
+VALUES (0x53BE, 23159, 1, 4, '2005-02-09 10:00:00') /* Mid North Plains Generator */;

@@ -5,33 +5,33 @@ VALUES (0x7F628000,  7924, 0xF6280000, 15.5749, 17.9059, 22.4815, 0.218704, 0, 0
 /* @teleloc 0xF6280000 [15.574900 17.905900 22.481500] 0.218704 0.000000 0.000000 -0.975791 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7F628000, 0x7F628006, '2005-02-09 10:00:00') /* Skeleton Bone Lord */
-     , (0x7F628000, 0x7F628007, '2005-02-09 10:00:00') /* Skeleton Bone Lord */
-     , (0x7F628000, 0x7F628008, '2005-02-09 10:00:00') /* Great Skeleton */
-     , (0x7F628000, 0x7F628009, '2005-02-09 10:00:00') /* Dark Revenant */
-     , (0x7F628000, 0x7F62800A, '2005-02-09 10:00:00') /* Dark Leech */;
+VALUES (0x7F628000, 0x7F628006, '2005-02-09 10:00:00') /* Skeleton Bone Lord (7121) */
+     , (0x7F628000, 0x7F628007, '2005-02-09 10:00:00') /* Skeleton Bone Lord (7121) */
+     , (0x7F628000, 0x7F628008, '2005-02-09 10:00:00') /* Great Skeleton (7122) */
+     , (0x7F628000, 0x7F628009, '2005-02-09 10:00:00') /* Dark Revenant (4217) */
+     , (0x7F628000, 0x7F62800A, '2005-02-09 10:00:00') /* Dark Leech (7123) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7F628001,  7923, 0xF6280000, 16.064, 16.8694, 22.2224, 0.218704, 0, 0, -0.975791, False, '2005-02-09 10:00:00'); /* Linkable Monster Generator ( 3 Min.) */
 /* @teleloc 0xF6280000 [16.064000 16.869400 22.222400] 0.218704 0.000000 0.000000 -0.975791 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7F628001, 0x7F628002, '2005-02-09 10:00:00') /* Skeleton Bone Knight */
-     , (0x7F628001, 0x7F628003, '2005-02-09 10:00:00') /* Skeleton Bone Knight */
-     , (0x7F628001, 0x7F628004, '2005-02-09 10:00:00') /* Skeleton Bone Knight */
-     , (0x7F628001, 0x7F628005, '2005-02-09 10:00:00') /* Skeleton Bone Lord */
-     , (0x7F628001, 0x7F62800B, '2005-02-09 10:00:00') /* Skeleton Bone Lord */
-     , (0x7F628001, 0x7F62800C, '2005-02-09 10:00:00') /* Skeleton Bone Knight */
-     , (0x7F628001, 0x7F62800D, '2005-02-09 10:00:00') /* Skeleton Bone Knight */
-     , (0x7F628001, 0x7F62800E, '2005-02-09 10:00:00') /* Skeleton Bone Knight */
-     , (0x7F628001, 0x7F62800F, '2005-02-09 10:00:00') /* Skeleton Bone Knight */
-     , (0x7F628001, 0x7F628010, '2005-02-09 10:00:00') /* Skeleton Bone Knight */
-     , (0x7F628001, 0x7F628011, '2005-02-09 10:00:00') /* Skeleton Bone Knight */
-     , (0x7F628001, 0x7F628012, '2005-02-09 10:00:00') /* Skeleton Bone Lord */
-     , (0x7F628001, 0x7F628013, '2005-02-09 10:00:00') /* Skeleton Bone Lord */
-     , (0x7F628001, 0x7F628014, '2005-02-09 10:00:00') /* Skeleton Bone Knight */
-     , (0x7F628001, 0x7F628015, '2005-02-09 10:00:00') /* Skeleton Bone Knight */
-     , (0x7F628001, 0x7F628016, '2005-02-09 10:00:00') /* Skeleton Bone Knight */;
+VALUES (0x7F628001, 0x7F628002, '2005-02-09 10:00:00') /* Skeleton Bone Knight (7334) */
+     , (0x7F628001, 0x7F628003, '2005-02-09 10:00:00') /* Skeleton Bone Knight (7334) */
+     , (0x7F628001, 0x7F628004, '2005-02-09 10:00:00') /* Skeleton Bone Knight (7334) */
+     , (0x7F628001, 0x7F628005, '2005-02-09 10:00:00') /* Skeleton Bone Lord (7121) */
+     , (0x7F628001, 0x7F62800B, '2005-02-09 10:00:00') /* Skeleton Bone Lord (7121) */
+     , (0x7F628001, 0x7F62800C, '2005-02-09 10:00:00') /* Skeleton Bone Knight (7334) */
+     , (0x7F628001, 0x7F62800D, '2005-02-09 10:00:00') /* Skeleton Bone Knight (7334) */
+     , (0x7F628001, 0x7F62800E, '2005-02-09 10:00:00') /* Skeleton Bone Knight (7334) */
+     , (0x7F628001, 0x7F62800F, '2005-02-09 10:00:00') /* Skeleton Bone Knight (7334) */
+     , (0x7F628001, 0x7F628010, '2005-02-09 10:00:00') /* Skeleton Bone Knight (7334) */
+     , (0x7F628001, 0x7F628011, '2005-02-09 10:00:00') /* Skeleton Bone Knight (7334) */
+     , (0x7F628001, 0x7F628012, '2005-02-09 10:00:00') /* Skeleton Bone Lord (7121) */
+     , (0x7F628001, 0x7F628013, '2005-02-09 10:00:00') /* Skeleton Bone Lord (7121) */
+     , (0x7F628001, 0x7F628014, '2005-02-09 10:00:00') /* Skeleton Bone Knight (7334) */
+     , (0x7F628001, 0x7F628015, '2005-02-09 10:00:00') /* Skeleton Bone Knight (7334) */
+     , (0x7F628001, 0x7F628016, '2005-02-09 10:00:00') /* Skeleton Bone Knight (7334) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7F628002,  7334, 0xF6280000, 15.7309, 17.5337, 22.3884, 0.218704, 0, 0, -0.975791,  True, '2005-02-09 10:00:00'); /* Skeleton Bone Knight */

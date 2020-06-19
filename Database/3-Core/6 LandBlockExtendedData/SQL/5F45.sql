@@ -21,31 +21,31 @@ VALUES (0x75F4500F,  7923, 0x5F450106, 59.6336, -13.3128, -5.995, -0.99822, 0, 0
 /* @teleloc 0x5F450106 [59.633600 -13.312800 -5.995000] -0.998220 0.000000 0.000000 -0.059643 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x75F4500F, 0x75F45018, '2005-02-09 10:00:00') /* Puzzle Box */
-     , (0x75F4500F, 0x75F45019, '2005-02-09 10:00:00') /* Puzzle Box */
-     , (0x75F4500F, 0x75F4501A, '2005-02-09 10:00:00') /* Invisible Assailant */
-     , (0x75F4500F, 0x75F45020, '2005-02-09 10:00:00') /* A Rolling Ball */
-     , (0x75F4500F, 0x75F45022, '2005-02-09 10:00:00') /* A Rolling Ball */
-     , (0x75F4500F, 0x75F45024, '2005-02-09 10:00:00') /* Puzzle Box */
-     , (0x75F4500F, 0x75F45027, '2005-02-09 10:00:00') /* Target */
-     , (0x75F4500F, 0x75F4502C, '2005-02-09 10:00:00') /* Invisible Assailant */
-     , (0x75F4500F, 0x75F45037, '2005-02-09 10:00:00') /* Puzzle Box */
-     , (0x75F4500F, 0x75F4503A, '2005-02-09 10:00:00') /* Puzzle Box */
-     , (0x75F4500F, 0x75F4503B, '2005-02-09 10:00:00') /* Puzzle Box */
-     , (0x75F4500F, 0x75F4504F, '2005-02-09 10:00:00') /* Invisible Assailant */
-     , (0x75F4500F, 0x75F45052, '2005-02-09 10:00:00') /* Invisible Assailant */
-     , (0x75F4500F, 0x75F45054, '2005-02-09 10:00:00') /* Invisible Assailant */
-     , (0x75F4500F, 0x75F45058, '2005-02-09 10:00:00') /* Invisible Assailant */
-     , (0x75F4500F, 0x75F4505F, '2005-02-09 10:00:00') /* A Rolling Ball */
-     , (0x75F4500F, 0x75F45062, '2005-02-09 10:00:00') /* A Rolling Ball */
-     , (0x75F4500F, 0x75F45063, '2005-02-09 10:00:00') /* A Rolling Ball */
-     , (0x75F4500F, 0x75F45064, '2005-02-09 10:00:00') /* A Rolling Ball */
-     , (0x75F4500F, 0x75F45065, '2005-02-09 10:00:00') /* A Rolling Ball */
-     , (0x75F4500F, 0x75F45068, '2005-02-09 10:00:00') /* A Rolling Ball */
-     , (0x75F4500F, 0x75F45069, '2005-02-09 10:00:00') /* A Rolling Ball */
-     , (0x75F4500F, 0x75F4506A, '2005-02-09 10:00:00') /* A Rolling Ball */
-     , (0x75F4500F, 0x75F4506C, '2005-02-09 10:00:00') /* A Rolling Ball */
-     , (0x75F4500F, 0x75F4506D, '2005-02-09 10:00:00') /* A Rolling Ball */;
+VALUES (0x75F4500F, 0x75F45018, '2005-02-09 10:00:00') /* Puzzle Box (24159) */
+     , (0x75F4500F, 0x75F45019, '2005-02-09 10:00:00') /* Puzzle Box (24159) */
+     , (0x75F4500F, 0x75F4501A, '2005-02-09 10:00:00') /* Invisible Assailant (24139) */
+     , (0x75F4500F, 0x75F45020, '2005-02-09 10:00:00') /* A Rolling Ball (24156) */
+     , (0x75F4500F, 0x75F45022, '2005-02-09 10:00:00') /* A Rolling Ball (24154) */
+     , (0x75F4500F, 0x75F45024, '2005-02-09 10:00:00') /* Puzzle Box (24159) */
+     , (0x75F4500F, 0x75F45027, '2005-02-09 10:00:00') /* Target (24140) */
+     , (0x75F4500F, 0x75F4502C, '2005-02-09 10:00:00') /* Invisible Assailant (24139) */
+     , (0x75F4500F, 0x75F45037, '2005-02-09 10:00:00') /* Puzzle Box (24159) */
+     , (0x75F4500F, 0x75F4503A, '2005-02-09 10:00:00') /* Puzzle Box (24159) */
+     , (0x75F4500F, 0x75F4503B, '2005-02-09 10:00:00') /* Puzzle Box (24159) */
+     , (0x75F4500F, 0x75F4504F, '2005-02-09 10:00:00') /* Invisible Assailant (24139) */
+     , (0x75F4500F, 0x75F45052, '2005-02-09 10:00:00') /* Invisible Assailant (24139) */
+     , (0x75F4500F, 0x75F45054, '2005-02-09 10:00:00') /* Invisible Assailant (24139) */
+     , (0x75F4500F, 0x75F45058, '2005-02-09 10:00:00') /* Invisible Assailant (24139) */
+     , (0x75F4500F, 0x75F4505F, '2005-02-09 10:00:00') /* A Rolling Ball (24156) */
+     , (0x75F4500F, 0x75F45062, '2005-02-09 10:00:00') /* A Rolling Ball (24157) */
+     , (0x75F4500F, 0x75F45063, '2005-02-09 10:00:00') /* A Rolling Ball (24155) */
+     , (0x75F4500F, 0x75F45064, '2005-02-09 10:00:00') /* A Rolling Ball (24157) */
+     , (0x75F4500F, 0x75F45065, '2005-02-09 10:00:00') /* A Rolling Ball (24157) */
+     , (0x75F4500F, 0x75F45068, '2005-02-09 10:00:00') /* A Rolling Ball (24154) */
+     , (0x75F4500F, 0x75F45069, '2005-02-09 10:00:00') /* A Rolling Ball (24156) */
+     , (0x75F4500F, 0x75F4506A, '2005-02-09 10:00:00') /* A Rolling Ball (24155) */
+     , (0x75F4500F, 0x75F4506C, '2005-02-09 10:00:00') /* A Rolling Ball (24154) */
+     , (0x75F4500F, 0x75F4506D, '2005-02-09 10:00:00') /* A Rolling Ball (24157) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75F45018, 24159, 0x5F45010E, 0, -180, 0.005, 1, 0, 0, 0,  True, '2005-02-09 10:00:00'); /* Puzzle Box */
@@ -148,7 +148,7 @@ VALUES (0x75F45041, 15759, 0x5F45013A, 159.181, -31.6974, 0, -0.99999, 0, 0, 0.0
 /* @teleloc 0x5F45013A [159.181000 -31.697400 0.000000] -0.999990 0.000000 0.000000 0.004461 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x75F45041, 0x75F45040, '2005-02-09 10:00:00') /* Heart of Innocence */;
+VALUES (0x75F45041, 0x75F45040, '2005-02-09 10:00:00') /* Heart of Innocence (24172) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75F45042,   278, 0x5F45013C, 164.755, -30, 0, 0.707107, 0, 0, -0.707107, False, '2005-02-09 10:00:00'); /* Door */
@@ -175,12 +175,12 @@ VALUES (0x75F45047,  7923, 0x5F450146, 169.846, -90.1557, 0.005, -0.998567, 0, 0
 /* @teleloc 0x5F450146 [169.846000 -90.155700 0.005000] -0.998567 0.000000 0.000000 0.053515 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x75F45047, 0x75F45043, '2005-02-09 10:00:00') /* Mu Mu */
-     , (0x75F45047, 0x75F45044, '2005-02-09 10:00:00') /* Cao Cao */
-     , (0x75F45047, 0x75F45046, '2005-02-09 10:00:00') /* Judgment Statue */
-     , (0x75F45047, 0x75F45048, '2005-02-09 10:00:00') /* Babysitter */
-     , (0x75F45047, 0x75F4504B, '2005-02-09 10:00:00') /* Shim Shim */
-     , (0x75F45047, 0x75F4504C, '2005-02-09 10:00:00') /* Po Po */;
+VALUES (0x75F45047, 0x75F45043, '2005-02-09 10:00:00') /* Mu Mu (22502) */
+     , (0x75F45047, 0x75F45044, '2005-02-09 10:00:00') /* Cao Cao (22501) */
+     , (0x75F45047, 0x75F45046, '2005-02-09 10:00:00') /* Judgment Statue (22467) */
+     , (0x75F45047, 0x75F45048, '2005-02-09 10:00:00') /* Babysitter (22499) */
+     , (0x75F45047, 0x75F4504B, '2005-02-09 10:00:00') /* Shim Shim (22504) */
+     , (0x75F45047, 0x75F4504C, '2005-02-09 10:00:00') /* Po Po (22503) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75F45048, 22499, 0x5F450147, 170, -103.75, 0.013, 1, 0, 0, 0,  True, '2005-02-09 10:00:00'); /* Babysitter */

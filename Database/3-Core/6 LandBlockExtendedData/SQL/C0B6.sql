@@ -9,16 +9,16 @@ VALUES (0x7C0B6001,  7925, 0xC0B60000, 33.1069, 132.292, 249.896, 0.910578, 0, 0
 /* @teleloc 0xC0B60000 [33.106900 132.292000 249.896000] 0.910578 0.000000 0.000000 -0.413337 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C0B6001, 0x7C0B6002, '2005-02-09 10:00:00') /* Gotrok Gigas */
-     , (0x7C0B6001, 0x7C0B6003, '2005-02-09 10:00:00') /* Gotrok Lithos */
-     , (0x7C0B6001, 0x7C0B6004, '2005-02-09 10:00:00') /* Gotrok Gigas */
-     , (0x7C0B6001, 0x7C0B6005, '2005-02-09 10:00:00') /* Gotrok Gigas */
-     , (0x7C0B6001, 0x7C0B6006, '2005-02-09 10:00:00') /* Gotrok Lithos */
-     , (0x7C0B6001, 0x7C0B6007, '2005-02-09 10:00:00') /* Gotrok Lithos */
-     , (0x7C0B6001, 0x7C0B6008, '2005-02-09 10:00:00') /* Gotrok Montok */
-     , (0x7C0B6001, 0x7C0B6009, '2005-02-09 10:00:00') /* Gotrok Lithos */
-     , (0x7C0B6001, 0x7C0B600A, '2005-02-09 10:00:00') /* Gotrok Lithos */
-     , (0x7C0B6001, 0x7C0B600B, '2005-02-09 10:00:00') /* Gotrok Gigas */;
+VALUES (0x7C0B6001, 0x7C0B6002, '2005-02-09 10:00:00') /* Gotrok Gigas (24940) */
+     , (0x7C0B6001, 0x7C0B6003, '2005-02-09 10:00:00') /* Gotrok Lithos (24942) */
+     , (0x7C0B6001, 0x7C0B6004, '2005-02-09 10:00:00') /* Gotrok Gigas (24940) */
+     , (0x7C0B6001, 0x7C0B6005, '2005-02-09 10:00:00') /* Gotrok Gigas (24940) */
+     , (0x7C0B6001, 0x7C0B6006, '2005-02-09 10:00:00') /* Gotrok Lithos (24942) */
+     , (0x7C0B6001, 0x7C0B6007, '2005-02-09 10:00:00') /* Gotrok Lithos (24942) */
+     , (0x7C0B6001, 0x7C0B6008, '2005-02-09 10:00:00') /* Gotrok Montok (24955) */
+     , (0x7C0B6001, 0x7C0B6009, '2005-02-09 10:00:00') /* Gotrok Lithos (24942) */
+     , (0x7C0B6001, 0x7C0B600A, '2005-02-09 10:00:00') /* Gotrok Lithos (24942) */
+     , (0x7C0B6001, 0x7C0B600B, '2005-02-09 10:00:00') /* Gotrok Gigas (24940) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C0B6002, 24940, 0xC0B60000, 53.5899, 148.257, 230.732, -0.974441, 0, 0, -0.224645,  True, '2005-02-09 10:00:00'); /* Gotrok Gigas */

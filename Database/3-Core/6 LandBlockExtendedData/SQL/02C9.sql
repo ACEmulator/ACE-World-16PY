@@ -241,85 +241,85 @@ VALUES (0x702C903B,  4219, 0x02C9027C, 120, -210.048, 0.005, 1, 0, 0, 0, False, 
 /* @teleloc 0x02C9027C [120.000000 -210.048000 0.005000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x702C903B, 0x702C9001, '2005-02-09 10:00:00') /* Sotiris Hollow Minion */
-     , (0x702C903B, 0x702C9002, '2005-02-09 10:00:00') /* Sotiris Hollow Minion */
-     , (0x702C903B, 0x702C9003, '2005-02-09 10:00:00') /* Drudge Ravener */
-     , (0x702C903B, 0x702C9004, '2005-02-09 10:00:00') /* Drudge Ravener */
-     , (0x702C903B, 0x702C9005, '2005-02-09 10:00:00') /* Drudge Ravener */
-     , (0x702C903B, 0x702C9006, '2005-02-09 10:00:00') /* Tusker Guard */
-     , (0x702C903B, 0x702C9007, '2005-02-09 10:00:00') /* Virindi Master */
-     , (0x702C903B, 0x702C9008, '2005-02-09 10:00:00') /* Sotiris Hollow Minion */
-     , (0x702C903B, 0x702C9009, '2005-02-09 10:00:00') /* Sotiris Hollow Minion */
-     , (0x702C903B, 0x702C900A, '2005-02-09 10:00:00') /* Sotiris Hollow Minion */
-     , (0x702C903B, 0x702C900B, '2005-02-09 10:00:00') /* Sotiris Hollow Minion */
-     , (0x702C903B, 0x702C900C, '2005-02-09 10:00:00') /* Sotiris Hollow Minion */
-     , (0x702C903B, 0x702C900D, '2005-02-09 10:00:00') /* Sotiris Hollow Minion */
-     , (0x702C903B, 0x702C900E, '2005-02-09 10:00:00') /* Sotiris Hollow Minion */
-     , (0x702C903B, 0x702C900F, '2005-02-09 10:00:00') /* Sotiris Hollow Minion */
-     , (0x702C903B, 0x702C9010, '2005-02-09 10:00:00') /* Sotiris Hollow Minion */
-     , (0x702C903B, 0x702C9011, '2005-02-09 10:00:00') /* Tusker Guard */
-     , (0x702C903B, 0x702C9012, '2005-02-09 10:00:00') /* Tusker Guard */
-     , (0x702C903B, 0x702C9013, '2005-02-09 10:00:00') /* Sotiris Virindi Director */
-     , (0x702C903B, 0x702C9014, '2005-02-09 10:00:00') /* Sotiris Hollow Minion */
-     , (0x702C903B, 0x702C9015, '2005-02-09 10:00:00') /* Sotiris Hollow Minion */
-     , (0x702C903B, 0x702C9016, '2005-02-09 10:00:00') /* Tusker Guard */
-     , (0x702C903B, 0x702C9017, '2005-02-09 10:00:00') /* Tusker Guard */
-     , (0x702C903B, 0x702C9018, '2005-02-09 10:00:00') /* Drudge Ravener */
-     , (0x702C903B, 0x702C9019, '2005-02-09 10:00:00') /* Drudge Ravener */
-     , (0x702C903B, 0x702C901A, '2005-02-09 10:00:00') /* Sotiris Hollow Minion */
-     , (0x702C903B, 0x702C901B, '2005-02-09 10:00:00') /* Sotiris Hollow Minion */
-     , (0x702C903B, 0x702C901C, '2005-02-09 10:00:00') /* Tusker Guard */
-     , (0x702C903B, 0x702C901D, '2005-02-09 10:00:00') /* Drudge Ravener */
-     , (0x702C903B, 0x702C901E, '2005-02-09 10:00:00') /* Drudge Ravener */
-     , (0x702C903B, 0x702C901F, '2005-02-09 10:00:00') /* Virindi Servant */
-     , (0x702C903B, 0x702C9020, '2005-02-09 10:00:00') /* Tusker Guard */
-     , (0x702C903B, 0x702C9021, '2005-02-09 10:00:00') /* Sotiris Hollow Minion */
-     , (0x702C903B, 0x702C9022, '2005-02-09 10:00:00') /* Sotiris Hollow Minion */
-     , (0x702C903B, 0x702C9023, '2005-02-09 10:00:00') /* Drudge Ravener */
-     , (0x702C903B, 0x702C9024, '2005-02-09 10:00:00') /* Drudge Ravener */
-     , (0x702C903B, 0x702C9025, '2005-02-09 10:00:00') /* Tusker Guard */
-     , (0x702C903B, 0x702C9026, '2005-02-09 10:00:00') /* Sotiris Hollow Minion */
-     , (0x702C903B, 0x702C9027, '2005-02-09 10:00:00') /* Sotiris Hollow Minion */
-     , (0x702C903B, 0x702C9028, '2005-02-09 10:00:00') /* Virindi Servant */
-     , (0x702C903B, 0x702C9029, '2005-02-09 10:00:00') /* Sotiris Hollow Minion */
-     , (0x702C903B, 0x702C902A, '2005-02-09 10:00:00') /* Sotiris Hollow Minion */
-     , (0x702C903B, 0x702C902B, '2005-02-09 10:00:00') /* Virindi Servant */
-     , (0x702C903B, 0x702C902C, '2005-02-09 10:00:00') /* Sotiris Hollow Minion */
-     , (0x702C903B, 0x702C902D, '2005-02-09 10:00:00') /* Sotiris Hollow Minion */
-     , (0x702C903B, 0x702C902E, '2005-02-09 10:00:00') /* Drudge Ravener */
-     , (0x702C903B, 0x702C902F, '2005-02-09 10:00:00') /* Drudge Ravener */
-     , (0x702C903B, 0x702C9030, '2005-02-09 10:00:00') /* Sotiris Hollow Minion */
-     , (0x702C903B, 0x702C9031, '2005-02-09 10:00:00') /* Sotiris Hollow Minion */
-     , (0x702C903B, 0x702C9032, '2005-02-09 10:00:00') /* Virindi Servant */
-     , (0x702C903B, 0x702C9033, '2005-02-09 10:00:00') /* Drudge Stalker */
-     , (0x702C903B, 0x702C9034, '2005-02-09 10:00:00') /* Drudge Stalker */
-     , (0x702C903B, 0x702C9035, '2005-02-09 10:00:00') /* Drudge Stalker */
-     , (0x702C903B, 0x702C9036, '2005-02-09 10:00:00') /* Drudge Stalker */
-     , (0x702C903B, 0x702C9037, '2005-02-09 10:00:00') /* Drudge Stalker */
-     , (0x702C903B, 0x702C9038, '2005-02-09 10:00:00') /* Drudge Stalker */
-     , (0x702C903B, 0x702C9039, '2005-02-09 10:00:00') /* Drudge Lurker */
-     , (0x702C903B, 0x702C903A, '2005-02-09 10:00:00') /* Drudge Lurker */
-     , (0x702C903B, 0x702C903D, '2005-02-09 10:00:00') /* Drudge Stalker */
-     , (0x702C903B, 0x702C903E, '2005-02-09 10:00:00') /* Drudge Lurker */
-     , (0x702C903B, 0x702C903F, '2005-02-09 10:00:00') /* Drudge Ravener */
-     , (0x702C903B, 0x702C9040, '2005-02-09 10:00:00') /* Drudge Ravener */
-     , (0x702C903B, 0x702C9041, '2005-02-09 10:00:00') /* Drudge Lurker */
-     , (0x702C903B, 0x702C9042, '2005-02-09 10:00:00') /* Drudge Lurker */
-     , (0x702C903B, 0x702C9043, '2005-02-09 10:00:00') /* Drudge Stalker */
-     , (0x702C903B, 0x702C9044, '2005-02-09 10:00:00') /* Drudge Ravener */
-     , (0x702C903B, 0x702C9045, '2005-02-09 10:00:00') /* Drudge Ravener */
-     , (0x702C903B, 0x702C9046, '2005-02-09 10:00:00') /* Virindi Master */
-     , (0x702C903B, 0x702C9047, '2005-02-09 10:00:00') /* Drudge Stalker */
-     , (0x702C903B, 0x702C9048, '2005-02-09 10:00:00') /* Drudge Lurker */
-     , (0x702C903B, 0x702C9049, '2005-02-09 10:00:00') /* Drudge Stalker */
-     , (0x702C903B, 0x702C904A, '2005-02-09 10:00:00') /* Drudge Ravener */
-     , (0x702C903B, 0x702C904B, '2005-02-09 10:00:00') /* Drudge Stalker */
-     , (0x702C903B, 0x702C904C, '2005-02-09 10:00:00') /* Drudge Stalker */
-     , (0x702C903B, 0x702C904D, '2005-02-09 10:00:00') /* Virindi Master */
-     , (0x702C903B, 0x702C904E, '2005-02-09 10:00:00') /* Drudge Ravener */
-     , (0x702C903B, 0x702C904F, '2005-02-09 10:00:00') /* Drudge Ravener */
-     , (0x702C903B, 0x702C9050, '2005-02-09 10:00:00') /* Virindi Servant */
-     , (0x702C903B, 0x702C9051, '2005-02-09 10:00:00') /* Drudge Ravener */;
+VALUES (0x702C903B, 0x702C9001, '2005-02-09 10:00:00') /* Sotiris Hollow Minion (8270) */
+     , (0x702C903B, 0x702C9002, '2005-02-09 10:00:00') /* Sotiris Hollow Minion (8270) */
+     , (0x702C903B, 0x702C9003, '2005-02-09 10:00:00') /* Drudge Ravener (1610) */
+     , (0x702C903B, 0x702C9004, '2005-02-09 10:00:00') /* Drudge Ravener (1610) */
+     , (0x702C903B, 0x702C9005, '2005-02-09 10:00:00') /* Drudge Ravener (1610) */
+     , (0x702C903B, 0x702C9006, '2005-02-09 10:00:00') /* Tusker Guard (1629) */
+     , (0x702C903B, 0x702C9007, '2005-02-09 10:00:00') /* Virindi Master (237) */
+     , (0x702C903B, 0x702C9008, '2005-02-09 10:00:00') /* Sotiris Hollow Minion (8270) */
+     , (0x702C903B, 0x702C9009, '2005-02-09 10:00:00') /* Sotiris Hollow Minion (8270) */
+     , (0x702C903B, 0x702C900A, '2005-02-09 10:00:00') /* Sotiris Hollow Minion (8270) */
+     , (0x702C903B, 0x702C900B, '2005-02-09 10:00:00') /* Sotiris Hollow Minion (8270) */
+     , (0x702C903B, 0x702C900C, '2005-02-09 10:00:00') /* Sotiris Hollow Minion (8270) */
+     , (0x702C903B, 0x702C900D, '2005-02-09 10:00:00') /* Sotiris Hollow Minion (8270) */
+     , (0x702C903B, 0x702C900E, '2005-02-09 10:00:00') /* Sotiris Hollow Minion (8270) */
+     , (0x702C903B, 0x702C900F, '2005-02-09 10:00:00') /* Sotiris Hollow Minion (8270) */
+     , (0x702C903B, 0x702C9010, '2005-02-09 10:00:00') /* Sotiris Hollow Minion (8270) */
+     , (0x702C903B, 0x702C9011, '2005-02-09 10:00:00') /* Tusker Guard (1629) */
+     , (0x702C903B, 0x702C9012, '2005-02-09 10:00:00') /* Tusker Guard (1629) */
+     , (0x702C903B, 0x702C9013, '2005-02-09 10:00:00') /* Sotiris Virindi Director (8264) */
+     , (0x702C903B, 0x702C9014, '2005-02-09 10:00:00') /* Sotiris Hollow Minion (8270) */
+     , (0x702C903B, 0x702C9015, '2005-02-09 10:00:00') /* Sotiris Hollow Minion (8270) */
+     , (0x702C903B, 0x702C9016, '2005-02-09 10:00:00') /* Tusker Guard (1629) */
+     , (0x702C903B, 0x702C9017, '2005-02-09 10:00:00') /* Tusker Guard (1629) */
+     , (0x702C903B, 0x702C9018, '2005-02-09 10:00:00') /* Drudge Ravener (1610) */
+     , (0x702C903B, 0x702C9019, '2005-02-09 10:00:00') /* Drudge Ravener (1610) */
+     , (0x702C903B, 0x702C901A, '2005-02-09 10:00:00') /* Sotiris Hollow Minion (8270) */
+     , (0x702C903B, 0x702C901B, '2005-02-09 10:00:00') /* Sotiris Hollow Minion (8270) */
+     , (0x702C903B, 0x702C901C, '2005-02-09 10:00:00') /* Tusker Guard (1629) */
+     , (0x702C903B, 0x702C901D, '2005-02-09 10:00:00') /* Drudge Ravener (1610) */
+     , (0x702C903B, 0x702C901E, '2005-02-09 10:00:00') /* Drudge Ravener (1610) */
+     , (0x702C903B, 0x702C901F, '2005-02-09 10:00:00') /* Virindi Servant (23) */
+     , (0x702C903B, 0x702C9020, '2005-02-09 10:00:00') /* Tusker Guard (1629) */
+     , (0x702C903B, 0x702C9021, '2005-02-09 10:00:00') /* Sotiris Hollow Minion (8270) */
+     , (0x702C903B, 0x702C9022, '2005-02-09 10:00:00') /* Sotiris Hollow Minion (8270) */
+     , (0x702C903B, 0x702C9023, '2005-02-09 10:00:00') /* Drudge Ravener (1610) */
+     , (0x702C903B, 0x702C9024, '2005-02-09 10:00:00') /* Drudge Ravener (1610) */
+     , (0x702C903B, 0x702C9025, '2005-02-09 10:00:00') /* Tusker Guard (1629) */
+     , (0x702C903B, 0x702C9026, '2005-02-09 10:00:00') /* Sotiris Hollow Minion (8270) */
+     , (0x702C903B, 0x702C9027, '2005-02-09 10:00:00') /* Sotiris Hollow Minion (8270) */
+     , (0x702C903B, 0x702C9028, '2005-02-09 10:00:00') /* Virindi Servant (23) */
+     , (0x702C903B, 0x702C9029, '2005-02-09 10:00:00') /* Sotiris Hollow Minion (8270) */
+     , (0x702C903B, 0x702C902A, '2005-02-09 10:00:00') /* Sotiris Hollow Minion (8270) */
+     , (0x702C903B, 0x702C902B, '2005-02-09 10:00:00') /* Virindi Servant (23) */
+     , (0x702C903B, 0x702C902C, '2005-02-09 10:00:00') /* Sotiris Hollow Minion (8270) */
+     , (0x702C903B, 0x702C902D, '2005-02-09 10:00:00') /* Sotiris Hollow Minion (8270) */
+     , (0x702C903B, 0x702C902E, '2005-02-09 10:00:00') /* Drudge Ravener (1610) */
+     , (0x702C903B, 0x702C902F, '2005-02-09 10:00:00') /* Drudge Ravener (1610) */
+     , (0x702C903B, 0x702C9030, '2005-02-09 10:00:00') /* Sotiris Hollow Minion (8270) */
+     , (0x702C903B, 0x702C9031, '2005-02-09 10:00:00') /* Sotiris Hollow Minion (8270) */
+     , (0x702C903B, 0x702C9032, '2005-02-09 10:00:00') /* Virindi Servant (23) */
+     , (0x702C903B, 0x702C9033, '2005-02-09 10:00:00') /* Drudge Stalker (1609) */
+     , (0x702C903B, 0x702C9034, '2005-02-09 10:00:00') /* Drudge Stalker (1609) */
+     , (0x702C903B, 0x702C9035, '2005-02-09 10:00:00') /* Drudge Stalker (1609) */
+     , (0x702C903B, 0x702C9036, '2005-02-09 10:00:00') /* Drudge Stalker (1609) */
+     , (0x702C903B, 0x702C9037, '2005-02-09 10:00:00') /* Drudge Stalker (1609) */
+     , (0x702C903B, 0x702C9038, '2005-02-09 10:00:00') /* Drudge Stalker (1609) */
+     , (0x702C903B, 0x702C9039, '2005-02-09 10:00:00') /* Drudge Lurker (1608) */
+     , (0x702C903B, 0x702C903A, '2005-02-09 10:00:00') /* Drudge Lurker (1608) */
+     , (0x702C903B, 0x702C903D, '2005-02-09 10:00:00') /* Drudge Stalker (1609) */
+     , (0x702C903B, 0x702C903E, '2005-02-09 10:00:00') /* Drudge Lurker (1608) */
+     , (0x702C903B, 0x702C903F, '2005-02-09 10:00:00') /* Drudge Ravener (1610) */
+     , (0x702C903B, 0x702C9040, '2005-02-09 10:00:00') /* Drudge Ravener (1610) */
+     , (0x702C903B, 0x702C9041, '2005-02-09 10:00:00') /* Drudge Lurker (1608) */
+     , (0x702C903B, 0x702C9042, '2005-02-09 10:00:00') /* Drudge Lurker (1608) */
+     , (0x702C903B, 0x702C9043, '2005-02-09 10:00:00') /* Drudge Stalker (1609) */
+     , (0x702C903B, 0x702C9044, '2005-02-09 10:00:00') /* Drudge Ravener (1610) */
+     , (0x702C903B, 0x702C9045, '2005-02-09 10:00:00') /* Drudge Ravener (1610) */
+     , (0x702C903B, 0x702C9046, '2005-02-09 10:00:00') /* Virindi Master (237) */
+     , (0x702C903B, 0x702C9047, '2005-02-09 10:00:00') /* Drudge Stalker (1609) */
+     , (0x702C903B, 0x702C9048, '2005-02-09 10:00:00') /* Drudge Lurker (1608) */
+     , (0x702C903B, 0x702C9049, '2005-02-09 10:00:00') /* Drudge Stalker (1609) */
+     , (0x702C903B, 0x702C904A, '2005-02-09 10:00:00') /* Drudge Ravener (1610) */
+     , (0x702C903B, 0x702C904B, '2005-02-09 10:00:00') /* Drudge Stalker (1609) */
+     , (0x702C903B, 0x702C904C, '2005-02-09 10:00:00') /* Drudge Stalker (1609) */
+     , (0x702C903B, 0x702C904D, '2005-02-09 10:00:00') /* Virindi Master (237) */
+     , (0x702C903B, 0x702C904E, '2005-02-09 10:00:00') /* Drudge Ravener (1610) */
+     , (0x702C903B, 0x702C904F, '2005-02-09 10:00:00') /* Drudge Ravener (1610) */
+     , (0x702C903B, 0x702C9050, '2005-02-09 10:00:00') /* Virindi Servant (23) */
+     , (0x702C903B, 0x702C9051, '2005-02-09 10:00:00') /* Drudge Ravener (1610) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x702C903C,  8382, 0x02C90282, 120, -270, 0.005, 1, 0, 0, -4.37114E-08, False, '2005-02-09 10:00:00'); /* Surface Portal */

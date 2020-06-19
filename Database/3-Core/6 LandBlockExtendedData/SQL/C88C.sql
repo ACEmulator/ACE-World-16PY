@@ -301,11 +301,11 @@ VALUES (0x7C88C05D,  7923, 0xC88C0000, 61.2716, 67.9428, 22.005, -0.0310882, 0, 
 /* @teleloc 0xC88C0000 [61.271600 67.942800 22.005000] -0.031088 0.000000 0.000000 -0.999517 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C88C05D, 0x7C88C033, '2005-02-09 10:00:00') /* Celcynd the Dour */
-     , (0x7C88C05D, 0x7C88C05C, '2005-02-09 10:00:00') /* Astara Duskshield */
-     , (0x7C88C05D, 0x7C88C05E, '2005-02-09 10:00:00') /* Tackle Master */
-     , (0x7C88C05D, 0x7C88C060, '2005-02-09 10:00:00') /* Apprentice Fletcher */
-     , (0x7C88C05D, 0x7C88C061, '2005-02-09 10:00:00') /* Royal Guard Gabrielle */;
+VALUES (0x7C88C05D, 0x7C88C033, '2005-02-09 10:00:00') /* Celcynd the Dour (4795) */
+     , (0x7C88C05D, 0x7C88C05C, '2005-02-09 10:00:00') /* Astara Duskshield (23348) */
+     , (0x7C88C05D, 0x7C88C05E, '2005-02-09 10:00:00') /* Tackle Master (23336) */
+     , (0x7C88C05D, 0x7C88C060, '2005-02-09 10:00:00') /* Apprentice Fletcher (27746) */
+     , (0x7C88C05D, 0x7C88C061, '2005-02-09 10:00:00') /* Royal Guard Gabrielle (27689) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C88C05E, 23336, 0xC88C0184, 160.527, 150.313, 23.5042, 1, 0, 0, 0,  True, '2005-02-09 10:00:00'); /* Tackle Master */
@@ -328,7 +328,7 @@ VALUES (0x7C88C062,  5086, 0xC88C0000, 44.8991, 169.519, 22.005, -0.845002, 0, 0
 /* @teleloc 0xC88C0000 [44.899100 169.519000 22.005000] -0.845002 0.000000 0.000000 -0.534764 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C88C062, 0x7C88C063, '2005-02-09 10:00:00') /* Carlo di Cenza */;
+VALUES (0x7C88C062, 0x7C88C063, '2005-02-09 10:00:00') /* Carlo di Cenza (30388) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C88C063, 30388, 0xC88C0000, 46.2278, 172.325, 22.005, -0.845002, 0, 0, -0.534764,  True, '2005-02-09 10:00:00'); /* Carlo di Cenza */
@@ -339,7 +339,7 @@ VALUES (0x7C88C064, 15759, 0xC88C0000, 45.1169, 175.657, 22.005, -0.452147, 0, 0
 /* @teleloc 0xC88C0000 [45.116900 175.657000 22.005000] -0.452147 0.000000 0.000000 0.891944 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C88C064, 0x7C88C065, '2005-02-09 10:00:00') /* Empty Book Binding */;
+VALUES (0x7C88C064, 0x7C88C065, '2005-02-09 10:00:00') /* Empty Book Binding (30928) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C88C065, 30928, 0xC88C0000, 45.5459, 177.025, 22.005, -0.517709, 0, 0, 0.855557,  True, '2005-02-09 10:00:00'); /* Empty Book Binding */

@@ -33,9 +33,9 @@ VALUES (0x7856E007,  1154, 0x856E010F, 159.128, 155.519, 9.705, -0.866949, 0, 0,
 /* @teleloc 0x856E010F [159.128000 155.519000 9.705000] -0.866949 0.000000 0.000000 0.498396 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7856E007, 0x7856E008, '2005-02-09 10:00:00') /* Ya-Bint-Al-Hawa */
-     , (0x7856E007, 0x7856E009, '2005-02-09 10:00:00') /* Anid Al-Fadee */
-     , (0x7856E007, 0x7856E00A, '2005-02-09 10:00:00') /* Gabal Feteh */;
+VALUES (0x7856E007, 0x7856E008, '2005-02-09 10:00:00') /* Ya-Bint-Al-Hawa (9228) */
+     , (0x7856E007, 0x7856E009, '2005-02-09 10:00:00') /* Anid Al-Fadee (9227) */
+     , (0x7856E007, 0x7856E00A, '2005-02-09 10:00:00') /* Gabal Feteh (9226) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7856E008,  9228, 0x856E010E, 153.789, 157.015, 9.705, -0.0580198, 0, 0, -0.998315,  True, '2005-02-09 10:00:00'); /* Ya-Bint-Al-Hawa */

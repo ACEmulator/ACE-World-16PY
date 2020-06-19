@@ -33,14 +33,14 @@ VALUES (0x72F13011,  7924, 0x2F130000, 132.452, 97.2003, 56.005, -0.999989, 0, 0
 /* @teleloc 0x2F130000 [132.452000 97.200300 56.005000] -0.999989 0.000000 0.000000 -0.004770 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72F13011, 0x72F1300A, '2005-02-09 10:00:00') /* Pandemonium Shadow */
-     , (0x72F13011, 0x72F1300B, '2005-02-09 10:00:00') /* Pandemonium Shadow */
-     , (0x72F13011, 0x72F1300C, '2005-02-09 10:00:00') /* Pandemonium Shadow */
-     , (0x72F13011, 0x72F1300D, '2005-02-09 10:00:00') /* Pandemonium Shadow */
-     , (0x72F13011, 0x72F1300E, '2005-02-09 10:00:00') /* Sinister Shadow */
-     , (0x72F13011, 0x72F1300F, '2005-02-09 10:00:00') /* Sinister Shadow */
-     , (0x72F13011, 0x72F13010, '2005-02-09 10:00:00') /* Pandemonium Shadow */
-     , (0x72F13011, 0x72F13012, '2005-02-09 10:00:00') /* Pandemonium Shadow */;
+VALUES (0x72F13011, 0x72F1300A, '2005-02-09 10:00:00') /* Pandemonium Shadow (22910) */
+     , (0x72F13011, 0x72F1300B, '2005-02-09 10:00:00') /* Pandemonium Shadow (22910) */
+     , (0x72F13011, 0x72F1300C, '2005-02-09 10:00:00') /* Pandemonium Shadow (22910) */
+     , (0x72F13011, 0x72F1300D, '2005-02-09 10:00:00') /* Pandemonium Shadow (22910) */
+     , (0x72F13011, 0x72F1300E, '2005-02-09 10:00:00') /* Sinister Shadow (23563) */
+     , (0x72F13011, 0x72F1300F, '2005-02-09 10:00:00') /* Sinister Shadow (23563) */
+     , (0x72F13011, 0x72F13010, '2005-02-09 10:00:00') /* Pandemonium Shadow (22910) */
+     , (0x72F13011, 0x72F13012, '2005-02-09 10:00:00') /* Pandemonium Shadow (22910) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72F13012, 22910, 0x2F130000, 137.963, 83.8895, 59.611, -0.513452, 0, 0, 0.858118,  True, '2005-02-09 10:00:00'); /* Pandemonium Shadow */

@@ -17,11 +17,11 @@ VALUES (0x701B0003,  3955, 0x01B00119, 30.7894, -68.6691, 0, -0.707107, 0, 0, -0
 /* @teleloc 0x01B00119 [30.789400 -68.669100 0.000000] -0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x701B0003, 0x701B0000, '2005-02-09 10:00:00') /* Azure Gromnie */
-     , (0x701B0003, 0x701B0001, '2005-02-09 10:00:00') /* Azure Gromnie */
-     , (0x701B0003, 0x701B0002, '2005-02-09 10:00:00') /* Azure Gromnie */
-     , (0x701B0003, 0x701B0005, '2005-02-09 10:00:00') /* Azure Gromnie */
-     , (0x701B0003, 0x701B0008, '2005-02-09 10:00:00') /* Azure Gromnie */;
+VALUES (0x701B0003, 0x701B0000, '2005-02-09 10:00:00') /* Azure Gromnie (1612) */
+     , (0x701B0003, 0x701B0001, '2005-02-09 10:00:00') /* Azure Gromnie (1612) */
+     , (0x701B0003, 0x701B0002, '2005-02-09 10:00:00') /* Azure Gromnie (1612) */
+     , (0x701B0003, 0x701B0005, '2005-02-09 10:00:00') /* Azure Gromnie (1612) */
+     , (0x701B0003, 0x701B0008, '2005-02-09 10:00:00') /* Azure Gromnie (1612) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x701B0004,  1016, 0x01B0011D, 39.8882, -69.9696, 0.190042, -4.37114E-08, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Eastham Portal */

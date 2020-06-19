@@ -13,5 +13,5 @@ VALUES (0x7F317002,  4219, 0xF3170000, 159.952, 27.3887, 146.005, -0.680951, 0, 
 /* @teleloc 0xF3170000 [159.952000 27.388700 146.005000] -0.680951 0.000000 0.000000 -0.732329 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7F317002, 0x7F317000, '2005-02-09 10:00:00') /* Skeleton Bone Lord */
-     , (0x7F317002, 0x7F317001, '2005-02-09 10:00:00') /* Skeleton Bone Lord */;
+VALUES (0x7F317002, 0x7F317000, '2005-02-09 10:00:00') /* Skeleton Bone Lord (7121) */
+     , (0x7F317002, 0x7F317001, '2005-02-09 10:00:00') /* Skeleton Bone Lord (7121) */;

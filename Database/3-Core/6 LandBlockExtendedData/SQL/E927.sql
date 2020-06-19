@@ -5,11 +5,11 @@ VALUES (0x7E927001,  4219, 0xE9270000, 80.6385, 55.0312, 12.005, 0.976869, 0, 0,
 /* @teleloc 0xE9270000 [80.638500 55.031200 12.005000] 0.976869 0.000000 0.000000 -0.213840 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7E927001, 0x7E927003, '2005-02-09 10:00:00') /* Small Shadow Child */
-     , (0x7E927001, 0x7E927004, '2005-02-09 10:00:00') /* Small Shadow Child */
-     , (0x7E927001, 0x7E927005, '2005-02-09 10:00:00') /* Small Shadow Child */
-     , (0x7E927001, 0x7E927006, '2005-02-09 10:00:00') /* Small Shadow Child */
-     , (0x7E927001, 0x7E927007, '2005-02-09 10:00:00') /* Small Shadow Child */;
+VALUES (0x7E927001, 0x7E927003, '2005-02-09 10:00:00') /* Small Shadow Child (6535) */
+     , (0x7E927001, 0x7E927004, '2005-02-09 10:00:00') /* Small Shadow Child (6535) */
+     , (0x7E927001, 0x7E927005, '2005-02-09 10:00:00') /* Small Shadow Child (6535) */
+     , (0x7E927001, 0x7E927006, '2005-02-09 10:00:00') /* Small Shadow Child (6535) */
+     , (0x7E927001, 0x7E927007, '2005-02-09 10:00:00') /* Small Shadow Child (6535) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7E927002,  8422, 0xE9270000, 105.431, 93.933, 12.005, 0.707107, 0, 0, -0.707107, False, '2005-02-09 10:00:00'); /* Shadow Circle Generator */

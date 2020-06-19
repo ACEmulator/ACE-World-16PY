@@ -109,31 +109,31 @@ VALUES (0x79A68037,  4219, 0x9A680113, 27.8924, 84.1817, 20.005, 0.988655, 0, 0,
 /* @teleloc 0x9A680113 [27.892400 84.181700 20.005000] 0.988655 0.000000 0.000000 -0.150207 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79A68037, 0x79A68009, '2005-02-09 10:00:00') /* Desert Rat */
-     , (0x79A68037, 0x79A6800C, '2005-02-09 10:00:00') /* Desert Rat */
-     , (0x79A68037, 0x79A6800D, '2005-02-09 10:00:00') /* Desert Rat */
-     , (0x79A68037, 0x79A6800E, '2005-02-09 10:00:00') /* Desert Rat */
-     , (0x79A68037, 0x79A68026, '2005-02-09 10:00:00') /* Skeleton Captain */
-     , (0x79A68037, 0x79A68027, '2005-02-09 10:00:00') /* Skeleton Captain */
-     , (0x79A68037, 0x79A68028, '2005-02-09 10:00:00') /* Skeleton Captain */
-     , (0x79A68037, 0x79A68029, '2005-02-09 10:00:00') /* Skeleton Captain */
-     , (0x79A68037, 0x79A6802A, '2005-02-09 10:00:00') /* Skeleton Captain */
-     , (0x79A68037, 0x79A6802B, '2005-02-09 10:00:00') /* Skeleton Captain */
-     , (0x79A68037, 0x79A6802C, '2005-02-09 10:00:00') /* Skeleton Captain */
-     , (0x79A68037, 0x79A6802D, '2005-02-09 10:00:00') /* Skeleton Captain */
-     , (0x79A68037, 0x79A6802E, '2005-02-09 10:00:00') /* Skeleton Captain */
-     , (0x79A68037, 0x79A6802F, '2005-02-09 10:00:00') /* Skeleton Captain */
-     , (0x79A68037, 0x79A68030, '2005-02-09 10:00:00') /* Skeleton Captain */
-     , (0x79A68037, 0x79A68031, '2005-02-09 10:00:00') /* Desert Rat */
-     , (0x79A68037, 0x79A68032, '2005-02-09 10:00:00') /* Skeleton Captain */
-     , (0x79A68037, 0x79A68033, '2005-02-09 10:00:00') /* Skeleton Captain */
-     , (0x79A68037, 0x79A68034, '2005-02-09 10:00:00') /* Skeleton Captain */
-     , (0x79A68037, 0x79A68035, '2005-02-09 10:00:00') /* Desert Rat */
-     , (0x79A68037, 0x79A68036, '2005-02-09 10:00:00') /* Skeleton Captain */;
+VALUES (0x79A68037, 0x79A68009, '2005-02-09 10:00:00') /* Desert Rat (1623) */
+     , (0x79A68037, 0x79A6800C, '2005-02-09 10:00:00') /* Desert Rat (1623) */
+     , (0x79A68037, 0x79A6800D, '2005-02-09 10:00:00') /* Desert Rat (1623) */
+     , (0x79A68037, 0x79A6800E, '2005-02-09 10:00:00') /* Desert Rat (1623) */
+     , (0x79A68037, 0x79A68026, '2005-02-09 10:00:00') /* Skeleton Captain (1761) */
+     , (0x79A68037, 0x79A68027, '2005-02-09 10:00:00') /* Skeleton Captain (1761) */
+     , (0x79A68037, 0x79A68028, '2005-02-09 10:00:00') /* Skeleton Captain (1761) */
+     , (0x79A68037, 0x79A68029, '2005-02-09 10:00:00') /* Skeleton Captain (1761) */
+     , (0x79A68037, 0x79A6802A, '2005-02-09 10:00:00') /* Skeleton Captain (1761) */
+     , (0x79A68037, 0x79A6802B, '2005-02-09 10:00:00') /* Skeleton Captain (1761) */
+     , (0x79A68037, 0x79A6802C, '2005-02-09 10:00:00') /* Skeleton Captain (1761) */
+     , (0x79A68037, 0x79A6802D, '2005-02-09 10:00:00') /* Skeleton Captain (1761) */
+     , (0x79A68037, 0x79A6802E, '2005-02-09 10:00:00') /* Skeleton Captain (1761) */
+     , (0x79A68037, 0x79A6802F, '2005-02-09 10:00:00') /* Skeleton Captain (1761) */
+     , (0x79A68037, 0x79A68030, '2005-02-09 10:00:00') /* Skeleton Captain (1761) */
+     , (0x79A68037, 0x79A68031, '2005-02-09 10:00:00') /* Desert Rat (1623) */
+     , (0x79A68037, 0x79A68032, '2005-02-09 10:00:00') /* Skeleton Captain (1761) */
+     , (0x79A68037, 0x79A68033, '2005-02-09 10:00:00') /* Skeleton Captain (1761) */
+     , (0x79A68037, 0x79A68034, '2005-02-09 10:00:00') /* Skeleton Captain (1761) */
+     , (0x79A68037, 0x79A68035, '2005-02-09 10:00:00') /* Desert Rat (1623) */
+     , (0x79A68037, 0x79A68036, '2005-02-09 10:00:00') /* Skeleton Captain (1761) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79A68038,  7923, 0x9A680113, 26.8589, 84.078, 20.005, 0.988655, 0, 0, -0.150207, False, '2005-02-09 10:00:00'); /* Linkable Monster Generator ( 3 Min.) */
 /* @teleloc 0x9A680113 [26.858900 84.078000 20.005000] 0.988655 0.000000 0.000000 -0.150207 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79A68038, 0x79A68024, '2005-02-09 10:00:00') /* Skeleton Lord */;
+VALUES (0x79A68038, 0x79A68024, '2005-02-09 10:00:00') /* Skeleton Lord (6773) */;

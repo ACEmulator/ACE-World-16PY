@@ -1,17 +1,15 @@
-DELETE FROM `encounter` WHERE `landblock` = 9303;
+DELETE FROM `encounter` WHERE `landblock` = 0x2457;
 
 INSERT INTO `encounter` (`landblock`, `weenie_Class_Id`, `cell_X`, `cell_Y`, `last_Modified`)
-VALUES (9303, 1966, 0, 4, '2005-02-09 10:00:00') /* High Direlands Desert Generator */
-     , (9303, 1966, 1, 0, '2005-02-09 10:00:00') /* High Direlands Desert Generator */
-     , (9303, 1966, 1, 5, '2005-02-09 10:00:00') /* High Direlands Desert Generator */
-     , (9303, 1966, 2, 1, '2005-02-09 10:00:00') /* High Direlands Desert Generator */
-     , (9303, 1966, 2, 2, '2005-02-09 10:00:00') /* High Direlands Desert Generator */
-     , (9303, 1966, 3, 1, '2005-02-09 10:00:00') /* High Direlands Desert Generator */
-     , (9303, 1966, 3, 5, '2005-02-09 10:00:00') /* High Direlands Desert Generator */
-     , (9303, 1966, 3, 8, '2005-02-09 10:00:00') /* High Direlands Desert Generator */
-     , (9303, 1966, 4, 0, '2005-02-09 10:00:00') /* High Direlands Desert Generator */
-     , (9303, 1966, 4, 3, '2005-02-09 10:00:00') /* High Direlands Desert Generator */
-     , (9303, 1966, 5, 2, '2005-02-09 10:00:00') /* High Direlands Desert Generator */
-     , (9303, 1966, 5, 8, '2005-02-09 10:00:00') /* High Direlands Desert Generator */
-     , (9303, 1966, 6, 0, '2005-02-09 10:00:00') /* High Direlands Desert Generator */
-     , (9303, 1966, 7, 5, '2005-02-09 10:00:00') /* High Direlands Desert Generator */;
+VALUES (0x2457, 1966, 0, 4, '2005-02-09 10:00:00') /* High Direlands Desert Generator */
+     , (0x2457, 1966, 1, 0, '2005-02-09 10:00:00') /* High Direlands Desert Generator */
+     , (0x2457, 1966, 1, 5, '2005-02-09 10:00:00') /* High Direlands Desert Generator */
+     , (0x2457, 1966, 2, 1, '2005-02-09 10:00:00') /* High Direlands Desert Generator */
+     , (0x2457, 1966, 2, 2, '2005-02-09 10:00:00') /* High Direlands Desert Generator */
+     , (0x2457, 1966, 3, 1, '2005-02-09 10:00:00') /* High Direlands Desert Generator */
+     , (0x2457, 1966, 3, 5, '2005-02-09 10:00:00') /* High Direlands Desert Generator */
+     , (0x2457, 1966, 4, 0, '2005-02-09 10:00:00') /* High Direlands Desert Generator */
+     , (0x2457, 1966, 4, 3, '2005-02-09 10:00:00') /* High Direlands Desert Generator */
+     , (0x2457, 1966, 5, 2, '2005-02-09 10:00:00') /* High Direlands Desert Generator */
+     , (0x2457, 1966, 6, 0, '2005-02-09 10:00:00') /* High Direlands Desert Generator */
+     , (0x2457, 1966, 7, 5, '2005-02-09 10:00:00') /* High Direlands Desert Generator */;

@@ -105,33 +105,33 @@ VALUES (0x7EC0E019,  4219, 0xEC0E0000, 149.336, 20.5412, 21.8998, 0.0492712, 0, 
 /* @teleloc 0xEC0E0000 [149.336000 20.541200 21.899800] 0.049271 0.000000 0.000000 -0.998785 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7EC0E019, 0x7EC0E000, '2005-02-09 10:00:00') /* Aste Sclavus Lord */
-     , (0x7EC0E019, 0x7EC0E001, '2005-02-09 10:00:00') /* Aste Sclavus Lord */
-     , (0x7EC0E019, 0x7EC0E002, '2005-02-09 10:00:00') /* Essa Sclavus Lord */
-     , (0x7EC0E019, 0x7EC0E003, '2005-02-09 10:00:00') /* Essa Sclavus Lord */
-     , (0x7EC0E019, 0x7EC0E004, '2005-02-09 10:00:00') /* Essa Sclavus Lord */
-     , (0x7EC0E019, 0x7EC0E005, '2005-02-09 10:00:00') /* Sata Sclavus Lord */
-     , (0x7EC0E019, 0x7EC0E006, '2005-02-09 10:00:00') /* Sata Sclavus Lord */
-     , (0x7EC0E019, 0x7EC0E007, '2005-02-09 10:00:00') /* Ulu Sclavus Lord */
-     , (0x7EC0E019, 0x7EC0E008, '2005-02-09 10:00:00') /* Ulu Sclavus Lord */
-     , (0x7EC0E019, 0x7EC0E009, '2005-02-09 10:00:00') /* Ulu Sclavus Lord */
-     , (0x7EC0E019, 0x7EC0E00A, '2005-02-09 10:00:00') /* Ulu Sclavus Lord */
-     , (0x7EC0E019, 0x7EC0E00B, '2005-02-09 10:00:00') /* Ulu Sclavus Lord */
-     , (0x7EC0E019, 0x7EC0E00C, '2005-02-09 10:00:00') /* Faisi Sclavus Lord */
-     , (0x7EC0E019, 0x7EC0E00D, '2005-02-09 10:00:00') /* Faisi Sclavus Lord */
-     , (0x7EC0E019, 0x7EC0E00E, '2005-02-09 10:00:00') /* Faisi Sclavus Lord */
-     , (0x7EC0E019, 0x7EC0E00F, '2005-02-09 10:00:00') /* Faisi Sclavus Lord */
-     , (0x7EC0E019, 0x7EC0E010, '2005-02-09 10:00:00') /* Chomu Sclavus Lord */
-     , (0x7EC0E019, 0x7EC0E011, '2005-02-09 10:00:00') /* Faisi Sclavus Lord */
-     , (0x7EC0E019, 0x7EC0E012, '2005-02-09 10:00:00') /* Faisi Sclavus Lord */
-     , (0x7EC0E019, 0x7EC0E013, '2005-02-09 10:00:00') /* Faisi Sclavus Lord */
-     , (0x7EC0E019, 0x7EC0E014, '2005-02-09 10:00:00') /* Faisi Sclavus Lord */
-     , (0x7EC0E019, 0x7EC0E015, '2005-02-09 10:00:00') /* Chomu Sclavus Lord */
-     , (0x7EC0E019, 0x7EC0E016, '2005-02-09 10:00:00') /* Chomu Sclavus Lord */
-     , (0x7EC0E019, 0x7EC0E017, '2005-02-09 10:00:00') /* Chomu Sclavus Lord */
-     , (0x7EC0E019, 0x7EC0E018, '2005-02-09 10:00:00') /* Chomu Sclavus Lord */
-     , (0x7EC0E019, 0x7EC0E01C, '2005-02-09 10:00:00') /* Disgusting Moarsman */
-     , (0x7EC0E019, 0x7EC0E01D, '2005-02-09 10:00:00') /* Disgusting Moarsman */;
+VALUES (0x7EC0E019, 0x7EC0E000, '2005-02-09 10:00:00') /* Aste Sclavus Lord (23483) */
+     , (0x7EC0E019, 0x7EC0E001, '2005-02-09 10:00:00') /* Aste Sclavus Lord (23483) */
+     , (0x7EC0E019, 0x7EC0E002, '2005-02-09 10:00:00') /* Essa Sclavus Lord (23485) */
+     , (0x7EC0E019, 0x7EC0E003, '2005-02-09 10:00:00') /* Essa Sclavus Lord (23485) */
+     , (0x7EC0E019, 0x7EC0E004, '2005-02-09 10:00:00') /* Essa Sclavus Lord (23485) */
+     , (0x7EC0E019, 0x7EC0E005, '2005-02-09 10:00:00') /* Sata Sclavus Lord (23487) */
+     , (0x7EC0E019, 0x7EC0E006, '2005-02-09 10:00:00') /* Sata Sclavus Lord (23487) */
+     , (0x7EC0E019, 0x7EC0E007, '2005-02-09 10:00:00') /* Ulu Sclavus Lord (23488) */
+     , (0x7EC0E019, 0x7EC0E008, '2005-02-09 10:00:00') /* Ulu Sclavus Lord (23488) */
+     , (0x7EC0E019, 0x7EC0E009, '2005-02-09 10:00:00') /* Ulu Sclavus Lord (23488) */
+     , (0x7EC0E019, 0x7EC0E00A, '2005-02-09 10:00:00') /* Ulu Sclavus Lord (23488) */
+     , (0x7EC0E019, 0x7EC0E00B, '2005-02-09 10:00:00') /* Ulu Sclavus Lord (23488) */
+     , (0x7EC0E019, 0x7EC0E00C, '2005-02-09 10:00:00') /* Faisi Sclavus Lord (23486) */
+     , (0x7EC0E019, 0x7EC0E00D, '2005-02-09 10:00:00') /* Faisi Sclavus Lord (23486) */
+     , (0x7EC0E019, 0x7EC0E00E, '2005-02-09 10:00:00') /* Faisi Sclavus Lord (23486) */
+     , (0x7EC0E019, 0x7EC0E00F, '2005-02-09 10:00:00') /* Faisi Sclavus Lord (23486) */
+     , (0x7EC0E019, 0x7EC0E010, '2005-02-09 10:00:00') /* Chomu Sclavus Lord (23484) */
+     , (0x7EC0E019, 0x7EC0E011, '2005-02-09 10:00:00') /* Faisi Sclavus Lord (23486) */
+     , (0x7EC0E019, 0x7EC0E012, '2005-02-09 10:00:00') /* Faisi Sclavus Lord (23486) */
+     , (0x7EC0E019, 0x7EC0E013, '2005-02-09 10:00:00') /* Faisi Sclavus Lord (23486) */
+     , (0x7EC0E019, 0x7EC0E014, '2005-02-09 10:00:00') /* Faisi Sclavus Lord (23486) */
+     , (0x7EC0E019, 0x7EC0E015, '2005-02-09 10:00:00') /* Chomu Sclavus Lord (23484) */
+     , (0x7EC0E019, 0x7EC0E016, '2005-02-09 10:00:00') /* Chomu Sclavus Lord (23484) */
+     , (0x7EC0E019, 0x7EC0E017, '2005-02-09 10:00:00') /* Chomu Sclavus Lord (23484) */
+     , (0x7EC0E019, 0x7EC0E018, '2005-02-09 10:00:00') /* Chomu Sclavus Lord (23484) */
+     , (0x7EC0E019, 0x7EC0E01C, '2005-02-09 10:00:00') /* Disgusting Moarsman (27853) */
+     , (0x7EC0E019, 0x7EC0E01D, '2005-02-09 10:00:00') /* Disgusting Moarsman (27853) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7EC0E01A,  4219, 0xEC0E0000, 149.18, 22.0766, 21.8998, 0.678557, 0, 0, -0.734548, False, '2005-02-09 10:00:00'); /* Linkable Monster Generator ( 7 Min.) */

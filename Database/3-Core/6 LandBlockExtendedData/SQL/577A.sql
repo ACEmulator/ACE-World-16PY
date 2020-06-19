@@ -353,9 +353,9 @@ VALUES (0x7577A057, 15274, 0x577A0271, 30.0876, -167.625, -11.995, -0.718403, 0,
 /* @teleloc 0x577A0271 [30.087600 -167.625000 -11.995000] -0.718403 0.000000 0.000000 0.695627 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7577A057, 0x7577A056, '2005-02-09 10:00:00') /* Tumerok Commander */
-     , (0x7577A057, 0x7577A058, '2005-02-09 10:00:00') /* Tumerok Commander */
-     , (0x7577A057, 0x7577A059, '2005-02-09 10:00:00') /* Tumerok Commander */;
+VALUES (0x7577A057, 0x7577A056, '2005-02-09 10:00:00') /* Tumerok Commander (11872) */
+     , (0x7577A057, 0x7577A058, '2005-02-09 10:00:00') /* Tumerok Commander (11872) */
+     , (0x7577A057, 0x7577A059, '2005-02-09 10:00:00') /* Tumerok Commander (11872) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7577A058, 11872, 0x577A0279, 39.6748, -177.25, -11.9945, 0.931394, 0, 0, 0.364013,  True, '2005-02-09 10:00:00'); /* Tumerok Commander */
@@ -590,167 +590,167 @@ VALUES (0x7577A091,  7923, 0x577A036C, 139.941, -198.817, 0.005, 0.999687, 0, 0,
 /* @teleloc 0x577A036C [139.941000 -198.817000 0.005000] 0.999687 0.000000 0.000000 0.024998 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7577A091, 0x7577A000, '2005-02-09 10:00:00') /* Tumerok Lieutenant */
-     , (0x7577A091, 0x7577A001, '2005-02-09 10:00:00') /* Tumerok Standard Bearer */
-     , (0x7577A091, 0x7577A002, '2005-02-09 10:00:00') /* Tumerok Lieutenant */
-     , (0x7577A091, 0x7577A003, '2005-02-09 10:00:00') /* Tumerok Major */
-     , (0x7577A091, 0x7577A004, '2005-02-09 10:00:00') /* Tumerok Standard Bearer */
-     , (0x7577A091, 0x7577A005, '2005-02-09 10:00:00') /* Tumerok Lieutenant */
-     , (0x7577A091, 0x7577A006, '2005-02-09 10:00:00') /* Tumerok Standard Bearer */
-     , (0x7577A091, 0x7577A007, '2005-02-09 10:00:00') /* Tumerok Standard Bearer */
-     , (0x7577A091, 0x7577A008, '2005-02-09 10:00:00') /* Tumerok Standard Bearer */
-     , (0x7577A091, 0x7577A009, '2005-02-09 10:00:00') /* Tumerok Lieutenant */
-     , (0x7577A091, 0x7577A00A, '2005-02-09 10:00:00') /* Tumerok Lieutenant */
-     , (0x7577A091, 0x7577A00B, '2005-02-09 10:00:00') /* Tumerok Lieutenant */
-     , (0x7577A091, 0x7577A00C, '2005-02-09 10:00:00') /* Tumerok Lieutenant */
-     , (0x7577A091, 0x7577A00D, '2005-02-09 10:00:00') /* Tumerok Lieutenant */
-     , (0x7577A091, 0x7577A00E, '2005-02-09 10:00:00') /* Tumerok Lieutenant */
-     , (0x7577A091, 0x7577A00F, '2005-02-09 10:00:00') /* Tumerok Lieutenant */
-     , (0x7577A091, 0x7577A010, '2005-02-09 10:00:00') /* Tumerok Lieutenant */
-     , (0x7577A091, 0x7577A011, '2005-02-09 10:00:00') /* Tumerok Lieutenant */
-     , (0x7577A091, 0x7577A012, '2005-02-09 10:00:00') /* Tumerok Major */
-     , (0x7577A091, 0x7577A013, '2005-02-09 10:00:00') /* Tumerok Lieutenant */
-     , (0x7577A091, 0x7577A014, '2005-02-09 10:00:00') /* Tumerok Lieutenant */
-     , (0x7577A091, 0x7577A015, '2005-02-09 10:00:00') /* Tumerok Major */
-     , (0x7577A091, 0x7577A016, '2005-02-09 10:00:00') /* Tumerok Lieutenant */
-     , (0x7577A091, 0x7577A017, '2005-02-09 10:00:00') /* Tumerok Major */
-     , (0x7577A091, 0x7577A018, '2005-02-09 10:00:00') /* Tumerok Standard Bearer */
-     , (0x7577A091, 0x7577A019, '2005-02-09 10:00:00') /* Tumerok Standard Bearer */
-     , (0x7577A091, 0x7577A01A, '2005-02-09 10:00:00') /* Tumerok Lieutenant */
-     , (0x7577A091, 0x7577A01B, '2005-02-09 10:00:00') /* Tumerok Major */
-     , (0x7577A091, 0x7577A01C, '2005-02-09 10:00:00') /* Tumerok Standard Bearer */
-     , (0x7577A091, 0x7577A01D, '2005-02-09 10:00:00') /* Tumerok Standard Bearer */
-     , (0x7577A091, 0x7577A01E, '2005-02-09 10:00:00') /* Tumerok Standard Bearer */
-     , (0x7577A091, 0x7577A01F, '2005-02-09 10:00:00') /* Tumerok Lieutenant */
-     , (0x7577A091, 0x7577A020, '2005-02-09 10:00:00') /* Tumerok Lieutenant */
-     , (0x7577A091, 0x7577A021, '2005-02-09 10:00:00') /* Tumerok Major */
-     , (0x7577A091, 0x7577A022, '2005-02-09 10:00:00') /* Tumerok Lieutenant */
-     , (0x7577A091, 0x7577A023, '2005-02-09 10:00:00') /* Tumerok Lieutenant */
-     , (0x7577A091, 0x7577A024, '2005-02-09 10:00:00') /* Tumerok Major */
-     , (0x7577A091, 0x7577A025, '2005-02-09 10:00:00') /* Tumerok Lieutenant */
-     , (0x7577A091, 0x7577A026, '2005-02-09 10:00:00') /* Tumerok Lieutenant */
-     , (0x7577A091, 0x7577A027, '2005-02-09 10:00:00') /* Tumerok Lieutenant */
-     , (0x7577A091, 0x7577A028, '2005-02-09 10:00:00') /* Tumerok Standard Bearer */
-     , (0x7577A091, 0x7577A029, '2005-02-09 10:00:00') /* Tumerok Lieutenant */
-     , (0x7577A091, 0x7577A02A, '2005-02-09 10:00:00') /* Tumerok Lieutenant */
-     , (0x7577A091, 0x7577A02B, '2005-02-09 10:00:00') /* Tumerok Standard Bearer */
-     , (0x7577A091, 0x7577A02C, '2005-02-09 10:00:00') /* Tumerok Standard Bearer */
-     , (0x7577A091, 0x7577A02D, '2005-02-09 10:00:00') /* Tumerok Standard Bearer */
-     , (0x7577A091, 0x7577A02E, '2005-02-09 10:00:00') /* Tumerok Standard Bearer */
-     , (0x7577A091, 0x7577A02F, '2005-02-09 10:00:00') /* Tumerok Lieutenant */
-     , (0x7577A091, 0x7577A030, '2005-02-09 10:00:00') /* Tumerok Lieutenant */
-     , (0x7577A091, 0x7577A031, '2005-02-09 10:00:00') /* Tumerok Lieutenant */
-     , (0x7577A091, 0x7577A032, '2005-02-09 10:00:00') /* Tumerok Lieutenant */
-     , (0x7577A091, 0x7577A033, '2005-02-09 10:00:00') /* Tumerok Lieutenant */
-     , (0x7577A091, 0x7577A034, '2005-02-09 10:00:00') /* Tumerok Lieutenant */
-     , (0x7577A091, 0x7577A035, '2005-02-09 10:00:00') /* Tumerok Lieutenant */
-     , (0x7577A091, 0x7577A036, '2005-02-09 10:00:00') /* Tumerok Standard Bearer */
-     , (0x7577A091, 0x7577A037, '2005-02-09 10:00:00') /* Tumerok Standard Bearer */
-     , (0x7577A091, 0x7577A038, '2005-02-09 10:00:00') /* Tumerok Lieutenant */
-     , (0x7577A091, 0x7577A039, '2005-02-09 10:00:00') /* Tumerok Lieutenant */
-     , (0x7577A091, 0x7577A03A, '2005-02-09 10:00:00') /* Tumerok Lieutenant */
-     , (0x7577A091, 0x7577A03B, '2005-02-09 10:00:00') /* Tumerok Lieutenant */
-     , (0x7577A091, 0x7577A03C, '2005-02-09 10:00:00') /* Tumerok Lieutenant */
-     , (0x7577A091, 0x7577A03D, '2005-02-09 10:00:00') /* Tumerok Standard Bearer */
-     , (0x7577A091, 0x7577A03E, '2005-02-09 10:00:00') /* Tumerok Standard Bearer */
-     , (0x7577A091, 0x7577A03F, '2005-02-09 10:00:00') /* Tumerok Major */
-     , (0x7577A091, 0x7577A040, '2005-02-09 10:00:00') /* Tumerok Major */
-     , (0x7577A091, 0x7577A041, '2005-02-09 10:00:00') /* Tumerok Standard Bearer */
-     , (0x7577A091, 0x7577A042, '2005-02-09 10:00:00') /* Tumerok Standard Bearer */
-     , (0x7577A091, 0x7577A043, '2005-02-09 10:00:00') /* Tumerok Standard Bearer */
-     , (0x7577A091, 0x7577A044, '2005-02-09 10:00:00') /* Tumerok Standard Bearer */
-     , (0x7577A091, 0x7577A045, '2005-02-09 10:00:00') /* Tumerok Standard Bearer */
-     , (0x7577A091, 0x7577A046, '2005-02-09 10:00:00') /* Tumerok Standard Bearer */
-     , (0x7577A091, 0x7577A047, '2005-02-09 10:00:00') /* Tumerok Standard Bearer */
-     , (0x7577A091, 0x7577A048, '2005-02-09 10:00:00') /* Tumerok Lieutenant */
-     , (0x7577A091, 0x7577A049, '2005-02-09 10:00:00') /* Tumerok Standard Bearer */
-     , (0x7577A091, 0x7577A04A, '2005-02-09 10:00:00') /* Tumerok Standard Bearer */
-     , (0x7577A091, 0x7577A04B, '2005-02-09 10:00:00') /* Tumerok Standard Bearer */
-     , (0x7577A091, 0x7577A04C, '2005-02-09 10:00:00') /* Tumerok Standard Bearer */
-     , (0x7577A091, 0x7577A04D, '2005-02-09 10:00:00') /* Tumerok Standard Bearer */
-     , (0x7577A091, 0x7577A04E, '2005-02-09 10:00:00') /* Tumerok Standard Bearer */
-     , (0x7577A091, 0x7577A04F, '2005-02-09 10:00:00') /* Tumerok Standard Bearer */
-     , (0x7577A091, 0x7577A050, '2005-02-09 10:00:00') /* Tumerok Standard Bearer */
-     , (0x7577A091, 0x7577A051, '2005-02-09 10:00:00') /* Tumerok Standard Bearer */
-     , (0x7577A091, 0x7577A052, '2005-02-09 10:00:00') /* Tumerok Standard Bearer */
-     , (0x7577A091, 0x7577A053, '2005-02-09 10:00:00') /* Tumerok Standard Bearer */
-     , (0x7577A091, 0x7577A054, '2005-02-09 10:00:00') /* Tumerok Standard Bearer */
-     , (0x7577A091, 0x7577A055, '2005-02-09 10:00:00') /* Tumerok Standard Bearer */
-     , (0x7577A091, 0x7577A05A, '2005-02-09 10:00:00') /* Tumerok Major */
-     , (0x7577A091, 0x7577A05B, '2005-02-09 10:00:00') /* Tumerok Major */
-     , (0x7577A091, 0x7577A05C, '2005-02-09 10:00:00') /* Tumerok Major */
-     , (0x7577A091, 0x7577A05D, '2005-02-09 10:00:00') /* Tumerok Commander */
-     , (0x7577A091, 0x7577A05E, '2005-02-09 10:00:00') /* Tumerok Commander */
-     , (0x7577A091, 0x7577A05F, '2005-02-09 10:00:00') /* Tumerok Major */
-     , (0x7577A091, 0x7577A060, '2005-02-09 10:00:00') /* Tumerok Major */
-     , (0x7577A091, 0x7577A061, '2005-02-09 10:00:00') /* Tumerok Commander */
-     , (0x7577A091, 0x7577A062, '2005-02-09 10:00:00') /* Tumerok Commander */
-     , (0x7577A091, 0x7577A063, '2005-02-09 10:00:00') /* Tumerok Commander */
-     , (0x7577A091, 0x7577A064, '2005-02-09 10:00:00') /* Tumerok Standard Bearer */
-     , (0x7577A091, 0x7577A065, '2005-02-09 10:00:00') /* Tumerok Commander */
-     , (0x7577A091, 0x7577A066, '2005-02-09 10:00:00') /* Tumerok Major */
-     , (0x7577A091, 0x7577A067, '2005-02-09 10:00:00') /* Tumerok Standard Bearer */
-     , (0x7577A091, 0x7577A068, '2005-02-09 10:00:00') /* Tumerok Commander */
-     , (0x7577A091, 0x7577A069, '2005-02-09 10:00:00') /* Tumerok Major */
-     , (0x7577A091, 0x7577A06A, '2005-02-09 10:00:00') /* Tumerok Major */
-     , (0x7577A091, 0x7577A06B, '2005-02-09 10:00:00') /* Tumerok Commander */
-     , (0x7577A091, 0x7577A06C, '2005-02-09 10:00:00') /* Tumerok Commander */
-     , (0x7577A091, 0x7577A06D, '2005-02-09 10:00:00') /* Tumerok Major */
-     , (0x7577A091, 0x7577A06E, '2005-02-09 10:00:00') /* Tumerok Major */
-     , (0x7577A091, 0x7577A06F, '2005-02-09 10:00:00') /* Tumerok Standard Bearer */
-     , (0x7577A091, 0x7577A070, '2005-02-09 10:00:00') /* Tumerok Commander */
-     , (0x7577A091, 0x7577A071, '2005-02-09 10:00:00') /* Tumerok Commander */
-     , (0x7577A091, 0x7577A072, '2005-02-09 10:00:00') /* Tumerok Commander */
-     , (0x7577A091, 0x7577A073, '2005-02-09 10:00:00') /* Tumerok Commander */
-     , (0x7577A091, 0x7577A074, '2005-02-09 10:00:00') /* Tumerok Commander */
-     , (0x7577A091, 0x7577A075, '2005-02-09 10:00:00') /* Tumerok Commander */
-     , (0x7577A091, 0x7577A076, '2005-02-09 10:00:00') /* Tumerok Commander */
-     , (0x7577A091, 0x7577A077, '2005-02-09 10:00:00') /* Tumerok Commander */
-     , (0x7577A091, 0x7577A078, '2005-02-09 10:00:00') /* Tumerok Commander */
-     , (0x7577A091, 0x7577A079, '2005-02-09 10:00:00') /* Tumerok Controller */
-     , (0x7577A091, 0x7577A07A, '2005-02-09 10:00:00') /* Tumerok Major */
-     , (0x7577A091, 0x7577A07B, '2005-02-09 10:00:00') /* Tumerok Commander */
-     , (0x7577A091, 0x7577A07C, '2005-02-09 10:00:00') /* Tumerok Commander */
-     , (0x7577A091, 0x7577A07D, '2005-02-09 10:00:00') /* Tumerok Controller */
-     , (0x7577A091, 0x7577A07E, '2005-02-09 10:00:00') /* Tumerok Controller */
-     , (0x7577A091, 0x7577A07F, '2005-02-09 10:00:00') /* Tumerok Commander */
-     , (0x7577A091, 0x7577A080, '2005-02-09 10:00:00') /* Tumerok Commander */
-     , (0x7577A091, 0x7577A081, '2005-02-09 10:00:00') /* Tumerok Commander */
-     , (0x7577A091, 0x7577A082, '2005-02-09 10:00:00') /* Tumerok Commander */
-     , (0x7577A091, 0x7577A083, '2005-02-09 10:00:00') /* Tumerok Commander */
-     , (0x7577A091, 0x7577A084, '2005-02-09 10:00:00') /* Tumerok Commander */
-     , (0x7577A091, 0x7577A085, '2005-02-09 10:00:00') /* Tumerok Commander */
-     , (0x7577A091, 0x7577A086, '2005-02-09 10:00:00') /* Tumerok Controller */
-     , (0x7577A091, 0x7577A087, '2005-02-09 10:00:00') /* Tumerok Controller */
-     , (0x7577A091, 0x7577A088, '2005-02-09 10:00:00') /* Tumerok Commander */
-     , (0x7577A091, 0x7577A089, '2005-02-09 10:00:00') /* Tumerok Controller */
-     , (0x7577A091, 0x7577A08A, '2005-02-09 10:00:00') /* Tumerok Commander */
-     , (0x7577A091, 0x7577A08B, '2005-02-09 10:00:00') /* Tumerok Commander */
-     , (0x7577A091, 0x7577A08C, '2005-02-09 10:00:00') /* Tumerok Commander */
-     , (0x7577A091, 0x7577A08D, '2005-02-09 10:00:00') /* Tumerok Commander */
-     , (0x7577A091, 0x7577A08E, '2005-02-09 10:00:00') /* Tumerok Commander */
-     , (0x7577A091, 0x7577A08F, '2005-02-09 10:00:00') /* Tumerok Commander */
-     , (0x7577A091, 0x7577A090, '2005-02-09 10:00:00') /* Tumerok Standard Bearer */
-     , (0x7577A091, 0x7577A094, '2005-02-09 10:00:00') /* Tumerok Controller */
-     , (0x7577A091, 0x7577A095, '2005-02-09 10:00:00') /* Tumerok Controller */
-     , (0x7577A091, 0x7577A096, '2005-02-09 10:00:00') /* Tumerok Controller */
-     , (0x7577A091, 0x7577A097, '2005-02-09 10:00:00') /* Tumerok Controller */
-     , (0x7577A091, 0x7577A098, '2005-02-09 10:00:00') /* Tumerok Commander */
-     , (0x7577A091, 0x7577A099, '2005-02-09 10:00:00') /* Tumerok Controller */
-     , (0x7577A091, 0x7577A09A, '2005-02-09 10:00:00') /* Tumerok Controller */
-     , (0x7577A091, 0x7577A09B, '2005-02-09 10:00:00') /* Tumerok Controller */
-     , (0x7577A091, 0x7577A09C, '2005-02-09 10:00:00') /* Tumerok Controller */
-     , (0x7577A091, 0x7577A0A0, '2005-02-09 10:00:00') /* Tumerok Controller */
-     , (0x7577A091, 0x7577A0A2, '2005-02-09 10:00:00') /* Tumerok Controller */
-     , (0x7577A091, 0x7577A0A3, '2005-02-09 10:00:00') /* Tumerok Controller */
-     , (0x7577A091, 0x7577A0A4, '2005-02-09 10:00:00') /* Tumerok Controller */
-     , (0x7577A091, 0x7577A0A5, '2005-02-09 10:00:00') /* Tumerok Commander */
-     , (0x7577A091, 0x7577A0A6, '2005-02-09 10:00:00') /* Tumerok Controller */
-     , (0x7577A091, 0x7577A0A7, '2005-02-09 10:00:00') /* Tumerok Controller */
-     , (0x7577A091, 0x7577A0A9, '2005-02-09 10:00:00') /* Tumerok Controller */
-     , (0x7577A091, 0x7577A0AB, '2005-02-09 10:00:00') /* Tumerok Controller */
-     , (0x7577A091, 0x7577A0AC, '2005-02-09 10:00:00') /* Tumerok Controller */
-     , (0x7577A091, 0x7577A0AD, '2005-02-09 10:00:00') /* Tumerok Controller */;
+VALUES (0x7577A091, 0x7577A000, '2005-02-09 10:00:00') /* Tumerok Lieutenant (11895) */
+     , (0x7577A091, 0x7577A001, '2005-02-09 10:00:00') /* Tumerok Standard Bearer (11878) */
+     , (0x7577A091, 0x7577A002, '2005-02-09 10:00:00') /* Tumerok Lieutenant (11895) */
+     , (0x7577A091, 0x7577A003, '2005-02-09 10:00:00') /* Tumerok Major (11898) */
+     , (0x7577A091, 0x7577A004, '2005-02-09 10:00:00') /* Tumerok Standard Bearer (11878) */
+     , (0x7577A091, 0x7577A005, '2005-02-09 10:00:00') /* Tumerok Lieutenant (11895) */
+     , (0x7577A091, 0x7577A006, '2005-02-09 10:00:00') /* Tumerok Standard Bearer (11878) */
+     , (0x7577A091, 0x7577A007, '2005-02-09 10:00:00') /* Tumerok Standard Bearer (11878) */
+     , (0x7577A091, 0x7577A008, '2005-02-09 10:00:00') /* Tumerok Standard Bearer (11878) */
+     , (0x7577A091, 0x7577A009, '2005-02-09 10:00:00') /* Tumerok Lieutenant (11895) */
+     , (0x7577A091, 0x7577A00A, '2005-02-09 10:00:00') /* Tumerok Lieutenant (11895) */
+     , (0x7577A091, 0x7577A00B, '2005-02-09 10:00:00') /* Tumerok Lieutenant (11895) */
+     , (0x7577A091, 0x7577A00C, '2005-02-09 10:00:00') /* Tumerok Lieutenant (11895) */
+     , (0x7577A091, 0x7577A00D, '2005-02-09 10:00:00') /* Tumerok Lieutenant (11895) */
+     , (0x7577A091, 0x7577A00E, '2005-02-09 10:00:00') /* Tumerok Lieutenant (11895) */
+     , (0x7577A091, 0x7577A00F, '2005-02-09 10:00:00') /* Tumerok Lieutenant (11895) */
+     , (0x7577A091, 0x7577A010, '2005-02-09 10:00:00') /* Tumerok Lieutenant (11895) */
+     , (0x7577A091, 0x7577A011, '2005-02-09 10:00:00') /* Tumerok Lieutenant (11895) */
+     , (0x7577A091, 0x7577A012, '2005-02-09 10:00:00') /* Tumerok Major (11898) */
+     , (0x7577A091, 0x7577A013, '2005-02-09 10:00:00') /* Tumerok Lieutenant (11895) */
+     , (0x7577A091, 0x7577A014, '2005-02-09 10:00:00') /* Tumerok Lieutenant (11895) */
+     , (0x7577A091, 0x7577A015, '2005-02-09 10:00:00') /* Tumerok Major (11898) */
+     , (0x7577A091, 0x7577A016, '2005-02-09 10:00:00') /* Tumerok Lieutenant (11895) */
+     , (0x7577A091, 0x7577A017, '2005-02-09 10:00:00') /* Tumerok Major (11898) */
+     , (0x7577A091, 0x7577A018, '2005-02-09 10:00:00') /* Tumerok Standard Bearer (11878) */
+     , (0x7577A091, 0x7577A019, '2005-02-09 10:00:00') /* Tumerok Standard Bearer (11878) */
+     , (0x7577A091, 0x7577A01A, '2005-02-09 10:00:00') /* Tumerok Lieutenant (11895) */
+     , (0x7577A091, 0x7577A01B, '2005-02-09 10:00:00') /* Tumerok Major (11898) */
+     , (0x7577A091, 0x7577A01C, '2005-02-09 10:00:00') /* Tumerok Standard Bearer (11878) */
+     , (0x7577A091, 0x7577A01D, '2005-02-09 10:00:00') /* Tumerok Standard Bearer (11878) */
+     , (0x7577A091, 0x7577A01E, '2005-02-09 10:00:00') /* Tumerok Standard Bearer (11878) */
+     , (0x7577A091, 0x7577A01F, '2005-02-09 10:00:00') /* Tumerok Lieutenant (11895) */
+     , (0x7577A091, 0x7577A020, '2005-02-09 10:00:00') /* Tumerok Lieutenant (11895) */
+     , (0x7577A091, 0x7577A021, '2005-02-09 10:00:00') /* Tumerok Major (11898) */
+     , (0x7577A091, 0x7577A022, '2005-02-09 10:00:00') /* Tumerok Lieutenant (11895) */
+     , (0x7577A091, 0x7577A023, '2005-02-09 10:00:00') /* Tumerok Lieutenant (11895) */
+     , (0x7577A091, 0x7577A024, '2005-02-09 10:00:00') /* Tumerok Major (11898) */
+     , (0x7577A091, 0x7577A025, '2005-02-09 10:00:00') /* Tumerok Lieutenant (11895) */
+     , (0x7577A091, 0x7577A026, '2005-02-09 10:00:00') /* Tumerok Lieutenant (11895) */
+     , (0x7577A091, 0x7577A027, '2005-02-09 10:00:00') /* Tumerok Lieutenant (11895) */
+     , (0x7577A091, 0x7577A028, '2005-02-09 10:00:00') /* Tumerok Standard Bearer (11878) */
+     , (0x7577A091, 0x7577A029, '2005-02-09 10:00:00') /* Tumerok Lieutenant (11895) */
+     , (0x7577A091, 0x7577A02A, '2005-02-09 10:00:00') /* Tumerok Lieutenant (11895) */
+     , (0x7577A091, 0x7577A02B, '2005-02-09 10:00:00') /* Tumerok Standard Bearer (11878) */
+     , (0x7577A091, 0x7577A02C, '2005-02-09 10:00:00') /* Tumerok Standard Bearer (11878) */
+     , (0x7577A091, 0x7577A02D, '2005-02-09 10:00:00') /* Tumerok Standard Bearer (11878) */
+     , (0x7577A091, 0x7577A02E, '2005-02-09 10:00:00') /* Tumerok Standard Bearer (11878) */
+     , (0x7577A091, 0x7577A02F, '2005-02-09 10:00:00') /* Tumerok Lieutenant (11895) */
+     , (0x7577A091, 0x7577A030, '2005-02-09 10:00:00') /* Tumerok Lieutenant (11895) */
+     , (0x7577A091, 0x7577A031, '2005-02-09 10:00:00') /* Tumerok Lieutenant (11895) */
+     , (0x7577A091, 0x7577A032, '2005-02-09 10:00:00') /* Tumerok Lieutenant (11895) */
+     , (0x7577A091, 0x7577A033, '2005-02-09 10:00:00') /* Tumerok Lieutenant (11895) */
+     , (0x7577A091, 0x7577A034, '2005-02-09 10:00:00') /* Tumerok Lieutenant (11895) */
+     , (0x7577A091, 0x7577A035, '2005-02-09 10:00:00') /* Tumerok Lieutenant (11895) */
+     , (0x7577A091, 0x7577A036, '2005-02-09 10:00:00') /* Tumerok Standard Bearer (11878) */
+     , (0x7577A091, 0x7577A037, '2005-02-09 10:00:00') /* Tumerok Standard Bearer (11878) */
+     , (0x7577A091, 0x7577A038, '2005-02-09 10:00:00') /* Tumerok Lieutenant (11895) */
+     , (0x7577A091, 0x7577A039, '2005-02-09 10:00:00') /* Tumerok Lieutenant (11895) */
+     , (0x7577A091, 0x7577A03A, '2005-02-09 10:00:00') /* Tumerok Lieutenant (11895) */
+     , (0x7577A091, 0x7577A03B, '2005-02-09 10:00:00') /* Tumerok Lieutenant (11895) */
+     , (0x7577A091, 0x7577A03C, '2005-02-09 10:00:00') /* Tumerok Lieutenant (11895) */
+     , (0x7577A091, 0x7577A03D, '2005-02-09 10:00:00') /* Tumerok Standard Bearer (11878) */
+     , (0x7577A091, 0x7577A03E, '2005-02-09 10:00:00') /* Tumerok Standard Bearer (11878) */
+     , (0x7577A091, 0x7577A03F, '2005-02-09 10:00:00') /* Tumerok Major (11898) */
+     , (0x7577A091, 0x7577A040, '2005-02-09 10:00:00') /* Tumerok Major (11898) */
+     , (0x7577A091, 0x7577A041, '2005-02-09 10:00:00') /* Tumerok Standard Bearer (11878) */
+     , (0x7577A091, 0x7577A042, '2005-02-09 10:00:00') /* Tumerok Standard Bearer (11878) */
+     , (0x7577A091, 0x7577A043, '2005-02-09 10:00:00') /* Tumerok Standard Bearer (11878) */
+     , (0x7577A091, 0x7577A044, '2005-02-09 10:00:00') /* Tumerok Standard Bearer (11878) */
+     , (0x7577A091, 0x7577A045, '2005-02-09 10:00:00') /* Tumerok Standard Bearer (11878) */
+     , (0x7577A091, 0x7577A046, '2005-02-09 10:00:00') /* Tumerok Standard Bearer (11878) */
+     , (0x7577A091, 0x7577A047, '2005-02-09 10:00:00') /* Tumerok Standard Bearer (11878) */
+     , (0x7577A091, 0x7577A048, '2005-02-09 10:00:00') /* Tumerok Lieutenant (11895) */
+     , (0x7577A091, 0x7577A049, '2005-02-09 10:00:00') /* Tumerok Standard Bearer (11878) */
+     , (0x7577A091, 0x7577A04A, '2005-02-09 10:00:00') /* Tumerok Standard Bearer (11878) */
+     , (0x7577A091, 0x7577A04B, '2005-02-09 10:00:00') /* Tumerok Standard Bearer (11878) */
+     , (0x7577A091, 0x7577A04C, '2005-02-09 10:00:00') /* Tumerok Standard Bearer (11878) */
+     , (0x7577A091, 0x7577A04D, '2005-02-09 10:00:00') /* Tumerok Standard Bearer (11878) */
+     , (0x7577A091, 0x7577A04E, '2005-02-09 10:00:00') /* Tumerok Standard Bearer (11878) */
+     , (0x7577A091, 0x7577A04F, '2005-02-09 10:00:00') /* Tumerok Standard Bearer (11878) */
+     , (0x7577A091, 0x7577A050, '2005-02-09 10:00:00') /* Tumerok Standard Bearer (11878) */
+     , (0x7577A091, 0x7577A051, '2005-02-09 10:00:00') /* Tumerok Standard Bearer (11878) */
+     , (0x7577A091, 0x7577A052, '2005-02-09 10:00:00') /* Tumerok Standard Bearer (11878) */
+     , (0x7577A091, 0x7577A053, '2005-02-09 10:00:00') /* Tumerok Standard Bearer (11878) */
+     , (0x7577A091, 0x7577A054, '2005-02-09 10:00:00') /* Tumerok Standard Bearer (11878) */
+     , (0x7577A091, 0x7577A055, '2005-02-09 10:00:00') /* Tumerok Standard Bearer (11878) */
+     , (0x7577A091, 0x7577A05A, '2005-02-09 10:00:00') /* Tumerok Major (11898) */
+     , (0x7577A091, 0x7577A05B, '2005-02-09 10:00:00') /* Tumerok Major (11898) */
+     , (0x7577A091, 0x7577A05C, '2005-02-09 10:00:00') /* Tumerok Major (11898) */
+     , (0x7577A091, 0x7577A05D, '2005-02-09 10:00:00') /* Tumerok Commander (11872) */
+     , (0x7577A091, 0x7577A05E, '2005-02-09 10:00:00') /* Tumerok Commander (11872) */
+     , (0x7577A091, 0x7577A05F, '2005-02-09 10:00:00') /* Tumerok Major (11898) */
+     , (0x7577A091, 0x7577A060, '2005-02-09 10:00:00') /* Tumerok Major (11898) */
+     , (0x7577A091, 0x7577A061, '2005-02-09 10:00:00') /* Tumerok Commander (11872) */
+     , (0x7577A091, 0x7577A062, '2005-02-09 10:00:00') /* Tumerok Commander (11872) */
+     , (0x7577A091, 0x7577A063, '2005-02-09 10:00:00') /* Tumerok Commander (11872) */
+     , (0x7577A091, 0x7577A064, '2005-02-09 10:00:00') /* Tumerok Standard Bearer (11878) */
+     , (0x7577A091, 0x7577A065, '2005-02-09 10:00:00') /* Tumerok Commander (11872) */
+     , (0x7577A091, 0x7577A066, '2005-02-09 10:00:00') /* Tumerok Major (11898) */
+     , (0x7577A091, 0x7577A067, '2005-02-09 10:00:00') /* Tumerok Standard Bearer (11878) */
+     , (0x7577A091, 0x7577A068, '2005-02-09 10:00:00') /* Tumerok Commander (11872) */
+     , (0x7577A091, 0x7577A069, '2005-02-09 10:00:00') /* Tumerok Major (11898) */
+     , (0x7577A091, 0x7577A06A, '2005-02-09 10:00:00') /* Tumerok Major (11898) */
+     , (0x7577A091, 0x7577A06B, '2005-02-09 10:00:00') /* Tumerok Commander (11872) */
+     , (0x7577A091, 0x7577A06C, '2005-02-09 10:00:00') /* Tumerok Commander (11872) */
+     , (0x7577A091, 0x7577A06D, '2005-02-09 10:00:00') /* Tumerok Major (11898) */
+     , (0x7577A091, 0x7577A06E, '2005-02-09 10:00:00') /* Tumerok Major (11898) */
+     , (0x7577A091, 0x7577A06F, '2005-02-09 10:00:00') /* Tumerok Standard Bearer (11878) */
+     , (0x7577A091, 0x7577A070, '2005-02-09 10:00:00') /* Tumerok Commander (11872) */
+     , (0x7577A091, 0x7577A071, '2005-02-09 10:00:00') /* Tumerok Commander (11872) */
+     , (0x7577A091, 0x7577A072, '2005-02-09 10:00:00') /* Tumerok Commander (11872) */
+     , (0x7577A091, 0x7577A073, '2005-02-09 10:00:00') /* Tumerok Commander (11872) */
+     , (0x7577A091, 0x7577A074, '2005-02-09 10:00:00') /* Tumerok Commander (11872) */
+     , (0x7577A091, 0x7577A075, '2005-02-09 10:00:00') /* Tumerok Commander (11872) */
+     , (0x7577A091, 0x7577A076, '2005-02-09 10:00:00') /* Tumerok Commander (11872) */
+     , (0x7577A091, 0x7577A077, '2005-02-09 10:00:00') /* Tumerok Commander (11872) */
+     , (0x7577A091, 0x7577A078, '2005-02-09 10:00:00') /* Tumerok Commander (11872) */
+     , (0x7577A091, 0x7577A079, '2005-02-09 10:00:00') /* Tumerok Controller (11888) */
+     , (0x7577A091, 0x7577A07A, '2005-02-09 10:00:00') /* Tumerok Major (11898) */
+     , (0x7577A091, 0x7577A07B, '2005-02-09 10:00:00') /* Tumerok Commander (11872) */
+     , (0x7577A091, 0x7577A07C, '2005-02-09 10:00:00') /* Tumerok Commander (11872) */
+     , (0x7577A091, 0x7577A07D, '2005-02-09 10:00:00') /* Tumerok Controller (11888) */
+     , (0x7577A091, 0x7577A07E, '2005-02-09 10:00:00') /* Tumerok Controller (11888) */
+     , (0x7577A091, 0x7577A07F, '2005-02-09 10:00:00') /* Tumerok Commander (11872) */
+     , (0x7577A091, 0x7577A080, '2005-02-09 10:00:00') /* Tumerok Commander (11872) */
+     , (0x7577A091, 0x7577A081, '2005-02-09 10:00:00') /* Tumerok Commander (11872) */
+     , (0x7577A091, 0x7577A082, '2005-02-09 10:00:00') /* Tumerok Commander (11872) */
+     , (0x7577A091, 0x7577A083, '2005-02-09 10:00:00') /* Tumerok Commander (11872) */
+     , (0x7577A091, 0x7577A084, '2005-02-09 10:00:00') /* Tumerok Commander (11872) */
+     , (0x7577A091, 0x7577A085, '2005-02-09 10:00:00') /* Tumerok Commander (11872) */
+     , (0x7577A091, 0x7577A086, '2005-02-09 10:00:00') /* Tumerok Controller (11888) */
+     , (0x7577A091, 0x7577A087, '2005-02-09 10:00:00') /* Tumerok Controller (11888) */
+     , (0x7577A091, 0x7577A088, '2005-02-09 10:00:00') /* Tumerok Commander (11872) */
+     , (0x7577A091, 0x7577A089, '2005-02-09 10:00:00') /* Tumerok Controller (11888) */
+     , (0x7577A091, 0x7577A08A, '2005-02-09 10:00:00') /* Tumerok Commander (11872) */
+     , (0x7577A091, 0x7577A08B, '2005-02-09 10:00:00') /* Tumerok Commander (11872) */
+     , (0x7577A091, 0x7577A08C, '2005-02-09 10:00:00') /* Tumerok Commander (11872) */
+     , (0x7577A091, 0x7577A08D, '2005-02-09 10:00:00') /* Tumerok Commander (11872) */
+     , (0x7577A091, 0x7577A08E, '2005-02-09 10:00:00') /* Tumerok Commander (11872) */
+     , (0x7577A091, 0x7577A08F, '2005-02-09 10:00:00') /* Tumerok Commander (11872) */
+     , (0x7577A091, 0x7577A090, '2005-02-09 10:00:00') /* Tumerok Standard Bearer (11878) */
+     , (0x7577A091, 0x7577A094, '2005-02-09 10:00:00') /* Tumerok Controller (11888) */
+     , (0x7577A091, 0x7577A095, '2005-02-09 10:00:00') /* Tumerok Controller (11888) */
+     , (0x7577A091, 0x7577A096, '2005-02-09 10:00:00') /* Tumerok Controller (11888) */
+     , (0x7577A091, 0x7577A097, '2005-02-09 10:00:00') /* Tumerok Controller (11888) */
+     , (0x7577A091, 0x7577A098, '2005-02-09 10:00:00') /* Tumerok Commander (11872) */
+     , (0x7577A091, 0x7577A099, '2005-02-09 10:00:00') /* Tumerok Controller (11888) */
+     , (0x7577A091, 0x7577A09A, '2005-02-09 10:00:00') /* Tumerok Controller (11888) */
+     , (0x7577A091, 0x7577A09B, '2005-02-09 10:00:00') /* Tumerok Controller (11888) */
+     , (0x7577A091, 0x7577A09C, '2005-02-09 10:00:00') /* Tumerok Controller (11888) */
+     , (0x7577A091, 0x7577A0A0, '2005-02-09 10:00:00') /* Tumerok Controller (11888) */
+     , (0x7577A091, 0x7577A0A2, '2005-02-09 10:00:00') /* Tumerok Controller (11888) */
+     , (0x7577A091, 0x7577A0A3, '2005-02-09 10:00:00') /* Tumerok Controller (11888) */
+     , (0x7577A091, 0x7577A0A4, '2005-02-09 10:00:00') /* Tumerok Controller (11888) */
+     , (0x7577A091, 0x7577A0A5, '2005-02-09 10:00:00') /* Tumerok Commander (11872) */
+     , (0x7577A091, 0x7577A0A6, '2005-02-09 10:00:00') /* Tumerok Controller (11888) */
+     , (0x7577A091, 0x7577A0A7, '2005-02-09 10:00:00') /* Tumerok Controller (11888) */
+     , (0x7577A091, 0x7577A0A9, '2005-02-09 10:00:00') /* Tumerok Controller (11888) */
+     , (0x7577A091, 0x7577A0AB, '2005-02-09 10:00:00') /* Tumerok Controller (11888) */
+     , (0x7577A091, 0x7577A0AC, '2005-02-09 10:00:00') /* Tumerok Controller (11888) */
+     , (0x7577A091, 0x7577A0AD, '2005-02-09 10:00:00') /* Tumerok Controller (11888) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7577A092, 23898, 0x577A0376, 150.78, -200.016, 0.005, 0.714421, 0, 0, 0.699716, False, '2005-02-09 10:00:00'); /* Surface */
@@ -805,11 +805,11 @@ VALUES (0x7577A09E,  5086, 0x577A03AF, 221.051, -0.090567, 0.005, -0.431748, 0, 
 /* @teleloc 0x577A03AF [221.051000 -0.090567 0.005000] -0.431748 0.000000 0.000000 0.901994 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7577A09E, 0x7577A093, '2005-02-09 10:00:00') /* A Note */
-     , (0x7577A09E, 0x7577A09D, '2005-02-09 10:00:00') /* A Note */
-     , (0x7577A09E, 0x7577A09F, '2005-02-09 10:00:00') /* A Note */
-     , (0x7577A09E, 0x7577A0A1, '2005-02-09 10:00:00') /* A Note */
-     , (0x7577A09E, 0x7577A0AA, '2005-02-09 10:00:00') /* A Note */;
+VALUES (0x7577A09E, 0x7577A093, '2005-02-09 10:00:00') /* A Note (23917) */
+     , (0x7577A09E, 0x7577A09D, '2005-02-09 10:00:00') /* A Note (23917) */
+     , (0x7577A09E, 0x7577A09F, '2005-02-09 10:00:00') /* A Note (23917) */
+     , (0x7577A09E, 0x7577A0A1, '2005-02-09 10:00:00') /* A Note (23917) */
+     , (0x7577A09E, 0x7577A0AA, '2005-02-09 10:00:00') /* A Note (23917) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7577A09F, 23917, 0x577A03AF, 223.355, 0.31095, 0.079, 0.665775, 0, 0, 0.746152,  True, '2005-02-09 10:00:00'); /* A Note */

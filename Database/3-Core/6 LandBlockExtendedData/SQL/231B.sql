@@ -13,5 +13,5 @@ VALUES (0x7231B002,  1542, 0x231B0000, 147.561, 156.552, 20.5703, 0.998537, 0, 0
 /* @teleloc 0x231B0000 [147.561000 156.552000 20.570300] 0.998537 0.000000 0.000000 0.054080 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7231B002, 0x7231B000, '2005-02-09 10:00:00') /* Sandstone Golem */
-     , (0x7231B002, 0x7231B001, '2005-02-09 10:00:00') /* Sandstone Golem */;
+VALUES (0x7231B002, 0x7231B000, '2005-02-09 10:00:00') /* Sandstone Golem (202) */
+     , (0x7231B002, 0x7231B001, '2005-02-09 10:00:00') /* Sandstone Golem (202) */;

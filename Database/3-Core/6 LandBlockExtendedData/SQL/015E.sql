@@ -33,7 +33,7 @@ VALUES (0x7015E007,  3597, 0x015E0120, 91.9564, -169.878, -11.995, 0.455589, 0, 
 /* @teleloc 0x015E0120 [91.956400 -169.878000 -11.995000] 0.455589 0.000000 0.000000 0.890190 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7015E007, 0x7015E006, '2005-02-09 10:00:00') /* Dizah ibn Nadqab's Journal */;
+VALUES (0x7015E007, 0x7015E006, '2005-02-09 10:00:00') /* Dizah ibn Nadqab's Journal (5935) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7015E008,  8673, 0x015E012A, 99.7171, -169.993, -11.9917, 0.999535, 0, 0, -0.0304841,  True, '2005-02-09 10:00:00'); /* Risen Knight */
@@ -240,8 +240,8 @@ VALUES (0x7015E03B,  2180, 0x015E025C, 64.75, -50, 18, 0.707107, 0, 0, -0.707107
 /* @teleloc 0x015E025C [64.750000 -50.000000 18.000000] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7015E03B, 0x7015E03A, '2005-02-09 10:00:00') /* Lever */
-     , (0x7015E03B, 0x7015E05C, '2005-02-09 10:00:00') /* Lever */;
+VALUES (0x7015E03B, 0x7015E03A, '2005-02-09 10:00:00') /* Lever (285) */
+     , (0x7015E03B, 0x7015E05C, '2005-02-09 10:00:00') /* Lever (2609) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7015E03C,  1762, 0x015E0260, 57.3323, -128.756, 18.0025, 0.707107, 0, 0, -0.707107,  True, '2005-02-09 10:00:00'); /* Skeleton Lord */
@@ -264,15 +264,15 @@ VALUES (0x7015E040,  4071, 0x015E0263, 69.7851, -0.338089, 20.359, 0.018983, 0, 
 /* @teleloc 0x015E0263 [69.785100 -0.338089 20.359000] 0.018983 0.000000 0.000000 0.999820 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7015E040, 0x7015E03F, '2005-02-09 10:00:00') /* Pressure Plate */;
+VALUES (0x7015E040, 0x7015E03F, '2005-02-09 10:00:00') /* Pressure Plate (2131) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7015E041,  4139, 0x015E0264, 70, -4.75, 18, -4.37114E-08, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Door */
 /* @teleloc 0x015E0264 [70.000000 -4.750000 18.000000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7015E041, 0x7015E042, '2005-02-09 10:00:00') /* Lever */
-     , (0x7015E041, 0x7015E055, '2005-02-09 10:00:00') /* Lever */;
+VALUES (0x7015E041, 0x7015E042, '2005-02-09 10:00:00') /* Lever (285) */
+     , (0x7015E041, 0x7015E055, '2005-02-09 10:00:00') /* Lever (2609) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7015E042,   285, 0x015E0265, 68.4335, -10.7787, 19.7325, -0.707107, 0, 0, -0.707107,  True, '2005-02-09 10:00:00'); /* Lever */
@@ -283,8 +283,8 @@ VALUES (0x7015E043,  4139, 0x015E0265, 70, -14.75, 18, 0, 0, 0, -1, False, '2005
 /* @teleloc 0x015E0265 [70.000000 -14.750000 18.000000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7015E043, 0x7015E04B, '2005-02-09 10:00:00') /* Lever */
-     , (0x7015E043, 0x7015E070, '2005-02-09 10:00:00') /* Lever */;
+VALUES (0x7015E043, 0x7015E04B, '2005-02-09 10:00:00') /* Lever (2609) */
+     , (0x7015E043, 0x7015E070, '2005-02-09 10:00:00') /* Lever (285) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7015E044,  4976, 0x015E0266, 68.1484, -27.9992, 18.005, 0.934569, 0, 0, 0.355783, False, '2005-02-09 10:00:00'); /* Surface Portal */
@@ -323,8 +323,8 @@ VALUES (0x7015E04C,  2180, 0x015E0292, 80, -15.25, 18, 1, 0, 0, 0, False, '2005-
 /* @teleloc 0x015E0292 [80.000000 -15.250000 18.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7015E04C, 0x7015E04A, '2005-02-09 10:00:00') /* Lever */
-     , (0x7015E04C, 0x7015E04D, '2005-02-09 10:00:00') /* Lever */;
+VALUES (0x7015E04C, 0x7015E04A, '2005-02-09 10:00:00') /* Lever (285) */
+     , (0x7015E04C, 0x7015E04D, '2005-02-09 10:00:00') /* Lever (2609) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7015E04D,  2609, 0x015E0293, 80, -30, 18, 1, 0, 0, -4.37114E-08,  True, '2005-02-09 10:00:00'); /* Lever */
@@ -339,8 +339,8 @@ VALUES (0x7015E04F,  2180, 0x015E0295, 80, -34.75, 18, -4.37114E-08, 0, 0, -1, F
 /* @teleloc 0x015E0295 [80.000000 -34.750000 18.000000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7015E04F, 0x7015E04E, '2005-02-09 10:00:00') /* Lever */
-     , (0x7015E04F, 0x7015E051, '2005-02-09 10:00:00') /* Lever */;
+VALUES (0x7015E04F, 0x7015E04E, '2005-02-09 10:00:00') /* Lever (285) */
+     , (0x7015E04F, 0x7015E051, '2005-02-09 10:00:00') /* Lever (2609) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7015E050,  8673, 0x015E02AD, 75.4898, -109.941, 18.0575, -0.993081, 0, 0, -0.117431,  True, '2005-02-09 10:00:00'); /* Risen Knight */
@@ -371,8 +371,8 @@ VALUES (0x7015E056,  2180, 0x015E02BB, 90, -15.25, 18, 1, 0, 0, 0, False, '2005-
 /* @teleloc 0x015E02BB [90.000000 -15.250000 18.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7015E056, 0x7015E054, '2005-02-09 10:00:00') /* Lever */
-     , (0x7015E056, 0x7015E057, '2005-02-09 10:00:00') /* Lever */;
+VALUES (0x7015E056, 0x7015E054, '2005-02-09 10:00:00') /* Lever (285) */
+     , (0x7015E056, 0x7015E057, '2005-02-09 10:00:00') /* Lever (2609) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7015E057,  2609, 0x015E02BC, 90, -30, 18, 1, 0, 0, -4.37114E-08,  True, '2005-02-09 10:00:00'); /* Lever */
@@ -415,7 +415,7 @@ VALUES (0x7015E060,  4083, 0x015E02E1, 100.067, -30, 20.1049, 1, 0, 0, 0, False,
 /* @teleloc 0x015E02E1 [100.067000 -30.000000 20.104900] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7015E060, 0x7015E05F, '2005-02-09 10:00:00') /* Pressure Plate */;
+VALUES (0x7015E060, 0x7015E05F, '2005-02-09 10:00:00') /* Pressure Plate (2131) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7015E061,  1630, 0x015E02E3, 97.5804, -41.0235, 18.0075, -0.779475, 0, 0, -0.626434,  True, '2005-02-09 10:00:00'); /* Lich Lord */
@@ -490,68 +490,68 @@ VALUES (0x7015E076,  7924, 0x015E0167, 78.6648, -170, 0.005, 1, 0, 0, 0, False, 
 /* @teleloc 0x015E0167 [78.664800 -170.000000 0.005000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7015E076, 0x7015E001, '2005-02-09 10:00:00') /* Skeleton Lord */
-     , (0x7015E076, 0x7015E002, '2005-02-09 10:00:00') /* Skeleton Lord */
-     , (0x7015E076, 0x7015E003, '2005-02-09 10:00:00') /* Skeleton Lord */
-     , (0x7015E076, 0x7015E004, '2005-02-09 10:00:00') /* Skeleton Lord */
-     , (0x7015E076, 0x7015E005, '2005-02-09 10:00:00') /* Risen Knight */
-     , (0x7015E076, 0x7015E008, '2005-02-09 10:00:00') /* Risen Knight */
-     , (0x7015E076, 0x7015E009, '2005-02-09 10:00:00') /* Risen Knight */
-     , (0x7015E076, 0x7015E00A, '2005-02-09 10:00:00') /* Skeleton Lord */
-     , (0x7015E076, 0x7015E00B, '2005-02-09 10:00:00') /* Skeleton Lord */
-     , (0x7015E076, 0x7015E00C, '2005-02-09 10:00:00') /* Skeleton Lord */
-     , (0x7015E076, 0x7015E00D, '2005-02-09 10:00:00') /* Skeleton Lord */
-     , (0x7015E076, 0x7015E00E, '2005-02-09 10:00:00') /* Skeleton Lord */
-     , (0x7015E076, 0x7015E00F, '2005-02-09 10:00:00') /* Skeleton Lord */
-     , (0x7015E076, 0x7015E010, '2005-02-09 10:00:00') /* Skeleton Lord */
-     , (0x7015E076, 0x7015E011, '2005-02-09 10:00:00') /* Skeleton Lord */
-     , (0x7015E076, 0x7015E013, '2005-02-09 10:00:00') /* Skeleton Lord */
-     , (0x7015E076, 0x7015E014, '2005-02-09 10:00:00') /* Skeleton Lord */
-     , (0x7015E076, 0x7015E015, '2005-02-09 10:00:00') /* Skeleton Lord */
-     , (0x7015E076, 0x7015E016, '2005-02-09 10:00:00') /* Skeleton Lord */
-     , (0x7015E076, 0x7015E018, '2005-02-09 10:00:00') /* Skeleton Lord */
-     , (0x7015E076, 0x7015E019, '2005-02-09 10:00:00') /* Skeleton Lord */
-     , (0x7015E076, 0x7015E01A, '2005-02-09 10:00:00') /* Skeleton Lord */
-     , (0x7015E076, 0x7015E01B, '2005-02-09 10:00:00') /* Lich Lord */
-     , (0x7015E076, 0x7015E01C, '2005-02-09 10:00:00') /* Skeleton Lord */
-     , (0x7015E076, 0x7015E023, '2005-02-09 10:00:00') /* Skeleton Lord */
-     , (0x7015E076, 0x7015E024, '2005-02-09 10:00:00') /* Lich Lord */
-     , (0x7015E076, 0x7015E02B, '2005-02-09 10:00:00') /* Skeleton Lord */
-     , (0x7015E076, 0x7015E02C, '2005-02-09 10:00:00') /* Skeleton Lord */
-     , (0x7015E076, 0x7015E02D, '2005-02-09 10:00:00') /* Lich Lord */
-     , (0x7015E076, 0x7015E030, '2005-02-09 10:00:00') /* Skeleton Lord */
-     , (0x7015E076, 0x7015E031, '2005-02-09 10:00:00') /* Skeleton Lord */
-     , (0x7015E076, 0x7015E032, '2005-02-09 10:00:00') /* Skeleton Lord */
-     , (0x7015E076, 0x7015E033, '2005-02-09 10:00:00') /* Skeleton Lord */
-     , (0x7015E076, 0x7015E034, '2005-02-09 10:00:00') /* Skeleton Lord */
-     , (0x7015E076, 0x7015E035, '2005-02-09 10:00:00') /* Skeleton Lord */
-     , (0x7015E076, 0x7015E036, '2005-02-09 10:00:00') /* Skeleton Lord */
-     , (0x7015E076, 0x7015E037, '2005-02-09 10:00:00') /* Skeleton Lord */
-     , (0x7015E076, 0x7015E03C, '2005-02-09 10:00:00') /* Skeleton Lord */
-     , (0x7015E076, 0x7015E03D, '2005-02-09 10:00:00') /* Skeleton Lord */
-     , (0x7015E076, 0x7015E03E, '2005-02-09 10:00:00') /* Lich Lord */
-     , (0x7015E076, 0x7015E047, '2005-02-09 10:00:00') /* Lich Lord */
-     , (0x7015E076, 0x7015E048, '2005-02-09 10:00:00') /* Lich Lord */
-     , (0x7015E076, 0x7015E050, '2005-02-09 10:00:00') /* Risen Knight */
-     , (0x7015E076, 0x7015E058, '2005-02-09 10:00:00') /* Lich Lord */
-     , (0x7015E076, 0x7015E05E, '2005-02-09 10:00:00') /* Lich Lord */
-     , (0x7015E076, 0x7015E061, '2005-02-09 10:00:00') /* Lich Lord */
-     , (0x7015E076, 0x7015E063, '2005-02-09 10:00:00') /* Skeleton Lord */
-     , (0x7015E076, 0x7015E064, '2005-02-09 10:00:00') /* Skeleton Lord */;
+VALUES (0x7015E076, 0x7015E001, '2005-02-09 10:00:00') /* Skeleton Lord (1762) */
+     , (0x7015E076, 0x7015E002, '2005-02-09 10:00:00') /* Skeleton Lord (1762) */
+     , (0x7015E076, 0x7015E003, '2005-02-09 10:00:00') /* Skeleton Lord (1762) */
+     , (0x7015E076, 0x7015E004, '2005-02-09 10:00:00') /* Skeleton Lord (1762) */
+     , (0x7015E076, 0x7015E005, '2005-02-09 10:00:00') /* Risen Knight (8673) */
+     , (0x7015E076, 0x7015E008, '2005-02-09 10:00:00') /* Risen Knight (8673) */
+     , (0x7015E076, 0x7015E009, '2005-02-09 10:00:00') /* Risen Knight (8673) */
+     , (0x7015E076, 0x7015E00A, '2005-02-09 10:00:00') /* Skeleton Lord (1762) */
+     , (0x7015E076, 0x7015E00B, '2005-02-09 10:00:00') /* Skeleton Lord (1762) */
+     , (0x7015E076, 0x7015E00C, '2005-02-09 10:00:00') /* Skeleton Lord (1762) */
+     , (0x7015E076, 0x7015E00D, '2005-02-09 10:00:00') /* Skeleton Lord (1762) */
+     , (0x7015E076, 0x7015E00E, '2005-02-09 10:00:00') /* Skeleton Lord (1762) */
+     , (0x7015E076, 0x7015E00F, '2005-02-09 10:00:00') /* Skeleton Lord (1762) */
+     , (0x7015E076, 0x7015E010, '2005-02-09 10:00:00') /* Skeleton Lord (1762) */
+     , (0x7015E076, 0x7015E011, '2005-02-09 10:00:00') /* Skeleton Lord (1762) */
+     , (0x7015E076, 0x7015E013, '2005-02-09 10:00:00') /* Skeleton Lord (1762) */
+     , (0x7015E076, 0x7015E014, '2005-02-09 10:00:00') /* Skeleton Lord (1762) */
+     , (0x7015E076, 0x7015E015, '2005-02-09 10:00:00') /* Skeleton Lord (1762) */
+     , (0x7015E076, 0x7015E016, '2005-02-09 10:00:00') /* Skeleton Lord (1762) */
+     , (0x7015E076, 0x7015E018, '2005-02-09 10:00:00') /* Skeleton Lord (1762) */
+     , (0x7015E076, 0x7015E019, '2005-02-09 10:00:00') /* Skeleton Lord (1762) */
+     , (0x7015E076, 0x7015E01A, '2005-02-09 10:00:00') /* Skeleton Lord (1762) */
+     , (0x7015E076, 0x7015E01B, '2005-02-09 10:00:00') /* Lich Lord (1630) */
+     , (0x7015E076, 0x7015E01C, '2005-02-09 10:00:00') /* Skeleton Lord (1762) */
+     , (0x7015E076, 0x7015E023, '2005-02-09 10:00:00') /* Skeleton Lord (1762) */
+     , (0x7015E076, 0x7015E024, '2005-02-09 10:00:00') /* Lich Lord (1630) */
+     , (0x7015E076, 0x7015E02B, '2005-02-09 10:00:00') /* Skeleton Lord (1762) */
+     , (0x7015E076, 0x7015E02C, '2005-02-09 10:00:00') /* Skeleton Lord (1762) */
+     , (0x7015E076, 0x7015E02D, '2005-02-09 10:00:00') /* Lich Lord (1630) */
+     , (0x7015E076, 0x7015E030, '2005-02-09 10:00:00') /* Skeleton Lord (1762) */
+     , (0x7015E076, 0x7015E031, '2005-02-09 10:00:00') /* Skeleton Lord (1762) */
+     , (0x7015E076, 0x7015E032, '2005-02-09 10:00:00') /* Skeleton Lord (1762) */
+     , (0x7015E076, 0x7015E033, '2005-02-09 10:00:00') /* Skeleton Lord (1762) */
+     , (0x7015E076, 0x7015E034, '2005-02-09 10:00:00') /* Skeleton Lord (1762) */
+     , (0x7015E076, 0x7015E035, '2005-02-09 10:00:00') /* Skeleton Lord (1762) */
+     , (0x7015E076, 0x7015E036, '2005-02-09 10:00:00') /* Skeleton Lord (1762) */
+     , (0x7015E076, 0x7015E037, '2005-02-09 10:00:00') /* Skeleton Lord (1762) */
+     , (0x7015E076, 0x7015E03C, '2005-02-09 10:00:00') /* Skeleton Lord (1762) */
+     , (0x7015E076, 0x7015E03D, '2005-02-09 10:00:00') /* Skeleton Lord (1762) */
+     , (0x7015E076, 0x7015E03E, '2005-02-09 10:00:00') /* Lich Lord (1630) */
+     , (0x7015E076, 0x7015E047, '2005-02-09 10:00:00') /* Lich Lord (1630) */
+     , (0x7015E076, 0x7015E048, '2005-02-09 10:00:00') /* Lich Lord (1630) */
+     , (0x7015E076, 0x7015E050, '2005-02-09 10:00:00') /* Risen Knight (8673) */
+     , (0x7015E076, 0x7015E058, '2005-02-09 10:00:00') /* Lich Lord (1630) */
+     , (0x7015E076, 0x7015E05E, '2005-02-09 10:00:00') /* Lich Lord (1630) */
+     , (0x7015E076, 0x7015E061, '2005-02-09 10:00:00') /* Lich Lord (1630) */
+     , (0x7015E076, 0x7015E063, '2005-02-09 10:00:00') /* Skeleton Lord (1762) */
+     , (0x7015E076, 0x7015E064, '2005-02-09 10:00:00') /* Skeleton Lord (1762) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7015E077,  7923, 0x015E0167, 80.6466, -170, 0.005, 1, 0, 0, 0, False, '2005-02-09 10:00:00'); /* Linkable Monster Generator ( 3 Min.) */
 /* @teleloc 0x015E0167 [80.646600 -170.000000 0.005000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7015E077, 0x7015E01D, '2005-02-09 10:00:00') /* Impious Mortuus Guardian */
-     , (0x7015E077, 0x7015E020, '2005-02-09 10:00:00') /* Impious Occasus Guardian */
-     , (0x7015E077, 0x7015E025, '2005-02-09 10:00:00') /* Impious Superna Guardian */
-     , (0x7015E077, 0x7015E028, '2005-02-09 10:00:00') /* Impious Inferus Guardian */
-     , (0x7015E077, 0x7015E068, '2005-02-09 10:00:00') /* Impious Lichen Priest */
-     , (0x7015E077, 0x7015E069, '2005-02-09 10:00:00') /* Impious Lichen Priest */
-     , (0x7015E077, 0x7015E06A, '2005-02-09 10:00:00') /* Impious Lichen Priest */
-     , (0x7015E077, 0x7015E06B, '2005-02-09 10:00:00') /* Impious Lichen Priest */
-     , (0x7015E077, 0x7015E071, '2005-02-09 10:00:00') /* Impious Lichen Priest */
-     , (0x7015E077, 0x7015E072, '2005-02-09 10:00:00') /* Impious Lichen Priest */
-     , (0x7015E077, 0x7015E073, '2005-02-09 10:00:00') /* Impious Lichen High Priest */;
+VALUES (0x7015E077, 0x7015E01D, '2005-02-09 10:00:00') /* Impious Mortuus Guardian (5934) */
+     , (0x7015E077, 0x7015E020, '2005-02-09 10:00:00') /* Impious Occasus Guardian (5931) */
+     , (0x7015E077, 0x7015E025, '2005-02-09 10:00:00') /* Impious Superna Guardian (5932) */
+     , (0x7015E077, 0x7015E028, '2005-02-09 10:00:00') /* Impious Inferus Guardian (5933) */
+     , (0x7015E077, 0x7015E068, '2005-02-09 10:00:00') /* Impious Lichen Priest (5922) */
+     , (0x7015E077, 0x7015E069, '2005-02-09 10:00:00') /* Impious Lichen Priest (5922) */
+     , (0x7015E077, 0x7015E06A, '2005-02-09 10:00:00') /* Impious Lichen Priest (5922) */
+     , (0x7015E077, 0x7015E06B, '2005-02-09 10:00:00') /* Impious Lichen Priest (5922) */
+     , (0x7015E077, 0x7015E071, '2005-02-09 10:00:00') /* Impious Lichen Priest (5922) */
+     , (0x7015E077, 0x7015E072, '2005-02-09 10:00:00') /* Impious Lichen Priest (5922) */
+     , (0x7015E077, 0x7015E073, '2005-02-09 10:00:00') /* Impious Lichen High Priest (5921) */;

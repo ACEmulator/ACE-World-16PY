@@ -9,25 +9,25 @@ VALUES (0x76F99001,  7924, 0x6F990000, 107.444, 182.236, 240.005, 0.00274578, 0,
 /* @teleloc 0x6F990000 [107.444000 182.236000 240.005000] 0.002746 0.000000 0.000000 -0.999996 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x76F99001, 0x76F99003, '2005-02-09 10:00:00') /* Aste Sclavus Lord */
-     , (0x76F99001, 0x76F99004, '2005-02-09 10:00:00') /* Aste Sclavus Lord */
-     , (0x76F99001, 0x76F99005, '2005-02-09 10:00:00') /* Ulu Sclavus */
-     , (0x76F99001, 0x76F99006, '2005-02-09 10:00:00') /* Chomu Sclavus */
-     , (0x76F99001, 0x76F99007, '2005-02-09 10:00:00') /* Faisi Sclavus */
-     , (0x76F99001, 0x76F99008, '2005-02-09 10:00:00') /* Essa Sclavus Lord */
-     , (0x76F99001, 0x76F99009, '2005-02-09 10:00:00') /* Aste Sclavus Lord */
-     , (0x76F99001, 0x76F9900A, '2005-02-09 10:00:00') /* Chomu Sclavus */
-     , (0x76F99001, 0x76F9900B, '2005-02-09 10:00:00') /* Chomu Sclavus */
-     , (0x76F99001, 0x76F9900C, '2005-02-09 10:00:00') /* Faisi Sclavus */
-     , (0x76F99001, 0x76F9900D, '2005-02-09 10:00:00') /* Faisi Sclavus */
-     , (0x76F99001, 0x76F9900E, '2005-02-09 10:00:00') /* Ulu Sclavus */;
+VALUES (0x76F99001, 0x76F99003, '2005-02-09 10:00:00') /* Aste Sclavus Lord (23483) */
+     , (0x76F99001, 0x76F99004, '2005-02-09 10:00:00') /* Aste Sclavus Lord (23483) */
+     , (0x76F99001, 0x76F99005, '2005-02-09 10:00:00') /* Ulu Sclavus (7110) */
+     , (0x76F99001, 0x76F99006, '2005-02-09 10:00:00') /* Chomu Sclavus (7112) */
+     , (0x76F99001, 0x76F99007, '2005-02-09 10:00:00') /* Faisi Sclavus (7111) */
+     , (0x76F99001, 0x76F99008, '2005-02-09 10:00:00') /* Essa Sclavus Lord (23485) */
+     , (0x76F99001, 0x76F99009, '2005-02-09 10:00:00') /* Aste Sclavus Lord (23483) */
+     , (0x76F99001, 0x76F9900A, '2005-02-09 10:00:00') /* Chomu Sclavus (7112) */
+     , (0x76F99001, 0x76F9900B, '2005-02-09 10:00:00') /* Chomu Sclavus (7112) */
+     , (0x76F99001, 0x76F9900C, '2005-02-09 10:00:00') /* Faisi Sclavus (7111) */
+     , (0x76F99001, 0x76F9900D, '2005-02-09 10:00:00') /* Faisi Sclavus (7111) */
+     , (0x76F99001, 0x76F9900E, '2005-02-09 10:00:00') /* Ulu Sclavus (7110) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x76F99002, 15759, 0x6F990000, 106.581, 131.31, 240.005, 1, 0, 0, 0, False, '2005-02-09 10:00:00'); /* Linkable Item Generator */
 /* @teleloc 0x6F990000 [106.581000 131.310000 240.005000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x76F99002, 0x76F99000, '2005-02-09 10:00:00') /* Large Golden Coin */;
+VALUES (0x76F99002, 0x76F99000, '2005-02-09 10:00:00') /* Large Golden Coin (27435) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x76F99003, 23483, 0x6F990000, 141.601, 182.003, 240.005, 0.493654, 0, 0, -0.869658,  True, '2005-02-09 10:00:00'); /* Aste Sclavus Lord */

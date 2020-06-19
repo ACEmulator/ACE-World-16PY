@@ -93,11 +93,11 @@ VALUES (0x79058018,  7923, 0x90580000, 131.905, 91.745, 0.005, -0.675204, 0, 0, 
 /* @teleloc 0x90580000 [131.905000 91.745000 0.005000] -0.675204 0.000000 0.000000 -0.737631 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79058018, 0x7905800E, '2005-02-09 10:00:00') /* Collector */
-     , (0x79058018, 0x79058013, '2005-02-09 10:00:00') /* Jilsaya bint Dah */
-     , (0x79058018, 0x7905802E, '2005-02-09 10:00:00') /* Jalina al-Hajj */
-     , (0x79058018, 0x7905802F, '2005-02-09 10:00:00') /* Adara al-Rajin */
-     , (0x79058018, 0x79058034, '2005-02-09 10:00:00') /* Apprentice Cook */;
+VALUES (0x79058018, 0x7905800E, '2005-02-09 10:00:00') /* Collector (3918) */
+     , (0x79058018, 0x79058013, '2005-02-09 10:00:00') /* Jilsaya bint Dah (5152) */
+     , (0x79058018, 0x7905802E, '2005-02-09 10:00:00') /* Jalina al-Hajj (25951) */
+     , (0x79058018, 0x7905802F, '2005-02-09 10:00:00') /* Adara al-Rajin (27251) */
+     , (0x79058018, 0x79058034, '2005-02-09 10:00:00') /* Apprentice Cook (27744) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7905801E, 16919, 0x90580000, 110.696, 90.4293, 2.27243E-07, -0.704711, 0, 0, -0.709494, False, '2005-02-09 10:00:00'); /* Pedestal Weak Spot */

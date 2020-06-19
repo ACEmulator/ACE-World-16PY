@@ -9,7 +9,7 @@ VALUES (0x7BD61005,  1542, 0xBD610100, 88.8142, 153.338, -0.34, -0.942044, 0, 0,
 /* @teleloc 0xBD610100 [88.814200 153.338000 -0.340000] -0.942044 0.000000 0.000000 -0.335490 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BD61005, 0x7BD61004, '2005-02-09 10:00:00') /* Carved Key */;
+VALUES (0x7BD61005, 0x7BD61004, '2005-02-09 10:00:00') /* Carved Key (2190) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BD6100A,  4020, 0xBD610100, 83.376, 147.791, -0.34, -0.743254, 0, 0, 0.669009, False, '2005-02-09 10:00:00'); /* Cheap Warrior Generator */
@@ -52,11 +52,11 @@ VALUES (0x7BD61013,  4219, 0xBD610100, 88.7103, 151.259, -0.34, -1, 0, 0, -0.000
 /* @teleloc 0xBD610100 [88.710300 151.259000 -0.340000] -1.000000 0.000000 0.000000 -0.000982 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BD61013, 0x7BD6100B, '2005-02-09 10:00:00') /* Mosswart Shaman */
-     , (0x7BD61013, 0x7BD6100C, '2005-02-09 10:00:00') /* Barker Mosswart */
-     , (0x7BD61013, 0x7BD6100D, '2005-02-09 10:00:00') /* Barker Mosswart */
-     , (0x7BD61013, 0x7BD6100E, '2005-02-09 10:00:00') /* Barker Mosswart */
-     , (0x7BD61013, 0x7BD6100F, '2005-02-09 10:00:00') /* Barker Mosswart */
-     , (0x7BD61013, 0x7BD61010, '2005-02-09 10:00:00') /* Barker Mosswart */
-     , (0x7BD61013, 0x7BD61011, '2005-02-09 10:00:00') /* Mudlurk Mosswart */
-     , (0x7BD61013, 0x7BD61012, '2005-02-09 10:00:00') /* Mudlurk Mosswart */;
+VALUES (0x7BD61013, 0x7BD6100B, '2005-02-09 10:00:00') /* Mosswart Shaman (1619) */
+     , (0x7BD61013, 0x7BD6100C, '2005-02-09 10:00:00') /* Barker Mosswart (947) */
+     , (0x7BD61013, 0x7BD6100D, '2005-02-09 10:00:00') /* Barker Mosswart (947) */
+     , (0x7BD61013, 0x7BD6100E, '2005-02-09 10:00:00') /* Barker Mosswart (947) */
+     , (0x7BD61013, 0x7BD6100F, '2005-02-09 10:00:00') /* Barker Mosswart (947) */
+     , (0x7BD61013, 0x7BD61010, '2005-02-09 10:00:00') /* Barker Mosswart (947) */
+     , (0x7BD61013, 0x7BD61011, '2005-02-09 10:00:00') /* Mudlurk Mosswart (211) */
+     , (0x7BD61013, 0x7BD61012, '2005-02-09 10:00:00') /* Mudlurk Mosswart (211) */;

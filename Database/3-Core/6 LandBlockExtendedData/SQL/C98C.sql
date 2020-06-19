@@ -97,7 +97,7 @@ VALUES (0x7C98C017,  1154, 0xC98C011D, 123.094, 183.024, 22.005, 0.124427, 0, 0,
 /* @teleloc 0xC98C011D [123.094000 183.024000 22.005000] 0.124427 0.000000 0.000000 -0.992229 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C98C017, 0x7C98C016, '2005-02-09 10:00:00') /* Weary-looking Man */;
+VALUES (0x7C98C017, 0x7C98C016, '2005-02-09 10:00:00') /* Weary-looking Man (2049) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C98C018,  8377, 0xC98C0128, 132.127, 174.826, 22.9467, 0.707107, 0, 0, -0.707107, False, '2005-02-09 10:00:00'); /* Beer Keg */
@@ -108,15 +108,15 @@ VALUES (0x7C98C019,  7923, 0xC98C0128, 134.683, 169.894, 22.005, -0.963373, 0, 0
 /* @teleloc 0xC98C0128 [134.683000 169.894000 22.005000] -0.963373 0.000000 0.000000 0.268165 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C98C019, 0x7C98C01A, '2005-02-09 10:00:00') /* Delton Hardor */
-     , (0x7C98C019, 0x7C98C01F, '2005-02-09 10:00:00') /* Fishing Hole */
-     , (0x7C98C019, 0x7C98C020, '2005-02-09 10:00:00') /* Fishing Hole */
-     , (0x7C98C019, 0x7C98C021, '2005-02-09 10:00:00') /* Fishing Hole */
-     , (0x7C98C019, 0x7C98C022, '2005-02-09 10:00:00') /* Fishing Hole */
-     , (0x7C98C019, 0x7C98C023, '2005-02-09 10:00:00') /* Fishing Hole */
-     , (0x7C98C019, 0x7C98C024, '2005-02-09 10:00:00') /* Fishing Hole */
-     , (0x7C98C019, 0x7C98C025, '2005-02-09 10:00:00') /* Fishing Hole */
-     , (0x7C98C019, 0x7C98C026, '2005-02-09 10:00:00') /* Fishing Hole */;
+VALUES (0x7C98C019, 0x7C98C01A, '2005-02-09 10:00:00') /* Delton Hardor (23349) */
+     , (0x7C98C019, 0x7C98C01F, '2005-02-09 10:00:00') /* Fishing Hole (22257) */
+     , (0x7C98C019, 0x7C98C020, '2005-02-09 10:00:00') /* Fishing Hole (22257) */
+     , (0x7C98C019, 0x7C98C021, '2005-02-09 10:00:00') /* Fishing Hole (22257) */
+     , (0x7C98C019, 0x7C98C022, '2005-02-09 10:00:00') /* Fishing Hole (22257) */
+     , (0x7C98C019, 0x7C98C023, '2005-02-09 10:00:00') /* Fishing Hole (22257) */
+     , (0x7C98C019, 0x7C98C024, '2005-02-09 10:00:00') /* Fishing Hole (22257) */
+     , (0x7C98C019, 0x7C98C025, '2005-02-09 10:00:00') /* Fishing Hole (22257) */
+     , (0x7C98C019, 0x7C98C026, '2005-02-09 10:00:00') /* Fishing Hole (22257) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C98C01A, 23349, 0xC98C0128, 134.345, 171.453, 22.005, -0.798204, 0, 0, 0.602387,  True, '2005-02-09 10:00:00'); /* Delton Hardor */
@@ -139,9 +139,9 @@ VALUES (0x7C98C01E,  7923, 0xC98C0000, 24.2018, 139.279, 3.555, -0.69211, 0, 0, 
 /* @teleloc 0xC98C0000 [24.201800 139.279000 3.555000] -0.692110 0.000000 0.000000 -0.721792 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C98C01E, 0x7C98C01B, '2005-02-09 10:00:00') /* Fishing Hole */
-     , (0x7C98C01E, 0x7C98C01C, '2005-02-09 10:00:00') /* Fishing Hole */
-     , (0x7C98C01E, 0x7C98C01D, '2005-02-09 10:00:00') /* Fishing Hole */;
+VALUES (0x7C98C01E, 0x7C98C01B, '2005-02-09 10:00:00') /* Fishing Hole (22257) */
+     , (0x7C98C01E, 0x7C98C01C, '2005-02-09 10:00:00') /* Fishing Hole (22257) */
+     , (0x7C98C01E, 0x7C98C01D, '2005-02-09 10:00:00') /* Fishing Hole (22257) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C98C01F, 22257, 0xC98C0000, 20.4506, 103.847, 3.555, -0.938581, 0, 0, 0.34506,  True, '2005-02-09 10:00:00'); /* Fishing Hole */

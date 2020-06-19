@@ -5,18 +5,18 @@ VALUES (0x7C352000,  5086, 0xC3520000, 50.594, 82.1929, 26.005, -0.720995, 0, 0,
 /* @teleloc 0xC3520000 [50.594000 82.192900 26.005000] -0.720995 0.000000 0.000000 0.692940 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C352000, 0x7C352001, '2005-02-09 10:00:00') /* Mudlurk Mosswart */
-     , (0x7C352000, 0x7C352002, '2005-02-09 10:00:00') /* Mudlurk Mosswart */
-     , (0x7C352000, 0x7C352003, '2005-02-09 10:00:00') /* Mudlurk Mosswart */
-     , (0x7C352000, 0x7C352004, '2005-02-09 10:00:00') /* Mudlurk Mosswart */
-     , (0x7C352000, 0x7C352005, '2005-02-09 10:00:00') /* Mudlurk Mosswart */
-     , (0x7C352000, 0x7C352006, '2005-02-09 10:00:00') /* Mudlurk Mosswart */
-     , (0x7C352000, 0x7C352007, '2005-02-09 10:00:00') /* Mudlurk Mosswart */
-     , (0x7C352000, 0x7C352008, '2005-02-09 10:00:00') /* Mudlurk Mosswart */
-     , (0x7C352000, 0x7C352009, '2005-02-09 10:00:00') /* Barker Mosswart */
-     , (0x7C352000, 0x7C35200A, '2005-02-09 10:00:00') /* Barker Mosswart */
-     , (0x7C352000, 0x7C35200B, '2005-02-09 10:00:00') /* Barker Mosswart */
-     , (0x7C352000, 0x7C35200C, '2005-02-09 10:00:00') /* Barker Mosswart */;
+VALUES (0x7C352000, 0x7C352001, '2005-02-09 10:00:00') /* Mudlurk Mosswart (211) */
+     , (0x7C352000, 0x7C352002, '2005-02-09 10:00:00') /* Mudlurk Mosswart (211) */
+     , (0x7C352000, 0x7C352003, '2005-02-09 10:00:00') /* Mudlurk Mosswart (211) */
+     , (0x7C352000, 0x7C352004, '2005-02-09 10:00:00') /* Mudlurk Mosswart (211) */
+     , (0x7C352000, 0x7C352005, '2005-02-09 10:00:00') /* Mudlurk Mosswart (211) */
+     , (0x7C352000, 0x7C352006, '2005-02-09 10:00:00') /* Mudlurk Mosswart (211) */
+     , (0x7C352000, 0x7C352007, '2005-02-09 10:00:00') /* Mudlurk Mosswart (211) */
+     , (0x7C352000, 0x7C352008, '2005-02-09 10:00:00') /* Mudlurk Mosswart (211) */
+     , (0x7C352000, 0x7C352009, '2005-02-09 10:00:00') /* Barker Mosswart (947) */
+     , (0x7C352000, 0x7C35200A, '2005-02-09 10:00:00') /* Barker Mosswart (947) */
+     , (0x7C352000, 0x7C35200B, '2005-02-09 10:00:00') /* Barker Mosswart (947) */
+     , (0x7C352000, 0x7C35200C, '2005-02-09 10:00:00') /* Barker Mosswart (947) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C352001,   211, 0xC3520000, 86.8923, 91.2237, 22.4406, 0.799321, 0, 0, -0.600904,  True, '2005-02-09 10:00:00'); /* Mudlurk Mosswart */
@@ -71,10 +71,10 @@ VALUES (0x7C35200D,  7923, 0xC3520000, 52.4625, 76.4497, 26.005, -0.231693, 0, 0
 /* @teleloc 0xC3520000 [52.462500 76.449700 26.005000] -0.231693 0.000000 0.000000 0.972789 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C35200D, 0x7C35200E, '2005-02-09 10:00:00') /* Mosswart Shaman */
-     , (0x7C35200D, 0x7C35200F, '2005-02-09 10:00:00') /* Mosswart Shaman */
-     , (0x7C35200D, 0x7C352010, '2005-02-09 10:00:00') /* Mosswart Chief */
-     , (0x7C35200D, 0x7C352011, '2005-02-09 10:00:00') /* Banderling Captain */;
+VALUES (0x7C35200D, 0x7C35200E, '2005-02-09 10:00:00') /* Mosswart Shaman (1619) */
+     , (0x7C35200D, 0x7C35200F, '2005-02-09 10:00:00') /* Mosswart Shaman (1619) */
+     , (0x7C35200D, 0x7C352010, '2005-02-09 10:00:00') /* Mosswart Chief (210) */
+     , (0x7C35200D, 0x7C352011, '2005-02-09 10:00:00') /* Banderling Captain (8258) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C35200E,  1619, 0xC3520000, 51.8285, 75.6302, 26.0055, -0.0968396, 0, 0, 0.9953,  True, '2005-02-09 10:00:00'); /* Mosswart Shaman */

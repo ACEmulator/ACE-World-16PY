@@ -377,8 +377,8 @@ VALUES (0x75F4905D, 26553, 0x5F49045E, 130.16, -100, -29.995, 0.707107, 0, 0, -0
 /* @teleloc 0x5F49045E [130.160000 -100.000000 -29.995000] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x75F4905D, 0x75F4905C, '2005-02-09 10:00:00') /* Button */
-     , (0x75F4905D, 0x75F4905E, '2005-02-09 10:00:00') /* Button */;
+VALUES (0x75F4905D, 0x75F4905C, '2005-02-09 10:00:00') /* Button (8420) */
+     , (0x75F4905D, 0x75F4905E, '2005-02-09 10:00:00') /* Button (8419) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75F4905E,  8419, 0x5F49045E, 132, -101.565, -28.5, 0, 0, 0, -1,  True, '2005-02-09 10:00:00'); /* Button */
@@ -509,41 +509,41 @@ VALUES (0x75F4907D,  7923, 0x5F490528, 80, -50, -17.995, 1, 0, 0, 0, False, '200
 /* @teleloc 0x5F490528 [80.000000 -50.000000 -17.995000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x75F4907D, 0x75F49000, '2005-02-09 10:00:00') /* Wailing Statue */
-     , (0x75F4907D, 0x75F49001, '2005-02-09 10:00:00') /* Wailing Statue */
-     , (0x75F4907D, 0x75F49002, '2005-02-09 10:00:00') /* Wailing Statue */
-     , (0x75F4907D, 0x75F49003, '2005-02-09 10:00:00') /* Wailing Statue */
-     , (0x75F4907D, 0x75F49006, '2005-02-09 10:00:00') /* Wailing Statue */
-     , (0x75F4907D, 0x75F4900B, '2005-02-09 10:00:00') /* Wailing Statue */
-     , (0x75F4907D, 0x75F4900E, '2005-02-09 10:00:00') /* Wailing Statue */
-     , (0x75F4907D, 0x75F4900F, '2005-02-09 10:00:00') /* Wailing Statue */
-     , (0x75F4907D, 0x75F49010, '2005-02-09 10:00:00') /* Wailing Statue */
-     , (0x75F4907D, 0x75F49017, '2005-02-09 10:00:00') /* Wailing Statue */
-     , (0x75F4907D, 0x75F49018, '2005-02-09 10:00:00') /* Wailing Statue */
-     , (0x75F4907D, 0x75F49019, '2005-02-09 10:00:00') /* Wailing Statue */
-     , (0x75F4907D, 0x75F4901A, '2005-02-09 10:00:00') /* Wailing Statue */
-     , (0x75F4907D, 0x75F4901B, '2005-02-09 10:00:00') /* Wailing Statue */
-     , (0x75F4907D, 0x75F4901C, '2005-02-09 10:00:00') /* Wailing Statue */
-     , (0x75F4907D, 0x75F49023, '2005-02-09 10:00:00') /* Wailing Statue */
-     , (0x75F4907D, 0x75F49024, '2005-02-09 10:00:00') /* Wailing Statue */
-     , (0x75F4907D, 0x75F49025, '2005-02-09 10:00:00') /* Wailing Statue */
-     , (0x75F4907D, 0x75F49028, '2005-02-09 10:00:00') /* Wailing Statue */
-     , (0x75F4907D, 0x75F4902D, '2005-02-09 10:00:00') /* Wailing Statue */
-     , (0x75F4907D, 0x75F49079, '2005-02-09 10:00:00') /* Wailing Statue */
-     , (0x75F4907D, 0x75F4907A, '2005-02-09 10:00:00') /* Wailing Statue */
-     , (0x75F4907D, 0x75F4907B, '2005-02-09 10:00:00') /* Wailing Statue */
-     , (0x75F4907D, 0x75F4907C, '2005-02-09 10:00:00') /* Wailing Statue */
-     , (0x75F4907D, 0x75F49087, '2005-02-09 10:00:00') /* Eye of the Watcher */
-     , (0x75F4907D, 0x75F4908E, '2005-02-09 10:00:00') /* Eye of the Watcher */
-     , (0x75F4907D, 0x75F4908F, '2005-02-09 10:00:00') /* Eye of the Watcher */
-     , (0x75F4907D, 0x75F49090, '2005-02-09 10:00:00') /* Eye of the Watcher */
-     , (0x75F4907D, 0x75F49091, '2005-02-09 10:00:00') /* Eye of the Watcher */
-     , (0x75F4907D, 0x75F49092, '2005-02-09 10:00:00') /* Eye of the Watcher */
-     , (0x75F4907D, 0x75F49093, '2005-02-09 10:00:00') /* Eye of the Watcher */
-     , (0x75F4907D, 0x75F49094, '2005-02-09 10:00:00') /* Strange Device */
-     , (0x75F4907D, 0x75F49095, '2005-02-09 10:00:00') /* Eye of the Watcher */
-     , (0x75F4907D, 0x75F49096, '2005-02-09 10:00:00') /* Eye of the Watcher */
-     , (0x75F4907D, 0x75F49097, '2005-02-09 10:00:00') /* Eye of the Watcher */;
+VALUES (0x75F4907D, 0x75F49000, '2005-02-09 10:00:00') /* Wailing Statue (26568) */
+     , (0x75F4907D, 0x75F49001, '2005-02-09 10:00:00') /* Wailing Statue (26568) */
+     , (0x75F4907D, 0x75F49002, '2005-02-09 10:00:00') /* Wailing Statue (26568) */
+     , (0x75F4907D, 0x75F49003, '2005-02-09 10:00:00') /* Wailing Statue (26568) */
+     , (0x75F4907D, 0x75F49006, '2005-02-09 10:00:00') /* Wailing Statue (26568) */
+     , (0x75F4907D, 0x75F4900B, '2005-02-09 10:00:00') /* Wailing Statue (26568) */
+     , (0x75F4907D, 0x75F4900E, '2005-02-09 10:00:00') /* Wailing Statue (26568) */
+     , (0x75F4907D, 0x75F4900F, '2005-02-09 10:00:00') /* Wailing Statue (26568) */
+     , (0x75F4907D, 0x75F49010, '2005-02-09 10:00:00') /* Wailing Statue (26568) */
+     , (0x75F4907D, 0x75F49017, '2005-02-09 10:00:00') /* Wailing Statue (26568) */
+     , (0x75F4907D, 0x75F49018, '2005-02-09 10:00:00') /* Wailing Statue (26568) */
+     , (0x75F4907D, 0x75F49019, '2005-02-09 10:00:00') /* Wailing Statue (26568) */
+     , (0x75F4907D, 0x75F4901A, '2005-02-09 10:00:00') /* Wailing Statue (26568) */
+     , (0x75F4907D, 0x75F4901B, '2005-02-09 10:00:00') /* Wailing Statue (26568) */
+     , (0x75F4907D, 0x75F4901C, '2005-02-09 10:00:00') /* Wailing Statue (26568) */
+     , (0x75F4907D, 0x75F49023, '2005-02-09 10:00:00') /* Wailing Statue (26568) */
+     , (0x75F4907D, 0x75F49024, '2005-02-09 10:00:00') /* Wailing Statue (26568) */
+     , (0x75F4907D, 0x75F49025, '2005-02-09 10:00:00') /* Wailing Statue (26568) */
+     , (0x75F4907D, 0x75F49028, '2005-02-09 10:00:00') /* Wailing Statue (26568) */
+     , (0x75F4907D, 0x75F4902D, '2005-02-09 10:00:00') /* Wailing Statue (26568) */
+     , (0x75F4907D, 0x75F49079, '2005-02-09 10:00:00') /* Wailing Statue (26568) */
+     , (0x75F4907D, 0x75F4907A, '2005-02-09 10:00:00') /* Wailing Statue (26568) */
+     , (0x75F4907D, 0x75F4907B, '2005-02-09 10:00:00') /* Wailing Statue (26568) */
+     , (0x75F4907D, 0x75F4907C, '2005-02-09 10:00:00') /* Wailing Statue (26568) */
+     , (0x75F4907D, 0x75F49087, '2005-02-09 10:00:00') /* Eye of the Watcher (27945) */
+     , (0x75F4907D, 0x75F4908E, '2005-02-09 10:00:00') /* Eye of the Watcher (27945) */
+     , (0x75F4907D, 0x75F4908F, '2005-02-09 10:00:00') /* Eye of the Watcher (27945) */
+     , (0x75F4907D, 0x75F49090, '2005-02-09 10:00:00') /* Eye of the Watcher (27941) */
+     , (0x75F4907D, 0x75F49091, '2005-02-09 10:00:00') /* Eye of the Watcher (27942) */
+     , (0x75F4907D, 0x75F49092, '2005-02-09 10:00:00') /* Eye of the Watcher (27945) */
+     , (0x75F4907D, 0x75F49093, '2005-02-09 10:00:00') /* Eye of the Watcher (27944) */
+     , (0x75F4907D, 0x75F49094, '2005-02-09 10:00:00') /* Strange Device (27934) */
+     , (0x75F4907D, 0x75F49095, '2005-02-09 10:00:00') /* Eye of the Watcher (27943) */
+     , (0x75F4907D, 0x75F49096, '2005-02-09 10:00:00') /* Eye of the Watcher (27945) */
+     , (0x75F4907D, 0x75F49097, '2005-02-09 10:00:00') /* Eye of the Watcher (27945) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75F4907E, 27920, 0x5F490539, 91.8545, -80.5076, -17.9864, -0.0931571, 0, 0, -0.995651,  True, '2005-02-09 10:00:00'); /* Tormented Attendant */
@@ -590,126 +590,126 @@ VALUES (0x75F49088,  7924, 0x5F4905A9, 81.1452, -70, -5.995, 1, 0, 0, 0, False, 
 /* @teleloc 0x5F4905A9 [81.145200 -70.000000 -5.995000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x75F49088, 0x75F49013, '2005-02-09 10:00:00') /* Tormented Attendant */
-     , (0x75F49088, 0x75F49030, '2005-02-09 10:00:00') /* Tormented Attendant */
-     , (0x75F49088, 0x75F49031, '2005-02-09 10:00:00') /* Tormented Attendant */
-     , (0x75F49088, 0x75F49037, '2005-02-09 10:00:00') /* Tormented Attendant */
-     , (0x75F49088, 0x75F49038, '2005-02-09 10:00:00') /* Tormented Attendant */
-     , (0x75F49088, 0x75F49039, '2005-02-09 10:00:00') /* Tormented Attendant */
-     , (0x75F49088, 0x75F4903A, '2005-02-09 10:00:00') /* Tormented Attendant */
-     , (0x75F49088, 0x75F4903B, '2005-02-09 10:00:00') /* Tormented Attendant */
-     , (0x75F49088, 0x75F4903C, '2005-02-09 10:00:00') /* Tormented Attendant */
-     , (0x75F49088, 0x75F49040, '2005-02-09 10:00:00') /* Tormented Attendant */
-     , (0x75F49088, 0x75F49041, '2005-02-09 10:00:00') /* Tormented Attendant */
-     , (0x75F49088, 0x75F49042, '2005-02-09 10:00:00') /* Wailing Statue */
-     , (0x75F49088, 0x75F49043, '2005-02-09 10:00:00') /* Wailing Statue */
-     , (0x75F49088, 0x75F49044, '2005-02-09 10:00:00') /* Tormented Attendant */
-     , (0x75F49088, 0x75F49045, '2005-02-09 10:00:00') /* Tormented Attendant */
-     , (0x75F49088, 0x75F4904C, '2005-02-09 10:00:00') /* Tormented Attendant */
-     , (0x75F49088, 0x75F4904D, '2005-02-09 10:00:00') /* Tormented Attendant */
-     , (0x75F49088, 0x75F49050, '2005-02-09 10:00:00') /* Tormented Attendant */
-     , (0x75F49088, 0x75F49051, '2005-02-09 10:00:00') /* Tormented Attendant */
-     , (0x75F49088, 0x75F49054, '2005-02-09 10:00:00') /* Tormented Attendant */
-     , (0x75F49088, 0x75F49055, '2005-02-09 10:00:00') /* Tormented Attendant */
-     , (0x75F49088, 0x75F49056, '2005-02-09 10:00:00') /* Tormented Attendant */
-     , (0x75F49088, 0x75F4905A, '2005-02-09 10:00:00') /* Tormented Attendant */
-     , (0x75F49088, 0x75F4905B, '2005-02-09 10:00:00') /* Tormented Attendant */
-     , (0x75F49088, 0x75F4905F, '2005-02-09 10:00:00') /* Tormented Attendant */
-     , (0x75F49088, 0x75F49060, '2005-02-09 10:00:00') /* Tormented Attendant */
-     , (0x75F49088, 0x75F49061, '2005-02-09 10:00:00') /* Tormented Attendant */
-     , (0x75F49088, 0x75F49062, '2005-02-09 10:00:00') /* Tormented Attendant */
-     , (0x75F49088, 0x75F49063, '2005-02-09 10:00:00') /* Tormented Attendant */
-     , (0x75F49088, 0x75F49064, '2005-02-09 10:00:00') /* Tormented Attendant */
-     , (0x75F49088, 0x75F49065, '2005-02-09 10:00:00') /* Tormented Attendant */
-     , (0x75F49088, 0x75F49066, '2005-02-09 10:00:00') /* Tormented Attendant */
-     , (0x75F49088, 0x75F49067, '2005-02-09 10:00:00') /* Tormented Attendant */
-     , (0x75F49088, 0x75F49068, '2005-02-09 10:00:00') /* Tormented Attendant */
-     , (0x75F49088, 0x75F49069, '2005-02-09 10:00:00') /* Tormented Attendant */
-     , (0x75F49088, 0x75F4906A, '2005-02-09 10:00:00') /* Tormented Attendant */
-     , (0x75F49088, 0x75F4906B, '2005-02-09 10:00:00') /* Tormented Attendant */
-     , (0x75F49088, 0x75F4906C, '2005-02-09 10:00:00') /* Tormented Attendant */
-     , (0x75F49088, 0x75F4906D, '2005-02-09 10:00:00') /* Tormented Attendant */
-     , (0x75F49088, 0x75F4906E, '2005-02-09 10:00:00') /* Tormented Attendant */;
+VALUES (0x75F49088, 0x75F49013, '2005-02-09 10:00:00') /* Tormented Attendant (27920) */
+     , (0x75F49088, 0x75F49030, '2005-02-09 10:00:00') /* Tormented Attendant (27920) */
+     , (0x75F49088, 0x75F49031, '2005-02-09 10:00:00') /* Tormented Attendant (27920) */
+     , (0x75F49088, 0x75F49037, '2005-02-09 10:00:00') /* Tormented Attendant (27920) */
+     , (0x75F49088, 0x75F49038, '2005-02-09 10:00:00') /* Tormented Attendant (27920) */
+     , (0x75F49088, 0x75F49039, '2005-02-09 10:00:00') /* Tormented Attendant (27920) */
+     , (0x75F49088, 0x75F4903A, '2005-02-09 10:00:00') /* Tormented Attendant (27920) */
+     , (0x75F49088, 0x75F4903B, '2005-02-09 10:00:00') /* Tormented Attendant (27920) */
+     , (0x75F49088, 0x75F4903C, '2005-02-09 10:00:00') /* Tormented Attendant (27920) */
+     , (0x75F49088, 0x75F49040, '2005-02-09 10:00:00') /* Tormented Attendant (27920) */
+     , (0x75F49088, 0x75F49041, '2005-02-09 10:00:00') /* Tormented Attendant (27920) */
+     , (0x75F49088, 0x75F49042, '2005-02-09 10:00:00') /* Wailing Statue (26544) */
+     , (0x75F49088, 0x75F49043, '2005-02-09 10:00:00') /* Wailing Statue (26568) */
+     , (0x75F49088, 0x75F49044, '2005-02-09 10:00:00') /* Tormented Attendant (27920) */
+     , (0x75F49088, 0x75F49045, '2005-02-09 10:00:00') /* Tormented Attendant (27920) */
+     , (0x75F49088, 0x75F4904C, '2005-02-09 10:00:00') /* Tormented Attendant (27920) */
+     , (0x75F49088, 0x75F4904D, '2005-02-09 10:00:00') /* Tormented Attendant (27920) */
+     , (0x75F49088, 0x75F49050, '2005-02-09 10:00:00') /* Tormented Attendant (27920) */
+     , (0x75F49088, 0x75F49051, '2005-02-09 10:00:00') /* Tormented Attendant (27920) */
+     , (0x75F49088, 0x75F49054, '2005-02-09 10:00:00') /* Tormented Attendant (27920) */
+     , (0x75F49088, 0x75F49055, '2005-02-09 10:00:00') /* Tormented Attendant (27920) */
+     , (0x75F49088, 0x75F49056, '2005-02-09 10:00:00') /* Tormented Attendant (27920) */
+     , (0x75F49088, 0x75F4905A, '2005-02-09 10:00:00') /* Tormented Attendant (27920) */
+     , (0x75F49088, 0x75F4905B, '2005-02-09 10:00:00') /* Tormented Attendant (27920) */
+     , (0x75F49088, 0x75F4905F, '2005-02-09 10:00:00') /* Tormented Attendant (27920) */
+     , (0x75F49088, 0x75F49060, '2005-02-09 10:00:00') /* Tormented Attendant (27920) */
+     , (0x75F49088, 0x75F49061, '2005-02-09 10:00:00') /* Tormented Attendant (27920) */
+     , (0x75F49088, 0x75F49062, '2005-02-09 10:00:00') /* Tormented Attendant (27920) */
+     , (0x75F49088, 0x75F49063, '2005-02-09 10:00:00') /* Tormented Attendant (27920) */
+     , (0x75F49088, 0x75F49064, '2005-02-09 10:00:00') /* Tormented Attendant (27920) */
+     , (0x75F49088, 0x75F49065, '2005-02-09 10:00:00') /* Tormented Attendant (27920) */
+     , (0x75F49088, 0x75F49066, '2005-02-09 10:00:00') /* Tormented Attendant (27920) */
+     , (0x75F49088, 0x75F49067, '2005-02-09 10:00:00') /* Tormented Attendant (27920) */
+     , (0x75F49088, 0x75F49068, '2005-02-09 10:00:00') /* Tormented Attendant (27920) */
+     , (0x75F49088, 0x75F49069, '2005-02-09 10:00:00') /* Tormented Attendant (27920) */
+     , (0x75F49088, 0x75F4906A, '2005-02-09 10:00:00') /* Tormented Attendant (27920) */
+     , (0x75F49088, 0x75F4906B, '2005-02-09 10:00:00') /* Tormented Attendant (27920) */
+     , (0x75F49088, 0x75F4906C, '2005-02-09 10:00:00') /* Tormented Attendant (27920) */
+     , (0x75F49088, 0x75F4906D, '2005-02-09 10:00:00') /* Tormented Attendant (27920) */
+     , (0x75F49088, 0x75F4906E, '2005-02-09 10:00:00') /* Tormented Attendant (27920) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75F49089,  7924, 0x5F4905A9, 82.9953, -70, -5.995, 1, 0, 0, 0, False, '2005-02-09 10:00:00'); /* Linkable Monster Generator ( 5 Min.) */
 /* @teleloc 0x5F4905A9 [82.995300 -70.000000 -5.995000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x75F49089, 0x75F49032, '2005-02-09 10:00:00') /* Tormented Attendant */
-     , (0x75F49089, 0x75F49033, '2005-02-09 10:00:00') /* Tormented Attendant */
-     , (0x75F49089, 0x75F49034, '2005-02-09 10:00:00') /* Tormented Attendant */
-     , (0x75F49089, 0x75F49035, '2005-02-09 10:00:00') /* Tormented Attendant */
-     , (0x75F49089, 0x75F49036, '2005-02-09 10:00:00') /* Tormented Attendant */
-     , (0x75F49089, 0x75F4903D, '2005-02-09 10:00:00') /* Tormented Attendant */
-     , (0x75F49089, 0x75F4903E, '2005-02-09 10:00:00') /* Tormented Attendant */
-     , (0x75F49089, 0x75F4903F, '2005-02-09 10:00:00') /* Tormented Attendant */
-     , (0x75F49089, 0x75F49046, '2005-02-09 10:00:00') /* Tormented Attendant */
-     , (0x75F49089, 0x75F49047, '2005-02-09 10:00:00') /* Tormented Attendant */
-     , (0x75F49089, 0x75F49048, '2005-02-09 10:00:00') /* Wailing Statue */
-     , (0x75F49089, 0x75F49049, '2005-02-09 10:00:00') /* Wailing Statue */
-     , (0x75F49089, 0x75F4904A, '2005-02-09 10:00:00') /* Tormented Attendant */
-     , (0x75F49089, 0x75F4904B, '2005-02-09 10:00:00') /* Tormented Attendant */
-     , (0x75F49089, 0x75F4904E, '2005-02-09 10:00:00') /* Tormented Attendant */
-     , (0x75F49089, 0x75F4904F, '2005-02-09 10:00:00') /* Tormented Attendant */
-     , (0x75F49089, 0x75F49052, '2005-02-09 10:00:00') /* Wailing Statue */
-     , (0x75F49089, 0x75F49053, '2005-02-09 10:00:00') /* Wailing Statue */
-     , (0x75F49089, 0x75F49057, '2005-02-09 10:00:00') /* Tormented Attendant */
-     , (0x75F49089, 0x75F49058, '2005-02-09 10:00:00') /* Wailing Statue */
-     , (0x75F49089, 0x75F49059, '2005-02-09 10:00:00') /* Wailing Statue */
-     , (0x75F49089, 0x75F4906F, '2005-02-09 10:00:00') /* Tormented Attendant */
-     , (0x75F49089, 0x75F49070, '2005-02-09 10:00:00') /* Tormented Attendant */
-     , (0x75F49089, 0x75F49071, '2005-02-09 10:00:00') /* Tormented Attendant */
-     , (0x75F49089, 0x75F49072, '2005-02-09 10:00:00') /* Wailing Statue */
-     , (0x75F49089, 0x75F49073, '2005-02-09 10:00:00') /* Tormented Attendant */
-     , (0x75F49089, 0x75F49074, '2005-02-09 10:00:00') /* Tormented Attendant */
-     , (0x75F49089, 0x75F49075, '2005-02-09 10:00:00') /* Tormented Attendant */
-     , (0x75F49089, 0x75F49076, '2005-02-09 10:00:00') /* Tormented Attendant */
-     , (0x75F49089, 0x75F49077, '2005-02-09 10:00:00') /* Tormented Attendant */
-     , (0x75F49089, 0x75F49078, '2005-02-09 10:00:00') /* Wailing Statue */
-     , (0x75F49089, 0x75F4907E, '2005-02-09 10:00:00') /* Tormented Attendant */
-     , (0x75F49089, 0x75F4907F, '2005-02-09 10:00:00') /* Tormented Attendant */
-     , (0x75F49089, 0x75F49081, '2005-02-09 10:00:00') /* Wailing Statue */
-     , (0x75F49089, 0x75F49082, '2005-02-09 10:00:00') /* Tormented Attendant */
-     , (0x75F49089, 0x75F49083, '2005-02-09 10:00:00') /* Tormented Attendant */
-     , (0x75F49089, 0x75F49084, '2005-02-09 10:00:00') /* Tormented Attendant */
-     , (0x75F49089, 0x75F49085, '2005-02-09 10:00:00') /* Tormented Attendant */
-     , (0x75F49089, 0x75F49086, '2005-02-09 10:00:00') /* Tormented Attendant */
-     , (0x75F49089, 0x75F4908B, '2005-02-09 10:00:00') /* Wailing Statue */;
+VALUES (0x75F49089, 0x75F49032, '2005-02-09 10:00:00') /* Tormented Attendant (27920) */
+     , (0x75F49089, 0x75F49033, '2005-02-09 10:00:00') /* Tormented Attendant (27920) */
+     , (0x75F49089, 0x75F49034, '2005-02-09 10:00:00') /* Tormented Attendant (27920) */
+     , (0x75F49089, 0x75F49035, '2005-02-09 10:00:00') /* Tormented Attendant (27920) */
+     , (0x75F49089, 0x75F49036, '2005-02-09 10:00:00') /* Tormented Attendant (27920) */
+     , (0x75F49089, 0x75F4903D, '2005-02-09 10:00:00') /* Tormented Attendant (27920) */
+     , (0x75F49089, 0x75F4903E, '2005-02-09 10:00:00') /* Tormented Attendant (27920) */
+     , (0x75F49089, 0x75F4903F, '2005-02-09 10:00:00') /* Tormented Attendant (27920) */
+     , (0x75F49089, 0x75F49046, '2005-02-09 10:00:00') /* Tormented Attendant (27920) */
+     , (0x75F49089, 0x75F49047, '2005-02-09 10:00:00') /* Tormented Attendant (27920) */
+     , (0x75F49089, 0x75F49048, '2005-02-09 10:00:00') /* Wailing Statue (26544) */
+     , (0x75F49089, 0x75F49049, '2005-02-09 10:00:00') /* Wailing Statue (26568) */
+     , (0x75F49089, 0x75F4904A, '2005-02-09 10:00:00') /* Tormented Attendant (27920) */
+     , (0x75F49089, 0x75F4904B, '2005-02-09 10:00:00') /* Tormented Attendant (27920) */
+     , (0x75F49089, 0x75F4904E, '2005-02-09 10:00:00') /* Tormented Attendant (27920) */
+     , (0x75F49089, 0x75F4904F, '2005-02-09 10:00:00') /* Tormented Attendant (27920) */
+     , (0x75F49089, 0x75F49052, '2005-02-09 10:00:00') /* Wailing Statue (26544) */
+     , (0x75F49089, 0x75F49053, '2005-02-09 10:00:00') /* Wailing Statue (26568) */
+     , (0x75F49089, 0x75F49057, '2005-02-09 10:00:00') /* Tormented Attendant (27920) */
+     , (0x75F49089, 0x75F49058, '2005-02-09 10:00:00') /* Wailing Statue (26544) */
+     , (0x75F49089, 0x75F49059, '2005-02-09 10:00:00') /* Wailing Statue (26568) */
+     , (0x75F49089, 0x75F4906F, '2005-02-09 10:00:00') /* Tormented Attendant (27920) */
+     , (0x75F49089, 0x75F49070, '2005-02-09 10:00:00') /* Tormented Attendant (27920) */
+     , (0x75F49089, 0x75F49071, '2005-02-09 10:00:00') /* Tormented Attendant (27920) */
+     , (0x75F49089, 0x75F49072, '2005-02-09 10:00:00') /* Wailing Statue (26568) */
+     , (0x75F49089, 0x75F49073, '2005-02-09 10:00:00') /* Tormented Attendant (27920) */
+     , (0x75F49089, 0x75F49074, '2005-02-09 10:00:00') /* Tormented Attendant (27920) */
+     , (0x75F49089, 0x75F49075, '2005-02-09 10:00:00') /* Tormented Attendant (27920) */
+     , (0x75F49089, 0x75F49076, '2005-02-09 10:00:00') /* Tormented Attendant (27920) */
+     , (0x75F49089, 0x75F49077, '2005-02-09 10:00:00') /* Tormented Attendant (27920) */
+     , (0x75F49089, 0x75F49078, '2005-02-09 10:00:00') /* Wailing Statue (26568) */
+     , (0x75F49089, 0x75F4907E, '2005-02-09 10:00:00') /* Tormented Attendant (27920) */
+     , (0x75F49089, 0x75F4907F, '2005-02-09 10:00:00') /* Tormented Attendant (27920) */
+     , (0x75F49089, 0x75F49081, '2005-02-09 10:00:00') /* Wailing Statue (26568) */
+     , (0x75F49089, 0x75F49082, '2005-02-09 10:00:00') /* Tormented Attendant (27920) */
+     , (0x75F49089, 0x75F49083, '2005-02-09 10:00:00') /* Tormented Attendant (27920) */
+     , (0x75F49089, 0x75F49084, '2005-02-09 10:00:00') /* Tormented Attendant (27920) */
+     , (0x75F49089, 0x75F49085, '2005-02-09 10:00:00') /* Tormented Attendant (27920) */
+     , (0x75F49089, 0x75F49086, '2005-02-09 10:00:00') /* Tormented Attendant (27920) */
+     , (0x75F49089, 0x75F4908B, '2005-02-09 10:00:00') /* Wailing Statue (26568) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75F4908A,  7924, 0x5F4905A9, 77.352, -70, -5.995, 1, 0, 0, 0, False, '2005-02-09 10:00:00'); /* Linkable Monster Generator ( 5 Min.) */
 /* @teleloc 0x5F4905A9 [77.352000 -70.000000 -5.995000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x75F4908A, 0x75F49004, '2005-02-09 10:00:00') /* Tormented Attendant */
-     , (0x75F4908A, 0x75F49005, '2005-02-09 10:00:00') /* Tormented Attendant */
-     , (0x75F4908A, 0x75F49007, '2005-02-09 10:00:00') /* Tormented Attendant */
-     , (0x75F4908A, 0x75F49008, '2005-02-09 10:00:00') /* Tormented Attendant */
-     , (0x75F4908A, 0x75F49009, '2005-02-09 10:00:00') /* Tormented Attendant */
-     , (0x75F4908A, 0x75F4900A, '2005-02-09 10:00:00') /* Tormented Attendant */
-     , (0x75F4908A, 0x75F4900C, '2005-02-09 10:00:00') /* Tormented Attendant */
-     , (0x75F4908A, 0x75F4900D, '2005-02-09 10:00:00') /* Tormented Attendant */
-     , (0x75F4908A, 0x75F49011, '2005-02-09 10:00:00') /* Tormented Attendant */
-     , (0x75F4908A, 0x75F49012, '2005-02-09 10:00:00') /* Tormented Attendant */
-     , (0x75F4908A, 0x75F49014, '2005-02-09 10:00:00') /* Tormented Attendant */
-     , (0x75F4908A, 0x75F49015, '2005-02-09 10:00:00') /* Tormented Attendant */
-     , (0x75F4908A, 0x75F49016, '2005-02-09 10:00:00') /* Tormented Attendant */
-     , (0x75F4908A, 0x75F4901D, '2005-02-09 10:00:00') /* Tormented Attendant */
-     , (0x75F4908A, 0x75F4901E, '2005-02-09 10:00:00') /* Tormented Attendant */
-     , (0x75F4908A, 0x75F4901F, '2005-02-09 10:00:00') /* Tormented Attendant */
-     , (0x75F4908A, 0x75F49020, '2005-02-09 10:00:00') /* Tormented Attendant */
-     , (0x75F4908A, 0x75F49021, '2005-02-09 10:00:00') /* Tormented Attendant */
-     , (0x75F4908A, 0x75F49022, '2005-02-09 10:00:00') /* Tormented Attendant */
-     , (0x75F4908A, 0x75F49026, '2005-02-09 10:00:00') /* Tormented Attendant */
-     , (0x75F4908A, 0x75F49027, '2005-02-09 10:00:00') /* Tormented Attendant */
-     , (0x75F4908A, 0x75F49029, '2005-02-09 10:00:00') /* Tormented Attendant */
-     , (0x75F4908A, 0x75F4902A, '2005-02-09 10:00:00') /* Tormented Attendant */
-     , (0x75F4908A, 0x75F4902B, '2005-02-09 10:00:00') /* Tormented Attendant */
-     , (0x75F4908A, 0x75F4902C, '2005-02-09 10:00:00') /* Tormented Attendant */
-     , (0x75F4908A, 0x75F4902E, '2005-02-09 10:00:00') /* Tormented Attendant */
-     , (0x75F4908A, 0x75F4902F, '2005-02-09 10:00:00') /* Tormented Attendant */
-     , (0x75F4908A, 0x75F49080, '2005-02-09 10:00:00') /* Wailing Statue */;
+VALUES (0x75F4908A, 0x75F49004, '2005-02-09 10:00:00') /* Tormented Attendant (27920) */
+     , (0x75F4908A, 0x75F49005, '2005-02-09 10:00:00') /* Tormented Attendant (27920) */
+     , (0x75F4908A, 0x75F49007, '2005-02-09 10:00:00') /* Tormented Attendant (27920) */
+     , (0x75F4908A, 0x75F49008, '2005-02-09 10:00:00') /* Tormented Attendant (27920) */
+     , (0x75F4908A, 0x75F49009, '2005-02-09 10:00:00') /* Tormented Attendant (27920) */
+     , (0x75F4908A, 0x75F4900A, '2005-02-09 10:00:00') /* Tormented Attendant (27920) */
+     , (0x75F4908A, 0x75F4900C, '2005-02-09 10:00:00') /* Tormented Attendant (27920) */
+     , (0x75F4908A, 0x75F4900D, '2005-02-09 10:00:00') /* Tormented Attendant (27920) */
+     , (0x75F4908A, 0x75F49011, '2005-02-09 10:00:00') /* Tormented Attendant (27920) */
+     , (0x75F4908A, 0x75F49012, '2005-02-09 10:00:00') /* Tormented Attendant (27920) */
+     , (0x75F4908A, 0x75F49014, '2005-02-09 10:00:00') /* Tormented Attendant (27920) */
+     , (0x75F4908A, 0x75F49015, '2005-02-09 10:00:00') /* Tormented Attendant (27920) */
+     , (0x75F4908A, 0x75F49016, '2005-02-09 10:00:00') /* Tormented Attendant (27920) */
+     , (0x75F4908A, 0x75F4901D, '2005-02-09 10:00:00') /* Tormented Attendant (27920) */
+     , (0x75F4908A, 0x75F4901E, '2005-02-09 10:00:00') /* Tormented Attendant (27920) */
+     , (0x75F4908A, 0x75F4901F, '2005-02-09 10:00:00') /* Tormented Attendant (27920) */
+     , (0x75F4908A, 0x75F49020, '2005-02-09 10:00:00') /* Tormented Attendant (27920) */
+     , (0x75F4908A, 0x75F49021, '2005-02-09 10:00:00') /* Tormented Attendant (27920) */
+     , (0x75F4908A, 0x75F49022, '2005-02-09 10:00:00') /* Tormented Attendant (27920) */
+     , (0x75F4908A, 0x75F49026, '2005-02-09 10:00:00') /* Tormented Attendant (27920) */
+     , (0x75F4908A, 0x75F49027, '2005-02-09 10:00:00') /* Tormented Attendant (27920) */
+     , (0x75F4908A, 0x75F49029, '2005-02-09 10:00:00') /* Tormented Attendant (27920) */
+     , (0x75F4908A, 0x75F4902A, '2005-02-09 10:00:00') /* Tormented Attendant (27920) */
+     , (0x75F4908A, 0x75F4902B, '2005-02-09 10:00:00') /* Tormented Attendant (27920) */
+     , (0x75F4908A, 0x75F4902C, '2005-02-09 10:00:00') /* Tormented Attendant (27920) */
+     , (0x75F4908A, 0x75F4902E, '2005-02-09 10:00:00') /* Tormented Attendant (27920) */
+     , (0x75F4908A, 0x75F4902F, '2005-02-09 10:00:00') /* Tormented Attendant (27920) */
+     , (0x75F4908A, 0x75F49080, '2005-02-09 10:00:00') /* Wailing Statue (26544) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75F4908B, 26568, 0x5F4905AB, 77.674, -82.2503, -6, 0.707107, 0, 0, -0.707107,  True, '2005-02-09 10:00:00'); /* Wailing Statue */
@@ -724,7 +724,7 @@ VALUES (0x75F4908D, 26553, 0x5F4905AE, 80, -79.84, -5.995, 1, 0, 0, -4.37114E-08
 /* @teleloc 0x5F4905AE [80.000000 -79.840000 -5.995000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x75F4908D, 0x75F4908C, '2005-02-09 10:00:00') /* Button */;
+VALUES (0x75F4908D, 0x75F4908C, '2005-02-09 10:00:00') /* Button (8419) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75F4908E, 27945, 0x5F4905BB, 99.85, -39.993, -4.007, -0.382684, 0, 0, -0.923879,  True, '2005-02-09 10:00:00'); /* Eye of the Watcher */

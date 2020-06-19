@@ -85,39 +85,39 @@ VALUES (0x702C2016,  7923, 0x02C201E6, 80, -60, 0.005, 0, 0, 0, -1, False, '2005
 /* @teleloc 0x02C201E6 [80.000000 -60.000000 0.005000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x702C2016, 0x702C2000, '2005-02-09 10:00:00') /* Rank Moarsman */
-     , (0x702C2016, 0x702C2001, '2005-02-09 10:00:00') /* Fetid Moarsman */
-     , (0x702C2016, 0x702C2003, '2005-02-09 10:00:00') /* Rank Moarsman */
-     , (0x702C2016, 0x702C2004, '2005-02-09 10:00:00') /* Muculent Moarsman */
-     , (0x702C2016, 0x702C2005, '2005-02-09 10:00:00') /* Fetid Moarsman */
-     , (0x702C2016, 0x702C2007, '2005-02-09 10:00:00') /* Rank Moarsman */
-     , (0x702C2016, 0x702C2008, '2005-02-09 10:00:00') /* Fetid Moarsman */
-     , (0x702C2016, 0x702C2009, '2005-02-09 10:00:00') /* Muculent Moarsman */
-     , (0x702C2016, 0x702C200A, '2005-02-09 10:00:00') /* Rank Moarsman */
-     , (0x702C2016, 0x702C200B, '2005-02-09 10:00:00') /* Fetid Moarsman */
-     , (0x702C2016, 0x702C200C, '2005-02-09 10:00:00') /* Muculent Moarsman */
-     , (0x702C2016, 0x702C200D, '2005-02-09 10:00:00') /* Rank Moarsman */
-     , (0x702C2016, 0x702C200E, '2005-02-09 10:00:00') /* Fetid Moarsman */
-     , (0x702C2016, 0x702C200F, '2005-02-09 10:00:00') /* Fetid Moarsman */
-     , (0x702C2016, 0x702C2010, '2005-02-09 10:00:00') /* Muculent Moarsman */
-     , (0x702C2016, 0x702C2011, '2005-02-09 10:00:00') /* Rank Moarsman */
-     , (0x702C2016, 0x702C2012, '2005-02-09 10:00:00') /* Rank Moarsman */
-     , (0x702C2016, 0x702C2013, '2005-02-09 10:00:00') /* Rank Moarsman */
-     , (0x702C2016, 0x702C2014, '2005-02-09 10:00:00') /* Fetid Moarsman */
-     , (0x702C2016, 0x702C2017, '2005-02-09 10:00:00') /* Muculent Moarsman */
-     , (0x702C2016, 0x702C2018, '2005-02-09 10:00:00') /* Fetid Moarsman */
-     , (0x702C2016, 0x702C201B, '2005-02-09 10:00:00') /* Muculent Moarsman */
-     , (0x702C2016, 0x702C201C, '2005-02-09 10:00:00') /* Rank Moarsman */
-     , (0x702C2016, 0x702C201D, '2005-02-09 10:00:00') /* Fetid Moarsman */
-     , (0x702C2016, 0x702C201E, '2005-02-09 10:00:00') /* Rank Moarsman */
-     , (0x702C2016, 0x702C201F, '2005-02-09 10:00:00') /* Rank Moarsman */
-     , (0x702C2016, 0x702C2020, '2005-02-09 10:00:00') /* Foul Moarsman */
-     , (0x702C2016, 0x702C2021, '2005-02-09 10:00:00') /* Fetid Moarsman */
-     , (0x702C2016, 0x702C2022, '2005-02-09 10:00:00') /* Muculent Moarsman */
-     , (0x702C2016, 0x702C2023, '2005-02-09 10:00:00') /* Rank Moarsman */
-     , (0x702C2016, 0x702C2024, '2005-02-09 10:00:00') /* Muculent Moarsman */
-     , (0x702C2016, 0x702C2025, '2005-02-09 10:00:00') /* Fetid Moarsman */
-     , (0x702C2016, 0x702C2026, '2005-02-09 10:00:00') /* Muculent Moarsman */;
+VALUES (0x702C2016, 0x702C2000, '2005-02-09 10:00:00') /* Rank Moarsman (4246) */
+     , (0x702C2016, 0x702C2001, '2005-02-09 10:00:00') /* Fetid Moarsman (27854) */
+     , (0x702C2016, 0x702C2003, '2005-02-09 10:00:00') /* Rank Moarsman (4246) */
+     , (0x702C2016, 0x702C2004, '2005-02-09 10:00:00') /* Muculent Moarsman (27858) */
+     , (0x702C2016, 0x702C2005, '2005-02-09 10:00:00') /* Fetid Moarsman (27854) */
+     , (0x702C2016, 0x702C2007, '2005-02-09 10:00:00') /* Rank Moarsman (4246) */
+     , (0x702C2016, 0x702C2008, '2005-02-09 10:00:00') /* Fetid Moarsman (27854) */
+     , (0x702C2016, 0x702C2009, '2005-02-09 10:00:00') /* Muculent Moarsman (27858) */
+     , (0x702C2016, 0x702C200A, '2005-02-09 10:00:00') /* Rank Moarsman (4246) */
+     , (0x702C2016, 0x702C200B, '2005-02-09 10:00:00') /* Fetid Moarsman (27854) */
+     , (0x702C2016, 0x702C200C, '2005-02-09 10:00:00') /* Muculent Moarsman (27858) */
+     , (0x702C2016, 0x702C200D, '2005-02-09 10:00:00') /* Rank Moarsman (4246) */
+     , (0x702C2016, 0x702C200E, '2005-02-09 10:00:00') /* Fetid Moarsman (27854) */
+     , (0x702C2016, 0x702C200F, '2005-02-09 10:00:00') /* Fetid Moarsman (27854) */
+     , (0x702C2016, 0x702C2010, '2005-02-09 10:00:00') /* Muculent Moarsman (27858) */
+     , (0x702C2016, 0x702C2011, '2005-02-09 10:00:00') /* Rank Moarsman (4246) */
+     , (0x702C2016, 0x702C2012, '2005-02-09 10:00:00') /* Rank Moarsman (4246) */
+     , (0x702C2016, 0x702C2013, '2005-02-09 10:00:00') /* Rank Moarsman (4246) */
+     , (0x702C2016, 0x702C2014, '2005-02-09 10:00:00') /* Fetid Moarsman (27854) */
+     , (0x702C2016, 0x702C2017, '2005-02-09 10:00:00') /* Muculent Moarsman (27858) */
+     , (0x702C2016, 0x702C2018, '2005-02-09 10:00:00') /* Fetid Moarsman (27854) */
+     , (0x702C2016, 0x702C201B, '2005-02-09 10:00:00') /* Muculent Moarsman (27858) */
+     , (0x702C2016, 0x702C201C, '2005-02-09 10:00:00') /* Rank Moarsman (4246) */
+     , (0x702C2016, 0x702C201D, '2005-02-09 10:00:00') /* Fetid Moarsman (27854) */
+     , (0x702C2016, 0x702C201E, '2005-02-09 10:00:00') /* Rank Moarsman (4246) */
+     , (0x702C2016, 0x702C201F, '2005-02-09 10:00:00') /* Rank Moarsman (4246) */
+     , (0x702C2016, 0x702C2020, '2005-02-09 10:00:00') /* Foul Moarsman (4247) */
+     , (0x702C2016, 0x702C2021, '2005-02-09 10:00:00') /* Fetid Moarsman (27854) */
+     , (0x702C2016, 0x702C2022, '2005-02-09 10:00:00') /* Muculent Moarsman (27858) */
+     , (0x702C2016, 0x702C2023, '2005-02-09 10:00:00') /* Rank Moarsman (4246) */
+     , (0x702C2016, 0x702C2024, '2005-02-09 10:00:00') /* Muculent Moarsman (27858) */
+     , (0x702C2016, 0x702C2025, '2005-02-09 10:00:00') /* Fetid Moarsman (27854) */
+     , (0x702C2016, 0x702C2026, '2005-02-09 10:00:00') /* Muculent Moarsman (27858) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x702C2017, 27858, 0x02C20100, 97.1392, -61.7985, -41.9936, -0.778852, 0, 0, 0.627208,  True, '2005-02-09 10:00:00'); /* Muculent Moarsman */
@@ -136,7 +136,7 @@ VALUES (0x702C201A, 15759, 0x02C20108, 123.735, -40.7288, -41.07, 0.131758, 0, 0
 /* @teleloc 0x02C20108 [123.735000 -40.728800 -41.070000] 0.131758 0.000000 0.000000 -0.991282 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x702C201A, 0x702C2019, '2005-02-09 10:00:00') /* Emerald Clasp */;
+VALUES (0x702C201A, 0x702C2019, '2005-02-09 10:00:00') /* Emerald Clasp (27764) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x702C201B, 27858, 0x02C20108, 117.511, -37.7013, -41.9936, 0.24495, 0, 0, -0.969536,  True, '2005-02-09 10:00:00'); /* Muculent Moarsman */

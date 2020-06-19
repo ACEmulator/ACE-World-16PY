@@ -565,106 +565,106 @@ VALUES (0x7000B0AD,  7924, 0x000B031F, 306.525, -168.458, -17.995, -0.770844, 0,
 /* @teleloc 0x000B031F [306.525000 -168.458000 -17.995000] -0.770844 0.000000 0.000000 -0.637024 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7000B0AD, 0x7000B03F, '2005-02-09 10:00:00') /* Banderling Spirit Seeker */
-     , (0x7000B0AD, 0x7000B07A, '2005-02-09 10:00:00') /* Banderling Spirit Seeker */
-     , (0x7000B0AD, 0x7000B082, '2005-02-09 10:00:00') /* Banderling Spirit Seeker */;
+VALUES (0x7000B0AD, 0x7000B03F, '2005-02-09 10:00:00') /* Banderling Spirit Seeker (30637) */
+     , (0x7000B0AD, 0x7000B07A, '2005-02-09 10:00:00') /* Banderling Spirit Seeker (30635) */
+     , (0x7000B0AD, 0x7000B082, '2005-02-09 10:00:00') /* Banderling Spirit Seeker (30636) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7000B0AE,  7932, 0x000B031F, 313.293, -173.915, -17.995, -0.0514901, 0, 0, 0.998673, False, '2005-02-09 10:00:00'); /* Linkable Monster Generator ( 4 Min.) */
 /* @teleloc 0x000B031F [313.293000 -173.915000 -17.995000] -0.051490 0.000000 0.000000 0.998673 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7000B0AE, 0x7000B02D, '2005-02-09 10:00:00') /* Ruby Gromnie */
-     , (0x7000B0AE, 0x7000B030, '2005-02-09 10:00:00') /* Ruby Gromnie */
-     , (0x7000B0AE, 0x7000B035, '2005-02-09 10:00:00') /* Ruby Gromnie */
-     , (0x7000B0AE, 0x7000B036, '2005-02-09 10:00:00') /* Ruby Gromnie */
-     , (0x7000B0AE, 0x7000B03A, '2005-02-09 10:00:00') /* Ruby Gromnie */
-     , (0x7000B0AE, 0x7000B03B, '2005-02-09 10:00:00') /* Ruby Gromnie */
-     , (0x7000B0AE, 0x7000B03E, '2005-02-09 10:00:00') /* Ruby Gromnie */
-     , (0x7000B0AE, 0x7000B047, '2005-02-09 10:00:00') /* Ruby Gromnie */
-     , (0x7000B0AE, 0x7000B049, '2005-02-09 10:00:00') /* Ruby Gromnie */
-     , (0x7000B0AE, 0x7000B04C, '2005-02-09 10:00:00') /* Ruby Gromnie */
-     , (0x7000B0AE, 0x7000B04F, '2005-02-09 10:00:00') /* Ruby Gromnie */
-     , (0x7000B0AE, 0x7000B050, '2005-02-09 10:00:00') /* Ruby Gromnie */
-     , (0x7000B0AE, 0x7000B054, '2005-02-09 10:00:00') /* Ruby Gromnie */
-     , (0x7000B0AE, 0x7000B055, '2005-02-09 10:00:00') /* Ruby Gromnie */
-     , (0x7000B0AE, 0x7000B058, '2005-02-09 10:00:00') /* Ruby Gromnie */
-     , (0x7000B0AE, 0x7000B05B, '2005-02-09 10:00:00') /* Ruby Gromnie */
-     , (0x7000B0AE, 0x7000B05D, '2005-02-09 10:00:00') /* Ruby Gromnie */
-     , (0x7000B0AE, 0x7000B05E, '2005-02-09 10:00:00') /* Ruby Gromnie */
-     , (0x7000B0AE, 0x7000B06A, '2005-02-09 10:00:00') /* Ruby Gromnie */
-     , (0x7000B0AE, 0x7000B06B, '2005-02-09 10:00:00') /* Ruby Gromnie */
-     , (0x7000B0AE, 0x7000B06D, '2005-02-09 10:00:00') /* Ruby Gromnie */
-     , (0x7000B0AE, 0x7000B06F, '2005-02-09 10:00:00') /* Ruby Gromnie */
-     , (0x7000B0AE, 0x7000B070, '2005-02-09 10:00:00') /* Ruby Gromnie */
-     , (0x7000B0AE, 0x7000B075, '2005-02-09 10:00:00') /* Ruby Gromnie */;
+VALUES (0x7000B0AE, 0x7000B02D, '2005-02-09 10:00:00') /* Ruby Gromnie (25598) */
+     , (0x7000B0AE, 0x7000B030, '2005-02-09 10:00:00') /* Ruby Gromnie (25598) */
+     , (0x7000B0AE, 0x7000B035, '2005-02-09 10:00:00') /* Ruby Gromnie (25598) */
+     , (0x7000B0AE, 0x7000B036, '2005-02-09 10:00:00') /* Ruby Gromnie (25598) */
+     , (0x7000B0AE, 0x7000B03A, '2005-02-09 10:00:00') /* Ruby Gromnie (25598) */
+     , (0x7000B0AE, 0x7000B03B, '2005-02-09 10:00:00') /* Ruby Gromnie (25598) */
+     , (0x7000B0AE, 0x7000B03E, '2005-02-09 10:00:00') /* Ruby Gromnie (25598) */
+     , (0x7000B0AE, 0x7000B047, '2005-02-09 10:00:00') /* Ruby Gromnie (25598) */
+     , (0x7000B0AE, 0x7000B049, '2005-02-09 10:00:00') /* Ruby Gromnie (25598) */
+     , (0x7000B0AE, 0x7000B04C, '2005-02-09 10:00:00') /* Ruby Gromnie (25598) */
+     , (0x7000B0AE, 0x7000B04F, '2005-02-09 10:00:00') /* Ruby Gromnie (25598) */
+     , (0x7000B0AE, 0x7000B050, '2005-02-09 10:00:00') /* Ruby Gromnie (25598) */
+     , (0x7000B0AE, 0x7000B054, '2005-02-09 10:00:00') /* Ruby Gromnie (25598) */
+     , (0x7000B0AE, 0x7000B055, '2005-02-09 10:00:00') /* Ruby Gromnie (25598) */
+     , (0x7000B0AE, 0x7000B058, '2005-02-09 10:00:00') /* Ruby Gromnie (25598) */
+     , (0x7000B0AE, 0x7000B05B, '2005-02-09 10:00:00') /* Ruby Gromnie (25598) */
+     , (0x7000B0AE, 0x7000B05D, '2005-02-09 10:00:00') /* Ruby Gromnie (25598) */
+     , (0x7000B0AE, 0x7000B05E, '2005-02-09 10:00:00') /* Ruby Gromnie (25598) */
+     , (0x7000B0AE, 0x7000B06A, '2005-02-09 10:00:00') /* Ruby Gromnie (25598) */
+     , (0x7000B0AE, 0x7000B06B, '2005-02-09 10:00:00') /* Ruby Gromnie (25598) */
+     , (0x7000B0AE, 0x7000B06D, '2005-02-09 10:00:00') /* Ruby Gromnie (25598) */
+     , (0x7000B0AE, 0x7000B06F, '2005-02-09 10:00:00') /* Ruby Gromnie (25598) */
+     , (0x7000B0AE, 0x7000B070, '2005-02-09 10:00:00') /* Ruby Gromnie (25598) */
+     , (0x7000B0AE, 0x7000B075, '2005-02-09 10:00:00') /* Ruby Gromnie (25598) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7000B0AF,  7932, 0x000B031F, 307.834, -166.104, -17.995, 0.705977, 0, 0, 0.708234, False, '2005-02-09 10:00:00'); /* Linkable Monster Generator ( 4 Min.) */
 /* @teleloc 0x000B031F [307.834000 -166.104000 -17.995000] 0.705977 0.000000 0.000000 0.708234 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7000B0AF, 0x7000B077, '2005-02-09 10:00:00') /* Banderling Chanter */
-     , (0x7000B0AF, 0x7000B078, '2005-02-09 10:00:00') /* Banderling Chanter */
-     , (0x7000B0AF, 0x7000B079, '2005-02-09 10:00:00') /* Banderling Chanter */
-     , (0x7000B0AF, 0x7000B07B, '2005-02-09 10:00:00') /* Banderling Chanter */
-     , (0x7000B0AF, 0x7000B07C, '2005-02-09 10:00:00') /* Banderling Chanter */
-     , (0x7000B0AF, 0x7000B07D, '2005-02-09 10:00:00') /* Banderling Chanter */
-     , (0x7000B0AF, 0x7000B07E, '2005-02-09 10:00:00') /* Banderling Chanter */
-     , (0x7000B0AF, 0x7000B07F, '2005-02-09 10:00:00') /* Banderling Chanter */
-     , (0x7000B0AF, 0x7000B080, '2005-02-09 10:00:00') /* Banderling Chanter */
-     , (0x7000B0AF, 0x7000B081, '2005-02-09 10:00:00') /* Banderling Chanter */
-     , (0x7000B0AF, 0x7000B083, '2005-02-09 10:00:00') /* Banderling Chanter */
-     , (0x7000B0AF, 0x7000B084, '2005-02-09 10:00:00') /* Banderling Chanter */
-     , (0x7000B0AF, 0x7000B085, '2005-02-09 10:00:00') /* Banderling Chanter */
-     , (0x7000B0AF, 0x7000B086, '2005-02-09 10:00:00') /* Banderling Chanter */
-     , (0x7000B0AF, 0x7000B087, '2005-02-09 10:00:00') /* Banderling Chanter */
-     , (0x7000B0AF, 0x7000B088, '2005-02-09 10:00:00') /* Banderling Chanter */
-     , (0x7000B0AF, 0x7000B089, '2005-02-09 10:00:00') /* Banderling Chanter */
-     , (0x7000B0AF, 0x7000B08A, '2005-02-09 10:00:00') /* Banderling Chanter */
-     , (0x7000B0AF, 0x7000B08B, '2005-02-09 10:00:00') /* Banderling Chanter */
-     , (0x7000B0AF, 0x7000B08C, '2005-02-09 10:00:00') /* Banderling Chanter */
-     , (0x7000B0AF, 0x7000B08D, '2005-02-09 10:00:00') /* Banderling Chanter */
-     , (0x7000B0AF, 0x7000B08E, '2005-02-09 10:00:00') /* Banderling Chanter */
-     , (0x7000B0AF, 0x7000B08F, '2005-02-09 10:00:00') /* Banderling Chanter */
-     , (0x7000B0AF, 0x7000B090, '2005-02-09 10:00:00') /* Banderling Chanter */
-     , (0x7000B0AF, 0x7000B091, '2005-02-09 10:00:00') /* Banderling Chanter */
-     , (0x7000B0AF, 0x7000B092, '2005-02-09 10:00:00') /* Banderling Chanter */
-     , (0x7000B0AF, 0x7000B093, '2005-02-09 10:00:00') /* Banderling Chanter */
-     , (0x7000B0AF, 0x7000B094, '2005-02-09 10:00:00') /* Banderling Chanter */
-     , (0x7000B0AF, 0x7000B095, '2005-02-09 10:00:00') /* Banderling Chanter */
-     , (0x7000B0AF, 0x7000B096, '2005-02-09 10:00:00') /* Banderling Chanter */
-     , (0x7000B0AF, 0x7000B097, '2005-02-09 10:00:00') /* Banderling Chanter */
-     , (0x7000B0AF, 0x7000B098, '2005-02-09 10:00:00') /* Banderling Chanter */
-     , (0x7000B0AF, 0x7000B099, '2005-02-09 10:00:00') /* Banderling Chanter */
-     , (0x7000B0AF, 0x7000B09A, '2005-02-09 10:00:00') /* Banderling Chanter */
-     , (0x7000B0AF, 0x7000B09B, '2005-02-09 10:00:00') /* Banderling Chanter */
-     , (0x7000B0AF, 0x7000B09C, '2005-02-09 10:00:00') /* Banderling Chanter */
-     , (0x7000B0AF, 0x7000B09D, '2005-02-09 10:00:00') /* Banderling Chanter */
-     , (0x7000B0AF, 0x7000B09E, '2005-02-09 10:00:00') /* Banderling Chanter */
-     , (0x7000B0AF, 0x7000B09F, '2005-02-09 10:00:00') /* Banderling Chanter */
-     , (0x7000B0AF, 0x7000B0A0, '2005-02-09 10:00:00') /* Banderling Chanter */
-     , (0x7000B0AF, 0x7000B0A1, '2005-02-09 10:00:00') /* Banderling Chanter */
-     , (0x7000B0AF, 0x7000B0A2, '2005-02-09 10:00:00') /* Banderling Chanter */
-     , (0x7000B0AF, 0x7000B0A3, '2005-02-09 10:00:00') /* Banderling Chanter */
-     , (0x7000B0AF, 0x7000B0A4, '2005-02-09 10:00:00') /* Banderling Chanter */
-     , (0x7000B0AF, 0x7000B0A5, '2005-02-09 10:00:00') /* Banderling Chanter */
-     , (0x7000B0AF, 0x7000B0A6, '2005-02-09 10:00:00') /* Banderling Chanter */
-     , (0x7000B0AF, 0x7000B0A7, '2005-02-09 10:00:00') /* Banderling Chanter */
-     , (0x7000B0AF, 0x7000B0A8, '2005-02-09 10:00:00') /* Banderling Chanter */
-     , (0x7000B0AF, 0x7000B0A9, '2005-02-09 10:00:00') /* Banderling Chanter */
-     , (0x7000B0AF, 0x7000B0AA, '2005-02-09 10:00:00') /* Banderling Chanter */
-     , (0x7000B0AF, 0x7000B0AB, '2005-02-09 10:00:00') /* Banderling Chanter */
-     , (0x7000B0AF, 0x7000B0B1, '2005-02-09 10:00:00') /* Banderling Chanter */;
+VALUES (0x7000B0AF, 0x7000B077, '2005-02-09 10:00:00') /* Banderling Chanter (30754) */
+     , (0x7000B0AF, 0x7000B078, '2005-02-09 10:00:00') /* Banderling Chanter (30754) */
+     , (0x7000B0AF, 0x7000B079, '2005-02-09 10:00:00') /* Banderling Chanter (30754) */
+     , (0x7000B0AF, 0x7000B07B, '2005-02-09 10:00:00') /* Banderling Chanter (30754) */
+     , (0x7000B0AF, 0x7000B07C, '2005-02-09 10:00:00') /* Banderling Chanter (30754) */
+     , (0x7000B0AF, 0x7000B07D, '2005-02-09 10:00:00') /* Banderling Chanter (30754) */
+     , (0x7000B0AF, 0x7000B07E, '2005-02-09 10:00:00') /* Banderling Chanter (30754) */
+     , (0x7000B0AF, 0x7000B07F, '2005-02-09 10:00:00') /* Banderling Chanter (30754) */
+     , (0x7000B0AF, 0x7000B080, '2005-02-09 10:00:00') /* Banderling Chanter (30754) */
+     , (0x7000B0AF, 0x7000B081, '2005-02-09 10:00:00') /* Banderling Chanter (30754) */
+     , (0x7000B0AF, 0x7000B083, '2005-02-09 10:00:00') /* Banderling Chanter (30754) */
+     , (0x7000B0AF, 0x7000B084, '2005-02-09 10:00:00') /* Banderling Chanter (30754) */
+     , (0x7000B0AF, 0x7000B085, '2005-02-09 10:00:00') /* Banderling Chanter (30754) */
+     , (0x7000B0AF, 0x7000B086, '2005-02-09 10:00:00') /* Banderling Chanter (30754) */
+     , (0x7000B0AF, 0x7000B087, '2005-02-09 10:00:00') /* Banderling Chanter (30754) */
+     , (0x7000B0AF, 0x7000B088, '2005-02-09 10:00:00') /* Banderling Chanter (30754) */
+     , (0x7000B0AF, 0x7000B089, '2005-02-09 10:00:00') /* Banderling Chanter (30754) */
+     , (0x7000B0AF, 0x7000B08A, '2005-02-09 10:00:00') /* Banderling Chanter (30754) */
+     , (0x7000B0AF, 0x7000B08B, '2005-02-09 10:00:00') /* Banderling Chanter (30754) */
+     , (0x7000B0AF, 0x7000B08C, '2005-02-09 10:00:00') /* Banderling Chanter (30754) */
+     , (0x7000B0AF, 0x7000B08D, '2005-02-09 10:00:00') /* Banderling Chanter (30754) */
+     , (0x7000B0AF, 0x7000B08E, '2005-02-09 10:00:00') /* Banderling Chanter (30754) */
+     , (0x7000B0AF, 0x7000B08F, '2005-02-09 10:00:00') /* Banderling Chanter (30754) */
+     , (0x7000B0AF, 0x7000B090, '2005-02-09 10:00:00') /* Banderling Chanter (30754) */
+     , (0x7000B0AF, 0x7000B091, '2005-02-09 10:00:00') /* Banderling Chanter (30754) */
+     , (0x7000B0AF, 0x7000B092, '2005-02-09 10:00:00') /* Banderling Chanter (30754) */
+     , (0x7000B0AF, 0x7000B093, '2005-02-09 10:00:00') /* Banderling Chanter (30754) */
+     , (0x7000B0AF, 0x7000B094, '2005-02-09 10:00:00') /* Banderling Chanter (30754) */
+     , (0x7000B0AF, 0x7000B095, '2005-02-09 10:00:00') /* Banderling Chanter (30754) */
+     , (0x7000B0AF, 0x7000B096, '2005-02-09 10:00:00') /* Banderling Chanter (30754) */
+     , (0x7000B0AF, 0x7000B097, '2005-02-09 10:00:00') /* Banderling Chanter (30754) */
+     , (0x7000B0AF, 0x7000B098, '2005-02-09 10:00:00') /* Banderling Chanter (30754) */
+     , (0x7000B0AF, 0x7000B099, '2005-02-09 10:00:00') /* Banderling Chanter (30754) */
+     , (0x7000B0AF, 0x7000B09A, '2005-02-09 10:00:00') /* Banderling Chanter (30754) */
+     , (0x7000B0AF, 0x7000B09B, '2005-02-09 10:00:00') /* Banderling Chanter (30754) */
+     , (0x7000B0AF, 0x7000B09C, '2005-02-09 10:00:00') /* Banderling Chanter (30754) */
+     , (0x7000B0AF, 0x7000B09D, '2005-02-09 10:00:00') /* Banderling Chanter (30754) */
+     , (0x7000B0AF, 0x7000B09E, '2005-02-09 10:00:00') /* Banderling Chanter (30754) */
+     , (0x7000B0AF, 0x7000B09F, '2005-02-09 10:00:00') /* Banderling Chanter (30754) */
+     , (0x7000B0AF, 0x7000B0A0, '2005-02-09 10:00:00') /* Banderling Chanter (30754) */
+     , (0x7000B0AF, 0x7000B0A1, '2005-02-09 10:00:00') /* Banderling Chanter (30754) */
+     , (0x7000B0AF, 0x7000B0A2, '2005-02-09 10:00:00') /* Banderling Chanter (30754) */
+     , (0x7000B0AF, 0x7000B0A3, '2005-02-09 10:00:00') /* Banderling Chanter (30754) */
+     , (0x7000B0AF, 0x7000B0A4, '2005-02-09 10:00:00') /* Banderling Chanter (30754) */
+     , (0x7000B0AF, 0x7000B0A5, '2005-02-09 10:00:00') /* Banderling Chanter (30754) */
+     , (0x7000B0AF, 0x7000B0A6, '2005-02-09 10:00:00') /* Banderling Chanter (30754) */
+     , (0x7000B0AF, 0x7000B0A7, '2005-02-09 10:00:00') /* Banderling Chanter (30754) */
+     , (0x7000B0AF, 0x7000B0A8, '2005-02-09 10:00:00') /* Banderling Chanter (30754) */
+     , (0x7000B0AF, 0x7000B0A9, '2005-02-09 10:00:00') /* Banderling Chanter (30754) */
+     , (0x7000B0AF, 0x7000B0AA, '2005-02-09 10:00:00') /* Banderling Chanter (30754) */
+     , (0x7000B0AF, 0x7000B0AB, '2005-02-09 10:00:00') /* Banderling Chanter (30754) */
+     , (0x7000B0AF, 0x7000B0B1, '2005-02-09 10:00:00') /* Banderling Chanter (30754) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7000B0B0,  7932, 0x000B031F, 308.028, -168.099, -17.995, -0.684709, 0, 0, -0.728817, False, '2005-02-09 10:00:00'); /* Linkable Monster Generator ( 4 Min.) */
 /* @teleloc 0x000B031F [308.028000 -168.099000 -17.995000] -0.684709 0.000000 0.000000 -0.728817 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7000B0B0, 0x7000B040, '2005-02-09 10:00:00') /* Banderling Chanter */
-     , (0x7000B0B0, 0x7000B041, '2005-02-09 10:00:00') /* Banderling Chanter */
-     , (0x7000B0B0, 0x7000B043, '2005-02-09 10:00:00') /* Banderling Chanter */;
+VALUES (0x7000B0B0, 0x7000B040, '2005-02-09 10:00:00') /* Banderling Chanter (30754) */
+     , (0x7000B0B0, 0x7000B041, '2005-02-09 10:00:00') /* Banderling Chanter (30754) */
+     , (0x7000B0B0, 0x7000B043, '2005-02-09 10:00:00') /* Banderling Chanter (30754) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7000B0B1, 30754, 0x000B0320, 316.015, -82.9116, -17.9929, -0.104127, 0, 0, -0.994564,  True, '2005-02-09 10:00:00'); /* Banderling Chanter */

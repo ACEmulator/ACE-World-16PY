@@ -29,7 +29,7 @@ VALUES (0x70017006,  7923, 0x00170109, 7.7338, -18.7995, -23.995, 0.364481, 0, 0
 /* @teleloc 0x00170109 [7.733800 -18.799500 -23.995000] 0.364481 0.000000 0.000000 -0.931211 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x70017006, 0x70017007, '2005-02-09 10:00:00') /* Withered Raider Prefect */;
+VALUES (0x70017006, 0x70017007, '2005-02-09 10:00:00') /* Withered Raider Prefect (30690) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x70017007, 30690, 0x00170109, 6.48216, -19.9565, -23.989, 0.364481, 0, 0, -0.931211,  True, '2005-02-09 10:00:00'); /* Withered Raider Prefect */
@@ -40,7 +40,7 @@ VALUES (0x70017008,  2179, 0x0017010B, 14.6357, -29.9725, -24, 0.707107, 0, 0, -
 /* @teleloc 0x0017010B [14.635700 -29.972500 -24.000000] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x70017008, 0x70017002, '2005-02-09 10:00:00') /* Lever */;
+VALUES (0x70017008, 0x70017002, '2005-02-09 10:00:00') /* Lever (286) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x70017009, 30687, 0x0017010C, 10.8906, -43.9709, -23.989, -0.352247, 0, 0, -0.935907,  True, '2005-02-09 10:00:00'); /* Withered Revered Tumerok Shaman */
@@ -135,7 +135,7 @@ VALUES (0x7001701F,  2179, 0x00170145, 14.75, -40, -12, 0.707107, 0, 0, -0.70710
 /* @teleloc 0x00170145 [14.750000 -40.000000 -12.000000] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7001701F, 0x70017028, '2005-02-09 10:00:00') /* Lever */;
+VALUES (0x7001701F, 0x70017028, '2005-02-09 10:00:00') /* Lever (286) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x70017020, 30689, 0x00170148, 10.8972, -64.139, -11.99, -0.707107, 0, 0, -0.707107,  True, '2005-02-09 10:00:00'); /* Withered Raider Prefect */
@@ -158,7 +158,7 @@ VALUES (0x70017024,  2179, 0x00170165, 25.25, -50, -12, -0.707107, 0, 0, -0.7071
 /* @teleloc 0x00170165 [25.250000 -50.000000 -12.000000] -0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x70017024, 0x70017017, '2005-02-09 10:00:00') /* Lever */;
+VALUES (0x70017024, 0x70017017, '2005-02-09 10:00:00') /* Lever (286) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x70017025, 30689, 0x0017016A, 27.8262, -67.6909, -11.99, 0.707107, 0, 0, -0.707107,  True, '2005-02-09 10:00:00'); /* Withered Raider Prefect */
@@ -237,31 +237,31 @@ VALUES (0x70017037,  7923, 0x001701CE, 20, -60, 12, -0.707107, 0, 0, -0.707107, 
 /* @teleloc 0x001701CE [20.000000 -60.000000 12.000000] -0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x70017037, 0x70017001, '2005-02-09 10:00:00') /* Withered Revered Tumerok Shaman */
-     , (0x70017037, 0x70017004, '2005-02-09 10:00:00') /* Withered Revered Tumerok Shaman */
-     , (0x70017037, 0x70017005, '2005-02-09 10:00:00') /* Withered Revered Tumerok Shaman */
-     , (0x70017037, 0x70017009, '2005-02-09 10:00:00') /* Withered Revered Tumerok Shaman */
-     , (0x70017037, 0x7001700A, '2005-02-09 10:00:00') /* Withered Revered Tumerok Shaman */
-     , (0x70017037, 0x7001700B, '2005-02-09 10:00:00') /* Withered Raider Prefect */
-     , (0x70017037, 0x7001700D, '2005-02-09 10:00:00') /* Withered Raider Prefect */
-     , (0x70017037, 0x7001700E, '2005-02-09 10:00:00') /* Withered Raider Prefect */
-     , (0x70017037, 0x7001700F, '2005-02-09 10:00:00') /* Withered Raider Prefect */
-     , (0x70017037, 0x70017013, '2005-02-09 10:00:00') /* Withered Revered Tumerok Shaman */
-     , (0x70017037, 0x70017014, '2005-02-09 10:00:00') /* Withered Raider Prefect */
-     , (0x70017037, 0x70017015, '2005-02-09 10:00:00') /* Withered Raider Prefect */
-     , (0x70017037, 0x70017019, '2005-02-09 10:00:00') /* Withered Raider Prefect */
-     , (0x70017037, 0x7001701C, '2005-02-09 10:00:00') /* Withered Raider Prefect */
-     , (0x70017037, 0x70017020, '2005-02-09 10:00:00') /* Withered Raider Prefect */
-     , (0x70017037, 0x70017022, '2005-02-09 10:00:00') /* Withered Raider Justicar */
-     , (0x70017037, 0x70017023, '2005-02-09 10:00:00') /* Withered Raider Justicar */
-     , (0x70017037, 0x70017025, '2005-02-09 10:00:00') /* Withered Raider Prefect */
-     , (0x70017037, 0x70017026, '2005-02-09 10:00:00') /* Withered Raider Justicar */
-     , (0x70017037, 0x7001702B, '2005-02-09 10:00:00') /* Withered Raider Justicar */
-     , (0x70017037, 0x70017030, '2005-02-09 10:00:00') /* Withered Raider Prefect */
-     , (0x70017037, 0x70017033, '2005-02-09 10:00:00') /* Withered Raider Justicar */
-     , (0x70017037, 0x70017034, '2005-02-09 10:00:00') /* Withered Raider Justicar */
-     , (0x70017037, 0x70017035, '2005-02-09 10:00:00') /* Withered Raider Prefect */
-     , (0x70017037, 0x70017038, '2005-02-09 10:00:00') /* Withered Raider Prefect */;
+VALUES (0x70017037, 0x70017001, '2005-02-09 10:00:00') /* Withered Revered Tumerok Shaman (30687) */
+     , (0x70017037, 0x70017004, '2005-02-09 10:00:00') /* Withered Revered Tumerok Shaman (30687) */
+     , (0x70017037, 0x70017005, '2005-02-09 10:00:00') /* Withered Revered Tumerok Shaman (30687) */
+     , (0x70017037, 0x70017009, '2005-02-09 10:00:00') /* Withered Revered Tumerok Shaman (30687) */
+     , (0x70017037, 0x7001700A, '2005-02-09 10:00:00') /* Withered Revered Tumerok Shaman (30687) */
+     , (0x70017037, 0x7001700B, '2005-02-09 10:00:00') /* Withered Raider Prefect (30689) */
+     , (0x70017037, 0x7001700D, '2005-02-09 10:00:00') /* Withered Raider Prefect (30689) */
+     , (0x70017037, 0x7001700E, '2005-02-09 10:00:00') /* Withered Raider Prefect (30689) */
+     , (0x70017037, 0x7001700F, '2005-02-09 10:00:00') /* Withered Raider Prefect (30689) */
+     , (0x70017037, 0x70017013, '2005-02-09 10:00:00') /* Withered Revered Tumerok Shaman (30687) */
+     , (0x70017037, 0x70017014, '2005-02-09 10:00:00') /* Withered Raider Prefect (30689) */
+     , (0x70017037, 0x70017015, '2005-02-09 10:00:00') /* Withered Raider Prefect (30689) */
+     , (0x70017037, 0x70017019, '2005-02-09 10:00:00') /* Withered Raider Prefect (30689) */
+     , (0x70017037, 0x7001701C, '2005-02-09 10:00:00') /* Withered Raider Prefect (30689) */
+     , (0x70017037, 0x70017020, '2005-02-09 10:00:00') /* Withered Raider Prefect (30689) */
+     , (0x70017037, 0x70017022, '2005-02-09 10:00:00') /* Withered Raider Justicar (30691) */
+     , (0x70017037, 0x70017023, '2005-02-09 10:00:00') /* Withered Raider Justicar (30691) */
+     , (0x70017037, 0x70017025, '2005-02-09 10:00:00') /* Withered Raider Prefect (30689) */
+     , (0x70017037, 0x70017026, '2005-02-09 10:00:00') /* Withered Raider Justicar (30691) */
+     , (0x70017037, 0x7001702B, '2005-02-09 10:00:00') /* Withered Raider Justicar (30691) */
+     , (0x70017037, 0x70017030, '2005-02-09 10:00:00') /* Withered Raider Prefect (30689) */
+     , (0x70017037, 0x70017033, '2005-02-09 10:00:00') /* Withered Raider Justicar (30691) */
+     , (0x70017037, 0x70017034, '2005-02-09 10:00:00') /* Withered Raider Justicar (30691) */
+     , (0x70017037, 0x70017035, '2005-02-09 10:00:00') /* Withered Raider Prefect (30689) */
+     , (0x70017037, 0x70017038, '2005-02-09 10:00:00') /* Withered Raider Prefect (30689) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x70017038, 30689, 0x001701D4, 39.3607, -45.8953, 12.01, 0.406537, 0, 0, -0.913634,  True, '2005-02-09 10:00:00'); /* Withered Raider Prefect */
@@ -288,13 +288,13 @@ VALUES (0x7001703D,  7923, 0x0017018D, 9.09843, -37.289, 0.005, 0.904746, 0, 0, 
 /* @teleloc 0x0017018D [9.098430 -37.289000 0.005000] 0.904746 0.000000 0.000000 -0.425952 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7001703D, 0x70017039, '2005-02-09 10:00:00') /* Withered Raider Prefect */
-     , (0x7001703D, 0x7001703A, '2005-02-09 10:00:00') /* Withered Raider Prefect */
-     , (0x7001703D, 0x7001703B, '2005-02-09 10:00:00') /* Withered Raider Prefect */
-     , (0x7001703D, 0x7001703C, '2005-02-09 10:00:00') /* Withered Raider Prefect */
-     , (0x7001703D, 0x7001703E, '2005-02-09 10:00:00') /* Withered Raider Prefect */
-     , (0x7001703D, 0x7001703F, '2005-02-09 10:00:00') /* Withered Raider Prefect */
-     , (0x7001703D, 0x70017040, '2005-02-09 10:00:00') /* Withered Raider Prefect */;
+VALUES (0x7001703D, 0x70017039, '2005-02-09 10:00:00') /* Withered Raider Prefect (30689) */
+     , (0x7001703D, 0x7001703A, '2005-02-09 10:00:00') /* Withered Raider Prefect (30689) */
+     , (0x7001703D, 0x7001703B, '2005-02-09 10:00:00') /* Withered Raider Prefect (30689) */
+     , (0x7001703D, 0x7001703C, '2005-02-09 10:00:00') /* Withered Raider Prefect (30689) */
+     , (0x7001703D, 0x7001703E, '2005-02-09 10:00:00') /* Withered Raider Prefect (30689) */
+     , (0x7001703D, 0x7001703F, '2005-02-09 10:00:00') /* Withered Raider Prefect (30689) */
+     , (0x7001703D, 0x70017040, '2005-02-09 10:00:00') /* Withered Raider Prefect (30689) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7001703E, 30689, 0x0017018E, 9.55693, -52.1771, 0.01, 0.824601, 0, 0, -0.565714,  True, '2005-02-09 10:00:00'); /* Withered Raider Prefect */

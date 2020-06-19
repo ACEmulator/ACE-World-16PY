@@ -9,4 +9,4 @@ VALUES (0x7ED81001,  7923, 0xED810000, 80.6769, 57.8211, 2.36815, 0.931476, 0, 0
 /* @teleloc 0xED810000 [80.676900 57.821100 2.368150] 0.931476 0.000000 0.000000 -0.363803 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7ED81001, 0x7ED81000, '2005-02-09 10:00:00') /* A Sycophant's Corpse */;
+VALUES (0x7ED81001, 0x7ED81000, '2005-02-09 10:00:00') /* A Sycophant's Corpse (27513) */;

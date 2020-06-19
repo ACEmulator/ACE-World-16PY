@@ -113,7 +113,7 @@ VALUES (0x702CA01B,  4058, 0x02CA01B7, 89.5814, -57.7239, 2.03025, 1, 0, 0, -4.3
 /* @teleloc 0x02CA01B7 [89.581400 -57.723900 2.030250] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x702CA01B, 0x702CA01C, '2005-02-09 10:00:00') /* Pressure Plate */;
+VALUES (0x702CA01B, 0x702CA01C, '2005-02-09 10:00:00') /* Pressure Plate (2131) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x702CA01C,  2131, 0x02CA01B8, 91.16, -58.0312, 0.005, -0.882375, 0, 0, -0.470548,  True, '2005-02-09 10:00:00'); /* Pressure Plate */
@@ -148,7 +148,7 @@ VALUES (0x702CA023,  4058, 0x02CA020F, 115.23, -50.0336, 2.19075, 1, 0, 0, 0, Fa
 /* @teleloc 0x02CA020F [115.230000 -50.033600 2.190750] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x702CA023, 0x702CA024, '2005-02-09 10:00:00') /* Pressure Plate */;
+VALUES (0x702CA023, 0x702CA024, '2005-02-09 10:00:00') /* Pressure Plate (2131) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x702CA024,  2131, 0x02CA020F, 115.345, -49.7817, 0.005, 0.660627, 0, 0, 0.750714,  True, '2005-02-09 10:00:00'); /* Pressure Plate */
@@ -167,7 +167,7 @@ VALUES (0x702CA027,  4058, 0x02CA0228, 128.195, -1.60495, 2.08375, 0.868065, 0, 
 /* @teleloc 0x02CA0228 [128.195000 -1.604950 2.083750] 0.868065 0.000000 0.000000 0.496451 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x702CA027, 0x702CA028, '2005-02-09 10:00:00') /* Pressure Plate */;
+VALUES (0x702CA027, 0x702CA028, '2005-02-09 10:00:00') /* Pressure Plate (2131) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x702CA028,  2131, 0x02CA0228, 127.739, -1.18291, 0.005, 0.403468, 0, 0, -0.914994,  True, '2005-02-09 10:00:00'); /* Pressure Plate */
@@ -182,7 +182,7 @@ VALUES (0x702CA02A,  4058, 0x02CA0238, 130.218, -120.065, 2.35125, 1, 0, 0, 0, F
 /* @teleloc 0x02CA0238 [130.218000 -120.065000 2.351250] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x702CA02A, 0x702CA02B, '2005-02-09 10:00:00') /* Pressure Plate */;
+VALUES (0x702CA02A, 0x702CA02B, '2005-02-09 10:00:00') /* Pressure Plate (2131) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x702CA02B,  2131, 0x02CA0238, 130.026, -119.869, 0.005, 0.14528, 0, 0, 0.989391,  True, '2005-02-09 10:00:00'); /* Pressure Plate */
@@ -193,7 +193,7 @@ VALUES (0x702CA02C,  4058, 0x02CA023E, 130.227, -163.641, 2.271, 1, 0, 0, 0, Fal
 /* @teleloc 0x02CA023E [130.227000 -163.641000 2.271000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x702CA02C, 0x702CA02D, '2005-02-09 10:00:00') /* Pressure Plate */;
+VALUES (0x702CA02C, 0x702CA02D, '2005-02-09 10:00:00') /* Pressure Plate (2131) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x702CA02D,  2131, 0x02CA023E, 129.993, -163.456, 0.005, 0.004055, 0, 0, 0.999992,  True, '2005-02-09 10:00:00'); /* Pressure Plate */
@@ -212,87 +212,87 @@ VALUES (0x702CA030,  7924, 0x02CA0247, 130.135, -220.037, 0.005, 1, 0, 0, 0, Fal
 /* @teleloc 0x02CA0247 [130.135000 -220.037000 0.005000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x702CA030, 0x702CA003, '2005-02-09 10:00:00') /* Barker Mosswart */
-     , (0x702CA030, 0x702CA004, '2005-02-09 10:00:00') /* Barker Mosswart */
-     , (0x702CA030, 0x702CA005, '2005-02-09 10:00:00') /* Barker Mosswart */
-     , (0x702CA030, 0x702CA006, '2005-02-09 10:00:00') /* Barker Mosswart */
-     , (0x702CA030, 0x702CA007, '2005-02-09 10:00:00') /* Barker Mosswart */
-     , (0x702CA030, 0x702CA008, '2005-02-09 10:00:00') /* Mudlurk Mosswart */
-     , (0x702CA030, 0x702CA009, '2005-02-09 10:00:00') /* Mudlurk Mosswart */
-     , (0x702CA030, 0x702CA00A, '2005-02-09 10:00:00') /* Mosswart Shaman */
-     , (0x702CA030, 0x702CA00B, '2005-02-09 10:00:00') /* Barker Mosswart */
-     , (0x702CA030, 0x702CA00C, '2005-02-09 10:00:00') /* Black Rat */
-     , (0x702CA030, 0x702CA00D, '2005-02-09 10:00:00') /* Barker Mosswart */
-     , (0x702CA030, 0x702CA00E, '2005-02-09 10:00:00') /* Barker Mosswart */
-     , (0x702CA030, 0x702CA00F, '2005-02-09 10:00:00') /* Mosswart Shaman */
-     , (0x702CA030, 0x702CA010, '2005-02-09 10:00:00') /* Black Rat */
-     , (0x702CA030, 0x702CA011, '2005-02-09 10:00:00') /* Black Rat */
-     , (0x702CA030, 0x702CA012, '2005-02-09 10:00:00') /* Barker Mosswart */
-     , (0x702CA030, 0x702CA013, '2005-02-09 10:00:00') /* Black Rat */
-     , (0x702CA030, 0x702CA014, '2005-02-09 10:00:00') /* Black Rat */
-     , (0x702CA030, 0x702CA015, '2005-02-09 10:00:00') /* Black Rat */
-     , (0x702CA030, 0x702CA016, '2005-02-09 10:00:00') /* Mosswart Shaman */
-     , (0x702CA030, 0x702CA017, '2005-02-09 10:00:00') /* Barker Mosswart */
-     , (0x702CA030, 0x702CA018, '2005-02-09 10:00:00') /* Barker Mosswart */
-     , (0x702CA030, 0x702CA019, '2005-02-09 10:00:00') /* Mosswart Shaman */
-     , (0x702CA030, 0x702CA01D, '2005-02-09 10:00:00') /* Barker Mosswart */
-     , (0x702CA030, 0x702CA01E, '2005-02-09 10:00:00') /* Barker Mosswart */
-     , (0x702CA030, 0x702CA020, '2005-02-09 10:00:00') /* Barker Mosswart */
-     , (0x702CA030, 0x702CA021, '2005-02-09 10:00:00') /* Barker Mosswart */
-     , (0x702CA030, 0x702CA022, '2005-02-09 10:00:00') /* Barker Mosswart */
-     , (0x702CA030, 0x702CA026, '2005-02-09 10:00:00') /* Mosswart Shaman */
-     , (0x702CA030, 0x702CA029, '2005-02-09 10:00:00') /* Mosswart Shaman */
-     , (0x702CA030, 0x702CA02E, '2005-02-09 10:00:00') /* Barker Mosswart */
-     , (0x702CA030, 0x702CA02F, '2005-02-09 10:00:00') /* Barker Mosswart */
-     , (0x702CA030, 0x702CA033, '2005-02-09 10:00:00') /* Mudlurk Mosswart */
-     , (0x702CA030, 0x702CA034, '2005-02-09 10:00:00') /* Mudlurk Mosswart */
-     , (0x702CA030, 0x702CA035, '2005-02-09 10:00:00') /* Mudlurk Mosswart */
-     , (0x702CA030, 0x702CA036, '2005-02-09 10:00:00') /* Barker Mosswart */
-     , (0x702CA030, 0x702CA037, '2005-02-09 10:00:00') /* Mudlurk Mosswart */
-     , (0x702CA030, 0x702CA038, '2005-02-09 10:00:00') /* Barker Mosswart */
-     , (0x702CA030, 0x702CA039, '2005-02-09 10:00:00') /* Barker Mosswart */
-     , (0x702CA030, 0x702CA03B, '2005-02-09 10:00:00') /* Barker Mosswart */
-     , (0x702CA030, 0x702CA03C, '2005-02-09 10:00:00') /* Barker Mosswart */
-     , (0x702CA030, 0x702CA03D, '2005-02-09 10:00:00') /* Barker Mosswart */
-     , (0x702CA030, 0x702CA03E, '2005-02-09 10:00:00') /* Mudlurk Mosswart */
-     , (0x702CA030, 0x702CA03F, '2005-02-09 10:00:00') /* Mudlurk Mosswart */
-     , (0x702CA030, 0x702CA040, '2005-02-09 10:00:00') /* Mosswart Chief */
-     , (0x702CA030, 0x702CA041, '2005-02-09 10:00:00') /* Mosswart Shaman */
-     , (0x702CA030, 0x702CA042, '2005-02-09 10:00:00') /* Mosswart Shaman */
-     , (0x702CA030, 0x702CA043, '2005-02-09 10:00:00') /* Barker Mosswart */
-     , (0x702CA030, 0x702CA044, '2005-02-09 10:00:00') /* Mudlurk Mosswart */
-     , (0x702CA030, 0x702CA046, '2005-02-09 10:00:00') /* Barker Mosswart */
-     , (0x702CA030, 0x702CA047, '2005-02-09 10:00:00') /* Barker Mosswart */
-     , (0x702CA030, 0x702CA048, '2005-02-09 10:00:00') /* Barker Mosswart */
-     , (0x702CA030, 0x702CA049, '2005-02-09 10:00:00') /* Barker Mosswart */
-     , (0x702CA030, 0x702CA04A, '2005-02-09 10:00:00') /* Barker Mosswart */
-     , (0x702CA030, 0x702CA04B, '2005-02-09 10:00:00') /* Mosswart Shaman */
-     , (0x702CA030, 0x702CA04C, '2005-02-09 10:00:00') /* Barker Mosswart */
-     , (0x702CA030, 0x702CA04D, '2005-02-09 10:00:00') /* Mosswart Shaman */
-     , (0x702CA030, 0x702CA04E, '2005-02-09 10:00:00') /* Barker Mosswart */
-     , (0x702CA030, 0x702CA04F, '2005-02-09 10:00:00') /* Barker Mosswart */
-     , (0x702CA030, 0x702CA050, '2005-02-09 10:00:00') /* Barker Mosswart */
-     , (0x702CA030, 0x702CA051, '2005-02-09 10:00:00') /* Mudlurk Mosswart */
-     , (0x702CA030, 0x702CA052, '2005-02-09 10:00:00') /* Mudlurk Mosswart */
-     , (0x702CA030, 0x702CA053, '2005-02-09 10:00:00') /* Mosswart Shaman */
-     , (0x702CA030, 0x702CA054, '2005-02-09 10:00:00') /* Barker Mosswart */
-     , (0x702CA030, 0x702CA055, '2005-02-09 10:00:00') /* Barker Mosswart */;
+VALUES (0x702CA030, 0x702CA003, '2005-02-09 10:00:00') /* Barker Mosswart (947) */
+     , (0x702CA030, 0x702CA004, '2005-02-09 10:00:00') /* Barker Mosswart (947) */
+     , (0x702CA030, 0x702CA005, '2005-02-09 10:00:00') /* Barker Mosswart (947) */
+     , (0x702CA030, 0x702CA006, '2005-02-09 10:00:00') /* Barker Mosswart (947) */
+     , (0x702CA030, 0x702CA007, '2005-02-09 10:00:00') /* Barker Mosswart (947) */
+     , (0x702CA030, 0x702CA008, '2005-02-09 10:00:00') /* Mudlurk Mosswart (211) */
+     , (0x702CA030, 0x702CA009, '2005-02-09 10:00:00') /* Mudlurk Mosswart (211) */
+     , (0x702CA030, 0x702CA00A, '2005-02-09 10:00:00') /* Mosswart Shaman (1619) */
+     , (0x702CA030, 0x702CA00B, '2005-02-09 10:00:00') /* Barker Mosswart (947) */
+     , (0x702CA030, 0x702CA00C, '2005-02-09 10:00:00') /* Black Rat (218) */
+     , (0x702CA030, 0x702CA00D, '2005-02-09 10:00:00') /* Barker Mosswart (947) */
+     , (0x702CA030, 0x702CA00E, '2005-02-09 10:00:00') /* Barker Mosswart (947) */
+     , (0x702CA030, 0x702CA00F, '2005-02-09 10:00:00') /* Mosswart Shaman (1619) */
+     , (0x702CA030, 0x702CA010, '2005-02-09 10:00:00') /* Black Rat (218) */
+     , (0x702CA030, 0x702CA011, '2005-02-09 10:00:00') /* Black Rat (218) */
+     , (0x702CA030, 0x702CA012, '2005-02-09 10:00:00') /* Barker Mosswart (947) */
+     , (0x702CA030, 0x702CA013, '2005-02-09 10:00:00') /* Black Rat (218) */
+     , (0x702CA030, 0x702CA014, '2005-02-09 10:00:00') /* Black Rat (218) */
+     , (0x702CA030, 0x702CA015, '2005-02-09 10:00:00') /* Black Rat (218) */
+     , (0x702CA030, 0x702CA016, '2005-02-09 10:00:00') /* Mosswart Shaman (1619) */
+     , (0x702CA030, 0x702CA017, '2005-02-09 10:00:00') /* Barker Mosswart (947) */
+     , (0x702CA030, 0x702CA018, '2005-02-09 10:00:00') /* Barker Mosswart (947) */
+     , (0x702CA030, 0x702CA019, '2005-02-09 10:00:00') /* Mosswart Shaman (1619) */
+     , (0x702CA030, 0x702CA01D, '2005-02-09 10:00:00') /* Barker Mosswart (947) */
+     , (0x702CA030, 0x702CA01E, '2005-02-09 10:00:00') /* Barker Mosswart (947) */
+     , (0x702CA030, 0x702CA020, '2005-02-09 10:00:00') /* Barker Mosswart (947) */
+     , (0x702CA030, 0x702CA021, '2005-02-09 10:00:00') /* Barker Mosswart (947) */
+     , (0x702CA030, 0x702CA022, '2005-02-09 10:00:00') /* Barker Mosswart (947) */
+     , (0x702CA030, 0x702CA026, '2005-02-09 10:00:00') /* Mosswart Shaman (1619) */
+     , (0x702CA030, 0x702CA029, '2005-02-09 10:00:00') /* Mosswart Shaman (1619) */
+     , (0x702CA030, 0x702CA02E, '2005-02-09 10:00:00') /* Barker Mosswart (947) */
+     , (0x702CA030, 0x702CA02F, '2005-02-09 10:00:00') /* Barker Mosswart (947) */
+     , (0x702CA030, 0x702CA033, '2005-02-09 10:00:00') /* Mudlurk Mosswart (211) */
+     , (0x702CA030, 0x702CA034, '2005-02-09 10:00:00') /* Mudlurk Mosswart (211) */
+     , (0x702CA030, 0x702CA035, '2005-02-09 10:00:00') /* Mudlurk Mosswart (211) */
+     , (0x702CA030, 0x702CA036, '2005-02-09 10:00:00') /* Barker Mosswart (947) */
+     , (0x702CA030, 0x702CA037, '2005-02-09 10:00:00') /* Mudlurk Mosswart (211) */
+     , (0x702CA030, 0x702CA038, '2005-02-09 10:00:00') /* Barker Mosswart (947) */
+     , (0x702CA030, 0x702CA039, '2005-02-09 10:00:00') /* Barker Mosswart (947) */
+     , (0x702CA030, 0x702CA03B, '2005-02-09 10:00:00') /* Barker Mosswart (947) */
+     , (0x702CA030, 0x702CA03C, '2005-02-09 10:00:00') /* Barker Mosswart (947) */
+     , (0x702CA030, 0x702CA03D, '2005-02-09 10:00:00') /* Barker Mosswart (947) */
+     , (0x702CA030, 0x702CA03E, '2005-02-09 10:00:00') /* Mudlurk Mosswart (211) */
+     , (0x702CA030, 0x702CA03F, '2005-02-09 10:00:00') /* Mudlurk Mosswart (211) */
+     , (0x702CA030, 0x702CA040, '2005-02-09 10:00:00') /* Mosswart Chief (210) */
+     , (0x702CA030, 0x702CA041, '2005-02-09 10:00:00') /* Mosswart Shaman (1619) */
+     , (0x702CA030, 0x702CA042, '2005-02-09 10:00:00') /* Mosswart Shaman (1619) */
+     , (0x702CA030, 0x702CA043, '2005-02-09 10:00:00') /* Barker Mosswart (947) */
+     , (0x702CA030, 0x702CA044, '2005-02-09 10:00:00') /* Mudlurk Mosswart (211) */
+     , (0x702CA030, 0x702CA046, '2005-02-09 10:00:00') /* Barker Mosswart (947) */
+     , (0x702CA030, 0x702CA047, '2005-02-09 10:00:00') /* Barker Mosswart (947) */
+     , (0x702CA030, 0x702CA048, '2005-02-09 10:00:00') /* Barker Mosswart (947) */
+     , (0x702CA030, 0x702CA049, '2005-02-09 10:00:00') /* Barker Mosswart (947) */
+     , (0x702CA030, 0x702CA04A, '2005-02-09 10:00:00') /* Barker Mosswart (947) */
+     , (0x702CA030, 0x702CA04B, '2005-02-09 10:00:00') /* Mosswart Shaman (1619) */
+     , (0x702CA030, 0x702CA04C, '2005-02-09 10:00:00') /* Barker Mosswart (947) */
+     , (0x702CA030, 0x702CA04D, '2005-02-09 10:00:00') /* Mosswart Shaman (1619) */
+     , (0x702CA030, 0x702CA04E, '2005-02-09 10:00:00') /* Barker Mosswart (947) */
+     , (0x702CA030, 0x702CA04F, '2005-02-09 10:00:00') /* Barker Mosswart (947) */
+     , (0x702CA030, 0x702CA050, '2005-02-09 10:00:00') /* Barker Mosswart (947) */
+     , (0x702CA030, 0x702CA051, '2005-02-09 10:00:00') /* Mudlurk Mosswart (211) */
+     , (0x702CA030, 0x702CA052, '2005-02-09 10:00:00') /* Mudlurk Mosswart (211) */
+     , (0x702CA030, 0x702CA053, '2005-02-09 10:00:00') /* Mosswart Shaman (1619) */
+     , (0x702CA030, 0x702CA054, '2005-02-09 10:00:00') /* Barker Mosswart (947) */
+     , (0x702CA030, 0x702CA055, '2005-02-09 10:00:00') /* Barker Mosswart (947) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x702CA031,  4142, 0x02CA0247, 128.189, -220.56, 0.005, 0.988771, 0, 0, 0.149438, False, '2005-02-09 10:00:00'); /* Linkable Item Generator */
 /* @teleloc 0x02CA0247 [128.189000 -220.560000 0.005000] 0.988771 0.000000 0.000000 0.149438 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x702CA031, 0x702CA000, '2005-02-09 10:00:00') /* Banderling Mace Head */
-     , (0x702CA031, 0x702CA03A, '2005-02-09 10:00:00') /* A Dry Withered Leather Bound Journal */;
+VALUES (0x702CA031, 0x702CA000, '2005-02-09 10:00:00') /* Banderling Mace Head (8364) */
+     , (0x702CA031, 0x702CA03A, '2005-02-09 10:00:00') /* A Dry Withered Leather Bound Journal (8361) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x702CA032,  7923, 0x02CA0247, 131.896, -220, 0.005, 1, 0, 0, 0, False, '2005-02-09 10:00:00'); /* Linkable Monster Generator ( 3 Min.) */
 /* @teleloc 0x02CA0247 [131.896000 -220.000000 0.005000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x702CA032, 0x702CA001, '2005-02-09 10:00:00') /* Goldenback Tusker */
-     , (0x702CA032, 0x702CA002, '2005-02-09 10:00:00') /* Goldenback Tusker */;
+VALUES (0x702CA032, 0x702CA001, '2005-02-09 10:00:00') /* Goldenback Tusker (235) */
+     , (0x702CA032, 0x702CA002, '2005-02-09 10:00:00') /* Goldenback Tusker (235) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x702CA033,   211, 0x02CA0260, 149.495, -72.6132, 0.0055, -0.058282, 0, 0, -0.9983,  True, '2005-02-09 10:00:00'); /* Mudlurk Mosswart */

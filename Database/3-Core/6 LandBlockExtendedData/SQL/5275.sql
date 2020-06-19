@@ -65,8 +65,8 @@ VALUES (0x7527500F,  7923, 0x52750103, 42.7, -20.0151, -5.995, 0.659983, 0, 0, 0
 /* @teleloc 0x52750103 [42.700000 -20.015100 -5.995000] 0.659983 0.000000 0.000000 0.751281 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7527500F, 0x7527500D, '2005-02-09 10:00:00') /* Swamp Rat */
-     , (0x7527500F, 0x7527500E, '2005-02-09 10:00:00') /* Swamp Rat */;
+VALUES (0x7527500F, 0x7527500D, '2005-02-09 10:00:00') /* Swamp Rat (1624) */
+     , (0x7527500F, 0x7527500E, '2005-02-09 10:00:00') /* Swamp Rat (1624) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75275010,   278, 0x5275010A, 40, -25.25, -6, 1, 0, 0, 0, False, '2005-02-09 10:00:00'); /* Door */
@@ -81,8 +81,8 @@ VALUES (0x75275013, 14467, 0x52750114, 14.995, -9.525, 0.088, 0.707107, 0, 0, -0
 /* @teleloc 0x52750114 [14.995000 -9.525000 0.088000] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x75275013, 0x75275014, '2005-02-09 10:00:00') /* Candle */
-     , (0x75275013, 0x75275018, '2005-02-09 10:00:00') /* Candle */;
+VALUES (0x75275013, 0x75275014, '2005-02-09 10:00:00') /* Candle (14468) */
+     , (0x75275013, 0x75275018, '2005-02-09 10:00:00') /* Candle (14468) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75275014, 14468, 0x52750114, 11.9939, -14.8977, 2, 1, 0, 0, -4.37114E-08,  True, '2005-02-09 10:00:00'); /* Candle */
@@ -97,7 +97,7 @@ VALUES (0x75275017, 14454, 0x5275010F, -3.33449, -14.6084, 5.79475, 0.0661512, 0
 /* @teleloc 0x5275010F [-3.334490 -14.608400 5.794750] 0.066151 0.000000 0.000000 0.997810 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x75275017, 0x75275011, '2005-02-09 10:00:00') /* Trap Door */;
+VALUES (0x75275017, 0x75275011, '2005-02-09 10:00:00') /* Trap Door (14419) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75275018, 14468, 0x52750119, 20.556, -17.897, 1.775, -0.960079, 0, 0, -0.279728,  True, '2005-02-09 10:00:00'); /* Candle */

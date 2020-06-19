@@ -181,77 +181,77 @@ VALUES (0x75D47036, 15759, 0x5D470183, 62.3709, -15.0838, 18.005, -0.617709, 0, 
 /* @teleloc 0x5D470183 [62.370900 -15.083800 18.005000] -0.617709 0.000000 0.000000 0.786407 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x75D47036, 0x75D47024, '2005-02-09 10:00:00') /* Alchemy Gem of Enlightenment */
-     , (0x75D47036, 0x75D47025, '2005-02-09 10:00:00') /* Arcane Lore Gem of Enlightenment */
-     , (0x75D47036, 0x75D47027, '2005-02-09 10:00:00') /* Axe Gem of Enlightenment */
-     , (0x75D47036, 0x75D47028, '2005-02-09 10:00:00') /* Bow Gem of Enlightenment */
-     , (0x75D47036, 0x75D47029, '2005-02-09 10:00:00') /* Cooking Gem of Enlightenment */
-     , (0x75D47036, 0x75D4702A, '2005-02-09 10:00:00') /* Creature Appraisal Gem of Enlightenment */
-     , (0x75D47036, 0x75D4702B, '2005-02-09 10:00:00') /* Creature Enchantment Gem of Enlightenment */
-     , (0x75D47036, 0x75D4702C, '2005-02-09 10:00:00') /* Crossbow Gem of Enlightenment */
-     , (0x75D47036, 0x75D4702D, '2005-02-09 10:00:00') /* Dagger Gem of Enlightenment */
-     , (0x75D47036, 0x75D4702E, '2005-02-09 10:00:00') /* Deception Gem of Enlightenment */
-     , (0x75D47036, 0x75D4702F, '2005-02-09 10:00:00') /* Fletching Gem of Enlightenment */
-     , (0x75D47036, 0x75D47030, '2005-02-09 10:00:00') /* Healing Gem of Enlightenment */
-     , (0x75D47036, 0x75D47032, '2005-02-09 10:00:00') /* Item Enchantment Gem of Enlightenment */
-     , (0x75D47036, 0x75D47033, '2005-02-09 10:00:00') /* Jump Gem of Enlightenment */
-     , (0x75D47036, 0x75D47034, '2005-02-09 10:00:00') /* Leadership Gem of Enlightenment */
-     , (0x75D47036, 0x75D47035, '2005-02-09 10:00:00') /* Life Magic Gem of Enlightenment */
-     , (0x75D47036, 0x75D47038, '2005-02-09 10:00:00') /* Lockpick Gem of Enlightenment */
-     , (0x75D47036, 0x75D47039, '2005-02-09 10:00:00') /* Loyalty Gem of Enlightenment */
-     , (0x75D47036, 0x75D4703A, '2005-02-09 10:00:00') /* Mace Gem of Enlightenment */
-     , (0x75D47036, 0x75D4703B, '2005-02-09 10:00:00') /* Magic Defense Gem of Enlightenment */
-     , (0x75D47036, 0x75D4703D, '2005-02-09 10:00:00') /* Mana Conversion Gem of Enlightenment */
-     , (0x75D47036, 0x75D4703E, '2005-02-09 10:00:00') /* Melee Defense Gem of Enlightenment */
-     , (0x75D47036, 0x75D4703F, '2005-02-09 10:00:00') /* Missile Defense Gem of Enlightenment */
-     , (0x75D47036, 0x75D47040, '2005-02-09 10:00:00') /* Personal Appraisal Gem of Enlightenment */
-     , (0x75D47036, 0x75D47041, '2005-02-09 10:00:00') /* Run Gem of Enlightenment */
-     , (0x75D47036, 0x75D47042, '2005-02-09 10:00:00') /* Spear Gem of Enlightenment */
-     , (0x75D47036, 0x75D47043, '2005-02-09 10:00:00') /* Staff Gem of Enlightenment */
-     , (0x75D47036, 0x75D47044, '2005-02-09 10:00:00') /* Sword Gem of Enlightenment */
-     , (0x75D47036, 0x75D47045, '2005-02-09 10:00:00') /* Thrown Weapon Gem of Enlightenment */
-     , (0x75D47036, 0x75D47046, '2005-02-09 10:00:00') /* Unarmed Combat Gem of Enlightenment */
-     , (0x75D47036, 0x75D47047, '2005-02-09 10:00:00') /* War Magic Gem of Enlightenment */
-     , (0x75D47036, 0x75D47052, '2005-02-09 10:00:00') /* Gem of Raising Endurance */
-     , (0x75D47036, 0x75D47053, '2005-02-09 10:00:00') /* Gem of Raising Coordination */
-     , (0x75D47036, 0x75D47054, '2005-02-09 10:00:00') /* Gem of Raising Strength */
-     , (0x75D47036, 0x75D47055, '2005-02-09 10:00:00') /* Gem of Raising Quickness */
-     , (0x75D47036, 0x75D47056, '2005-02-09 10:00:00') /* Gem of Raising Focus */
-     , (0x75D47036, 0x75D47057, '2005-02-09 10:00:00') /* Gem of Raising Self */;
+VALUES (0x75D47036, 0x75D47024, '2005-02-09 10:00:00') /* Alchemy Gem of Enlightenment (22350) */
+     , (0x75D47036, 0x75D47025, '2005-02-09 10:00:00') /* Arcane Lore Gem of Enlightenment (22351) */
+     , (0x75D47036, 0x75D47027, '2005-02-09 10:00:00') /* Axe Gem of Enlightenment (22353) */
+     , (0x75D47036, 0x75D47028, '2005-02-09 10:00:00') /* Bow Gem of Enlightenment (22354) */
+     , (0x75D47036, 0x75D47029, '2005-02-09 10:00:00') /* Cooking Gem of Enlightenment (22355) */
+     , (0x75D47036, 0x75D4702A, '2005-02-09 10:00:00') /* Creature Appraisal Gem of Enlightenment (22356) */
+     , (0x75D47036, 0x75D4702B, '2005-02-09 10:00:00') /* Creature Enchantment Gem of Enlightenment (22357) */
+     , (0x75D47036, 0x75D4702C, '2005-02-09 10:00:00') /* Crossbow Gem of Enlightenment (22358) */
+     , (0x75D47036, 0x75D4702D, '2005-02-09 10:00:00') /* Dagger Gem of Enlightenment (22359) */
+     , (0x75D47036, 0x75D4702E, '2005-02-09 10:00:00') /* Deception Gem of Enlightenment (22360) */
+     , (0x75D47036, 0x75D4702F, '2005-02-09 10:00:00') /* Fletching Gem of Enlightenment (22361) */
+     , (0x75D47036, 0x75D47030, '2005-02-09 10:00:00') /* Healing Gem of Enlightenment (22362) */
+     , (0x75D47036, 0x75D47032, '2005-02-09 10:00:00') /* Item Enchantment Gem of Enlightenment (22364) */
+     , (0x75D47036, 0x75D47033, '2005-02-09 10:00:00') /* Jump Gem of Enlightenment (22365) */
+     , (0x75D47036, 0x75D47034, '2005-02-09 10:00:00') /* Leadership Gem of Enlightenment (22366) */
+     , (0x75D47036, 0x75D47035, '2005-02-09 10:00:00') /* Life Magic Gem of Enlightenment (22367) */
+     , (0x75D47036, 0x75D47038, '2005-02-09 10:00:00') /* Lockpick Gem of Enlightenment (22368) */
+     , (0x75D47036, 0x75D47039, '2005-02-09 10:00:00') /* Loyalty Gem of Enlightenment (22369) */
+     , (0x75D47036, 0x75D4703A, '2005-02-09 10:00:00') /* Mace Gem of Enlightenment (22370) */
+     , (0x75D47036, 0x75D4703B, '2005-02-09 10:00:00') /* Magic Defense Gem of Enlightenment (22371) */
+     , (0x75D47036, 0x75D4703D, '2005-02-09 10:00:00') /* Mana Conversion Gem of Enlightenment (22373) */
+     , (0x75D47036, 0x75D4703E, '2005-02-09 10:00:00') /* Melee Defense Gem of Enlightenment (22374) */
+     , (0x75D47036, 0x75D4703F, '2005-02-09 10:00:00') /* Missile Defense Gem of Enlightenment (22375) */
+     , (0x75D47036, 0x75D47040, '2005-02-09 10:00:00') /* Personal Appraisal Gem of Enlightenment (22376) */
+     , (0x75D47036, 0x75D47041, '2005-02-09 10:00:00') /* Run Gem of Enlightenment (22377) */
+     , (0x75D47036, 0x75D47042, '2005-02-09 10:00:00') /* Spear Gem of Enlightenment (22378) */
+     , (0x75D47036, 0x75D47043, '2005-02-09 10:00:00') /* Staff Gem of Enlightenment (22379) */
+     , (0x75D47036, 0x75D47044, '2005-02-09 10:00:00') /* Sword Gem of Enlightenment (22380) */
+     , (0x75D47036, 0x75D47045, '2005-02-09 10:00:00') /* Thrown Weapon Gem of Enlightenment (22381) */
+     , (0x75D47036, 0x75D47046, '2005-02-09 10:00:00') /* Unarmed Combat Gem of Enlightenment (22382) */
+     , (0x75D47036, 0x75D47047, '2005-02-09 10:00:00') /* War Magic Gem of Enlightenment (22383) */
+     , (0x75D47036, 0x75D47052, '2005-02-09 10:00:00') /* Gem of Raising Endurance (22944) */
+     , (0x75D47036, 0x75D47053, '2005-02-09 10:00:00') /* Gem of Raising Coordination (22943) */
+     , (0x75D47036, 0x75D47054, '2005-02-09 10:00:00') /* Gem of Raising Strength (22948) */
+     , (0x75D47036, 0x75D47055, '2005-02-09 10:00:00') /* Gem of Raising Quickness (22946) */
+     , (0x75D47036, 0x75D47056, '2005-02-09 10:00:00') /* Gem of Raising Focus (22945) */
+     , (0x75D47036, 0x75D47057, '2005-02-09 10:00:00') /* Gem of Raising Self (22947) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75D47037,  7923, 0x5D47018C, 63.9635, -117.838, 18.005, 0.676606, 0, 0, -0.736346, False, '2005-02-09 10:00:00'); /* Linkable Monster Generator ( 3 Min.) */
 /* @teleloc 0x5D47018C [63.963500 -117.838000 18.005000] 0.676606 0.000000 0.000000 -0.736346 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x75D47037, 0x75D47001, '2005-02-09 10:00:00') /* Obsidian Golem */
-     , (0x75D47037, 0x75D47002, '2005-02-09 10:00:00') /* Obsidian Golem */
-     , (0x75D47037, 0x75D47004, '2005-02-09 10:00:00') /* Obsidian Golem */
-     , (0x75D47037, 0x75D47005, '2005-02-09 10:00:00') /* Obsidian Golem */
-     , (0x75D47037, 0x75D47007, '2005-02-09 10:00:00') /* Obsidian Golem */
-     , (0x75D47037, 0x75D47008, '2005-02-09 10:00:00') /* Obsidian Golem */
-     , (0x75D47037, 0x75D4700A, '2005-02-09 10:00:00') /* Obsidian Golem */
-     , (0x75D47037, 0x75D4700B, '2005-02-09 10:00:00') /* Obsidian Golem */
-     , (0x75D47037, 0x75D4700D, '2005-02-09 10:00:00') /* Obsidian Golem */
-     , (0x75D47037, 0x75D4700E, '2005-02-09 10:00:00') /* Obsidian Golem */
-     , (0x75D47037, 0x75D47010, '2005-02-09 10:00:00') /* Obsidian Golem */
-     , (0x75D47037, 0x75D47011, '2005-02-09 10:00:00') /* Obsidian Golem */
-     , (0x75D47037, 0x75D47013, '2005-02-09 10:00:00') /* Obsidian Golem */
-     , (0x75D47037, 0x75D47014, '2005-02-09 10:00:00') /* Obsidian Golem */
-     , (0x75D47037, 0x75D47016, '2005-02-09 10:00:00') /* Obsidian Golem */
-     , (0x75D47037, 0x75D47017, '2005-02-09 10:00:00') /* Obsidian Golem */
-     , (0x75D47037, 0x75D47018, '2005-02-09 10:00:00') /* Iron Golem */
-     , (0x75D47037, 0x75D47019, '2005-02-09 10:00:00') /* Iron Golem */
-     , (0x75D47037, 0x75D4701A, '2005-02-09 10:00:00') /* Iron Golem */
-     , (0x75D47037, 0x75D4701B, '2005-02-09 10:00:00') /* Iron Golem */
-     , (0x75D47037, 0x75D4701C, '2005-02-09 10:00:00') /* Iron Golem */
-     , (0x75D47037, 0x75D4701D, '2005-02-09 10:00:00') /* Iron Golem */
-     , (0x75D47037, 0x75D4701E, '2005-02-09 10:00:00') /* Iron Golem */
-     , (0x75D47037, 0x75D4701F, '2005-02-09 10:00:00') /* Iron Golem */
-     , (0x75D47037, 0x75D47020, '2005-02-09 10:00:00') /* Copper Golem */
-     , (0x75D47037, 0x75D47021, '2005-02-09 10:00:00') /* Copper Golem */
-     , (0x75D47037, 0x75D47022, '2005-02-09 10:00:00') /* Copper Golem */
-     , (0x75D47037, 0x75D47023, '2005-02-09 10:00:00') /* Copper Golem */;
+VALUES (0x75D47037, 0x75D47001, '2005-02-09 10:00:00') /* Obsidian Golem (201) */
+     , (0x75D47037, 0x75D47002, '2005-02-09 10:00:00') /* Obsidian Golem (201) */
+     , (0x75D47037, 0x75D47004, '2005-02-09 10:00:00') /* Obsidian Golem (201) */
+     , (0x75D47037, 0x75D47005, '2005-02-09 10:00:00') /* Obsidian Golem (201) */
+     , (0x75D47037, 0x75D47007, '2005-02-09 10:00:00') /* Obsidian Golem (201) */
+     , (0x75D47037, 0x75D47008, '2005-02-09 10:00:00') /* Obsidian Golem (201) */
+     , (0x75D47037, 0x75D4700A, '2005-02-09 10:00:00') /* Obsidian Golem (201) */
+     , (0x75D47037, 0x75D4700B, '2005-02-09 10:00:00') /* Obsidian Golem (201) */
+     , (0x75D47037, 0x75D4700D, '2005-02-09 10:00:00') /* Obsidian Golem (201) */
+     , (0x75D47037, 0x75D4700E, '2005-02-09 10:00:00') /* Obsidian Golem (201) */
+     , (0x75D47037, 0x75D47010, '2005-02-09 10:00:00') /* Obsidian Golem (201) */
+     , (0x75D47037, 0x75D47011, '2005-02-09 10:00:00') /* Obsidian Golem (201) */
+     , (0x75D47037, 0x75D47013, '2005-02-09 10:00:00') /* Obsidian Golem (201) */
+     , (0x75D47037, 0x75D47014, '2005-02-09 10:00:00') /* Obsidian Golem (201) */
+     , (0x75D47037, 0x75D47016, '2005-02-09 10:00:00') /* Obsidian Golem (201) */
+     , (0x75D47037, 0x75D47017, '2005-02-09 10:00:00') /* Obsidian Golem (201) */
+     , (0x75D47037, 0x75D47018, '2005-02-09 10:00:00') /* Iron Golem (197) */
+     , (0x75D47037, 0x75D47019, '2005-02-09 10:00:00') /* Iron Golem (197) */
+     , (0x75D47037, 0x75D4701A, '2005-02-09 10:00:00') /* Iron Golem (197) */
+     , (0x75D47037, 0x75D4701B, '2005-02-09 10:00:00') /* Iron Golem (197) */
+     , (0x75D47037, 0x75D4701C, '2005-02-09 10:00:00') /* Iron Golem (197) */
+     , (0x75D47037, 0x75D4701D, '2005-02-09 10:00:00') /* Iron Golem (197) */
+     , (0x75D47037, 0x75D4701E, '2005-02-09 10:00:00') /* Iron Golem (197) */
+     , (0x75D47037, 0x75D4701F, '2005-02-09 10:00:00') /* Iron Golem (197) */
+     , (0x75D47037, 0x75D47020, '2005-02-09 10:00:00') /* Copper Golem (194) */
+     , (0x75D47037, 0x75D47021, '2005-02-09 10:00:00') /* Copper Golem (194) */
+     , (0x75D47037, 0x75D47022, '2005-02-09 10:00:00') /* Copper Golem (194) */
+     , (0x75D47037, 0x75D47023, '2005-02-09 10:00:00') /* Copper Golem (194) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75D47038, 22368, 0x5D47018D, 66.02, 3.91311, 18.005, -0.852558, 0, 0, -0.522632,  True, '2005-02-09 10:00:00'); /* Lockpick Gem of Enlightenment */

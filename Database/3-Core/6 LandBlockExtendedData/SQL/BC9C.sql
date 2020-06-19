@@ -9,4 +9,4 @@ VALUES (0x7BC9C001,  3955, 0xBC9C0000, 153.388, 171.026, 1.905, 0.428569, 0, 0, 
 /* @teleloc 0xBC9C0000 [153.388000 171.026000 1.905000] 0.428569 0.000000 0.000000 -0.903509 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BC9C001, 0x7BC9C000, '2005-02-09 10:00:00') /* Chosen of Asheron */;
+VALUES (0x7BC9C001, 0x7BC9C000, '2005-02-09 10:00:00') /* Chosen of Asheron (8765) */;

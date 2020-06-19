@@ -41,6 +41,6 @@ VALUES (0x76BE2009,  1154, 0x6BE20000, 157.031, 79.013, 84.005, 0.919826, 0, 0, 
 /* @teleloc 0x6BE20000 [157.031000 79.013000 84.005000] 0.919826 0.000000 0.000000 0.392326 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x76BE2009, 0x76BE2006, '2005-02-09 10:00:00') /* Black Rabbit */
-     , (0x76BE2009, 0x76BE2007, '2005-02-09 10:00:00') /* Black Rabbit */
-     , (0x76BE2009, 0x76BE2008, '2005-02-09 10:00:00') /* Black Rabbit */;
+VALUES (0x76BE2009, 0x76BE2006, '2005-02-09 10:00:00') /* Black Rabbit (2566) */
+     , (0x76BE2009, 0x76BE2007, '2005-02-09 10:00:00') /* Black Rabbit (2566) */
+     , (0x76BE2009, 0x76BE2008, '2005-02-09 10:00:00') /* Black Rabbit (2566) */;

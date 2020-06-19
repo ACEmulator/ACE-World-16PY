@@ -37,193 +37,193 @@ VALUES (0x75C4F008,  7924, 0x5C4F016B, 70, -70, -17.995, 1, 0, 0, 0, False, '200
 /* @teleloc 0x5C4F016B [70.000000 -70.000000 -17.995000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x75C4F008, 0x75C4F015, '2005-02-09 10:00:00') /* Ancient Soul */
-     , (0x75C4F008, 0x75C4F016, '2005-02-09 10:00:00') /* Ancient Soul */
-     , (0x75C4F008, 0x75C4F017, '2005-02-09 10:00:00') /* Ancient Soul */
-     , (0x75C4F008, 0x75C4F01C, '2005-02-09 10:00:00') /* Ancient Soul */
-     , (0x75C4F008, 0x75C4F01F, '2005-02-09 10:00:00') /* Ancient Soul */
-     , (0x75C4F008, 0x75C4F020, '2005-02-09 10:00:00') /* Ancient Soul */
-     , (0x75C4F008, 0x75C4F021, '2005-02-09 10:00:00') /* Ancient Soul */
-     , (0x75C4F008, 0x75C4F026, '2005-02-09 10:00:00') /* Ancient Soul */
-     , (0x75C4F008, 0x75C4F02E, '2005-02-09 10:00:00') /* Ancient Soul */
-     , (0x75C4F008, 0x75C4F02F, '2005-02-09 10:00:00') /* Ancient Soul */
-     , (0x75C4F008, 0x75C4F030, '2005-02-09 10:00:00') /* Ancient Soul */
-     , (0x75C4F008, 0x75C4F031, '2005-02-09 10:00:00') /* Ancient Soul */
-     , (0x75C4F008, 0x75C4F032, '2005-02-09 10:00:00') /* Ancient Soul */
-     , (0x75C4F008, 0x75C4F035, '2005-02-09 10:00:00') /* Ancient Soul */
-     , (0x75C4F008, 0x75C4F03A, '2005-02-09 10:00:00') /* Ancient Soul */
-     , (0x75C4F008, 0x75C4F03B, '2005-02-09 10:00:00') /* Tormented Patriarch */
-     , (0x75C4F008, 0x75C4F03C, '2005-02-09 10:00:00') /* Tormented Patriarch */
-     , (0x75C4F008, 0x75C4F03F, '2005-02-09 10:00:00') /* Ancient Soul */
-     , (0x75C4F008, 0x75C4F040, '2005-02-09 10:00:00') /* Ancient Soul */
-     , (0x75C4F008, 0x75C4F041, '2005-02-09 10:00:00') /* Ancient Soul */
-     , (0x75C4F008, 0x75C4F042, '2005-02-09 10:00:00') /* Ancient Soul */
-     , (0x75C4F008, 0x75C4F043, '2005-02-09 10:00:00') /* Ancient Soul */
-     , (0x75C4F008, 0x75C4F046, '2005-02-09 10:00:00') /* Ancient Soul */
-     , (0x75C4F008, 0x75C4F047, '2005-02-09 10:00:00') /* Ancient Soul */
-     , (0x75C4F008, 0x75C4F049, '2005-02-09 10:00:00') /* Tormented Patriarch */
-     , (0x75C4F008, 0x75C4F04E, '2005-02-09 10:00:00') /* Ancient Soul */
-     , (0x75C4F008, 0x75C4F04F, '2005-02-09 10:00:00') /* Ancient Soul */
-     , (0x75C4F008, 0x75C4F052, '2005-02-09 10:00:00') /* Ancient Soul */
-     , (0x75C4F008, 0x75C4F053, '2005-02-09 10:00:00') /* Ancient Soul */
-     , (0x75C4F008, 0x75C4F054, '2005-02-09 10:00:00') /* Tormented Patriarch */
-     , (0x75C4F008, 0x75C4F055, '2005-02-09 10:00:00') /* Tormented Patriarch */
-     , (0x75C4F008, 0x75C4F056, '2005-02-09 10:00:00') /* Ancient Soul */
-     , (0x75C4F008, 0x75C4F057, '2005-02-09 10:00:00') /* Tormented Patriarch */
-     , (0x75C4F008, 0x75C4F058, '2005-02-09 10:00:00') /* Tormented Patriarch */
-     , (0x75C4F008, 0x75C4F059, '2005-02-09 10:00:00') /* Ancient Soul */
-     , (0x75C4F008, 0x75C4F05E, '2005-02-09 10:00:00') /* Ancient Soul */
-     , (0x75C4F008, 0x75C4F05F, '2005-02-09 10:00:00') /* Ancient Soul */
-     , (0x75C4F008, 0x75C4F060, '2005-02-09 10:00:00') /* Ancient Soul */
-     , (0x75C4F008, 0x75C4F085, '2005-02-09 10:00:00') /* Tormented Patriarch */
-     , (0x75C4F008, 0x75C4F086, '2005-02-09 10:00:00') /* Tormented Patriarch */;
+VALUES (0x75C4F008, 0x75C4F015, '2005-02-09 10:00:00') /* Ancient Soul (27138) */
+     , (0x75C4F008, 0x75C4F016, '2005-02-09 10:00:00') /* Ancient Soul (27138) */
+     , (0x75C4F008, 0x75C4F017, '2005-02-09 10:00:00') /* Ancient Soul (27138) */
+     , (0x75C4F008, 0x75C4F01C, '2005-02-09 10:00:00') /* Ancient Soul (27138) */
+     , (0x75C4F008, 0x75C4F01F, '2005-02-09 10:00:00') /* Ancient Soul (27138) */
+     , (0x75C4F008, 0x75C4F020, '2005-02-09 10:00:00') /* Ancient Soul (27138) */
+     , (0x75C4F008, 0x75C4F021, '2005-02-09 10:00:00') /* Ancient Soul (27138) */
+     , (0x75C4F008, 0x75C4F026, '2005-02-09 10:00:00') /* Ancient Soul (27138) */
+     , (0x75C4F008, 0x75C4F02E, '2005-02-09 10:00:00') /* Ancient Soul (27138) */
+     , (0x75C4F008, 0x75C4F02F, '2005-02-09 10:00:00') /* Ancient Soul (27138) */
+     , (0x75C4F008, 0x75C4F030, '2005-02-09 10:00:00') /* Ancient Soul (27138) */
+     , (0x75C4F008, 0x75C4F031, '2005-02-09 10:00:00') /* Ancient Soul (27138) */
+     , (0x75C4F008, 0x75C4F032, '2005-02-09 10:00:00') /* Ancient Soul (27138) */
+     , (0x75C4F008, 0x75C4F035, '2005-02-09 10:00:00') /* Ancient Soul (27138) */
+     , (0x75C4F008, 0x75C4F03A, '2005-02-09 10:00:00') /* Ancient Soul (27138) */
+     , (0x75C4F008, 0x75C4F03B, '2005-02-09 10:00:00') /* Tormented Patriarch (27922) */
+     , (0x75C4F008, 0x75C4F03C, '2005-02-09 10:00:00') /* Tormented Patriarch (27922) */
+     , (0x75C4F008, 0x75C4F03F, '2005-02-09 10:00:00') /* Ancient Soul (27138) */
+     , (0x75C4F008, 0x75C4F040, '2005-02-09 10:00:00') /* Ancient Soul (27138) */
+     , (0x75C4F008, 0x75C4F041, '2005-02-09 10:00:00') /* Ancient Soul (27138) */
+     , (0x75C4F008, 0x75C4F042, '2005-02-09 10:00:00') /* Ancient Soul (27138) */
+     , (0x75C4F008, 0x75C4F043, '2005-02-09 10:00:00') /* Ancient Soul (27138) */
+     , (0x75C4F008, 0x75C4F046, '2005-02-09 10:00:00') /* Ancient Soul (27138) */
+     , (0x75C4F008, 0x75C4F047, '2005-02-09 10:00:00') /* Ancient Soul (27138) */
+     , (0x75C4F008, 0x75C4F049, '2005-02-09 10:00:00') /* Tormented Patriarch (27922) */
+     , (0x75C4F008, 0x75C4F04E, '2005-02-09 10:00:00') /* Ancient Soul (27138) */
+     , (0x75C4F008, 0x75C4F04F, '2005-02-09 10:00:00') /* Ancient Soul (27138) */
+     , (0x75C4F008, 0x75C4F052, '2005-02-09 10:00:00') /* Ancient Soul (27138) */
+     , (0x75C4F008, 0x75C4F053, '2005-02-09 10:00:00') /* Ancient Soul (27138) */
+     , (0x75C4F008, 0x75C4F054, '2005-02-09 10:00:00') /* Tormented Patriarch (27922) */
+     , (0x75C4F008, 0x75C4F055, '2005-02-09 10:00:00') /* Tormented Patriarch (27922) */
+     , (0x75C4F008, 0x75C4F056, '2005-02-09 10:00:00') /* Ancient Soul (27138) */
+     , (0x75C4F008, 0x75C4F057, '2005-02-09 10:00:00') /* Tormented Patriarch (27922) */
+     , (0x75C4F008, 0x75C4F058, '2005-02-09 10:00:00') /* Tormented Patriarch (27922) */
+     , (0x75C4F008, 0x75C4F059, '2005-02-09 10:00:00') /* Ancient Soul (27138) */
+     , (0x75C4F008, 0x75C4F05E, '2005-02-09 10:00:00') /* Ancient Soul (27138) */
+     , (0x75C4F008, 0x75C4F05F, '2005-02-09 10:00:00') /* Ancient Soul (27138) */
+     , (0x75C4F008, 0x75C4F060, '2005-02-09 10:00:00') /* Ancient Soul (27138) */
+     , (0x75C4F008, 0x75C4F085, '2005-02-09 10:00:00') /* Tormented Patriarch (27922) */
+     , (0x75C4F008, 0x75C4F086, '2005-02-09 10:00:00') /* Tormented Patriarch (27922) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75C4F009,  7924, 0x5C4F016B, 68.9314, -70, -17.995, 1, 0, 0, 0, False, '2005-02-09 10:00:00'); /* Linkable Monster Generator ( 5 Min.) */
 /* @teleloc 0x5C4F016B [68.931400 -70.000000 -17.995000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x75C4F009, 0x75C4F001, '2005-02-09 10:00:00') /* Tormented Patriarch */
-     , (0x75C4F009, 0x75C4F002, '2005-02-09 10:00:00') /* Tormented Patriarch */
-     , (0x75C4F009, 0x75C4F003, '2005-02-09 10:00:00') /* Ancient Soul */
-     , (0x75C4F009, 0x75C4F004, '2005-02-09 10:00:00') /* Ancient Soul */
-     , (0x75C4F009, 0x75C4F005, '2005-02-09 10:00:00') /* Tormented Patriarch */
-     , (0x75C4F009, 0x75C4F006, '2005-02-09 10:00:00') /* Tormented Patriarch */
-     , (0x75C4F009, 0x75C4F007, '2005-02-09 10:00:00') /* Ancient Soul */
-     , (0x75C4F009, 0x75C4F00D, '2005-02-09 10:00:00') /* Ancient Soul */
-     , (0x75C4F009, 0x75C4F00E, '2005-02-09 10:00:00') /* Tormented Patriarch */
-     , (0x75C4F009, 0x75C4F00F, '2005-02-09 10:00:00') /* Tormented Patriarch */
-     , (0x75C4F009, 0x75C4F010, '2005-02-09 10:00:00') /* Ancient Soul */
-     , (0x75C4F009, 0x75C4F01D, '2005-02-09 10:00:00') /* Ancient Soul */
-     , (0x75C4F009, 0x75C4F01E, '2005-02-09 10:00:00') /* Ancient Soul */
-     , (0x75C4F009, 0x75C4F027, '2005-02-09 10:00:00') /* Ancient Soul */
-     , (0x75C4F009, 0x75C4F028, '2005-02-09 10:00:00') /* Ancient Soul */
-     , (0x75C4F009, 0x75C4F02D, '2005-02-09 10:00:00') /* Ancient Soul */
-     , (0x75C4F009, 0x75C4F03D, '2005-02-09 10:00:00') /* Tormented Patriarch */
-     , (0x75C4F009, 0x75C4F03E, '2005-02-09 10:00:00') /* Tormented Patriarch */
-     , (0x75C4F009, 0x75C4F04A, '2005-02-09 10:00:00') /* Tormented Patriarch */
-     , (0x75C4F009, 0x75C4F04B, '2005-02-09 10:00:00') /* Tormented Patriarch */
-     , (0x75C4F009, 0x75C4F050, '2005-02-09 10:00:00') /* Tormented Patriarch */
-     , (0x75C4F009, 0x75C4F051, '2005-02-09 10:00:00') /* Tormented Patriarch */
-     , (0x75C4F009, 0x75C4F05A, '2005-02-09 10:00:00') /* Tormented Patriarch */
-     , (0x75C4F009, 0x75C4F05B, '2005-02-09 10:00:00') /* Tormented Patriarch */
-     , (0x75C4F009, 0x75C4F05C, '2005-02-09 10:00:00') /* Tormented Patriarch */
-     , (0x75C4F009, 0x75C4F05D, '2005-02-09 10:00:00') /* Tormented Patriarch */
-     , (0x75C4F009, 0x75C4F065, '2005-02-09 10:00:00') /* Tormented Patriarch */
-     , (0x75C4F009, 0x75C4F066, '2005-02-09 10:00:00') /* Tormented Patriarch */
-     , (0x75C4F009, 0x75C4F07C, '2005-02-09 10:00:00') /* Tormented Patriarch */
-     , (0x75C4F009, 0x75C4F07D, '2005-02-09 10:00:00') /* Tormented Patriarch */
-     , (0x75C4F009, 0x75C4F081, '2005-02-09 10:00:00') /* Tormented Patriarch */
-     , (0x75C4F009, 0x75C4F082, '2005-02-09 10:00:00') /* Tormented Patriarch */
-     , (0x75C4F009, 0x75C4F08C, '2005-02-09 10:00:00') /* Tormented Patriarch */
-     , (0x75C4F009, 0x75C4F08D, '2005-02-09 10:00:00') /* Tormented Patriarch */
-     , (0x75C4F009, 0x75C4F08E, '2005-02-09 10:00:00') /* Tormented Patriarch */
-     , (0x75C4F009, 0x75C4F08F, '2005-02-09 10:00:00') /* Tormented Patriarch */
-     , (0x75C4F009, 0x75C4F09A, '2005-02-09 10:00:00') /* Tormented Patriarch */
-     , (0x75C4F009, 0x75C4F09B, '2005-02-09 10:00:00') /* Tormented Patriarch */
-     , (0x75C4F009, 0x75C4F0A8, '2005-02-09 10:00:00') /* Tormented Patriarch */
-     , (0x75C4F009, 0x75C4F0A9, '2005-02-09 10:00:00') /* Tormented Patriarch */;
+VALUES (0x75C4F009, 0x75C4F001, '2005-02-09 10:00:00') /* Tormented Patriarch (27922) */
+     , (0x75C4F009, 0x75C4F002, '2005-02-09 10:00:00') /* Tormented Patriarch (27922) */
+     , (0x75C4F009, 0x75C4F003, '2005-02-09 10:00:00') /* Ancient Soul (27138) */
+     , (0x75C4F009, 0x75C4F004, '2005-02-09 10:00:00') /* Ancient Soul (27138) */
+     , (0x75C4F009, 0x75C4F005, '2005-02-09 10:00:00') /* Tormented Patriarch (27922) */
+     , (0x75C4F009, 0x75C4F006, '2005-02-09 10:00:00') /* Tormented Patriarch (27922) */
+     , (0x75C4F009, 0x75C4F007, '2005-02-09 10:00:00') /* Ancient Soul (27138) */
+     , (0x75C4F009, 0x75C4F00D, '2005-02-09 10:00:00') /* Ancient Soul (27138) */
+     , (0x75C4F009, 0x75C4F00E, '2005-02-09 10:00:00') /* Tormented Patriarch (27922) */
+     , (0x75C4F009, 0x75C4F00F, '2005-02-09 10:00:00') /* Tormented Patriarch (27922) */
+     , (0x75C4F009, 0x75C4F010, '2005-02-09 10:00:00') /* Ancient Soul (27138) */
+     , (0x75C4F009, 0x75C4F01D, '2005-02-09 10:00:00') /* Ancient Soul (27138) */
+     , (0x75C4F009, 0x75C4F01E, '2005-02-09 10:00:00') /* Ancient Soul (27138) */
+     , (0x75C4F009, 0x75C4F027, '2005-02-09 10:00:00') /* Ancient Soul (27138) */
+     , (0x75C4F009, 0x75C4F028, '2005-02-09 10:00:00') /* Ancient Soul (27138) */
+     , (0x75C4F009, 0x75C4F02D, '2005-02-09 10:00:00') /* Ancient Soul (27138) */
+     , (0x75C4F009, 0x75C4F03D, '2005-02-09 10:00:00') /* Tormented Patriarch (27922) */
+     , (0x75C4F009, 0x75C4F03E, '2005-02-09 10:00:00') /* Tormented Patriarch (27922) */
+     , (0x75C4F009, 0x75C4F04A, '2005-02-09 10:00:00') /* Tormented Patriarch (27922) */
+     , (0x75C4F009, 0x75C4F04B, '2005-02-09 10:00:00') /* Tormented Patriarch (27922) */
+     , (0x75C4F009, 0x75C4F050, '2005-02-09 10:00:00') /* Tormented Patriarch (27922) */
+     , (0x75C4F009, 0x75C4F051, '2005-02-09 10:00:00') /* Tormented Patriarch (27922) */
+     , (0x75C4F009, 0x75C4F05A, '2005-02-09 10:00:00') /* Tormented Patriarch (27922) */
+     , (0x75C4F009, 0x75C4F05B, '2005-02-09 10:00:00') /* Tormented Patriarch (27922) */
+     , (0x75C4F009, 0x75C4F05C, '2005-02-09 10:00:00') /* Tormented Patriarch (27922) */
+     , (0x75C4F009, 0x75C4F05D, '2005-02-09 10:00:00') /* Tormented Patriarch (27922) */
+     , (0x75C4F009, 0x75C4F065, '2005-02-09 10:00:00') /* Tormented Patriarch (27922) */
+     , (0x75C4F009, 0x75C4F066, '2005-02-09 10:00:00') /* Tormented Patriarch (27922) */
+     , (0x75C4F009, 0x75C4F07C, '2005-02-09 10:00:00') /* Tormented Patriarch (27922) */
+     , (0x75C4F009, 0x75C4F07D, '2005-02-09 10:00:00') /* Tormented Patriarch (27922) */
+     , (0x75C4F009, 0x75C4F081, '2005-02-09 10:00:00') /* Tormented Patriarch (27922) */
+     , (0x75C4F009, 0x75C4F082, '2005-02-09 10:00:00') /* Tormented Patriarch (27922) */
+     , (0x75C4F009, 0x75C4F08C, '2005-02-09 10:00:00') /* Tormented Patriarch (27922) */
+     , (0x75C4F009, 0x75C4F08D, '2005-02-09 10:00:00') /* Tormented Patriarch (27922) */
+     , (0x75C4F009, 0x75C4F08E, '2005-02-09 10:00:00') /* Tormented Patriarch (27922) */
+     , (0x75C4F009, 0x75C4F08F, '2005-02-09 10:00:00') /* Tormented Patriarch (27922) */
+     , (0x75C4F009, 0x75C4F09A, '2005-02-09 10:00:00') /* Tormented Patriarch (27922) */
+     , (0x75C4F009, 0x75C4F09B, '2005-02-09 10:00:00') /* Tormented Patriarch (27922) */
+     , (0x75C4F009, 0x75C4F0A8, '2005-02-09 10:00:00') /* Tormented Patriarch (27922) */
+     , (0x75C4F009, 0x75C4F0A9, '2005-02-09 10:00:00') /* Tormented Patriarch (27922) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75C4F00A,  7924, 0x5C4F016B, 71.0397, -70, -17.995, 1, 0, 0, 0, False, '2005-02-09 10:00:00'); /* Linkable Monster Generator ( 5 Min.) */
 /* @teleloc 0x5C4F016B [71.039700 -70.000000 -17.995000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x75C4F00A, 0x75C4F022, '2005-02-09 10:00:00') /* Tormented Patriarch */
-     , (0x75C4F00A, 0x75C4F023, '2005-02-09 10:00:00') /* Tormented Patriarch */
-     , (0x75C4F00A, 0x75C4F029, '2005-02-09 10:00:00') /* Tormented Patriarch */
-     , (0x75C4F00A, 0x75C4F02A, '2005-02-09 10:00:00') /* Tormented Patriarch */
-     , (0x75C4F00A, 0x75C4F02B, '2005-02-09 10:00:00') /* Tormented Patriarch */
-     , (0x75C4F00A, 0x75C4F02C, '2005-02-09 10:00:00') /* Tormented Patriarch */
-     , (0x75C4F00A, 0x75C4F036, '2005-02-09 10:00:00') /* Tormented Patriarch */
-     , (0x75C4F00A, 0x75C4F037, '2005-02-09 10:00:00') /* Tormented Patriarch */
-     , (0x75C4F00A, 0x75C4F038, '2005-02-09 10:00:00') /* Tormented Patriarch */
-     , (0x75C4F00A, 0x75C4F039, '2005-02-09 10:00:00') /* Tormented Patriarch */
-     , (0x75C4F00A, 0x75C4F044, '2005-02-09 10:00:00') /* Tormented Patriarch */
-     , (0x75C4F00A, 0x75C4F045, '2005-02-09 10:00:00') /* Tormented Patriarch */
-     , (0x75C4F00A, 0x75C4F04C, '2005-02-09 10:00:00') /* Tormented Patriarch */
-     , (0x75C4F00A, 0x75C4F04D, '2005-02-09 10:00:00') /* Tormented Patriarch */
-     , (0x75C4F00A, 0x75C4F063, '2005-02-09 10:00:00') /* Tormented Patriarch */
-     , (0x75C4F00A, 0x75C4F064, '2005-02-09 10:00:00') /* Tormented Patriarch */
-     , (0x75C4F00A, 0x75C4F069, '2005-02-09 10:00:00') /* Tormented Patriarch */
-     , (0x75C4F00A, 0x75C4F06A, '2005-02-09 10:00:00') /* Tormented Patriarch */
-     , (0x75C4F00A, 0x75C4F071, '2005-02-09 10:00:00') /* Tormented Patriarch */
-     , (0x75C4F00A, 0x75C4F072, '2005-02-09 10:00:00') /* Tormented Patriarch */
-     , (0x75C4F00A, 0x75C4F088, '2005-02-09 10:00:00') /* Tormented Patriarch */
-     , (0x75C4F00A, 0x75C4F089, '2005-02-09 10:00:00') /* Tormented Patriarch */
-     , (0x75C4F00A, 0x75C4F090, '2005-02-09 10:00:00') /* Ancient Soul */
-     , (0x75C4F00A, 0x75C4F091, '2005-02-09 10:00:00') /* Ancient Soul */
-     , (0x75C4F00A, 0x75C4F092, '2005-02-09 10:00:00') /* Ancient Soul */
-     , (0x75C4F00A, 0x75C4F093, '2005-02-09 10:00:00') /* Ancient Soul */
-     , (0x75C4F00A, 0x75C4F094, '2005-02-09 10:00:00') /* Ancient Soul */
-     , (0x75C4F00A, 0x75C4F095, '2005-02-09 10:00:00') /* Ancient Soul */
-     , (0x75C4F00A, 0x75C4F096, '2005-02-09 10:00:00') /* Ancient Soul */
-     , (0x75C4F00A, 0x75C4F099, '2005-02-09 10:00:00') /* Ancient Soul */
-     , (0x75C4F00A, 0x75C4F09F, '2005-02-09 10:00:00') /* Ancient Soul */
-     , (0x75C4F00A, 0x75C4F0A0, '2005-02-09 10:00:00') /* Ancient Soul */
-     , (0x75C4F00A, 0x75C4F0A1, '2005-02-09 10:00:00') /* Ancient Soul */
-     , (0x75C4F00A, 0x75C4F0A4, '2005-02-09 10:00:00') /* Ancient Soul */
-     , (0x75C4F00A, 0x75C4F0A5, '2005-02-09 10:00:00') /* Ancient Soul */
-     , (0x75C4F00A, 0x75C4F0A6, '2005-02-09 10:00:00') /* Tormented Patriarch */
-     , (0x75C4F00A, 0x75C4F0A7, '2005-02-09 10:00:00') /* Tormented Patriarch */
-     , (0x75C4F00A, 0x75C4F0AA, '2005-02-09 10:00:00') /* Ancient Soul */;
+VALUES (0x75C4F00A, 0x75C4F022, '2005-02-09 10:00:00') /* Tormented Patriarch (27922) */
+     , (0x75C4F00A, 0x75C4F023, '2005-02-09 10:00:00') /* Tormented Patriarch (27922) */
+     , (0x75C4F00A, 0x75C4F029, '2005-02-09 10:00:00') /* Tormented Patriarch (27922) */
+     , (0x75C4F00A, 0x75C4F02A, '2005-02-09 10:00:00') /* Tormented Patriarch (27922) */
+     , (0x75C4F00A, 0x75C4F02B, '2005-02-09 10:00:00') /* Tormented Patriarch (27922) */
+     , (0x75C4F00A, 0x75C4F02C, '2005-02-09 10:00:00') /* Tormented Patriarch (27922) */
+     , (0x75C4F00A, 0x75C4F036, '2005-02-09 10:00:00') /* Tormented Patriarch (27922) */
+     , (0x75C4F00A, 0x75C4F037, '2005-02-09 10:00:00') /* Tormented Patriarch (27922) */
+     , (0x75C4F00A, 0x75C4F038, '2005-02-09 10:00:00') /* Tormented Patriarch (27922) */
+     , (0x75C4F00A, 0x75C4F039, '2005-02-09 10:00:00') /* Tormented Patriarch (27922) */
+     , (0x75C4F00A, 0x75C4F044, '2005-02-09 10:00:00') /* Tormented Patriarch (27922) */
+     , (0x75C4F00A, 0x75C4F045, '2005-02-09 10:00:00') /* Tormented Patriarch (27922) */
+     , (0x75C4F00A, 0x75C4F04C, '2005-02-09 10:00:00') /* Tormented Patriarch (27922) */
+     , (0x75C4F00A, 0x75C4F04D, '2005-02-09 10:00:00') /* Tormented Patriarch (27922) */
+     , (0x75C4F00A, 0x75C4F063, '2005-02-09 10:00:00') /* Tormented Patriarch (27922) */
+     , (0x75C4F00A, 0x75C4F064, '2005-02-09 10:00:00') /* Tormented Patriarch (27922) */
+     , (0x75C4F00A, 0x75C4F069, '2005-02-09 10:00:00') /* Tormented Patriarch (27922) */
+     , (0x75C4F00A, 0x75C4F06A, '2005-02-09 10:00:00') /* Tormented Patriarch (27922) */
+     , (0x75C4F00A, 0x75C4F071, '2005-02-09 10:00:00') /* Tormented Patriarch (27922) */
+     , (0x75C4F00A, 0x75C4F072, '2005-02-09 10:00:00') /* Tormented Patriarch (27922) */
+     , (0x75C4F00A, 0x75C4F088, '2005-02-09 10:00:00') /* Tormented Patriarch (27922) */
+     , (0x75C4F00A, 0x75C4F089, '2005-02-09 10:00:00') /* Tormented Patriarch (27922) */
+     , (0x75C4F00A, 0x75C4F090, '2005-02-09 10:00:00') /* Ancient Soul (27138) */
+     , (0x75C4F00A, 0x75C4F091, '2005-02-09 10:00:00') /* Ancient Soul (27138) */
+     , (0x75C4F00A, 0x75C4F092, '2005-02-09 10:00:00') /* Ancient Soul (27138) */
+     , (0x75C4F00A, 0x75C4F093, '2005-02-09 10:00:00') /* Ancient Soul (27138) */
+     , (0x75C4F00A, 0x75C4F094, '2005-02-09 10:00:00') /* Ancient Soul (27138) */
+     , (0x75C4F00A, 0x75C4F095, '2005-02-09 10:00:00') /* Ancient Soul (27138) */
+     , (0x75C4F00A, 0x75C4F096, '2005-02-09 10:00:00') /* Ancient Soul (27138) */
+     , (0x75C4F00A, 0x75C4F099, '2005-02-09 10:00:00') /* Ancient Soul (27138) */
+     , (0x75C4F00A, 0x75C4F09F, '2005-02-09 10:00:00') /* Ancient Soul (27138) */
+     , (0x75C4F00A, 0x75C4F0A0, '2005-02-09 10:00:00') /* Ancient Soul (27138) */
+     , (0x75C4F00A, 0x75C4F0A1, '2005-02-09 10:00:00') /* Ancient Soul (27138) */
+     , (0x75C4F00A, 0x75C4F0A4, '2005-02-09 10:00:00') /* Ancient Soul (27138) */
+     , (0x75C4F00A, 0x75C4F0A5, '2005-02-09 10:00:00') /* Ancient Soul (27138) */
+     , (0x75C4F00A, 0x75C4F0A6, '2005-02-09 10:00:00') /* Tormented Patriarch (27922) */
+     , (0x75C4F00A, 0x75C4F0A7, '2005-02-09 10:00:00') /* Tormented Patriarch (27922) */
+     , (0x75C4F00A, 0x75C4F0AA, '2005-02-09 10:00:00') /* Ancient Soul (27138) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75C4F00B,  7924, 0x5C4F016B, 67.8087, -70, -17.995, 1, 0, 0, 0, False, '2005-02-09 10:00:00'); /* Linkable Monster Generator ( 5 Min.) */
 /* @teleloc 0x5C4F016B [67.808700 -70.000000 -17.995000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x75C4F00B, 0x75C4F011, '2005-02-09 10:00:00') /* Tormented Patriarch */
-     , (0x75C4F00B, 0x75C4F012, '2005-02-09 10:00:00') /* Tormented Patriarch */
-     , (0x75C4F00B, 0x75C4F013, '2005-02-09 10:00:00') /* Tormented Patriarch */
-     , (0x75C4F00B, 0x75C4F014, '2005-02-09 10:00:00') /* Tormented Patriarch */
-     , (0x75C4F00B, 0x75C4F018, '2005-02-09 10:00:00') /* Tormented Patriarch */
-     , (0x75C4F00B, 0x75C4F019, '2005-02-09 10:00:00') /* Tormented Patriarch */
-     , (0x75C4F00B, 0x75C4F01A, '2005-02-09 10:00:00') /* Tormented Patriarch */
-     , (0x75C4F00B, 0x75C4F01B, '2005-02-09 10:00:00') /* Tormented Patriarch */
-     , (0x75C4F00B, 0x75C4F024, '2005-02-09 10:00:00') /* Tormented Patriarch */
-     , (0x75C4F00B, 0x75C4F025, '2005-02-09 10:00:00') /* Tormented Patriarch */
-     , (0x75C4F00B, 0x75C4F033, '2005-02-09 10:00:00') /* Tormented Patriarch */
-     , (0x75C4F00B, 0x75C4F034, '2005-02-09 10:00:00') /* Tormented Patriarch */
-     , (0x75C4F00B, 0x75C4F048, '2005-02-09 10:00:00') /* Tormented Patriarch */
-     , (0x75C4F00B, 0x75C4F061, '2005-02-09 10:00:00') /* Ancient Soul */
-     , (0x75C4F00B, 0x75C4F062, '2005-02-09 10:00:00') /* Ancient Soul */
-     , (0x75C4F00B, 0x75C4F067, '2005-02-09 10:00:00') /* Ancient Soul */
-     , (0x75C4F00B, 0x75C4F068, '2005-02-09 10:00:00') /* Ancient Soul */
-     , (0x75C4F00B, 0x75C4F06B, '2005-02-09 10:00:00') /* Ancient Soul */
-     , (0x75C4F00B, 0x75C4F06C, '2005-02-09 10:00:00') /* Ancient Soul */
-     , (0x75C4F00B, 0x75C4F06D, '2005-02-09 10:00:00') /* Ancient Soul */
-     , (0x75C4F00B, 0x75C4F06E, '2005-02-09 10:00:00') /* Ancient Soul */
-     , (0x75C4F00B, 0x75C4F06F, '2005-02-09 10:00:00') /* Ancient Soul */
-     , (0x75C4F00B, 0x75C4F070, '2005-02-09 10:00:00') /* Ancient Soul */
-     , (0x75C4F00B, 0x75C4F073, '2005-02-09 10:00:00') /* Ancient Soul */
-     , (0x75C4F00B, 0x75C4F074, '2005-02-09 10:00:00') /* Ancient Soul */
-     , (0x75C4F00B, 0x75C4F077, '2005-02-09 10:00:00') /* Ancient Soul */
-     , (0x75C4F00B, 0x75C4F078, '2005-02-09 10:00:00') /* Ancient Soul */
-     , (0x75C4F00B, 0x75C4F079, '2005-02-09 10:00:00') /* Ancient Soul */
-     , (0x75C4F00B, 0x75C4F07A, '2005-02-09 10:00:00') /* Ancient Soul */
-     , (0x75C4F00B, 0x75C4F07B, '2005-02-09 10:00:00') /* Ancient Soul */
-     , (0x75C4F00B, 0x75C4F07E, '2005-02-09 10:00:00') /* Ancient Soul */
-     , (0x75C4F00B, 0x75C4F07F, '2005-02-09 10:00:00') /* Tormented Patriarch */
-     , (0x75C4F00B, 0x75C4F080, '2005-02-09 10:00:00') /* Tormented Patriarch */
-     , (0x75C4F00B, 0x75C4F083, '2005-02-09 10:00:00') /* Ancient Soul */
-     , (0x75C4F00B, 0x75C4F084, '2005-02-09 10:00:00') /* Ancient Soul */
-     , (0x75C4F00B, 0x75C4F087, '2005-02-09 10:00:00') /* Ancient Soul */
-     , (0x75C4F00B, 0x75C4F08A, '2005-02-09 10:00:00') /* Ancient Soul */
-     , (0x75C4F00B, 0x75C4F08B, '2005-02-09 10:00:00') /* Ancient Soul */
-     , (0x75C4F00B, 0x75C4F097, '2005-02-09 10:00:00') /* Tormented Patriarch */
-     , (0x75C4F00B, 0x75C4F098, '2005-02-09 10:00:00') /* Tormented Patriarch */
-     , (0x75C4F00B, 0x75C4F09D, '2005-02-09 10:00:00') /* Ancient Soul */
-     , (0x75C4F00B, 0x75C4F09E, '2005-02-09 10:00:00') /* Ancient Soul */
-     , (0x75C4F00B, 0x75C4F0A2, '2005-02-09 10:00:00') /* Ancient Soul */
-     , (0x75C4F00B, 0x75C4F0A3, '2005-02-09 10:00:00') /* Ancient Soul */;
+VALUES (0x75C4F00B, 0x75C4F011, '2005-02-09 10:00:00') /* Tormented Patriarch (27922) */
+     , (0x75C4F00B, 0x75C4F012, '2005-02-09 10:00:00') /* Tormented Patriarch (27922) */
+     , (0x75C4F00B, 0x75C4F013, '2005-02-09 10:00:00') /* Tormented Patriarch (27922) */
+     , (0x75C4F00B, 0x75C4F014, '2005-02-09 10:00:00') /* Tormented Patriarch (27922) */
+     , (0x75C4F00B, 0x75C4F018, '2005-02-09 10:00:00') /* Tormented Patriarch (27922) */
+     , (0x75C4F00B, 0x75C4F019, '2005-02-09 10:00:00') /* Tormented Patriarch (27922) */
+     , (0x75C4F00B, 0x75C4F01A, '2005-02-09 10:00:00') /* Tormented Patriarch (27922) */
+     , (0x75C4F00B, 0x75C4F01B, '2005-02-09 10:00:00') /* Tormented Patriarch (27922) */
+     , (0x75C4F00B, 0x75C4F024, '2005-02-09 10:00:00') /* Tormented Patriarch (27922) */
+     , (0x75C4F00B, 0x75C4F025, '2005-02-09 10:00:00') /* Tormented Patriarch (27922) */
+     , (0x75C4F00B, 0x75C4F033, '2005-02-09 10:00:00') /* Tormented Patriarch (27922) */
+     , (0x75C4F00B, 0x75C4F034, '2005-02-09 10:00:00') /* Tormented Patriarch (27922) */
+     , (0x75C4F00B, 0x75C4F048, '2005-02-09 10:00:00') /* Tormented Patriarch (27922) */
+     , (0x75C4F00B, 0x75C4F061, '2005-02-09 10:00:00') /* Ancient Soul (27138) */
+     , (0x75C4F00B, 0x75C4F062, '2005-02-09 10:00:00') /* Ancient Soul (27138) */
+     , (0x75C4F00B, 0x75C4F067, '2005-02-09 10:00:00') /* Ancient Soul (27138) */
+     , (0x75C4F00B, 0x75C4F068, '2005-02-09 10:00:00') /* Ancient Soul (27138) */
+     , (0x75C4F00B, 0x75C4F06B, '2005-02-09 10:00:00') /* Ancient Soul (27138) */
+     , (0x75C4F00B, 0x75C4F06C, '2005-02-09 10:00:00') /* Ancient Soul (27138) */
+     , (0x75C4F00B, 0x75C4F06D, '2005-02-09 10:00:00') /* Ancient Soul (27138) */
+     , (0x75C4F00B, 0x75C4F06E, '2005-02-09 10:00:00') /* Ancient Soul (27138) */
+     , (0x75C4F00B, 0x75C4F06F, '2005-02-09 10:00:00') /* Ancient Soul (27138) */
+     , (0x75C4F00B, 0x75C4F070, '2005-02-09 10:00:00') /* Ancient Soul (27138) */
+     , (0x75C4F00B, 0x75C4F073, '2005-02-09 10:00:00') /* Ancient Soul (27138) */
+     , (0x75C4F00B, 0x75C4F074, '2005-02-09 10:00:00') /* Ancient Soul (27138) */
+     , (0x75C4F00B, 0x75C4F077, '2005-02-09 10:00:00') /* Ancient Soul (27138) */
+     , (0x75C4F00B, 0x75C4F078, '2005-02-09 10:00:00') /* Ancient Soul (27138) */
+     , (0x75C4F00B, 0x75C4F079, '2005-02-09 10:00:00') /* Ancient Soul (27138) */
+     , (0x75C4F00B, 0x75C4F07A, '2005-02-09 10:00:00') /* Ancient Soul (27138) */
+     , (0x75C4F00B, 0x75C4F07B, '2005-02-09 10:00:00') /* Ancient Soul (27138) */
+     , (0x75C4F00B, 0x75C4F07E, '2005-02-09 10:00:00') /* Ancient Soul (27138) */
+     , (0x75C4F00B, 0x75C4F07F, '2005-02-09 10:00:00') /* Tormented Patriarch (27922) */
+     , (0x75C4F00B, 0x75C4F080, '2005-02-09 10:00:00') /* Tormented Patriarch (27922) */
+     , (0x75C4F00B, 0x75C4F083, '2005-02-09 10:00:00') /* Ancient Soul (27138) */
+     , (0x75C4F00B, 0x75C4F084, '2005-02-09 10:00:00') /* Ancient Soul (27138) */
+     , (0x75C4F00B, 0x75C4F087, '2005-02-09 10:00:00') /* Ancient Soul (27138) */
+     , (0x75C4F00B, 0x75C4F08A, '2005-02-09 10:00:00') /* Ancient Soul (27138) */
+     , (0x75C4F00B, 0x75C4F08B, '2005-02-09 10:00:00') /* Ancient Soul (27138) */
+     , (0x75C4F00B, 0x75C4F097, '2005-02-09 10:00:00') /* Tormented Patriarch (27922) */
+     , (0x75C4F00B, 0x75C4F098, '2005-02-09 10:00:00') /* Tormented Patriarch (27922) */
+     , (0x75C4F00B, 0x75C4F09D, '2005-02-09 10:00:00') /* Ancient Soul (27138) */
+     , (0x75C4F00B, 0x75C4F09E, '2005-02-09 10:00:00') /* Ancient Soul (27138) */
+     , (0x75C4F00B, 0x75C4F0A2, '2005-02-09 10:00:00') /* Ancient Soul (27138) */
+     , (0x75C4F00B, 0x75C4F0A3, '2005-02-09 10:00:00') /* Ancient Soul (27138) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75C4F00C, 15759, 0x5C4F016B, 72.237, -70, -17.995, 1, 0, 0, 0, False, '2005-02-09 10:00:00'); /* Linkable Item Generator */
 /* @teleloc 0x5C4F016B [72.237000 -70.000000 -17.995000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x75C4F00C, 0x75C4F09C, '2005-02-09 10:00:00') /* Ancient Enchanted Philter */;
+VALUES (0x75C4F00C, 0x75C4F09C, '2005-02-09 10:00:00') /* Ancient Enchanted Philter (27915) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75C4F00D, 27138, 0x5C4F0189, 100, -120, -17.945, 0.921061, 0, 0, -0.389418,  True, '2005-02-09 10:00:00'); /* Ancient Soul */
@@ -646,7 +646,7 @@ VALUES (0x75C4F075,  7923, 0x5C4F0605, 70.0051, -67.872, 0.005, -0.003494, 0, 0,
 /* @teleloc 0x5C4F0605 [70.005100 -67.872000 0.005000] -0.003494 0.000000 0.000000 0.999994 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x75C4F075, 0x75C4F076, '2005-02-09 10:00:00') /* Guardian */;
+VALUES (0x75C4F075, 0x75C4F076, '2005-02-09 10:00:00') /* Guardian (27958) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75C4F076, 27958, 0x5C4F0605, 70, -70, 0.005, 0, 0, 0, -1,  True, '2005-02-09 10:00:00'); /* Guardian */

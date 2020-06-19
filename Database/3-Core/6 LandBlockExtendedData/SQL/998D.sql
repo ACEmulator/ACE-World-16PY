@@ -69,9 +69,9 @@ VALUES (0x7998D010,  7923, 0x998D0000, 164.692, 26.1662, 110.005, -0.984191, 0, 
 /* @teleloc 0x998D0000 [164.692000 26.166200 110.005000] -0.984191 0.000000 0.000000 -0.177113 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7998D010, 0x7998D00A, '2005-02-09 10:00:00') /* A small pile of rocks */
-     , (0x7998D010, 0x7998D00B, '2005-02-09 10:00:00') /* A small pile of rocks */
-     , (0x7998D010, 0x7998D00C, '2005-02-09 10:00:00') /* A small pile of rocks */
-     , (0x7998D010, 0x7998D00D, '2005-02-09 10:00:00') /* A small pile of rocks */
-     , (0x7998D010, 0x7998D00E, '2005-02-09 10:00:00') /* A small pile of rocks */
-     , (0x7998D010, 0x7998D00F, '2005-02-09 10:00:00') /* A small pile of rocks */;
+VALUES (0x7998D010, 0x7998D00A, '2005-02-09 10:00:00') /* A small pile of rocks (25450) */
+     , (0x7998D010, 0x7998D00B, '2005-02-09 10:00:00') /* A small pile of rocks (25450) */
+     , (0x7998D010, 0x7998D00C, '2005-02-09 10:00:00') /* A small pile of rocks (25450) */
+     , (0x7998D010, 0x7998D00D, '2005-02-09 10:00:00') /* A small pile of rocks (25450) */
+     , (0x7998D010, 0x7998D00E, '2005-02-09 10:00:00') /* A small pile of rocks (25450) */
+     , (0x7998D010, 0x7998D00F, '2005-02-09 10:00:00') /* A small pile of rocks (25450) */;

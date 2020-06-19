@@ -13,4 +13,4 @@ VALUES (0x76544002,  7923, 0x6544013A, 79.5754, -53.2568, 6.005, 0.731705, 0, 0,
 /* @teleloc 0x6544013A [79.575400 -53.256800 6.005000] 0.731705 0.000000 0.000000 0.681622 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x76544002, 0x76544001, '2005-02-09 10:00:00') /* Guardian of the Forbidden */;
+VALUES (0x76544002, 0x76544001, '2005-02-09 10:00:00') /* Guardian of the Forbidden (27306) */;

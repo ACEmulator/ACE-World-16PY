@@ -41,7 +41,7 @@ VALUES (0x701BB009,  1542, 0x01BB010F, 13.6319, -68.0372, 0, 0.921567, 0, 0, -0.
 /* @teleloc 0x01BB010F [13.631900 -68.037200 0.000000] 0.921567 0.000000 0.000000 -0.388219 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x701BB009, 0x701BB008, '2005-02-09 10:00:00') /* Scimitar */;
+VALUES (0x701BB009, 0x701BB008, '2005-02-09 10:00:00') /* Scimitar (339) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x701BB00A,   950, 0x01BB010F, 6.25936, -69.0964, 0.0075, -0.039913, 0, 0, -0.999203,  True, '2005-02-09 10:00:00'); /* Zombie */
@@ -124,8 +124,8 @@ VALUES (0x701BB01D,  2180, 0x01BB0145, 50, -65.25, 0, 1, 0, 0, 0, False, '2005-0
 /* @teleloc 0x01BB0145 [50.000000 -65.250000 0.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x701BB01D, 0x701BB011, '2005-02-09 10:00:00') /* Lever */
-     , (0x701BB01D, 0x701BB01C, '2005-02-09 10:00:00') /* Lever */;
+VALUES (0x701BB01D, 0x701BB011, '2005-02-09 10:00:00') /* Lever (285) */
+     , (0x701BB01D, 0x701BB01C, '2005-02-09 10:00:00') /* Lever (285) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x701BB01E,    16, 0x01BB014D, 50.7129, -129.434, 0.0075, 1, 0, 0, 0,  True, '2005-02-09 10:00:00'); /* Undead */
@@ -148,31 +148,31 @@ VALUES (0x701BB022,  1154, 0x01BB0155, 60, -10, 0, 0.707107, 0, 0, -0.707107, Fa
 /* @teleloc 0x01BB0155 [60.000000 -10.000000 0.000000] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x701BB022, 0x701BB000, '2005-02-09 10:00:00') /* Zombie */
-     , (0x701BB022, 0x701BB001, '2005-02-09 10:00:00') /* Zombie */
-     , (0x701BB022, 0x701BB002, '2005-02-09 10:00:00') /* Zombie */
-     , (0x701BB022, 0x701BB003, '2005-02-09 10:00:00') /* Zombie */
-     , (0x701BB022, 0x701BB00A, '2005-02-09 10:00:00') /* Zombie */
-     , (0x701BB022, 0x701BB00B, '2005-02-09 10:00:00') /* Lich */
-     , (0x701BB022, 0x701BB00D, '2005-02-09 10:00:00') /* Zombie */
-     , (0x701BB022, 0x701BB00E, '2005-02-09 10:00:00') /* Zombie */
-     , (0x701BB022, 0x701BB010, '2005-02-09 10:00:00') /* Zombie */
-     , (0x701BB022, 0x701BB012, '2005-02-09 10:00:00') /* Undead */
-     , (0x701BB022, 0x701BB01A, '2005-02-09 10:00:00') /* Banderling Guard */
-     , (0x701BB022, 0x701BB01E, '2005-02-09 10:00:00') /* Undead */
-     , (0x701BB022, 0x701BB029, '2005-02-09 10:00:00') /* Zombie */
-     , (0x701BB022, 0x701BB02A, '2005-02-09 10:00:00') /* Zombie */
-     , (0x701BB022, 0x701BB02F, '2005-02-09 10:00:00') /* Banderling Raider */
-     , (0x701BB022, 0x701BB030, '2005-02-09 10:00:00') /* Banderling Raider */
-     , (0x701BB022, 0x701BB032, '2005-02-09 10:00:00') /* Zombie */
-     , (0x701BB022, 0x701BB035, '2005-02-09 10:00:00') /* Young Banderling */
-     , (0x701BB022, 0x701BB038, '2005-02-09 10:00:00') /* Undead */
-     , (0x701BB022, 0x701BB03B, '2005-02-09 10:00:00') /* Banderling Guard */
-     , (0x701BB022, 0x701BB03C, '2005-02-09 10:00:00') /* Zombie */
-     , (0x701BB022, 0x701BB03E, '2005-02-09 10:00:00') /* Zombie */
-     , (0x701BB022, 0x701BB03F, '2005-02-09 10:00:00') /* Banderling Raider */
-     , (0x701BB022, 0x701BB040, '2005-02-09 10:00:00') /* Banderling Raider */
-     , (0x701BB022, 0x701BB041, '2005-02-09 10:00:00') /* Zombie */;
+VALUES (0x701BB022, 0x701BB000, '2005-02-09 10:00:00') /* Zombie (950) */
+     , (0x701BB022, 0x701BB001, '2005-02-09 10:00:00') /* Zombie (950) */
+     , (0x701BB022, 0x701BB002, '2005-02-09 10:00:00') /* Zombie (950) */
+     , (0x701BB022, 0x701BB003, '2005-02-09 10:00:00') /* Zombie (950) */
+     , (0x701BB022, 0x701BB00A, '2005-02-09 10:00:00') /* Zombie (950) */
+     , (0x701BB022, 0x701BB00B, '2005-02-09 10:00:00') /* Lich (204) */
+     , (0x701BB022, 0x701BB00D, '2005-02-09 10:00:00') /* Zombie (950) */
+     , (0x701BB022, 0x701BB00E, '2005-02-09 10:00:00') /* Zombie (950) */
+     , (0x701BB022, 0x701BB010, '2005-02-09 10:00:00') /* Zombie (950) */
+     , (0x701BB022, 0x701BB012, '2005-02-09 10:00:00') /* Undead (16) */
+     , (0x701BB022, 0x701BB01A, '2005-02-09 10:00:00') /* Banderling Guard (937) */
+     , (0x701BB022, 0x701BB01E, '2005-02-09 10:00:00') /* Undead (16) */
+     , (0x701BB022, 0x701BB029, '2005-02-09 10:00:00') /* Zombie (950) */
+     , (0x701BB022, 0x701BB02A, '2005-02-09 10:00:00') /* Zombie (950) */
+     , (0x701BB022, 0x701BB02F, '2005-02-09 10:00:00') /* Banderling Raider (938) */
+     , (0x701BB022, 0x701BB030, '2005-02-09 10:00:00') /* Banderling Raider (938) */
+     , (0x701BB022, 0x701BB032, '2005-02-09 10:00:00') /* Zombie (950) */
+     , (0x701BB022, 0x701BB035, '2005-02-09 10:00:00') /* Young Banderling (939) */
+     , (0x701BB022, 0x701BB038, '2005-02-09 10:00:00') /* Undead (16) */
+     , (0x701BB022, 0x701BB03B, '2005-02-09 10:00:00') /* Banderling Guard (937) */
+     , (0x701BB022, 0x701BB03C, '2005-02-09 10:00:00') /* Zombie (950) */
+     , (0x701BB022, 0x701BB03E, '2005-02-09 10:00:00') /* Zombie (950) */
+     , (0x701BB022, 0x701BB03F, '2005-02-09 10:00:00') /* Banderling Raider (938) */
+     , (0x701BB022, 0x701BB040, '2005-02-09 10:00:00') /* Banderling Raider (938) */
+     , (0x701BB022, 0x701BB041, '2005-02-09 10:00:00') /* Zombie (950) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x701BB023,   152, 0x01BB015D, 57.6233, -47.4414, 0, -4.37114E-08, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Font */
@@ -199,8 +199,8 @@ VALUES (0x701BB028,  2180, 0x01BB016A, 60, -65.25, 0, 1, 0, 0, 0, False, '2005-0
 /* @teleloc 0x01BB016A [60.000000 -65.250000 0.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x701BB028, 0x701BB026, '2005-02-09 10:00:00') /* Lever */
-     , (0x701BB028, 0x701BB03A, '2005-02-09 10:00:00') /* Lever */;
+VALUES (0x701BB028, 0x701BB026, '2005-02-09 10:00:00') /* Lever (285) */
+     , (0x701BB028, 0x701BB03A, '2005-02-09 10:00:00') /* Lever (285) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x701BB029,   950, 0x01BB016C, 58.933, -90.9905, 0.0075, -4.37114E-08, 0, 0, -1,  True, '2005-02-09 10:00:00'); /* Zombie */

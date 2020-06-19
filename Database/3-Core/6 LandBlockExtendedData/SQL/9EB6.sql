@@ -21,7 +21,7 @@ VALUES (0x79EB600A,  7924, 0x9EB60000, 153.025, 71.4679, 100.094, -0.719605, 0, 
 /* @teleloc 0x9EB60000 [153.025000 71.467900 100.094000] -0.719605 0.000000 0.000000 0.694384 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79EB600A, 0x79EB6006, '2005-02-09 10:00:00') /* Banderling Bandit */
-     , (0x79EB600A, 0x79EB6007, '2005-02-09 10:00:00') /* Banderling Bandit */
-     , (0x79EB600A, 0x79EB6008, '2005-02-09 10:00:00') /* Banderling Bandit */
-     , (0x79EB600A, 0x79EB6009, '2005-02-09 10:00:00') /* Banderling Bandit */;
+VALUES (0x79EB600A, 0x79EB6006, '2005-02-09 10:00:00') /* Banderling Bandit (22809) */
+     , (0x79EB600A, 0x79EB6007, '2005-02-09 10:00:00') /* Banderling Bandit (22809) */
+     , (0x79EB600A, 0x79EB6008, '2005-02-09 10:00:00') /* Banderling Bandit (22809) */
+     , (0x79EB600A, 0x79EB6009, '2005-02-09 10:00:00') /* Banderling Bandit (1484) */;

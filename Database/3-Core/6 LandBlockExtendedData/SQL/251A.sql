@@ -5,19 +5,19 @@ VALUES (0x7251A00A,  4219, 0x251A0000, 177.913, 149.756, 10.6979, 0.931103, 0, 0
 /* @teleloc 0x251A0000 [177.913000 149.756000 10.697900] 0.931103 0.000000 0.000000 0.364756 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7251A00A, 0x7251A00C, '2005-02-09 10:00:00') /* Skeletal Champion */
-     , (0x7251A00A, 0x7251A00D, '2005-02-09 10:00:00') /* Skeletal Champion */
-     , (0x7251A00A, 0x7251A00E, '2005-02-09 10:00:00') /* Skeletal Champion */
-     , (0x7251A00A, 0x7251A00F, '2005-02-09 10:00:00') /* Skeletal Champion */
-     , (0x7251A00A, 0x7251A010, '2005-02-09 10:00:00') /* Skeletal Champion */
-     , (0x7251A00A, 0x7251A011, '2005-02-09 10:00:00') /* Skeletal Hero */
-     , (0x7251A00A, 0x7251A012, '2005-02-09 10:00:00') /* Skeletal Hero */
-     , (0x7251A00A, 0x7251A013, '2005-02-09 10:00:00') /* Skeletal Hero */
-     , (0x7251A00A, 0x7251A015, '2005-02-09 10:00:00') /* Skeletal Champion */
-     , (0x7251A00A, 0x7251A016, '2005-02-09 10:00:00') /* Skeletal Champion */
-     , (0x7251A00A, 0x7251A017, '2005-02-09 10:00:00') /* Primeval Skeleton */
-     , (0x7251A00A, 0x7251A018, '2005-02-09 10:00:00') /* Skeletal Champion */
-     , (0x7251A00A, 0x7251A019, '2005-02-09 10:00:00') /* Skeletal Champion */;
+VALUES (0x7251A00A, 0x7251A00C, '2005-02-09 10:00:00') /* Skeletal Champion (24314) */
+     , (0x7251A00A, 0x7251A00D, '2005-02-09 10:00:00') /* Skeletal Champion (24314) */
+     , (0x7251A00A, 0x7251A00E, '2005-02-09 10:00:00') /* Skeletal Champion (24314) */
+     , (0x7251A00A, 0x7251A00F, '2005-02-09 10:00:00') /* Skeletal Champion (24314) */
+     , (0x7251A00A, 0x7251A010, '2005-02-09 10:00:00') /* Skeletal Champion (24314) */
+     , (0x7251A00A, 0x7251A011, '2005-02-09 10:00:00') /* Skeletal Hero (24315) */
+     , (0x7251A00A, 0x7251A012, '2005-02-09 10:00:00') /* Skeletal Hero (24315) */
+     , (0x7251A00A, 0x7251A013, '2005-02-09 10:00:00') /* Skeletal Hero (24315) */
+     , (0x7251A00A, 0x7251A015, '2005-02-09 10:00:00') /* Skeletal Champion (24314) */
+     , (0x7251A00A, 0x7251A016, '2005-02-09 10:00:00') /* Skeletal Champion (24314) */
+     , (0x7251A00A, 0x7251A017, '2005-02-09 10:00:00') /* Primeval Skeleton (24317) */
+     , (0x7251A00A, 0x7251A018, '2005-02-09 10:00:00') /* Skeletal Champion (24314) */
+     , (0x7251A00A, 0x7251A019, '2005-02-09 10:00:00') /* Skeletal Champion (24314) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7251A00B,  7297, 0x251A0000, 180.081, 183.077, 12.005, 0.999255, 0, 0, -0.0386011, False, '2005-02-09 10:00:00'); /* Chest */

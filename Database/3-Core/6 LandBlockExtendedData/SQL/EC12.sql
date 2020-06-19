@@ -89,24 +89,24 @@ VALUES (0x7EC12015,  4219, 0xEC120000, 130.381, 46.435, 104.005, 0.999464, 0, 0,
 /* @teleloc 0xEC120000 [130.381000 46.435000 104.005000] 0.999464 0.000000 0.000000 -0.032740 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7EC12015, 0x7EC12000, '2005-02-09 10:00:00') /* Mosswart Cringer */
-     , (0x7EC12015, 0x7EC12001, '2005-02-09 10:00:00') /* Mosswart Cringer */
-     , (0x7EC12015, 0x7EC12002, '2005-02-09 10:00:00') /* Mosswart Cringer */
-     , (0x7EC12015, 0x7EC12003, '2005-02-09 10:00:00') /* Mosswart Muck Stalker */
-     , (0x7EC12015, 0x7EC12004, '2005-02-09 10:00:00') /* Mosswart Muck Stalker */
-     , (0x7EC12015, 0x7EC12005, '2005-02-09 10:00:00') /* Mosswart Muck Stalker */
-     , (0x7EC12015, 0x7EC12006, '2005-02-09 10:00:00') /* Mosswart Muck Stalker */
-     , (0x7EC12015, 0x7EC12007, '2005-02-09 10:00:00') /* Mosswart Cringer */
-     , (0x7EC12015, 0x7EC12008, '2005-02-09 10:00:00') /* Mosswart Cringer */
-     , (0x7EC12015, 0x7EC12009, '2005-02-09 10:00:00') /* Mosswart Muck Stalker */
-     , (0x7EC12015, 0x7EC1200A, '2005-02-09 10:00:00') /* Mosswart Muck Stalker */
-     , (0x7EC12015, 0x7EC1200B, '2005-02-09 10:00:00') /* Mosswart Cringer */
-     , (0x7EC12015, 0x7EC1200C, '2005-02-09 10:00:00') /* Mosswart Cringer */
-     , (0x7EC12015, 0x7EC1200D, '2005-02-09 10:00:00') /* Mosswart Scavenger */
-     , (0x7EC12015, 0x7EC1200E, '2005-02-09 10:00:00') /* Mosswart Scavenger */
-     , (0x7EC12015, 0x7EC1200F, '2005-02-09 10:00:00') /* Fishing Hole */
-     , (0x7EC12015, 0x7EC12010, '2005-02-09 10:00:00') /* Fishing Hole */
-     , (0x7EC12015, 0x7EC12011, '2005-02-09 10:00:00') /* Fishing Hole */
-     , (0x7EC12015, 0x7EC12012, '2005-02-09 10:00:00') /* Fishing Hole */
-     , (0x7EC12015, 0x7EC12013, '2005-02-09 10:00:00') /* Fishing Hole */
-     , (0x7EC12015, 0x7EC12014, '2005-02-09 10:00:00') /* Fishing Hole */;
+VALUES (0x7EC12015, 0x7EC12000, '2005-02-09 10:00:00') /* Mosswart Cringer (27863) */
+     , (0x7EC12015, 0x7EC12001, '2005-02-09 10:00:00') /* Mosswart Cringer (27863) */
+     , (0x7EC12015, 0x7EC12002, '2005-02-09 10:00:00') /* Mosswart Cringer (27863) */
+     , (0x7EC12015, 0x7EC12003, '2005-02-09 10:00:00') /* Mosswart Muck Stalker (27864) */
+     , (0x7EC12015, 0x7EC12004, '2005-02-09 10:00:00') /* Mosswart Muck Stalker (27864) */
+     , (0x7EC12015, 0x7EC12005, '2005-02-09 10:00:00') /* Mosswart Muck Stalker (27864) */
+     , (0x7EC12015, 0x7EC12006, '2005-02-09 10:00:00') /* Mosswart Muck Stalker (27864) */
+     , (0x7EC12015, 0x7EC12007, '2005-02-09 10:00:00') /* Mosswart Cringer (27863) */
+     , (0x7EC12015, 0x7EC12008, '2005-02-09 10:00:00') /* Mosswart Cringer (27863) */
+     , (0x7EC12015, 0x7EC12009, '2005-02-09 10:00:00') /* Mosswart Muck Stalker (27864) */
+     , (0x7EC12015, 0x7EC1200A, '2005-02-09 10:00:00') /* Mosswart Muck Stalker (27864) */
+     , (0x7EC12015, 0x7EC1200B, '2005-02-09 10:00:00') /* Mosswart Cringer (27863) */
+     , (0x7EC12015, 0x7EC1200C, '2005-02-09 10:00:00') /* Mosswart Cringer (27863) */
+     , (0x7EC12015, 0x7EC1200D, '2005-02-09 10:00:00') /* Mosswart Scavenger (28000) */
+     , (0x7EC12015, 0x7EC1200E, '2005-02-09 10:00:00') /* Mosswart Scavenger (28000) */
+     , (0x7EC12015, 0x7EC1200F, '2005-02-09 10:00:00') /* Fishing Hole (22257) */
+     , (0x7EC12015, 0x7EC12010, '2005-02-09 10:00:00') /* Fishing Hole (22257) */
+     , (0x7EC12015, 0x7EC12011, '2005-02-09 10:00:00') /* Fishing Hole (22257) */
+     , (0x7EC12015, 0x7EC12012, '2005-02-09 10:00:00') /* Fishing Hole (22257) */
+     , (0x7EC12015, 0x7EC12013, '2005-02-09 10:00:00') /* Fishing Hole (22257) */
+     , (0x7EC12015, 0x7EC12014, '2005-02-09 10:00:00') /* Fishing Hole (22257) */;

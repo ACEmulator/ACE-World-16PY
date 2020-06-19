@@ -5,8 +5,8 @@ VALUES (0x7E91E000,  7924, 0xE91E0000, 135.203, 9.35736, 33.205, -0.673487, 0, 0
 /* @teleloc 0xE91E0000 [135.203000 9.357360 33.205000] -0.673487 0.000000 0.000000 -0.739199 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7E91E000, 0x7E91E001, '2005-02-09 10:00:00') /* Jungle Phyntos Wasp */
-     , (0x7E91E000, 0x7E91E002, '2005-02-09 10:00:00') /* Jungle Phyntos Wasp */;
+VALUES (0x7E91E000, 0x7E91E001, '2005-02-09 10:00:00') /* Jungle Phyntos Wasp (7183) */
+     , (0x7E91E000, 0x7E91E002, '2005-02-09 10:00:00') /* Jungle Phyntos Wasp (7183) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7E91E001,  7183, 0xE91E0000, 134.347, 9.53699, 33.213, -0.776389, 0, 0, -0.630254,  True, '2005-02-09 10:00:00'); /* Jungle Phyntos Wasp */

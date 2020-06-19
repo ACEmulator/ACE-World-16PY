@@ -101,55 +101,55 @@ VALUES (0x7545D019,  5086, 0x545D0183, 81.7688, -38.4505, 0.005, 0.678557, 0, 0,
 /* @teleloc 0x545D0183 [81.768800 -38.450500 0.005000] 0.678557 0.000000 0.000000 -0.734548 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7545D019, 0x7545D001, '2005-02-09 10:00:00') /* Bound Crystal Golem */
-     , (0x7545D019, 0x7545D002, '2005-02-09 10:00:00') /* Bound Crystal Golem */
-     , (0x7545D019, 0x7545D003, '2005-02-09 10:00:00') /* Bound Crystal Golem */
-     , (0x7545D019, 0x7545D004, '2005-02-09 10:00:00') /* Bound Coral Golem */
-     , (0x7545D019, 0x7545D005, '2005-02-09 10:00:00') /* Bound Coral Golem */
-     , (0x7545D019, 0x7545D006, '2005-02-09 10:00:00') /* Bound Coral Golem */
-     , (0x7545D019, 0x7545D007, '2005-02-09 10:00:00') /* Bound Crystal Golem */
-     , (0x7545D019, 0x7545D008, '2005-02-09 10:00:00') /* Bound Crystal Golem */
-     , (0x7545D019, 0x7545D009, '2005-02-09 10:00:00') /* Bound Crystal Golem */
-     , (0x7545D019, 0x7545D00A, '2005-02-09 10:00:00') /* Bound Coral Golem */
-     , (0x7545D019, 0x7545D00B, '2005-02-09 10:00:00') /* Bound Crystal Golem */
-     , (0x7545D019, 0x7545D00C, '2005-02-09 10:00:00') /* Bound Coral Golem */
-     , (0x7545D019, 0x7545D00D, '2005-02-09 10:00:00') /* Bound Coral Golem */
-     , (0x7545D019, 0x7545D00E, '2005-02-09 10:00:00') /* Bound Coral Golem */
-     , (0x7545D019, 0x7545D00F, '2005-02-09 10:00:00') /* Bound Coral Golem */
-     , (0x7545D019, 0x7545D010, '2005-02-09 10:00:00') /* Bound Coral Golem */
-     , (0x7545D019, 0x7545D011, '2005-02-09 10:00:00') /* Bound Coral Golem */
-     , (0x7545D019, 0x7545D012, '2005-02-09 10:00:00') /* Bound Crystal Golem */
-     , (0x7545D019, 0x7545D013, '2005-02-09 10:00:00') /* Bound Crystal Golem */
-     , (0x7545D019, 0x7545D014, '2005-02-09 10:00:00') /* Bound Coral Golem */
-     , (0x7545D019, 0x7545D015, '2005-02-09 10:00:00') /* Bound Crystal Golem */
-     , (0x7545D019, 0x7545D016, '2005-02-09 10:00:00') /* Bound Crystal Golem */
-     , (0x7545D019, 0x7545D017, '2005-02-09 10:00:00') /* Bound Crystal Golem */
-     , (0x7545D019, 0x7545D01A, '2005-02-09 10:00:00') /* Bound Coral Golem */
-     , (0x7545D019, 0x7545D01B, '2005-02-09 10:00:00') /* Bound Coral Golem */
-     , (0x7545D019, 0x7545D01C, '2005-02-09 10:00:00') /* Bound Coral Golem */
-     , (0x7545D019, 0x7545D01E, '2005-02-09 10:00:00') /* Bound Crystal Golem */
-     , (0x7545D019, 0x7545D01F, '2005-02-09 10:00:00') /* Bound Crystal Golem */
-     , (0x7545D019, 0x7545D020, '2005-02-09 10:00:00') /* Bound Crystal Golem */
-     , (0x7545D019, 0x7545D022, '2005-02-09 10:00:00') /* Bound Coral Golem */
-     , (0x7545D019, 0x7545D023, '2005-02-09 10:00:00') /* Bound Coral Golem */
-     , (0x7545D019, 0x7545D024, '2005-02-09 10:00:00') /* Bound Coral Golem */
-     , (0x7545D019, 0x7545D031, '2005-02-09 10:00:00') /* Bound Coral Golem */
-     , (0x7545D019, 0x7545D032, '2005-02-09 10:00:00') /* Bound Crystal Golem */
-     , (0x7545D019, 0x7545D033, '2005-02-09 10:00:00') /* Bound Coral Golem */
-     , (0x7545D019, 0x7545D035, '2005-02-09 10:00:00') /* Bound Coral Golem */
-     , (0x7545D019, 0x7545D036, '2005-02-09 10:00:00') /* Bound Coral Golem */
-     , (0x7545D019, 0x7545D037, '2005-02-09 10:00:00') /* Bound Crystal Golem */
-     , (0x7545D019, 0x7545D038, '2005-02-09 10:00:00') /* Bound Crystal Golem */
-     , (0x7545D019, 0x7545D039, '2005-02-09 10:00:00') /* Bound Crystal Golem */
-     , (0x7545D019, 0x7545D03A, '2005-02-09 10:00:00') /* Bound Coral Golem */
-     , (0x7545D019, 0x7545D03B, '2005-02-09 10:00:00') /* Bound Crystal Golem */
-     , (0x7545D019, 0x7545D03C, '2005-02-09 10:00:00') /* Bound Coral Golem */
-     , (0x7545D019, 0x7545D03D, '2005-02-09 10:00:00') /* Bound Crystal Golem */
-     , (0x7545D019, 0x7545D03E, '2005-02-09 10:00:00') /* Bound Crystal Golem */
-     , (0x7545D019, 0x7545D03F, '2005-02-09 10:00:00') /* Bound Coral Golem */
-     , (0x7545D019, 0x7545D040, '2005-02-09 10:00:00') /* Bound Coral Golem */
-     , (0x7545D019, 0x7545D042, '2005-02-09 10:00:00') /* Bound Coral Golem */
-     , (0x7545D019, 0x7545D043, '2005-02-09 10:00:00') /* Bound Crystal Golem */;
+VALUES (0x7545D019, 0x7545D001, '2005-02-09 10:00:00') /* Bound Crystal Golem (19426) */
+     , (0x7545D019, 0x7545D002, '2005-02-09 10:00:00') /* Bound Crystal Golem (19426) */
+     , (0x7545D019, 0x7545D003, '2005-02-09 10:00:00') /* Bound Crystal Golem (19426) */
+     , (0x7545D019, 0x7545D004, '2005-02-09 10:00:00') /* Bound Coral Golem (19425) */
+     , (0x7545D019, 0x7545D005, '2005-02-09 10:00:00') /* Bound Coral Golem (19425) */
+     , (0x7545D019, 0x7545D006, '2005-02-09 10:00:00') /* Bound Coral Golem (19425) */
+     , (0x7545D019, 0x7545D007, '2005-02-09 10:00:00') /* Bound Crystal Golem (19426) */
+     , (0x7545D019, 0x7545D008, '2005-02-09 10:00:00') /* Bound Crystal Golem (19426) */
+     , (0x7545D019, 0x7545D009, '2005-02-09 10:00:00') /* Bound Crystal Golem (19426) */
+     , (0x7545D019, 0x7545D00A, '2005-02-09 10:00:00') /* Bound Coral Golem (19425) */
+     , (0x7545D019, 0x7545D00B, '2005-02-09 10:00:00') /* Bound Crystal Golem (19426) */
+     , (0x7545D019, 0x7545D00C, '2005-02-09 10:00:00') /* Bound Coral Golem (19425) */
+     , (0x7545D019, 0x7545D00D, '2005-02-09 10:00:00') /* Bound Coral Golem (19425) */
+     , (0x7545D019, 0x7545D00E, '2005-02-09 10:00:00') /* Bound Coral Golem (19425) */
+     , (0x7545D019, 0x7545D00F, '2005-02-09 10:00:00') /* Bound Coral Golem (19425) */
+     , (0x7545D019, 0x7545D010, '2005-02-09 10:00:00') /* Bound Coral Golem (19425) */
+     , (0x7545D019, 0x7545D011, '2005-02-09 10:00:00') /* Bound Coral Golem (19425) */
+     , (0x7545D019, 0x7545D012, '2005-02-09 10:00:00') /* Bound Crystal Golem (19426) */
+     , (0x7545D019, 0x7545D013, '2005-02-09 10:00:00') /* Bound Crystal Golem (19426) */
+     , (0x7545D019, 0x7545D014, '2005-02-09 10:00:00') /* Bound Coral Golem (19425) */
+     , (0x7545D019, 0x7545D015, '2005-02-09 10:00:00') /* Bound Crystal Golem (19426) */
+     , (0x7545D019, 0x7545D016, '2005-02-09 10:00:00') /* Bound Crystal Golem (19426) */
+     , (0x7545D019, 0x7545D017, '2005-02-09 10:00:00') /* Bound Crystal Golem (19426) */
+     , (0x7545D019, 0x7545D01A, '2005-02-09 10:00:00') /* Bound Coral Golem (19425) */
+     , (0x7545D019, 0x7545D01B, '2005-02-09 10:00:00') /* Bound Coral Golem (19425) */
+     , (0x7545D019, 0x7545D01C, '2005-02-09 10:00:00') /* Bound Coral Golem (19425) */
+     , (0x7545D019, 0x7545D01E, '2005-02-09 10:00:00') /* Bound Crystal Golem (19426) */
+     , (0x7545D019, 0x7545D01F, '2005-02-09 10:00:00') /* Bound Crystal Golem (19426) */
+     , (0x7545D019, 0x7545D020, '2005-02-09 10:00:00') /* Bound Crystal Golem (19426) */
+     , (0x7545D019, 0x7545D022, '2005-02-09 10:00:00') /* Bound Coral Golem (19425) */
+     , (0x7545D019, 0x7545D023, '2005-02-09 10:00:00') /* Bound Coral Golem (19425) */
+     , (0x7545D019, 0x7545D024, '2005-02-09 10:00:00') /* Bound Coral Golem (19425) */
+     , (0x7545D019, 0x7545D031, '2005-02-09 10:00:00') /* Bound Coral Golem (19425) */
+     , (0x7545D019, 0x7545D032, '2005-02-09 10:00:00') /* Bound Crystal Golem (19426) */
+     , (0x7545D019, 0x7545D033, '2005-02-09 10:00:00') /* Bound Coral Golem (19425) */
+     , (0x7545D019, 0x7545D035, '2005-02-09 10:00:00') /* Bound Coral Golem (19425) */
+     , (0x7545D019, 0x7545D036, '2005-02-09 10:00:00') /* Bound Coral Golem (19425) */
+     , (0x7545D019, 0x7545D037, '2005-02-09 10:00:00') /* Bound Crystal Golem (19426) */
+     , (0x7545D019, 0x7545D038, '2005-02-09 10:00:00') /* Bound Crystal Golem (19426) */
+     , (0x7545D019, 0x7545D039, '2005-02-09 10:00:00') /* Bound Crystal Golem (19426) */
+     , (0x7545D019, 0x7545D03A, '2005-02-09 10:00:00') /* Bound Coral Golem (19425) */
+     , (0x7545D019, 0x7545D03B, '2005-02-09 10:00:00') /* Bound Crystal Golem (19426) */
+     , (0x7545D019, 0x7545D03C, '2005-02-09 10:00:00') /* Bound Coral Golem (19425) */
+     , (0x7545D019, 0x7545D03D, '2005-02-09 10:00:00') /* Bound Crystal Golem (19426) */
+     , (0x7545D019, 0x7545D03E, '2005-02-09 10:00:00') /* Bound Crystal Golem (19426) */
+     , (0x7545D019, 0x7545D03F, '2005-02-09 10:00:00') /* Bound Coral Golem (19425) */
+     , (0x7545D019, 0x7545D040, '2005-02-09 10:00:00') /* Bound Coral Golem (19425) */
+     , (0x7545D019, 0x7545D042, '2005-02-09 10:00:00') /* Bound Coral Golem (19425) */
+     , (0x7545D019, 0x7545D043, '2005-02-09 10:00:00') /* Bound Crystal Golem (19426) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7545D01A, 19425, 0x545D0184, 84.2035, -47.5888, 0.01, -0.994928, 0, 0, 0.100588,  True, '2005-02-09 10:00:00'); /* Bound Coral Golem */
@@ -344,20 +344,20 @@ VALUES (0x7545D049, 15759, 0x545D0228, 270, -160, 0.005, 0.0707368, 0, 0, 0.9974
 /* @teleloc 0x545D0228 [270.000000 -160.000000 0.005000] 0.070737 0.000000 0.000000 0.997495 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7545D049, 0x7545D045, '2005-02-09 10:00:00') /* A Bright Silver Key */
-     , (0x7545D049, 0x7545D046, '2005-02-09 10:00:00') /* A Bright Silver Key */
-     , (0x7545D049, 0x7545D047, '2005-02-09 10:00:00') /* A Bright Silver Key */
-     , (0x7545D049, 0x7545D048, '2005-02-09 10:00:00') /* A Bright Silver Key */
-     , (0x7545D049, 0x7545D04A, '2005-02-09 10:00:00') /* A Bright Silver Key */
-     , (0x7545D049, 0x7545D04B, '2005-02-09 10:00:00') /* A Bright Silver Key */
-     , (0x7545D049, 0x7545D04C, '2005-02-09 10:00:00') /* A Bright Silver Key */
-     , (0x7545D049, 0x7545D04D, '2005-02-09 10:00:00') /* A Bright Silver Key */
-     , (0x7545D049, 0x7545D04E, '2005-02-09 10:00:00') /* A Bright Silver Key */
-     , (0x7545D049, 0x7545D04F, '2005-02-09 10:00:00') /* A Bright Silver Key */
-     , (0x7545D049, 0x7545D050, '2005-02-09 10:00:00') /* A Bright Silver Key */
-     , (0x7545D049, 0x7545D051, '2005-02-09 10:00:00') /* A Bright Silver Key */
-     , (0x7545D049, 0x7545D052, '2005-02-09 10:00:00') /* A Bright Silver Key */
-     , (0x7545D049, 0x7545D053, '2005-02-09 10:00:00') /* A Bright Silver Key */;
+VALUES (0x7545D049, 0x7545D045, '2005-02-09 10:00:00') /* A Bright Silver Key (15859) */
+     , (0x7545D049, 0x7545D046, '2005-02-09 10:00:00') /* A Bright Silver Key (15859) */
+     , (0x7545D049, 0x7545D047, '2005-02-09 10:00:00') /* A Bright Silver Key (15859) */
+     , (0x7545D049, 0x7545D048, '2005-02-09 10:00:00') /* A Bright Silver Key (15859) */
+     , (0x7545D049, 0x7545D04A, '2005-02-09 10:00:00') /* A Bright Silver Key (15859) */
+     , (0x7545D049, 0x7545D04B, '2005-02-09 10:00:00') /* A Bright Silver Key (15859) */
+     , (0x7545D049, 0x7545D04C, '2005-02-09 10:00:00') /* A Bright Silver Key (15859) */
+     , (0x7545D049, 0x7545D04D, '2005-02-09 10:00:00') /* A Bright Silver Key (15859) */
+     , (0x7545D049, 0x7545D04E, '2005-02-09 10:00:00') /* A Bright Silver Key (15859) */
+     , (0x7545D049, 0x7545D04F, '2005-02-09 10:00:00') /* A Bright Silver Key (15859) */
+     , (0x7545D049, 0x7545D050, '2005-02-09 10:00:00') /* A Bright Silver Key (15859) */
+     , (0x7545D049, 0x7545D051, '2005-02-09 10:00:00') /* A Bright Silver Key (15859) */
+     , (0x7545D049, 0x7545D052, '2005-02-09 10:00:00') /* A Bright Silver Key (15859) */
+     , (0x7545D049, 0x7545D053, '2005-02-09 10:00:00') /* A Bright Silver Key (15859) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7545D04A, 15859, 0x545D0228, 267.781, -162.052, 0.024, -0.489706, 0, 0, 0.871888,  True, '2005-02-09 10:00:00'); /* A Bright Silver Key */
@@ -512,18 +512,18 @@ VALUES (0x7545D081,  5086, 0x545D0181, 68.6685, -305.63, 0.005, 0.686368, 0, 0, 
 /* @teleloc 0x545D0181 [68.668500 -305.630000 0.005000] 0.686368 0.000000 0.000000 0.727254 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7545D081, 0x7545D057, '2005-02-09 10:00:00') /* Controlled Flamma */
-     , (0x7545D081, 0x7545D066, '2005-02-09 10:00:00') /* Harnessed Scintilla */
-     , (0x7545D081, 0x7545D067, '2005-02-09 10:00:00') /* Harnessed Scintilla */
-     , (0x7545D081, 0x7545D068, '2005-02-09 10:00:00') /* Harnessed Scintilla */
-     , (0x7545D081, 0x7545D06B, '2005-02-09 10:00:00') /* Controlled Flamma */
-     , (0x7545D081, 0x7545D06C, '2005-02-09 10:00:00') /* Harnessed Scintilla */
-     , (0x7545D081, 0x7545D099, '2005-02-09 10:00:00') /* Harnessed Scintilla */
-     , (0x7545D081, 0x7545D09A, '2005-02-09 10:00:00') /* Controlled Flamma */
-     , (0x7545D081, 0x7545D09B, '2005-02-09 10:00:00') /* Controlled Flamma */
-     , (0x7545D081, 0x7545D09C, '2005-02-09 10:00:00') /* Harnessed Scintilla */
-     , (0x7545D081, 0x7545D09D, '2005-02-09 10:00:00') /* Controlled Flamma */
-     , (0x7545D081, 0x7545D09E, '2005-02-09 10:00:00') /* Harnessed Scintilla */;
+VALUES (0x7545D081, 0x7545D057, '2005-02-09 10:00:00') /* Controlled Flamma (20024) */
+     , (0x7545D081, 0x7545D066, '2005-02-09 10:00:00') /* Harnessed Scintilla (20026) */
+     , (0x7545D081, 0x7545D067, '2005-02-09 10:00:00') /* Harnessed Scintilla (20026) */
+     , (0x7545D081, 0x7545D068, '2005-02-09 10:00:00') /* Harnessed Scintilla (20026) */
+     , (0x7545D081, 0x7545D06B, '2005-02-09 10:00:00') /* Controlled Flamma (20024) */
+     , (0x7545D081, 0x7545D06C, '2005-02-09 10:00:00') /* Harnessed Scintilla (20026) */
+     , (0x7545D081, 0x7545D099, '2005-02-09 10:00:00') /* Harnessed Scintilla (20026) */
+     , (0x7545D081, 0x7545D09A, '2005-02-09 10:00:00') /* Controlled Flamma (20024) */
+     , (0x7545D081, 0x7545D09B, '2005-02-09 10:00:00') /* Controlled Flamma (20024) */
+     , (0x7545D081, 0x7545D09C, '2005-02-09 10:00:00') /* Harnessed Scintilla (20026) */
+     , (0x7545D081, 0x7545D09D, '2005-02-09 10:00:00') /* Controlled Flamma (20024) */
+     , (0x7545D081, 0x7545D09E, '2005-02-09 10:00:00') /* Harnessed Scintilla (20026) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7545D082, 20025, 0x545D018C, 114.477, -367.624, 0.055, 0.852525, 0, 0, -0.522687,  True, '2005-02-09 10:00:00'); /* Controlled Frost */
@@ -570,42 +570,42 @@ VALUES (0x7545D08C,  5086, 0x545D01A4, 150, -290, 0.005, 1, 0, 0, 0, False, '200
 /* @teleloc 0x545D01A4 [150.000000 -290.000000 0.005000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7545D08C, 0x7545D06D, '2005-02-09 10:00:00') /* Obedient Obsidian Golem */
-     , (0x7545D08C, 0x7545D06E, '2005-02-09 10:00:00') /* Obedient Obsidian Golem */
-     , (0x7545D08C, 0x7545D06F, '2005-02-09 10:00:00') /* Obedient Obsidian Golem */
-     , (0x7545D08C, 0x7545D070, '2005-02-09 10:00:00') /* Controlled Frost */
-     , (0x7545D08C, 0x7545D071, '2005-02-09 10:00:00') /* Controlled Frost */
-     , (0x7545D08C, 0x7545D072, '2005-02-09 10:00:00') /* Controlled Frost */
-     , (0x7545D08C, 0x7545D073, '2005-02-09 10:00:00') /* Controlled Frost */
-     , (0x7545D08C, 0x7545D075, '2005-02-09 10:00:00') /* Controlled Frost */
-     , (0x7545D08C, 0x7545D076, '2005-02-09 10:00:00') /* Obedient Obsidian Golem */
-     , (0x7545D08C, 0x7545D077, '2005-02-09 10:00:00') /* Controlled Frost */
-     , (0x7545D08C, 0x7545D078, '2005-02-09 10:00:00') /* Controlled Frost */
-     , (0x7545D08C, 0x7545D07A, '2005-02-09 10:00:00') /* Obedient Obsidian Golem */
-     , (0x7545D08C, 0x7545D07B, '2005-02-09 10:00:00') /* Obedient Obsidian Golem */
-     , (0x7545D08C, 0x7545D07C, '2005-02-09 10:00:00') /* Obedient Obsidian Golem */
-     , (0x7545D08C, 0x7545D07D, '2005-02-09 10:00:00') /* Obedient Obsidian Golem */
-     , (0x7545D08C, 0x7545D07E, '2005-02-09 10:00:00') /* Controlled Frost */
-     , (0x7545D08C, 0x7545D07F, '2005-02-09 10:00:00') /* Controlled Frost */
-     , (0x7545D08C, 0x7545D080, '2005-02-09 10:00:00') /* Controlled Frost */
-     , (0x7545D08C, 0x7545D082, '2005-02-09 10:00:00') /* Controlled Frost */
-     , (0x7545D08C, 0x7545D083, '2005-02-09 10:00:00') /* Obedient Obsidian Golem */
-     , (0x7545D08C, 0x7545D084, '2005-02-09 10:00:00') /* Obedient Obsidian Golem */
-     , (0x7545D08C, 0x7545D085, '2005-02-09 10:00:00') /* Obedient Obsidian Golem */
-     , (0x7545D08C, 0x7545D086, '2005-02-09 10:00:00') /* Obedient Obsidian Golem */
-     , (0x7545D08C, 0x7545D087, '2005-02-09 10:00:00') /* Controlled Frost */
-     , (0x7545D08C, 0x7545D088, '2005-02-09 10:00:00') /* Controlled Frost */
-     , (0x7545D08C, 0x7545D089, '2005-02-09 10:00:00') /* Controlled Frost */
-     , (0x7545D08C, 0x7545D08A, '2005-02-09 10:00:00') /* Controlled Frost */
-     , (0x7545D08C, 0x7545D08B, '2005-02-09 10:00:00') /* Controlled Frost */
-     , (0x7545D08C, 0x7545D08D, '2005-02-09 10:00:00') /* Obedient Obsidian Golem */
-     , (0x7545D08C, 0x7545D08E, '2005-02-09 10:00:00') /* Obedient Obsidian Golem */
-     , (0x7545D08C, 0x7545D090, '2005-02-09 10:00:00') /* Obedient Obsidian Golem */
-     , (0x7545D08C, 0x7545D091, '2005-02-09 10:00:00') /* Obedient Obsidian Golem */
-     , (0x7545D08C, 0x7545D094, '2005-02-09 10:00:00') /* Obedient Obsidian Golem */
-     , (0x7545D08C, 0x7545D095, '2005-02-09 10:00:00') /* Controlled Frost */
-     , (0x7545D08C, 0x7545D096, '2005-02-09 10:00:00') /* Controlled Frost */
-     , (0x7545D08C, 0x7545D097, '2005-02-09 10:00:00') /* Controlled Frost */;
+VALUES (0x7545D08C, 0x7545D06D, '2005-02-09 10:00:00') /* Obedient Obsidian Golem (20027) */
+     , (0x7545D08C, 0x7545D06E, '2005-02-09 10:00:00') /* Obedient Obsidian Golem (20027) */
+     , (0x7545D08C, 0x7545D06F, '2005-02-09 10:00:00') /* Obedient Obsidian Golem (20027) */
+     , (0x7545D08C, 0x7545D070, '2005-02-09 10:00:00') /* Controlled Frost (20025) */
+     , (0x7545D08C, 0x7545D071, '2005-02-09 10:00:00') /* Controlled Frost (20025) */
+     , (0x7545D08C, 0x7545D072, '2005-02-09 10:00:00') /* Controlled Frost (20025) */
+     , (0x7545D08C, 0x7545D073, '2005-02-09 10:00:00') /* Controlled Frost (20025) */
+     , (0x7545D08C, 0x7545D075, '2005-02-09 10:00:00') /* Controlled Frost (20025) */
+     , (0x7545D08C, 0x7545D076, '2005-02-09 10:00:00') /* Obedient Obsidian Golem (20027) */
+     , (0x7545D08C, 0x7545D077, '2005-02-09 10:00:00') /* Controlled Frost (20025) */
+     , (0x7545D08C, 0x7545D078, '2005-02-09 10:00:00') /* Controlled Frost (20025) */
+     , (0x7545D08C, 0x7545D07A, '2005-02-09 10:00:00') /* Obedient Obsidian Golem (20027) */
+     , (0x7545D08C, 0x7545D07B, '2005-02-09 10:00:00') /* Obedient Obsidian Golem (20027) */
+     , (0x7545D08C, 0x7545D07C, '2005-02-09 10:00:00') /* Obedient Obsidian Golem (20027) */
+     , (0x7545D08C, 0x7545D07D, '2005-02-09 10:00:00') /* Obedient Obsidian Golem (20027) */
+     , (0x7545D08C, 0x7545D07E, '2005-02-09 10:00:00') /* Controlled Frost (20025) */
+     , (0x7545D08C, 0x7545D07F, '2005-02-09 10:00:00') /* Controlled Frost (20025) */
+     , (0x7545D08C, 0x7545D080, '2005-02-09 10:00:00') /* Controlled Frost (20025) */
+     , (0x7545D08C, 0x7545D082, '2005-02-09 10:00:00') /* Controlled Frost (20025) */
+     , (0x7545D08C, 0x7545D083, '2005-02-09 10:00:00') /* Obedient Obsidian Golem (20027) */
+     , (0x7545D08C, 0x7545D084, '2005-02-09 10:00:00') /* Obedient Obsidian Golem (20027) */
+     , (0x7545D08C, 0x7545D085, '2005-02-09 10:00:00') /* Obedient Obsidian Golem (20027) */
+     , (0x7545D08C, 0x7545D086, '2005-02-09 10:00:00') /* Obedient Obsidian Golem (20027) */
+     , (0x7545D08C, 0x7545D087, '2005-02-09 10:00:00') /* Controlled Frost (20025) */
+     , (0x7545D08C, 0x7545D088, '2005-02-09 10:00:00') /* Controlled Frost (20025) */
+     , (0x7545D08C, 0x7545D089, '2005-02-09 10:00:00') /* Controlled Frost (20025) */
+     , (0x7545D08C, 0x7545D08A, '2005-02-09 10:00:00') /* Controlled Frost (20025) */
+     , (0x7545D08C, 0x7545D08B, '2005-02-09 10:00:00') /* Controlled Frost (20025) */
+     , (0x7545D08C, 0x7545D08D, '2005-02-09 10:00:00') /* Obedient Obsidian Golem (20027) */
+     , (0x7545D08C, 0x7545D08E, '2005-02-09 10:00:00') /* Obedient Obsidian Golem (20027) */
+     , (0x7545D08C, 0x7545D090, '2005-02-09 10:00:00') /* Obedient Obsidian Golem (20027) */
+     , (0x7545D08C, 0x7545D091, '2005-02-09 10:00:00') /* Obedient Obsidian Golem (20027) */
+     , (0x7545D08C, 0x7545D094, '2005-02-09 10:00:00') /* Obedient Obsidian Golem (20027) */
+     , (0x7545D08C, 0x7545D095, '2005-02-09 10:00:00') /* Controlled Frost (20025) */
+     , (0x7545D08C, 0x7545D096, '2005-02-09 10:00:00') /* Controlled Frost (20025) */
+     , (0x7545D08C, 0x7545D097, '2005-02-09 10:00:00') /* Controlled Frost (20025) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7545D08D, 20027, 0x545D01A5, 150.589, -300.519, 0.01, 0.998888, 0, 0, 0.047143,  True, '2005-02-09 10:00:00'); /* Obedient Obsidian Golem */

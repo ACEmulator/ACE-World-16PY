@@ -53,4 +53,4 @@ VALUES (0x77D6300D,  7923, 0x7D630000, 24.6039, 88.2084, 12.005, -0.609033, 0, 0
 /* @teleloc 0x7D630000 [24.603900 88.208400 12.005000] -0.609033 0.000000 0.000000 0.793145 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x77D6300D, 0x77D6300C, '2005-02-09 10:00:00') /* Lubziklan al-Luq */;
+VALUES (0x77D6300D, 0x77D6300C, '2005-02-09 10:00:00') /* Lubziklan al-Luq (5178) */;

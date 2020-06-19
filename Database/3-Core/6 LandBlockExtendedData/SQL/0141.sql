@@ -49,8 +49,8 @@ VALUES (0x7014100B,  2180, 0x01410112, 30, -95.25, -12, 1, 0, 0, 0, False, '2005
 /* @teleloc 0x01410112 [30.000000 -95.250000 -12.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7014100B, 0x70141008, '2005-02-09 10:00:00') /* Pressure Plate */
-     , (0x7014100B, 0x7014100C, '2005-02-09 10:00:00') /* Lever */;
+VALUES (0x7014100B, 0x70141008, '2005-02-09 10:00:00') /* Pressure Plate (2131) */
+     , (0x7014100B, 0x7014100C, '2005-02-09 10:00:00') /* Lever (285) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7014100C,   285, 0x01410112, 28.4339, -97.6696, -10.426, -0.707107, 0, 0, -0.707107,  True, '2005-02-09 10:00:00'); /* Lever */
@@ -65,8 +65,8 @@ VALUES (0x7014100F,  2180, 0x01410114, 35.25, -90, -12, -0.707107, 0, 0, -0.7071
 /* @teleloc 0x01410114 [35.250000 -90.000000 -12.000000] -0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7014100F, 0x70141007, '2005-02-09 10:00:00') /* Pressure Plate */
-     , (0x7014100F, 0x70141010, '2005-02-09 10:00:00') /* Lever */;
+VALUES (0x7014100F, 0x70141007, '2005-02-09 10:00:00') /* Pressure Plate (2131) */
+     , (0x7014100F, 0x70141010, '2005-02-09 10:00:00') /* Lever (285) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x70141010,   285, 0x01410114, 37.9537, -88.4415, -10.426, 1, 0, 0, 0,  True, '2005-02-09 10:00:00'); /* Lever */
@@ -113,7 +113,7 @@ VALUES (0x7014101A,  2180, 0x01410134, 25.25, -70, -6, 0.707107, 0, 0, -0.707107
 /* @teleloc 0x01410134 [25.250000 -70.000000 -6.000000] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7014101A, 0x70141003, '2005-02-09 10:00:00') /* Lever */;
+VALUES (0x7014101A, 0x70141003, '2005-02-09 10:00:00') /* Lever (2609) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7014101B, 22208, 0x0141013F, 38.9641, -64.2305, -5.9975, 0.707107, 0, 0, -0.707107,  True, '2005-02-09 10:00:00'); /* Skeleton Wraith */
@@ -140,7 +140,7 @@ VALUES (0x70141020,  2180, 0x01410166, 30, -65.25, 0, 0, 0, 0, -1, False, '2005-
 /* @teleloc 0x01410166 [30.000000 -65.250000 0.000000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x70141020, 0x7014102B, '2005-02-09 10:00:00') /* Lever */;
+VALUES (0x70141020, 0x7014102B, '2005-02-09 10:00:00') /* Lever (2609) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x70141021,  1630, 0x0141016F, 39.9054, -96.3113, 0.0075, 0.084983, 0, 0, -0.996382,  True, '2005-02-09 10:00:00'); /* Lich Lord */
@@ -179,7 +179,7 @@ VALUES (0x70141029,  4139, 0x01410192, 70, -65.25, 0, 0, 0, 0, -1, False, '2005-
 /* @teleloc 0x01410192 [70.000000 -65.250000 0.000000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x70141029, 0x7014102D, '2005-02-09 10:00:00') /* Lever */;
+VALUES (0x70141029, 0x7014102D, '2005-02-09 10:00:00') /* Lever (2609) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7014102A,  1630, 0x01410192, 70.0018, -69.9867, 0.0075, 1, 0, 0, 0,  True, '2005-02-09 10:00:00'); /* Lich Lord */
@@ -214,45 +214,45 @@ VALUES (0x70141031,  7924, 0x014101A5, 70, -160, 0, 0.707107, 0, 0, -0.707107, F
 /* @teleloc 0x014101A5 [70.000000 -160.000000 0.000000] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x70141031, 0x70141000, '2005-02-09 10:00:00') /* Skeleton Wraith */
-     , (0x70141031, 0x70141001, '2005-02-09 10:00:00') /* Skeleton Wraith */
-     , (0x70141031, 0x70141002, '2005-02-09 10:00:00') /* Skeleton Wraith */
-     , (0x70141031, 0x70141004, '2005-02-09 10:00:00') /* Skeleton Wraith */
-     , (0x70141031, 0x70141005, '2005-02-09 10:00:00') /* Skeleton Wraith */
-     , (0x70141031, 0x7014100A, '2005-02-09 10:00:00') /* Lich Lord */
-     , (0x70141031, 0x70141013, '2005-02-09 10:00:00') /* Lich Lord */
-     , (0x70141031, 0x70141016, '2005-02-09 10:00:00') /* Lich Lord */
-     , (0x70141031, 0x70141017, '2005-02-09 10:00:00') /* Skeleton Wraith */
-     , (0x70141031, 0x70141018, '2005-02-09 10:00:00') /* Skeleton Wraith */
-     , (0x70141031, 0x70141019, '2005-02-09 10:00:00') /* Skeleton Wraith */
-     , (0x70141031, 0x7014101B, '2005-02-09 10:00:00') /* Skeleton Wraith */
-     , (0x70141031, 0x7014101C, '2005-02-09 10:00:00') /* Skeleton Wraith */
-     , (0x70141031, 0x7014101D, '2005-02-09 10:00:00') /* Skeleton Wraith */
-     , (0x70141031, 0x7014101E, '2005-02-09 10:00:00') /* Skeleton Wraith */
-     , (0x70141031, 0x7014101F, '2005-02-09 10:00:00') /* Skeleton Wraith */
-     , (0x70141031, 0x70141021, '2005-02-09 10:00:00') /* Lich Lord */
-     , (0x70141031, 0x70141022, '2005-02-09 10:00:00') /* Skeleton Wraith */
-     , (0x70141031, 0x70141024, '2005-02-09 10:00:00') /* Lich Lord */
-     , (0x70141031, 0x70141025, '2005-02-09 10:00:00') /* Skeleton Wraith */
-     , (0x70141031, 0x70141026, '2005-02-09 10:00:00') /* Skeleton Wraith */
-     , (0x70141031, 0x70141027, '2005-02-09 10:00:00') /* Skeleton Wraith */
-     , (0x70141031, 0x70141028, '2005-02-09 10:00:00') /* Lich Lord */
-     , (0x70141031, 0x7014102A, '2005-02-09 10:00:00') /* Lich Lord */
-     , (0x70141031, 0x7014102E, '2005-02-09 10:00:00') /* Skeleton Wraith */
-     , (0x70141031, 0x7014102F, '2005-02-09 10:00:00') /* Skeleton Wraith */
-     , (0x70141031, 0x70141032, '2005-02-09 10:00:00') /* Skeleton Wraith */
-     , (0x70141031, 0x70141034, '2005-02-09 10:00:00') /* Skeleton Wraith */
-     , (0x70141031, 0x70141037, '2005-02-09 10:00:00') /* Skeleton Wraith */
-     , (0x70141031, 0x7014103A, '2005-02-09 10:00:00') /* Skeleton Wraith */
-     , (0x70141031, 0x7014103B, '2005-02-09 10:00:00') /* Lich Lord */
-     , (0x70141031, 0x7014103C, '2005-02-09 10:00:00') /* Skeleton Wraith */
-     , (0x70141031, 0x7014103D, '2005-02-09 10:00:00') /* Skeleton Wraith */
-     , (0x70141031, 0x7014103E, '2005-02-09 10:00:00') /* Skeleton Wraith */
-     , (0x70141031, 0x70141040, '2005-02-09 10:00:00') /* Skeleton Wraith */
-     , (0x70141031, 0x70141041, '2005-02-09 10:00:00') /* Lich Lord */
-     , (0x70141031, 0x70141044, '2005-02-09 10:00:00') /* Lich Lord */
-     , (0x70141031, 0x70141045, '2005-02-09 10:00:00') /* Lich Lord */
-     , (0x70141031, 0x70141047, '2005-02-09 10:00:00') /* Revenant */;
+VALUES (0x70141031, 0x70141000, '2005-02-09 10:00:00') /* Skeleton Wraith (22208) */
+     , (0x70141031, 0x70141001, '2005-02-09 10:00:00') /* Skeleton Wraith (22208) */
+     , (0x70141031, 0x70141002, '2005-02-09 10:00:00') /* Skeleton Wraith (22208) */
+     , (0x70141031, 0x70141004, '2005-02-09 10:00:00') /* Skeleton Wraith (22208) */
+     , (0x70141031, 0x70141005, '2005-02-09 10:00:00') /* Skeleton Wraith (22208) */
+     , (0x70141031, 0x7014100A, '2005-02-09 10:00:00') /* Lich Lord (1630) */
+     , (0x70141031, 0x70141013, '2005-02-09 10:00:00') /* Lich Lord (1630) */
+     , (0x70141031, 0x70141016, '2005-02-09 10:00:00') /* Lich Lord (1630) */
+     , (0x70141031, 0x70141017, '2005-02-09 10:00:00') /* Skeleton Wraith (22208) */
+     , (0x70141031, 0x70141018, '2005-02-09 10:00:00') /* Skeleton Wraith (22208) */
+     , (0x70141031, 0x70141019, '2005-02-09 10:00:00') /* Skeleton Wraith (22208) */
+     , (0x70141031, 0x7014101B, '2005-02-09 10:00:00') /* Skeleton Wraith (22208) */
+     , (0x70141031, 0x7014101C, '2005-02-09 10:00:00') /* Skeleton Wraith (22208) */
+     , (0x70141031, 0x7014101D, '2005-02-09 10:00:00') /* Skeleton Wraith (22208) */
+     , (0x70141031, 0x7014101E, '2005-02-09 10:00:00') /* Skeleton Wraith (22208) */
+     , (0x70141031, 0x7014101F, '2005-02-09 10:00:00') /* Skeleton Wraith (22208) */
+     , (0x70141031, 0x70141021, '2005-02-09 10:00:00') /* Lich Lord (1630) */
+     , (0x70141031, 0x70141022, '2005-02-09 10:00:00') /* Skeleton Wraith (22208) */
+     , (0x70141031, 0x70141024, '2005-02-09 10:00:00') /* Lich Lord (1630) */
+     , (0x70141031, 0x70141025, '2005-02-09 10:00:00') /* Skeleton Wraith (22208) */
+     , (0x70141031, 0x70141026, '2005-02-09 10:00:00') /* Skeleton Wraith (22208) */
+     , (0x70141031, 0x70141027, '2005-02-09 10:00:00') /* Skeleton Wraith (22208) */
+     , (0x70141031, 0x70141028, '2005-02-09 10:00:00') /* Lich Lord (1630) */
+     , (0x70141031, 0x7014102A, '2005-02-09 10:00:00') /* Lich Lord (1630) */
+     , (0x70141031, 0x7014102E, '2005-02-09 10:00:00') /* Skeleton Wraith (22208) */
+     , (0x70141031, 0x7014102F, '2005-02-09 10:00:00') /* Skeleton Wraith (22208) */
+     , (0x70141031, 0x70141032, '2005-02-09 10:00:00') /* Skeleton Wraith (22208) */
+     , (0x70141031, 0x70141034, '2005-02-09 10:00:00') /* Skeleton Wraith (22208) */
+     , (0x70141031, 0x70141037, '2005-02-09 10:00:00') /* Skeleton Wraith (22208) */
+     , (0x70141031, 0x7014103A, '2005-02-09 10:00:00') /* Skeleton Wraith (22208) */
+     , (0x70141031, 0x7014103B, '2005-02-09 10:00:00') /* Lich Lord (1630) */
+     , (0x70141031, 0x7014103C, '2005-02-09 10:00:00') /* Skeleton Wraith (22208) */
+     , (0x70141031, 0x7014103D, '2005-02-09 10:00:00') /* Skeleton Wraith (22208) */
+     , (0x70141031, 0x7014103E, '2005-02-09 10:00:00') /* Skeleton Wraith (22208) */
+     , (0x70141031, 0x70141040, '2005-02-09 10:00:00') /* Skeleton Wraith (22208) */
+     , (0x70141031, 0x70141041, '2005-02-09 10:00:00') /* Lich Lord (1630) */
+     , (0x70141031, 0x70141044, '2005-02-09 10:00:00') /* Lich Lord (1630) */
+     , (0x70141031, 0x70141045, '2005-02-09 10:00:00') /* Lich Lord (1630) */
+     , (0x70141031, 0x70141047, '2005-02-09 10:00:00') /* Revenant (619) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x70141032, 22208, 0x014101A7, 80.0019, -19.9868, 0.0025, -4.37114E-08, 0, 0, -1,  True, '2005-02-09 10:00:00'); /* Skeleton Wraith */
@@ -311,7 +311,7 @@ VALUES (0x7014103F,  2180, 0x014101D2, 110, -65.25, 0, 0, 0, 0, -1, False, '2005
 /* @teleloc 0x014101D2 [110.000000 -65.250000 0.000000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7014103F, 0x7014102C, '2005-02-09 10:00:00') /* Lever */;
+VALUES (0x7014103F, 0x7014102C, '2005-02-09 10:00:00') /* Lever (2609) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x70141040, 22208, 0x014101D8, 118.472, -83.9641, 0.0075, 1, 0, 0, 0,  True, '2005-02-09 10:00:00'); /* Skeleton Wraith */
@@ -354,4 +354,4 @@ VALUES (0x70141049, 15759, 0x01410115, 47.2241, -89.2318, -11.995, -0.587988, 0,
 /* @teleloc 0x01410115 [47.224100 -89.231800 -11.995000] -0.587988 0.000000 0.000000 0.808870 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x70141049, 0x70141048, '2005-02-09 10:00:00') /* Alloy Utensil */;
+VALUES (0x70141049, 0x70141048, '2005-02-09 10:00:00') /* Alloy Utensil (25321) */;

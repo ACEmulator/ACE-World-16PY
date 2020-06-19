@@ -1,8 +1,7 @@
-DELETE FROM `encounter` WHERE `landblock` = 42311;
+DELETE FROM `encounter` WHERE `landblock` = 0xA547;
 
 INSERT INTO `encounter` (`landblock`, `weenie_Class_Id`, `cell_X`, `cell_Y`, `last_Modified`)
-VALUES (42311, 21172, 3, 3, '2005-02-09 10:00:00') /* Low Central Undead Plains Mix Generator */
-     , (42311, 21172, 3, 7, '2005-02-09 10:00:00') /* Low Central Undead Plains Mix Generator */
-     , (42311, 21172, 3, 8, '2005-02-09 10:00:00') /* Low Central Undead Plains Mix Generator */
-     , (42311, 21172, 4, 0, '2005-02-09 10:00:00') /* Low Central Undead Plains Mix Generator */
-     , (42311, 21172, 5, 6, '2005-02-09 10:00:00') /* Low Central Undead Plains Mix Generator */;
+VALUES (0xA547, 21172, 3, 3, '2005-02-09 10:00:00') /* Low Central Undead Plains Mix Generator */
+     , (0xA547, 21172, 3, 7, '2005-02-09 10:00:00') /* Low Central Undead Plains Mix Generator */
+     , (0xA547, 21172, 4, 0, '2005-02-09 10:00:00') /* Low Central Undead Plains Mix Generator */
+     , (0xA547, 21172, 5, 6, '2005-02-09 10:00:00') /* Low Central Undead Plains Mix Generator */;

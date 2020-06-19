@@ -149,7 +149,7 @@ VALUES (0x701CC024,  2179, 0x01CC0161, 51.933, -70, 0, -0.707107, 0, 0, -0.70710
 /* @teleloc 0x01CC0161 [51.933000 -70.000000 0.000000] -0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x701CC024, 0x701CC025, '2005-02-09 10:00:00') /* Lever */;
+VALUES (0x701CC024, 0x701CC025, '2005-02-09 10:00:00') /* Lever (285) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x701CC025,   285, 0x01CC0161, 53.9514, -68.4512, 1.574, 1, 0, 0, 0,  True, '2005-02-09 10:00:00'); /* Lever */

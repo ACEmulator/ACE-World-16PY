@@ -49,18 +49,18 @@ VALUES (0x7614C020,  7923, 0x614C030F, 110, -30, 6, 1, 0, 0, 0, False, '2005-02-
 /* @teleloc 0x614C030F [110.000000 -30.000000 6.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7614C020, 0x7614C01E, '2005-02-09 10:00:00') /* Ward of the Retreat */
-     , (0x7614C020, 0x7614C0C2, '2005-02-09 10:00:00') /* Imperial Mu-miyah */
-     , (0x7614C020, 0x7614C0C3, '2005-02-09 10:00:00') /* Great Revenant */
-     , (0x7614C020, 0x7614C0C4, '2005-02-09 10:00:00') /* Nomad Mu-miyah */
-     , (0x7614C020, 0x7614C0C5, '2005-02-09 10:00:00') /* Imperial Mu-miyah */
-     , (0x7614C020, 0x7614C0C6, '2005-02-09 10:00:00') /* Imperial Mu-miyah */
-     , (0x7614C020, 0x7614C0C7, '2005-02-09 10:00:00') /* Phantasm */
-     , (0x7614C020, 0x7614C0C8, '2005-02-09 10:00:00') /* Phantasm */
-     , (0x7614C020, 0x7614C0C9, '2005-02-09 10:00:00') /* Great Revenant */
-     , (0x7614C020, 0x7614C0CE, '2005-02-09 10:00:00') /* Nomad Mu-miyah */
-     , (0x7614C020, 0x7614C0CF, '2005-02-09 10:00:00') /* Imperial Mu-miyah */
-     , (0x7614C020, 0x7614C0D0, '2005-02-09 10:00:00') /* Great Revenant */;
+VALUES (0x7614C020, 0x7614C01E, '2005-02-09 10:00:00') /* Ward of the Retreat (27430) */
+     , (0x7614C020, 0x7614C0C2, '2005-02-09 10:00:00') /* Imperial Mu-miyah (7119) */
+     , (0x7614C020, 0x7614C0C3, '2005-02-09 10:00:00') /* Great Revenant (24320) */
+     , (0x7614C020, 0x7614C0C4, '2005-02-09 10:00:00') /* Nomad Mu-miyah (8431) */
+     , (0x7614C020, 0x7614C0C5, '2005-02-09 10:00:00') /* Imperial Mu-miyah (7119) */
+     , (0x7614C020, 0x7614C0C6, '2005-02-09 10:00:00') /* Imperial Mu-miyah (7119) */
+     , (0x7614C020, 0x7614C0C7, '2005-02-09 10:00:00') /* Phantasm (27999) */
+     , (0x7614C020, 0x7614C0C8, '2005-02-09 10:00:00') /* Phantasm (27999) */
+     , (0x7614C020, 0x7614C0C9, '2005-02-09 10:00:00') /* Great Revenant (24320) */
+     , (0x7614C020, 0x7614C0CE, '2005-02-09 10:00:00') /* Nomad Mu-miyah (8431) */
+     , (0x7614C020, 0x7614C0CF, '2005-02-09 10:00:00') /* Imperial Mu-miyah (7119) */
+     , (0x7614C020, 0x7614C0D0, '2005-02-09 10:00:00') /* Great Revenant (24320) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7614C023,  7117, 0x614C0100, 27.4074, -130.159, -29.9935, -0.993017, 0, 0, 0.117969,  True, '2005-02-09 10:00:00'); /* Guardian Mu-miyah */
@@ -99,18 +99,18 @@ VALUES (0x7614C02B,  4219, 0x614C0102, 30, -150, -29.995, 1, 0, 0, -4.37114E-08,
 /* @teleloc 0x614C0102 [30.000000 -150.000000 -29.995000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7614C02B, 0x7614C023, '2005-02-09 10:00:00') /* Guardian Mu-miyah */
-     , (0x7614C02B, 0x7614C024, '2005-02-09 10:00:00') /* Guardian Mu-miyah */
-     , (0x7614C02B, 0x7614C025, '2005-02-09 10:00:00') /* Guardian Mu-miyah */
-     , (0x7614C02B, 0x7614C026, '2005-02-09 10:00:00') /* Guardian Mu-miyah */
-     , (0x7614C02B, 0x7614C027, '2005-02-09 10:00:00') /* Guardian Mu-miyah */
-     , (0x7614C02B, 0x7614C028, '2005-02-09 10:00:00') /* Dark Master */
-     , (0x7614C02B, 0x7614C029, '2005-02-09 10:00:00') /* Guardian Mu-miyah */
-     , (0x7614C02B, 0x7614C02A, '2005-02-09 10:00:00') /* Guardian Mu-miyah */
-     , (0x7614C02B, 0x7614C02C, '2005-02-09 10:00:00') /* Imperial Mu-miyah */
-     , (0x7614C02B, 0x7614C02D, '2005-02-09 10:00:00') /* Imperial Mu-miyah */
-     , (0x7614C02B, 0x7614C02E, '2005-02-09 10:00:00') /* Dark Master */
-     , (0x7614C02B, 0x7614C02F, '2005-02-09 10:00:00') /* Great Revenant */;
+VALUES (0x7614C02B, 0x7614C023, '2005-02-09 10:00:00') /* Guardian Mu-miyah (7117) */
+     , (0x7614C02B, 0x7614C024, '2005-02-09 10:00:00') /* Guardian Mu-miyah (7117) */
+     , (0x7614C02B, 0x7614C025, '2005-02-09 10:00:00') /* Guardian Mu-miyah (7117) */
+     , (0x7614C02B, 0x7614C026, '2005-02-09 10:00:00') /* Guardian Mu-miyah (7117) */
+     , (0x7614C02B, 0x7614C027, '2005-02-09 10:00:00') /* Guardian Mu-miyah (7117) */
+     , (0x7614C02B, 0x7614C028, '2005-02-09 10:00:00') /* Dark Master (24319) */
+     , (0x7614C02B, 0x7614C029, '2005-02-09 10:00:00') /* Guardian Mu-miyah (7117) */
+     , (0x7614C02B, 0x7614C02A, '2005-02-09 10:00:00') /* Guardian Mu-miyah (7117) */
+     , (0x7614C02B, 0x7614C02C, '2005-02-09 10:00:00') /* Imperial Mu-miyah (7119) */
+     , (0x7614C02B, 0x7614C02D, '2005-02-09 10:00:00') /* Imperial Mu-miyah (7119) */
+     , (0x7614C02B, 0x7614C02E, '2005-02-09 10:00:00') /* Dark Master (24319) */
+     , (0x7614C02B, 0x7614C02F, '2005-02-09 10:00:00') /* Great Revenant (24320) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7614C02C,  7119, 0x614C0102, 27.8466, -149.84, -29.9935, 0.999803, 0, 0, 0.0198709,  True, '2005-02-09 10:00:00'); /* Imperial Mu-miyah */
@@ -165,25 +165,25 @@ VALUES (0x7614C038,  4219, 0x614C0115, 70, -130, -29.995, 0.714421, 0, 0, -0.699
 /* @teleloc 0x614C0115 [70.000000 -130.000000 -29.995000] 0.714421 0.000000 0.000000 -0.699716 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7614C038, 0x7614C031, '2005-02-09 10:00:00') /* Phantasm */
-     , (0x7614C038, 0x7614C032, '2005-02-09 10:00:00') /* Phantasm */
-     , (0x7614C038, 0x7614C033, '2005-02-09 10:00:00') /* Phantasm */
-     , (0x7614C038, 0x7614C034, '2005-02-09 10:00:00') /* Phantasm */
-     , (0x7614C038, 0x7614C035, '2005-02-09 10:00:00') /* Phantasm */
-     , (0x7614C038, 0x7614C036, '2005-02-09 10:00:00') /* Phantasm */
-     , (0x7614C038, 0x7614C037, '2005-02-09 10:00:00') /* Phantasm */
-     , (0x7614C038, 0x7614C039, '2005-02-09 10:00:00') /* Phantasm */
-     , (0x7614C038, 0x7614C03A, '2005-02-09 10:00:00') /* Phantasm */
-     , (0x7614C038, 0x7614C03B, '2005-02-09 10:00:00') /* Phantasm */
-     , (0x7614C038, 0x7614C065, '2005-02-09 10:00:00') /* Desiccated Mu-miyah */
-     , (0x7614C038, 0x7614C066, '2005-02-09 10:00:00') /* Desiccated Mu-miyah */
-     , (0x7614C038, 0x7614C067, '2005-02-09 10:00:00') /* Desiccated Mu-miyah */
-     , (0x7614C038, 0x7614C068, '2005-02-09 10:00:00') /* Desiccated Mu-miyah */
-     , (0x7614C038, 0x7614C069, '2005-02-09 10:00:00') /* Desiccated Mu-miyah */
-     , (0x7614C038, 0x7614C06A, '2005-02-09 10:00:00') /* Desiccated Mu-miyah */
-     , (0x7614C038, 0x7614C06B, '2005-02-09 10:00:00') /* Desiccated Mu-miyah */
-     , (0x7614C038, 0x7614C06C, '2005-02-09 10:00:00') /* Desiccated Mu-miyah */
-     , (0x7614C038, 0x7614C06D, '2005-02-09 10:00:00') /* Desiccated Mu-miyah */;
+VALUES (0x7614C038, 0x7614C031, '2005-02-09 10:00:00') /* Phantasm (27999) */
+     , (0x7614C038, 0x7614C032, '2005-02-09 10:00:00') /* Phantasm (27999) */
+     , (0x7614C038, 0x7614C033, '2005-02-09 10:00:00') /* Phantasm (27999) */
+     , (0x7614C038, 0x7614C034, '2005-02-09 10:00:00') /* Phantasm (27999) */
+     , (0x7614C038, 0x7614C035, '2005-02-09 10:00:00') /* Phantasm (27999) */
+     , (0x7614C038, 0x7614C036, '2005-02-09 10:00:00') /* Phantasm (27999) */
+     , (0x7614C038, 0x7614C037, '2005-02-09 10:00:00') /* Phantasm (27999) */
+     , (0x7614C038, 0x7614C039, '2005-02-09 10:00:00') /* Phantasm (27999) */
+     , (0x7614C038, 0x7614C03A, '2005-02-09 10:00:00') /* Phantasm (27999) */
+     , (0x7614C038, 0x7614C03B, '2005-02-09 10:00:00') /* Phantasm (27999) */
+     , (0x7614C038, 0x7614C065, '2005-02-09 10:00:00') /* Desiccated Mu-miyah (27424) */
+     , (0x7614C038, 0x7614C066, '2005-02-09 10:00:00') /* Desiccated Mu-miyah (27424) */
+     , (0x7614C038, 0x7614C067, '2005-02-09 10:00:00') /* Desiccated Mu-miyah (27424) */
+     , (0x7614C038, 0x7614C068, '2005-02-09 10:00:00') /* Desiccated Mu-miyah (27424) */
+     , (0x7614C038, 0x7614C069, '2005-02-09 10:00:00') /* Desiccated Mu-miyah (27424) */
+     , (0x7614C038, 0x7614C06A, '2005-02-09 10:00:00') /* Desiccated Mu-miyah (27424) */
+     , (0x7614C038, 0x7614C06B, '2005-02-09 10:00:00') /* Desiccated Mu-miyah (27424) */
+     , (0x7614C038, 0x7614C06C, '2005-02-09 10:00:00') /* Desiccated Mu-miyah (27424) */
+     , (0x7614C038, 0x7614C06D, '2005-02-09 10:00:00') /* Desiccated Mu-miyah (27424) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7614C039, 27999, 0x614C0118, 69.2932, -135.048, -29.9918, 0.71344, 0, 0, -0.700716,  True, '2005-02-09 10:00:00'); /* Phantasm */
@@ -202,14 +202,14 @@ VALUES (0x7614C03C,  7923, 0x614C0151, 160, -130, -29.995, 0.696707, 0, 0, -0.71
 /* @teleloc 0x614C0151 [160.000000 -130.000000 -29.995000] 0.696707 0.000000 0.000000 -0.717356 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7614C03C, 0x7614C03D, '2005-02-09 10:00:00') /* Royal Mu-miyah */
-     , (0x7614C03C, 0x7614C03E, '2005-02-09 10:00:00') /* Royal Mu-miyah */
-     , (0x7614C03C, 0x7614C03F, '2005-02-09 10:00:00') /* Royal Mu-miyah */
-     , (0x7614C03C, 0x7614C040, '2005-02-09 10:00:00') /* Royal Mu-miyah */
-     , (0x7614C03C, 0x7614C041, '2005-02-09 10:00:00') /* Royal Mu-miyah */
-     , (0x7614C03C, 0x7614C042, '2005-02-09 10:00:00') /* Royal Mu-miyah */
-     , (0x7614C03C, 0x7614C043, '2005-02-09 10:00:00') /* Phantasm */
-     , (0x7614C03C, 0x7614C044, '2005-02-09 10:00:00') /* Phantasm */;
+VALUES (0x7614C03C, 0x7614C03D, '2005-02-09 10:00:00') /* Royal Mu-miyah (7118) */
+     , (0x7614C03C, 0x7614C03E, '2005-02-09 10:00:00') /* Royal Mu-miyah (7118) */
+     , (0x7614C03C, 0x7614C03F, '2005-02-09 10:00:00') /* Royal Mu-miyah (7118) */
+     , (0x7614C03C, 0x7614C040, '2005-02-09 10:00:00') /* Royal Mu-miyah (7118) */
+     , (0x7614C03C, 0x7614C041, '2005-02-09 10:00:00') /* Royal Mu-miyah (7118) */
+     , (0x7614C03C, 0x7614C042, '2005-02-09 10:00:00') /* Royal Mu-miyah (7118) */
+     , (0x7614C03C, 0x7614C043, '2005-02-09 10:00:00') /* Phantasm (27999) */
+     , (0x7614C03C, 0x7614C044, '2005-02-09 10:00:00') /* Phantasm (27999) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7614C03D,  7118, 0x614C0151, 163.52, -126.611, -29.9935, -0.3618, 0, 0, -0.932256,  True, '2005-02-09 10:00:00'); /* Royal Mu-miyah */
@@ -288,19 +288,19 @@ VALUES (0x7614C04F,  4219, 0x614C0160, 190, -150, -29.995, 1, 0, 0, -4.37114E-08
 /* @teleloc 0x614C0160 [190.000000 -150.000000 -29.995000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7614C04F, 0x7614C045, '2005-02-09 10:00:00') /* Dark Master */
-     , (0x7614C04F, 0x7614C046, '2005-02-09 10:00:00') /* Dark Master */
-     , (0x7614C04F, 0x7614C047, '2005-02-09 10:00:00') /* Dark Master */
-     , (0x7614C04F, 0x7614C048, '2005-02-09 10:00:00') /* Dark Master */
-     , (0x7614C04F, 0x7614C049, '2005-02-09 10:00:00') /* Phantasm */
-     , (0x7614C04F, 0x7614C04A, '2005-02-09 10:00:00') /* Phantasm */
-     , (0x7614C04F, 0x7614C04B, '2005-02-09 10:00:00') /* Phantasm */
-     , (0x7614C04F, 0x7614C04C, '2005-02-09 10:00:00') /* Phantasm */
-     , (0x7614C04F, 0x7614C04D, '2005-02-09 10:00:00') /* Royal Mu-miyah */
-     , (0x7614C04F, 0x7614C04E, '2005-02-09 10:00:00') /* Dark Master */
-     , (0x7614C04F, 0x7614C050, '2005-02-09 10:00:00') /* Desiccated Mu-miyah */
-     , (0x7614C04F, 0x7614C051, '2005-02-09 10:00:00') /* Royal Mu-miyah */
-     , (0x7614C04F, 0x7614C052, '2005-02-09 10:00:00') /* Royal Mu-miyah */;
+VALUES (0x7614C04F, 0x7614C045, '2005-02-09 10:00:00') /* Dark Master (24319) */
+     , (0x7614C04F, 0x7614C046, '2005-02-09 10:00:00') /* Dark Master (24319) */
+     , (0x7614C04F, 0x7614C047, '2005-02-09 10:00:00') /* Dark Master (24319) */
+     , (0x7614C04F, 0x7614C048, '2005-02-09 10:00:00') /* Dark Master (24319) */
+     , (0x7614C04F, 0x7614C049, '2005-02-09 10:00:00') /* Phantasm (27999) */
+     , (0x7614C04F, 0x7614C04A, '2005-02-09 10:00:00') /* Phantasm (27999) */
+     , (0x7614C04F, 0x7614C04B, '2005-02-09 10:00:00') /* Phantasm (27999) */
+     , (0x7614C04F, 0x7614C04C, '2005-02-09 10:00:00') /* Phantasm (27999) */
+     , (0x7614C04F, 0x7614C04D, '2005-02-09 10:00:00') /* Royal Mu-miyah (7118) */
+     , (0x7614C04F, 0x7614C04E, '2005-02-09 10:00:00') /* Dark Master (24319) */
+     , (0x7614C04F, 0x7614C050, '2005-02-09 10:00:00') /* Desiccated Mu-miyah (27424) */
+     , (0x7614C04F, 0x7614C051, '2005-02-09 10:00:00') /* Royal Mu-miyah (7118) */
+     , (0x7614C04F, 0x7614C052, '2005-02-09 10:00:00') /* Royal Mu-miyah (7118) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7614C050, 27424, 0x614C0160, 189.995, -152.471, -29.9935, -1, 0, 0, 0.000709044,  True, '2005-02-09 10:00:00'); /* Desiccated Mu-miyah */
@@ -327,14 +327,14 @@ VALUES (0x7614C055,  7924, 0x614C0176, 67.396, -122.138, -23.995, 0.001377, 0, 0
 /* @teleloc 0x614C0176 [67.396000 -122.138000 -23.995000] 0.001377 0.000000 0.000000 -0.999999 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7614C055, 0x7614C053, '2005-02-09 10:00:00') /* Phantasm */
-     , (0x7614C055, 0x7614C054, '2005-02-09 10:00:00') /* Phantasm */
-     , (0x7614C055, 0x7614C056, '2005-02-09 10:00:00') /* Desiccated Mu-miyah */
-     , (0x7614C055, 0x7614C057, '2005-02-09 10:00:00') /* Phantasm */
-     , (0x7614C055, 0x7614C058, '2005-02-09 10:00:00') /* Phantasm */
-     , (0x7614C055, 0x7614C059, '2005-02-09 10:00:00') /* Desiccated Mu-miyah */
-     , (0x7614C055, 0x7614C05A, '2005-02-09 10:00:00') /* Desiccated Mu-miyah */
-     , (0x7614C055, 0x7614C05B, '2005-02-09 10:00:00') /* Desiccated Mu-miyah */;
+VALUES (0x7614C055, 0x7614C053, '2005-02-09 10:00:00') /* Phantasm (27999) */
+     , (0x7614C055, 0x7614C054, '2005-02-09 10:00:00') /* Phantasm (27999) */
+     , (0x7614C055, 0x7614C056, '2005-02-09 10:00:00') /* Desiccated Mu-miyah (27424) */
+     , (0x7614C055, 0x7614C057, '2005-02-09 10:00:00') /* Phantasm (27999) */
+     , (0x7614C055, 0x7614C058, '2005-02-09 10:00:00') /* Phantasm (27999) */
+     , (0x7614C055, 0x7614C059, '2005-02-09 10:00:00') /* Desiccated Mu-miyah (27424) */
+     , (0x7614C055, 0x7614C05A, '2005-02-09 10:00:00') /* Desiccated Mu-miyah (27424) */
+     , (0x7614C055, 0x7614C05B, '2005-02-09 10:00:00') /* Desiccated Mu-miyah (27424) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7614C056, 27424, 0x614C0177, 72.6653, -122.755, -23.9935, 0.045817, 0, 0, 0.99895,  True, '2005-02-09 10:00:00'); /* Desiccated Mu-miyah */
@@ -365,14 +365,14 @@ VALUES (0x7614C05C,  4219, 0x614C01AD, 40, -130, -17.995, 1, 0, 0, 0, False, '20
 /* @teleloc 0x614C01AD [40.000000 -130.000000 -17.995000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7614C05C, 0x7614C05D, '2005-02-09 10:00:00') /* Dark Master */
-     , (0x7614C05C, 0x7614C05E, '2005-02-09 10:00:00') /* Guardian Mu-miyah */
-     , (0x7614C05C, 0x7614C05F, '2005-02-09 10:00:00') /* Guardian Mu-miyah */
-     , (0x7614C05C, 0x7614C060, '2005-02-09 10:00:00') /* Great Revenant */
-     , (0x7614C05C, 0x7614C061, '2005-02-09 10:00:00') /* Guardian Mu-miyah */
-     , (0x7614C05C, 0x7614C062, '2005-02-09 10:00:00') /* Guardian Mu-miyah */
-     , (0x7614C05C, 0x7614C063, '2005-02-09 10:00:00') /* Nomad Mu-miyah */
-     , (0x7614C05C, 0x7614C064, '2005-02-09 10:00:00') /* Nomad Mu-miyah */;
+VALUES (0x7614C05C, 0x7614C05D, '2005-02-09 10:00:00') /* Dark Master (24319) */
+     , (0x7614C05C, 0x7614C05E, '2005-02-09 10:00:00') /* Guardian Mu-miyah (7117) */
+     , (0x7614C05C, 0x7614C05F, '2005-02-09 10:00:00') /* Guardian Mu-miyah (7117) */
+     , (0x7614C05C, 0x7614C060, '2005-02-09 10:00:00') /* Great Revenant (24320) */
+     , (0x7614C05C, 0x7614C061, '2005-02-09 10:00:00') /* Guardian Mu-miyah (7117) */
+     , (0x7614C05C, 0x7614C062, '2005-02-09 10:00:00') /* Guardian Mu-miyah (7117) */
+     , (0x7614C05C, 0x7614C063, '2005-02-09 10:00:00') /* Nomad Mu-miyah (8431) */
+     , (0x7614C05C, 0x7614C064, '2005-02-09 10:00:00') /* Nomad Mu-miyah (8431) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7614C05D, 24319, 0x614C01AD, 39.8746, -131.941, -17.9918, 0.012861, 0, 0, -0.999917,  True, '2005-02-09 10:00:00'); /* Dark Master */
@@ -447,19 +447,19 @@ VALUES (0x7614C06E,  4219, 0x614C01C9, 180.069, -129.981, -17.995, 1, 0, 0, 0, F
 /* @teleloc 0x614C01C9 [180.069000 -129.981000 -17.995000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7614C06E, 0x7614C06F, '2005-02-09 10:00:00') /* Phantasm */
-     , (0x7614C06E, 0x7614C070, '2005-02-09 10:00:00') /* Phantasm */
-     , (0x7614C06E, 0x7614C071, '2005-02-09 10:00:00') /* Phantasm */
-     , (0x7614C06E, 0x7614C072, '2005-02-09 10:00:00') /* Royal Mu-miyah */
-     , (0x7614C06E, 0x7614C073, '2005-02-09 10:00:00') /* Royal Mu-miyah */
-     , (0x7614C06E, 0x7614C074, '2005-02-09 10:00:00') /* Royal Mu-miyah */
-     , (0x7614C06E, 0x7614C075, '2005-02-09 10:00:00') /* Royal Mu-miyah */
-     , (0x7614C06E, 0x7614C076, '2005-02-09 10:00:00') /* Imperial Mu-miyah */
-     , (0x7614C06E, 0x7614C077, '2005-02-09 10:00:00') /* Imperial Mu-miyah */
-     , (0x7614C06E, 0x7614C078, '2005-02-09 10:00:00') /* Nomad Mu-miyah */
-     , (0x7614C06E, 0x7614C079, '2005-02-09 10:00:00') /* Nomad Mu-miyah */
-     , (0x7614C06E, 0x7614C07A, '2005-02-09 10:00:00') /* Nomad Mu-miyah */
-     , (0x7614C06E, 0x7614C07B, '2005-02-09 10:00:00') /* Nomad Mu-miyah */;
+VALUES (0x7614C06E, 0x7614C06F, '2005-02-09 10:00:00') /* Phantasm (27999) */
+     , (0x7614C06E, 0x7614C070, '2005-02-09 10:00:00') /* Phantasm (27999) */
+     , (0x7614C06E, 0x7614C071, '2005-02-09 10:00:00') /* Phantasm (27999) */
+     , (0x7614C06E, 0x7614C072, '2005-02-09 10:00:00') /* Royal Mu-miyah (7118) */
+     , (0x7614C06E, 0x7614C073, '2005-02-09 10:00:00') /* Royal Mu-miyah (7118) */
+     , (0x7614C06E, 0x7614C074, '2005-02-09 10:00:00') /* Royal Mu-miyah (7118) */
+     , (0x7614C06E, 0x7614C075, '2005-02-09 10:00:00') /* Royal Mu-miyah (7118) */
+     , (0x7614C06E, 0x7614C076, '2005-02-09 10:00:00') /* Imperial Mu-miyah (7119) */
+     , (0x7614C06E, 0x7614C077, '2005-02-09 10:00:00') /* Imperial Mu-miyah (7119) */
+     , (0x7614C06E, 0x7614C078, '2005-02-09 10:00:00') /* Nomad Mu-miyah (8431) */
+     , (0x7614C06E, 0x7614C079, '2005-02-09 10:00:00') /* Nomad Mu-miyah (8431) */
+     , (0x7614C06E, 0x7614C07A, '2005-02-09 10:00:00') /* Nomad Mu-miyah (8431) */
+     , (0x7614C06E, 0x7614C07B, '2005-02-09 10:00:00') /* Nomad Mu-miyah (8431) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7614C06F, 27999, 0x614C01C9, 182.714, -128.97, -17.9918, 0.071815, 0, 0, -0.997418,  True, '2005-02-09 10:00:00'); /* Phantasm */
@@ -542,15 +542,15 @@ VALUES (0x7614C082,  4219, 0x614C01E0, 50, -150, -5.995, 1, 0, 0, -4.37114E-08, 
 /* @teleloc 0x614C01E0 [50.000000 -150.000000 -5.995000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7614C082, 0x7614C07C, '2005-02-09 10:00:00') /* Guardian Mu-miyah */
-     , (0x7614C082, 0x7614C07D, '2005-02-09 10:00:00') /* Guardian Mu-miyah */
-     , (0x7614C082, 0x7614C07E, '2005-02-09 10:00:00') /* Guardian Mu-miyah */
-     , (0x7614C082, 0x7614C07F, '2005-02-09 10:00:00') /* Guardian Mu-miyah */
-     , (0x7614C082, 0x7614C080, '2005-02-09 10:00:00') /* Great Revenant */
-     , (0x7614C082, 0x7614C081, '2005-02-09 10:00:00') /* Great Revenant */
-     , (0x7614C082, 0x7614C083, '2005-02-09 10:00:00') /* Dark Master */
-     , (0x7614C082, 0x7614C084, '2005-02-09 10:00:00') /* Guardian Mu-miyah */
-     , (0x7614C082, 0x7614C085, '2005-02-09 10:00:00') /* Guardian Mu-miyah */;
+VALUES (0x7614C082, 0x7614C07C, '2005-02-09 10:00:00') /* Guardian Mu-miyah (7117) */
+     , (0x7614C082, 0x7614C07D, '2005-02-09 10:00:00') /* Guardian Mu-miyah (7117) */
+     , (0x7614C082, 0x7614C07E, '2005-02-09 10:00:00') /* Guardian Mu-miyah (7117) */
+     , (0x7614C082, 0x7614C07F, '2005-02-09 10:00:00') /* Guardian Mu-miyah (7117) */
+     , (0x7614C082, 0x7614C080, '2005-02-09 10:00:00') /* Great Revenant (24320) */
+     , (0x7614C082, 0x7614C081, '2005-02-09 10:00:00') /* Great Revenant (24320) */
+     , (0x7614C082, 0x7614C083, '2005-02-09 10:00:00') /* Dark Master (24319) */
+     , (0x7614C082, 0x7614C084, '2005-02-09 10:00:00') /* Guardian Mu-miyah (7117) */
+     , (0x7614C082, 0x7614C085, '2005-02-09 10:00:00') /* Guardian Mu-miyah (7117) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7614C083, 24319, 0x614C01E0, 50.068, -152.129, -5.99175, -0.999778, 0, 0, -0.021051,  True, '2005-02-09 10:00:00'); /* Dark Master */
@@ -605,18 +605,18 @@ VALUES (0x7614C08F,  4219, 0x614C01E6, 170, -150, -5.995, 1, 0, 0, -4.37114E-08,
 /* @teleloc 0x614C01E6 [170.000000 -150.000000 -5.995000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7614C08F, 0x7614C086, '2005-02-09 10:00:00') /* Dark Master */
-     , (0x7614C08F, 0x7614C087, '2005-02-09 10:00:00') /* Nomad Mu-miyah */
-     , (0x7614C08F, 0x7614C088, '2005-02-09 10:00:00') /* Nomad Mu-miyah */
-     , (0x7614C08F, 0x7614C089, '2005-02-09 10:00:00') /* Imperial Mu-miyah */
-     , (0x7614C08F, 0x7614C08A, '2005-02-09 10:00:00') /* Imperial Mu-miyah */
-     , (0x7614C08F, 0x7614C08B, '2005-02-09 10:00:00') /* Dark Master */
-     , (0x7614C08F, 0x7614C08C, '2005-02-09 10:00:00') /* Imperial Mu-miyah */
-     , (0x7614C08F, 0x7614C08D, '2005-02-09 10:00:00') /* Imperial Mu-miyah */
-     , (0x7614C08F, 0x7614C08E, '2005-02-09 10:00:00') /* Dark Master */
-     , (0x7614C08F, 0x7614C090, '2005-02-09 10:00:00') /* Royal Mu-miyah */
-     , (0x7614C08F, 0x7614C091, '2005-02-09 10:00:00') /* Phantasm */
-     , (0x7614C08F, 0x7614C092, '2005-02-09 10:00:00') /* Phantasm */;
+VALUES (0x7614C08F, 0x7614C086, '2005-02-09 10:00:00') /* Dark Master (24319) */
+     , (0x7614C08F, 0x7614C087, '2005-02-09 10:00:00') /* Nomad Mu-miyah (8431) */
+     , (0x7614C08F, 0x7614C088, '2005-02-09 10:00:00') /* Nomad Mu-miyah (8431) */
+     , (0x7614C08F, 0x7614C089, '2005-02-09 10:00:00') /* Imperial Mu-miyah (7119) */
+     , (0x7614C08F, 0x7614C08A, '2005-02-09 10:00:00') /* Imperial Mu-miyah (7119) */
+     , (0x7614C08F, 0x7614C08B, '2005-02-09 10:00:00') /* Dark Master (24319) */
+     , (0x7614C08F, 0x7614C08C, '2005-02-09 10:00:00') /* Imperial Mu-miyah (7119) */
+     , (0x7614C08F, 0x7614C08D, '2005-02-09 10:00:00') /* Imperial Mu-miyah (7119) */
+     , (0x7614C08F, 0x7614C08E, '2005-02-09 10:00:00') /* Dark Master (24319) */
+     , (0x7614C08F, 0x7614C090, '2005-02-09 10:00:00') /* Royal Mu-miyah (7118) */
+     , (0x7614C08F, 0x7614C091, '2005-02-09 10:00:00') /* Phantasm (27999) */
+     , (0x7614C08F, 0x7614C092, '2005-02-09 10:00:00') /* Phantasm (27999) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7614C090,  7118, 0x614C01E6, 169.892, -151.614, -5.9935, 0.999931, 0, 0, -0.011781,  True, '2005-02-09 10:00:00'); /* Royal Mu-miyah */
@@ -663,8 +663,8 @@ VALUES (0x7614C09A,  2180, 0x614C0210, 80, -145.25, 0, 1, 0, 0, 0, False, '2005-
 /* @teleloc 0x614C0210 [80.000000 -145.250000 0.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7614C09A, 0x7614C09B, '2005-02-09 10:00:00') /* Lever */
-     , (0x7614C09A, 0x7614C09D, '2005-02-09 10:00:00') /* Lever */;
+VALUES (0x7614C09A, 0x7614C09B, '2005-02-09 10:00:00') /* Lever (286) */
+     , (0x7614C09A, 0x7614C09D, '2005-02-09 10:00:00') /* Lever (2609) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7614C09B,   286, 0x614C0210, 78.436, -149.973, 1.5, -0.707107, 0, 0, -0.707107,  True, '2005-02-09 10:00:00'); /* Lever */
@@ -731,34 +731,34 @@ VALUES (0x7614C0AA,  7924, 0x614C0289, 110, -140, 0.005, 1, 0, 0, 0, False, '200
 /* @teleloc 0x614C0289 [110.000000 -140.000000 0.005000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7614C0AA, 0x7614C093, '2005-02-09 10:00:00') /* Guardian Mu-miyah */
-     , (0x7614C0AA, 0x7614C094, '2005-02-09 10:00:00') /* Guardian Mu-miyah */
-     , (0x7614C0AA, 0x7614C095, '2005-02-09 10:00:00') /* Guardian Mu-miyah */
-     , (0x7614C0AA, 0x7614C096, '2005-02-09 10:00:00') /* Guardian Mu-miyah */
-     , (0x7614C0AA, 0x7614C097, '2005-02-09 10:00:00') /* Guardian Mu-miyah */
-     , (0x7614C0AA, 0x7614C099, '2005-02-09 10:00:00') /* Dark Master */
-     , (0x7614C0AA, 0x7614C09E, '2005-02-09 10:00:00') /* Great Revenant */
-     , (0x7614C0AA, 0x7614C09F, '2005-02-09 10:00:00') /* Great Revenant */
-     , (0x7614C0AA, 0x7614C0A0, '2005-02-09 10:00:00') /* Guardian Mu-miyah */
-     , (0x7614C0AA, 0x7614C0A1, '2005-02-09 10:00:00') /* Guardian Mu-miyah */
-     , (0x7614C0AA, 0x7614C0A3, '2005-02-09 10:00:00') /* Dark Master */
-     , (0x7614C0AA, 0x7614C0A5, '2005-02-09 10:00:00') /* Great Revenant */
-     , (0x7614C0AA, 0x7614C0A6, '2005-02-09 10:00:00') /* Guardian Mu-miyah */
-     , (0x7614C0AA, 0x7614C0A9, '2005-02-09 10:00:00') /* Nomad Mu-miyah */
-     , (0x7614C0AA, 0x7614C0AC, '2005-02-09 10:00:00') /* Dark Master */
-     , (0x7614C0AA, 0x7614C0AD, '2005-02-09 10:00:00') /* Guardian Mu-miyah */
-     , (0x7614C0AA, 0x7614C0AE, '2005-02-09 10:00:00') /* Guardian Mu-miyah */
-     , (0x7614C0AA, 0x7614C0AF, '2005-02-09 10:00:00') /* Guardian Mu-miyah */
-     , (0x7614C0AA, 0x7614C0B2, '2005-02-09 10:00:00') /* Nomad Mu-miyah */
-     , (0x7614C0AA, 0x7614C0B4, '2005-02-09 10:00:00') /* Great Revenant */
-     , (0x7614C0AA, 0x7614C0B7, '2005-02-09 10:00:00') /* Guardian Mu-miyah */
-     , (0x7614C0AA, 0x7614C0B8, '2005-02-09 10:00:00') /* Guardian Mu-miyah */
-     , (0x7614C0AA, 0x7614C0B9, '2005-02-09 10:00:00') /* Guardian Mu-miyah */
-     , (0x7614C0AA, 0x7614C0BC, '2005-02-09 10:00:00') /* Great Revenant */
-     , (0x7614C0AA, 0x7614C0BD, '2005-02-09 10:00:00') /* Great Revenant */
-     , (0x7614C0AA, 0x7614C0BF, '2005-02-09 10:00:00') /* Guardian Mu-miyah */
-     , (0x7614C0AA, 0x7614C0C0, '2005-02-09 10:00:00') /* Guardian Mu-miyah */
-     , (0x7614C0AA, 0x7614C0C1, '2005-02-09 10:00:00') /* Nomad Mu-miyah */;
+VALUES (0x7614C0AA, 0x7614C093, '2005-02-09 10:00:00') /* Guardian Mu-miyah (7117) */
+     , (0x7614C0AA, 0x7614C094, '2005-02-09 10:00:00') /* Guardian Mu-miyah (7117) */
+     , (0x7614C0AA, 0x7614C095, '2005-02-09 10:00:00') /* Guardian Mu-miyah (7117) */
+     , (0x7614C0AA, 0x7614C096, '2005-02-09 10:00:00') /* Guardian Mu-miyah (7117) */
+     , (0x7614C0AA, 0x7614C097, '2005-02-09 10:00:00') /* Guardian Mu-miyah (7117) */
+     , (0x7614C0AA, 0x7614C099, '2005-02-09 10:00:00') /* Dark Master (24319) */
+     , (0x7614C0AA, 0x7614C09E, '2005-02-09 10:00:00') /* Great Revenant (24320) */
+     , (0x7614C0AA, 0x7614C09F, '2005-02-09 10:00:00') /* Great Revenant (24320) */
+     , (0x7614C0AA, 0x7614C0A0, '2005-02-09 10:00:00') /* Guardian Mu-miyah (7117) */
+     , (0x7614C0AA, 0x7614C0A1, '2005-02-09 10:00:00') /* Guardian Mu-miyah (7117) */
+     , (0x7614C0AA, 0x7614C0A3, '2005-02-09 10:00:00') /* Dark Master (24319) */
+     , (0x7614C0AA, 0x7614C0A5, '2005-02-09 10:00:00') /* Great Revenant (24320) */
+     , (0x7614C0AA, 0x7614C0A6, '2005-02-09 10:00:00') /* Guardian Mu-miyah (7117) */
+     , (0x7614C0AA, 0x7614C0A9, '2005-02-09 10:00:00') /* Nomad Mu-miyah (8431) */
+     , (0x7614C0AA, 0x7614C0AC, '2005-02-09 10:00:00') /* Dark Master (24319) */
+     , (0x7614C0AA, 0x7614C0AD, '2005-02-09 10:00:00') /* Guardian Mu-miyah (7117) */
+     , (0x7614C0AA, 0x7614C0AE, '2005-02-09 10:00:00') /* Guardian Mu-miyah (7117) */
+     , (0x7614C0AA, 0x7614C0AF, '2005-02-09 10:00:00') /* Guardian Mu-miyah (7117) */
+     , (0x7614C0AA, 0x7614C0B2, '2005-02-09 10:00:00') /* Nomad Mu-miyah (8431) */
+     , (0x7614C0AA, 0x7614C0B4, '2005-02-09 10:00:00') /* Great Revenant (24320) */
+     , (0x7614C0AA, 0x7614C0B7, '2005-02-09 10:00:00') /* Guardian Mu-miyah (7117) */
+     , (0x7614C0AA, 0x7614C0B8, '2005-02-09 10:00:00') /* Guardian Mu-miyah (7117) */
+     , (0x7614C0AA, 0x7614C0B9, '2005-02-09 10:00:00') /* Guardian Mu-miyah (7117) */
+     , (0x7614C0AA, 0x7614C0BC, '2005-02-09 10:00:00') /* Great Revenant (24320) */
+     , (0x7614C0AA, 0x7614C0BD, '2005-02-09 10:00:00') /* Great Revenant (24320) */
+     , (0x7614C0AA, 0x7614C0BF, '2005-02-09 10:00:00') /* Guardian Mu-miyah (7117) */
+     , (0x7614C0AA, 0x7614C0C0, '2005-02-09 10:00:00') /* Guardian Mu-miyah (7117) */
+     , (0x7614C0AA, 0x7614C0C1, '2005-02-09 10:00:00') /* Nomad Mu-miyah (8431) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7614C0AB,   278, 0x614C02C8, 125.25, -100, 0, -0.707107, 0, 0, -0.707107, False, '2005-02-09 10:00:00'); /* Door */
@@ -825,8 +825,8 @@ VALUES (0x7614C0BA,  2180, 0x614C02DE, 140, -145.25, 0, 1, 0, 0, 0, False, '2005
 /* @teleloc 0x614C02DE [140.000000 -145.250000 0.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7614C0BA, 0x7614C01C, '2005-02-09 10:00:00') /* Lever */
-     , (0x7614C0BA, 0x7614C0BB, '2005-02-09 10:00:00') /* Lever */;
+VALUES (0x7614C0BA, 0x7614C01C, '2005-02-09 10:00:00') /* Lever (2609) */
+     , (0x7614C0BA, 0x7614C0BB, '2005-02-09 10:00:00') /* Lever (286) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7614C0BB,   286, 0x614C02DE, 141.564, -149.983, 1.5, 0.707107, 0, 0, -0.707107,  True, '2005-02-09 10:00:00'); /* Lever */
@@ -893,8 +893,8 @@ VALUES (0x7614C0CA,  2180, 0x614C0310, 110, -44.75, 6, 0, 0, 0, -1, False, '2005
 /* @teleloc 0x614C0310 [110.000000 -44.750000 6.000000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7614C0CA, 0x7614C030, '2005-02-09 10:00:00') /* Lever */
-     , (0x7614C0CA, 0x7614C0CB, '2005-02-09 10:00:00') /* Lever */;
+VALUES (0x7614C0CA, 0x7614C030, '2005-02-09 10:00:00') /* Lever (2609) */
+     , (0x7614C0CA, 0x7614C0CB, '2005-02-09 10:00:00') /* Lever (286) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7614C0CB,   286, 0x614C0310, 108.441, -40.5058, 7.5, -0.707107, 0, 0, -0.707107,  True, '2005-02-09 10:00:00'); /* Lever */
@@ -909,8 +909,8 @@ VALUES (0x7614C0CD,  2180, 0x614C0310, 110, -35.25, 6, 1, 0, 0, 0, False, '2005-
 /* @teleloc 0x614C0310 [110.000000 -35.250000 6.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7614C0CD, 0x7614C0CC, '2005-02-09 10:00:00') /* Pressure Plate */
-     , (0x7614C0CD, 0x7614C0D3, '2005-02-09 10:00:00') /* Lever */;
+VALUES (0x7614C0CD, 0x7614C0CC, '2005-02-09 10:00:00') /* Pressure Plate (2131) */
+     , (0x7614C0CD, 0x7614C0D3, '2005-02-09 10:00:00') /* Lever (286) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7614C0CE,  8431, 0x614C0324, 123.43, -19.1439, 6.0065, -0.351014, 0, 0, -0.93637,  True, '2005-02-09 10:00:00'); /* Nomad Mu-miyah */
@@ -929,14 +929,14 @@ VALUES (0x7614C0D1, 15759, 0x614C0122, 77.877, -130.135, -24, -0.707107, 0, 0, -
 /* @teleloc 0x614C0122 [77.877000 -130.135000 -24.000000] -0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7614C0D1, 0x7614C002, '2005-02-09 10:00:00') /* Map of Auberean */;
+VALUES (0x7614C0D1, 0x7614C002, '2005-02-09 10:00:00') /* Map of Auberean (27433) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7614C0D2, 15759, 0x614C030D, 107.035, -7.089, 6.005, 0.382683, 0, 0, -0.92388, False, '2005-02-09 10:00:00'); /* Linkable Item Generator */
 /* @teleloc 0x614C030D [107.035000 -7.089000 6.005000] 0.382683 0.000000 0.000000 -0.923880 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7614C0D2, 0x7614C01D, '2005-02-09 10:00:00') /* Coffin */;
+VALUES (0x7614C0D2, 0x7614C01D, '2005-02-09 10:00:00') /* Coffin (27439) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7614C0D3,   286, 0x614C030F, 107.617, -34.8997, 7.945, 0, 0, 0, -1,  True, '2005-02-09 10:00:00'); /* Lever */

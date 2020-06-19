@@ -25,8 +25,8 @@ VALUES (0x742DE005,  3953, 0x42DE0000, 16.8755, 88.5354, 0.005, 0.64814, 0, 0, -
 /* @teleloc 0x42DE0000 [16.875500 88.535400 0.005000] 0.648140 0.000000 0.000000 -0.761522 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x742DE005, 0x742DE004, '2005-02-09 10:00:00') /* Feruza ibn Salaq */
-     , (0x742DE005, 0x742DE006, '2005-02-09 10:00:00') /* Suzuhara Sheshumi */;
+VALUES (0x742DE005, 0x742DE004, '2005-02-09 10:00:00') /* Feruza ibn Salaq (7560) */
+     , (0x742DE005, 0x742DE006, '2005-02-09 10:00:00') /* Suzuhara Sheshumi (30386) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x742DE006, 30386, 0x42DE0000, 12.8004, 74.3821, 4.005, -0.957745, 0, 0, -0.28762,  True, '2005-02-09 10:00:00'); /* Suzuhara Sheshumi */

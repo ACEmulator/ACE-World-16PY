@@ -129,4 +129,4 @@ VALUES (0x79E4401F,  7923, 0x9E44013B, 53.7494, 107.277, 69.705, -0.385965, 0, 0
 /* @teleloc 0x9E44013B [53.749400 107.277000 69.705000] -0.385965 0.000000 0.000000 0.922514 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79E4401F, 0x79E4401E, '2005-02-09 10:00:00') /* Apprentice Fletcher */;
+VALUES (0x79E4401F, 0x79E4401E, '2005-02-09 10:00:00') /* Apprentice Fletcher (28189) */;

@@ -85,8 +85,8 @@ VALUES (0x76245014, 26553, 0x62450133, 80, -104.84, -29.995, 1, 0, 0, 0, False, 
 /* @teleloc 0x62450133 [80.000000 -104.840000 -29.995000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x76245014, 0x76245015, '2005-02-09 10:00:00') /* Button */
-     , (0x76245014, 0x76245016, '2005-02-09 10:00:00') /* Button */;
+VALUES (0x76245014, 0x76245015, '2005-02-09 10:00:00') /* Button (8420) */
+     , (0x76245014, 0x76245016, '2005-02-09 10:00:00') /* Button (8420) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x76245015,  8420, 0x62450133, 81.566, -101.712, -28.5, 0.707107, 0, 0, -0.707107,  True, '2005-02-09 10:00:00'); /* Button */
@@ -141,8 +141,8 @@ VALUES (0x76245021, 26553, 0x6245016C, 260, -114.84, -29.995, 1, 0, 0, 0, False,
 /* @teleloc 0x6245016C [260.000000 -114.840000 -29.995000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x76245021, 0x76245022, '2005-02-09 10:00:00') /* Button */
-     , (0x76245021, 0x76245023, '2005-02-09 10:00:00') /* Button */;
+VALUES (0x76245021, 0x76245022, '2005-02-09 10:00:00') /* Button (8420) */
+     , (0x76245021, 0x76245023, '2005-02-09 10:00:00') /* Button (8420) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x76245022,  8420, 0x6245016C, 258.444, -112.787, -28.5, -0.707107, 0, 0, -0.707107,  True, '2005-02-09 10:00:00'); /* Button */
@@ -173,8 +173,8 @@ VALUES (0x76245028, 26553, 0x6245018A, 60, -65.16, -23.995, -4.37114E-08, 0, 0, 
 /* @teleloc 0x6245018A [60.000000 -65.160000 -23.995000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x76245028, 0x76245027, '2005-02-09 10:00:00') /* Button */
-     , (0x76245028, 0x76245029, '2005-02-09 10:00:00') /* Button */;
+VALUES (0x76245028, 0x76245027, '2005-02-09 10:00:00') /* Button (8420) */
+     , (0x76245028, 0x76245029, '2005-02-09 10:00:00') /* Button (8420) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x76245029,  8420, 0x6245018A, 61.565, -67.919, -22.5, 0.707107, 0, 0, -0.707107,  True, '2005-02-09 10:00:00'); /* Button */
@@ -217,8 +217,8 @@ VALUES (0x76245032, 26553, 0x624501A1, 80, -89.84, -23.995, 1, 0, 0, -4.37114E-0
 /* @teleloc 0x624501A1 [80.000000 -89.840000 -23.995000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x76245032, 0x76245031, '2005-02-09 10:00:00') /* Button */
-     , (0x76245032, 0x76245033, '2005-02-09 10:00:00') /* Button */;
+VALUES (0x76245032, 0x76245031, '2005-02-09 10:00:00') /* Button (8420) */
+     , (0x76245032, 0x76245033, '2005-02-09 10:00:00') /* Button (8420) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x76245033,  8420, 0x624501A1, 78.434, -87.462, -22.5, -0.707107, 0, 0, -0.707107,  True, '2005-02-09 10:00:00'); /* Button */
@@ -253,8 +253,8 @@ VALUES (0x7624503A, 26553, 0x624501BC, 100, -65.16, -23.995, -4.37114E-08, 0, 0,
 /* @teleloc 0x624501BC [100.000000 -65.160000 -23.995000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7624503A, 0x76245039, '2005-02-09 10:00:00') /* Button */
-     , (0x7624503A, 0x7624503B, '2005-02-09 10:00:00') /* Button */;
+VALUES (0x7624503A, 0x76245039, '2005-02-09 10:00:00') /* Button (8420) */
+     , (0x7624503A, 0x7624503B, '2005-02-09 10:00:00') /* Button (8420) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7624503B,  8420, 0x624501BC, 101.549, -68.038, -22.5, 0.707107, 0, 0, -0.707107,  True, '2005-02-09 10:00:00'); /* Button */
@@ -269,8 +269,8 @@ VALUES (0x7624503D, 26553, 0x624501CA, 240, -75.16, -23.995, -4.37114E-08, 0, 0,
 /* @teleloc 0x624501CA [240.000000 -75.160000 -23.995000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7624503D, 0x7624503C, '2005-02-09 10:00:00') /* Button */
-     , (0x7624503D, 0x7624503E, '2005-02-09 10:00:00') /* Button */;
+VALUES (0x7624503D, 0x7624503C, '2005-02-09 10:00:00') /* Button (8420) */
+     , (0x7624503D, 0x7624503E, '2005-02-09 10:00:00') /* Button (8420) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7624503E,  8420, 0x624501CA, 238.441, -77.63, -22.5, -0.707107, 0, 0, -0.707107,  True, '2005-02-09 10:00:00'); /* Button */
@@ -317,8 +317,8 @@ VALUES (0x76245048, 26553, 0x624501E1, 260, -99.84, -23.995, 1, 0, 0, -4.37114E-
 /* @teleloc 0x624501E1 [260.000000 -99.840000 -23.995000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x76245048, 0x76245047, '2005-02-09 10:00:00') /* Button */
-     , (0x76245048, 0x76245049, '2005-02-09 10:00:00') /* Button */;
+VALUES (0x76245048, 0x76245047, '2005-02-09 10:00:00') /* Button (8420) */
+     , (0x76245048, 0x76245049, '2005-02-09 10:00:00') /* Button (8420) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x76245049,  8420, 0x624501E1, 258.444, -97.428, -22.5, -0.707107, 0, 0, -0.707107,  True, '2005-02-09 10:00:00'); /* Button */
@@ -349,8 +349,8 @@ VALUES (0x7624504F, 26553, 0x624501FC, 280, -75.16, -23.995, -4.37114E-08, 0, 0,
 /* @teleloc 0x624501FC [280.000000 -75.160000 -23.995000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7624504F, 0x7624504E, '2005-02-09 10:00:00') /* Button */
-     , (0x7624504F, 0x76245050, '2005-02-09 10:00:00') /* Button */;
+VALUES (0x7624504F, 0x7624504E, '2005-02-09 10:00:00') /* Button (8420) */
+     , (0x7624504F, 0x76245050, '2005-02-09 10:00:00') /* Button (8420) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x76245050,  8420, 0x624501FC, 278.441, -77.747, -22.5, -0.707107, 0, 0, -0.707107,  True, '2005-02-09 10:00:00'); /* Button */
@@ -385,8 +385,8 @@ VALUES (0x76245057, 26553, 0x6245021E, 20, -59.84, -17.995, 1, 0, 0, -4.37114E-0
 /* @teleloc 0x6245021E [20.000000 -59.840000 -17.995000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x76245057, 0x76245058, '2005-02-09 10:00:00') /* Button */
-     , (0x76245057, 0x76245059, '2005-02-09 10:00:00') /* Button */;
+VALUES (0x76245057, 0x76245058, '2005-02-09 10:00:00') /* Button (8420) */
+     , (0x76245057, 0x76245059, '2005-02-09 10:00:00') /* Button (8420) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x76245058,  8420, 0x6245021E, 18.4392, -56.9892, -16.5, -0.707107, 0, 0, -0.707107,  True, '2005-02-09 10:00:00'); /* Button */
@@ -457,8 +457,8 @@ VALUES (0x76245068, 26553, 0x62450277, 59.84, -100, -17.995, -0.707107, 0, 0, -0
 /* @teleloc 0x62450277 [59.840000 -100.000000 -17.995000] -0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x76245068, 0x76245067, '2005-02-09 10:00:00') /* Button */
-     , (0x76245068, 0x76245069, '2005-02-09 10:00:00') /* Button */;
+VALUES (0x76245068, 0x76245067, '2005-02-09 10:00:00') /* Button (8420) */
+     , (0x76245068, 0x76245069, '2005-02-09 10:00:00') /* Button (8420) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x76245069,  8420, 0x62450277, 57.312, -101.558, -16.5, 0, 0, 0, -1,  True, '2005-02-09 10:00:00'); /* Button */
@@ -481,8 +481,8 @@ VALUES (0x7624506D, 26553, 0x6245027E, 70.16, -5.4767E-09, -17.995, 0.707107, 0,
 /* @teleloc 0x6245027E [70.160000 0.000000 -17.995000] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7624506D, 0x7624506C, '2005-02-09 10:00:00') /* Button */
-     , (0x7624506D, 0x7624506E, '2005-02-09 10:00:00') /* Button */;
+VALUES (0x7624506D, 0x7624506C, '2005-02-09 10:00:00') /* Button (8420) */
+     , (0x7624506D, 0x7624506E, '2005-02-09 10:00:00') /* Button (8420) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7624506E,  8420, 0x6245027E, 72.928, 1.535, -16.5, 1, 0, 0, 0,  True, '2005-02-09 10:00:00'); /* Button */
@@ -513,8 +513,8 @@ VALUES (0x76245074, 26553, 0x62450291, 89.84, -5.4767E-09, -17.995, 0.707107, 0,
 /* @teleloc 0x62450291 [89.840000 0.000000 -17.995000] 0.707107 0.000000 0.000000 0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x76245074, 0x76245073, '2005-02-09 10:00:00') /* Button */
-     , (0x76245074, 0x76245075, '2005-02-09 10:00:00') /* Button */;
+VALUES (0x76245074, 0x76245073, '2005-02-09 10:00:00') /* Button (8420) */
+     , (0x76245074, 0x76245075, '2005-02-09 10:00:00') /* Button (8420) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x76245075,  8420, 0x62450291, 87.381, 1.549, -16.5, 1, 0, 0, 0,  True, '2005-02-09 10:00:00'); /* Button */
@@ -549,8 +549,8 @@ VALUES (0x7624507C, 26553, 0x624502A8, 100.16, -100, -17.995, -0.707107, 0, 0, 0
 /* @teleloc 0x624502A8 [100.160000 -100.000000 -17.995000] -0.707107 0.000000 0.000000 0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7624507C, 0x7624507B, '2005-02-09 10:00:00') /* Button */
-     , (0x7624507C, 0x7624507D, '2005-02-09 10:00:00') /* Button */;
+VALUES (0x7624507C, 0x7624507B, '2005-02-09 10:00:00') /* Button (8420) */
+     , (0x7624507C, 0x7624507D, '2005-02-09 10:00:00') /* Button (8420) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7624507D,  8420, 0x624502A8, 102.921, -98.446, -16.5, 1, 0, 0, 0,  True, '2005-02-09 10:00:00'); /* Button */
@@ -613,8 +613,8 @@ VALUES (0x7624508B, 26553, 0x62450305, 140, -59.84, -17.995, 1, 0, 0, -4.37114E-
 /* @teleloc 0x62450305 [140.000000 -59.840000 -17.995000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7624508B, 0x7624508A, '2005-02-09 10:00:00') /* Button */
-     , (0x7624508B, 0x7624508C, '2005-02-09 10:00:00') /* Button */;
+VALUES (0x7624508B, 0x7624508A, '2005-02-09 10:00:00') /* Button (8420) */
+     , (0x7624508B, 0x7624508C, '2005-02-09 10:00:00') /* Button (8420) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7624508C,  8420, 0x62450305, 138.441, -57.032, -16.5, -0.707107, 0, 0, -0.707107,  True, '2005-02-09 10:00:00'); /* Button */
@@ -661,8 +661,8 @@ VALUES (0x76245096, 26553, 0x6245032D, 200, -69.84, -17.995, 1, 0, 0, -4.37114E-
 /* @teleloc 0x6245032D [200.000000 -69.840000 -17.995000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x76245096, 0x76245095, '2005-02-09 10:00:00') /* Button */
-     , (0x76245096, 0x76245097, '2005-02-09 10:00:00') /* Button */;
+VALUES (0x76245096, 0x76245095, '2005-02-09 10:00:00') /* Button (8420) */
+     , (0x76245096, 0x76245097, '2005-02-09 10:00:00') /* Button (8420) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x76245097,  8420, 0x6245032D, 198.443, -66.993, -16.5, -0.707107, 0, 0, -0.707107,  True, '2005-02-09 10:00:00'); /* Button */
@@ -729,8 +729,8 @@ VALUES (0x762450A6, 26553, 0x62450386, 239.84, -110, -17.995, -0.707107, 0, 0, -
 /* @teleloc 0x62450386 [239.840000 -110.000000 -17.995000] -0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x762450A6, 0x762450A5, '2005-02-09 10:00:00') /* Button */
-     , (0x762450A6, 0x762450A7, '2005-02-09 10:00:00') /* Button */;
+VALUES (0x762450A6, 0x762450A5, '2005-02-09 10:00:00') /* Button (8420) */
+     , (0x762450A6, 0x762450A7, '2005-02-09 10:00:00') /* Button (8420) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x762450A7,  8420, 0x62450386, 237.041, -111.558, -16.5, 0, 0, 0, -1,  True, '2005-02-09 10:00:00'); /* Button */
@@ -753,8 +753,8 @@ VALUES (0x762450AB, 26553, 0x6245038D, 250.16, -10, -17.995, 0.707107, 0, 0, -0.
 /* @teleloc 0x6245038D [250.160000 -10.000000 -17.995000] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x762450AB, 0x762450AA, '2005-02-09 10:00:00') /* Button */
-     , (0x762450AB, 0x762450AC, '2005-02-09 10:00:00') /* Button */;
+VALUES (0x762450AB, 0x762450AA, '2005-02-09 10:00:00') /* Button (8420) */
+     , (0x762450AB, 0x762450AC, '2005-02-09 10:00:00') /* Button (8420) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x762450AC,  8420, 0x6245038D, 252.812, -8.448, -16.5, 1, 0, 0, 0,  True, '2005-02-09 10:00:00'); /* Button */
@@ -785,8 +785,8 @@ VALUES (0x762450B2, 26553, 0x624503A0, 269.84, -10, -17.995, 0.707107, 0, 0, 0.7
 /* @teleloc 0x624503A0 [269.840000 -10.000000 -17.995000] 0.707107 0.000000 0.000000 0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x762450B2, 0x762450B1, '2005-02-09 10:00:00') /* Button */
-     , (0x762450B2, 0x762450B3, '2005-02-09 10:00:00') /* Button */;
+VALUES (0x762450B2, 0x762450B1, '2005-02-09 10:00:00') /* Button (8420) */
+     , (0x762450B2, 0x762450B3, '2005-02-09 10:00:00') /* Button (8420) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x762450B3,  8420, 0x624503A0, 267.295, -8.435, -16.5, 1, 0, 0, 0,  True, '2005-02-09 10:00:00'); /* Button */
@@ -821,8 +821,8 @@ VALUES (0x762450BA, 26553, 0x624503B7, 280.16, -110, -17.995, -0.707107, 0, 0, 0
 /* @teleloc 0x624503B7 [280.160000 -110.000000 -17.995000] -0.707107 0.000000 0.000000 0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x762450BA, 0x762450B9, '2005-02-09 10:00:00') /* Button */
-     , (0x762450BA, 0x762450BB, '2005-02-09 10:00:00') /* Button */;
+VALUES (0x762450BA, 0x762450B9, '2005-02-09 10:00:00') /* Button (8420) */
+     , (0x762450BA, 0x762450BB, '2005-02-09 10:00:00') /* Button (8420) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x762450BB,  8420, 0x624503B7, 282.444, -111.543, -16.5, 0, 0, 0, -1,  True, '2005-02-09 10:00:00'); /* Button */
@@ -885,8 +885,8 @@ VALUES (0x762450C9, 26553, 0x62450414, 320, -69.84, -17.995, 1, 0, 0, -4.37114E-
 /* @teleloc 0x62450414 [320.000000 -69.840000 -17.995000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x762450C9, 0x762450C8, '2005-02-09 10:00:00') /* Button */
-     , (0x762450C9, 0x762450CA, '2005-02-09 10:00:00') /* Button */;
+VALUES (0x762450C9, 0x762450C8, '2005-02-09 10:00:00') /* Button (8420) */
+     , (0x762450C9, 0x762450CA, '2005-02-09 10:00:00') /* Button (8420) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x762450CA,  8420, 0x62450414, 321.557, -67.499, -16.5, 0.707107, 0, 0, -0.707107,  True, '2005-02-09 10:00:00'); /* Button */
@@ -933,8 +933,8 @@ VALUES (0x762450D4, 26553, 0x6245043E, 10.16, -30, -11.995, 0.707107, 0, 0, -0.7
 /* @teleloc 0x6245043E [10.160000 -30.000000 -11.995000] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x762450D4, 0x762450D3, '2005-02-09 10:00:00') /* Button */
-     , (0x762450D4, 0x762450D5, '2005-02-09 10:00:00') /* Button */;
+VALUES (0x762450D4, 0x762450D3, '2005-02-09 10:00:00') /* Button (8420) */
+     , (0x762450D4, 0x762450D5, '2005-02-09 10:00:00') /* Button (8420) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x762450D5,  8420, 0x6245043E, 13.091, -28.436, -10.5, 1, 0, 0, 0,  True, '2005-02-09 10:00:00'); /* Button */
@@ -997,8 +997,8 @@ VALUES (0x762450E3, 26553, 0x6245048F, 40, -89.84, -11.995, 1, 0, 0, -4.37114E-0
 /* @teleloc 0x6245048F [40.000000 -89.840000 -11.995000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x762450E3, 0x762450E2, '2005-02-09 10:00:00') /* Button */
-     , (0x762450E3, 0x762450E4, '2005-02-09 10:00:00') /* Button */;
+VALUES (0x762450E3, 0x762450E2, '2005-02-09 10:00:00') /* Button (8420) */
+     , (0x762450E3, 0x762450E4, '2005-02-09 10:00:00') /* Button (8420) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x762450E4,  8420, 0x6245048F, 38.438, -87.241, -10.5, -0.707107, 0, 0, -0.707107,  True, '2005-02-09 10:00:00'); /* Button */
@@ -1065,8 +1065,8 @@ VALUES (0x762450F3, 26553, 0x624504E1, 89.84, -80, -11.995, -0.707107, 0, 0, -0.
 /* @teleloc 0x624504E1 [89.840000 -80.000000 -11.995000] -0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x762450F3, 0x762450F2, '2005-02-09 10:00:00') /* Button */
-     , (0x762450F3, 0x762450F4, '2005-02-09 10:00:00') /* Button */;
+VALUES (0x762450F3, 0x762450F2, '2005-02-09 10:00:00') /* Button (8420) */
+     , (0x762450F3, 0x762450F4, '2005-02-09 10:00:00') /* Button (8420) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x762450F4,  8420, 0x624504E1, 87.183, -78.445, -10.5, 1, 0, 0, 0,  True, '2005-02-09 10:00:00'); /* Button */
@@ -1113,7 +1113,7 @@ VALUES (0x762450FE, 26553, 0x62450515, 109.84, -30, -11.995, -0.707107, 0, 0, -0
 /* @teleloc 0x62450515 [109.840000 -30.000000 -11.995000] -0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x762450FE, 0x762450FF, '2005-02-09 10:00:00') /* Button */;
+VALUES (0x762450FE, 0x762450FF, '2005-02-09 10:00:00') /* Button (8420) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x762450FF,  8420, 0x62450515, 107.256, -28.444, -10.5, 1, 0, 0, 0,  True, '2005-02-09 10:00:00'); /* Button */
@@ -1168,8 +1168,8 @@ VALUES (0x7624510B, 26553, 0x62450553, 190.16, -40, -11.995, 0.707107, 0, 0, -0.
 /* @teleloc 0x62450553 [190.160000 -40.000000 -11.995000] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7624510B, 0x7624510A, '2005-02-09 10:00:00') /* Button */
-     , (0x7624510B, 0x7624510C, '2005-02-09 10:00:00') /* Button */;
+VALUES (0x7624510B, 0x7624510A, '2005-02-09 10:00:00') /* Button (8420) */
+     , (0x7624510B, 0x7624510C, '2005-02-09 10:00:00') /* Button (8420) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7624510C,  8420, 0x62450553, 192.407, -41.561, -10.5, 0, 0, 0, -1,  True, '2005-02-09 10:00:00'); /* Button */
@@ -1228,8 +1228,8 @@ VALUES (0x76245119, 26553, 0x624505A4, 220, -99.84, -11.995, 1, 0, 0, -4.37114E-
 /* @teleloc 0x624505A4 [220.000000 -99.840000 -11.995000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x76245119, 0x76245118, '2005-02-09 10:00:00') /* Button */
-     , (0x76245119, 0x7624511A, '2005-02-09 10:00:00') /* Button */;
+VALUES (0x76245119, 0x76245118, '2005-02-09 10:00:00') /* Button (8420) */
+     , (0x76245119, 0x7624511A, '2005-02-09 10:00:00') /* Button (8420) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7624511A,  8420, 0x624505A4, 221.548, -97.275, -10.5, 0.707107, 0, 0, -0.707107,  True, '2005-02-09 10:00:00'); /* Button */
@@ -1288,8 +1288,8 @@ VALUES (0x76245127, 26553, 0x624505F6, 269.84, -90, -11.995, -0.707107, 0, 0, -0
 /* @teleloc 0x624505F6 [269.840000 -90.000000 -11.995000] -0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x76245127, 0x76245126, '2005-02-09 10:00:00') /* Button */
-     , (0x76245127, 0x76245128, '2005-02-09 10:00:00') /* Button */;
+VALUES (0x76245127, 0x76245126, '2005-02-09 10:00:00') /* Button (8420) */
+     , (0x76245127, 0x76245128, '2005-02-09 10:00:00') /* Button (8420) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x76245128,  8420, 0x624505F6, 267.329, -91.563, -10.5, 0, 0, 0, -1,  True, '2005-02-09 10:00:00'); /* Button */
@@ -1336,8 +1336,8 @@ VALUES (0x76245132, 26553, 0x6245062A, 289.84, -40, -11.995, -0.707107, 0, 0, -0
 /* @teleloc 0x6245062A [289.840000 -40.000000 -11.995000] -0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x76245132, 0x76245131, '2005-02-09 10:00:00') /* Button */
-     , (0x76245132, 0x76245133, '2005-02-09 10:00:00') /* Button */;
+VALUES (0x76245132, 0x76245131, '2005-02-09 10:00:00') /* Button (8420) */
+     , (0x76245132, 0x76245133, '2005-02-09 10:00:00') /* Button (8420) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x76245133,  8420, 0x6245062A, 287.493, -38.444, -10.5, 1, 0, 0, 0,  True, '2005-02-09 10:00:00'); /* Button */
@@ -1484,8 +1484,8 @@ VALUES (0x76245156, 26553, 0x624507A9, 29.84, -170, 0.005, 0.707107, 0, 0, 0.707
 /* @teleloc 0x624507A9 [29.840000 -170.000000 0.005000] 0.707107 0.000000 0.000000 0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x76245156, 0x76245155, '2005-02-09 10:00:00') /* Button */
-     , (0x76245156, 0x76245157, '2005-02-09 10:00:00') /* Button */;
+VALUES (0x76245156, 0x76245155, '2005-02-09 10:00:00') /* Button (8420) */
+     , (0x76245156, 0x76245157, '2005-02-09 10:00:00') /* Button (8420) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x76245157,  8420, 0x624507A9, 27.365, -168.452, 1.5, 1, 0, 0, 0,  True, '2005-02-09 10:00:00'); /* Button */
@@ -1496,153 +1496,153 @@ VALUES (0x76245158,  7924, 0x624507BF, 40, -100, 0.005, 1, 0, 0, 0, False, '2005
 /* @teleloc 0x624507BF [40.000000 -100.000000 0.005000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x76245158, 0x762450CD, '2005-02-09 10:00:00') /* Restless Soul */
-     , (0x76245158, 0x762450CE, '2005-02-09 10:00:00') /* Restless Soul */
-     , (0x76245158, 0x762450CF, '2005-02-09 10:00:00') /* Restless Soul */
-     , (0x76245158, 0x762450D0, '2005-02-09 10:00:00') /* Restless Soul */
-     , (0x76245158, 0x762450D1, '2005-02-09 10:00:00') /* Restless Soul */
-     , (0x76245158, 0x762450D2, '2005-02-09 10:00:00') /* Restless Soul */
-     , (0x76245158, 0x762450D6, '2005-02-09 10:00:00') /* Restless Soul */
-     , (0x76245158, 0x762450D7, '2005-02-09 10:00:00') /* Restless Soul */
-     , (0x76245158, 0x762450D8, '2005-02-09 10:00:00') /* Restless Soul */
-     , (0x76245158, 0x762450D9, '2005-02-09 10:00:00') /* Restless Soul */
-     , (0x76245158, 0x762450DA, '2005-02-09 10:00:00') /* Restless Soul */
-     , (0x76245158, 0x762450DB, '2005-02-09 10:00:00') /* Restless Soul */
-     , (0x76245158, 0x762450DC, '2005-02-09 10:00:00') /* Restless Soul */
-     , (0x76245158, 0x762450DD, '2005-02-09 10:00:00') /* Restless Soul */
-     , (0x76245158, 0x762450DE, '2005-02-09 10:00:00') /* Restless Soul */
-     , (0x76245158, 0x762450DF, '2005-02-09 10:00:00') /* Restless Soul */
-     , (0x76245158, 0x762450E0, '2005-02-09 10:00:00') /* Restless Soul */
-     , (0x76245158, 0x762450E1, '2005-02-09 10:00:00') /* Restless Soul */
-     , (0x76245158, 0x762450E5, '2005-02-09 10:00:00') /* Restless Soul */
-     , (0x76245158, 0x762450E6, '2005-02-09 10:00:00') /* Restless Soul */
-     , (0x76245158, 0x762450E7, '2005-02-09 10:00:00') /* Restless Soul */
-     , (0x76245158, 0x762450E8, '2005-02-09 10:00:00') /* Restless Soul */
-     , (0x76245158, 0x762450E9, '2005-02-09 10:00:00') /* Restless Soul */
-     , (0x76245158, 0x76245138, '2005-02-09 10:00:00') /* Restless Soul */
-     , (0x76245158, 0x76245139, '2005-02-09 10:00:00') /* Restless Soul */
-     , (0x76245158, 0x7624513A, '2005-02-09 10:00:00') /* Restless Soul */
-     , (0x76245158, 0x7624513B, '2005-02-09 10:00:00') /* Restless Soul */
-     , (0x76245158, 0x7624513C, '2005-02-09 10:00:00') /* Restless Soul */
-     , (0x76245158, 0x7624513D, '2005-02-09 10:00:00') /* Restless Soul */
-     , (0x76245158, 0x7624513E, '2005-02-09 10:00:00') /* Restless Soul */
-     , (0x76245158, 0x7624513F, '2005-02-09 10:00:00') /* Restless Soul */
-     , (0x76245158, 0x76245140, '2005-02-09 10:00:00') /* Restless Soul */
-     , (0x76245158, 0x76245141, '2005-02-09 10:00:00') /* Restless Soul */
-     , (0x76245158, 0x76245142, '2005-02-09 10:00:00') /* Restless Soul */
-     , (0x76245158, 0x76245143, '2005-02-09 10:00:00') /* Restless Soul */
-     , (0x76245158, 0x76245144, '2005-02-09 10:00:00') /* Restless Soul */
-     , (0x76245158, 0x76245145, '2005-02-09 10:00:00') /* Restless Soul */
-     , (0x76245158, 0x76245167, '2005-02-09 10:00:00') /* Restless Soul */
-     , (0x76245158, 0x76245168, '2005-02-09 10:00:00') /* Restless Soul */
-     , (0x76245158, 0x7624517F, '2005-02-09 10:00:00') /* Restless Soul */
-     , (0x76245158, 0x76245180, '2005-02-09 10:00:00') /* Restless Soul */
-     , (0x76245158, 0x76245181, '2005-02-09 10:00:00') /* Restless Soul */
-     , (0x76245158, 0x76245182, '2005-02-09 10:00:00') /* Restless Soul */;
+VALUES (0x76245158, 0x762450CD, '2005-02-09 10:00:00') /* Restless Soul (27141) */
+     , (0x76245158, 0x762450CE, '2005-02-09 10:00:00') /* Restless Soul (27141) */
+     , (0x76245158, 0x762450CF, '2005-02-09 10:00:00') /* Restless Soul (27141) */
+     , (0x76245158, 0x762450D0, '2005-02-09 10:00:00') /* Restless Soul (27141) */
+     , (0x76245158, 0x762450D1, '2005-02-09 10:00:00') /* Restless Soul (27141) */
+     , (0x76245158, 0x762450D2, '2005-02-09 10:00:00') /* Restless Soul (27141) */
+     , (0x76245158, 0x762450D6, '2005-02-09 10:00:00') /* Restless Soul (27141) */
+     , (0x76245158, 0x762450D7, '2005-02-09 10:00:00') /* Restless Soul (27141) */
+     , (0x76245158, 0x762450D8, '2005-02-09 10:00:00') /* Restless Soul (27141) */
+     , (0x76245158, 0x762450D9, '2005-02-09 10:00:00') /* Restless Soul (27141) */
+     , (0x76245158, 0x762450DA, '2005-02-09 10:00:00') /* Restless Soul (27141) */
+     , (0x76245158, 0x762450DB, '2005-02-09 10:00:00') /* Restless Soul (27141) */
+     , (0x76245158, 0x762450DC, '2005-02-09 10:00:00') /* Restless Soul (27141) */
+     , (0x76245158, 0x762450DD, '2005-02-09 10:00:00') /* Restless Soul (27141) */
+     , (0x76245158, 0x762450DE, '2005-02-09 10:00:00') /* Restless Soul (27141) */
+     , (0x76245158, 0x762450DF, '2005-02-09 10:00:00') /* Restless Soul (27141) */
+     , (0x76245158, 0x762450E0, '2005-02-09 10:00:00') /* Restless Soul (27141) */
+     , (0x76245158, 0x762450E1, '2005-02-09 10:00:00') /* Restless Soul (27141) */
+     , (0x76245158, 0x762450E5, '2005-02-09 10:00:00') /* Restless Soul (27141) */
+     , (0x76245158, 0x762450E6, '2005-02-09 10:00:00') /* Restless Soul (27141) */
+     , (0x76245158, 0x762450E7, '2005-02-09 10:00:00') /* Restless Soul (27141) */
+     , (0x76245158, 0x762450E8, '2005-02-09 10:00:00') /* Restless Soul (27141) */
+     , (0x76245158, 0x762450E9, '2005-02-09 10:00:00') /* Restless Soul (27141) */
+     , (0x76245158, 0x76245138, '2005-02-09 10:00:00') /* Restless Soul (27141) */
+     , (0x76245158, 0x76245139, '2005-02-09 10:00:00') /* Restless Soul (27141) */
+     , (0x76245158, 0x7624513A, '2005-02-09 10:00:00') /* Restless Soul (27141) */
+     , (0x76245158, 0x7624513B, '2005-02-09 10:00:00') /* Restless Soul (27141) */
+     , (0x76245158, 0x7624513C, '2005-02-09 10:00:00') /* Restless Soul (27141) */
+     , (0x76245158, 0x7624513D, '2005-02-09 10:00:00') /* Restless Soul (27141) */
+     , (0x76245158, 0x7624513E, '2005-02-09 10:00:00') /* Restless Soul (27141) */
+     , (0x76245158, 0x7624513F, '2005-02-09 10:00:00') /* Restless Soul (27141) */
+     , (0x76245158, 0x76245140, '2005-02-09 10:00:00') /* Restless Soul (27141) */
+     , (0x76245158, 0x76245141, '2005-02-09 10:00:00') /* Restless Soul (27141) */
+     , (0x76245158, 0x76245142, '2005-02-09 10:00:00') /* Restless Soul (27141) */
+     , (0x76245158, 0x76245143, '2005-02-09 10:00:00') /* Restless Soul (27141) */
+     , (0x76245158, 0x76245144, '2005-02-09 10:00:00') /* Restless Soul (27141) */
+     , (0x76245158, 0x76245145, '2005-02-09 10:00:00') /* Restless Soul (27141) */
+     , (0x76245158, 0x76245167, '2005-02-09 10:00:00') /* Restless Soul (27141) */
+     , (0x76245158, 0x76245168, '2005-02-09 10:00:00') /* Restless Soul (27141) */
+     , (0x76245158, 0x7624517F, '2005-02-09 10:00:00') /* Restless Soul (27141) */
+     , (0x76245158, 0x76245180, '2005-02-09 10:00:00') /* Restless Soul (27141) */
+     , (0x76245158, 0x76245181, '2005-02-09 10:00:00') /* Restless Soul (27141) */
+     , (0x76245158, 0x76245182, '2005-02-09 10:00:00') /* Restless Soul (27141) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x76245159,  7924, 0x624507BF, 40.9603, -100, 0.005, 1, 0, 0, 0, False, '2005-02-09 10:00:00'); /* Linkable Monster Generator ( 5 Min.) */
 /* @teleloc 0x624507BF [40.960300 -100.000000 0.005000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x76245159, 0x76245051, '2005-02-09 10:00:00') /* Restless Soul */
-     , (0x76245159, 0x76245052, '2005-02-09 10:00:00') /* Restless Soul */
-     , (0x76245159, 0x76245053, '2005-02-09 10:00:00') /* Restless Soul */
-     , (0x76245159, 0x76245054, '2005-02-09 10:00:00') /* Restless Soul */
-     , (0x76245159, 0x76245055, '2005-02-09 10:00:00') /* Restless Soul */
-     , (0x76245159, 0x76245056, '2005-02-09 10:00:00') /* Restless Soul */
-     , (0x76245159, 0x7624505A, '2005-02-09 10:00:00') /* Restless Soul */
-     , (0x76245159, 0x7624505B, '2005-02-09 10:00:00') /* Restless Soul */
-     , (0x76245159, 0x7624505C, '2005-02-09 10:00:00') /* Restless Soul */
-     , (0x76245159, 0x7624505D, '2005-02-09 10:00:00') /* Restless Soul */
-     , (0x76245159, 0x7624505E, '2005-02-09 10:00:00') /* Restless Soul */
-     , (0x76245159, 0x7624505F, '2005-02-09 10:00:00') /* Restless Soul */
-     , (0x76245159, 0x76245060, '2005-02-09 10:00:00') /* Restless Soul */
-     , (0x76245159, 0x76245061, '2005-02-09 10:00:00') /* Restless Soul */
-     , (0x76245159, 0x76245062, '2005-02-09 10:00:00') /* Restless Soul */
-     , (0x76245159, 0x76245063, '2005-02-09 10:00:00') /* Restless Soul */
-     , (0x76245159, 0x76245064, '2005-02-09 10:00:00') /* Restless Soul */
-     , (0x76245159, 0x76245065, '2005-02-09 10:00:00') /* Restless Soul */
-     , (0x76245159, 0x76245066, '2005-02-09 10:00:00') /* Restless Soul */
-     , (0x76245159, 0x7624506A, '2005-02-09 10:00:00') /* Restless Soul */
-     , (0x76245159, 0x7624506B, '2005-02-09 10:00:00') /* Restless Soul */
-     , (0x76245159, 0x7624506F, '2005-02-09 10:00:00') /* Restless Soul */
-     , (0x76245159, 0x76245070, '2005-02-09 10:00:00') /* Restless Soul */
-     , (0x76245159, 0x76245071, '2005-02-09 10:00:00') /* Restless Soul */
-     , (0x76245159, 0x76245072, '2005-02-09 10:00:00') /* Restless Soul */
-     , (0x76245159, 0x76245077, '2005-02-09 10:00:00') /* Restless Soul */
-     , (0x76245159, 0x76245078, '2005-02-09 10:00:00') /* Restless Soul */
-     , (0x76245159, 0x76245080, '2005-02-09 10:00:00') /* Restless Soul */
-     , (0x76245159, 0x76245081, '2005-02-09 10:00:00') /* Restless Soul */
-     , (0x76245159, 0x76245084, '2005-02-09 10:00:00') /* Restless Soul */
-     , (0x76245159, 0x762450EA, '2005-02-09 10:00:00') /* Restless Soul */
-     , (0x76245159, 0x762450EB, '2005-02-09 10:00:00') /* Restless Soul */
-     , (0x76245159, 0x762450EC, '2005-02-09 10:00:00') /* Restless Soul */
-     , (0x76245159, 0x762450ED, '2005-02-09 10:00:00') /* Restless Soul */
-     , (0x76245159, 0x762450EE, '2005-02-09 10:00:00') /* Restless Soul */
-     , (0x76245159, 0x762450EF, '2005-02-09 10:00:00') /* Restless Soul */
-     , (0x76245159, 0x762450F0, '2005-02-09 10:00:00') /* Restless Soul */
-     , (0x76245159, 0x762450F1, '2005-02-09 10:00:00') /* Restless Soul */
-     , (0x76245159, 0x762450F5, '2005-02-09 10:00:00') /* Restless Soul */
-     , (0x76245159, 0x762450F6, '2005-02-09 10:00:00') /* Restless Soul */
-     , (0x76245159, 0x762450F7, '2005-02-09 10:00:00') /* Restless Soul */
-     , (0x76245159, 0x762450F8, '2005-02-09 10:00:00') /* Restless Soul */
-     , (0x76245159, 0x762450F9, '2005-02-09 10:00:00') /* Restless Soul */
-     , (0x76245159, 0x762450FA, '2005-02-09 10:00:00') /* Restless Soul */
-     , (0x76245159, 0x762450FB, '2005-02-09 10:00:00') /* Restless Soul */
-     , (0x76245159, 0x762450FC, '2005-02-09 10:00:00') /* Restless Soul */
-     , (0x76245159, 0x76245100, '2005-02-09 10:00:00') /* Restless Soul */
-     , (0x76245159, 0x76245101, '2005-02-09 10:00:00') /* Restless Soul */
-     , (0x76245159, 0x76245102, '2005-02-09 10:00:00') /* Restless Soul */
-     , (0x76245159, 0x76245103, '2005-02-09 10:00:00') /* Restless Soul */;
+VALUES (0x76245159, 0x76245051, '2005-02-09 10:00:00') /* Restless Soul (27141) */
+     , (0x76245159, 0x76245052, '2005-02-09 10:00:00') /* Restless Soul (27141) */
+     , (0x76245159, 0x76245053, '2005-02-09 10:00:00') /* Restless Soul (27141) */
+     , (0x76245159, 0x76245054, '2005-02-09 10:00:00') /* Restless Soul (27141) */
+     , (0x76245159, 0x76245055, '2005-02-09 10:00:00') /* Restless Soul (27141) */
+     , (0x76245159, 0x76245056, '2005-02-09 10:00:00') /* Restless Soul (27141) */
+     , (0x76245159, 0x7624505A, '2005-02-09 10:00:00') /* Restless Soul (27141) */
+     , (0x76245159, 0x7624505B, '2005-02-09 10:00:00') /* Restless Soul (27141) */
+     , (0x76245159, 0x7624505C, '2005-02-09 10:00:00') /* Restless Soul (27141) */
+     , (0x76245159, 0x7624505D, '2005-02-09 10:00:00') /* Restless Soul (27141) */
+     , (0x76245159, 0x7624505E, '2005-02-09 10:00:00') /* Restless Soul (27141) */
+     , (0x76245159, 0x7624505F, '2005-02-09 10:00:00') /* Restless Soul (27141) */
+     , (0x76245159, 0x76245060, '2005-02-09 10:00:00') /* Restless Soul (27141) */
+     , (0x76245159, 0x76245061, '2005-02-09 10:00:00') /* Restless Soul (27141) */
+     , (0x76245159, 0x76245062, '2005-02-09 10:00:00') /* Restless Soul (27141) */
+     , (0x76245159, 0x76245063, '2005-02-09 10:00:00') /* Restless Soul (27141) */
+     , (0x76245159, 0x76245064, '2005-02-09 10:00:00') /* Restless Soul (27141) */
+     , (0x76245159, 0x76245065, '2005-02-09 10:00:00') /* Restless Soul (27141) */
+     , (0x76245159, 0x76245066, '2005-02-09 10:00:00') /* Restless Soul (27141) */
+     , (0x76245159, 0x7624506A, '2005-02-09 10:00:00') /* Restless Soul (27141) */
+     , (0x76245159, 0x7624506B, '2005-02-09 10:00:00') /* Restless Soul (27141) */
+     , (0x76245159, 0x7624506F, '2005-02-09 10:00:00') /* Restless Soul (27141) */
+     , (0x76245159, 0x76245070, '2005-02-09 10:00:00') /* Restless Soul (27141) */
+     , (0x76245159, 0x76245071, '2005-02-09 10:00:00') /* Restless Soul (27141) */
+     , (0x76245159, 0x76245072, '2005-02-09 10:00:00') /* Restless Soul (27141) */
+     , (0x76245159, 0x76245077, '2005-02-09 10:00:00') /* Restless Soul (27141) */
+     , (0x76245159, 0x76245078, '2005-02-09 10:00:00') /* Restless Soul (27141) */
+     , (0x76245159, 0x76245080, '2005-02-09 10:00:00') /* Restless Soul (27141) */
+     , (0x76245159, 0x76245081, '2005-02-09 10:00:00') /* Restless Soul (27141) */
+     , (0x76245159, 0x76245084, '2005-02-09 10:00:00') /* Restless Soul (27141) */
+     , (0x76245159, 0x762450EA, '2005-02-09 10:00:00') /* Restless Soul (27141) */
+     , (0x76245159, 0x762450EB, '2005-02-09 10:00:00') /* Restless Soul (27141) */
+     , (0x76245159, 0x762450EC, '2005-02-09 10:00:00') /* Restless Soul (27141) */
+     , (0x76245159, 0x762450ED, '2005-02-09 10:00:00') /* Restless Soul (27141) */
+     , (0x76245159, 0x762450EE, '2005-02-09 10:00:00') /* Restless Soul (27141) */
+     , (0x76245159, 0x762450EF, '2005-02-09 10:00:00') /* Restless Soul (27141) */
+     , (0x76245159, 0x762450F0, '2005-02-09 10:00:00') /* Restless Soul (27141) */
+     , (0x76245159, 0x762450F1, '2005-02-09 10:00:00') /* Restless Soul (27141) */
+     , (0x76245159, 0x762450F5, '2005-02-09 10:00:00') /* Restless Soul (27141) */
+     , (0x76245159, 0x762450F6, '2005-02-09 10:00:00') /* Restless Soul (27141) */
+     , (0x76245159, 0x762450F7, '2005-02-09 10:00:00') /* Restless Soul (27141) */
+     , (0x76245159, 0x762450F8, '2005-02-09 10:00:00') /* Restless Soul (27141) */
+     , (0x76245159, 0x762450F9, '2005-02-09 10:00:00') /* Restless Soul (27141) */
+     , (0x76245159, 0x762450FA, '2005-02-09 10:00:00') /* Restless Soul (27141) */
+     , (0x76245159, 0x762450FB, '2005-02-09 10:00:00') /* Restless Soul (27141) */
+     , (0x76245159, 0x762450FC, '2005-02-09 10:00:00') /* Restless Soul (27141) */
+     , (0x76245159, 0x76245100, '2005-02-09 10:00:00') /* Restless Soul (27141) */
+     , (0x76245159, 0x76245101, '2005-02-09 10:00:00') /* Restless Soul (27141) */
+     , (0x76245159, 0x76245102, '2005-02-09 10:00:00') /* Restless Soul (27141) */
+     , (0x76245159, 0x76245103, '2005-02-09 10:00:00') /* Restless Soul (27141) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7624515A,  7924, 0x624507BF, 38.9132, -100, 0.005, 1, 0, 0, 0, False, '2005-02-09 10:00:00'); /* Linkable Monster Generator ( 5 Min.) */
 /* @teleloc 0x624507BF [38.913200 -100.000000 0.005000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7624515A, 0x76245000, '2005-02-09 10:00:00') /* Restless Soul */
-     , (0x7624515A, 0x76245001, '2005-02-09 10:00:00') /* Restless Soul */
-     , (0x7624515A, 0x76245002, '2005-02-09 10:00:00') /* Restless Soul */
-     , (0x7624515A, 0x76245003, '2005-02-09 10:00:00') /* Restless Soul */
-     , (0x7624515A, 0x76245004, '2005-02-09 10:00:00') /* Guardian */
-     , (0x7624515A, 0x76245005, '2005-02-09 10:00:00') /* Restless Soul */
-     , (0x7624515A, 0x76245006, '2005-02-09 10:00:00') /* Restless Soul */
-     , (0x7624515A, 0x76245007, '2005-02-09 10:00:00') /* Restless Soul */
-     , (0x7624515A, 0x76245010, '2005-02-09 10:00:00') /* Restless Soul */
-     , (0x7624515A, 0x76245011, '2005-02-09 10:00:00') /* Restless Soul */
-     , (0x7624515A, 0x76245012, '2005-02-09 10:00:00') /* Restless Soul */
-     , (0x7624515A, 0x76245013, '2005-02-09 10:00:00') /* Restless Soul */
-     , (0x7624515A, 0x76245017, '2005-02-09 10:00:00') /* Restless Soul */
-     , (0x7624515A, 0x76245018, '2005-02-09 10:00:00') /* Restless Soul */
-     , (0x7624515A, 0x76245019, '2005-02-09 10:00:00') /* Restless Soul */
-     , (0x7624515A, 0x7624501A, '2005-02-09 10:00:00') /* Restless Soul */
-     , (0x7624515A, 0x7624502A, '2005-02-09 10:00:00') /* Restless Soul */
-     , (0x7624515A, 0x7624502B, '2005-02-09 10:00:00') /* Restless Soul */
-     , (0x7624515A, 0x7624502C, '2005-02-09 10:00:00') /* Restless Soul */
-     , (0x7624515A, 0x7624502D, '2005-02-09 10:00:00') /* Restless Soul */
-     , (0x7624515A, 0x7624502E, '2005-02-09 10:00:00') /* Restless Soul */
-     , (0x7624515A, 0x7624502F, '2005-02-09 10:00:00') /* Restless Soul */
-     , (0x7624515A, 0x76245030, '2005-02-09 10:00:00') /* Restless Soul */
-     , (0x7624515A, 0x76245034, '2005-02-09 10:00:00') /* Restless Soul */
-     , (0x7624515A, 0x76245035, '2005-02-09 10:00:00') /* Restless Soul */
-     , (0x7624515A, 0x76245036, '2005-02-09 10:00:00') /* Restless Soul */
-     , (0x7624515A, 0x76245037, '2005-02-09 10:00:00') /* Restless Soul */
-     , (0x7624515A, 0x76245038, '2005-02-09 10:00:00') /* Restless Soul */
-     , (0x7624515A, 0x76245076, '2005-02-09 10:00:00') /* Restless Soul */
-     , (0x7624515A, 0x76245079, '2005-02-09 10:00:00') /* Restless Soul */
-     , (0x7624515A, 0x7624507A, '2005-02-09 10:00:00') /* Restless Soul */
-     , (0x7624515A, 0x7624507E, '2005-02-09 10:00:00') /* Restless Soul */
-     , (0x7624515A, 0x7624507F, '2005-02-09 10:00:00') /* Restless Soul */
-     , (0x7624515A, 0x76245082, '2005-02-09 10:00:00') /* Restless Soul */
-     , (0x7624515A, 0x76245083, '2005-02-09 10:00:00') /* Restless Soul */
-     , (0x7624515A, 0x76245085, '2005-02-09 10:00:00') /* Restless Soul */
-     , (0x7624515A, 0x76245086, '2005-02-09 10:00:00') /* Restless Soul */
-     , (0x7624515A, 0x76245087, '2005-02-09 10:00:00') /* Restless Soul */
-     , (0x7624515A, 0x76245088, '2005-02-09 10:00:00') /* Restless Soul */
-     , (0x7624515A, 0x76245089, '2005-02-09 10:00:00') /* Restless Soul */
-     , (0x7624515A, 0x7624508D, '2005-02-09 10:00:00') /* Restless Soul */
-     , (0x7624515A, 0x7624508E, '2005-02-09 10:00:00') /* Restless Soul */;
+VALUES (0x7624515A, 0x76245000, '2005-02-09 10:00:00') /* Restless Soul (27141) */
+     , (0x7624515A, 0x76245001, '2005-02-09 10:00:00') /* Restless Soul (27141) */
+     , (0x7624515A, 0x76245002, '2005-02-09 10:00:00') /* Restless Soul (27141) */
+     , (0x7624515A, 0x76245003, '2005-02-09 10:00:00') /* Restless Soul (27141) */
+     , (0x7624515A, 0x76245004, '2005-02-09 10:00:00') /* Guardian (27167) */
+     , (0x7624515A, 0x76245005, '2005-02-09 10:00:00') /* Restless Soul (27141) */
+     , (0x7624515A, 0x76245006, '2005-02-09 10:00:00') /* Restless Soul (27141) */
+     , (0x7624515A, 0x76245007, '2005-02-09 10:00:00') /* Restless Soul (27141) */
+     , (0x7624515A, 0x76245010, '2005-02-09 10:00:00') /* Restless Soul (27141) */
+     , (0x7624515A, 0x76245011, '2005-02-09 10:00:00') /* Restless Soul (27141) */
+     , (0x7624515A, 0x76245012, '2005-02-09 10:00:00') /* Restless Soul (27141) */
+     , (0x7624515A, 0x76245013, '2005-02-09 10:00:00') /* Restless Soul (27141) */
+     , (0x7624515A, 0x76245017, '2005-02-09 10:00:00') /* Restless Soul (27141) */
+     , (0x7624515A, 0x76245018, '2005-02-09 10:00:00') /* Restless Soul (27141) */
+     , (0x7624515A, 0x76245019, '2005-02-09 10:00:00') /* Restless Soul (27141) */
+     , (0x7624515A, 0x7624501A, '2005-02-09 10:00:00') /* Restless Soul (27141) */
+     , (0x7624515A, 0x7624502A, '2005-02-09 10:00:00') /* Restless Soul (27141) */
+     , (0x7624515A, 0x7624502B, '2005-02-09 10:00:00') /* Restless Soul (27141) */
+     , (0x7624515A, 0x7624502C, '2005-02-09 10:00:00') /* Restless Soul (27141) */
+     , (0x7624515A, 0x7624502D, '2005-02-09 10:00:00') /* Restless Soul (27141) */
+     , (0x7624515A, 0x7624502E, '2005-02-09 10:00:00') /* Restless Soul (27141) */
+     , (0x7624515A, 0x7624502F, '2005-02-09 10:00:00') /* Restless Soul (27141) */
+     , (0x7624515A, 0x76245030, '2005-02-09 10:00:00') /* Restless Soul (27141) */
+     , (0x7624515A, 0x76245034, '2005-02-09 10:00:00') /* Restless Soul (27141) */
+     , (0x7624515A, 0x76245035, '2005-02-09 10:00:00') /* Restless Soul (27141) */
+     , (0x7624515A, 0x76245036, '2005-02-09 10:00:00') /* Restless Soul (27141) */
+     , (0x7624515A, 0x76245037, '2005-02-09 10:00:00') /* Restless Soul (27141) */
+     , (0x7624515A, 0x76245038, '2005-02-09 10:00:00') /* Restless Soul (27141) */
+     , (0x7624515A, 0x76245076, '2005-02-09 10:00:00') /* Restless Soul (27141) */
+     , (0x7624515A, 0x76245079, '2005-02-09 10:00:00') /* Restless Soul (27141) */
+     , (0x7624515A, 0x7624507A, '2005-02-09 10:00:00') /* Restless Soul (27141) */
+     , (0x7624515A, 0x7624507E, '2005-02-09 10:00:00') /* Restless Soul (27141) */
+     , (0x7624515A, 0x7624507F, '2005-02-09 10:00:00') /* Restless Soul (27141) */
+     , (0x7624515A, 0x76245082, '2005-02-09 10:00:00') /* Restless Soul (27141) */
+     , (0x7624515A, 0x76245083, '2005-02-09 10:00:00') /* Restless Soul (27141) */
+     , (0x7624515A, 0x76245085, '2005-02-09 10:00:00') /* Restless Soul (27141) */
+     , (0x7624515A, 0x76245086, '2005-02-09 10:00:00') /* Restless Soul (27141) */
+     , (0x7624515A, 0x76245087, '2005-02-09 10:00:00') /* Restless Soul (27141) */
+     , (0x7624515A, 0x76245088, '2005-02-09 10:00:00') /* Restless Soul (27141) */
+     , (0x7624515A, 0x76245089, '2005-02-09 10:00:00') /* Restless Soul (27141) */
+     , (0x7624515A, 0x7624508D, '2005-02-09 10:00:00') /* Restless Soul (27141) */
+     , (0x7624515A, 0x7624508E, '2005-02-09 10:00:00') /* Restless Soul (27141) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7624515B, 27158, 0x624507C2, 40, -145.1, 1, 0, 0, 0, -1,  True, '2005-02-09 10:00:00'); /* Eye of the Watcher */
@@ -1657,8 +1657,8 @@ VALUES (0x7624515D, 26553, 0x624507C7, 40, -159.84, 0.005, 1, 0, 0, -4.37114E-08
 /* @teleloc 0x624507C7 [40.000000 -159.840000 0.005000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7624515D, 0x7624515C, '2005-02-09 10:00:00') /* Button */
-     , (0x7624515D, 0x7624515E, '2005-02-09 10:00:00') /* Button */;
+VALUES (0x7624515D, 0x7624515C, '2005-02-09 10:00:00') /* Button (8420) */
+     , (0x7624515D, 0x7624515E, '2005-02-09 10:00:00') /* Button (8420) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7624515E,  8420, 0x624507C7, 41.564, -157.496, 1.5, 0.707107, 0, 0, -0.707107,  True, '2005-02-09 10:00:00'); /* Button */
@@ -1677,8 +1677,8 @@ VALUES (0x76245161, 26553, 0x624507E1, 40, -180.16, 0.005, 0, 0, 0, 1, False, '2
 /* @teleloc 0x624507E1 [40.000000 -180.160000 0.005000] 0.000000 0.000000 0.000000 1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x76245161, 0x76245160, '2005-02-09 10:00:00') /* Button */
-     , (0x76245161, 0x76245162, '2005-02-09 10:00:00') /* Button */;
+VALUES (0x76245161, 0x76245160, '2005-02-09 10:00:00') /* Button (8420) */
+     , (0x76245161, 0x76245162, '2005-02-09 10:00:00') /* Button (8420) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x76245162,  8420, 0x624507E1, 38.443, -182.937, 1.5, -0.707107, 0, 0, -0.707107,  True, '2005-02-09 10:00:00'); /* Button */
@@ -1689,14 +1689,14 @@ VALUES (0x76245163,  7924, 0x624507E4, 40, -190, 0.005, 1, 0, 0, 0, False, '2005
 /* @teleloc 0x624507E4 [40.000000 -190.000000 0.005000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x76245163, 0x76245154, '2005-02-09 10:00:00') /* Eye of the Watcher */
-     , (0x76245163, 0x7624515B, '2005-02-09 10:00:00') /* Eye of the Watcher */
-     , (0x76245163, 0x7624515F, '2005-02-09 10:00:00') /* Strange Device */
-     , (0x76245163, 0x76245169, '2005-02-09 10:00:00') /* Eye of the Watcher */
-     , (0x76245163, 0x7624516A, '2005-02-09 10:00:00') /* Eye of the Watcher */
-     , (0x76245163, 0x76245171, '2005-02-09 10:00:00') /* Eye of the Watcher */
-     , (0x76245163, 0x76245175, '2005-02-09 10:00:00') /* Strange Device */
-     , (0x76245163, 0x7624517E, '2005-02-09 10:00:00') /* Eye of the Watcher */;
+VALUES (0x76245163, 0x76245154, '2005-02-09 10:00:00') /* Eye of the Watcher (27157) */
+     , (0x76245163, 0x7624515B, '2005-02-09 10:00:00') /* Eye of the Watcher (27158) */
+     , (0x76245163, 0x7624515F, '2005-02-09 10:00:00') /* Strange Device (27172) */
+     , (0x76245163, 0x76245169, '2005-02-09 10:00:00') /* Eye of the Watcher (27159) */
+     , (0x76245163, 0x7624516A, '2005-02-09 10:00:00') /* Eye of the Watcher (27157) */
+     , (0x76245163, 0x76245171, '2005-02-09 10:00:00') /* Eye of the Watcher (27158) */
+     , (0x76245163, 0x76245175, '2005-02-09 10:00:00') /* Strange Device (27173) */
+     , (0x76245163, 0x7624517E, '2005-02-09 10:00:00') /* Eye of the Watcher (27159) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x76245164,  8420, 0x624507FA, 47.734, -172.89, 1.5, 0, 0, 0, -1,  True, '2005-02-09 10:00:00'); /* Button */
@@ -1707,8 +1707,8 @@ VALUES (0x76245165, 26553, 0x624507FB, 50.16, -170, 0.005, 0.707107, 0, 0, -0.70
 /* @teleloc 0x624507FB [50.160000 -170.000000 0.005000] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x76245165, 0x76245164, '2005-02-09 10:00:00') /* Button */
-     , (0x76245165, 0x76245166, '2005-02-09 10:00:00') /* Button */;
+VALUES (0x76245165, 0x76245164, '2005-02-09 10:00:00') /* Button (8420) */
+     , (0x76245165, 0x76245166, '2005-02-09 10:00:00') /* Button (8420) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x76245166,  8420, 0x624507FB, 52.319, -171.558, 1.5, 0, 0, 0, -1,  True, '2005-02-09 10:00:00'); /* Button */
@@ -1739,8 +1739,8 @@ VALUES (0x7624516C, 26553, 0x6245084E, 209.84, -190, 0.005, 0.707107, 0, 0, 0.70
 /* @teleloc 0x6245084E [209.840000 -190.000000 0.005000] 0.707107 0.000000 0.000000 0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7624516C, 0x7624516B, '2005-02-09 10:00:00') /* Button */
-     , (0x7624516C, 0x7624516D, '2005-02-09 10:00:00') /* Button */;
+VALUES (0x7624516C, 0x7624516B, '2005-02-09 10:00:00') /* Button (8420) */
+     , (0x7624516C, 0x7624516D, '2005-02-09 10:00:00') /* Button (8420) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7624516D,  8420, 0x6245084E, 207.236, -191.554, 1.5, 0, 0, 0, -1,  True, '2005-02-09 10:00:00'); /* Button */
@@ -1751,151 +1751,151 @@ VALUES (0x7624516E,  7924, 0x62450864, 220, -110, 0.005, 1, 0, 0, 0, False, '200
 /* @teleloc 0x62450864 [220.000000 -110.000000 0.005000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7624516E, 0x76245104, '2005-02-09 10:00:00') /* Ancient Soul */
-     , (0x7624516E, 0x76245105, '2005-02-09 10:00:00') /* Ancient Soul */
-     , (0x7624516E, 0x76245106, '2005-02-09 10:00:00') /* Ancient Soul */
-     , (0x7624516E, 0x76245107, '2005-02-09 10:00:00') /* Ancient Soul */
-     , (0x7624516E, 0x76245108, '2005-02-09 10:00:00') /* Ancient Soul */
-     , (0x7624516E, 0x76245109, '2005-02-09 10:00:00') /* Ancient Soul */
-     , (0x7624516E, 0x7624510D, '2005-02-09 10:00:00') /* Ancient Soul */
-     , (0x7624516E, 0x7624510E, '2005-02-09 10:00:00') /* Ancient Soul */
-     , (0x7624516E, 0x7624510F, '2005-02-09 10:00:00') /* Ancient Soul */
-     , (0x7624516E, 0x76245110, '2005-02-09 10:00:00') /* Ancient Soul */
-     , (0x7624516E, 0x76245111, '2005-02-09 10:00:00') /* Ancient Soul */
-     , (0x7624516E, 0x76245112, '2005-02-09 10:00:00') /* Ancient Soul */
-     , (0x7624516E, 0x76245113, '2005-02-09 10:00:00') /* Ancient Soul */
-     , (0x7624516E, 0x76245114, '2005-02-09 10:00:00') /* Ancient Soul */
-     , (0x7624516E, 0x76245115, '2005-02-09 10:00:00') /* Ancient Soul */
-     , (0x7624516E, 0x76245116, '2005-02-09 10:00:00') /* Ancient Soul */
-     , (0x7624516E, 0x76245117, '2005-02-09 10:00:00') /* Ancient Soul */
-     , (0x7624516E, 0x7624511B, '2005-02-09 10:00:00') /* Ancient Soul */
-     , (0x7624516E, 0x7624511C, '2005-02-09 10:00:00') /* Ancient Soul */
-     , (0x7624516E, 0x7624511D, '2005-02-09 10:00:00') /* Ancient Soul */
-     , (0x7624516E, 0x7624511E, '2005-02-09 10:00:00') /* Ancient Soul */
-     , (0x7624516E, 0x7624511F, '2005-02-09 10:00:00') /* Ancient Soul */
-     , (0x7624516E, 0x76245146, '2005-02-09 10:00:00') /* Ancient Soul */
-     , (0x7624516E, 0x76245147, '2005-02-09 10:00:00') /* Ancient Soul */
-     , (0x7624516E, 0x76245148, '2005-02-09 10:00:00') /* Ancient Soul */
-     , (0x7624516E, 0x76245149, '2005-02-09 10:00:00') /* Ancient Soul */
-     , (0x7624516E, 0x7624514A, '2005-02-09 10:00:00') /* Ancient Soul */
-     , (0x7624516E, 0x7624514B, '2005-02-09 10:00:00') /* Ancient Soul */
-     , (0x7624516E, 0x7624514C, '2005-02-09 10:00:00') /* Ancient Soul */
-     , (0x7624516E, 0x7624514D, '2005-02-09 10:00:00') /* Ancient Soul */
-     , (0x7624516E, 0x7624514E, '2005-02-09 10:00:00') /* Ancient Soul */
-     , (0x7624516E, 0x7624514F, '2005-02-09 10:00:00') /* Ancient Soul */
-     , (0x7624516E, 0x76245150, '2005-02-09 10:00:00') /* Ancient Soul */
-     , (0x7624516E, 0x76245151, '2005-02-09 10:00:00') /* Ancient Soul */
-     , (0x7624516E, 0x76245152, '2005-02-09 10:00:00') /* Ancient Soul */
-     , (0x7624516E, 0x76245153, '2005-02-09 10:00:00') /* Ancient Soul */
-     , (0x7624516E, 0x7624517C, '2005-02-09 10:00:00') /* Ancient Soul */
-     , (0x7624516E, 0x7624517D, '2005-02-09 10:00:00') /* Ancient Soul */
-     , (0x7624516E, 0x76245183, '2005-02-09 10:00:00') /* Crypt Spirit */
-     , (0x7624516E, 0x76245184, '2005-02-09 10:00:00') /* Crypt Spirit */
-     , (0x7624516E, 0x76245185, '2005-02-09 10:00:00') /* Crypt Spirit */
-     , (0x7624516E, 0x76245186, '2005-02-09 10:00:00') /* Crypt Spirit */;
+VALUES (0x7624516E, 0x76245104, '2005-02-09 10:00:00') /* Ancient Soul (27138) */
+     , (0x7624516E, 0x76245105, '2005-02-09 10:00:00') /* Ancient Soul (27138) */
+     , (0x7624516E, 0x76245106, '2005-02-09 10:00:00') /* Ancient Soul (27138) */
+     , (0x7624516E, 0x76245107, '2005-02-09 10:00:00') /* Ancient Soul (27138) */
+     , (0x7624516E, 0x76245108, '2005-02-09 10:00:00') /* Ancient Soul (27138) */
+     , (0x7624516E, 0x76245109, '2005-02-09 10:00:00') /* Ancient Soul (27138) */
+     , (0x7624516E, 0x7624510D, '2005-02-09 10:00:00') /* Ancient Soul (27138) */
+     , (0x7624516E, 0x7624510E, '2005-02-09 10:00:00') /* Ancient Soul (27138) */
+     , (0x7624516E, 0x7624510F, '2005-02-09 10:00:00') /* Ancient Soul (27138) */
+     , (0x7624516E, 0x76245110, '2005-02-09 10:00:00') /* Ancient Soul (27138) */
+     , (0x7624516E, 0x76245111, '2005-02-09 10:00:00') /* Ancient Soul (27138) */
+     , (0x7624516E, 0x76245112, '2005-02-09 10:00:00') /* Ancient Soul (27138) */
+     , (0x7624516E, 0x76245113, '2005-02-09 10:00:00') /* Ancient Soul (27138) */
+     , (0x7624516E, 0x76245114, '2005-02-09 10:00:00') /* Ancient Soul (27138) */
+     , (0x7624516E, 0x76245115, '2005-02-09 10:00:00') /* Ancient Soul (27138) */
+     , (0x7624516E, 0x76245116, '2005-02-09 10:00:00') /* Ancient Soul (27138) */
+     , (0x7624516E, 0x76245117, '2005-02-09 10:00:00') /* Ancient Soul (27138) */
+     , (0x7624516E, 0x7624511B, '2005-02-09 10:00:00') /* Ancient Soul (27138) */
+     , (0x7624516E, 0x7624511C, '2005-02-09 10:00:00') /* Ancient Soul (27138) */
+     , (0x7624516E, 0x7624511D, '2005-02-09 10:00:00') /* Ancient Soul (27138) */
+     , (0x7624516E, 0x7624511E, '2005-02-09 10:00:00') /* Ancient Soul (27138) */
+     , (0x7624516E, 0x7624511F, '2005-02-09 10:00:00') /* Ancient Soul (27138) */
+     , (0x7624516E, 0x76245146, '2005-02-09 10:00:00') /* Ancient Soul (27138) */
+     , (0x7624516E, 0x76245147, '2005-02-09 10:00:00') /* Ancient Soul (27138) */
+     , (0x7624516E, 0x76245148, '2005-02-09 10:00:00') /* Ancient Soul (27138) */
+     , (0x7624516E, 0x76245149, '2005-02-09 10:00:00') /* Ancient Soul (27138) */
+     , (0x7624516E, 0x7624514A, '2005-02-09 10:00:00') /* Ancient Soul (27138) */
+     , (0x7624516E, 0x7624514B, '2005-02-09 10:00:00') /* Ancient Soul (27138) */
+     , (0x7624516E, 0x7624514C, '2005-02-09 10:00:00') /* Ancient Soul (27138) */
+     , (0x7624516E, 0x7624514D, '2005-02-09 10:00:00') /* Ancient Soul (27138) */
+     , (0x7624516E, 0x7624514E, '2005-02-09 10:00:00') /* Ancient Soul (27138) */
+     , (0x7624516E, 0x7624514F, '2005-02-09 10:00:00') /* Ancient Soul (27138) */
+     , (0x7624516E, 0x76245150, '2005-02-09 10:00:00') /* Ancient Soul (27138) */
+     , (0x7624516E, 0x76245151, '2005-02-09 10:00:00') /* Ancient Soul (27138) */
+     , (0x7624516E, 0x76245152, '2005-02-09 10:00:00') /* Ancient Soul (27138) */
+     , (0x7624516E, 0x76245153, '2005-02-09 10:00:00') /* Ancient Soul (27138) */
+     , (0x7624516E, 0x7624517C, '2005-02-09 10:00:00') /* Ancient Soul (27138) */
+     , (0x7624516E, 0x7624517D, '2005-02-09 10:00:00') /* Ancient Soul (27138) */
+     , (0x7624516E, 0x76245183, '2005-02-09 10:00:00') /* Crypt Spirit (26520) */
+     , (0x7624516E, 0x76245184, '2005-02-09 10:00:00') /* Crypt Spirit (26520) */
+     , (0x7624516E, 0x76245185, '2005-02-09 10:00:00') /* Crypt Spirit (26520) */
+     , (0x7624516E, 0x76245186, '2005-02-09 10:00:00') /* Crypt Spirit (26520) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7624516F,  7924, 0x62450864, 221.173, -110, 0.005, 1, 0, 0, 0, False, '2005-02-09 10:00:00'); /* Linkable Monster Generator ( 5 Min.) */
 /* @teleloc 0x62450864 [221.173000 -110.000000 0.005000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7624516F, 0x7624508F, '2005-02-09 10:00:00') /* Ancient Soul */
-     , (0x7624516F, 0x76245090, '2005-02-09 10:00:00') /* Ancient Soul */
-     , (0x7624516F, 0x76245091, '2005-02-09 10:00:00') /* Ancient Soul */
-     , (0x7624516F, 0x76245092, '2005-02-09 10:00:00') /* Ancient Soul */
-     , (0x7624516F, 0x76245093, '2005-02-09 10:00:00') /* Ancient Soul */
-     , (0x7624516F, 0x76245094, '2005-02-09 10:00:00') /* Ancient Soul */
-     , (0x7624516F, 0x76245098, '2005-02-09 10:00:00') /* Ancient Soul */
-     , (0x7624516F, 0x76245099, '2005-02-09 10:00:00') /* Ancient Soul */
-     , (0x7624516F, 0x7624509A, '2005-02-09 10:00:00') /* Ancient Soul */
-     , (0x7624516F, 0x7624509B, '2005-02-09 10:00:00') /* Ancient Soul */
-     , (0x7624516F, 0x7624509C, '2005-02-09 10:00:00') /* Ancient Soul */
-     , (0x7624516F, 0x7624509D, '2005-02-09 10:00:00') /* Ancient Soul */
-     , (0x7624516F, 0x7624509E, '2005-02-09 10:00:00') /* Ancient Soul */
-     , (0x7624516F, 0x7624509F, '2005-02-09 10:00:00') /* Ancient Soul */
-     , (0x7624516F, 0x762450A0, '2005-02-09 10:00:00') /* Ancient Soul */
-     , (0x7624516F, 0x762450A1, '2005-02-09 10:00:00') /* Ancient Soul */
-     , (0x7624516F, 0x762450A2, '2005-02-09 10:00:00') /* Ancient Soul */
-     , (0x7624516F, 0x762450A3, '2005-02-09 10:00:00') /* Ancient Soul */
-     , (0x7624516F, 0x762450A4, '2005-02-09 10:00:00') /* Ancient Soul */
-     , (0x7624516F, 0x762450A8, '2005-02-09 10:00:00') /* Ancient Soul */
-     , (0x7624516F, 0x762450A9, '2005-02-09 10:00:00') /* Ancient Soul */
-     , (0x7624516F, 0x762450AD, '2005-02-09 10:00:00') /* Ancient Soul */
-     , (0x7624516F, 0x762450AE, '2005-02-09 10:00:00') /* Ancient Soul */
-     , (0x7624516F, 0x76245120, '2005-02-09 10:00:00') /* Ancient Soul */
-     , (0x7624516F, 0x76245121, '2005-02-09 10:00:00') /* Ancient Soul */
-     , (0x7624516F, 0x76245122, '2005-02-09 10:00:00') /* Ancient Soul */
-     , (0x7624516F, 0x76245123, '2005-02-09 10:00:00') /* Ancient Soul */
-     , (0x7624516F, 0x76245124, '2005-02-09 10:00:00') /* Ancient Soul */
-     , (0x7624516F, 0x76245125, '2005-02-09 10:00:00') /* Ancient Soul */
-     , (0x7624516F, 0x76245129, '2005-02-09 10:00:00') /* Ancient Soul */
-     , (0x7624516F, 0x7624512A, '2005-02-09 10:00:00') /* Ancient Soul */
-     , (0x7624516F, 0x7624512B, '2005-02-09 10:00:00') /* Ancient Soul */
-     , (0x7624516F, 0x7624512C, '2005-02-09 10:00:00') /* Ancient Soul */
-     , (0x7624516F, 0x7624512D, '2005-02-09 10:00:00') /* Ancient Soul */
-     , (0x7624516F, 0x7624512E, '2005-02-09 10:00:00') /* Ancient Soul */
-     , (0x7624516F, 0x7624512F, '2005-02-09 10:00:00') /* Ancient Soul */
-     , (0x7624516F, 0x76245130, '2005-02-09 10:00:00') /* Ancient Soul */
-     , (0x7624516F, 0x76245134, '2005-02-09 10:00:00') /* Ancient Soul */
-     , (0x7624516F, 0x76245135, '2005-02-09 10:00:00') /* Ancient Soul */
-     , (0x7624516F, 0x76245136, '2005-02-09 10:00:00') /* Ancient Soul */
-     , (0x7624516F, 0x76245137, '2005-02-09 10:00:00') /* Ancient Soul */;
+VALUES (0x7624516F, 0x7624508F, '2005-02-09 10:00:00') /* Ancient Soul (27138) */
+     , (0x7624516F, 0x76245090, '2005-02-09 10:00:00') /* Ancient Soul (27138) */
+     , (0x7624516F, 0x76245091, '2005-02-09 10:00:00') /* Ancient Soul (27138) */
+     , (0x7624516F, 0x76245092, '2005-02-09 10:00:00') /* Ancient Soul (27138) */
+     , (0x7624516F, 0x76245093, '2005-02-09 10:00:00') /* Ancient Soul (27138) */
+     , (0x7624516F, 0x76245094, '2005-02-09 10:00:00') /* Ancient Soul (27138) */
+     , (0x7624516F, 0x76245098, '2005-02-09 10:00:00') /* Ancient Soul (27138) */
+     , (0x7624516F, 0x76245099, '2005-02-09 10:00:00') /* Ancient Soul (27138) */
+     , (0x7624516F, 0x7624509A, '2005-02-09 10:00:00') /* Ancient Soul (27138) */
+     , (0x7624516F, 0x7624509B, '2005-02-09 10:00:00') /* Ancient Soul (27138) */
+     , (0x7624516F, 0x7624509C, '2005-02-09 10:00:00') /* Ancient Soul (27138) */
+     , (0x7624516F, 0x7624509D, '2005-02-09 10:00:00') /* Ancient Soul (27138) */
+     , (0x7624516F, 0x7624509E, '2005-02-09 10:00:00') /* Ancient Soul (27138) */
+     , (0x7624516F, 0x7624509F, '2005-02-09 10:00:00') /* Ancient Soul (27138) */
+     , (0x7624516F, 0x762450A0, '2005-02-09 10:00:00') /* Ancient Soul (27138) */
+     , (0x7624516F, 0x762450A1, '2005-02-09 10:00:00') /* Ancient Soul (27138) */
+     , (0x7624516F, 0x762450A2, '2005-02-09 10:00:00') /* Ancient Soul (27138) */
+     , (0x7624516F, 0x762450A3, '2005-02-09 10:00:00') /* Ancient Soul (27138) */
+     , (0x7624516F, 0x762450A4, '2005-02-09 10:00:00') /* Ancient Soul (27138) */
+     , (0x7624516F, 0x762450A8, '2005-02-09 10:00:00') /* Ancient Soul (27138) */
+     , (0x7624516F, 0x762450A9, '2005-02-09 10:00:00') /* Ancient Soul (27138) */
+     , (0x7624516F, 0x762450AD, '2005-02-09 10:00:00') /* Ancient Soul (27138) */
+     , (0x7624516F, 0x762450AE, '2005-02-09 10:00:00') /* Ancient Soul (27138) */
+     , (0x7624516F, 0x76245120, '2005-02-09 10:00:00') /* Ancient Soul (27138) */
+     , (0x7624516F, 0x76245121, '2005-02-09 10:00:00') /* Ancient Soul (27138) */
+     , (0x7624516F, 0x76245122, '2005-02-09 10:00:00') /* Ancient Soul (27138) */
+     , (0x7624516F, 0x76245123, '2005-02-09 10:00:00') /* Ancient Soul (27138) */
+     , (0x7624516F, 0x76245124, '2005-02-09 10:00:00') /* Ancient Soul (27138) */
+     , (0x7624516F, 0x76245125, '2005-02-09 10:00:00') /* Ancient Soul (27138) */
+     , (0x7624516F, 0x76245129, '2005-02-09 10:00:00') /* Ancient Soul (27138) */
+     , (0x7624516F, 0x7624512A, '2005-02-09 10:00:00') /* Ancient Soul (27138) */
+     , (0x7624516F, 0x7624512B, '2005-02-09 10:00:00') /* Ancient Soul (27138) */
+     , (0x7624516F, 0x7624512C, '2005-02-09 10:00:00') /* Ancient Soul (27138) */
+     , (0x7624516F, 0x7624512D, '2005-02-09 10:00:00') /* Ancient Soul (27138) */
+     , (0x7624516F, 0x7624512E, '2005-02-09 10:00:00') /* Ancient Soul (27138) */
+     , (0x7624516F, 0x7624512F, '2005-02-09 10:00:00') /* Ancient Soul (27138) */
+     , (0x7624516F, 0x76245130, '2005-02-09 10:00:00') /* Ancient Soul (27138) */
+     , (0x7624516F, 0x76245134, '2005-02-09 10:00:00') /* Ancient Soul (27138) */
+     , (0x7624516F, 0x76245135, '2005-02-09 10:00:00') /* Ancient Soul (27138) */
+     , (0x7624516F, 0x76245136, '2005-02-09 10:00:00') /* Ancient Soul (27138) */
+     , (0x7624516F, 0x76245137, '2005-02-09 10:00:00') /* Ancient Soul (27138) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x76245170,  7924, 0x62450864, 218.416, -110, 0.005, 1, 0, 0, 0, False, '2005-02-09 10:00:00'); /* Linkable Monster Generator ( 5 Min.) */
 /* @teleloc 0x62450864 [218.416000 -110.000000 0.005000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x76245170, 0x76245008, '2005-02-09 10:00:00') /* Ancient Soul */
-     , (0x76245170, 0x76245009, '2005-02-09 10:00:00') /* Ancient Soul */
-     , (0x76245170, 0x7624500A, '2005-02-09 10:00:00') /* Ancient Soul */
-     , (0x76245170, 0x7624500B, '2005-02-09 10:00:00') /* Ancient Soul */
-     , (0x76245170, 0x7624500C, '2005-02-09 10:00:00') /* Guardian */
-     , (0x76245170, 0x7624500D, '2005-02-09 10:00:00') /* Ancient Soul */
-     , (0x76245170, 0x7624500E, '2005-02-09 10:00:00') /* Ancient Soul */
-     , (0x76245170, 0x7624500F, '2005-02-09 10:00:00') /* Ancient Soul */
-     , (0x76245170, 0x7624501B, '2005-02-09 10:00:00') /* Ancient Soul */
-     , (0x76245170, 0x7624501C, '2005-02-09 10:00:00') /* Ancient Soul */
-     , (0x76245170, 0x7624501D, '2005-02-09 10:00:00') /* Ancient Soul */
-     , (0x76245170, 0x7624501E, '2005-02-09 10:00:00') /* Ancient Soul */
-     , (0x76245170, 0x7624501F, '2005-02-09 10:00:00') /* Ancient Soul */
-     , (0x76245170, 0x76245020, '2005-02-09 10:00:00') /* Ancient Soul */
-     , (0x76245170, 0x76245024, '2005-02-09 10:00:00') /* Ancient Soul */
-     , (0x76245170, 0x76245025, '2005-02-09 10:00:00') /* Ancient Soul */
-     , (0x76245170, 0x76245026, '2005-02-09 10:00:00') /* Ancient Soul */
-     , (0x76245170, 0x7624503F, '2005-02-09 10:00:00') /* Ancient Soul */
-     , (0x76245170, 0x76245040, '2005-02-09 10:00:00') /* Ancient Soul */
-     , (0x76245170, 0x76245041, '2005-02-09 10:00:00') /* Ancient Soul */
-     , (0x76245170, 0x76245042, '2005-02-09 10:00:00') /* Ancient Soul */
-     , (0x76245170, 0x76245043, '2005-02-09 10:00:00') /* Ancient Soul */
-     , (0x76245170, 0x76245044, '2005-02-09 10:00:00') /* Ancient Soul */
-     , (0x76245170, 0x76245045, '2005-02-09 10:00:00') /* Ancient Soul */
-     , (0x76245170, 0x76245046, '2005-02-09 10:00:00') /* Ancient Soul */
-     , (0x76245170, 0x7624504A, '2005-02-09 10:00:00') /* Ancient Soul */
-     , (0x76245170, 0x7624504B, '2005-02-09 10:00:00') /* Ancient Soul */
-     , (0x76245170, 0x7624504C, '2005-02-09 10:00:00') /* Ancient Soul */
-     , (0x76245170, 0x7624504D, '2005-02-09 10:00:00') /* Ancient Soul */
-     , (0x76245170, 0x762450AF, '2005-02-09 10:00:00') /* Ancient Soul */
-     , (0x76245170, 0x762450B0, '2005-02-09 10:00:00') /* Ancient Soul */
-     , (0x76245170, 0x762450B4, '2005-02-09 10:00:00') /* Ancient Soul */
-     , (0x76245170, 0x762450B5, '2005-02-09 10:00:00') /* Ancient Soul */
-     , (0x76245170, 0x762450B6, '2005-02-09 10:00:00') /* Ancient Soul */
-     , (0x76245170, 0x762450B7, '2005-02-09 10:00:00') /* Ancient Soul */
-     , (0x76245170, 0x762450B8, '2005-02-09 10:00:00') /* Ancient Soul */
-     , (0x76245170, 0x762450BC, '2005-02-09 10:00:00') /* Ancient Soul */
-     , (0x76245170, 0x762450BD, '2005-02-09 10:00:00') /* Ancient Soul */
-     , (0x76245170, 0x762450BE, '2005-02-09 10:00:00') /* Ancient Soul */
-     , (0x76245170, 0x762450BF, '2005-02-09 10:00:00') /* Ancient Soul */
-     , (0x76245170, 0x762450C0, '2005-02-09 10:00:00') /* Ancient Soul */
-     , (0x76245170, 0x762450C1, '2005-02-09 10:00:00') /* Ancient Soul */
-     , (0x76245170, 0x762450C2, '2005-02-09 10:00:00') /* Ancient Soul */
-     , (0x76245170, 0x762450C3, '2005-02-09 10:00:00') /* Ancient Soul */
-     , (0x76245170, 0x762450C4, '2005-02-09 10:00:00') /* Ancient Soul */
-     , (0x76245170, 0x762450C5, '2005-02-09 10:00:00') /* Ancient Soul */
-     , (0x76245170, 0x762450C6, '2005-02-09 10:00:00') /* Ancient Soul */
-     , (0x76245170, 0x762450C7, '2005-02-09 10:00:00') /* Ancient Soul */
-     , (0x76245170, 0x762450CB, '2005-02-09 10:00:00') /* Ancient Soul */
-     , (0x76245170, 0x762450CC, '2005-02-09 10:00:00') /* Ancient Soul */;
+VALUES (0x76245170, 0x76245008, '2005-02-09 10:00:00') /* Ancient Soul (27138) */
+     , (0x76245170, 0x76245009, '2005-02-09 10:00:00') /* Ancient Soul (27138) */
+     , (0x76245170, 0x7624500A, '2005-02-09 10:00:00') /* Ancient Soul (27138) */
+     , (0x76245170, 0x7624500B, '2005-02-09 10:00:00') /* Ancient Soul (27138) */
+     , (0x76245170, 0x7624500C, '2005-02-09 10:00:00') /* Guardian (27168) */
+     , (0x76245170, 0x7624500D, '2005-02-09 10:00:00') /* Ancient Soul (27138) */
+     , (0x76245170, 0x7624500E, '2005-02-09 10:00:00') /* Ancient Soul (27138) */
+     , (0x76245170, 0x7624500F, '2005-02-09 10:00:00') /* Ancient Soul (27138) */
+     , (0x76245170, 0x7624501B, '2005-02-09 10:00:00') /* Ancient Soul (27138) */
+     , (0x76245170, 0x7624501C, '2005-02-09 10:00:00') /* Ancient Soul (27138) */
+     , (0x76245170, 0x7624501D, '2005-02-09 10:00:00') /* Ancient Soul (27138) */
+     , (0x76245170, 0x7624501E, '2005-02-09 10:00:00') /* Ancient Soul (27138) */
+     , (0x76245170, 0x7624501F, '2005-02-09 10:00:00') /* Ancient Soul (27138) */
+     , (0x76245170, 0x76245020, '2005-02-09 10:00:00') /* Ancient Soul (27138) */
+     , (0x76245170, 0x76245024, '2005-02-09 10:00:00') /* Ancient Soul (27138) */
+     , (0x76245170, 0x76245025, '2005-02-09 10:00:00') /* Ancient Soul (27138) */
+     , (0x76245170, 0x76245026, '2005-02-09 10:00:00') /* Ancient Soul (27138) */
+     , (0x76245170, 0x7624503F, '2005-02-09 10:00:00') /* Ancient Soul (27138) */
+     , (0x76245170, 0x76245040, '2005-02-09 10:00:00') /* Ancient Soul (27138) */
+     , (0x76245170, 0x76245041, '2005-02-09 10:00:00') /* Ancient Soul (27138) */
+     , (0x76245170, 0x76245042, '2005-02-09 10:00:00') /* Ancient Soul (27138) */
+     , (0x76245170, 0x76245043, '2005-02-09 10:00:00') /* Ancient Soul (27138) */
+     , (0x76245170, 0x76245044, '2005-02-09 10:00:00') /* Ancient Soul (27138) */
+     , (0x76245170, 0x76245045, '2005-02-09 10:00:00') /* Ancient Soul (27138) */
+     , (0x76245170, 0x76245046, '2005-02-09 10:00:00') /* Ancient Soul (27138) */
+     , (0x76245170, 0x7624504A, '2005-02-09 10:00:00') /* Ancient Soul (27138) */
+     , (0x76245170, 0x7624504B, '2005-02-09 10:00:00') /* Ancient Soul (27138) */
+     , (0x76245170, 0x7624504C, '2005-02-09 10:00:00') /* Ancient Soul (27138) */
+     , (0x76245170, 0x7624504D, '2005-02-09 10:00:00') /* Ancient Soul (27138) */
+     , (0x76245170, 0x762450AF, '2005-02-09 10:00:00') /* Ancient Soul (27138) */
+     , (0x76245170, 0x762450B0, '2005-02-09 10:00:00') /* Ancient Soul (27138) */
+     , (0x76245170, 0x762450B4, '2005-02-09 10:00:00') /* Ancient Soul (27138) */
+     , (0x76245170, 0x762450B5, '2005-02-09 10:00:00') /* Ancient Soul (27138) */
+     , (0x76245170, 0x762450B6, '2005-02-09 10:00:00') /* Ancient Soul (27138) */
+     , (0x76245170, 0x762450B7, '2005-02-09 10:00:00') /* Ancient Soul (27138) */
+     , (0x76245170, 0x762450B8, '2005-02-09 10:00:00') /* Ancient Soul (27138) */
+     , (0x76245170, 0x762450BC, '2005-02-09 10:00:00') /* Ancient Soul (27138) */
+     , (0x76245170, 0x762450BD, '2005-02-09 10:00:00') /* Ancient Soul (27138) */
+     , (0x76245170, 0x762450BE, '2005-02-09 10:00:00') /* Ancient Soul (27138) */
+     , (0x76245170, 0x762450BF, '2005-02-09 10:00:00') /* Ancient Soul (27138) */
+     , (0x76245170, 0x762450C0, '2005-02-09 10:00:00') /* Ancient Soul (27138) */
+     , (0x76245170, 0x762450C1, '2005-02-09 10:00:00') /* Ancient Soul (27138) */
+     , (0x76245170, 0x762450C2, '2005-02-09 10:00:00') /* Ancient Soul (27138) */
+     , (0x76245170, 0x762450C3, '2005-02-09 10:00:00') /* Ancient Soul (27138) */
+     , (0x76245170, 0x762450C4, '2005-02-09 10:00:00') /* Ancient Soul (27138) */
+     , (0x76245170, 0x762450C5, '2005-02-09 10:00:00') /* Ancient Soul (27138) */
+     , (0x76245170, 0x762450C6, '2005-02-09 10:00:00') /* Ancient Soul (27138) */
+     , (0x76245170, 0x762450C7, '2005-02-09 10:00:00') /* Ancient Soul (27138) */
+     , (0x76245170, 0x762450CB, '2005-02-09 10:00:00') /* Ancient Soul (27138) */
+     , (0x76245170, 0x762450CC, '2005-02-09 10:00:00') /* Ancient Soul (27138) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x76245171, 27158, 0x62450867, 220, -165.107, 1, 0, 0, 0, -1,  True, '2005-02-09 10:00:00'); /* Eye of the Watcher */
@@ -1910,8 +1910,8 @@ VALUES (0x76245173, 26553, 0x6245086C, 220, -179.84, 0.005, 1, 0, 0, -4.37114E-0
 /* @teleloc 0x6245086C [220.000000 -179.840000 0.005000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x76245173, 0x76245172, '2005-02-09 10:00:00') /* Button */
-     , (0x76245173, 0x76245174, '2005-02-09 10:00:00') /* Button */;
+VALUES (0x76245173, 0x76245172, '2005-02-09 10:00:00') /* Button (8420) */
+     , (0x76245173, 0x76245174, '2005-02-09 10:00:00') /* Button (8420) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x76245174,  8420, 0x6245086C, 218.437, -177.011, 1.5, -0.707107, 0, 0, -0.707107,  True, '2005-02-09 10:00:00'); /* Button */
@@ -1930,8 +1930,8 @@ VALUES (0x76245177, 26553, 0x62450886, 220, -200.16, 0.005, 0, 0, 0, 1, False, '
 /* @teleloc 0x62450886 [220.000000 -200.160000 0.005000] 0.000000 0.000000 0.000000 1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x76245177, 0x76245176, '2005-02-09 10:00:00') /* Button */
-     , (0x76245177, 0x76245178, '2005-02-09 10:00:00') /* Button */;
+VALUES (0x76245177, 0x76245176, '2005-02-09 10:00:00') /* Button (8420) */
+     , (0x76245177, 0x76245178, '2005-02-09 10:00:00') /* Button (8420) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x76245178,  8420, 0x62450886, 218.457, -203.133, 1.5, -0.707107, 0, 0, -0.707107,  True, '2005-02-09 10:00:00'); /* Button */
@@ -1946,8 +1946,8 @@ VALUES (0x7624517A, 26553, 0x624508A0, 230.16, -190, 0.005, 0.707107, 0, 0, -0.7
 /* @teleloc 0x624508A0 [230.160000 -190.000000 0.005000] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7624517A, 0x76245179, '2005-02-09 10:00:00') /* Button */
-     , (0x7624517A, 0x7624517B, '2005-02-09 10:00:00') /* Button */;
+VALUES (0x7624517A, 0x76245179, '2005-02-09 10:00:00') /* Button (8420) */
+     , (0x7624517A, 0x7624517B, '2005-02-09 10:00:00') /* Button (8420) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7624517B,  8420, 0x624508A0, 232.814, -188.434, 1.5, 1, 0, 0, 0,  True, '2005-02-09 10:00:00'); /* Button */

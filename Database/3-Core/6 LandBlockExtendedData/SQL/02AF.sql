@@ -129,7 +129,7 @@ VALUES (0x702AF020,  4139, 0x02AF013D, 60, -215.763, -53.995, 1, 0, 0, 0, False,
 /* @teleloc 0x02AF013D [60.000000 -215.763000 -53.995000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x702AF020, 0x702AF02F, '2005-02-09 10:00:00') /* Pressure Plate */;
+VALUES (0x702AF020, 0x702AF02F, '2005-02-09 10:00:00') /* Pressure Plate (298) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x702AF021, 22053, 0x02AF013E, 60.1091, -228.258, -53.9835, -0.999968, 0, 0, -0.007938,  True, '2005-02-09 10:00:00'); /* Assailer */
@@ -216,7 +216,7 @@ VALUES (0x702AF035,  4139, 0x02AF016A, 150.044, -304.445, -53.995, -0.004204, 0,
 /* @teleloc 0x02AF016A [150.044000 -304.445000 -53.995000] -0.004204 0.000000 0.000000 0.999991 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x702AF035, 0x702AF001, '2005-02-09 10:00:00') /* Button */;
+VALUES (0x702AF035, 0x702AF001, '2005-02-09 10:00:00') /* Button (8420) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x702AF036, 10815, 0x02AF016C, 150.496, -319.843, -53.971, -0.998545, 0, 0, -0.053917,  True, '2005-02-09 10:00:00'); /* Virindi Inquisitor */
@@ -359,7 +359,7 @@ VALUES (0x702AF058,  4139, 0x02AF01E4, 30, -335.84, -29.995, 1, 0, 0, 0, False, 
 /* @teleloc 0x02AF01E4 [30.000000 -335.840000 -29.995000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x702AF058, 0x702AF076, '2005-02-09 10:00:00') /* Lever */;
+VALUES (0x702AF058, 0x702AF076, '2005-02-09 10:00:00') /* Lever (2609) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x702AF059, 10815, 0x02AF01EA, 40.1163, -338.535, -29.971, 0.678557, 0, 0, -0.734547,  True, '2005-02-09 10:00:00'); /* Virindi Inquisitor */
@@ -446,7 +446,7 @@ VALUES (0x702AF06D,  4139, 0x02AF023E, 154.391, -179.907, -29.995, 0.714421, 0, 
 /* @teleloc 0x02AF023E [154.391000 -179.907000 -29.995000] 0.714421 0.000000 0.000000 -0.699716 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x702AF06D, 0x702AF065, '2005-02-09 10:00:00') /* Button */;
+VALUES (0x702AF06D, 0x702AF065, '2005-02-09 10:00:00') /* Button (8420) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x702AF06E, 10815, 0x02AF023F, 152.772, -209.875, -29.971, 0.690356, 0, 0, -0.72347,  True, '2005-02-09 10:00:00'); /* Virindi Inquisitor */
@@ -733,7 +733,7 @@ VALUES (0x702AF0B7,  2180, 0x02AF0380, 39.9179, -225.248, 6.005, -0.014779, 0, 0
 /* @teleloc 0x02AF0380 [39.917900 -225.248000 6.005000] -0.014779 0.000000 0.000000 0.999891 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x702AF0B7, 0x702AF09A, '2005-02-09 10:00:00') /* Button */;
+VALUES (0x702AF0B7, 0x702AF09A, '2005-02-09 10:00:00') /* Button (8420) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x702AF0B8, 10815, 0x02AF038B, 45.674, -167.032, 6.029, -0.999382, 0, 0, -0.035148,  True, '2005-02-09 10:00:00'); /* Virindi Inquisitor */
@@ -784,7 +784,7 @@ VALUES (0x702AF0C3,  2180, 0x02AF03CD, 170.043, -225.227, 6.005, -0.004204, 0, 0
 /* @teleloc 0x02AF03CD [170.043000 -225.227000 6.005000] -0.004204 0.000000 0.000000 -0.999991 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x702AF0C3, 0x702AF05D, '2005-02-09 10:00:00') /* Button */;
+VALUES (0x702AF0C3, 0x702AF05D, '2005-02-09 10:00:00') /* Button (8420) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x702AF0C4, 10815, 0x02AF03D6, 41.8477, -181.939, 12.029, 0.344275, 0, 0, -0.938869,  True, '2005-02-09 10:00:00'); /* Virindi Inquisitor */
@@ -803,160 +803,160 @@ VALUES (0x702AF0C7,  5085, 0x02AF0109, 141.8, -318.291, -71.995, -0.999894, 0, 0
 /* @teleloc 0x02AF0109 [141.800000 -318.291000 -71.995000] -0.999894 0.000000 0.000000 -0.014573 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x702AF0C7, 0x702AF009, '2005-02-09 10:00:00') /* Fragment of the Singularity */;
+VALUES (0x702AF0C7, 0x702AF009, '2005-02-09 10:00:00') /* Fragment of the Singularity (8779) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x702AF0C8,  4219, 0x02AF034F, 180.795, -2.28261, 0.005, 0.0416733, 0, 0, -0.999131, False, '2005-02-09 10:00:00'); /* Linkable Monster Generator ( 7 Min.) */
 /* @teleloc 0x02AF034F [180.795000 -2.282610 0.005000] 0.041673 0.000000 0.000000 -0.999131 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x702AF0C8, 0x702AF008, '2005-02-09 10:00:00') /* Telumiat Hollow Minion */
-     , (0x702AF0C8, 0x702AF00B, '2005-02-09 10:00:00') /* Virindi Inquisitor */
-     , (0x702AF0C8, 0x702AF00C, '2005-02-09 10:00:00') /* Virindi Adjudicator */
-     , (0x702AF0C8, 0x702AF00D, '2005-02-09 10:00:00') /* Telumiat Hollow Minion */
-     , (0x702AF0C8, 0x702AF081, '2005-02-09 10:00:00') /* Telumiat Hollow Minion */
-     , (0x702AF0C8, 0x702AF082, '2005-02-09 10:00:00') /* Virindi Inquisitor */
-     , (0x702AF0C8, 0x702AF083, '2005-02-09 10:00:00') /* Virindi Inquisitor */
-     , (0x702AF0C8, 0x702AF084, '2005-02-09 10:00:00') /* Virindi Inquisitor */
-     , (0x702AF0C8, 0x702AF085, '2005-02-09 10:00:00') /* Assailer */
-     , (0x702AF0C8, 0x702AF088, '2005-02-09 10:00:00') /* Virindi Inquisitor */
-     , (0x702AF0C8, 0x702AF089, '2005-02-09 10:00:00') /* Assailer */
-     , (0x702AF0C8, 0x702AF08A, '2005-02-09 10:00:00') /* Assailer */
-     , (0x702AF0C8, 0x702AF08B, '2005-02-09 10:00:00') /* Assailer */
-     , (0x702AF0C8, 0x702AF08F, '2005-02-09 10:00:00') /* Assailer */
-     , (0x702AF0C8, 0x702AF090, '2005-02-09 10:00:00') /* Telumiat Hollow Minion */
-     , (0x702AF0C8, 0x702AF091, '2005-02-09 10:00:00') /* Assailer */
-     , (0x702AF0C8, 0x702AF096, '2005-02-09 10:00:00') /* Telumiat Hollow Minion */
-     , (0x702AF0C8, 0x702AF097, '2005-02-09 10:00:00') /* Telumiat Hollow Minion */
-     , (0x702AF0C8, 0x702AF098, '2005-02-09 10:00:00') /* Virindi Inquisitor */
-     , (0x702AF0C8, 0x702AF099, '2005-02-09 10:00:00') /* Assailer */
-     , (0x702AF0C8, 0x702AF0B8, '2005-02-09 10:00:00') /* Virindi Inquisitor */
-     , (0x702AF0C8, 0x702AF0BA, '2005-02-09 10:00:00') /* Assailer */
-     , (0x702AF0C8, 0x702AF0C4, '2005-02-09 10:00:00') /* Virindi Inquisitor */
-     , (0x702AF0C8, 0x702AF0C5, '2005-02-09 10:00:00') /* Virindi Inquisitor */;
+VALUES (0x702AF0C8, 0x702AF008, '2005-02-09 10:00:00') /* Telumiat Hollow Minion (23555) */
+     , (0x702AF0C8, 0x702AF00B, '2005-02-09 10:00:00') /* Virindi Inquisitor (10815) */
+     , (0x702AF0C8, 0x702AF00C, '2005-02-09 10:00:00') /* Virindi Adjudicator (23569) */
+     , (0x702AF0C8, 0x702AF00D, '2005-02-09 10:00:00') /* Telumiat Hollow Minion (23555) */
+     , (0x702AF0C8, 0x702AF081, '2005-02-09 10:00:00') /* Telumiat Hollow Minion (23555) */
+     , (0x702AF0C8, 0x702AF082, '2005-02-09 10:00:00') /* Virindi Inquisitor (10815) */
+     , (0x702AF0C8, 0x702AF083, '2005-02-09 10:00:00') /* Virindi Inquisitor (10815) */
+     , (0x702AF0C8, 0x702AF084, '2005-02-09 10:00:00') /* Virindi Inquisitor (10815) */
+     , (0x702AF0C8, 0x702AF085, '2005-02-09 10:00:00') /* Assailer (22053) */
+     , (0x702AF0C8, 0x702AF088, '2005-02-09 10:00:00') /* Virindi Inquisitor (10815) */
+     , (0x702AF0C8, 0x702AF089, '2005-02-09 10:00:00') /* Assailer (22053) */
+     , (0x702AF0C8, 0x702AF08A, '2005-02-09 10:00:00') /* Assailer (22053) */
+     , (0x702AF0C8, 0x702AF08B, '2005-02-09 10:00:00') /* Assailer (22053) */
+     , (0x702AF0C8, 0x702AF08F, '2005-02-09 10:00:00') /* Assailer (22053) */
+     , (0x702AF0C8, 0x702AF090, '2005-02-09 10:00:00') /* Telumiat Hollow Minion (23555) */
+     , (0x702AF0C8, 0x702AF091, '2005-02-09 10:00:00') /* Assailer (22053) */
+     , (0x702AF0C8, 0x702AF096, '2005-02-09 10:00:00') /* Telumiat Hollow Minion (23555) */
+     , (0x702AF0C8, 0x702AF097, '2005-02-09 10:00:00') /* Telumiat Hollow Minion (23555) */
+     , (0x702AF0C8, 0x702AF098, '2005-02-09 10:00:00') /* Virindi Inquisitor (10815) */
+     , (0x702AF0C8, 0x702AF099, '2005-02-09 10:00:00') /* Assailer (22053) */
+     , (0x702AF0C8, 0x702AF0B8, '2005-02-09 10:00:00') /* Virindi Inquisitor (10815) */
+     , (0x702AF0C8, 0x702AF0BA, '2005-02-09 10:00:00') /* Assailer (22053) */
+     , (0x702AF0C8, 0x702AF0C4, '2005-02-09 10:00:00') /* Virindi Inquisitor (10815) */
+     , (0x702AF0C8, 0x702AF0C5, '2005-02-09 10:00:00') /* Virindi Inquisitor (10815) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x702AF0C9,  4219, 0x02AF034F, 179.989, -2.34996, 0.005, 0.0416733, 0, 0, -0.999131, False, '2005-02-09 10:00:00'); /* Linkable Monster Generator ( 7 Min.) */
 /* @teleloc 0x02AF034F [179.989000 -2.349960 0.005000] 0.041673 0.000000 0.000000 -0.999131 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x702AF0C9, 0x702AF029, '2005-02-09 10:00:00') /* Telumiat Hollow Minion */
-     , (0x702AF0C9, 0x702AF02A, '2005-02-09 10:00:00') /* Virindi Inquisitor */
-     , (0x702AF0C9, 0x702AF02B, '2005-02-09 10:00:00') /* Assailer */
-     , (0x702AF0C9, 0x702AF02C, '2005-02-09 10:00:00') /* Assailer */
-     , (0x702AF0C9, 0x702AF02D, '2005-02-09 10:00:00') /* Virindi Inquisitor */
-     , (0x702AF0C9, 0x702AF02E, '2005-02-09 10:00:00') /* Virindi Inquisitor */
-     , (0x702AF0C9, 0x702AF030, '2005-02-09 10:00:00') /* Virindi Adjudicator */
-     , (0x702AF0C9, 0x702AF032, '2005-02-09 10:00:00') /* Telumiat Hollow Minion */
-     , (0x702AF0C9, 0x702AF033, '2005-02-09 10:00:00') /* Virindi Inquisitor */
-     , (0x702AF0C9, 0x702AF034, '2005-02-09 10:00:00') /* Virindi Inquisitor */
-     , (0x702AF0C9, 0x702AF036, '2005-02-09 10:00:00') /* Virindi Inquisitor */
-     , (0x702AF0C9, 0x702AF037, '2005-02-09 10:00:00') /* Telumiat Hollow Minion */
-     , (0x702AF0C9, 0x702AF045, '2005-02-09 10:00:00') /* Telumiat Hollow Minion */
-     , (0x702AF0C9, 0x702AF046, '2005-02-09 10:00:00') /* Telumiat Hollow Minion */
-     , (0x702AF0C9, 0x702AF06E, '2005-02-09 10:00:00') /* Virindi Inquisitor */
-     , (0x702AF0C9, 0x702AF09C, '2005-02-09 10:00:00') /* Assailer */
-     , (0x702AF0C9, 0x702AF09D, '2005-02-09 10:00:00') /* Virindi Preceptor */
-     , (0x702AF0C9, 0x702AF0A0, '2005-02-09 10:00:00') /* Assailer */
-     , (0x702AF0C9, 0x702AF0A1, '2005-02-09 10:00:00') /* Virindi Preceptor */
-     , (0x702AF0C9, 0x702AF0A2, '2005-02-09 10:00:00') /* Virindi Preceptor */
-     , (0x702AF0C9, 0x702AF0A8, '2005-02-09 10:00:00') /* Virindi Preceptor */
-     , (0x702AF0C9, 0x702AF0A9, '2005-02-09 10:00:00') /* Assailer */
-     , (0x702AF0C9, 0x702AF0AA, '2005-02-09 10:00:00') /* Assailer */
-     , (0x702AF0C9, 0x702AF0B2, '2005-02-09 10:00:00') /* Telumiat Hollow Minion */
-     , (0x702AF0C9, 0x702AF0B3, '2005-02-09 10:00:00') /* Telumiat Hollow Minion */;
+VALUES (0x702AF0C9, 0x702AF029, '2005-02-09 10:00:00') /* Telumiat Hollow Minion (23555) */
+     , (0x702AF0C9, 0x702AF02A, '2005-02-09 10:00:00') /* Virindi Inquisitor (10815) */
+     , (0x702AF0C9, 0x702AF02B, '2005-02-09 10:00:00') /* Assailer (22053) */
+     , (0x702AF0C9, 0x702AF02C, '2005-02-09 10:00:00') /* Assailer (22053) */
+     , (0x702AF0C9, 0x702AF02D, '2005-02-09 10:00:00') /* Virindi Inquisitor (10815) */
+     , (0x702AF0C9, 0x702AF02E, '2005-02-09 10:00:00') /* Virindi Inquisitor (10815) */
+     , (0x702AF0C9, 0x702AF030, '2005-02-09 10:00:00') /* Virindi Adjudicator (23569) */
+     , (0x702AF0C9, 0x702AF032, '2005-02-09 10:00:00') /* Telumiat Hollow Minion (23555) */
+     , (0x702AF0C9, 0x702AF033, '2005-02-09 10:00:00') /* Virindi Inquisitor (10815) */
+     , (0x702AF0C9, 0x702AF034, '2005-02-09 10:00:00') /* Virindi Inquisitor (10815) */
+     , (0x702AF0C9, 0x702AF036, '2005-02-09 10:00:00') /* Virindi Inquisitor (10815) */
+     , (0x702AF0C9, 0x702AF037, '2005-02-09 10:00:00') /* Telumiat Hollow Minion (23555) */
+     , (0x702AF0C9, 0x702AF045, '2005-02-09 10:00:00') /* Telumiat Hollow Minion (23555) */
+     , (0x702AF0C9, 0x702AF046, '2005-02-09 10:00:00') /* Telumiat Hollow Minion (23555) */
+     , (0x702AF0C9, 0x702AF06E, '2005-02-09 10:00:00') /* Virindi Inquisitor (10815) */
+     , (0x702AF0C9, 0x702AF09C, '2005-02-09 10:00:00') /* Assailer (22053) */
+     , (0x702AF0C9, 0x702AF09D, '2005-02-09 10:00:00') /* Virindi Preceptor (23769) */
+     , (0x702AF0C9, 0x702AF0A0, '2005-02-09 10:00:00') /* Assailer (22053) */
+     , (0x702AF0C9, 0x702AF0A1, '2005-02-09 10:00:00') /* Virindi Preceptor (23769) */
+     , (0x702AF0C9, 0x702AF0A2, '2005-02-09 10:00:00') /* Virindi Preceptor (23769) */
+     , (0x702AF0C9, 0x702AF0A8, '2005-02-09 10:00:00') /* Virindi Preceptor (23769) */
+     , (0x702AF0C9, 0x702AF0A9, '2005-02-09 10:00:00') /* Assailer (22053) */
+     , (0x702AF0C9, 0x702AF0AA, '2005-02-09 10:00:00') /* Assailer (22053) */
+     , (0x702AF0C9, 0x702AF0B2, '2005-02-09 10:00:00') /* Telumiat Hollow Minion (23555) */
+     , (0x702AF0C9, 0x702AF0B3, '2005-02-09 10:00:00') /* Telumiat Hollow Minion (23555) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x702AF0CA,  7923, 0x02AF0350, 181.252, -3.80814, 0.005, 0.0416733, 0, 0, -0.999131, False, '2005-02-09 10:00:00'); /* Linkable Monster Generator ( 3 Min.) */
 /* @teleloc 0x02AF0350 [181.252000 -3.808140 0.005000] 0.041673 0.000000 0.000000 -0.999131 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x702AF0CA, 0x702AF000, '2005-02-09 10:00:00') /* Assailer */
-     , (0x702AF0CA, 0x702AF002, '2005-02-09 10:00:00') /* Virindi Adjudicator */
-     , (0x702AF0CA, 0x702AF003, '2005-02-09 10:00:00') /* Chakron Flux Virindi Servant */
-     , (0x702AF0CA, 0x702AF005, '2005-02-09 10:00:00') /* Virindi Preceptor */
-     , (0x702AF0CA, 0x702AF006, '2005-02-09 10:00:00') /* Telumiat Hollow Minion */
-     , (0x702AF0CA, 0x702AF00A, '2005-02-09 10:00:00') /* Chakron Flux Virindi Master */
-     , (0x702AF0CA, 0x702AF01B, '2005-02-09 10:00:00') /* Telumiat Hollow Minion */
-     , (0x702AF0CA, 0x702AF01C, '2005-02-09 10:00:00') /* Virindi Preceptor */
-     , (0x702AF0CA, 0x702AF01D, '2005-02-09 10:00:00') /* Assailer */
-     , (0x702AF0CA, 0x702AF01E, '2005-02-09 10:00:00') /* Assailer */
-     , (0x702AF0CA, 0x702AF01F, '2005-02-09 10:00:00') /* Virindi Inquisitor */
-     , (0x702AF0CA, 0x702AF021, '2005-02-09 10:00:00') /* Assailer */
-     , (0x702AF0CA, 0x702AF022, '2005-02-09 10:00:00') /* Virindi Preceptor */
-     , (0x702AF0CA, 0x702AF023, '2005-02-09 10:00:00') /* Virindi Inquisitor */
-     , (0x702AF0CA, 0x702AF025, '2005-02-09 10:00:00') /* Virindi Preceptor */
-     , (0x702AF0CA, 0x702AF026, '2005-02-09 10:00:00') /* Virindi Preceptor */
-     , (0x702AF0CA, 0x702AF027, '2005-02-09 10:00:00') /* Virindi Preceptor */
-     , (0x702AF0CA, 0x702AF028, '2005-02-09 10:00:00') /* Virindi Preceptor */
-     , (0x702AF0CA, 0x702AF044, '2005-02-09 10:00:00') /* Telumiat Hollow Minion */
-     , (0x702AF0CA, 0x702AF056, '2005-02-09 10:00:00') /* Virindi Inquisitor */
-     , (0x702AF0CA, 0x702AF057, '2005-02-09 10:00:00') /* Virindi Inquisitor */
-     , (0x702AF0CA, 0x702AF059, '2005-02-09 10:00:00') /* Virindi Inquisitor */
-     , (0x702AF0CA, 0x702AF05A, '2005-02-09 10:00:00') /* Virindi Inquisitor */
-     , (0x702AF0CA, 0x702AF05F, '2005-02-09 10:00:00') /* Telumiat Hollow Minion */
-     , (0x702AF0CA, 0x702AF060, '2005-02-09 10:00:00') /* Telumiat Hollow Minion */
-     , (0x702AF0CA, 0x702AF066, '2005-02-09 10:00:00') /* Telumiat Hollow Minion */;
+VALUES (0x702AF0CA, 0x702AF000, '2005-02-09 10:00:00') /* Assailer (22053) */
+     , (0x702AF0CA, 0x702AF002, '2005-02-09 10:00:00') /* Virindi Adjudicator (23569) */
+     , (0x702AF0CA, 0x702AF003, '2005-02-09 10:00:00') /* Chakron Flux Virindi Servant (8820) */
+     , (0x702AF0CA, 0x702AF005, '2005-02-09 10:00:00') /* Virindi Preceptor (23769) */
+     , (0x702AF0CA, 0x702AF006, '2005-02-09 10:00:00') /* Telumiat Hollow Minion (23555) */
+     , (0x702AF0CA, 0x702AF00A, '2005-02-09 10:00:00') /* Chakron Flux Virindi Master (8819) */
+     , (0x702AF0CA, 0x702AF01B, '2005-02-09 10:00:00') /* Telumiat Hollow Minion (23555) */
+     , (0x702AF0CA, 0x702AF01C, '2005-02-09 10:00:00') /* Virindi Preceptor (23769) */
+     , (0x702AF0CA, 0x702AF01D, '2005-02-09 10:00:00') /* Assailer (22053) */
+     , (0x702AF0CA, 0x702AF01E, '2005-02-09 10:00:00') /* Assailer (22053) */
+     , (0x702AF0CA, 0x702AF01F, '2005-02-09 10:00:00') /* Virindi Inquisitor (10815) */
+     , (0x702AF0CA, 0x702AF021, '2005-02-09 10:00:00') /* Assailer (22053) */
+     , (0x702AF0CA, 0x702AF022, '2005-02-09 10:00:00') /* Virindi Preceptor (23769) */
+     , (0x702AF0CA, 0x702AF023, '2005-02-09 10:00:00') /* Virindi Inquisitor (10815) */
+     , (0x702AF0CA, 0x702AF025, '2005-02-09 10:00:00') /* Virindi Preceptor (23769) */
+     , (0x702AF0CA, 0x702AF026, '2005-02-09 10:00:00') /* Virindi Preceptor (23769) */
+     , (0x702AF0CA, 0x702AF027, '2005-02-09 10:00:00') /* Virindi Preceptor (23769) */
+     , (0x702AF0CA, 0x702AF028, '2005-02-09 10:00:00') /* Virindi Preceptor (23769) */
+     , (0x702AF0CA, 0x702AF044, '2005-02-09 10:00:00') /* Telumiat Hollow Minion (23555) */
+     , (0x702AF0CA, 0x702AF056, '2005-02-09 10:00:00') /* Virindi Inquisitor (10815) */
+     , (0x702AF0CA, 0x702AF057, '2005-02-09 10:00:00') /* Virindi Inquisitor (10815) */
+     , (0x702AF0CA, 0x702AF059, '2005-02-09 10:00:00') /* Virindi Inquisitor (10815) */
+     , (0x702AF0CA, 0x702AF05A, '2005-02-09 10:00:00') /* Virindi Inquisitor (10815) */
+     , (0x702AF0CA, 0x702AF05F, '2005-02-09 10:00:00') /* Telumiat Hollow Minion (23555) */
+     , (0x702AF0CA, 0x702AF060, '2005-02-09 10:00:00') /* Telumiat Hollow Minion (23555) */
+     , (0x702AF0CA, 0x702AF066, '2005-02-09 10:00:00') /* Telumiat Hollow Minion (23555) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x702AF0CB,  7923, 0x02AF0350, 180.273, -3.88991, 0.005, 0.0416733, 0, 0, -0.999131, False, '2005-02-09 10:00:00'); /* Linkable Monster Generator ( 3 Min.) */
 /* @teleloc 0x02AF0350 [180.273000 -3.889910 0.005000] 0.041673 0.000000 0.000000 -0.999131 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x702AF0CB, 0x702AF053, '2005-02-09 10:00:00') /* Assailer */
-     , (0x702AF0CB, 0x702AF054, '2005-02-09 10:00:00') /* Virindi Inquisitor */
-     , (0x702AF0CB, 0x702AF055, '2005-02-09 10:00:00') /* Assailer */
-     , (0x702AF0CB, 0x702AF05B, '2005-02-09 10:00:00') /* Assailer */
-     , (0x702AF0CB, 0x702AF05C, '2005-02-09 10:00:00') /* Virindi Inquisitor */
-     , (0x702AF0CB, 0x702AF05E, '2005-02-09 10:00:00') /* Telumiat Hollow Minion */
-     , (0x702AF0CB, 0x702AF061, '2005-02-09 10:00:00') /* Virindi Inquisitor */
-     , (0x702AF0CB, 0x702AF062, '2005-02-09 10:00:00') /* Virindi Inquisitor */
-     , (0x702AF0CB, 0x702AF063, '2005-02-09 10:00:00') /* Virindi Preceptor */
-     , (0x702AF0CB, 0x702AF064, '2005-02-09 10:00:00') /* Telumiat Hollow Minion */
-     , (0x702AF0CB, 0x702AF067, '2005-02-09 10:00:00') /* Telumiat Hollow Minion */
-     , (0x702AF0CB, 0x702AF068, '2005-02-09 10:00:00') /* Telumiat Hollow Minion */
-     , (0x702AF0CB, 0x702AF06A, '2005-02-09 10:00:00') /* Virindi Inquisitor */
-     , (0x702AF0CB, 0x702AF071, '2005-02-09 10:00:00') /* Virindi Inquisitor */
-     , (0x702AF0CB, 0x702AF072, '2005-02-09 10:00:00') /* Virindi Inquisitor */
-     , (0x702AF0CB, 0x702AF077, '2005-02-09 10:00:00') /* Virindi Inquisitor */
-     , (0x702AF0CB, 0x702AF078, '2005-02-09 10:00:00') /* Virindi Inquisitor */
-     , (0x702AF0CB, 0x702AF079, '2005-02-09 10:00:00') /* Virindi Inquisitor */
-     , (0x702AF0CB, 0x702AF07F, '2005-02-09 10:00:00') /* Virindi Inquisitor */
-     , (0x702AF0CB, 0x702AF080, '2005-02-09 10:00:00') /* Telumiat Hollow Minion */
-     , (0x702AF0CB, 0x702AF0B6, '2005-02-09 10:00:00') /* Assailer */
-     , (0x702AF0CB, 0x702AF0B9, '2005-02-09 10:00:00') /* Assailer */
-     , (0x702AF0CB, 0x702AF0BB, '2005-02-09 10:00:00') /* Assailer */
-     , (0x702AF0CB, 0x702AF0BC, '2005-02-09 10:00:00') /* Telumiat Hollow Minion */
-     , (0x702AF0CB, 0x702AF0BD, '2005-02-09 10:00:00') /* Telumiat Hollow Minion */;
+VALUES (0x702AF0CB, 0x702AF053, '2005-02-09 10:00:00') /* Assailer (22053) */
+     , (0x702AF0CB, 0x702AF054, '2005-02-09 10:00:00') /* Virindi Inquisitor (10815) */
+     , (0x702AF0CB, 0x702AF055, '2005-02-09 10:00:00') /* Assailer (22053) */
+     , (0x702AF0CB, 0x702AF05B, '2005-02-09 10:00:00') /* Assailer (22053) */
+     , (0x702AF0CB, 0x702AF05C, '2005-02-09 10:00:00') /* Virindi Inquisitor (10815) */
+     , (0x702AF0CB, 0x702AF05E, '2005-02-09 10:00:00') /* Telumiat Hollow Minion (23555) */
+     , (0x702AF0CB, 0x702AF061, '2005-02-09 10:00:00') /* Virindi Inquisitor (10815) */
+     , (0x702AF0CB, 0x702AF062, '2005-02-09 10:00:00') /* Virindi Inquisitor (10815) */
+     , (0x702AF0CB, 0x702AF063, '2005-02-09 10:00:00') /* Virindi Preceptor (23769) */
+     , (0x702AF0CB, 0x702AF064, '2005-02-09 10:00:00') /* Telumiat Hollow Minion (23555) */
+     , (0x702AF0CB, 0x702AF067, '2005-02-09 10:00:00') /* Telumiat Hollow Minion (23555) */
+     , (0x702AF0CB, 0x702AF068, '2005-02-09 10:00:00') /* Telumiat Hollow Minion (23555) */
+     , (0x702AF0CB, 0x702AF06A, '2005-02-09 10:00:00') /* Virindi Inquisitor (10815) */
+     , (0x702AF0CB, 0x702AF071, '2005-02-09 10:00:00') /* Virindi Inquisitor (10815) */
+     , (0x702AF0CB, 0x702AF072, '2005-02-09 10:00:00') /* Virindi Inquisitor (10815) */
+     , (0x702AF0CB, 0x702AF077, '2005-02-09 10:00:00') /* Virindi Inquisitor (10815) */
+     , (0x702AF0CB, 0x702AF078, '2005-02-09 10:00:00') /* Virindi Inquisitor (10815) */
+     , (0x702AF0CB, 0x702AF079, '2005-02-09 10:00:00') /* Virindi Inquisitor (10815) */
+     , (0x702AF0CB, 0x702AF07F, '2005-02-09 10:00:00') /* Virindi Inquisitor (10815) */
+     , (0x702AF0CB, 0x702AF080, '2005-02-09 10:00:00') /* Telumiat Hollow Minion (23555) */
+     , (0x702AF0CB, 0x702AF0B6, '2005-02-09 10:00:00') /* Assailer (22053) */
+     , (0x702AF0CB, 0x702AF0B9, '2005-02-09 10:00:00') /* Assailer (22053) */
+     , (0x702AF0CB, 0x702AF0BB, '2005-02-09 10:00:00') /* Assailer (22053) */
+     , (0x702AF0CB, 0x702AF0BC, '2005-02-09 10:00:00') /* Telumiat Hollow Minion (23555) */
+     , (0x702AF0CB, 0x702AF0BD, '2005-02-09 10:00:00') /* Telumiat Hollow Minion (23555) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x702AF0CC,  7923, 0x02AF0350, 179.381, -3.96452, 0.005, 0.0416733, 0, 0, -0.999131, False, '2005-02-09 10:00:00'); /* Linkable Monster Generator ( 3 Min.) */
 /* @teleloc 0x02AF0350 [179.381000 -3.964520 0.005000] 0.041673 0.000000 0.000000 -0.999131 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x702AF0CC, 0x702AF069, '2005-02-09 10:00:00') /* Virindi Preceptor */
-     , (0x702AF0CC, 0x702AF06B, '2005-02-09 10:00:00') /* Assailer */
-     , (0x702AF0CC, 0x702AF06C, '2005-02-09 10:00:00') /* Assailer */
-     , (0x702AF0CC, 0x702AF06F, '2005-02-09 10:00:00') /* Telumiat Hollow Minion */
-     , (0x702AF0CC, 0x702AF070, '2005-02-09 10:00:00') /* Telumiat Hollow Minion */
-     , (0x702AF0CC, 0x702AF073, '2005-02-09 10:00:00') /* Virindi Preceptor */
-     , (0x702AF0CC, 0x702AF074, '2005-02-09 10:00:00') /* Assailer */
-     , (0x702AF0CC, 0x702AF075, '2005-02-09 10:00:00') /* Assailer */
-     , (0x702AF0CC, 0x702AF07A, '2005-02-09 10:00:00') /* Virindi Preceptor */
-     , (0x702AF0CC, 0x702AF07B, '2005-02-09 10:00:00') /* Virindi Preceptor */
-     , (0x702AF0CC, 0x702AF07C, '2005-02-09 10:00:00') /* Virindi Preceptor */
-     , (0x702AF0CC, 0x702AF07D, '2005-02-09 10:00:00') /* Telumiat Hollow Minion */
-     , (0x702AF0CC, 0x702AF07E, '2005-02-09 10:00:00') /* Virindi Inquisitor */
-     , (0x702AF0CC, 0x702AF09B, '2005-02-09 10:00:00') /* Virindi Preceptor */
-     , (0x702AF0CC, 0x702AF09E, '2005-02-09 10:00:00') /* Virindi Inquisitor */
-     , (0x702AF0CC, 0x702AF09F, '2005-02-09 10:00:00') /* Telumiat Hollow Minion */
-     , (0x702AF0CC, 0x702AF0A3, '2005-02-09 10:00:00') /* Assailer */
-     , (0x702AF0CC, 0x702AF0AB, '2005-02-09 10:00:00') /* Virindi Inquisitor */
-     , (0x702AF0CC, 0x702AF0B4, '2005-02-09 10:00:00') /* Assailer */
-     , (0x702AF0CC, 0x702AF0B5, '2005-02-09 10:00:00') /* Assailer */
-     , (0x702AF0CC, 0x702AF0BE, '2005-02-09 10:00:00') /* Telumiat Hollow Minion */
-     , (0x702AF0CC, 0x702AF0BF, '2005-02-09 10:00:00') /* Assailer */
-     , (0x702AF0CC, 0x702AF0C0, '2005-02-09 10:00:00') /* Telumiat Hollow Minion */
-     , (0x702AF0CC, 0x702AF0C1, '2005-02-09 10:00:00') /* Assailer */
-     , (0x702AF0CC, 0x702AF0C2, '2005-02-09 10:00:00') /* Assailer */
-     , (0x702AF0CC, 0x702AF0C6, '2005-02-09 10:00:00') /* Virindi Inquisitor */;
+VALUES (0x702AF0CC, 0x702AF069, '2005-02-09 10:00:00') /* Virindi Preceptor (23769) */
+     , (0x702AF0CC, 0x702AF06B, '2005-02-09 10:00:00') /* Assailer (22053) */
+     , (0x702AF0CC, 0x702AF06C, '2005-02-09 10:00:00') /* Assailer (22053) */
+     , (0x702AF0CC, 0x702AF06F, '2005-02-09 10:00:00') /* Telumiat Hollow Minion (23555) */
+     , (0x702AF0CC, 0x702AF070, '2005-02-09 10:00:00') /* Telumiat Hollow Minion (23555) */
+     , (0x702AF0CC, 0x702AF073, '2005-02-09 10:00:00') /* Virindi Preceptor (23769) */
+     , (0x702AF0CC, 0x702AF074, '2005-02-09 10:00:00') /* Assailer (22053) */
+     , (0x702AF0CC, 0x702AF075, '2005-02-09 10:00:00') /* Assailer (22053) */
+     , (0x702AF0CC, 0x702AF07A, '2005-02-09 10:00:00') /* Virindi Preceptor (23769) */
+     , (0x702AF0CC, 0x702AF07B, '2005-02-09 10:00:00') /* Virindi Preceptor (23769) */
+     , (0x702AF0CC, 0x702AF07C, '2005-02-09 10:00:00') /* Virindi Preceptor (23769) */
+     , (0x702AF0CC, 0x702AF07D, '2005-02-09 10:00:00') /* Telumiat Hollow Minion (23555) */
+     , (0x702AF0CC, 0x702AF07E, '2005-02-09 10:00:00') /* Virindi Inquisitor (10815) */
+     , (0x702AF0CC, 0x702AF09B, '2005-02-09 10:00:00') /* Virindi Preceptor (23769) */
+     , (0x702AF0CC, 0x702AF09E, '2005-02-09 10:00:00') /* Virindi Inquisitor (10815) */
+     , (0x702AF0CC, 0x702AF09F, '2005-02-09 10:00:00') /* Telumiat Hollow Minion (23555) */
+     , (0x702AF0CC, 0x702AF0A3, '2005-02-09 10:00:00') /* Assailer (22053) */
+     , (0x702AF0CC, 0x702AF0AB, '2005-02-09 10:00:00') /* Virindi Inquisitor (10815) */
+     , (0x702AF0CC, 0x702AF0B4, '2005-02-09 10:00:00') /* Assailer (22053) */
+     , (0x702AF0CC, 0x702AF0B5, '2005-02-09 10:00:00') /* Assailer (22053) */
+     , (0x702AF0CC, 0x702AF0BE, '2005-02-09 10:00:00') /* Telumiat Hollow Minion (23555) */
+     , (0x702AF0CC, 0x702AF0BF, '2005-02-09 10:00:00') /* Assailer (22053) */
+     , (0x702AF0CC, 0x702AF0C0, '2005-02-09 10:00:00') /* Telumiat Hollow Minion (23555) */
+     , (0x702AF0CC, 0x702AF0C1, '2005-02-09 10:00:00') /* Assailer (22053) */
+     , (0x702AF0CC, 0x702AF0C2, '2005-02-09 10:00:00') /* Assailer (22053) */
+     , (0x702AF0CC, 0x702AF0C6, '2005-02-09 10:00:00') /* Virindi Inquisitor (10815) */;

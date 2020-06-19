@@ -749,40 +749,40 @@ VALUES (0x72D5B0CF,  7924, 0x2D5B0000, 68.4732, 52.2141, 49.873, 0.999818, 0, 0,
 /* @teleloc 0x2D5B0000 [68.473200 52.214100 49.873000] 0.999818 0.000000 0.000000 -0.019068 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72D5B0CF, 0x72D5B0B0, '2005-02-09 10:00:00') /* Tumerok High Priest */
-     , (0x72D5B0CF, 0x72D5B0B1, '2005-02-09 10:00:00') /* Tumerok High Priest */
-     , (0x72D5B0CF, 0x72D5B0B2, '2005-02-09 10:00:00') /* Tumerok High Priest */
-     , (0x72D5B0CF, 0x72D5B0B3, '2005-02-09 10:00:00') /* Tumerok High Priest */
-     , (0x72D5B0CF, 0x72D5B0B4, '2005-02-09 10:00:00') /* Gotrok Fortress Guard */
-     , (0x72D5B0CF, 0x72D5B0B5, '2005-02-09 10:00:00') /* Gotrok Fortress Guard */
-     , (0x72D5B0CF, 0x72D5B0B6, '2005-02-09 10:00:00') /* Gotrok Fortress Guard */
-     , (0x72D5B0CF, 0x72D5B0B7, '2005-02-09 10:00:00') /* Gotrok Fortress Guard */
-     , (0x72D5B0CF, 0x72D5B0B8, '2005-02-09 10:00:00') /* Tumerok High Priest */
-     , (0x72D5B0CF, 0x72D5B0BB, '2005-02-09 10:00:00') /* Gotrok Fortress Guard */
-     , (0x72D5B0CF, 0x72D5B0BD, '2005-02-09 10:00:00') /* Gotrok Fortress Guard */
-     , (0x72D5B0CF, 0x72D5B0BE, '2005-02-09 10:00:00') /* Gotrok Fortress Guard */
-     , (0x72D5B0CF, 0x72D5B0C0, '2005-02-09 10:00:00') /* Gotrok Fortress Guard */
-     , (0x72D5B0CF, 0x72D5B0C2, '2005-02-09 10:00:00') /* Gotrok Fortress Guard */
-     , (0x72D5B0CF, 0x72D5B0C3, '2005-02-09 10:00:00') /* Gotrok Fortress Guard */
-     , (0x72D5B0CF, 0x72D5B0C8, '2005-02-09 10:00:00') /* Gotrok Fortress Guard */
-     , (0x72D5B0CF, 0x72D5B0C9, '2005-02-09 10:00:00') /* Gotrok Fortress Guard */
-     , (0x72D5B0CF, 0x72D5B0CD, '2005-02-09 10:00:00') /* Tumerok High Priest */;
+VALUES (0x72D5B0CF, 0x72D5B0B0, '2005-02-09 10:00:00') /* Tumerok High Priest (6012) */
+     , (0x72D5B0CF, 0x72D5B0B1, '2005-02-09 10:00:00') /* Tumerok High Priest (6012) */
+     , (0x72D5B0CF, 0x72D5B0B2, '2005-02-09 10:00:00') /* Tumerok High Priest (6012) */
+     , (0x72D5B0CF, 0x72D5B0B3, '2005-02-09 10:00:00') /* Tumerok High Priest (6012) */
+     , (0x72D5B0CF, 0x72D5B0B4, '2005-02-09 10:00:00') /* Gotrok Fortress Guard (27460) */
+     , (0x72D5B0CF, 0x72D5B0B5, '2005-02-09 10:00:00') /* Gotrok Fortress Guard (27460) */
+     , (0x72D5B0CF, 0x72D5B0B6, '2005-02-09 10:00:00') /* Gotrok Fortress Guard (27460) */
+     , (0x72D5B0CF, 0x72D5B0B7, '2005-02-09 10:00:00') /* Gotrok Fortress Guard (27460) */
+     , (0x72D5B0CF, 0x72D5B0B8, '2005-02-09 10:00:00') /* Tumerok High Priest (6012) */
+     , (0x72D5B0CF, 0x72D5B0BB, '2005-02-09 10:00:00') /* Gotrok Fortress Guard (27460) */
+     , (0x72D5B0CF, 0x72D5B0BD, '2005-02-09 10:00:00') /* Gotrok Fortress Guard (27460) */
+     , (0x72D5B0CF, 0x72D5B0BE, '2005-02-09 10:00:00') /* Gotrok Fortress Guard (27460) */
+     , (0x72D5B0CF, 0x72D5B0C0, '2005-02-09 10:00:00') /* Gotrok Fortress Guard (27460) */
+     , (0x72D5B0CF, 0x72D5B0C2, '2005-02-09 10:00:00') /* Gotrok Fortress Guard (27460) */
+     , (0x72D5B0CF, 0x72D5B0C3, '2005-02-09 10:00:00') /* Gotrok Fortress Guard (27460) */
+     , (0x72D5B0CF, 0x72D5B0C8, '2005-02-09 10:00:00') /* Gotrok Fortress Guard (27460) */
+     , (0x72D5B0CF, 0x72D5B0C9, '2005-02-09 10:00:00') /* Gotrok Fortress Guard (27460) */
+     , (0x72D5B0CF, 0x72D5B0CD, '2005-02-09 10:00:00') /* Tumerok High Priest (6012) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72D5B0D0,  7924, 0x2D5B0000, 107.862, 37.7807, 32.005, 0.99985, 0, 0, -0.0173204, False, '2005-02-09 10:00:00'); /* Linkable Monster Generator ( 5 Min.) */
 /* @teleloc 0x2D5B0000 [107.862000 37.780700 32.005000] 0.999850 0.000000 0.000000 -0.017320 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72D5B0D0, 0x72D5B0D9, '2005-02-09 10:00:00') /* Gotrok Tiatus */
-     , (0x72D5B0D0, 0x72D5B0DA, '2005-02-09 10:00:00') /* Gotrok Tiatus */
-     , (0x72D5B0D0, 0x72D5B0DD, '2005-02-09 10:00:00') /* Tumerok High Priest */
-     , (0x72D5B0D0, 0x72D5B0DE, '2005-02-09 10:00:00') /* Tumerok High Priest */
-     , (0x72D5B0D0, 0x72D5B0E0, '2005-02-09 10:00:00') /* Tumerok High Priest */
-     , (0x72D5B0D0, 0x72D5B0E3, '2005-02-09 10:00:00') /* Tumerok High Priest */
-     , (0x72D5B0D0, 0x72D5B0E4, '2005-02-09 10:00:00') /* Tumerok High Priest */
-     , (0x72D5B0D0, 0x72D5B0E5, '2005-02-09 10:00:00') /* Tumerok High Priest */
-     , (0x72D5B0D0, 0x72D5B0E6, '2005-02-09 10:00:00') /* Tumerok High Priest */
-     , (0x72D5B0D0, 0x72D5B0F9, '2005-02-09 10:00:00') /* Door */;
+VALUES (0x72D5B0D0, 0x72D5B0D9, '2005-02-09 10:00:00') /* Gotrok Tiatus (24497) */
+     , (0x72D5B0D0, 0x72D5B0DA, '2005-02-09 10:00:00') /* Gotrok Tiatus (24497) */
+     , (0x72D5B0D0, 0x72D5B0DD, '2005-02-09 10:00:00') /* Tumerok High Priest (228) */
+     , (0x72D5B0D0, 0x72D5B0DE, '2005-02-09 10:00:00') /* Tumerok High Priest (228) */
+     , (0x72D5B0D0, 0x72D5B0E0, '2005-02-09 10:00:00') /* Tumerok High Priest (228) */
+     , (0x72D5B0D0, 0x72D5B0E3, '2005-02-09 10:00:00') /* Tumerok High Priest (228) */
+     , (0x72D5B0D0, 0x72D5B0E4, '2005-02-09 10:00:00') /* Tumerok High Priest (228) */
+     , (0x72D5B0D0, 0x72D5B0E5, '2005-02-09 10:00:00') /* Tumerok High Priest (228) */
+     , (0x72D5B0D0, 0x72D5B0E6, '2005-02-09 10:00:00') /* Tumerok High Priest (228) */
+     , (0x72D5B0D0, 0x72D5B0F9, '2005-02-09 10:00:00') /* Door (27463) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72D5B0D9, 24497, 0x2D5B0000, 77.5661, 37.1846, 32.01, -0.983297, 0, 0, 0.182009,  True, '2005-02-09 10:00:00'); /* Gotrok Tiatus */
@@ -949,15 +949,15 @@ VALUES (0x72D5B106,  7924, 0x2D5B0000, 130.938, 131.401, 38.1048, -0.99627, 0, 0
 /* @teleloc 0x2D5B0000 [130.938000 131.401000 38.104800] -0.996270 0.000000 0.000000 0.086286 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72D5B106, 0x72D5B0FA, '2005-02-09 10:00:00') /* Gotrok Fortress Guard */
-     , (0x72D5B106, 0x72D5B0FB, '2005-02-09 10:00:00') /* Gotrok Fortress Guard */
-     , (0x72D5B106, 0x72D5B0FC, '2005-02-09 10:00:00') /* Gotrok Fortress Guard */
-     , (0x72D5B106, 0x72D5B0FD, '2005-02-09 10:00:00') /* Tumerok High Priest */
-     , (0x72D5B106, 0x72D5B0FE, '2005-02-09 10:00:00') /* Tumerok High Priest */
-     , (0x72D5B106, 0x72D5B0FF, '2005-02-09 10:00:00') /* Gotrok Tiatus */
-     , (0x72D5B106, 0x72D5B100, '2005-02-09 10:00:00') /* Gotrok Tiatus */
-     , (0x72D5B106, 0x72D5B101, '2005-02-09 10:00:00') /* Tumerok High Priest */
-     , (0x72D5B106, 0x72D5B102, '2005-02-09 10:00:00') /* Tumerok High Priest */
-     , (0x72D5B106, 0x72D5B103, '2005-02-09 10:00:00') /* Tumerok High Priest */
-     , (0x72D5B106, 0x72D5B104, '2005-02-09 10:00:00') /* Gotrok Tiatus */
-     , (0x72D5B106, 0x72D5B105, '2005-02-09 10:00:00') /* Gotrok Fortress Guard */;
+VALUES (0x72D5B106, 0x72D5B0FA, '2005-02-09 10:00:00') /* Gotrok Fortress Guard (27460) */
+     , (0x72D5B106, 0x72D5B0FB, '2005-02-09 10:00:00') /* Gotrok Fortress Guard (27460) */
+     , (0x72D5B106, 0x72D5B0FC, '2005-02-09 10:00:00') /* Gotrok Fortress Guard (27460) */
+     , (0x72D5B106, 0x72D5B0FD, '2005-02-09 10:00:00') /* Tumerok High Priest (228) */
+     , (0x72D5B106, 0x72D5B0FE, '2005-02-09 10:00:00') /* Tumerok High Priest (228) */
+     , (0x72D5B106, 0x72D5B0FF, '2005-02-09 10:00:00') /* Gotrok Tiatus (24497) */
+     , (0x72D5B106, 0x72D5B100, '2005-02-09 10:00:00') /* Gotrok Tiatus (24497) */
+     , (0x72D5B106, 0x72D5B101, '2005-02-09 10:00:00') /* Tumerok High Priest (4106) */
+     , (0x72D5B106, 0x72D5B102, '2005-02-09 10:00:00') /* Tumerok High Priest (4106) */
+     , (0x72D5B106, 0x72D5B103, '2005-02-09 10:00:00') /* Tumerok High Priest (4106) */
+     , (0x72D5B106, 0x72D5B104, '2005-02-09 10:00:00') /* Gotrok Tiatus (24497) */
+     , (0x72D5B106, 0x72D5B105, '2005-02-09 10:00:00') /* Gotrok Fortress Guard (27460) */;

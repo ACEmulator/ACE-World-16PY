@@ -13,8 +13,8 @@ VALUES (0x7017D002, 15759, 0x017D0101, 30.1559, -9.72123, -35.995, -0.028357, 0,
 /* @teleloc 0x017D0101 [30.155900 -9.721230 -35.995000] -0.028357 0.000000 0.000000 -0.999598 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7017D002, 0x7017D001, '2005-02-09 10:00:00') /* Report to Niarltah */
-     , (0x7017D002, 0x7017D01D, '2005-02-09 10:00:00') /* Report to Niarltah */;
+VALUES (0x7017D002, 0x7017D001, '2005-02-09 10:00:00') /* Report to Niarltah (28120) */
+     , (0x7017D002, 0x7017D01D, '2005-02-09 10:00:00') /* Report to Niarltah (28119) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7017D003, 23565, 0x017D0102, 23.313, -37.7238, -29.994, 0.045083, 0, 0, -0.998983,  True, '2005-02-09 10:00:00'); /* Tumerok Major */
@@ -229,69 +229,69 @@ VALUES (0x7017D037,  7924, 0x017D016D, 50.896, -210, 0.005, 1, 0, 0, 0, False, '
 /* @teleloc 0x017D016D [50.896000 -210.000000 0.005000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7017D037, 0x7017D00F, '2005-02-09 10:00:00') /* Extas Raider */
-     , (0x7017D037, 0x7017D011, '2005-02-09 10:00:00') /* Tumerok Gladiator */
-     , (0x7017D037, 0x7017D012, '2005-02-09 10:00:00') /* Tumerok Gladiator */
-     , (0x7017D037, 0x7017D013, '2005-02-09 10:00:00') /* Burun Ruuk Adherent */
-     , (0x7017D037, 0x7017D015, '2005-02-09 10:00:00') /* Tumerok Gladiator */
-     , (0x7017D037, 0x7017D016, '2005-02-09 10:00:00') /* Tumerok Gladiator */
-     , (0x7017D037, 0x7017D017, '2005-02-09 10:00:00') /* Burun Ruuk Adherent */
-     , (0x7017D037, 0x7017D018, '2005-02-09 10:00:00') /* Burun Ruuk Adherent */
-     , (0x7017D037, 0x7017D019, '2005-02-09 10:00:00') /* Gotrok Extas */
-     , (0x7017D037, 0x7017D01A, '2005-02-09 10:00:00') /* Gotrok Extas */
-     , (0x7017D037, 0x7017D01B, '2005-02-09 10:00:00') /* Extas Raider */
-     , (0x7017D037, 0x7017D01E, '2005-02-09 10:00:00') /* Gotrok Extas */
-     , (0x7017D037, 0x7017D01F, '2005-02-09 10:00:00') /* Gotrok Extas */
-     , (0x7017D037, 0x7017D020, '2005-02-09 10:00:00') /* Gotrok Montok */
-     , (0x7017D037, 0x7017D021, '2005-02-09 10:00:00') /* Gotrok Montok */
-     , (0x7017D037, 0x7017D022, '2005-02-09 10:00:00') /* Gotrok Montok */
-     , (0x7017D037, 0x7017D023, '2005-02-09 10:00:00') /* Burun Ruuk Ruffian */
-     , (0x7017D037, 0x7017D024, '2005-02-09 10:00:00') /* Burun Ruuk Ruffian */
-     , (0x7017D037, 0x7017D025, '2005-02-09 10:00:00') /* Burun Ruuk Ruffian */
-     , (0x7017D037, 0x7017D026, '2005-02-09 10:00:00') /* Burun Ruuk Adherent */
-     , (0x7017D037, 0x7017D027, '2005-02-09 10:00:00') /* Burun Ruuk Adherent */
-     , (0x7017D037, 0x7017D028, '2005-02-09 10:00:00') /* Gotrok Montok */
-     , (0x7017D037, 0x7017D029, '2005-02-09 10:00:00') /* Gotrok Montok */
-     , (0x7017D037, 0x7017D02A, '2005-02-09 10:00:00') /* Gotrok Montok */
-     , (0x7017D037, 0x7017D02B, '2005-02-09 10:00:00') /* Burun Ruuk Adherent */
-     , (0x7017D037, 0x7017D02C, '2005-02-09 10:00:00') /* Burun Ruuk Adherent */
-     , (0x7017D037, 0x7017D02D, '2005-02-09 10:00:00') /* Burun Ruuk Ruffian */
-     , (0x7017D037, 0x7017D02E, '2005-02-09 10:00:00') /* Burun Ruuk Ruffian */
-     , (0x7017D037, 0x7017D02F, '2005-02-09 10:00:00') /* Burun Ruuk Ruffian */
-     , (0x7017D037, 0x7017D030, '2005-02-09 10:00:00') /* Burun Ruuk Ruffian */
-     , (0x7017D037, 0x7017D031, '2005-02-09 10:00:00') /* Burun Ruuk Adherent */
-     , (0x7017D037, 0x7017D032, '2005-02-09 10:00:00') /* Burun Ruuk Adherent */
-     , (0x7017D037, 0x7017D033, '2005-02-09 10:00:00') /* Burun Ruuk Ruffian */
-     , (0x7017D037, 0x7017D034, '2005-02-09 10:00:00') /* Burun Ruuk Ruffian */
-     , (0x7017D037, 0x7017D035, '2005-02-09 10:00:00') /* Burun Ruuk Adherent */
-     , (0x7017D037, 0x7017D036, '2005-02-09 10:00:00') /* Burun Ruuk Ruffian */
-     , (0x7017D037, 0x7017D03E, '2005-02-09 10:00:00') /* Burun Ruuk Adherent */
-     , (0x7017D037, 0x7017D03F, '2005-02-09 10:00:00') /* Burun Ruuk Adherent */;
+VALUES (0x7017D037, 0x7017D00F, '2005-02-09 10:00:00') /* Extas Raider (8138) */
+     , (0x7017D037, 0x7017D011, '2005-02-09 10:00:00') /* Tumerok Gladiator (4102) */
+     , (0x7017D037, 0x7017D012, '2005-02-09 10:00:00') /* Tumerok Gladiator (4102) */
+     , (0x7017D037, 0x7017D013, '2005-02-09 10:00:00') /* Burun Ruuk Adherent (26013) */
+     , (0x7017D037, 0x7017D015, '2005-02-09 10:00:00') /* Tumerok Gladiator (227) */
+     , (0x7017D037, 0x7017D016, '2005-02-09 10:00:00') /* Tumerok Gladiator (227) */
+     , (0x7017D037, 0x7017D017, '2005-02-09 10:00:00') /* Burun Ruuk Adherent (26013) */
+     , (0x7017D037, 0x7017D018, '2005-02-09 10:00:00') /* Burun Ruuk Adherent (26013) */
+     , (0x7017D037, 0x7017D019, '2005-02-09 10:00:00') /* Gotrok Extas (24494) */
+     , (0x7017D037, 0x7017D01A, '2005-02-09 10:00:00') /* Gotrok Extas (24494) */
+     , (0x7017D037, 0x7017D01B, '2005-02-09 10:00:00') /* Extas Raider (8138) */
+     , (0x7017D037, 0x7017D01E, '2005-02-09 10:00:00') /* Gotrok Extas (24494) */
+     , (0x7017D037, 0x7017D01F, '2005-02-09 10:00:00') /* Gotrok Extas (24494) */
+     , (0x7017D037, 0x7017D020, '2005-02-09 10:00:00') /* Gotrok Montok (24955) */
+     , (0x7017D037, 0x7017D021, '2005-02-09 10:00:00') /* Gotrok Montok (24955) */
+     , (0x7017D037, 0x7017D022, '2005-02-09 10:00:00') /* Gotrok Montok (24955) */
+     , (0x7017D037, 0x7017D023, '2005-02-09 10:00:00') /* Burun Ruuk Ruffian (26016) */
+     , (0x7017D037, 0x7017D024, '2005-02-09 10:00:00') /* Burun Ruuk Ruffian (26016) */
+     , (0x7017D037, 0x7017D025, '2005-02-09 10:00:00') /* Burun Ruuk Ruffian (26016) */
+     , (0x7017D037, 0x7017D026, '2005-02-09 10:00:00') /* Burun Ruuk Adherent (26013) */
+     , (0x7017D037, 0x7017D027, '2005-02-09 10:00:00') /* Burun Ruuk Adherent (26013) */
+     , (0x7017D037, 0x7017D028, '2005-02-09 10:00:00') /* Gotrok Montok (24955) */
+     , (0x7017D037, 0x7017D029, '2005-02-09 10:00:00') /* Gotrok Montok (24955) */
+     , (0x7017D037, 0x7017D02A, '2005-02-09 10:00:00') /* Gotrok Montok (24955) */
+     , (0x7017D037, 0x7017D02B, '2005-02-09 10:00:00') /* Burun Ruuk Adherent (26013) */
+     , (0x7017D037, 0x7017D02C, '2005-02-09 10:00:00') /* Burun Ruuk Adherent (26013) */
+     , (0x7017D037, 0x7017D02D, '2005-02-09 10:00:00') /* Burun Ruuk Ruffian (26016) */
+     , (0x7017D037, 0x7017D02E, '2005-02-09 10:00:00') /* Burun Ruuk Ruffian (26016) */
+     , (0x7017D037, 0x7017D02F, '2005-02-09 10:00:00') /* Burun Ruuk Ruffian (26016) */
+     , (0x7017D037, 0x7017D030, '2005-02-09 10:00:00') /* Burun Ruuk Ruffian (26016) */
+     , (0x7017D037, 0x7017D031, '2005-02-09 10:00:00') /* Burun Ruuk Adherent (26013) */
+     , (0x7017D037, 0x7017D032, '2005-02-09 10:00:00') /* Burun Ruuk Adherent (26013) */
+     , (0x7017D037, 0x7017D033, '2005-02-09 10:00:00') /* Burun Ruuk Ruffian (26016) */
+     , (0x7017D037, 0x7017D034, '2005-02-09 10:00:00') /* Burun Ruuk Ruffian (26016) */
+     , (0x7017D037, 0x7017D035, '2005-02-09 10:00:00') /* Burun Ruuk Adherent (26013) */
+     , (0x7017D037, 0x7017D036, '2005-02-09 10:00:00') /* Burun Ruuk Ruffian (26016) */
+     , (0x7017D037, 0x7017D03E, '2005-02-09 10:00:00') /* Burun Ruuk Adherent (26013) */
+     , (0x7017D037, 0x7017D03F, '2005-02-09 10:00:00') /* Burun Ruuk Adherent (26013) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7017D038,  7924, 0x017D016D, 48.9603, -210, 0.005, 1, 0, 0, 0, False, '2005-02-09 10:00:00'); /* Linkable Monster Generator ( 5 Min.) */
 /* @teleloc 0x017D016D [48.960300 -210.000000 0.005000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7017D038, 0x7017D003, '2005-02-09 10:00:00') /* Tumerok Major */
-     , (0x7017D038, 0x7017D004, '2005-02-09 10:00:00') /* Gotrok Extas */
-     , (0x7017D038, 0x7017D005, '2005-02-09 10:00:00') /* Gotrok Extas */
-     , (0x7017D038, 0x7017D006, '2005-02-09 10:00:00') /* Burun Ruuk Ruffian */
-     , (0x7017D038, 0x7017D007, '2005-02-09 10:00:00') /* Burun Ruuk Adherent */
-     , (0x7017D038, 0x7017D008, '2005-02-09 10:00:00') /* Tumerok Major */
-     , (0x7017D038, 0x7017D009, '2005-02-09 10:00:00') /* Tumerok Major */
-     , (0x7017D038, 0x7017D00A, '2005-02-09 10:00:00') /* Tumerok Major */
-     , (0x7017D038, 0x7017D00B, '2005-02-09 10:00:00') /* Gotrok Extas */
-     , (0x7017D038, 0x7017D00C, '2005-02-09 10:00:00') /* Gotrok Extas */
-     , (0x7017D038, 0x7017D00D, '2005-02-09 10:00:00') /* Burun Ruuk Adherent */
-     , (0x7017D038, 0x7017D00E, '2005-02-09 10:00:00') /* Burun Ruuk Ruffian */
-     , (0x7017D038, 0x7017D010, '2005-02-09 10:00:00') /* Tumerok Major */
-     , (0x7017D038, 0x7017D014, '2005-02-09 10:00:00') /* Burun Ruuk Adherent */
-     , (0x7017D038, 0x7017D01C, '2005-02-09 10:00:00') /* Tumerok Major */
-     , (0x7017D038, 0x7017D03A, '2005-02-09 10:00:00') /* Burun Ruuk Ruffian */
-     , (0x7017D038, 0x7017D03B, '2005-02-09 10:00:00') /* Burun Ruuk Ruffian */
-     , (0x7017D038, 0x7017D03C, '2005-02-09 10:00:00') /* Burun Ruuk Adherent */
-     , (0x7017D038, 0x7017D03D, '2005-02-09 10:00:00') /* Burun Ruuk Ruffian */;
+VALUES (0x7017D038, 0x7017D003, '2005-02-09 10:00:00') /* Tumerok Major (23565) */
+     , (0x7017D038, 0x7017D004, '2005-02-09 10:00:00') /* Gotrok Extas (24494) */
+     , (0x7017D038, 0x7017D005, '2005-02-09 10:00:00') /* Gotrok Extas (24494) */
+     , (0x7017D038, 0x7017D006, '2005-02-09 10:00:00') /* Burun Ruuk Ruffian (26016) */
+     , (0x7017D038, 0x7017D007, '2005-02-09 10:00:00') /* Burun Ruuk Adherent (26013) */
+     , (0x7017D038, 0x7017D008, '2005-02-09 10:00:00') /* Tumerok Major (23565) */
+     , (0x7017D038, 0x7017D009, '2005-02-09 10:00:00') /* Tumerok Major (23565) */
+     , (0x7017D038, 0x7017D00A, '2005-02-09 10:00:00') /* Tumerok Major (23565) */
+     , (0x7017D038, 0x7017D00B, '2005-02-09 10:00:00') /* Gotrok Extas (24494) */
+     , (0x7017D038, 0x7017D00C, '2005-02-09 10:00:00') /* Gotrok Extas (24494) */
+     , (0x7017D038, 0x7017D00D, '2005-02-09 10:00:00') /* Burun Ruuk Adherent (26013) */
+     , (0x7017D038, 0x7017D00E, '2005-02-09 10:00:00') /* Burun Ruuk Ruffian (26016) */
+     , (0x7017D038, 0x7017D010, '2005-02-09 10:00:00') /* Tumerok Major (23565) */
+     , (0x7017D038, 0x7017D014, '2005-02-09 10:00:00') /* Burun Ruuk Adherent (26013) */
+     , (0x7017D038, 0x7017D01C, '2005-02-09 10:00:00') /* Tumerok Major (23565) */
+     , (0x7017D038, 0x7017D03A, '2005-02-09 10:00:00') /* Burun Ruuk Ruffian (26016) */
+     , (0x7017D038, 0x7017D03B, '2005-02-09 10:00:00') /* Burun Ruuk Ruffian (26016) */
+     , (0x7017D038, 0x7017D03C, '2005-02-09 10:00:00') /* Burun Ruuk Adherent (26013) */
+     , (0x7017D038, 0x7017D03D, '2005-02-09 10:00:00') /* Burun Ruuk Ruffian (26016) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7017D039, 28098, 0x017D016E, 50.0354, -216.454, 0.005, 0.010034, 0, 0, 0.99995, False, '2005-02-09 10:00:00'); /* Portal to Surface */

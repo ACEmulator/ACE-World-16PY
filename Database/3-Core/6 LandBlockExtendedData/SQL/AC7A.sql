@@ -93,17 +93,17 @@ VALUES (0x7AC7A016,  7925, 0xAC7A0000, 157.968, 33.4324, 30.841, -0.0701413, 0, 
 /* @teleloc 0xAC7A0000 [157.968000 33.432400 30.841000] -0.070141 0.000000 0.000000 -0.997537 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7AC7A016, 0x7AC7A017, '2005-02-09 10:00:00') /* Zharalim */
-     , (0x7AC7A016, 0x7AC7A018, '2005-02-09 10:00:00') /* Zharalim */
-     , (0x7AC7A016, 0x7AC7A019, '2005-02-09 10:00:00') /* Zharalim */
-     , (0x7AC7A016, 0x7AC7A01A, '2005-02-09 10:00:00') /* Zharalim */
-     , (0x7AC7A016, 0x7AC7A01B, '2005-02-09 10:00:00') /* Zharalim */
-     , (0x7AC7A016, 0x7AC7A01C, '2005-02-09 10:00:00') /* Zharalim */
-     , (0x7AC7A016, 0x7AC7A01D, '2005-02-09 10:00:00') /* Zharalim */
-     , (0x7AC7A016, 0x7AC7A01E, '2005-02-09 10:00:00') /* Zharalim */
-     , (0x7AC7A016, 0x7AC7A01F, '2005-02-09 10:00:00') /* Zharalim */
-     , (0x7AC7A016, 0x7AC7A020, '2005-02-09 10:00:00') /* Zharalim */
-     , (0x7AC7A016, 0x7AC7A021, '2005-02-09 10:00:00') /* Zharalim */;
+VALUES (0x7AC7A016, 0x7AC7A017, '2005-02-09 10:00:00') /* Zharalim (11506) */
+     , (0x7AC7A016, 0x7AC7A018, '2005-02-09 10:00:00') /* Zharalim (11506) */
+     , (0x7AC7A016, 0x7AC7A019, '2005-02-09 10:00:00') /* Zharalim (11506) */
+     , (0x7AC7A016, 0x7AC7A01A, '2005-02-09 10:00:00') /* Zharalim (11506) */
+     , (0x7AC7A016, 0x7AC7A01B, '2005-02-09 10:00:00') /* Zharalim (11506) */
+     , (0x7AC7A016, 0x7AC7A01C, '2005-02-09 10:00:00') /* Zharalim (11506) */
+     , (0x7AC7A016, 0x7AC7A01D, '2005-02-09 10:00:00') /* Zharalim (11506) */
+     , (0x7AC7A016, 0x7AC7A01E, '2005-02-09 10:00:00') /* Zharalim (11506) */
+     , (0x7AC7A016, 0x7AC7A01F, '2005-02-09 10:00:00') /* Zharalim (11506) */
+     , (0x7AC7A016, 0x7AC7A020, '2005-02-09 10:00:00') /* Zharalim (11506) */
+     , (0x7AC7A016, 0x7AC7A021, '2005-02-09 10:00:00') /* Zharalim (11506) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7AC7A017, 11506, 0xAC7A0000, 155.832, 29.8053, 31.019, -0.0701413, 0, 0, -0.997537,  True, '2005-02-09 10:00:00'); /* Zharalim */

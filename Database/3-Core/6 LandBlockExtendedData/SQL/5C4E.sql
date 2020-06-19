@@ -37,193 +37,193 @@ VALUES (0x75C4E008,  7924, 0x5C4E016B, 70, -70, -17.995, 1, 0, 0, 0, False, '200
 /* @teleloc 0x5C4E016B [70.000000 -70.000000 -17.995000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x75C4E008, 0x75C4E015, '2005-02-09 10:00:00') /* Restless Soul */
-     , (0x75C4E008, 0x75C4E016, '2005-02-09 10:00:00') /* Restless Soul */
-     , (0x75C4E008, 0x75C4E017, '2005-02-09 10:00:00') /* Restless Soul */
-     , (0x75C4E008, 0x75C4E01C, '2005-02-09 10:00:00') /* Restless Soul */
-     , (0x75C4E008, 0x75C4E01F, '2005-02-09 10:00:00') /* Restless Soul */
-     , (0x75C4E008, 0x75C4E020, '2005-02-09 10:00:00') /* Restless Soul */
-     , (0x75C4E008, 0x75C4E021, '2005-02-09 10:00:00') /* Restless Soul */
-     , (0x75C4E008, 0x75C4E026, '2005-02-09 10:00:00') /* Restless Soul */
-     , (0x75C4E008, 0x75C4E02E, '2005-02-09 10:00:00') /* Restless Soul */
-     , (0x75C4E008, 0x75C4E02F, '2005-02-09 10:00:00') /* Restless Soul */
-     , (0x75C4E008, 0x75C4E030, '2005-02-09 10:00:00') /* Restless Soul */
-     , (0x75C4E008, 0x75C4E031, '2005-02-09 10:00:00') /* Restless Soul */
-     , (0x75C4E008, 0x75C4E032, '2005-02-09 10:00:00') /* Restless Soul */
-     , (0x75C4E008, 0x75C4E035, '2005-02-09 10:00:00') /* Restless Soul */
-     , (0x75C4E008, 0x75C4E03A, '2005-02-09 10:00:00') /* Restless Soul */
-     , (0x75C4E008, 0x75C4E03B, '2005-02-09 10:00:00') /* Tormented Consort */
-     , (0x75C4E008, 0x75C4E03C, '2005-02-09 10:00:00') /* Tormented Consort */
-     , (0x75C4E008, 0x75C4E03F, '2005-02-09 10:00:00') /* Restless Soul */
-     , (0x75C4E008, 0x75C4E040, '2005-02-09 10:00:00') /* Restless Soul */
-     , (0x75C4E008, 0x75C4E041, '2005-02-09 10:00:00') /* Restless Soul */
-     , (0x75C4E008, 0x75C4E042, '2005-02-09 10:00:00') /* Restless Soul */
-     , (0x75C4E008, 0x75C4E043, '2005-02-09 10:00:00') /* Restless Soul */
-     , (0x75C4E008, 0x75C4E046, '2005-02-09 10:00:00') /* Restless Soul */
-     , (0x75C4E008, 0x75C4E047, '2005-02-09 10:00:00') /* Restless Soul */
-     , (0x75C4E008, 0x75C4E049, '2005-02-09 10:00:00') /* Tormented Consort */
-     , (0x75C4E008, 0x75C4E04E, '2005-02-09 10:00:00') /* Restless Soul */
-     , (0x75C4E008, 0x75C4E04F, '2005-02-09 10:00:00') /* Restless Soul */
-     , (0x75C4E008, 0x75C4E052, '2005-02-09 10:00:00') /* Restless Soul */
-     , (0x75C4E008, 0x75C4E053, '2005-02-09 10:00:00') /* Restless Soul */
-     , (0x75C4E008, 0x75C4E054, '2005-02-09 10:00:00') /* Tormented Consort */
-     , (0x75C4E008, 0x75C4E055, '2005-02-09 10:00:00') /* Tormented Consort */
-     , (0x75C4E008, 0x75C4E056, '2005-02-09 10:00:00') /* Restless Soul */
-     , (0x75C4E008, 0x75C4E057, '2005-02-09 10:00:00') /* Tormented Consort */
-     , (0x75C4E008, 0x75C4E058, '2005-02-09 10:00:00') /* Tormented Consort */
-     , (0x75C4E008, 0x75C4E059, '2005-02-09 10:00:00') /* Restless Soul */
-     , (0x75C4E008, 0x75C4E05E, '2005-02-09 10:00:00') /* Restless Soul */
-     , (0x75C4E008, 0x75C4E05F, '2005-02-09 10:00:00') /* Restless Soul */
-     , (0x75C4E008, 0x75C4E060, '2005-02-09 10:00:00') /* Restless Soul */
-     , (0x75C4E008, 0x75C4E085, '2005-02-09 10:00:00') /* Tormented Consort */
-     , (0x75C4E008, 0x75C4E086, '2005-02-09 10:00:00') /* Tormented Consort */;
+VALUES (0x75C4E008, 0x75C4E015, '2005-02-09 10:00:00') /* Restless Soul (27141) */
+     , (0x75C4E008, 0x75C4E016, '2005-02-09 10:00:00') /* Restless Soul (27141) */
+     , (0x75C4E008, 0x75C4E017, '2005-02-09 10:00:00') /* Restless Soul (27141) */
+     , (0x75C4E008, 0x75C4E01C, '2005-02-09 10:00:00') /* Restless Soul (27141) */
+     , (0x75C4E008, 0x75C4E01F, '2005-02-09 10:00:00') /* Restless Soul (27141) */
+     , (0x75C4E008, 0x75C4E020, '2005-02-09 10:00:00') /* Restless Soul (27141) */
+     , (0x75C4E008, 0x75C4E021, '2005-02-09 10:00:00') /* Restless Soul (27141) */
+     , (0x75C4E008, 0x75C4E026, '2005-02-09 10:00:00') /* Restless Soul (27141) */
+     , (0x75C4E008, 0x75C4E02E, '2005-02-09 10:00:00') /* Restless Soul (27141) */
+     , (0x75C4E008, 0x75C4E02F, '2005-02-09 10:00:00') /* Restless Soul (27141) */
+     , (0x75C4E008, 0x75C4E030, '2005-02-09 10:00:00') /* Restless Soul (27141) */
+     , (0x75C4E008, 0x75C4E031, '2005-02-09 10:00:00') /* Restless Soul (27141) */
+     , (0x75C4E008, 0x75C4E032, '2005-02-09 10:00:00') /* Restless Soul (27141) */
+     , (0x75C4E008, 0x75C4E035, '2005-02-09 10:00:00') /* Restless Soul (27141) */
+     , (0x75C4E008, 0x75C4E03A, '2005-02-09 10:00:00') /* Restless Soul (27141) */
+     , (0x75C4E008, 0x75C4E03B, '2005-02-09 10:00:00') /* Tormented Consort (27921) */
+     , (0x75C4E008, 0x75C4E03C, '2005-02-09 10:00:00') /* Tormented Consort (27921) */
+     , (0x75C4E008, 0x75C4E03F, '2005-02-09 10:00:00') /* Restless Soul (27141) */
+     , (0x75C4E008, 0x75C4E040, '2005-02-09 10:00:00') /* Restless Soul (27141) */
+     , (0x75C4E008, 0x75C4E041, '2005-02-09 10:00:00') /* Restless Soul (27141) */
+     , (0x75C4E008, 0x75C4E042, '2005-02-09 10:00:00') /* Restless Soul (27141) */
+     , (0x75C4E008, 0x75C4E043, '2005-02-09 10:00:00') /* Restless Soul (27141) */
+     , (0x75C4E008, 0x75C4E046, '2005-02-09 10:00:00') /* Restless Soul (27141) */
+     , (0x75C4E008, 0x75C4E047, '2005-02-09 10:00:00') /* Restless Soul (27141) */
+     , (0x75C4E008, 0x75C4E049, '2005-02-09 10:00:00') /* Tormented Consort (27921) */
+     , (0x75C4E008, 0x75C4E04E, '2005-02-09 10:00:00') /* Restless Soul (27141) */
+     , (0x75C4E008, 0x75C4E04F, '2005-02-09 10:00:00') /* Restless Soul (27141) */
+     , (0x75C4E008, 0x75C4E052, '2005-02-09 10:00:00') /* Restless Soul (27141) */
+     , (0x75C4E008, 0x75C4E053, '2005-02-09 10:00:00') /* Restless Soul (27141) */
+     , (0x75C4E008, 0x75C4E054, '2005-02-09 10:00:00') /* Tormented Consort (27921) */
+     , (0x75C4E008, 0x75C4E055, '2005-02-09 10:00:00') /* Tormented Consort (27921) */
+     , (0x75C4E008, 0x75C4E056, '2005-02-09 10:00:00') /* Restless Soul (27141) */
+     , (0x75C4E008, 0x75C4E057, '2005-02-09 10:00:00') /* Tormented Consort (27921) */
+     , (0x75C4E008, 0x75C4E058, '2005-02-09 10:00:00') /* Tormented Consort (27921) */
+     , (0x75C4E008, 0x75C4E059, '2005-02-09 10:00:00') /* Restless Soul (27141) */
+     , (0x75C4E008, 0x75C4E05E, '2005-02-09 10:00:00') /* Restless Soul (27141) */
+     , (0x75C4E008, 0x75C4E05F, '2005-02-09 10:00:00') /* Restless Soul (27141) */
+     , (0x75C4E008, 0x75C4E060, '2005-02-09 10:00:00') /* Restless Soul (27141) */
+     , (0x75C4E008, 0x75C4E085, '2005-02-09 10:00:00') /* Tormented Consort (27921) */
+     , (0x75C4E008, 0x75C4E086, '2005-02-09 10:00:00') /* Tormented Consort (27921) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75C4E009,  7924, 0x5C4E016B, 68.9314, -70, -17.995, 1, 0, 0, 0, False, '2005-02-09 10:00:00'); /* Linkable Monster Generator ( 5 Min.) */
 /* @teleloc 0x5C4E016B [68.931400 -70.000000 -17.995000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x75C4E009, 0x75C4E001, '2005-02-09 10:00:00') /* Tormented Consort */
-     , (0x75C4E009, 0x75C4E002, '2005-02-09 10:00:00') /* Tormented Consort */
-     , (0x75C4E009, 0x75C4E003, '2005-02-09 10:00:00') /* Restless Soul */
-     , (0x75C4E009, 0x75C4E004, '2005-02-09 10:00:00') /* Restless Soul */
-     , (0x75C4E009, 0x75C4E005, '2005-02-09 10:00:00') /* Tormented Consort */
-     , (0x75C4E009, 0x75C4E006, '2005-02-09 10:00:00') /* Tormented Consort */
-     , (0x75C4E009, 0x75C4E007, '2005-02-09 10:00:00') /* Restless Soul */
-     , (0x75C4E009, 0x75C4E00D, '2005-02-09 10:00:00') /* Restless Soul */
-     , (0x75C4E009, 0x75C4E00E, '2005-02-09 10:00:00') /* Tormented Consort */
-     , (0x75C4E009, 0x75C4E00F, '2005-02-09 10:00:00') /* Tormented Consort */
-     , (0x75C4E009, 0x75C4E010, '2005-02-09 10:00:00') /* Restless Soul */
-     , (0x75C4E009, 0x75C4E01D, '2005-02-09 10:00:00') /* Restless Soul */
-     , (0x75C4E009, 0x75C4E01E, '2005-02-09 10:00:00') /* Restless Soul */
-     , (0x75C4E009, 0x75C4E027, '2005-02-09 10:00:00') /* Restless Soul */
-     , (0x75C4E009, 0x75C4E028, '2005-02-09 10:00:00') /* Restless Soul */
-     , (0x75C4E009, 0x75C4E02D, '2005-02-09 10:00:00') /* Restless Soul */
-     , (0x75C4E009, 0x75C4E03D, '2005-02-09 10:00:00') /* Tormented Consort */
-     , (0x75C4E009, 0x75C4E03E, '2005-02-09 10:00:00') /* Tormented Consort */
-     , (0x75C4E009, 0x75C4E04A, '2005-02-09 10:00:00') /* Tormented Consort */
-     , (0x75C4E009, 0x75C4E04B, '2005-02-09 10:00:00') /* Tormented Consort */
-     , (0x75C4E009, 0x75C4E050, '2005-02-09 10:00:00') /* Tormented Consort */
-     , (0x75C4E009, 0x75C4E051, '2005-02-09 10:00:00') /* Tormented Consort */
-     , (0x75C4E009, 0x75C4E05A, '2005-02-09 10:00:00') /* Tormented Consort */
-     , (0x75C4E009, 0x75C4E05B, '2005-02-09 10:00:00') /* Tormented Consort */
-     , (0x75C4E009, 0x75C4E05C, '2005-02-09 10:00:00') /* Tormented Consort */
-     , (0x75C4E009, 0x75C4E05D, '2005-02-09 10:00:00') /* Tormented Consort */
-     , (0x75C4E009, 0x75C4E065, '2005-02-09 10:00:00') /* Tormented Consort */
-     , (0x75C4E009, 0x75C4E066, '2005-02-09 10:00:00') /* Tormented Consort */
-     , (0x75C4E009, 0x75C4E07C, '2005-02-09 10:00:00') /* Tormented Consort */
-     , (0x75C4E009, 0x75C4E07D, '2005-02-09 10:00:00') /* Tormented Consort */
-     , (0x75C4E009, 0x75C4E081, '2005-02-09 10:00:00') /* Tormented Consort */
-     , (0x75C4E009, 0x75C4E082, '2005-02-09 10:00:00') /* Tormented Consort */
-     , (0x75C4E009, 0x75C4E08C, '2005-02-09 10:00:00') /* Tormented Consort */
-     , (0x75C4E009, 0x75C4E08D, '2005-02-09 10:00:00') /* Tormented Consort */
-     , (0x75C4E009, 0x75C4E08E, '2005-02-09 10:00:00') /* Tormented Consort */
-     , (0x75C4E009, 0x75C4E08F, '2005-02-09 10:00:00') /* Tormented Consort */
-     , (0x75C4E009, 0x75C4E09A, '2005-02-09 10:00:00') /* Tormented Consort */
-     , (0x75C4E009, 0x75C4E09B, '2005-02-09 10:00:00') /* Tormented Consort */
-     , (0x75C4E009, 0x75C4E0A8, '2005-02-09 10:00:00') /* Tormented Consort */
-     , (0x75C4E009, 0x75C4E0A9, '2005-02-09 10:00:00') /* Tormented Consort */;
+VALUES (0x75C4E009, 0x75C4E001, '2005-02-09 10:00:00') /* Tormented Consort (27921) */
+     , (0x75C4E009, 0x75C4E002, '2005-02-09 10:00:00') /* Tormented Consort (27921) */
+     , (0x75C4E009, 0x75C4E003, '2005-02-09 10:00:00') /* Restless Soul (27141) */
+     , (0x75C4E009, 0x75C4E004, '2005-02-09 10:00:00') /* Restless Soul (27141) */
+     , (0x75C4E009, 0x75C4E005, '2005-02-09 10:00:00') /* Tormented Consort (27921) */
+     , (0x75C4E009, 0x75C4E006, '2005-02-09 10:00:00') /* Tormented Consort (27921) */
+     , (0x75C4E009, 0x75C4E007, '2005-02-09 10:00:00') /* Restless Soul (27141) */
+     , (0x75C4E009, 0x75C4E00D, '2005-02-09 10:00:00') /* Restless Soul (27141) */
+     , (0x75C4E009, 0x75C4E00E, '2005-02-09 10:00:00') /* Tormented Consort (27921) */
+     , (0x75C4E009, 0x75C4E00F, '2005-02-09 10:00:00') /* Tormented Consort (27921) */
+     , (0x75C4E009, 0x75C4E010, '2005-02-09 10:00:00') /* Restless Soul (27141) */
+     , (0x75C4E009, 0x75C4E01D, '2005-02-09 10:00:00') /* Restless Soul (27141) */
+     , (0x75C4E009, 0x75C4E01E, '2005-02-09 10:00:00') /* Restless Soul (27141) */
+     , (0x75C4E009, 0x75C4E027, '2005-02-09 10:00:00') /* Restless Soul (27141) */
+     , (0x75C4E009, 0x75C4E028, '2005-02-09 10:00:00') /* Restless Soul (27141) */
+     , (0x75C4E009, 0x75C4E02D, '2005-02-09 10:00:00') /* Restless Soul (27141) */
+     , (0x75C4E009, 0x75C4E03D, '2005-02-09 10:00:00') /* Tormented Consort (27921) */
+     , (0x75C4E009, 0x75C4E03E, '2005-02-09 10:00:00') /* Tormented Consort (27921) */
+     , (0x75C4E009, 0x75C4E04A, '2005-02-09 10:00:00') /* Tormented Consort (27921) */
+     , (0x75C4E009, 0x75C4E04B, '2005-02-09 10:00:00') /* Tormented Consort (27921) */
+     , (0x75C4E009, 0x75C4E050, '2005-02-09 10:00:00') /* Tormented Consort (27921) */
+     , (0x75C4E009, 0x75C4E051, '2005-02-09 10:00:00') /* Tormented Consort (27921) */
+     , (0x75C4E009, 0x75C4E05A, '2005-02-09 10:00:00') /* Tormented Consort (27921) */
+     , (0x75C4E009, 0x75C4E05B, '2005-02-09 10:00:00') /* Tormented Consort (27921) */
+     , (0x75C4E009, 0x75C4E05C, '2005-02-09 10:00:00') /* Tormented Consort (27921) */
+     , (0x75C4E009, 0x75C4E05D, '2005-02-09 10:00:00') /* Tormented Consort (27921) */
+     , (0x75C4E009, 0x75C4E065, '2005-02-09 10:00:00') /* Tormented Consort (27921) */
+     , (0x75C4E009, 0x75C4E066, '2005-02-09 10:00:00') /* Tormented Consort (27921) */
+     , (0x75C4E009, 0x75C4E07C, '2005-02-09 10:00:00') /* Tormented Consort (27921) */
+     , (0x75C4E009, 0x75C4E07D, '2005-02-09 10:00:00') /* Tormented Consort (27921) */
+     , (0x75C4E009, 0x75C4E081, '2005-02-09 10:00:00') /* Tormented Consort (27921) */
+     , (0x75C4E009, 0x75C4E082, '2005-02-09 10:00:00') /* Tormented Consort (27921) */
+     , (0x75C4E009, 0x75C4E08C, '2005-02-09 10:00:00') /* Tormented Consort (27921) */
+     , (0x75C4E009, 0x75C4E08D, '2005-02-09 10:00:00') /* Tormented Consort (27921) */
+     , (0x75C4E009, 0x75C4E08E, '2005-02-09 10:00:00') /* Tormented Consort (27921) */
+     , (0x75C4E009, 0x75C4E08F, '2005-02-09 10:00:00') /* Tormented Consort (27921) */
+     , (0x75C4E009, 0x75C4E09A, '2005-02-09 10:00:00') /* Tormented Consort (27921) */
+     , (0x75C4E009, 0x75C4E09B, '2005-02-09 10:00:00') /* Tormented Consort (27921) */
+     , (0x75C4E009, 0x75C4E0A8, '2005-02-09 10:00:00') /* Tormented Consort (27921) */
+     , (0x75C4E009, 0x75C4E0A9, '2005-02-09 10:00:00') /* Tormented Consort (27921) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75C4E00A,  7924, 0x5C4E016B, 71.0397, -70, -17.995, 1, 0, 0, 0, False, '2005-02-09 10:00:00'); /* Linkable Monster Generator ( 5 Min.) */
 /* @teleloc 0x5C4E016B [71.039700 -70.000000 -17.995000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x75C4E00A, 0x75C4E022, '2005-02-09 10:00:00') /* Tormented Consort */
-     , (0x75C4E00A, 0x75C4E023, '2005-02-09 10:00:00') /* Tormented Consort */
-     , (0x75C4E00A, 0x75C4E029, '2005-02-09 10:00:00') /* Tormented Consort */
-     , (0x75C4E00A, 0x75C4E02A, '2005-02-09 10:00:00') /* Tormented Consort */
-     , (0x75C4E00A, 0x75C4E02B, '2005-02-09 10:00:00') /* Tormented Consort */
-     , (0x75C4E00A, 0x75C4E02C, '2005-02-09 10:00:00') /* Tormented Consort */
-     , (0x75C4E00A, 0x75C4E036, '2005-02-09 10:00:00') /* Tormented Consort */
-     , (0x75C4E00A, 0x75C4E037, '2005-02-09 10:00:00') /* Tormented Consort */
-     , (0x75C4E00A, 0x75C4E038, '2005-02-09 10:00:00') /* Tormented Consort */
-     , (0x75C4E00A, 0x75C4E039, '2005-02-09 10:00:00') /* Tormented Consort */
-     , (0x75C4E00A, 0x75C4E044, '2005-02-09 10:00:00') /* Tormented Consort */
-     , (0x75C4E00A, 0x75C4E045, '2005-02-09 10:00:00') /* Tormented Consort */
-     , (0x75C4E00A, 0x75C4E04C, '2005-02-09 10:00:00') /* Tormented Consort */
-     , (0x75C4E00A, 0x75C4E04D, '2005-02-09 10:00:00') /* Tormented Consort */
-     , (0x75C4E00A, 0x75C4E063, '2005-02-09 10:00:00') /* Tormented Consort */
-     , (0x75C4E00A, 0x75C4E064, '2005-02-09 10:00:00') /* Tormented Consort */
-     , (0x75C4E00A, 0x75C4E069, '2005-02-09 10:00:00') /* Tormented Consort */
-     , (0x75C4E00A, 0x75C4E06A, '2005-02-09 10:00:00') /* Tormented Consort */
-     , (0x75C4E00A, 0x75C4E071, '2005-02-09 10:00:00') /* Tormented Consort */
-     , (0x75C4E00A, 0x75C4E072, '2005-02-09 10:00:00') /* Tormented Consort */
-     , (0x75C4E00A, 0x75C4E088, '2005-02-09 10:00:00') /* Tormented Consort */
-     , (0x75C4E00A, 0x75C4E089, '2005-02-09 10:00:00') /* Tormented Consort */
-     , (0x75C4E00A, 0x75C4E090, '2005-02-09 10:00:00') /* Restless Soul */
-     , (0x75C4E00A, 0x75C4E091, '2005-02-09 10:00:00') /* Restless Soul */
-     , (0x75C4E00A, 0x75C4E092, '2005-02-09 10:00:00') /* Restless Soul */
-     , (0x75C4E00A, 0x75C4E093, '2005-02-09 10:00:00') /* Restless Soul */
-     , (0x75C4E00A, 0x75C4E094, '2005-02-09 10:00:00') /* Restless Soul */
-     , (0x75C4E00A, 0x75C4E095, '2005-02-09 10:00:00') /* Restless Soul */
-     , (0x75C4E00A, 0x75C4E096, '2005-02-09 10:00:00') /* Restless Soul */
-     , (0x75C4E00A, 0x75C4E099, '2005-02-09 10:00:00') /* Restless Soul */
-     , (0x75C4E00A, 0x75C4E09F, '2005-02-09 10:00:00') /* Restless Soul */
-     , (0x75C4E00A, 0x75C4E0A0, '2005-02-09 10:00:00') /* Restless Soul */
-     , (0x75C4E00A, 0x75C4E0A1, '2005-02-09 10:00:00') /* Restless Soul */
-     , (0x75C4E00A, 0x75C4E0A4, '2005-02-09 10:00:00') /* Restless Soul */
-     , (0x75C4E00A, 0x75C4E0A5, '2005-02-09 10:00:00') /* Restless Soul */
-     , (0x75C4E00A, 0x75C4E0A6, '2005-02-09 10:00:00') /* Tormented Consort */
-     , (0x75C4E00A, 0x75C4E0A7, '2005-02-09 10:00:00') /* Tormented Consort */
-     , (0x75C4E00A, 0x75C4E0AA, '2005-02-09 10:00:00') /* Restless Soul */;
+VALUES (0x75C4E00A, 0x75C4E022, '2005-02-09 10:00:00') /* Tormented Consort (27921) */
+     , (0x75C4E00A, 0x75C4E023, '2005-02-09 10:00:00') /* Tormented Consort (27921) */
+     , (0x75C4E00A, 0x75C4E029, '2005-02-09 10:00:00') /* Tormented Consort (27921) */
+     , (0x75C4E00A, 0x75C4E02A, '2005-02-09 10:00:00') /* Tormented Consort (27921) */
+     , (0x75C4E00A, 0x75C4E02B, '2005-02-09 10:00:00') /* Tormented Consort (27921) */
+     , (0x75C4E00A, 0x75C4E02C, '2005-02-09 10:00:00') /* Tormented Consort (27921) */
+     , (0x75C4E00A, 0x75C4E036, '2005-02-09 10:00:00') /* Tormented Consort (27921) */
+     , (0x75C4E00A, 0x75C4E037, '2005-02-09 10:00:00') /* Tormented Consort (27921) */
+     , (0x75C4E00A, 0x75C4E038, '2005-02-09 10:00:00') /* Tormented Consort (27921) */
+     , (0x75C4E00A, 0x75C4E039, '2005-02-09 10:00:00') /* Tormented Consort (27921) */
+     , (0x75C4E00A, 0x75C4E044, '2005-02-09 10:00:00') /* Tormented Consort (27921) */
+     , (0x75C4E00A, 0x75C4E045, '2005-02-09 10:00:00') /* Tormented Consort (27921) */
+     , (0x75C4E00A, 0x75C4E04C, '2005-02-09 10:00:00') /* Tormented Consort (27921) */
+     , (0x75C4E00A, 0x75C4E04D, '2005-02-09 10:00:00') /* Tormented Consort (27921) */
+     , (0x75C4E00A, 0x75C4E063, '2005-02-09 10:00:00') /* Tormented Consort (27921) */
+     , (0x75C4E00A, 0x75C4E064, '2005-02-09 10:00:00') /* Tormented Consort (27921) */
+     , (0x75C4E00A, 0x75C4E069, '2005-02-09 10:00:00') /* Tormented Consort (27921) */
+     , (0x75C4E00A, 0x75C4E06A, '2005-02-09 10:00:00') /* Tormented Consort (27921) */
+     , (0x75C4E00A, 0x75C4E071, '2005-02-09 10:00:00') /* Tormented Consort (27921) */
+     , (0x75C4E00A, 0x75C4E072, '2005-02-09 10:00:00') /* Tormented Consort (27921) */
+     , (0x75C4E00A, 0x75C4E088, '2005-02-09 10:00:00') /* Tormented Consort (27921) */
+     , (0x75C4E00A, 0x75C4E089, '2005-02-09 10:00:00') /* Tormented Consort (27921) */
+     , (0x75C4E00A, 0x75C4E090, '2005-02-09 10:00:00') /* Restless Soul (27141) */
+     , (0x75C4E00A, 0x75C4E091, '2005-02-09 10:00:00') /* Restless Soul (27141) */
+     , (0x75C4E00A, 0x75C4E092, '2005-02-09 10:00:00') /* Restless Soul (27141) */
+     , (0x75C4E00A, 0x75C4E093, '2005-02-09 10:00:00') /* Restless Soul (27141) */
+     , (0x75C4E00A, 0x75C4E094, '2005-02-09 10:00:00') /* Restless Soul (27141) */
+     , (0x75C4E00A, 0x75C4E095, '2005-02-09 10:00:00') /* Restless Soul (27141) */
+     , (0x75C4E00A, 0x75C4E096, '2005-02-09 10:00:00') /* Restless Soul (27141) */
+     , (0x75C4E00A, 0x75C4E099, '2005-02-09 10:00:00') /* Restless Soul (27141) */
+     , (0x75C4E00A, 0x75C4E09F, '2005-02-09 10:00:00') /* Restless Soul (27141) */
+     , (0x75C4E00A, 0x75C4E0A0, '2005-02-09 10:00:00') /* Restless Soul (27141) */
+     , (0x75C4E00A, 0x75C4E0A1, '2005-02-09 10:00:00') /* Restless Soul (27141) */
+     , (0x75C4E00A, 0x75C4E0A4, '2005-02-09 10:00:00') /* Restless Soul (27141) */
+     , (0x75C4E00A, 0x75C4E0A5, '2005-02-09 10:00:00') /* Restless Soul (27141) */
+     , (0x75C4E00A, 0x75C4E0A6, '2005-02-09 10:00:00') /* Tormented Consort (27921) */
+     , (0x75C4E00A, 0x75C4E0A7, '2005-02-09 10:00:00') /* Tormented Consort (27921) */
+     , (0x75C4E00A, 0x75C4E0AA, '2005-02-09 10:00:00') /* Restless Soul (27141) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75C4E00B,  7924, 0x5C4E016B, 67.8087, -70, -17.995, 1, 0, 0, 0, False, '2005-02-09 10:00:00'); /* Linkable Monster Generator ( 5 Min.) */
 /* @teleloc 0x5C4E016B [67.808700 -70.000000 -17.995000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x75C4E00B, 0x75C4E011, '2005-02-09 10:00:00') /* Tormented Consort */
-     , (0x75C4E00B, 0x75C4E012, '2005-02-09 10:00:00') /* Tormented Consort */
-     , (0x75C4E00B, 0x75C4E013, '2005-02-09 10:00:00') /* Tormented Consort */
-     , (0x75C4E00B, 0x75C4E014, '2005-02-09 10:00:00') /* Tormented Consort */
-     , (0x75C4E00B, 0x75C4E018, '2005-02-09 10:00:00') /* Tormented Consort */
-     , (0x75C4E00B, 0x75C4E019, '2005-02-09 10:00:00') /* Tormented Consort */
-     , (0x75C4E00B, 0x75C4E01A, '2005-02-09 10:00:00') /* Tormented Consort */
-     , (0x75C4E00B, 0x75C4E01B, '2005-02-09 10:00:00') /* Tormented Consort */
-     , (0x75C4E00B, 0x75C4E024, '2005-02-09 10:00:00') /* Tormented Consort */
-     , (0x75C4E00B, 0x75C4E025, '2005-02-09 10:00:00') /* Tormented Consort */
-     , (0x75C4E00B, 0x75C4E033, '2005-02-09 10:00:00') /* Tormented Consort */
-     , (0x75C4E00B, 0x75C4E034, '2005-02-09 10:00:00') /* Tormented Consort */
-     , (0x75C4E00B, 0x75C4E048, '2005-02-09 10:00:00') /* Tormented Consort */
-     , (0x75C4E00B, 0x75C4E061, '2005-02-09 10:00:00') /* Restless Soul */
-     , (0x75C4E00B, 0x75C4E062, '2005-02-09 10:00:00') /* Restless Soul */
-     , (0x75C4E00B, 0x75C4E067, '2005-02-09 10:00:00') /* Restless Soul */
-     , (0x75C4E00B, 0x75C4E068, '2005-02-09 10:00:00') /* Restless Soul */
-     , (0x75C4E00B, 0x75C4E06B, '2005-02-09 10:00:00') /* Restless Soul */
-     , (0x75C4E00B, 0x75C4E06C, '2005-02-09 10:00:00') /* Restless Soul */
-     , (0x75C4E00B, 0x75C4E06D, '2005-02-09 10:00:00') /* Restless Soul */
-     , (0x75C4E00B, 0x75C4E06E, '2005-02-09 10:00:00') /* Restless Soul */
-     , (0x75C4E00B, 0x75C4E06F, '2005-02-09 10:00:00') /* Restless Soul */
-     , (0x75C4E00B, 0x75C4E070, '2005-02-09 10:00:00') /* Restless Soul */
-     , (0x75C4E00B, 0x75C4E073, '2005-02-09 10:00:00') /* Restless Soul */
-     , (0x75C4E00B, 0x75C4E074, '2005-02-09 10:00:00') /* Restless Soul */
-     , (0x75C4E00B, 0x75C4E077, '2005-02-09 10:00:00') /* Restless Soul */
-     , (0x75C4E00B, 0x75C4E078, '2005-02-09 10:00:00') /* Restless Soul */
-     , (0x75C4E00B, 0x75C4E079, '2005-02-09 10:00:00') /* Restless Soul */
-     , (0x75C4E00B, 0x75C4E07A, '2005-02-09 10:00:00') /* Restless Soul */
-     , (0x75C4E00B, 0x75C4E07B, '2005-02-09 10:00:00') /* Restless Soul */
-     , (0x75C4E00B, 0x75C4E07E, '2005-02-09 10:00:00') /* Restless Soul */
-     , (0x75C4E00B, 0x75C4E07F, '2005-02-09 10:00:00') /* Tormented Consort */
-     , (0x75C4E00B, 0x75C4E080, '2005-02-09 10:00:00') /* Tormented Consort */
-     , (0x75C4E00B, 0x75C4E083, '2005-02-09 10:00:00') /* Restless Soul */
-     , (0x75C4E00B, 0x75C4E084, '2005-02-09 10:00:00') /* Restless Soul */
-     , (0x75C4E00B, 0x75C4E087, '2005-02-09 10:00:00') /* Restless Soul */
-     , (0x75C4E00B, 0x75C4E08A, '2005-02-09 10:00:00') /* Restless Soul */
-     , (0x75C4E00B, 0x75C4E08B, '2005-02-09 10:00:00') /* Restless Soul */
-     , (0x75C4E00B, 0x75C4E097, '2005-02-09 10:00:00') /* Tormented Consort */
-     , (0x75C4E00B, 0x75C4E098, '2005-02-09 10:00:00') /* Tormented Consort */
-     , (0x75C4E00B, 0x75C4E09D, '2005-02-09 10:00:00') /* Restless Soul */
-     , (0x75C4E00B, 0x75C4E09E, '2005-02-09 10:00:00') /* Restless Soul */
-     , (0x75C4E00B, 0x75C4E0A2, '2005-02-09 10:00:00') /* Restless Soul */
-     , (0x75C4E00B, 0x75C4E0A3, '2005-02-09 10:00:00') /* Restless Soul */;
+VALUES (0x75C4E00B, 0x75C4E011, '2005-02-09 10:00:00') /* Tormented Consort (27921) */
+     , (0x75C4E00B, 0x75C4E012, '2005-02-09 10:00:00') /* Tormented Consort (27921) */
+     , (0x75C4E00B, 0x75C4E013, '2005-02-09 10:00:00') /* Tormented Consort (27921) */
+     , (0x75C4E00B, 0x75C4E014, '2005-02-09 10:00:00') /* Tormented Consort (27921) */
+     , (0x75C4E00B, 0x75C4E018, '2005-02-09 10:00:00') /* Tormented Consort (27921) */
+     , (0x75C4E00B, 0x75C4E019, '2005-02-09 10:00:00') /* Tormented Consort (27921) */
+     , (0x75C4E00B, 0x75C4E01A, '2005-02-09 10:00:00') /* Tormented Consort (27921) */
+     , (0x75C4E00B, 0x75C4E01B, '2005-02-09 10:00:00') /* Tormented Consort (27921) */
+     , (0x75C4E00B, 0x75C4E024, '2005-02-09 10:00:00') /* Tormented Consort (27921) */
+     , (0x75C4E00B, 0x75C4E025, '2005-02-09 10:00:00') /* Tormented Consort (27921) */
+     , (0x75C4E00B, 0x75C4E033, '2005-02-09 10:00:00') /* Tormented Consort (27921) */
+     , (0x75C4E00B, 0x75C4E034, '2005-02-09 10:00:00') /* Tormented Consort (27921) */
+     , (0x75C4E00B, 0x75C4E048, '2005-02-09 10:00:00') /* Tormented Consort (27921) */
+     , (0x75C4E00B, 0x75C4E061, '2005-02-09 10:00:00') /* Restless Soul (27141) */
+     , (0x75C4E00B, 0x75C4E062, '2005-02-09 10:00:00') /* Restless Soul (27141) */
+     , (0x75C4E00B, 0x75C4E067, '2005-02-09 10:00:00') /* Restless Soul (27141) */
+     , (0x75C4E00B, 0x75C4E068, '2005-02-09 10:00:00') /* Restless Soul (27141) */
+     , (0x75C4E00B, 0x75C4E06B, '2005-02-09 10:00:00') /* Restless Soul (27141) */
+     , (0x75C4E00B, 0x75C4E06C, '2005-02-09 10:00:00') /* Restless Soul (27141) */
+     , (0x75C4E00B, 0x75C4E06D, '2005-02-09 10:00:00') /* Restless Soul (27141) */
+     , (0x75C4E00B, 0x75C4E06E, '2005-02-09 10:00:00') /* Restless Soul (27141) */
+     , (0x75C4E00B, 0x75C4E06F, '2005-02-09 10:00:00') /* Restless Soul (27141) */
+     , (0x75C4E00B, 0x75C4E070, '2005-02-09 10:00:00') /* Restless Soul (27141) */
+     , (0x75C4E00B, 0x75C4E073, '2005-02-09 10:00:00') /* Restless Soul (27141) */
+     , (0x75C4E00B, 0x75C4E074, '2005-02-09 10:00:00') /* Restless Soul (27141) */
+     , (0x75C4E00B, 0x75C4E077, '2005-02-09 10:00:00') /* Restless Soul (27141) */
+     , (0x75C4E00B, 0x75C4E078, '2005-02-09 10:00:00') /* Restless Soul (27141) */
+     , (0x75C4E00B, 0x75C4E079, '2005-02-09 10:00:00') /* Restless Soul (27141) */
+     , (0x75C4E00B, 0x75C4E07A, '2005-02-09 10:00:00') /* Restless Soul (27141) */
+     , (0x75C4E00B, 0x75C4E07B, '2005-02-09 10:00:00') /* Restless Soul (27141) */
+     , (0x75C4E00B, 0x75C4E07E, '2005-02-09 10:00:00') /* Restless Soul (27141) */
+     , (0x75C4E00B, 0x75C4E07F, '2005-02-09 10:00:00') /* Tormented Consort (27921) */
+     , (0x75C4E00B, 0x75C4E080, '2005-02-09 10:00:00') /* Tormented Consort (27921) */
+     , (0x75C4E00B, 0x75C4E083, '2005-02-09 10:00:00') /* Restless Soul (27141) */
+     , (0x75C4E00B, 0x75C4E084, '2005-02-09 10:00:00') /* Restless Soul (27141) */
+     , (0x75C4E00B, 0x75C4E087, '2005-02-09 10:00:00') /* Restless Soul (27141) */
+     , (0x75C4E00B, 0x75C4E08A, '2005-02-09 10:00:00') /* Restless Soul (27141) */
+     , (0x75C4E00B, 0x75C4E08B, '2005-02-09 10:00:00') /* Restless Soul (27141) */
+     , (0x75C4E00B, 0x75C4E097, '2005-02-09 10:00:00') /* Tormented Consort (27921) */
+     , (0x75C4E00B, 0x75C4E098, '2005-02-09 10:00:00') /* Tormented Consort (27921) */
+     , (0x75C4E00B, 0x75C4E09D, '2005-02-09 10:00:00') /* Restless Soul (27141) */
+     , (0x75C4E00B, 0x75C4E09E, '2005-02-09 10:00:00') /* Restless Soul (27141) */
+     , (0x75C4E00B, 0x75C4E0A2, '2005-02-09 10:00:00') /* Restless Soul (27141) */
+     , (0x75C4E00B, 0x75C4E0A3, '2005-02-09 10:00:00') /* Restless Soul (27141) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75C4E00C, 15759, 0x5C4E016B, 72.237, -70, -17.995, 1, 0, 0, 0, False, '2005-02-09 10:00:00'); /* Linkable Item Generator */
 /* @teleloc 0x5C4E016B [72.237000 -70.000000 -17.995000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x75C4E00C, 0x75C4E09C, '2005-02-09 10:00:00') /* Ancient Enchanted Philter */;
+VALUES (0x75C4E00C, 0x75C4E09C, '2005-02-09 10:00:00') /* Ancient Enchanted Philter (27915) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75C4E00D, 27141, 0x5C4E0189, 100, -120, -17.945, 0.921061, 0, 0, -0.389418,  True, '2005-02-09 10:00:00'); /* Restless Soul */
@@ -646,7 +646,7 @@ VALUES (0x75C4E075,  7923, 0x5C4E0605, 70.0051, -67.872, 0.005, -0.003494, 0, 0,
 /* @teleloc 0x5C4E0605 [70.005100 -67.872000 0.005000] -0.003494 0.000000 0.000000 0.999994 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x75C4E075, 0x75C4E076, '2005-02-09 10:00:00') /* Guardian */;
+VALUES (0x75C4E075, 0x75C4E076, '2005-02-09 10:00:00') /* Guardian (27957) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75C4E076, 27957, 0x5C4E0605, 70, -70, 0.005, 0, 0, 0, -1,  True, '2005-02-09 10:00:00'); /* Guardian */

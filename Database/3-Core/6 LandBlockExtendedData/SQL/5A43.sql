@@ -25,18 +25,18 @@ VALUES (0x75A43009,  7924, 0x5A43014A, 49.0304, -0.281438, 6.005, 0.0207946, 0, 
 /* @teleloc 0x5A43014A [49.030400 -0.281438 6.005000] 0.020795 0.000000 0.000000 0.999784 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x75A43009, 0x75A43002, '2005-02-09 10:00:00') /* Pyreal Golem */
-     , (0x75A43009, 0x75A43004, '2005-02-09 10:00:00') /* Plasma Golem */
-     , (0x75A43009, 0x75A43005, '2005-02-09 10:00:00') /* Blizzard */
-     , (0x75A43009, 0x75A43006, '2005-02-09 10:00:00') /* Astyrrian */
-     , (0x75A43009, 0x75A43008, '2005-02-09 10:00:00') /* Plasma Golem */
-     , (0x75A43009, 0x75A43011, '2005-02-09 10:00:00') /* Blizzard */
-     , (0x75A43009, 0x75A43012, '2005-02-09 10:00:00') /* Blizzard */
-     , (0x75A43009, 0x75A43013, '2005-02-09 10:00:00') /* Blizzard */
-     , (0x75A43009, 0x75A43014, '2005-02-09 10:00:00') /* Blizzard */
-     , (0x75A43009, 0x75A43015, '2005-02-09 10:00:00') /* Diamond Golem */
-     , (0x75A43009, 0x75A43016, '2005-02-09 10:00:00') /* Avalanche */
-     , (0x75A43009, 0x75A43019, '2005-02-09 10:00:00') /* Pyreal Golem */;
+VALUES (0x75A43009, 0x75A43002, '2005-02-09 10:00:00') /* Pyreal Golem (14520) */
+     , (0x75A43009, 0x75A43004, '2005-02-09 10:00:00') /* Plasma Golem (7098) */
+     , (0x75A43009, 0x75A43005, '2005-02-09 10:00:00') /* Blizzard (19538) */
+     , (0x75A43009, 0x75A43006, '2005-02-09 10:00:00') /* Astyrrian (6379) */
+     , (0x75A43009, 0x75A43008, '2005-02-09 10:00:00') /* Plasma Golem (7098) */
+     , (0x75A43009, 0x75A43011, '2005-02-09 10:00:00') /* Blizzard (19538) */
+     , (0x75A43009, 0x75A43012, '2005-02-09 10:00:00') /* Blizzard (19538) */
+     , (0x75A43009, 0x75A43013, '2005-02-09 10:00:00') /* Blizzard (19538) */
+     , (0x75A43009, 0x75A43014, '2005-02-09 10:00:00') /* Blizzard (19538) */
+     , (0x75A43009, 0x75A43015, '2005-02-09 10:00:00') /* Diamond Golem (4216) */
+     , (0x75A43009, 0x75A43016, '2005-02-09 10:00:00') /* Avalanche (19537) */
+     , (0x75A43009, 0x75A43019, '2005-02-09 10:00:00') /* Pyreal Golem (14520) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75A43011, 19538, 0x5A430110, 10.2064, -17.8563, -5.993, -0.035774, 0, 0, -0.99936,  True, '2005-02-09 10:00:00'); /* Blizzard */
@@ -67,7 +67,7 @@ VALUES (0x75A43017,  3955, 0x5A430103, 10, -57.8663, -11.995, 1, 0, 0, 0, False,
 /* @teleloc 0x5A430103 [10.000000 -57.866300 -11.995000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x75A43017, 0x75A43018, '2005-02-09 10:00:00') /* Diamond Golem Suzerain */;
+VALUES (0x75A43017, 0x75A43018, '2005-02-09 10:00:00') /* Diamond Golem Suzerain (22002) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75A43018, 22002, 0x5A430103, 9.70693, -57.509, -11.9825, -0.999977, 0, 0, -0.00671041,  True, '2005-02-09 10:00:00'); /* Diamond Golem Suzerain */

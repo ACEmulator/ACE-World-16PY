@@ -61,8 +61,8 @@ VALUES (0x7DA3B00E,  1154, 0xDA3B010F, 106.534, 89.5565, 6.805, -0.712275, 0, 0,
 /* @teleloc 0xDA3B010F [106.534000 89.556500 6.805000] -0.712275 0.000000 0.000000 0.701901 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7DA3B00E, 0x7DA3B00D, '2005-02-09 10:00:00') /* Wing Collector */
-     , (0x7DA3B00E, 0x7DA3B015, '2005-02-09 10:00:00') /* Collector */;
+VALUES (0x7DA3B00E, 0x7DA3B00D, '2005-02-09 10:00:00') /* Wing Collector (3924) */
+     , (0x7DA3B00E, 0x7DA3B015, '2005-02-09 10:00:00') /* Collector (3918) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7DA3B00F,  4540, 0xDA3B0128, 176.886, 28.7303, 0.005, -0.999261, 0, 0, -0.0384474, False, '2005-02-09 10:00:00'); /* Bu-Chi Long the Armorer */
@@ -157,8 +157,8 @@ VALUES (0x7DA3B02E,  7923, 0xDA3B0120, 158.445, 90.2908, 4.405, 0.323358, 0, 0, 
 /* @teleloc 0xDA3B0120 [158.445000 90.290800 4.405000] 0.323358 0.000000 0.000000 -0.946277 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7DA3B02E, 0x7DA3B02D, '2005-02-09 10:00:00') /* Tian Li Quan */
-     , (0x7DA3B02E, 0x7DA3B030, '2005-02-09 10:00:00') /* Jojii Shrine */;
+VALUES (0x7DA3B02E, 0x7DA3B02D, '2005-02-09 10:00:00') /* Tian Li Quan (23350) */
+     , (0x7DA3B02E, 0x7DA3B030, '2005-02-09 10:00:00') /* Jojii Shrine (25829) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7DA3B02F, 23631, 0xDA3B0000, 147.325, 56.6054, 79.034, 0.704963, 0, 0, -0.709244, False, '2005-02-09 10:00:00'); /* April 2003 Raining Mad Cows Gen */

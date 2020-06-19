@@ -313,38 +313,38 @@ VALUES (0x7027D04E,  7924, 0x027D02AB, 119.541, -33.9382, 0.005, 0.99576, 0, 0, 
 /* @teleloc 0x027D02AB [119.541000 -33.938200 0.005000] 0.995760 0.000000 0.000000 0.091985 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7027D04E, 0x7027D015, '2005-02-09 10:00:00') /* Olthoi Eviscerator */
-     , (0x7027D04E, 0x7027D016, '2005-02-09 10:00:00') /* Olthoi Eviscerator */
-     , (0x7027D04E, 0x7027D019, '2005-02-09 10:00:00') /* Olthoi Eviscerator */
-     , (0x7027D04E, 0x7027D021, '2005-02-09 10:00:00') /* Olthoi Eviscerator */
-     , (0x7027D04E, 0x7027D022, '2005-02-09 10:00:00') /* Olthoi Eviscerator */
-     , (0x7027D04E, 0x7027D023, '2005-02-09 10:00:00') /* Olthoi Eviscerator */
-     , (0x7027D04E, 0x7027D024, '2005-02-09 10:00:00') /* Olthoi Eviscerator */
-     , (0x7027D04E, 0x7027D025, '2005-02-09 10:00:00') /* Olthoi Eviscerator */
-     , (0x7027D04E, 0x7027D026, '2005-02-09 10:00:00') /* Olthoi Eviscerator */
-     , (0x7027D04E, 0x7027D027, '2005-02-09 10:00:00') /* Olthoi Eviscerator */
-     , (0x7027D04E, 0x7027D02A, '2005-02-09 10:00:00') /* Olthoi Eviscerator */
-     , (0x7027D04E, 0x7027D02C, '2005-02-09 10:00:00') /* Olthoi Eviscerator */
-     , (0x7027D04E, 0x7027D02E, '2005-02-09 10:00:00') /* Olthoi Eviscerator */
-     , (0x7027D04E, 0x7027D030, '2005-02-09 10:00:00') /* Olthoi Eviscerator */
-     , (0x7027D04E, 0x7027D032, '2005-02-09 10:00:00') /* Olthoi Eviscerator */
-     , (0x7027D04E, 0x7027D033, '2005-02-09 10:00:00') /* Olthoi Eviscerator */
-     , (0x7027D04E, 0x7027D034, '2005-02-09 10:00:00') /* Olthoi Eviscerator */
-     , (0x7027D04E, 0x7027D035, '2005-02-09 10:00:00') /* Olthoi Eviscerator */
-     , (0x7027D04E, 0x7027D037, '2005-02-09 10:00:00') /* Olthoi Eviscerator */
-     , (0x7027D04E, 0x7027D039, '2005-02-09 10:00:00') /* Olthoi Eviscerator */
-     , (0x7027D04E, 0x7027D03A, '2005-02-09 10:00:00') /* Olthoi Eviscerator */
-     , (0x7027D04E, 0x7027D03B, '2005-02-09 10:00:00') /* Olthoi Eviscerator */
-     , (0x7027D04E, 0x7027D03D, '2005-02-09 10:00:00') /* Olthoi Eviscerator */
-     , (0x7027D04E, 0x7027D03E, '2005-02-09 10:00:00') /* Olthoi Eviscerator */
-     , (0x7027D04E, 0x7027D040, '2005-02-09 10:00:00') /* Olthoi Eviscerator */
-     , (0x7027D04E, 0x7027D041, '2005-02-09 10:00:00') /* Olthoi Eviscerator */
-     , (0x7027D04E, 0x7027D042, '2005-02-09 10:00:00') /* Olthoi Eviscerator */
-     , (0x7027D04E, 0x7027D044, '2005-02-09 10:00:00') /* Olthoi Eviscerator */
-     , (0x7027D04E, 0x7027D046, '2005-02-09 10:00:00') /* Olthoi Eviscerator */
-     , (0x7027D04E, 0x7027D047, '2005-02-09 10:00:00') /* Olthoi Eviscerator */
-     , (0x7027D04E, 0x7027D048, '2005-02-09 10:00:00') /* Olthoi Eviscerator */
-     , (0x7027D04E, 0x7027D04B, '2005-02-09 10:00:00') /* Olthoi Eviscerator */;
+VALUES (0x7027D04E, 0x7027D015, '2005-02-09 10:00:00') /* Olthoi Eviscerator (11478) */
+     , (0x7027D04E, 0x7027D016, '2005-02-09 10:00:00') /* Olthoi Eviscerator (11478) */
+     , (0x7027D04E, 0x7027D019, '2005-02-09 10:00:00') /* Olthoi Eviscerator (11478) */
+     , (0x7027D04E, 0x7027D021, '2005-02-09 10:00:00') /* Olthoi Eviscerator (11478) */
+     , (0x7027D04E, 0x7027D022, '2005-02-09 10:00:00') /* Olthoi Eviscerator (11478) */
+     , (0x7027D04E, 0x7027D023, '2005-02-09 10:00:00') /* Olthoi Eviscerator (11478) */
+     , (0x7027D04E, 0x7027D024, '2005-02-09 10:00:00') /* Olthoi Eviscerator (11478) */
+     , (0x7027D04E, 0x7027D025, '2005-02-09 10:00:00') /* Olthoi Eviscerator (11478) */
+     , (0x7027D04E, 0x7027D026, '2005-02-09 10:00:00') /* Olthoi Eviscerator (11478) */
+     , (0x7027D04E, 0x7027D027, '2005-02-09 10:00:00') /* Olthoi Eviscerator (11478) */
+     , (0x7027D04E, 0x7027D02A, '2005-02-09 10:00:00') /* Olthoi Eviscerator (11478) */
+     , (0x7027D04E, 0x7027D02C, '2005-02-09 10:00:00') /* Olthoi Eviscerator (11478) */
+     , (0x7027D04E, 0x7027D02E, '2005-02-09 10:00:00') /* Olthoi Eviscerator (11478) */
+     , (0x7027D04E, 0x7027D030, '2005-02-09 10:00:00') /* Olthoi Eviscerator (11478) */
+     , (0x7027D04E, 0x7027D032, '2005-02-09 10:00:00') /* Olthoi Eviscerator (11478) */
+     , (0x7027D04E, 0x7027D033, '2005-02-09 10:00:00') /* Olthoi Eviscerator (11478) */
+     , (0x7027D04E, 0x7027D034, '2005-02-09 10:00:00') /* Olthoi Eviscerator (11478) */
+     , (0x7027D04E, 0x7027D035, '2005-02-09 10:00:00') /* Olthoi Eviscerator (11478) */
+     , (0x7027D04E, 0x7027D037, '2005-02-09 10:00:00') /* Olthoi Eviscerator (11478) */
+     , (0x7027D04E, 0x7027D039, '2005-02-09 10:00:00') /* Olthoi Eviscerator (11478) */
+     , (0x7027D04E, 0x7027D03A, '2005-02-09 10:00:00') /* Olthoi Eviscerator (11478) */
+     , (0x7027D04E, 0x7027D03B, '2005-02-09 10:00:00') /* Olthoi Eviscerator (11478) */
+     , (0x7027D04E, 0x7027D03D, '2005-02-09 10:00:00') /* Olthoi Eviscerator (11478) */
+     , (0x7027D04E, 0x7027D03E, '2005-02-09 10:00:00') /* Olthoi Eviscerator (11478) */
+     , (0x7027D04E, 0x7027D040, '2005-02-09 10:00:00') /* Olthoi Eviscerator (11478) */
+     , (0x7027D04E, 0x7027D041, '2005-02-09 10:00:00') /* Olthoi Eviscerator (11478) */
+     , (0x7027D04E, 0x7027D042, '2005-02-09 10:00:00') /* Olthoi Eviscerator (11478) */
+     , (0x7027D04E, 0x7027D044, '2005-02-09 10:00:00') /* Olthoi Eviscerator (11478) */
+     , (0x7027D04E, 0x7027D046, '2005-02-09 10:00:00') /* Olthoi Eviscerator (11478) */
+     , (0x7027D04E, 0x7027D047, '2005-02-09 10:00:00') /* Olthoi Eviscerator (11478) */
+     , (0x7027D04E, 0x7027D048, '2005-02-09 10:00:00') /* Olthoi Eviscerator (11478) */
+     , (0x7027D04E, 0x7027D04B, '2005-02-09 10:00:00') /* Olthoi Eviscerator (11478) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7027D050,  5624, 0x027D02AD, 119.97, -45.2638, 0.005, 0, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Door */
@@ -355,27 +355,27 @@ VALUES (0x7027D051,  7924, 0x027D02BF, 125.672, -32.6927, 0.005, 0.960743, 0, 0,
 /* @teleloc 0x027D02BF [125.672000 -32.692700 0.005000] 0.960743 0.000000 0.000000 0.277441 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7027D051, 0x7027D000, '2005-02-09 10:00:00') /* Olthoi Eviscerator */
-     , (0x7027D051, 0x7027D001, '2005-02-09 10:00:00') /* Olthoi Eviscerator */
-     , (0x7027D051, 0x7027D002, '2005-02-09 10:00:00') /* Olthoi Eviscerator */
-     , (0x7027D051, 0x7027D003, '2005-02-09 10:00:00') /* Olthoi Eviscerator */
-     , (0x7027D051, 0x7027D007, '2005-02-09 10:00:00') /* Olthoi Eviscerator */
-     , (0x7027D051, 0x7027D00A, '2005-02-09 10:00:00') /* Olthoi Eviscerator */
-     , (0x7027D051, 0x7027D00C, '2005-02-09 10:00:00') /* Olthoi Eviscerator */
-     , (0x7027D051, 0x7027D00E, '2005-02-09 10:00:00') /* Olthoi Eviscerator */
-     , (0x7027D051, 0x7027D00F, '2005-02-09 10:00:00') /* Olthoi Eviscerator */
-     , (0x7027D051, 0x7027D012, '2005-02-09 10:00:00') /* Olthoi Eviscerator */
-     , (0x7027D051, 0x7027D013, '2005-02-09 10:00:00') /* Olthoi Eviscerator */
-     , (0x7027D051, 0x7027D017, '2005-02-09 10:00:00') /* Olthoi Eviscerator */
-     , (0x7027D051, 0x7027D018, '2005-02-09 10:00:00') /* Olthoi Eviscerator */
-     , (0x7027D051, 0x7027D01A, '2005-02-09 10:00:00') /* Olthoi Eviscerator */
-     , (0x7027D051, 0x7027D01B, '2005-02-09 10:00:00') /* Olthoi Eviscerator */
-     , (0x7027D051, 0x7027D01C, '2005-02-09 10:00:00') /* Olthoi Eviscerator */
-     , (0x7027D051, 0x7027D01D, '2005-02-09 10:00:00') /* Olthoi Eviscerator */
-     , (0x7027D051, 0x7027D01E, '2005-02-09 10:00:00') /* Olthoi Eviscerator */
-     , (0x7027D051, 0x7027D020, '2005-02-09 10:00:00') /* Olthoi Eviscerator */
-     , (0x7027D051, 0x7027D052, '2005-02-09 10:00:00') /* Olthoi Eviscerator */
-     , (0x7027D051, 0x7027D053, '2005-02-09 10:00:00') /* Olthoi Eviscerator */;
+VALUES (0x7027D051, 0x7027D000, '2005-02-09 10:00:00') /* Olthoi Eviscerator (11478) */
+     , (0x7027D051, 0x7027D001, '2005-02-09 10:00:00') /* Olthoi Eviscerator (11478) */
+     , (0x7027D051, 0x7027D002, '2005-02-09 10:00:00') /* Olthoi Eviscerator (11478) */
+     , (0x7027D051, 0x7027D003, '2005-02-09 10:00:00') /* Olthoi Eviscerator (11478) */
+     , (0x7027D051, 0x7027D007, '2005-02-09 10:00:00') /* Olthoi Eviscerator (11478) */
+     , (0x7027D051, 0x7027D00A, '2005-02-09 10:00:00') /* Olthoi Eviscerator (11478) */
+     , (0x7027D051, 0x7027D00C, '2005-02-09 10:00:00') /* Olthoi Eviscerator (11478) */
+     , (0x7027D051, 0x7027D00E, '2005-02-09 10:00:00') /* Olthoi Eviscerator (11478) */
+     , (0x7027D051, 0x7027D00F, '2005-02-09 10:00:00') /* Olthoi Eviscerator (11725) */
+     , (0x7027D051, 0x7027D012, '2005-02-09 10:00:00') /* Olthoi Eviscerator (11478) */
+     , (0x7027D051, 0x7027D013, '2005-02-09 10:00:00') /* Olthoi Eviscerator (11478) */
+     , (0x7027D051, 0x7027D017, '2005-02-09 10:00:00') /* Olthoi Eviscerator (11478) */
+     , (0x7027D051, 0x7027D018, '2005-02-09 10:00:00') /* Olthoi Eviscerator (11478) */
+     , (0x7027D051, 0x7027D01A, '2005-02-09 10:00:00') /* Olthoi Eviscerator (11478) */
+     , (0x7027D051, 0x7027D01B, '2005-02-09 10:00:00') /* Olthoi Eviscerator (11478) */
+     , (0x7027D051, 0x7027D01C, '2005-02-09 10:00:00') /* Olthoi Eviscerator (11478) */
+     , (0x7027D051, 0x7027D01D, '2005-02-09 10:00:00') /* Olthoi Eviscerator (11478) */
+     , (0x7027D051, 0x7027D01E, '2005-02-09 10:00:00') /* Olthoi Eviscerator (11478) */
+     , (0x7027D051, 0x7027D020, '2005-02-09 10:00:00') /* Olthoi Eviscerator (11478) */
+     , (0x7027D051, 0x7027D052, '2005-02-09 10:00:00') /* Olthoi Eviscerator (11725) */
+     , (0x7027D051, 0x7027D053, '2005-02-09 10:00:00') /* Olthoi Eviscerator (11725) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7027D052, 11725, 0x027D0111, 150.63, -561.756, -35.995, -0.961105, 0, 0, -0.276184,  True, '2005-02-09 10:00:00'); /* Olthoi Eviscerator */

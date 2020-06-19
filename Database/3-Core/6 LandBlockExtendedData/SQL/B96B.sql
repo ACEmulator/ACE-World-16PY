@@ -21,7 +21,7 @@ VALUES (0x7B96B006,  1154, 0xB96B0106, 83.2405, 185.721, 4.805, 0.115395, 0, 0, 
 /* @teleloc 0xB96B0106 [83.240500 185.721000 4.805000] 0.115395 0.000000 0.000000 -0.993320 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B96B006, 0x7B96B00A, '2005-02-09 10:00:00') /* Te Ven */;
+VALUES (0x7B96B006, 0x7B96B00A, '2005-02-09 10:00:00') /* Te Ven (5065) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B96B007,  4566, 0xB96B0104, 88.7169, 178.788, 4.805, -0.75714, 0, 0, 0.653252, False, '2005-02-09 10:00:00'); /* Ru Chi the Shopkeeper */

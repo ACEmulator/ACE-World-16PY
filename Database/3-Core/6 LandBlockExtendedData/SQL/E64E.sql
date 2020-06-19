@@ -17,7 +17,7 @@ VALUES (0x7E64E003,  7923, 0xE64E0102, 175.978, 35.8432, 32.005, 0.351678, 0, 0,
 /* @teleloc 0xE64E0102 [175.978000 35.843200 32.005000] 0.351678 0.000000 0.000000 0.936121 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7E64E003, 0x7E64E002, '2005-02-09 10:00:00') /* Agent of the Arcanum */;
+VALUES (0x7E64E003, 0x7E64E002, '2005-02-09 10:00:00') /* Agent of the Arcanum (12050) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7E64E007, 12243, 0xE64E0102, 181.626, 39.8828, 32.005, 0.374594, 0, 0, 0.927189, False, '2005-02-09 10:00:00'); /* Jubei's Apprentice Craftsman */
@@ -32,7 +32,7 @@ VALUES (0x7E64E009,  7923, 0xE64E0102, 182.126, 37.8926, 32.005, 0.130462, 0, 0,
 /* @teleloc 0xE64E0102 [182.126000 37.892600 32.005000] 0.130462 0.000000 0.000000 -0.991453 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7E64E009, 0x7E64E008, '2005-02-09 10:00:00') /* Jubei Minawoto */;
+VALUES (0x7E64E009, 0x7E64E008, '2005-02-09 10:00:00') /* Jubei Minawoto (12240) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7E64E00A, 12304, 0xE64E0000, 189.171, 35.1752, 32.005, -0.412186, 0, 0, -0.9111, False, '2005-02-09 10:00:00'); /* Agent of the Arcanum  */

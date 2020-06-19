@@ -13,10 +13,10 @@ VALUES (0x7133A006,  1154, 0x133A0000, 40.4489, 156.701, -0.095, 0.673285, 0, 0,
 /* @teleloc 0x133A0000 [40.448900 156.701000 -0.095000] 0.673285 0.000000 0.000000 -0.739383 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7133A006, 0x7133A007, '2005-02-09 10:00:00') /* Affliction Wisp */
-     , (0x7133A006, 0x7133A008, '2005-02-09 10:00:00') /* Nightmare Wisp */
-     , (0x7133A006, 0x7133A009, '2005-02-09 10:00:00') /* Entropy Wisp */
-     , (0x7133A006, 0x7133A00A, '2005-02-09 10:00:00') /* Chaos Wisp */;
+VALUES (0x7133A006, 0x7133A007, '2005-02-09 10:00:00') /* Affliction Wisp (7125) */
+     , (0x7133A006, 0x7133A008, '2005-02-09 10:00:00') /* Nightmare Wisp (7127) */
+     , (0x7133A006, 0x7133A009, '2005-02-09 10:00:00') /* Entropy Wisp (11536) */
+     , (0x7133A006, 0x7133A00A, '2005-02-09 10:00:00') /* Chaos Wisp (11535) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7133A007,  7125, 0x133A0000, 52.7749, 99.2223, 0.4, -0.999718, 0, 0, 0.0237433,  True, '2005-02-09 10:00:00'); /* Affliction Wisp */

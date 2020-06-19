@@ -33,10 +33,10 @@ VALUES (0x7EC0D007,  4219, 0xEC0D0000, 134.777, 184.477, 0.00499999, -0.588644, 
 /* @teleloc 0xEC0D0000 [134.777000 184.477000 0.005000] -0.588644 0.000000 0.000000 -0.808393 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7EC0D007, 0x7EC0D000, '2005-02-09 10:00:00') /* Aste Sclavus Lord */
-     , (0x7EC0D007, 0x7EC0D001, '2005-02-09 10:00:00') /* Aste Sclavus Lord */
-     , (0x7EC0D007, 0x7EC0D002, '2005-02-09 10:00:00') /* Aste Sclavus Lord */
-     , (0x7EC0D007, 0x7EC0D003, '2005-02-09 10:00:00') /* Aste Sclavus Lord */
-     , (0x7EC0D007, 0x7EC0D004, '2005-02-09 10:00:00') /* Essa Sclavus Lord */
-     , (0x7EC0D007, 0x7EC0D005, '2005-02-09 10:00:00') /* Essa Sclavus Lord */
-     , (0x7EC0D007, 0x7EC0D006, '2005-02-09 10:00:00') /* Sata Sclavus Lord */;
+VALUES (0x7EC0D007, 0x7EC0D000, '2005-02-09 10:00:00') /* Aste Sclavus Lord (23483) */
+     , (0x7EC0D007, 0x7EC0D001, '2005-02-09 10:00:00') /* Aste Sclavus Lord (23483) */
+     , (0x7EC0D007, 0x7EC0D002, '2005-02-09 10:00:00') /* Aste Sclavus Lord (23483) */
+     , (0x7EC0D007, 0x7EC0D003, '2005-02-09 10:00:00') /* Aste Sclavus Lord (23483) */
+     , (0x7EC0D007, 0x7EC0D004, '2005-02-09 10:00:00') /* Essa Sclavus Lord (23485) */
+     , (0x7EC0D007, 0x7EC0D005, '2005-02-09 10:00:00') /* Essa Sclavus Lord (23485) */
+     , (0x7EC0D007, 0x7EC0D006, '2005-02-09 10:00:00') /* Sata Sclavus Lord (23487) */;

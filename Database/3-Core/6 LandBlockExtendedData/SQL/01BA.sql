@@ -29,29 +29,29 @@ VALUES (0x701BA006,  7923, 0x01BA0186, 60.7526, -50.0978, 0.005, 0.659983, 0, 0,
 /* @teleloc 0x01BA0186 [60.752600 -50.097800 0.005000] 0.659983 0.000000 0.000000 -0.751280 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x701BA006, 0x701BA000, '2005-02-09 10:00:00') /* Mist Golem */
-     , (0x701BA006, 0x701BA001, '2005-02-09 10:00:00') /* Mist Golem */
-     , (0x701BA006, 0x701BA003, '2005-02-09 10:00:00') /* Mist Golem */
-     , (0x701BA006, 0x701BA007, '2005-02-09 10:00:00') /* Mist Golem */
-     , (0x701BA006, 0x701BA008, '2005-02-09 10:00:00') /* Mist Golem */
-     , (0x701BA006, 0x701BA009, '2005-02-09 10:00:00') /* Mist Golem */
-     , (0x701BA006, 0x701BA00A, '2005-02-09 10:00:00') /* Mist Golem */
-     , (0x701BA006, 0x701BA00B, '2005-02-09 10:00:00') /* Shadow Lieutenant */
-     , (0x701BA006, 0x701BA00C, '2005-02-09 10:00:00') /* Shadow Lieutenant */
-     , (0x701BA006, 0x701BA00D, '2005-02-09 10:00:00') /* Shadow Lieutenant */
-     , (0x701BA006, 0x701BA011, '2005-02-09 10:00:00') /* Shadow Lieutenant */
-     , (0x701BA006, 0x701BA012, '2005-02-09 10:00:00') /* Panumbris Shadow */
-     , (0x701BA006, 0x701BA014, '2005-02-09 10:00:00') /* Shadow Lieutenant */
-     , (0x701BA006, 0x701BA015, '2005-02-09 10:00:00') /* Shadow Lieutenant */
-     , (0x701BA006, 0x701BA016, '2005-02-09 10:00:00') /* Fire Wisp */
-     , (0x701BA006, 0x701BA017, '2005-02-09 10:00:00') /* Shadow Lieutenant */
-     , (0x701BA006, 0x701BA018, '2005-02-09 10:00:00') /* Shadow Lieutenant */
-     , (0x701BA006, 0x701BA01A, '2005-02-09 10:00:00') /* Shadow Lieutenant */
-     , (0x701BA006, 0x701BA01B, '2005-02-09 10:00:00') /* Shadow Lieutenant */
-     , (0x701BA006, 0x701BA01C, '2005-02-09 10:00:00') /* Shadow Lieutenant */
-     , (0x701BA006, 0x701BA01D, '2005-02-09 10:00:00') /* Shadow Lieutenant */
-     , (0x701BA006, 0x701BA01E, '2005-02-09 10:00:00') /* Shadow Lieutenant */
-     , (0x701BA006, 0x701BA01F, '2005-02-09 10:00:00') /* Shadow Lieutenant */;
+VALUES (0x701BA006, 0x701BA000, '2005-02-09 10:00:00') /* Mist Golem (22933) */
+     , (0x701BA006, 0x701BA001, '2005-02-09 10:00:00') /* Mist Golem (22933) */
+     , (0x701BA006, 0x701BA003, '2005-02-09 10:00:00') /* Mist Golem (22933) */
+     , (0x701BA006, 0x701BA007, '2005-02-09 10:00:00') /* Mist Golem (22933) */
+     , (0x701BA006, 0x701BA008, '2005-02-09 10:00:00') /* Mist Golem (22933) */
+     , (0x701BA006, 0x701BA009, '2005-02-09 10:00:00') /* Mist Golem (22933) */
+     , (0x701BA006, 0x701BA00A, '2005-02-09 10:00:00') /* Mist Golem (22933) */
+     , (0x701BA006, 0x701BA00B, '2005-02-09 10:00:00') /* Shadow Lieutenant (1757) */
+     , (0x701BA006, 0x701BA00C, '2005-02-09 10:00:00') /* Shadow Lieutenant (1757) */
+     , (0x701BA006, 0x701BA00D, '2005-02-09 10:00:00') /* Shadow Lieutenant (1757) */
+     , (0x701BA006, 0x701BA011, '2005-02-09 10:00:00') /* Shadow Lieutenant (1757) */
+     , (0x701BA006, 0x701BA012, '2005-02-09 10:00:00') /* Panumbris Shadow (4253) */
+     , (0x701BA006, 0x701BA014, '2005-02-09 10:00:00') /* Shadow Lieutenant (1757) */
+     , (0x701BA006, 0x701BA015, '2005-02-09 10:00:00') /* Shadow Lieutenant (1757) */
+     , (0x701BA006, 0x701BA016, '2005-02-09 10:00:00') /* Fire Wisp (5748) */
+     , (0x701BA006, 0x701BA017, '2005-02-09 10:00:00') /* Shadow Lieutenant (1757) */
+     , (0x701BA006, 0x701BA018, '2005-02-09 10:00:00') /* Shadow Lieutenant (1757) */
+     , (0x701BA006, 0x701BA01A, '2005-02-09 10:00:00') /* Shadow Lieutenant (1757) */
+     , (0x701BA006, 0x701BA01B, '2005-02-09 10:00:00') /* Shadow Lieutenant (1757) */
+     , (0x701BA006, 0x701BA01C, '2005-02-09 10:00:00') /* Shadow Lieutenant (1757) */
+     , (0x701BA006, 0x701BA01D, '2005-02-09 10:00:00') /* Shadow Lieutenant (1757) */
+     , (0x701BA006, 0x701BA01E, '2005-02-09 10:00:00') /* Shadow Lieutenant (1757) */
+     , (0x701BA006, 0x701BA01F, '2005-02-09 10:00:00') /* Shadow Lieutenant (1757) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x701BA007, 22933, 0x01BA0124, 42.0051, -43.6443, -41.8978, 0.798899, 0, 0, -0.601466,  True, '2005-02-09 10:00:00'); /* Mist Golem */
@@ -166,4 +166,4 @@ VALUES (0x701BA023, 15759, 0x01BA013C, 53.5205, -73.4673, -41.995, 0.453596, 0, 
 /* @teleloc 0x01BA013C [53.520500 -73.467300 -41.995000] 0.453596 0.000000 0.000000 -0.891207 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x701BA023, 0x701BA005, '2005-02-09 10:00:00') /* Alloy Cylinder */;
+VALUES (0x701BA023, 0x701BA005, '2005-02-09 10:00:00') /* Alloy Cylinder (25326) */;

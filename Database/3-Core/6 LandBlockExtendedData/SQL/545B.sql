@@ -261,88 +261,88 @@ VALUES (0x7545B040,  7924, 0x545B0121, 51.7081, -48.8192, 0.005, 0.475732, 0, 0,
 /* @teleloc 0x545B0121 [51.708100 -48.819200 0.005000] 0.475732 0.000000 0.000000 -0.879590 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7545B040, 0x7545B01B, '2005-02-09 10:00:00') /* Martinate Simulacrum */
-     , (0x7545B040, 0x7545B01F, '2005-02-09 10:00:00') /* Martinate Simulacrum Magician */
-     , (0x7545B040, 0x7545B020, '2005-02-09 10:00:00') /* Martinate Simulacrum Magician */
-     , (0x7545B040, 0x7545B024, '2005-02-09 10:00:00') /* Martinate Simulacrum */
-     , (0x7545B040, 0x7545B025, '2005-02-09 10:00:00') /* Martinate Simulacrum */
-     , (0x7545B040, 0x7545B02C, '2005-02-09 10:00:00') /* Martinate Simulacrum Magician */
-     , (0x7545B040, 0x7545B02D, '2005-02-09 10:00:00') /* Martinate Simulacrum Magician */
-     , (0x7545B040, 0x7545B031, '2005-02-09 10:00:00') /* Martinate Simulacrum */
-     , (0x7545B040, 0x7545B035, '2005-02-09 10:00:00') /* Martinate Simulacrum */
-     , (0x7545B040, 0x7545B036, '2005-02-09 10:00:00') /* Martinate Simulacrum */
-     , (0x7545B040, 0x7545B037, '2005-02-09 10:00:00') /* Martinate Simulacrum */
-     , (0x7545B040, 0x7545B03B, '2005-02-09 10:00:00') /* Martinate Simulacrum */
-     , (0x7545B040, 0x7545B03F, '2005-02-09 10:00:00') /* Martinate Simulacrum */
-     , (0x7545B040, 0x7545B043, '2005-02-09 10:00:00') /* Martinate Simulacrum Magician */
-     , (0x7545B040, 0x7545B044, '2005-02-09 10:00:00') /* Martinate Simulacrum Magician */
-     , (0x7545B040, 0x7545B047, '2005-02-09 10:00:00') /* Martinate Simulacrum */
-     , (0x7545B040, 0x7545B048, '2005-02-09 10:00:00') /* Martinate Simulacrum */
-     , (0x7545B040, 0x7545B049, '2005-02-09 10:00:00') /* Martinate Simulacrum */
-     , (0x7545B040, 0x7545B04E, '2005-02-09 10:00:00') /* Martinate Simulacrum */
-     , (0x7545B040, 0x7545B04F, '2005-02-09 10:00:00') /* Martinate Simulacrum Magician */
-     , (0x7545B040, 0x7545B050, '2005-02-09 10:00:00') /* Martinate Simulacrum Magician */
-     , (0x7545B040, 0x7545B057, '2005-02-09 10:00:00') /* Martinate Simulacrum */
-     , (0x7545B040, 0x7545B058, '2005-02-09 10:00:00') /* Martinate Simulacrum */
-     , (0x7545B040, 0x7545B059, '2005-02-09 10:00:00') /* Martinate Simulacrum */
-     , (0x7545B040, 0x7545B060, '2005-02-09 10:00:00') /* Martinate Simulacrum */
-     , (0x7545B040, 0x7545B063, '2005-02-09 10:00:00') /* Martinate Simulacrum Magician */
-     , (0x7545B040, 0x7545B064, '2005-02-09 10:00:00') /* Martinate Simulacrum Magician */
-     , (0x7545B040, 0x7545B065, '2005-02-09 10:00:00') /* Martinate Simulacrum Magician */;
+VALUES (0x7545B040, 0x7545B01B, '2005-02-09 10:00:00') /* Martinate Simulacrum (15299) */
+     , (0x7545B040, 0x7545B01F, '2005-02-09 10:00:00') /* Martinate Simulacrum Magician (15300) */
+     , (0x7545B040, 0x7545B020, '2005-02-09 10:00:00') /* Martinate Simulacrum Magician (15300) */
+     , (0x7545B040, 0x7545B024, '2005-02-09 10:00:00') /* Martinate Simulacrum (15299) */
+     , (0x7545B040, 0x7545B025, '2005-02-09 10:00:00') /* Martinate Simulacrum (15299) */
+     , (0x7545B040, 0x7545B02C, '2005-02-09 10:00:00') /* Martinate Simulacrum Magician (15300) */
+     , (0x7545B040, 0x7545B02D, '2005-02-09 10:00:00') /* Martinate Simulacrum Magician (15300) */
+     , (0x7545B040, 0x7545B031, '2005-02-09 10:00:00') /* Martinate Simulacrum (15299) */
+     , (0x7545B040, 0x7545B035, '2005-02-09 10:00:00') /* Martinate Simulacrum (15299) */
+     , (0x7545B040, 0x7545B036, '2005-02-09 10:00:00') /* Martinate Simulacrum (15299) */
+     , (0x7545B040, 0x7545B037, '2005-02-09 10:00:00') /* Martinate Simulacrum (15299) */
+     , (0x7545B040, 0x7545B03B, '2005-02-09 10:00:00') /* Martinate Simulacrum (15299) */
+     , (0x7545B040, 0x7545B03F, '2005-02-09 10:00:00') /* Martinate Simulacrum (15299) */
+     , (0x7545B040, 0x7545B043, '2005-02-09 10:00:00') /* Martinate Simulacrum Magician (15300) */
+     , (0x7545B040, 0x7545B044, '2005-02-09 10:00:00') /* Martinate Simulacrum Magician (15300) */
+     , (0x7545B040, 0x7545B047, '2005-02-09 10:00:00') /* Martinate Simulacrum (15299) */
+     , (0x7545B040, 0x7545B048, '2005-02-09 10:00:00') /* Martinate Simulacrum (15299) */
+     , (0x7545B040, 0x7545B049, '2005-02-09 10:00:00') /* Martinate Simulacrum (15299) */
+     , (0x7545B040, 0x7545B04E, '2005-02-09 10:00:00') /* Martinate Simulacrum (15299) */
+     , (0x7545B040, 0x7545B04F, '2005-02-09 10:00:00') /* Martinate Simulacrum Magician (15300) */
+     , (0x7545B040, 0x7545B050, '2005-02-09 10:00:00') /* Martinate Simulacrum Magician (15300) */
+     , (0x7545B040, 0x7545B057, '2005-02-09 10:00:00') /* Martinate Simulacrum (15299) */
+     , (0x7545B040, 0x7545B058, '2005-02-09 10:00:00') /* Martinate Simulacrum (15299) */
+     , (0x7545B040, 0x7545B059, '2005-02-09 10:00:00') /* Martinate Simulacrum (15299) */
+     , (0x7545B040, 0x7545B060, '2005-02-09 10:00:00') /* Martinate Simulacrum (15299) */
+     , (0x7545B040, 0x7545B063, '2005-02-09 10:00:00') /* Martinate Simulacrum Magician (15300) */
+     , (0x7545B040, 0x7545B064, '2005-02-09 10:00:00') /* Martinate Simulacrum Magician (15300) */
+     , (0x7545B040, 0x7545B065, '2005-02-09 10:00:00') /* Martinate Simulacrum Magician (15300) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7545B041,  5085, 0x545B0121, 48.9186, -51.0183, 0.005, 0.408487, 0, 0, -0.912764, False, '2005-02-09 10:00:00'); /* Linkable Item Gen - 25 seconds */
 /* @teleloc 0x545B0121 [48.918600 -51.018300 0.005000] 0.408487 0.000000 0.000000 -0.912764 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7545B041, 0x7545B01C, '2005-02-09 10:00:00') /* Enchanted Decanter */
-     , (0x7545B041, 0x7545B01D, '2005-02-09 10:00:00') /* Enchanted Decanter */
-     , (0x7545B041, 0x7545B01E, '2005-02-09 10:00:00') /* Enchanted Decanter */
-     , (0x7545B041, 0x7545B021, '2005-02-09 10:00:00') /* Enchanted Decanter */
-     , (0x7545B041, 0x7545B022, '2005-02-09 10:00:00') /* Enchanted Decanter */
-     , (0x7545B041, 0x7545B023, '2005-02-09 10:00:00') /* Enchanted Decanter */
-     , (0x7545B041, 0x7545B026, '2005-02-09 10:00:00') /* Enchanted Decanter */
-     , (0x7545B041, 0x7545B027, '2005-02-09 10:00:00') /* Enchanted Decanter */
-     , (0x7545B041, 0x7545B028, '2005-02-09 10:00:00') /* Enchanted Decanter */
-     , (0x7545B041, 0x7545B029, '2005-02-09 10:00:00') /* Enchanted Decanter */
-     , (0x7545B041, 0x7545B02A, '2005-02-09 10:00:00') /* Enchanted Decanter */
-     , (0x7545B041, 0x7545B02B, '2005-02-09 10:00:00') /* Enchanted Decanter */
-     , (0x7545B041, 0x7545B02E, '2005-02-09 10:00:00') /* Enchanted Decanter */
-     , (0x7545B041, 0x7545B02F, '2005-02-09 10:00:00') /* Enchanted Decanter */
-     , (0x7545B041, 0x7545B030, '2005-02-09 10:00:00') /* Enchanted Decanter */
-     , (0x7545B041, 0x7545B032, '2005-02-09 10:00:00') /* Enchanted Decanter */
-     , (0x7545B041, 0x7545B033, '2005-02-09 10:00:00') /* Enchanted Decanter */
-     , (0x7545B041, 0x7545B034, '2005-02-09 10:00:00') /* Enchanted Decanter */
-     , (0x7545B041, 0x7545B038, '2005-02-09 10:00:00') /* Enchanted Decanter */
-     , (0x7545B041, 0x7545B039, '2005-02-09 10:00:00') /* Enchanted Decanter */
-     , (0x7545B041, 0x7545B03A, '2005-02-09 10:00:00') /* Enchanted Decanter */
-     , (0x7545B041, 0x7545B03C, '2005-02-09 10:00:00') /* Enchanted Decanter */
-     , (0x7545B041, 0x7545B03D, '2005-02-09 10:00:00') /* Enchanted Decanter */
-     , (0x7545B041, 0x7545B03E, '2005-02-09 10:00:00') /* Enchanted Decanter */
-     , (0x7545B041, 0x7545B045, '2005-02-09 10:00:00') /* Enchanted Decanter */
-     , (0x7545B041, 0x7545B046, '2005-02-09 10:00:00') /* Enchanted Decanter */
-     , (0x7545B041, 0x7545B04A, '2005-02-09 10:00:00') /* Enchanted Decanter */
-     , (0x7545B041, 0x7545B04B, '2005-02-09 10:00:00') /* Enchanted Decanter */
-     , (0x7545B041, 0x7545B04C, '2005-02-09 10:00:00') /* Enchanted Decanter */
-     , (0x7545B041, 0x7545B04D, '2005-02-09 10:00:00') /* Enchanted Decanter */
-     , (0x7545B041, 0x7545B051, '2005-02-09 10:00:00') /* Enchanted Decanter */
-     , (0x7545B041, 0x7545B052, '2005-02-09 10:00:00') /* Enchanted Decanter */
-     , (0x7545B041, 0x7545B053, '2005-02-09 10:00:00') /* Enchanted Decanter */
-     , (0x7545B041, 0x7545B054, '2005-02-09 10:00:00') /* Enchanted Decanter */
-     , (0x7545B041, 0x7545B055, '2005-02-09 10:00:00') /* Enchanted Decanter */
-     , (0x7545B041, 0x7545B056, '2005-02-09 10:00:00') /* Enchanted Decanter */
-     , (0x7545B041, 0x7545B05A, '2005-02-09 10:00:00') /* Enchanted Decanter */
-     , (0x7545B041, 0x7545B05B, '2005-02-09 10:00:00') /* Enchanted Decanter */
-     , (0x7545B041, 0x7545B05C, '2005-02-09 10:00:00') /* Enchanted Decanter */
-     , (0x7545B041, 0x7545B05D, '2005-02-09 10:00:00') /* Enchanted Decanter */
-     , (0x7545B041, 0x7545B05E, '2005-02-09 10:00:00') /* Enchanted Decanter */
-     , (0x7545B041, 0x7545B05F, '2005-02-09 10:00:00') /* Enchanted Decanter */
-     , (0x7545B041, 0x7545B061, '2005-02-09 10:00:00') /* Enchanted Decanter */
-     , (0x7545B041, 0x7545B062, '2005-02-09 10:00:00') /* Enchanted Decanter */
-     , (0x7545B041, 0x7545B066, '2005-02-09 10:00:00') /* Enchanted Decanter */
-     , (0x7545B041, 0x7545B067, '2005-02-09 10:00:00') /* Enchanted Decanter */
-     , (0x7545B041, 0x7545B068, '2005-02-09 10:00:00') /* Enchanted Decanter */
-     , (0x7545B041, 0x7545B069, '2005-02-09 10:00:00') /* Enchanted Decanter */;
+VALUES (0x7545B041, 0x7545B01C, '2005-02-09 10:00:00') /* Enchanted Decanter (19482) */
+     , (0x7545B041, 0x7545B01D, '2005-02-09 10:00:00') /* Enchanted Decanter (19482) */
+     , (0x7545B041, 0x7545B01E, '2005-02-09 10:00:00') /* Enchanted Decanter (19482) */
+     , (0x7545B041, 0x7545B021, '2005-02-09 10:00:00') /* Enchanted Decanter (19482) */
+     , (0x7545B041, 0x7545B022, '2005-02-09 10:00:00') /* Enchanted Decanter (19482) */
+     , (0x7545B041, 0x7545B023, '2005-02-09 10:00:00') /* Enchanted Decanter (19482) */
+     , (0x7545B041, 0x7545B026, '2005-02-09 10:00:00') /* Enchanted Decanter (19482) */
+     , (0x7545B041, 0x7545B027, '2005-02-09 10:00:00') /* Enchanted Decanter (19482) */
+     , (0x7545B041, 0x7545B028, '2005-02-09 10:00:00') /* Enchanted Decanter (19482) */
+     , (0x7545B041, 0x7545B029, '2005-02-09 10:00:00') /* Enchanted Decanter (19482) */
+     , (0x7545B041, 0x7545B02A, '2005-02-09 10:00:00') /* Enchanted Decanter (19482) */
+     , (0x7545B041, 0x7545B02B, '2005-02-09 10:00:00') /* Enchanted Decanter (19482) */
+     , (0x7545B041, 0x7545B02E, '2005-02-09 10:00:00') /* Enchanted Decanter (19482) */
+     , (0x7545B041, 0x7545B02F, '2005-02-09 10:00:00') /* Enchanted Decanter (19482) */
+     , (0x7545B041, 0x7545B030, '2005-02-09 10:00:00') /* Enchanted Decanter (19482) */
+     , (0x7545B041, 0x7545B032, '2005-02-09 10:00:00') /* Enchanted Decanter (19482) */
+     , (0x7545B041, 0x7545B033, '2005-02-09 10:00:00') /* Enchanted Decanter (19482) */
+     , (0x7545B041, 0x7545B034, '2005-02-09 10:00:00') /* Enchanted Decanter (19482) */
+     , (0x7545B041, 0x7545B038, '2005-02-09 10:00:00') /* Enchanted Decanter (19482) */
+     , (0x7545B041, 0x7545B039, '2005-02-09 10:00:00') /* Enchanted Decanter (19482) */
+     , (0x7545B041, 0x7545B03A, '2005-02-09 10:00:00') /* Enchanted Decanter (19482) */
+     , (0x7545B041, 0x7545B03C, '2005-02-09 10:00:00') /* Enchanted Decanter (19482) */
+     , (0x7545B041, 0x7545B03D, '2005-02-09 10:00:00') /* Enchanted Decanter (19482) */
+     , (0x7545B041, 0x7545B03E, '2005-02-09 10:00:00') /* Enchanted Decanter (19482) */
+     , (0x7545B041, 0x7545B045, '2005-02-09 10:00:00') /* Enchanted Decanter (19482) */
+     , (0x7545B041, 0x7545B046, '2005-02-09 10:00:00') /* Enchanted Decanter (19482) */
+     , (0x7545B041, 0x7545B04A, '2005-02-09 10:00:00') /* Enchanted Decanter (19482) */
+     , (0x7545B041, 0x7545B04B, '2005-02-09 10:00:00') /* Enchanted Decanter (19482) */
+     , (0x7545B041, 0x7545B04C, '2005-02-09 10:00:00') /* Enchanted Decanter (19482) */
+     , (0x7545B041, 0x7545B04D, '2005-02-09 10:00:00') /* Enchanted Decanter (19482) */
+     , (0x7545B041, 0x7545B051, '2005-02-09 10:00:00') /* Enchanted Decanter (19482) */
+     , (0x7545B041, 0x7545B052, '2005-02-09 10:00:00') /* Enchanted Decanter (19482) */
+     , (0x7545B041, 0x7545B053, '2005-02-09 10:00:00') /* Enchanted Decanter (19482) */
+     , (0x7545B041, 0x7545B054, '2005-02-09 10:00:00') /* Enchanted Decanter (19482) */
+     , (0x7545B041, 0x7545B055, '2005-02-09 10:00:00') /* Enchanted Decanter (19482) */
+     , (0x7545B041, 0x7545B056, '2005-02-09 10:00:00') /* Enchanted Decanter (19482) */
+     , (0x7545B041, 0x7545B05A, '2005-02-09 10:00:00') /* Enchanted Decanter (19482) */
+     , (0x7545B041, 0x7545B05B, '2005-02-09 10:00:00') /* Enchanted Decanter (19482) */
+     , (0x7545B041, 0x7545B05C, '2005-02-09 10:00:00') /* Enchanted Decanter (19482) */
+     , (0x7545B041, 0x7545B05D, '2005-02-09 10:00:00') /* Enchanted Decanter (19482) */
+     , (0x7545B041, 0x7545B05E, '2005-02-09 10:00:00') /* Enchanted Decanter (19482) */
+     , (0x7545B041, 0x7545B05F, '2005-02-09 10:00:00') /* Enchanted Decanter (19482) */
+     , (0x7545B041, 0x7545B061, '2005-02-09 10:00:00') /* Enchanted Decanter (19482) */
+     , (0x7545B041, 0x7545B062, '2005-02-09 10:00:00') /* Enchanted Decanter (19482) */
+     , (0x7545B041, 0x7545B066, '2005-02-09 10:00:00') /* Enchanted Decanter (19482) */
+     , (0x7545B041, 0x7545B067, '2005-02-09 10:00:00') /* Enchanted Decanter (19482) */
+     , (0x7545B041, 0x7545B068, '2005-02-09 10:00:00') /* Enchanted Decanter (19482) */
+     , (0x7545B041, 0x7545B069, '2005-02-09 10:00:00') /* Enchanted Decanter (19482) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7545B042, 19727, 0x545B0122, 53.2264, -62.29, 0.005, 0.045146, 0, 0, 0.99898, False, '2005-02-09 10:00:00'); /* Surface */

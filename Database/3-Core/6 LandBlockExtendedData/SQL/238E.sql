@@ -49,32 +49,32 @@ VALUES (0x7238E02A,  7923, 0x238E0000, 55.3097, 94.5266, 260.005, 0.521446, 0, 0
 /* @teleloc 0x238E0000 [55.309700 94.526600 260.005000] 0.521446 0.000000 0.000000 -0.853284 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7238E02A, 0x7238E020, '2005-02-09 10:00:00') /* Tumerok Champion */
-     , (0x7238E02A, 0x7238E021, '2005-02-09 10:00:00') /* Tumerok Champion */
-     , (0x7238E02A, 0x7238E022, '2005-02-09 10:00:00') /* Tumerok Champion */
-     , (0x7238E02A, 0x7238E023, '2005-02-09 10:00:00') /* Tumerok High Priest */
-     , (0x7238E02A, 0x7238E024, '2005-02-09 10:00:00') /* Tumerok Taskmaster */
-     , (0x7238E02A, 0x7238E025, '2005-02-09 10:00:00') /* Tumerok Taskmaster */
-     , (0x7238E02A, 0x7238E026, '2005-02-09 10:00:00') /* Tumerok High Priest */
-     , (0x7238E02A, 0x7238E027, '2005-02-09 10:00:00') /* Tumerok High Priest */
-     , (0x7238E02A, 0x7238E028, '2005-02-09 10:00:00') /* Tumerok High Priest */
-     , (0x7238E02A, 0x7238E029, '2005-02-09 10:00:00') /* Tumerok Champion */
-     , (0x7238E02A, 0x7238E02B, '2005-02-09 10:00:00') /* Tumerok High Priest */
-     , (0x7238E02A, 0x7238E02C, '2005-02-09 10:00:00') /* Tumerok High Priest */
-     , (0x7238E02A, 0x7238E02D, '2005-02-09 10:00:00') /* Tumerok High Priest */
-     , (0x7238E02A, 0x7238E02E, '2005-02-09 10:00:00') /* Tumerok Champion */
-     , (0x7238E02A, 0x7238E02F, '2005-02-09 10:00:00') /* Tumerok Taskmaster */
-     , (0x7238E02A, 0x7238E030, '2005-02-09 10:00:00') /* Tumerok High Priest */
-     , (0x7238E02A, 0x7238E031, '2005-02-09 10:00:00') /* Tumerok High Priest */
-     , (0x7238E02A, 0x7238E032, '2005-02-09 10:00:00') /* Tumerok High Priest */
-     , (0x7238E02A, 0x7238E033, '2005-02-09 10:00:00') /* Tumerok High Priest */
-     , (0x7238E02A, 0x7238E034, '2005-02-09 10:00:00') /* Tumerok Taskmaster */
-     , (0x7238E02A, 0x7238E035, '2005-02-09 10:00:00') /* Tumerok Taskmaster */
-     , (0x7238E02A, 0x7238E036, '2005-02-09 10:00:00') /* Tumerok Champion */
-     , (0x7238E02A, 0x7238E037, '2005-02-09 10:00:00') /* Tumerok Champion */
-     , (0x7238E02A, 0x7238E038, '2005-02-09 10:00:00') /* Tumerok High Priest */
-     , (0x7238E02A, 0x7238E039, '2005-02-09 10:00:00') /* Tumerok High Priest */
-     , (0x7238E02A, 0x7238E03A, '2005-02-09 10:00:00') /* Tumerok Taskmaster */;
+VALUES (0x7238E02A, 0x7238E020, '2005-02-09 10:00:00') /* Tumerok Champion (23617) */
+     , (0x7238E02A, 0x7238E021, '2005-02-09 10:00:00') /* Tumerok Champion (23617) */
+     , (0x7238E02A, 0x7238E022, '2005-02-09 10:00:00') /* Tumerok Champion (23617) */
+     , (0x7238E02A, 0x7238E023, '2005-02-09 10:00:00') /* Tumerok High Priest (228) */
+     , (0x7238E02A, 0x7238E024, '2005-02-09 10:00:00') /* Tumerok Taskmaster (230) */
+     , (0x7238E02A, 0x7238E025, '2005-02-09 10:00:00') /* Tumerok Taskmaster (230) */
+     , (0x7238E02A, 0x7238E026, '2005-02-09 10:00:00') /* Tumerok High Priest (228) */
+     , (0x7238E02A, 0x7238E027, '2005-02-09 10:00:00') /* Tumerok High Priest (228) */
+     , (0x7238E02A, 0x7238E028, '2005-02-09 10:00:00') /* Tumerok High Priest (228) */
+     , (0x7238E02A, 0x7238E029, '2005-02-09 10:00:00') /* Tumerok Champion (23617) */
+     , (0x7238E02A, 0x7238E02B, '2005-02-09 10:00:00') /* Tumerok High Priest (228) */
+     , (0x7238E02A, 0x7238E02C, '2005-02-09 10:00:00') /* Tumerok High Priest (228) */
+     , (0x7238E02A, 0x7238E02D, '2005-02-09 10:00:00') /* Tumerok High Priest (228) */
+     , (0x7238E02A, 0x7238E02E, '2005-02-09 10:00:00') /* Tumerok Champion (23617) */
+     , (0x7238E02A, 0x7238E02F, '2005-02-09 10:00:00') /* Tumerok Taskmaster (230) */
+     , (0x7238E02A, 0x7238E030, '2005-02-09 10:00:00') /* Tumerok High Priest (228) */
+     , (0x7238E02A, 0x7238E031, '2005-02-09 10:00:00') /* Tumerok High Priest (228) */
+     , (0x7238E02A, 0x7238E032, '2005-02-09 10:00:00') /* Tumerok High Priest (228) */
+     , (0x7238E02A, 0x7238E033, '2005-02-09 10:00:00') /* Tumerok High Priest (228) */
+     , (0x7238E02A, 0x7238E034, '2005-02-09 10:00:00') /* Tumerok Taskmaster (230) */
+     , (0x7238E02A, 0x7238E035, '2005-02-09 10:00:00') /* Tumerok Taskmaster (230) */
+     , (0x7238E02A, 0x7238E036, '2005-02-09 10:00:00') /* Tumerok Champion (23617) */
+     , (0x7238E02A, 0x7238E037, '2005-02-09 10:00:00') /* Tumerok Champion (23617) */
+     , (0x7238E02A, 0x7238E038, '2005-02-09 10:00:00') /* Tumerok High Priest (228) */
+     , (0x7238E02A, 0x7238E039, '2005-02-09 10:00:00') /* Tumerok High Priest (228) */
+     , (0x7238E02A, 0x7238E03A, '2005-02-09 10:00:00') /* Tumerok Taskmaster (230) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7238E02B,   228, 0x238E0000, 15.199, 62.7758, 275.206, -0.999998, 0, 0, -0.0018544,  True, '2005-02-09 10:00:00'); /* Tumerok High Priest */

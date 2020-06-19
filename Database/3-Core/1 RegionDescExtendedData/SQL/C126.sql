@@ -1,7 +1,7 @@
-DELETE FROM `encounter` WHERE `landblock` = 49446;
+DELETE FROM `encounter` WHERE `landblock` = 0xC126;
 
 INSERT INTO `encounter` (`landblock`, `weenie_Class_Id`, `cell_X`, `cell_Y`, `last_Modified`)
-VALUES (49446, 23164, 0, 7, '2005-02-09 10:00:00') /* Mid South Forest Generator */
-     , (49446, 23164, 3, 2, '2005-02-09 10:00:00') /* Mid South Forest Generator */
-     , (49446, 23164, 5, 7, '2005-02-09 10:00:00') /* Mid South Forest Generator */
-     , (49446, 23164, 7, 2, '2005-02-09 10:00:00') /* Mid South Forest Generator */;
+VALUES (0xC126, 23164, 0, 7, '2005-02-09 10:00:00') /* Mid South Forest Generator */
+     , (0xC126, 23164, 3, 2, '2005-02-09 10:00:00') /* Mid South Forest Generator */
+     , (0xC126, 23164, 5, 7, '2005-02-09 10:00:00') /* Mid South Forest Generator */
+     , (0xC126, 23164, 7, 2, '2005-02-09 10:00:00') /* Mid South Forest Generator */;

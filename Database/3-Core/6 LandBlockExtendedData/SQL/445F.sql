@@ -9,4 +9,4 @@ VALUES (0x7445F001,  7924, 0x445F0100, 153.834, 33.8524, 126.005, 0.941366, 0, 0
 /* @teleloc 0x445F0100 [153.834000 33.852400 126.005000] 0.941366 0.000000 0.000000 -0.337388 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7445F001, 0x7445F000, '2005-02-09 10:00:00') /* Lighthouse Hermit */;
+VALUES (0x7445F001, 0x7445F000, '2005-02-09 10:00:00') /* Lighthouse Hermit (27806) */;

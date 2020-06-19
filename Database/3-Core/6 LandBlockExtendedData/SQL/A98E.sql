@@ -13,4 +13,4 @@ VALUES (0x7A98E002,  1154, 0xA98E0000, 106.868, 25.3713, 26.005, -0.552803, 0, 0
 /* @teleloc 0xA98E0000 [106.868000 25.371300 26.005000] -0.552803 0.000000 0.000000 -0.833312 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A98E002, 0x7A98E000, '2005-02-09 10:00:00') /* Grilhud the Hermit */;
+VALUES (0x7A98E002, 0x7A98E000, '2005-02-09 10:00:00') /* Grilhud the Hermit (4202) */;

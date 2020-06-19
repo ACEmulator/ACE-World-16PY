@@ -9,7 +9,7 @@ VALUES (0x700F2001, 29938, 0x00F20117, 10, -19.825, -5.995, 1, 0, 0, -4.37114E-0
 /* @teleloc 0x00F20117 [10.000000 -19.825000 -5.995000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x700F2001, 0x700F2002, '2005-02-09 10:00:00') /* Lever */;
+VALUES (0x700F2001, 0x700F2002, '2005-02-09 10:00:00') /* Lever (29593) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x700F2002, 29593, 0x00F20120, 10, -42.003, -5.995, 0, 0, 0, -1,  True, '2005-02-09 10:00:00'); /* Lever */
@@ -32,15 +32,15 @@ VALUES (0x700F2006, 29938, 0x00F2014D, 10, -109.825, 0.005, 1, 0, 0, -4.37114E-0
 /* @teleloc 0x00F2014D [10.000000 -109.825000 0.005000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x700F2006, 0x700F2008, '2005-02-09 10:00:00') /* Lever */;
+VALUES (0x700F2006, 0x700F2008, '2005-02-09 10:00:00') /* Lever (29593) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x700F2007,  7923, 0x00F20151, 10, -120, 0.005, 1, 0, 0, 0, False, '2005-02-09 10:00:00'); /* Linkable Monster Generator ( 3 Min.) */
 /* @teleloc 0x00F20151 [10.000000 -120.000000 0.005000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x700F2007, 0x700F2000, '2005-02-09 10:00:00') /* Enchanted Dais */
-     , (0x700F2007, 0x700F2005, '2005-02-09 10:00:00') /* Ensorcelled Dais */;
+VALUES (0x700F2007, 0x700F2000, '2005-02-09 10:00:00') /* Enchanted Dais (29713) */
+     , (0x700F2007, 0x700F2005, '2005-02-09 10:00:00') /* Ensorcelled Dais (29712) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x700F2008, 29593, 0x00F20155, 10, -125.519, 0.005, 0, 0, 0, -1,  True, '2005-02-09 10:00:00'); /* Lever */

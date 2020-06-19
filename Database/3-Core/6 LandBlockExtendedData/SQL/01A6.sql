@@ -149,7 +149,7 @@ VALUES (0x701A6024,  3952, 0x01A60131, 49.7749, -86.001, -12, 0.707107, 0, 0, -0
 /* @teleloc 0x01A60131 [49.774900 -86.001000 -12.000000] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x701A6024, 0x701A6023, '2005-02-09 10:00:00') /* Slimy Note */;
+VALUES (0x701A6024, 0x701A6023, '2005-02-09 10:00:00') /* Slimy Note (5828) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x701A6025,   238, 0x01A60132, 48.0565, -97.4691, -11.971, -4.37114E-08, 0, 0, -1,  True, '2005-02-09 10:00:00'); /* Virindi Puppet */
@@ -444,161 +444,161 @@ VALUES (0x701A606D,  3955, 0x01A601E8, 70.0912, -31.6234, 6, 0.707107, 0, 0, -0.
 /* @teleloc 0x01A601E8 [70.091200 -31.623400 6.000000] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x701A606D, 0x701A6000, '2005-02-09 10:00:00') /* Drudge Prowler */
-     , (0x701A606D, 0x701A6001, '2005-02-09 10:00:00') /* Drudge Prowler */
-     , (0x701A606D, 0x701A6002, '2005-02-09 10:00:00') /* Drudge Prowler */
-     , (0x701A606D, 0x701A6003, '2005-02-09 10:00:00') /* Drudge Prowler */
-     , (0x701A606D, 0x701A6005, '2005-02-09 10:00:00') /* Virindi Puppet */
-     , (0x701A606D, 0x701A6006, '2005-02-09 10:00:00') /* Virindi Puppet */
-     , (0x701A606D, 0x701A6007, '2005-02-09 10:00:00') /* Virindi Puppet */
-     , (0x701A606D, 0x701A6008, '2005-02-09 10:00:00') /* Tusker Guard */
-     , (0x701A606D, 0x701A6009, '2005-02-09 10:00:00') /* Tusker Guard */
-     , (0x701A606D, 0x701A600A, '2005-02-09 10:00:00') /* Virindi Puppet */
-     , (0x701A606D, 0x701A600B, '2005-02-09 10:00:00') /* Virindi Puppet */
-     , (0x701A606D, 0x701A600C, '2005-02-09 10:00:00') /* Virindi Servant */
-     , (0x701A606D, 0x701A600E, '2005-02-09 10:00:00') /* Virindi Puppet */
-     , (0x701A606D, 0x701A600F, '2005-02-09 10:00:00') /* Virindi Puppet */
-     , (0x701A606D, 0x701A6010, '2005-02-09 10:00:00') /* Virindi Puppet */
-     , (0x701A606D, 0x701A6011, '2005-02-09 10:00:00') /* Virindi Servant */
-     , (0x701A606D, 0x701A6012, '2005-02-09 10:00:00') /* Tusker Slave */
-     , (0x701A606D, 0x701A6013, '2005-02-09 10:00:00') /* Virindi Servant */
-     , (0x701A606D, 0x701A6014, '2005-02-09 10:00:00') /* Virindi Puppet */
-     , (0x701A606D, 0x701A6015, '2005-02-09 10:00:00') /* Virindi Puppet */
-     , (0x701A606D, 0x701A6016, '2005-02-09 10:00:00') /* Drudge Prowler */
-     , (0x701A606D, 0x701A6017, '2005-02-09 10:00:00') /* Virindi Master */
-     , (0x701A606D, 0x701A601E, '2005-02-09 10:00:00') /* Virindi Servant */
-     , (0x701A606D, 0x701A601F, '2005-02-09 10:00:00') /* Virindi Servant */
-     , (0x701A606D, 0x701A6020, '2005-02-09 10:00:00') /* Virindi Servant */
-     , (0x701A606D, 0x701A6025, '2005-02-09 10:00:00') /* Virindi Puppet */
-     , (0x701A606D, 0x701A6026, '2005-02-09 10:00:00') /* Virindi Puppet */
-     , (0x701A606D, 0x701A6027, '2005-02-09 10:00:00') /* Virindi Servant */
-     , (0x701A606D, 0x701A6028, '2005-02-09 10:00:00') /* Virindi Puppet */
-     , (0x701A606D, 0x701A6029, '2005-02-09 10:00:00') /* Tusker Guard */
-     , (0x701A606D, 0x701A602C, '2005-02-09 10:00:00') /* Virindi Servant */
-     , (0x701A606D, 0x701A602D, '2005-02-09 10:00:00') /* Virindi Puppet */
-     , (0x701A606D, 0x701A602E, '2005-02-09 10:00:00') /* Virindi Puppet */
-     , (0x701A606D, 0x701A602F, '2005-02-09 10:00:00') /* Virindi Servant */
-     , (0x701A606D, 0x701A6030, '2005-02-09 10:00:00') /* Virindi Puppet */
-     , (0x701A606D, 0x701A6031, '2005-02-09 10:00:00') /* Drudge Lurker */
-     , (0x701A606D, 0x701A6032, '2005-02-09 10:00:00') /* Drudge Stalker */
-     , (0x701A606D, 0x701A6033, '2005-02-09 10:00:00') /* Virindi Servant */
-     , (0x701A606D, 0x701A6034, '2005-02-09 10:00:00') /* Virindi Puppet */
-     , (0x701A606D, 0x701A6035, '2005-02-09 10:00:00') /* Tusker Crimsonback */
-     , (0x701A606D, 0x701A6038, '2005-02-09 10:00:00') /* Female Tusker */
-     , (0x701A606D, 0x701A6039, '2005-02-09 10:00:00') /* Goldenback Tusker */
-     , (0x701A606D, 0x701A603A, '2005-02-09 10:00:00') /* Male Tusker */
-     , (0x701A606D, 0x701A603B, '2005-02-09 10:00:00') /* Male Tusker */
-     , (0x701A606D, 0x701A603C, '2005-02-09 10:00:00') /* Virindi Puppet */
-     , (0x701A606D, 0x701A603D, '2005-02-09 10:00:00') /* Drudge Stalker */
-     , (0x701A606D, 0x701A603E, '2005-02-09 10:00:00') /* Drudge Ravener */
-     , (0x701A606D, 0x701A603F, '2005-02-09 10:00:00') /* Virindi Servant */
-     , (0x701A606D, 0x701A6041, '2005-02-09 10:00:00') /* Drudge Prowler */
-     , (0x701A606D, 0x701A6042, '2005-02-09 10:00:00') /* Drudge Prowler */
-     , (0x701A606D, 0x701A6044, '2005-02-09 10:00:00') /* Drudge Prowler */
-     , (0x701A606D, 0x701A6045, '2005-02-09 10:00:00') /* Virindi Servant */
-     , (0x701A606D, 0x701A6046, '2005-02-09 10:00:00') /* Virindi Servant */
-     , (0x701A606D, 0x701A6047, '2005-02-09 10:00:00') /* Drudge Lurker */
-     , (0x701A606D, 0x701A6048, '2005-02-09 10:00:00') /* Drudge Lurker */
-     , (0x701A606D, 0x701A6049, '2005-02-09 10:00:00') /* Drudge Lurker */
-     , (0x701A606D, 0x701A604B, '2005-02-09 10:00:00') /* Mountain Rat */
-     , (0x701A606D, 0x701A6050, '2005-02-09 10:00:00') /* Silver Rat */
-     , (0x701A606D, 0x701A6051, '2005-02-09 10:00:00') /* Silver Rat */
-     , (0x701A606D, 0x701A6052, '2005-02-09 10:00:00') /* Silver Rat */
-     , (0x701A606D, 0x701A6056, '2005-02-09 10:00:00') /* Tusker Slave */
-     , (0x701A606D, 0x701A6057, '2005-02-09 10:00:00') /* Tusker Slave */
-     , (0x701A606D, 0x701A6058, '2005-02-09 10:00:00') /* Virindi Servant */
-     , (0x701A606D, 0x701A605A, '2005-02-09 10:00:00') /* Tusker Slave */
-     , (0x701A606D, 0x701A605B, '2005-02-09 10:00:00') /* Tusker Slave */
-     , (0x701A606D, 0x701A605D, '2005-02-09 10:00:00') /* Tusker Slave */
-     , (0x701A606D, 0x701A605F, '2005-02-09 10:00:00') /* Drudge Prowler */
-     , (0x701A606D, 0x701A6061, '2005-02-09 10:00:00') /* Drudge Prowler */
-     , (0x701A606D, 0x701A6063, '2005-02-09 10:00:00') /* Drudge Prowler */
-     , (0x701A606D, 0x701A6064, '2005-02-09 10:00:00') /* Drudge Prowler */
-     , (0x701A606D, 0x701A6065, '2005-02-09 10:00:00') /* Drudge Prowler */
-     , (0x701A606D, 0x701A6066, '2005-02-09 10:00:00') /* Drudge Prowler */
-     , (0x701A606D, 0x701A6067, '2005-02-09 10:00:00') /* Drudge Prowler */
-     , (0x701A606D, 0x701A6068, '2005-02-09 10:00:00') /* Drudge Slinker */
-     , (0x701A606D, 0x701A606A, '2005-02-09 10:00:00') /* Virindi Servant */
-     , (0x701A606D, 0x701A606B, '2005-02-09 10:00:00') /* Drudge Stalker */
-     , (0x701A606D, 0x701A606C, '2005-02-09 10:00:00') /* Drudge Stalker */
-     , (0x701A606D, 0x701A6071, '2005-02-09 10:00:00') /* Drudge Lurker */
-     , (0x701A606D, 0x701A6072, '2005-02-09 10:00:00') /* Drudge Lurker */
-     , (0x701A606D, 0x701A6073, '2005-02-09 10:00:00') /* Drudge Lurker */
-     , (0x701A606D, 0x701A6075, '2005-02-09 10:00:00') /* Drudge Lurker */
-     , (0x701A606D, 0x701A6076, '2005-02-09 10:00:00') /* Drudge Lurker */
-     , (0x701A606D, 0x701A6078, '2005-02-09 10:00:00') /* Silver Rat */
-     , (0x701A606D, 0x701A6079, '2005-02-09 10:00:00') /* Silver Rat */
-     , (0x701A606D, 0x701A607C, '2005-02-09 10:00:00') /* Drudge Lurker */
-     , (0x701A606D, 0x701A607D, '2005-02-09 10:00:00') /* Drudge Lurker */
-     , (0x701A606D, 0x701A607E, '2005-02-09 10:00:00') /* Drudge Lurker */
-     , (0x701A606D, 0x701A607F, '2005-02-09 10:00:00') /* Drudge Prowler */
-     , (0x701A606D, 0x701A6080, '2005-02-09 10:00:00') /* Drudge Slinker */
-     , (0x701A606D, 0x701A6081, '2005-02-09 10:00:00') /* Drudge Slinker */
-     , (0x701A606D, 0x701A6085, '2005-02-09 10:00:00') /* Drudge Prowler */
-     , (0x701A606D, 0x701A6086, '2005-02-09 10:00:00') /* Drudge Slinker */
-     , (0x701A606D, 0x701A6087, '2005-02-09 10:00:00') /* Drudge Sneaker */
-     , (0x701A606D, 0x701A6088, '2005-02-09 10:00:00') /* Tusker Guard */
-     , (0x701A606D, 0x701A6089, '2005-02-09 10:00:00') /* Virindi Servant */
-     , (0x701A606D, 0x701A608B, '2005-02-09 10:00:00') /* Mountain Rat */
-     , (0x701A606D, 0x701A608C, '2005-02-09 10:00:00') /* Mountain Rat */
-     , (0x701A606D, 0x701A608D, '2005-02-09 10:00:00') /* Mountain Rat */
-     , (0x701A606D, 0x701A608E, '2005-02-09 10:00:00') /* Mountain Rat */
-     , (0x701A606D, 0x701A6090, '2005-02-09 10:00:00') /* Tusker Guard */
-     , (0x701A606D, 0x701A6091, '2005-02-09 10:00:00') /* Tusker Guard */
-     , (0x701A606D, 0x701A6095, '2005-02-09 10:00:00') /* Virindi Servant */
-     , (0x701A606D, 0x701A6098, '2005-02-09 10:00:00') /* Drudge Stalker */
-     , (0x701A606D, 0x701A6099, '2005-02-09 10:00:00') /* Drudge Stalker */
-     , (0x701A606D, 0x701A609B, '2005-02-09 10:00:00') /* Drudge Stalker */
-     , (0x701A606D, 0x701A609C, '2005-02-09 10:00:00') /* Drudge Stalker */
-     , (0x701A606D, 0x701A609E, '2005-02-09 10:00:00') /* Drudge Lurker */
-     , (0x701A606D, 0x701A609F, '2005-02-09 10:00:00') /* Drudge Lurker */
-     , (0x701A606D, 0x701A60A0, '2005-02-09 10:00:00') /* Mountain Rat */
-     , (0x701A606D, 0x701A60A1, '2005-02-09 10:00:00') /* Mountain Rat */
-     , (0x701A606D, 0x701A60A3, '2005-02-09 10:00:00') /* Drudge Prowler */
-     , (0x701A606D, 0x701A60A4, '2005-02-09 10:00:00') /* Drudge Prowler */
-     , (0x701A606D, 0x701A60A6, '2005-02-09 10:00:00') /* Drudge Slinker */
-     , (0x701A606D, 0x701A60A7, '2005-02-09 10:00:00') /* Drudge Prowler */
-     , (0x701A606D, 0x701A60A8, '2005-02-09 10:00:00') /* Drudge Prowler */
-     , (0x701A606D, 0x701A60A9, '2005-02-09 10:00:00') /* Drudge Prowler */
-     , (0x701A606D, 0x701A60AC, '2005-02-09 10:00:00') /* Virindi Servant */
-     , (0x701A606D, 0x701A60AD, '2005-02-09 10:00:00') /* Drudge Lurker */
-     , (0x701A606D, 0x701A60AE, '2005-02-09 10:00:00') /* Drudge Lurker */
-     , (0x701A606D, 0x701A60B1, '2005-02-09 10:00:00') /* Tusker Slave */
-     , (0x701A606D, 0x701A60B2, '2005-02-09 10:00:00') /* Tusker Slave */
-     , (0x701A606D, 0x701A60B3, '2005-02-09 10:00:00') /* Virindi Servant */
-     , (0x701A606D, 0x701A60B5, '2005-02-09 10:00:00') /* Tusker Guard */
-     , (0x701A606D, 0x701A60B6, '2005-02-09 10:00:00') /* Tusker Guard */
-     , (0x701A606D, 0x701A60B8, '2005-02-09 10:00:00') /* Virindi Servant */
-     , (0x701A606D, 0x701A60BC, '2005-02-09 10:00:00') /* Drudge Stalker */
-     , (0x701A606D, 0x701A60BD, '2005-02-09 10:00:00') /* Drudge Stalker */
-     , (0x701A606D, 0x701A60C2, '2005-02-09 10:00:00') /* Drudge Stalker */
-     , (0x701A606D, 0x701A60C3, '2005-02-09 10:00:00') /* Drudge Stalker */
-     , (0x701A606D, 0x701A60C5, '2005-02-09 10:00:00') /* Drudge Stalker */
-     , (0x701A606D, 0x701A60C6, '2005-02-09 10:00:00') /* Drudge Lurker */
-     , (0x701A606D, 0x701A60C8, '2005-02-09 10:00:00') /* Mountain Rat */
-     , (0x701A606D, 0x701A60C9, '2005-02-09 10:00:00') /* Mountain Rat */
-     , (0x701A606D, 0x701A60CA, '2005-02-09 10:00:00') /* Mountain Rat */
-     , (0x701A606D, 0x701A60CC, '2005-02-09 10:00:00') /* Drudge Lurker */
-     , (0x701A606D, 0x701A60CD, '2005-02-09 10:00:00') /* Drudge Lurker */
-     , (0x701A606D, 0x701A60CE, '2005-02-09 10:00:00') /* Drudge Lurker */;
+VALUES (0x701A606D, 0x701A6000, '2005-02-09 10:00:00') /* Drudge Prowler (192) */
+     , (0x701A606D, 0x701A6001, '2005-02-09 10:00:00') /* Drudge Prowler (192) */
+     , (0x701A606D, 0x701A6002, '2005-02-09 10:00:00') /* Drudge Prowler (192) */
+     , (0x701A606D, 0x701A6003, '2005-02-09 10:00:00') /* Drudge Prowler (192) */
+     , (0x701A606D, 0x701A6005, '2005-02-09 10:00:00') /* Virindi Puppet (238) */
+     , (0x701A606D, 0x701A6006, '2005-02-09 10:00:00') /* Virindi Puppet (238) */
+     , (0x701A606D, 0x701A6007, '2005-02-09 10:00:00') /* Virindi Puppet (238) */
+     , (0x701A606D, 0x701A6008, '2005-02-09 10:00:00') /* Tusker Guard (1629) */
+     , (0x701A606D, 0x701A6009, '2005-02-09 10:00:00') /* Tusker Guard (1629) */
+     , (0x701A606D, 0x701A600A, '2005-02-09 10:00:00') /* Virindi Puppet (238) */
+     , (0x701A606D, 0x701A600B, '2005-02-09 10:00:00') /* Virindi Puppet (238) */
+     , (0x701A606D, 0x701A600C, '2005-02-09 10:00:00') /* Virindi Servant (23) */
+     , (0x701A606D, 0x701A600E, '2005-02-09 10:00:00') /* Virindi Puppet (238) */
+     , (0x701A606D, 0x701A600F, '2005-02-09 10:00:00') /* Virindi Puppet (238) */
+     , (0x701A606D, 0x701A6010, '2005-02-09 10:00:00') /* Virindi Puppet (238) */
+     , (0x701A606D, 0x701A6011, '2005-02-09 10:00:00') /* Virindi Servant (23) */
+     , (0x701A606D, 0x701A6012, '2005-02-09 10:00:00') /* Tusker Slave (1628) */
+     , (0x701A606D, 0x701A6013, '2005-02-09 10:00:00') /* Virindi Servant (23) */
+     , (0x701A606D, 0x701A6014, '2005-02-09 10:00:00') /* Virindi Puppet (238) */
+     , (0x701A606D, 0x701A6015, '2005-02-09 10:00:00') /* Virindi Puppet (238) */
+     , (0x701A606D, 0x701A6016, '2005-02-09 10:00:00') /* Drudge Prowler (192) */
+     , (0x701A606D, 0x701A6017, '2005-02-09 10:00:00') /* Virindi Master (237) */
+     , (0x701A606D, 0x701A601E, '2005-02-09 10:00:00') /* Virindi Servant (23) */
+     , (0x701A606D, 0x701A601F, '2005-02-09 10:00:00') /* Virindi Servant (23) */
+     , (0x701A606D, 0x701A6020, '2005-02-09 10:00:00') /* Virindi Servant (23) */
+     , (0x701A606D, 0x701A6025, '2005-02-09 10:00:00') /* Virindi Puppet (238) */
+     , (0x701A606D, 0x701A6026, '2005-02-09 10:00:00') /* Virindi Puppet (238) */
+     , (0x701A606D, 0x701A6027, '2005-02-09 10:00:00') /* Virindi Servant (23) */
+     , (0x701A606D, 0x701A6028, '2005-02-09 10:00:00') /* Virindi Puppet (238) */
+     , (0x701A606D, 0x701A6029, '2005-02-09 10:00:00') /* Tusker Guard (1629) */
+     , (0x701A606D, 0x701A602C, '2005-02-09 10:00:00') /* Virindi Servant (23) */
+     , (0x701A606D, 0x701A602D, '2005-02-09 10:00:00') /* Virindi Puppet (238) */
+     , (0x701A606D, 0x701A602E, '2005-02-09 10:00:00') /* Virindi Puppet (238) */
+     , (0x701A606D, 0x701A602F, '2005-02-09 10:00:00') /* Virindi Servant (23) */
+     , (0x701A606D, 0x701A6030, '2005-02-09 10:00:00') /* Virindi Puppet (238) */
+     , (0x701A606D, 0x701A6031, '2005-02-09 10:00:00') /* Drudge Lurker (1608) */
+     , (0x701A606D, 0x701A6032, '2005-02-09 10:00:00') /* Drudge Stalker (1609) */
+     , (0x701A606D, 0x701A6033, '2005-02-09 10:00:00') /* Virindi Servant (23) */
+     , (0x701A606D, 0x701A6034, '2005-02-09 10:00:00') /* Virindi Puppet (238) */
+     , (0x701A606D, 0x701A6035, '2005-02-09 10:00:00') /* Tusker Crimsonback (1627) */
+     , (0x701A606D, 0x701A6038, '2005-02-09 10:00:00') /* Female Tusker (236) */
+     , (0x701A606D, 0x701A6039, '2005-02-09 10:00:00') /* Goldenback Tusker (235) */
+     , (0x701A606D, 0x701A603A, '2005-02-09 10:00:00') /* Male Tusker (11) */
+     , (0x701A606D, 0x701A603B, '2005-02-09 10:00:00') /* Male Tusker (11) */
+     , (0x701A606D, 0x701A603C, '2005-02-09 10:00:00') /* Virindi Puppet (238) */
+     , (0x701A606D, 0x701A603D, '2005-02-09 10:00:00') /* Drudge Stalker (1609) */
+     , (0x701A606D, 0x701A603E, '2005-02-09 10:00:00') /* Drudge Ravener (1610) */
+     , (0x701A606D, 0x701A603F, '2005-02-09 10:00:00') /* Virindi Servant (23) */
+     , (0x701A606D, 0x701A6041, '2005-02-09 10:00:00') /* Drudge Prowler (192) */
+     , (0x701A606D, 0x701A6042, '2005-02-09 10:00:00') /* Drudge Prowler (192) */
+     , (0x701A606D, 0x701A6044, '2005-02-09 10:00:00') /* Drudge Prowler (192) */
+     , (0x701A606D, 0x701A6045, '2005-02-09 10:00:00') /* Virindi Servant (23) */
+     , (0x701A606D, 0x701A6046, '2005-02-09 10:00:00') /* Virindi Servant (23) */
+     , (0x701A606D, 0x701A6047, '2005-02-09 10:00:00') /* Drudge Lurker (1608) */
+     , (0x701A606D, 0x701A6048, '2005-02-09 10:00:00') /* Drudge Lurker (1608) */
+     , (0x701A606D, 0x701A6049, '2005-02-09 10:00:00') /* Drudge Lurker (1608) */
+     , (0x701A606D, 0x701A604B, '2005-02-09 10:00:00') /* Mountain Rat (1625) */
+     , (0x701A606D, 0x701A6050, '2005-02-09 10:00:00') /* Silver Rat (1626) */
+     , (0x701A606D, 0x701A6051, '2005-02-09 10:00:00') /* Silver Rat (1626) */
+     , (0x701A606D, 0x701A6052, '2005-02-09 10:00:00') /* Silver Rat (1626) */
+     , (0x701A606D, 0x701A6056, '2005-02-09 10:00:00') /* Tusker Slave (1628) */
+     , (0x701A606D, 0x701A6057, '2005-02-09 10:00:00') /* Tusker Slave (1628) */
+     , (0x701A606D, 0x701A6058, '2005-02-09 10:00:00') /* Virindi Servant (23) */
+     , (0x701A606D, 0x701A605A, '2005-02-09 10:00:00') /* Tusker Slave (1628) */
+     , (0x701A606D, 0x701A605B, '2005-02-09 10:00:00') /* Tusker Slave (1628) */
+     , (0x701A606D, 0x701A605D, '2005-02-09 10:00:00') /* Tusker Slave (1628) */
+     , (0x701A606D, 0x701A605F, '2005-02-09 10:00:00') /* Drudge Prowler (192) */
+     , (0x701A606D, 0x701A6061, '2005-02-09 10:00:00') /* Drudge Prowler (192) */
+     , (0x701A606D, 0x701A6063, '2005-02-09 10:00:00') /* Drudge Prowler (192) */
+     , (0x701A606D, 0x701A6064, '2005-02-09 10:00:00') /* Drudge Prowler (192) */
+     , (0x701A606D, 0x701A6065, '2005-02-09 10:00:00') /* Drudge Prowler (192) */
+     , (0x701A606D, 0x701A6066, '2005-02-09 10:00:00') /* Drudge Prowler (192) */
+     , (0x701A606D, 0x701A6067, '2005-02-09 10:00:00') /* Drudge Prowler (192) */
+     , (0x701A606D, 0x701A6068, '2005-02-09 10:00:00') /* Drudge Slinker (193) */
+     , (0x701A606D, 0x701A606A, '2005-02-09 10:00:00') /* Virindi Servant (23) */
+     , (0x701A606D, 0x701A606B, '2005-02-09 10:00:00') /* Drudge Stalker (1609) */
+     , (0x701A606D, 0x701A606C, '2005-02-09 10:00:00') /* Drudge Stalker (1609) */
+     , (0x701A606D, 0x701A6071, '2005-02-09 10:00:00') /* Drudge Lurker (1608) */
+     , (0x701A606D, 0x701A6072, '2005-02-09 10:00:00') /* Drudge Lurker (1608) */
+     , (0x701A606D, 0x701A6073, '2005-02-09 10:00:00') /* Drudge Lurker (1608) */
+     , (0x701A606D, 0x701A6075, '2005-02-09 10:00:00') /* Drudge Lurker (1608) */
+     , (0x701A606D, 0x701A6076, '2005-02-09 10:00:00') /* Drudge Lurker (1608) */
+     , (0x701A606D, 0x701A6078, '2005-02-09 10:00:00') /* Silver Rat (1626) */
+     , (0x701A606D, 0x701A6079, '2005-02-09 10:00:00') /* Silver Rat (1626) */
+     , (0x701A606D, 0x701A607C, '2005-02-09 10:00:00') /* Drudge Lurker (1608) */
+     , (0x701A606D, 0x701A607D, '2005-02-09 10:00:00') /* Drudge Lurker (1608) */
+     , (0x701A606D, 0x701A607E, '2005-02-09 10:00:00') /* Drudge Lurker (1608) */
+     , (0x701A606D, 0x701A607F, '2005-02-09 10:00:00') /* Drudge Prowler (192) */
+     , (0x701A606D, 0x701A6080, '2005-02-09 10:00:00') /* Drudge Slinker (193) */
+     , (0x701A606D, 0x701A6081, '2005-02-09 10:00:00') /* Drudge Slinker (193) */
+     , (0x701A606D, 0x701A6085, '2005-02-09 10:00:00') /* Drudge Prowler (192) */
+     , (0x701A606D, 0x701A6086, '2005-02-09 10:00:00') /* Drudge Slinker (193) */
+     , (0x701A606D, 0x701A6087, '2005-02-09 10:00:00') /* Drudge Sneaker (940) */
+     , (0x701A606D, 0x701A6088, '2005-02-09 10:00:00') /* Tusker Guard (1629) */
+     , (0x701A606D, 0x701A6089, '2005-02-09 10:00:00') /* Virindi Servant (23) */
+     , (0x701A606D, 0x701A608B, '2005-02-09 10:00:00') /* Mountain Rat (1625) */
+     , (0x701A606D, 0x701A608C, '2005-02-09 10:00:00') /* Mountain Rat (1625) */
+     , (0x701A606D, 0x701A608D, '2005-02-09 10:00:00') /* Mountain Rat (1625) */
+     , (0x701A606D, 0x701A608E, '2005-02-09 10:00:00') /* Mountain Rat (1625) */
+     , (0x701A606D, 0x701A6090, '2005-02-09 10:00:00') /* Tusker Guard (1629) */
+     , (0x701A606D, 0x701A6091, '2005-02-09 10:00:00') /* Tusker Guard (1629) */
+     , (0x701A606D, 0x701A6095, '2005-02-09 10:00:00') /* Virindi Servant (23) */
+     , (0x701A606D, 0x701A6098, '2005-02-09 10:00:00') /* Drudge Stalker (1609) */
+     , (0x701A606D, 0x701A6099, '2005-02-09 10:00:00') /* Drudge Stalker (1609) */
+     , (0x701A606D, 0x701A609B, '2005-02-09 10:00:00') /* Drudge Stalker (1609) */
+     , (0x701A606D, 0x701A609C, '2005-02-09 10:00:00') /* Drudge Stalker (1609) */
+     , (0x701A606D, 0x701A609E, '2005-02-09 10:00:00') /* Drudge Lurker (1608) */
+     , (0x701A606D, 0x701A609F, '2005-02-09 10:00:00') /* Drudge Lurker (1608) */
+     , (0x701A606D, 0x701A60A0, '2005-02-09 10:00:00') /* Mountain Rat (1625) */
+     , (0x701A606D, 0x701A60A1, '2005-02-09 10:00:00') /* Mountain Rat (1625) */
+     , (0x701A606D, 0x701A60A3, '2005-02-09 10:00:00') /* Drudge Prowler (192) */
+     , (0x701A606D, 0x701A60A4, '2005-02-09 10:00:00') /* Drudge Prowler (192) */
+     , (0x701A606D, 0x701A60A6, '2005-02-09 10:00:00') /* Drudge Slinker (1468) */
+     , (0x701A606D, 0x701A60A7, '2005-02-09 10:00:00') /* Drudge Prowler (192) */
+     , (0x701A606D, 0x701A60A8, '2005-02-09 10:00:00') /* Drudge Prowler (192) */
+     , (0x701A606D, 0x701A60A9, '2005-02-09 10:00:00') /* Drudge Prowler (192) */
+     , (0x701A606D, 0x701A60AC, '2005-02-09 10:00:00') /* Virindi Servant (23) */
+     , (0x701A606D, 0x701A60AD, '2005-02-09 10:00:00') /* Drudge Lurker (1608) */
+     , (0x701A606D, 0x701A60AE, '2005-02-09 10:00:00') /* Drudge Lurker (1608) */
+     , (0x701A606D, 0x701A60B1, '2005-02-09 10:00:00') /* Tusker Slave (1628) */
+     , (0x701A606D, 0x701A60B2, '2005-02-09 10:00:00') /* Tusker Slave (1628) */
+     , (0x701A606D, 0x701A60B3, '2005-02-09 10:00:00') /* Virindi Servant (23) */
+     , (0x701A606D, 0x701A60B5, '2005-02-09 10:00:00') /* Tusker Guard (1629) */
+     , (0x701A606D, 0x701A60B6, '2005-02-09 10:00:00') /* Tusker Guard (1629) */
+     , (0x701A606D, 0x701A60B8, '2005-02-09 10:00:00') /* Virindi Servant (23) */
+     , (0x701A606D, 0x701A60BC, '2005-02-09 10:00:00') /* Drudge Stalker (1609) */
+     , (0x701A606D, 0x701A60BD, '2005-02-09 10:00:00') /* Drudge Stalker (1609) */
+     , (0x701A606D, 0x701A60C2, '2005-02-09 10:00:00') /* Drudge Stalker (1609) */
+     , (0x701A606D, 0x701A60C3, '2005-02-09 10:00:00') /* Drudge Stalker (1609) */
+     , (0x701A606D, 0x701A60C5, '2005-02-09 10:00:00') /* Drudge Stalker (1609) */
+     , (0x701A606D, 0x701A60C6, '2005-02-09 10:00:00') /* Drudge Lurker (1608) */
+     , (0x701A606D, 0x701A60C8, '2005-02-09 10:00:00') /* Mountain Rat (1625) */
+     , (0x701A606D, 0x701A60C9, '2005-02-09 10:00:00') /* Mountain Rat (1625) */
+     , (0x701A606D, 0x701A60CA, '2005-02-09 10:00:00') /* Mountain Rat (1625) */
+     , (0x701A606D, 0x701A60CC, '2005-02-09 10:00:00') /* Drudge Lurker (1608) */
+     , (0x701A606D, 0x701A60CD, '2005-02-09 10:00:00') /* Drudge Lurker (1608) */
+     , (0x701A606D, 0x701A60CE, '2005-02-09 10:00:00') /* Drudge Lurker (1608) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x701A606E,  7923, 0x01A601E8, 70.0989, -28.4463, 6, 0.707107, 0, 0, -0.707107, False, '2005-02-09 10:00:00'); /* Linkable Monster Generator ( 3 Min.) */
 /* @teleloc 0x01A601E8 [70.098900 -28.446300 6.000000] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x701A606E, 0x701A6018, '2005-02-09 10:00:00') /* Virindi Servant */
-     , (0x701A606E, 0x701A6019, '2005-02-09 10:00:00') /* Virindi Servant */
-     , (0x701A606E, 0x701A601A, '2005-02-09 10:00:00') /* Virindi Director */
-     , (0x701A606E, 0x701A604C, '2005-02-09 10:00:00') /* Mountain Rat */
-     , (0x701A606E, 0x701A6062, '2005-02-09 10:00:00') /* Drudge Prowler */;
+VALUES (0x701A606E, 0x701A6018, '2005-02-09 10:00:00') /* Virindi Servant (23) */
+     , (0x701A606E, 0x701A6019, '2005-02-09 10:00:00') /* Virindi Servant (23) */
+     , (0x701A606E, 0x701A601A, '2005-02-09 10:00:00') /* Virindi Director (5497) */
+     , (0x701A606E, 0x701A604C, '2005-02-09 10:00:00') /* Mountain Rat (1625) */
+     , (0x701A606E, 0x701A6062, '2005-02-09 10:00:00') /* Drudge Prowler (192) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x701A606F,  3952, 0x01A601E8, 70, -30, 6, 0.707107, 0, 0, -0.707107, False, '2005-02-09 10:00:00'); /* Linkable Item Gen (30 min.) */
 /* @teleloc 0x01A601E8 [70.000000 -30.000000 6.000000] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x701A606F, 0x701A6092, '2005-02-09 10:00:00') /* Silvery Key */;
+VALUES (0x701A606F, 0x701A6092, '2005-02-09 10:00:00') /* Silvery Key (2546) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x701A6070,  2131, 0x01A601F3, 70.0256, -63.0685, 0, 1, 0, 0, 0,  True, '2005-02-09 10:00:00'); /* Pressure Plate */
@@ -621,8 +621,8 @@ VALUES (0x701A6074,  2180, 0x01A601F9, 70, -65.25, 0, 1, 0, 0, 0, False, '2005-0
 /* @teleloc 0x01A601F9 [70.000000 -65.250000 0.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x701A6074, 0x701A6070, '2005-02-09 10:00:00') /* Pressure Plate */
-     , (0x701A6074, 0x701A607A, '2005-02-09 10:00:00') /* Pressure Plate */;
+VALUES (0x701A6074, 0x701A6070, '2005-02-09 10:00:00') /* Pressure Plate (2131) */
+     , (0x701A6074, 0x701A607A, '2005-02-09 10:00:00') /* Pressure Plate (2131) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x701A6075,  1608, 0x01A601F9, 70.5598, -67.4743, 0.0035, 1, 0, 0, 0,  True, '2005-02-09 10:00:00'); /* Drudge Lurker */

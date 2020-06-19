@@ -73,8 +73,8 @@ VALUES (0x7E54E011,  1154, 0xE54E0000, 83.2435, 72.8769, 12.005, 0.998866, 0, 0,
 /* @teleloc 0xE54E0000 [83.243500 72.876900 12.005000] 0.998866 0.000000 0.000000 -0.047604 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7E54E011, 0x7E54E00C, '2005-02-09 10:00:00') /* Fanzen San the Translator */
-     , (0x7E54E011, 0x7E54E014, '2005-02-09 10:00:00') /* Arcanum Researcher */;
+VALUES (0x7E54E011, 0x7E54E00C, '2005-02-09 10:00:00') /* Fanzen San the Translator (5694) */
+     , (0x7E54E011, 0x7E54E014, '2005-02-09 10:00:00') /* Arcanum Researcher (16892) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7E54E012,  5698, 0xE54E0104, 90.0539, 88.3105, 20.405, -0.707107, 0, 0, -0.707107, False, '2005-02-09 10:00:00'); /* The Collected Writings of Jhong Mi */

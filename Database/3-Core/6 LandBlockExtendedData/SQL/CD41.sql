@@ -225,7 +225,7 @@ VALUES (0x7CD4103B,  7923, 0xCD410184, 136.084, 56.4128, 54.005, -0.705256, 0, 0
 /* @teleloc 0xCD410184 [136.084000 56.412800 54.005000] -0.705256 0.000000 0.000000 -0.708953 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7CD4103B, 0x7CD4103A, '2005-02-09 10:00:00') /* Agent of the Arcanum */;
+VALUES (0x7CD4103B, 0x7CD4103A, '2005-02-09 10:00:00') /* Agent of the Arcanum (12050) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7CD4103C, 12304, 0xCD410000, 136.567, 64.836, 54.005, -0.000999038, 0, 0, 0.999999, False, '2005-02-09 10:00:00'); /* Agent of the Arcanum  */
@@ -256,7 +256,7 @@ VALUES (0x7CD4104D,  7923, 0xCD410125, 89.5465, 133.569, 62.405, -0.963839, 0, 0
 /* @teleloc 0xCD410125 [89.546500 133.569000 62.405000] -0.963839 0.000000 0.000000 -0.266487 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7CD4104D, 0x7CD4104C, '2005-02-09 10:00:00') /* Lia Tze */;
+VALUES (0x7CD4104D, 0x7CD4104C, '2005-02-09 10:00:00') /* Lia Tze (15811) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7CD4104E, 19197, 0xCD410000, 110.043, 109.545, 60.83, -0.72484, 0, 0, -0.688917, False, '2005-02-09 10:00:00'); /* Nullified Statue of a Golem */

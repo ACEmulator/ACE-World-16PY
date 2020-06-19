@@ -5,28 +5,28 @@ VALUES (0x71D12000,  3955, 0x1D120000, 136.585, 188.922, 0.622908, 0.585234, 0, 
 /* @teleloc 0x1D120000 [136.585000 188.922000 0.622908] 0.585234 0.000000 0.000000 0.810865 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71D12000, 0x71D12001, '2005-02-09 10:00:00') /* Withered Raider Justicar */
-     , (0x71D12000, 0x71D12002, '2005-02-09 10:00:00') /* Withered Raider Justicar */
-     , (0x71D12000, 0x71D12003, '2005-02-09 10:00:00') /* Withered Raider Justicar */
-     , (0x71D12000, 0x71D12004, '2005-02-09 10:00:00') /* Withered Raider Justicar */
-     , (0x71D12000, 0x71D12005, '2005-02-09 10:00:00') /* Withered Raider Prefect */
-     , (0x71D12000, 0x71D12006, '2005-02-09 10:00:00') /* Withered Raider Prefect */
-     , (0x71D12000, 0x71D12007, '2005-02-09 10:00:00') /* Withered Raider Prefect */
-     , (0x71D12000, 0x71D12009, '2005-02-09 10:00:00') /* Withered Raider Prefect */
-     , (0x71D12000, 0x71D1200A, '2005-02-09 10:00:00') /* Withered Raider Justicar */
-     , (0x71D12000, 0x71D1200B, '2005-02-09 10:00:00') /* Withered Raider Justicar */
-     , (0x71D12000, 0x71D1200C, '2005-02-09 10:00:00') /* Withered Raider Justicar */
-     , (0x71D12000, 0x71D1200D, '2005-02-09 10:00:00') /* Withered Raider Justicar */
-     , (0x71D12000, 0x71D1200F, '2005-02-09 10:00:00') /* Withered Raider Justicar */
-     , (0x71D12000, 0x71D12010, '2005-02-09 10:00:00') /* Withered Raider Justicar */
-     , (0x71D12000, 0x71D12011, '2005-02-09 10:00:00') /* Withered Raider Justicar */
-     , (0x71D12000, 0x71D12012, '2005-02-09 10:00:00') /* Withered Raider Prefect */
-     , (0x71D12000, 0x71D12013, '2005-02-09 10:00:00') /* Withered Raider Prefect */
-     , (0x71D12000, 0x71D12014, '2005-02-09 10:00:00') /* Withered Raider Prefect */
-     , (0x71D12000, 0x71D12015, '2005-02-09 10:00:00') /* Withered Raider Prefect */
-     , (0x71D12000, 0x71D12016, '2005-02-09 10:00:00') /* Withered Raider Prefect */
-     , (0x71D12000, 0x71D12017, '2005-02-09 10:00:00') /* Withered Raider Justicar */
-     , (0x71D12000, 0x71D12018, '2005-02-09 10:00:00') /* Withered Raider Justicar */;
+VALUES (0x71D12000, 0x71D12001, '2005-02-09 10:00:00') /* Withered Raider Justicar (30691) */
+     , (0x71D12000, 0x71D12002, '2005-02-09 10:00:00') /* Withered Raider Justicar (30691) */
+     , (0x71D12000, 0x71D12003, '2005-02-09 10:00:00') /* Withered Raider Justicar (30691) */
+     , (0x71D12000, 0x71D12004, '2005-02-09 10:00:00') /* Withered Raider Justicar (30691) */
+     , (0x71D12000, 0x71D12005, '2005-02-09 10:00:00') /* Withered Raider Prefect (30689) */
+     , (0x71D12000, 0x71D12006, '2005-02-09 10:00:00') /* Withered Raider Prefect (30689) */
+     , (0x71D12000, 0x71D12007, '2005-02-09 10:00:00') /* Withered Raider Prefect (30689) */
+     , (0x71D12000, 0x71D12009, '2005-02-09 10:00:00') /* Withered Raider Prefect (30689) */
+     , (0x71D12000, 0x71D1200A, '2005-02-09 10:00:00') /* Withered Raider Justicar (30691) */
+     , (0x71D12000, 0x71D1200B, '2005-02-09 10:00:00') /* Withered Raider Justicar (30691) */
+     , (0x71D12000, 0x71D1200C, '2005-02-09 10:00:00') /* Withered Raider Justicar (30691) */
+     , (0x71D12000, 0x71D1200D, '2005-02-09 10:00:00') /* Withered Raider Justicar (30691) */
+     , (0x71D12000, 0x71D1200F, '2005-02-09 10:00:00') /* Withered Raider Justicar (30691) */
+     , (0x71D12000, 0x71D12010, '2005-02-09 10:00:00') /* Withered Raider Justicar (30691) */
+     , (0x71D12000, 0x71D12011, '2005-02-09 10:00:00') /* Withered Raider Justicar (30691) */
+     , (0x71D12000, 0x71D12012, '2005-02-09 10:00:00') /* Withered Raider Prefect (30689) */
+     , (0x71D12000, 0x71D12013, '2005-02-09 10:00:00') /* Withered Raider Prefect (30689) */
+     , (0x71D12000, 0x71D12014, '2005-02-09 10:00:00') /* Withered Raider Prefect (30689) */
+     , (0x71D12000, 0x71D12015, '2005-02-09 10:00:00') /* Withered Raider Prefect (30689) */
+     , (0x71D12000, 0x71D12016, '2005-02-09 10:00:00') /* Withered Raider Prefect (30689) */
+     , (0x71D12000, 0x71D12017, '2005-02-09 10:00:00') /* Withered Raider Justicar (30691) */
+     , (0x71D12000, 0x71D12018, '2005-02-09 10:00:00') /* Withered Raider Justicar (30691) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71D12001, 30691, 0x1D120000, 74.4171, 169.252, 4.01717, 0.441797, 0, 0, 0.897115,  True, '2005-02-09 10:00:00'); /* Withered Raider Justicar */

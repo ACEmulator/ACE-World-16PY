@@ -9,26 +9,26 @@ VALUES (0x7F419001,  7925, 0xF4190000, 121.997, 8.54121, 99.555, 0.0726797, 0, 0
 /* @teleloc 0xF4190000 [121.997000 8.541210 99.555000] 0.072680 0.000000 0.000000 0.997355 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7F419001, 0x7F419000, '2005-02-09 10:00:00') /* Slithayr Eye Stalk */
-     , (0x7F419001, 0x7F419003, '2005-02-09 10:00:00') /* Sulthis Eye Stalk */
-     , (0x7F419001, 0x7F419004, '2005-02-09 10:00:00') /* Sulthis Eye Stalk */
-     , (0x7F419001, 0x7F419005, '2005-02-09 10:00:00') /* Sulthis Eye Stalk */
-     , (0x7F419001, 0x7F419006, '2005-02-09 10:00:00') /* Island Armoredillo */
-     , (0x7F419001, 0x7F419007, '2005-02-09 10:00:00') /* Island Armoredillo */
-     , (0x7F419001, 0x7F419011, '2005-02-09 10:00:00') /* Sephal Niffis */
-     , (0x7F419001, 0x7F419012, '2005-02-09 10:00:00') /* Sephal Niffis */
-     , (0x7F419001, 0x7F419013, '2005-02-09 10:00:00') /* Sephal Niffis */;
+VALUES (0x7F419001, 0x7F419000, '2005-02-09 10:00:00') /* Slithayr Eye Stalk (4261) */
+     , (0x7F419001, 0x7F419003, '2005-02-09 10:00:00') /* Sulthis Eye Stalk (8470) */
+     , (0x7F419001, 0x7F419004, '2005-02-09 10:00:00') /* Sulthis Eye Stalk (8470) */
+     , (0x7F419001, 0x7F419005, '2005-02-09 10:00:00') /* Sulthis Eye Stalk (8470) */
+     , (0x7F419001, 0x7F419006, '2005-02-09 10:00:00') /* Island Armoredillo (7082) */
+     , (0x7F419001, 0x7F419007, '2005-02-09 10:00:00') /* Island Armoredillo (7082) */
+     , (0x7F419001, 0x7F419011, '2005-02-09 10:00:00') /* Sephal Niffis (7988) */
+     , (0x7F419001, 0x7F419012, '2005-02-09 10:00:00') /* Sephal Niffis (7988) */
+     , (0x7F419001, 0x7F419013, '2005-02-09 10:00:00') /* Sephal Niffis (7988) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7F419002,  4219, 0xF4190000, 138.313, 124.633, 0.391116, 0.734907, 0, 0, 0.678168, False, '2005-02-09 10:00:00'); /* Linkable Monster Generator ( 7 Min.) */
 /* @teleloc 0xF4190000 [138.313000 124.633000 0.391116] 0.734907 0.000000 0.000000 0.678168 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7F419002, 0x7F419008, '2005-02-09 10:00:00') /* Shallows Devourer */
-     , (0x7F419002, 0x7F419009, '2005-02-09 10:00:00') /* Shallows Devourer */
-     , (0x7F419002, 0x7F41900E, '2005-02-09 10:00:00') /* Shallows Devourer */
-     , (0x7F419002, 0x7F41900F, '2005-02-09 10:00:00') /* Shallows Devourer */
-     , (0x7F419002, 0x7F419010, '2005-02-09 10:00:00') /* Shallows Destroyer */;
+VALUES (0x7F419002, 0x7F419008, '2005-02-09 10:00:00') /* Shallows Devourer (7109) */
+     , (0x7F419002, 0x7F419009, '2005-02-09 10:00:00') /* Shallows Devourer (7109) */
+     , (0x7F419002, 0x7F41900E, '2005-02-09 10:00:00') /* Shallows Devourer (7109) */
+     , (0x7F419002, 0x7F41900F, '2005-02-09 10:00:00') /* Shallows Devourer (7109) */
+     , (0x7F419002, 0x7F419010, '2005-02-09 10:00:00') /* Shallows Destroyer (7108) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7F419003,  8470, 0xF4190000, 155.067, 78.7603, -0.895, -0.502622, 0, 0, 0.864506,  True, '2005-02-09 10:00:00'); /* Sulthis Eye Stalk */
@@ -103,10 +103,10 @@ VALUES (0x7F419014,  3954, 0xF4190000, 139.477, 122.403, 0.205265, 0.985539, 0, 
 /* @teleloc 0xF4190000 [139.477000 122.403000 0.205265] 0.985539 0.000000 0.000000 0.169446 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7F419014, 0x7F41900A, '2005-02-09 10:00:00') /* Pile of Long Sticks */
-     , (0x7F419014, 0x7F41900B, '2005-02-09 10:00:00') /* Pile of Long Sticks */
-     , (0x7F419014, 0x7F41900C, '2005-02-09 10:00:00') /* Pile of Short Sticks */
-     , (0x7F419014, 0x7F41900D, '2005-02-09 10:00:00') /* Pile of Short Sticks */;
+VALUES (0x7F419014, 0x7F41900A, '2005-02-09 10:00:00') /* Pile of Long Sticks (6117) */
+     , (0x7F419014, 0x7F41900B, '2005-02-09 10:00:00') /* Pile of Long Sticks (6117) */
+     , (0x7F419014, 0x7F41900C, '2005-02-09 10:00:00') /* Pile of Short Sticks (6118) */
+     , (0x7F419014, 0x7F41900D, '2005-02-09 10:00:00') /* Pile of Short Sticks (6118) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7F419015,  5408, 0xF4190000, 187.659, 76.1639, -0.095, -0.692156, 0, 0, 0.721748, False, '2005-02-09 10:00:00'); /* Waterfall */

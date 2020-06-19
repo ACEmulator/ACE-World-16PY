@@ -25,5 +25,5 @@ VALUES (0x7D754005,  1154, 0xD7540101, 81.8622, 34.5601, 34.005, -0.992264, 0, 0
 /* @teleloc 0xD7540101 [81.862200 34.560100 34.005000] -0.992264 0.000000 0.000000 0.124144 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7D754005, 0x7D754003, '2005-02-09 10:00:00') /* Drudge Slinker */
-     , (0x7D754005, 0x7D754004, '2005-02-09 10:00:00') /* Drudge Slinker */;
+VALUES (0x7D754005, 0x7D754003, '2005-02-09 10:00:00') /* Drudge Slinker (193) */
+     , (0x7D754005, 0x7D754004, '2005-02-09 10:00:00') /* Drudge Slinker (193) */;

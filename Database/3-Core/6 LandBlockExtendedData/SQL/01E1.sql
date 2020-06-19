@@ -69,7 +69,7 @@ VALUES (0x701E1015,  4058, 0x01E10123, 20.3567, -68.2518, -29.1955, 0.925871, 0,
 /* @teleloc 0x01E10123 [20.356700 -68.251800 -29.195500] 0.925871 0.000000 0.000000 -0.377840 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x701E1015, 0x701E1014, '2005-02-09 10:00:00') /* Pressure Plate */;
+VALUES (0x701E1015, 0x701E1014, '2005-02-09 10:00:00') /* Pressure Plate (2131) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x701E1016,  4014, 0x01E10124, 31.526, -57.4222, -30, -0.707107, 0, 0, -0.707107, False, '2005-02-09 10:00:00'); /* Cheap Magic Generator */
@@ -100,7 +100,7 @@ VALUES (0x701E101C,  4058, 0x01E1012D, 41.2952, -60.3639, -29.12, 1, 0, 0, 0, Fa
 /* @teleloc 0x01E1012D [41.295200 -60.363900 -29.120000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x701E101C, 0x701E1020, '2005-02-09 10:00:00') /* Pressure Plate */;
+VALUES (0x701E101C, 0x701E1020, '2005-02-09 10:00:00') /* Pressure Plate (2131) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x701E101D,  7334, 0x01E10132, 50, -60, -29.9975, -0.667182, 0, 0, -0.744894,  True, '2005-02-09 10:00:00'); /* Skeleton Bone Knight */
@@ -167,8 +167,8 @@ VALUES (0x701E1034,  2180, 0x01E10174, 24.75, -100, -12, -0.707107, 0, 0, 0.7071
 /* @teleloc 0x01E10174 [24.750000 -100.000000 -12.000000] -0.707107 0.000000 0.000000 0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x701E1034, 0x701E1035, '2005-02-09 10:00:00') /* Pressure Plate */
-     , (0x701E1034, 0x701E1037, '2005-02-09 10:00:00') /* Lever */;
+VALUES (0x701E1034, 0x701E1035, '2005-02-09 10:00:00') /* Pressure Plate (2131) */
+     , (0x701E1034, 0x701E1037, '2005-02-09 10:00:00') /* Lever (285) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x701E1035,  2131, 0x01E10174, 20.7814, -100.12, -12, 1, 0, 0, 0,  True, '2005-02-09 10:00:00'); /* Pressure Plate */
@@ -247,8 +247,8 @@ VALUES (0x701E1049, 15759, 0x01E101CA, 27.4149, -79.8013, -6, 0.707107, 0, 0, -0
 /* @teleloc 0x01E101CA [27.414900 -79.801300 -6.000000] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x701E1049, 0x701E1048, '2005-02-09 10:00:00') /* Key */
-     , (0x701E1049, 0x701E1089, '2005-02-09 10:00:00') /* Alloy Cogwheel */;
+VALUES (0x701E1049, 0x701E1048, '2005-02-09 10:00:00') /* Key (603) */
+     , (0x701E1049, 0x701E1089, '2005-02-09 10:00:00') /* Alloy Cogwheel (25323) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x701E104A,  1609, 0x01E101CA, 30.5444, -78.8322, -5.99545, 0.707107, 0, 0, -0.707107,  True, '2005-02-09 10:00:00'); /* Drudge Stalker */
@@ -267,8 +267,8 @@ VALUES (0x701E104D,  2180, 0x01E101CC, 30, -75.25, -6, -1, 0, 0, 0, False, '2005
 /* @teleloc 0x01E101CC [30.000000 -75.250000 -6.000000] -1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x701E104D, 0x701E1046, '2005-02-09 10:00:00') /* Pressure Plate */
-     , (0x701E104D, 0x701E104C, '2005-02-09 10:00:00') /* Lever */;
+VALUES (0x701E104D, 0x701E1046, '2005-02-09 10:00:00') /* Pressure Plate (2131) */
+     , (0x701E104D, 0x701E104C, '2005-02-09 10:00:00') /* Lever (285) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x701E104E,  7334, 0x01E101D4, 41.553, -29.457, -5.9975, 1, 0, 0, 0,  True, '2005-02-09 10:00:00'); /* Skeleton Bone Knight */
@@ -327,8 +327,8 @@ VALUES (0x701E105E,  2180, 0x01E10206, 80, -75.25, -6, 1, 0, 0, 0, False, '2005-
 /* @teleloc 0x01E10206 [80.000000 -75.250000 -6.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x701E105E, 0x701E1058, '2005-02-09 10:00:00') /* Button */
-     , (0x701E105E, 0x701E105B, '2005-02-09 10:00:00') /* Button */;
+VALUES (0x701E105E, 0x701E1058, '2005-02-09 10:00:00') /* Button (269) */
+     , (0x701E105E, 0x701E105B, '2005-02-09 10:00:00') /* Button (269) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x701E1061,   278, 0x01E10211, 114.886, -70.0271, -6, -0.707107, 0, 0, -0.707107, False, '2005-02-09 10:00:00'); /* Door */
@@ -419,8 +419,8 @@ VALUES (0x701E1076,  2180, 0x01E1024A, 174.75, -80, -6, 0.707107, 0, 0, -0.70710
 /* @teleloc 0x01E1024A [174.750000 -80.000000 -6.000000] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x701E1076, 0x701E1075, '2005-02-09 10:00:00') /* Pressure Plate */
-     , (0x701E1076, 0x701E1078, '2005-02-09 10:00:00') /* Pressure Plate */;
+VALUES (0x701E1076, 0x701E1075, '2005-02-09 10:00:00') /* Pressure Plate (2131) */
+     , (0x701E1076, 0x701E1078, '2005-02-09 10:00:00') /* Pressure Plate (2131) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x701E1077,  1300, 0x01E1024B, 180.01, -44.85, -6, -4.37114E-08, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Door */
@@ -471,63 +471,63 @@ VALUES (0x701E1082,  7923, 0x01E10275, 89.007, -70.047, 0, -4.37114E-08, 0, 0, -
 /* @teleloc 0x01E10275 [89.007000 -70.047000 0.000000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x701E1082, 0x701E1004, '2005-02-09 10:00:00') /* Banderling Rogue */
-     , (0x701E1082, 0x701E1007, '2005-02-09 10:00:00') /* Banderling Rogue */
-     , (0x701E1082, 0x701E1009, '2005-02-09 10:00:00') /* Banderling Striker */
-     , (0x701E1082, 0x701E100B, '2005-02-09 10:00:00') /* Banderling Bandit */
-     , (0x701E1082, 0x701E100D, '2005-02-09 10:00:00') /* Banderling Striker */
-     , (0x701E1082, 0x701E1010, '2005-02-09 10:00:00') /* Banderling Striker */
-     , (0x701E1082, 0x701E1011, '2005-02-09 10:00:00') /* Banderling Striker */
-     , (0x701E1082, 0x701E1018, '2005-02-09 10:00:00') /* Skeleton Bone Knight */
-     , (0x701E1082, 0x701E1019, '2005-02-09 10:00:00') /* Skeleton Bone Knight */
-     , (0x701E1082, 0x701E101A, '2005-02-09 10:00:00') /* Skeleton Bone Knight */
-     , (0x701E1082, 0x701E101B, '2005-02-09 10:00:00') /* Skeleton Bone Knight */
-     , (0x701E1082, 0x701E101D, '2005-02-09 10:00:00') /* Skeleton Bone Knight */
-     , (0x701E1082, 0x701E101E, '2005-02-09 10:00:00') /* Skeleton Bone Knight */
-     , (0x701E1082, 0x701E101F, '2005-02-09 10:00:00') /* Skeleton Bone Knight */
-     , (0x701E1082, 0x701E1021, '2005-02-09 10:00:00') /* Skeleton Bone Knight */
-     , (0x701E1082, 0x701E1023, '2005-02-09 10:00:00') /* Skeleton Bone Knight */
-     , (0x701E1082, 0x701E102E, '2005-02-09 10:00:00') /* Revenant */
-     , (0x701E1082, 0x701E102F, '2005-02-09 10:00:00') /* Revenant */
-     , (0x701E1082, 0x701E1039, '2005-02-09 10:00:00') /* Banderling Striker */
-     , (0x701E1082, 0x701E103B, '2005-02-09 10:00:00') /* Skeleton Bone Knight */
-     , (0x701E1082, 0x701E103C, '2005-02-09 10:00:00') /* Skeleton Bone Knight */
-     , (0x701E1082, 0x701E103D, '2005-02-09 10:00:00') /* Skeleton Bone Knight */
-     , (0x701E1082, 0x701E1041, '2005-02-09 10:00:00') /* Skeleton Bone Knight */
-     , (0x701E1082, 0x701E1042, '2005-02-09 10:00:00') /* Skeleton Bone Knight */
-     , (0x701E1082, 0x701E1043, '2005-02-09 10:00:00') /* Skeleton Bone Knight */
-     , (0x701E1082, 0x701E104A, '2005-02-09 10:00:00') /* Drudge Stalker */
-     , (0x701E1082, 0x701E104B, '2005-02-09 10:00:00') /* Drudge Stalker */
-     , (0x701E1082, 0x701E104E, '2005-02-09 10:00:00') /* Skeleton Bone Knight */
-     , (0x701E1082, 0x701E104F, '2005-02-09 10:00:00') /* Skeleton Bone Knight */
-     , (0x701E1082, 0x701E1052, '2005-02-09 10:00:00') /* Banderling Bandit */
-     , (0x701E1082, 0x701E1053, '2005-02-09 10:00:00') /* Banderling Bandit */
-     , (0x701E1082, 0x701E1054, '2005-02-09 10:00:00') /* Banderling Striker */
-     , (0x701E1082, 0x701E1055, '2005-02-09 10:00:00') /* Banderling Striker */
-     , (0x701E1082, 0x701E1056, '2005-02-09 10:00:00') /* Banderling Striker */
-     , (0x701E1082, 0x701E106C, '2005-02-09 10:00:00') /* Drudge Stalker */
-     , (0x701E1082, 0x701E106D, '2005-02-09 10:00:00') /* Drudge Stalker */
-     , (0x701E1082, 0x701E1070, '2005-02-09 10:00:00') /* Sewer Rat */
-     , (0x701E1082, 0x701E1072, '2005-02-09 10:00:00') /* Sewer Rat */
-     , (0x701E1082, 0x701E1073, '2005-02-09 10:00:00') /* Sewer Rat */
-     , (0x701E1082, 0x701E107F, '2005-02-09 10:00:00') /* Drudge Stalker */
-     , (0x701E1082, 0x701E1080, '2005-02-09 10:00:00') /* Drudge Stalker */
-     , (0x701E1082, 0x701E1081, '2005-02-09 10:00:00') /* Drudge Stalker */
-     , (0x701E1082, 0x701E1085, '2005-02-09 10:00:00') /* Banderling Bandit */
-     , (0x701E1082, 0x701E1087, '2005-02-09 10:00:00') /* Skeleton Bone Knight */
-     , (0x701E1082, 0x701E1088, '2005-02-09 10:00:00') /* Skeleton Bone Knight */
-     , (0x701E1082, 0x701E108A, '2005-02-09 10:00:00') /* Banderling Rogue */
-     , (0x701E1082, 0x701E108B, '2005-02-09 10:00:00') /* Banderling Rogue */
-     , (0x701E1082, 0x701E108C, '2005-02-09 10:00:00') /* Banderling Bandit */
-     , (0x701E1082, 0x701E108D, '2005-02-09 10:00:00') /* Banderling Bandit */
-     , (0x701E1082, 0x701E108E, '2005-02-09 10:00:00') /* Banderling Striker */
-     , (0x701E1082, 0x701E108F, '2005-02-09 10:00:00') /* Banderling Striker */
-     , (0x701E1082, 0x701E1090, '2005-02-09 10:00:00') /* Banderling Striker */
-     , (0x701E1082, 0x701E1091, '2005-02-09 10:00:00') /* Sewer Rat */
-     , (0x701E1082, 0x701E1092, '2005-02-09 10:00:00') /* Drudge Stalker */
-     , (0x701E1082, 0x701E1093, '2005-02-09 10:00:00') /* Drudge Stalker */
-     , (0x701E1082, 0x701E1094, '2005-02-09 10:00:00') /* Banderling Striker */
-     , (0x701E1082, 0x701E1095, '2005-02-09 10:00:00') /* Banderling Rogue */;
+VALUES (0x701E1082, 0x701E1004, '2005-02-09 10:00:00') /* Banderling Rogue (22810) */
+     , (0x701E1082, 0x701E1007, '2005-02-09 10:00:00') /* Banderling Rogue (22810) */
+     , (0x701E1082, 0x701E1009, '2005-02-09 10:00:00') /* Banderling Striker (7345) */
+     , (0x701E1082, 0x701E100B, '2005-02-09 10:00:00') /* Banderling Bandit (22809) */
+     , (0x701E1082, 0x701E100D, '2005-02-09 10:00:00') /* Banderling Striker (7345) */
+     , (0x701E1082, 0x701E1010, '2005-02-09 10:00:00') /* Banderling Striker (7345) */
+     , (0x701E1082, 0x701E1011, '2005-02-09 10:00:00') /* Banderling Striker (7345) */
+     , (0x701E1082, 0x701E1018, '2005-02-09 10:00:00') /* Skeleton Bone Knight (7334) */
+     , (0x701E1082, 0x701E1019, '2005-02-09 10:00:00') /* Skeleton Bone Knight (7334) */
+     , (0x701E1082, 0x701E101A, '2005-02-09 10:00:00') /* Skeleton Bone Knight (7334) */
+     , (0x701E1082, 0x701E101B, '2005-02-09 10:00:00') /* Skeleton Bone Knight (7334) */
+     , (0x701E1082, 0x701E101D, '2005-02-09 10:00:00') /* Skeleton Bone Knight (7334) */
+     , (0x701E1082, 0x701E101E, '2005-02-09 10:00:00') /* Skeleton Bone Knight (7334) */
+     , (0x701E1082, 0x701E101F, '2005-02-09 10:00:00') /* Skeleton Bone Knight (7334) */
+     , (0x701E1082, 0x701E1021, '2005-02-09 10:00:00') /* Skeleton Bone Knight (7334) */
+     , (0x701E1082, 0x701E1023, '2005-02-09 10:00:00') /* Skeleton Bone Knight (7334) */
+     , (0x701E1082, 0x701E102E, '2005-02-09 10:00:00') /* Revenant (619) */
+     , (0x701E1082, 0x701E102F, '2005-02-09 10:00:00') /* Revenant (619) */
+     , (0x701E1082, 0x701E1039, '2005-02-09 10:00:00') /* Banderling Striker (7345) */
+     , (0x701E1082, 0x701E103B, '2005-02-09 10:00:00') /* Skeleton Bone Knight (7334) */
+     , (0x701E1082, 0x701E103C, '2005-02-09 10:00:00') /* Skeleton Bone Knight (7334) */
+     , (0x701E1082, 0x701E103D, '2005-02-09 10:00:00') /* Skeleton Bone Knight (7334) */
+     , (0x701E1082, 0x701E1041, '2005-02-09 10:00:00') /* Skeleton Bone Knight (7334) */
+     , (0x701E1082, 0x701E1042, '2005-02-09 10:00:00') /* Skeleton Bone Knight (7334) */
+     , (0x701E1082, 0x701E1043, '2005-02-09 10:00:00') /* Skeleton Bone Knight (7334) */
+     , (0x701E1082, 0x701E104A, '2005-02-09 10:00:00') /* Drudge Stalker (1609) */
+     , (0x701E1082, 0x701E104B, '2005-02-09 10:00:00') /* Drudge Stalker (1609) */
+     , (0x701E1082, 0x701E104E, '2005-02-09 10:00:00') /* Skeleton Bone Knight (7334) */
+     , (0x701E1082, 0x701E104F, '2005-02-09 10:00:00') /* Skeleton Bone Knight (7334) */
+     , (0x701E1082, 0x701E1052, '2005-02-09 10:00:00') /* Banderling Bandit (22809) */
+     , (0x701E1082, 0x701E1053, '2005-02-09 10:00:00') /* Banderling Bandit (22809) */
+     , (0x701E1082, 0x701E1054, '2005-02-09 10:00:00') /* Banderling Striker (7345) */
+     , (0x701E1082, 0x701E1055, '2005-02-09 10:00:00') /* Banderling Striker (7345) */
+     , (0x701E1082, 0x701E1056, '2005-02-09 10:00:00') /* Banderling Striker (7345) */
+     , (0x701E1082, 0x701E106C, '2005-02-09 10:00:00') /* Drudge Stalker (1609) */
+     , (0x701E1082, 0x701E106D, '2005-02-09 10:00:00') /* Drudge Stalker (1609) */
+     , (0x701E1082, 0x701E1070, '2005-02-09 10:00:00') /* Sewer Rat (7106) */
+     , (0x701E1082, 0x701E1072, '2005-02-09 10:00:00') /* Sewer Rat (7106) */
+     , (0x701E1082, 0x701E1073, '2005-02-09 10:00:00') /* Sewer Rat (7106) */
+     , (0x701E1082, 0x701E107F, '2005-02-09 10:00:00') /* Drudge Stalker (1609) */
+     , (0x701E1082, 0x701E1080, '2005-02-09 10:00:00') /* Drudge Stalker (1609) */
+     , (0x701E1082, 0x701E1081, '2005-02-09 10:00:00') /* Drudge Stalker (1609) */
+     , (0x701E1082, 0x701E1085, '2005-02-09 10:00:00') /* Banderling Bandit (22809) */
+     , (0x701E1082, 0x701E1087, '2005-02-09 10:00:00') /* Skeleton Bone Knight (7334) */
+     , (0x701E1082, 0x701E1088, '2005-02-09 10:00:00') /* Skeleton Bone Knight (7334) */
+     , (0x701E1082, 0x701E108A, '2005-02-09 10:00:00') /* Banderling Rogue (22810) */
+     , (0x701E1082, 0x701E108B, '2005-02-09 10:00:00') /* Banderling Rogue (22810) */
+     , (0x701E1082, 0x701E108C, '2005-02-09 10:00:00') /* Banderling Bandit (22809) */
+     , (0x701E1082, 0x701E108D, '2005-02-09 10:00:00') /* Banderling Bandit (22809) */
+     , (0x701E1082, 0x701E108E, '2005-02-09 10:00:00') /* Banderling Striker (7345) */
+     , (0x701E1082, 0x701E108F, '2005-02-09 10:00:00') /* Banderling Striker (7345) */
+     , (0x701E1082, 0x701E1090, '2005-02-09 10:00:00') /* Banderling Striker (7345) */
+     , (0x701E1082, 0x701E1091, '2005-02-09 10:00:00') /* Sewer Rat (7106) */
+     , (0x701E1082, 0x701E1092, '2005-02-09 10:00:00') /* Drudge Stalker (1609) */
+     , (0x701E1082, 0x701E1093, '2005-02-09 10:00:00') /* Drudge Stalker (1609) */
+     , (0x701E1082, 0x701E1094, '2005-02-09 10:00:00') /* Banderling Striker (7345) */
+     , (0x701E1082, 0x701E1095, '2005-02-09 10:00:00') /* Banderling Rogue (22810) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x701E1083,  4034, 0x01E1027A, 120.165, -5.46635, 0, 0.00338207, 0, 0, -0.999994, False, '2005-02-09 10:00:00'); /* Surface */
@@ -782,49 +782,49 @@ VALUES (0x701E10C1,  7923, 0x01E10275, 89.0032, -70.7712, 0, -4.37114E-08, 0, 0,
 /* @teleloc 0x01E10275 [89.003200 -70.771200 0.000000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x701E10C1, 0x701E1096, '2005-02-09 10:00:00') /* Drudge Stalker */
-     , (0x701E10C1, 0x701E1097, '2005-02-09 10:00:00') /* Drudge Stalker */
-     , (0x701E10C1, 0x701E1098, '2005-02-09 10:00:00') /* Drudge Stalker */
-     , (0x701E10C1, 0x701E1099, '2005-02-09 10:00:00') /* Drudge Stalker */
-     , (0x701E10C1, 0x701E109A, '2005-02-09 10:00:00') /* Drudge Stalker */
-     , (0x701E10C1, 0x701E109B, '2005-02-09 10:00:00') /* Drudge Stalker */
-     , (0x701E10C1, 0x701E109C, '2005-02-09 10:00:00') /* Drudge Stalker */
-     , (0x701E10C1, 0x701E109D, '2005-02-09 10:00:00') /* Drudge Stalker */
-     , (0x701E10C1, 0x701E109E, '2005-02-09 10:00:00') /* Drudge Stalker */
-     , (0x701E10C1, 0x701E109F, '2005-02-09 10:00:00') /* Drudge Stalker */
-     , (0x701E10C1, 0x701E10A0, '2005-02-09 10:00:00') /* Drudge Stalker */
-     , (0x701E10C1, 0x701E10A1, '2005-02-09 10:00:00') /* Drudge Stalker */
-     , (0x701E10C1, 0x701E10A2, '2005-02-09 10:00:00') /* Revenant */
-     , (0x701E10C1, 0x701E10A3, '2005-02-09 10:00:00') /* Drudge Stalker */
-     , (0x701E10C1, 0x701E10A4, '2005-02-09 10:00:00') /* Drudge Stalker */
-     , (0x701E10C1, 0x701E10A5, '2005-02-09 10:00:00') /* Drudge Stalker */
-     , (0x701E10C1, 0x701E10A6, '2005-02-09 10:00:00') /* Drudge Stalker */
-     , (0x701E10C1, 0x701E10A7, '2005-02-09 10:00:00') /* Drudge Stalker */
-     , (0x701E10C1, 0x701E10A8, '2005-02-09 10:00:00') /* Drudge Stalker */
-     , (0x701E10C1, 0x701E10A9, '2005-02-09 10:00:00') /* Drudge Stalker */
-     , (0x701E10C1, 0x701E10AA, '2005-02-09 10:00:00') /* Drudge Stalker */
-     , (0x701E10C1, 0x701E10AB, '2005-02-09 10:00:00') /* Drudge Stalker */
-     , (0x701E10C1, 0x701E10AC, '2005-02-09 10:00:00') /* Drudge Stalker */
-     , (0x701E10C1, 0x701E10AD, '2005-02-09 10:00:00') /* Sewer Rat */
-     , (0x701E10C1, 0x701E10AE, '2005-02-09 10:00:00') /* Sewer Rat */
-     , (0x701E10C1, 0x701E10AF, '2005-02-09 10:00:00') /* Sewer Rat */
-     , (0x701E10C1, 0x701E10B0, '2005-02-09 10:00:00') /* Drudge Ravener */
-     , (0x701E10C1, 0x701E10B1, '2005-02-09 10:00:00') /* Sewer Rat */
-     , (0x701E10C1, 0x701E10B2, '2005-02-09 10:00:00') /* Sewer Rat */
-     , (0x701E10C1, 0x701E10B3, '2005-02-09 10:00:00') /* Sewer Rat */
-     , (0x701E10C1, 0x701E10B4, '2005-02-09 10:00:00') /* Sewer Rat */
-     , (0x701E10C1, 0x701E10B5, '2005-02-09 10:00:00') /* Sewer Rat */
-     , (0x701E10C1, 0x701E10B6, '2005-02-09 10:00:00') /* Drudge Stalker */
-     , (0x701E10C1, 0x701E10B7, '2005-02-09 10:00:00') /* Drudge Stalker */
-     , (0x701E10C1, 0x701E10B8, '2005-02-09 10:00:00') /* Drudge Ravener */
-     , (0x701E10C1, 0x701E10B9, '2005-02-09 10:00:00') /* Drudge Ravener */
-     , (0x701E10C1, 0x701E10BA, '2005-02-09 10:00:00') /* Drudge Ravener */
-     , (0x701E10C1, 0x701E10BB, '2005-02-09 10:00:00') /* Drudge Ravener */
-     , (0x701E10C1, 0x701E10BC, '2005-02-09 10:00:00') /* Drudge Stalker */
-     , (0x701E10C1, 0x701E10BD, '2005-02-09 10:00:00') /* Drudge Stalker */
-     , (0x701E10C1, 0x701E10BE, '2005-02-09 10:00:00') /* Drudge Stalker */
-     , (0x701E10C1, 0x701E10BF, '2005-02-09 10:00:00') /* Drudge Stalker */
-     , (0x701E10C1, 0x701E10C0, '2005-02-09 10:00:00') /* Drudge Stalker */;
+VALUES (0x701E10C1, 0x701E1096, '2005-02-09 10:00:00') /* Drudge Stalker (1609) */
+     , (0x701E10C1, 0x701E1097, '2005-02-09 10:00:00') /* Drudge Stalker (1609) */
+     , (0x701E10C1, 0x701E1098, '2005-02-09 10:00:00') /* Drudge Stalker (1609) */
+     , (0x701E10C1, 0x701E1099, '2005-02-09 10:00:00') /* Drudge Stalker (1609) */
+     , (0x701E10C1, 0x701E109A, '2005-02-09 10:00:00') /* Drudge Stalker (1609) */
+     , (0x701E10C1, 0x701E109B, '2005-02-09 10:00:00') /* Drudge Stalker (1609) */
+     , (0x701E10C1, 0x701E109C, '2005-02-09 10:00:00') /* Drudge Stalker (1609) */
+     , (0x701E10C1, 0x701E109D, '2005-02-09 10:00:00') /* Drudge Stalker (1609) */
+     , (0x701E10C1, 0x701E109E, '2005-02-09 10:00:00') /* Drudge Stalker (1609) */
+     , (0x701E10C1, 0x701E109F, '2005-02-09 10:00:00') /* Drudge Stalker (1609) */
+     , (0x701E10C1, 0x701E10A0, '2005-02-09 10:00:00') /* Drudge Stalker (1609) */
+     , (0x701E10C1, 0x701E10A1, '2005-02-09 10:00:00') /* Drudge Stalker (1609) */
+     , (0x701E10C1, 0x701E10A2, '2005-02-09 10:00:00') /* Revenant (619) */
+     , (0x701E10C1, 0x701E10A3, '2005-02-09 10:00:00') /* Drudge Stalker (1609) */
+     , (0x701E10C1, 0x701E10A4, '2005-02-09 10:00:00') /* Drudge Stalker (1609) */
+     , (0x701E10C1, 0x701E10A5, '2005-02-09 10:00:00') /* Drudge Stalker (1609) */
+     , (0x701E10C1, 0x701E10A6, '2005-02-09 10:00:00') /* Drudge Stalker (1609) */
+     , (0x701E10C1, 0x701E10A7, '2005-02-09 10:00:00') /* Drudge Stalker (1609) */
+     , (0x701E10C1, 0x701E10A8, '2005-02-09 10:00:00') /* Drudge Stalker (1609) */
+     , (0x701E10C1, 0x701E10A9, '2005-02-09 10:00:00') /* Drudge Stalker (1609) */
+     , (0x701E10C1, 0x701E10AA, '2005-02-09 10:00:00') /* Drudge Stalker (1609) */
+     , (0x701E10C1, 0x701E10AB, '2005-02-09 10:00:00') /* Drudge Stalker (1609) */
+     , (0x701E10C1, 0x701E10AC, '2005-02-09 10:00:00') /* Drudge Stalker (1609) */
+     , (0x701E10C1, 0x701E10AD, '2005-02-09 10:00:00') /* Sewer Rat (7106) */
+     , (0x701E10C1, 0x701E10AE, '2005-02-09 10:00:00') /* Sewer Rat (7106) */
+     , (0x701E10C1, 0x701E10AF, '2005-02-09 10:00:00') /* Sewer Rat (7106) */
+     , (0x701E10C1, 0x701E10B0, '2005-02-09 10:00:00') /* Drudge Ravener (1610) */
+     , (0x701E10C1, 0x701E10B1, '2005-02-09 10:00:00') /* Sewer Rat (7106) */
+     , (0x701E10C1, 0x701E10B2, '2005-02-09 10:00:00') /* Sewer Rat (7106) */
+     , (0x701E10C1, 0x701E10B3, '2005-02-09 10:00:00') /* Sewer Rat (7106) */
+     , (0x701E10C1, 0x701E10B4, '2005-02-09 10:00:00') /* Sewer Rat (7106) */
+     , (0x701E10C1, 0x701E10B5, '2005-02-09 10:00:00') /* Sewer Rat (7106) */
+     , (0x701E10C1, 0x701E10B6, '2005-02-09 10:00:00') /* Drudge Stalker (1609) */
+     , (0x701E10C1, 0x701E10B7, '2005-02-09 10:00:00') /* Drudge Stalker (1609) */
+     , (0x701E10C1, 0x701E10B8, '2005-02-09 10:00:00') /* Drudge Ravener (1610) */
+     , (0x701E10C1, 0x701E10B9, '2005-02-09 10:00:00') /* Drudge Ravener (1610) */
+     , (0x701E10C1, 0x701E10BA, '2005-02-09 10:00:00') /* Drudge Ravener (1610) */
+     , (0x701E10C1, 0x701E10BB, '2005-02-09 10:00:00') /* Drudge Ravener (1610) */
+     , (0x701E10C1, 0x701E10BC, '2005-02-09 10:00:00') /* Drudge Stalker (1609) */
+     , (0x701E10C1, 0x701E10BD, '2005-02-09 10:00:00') /* Drudge Stalker (1609) */
+     , (0x701E10C1, 0x701E10BE, '2005-02-09 10:00:00') /* Drudge Stalker (1609) */
+     , (0x701E10C1, 0x701E10BF, '2005-02-09 10:00:00') /* Drudge Stalker (1609) */
+     , (0x701E10C1, 0x701E10C0, '2005-02-09 10:00:00') /* Drudge Stalker (1609) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x701E10C2,   278, 0x01E10102, 24.755, -70, -42, 0.707107, 0, 0, -0.707107, False, '2005-02-09 10:00:00'); /* Door */

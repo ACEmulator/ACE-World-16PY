@@ -49,11 +49,11 @@ VALUES (0x7DD8300B,  1154, 0xDD830000, 157.733, 28.3515, 0.005, -0.887815, 0, 0,
 /* @teleloc 0xDD830000 [157.733000 28.351500 0.005000] -0.887815 0.000000 0.000000 -0.460200 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7DD8300B, 0x7DD83000, '2005-02-09 10:00:00') /* Azure Gromnie */
-     , (0x7DD8300B, 0x7DD83001, '2005-02-09 10:00:00') /* Azure Gromnie */
-     , (0x7DD8300B, 0x7DD83002, '2005-02-09 10:00:00') /* Azure Gromnie */
-     , (0x7DD8300B, 0x7DD83003, '2005-02-09 10:00:00') /* Azure Gromnie */
-     , (0x7DD8300B, 0x7DD83004, '2005-02-09 10:00:00') /* Azure Gromnie */
-     , (0x7DD8300B, 0x7DD83005, '2005-02-09 10:00:00') /* Azure Gromnie */
-     , (0x7DD8300B, 0x7DD83006, '2005-02-09 10:00:00') /* Azure Gromnie */
-     , (0x7DD8300B, 0x7DD83007, '2005-02-09 10:00:00') /* Azure Gromnie */;
+VALUES (0x7DD8300B, 0x7DD83000, '2005-02-09 10:00:00') /* Azure Gromnie (1612) */
+     , (0x7DD8300B, 0x7DD83001, '2005-02-09 10:00:00') /* Azure Gromnie (1612) */
+     , (0x7DD8300B, 0x7DD83002, '2005-02-09 10:00:00') /* Azure Gromnie (1612) */
+     , (0x7DD8300B, 0x7DD83003, '2005-02-09 10:00:00') /* Azure Gromnie (1612) */
+     , (0x7DD8300B, 0x7DD83004, '2005-02-09 10:00:00') /* Azure Gromnie (1612) */
+     , (0x7DD8300B, 0x7DD83005, '2005-02-09 10:00:00') /* Azure Gromnie (1612) */
+     , (0x7DD8300B, 0x7DD83006, '2005-02-09 10:00:00') /* Azure Gromnie (1612) */
+     , (0x7DD8300B, 0x7DD83007, '2005-02-09 10:00:00') /* Azure Gromnie (1612) */;

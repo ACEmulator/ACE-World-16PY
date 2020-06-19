@@ -29,4 +29,4 @@ VALUES (0x789F4006,  3953, 0x89F40105, 17.6425, 107.963, -0.34, 0.710848, 0, 0, 
 /* @teleloc 0x89F40105 [17.642500 107.963000 -0.340000] 0.710848 0.000000 0.000000 -0.703346 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x789F4006, 0x789F4005, '2005-02-09 10:00:00') /* Lesser Mu-miyah */;
+VALUES (0x789F4006, 0x789F4005, '2005-02-09 10:00:00') /* Lesser Mu-miyah (1763) */;

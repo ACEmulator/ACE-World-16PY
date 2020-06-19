@@ -33,58 +33,58 @@ VALUES (0x702EA026,  7925, 0x02EA017D, -2.3109, -36.9627, 6.005, 0.974333, 0, 0,
 /* @teleloc 0x02EA017D [-2.310900 -36.962700 6.005000] 0.974333 0.000000 0.000000 0.225110 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x702EA026, 0x702EA034, '2005-02-09 10:00:00') /* Giant Mite */
-     , (0x702EA026, 0x702EA035, '2005-02-09 10:00:00') /* Giant Mite */
-     , (0x702EA026, 0x702EA036, '2005-02-09 10:00:00') /* Giant Mite */
-     , (0x702EA026, 0x702EA037, '2005-02-09 10:00:00') /* Pestilence Rat */
-     , (0x702EA026, 0x702EA038, '2005-02-09 10:00:00') /* Sephal Nefane */
-     , (0x702EA026, 0x702EA039, '2005-02-09 10:00:00') /* Sephal Nefane */
-     , (0x702EA026, 0x702EA03A, '2005-02-09 10:00:00') /* Sephal Nefane */
-     , (0x702EA026, 0x702EA03B, '2005-02-09 10:00:00') /* Sephal Nefane */
-     , (0x702EA026, 0x702EA03C, '2005-02-09 10:00:00') /* Pestilence Rat */
-     , (0x702EA026, 0x702EA03D, '2005-02-09 10:00:00') /* Pestilence Rat */
-     , (0x702EA026, 0x702EA03E, '2005-02-09 10:00:00') /* Sephal Nefane */
-     , (0x702EA026, 0x702EA03F, '2005-02-09 10:00:00') /* Sephal Nefane */
-     , (0x702EA026, 0x702EA040, '2005-02-09 10:00:00') /* Sephal Nefane */
-     , (0x702EA026, 0x702EA041, '2005-02-09 10:00:00') /* Giant Mite */
-     , (0x702EA026, 0x702EA042, '2005-02-09 10:00:00') /* Giant Mite */
-     , (0x702EA026, 0x702EA043, '2005-02-09 10:00:00') /* Giant Mite */
-     , (0x702EA026, 0x702EA044, '2005-02-09 10:00:00') /* Sephal Nefane */
-     , (0x702EA026, 0x702EA045, '2005-02-09 10:00:00') /* Sephal Nefane */
-     , (0x702EA026, 0x702EA046, '2005-02-09 10:00:00') /* Sephal Nefane */
-     , (0x702EA026, 0x702EA047, '2005-02-09 10:00:00') /* Pestilence Rat */
-     , (0x702EA026, 0x702EA048, '2005-02-09 10:00:00') /* Pestilence Rat */
-     , (0x702EA026, 0x702EA049, '2005-02-09 10:00:00') /* Pestilence Rat */
-     , (0x702EA026, 0x702EA04A, '2005-02-09 10:00:00') /* Pestilence Rat */
-     , (0x702EA026, 0x702EA04B, '2005-02-09 10:00:00') /* Giant Mite */
-     , (0x702EA026, 0x702EA04C, '2005-02-09 10:00:00') /* Giant Mite */
-     , (0x702EA026, 0x702EA04D, '2005-02-09 10:00:00') /* Giant Mite */
-     , (0x702EA026, 0x702EA04E, '2005-02-09 10:00:00') /* Giant Mite */
-     , (0x702EA026, 0x702EA04F, '2005-02-09 10:00:00') /* Pestilence Rat */
-     , (0x702EA026, 0x702EA050, '2005-02-09 10:00:00') /* Pestilence Rat */
-     , (0x702EA026, 0x702EA051, '2005-02-09 10:00:00') /* Pestilence Rat */
-     , (0x702EA026, 0x702EA052, '2005-02-09 10:00:00') /* Pestilence Rat */
-     , (0x702EA026, 0x702EA053, '2005-02-09 10:00:00') /* Pestilence Rat */
-     , (0x702EA026, 0x702EA054, '2005-02-09 10:00:00') /* Pestilence Rat */
-     , (0x702EA026, 0x702EA055, '2005-02-09 10:00:00') /* Pestilence Rat */
-     , (0x702EA026, 0x702EA056, '2005-02-09 10:00:00') /* Pestilence Rat */
-     , (0x702EA026, 0x702EA057, '2005-02-09 10:00:00') /* Pestilence Rat */
-     , (0x702EA026, 0x702EA058, '2005-02-09 10:00:00') /* Pestilence Rat */
-     , (0x702EA026, 0x702EA059, '2005-02-09 10:00:00') /* Pestilence Rat */
-     , (0x702EA026, 0x702EA05A, '2005-02-09 10:00:00') /* Pestilence Rat */
-     , (0x702EA026, 0x702EA05B, '2005-02-09 10:00:00') /* Sephal Nefane */
-     , (0x702EA026, 0x702EA05C, '2005-02-09 10:00:00') /* Sephal Nefane */
-     , (0x702EA026, 0x702EA05D, '2005-02-09 10:00:00') /* Sephal Nefane */
-     , (0x702EA026, 0x702EA05E, '2005-02-09 10:00:00') /* Pestilence Rat */
-     , (0x702EA026, 0x702EA05F, '2005-02-09 10:00:00') /* Sephal Nefane */
-     , (0x702EA026, 0x702EA060, '2005-02-09 10:00:00') /* Pestilence Rat */;
+VALUES (0x702EA026, 0x702EA034, '2005-02-09 10:00:00') /* Giant Mite (25869) */
+     , (0x702EA026, 0x702EA035, '2005-02-09 10:00:00') /* Giant Mite (25869) */
+     , (0x702EA026, 0x702EA036, '2005-02-09 10:00:00') /* Giant Mite (25869) */
+     , (0x702EA026, 0x702EA037, '2005-02-09 10:00:00') /* Pestilence Rat (25879) */
+     , (0x702EA026, 0x702EA038, '2005-02-09 10:00:00') /* Sephal Nefane (25876) */
+     , (0x702EA026, 0x702EA039, '2005-02-09 10:00:00') /* Sephal Nefane (25876) */
+     , (0x702EA026, 0x702EA03A, '2005-02-09 10:00:00') /* Sephal Nefane (25876) */
+     , (0x702EA026, 0x702EA03B, '2005-02-09 10:00:00') /* Sephal Nefane (25876) */
+     , (0x702EA026, 0x702EA03C, '2005-02-09 10:00:00') /* Pestilence Rat (25879) */
+     , (0x702EA026, 0x702EA03D, '2005-02-09 10:00:00') /* Pestilence Rat (25879) */
+     , (0x702EA026, 0x702EA03E, '2005-02-09 10:00:00') /* Sephal Nefane (25876) */
+     , (0x702EA026, 0x702EA03F, '2005-02-09 10:00:00') /* Sephal Nefane (25876) */
+     , (0x702EA026, 0x702EA040, '2005-02-09 10:00:00') /* Sephal Nefane (25876) */
+     , (0x702EA026, 0x702EA041, '2005-02-09 10:00:00') /* Giant Mite (25869) */
+     , (0x702EA026, 0x702EA042, '2005-02-09 10:00:00') /* Giant Mite (25869) */
+     , (0x702EA026, 0x702EA043, '2005-02-09 10:00:00') /* Giant Mite (25869) */
+     , (0x702EA026, 0x702EA044, '2005-02-09 10:00:00') /* Sephal Nefane (25876) */
+     , (0x702EA026, 0x702EA045, '2005-02-09 10:00:00') /* Sephal Nefane (25876) */
+     , (0x702EA026, 0x702EA046, '2005-02-09 10:00:00') /* Sephal Nefane (25876) */
+     , (0x702EA026, 0x702EA047, '2005-02-09 10:00:00') /* Pestilence Rat (25879) */
+     , (0x702EA026, 0x702EA048, '2005-02-09 10:00:00') /* Pestilence Rat (25879) */
+     , (0x702EA026, 0x702EA049, '2005-02-09 10:00:00') /* Pestilence Rat (25879) */
+     , (0x702EA026, 0x702EA04A, '2005-02-09 10:00:00') /* Pestilence Rat (25879) */
+     , (0x702EA026, 0x702EA04B, '2005-02-09 10:00:00') /* Giant Mite (25869) */
+     , (0x702EA026, 0x702EA04C, '2005-02-09 10:00:00') /* Giant Mite (25869) */
+     , (0x702EA026, 0x702EA04D, '2005-02-09 10:00:00') /* Giant Mite (25869) */
+     , (0x702EA026, 0x702EA04E, '2005-02-09 10:00:00') /* Giant Mite (25869) */
+     , (0x702EA026, 0x702EA04F, '2005-02-09 10:00:00') /* Pestilence Rat (25879) */
+     , (0x702EA026, 0x702EA050, '2005-02-09 10:00:00') /* Pestilence Rat (25879) */
+     , (0x702EA026, 0x702EA051, '2005-02-09 10:00:00') /* Pestilence Rat (25879) */
+     , (0x702EA026, 0x702EA052, '2005-02-09 10:00:00') /* Pestilence Rat (25879) */
+     , (0x702EA026, 0x702EA053, '2005-02-09 10:00:00') /* Pestilence Rat (25879) */
+     , (0x702EA026, 0x702EA054, '2005-02-09 10:00:00') /* Pestilence Rat (25879) */
+     , (0x702EA026, 0x702EA055, '2005-02-09 10:00:00') /* Pestilence Rat (25879) */
+     , (0x702EA026, 0x702EA056, '2005-02-09 10:00:00') /* Pestilence Rat (25879) */
+     , (0x702EA026, 0x702EA057, '2005-02-09 10:00:00') /* Pestilence Rat (25879) */
+     , (0x702EA026, 0x702EA058, '2005-02-09 10:00:00') /* Pestilence Rat (25879) */
+     , (0x702EA026, 0x702EA059, '2005-02-09 10:00:00') /* Pestilence Rat (25879) */
+     , (0x702EA026, 0x702EA05A, '2005-02-09 10:00:00') /* Pestilence Rat (25879) */
+     , (0x702EA026, 0x702EA05B, '2005-02-09 10:00:00') /* Sephal Nefane (25876) */
+     , (0x702EA026, 0x702EA05C, '2005-02-09 10:00:00') /* Sephal Nefane (25876) */
+     , (0x702EA026, 0x702EA05D, '2005-02-09 10:00:00') /* Sephal Nefane (25876) */
+     , (0x702EA026, 0x702EA05E, '2005-02-09 10:00:00') /* Pestilence Rat (25879) */
+     , (0x702EA026, 0x702EA05F, '2005-02-09 10:00:00') /* Sephal Nefane (25876) */
+     , (0x702EA026, 0x702EA060, '2005-02-09 10:00:00') /* Pestilence Rat (25879) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x702EA027,  5085, 0x02EA017D, -1.36908, -36.924, 6.005, 0.961865, 0, 0, 0.273525, False, '2005-02-09 10:00:00'); /* Linkable Item Gen - 25 seconds */
 /* @teleloc 0x02EA017D [-1.369080 -36.924000 6.005000] 0.961865 0.000000 0.000000 0.273525 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x702EA027, 0x702EA000, '2005-02-09 10:00:00') /* Ishaq's Lost Key */;
+VALUES (0x702EA027, 0x702EA000, '2005-02-09 10:00:00') /* Ishaq's Lost Key (29233) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x702EA02B, 29232, 0x02EA0185, 13.7707, -40.2473, 6.005, 0.707107, 0, 0, -0.707107, False, '2005-02-09 10:00:00'); /* Ishaq's Storage Chest */

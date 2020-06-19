@@ -5,24 +5,24 @@ VALUES (0x7A21F000,  7923, 0xA21F0000, 82.1137, 114.245, 387.444, -0.871842, 0, 
 /* @teleloc 0xA21F0000 [82.113700 114.245000 387.444000] -0.871842 0.000000 0.000000 0.489787 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A21F000, 0x7A21F005, '2005-02-09 10:00:00') /* Lithos Raider */
-     , (0x7A21F000, 0x7A21F006, '2005-02-09 10:00:00') /* Lithos Raider */
-     , (0x7A21F000, 0x7A21F007, '2005-02-09 10:00:00') /* Gigas Raider */
-     , (0x7A21F000, 0x7A21F008, '2005-02-09 10:00:00') /* Obeloth Raider */
-     , (0x7A21F000, 0x7A21F009, '2005-02-09 10:00:00') /* Obeloth Raider */
-     , (0x7A21F000, 0x7A21F00A, '2005-02-09 10:00:00') /* Amploth Raider */
-     , (0x7A21F000, 0x7A21F00B, '2005-02-09 10:00:00') /* Lithos Raider */
-     , (0x7A21F000, 0x7A21F00C, '2005-02-09 10:00:00') /* Lithos Raider */
-     , (0x7A21F000, 0x7A21F00D, '2005-02-09 10:00:00') /* Lithos Raider */;
+VALUES (0x7A21F000, 0x7A21F005, '2005-02-09 10:00:00') /* Lithos Raider (8141) */
+     , (0x7A21F000, 0x7A21F006, '2005-02-09 10:00:00') /* Lithos Raider (8141) */
+     , (0x7A21F000, 0x7A21F007, '2005-02-09 10:00:00') /* Gigas Raider (8139) */
+     , (0x7A21F000, 0x7A21F008, '2005-02-09 10:00:00') /* Obeloth Raider (8142) */
+     , (0x7A21F000, 0x7A21F009, '2005-02-09 10:00:00') /* Obeloth Raider (8142) */
+     , (0x7A21F000, 0x7A21F00A, '2005-02-09 10:00:00') /* Amploth Raider (8143) */
+     , (0x7A21F000, 0x7A21F00B, '2005-02-09 10:00:00') /* Lithos Raider (8141) */
+     , (0x7A21F000, 0x7A21F00C, '2005-02-09 10:00:00') /* Lithos Raider (8141) */
+     , (0x7A21F000, 0x7A21F00D, '2005-02-09 10:00:00') /* Lithos Raider (8141) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A21F001,  7924, 0xA21F0000, 78.8317, 114.857, 387.291, -0.871842, 0, 0, 0.489787, False, '2005-02-09 10:00:00'); /* Linkable Monster Generator ( 5 Min.) */
 /* @teleloc 0xA21F0000 [78.831700 114.857000 387.291000] -0.871842 0.000000 0.000000 0.489787 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A21F001, 0x7A21F002, '2005-02-09 10:00:00') /* Tiatus Raider */
-     , (0x7A21F001, 0x7A21F003, '2005-02-09 10:00:00') /* Extas Raider */
-     , (0x7A21F001, 0x7A21F004, '2005-02-09 10:00:00') /* Extas Raider */;
+VALUES (0x7A21F001, 0x7A21F002, '2005-02-09 10:00:00') /* Tiatus Raider (8137) */
+     , (0x7A21F001, 0x7A21F003, '2005-02-09 10:00:00') /* Extas Raider (8138) */
+     , (0x7A21F001, 0x7A21F004, '2005-02-09 10:00:00') /* Extas Raider (8138) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A21F002,  8137, 0xA21F0000, 81.4841, 115.514, 387.131, -0.871842, 0, 0, 0.489787,  True, '2005-02-09 10:00:00'); /* Tiatus Raider */

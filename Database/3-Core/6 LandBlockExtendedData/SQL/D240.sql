@@ -17,9 +17,9 @@ VALUES (0x7D240003,  7924, 0xD2400000, 50.3179, 184.629, 275.584, -0.83085, 0, 0
 /* @teleloc 0xD2400000 [50.317900 184.629000 275.584000] -0.830850 0.000000 0.000000 0.556496 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7D240003, 0x7D240000, '2005-02-09 10:00:00') /* Dark Revenant */
-     , (0x7D240003, 0x7D240001, '2005-02-09 10:00:00') /* Dark Revenant */
-     , (0x7D240003, 0x7D240002, '2005-02-09 10:00:00') /* Dark Leech */;
+VALUES (0x7D240003, 0x7D240000, '2005-02-09 10:00:00') /* Dark Revenant (4217) */
+     , (0x7D240003, 0x7D240001, '2005-02-09 10:00:00') /* Dark Revenant (4217) */
+     , (0x7D240003, 0x7D240002, '2005-02-09 10:00:00') /* Dark Leech (7123) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7D240004, 24671, 0xD2400000, 51.5726, 177.779, 275.118, -0.837756, 0, 0, 0.546044, False, '2005-02-09 10:00:00'); /* Runed Chest */

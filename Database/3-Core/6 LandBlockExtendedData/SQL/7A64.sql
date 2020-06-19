@@ -5,8 +5,8 @@ VALUES (0x77A64002,  4454, 0x7A640106, 60.0215, 111.856, 0.03, -4.37114E-08, 0, 
 /* @teleloc 0x7A640106 [60.021500 111.856000 0.030000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x77A64002, 0x77A64003, '2005-02-09 10:00:00') /* Button */
-     , (0x77A64002, 0x77A64007, '2005-02-09 10:00:00') /* Pressure Plate */;
+VALUES (0x77A64002, 0x77A64003, '2005-02-09 10:00:00') /* Button (269) */
+     , (0x77A64002, 0x77A64007, '2005-02-09 10:00:00') /* Pressure Plate (2131) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x77A64003,   269, 0x7A640000, 38.82, 152.101, 16.5, -4.37114E-08, 0, 0, -1,  True, '2005-02-09 10:00:00'); /* Button */
@@ -25,10 +25,10 @@ VALUES (0x77A64006,  3597, 0x7A640000, 83.818, 155.975, -0.895, 0.584563, 0, 0, 
 /* @teleloc 0x7A640000 [83.818000 155.975000 -0.895000] 0.584563 0.000000 0.000000 -0.811348 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x77A64006, 0x77A64010, '2005-02-09 10:00:00') /* Fish */
-     , (0x77A64006, 0x77A64011, '2005-02-09 10:00:00') /* Fish */
-     , (0x77A64006, 0x77A64012, '2005-02-09 10:00:00') /* Fish */
-     , (0x77A64006, 0x77A64013, '2005-02-09 10:00:00') /* Fish */;
+VALUES (0x77A64006, 0x77A64010, '2005-02-09 10:00:00') /* Fish (263) */
+     , (0x77A64006, 0x77A64011, '2005-02-09 10:00:00') /* Fish (263) */
+     , (0x77A64006, 0x77A64012, '2005-02-09 10:00:00') /* Fish (263) */
+     , (0x77A64006, 0x77A64013, '2005-02-09 10:00:00') /* Fish (263) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x77A64007,  2131, 0x7A640102, 60.1113, 100.182, -6.34, -4.37114E-08, 0, 0, -1,  True, '2005-02-09 10:00:00'); /* Pressure Plate */
@@ -87,15 +87,15 @@ VALUES (0x77A64018,  7925, 0x7A640000, 43.9364, 146.713, 0.00500003, -0.361103, 
 /* @teleloc 0x7A640000 [43.936400 146.713000 0.005000] -0.361103 0.000000 0.000000 -0.932526 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x77A64018, 0x77A64004, '2005-02-09 10:00:00') /* Undead */
-     , (0x77A64018, 0x77A64009, '2005-02-09 10:00:00') /* Drudge Prowler */
-     , (0x77A64018, 0x77A6400D, '2005-02-09 10:00:00') /* Drudge Slinker */
-     , (0x77A64018, 0x77A64019, '2005-02-09 10:00:00') /* Drudge Prowler */
-     , (0x77A64018, 0x77A6401A, '2005-02-09 10:00:00') /* Drudge Prowler */
-     , (0x77A64018, 0x77A6401B, '2005-02-09 10:00:00') /* Water Wisp */
-     , (0x77A64018, 0x77A6401C, '2005-02-09 10:00:00') /* Drudge Prowler */
-     , (0x77A64018, 0x77A6401D, '2005-02-09 10:00:00') /* Drudge Servant */
-     , (0x77A64018, 0x77A6401E, '2005-02-09 10:00:00') /* Drudge Slave */;
+VALUES (0x77A64018, 0x77A64004, '2005-02-09 10:00:00') /* Undead (16) */
+     , (0x77A64018, 0x77A64009, '2005-02-09 10:00:00') /* Drudge Prowler (192) */
+     , (0x77A64018, 0x77A6400D, '2005-02-09 10:00:00') /* Drudge Slinker (1468) */
+     , (0x77A64018, 0x77A64019, '2005-02-09 10:00:00') /* Drudge Prowler (192) */
+     , (0x77A64018, 0x77A6401A, '2005-02-09 10:00:00') /* Drudge Prowler (192) */
+     , (0x77A64018, 0x77A6401B, '2005-02-09 10:00:00') /* Water Wisp (1986) */
+     , (0x77A64018, 0x77A6401C, '2005-02-09 10:00:00') /* Drudge Prowler (192) */
+     , (0x77A64018, 0x77A6401D, '2005-02-09 10:00:00') /* Drudge Servant (1631) */
+     , (0x77A64018, 0x77A6401E, '2005-02-09 10:00:00') /* Drudge Slave (1632) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x77A64019,   192, 0x7A640100, 38.0879, 157.934, 0.005, -0.321745, 0, 0, 0.946826,  True, '2005-02-09 10:00:00'); /* Drudge Prowler */
@@ -126,11 +126,11 @@ VALUES (0x77A6401F,  7924, 0x7A640000, 44.8046, 145.922, 0.00500003, -0.361103, 
 /* @teleloc 0x7A640000 [44.804600 145.922000 0.005000] -0.361103 0.000000 0.000000 -0.932526 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x77A6401F, 0x77A64016, '2005-02-09 10:00:00') /* Drudge Prowler */;
+VALUES (0x77A6401F, 0x77A64016, '2005-02-09 10:00:00') /* Drudge Prowler (5370) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x77A64020,  5085, 0x7A640000, 55.2598, 115.159, 0.005, 0.45546, 0, 0, -0.890256, False, '2005-02-09 10:00:00'); /* Linkable Item Gen - 25 seconds */
 /* @teleloc 0x7A640000 [55.259800 115.159000 0.005000] 0.455460 0.000000 0.000000 -0.890256 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x77A64020, 0x77A64015, '2005-02-09 10:00:00') /* A Note to Ma'yad */;
+VALUES (0x77A64020, 0x77A64015, '2005-02-09 10:00:00') /* A Note to Ma'yad (5362) */;

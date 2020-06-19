@@ -61,17 +61,17 @@ VALUES (0x7D4B500E,  1154, 0xD4B50000, 91.4546, 53.6129, 0.005, -0.439422, 0, 0,
 /* @teleloc 0xD4B50000 [91.454600 53.612900 0.005000] -0.439422 0.000000 0.000000 -0.898281 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7D4B500E, 0x7D4B5000, '2005-02-09 10:00:00') /* Shore Armoredillo */
-     , (0x7D4B500E, 0x7D4B5001, '2005-02-09 10:00:00') /* Shore Armoredillo */
-     , (0x7D4B500E, 0x7D4B5002, '2005-02-09 10:00:00') /* Shore Armoredillo */
-     , (0x7D4B500E, 0x7D4B5003, '2005-02-09 10:00:00') /* Shore Armoredillo */
-     , (0x7D4B500E, 0x7D4B5004, '2005-02-09 10:00:00') /* Shore Armoredillo */
-     , (0x7D4B500E, 0x7D4B5005, '2005-02-09 10:00:00') /* Shore Armoredillo */
-     , (0x7D4B500E, 0x7D4B5006, '2005-02-09 10:00:00') /* Shallows Slayer */
-     , (0x7D4B500E, 0x7D4B5007, '2005-02-09 10:00:00') /* Shallows Slayer */
-     , (0x7D4B500E, 0x7D4B5008, '2005-02-09 10:00:00') /* Shallows Slayer */
-     , (0x7D4B500E, 0x7D4B5009, '2005-02-09 10:00:00') /* Shallows Slayer */
-     , (0x7D4B500E, 0x7D4B500A, '2005-02-09 10:00:00') /* Shallows Slayer */
-     , (0x7D4B500E, 0x7D4B500B, '2005-02-09 10:00:00') /* Shallows Slayer */
-     , (0x7D4B500E, 0x7D4B500C, '2005-02-09 10:00:00') /* Shallows Slayer */
-     , (0x7D4B500E, 0x7D4B500D, '2005-02-09 10:00:00') /* Shallows Slayer */;
+VALUES (0x7D4B500E, 0x7D4B5000, '2005-02-09 10:00:00') /* Shore Armoredillo (2565) */
+     , (0x7D4B500E, 0x7D4B5001, '2005-02-09 10:00:00') /* Shore Armoredillo (2565) */
+     , (0x7D4B500E, 0x7D4B5002, '2005-02-09 10:00:00') /* Shore Armoredillo (2565) */
+     , (0x7D4B500E, 0x7D4B5003, '2005-02-09 10:00:00') /* Shore Armoredillo (2565) */
+     , (0x7D4B500E, 0x7D4B5004, '2005-02-09 10:00:00') /* Shore Armoredillo (2565) */
+     , (0x7D4B500E, 0x7D4B5005, '2005-02-09 10:00:00') /* Shore Armoredillo (2565) */
+     , (0x7D4B500E, 0x7D4B5006, '2005-02-09 10:00:00') /* Shallows Slayer (2579) */
+     , (0x7D4B500E, 0x7D4B5007, '2005-02-09 10:00:00') /* Shallows Slayer (2579) */
+     , (0x7D4B500E, 0x7D4B5008, '2005-02-09 10:00:00') /* Shallows Slayer (2579) */
+     , (0x7D4B500E, 0x7D4B5009, '2005-02-09 10:00:00') /* Shallows Slayer (2579) */
+     , (0x7D4B500E, 0x7D4B500A, '2005-02-09 10:00:00') /* Shallows Slayer (2579) */
+     , (0x7D4B500E, 0x7D4B500B, '2005-02-09 10:00:00') /* Shallows Slayer (2579) */
+     , (0x7D4B500E, 0x7D4B500C, '2005-02-09 10:00:00') /* Shallows Slayer (2579) */
+     , (0x7D4B500E, 0x7D4B500D, '2005-02-09 10:00:00') /* Shallows Slayer (2579) */;

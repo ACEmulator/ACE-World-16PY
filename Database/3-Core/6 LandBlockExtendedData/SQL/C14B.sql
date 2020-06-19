@@ -29,39 +29,39 @@ VALUES (0x7C14B006,  4064, 0xC14B0000, 35.3423, 178.512, 24.5058, 0.976308, 0, 0
 /* @teleloc 0xC14B0000 [35.342300 178.512000 24.505800] 0.976308 0.000000 0.000000 0.216384 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C14B006, 0x7C14B000, '2005-02-09 10:00:00') /* Pressure Plate */;
+VALUES (0x7C14B006, 0x7C14B000, '2005-02-09 10:00:00') /* Pressure Plate (2131) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C14B007,  4064, 0xC14B0000, 37.0883, 179.158, 24.5593, 0.976308, 0, 0, 0.216384, False, '2005-02-09 10:00:00'); /* Whirling Blade Trap */
 /* @teleloc 0xC14B0000 [37.088300 179.158000 24.559300] 0.976308 0.000000 0.000000 0.216384 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C14B007, 0x7C14B001, '2005-02-09 10:00:00') /* Pressure Plate */;
+VALUES (0x7C14B007, 0x7C14B001, '2005-02-09 10:00:00') /* Pressure Plate (2131) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C14B008,  4064, 0xC14B0000, 64.0653, 159.981, 24.3602, 0.752923, 0, 0, -0.658108, False, '2005-02-09 10:00:00'); /* Whirling Blade Trap */
 /* @teleloc 0xC14B0000 [64.065300 159.981000 24.360200] 0.752923 0.000000 0.000000 -0.658108 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C14B008, 0x7C14B005, '2005-02-09 10:00:00') /* Pressure Plate */;
+VALUES (0x7C14B008, 0x7C14B005, '2005-02-09 10:00:00') /* Pressure Plate (2131) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C14B009,  4064, 0xC14B0000, 63.8428, 162.029, 24.3602, 0.752923, 0, 0, -0.658108, False, '2005-02-09 10:00:00'); /* Whirling Blade Trap */
 /* @teleloc 0xC14B0000 [63.842800 162.029000 24.360200] 0.752923 0.000000 0.000000 -0.658108 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C14B009, 0x7C14B004, '2005-02-09 10:00:00') /* Pressure Plate */;
+VALUES (0x7C14B009, 0x7C14B004, '2005-02-09 10:00:00') /* Pressure Plate (2131) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C14B00A,  4064, 0xC14B0000, 30.8525, 142.034, 24.4186, -0.294288, 0, 0, -0.955717, False, '2005-02-09 10:00:00'); /* Whirling Blade Trap */
 /* @teleloc 0xC14B0000 [30.852500 142.034000 24.418600] -0.294288 0.000000 0.000000 -0.955717 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C14B00A, 0x7C14B003, '2005-02-09 10:00:00') /* Pressure Plate */;
+VALUES (0x7C14B00A, 0x7C14B003, '2005-02-09 10:00:00') /* Pressure Plate (2131) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C14B00B,  4064, 0xC14B0000, 29.2911, 143.258, 24.4186, -0.294288, 0, 0, -0.955717, False, '2005-02-09 10:00:00'); /* Whirling Blade Trap */
 /* @teleloc 0xC14B0000 [29.291100 143.258000 24.418600] -0.294288 0.000000 0.000000 -0.955717 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C14B00B, 0x7C14B002, '2005-02-09 10:00:00') /* Pressure Plate */;
+VALUES (0x7C14B00B, 0x7C14B002, '2005-02-09 10:00:00') /* Pressure Plate (2131) */;

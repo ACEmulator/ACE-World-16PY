@@ -1,9 +1,7 @@
-DELETE FROM `encounter` WHERE `landblock` = 51556;
+DELETE FROM `encounter` WHERE `landblock` = 0xC964;
 
 INSERT INTO `encounter` (`landblock`, `weenie_Class_Id`, `cell_X`, `cell_Y`, `last_Modified`)
-VALUES (51556, 21174, 0, 7, '2005-02-09 10:00:00') /* Low Central Swamp Mix Generator */
-     , (51556, 21173, 3, 2, '2005-02-09 10:00:00') /* Low Central Shore Mix Generator */
-     , (51556, 21174, 5, 2, '2005-02-09 10:00:00') /* Low Central Swamp Mix Generator */
-     , (51556, 21173, 6, 4, '2005-02-09 10:00:00') /* Low Central Shore Mix Generator */
-     , (51556, 21174, 8, 6, '2005-02-09 10:00:00') /* Low Central Swamp Mix Generator */
-     , (51556, 21173, 8, 7, '2005-02-09 10:00:00') /* Low Central Shore Mix Generator */;
+VALUES (0xC964, 21174, 0, 7, '2005-02-09 10:00:00') /* Low Central Swamp Mix Generator */
+     , (0xC964, 21173, 3, 2, '2005-02-09 10:00:00') /* Low Central Shore Mix Generator */
+     , (0xC964, 21174, 5, 2, '2005-02-09 10:00:00') /* Low Central Swamp Mix Generator */
+     , (0xC964, 21173, 6, 4, '2005-02-09 10:00:00') /* Low Central Shore Mix Generator */;

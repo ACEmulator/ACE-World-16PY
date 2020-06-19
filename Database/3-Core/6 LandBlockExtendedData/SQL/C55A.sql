@@ -25,10 +25,10 @@ VALUES (0x7C55A005,  1154, 0xC55A0102, 132.008, 70.1741, 0.805, 0.999905, 0, 0, 
 /* @teleloc 0xC55A0102 [132.008000 70.174100 0.805000] 0.999905 0.000000 0.000000 0.013749 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C55A005, 0x7C55A000, '2005-02-09 10:00:00') /* Mud Golem */
-     , (0x7C55A005, 0x7C55A001, '2005-02-09 10:00:00') /* Mud Golem */
-     , (0x7C55A005, 0x7C55A002, '2005-02-09 10:00:00') /* Mud Golem */
-     , (0x7C55A005, 0x7C55A003, '2005-02-09 10:00:00') /* Mud Golem */;
+VALUES (0x7C55A005, 0x7C55A000, '2005-02-09 10:00:00') /* Mud Golem (200) */
+     , (0x7C55A005, 0x7C55A001, '2005-02-09 10:00:00') /* Mud Golem (200) */
+     , (0x7C55A005, 0x7C55A002, '2005-02-09 10:00:00') /* Mud Golem (200) */
+     , (0x7C55A005, 0x7C55A003, '2005-02-09 10:00:00') /* Mud Golem (200) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C55A006,   392, 0xC55A0103, 130.626, 86.2322, 6.03722, 0.749327, 0, 0, -0.6622, False, '2005-02-09 10:00:00'); /* Rat Generator */

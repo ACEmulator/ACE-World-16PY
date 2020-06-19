@@ -1,9 +1,7 @@
-DELETE FROM `encounter` WHERE `landblock` = 44834;
+DELETE FROM `encounter` WHERE `landblock` = 0xAF22;
 
 INSERT INTO `encounter` (`landblock`, `weenie_Class_Id`, `cell_X`, `cell_Y`, `last_Modified`)
-VALUES (44834, 23167, 0, 8, '2005-02-09 10:00:00') /* Mid South Mountains Lugian Generator */
-     , (44834, 23166, 4, 1, '2005-02-09 10:00:00') /* Mid SOuth Mountains Generator */
-     , (44834, 23166, 4, 3, '2005-02-09 10:00:00') /* Mid SOuth Mountains Generator */
-     , (44834, 23166, 5, 1, '2005-02-09 10:00:00') /* Mid SOuth Mountains Generator */
-     , (44834, 23166, 5, 6, '2005-02-09 10:00:00') /* Mid SOuth Mountains Generator */
-     , (44834, 23166, 8, 3, '2005-02-09 10:00:00') /* Mid SOuth Mountains Generator */;
+VALUES (0xAF22, 23166, 4, 1, '2005-02-09 10:00:00') /* Mid SOuth Mountains Generator */
+     , (0xAF22, 23166, 4, 3, '2005-02-09 10:00:00') /* Mid SOuth Mountains Generator */
+     , (0xAF22, 23166, 5, 1, '2005-02-09 10:00:00') /* Mid SOuth Mountains Generator */
+     , (0xAF22, 23166, 5, 6, '2005-02-09 10:00:00') /* Mid SOuth Mountains Generator */;

@@ -233,87 +233,87 @@ VALUES (0x7017E039, 15759, 0x017E019C, 40, -250, 0.005, 1, 0, 0, 0, False, '2005
 /* @teleloc 0x017E019C [40.000000 -250.000000 0.005000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7017E039, 0x7017E010, '2005-02-09 10:00:00') /* Report to Niarltah */
-     , (0x7017E039, 0x7017E01C, '2005-02-09 10:00:00') /* Report to Niarltah */;
+VALUES (0x7017E039, 0x7017E010, '2005-02-09 10:00:00') /* Report to Niarltah (28122) */
+     , (0x7017E039, 0x7017E01C, '2005-02-09 10:00:00') /* Report to Niarltah (28121) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7017E03A,  7924, 0x017E019E, 41.648, -260, 0.005, 1, 0, 0, 0, False, '2005-02-09 10:00:00'); /* Linkable Monster Generator ( 5 Min.) */
 /* @teleloc 0x017E019E [41.648000 -260.000000 0.005000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7017E03A, 0x7017E015, '2005-02-09 10:00:00') /* Gotrok Extas */
-     , (0x7017E03A, 0x7017E016, '2005-02-09 10:00:00') /* Gotrok Extas */
-     , (0x7017E03A, 0x7017E031, '2005-02-09 10:00:00') /* Tumerok Taskmaster */
-     , (0x7017E03A, 0x7017E033, '2005-02-09 10:00:00') /* Gotrok Extas */
-     , (0x7017E03A, 0x7017E034, '2005-02-09 10:00:00') /* Gotrok Extas */
-     , (0x7017E03A, 0x7017E037, '2005-02-09 10:00:00') /* Gotrok Extas */
-     , (0x7017E03A, 0x7017E038, '2005-02-09 10:00:00') /* Gotrok Extas */
-     , (0x7017E03A, 0x7017E03E, '2005-02-09 10:00:00') /* Gotrok Extas */
-     , (0x7017E03A, 0x7017E03F, '2005-02-09 10:00:00') /* Gotrok Extas */
-     , (0x7017E03A, 0x7017E042, '2005-02-09 10:00:00') /* Tumerok Taskmaster */
-     , (0x7017E03A, 0x7017E043, '2005-02-09 10:00:00') /* Tumerok Taskmaster */
-     , (0x7017E03A, 0x7017E044, '2005-02-09 10:00:00') /* Gotrok Extas */
-     , (0x7017E03A, 0x7017E045, '2005-02-09 10:00:00') /* Gotrok Extas */
-     , (0x7017E03A, 0x7017E048, '2005-02-09 10:00:00') /* Gotrok Extas */
-     , (0x7017E03A, 0x7017E049, '2005-02-09 10:00:00') /* Gotrok Extas */
-     , (0x7017E03A, 0x7017E04C, '2005-02-09 10:00:00') /* Tumerok Taskmaster */
-     , (0x7017E03A, 0x7017E04D, '2005-02-09 10:00:00') /* Tumerok Taskmaster */
-     , (0x7017E03A, 0x7017E04E, '2005-02-09 10:00:00') /* Gotrok Extas */
-     , (0x7017E03A, 0x7017E04F, '2005-02-09 10:00:00') /* Gotrok Extas */
-     , (0x7017E03A, 0x7017E050, '2005-02-09 10:00:00') /* Tumerok Taskmaster */
-     , (0x7017E03A, 0x7017E051, '2005-02-09 10:00:00') /* Tumerok Taskmaster */
-     , (0x7017E03A, 0x7017E052, '2005-02-09 10:00:00') /* Tumerok Taskmaster */
-     , (0x7017E03A, 0x7017E053, '2005-02-09 10:00:00') /* Tumerok Taskmaster */
-     , (0x7017E03A, 0x7017E054, '2005-02-09 10:00:00') /* Tumerok Taskmaster */
-     , (0x7017E03A, 0x7017E055, '2005-02-09 10:00:00') /* Tumerok Taskmaster */;
+VALUES (0x7017E03A, 0x7017E015, '2005-02-09 10:00:00') /* Gotrok Extas (24494) */
+     , (0x7017E03A, 0x7017E016, '2005-02-09 10:00:00') /* Gotrok Extas (24494) */
+     , (0x7017E03A, 0x7017E031, '2005-02-09 10:00:00') /* Tumerok Taskmaster (230) */
+     , (0x7017E03A, 0x7017E033, '2005-02-09 10:00:00') /* Gotrok Extas (24494) */
+     , (0x7017E03A, 0x7017E034, '2005-02-09 10:00:00') /* Gotrok Extas (24494) */
+     , (0x7017E03A, 0x7017E037, '2005-02-09 10:00:00') /* Gotrok Extas (24494) */
+     , (0x7017E03A, 0x7017E038, '2005-02-09 10:00:00') /* Gotrok Extas (24494) */
+     , (0x7017E03A, 0x7017E03E, '2005-02-09 10:00:00') /* Gotrok Extas (24494) */
+     , (0x7017E03A, 0x7017E03F, '2005-02-09 10:00:00') /* Gotrok Extas (24494) */
+     , (0x7017E03A, 0x7017E042, '2005-02-09 10:00:00') /* Tumerok Taskmaster (230) */
+     , (0x7017E03A, 0x7017E043, '2005-02-09 10:00:00') /* Tumerok Taskmaster (230) */
+     , (0x7017E03A, 0x7017E044, '2005-02-09 10:00:00') /* Gotrok Extas (24494) */
+     , (0x7017E03A, 0x7017E045, '2005-02-09 10:00:00') /* Gotrok Extas (24494) */
+     , (0x7017E03A, 0x7017E048, '2005-02-09 10:00:00') /* Gotrok Extas (24494) */
+     , (0x7017E03A, 0x7017E049, '2005-02-09 10:00:00') /* Gotrok Extas (24494) */
+     , (0x7017E03A, 0x7017E04C, '2005-02-09 10:00:00') /* Tumerok Taskmaster (230) */
+     , (0x7017E03A, 0x7017E04D, '2005-02-09 10:00:00') /* Tumerok Taskmaster (230) */
+     , (0x7017E03A, 0x7017E04E, '2005-02-09 10:00:00') /* Gotrok Extas (24494) */
+     , (0x7017E03A, 0x7017E04F, '2005-02-09 10:00:00') /* Gotrok Extas (24494) */
+     , (0x7017E03A, 0x7017E050, '2005-02-09 10:00:00') /* Tumerok Taskmaster (230) */
+     , (0x7017E03A, 0x7017E051, '2005-02-09 10:00:00') /* Tumerok Taskmaster (230) */
+     , (0x7017E03A, 0x7017E052, '2005-02-09 10:00:00') /* Tumerok Taskmaster (230) */
+     , (0x7017E03A, 0x7017E053, '2005-02-09 10:00:00') /* Tumerok Taskmaster (230) */
+     , (0x7017E03A, 0x7017E054, '2005-02-09 10:00:00') /* Tumerok Taskmaster (230) */
+     , (0x7017E03A, 0x7017E055, '2005-02-09 10:00:00') /* Tumerok Taskmaster (230) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7017E03B,  7924, 0x017E019E, 40.5386, -260, 0.005, 1, 0, 0, 0, False, '2005-02-09 10:00:00'); /* Linkable Monster Generator ( 5 Min.) */
 /* @teleloc 0x017E019E [40.538600 -260.000000 0.005000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7017E03B, 0x7017E000, '2005-02-09 10:00:00') /* Extas Raider */
-     , (0x7017E03B, 0x7017E001, '2005-02-09 10:00:00') /* Extas Raider */
-     , (0x7017E03B, 0x7017E002, '2005-02-09 10:00:00') /* Extas Raider */
-     , (0x7017E03B, 0x7017E003, '2005-02-09 10:00:00') /* Extas Raider */
-     , (0x7017E03B, 0x7017E005, '2005-02-09 10:00:00') /* Gotrok Extas */
-     , (0x7017E03B, 0x7017E006, '2005-02-09 10:00:00') /* Gotrok Extas */
-     , (0x7017E03B, 0x7017E007, '2005-02-09 10:00:00') /* Gotrok Extas */
-     , (0x7017E03B, 0x7017E008, '2005-02-09 10:00:00') /* Gotrok Extas */
-     , (0x7017E03B, 0x7017E00B, '2005-02-09 10:00:00') /* Gotrok Extas */
-     , (0x7017E03B, 0x7017E00C, '2005-02-09 10:00:00') /* Gotrok Extas */
-     , (0x7017E03B, 0x7017E00E, '2005-02-09 10:00:00') /* Extas Raider */
-     , (0x7017E03B, 0x7017E011, '2005-02-09 10:00:00') /* Extas Raider */
-     , (0x7017E03B, 0x7017E012, '2005-02-09 10:00:00') /* Extas Raider */
-     , (0x7017E03B, 0x7017E013, '2005-02-09 10:00:00') /* Extas Raider */
-     , (0x7017E03B, 0x7017E01D, '2005-02-09 10:00:00') /* Gotrok Extas */
-     , (0x7017E03B, 0x7017E01E, '2005-02-09 10:00:00') /* Gotrok Extas */
-     , (0x7017E03B, 0x7017E021, '2005-02-09 10:00:00') /* Gotrok Extas */
-     , (0x7017E03B, 0x7017E022, '2005-02-09 10:00:00') /* Gotrok Extas */
-     , (0x7017E03B, 0x7017E023, '2005-02-09 10:00:00') /* Tumerok Taskmaster */
-     , (0x7017E03B, 0x7017E024, '2005-02-09 10:00:00') /* Tumerok Taskmaster */
-     , (0x7017E03B, 0x7017E026, '2005-02-09 10:00:00') /* Tumerok High Priest */
-     , (0x7017E03B, 0x7017E027, '2005-02-09 10:00:00') /* Tumerok High Priest */
-     , (0x7017E03B, 0x7017E032, '2005-02-09 10:00:00') /* Tumerok Taskmaster */
-     , (0x7017E03B, 0x7017E046, '2005-02-09 10:00:00') /* Tumerok Taskmaster */
-     , (0x7017E03B, 0x7017E047, '2005-02-09 10:00:00') /* Tumerok Taskmaster */;
+VALUES (0x7017E03B, 0x7017E000, '2005-02-09 10:00:00') /* Extas Raider (8138) */
+     , (0x7017E03B, 0x7017E001, '2005-02-09 10:00:00') /* Extas Raider (8138) */
+     , (0x7017E03B, 0x7017E002, '2005-02-09 10:00:00') /* Extas Raider (8138) */
+     , (0x7017E03B, 0x7017E003, '2005-02-09 10:00:00') /* Extas Raider (8138) */
+     , (0x7017E03B, 0x7017E005, '2005-02-09 10:00:00') /* Gotrok Extas (24494) */
+     , (0x7017E03B, 0x7017E006, '2005-02-09 10:00:00') /* Gotrok Extas (24494) */
+     , (0x7017E03B, 0x7017E007, '2005-02-09 10:00:00') /* Gotrok Extas (24494) */
+     , (0x7017E03B, 0x7017E008, '2005-02-09 10:00:00') /* Gotrok Extas (24494) */
+     , (0x7017E03B, 0x7017E00B, '2005-02-09 10:00:00') /* Gotrok Extas (24494) */
+     , (0x7017E03B, 0x7017E00C, '2005-02-09 10:00:00') /* Gotrok Extas (24494) */
+     , (0x7017E03B, 0x7017E00E, '2005-02-09 10:00:00') /* Extas Raider (8138) */
+     , (0x7017E03B, 0x7017E011, '2005-02-09 10:00:00') /* Extas Raider (8138) */
+     , (0x7017E03B, 0x7017E012, '2005-02-09 10:00:00') /* Extas Raider (8138) */
+     , (0x7017E03B, 0x7017E013, '2005-02-09 10:00:00') /* Extas Raider (8138) */
+     , (0x7017E03B, 0x7017E01D, '2005-02-09 10:00:00') /* Gotrok Extas (24494) */
+     , (0x7017E03B, 0x7017E01E, '2005-02-09 10:00:00') /* Gotrok Extas (24494) */
+     , (0x7017E03B, 0x7017E021, '2005-02-09 10:00:00') /* Gotrok Extas (24494) */
+     , (0x7017E03B, 0x7017E022, '2005-02-09 10:00:00') /* Gotrok Extas (24494) */
+     , (0x7017E03B, 0x7017E023, '2005-02-09 10:00:00') /* Tumerok Taskmaster (230) */
+     , (0x7017E03B, 0x7017E024, '2005-02-09 10:00:00') /* Tumerok Taskmaster (230) */
+     , (0x7017E03B, 0x7017E026, '2005-02-09 10:00:00') /* Tumerok High Priest (4106) */
+     , (0x7017E03B, 0x7017E027, '2005-02-09 10:00:00') /* Tumerok High Priest (228) */
+     , (0x7017E03B, 0x7017E032, '2005-02-09 10:00:00') /* Tumerok Taskmaster (230) */
+     , (0x7017E03B, 0x7017E046, '2005-02-09 10:00:00') /* Tumerok Taskmaster (230) */
+     , (0x7017E03B, 0x7017E047, '2005-02-09 10:00:00') /* Tumerok Taskmaster (230) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7017E03C,  7924, 0x017E019E, 39.4984, -260, 0.005, 1, 0, 0, 0, False, '2005-02-09 10:00:00'); /* Linkable Monster Generator ( 5 Min.) */
 /* @teleloc 0x017E019E [39.498400 -260.000000 0.005000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7017E03C, 0x7017E00F, '2005-02-09 10:00:00') /* Extas Raider */
-     , (0x7017E03C, 0x7017E01A, '2005-02-09 10:00:00') /* Gotrok Extas */
-     , (0x7017E03C, 0x7017E01B, '2005-02-09 10:00:00') /* Gotrok Extas */
-     , (0x7017E03C, 0x7017E025, '2005-02-09 10:00:00') /* Tumerok High Priest */
-     , (0x7017E03C, 0x7017E028, '2005-02-09 10:00:00') /* Tumerok High Priest */
-     , (0x7017E03C, 0x7017E029, '2005-02-09 10:00:00') /* Tumerok Taskmaster */
-     , (0x7017E03C, 0x7017E02A, '2005-02-09 10:00:00') /* Tumerok Taskmaster */
-     , (0x7017E03C, 0x7017E02D, '2005-02-09 10:00:00') /* Gotrok Extas */
-     , (0x7017E03C, 0x7017E02E, '2005-02-09 10:00:00') /* Gotrok Extas */
-     , (0x7017E03C, 0x7017E02F, '2005-02-09 10:00:00') /* Gotrok Extas */
-     , (0x7017E03C, 0x7017E030, '2005-02-09 10:00:00') /* Gotrok Extas */;
+VALUES (0x7017E03C, 0x7017E00F, '2005-02-09 10:00:00') /* Extas Raider (8138) */
+     , (0x7017E03C, 0x7017E01A, '2005-02-09 10:00:00') /* Gotrok Extas (24494) */
+     , (0x7017E03C, 0x7017E01B, '2005-02-09 10:00:00') /* Gotrok Extas (24494) */
+     , (0x7017E03C, 0x7017E025, '2005-02-09 10:00:00') /* Tumerok High Priest (4106) */
+     , (0x7017E03C, 0x7017E028, '2005-02-09 10:00:00') /* Tumerok High Priest (228) */
+     , (0x7017E03C, 0x7017E029, '2005-02-09 10:00:00') /* Tumerok Taskmaster (230) */
+     , (0x7017E03C, 0x7017E02A, '2005-02-09 10:00:00') /* Tumerok Taskmaster (230) */
+     , (0x7017E03C, 0x7017E02D, '2005-02-09 10:00:00') /* Gotrok Extas (24494) */
+     , (0x7017E03C, 0x7017E02E, '2005-02-09 10:00:00') /* Gotrok Extas (24494) */
+     , (0x7017E03C, 0x7017E02F, '2005-02-09 10:00:00') /* Gotrok Extas (24494) */
+     , (0x7017E03C, 0x7017E030, '2005-02-09 10:00:00') /* Gotrok Extas (24494) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7017E03D, 28097, 0x017E019F, 39.933, -268.29, 0, -4.37114E-08, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Burun Hold */

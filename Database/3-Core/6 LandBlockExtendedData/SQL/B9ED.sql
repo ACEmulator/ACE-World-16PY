@@ -33,10 +33,10 @@ VALUES (0x7B9ED00A,  7923, 0xB9ED0000, 124.897, 26.3674, 1.59793, -0.0110917, 0,
 /* @teleloc 0xB9ED0000 [124.897000 26.367400 1.597930] -0.011092 0.000000 0.000000 -0.999938 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B9ED00A, 0x7B9ED00B, '2005-02-09 10:00:00') /* Nubilous Golem */
-     , (0x7B9ED00A, 0x7B9ED00C, '2005-02-09 10:00:00') /* Nubilous Golem */
-     , (0x7B9ED00A, 0x7B9ED00D, '2005-02-09 10:00:00') /* Mist Golem */
-     , (0x7B9ED00A, 0x7B9ED00E, '2005-02-09 10:00:00') /* Mist Golem */;
+VALUES (0x7B9ED00A, 0x7B9ED00B, '2005-02-09 10:00:00') /* Nubilous Golem (23082) */
+     , (0x7B9ED00A, 0x7B9ED00C, '2005-02-09 10:00:00') /* Nubilous Golem (23082) */
+     , (0x7B9ED00A, 0x7B9ED00D, '2005-02-09 10:00:00') /* Mist Golem (22933) */
+     , (0x7B9ED00A, 0x7B9ED00E, '2005-02-09 10:00:00') /* Mist Golem (22933) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B9ED00B, 23082, 0xB9ED0000, 109.993, 15.8485, -0.09, -0.565381, 0, 0, 0.82483,  True, '2005-02-09 10:00:00'); /* Nubilous Golem */

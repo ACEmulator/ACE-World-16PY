@@ -25,11 +25,11 @@ VALUES (0x7B8ED008,  7923, 0xB8ED0000, 22.2296, 25.9373, 0.973662, 0.998538, 0, 
 /* @teleloc 0xB8ED0000 [22.229600 25.937300 0.973662] 0.998538 0.000000 0.000000 -0.054047 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B8ED008, 0x7B8ED009, '2005-02-09 10:00:00') /* Nubilous Golem */
-     , (0x7B8ED008, 0x7B8ED00A, '2005-02-09 10:00:00') /* Mist Golem */
-     , (0x7B8ED008, 0x7B8ED00B, '2005-02-09 10:00:00') /* Mist Golem */
-     , (0x7B8ED008, 0x7B8ED00C, '2005-02-09 10:00:00') /* Nubilous Golem */
-     , (0x7B8ED008, 0x7B8ED00D, '2005-02-09 10:00:00') /* Mist Golem */;
+VALUES (0x7B8ED008, 0x7B8ED009, '2005-02-09 10:00:00') /* Nubilous Golem (23082) */
+     , (0x7B8ED008, 0x7B8ED00A, '2005-02-09 10:00:00') /* Mist Golem (22933) */
+     , (0x7B8ED008, 0x7B8ED00B, '2005-02-09 10:00:00') /* Mist Golem (22933) */
+     , (0x7B8ED008, 0x7B8ED00C, '2005-02-09 10:00:00') /* Nubilous Golem (23082) */
+     , (0x7B8ED008, 0x7B8ED00D, '2005-02-09 10:00:00') /* Mist Golem (22933) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B8ED009, 23082, 0xB8ED0000, 23.0382, 14.1306, -0.09, 0.837443, 0, 0, -0.546525,  True, '2005-02-09 10:00:00'); /* Nubilous Golem */

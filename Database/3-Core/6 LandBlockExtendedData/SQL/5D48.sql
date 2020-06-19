@@ -189,82 +189,82 @@ VALUES (0x75D48036, 15759, 0x5D480183, 62.5774, -15.079, 18.005, -0.617709, 0, 0
 /* @teleloc 0x5D480183 [62.577400 -15.079000 18.005000] -0.617709 0.000000 0.000000 0.786407 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x75D48036, 0x75D48024, '2005-02-09 10:00:00') /* Alchemy Gem of Forgetfulness */
-     , (0x75D48036, 0x75D48025, '2005-02-09 10:00:00') /* Arcane Lore Gem of Forgetfulness */
-     , (0x75D48036, 0x75D48026, '2005-02-09 10:00:00') /* Armor Tinkering Gem of Forgetfulness */
-     , (0x75D48036, 0x75D48027, '2005-02-09 10:00:00') /* Axe Gem of Forgetfulness */
-     , (0x75D48036, 0x75D48028, '2005-02-09 10:00:00') /* Bow Gem of Forgetfulness */
-     , (0x75D48036, 0x75D48029, '2005-02-09 10:00:00') /* Cooking Gem of Forgetfulness */
-     , (0x75D48036, 0x75D4802A, '2005-02-09 10:00:00') /* Creature Appraisal Gem of Forgetfulness */
-     , (0x75D48036, 0x75D4802B, '2005-02-09 10:00:00') /* Creature Enchantment Gem of Forgetfulness */
-     , (0x75D48036, 0x75D4802C, '2005-02-09 10:00:00') /* Crossbow Gem of Forgetfulness */
-     , (0x75D48036, 0x75D4802D, '2005-02-09 10:00:00') /* Dagger Gem of Forgetfulness */
-     , (0x75D48036, 0x75D4802E, '2005-02-09 10:00:00') /* Deception Gem of Forgetfulness */
-     , (0x75D48036, 0x75D4802F, '2005-02-09 10:00:00') /* Fletching Gem of Forgetfulness */
-     , (0x75D48036, 0x75D48030, '2005-02-09 10:00:00') /* Healing Gem of Forgetfulness */
-     , (0x75D48036, 0x75D48031, '2005-02-09 10:00:00') /* Item Tinkering Gem of Forgetfulness */
-     , (0x75D48036, 0x75D48032, '2005-02-09 10:00:00') /* Item Enchantment Gem of Forgetfulness */
-     , (0x75D48036, 0x75D48033, '2005-02-09 10:00:00') /* Jump Gem of Forgetfulness */
-     , (0x75D48036, 0x75D48034, '2005-02-09 10:00:00') /* Leadership Gem of Forgetfulness */
-     , (0x75D48036, 0x75D48035, '2005-02-09 10:00:00') /* Life Magic Gem of Forgetfulness */
-     , (0x75D48036, 0x75D48038, '2005-02-09 10:00:00') /* Lockpick Gem of Forgetfulness */
-     , (0x75D48036, 0x75D48039, '2005-02-09 10:00:00') /* Loyalty Gem of Forgetfulness */
-     , (0x75D48036, 0x75D4803A, '2005-02-09 10:00:00') /* Mace Gem of Forgetfulness */
-     , (0x75D48036, 0x75D4803B, '2005-02-09 10:00:00') /* Magic Defense Gem of Forgetfulness */
-     , (0x75D48036, 0x75D4803C, '2005-02-09 10:00:00') /* Magic Item Tinkering Gem of Forgetfulness */
-     , (0x75D48036, 0x75D4803D, '2005-02-09 10:00:00') /* Mana Conversion Gem of Forgetfulness */
-     , (0x75D48036, 0x75D4803E, '2005-02-09 10:00:00') /* Melee Defense Gem of Forgetfulness */
-     , (0x75D48036, 0x75D4803F, '2005-02-09 10:00:00') /* Missile Defense Gem of Forgetfulness */
-     , (0x75D48036, 0x75D48040, '2005-02-09 10:00:00') /* Personal Appraisal Gem of Forgetfulness */
-     , (0x75D48036, 0x75D48041, '2005-02-09 10:00:00') /* Run Gem of Forgetfulness */
-     , (0x75D48036, 0x75D48042, '2005-02-09 10:00:00') /* Spear Gem of Forgetfulness */
-     , (0x75D48036, 0x75D48043, '2005-02-09 10:00:00') /* Staff Gem of Forgetfulness */
-     , (0x75D48036, 0x75D48044, '2005-02-09 10:00:00') /* Sword Gem of Forgetfulness */
-     , (0x75D48036, 0x75D48045, '2005-02-09 10:00:00') /* Thrown Weapon Gem of Forgetfulness */
-     , (0x75D48036, 0x75D48046, '2005-02-09 10:00:00') /* Unarmed Combat Gem of Forgetfulness */
-     , (0x75D48036, 0x75D48047, '2005-02-09 10:00:00') /* War Magic Gem of Forgetfulness */
-     , (0x75D48036, 0x75D48048, '2005-02-09 10:00:00') /* Weapon Tinkering Gem of Forgetfulness */
-     , (0x75D48036, 0x75D48052, '2005-02-09 10:00:00') /* Gem of Lowering Endurance */
-     , (0x75D48036, 0x75D48053, '2005-02-09 10:00:00') /* Gem of Lowering Coordination */
-     , (0x75D48036, 0x75D48054, '2005-02-09 10:00:00') /* Gem of Lowering Strength */
-     , (0x75D48036, 0x75D48055, '2005-02-09 10:00:00') /* Gem of Lowering Quickness */
-     , (0x75D48036, 0x75D48056, '2005-02-09 10:00:00') /* Gem of Lowering Focus */
-     , (0x75D48036, 0x75D48057, '2005-02-09 10:00:00') /* Gem of Lowering Self */
-     , (0x75D48036, 0x75D48058, '2005-02-09 10:00:00') /* Salvaging Gem of Forgetfulness */;
+VALUES (0x75D48036, 0x75D48024, '2005-02-09 10:00:00') /* Alchemy Gem of Forgetfulness (22315) */
+     , (0x75D48036, 0x75D48025, '2005-02-09 10:00:00') /* Arcane Lore Gem of Forgetfulness (22316) */
+     , (0x75D48036, 0x75D48026, '2005-02-09 10:00:00') /* Armor Tinkering Gem of Forgetfulness (22317) */
+     , (0x75D48036, 0x75D48027, '2005-02-09 10:00:00') /* Axe Gem of Forgetfulness (22318) */
+     , (0x75D48036, 0x75D48028, '2005-02-09 10:00:00') /* Bow Gem of Forgetfulness (22319) */
+     , (0x75D48036, 0x75D48029, '2005-02-09 10:00:00') /* Cooking Gem of Forgetfulness (22320) */
+     , (0x75D48036, 0x75D4802A, '2005-02-09 10:00:00') /* Creature Appraisal Gem of Forgetfulness (22321) */
+     , (0x75D48036, 0x75D4802B, '2005-02-09 10:00:00') /* Creature Enchantment Gem of Forgetfulness (22322) */
+     , (0x75D48036, 0x75D4802C, '2005-02-09 10:00:00') /* Crossbow Gem of Forgetfulness (22323) */
+     , (0x75D48036, 0x75D4802D, '2005-02-09 10:00:00') /* Dagger Gem of Forgetfulness (22324) */
+     , (0x75D48036, 0x75D4802E, '2005-02-09 10:00:00') /* Deception Gem of Forgetfulness (22325) */
+     , (0x75D48036, 0x75D4802F, '2005-02-09 10:00:00') /* Fletching Gem of Forgetfulness (22326) */
+     , (0x75D48036, 0x75D48030, '2005-02-09 10:00:00') /* Healing Gem of Forgetfulness (22327) */
+     , (0x75D48036, 0x75D48031, '2005-02-09 10:00:00') /* Item Tinkering Gem of Forgetfulness (22328) */
+     , (0x75D48036, 0x75D48032, '2005-02-09 10:00:00') /* Item Enchantment Gem of Forgetfulness (22329) */
+     , (0x75D48036, 0x75D48033, '2005-02-09 10:00:00') /* Jump Gem of Forgetfulness (22330) */
+     , (0x75D48036, 0x75D48034, '2005-02-09 10:00:00') /* Leadership Gem of Forgetfulness (22331) */
+     , (0x75D48036, 0x75D48035, '2005-02-09 10:00:00') /* Life Magic Gem of Forgetfulness (22332) */
+     , (0x75D48036, 0x75D48038, '2005-02-09 10:00:00') /* Lockpick Gem of Forgetfulness (22333) */
+     , (0x75D48036, 0x75D48039, '2005-02-09 10:00:00') /* Loyalty Gem of Forgetfulness (22334) */
+     , (0x75D48036, 0x75D4803A, '2005-02-09 10:00:00') /* Mace Gem of Forgetfulness (22335) */
+     , (0x75D48036, 0x75D4803B, '2005-02-09 10:00:00') /* Magic Defense Gem of Forgetfulness (22336) */
+     , (0x75D48036, 0x75D4803C, '2005-02-09 10:00:00') /* Magic Item Tinkering Gem of Forgetfulness (22337) */
+     , (0x75D48036, 0x75D4803D, '2005-02-09 10:00:00') /* Mana Conversion Gem of Forgetfulness (22338) */
+     , (0x75D48036, 0x75D4803E, '2005-02-09 10:00:00') /* Melee Defense Gem of Forgetfulness (22339) */
+     , (0x75D48036, 0x75D4803F, '2005-02-09 10:00:00') /* Missile Defense Gem of Forgetfulness (22340) */
+     , (0x75D48036, 0x75D48040, '2005-02-09 10:00:00') /* Personal Appraisal Gem of Forgetfulness (22341) */
+     , (0x75D48036, 0x75D48041, '2005-02-09 10:00:00') /* Run Gem of Forgetfulness (22342) */
+     , (0x75D48036, 0x75D48042, '2005-02-09 10:00:00') /* Spear Gem of Forgetfulness (22343) */
+     , (0x75D48036, 0x75D48043, '2005-02-09 10:00:00') /* Staff Gem of Forgetfulness (22344) */
+     , (0x75D48036, 0x75D48044, '2005-02-09 10:00:00') /* Sword Gem of Forgetfulness (22345) */
+     , (0x75D48036, 0x75D48045, '2005-02-09 10:00:00') /* Thrown Weapon Gem of Forgetfulness (22346) */
+     , (0x75D48036, 0x75D48046, '2005-02-09 10:00:00') /* Unarmed Combat Gem of Forgetfulness (22347) */
+     , (0x75D48036, 0x75D48047, '2005-02-09 10:00:00') /* War Magic Gem of Forgetfulness (22348) */
+     , (0x75D48036, 0x75D48048, '2005-02-09 10:00:00') /* Weapon Tinkering Gem of Forgetfulness (22349) */
+     , (0x75D48036, 0x75D48052, '2005-02-09 10:00:00') /* Gem of Lowering Endurance (22938) */
+     , (0x75D48036, 0x75D48053, '2005-02-09 10:00:00') /* Gem of Lowering Coordination (22937) */
+     , (0x75D48036, 0x75D48054, '2005-02-09 10:00:00') /* Gem of Lowering Strength (22942) */
+     , (0x75D48036, 0x75D48055, '2005-02-09 10:00:00') /* Gem of Lowering Quickness (22940) */
+     , (0x75D48036, 0x75D48056, '2005-02-09 10:00:00') /* Gem of Lowering Focus (22939) */
+     , (0x75D48036, 0x75D48057, '2005-02-09 10:00:00') /* Gem of Lowering Self (22941) */
+     , (0x75D48036, 0x75D48058, '2005-02-09 10:00:00') /* Salvaging Gem of Forgetfulness (28926) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75D48037,  7923, 0x5D48018C, 63.9635, -117.838, 18.005, 0.676606, 0, 0, -0.736346, False, '2005-02-09 10:00:00'); /* Linkable Monster Generator ( 3 Min.) */
 /* @teleloc 0x5D48018C [63.963500 -117.838000 18.005000] 0.676606 0.000000 0.000000 -0.736346 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x75D48037, 0x75D48001, '2005-02-09 10:00:00') /* Obsidian Golem */
-     , (0x75D48037, 0x75D48002, '2005-02-09 10:00:00') /* Obsidian Golem */
-     , (0x75D48037, 0x75D48004, '2005-02-09 10:00:00') /* Obsidian Golem */
-     , (0x75D48037, 0x75D48005, '2005-02-09 10:00:00') /* Obsidian Golem */
-     , (0x75D48037, 0x75D48007, '2005-02-09 10:00:00') /* Obsidian Golem */
-     , (0x75D48037, 0x75D48008, '2005-02-09 10:00:00') /* Obsidian Golem */
-     , (0x75D48037, 0x75D4800A, '2005-02-09 10:00:00') /* Obsidian Golem */
-     , (0x75D48037, 0x75D4800B, '2005-02-09 10:00:00') /* Obsidian Golem */
-     , (0x75D48037, 0x75D4800D, '2005-02-09 10:00:00') /* Obsidian Golem */
-     , (0x75D48037, 0x75D4800E, '2005-02-09 10:00:00') /* Obsidian Golem */
-     , (0x75D48037, 0x75D48010, '2005-02-09 10:00:00') /* Obsidian Golem */
-     , (0x75D48037, 0x75D48011, '2005-02-09 10:00:00') /* Obsidian Golem */
-     , (0x75D48037, 0x75D48013, '2005-02-09 10:00:00') /* Obsidian Golem */
-     , (0x75D48037, 0x75D48014, '2005-02-09 10:00:00') /* Obsidian Golem */
-     , (0x75D48037, 0x75D48016, '2005-02-09 10:00:00') /* Obsidian Golem */
-     , (0x75D48037, 0x75D48017, '2005-02-09 10:00:00') /* Obsidian Golem */
-     , (0x75D48037, 0x75D48018, '2005-02-09 10:00:00') /* Iron Golem */
-     , (0x75D48037, 0x75D48019, '2005-02-09 10:00:00') /* Iron Golem */
-     , (0x75D48037, 0x75D4801A, '2005-02-09 10:00:00') /* Iron Golem */
-     , (0x75D48037, 0x75D4801B, '2005-02-09 10:00:00') /* Iron Golem */
-     , (0x75D48037, 0x75D4801C, '2005-02-09 10:00:00') /* Iron Golem */
-     , (0x75D48037, 0x75D4801D, '2005-02-09 10:00:00') /* Iron Golem */
-     , (0x75D48037, 0x75D4801E, '2005-02-09 10:00:00') /* Iron Golem */
-     , (0x75D48037, 0x75D4801F, '2005-02-09 10:00:00') /* Iron Golem */
-     , (0x75D48037, 0x75D48020, '2005-02-09 10:00:00') /* Copper Golem */
-     , (0x75D48037, 0x75D48021, '2005-02-09 10:00:00') /* Copper Golem */
-     , (0x75D48037, 0x75D48022, '2005-02-09 10:00:00') /* Copper Golem */
-     , (0x75D48037, 0x75D48023, '2005-02-09 10:00:00') /* Copper Golem */;
+VALUES (0x75D48037, 0x75D48001, '2005-02-09 10:00:00') /* Obsidian Golem (201) */
+     , (0x75D48037, 0x75D48002, '2005-02-09 10:00:00') /* Obsidian Golem (201) */
+     , (0x75D48037, 0x75D48004, '2005-02-09 10:00:00') /* Obsidian Golem (201) */
+     , (0x75D48037, 0x75D48005, '2005-02-09 10:00:00') /* Obsidian Golem (201) */
+     , (0x75D48037, 0x75D48007, '2005-02-09 10:00:00') /* Obsidian Golem (201) */
+     , (0x75D48037, 0x75D48008, '2005-02-09 10:00:00') /* Obsidian Golem (201) */
+     , (0x75D48037, 0x75D4800A, '2005-02-09 10:00:00') /* Obsidian Golem (201) */
+     , (0x75D48037, 0x75D4800B, '2005-02-09 10:00:00') /* Obsidian Golem (201) */
+     , (0x75D48037, 0x75D4800D, '2005-02-09 10:00:00') /* Obsidian Golem (201) */
+     , (0x75D48037, 0x75D4800E, '2005-02-09 10:00:00') /* Obsidian Golem (201) */
+     , (0x75D48037, 0x75D48010, '2005-02-09 10:00:00') /* Obsidian Golem (201) */
+     , (0x75D48037, 0x75D48011, '2005-02-09 10:00:00') /* Obsidian Golem (201) */
+     , (0x75D48037, 0x75D48013, '2005-02-09 10:00:00') /* Obsidian Golem (201) */
+     , (0x75D48037, 0x75D48014, '2005-02-09 10:00:00') /* Obsidian Golem (201) */
+     , (0x75D48037, 0x75D48016, '2005-02-09 10:00:00') /* Obsidian Golem (201) */
+     , (0x75D48037, 0x75D48017, '2005-02-09 10:00:00') /* Obsidian Golem (201) */
+     , (0x75D48037, 0x75D48018, '2005-02-09 10:00:00') /* Iron Golem (197) */
+     , (0x75D48037, 0x75D48019, '2005-02-09 10:00:00') /* Iron Golem (197) */
+     , (0x75D48037, 0x75D4801A, '2005-02-09 10:00:00') /* Iron Golem (197) */
+     , (0x75D48037, 0x75D4801B, '2005-02-09 10:00:00') /* Iron Golem (197) */
+     , (0x75D48037, 0x75D4801C, '2005-02-09 10:00:00') /* Iron Golem (197) */
+     , (0x75D48037, 0x75D4801D, '2005-02-09 10:00:00') /* Iron Golem (197) */
+     , (0x75D48037, 0x75D4801E, '2005-02-09 10:00:00') /* Iron Golem (197) */
+     , (0x75D48037, 0x75D4801F, '2005-02-09 10:00:00') /* Iron Golem (197) */
+     , (0x75D48037, 0x75D48020, '2005-02-09 10:00:00') /* Copper Golem (194) */
+     , (0x75D48037, 0x75D48021, '2005-02-09 10:00:00') /* Copper Golem (194) */
+     , (0x75D48037, 0x75D48022, '2005-02-09 10:00:00') /* Copper Golem (194) */
+     , (0x75D48037, 0x75D48023, '2005-02-09 10:00:00') /* Copper Golem (194) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75D48038, 22333, 0x5D48018D, 66.0419, 3.91896, 18.005, -0.852558, 0, 0, -0.522632,  True, '2005-02-09 10:00:00'); /* Lockpick Gem of Forgetfulness */

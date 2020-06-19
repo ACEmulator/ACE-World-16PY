@@ -41,12 +41,12 @@ VALUES (0x7DB75017,  7924, 0xDB750000, 115.976, 98.3667, 23.1371, -0.969139, 0, 
 /* @teleloc 0xDB750000 [115.976000 98.366700 23.137100] -0.969139 0.000000 0.000000 0.246515 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7DB75017, 0x7DB7500E, '2005-02-09 10:00:00') /* Tumerok Priest */
-     , (0x7DB75017, 0x7DB7500F, '2005-02-09 10:00:00') /* Tumerok Gladiator */
-     , (0x7DB75017, 0x7DB75010, '2005-02-09 10:00:00') /* Tumerok Gladiator */
-     , (0x7DB75017, 0x7DB75011, '2005-02-09 10:00:00') /* Tumerok Priest */
-     , (0x7DB75017, 0x7DB75012, '2005-02-09 10:00:00') /* Tumerok Gladiator */
-     , (0x7DB75017, 0x7DB75013, '2005-02-09 10:00:00') /* Tumerok Gladiator */
-     , (0x7DB75017, 0x7DB75014, '2005-02-09 10:00:00') /* Tumerok Gladiator */
-     , (0x7DB75017, 0x7DB75015, '2005-02-09 10:00:00') /* Tumerok Gladiator */
-     , (0x7DB75017, 0x7DB75016, '2005-02-09 10:00:00') /* Tumerok Gladiator */;
+VALUES (0x7DB75017, 0x7DB7500E, '2005-02-09 10:00:00') /* Tumerok Priest (231) */
+     , (0x7DB75017, 0x7DB7500F, '2005-02-09 10:00:00') /* Tumerok Gladiator (227) */
+     , (0x7DB75017, 0x7DB75010, '2005-02-09 10:00:00') /* Tumerok Gladiator (227) */
+     , (0x7DB75017, 0x7DB75011, '2005-02-09 10:00:00') /* Tumerok Priest (231) */
+     , (0x7DB75017, 0x7DB75012, '2005-02-09 10:00:00') /* Tumerok Gladiator (227) */
+     , (0x7DB75017, 0x7DB75013, '2005-02-09 10:00:00') /* Tumerok Gladiator (227) */
+     , (0x7DB75017, 0x7DB75014, '2005-02-09 10:00:00') /* Tumerok Gladiator (227) */
+     , (0x7DB75017, 0x7DB75015, '2005-02-09 10:00:00') /* Tumerok Gladiator (227) */
+     , (0x7DB75017, 0x7DB75016, '2005-02-09 10:00:00') /* Tumerok Gladiator (227) */;

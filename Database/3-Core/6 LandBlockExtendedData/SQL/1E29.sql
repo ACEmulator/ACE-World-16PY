@@ -5,13 +5,13 @@ VALUES (0x71E29000,  7924, 0x1E290000, 76.5827, 124.685, 94.005, 0.389334, 0, 0,
 /* @teleloc 0x1E290000 [76.582700 124.685000 94.005000] 0.389334 0.000000 0.000000 0.921097 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71E29000, 0x71E29001, '2005-02-09 10:00:00') /* Destroyer Grievver */
-     , (0x71E29000, 0x71E29002, '2005-02-09 10:00:00') /* Destroyer Grievver */
-     , (0x71E29000, 0x71E29004, '2005-02-09 10:00:00') /* Abyssal Shadow */
-     , (0x71E29000, 0x71E29005, '2005-02-09 10:00:00') /* Abyssal Shadow */
-     , (0x71E29000, 0x71E29006, '2005-02-09 10:00:00') /* Shadow Spectre */
-     , (0x71E29000, 0x71E29007, '2005-02-09 10:00:00') /* Abyssal Shadow */
-     , (0x71E29000, 0x71E29008, '2005-02-09 10:00:00') /* Abyssal Shadow */;
+VALUES (0x71E29000, 0x71E29001, '2005-02-09 10:00:00') /* Destroyer Grievver (7982) */
+     , (0x71E29000, 0x71E29002, '2005-02-09 10:00:00') /* Destroyer Grievver (7982) */
+     , (0x71E29000, 0x71E29004, '2005-02-09 10:00:00') /* Abyssal Shadow (23562) */
+     , (0x71E29000, 0x71E29005, '2005-02-09 10:00:00') /* Abyssal Shadow (23562) */
+     , (0x71E29000, 0x71E29006, '2005-02-09 10:00:00') /* Shadow Spectre (23090) */
+     , (0x71E29000, 0x71E29007, '2005-02-09 10:00:00') /* Abyssal Shadow (23562) */
+     , (0x71E29000, 0x71E29008, '2005-02-09 10:00:00') /* Abyssal Shadow (23562) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71E29001,  7982, 0x1E290000, 89.503, 101.781, 94.005, 0.877657, 0, 0, 0.47929,  True, '2005-02-09 10:00:00'); /* Destroyer Grievver */
@@ -50,4 +50,4 @@ VALUES (0x71E29009, 24129, 0x1E290000, 87.3, 135.11, 94.005, -0.366388, 0, 0, -0
 /* @teleloc 0x1E290000 [87.300000 135.110000 94.005000] -0.366388 0.000000 0.000000 -0.930462 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71E29009, 0x71E29003, '2005-02-09 10:00:00') /* Shadow Phantom Leader */;
+VALUES (0x71E29009, 0x71E29003, '2005-02-09 10:00:00') /* Shadow Phantom Leader (27428) */;

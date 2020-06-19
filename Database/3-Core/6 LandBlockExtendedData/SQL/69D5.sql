@@ -13,4 +13,4 @@ VALUES (0x769D5006,  5086, 0x69D50100, 175.868, 184.947, 197.205, 0.029612, 0, 0
 /* @teleloc 0x69D50100 [175.868000 184.947000 197.205000] 0.029612 0.000000 0.000000 -0.999561 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x769D5006, 0x769D5005, '2005-02-09 10:00:00') /* Kai Mallan, Sho Enchanter */;
+VALUES (0x769D5006, 0x769D5005, '2005-02-09 10:00:00') /* Kai Mallan, Sho Enchanter (15860) */;

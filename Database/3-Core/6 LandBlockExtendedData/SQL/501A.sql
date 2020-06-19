@@ -9,15 +9,15 @@ VALUES (0x7501A00B,  1154, 0x501A0000, 147.583, 124.549, 68.005, -0.867642, 0, 0
 /* @teleloc 0x501A0000 [147.583000 124.549000 68.005000] -0.867642 0.000000 0.000000 -0.497189 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7501A00B, 0x7501A010, '2005-02-09 10:00:00') /* Tumerok Worker */
-     , (0x7501A00B, 0x7501A012, '2005-02-09 10:00:00') /* Ascendant Tumerok */
-     , (0x7501A00B, 0x7501A013, '2005-02-09 10:00:00') /* Ascendant Tumerok */
-     , (0x7501A00B, 0x7501A014, '2005-02-09 10:00:00') /* Ascendant Tumerok */
-     , (0x7501A00B, 0x7501A015, '2005-02-09 10:00:00') /* Ascendant Tumerok */
-     , (0x7501A00B, 0x7501A01A, '2005-02-09 10:00:00') /* Ascendant Tumerok */
-     , (0x7501A00B, 0x7501A01B, '2005-02-09 10:00:00') /* Tumerok Champion */
-     , (0x7501A00B, 0x7501A01C, '2005-02-09 10:00:00') /* Tumerok Taskmaster */
-     , (0x7501A00B, 0x7501A01D, '2005-02-09 10:00:00') /* Tumerok High Priest */;
+VALUES (0x7501A00B, 0x7501A010, '2005-02-09 10:00:00') /* Tumerok Worker (2487) */
+     , (0x7501A00B, 0x7501A012, '2005-02-09 10:00:00') /* Ascendant Tumerok (10806) */
+     , (0x7501A00B, 0x7501A013, '2005-02-09 10:00:00') /* Ascendant Tumerok (10806) */
+     , (0x7501A00B, 0x7501A014, '2005-02-09 10:00:00') /* Ascendant Tumerok (10806) */
+     , (0x7501A00B, 0x7501A015, '2005-02-09 10:00:00') /* Ascendant Tumerok (10806) */
+     , (0x7501A00B, 0x7501A01A, '2005-02-09 10:00:00') /* Ascendant Tumerok (10806) */
+     , (0x7501A00B, 0x7501A01B, '2005-02-09 10:00:00') /* Tumerok Champion (23617) */
+     , (0x7501A00B, 0x7501A01C, '2005-02-09 10:00:00') /* Tumerok Taskmaster (230) */
+     , (0x7501A00B, 0x7501A01D, '2005-02-09 10:00:00') /* Tumerok High Priest (228) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7501A00F,  2359, 0x501A0000, 124.177, 138.749, 68.005, 0.917919, 0, 0, 0.396768, False, '2005-02-09 10:00:00'); /* Slaughterhouse */

@@ -29,6 +29,6 @@ VALUES (0x7B89F006,  3955, 0xB89F0100, 179.328, 10.76, 84.005, 0.198174, 0, 0, -
 /* @teleloc 0xB89F0100 [179.328000 10.760000 84.005000] 0.198174 0.000000 0.000000 -0.980167 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B89F006, 0x7B89F001, '2005-02-09 10:00:00') /* Banderling Guard */
-     , (0x7B89F006, 0x7B89F002, '2005-02-09 10:00:00') /* Young Banderling */
-     , (0x7B89F006, 0x7B89F004, '2005-02-09 10:00:00') /* Banderling Guard */;
+VALUES (0x7B89F006, 0x7B89F001, '2005-02-09 10:00:00') /* Banderling Guard (937) */
+     , (0x7B89F006, 0x7B89F002, '2005-02-09 10:00:00') /* Young Banderling (939) */
+     , (0x7B89F006, 0x7B89F004, '2005-02-09 10:00:00') /* Banderling Guard (937) */;

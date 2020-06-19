@@ -25,13 +25,13 @@ VALUES (0x7F757005,  3955, 0xF7570000, 184.747, 106.411, 0.005, 0.0362724, 0, 0,
 /* @teleloc 0xF7570000 [184.747000 106.411000 0.005000] 0.036272 0.000000 0.000000 0.999342 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7F757005, 0x7F757000, '2005-02-09 10:00:00') /* Banderling Raver */
-     , (0x7F757005, 0x7F757002, '2005-02-09 10:00:00') /* Azure Gromnie */
-     , (0x7F757005, 0x7F757003, '2005-02-09 10:00:00') /* Rust Gromnie */
-     , (0x7F757005, 0x7F757004, '2005-02-09 10:00:00') /* Shallows Shark */
-     , (0x7F757005, 0x7F757007, '2005-02-09 10:00:00') /* Banderling Scout */
-     , (0x7F757005, 0x7F757008, '2005-02-09 10:00:00') /* Young Banderling */
-     , (0x7F757005, 0x7F757009, '2005-02-09 10:00:00') /* Young Banderling */;
+VALUES (0x7F757005, 0x7F757000, '2005-02-09 10:00:00') /* Banderling Raver (183) */
+     , (0x7F757005, 0x7F757002, '2005-02-09 10:00:00') /* Azure Gromnie (1612) */
+     , (0x7F757005, 0x7F757003, '2005-02-09 10:00:00') /* Rust Gromnie (1611) */
+     , (0x7F757005, 0x7F757004, '2005-02-09 10:00:00') /* Shallows Shark (2577) */
+     , (0x7F757005, 0x7F757007, '2005-02-09 10:00:00') /* Banderling Scout (6) */
+     , (0x7F757005, 0x7F757008, '2005-02-09 10:00:00') /* Young Banderling (939) */
+     , (0x7F757005, 0x7F757009, '2005-02-09 10:00:00') /* Young Banderling (939) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7F757006,  4179, 0xF7570000, 108.58, 156.269, 70.9391, -0.717191, 0, 0, -0.696877, False, '2005-02-09 10:00:00'); /* Bonfire */

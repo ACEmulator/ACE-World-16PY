@@ -17,8 +17,8 @@ VALUES (0x73EA4003,  1154, 0x3EA40000, 73.9898, 37.501, 0.005, 0.985143, 0, 0, 0
 /* @teleloc 0x3EA40000 [73.989800 37.501000 0.005000] 0.985143 0.000000 0.000000 0.171736 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73EA4003, 0x73EA4002, '2005-02-09 10:00:00') /* Cow */
-     , (0x73EA4003, 0x73EA4004, '2005-02-09 10:00:00') /* Collector */;
+VALUES (0x73EA4003, 0x73EA4002, '2005-02-09 10:00:00') /* Cow (618) */
+     , (0x73EA4003, 0x73EA4004, '2005-02-09 10:00:00') /* Collector (3917) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73EA4004,  3917, 0x3EA40102, 84.8114, 35.3803, -0.795, -0.876774, 0, 0, -0.480903,  True, '2005-02-09 10:00:00'); /* Collector */

@@ -1,6 +1,5 @@
-DELETE FROM `encounter` WHERE `landblock` = 44183;
+DELETE FROM `encounter` WHERE `landblock` = 0xAC97;
 
 INSERT INTO `encounter` (`landblock`, `weenie_Class_Id`, `cell_X`, `cell_Y`, `last_Modified`)
-VALUES (44183, 7931, 0, 2, '2005-02-09 10:00:00') /* Low Central Reedshark Plains Mix Generator */
-     , (44183, 7931, 1, 2, '2005-02-09 10:00:00') /* Low Central Reedshark Plains Mix Generator */
-     , (44183, 7931, 2, 8, '2005-02-09 10:00:00') /* Low Central Reedshark Plains Mix Generator */;
+VALUES (0xAC97, 7931, 0, 2, '2005-02-09 10:00:00') /* Low Central Reedshark Plains Mix Generator */
+     , (0xAC97, 7931, 1, 2, '2005-02-09 10:00:00') /* Low Central Reedshark Plains Mix Generator */;

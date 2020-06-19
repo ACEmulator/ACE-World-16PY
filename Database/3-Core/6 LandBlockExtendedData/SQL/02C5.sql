@@ -221,8 +221,8 @@ VALUES (0x702C5036,  4454, 0x02C502AD, 160.006, -74.7712, -11.995, 1, 0, 0, 0, F
 /* @teleloc 0x02C502AD [160.006000 -74.771200 -11.995000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x702C5036, 0x702C503A, '2005-02-09 10:00:00') /* Lever */
-     , (0x702C5036, 0x702C503B, '2005-02-09 10:00:00') /* Plant */;
+VALUES (0x702C5036, 0x702C503A, '2005-02-09 10:00:00') /* Lever (2609) */
+     , (0x702C5036, 0x702C503B, '2005-02-09 10:00:00') /* Plant (8421) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x702C5037,  4246, 0x02C502AE, 157.99, -79.5097, -11.995, -0.196918, 0, 0, -0.98042,  True, '2005-02-09 10:00:00'); /* Rank Moarsman */
@@ -257,54 +257,54 @@ VALUES (0x702C503E,  4219, 0x02C502CC, 161.466, -90.8585, 0.005, 0.01448, 0, 0, 
 /* @teleloc 0x02C502CC [161.466000 -90.858500 0.005000] 0.014480 0.000000 0.000000 0.999895 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x702C503E, 0x702C5003, '2005-02-09 10:00:00') /* Putrid Moarsman */
-     , (0x702C503E, 0x702C5004, '2005-02-09 10:00:00') /* Putrid Moarsman */
-     , (0x702C503E, 0x702C5006, '2005-02-09 10:00:00') /* Sulthis Eye Stalk */
-     , (0x702C503E, 0x702C5007, '2005-02-09 10:00:00') /* Putrid Moarsman */
-     , (0x702C503E, 0x702C5009, '2005-02-09 10:00:00') /* Sulthis Eye Stalk */
-     , (0x702C503E, 0x702C500B, '2005-02-09 10:00:00') /* Putrid Moarsman */
-     , (0x702C503E, 0x702C500C, '2005-02-09 10:00:00') /* Sulthis Eye Stalk */
-     , (0x702C503E, 0x702C5012, '2005-02-09 10:00:00') /* Sulthis Eye Stalk */
-     , (0x702C503E, 0x702C5022, '2005-02-09 10:00:00') /* Foul Moarsman */
-     , (0x702C503E, 0x702C5028, '2005-02-09 10:00:00') /* Foul Moarsman */
-     , (0x702C503E, 0x702C5033, '2005-02-09 10:00:00') /* Slithis Eye Stalk */;
+VALUES (0x702C503E, 0x702C5003, '2005-02-09 10:00:00') /* Putrid Moarsman (4248) */
+     , (0x702C503E, 0x702C5004, '2005-02-09 10:00:00') /* Putrid Moarsman (4248) */
+     , (0x702C503E, 0x702C5006, '2005-02-09 10:00:00') /* Sulthis Eye Stalk (8470) */
+     , (0x702C503E, 0x702C5007, '2005-02-09 10:00:00') /* Putrid Moarsman (4248) */
+     , (0x702C503E, 0x702C5009, '2005-02-09 10:00:00') /* Sulthis Eye Stalk (8470) */
+     , (0x702C503E, 0x702C500B, '2005-02-09 10:00:00') /* Putrid Moarsman (4248) */
+     , (0x702C503E, 0x702C500C, '2005-02-09 10:00:00') /* Sulthis Eye Stalk (8470) */
+     , (0x702C503E, 0x702C5012, '2005-02-09 10:00:00') /* Sulthis Eye Stalk (8470) */
+     , (0x702C503E, 0x702C5022, '2005-02-09 10:00:00') /* Foul Moarsman (4247) */
+     , (0x702C503E, 0x702C5028, '2005-02-09 10:00:00') /* Foul Moarsman (4247) */
+     , (0x702C503E, 0x702C5033, '2005-02-09 10:00:00') /* Slithis Eye Stalk (4258) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x702C503F,  7924, 0x02C502CC, 163.122, -90.96, 0.005, 0.01448, 0, 0, 0.999895, False, '2005-02-09 10:00:00'); /* Linkable Monster Generator ( 5 Min.) */
 /* @teleloc 0x02C502CC [163.122000 -90.960000 0.005000] 0.014480 0.000000 0.000000 0.999895 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x702C503F, 0x702C5002, '2005-02-09 10:00:00') /* Putrid Moarsman */
-     , (0x702C503F, 0x702C5008, '2005-02-09 10:00:00') /* Putrid Moarsman */
-     , (0x702C503F, 0x702C5010, '2005-02-09 10:00:00') /* Foul Moarsman */
-     , (0x702C503F, 0x702C5011, '2005-02-09 10:00:00') /* Foul Moarsman */
-     , (0x702C503F, 0x702C5014, '2005-02-09 10:00:00') /* Foul Moarsman */
-     , (0x702C503F, 0x702C5015, '2005-02-09 10:00:00') /* Foul Moarsman */
-     , (0x702C503F, 0x702C5016, '2005-02-09 10:00:00') /* Rank Moarsman */
-     , (0x702C503F, 0x702C5017, '2005-02-09 10:00:00') /* Slithis Eye Stalk */
-     , (0x702C503F, 0x702C5019, '2005-02-09 10:00:00') /* Foul Moarsman */
-     , (0x702C503F, 0x702C501A, '2005-02-09 10:00:00') /* Foul Moarsman */
-     , (0x702C503F, 0x702C501B, '2005-02-09 10:00:00') /* Slithis Eye Stalk */
-     , (0x702C503F, 0x702C501C, '2005-02-09 10:00:00') /* Slithis Eye Stalk */
-     , (0x702C503F, 0x702C501E, '2005-02-09 10:00:00') /* Foul Moarsman */
-     , (0x702C503F, 0x702C501F, '2005-02-09 10:00:00') /* Foul Moarsman */
-     , (0x702C503F, 0x702C5020, '2005-02-09 10:00:00') /* Rank Moarsman */
-     , (0x702C503F, 0x702C5021, '2005-02-09 10:00:00') /* Rank Moarsman */
-     , (0x702C503F, 0x702C5023, '2005-02-09 10:00:00') /* Rank Moarsman */
-     , (0x702C503F, 0x702C5024, '2005-02-09 10:00:00') /* Rank Moarsman */
-     , (0x702C503F, 0x702C5025, '2005-02-09 10:00:00') /* Rank Moarsman */
-     , (0x702C503F, 0x702C5026, '2005-02-09 10:00:00') /* Foul Moarsman */
-     , (0x702C503F, 0x702C5027, '2005-02-09 10:00:00') /* Rank Moarsman */
-     , (0x702C503F, 0x702C502A, '2005-02-09 10:00:00') /* Rank Moarsman */
-     , (0x702C503F, 0x702C502B, '2005-02-09 10:00:00') /* Rank Moarsman */
-     , (0x702C503F, 0x702C502C, '2005-02-09 10:00:00') /* Rank Moarsman */
-     , (0x702C503F, 0x702C502D, '2005-02-09 10:00:00') /* Rank Moarsman */
-     , (0x702C503F, 0x702C502E, '2005-02-09 10:00:00') /* Rank Moarsman */
-     , (0x702C503F, 0x702C5030, '2005-02-09 10:00:00') /* Rank Moarsman */
-     , (0x702C503F, 0x702C5032, '2005-02-09 10:00:00') /* Rank Moarsman */
-     , (0x702C503F, 0x702C5034, '2005-02-09 10:00:00') /* Rank Moarsman */
-     , (0x702C503F, 0x702C5035, '2005-02-09 10:00:00') /* Rank Moarsman */
-     , (0x702C503F, 0x702C5037, '2005-02-09 10:00:00') /* Rank Moarsman */
-     , (0x702C503F, 0x702C5038, '2005-02-09 10:00:00') /* Rank Moarsman */
-     , (0x702C503F, 0x702C5039, '2005-02-09 10:00:00') /* Rank Moarsman */
-     , (0x702C503F, 0x702C503C, '2005-02-09 10:00:00') /* Slithis Eye Stalk */;
+VALUES (0x702C503F, 0x702C5002, '2005-02-09 10:00:00') /* Putrid Moarsman (4248) */
+     , (0x702C503F, 0x702C5008, '2005-02-09 10:00:00') /* Putrid Moarsman (4248) */
+     , (0x702C503F, 0x702C5010, '2005-02-09 10:00:00') /* Foul Moarsman (4247) */
+     , (0x702C503F, 0x702C5011, '2005-02-09 10:00:00') /* Foul Moarsman (4247) */
+     , (0x702C503F, 0x702C5014, '2005-02-09 10:00:00') /* Foul Moarsman (4247) */
+     , (0x702C503F, 0x702C5015, '2005-02-09 10:00:00') /* Foul Moarsman (4247) */
+     , (0x702C503F, 0x702C5016, '2005-02-09 10:00:00') /* Rank Moarsman (4246) */
+     , (0x702C503F, 0x702C5017, '2005-02-09 10:00:00') /* Slithis Eye Stalk (4258) */
+     , (0x702C503F, 0x702C5019, '2005-02-09 10:00:00') /* Foul Moarsman (4247) */
+     , (0x702C503F, 0x702C501A, '2005-02-09 10:00:00') /* Foul Moarsman (4247) */
+     , (0x702C503F, 0x702C501B, '2005-02-09 10:00:00') /* Slithis Eye Stalk (4258) */
+     , (0x702C503F, 0x702C501C, '2005-02-09 10:00:00') /* Slithis Eye Stalk (4258) */
+     , (0x702C503F, 0x702C501E, '2005-02-09 10:00:00') /* Foul Moarsman (4247) */
+     , (0x702C503F, 0x702C501F, '2005-02-09 10:00:00') /* Foul Moarsman (4247) */
+     , (0x702C503F, 0x702C5020, '2005-02-09 10:00:00') /* Rank Moarsman (4246) */
+     , (0x702C503F, 0x702C5021, '2005-02-09 10:00:00') /* Rank Moarsman (4246) */
+     , (0x702C503F, 0x702C5023, '2005-02-09 10:00:00') /* Rank Moarsman (4246) */
+     , (0x702C503F, 0x702C5024, '2005-02-09 10:00:00') /* Rank Moarsman (4246) */
+     , (0x702C503F, 0x702C5025, '2005-02-09 10:00:00') /* Rank Moarsman (4246) */
+     , (0x702C503F, 0x702C5026, '2005-02-09 10:00:00') /* Foul Moarsman (4247) */
+     , (0x702C503F, 0x702C5027, '2005-02-09 10:00:00') /* Rank Moarsman (4246) */
+     , (0x702C503F, 0x702C502A, '2005-02-09 10:00:00') /* Rank Moarsman (4246) */
+     , (0x702C503F, 0x702C502B, '2005-02-09 10:00:00') /* Rank Moarsman (4246) */
+     , (0x702C503F, 0x702C502C, '2005-02-09 10:00:00') /* Rank Moarsman (4246) */
+     , (0x702C503F, 0x702C502D, '2005-02-09 10:00:00') /* Rank Moarsman (4246) */
+     , (0x702C503F, 0x702C502E, '2005-02-09 10:00:00') /* Rank Moarsman (4246) */
+     , (0x702C503F, 0x702C5030, '2005-02-09 10:00:00') /* Rank Moarsman (4246) */
+     , (0x702C503F, 0x702C5032, '2005-02-09 10:00:00') /* Rank Moarsman (4246) */
+     , (0x702C503F, 0x702C5034, '2005-02-09 10:00:00') /* Rank Moarsman (4246) */
+     , (0x702C503F, 0x702C5035, '2005-02-09 10:00:00') /* Rank Moarsman (4246) */
+     , (0x702C503F, 0x702C5037, '2005-02-09 10:00:00') /* Rank Moarsman (4246) */
+     , (0x702C503F, 0x702C5038, '2005-02-09 10:00:00') /* Rank Moarsman (4246) */
+     , (0x702C503F, 0x702C5039, '2005-02-09 10:00:00') /* Rank Moarsman (4246) */
+     , (0x702C503F, 0x702C503C, '2005-02-09 10:00:00') /* Slithis Eye Stalk (4258) */;

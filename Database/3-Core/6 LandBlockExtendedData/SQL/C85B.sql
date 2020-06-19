@@ -9,4 +9,4 @@ VALUES (0x7C85B001,  7923, 0xC85B0000, 40.1546, 38.1995, 5.905, -0.702155, 0, 0,
 /* @teleloc 0xC85B0000 [40.154600 38.199500 5.905000] -0.702155 0.000000 0.000000 0.712024 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C85B001, 0x7C85B000, '2005-02-09 10:00:00') /* Grearrk, Mosswart Emissary */;
+VALUES (0x7C85B001, 0x7C85B000, '2005-02-09 10:00:00') /* Grearrk, Mosswart Emissary (26536) */;

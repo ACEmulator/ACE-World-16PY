@@ -289,9 +289,9 @@ VALUES (0x7E74E04D,  7923, 0xE74E0000, 79.6925, 88.354, 32.005, -0.563311, 0, 0,
 /* @teleloc 0xE74E0000 [79.692500 88.354000 32.005000] -0.563311 0.000000 0.000000 0.826245 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7E74E04D, 0x7E74E04B, '2005-02-09 10:00:00') /* Shosa Kiroji Matanui */
-     , (0x7E74E04D, 0x7E74E0A8, '2005-02-09 10:00:00') /* Sign */
-     , (0x7E74E04D, 0x7E74E0B8, '2005-02-09 10:00:00') /* Li Fong */;
+VALUES (0x7E74E04D, 0x7E74E04B, '2005-02-09 10:00:00') /* Shosa Kiroji Matanui (11811) */
+     , (0x7E74E04D, 0x7E74E0A8, '2005-02-09 10:00:00') /* Sign (25722) */
+     , (0x7E74E04D, 0x7E74E0B8, '2005-02-09 10:00:00') /* Li Fong (28477) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7E74E054, 16919, 0xE74E0000, 51.7673, 40.3306, 32, -0.809658, 0, 0, -0.586902, False, '2005-02-09 10:00:00'); /* Pedestal Weak Spot */

@@ -41,15 +41,15 @@ VALUES (0x74EA4009,  1154, 0x4EA40000, 90.833, 97.2418, 38.7627, -0.983952, 0, 0
 /* @teleloc 0x4EA40000 [90.833000 97.241800 38.762700] -0.983952 0.000000 0.000000 0.178435 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x74EA4009, 0x74EA4000, '2005-02-09 10:00:00') /* Auroch Fire Cow */
-     , (0x74EA4009, 0x74EA4001, '2005-02-09 10:00:00') /* Auroch Fire Cow */
-     , (0x74EA4009, 0x74EA4002, '2005-02-09 10:00:00') /* Auroch Fire Cow */
-     , (0x74EA4009, 0x74EA4003, '2005-02-09 10:00:00') /* Auroch Fire Cow */
-     , (0x74EA4009, 0x74EA4004, '2005-02-09 10:00:00') /* Auroch Fire Cow */
-     , (0x74EA4009, 0x74EA4005, '2005-02-09 10:00:00') /* Auroch Fire Bull */
-     , (0x74EA4009, 0x74EA4006, '2005-02-09 10:00:00') /* Auroch Fire Yearling */
-     , (0x74EA4009, 0x74EA4007, '2005-02-09 10:00:00') /* Auroch Fire Yearling */
-     , (0x74EA4009, 0x74EA4008, '2005-02-09 10:00:00') /* Auroch Fire Yearling */;
+VALUES (0x74EA4009, 0x74EA4000, '2005-02-09 10:00:00') /* Auroch Fire Cow (1606) */
+     , (0x74EA4009, 0x74EA4001, '2005-02-09 10:00:00') /* Auroch Fire Cow (1606) */
+     , (0x74EA4009, 0x74EA4002, '2005-02-09 10:00:00') /* Auroch Fire Cow (1606) */
+     , (0x74EA4009, 0x74EA4003, '2005-02-09 10:00:00') /* Auroch Fire Cow (1606) */
+     , (0x74EA4009, 0x74EA4004, '2005-02-09 10:00:00') /* Auroch Fire Cow (1606) */
+     , (0x74EA4009, 0x74EA4005, '2005-02-09 10:00:00') /* Auroch Fire Bull (1607) */
+     , (0x74EA4009, 0x74EA4006, '2005-02-09 10:00:00') /* Auroch Fire Yearling (1605) */
+     , (0x74EA4009, 0x74EA4007, '2005-02-09 10:00:00') /* Auroch Fire Yearling (1605) */
+     , (0x74EA4009, 0x74EA4008, '2005-02-09 10:00:00') /* Auroch Fire Yearling (1605) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x74EA400A,   396, 0x4EA40000, 80.3071, 99.4659, 40.3317, -0.720068, 0, 0, 0.693903, False, '2005-02-09 10:00:00'); /* Reedshark Generator */

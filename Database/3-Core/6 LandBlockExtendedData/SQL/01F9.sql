@@ -397,7 +397,7 @@ VALUES (0x701F9062,  1542, 0x01F902D6, 90, -20, 36, 1, 0, 0, 0, False, '2005-02-
 /* @teleloc 0x01F902D6 [90.000000 -20.000000 36.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x701F9062, 0x701F9061, '2005-02-09 10:00:00') /* Gifted Healing Kit */;
+VALUES (0x701F9062, 0x701F9061, '2005-02-09 10:00:00') /* Gifted Healing Kit (630) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x701F9063,   909, 0x01F902DC, 90, -30, 36, 0.074871, 0, 0, -0.997193, False, '2005-02-09 10:00:00'); /* Female Tusker Generator */

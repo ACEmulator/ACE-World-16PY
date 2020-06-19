@@ -5,10 +5,10 @@ VALUES (0x7B873000,  7923, 0xB8730000, 150.021, 129.183, 22.005, 0.379547, 0, 0,
 /* @teleloc 0xB8730000 [150.021000 129.183000 22.005000] 0.379547 0.000000 0.000000 -0.925173 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B873000, 0x7B873002, '2005-02-09 10:00:00') /* Drudge Slinker */
-     , (0x7B873000, 0x7B873003, '2005-02-09 10:00:00') /* Drudge Skulker */
-     , (0x7B873000, 0x7B873004, '2005-02-09 10:00:00') /* Drudge Skulker */
-     , (0x7B873000, 0x7B873005, '2005-02-09 10:00:00') /* Drudge Skulker */;
+VALUES (0x7B873000, 0x7B873002, '2005-02-09 10:00:00') /* Drudge Slinker (193) */
+     , (0x7B873000, 0x7B873003, '2005-02-09 10:00:00') /* Drudge Skulker (7) */
+     , (0x7B873000, 0x7B873004, '2005-02-09 10:00:00') /* Drudge Skulker (7) */
+     , (0x7B873000, 0x7B873005, '2005-02-09 10:00:00') /* Drudge Skulker (7) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B873001,   420, 0xB8730100, 155.55, 147.449, 16.805, -0.968436, 0, 0, -0.249261, False, '2005-02-09 10:00:00'); /* Item Food Generator */

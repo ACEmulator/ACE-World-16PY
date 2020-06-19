@@ -29,83 +29,83 @@ VALUES (0x701DB01C,  7924, 0x01DB01DE, 60.4937, -48.3128, 0.005, -0.0214664, 0, 
 /* @teleloc 0x01DB01DE [60.493700 -48.312800 0.005000] -0.021466 0.000000 0.000000 -0.999770 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x701DB01C, 0x701DB000, '2005-02-09 10:00:00') /* Gragghk */
-     , (0x701DB01C, 0x701DB002, '2005-02-09 10:00:00') /* Mosswart Mire-Witch */
-     , (0x701DB01C, 0x701DB027, '2005-02-09 10:00:00') /* Mosswart Muck Stalker */
-     , (0x701DB01C, 0x701DB028, '2005-02-09 10:00:00') /* Mosswart Clinger */
-     , (0x701DB01C, 0x701DB029, '2005-02-09 10:00:00') /* Mosswart Muck Stalker */
-     , (0x701DB01C, 0x701DB02A, '2005-02-09 10:00:00') /* Mosswart Muck Stalker */
-     , (0x701DB01C, 0x701DB02B, '2005-02-09 10:00:00') /* Mosswart Clinger */
-     , (0x701DB01C, 0x701DB02C, '2005-02-09 10:00:00') /* Mosswart Clinger */
-     , (0x701DB01C, 0x701DB02D, '2005-02-09 10:00:00') /* Mosswart Clinger */
-     , (0x701DB01C, 0x701DB02E, '2005-02-09 10:00:00') /* Mosswart Muck Stalker */
-     , (0x701DB01C, 0x701DB02F, '2005-02-09 10:00:00') /* Mosswart Muck Stalker */
-     , (0x701DB01C, 0x701DB030, '2005-02-09 10:00:00') /* Mosswart Muck Stalker */
-     , (0x701DB01C, 0x701DB031, '2005-02-09 10:00:00') /* Mosswart Clinger */
-     , (0x701DB01C, 0x701DB032, '2005-02-09 10:00:00') /* Mosswart Muck Stalker */
-     , (0x701DB01C, 0x701DB033, '2005-02-09 10:00:00') /* Mosswart Muck Stalker */
-     , (0x701DB01C, 0x701DB034, '2005-02-09 10:00:00') /* Mosswart Muck Stalker */
-     , (0x701DB01C, 0x701DB035, '2005-02-09 10:00:00') /* Mosswart Muck Stalker */
-     , (0x701DB01C, 0x701DB036, '2005-02-09 10:00:00') /* Mosswart Muck Stalker */
-     , (0x701DB01C, 0x701DB037, '2005-02-09 10:00:00') /* Mosswart Muck Stalker */
-     , (0x701DB01C, 0x701DB038, '2005-02-09 10:00:00') /* Mosswart Cringer */
-     , (0x701DB01C, 0x701DB03A, '2005-02-09 10:00:00') /* Mosswart Muck Stalker */
-     , (0x701DB01C, 0x701DB03B, '2005-02-09 10:00:00') /* Mosswart Muck Stalker */
-     , (0x701DB01C, 0x701DB03C, '2005-02-09 10:00:00') /* Mosswart Cringer */
-     , (0x701DB01C, 0x701DB03D, '2005-02-09 10:00:00') /* Mosswart Muck Stalker */
-     , (0x701DB01C, 0x701DB03E, '2005-02-09 10:00:00') /* Mosswart Muck Stalker */
-     , (0x701DB01C, 0x701DB03F, '2005-02-09 10:00:00') /* Mosswart Cringer */
-     , (0x701DB01C, 0x701DB040, '2005-02-09 10:00:00') /* Mosswart Muck Stalker */
-     , (0x701DB01C, 0x701DB041, '2005-02-09 10:00:00') /* Mosswart Muck Stalker */
-     , (0x701DB01C, 0x701DB042, '2005-02-09 10:00:00') /* Mosswart Muck Stalker */
-     , (0x701DB01C, 0x701DB043, '2005-02-09 10:00:00') /* Mosswart Muck Stalker */
-     , (0x701DB01C, 0x701DB044, '2005-02-09 10:00:00') /* Mosswart Cringer */
-     , (0x701DB01C, 0x701DB045, '2005-02-09 10:00:00') /* Mosswart Mire-Witch */
-     , (0x701DB01C, 0x701DB046, '2005-02-09 10:00:00') /* Mosswart Mire-Witch */
-     , (0x701DB01C, 0x701DB047, '2005-02-09 10:00:00') /* Mosswart Cringer */
-     , (0x701DB01C, 0x701DB048, '2005-02-09 10:00:00') /* Mosswart Muck Stalker */
-     , (0x701DB01C, 0x701DB049, '2005-02-09 10:00:00') /* Mosswart Muck Stalker */
-     , (0x701DB01C, 0x701DB04A, '2005-02-09 10:00:00') /* Mosswart Cringer */
-     , (0x701DB01C, 0x701DB04B, '2005-02-09 10:00:00') /* Mosswart Muck Stalker */
-     , (0x701DB01C, 0x701DB04C, '2005-02-09 10:00:00') /* Mosswart Muck Stalker */
-     , (0x701DB01C, 0x701DB04D, '2005-02-09 10:00:00') /* Mosswart Cringer */
-     , (0x701DB01C, 0x701DB04E, '2005-02-09 10:00:00') /* Mosswart Muck Stalker */
-     , (0x701DB01C, 0x701DB04F, '2005-02-09 10:00:00') /* Mosswart Muck Stalker */
-     , (0x701DB01C, 0x701DB050, '2005-02-09 10:00:00') /* Mosswart Cringer */
-     , (0x701DB01C, 0x701DB051, '2005-02-09 10:00:00') /* Mosswart Mire-Witch */
-     , (0x701DB01C, 0x701DB052, '2005-02-09 10:00:00') /* Mosswart Muck Stalker */
-     , (0x701DB01C, 0x701DB053, '2005-02-09 10:00:00') /* Mosswart Cringer */
-     , (0x701DB01C, 0x701DB054, '2005-02-09 10:00:00') /* Mosswart Muck Stalker */
-     , (0x701DB01C, 0x701DB055, '2005-02-09 10:00:00') /* Mosswart Muck Stalker */
-     , (0x701DB01C, 0x701DB056, '2005-02-09 10:00:00') /* Mosswart Cringer */
-     , (0x701DB01C, 0x701DB057, '2005-02-09 10:00:00') /* Mosswart Mire-Witch */
-     , (0x701DB01C, 0x701DB058, '2005-02-09 10:00:00') /* Mosswart Cringer */
-     , (0x701DB01C, 0x701DB059, '2005-02-09 10:00:00') /* Mosswart Muck Stalker */
-     , (0x701DB01C, 0x701DB05A, '2005-02-09 10:00:00') /* Mosswart Muck Stalker */
-     , (0x701DB01C, 0x701DB05B, '2005-02-09 10:00:00') /* Mosswart Cringer */
-     , (0x701DB01C, 0x701DB05C, '2005-02-09 10:00:00') /* Mosswart Muck Stalker */
-     , (0x701DB01C, 0x701DB05D, '2005-02-09 10:00:00') /* Mosswart Muck Stalker */
-     , (0x701DB01C, 0x701DB05E, '2005-02-09 10:00:00') /* Mosswart Muck Stalker */
-     , (0x701DB01C, 0x701DB05F, '2005-02-09 10:00:00') /* Mosswart Muck Stalker */
-     , (0x701DB01C, 0x701DB060, '2005-02-09 10:00:00') /* Mosswart Mire-Witch */
-     , (0x701DB01C, 0x701DB061, '2005-02-09 10:00:00') /* Mosswart Cringer */
-     , (0x701DB01C, 0x701DB062, '2005-02-09 10:00:00') /* Mosswart Mire-Witch */
-     , (0x701DB01C, 0x701DB063, '2005-02-09 10:00:00') /* Mosswart Mire-Witch */
-     , (0x701DB01C, 0x701DB064, '2005-02-09 10:00:00') /* Mosswart Muck Stalker */
-     , (0x701DB01C, 0x701DB065, '2005-02-09 10:00:00') /* Mosswart Mire-Witch */
-     , (0x701DB01C, 0x701DB066, '2005-02-09 10:00:00') /* Mosswart Mire-Witch */
-     , (0x701DB01C, 0x701DB067, '2005-02-09 10:00:00') /* Mosswart Mire-Witch */
-     , (0x701DB01C, 0x701DB068, '2005-02-09 10:00:00') /* Mosswart Mire-Witch */
-     , (0x701DB01C, 0x701DB069, '2005-02-09 10:00:00') /* Mosswart Mire-Witch */
-     , (0x701DB01C, 0x701DB06A, '2005-02-09 10:00:00') /* Mosswart Muck Stalker */
-     , (0x701DB01C, 0x701DB06B, '2005-02-09 10:00:00') /* Mosswart Mire-Witch */
-     , (0x701DB01C, 0x701DB06C, '2005-02-09 10:00:00') /* Mosswart Muck Stalker */
-     , (0x701DB01C, 0x701DB06D, '2005-02-09 10:00:00') /* Mosswart Mire-Witch */
-     , (0x701DB01C, 0x701DB06E, '2005-02-09 10:00:00') /* Mosswart Muck Stalker */
-     , (0x701DB01C, 0x701DB06F, '2005-02-09 10:00:00') /* Mosswart Muck Stalker */
-     , (0x701DB01C, 0x701DB070, '2005-02-09 10:00:00') /* Mosswart Muck Stalker */
-     , (0x701DB01C, 0x701DB071, '2005-02-09 10:00:00') /* Mosswart Mire-Witch */
-     , (0x701DB01C, 0x701DB072, '2005-02-09 10:00:00') /* Mosswart Mire-Witch */;
+VALUES (0x701DB01C, 0x701DB000, '2005-02-09 10:00:00') /* Gragghk (9165) */
+     , (0x701DB01C, 0x701DB002, '2005-02-09 10:00:00') /* Mosswart Mire-Witch (7102) */
+     , (0x701DB01C, 0x701DB027, '2005-02-09 10:00:00') /* Mosswart Muck Stalker (27864) */
+     , (0x701DB01C, 0x701DB028, '2005-02-09 10:00:00') /* Mosswart Clinger (7103) */
+     , (0x701DB01C, 0x701DB029, '2005-02-09 10:00:00') /* Mosswart Muck Stalker (27864) */
+     , (0x701DB01C, 0x701DB02A, '2005-02-09 10:00:00') /* Mosswart Muck Stalker (27864) */
+     , (0x701DB01C, 0x701DB02B, '2005-02-09 10:00:00') /* Mosswart Clinger (7103) */
+     , (0x701DB01C, 0x701DB02C, '2005-02-09 10:00:00') /* Mosswart Clinger (7103) */
+     , (0x701DB01C, 0x701DB02D, '2005-02-09 10:00:00') /* Mosswart Clinger (7103) */
+     , (0x701DB01C, 0x701DB02E, '2005-02-09 10:00:00') /* Mosswart Muck Stalker (27864) */
+     , (0x701DB01C, 0x701DB02F, '2005-02-09 10:00:00') /* Mosswart Muck Stalker (27864) */
+     , (0x701DB01C, 0x701DB030, '2005-02-09 10:00:00') /* Mosswart Muck Stalker (27864) */
+     , (0x701DB01C, 0x701DB031, '2005-02-09 10:00:00') /* Mosswart Clinger (7103) */
+     , (0x701DB01C, 0x701DB032, '2005-02-09 10:00:00') /* Mosswart Muck Stalker (27864) */
+     , (0x701DB01C, 0x701DB033, '2005-02-09 10:00:00') /* Mosswart Muck Stalker (27864) */
+     , (0x701DB01C, 0x701DB034, '2005-02-09 10:00:00') /* Mosswart Muck Stalker (27864) */
+     , (0x701DB01C, 0x701DB035, '2005-02-09 10:00:00') /* Mosswart Muck Stalker (27864) */
+     , (0x701DB01C, 0x701DB036, '2005-02-09 10:00:00') /* Mosswart Muck Stalker (27864) */
+     , (0x701DB01C, 0x701DB037, '2005-02-09 10:00:00') /* Mosswart Muck Stalker (27864) */
+     , (0x701DB01C, 0x701DB038, '2005-02-09 10:00:00') /* Mosswart Cringer (27863) */
+     , (0x701DB01C, 0x701DB03A, '2005-02-09 10:00:00') /* Mosswart Muck Stalker (27864) */
+     , (0x701DB01C, 0x701DB03B, '2005-02-09 10:00:00') /* Mosswart Muck Stalker (27864) */
+     , (0x701DB01C, 0x701DB03C, '2005-02-09 10:00:00') /* Mosswart Cringer (27863) */
+     , (0x701DB01C, 0x701DB03D, '2005-02-09 10:00:00') /* Mosswart Muck Stalker (27864) */
+     , (0x701DB01C, 0x701DB03E, '2005-02-09 10:00:00') /* Mosswart Muck Stalker (27864) */
+     , (0x701DB01C, 0x701DB03F, '2005-02-09 10:00:00') /* Mosswart Cringer (27863) */
+     , (0x701DB01C, 0x701DB040, '2005-02-09 10:00:00') /* Mosswart Muck Stalker (27864) */
+     , (0x701DB01C, 0x701DB041, '2005-02-09 10:00:00') /* Mosswart Muck Stalker (27864) */
+     , (0x701DB01C, 0x701DB042, '2005-02-09 10:00:00') /* Mosswart Muck Stalker (27864) */
+     , (0x701DB01C, 0x701DB043, '2005-02-09 10:00:00') /* Mosswart Muck Stalker (27864) */
+     , (0x701DB01C, 0x701DB044, '2005-02-09 10:00:00') /* Mosswart Cringer (27863) */
+     , (0x701DB01C, 0x701DB045, '2005-02-09 10:00:00') /* Mosswart Mire-Witch (7102) */
+     , (0x701DB01C, 0x701DB046, '2005-02-09 10:00:00') /* Mosswart Mire-Witch (7102) */
+     , (0x701DB01C, 0x701DB047, '2005-02-09 10:00:00') /* Mosswart Cringer (27863) */
+     , (0x701DB01C, 0x701DB048, '2005-02-09 10:00:00') /* Mosswart Muck Stalker (27864) */
+     , (0x701DB01C, 0x701DB049, '2005-02-09 10:00:00') /* Mosswart Muck Stalker (27864) */
+     , (0x701DB01C, 0x701DB04A, '2005-02-09 10:00:00') /* Mosswart Cringer (27863) */
+     , (0x701DB01C, 0x701DB04B, '2005-02-09 10:00:00') /* Mosswart Muck Stalker (27864) */
+     , (0x701DB01C, 0x701DB04C, '2005-02-09 10:00:00') /* Mosswart Muck Stalker (27864) */
+     , (0x701DB01C, 0x701DB04D, '2005-02-09 10:00:00') /* Mosswart Cringer (27863) */
+     , (0x701DB01C, 0x701DB04E, '2005-02-09 10:00:00') /* Mosswart Muck Stalker (27864) */
+     , (0x701DB01C, 0x701DB04F, '2005-02-09 10:00:00') /* Mosswart Muck Stalker (27864) */
+     , (0x701DB01C, 0x701DB050, '2005-02-09 10:00:00') /* Mosswart Cringer (27863) */
+     , (0x701DB01C, 0x701DB051, '2005-02-09 10:00:00') /* Mosswart Mire-Witch (7102) */
+     , (0x701DB01C, 0x701DB052, '2005-02-09 10:00:00') /* Mosswart Muck Stalker (27864) */
+     , (0x701DB01C, 0x701DB053, '2005-02-09 10:00:00') /* Mosswart Cringer (27863) */
+     , (0x701DB01C, 0x701DB054, '2005-02-09 10:00:00') /* Mosswart Muck Stalker (27864) */
+     , (0x701DB01C, 0x701DB055, '2005-02-09 10:00:00') /* Mosswart Muck Stalker (27864) */
+     , (0x701DB01C, 0x701DB056, '2005-02-09 10:00:00') /* Mosswart Cringer (27863) */
+     , (0x701DB01C, 0x701DB057, '2005-02-09 10:00:00') /* Mosswart Mire-Witch (7102) */
+     , (0x701DB01C, 0x701DB058, '2005-02-09 10:00:00') /* Mosswart Cringer (27863) */
+     , (0x701DB01C, 0x701DB059, '2005-02-09 10:00:00') /* Mosswart Muck Stalker (27864) */
+     , (0x701DB01C, 0x701DB05A, '2005-02-09 10:00:00') /* Mosswart Muck Stalker (27864) */
+     , (0x701DB01C, 0x701DB05B, '2005-02-09 10:00:00') /* Mosswart Cringer (27863) */
+     , (0x701DB01C, 0x701DB05C, '2005-02-09 10:00:00') /* Mosswart Muck Stalker (27864) */
+     , (0x701DB01C, 0x701DB05D, '2005-02-09 10:00:00') /* Mosswart Muck Stalker (27864) */
+     , (0x701DB01C, 0x701DB05E, '2005-02-09 10:00:00') /* Mosswart Muck Stalker (27864) */
+     , (0x701DB01C, 0x701DB05F, '2005-02-09 10:00:00') /* Mosswart Muck Stalker (27864) */
+     , (0x701DB01C, 0x701DB060, '2005-02-09 10:00:00') /* Mosswart Mire-Witch (7102) */
+     , (0x701DB01C, 0x701DB061, '2005-02-09 10:00:00') /* Mosswart Cringer (27863) */
+     , (0x701DB01C, 0x701DB062, '2005-02-09 10:00:00') /* Mosswart Mire-Witch (7102) */
+     , (0x701DB01C, 0x701DB063, '2005-02-09 10:00:00') /* Mosswart Mire-Witch (7102) */
+     , (0x701DB01C, 0x701DB064, '2005-02-09 10:00:00') /* Mosswart Muck Stalker (27864) */
+     , (0x701DB01C, 0x701DB065, '2005-02-09 10:00:00') /* Mosswart Mire-Witch (7102) */
+     , (0x701DB01C, 0x701DB066, '2005-02-09 10:00:00') /* Mosswart Mire-Witch (7102) */
+     , (0x701DB01C, 0x701DB067, '2005-02-09 10:00:00') /* Mosswart Mire-Witch (7102) */
+     , (0x701DB01C, 0x701DB068, '2005-02-09 10:00:00') /* Mosswart Mire-Witch (7102) */
+     , (0x701DB01C, 0x701DB069, '2005-02-09 10:00:00') /* Mosswart Mire-Witch (7102) */
+     , (0x701DB01C, 0x701DB06A, '2005-02-09 10:00:00') /* Mosswart Muck Stalker (27864) */
+     , (0x701DB01C, 0x701DB06B, '2005-02-09 10:00:00') /* Mosswart Mire-Witch (7102) */
+     , (0x701DB01C, 0x701DB06C, '2005-02-09 10:00:00') /* Mosswart Muck Stalker (27864) */
+     , (0x701DB01C, 0x701DB06D, '2005-02-09 10:00:00') /* Mosswart Mire-Witch (7102) */
+     , (0x701DB01C, 0x701DB06E, '2005-02-09 10:00:00') /* Mosswart Muck Stalker (27864) */
+     , (0x701DB01C, 0x701DB06F, '2005-02-09 10:00:00') /* Mosswart Muck Stalker (27864) */
+     , (0x701DB01C, 0x701DB070, '2005-02-09 10:00:00') /* Mosswart Muck Stalker (27864) */
+     , (0x701DB01C, 0x701DB071, '2005-02-09 10:00:00') /* Mosswart Mire-Witch (7102) */
+     , (0x701DB01C, 0x701DB072, '2005-02-09 10:00:00') /* Mosswart Mire-Witch (7102) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x701DB027, 27864, 0x01DB0102, 10, -50, -23.9934, 1, 0, 0, 0,  True, '2005-02-09 10:00:00'); /* Mosswart Muck Stalker */

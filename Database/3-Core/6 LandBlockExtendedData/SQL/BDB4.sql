@@ -45,19 +45,19 @@ VALUES (0x7BDB400A,  5085, 0xBDB40102, 126.891, 165.86, 310.005, 0.938731, 0, 0,
 /* @teleloc 0xBDB40102 [126.891000 165.860000 310.005000] 0.938731 0.000000 0.000000 0.344651 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BDB400A, 0x7BDB4000, '2005-02-09 10:00:00') /* Textbook */
-     , (0x7BDB400A, 0x7BDB4001, '2005-02-09 10:00:00') /* Minor Shivering Stone */;
+VALUES (0x7BDB400A, 0x7BDB4000, '2005-02-09 10:00:00') /* Textbook (6407) */
+     , (0x7BDB400A, 0x7BDB4001, '2005-02-09 10:00:00') /* Minor Shivering Stone (6321) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BDB400B,  7932, 0xBDB40102, 126.32, 164.352, 310.005, 0.938731, 0, 0, 0.344651, False, '2005-02-09 10:00:00'); /* Linkable Monster Generator ( 4 Min.) */
 /* @teleloc 0xBDB40102 [126.320000 164.352000 310.005000] 0.938731 0.000000 0.000000 0.344651 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BDB400B, 0x7BDB4002, '2005-02-09 10:00:00') /* Glacial Golem */
-     , (0x7BDB400B, 0x7BDB4003, '2005-02-09 10:00:00') /* Glacial Golem */
-     , (0x7BDB400B, 0x7BDB4004, '2005-02-09 10:00:00') /* Glacial Golem */
-     , (0x7BDB400B, 0x7BDB4005, '2005-02-09 10:00:00') /* Glacial Golem */
-     , (0x7BDB400B, 0x7BDB4006, '2005-02-09 10:00:00') /* Glacial Golem */
-     , (0x7BDB400B, 0x7BDB4007, '2005-02-09 10:00:00') /* Glacial Golem */
-     , (0x7BDB400B, 0x7BDB4008, '2005-02-09 10:00:00') /* Glacial Golem */
-     , (0x7BDB400B, 0x7BDB4009, '2005-02-09 10:00:00') /* Glacial Golem */;
+VALUES (0x7BDB400B, 0x7BDB4002, '2005-02-09 10:00:00') /* Glacial Golem (14521) */
+     , (0x7BDB400B, 0x7BDB4003, '2005-02-09 10:00:00') /* Glacial Golem (14521) */
+     , (0x7BDB400B, 0x7BDB4004, '2005-02-09 10:00:00') /* Glacial Golem (14521) */
+     , (0x7BDB400B, 0x7BDB4005, '2005-02-09 10:00:00') /* Glacial Golem (14521) */
+     , (0x7BDB400B, 0x7BDB4006, '2005-02-09 10:00:00') /* Glacial Golem (14521) */
+     , (0x7BDB400B, 0x7BDB4007, '2005-02-09 10:00:00') /* Glacial Golem (14521) */
+     , (0x7BDB400B, 0x7BDB4008, '2005-02-09 10:00:00') /* Glacial Golem (14521) */
+     , (0x7BDB400B, 0x7BDB4009, '2005-02-09 10:00:00') /* Glacial Golem (14521) */;

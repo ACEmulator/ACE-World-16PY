@@ -33,12 +33,12 @@ VALUES (0x7B56F007,  7923, 0xB56F0000, 34.9712, 71.0167, 22.005, 0.999874, 0, 0,
 /* @teleloc 0xB56F0000 [34.971200 71.016700 22.005000] 0.999874 0.000000 0.000000 -0.015854 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B56F007, 0x7B56F001, '2005-02-09 10:00:00') /* Straw Target Drudge */
-     , (0x7B56F007, 0x7B56F002, '2005-02-09 10:00:00') /* Straw Target Drudge */
-     , (0x7B56F007, 0x7B56F003, '2005-02-09 10:00:00') /* Straw Target Drudge */
-     , (0x7B56F007, 0x7B56F004, '2005-02-09 10:00:00') /* Wood Target Drudge */
-     , (0x7B56F007, 0x7B56F005, '2005-02-09 10:00:00') /* Wood Target Drudge */
-     , (0x7B56F007, 0x7B56F006, '2005-02-09 10:00:00') /* Wood Target Drudge */;
+VALUES (0x7B56F007, 0x7B56F001, '2005-02-09 10:00:00') /* Straw Target Drudge (6075) */
+     , (0x7B56F007, 0x7B56F002, '2005-02-09 10:00:00') /* Straw Target Drudge (6075) */
+     , (0x7B56F007, 0x7B56F003, '2005-02-09 10:00:00') /* Straw Target Drudge (6075) */
+     , (0x7B56F007, 0x7B56F004, '2005-02-09 10:00:00') /* Wood Target Drudge (6076) */
+     , (0x7B56F007, 0x7B56F005, '2005-02-09 10:00:00') /* Wood Target Drudge (6076) */
+     , (0x7B56F007, 0x7B56F006, '2005-02-09 10:00:00') /* Wood Target Drudge (6076) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B56F008, 14341, 0xB56F0000, 36, 108, 22.45, 1, 0, 0, 0, False, '2005-02-09 10:00:00'); /* Chess Board */

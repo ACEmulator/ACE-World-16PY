@@ -17,13 +17,13 @@ VALUES (0x7DB54003,  3955, 0xDB540100, 109.746, 137.251, 20, 0.682429, 0, 0, -0.
 /* @teleloc 0xDB540100 [109.746000 137.251000 20.000000] 0.682429 0.000000 0.000000 -0.730951 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7DB54003, 0x7DB54004, '2005-02-09 10:00:00') /* Sho Low-Stakes Gamesmaster */
-     , (0x7DB54003, 0x7DB54005, '2005-02-09 10:00:00') /* Mi Gan-Zo */
-     , (0x7DB54003, 0x7DB54007, '2005-02-09 10:00:00') /* Sho High-Stakes Gamesmaster */
-     , (0x7DB54003, 0x7DB54008, '2005-02-09 10:00:00') /* Sho High-Stakes Gamesmaster */
-     , (0x7DB54003, 0x7DB54009, '2005-02-09 10:00:00') /* Sho Mid-Stakes Gamesmaster */
-     , (0x7DB54003, 0x7DB5400A, '2005-02-09 10:00:00') /* Sho Mid-Stakes Gamesmaster */
-     , (0x7DB54003, 0x7DB5400B, '2005-02-09 10:00:00') /* Sho Low-Stakes Gamesmaster */;
+VALUES (0x7DB54003, 0x7DB54004, '2005-02-09 10:00:00') /* Sho Low-Stakes Gamesmaster (9500) */
+     , (0x7DB54003, 0x7DB54005, '2005-02-09 10:00:00') /* Mi Gan-Zo (9494) */
+     , (0x7DB54003, 0x7DB54007, '2005-02-09 10:00:00') /* Sho High-Stakes Gamesmaster (9497) */
+     , (0x7DB54003, 0x7DB54008, '2005-02-09 10:00:00') /* Sho High-Stakes Gamesmaster (9497) */
+     , (0x7DB54003, 0x7DB54009, '2005-02-09 10:00:00') /* Sho Mid-Stakes Gamesmaster (9503) */
+     , (0x7DB54003, 0x7DB5400A, '2005-02-09 10:00:00') /* Sho Mid-Stakes Gamesmaster (9503) */
+     , (0x7DB54003, 0x7DB5400B, '2005-02-09 10:00:00') /* Sho Low-Stakes Gamesmaster (9500) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7DB54004,  9500, 0xDB540100, 101.04, 139.199, 20.005, -4.37114E-08, 0, 0, -1,  True, '2005-02-09 10:00:00'); /* Sho Low-Stakes Gamesmaster */

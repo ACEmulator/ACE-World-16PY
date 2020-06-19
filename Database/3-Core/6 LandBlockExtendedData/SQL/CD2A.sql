@@ -33,9 +33,9 @@ VALUES (0x7CD2A007,  7924, 0xCD2A0000, 148.08, 113.63, 145.732, 0.947836, 0, 0, 
 /* @teleloc 0xCD2A0000 [148.080000 113.630000 145.732000] 0.947836 0.000000 0.000000 -0.318760 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7CD2A007, 0x7CD2A001, '2005-02-09 10:00:00') /* Gotrok Extas */
-     , (0x7CD2A007, 0x7CD2A002, '2005-02-09 10:00:00') /* Gotrok Montok */
-     , (0x7CD2A007, 0x7CD2A003, '2005-02-09 10:00:00') /* Gotrok Montok */
-     , (0x7CD2A007, 0x7CD2A004, '2005-02-09 10:00:00') /* Gotrok Montok */
-     , (0x7CD2A007, 0x7CD2A005, '2005-02-09 10:00:00') /* Gotrok Montok */
-     , (0x7CD2A007, 0x7CD2A006, '2005-02-09 10:00:00') /* Gotrok Montok */;
+VALUES (0x7CD2A007, 0x7CD2A001, '2005-02-09 10:00:00') /* Gotrok Extas (24494) */
+     , (0x7CD2A007, 0x7CD2A002, '2005-02-09 10:00:00') /* Gotrok Montok (24955) */
+     , (0x7CD2A007, 0x7CD2A003, '2005-02-09 10:00:00') /* Gotrok Montok (24955) */
+     , (0x7CD2A007, 0x7CD2A004, '2005-02-09 10:00:00') /* Gotrok Montok (24955) */
+     , (0x7CD2A007, 0x7CD2A005, '2005-02-09 10:00:00') /* Gotrok Montok (24955) */
+     , (0x7CD2A007, 0x7CD2A006, '2005-02-09 10:00:00') /* Gotrok Montok (24955) */;

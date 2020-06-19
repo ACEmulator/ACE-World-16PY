@@ -1,7 +1,6 @@
-DELETE FROM `encounter` WHERE `landblock` = 53075;
+DELETE FROM `encounter` WHERE `landblock` = 0xCF53;
 
 INSERT INTO `encounter` (`landblock`, `weenie_Class_Id`, `cell_X`, `cell_Y`, `last_Modified`)
-VALUES (53075, 7890, 0, 4, '2005-02-09 10:00:00') /* Low Central Mountain Mix Generator */
-     , (53075, 7890, 3, 6, '2005-02-09 10:00:00') /* Low Central Mountain Mix Generator */
-     , (53075, 7890, 7, 3, '2005-02-09 10:00:00') /* Low Central Mountain Mix Generator */
-     , (53075, 7927, 8, 1, '2005-02-09 10:00:00') /* Low Central Lugian Mountain Mix Generator */;
+VALUES (0xCF53, 7890, 0, 4, '2005-02-09 10:00:00') /* Low Central Mountain Mix Generator */
+     , (0xCF53, 7890, 3, 6, '2005-02-09 10:00:00') /* Low Central Mountain Mix Generator */
+     , (0xCF53, 7890, 7, 3, '2005-02-09 10:00:00') /* Low Central Mountain Mix Generator */;

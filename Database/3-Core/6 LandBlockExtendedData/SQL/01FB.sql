@@ -301,103 +301,103 @@ VALUES (0x701FB04A,  7924, 0x01FB0220, 113.377, -39.5438, 0, 1, 0, 0, 0, False, 
 /* @teleloc 0x01FB0220 [113.377000 -39.543800 0.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x701FB04A, 0x701FB00B, '2005-02-09 10:00:00') /* Desert Rat */
-     , (0x701FB04A, 0x701FB00C, '2005-02-09 10:00:00') /* Desert Rat */
-     , (0x701FB04A, 0x701FB00E, '2005-02-09 10:00:00') /* Hunter Shreth */
-     , (0x701FB04A, 0x701FB012, '2005-02-09 10:00:00') /* Hunter Shreth */
-     , (0x701FB04A, 0x701FB013, '2005-02-09 10:00:00') /* Hunter Shreth */
-     , (0x701FB04A, 0x701FB015, '2005-02-09 10:00:00') /* Drudge Servant */
-     , (0x701FB04A, 0x701FB01E, '2005-02-09 10:00:00') /* Drudge Slave */
-     , (0x701FB04A, 0x701FB025, '2005-02-09 10:00:00') /* Drudge Slave */
-     , (0x701FB04A, 0x701FB028, '2005-02-09 10:00:00') /* Hunter Shreth */
-     , (0x701FB04A, 0x701FB02B, '2005-02-09 10:00:00') /* Drudge Slave */
-     , (0x701FB04A, 0x701FB02E, '2005-02-09 10:00:00') /* Drudge Slave */
-     , (0x701FB04A, 0x701FB031, '2005-02-09 10:00:00') /* Hunter Shreth */
-     , (0x701FB04A, 0x701FB033, '2005-02-09 10:00:00') /* Drudge Servant */
-     , (0x701FB04A, 0x701FB034, '2005-02-09 10:00:00') /* Drudge Servant */
-     , (0x701FB04A, 0x701FB035, '2005-02-09 10:00:00') /* Drudge Servant */
-     , (0x701FB04A, 0x701FB03B, '2005-02-09 10:00:00') /* Drudge Slave */
-     , (0x701FB04A, 0x701FB03E, '2005-02-09 10:00:00') /* Drudge Slave */
-     , (0x701FB04A, 0x701FB03F, '2005-02-09 10:00:00') /* Drudge Slave */
-     , (0x701FB04A, 0x701FB043, '2005-02-09 10:00:00') /* Drudge Servant */
-     , (0x701FB04A, 0x701FB055, '2005-02-09 10:00:00') /* Drudge Servant */
-     , (0x701FB04A, 0x701FB05C, '2005-02-09 10:00:00') /* Drudge Servant */
-     , (0x701FB04A, 0x701FB05E, '2005-02-09 10:00:00') /* Drudge Servant */
-     , (0x701FB04A, 0x701FB05F, '2005-02-09 10:00:00') /* Drudge Servant */
-     , (0x701FB04A, 0x701FB061, '2005-02-09 10:00:00') /* Drudge Slave */
-     , (0x701FB04A, 0x701FB062, '2005-02-09 10:00:00') /* Drudge Slave */
-     , (0x701FB04A, 0x701FB063, '2005-02-09 10:00:00') /* Desert Rat */
-     , (0x701FB04A, 0x701FB068, '2005-02-09 10:00:00') /* Drudge Slave */
-     , (0x701FB04A, 0x701FB069, '2005-02-09 10:00:00') /* Drudge Servant */
-     , (0x701FB04A, 0x701FB06B, '2005-02-09 10:00:00') /* Drudge Slave */
-     , (0x701FB04A, 0x701FB06D, '2005-02-09 10:00:00') /* Drudge Slave */
-     , (0x701FB04A, 0x701FB06E, '2005-02-09 10:00:00') /* Drudge Slave */
-     , (0x701FB04A, 0x701FB06F, '2005-02-09 10:00:00') /* Drudge Slave */
-     , (0x701FB04A, 0x701FB070, '2005-02-09 10:00:00') /* Drudge Slave */
-     , (0x701FB04A, 0x701FB071, '2005-02-09 10:00:00') /* Drudge Slave */
-     , (0x701FB04A, 0x701FB072, '2005-02-09 10:00:00') /* Drudge Slave */
-     , (0x701FB04A, 0x701FB073, '2005-02-09 10:00:00') /* Drudge Slave */
-     , (0x701FB04A, 0x701FB075, '2005-02-09 10:00:00') /* Drudge Slave */
-     , (0x701FB04A, 0x701FB078, '2005-02-09 10:00:00') /* Drudge Slave */
-     , (0x701FB04A, 0x701FB07A, '2005-02-09 10:00:00') /* Drudge Slave */
-     , (0x701FB04A, 0x701FB07B, '2005-02-09 10:00:00') /* Drudge Slave */
-     , (0x701FB04A, 0x701FB07C, '2005-02-09 10:00:00') /* Drudge Slave */
-     , (0x701FB04A, 0x701FB07D, '2005-02-09 10:00:00') /* Drudge Slave */
-     , (0x701FB04A, 0x701FB07E, '2005-02-09 10:00:00') /* Drudge Slave */
-     , (0x701FB04A, 0x701FB07F, '2005-02-09 10:00:00') /* Drudge Slave */
-     , (0x701FB04A, 0x701FB080, '2005-02-09 10:00:00') /* Drudge Slave */
-     , (0x701FB04A, 0x701FB081, '2005-02-09 10:00:00') /* Drudge Slave */
-     , (0x701FB04A, 0x701FB082, '2005-02-09 10:00:00') /* Drudge Slave */
-     , (0x701FB04A, 0x701FB083, '2005-02-09 10:00:00') /* Drudge Slave */;
+VALUES (0x701FB04A, 0x701FB00B, '2005-02-09 10:00:00') /* Desert Rat (1623) */
+     , (0x701FB04A, 0x701FB00C, '2005-02-09 10:00:00') /* Desert Rat (1623) */
+     , (0x701FB04A, 0x701FB00E, '2005-02-09 10:00:00') /* Hunter Shreth (4111) */
+     , (0x701FB04A, 0x701FB012, '2005-02-09 10:00:00') /* Hunter Shreth (4111) */
+     , (0x701FB04A, 0x701FB013, '2005-02-09 10:00:00') /* Hunter Shreth (4111) */
+     , (0x701FB04A, 0x701FB015, '2005-02-09 10:00:00') /* Drudge Servant (1631) */
+     , (0x701FB04A, 0x701FB01E, '2005-02-09 10:00:00') /* Drudge Slave (1632) */
+     , (0x701FB04A, 0x701FB025, '2005-02-09 10:00:00') /* Drudge Slave (1632) */
+     , (0x701FB04A, 0x701FB028, '2005-02-09 10:00:00') /* Hunter Shreth (4111) */
+     , (0x701FB04A, 0x701FB02B, '2005-02-09 10:00:00') /* Drudge Slave (1632) */
+     , (0x701FB04A, 0x701FB02E, '2005-02-09 10:00:00') /* Drudge Slave (1410) */
+     , (0x701FB04A, 0x701FB031, '2005-02-09 10:00:00') /* Hunter Shreth (4111) */
+     , (0x701FB04A, 0x701FB033, '2005-02-09 10:00:00') /* Drudge Servant (1631) */
+     , (0x701FB04A, 0x701FB034, '2005-02-09 10:00:00') /* Drudge Servant (1631) */
+     , (0x701FB04A, 0x701FB035, '2005-02-09 10:00:00') /* Drudge Servant (1631) */
+     , (0x701FB04A, 0x701FB03B, '2005-02-09 10:00:00') /* Drudge Slave (1632) */
+     , (0x701FB04A, 0x701FB03E, '2005-02-09 10:00:00') /* Drudge Slave (1632) */
+     , (0x701FB04A, 0x701FB03F, '2005-02-09 10:00:00') /* Drudge Slave (1632) */
+     , (0x701FB04A, 0x701FB043, '2005-02-09 10:00:00') /* Drudge Servant (1631) */
+     , (0x701FB04A, 0x701FB055, '2005-02-09 10:00:00') /* Drudge Servant (1631) */
+     , (0x701FB04A, 0x701FB05C, '2005-02-09 10:00:00') /* Drudge Servant (1631) */
+     , (0x701FB04A, 0x701FB05E, '2005-02-09 10:00:00') /* Drudge Servant (1631) */
+     , (0x701FB04A, 0x701FB05F, '2005-02-09 10:00:00') /* Drudge Servant (1631) */
+     , (0x701FB04A, 0x701FB061, '2005-02-09 10:00:00') /* Drudge Slave (1632) */
+     , (0x701FB04A, 0x701FB062, '2005-02-09 10:00:00') /* Drudge Slave (1632) */
+     , (0x701FB04A, 0x701FB063, '2005-02-09 10:00:00') /* Desert Rat (1623) */
+     , (0x701FB04A, 0x701FB068, '2005-02-09 10:00:00') /* Drudge Slave (1632) */
+     , (0x701FB04A, 0x701FB069, '2005-02-09 10:00:00') /* Drudge Servant (1631) */
+     , (0x701FB04A, 0x701FB06B, '2005-02-09 10:00:00') /* Drudge Slave (1632) */
+     , (0x701FB04A, 0x701FB06D, '2005-02-09 10:00:00') /* Drudge Slave (1632) */
+     , (0x701FB04A, 0x701FB06E, '2005-02-09 10:00:00') /* Drudge Slave (1632) */
+     , (0x701FB04A, 0x701FB06F, '2005-02-09 10:00:00') /* Drudge Slave (1632) */
+     , (0x701FB04A, 0x701FB070, '2005-02-09 10:00:00') /* Drudge Slave (1632) */
+     , (0x701FB04A, 0x701FB071, '2005-02-09 10:00:00') /* Drudge Slave (1632) */
+     , (0x701FB04A, 0x701FB072, '2005-02-09 10:00:00') /* Drudge Slave (1632) */
+     , (0x701FB04A, 0x701FB073, '2005-02-09 10:00:00') /* Drudge Slave (1632) */
+     , (0x701FB04A, 0x701FB075, '2005-02-09 10:00:00') /* Drudge Slave (1632) */
+     , (0x701FB04A, 0x701FB078, '2005-02-09 10:00:00') /* Drudge Slave (1632) */
+     , (0x701FB04A, 0x701FB07A, '2005-02-09 10:00:00') /* Drudge Slave (1632) */
+     , (0x701FB04A, 0x701FB07B, '2005-02-09 10:00:00') /* Drudge Slave (1632) */
+     , (0x701FB04A, 0x701FB07C, '2005-02-09 10:00:00') /* Drudge Slave (1632) */
+     , (0x701FB04A, 0x701FB07D, '2005-02-09 10:00:00') /* Drudge Slave (1632) */
+     , (0x701FB04A, 0x701FB07E, '2005-02-09 10:00:00') /* Drudge Slave (1632) */
+     , (0x701FB04A, 0x701FB07F, '2005-02-09 10:00:00') /* Drudge Slave (1632) */
+     , (0x701FB04A, 0x701FB080, '2005-02-09 10:00:00') /* Drudge Slave (1632) */
+     , (0x701FB04A, 0x701FB081, '2005-02-09 10:00:00') /* Drudge Slave (1632) */
+     , (0x701FB04A, 0x701FB082, '2005-02-09 10:00:00') /* Drudge Slave (1632) */
+     , (0x701FB04A, 0x701FB083, '2005-02-09 10:00:00') /* Drudge Slave (1632) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x701FB04B,  7924, 0x01FB0220, 114.063, -39.4815, 0, 1, 0, 0, 0, False, '2005-02-09 10:00:00'); /* Linkable Monster Generator ( 5 Min.) */
 /* @teleloc 0x01FB0220 [114.063000 -39.481500 0.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x701FB04B, 0x701FB000, '2005-02-09 10:00:00') /* Drudge Servant */
-     , (0x701FB04B, 0x701FB001, '2005-02-09 10:00:00') /* Drudge Slave */
-     , (0x701FB04B, 0x701FB002, '2005-02-09 10:00:00') /* Desert Rat */
-     , (0x701FB04B, 0x701FB003, '2005-02-09 10:00:00') /* Desert Rat */
-     , (0x701FB04B, 0x701FB004, '2005-02-09 10:00:00') /* Desert Rat */
-     , (0x701FB04B, 0x701FB006, '2005-02-09 10:00:00') /* Desert Rat */
-     , (0x701FB04B, 0x701FB007, '2005-02-09 10:00:00') /* Desert Rat */
-     , (0x701FB04B, 0x701FB009, '2005-02-09 10:00:00') /* Drudge Servant */
-     , (0x701FB04B, 0x701FB016, '2005-02-09 10:00:00') /* Drudge Servant */
-     , (0x701FB04B, 0x701FB017, '2005-02-09 10:00:00') /* Drudge Slave */
-     , (0x701FB04B, 0x701FB018, '2005-02-09 10:00:00') /* Drudge Servant */
-     , (0x701FB04B, 0x701FB01B, '2005-02-09 10:00:00') /* Desert Rat */
-     , (0x701FB04B, 0x701FB01C, '2005-02-09 10:00:00') /* Drudge Servant */
-     , (0x701FB04B, 0x701FB01F, '2005-02-09 10:00:00') /* Drudge Slave */
-     , (0x701FB04B, 0x701FB022, '2005-02-09 10:00:00') /* Drudge Slave */
-     , (0x701FB04B, 0x701FB026, '2005-02-09 10:00:00') /* Desert Rat */
-     , (0x701FB04B, 0x701FB029, '2005-02-09 10:00:00') /* Drudge Servant */
-     , (0x701FB04B, 0x701FB02C, '2005-02-09 10:00:00') /* Hunter Shreth */
-     , (0x701FB04B, 0x701FB036, '2005-02-09 10:00:00') /* Desert Rat */
-     , (0x701FB04B, 0x701FB03C, '2005-02-09 10:00:00') /* Drudge Servant */
-     , (0x701FB04B, 0x701FB042, '2005-02-09 10:00:00') /* Drudge Slave */
-     , (0x701FB04B, 0x701FB045, '2005-02-09 10:00:00') /* Drudge Slave */
-     , (0x701FB04B, 0x701FB046, '2005-02-09 10:00:00') /* Drudge Servant */
-     , (0x701FB04B, 0x701FB048, '2005-02-09 10:00:00') /* Drudge Servant */
-     , (0x701FB04B, 0x701FB04D, '2005-02-09 10:00:00') /* Drudge Servant */
-     , (0x701FB04B, 0x701FB04E, '2005-02-09 10:00:00') /* Drudge Servant */
-     , (0x701FB04B, 0x701FB04F, '2005-02-09 10:00:00') /* Drudge Servant */
-     , (0x701FB04B, 0x701FB050, '2005-02-09 10:00:00') /* Drudge Servant */
-     , (0x701FB04B, 0x701FB052, '2005-02-09 10:00:00') /* Drudge Slave */
-     , (0x701FB04B, 0x701FB056, '2005-02-09 10:00:00') /* Drudge Servant */
-     , (0x701FB04B, 0x701FB058, '2005-02-09 10:00:00') /* Drudge Servant */
-     , (0x701FB04B, 0x701FB059, '2005-02-09 10:00:00') /* Drudge Servant */
-     , (0x701FB04B, 0x701FB060, '2005-02-09 10:00:00') /* Drudge Servant */
-     , (0x701FB04B, 0x701FB064, '2005-02-09 10:00:00') /* Desert Rat */
-     , (0x701FB04B, 0x701FB065, '2005-02-09 10:00:00') /* Desert Rat */
-     , (0x701FB04B, 0x701FB066, '2005-02-09 10:00:00') /* Desert Rat */
-     , (0x701FB04B, 0x701FB067, '2005-02-09 10:00:00') /* Desert Rat */
-     , (0x701FB04B, 0x701FB06A, '2005-02-09 10:00:00') /* Drudge Servant */
-     , (0x701FB04B, 0x701FB06C, '2005-02-09 10:00:00') /* Drudge Servant */
-     , (0x701FB04B, 0x701FB074, '2005-02-09 10:00:00') /* Drudge Slave */
-     , (0x701FB04B, 0x701FB076, '2005-02-09 10:00:00') /* Drudge Slave */
-     , (0x701FB04B, 0x701FB077, '2005-02-09 10:00:00') /* Drudge Slave */
-     , (0x701FB04B, 0x701FB079, '2005-02-09 10:00:00') /* Drudge Slave */;
+VALUES (0x701FB04B, 0x701FB000, '2005-02-09 10:00:00') /* Drudge Servant (1631) */
+     , (0x701FB04B, 0x701FB001, '2005-02-09 10:00:00') /* Drudge Slave (1632) */
+     , (0x701FB04B, 0x701FB002, '2005-02-09 10:00:00') /* Desert Rat (1623) */
+     , (0x701FB04B, 0x701FB003, '2005-02-09 10:00:00') /* Desert Rat (1623) */
+     , (0x701FB04B, 0x701FB004, '2005-02-09 10:00:00') /* Desert Rat (1623) */
+     , (0x701FB04B, 0x701FB006, '2005-02-09 10:00:00') /* Desert Rat (1623) */
+     , (0x701FB04B, 0x701FB007, '2005-02-09 10:00:00') /* Desert Rat (1623) */
+     , (0x701FB04B, 0x701FB009, '2005-02-09 10:00:00') /* Drudge Servant (1631) */
+     , (0x701FB04B, 0x701FB016, '2005-02-09 10:00:00') /* Drudge Servant (1631) */
+     , (0x701FB04B, 0x701FB017, '2005-02-09 10:00:00') /* Drudge Slave (1632) */
+     , (0x701FB04B, 0x701FB018, '2005-02-09 10:00:00') /* Drudge Servant (1631) */
+     , (0x701FB04B, 0x701FB01B, '2005-02-09 10:00:00') /* Desert Rat (1623) */
+     , (0x701FB04B, 0x701FB01C, '2005-02-09 10:00:00') /* Drudge Servant (1631) */
+     , (0x701FB04B, 0x701FB01F, '2005-02-09 10:00:00') /* Drudge Slave (1632) */
+     , (0x701FB04B, 0x701FB022, '2005-02-09 10:00:00') /* Drudge Slave (1632) */
+     , (0x701FB04B, 0x701FB026, '2005-02-09 10:00:00') /* Desert Rat (1623) */
+     , (0x701FB04B, 0x701FB029, '2005-02-09 10:00:00') /* Drudge Servant (1631) */
+     , (0x701FB04B, 0x701FB02C, '2005-02-09 10:00:00') /* Hunter Shreth (4111) */
+     , (0x701FB04B, 0x701FB036, '2005-02-09 10:00:00') /* Desert Rat (1623) */
+     , (0x701FB04B, 0x701FB03C, '2005-02-09 10:00:00') /* Drudge Servant (1631) */
+     , (0x701FB04B, 0x701FB042, '2005-02-09 10:00:00') /* Drudge Slave (1632) */
+     , (0x701FB04B, 0x701FB045, '2005-02-09 10:00:00') /* Drudge Slave (1632) */
+     , (0x701FB04B, 0x701FB046, '2005-02-09 10:00:00') /* Drudge Servant (1631) */
+     , (0x701FB04B, 0x701FB048, '2005-02-09 10:00:00') /* Drudge Servant (1631) */
+     , (0x701FB04B, 0x701FB04D, '2005-02-09 10:00:00') /* Drudge Servant (1631) */
+     , (0x701FB04B, 0x701FB04E, '2005-02-09 10:00:00') /* Drudge Servant (1631) */
+     , (0x701FB04B, 0x701FB04F, '2005-02-09 10:00:00') /* Drudge Servant (1631) */
+     , (0x701FB04B, 0x701FB050, '2005-02-09 10:00:00') /* Drudge Servant (1631) */
+     , (0x701FB04B, 0x701FB052, '2005-02-09 10:00:00') /* Drudge Slave (1632) */
+     , (0x701FB04B, 0x701FB056, '2005-02-09 10:00:00') /* Drudge Servant (1631) */
+     , (0x701FB04B, 0x701FB058, '2005-02-09 10:00:00') /* Drudge Servant (1631) */
+     , (0x701FB04B, 0x701FB059, '2005-02-09 10:00:00') /* Drudge Servant (1631) */
+     , (0x701FB04B, 0x701FB060, '2005-02-09 10:00:00') /* Drudge Servant (1631) */
+     , (0x701FB04B, 0x701FB064, '2005-02-09 10:00:00') /* Desert Rat (1623) */
+     , (0x701FB04B, 0x701FB065, '2005-02-09 10:00:00') /* Desert Rat (1623) */
+     , (0x701FB04B, 0x701FB066, '2005-02-09 10:00:00') /* Desert Rat (1623) */
+     , (0x701FB04B, 0x701FB067, '2005-02-09 10:00:00') /* Desert Rat (1623) */
+     , (0x701FB04B, 0x701FB06A, '2005-02-09 10:00:00') /* Drudge Servant (1631) */
+     , (0x701FB04B, 0x701FB06C, '2005-02-09 10:00:00') /* Drudge Servant (1631) */
+     , (0x701FB04B, 0x701FB074, '2005-02-09 10:00:00') /* Drudge Slave (1632) */
+     , (0x701FB04B, 0x701FB076, '2005-02-09 10:00:00') /* Drudge Slave (1632) */
+     , (0x701FB04B, 0x701FB077, '2005-02-09 10:00:00') /* Drudge Slave (1632) */
+     , (0x701FB04B, 0x701FB079, '2005-02-09 10:00:00') /* Drudge Slave (1632) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x701FB04C,   278, 0x01FB0225, 115.25, -20, 0, -0.707107, 0, 0, -0.707107, False, '2005-02-09 10:00:00'); /* Door */

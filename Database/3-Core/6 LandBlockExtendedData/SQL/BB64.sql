@@ -9,7 +9,7 @@ VALUES (0x7BB64001,  7923, 0xBB64010D, 0.895536, 84.7179, 1.205, 0.9999, 0, 0, 0
 /* @teleloc 0xBB64010D [0.895536 84.717900 1.205000] 0.999900 0.000000 0.000000 0.014108 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BB64001, 0x7BB64000, '2005-02-09 10:00:00') /* Odd Looking Vine */;
+VALUES (0x7BB64001, 0x7BB64000, '2005-02-09 10:00:00') /* Odd Looking Vine (26587) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BB64002, 27103, 0xBB640113, 179.938, 60.8279, 6.39733, -0.0363792, 0, 0, 0.999338, False, '2005-02-09 10:00:00'); /* Burun Ruffian Encampment Gen */

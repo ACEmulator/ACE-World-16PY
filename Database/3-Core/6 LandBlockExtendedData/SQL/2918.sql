@@ -89,24 +89,24 @@ VALUES (0x7291801C,  7924, 0x29180000, 174.689, 84.0063, 56.005, 0.984327, 0, 0,
 /* @teleloc 0x29180000 [174.689000 84.006300 56.005000] 0.984327 0.000000 0.000000 -0.176355 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7291801C, 0x72918007, '2005-02-09 10:00:00') /* Small Sandstone Golem */
-     , (0x7291801C, 0x72918008, '2005-02-09 10:00:00') /* Small Sandstone Golem */
-     , (0x7291801C, 0x72918009, '2005-02-09 10:00:00') /* Small Sandstone Golem */
-     , (0x7291801C, 0x7291800A, '2005-02-09 10:00:00') /* Small Sandstone Golem */
-     , (0x7291801C, 0x7291800B, '2005-02-09 10:00:00') /* Small Sandstone Golem */
-     , (0x7291801C, 0x7291800C, '2005-02-09 10:00:00') /* Small Sandstone Golem */
-     , (0x7291801C, 0x7291800D, '2005-02-09 10:00:00') /* Small Sandstone Golem */
-     , (0x7291801C, 0x7291800E, '2005-02-09 10:00:00') /* Small Sandstone Golem */
-     , (0x7291801C, 0x7291800F, '2005-02-09 10:00:00') /* Small Sandstone Golem */
-     , (0x7291801C, 0x72918010, '2005-02-09 10:00:00') /* Small Sandstone Golem */
-     , (0x7291801C, 0x72918011, '2005-02-09 10:00:00') /* Small Sandstone Golem */
-     , (0x7291801C, 0x72918012, '2005-02-09 10:00:00') /* Small Sandstone Golem */
-     , (0x7291801C, 0x72918013, '2005-02-09 10:00:00') /* Small Sandstone Golem */
-     , (0x7291801C, 0x72918014, '2005-02-09 10:00:00') /* Small Sandstone Golem */
-     , (0x7291801C, 0x72918015, '2005-02-09 10:00:00') /* Small Sandstone Golem */
-     , (0x7291801C, 0x72918016, '2005-02-09 10:00:00') /* Small Sandstone Golem */
-     , (0x7291801C, 0x72918017, '2005-02-09 10:00:00') /* Small Sandstone Golem */
-     , (0x7291801C, 0x72918018, '2005-02-09 10:00:00') /* Small Sandstone Golem */
-     , (0x7291801C, 0x72918019, '2005-02-09 10:00:00') /* Small Sandstone Golem */
-     , (0x7291801C, 0x7291801A, '2005-02-09 10:00:00') /* Small Sandstone Golem */
-     , (0x7291801C, 0x7291801B, '2005-02-09 10:00:00') /* Small Sandstone Golem */;
+VALUES (0x7291801C, 0x72918007, '2005-02-09 10:00:00') /* Small Sandstone Golem (24484) */
+     , (0x7291801C, 0x72918008, '2005-02-09 10:00:00') /* Small Sandstone Golem (24484) */
+     , (0x7291801C, 0x72918009, '2005-02-09 10:00:00') /* Small Sandstone Golem (24484) */
+     , (0x7291801C, 0x7291800A, '2005-02-09 10:00:00') /* Small Sandstone Golem (24484) */
+     , (0x7291801C, 0x7291800B, '2005-02-09 10:00:00') /* Small Sandstone Golem (24484) */
+     , (0x7291801C, 0x7291800C, '2005-02-09 10:00:00') /* Small Sandstone Golem (24484) */
+     , (0x7291801C, 0x7291800D, '2005-02-09 10:00:00') /* Small Sandstone Golem (24484) */
+     , (0x7291801C, 0x7291800E, '2005-02-09 10:00:00') /* Small Sandstone Golem (24484) */
+     , (0x7291801C, 0x7291800F, '2005-02-09 10:00:00') /* Small Sandstone Golem (24484) */
+     , (0x7291801C, 0x72918010, '2005-02-09 10:00:00') /* Small Sandstone Golem (24484) */
+     , (0x7291801C, 0x72918011, '2005-02-09 10:00:00') /* Small Sandstone Golem (24484) */
+     , (0x7291801C, 0x72918012, '2005-02-09 10:00:00') /* Small Sandstone Golem (24484) */
+     , (0x7291801C, 0x72918013, '2005-02-09 10:00:00') /* Small Sandstone Golem (24484) */
+     , (0x7291801C, 0x72918014, '2005-02-09 10:00:00') /* Small Sandstone Golem (24484) */
+     , (0x7291801C, 0x72918015, '2005-02-09 10:00:00') /* Small Sandstone Golem (24484) */
+     , (0x7291801C, 0x72918016, '2005-02-09 10:00:00') /* Small Sandstone Golem (24484) */
+     , (0x7291801C, 0x72918017, '2005-02-09 10:00:00') /* Small Sandstone Golem (24484) */
+     , (0x7291801C, 0x72918018, '2005-02-09 10:00:00') /* Small Sandstone Golem (24484) */
+     , (0x7291801C, 0x72918019, '2005-02-09 10:00:00') /* Small Sandstone Golem (24484) */
+     , (0x7291801C, 0x7291801A, '2005-02-09 10:00:00') /* Small Sandstone Golem (24484) */
+     , (0x7291801C, 0x7291801B, '2005-02-09 10:00:00') /* Small Sandstone Golem (24484) */;

@@ -33,7 +33,7 @@ VALUES (0x702D7009,  4455, 0x02D70145, 10, -30, -72, -0.707107, 0, 0, -0.707107,
 /* @teleloc 0x02D70145 [10.000000 -30.000000 -72.000000] -0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x702D7009, 0x702D7021, '2005-02-09 10:00:00') /* Lever */;
+VALUES (0x702D7009, 0x702D7021, '2005-02-09 10:00:00') /* Lever (2609) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x702D700A,  7122, 0x02D70145, 5.33136, -30.0396, -71.995, 0.703575, 0, 0, 0.710621,  True, '2005-02-09 10:00:00'); /* Great Skeleton */
@@ -48,7 +48,7 @@ VALUES (0x702D700C,  7562, 0x02D70147, 11.2445, -58.7094, -70.0155, -0.907224, 0
 /* @teleloc 0x02D70147 [11.244500 -58.709400 -70.015500] -0.907224 0.000000 0.000000 -0.420647 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x702D700C, 0x702D700B, '2005-02-09 10:00:00') /* Pressure Plate */;
+VALUES (0x702D700C, 0x702D700B, '2005-02-09 10:00:00') /* Pressure Plate (2131) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x702D700D,  2131, 0x02D7014A, 21.0337, -1.36859, -71.995, -0.707107, 0, 0, -0.707107,  True, '2005-02-09 10:00:00'); /* Pressure Plate */
@@ -59,7 +59,7 @@ VALUES (0x702D700E,  7562, 0x02D7014A, 21.2906, -1.2445, -70.0155, -0.938947, 0,
 /* @teleloc 0x02D7014A [21.290600 -1.244500 -70.015500] -0.938947 0.000000 0.000000 0.344062 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x702D700E, 0x702D700D, '2005-02-09 10:00:00') /* Pressure Plate */;
+VALUES (0x702D700E, 0x702D700D, '2005-02-09 10:00:00') /* Pressure Plate (2131) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x702D700F, 28551, 0x02D70161, 29.6035, -58.9701, -71.995, 0.974669, 0, 0, -0.223654,  True, '2005-02-09 10:00:00'); /* Sparkling Dual Fragment */
@@ -86,7 +86,7 @@ VALUES (0x702D7014,  7562, 0x02D7017F, 68.7094, -68.7555, -70.0155, -0.344062, 0
 /* @teleloc 0x02D7017F [68.709400 -68.755500 -70.015500] -0.344062 0.000000 0.000000 -0.938947 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x702D7014, 0x702D7013, '2005-02-09 10:00:00') /* Pressure Plate */;
+VALUES (0x702D7014, 0x702D7013, '2005-02-09 10:00:00') /* Pressure Plate (2131) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x702D7015,  2131, 0x02D70182, 78.6314, -11.0337, -71.995, 1, 0, 0, 0,  True, '2005-02-09 10:00:00'); /* Pressure Plate */
@@ -97,15 +97,15 @@ VALUES (0x702D7016,  7562, 0x02D70182, 78.7555, -11.2906, -70.0155, 0.420647, 0,
 /* @teleloc 0x02D70182 [78.755500 -11.290600 -70.015500] 0.420647 0.000000 0.000000 -0.907224 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x702D7016, 0x702D7015, '2005-02-09 10:00:00') /* Pressure Plate */;
+VALUES (0x702D7016, 0x702D7015, '2005-02-09 10:00:00') /* Pressure Plate (2131) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x702D7017,  4455, 0x02D70186, 80, -40, -72, 0.707107, 0, 0, -0.707107, False, '2005-02-09 10:00:00'); /* Door */
 /* @teleloc 0x02D70186 [80.000000 -40.000000 -72.000000] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x702D7017, 0x702D7001, '2005-02-09 10:00:00') /* Lever */
-     , (0x702D7017, 0x702D701A, '2005-02-09 10:00:00') /* Lever */;
+VALUES (0x702D7017, 0x702D7001, '2005-02-09 10:00:00') /* Lever (2609) */
+     , (0x702D7017, 0x702D701A, '2005-02-09 10:00:00') /* Lever (2609) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x702D7018, 28551, 0x02D70188, 90.15, -30.0012, -71.995, -0.997063, 0, 0, -0.0765869,  True, '2005-02-09 10:00:00'); /* Sparkling Dual Fragment */
@@ -300,54 +300,54 @@ VALUES (0x702D7048,  7924, 0x02D7024B, 42.6574, -21.8211, -41.995, 0.042221, 0, 
 /* @teleloc 0x02D7024B [42.657400 -21.821100 -41.995000] 0.042221 0.000000 0.000000 -0.999108 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x702D7048, 0x702D7002, '2005-02-09 10:00:00') /* Shendolain Satellite Fragment */
-     , (0x702D7048, 0x702D7003, '2005-02-09 10:00:00') /* Shendolain Satellite Fragment */
-     , (0x702D7048, 0x702D7005, '2005-02-09 10:00:00') /* Shendolain Satellite Fragment */
-     , (0x702D7048, 0x702D7007, '2005-02-09 10:00:00') /* Shendolain Satellite Fragment */
-     , (0x702D7048, 0x702D700A, '2005-02-09 10:00:00') /* Great Skeleton */
-     , (0x702D7048, 0x702D700F, '2005-02-09 10:00:00') /* Sparkling Dual Fragment */
-     , (0x702D7048, 0x702D7010, '2005-02-09 10:00:00') /* Sparkling Dual Fragment */
-     , (0x702D7048, 0x702D7011, '2005-02-09 10:00:00') /* Sparkling Dual Fragment */
-     , (0x702D7048, 0x702D7012, '2005-02-09 10:00:00') /* Sparkling Dual Fragment */
-     , (0x702D7048, 0x702D7018, '2005-02-09 10:00:00') /* Sparkling Dual Fragment */
-     , (0x702D7048, 0x702D7019, '2005-02-09 10:00:00') /* Diamond Golem */
-     , (0x702D7048, 0x702D701D, '2005-02-09 10:00:00') /* Risen Lord */
-     , (0x702D7048, 0x702D701E, '2005-02-09 10:00:00') /* Risen Lord */
-     , (0x702D7048, 0x702D701F, '2005-02-09 10:00:00') /* Risen Lord */
-     , (0x702D7048, 0x702D7022, '2005-02-09 10:00:00') /* Great Skeleton */
-     , (0x702D7048, 0x702D7023, '2005-02-09 10:00:00') /* Risen Lord */
-     , (0x702D7048, 0x702D7024, '2005-02-09 10:00:00') /* Diamond Golem */
-     , (0x702D7048, 0x702D7025, '2005-02-09 10:00:00') /* Gold Golem */
-     , (0x702D7048, 0x702D7026, '2005-02-09 10:00:00') /* Great Skeleton */
-     , (0x702D7048, 0x702D7027, '2005-02-09 10:00:00') /* Great Skeleton */
-     , (0x702D7048, 0x702D7028, '2005-02-09 10:00:00') /* Risen Lord */
-     , (0x702D7048, 0x702D7029, '2005-02-09 10:00:00') /* Elleina of Berkesh */
-     , (0x702D7048, 0x702D702A, '2005-02-09 10:00:00') /* Gold Golem */
-     , (0x702D7048, 0x702D702C, '2005-02-09 10:00:00') /* Shendolain Crystal */
-     , (0x702D7048, 0x702D702D, '2005-02-09 10:00:00') /* Great Skeleton */
-     , (0x702D7048, 0x702D702E, '2005-02-09 10:00:00') /* Great Skeleton */
-     , (0x702D7048, 0x702D702F, '2005-02-09 10:00:00') /* Great Skeleton */
-     , (0x702D7048, 0x702D7030, '2005-02-09 10:00:00') /* Great Skeleton */
-     , (0x702D7048, 0x702D7031, '2005-02-09 10:00:00') /* Great Skeleton */
-     , (0x702D7048, 0x702D7032, '2005-02-09 10:00:00') /* Great Skeleton */
-     , (0x702D7048, 0x702D7033, '2005-02-09 10:00:00') /* Great Skeleton */
-     , (0x702D7048, 0x702D7034, '2005-02-09 10:00:00') /* Great Skeleton */
-     , (0x702D7048, 0x702D7035, '2005-02-09 10:00:00') /* Sparkling Dual Fragment */
-     , (0x702D7048, 0x702D7036, '2005-02-09 10:00:00') /* Sparkling Dual Fragment */
-     , (0x702D7048, 0x702D7037, '2005-02-09 10:00:00') /* Sparkling Dual Fragment */
-     , (0x702D7048, 0x702D7038, '2005-02-09 10:00:00') /* Sparkling Dual Fragment */
-     , (0x702D7048, 0x702D7039, '2005-02-09 10:00:00') /* Great Skeleton */
-     , (0x702D7048, 0x702D703A, '2005-02-09 10:00:00') /* Great Skeleton */
-     , (0x702D7048, 0x702D703B, '2005-02-09 10:00:00') /* Great Skeleton */
-     , (0x702D7048, 0x702D703C, '2005-02-09 10:00:00') /* Great Skeleton */
-     , (0x702D7048, 0x702D703D, '2005-02-09 10:00:00') /* Gold Golem */
-     , (0x702D7048, 0x702D703E, '2005-02-09 10:00:00') /* Gold Golem */
-     , (0x702D7048, 0x702D703F, '2005-02-09 10:00:00') /* Gold Golem */
-     , (0x702D7048, 0x702D7040, '2005-02-09 10:00:00') /* Diamond Golem */
-     , (0x702D7048, 0x702D7041, '2005-02-09 10:00:00') /* Diamond Golem */
-     , (0x702D7048, 0x702D7042, '2005-02-09 10:00:00') /* Gold Golem */
-     , (0x702D7048, 0x702D7043, '2005-02-09 10:00:00') /* Gold Golem */
-     , (0x702D7048, 0x702D7044, '2005-02-09 10:00:00') /* Risen Lord */
-     , (0x702D7048, 0x702D7045, '2005-02-09 10:00:00') /* Risen Lord */
-     , (0x702D7048, 0x702D7046, '2005-02-09 10:00:00') /* Risen Lord */
-     , (0x702D7048, 0x702D7047, '2005-02-09 10:00:00') /* Risen Lord */;
+VALUES (0x702D7048, 0x702D7002, '2005-02-09 10:00:00') /* Shendolain Satellite Fragment (8110) */
+     , (0x702D7048, 0x702D7003, '2005-02-09 10:00:00') /* Shendolain Satellite Fragment (8110) */
+     , (0x702D7048, 0x702D7005, '2005-02-09 10:00:00') /* Shendolain Satellite Fragment (8110) */
+     , (0x702D7048, 0x702D7007, '2005-02-09 10:00:00') /* Shendolain Satellite Fragment (8110) */
+     , (0x702D7048, 0x702D700A, '2005-02-09 10:00:00') /* Great Skeleton (7122) */
+     , (0x702D7048, 0x702D700F, '2005-02-09 10:00:00') /* Sparkling Dual Fragment (28551) */
+     , (0x702D7048, 0x702D7010, '2005-02-09 10:00:00') /* Sparkling Dual Fragment (28551) */
+     , (0x702D7048, 0x702D7011, '2005-02-09 10:00:00') /* Sparkling Dual Fragment (28551) */
+     , (0x702D7048, 0x702D7012, '2005-02-09 10:00:00') /* Sparkling Dual Fragment (28551) */
+     , (0x702D7048, 0x702D7018, '2005-02-09 10:00:00') /* Sparkling Dual Fragment (28551) */
+     , (0x702D7048, 0x702D7019, '2005-02-09 10:00:00') /* Diamond Golem (4216) */
+     , (0x702D7048, 0x702D701D, '2005-02-09 10:00:00') /* Risen Lord (24326) */
+     , (0x702D7048, 0x702D701E, '2005-02-09 10:00:00') /* Risen Lord (24326) */
+     , (0x702D7048, 0x702D701F, '2005-02-09 10:00:00') /* Risen Lord (24326) */
+     , (0x702D7048, 0x702D7022, '2005-02-09 10:00:00') /* Great Skeleton (7122) */
+     , (0x702D7048, 0x702D7023, '2005-02-09 10:00:00') /* Risen Lord (24326) */
+     , (0x702D7048, 0x702D7024, '2005-02-09 10:00:00') /* Diamond Golem (4216) */
+     , (0x702D7048, 0x702D7025, '2005-02-09 10:00:00') /* Gold Golem (7096) */
+     , (0x702D7048, 0x702D7026, '2005-02-09 10:00:00') /* Great Skeleton (7122) */
+     , (0x702D7048, 0x702D7027, '2005-02-09 10:00:00') /* Great Skeleton (7122) */
+     , (0x702D7048, 0x702D7028, '2005-02-09 10:00:00') /* Risen Lord (24326) */
+     , (0x702D7048, 0x702D7029, '2005-02-09 10:00:00') /* Elleina of Berkesh (8123) */
+     , (0x702D7048, 0x702D702A, '2005-02-09 10:00:00') /* Gold Golem (7096) */
+     , (0x702D7048, 0x702D702C, '2005-02-09 10:00:00') /* Shendolain Crystal (8015) */
+     , (0x702D7048, 0x702D702D, '2005-02-09 10:00:00') /* Great Skeleton (7122) */
+     , (0x702D7048, 0x702D702E, '2005-02-09 10:00:00') /* Great Skeleton (7122) */
+     , (0x702D7048, 0x702D702F, '2005-02-09 10:00:00') /* Great Skeleton (7122) */
+     , (0x702D7048, 0x702D7030, '2005-02-09 10:00:00') /* Great Skeleton (7122) */
+     , (0x702D7048, 0x702D7031, '2005-02-09 10:00:00') /* Great Skeleton (7122) */
+     , (0x702D7048, 0x702D7032, '2005-02-09 10:00:00') /* Great Skeleton (7122) */
+     , (0x702D7048, 0x702D7033, '2005-02-09 10:00:00') /* Great Skeleton (7122) */
+     , (0x702D7048, 0x702D7034, '2005-02-09 10:00:00') /* Great Skeleton (7122) */
+     , (0x702D7048, 0x702D7035, '2005-02-09 10:00:00') /* Sparkling Dual Fragment (28551) */
+     , (0x702D7048, 0x702D7036, '2005-02-09 10:00:00') /* Sparkling Dual Fragment (28551) */
+     , (0x702D7048, 0x702D7037, '2005-02-09 10:00:00') /* Sparkling Dual Fragment (28551) */
+     , (0x702D7048, 0x702D7038, '2005-02-09 10:00:00') /* Sparkling Dual Fragment (28551) */
+     , (0x702D7048, 0x702D7039, '2005-02-09 10:00:00') /* Great Skeleton (7122) */
+     , (0x702D7048, 0x702D703A, '2005-02-09 10:00:00') /* Great Skeleton (7122) */
+     , (0x702D7048, 0x702D703B, '2005-02-09 10:00:00') /* Great Skeleton (7122) */
+     , (0x702D7048, 0x702D703C, '2005-02-09 10:00:00') /* Great Skeleton (7122) */
+     , (0x702D7048, 0x702D703D, '2005-02-09 10:00:00') /* Gold Golem (7096) */
+     , (0x702D7048, 0x702D703E, '2005-02-09 10:00:00') /* Gold Golem (7096) */
+     , (0x702D7048, 0x702D703F, '2005-02-09 10:00:00') /* Gold Golem (7096) */
+     , (0x702D7048, 0x702D7040, '2005-02-09 10:00:00') /* Diamond Golem (4216) */
+     , (0x702D7048, 0x702D7041, '2005-02-09 10:00:00') /* Diamond Golem (4216) */
+     , (0x702D7048, 0x702D7042, '2005-02-09 10:00:00') /* Gold Golem (7096) */
+     , (0x702D7048, 0x702D7043, '2005-02-09 10:00:00') /* Gold Golem (7096) */
+     , (0x702D7048, 0x702D7044, '2005-02-09 10:00:00') /* Risen Lord (24326) */
+     , (0x702D7048, 0x702D7045, '2005-02-09 10:00:00') /* Risen Lord (24326) */
+     , (0x702D7048, 0x702D7046, '2005-02-09 10:00:00') /* Risen Lord (24326) */
+     , (0x702D7048, 0x702D7047, '2005-02-09 10:00:00') /* Risen Lord (24326) */;

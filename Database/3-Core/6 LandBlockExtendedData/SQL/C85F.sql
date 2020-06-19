@@ -25,10 +25,10 @@ VALUES (0x7C85F005,  1154, 0xC85F0000, 59.7545, 27.9261, 5.105, 0.441785, 0, 0, 
 /* @teleloc 0xC85F0000 [59.754500 27.926100 5.105000] 0.441785 0.000000 0.000000 -0.897121 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C85F005, 0x7C85F001, '2005-02-09 10:00:00') /* Mire Phyntos Wasp */
-     , (0x7C85F005, 0x7C85F002, '2005-02-09 10:00:00') /* Mire Phyntos Wasp */
-     , (0x7C85F005, 0x7C85F003, '2005-02-09 10:00:00') /* Mire Phyntos Wasp */
-     , (0x7C85F005, 0x7C85F004, '2005-02-09 10:00:00') /* Mire Phyntos Wasp */;
+VALUES (0x7C85F005, 0x7C85F001, '2005-02-09 10:00:00') /* Mire Phyntos Wasp (1622) */
+     , (0x7C85F005, 0x7C85F002, '2005-02-09 10:00:00') /* Mire Phyntos Wasp (1622) */
+     , (0x7C85F005, 0x7C85F003, '2005-02-09 10:00:00') /* Mire Phyntos Wasp (1622) */
+     , (0x7C85F005, 0x7C85F004, '2005-02-09 10:00:00') /* Mire Phyntos Wasp (1622) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C85F006,   903, 0xC85F0000, 36.3336, 92.6873, 6.34888, -0.712049, 0, 0, -0.702129, False, '2005-02-09 10:00:00'); /* Blue Phyntos Wasp Generator */

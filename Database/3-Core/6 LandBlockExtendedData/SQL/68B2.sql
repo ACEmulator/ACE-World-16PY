@@ -41,17 +41,17 @@ VALUES (0x768B2009,  1542, 0x68B20000, 8.27941, 159.185, 81.8459, -0.581277, 0, 
 /* @teleloc 0x68B20000 [8.279410 159.185000 81.845900] -0.581277 0.000000 0.000000 -0.813706 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x768B2009, 0x768B2004, '2005-02-09 10:00:00') /* Mugwort */
-     , (0x768B2009, 0x768B2005, '2005-02-09 10:00:00') /* Vervain */
-     , (0x768B2009, 0x768B2006, '2005-02-09 10:00:00') /* Wormwood */
-     , (0x768B2009, 0x768B2007, '2005-02-09 10:00:00') /* Yarrow */
-     , (0x768B2009, 0x768B2008, '2005-02-09 10:00:00') /* Comfrey */;
+VALUES (0x768B2009, 0x768B2004, '2005-02-09 10:00:00') /* Mugwort (776) */
+     , (0x768B2009, 0x768B2005, '2005-02-09 10:00:00') /* Vervain (779) */
+     , (0x768B2009, 0x768B2006, '2005-02-09 10:00:00') /* Wormwood (780) */
+     , (0x768B2009, 0x768B2007, '2005-02-09 10:00:00') /* Yarrow (781) */
+     , (0x768B2009, 0x768B2008, '2005-02-09 10:00:00') /* Comfrey (767) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x768B200A,  7923, 0x68B20000, 7.52909, 160.69, 82.1493, -0.969272, 0, 0, -0.245991, False, '2005-02-09 10:00:00'); /* Linkable Monster Generator ( 3 Min.) */
 /* @teleloc 0x68B20000 [7.529090 160.690000 82.149300] -0.969272 0.000000 0.000000 -0.245991 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x768B200A, 0x768B2001, '2005-02-09 10:00:00') /* Wood Golem */
-     , (0x768B200A, 0x768B2002, '2005-02-09 10:00:00') /* Wood Golem */
-     , (0x768B200A, 0x768B2003, '2005-02-09 10:00:00') /* Wood Golem */;
+VALUES (0x768B200A, 0x768B2001, '2005-02-09 10:00:00') /* Wood Golem (942) */
+     , (0x768B200A, 0x768B2002, '2005-02-09 10:00:00') /* Wood Golem (942) */
+     , (0x768B200A, 0x768B2003, '2005-02-09 10:00:00') /* Wood Golem (942) */;

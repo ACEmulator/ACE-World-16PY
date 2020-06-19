@@ -17,18 +17,18 @@ VALUES (0x71BBC003,  7923, 0x1BBC0000, 56.0494, 111.166, 96.005, -0.519526, 0, 0
 /* @teleloc 0x1BBC0000 [56.049400 111.166000 96.005000] -0.519526 0.000000 0.000000 -0.854455 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71BBC003, 0x71BBC000, '2005-02-09 10:00:00') /* Olthoi Soldier */
-     , (0x71BBC003, 0x71BBC001, '2005-02-09 10:00:00') /* Olthoi Soldier */
-     , (0x71BBC003, 0x71BBC002, '2005-02-09 10:00:00') /* Olthoi Soldier */
-     , (0x71BBC003, 0x71BBC004, '2005-02-09 10:00:00') /* Hea Itealuan */
-     , (0x71BBC003, 0x71BBC005, '2005-02-09 10:00:00') /* Hea Itealuan */
-     , (0x71BBC003, 0x71BBC006, '2005-02-09 10:00:00') /* Hea Itealuan */
-     , (0x71BBC003, 0x71BBC007, '2005-02-09 10:00:00') /* Hea Elder Shaman */
-     , (0x71BBC003, 0x71BBC008, '2005-02-09 10:00:00') /* Hea Nualuan */
-     , (0x71BBC003, 0x71BBC009, '2005-02-09 10:00:00') /* Hea Nualuan */
-     , (0x71BBC003, 0x71BBC00A, '2005-02-09 10:00:00') /* Hea Nualuan */
-     , (0x71BBC003, 0x71BBC00B, '2005-02-09 10:00:00') /* Hea Nualuan */
-     , (0x71BBC003, 0x71BBC00C, '2005-02-09 10:00:00') /* Hea Nualuan */;
+VALUES (0x71BBC003, 0x71BBC000, '2005-02-09 10:00:00') /* Olthoi Soldier (214) */
+     , (0x71BBC003, 0x71BBC001, '2005-02-09 10:00:00') /* Olthoi Soldier (214) */
+     , (0x71BBC003, 0x71BBC002, '2005-02-09 10:00:00') /* Olthoi Soldier (214) */
+     , (0x71BBC003, 0x71BBC004, '2005-02-09 10:00:00') /* Hea Itealuan (11519) */
+     , (0x71BBC003, 0x71BBC005, '2005-02-09 10:00:00') /* Hea Itealuan (11519) */
+     , (0x71BBC003, 0x71BBC006, '2005-02-09 10:00:00') /* Hea Itealuan (11519) */
+     , (0x71BBC003, 0x71BBC007, '2005-02-09 10:00:00') /* Hea Elder Shaman (11517) */
+     , (0x71BBC003, 0x71BBC008, '2005-02-09 10:00:00') /* Hea Nualuan (11520) */
+     , (0x71BBC003, 0x71BBC009, '2005-02-09 10:00:00') /* Hea Nualuan (11520) */
+     , (0x71BBC003, 0x71BBC00A, '2005-02-09 10:00:00') /* Hea Nualuan (11520) */
+     , (0x71BBC003, 0x71BBC00B, '2005-02-09 10:00:00') /* Hea Nualuan (11520) */
+     , (0x71BBC003, 0x71BBC00C, '2005-02-09 10:00:00') /* Hea Nualuan (11520) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71BBC004, 11519, 0x1BBC0000, 139.98, 65.7269, 82.006, 0.50301, 0, 0, -0.864281,  True, '2005-02-09 10:00:00'); /* Hea Itealuan */

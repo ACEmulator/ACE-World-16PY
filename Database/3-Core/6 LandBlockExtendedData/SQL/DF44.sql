@@ -5,22 +5,22 @@ VALUES (0x7DF44000,  7923, 0xDF440000, 27.0909, 63.8744, 20.6821, -0.794386, 0, 
 /* @teleloc 0xDF440000 [27.090900 63.874400 20.682100] -0.794386 0.000000 0.000000 -0.607413 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7DF44000, 0x7DF44012, '2005-02-09 10:00:00') /* Ferocious Monouga */
-     , (0x7DF44000, 0x7DF44013, '2005-02-09 10:00:00') /* Brutish Monouga */
-     , (0x7DF44000, 0x7DF44014, '2005-02-09 10:00:00') /* Obsidian Golem */
-     , (0x7DF44000, 0x7DF44015, '2005-02-09 10:00:00') /* Cruel Monouga */
-     , (0x7DF44000, 0x7DF44016, '2005-02-09 10:00:00') /* Ferocious Monouga */
-     , (0x7DF44000, 0x7DF44017, '2005-02-09 10:00:00') /* Oak Golem */
-     , (0x7DF44000, 0x7DF44018, '2005-02-09 10:00:00') /* Oak Golem */
-     , (0x7DF44000, 0x7DF44019, '2005-02-09 10:00:00') /* Drudge Ravener */
-     , (0x7DF44000, 0x7DF4401A, '2005-02-09 10:00:00') /* Oak Golem */
-     , (0x7DF44000, 0x7DF4401B, '2005-02-09 10:00:00') /* Obsidian Golem */
-     , (0x7DF44000, 0x7DF4401C, '2005-02-09 10:00:00') /* Brutish Monouga */
-     , (0x7DF44000, 0x7DF4401D, '2005-02-09 10:00:00') /* Drudge Stalker */
-     , (0x7DF44000, 0x7DF4401E, '2005-02-09 10:00:00') /* Drudge Stalker */
-     , (0x7DF44000, 0x7DF4401F, '2005-02-09 10:00:00') /* Drudge Stalker */
-     , (0x7DF44000, 0x7DF44020, '2005-02-09 10:00:00') /* Drudge Lurker */
-     , (0x7DF44000, 0x7DF44021, '2005-02-09 10:00:00') /* Cruel Monouga */;
+VALUES (0x7DF44000, 0x7DF44012, '2005-02-09 10:00:00') /* Ferocious Monouga (9252) */
+     , (0x7DF44000, 0x7DF44013, '2005-02-09 10:00:00') /* Brutish Monouga (9251) */
+     , (0x7DF44000, 0x7DF44014, '2005-02-09 10:00:00') /* Obsidian Golem (201) */
+     , (0x7DF44000, 0x7DF44015, '2005-02-09 10:00:00') /* Cruel Monouga (24288) */
+     , (0x7DF44000, 0x7DF44016, '2005-02-09 10:00:00') /* Ferocious Monouga (9252) */
+     , (0x7DF44000, 0x7DF44017, '2005-02-09 10:00:00') /* Oak Golem (14559) */
+     , (0x7DF44000, 0x7DF44018, '2005-02-09 10:00:00') /* Oak Golem (14559) */
+     , (0x7DF44000, 0x7DF44019, '2005-02-09 10:00:00') /* Drudge Ravener (1610) */
+     , (0x7DF44000, 0x7DF4401A, '2005-02-09 10:00:00') /* Oak Golem (14559) */
+     , (0x7DF44000, 0x7DF4401B, '2005-02-09 10:00:00') /* Obsidian Golem (201) */
+     , (0x7DF44000, 0x7DF4401C, '2005-02-09 10:00:00') /* Brutish Monouga (9251) */
+     , (0x7DF44000, 0x7DF4401D, '2005-02-09 10:00:00') /* Drudge Stalker (1609) */
+     , (0x7DF44000, 0x7DF4401E, '2005-02-09 10:00:00') /* Drudge Stalker (1609) */
+     , (0x7DF44000, 0x7DF4401F, '2005-02-09 10:00:00') /* Drudge Stalker (1609) */
+     , (0x7DF44000, 0x7DF44020, '2005-02-09 10:00:00') /* Drudge Lurker (1608) */
+     , (0x7DF44000, 0x7DF44021, '2005-02-09 10:00:00') /* Cruel Monouga (24288) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7DF44012,  9252, 0xDF440000, 27.1119, 59.8361, 21.0192, 0.769733, 0, 0, 0.638366,  True, '2005-02-09 10:00:00'); /* Ferocious Monouga */

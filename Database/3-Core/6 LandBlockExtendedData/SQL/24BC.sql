@@ -13,12 +13,12 @@ VALUES (0x724BC002,  4219, 0x24BC0000, 158.214, 92.7427, 46.005, -0.894047, 0, 0
 /* @teleloc 0x24BC0000 [158.214000 92.742700 46.005000] -0.894047 0.000000 0.000000 -0.447972 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x724BC002, 0x724BC001, '2005-02-09 10:00:00') /* Water Wisp */
-     , (0x724BC002, 0x724BC003, '2005-02-09 10:00:00') /* Water Wisp */
-     , (0x724BC002, 0x724BC006, '2005-02-09 10:00:00') /* Littoral Siraluun */
-     , (0x724BC002, 0x724BC007, '2005-02-09 10:00:00') /* Littoral Siraluun */
-     , (0x724BC002, 0x724BC008, '2005-02-09 10:00:00') /* Egg */
-     , (0x724BC002, 0x724BC009, '2005-02-09 10:00:00') /* Egg */;
+VALUES (0x724BC002, 0x724BC001, '2005-02-09 10:00:00') /* Water Wisp (1986) */
+     , (0x724BC002, 0x724BC003, '2005-02-09 10:00:00') /* Water Wisp (1986) */
+     , (0x724BC002, 0x724BC006, '2005-02-09 10:00:00') /* Littoral Siraluun (11487) */
+     , (0x724BC002, 0x724BC007, '2005-02-09 10:00:00') /* Littoral Siraluun (11487) */
+     , (0x724BC002, 0x724BC008, '2005-02-09 10:00:00') /* Egg (546) */
+     , (0x724BC002, 0x724BC009, '2005-02-09 10:00:00') /* Egg (546) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x724BC003,  1986, 0x24BC0000, 184.401, 108.715, 29.6041, -0.685584, 0, 0, -0.727993,  True, '2005-02-09 10:00:00'); /* Water Wisp */

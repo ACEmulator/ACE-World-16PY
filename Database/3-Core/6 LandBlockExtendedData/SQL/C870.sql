@@ -49,8 +49,8 @@ VALUES (0x7C87000B,  1154, 0xC8700100, 37.6906, 153.494, 46.005, -0.0506319, 0, 
 /* @teleloc 0xC8700100 [37.690600 153.494000 46.005000] -0.050632 0.000000 0.000000 -0.998717 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C87000B, 0x7C870006, '2005-02-09 10:00:00') /* Mosswart Shaman */
-     , (0x7C87000B, 0x7C870007, '2005-02-09 10:00:00') /* Mosswart Shaman */;
+VALUES (0x7C87000B, 0x7C870006, '2005-02-09 10:00:00') /* Mosswart Shaman (1619) */
+     , (0x7C87000B, 0x7C870007, '2005-02-09 10:00:00') /* Mosswart Shaman (1619) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C87000C,  1924, 0xC8700102, 36.139, 165.604, 46.005, 1, 0, 0, 0, False, '2005-02-09 10:00:00'); /* Chest */

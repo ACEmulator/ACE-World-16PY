@@ -9,11 +9,11 @@ VALUES (0x79D27001,  7924, 0x9D270000, 126.345, 138.701, 246.092, -0.0515331, 0,
 /* @teleloc 0x9D270000 [126.345000 138.701000 246.092000] -0.051533 0.000000 0.000000 0.998671 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79D27001, 0x79D27003, '2005-02-09 10:00:00') /* Gotrok Montok */
-     , (0x79D27001, 0x79D27004, '2005-02-09 10:00:00') /* Gotrok Montok */
-     , (0x79D27001, 0x79D27005, '2005-02-09 10:00:00') /* Gotrok Montok */
-     , (0x79D27001, 0x79D27006, '2005-02-09 10:00:00') /* Gotrok Montok */
-     , (0x79D27001, 0x79D27007, '2005-02-09 10:00:00') /* Gotrok Montok */;
+VALUES (0x79D27001, 0x79D27003, '2005-02-09 10:00:00') /* Gotrok Montok (24955) */
+     , (0x79D27001, 0x79D27004, '2005-02-09 10:00:00') /* Gotrok Montok (24955) */
+     , (0x79D27001, 0x79D27005, '2005-02-09 10:00:00') /* Gotrok Montok (24955) */
+     , (0x79D27001, 0x79D27006, '2005-02-09 10:00:00') /* Gotrok Montok (24955) */
+     , (0x79D27001, 0x79D27007, '2005-02-09 10:00:00') /* Gotrok Montok (24955) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79D27002, 24494, 0x9D270000, 129.829, 133.128, 245.836, 0.14379, 0, 0, 0.989608, False, '2005-02-09 10:00:00'); /* Gotrok Extas */

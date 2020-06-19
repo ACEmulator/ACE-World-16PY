@@ -45,7 +45,7 @@ VALUES (0x7B2CD00A,  1154, 0xB2CD0100, 76.2083, 33.5567, 109.66, -0.732346, 0, 0
 /* @teleloc 0xB2CD0100 [76.208300 33.556700 109.660000] -0.732346 0.000000 0.000000 0.680933 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B2CD00A, 0x7B2CD006, '2005-02-09 10:00:00') /* Skeleton Captain */
-     , (0x7B2CD00A, 0x7B2CD007, '2005-02-09 10:00:00') /* Skeleton */
-     , (0x7B2CD00A, 0x7B2CD008, '2005-02-09 10:00:00') /* Skeleton */
-     , (0x7B2CD00A, 0x7B2CD009, '2005-02-09 10:00:00') /* Skeleton */;
+VALUES (0x7B2CD00A, 0x7B2CD006, '2005-02-09 10:00:00') /* Skeleton Captain (1761) */
+     , (0x7B2CD00A, 0x7B2CD007, '2005-02-09 10:00:00') /* Skeleton (1759) */
+     , (0x7B2CD00A, 0x7B2CD008, '2005-02-09 10:00:00') /* Skeleton (1759) */
+     , (0x7B2CD00A, 0x7B2CD009, '2005-02-09 10:00:00') /* Skeleton (1759) */;

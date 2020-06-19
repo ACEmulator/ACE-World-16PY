@@ -29,26 +29,26 @@ VALUES (0x7E454028,  4219, 0xE4540000, 55.2421, 113.146, 6.005, 0.980391, 0, 0, 
 /* @teleloc 0xE4540000 [55.242100 113.146000 6.005000] 0.980391 0.000000 0.000000 0.197061 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7E454028, 0x7E45401F, '2005-02-09 10:00:00') /* Mosswart Idolator */
-     , (0x7E454028, 0x7E454021, '2005-02-09 10:00:00') /* Mosswart Fanatic */
-     , (0x7E454028, 0x7E454022, '2005-02-09 10:00:00') /* Idol */
-     , (0x7E454028, 0x7E454025, '2005-02-09 10:00:00') /* Ash Gromnie */
-     , (0x7E454028, 0x7E454027, '2005-02-09 10:00:00') /* Mosswart Fanatic */
-     , (0x7E454028, 0x7E45402A, '2005-02-09 10:00:00') /* Mosswart Fanatic */
-     , (0x7E454028, 0x7E45402B, '2005-02-09 10:00:00') /* Mosswart Fanatic */
-     , (0x7E454028, 0x7E45402C, '2005-02-09 10:00:00') /* Mosswart Fanatic */
-     , (0x7E454028, 0x7E45402D, '2005-02-09 10:00:00') /* Mosswart Fanatic */
-     , (0x7E454028, 0x7E45402E, '2005-02-09 10:00:00') /* Mosswart Fanatic */
-     , (0x7E454028, 0x7E45402F, '2005-02-09 10:00:00') /* Mosswart Fanatic */
-     , (0x7E454028, 0x7E454030, '2005-02-09 10:00:00') /* Mosswart Fanatic */
-     , (0x7E454028, 0x7E454032, '2005-02-09 10:00:00') /* Mosswart Fanatic */
-     , (0x7E454028, 0x7E454035, '2005-02-09 10:00:00') /* Mosswart Idolator */
-     , (0x7E454028, 0x7E454036, '2005-02-09 10:00:00') /* Mosswart Fanatic */
-     , (0x7E454028, 0x7E454037, '2005-02-09 10:00:00') /* Mosswart Fanatic */
-     , (0x7E454028, 0x7E454038, '2005-02-09 10:00:00') /* Mosswart Fanatic */
-     , (0x7E454028, 0x7E454039, '2005-02-09 10:00:00') /* Mosswart Idolator */
-     , (0x7E454028, 0x7E45403B, '2005-02-09 10:00:00') /* Mosswart Idolator */
-     , (0x7E454028, 0x7E45403C, '2005-02-09 10:00:00') /* Ash Gromnie */;
+VALUES (0x7E454028, 0x7E45401F, '2005-02-09 10:00:00') /* Mosswart Idolator (8428) */
+     , (0x7E454028, 0x7E454021, '2005-02-09 10:00:00') /* Mosswart Fanatic (8427) */
+     , (0x7E454028, 0x7E454022, '2005-02-09 10:00:00') /* Idol (8466) */
+     , (0x7E454028, 0x7E454025, '2005-02-09 10:00:00') /* Ash Gromnie (1615) */
+     , (0x7E454028, 0x7E454027, '2005-02-09 10:00:00') /* Mosswart Fanatic (8427) */
+     , (0x7E454028, 0x7E45402A, '2005-02-09 10:00:00') /* Mosswart Fanatic (8427) */
+     , (0x7E454028, 0x7E45402B, '2005-02-09 10:00:00') /* Mosswart Fanatic (8427) */
+     , (0x7E454028, 0x7E45402C, '2005-02-09 10:00:00') /* Mosswart Fanatic (8427) */
+     , (0x7E454028, 0x7E45402D, '2005-02-09 10:00:00') /* Mosswart Fanatic (8427) */
+     , (0x7E454028, 0x7E45402E, '2005-02-09 10:00:00') /* Mosswart Fanatic (8427) */
+     , (0x7E454028, 0x7E45402F, '2005-02-09 10:00:00') /* Mosswart Fanatic (8427) */
+     , (0x7E454028, 0x7E454030, '2005-02-09 10:00:00') /* Mosswart Fanatic (8427) */
+     , (0x7E454028, 0x7E454032, '2005-02-09 10:00:00') /* Mosswart Fanatic (8427) */
+     , (0x7E454028, 0x7E454035, '2005-02-09 10:00:00') /* Mosswart Idolator (8428) */
+     , (0x7E454028, 0x7E454036, '2005-02-09 10:00:00') /* Mosswart Fanatic (8427) */
+     , (0x7E454028, 0x7E454037, '2005-02-09 10:00:00') /* Mosswart Fanatic (8427) */
+     , (0x7E454028, 0x7E454038, '2005-02-09 10:00:00') /* Mosswart Fanatic (8427) */
+     , (0x7E454028, 0x7E454039, '2005-02-09 10:00:00') /* Mosswart Idolator (8428) */
+     , (0x7E454028, 0x7E45403B, '2005-02-09 10:00:00') /* Mosswart Idolator (8428) */
+     , (0x7E454028, 0x7E45403C, '2005-02-09 10:00:00') /* Ash Gromnie (1615) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7E45402A,  8427, 0xE4540000, 41.8636, 127.89, 14.805, -0.527331, 0, 0, -0.84966,  True, '2005-02-09 10:00:00'); /* Mosswart Fanatic */

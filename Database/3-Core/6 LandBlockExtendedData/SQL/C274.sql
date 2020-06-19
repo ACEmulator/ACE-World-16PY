@@ -29,7 +29,7 @@ VALUES (0x7C274006,  1154, 0xC2740103, 109.065, 87.7252, 24.005, 0.994564, 0, 0,
 /* @teleloc 0xC2740103 [109.065000 87.725200 24.005000] 0.994564 0.000000 0.000000 -0.104126 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C274006, 0x7C274007, '2005-02-09 10:00:00') /* Raxanza Folthid */;
+VALUES (0x7C274006, 0x7C274007, '2005-02-09 10:00:00') /* Raxanza Folthid (5024) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C274007,  5024, 0xC2740103, 107.947, 81.3866, 24.005, 0.912809, 0, 0, 0.408386,  True, '2005-02-09 10:00:00'); /* Raxanza Folthid */

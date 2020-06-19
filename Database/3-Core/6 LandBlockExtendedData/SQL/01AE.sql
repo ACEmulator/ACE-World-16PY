@@ -365,7 +365,7 @@ VALUES (0x701AE05B,  4098, 0x01AE02F9, 139.864, 2.86019, -3.967, 0.707107, 0, 0,
 /* @teleloc 0x01AE02F9 [139.864000 2.860190 -3.967000] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x701AE05B, 0x701AE05A, '2005-02-09 10:00:00') /* Pressure Plate */;
+VALUES (0x701AE05B, 0x701AE05A, '2005-02-09 10:00:00') /* Pressure Plate (2131) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x701AE05C,   278, 0x01AE0308, 64.75, -70, 0, 0.707107, 0, 0, -0.707107, False, '2005-02-09 10:00:00'); /* Door */
@@ -392,83 +392,83 @@ VALUES (0x701AE061,  7924, 0x01AE0326, 79.2752, -80.7823, 0.29425, 0.707107, 0, 
 /* @teleloc 0x01AE0326 [79.275200 -80.782300 0.294250] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x701AE061, 0x701AE000, '2005-02-09 10:00:00') /* Zombie */
-     , (0x701AE061, 0x701AE001, '2005-02-09 10:00:00') /* Undead Miner */
-     , (0x701AE061, 0x701AE003, '2005-02-09 10:00:00') /* Zombie */
-     , (0x701AE061, 0x701AE004, '2005-02-09 10:00:00') /* Undead Miner */
-     , (0x701AE061, 0x701AE007, '2005-02-09 10:00:00') /* Undead Miner */
-     , (0x701AE061, 0x701AE009, '2005-02-09 10:00:00') /* Undead Miner */
-     , (0x701AE061, 0x701AE00A, '2005-02-09 10:00:00') /* Undead Miner */
-     , (0x701AE061, 0x701AE00B, '2005-02-09 10:00:00') /* Undead Miner */
-     , (0x701AE061, 0x701AE00C, '2005-02-09 10:00:00') /* Undead Miner */
-     , (0x701AE061, 0x701AE012, '2005-02-09 10:00:00') /* Undead Miner */
-     , (0x701AE061, 0x701AE013, '2005-02-09 10:00:00') /* Undead Miner */
-     , (0x701AE061, 0x701AE015, '2005-02-09 10:00:00') /* Undead Miner */
-     , (0x701AE061, 0x701AE016, '2005-02-09 10:00:00') /* Banderling Guard */
-     , (0x701AE061, 0x701AE017, '2005-02-09 10:00:00') /* Banderling Guard */
-     , (0x701AE061, 0x701AE01C, '2005-02-09 10:00:00') /* Undead Miner */
-     , (0x701AE061, 0x701AE01D, '2005-02-09 10:00:00') /* Undead Miner */
-     , (0x701AE061, 0x701AE01F, '2005-02-09 10:00:00') /* Undead Miner */
-     , (0x701AE061, 0x701AE021, '2005-02-09 10:00:00') /* Undead Miner */
-     , (0x701AE061, 0x701AE022, '2005-02-09 10:00:00') /* Undead Miner */
-     , (0x701AE061, 0x701AE025, '2005-02-09 10:00:00') /* Undead Miner */
-     , (0x701AE061, 0x701AE026, '2005-02-09 10:00:00') /* Undead Miner */
-     , (0x701AE061, 0x701AE02A, '2005-02-09 10:00:00') /* Undead Miner */
-     , (0x701AE061, 0x701AE02B, '2005-02-09 10:00:00') /* Undead Miner */
-     , (0x701AE061, 0x701AE02E, '2005-02-09 10:00:00') /* Undead Miner */
-     , (0x701AE061, 0x701AE02F, '2005-02-09 10:00:00') /* Undead Miner */
-     , (0x701AE061, 0x701AE035, '2005-02-09 10:00:00') /* Undead Miner */
-     , (0x701AE061, 0x701AE036, '2005-02-09 10:00:00') /* Undead Miner */
-     , (0x701AE061, 0x701AE038, '2005-02-09 10:00:00') /* Undead Miner */
-     , (0x701AE061, 0x701AE03A, '2005-02-09 10:00:00') /* Undead Miner */
-     , (0x701AE061, 0x701AE03B, '2005-02-09 10:00:00') /* Undead Miner */
-     , (0x701AE061, 0x701AE03C, '2005-02-09 10:00:00') /* Undead Miner */
-     , (0x701AE061, 0x701AE03F, '2005-02-09 10:00:00') /* Undead Miner */
-     , (0x701AE061, 0x701AE041, '2005-02-09 10:00:00') /* Banderling Guard */
-     , (0x701AE061, 0x701AE042, '2005-02-09 10:00:00') /* Banderling Guard */
-     , (0x701AE061, 0x701AE043, '2005-02-09 10:00:00') /* Banderling Guard */
-     , (0x701AE061, 0x701AE044, '2005-02-09 10:00:00') /* Banderling Guard */
-     , (0x701AE061, 0x701AE045, '2005-02-09 10:00:00') /* Banderling Guard */
-     , (0x701AE061, 0x701AE048, '2005-02-09 10:00:00') /* Banderling Guard */
-     , (0x701AE061, 0x701AE049, '2005-02-09 10:00:00') /* Banderling Guard */
-     , (0x701AE061, 0x701AE04A, '2005-02-09 10:00:00') /* Drudge Sneaker */
-     , (0x701AE061, 0x701AE04B, '2005-02-09 10:00:00') /* Drudge Sneaker */
-     , (0x701AE061, 0x701AE04C, '2005-02-09 10:00:00') /* Drudge Prowler */
-     , (0x701AE061, 0x701AE04D, '2005-02-09 10:00:00') /* Drudge Prowler */
-     , (0x701AE061, 0x701AE052, '2005-02-09 10:00:00') /* Drudge Prowler */
-     , (0x701AE061, 0x701AE05D, '2005-02-09 10:00:00') /* Drudge Prowler */
-     , (0x701AE061, 0x701AE064, '2005-02-09 10:00:00') /* Drudge Slinker */
-     , (0x701AE061, 0x701AE065, '2005-02-09 10:00:00') /* Drudge Prowler */
-     , (0x701AE061, 0x701AE068, '2005-02-09 10:00:00') /* Drudge Sneaker */
-     , (0x701AE061, 0x701AE069, '2005-02-09 10:00:00') /* Drudge Prowler */
-     , (0x701AE061, 0x701AE06B, '2005-02-09 10:00:00') /* Drudge Prowler */
-     , (0x701AE061, 0x701AE06C, '2005-02-09 10:00:00') /* Drudge Prowler */
-     , (0x701AE061, 0x701AE06D, '2005-02-09 10:00:00') /* Drudge Prowler */
-     , (0x701AE061, 0x701AE06E, '2005-02-09 10:00:00') /* Drudge Prowler */
-     , (0x701AE061, 0x701AE072, '2005-02-09 10:00:00') /* Drudge Prowler */
-     , (0x701AE061, 0x701AE073, '2005-02-09 10:00:00') /* Drudge Sneaker */
-     , (0x701AE061, 0x701AE074, '2005-02-09 10:00:00') /* Drudge Sneaker */
-     , (0x701AE061, 0x701AE077, '2005-02-09 10:00:00') /* Banderling Guard */
-     , (0x701AE061, 0x701AE07B, '2005-02-09 10:00:00') /* Banderling Guard */
-     , (0x701AE061, 0x701AE07C, '2005-02-09 10:00:00') /* Banderling Guard */
-     , (0x701AE061, 0x701AE07D, '2005-02-09 10:00:00') /* Banderling Guard */
-     , (0x701AE061, 0x701AE080, '2005-02-09 10:00:00') /* Undead Miner */
-     , (0x701AE061, 0x701AE082, '2005-02-09 10:00:00') /* Banderling Raider */
-     , (0x701AE061, 0x701AE083, '2005-02-09 10:00:00') /* Banderling Captain */
-     , (0x701AE061, 0x701AE085, '2005-02-09 10:00:00') /* Drudge Slinker */
-     , (0x701AE061, 0x701AE089, '2005-02-09 10:00:00') /* Drudge Prowler */
-     , (0x701AE061, 0x701AE08B, '2005-02-09 10:00:00') /* Drudge Prowler */
-     , (0x701AE061, 0x701AE08E, '2005-02-09 10:00:00') /* Banderling Guard */
-     , (0x701AE061, 0x701AE090, '2005-02-09 10:00:00') /* Banderling Captain */
-     , (0x701AE061, 0x701AE091, '2005-02-09 10:00:00') /* Banderling Guard */;
+VALUES (0x701AE061, 0x701AE000, '2005-02-09 10:00:00') /* Zombie (950) */
+     , (0x701AE061, 0x701AE001, '2005-02-09 10:00:00') /* Undead Miner (1524) */
+     , (0x701AE061, 0x701AE003, '2005-02-09 10:00:00') /* Zombie (950) */
+     , (0x701AE061, 0x701AE004, '2005-02-09 10:00:00') /* Undead Miner (1524) */
+     , (0x701AE061, 0x701AE007, '2005-02-09 10:00:00') /* Undead Miner (1524) */
+     , (0x701AE061, 0x701AE009, '2005-02-09 10:00:00') /* Undead Miner (1524) */
+     , (0x701AE061, 0x701AE00A, '2005-02-09 10:00:00') /* Undead Miner (1524) */
+     , (0x701AE061, 0x701AE00B, '2005-02-09 10:00:00') /* Undead Miner (1524) */
+     , (0x701AE061, 0x701AE00C, '2005-02-09 10:00:00') /* Undead Miner (1524) */
+     , (0x701AE061, 0x701AE012, '2005-02-09 10:00:00') /* Undead Miner (1524) */
+     , (0x701AE061, 0x701AE013, '2005-02-09 10:00:00') /* Undead Miner (1524) */
+     , (0x701AE061, 0x701AE015, '2005-02-09 10:00:00') /* Undead Miner (1524) */
+     , (0x701AE061, 0x701AE016, '2005-02-09 10:00:00') /* Banderling Guard (937) */
+     , (0x701AE061, 0x701AE017, '2005-02-09 10:00:00') /* Banderling Guard (937) */
+     , (0x701AE061, 0x701AE01C, '2005-02-09 10:00:00') /* Undead Miner (1524) */
+     , (0x701AE061, 0x701AE01D, '2005-02-09 10:00:00') /* Undead Miner (1524) */
+     , (0x701AE061, 0x701AE01F, '2005-02-09 10:00:00') /* Undead Miner (1524) */
+     , (0x701AE061, 0x701AE021, '2005-02-09 10:00:00') /* Undead Miner (1524) */
+     , (0x701AE061, 0x701AE022, '2005-02-09 10:00:00') /* Undead Miner (1524) */
+     , (0x701AE061, 0x701AE025, '2005-02-09 10:00:00') /* Undead Miner (1524) */
+     , (0x701AE061, 0x701AE026, '2005-02-09 10:00:00') /* Undead Miner (1524) */
+     , (0x701AE061, 0x701AE02A, '2005-02-09 10:00:00') /* Undead Miner (1524) */
+     , (0x701AE061, 0x701AE02B, '2005-02-09 10:00:00') /* Undead Miner (1524) */
+     , (0x701AE061, 0x701AE02E, '2005-02-09 10:00:00') /* Undead Miner (1524) */
+     , (0x701AE061, 0x701AE02F, '2005-02-09 10:00:00') /* Undead Miner (1524) */
+     , (0x701AE061, 0x701AE035, '2005-02-09 10:00:00') /* Undead Miner (1524) */
+     , (0x701AE061, 0x701AE036, '2005-02-09 10:00:00') /* Undead Miner (1524) */
+     , (0x701AE061, 0x701AE038, '2005-02-09 10:00:00') /* Undead Miner (1524) */
+     , (0x701AE061, 0x701AE03A, '2005-02-09 10:00:00') /* Undead Miner (1524) */
+     , (0x701AE061, 0x701AE03B, '2005-02-09 10:00:00') /* Undead Miner (1524) */
+     , (0x701AE061, 0x701AE03C, '2005-02-09 10:00:00') /* Undead Miner (1524) */
+     , (0x701AE061, 0x701AE03F, '2005-02-09 10:00:00') /* Undead Miner (1524) */
+     , (0x701AE061, 0x701AE041, '2005-02-09 10:00:00') /* Banderling Guard (937) */
+     , (0x701AE061, 0x701AE042, '2005-02-09 10:00:00') /* Banderling Guard (937) */
+     , (0x701AE061, 0x701AE043, '2005-02-09 10:00:00') /* Banderling Guard (937) */
+     , (0x701AE061, 0x701AE044, '2005-02-09 10:00:00') /* Banderling Guard (937) */
+     , (0x701AE061, 0x701AE045, '2005-02-09 10:00:00') /* Banderling Guard (937) */
+     , (0x701AE061, 0x701AE048, '2005-02-09 10:00:00') /* Banderling Guard (937) */
+     , (0x701AE061, 0x701AE049, '2005-02-09 10:00:00') /* Banderling Guard (937) */
+     , (0x701AE061, 0x701AE04A, '2005-02-09 10:00:00') /* Drudge Sneaker (940) */
+     , (0x701AE061, 0x701AE04B, '2005-02-09 10:00:00') /* Drudge Sneaker (940) */
+     , (0x701AE061, 0x701AE04C, '2005-02-09 10:00:00') /* Drudge Prowler (192) */
+     , (0x701AE061, 0x701AE04D, '2005-02-09 10:00:00') /* Drudge Prowler (192) */
+     , (0x701AE061, 0x701AE052, '2005-02-09 10:00:00') /* Drudge Prowler (192) */
+     , (0x701AE061, 0x701AE05D, '2005-02-09 10:00:00') /* Drudge Prowler (192) */
+     , (0x701AE061, 0x701AE064, '2005-02-09 10:00:00') /* Drudge Slinker (193) */
+     , (0x701AE061, 0x701AE065, '2005-02-09 10:00:00') /* Drudge Prowler (192) */
+     , (0x701AE061, 0x701AE068, '2005-02-09 10:00:00') /* Drudge Sneaker (940) */
+     , (0x701AE061, 0x701AE069, '2005-02-09 10:00:00') /* Drudge Prowler (192) */
+     , (0x701AE061, 0x701AE06B, '2005-02-09 10:00:00') /* Drudge Prowler (192) */
+     , (0x701AE061, 0x701AE06C, '2005-02-09 10:00:00') /* Drudge Prowler (192) */
+     , (0x701AE061, 0x701AE06D, '2005-02-09 10:00:00') /* Drudge Prowler (192) */
+     , (0x701AE061, 0x701AE06E, '2005-02-09 10:00:00') /* Drudge Prowler (192) */
+     , (0x701AE061, 0x701AE072, '2005-02-09 10:00:00') /* Drudge Prowler (192) */
+     , (0x701AE061, 0x701AE073, '2005-02-09 10:00:00') /* Drudge Sneaker (940) */
+     , (0x701AE061, 0x701AE074, '2005-02-09 10:00:00') /* Drudge Sneaker (940) */
+     , (0x701AE061, 0x701AE077, '2005-02-09 10:00:00') /* Banderling Guard (937) */
+     , (0x701AE061, 0x701AE07B, '2005-02-09 10:00:00') /* Banderling Guard (937) */
+     , (0x701AE061, 0x701AE07C, '2005-02-09 10:00:00') /* Banderling Guard (937) */
+     , (0x701AE061, 0x701AE07D, '2005-02-09 10:00:00') /* Banderling Guard (937) */
+     , (0x701AE061, 0x701AE080, '2005-02-09 10:00:00') /* Undead Miner (1523) */
+     , (0x701AE061, 0x701AE082, '2005-02-09 10:00:00') /* Banderling Raider (938) */
+     , (0x701AE061, 0x701AE083, '2005-02-09 10:00:00') /* Banderling Captain (184) */
+     , (0x701AE061, 0x701AE085, '2005-02-09 10:00:00') /* Drudge Slinker (193) */
+     , (0x701AE061, 0x701AE089, '2005-02-09 10:00:00') /* Drudge Prowler (192) */
+     , (0x701AE061, 0x701AE08B, '2005-02-09 10:00:00') /* Drudge Prowler (192) */
+     , (0x701AE061, 0x701AE08E, '2005-02-09 10:00:00') /* Banderling Guard (937) */
+     , (0x701AE061, 0x701AE090, '2005-02-09 10:00:00') /* Banderling Captain (184) */
+     , (0x701AE061, 0x701AE091, '2005-02-09 10:00:00') /* Banderling Guard (937) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x701AE062,  7923, 0x01AE0326, 77.6683, -80.8958, 0.005, -0.716096, 0, 0, 0.698002, False, '2005-02-09 10:00:00'); /* Linkable Monster Generator ( 3 Min.) */
 /* @teleloc 0x01AE0326 [77.668300 -80.895800 0.005000] -0.716096 0.000000 0.000000 0.698002 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x701AE062, 0x701AE030, '2005-02-09 10:00:00') /* Baron of Colier */
-     , (0x701AE062, 0x701AE031, '2005-02-09 10:00:00') /* Undead Miner */;
+VALUES (0x701AE062, 0x701AE030, '2005-02-09 10:00:00') /* Baron of Colier (1522) */
+     , (0x701AE062, 0x701AE031, '2005-02-09 10:00:00') /* Undead Miner (1524) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x701AE063,  7885, 0x01AE0329, 80.024, -84.581, 0.005, 0, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Metal Door */
@@ -523,8 +523,8 @@ VALUES (0x701AE06F,  2180, 0x01AE0369, 140.074, -91.8582, 0, 1, 0, 0, 0, False, 
 /* @teleloc 0x01AE0369 [140.074000 -91.858200 0.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x701AE06F, 0x701AE06A, '2005-02-09 10:00:00') /* Lever */
-     , (0x701AE06F, 0x701AE070, '2005-02-09 10:00:00') /* Pressure Plate */;
+VALUES (0x701AE06F, 0x701AE06A, '2005-02-09 10:00:00') /* Lever (2609) */
+     , (0x701AE06F, 0x701AE070, '2005-02-09 10:00:00') /* Pressure Plate (298) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x701AE070,   298, 0x01AE0369, 139.976, -94.1958, 0, 1, 0, 0, 0,  True, '2005-02-09 10:00:00'); /* Pressure Plate */

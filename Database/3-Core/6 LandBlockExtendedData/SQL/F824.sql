@@ -45,17 +45,17 @@ VALUES (0x7F82400A,  7925, 0xF8240000, 136.131, 32.2069, 18.6608, 0.981857, 0, 0
 /* @teleloc 0xF8240000 [136.131000 32.206900 18.660800] 0.981857 0.000000 0.000000 -0.189624 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7F82400A, 0x7F824000, '2005-02-09 10:00:00') /* Putrid Moarsman */
-     , (0x7F82400A, 0x7F824001, '2005-02-09 10:00:00') /* Putrid Moarsman */
-     , (0x7F82400A, 0x7F824002, '2005-02-09 10:00:00') /* Putrid Moarsman */
-     , (0x7F82400A, 0x7F824003, '2005-02-09 10:00:00') /* Faisi Sclavus */
-     , (0x7F82400A, 0x7F824004, '2005-02-09 10:00:00') /* Faisi Sclavus */
-     , (0x7F82400A, 0x7F824005, '2005-02-09 10:00:00') /* Faisi Sclavus */
-     , (0x7F82400A, 0x7F824006, '2005-02-09 10:00:00') /* Faisi Sclavus */
-     , (0x7F82400A, 0x7F824007, '2005-02-09 10:00:00') /* Faisi Sclavus */
-     , (0x7F82400A, 0x7F824008, '2005-02-09 10:00:00') /* Faisi Sclavus */
-     , (0x7F82400A, 0x7F824009, '2005-02-09 10:00:00') /* Putrid Moarsman */
-     , (0x7F82400A, 0x7F82400B, '2005-02-09 10:00:00') /* Sulthis Eye Stalk */;
+VALUES (0x7F82400A, 0x7F824000, '2005-02-09 10:00:00') /* Putrid Moarsman (4248) */
+     , (0x7F82400A, 0x7F824001, '2005-02-09 10:00:00') /* Putrid Moarsman (4248) */
+     , (0x7F82400A, 0x7F824002, '2005-02-09 10:00:00') /* Putrid Moarsman (4248) */
+     , (0x7F82400A, 0x7F824003, '2005-02-09 10:00:00') /* Faisi Sclavus (7111) */
+     , (0x7F82400A, 0x7F824004, '2005-02-09 10:00:00') /* Faisi Sclavus (7111) */
+     , (0x7F82400A, 0x7F824005, '2005-02-09 10:00:00') /* Faisi Sclavus (7111) */
+     , (0x7F82400A, 0x7F824006, '2005-02-09 10:00:00') /* Faisi Sclavus (7111) */
+     , (0x7F82400A, 0x7F824007, '2005-02-09 10:00:00') /* Faisi Sclavus (7111) */
+     , (0x7F82400A, 0x7F824008, '2005-02-09 10:00:00') /* Faisi Sclavus (7111) */
+     , (0x7F82400A, 0x7F824009, '2005-02-09 10:00:00') /* Putrid Moarsman (4248) */
+     , (0x7F82400A, 0x7F82400B, '2005-02-09 10:00:00') /* Sulthis Eye Stalk (8470) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7F82400B,  8470, 0xF8240000, 140.609, 177.249, -0.895, 0.992699, 0, 0, 0.120615,  True, '2005-02-09 10:00:00'); /* Sulthis Eye Stalk */

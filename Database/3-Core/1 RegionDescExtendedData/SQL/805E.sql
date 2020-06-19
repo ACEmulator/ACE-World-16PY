@@ -1,5 +1,5 @@
-DELETE FROM `encounter` WHERE `landblock` = 32862;
+DELETE FROM `encounter` WHERE `landblock` = 0x805E;
 
 INSERT INTO `encounter` (`landblock`, `weenie_Class_Id`, `cell_X`, `cell_Y`, `last_Modified`)
-VALUES (32862, 2000, 1, 1, '2005-02-09 10:00:00') /* Low B Gharundim Generator */
-     , (32862, 2000, 2, 3, '2005-02-09 10:00:00') /* Low B Gharundim Generator */;
+VALUES (0x805E, 2000, 1, 1, '2005-02-09 10:00:00') /* Low B Gharundim Generator */
+     , (0x805E, 2000, 2, 3, '2005-02-09 10:00:00') /* Low B Gharundim Generator */;

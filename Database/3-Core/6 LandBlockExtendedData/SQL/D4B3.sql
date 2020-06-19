@@ -41,11 +41,11 @@ VALUES (0x7D4B3009,  1154, 0xD4B30000, 151.624, 83.9039, -0.095, -0.446349, 0, 0
 /* @teleloc 0xD4B30000 [151.624000 83.903900 -0.095000] -0.446349 0.000000 0.000000 -0.894859 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7D4B3009, 0x7D4B3001, '2005-02-09 10:00:00') /* Shore Armoredillo */
-     , (0x7D4B3009, 0x7D4B3002, '2005-02-09 10:00:00') /* Shore Armoredillo */
-     , (0x7D4B3009, 0x7D4B3003, '2005-02-09 10:00:00') /* Shore Armoredillo */
-     , (0x7D4B3009, 0x7D4B3004, '2005-02-09 10:00:00') /* Shore Armoredillo */
-     , (0x7D4B3009, 0x7D4B3005, '2005-02-09 10:00:00') /* Shore Armoredillo */
-     , (0x7D4B3009, 0x7D4B3006, '2005-02-09 10:00:00') /* Shore Armoredillo */
-     , (0x7D4B3009, 0x7D4B3007, '2005-02-09 10:00:00') /* Shore Armoredillo */
-     , (0x7D4B3009, 0x7D4B3008, '2005-02-09 10:00:00') /* Shore Armoredillo */;
+VALUES (0x7D4B3009, 0x7D4B3001, '2005-02-09 10:00:00') /* Shore Armoredillo (2565) */
+     , (0x7D4B3009, 0x7D4B3002, '2005-02-09 10:00:00') /* Shore Armoredillo (2565) */
+     , (0x7D4B3009, 0x7D4B3003, '2005-02-09 10:00:00') /* Shore Armoredillo (2565) */
+     , (0x7D4B3009, 0x7D4B3004, '2005-02-09 10:00:00') /* Shore Armoredillo (2565) */
+     , (0x7D4B3009, 0x7D4B3005, '2005-02-09 10:00:00') /* Shore Armoredillo (2565) */
+     , (0x7D4B3009, 0x7D4B3006, '2005-02-09 10:00:00') /* Shore Armoredillo (2565) */
+     , (0x7D4B3009, 0x7D4B3007, '2005-02-09 10:00:00') /* Shore Armoredillo (2565) */
+     , (0x7D4B3009, 0x7D4B3008, '2005-02-09 10:00:00') /* Shore Armoredillo (2565) */;

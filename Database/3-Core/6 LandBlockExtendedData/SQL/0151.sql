@@ -141,41 +141,41 @@ VALUES (0x70151022,  7923, 0x015101FF, 70, -70, 30, -0.707107, 0, 0, -0.707107, 
 /* @teleloc 0x015101FF [70.000000 -70.000000 30.000000] -0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x70151022, 0x70151016, '2005-02-09 10:00:00') /* Drudge Skulker */
-     , (0x70151022, 0x70151017, '2005-02-09 10:00:00') /* Drudge Skulker */
-     , (0x70151022, 0x7015101F, '2005-02-09 10:00:00') /* Drudge Skulker */
-     , (0x70151022, 0x70151021, '2005-02-09 10:00:00') /* Drudge Skulker */
-     , (0x70151022, 0x70151025, '2005-02-09 10:00:00') /* Drudge Skulker */
-     , (0x70151022, 0x70151026, '2005-02-09 10:00:00') /* Drudge Skulker */;
+VALUES (0x70151022, 0x70151016, '2005-02-09 10:00:00') /* Drudge Skulker (7) */
+     , (0x70151022, 0x70151017, '2005-02-09 10:00:00') /* Drudge Skulker (7) */
+     , (0x70151022, 0x7015101F, '2005-02-09 10:00:00') /* Drudge Skulker (7) */
+     , (0x70151022, 0x70151021, '2005-02-09 10:00:00') /* Drudge Skulker (7) */
+     , (0x70151022, 0x70151025, '2005-02-09 10:00:00') /* Drudge Skulker (7) */
+     , (0x70151022, 0x70151026, '2005-02-09 10:00:00') /* Drudge Skulker (7) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x70151023,  7923, 0x015101FF, 69.5979, -68.7241, 30, -0.707107, 0, 0, -0.707107, False, '2005-02-09 10:00:00'); /* Linkable Monster Generator ( 3 Min.) */
 /* @teleloc 0x015101FF [69.597900 -68.724100 30.000000] -0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x70151023, 0x70151005, '2005-02-09 10:00:00') /* Gnawer Shreth */
-     , (0x70151023, 0x70151006, '2005-02-09 10:00:00') /* Red Phyntos Wasp */
-     , (0x70151023, 0x7015100A, '2005-02-09 10:00:00') /* Gnawer Shreth */
-     , (0x70151023, 0x7015100F, '2005-02-09 10:00:00') /* Gnawer Shreth */
-     , (0x70151023, 0x70151010, '2005-02-09 10:00:00') /* Gnawer Shreth */
-     , (0x70151023, 0x70151011, '2005-02-09 10:00:00') /* Gnawer Shreth */
-     , (0x70151023, 0x70151013, '2005-02-09 10:00:00') /* Gnawer Shreth */
-     , (0x70151023, 0x7015101A, '2005-02-09 10:00:00') /* Gnawer Shreth */
-     , (0x70151023, 0x7015101C, '2005-02-09 10:00:00') /* Gnawer Shreth */
-     , (0x70151023, 0x7015101D, '2005-02-09 10:00:00') /* Gnawer Shreth */;
+VALUES (0x70151023, 0x70151005, '2005-02-09 10:00:00') /* Gnawer Shreth (4108) */
+     , (0x70151023, 0x70151006, '2005-02-09 10:00:00') /* Red Phyntos Wasp (12) */
+     , (0x70151023, 0x7015100A, '2005-02-09 10:00:00') /* Gnawer Shreth (4108) */
+     , (0x70151023, 0x7015100F, '2005-02-09 10:00:00') /* Gnawer Shreth (4108) */
+     , (0x70151023, 0x70151010, '2005-02-09 10:00:00') /* Gnawer Shreth (4108) */
+     , (0x70151023, 0x70151011, '2005-02-09 10:00:00') /* Gnawer Shreth (4108) */
+     , (0x70151023, 0x70151013, '2005-02-09 10:00:00') /* Gnawer Shreth (4108) */
+     , (0x70151023, 0x7015101A, '2005-02-09 10:00:00') /* Gnawer Shreth (4108) */
+     , (0x70151023, 0x7015101C, '2005-02-09 10:00:00') /* Gnawer Shreth (4108) */
+     , (0x70151023, 0x7015101D, '2005-02-09 10:00:00') /* Gnawer Shreth (4108) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x70151024,  7923, 0x015101FF, 69.9066, -71.1043, 30, -0.707107, 0, 0, -0.707107, False, '2005-02-09 10:00:00'); /* Linkable Monster Generator ( 3 Min.) */
 /* @teleloc 0x015101FF [69.906600 -71.104300 30.000000] -0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x70151024, 0x70151000, '2005-02-09 10:00:00') /* Drudge Slinker */
-     , (0x70151024, 0x70151001, '2005-02-09 10:00:00') /* Drudge Slinker */
-     , (0x70151024, 0x70151002, '2005-02-09 10:00:00') /* Drudge Prowler */
-     , (0x70151024, 0x70151004, '2005-02-09 10:00:00') /* Drudge Sneaker */
-     , (0x70151024, 0x70151009, '2005-02-09 10:00:00') /* Red Phyntos Wasp */
-     , (0x70151024, 0x7015100C, '2005-02-09 10:00:00') /* Drudge Sneaker */
-     , (0x70151024, 0x7015100D, '2005-02-09 10:00:00') /* Drudge Skulker */;
+VALUES (0x70151024, 0x70151000, '2005-02-09 10:00:00') /* Drudge Slinker (193) */
+     , (0x70151024, 0x70151001, '2005-02-09 10:00:00') /* Drudge Slinker (193) */
+     , (0x70151024, 0x70151002, '2005-02-09 10:00:00') /* Drudge Prowler (192) */
+     , (0x70151024, 0x70151004, '2005-02-09 10:00:00') /* Drudge Sneaker (940) */
+     , (0x70151024, 0x70151009, '2005-02-09 10:00:00') /* Red Phyntos Wasp (12) */
+     , (0x70151024, 0x7015100C, '2005-02-09 10:00:00') /* Drudge Sneaker (940) */
+     , (0x70151024, 0x7015100D, '2005-02-09 10:00:00') /* Drudge Skulker (7) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x70151025,     7, 0x01510208, 80, -20, 30.0035, 1, 0, 0, 0,  True, '2005-02-09 10:00:00'); /* Drudge Skulker */

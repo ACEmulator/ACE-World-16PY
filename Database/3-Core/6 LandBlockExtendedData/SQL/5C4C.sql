@@ -45,7 +45,7 @@ VALUES (0x75C4C00A, 26553, 0x5C4C010A, 115.16, -120, -53.995, 0.707107, 0, 0, -0
 /* @teleloc 0x5C4C010A [115.160000 -120.000000 -53.995000] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x75C4C00A, 0x75C4C003, '2005-02-09 10:00:00') /* Torch */;
+VALUES (0x75C4C00A, 0x75C4C003, '2005-02-09 10:00:00') /* Torch (7323) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75C4C00B, 27952, 0x5C4C0112, 135.039, -120, -53.995, -0.707107, 0, 0, -0.707107,  True, '2005-02-09 10:00:00'); /* Guardian */
@@ -88,8 +88,8 @@ VALUES (0x75C4C014, 26553, 0x5C4C014D, 84.84, -120, -47.995, -0.707107, 0, 0, -0
 /* @teleloc 0x5C4C014D [84.840000 -120.000000 -47.995000] -0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x75C4C014, 0x75C4C013, '2005-02-09 10:00:00') /* Button */
-     , (0x75C4C014, 0x75C4C015, '2005-02-09 10:00:00') /* Torch */;
+VALUES (0x75C4C014, 0x75C4C013, '2005-02-09 10:00:00') /* Button (8420) */
+     , (0x75C4C014, 0x75C4C015, '2005-02-09 10:00:00') /* Torch (7323) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75C4C015,  7323, 0x5C4C0151, 85.1, -117, -45.948, -0.707107, 0, 0, -0.707107,  True, '2005-02-09 10:00:00'); /* Torch */
@@ -188,7 +188,7 @@ VALUES (0x75C4C02C, 26553, 0x5C4C01B9, 100, -245.16, -41.995, -4.37114E-08, 0, 0
 /* @teleloc 0x5C4C01B9 [100.000000 -245.160000 -41.995000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x75C4C02C, 0x75C4C028, '2005-02-09 10:00:00') /* Torch */;
+VALUES (0x75C4C02C, 0x75C4C028, '2005-02-09 10:00:00') /* Torch (7323) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75C4C02D, 27951, 0x5C4C01C1, 100, -265.008, -41.995, 1, 0, 0, 0,  True, '2005-02-09 10:00:00'); /* Guardian */
@@ -267,8 +267,8 @@ VALUES (0x75C4C03F, 26553, 0x5C4C0202, 100, -214.84, -35.995, 1, 0, 0, 0, False,
 /* @teleloc 0x5C4C0202 [100.000000 -214.840000 -35.995000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x75C4C03F, 0x75C4C03E, '2005-02-09 10:00:00') /* Button */
-     , (0x75C4C03F, 0x75C4C040, '2005-02-09 10:00:00') /* Torch */;
+VALUES (0x75C4C03F, 0x75C4C03E, '2005-02-09 10:00:00') /* Button (8420) */
+     , (0x75C4C03F, 0x75C4C040, '2005-02-09 10:00:00') /* Torch (7323) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75C4C040,  7323, 0x5C4C0205, 103, -215.1, -33.948, -1, 0, 0, 0,  True, '2005-02-09 10:00:00'); /* Torch */
@@ -355,7 +355,7 @@ VALUES (0x75C4C054, 26553, 0x5C4C0257, 205.16, -130, -29.995, 0.707107, 0, 0, -0
 /* @teleloc 0x5C4C0257 [205.160000 -130.000000 -29.995000] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x75C4C054, 0x75C4C04D, '2005-02-09 10:00:00') /* Torch */;
+VALUES (0x75C4C054, 0x75C4C04D, '2005-02-09 10:00:00') /* Torch (7323) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75C4C055, 27950, 0x5C4C025F, 225.028, -130, -29.995, -0.707107, 0, 0, -0.707107,  True, '2005-02-09 10:00:00'); /* Guardian */
@@ -418,8 +418,8 @@ VALUES (0x75C4C063, 26553, 0x5C4C02A8, 174.84, -130, -23.995, -0.707107, 0, 0, -
 /* @teleloc 0x5C4C02A8 [174.840000 -130.000000 -23.995000] -0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x75C4C063, 0x75C4C062, '2005-02-09 10:00:00') /* Button */
-     , (0x75C4C063, 0x75C4C064, '2005-02-09 10:00:00') /* Torch */;
+VALUES (0x75C4C063, 0x75C4C062, '2005-02-09 10:00:00') /* Button (8420) */
+     , (0x75C4C063, 0x75C4C064, '2005-02-09 10:00:00') /* Torch (7323) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75C4C064,  7323, 0x5C4C02AC, 175.1, -127, -21.948, -0.707107, 0, 0, -0.707107,  True, '2005-02-09 10:00:00'); /* Torch */
@@ -498,113 +498,113 @@ VALUES (0x75C4C079,  7924, 0x5C4C039E, 70, 0, 0.005, 1, 0, 0, 0, False, '2005-02
 /* @teleloc 0x5C4C039E [70.000000 0.000000 0.005000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x75C4C079, 0x75C4C025, '2005-02-09 10:00:00') /* Tormented Consort */
-     , (0x75C4C079, 0x75C4C026, '2005-02-09 10:00:00') /* Tormented Consort */
-     , (0x75C4C079, 0x75C4C027, '2005-02-09 10:00:00') /* Tormented Consort */
-     , (0x75C4C079, 0x75C4C029, '2005-02-09 10:00:00') /* Tormented Consort */
-     , (0x75C4C079, 0x75C4C02A, '2005-02-09 10:00:00') /* Tormented Consort */
-     , (0x75C4C079, 0x75C4C02B, '2005-02-09 10:00:00') /* Tormented Consort */
-     , (0x75C4C079, 0x75C4C02E, '2005-02-09 10:00:00') /* Tormented Consort */
-     , (0x75C4C079, 0x75C4C02F, '2005-02-09 10:00:00') /* Tormented Consort */
-     , (0x75C4C079, 0x75C4C031, '2005-02-09 10:00:00') /* Tormented Consort */
-     , (0x75C4C079, 0x75C4C032, '2005-02-09 10:00:00') /* Tormented Consort */
-     , (0x75C4C079, 0x75C4C033, '2005-02-09 10:00:00') /* Tormented Consort */
-     , (0x75C4C079, 0x75C4C034, '2005-02-09 10:00:00') /* Tormented Consort */
-     , (0x75C4C079, 0x75C4C035, '2005-02-09 10:00:00') /* Tormented Consort */
-     , (0x75C4C079, 0x75C4C036, '2005-02-09 10:00:00') /* Tormented Consort */
-     , (0x75C4C079, 0x75C4C037, '2005-02-09 10:00:00') /* Tormented Consort */
-     , (0x75C4C079, 0x75C4C038, '2005-02-09 10:00:00') /* Tormented Consort */
-     , (0x75C4C079, 0x75C4C039, '2005-02-09 10:00:00') /* Tormented Consort */
-     , (0x75C4C079, 0x75C4C03A, '2005-02-09 10:00:00') /* Tormented Consort */
-     , (0x75C4C079, 0x75C4C03B, '2005-02-09 10:00:00') /* Tormented Consort */
-     , (0x75C4C079, 0x75C4C03C, '2005-02-09 10:00:00') /* Tormented Consort */
-     , (0x75C4C079, 0x75C4C03D, '2005-02-09 10:00:00') /* Tormented Consort */
-     , (0x75C4C079, 0x75C4C043, '2005-02-09 10:00:00') /* Tormented Consort */
-     , (0x75C4C079, 0x75C4C044, '2005-02-09 10:00:00') /* Tormented Consort */
-     , (0x75C4C079, 0x75C4C045, '2005-02-09 10:00:00') /* Tormented Consort */
-     , (0x75C4C079, 0x75C4C046, '2005-02-09 10:00:00') /* Tormented Consort */
-     , (0x75C4C079, 0x75C4C047, '2005-02-09 10:00:00') /* Tormented Consort */
-     , (0x75C4C079, 0x75C4C048, '2005-02-09 10:00:00') /* Tormented Consort */
-     , (0x75C4C079, 0x75C4C049, '2005-02-09 10:00:00') /* Tormented Consort */
-     , (0x75C4C079, 0x75C4C069, '2005-02-09 10:00:00') /* Tormented Patriarch */
-     , (0x75C4C079, 0x75C4C06A, '2005-02-09 10:00:00') /* Tormented Patriarch */;
+VALUES (0x75C4C079, 0x75C4C025, '2005-02-09 10:00:00') /* Tormented Consort (27921) */
+     , (0x75C4C079, 0x75C4C026, '2005-02-09 10:00:00') /* Tormented Consort (27921) */
+     , (0x75C4C079, 0x75C4C027, '2005-02-09 10:00:00') /* Tormented Consort (27921) */
+     , (0x75C4C079, 0x75C4C029, '2005-02-09 10:00:00') /* Tormented Consort (27921) */
+     , (0x75C4C079, 0x75C4C02A, '2005-02-09 10:00:00') /* Tormented Consort (27921) */
+     , (0x75C4C079, 0x75C4C02B, '2005-02-09 10:00:00') /* Tormented Consort (27921) */
+     , (0x75C4C079, 0x75C4C02E, '2005-02-09 10:00:00') /* Tormented Consort (27921) */
+     , (0x75C4C079, 0x75C4C02F, '2005-02-09 10:00:00') /* Tormented Consort (27921) */
+     , (0x75C4C079, 0x75C4C031, '2005-02-09 10:00:00') /* Tormented Consort (27921) */
+     , (0x75C4C079, 0x75C4C032, '2005-02-09 10:00:00') /* Tormented Consort (27921) */
+     , (0x75C4C079, 0x75C4C033, '2005-02-09 10:00:00') /* Tormented Consort (27921) */
+     , (0x75C4C079, 0x75C4C034, '2005-02-09 10:00:00') /* Tormented Consort (27921) */
+     , (0x75C4C079, 0x75C4C035, '2005-02-09 10:00:00') /* Tormented Consort (27921) */
+     , (0x75C4C079, 0x75C4C036, '2005-02-09 10:00:00') /* Tormented Consort (27921) */
+     , (0x75C4C079, 0x75C4C037, '2005-02-09 10:00:00') /* Tormented Consort (27921) */
+     , (0x75C4C079, 0x75C4C038, '2005-02-09 10:00:00') /* Tormented Consort (27921) */
+     , (0x75C4C079, 0x75C4C039, '2005-02-09 10:00:00') /* Tormented Consort (27921) */
+     , (0x75C4C079, 0x75C4C03A, '2005-02-09 10:00:00') /* Tormented Consort (27921) */
+     , (0x75C4C079, 0x75C4C03B, '2005-02-09 10:00:00') /* Tormented Consort (27921) */
+     , (0x75C4C079, 0x75C4C03C, '2005-02-09 10:00:00') /* Tormented Consort (27921) */
+     , (0x75C4C079, 0x75C4C03D, '2005-02-09 10:00:00') /* Tormented Consort (27921) */
+     , (0x75C4C079, 0x75C4C043, '2005-02-09 10:00:00') /* Tormented Consort (27921) */
+     , (0x75C4C079, 0x75C4C044, '2005-02-09 10:00:00') /* Tormented Consort (27921) */
+     , (0x75C4C079, 0x75C4C045, '2005-02-09 10:00:00') /* Tormented Consort (27921) */
+     , (0x75C4C079, 0x75C4C046, '2005-02-09 10:00:00') /* Tormented Consort (27921) */
+     , (0x75C4C079, 0x75C4C047, '2005-02-09 10:00:00') /* Tormented Consort (27921) */
+     , (0x75C4C079, 0x75C4C048, '2005-02-09 10:00:00') /* Tormented Consort (27921) */
+     , (0x75C4C079, 0x75C4C049, '2005-02-09 10:00:00') /* Tormented Consort (27921) */
+     , (0x75C4C079, 0x75C4C069, '2005-02-09 10:00:00') /* Tormented Patriarch (27922) */
+     , (0x75C4C079, 0x75C4C06A, '2005-02-09 10:00:00') /* Tormented Patriarch (27922) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75C4C07A,  7924, 0x5C4C039E, 71.104, 3.77887E-08, 0.005, 1, 0, 0, 0, False, '2005-02-09 10:00:00'); /* Linkable Monster Generator ( 5 Min.) */
 /* @teleloc 0x5C4C039E [71.104000 0.000000 0.005000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x75C4C07A, 0x75C4C004, '2005-02-09 10:00:00') /* Tormented Patriarch */
-     , (0x75C4C07A, 0x75C4C007, '2005-02-09 10:00:00') /* Tormented Patriarch */
-     , (0x75C4C07A, 0x75C4C008, '2005-02-09 10:00:00') /* Tormented Patriarch */
-     , (0x75C4C07A, 0x75C4C00C, '2005-02-09 10:00:00') /* Tormented Patriarch */
-     , (0x75C4C07A, 0x75C4C00D, '2005-02-09 10:00:00') /* Tormented Patriarch */
-     , (0x75C4C07A, 0x75C4C00E, '2005-02-09 10:00:00') /* Tormented Patriarch */
-     , (0x75C4C07A, 0x75C4C00F, '2005-02-09 10:00:00') /* Tormented Patriarch */
-     , (0x75C4C07A, 0x75C4C010, '2005-02-09 10:00:00') /* Tormented Patriarch */
-     , (0x75C4C07A, 0x75C4C011, '2005-02-09 10:00:00') /* Tormented Patriarch */
-     , (0x75C4C07A, 0x75C4C012, '2005-02-09 10:00:00') /* Tormented Patriarch */
-     , (0x75C4C07A, 0x75C4C016, '2005-02-09 10:00:00') /* Tormented Patriarch */
-     , (0x75C4C07A, 0x75C4C017, '2005-02-09 10:00:00') /* Tormented Patriarch */
-     , (0x75C4C07A, 0x75C4C018, '2005-02-09 10:00:00') /* Tormented Patriarch */
-     , (0x75C4C07A, 0x75C4C019, '2005-02-09 10:00:00') /* Tormented Patriarch */
-     , (0x75C4C07A, 0x75C4C01A, '2005-02-09 10:00:00') /* Tormented Patriarch */
-     , (0x75C4C07A, 0x75C4C01B, '2005-02-09 10:00:00') /* Tormented Patriarch */
-     , (0x75C4C07A, 0x75C4C01C, '2005-02-09 10:00:00') /* Tormented Patriarch */
-     , (0x75C4C07A, 0x75C4C01D, '2005-02-09 10:00:00') /* Tormented Patriarch */
-     , (0x75C4C07A, 0x75C4C01E, '2005-02-09 10:00:00') /* Tormented Patriarch */
-     , (0x75C4C07A, 0x75C4C01F, '2005-02-09 10:00:00') /* Tormented Patriarch */
-     , (0x75C4C07A, 0x75C4C020, '2005-02-09 10:00:00') /* Tormented Patriarch */
-     , (0x75C4C07A, 0x75C4C021, '2005-02-09 10:00:00') /* Tormented Patriarch */
-     , (0x75C4C07A, 0x75C4C022, '2005-02-09 10:00:00') /* Tormented Patriarch */
-     , (0x75C4C07A, 0x75C4C023, '2005-02-09 10:00:00') /* Tormented Patriarch */
-     , (0x75C4C07A, 0x75C4C024, '2005-02-09 10:00:00') /* Tormented Patriarch */
-     , (0x75C4C07A, 0x75C4C030, '2005-02-09 10:00:00') /* Tormented Consort */
-     , (0x75C4C07A, 0x75C4C065, '2005-02-09 10:00:00') /* Tormented Patriarch */
-     , (0x75C4C07A, 0x75C4C066, '2005-02-09 10:00:00') /* Tormented Patriarch */
-     , (0x75C4C07A, 0x75C4C067, '2005-02-09 10:00:00') /* Tormented Patriarch */
-     , (0x75C4C07A, 0x75C4C068, '2005-02-09 10:00:00') /* Tormented Patriarch */;
+VALUES (0x75C4C07A, 0x75C4C004, '2005-02-09 10:00:00') /* Tormented Patriarch (27922) */
+     , (0x75C4C07A, 0x75C4C007, '2005-02-09 10:00:00') /* Tormented Patriarch (27922) */
+     , (0x75C4C07A, 0x75C4C008, '2005-02-09 10:00:00') /* Tormented Patriarch (27922) */
+     , (0x75C4C07A, 0x75C4C00C, '2005-02-09 10:00:00') /* Tormented Patriarch (27922) */
+     , (0x75C4C07A, 0x75C4C00D, '2005-02-09 10:00:00') /* Tormented Patriarch (27922) */
+     , (0x75C4C07A, 0x75C4C00E, '2005-02-09 10:00:00') /* Tormented Patriarch (27922) */
+     , (0x75C4C07A, 0x75C4C00F, '2005-02-09 10:00:00') /* Tormented Patriarch (27922) */
+     , (0x75C4C07A, 0x75C4C010, '2005-02-09 10:00:00') /* Tormented Patriarch (27922) */
+     , (0x75C4C07A, 0x75C4C011, '2005-02-09 10:00:00') /* Tormented Patriarch (27922) */
+     , (0x75C4C07A, 0x75C4C012, '2005-02-09 10:00:00') /* Tormented Patriarch (27922) */
+     , (0x75C4C07A, 0x75C4C016, '2005-02-09 10:00:00') /* Tormented Patriarch (27922) */
+     , (0x75C4C07A, 0x75C4C017, '2005-02-09 10:00:00') /* Tormented Patriarch (27922) */
+     , (0x75C4C07A, 0x75C4C018, '2005-02-09 10:00:00') /* Tormented Patriarch (27922) */
+     , (0x75C4C07A, 0x75C4C019, '2005-02-09 10:00:00') /* Tormented Patriarch (27922) */
+     , (0x75C4C07A, 0x75C4C01A, '2005-02-09 10:00:00') /* Tormented Patriarch (27922) */
+     , (0x75C4C07A, 0x75C4C01B, '2005-02-09 10:00:00') /* Tormented Patriarch (27922) */
+     , (0x75C4C07A, 0x75C4C01C, '2005-02-09 10:00:00') /* Tormented Patriarch (27922) */
+     , (0x75C4C07A, 0x75C4C01D, '2005-02-09 10:00:00') /* Tormented Patriarch (27922) */
+     , (0x75C4C07A, 0x75C4C01E, '2005-02-09 10:00:00') /* Tormented Patriarch (27922) */
+     , (0x75C4C07A, 0x75C4C01F, '2005-02-09 10:00:00') /* Tormented Patriarch (27922) */
+     , (0x75C4C07A, 0x75C4C020, '2005-02-09 10:00:00') /* Tormented Patriarch (27922) */
+     , (0x75C4C07A, 0x75C4C021, '2005-02-09 10:00:00') /* Tormented Patriarch (27922) */
+     , (0x75C4C07A, 0x75C4C022, '2005-02-09 10:00:00') /* Tormented Patriarch (27922) */
+     , (0x75C4C07A, 0x75C4C023, '2005-02-09 10:00:00') /* Tormented Patriarch (27922) */
+     , (0x75C4C07A, 0x75C4C024, '2005-02-09 10:00:00') /* Tormented Patriarch (27922) */
+     , (0x75C4C07A, 0x75C4C030, '2005-02-09 10:00:00') /* Tormented Consort (27921) */
+     , (0x75C4C07A, 0x75C4C065, '2005-02-09 10:00:00') /* Tormented Patriarch (27922) */
+     , (0x75C4C07A, 0x75C4C066, '2005-02-09 10:00:00') /* Tormented Patriarch (27922) */
+     , (0x75C4C07A, 0x75C4C067, '2005-02-09 10:00:00') /* Tormented Patriarch (27922) */
+     , (0x75C4C07A, 0x75C4C068, '2005-02-09 10:00:00') /* Tormented Patriarch (27922) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75C4C07B,  7924, 0x5C4C039E, 68.634, -4.67571E-08, 0.005, 1, 0, 0, 0, False, '2005-02-09 10:00:00'); /* Linkable Monster Generator ( 5 Min.) */
 /* @teleloc 0x5C4C039E [68.634000 0.000000 0.005000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x75C4C07B, 0x75C4C000, '2005-02-09 10:00:00') /* Tormented Patriarch */
-     , (0x75C4C07B, 0x75C4C001, '2005-02-09 10:00:00') /* Tormented Patriarch */
-     , (0x75C4C07B, 0x75C4C002, '2005-02-09 10:00:00') /* Tormented Patriarch */
-     , (0x75C4C07B, 0x75C4C005, '2005-02-09 10:00:00') /* Tormented Patriarch */
-     , (0x75C4C07B, 0x75C4C006, '2005-02-09 10:00:00') /* Tormented Patriarch */
-     , (0x75C4C07B, 0x75C4C009, '2005-02-09 10:00:00') /* Tormented Patriarch */
-     , (0x75C4C07B, 0x75C4C041, '2005-02-09 10:00:00') /* Tormented Consort */
-     , (0x75C4C07B, 0x75C4C042, '2005-02-09 10:00:00') /* Tormented Consort */
-     , (0x75C4C07B, 0x75C4C04A, '2005-02-09 10:00:00') /* Tormented Attendant */
-     , (0x75C4C07B, 0x75C4C04B, '2005-02-09 10:00:00') /* Tormented Attendant */
-     , (0x75C4C07B, 0x75C4C04C, '2005-02-09 10:00:00') /* Tormented Attendant */
-     , (0x75C4C07B, 0x75C4C04E, '2005-02-09 10:00:00') /* Tormented Attendant */
-     , (0x75C4C07B, 0x75C4C04F, '2005-02-09 10:00:00') /* Tormented Attendant */
-     , (0x75C4C07B, 0x75C4C050, '2005-02-09 10:00:00') /* Tormented Attendant */
-     , (0x75C4C07B, 0x75C4C051, '2005-02-09 10:00:00') /* Tormented Attendant */
-     , (0x75C4C07B, 0x75C4C052, '2005-02-09 10:00:00') /* Tormented Attendant */
-     , (0x75C4C07B, 0x75C4C053, '2005-02-09 10:00:00') /* Tormented Attendant */
-     , (0x75C4C07B, 0x75C4C056, '2005-02-09 10:00:00') /* Tormented Attendant */
-     , (0x75C4C07B, 0x75C4C057, '2005-02-09 10:00:00') /* Tormented Attendant */
-     , (0x75C4C07B, 0x75C4C058, '2005-02-09 10:00:00') /* Tormented Attendant */
-     , (0x75C4C07B, 0x75C4C059, '2005-02-09 10:00:00') /* Tormented Attendant */
-     , (0x75C4C07B, 0x75C4C05A, '2005-02-09 10:00:00') /* Tormented Attendant */
-     , (0x75C4C07B, 0x75C4C05B, '2005-02-09 10:00:00') /* Tormented Attendant */
-     , (0x75C4C07B, 0x75C4C05C, '2005-02-09 10:00:00') /* Tormented Attendant */
-     , (0x75C4C07B, 0x75C4C05D, '2005-02-09 10:00:00') /* Tormented Attendant */
-     , (0x75C4C07B, 0x75C4C05E, '2005-02-09 10:00:00') /* Tormented Attendant */
-     , (0x75C4C07B, 0x75C4C05F, '2005-02-09 10:00:00') /* Tormented Attendant */
-     , (0x75C4C07B, 0x75C4C060, '2005-02-09 10:00:00') /* Tormented Attendant */
-     , (0x75C4C07B, 0x75C4C061, '2005-02-09 10:00:00') /* Tormented Attendant */
-     , (0x75C4C07B, 0x75C4C06B, '2005-02-09 10:00:00') /* Tormented Attendant */
-     , (0x75C4C07B, 0x75C4C06C, '2005-02-09 10:00:00') /* Tormented Attendant */
-     , (0x75C4C07B, 0x75C4C06D, '2005-02-09 10:00:00') /* Tormented Attendant */
-     , (0x75C4C07B, 0x75C4C070, '2005-02-09 10:00:00') /* Tormented Consort */
-     , (0x75C4C07B, 0x75C4C071, '2005-02-09 10:00:00') /* Tormented Consort */
-     , (0x75C4C07B, 0x75C4C072, '2005-02-09 10:00:00') /* Tormented Consort */;
+VALUES (0x75C4C07B, 0x75C4C000, '2005-02-09 10:00:00') /* Tormented Patriarch (27922) */
+     , (0x75C4C07B, 0x75C4C001, '2005-02-09 10:00:00') /* Tormented Patriarch (27922) */
+     , (0x75C4C07B, 0x75C4C002, '2005-02-09 10:00:00') /* Tormented Patriarch (27922) */
+     , (0x75C4C07B, 0x75C4C005, '2005-02-09 10:00:00') /* Tormented Patriarch (27922) */
+     , (0x75C4C07B, 0x75C4C006, '2005-02-09 10:00:00') /* Tormented Patriarch (27922) */
+     , (0x75C4C07B, 0x75C4C009, '2005-02-09 10:00:00') /* Tormented Patriarch (27922) */
+     , (0x75C4C07B, 0x75C4C041, '2005-02-09 10:00:00') /* Tormented Consort (27921) */
+     , (0x75C4C07B, 0x75C4C042, '2005-02-09 10:00:00') /* Tormented Consort (27921) */
+     , (0x75C4C07B, 0x75C4C04A, '2005-02-09 10:00:00') /* Tormented Attendant (27920) */
+     , (0x75C4C07B, 0x75C4C04B, '2005-02-09 10:00:00') /* Tormented Attendant (27920) */
+     , (0x75C4C07B, 0x75C4C04C, '2005-02-09 10:00:00') /* Tormented Attendant (27920) */
+     , (0x75C4C07B, 0x75C4C04E, '2005-02-09 10:00:00') /* Tormented Attendant (27920) */
+     , (0x75C4C07B, 0x75C4C04F, '2005-02-09 10:00:00') /* Tormented Attendant (27920) */
+     , (0x75C4C07B, 0x75C4C050, '2005-02-09 10:00:00') /* Tormented Attendant (27920) */
+     , (0x75C4C07B, 0x75C4C051, '2005-02-09 10:00:00') /* Tormented Attendant (27920) */
+     , (0x75C4C07B, 0x75C4C052, '2005-02-09 10:00:00') /* Tormented Attendant (27920) */
+     , (0x75C4C07B, 0x75C4C053, '2005-02-09 10:00:00') /* Tormented Attendant (27920) */
+     , (0x75C4C07B, 0x75C4C056, '2005-02-09 10:00:00') /* Tormented Attendant (27920) */
+     , (0x75C4C07B, 0x75C4C057, '2005-02-09 10:00:00') /* Tormented Attendant (27920) */
+     , (0x75C4C07B, 0x75C4C058, '2005-02-09 10:00:00') /* Tormented Attendant (27920) */
+     , (0x75C4C07B, 0x75C4C059, '2005-02-09 10:00:00') /* Tormented Attendant (27920) */
+     , (0x75C4C07B, 0x75C4C05A, '2005-02-09 10:00:00') /* Tormented Attendant (27920) */
+     , (0x75C4C07B, 0x75C4C05B, '2005-02-09 10:00:00') /* Tormented Attendant (27920) */
+     , (0x75C4C07B, 0x75C4C05C, '2005-02-09 10:00:00') /* Tormented Attendant (27920) */
+     , (0x75C4C07B, 0x75C4C05D, '2005-02-09 10:00:00') /* Tormented Attendant (27920) */
+     , (0x75C4C07B, 0x75C4C05E, '2005-02-09 10:00:00') /* Tormented Attendant (27920) */
+     , (0x75C4C07B, 0x75C4C05F, '2005-02-09 10:00:00') /* Tormented Attendant (27920) */
+     , (0x75C4C07B, 0x75C4C060, '2005-02-09 10:00:00') /* Tormented Attendant (27920) */
+     , (0x75C4C07B, 0x75C4C061, '2005-02-09 10:00:00') /* Tormented Attendant (27920) */
+     , (0x75C4C07B, 0x75C4C06B, '2005-02-09 10:00:00') /* Tormented Attendant (27920) */
+     , (0x75C4C07B, 0x75C4C06C, '2005-02-09 10:00:00') /* Tormented Attendant (27920) */
+     , (0x75C4C07B, 0x75C4C06D, '2005-02-09 10:00:00') /* Tormented Attendant (27920) */
+     , (0x75C4C07B, 0x75C4C070, '2005-02-09 10:00:00') /* Tormented Consort (27921) */
+     , (0x75C4C07B, 0x75C4C071, '2005-02-09 10:00:00') /* Tormented Consort (27921) */
+     , (0x75C4C07B, 0x75C4C072, '2005-02-09 10:00:00') /* Tormented Consort (27921) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75C4C07C, 27949, 0x5C4C039F, 70, -10, 0.005, 1, 0, 0, 0,  True, '2005-02-09 10:00:00'); /* Guardian */
@@ -643,38 +643,38 @@ VALUES (0x75C4C084,  7923, 0x5C4C03A9, 150, -20, 0.005, 1, 0, 0, 0, False, '2005
 /* @teleloc 0x5C4C03A9 [150.000000 -20.000000 0.005000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x75C4C084, 0x75C4C00B, '2005-02-09 10:00:00') /* Guardian */
-     , (0x75C4C084, 0x75C4C02D, '2005-02-09 10:00:00') /* Guardian */
-     , (0x75C4C084, 0x75C4C055, '2005-02-09 10:00:00') /* Guardian */
-     , (0x75C4C084, 0x75C4C075, '2005-02-09 10:00:00') /* Pillar */
-     , (0x75C4C084, 0x75C4C078, '2005-02-09 10:00:00') /* Pillar */
-     , (0x75C4C084, 0x75C4C07C, '2005-02-09 10:00:00') /* Guardian */
-     , (0x75C4C084, 0x75C4C07D, '2005-02-09 10:00:00') /* Pillar */
-     , (0x75C4C084, 0x75C4C07F, '2005-02-09 10:00:00') /* Pillar */
-     , (0x75C4C084, 0x75C4C081, '2005-02-09 10:00:00') /* Biting Ballistae */
-     , (0x75C4C084, 0x75C4C082, '2005-02-09 10:00:00') /* Portal to Izji Qo's Temple */
-     , (0x75C4C084, 0x75C4C083, '2005-02-09 10:00:00') /* Sarcophagus of High Matriarch, Hizk Ri */
-     , (0x75C4C084, 0x75C4C086, '2005-02-09 10:00:00') /* Razorbound Flange */
-     , (0x75C4C084, 0x75C4C088, '2005-02-09 10:00:00') /* Sealed Door */
-     , (0x75C4C084, 0x75C4C089, '2005-02-09 10:00:00') /* Sealed Door */
-     , (0x75C4C084, 0x75C4C08A, '2005-02-09 10:00:00') /* Sealed Door */
-     , (0x75C4C084, 0x75C4C08B, '2005-02-09 10:00:00') /* Scroll of Lance Warding */
-     , (0x75C4C084, 0x75C4C08C, '2005-02-09 10:00:00') /* Scroll of Scythe Warding */
-     , (0x75C4C084, 0x75C4C08D, '2005-02-09 10:00:00') /* Scroll of Inferno Warding */
-     , (0x75C4C084, 0x75C4C08E, '2005-02-09 10:00:00') /* Scroll of Voltaic Warding */
-     , (0x75C4C084, 0x75C4C08F, '2005-02-09 10:00:00') /* Scroll of Flange Warding */
-     , (0x75C4C084, 0x75C4C090, '2005-02-09 10:00:00') /* Scroll of Corrosive Warding */
-     , (0x75C4C084, 0x75C4C091, '2005-02-09 10:00:00') /* Scroll of Frore Warding */;
+VALUES (0x75C4C084, 0x75C4C00B, '2005-02-09 10:00:00') /* Guardian (27952) */
+     , (0x75C4C084, 0x75C4C02D, '2005-02-09 10:00:00') /* Guardian (27951) */
+     , (0x75C4C084, 0x75C4C055, '2005-02-09 10:00:00') /* Guardian (27950) */
+     , (0x75C4C084, 0x75C4C075, '2005-02-09 10:00:00') /* Pillar (27968) */
+     , (0x75C4C084, 0x75C4C078, '2005-02-09 10:00:00') /* Pillar (27967) */
+     , (0x75C4C084, 0x75C4C07C, '2005-02-09 10:00:00') /* Guardian (27949) */
+     , (0x75C4C084, 0x75C4C07D, '2005-02-09 10:00:00') /* Pillar (27961) */
+     , (0x75C4C084, 0x75C4C07F, '2005-02-09 10:00:00') /* Pillar (27962) */
+     , (0x75C4C084, 0x75C4C081, '2005-02-09 10:00:00') /* Biting Ballistae (27937) */
+     , (0x75C4C084, 0x75C4C082, '2005-02-09 10:00:00') /* Portal to Izji Qo's Temple (27969) */
+     , (0x75C4C084, 0x75C4C083, '2005-02-09 10:00:00') /* Sarcophagus of High Matriarch, Hizk Ri (27970) */
+     , (0x75C4C084, 0x75C4C086, '2005-02-09 10:00:00') /* Razorbound Flange (27960) */
+     , (0x75C4C084, 0x75C4C088, '2005-02-09 10:00:00') /* Sealed Door (27940) */
+     , (0x75C4C084, 0x75C4C089, '2005-02-09 10:00:00') /* Sealed Door (27939) */
+     , (0x75C4C084, 0x75C4C08A, '2005-02-09 10:00:00') /* Sealed Door (27938) */
+     , (0x75C4C084, 0x75C4C08B, '2005-02-09 10:00:00') /* Scroll of Lance Warding (28317) */
+     , (0x75C4C084, 0x75C4C08C, '2005-02-09 10:00:00') /* Scroll of Scythe Warding (28312) */
+     , (0x75C4C084, 0x75C4C08D, '2005-02-09 10:00:00') /* Scroll of Inferno Warding (28315) */
+     , (0x75C4C084, 0x75C4C08E, '2005-02-09 10:00:00') /* Scroll of Voltaic Warding (28316) */
+     , (0x75C4C084, 0x75C4C08F, '2005-02-09 10:00:00') /* Scroll of Flange Warding (28313) */
+     , (0x75C4C084, 0x75C4C090, '2005-02-09 10:00:00') /* Scroll of Corrosive Warding (28311) */
+     , (0x75C4C084, 0x75C4C091, '2005-02-09 10:00:00') /* Scroll of Frore Warding (28314) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75C4C085, 15759, 0x5C4C03A9, 151.41, -20, 0.005, 1, 0, 0, 0, False, '2005-02-09 10:00:00'); /* Linkable Item Generator */
 /* @teleloc 0x5C4C03A9 [151.410000 -20.000000 0.005000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x75C4C085, 0x75C4C074, '2005-02-09 10:00:00') /* A Carved Plate */
-     , (0x75C4C085, 0x75C4C076, '2005-02-09 10:00:00') /* A Carved Plate */
-     , (0x75C4C085, 0x75C4C07E, '2005-02-09 10:00:00') /* A Carved Plate */
-     , (0x75C4C085, 0x75C4C080, '2005-02-09 10:00:00') /* A Carved Plate */;
+VALUES (0x75C4C085, 0x75C4C074, '2005-02-09 10:00:00') /* A Carved Plate (27930) */
+     , (0x75C4C085, 0x75C4C076, '2005-02-09 10:00:00') /* A Carved Plate (27925) */
+     , (0x75C4C085, 0x75C4C07E, '2005-02-09 10:00:00') /* A Carved Plate (27931) */
+     , (0x75C4C085, 0x75C4C080, '2005-02-09 10:00:00') /* A Carved Plate (27924) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75C4C086, 27960, 0x5C4C03AB, 164.5, -10, 0.005, 1, 0, 0, -4.37114E-08,  True, '2005-02-09 10:00:00'); /* Razorbound Flange */

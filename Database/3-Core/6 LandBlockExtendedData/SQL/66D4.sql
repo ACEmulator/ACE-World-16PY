@@ -69,17 +69,17 @@ VALUES (0x766D4010,  7923, 0x66D40000, 55.0585, 109.391, 62.005, 0.989973, 0, 0,
 /* @teleloc 0x66D40000 [55.058500 109.391000 62.005000] 0.989973 0.000000 0.000000 0.141258 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x766D4010, 0x766D4002, '2005-02-09 10:00:00') /* White Phyntos Wasp */
-     , (0x766D4010, 0x766D4003, '2005-02-09 10:00:00') /* White Phyntos Wasp */
-     , (0x766D4010, 0x766D4004, '2005-02-09 10:00:00') /* White Phyntos Wasp */
-     , (0x766D4010, 0x766D4005, '2005-02-09 10:00:00') /* White Phyntos Wasp */
-     , (0x766D4010, 0x766D4006, '2005-02-09 10:00:00') /* White Phyntos Wasp */
-     , (0x766D4010, 0x766D4007, '2005-02-09 10:00:00') /* White Phyntos Wasp */
-     , (0x766D4010, 0x766D4008, '2005-02-09 10:00:00') /* White Phyntos Wasp */
-     , (0x766D4010, 0x766D4009, '2005-02-09 10:00:00') /* White Phyntos Wasp */
-     , (0x766D4010, 0x766D400A, '2005-02-09 10:00:00') /* White Phyntos Wasp */
-     , (0x766D4010, 0x766D400B, '2005-02-09 10:00:00') /* White Phyntos Wasp */
-     , (0x766D4010, 0x766D400C, '2005-02-09 10:00:00') /* White Phyntos Wasp */
-     , (0x766D4010, 0x766D400D, '2005-02-09 10:00:00') /* White Phyntos Wasp */
-     , (0x766D4010, 0x766D400E, '2005-02-09 10:00:00') /* White Phyntos Wasp */
-     , (0x766D4010, 0x766D400F, '2005-02-09 10:00:00') /* White Phyntos Wasp */;
+VALUES (0x766D4010, 0x766D4002, '2005-02-09 10:00:00') /* White Phyntos Wasp (7105) */
+     , (0x766D4010, 0x766D4003, '2005-02-09 10:00:00') /* White Phyntos Wasp (7105) */
+     , (0x766D4010, 0x766D4004, '2005-02-09 10:00:00') /* White Phyntos Wasp (7105) */
+     , (0x766D4010, 0x766D4005, '2005-02-09 10:00:00') /* White Phyntos Wasp (7105) */
+     , (0x766D4010, 0x766D4006, '2005-02-09 10:00:00') /* White Phyntos Wasp (7105) */
+     , (0x766D4010, 0x766D4007, '2005-02-09 10:00:00') /* White Phyntos Wasp (7105) */
+     , (0x766D4010, 0x766D4008, '2005-02-09 10:00:00') /* White Phyntos Wasp (7105) */
+     , (0x766D4010, 0x766D4009, '2005-02-09 10:00:00') /* White Phyntos Wasp (7105) */
+     , (0x766D4010, 0x766D400A, '2005-02-09 10:00:00') /* White Phyntos Wasp (7105) */
+     , (0x766D4010, 0x766D400B, '2005-02-09 10:00:00') /* White Phyntos Wasp (7105) */
+     , (0x766D4010, 0x766D400C, '2005-02-09 10:00:00') /* White Phyntos Wasp (7105) */
+     , (0x766D4010, 0x766D400D, '2005-02-09 10:00:00') /* White Phyntos Wasp (7105) */
+     , (0x766D4010, 0x766D400E, '2005-02-09 10:00:00') /* White Phyntos Wasp (7105) */
+     , (0x766D4010, 0x766D400F, '2005-02-09 10:00:00') /* White Phyntos Wasp (7105) */;

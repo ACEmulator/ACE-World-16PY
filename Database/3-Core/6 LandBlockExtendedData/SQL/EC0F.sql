@@ -89,24 +89,24 @@ VALUES (0x7EC0F015,  4219, 0xEC0F0000, 119.13, 42.0755, 235.105, 0.714173, 0, 0,
 /* @teleloc 0xEC0F0000 [119.130000 42.075500 235.105000] 0.714173 0.000000 0.000000 -0.699969 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7EC0F015, 0x7EC0F000, '2005-02-09 10:00:00') /* Glissnal Niffis */
-     , (0x7EC0F015, 0x7EC0F001, '2005-02-09 10:00:00') /* Miry Moarsman */
-     , (0x7EC0F015, 0x7EC0F002, '2005-02-09 10:00:00') /* Miry Moarsman */
-     , (0x7EC0F015, 0x7EC0F003, '2005-02-09 10:00:00') /* Miry Moarsman */
-     , (0x7EC0F015, 0x7EC0F004, '2005-02-09 10:00:00') /* Miry Moarsman */
-     , (0x7EC0F015, 0x7EC0F005, '2005-02-09 10:00:00') /* Viscous Moarsman */
-     , (0x7EC0F015, 0x7EC0F006, '2005-02-09 10:00:00') /* Viscous Moarsman */
-     , (0x7EC0F015, 0x7EC0F007, '2005-02-09 10:00:00') /* Viscous Moarsman */
-     , (0x7EC0F015, 0x7EC0F008, '2005-02-09 10:00:00') /* Disgusting Moarsman */
-     , (0x7EC0F015, 0x7EC0F009, '2005-02-09 10:00:00') /* Disgusting Moarsman */
-     , (0x7EC0F015, 0x7EC0F00A, '2005-02-09 10:00:00') /* Disgusting Moarsman */
-     , (0x7EC0F015, 0x7EC0F00B, '2005-02-09 10:00:00') /* Disgusting Moarsman */
-     , (0x7EC0F015, 0x7EC0F00C, '2005-02-09 10:00:00') /* Disgusting Moarsman */
-     , (0x7EC0F015, 0x7EC0F00D, '2005-02-09 10:00:00') /* Opor Niffis */
-     , (0x7EC0F015, 0x7EC0F00E, '2005-02-09 10:00:00') /* Opor Niffis */
-     , (0x7EC0F015, 0x7EC0F00F, '2005-02-09 10:00:00') /* Sephal Niffis */
-     , (0x7EC0F015, 0x7EC0F010, '2005-02-09 10:00:00') /* Sephal Niffis */
-     , (0x7EC0F015, 0x7EC0F011, '2005-02-09 10:00:00') /* Glissnal Niffis */
-     , (0x7EC0F015, 0x7EC0F012, '2005-02-09 10:00:00') /* Glissnal Niffis */
-     , (0x7EC0F015, 0x7EC0F013, '2005-02-09 10:00:00') /* Glissnal Niffis */
-     , (0x7EC0F015, 0x7EC0F014, '2005-02-09 10:00:00') /* Viscous Moarsman */;
+VALUES (0x7EC0F015, 0x7EC0F000, '2005-02-09 10:00:00') /* Glissnal Niffis (7986) */
+     , (0x7EC0F015, 0x7EC0F001, '2005-02-09 10:00:00') /* Miry Moarsman (27856) */
+     , (0x7EC0F015, 0x7EC0F002, '2005-02-09 10:00:00') /* Miry Moarsman (27856) */
+     , (0x7EC0F015, 0x7EC0F003, '2005-02-09 10:00:00') /* Miry Moarsman (27856) */
+     , (0x7EC0F015, 0x7EC0F004, '2005-02-09 10:00:00') /* Miry Moarsman (27856) */
+     , (0x7EC0F015, 0x7EC0F005, '2005-02-09 10:00:00') /* Viscous Moarsman (27862) */
+     , (0x7EC0F015, 0x7EC0F006, '2005-02-09 10:00:00') /* Viscous Moarsman (27862) */
+     , (0x7EC0F015, 0x7EC0F007, '2005-02-09 10:00:00') /* Viscous Moarsman (27862) */
+     , (0x7EC0F015, 0x7EC0F008, '2005-02-09 10:00:00') /* Disgusting Moarsman (27853) */
+     , (0x7EC0F015, 0x7EC0F009, '2005-02-09 10:00:00') /* Disgusting Moarsman (27853) */
+     , (0x7EC0F015, 0x7EC0F00A, '2005-02-09 10:00:00') /* Disgusting Moarsman (27853) */
+     , (0x7EC0F015, 0x7EC0F00B, '2005-02-09 10:00:00') /* Disgusting Moarsman (27853) */
+     , (0x7EC0F015, 0x7EC0F00C, '2005-02-09 10:00:00') /* Disgusting Moarsman (27853) */
+     , (0x7EC0F015, 0x7EC0F00D, '2005-02-09 10:00:00') /* Opor Niffis (7987) */
+     , (0x7EC0F015, 0x7EC0F00E, '2005-02-09 10:00:00') /* Opor Niffis (7987) */
+     , (0x7EC0F015, 0x7EC0F00F, '2005-02-09 10:00:00') /* Sephal Niffis (7988) */
+     , (0x7EC0F015, 0x7EC0F010, '2005-02-09 10:00:00') /* Sephal Niffis (7988) */
+     , (0x7EC0F015, 0x7EC0F011, '2005-02-09 10:00:00') /* Glissnal Niffis (7986) */
+     , (0x7EC0F015, 0x7EC0F012, '2005-02-09 10:00:00') /* Glissnal Niffis (7986) */
+     , (0x7EC0F015, 0x7EC0F013, '2005-02-09 10:00:00') /* Glissnal Niffis (7986) */
+     , (0x7EC0F015, 0x7EC0F014, '2005-02-09 10:00:00') /* Viscous Moarsman (27862) */;

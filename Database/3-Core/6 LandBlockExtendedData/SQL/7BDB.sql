@@ -5,15 +5,15 @@ VALUES (0x77BDB002,  7923, 0x7BDB0000, 94.8629, 65.7869, 432.005, -0.980445, 0, 
 /* @teleloc 0x7BDB0000 [94.862900 65.786900 432.005000] -0.980445 0.000000 0.000000 -0.196794 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x77BDB002, 0x77BDB008, '2005-02-09 10:00:00') /* Inferno */
-     , (0x77BDB002, 0x77BDB014, '2005-02-09 10:00:00') /* Inferno */
-     , (0x77BDB002, 0x77BDB016, '2005-02-09 10:00:00') /* Firestorm */
-     , (0x77BDB002, 0x77BDB018, '2005-02-09 10:00:00') /* Flamma */
-     , (0x77BDB002, 0x77BDB019, '2005-02-09 10:00:00') /* Flamma */
-     , (0x77BDB002, 0x77BDB01A, '2005-02-09 10:00:00') /* Flamma */
-     , (0x77BDB002, 0x77BDB01B, '2005-02-09 10:00:00') /* Flamma */
-     , (0x77BDB002, 0x77BDB01C, '2005-02-09 10:00:00') /* Firestorm */
-     , (0x77BDB002, 0x77BDB01D, '2005-02-09 10:00:00') /* Firestorm */;
+VALUES (0x77BDB002, 0x77BDB008, '2005-02-09 10:00:00') /* Inferno (5712) */
+     , (0x77BDB002, 0x77BDB014, '2005-02-09 10:00:00') /* Inferno (5712) */
+     , (0x77BDB002, 0x77BDB016, '2005-02-09 10:00:00') /* Firestorm (7092) */
+     , (0x77BDB002, 0x77BDB018, '2005-02-09 10:00:00') /* Flamma (5711) */
+     , (0x77BDB002, 0x77BDB019, '2005-02-09 10:00:00') /* Flamma (5711) */
+     , (0x77BDB002, 0x77BDB01A, '2005-02-09 10:00:00') /* Flamma (5711) */
+     , (0x77BDB002, 0x77BDB01B, '2005-02-09 10:00:00') /* Flamma (5711) */
+     , (0x77BDB002, 0x77BDB01C, '2005-02-09 10:00:00') /* Firestorm (7092) */
+     , (0x77BDB002, 0x77BDB01D, '2005-02-09 10:00:00') /* Firestorm (7092) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x77BDB008,  5712, 0x7BDB0000, 93.3773, 63.8444, 432.009, -0.536603, 0, 0, -0.843835,  True, '2005-02-09 10:00:00'); /* Inferno */

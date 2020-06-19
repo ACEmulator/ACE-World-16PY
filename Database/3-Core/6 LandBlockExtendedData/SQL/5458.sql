@@ -229,87 +229,87 @@ VALUES (0x75458047,  7923, 0x5458025F, 6.45277, -106.17, 6.005, -0.079121, 0, 0,
 /* @teleloc 0x5458025F [6.452770 -106.170000 6.005000] -0.079121 0.000000 0.000000 -0.996865 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x75458047, 0x7545800C, '2005-02-09 10:00:00') /* Bronze Statue of a Tumerok */
-     , (0x75458047, 0x7545800F, '2005-02-09 10:00:00') /* Bronze Statue of a Golem */
-     , (0x75458047, 0x75458012, '2005-02-09 10:00:00') /* Bronze Statue of a Golem */
-     , (0x75458047, 0x75458018, '2005-02-09 10:00:00') /* Bronze Statue of a Sclavus */
-     , (0x75458047, 0x75458019, '2005-02-09 10:00:00') /* Bronze Statue of a Tumerok */
-     , (0x75458047, 0x7545801D, '2005-02-09 10:00:00') /* Bronze Statue of a Tumerok */
-     , (0x75458047, 0x75458022, '2005-02-09 10:00:00') /* Bronze Statue of a Tumerok */
-     , (0x75458047, 0x75458026, '2005-02-09 10:00:00') /* Bronze Statue of a Skeleton */
-     , (0x75458047, 0x75458027, '2005-02-09 10:00:00') /* Bronze Statue of a Golem */
-     , (0x75458047, 0x75458028, '2005-02-09 10:00:00') /* Bronze Statue of a Sclavus */
-     , (0x75458047, 0x75458029, '2005-02-09 10:00:00') /* Bronze Statue of a Tumerok */
-     , (0x75458047, 0x7545802F, '2005-02-09 10:00:00') /* Bronze Statue of a Tumerok */
-     , (0x75458047, 0x75458030, '2005-02-09 10:00:00') /* Bronze Statue of a Skeleton */
-     , (0x75458047, 0x75458032, '2005-02-09 10:00:00') /* Bronze Statue of a Sclavus */
-     , (0x75458047, 0x75458033, '2005-02-09 10:00:00') /* Bronze Statue of a Golem */
-     , (0x75458047, 0x75458034, '2005-02-09 10:00:00') /* Bronze Statue of a Golem */
-     , (0x75458047, 0x75458035, '2005-02-09 10:00:00') /* Bronze Statue of a Skeleton */
-     , (0x75458047, 0x75458036, '2005-02-09 10:00:00') /* Bronze Statue of a Tumerok */
-     , (0x75458047, 0x75458037, '2005-02-09 10:00:00') /* Bronze Statue of a Tumerok */
-     , (0x75458047, 0x75458038, '2005-02-09 10:00:00') /* Bronze Statue of a Sclavus */
-     , (0x75458047, 0x75458039, '2005-02-09 10:00:00') /* Bronze Statue of a Tumerok */
-     , (0x75458047, 0x7545803A, '2005-02-09 10:00:00') /* Bronze Statue of a Golem */
-     , (0x75458047, 0x7545803B, '2005-02-09 10:00:00') /* Bronze Statue of a Skeleton */
-     , (0x75458047, 0x7545803C, '2005-02-09 10:00:00') /* Bronze Statue of a Sclavus */
-     , (0x75458047, 0x7545803D, '2005-02-09 10:00:00') /* Bronze Statue of a Tumerok */
-     , (0x75458047, 0x7545803E, '2005-02-09 10:00:00') /* Bronze Statue of a Golem */
-     , (0x75458047, 0x7545803F, '2005-02-09 10:00:00') /* Bronze Statue of a Sclavus */
-     , (0x75458047, 0x75458040, '2005-02-09 10:00:00') /* Bronze Statue of a Sclavus */
-     , (0x75458047, 0x75458041, '2005-02-09 10:00:00') /* Bronze Statue of a Skeleton */
-     , (0x75458047, 0x75458042, '2005-02-09 10:00:00') /* Bronze Statue of a Tumerok */
-     , (0x75458047, 0x75458043, '2005-02-09 10:00:00') /* Bronze Statue of a Golem */
-     , (0x75458047, 0x75458044, '2005-02-09 10:00:00') /* Bronze Statue of a Skeleton */
-     , (0x75458047, 0x75458045, '2005-02-09 10:00:00') /* Bronze Statue of a Golem */
-     , (0x75458047, 0x75458046, '2005-02-09 10:00:00') /* Bronze Statue of a Tumerok */
-     , (0x75458047, 0x7545804A, '2005-02-09 10:00:00') /* Bronze Statue of a Tumerok */
-     , (0x75458047, 0x7545804B, '2005-02-09 10:00:00') /* Bronze Statue of a Sclavus */
-     , (0x75458047, 0x7545804C, '2005-02-09 10:00:00') /* Bronze Statue of a Golem */
-     , (0x75458047, 0x7545804D, '2005-02-09 10:00:00') /* Bronze Statue of a Skeleton */
-     , (0x75458047, 0x7545804E, '2005-02-09 10:00:00') /* Bronze Statue of a Tumerok */
-     , (0x75458047, 0x7545804F, '2005-02-09 10:00:00') /* Bronze Statue of a Golem */
-     , (0x75458047, 0x75458050, '2005-02-09 10:00:00') /* Bronze Statue of a Skeleton */
-     , (0x75458047, 0x75458051, '2005-02-09 10:00:00') /* Bronze Statue of a Tumerok */
-     , (0x75458047, 0x75458052, '2005-02-09 10:00:00') /* Bronze Statue of a Skeleton */
-     , (0x75458047, 0x75458053, '2005-02-09 10:00:00') /* Bronze Statue of a Sclavus */;
+VALUES (0x75458047, 0x7545800C, '2005-02-09 10:00:00') /* Bronze Statue of a Tumerok (19285) */
+     , (0x75458047, 0x7545800F, '2005-02-09 10:00:00') /* Bronze Statue of a Golem (19276) */
+     , (0x75458047, 0x75458012, '2005-02-09 10:00:00') /* Bronze Statue of a Golem (19276) */
+     , (0x75458047, 0x75458018, '2005-02-09 10:00:00') /* Bronze Statue of a Sclavus (19279) */
+     , (0x75458047, 0x75458019, '2005-02-09 10:00:00') /* Bronze Statue of a Tumerok (19285) */
+     , (0x75458047, 0x7545801D, '2005-02-09 10:00:00') /* Bronze Statue of a Tumerok (19285) */
+     , (0x75458047, 0x75458022, '2005-02-09 10:00:00') /* Bronze Statue of a Tumerok (19285) */
+     , (0x75458047, 0x75458026, '2005-02-09 10:00:00') /* Bronze Statue of a Skeleton (19282) */
+     , (0x75458047, 0x75458027, '2005-02-09 10:00:00') /* Bronze Statue of a Golem (19276) */
+     , (0x75458047, 0x75458028, '2005-02-09 10:00:00') /* Bronze Statue of a Sclavus (19279) */
+     , (0x75458047, 0x75458029, '2005-02-09 10:00:00') /* Bronze Statue of a Tumerok (19285) */
+     , (0x75458047, 0x7545802F, '2005-02-09 10:00:00') /* Bronze Statue of a Tumerok (19285) */
+     , (0x75458047, 0x75458030, '2005-02-09 10:00:00') /* Bronze Statue of a Skeleton (19282) */
+     , (0x75458047, 0x75458032, '2005-02-09 10:00:00') /* Bronze Statue of a Sclavus (19279) */
+     , (0x75458047, 0x75458033, '2005-02-09 10:00:00') /* Bronze Statue of a Golem (19276) */
+     , (0x75458047, 0x75458034, '2005-02-09 10:00:00') /* Bronze Statue of a Golem (19276) */
+     , (0x75458047, 0x75458035, '2005-02-09 10:00:00') /* Bronze Statue of a Skeleton (19282) */
+     , (0x75458047, 0x75458036, '2005-02-09 10:00:00') /* Bronze Statue of a Tumerok (19285) */
+     , (0x75458047, 0x75458037, '2005-02-09 10:00:00') /* Bronze Statue of a Tumerok (19285) */
+     , (0x75458047, 0x75458038, '2005-02-09 10:00:00') /* Bronze Statue of a Sclavus (19279) */
+     , (0x75458047, 0x75458039, '2005-02-09 10:00:00') /* Bronze Statue of a Tumerok (19285) */
+     , (0x75458047, 0x7545803A, '2005-02-09 10:00:00') /* Bronze Statue of a Golem (19276) */
+     , (0x75458047, 0x7545803B, '2005-02-09 10:00:00') /* Bronze Statue of a Skeleton (19282) */
+     , (0x75458047, 0x7545803C, '2005-02-09 10:00:00') /* Bronze Statue of a Sclavus (19279) */
+     , (0x75458047, 0x7545803D, '2005-02-09 10:00:00') /* Bronze Statue of a Tumerok (19285) */
+     , (0x75458047, 0x7545803E, '2005-02-09 10:00:00') /* Bronze Statue of a Golem (19276) */
+     , (0x75458047, 0x7545803F, '2005-02-09 10:00:00') /* Bronze Statue of a Sclavus (19279) */
+     , (0x75458047, 0x75458040, '2005-02-09 10:00:00') /* Bronze Statue of a Sclavus (19279) */
+     , (0x75458047, 0x75458041, '2005-02-09 10:00:00') /* Bronze Statue of a Skeleton (19282) */
+     , (0x75458047, 0x75458042, '2005-02-09 10:00:00') /* Bronze Statue of a Tumerok (19285) */
+     , (0x75458047, 0x75458043, '2005-02-09 10:00:00') /* Bronze Statue of a Golem (19276) */
+     , (0x75458047, 0x75458044, '2005-02-09 10:00:00') /* Bronze Statue of a Skeleton (19282) */
+     , (0x75458047, 0x75458045, '2005-02-09 10:00:00') /* Bronze Statue of a Golem (19276) */
+     , (0x75458047, 0x75458046, '2005-02-09 10:00:00') /* Bronze Statue of a Tumerok (19285) */
+     , (0x75458047, 0x7545804A, '2005-02-09 10:00:00') /* Bronze Statue of a Tumerok (19285) */
+     , (0x75458047, 0x7545804B, '2005-02-09 10:00:00') /* Bronze Statue of a Sclavus (19279) */
+     , (0x75458047, 0x7545804C, '2005-02-09 10:00:00') /* Bronze Statue of a Golem (19276) */
+     , (0x75458047, 0x7545804D, '2005-02-09 10:00:00') /* Bronze Statue of a Skeleton (19282) */
+     , (0x75458047, 0x7545804E, '2005-02-09 10:00:00') /* Bronze Statue of a Tumerok (19285) */
+     , (0x75458047, 0x7545804F, '2005-02-09 10:00:00') /* Bronze Statue of a Golem (19276) */
+     , (0x75458047, 0x75458050, '2005-02-09 10:00:00') /* Bronze Statue of a Skeleton (19282) */
+     , (0x75458047, 0x75458051, '2005-02-09 10:00:00') /* Bronze Statue of a Tumerok (19285) */
+     , (0x75458047, 0x75458052, '2005-02-09 10:00:00') /* Bronze Statue of a Skeleton (19282) */
+     , (0x75458047, 0x75458053, '2005-02-09 10:00:00') /* Bronze Statue of a Sclavus (19279) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75458048, 15274, 0x5458025F, 14.3801, -106.225, 6.005, 0.036284, 0, 0, -0.999342, False, '2005-02-09 10:00:00'); /* Linkable Monster Gen (1 min.) */
 /* @teleloc 0x5458025F [14.380100 -106.225000 6.005000] 0.036284 0.000000 0.000000 -0.999342 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x75458048, 0x75458000, '2005-02-09 10:00:00') /* Bronze Statue of a Golem */
-     , (0x75458048, 0x75458001, '2005-02-09 10:00:00') /* Bronze Statue of a Golem */
-     , (0x75458048, 0x75458002, '2005-02-09 10:00:00') /* Bronze Statue of a Golem */
-     , (0x75458048, 0x75458003, '2005-02-09 10:00:00') /* Bronze Statue of a Golem */
-     , (0x75458048, 0x75458006, '2005-02-09 10:00:00') /* Bronze Statue of a Golem */
-     , (0x75458048, 0x75458007, '2005-02-09 10:00:00') /* Bronze Statue of a Golem */
-     , (0x75458048, 0x75458008, '2005-02-09 10:00:00') /* Bronze Statue of a Golem */
-     , (0x75458048, 0x7545800A, '2005-02-09 10:00:00') /* Bronze Statue of a Skeleton */
-     , (0x75458048, 0x7545800B, '2005-02-09 10:00:00') /* Bronze Statue of a Golem */
-     , (0x75458048, 0x7545800D, '2005-02-09 10:00:00') /* Bronze Statue of a Skeleton */
-     , (0x75458048, 0x7545800E, '2005-02-09 10:00:00') /* Bronze Statue of a Skeleton */
-     , (0x75458048, 0x75458010, '2005-02-09 10:00:00') /* Bronze Statue of a Tumerok */
-     , (0x75458048, 0x75458011, '2005-02-09 10:00:00') /* Bronze Statue of a Skeleton */
-     , (0x75458048, 0x75458013, '2005-02-09 10:00:00') /* Bronze Statue of a Tumerok */
-     , (0x75458048, 0x75458014, '2005-02-09 10:00:00') /* Bronze Statue of a Skeleton */
-     , (0x75458048, 0x75458015, '2005-02-09 10:00:00') /* Bronze Statue of a Skeleton */
-     , (0x75458048, 0x7545801C, '2005-02-09 10:00:00') /* Bronze Statue of a Skeleton */
-     , (0x75458048, 0x7545801E, '2005-02-09 10:00:00') /* Bronze Statue of a Tumerok */
-     , (0x75458048, 0x75458020, '2005-02-09 10:00:00') /* Bronze Statue of a Skeleton */
-     , (0x75458048, 0x75458021, '2005-02-09 10:00:00') /* Bronze Statue of a Skeleton */
-     , (0x75458048, 0x75458023, '2005-02-09 10:00:00') /* Bronze Statue of a Tumerok */
-     , (0x75458048, 0x75458025, '2005-02-09 10:00:00') /* Bronze Statue of a Tumerok */
-     , (0x75458048, 0x75458056, '2005-02-09 10:00:00') /* Bronze Statue of a Sclavus */
-     , (0x75458048, 0x75458058, '2005-02-09 10:00:00') /* Bronze Statue of a Sclavus */
-     , (0x75458048, 0x7545805A, '2005-02-09 10:00:00') /* Bronze Statue of a Sclavus */
-     , (0x75458048, 0x7545805B, '2005-02-09 10:00:00') /* Bronze Statue of a Sclavus */
-     , (0x75458048, 0x7545805C, '2005-02-09 10:00:00') /* Bronze Statue of a Sclavus */
-     , (0x75458048, 0x7545805D, '2005-02-09 10:00:00') /* Bronze Statue of a Sclavus */
-     , (0x75458048, 0x7545805E, '2005-02-09 10:00:00') /* Bronze Statue of a Sclavus */
-     , (0x75458048, 0x75458061, '2005-02-09 10:00:00') /* Bronze Statue of a Sclavus */
-     , (0x75458048, 0x75458062, '2005-02-09 10:00:00') /* Bronze Statue of a Sclavus */;
+VALUES (0x75458048, 0x75458000, '2005-02-09 10:00:00') /* Bronze Statue of a Golem (19276) */
+     , (0x75458048, 0x75458001, '2005-02-09 10:00:00') /* Bronze Statue of a Golem (19276) */
+     , (0x75458048, 0x75458002, '2005-02-09 10:00:00') /* Bronze Statue of a Golem (19276) */
+     , (0x75458048, 0x75458003, '2005-02-09 10:00:00') /* Bronze Statue of a Golem (19276) */
+     , (0x75458048, 0x75458006, '2005-02-09 10:00:00') /* Bronze Statue of a Golem (19276) */
+     , (0x75458048, 0x75458007, '2005-02-09 10:00:00') /* Bronze Statue of a Golem (19276) */
+     , (0x75458048, 0x75458008, '2005-02-09 10:00:00') /* Bronze Statue of a Golem (19276) */
+     , (0x75458048, 0x7545800A, '2005-02-09 10:00:00') /* Bronze Statue of a Skeleton (19282) */
+     , (0x75458048, 0x7545800B, '2005-02-09 10:00:00') /* Bronze Statue of a Golem (19276) */
+     , (0x75458048, 0x7545800D, '2005-02-09 10:00:00') /* Bronze Statue of a Skeleton (19282) */
+     , (0x75458048, 0x7545800E, '2005-02-09 10:00:00') /* Bronze Statue of a Skeleton (19282) */
+     , (0x75458048, 0x75458010, '2005-02-09 10:00:00') /* Bronze Statue of a Tumerok (19285) */
+     , (0x75458048, 0x75458011, '2005-02-09 10:00:00') /* Bronze Statue of a Skeleton (19282) */
+     , (0x75458048, 0x75458013, '2005-02-09 10:00:00') /* Bronze Statue of a Tumerok (19285) */
+     , (0x75458048, 0x75458014, '2005-02-09 10:00:00') /* Bronze Statue of a Skeleton (19282) */
+     , (0x75458048, 0x75458015, '2005-02-09 10:00:00') /* Bronze Statue of a Skeleton (19282) */
+     , (0x75458048, 0x7545801C, '2005-02-09 10:00:00') /* Bronze Statue of a Skeleton (19282) */
+     , (0x75458048, 0x7545801E, '2005-02-09 10:00:00') /* Bronze Statue of a Tumerok (19285) */
+     , (0x75458048, 0x75458020, '2005-02-09 10:00:00') /* Bronze Statue of a Skeleton (19282) */
+     , (0x75458048, 0x75458021, '2005-02-09 10:00:00') /* Bronze Statue of a Skeleton (19282) */
+     , (0x75458048, 0x75458023, '2005-02-09 10:00:00') /* Bronze Statue of a Tumerok (19285) */
+     , (0x75458048, 0x75458025, '2005-02-09 10:00:00') /* Bronze Statue of a Tumerok (19285) */
+     , (0x75458048, 0x75458056, '2005-02-09 10:00:00') /* Bronze Statue of a Sclavus (19279) */
+     , (0x75458048, 0x75458058, '2005-02-09 10:00:00') /* Bronze Statue of a Sclavus (19279) */
+     , (0x75458048, 0x7545805A, '2005-02-09 10:00:00') /* Bronze Statue of a Sclavus (19279) */
+     , (0x75458048, 0x7545805B, '2005-02-09 10:00:00') /* Bronze Statue of a Sclavus (19279) */
+     , (0x75458048, 0x7545805C, '2005-02-09 10:00:00') /* Bronze Statue of a Sclavus (19279) */
+     , (0x75458048, 0x7545805D, '2005-02-09 10:00:00') /* Bronze Statue of a Sclavus (19279) */
+     , (0x75458048, 0x7545805E, '2005-02-09 10:00:00') /* Bronze Statue of a Sclavus (19279) */
+     , (0x75458048, 0x75458061, '2005-02-09 10:00:00') /* Bronze Statue of a Sclavus (19279) */
+     , (0x75458048, 0x75458062, '2005-02-09 10:00:00') /* Bronze Statue of a Sclavus (19279) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75458049, 19133, 0x54580261, 14.1364, -129.811, 6.005, 0.71651, 0, 0, 0.697577, False, '2005-02-09 10:00:00'); /* Portal to Baishi */

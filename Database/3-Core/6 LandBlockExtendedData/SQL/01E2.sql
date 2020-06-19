@@ -285,8 +285,8 @@ VALUES (0x701E2094, 15759, 0x01E20136, 90.7162, -31.5388, -17.995, -0.075991, 0,
 /* @teleloc 0x01E20136 [90.716200 -31.538800 -17.995000] -0.075991 0.000000 0.000000 -0.997108 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x701E2094, 0x701E2026, '2005-02-09 10:00:00') /* Gwillim's Alchemy Bag */
-     , (0x701E2094, 0x701E2028, '2005-02-09 10:00:00') /* Gwillim's Alchemy Notes */;
+VALUES (0x701E2094, 0x701E2026, '2005-02-09 10:00:00') /* Gwillim's Alchemy Bag (5844) */
+     , (0x701E2094, 0x701E2028, '2005-02-09 10:00:00') /* Gwillim's Alchemy Notes (5841) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x701E2096,  1925, 0x01E20139, 12.8369, -39.9994, -12, -0.718733, 0, 0, -0.695286, False, '2005-02-09 10:00:00'); /* Chest */
@@ -457,70 +457,70 @@ VALUES (0x701E20C6,  7924, 0x01E20240, 77.563, -20.876, 24.005, 0.758279, 0, 0, 
 /* @teleloc 0x01E20240 [77.563000 -20.876000 24.005000] 0.758279 0.000000 0.000000 -0.651930 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x701E20C6, 0x701E201D, '2005-02-09 10:00:00') /* Giant White Rat */
-     , (0x701E20C6, 0x701E201F, '2005-02-09 10:00:00') /* Giant White Rat */
-     , (0x701E20C6, 0x701E2084, '2005-02-09 10:00:00') /* Revenant */
-     , (0x701E20C6, 0x701E2085, '2005-02-09 10:00:00') /* Nalif Zefir */
-     , (0x701E20C6, 0x701E2086, '2005-02-09 10:00:00') /* Nalif Zefir */
-     , (0x701E20C6, 0x701E208E, '2005-02-09 10:00:00') /* Revenant */
-     , (0x701E20C6, 0x701E208F, '2005-02-09 10:00:00') /* Revenant */
-     , (0x701E20C6, 0x701E2099, '2005-02-09 10:00:00') /* Revenant */
-     , (0x701E20C6, 0x701E209B, '2005-02-09 10:00:00') /* Sewer Rat */
-     , (0x701E20C6, 0x701E209C, '2005-02-09 10:00:00') /* Tusker Guard */
-     , (0x701E20C6, 0x701E20A0, '2005-02-09 10:00:00') /* Banderling Mauler */
-     , (0x701E20C6, 0x701E20A1, '2005-02-09 10:00:00') /* Great Skeleton */
-     , (0x701E20C6, 0x701E20A2, '2005-02-09 10:00:00') /* Revenant */
-     , (0x701E20C6, 0x701E20A9, '2005-02-09 10:00:00') /* Banderling Berserker */
-     , (0x701E20C6, 0x701E20AD, '2005-02-09 10:00:00') /* Sewer Rat */
-     , (0x701E20C6, 0x701E20AE, '2005-02-09 10:00:00') /* Banderling Striker */
-     , (0x701E20C6, 0x701E20AF, '2005-02-09 10:00:00') /* Banderling Striker */
-     , (0x701E20C6, 0x701E20B3, '2005-02-09 10:00:00') /* Revenant */
-     , (0x701E20C6, 0x701E20B6, '2005-02-09 10:00:00') /* Sewer Rat */
-     , (0x701E20C6, 0x701E20B7, '2005-02-09 10:00:00') /* Sewer Rat */
-     , (0x701E20C6, 0x701E20BC, '2005-02-09 10:00:00') /* Sewer Rat */
-     , (0x701E20C6, 0x701E20C3, '2005-02-09 10:00:00') /* Revenant */
-     , (0x701E20C6, 0x701E20C4, '2005-02-09 10:00:00') /* Banderling Berserker */
-     , (0x701E20C6, 0x701E20C5, '2005-02-09 10:00:00') /* Banderling Berserker */;
+VALUES (0x701E20C6, 0x701E201D, '2005-02-09 10:00:00') /* Giant White Rat (1273) */
+     , (0x701E20C6, 0x701E201F, '2005-02-09 10:00:00') /* Giant White Rat (1273) */
+     , (0x701E20C6, 0x701E2084, '2005-02-09 10:00:00') /* Revenant (619) */
+     , (0x701E20C6, 0x701E2085, '2005-02-09 10:00:00') /* Nalif Zefir (7129) */
+     , (0x701E20C6, 0x701E2086, '2005-02-09 10:00:00') /* Nalif Zefir (7129) */
+     , (0x701E20C6, 0x701E208E, '2005-02-09 10:00:00') /* Revenant (619) */
+     , (0x701E20C6, 0x701E208F, '2005-02-09 10:00:00') /* Revenant (619) */
+     , (0x701E20C6, 0x701E2099, '2005-02-09 10:00:00') /* Revenant (619) */
+     , (0x701E20C6, 0x701E209B, '2005-02-09 10:00:00') /* Sewer Rat (7106) */
+     , (0x701E20C6, 0x701E209C, '2005-02-09 10:00:00') /* Tusker Guard (1629) */
+     , (0x701E20C6, 0x701E20A0, '2005-02-09 10:00:00') /* Banderling Mauler (7088) */
+     , (0x701E20C6, 0x701E20A1, '2005-02-09 10:00:00') /* Great Skeleton (7122) */
+     , (0x701E20C6, 0x701E20A2, '2005-02-09 10:00:00') /* Revenant (619) */
+     , (0x701E20C6, 0x701E20A9, '2005-02-09 10:00:00') /* Banderling Berserker (7085) */
+     , (0x701E20C6, 0x701E20AD, '2005-02-09 10:00:00') /* Sewer Rat (7106) */
+     , (0x701E20C6, 0x701E20AE, '2005-02-09 10:00:00') /* Banderling Striker (7345) */
+     , (0x701E20C6, 0x701E20AF, '2005-02-09 10:00:00') /* Banderling Striker (7345) */
+     , (0x701E20C6, 0x701E20B3, '2005-02-09 10:00:00') /* Revenant (619) */
+     , (0x701E20C6, 0x701E20B6, '2005-02-09 10:00:00') /* Sewer Rat (7106) */
+     , (0x701E20C6, 0x701E20B7, '2005-02-09 10:00:00') /* Sewer Rat (7106) */
+     , (0x701E20C6, 0x701E20BC, '2005-02-09 10:00:00') /* Sewer Rat (7106) */
+     , (0x701E20C6, 0x701E20C3, '2005-02-09 10:00:00') /* Revenant (619) */
+     , (0x701E20C6, 0x701E20C4, '2005-02-09 10:00:00') /* Banderling Berserker (7085) */
+     , (0x701E20C6, 0x701E20C5, '2005-02-09 10:00:00') /* Banderling Berserker (7085) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x701E20C7,  7924, 0x01E20240, 77.5039, -19.4694, 24.005, 0.758279, 0, 0, -0.65193, False, '2005-02-09 10:00:00'); /* Linkable Monster Generator ( 5 Min.) */
 /* @teleloc 0x01E20240 [77.503900 -19.469400 24.005000] 0.758279 0.000000 0.000000 -0.651930 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x701E20C7, 0x701E201E, '2005-02-09 10:00:00') /* Giant White Rat */
-     , (0x701E20C7, 0x701E2087, '2005-02-09 10:00:00') /* Augmented Tumerok */
-     , (0x701E20C7, 0x701E208A, '2005-02-09 10:00:00') /* Banderling Striker */
-     , (0x701E20C7, 0x701E208B, '2005-02-09 10:00:00') /* Banderling Berserker */
-     , (0x701E20C7, 0x701E208C, '2005-02-09 10:00:00') /* Skeleton Bone Lord */
-     , (0x701E20C7, 0x701E2090, '2005-02-09 10:00:00') /* Sewer Rat */
-     , (0x701E20C7, 0x701E209A, '2005-02-09 10:00:00') /* Revenant */
-     , (0x701E20C7, 0x701E209E, '2005-02-09 10:00:00') /* Banderling Berserker */
-     , (0x701E20C7, 0x701E209F, '2005-02-09 10:00:00') /* Banderling Striker */
-     , (0x701E20C7, 0x701E20A5, '2005-02-09 10:00:00') /* Sewer Rat */
-     , (0x701E20C7, 0x701E20A6, '2005-02-09 10:00:00') /* Revenant */
-     , (0x701E20C7, 0x701E20A7, '2005-02-09 10:00:00') /* Revenant */
-     , (0x701E20C7, 0x701E20AA, '2005-02-09 10:00:00') /* Altered Drudge */
-     , (0x701E20C7, 0x701E20AB, '2005-02-09 10:00:00') /* Sewer Rat */
-     , (0x701E20C7, 0x701E20AC, '2005-02-09 10:00:00') /* Sewer Rat */
-     , (0x701E20C7, 0x701E20B4, '2005-02-09 10:00:00') /* Banderling Striker */
-     , (0x701E20C7, 0x701E20B8, '2005-02-09 10:00:00') /* Banderling Striker */
-     , (0x701E20C7, 0x701E20B9, '2005-02-09 10:00:00') /* Banderling Berserker */
-     , (0x701E20C7, 0x701E20BD, '2005-02-09 10:00:00') /* Revenant */
-     , (0x701E20C7, 0x701E20BE, '2005-02-09 10:00:00') /* Revenant */
-     , (0x701E20C7, 0x701E20BF, '2005-02-09 10:00:00') /* Revenant */
-     , (0x701E20C7, 0x701E20C0, '2005-02-09 10:00:00') /* Revenant */
-     , (0x701E20C7, 0x701E20C8, '2005-02-09 10:00:00') /* Foul Moarsman */
-     , (0x701E20C7, 0x701E20C9, '2005-02-09 10:00:00') /* Obsidian Golem */
-     , (0x701E20C7, 0x701E20CA, '2005-02-09 10:00:00') /* Gotrok Extas */
-     , (0x701E20C7, 0x701E20CB, '2005-02-09 10:00:00') /* Jungle Phyntos Wasp */
-     , (0x701E20C7, 0x701E20CC, '2005-02-09 10:00:00') /* Jungle Phyntos Wasp */
-     , (0x701E20C7, 0x701E20CD, '2005-02-09 10:00:00') /* Ulu Sclavus */
-     , (0x701E20C7, 0x701E20CE, '2005-02-09 10:00:00') /* Shadow Lieutenant */
-     , (0x701E20C7, 0x701E20CF, '2005-02-09 10:00:00') /* Olthoi Soldier */
-     , (0x701E20C7, 0x701E20D0, '2005-02-09 10:00:00') /* Opor Niffis */
-     , (0x701E20C7, 0x701E20D1, '2005-02-09 10:00:00') /* Dread Mu-miyah */
-     , (0x701E20C7, 0x701E20D2, '2005-02-09 10:00:00') /* Flamma */
-     , (0x701E20C7, 0x701E20D3, '2005-02-09 10:00:00') /* Mosswart Zealot */;
+VALUES (0x701E20C7, 0x701E201E, '2005-02-09 10:00:00') /* Giant White Rat (1273) */
+     , (0x701E20C7, 0x701E2087, '2005-02-09 10:00:00') /* Augmented Tumerok (10807) */
+     , (0x701E20C7, 0x701E208A, '2005-02-09 10:00:00') /* Banderling Striker (7345) */
+     , (0x701E20C7, 0x701E208B, '2005-02-09 10:00:00') /* Banderling Berserker (7085) */
+     , (0x701E20C7, 0x701E208C, '2005-02-09 10:00:00') /* Skeleton Bone Lord (7121) */
+     , (0x701E20C7, 0x701E2090, '2005-02-09 10:00:00') /* Sewer Rat (7106) */
+     , (0x701E20C7, 0x701E209A, '2005-02-09 10:00:00') /* Revenant (619) */
+     , (0x701E20C7, 0x701E209E, '2005-02-09 10:00:00') /* Banderling Berserker (7085) */
+     , (0x701E20C7, 0x701E209F, '2005-02-09 10:00:00') /* Banderling Striker (7345) */
+     , (0x701E20C7, 0x701E20A5, '2005-02-09 10:00:00') /* Sewer Rat (7106) */
+     , (0x701E20C7, 0x701E20A6, '2005-02-09 10:00:00') /* Revenant (619) */
+     , (0x701E20C7, 0x701E20A7, '2005-02-09 10:00:00') /* Revenant (619) */
+     , (0x701E20C7, 0x701E20AA, '2005-02-09 10:00:00') /* Altered Drudge (7089) */
+     , (0x701E20C7, 0x701E20AB, '2005-02-09 10:00:00') /* Sewer Rat (7106) */
+     , (0x701E20C7, 0x701E20AC, '2005-02-09 10:00:00') /* Sewer Rat (7106) */
+     , (0x701E20C7, 0x701E20B4, '2005-02-09 10:00:00') /* Banderling Striker (7345) */
+     , (0x701E20C7, 0x701E20B8, '2005-02-09 10:00:00') /* Banderling Striker (7345) */
+     , (0x701E20C7, 0x701E20B9, '2005-02-09 10:00:00') /* Banderling Berserker (7085) */
+     , (0x701E20C7, 0x701E20BD, '2005-02-09 10:00:00') /* Revenant (619) */
+     , (0x701E20C7, 0x701E20BE, '2005-02-09 10:00:00') /* Revenant (619) */
+     , (0x701E20C7, 0x701E20BF, '2005-02-09 10:00:00') /* Revenant (619) */
+     , (0x701E20C7, 0x701E20C0, '2005-02-09 10:00:00') /* Revenant (619) */
+     , (0x701E20C7, 0x701E20C8, '2005-02-09 10:00:00') /* Foul Moarsman (4247) */
+     , (0x701E20C7, 0x701E20C9, '2005-02-09 10:00:00') /* Obsidian Golem (201) */
+     , (0x701E20C7, 0x701E20CA, '2005-02-09 10:00:00') /* Gotrok Extas (24494) */
+     , (0x701E20C7, 0x701E20CB, '2005-02-09 10:00:00') /* Jungle Phyntos Wasp (7183) */
+     , (0x701E20C7, 0x701E20CC, '2005-02-09 10:00:00') /* Jungle Phyntos Wasp (7183) */
+     , (0x701E20C7, 0x701E20CD, '2005-02-09 10:00:00') /* Ulu Sclavus (7110) */
+     , (0x701E20C7, 0x701E20CE, '2005-02-09 10:00:00') /* Shadow Lieutenant (1757) */
+     , (0x701E20C7, 0x701E20CF, '2005-02-09 10:00:00') /* Olthoi Soldier (214) */
+     , (0x701E20C7, 0x701E20D0, '2005-02-09 10:00:00') /* Opor Niffis (7987) */
+     , (0x701E20C7, 0x701E20D1, '2005-02-09 10:00:00') /* Dread Mu-miyah (9255) */
+     , (0x701E20C7, 0x701E20D2, '2005-02-09 10:00:00') /* Flamma (21163) */
+     , (0x701E20C7, 0x701E20D3, '2005-02-09 10:00:00') /* Mosswart Zealot (8429) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x701E20C8,  4247, 0x01E20114, 50.27, -62.6833, -17.985, 0.00793896, 0, 0, -0.999968,  True, '2005-02-09 10:00:00'); /* Foul Moarsman */

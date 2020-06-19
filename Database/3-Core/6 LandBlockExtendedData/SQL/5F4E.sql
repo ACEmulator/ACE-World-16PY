@@ -13,51 +13,51 @@ VALUES (0x75F4E002,  4219, 0x5F4E0104, 90, -280, 0.005, 1, 0, 0, 0, False, '2005
 /* @teleloc 0x5F4E0104 [90.000000 -280.000000 0.005000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x75F4E002, 0x75F4E008, '2005-02-09 10:00:00') /* Guruk Colossus */
-     , (0x75F4E002, 0x75F4E009, '2005-02-09 10:00:00') /* Guruk Colossus */
-     , (0x75F4E002, 0x75F4E00A, '2005-02-09 10:00:00') /* Guruk Colossus */
-     , (0x75F4E002, 0x75F4E00E, '2005-02-09 10:00:00') /* Guruk Colossus */
-     , (0x75F4E002, 0x75F4E00F, '2005-02-09 10:00:00') /* Guruk Colossus */
-     , (0x75F4E002, 0x75F4E01F, '2005-02-09 10:00:00') /* Guruk Colossus */
-     , (0x75F4E002, 0x75F4E020, '2005-02-09 10:00:00') /* Guruk Colossus */
-     , (0x75F4E002, 0x75F4E026, '2005-02-09 10:00:00') /* Guruk Colossus */
-     , (0x75F4E002, 0x75F4E027, '2005-02-09 10:00:00') /* Guruk Colossus */
-     , (0x75F4E002, 0x75F4E028, '2005-02-09 10:00:00') /* Guruk Colossus */
-     , (0x75F4E002, 0x75F4E02C, '2005-02-09 10:00:00') /* Guruk Colossus */
-     , (0x75F4E002, 0x75F4E02D, '2005-02-09 10:00:00') /* Guruk Colossus */
-     , (0x75F4E002, 0x75F4E02E, '2005-02-09 10:00:00') /* Guruk Colossus */
-     , (0x75F4E002, 0x75F4E02F, '2005-02-09 10:00:00') /* Guruk Colossus */
-     , (0x75F4E002, 0x75F4E030, '2005-02-09 10:00:00') /* Guruk Colossus */
-     , (0x75F4E002, 0x75F4E031, '2005-02-09 10:00:00') /* Guruk Colossus */
-     , (0x75F4E002, 0x75F4E032, '2005-02-09 10:00:00') /* Guruk Colossus */
-     , (0x75F4E002, 0x75F4E033, '2005-02-09 10:00:00') /* Guruk Behemoth */
-     , (0x75F4E002, 0x75F4E034, '2005-02-09 10:00:00') /* Guruk Colossus */
-     , (0x75F4E002, 0x75F4E035, '2005-02-09 10:00:00') /* Guruk Behemoth */
-     , (0x75F4E002, 0x75F4E036, '2005-02-09 10:00:00') /* Guruk Colossus */
-     , (0x75F4E002, 0x75F4E037, '2005-02-09 10:00:00') /* Guruk Behemoth */
-     , (0x75F4E002, 0x75F4E038, '2005-02-09 10:00:00') /* Guruk Colossus */
-     , (0x75F4E002, 0x75F4E039, '2005-02-09 10:00:00') /* Guruk Colossus */
-     , (0x75F4E002, 0x75F4E03A, '2005-02-09 10:00:00') /* Guruk Colossus */
-     , (0x75F4E002, 0x75F4E03B, '2005-02-09 10:00:00') /* Guruk Colossus */
-     , (0x75F4E002, 0x75F4E03C, '2005-02-09 10:00:00') /* Guruk Behemoth */
-     , (0x75F4E002, 0x75F4E03D, '2005-02-09 10:00:00') /* Guruk Colossus */
-     , (0x75F4E002, 0x75F4E03E, '2005-02-09 10:00:00') /* Guruk Behemoth */
-     , (0x75F4E002, 0x75F4E03F, '2005-02-09 10:00:00') /* Guruk Behemoth */
-     , (0x75F4E002, 0x75F4E040, '2005-02-09 10:00:00') /* Guruk Colossus */
-     , (0x75F4E002, 0x75F4E041, '2005-02-09 10:00:00') /* Guruk Behemoth */
-     , (0x75F4E002, 0x75F4E042, '2005-02-09 10:00:00') /* Guruk Behemoth */
-     , (0x75F4E002, 0x75F4E043, '2005-02-09 10:00:00') /* Guruk Behemoth */
-     , (0x75F4E002, 0x75F4E044, '2005-02-09 10:00:00') /* Guruk Behemoth */
-     , (0x75F4E002, 0x75F4E045, '2005-02-09 10:00:00') /* Guruk Behemoth */
-     , (0x75F4E002, 0x75F4E046, '2005-02-09 10:00:00') /* Guruk Behemoth */
-     , (0x75F4E002, 0x75F4E047, '2005-02-09 10:00:00') /* Guruk Behemoth */
-     , (0x75F4E002, 0x75F4E048, '2005-02-09 10:00:00') /* Guruk Behemoth */
-     , (0x75F4E002, 0x75F4E049, '2005-02-09 10:00:00') /* Guruk Behemoth */
-     , (0x75F4E002, 0x75F4E04A, '2005-02-09 10:00:00') /* Guruk Behemoth */
-     , (0x75F4E002, 0x75F4E04B, '2005-02-09 10:00:00') /* Guruk Behemoth */
-     , (0x75F4E002, 0x75F4E04C, '2005-02-09 10:00:00') /* Guruk Behemoth */
-     , (0x75F4E002, 0x75F4E04D, '2005-02-09 10:00:00') /* Guruk Behemoth */
-     , (0x75F4E002, 0x75F4E04E, '2005-02-09 10:00:00') /* Guruk Behemoth */;
+VALUES (0x75F4E002, 0x75F4E008, '2005-02-09 10:00:00') /* Guruk Colossus (27983) */
+     , (0x75F4E002, 0x75F4E009, '2005-02-09 10:00:00') /* Guruk Colossus (27983) */
+     , (0x75F4E002, 0x75F4E00A, '2005-02-09 10:00:00') /* Guruk Colossus (27983) */
+     , (0x75F4E002, 0x75F4E00E, '2005-02-09 10:00:00') /* Guruk Colossus (27983) */
+     , (0x75F4E002, 0x75F4E00F, '2005-02-09 10:00:00') /* Guruk Colossus (27983) */
+     , (0x75F4E002, 0x75F4E01F, '2005-02-09 10:00:00') /* Guruk Colossus (27983) */
+     , (0x75F4E002, 0x75F4E020, '2005-02-09 10:00:00') /* Guruk Colossus (27983) */
+     , (0x75F4E002, 0x75F4E026, '2005-02-09 10:00:00') /* Guruk Colossus (27983) */
+     , (0x75F4E002, 0x75F4E027, '2005-02-09 10:00:00') /* Guruk Colossus (27983) */
+     , (0x75F4E002, 0x75F4E028, '2005-02-09 10:00:00') /* Guruk Colossus (27983) */
+     , (0x75F4E002, 0x75F4E02C, '2005-02-09 10:00:00') /* Guruk Colossus (27983) */
+     , (0x75F4E002, 0x75F4E02D, '2005-02-09 10:00:00') /* Guruk Colossus (27983) */
+     , (0x75F4E002, 0x75F4E02E, '2005-02-09 10:00:00') /* Guruk Colossus (27983) */
+     , (0x75F4E002, 0x75F4E02F, '2005-02-09 10:00:00') /* Guruk Colossus (27983) */
+     , (0x75F4E002, 0x75F4E030, '2005-02-09 10:00:00') /* Guruk Colossus (27983) */
+     , (0x75F4E002, 0x75F4E031, '2005-02-09 10:00:00') /* Guruk Colossus (27983) */
+     , (0x75F4E002, 0x75F4E032, '2005-02-09 10:00:00') /* Guruk Colossus (27983) */
+     , (0x75F4E002, 0x75F4E033, '2005-02-09 10:00:00') /* Guruk Behemoth (27980) */
+     , (0x75F4E002, 0x75F4E034, '2005-02-09 10:00:00') /* Guruk Colossus (27983) */
+     , (0x75F4E002, 0x75F4E035, '2005-02-09 10:00:00') /* Guruk Behemoth (27980) */
+     , (0x75F4E002, 0x75F4E036, '2005-02-09 10:00:00') /* Guruk Colossus (27983) */
+     , (0x75F4E002, 0x75F4E037, '2005-02-09 10:00:00') /* Guruk Behemoth (27980) */
+     , (0x75F4E002, 0x75F4E038, '2005-02-09 10:00:00') /* Guruk Colossus (27983) */
+     , (0x75F4E002, 0x75F4E039, '2005-02-09 10:00:00') /* Guruk Colossus (27983) */
+     , (0x75F4E002, 0x75F4E03A, '2005-02-09 10:00:00') /* Guruk Colossus (27983) */
+     , (0x75F4E002, 0x75F4E03B, '2005-02-09 10:00:00') /* Guruk Colossus (27983) */
+     , (0x75F4E002, 0x75F4E03C, '2005-02-09 10:00:00') /* Guruk Behemoth (27980) */
+     , (0x75F4E002, 0x75F4E03D, '2005-02-09 10:00:00') /* Guruk Colossus (27983) */
+     , (0x75F4E002, 0x75F4E03E, '2005-02-09 10:00:00') /* Guruk Behemoth (27980) */
+     , (0x75F4E002, 0x75F4E03F, '2005-02-09 10:00:00') /* Guruk Behemoth (27980) */
+     , (0x75F4E002, 0x75F4E040, '2005-02-09 10:00:00') /* Guruk Colossus (27983) */
+     , (0x75F4E002, 0x75F4E041, '2005-02-09 10:00:00') /* Guruk Behemoth (27980) */
+     , (0x75F4E002, 0x75F4E042, '2005-02-09 10:00:00') /* Guruk Behemoth (27980) */
+     , (0x75F4E002, 0x75F4E043, '2005-02-09 10:00:00') /* Guruk Behemoth (27980) */
+     , (0x75F4E002, 0x75F4E044, '2005-02-09 10:00:00') /* Guruk Behemoth (27980) */
+     , (0x75F4E002, 0x75F4E045, '2005-02-09 10:00:00') /* Guruk Behemoth (27980) */
+     , (0x75F4E002, 0x75F4E046, '2005-02-09 10:00:00') /* Guruk Behemoth (27980) */
+     , (0x75F4E002, 0x75F4E047, '2005-02-09 10:00:00') /* Guruk Behemoth (27980) */
+     , (0x75F4E002, 0x75F4E048, '2005-02-09 10:00:00') /* Guruk Behemoth (27980) */
+     , (0x75F4E002, 0x75F4E049, '2005-02-09 10:00:00') /* Guruk Behemoth (27980) */
+     , (0x75F4E002, 0x75F4E04A, '2005-02-09 10:00:00') /* Guruk Behemoth (27980) */
+     , (0x75F4E002, 0x75F4E04B, '2005-02-09 10:00:00') /* Guruk Behemoth (27980) */
+     , (0x75F4E002, 0x75F4E04C, '2005-02-09 10:00:00') /* Guruk Behemoth (27980) */
+     , (0x75F4E002, 0x75F4E04D, '2005-02-09 10:00:00') /* Guruk Behemoth (27980) */
+     , (0x75F4E002, 0x75F4E04E, '2005-02-09 10:00:00') /* Guruk Behemoth (27980) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75F4E003,  4219, 0x5F4E0104, 89.0047, -280, 0.005, 1, 0, 0, 0, False, '2005-02-09 10:00:00'); /* Linkable Monster Generator ( 7 Min.) */
@@ -488,7 +488,7 @@ VALUES (0x75F4E06D,  4454, 0x5F4E0332, 90, -5.33388, 36.005, 1, 0, 0, 0, False, 
 /* @teleloc 0x5F4E0332 [90.000000 -5.333880 36.005000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x75F4E06D, 0x75F4E077, '2005-02-09 10:00:00') /* Lever */;
+VALUES (0x75F4E06D, 0x75F4E077, '2005-02-09 10:00:00') /* Lever (286) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75F4E06E, 27986, 0x5F4E0332, 87.1953, -8.54091, 36.005, -0.024158, 0, 0, -0.999708,  True, '2005-02-09 10:00:00'); /* Guruk Gorefiend */
@@ -523,20 +523,20 @@ VALUES (0x75F4E075,  7923, 0x5F4E0335, 90, -37.8428, 36.005, 1, 0, 0, 0, False, 
 /* @teleloc 0x5F4E0335 [90.000000 -37.842800 36.005000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x75F4E075, 0x75F4E055, '2005-02-09 10:00:00') /* Guruk Colossus */
-     , (0x75F4E075, 0x75F4E057, '2005-02-09 10:00:00') /* Guruk Gorefiend */
-     , (0x75F4E075, 0x75F4E05C, '2005-02-09 10:00:00') /* Guruk Titan */
-     , (0x75F4E075, 0x75F4E060, '2005-02-09 10:00:00') /* Guruk Behemoth */
-     , (0x75F4E075, 0x75F4E062, '2005-02-09 10:00:00') /* Guruk Behemoth */
-     , (0x75F4E075, 0x75F4E068, '2005-02-09 10:00:00') /* Guruk Titan */
-     , (0x75F4E075, 0x75F4E06A, '2005-02-09 10:00:00') /* Guruk Behemoth */
-     , (0x75F4E075, 0x75F4E06C, '2005-02-09 10:00:00') /* Guardian */
-     , (0x75F4E075, 0x75F4E06E, '2005-02-09 10:00:00') /* Guruk Gorefiend */
-     , (0x75F4E075, 0x75F4E06F, '2005-02-09 10:00:00') /* Guruk Gorefiend */
-     , (0x75F4E075, 0x75F4E071, '2005-02-09 10:00:00') /* Guruk Titan */
-     , (0x75F4E075, 0x75F4E072, '2005-02-09 10:00:00') /* Guruk Titan */
-     , (0x75F4E075, 0x75F4E07B, '2005-02-09 10:00:00') /* Guruk Titan */
-     , (0x75F4E075, 0x75F4E07D, '2005-02-09 10:00:00') /* Guruk Behemoth */;
+VALUES (0x75F4E075, 0x75F4E055, '2005-02-09 10:00:00') /* Guruk Colossus (27983) */
+     , (0x75F4E075, 0x75F4E057, '2005-02-09 10:00:00') /* Guruk Gorefiend (27986) */
+     , (0x75F4E075, 0x75F4E05C, '2005-02-09 10:00:00') /* Guruk Titan (27990) */
+     , (0x75F4E075, 0x75F4E060, '2005-02-09 10:00:00') /* Guruk Behemoth (27980) */
+     , (0x75F4E075, 0x75F4E062, '2005-02-09 10:00:00') /* Guruk Behemoth (27980) */
+     , (0x75F4E075, 0x75F4E068, '2005-02-09 10:00:00') /* Guruk Titan (27990) */
+     , (0x75F4E075, 0x75F4E06A, '2005-02-09 10:00:00') /* Guruk Behemoth (27980) */
+     , (0x75F4E075, 0x75F4E06C, '2005-02-09 10:00:00') /* Guardian (27959) */
+     , (0x75F4E075, 0x75F4E06E, '2005-02-09 10:00:00') /* Guruk Gorefiend (27986) */
+     , (0x75F4E075, 0x75F4E06F, '2005-02-09 10:00:00') /* Guruk Gorefiend (27986) */
+     , (0x75F4E075, 0x75F4E071, '2005-02-09 10:00:00') /* Guruk Titan (27990) */
+     , (0x75F4E075, 0x75F4E072, '2005-02-09 10:00:00') /* Guruk Titan (27990) */
+     , (0x75F4E075, 0x75F4E07B, '2005-02-09 10:00:00') /* Guruk Titan (27990) */
+     , (0x75F4E075, 0x75F4E07D, '2005-02-09 10:00:00') /* Guruk Behemoth (27980) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75F4E076, 28025, 0x5F4E0335, 90, -40, 36, 1, 0, 0, 0, False, '2005-02-09 10:00:00'); /* Virulent Air */

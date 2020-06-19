@@ -45,14 +45,14 @@ VALUES (0x7B66F00A,  1154, 0xB66F0000, 108.783, 88.8222, 40.9414, -0.47361, 0, 0
 /* @teleloc 0xB66F0000 [108.783000 88.822200 40.941400] -0.473610 0.000000 0.000000 0.880735 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B66F00A, 0x7B66F000, '2005-02-09 10:00:00') /* Outcast Monouga */
-     , (0x7B66F00A, 0x7B66F001, '2005-02-09 10:00:00') /* Outcast Monouga */
-     , (0x7B66F00A, 0x7B66F002, '2005-02-09 10:00:00') /* Outcast Monouga */
-     , (0x7B66F00A, 0x7B66F003, '2005-02-09 10:00:00') /* Outcast Monouga */
-     , (0x7B66F00A, 0x7B66F004, '2005-02-09 10:00:00') /* Outcast Monouga */
-     , (0x7B66F00A, 0x7B66F005, '2005-02-09 10:00:00') /* Outcast Monouga */
-     , (0x7B66F00A, 0x7B66F006, '2005-02-09 10:00:00') /* Outcast Monouga */
-     , (0x7B66F00A, 0x7B66F007, '2005-02-09 10:00:00') /* Outcast Monouga */;
+VALUES (0x7B66F00A, 0x7B66F000, '2005-02-09 10:00:00') /* Outcast Monouga (2612) */
+     , (0x7B66F00A, 0x7B66F001, '2005-02-09 10:00:00') /* Outcast Monouga (2612) */
+     , (0x7B66F00A, 0x7B66F002, '2005-02-09 10:00:00') /* Outcast Monouga (2612) */
+     , (0x7B66F00A, 0x7B66F003, '2005-02-09 10:00:00') /* Outcast Monouga (2612) */
+     , (0x7B66F00A, 0x7B66F004, '2005-02-09 10:00:00') /* Outcast Monouga (2612) */
+     , (0x7B66F00A, 0x7B66F005, '2005-02-09 10:00:00') /* Outcast Monouga (2612) */
+     , (0x7B66F00A, 0x7B66F006, '2005-02-09 10:00:00') /* Outcast Monouga (2612) */
+     , (0x7B66F00A, 0x7B66F007, '2005-02-09 10:00:00') /* Outcast Monouga (2612) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B66F00B,   954, 0xB66F0000, 133.121, 1.26333, 26.2222, -0.722885, 0, 0, 0.690968, False, '2005-02-09 10:00:00'); /* Drudge Sneaker Generator */

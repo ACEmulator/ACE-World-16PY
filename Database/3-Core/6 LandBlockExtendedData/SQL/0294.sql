@@ -9,13 +9,13 @@ VALUES (0x70294001,  7923, 0x02940102, 10, -70, 0.005, 1, 0, 0, 0, False, '2005-
 /* @teleloc 0x02940102 [10.000000 -70.000000 0.005000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x70294001, 0x70294002, '2005-02-09 10:00:00') /* Staging Ground Director */
-     , (0x70294001, 0x70294003, '2005-02-09 10:00:00') /* Virindi Puppet */
-     , (0x70294001, 0x70294004, '2005-02-09 10:00:00') /* Virindi Puppet */
-     , (0x70294001, 0x70294005, '2005-02-09 10:00:00') /* Drudge Ravener */
-     , (0x70294001, 0x70294006, '2005-02-09 10:00:00') /* Drudge Ravener */
-     , (0x70294001, 0x70294007, '2005-02-09 10:00:00') /* Drudge Ravener */
-     , (0x70294001, 0x70294008, '2005-02-09 10:00:00') /* Drudge Ravener */;
+VALUES (0x70294001, 0x70294002, '2005-02-09 10:00:00') /* Staging Ground Director (10718) */
+     , (0x70294001, 0x70294003, '2005-02-09 10:00:00') /* Virindi Puppet (238) */
+     , (0x70294001, 0x70294004, '2005-02-09 10:00:00') /* Virindi Puppet (238) */
+     , (0x70294001, 0x70294005, '2005-02-09 10:00:00') /* Drudge Ravener (1610) */
+     , (0x70294001, 0x70294006, '2005-02-09 10:00:00') /* Drudge Ravener (1610) */
+     , (0x70294001, 0x70294007, '2005-02-09 10:00:00') /* Drudge Ravener (1610) */
+     , (0x70294001, 0x70294008, '2005-02-09 10:00:00') /* Drudge Ravener (1610) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x70294002, 10718, 0x02940109, 29.743, -0.776844, 0.029, -0.0541771, 0, 0, -0.998531,  True, '2005-02-09 10:00:00'); /* Staging Ground Director */

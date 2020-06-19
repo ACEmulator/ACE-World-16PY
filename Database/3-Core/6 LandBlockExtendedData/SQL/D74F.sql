@@ -17,13 +17,13 @@ VALUES (0x7D74F00F,  1154, 0xD74F0100, 44.7307, 52.3196, 28.805, -0.929697, 0, 0
 /* @teleloc 0xD74F0100 [44.730700 52.319600 28.805000] -0.929697 0.000000 0.000000 -0.368326 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7D74F00F, 0x7D74F00A, '2005-02-09 10:00:00') /* Silver Rat */
-     , (0x7D74F00F, 0x7D74F00D, '2005-02-09 10:00:00') /* Silver Rat */
-     , (0x7D74F00F, 0x7D74F00E, '2005-02-09 10:00:00') /* Silver Rat */
-     , (0x7D74F00F, 0x7D74F010, '2005-02-09 10:00:00') /* Black Rat */
-     , (0x7D74F00F, 0x7D74F011, '2005-02-09 10:00:00') /* Black Rat */
-     , (0x7D74F00F, 0x7D74F012, '2005-02-09 10:00:00') /* Black Rat */
-     , (0x7D74F00F, 0x7D74F013, '2005-02-09 10:00:00') /* Black Rat */;
+VALUES (0x7D74F00F, 0x7D74F00A, '2005-02-09 10:00:00') /* Silver Rat (1626) */
+     , (0x7D74F00F, 0x7D74F00D, '2005-02-09 10:00:00') /* Silver Rat (1626) */
+     , (0x7D74F00F, 0x7D74F00E, '2005-02-09 10:00:00') /* Silver Rat (1626) */
+     , (0x7D74F00F, 0x7D74F010, '2005-02-09 10:00:00') /* Black Rat (218) */
+     , (0x7D74F00F, 0x7D74F011, '2005-02-09 10:00:00') /* Black Rat (218) */
+     , (0x7D74F00F, 0x7D74F012, '2005-02-09 10:00:00') /* Black Rat (218) */
+     , (0x7D74F00F, 0x7D74F013, '2005-02-09 10:00:00') /* Black Rat (218) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7D74F010,   218, 0xD74F0000, 34.2296, 52.6506, 34.012, -0.324701, 0, 0, -0.945817,  True, '2005-02-09 10:00:00'); /* Black Rat */

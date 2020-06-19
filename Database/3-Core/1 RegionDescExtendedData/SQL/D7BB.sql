@@ -1,10 +1,10 @@
-DELETE FROM `encounter` WHERE `landblock` = 55227;
+DELETE FROM `encounter` WHERE `landblock` = 0xD7BB;
 
 INSERT INTO `encounter` (`landblock`, `weenie_Class_Id`, `cell_X`, `cell_Y`, `last_Modified`)
-VALUES (55227, 23190, 2, 4, '2005-02-09 10:00:00') /* Olthoi High North Mix Generator */
-     , (55227, 23190, 3, 1, '2005-02-09 10:00:00') /* Olthoi High North Mix Generator */
-     , (55227, 23190, 4, 1, '2005-02-09 10:00:00') /* Olthoi High North Mix Generator */
-     , (55227, 23190, 5, 5, '2005-02-09 10:00:00') /* Olthoi High North Mix Generator */
-     , (55227, 23190, 6, 6, '2005-02-09 10:00:00') /* Olthoi High North Mix Generator */
-     , (55227, 23190, 6, 7, '2005-02-09 10:00:00') /* Olthoi High North Mix Generator */
-     , (55227, 23192, 7, 0, '2005-02-09 10:00:00') /* Olthoi High Shore Generator */;
+VALUES (0xD7BB, 23190, 2, 4, '2005-02-09 10:00:00') /* Olthoi High North Mix Generator */
+     , (0xD7BB, 23190, 3, 1, '2005-02-09 10:00:00') /* Olthoi High North Mix Generator */
+     , (0xD7BB, 23190, 4, 1, '2005-02-09 10:00:00') /* Olthoi High North Mix Generator */
+     , (0xD7BB, 23190, 5, 5, '2005-02-09 10:00:00') /* Olthoi High North Mix Generator */
+     , (0xD7BB, 23190, 6, 6, '2005-02-09 10:00:00') /* Olthoi High North Mix Generator */
+     , (0xD7BB, 23190, 6, 7, '2005-02-09 10:00:00') /* Olthoi High North Mix Generator */
+     , (0xD7BB, 23192, 7, 0, '2005-02-09 10:00:00') /* Olthoi High Shore Generator */;

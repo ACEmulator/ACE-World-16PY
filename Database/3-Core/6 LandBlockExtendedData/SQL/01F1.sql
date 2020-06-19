@@ -25,10 +25,10 @@ VALUES (0x701F1005,  1154, 0x01F1010D, 30.8346, -0.671319, 0, 1, 0, 0, 0, False,
 /* @teleloc 0x01F1010D [30.834600 -0.671319 0.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x701F1005, 0x701F1001, '2005-02-09 10:00:00') /* Outcast Monouga */
-     , (0x701F1005, 0x701F1002, '2005-02-09 10:00:00') /* Outcast Monouga */
-     , (0x701F1005, 0x701F1003, '2005-02-09 10:00:00') /* Outcast Monouga */
-     , (0x701F1005, 0x701F1004, '2005-02-09 10:00:00') /* Outcast Monouga */;
+VALUES (0x701F1005, 0x701F1001, '2005-02-09 10:00:00') /* Outcast Monouga (2612) */
+     , (0x701F1005, 0x701F1002, '2005-02-09 10:00:00') /* Outcast Monouga (2612) */
+     , (0x701F1005, 0x701F1003, '2005-02-09 10:00:00') /* Outcast Monouga (2612) */
+     , (0x701F1005, 0x701F1004, '2005-02-09 10:00:00') /* Outcast Monouga (2612) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x701F1006,   613, 0x01F10120, 47.8226, -49.6339, 0, 0.321026, 0, 0, -0.94707, False, '2005-02-09 10:00:00'); /* Chest */

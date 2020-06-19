@@ -33,7 +33,7 @@ VALUES (0x701C3007,  1154, 0x01C3011E, 50, -70, 0, 1, 0, 0, 0, False, '2005-02-0
 /* @teleloc 0x01C3011E [50.000000 -70.000000 0.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x701C3007, 0x701C3006, '2005-02-09 10:00:00') /* Gotrok Amploth */;
+VALUES (0x701C3007, 0x701C3006, '2005-02-09 10:00:00') /* Gotrok Amploth (24939) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x701C3008,  3994, 0x01C3011E, 45.7685, -72.2518, 0, -0.707107, 0, 0, -0.707107, False, '2005-02-09 10:00:00'); /* Chest */
@@ -84,4 +84,4 @@ VALUES (0x701C3013,  1154, 0x01C30148, 140, -20, 0, 1, 0, 0, 0, False, '2005-02-
 /* @teleloc 0x01C30148 [140.000000 -20.000000 0.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x701C3013, 0x701C3012, '2005-02-09 10:00:00') /* Greater Mu-miyah */;
+VALUES (0x701C3013, 0x701C3012, '2005-02-09 10:00:00') /* Greater Mu-miyah (1764) */;

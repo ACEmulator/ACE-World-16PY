@@ -69,4 +69,4 @@ VALUES (0x70187010,  1154, 0x01870149, 29.0486, -8.53969, 6, -4.37114E-08, 0, 0,
 /* @teleloc 0x01870149 [29.048600 -8.539690 6.000000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x70187010, 0x7018700F, '2005-02-09 10:00:00') /* Skeleton Warrior */;
+VALUES (0x70187010, 0x7018700F, '2005-02-09 10:00:00') /* Skeleton Warrior (1760) */;

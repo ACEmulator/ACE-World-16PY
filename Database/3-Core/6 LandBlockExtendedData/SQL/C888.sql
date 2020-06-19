@@ -45,7 +45,7 @@ VALUES (0x7C88800C,  1154, 0xC8880102, 42.3507, 181.184, 34.005, 0.541833, 0, 0,
 /* @teleloc 0xC8880102 [42.350700 181.184000 34.005000] 0.541833 0.000000 0.000000 -0.840486 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C88800C, 0x7C88800B, '2005-02-09 10:00:00') /* Brentsella */;
+VALUES (0x7C88800C, 0x7C88800B, '2005-02-09 10:00:00') /* Brentsella (4794) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C88800D,  5108, 0xC8880000, 99.4053, 169.569, 28.005, 0.932314, 0, 0, -0.361649, False, '2005-02-09 10:00:00'); /* LIFESTONES SIGN */

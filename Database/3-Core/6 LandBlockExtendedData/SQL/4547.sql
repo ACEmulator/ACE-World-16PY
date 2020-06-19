@@ -17,10 +17,10 @@ VALUES (0x74547003,  1154, 0x45470000, 183.517, 75.6158, 19.4024, -0.800058, 0, 
 /* @teleloc 0x45470000 [183.517000 75.615800 19.402400] -0.800058 0.000000 0.000000 0.599923 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x74547003, 0x74547000, '2005-02-09 10:00:00') /* Copper Golem */
-     , (0x74547003, 0x74547001, '2005-02-09 10:00:00') /* Copper Golem */
-     , (0x74547003, 0x74547002, '2005-02-09 10:00:00') /* Copper Golem */
-     , (0x74547003, 0x74547004, '2005-02-09 10:00:00') /* Ghost Wisp */;
+VALUES (0x74547003, 0x74547000, '2005-02-09 10:00:00') /* Copper Golem (194) */
+     , (0x74547003, 0x74547001, '2005-02-09 10:00:00') /* Copper Golem (194) */
+     , (0x74547003, 0x74547002, '2005-02-09 10:00:00') /* Copper Golem (194) */
+     , (0x74547003, 0x74547004, '2005-02-09 10:00:00') /* Ghost Wisp (1987) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x74547004,  1987, 0x45470000, 86.67, 15.9415, 11.1733, 0.433298, 0, 0, -0.901251,  True, '2005-02-09 10:00:00'); /* Ghost Wisp */

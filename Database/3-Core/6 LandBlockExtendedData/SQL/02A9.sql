@@ -17,14 +17,14 @@ VALUES (0x702A9003,  4066, 0x02A90107, 80, -149.659, -63.353, 1, 0, 0, 0, False,
 /* @teleloc 0x02A90107 [80.000000 -149.659000 -63.353000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x702A9003, 0x702A9002, '2005-02-09 10:00:00') /* Pressure Plate */;
+VALUES (0x702A9003, 0x702A9002, '2005-02-09 10:00:00') /* Pressure Plate (2131) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x702A9004,  7443, 0x02A90107, 80, -149, -64.75, 1, 0, 0, 0, False, '2005-02-09 10:00:00'); /* Flame Barrier Trap */
 /* @teleloc 0x02A90107 [80.000000 -149.000000 -64.750000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x702A9004, 0x702A9001, '2005-02-09 10:00:00') /* Pressure Plate */;
+VALUES (0x702A9004, 0x702A9001, '2005-02-09 10:00:00') /* Pressure Plate (2131) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x702A9005,  7333, 0x02A9010E, 86.3263, -159.987, -65.99, -0.707107, 0, 0, -0.707107,  True, '2005-02-09 10:00:00'); /* Banderling Mangler */
@@ -91,24 +91,24 @@ VALUES (0x702A9016,  7923, 0x02A90141, 76.8855, -53.3516, -41.995, 0.999857, 0, 
 /* @teleloc 0x02A90141 [76.885500 -53.351600 -41.995000] 0.999857 0.000000 0.000000 -0.016933 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x702A9016, 0x702A9020, '2005-02-09 10:00:00') /* Umbris Shadow */
-     , (0x702A9016, 0x702A9021, '2005-02-09 10:00:00') /* Umbris Shadow */
-     , (0x702A9016, 0x702A9022, '2005-02-09 10:00:00') /* Umbris Shadow */
-     , (0x702A9016, 0x702A9023, '2005-02-09 10:00:00') /* Umbris Shadow */
-     , (0x702A9016, 0x702A9024, '2005-02-09 10:00:00') /* Umbris Shadow */
-     , (0x702A9016, 0x702A9030, '2005-02-09 10:00:00') /* Vapor Golem */
-     , (0x702A9016, 0x702A9098, '2005-02-09 10:00:00') /* Umbris Shadow */
-     , (0x702A9016, 0x702A90A2, '2005-02-09 10:00:00') /* Umbris Shadow */;
+VALUES (0x702A9016, 0x702A9020, '2005-02-09 10:00:00') /* Umbris Shadow (4254) */
+     , (0x702A9016, 0x702A9021, '2005-02-09 10:00:00') /* Umbris Shadow (4254) */
+     , (0x702A9016, 0x702A9022, '2005-02-09 10:00:00') /* Umbris Shadow (4254) */
+     , (0x702A9016, 0x702A9023, '2005-02-09 10:00:00') /* Umbris Shadow (4254) */
+     , (0x702A9016, 0x702A9024, '2005-02-09 10:00:00') /* Umbris Shadow (4254) */
+     , (0x702A9016, 0x702A9030, '2005-02-09 10:00:00') /* Vapor Golem (7099) */
+     , (0x702A9016, 0x702A9098, '2005-02-09 10:00:00') /* Umbris Shadow (4254) */
+     , (0x702A9016, 0x702A90A2, '2005-02-09 10:00:00') /* Umbris Shadow (4254) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x702A9017,  5085, 0x02A90141, 79.965, -46.67, -41.995, -0.004204, 0, 0, -0.999991, False, '2005-02-09 10:00:00'); /* Linkable Item Gen - 25 seconds */
 /* @teleloc 0x02A90141 [79.965000 -46.670000 -41.995000] -0.004204 0.000000 0.000000 -0.999991 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x702A9017, 0x702A9032, '2005-02-09 10:00:00') /* Blue Orb */
-     , (0x702A9017, 0x702A9085, '2005-02-09 10:00:00') /* Sea Blue Kindling Stone */
-     , (0x702A9017, 0x702A9086, '2005-02-09 10:00:00') /* Sea Grey Kindling Stone */
-     , (0x702A9017, 0x702A9087, '2005-02-09 10:00:00') /* Silver Kindling Stone */;
+VALUES (0x702A9017, 0x702A9032, '2005-02-09 10:00:00') /* Blue Orb (9065) */
+     , (0x702A9017, 0x702A9085, '2005-02-09 10:00:00') /* Sea Blue Kindling Stone (9076) */
+     , (0x702A9017, 0x702A9086, '2005-02-09 10:00:00') /* Sea Grey Kindling Stone (9077) */
+     , (0x702A9017, 0x702A9087, '2005-02-09 10:00:00') /* Silver Kindling Stone (9078) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x702A9019,  9100, 0x02A90144, 80, -66.415, -40.735, 1, 0, 0, 0,  True, '2005-02-09 10:00:00'); /* The Guardian Spirit */
@@ -311,7 +311,7 @@ VALUES (0x702A904C,  4074, 0x02A901CD, 9.819, -210, -9.475, 0.707107, 0, 0, -0.7
 /* @teleloc 0x02A901CD [9.819000 -210.000000 -9.475000] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x702A904C, 0x702A904B, '2005-02-09 10:00:00') /* Pressure Plate */;
+VALUES (0x702A904C, 0x702A904B, '2005-02-09 10:00:00') /* Pressure Plate (2131) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x702A904D,   171, 0x02A901CF, 32.554, -203.162, -12, 0.707107, 0, 0, -0.707107, False, '2005-02-09 10:00:00'); /* Vat */
@@ -566,8 +566,8 @@ VALUES (0x702A908D,  3954, 0x02A902C0, 100.662, -196.5, 0.005, -0.698548, 0, 0, 
 /* @teleloc 0x02A902C0 [100.662000 -196.500000 0.005000] -0.698548 0.000000 0.000000 -0.715563 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x702A908D, 0x702A908B, '2005-02-09 10:00:00') /* Tempting Apple */
-     , (0x702A908D, 0x702A908C, '2005-02-09 10:00:00') /* Tempting Apple */;
+VALUES (0x702A908D, 0x702A908B, '2005-02-09 10:00:00') /* Tempting Apple (5670) */
+     , (0x702A908D, 0x702A908C, '2005-02-09 10:00:00') /* Tempting Apple (5670) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x702A908E,  7333, 0x02A902C2, 97.4655, -218.056, 0.00715, 0.954384, 0, 0, -0.298583,  True, '2005-02-09 10:00:00'); /* Banderling Mangler */
@@ -610,8 +610,8 @@ VALUES (0x702A9097,  4139, 0x02A902E2, 54.762, -150, 0.00500011, -0.707107, 0, 0
 /* @teleloc 0x02A902E2 [54.762000 -150.000000 0.005000] -0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x702A9097, 0x702A901B, '2005-02-09 10:00:00') /* Lever */
-     , (0x702A9097, 0x702A907D, '2005-02-09 10:00:00') /* Lever */;
+VALUES (0x702A9097, 0x702A901B, '2005-02-09 10:00:00') /* Lever (285) */
+     , (0x702A9097, 0x702A907D, '2005-02-09 10:00:00') /* Lever (285) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x702A9098,  4254, 0x02A902EE, 60, -100, 6.004, 1, 0, 0, 0,  True, '2005-02-09 10:00:00'); /* Umbris Shadow */
@@ -622,8 +622,8 @@ VALUES (0x702A9099,  4139, 0x02A902F5, 55.25, -110, 6, -0.707107, 0, 0, -0.70710
 /* @teleloc 0x02A902F5 [55.250000 -110.000000 6.000000] -0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x702A9099, 0x702A903C, '2005-02-09 10:00:00') /* Lever */
-     , (0x702A9099, 0x702A9096, '2005-02-09 10:00:00') /* Lever */;
+VALUES (0x702A9099, 0x702A903C, '2005-02-09 10:00:00') /* Lever (285) */
+     , (0x702A9099, 0x702A9096, '2005-02-09 10:00:00') /* Lever (285) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x702A909A,  5626, 0x02A902F8, 55.5, -120, 6.005, 0.707107, 0, 0, -0.707107, False, '2005-02-09 10:00:00'); /* Door */
@@ -646,7 +646,7 @@ VALUES (0x702A909E,  9093, 0x02A90324, 80.1755, -182.745, 6.87765, 0.0183798, 0,
 /* @teleloc 0x02A90324 [80.175500 -182.745000 6.877650] 0.018380 0.000000 0.000000 -0.999831 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x702A909E, 0x702A909D, '2005-02-09 10:00:00') /* Pressure Plate */;
+VALUES (0x702A909E, 0x702A909D, '2005-02-09 10:00:00') /* Pressure Plate (2131) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x702A909F,  5625, 0x02A90326, 75.25, -180, 6, -0.707107, 0, 0, -0.707107, False, '2005-02-09 10:00:00'); /* Door */
@@ -669,8 +669,8 @@ VALUES (0x702A90A3,  4139, 0x02A90344, 104.75, -110, 6.082, 0.707107, 0, 0, -0.7
 /* @teleloc 0x02A90344 [104.750000 -110.000000 6.082000] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x702A90A3, 0x702A903B, '2005-02-09 10:00:00') /* Lever */
-     , (0x702A90A3, 0x702A90A9, '2005-02-09 10:00:00') /* Lever */;
+VALUES (0x702A90A3, 0x702A903B, '2005-02-09 10:00:00') /* Lever (285) */
+     , (0x702A90A3, 0x702A90A9, '2005-02-09 10:00:00') /* Lever (285) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x702A90A4,  5626, 0x02A90346, 104.5, -120, 6.005, -0.707107, 0, 0, -0.707107, False, '2005-02-09 10:00:00'); /* Door */
@@ -701,8 +701,8 @@ VALUES (0x702A90AA,  4139, 0x02A9035A, 105.242, -150, 0.00500011, 0.707107, 0, 0
 /* @teleloc 0x02A9035A [105.242000 -150.000000 0.005000] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x702A90AA, 0x702A900C, '2005-02-09 10:00:00') /* Lever */
-     , (0x702A90AA, 0x702A9091, '2005-02-09 10:00:00') /* Lever */;
+VALUES (0x702A90AA, 0x702A900C, '2005-02-09 10:00:00') /* Lever (285) */
+     , (0x702A90AA, 0x702A9091, '2005-02-09 10:00:00') /* Lever (285) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x702A90AB,  5626, 0x02A90362, 115.5, -120, 6.005, 0.707107, 0, 0, -0.707107, False, '2005-02-09 10:00:00'); /* Door */
@@ -717,119 +717,119 @@ VALUES (0x702A90AD,  7924, 0x02A90141, 77.0398, -50, -41.995, 1, 0, 0, 0, False,
 /* @teleloc 0x02A90141 [77.039800 -50.000000 -41.995000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x702A90AD, 0x702A9000, '2005-02-09 10:00:00') /* Banderling Mauler */
-     , (0x702A90AD, 0x702A9005, '2005-02-09 10:00:00') /* Banderling Mangler */
-     , (0x702A90AD, 0x702A9006, '2005-02-09 10:00:00') /* Banderling Mangler */
-     , (0x702A90AD, 0x702A9007, '2005-02-09 10:00:00') /* Banderling Mangler */
-     , (0x702A90AD, 0x702A9008, '2005-02-09 10:00:00') /* Banderling Mauler */
-     , (0x702A90AD, 0x702A9009, '2005-02-09 10:00:00') /* Banderling Mauler */
-     , (0x702A90AD, 0x702A900A, '2005-02-09 10:00:00') /* Banderling Mauler */
-     , (0x702A90AD, 0x702A900B, '2005-02-09 10:00:00') /* Banderling Mangler */
-     , (0x702A90AD, 0x702A901A, '2005-02-09 10:00:00') /* Zirconium Golem */
-     , (0x702A90AD, 0x702A9038, '2005-02-09 10:00:00') /* Diamond Golem */
-     , (0x702A90AD, 0x702A9039, '2005-02-09 10:00:00') /* Diamond Golem */
-     , (0x702A90AD, 0x702A903A, '2005-02-09 10:00:00') /* Banderling Mangler */
-     , (0x702A90AD, 0x702A9047, '2005-02-09 10:00:00') /* Banderling Mauler */
-     , (0x702A90AD, 0x702A905A, '2005-02-09 10:00:00') /* Banderling Mauler */
-     , (0x702A90AD, 0x702A9060, '2005-02-09 10:00:00') /* Banderling Mangler */
-     , (0x702A90AD, 0x702A9063, '2005-02-09 10:00:00') /* Diamond Golem */
-     , (0x702A90AD, 0x702A9064, '2005-02-09 10:00:00') /* Diamond Golem */
-     , (0x702A90AD, 0x702A907A, '2005-02-09 10:00:00') /* Scintilla */
-     , (0x702A90AD, 0x702A9093, '2005-02-09 10:00:00') /* Magma Golem */
-     , (0x702A90AD, 0x702A90B0, '2005-02-09 10:00:00') /* Umbris Shadow */
-     , (0x702A90AD, 0x702A90B1, '2005-02-09 10:00:00') /* Umbris Shadow */
-     , (0x702A90AD, 0x702A90B2, '2005-02-09 10:00:00') /* Umbris Shadow */
-     , (0x702A90AD, 0x702A90B3, '2005-02-09 10:00:00') /* Umbris Shadow */
-     , (0x702A90AD, 0x702A90B7, '2005-02-09 10:00:00') /* Banderling Mangler */
-     , (0x702A90AD, 0x702A90B8, '2005-02-09 10:00:00') /* Banderling Mangler */
-     , (0x702A90AD, 0x702A90B9, '2005-02-09 10:00:00') /* Banderling Mauler */
-     , (0x702A90AD, 0x702A90BA, '2005-02-09 10:00:00') /* Banderling Mauler */
-     , (0x702A90AD, 0x702A90BB, '2005-02-09 10:00:00') /* Banderling Mauler */
-     , (0x702A90AD, 0x702A90BC, '2005-02-09 10:00:00') /* Banderling Mangler */
-     , (0x702A90AD, 0x702A90BF, '2005-02-09 10:00:00') /* Astyrrian */
-     , (0x702A90AD, 0x702A90C2, '2005-02-09 10:00:00') /* Banderling Mauler */
-     , (0x702A90AD, 0x702A90C3, '2005-02-09 10:00:00') /* Banderling Mangler */
-     , (0x702A90AD, 0x702A90C4, '2005-02-09 10:00:00') /* Umbris Shadow */
-     , (0x702A90AD, 0x702A90C5, '2005-02-09 10:00:00') /* Banderling Mauler */
-     , (0x702A90AD, 0x702A90C6, '2005-02-09 10:00:00') /* Banderling Mauler */
-     , (0x702A90AD, 0x702A90C7, '2005-02-09 10:00:00') /* Banderling Mangler */
-     , (0x702A90AD, 0x702A90C8, '2005-02-09 10:00:00') /* Banderling Mauler */
-     , (0x702A90AD, 0x702A90C9, '2005-02-09 10:00:00') /* Coral Golem */
-     , (0x702A90AD, 0x702A90CA, '2005-02-09 10:00:00') /* Banderling Mauler */
-     , (0x702A90AD, 0x702A90CB, '2005-02-09 10:00:00') /* Banderling Mangler */
-     , (0x702A90AD, 0x702A90CC, '2005-02-09 10:00:00') /* Banderling Mauler */
-     , (0x702A90AD, 0x702A90CD, '2005-02-09 10:00:00') /* Banderling Mauler */
-     , (0x702A90AD, 0x702A90CE, '2005-02-09 10:00:00') /* Banderling Mangler */
-     , (0x702A90AD, 0x702A90CF, '2005-02-09 10:00:00') /* Banderling Mauler */
-     , (0x702A90AD, 0x702A90D0, '2005-02-09 10:00:00') /* Banderling Mauler */
-     , (0x702A90AD, 0x702A90D1, '2005-02-09 10:00:00') /* Umbris Shadow */
-     , (0x702A90AD, 0x702A90D2, '2005-02-09 10:00:00') /* Umbris Shadow */
-     , (0x702A90AD, 0x702A90D3, '2005-02-09 10:00:00') /* Umbris Shadow */
-     , (0x702A90AD, 0x702A90D4, '2005-02-09 10:00:00') /* Umbris Shadow */
-     , (0x702A90AD, 0x702A90D5, '2005-02-09 10:00:00') /* Banderling Mauler */;
+VALUES (0x702A90AD, 0x702A9000, '2005-02-09 10:00:00') /* Banderling Mauler (7088) */
+     , (0x702A90AD, 0x702A9005, '2005-02-09 10:00:00') /* Banderling Mangler (7333) */
+     , (0x702A90AD, 0x702A9006, '2005-02-09 10:00:00') /* Banderling Mangler (7333) */
+     , (0x702A90AD, 0x702A9007, '2005-02-09 10:00:00') /* Banderling Mangler (7333) */
+     , (0x702A90AD, 0x702A9008, '2005-02-09 10:00:00') /* Banderling Mauler (7088) */
+     , (0x702A90AD, 0x702A9009, '2005-02-09 10:00:00') /* Banderling Mauler (7088) */
+     , (0x702A90AD, 0x702A900A, '2005-02-09 10:00:00') /* Banderling Mauler (7088) */
+     , (0x702A90AD, 0x702A900B, '2005-02-09 10:00:00') /* Banderling Mangler (7333) */
+     , (0x702A90AD, 0x702A901A, '2005-02-09 10:00:00') /* Zirconium Golem (9057) */
+     , (0x702A90AD, 0x702A9038, '2005-02-09 10:00:00') /* Diamond Golem (7421) */
+     , (0x702A90AD, 0x702A9039, '2005-02-09 10:00:00') /* Diamond Golem (7421) */
+     , (0x702A90AD, 0x702A903A, '2005-02-09 10:00:00') /* Banderling Mangler (7333) */
+     , (0x702A90AD, 0x702A9047, '2005-02-09 10:00:00') /* Banderling Mauler (7088) */
+     , (0x702A90AD, 0x702A905A, '2005-02-09 10:00:00') /* Banderling Mauler (7088) */
+     , (0x702A90AD, 0x702A9060, '2005-02-09 10:00:00') /* Banderling Mangler (7333) */
+     , (0x702A90AD, 0x702A9063, '2005-02-09 10:00:00') /* Diamond Golem (4216) */
+     , (0x702A90AD, 0x702A9064, '2005-02-09 10:00:00') /* Diamond Golem (4216) */
+     , (0x702A90AD, 0x702A907A, '2005-02-09 10:00:00') /* Scintilla (6380) */
+     , (0x702A90AD, 0x702A9093, '2005-02-09 10:00:00') /* Magma Golem (199) */
+     , (0x702A90AD, 0x702A90B0, '2005-02-09 10:00:00') /* Umbris Shadow (4254) */
+     , (0x702A90AD, 0x702A90B1, '2005-02-09 10:00:00') /* Umbris Shadow (4254) */
+     , (0x702A90AD, 0x702A90B2, '2005-02-09 10:00:00') /* Umbris Shadow (4254) */
+     , (0x702A90AD, 0x702A90B3, '2005-02-09 10:00:00') /* Umbris Shadow (4254) */
+     , (0x702A90AD, 0x702A90B7, '2005-02-09 10:00:00') /* Banderling Mangler (7333) */
+     , (0x702A90AD, 0x702A90B8, '2005-02-09 10:00:00') /* Banderling Mangler (7333) */
+     , (0x702A90AD, 0x702A90B9, '2005-02-09 10:00:00') /* Banderling Mauler (7088) */
+     , (0x702A90AD, 0x702A90BA, '2005-02-09 10:00:00') /* Banderling Mauler (7088) */
+     , (0x702A90AD, 0x702A90BB, '2005-02-09 10:00:00') /* Banderling Mauler (7088) */
+     , (0x702A90AD, 0x702A90BC, '2005-02-09 10:00:00') /* Banderling Mangler (7333) */
+     , (0x702A90AD, 0x702A90BF, '2005-02-09 10:00:00') /* Astyrrian (6379) */
+     , (0x702A90AD, 0x702A90C2, '2005-02-09 10:00:00') /* Banderling Mauler (7088) */
+     , (0x702A90AD, 0x702A90C3, '2005-02-09 10:00:00') /* Banderling Mangler (7333) */
+     , (0x702A90AD, 0x702A90C4, '2005-02-09 10:00:00') /* Umbris Shadow (4254) */
+     , (0x702A90AD, 0x702A90C5, '2005-02-09 10:00:00') /* Banderling Mauler (7088) */
+     , (0x702A90AD, 0x702A90C6, '2005-02-09 10:00:00') /* Banderling Mauler (7088) */
+     , (0x702A90AD, 0x702A90C7, '2005-02-09 10:00:00') /* Banderling Mangler (7333) */
+     , (0x702A90AD, 0x702A90C8, '2005-02-09 10:00:00') /* Banderling Mauler (7088) */
+     , (0x702A90AD, 0x702A90C9, '2005-02-09 10:00:00') /* Coral Golem (7626) */
+     , (0x702A90AD, 0x702A90CA, '2005-02-09 10:00:00') /* Banderling Mauler (7088) */
+     , (0x702A90AD, 0x702A90CB, '2005-02-09 10:00:00') /* Banderling Mangler (7333) */
+     , (0x702A90AD, 0x702A90CC, '2005-02-09 10:00:00') /* Banderling Mauler (7088) */
+     , (0x702A90AD, 0x702A90CD, '2005-02-09 10:00:00') /* Banderling Mauler (7088) */
+     , (0x702A90AD, 0x702A90CE, '2005-02-09 10:00:00') /* Banderling Mangler (7333) */
+     , (0x702A90AD, 0x702A90CF, '2005-02-09 10:00:00') /* Banderling Mauler (7088) */
+     , (0x702A90AD, 0x702A90D0, '2005-02-09 10:00:00') /* Banderling Mauler (7088) */
+     , (0x702A90AD, 0x702A90D1, '2005-02-09 10:00:00') /* Umbris Shadow (4254) */
+     , (0x702A90AD, 0x702A90D2, '2005-02-09 10:00:00') /* Umbris Shadow (4254) */
+     , (0x702A90AD, 0x702A90D3, '2005-02-09 10:00:00') /* Umbris Shadow (4254) */
+     , (0x702A90AD, 0x702A90D4, '2005-02-09 10:00:00') /* Umbris Shadow (4254) */
+     , (0x702A90AD, 0x702A90D5, '2005-02-09 10:00:00') /* Banderling Mauler (7088) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x702A90AE,  7924, 0x02A90141, 81.5519, -49.6917, -41.995, -0.065311, 0, 0, -0.997865, False, '2005-02-09 10:00:00'); /* Linkable Monster Generator ( 5 Min.) */
 /* @teleloc 0x02A90141 [81.551900 -49.691700 -41.995000] -0.065311 0.000000 0.000000 -0.997865 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x702A90AE, 0x702A900D, '2005-02-09 10:00:00') /* Banderling Mauler */
-     , (0x702A90AE, 0x702A900E, '2005-02-09 10:00:00') /* Banderling Mangler */
-     , (0x702A90AE, 0x702A900F, '2005-02-09 10:00:00') /* Banderling Mauler */
-     , (0x702A90AE, 0x702A9010, '2005-02-09 10:00:00') /* Banderling Mangler */
-     , (0x702A90AE, 0x702A9011, '2005-02-09 10:00:00') /* Banderling Mangler */
-     , (0x702A90AE, 0x702A9012, '2005-02-09 10:00:00') /* Banderling Mauler */
-     , (0x702A90AE, 0x702A9013, '2005-02-09 10:00:00') /* Magma Golem */
-     , (0x702A90AE, 0x702A901C, '2005-02-09 10:00:00') /* Banderling Mauler */
-     , (0x702A90AE, 0x702A901D, '2005-02-09 10:00:00') /* Banderling Mangler */
-     , (0x702A90AE, 0x702A901E, '2005-02-09 10:00:00') /* Banderling Mauler */
-     , (0x702A90AE, 0x702A901F, '2005-02-09 10:00:00') /* Banderling Mangler */
-     , (0x702A90AE, 0x702A9036, '2005-02-09 10:00:00') /* Umbris Shadow */
-     , (0x702A90AE, 0x702A9037, '2005-02-09 10:00:00') /* Diamond Golem */
-     , (0x702A90AE, 0x702A903D, '2005-02-09 10:00:00') /* Diamond Golem */
-     , (0x702A90AE, 0x702A903E, '2005-02-09 10:00:00') /* Diamond Golem */
-     , (0x702A90AE, 0x702A903F, '2005-02-09 10:00:00') /* Diamond Golem */
-     , (0x702A90AE, 0x702A9045, '2005-02-09 10:00:00') /* Diamond Golem */
-     , (0x702A90AE, 0x702A9046, '2005-02-09 10:00:00') /* Diamond Golem */
-     , (0x702A90AE, 0x702A9048, '2005-02-09 10:00:00') /* Umbris Shadow */
-     , (0x702A90AE, 0x702A904F, '2005-02-09 10:00:00') /* Banderling Mangler */
-     , (0x702A90AE, 0x702A9055, '2005-02-09 10:00:00') /* Banderling Mauler */
-     , (0x702A90AE, 0x702A9068, '2005-02-09 10:00:00') /* Banderling Mangler */
-     , (0x702A90AE, 0x702A906B, '2005-02-09 10:00:00') /* Magma Golem */
-     , (0x702A90AE, 0x702A906D, '2005-02-09 10:00:00') /* Banderling Mauler */
-     , (0x702A90AE, 0x702A9070, '2005-02-09 10:00:00') /* Banderling Mauler */
-     , (0x702A90AE, 0x702A9071, '2005-02-09 10:00:00') /* Banderling Mangler */
-     , (0x702A90AE, 0x702A9075, '2005-02-09 10:00:00') /* Banderling Mauler */
-     , (0x702A90AE, 0x702A9078, '2005-02-09 10:00:00') /* Banderling Mangler */
-     , (0x702A90AE, 0x702A9079, '2005-02-09 10:00:00') /* Banderling Mauler */
-     , (0x702A90AE, 0x702A907B, '2005-02-09 10:00:00') /* Banderling Mangler */
-     , (0x702A90AE, 0x702A907C, '2005-02-09 10:00:00') /* Banderling Mauler */
-     , (0x702A90AE, 0x702A907E, '2005-02-09 10:00:00') /* Banderling Mauler */
-     , (0x702A90AE, 0x702A907F, '2005-02-09 10:00:00') /* Banderling Mauler */
-     , (0x702A90AE, 0x702A9081, '2005-02-09 10:00:00') /* Banderling Mauler */
-     , (0x702A90AE, 0x702A9082, '2005-02-09 10:00:00') /* Banderling Mauler */
-     , (0x702A90AE, 0x702A9088, '2005-02-09 10:00:00') /* Banderling Mangler */
-     , (0x702A90AE, 0x702A9089, '2005-02-09 10:00:00') /* Banderling Mangler */
-     , (0x702A90AE, 0x702A908E, '2005-02-09 10:00:00') /* Banderling Mangler */
-     , (0x702A90AE, 0x702A908F, '2005-02-09 10:00:00') /* Banderling Mangler */
-     , (0x702A90AE, 0x702A9094, '2005-02-09 10:00:00') /* Banderling Mangler */
-     , (0x702A90AE, 0x702A9095, '2005-02-09 10:00:00') /* Banderling Mauler */
-     , (0x702A90AE, 0x702A909B, '2005-02-09 10:00:00') /* Magma Golem */
-     , (0x702A90AE, 0x702A90A1, '2005-02-09 10:00:00') /* Umbris Shadow */
-     , (0x702A90AE, 0x702A90A5, '2005-02-09 10:00:00') /* Magma Golem */
-     , (0x702A90AE, 0x702A90A7, '2005-02-09 10:00:00') /* Banderling Mangler */
-     , (0x702A90AE, 0x702A90A8, '2005-02-09 10:00:00') /* Banderling Mauler */
-     , (0x702A90AE, 0x702A90AC, '2005-02-09 10:00:00') /* Magma Golem */
-     , (0x702A90AE, 0x702A90B4, '2005-02-09 10:00:00') /* Umbris Shadow */
-     , (0x702A90AE, 0x702A90B5, '2005-02-09 10:00:00') /* Umbris Shadow */
-     , (0x702A90AE, 0x702A90B6, '2005-02-09 10:00:00') /* Umbris Shadow */;
+VALUES (0x702A90AE, 0x702A900D, '2005-02-09 10:00:00') /* Banderling Mauler (7088) */
+     , (0x702A90AE, 0x702A900E, '2005-02-09 10:00:00') /* Banderling Mangler (7333) */
+     , (0x702A90AE, 0x702A900F, '2005-02-09 10:00:00') /* Banderling Mauler (7088) */
+     , (0x702A90AE, 0x702A9010, '2005-02-09 10:00:00') /* Banderling Mangler (7333) */
+     , (0x702A90AE, 0x702A9011, '2005-02-09 10:00:00') /* Banderling Mangler (7333) */
+     , (0x702A90AE, 0x702A9012, '2005-02-09 10:00:00') /* Banderling Mauler (7088) */
+     , (0x702A90AE, 0x702A9013, '2005-02-09 10:00:00') /* Magma Golem (199) */
+     , (0x702A90AE, 0x702A901C, '2005-02-09 10:00:00') /* Banderling Mauler (7088) */
+     , (0x702A90AE, 0x702A901D, '2005-02-09 10:00:00') /* Banderling Mangler (7333) */
+     , (0x702A90AE, 0x702A901E, '2005-02-09 10:00:00') /* Banderling Mauler (7088) */
+     , (0x702A90AE, 0x702A901F, '2005-02-09 10:00:00') /* Banderling Mangler (7333) */
+     , (0x702A90AE, 0x702A9036, '2005-02-09 10:00:00') /* Umbris Shadow (4254) */
+     , (0x702A90AE, 0x702A9037, '2005-02-09 10:00:00') /* Diamond Golem (7421) */
+     , (0x702A90AE, 0x702A903D, '2005-02-09 10:00:00') /* Diamond Golem (7421) */
+     , (0x702A90AE, 0x702A903E, '2005-02-09 10:00:00') /* Diamond Golem (7421) */
+     , (0x702A90AE, 0x702A903F, '2005-02-09 10:00:00') /* Diamond Golem (7421) */
+     , (0x702A90AE, 0x702A9045, '2005-02-09 10:00:00') /* Diamond Golem (7421) */
+     , (0x702A90AE, 0x702A9046, '2005-02-09 10:00:00') /* Diamond Golem (7421) */
+     , (0x702A90AE, 0x702A9048, '2005-02-09 10:00:00') /* Umbris Shadow (4254) */
+     , (0x702A90AE, 0x702A904F, '2005-02-09 10:00:00') /* Banderling Mangler (7333) */
+     , (0x702A90AE, 0x702A9055, '2005-02-09 10:00:00') /* Banderling Mauler (7088) */
+     , (0x702A90AE, 0x702A9068, '2005-02-09 10:00:00') /* Banderling Mangler (7333) */
+     , (0x702A90AE, 0x702A906B, '2005-02-09 10:00:00') /* Magma Golem (199) */
+     , (0x702A90AE, 0x702A906D, '2005-02-09 10:00:00') /* Banderling Mauler (7088) */
+     , (0x702A90AE, 0x702A9070, '2005-02-09 10:00:00') /* Banderling Mauler (7088) */
+     , (0x702A90AE, 0x702A9071, '2005-02-09 10:00:00') /* Banderling Mangler (7333) */
+     , (0x702A90AE, 0x702A9075, '2005-02-09 10:00:00') /* Banderling Mauler (7088) */
+     , (0x702A90AE, 0x702A9078, '2005-02-09 10:00:00') /* Banderling Mangler (7333) */
+     , (0x702A90AE, 0x702A9079, '2005-02-09 10:00:00') /* Banderling Mauler (7088) */
+     , (0x702A90AE, 0x702A907B, '2005-02-09 10:00:00') /* Banderling Mangler (7333) */
+     , (0x702A90AE, 0x702A907C, '2005-02-09 10:00:00') /* Banderling Mauler (7088) */
+     , (0x702A90AE, 0x702A907E, '2005-02-09 10:00:00') /* Banderling Mauler (7088) */
+     , (0x702A90AE, 0x702A907F, '2005-02-09 10:00:00') /* Banderling Mauler (7088) */
+     , (0x702A90AE, 0x702A9081, '2005-02-09 10:00:00') /* Banderling Mauler (7088) */
+     , (0x702A90AE, 0x702A9082, '2005-02-09 10:00:00') /* Banderling Mauler (7088) */
+     , (0x702A90AE, 0x702A9088, '2005-02-09 10:00:00') /* Banderling Mangler (7333) */
+     , (0x702A90AE, 0x702A9089, '2005-02-09 10:00:00') /* Banderling Mangler (7333) */
+     , (0x702A90AE, 0x702A908E, '2005-02-09 10:00:00') /* Banderling Mangler (7333) */
+     , (0x702A90AE, 0x702A908F, '2005-02-09 10:00:00') /* Banderling Mangler (7333) */
+     , (0x702A90AE, 0x702A9094, '2005-02-09 10:00:00') /* Banderling Mangler (7333) */
+     , (0x702A90AE, 0x702A9095, '2005-02-09 10:00:00') /* Banderling Mauler (7088) */
+     , (0x702A90AE, 0x702A909B, '2005-02-09 10:00:00') /* Magma Golem (199) */
+     , (0x702A90AE, 0x702A90A1, '2005-02-09 10:00:00') /* Umbris Shadow (4254) */
+     , (0x702A90AE, 0x702A90A5, '2005-02-09 10:00:00') /* Magma Golem (199) */
+     , (0x702A90AE, 0x702A90A7, '2005-02-09 10:00:00') /* Banderling Mangler (7333) */
+     , (0x702A90AE, 0x702A90A8, '2005-02-09 10:00:00') /* Banderling Mauler (7088) */
+     , (0x702A90AE, 0x702A90AC, '2005-02-09 10:00:00') /* Magma Golem (199) */
+     , (0x702A90AE, 0x702A90B4, '2005-02-09 10:00:00') /* Umbris Shadow (4254) */
+     , (0x702A90AE, 0x702A90B5, '2005-02-09 10:00:00') /* Umbris Shadow (4254) */
+     , (0x702A90AE, 0x702A90B6, '2005-02-09 10:00:00') /* Umbris Shadow (4254) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x702A90AF,  7924, 0x02A90141, 78.7214, -48.9571, -41.995, 0.968912, 0, 0, 0.247404, False, '2005-02-09 10:00:00'); /* Linkable Monster Generator ( 5 Min.) */
 /* @teleloc 0x02A90141 [78.721400 -48.957100 -41.995000] 0.968912 0.000000 0.000000 0.247404 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x702A90AF, 0x702A9019, '2005-02-09 10:00:00') /* The Guardian Spirit */;
+VALUES (0x702A90AF, 0x702A9019, '2005-02-09 10:00:00') /* The Guardian Spirit (9100) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x702A90B0,  4254, 0x02A90163, 50, -90, -29.995, 1, 0, 0, 0,  True, '2005-02-09 10:00:00'); /* Umbris Shadow */

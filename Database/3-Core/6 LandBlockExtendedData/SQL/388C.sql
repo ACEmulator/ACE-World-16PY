@@ -13,7 +13,7 @@ VALUES (0x7388C002,  1154, 0x388C0000, 110.014, 42.2442, 82.005, 0.634348, 0, 0,
 /* @teleloc 0x388C0000 [110.014000 42.244200 82.005000] 0.634348 0.000000 0.000000 0.773047 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7388C002, 0x7388C001, '2005-02-09 10:00:00') /* Sandstone Golem */;
+VALUES (0x7388C002, 0x7388C001, '2005-02-09 10:00:00') /* Sandstone Golem (202) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7388C003,  3640, 0x388C0102, 108, 15, 75.66, -4.37114E-08, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Mountain Halls */

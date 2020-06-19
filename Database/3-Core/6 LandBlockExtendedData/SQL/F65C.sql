@@ -77,8 +77,8 @@ VALUES (0x7F65C013,  7923, 0xF65C0111, 156.202, 84.0396, 19.505, -0.0215791, 0, 
 /* @teleloc 0xF65C0111 [156.202000 84.039600 19.505000] -0.021579 0.000000 0.000000 -0.999767 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7F65C013, 0x7F65C012, '2005-02-09 10:00:00') /* Han Rin-Jo, Jojii Adherent */
-     , (0x7F65C013, 0x7F65C019, '2005-02-09 10:00:00') /* Apprentice Cook */;
+VALUES (0x7F65C013, 0x7F65C012, '2005-02-09 10:00:00') /* Han Rin-Jo, Jojii Adherent (25832) */
+     , (0x7F65C013, 0x7F65C019, '2005-02-09 10:00:00') /* Apprentice Cook (28187) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7F65C015, 27547, 0xF65C0000, 113.874, 23.1203, 20.005, 0.712418, 0, 0, -0.701755, False, '2005-02-09 10:00:00'); /* Bind Stone */

@@ -37,196 +37,196 @@ VALUES (0x75C4D008,  7924, 0x5C4D016B, 70, -70, -17.995, 1, 0, 0, 0, False, '200
 /* @teleloc 0x5C4D016B [70.000000 -70.000000 -17.995000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x75C4D008, 0x75C4D015, '2005-02-09 10:00:00') /* Crypt Spirit */
-     , (0x75C4D008, 0x75C4D016, '2005-02-09 10:00:00') /* Crypt Spirit */
-     , (0x75C4D008, 0x75C4D017, '2005-02-09 10:00:00') /* Crypt Spirit */
-     , (0x75C4D008, 0x75C4D01C, '2005-02-09 10:00:00') /* Crypt Spirit */
-     , (0x75C4D008, 0x75C4D01F, '2005-02-09 10:00:00') /* Crypt Spirit */
-     , (0x75C4D008, 0x75C4D020, '2005-02-09 10:00:00') /* Crypt Spirit */
-     , (0x75C4D008, 0x75C4D021, '2005-02-09 10:00:00') /* Crypt Spirit */
-     , (0x75C4D008, 0x75C4D026, '2005-02-09 10:00:00') /* Crypt Spirit */
-     , (0x75C4D008, 0x75C4D02E, '2005-02-09 10:00:00') /* Crypt Spirit */
-     , (0x75C4D008, 0x75C4D02F, '2005-02-09 10:00:00') /* Crypt Spirit */
-     , (0x75C4D008, 0x75C4D030, '2005-02-09 10:00:00') /* Crypt Spirit */
-     , (0x75C4D008, 0x75C4D031, '2005-02-09 10:00:00') /* Crypt Spirit */
-     , (0x75C4D008, 0x75C4D032, '2005-02-09 10:00:00') /* Crypt Spirit */
-     , (0x75C4D008, 0x75C4D035, '2005-02-09 10:00:00') /* Crypt Spirit */
-     , (0x75C4D008, 0x75C4D03A, '2005-02-09 10:00:00') /* Crypt Spirit */
-     , (0x75C4D008, 0x75C4D03B, '2005-02-09 10:00:00') /* Tormented Attendant */
-     , (0x75C4D008, 0x75C4D03C, '2005-02-09 10:00:00') /* Tormented Attendant */
-     , (0x75C4D008, 0x75C4D03F, '2005-02-09 10:00:00') /* Crypt Spirit */
-     , (0x75C4D008, 0x75C4D040, '2005-02-09 10:00:00') /* Crypt Spirit */
-     , (0x75C4D008, 0x75C4D041, '2005-02-09 10:00:00') /* Crypt Spirit */
-     , (0x75C4D008, 0x75C4D042, '2005-02-09 10:00:00') /* Crypt Spirit */
-     , (0x75C4D008, 0x75C4D043, '2005-02-09 10:00:00') /* Crypt Spirit */
-     , (0x75C4D008, 0x75C4D046, '2005-02-09 10:00:00') /* Crypt Spirit */
-     , (0x75C4D008, 0x75C4D047, '2005-02-09 10:00:00') /* Crypt Spirit */
-     , (0x75C4D008, 0x75C4D049, '2005-02-09 10:00:00') /* Tormented Attendant */
-     , (0x75C4D008, 0x75C4D04E, '2005-02-09 10:00:00') /* Crypt Spirit */
-     , (0x75C4D008, 0x75C4D04F, '2005-02-09 10:00:00') /* Crypt Spirit */
-     , (0x75C4D008, 0x75C4D052, '2005-02-09 10:00:00') /* Crypt Spirit */
-     , (0x75C4D008, 0x75C4D053, '2005-02-09 10:00:00') /* Crypt Spirit */
-     , (0x75C4D008, 0x75C4D054, '2005-02-09 10:00:00') /* Tormented Attendant */
-     , (0x75C4D008, 0x75C4D055, '2005-02-09 10:00:00') /* Tormented Attendant */
-     , (0x75C4D008, 0x75C4D056, '2005-02-09 10:00:00') /* Crypt Spirit */
-     , (0x75C4D008, 0x75C4D057, '2005-02-09 10:00:00') /* Tormented Attendant */
-     , (0x75C4D008, 0x75C4D058, '2005-02-09 10:00:00') /* Tormented Attendant */
-     , (0x75C4D008, 0x75C4D059, '2005-02-09 10:00:00') /* Crypt Spirit */
-     , (0x75C4D008, 0x75C4D05E, '2005-02-09 10:00:00') /* Crypt Spirit */
-     , (0x75C4D008, 0x75C4D05F, '2005-02-09 10:00:00') /* Crypt Spirit */
-     , (0x75C4D008, 0x75C4D060, '2005-02-09 10:00:00') /* Crypt Spirit */
-     , (0x75C4D008, 0x75C4D087, '2005-02-09 10:00:00') /* Tormented Attendant */
-     , (0x75C4D008, 0x75C4D088, '2005-02-09 10:00:00') /* Tormented Attendant */;
+VALUES (0x75C4D008, 0x75C4D015, '2005-02-09 10:00:00') /* Crypt Spirit (27139) */
+     , (0x75C4D008, 0x75C4D016, '2005-02-09 10:00:00') /* Crypt Spirit (27139) */
+     , (0x75C4D008, 0x75C4D017, '2005-02-09 10:00:00') /* Crypt Spirit (27139) */
+     , (0x75C4D008, 0x75C4D01C, '2005-02-09 10:00:00') /* Crypt Spirit (27139) */
+     , (0x75C4D008, 0x75C4D01F, '2005-02-09 10:00:00') /* Crypt Spirit (27139) */
+     , (0x75C4D008, 0x75C4D020, '2005-02-09 10:00:00') /* Crypt Spirit (27139) */
+     , (0x75C4D008, 0x75C4D021, '2005-02-09 10:00:00') /* Crypt Spirit (27139) */
+     , (0x75C4D008, 0x75C4D026, '2005-02-09 10:00:00') /* Crypt Spirit (27139) */
+     , (0x75C4D008, 0x75C4D02E, '2005-02-09 10:00:00') /* Crypt Spirit (27139) */
+     , (0x75C4D008, 0x75C4D02F, '2005-02-09 10:00:00') /* Crypt Spirit (27139) */
+     , (0x75C4D008, 0x75C4D030, '2005-02-09 10:00:00') /* Crypt Spirit (27139) */
+     , (0x75C4D008, 0x75C4D031, '2005-02-09 10:00:00') /* Crypt Spirit (27139) */
+     , (0x75C4D008, 0x75C4D032, '2005-02-09 10:00:00') /* Crypt Spirit (27139) */
+     , (0x75C4D008, 0x75C4D035, '2005-02-09 10:00:00') /* Crypt Spirit (27139) */
+     , (0x75C4D008, 0x75C4D03A, '2005-02-09 10:00:00') /* Crypt Spirit (27139) */
+     , (0x75C4D008, 0x75C4D03B, '2005-02-09 10:00:00') /* Tormented Attendant (27920) */
+     , (0x75C4D008, 0x75C4D03C, '2005-02-09 10:00:00') /* Tormented Attendant (27920) */
+     , (0x75C4D008, 0x75C4D03F, '2005-02-09 10:00:00') /* Crypt Spirit (27139) */
+     , (0x75C4D008, 0x75C4D040, '2005-02-09 10:00:00') /* Crypt Spirit (27139) */
+     , (0x75C4D008, 0x75C4D041, '2005-02-09 10:00:00') /* Crypt Spirit (27139) */
+     , (0x75C4D008, 0x75C4D042, '2005-02-09 10:00:00') /* Crypt Spirit (27139) */
+     , (0x75C4D008, 0x75C4D043, '2005-02-09 10:00:00') /* Crypt Spirit (27139) */
+     , (0x75C4D008, 0x75C4D046, '2005-02-09 10:00:00') /* Crypt Spirit (27139) */
+     , (0x75C4D008, 0x75C4D047, '2005-02-09 10:00:00') /* Crypt Spirit (27139) */
+     , (0x75C4D008, 0x75C4D049, '2005-02-09 10:00:00') /* Tormented Attendant (27920) */
+     , (0x75C4D008, 0x75C4D04E, '2005-02-09 10:00:00') /* Crypt Spirit (27139) */
+     , (0x75C4D008, 0x75C4D04F, '2005-02-09 10:00:00') /* Crypt Spirit (27139) */
+     , (0x75C4D008, 0x75C4D052, '2005-02-09 10:00:00') /* Crypt Spirit (27139) */
+     , (0x75C4D008, 0x75C4D053, '2005-02-09 10:00:00') /* Crypt Spirit (27139) */
+     , (0x75C4D008, 0x75C4D054, '2005-02-09 10:00:00') /* Tormented Attendant (27920) */
+     , (0x75C4D008, 0x75C4D055, '2005-02-09 10:00:00') /* Tormented Attendant (27920) */
+     , (0x75C4D008, 0x75C4D056, '2005-02-09 10:00:00') /* Crypt Spirit (27139) */
+     , (0x75C4D008, 0x75C4D057, '2005-02-09 10:00:00') /* Tormented Attendant (27920) */
+     , (0x75C4D008, 0x75C4D058, '2005-02-09 10:00:00') /* Tormented Attendant (27920) */
+     , (0x75C4D008, 0x75C4D059, '2005-02-09 10:00:00') /* Crypt Spirit (27139) */
+     , (0x75C4D008, 0x75C4D05E, '2005-02-09 10:00:00') /* Crypt Spirit (27139) */
+     , (0x75C4D008, 0x75C4D05F, '2005-02-09 10:00:00') /* Crypt Spirit (27139) */
+     , (0x75C4D008, 0x75C4D060, '2005-02-09 10:00:00') /* Crypt Spirit (27139) */
+     , (0x75C4D008, 0x75C4D087, '2005-02-09 10:00:00') /* Tormented Attendant (27920) */
+     , (0x75C4D008, 0x75C4D088, '2005-02-09 10:00:00') /* Tormented Attendant (27920) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75C4D009,  7924, 0x5C4D016B, 68.9314, -70, -17.995, 1, 0, 0, 0, False, '2005-02-09 10:00:00'); /* Linkable Monster Generator ( 5 Min.) */
 /* @teleloc 0x5C4D016B [68.931400 -70.000000 -17.995000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x75C4D009, 0x75C4D001, '2005-02-09 10:00:00') /* Tormented Attendant */
-     , (0x75C4D009, 0x75C4D002, '2005-02-09 10:00:00') /* Tormented Attendant */
-     , (0x75C4D009, 0x75C4D003, '2005-02-09 10:00:00') /* Crypt Spirit */
-     , (0x75C4D009, 0x75C4D004, '2005-02-09 10:00:00') /* Crypt Spirit */
-     , (0x75C4D009, 0x75C4D005, '2005-02-09 10:00:00') /* Tormented Attendant */
-     , (0x75C4D009, 0x75C4D006, '2005-02-09 10:00:00') /* Tormented Attendant */
-     , (0x75C4D009, 0x75C4D007, '2005-02-09 10:00:00') /* Crypt Spirit */
-     , (0x75C4D009, 0x75C4D00D, '2005-02-09 10:00:00') /* Crypt Spirit */
-     , (0x75C4D009, 0x75C4D00E, '2005-02-09 10:00:00') /* Tormented Attendant */
-     , (0x75C4D009, 0x75C4D00F, '2005-02-09 10:00:00') /* Tormented Attendant */
-     , (0x75C4D009, 0x75C4D010, '2005-02-09 10:00:00') /* Crypt Spirit */
-     , (0x75C4D009, 0x75C4D01D, '2005-02-09 10:00:00') /* Crypt Spirit */
-     , (0x75C4D009, 0x75C4D01E, '2005-02-09 10:00:00') /* Crypt Spirit */
-     , (0x75C4D009, 0x75C4D027, '2005-02-09 10:00:00') /* Crypt Spirit */
-     , (0x75C4D009, 0x75C4D028, '2005-02-09 10:00:00') /* Crypt Spirit */
-     , (0x75C4D009, 0x75C4D02D, '2005-02-09 10:00:00') /* Crypt Spirit */
-     , (0x75C4D009, 0x75C4D03D, '2005-02-09 10:00:00') /* Tormented Attendant */
-     , (0x75C4D009, 0x75C4D03E, '2005-02-09 10:00:00') /* Tormented Attendant */
-     , (0x75C4D009, 0x75C4D04A, '2005-02-09 10:00:00') /* Tormented Attendant */
-     , (0x75C4D009, 0x75C4D04B, '2005-02-09 10:00:00') /* Tormented Attendant */
-     , (0x75C4D009, 0x75C4D050, '2005-02-09 10:00:00') /* Tormented Attendant */
-     , (0x75C4D009, 0x75C4D051, '2005-02-09 10:00:00') /* Tormented Attendant */
-     , (0x75C4D009, 0x75C4D05A, '2005-02-09 10:00:00') /* Tormented Attendant */
-     , (0x75C4D009, 0x75C4D05B, '2005-02-09 10:00:00') /* Tormented Attendant */
-     , (0x75C4D009, 0x75C4D05C, '2005-02-09 10:00:00') /* Tormented Attendant */
-     , (0x75C4D009, 0x75C4D05D, '2005-02-09 10:00:00') /* Tormented Attendant */
-     , (0x75C4D009, 0x75C4D065, '2005-02-09 10:00:00') /* Tormented Attendant */
-     , (0x75C4D009, 0x75C4D066, '2005-02-09 10:00:00') /* Tormented Attendant */
-     , (0x75C4D009, 0x75C4D07E, '2005-02-09 10:00:00') /* Tormented Attendant */
-     , (0x75C4D009, 0x75C4D07F, '2005-02-09 10:00:00') /* Tormented Attendant */
-     , (0x75C4D009, 0x75C4D083, '2005-02-09 10:00:00') /* Tormented Attendant */
-     , (0x75C4D009, 0x75C4D084, '2005-02-09 10:00:00') /* Tormented Attendant */
-     , (0x75C4D009, 0x75C4D08E, '2005-02-09 10:00:00') /* Tormented Attendant */
-     , (0x75C4D009, 0x75C4D08F, '2005-02-09 10:00:00') /* Tormented Attendant */
-     , (0x75C4D009, 0x75C4D090, '2005-02-09 10:00:00') /* Tormented Attendant */
-     , (0x75C4D009, 0x75C4D091, '2005-02-09 10:00:00') /* Tormented Attendant */
-     , (0x75C4D009, 0x75C4D09C, '2005-02-09 10:00:00') /* Tormented Attendant */
-     , (0x75C4D009, 0x75C4D09D, '2005-02-09 10:00:00') /* Tormented Attendant */
-     , (0x75C4D009, 0x75C4D0AA, '2005-02-09 10:00:00') /* Tormented Attendant */
-     , (0x75C4D009, 0x75C4D0AB, '2005-02-09 10:00:00') /* Tormented Attendant */;
+VALUES (0x75C4D009, 0x75C4D001, '2005-02-09 10:00:00') /* Tormented Attendant (27920) */
+     , (0x75C4D009, 0x75C4D002, '2005-02-09 10:00:00') /* Tormented Attendant (27920) */
+     , (0x75C4D009, 0x75C4D003, '2005-02-09 10:00:00') /* Crypt Spirit (27139) */
+     , (0x75C4D009, 0x75C4D004, '2005-02-09 10:00:00') /* Crypt Spirit (27139) */
+     , (0x75C4D009, 0x75C4D005, '2005-02-09 10:00:00') /* Tormented Attendant (27920) */
+     , (0x75C4D009, 0x75C4D006, '2005-02-09 10:00:00') /* Tormented Attendant (27920) */
+     , (0x75C4D009, 0x75C4D007, '2005-02-09 10:00:00') /* Crypt Spirit (27139) */
+     , (0x75C4D009, 0x75C4D00D, '2005-02-09 10:00:00') /* Crypt Spirit (27139) */
+     , (0x75C4D009, 0x75C4D00E, '2005-02-09 10:00:00') /* Tormented Attendant (27920) */
+     , (0x75C4D009, 0x75C4D00F, '2005-02-09 10:00:00') /* Tormented Attendant (27920) */
+     , (0x75C4D009, 0x75C4D010, '2005-02-09 10:00:00') /* Crypt Spirit (27139) */
+     , (0x75C4D009, 0x75C4D01D, '2005-02-09 10:00:00') /* Crypt Spirit (27139) */
+     , (0x75C4D009, 0x75C4D01E, '2005-02-09 10:00:00') /* Crypt Spirit (27139) */
+     , (0x75C4D009, 0x75C4D027, '2005-02-09 10:00:00') /* Crypt Spirit (27139) */
+     , (0x75C4D009, 0x75C4D028, '2005-02-09 10:00:00') /* Crypt Spirit (27139) */
+     , (0x75C4D009, 0x75C4D02D, '2005-02-09 10:00:00') /* Crypt Spirit (27139) */
+     , (0x75C4D009, 0x75C4D03D, '2005-02-09 10:00:00') /* Tormented Attendant (27920) */
+     , (0x75C4D009, 0x75C4D03E, '2005-02-09 10:00:00') /* Tormented Attendant (27920) */
+     , (0x75C4D009, 0x75C4D04A, '2005-02-09 10:00:00') /* Tormented Attendant (27920) */
+     , (0x75C4D009, 0x75C4D04B, '2005-02-09 10:00:00') /* Tormented Attendant (27920) */
+     , (0x75C4D009, 0x75C4D050, '2005-02-09 10:00:00') /* Tormented Attendant (27920) */
+     , (0x75C4D009, 0x75C4D051, '2005-02-09 10:00:00') /* Tormented Attendant (27920) */
+     , (0x75C4D009, 0x75C4D05A, '2005-02-09 10:00:00') /* Tormented Attendant (27920) */
+     , (0x75C4D009, 0x75C4D05B, '2005-02-09 10:00:00') /* Tormented Attendant (27920) */
+     , (0x75C4D009, 0x75C4D05C, '2005-02-09 10:00:00') /* Tormented Attendant (27920) */
+     , (0x75C4D009, 0x75C4D05D, '2005-02-09 10:00:00') /* Tormented Attendant (27920) */
+     , (0x75C4D009, 0x75C4D065, '2005-02-09 10:00:00') /* Tormented Attendant (27920) */
+     , (0x75C4D009, 0x75C4D066, '2005-02-09 10:00:00') /* Tormented Attendant (27920) */
+     , (0x75C4D009, 0x75C4D07E, '2005-02-09 10:00:00') /* Tormented Attendant (27920) */
+     , (0x75C4D009, 0x75C4D07F, '2005-02-09 10:00:00') /* Tormented Attendant (27920) */
+     , (0x75C4D009, 0x75C4D083, '2005-02-09 10:00:00') /* Tormented Attendant (27920) */
+     , (0x75C4D009, 0x75C4D084, '2005-02-09 10:00:00') /* Tormented Attendant (27920) */
+     , (0x75C4D009, 0x75C4D08E, '2005-02-09 10:00:00') /* Tormented Attendant (27920) */
+     , (0x75C4D009, 0x75C4D08F, '2005-02-09 10:00:00') /* Tormented Attendant (27920) */
+     , (0x75C4D009, 0x75C4D090, '2005-02-09 10:00:00') /* Tormented Attendant (27920) */
+     , (0x75C4D009, 0x75C4D091, '2005-02-09 10:00:00') /* Tormented Attendant (27920) */
+     , (0x75C4D009, 0x75C4D09C, '2005-02-09 10:00:00') /* Tormented Attendant (27920) */
+     , (0x75C4D009, 0x75C4D09D, '2005-02-09 10:00:00') /* Tormented Attendant (27920) */
+     , (0x75C4D009, 0x75C4D0AA, '2005-02-09 10:00:00') /* Tormented Attendant (27920) */
+     , (0x75C4D009, 0x75C4D0AB, '2005-02-09 10:00:00') /* Tormented Attendant (27920) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75C4D00A,  7924, 0x5C4D016B, 71.0397, -70, -17.995, 1, 0, 0, 0, False, '2005-02-09 10:00:00'); /* Linkable Monster Generator ( 5 Min.) */
 /* @teleloc 0x5C4D016B [71.039700 -70.000000 -17.995000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x75C4D00A, 0x75C4D022, '2005-02-09 10:00:00') /* Tormented Attendant */
-     , (0x75C4D00A, 0x75C4D023, '2005-02-09 10:00:00') /* Tormented Attendant */
-     , (0x75C4D00A, 0x75C4D029, '2005-02-09 10:00:00') /* Tormented Attendant */
-     , (0x75C4D00A, 0x75C4D02A, '2005-02-09 10:00:00') /* Tormented Attendant */
-     , (0x75C4D00A, 0x75C4D02B, '2005-02-09 10:00:00') /* Tormented Attendant */
-     , (0x75C4D00A, 0x75C4D02C, '2005-02-09 10:00:00') /* Tormented Attendant */
-     , (0x75C4D00A, 0x75C4D036, '2005-02-09 10:00:00') /* Tormented Attendant */
-     , (0x75C4D00A, 0x75C4D037, '2005-02-09 10:00:00') /* Tormented Attendant */
-     , (0x75C4D00A, 0x75C4D038, '2005-02-09 10:00:00') /* Tormented Attendant */
-     , (0x75C4D00A, 0x75C4D039, '2005-02-09 10:00:00') /* Tormented Attendant */
-     , (0x75C4D00A, 0x75C4D044, '2005-02-09 10:00:00') /* Tormented Attendant */
-     , (0x75C4D00A, 0x75C4D045, '2005-02-09 10:00:00') /* Tormented Attendant */
-     , (0x75C4D00A, 0x75C4D04C, '2005-02-09 10:00:00') /* Tormented Attendant */
-     , (0x75C4D00A, 0x75C4D04D, '2005-02-09 10:00:00') /* Tormented Attendant */
-     , (0x75C4D00A, 0x75C4D063, '2005-02-09 10:00:00') /* Tormented Attendant */
-     , (0x75C4D00A, 0x75C4D064, '2005-02-09 10:00:00') /* Tormented Attendant */
-     , (0x75C4D00A, 0x75C4D069, '2005-02-09 10:00:00') /* Tormented Attendant */
-     , (0x75C4D00A, 0x75C4D06A, '2005-02-09 10:00:00') /* Tormented Attendant */
-     , (0x75C4D00A, 0x75C4D071, '2005-02-09 10:00:00') /* Tormented Attendant */
-     , (0x75C4D00A, 0x75C4D072, '2005-02-09 10:00:00') /* Tormented Attendant */
-     , (0x75C4D00A, 0x75C4D077, '2005-02-09 10:00:00') /* Tormented Attendant */
-     , (0x75C4D00A, 0x75C4D078, '2005-02-09 10:00:00') /* Tormented Attendant */
-     , (0x75C4D00A, 0x75C4D08A, '2005-02-09 10:00:00') /* Tormented Attendant */
-     , (0x75C4D00A, 0x75C4D08B, '2005-02-09 10:00:00') /* Tormented Attendant */
-     , (0x75C4D00A, 0x75C4D092, '2005-02-09 10:00:00') /* Crypt Spirit */
-     , (0x75C4D00A, 0x75C4D093, '2005-02-09 10:00:00') /* Crypt Spirit */
-     , (0x75C4D00A, 0x75C4D094, '2005-02-09 10:00:00') /* Crypt Spirit */
-     , (0x75C4D00A, 0x75C4D095, '2005-02-09 10:00:00') /* Crypt Spirit */
-     , (0x75C4D00A, 0x75C4D096, '2005-02-09 10:00:00') /* Crypt Spirit */
-     , (0x75C4D00A, 0x75C4D097, '2005-02-09 10:00:00') /* Crypt Spirit */
-     , (0x75C4D00A, 0x75C4D098, '2005-02-09 10:00:00') /* Crypt Spirit */
-     , (0x75C4D00A, 0x75C4D09B, '2005-02-09 10:00:00') /* Crypt Spirit */
-     , (0x75C4D00A, 0x75C4D0A1, '2005-02-09 10:00:00') /* Crypt Spirit */
-     , (0x75C4D00A, 0x75C4D0A2, '2005-02-09 10:00:00') /* Crypt Spirit */
-     , (0x75C4D00A, 0x75C4D0A3, '2005-02-09 10:00:00') /* Crypt Spirit */
-     , (0x75C4D00A, 0x75C4D0A6, '2005-02-09 10:00:00') /* Crypt Spirit */
-     , (0x75C4D00A, 0x75C4D0A7, '2005-02-09 10:00:00') /* Crypt Spirit */
-     , (0x75C4D00A, 0x75C4D0A8, '2005-02-09 10:00:00') /* Tormented Attendant */
-     , (0x75C4D00A, 0x75C4D0A9, '2005-02-09 10:00:00') /* Tormented Attendant */
-     , (0x75C4D00A, 0x75C4D0AC, '2005-02-09 10:00:00') /* Crypt Spirit */;
+VALUES (0x75C4D00A, 0x75C4D022, '2005-02-09 10:00:00') /* Tormented Attendant (27920) */
+     , (0x75C4D00A, 0x75C4D023, '2005-02-09 10:00:00') /* Tormented Attendant (27920) */
+     , (0x75C4D00A, 0x75C4D029, '2005-02-09 10:00:00') /* Tormented Attendant (27920) */
+     , (0x75C4D00A, 0x75C4D02A, '2005-02-09 10:00:00') /* Tormented Attendant (27920) */
+     , (0x75C4D00A, 0x75C4D02B, '2005-02-09 10:00:00') /* Tormented Attendant (27920) */
+     , (0x75C4D00A, 0x75C4D02C, '2005-02-09 10:00:00') /* Tormented Attendant (27920) */
+     , (0x75C4D00A, 0x75C4D036, '2005-02-09 10:00:00') /* Tormented Attendant (27920) */
+     , (0x75C4D00A, 0x75C4D037, '2005-02-09 10:00:00') /* Tormented Attendant (27920) */
+     , (0x75C4D00A, 0x75C4D038, '2005-02-09 10:00:00') /* Tormented Attendant (27920) */
+     , (0x75C4D00A, 0x75C4D039, '2005-02-09 10:00:00') /* Tormented Attendant (27920) */
+     , (0x75C4D00A, 0x75C4D044, '2005-02-09 10:00:00') /* Tormented Attendant (27920) */
+     , (0x75C4D00A, 0x75C4D045, '2005-02-09 10:00:00') /* Tormented Attendant (27920) */
+     , (0x75C4D00A, 0x75C4D04C, '2005-02-09 10:00:00') /* Tormented Attendant (27920) */
+     , (0x75C4D00A, 0x75C4D04D, '2005-02-09 10:00:00') /* Tormented Attendant (27920) */
+     , (0x75C4D00A, 0x75C4D063, '2005-02-09 10:00:00') /* Tormented Attendant (27920) */
+     , (0x75C4D00A, 0x75C4D064, '2005-02-09 10:00:00') /* Tormented Attendant (27920) */
+     , (0x75C4D00A, 0x75C4D069, '2005-02-09 10:00:00') /* Tormented Attendant (27920) */
+     , (0x75C4D00A, 0x75C4D06A, '2005-02-09 10:00:00') /* Tormented Attendant (27920) */
+     , (0x75C4D00A, 0x75C4D071, '2005-02-09 10:00:00') /* Tormented Attendant (27920) */
+     , (0x75C4D00A, 0x75C4D072, '2005-02-09 10:00:00') /* Tormented Attendant (27920) */
+     , (0x75C4D00A, 0x75C4D077, '2005-02-09 10:00:00') /* Tormented Attendant (27920) */
+     , (0x75C4D00A, 0x75C4D078, '2005-02-09 10:00:00') /* Tormented Attendant (27920) */
+     , (0x75C4D00A, 0x75C4D08A, '2005-02-09 10:00:00') /* Tormented Attendant (27920) */
+     , (0x75C4D00A, 0x75C4D08B, '2005-02-09 10:00:00') /* Tormented Attendant (27920) */
+     , (0x75C4D00A, 0x75C4D092, '2005-02-09 10:00:00') /* Crypt Spirit (27139) */
+     , (0x75C4D00A, 0x75C4D093, '2005-02-09 10:00:00') /* Crypt Spirit (27139) */
+     , (0x75C4D00A, 0x75C4D094, '2005-02-09 10:00:00') /* Crypt Spirit (27139) */
+     , (0x75C4D00A, 0x75C4D095, '2005-02-09 10:00:00') /* Crypt Spirit (27139) */
+     , (0x75C4D00A, 0x75C4D096, '2005-02-09 10:00:00') /* Crypt Spirit (27139) */
+     , (0x75C4D00A, 0x75C4D097, '2005-02-09 10:00:00') /* Crypt Spirit (27139) */
+     , (0x75C4D00A, 0x75C4D098, '2005-02-09 10:00:00') /* Crypt Spirit (27139) */
+     , (0x75C4D00A, 0x75C4D09B, '2005-02-09 10:00:00') /* Crypt Spirit (27139) */
+     , (0x75C4D00A, 0x75C4D0A1, '2005-02-09 10:00:00') /* Crypt Spirit (27139) */
+     , (0x75C4D00A, 0x75C4D0A2, '2005-02-09 10:00:00') /* Crypt Spirit (27139) */
+     , (0x75C4D00A, 0x75C4D0A3, '2005-02-09 10:00:00') /* Crypt Spirit (27139) */
+     , (0x75C4D00A, 0x75C4D0A6, '2005-02-09 10:00:00') /* Crypt Spirit (27139) */
+     , (0x75C4D00A, 0x75C4D0A7, '2005-02-09 10:00:00') /* Crypt Spirit (27139) */
+     , (0x75C4D00A, 0x75C4D0A8, '2005-02-09 10:00:00') /* Tormented Attendant (27920) */
+     , (0x75C4D00A, 0x75C4D0A9, '2005-02-09 10:00:00') /* Tormented Attendant (27920) */
+     , (0x75C4D00A, 0x75C4D0AC, '2005-02-09 10:00:00') /* Crypt Spirit (27139) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75C4D00B,  7924, 0x5C4D016B, 67.8087, -70, -17.995, 1, 0, 0, 0, False, '2005-02-09 10:00:00'); /* Linkable Monster Generator ( 5 Min.) */
 /* @teleloc 0x5C4D016B [67.808700 -70.000000 -17.995000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x75C4D00B, 0x75C4D011, '2005-02-09 10:00:00') /* Tormented Attendant */
-     , (0x75C4D00B, 0x75C4D012, '2005-02-09 10:00:00') /* Tormented Attendant */
-     , (0x75C4D00B, 0x75C4D013, '2005-02-09 10:00:00') /* Tormented Attendant */
-     , (0x75C4D00B, 0x75C4D014, '2005-02-09 10:00:00') /* Tormented Attendant */
-     , (0x75C4D00B, 0x75C4D018, '2005-02-09 10:00:00') /* Tormented Attendant */
-     , (0x75C4D00B, 0x75C4D019, '2005-02-09 10:00:00') /* Tormented Attendant */
-     , (0x75C4D00B, 0x75C4D01A, '2005-02-09 10:00:00') /* Tormented Attendant */
-     , (0x75C4D00B, 0x75C4D01B, '2005-02-09 10:00:00') /* Tormented Attendant */
-     , (0x75C4D00B, 0x75C4D024, '2005-02-09 10:00:00') /* Tormented Attendant */
-     , (0x75C4D00B, 0x75C4D025, '2005-02-09 10:00:00') /* Tormented Attendant */
-     , (0x75C4D00B, 0x75C4D033, '2005-02-09 10:00:00') /* Tormented Attendant */
-     , (0x75C4D00B, 0x75C4D034, '2005-02-09 10:00:00') /* Tormented Attendant */
-     , (0x75C4D00B, 0x75C4D048, '2005-02-09 10:00:00') /* Tormented Attendant */
-     , (0x75C4D00B, 0x75C4D061, '2005-02-09 10:00:00') /* Crypt Spirit */
-     , (0x75C4D00B, 0x75C4D062, '2005-02-09 10:00:00') /* Crypt Spirit */
-     , (0x75C4D00B, 0x75C4D067, '2005-02-09 10:00:00') /* Crypt Spirit */
-     , (0x75C4D00B, 0x75C4D068, '2005-02-09 10:00:00') /* Crypt Spirit */
-     , (0x75C4D00B, 0x75C4D06B, '2005-02-09 10:00:00') /* Crypt Spirit */
-     , (0x75C4D00B, 0x75C4D06C, '2005-02-09 10:00:00') /* Crypt Spirit */
-     , (0x75C4D00B, 0x75C4D06D, '2005-02-09 10:00:00') /* Crypt Spirit */
-     , (0x75C4D00B, 0x75C4D06E, '2005-02-09 10:00:00') /* Crypt Spirit */
-     , (0x75C4D00B, 0x75C4D06F, '2005-02-09 10:00:00') /* Crypt Spirit */
-     , (0x75C4D00B, 0x75C4D070, '2005-02-09 10:00:00') /* Crypt Spirit */
-     , (0x75C4D00B, 0x75C4D073, '2005-02-09 10:00:00') /* Crypt Spirit */
-     , (0x75C4D00B, 0x75C4D074, '2005-02-09 10:00:00') /* Crypt Spirit */
-     , (0x75C4D00B, 0x75C4D075, '2005-02-09 10:00:00') /* Guardian */
-     , (0x75C4D00B, 0x75C4D079, '2005-02-09 10:00:00') /* Crypt Spirit */
-     , (0x75C4D00B, 0x75C4D07A, '2005-02-09 10:00:00') /* Crypt Spirit */
-     , (0x75C4D00B, 0x75C4D07B, '2005-02-09 10:00:00') /* Crypt Spirit */
-     , (0x75C4D00B, 0x75C4D07C, '2005-02-09 10:00:00') /* Crypt Spirit */
-     , (0x75C4D00B, 0x75C4D07D, '2005-02-09 10:00:00') /* Crypt Spirit */
-     , (0x75C4D00B, 0x75C4D080, '2005-02-09 10:00:00') /* Crypt Spirit */
-     , (0x75C4D00B, 0x75C4D081, '2005-02-09 10:00:00') /* Tormented Attendant */
-     , (0x75C4D00B, 0x75C4D082, '2005-02-09 10:00:00') /* Tormented Attendant */
-     , (0x75C4D00B, 0x75C4D085, '2005-02-09 10:00:00') /* Crypt Spirit */
-     , (0x75C4D00B, 0x75C4D086, '2005-02-09 10:00:00') /* Crypt Spirit */
-     , (0x75C4D00B, 0x75C4D089, '2005-02-09 10:00:00') /* Crypt Spirit */
-     , (0x75C4D00B, 0x75C4D08C, '2005-02-09 10:00:00') /* Crypt Spirit */
-     , (0x75C4D00B, 0x75C4D08D, '2005-02-09 10:00:00') /* Crypt Spirit */
-     , (0x75C4D00B, 0x75C4D099, '2005-02-09 10:00:00') /* Tormented Attendant */
-     , (0x75C4D00B, 0x75C4D09A, '2005-02-09 10:00:00') /* Tormented Attendant */
-     , (0x75C4D00B, 0x75C4D09F, '2005-02-09 10:00:00') /* Crypt Spirit */
-     , (0x75C4D00B, 0x75C4D0A0, '2005-02-09 10:00:00') /* Crypt Spirit */
-     , (0x75C4D00B, 0x75C4D0A4, '2005-02-09 10:00:00') /* Crypt Spirit */
-     , (0x75C4D00B, 0x75C4D0A5, '2005-02-09 10:00:00') /* Crypt Spirit */;
+VALUES (0x75C4D00B, 0x75C4D011, '2005-02-09 10:00:00') /* Tormented Attendant (27920) */
+     , (0x75C4D00B, 0x75C4D012, '2005-02-09 10:00:00') /* Tormented Attendant (27920) */
+     , (0x75C4D00B, 0x75C4D013, '2005-02-09 10:00:00') /* Tormented Attendant (27920) */
+     , (0x75C4D00B, 0x75C4D014, '2005-02-09 10:00:00') /* Tormented Attendant (27920) */
+     , (0x75C4D00B, 0x75C4D018, '2005-02-09 10:00:00') /* Tormented Attendant (27920) */
+     , (0x75C4D00B, 0x75C4D019, '2005-02-09 10:00:00') /* Tormented Attendant (27920) */
+     , (0x75C4D00B, 0x75C4D01A, '2005-02-09 10:00:00') /* Tormented Attendant (27920) */
+     , (0x75C4D00B, 0x75C4D01B, '2005-02-09 10:00:00') /* Tormented Attendant (27920) */
+     , (0x75C4D00B, 0x75C4D024, '2005-02-09 10:00:00') /* Tormented Attendant (27920) */
+     , (0x75C4D00B, 0x75C4D025, '2005-02-09 10:00:00') /* Tormented Attendant (27920) */
+     , (0x75C4D00B, 0x75C4D033, '2005-02-09 10:00:00') /* Tormented Attendant (27920) */
+     , (0x75C4D00B, 0x75C4D034, '2005-02-09 10:00:00') /* Tormented Attendant (27920) */
+     , (0x75C4D00B, 0x75C4D048, '2005-02-09 10:00:00') /* Tormented Attendant (27920) */
+     , (0x75C4D00B, 0x75C4D061, '2005-02-09 10:00:00') /* Crypt Spirit (27139) */
+     , (0x75C4D00B, 0x75C4D062, '2005-02-09 10:00:00') /* Crypt Spirit (27139) */
+     , (0x75C4D00B, 0x75C4D067, '2005-02-09 10:00:00') /* Crypt Spirit (27139) */
+     , (0x75C4D00B, 0x75C4D068, '2005-02-09 10:00:00') /* Crypt Spirit (27139) */
+     , (0x75C4D00B, 0x75C4D06B, '2005-02-09 10:00:00') /* Crypt Spirit (27139) */
+     , (0x75C4D00B, 0x75C4D06C, '2005-02-09 10:00:00') /* Crypt Spirit (27139) */
+     , (0x75C4D00B, 0x75C4D06D, '2005-02-09 10:00:00') /* Crypt Spirit (27139) */
+     , (0x75C4D00B, 0x75C4D06E, '2005-02-09 10:00:00') /* Crypt Spirit (27139) */
+     , (0x75C4D00B, 0x75C4D06F, '2005-02-09 10:00:00') /* Crypt Spirit (27139) */
+     , (0x75C4D00B, 0x75C4D070, '2005-02-09 10:00:00') /* Crypt Spirit (27139) */
+     , (0x75C4D00B, 0x75C4D073, '2005-02-09 10:00:00') /* Crypt Spirit (27139) */
+     , (0x75C4D00B, 0x75C4D074, '2005-02-09 10:00:00') /* Crypt Spirit (27139) */
+     , (0x75C4D00B, 0x75C4D075, '2005-02-09 10:00:00') /* Guardian (27956) */
+     , (0x75C4D00B, 0x75C4D079, '2005-02-09 10:00:00') /* Crypt Spirit (27139) */
+     , (0x75C4D00B, 0x75C4D07A, '2005-02-09 10:00:00') /* Crypt Spirit (27139) */
+     , (0x75C4D00B, 0x75C4D07B, '2005-02-09 10:00:00') /* Crypt Spirit (27139) */
+     , (0x75C4D00B, 0x75C4D07C, '2005-02-09 10:00:00') /* Crypt Spirit (27139) */
+     , (0x75C4D00B, 0x75C4D07D, '2005-02-09 10:00:00') /* Crypt Spirit (27139) */
+     , (0x75C4D00B, 0x75C4D080, '2005-02-09 10:00:00') /* Crypt Spirit (27139) */
+     , (0x75C4D00B, 0x75C4D081, '2005-02-09 10:00:00') /* Tormented Attendant (27920) */
+     , (0x75C4D00B, 0x75C4D082, '2005-02-09 10:00:00') /* Tormented Attendant (27920) */
+     , (0x75C4D00B, 0x75C4D085, '2005-02-09 10:00:00') /* Crypt Spirit (27139) */
+     , (0x75C4D00B, 0x75C4D086, '2005-02-09 10:00:00') /* Crypt Spirit (27139) */
+     , (0x75C4D00B, 0x75C4D089, '2005-02-09 10:00:00') /* Crypt Spirit (27139) */
+     , (0x75C4D00B, 0x75C4D08C, '2005-02-09 10:00:00') /* Crypt Spirit (27139) */
+     , (0x75C4D00B, 0x75C4D08D, '2005-02-09 10:00:00') /* Crypt Spirit (27139) */
+     , (0x75C4D00B, 0x75C4D099, '2005-02-09 10:00:00') /* Tormented Attendant (27920) */
+     , (0x75C4D00B, 0x75C4D09A, '2005-02-09 10:00:00') /* Tormented Attendant (27920) */
+     , (0x75C4D00B, 0x75C4D09F, '2005-02-09 10:00:00') /* Crypt Spirit (27139) */
+     , (0x75C4D00B, 0x75C4D0A0, '2005-02-09 10:00:00') /* Crypt Spirit (27139) */
+     , (0x75C4D00B, 0x75C4D0A4, '2005-02-09 10:00:00') /* Crypt Spirit (27139) */
+     , (0x75C4D00B, 0x75C4D0A5, '2005-02-09 10:00:00') /* Crypt Spirit (27139) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75C4D00C, 15759, 0x5C4D016B, 72.237, -70, -17.995, 1, 0, 0, 0, False, '2005-02-09 10:00:00'); /* Linkable Item Generator */
 /* @teleloc 0x5C4D016B [72.237000 -70.000000 -17.995000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x75C4D00C, 0x75C4D09E, '2005-02-09 10:00:00') /* Ancient Enchanted Philter */;
+VALUES (0x75C4D00C, 0x75C4D09E, '2005-02-09 10:00:00') /* Ancient Enchanted Philter (27915) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75C4D00D, 27139, 0x5C4D0189, 100, -120, -17.945, 0.921061, 0, 0, -0.389418,  True, '2005-02-09 10:00:00'); /* Crypt Spirit */
@@ -653,7 +653,7 @@ VALUES (0x75C4D076,  7923, 0x5C4D0605, 70.0051, -67.872, 0.005, -0.003494, 0, 0,
 /* @teleloc 0x5C4D0605 [70.005100 -67.872000 0.005000] -0.003494 0.000000 0.000000 0.999994 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x75C4D076, 0x75C4D075, '2005-02-09 10:00:00') /* Guardian */;
+VALUES (0x75C4D076, 0x75C4D075, '2005-02-09 10:00:00') /* Guardian (27956) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75C4D077, 27920, 0x5C4D0607, 69.7426, -87.9096, 0.013624, 0.723955, 0, 0, 0.689848,  True, '2005-02-09 10:00:00'); /* Tormented Attendant */

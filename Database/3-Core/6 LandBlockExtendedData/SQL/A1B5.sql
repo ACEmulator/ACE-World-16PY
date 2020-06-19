@@ -37,6 +37,6 @@ VALUES (0x7A1B500B,  7925, 0xA1B50000, 47.5245, 142.249, 74.005, 0.782371, 0, 0,
 /* @teleloc 0xA1B50000 [47.524500 142.249000 74.005000] 0.782371 0.000000 0.000000 0.622812 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A1B500B, 0x7A1B5008, '2005-02-09 10:00:00') /* Mountain Rat */
-     , (0x7A1B500B, 0x7A1B5009, '2005-02-09 10:00:00') /* Mountain Rat */
-     , (0x7A1B500B, 0x7A1B500A, '2005-02-09 10:00:00') /* Mountain Rat */;
+VALUES (0x7A1B500B, 0x7A1B5008, '2005-02-09 10:00:00') /* Mountain Rat (1625) */
+     , (0x7A1B500B, 0x7A1B5009, '2005-02-09 10:00:00') /* Mountain Rat (1625) */
+     , (0x7A1B500B, 0x7A1B500A, '2005-02-09 10:00:00') /* Mountain Rat (1625) */;

@@ -9,12 +9,12 @@ VALUES (0x7C95F001,  1154, 0xC95F0000, 55.9522, 56.7081, 6.005, 0.577953, 0, 0, 
 /* @teleloc 0xC95F0000 [55.952200 56.708100 6.005000] 0.577953 0.000000 0.000000 -0.816070 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C95F001, 0x7C95F000, '2005-02-09 10:00:00') /* Ghost Wisp */
-     , (0x7C95F001, 0x7C95F003, '2005-02-09 10:00:00') /* Mire Phyntos Wasp */
-     , (0x7C95F001, 0x7C95F004, '2005-02-09 10:00:00') /* Mire Phyntos Wasp */
-     , (0x7C95F001, 0x7C95F005, '2005-02-09 10:00:00') /* Mire Phyntos Wasp */
-     , (0x7C95F001, 0x7C95F006, '2005-02-09 10:00:00') /* Mire Phyntos Wasp */
-     , (0x7C95F001, 0x7C95F007, '2005-02-09 10:00:00') /* Water Golem */;
+VALUES (0x7C95F001, 0x7C95F000, '2005-02-09 10:00:00') /* Ghost Wisp (1987) */
+     , (0x7C95F001, 0x7C95F003, '2005-02-09 10:00:00') /* Mire Phyntos Wasp (1622) */
+     , (0x7C95F001, 0x7C95F004, '2005-02-09 10:00:00') /* Mire Phyntos Wasp (1622) */
+     , (0x7C95F001, 0x7C95F005, '2005-02-09 10:00:00') /* Mire Phyntos Wasp (1622) */
+     , (0x7C95F001, 0x7C95F006, '2005-02-09 10:00:00') /* Mire Phyntos Wasp (1622) */
+     , (0x7C95F001, 0x7C95F007, '2005-02-09 10:00:00') /* Water Golem (941) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C95F002,   553, 0xC95F0000, 57.292, 57.1723, 6.005, 0.493595, 0, 0, -0.869692, False, '2005-02-09 10:00:00'); /* Mushroom Circle Generator */

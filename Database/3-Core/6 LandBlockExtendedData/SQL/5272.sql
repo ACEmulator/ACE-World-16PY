@@ -17,14 +17,14 @@ VALUES (0x75272003,  7932, 0x52720104, 11.1914, -93.3023, -47.995, -0.999729, 0,
 /* @teleloc 0x52720104 [11.191400 -93.302300 -47.995000] -0.999729 0.000000 0.000000 -0.023262 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x75272003, 0x75272001, '2005-02-09 10:00:00') /* Olthoi Soldier */
-     , (0x75272003, 0x75272002, '2005-02-09 10:00:00') /* Olthoi Legionary */
-     , (0x75272003, 0x75272004, '2005-02-09 10:00:00') /* Olthoi Soldier */
-     , (0x75272003, 0x75272005, '2005-02-09 10:00:00') /* Olthoi Legionary */
-     , (0x75272003, 0x75272006, '2005-02-09 10:00:00') /* Olthoi Legionary */
-     , (0x75272003, 0x75272007, '2005-02-09 10:00:00') /* Olthoi Legionary */
-     , (0x75272003, 0x75272008, '2005-02-09 10:00:00') /* Olthoi Legionary */
-     , (0x75272003, 0x75272009, '2005-02-09 10:00:00') /* Olthoi Legionary */;
+VALUES (0x75272003, 0x75272001, '2005-02-09 10:00:00') /* Olthoi Soldier (214) */
+     , (0x75272003, 0x75272002, '2005-02-09 10:00:00') /* Olthoi Legionary (11481) */
+     , (0x75272003, 0x75272004, '2005-02-09 10:00:00') /* Olthoi Soldier (214) */
+     , (0x75272003, 0x75272005, '2005-02-09 10:00:00') /* Olthoi Legionary (11481) */
+     , (0x75272003, 0x75272006, '2005-02-09 10:00:00') /* Olthoi Legionary (11481) */
+     , (0x75272003, 0x75272007, '2005-02-09 10:00:00') /* Olthoi Legionary (11481) */
+     , (0x75272003, 0x75272008, '2005-02-09 10:00:00') /* Olthoi Legionary (11481) */
+     , (0x75272003, 0x75272009, '2005-02-09 10:00:00') /* Olthoi Legionary (11481) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75272004,   214, 0x52720104, 5.45514, -89.3193, -47.995, -0.00027, 0, 0, 1,  True, '2005-02-09 10:00:00'); /* Olthoi Soldier */
@@ -71,16 +71,16 @@ VALUES (0x7527200E,  7923, 0x52720125, 30.1733, -63.7516, -35.995, -0.045251, 0,
 /* @teleloc 0x52720125 [30.173300 -63.751600 -35.995000] -0.045251 0.000000 0.000000 0.998976 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7527200E, 0x7527200B, '2005-02-09 10:00:00') /* Olthoi Legionary */
-     , (0x7527200E, 0x7527200C, '2005-02-09 10:00:00') /* Olthoi Soldier */
-     , (0x7527200E, 0x7527200D, '2005-02-09 10:00:00') /* Olthoi Soldier */
-     , (0x7527200E, 0x7527200F, '2005-02-09 10:00:00') /* Olthoi Legionary */
-     , (0x7527200E, 0x75272010, '2005-02-09 10:00:00') /* Olthoi Legionary */
-     , (0x7527200E, 0x75272011, '2005-02-09 10:00:00') /* Olthoi Legionary */
-     , (0x7527200E, 0x75272012, '2005-02-09 10:00:00') /* Olthoi Soldier */
-     , (0x7527200E, 0x75272013, '2005-02-09 10:00:00') /* Olthoi Legionary */
-     , (0x7527200E, 0x75272014, '2005-02-09 10:00:00') /* Olthoi Legionary */
-     , (0x7527200E, 0x75272015, '2005-02-09 10:00:00') /* Olthoi Soldier */;
+VALUES (0x7527200E, 0x7527200B, '2005-02-09 10:00:00') /* Olthoi Legionary (11481) */
+     , (0x7527200E, 0x7527200C, '2005-02-09 10:00:00') /* Olthoi Soldier (214) */
+     , (0x7527200E, 0x7527200D, '2005-02-09 10:00:00') /* Olthoi Soldier (214) */
+     , (0x7527200E, 0x7527200F, '2005-02-09 10:00:00') /* Olthoi Legionary (11481) */
+     , (0x7527200E, 0x75272010, '2005-02-09 10:00:00') /* Olthoi Legionary (11481) */
+     , (0x7527200E, 0x75272011, '2005-02-09 10:00:00') /* Olthoi Legionary (11481) */
+     , (0x7527200E, 0x75272012, '2005-02-09 10:00:00') /* Olthoi Soldier (214) */
+     , (0x7527200E, 0x75272013, '2005-02-09 10:00:00') /* Olthoi Legionary (11481) */
+     , (0x7527200E, 0x75272014, '2005-02-09 10:00:00') /* Olthoi Legionary (11481) */
+     , (0x7527200E, 0x75272015, '2005-02-09 10:00:00') /* Olthoi Soldier (214) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7527200F, 11481, 0x52720125, 26.5072, -62.4654, -35.995, 0.71444, 0, 0, -0.699697,  True, '2005-02-09 10:00:00'); /* Olthoi Legionary */
@@ -151,18 +151,18 @@ VALUES (0x7527201F,  7923, 0x5272014C, 34.0992, -5.55603, 0.005, -0.84501, 0, 0,
 /* @teleloc 0x5272014C [34.099200 -5.556030 0.005000] -0.845010 0.000000 0.000000 0.534750 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7527201F, 0x75272017, '2005-02-09 10:00:00') /* Olthoi Soldier */
-     , (0x7527201F, 0x75272018, '2005-02-09 10:00:00') /* Olthoi Soldier */
-     , (0x7527201F, 0x75272019, '2005-02-09 10:00:00') /* Olthoi Soldier */
-     , (0x7527201F, 0x7527201A, '2005-02-09 10:00:00') /* Olthoi Soldier */
-     , (0x7527201F, 0x7527201B, '2005-02-09 10:00:00') /* Olthoi Soldier */
-     , (0x7527201F, 0x7527201C, '2005-02-09 10:00:00') /* Olthoi Soldier */
-     , (0x7527201F, 0x7527201D, '2005-02-09 10:00:00') /* Olthoi Soldier */
-     , (0x7527201F, 0x7527201E, '2005-02-09 10:00:00') /* Olthoi Soldier */
-     , (0x7527201F, 0x75272022, '2005-02-09 10:00:00') /* Olthoi Soldier */
-     , (0x7527201F, 0x75272023, '2005-02-09 10:00:00') /* Olthoi Soldier */
-     , (0x7527201F, 0x75272024, '2005-02-09 10:00:00') /* Olthoi Soldier */
-     , (0x7527201F, 0x75272025, '2005-02-09 10:00:00') /* Olthoi Soldier */;
+VALUES (0x7527201F, 0x75272017, '2005-02-09 10:00:00') /* Olthoi Soldier (6640) */
+     , (0x7527201F, 0x75272018, '2005-02-09 10:00:00') /* Olthoi Soldier (6640) */
+     , (0x7527201F, 0x75272019, '2005-02-09 10:00:00') /* Olthoi Soldier (6640) */
+     , (0x7527201F, 0x7527201A, '2005-02-09 10:00:00') /* Olthoi Soldier (6640) */
+     , (0x7527201F, 0x7527201B, '2005-02-09 10:00:00') /* Olthoi Soldier (6640) */
+     , (0x7527201F, 0x7527201C, '2005-02-09 10:00:00') /* Olthoi Soldier (6640) */
+     , (0x7527201F, 0x7527201D, '2005-02-09 10:00:00') /* Olthoi Soldier (6640) */
+     , (0x7527201F, 0x7527201E, '2005-02-09 10:00:00') /* Olthoi Soldier (6640) */
+     , (0x7527201F, 0x75272022, '2005-02-09 10:00:00') /* Olthoi Soldier (6640) */
+     , (0x7527201F, 0x75272023, '2005-02-09 10:00:00') /* Olthoi Soldier (214) */
+     , (0x7527201F, 0x75272024, '2005-02-09 10:00:00') /* Olthoi Soldier (214) */
+     , (0x7527201F, 0x75272025, '2005-02-09 10:00:00') /* Olthoi Soldier (214) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75272020, 14490, 0x5272014C, 28.0839, -11.749, 0.005, 0.393372, 0, 0, 0.919379, False, '2005-02-09 10:00:00'); /* Surface */

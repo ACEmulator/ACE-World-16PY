@@ -173,25 +173,25 @@ VALUES (0x7000D02A,  7923, 0x000D0133, 131.527, -50.721, -23.995, 0.771473, 0, 0
 /* @teleloc 0x000D0133 [131.527000 -50.721000 -23.995000] 0.771473 0.000000 0.000000 0.636262 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7000D02A, 0x7000D006, '2005-02-09 10:00:00') /* Caustic */
-     , (0x7000D02A, 0x7000D007, '2005-02-09 10:00:00') /* Caustic */
-     , (0x7000D02A, 0x7000D008, '2005-02-09 10:00:00') /* White Phyntos Wasp */
-     , (0x7000D02A, 0x7000D009, '2005-02-09 10:00:00') /* Caustic */
-     , (0x7000D02A, 0x7000D00A, '2005-02-09 10:00:00') /* Caustic */
-     , (0x7000D02A, 0x7000D00B, '2005-02-09 10:00:00') /* Black Phyntos Wasp */
-     , (0x7000D02A, 0x7000D00C, '2005-02-09 10:00:00') /* Black Phyntos Wasp */
-     , (0x7000D02A, 0x7000D00F, '2005-02-09 10:00:00') /* Black Phyntos Wasp */
-     , (0x7000D02A, 0x7000D010, '2005-02-09 10:00:00') /* White Phyntos Wasp */
-     , (0x7000D02A, 0x7000D011, '2005-02-09 10:00:00') /* White Phyntos Wasp */
-     , (0x7000D02A, 0x7000D027, '2005-02-09 10:00:00') /* Harrower Grievver */
-     , (0x7000D02A, 0x7000D028, '2005-02-09 10:00:00') /* White Phyntos Wasp */
-     , (0x7000D02A, 0x7000D029, '2005-02-09 10:00:00') /* White Phyntos Wasp */
-     , (0x7000D02A, 0x7000D02C, '2005-02-09 10:00:00') /* Harrower Grievver */
-     , (0x7000D02A, 0x7000D036, '2005-02-09 10:00:00') /* Caustic */
-     , (0x7000D02A, 0x7000D037, '2005-02-09 10:00:00') /* Caustic */
-     , (0x7000D02A, 0x7000D038, '2005-02-09 10:00:00') /* Caustic */
-     , (0x7000D02A, 0x7000D039, '2005-02-09 10:00:00') /* Caustic */
-     , (0x7000D02A, 0x7000D07E, '2005-02-09 10:00:00') /* Harrower Grievver */;
+VALUES (0x7000D02A, 0x7000D006, '2005-02-09 10:00:00') /* Caustic (14516) */
+     , (0x7000D02A, 0x7000D007, '2005-02-09 10:00:00') /* Caustic (14516) */
+     , (0x7000D02A, 0x7000D008, '2005-02-09 10:00:00') /* White Phyntos Wasp (7105) */
+     , (0x7000D02A, 0x7000D009, '2005-02-09 10:00:00') /* Caustic (14516) */
+     , (0x7000D02A, 0x7000D00A, '2005-02-09 10:00:00') /* Caustic (14516) */
+     , (0x7000D02A, 0x7000D00B, '2005-02-09 10:00:00') /* Black Phyntos Wasp (28248) */
+     , (0x7000D02A, 0x7000D00C, '2005-02-09 10:00:00') /* Black Phyntos Wasp (28248) */
+     , (0x7000D02A, 0x7000D00F, '2005-02-09 10:00:00') /* Black Phyntos Wasp (28248) */
+     , (0x7000D02A, 0x7000D010, '2005-02-09 10:00:00') /* White Phyntos Wasp (7105) */
+     , (0x7000D02A, 0x7000D011, '2005-02-09 10:00:00') /* White Phyntos Wasp (7105) */
+     , (0x7000D02A, 0x7000D027, '2005-02-09 10:00:00') /* Harrower Grievver (7981) */
+     , (0x7000D02A, 0x7000D028, '2005-02-09 10:00:00') /* White Phyntos Wasp (7105) */
+     , (0x7000D02A, 0x7000D029, '2005-02-09 10:00:00') /* White Phyntos Wasp (7105) */
+     , (0x7000D02A, 0x7000D02C, '2005-02-09 10:00:00') /* Harrower Grievver (7981) */
+     , (0x7000D02A, 0x7000D036, '2005-02-09 10:00:00') /* Caustic (14516) */
+     , (0x7000D02A, 0x7000D037, '2005-02-09 10:00:00') /* Caustic (14516) */
+     , (0x7000D02A, 0x7000D038, '2005-02-09 10:00:00') /* Caustic (14516) */
+     , (0x7000D02A, 0x7000D039, '2005-02-09 10:00:00') /* Caustic (14516) */
+     , (0x7000D02A, 0x7000D07E, '2005-02-09 10:00:00') /* Harrower Grievver (7981) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7000D02B,  4979, 0x000D0139, 153.135, -53.1949, -23.995, -0.371948, 0, 0, 0.928254, False, '2005-02-09 10:00:00'); /* Sewer */
@@ -262,33 +262,33 @@ VALUES (0x7000D03B, 15274, 0x000D0151, 214.564, -89.973, -23.995, 0.675254, 0, 0
 /* @teleloc 0x000D0151 [214.564000 -89.973000 -23.995000] 0.675254 0.000000 0.000000 -0.737586 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7000D03B, 0x7000D03A, '2005-02-09 10:00:00') /* Direland Rat */
-     , (0x7000D03B, 0x7000D03D, '2005-02-09 10:00:00') /* Direland Rat */
-     , (0x7000D03B, 0x7000D03E, '2005-02-09 10:00:00') /* Direland Rat */
-     , (0x7000D03B, 0x7000D03F, '2005-02-09 10:00:00') /* Direland Rat */
-     , (0x7000D03B, 0x7000D044, '2005-02-09 10:00:00') /* Direland Rat */
-     , (0x7000D03B, 0x7000D045, '2005-02-09 10:00:00') /* Direland Rat */
-     , (0x7000D03B, 0x7000D049, '2005-02-09 10:00:00') /* Direland Rat */
-     , (0x7000D03B, 0x7000D04A, '2005-02-09 10:00:00') /* Direland Rat */
-     , (0x7000D03B, 0x7000D08E, '2005-02-09 10:00:00') /* Direland Rat */;
+VALUES (0x7000D03B, 0x7000D03A, '2005-02-09 10:00:00') /* Direland Rat (24310) */
+     , (0x7000D03B, 0x7000D03D, '2005-02-09 10:00:00') /* Direland Rat (24310) */
+     , (0x7000D03B, 0x7000D03E, '2005-02-09 10:00:00') /* Direland Rat (24310) */
+     , (0x7000D03B, 0x7000D03F, '2005-02-09 10:00:00') /* Direland Rat (24310) */
+     , (0x7000D03B, 0x7000D044, '2005-02-09 10:00:00') /* Direland Rat (24310) */
+     , (0x7000D03B, 0x7000D045, '2005-02-09 10:00:00') /* Direland Rat (24310) */
+     , (0x7000D03B, 0x7000D049, '2005-02-09 10:00:00') /* Direland Rat (24310) */
+     , (0x7000D03B, 0x7000D04A, '2005-02-09 10:00:00') /* Direland Rat (24310) */
+     , (0x7000D03B, 0x7000D08E, '2005-02-09 10:00:00') /* Direland Rat (24310) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7000D03C,  7923, 0x000D0151, 210.29, -90.037, -23.995, -0.847547, 0, 0, 0.53072, False, '2005-02-09 10:00:00'); /* Linkable Monster Generator ( 3 Min.) */
 /* @teleloc 0x000D0151 [210.290000 -90.037000 -23.995000] -0.847547 0.000000 0.000000 0.530720 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7000D03C, 0x7000D081, '2005-02-09 10:00:00') /* Black Phyntos Wasp */
-     , (0x7000D03C, 0x7000D082, '2005-02-09 10:00:00') /* White Phyntos Wasp */
-     , (0x7000D03C, 0x7000D083, '2005-02-09 10:00:00') /* White Phyntos Wasp */
-     , (0x7000D03C, 0x7000D087, '2005-02-09 10:00:00') /* White Phyntos Wasp */
-     , (0x7000D03C, 0x7000D088, '2005-02-09 10:00:00') /* White Phyntos Wasp */
-     , (0x7000D03C, 0x7000D089, '2005-02-09 10:00:00') /* White Phyntos Wasp */
-     , (0x7000D03C, 0x7000D08A, '2005-02-09 10:00:00') /* White Phyntos Wasp */
-     , (0x7000D03C, 0x7000D08B, '2005-02-09 10:00:00') /* Harrower Grievver */
-     , (0x7000D03C, 0x7000D08C, '2005-02-09 10:00:00') /* Black Phyntos Wasp */
-     , (0x7000D03C, 0x7000D08D, '2005-02-09 10:00:00') /* Harrower Grievver */
-     , (0x7000D03C, 0x7000D08F, '2005-02-09 10:00:00') /* Black Phyntos Wasp */
-     , (0x7000D03C, 0x7000D092, '2005-02-09 10:00:00') /* Black Phyntos Wasp */;
+VALUES (0x7000D03C, 0x7000D081, '2005-02-09 10:00:00') /* Black Phyntos Wasp (28248) */
+     , (0x7000D03C, 0x7000D082, '2005-02-09 10:00:00') /* White Phyntos Wasp (7105) */
+     , (0x7000D03C, 0x7000D083, '2005-02-09 10:00:00') /* White Phyntos Wasp (7105) */
+     , (0x7000D03C, 0x7000D087, '2005-02-09 10:00:00') /* White Phyntos Wasp (7105) */
+     , (0x7000D03C, 0x7000D088, '2005-02-09 10:00:00') /* White Phyntos Wasp (7105) */
+     , (0x7000D03C, 0x7000D089, '2005-02-09 10:00:00') /* White Phyntos Wasp (7105) */
+     , (0x7000D03C, 0x7000D08A, '2005-02-09 10:00:00') /* White Phyntos Wasp (7105) */
+     , (0x7000D03C, 0x7000D08B, '2005-02-09 10:00:00') /* Harrower Grievver (7981) */
+     , (0x7000D03C, 0x7000D08C, '2005-02-09 10:00:00') /* Black Phyntos Wasp (28248) */
+     , (0x7000D03C, 0x7000D08D, '2005-02-09 10:00:00') /* Harrower Grievver (7981) */
+     , (0x7000D03C, 0x7000D08F, '2005-02-09 10:00:00') /* Black Phyntos Wasp (28248) */
+     , (0x7000D03C, 0x7000D092, '2005-02-09 10:00:00') /* Black Phyntos Wasp (28248) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7000D03D, 24310, 0x000D0155, 220.439, -49.5399, -23.988, -0.599831, 0, 0, 0.800127,  True, '2005-02-09 10:00:00'); /* Direland Rat */
@@ -319,22 +319,22 @@ VALUES (0x7000D043,  7923, 0x000D015B, 223.946, -140.829, -23.995, 0.779241, 0, 
 /* @teleloc 0x000D015B [223.946000 -140.829000 -23.995000] 0.779241 0.000000 0.000000 0.626725 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7000D043, 0x7000D046, '2005-02-09 10:00:00') /* Caustic */
-     , (0x7000D043, 0x7000D047, '2005-02-09 10:00:00') /* Caustic */
-     , (0x7000D043, 0x7000D048, '2005-02-09 10:00:00') /* Caustic */
-     , (0x7000D043, 0x7000D04B, '2005-02-09 10:00:00') /* Harrower Grievver */
-     , (0x7000D043, 0x7000D04C, '2005-02-09 10:00:00') /* Harrower Grievver */
-     , (0x7000D043, 0x7000D04E, '2005-02-09 10:00:00') /* White Phyntos Wasp */
-     , (0x7000D043, 0x7000D04F, '2005-02-09 10:00:00') /* White Phyntos Wasp */
-     , (0x7000D043, 0x7000D050, '2005-02-09 10:00:00') /* Caustic */
-     , (0x7000D043, 0x7000D051, '2005-02-09 10:00:00') /* Black Phyntos Wasp */
-     , (0x7000D043, 0x7000D052, '2005-02-09 10:00:00') /* Black Phyntos Wasp */
-     , (0x7000D043, 0x7000D053, '2005-02-09 10:00:00') /* Harrower Grievver */
-     , (0x7000D043, 0x7000D054, '2005-02-09 10:00:00') /* Harrower Grievver */
-     , (0x7000D043, 0x7000D055, '2005-02-09 10:00:00') /* White Phyntos Wasp */
-     , (0x7000D043, 0x7000D056, '2005-02-09 10:00:00') /* White Phyntos Wasp */
-     , (0x7000D043, 0x7000D057, '2005-02-09 10:00:00') /* White Phyntos Wasp */
-     , (0x7000D043, 0x7000D058, '2005-02-09 10:00:00') /* Black Phyntos Wasp */;
+VALUES (0x7000D043, 0x7000D046, '2005-02-09 10:00:00') /* Caustic (14516) */
+     , (0x7000D043, 0x7000D047, '2005-02-09 10:00:00') /* Caustic (14516) */
+     , (0x7000D043, 0x7000D048, '2005-02-09 10:00:00') /* Caustic (14516) */
+     , (0x7000D043, 0x7000D04B, '2005-02-09 10:00:00') /* Harrower Grievver (7981) */
+     , (0x7000D043, 0x7000D04C, '2005-02-09 10:00:00') /* Harrower Grievver (7981) */
+     , (0x7000D043, 0x7000D04E, '2005-02-09 10:00:00') /* White Phyntos Wasp (7105) */
+     , (0x7000D043, 0x7000D04F, '2005-02-09 10:00:00') /* White Phyntos Wasp (7105) */
+     , (0x7000D043, 0x7000D050, '2005-02-09 10:00:00') /* Caustic (14516) */
+     , (0x7000D043, 0x7000D051, '2005-02-09 10:00:00') /* Black Phyntos Wasp (28248) */
+     , (0x7000D043, 0x7000D052, '2005-02-09 10:00:00') /* Black Phyntos Wasp (28248) */
+     , (0x7000D043, 0x7000D053, '2005-02-09 10:00:00') /* Harrower Grievver (7981) */
+     , (0x7000D043, 0x7000D054, '2005-02-09 10:00:00') /* Harrower Grievver (7981) */
+     , (0x7000D043, 0x7000D055, '2005-02-09 10:00:00') /* White Phyntos Wasp (7105) */
+     , (0x7000D043, 0x7000D056, '2005-02-09 10:00:00') /* White Phyntos Wasp (7105) */
+     , (0x7000D043, 0x7000D057, '2005-02-09 10:00:00') /* White Phyntos Wasp (7105) */
+     , (0x7000D043, 0x7000D058, '2005-02-09 10:00:00') /* Black Phyntos Wasp (28248) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7000D044, 24310, 0x000D0160, 230.266, -58.8908, -23.988, -0.597765, 0, 0, 0.801671,  True, '2005-02-09 10:00:00'); /* Direland Rat */
@@ -425,19 +425,19 @@ VALUES (0x7000D059, 24129, 0x000D0199, -2.70317, -96.7571, -17.995, 0.668142, 0,
 /* @teleloc 0x000D0199 [-2.703170 -96.757100 -17.995000] 0.668142 0.000000 0.000000 0.744034 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7000D059, 0x7000D05B, '2005-02-09 10:00:00') /* Black Phyntos Wasp */
-     , (0x7000D059, 0x7000D05C, '2005-02-09 10:00:00') /* White Phyntos Wasp */
-     , (0x7000D059, 0x7000D05D, '2005-02-09 10:00:00') /* Harrower Grievver */
-     , (0x7000D059, 0x7000D060, '2005-02-09 10:00:00') /* Black Phyntos Wasp */
-     , (0x7000D059, 0x7000D061, '2005-02-09 10:00:00') /* White Phyntos Wasp */
-     , (0x7000D059, 0x7000D062, '2005-02-09 10:00:00') /* Black Phyntos Wasp */
-     , (0x7000D059, 0x7000D065, '2005-02-09 10:00:00') /* White Phyntos Wasp */
-     , (0x7000D059, 0x7000D066, '2005-02-09 10:00:00') /* Black Phyntos Wasp */
-     , (0x7000D059, 0x7000D067, '2005-02-09 10:00:00') /* White Phyntos Wasp */
-     , (0x7000D059, 0x7000D068, '2005-02-09 10:00:00') /* White Phyntos Wasp */
-     , (0x7000D059, 0x7000D069, '2005-02-09 10:00:00') /* White Phyntos Wasp */
-     , (0x7000D059, 0x7000D06A, '2005-02-09 10:00:00') /* White Phyntos Wasp */
-     , (0x7000D059, 0x7000D06B, '2005-02-09 10:00:00') /* White Phyntos Wasp */;
+VALUES (0x7000D059, 0x7000D05B, '2005-02-09 10:00:00') /* Black Phyntos Wasp (28248) */
+     , (0x7000D059, 0x7000D05C, '2005-02-09 10:00:00') /* White Phyntos Wasp (7105) */
+     , (0x7000D059, 0x7000D05D, '2005-02-09 10:00:00') /* Harrower Grievver (7981) */
+     , (0x7000D059, 0x7000D060, '2005-02-09 10:00:00') /* Black Phyntos Wasp (28248) */
+     , (0x7000D059, 0x7000D061, '2005-02-09 10:00:00') /* White Phyntos Wasp (7105) */
+     , (0x7000D059, 0x7000D062, '2005-02-09 10:00:00') /* Black Phyntos Wasp (28248) */
+     , (0x7000D059, 0x7000D065, '2005-02-09 10:00:00') /* White Phyntos Wasp (7105) */
+     , (0x7000D059, 0x7000D066, '2005-02-09 10:00:00') /* Black Phyntos Wasp (28248) */
+     , (0x7000D059, 0x7000D067, '2005-02-09 10:00:00') /* White Phyntos Wasp (7105) */
+     , (0x7000D059, 0x7000D068, '2005-02-09 10:00:00') /* White Phyntos Wasp (7105) */
+     , (0x7000D059, 0x7000D069, '2005-02-09 10:00:00') /* White Phyntos Wasp (7105) */
+     , (0x7000D059, 0x7000D06A, '2005-02-09 10:00:00') /* White Phyntos Wasp (7105) */
+     , (0x7000D059, 0x7000D06B, '2005-02-09 10:00:00') /* White Phyntos Wasp (7105) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7000D05A, 30728, 0x000D0199, 0, -100, -17.995, 0.707107, 0, 0, -0.707107, False, '2005-02-09 10:00:00'); /* Secured Royal Vault */
@@ -464,14 +464,14 @@ VALUES (0x7000D05F, 15274, 0x000D01A5, 12.0122, -110.345, -17.995, 0.998373, 0, 
 /* @teleloc 0x000D01A5 [12.012200 -110.345000 -17.995000] 0.998373 0.000000 0.000000 -0.057028 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7000D05F, 0x7000D01C, '2005-02-09 10:00:00') /* Direland Rat */
-     , (0x7000D05F, 0x7000D021, '2005-02-09 10:00:00') /* Direland Rat */
-     , (0x7000D05F, 0x7000D05E, '2005-02-09 10:00:00') /* Direland Rat */
-     , (0x7000D05F, 0x7000D063, '2005-02-09 10:00:00') /* Direland Rat */
-     , (0x7000D05F, 0x7000D064, '2005-02-09 10:00:00') /* Direland Rat */
-     , (0x7000D05F, 0x7000D09A, '2005-02-09 10:00:00') /* Direland Rat */
-     , (0x7000D05F, 0x7000D09B, '2005-02-09 10:00:00') /* Direland Rat */
-     , (0x7000D05F, 0x7000D09C, '2005-02-09 10:00:00') /* Direland Rat */;
+VALUES (0x7000D05F, 0x7000D01C, '2005-02-09 10:00:00') /* Direland Rat (24310) */
+     , (0x7000D05F, 0x7000D021, '2005-02-09 10:00:00') /* Direland Rat (24310) */
+     , (0x7000D05F, 0x7000D05E, '2005-02-09 10:00:00') /* Direland Rat (24310) */
+     , (0x7000D05F, 0x7000D063, '2005-02-09 10:00:00') /* Direland Rat (24310) */
+     , (0x7000D05F, 0x7000D064, '2005-02-09 10:00:00') /* Direland Rat (24310) */
+     , (0x7000D05F, 0x7000D09A, '2005-02-09 10:00:00') /* Direland Rat (24310) */
+     , (0x7000D05F, 0x7000D09B, '2005-02-09 10:00:00') /* Direland Rat (24310) */
+     , (0x7000D05F, 0x7000D09C, '2005-02-09 10:00:00') /* Direland Rat (24310) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7000D060, 28248, 0x000D01A5, 7.48358, -108.827, -17.988, -0.979483, 0, 0, 0.201526,  True, '2005-02-09 10:00:00'); /* Black Phyntos Wasp */
@@ -530,21 +530,21 @@ VALUES (0x7000D06D, 24129, 0x000D01C1, 42.6553, -102.66, -17.995, 0.566507, 0, 0
 /* @teleloc 0x000D01C1 [42.655300 -102.660000 -17.995000] 0.566507 0.000000 0.000000 -0.824057 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7000D06D, 0x7000D01A, '2005-02-09 10:00:00') /* White Phyntos Wasp */
-     , (0x7000D06D, 0x7000D01B, '2005-02-09 10:00:00') /* Harrower Grievver */
-     , (0x7000D06D, 0x7000D01D, '2005-02-09 10:00:00') /* White Phyntos Wasp */
-     , (0x7000D06D, 0x7000D01E, '2005-02-09 10:00:00') /* White Phyntos Wasp */
-     , (0x7000D06D, 0x7000D01F, '2005-02-09 10:00:00') /* Black Phyntos Wasp */
-     , (0x7000D06D, 0x7000D020, '2005-02-09 10:00:00') /* Harrower Grievver */
-     , (0x7000D06D, 0x7000D022, '2005-02-09 10:00:00') /* White Phyntos Wasp */
-     , (0x7000D06D, 0x7000D023, '2005-02-09 10:00:00') /* Black Phyntos Wasp */
-     , (0x7000D06D, 0x7000D024, '2005-02-09 10:00:00') /* White Phyntos Wasp */
-     , (0x7000D06D, 0x7000D025, '2005-02-09 10:00:00') /* White Phyntos Wasp */
-     , (0x7000D06D, 0x7000D026, '2005-02-09 10:00:00') /* White Phyntos Wasp */
-     , (0x7000D06D, 0x7000D06C, '2005-02-09 10:00:00') /* Harrower Grievver */
-     , (0x7000D06D, 0x7000D06E, '2005-02-09 10:00:00') /* Harrower Grievver */
-     , (0x7000D06D, 0x7000D09D, '2005-02-09 10:00:00') /* Harrower Grievver */
-     , (0x7000D06D, 0x7000D09E, '2005-02-09 10:00:00') /* Harrower Grievver */;
+VALUES (0x7000D06D, 0x7000D01A, '2005-02-09 10:00:00') /* White Phyntos Wasp (7105) */
+     , (0x7000D06D, 0x7000D01B, '2005-02-09 10:00:00') /* Harrower Grievver (7981) */
+     , (0x7000D06D, 0x7000D01D, '2005-02-09 10:00:00') /* White Phyntos Wasp (7105) */
+     , (0x7000D06D, 0x7000D01E, '2005-02-09 10:00:00') /* White Phyntos Wasp (7105) */
+     , (0x7000D06D, 0x7000D01F, '2005-02-09 10:00:00') /* Black Phyntos Wasp (28248) */
+     , (0x7000D06D, 0x7000D020, '2005-02-09 10:00:00') /* Harrower Grievver (7981) */
+     , (0x7000D06D, 0x7000D022, '2005-02-09 10:00:00') /* White Phyntos Wasp (7105) */
+     , (0x7000D06D, 0x7000D023, '2005-02-09 10:00:00') /* Black Phyntos Wasp (28248) */
+     , (0x7000D06D, 0x7000D024, '2005-02-09 10:00:00') /* White Phyntos Wasp (7105) */
+     , (0x7000D06D, 0x7000D025, '2005-02-09 10:00:00') /* White Phyntos Wasp (7105) */
+     , (0x7000D06D, 0x7000D026, '2005-02-09 10:00:00') /* White Phyntos Wasp (7105) */
+     , (0x7000D06D, 0x7000D06C, '2005-02-09 10:00:00') /* Harrower Grievver (7981) */
+     , (0x7000D06D, 0x7000D06E, '2005-02-09 10:00:00') /* Harrower Grievver (7981) */
+     , (0x7000D06D, 0x7000D09D, '2005-02-09 10:00:00') /* Harrower Grievver (7981) */
+     , (0x7000D06D, 0x7000D09E, '2005-02-09 10:00:00') /* Harrower Grievver (7981) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7000D06E,  7981, 0x000D01C2, 40.394, -108.249, -17.995, 0.978716, 0, 0, -0.20522,  True, '2005-02-09 10:00:00'); /* Harrower Grievver */
@@ -611,11 +611,11 @@ VALUES (0x7000D07D, 15274, 0x000D01F5, 168.216, -89.6698, -17.995, 0.743501, 0, 
 /* @teleloc 0x000D01F5 [168.216000 -89.669800 -17.995000] 0.743501 0.000000 0.000000 -0.668734 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7000D07D, 0x7000D041, '2005-02-09 10:00:00') /* Direland Rat */
-     , (0x7000D07D, 0x7000D042, '2005-02-09 10:00:00') /* Direland Rat */
-     , (0x7000D07D, 0x7000D07B, '2005-02-09 10:00:00') /* Direland Rat */
-     , (0x7000D07D, 0x7000D07C, '2005-02-09 10:00:00') /* Direland Rat */
-     , (0x7000D07D, 0x7000D084, '2005-02-09 10:00:00') /* Direland Rat */;
+VALUES (0x7000D07D, 0x7000D041, '2005-02-09 10:00:00') /* Direland Rat (24310) */
+     , (0x7000D07D, 0x7000D042, '2005-02-09 10:00:00') /* Direland Rat (24310) */
+     , (0x7000D07D, 0x7000D07B, '2005-02-09 10:00:00') /* Direland Rat (24310) */
+     , (0x7000D07D, 0x7000D07C, '2005-02-09 10:00:00') /* Direland Rat (24310) */
+     , (0x7000D07D, 0x7000D084, '2005-02-09 10:00:00') /* Direland Rat (24310) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7000D07E,  7981, 0x000D01F5, 170.752, -91.0594, -17.995, 0.99698, 0, 0, -0.0776602,  True, '2005-02-09 10:00:00'); /* Harrower Grievver */
@@ -630,11 +630,11 @@ VALUES (0x7000D080,  7923, 0x000D01FD, 187.478, -50.8353, -17.995, -0.66892, 0, 
 /* @teleloc 0x000D01FD [187.478000 -50.835300 -17.995000] -0.668920 0.000000 0.000000 0.743334 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7000D080, 0x7000D07F, '2005-02-09 10:00:00') /* Black Phyntos Wasp */
-     , (0x7000D080, 0x7000D085, '2005-02-09 10:00:00') /* White Phyntos Wasp */
-     , (0x7000D080, 0x7000D086, '2005-02-09 10:00:00') /* White Phyntos Wasp */
-     , (0x7000D080, 0x7000D0A4, '2005-02-09 10:00:00') /* Harrower Grievver */
-     , (0x7000D080, 0x7000D0B8, '2005-02-09 10:00:00') /* White Phyntos Wasp */;
+VALUES (0x7000D080, 0x7000D07F, '2005-02-09 10:00:00') /* Black Phyntos Wasp (28248) */
+     , (0x7000D080, 0x7000D085, '2005-02-09 10:00:00') /* White Phyntos Wasp (7105) */
+     , (0x7000D080, 0x7000D086, '2005-02-09 10:00:00') /* White Phyntos Wasp (7105) */
+     , (0x7000D080, 0x7000D0A4, '2005-02-09 10:00:00') /* Harrower Grievver (7981) */
+     , (0x7000D080, 0x7000D0B8, '2005-02-09 10:00:00') /* White Phyntos Wasp (7105) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7000D081, 28248, 0x000D01FF, 191.415, -72.3552, -17.988, 0.999983, 0, 0, 0.00574592,  True, '2005-02-09 10:00:00'); /* Black Phyntos Wasp */
@@ -793,12 +793,12 @@ VALUES (0x7000D0A7, 15274, 0x000D026C, 160.142, -60.1576, -11.995, 0.885989, 0, 
 /* @teleloc 0x000D026C [160.142000 -60.157600 -11.995000] 0.885989 0.000000 0.000000 0.463706 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7000D0A7, 0x7000D06F, '2005-02-09 10:00:00') /* Direland Rat */
-     , (0x7000D0A7, 0x7000D070, '2005-02-09 10:00:00') /* Direland Rat */
-     , (0x7000D0A7, 0x7000D073, '2005-02-09 10:00:00') /* Direland Rat */
-     , (0x7000D0A7, 0x7000D076, '2005-02-09 10:00:00') /* Direland Rat */
-     , (0x7000D0A7, 0x7000D079, '2005-02-09 10:00:00') /* Direland Rat */
-     , (0x7000D0A7, 0x7000D0A6, '2005-02-09 10:00:00') /* Direland Rat */;
+VALUES (0x7000D0A7, 0x7000D06F, '2005-02-09 10:00:00') /* Direland Rat (24310) */
+     , (0x7000D0A7, 0x7000D070, '2005-02-09 10:00:00') /* Direland Rat (24310) */
+     , (0x7000D0A7, 0x7000D073, '2005-02-09 10:00:00') /* Direland Rat (24310) */
+     , (0x7000D0A7, 0x7000D076, '2005-02-09 10:00:00') /* Direland Rat (24310) */
+     , (0x7000D0A7, 0x7000D079, '2005-02-09 10:00:00') /* Direland Rat (24310) */
+     , (0x7000D0A7, 0x7000D0A6, '2005-02-09 10:00:00') /* Direland Rat (24310) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7000D0A8,  7105, 0x000D026C, 162.016, -62.3806, -11.988, -0.792744, 0, 0, -0.609554,  True, '2005-02-09 10:00:00'); /* White Phyntos Wasp */
@@ -809,29 +809,29 @@ VALUES (0x7000D0A9,  7923, 0x000D026C, 159.029, -61.5866, -11.995, -0.792744, 0,
 /* @teleloc 0x000D026C [159.029000 -61.586600 -11.995000] -0.792744 0.000000 0.000000 -0.609554 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7000D0A9, 0x7000D071, '2005-02-09 10:00:00') /* White Phyntos Wasp */
-     , (0x7000D0A9, 0x7000D072, '2005-02-09 10:00:00') /* Black Phyntos Wasp */
-     , (0x7000D0A9, 0x7000D074, '2005-02-09 10:00:00') /* White Phyntos Wasp */
-     , (0x7000D0A9, 0x7000D075, '2005-02-09 10:00:00') /* Black Phyntos Wasp */
-     , (0x7000D0A9, 0x7000D077, '2005-02-09 10:00:00') /* White Phyntos Wasp */
-     , (0x7000D0A9, 0x7000D07A, '2005-02-09 10:00:00') /* Harrower Grievver */
-     , (0x7000D0A9, 0x7000D0A8, '2005-02-09 10:00:00') /* White Phyntos Wasp */;
+VALUES (0x7000D0A9, 0x7000D071, '2005-02-09 10:00:00') /* White Phyntos Wasp (7105) */
+     , (0x7000D0A9, 0x7000D072, '2005-02-09 10:00:00') /* Black Phyntos Wasp (28248) */
+     , (0x7000D0A9, 0x7000D074, '2005-02-09 10:00:00') /* White Phyntos Wasp (7105) */
+     , (0x7000D0A9, 0x7000D075, '2005-02-09 10:00:00') /* Black Phyntos Wasp (28248) */
+     , (0x7000D0A9, 0x7000D077, '2005-02-09 10:00:00') /* White Phyntos Wasp (7105) */
+     , (0x7000D0A9, 0x7000D07A, '2005-02-09 10:00:00') /* Harrower Grievver (7981) */
+     , (0x7000D0A9, 0x7000D0A8, '2005-02-09 10:00:00') /* White Phyntos Wasp (7105) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7000D0AA, 15274, 0x000D0274, 165.833, -29.5279, -11.995, 0.752314, 0, 0, -0.658805, False, '2005-02-09 10:00:00'); /* Linkable Monster Gen (1 min.) */
 /* @teleloc 0x000D0274 [165.833000 -29.527900 -11.995000] 0.752314 0.000000 0.000000 -0.658805 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7000D0AA, 0x7000D093, '2005-02-09 10:00:00') /* Direland Rat */
-     , (0x7000D0AA, 0x7000D097, '2005-02-09 10:00:00') /* Direland Rat */
-     , (0x7000D0AA, 0x7000D098, '2005-02-09 10:00:00') /* Direland Rat */
-     , (0x7000D0AA, 0x7000D09F, '2005-02-09 10:00:00') /* Direland Rat */
-     , (0x7000D0AA, 0x7000D0A2, '2005-02-09 10:00:00') /* Direland Rat */
-     , (0x7000D0AA, 0x7000D0A3, '2005-02-09 10:00:00') /* Direland Rat */
-     , (0x7000D0AA, 0x7000D0AB, '2005-02-09 10:00:00') /* Direland Rat */
-     , (0x7000D0AA, 0x7000D0AC, '2005-02-09 10:00:00') /* Direland Rat */
-     , (0x7000D0AA, 0x7000D0AD, '2005-02-09 10:00:00') /* Direland Rat */
-     , (0x7000D0AA, 0x7000D0AE, '2005-02-09 10:00:00') /* Direland Rat */;
+VALUES (0x7000D0AA, 0x7000D093, '2005-02-09 10:00:00') /* Direland Rat (24310) */
+     , (0x7000D0AA, 0x7000D097, '2005-02-09 10:00:00') /* Direland Rat (24310) */
+     , (0x7000D0AA, 0x7000D098, '2005-02-09 10:00:00') /* Direland Rat (24310) */
+     , (0x7000D0AA, 0x7000D09F, '2005-02-09 10:00:00') /* Direland Rat (24310) */
+     , (0x7000D0AA, 0x7000D0A2, '2005-02-09 10:00:00') /* Direland Rat (24310) */
+     , (0x7000D0AA, 0x7000D0A3, '2005-02-09 10:00:00') /* Direland Rat (24310) */
+     , (0x7000D0AA, 0x7000D0AB, '2005-02-09 10:00:00') /* Direland Rat (24310) */
+     , (0x7000D0AA, 0x7000D0AC, '2005-02-09 10:00:00') /* Direland Rat (24310) */
+     , (0x7000D0AA, 0x7000D0AD, '2005-02-09 10:00:00') /* Direland Rat (24310) */
+     , (0x7000D0AA, 0x7000D0AE, '2005-02-09 10:00:00') /* Direland Rat (24310) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7000D0AB, 24310, 0x000D0276, 165.722, -49.5608, -11.988, 0.492753, 0, 0, 0.870169,  True, '2005-02-09 10:00:00'); /* Direland Rat */
@@ -862,34 +862,34 @@ VALUES (0x7000D0B1,  7923, 0x000D0284, 179.983, -82.1422, -11.995, -0.346583, 0,
 /* @teleloc 0x000D0284 [179.983000 -82.142200 -11.995000] -0.346583 0.000000 0.000000 -0.938019 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7000D0B1, 0x7000D0AF, '2005-02-09 10:00:00') /* Black Phyntos Wasp */
-     , (0x7000D0B1, 0x7000D0B0, '2005-02-09 10:00:00') /* Black Phyntos Wasp */
-     , (0x7000D0B1, 0x7000D0B2, '2005-02-09 10:00:00') /* White Phyntos Wasp */
-     , (0x7000D0B1, 0x7000D0B4, '2005-02-09 10:00:00') /* Black Phyntos Wasp */
-     , (0x7000D0B1, 0x7000D0B6, '2005-02-09 10:00:00') /* White Phyntos Wasp */
-     , (0x7000D0B1, 0x7000D0B9, '2005-02-09 10:00:00') /* Harrower Grievver */
-     , (0x7000D0B1, 0x7000D0BB, '2005-02-09 10:00:00') /* Black Phyntos Wasp */
-     , (0x7000D0B1, 0x7000D0BC, '2005-02-09 10:00:00') /* White Phyntos Wasp */
-     , (0x7000D0B1, 0x7000D0BD, '2005-02-09 10:00:00') /* White Phyntos Wasp */
-     , (0x7000D0B1, 0x7000D0BE, '2005-02-09 10:00:00') /* White Phyntos Wasp */
-     , (0x7000D0B1, 0x7000D0C0, '2005-02-09 10:00:00') /* White Phyntos Wasp */
-     , (0x7000D0B1, 0x7000D0C1, '2005-02-09 10:00:00') /* Harrower Grievver */
-     , (0x7000D0B1, 0x7000D0C3, '2005-02-09 10:00:00') /* Caustic */
-     , (0x7000D0B1, 0x7000D0C4, '2005-02-09 10:00:00') /* Caustic */
-     , (0x7000D0B1, 0x7000D0C7, '2005-02-09 10:00:00') /* Caustic */
-     , (0x7000D0B1, 0x7000D0C9, '2005-02-09 10:00:00') /* Caustic */
-     , (0x7000D0B1, 0x7000D0CA, '2005-02-09 10:00:00') /* Direland Rat */
-     , (0x7000D0B1, 0x7000D0CB, '2005-02-09 10:00:00') /* Direland Rat */
-     , (0x7000D0B1, 0x7000D0CC, '2005-02-09 10:00:00') /* Direland Rat */
-     , (0x7000D0B1, 0x7000D0CD, '2005-02-09 10:00:00') /* Direland Rat */
-     , (0x7000D0B1, 0x7000D0CE, '2005-02-09 10:00:00') /* Caustic */
-     , (0x7000D0B1, 0x7000D0CF, '2005-02-09 10:00:00') /* Caustic */
-     , (0x7000D0B1, 0x7000D0D0, '2005-02-09 10:00:00') /* White Phyntos Wasp */
-     , (0x7000D0B1, 0x7000D0D1, '2005-02-09 10:00:00') /* White Phyntos Wasp */
-     , (0x7000D0B1, 0x7000D0D2, '2005-02-09 10:00:00') /* White Phyntos Wasp */
-     , (0x7000D0B1, 0x7000D0D3, '2005-02-09 10:00:00') /* Harrower Grievver */
-     , (0x7000D0B1, 0x7000D0D4, '2005-02-09 10:00:00') /* White Phyntos Wasp */
-     , (0x7000D0B1, 0x7000D0D5, '2005-02-09 10:00:00') /* Harrower Grievver */;
+VALUES (0x7000D0B1, 0x7000D0AF, '2005-02-09 10:00:00') /* Black Phyntos Wasp (28248) */
+     , (0x7000D0B1, 0x7000D0B0, '2005-02-09 10:00:00') /* Black Phyntos Wasp (28248) */
+     , (0x7000D0B1, 0x7000D0B2, '2005-02-09 10:00:00') /* White Phyntos Wasp (7105) */
+     , (0x7000D0B1, 0x7000D0B4, '2005-02-09 10:00:00') /* Black Phyntos Wasp (28248) */
+     , (0x7000D0B1, 0x7000D0B6, '2005-02-09 10:00:00') /* White Phyntos Wasp (7105) */
+     , (0x7000D0B1, 0x7000D0B9, '2005-02-09 10:00:00') /* Harrower Grievver (7981) */
+     , (0x7000D0B1, 0x7000D0BB, '2005-02-09 10:00:00') /* Black Phyntos Wasp (28248) */
+     , (0x7000D0B1, 0x7000D0BC, '2005-02-09 10:00:00') /* White Phyntos Wasp (7105) */
+     , (0x7000D0B1, 0x7000D0BD, '2005-02-09 10:00:00') /* White Phyntos Wasp (7105) */
+     , (0x7000D0B1, 0x7000D0BE, '2005-02-09 10:00:00') /* White Phyntos Wasp (7105) */
+     , (0x7000D0B1, 0x7000D0C0, '2005-02-09 10:00:00') /* White Phyntos Wasp (7105) */
+     , (0x7000D0B1, 0x7000D0C1, '2005-02-09 10:00:00') /* Harrower Grievver (7981) */
+     , (0x7000D0B1, 0x7000D0C3, '2005-02-09 10:00:00') /* Caustic (14516) */
+     , (0x7000D0B1, 0x7000D0C4, '2005-02-09 10:00:00') /* Caustic (14516) */
+     , (0x7000D0B1, 0x7000D0C7, '2005-02-09 10:00:00') /* Caustic (14516) */
+     , (0x7000D0B1, 0x7000D0C9, '2005-02-09 10:00:00') /* Caustic (14516) */
+     , (0x7000D0B1, 0x7000D0CA, '2005-02-09 10:00:00') /* Direland Rat (24310) */
+     , (0x7000D0B1, 0x7000D0CB, '2005-02-09 10:00:00') /* Direland Rat (24310) */
+     , (0x7000D0B1, 0x7000D0CC, '2005-02-09 10:00:00') /* Direland Rat (24310) */
+     , (0x7000D0B1, 0x7000D0CD, '2005-02-09 10:00:00') /* Direland Rat (24310) */
+     , (0x7000D0B1, 0x7000D0CE, '2005-02-09 10:00:00') /* Caustic (14516) */
+     , (0x7000D0B1, 0x7000D0CF, '2005-02-09 10:00:00') /* Caustic (14516) */
+     , (0x7000D0B1, 0x7000D0D0, '2005-02-09 10:00:00') /* White Phyntos Wasp (7105) */
+     , (0x7000D0B1, 0x7000D0D1, '2005-02-09 10:00:00') /* White Phyntos Wasp (7105) */
+     , (0x7000D0B1, 0x7000D0D2, '2005-02-09 10:00:00') /* White Phyntos Wasp (7105) */
+     , (0x7000D0B1, 0x7000D0D3, '2005-02-09 10:00:00') /* Harrower Grievver (7981) */
+     , (0x7000D0B1, 0x7000D0D4, '2005-02-09 10:00:00') /* White Phyntos Wasp (7105) */
+     , (0x7000D0B1, 0x7000D0D5, '2005-02-09 10:00:00') /* Harrower Grievver (7981) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7000D0B2,  7105, 0x000D0289, 179.887, -100.066, -11.988, -0.929621, 0, 0, 0.368516,  True, '2005-02-09 10:00:00'); /* White Phyntos Wasp */

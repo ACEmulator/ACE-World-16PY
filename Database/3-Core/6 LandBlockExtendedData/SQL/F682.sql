@@ -57,14 +57,14 @@ VALUES (0x7F68200E,  7923, 0xF682011C, 175.857, 29.02, 63.605, -0.986125, 0, 0, 
 /* @teleloc 0xF682011C [175.857000 29.020000 63.605000] -0.986125 0.000000 0.000000 -0.166006 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7F68200E, 0x7F68200D, '2005-02-09 10:00:00') /* Brighteyes, the Tailor */;
+VALUES (0x7F68200E, 0x7F68200D, '2005-02-09 10:00:00') /* Brighteyes, the Tailor (22642) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7F68200F,  7923, 0xF6820000, 152.567, 61.1549, 58.005, -0.343612, 0, 0, 0.939112, False, '2005-02-09 10:00:00'); /* Linkable Monster Generator ( 3 Min.) */
 /* @teleloc 0xF6820000 [152.567000 61.154900 58.005000] -0.343612 0.000000 0.000000 0.939112 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7F68200F, 0x7F68200C, '2005-02-09 10:00:00') /* Mayor Ko Ko */;
+VALUES (0x7F68200F, 0x7F68200C, '2005-02-09 10:00:00') /* Mayor Ko Ko (22640) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7F682012, 22717, 0xF6820000, 159.34, 91.7266, 58.005, 0.818677, 0, 0, -0.574254, False, '2005-02-09 10:00:00'); /* Not too far to the Tusker Emporium! */
@@ -79,4 +79,4 @@ VALUES (0x7F682014, 15759, 0xF6820000, 172.948, 74.3958, 58.005, 0.634377, 0, 0,
 /* @teleloc 0xF6820000 [172.948000 74.395800 58.005000] 0.634377 0.000000 0.000000 -0.773024 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7F682014, 0x7F682013, '2005-02-09 10:00:00') /* Note */;
+VALUES (0x7F682014, 0x7F682013, '2005-02-09 10:00:00') /* Note (25681) */;

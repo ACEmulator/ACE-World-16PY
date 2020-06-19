@@ -1,10 +1,7 @@
-DELETE FROM `encounter` WHERE `landblock` = 41786;
+DELETE FROM `encounter` WHERE `landblock` = 0xA33A;
 
 INSERT INTO `encounter` (`landblock`, `weenie_Class_Id`, `cell_X`, `cell_Y`, `last_Modified`)
-VALUES (41786, 4623, 0, 2, '2005-02-09 10:00:00') /* Low Central Forest Mix Generator */
-     , (41786, 4623, 1, 8, '2005-02-09 10:00:00') /* Low Central Forest Mix Generator */
-     , (41786, 4623, 4, 0, '2005-02-09 10:00:00') /* Low Central Forest Mix Generator */
-     , (41786, 4623, 5, 4, '2005-02-09 10:00:00') /* Low Central Forest Mix Generator */
-     , (41786, 4623, 6, 4, '2005-02-09 10:00:00') /* Low Central Forest Mix Generator */
-     , (41786, 4623, 8, 0, '2005-02-09 10:00:00') /* Low Central Forest Mix Generator */
-     , (41786, 21172, 8, 6, '2005-02-09 10:00:00') /* Low Central Undead Plains Mix Generator */;
+VALUES (0xA33A, 4623, 0, 2, '2005-02-09 10:00:00') /* Low Central Forest Mix Generator */
+     , (0xA33A, 4623, 4, 0, '2005-02-09 10:00:00') /* Low Central Forest Mix Generator */
+     , (0xA33A, 4623, 5, 4, '2005-02-09 10:00:00') /* Low Central Forest Mix Generator */
+     , (0xA33A, 4623, 6, 4, '2005-02-09 10:00:00') /* Low Central Forest Mix Generator */;

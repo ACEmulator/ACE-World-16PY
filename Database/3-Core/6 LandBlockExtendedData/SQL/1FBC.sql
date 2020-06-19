@@ -17,14 +17,14 @@ VALUES (0x71FBC003,  7923, 0x1FBC0000, 118.343, 36.8167, 82.005, 0.00508931, 0, 
 /* @teleloc 0x1FBC0000 [118.343000 36.816700 82.005000] 0.005089 0.000000 0.000000 0.999987 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71FBC003, 0x71FBC001, '2005-02-09 10:00:00') /* Olthoi Legionary */
-     , (0x71FBC003, 0x71FBC002, '2005-02-09 10:00:00') /* Olthoi Legionary */
-     , (0x71FBC003, 0x71FBC004, '2005-02-09 10:00:00') /* Olthoi Legionary */
-     , (0x71FBC003, 0x71FBC005, '2005-02-09 10:00:00') /* Olthoi Legionary */
-     , (0x71FBC003, 0x71FBC007, '2005-02-09 10:00:00') /* Olthoi Legionary */
-     , (0x71FBC003, 0x71FBC008, '2005-02-09 10:00:00') /* Olthoi Legionary */
-     , (0x71FBC003, 0x71FBC009, '2005-02-09 10:00:00') /* Olthoi Legionary */
-     , (0x71FBC003, 0x71FBC00A, '2005-02-09 10:00:00') /* Olthoi Legionary */;
+VALUES (0x71FBC003, 0x71FBC001, '2005-02-09 10:00:00') /* Olthoi Legionary (11695) */
+     , (0x71FBC003, 0x71FBC002, '2005-02-09 10:00:00') /* Olthoi Legionary (11695) */
+     , (0x71FBC003, 0x71FBC004, '2005-02-09 10:00:00') /* Olthoi Legionary (11695) */
+     , (0x71FBC003, 0x71FBC005, '2005-02-09 10:00:00') /* Olthoi Legionary (11695) */
+     , (0x71FBC003, 0x71FBC007, '2005-02-09 10:00:00') /* Olthoi Legionary (11481) */
+     , (0x71FBC003, 0x71FBC008, '2005-02-09 10:00:00') /* Olthoi Legionary (11481) */
+     , (0x71FBC003, 0x71FBC009, '2005-02-09 10:00:00') /* Olthoi Legionary (11481) */
+     , (0x71FBC003, 0x71FBC00A, '2005-02-09 10:00:00') /* Olthoi Legionary (11481) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71FBC004, 11695, 0x1FBC0000, 110.323, 11.6555, 82.005, 0.979995, 0, 0, -0.199024,  True, '2005-02-09 10:00:00'); /* Olthoi Legionary */

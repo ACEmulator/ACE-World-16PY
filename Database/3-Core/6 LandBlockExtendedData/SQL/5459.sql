@@ -185,92 +185,92 @@ VALUES (0x75459033,  7923, 0x545901B0, 6.45277, -76.1702, 6.005, -0.079121, 0, 0
 /* @teleloc 0x545901B0 [6.452770 -76.170200 6.005000] -0.079121 0.000000 0.000000 -0.996865 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x75459033, 0x75459003, '2005-02-09 10:00:00') /* Bronze Statue of a Zharalim */
-     , (0x75459033, 0x75459006, '2005-02-09 10:00:00') /* Bronze Statue of a Banderling */
-     , (0x75459033, 0x7545900A, '2005-02-09 10:00:00') /* Bronze Statue of a Zharalim */
-     , (0x75459033, 0x7545900B, '2005-02-09 10:00:00') /* Bronze Statue of a Banderling */
-     , (0x75459033, 0x7545900F, '2005-02-09 10:00:00') /* Bronze Statue of a Zharalim */
-     , (0x75459033, 0x75459012, '2005-02-09 10:00:00') /* Bronze Statue of a Banderling */
-     , (0x75459033, 0x75459016, '2005-02-09 10:00:00') /* Bronze Statue of a Zharalim */
-     , (0x75459033, 0x75459017, '2005-02-09 10:00:00') /* Bronze Statue of a Skeleton */
-     , (0x75459033, 0x75459018, '2005-02-09 10:00:00') /* Bronze Statue of Ben Ten */
-     , (0x75459033, 0x75459019, '2005-02-09 10:00:00') /* Bronze Statue of a Banderling */
-     , (0x75459033, 0x7545901A, '2005-02-09 10:00:00') /* Bronze Statue of a Zharalim */
-     , (0x75459033, 0x7545901B, '2005-02-09 10:00:00') /* Bronze Statue of a Sclavus */
-     , (0x75459033, 0x7545901C, '2005-02-09 10:00:00') /* Bronze Statue of Thorsten Cragstone */
-     , (0x75459033, 0x7545901D, '2005-02-09 10:00:00') /* Bronze Statue of a Skeleton */
-     , (0x75459033, 0x7545901E, '2005-02-09 10:00:00') /* Bronze Statue of Thorsten Cragstone */
-     , (0x75459033, 0x7545901F, '2005-02-09 10:00:00') /* Bronze Statue of a Skeleton */
-     , (0x75459033, 0x75459020, '2005-02-09 10:00:00') /* Bronze Statue of Ben Ten */
-     , (0x75459033, 0x75459021, '2005-02-09 10:00:00') /* Bronze Statue of a Banderling */
-     , (0x75459033, 0x75459022, '2005-02-09 10:00:00') /* Bronze Statue of Thorsten Cragstone */
-     , (0x75459033, 0x75459023, '2005-02-09 10:00:00') /* Bronze Statue of a Banderling */
-     , (0x75459033, 0x75459024, '2005-02-09 10:00:00') /* Bronze Statue of a Sclavus */
-     , (0x75459033, 0x75459025, '2005-02-09 10:00:00') /* Bronze Statue of a Zharalim */
-     , (0x75459033, 0x75459026, '2005-02-09 10:00:00') /* Bronze Statue of Thorsten Cragstone */
-     , (0x75459033, 0x75459035, '2005-02-09 10:00:00') /* Bronze Statue of Thorsten Cragstone */
-     , (0x75459033, 0x75459036, '2005-02-09 10:00:00') /* Bronze Statue of a Banderling */
-     , (0x75459033, 0x75459038, '2005-02-09 10:00:00') /* Bronze Statue of a Zharalim */
-     , (0x75459033, 0x75459039, '2005-02-09 10:00:00') /* Bronze Statue of Ben Ten */
-     , (0x75459033, 0x7545903B, '2005-02-09 10:00:00') /* Bronze Statue of a Skeleton */
-     , (0x75459033, 0x7545903C, '2005-02-09 10:00:00') /* Bronze Statue of a Sclavus */
-     , (0x75459033, 0x7545903D, '2005-02-09 10:00:00') /* Bronze Statue of Thorsten Cragstone */
-     , (0x75459033, 0x75459041, '2005-02-09 10:00:00') /* Bronze Statue of Thorsten Cragstone */
-     , (0x75459033, 0x75459042, '2005-02-09 10:00:00') /* Bronze Statue of Thorsten Cragstone */
-     , (0x75459033, 0x75459044, '2005-02-09 10:00:00') /* Bronze Statue of Thorsten Cragstone */
-     , (0x75459033, 0x75459045, '2005-02-09 10:00:00') /* Bronze Statue of Thorsten Cragstone */
-     , (0x75459033, 0x75459046, '2005-02-09 10:00:00') /* Bronze Statue of Thorsten Cragstone */
-     , (0x75459033, 0x75459047, '2005-02-09 10:00:00') /* Bronze Statue of a Skeleton */
-     , (0x75459033, 0x75459048, '2005-02-09 10:00:00') /* Bronze Statue of Thorsten Cragstone */
-     , (0x75459033, 0x75459049, '2005-02-09 10:00:00') /* Bronze Statue of a Skeleton */
-     , (0x75459033, 0x7545904A, '2005-02-09 10:00:00') /* Bronze Statue of a Skeleton */
-     , (0x75459033, 0x7545904B, '2005-02-09 10:00:00') /* Bronze Statue of a Skeleton */
-     , (0x75459033, 0x7545904C, '2005-02-09 10:00:00') /* Bronze Statue of a Skeleton */
-     , (0x75459033, 0x7545904D, '2005-02-09 10:00:00') /* Bronze Statue of a Skeleton */
-     , (0x75459033, 0x7545904F, '2005-02-09 10:00:00') /* Bronze Statue of a Skeleton */
-     , (0x75459033, 0x75459050, '2005-02-09 10:00:00') /* Bronze Statue of a Skeleton */
-     , (0x75459033, 0x75459051, '2005-02-09 10:00:00') /* Bronze Statue of a Skeleton */
-     , (0x75459033, 0x7545905F, '2005-02-09 10:00:00') /* Bronze Statue of a Sclavus */;
+VALUES (0x75459033, 0x75459003, '2005-02-09 10:00:00') /* Bronze Statue of a Zharalim (19315) */
+     , (0x75459033, 0x75459006, '2005-02-09 10:00:00') /* Bronze Statue of a Banderling (19300) */
+     , (0x75459033, 0x7545900A, '2005-02-09 10:00:00') /* Bronze Statue of a Zharalim (19315) */
+     , (0x75459033, 0x7545900B, '2005-02-09 10:00:00') /* Bronze Statue of a Banderling (19300) */
+     , (0x75459033, 0x7545900F, '2005-02-09 10:00:00') /* Bronze Statue of a Zharalim (19315) */
+     , (0x75459033, 0x75459012, '2005-02-09 10:00:00') /* Bronze Statue of a Banderling (19300) */
+     , (0x75459033, 0x75459016, '2005-02-09 10:00:00') /* Bronze Statue of a Zharalim (19315) */
+     , (0x75459033, 0x75459017, '2005-02-09 10:00:00') /* Bronze Statue of a Skeleton (19309) */
+     , (0x75459033, 0x75459018, '2005-02-09 10:00:00') /* Bronze Statue of Ben Ten (19303) */
+     , (0x75459033, 0x75459019, '2005-02-09 10:00:00') /* Bronze Statue of a Banderling (19300) */
+     , (0x75459033, 0x7545901A, '2005-02-09 10:00:00') /* Bronze Statue of a Zharalim (19315) */
+     , (0x75459033, 0x7545901B, '2005-02-09 10:00:00') /* Bronze Statue of a Sclavus (19306) */
+     , (0x75459033, 0x7545901C, '2005-02-09 10:00:00') /* Bronze Statue of Thorsten Cragstone (19312) */
+     , (0x75459033, 0x7545901D, '2005-02-09 10:00:00') /* Bronze Statue of a Skeleton (19309) */
+     , (0x75459033, 0x7545901E, '2005-02-09 10:00:00') /* Bronze Statue of Thorsten Cragstone (19312) */
+     , (0x75459033, 0x7545901F, '2005-02-09 10:00:00') /* Bronze Statue of a Skeleton (19309) */
+     , (0x75459033, 0x75459020, '2005-02-09 10:00:00') /* Bronze Statue of Ben Ten (19303) */
+     , (0x75459033, 0x75459021, '2005-02-09 10:00:00') /* Bronze Statue of a Banderling (19300) */
+     , (0x75459033, 0x75459022, '2005-02-09 10:00:00') /* Bronze Statue of Thorsten Cragstone (19312) */
+     , (0x75459033, 0x75459023, '2005-02-09 10:00:00') /* Bronze Statue of a Banderling (19300) */
+     , (0x75459033, 0x75459024, '2005-02-09 10:00:00') /* Bronze Statue of a Sclavus (19306) */
+     , (0x75459033, 0x75459025, '2005-02-09 10:00:00') /* Bronze Statue of a Zharalim (19315) */
+     , (0x75459033, 0x75459026, '2005-02-09 10:00:00') /* Bronze Statue of Thorsten Cragstone (19312) */
+     , (0x75459033, 0x75459035, '2005-02-09 10:00:00') /* Bronze Statue of Thorsten Cragstone (19312) */
+     , (0x75459033, 0x75459036, '2005-02-09 10:00:00') /* Bronze Statue of a Banderling (19300) */
+     , (0x75459033, 0x75459038, '2005-02-09 10:00:00') /* Bronze Statue of a Zharalim (19315) */
+     , (0x75459033, 0x75459039, '2005-02-09 10:00:00') /* Bronze Statue of Ben Ten (19303) */
+     , (0x75459033, 0x7545903B, '2005-02-09 10:00:00') /* Bronze Statue of a Skeleton (19309) */
+     , (0x75459033, 0x7545903C, '2005-02-09 10:00:00') /* Bronze Statue of a Sclavus (19306) */
+     , (0x75459033, 0x7545903D, '2005-02-09 10:00:00') /* Bronze Statue of Thorsten Cragstone (19312) */
+     , (0x75459033, 0x75459041, '2005-02-09 10:00:00') /* Bronze Statue of Thorsten Cragstone (19312) */
+     , (0x75459033, 0x75459042, '2005-02-09 10:00:00') /* Bronze Statue of Thorsten Cragstone (19312) */
+     , (0x75459033, 0x75459044, '2005-02-09 10:00:00') /* Bronze Statue of Thorsten Cragstone (19312) */
+     , (0x75459033, 0x75459045, '2005-02-09 10:00:00') /* Bronze Statue of Thorsten Cragstone (19312) */
+     , (0x75459033, 0x75459046, '2005-02-09 10:00:00') /* Bronze Statue of Thorsten Cragstone (19312) */
+     , (0x75459033, 0x75459047, '2005-02-09 10:00:00') /* Bronze Statue of a Skeleton (19309) */
+     , (0x75459033, 0x75459048, '2005-02-09 10:00:00') /* Bronze Statue of Thorsten Cragstone (19312) */
+     , (0x75459033, 0x75459049, '2005-02-09 10:00:00') /* Bronze Statue of a Skeleton (19309) */
+     , (0x75459033, 0x7545904A, '2005-02-09 10:00:00') /* Bronze Statue of a Skeleton (19309) */
+     , (0x75459033, 0x7545904B, '2005-02-09 10:00:00') /* Bronze Statue of a Skeleton (19309) */
+     , (0x75459033, 0x7545904C, '2005-02-09 10:00:00') /* Bronze Statue of a Skeleton (19309) */
+     , (0x75459033, 0x7545904D, '2005-02-09 10:00:00') /* Bronze Statue of a Skeleton (19309) */
+     , (0x75459033, 0x7545904F, '2005-02-09 10:00:00') /* Bronze Statue of a Skeleton (19309) */
+     , (0x75459033, 0x75459050, '2005-02-09 10:00:00') /* Bronze Statue of a Skeleton (19309) */
+     , (0x75459033, 0x75459051, '2005-02-09 10:00:00') /* Bronze Statue of a Skeleton (19309) */
+     , (0x75459033, 0x7545905F, '2005-02-09 10:00:00') /* Bronze Statue of a Sclavus (19306) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75459034, 15274, 0x545901B0, 14.3935, -76.2248, 6.005, 0.036284, 0, 0, -0.999342, False, '2005-02-09 10:00:00'); /* Linkable Monster Gen (1 min.) */
 /* @teleloc 0x545901B0 [14.393500 -76.224800 6.005000] 0.036284 0.000000 0.000000 -0.999342 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x75459034, 0x75459000, '2005-02-09 10:00:00') /* Bronze Statue of a Zharalim */
-     , (0x75459034, 0x75459001, '2005-02-09 10:00:00') /* Bronze Statue of a Banderling */
-     , (0x75459034, 0x75459002, '2005-02-09 10:00:00') /* Bronze Statue of a Zharalim */
-     , (0x75459034, 0x75459004, '2005-02-09 10:00:00') /* Bronze Statue of a Zharalim */
-     , (0x75459034, 0x75459005, '2005-02-09 10:00:00') /* Bronze Statue of a Banderling */
-     , (0x75459034, 0x75459007, '2005-02-09 10:00:00') /* Bronze Statue of a Banderling */
-     , (0x75459034, 0x7545900E, '2005-02-09 10:00:00') /* Bronze Statue of a Zharalim */
-     , (0x75459034, 0x75459010, '2005-02-09 10:00:00') /* Bronze Statue of a Zharalim */
-     , (0x75459034, 0x75459011, '2005-02-09 10:00:00') /* Bronze Statue of a Banderling */
-     , (0x75459034, 0x75459013, '2005-02-09 10:00:00') /* Bronze Statue of a Banderling */
-     , (0x75459034, 0x75459014, '2005-02-09 10:00:00') /* Bronze Statue of a Zharalim */
-     , (0x75459034, 0x75459015, '2005-02-09 10:00:00') /* Bronze Statue of a Banderling */
-     , (0x75459034, 0x75459027, '2005-02-09 10:00:00') /* Bronze Statue of Ben Ten */
-     , (0x75459034, 0x75459028, '2005-02-09 10:00:00') /* Bronze Statue of Ben Ten */
-     , (0x75459034, 0x75459029, '2005-02-09 10:00:00') /* Bronze Statue of Ben Ten */
-     , (0x75459034, 0x7545902A, '2005-02-09 10:00:00') /* Bronze Statue of Ben Ten */
-     , (0x75459034, 0x7545902B, '2005-02-09 10:00:00') /* Bronze Statue of Ben Ten */
-     , (0x75459034, 0x7545902C, '2005-02-09 10:00:00') /* Bronze Statue of Ben Ten */
-     , (0x75459034, 0x7545902D, '2005-02-09 10:00:00') /* Bronze Statue of Ben Ten */
-     , (0x75459034, 0x75459030, '2005-02-09 10:00:00') /* Bronze Statue of Ben Ten */
-     , (0x75459034, 0x75459031, '2005-02-09 10:00:00') /* Bronze Statue of Ben Ten */
-     , (0x75459034, 0x75459037, '2005-02-09 10:00:00') /* Bronze Statue of Thorsten Cragstone */
-     , (0x75459034, 0x7545903A, '2005-02-09 10:00:00') /* Bronze Statue of Thorsten Cragstone */
-     , (0x75459034, 0x7545903E, '2005-02-09 10:00:00') /* Bronze Statue of Thorsten Cragstone */
-     , (0x75459034, 0x75459043, '2005-02-09 10:00:00') /* Bronze Statue of Thorsten Cragstone */
-     , (0x75459034, 0x7545904E, '2005-02-09 10:00:00') /* Bronze Statue of a Skeleton */
-     , (0x75459034, 0x75459054, '2005-02-09 10:00:00') /* Bronze Statue of a Skeleton */
-     , (0x75459034, 0x75459055, '2005-02-09 10:00:00') /* Bronze Statue of a Skeleton */
-     , (0x75459034, 0x75459056, '2005-02-09 10:00:00') /* Bronze Statue of a Sclavus */
-     , (0x75459034, 0x75459057, '2005-02-09 10:00:00') /* Bronze Statue of a Sclavus */
-     , (0x75459034, 0x75459058, '2005-02-09 10:00:00') /* Bronze Statue of a Sclavus */
-     , (0x75459034, 0x75459059, '2005-02-09 10:00:00') /* Bronze Statue of a Sclavus */
-     , (0x75459034, 0x7545905B, '2005-02-09 10:00:00') /* Bronze Statue of a Sclavus */
-     , (0x75459034, 0x7545905C, '2005-02-09 10:00:00') /* Bronze Statue of a Sclavus */;
+VALUES (0x75459034, 0x75459000, '2005-02-09 10:00:00') /* Bronze Statue of a Zharalim (19315) */
+     , (0x75459034, 0x75459001, '2005-02-09 10:00:00') /* Bronze Statue of a Banderling (19300) */
+     , (0x75459034, 0x75459002, '2005-02-09 10:00:00') /* Bronze Statue of a Zharalim (19315) */
+     , (0x75459034, 0x75459004, '2005-02-09 10:00:00') /* Bronze Statue of a Zharalim (19315) */
+     , (0x75459034, 0x75459005, '2005-02-09 10:00:00') /* Bronze Statue of a Banderling (19300) */
+     , (0x75459034, 0x75459007, '2005-02-09 10:00:00') /* Bronze Statue of a Banderling (19300) */
+     , (0x75459034, 0x7545900E, '2005-02-09 10:00:00') /* Bronze Statue of a Zharalim (19315) */
+     , (0x75459034, 0x75459010, '2005-02-09 10:00:00') /* Bronze Statue of a Zharalim (19315) */
+     , (0x75459034, 0x75459011, '2005-02-09 10:00:00') /* Bronze Statue of a Banderling (19300) */
+     , (0x75459034, 0x75459013, '2005-02-09 10:00:00') /* Bronze Statue of a Banderling (19300) */
+     , (0x75459034, 0x75459014, '2005-02-09 10:00:00') /* Bronze Statue of a Zharalim (19315) */
+     , (0x75459034, 0x75459015, '2005-02-09 10:00:00') /* Bronze Statue of a Banderling (19300) */
+     , (0x75459034, 0x75459027, '2005-02-09 10:00:00') /* Bronze Statue of Ben Ten (19303) */
+     , (0x75459034, 0x75459028, '2005-02-09 10:00:00') /* Bronze Statue of Ben Ten (19303) */
+     , (0x75459034, 0x75459029, '2005-02-09 10:00:00') /* Bronze Statue of Ben Ten (19303) */
+     , (0x75459034, 0x7545902A, '2005-02-09 10:00:00') /* Bronze Statue of Ben Ten (19303) */
+     , (0x75459034, 0x7545902B, '2005-02-09 10:00:00') /* Bronze Statue of Ben Ten (19303) */
+     , (0x75459034, 0x7545902C, '2005-02-09 10:00:00') /* Bronze Statue of Ben Ten (19303) */
+     , (0x75459034, 0x7545902D, '2005-02-09 10:00:00') /* Bronze Statue of Ben Ten (19303) */
+     , (0x75459034, 0x75459030, '2005-02-09 10:00:00') /* Bronze Statue of Ben Ten (19303) */
+     , (0x75459034, 0x75459031, '2005-02-09 10:00:00') /* Bronze Statue of Ben Ten (19303) */
+     , (0x75459034, 0x75459037, '2005-02-09 10:00:00') /* Bronze Statue of Thorsten Cragstone (19312) */
+     , (0x75459034, 0x7545903A, '2005-02-09 10:00:00') /* Bronze Statue of Thorsten Cragstone (19312) */
+     , (0x75459034, 0x7545903E, '2005-02-09 10:00:00') /* Bronze Statue of Thorsten Cragstone (19312) */
+     , (0x75459034, 0x75459043, '2005-02-09 10:00:00') /* Bronze Statue of Thorsten Cragstone (19312) */
+     , (0x75459034, 0x7545904E, '2005-02-09 10:00:00') /* Bronze Statue of a Skeleton (19309) */
+     , (0x75459034, 0x75459054, '2005-02-09 10:00:00') /* Bronze Statue of a Skeleton (19309) */
+     , (0x75459034, 0x75459055, '2005-02-09 10:00:00') /* Bronze Statue of a Skeleton (19309) */
+     , (0x75459034, 0x75459056, '2005-02-09 10:00:00') /* Bronze Statue of a Sclavus (19306) */
+     , (0x75459034, 0x75459057, '2005-02-09 10:00:00') /* Bronze Statue of a Sclavus (19306) */
+     , (0x75459034, 0x75459058, '2005-02-09 10:00:00') /* Bronze Statue of a Sclavus (19306) */
+     , (0x75459034, 0x75459059, '2005-02-09 10:00:00') /* Bronze Statue of a Sclavus (19306) */
+     , (0x75459034, 0x7545905B, '2005-02-09 10:00:00') /* Bronze Statue of a Sclavus (19306) */
+     , (0x75459034, 0x7545905C, '2005-02-09 10:00:00') /* Bronze Statue of a Sclavus (19306) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75459035, 19312, 0x545901C8, 40.1775, -52.7529, 6.0115, -0.066982, 0, 0, -0.997754,  True, '2005-02-09 10:00:00'); /* Bronze Statue of Thorsten Cragstone */

@@ -237,74 +237,74 @@ VALUES (0x7016F03A,  7932, 0x016F01FC, 66.7401, -90, 0.005, 1, 0, 0, 0, False, '
 /* @teleloc 0x016F01FC [66.740100 -90.000000 0.005000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7016F03A, 0x7016F01B, '2005-02-09 10:00:00') /* Burun Ruuk Soothsayer */
-     , (0x7016F03A, 0x7016F020, '2005-02-09 10:00:00') /* Burun Ruuk Soothsayer */
-     , (0x7016F03A, 0x7016F021, '2005-02-09 10:00:00') /* Burun Ruuk Fiend */
-     , (0x7016F03A, 0x7016F023, '2005-02-09 10:00:00') /* Guruk Brute */
-     , (0x7016F03A, 0x7016F024, '2005-02-09 10:00:00') /* Burun Ruuk Soothsayer */
-     , (0x7016F03A, 0x7016F025, '2005-02-09 10:00:00') /* Burun Ruuk Soothsayer */
-     , (0x7016F03A, 0x7016F026, '2005-02-09 10:00:00') /* Guruk Brute */
-     , (0x7016F03A, 0x7016F027, '2005-02-09 10:00:00') /* Burun Ruuk Soothsayer */
-     , (0x7016F03A, 0x7016F028, '2005-02-09 10:00:00') /* Burun Ruuk Fiend */
-     , (0x7016F03A, 0x7016F029, '2005-02-09 10:00:00') /* Burun Ruuk Soothsayer */
-     , (0x7016F03A, 0x7016F02A, '2005-02-09 10:00:00') /* Guruk Brute */
-     , (0x7016F03A, 0x7016F02B, '2005-02-09 10:00:00') /* Guruk Brute */
-     , (0x7016F03A, 0x7016F02C, '2005-02-09 10:00:00') /* Burun Ruuk Soothsayer */
-     , (0x7016F03A, 0x7016F02D, '2005-02-09 10:00:00') /* Burun Ruuk Soothsayer */
-     , (0x7016F03A, 0x7016F02E, '2005-02-09 10:00:00') /* Guruk Brute */
-     , (0x7016F03A, 0x7016F02F, '2005-02-09 10:00:00') /* Guruk Brute */
-     , (0x7016F03A, 0x7016F030, '2005-02-09 10:00:00') /* Guruk Beast */
-     , (0x7016F03A, 0x7016F031, '2005-02-09 10:00:00') /* Burun Ruuk Soothsayer */
-     , (0x7016F03A, 0x7016F032, '2005-02-09 10:00:00') /* Guruk Beast */
-     , (0x7016F03A, 0x7016F033, '2005-02-09 10:00:00') /* Burun Ruuk Fiend */
-     , (0x7016F03A, 0x7016F034, '2005-02-09 10:00:00') /* Burun Ruuk Soothsayer */
-     , (0x7016F03A, 0x7016F035, '2005-02-09 10:00:00') /* Burun Ruuk Fiend */
-     , (0x7016F03A, 0x7016F036, '2005-02-09 10:00:00') /* Burun Ruuk Soothsayer */
-     , (0x7016F03A, 0x7016F037, '2005-02-09 10:00:00') /* Burun Ruuk Fiend */
-     , (0x7016F03A, 0x7016F038, '2005-02-09 10:00:00') /* Burun Ruuk Fiend */;
+VALUES (0x7016F03A, 0x7016F01B, '2005-02-09 10:00:00') /* Burun Ruuk Soothsayer (26021) */
+     , (0x7016F03A, 0x7016F020, '2005-02-09 10:00:00') /* Burun Ruuk Soothsayer (26021) */
+     , (0x7016F03A, 0x7016F021, '2005-02-09 10:00:00') /* Burun Ruuk Fiend (26014) */
+     , (0x7016F03A, 0x7016F023, '2005-02-09 10:00:00') /* Guruk Brute (27982) */
+     , (0x7016F03A, 0x7016F024, '2005-02-09 10:00:00') /* Burun Ruuk Soothsayer (26021) */
+     , (0x7016F03A, 0x7016F025, '2005-02-09 10:00:00') /* Burun Ruuk Soothsayer (26021) */
+     , (0x7016F03A, 0x7016F026, '2005-02-09 10:00:00') /* Guruk Brute (27982) */
+     , (0x7016F03A, 0x7016F027, '2005-02-09 10:00:00') /* Burun Ruuk Soothsayer (26021) */
+     , (0x7016F03A, 0x7016F028, '2005-02-09 10:00:00') /* Burun Ruuk Fiend (26014) */
+     , (0x7016F03A, 0x7016F029, '2005-02-09 10:00:00') /* Burun Ruuk Soothsayer (26021) */
+     , (0x7016F03A, 0x7016F02A, '2005-02-09 10:00:00') /* Guruk Brute (27982) */
+     , (0x7016F03A, 0x7016F02B, '2005-02-09 10:00:00') /* Guruk Brute (27982) */
+     , (0x7016F03A, 0x7016F02C, '2005-02-09 10:00:00') /* Burun Ruuk Soothsayer (26021) */
+     , (0x7016F03A, 0x7016F02D, '2005-02-09 10:00:00') /* Burun Ruuk Soothsayer (26021) */
+     , (0x7016F03A, 0x7016F02E, '2005-02-09 10:00:00') /* Guruk Brute (27982) */
+     , (0x7016F03A, 0x7016F02F, '2005-02-09 10:00:00') /* Guruk Brute (27982) */
+     , (0x7016F03A, 0x7016F030, '2005-02-09 10:00:00') /* Guruk Beast (27979) */
+     , (0x7016F03A, 0x7016F031, '2005-02-09 10:00:00') /* Burun Ruuk Soothsayer (26021) */
+     , (0x7016F03A, 0x7016F032, '2005-02-09 10:00:00') /* Guruk Beast (27979) */
+     , (0x7016F03A, 0x7016F033, '2005-02-09 10:00:00') /* Burun Ruuk Fiend (26014) */
+     , (0x7016F03A, 0x7016F034, '2005-02-09 10:00:00') /* Burun Ruuk Soothsayer (26021) */
+     , (0x7016F03A, 0x7016F035, '2005-02-09 10:00:00') /* Burun Ruuk Fiend (26014) */
+     , (0x7016F03A, 0x7016F036, '2005-02-09 10:00:00') /* Burun Ruuk Soothsayer (26021) */
+     , (0x7016F03A, 0x7016F037, '2005-02-09 10:00:00') /* Burun Ruuk Fiend (26014) */
+     , (0x7016F03A, 0x7016F038, '2005-02-09 10:00:00') /* Burun Ruuk Fiend (26014) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7016F03B,  7932, 0x016F01FC, 68.0639, -90, 0.005, 1, 0, 0, 0, False, '2005-02-09 10:00:00'); /* Linkable Monster Generator ( 4 Min.) */
 /* @teleloc 0x016F01FC [68.063900 -90.000000 0.005000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7016F03B, 0x7016F001, '2005-02-09 10:00:00') /* Burun Ruuk Fiend */
-     , (0x7016F03B, 0x7016F002, '2005-02-09 10:00:00') /* Burun Ruuk Fiend */
-     , (0x7016F03B, 0x7016F003, '2005-02-09 10:00:00') /* Burun Ruuk Soothsayer */
-     , (0x7016F03B, 0x7016F004, '2005-02-09 10:00:00') /* Burun Ruuk Fiend */
-     , (0x7016F03B, 0x7016F005, '2005-02-09 10:00:00') /* Burun Ruuk Fiend */
-     , (0x7016F03B, 0x7016F006, '2005-02-09 10:00:00') /* Burun Ruuk Soothsayer */
-     , (0x7016F03B, 0x7016F007, '2005-02-09 10:00:00') /* Burun Ruuk Soothsayer */
-     , (0x7016F03B, 0x7016F008, '2005-02-09 10:00:00') /* Burun Ruuk Soothsayer */
-     , (0x7016F03B, 0x7016F00A, '2005-02-09 10:00:00') /* Burun Ruuk Soothsayer */
-     , (0x7016F03B, 0x7016F00B, '2005-02-09 10:00:00') /* Burun Ruuk Soothsayer */
-     , (0x7016F03B, 0x7016F00C, '2005-02-09 10:00:00') /* Burun Ruuk Soothsayer */
-     , (0x7016F03B, 0x7016F00D, '2005-02-09 10:00:00') /* Burun Ruuk Fiend */
-     , (0x7016F03B, 0x7016F00E, '2005-02-09 10:00:00') /* Guruk Brute */
-     , (0x7016F03B, 0x7016F00F, '2005-02-09 10:00:00') /* Guruk Destroyer */
-     , (0x7016F03B, 0x7016F010, '2005-02-09 10:00:00') /* Burun Ruuk Soothsayer */
-     , (0x7016F03B, 0x7016F011, '2005-02-09 10:00:00') /* Burun Ruuk Soothsayer */
-     , (0x7016F03B, 0x7016F012, '2005-02-09 10:00:00') /* Guruk Destroyer */
-     , (0x7016F03B, 0x7016F013, '2005-02-09 10:00:00') /* Guruk Destroyer */
-     , (0x7016F03B, 0x7016F014, '2005-02-09 10:00:00') /* Guruk Destroyer */
-     , (0x7016F03B, 0x7016F015, '2005-02-09 10:00:00') /* Guruk Destroyer */
-     , (0x7016F03B, 0x7016F016, '2005-02-09 10:00:00') /* Burun Ruuk Soothsayer */
-     , (0x7016F03B, 0x7016F017, '2005-02-09 10:00:00') /* Burun Ruuk Fiend */
-     , (0x7016F03B, 0x7016F018, '2005-02-09 10:00:00') /* Burun Ruuk Fiend */
-     , (0x7016F03B, 0x7016F019, '2005-02-09 10:00:00') /* Burun Ruuk Soothsayer */
-     , (0x7016F03B, 0x7016F01A, '2005-02-09 10:00:00') /* Burun Ruuk Soothsayer */
-     , (0x7016F03B, 0x7016F01C, '2005-02-09 10:00:00') /* Guruk Brute */
-     , (0x7016F03B, 0x7016F01D, '2005-02-09 10:00:00') /* Guruk Destroyer */
-     , (0x7016F03B, 0x7016F01E, '2005-02-09 10:00:00') /* Guruk Destroyer */
-     , (0x7016F03B, 0x7016F01F, '2005-02-09 10:00:00') /* Guruk Destroyer */
-     , (0x7016F03B, 0x7016F022, '2005-02-09 10:00:00') /* Burun Ruuk Soothsayer */;
+VALUES (0x7016F03B, 0x7016F001, '2005-02-09 10:00:00') /* Burun Ruuk Fiend (26014) */
+     , (0x7016F03B, 0x7016F002, '2005-02-09 10:00:00') /* Burun Ruuk Fiend (26014) */
+     , (0x7016F03B, 0x7016F003, '2005-02-09 10:00:00') /* Burun Ruuk Soothsayer (26021) */
+     , (0x7016F03B, 0x7016F004, '2005-02-09 10:00:00') /* Burun Ruuk Fiend (26014) */
+     , (0x7016F03B, 0x7016F005, '2005-02-09 10:00:00') /* Burun Ruuk Fiend (26014) */
+     , (0x7016F03B, 0x7016F006, '2005-02-09 10:00:00') /* Burun Ruuk Soothsayer (26021) */
+     , (0x7016F03B, 0x7016F007, '2005-02-09 10:00:00') /* Burun Ruuk Soothsayer (26021) */
+     , (0x7016F03B, 0x7016F008, '2005-02-09 10:00:00') /* Burun Ruuk Soothsayer (26021) */
+     , (0x7016F03B, 0x7016F00A, '2005-02-09 10:00:00') /* Burun Ruuk Soothsayer (26021) */
+     , (0x7016F03B, 0x7016F00B, '2005-02-09 10:00:00') /* Burun Ruuk Soothsayer (26021) */
+     , (0x7016F03B, 0x7016F00C, '2005-02-09 10:00:00') /* Burun Ruuk Soothsayer (26021) */
+     , (0x7016F03B, 0x7016F00D, '2005-02-09 10:00:00') /* Burun Ruuk Fiend (26014) */
+     , (0x7016F03B, 0x7016F00E, '2005-02-09 10:00:00') /* Guruk Brute (27982) */
+     , (0x7016F03B, 0x7016F00F, '2005-02-09 10:00:00') /* Guruk Destroyer (27985) */
+     , (0x7016F03B, 0x7016F010, '2005-02-09 10:00:00') /* Burun Ruuk Soothsayer (26021) */
+     , (0x7016F03B, 0x7016F011, '2005-02-09 10:00:00') /* Burun Ruuk Soothsayer (26021) */
+     , (0x7016F03B, 0x7016F012, '2005-02-09 10:00:00') /* Guruk Destroyer (27985) */
+     , (0x7016F03B, 0x7016F013, '2005-02-09 10:00:00') /* Guruk Destroyer (27985) */
+     , (0x7016F03B, 0x7016F014, '2005-02-09 10:00:00') /* Guruk Destroyer (27985) */
+     , (0x7016F03B, 0x7016F015, '2005-02-09 10:00:00') /* Guruk Destroyer (27985) */
+     , (0x7016F03B, 0x7016F016, '2005-02-09 10:00:00') /* Burun Ruuk Soothsayer (26021) */
+     , (0x7016F03B, 0x7016F017, '2005-02-09 10:00:00') /* Burun Ruuk Fiend (26014) */
+     , (0x7016F03B, 0x7016F018, '2005-02-09 10:00:00') /* Burun Ruuk Fiend (26014) */
+     , (0x7016F03B, 0x7016F019, '2005-02-09 10:00:00') /* Burun Ruuk Soothsayer (26021) */
+     , (0x7016F03B, 0x7016F01A, '2005-02-09 10:00:00') /* Burun Ruuk Soothsayer (26021) */
+     , (0x7016F03B, 0x7016F01C, '2005-02-09 10:00:00') /* Guruk Brute (27982) */
+     , (0x7016F03B, 0x7016F01D, '2005-02-09 10:00:00') /* Guruk Destroyer (27985) */
+     , (0x7016F03B, 0x7016F01E, '2005-02-09 10:00:00') /* Guruk Destroyer (27985) */
+     , (0x7016F03B, 0x7016F01F, '2005-02-09 10:00:00') /* Guruk Destroyer (27985) */
+     , (0x7016F03B, 0x7016F022, '2005-02-09 10:00:00') /* Burun Ruuk Soothsayer (26021) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7016F03C,  7932, 0x016F01FC, 71.5372, -90, 0.005, 1, 0, 0, 0, False, '2005-02-09 10:00:00'); /* Linkable Monster Generator ( 4 Min.) */
 /* @teleloc 0x016F01FC [71.537200 -90.000000 0.005000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7016F03C, 0x7016F000, '2005-02-09 10:00:00') /* Guardian */;
+VALUES (0x7016F03C, 0x7016F000, '2005-02-09 10:00:00') /* Guardian (29037) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7016F03D, 26553, 0x016F01FE, 70, -105.15, 0.005, 0, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Guardian */

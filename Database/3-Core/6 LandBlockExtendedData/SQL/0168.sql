@@ -69,33 +69,33 @@ VALUES (0x70168011,  7923, 0x01680155, 61.0577, -51.9919, 0, 0.707107, 0, 0, -0.
 /* @teleloc 0x01680155 [61.057700 -51.991900 0.000000] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x70168011, 0x70168000, '2005-02-09 10:00:00') /* Drudge Skulker */
-     , (0x70168011, 0x70168001, '2005-02-09 10:00:00') /* Drudge Skulker */
-     , (0x70168011, 0x70168003, '2005-02-09 10:00:00') /* Drudge Skulker */
-     , (0x70168011, 0x70168005, '2005-02-09 10:00:00') /* Drudge Skulker */
-     , (0x70168011, 0x70168006, '2005-02-09 10:00:00') /* Drudge Skulker */
-     , (0x70168011, 0x7016800D, '2005-02-09 10:00:00') /* Drudge Skulker */
-     , (0x70168011, 0x7016800E, '2005-02-09 10:00:00') /* Drudge Skulker */
-     , (0x70168011, 0x7016800F, '2005-02-09 10:00:00') /* Drudge Skulker */
-     , (0x70168011, 0x70168010, '2005-02-09 10:00:00') /* Drudge Skulker */
-     , (0x70168011, 0x70168014, '2005-02-09 10:00:00') /* Drudge Skulker */
-     , (0x70168011, 0x70168015, '2005-02-09 10:00:00') /* Drudge Skulker */
-     , (0x70168011, 0x70168019, '2005-02-09 10:00:00') /* Drudge Skulker */
-     , (0x70168011, 0x7016801A, '2005-02-09 10:00:00') /* Drudge Skulker */;
+VALUES (0x70168011, 0x70168000, '2005-02-09 10:00:00') /* Drudge Skulker (7) */
+     , (0x70168011, 0x70168001, '2005-02-09 10:00:00') /* Drudge Skulker (7) */
+     , (0x70168011, 0x70168003, '2005-02-09 10:00:00') /* Drudge Skulker (7) */
+     , (0x70168011, 0x70168005, '2005-02-09 10:00:00') /* Drudge Skulker (7) */
+     , (0x70168011, 0x70168006, '2005-02-09 10:00:00') /* Drudge Skulker (7) */
+     , (0x70168011, 0x7016800D, '2005-02-09 10:00:00') /* Drudge Skulker (7) */
+     , (0x70168011, 0x7016800E, '2005-02-09 10:00:00') /* Drudge Skulker (7) */
+     , (0x70168011, 0x7016800F, '2005-02-09 10:00:00') /* Drudge Skulker (7) */
+     , (0x70168011, 0x70168010, '2005-02-09 10:00:00') /* Drudge Skulker (7) */
+     , (0x70168011, 0x70168014, '2005-02-09 10:00:00') /* Drudge Skulker (7) */
+     , (0x70168011, 0x70168015, '2005-02-09 10:00:00') /* Drudge Skulker (7) */
+     , (0x70168011, 0x70168019, '2005-02-09 10:00:00') /* Drudge Skulker (7) */
+     , (0x70168011, 0x7016801A, '2005-02-09 10:00:00') /* Drudge Skulker (7) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x70168012,  3955, 0x01680155, 57.8053, -52.0953, 0, 0.707107, 0, 0, -0.707107, False, '2005-02-09 10:00:00'); /* Linkable Monster Gen (15 min.) */
 /* @teleloc 0x01680155 [57.805300 -52.095300 0.000000] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x70168012, 0x70168009, '2005-02-09 10:00:00') /* Drudge Slinker */;
+VALUES (0x70168012, 0x70168009, '2005-02-09 10:00:00') /* Drudge Slinker (193) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x70168013,  5085, 0x01680155, 60.3211, -54.1851, 0.005, 0.514395, 0, 0, 0.857553, False, '2005-02-09 10:00:00'); /* Linkable Item Gen - 25 seconds */
 /* @teleloc 0x01680155 [60.321100 -54.185100 0.005000] 0.514395 0.000000 0.000000 0.857553 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x70168013, 0x7016800C, '2005-02-09 10:00:00') /* Nanto Town Stamp */;
+VALUES (0x70168013, 0x7016800C, '2005-02-09 10:00:00') /* Nanto Town Stamp (8737) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x70168014,     7, 0x01680156, 57.0875, -58.6009, 0.003325, 0.353985, 0, 0, -0.935251,  True, '2005-02-09 10:00:00'); /* Drudge Skulker */

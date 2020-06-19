@@ -813,132 +813,132 @@ VALUES (0x75F470CA,  7932, 0x5F470358, 151.022, -109.971, -5.995, -0.705412, 0, 
 /* @teleloc 0x5F470358 [151.022000 -109.971000 -5.995000] -0.705412 0.000000 0.000000 -0.708798 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x75F470CA, 0x75F47008, '2005-02-09 10:00:00') /* Sapphire Gromnie */
-     , (0x75F470CA, 0x75F47009, '2005-02-09 10:00:00') /* Sapphire Gromnie */
-     , (0x75F470CA, 0x75F4700A, '2005-02-09 10:00:00') /* Freezing Elemental Pool */
-     , (0x75F470CA, 0x75F4700B, '2005-02-09 10:00:00') /* Sapphire Gromnie */
-     , (0x75F470CA, 0x75F4700C, '2005-02-09 10:00:00') /* Sapphire Gromnie */
-     , (0x75F470CA, 0x75F4700D, '2005-02-09 10:00:00') /* Sapphire Gromnie */
-     , (0x75F470CA, 0x75F47024, '2005-02-09 10:00:00') /* Sapphire Gromnie */
-     , (0x75F470CA, 0x75F47025, '2005-02-09 10:00:00') /* Sapphire Gromnie */
-     , (0x75F470CA, 0x75F47026, '2005-02-09 10:00:00') /* Sapphire Gromnie */
-     , (0x75F470CA, 0x75F47028, '2005-02-09 10:00:00') /* Sapphire Gromnie */
-     , (0x75F470CA, 0x75F47029, '2005-02-09 10:00:00') /* Sapphire Gromnie */
-     , (0x75F470CA, 0x75F4702A, '2005-02-09 10:00:00') /* Sapphire Gromnie */
-     , (0x75F470CA, 0x75F4702D, '2005-02-09 10:00:00') /* Sapphire Gromnie */
-     , (0x75F470CA, 0x75F4702E, '2005-02-09 10:00:00') /* Sapphire Gromnie */
-     , (0x75F470CA, 0x75F4702F, '2005-02-09 10:00:00') /* Sapphire Gromnie */
-     , (0x75F470CA, 0x75F47030, '2005-02-09 10:00:00') /* Sapphire Gromnie */
-     , (0x75F470CA, 0x75F47031, '2005-02-09 10:00:00') /* Sapphire Gromnie */
-     , (0x75F470CA, 0x75F47032, '2005-02-09 10:00:00') /* Sapphire Gromnie */
-     , (0x75F470CA, 0x75F47050, '2005-02-09 10:00:00') /* Sapphire Gromnie */
-     , (0x75F470CA, 0x75F47051, '2005-02-09 10:00:00') /* Sapphire Gromnie */
-     , (0x75F470CA, 0x75F47052, '2005-02-09 10:00:00') /* Sapphire Gromnie */
-     , (0x75F470CA, 0x75F47053, '2005-02-09 10:00:00') /* Sapphire Gromnie */
-     , (0x75F470CA, 0x75F47054, '2005-02-09 10:00:00') /* Sapphire Gromnie */
-     , (0x75F470CA, 0x75F47055, '2005-02-09 10:00:00') /* Sapphire Gromnie */
-     , (0x75F470CA, 0x75F47056, '2005-02-09 10:00:00') /* Sapphire Gromnie */
-     , (0x75F470CA, 0x75F47057, '2005-02-09 10:00:00') /* Sapphire Gromnie */
-     , (0x75F470CA, 0x75F47073, '2005-02-09 10:00:00') /* Sapphire Gromnie */
-     , (0x75F470CA, 0x75F47074, '2005-02-09 10:00:00') /* Sapphire Gromnie */
-     , (0x75F470CA, 0x75F47075, '2005-02-09 10:00:00') /* Sapphire Gromnie */
-     , (0x75F470CA, 0x75F47078, '2005-02-09 10:00:00') /* Sapphire Gromnie */
-     , (0x75F470CA, 0x75F47079, '2005-02-09 10:00:00') /* Sapphire Gromnie */
-     , (0x75F470CA, 0x75F4707A, '2005-02-09 10:00:00') /* Sapphire Gromnie */
-     , (0x75F470CA, 0x75F4707F, '2005-02-09 10:00:00') /* Sapphire Gromnie */
-     , (0x75F470CA, 0x75F47080, '2005-02-09 10:00:00') /* Sapphire Gromnie */
-     , (0x75F470CA, 0x75F47081, '2005-02-09 10:00:00') /* Sapphire Gromnie */
-     , (0x75F470CA, 0x75F47082, '2005-02-09 10:00:00') /* Sapphire Gromnie */
-     , (0x75F470CA, 0x75F47087, '2005-02-09 10:00:00') /* Sapphire Gromnie */
-     , (0x75F470CA, 0x75F47088, '2005-02-09 10:00:00') /* Sapphire Gromnie */
-     , (0x75F470CA, 0x75F47089, '2005-02-09 10:00:00') /* Sapphire Gromnie */
-     , (0x75F470CA, 0x75F4708A, '2005-02-09 10:00:00') /* Sapphire Gromnie */
-     , (0x75F470CA, 0x75F4708B, '2005-02-09 10:00:00') /* Sapphire Gromnie */
-     , (0x75F470CA, 0x75F4708C, '2005-02-09 10:00:00') /* Sapphire Gromnie */
-     , (0x75F470CA, 0x75F4708D, '2005-02-09 10:00:00') /* Sapphire Gromnie */
-     , (0x75F470CA, 0x75F470B0, '2005-02-09 10:00:00') /* Sapphire Gromnie */
-     , (0x75F470CA, 0x75F470B1, '2005-02-09 10:00:00') /* Sapphire Gromnie */
-     , (0x75F470CA, 0x75F470B2, '2005-02-09 10:00:00') /* Sapphire Gromnie */
-     , (0x75F470CA, 0x75F470B3, '2005-02-09 10:00:00') /* Sapphire Gromnie */
-     , (0x75F470CA, 0x75F470B7, '2005-02-09 10:00:00') /* Sapphire Gromnie */
-     , (0x75F470CA, 0x75F470B8, '2005-02-09 10:00:00') /* Sapphire Gromnie */
-     , (0x75F470CA, 0x75F470B9, '2005-02-09 10:00:00') /* Sapphire Gromnie */
-     , (0x75F470CA, 0x75F470BA, '2005-02-09 10:00:00') /* Sapphire Gromnie */
-     , (0x75F470CA, 0x75F470BB, '2005-02-09 10:00:00') /* Sapphire Gromnie */
-     , (0x75F470CA, 0x75F470BC, '2005-02-09 10:00:00') /* Sapphire Gromnie */
-     , (0x75F470CA, 0x75F470BF, '2005-02-09 10:00:00') /* Sapphire Gromnie */
-     , (0x75F470CA, 0x75F470C0, '2005-02-09 10:00:00') /* Sapphire Gromnie */
-     , (0x75F470CA, 0x75F470C1, '2005-02-09 10:00:00') /* Sapphire Gromnie */
-     , (0x75F470CA, 0x75F470C2, '2005-02-09 10:00:00') /* Sapphire Gromnie */
-     , (0x75F470CA, 0x75F470C3, '2005-02-09 10:00:00') /* Sapphire Gromnie */
-     , (0x75F470CA, 0x75F470C4, '2005-02-09 10:00:00') /* Sapphire Gromnie */
-     , (0x75F470CA, 0x75F470C8, '2005-02-09 10:00:00') /* Sapphire Gromnie */
-     , (0x75F470CA, 0x75F470C9, '2005-02-09 10:00:00') /* Sapphire Gromnie */;
+VALUES (0x75F470CA, 0x75F47008, '2005-02-09 10:00:00') /* Sapphire Gromnie (25599) */
+     , (0x75F470CA, 0x75F47009, '2005-02-09 10:00:00') /* Sapphire Gromnie (25599) */
+     , (0x75F470CA, 0x75F4700A, '2005-02-09 10:00:00') /* Freezing Elemental Pool (25604) */
+     , (0x75F470CA, 0x75F4700B, '2005-02-09 10:00:00') /* Sapphire Gromnie (25599) */
+     , (0x75F470CA, 0x75F4700C, '2005-02-09 10:00:00') /* Sapphire Gromnie (25599) */
+     , (0x75F470CA, 0x75F4700D, '2005-02-09 10:00:00') /* Sapphire Gromnie (25599) */
+     , (0x75F470CA, 0x75F47024, '2005-02-09 10:00:00') /* Sapphire Gromnie (25599) */
+     , (0x75F470CA, 0x75F47025, '2005-02-09 10:00:00') /* Sapphire Gromnie (25599) */
+     , (0x75F470CA, 0x75F47026, '2005-02-09 10:00:00') /* Sapphire Gromnie (25599) */
+     , (0x75F470CA, 0x75F47028, '2005-02-09 10:00:00') /* Sapphire Gromnie (25599) */
+     , (0x75F470CA, 0x75F47029, '2005-02-09 10:00:00') /* Sapphire Gromnie (25599) */
+     , (0x75F470CA, 0x75F4702A, '2005-02-09 10:00:00') /* Sapphire Gromnie (25599) */
+     , (0x75F470CA, 0x75F4702D, '2005-02-09 10:00:00') /* Sapphire Gromnie (25599) */
+     , (0x75F470CA, 0x75F4702E, '2005-02-09 10:00:00') /* Sapphire Gromnie (25599) */
+     , (0x75F470CA, 0x75F4702F, '2005-02-09 10:00:00') /* Sapphire Gromnie (25599) */
+     , (0x75F470CA, 0x75F47030, '2005-02-09 10:00:00') /* Sapphire Gromnie (25599) */
+     , (0x75F470CA, 0x75F47031, '2005-02-09 10:00:00') /* Sapphire Gromnie (25599) */
+     , (0x75F470CA, 0x75F47032, '2005-02-09 10:00:00') /* Sapphire Gromnie (25599) */
+     , (0x75F470CA, 0x75F47050, '2005-02-09 10:00:00') /* Sapphire Gromnie (25599) */
+     , (0x75F470CA, 0x75F47051, '2005-02-09 10:00:00') /* Sapphire Gromnie (25599) */
+     , (0x75F470CA, 0x75F47052, '2005-02-09 10:00:00') /* Sapphire Gromnie (25599) */
+     , (0x75F470CA, 0x75F47053, '2005-02-09 10:00:00') /* Sapphire Gromnie (25599) */
+     , (0x75F470CA, 0x75F47054, '2005-02-09 10:00:00') /* Sapphire Gromnie (25599) */
+     , (0x75F470CA, 0x75F47055, '2005-02-09 10:00:00') /* Sapphire Gromnie (25599) */
+     , (0x75F470CA, 0x75F47056, '2005-02-09 10:00:00') /* Sapphire Gromnie (25599) */
+     , (0x75F470CA, 0x75F47057, '2005-02-09 10:00:00') /* Sapphire Gromnie (25599) */
+     , (0x75F470CA, 0x75F47073, '2005-02-09 10:00:00') /* Sapphire Gromnie (25599) */
+     , (0x75F470CA, 0x75F47074, '2005-02-09 10:00:00') /* Sapphire Gromnie (25599) */
+     , (0x75F470CA, 0x75F47075, '2005-02-09 10:00:00') /* Sapphire Gromnie (25599) */
+     , (0x75F470CA, 0x75F47078, '2005-02-09 10:00:00') /* Sapphire Gromnie (25599) */
+     , (0x75F470CA, 0x75F47079, '2005-02-09 10:00:00') /* Sapphire Gromnie (25599) */
+     , (0x75F470CA, 0x75F4707A, '2005-02-09 10:00:00') /* Sapphire Gromnie (25599) */
+     , (0x75F470CA, 0x75F4707F, '2005-02-09 10:00:00') /* Sapphire Gromnie (25599) */
+     , (0x75F470CA, 0x75F47080, '2005-02-09 10:00:00') /* Sapphire Gromnie (25599) */
+     , (0x75F470CA, 0x75F47081, '2005-02-09 10:00:00') /* Sapphire Gromnie (25599) */
+     , (0x75F470CA, 0x75F47082, '2005-02-09 10:00:00') /* Sapphire Gromnie (25599) */
+     , (0x75F470CA, 0x75F47087, '2005-02-09 10:00:00') /* Sapphire Gromnie (25599) */
+     , (0x75F470CA, 0x75F47088, '2005-02-09 10:00:00') /* Sapphire Gromnie (25599) */
+     , (0x75F470CA, 0x75F47089, '2005-02-09 10:00:00') /* Sapphire Gromnie (25599) */
+     , (0x75F470CA, 0x75F4708A, '2005-02-09 10:00:00') /* Sapphire Gromnie (25599) */
+     , (0x75F470CA, 0x75F4708B, '2005-02-09 10:00:00') /* Sapphire Gromnie (25599) */
+     , (0x75F470CA, 0x75F4708C, '2005-02-09 10:00:00') /* Sapphire Gromnie (25599) */
+     , (0x75F470CA, 0x75F4708D, '2005-02-09 10:00:00') /* Sapphire Gromnie (25599) */
+     , (0x75F470CA, 0x75F470B0, '2005-02-09 10:00:00') /* Sapphire Gromnie (25599) */
+     , (0x75F470CA, 0x75F470B1, '2005-02-09 10:00:00') /* Sapphire Gromnie (25599) */
+     , (0x75F470CA, 0x75F470B2, '2005-02-09 10:00:00') /* Sapphire Gromnie (25599) */
+     , (0x75F470CA, 0x75F470B3, '2005-02-09 10:00:00') /* Sapphire Gromnie (25599) */
+     , (0x75F470CA, 0x75F470B7, '2005-02-09 10:00:00') /* Sapphire Gromnie (25599) */
+     , (0x75F470CA, 0x75F470B8, '2005-02-09 10:00:00') /* Sapphire Gromnie (25599) */
+     , (0x75F470CA, 0x75F470B9, '2005-02-09 10:00:00') /* Sapphire Gromnie (25599) */
+     , (0x75F470CA, 0x75F470BA, '2005-02-09 10:00:00') /* Sapphire Gromnie (25599) */
+     , (0x75F470CA, 0x75F470BB, '2005-02-09 10:00:00') /* Sapphire Gromnie (25599) */
+     , (0x75F470CA, 0x75F470BC, '2005-02-09 10:00:00') /* Sapphire Gromnie (25599) */
+     , (0x75F470CA, 0x75F470BF, '2005-02-09 10:00:00') /* Sapphire Gromnie (25599) */
+     , (0x75F470CA, 0x75F470C0, '2005-02-09 10:00:00') /* Sapphire Gromnie (25599) */
+     , (0x75F470CA, 0x75F470C1, '2005-02-09 10:00:00') /* Sapphire Gromnie (25599) */
+     , (0x75F470CA, 0x75F470C2, '2005-02-09 10:00:00') /* Sapphire Gromnie (25599) */
+     , (0x75F470CA, 0x75F470C3, '2005-02-09 10:00:00') /* Sapphire Gromnie (25599) */
+     , (0x75F470CA, 0x75F470C4, '2005-02-09 10:00:00') /* Sapphire Gromnie (25599) */
+     , (0x75F470CA, 0x75F470C8, '2005-02-09 10:00:00') /* Sapphire Gromnie (25599) */
+     , (0x75F470CA, 0x75F470C9, '2005-02-09 10:00:00') /* Sapphire Gromnie (25599) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75F470CB,  7932, 0x5F470359, 148.778, -129.876, -5.995, -0.707637, 0, 0, -0.706576, False, '2005-02-09 10:00:00'); /* Linkable Monster Generator ( 4 Min.) */
 /* @teleloc 0x5F470359 [148.778000 -129.876000 -5.995000] -0.707637 0.000000 0.000000 -0.706576 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x75F470CB, 0x75F47000, '2005-02-09 10:00:00') /* Emerald Gromnie */
-     , (0x75F470CB, 0x75F47001, '2005-02-09 10:00:00') /* Acidic Elemental Pool */
-     , (0x75F470CB, 0x75F47002, '2005-02-09 10:00:00') /* Emerald Gromnie */
-     , (0x75F470CB, 0x75F47003, '2005-02-09 10:00:00') /* Emerald Gromnie */
-     , (0x75F470CB, 0x75F47004, '2005-02-09 10:00:00') /* Emerald Gromnie */
-     , (0x75F470CB, 0x75F47006, '2005-02-09 10:00:00') /* Emerald Gromnie */
-     , (0x75F470CB, 0x75F47007, '2005-02-09 10:00:00') /* Emerald Gromnie */
-     , (0x75F470CB, 0x75F4701C, '2005-02-09 10:00:00') /* Emerald Gromnie */
-     , (0x75F470CB, 0x75F4701D, '2005-02-09 10:00:00') /* Emerald Gromnie */
-     , (0x75F470CB, 0x75F4701E, '2005-02-09 10:00:00') /* Emerald Gromnie */
-     , (0x75F470CB, 0x75F4701F, '2005-02-09 10:00:00') /* Emerald Gromnie */
-     , (0x75F470CB, 0x75F47020, '2005-02-09 10:00:00') /* Emerald Gromnie */
-     , (0x75F470CB, 0x75F47021, '2005-02-09 10:00:00') /* Emerald Gromnie */
-     , (0x75F470CB, 0x75F47022, '2005-02-09 10:00:00') /* Emerald Gromnie */
-     , (0x75F470CB, 0x75F47023, '2005-02-09 10:00:00') /* Emerald Gromnie */
-     , (0x75F470CB, 0x75F47027, '2005-02-09 10:00:00') /* Emerald Gromnie */
-     , (0x75F470CB, 0x75F4702B, '2005-02-09 10:00:00') /* Emerald Gromnie */
-     , (0x75F470CB, 0x75F4702C, '2005-02-09 10:00:00') /* Emerald Gromnie */
-     , (0x75F470CB, 0x75F47048, '2005-02-09 10:00:00') /* Emerald Gromnie */
-     , (0x75F470CB, 0x75F47049, '2005-02-09 10:00:00') /* Emerald Gromnie */
-     , (0x75F470CB, 0x75F4704A, '2005-02-09 10:00:00') /* Emerald Gromnie */
-     , (0x75F470CB, 0x75F4704B, '2005-02-09 10:00:00') /* Emerald Gromnie */
-     , (0x75F470CB, 0x75F4704C, '2005-02-09 10:00:00') /* Emerald Gromnie */
-     , (0x75F470CB, 0x75F4704D, '2005-02-09 10:00:00') /* Emerald Gromnie */
-     , (0x75F470CB, 0x75F4704E, '2005-02-09 10:00:00') /* Emerald Gromnie */
-     , (0x75F470CB, 0x75F4704F, '2005-02-09 10:00:00') /* Emerald Gromnie */
-     , (0x75F470CB, 0x75F4706A, '2005-02-09 10:00:00') /* Emerald Gromnie */
-     , (0x75F470CB, 0x75F4706B, '2005-02-09 10:00:00') /* Emerald Gromnie */
-     , (0x75F470CB, 0x75F4706C, '2005-02-09 10:00:00') /* Emerald Gromnie */
-     , (0x75F470CB, 0x75F4706D, '2005-02-09 10:00:00') /* Emerald Gromnie */
-     , (0x75F470CB, 0x75F4706E, '2005-02-09 10:00:00') /* Emerald Gromnie */
-     , (0x75F470CB, 0x75F4706F, '2005-02-09 10:00:00') /* Emerald Gromnie */
-     , (0x75F470CB, 0x75F47070, '2005-02-09 10:00:00') /* Emerald Gromnie */
-     , (0x75F470CB, 0x75F47071, '2005-02-09 10:00:00') /* Emerald Gromnie */
-     , (0x75F470CB, 0x75F47072, '2005-02-09 10:00:00') /* Emerald Gromnie */
-     , (0x75F470CB, 0x75F47076, '2005-02-09 10:00:00') /* Emerald Gromnie */
-     , (0x75F470CB, 0x75F47077, '2005-02-09 10:00:00') /* Emerald Gromnie */
-     , (0x75F470CB, 0x75F4707B, '2005-02-09 10:00:00') /* Emerald Gromnie */
-     , (0x75F470CB, 0x75F4707C, '2005-02-09 10:00:00') /* Emerald Gromnie */
-     , (0x75F470CB, 0x75F4707D, '2005-02-09 10:00:00') /* Emerald Gromnie */
-     , (0x75F470CB, 0x75F4707E, '2005-02-09 10:00:00') /* Emerald Gromnie */
-     , (0x75F470CB, 0x75F47083, '2005-02-09 10:00:00') /* Emerald Gromnie */
-     , (0x75F470CB, 0x75F47084, '2005-02-09 10:00:00') /* Emerald Gromnie */
-     , (0x75F470CB, 0x75F47085, '2005-02-09 10:00:00') /* Emerald Gromnie */
-     , (0x75F470CB, 0x75F47086, '2005-02-09 10:00:00') /* Emerald Gromnie */
-     , (0x75F470CB, 0x75F470AE, '2005-02-09 10:00:00') /* Emerald Gromnie */
-     , (0x75F470CB, 0x75F470AF, '2005-02-09 10:00:00') /* Emerald Gromnie */
-     , (0x75F470CB, 0x75F470B4, '2005-02-09 10:00:00') /* Emerald Gromnie */
-     , (0x75F470CB, 0x75F470B5, '2005-02-09 10:00:00') /* Emerald Gromnie */
-     , (0x75F470CB, 0x75F470B6, '2005-02-09 10:00:00') /* Emerald Gromnie */
-     , (0x75F470CB, 0x75F470BD, '2005-02-09 10:00:00') /* Emerald Gromnie */
-     , (0x75F470CB, 0x75F470BE, '2005-02-09 10:00:00') /* Emerald Gromnie */
-     , (0x75F470CB, 0x75F470C5, '2005-02-09 10:00:00') /* Emerald Gromnie */
-     , (0x75F470CB, 0x75F470C6, '2005-02-09 10:00:00') /* Emerald Gromnie */
-     , (0x75F470CB, 0x75F470C7, '2005-02-09 10:00:00') /* Emerald Gromnie */
-     , (0x75F470CB, 0x75F470CC, '2005-02-09 10:00:00') /* Emerald Gromnie */
-     , (0x75F470CB, 0x75F470CD, '2005-02-09 10:00:00') /* Emerald Gromnie */
-     , (0x75F470CB, 0x75F470CE, '2005-02-09 10:00:00') /* Emerald Gromnie */
-     , (0x75F470CB, 0x75F470CF, '2005-02-09 10:00:00') /* Emerald Gromnie */;
+VALUES (0x75F470CB, 0x75F47000, '2005-02-09 10:00:00') /* Emerald Gromnie (25597) */
+     , (0x75F470CB, 0x75F47001, '2005-02-09 10:00:00') /* Acidic Elemental Pool (25601) */
+     , (0x75F470CB, 0x75F47002, '2005-02-09 10:00:00') /* Emerald Gromnie (25597) */
+     , (0x75F470CB, 0x75F47003, '2005-02-09 10:00:00') /* Emerald Gromnie (25597) */
+     , (0x75F470CB, 0x75F47004, '2005-02-09 10:00:00') /* Emerald Gromnie (25597) */
+     , (0x75F470CB, 0x75F47006, '2005-02-09 10:00:00') /* Emerald Gromnie (25597) */
+     , (0x75F470CB, 0x75F47007, '2005-02-09 10:00:00') /* Emerald Gromnie (25597) */
+     , (0x75F470CB, 0x75F4701C, '2005-02-09 10:00:00') /* Emerald Gromnie (25597) */
+     , (0x75F470CB, 0x75F4701D, '2005-02-09 10:00:00') /* Emerald Gromnie (25597) */
+     , (0x75F470CB, 0x75F4701E, '2005-02-09 10:00:00') /* Emerald Gromnie (25597) */
+     , (0x75F470CB, 0x75F4701F, '2005-02-09 10:00:00') /* Emerald Gromnie (25597) */
+     , (0x75F470CB, 0x75F47020, '2005-02-09 10:00:00') /* Emerald Gromnie (25597) */
+     , (0x75F470CB, 0x75F47021, '2005-02-09 10:00:00') /* Emerald Gromnie (25597) */
+     , (0x75F470CB, 0x75F47022, '2005-02-09 10:00:00') /* Emerald Gromnie (25597) */
+     , (0x75F470CB, 0x75F47023, '2005-02-09 10:00:00') /* Emerald Gromnie (25597) */
+     , (0x75F470CB, 0x75F47027, '2005-02-09 10:00:00') /* Emerald Gromnie (25597) */
+     , (0x75F470CB, 0x75F4702B, '2005-02-09 10:00:00') /* Emerald Gromnie (25597) */
+     , (0x75F470CB, 0x75F4702C, '2005-02-09 10:00:00') /* Emerald Gromnie (25597) */
+     , (0x75F470CB, 0x75F47048, '2005-02-09 10:00:00') /* Emerald Gromnie (25597) */
+     , (0x75F470CB, 0x75F47049, '2005-02-09 10:00:00') /* Emerald Gromnie (25597) */
+     , (0x75F470CB, 0x75F4704A, '2005-02-09 10:00:00') /* Emerald Gromnie (25597) */
+     , (0x75F470CB, 0x75F4704B, '2005-02-09 10:00:00') /* Emerald Gromnie (25597) */
+     , (0x75F470CB, 0x75F4704C, '2005-02-09 10:00:00') /* Emerald Gromnie (25597) */
+     , (0x75F470CB, 0x75F4704D, '2005-02-09 10:00:00') /* Emerald Gromnie (25597) */
+     , (0x75F470CB, 0x75F4704E, '2005-02-09 10:00:00') /* Emerald Gromnie (25597) */
+     , (0x75F470CB, 0x75F4704F, '2005-02-09 10:00:00') /* Emerald Gromnie (25597) */
+     , (0x75F470CB, 0x75F4706A, '2005-02-09 10:00:00') /* Emerald Gromnie (25597) */
+     , (0x75F470CB, 0x75F4706B, '2005-02-09 10:00:00') /* Emerald Gromnie (25597) */
+     , (0x75F470CB, 0x75F4706C, '2005-02-09 10:00:00') /* Emerald Gromnie (25597) */
+     , (0x75F470CB, 0x75F4706D, '2005-02-09 10:00:00') /* Emerald Gromnie (25597) */
+     , (0x75F470CB, 0x75F4706E, '2005-02-09 10:00:00') /* Emerald Gromnie (25597) */
+     , (0x75F470CB, 0x75F4706F, '2005-02-09 10:00:00') /* Emerald Gromnie (25597) */
+     , (0x75F470CB, 0x75F47070, '2005-02-09 10:00:00') /* Emerald Gromnie (25597) */
+     , (0x75F470CB, 0x75F47071, '2005-02-09 10:00:00') /* Emerald Gromnie (25597) */
+     , (0x75F470CB, 0x75F47072, '2005-02-09 10:00:00') /* Emerald Gromnie (25597) */
+     , (0x75F470CB, 0x75F47076, '2005-02-09 10:00:00') /* Emerald Gromnie (25597) */
+     , (0x75F470CB, 0x75F47077, '2005-02-09 10:00:00') /* Emerald Gromnie (25597) */
+     , (0x75F470CB, 0x75F4707B, '2005-02-09 10:00:00') /* Emerald Gromnie (25597) */
+     , (0x75F470CB, 0x75F4707C, '2005-02-09 10:00:00') /* Emerald Gromnie (25597) */
+     , (0x75F470CB, 0x75F4707D, '2005-02-09 10:00:00') /* Emerald Gromnie (25597) */
+     , (0x75F470CB, 0x75F4707E, '2005-02-09 10:00:00') /* Emerald Gromnie (25597) */
+     , (0x75F470CB, 0x75F47083, '2005-02-09 10:00:00') /* Emerald Gromnie (25597) */
+     , (0x75F470CB, 0x75F47084, '2005-02-09 10:00:00') /* Emerald Gromnie (25597) */
+     , (0x75F470CB, 0x75F47085, '2005-02-09 10:00:00') /* Emerald Gromnie (25597) */
+     , (0x75F470CB, 0x75F47086, '2005-02-09 10:00:00') /* Emerald Gromnie (25597) */
+     , (0x75F470CB, 0x75F470AE, '2005-02-09 10:00:00') /* Emerald Gromnie (25597) */
+     , (0x75F470CB, 0x75F470AF, '2005-02-09 10:00:00') /* Emerald Gromnie (25597) */
+     , (0x75F470CB, 0x75F470B4, '2005-02-09 10:00:00') /* Emerald Gromnie (25597) */
+     , (0x75F470CB, 0x75F470B5, '2005-02-09 10:00:00') /* Emerald Gromnie (25597) */
+     , (0x75F470CB, 0x75F470B6, '2005-02-09 10:00:00') /* Emerald Gromnie (25597) */
+     , (0x75F470CB, 0x75F470BD, '2005-02-09 10:00:00') /* Emerald Gromnie (25597) */
+     , (0x75F470CB, 0x75F470BE, '2005-02-09 10:00:00') /* Emerald Gromnie (25597) */
+     , (0x75F470CB, 0x75F470C5, '2005-02-09 10:00:00') /* Emerald Gromnie (25597) */
+     , (0x75F470CB, 0x75F470C6, '2005-02-09 10:00:00') /* Emerald Gromnie (25597) */
+     , (0x75F470CB, 0x75F470C7, '2005-02-09 10:00:00') /* Emerald Gromnie (25597) */
+     , (0x75F470CB, 0x75F470CC, '2005-02-09 10:00:00') /* Emerald Gromnie (25597) */
+     , (0x75F470CB, 0x75F470CD, '2005-02-09 10:00:00') /* Emerald Gromnie (25597) */
+     , (0x75F470CB, 0x75F470CE, '2005-02-09 10:00:00') /* Emerald Gromnie (25597) */
+     , (0x75F470CB, 0x75F470CF, '2005-02-09 10:00:00') /* Emerald Gromnie (25597) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75F470CC, 25597, 0x5F47035A, 154.875, -150.494, -5.995, 0.742017, 0, 0, 0.670381,  True, '2005-02-09 10:00:00'); /* Emerald Gromnie */
@@ -961,121 +961,121 @@ VALUES (0x75F470D0,  7932, 0x5F470367, 188.575, -110.011, -5.995, -0.701073, 0, 
 /* @teleloc 0x5F470367 [188.575000 -110.011000 -5.995000] -0.701073 0.000000 0.000000 0.713090 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x75F470D0, 0x75F4700F, '2005-02-09 10:00:00') /* Amethyst Gromnie */
-     , (0x75F470D0, 0x75F47010, '2005-02-09 10:00:00') /* Electric Elemental Pool */
-     , (0x75F470D0, 0x75F47011, '2005-02-09 10:00:00') /* Amethyst Gromnie */
-     , (0x75F470D0, 0x75F47012, '2005-02-09 10:00:00') /* Amethyst Gromnie */
-     , (0x75F470D0, 0x75F47014, '2005-02-09 10:00:00') /* Amethyst Gromnie */
-     , (0x75F470D0, 0x75F47033, '2005-02-09 10:00:00') /* Amethyst Gromnie */
-     , (0x75F470D0, 0x75F47034, '2005-02-09 10:00:00') /* Amethyst Gromnie */
-     , (0x75F470D0, 0x75F47035, '2005-02-09 10:00:00') /* Amethyst Gromnie */
-     , (0x75F470D0, 0x75F47036, '2005-02-09 10:00:00') /* Amethyst Gromnie */
-     , (0x75F470D0, 0x75F47037, '2005-02-09 10:00:00') /* Amethyst Gromnie */
-     , (0x75F470D0, 0x75F47038, '2005-02-09 10:00:00') /* Amethyst Gromnie */
-     , (0x75F470D0, 0x75F47039, '2005-02-09 10:00:00') /* Amethyst Gromnie */
-     , (0x75F470D0, 0x75F4703A, '2005-02-09 10:00:00') /* Amethyst Gromnie */
-     , (0x75F470D0, 0x75F4703B, '2005-02-09 10:00:00') /* Amethyst Gromnie */
-     , (0x75F470D0, 0x75F4703E, '2005-02-09 10:00:00') /* Amethyst Gromnie */
-     , (0x75F470D0, 0x75F4703F, '2005-02-09 10:00:00') /* Amethyst Gromnie */
-     , (0x75F470D0, 0x75F47058, '2005-02-09 10:00:00') /* Amethyst Gromnie */
-     , (0x75F470D0, 0x75F47059, '2005-02-09 10:00:00') /* Amethyst Gromnie */
-     , (0x75F470D0, 0x75F4705E, '2005-02-09 10:00:00') /* Amethyst Gromnie */
-     , (0x75F470D0, 0x75F4705F, '2005-02-09 10:00:00') /* Amethyst Gromnie */
-     , (0x75F470D0, 0x75F47060, '2005-02-09 10:00:00') /* Amethyst Gromnie */
-     , (0x75F470D0, 0x75F47061, '2005-02-09 10:00:00') /* Amethyst Gromnie */
-     , (0x75F470D0, 0x75F47062, '2005-02-09 10:00:00') /* Amethyst Gromnie */
-     , (0x75F470D0, 0x75F47063, '2005-02-09 10:00:00') /* Amethyst Gromnie */
-     , (0x75F470D0, 0x75F47096, '2005-02-09 10:00:00') /* Amethyst Gromnie */
-     , (0x75F470D0, 0x75F47097, '2005-02-09 10:00:00') /* Amethyst Gromnie */
-     , (0x75F470D0, 0x75F47098, '2005-02-09 10:00:00') /* Amethyst Gromnie */
-     , (0x75F470D0, 0x75F4709C, '2005-02-09 10:00:00') /* Amethyst Gromnie */
-     , (0x75F470D0, 0x75F4709D, '2005-02-09 10:00:00') /* Amethyst Gromnie */
-     , (0x75F470D0, 0x75F470A2, '2005-02-09 10:00:00') /* Amethyst Gromnie */
-     , (0x75F470D0, 0x75F470A3, '2005-02-09 10:00:00') /* Amethyst Gromnie */
-     , (0x75F470D0, 0x75F470A4, '2005-02-09 10:00:00') /* Amethyst Gromnie */
-     , (0x75F470D0, 0x75F470A5, '2005-02-09 10:00:00') /* Amethyst Gromnie */
-     , (0x75F470D0, 0x75F470A6, '2005-02-09 10:00:00') /* Amethyst Gromnie */
-     , (0x75F470D0, 0x75F470A9, '2005-02-09 10:00:00') /* Amethyst Gromnie */
-     , (0x75F470D0, 0x75F470AA, '2005-02-09 10:00:00') /* Amethyst Gromnie */
-     , (0x75F470D0, 0x75F470AB, '2005-02-09 10:00:00') /* Amethyst Gromnie */
-     , (0x75F470D0, 0x75F470AC, '2005-02-09 10:00:00') /* Amethyst Gromnie */
-     , (0x75F470D0, 0x75F470AD, '2005-02-09 10:00:00') /* Amethyst Gromnie */
-     , (0x75F470D0, 0x75F470D2, '2005-02-09 10:00:00') /* Amethyst Gromnie */
-     , (0x75F470D0, 0x75F470D3, '2005-02-09 10:00:00') /* Amethyst Gromnie */
-     , (0x75F470D0, 0x75F470DA, '2005-02-09 10:00:00') /* Amethyst Gromnie */
-     , (0x75F470D0, 0x75F470DB, '2005-02-09 10:00:00') /* Amethyst Gromnie */
-     , (0x75F470D0, 0x75F470DE, '2005-02-09 10:00:00') /* Amethyst Gromnie */
-     , (0x75F470D0, 0x75F470DF, '2005-02-09 10:00:00') /* Amethyst Gromnie */
-     , (0x75F470D0, 0x75F470E0, '2005-02-09 10:00:00') /* Amethyst Gromnie */
-     , (0x75F470D0, 0x75F470E1, '2005-02-09 10:00:00') /* Amethyst Gromnie */
-     , (0x75F470D0, 0x75F470E2, '2005-02-09 10:00:00') /* Amethyst Gromnie */
-     , (0x75F470D0, 0x75F470E3, '2005-02-09 10:00:00') /* Amethyst Gromnie */
-     , (0x75F470D0, 0x75F470E9, '2005-02-09 10:00:00') /* Amethyst Gromnie */
-     , (0x75F470D0, 0x75F470EA, '2005-02-09 10:00:00') /* Amethyst Gromnie */
-     , (0x75F470D0, 0x75F470EB, '2005-02-09 10:00:00') /* Amethyst Gromnie */
-     , (0x75F470D0, 0x75F470EC, '2005-02-09 10:00:00') /* Amethyst Gromnie */;
+VALUES (0x75F470D0, 0x75F4700F, '2005-02-09 10:00:00') /* Amethyst Gromnie (25596) */
+     , (0x75F470D0, 0x75F47010, '2005-02-09 10:00:00') /* Electric Elemental Pool (25602) */
+     , (0x75F470D0, 0x75F47011, '2005-02-09 10:00:00') /* Amethyst Gromnie (25596) */
+     , (0x75F470D0, 0x75F47012, '2005-02-09 10:00:00') /* Amethyst Gromnie (25596) */
+     , (0x75F470D0, 0x75F47014, '2005-02-09 10:00:00') /* Amethyst Gromnie (25596) */
+     , (0x75F470D0, 0x75F47033, '2005-02-09 10:00:00') /* Amethyst Gromnie (25596) */
+     , (0x75F470D0, 0x75F47034, '2005-02-09 10:00:00') /* Amethyst Gromnie (25596) */
+     , (0x75F470D0, 0x75F47035, '2005-02-09 10:00:00') /* Amethyst Gromnie (25596) */
+     , (0x75F470D0, 0x75F47036, '2005-02-09 10:00:00') /* Amethyst Gromnie (25596) */
+     , (0x75F470D0, 0x75F47037, '2005-02-09 10:00:00') /* Amethyst Gromnie (25596) */
+     , (0x75F470D0, 0x75F47038, '2005-02-09 10:00:00') /* Amethyst Gromnie (25596) */
+     , (0x75F470D0, 0x75F47039, '2005-02-09 10:00:00') /* Amethyst Gromnie (25596) */
+     , (0x75F470D0, 0x75F4703A, '2005-02-09 10:00:00') /* Amethyst Gromnie (25596) */
+     , (0x75F470D0, 0x75F4703B, '2005-02-09 10:00:00') /* Amethyst Gromnie (25596) */
+     , (0x75F470D0, 0x75F4703E, '2005-02-09 10:00:00') /* Amethyst Gromnie (25596) */
+     , (0x75F470D0, 0x75F4703F, '2005-02-09 10:00:00') /* Amethyst Gromnie (25596) */
+     , (0x75F470D0, 0x75F47058, '2005-02-09 10:00:00') /* Amethyst Gromnie (25596) */
+     , (0x75F470D0, 0x75F47059, '2005-02-09 10:00:00') /* Amethyst Gromnie (25596) */
+     , (0x75F470D0, 0x75F4705E, '2005-02-09 10:00:00') /* Amethyst Gromnie (25596) */
+     , (0x75F470D0, 0x75F4705F, '2005-02-09 10:00:00') /* Amethyst Gromnie (25596) */
+     , (0x75F470D0, 0x75F47060, '2005-02-09 10:00:00') /* Amethyst Gromnie (25596) */
+     , (0x75F470D0, 0x75F47061, '2005-02-09 10:00:00') /* Amethyst Gromnie (25596) */
+     , (0x75F470D0, 0x75F47062, '2005-02-09 10:00:00') /* Amethyst Gromnie (25596) */
+     , (0x75F470D0, 0x75F47063, '2005-02-09 10:00:00') /* Amethyst Gromnie (25596) */
+     , (0x75F470D0, 0x75F47096, '2005-02-09 10:00:00') /* Amethyst Gromnie (25596) */
+     , (0x75F470D0, 0x75F47097, '2005-02-09 10:00:00') /* Amethyst Gromnie (25596) */
+     , (0x75F470D0, 0x75F47098, '2005-02-09 10:00:00') /* Amethyst Gromnie (25596) */
+     , (0x75F470D0, 0x75F4709C, '2005-02-09 10:00:00') /* Amethyst Gromnie (25596) */
+     , (0x75F470D0, 0x75F4709D, '2005-02-09 10:00:00') /* Amethyst Gromnie (25596) */
+     , (0x75F470D0, 0x75F470A2, '2005-02-09 10:00:00') /* Amethyst Gromnie (25596) */
+     , (0x75F470D0, 0x75F470A3, '2005-02-09 10:00:00') /* Amethyst Gromnie (25596) */
+     , (0x75F470D0, 0x75F470A4, '2005-02-09 10:00:00') /* Amethyst Gromnie (25596) */
+     , (0x75F470D0, 0x75F470A5, '2005-02-09 10:00:00') /* Amethyst Gromnie (25596) */
+     , (0x75F470D0, 0x75F470A6, '2005-02-09 10:00:00') /* Amethyst Gromnie (25596) */
+     , (0x75F470D0, 0x75F470A9, '2005-02-09 10:00:00') /* Amethyst Gromnie (25596) */
+     , (0x75F470D0, 0x75F470AA, '2005-02-09 10:00:00') /* Amethyst Gromnie (25596) */
+     , (0x75F470D0, 0x75F470AB, '2005-02-09 10:00:00') /* Amethyst Gromnie (25596) */
+     , (0x75F470D0, 0x75F470AC, '2005-02-09 10:00:00') /* Amethyst Gromnie (25596) */
+     , (0x75F470D0, 0x75F470AD, '2005-02-09 10:00:00') /* Amethyst Gromnie (25596) */
+     , (0x75F470D0, 0x75F470D2, '2005-02-09 10:00:00') /* Amethyst Gromnie (25596) */
+     , (0x75F470D0, 0x75F470D3, '2005-02-09 10:00:00') /* Amethyst Gromnie (25596) */
+     , (0x75F470D0, 0x75F470DA, '2005-02-09 10:00:00') /* Amethyst Gromnie (25596) */
+     , (0x75F470D0, 0x75F470DB, '2005-02-09 10:00:00') /* Amethyst Gromnie (25596) */
+     , (0x75F470D0, 0x75F470DE, '2005-02-09 10:00:00') /* Amethyst Gromnie (25596) */
+     , (0x75F470D0, 0x75F470DF, '2005-02-09 10:00:00') /* Amethyst Gromnie (25596) */
+     , (0x75F470D0, 0x75F470E0, '2005-02-09 10:00:00') /* Amethyst Gromnie (25596) */
+     , (0x75F470D0, 0x75F470E1, '2005-02-09 10:00:00') /* Amethyst Gromnie (25596) */
+     , (0x75F470D0, 0x75F470E2, '2005-02-09 10:00:00') /* Amethyst Gromnie (25596) */
+     , (0x75F470D0, 0x75F470E3, '2005-02-09 10:00:00') /* Amethyst Gromnie (25596) */
+     , (0x75F470D0, 0x75F470E9, '2005-02-09 10:00:00') /* Amethyst Gromnie (25596) */
+     , (0x75F470D0, 0x75F470EA, '2005-02-09 10:00:00') /* Amethyst Gromnie (25596) */
+     , (0x75F470D0, 0x75F470EB, '2005-02-09 10:00:00') /* Amethyst Gromnie (25596) */
+     , (0x75F470D0, 0x75F470EC, '2005-02-09 10:00:00') /* Amethyst Gromnie (25596) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75F470D1,  7932, 0x5F470368, 189.445, -130.071, -5.995, -0.706263, 0, 0, 0.70795, False, '2005-02-09 10:00:00'); /* Linkable Monster Generator ( 4 Min.) */
 /* @teleloc 0x5F470368 [189.445000 -130.071000 -5.995000] -0.706263 0.000000 0.000000 0.707950 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x75F470D1, 0x75F47015, '2005-02-09 10:00:00') /* Ruby Gromnie */
-     , (0x75F470D1, 0x75F47016, '2005-02-09 10:00:00') /* Flaming Elemental Pool */
-     , (0x75F470D1, 0x75F47017, '2005-02-09 10:00:00') /* Ruby Gromnie */
-     , (0x75F470D1, 0x75F47018, '2005-02-09 10:00:00') /* Ruby Gromnie */
-     , (0x75F470D1, 0x75F47019, '2005-02-09 10:00:00') /* Ruby Gromnie */
-     , (0x75F470D1, 0x75F4701B, '2005-02-09 10:00:00') /* Ruby Gromnie */
-     , (0x75F470D1, 0x75F4703C, '2005-02-09 10:00:00') /* Ruby Gromnie */
-     , (0x75F470D1, 0x75F4703D, '2005-02-09 10:00:00') /* Ruby Gromnie */
-     , (0x75F470D1, 0x75F47040, '2005-02-09 10:00:00') /* Ruby Gromnie */
-     , (0x75F470D1, 0x75F47041, '2005-02-09 10:00:00') /* Ruby Gromnie */
-     , (0x75F470D1, 0x75F47042, '2005-02-09 10:00:00') /* Ruby Gromnie */
-     , (0x75F470D1, 0x75F47043, '2005-02-09 10:00:00') /* Ruby Gromnie */
-     , (0x75F470D1, 0x75F47044, '2005-02-09 10:00:00') /* Ruby Gromnie */
-     , (0x75F470D1, 0x75F47045, '2005-02-09 10:00:00') /* Ruby Gromnie */
-     , (0x75F470D1, 0x75F47046, '2005-02-09 10:00:00') /* Ruby Gromnie */
-     , (0x75F470D1, 0x75F47047, '2005-02-09 10:00:00') /* Ruby Gromnie */
-     , (0x75F470D1, 0x75F4705A, '2005-02-09 10:00:00') /* Ruby Gromnie */
-     , (0x75F470D1, 0x75F4705B, '2005-02-09 10:00:00') /* Ruby Gromnie */
-     , (0x75F470D1, 0x75F4705C, '2005-02-09 10:00:00') /* Ruby Gromnie */
-     , (0x75F470D1, 0x75F4705D, '2005-02-09 10:00:00') /* Ruby Gromnie */
-     , (0x75F470D1, 0x75F47064, '2005-02-09 10:00:00') /* Ruby Gromnie */
-     , (0x75F470D1, 0x75F47065, '2005-02-09 10:00:00') /* Ruby Gromnie */
-     , (0x75F470D1, 0x75F47066, '2005-02-09 10:00:00') /* Ruby Gromnie */
-     , (0x75F470D1, 0x75F47067, '2005-02-09 10:00:00') /* Ruby Gromnie */
-     , (0x75F470D1, 0x75F47068, '2005-02-09 10:00:00') /* Ruby Gromnie */
-     , (0x75F470D1, 0x75F47069, '2005-02-09 10:00:00') /* Ruby Gromnie */
-     , (0x75F470D1, 0x75F4708E, '2005-02-09 10:00:00') /* Ruby Gromnie */
-     , (0x75F470D1, 0x75F4708F, '2005-02-09 10:00:00') /* Ruby Gromnie */
-     , (0x75F470D1, 0x75F47090, '2005-02-09 10:00:00') /* Ruby Gromnie */
-     , (0x75F470D1, 0x75F47091, '2005-02-09 10:00:00') /* Ruby Gromnie */
-     , (0x75F470D1, 0x75F47092, '2005-02-09 10:00:00') /* Ruby Gromnie */
-     , (0x75F470D1, 0x75F47093, '2005-02-09 10:00:00') /* Ruby Gromnie */
-     , (0x75F470D1, 0x75F47094, '2005-02-09 10:00:00') /* Ruby Gromnie */
-     , (0x75F470D1, 0x75F47095, '2005-02-09 10:00:00') /* Ruby Gromnie */
-     , (0x75F470D1, 0x75F47099, '2005-02-09 10:00:00') /* Ruby Gromnie */
-     , (0x75F470D1, 0x75F4709A, '2005-02-09 10:00:00') /* Ruby Gromnie */
-     , (0x75F470D1, 0x75F4709B, '2005-02-09 10:00:00') /* Ruby Gromnie */
-     , (0x75F470D1, 0x75F4709E, '2005-02-09 10:00:00') /* Ruby Gromnie */
-     , (0x75F470D1, 0x75F4709F, '2005-02-09 10:00:00') /* Ruby Gromnie */
-     , (0x75F470D1, 0x75F470A0, '2005-02-09 10:00:00') /* Ruby Gromnie */
-     , (0x75F470D1, 0x75F470A1, '2005-02-09 10:00:00') /* Ruby Gromnie */
-     , (0x75F470D1, 0x75F470A7, '2005-02-09 10:00:00') /* Ruby Gromnie */
-     , (0x75F470D1, 0x75F470A8, '2005-02-09 10:00:00') /* Ruby Gromnie */
-     , (0x75F470D1, 0x75F470D4, '2005-02-09 10:00:00') /* Ruby Gromnie */
-     , (0x75F470D1, 0x75F470D5, '2005-02-09 10:00:00') /* Ruby Gromnie */
-     , (0x75F470D1, 0x75F470D6, '2005-02-09 10:00:00') /* Ruby Gromnie */
-     , (0x75F470D1, 0x75F470D7, '2005-02-09 10:00:00') /* Ruby Gromnie */
-     , (0x75F470D1, 0x75F470D8, '2005-02-09 10:00:00') /* Ruby Gromnie */
-     , (0x75F470D1, 0x75F470D9, '2005-02-09 10:00:00') /* Ruby Gromnie */
-     , (0x75F470D1, 0x75F470DC, '2005-02-09 10:00:00') /* Ruby Gromnie */
-     , (0x75F470D1, 0x75F470DD, '2005-02-09 10:00:00') /* Ruby Gromnie */
-     , (0x75F470D1, 0x75F470E4, '2005-02-09 10:00:00') /* Ruby Gromnie */
-     , (0x75F470D1, 0x75F470E5, '2005-02-09 10:00:00') /* Ruby Gromnie */
-     , (0x75F470D1, 0x75F470E6, '2005-02-09 10:00:00') /* Ruby Gromnie */
-     , (0x75F470D1, 0x75F470E7, '2005-02-09 10:00:00') /* Ruby Gromnie */
-     , (0x75F470D1, 0x75F470E8, '2005-02-09 10:00:00') /* Ruby Gromnie */;
+VALUES (0x75F470D1, 0x75F47015, '2005-02-09 10:00:00') /* Ruby Gromnie (25598) */
+     , (0x75F470D1, 0x75F47016, '2005-02-09 10:00:00') /* Flaming Elemental Pool (25603) */
+     , (0x75F470D1, 0x75F47017, '2005-02-09 10:00:00') /* Ruby Gromnie (25598) */
+     , (0x75F470D1, 0x75F47018, '2005-02-09 10:00:00') /* Ruby Gromnie (25598) */
+     , (0x75F470D1, 0x75F47019, '2005-02-09 10:00:00') /* Ruby Gromnie (25598) */
+     , (0x75F470D1, 0x75F4701B, '2005-02-09 10:00:00') /* Ruby Gromnie (25598) */
+     , (0x75F470D1, 0x75F4703C, '2005-02-09 10:00:00') /* Ruby Gromnie (25598) */
+     , (0x75F470D1, 0x75F4703D, '2005-02-09 10:00:00') /* Ruby Gromnie (25598) */
+     , (0x75F470D1, 0x75F47040, '2005-02-09 10:00:00') /* Ruby Gromnie (25598) */
+     , (0x75F470D1, 0x75F47041, '2005-02-09 10:00:00') /* Ruby Gromnie (25598) */
+     , (0x75F470D1, 0x75F47042, '2005-02-09 10:00:00') /* Ruby Gromnie (25598) */
+     , (0x75F470D1, 0x75F47043, '2005-02-09 10:00:00') /* Ruby Gromnie (25598) */
+     , (0x75F470D1, 0x75F47044, '2005-02-09 10:00:00') /* Ruby Gromnie (25598) */
+     , (0x75F470D1, 0x75F47045, '2005-02-09 10:00:00') /* Ruby Gromnie (25598) */
+     , (0x75F470D1, 0x75F47046, '2005-02-09 10:00:00') /* Ruby Gromnie (25598) */
+     , (0x75F470D1, 0x75F47047, '2005-02-09 10:00:00') /* Ruby Gromnie (25598) */
+     , (0x75F470D1, 0x75F4705A, '2005-02-09 10:00:00') /* Ruby Gromnie (25598) */
+     , (0x75F470D1, 0x75F4705B, '2005-02-09 10:00:00') /* Ruby Gromnie (25598) */
+     , (0x75F470D1, 0x75F4705C, '2005-02-09 10:00:00') /* Ruby Gromnie (25598) */
+     , (0x75F470D1, 0x75F4705D, '2005-02-09 10:00:00') /* Ruby Gromnie (25598) */
+     , (0x75F470D1, 0x75F47064, '2005-02-09 10:00:00') /* Ruby Gromnie (25598) */
+     , (0x75F470D1, 0x75F47065, '2005-02-09 10:00:00') /* Ruby Gromnie (25598) */
+     , (0x75F470D1, 0x75F47066, '2005-02-09 10:00:00') /* Ruby Gromnie (25598) */
+     , (0x75F470D1, 0x75F47067, '2005-02-09 10:00:00') /* Ruby Gromnie (25598) */
+     , (0x75F470D1, 0x75F47068, '2005-02-09 10:00:00') /* Ruby Gromnie (25598) */
+     , (0x75F470D1, 0x75F47069, '2005-02-09 10:00:00') /* Ruby Gromnie (25598) */
+     , (0x75F470D1, 0x75F4708E, '2005-02-09 10:00:00') /* Ruby Gromnie (25598) */
+     , (0x75F470D1, 0x75F4708F, '2005-02-09 10:00:00') /* Ruby Gromnie (25598) */
+     , (0x75F470D1, 0x75F47090, '2005-02-09 10:00:00') /* Ruby Gromnie (25598) */
+     , (0x75F470D1, 0x75F47091, '2005-02-09 10:00:00') /* Ruby Gromnie (25598) */
+     , (0x75F470D1, 0x75F47092, '2005-02-09 10:00:00') /* Ruby Gromnie (25598) */
+     , (0x75F470D1, 0x75F47093, '2005-02-09 10:00:00') /* Ruby Gromnie (25598) */
+     , (0x75F470D1, 0x75F47094, '2005-02-09 10:00:00') /* Ruby Gromnie (25598) */
+     , (0x75F470D1, 0x75F47095, '2005-02-09 10:00:00') /* Ruby Gromnie (25598) */
+     , (0x75F470D1, 0x75F47099, '2005-02-09 10:00:00') /* Ruby Gromnie (25598) */
+     , (0x75F470D1, 0x75F4709A, '2005-02-09 10:00:00') /* Ruby Gromnie (25598) */
+     , (0x75F470D1, 0x75F4709B, '2005-02-09 10:00:00') /* Ruby Gromnie (25598) */
+     , (0x75F470D1, 0x75F4709E, '2005-02-09 10:00:00') /* Ruby Gromnie (25598) */
+     , (0x75F470D1, 0x75F4709F, '2005-02-09 10:00:00') /* Ruby Gromnie (25598) */
+     , (0x75F470D1, 0x75F470A0, '2005-02-09 10:00:00') /* Ruby Gromnie (25598) */
+     , (0x75F470D1, 0x75F470A1, '2005-02-09 10:00:00') /* Ruby Gromnie (25598) */
+     , (0x75F470D1, 0x75F470A7, '2005-02-09 10:00:00') /* Ruby Gromnie (25598) */
+     , (0x75F470D1, 0x75F470A8, '2005-02-09 10:00:00') /* Ruby Gromnie (25598) */
+     , (0x75F470D1, 0x75F470D4, '2005-02-09 10:00:00') /* Ruby Gromnie (25598) */
+     , (0x75F470D1, 0x75F470D5, '2005-02-09 10:00:00') /* Ruby Gromnie (25598) */
+     , (0x75F470D1, 0x75F470D6, '2005-02-09 10:00:00') /* Ruby Gromnie (25598) */
+     , (0x75F470D1, 0x75F470D7, '2005-02-09 10:00:00') /* Ruby Gromnie (25598) */
+     , (0x75F470D1, 0x75F470D8, '2005-02-09 10:00:00') /* Ruby Gromnie (25598) */
+     , (0x75F470D1, 0x75F470D9, '2005-02-09 10:00:00') /* Ruby Gromnie (25598) */
+     , (0x75F470D1, 0x75F470DC, '2005-02-09 10:00:00') /* Ruby Gromnie (25598) */
+     , (0x75F470D1, 0x75F470DD, '2005-02-09 10:00:00') /* Ruby Gromnie (25598) */
+     , (0x75F470D1, 0x75F470E4, '2005-02-09 10:00:00') /* Ruby Gromnie (25598) */
+     , (0x75F470D1, 0x75F470E5, '2005-02-09 10:00:00') /* Ruby Gromnie (25598) */
+     , (0x75F470D1, 0x75F470E6, '2005-02-09 10:00:00') /* Ruby Gromnie (25598) */
+     , (0x75F470D1, 0x75F470E7, '2005-02-09 10:00:00') /* Ruby Gromnie (25598) */
+     , (0x75F470D1, 0x75F470E8, '2005-02-09 10:00:00') /* Ruby Gromnie (25598) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75F470D2, 25596, 0x5F47036A, 201.321, -106.178, -5.995, -4.37114E-08, 0, 0, -1,  True, '2005-02-09 10:00:00'); /* Amethyst Gromnie */
@@ -1194,4 +1194,4 @@ VALUES (0x75F470EE,  5085, 0x5F470411, 169.834, -129.805, 0.005, 0.020795, 0, 0,
 /* @teleloc 0x5F470411 [169.834000 -129.805000 0.005000] 0.020795 0.000000 0.000000 -0.999784 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x75F470EE, 0x75F470ED, '2005-02-09 10:00:00') /* An Interesting Note */;
+VALUES (0x75F470EE, 0x75F470ED, '2005-02-09 10:00:00') /* An Interesting Note (25635) */;

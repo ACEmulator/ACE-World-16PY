@@ -57,67 +57,67 @@ VALUES (0x702A100D,  7924, 0x02A1016D, 270, -50, -35.995, 0.020795, 0, 0, 0.9997
 /* @teleloc 0x02A1016D [270.000000 -50.000000 -35.995000] 0.020795 0.000000 0.000000 0.999784 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x702A100D, 0x702A1000, '2005-02-09 10:00:00') /* Sotiris Hollow Minion */
-     , (0x702A100D, 0x702A1001, '2005-02-09 10:00:00') /* Sotiris Hollow Minion */
-     , (0x702A100D, 0x702A1002, '2005-02-09 10:00:00') /* Virindi Servant */
-     , (0x702A100D, 0x702A1004, '2005-02-09 10:00:00') /* Drudge Ravener */
-     , (0x702A100D, 0x702A1005, '2005-02-09 10:00:00') /* Drudge Ravener */
-     , (0x702A100D, 0x702A1006, '2005-02-09 10:00:00') /* Drudge Ravener */
-     , (0x702A100D, 0x702A1007, '2005-02-09 10:00:00') /* Drudge Ravener */
-     , (0x702A100D, 0x702A1008, '2005-02-09 10:00:00') /* Drudge Ravener */
-     , (0x702A100D, 0x702A1009, '2005-02-09 10:00:00') /* Drudge Ravener */
-     , (0x702A100D, 0x702A100A, '2005-02-09 10:00:00') /* Virindi Puppet */
-     , (0x702A100D, 0x702A100B, '2005-02-09 10:00:00') /* Drudge Ravener */
-     , (0x702A100D, 0x702A100C, '2005-02-09 10:00:00') /* Drudge Ravener */
-     , (0x702A100D, 0x702A100E, '2005-02-09 10:00:00') /* Drudge Ravener */
-     , (0x702A100D, 0x702A100F, '2005-02-09 10:00:00') /* Drudge Ravener */
-     , (0x702A100D, 0x702A1011, '2005-02-09 10:00:00') /* Drudge Ravener */
-     , (0x702A100D, 0x702A1012, '2005-02-09 10:00:00') /* Drudge Ravener */
-     , (0x702A100D, 0x702A1013, '2005-02-09 10:00:00') /* Virindi Servant */
-     , (0x702A100D, 0x702A1014, '2005-02-09 10:00:00') /* Tusker Guard */
-     , (0x702A100D, 0x702A1015, '2005-02-09 10:00:00') /* Tusker Guard */
-     , (0x702A100D, 0x702A1016, '2005-02-09 10:00:00') /* Virindi Puppet */
-     , (0x702A100D, 0x702A1017, '2005-02-09 10:00:00') /* Drudge Ravener */
-     , (0x702A100D, 0x702A1018, '2005-02-09 10:00:00') /* Drudge Ravener */
-     , (0x702A100D, 0x702A1019, '2005-02-09 10:00:00') /* Tumideon Hollow Minion */
-     , (0x702A100D, 0x702A101A, '2005-02-09 10:00:00') /* Virindi Master */
-     , (0x702A100D, 0x702A101B, '2005-02-09 10:00:00') /* Tumideon Hollow Minion */
-     , (0x702A100D, 0x702A101C, '2005-02-09 10:00:00') /* Virindi Master */
-     , (0x702A100D, 0x702A101D, '2005-02-09 10:00:00') /* Tumideon Hollow Minion */
-     , (0x702A100D, 0x702A101E, '2005-02-09 10:00:00') /* Tumideon Hollow Minion */
-     , (0x702A100D, 0x702A101F, '2005-02-09 10:00:00') /* Drudge Ravener */
-     , (0x702A100D, 0x702A1020, '2005-02-09 10:00:00') /* Drudge Ravener */
-     , (0x702A100D, 0x702A1021, '2005-02-09 10:00:00') /* Drudge Ravener */
-     , (0x702A100D, 0x702A1022, '2005-02-09 10:00:00') /* Drudge Ravener */
-     , (0x702A100D, 0x702A1023, '2005-02-09 10:00:00') /* Drudge Ravener */
-     , (0x702A100D, 0x702A1024, '2005-02-09 10:00:00') /* Drudge Ravener */
-     , (0x702A100D, 0x702A1025, '2005-02-09 10:00:00') /* Drudge Ravener */
-     , (0x702A100D, 0x702A1026, '2005-02-09 10:00:00') /* Drudge Ravener */
-     , (0x702A100D, 0x702A1027, '2005-02-09 10:00:00') /* Drudge Ravener */
-     , (0x702A100D, 0x702A1028, '2005-02-09 10:00:00') /* Virindi Servant */
-     , (0x702A100D, 0x702A1029, '2005-02-09 10:00:00') /* Tumideon Hollow Minion */
-     , (0x702A100D, 0x702A102A, '2005-02-09 10:00:00') /* Tumideon Hollow Minion */
-     , (0x702A100D, 0x702A102B, '2005-02-09 10:00:00') /* Tumideon Hollow Minion */
-     , (0x702A100D, 0x702A102C, '2005-02-09 10:00:00') /* Tumideon Hollow Minion */
-     , (0x702A100D, 0x702A102D, '2005-02-09 10:00:00') /* Virindi Servant */
-     , (0x702A100D, 0x702A102E, '2005-02-09 10:00:00') /* Drudge Ravener */
-     , (0x702A100D, 0x702A102F, '2005-02-09 10:00:00') /* Drudge Ravener */
-     , (0x702A100D, 0x702A1030, '2005-02-09 10:00:00') /* Drudge Ravener */
-     , (0x702A100D, 0x702A1031, '2005-02-09 10:00:00') /* Drudge Ravener */
-     , (0x702A100D, 0x702A1032, '2005-02-09 10:00:00') /* Drudge Ravener */
-     , (0x702A100D, 0x702A1033, '2005-02-09 10:00:00') /* Drudge Ravener */
-     , (0x702A100D, 0x702A1034, '2005-02-09 10:00:00') /* Virindi Servant */
-     , (0x702A100D, 0x702A1035, '2005-02-09 10:00:00') /* Virindi Master */
-     , (0x702A100D, 0x702A1036, '2005-02-09 10:00:00') /* Virindi Servant */
-     , (0x702A100D, 0x702A1037, '2005-02-09 10:00:00') /* Tumideon Hollow Minion */
-     , (0x702A100D, 0x702A1038, '2005-02-09 10:00:00') /* Tumideon Hollow Minion */
-     , (0x702A100D, 0x702A103B, '2005-02-09 10:00:00') /* Tumideon Hollow Minion */
-     , (0x702A100D, 0x702A103C, '2005-02-09 10:00:00') /* Drudge Ravener */
-     , (0x702A100D, 0x702A103D, '2005-02-09 10:00:00') /* Drudge Ravener */
-     , (0x702A100D, 0x702A103E, '2005-02-09 10:00:00') /* Drudge Ravener */
-     , (0x702A100D, 0x702A103F, '2005-02-09 10:00:00') /* Tumideon Hollow Minion */
-     , (0x702A100D, 0x702A1040, '2005-02-09 10:00:00') /* Drudge Ravener */
-     , (0x702A100D, 0x702A1041, '2005-02-09 10:00:00') /* Drudge Ravener */;
+VALUES (0x702A100D, 0x702A1000, '2005-02-09 10:00:00') /* Sotiris Hollow Minion (8270) */
+     , (0x702A100D, 0x702A1001, '2005-02-09 10:00:00') /* Sotiris Hollow Minion (8270) */
+     , (0x702A100D, 0x702A1002, '2005-02-09 10:00:00') /* Virindi Servant (23) */
+     , (0x702A100D, 0x702A1004, '2005-02-09 10:00:00') /* Drudge Ravener (1610) */
+     , (0x702A100D, 0x702A1005, '2005-02-09 10:00:00') /* Drudge Ravener (1610) */
+     , (0x702A100D, 0x702A1006, '2005-02-09 10:00:00') /* Drudge Ravener (1610) */
+     , (0x702A100D, 0x702A1007, '2005-02-09 10:00:00') /* Drudge Ravener (1610) */
+     , (0x702A100D, 0x702A1008, '2005-02-09 10:00:00') /* Drudge Ravener (1610) */
+     , (0x702A100D, 0x702A1009, '2005-02-09 10:00:00') /* Drudge Ravener (1610) */
+     , (0x702A100D, 0x702A100A, '2005-02-09 10:00:00') /* Virindi Puppet (238) */
+     , (0x702A100D, 0x702A100B, '2005-02-09 10:00:00') /* Drudge Ravener (1610) */
+     , (0x702A100D, 0x702A100C, '2005-02-09 10:00:00') /* Drudge Ravener (1610) */
+     , (0x702A100D, 0x702A100E, '2005-02-09 10:00:00') /* Drudge Ravener (1610) */
+     , (0x702A100D, 0x702A100F, '2005-02-09 10:00:00') /* Drudge Ravener (1610) */
+     , (0x702A100D, 0x702A1011, '2005-02-09 10:00:00') /* Drudge Ravener (1610) */
+     , (0x702A100D, 0x702A1012, '2005-02-09 10:00:00') /* Drudge Ravener (1610) */
+     , (0x702A100D, 0x702A1013, '2005-02-09 10:00:00') /* Virindi Servant (23) */
+     , (0x702A100D, 0x702A1014, '2005-02-09 10:00:00') /* Tusker Guard (1629) */
+     , (0x702A100D, 0x702A1015, '2005-02-09 10:00:00') /* Tusker Guard (1629) */
+     , (0x702A100D, 0x702A1016, '2005-02-09 10:00:00') /* Virindi Puppet (238) */
+     , (0x702A100D, 0x702A1017, '2005-02-09 10:00:00') /* Drudge Ravener (1610) */
+     , (0x702A100D, 0x702A1018, '2005-02-09 10:00:00') /* Drudge Ravener (1610) */
+     , (0x702A100D, 0x702A1019, '2005-02-09 10:00:00') /* Tumideon Hollow Minion (8269) */
+     , (0x702A100D, 0x702A101A, '2005-02-09 10:00:00') /* Virindi Master (237) */
+     , (0x702A100D, 0x702A101B, '2005-02-09 10:00:00') /* Tumideon Hollow Minion (8269) */
+     , (0x702A100D, 0x702A101C, '2005-02-09 10:00:00') /* Virindi Master (237) */
+     , (0x702A100D, 0x702A101D, '2005-02-09 10:00:00') /* Tumideon Hollow Minion (8269) */
+     , (0x702A100D, 0x702A101E, '2005-02-09 10:00:00') /* Tumideon Hollow Minion (8269) */
+     , (0x702A100D, 0x702A101F, '2005-02-09 10:00:00') /* Drudge Ravener (1610) */
+     , (0x702A100D, 0x702A1020, '2005-02-09 10:00:00') /* Drudge Ravener (1610) */
+     , (0x702A100D, 0x702A1021, '2005-02-09 10:00:00') /* Drudge Ravener (1610) */
+     , (0x702A100D, 0x702A1022, '2005-02-09 10:00:00') /* Drudge Ravener (1610) */
+     , (0x702A100D, 0x702A1023, '2005-02-09 10:00:00') /* Drudge Ravener (1610) */
+     , (0x702A100D, 0x702A1024, '2005-02-09 10:00:00') /* Drudge Ravener (1610) */
+     , (0x702A100D, 0x702A1025, '2005-02-09 10:00:00') /* Drudge Ravener (1610) */
+     , (0x702A100D, 0x702A1026, '2005-02-09 10:00:00') /* Drudge Ravener (1610) */
+     , (0x702A100D, 0x702A1027, '2005-02-09 10:00:00') /* Drudge Ravener (1610) */
+     , (0x702A100D, 0x702A1028, '2005-02-09 10:00:00') /* Virindi Servant (23) */
+     , (0x702A100D, 0x702A1029, '2005-02-09 10:00:00') /* Tumideon Hollow Minion (8269) */
+     , (0x702A100D, 0x702A102A, '2005-02-09 10:00:00') /* Tumideon Hollow Minion (8269) */
+     , (0x702A100D, 0x702A102B, '2005-02-09 10:00:00') /* Tumideon Hollow Minion (8269) */
+     , (0x702A100D, 0x702A102C, '2005-02-09 10:00:00') /* Tumideon Hollow Minion (8269) */
+     , (0x702A100D, 0x702A102D, '2005-02-09 10:00:00') /* Virindi Servant (23) */
+     , (0x702A100D, 0x702A102E, '2005-02-09 10:00:00') /* Drudge Ravener (1610) */
+     , (0x702A100D, 0x702A102F, '2005-02-09 10:00:00') /* Drudge Ravener (1610) */
+     , (0x702A100D, 0x702A1030, '2005-02-09 10:00:00') /* Drudge Ravener (1610) */
+     , (0x702A100D, 0x702A1031, '2005-02-09 10:00:00') /* Drudge Ravener (1610) */
+     , (0x702A100D, 0x702A1032, '2005-02-09 10:00:00') /* Drudge Ravener (1610) */
+     , (0x702A100D, 0x702A1033, '2005-02-09 10:00:00') /* Drudge Ravener (1610) */
+     , (0x702A100D, 0x702A1034, '2005-02-09 10:00:00') /* Virindi Servant (23) */
+     , (0x702A100D, 0x702A1035, '2005-02-09 10:00:00') /* Virindi Master (237) */
+     , (0x702A100D, 0x702A1036, '2005-02-09 10:00:00') /* Virindi Servant (23) */
+     , (0x702A100D, 0x702A1037, '2005-02-09 10:00:00') /* Tumideon Hollow Minion (8269) */
+     , (0x702A100D, 0x702A1038, '2005-02-09 10:00:00') /* Tumideon Hollow Minion (8269) */
+     , (0x702A100D, 0x702A103B, '2005-02-09 10:00:00') /* Tumideon Hollow Minion (8269) */
+     , (0x702A100D, 0x702A103C, '2005-02-09 10:00:00') /* Drudge Ravener (1610) */
+     , (0x702A100D, 0x702A103D, '2005-02-09 10:00:00') /* Drudge Ravener (1610) */
+     , (0x702A100D, 0x702A103E, '2005-02-09 10:00:00') /* Drudge Ravener (1610) */
+     , (0x702A100D, 0x702A103F, '2005-02-09 10:00:00') /* Tumideon Hollow Minion (8269) */
+     , (0x702A100D, 0x702A1040, '2005-02-09 10:00:00') /* Drudge Ravener (1610) */
+     , (0x702A100D, 0x702A1041, '2005-02-09 10:00:00') /* Drudge Ravener (1610) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x702A100E,  1610, 0x02A10170, 268.372, -81.1828, -35.995, -0.981597, 0, 0, 0.190964,  True, '2005-02-09 10:00:00'); /* Drudge Ravener */

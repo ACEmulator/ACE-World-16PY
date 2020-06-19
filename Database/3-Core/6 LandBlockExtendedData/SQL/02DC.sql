@@ -845,207 +845,207 @@ VALUES (0x702DC0D6,  7924, 0x02DC0365, 293.516, -136.967, 0.005, 0.690272, 0, 0,
 /* @teleloc 0x02DC0365 [293.516000 -136.967000 0.005000] 0.690272 0.000000 0.000000 0.723550 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x702DC0D6, 0x702DC001, '2005-02-09 10:00:00') /* Spiked Grievver */
-     , (0x702DC0D6, 0x702DC002, '2005-02-09 10:00:00') /* Spiked Grievver */
-     , (0x702DC0D6, 0x702DC003, '2005-02-09 10:00:00') /* Spiked Grievver */
-     , (0x702DC0D6, 0x702DC004, '2005-02-09 10:00:00') /* Panumbris Shadow */
-     , (0x702DC0D6, 0x702DC005, '2005-02-09 10:00:00') /* Shadow Lieutenant */
-     , (0x702DC0D6, 0x702DC006, '2005-02-09 10:00:00') /* Shadow Lieutenant */
-     , (0x702DC0D6, 0x702DC007, '2005-02-09 10:00:00') /* Panumbris Shadow */
-     , (0x702DC0D6, 0x702DC008, '2005-02-09 10:00:00') /* Shadow Lieutenant */
-     , (0x702DC0D6, 0x702DC009, '2005-02-09 10:00:00') /* Shadow Lieutenant */
-     , (0x702DC0D6, 0x702DC00A, '2005-02-09 10:00:00') /* Panumbris Shadow */
-     , (0x702DC0D6, 0x702DC00B, '2005-02-09 10:00:00') /* Shadow Lieutenant */
-     , (0x702DC0D6, 0x702DC00C, '2005-02-09 10:00:00') /* Shadow Lieutenant */
-     , (0x702DC0D6, 0x702DC00D, '2005-02-09 10:00:00') /* Panumbris Shadow */
-     , (0x702DC0D6, 0x702DC00E, '2005-02-09 10:00:00') /* Shadow Lieutenant */
-     , (0x702DC0D6, 0x702DC00F, '2005-02-09 10:00:00') /* Shadow Lieutenant */
-     , (0x702DC0D6, 0x702DC010, '2005-02-09 10:00:00') /* Shadow Lieutenant */
-     , (0x702DC0D6, 0x702DC011, '2005-02-09 10:00:00') /* Panumbris Shadow */
-     , (0x702DC0D6, 0x702DC012, '2005-02-09 10:00:00') /* Shadow Lieutenant */
-     , (0x702DC0D6, 0x702DC013, '2005-02-09 10:00:00') /* Shadow Lieutenant */
-     , (0x702DC0D6, 0x702DC014, '2005-02-09 10:00:00') /* Shadow Lieutenant */
-     , (0x702DC0D6, 0x702DC015, '2005-02-09 10:00:00') /* Panumbris Shadow */
-     , (0x702DC0D6, 0x702DC016, '2005-02-09 10:00:00') /* Shadow Lieutenant */
-     , (0x702DC0D6, 0x702DC017, '2005-02-09 10:00:00') /* Shadow Lieutenant */
-     , (0x702DC0D6, 0x702DC018, '2005-02-09 10:00:00') /* Shadow Lieutenant */
-     , (0x702DC0D6, 0x702DC01A, '2005-02-09 10:00:00') /* Spiked Grievver */
-     , (0x702DC0D6, 0x702DC01B, '2005-02-09 10:00:00') /* Shadow Lieutenant */
-     , (0x702DC0D6, 0x702DC01C, '2005-02-09 10:00:00') /* Panumbris Shadow */
-     , (0x702DC0D6, 0x702DC01D, '2005-02-09 10:00:00') /* Shadow Lieutenant */
-     , (0x702DC0D6, 0x702DC01E, '2005-02-09 10:00:00') /* Shadow Lieutenant */
-     , (0x702DC0D6, 0x702DC01F, '2005-02-09 10:00:00') /* Panumbris Shadow */
-     , (0x702DC0D6, 0x702DC020, '2005-02-09 10:00:00') /* Shadow Lieutenant */
-     , (0x702DC0D6, 0x702DC021, '2005-02-09 10:00:00') /* Shadow Lieutenant */
-     , (0x702DC0D6, 0x702DC022, '2005-02-09 10:00:00') /* Shadow Lieutenant */
-     , (0x702DC0D6, 0x702DC023, '2005-02-09 10:00:00') /* Panumbris Shadow */
-     , (0x702DC0D6, 0x702DC024, '2005-02-09 10:00:00') /* Shadow Lieutenant */
-     , (0x702DC0D6, 0x702DC025, '2005-02-09 10:00:00') /* Shadow Lieutenant */
-     , (0x702DC0D6, 0x702DC026, '2005-02-09 10:00:00') /* Shadow Lieutenant */
-     , (0x702DC0D6, 0x702DC027, '2005-02-09 10:00:00') /* Panumbris Shadow */
-     , (0x702DC0D6, 0x702DC028, '2005-02-09 10:00:00') /* Shadow Lieutenant */
-     , (0x702DC0D6, 0x702DC029, '2005-02-09 10:00:00') /* Shadow Lieutenant */
-     , (0x702DC0D6, 0x702DC02A, '2005-02-09 10:00:00') /* Shadow Lieutenant */
-     , (0x702DC0D6, 0x702DC02B, '2005-02-09 10:00:00') /* Panumbris Shadow */
-     , (0x702DC0D6, 0x702DC02C, '2005-02-09 10:00:00') /* Shadow Lieutenant */
-     , (0x702DC0D6, 0x702DC02D, '2005-02-09 10:00:00') /* Shadow Lieutenant */
-     , (0x702DC0D6, 0x702DC02E, '2005-02-09 10:00:00') /* Shadow Lieutenant */
-     , (0x702DC0D6, 0x702DC02F, '2005-02-09 10:00:00') /* Panumbris Shadow */
-     , (0x702DC0D6, 0x702DC030, '2005-02-09 10:00:00') /* Shadow Lieutenant */
-     , (0x702DC0D6, 0x702DC031, '2005-02-09 10:00:00') /* Shadow Lieutenant */
-     , (0x702DC0D6, 0x702DC032, '2005-02-09 10:00:00') /* Shadow Lieutenant */
-     , (0x702DC0D6, 0x702DC033, '2005-02-09 10:00:00') /* Panumbris Shadow */
-     , (0x702DC0D6, 0x702DC034, '2005-02-09 10:00:00') /* Shadow Lieutenant */
-     , (0x702DC0D6, 0x702DC035, '2005-02-09 10:00:00') /* Shadow Lieutenant */
-     , (0x702DC0D6, 0x702DC036, '2005-02-09 10:00:00') /* Shadow Lieutenant */
-     , (0x702DC0D6, 0x702DC038, '2005-02-09 10:00:00') /* Panumbris Shadow */
-     , (0x702DC0D6, 0x702DC03A, '2005-02-09 10:00:00') /* Shadow Lieutenant */
-     , (0x702DC0D6, 0x702DC03B, '2005-02-09 10:00:00') /* Shadow Lieutenant */
-     , (0x702DC0D6, 0x702DC03C, '2005-02-09 10:00:00') /* Shadow Lieutenant */
-     , (0x702DC0D6, 0x702DC03D, '2005-02-09 10:00:00') /* Panumbris Shadow */
-     , (0x702DC0D6, 0x702DC03E, '2005-02-09 10:00:00') /* Shadow Lieutenant */
-     , (0x702DC0D6, 0x702DC03F, '2005-02-09 10:00:00') /* Shadow Lieutenant */
-     , (0x702DC0D6, 0x702DC040, '2005-02-09 10:00:00') /* Shadow Lieutenant */
-     , (0x702DC0D6, 0x702DC041, '2005-02-09 10:00:00') /* Panumbris Shadow */
-     , (0x702DC0D6, 0x702DC042, '2005-02-09 10:00:00') /* Shadow Lieutenant */
-     , (0x702DC0D6, 0x702DC043, '2005-02-09 10:00:00') /* Shadow Lieutenant */
-     , (0x702DC0D6, 0x702DC044, '2005-02-09 10:00:00') /* Shadow Lieutenant */
-     , (0x702DC0D6, 0x702DC045, '2005-02-09 10:00:00') /* Panumbris Shadow */
-     , (0x702DC0D6, 0x702DC046, '2005-02-09 10:00:00') /* Shadow Lieutenant */
-     , (0x702DC0D6, 0x702DC047, '2005-02-09 10:00:00') /* Shadow Lieutenant */
-     , (0x702DC0D6, 0x702DC048, '2005-02-09 10:00:00') /* Shadow Lieutenant */
-     , (0x702DC0D6, 0x702DC049, '2005-02-09 10:00:00') /* Panumbris Shadow */
-     , (0x702DC0D6, 0x702DC04A, '2005-02-09 10:00:00') /* Panumbris Shadow */
-     , (0x702DC0D6, 0x702DC04B, '2005-02-09 10:00:00') /* Shadow Lieutenant */
-     , (0x702DC0D6, 0x702DC04C, '2005-02-09 10:00:00') /* Shadow Lieutenant */
-     , (0x702DC0D6, 0x702DC04D, '2005-02-09 10:00:00') /* Shadow Lieutenant */
-     , (0x702DC0D6, 0x702DC04F, '2005-02-09 10:00:00') /* Panumbris Shadow */
-     , (0x702DC0D6, 0x702DC050, '2005-02-09 10:00:00') /* Shadow Lieutenant */
-     , (0x702DC0D6, 0x702DC051, '2005-02-09 10:00:00') /* Shadow Lieutenant */
-     , (0x702DC0D6, 0x702DC052, '2005-02-09 10:00:00') /* Shadow Lieutenant */
-     , (0x702DC0D6, 0x702DC053, '2005-02-09 10:00:00') /* Panumbris Shadow */
-     , (0x702DC0D6, 0x702DC054, '2005-02-09 10:00:00') /* Shadow Lieutenant */
-     , (0x702DC0D6, 0x702DC055, '2005-02-09 10:00:00') /* Shadow Lieutenant */
-     , (0x702DC0D6, 0x702DC056, '2005-02-09 10:00:00') /* Shadow Lieutenant */
-     , (0x702DC0D6, 0x702DC057, '2005-02-09 10:00:00') /* Panumbris Shadow */
-     , (0x702DC0D6, 0x702DC058, '2005-02-09 10:00:00') /* Shadow Lieutenant */
-     , (0x702DC0D6, 0x702DC059, '2005-02-09 10:00:00') /* Shadow Lieutenant */
-     , (0x702DC0D6, 0x702DC05A, '2005-02-09 10:00:00') /* Shadow Lieutenant */
-     , (0x702DC0D6, 0x702DC05B, '2005-02-09 10:00:00') /* Panumbris Shadow */
-     , (0x702DC0D6, 0x702DC05C, '2005-02-09 10:00:00') /* Shadow Lieutenant */
-     , (0x702DC0D6, 0x702DC05D, '2005-02-09 10:00:00') /* Shadow Lieutenant */
-     , (0x702DC0D6, 0x702DC05E, '2005-02-09 10:00:00') /* Shadow Lieutenant */
-     , (0x702DC0D6, 0x702DC063, '2005-02-09 10:00:00') /* Spiked Grievver */
-     , (0x702DC0D6, 0x702DC064, '2005-02-09 10:00:00') /* Spiked Grievver */
-     , (0x702DC0D6, 0x702DC065, '2005-02-09 10:00:00') /* Spiked Grievver */
-     , (0x702DC0D6, 0x702DC066, '2005-02-09 10:00:00') /* Spiked Grievver */
-     , (0x702DC0D6, 0x702DC067, '2005-02-09 10:00:00') /* Spiked Grievver */
-     , (0x702DC0D6, 0x702DC068, '2005-02-09 10:00:00') /* Spiked Grievver */
-     , (0x702DC0D6, 0x702DC069, '2005-02-09 10:00:00') /* Spiked Grievver */
-     , (0x702DC0D6, 0x702DC06A, '2005-02-09 10:00:00') /* Spiked Grievver */
-     , (0x702DC0D6, 0x702DC06B, '2005-02-09 10:00:00') /* Spiked Grievver */
-     , (0x702DC0D6, 0x702DC06C, '2005-02-09 10:00:00') /* Spiked Grievver */
-     , (0x702DC0D6, 0x702DC06D, '2005-02-09 10:00:00') /* Spiked Grievver */
-     , (0x702DC0D6, 0x702DC06E, '2005-02-09 10:00:00') /* Spiked Grievver */
-     , (0x702DC0D6, 0x702DC06F, '2005-02-09 10:00:00') /* Spiked Grievver */
-     , (0x702DC0D6, 0x702DC070, '2005-02-09 10:00:00') /* Spiked Grievver */
-     , (0x702DC0D6, 0x702DC071, '2005-02-09 10:00:00') /* Spiked Grievver */
-     , (0x702DC0D6, 0x702DC072, '2005-02-09 10:00:00') /* Spiked Grievver */
-     , (0x702DC0D6, 0x702DC073, '2005-02-09 10:00:00') /* Spiked Grievver */
-     , (0x702DC0D6, 0x702DC074, '2005-02-09 10:00:00') /* Spiked Grievver */
-     , (0x702DC0D6, 0x702DC075, '2005-02-09 10:00:00') /* Spiked Grievver */
-     , (0x702DC0D6, 0x702DC076, '2005-02-09 10:00:00') /* Spiked Grievver */
-     , (0x702DC0D6, 0x702DC077, '2005-02-09 10:00:00') /* Spiked Grievver */
-     , (0x702DC0D6, 0x702DC078, '2005-02-09 10:00:00') /* Spiked Grievver */
-     , (0x702DC0D6, 0x702DC079, '2005-02-09 10:00:00') /* Spiked Grievver */
-     , (0x702DC0D6, 0x702DC07A, '2005-02-09 10:00:00') /* Spiked Grievver */
-     , (0x702DC0D6, 0x702DC07B, '2005-02-09 10:00:00') /* Spiked Grievver */
-     , (0x702DC0D6, 0x702DC07C, '2005-02-09 10:00:00') /* Spiked Grievver */
-     , (0x702DC0D6, 0x702DC07D, '2005-02-09 10:00:00') /* Spiked Grievver */
-     , (0x702DC0D6, 0x702DC07E, '2005-02-09 10:00:00') /* Spiked Grievver */
-     , (0x702DC0D6, 0x702DC07F, '2005-02-09 10:00:00') /* Spiked Grievver */
-     , (0x702DC0D6, 0x702DC080, '2005-02-09 10:00:00') /* Spiked Grievver */
-     , (0x702DC0D6, 0x702DC081, '2005-02-09 10:00:00') /* Spiked Grievver */
-     , (0x702DC0D6, 0x702DC082, '2005-02-09 10:00:00') /* Spiked Grievver */
-     , (0x702DC0D6, 0x702DC083, '2005-02-09 10:00:00') /* Spiked Grievver */
-     , (0x702DC0D6, 0x702DC084, '2005-02-09 10:00:00') /* Spiked Grievver */
-     , (0x702DC0D6, 0x702DC085, '2005-02-09 10:00:00') /* Spiked Grievver */
-     , (0x702DC0D6, 0x702DC086, '2005-02-09 10:00:00') /* Spiked Grievver */
-     , (0x702DC0D6, 0x702DC087, '2005-02-09 10:00:00') /* Spiked Grievver */
-     , (0x702DC0D6, 0x702DC088, '2005-02-09 10:00:00') /* Spiked Grievver */
-     , (0x702DC0D6, 0x702DC089, '2005-02-09 10:00:00') /* Spiked Grievver */
-     , (0x702DC0D6, 0x702DC08A, '2005-02-09 10:00:00') /* Spiked Grievver */
-     , (0x702DC0D6, 0x702DC08B, '2005-02-09 10:00:00') /* Spiked Grievver */
-     , (0x702DC0D6, 0x702DC08C, '2005-02-09 10:00:00') /* Spiked Grievver */
-     , (0x702DC0D6, 0x702DC08D, '2005-02-09 10:00:00') /* Spiked Grievver */
-     , (0x702DC0D6, 0x702DC08E, '2005-02-09 10:00:00') /* Spiked Grievver */
-     , (0x702DC0D6, 0x702DC08F, '2005-02-09 10:00:00') /* Spiked Grievver */
-     , (0x702DC0D6, 0x702DC090, '2005-02-09 10:00:00') /* Spiked Grievver */
-     , (0x702DC0D6, 0x702DC091, '2005-02-09 10:00:00') /* Spiked Grievver */
-     , (0x702DC0D6, 0x702DC092, '2005-02-09 10:00:00') /* Spiked Grievver */
-     , (0x702DC0D6, 0x702DC093, '2005-02-09 10:00:00') /* Spiked Grievver */
-     , (0x702DC0D6, 0x702DC094, '2005-02-09 10:00:00') /* Spiked Grievver */
-     , (0x702DC0D6, 0x702DC095, '2005-02-09 10:00:00') /* Spiked Grievver */
-     , (0x702DC0D6, 0x702DC096, '2005-02-09 10:00:00') /* Spiked Grievver */
-     , (0x702DC0D6, 0x702DC097, '2005-02-09 10:00:00') /* Spiked Grievver */
-     , (0x702DC0D6, 0x702DC098, '2005-02-09 10:00:00') /* Spiked Grievver */
-     , (0x702DC0D6, 0x702DC099, '2005-02-09 10:00:00') /* Spiked Grievver */
-     , (0x702DC0D6, 0x702DC09A, '2005-02-09 10:00:00') /* Spiked Grievver */
-     , (0x702DC0D6, 0x702DC09B, '2005-02-09 10:00:00') /* Spiked Grievver */
-     , (0x702DC0D6, 0x702DC09C, '2005-02-09 10:00:00') /* Spiked Grievver */
-     , (0x702DC0D6, 0x702DC09D, '2005-02-09 10:00:00') /* Spiked Grievver */
-     , (0x702DC0D6, 0x702DC09E, '2005-02-09 10:00:00') /* Spiked Grievver */
-     , (0x702DC0D6, 0x702DC09F, '2005-02-09 10:00:00') /* Spiked Grievver */
-     , (0x702DC0D6, 0x702DC0A0, '2005-02-09 10:00:00') /* Spiked Grievver */
-     , (0x702DC0D6, 0x702DC0A1, '2005-02-09 10:00:00') /* Spiked Grievver */
-     , (0x702DC0D6, 0x702DC0A2, '2005-02-09 10:00:00') /* Shadow Lieutenant */
-     , (0x702DC0D6, 0x702DC0A3, '2005-02-09 10:00:00') /* Shadow Lieutenant */
-     , (0x702DC0D6, 0x702DC0A4, '2005-02-09 10:00:00') /* Shadow Lieutenant */
-     , (0x702DC0D6, 0x702DC0A5, '2005-02-09 10:00:00') /* Spiked Grievver */
-     , (0x702DC0D6, 0x702DC0A6, '2005-02-09 10:00:00') /* Spiked Grievver */
-     , (0x702DC0D6, 0x702DC0A7, '2005-02-09 10:00:00') /* Spiked Grievver */
-     , (0x702DC0D6, 0x702DC0A8, '2005-02-09 10:00:00') /* Spiked Grievver */
-     , (0x702DC0D6, 0x702DC0A9, '2005-02-09 10:00:00') /* Spiked Grievver */
-     , (0x702DC0D6, 0x702DC0AA, '2005-02-09 10:00:00') /* Spiked Grievver */
-     , (0x702DC0D6, 0x702DC0AB, '2005-02-09 10:00:00') /* Spiked Grievver */
-     , (0x702DC0D6, 0x702DC0AC, '2005-02-09 10:00:00') /* Spiked Grievver */
-     , (0x702DC0D6, 0x702DC0AD, '2005-02-09 10:00:00') /* Spiked Grievver */
-     , (0x702DC0D6, 0x702DC0AE, '2005-02-09 10:00:00') /* Spiked Grievver */
-     , (0x702DC0D6, 0x702DC0AF, '2005-02-09 10:00:00') /* Spiked Grievver */
-     , (0x702DC0D6, 0x702DC0B0, '2005-02-09 10:00:00') /* Spiked Grievver */
-     , (0x702DC0D6, 0x702DC0B1, '2005-02-09 10:00:00') /* Spiked Grievver */
-     , (0x702DC0D6, 0x702DC0B2, '2005-02-09 10:00:00') /* Spiked Grievver */
-     , (0x702DC0D6, 0x702DC0B3, '2005-02-09 10:00:00') /* Spiked Grievver */
-     , (0x702DC0D6, 0x702DC0B4, '2005-02-09 10:00:00') /* Spiked Grievver */
-     , (0x702DC0D6, 0x702DC0B5, '2005-02-09 10:00:00') /* Spiked Grievver */
-     , (0x702DC0D6, 0x702DC0B6, '2005-02-09 10:00:00') /* Spiked Grievver */
-     , (0x702DC0D6, 0x702DC0B7, '2005-02-09 10:00:00') /* Spiked Grievver */
-     , (0x702DC0D6, 0x702DC0B8, '2005-02-09 10:00:00') /* Spiked Grievver */
-     , (0x702DC0D6, 0x702DC0B9, '2005-02-09 10:00:00') /* Spiked Grievver */
-     , (0x702DC0D6, 0x702DC0BA, '2005-02-09 10:00:00') /* Spiked Grievver */
-     , (0x702DC0D6, 0x702DC0BB, '2005-02-09 10:00:00') /* Spiked Grievver */
-     , (0x702DC0D6, 0x702DC0BC, '2005-02-09 10:00:00') /* Spiked Grievver */
-     , (0x702DC0D6, 0x702DC0BD, '2005-02-09 10:00:00') /* Spiked Grievver */
-     , (0x702DC0D6, 0x702DC0BE, '2005-02-09 10:00:00') /* Spiked Grievver */
-     , (0x702DC0D6, 0x702DC0BF, '2005-02-09 10:00:00') /* Spiked Grievver */
-     , (0x702DC0D6, 0x702DC0C0, '2005-02-09 10:00:00') /* Spiked Grievver */
-     , (0x702DC0D6, 0x702DC0C1, '2005-02-09 10:00:00') /* Spiked Grievver */
-     , (0x702DC0D6, 0x702DC0C2, '2005-02-09 10:00:00') /* Spiked Grievver */
-     , (0x702DC0D6, 0x702DC0C3, '2005-02-09 10:00:00') /* Spiked Grievver */
-     , (0x702DC0D6, 0x702DC0C4, '2005-02-09 10:00:00') /* Spiked Grievver */
-     , (0x702DC0D6, 0x702DC0C5, '2005-02-09 10:00:00') /* Spiked Grievver */
-     , (0x702DC0D6, 0x702DC0C6, '2005-02-09 10:00:00') /* Spiked Grievver */
-     , (0x702DC0D6, 0x702DC0C7, '2005-02-09 10:00:00') /* Spiked Grievver */
-     , (0x702DC0D6, 0x702DC0C8, '2005-02-09 10:00:00') /* Spiked Grievver */
-     , (0x702DC0D6, 0x702DC0C9, '2005-02-09 10:00:00') /* Spiked Grievver */
-     , (0x702DC0D6, 0x702DC0CA, '2005-02-09 10:00:00') /* Spiked Grievver */
-     , (0x702DC0D6, 0x702DC0CB, '2005-02-09 10:00:00') /* Spiked Grievver */
-     , (0x702DC0D6, 0x702DC0CC, '2005-02-09 10:00:00') /* Spiked Grievver */
-     , (0x702DC0D6, 0x702DC0CD, '2005-02-09 10:00:00') /* Spiked Grievver */
-     , (0x702DC0D6, 0x702DC0CE, '2005-02-09 10:00:00') /* Spiked Grievver */
-     , (0x702DC0D6, 0x702DC0CF, '2005-02-09 10:00:00') /* Spiked Grievver */
-     , (0x702DC0D6, 0x702DC0D0, '2005-02-09 10:00:00') /* Spiked Grievver */
-     , (0x702DC0D6, 0x702DC0D1, '2005-02-09 10:00:00') /* Spiked Grievver */
-     , (0x702DC0D6, 0x702DC0D2, '2005-02-09 10:00:00') /* Spiked Grievver */
-     , (0x702DC0D6, 0x702DC0D3, '2005-02-09 10:00:00') /* Spiked Grievver */
-     , (0x702DC0D6, 0x702DC0D4, '2005-02-09 10:00:00') /* Spiked Grievver */;
+VALUES (0x702DC0D6, 0x702DC001, '2005-02-09 10:00:00') /* Spiked Grievver (28554) */
+     , (0x702DC0D6, 0x702DC002, '2005-02-09 10:00:00') /* Spiked Grievver (28554) */
+     , (0x702DC0D6, 0x702DC003, '2005-02-09 10:00:00') /* Spiked Grievver (28554) */
+     , (0x702DC0D6, 0x702DC004, '2005-02-09 10:00:00') /* Panumbris Shadow (4253) */
+     , (0x702DC0D6, 0x702DC005, '2005-02-09 10:00:00') /* Shadow Lieutenant (8268) */
+     , (0x702DC0D6, 0x702DC006, '2005-02-09 10:00:00') /* Shadow Lieutenant (8268) */
+     , (0x702DC0D6, 0x702DC007, '2005-02-09 10:00:00') /* Panumbris Shadow (4253) */
+     , (0x702DC0D6, 0x702DC008, '2005-02-09 10:00:00') /* Shadow Lieutenant (8268) */
+     , (0x702DC0D6, 0x702DC009, '2005-02-09 10:00:00') /* Shadow Lieutenant (8268) */
+     , (0x702DC0D6, 0x702DC00A, '2005-02-09 10:00:00') /* Panumbris Shadow (4253) */
+     , (0x702DC0D6, 0x702DC00B, '2005-02-09 10:00:00') /* Shadow Lieutenant (8268) */
+     , (0x702DC0D6, 0x702DC00C, '2005-02-09 10:00:00') /* Shadow Lieutenant (8268) */
+     , (0x702DC0D6, 0x702DC00D, '2005-02-09 10:00:00') /* Panumbris Shadow (4253) */
+     , (0x702DC0D6, 0x702DC00E, '2005-02-09 10:00:00') /* Shadow Lieutenant (8268) */
+     , (0x702DC0D6, 0x702DC00F, '2005-02-09 10:00:00') /* Shadow Lieutenant (8268) */
+     , (0x702DC0D6, 0x702DC010, '2005-02-09 10:00:00') /* Shadow Lieutenant (8268) */
+     , (0x702DC0D6, 0x702DC011, '2005-02-09 10:00:00') /* Panumbris Shadow (4253) */
+     , (0x702DC0D6, 0x702DC012, '2005-02-09 10:00:00') /* Shadow Lieutenant (8268) */
+     , (0x702DC0D6, 0x702DC013, '2005-02-09 10:00:00') /* Shadow Lieutenant (8268) */
+     , (0x702DC0D6, 0x702DC014, '2005-02-09 10:00:00') /* Shadow Lieutenant (8268) */
+     , (0x702DC0D6, 0x702DC015, '2005-02-09 10:00:00') /* Panumbris Shadow (4253) */
+     , (0x702DC0D6, 0x702DC016, '2005-02-09 10:00:00') /* Shadow Lieutenant (8268) */
+     , (0x702DC0D6, 0x702DC017, '2005-02-09 10:00:00') /* Shadow Lieutenant (8268) */
+     , (0x702DC0D6, 0x702DC018, '2005-02-09 10:00:00') /* Shadow Lieutenant (8268) */
+     , (0x702DC0D6, 0x702DC01A, '2005-02-09 10:00:00') /* Spiked Grievver (28554) */
+     , (0x702DC0D6, 0x702DC01B, '2005-02-09 10:00:00') /* Shadow Lieutenant (8268) */
+     , (0x702DC0D6, 0x702DC01C, '2005-02-09 10:00:00') /* Panumbris Shadow (4253) */
+     , (0x702DC0D6, 0x702DC01D, '2005-02-09 10:00:00') /* Shadow Lieutenant (8268) */
+     , (0x702DC0D6, 0x702DC01E, '2005-02-09 10:00:00') /* Shadow Lieutenant (8268) */
+     , (0x702DC0D6, 0x702DC01F, '2005-02-09 10:00:00') /* Panumbris Shadow (4253) */
+     , (0x702DC0D6, 0x702DC020, '2005-02-09 10:00:00') /* Shadow Lieutenant (8268) */
+     , (0x702DC0D6, 0x702DC021, '2005-02-09 10:00:00') /* Shadow Lieutenant (8268) */
+     , (0x702DC0D6, 0x702DC022, '2005-02-09 10:00:00') /* Shadow Lieutenant (8268) */
+     , (0x702DC0D6, 0x702DC023, '2005-02-09 10:00:00') /* Panumbris Shadow (4253) */
+     , (0x702DC0D6, 0x702DC024, '2005-02-09 10:00:00') /* Shadow Lieutenant (8268) */
+     , (0x702DC0D6, 0x702DC025, '2005-02-09 10:00:00') /* Shadow Lieutenant (8268) */
+     , (0x702DC0D6, 0x702DC026, '2005-02-09 10:00:00') /* Shadow Lieutenant (8268) */
+     , (0x702DC0D6, 0x702DC027, '2005-02-09 10:00:00') /* Panumbris Shadow (4253) */
+     , (0x702DC0D6, 0x702DC028, '2005-02-09 10:00:00') /* Shadow Lieutenant (8268) */
+     , (0x702DC0D6, 0x702DC029, '2005-02-09 10:00:00') /* Shadow Lieutenant (8268) */
+     , (0x702DC0D6, 0x702DC02A, '2005-02-09 10:00:00') /* Shadow Lieutenant (8268) */
+     , (0x702DC0D6, 0x702DC02B, '2005-02-09 10:00:00') /* Panumbris Shadow (4253) */
+     , (0x702DC0D6, 0x702DC02C, '2005-02-09 10:00:00') /* Shadow Lieutenant (8268) */
+     , (0x702DC0D6, 0x702DC02D, '2005-02-09 10:00:00') /* Shadow Lieutenant (8268) */
+     , (0x702DC0D6, 0x702DC02E, '2005-02-09 10:00:00') /* Shadow Lieutenant (8268) */
+     , (0x702DC0D6, 0x702DC02F, '2005-02-09 10:00:00') /* Panumbris Shadow (4253) */
+     , (0x702DC0D6, 0x702DC030, '2005-02-09 10:00:00') /* Shadow Lieutenant (8268) */
+     , (0x702DC0D6, 0x702DC031, '2005-02-09 10:00:00') /* Shadow Lieutenant (8268) */
+     , (0x702DC0D6, 0x702DC032, '2005-02-09 10:00:00') /* Shadow Lieutenant (8268) */
+     , (0x702DC0D6, 0x702DC033, '2005-02-09 10:00:00') /* Panumbris Shadow (4253) */
+     , (0x702DC0D6, 0x702DC034, '2005-02-09 10:00:00') /* Shadow Lieutenant (8268) */
+     , (0x702DC0D6, 0x702DC035, '2005-02-09 10:00:00') /* Shadow Lieutenant (8268) */
+     , (0x702DC0D6, 0x702DC036, '2005-02-09 10:00:00') /* Shadow Lieutenant (8268) */
+     , (0x702DC0D6, 0x702DC038, '2005-02-09 10:00:00') /* Panumbris Shadow (4253) */
+     , (0x702DC0D6, 0x702DC03A, '2005-02-09 10:00:00') /* Shadow Lieutenant (8268) */
+     , (0x702DC0D6, 0x702DC03B, '2005-02-09 10:00:00') /* Shadow Lieutenant (8268) */
+     , (0x702DC0D6, 0x702DC03C, '2005-02-09 10:00:00') /* Shadow Lieutenant (8268) */
+     , (0x702DC0D6, 0x702DC03D, '2005-02-09 10:00:00') /* Panumbris Shadow (4253) */
+     , (0x702DC0D6, 0x702DC03E, '2005-02-09 10:00:00') /* Shadow Lieutenant (8268) */
+     , (0x702DC0D6, 0x702DC03F, '2005-02-09 10:00:00') /* Shadow Lieutenant (8268) */
+     , (0x702DC0D6, 0x702DC040, '2005-02-09 10:00:00') /* Shadow Lieutenant (8268) */
+     , (0x702DC0D6, 0x702DC041, '2005-02-09 10:00:00') /* Panumbris Shadow (4253) */
+     , (0x702DC0D6, 0x702DC042, '2005-02-09 10:00:00') /* Shadow Lieutenant (8268) */
+     , (0x702DC0D6, 0x702DC043, '2005-02-09 10:00:00') /* Shadow Lieutenant (8268) */
+     , (0x702DC0D6, 0x702DC044, '2005-02-09 10:00:00') /* Shadow Lieutenant (8268) */
+     , (0x702DC0D6, 0x702DC045, '2005-02-09 10:00:00') /* Panumbris Shadow (4253) */
+     , (0x702DC0D6, 0x702DC046, '2005-02-09 10:00:00') /* Shadow Lieutenant (8268) */
+     , (0x702DC0D6, 0x702DC047, '2005-02-09 10:00:00') /* Shadow Lieutenant (8268) */
+     , (0x702DC0D6, 0x702DC048, '2005-02-09 10:00:00') /* Shadow Lieutenant (8268) */
+     , (0x702DC0D6, 0x702DC049, '2005-02-09 10:00:00') /* Panumbris Shadow (4253) */
+     , (0x702DC0D6, 0x702DC04A, '2005-02-09 10:00:00') /* Panumbris Shadow (4253) */
+     , (0x702DC0D6, 0x702DC04B, '2005-02-09 10:00:00') /* Shadow Lieutenant (8268) */
+     , (0x702DC0D6, 0x702DC04C, '2005-02-09 10:00:00') /* Shadow Lieutenant (8268) */
+     , (0x702DC0D6, 0x702DC04D, '2005-02-09 10:00:00') /* Shadow Lieutenant (8268) */
+     , (0x702DC0D6, 0x702DC04F, '2005-02-09 10:00:00') /* Panumbris Shadow (4253) */
+     , (0x702DC0D6, 0x702DC050, '2005-02-09 10:00:00') /* Shadow Lieutenant (8268) */
+     , (0x702DC0D6, 0x702DC051, '2005-02-09 10:00:00') /* Shadow Lieutenant (8268) */
+     , (0x702DC0D6, 0x702DC052, '2005-02-09 10:00:00') /* Shadow Lieutenant (8268) */
+     , (0x702DC0D6, 0x702DC053, '2005-02-09 10:00:00') /* Panumbris Shadow (4253) */
+     , (0x702DC0D6, 0x702DC054, '2005-02-09 10:00:00') /* Shadow Lieutenant (8268) */
+     , (0x702DC0D6, 0x702DC055, '2005-02-09 10:00:00') /* Shadow Lieutenant (8268) */
+     , (0x702DC0D6, 0x702DC056, '2005-02-09 10:00:00') /* Shadow Lieutenant (8268) */
+     , (0x702DC0D6, 0x702DC057, '2005-02-09 10:00:00') /* Panumbris Shadow (4253) */
+     , (0x702DC0D6, 0x702DC058, '2005-02-09 10:00:00') /* Shadow Lieutenant (8268) */
+     , (0x702DC0D6, 0x702DC059, '2005-02-09 10:00:00') /* Shadow Lieutenant (8268) */
+     , (0x702DC0D6, 0x702DC05A, '2005-02-09 10:00:00') /* Shadow Lieutenant (8268) */
+     , (0x702DC0D6, 0x702DC05B, '2005-02-09 10:00:00') /* Panumbris Shadow (4253) */
+     , (0x702DC0D6, 0x702DC05C, '2005-02-09 10:00:00') /* Shadow Lieutenant (8268) */
+     , (0x702DC0D6, 0x702DC05D, '2005-02-09 10:00:00') /* Shadow Lieutenant (8268) */
+     , (0x702DC0D6, 0x702DC05E, '2005-02-09 10:00:00') /* Shadow Lieutenant (8268) */
+     , (0x702DC0D6, 0x702DC063, '2005-02-09 10:00:00') /* Spiked Grievver (28554) */
+     , (0x702DC0D6, 0x702DC064, '2005-02-09 10:00:00') /* Spiked Grievver (28554) */
+     , (0x702DC0D6, 0x702DC065, '2005-02-09 10:00:00') /* Spiked Grievver (28554) */
+     , (0x702DC0D6, 0x702DC066, '2005-02-09 10:00:00') /* Spiked Grievver (28554) */
+     , (0x702DC0D6, 0x702DC067, '2005-02-09 10:00:00') /* Spiked Grievver (28554) */
+     , (0x702DC0D6, 0x702DC068, '2005-02-09 10:00:00') /* Spiked Grievver (28554) */
+     , (0x702DC0D6, 0x702DC069, '2005-02-09 10:00:00') /* Spiked Grievver (28554) */
+     , (0x702DC0D6, 0x702DC06A, '2005-02-09 10:00:00') /* Spiked Grievver (28554) */
+     , (0x702DC0D6, 0x702DC06B, '2005-02-09 10:00:00') /* Spiked Grievver (28554) */
+     , (0x702DC0D6, 0x702DC06C, '2005-02-09 10:00:00') /* Spiked Grievver (28554) */
+     , (0x702DC0D6, 0x702DC06D, '2005-02-09 10:00:00') /* Spiked Grievver (28554) */
+     , (0x702DC0D6, 0x702DC06E, '2005-02-09 10:00:00') /* Spiked Grievver (28554) */
+     , (0x702DC0D6, 0x702DC06F, '2005-02-09 10:00:00') /* Spiked Grievver (28554) */
+     , (0x702DC0D6, 0x702DC070, '2005-02-09 10:00:00') /* Spiked Grievver (28554) */
+     , (0x702DC0D6, 0x702DC071, '2005-02-09 10:00:00') /* Spiked Grievver (28554) */
+     , (0x702DC0D6, 0x702DC072, '2005-02-09 10:00:00') /* Spiked Grievver (28554) */
+     , (0x702DC0D6, 0x702DC073, '2005-02-09 10:00:00') /* Spiked Grievver (28554) */
+     , (0x702DC0D6, 0x702DC074, '2005-02-09 10:00:00') /* Spiked Grievver (28554) */
+     , (0x702DC0D6, 0x702DC075, '2005-02-09 10:00:00') /* Spiked Grievver (28554) */
+     , (0x702DC0D6, 0x702DC076, '2005-02-09 10:00:00') /* Spiked Grievver (28554) */
+     , (0x702DC0D6, 0x702DC077, '2005-02-09 10:00:00') /* Spiked Grievver (28554) */
+     , (0x702DC0D6, 0x702DC078, '2005-02-09 10:00:00') /* Spiked Grievver (28554) */
+     , (0x702DC0D6, 0x702DC079, '2005-02-09 10:00:00') /* Spiked Grievver (28554) */
+     , (0x702DC0D6, 0x702DC07A, '2005-02-09 10:00:00') /* Spiked Grievver (28554) */
+     , (0x702DC0D6, 0x702DC07B, '2005-02-09 10:00:00') /* Spiked Grievver (28554) */
+     , (0x702DC0D6, 0x702DC07C, '2005-02-09 10:00:00') /* Spiked Grievver (28554) */
+     , (0x702DC0D6, 0x702DC07D, '2005-02-09 10:00:00') /* Spiked Grievver (28554) */
+     , (0x702DC0D6, 0x702DC07E, '2005-02-09 10:00:00') /* Spiked Grievver (28554) */
+     , (0x702DC0D6, 0x702DC07F, '2005-02-09 10:00:00') /* Spiked Grievver (28554) */
+     , (0x702DC0D6, 0x702DC080, '2005-02-09 10:00:00') /* Spiked Grievver (28554) */
+     , (0x702DC0D6, 0x702DC081, '2005-02-09 10:00:00') /* Spiked Grievver (28554) */
+     , (0x702DC0D6, 0x702DC082, '2005-02-09 10:00:00') /* Spiked Grievver (28554) */
+     , (0x702DC0D6, 0x702DC083, '2005-02-09 10:00:00') /* Spiked Grievver (28554) */
+     , (0x702DC0D6, 0x702DC084, '2005-02-09 10:00:00') /* Spiked Grievver (28554) */
+     , (0x702DC0D6, 0x702DC085, '2005-02-09 10:00:00') /* Spiked Grievver (28554) */
+     , (0x702DC0D6, 0x702DC086, '2005-02-09 10:00:00') /* Spiked Grievver (28554) */
+     , (0x702DC0D6, 0x702DC087, '2005-02-09 10:00:00') /* Spiked Grievver (28554) */
+     , (0x702DC0D6, 0x702DC088, '2005-02-09 10:00:00') /* Spiked Grievver (28554) */
+     , (0x702DC0D6, 0x702DC089, '2005-02-09 10:00:00') /* Spiked Grievver (28554) */
+     , (0x702DC0D6, 0x702DC08A, '2005-02-09 10:00:00') /* Spiked Grievver (28554) */
+     , (0x702DC0D6, 0x702DC08B, '2005-02-09 10:00:00') /* Spiked Grievver (28554) */
+     , (0x702DC0D6, 0x702DC08C, '2005-02-09 10:00:00') /* Spiked Grievver (28554) */
+     , (0x702DC0D6, 0x702DC08D, '2005-02-09 10:00:00') /* Spiked Grievver (28554) */
+     , (0x702DC0D6, 0x702DC08E, '2005-02-09 10:00:00') /* Spiked Grievver (28554) */
+     , (0x702DC0D6, 0x702DC08F, '2005-02-09 10:00:00') /* Spiked Grievver (28554) */
+     , (0x702DC0D6, 0x702DC090, '2005-02-09 10:00:00') /* Spiked Grievver (28554) */
+     , (0x702DC0D6, 0x702DC091, '2005-02-09 10:00:00') /* Spiked Grievver (28554) */
+     , (0x702DC0D6, 0x702DC092, '2005-02-09 10:00:00') /* Spiked Grievver (28554) */
+     , (0x702DC0D6, 0x702DC093, '2005-02-09 10:00:00') /* Spiked Grievver (28554) */
+     , (0x702DC0D6, 0x702DC094, '2005-02-09 10:00:00') /* Spiked Grievver (28554) */
+     , (0x702DC0D6, 0x702DC095, '2005-02-09 10:00:00') /* Spiked Grievver (28554) */
+     , (0x702DC0D6, 0x702DC096, '2005-02-09 10:00:00') /* Spiked Grievver (28554) */
+     , (0x702DC0D6, 0x702DC097, '2005-02-09 10:00:00') /* Spiked Grievver (28554) */
+     , (0x702DC0D6, 0x702DC098, '2005-02-09 10:00:00') /* Spiked Grievver (28554) */
+     , (0x702DC0D6, 0x702DC099, '2005-02-09 10:00:00') /* Spiked Grievver (28554) */
+     , (0x702DC0D6, 0x702DC09A, '2005-02-09 10:00:00') /* Spiked Grievver (28554) */
+     , (0x702DC0D6, 0x702DC09B, '2005-02-09 10:00:00') /* Spiked Grievver (28554) */
+     , (0x702DC0D6, 0x702DC09C, '2005-02-09 10:00:00') /* Spiked Grievver (28554) */
+     , (0x702DC0D6, 0x702DC09D, '2005-02-09 10:00:00') /* Spiked Grievver (28554) */
+     , (0x702DC0D6, 0x702DC09E, '2005-02-09 10:00:00') /* Spiked Grievver (28554) */
+     , (0x702DC0D6, 0x702DC09F, '2005-02-09 10:00:00') /* Spiked Grievver (28554) */
+     , (0x702DC0D6, 0x702DC0A0, '2005-02-09 10:00:00') /* Spiked Grievver (28554) */
+     , (0x702DC0D6, 0x702DC0A1, '2005-02-09 10:00:00') /* Spiked Grievver (28554) */
+     , (0x702DC0D6, 0x702DC0A2, '2005-02-09 10:00:00') /* Shadow Lieutenant (8268) */
+     , (0x702DC0D6, 0x702DC0A3, '2005-02-09 10:00:00') /* Shadow Lieutenant (8268) */
+     , (0x702DC0D6, 0x702DC0A4, '2005-02-09 10:00:00') /* Shadow Lieutenant (8268) */
+     , (0x702DC0D6, 0x702DC0A5, '2005-02-09 10:00:00') /* Spiked Grievver (28554) */
+     , (0x702DC0D6, 0x702DC0A6, '2005-02-09 10:00:00') /* Spiked Grievver (28554) */
+     , (0x702DC0D6, 0x702DC0A7, '2005-02-09 10:00:00') /* Spiked Grievver (28554) */
+     , (0x702DC0D6, 0x702DC0A8, '2005-02-09 10:00:00') /* Spiked Grievver (28554) */
+     , (0x702DC0D6, 0x702DC0A9, '2005-02-09 10:00:00') /* Spiked Grievver (28554) */
+     , (0x702DC0D6, 0x702DC0AA, '2005-02-09 10:00:00') /* Spiked Grievver (28554) */
+     , (0x702DC0D6, 0x702DC0AB, '2005-02-09 10:00:00') /* Spiked Grievver (28554) */
+     , (0x702DC0D6, 0x702DC0AC, '2005-02-09 10:00:00') /* Spiked Grievver (28554) */
+     , (0x702DC0D6, 0x702DC0AD, '2005-02-09 10:00:00') /* Spiked Grievver (28554) */
+     , (0x702DC0D6, 0x702DC0AE, '2005-02-09 10:00:00') /* Spiked Grievver (28554) */
+     , (0x702DC0D6, 0x702DC0AF, '2005-02-09 10:00:00') /* Spiked Grievver (28554) */
+     , (0x702DC0D6, 0x702DC0B0, '2005-02-09 10:00:00') /* Spiked Grievver (28554) */
+     , (0x702DC0D6, 0x702DC0B1, '2005-02-09 10:00:00') /* Spiked Grievver (28554) */
+     , (0x702DC0D6, 0x702DC0B2, '2005-02-09 10:00:00') /* Spiked Grievver (28554) */
+     , (0x702DC0D6, 0x702DC0B3, '2005-02-09 10:00:00') /* Spiked Grievver (28554) */
+     , (0x702DC0D6, 0x702DC0B4, '2005-02-09 10:00:00') /* Spiked Grievver (28554) */
+     , (0x702DC0D6, 0x702DC0B5, '2005-02-09 10:00:00') /* Spiked Grievver (28554) */
+     , (0x702DC0D6, 0x702DC0B6, '2005-02-09 10:00:00') /* Spiked Grievver (28554) */
+     , (0x702DC0D6, 0x702DC0B7, '2005-02-09 10:00:00') /* Spiked Grievver (28554) */
+     , (0x702DC0D6, 0x702DC0B8, '2005-02-09 10:00:00') /* Spiked Grievver (28554) */
+     , (0x702DC0D6, 0x702DC0B9, '2005-02-09 10:00:00') /* Spiked Grievver (28554) */
+     , (0x702DC0D6, 0x702DC0BA, '2005-02-09 10:00:00') /* Spiked Grievver (28554) */
+     , (0x702DC0D6, 0x702DC0BB, '2005-02-09 10:00:00') /* Spiked Grievver (28554) */
+     , (0x702DC0D6, 0x702DC0BC, '2005-02-09 10:00:00') /* Spiked Grievver (28554) */
+     , (0x702DC0D6, 0x702DC0BD, '2005-02-09 10:00:00') /* Spiked Grievver (28554) */
+     , (0x702DC0D6, 0x702DC0BE, '2005-02-09 10:00:00') /* Spiked Grievver (28554) */
+     , (0x702DC0D6, 0x702DC0BF, '2005-02-09 10:00:00') /* Spiked Grievver (28554) */
+     , (0x702DC0D6, 0x702DC0C0, '2005-02-09 10:00:00') /* Spiked Grievver (28554) */
+     , (0x702DC0D6, 0x702DC0C1, '2005-02-09 10:00:00') /* Spiked Grievver (28554) */
+     , (0x702DC0D6, 0x702DC0C2, '2005-02-09 10:00:00') /* Spiked Grievver (28554) */
+     , (0x702DC0D6, 0x702DC0C3, '2005-02-09 10:00:00') /* Spiked Grievver (28554) */
+     , (0x702DC0D6, 0x702DC0C4, '2005-02-09 10:00:00') /* Spiked Grievver (28554) */
+     , (0x702DC0D6, 0x702DC0C5, '2005-02-09 10:00:00') /* Spiked Grievver (28554) */
+     , (0x702DC0D6, 0x702DC0C6, '2005-02-09 10:00:00') /* Spiked Grievver (28554) */
+     , (0x702DC0D6, 0x702DC0C7, '2005-02-09 10:00:00') /* Spiked Grievver (28554) */
+     , (0x702DC0D6, 0x702DC0C8, '2005-02-09 10:00:00') /* Spiked Grievver (28554) */
+     , (0x702DC0D6, 0x702DC0C9, '2005-02-09 10:00:00') /* Spiked Grievver (28554) */
+     , (0x702DC0D6, 0x702DC0CA, '2005-02-09 10:00:00') /* Spiked Grievver (28554) */
+     , (0x702DC0D6, 0x702DC0CB, '2005-02-09 10:00:00') /* Spiked Grievver (28554) */
+     , (0x702DC0D6, 0x702DC0CC, '2005-02-09 10:00:00') /* Spiked Grievver (28554) */
+     , (0x702DC0D6, 0x702DC0CD, '2005-02-09 10:00:00') /* Spiked Grievver (28554) */
+     , (0x702DC0D6, 0x702DC0CE, '2005-02-09 10:00:00') /* Spiked Grievver (28554) */
+     , (0x702DC0D6, 0x702DC0CF, '2005-02-09 10:00:00') /* Spiked Grievver (28554) */
+     , (0x702DC0D6, 0x702DC0D0, '2005-02-09 10:00:00') /* Spiked Grievver (28554) */
+     , (0x702DC0D6, 0x702DC0D1, '2005-02-09 10:00:00') /* Spiked Grievver (28554) */
+     , (0x702DC0D6, 0x702DC0D2, '2005-02-09 10:00:00') /* Spiked Grievver (28554) */
+     , (0x702DC0D6, 0x702DC0D3, '2005-02-09 10:00:00') /* Spiked Grievver (28554) */
+     , (0x702DC0D6, 0x702DC0D4, '2005-02-09 10:00:00') /* Spiked Grievver (28554) */;

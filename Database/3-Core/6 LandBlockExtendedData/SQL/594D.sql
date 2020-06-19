@@ -45,30 +45,30 @@ VALUES (0x7594D00A,  7932, 0x594D0112, 100, -80, -65.995, 1, 0, 0, 0, False, '20
 /* @teleloc 0x594D0112 [100.000000 -80.000000 -65.995000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7594D00A, 0x7594D000, '2005-02-09 10:00:00') /* Falatacot Matriarch */
-     , (0x7594D00A, 0x7594D001, '2005-02-09 10:00:00') /* Falatacot Matriarch */
-     , (0x7594D00A, 0x7594D002, '2005-02-09 10:00:00') /* Falatacot Patrician */
-     , (0x7594D00A, 0x7594D004, '2005-02-09 10:00:00') /* Falatacot Matriarch */
-     , (0x7594D00A, 0x7594D005, '2005-02-09 10:00:00') /* Falatacot Matriarch */
-     , (0x7594D00A, 0x7594D006, '2005-02-09 10:00:00') /* Falatacot Patrician */
-     , (0x7594D00A, 0x7594D007, '2005-02-09 10:00:00') /* Falatacot Patrician */
-     , (0x7594D00A, 0x7594D008, '2005-02-09 10:00:00') /* Falatacot Consort */
-     , (0x7594D00A, 0x7594D009, '2005-02-09 10:00:00') /* Falatacot Consort */
-     , (0x7594D00A, 0x7594D00C, '2005-02-09 10:00:00') /* Falatacot Abbess */
-     , (0x7594D00A, 0x7594D00D, '2005-02-09 10:00:00') /* Falatacot Matriarch */
-     , (0x7594D00A, 0x7594D00E, '2005-02-09 10:00:00') /* Falatacot Matriarch */
-     , (0x7594D00A, 0x7594D00F, '2005-02-09 10:00:00') /* Falatacot Matriarch */
-     , (0x7594D00A, 0x7594D010, '2005-02-09 10:00:00') /* Falatacot Matriarch */
-     , (0x7594D00A, 0x7594D014, '2005-02-09 10:00:00') /* Falatacot Matriarch */
-     , (0x7594D00A, 0x7594D015, '2005-02-09 10:00:00') /* Falatacot Patrician */
-     , (0x7594D00A, 0x7594D016, '2005-02-09 10:00:00') /* Falatacot Patrician */
-     , (0x7594D00A, 0x7594D017, '2005-02-09 10:00:00') /* Falatacot Patrician */
-     , (0x7594D00A, 0x7594D018, '2005-02-09 10:00:00') /* Falatacot Matriarch */
-     , (0x7594D00A, 0x7594D019, '2005-02-09 10:00:00') /* Falatacot Matriarch */
-     , (0x7594D00A, 0x7594D01A, '2005-02-09 10:00:00') /* Falatacot Matriarch */
-     , (0x7594D00A, 0x7594D01B, '2005-02-09 10:00:00') /* Falatacot Matriarch */
-     , (0x7594D00A, 0x7594D01C, '2005-02-09 10:00:00') /* Falatacot Matriarch */
-     , (0x7594D00A, 0x7594D01D, '2005-02-09 10:00:00') /* Falatacot Matriarch */;
+VALUES (0x7594D00A, 0x7594D000, '2005-02-09 10:00:00') /* Falatacot Matriarch (25347) */
+     , (0x7594D00A, 0x7594D001, '2005-02-09 10:00:00') /* Falatacot Matriarch (25347) */
+     , (0x7594D00A, 0x7594D002, '2005-02-09 10:00:00') /* Falatacot Patrician (25348) */
+     , (0x7594D00A, 0x7594D004, '2005-02-09 10:00:00') /* Falatacot Matriarch (25347) */
+     , (0x7594D00A, 0x7594D005, '2005-02-09 10:00:00') /* Falatacot Matriarch (25347) */
+     , (0x7594D00A, 0x7594D006, '2005-02-09 10:00:00') /* Falatacot Patrician (25348) */
+     , (0x7594D00A, 0x7594D007, '2005-02-09 10:00:00') /* Falatacot Patrician (25348) */
+     , (0x7594D00A, 0x7594D008, '2005-02-09 10:00:00') /* Falatacot Consort (25346) */
+     , (0x7594D00A, 0x7594D009, '2005-02-09 10:00:00') /* Falatacot Consort (25346) */
+     , (0x7594D00A, 0x7594D00C, '2005-02-09 10:00:00') /* Falatacot Abbess (25345) */
+     , (0x7594D00A, 0x7594D00D, '2005-02-09 10:00:00') /* Falatacot Matriarch (25347) */
+     , (0x7594D00A, 0x7594D00E, '2005-02-09 10:00:00') /* Falatacot Matriarch (25347) */
+     , (0x7594D00A, 0x7594D00F, '2005-02-09 10:00:00') /* Falatacot Matriarch (25347) */
+     , (0x7594D00A, 0x7594D010, '2005-02-09 10:00:00') /* Falatacot Matriarch (25347) */
+     , (0x7594D00A, 0x7594D014, '2005-02-09 10:00:00') /* Falatacot Matriarch (25347) */
+     , (0x7594D00A, 0x7594D015, '2005-02-09 10:00:00') /* Falatacot Patrician (25348) */
+     , (0x7594D00A, 0x7594D016, '2005-02-09 10:00:00') /* Falatacot Patrician (25348) */
+     , (0x7594D00A, 0x7594D017, '2005-02-09 10:00:00') /* Falatacot Patrician (25348) */
+     , (0x7594D00A, 0x7594D018, '2005-02-09 10:00:00') /* Falatacot Matriarch (25347) */
+     , (0x7594D00A, 0x7594D019, '2005-02-09 10:00:00') /* Falatacot Matriarch (25347) */
+     , (0x7594D00A, 0x7594D01A, '2005-02-09 10:00:00') /* Falatacot Matriarch (25347) */
+     , (0x7594D00A, 0x7594D01B, '2005-02-09 10:00:00') /* Falatacot Matriarch (25347) */
+     , (0x7594D00A, 0x7594D01C, '2005-02-09 10:00:00') /* Falatacot Matriarch (25347) */
+     , (0x7594D00A, 0x7594D01D, '2005-02-09 10:00:00') /* Falatacot Matriarch (25347) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7594D00B, 25387, 0x594D0113, 100, -91.5, -65.971, 1, 0, 0, 0,  True, '2005-02-09 10:00:00'); /* Living Tome */
@@ -103,7 +103,7 @@ VALUES (0x7594D013,  7923, 0x594D012C, 80, -60, -59.995, 1, 0, 0, 0, False, '200
 /* @teleloc 0x594D012C [80.000000 -60.000000 -59.995000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7594D013, 0x7594D00B, '2005-02-09 10:00:00') /* Living Tome */;
+VALUES (0x7594D013, 0x7594D00B, '2005-02-09 10:00:00') /* Living Tome (25387) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7594D014, 25347, 0x594D012E, 87.338, -16.3989, -59.9902, -0.106023, 0, 0, -0.994364,  True, '2005-02-09 10:00:00'); /* Falatacot Matriarch */
@@ -334,52 +334,52 @@ VALUES (0x7594D052,  7932, 0x594D022E, 90, -70, -35.995, 1, 0, 0, 0, False, '200
 /* @teleloc 0x594D022E [90.000000 -70.000000 -35.995000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7594D052, 0x7594D01F, '2005-02-09 10:00:00') /* Falatacot Matriarch */
-     , (0x7594D052, 0x7594D020, '2005-02-09 10:00:00') /* Falatacot Matriarch */
-     , (0x7594D052, 0x7594D022, '2005-02-09 10:00:00') /* Falatacot Patrician */
-     , (0x7594D052, 0x7594D023, '2005-02-09 10:00:00') /* Falatacot Patrician */
-     , (0x7594D052, 0x7594D027, '2005-02-09 10:00:00') /* Falatacot Consort */
-     , (0x7594D052, 0x7594D028, '2005-02-09 10:00:00') /* Falatacot Consort */
-     , (0x7594D052, 0x7594D029, '2005-02-09 10:00:00') /* Falatacot Matriarch */
-     , (0x7594D052, 0x7594D02A, '2005-02-09 10:00:00') /* Falatacot Patrician */
-     , (0x7594D052, 0x7594D02B, '2005-02-09 10:00:00') /* Falatacot Patrician */
-     , (0x7594D052, 0x7594D02D, '2005-02-09 10:00:00') /* Falatacot Matriarch */
-     , (0x7594D052, 0x7594D02E, '2005-02-09 10:00:00') /* Falatacot Matriarch */
-     , (0x7594D052, 0x7594D02F, '2005-02-09 10:00:00') /* Falatacot Matriarch */
-     , (0x7594D052, 0x7594D030, '2005-02-09 10:00:00') /* Falatacot Matriarch */
-     , (0x7594D052, 0x7594D031, '2005-02-09 10:00:00') /* Falatacot Matriarch */
-     , (0x7594D052, 0x7594D032, '2005-02-09 10:00:00') /* Falatacot Patrician */
-     , (0x7594D052, 0x7594D033, '2005-02-09 10:00:00') /* Falatacot Patrician */
-     , (0x7594D052, 0x7594D034, '2005-02-09 10:00:00') /* Falatacot Patrician */
-     , (0x7594D052, 0x7594D035, '2005-02-09 10:00:00') /* Falatacot Patrician */
-     , (0x7594D052, 0x7594D036, '2005-02-09 10:00:00') /* Falatacot Patrician */
-     , (0x7594D052, 0x7594D037, '2005-02-09 10:00:00') /* Falatacot Patrician */
-     , (0x7594D052, 0x7594D038, '2005-02-09 10:00:00') /* Falatacot Patrician */
-     , (0x7594D052, 0x7594D039, '2005-02-09 10:00:00') /* Falatacot Patrician */
-     , (0x7594D052, 0x7594D03A, '2005-02-09 10:00:00') /* Falatacot Consort */
-     , (0x7594D052, 0x7594D03B, '2005-02-09 10:00:00') /* Falatacot Consort */
-     , (0x7594D052, 0x7594D03C, '2005-02-09 10:00:00') /* Falatacot Consort */
-     , (0x7594D052, 0x7594D03D, '2005-02-09 10:00:00') /* Falatacot Consort */
-     , (0x7594D052, 0x7594D03E, '2005-02-09 10:00:00') /* Falatacot Consort */
-     , (0x7594D052, 0x7594D03F, '2005-02-09 10:00:00') /* Falatacot Consort */
-     , (0x7594D052, 0x7594D040, '2005-02-09 10:00:00') /* Falatacot Patrician */
-     , (0x7594D052, 0x7594D041, '2005-02-09 10:00:00') /* Falatacot Patrician */
-     , (0x7594D052, 0x7594D042, '2005-02-09 10:00:00') /* Falatacot Patrician */
-     , (0x7594D052, 0x7594D043, '2005-02-09 10:00:00') /* Falatacot Matriarch */
-     , (0x7594D052, 0x7594D044, '2005-02-09 10:00:00') /* Falatacot Consort */
-     , (0x7594D052, 0x7594D045, '2005-02-09 10:00:00') /* Falatacot Consort */
-     , (0x7594D052, 0x7594D046, '2005-02-09 10:00:00') /* Falatacot Matriarch */
-     , (0x7594D052, 0x7594D04A, '2005-02-09 10:00:00') /* Falatacot Matriarch */
-     , (0x7594D052, 0x7594D04B, '2005-02-09 10:00:00') /* Falatacot Matriarch */
-     , (0x7594D052, 0x7594D04C, '2005-02-09 10:00:00') /* Falatacot Consort */
-     , (0x7594D052, 0x7594D04E, '2005-02-09 10:00:00') /* Falatacot Matriarch */
-     , (0x7594D052, 0x7594D04F, '2005-02-09 10:00:00') /* Falatacot Matriarch */
-     , (0x7594D052, 0x7594D050, '2005-02-09 10:00:00') /* Falatacot Matriarch */
-     , (0x7594D052, 0x7594D051, '2005-02-09 10:00:00') /* Falatacot Consort */
-     , (0x7594D052, 0x7594D053, '2005-02-09 10:00:00') /* Falatacot Consort */
-     , (0x7594D052, 0x7594D054, '2005-02-09 10:00:00') /* Falatacot Patrician */
-     , (0x7594D052, 0x7594D055, '2005-02-09 10:00:00') /* Falatacot Patrician */
-     , (0x7594D052, 0x7594D072, '2005-02-09 10:00:00') /* Falatacot Consort */;
+VALUES (0x7594D052, 0x7594D01F, '2005-02-09 10:00:00') /* Falatacot Matriarch (25347) */
+     , (0x7594D052, 0x7594D020, '2005-02-09 10:00:00') /* Falatacot Matriarch (25347) */
+     , (0x7594D052, 0x7594D022, '2005-02-09 10:00:00') /* Falatacot Patrician (25348) */
+     , (0x7594D052, 0x7594D023, '2005-02-09 10:00:00') /* Falatacot Patrician (25348) */
+     , (0x7594D052, 0x7594D027, '2005-02-09 10:00:00') /* Falatacot Consort (25346) */
+     , (0x7594D052, 0x7594D028, '2005-02-09 10:00:00') /* Falatacot Consort (25346) */
+     , (0x7594D052, 0x7594D029, '2005-02-09 10:00:00') /* Falatacot Matriarch (25347) */
+     , (0x7594D052, 0x7594D02A, '2005-02-09 10:00:00') /* Falatacot Patrician (25348) */
+     , (0x7594D052, 0x7594D02B, '2005-02-09 10:00:00') /* Falatacot Patrician (25348) */
+     , (0x7594D052, 0x7594D02D, '2005-02-09 10:00:00') /* Falatacot Matriarch (25347) */
+     , (0x7594D052, 0x7594D02E, '2005-02-09 10:00:00') /* Falatacot Matriarch (25347) */
+     , (0x7594D052, 0x7594D02F, '2005-02-09 10:00:00') /* Falatacot Matriarch (25347) */
+     , (0x7594D052, 0x7594D030, '2005-02-09 10:00:00') /* Falatacot Matriarch (25347) */
+     , (0x7594D052, 0x7594D031, '2005-02-09 10:00:00') /* Falatacot Matriarch (25347) */
+     , (0x7594D052, 0x7594D032, '2005-02-09 10:00:00') /* Falatacot Patrician (25348) */
+     , (0x7594D052, 0x7594D033, '2005-02-09 10:00:00') /* Falatacot Patrician (25348) */
+     , (0x7594D052, 0x7594D034, '2005-02-09 10:00:00') /* Falatacot Patrician (25348) */
+     , (0x7594D052, 0x7594D035, '2005-02-09 10:00:00') /* Falatacot Patrician (25348) */
+     , (0x7594D052, 0x7594D036, '2005-02-09 10:00:00') /* Falatacot Patrician (25348) */
+     , (0x7594D052, 0x7594D037, '2005-02-09 10:00:00') /* Falatacot Patrician (25348) */
+     , (0x7594D052, 0x7594D038, '2005-02-09 10:00:00') /* Falatacot Patrician (25348) */
+     , (0x7594D052, 0x7594D039, '2005-02-09 10:00:00') /* Falatacot Patrician (25348) */
+     , (0x7594D052, 0x7594D03A, '2005-02-09 10:00:00') /* Falatacot Consort (25346) */
+     , (0x7594D052, 0x7594D03B, '2005-02-09 10:00:00') /* Falatacot Consort (25346) */
+     , (0x7594D052, 0x7594D03C, '2005-02-09 10:00:00') /* Falatacot Consort (25346) */
+     , (0x7594D052, 0x7594D03D, '2005-02-09 10:00:00') /* Falatacot Consort (25346) */
+     , (0x7594D052, 0x7594D03E, '2005-02-09 10:00:00') /* Falatacot Consort (25346) */
+     , (0x7594D052, 0x7594D03F, '2005-02-09 10:00:00') /* Falatacot Consort (25346) */
+     , (0x7594D052, 0x7594D040, '2005-02-09 10:00:00') /* Falatacot Patrician (25348) */
+     , (0x7594D052, 0x7594D041, '2005-02-09 10:00:00') /* Falatacot Patrician (25348) */
+     , (0x7594D052, 0x7594D042, '2005-02-09 10:00:00') /* Falatacot Patrician (25348) */
+     , (0x7594D052, 0x7594D043, '2005-02-09 10:00:00') /* Falatacot Matriarch (25347) */
+     , (0x7594D052, 0x7594D044, '2005-02-09 10:00:00') /* Falatacot Consort (25346) */
+     , (0x7594D052, 0x7594D045, '2005-02-09 10:00:00') /* Falatacot Consort (25346) */
+     , (0x7594D052, 0x7594D046, '2005-02-09 10:00:00') /* Falatacot Matriarch (25347) */
+     , (0x7594D052, 0x7594D04A, '2005-02-09 10:00:00') /* Falatacot Matriarch (25347) */
+     , (0x7594D052, 0x7594D04B, '2005-02-09 10:00:00') /* Falatacot Matriarch (25347) */
+     , (0x7594D052, 0x7594D04C, '2005-02-09 10:00:00') /* Falatacot Consort (25346) */
+     , (0x7594D052, 0x7594D04E, '2005-02-09 10:00:00') /* Falatacot Matriarch (25347) */
+     , (0x7594D052, 0x7594D04F, '2005-02-09 10:00:00') /* Falatacot Matriarch (25347) */
+     , (0x7594D052, 0x7594D050, '2005-02-09 10:00:00') /* Falatacot Matriarch (25347) */
+     , (0x7594D052, 0x7594D051, '2005-02-09 10:00:00') /* Falatacot Consort (25346) */
+     , (0x7594D052, 0x7594D053, '2005-02-09 10:00:00') /* Falatacot Consort (25346) */
+     , (0x7594D052, 0x7594D054, '2005-02-09 10:00:00') /* Falatacot Patrician (25348) */
+     , (0x7594D052, 0x7594D055, '2005-02-09 10:00:00') /* Falatacot Patrician (25348) */
+     , (0x7594D052, 0x7594D072, '2005-02-09 10:00:00') /* Falatacot Consort (25346) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7594D053, 25346, 0x594D0235, 90.6298, -88.7062, -35.9902, 0.999786, 0, 0, 0.020699,  True, '2005-02-09 10:00:00'); /* Falatacot Consort */
@@ -454,46 +454,46 @@ VALUES (0x7594D065,  7932, 0x594D0286, 40, -40, -29.995, 1, 0, 0, 0, False, '200
 /* @teleloc 0x594D0286 [40.000000 -40.000000 -29.995000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7594D065, 0x7594D056, '2005-02-09 10:00:00') /* Falatacot Consort */
-     , (0x7594D065, 0x7594D057, '2005-02-09 10:00:00') /* Falatacot Consort */
-     , (0x7594D065, 0x7594D058, '2005-02-09 10:00:00') /* Falatacot Consort */
-     , (0x7594D065, 0x7594D059, '2005-02-09 10:00:00') /* Falatacot Consort */
-     , (0x7594D065, 0x7594D05A, '2005-02-09 10:00:00') /* Falatacot Patrician */
-     , (0x7594D065, 0x7594D05B, '2005-02-09 10:00:00') /* Falatacot Matriarch */
-     , (0x7594D065, 0x7594D05D, '2005-02-09 10:00:00') /* Falatacot Consort */
-     , (0x7594D065, 0x7594D05E, '2005-02-09 10:00:00') /* Falatacot Patrician */
-     , (0x7594D065, 0x7594D05F, '2005-02-09 10:00:00') /* Falatacot Consort */
-     , (0x7594D065, 0x7594D060, '2005-02-09 10:00:00') /* Falatacot Consort */
-     , (0x7594D065, 0x7594D061, '2005-02-09 10:00:00') /* Falatacot Consort */
-     , (0x7594D065, 0x7594D062, '2005-02-09 10:00:00') /* Falatacot Consort */
-     , (0x7594D065, 0x7594D063, '2005-02-09 10:00:00') /* Falatacot Consort */
-     , (0x7594D065, 0x7594D064, '2005-02-09 10:00:00') /* Falatacot Patrician */
-     , (0x7594D065, 0x7594D066, '2005-02-09 10:00:00') /* Falatacot Consort */
-     , (0x7594D065, 0x7594D067, '2005-02-09 10:00:00') /* Falatacot Consort */
-     , (0x7594D065, 0x7594D068, '2005-02-09 10:00:00') /* Falatacot Consort */
-     , (0x7594D065, 0x7594D069, '2005-02-09 10:00:00') /* Falatacot Patrician */
-     , (0x7594D065, 0x7594D06A, '2005-02-09 10:00:00') /* Falatacot Consort */
-     , (0x7594D065, 0x7594D06B, '2005-02-09 10:00:00') /* Falatacot Consort */
-     , (0x7594D065, 0x7594D06C, '2005-02-09 10:00:00') /* Falatacot Consort */
-     , (0x7594D065, 0x7594D06D, '2005-02-09 10:00:00') /* Falatacot Consort */
-     , (0x7594D065, 0x7594D06E, '2005-02-09 10:00:00') /* Falatacot Consort */
-     , (0x7594D065, 0x7594D06F, '2005-02-09 10:00:00') /* Falatacot Consort */
-     , (0x7594D065, 0x7594D070, '2005-02-09 10:00:00') /* Falatacot Consort */
-     , (0x7594D065, 0x7594D071, '2005-02-09 10:00:00') /* Falatacot Patrician */
-     , (0x7594D065, 0x7594D073, '2005-02-09 10:00:00') /* Falatacot Consort */
-     , (0x7594D065, 0x7594D074, '2005-02-09 10:00:00') /* Falatacot Consort */
-     , (0x7594D065, 0x7594D075, '2005-02-09 10:00:00') /* Falatacot Consort */
-     , (0x7594D065, 0x7594D076, '2005-02-09 10:00:00') /* Falatacot Patrician */
-     , (0x7594D065, 0x7594D077, '2005-02-09 10:00:00') /* Falatacot Consort */
-     , (0x7594D065, 0x7594D078, '2005-02-09 10:00:00') /* Falatacot Patrician */
-     , (0x7594D065, 0x7594D079, '2005-02-09 10:00:00') /* Falatacot Consort */
-     , (0x7594D065, 0x7594D07A, '2005-02-09 10:00:00') /* Falatacot Patrician */
-     , (0x7594D065, 0x7594D07C, '2005-02-09 10:00:00') /* Falatacot Consort */
-     , (0x7594D065, 0x7594D07D, '2005-02-09 10:00:00') /* Falatacot Patrician */
-     , (0x7594D065, 0x7594D07E, '2005-02-09 10:00:00') /* Falatacot Consort */
-     , (0x7594D065, 0x7594D07F, '2005-02-09 10:00:00') /* Falatacot Patrician */
-     , (0x7594D065, 0x7594D080, '2005-02-09 10:00:00') /* Falatacot Consort */
-     , (0x7594D065, 0x7594D081, '2005-02-09 10:00:00') /* Falatacot Patrician */;
+VALUES (0x7594D065, 0x7594D056, '2005-02-09 10:00:00') /* Falatacot Consort (25346) */
+     , (0x7594D065, 0x7594D057, '2005-02-09 10:00:00') /* Falatacot Consort (25346) */
+     , (0x7594D065, 0x7594D058, '2005-02-09 10:00:00') /* Falatacot Consort (25346) */
+     , (0x7594D065, 0x7594D059, '2005-02-09 10:00:00') /* Falatacot Consort (25346) */
+     , (0x7594D065, 0x7594D05A, '2005-02-09 10:00:00') /* Falatacot Patrician (25348) */
+     , (0x7594D065, 0x7594D05B, '2005-02-09 10:00:00') /* Falatacot Matriarch (25347) */
+     , (0x7594D065, 0x7594D05D, '2005-02-09 10:00:00') /* Falatacot Consort (25346) */
+     , (0x7594D065, 0x7594D05E, '2005-02-09 10:00:00') /* Falatacot Patrician (25348) */
+     , (0x7594D065, 0x7594D05F, '2005-02-09 10:00:00') /* Falatacot Consort (25346) */
+     , (0x7594D065, 0x7594D060, '2005-02-09 10:00:00') /* Falatacot Consort (25346) */
+     , (0x7594D065, 0x7594D061, '2005-02-09 10:00:00') /* Falatacot Consort (25346) */
+     , (0x7594D065, 0x7594D062, '2005-02-09 10:00:00') /* Falatacot Consort (25346) */
+     , (0x7594D065, 0x7594D063, '2005-02-09 10:00:00') /* Falatacot Consort (25346) */
+     , (0x7594D065, 0x7594D064, '2005-02-09 10:00:00') /* Falatacot Patrician (25348) */
+     , (0x7594D065, 0x7594D066, '2005-02-09 10:00:00') /* Falatacot Consort (25346) */
+     , (0x7594D065, 0x7594D067, '2005-02-09 10:00:00') /* Falatacot Consort (25346) */
+     , (0x7594D065, 0x7594D068, '2005-02-09 10:00:00') /* Falatacot Consort (25346) */
+     , (0x7594D065, 0x7594D069, '2005-02-09 10:00:00') /* Falatacot Patrician (25348) */
+     , (0x7594D065, 0x7594D06A, '2005-02-09 10:00:00') /* Falatacot Consort (25346) */
+     , (0x7594D065, 0x7594D06B, '2005-02-09 10:00:00') /* Falatacot Consort (25346) */
+     , (0x7594D065, 0x7594D06C, '2005-02-09 10:00:00') /* Falatacot Consort (25346) */
+     , (0x7594D065, 0x7594D06D, '2005-02-09 10:00:00') /* Falatacot Consort (25346) */
+     , (0x7594D065, 0x7594D06E, '2005-02-09 10:00:00') /* Falatacot Consort (25346) */
+     , (0x7594D065, 0x7594D06F, '2005-02-09 10:00:00') /* Falatacot Consort (25346) */
+     , (0x7594D065, 0x7594D070, '2005-02-09 10:00:00') /* Falatacot Consort (25346) */
+     , (0x7594D065, 0x7594D071, '2005-02-09 10:00:00') /* Falatacot Patrician (25348) */
+     , (0x7594D065, 0x7594D073, '2005-02-09 10:00:00') /* Falatacot Consort (25346) */
+     , (0x7594D065, 0x7594D074, '2005-02-09 10:00:00') /* Falatacot Consort (25346) */
+     , (0x7594D065, 0x7594D075, '2005-02-09 10:00:00') /* Falatacot Consort (25346) */
+     , (0x7594D065, 0x7594D076, '2005-02-09 10:00:00') /* Falatacot Patrician (25348) */
+     , (0x7594D065, 0x7594D077, '2005-02-09 10:00:00') /* Falatacot Consort (25346) */
+     , (0x7594D065, 0x7594D078, '2005-02-09 10:00:00') /* Falatacot Patrician (25348) */
+     , (0x7594D065, 0x7594D079, '2005-02-09 10:00:00') /* Falatacot Consort (25346) */
+     , (0x7594D065, 0x7594D07A, '2005-02-09 10:00:00') /* Falatacot Patrician (25348) */
+     , (0x7594D065, 0x7594D07C, '2005-02-09 10:00:00') /* Falatacot Consort (25346) */
+     , (0x7594D065, 0x7594D07D, '2005-02-09 10:00:00') /* Falatacot Patrician (25348) */
+     , (0x7594D065, 0x7594D07E, '2005-02-09 10:00:00') /* Falatacot Consort (25346) */
+     , (0x7594D065, 0x7594D07F, '2005-02-09 10:00:00') /* Falatacot Patrician (25348) */
+     , (0x7594D065, 0x7594D080, '2005-02-09 10:00:00') /* Falatacot Consort (25346) */
+     , (0x7594D065, 0x7594D081, '2005-02-09 10:00:00') /* Falatacot Patrician (25348) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7594D066, 25346, 0x594D0293, 39.9914, -97.3745, -29.9902, 0.731689, 0, 0, -0.681639,  True, '2005-02-09 10:00:00'); /* Falatacot Consort */
@@ -796,46 +796,46 @@ VALUES (0x7594D0B2,  7932, 0x594D0385, 71.226, -79.7334, -17.995, 0.691163, 0, 0
 /* @teleloc 0x594D0385 [71.226000 -79.733400 -17.995000] 0.691163 0.000000 0.000000 -0.722699 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7594D0B2, 0x7594D082, '2005-02-09 10:00:00') /* Falatacot Consort */
-     , (0x7594D0B2, 0x7594D083, '2005-02-09 10:00:00') /* Falatacot Consort */
-     , (0x7594D0B2, 0x7594D088, '2005-02-09 10:00:00') /* Falatacot Consort */
-     , (0x7594D0B2, 0x7594D089, '2005-02-09 10:00:00') /* Falatacot Consort */
-     , (0x7594D0B2, 0x7594D08A, '2005-02-09 10:00:00') /* Falatacot Consort */
-     , (0x7594D0B2, 0x7594D08B, '2005-02-09 10:00:00') /* Falatacot Consort */
-     , (0x7594D0B2, 0x7594D08C, '2005-02-09 10:00:00') /* Falatacot Consort */
-     , (0x7594D0B2, 0x7594D08D, '2005-02-09 10:00:00') /* Falatacot Consort */
-     , (0x7594D0B2, 0x7594D08E, '2005-02-09 10:00:00') /* Falatacot Consort */
-     , (0x7594D0B2, 0x7594D08F, '2005-02-09 10:00:00') /* Falatacot Consort */
-     , (0x7594D0B2, 0x7594D090, '2005-02-09 10:00:00') /* Falatacot Consort */
-     , (0x7594D0B2, 0x7594D091, '2005-02-09 10:00:00') /* Falatacot Consort */
-     , (0x7594D0B2, 0x7594D092, '2005-02-09 10:00:00') /* Falatacot Consort */
-     , (0x7594D0B2, 0x7594D093, '2005-02-09 10:00:00') /* Falatacot Consort */
-     , (0x7594D0B2, 0x7594D094, '2005-02-09 10:00:00') /* Falatacot Consort */
-     , (0x7594D0B2, 0x7594D095, '2005-02-09 10:00:00') /* Falatacot Consort */
-     , (0x7594D0B2, 0x7594D096, '2005-02-09 10:00:00') /* Falatacot Consort */
-     , (0x7594D0B2, 0x7594D099, '2005-02-09 10:00:00') /* Falatacot Consort */
-     , (0x7594D0B2, 0x7594D09A, '2005-02-09 10:00:00') /* Falatacot Consort */
-     , (0x7594D0B2, 0x7594D09B, '2005-02-09 10:00:00') /* Falatacot Consort */
-     , (0x7594D0B2, 0x7594D09C, '2005-02-09 10:00:00') /* Falatacot Consort */
-     , (0x7594D0B2, 0x7594D09D, '2005-02-09 10:00:00') /* Falatacot Consort */
-     , (0x7594D0B2, 0x7594D09E, '2005-02-09 10:00:00') /* Falatacot Consort */
-     , (0x7594D0B2, 0x7594D0A3, '2005-02-09 10:00:00') /* Falatacot Consort */
-     , (0x7594D0B2, 0x7594D0A4, '2005-02-09 10:00:00') /* Falatacot Consort */
-     , (0x7594D0B2, 0x7594D0A5, '2005-02-09 10:00:00') /* Falatacot Consort */
-     , (0x7594D0B2, 0x7594D0A6, '2005-02-09 10:00:00') /* Falatacot Consort */
-     , (0x7594D0B2, 0x7594D0A7, '2005-02-09 10:00:00') /* Falatacot Consort */
-     , (0x7594D0B2, 0x7594D0A8, '2005-02-09 10:00:00') /* Falatacot Consort */
-     , (0x7594D0B2, 0x7594D0AB, '2005-02-09 10:00:00') /* Falatacot Consort */
-     , (0x7594D0B2, 0x7594D0AC, '2005-02-09 10:00:00') /* Falatacot Consort */
-     , (0x7594D0B2, 0x7594D0AD, '2005-02-09 10:00:00') /* Falatacot Consort */
-     , (0x7594D0B2, 0x7594D0AE, '2005-02-09 10:00:00') /* Falatacot Consort */
-     , (0x7594D0B2, 0x7594D0AF, '2005-02-09 10:00:00') /* Falatacot Matriarch */
-     , (0x7594D0B2, 0x7594D0B0, '2005-02-09 10:00:00') /* Falatacot Patrician */
-     , (0x7594D0B2, 0x7594D0B1, '2005-02-09 10:00:00') /* Falatacot Consort */
-     , (0x7594D0B2, 0x7594D0B6, '2005-02-09 10:00:00') /* Falatacot Consort */
-     , (0x7594D0B2, 0x7594D0B7, '2005-02-09 10:00:00') /* Falatacot Consort */
-     , (0x7594D0B2, 0x7594D0BA, '2005-02-09 10:00:00') /* Falatacot Consort */
-     , (0x7594D0B2, 0x7594D0BB, '2005-02-09 10:00:00') /* Falatacot Consort */;
+VALUES (0x7594D0B2, 0x7594D082, '2005-02-09 10:00:00') /* Falatacot Consort (25346) */
+     , (0x7594D0B2, 0x7594D083, '2005-02-09 10:00:00') /* Falatacot Consort (25346) */
+     , (0x7594D0B2, 0x7594D088, '2005-02-09 10:00:00') /* Falatacot Consort (25346) */
+     , (0x7594D0B2, 0x7594D089, '2005-02-09 10:00:00') /* Falatacot Consort (25346) */
+     , (0x7594D0B2, 0x7594D08A, '2005-02-09 10:00:00') /* Falatacot Consort (25346) */
+     , (0x7594D0B2, 0x7594D08B, '2005-02-09 10:00:00') /* Falatacot Consort (25346) */
+     , (0x7594D0B2, 0x7594D08C, '2005-02-09 10:00:00') /* Falatacot Consort (25346) */
+     , (0x7594D0B2, 0x7594D08D, '2005-02-09 10:00:00') /* Falatacot Consort (25346) */
+     , (0x7594D0B2, 0x7594D08E, '2005-02-09 10:00:00') /* Falatacot Consort (25346) */
+     , (0x7594D0B2, 0x7594D08F, '2005-02-09 10:00:00') /* Falatacot Consort (25346) */
+     , (0x7594D0B2, 0x7594D090, '2005-02-09 10:00:00') /* Falatacot Consort (25346) */
+     , (0x7594D0B2, 0x7594D091, '2005-02-09 10:00:00') /* Falatacot Consort (25346) */
+     , (0x7594D0B2, 0x7594D092, '2005-02-09 10:00:00') /* Falatacot Consort (25346) */
+     , (0x7594D0B2, 0x7594D093, '2005-02-09 10:00:00') /* Falatacot Consort (25346) */
+     , (0x7594D0B2, 0x7594D094, '2005-02-09 10:00:00') /* Falatacot Consort (25346) */
+     , (0x7594D0B2, 0x7594D095, '2005-02-09 10:00:00') /* Falatacot Consort (25346) */
+     , (0x7594D0B2, 0x7594D096, '2005-02-09 10:00:00') /* Falatacot Consort (25346) */
+     , (0x7594D0B2, 0x7594D099, '2005-02-09 10:00:00') /* Falatacot Consort (25346) */
+     , (0x7594D0B2, 0x7594D09A, '2005-02-09 10:00:00') /* Falatacot Consort (25346) */
+     , (0x7594D0B2, 0x7594D09B, '2005-02-09 10:00:00') /* Falatacot Consort (25346) */
+     , (0x7594D0B2, 0x7594D09C, '2005-02-09 10:00:00') /* Falatacot Consort (25346) */
+     , (0x7594D0B2, 0x7594D09D, '2005-02-09 10:00:00') /* Falatacot Consort (25346) */
+     , (0x7594D0B2, 0x7594D09E, '2005-02-09 10:00:00') /* Falatacot Consort (25346) */
+     , (0x7594D0B2, 0x7594D0A3, '2005-02-09 10:00:00') /* Falatacot Consort (25346) */
+     , (0x7594D0B2, 0x7594D0A4, '2005-02-09 10:00:00') /* Falatacot Consort (25346) */
+     , (0x7594D0B2, 0x7594D0A5, '2005-02-09 10:00:00') /* Falatacot Consort (25346) */
+     , (0x7594D0B2, 0x7594D0A6, '2005-02-09 10:00:00') /* Falatacot Consort (25346) */
+     , (0x7594D0B2, 0x7594D0A7, '2005-02-09 10:00:00') /* Falatacot Consort (25346) */
+     , (0x7594D0B2, 0x7594D0A8, '2005-02-09 10:00:00') /* Falatacot Consort (25346) */
+     , (0x7594D0B2, 0x7594D0AB, '2005-02-09 10:00:00') /* Falatacot Consort (25346) */
+     , (0x7594D0B2, 0x7594D0AC, '2005-02-09 10:00:00') /* Falatacot Consort (25346) */
+     , (0x7594D0B2, 0x7594D0AD, '2005-02-09 10:00:00') /* Falatacot Consort (25346) */
+     , (0x7594D0B2, 0x7594D0AE, '2005-02-09 10:00:00') /* Falatacot Consort (25346) */
+     , (0x7594D0B2, 0x7594D0AF, '2005-02-09 10:00:00') /* Falatacot Matriarch (25347) */
+     , (0x7594D0B2, 0x7594D0B0, '2005-02-09 10:00:00') /* Falatacot Patrician (25348) */
+     , (0x7594D0B2, 0x7594D0B1, '2005-02-09 10:00:00') /* Falatacot Consort (25346) */
+     , (0x7594D0B2, 0x7594D0B6, '2005-02-09 10:00:00') /* Falatacot Consort (25346) */
+     , (0x7594D0B2, 0x7594D0B7, '2005-02-09 10:00:00') /* Falatacot Consort (25346) */
+     , (0x7594D0B2, 0x7594D0BA, '2005-02-09 10:00:00') /* Falatacot Consort (25346) */
+     , (0x7594D0B2, 0x7594D0BB, '2005-02-09 10:00:00') /* Falatacot Consort (25346) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7594D0B3,   568, 0x594D0387, 74.75, -80, -18, 0.707107, 0, 0, -0.707107, False, '2005-02-09 10:00:00'); /* Door */
@@ -986,21 +986,21 @@ VALUES (0x7594D0DB,  7932, 0x594D03E2, 60, -50, 0.005, 1, 0, 0, 0, False, '2005-
 /* @teleloc 0x594D03E2 [60.000000 -50.000000 0.005000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7594D0DB, 0x7594D0BE, '2005-02-09 10:00:00') /* Falatacot Consort */
-     , (0x7594D0DB, 0x7594D0BF, '2005-02-09 10:00:00') /* Falatacot Consort */
-     , (0x7594D0DB, 0x7594D0C1, '2005-02-09 10:00:00') /* Falatacot Consort */
-     , (0x7594D0DB, 0x7594D0C2, '2005-02-09 10:00:00') /* Falatacot Consort */
-     , (0x7594D0DB, 0x7594D0C4, '2005-02-09 10:00:00') /* Falatacot Consort */
-     , (0x7594D0DB, 0x7594D0C5, '2005-02-09 10:00:00') /* Falatacot Consort */
-     , (0x7594D0DB, 0x7594D0C7, '2005-02-09 10:00:00') /* Falatacot Consort */
-     , (0x7594D0DB, 0x7594D0C8, '2005-02-09 10:00:00') /* Falatacot Consort */
-     , (0x7594D0DB, 0x7594D0CB, '2005-02-09 10:00:00') /* Falatacot Consort */
-     , (0x7594D0DB, 0x7594D0CC, '2005-02-09 10:00:00') /* Falatacot Consort */
-     , (0x7594D0DB, 0x7594D0CE, '2005-02-09 10:00:00') /* Falatacot Consort */
-     , (0x7594D0DB, 0x7594D0CF, '2005-02-09 10:00:00') /* Falatacot Consort */
-     , (0x7594D0DB, 0x7594D0D1, '2005-02-09 10:00:00') /* Falatacot Consort */
-     , (0x7594D0DB, 0x7594D0D4, '2005-02-09 10:00:00') /* Falatacot Consort */
-     , (0x7594D0DB, 0x7594D0D8, '2005-02-09 10:00:00') /* Falatacot Consort */;
+VALUES (0x7594D0DB, 0x7594D0BE, '2005-02-09 10:00:00') /* Falatacot Consort (25346) */
+     , (0x7594D0DB, 0x7594D0BF, '2005-02-09 10:00:00') /* Falatacot Consort (25346) */
+     , (0x7594D0DB, 0x7594D0C1, '2005-02-09 10:00:00') /* Falatacot Consort (25346) */
+     , (0x7594D0DB, 0x7594D0C2, '2005-02-09 10:00:00') /* Falatacot Consort (25346) */
+     , (0x7594D0DB, 0x7594D0C4, '2005-02-09 10:00:00') /* Falatacot Consort (25346) */
+     , (0x7594D0DB, 0x7594D0C5, '2005-02-09 10:00:00') /* Falatacot Consort (25346) */
+     , (0x7594D0DB, 0x7594D0C7, '2005-02-09 10:00:00') /* Falatacot Consort (25346) */
+     , (0x7594D0DB, 0x7594D0C8, '2005-02-09 10:00:00') /* Falatacot Consort (25346) */
+     , (0x7594D0DB, 0x7594D0CB, '2005-02-09 10:00:00') /* Falatacot Consort (25346) */
+     , (0x7594D0DB, 0x7594D0CC, '2005-02-09 10:00:00') /* Falatacot Consort (25346) */
+     , (0x7594D0DB, 0x7594D0CE, '2005-02-09 10:00:00') /* Falatacot Consort (25346) */
+     , (0x7594D0DB, 0x7594D0CF, '2005-02-09 10:00:00') /* Falatacot Consort (25346) */
+     , (0x7594D0DB, 0x7594D0D1, '2005-02-09 10:00:00') /* Falatacot Consort (25346) */
+     , (0x7594D0DB, 0x7594D0D4, '2005-02-09 10:00:00') /* Falatacot Consort (25346) */
+     , (0x7594D0DB, 0x7594D0D8, '2005-02-09 10:00:00') /* Falatacot Consort (25346) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7594D0DD, 25510, 0x594D011D, 50, -45.25, -60, 0, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Reinforced Door */

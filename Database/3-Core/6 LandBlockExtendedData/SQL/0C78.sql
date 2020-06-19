@@ -5,25 +5,25 @@ VALUES (0x70C78000, 24129, 0x0C780000, 135.85, 153.487, 66.7956, 0.974473, 0, 0,
 /* @teleloc 0x0C780000 [135.850000 153.487000 66.795600] 0.974473 0.000000 0.000000 -0.224503 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x70C78000, 0x70C78001, '2005-02-09 10:00:00') /* Banderling Scalper */
-     , (0x70C78000, 0x70C78002, '2005-02-09 10:00:00') /* Banderling Scalper */
-     , (0x70C78000, 0x70C78003, '2005-02-09 10:00:00') /* Banderling Scalper */
-     , (0x70C78000, 0x70C78004, '2005-02-09 10:00:00') /* Banderling Scalper */
-     , (0x70C78000, 0x70C78005, '2005-02-09 10:00:00') /* Banderling Scalper */
-     , (0x70C78000, 0x70C78006, '2005-02-09 10:00:00') /* Banderling Scalper */
-     , (0x70C78000, 0x70C78007, '2005-02-09 10:00:00') /* Banderling Savage */
-     , (0x70C78000, 0x70C78008, '2005-02-09 10:00:00') /* Banderling Savage */
-     , (0x70C78000, 0x70C78009, '2005-02-09 10:00:00') /* Banderling Savage */
-     , (0x70C78000, 0x70C7800A, '2005-02-09 10:00:00') /* Banderling Savage */
-     , (0x70C78000, 0x70C7800B, '2005-02-09 10:00:00') /* Banderling Savage */
-     , (0x70C78000, 0x70C7800C, '2005-02-09 10:00:00') /* Banderling Predator */
-     , (0x70C78000, 0x70C7800D, '2005-02-09 10:00:00') /* Banderling Predator */
-     , (0x70C78000, 0x70C7800E, '2005-02-09 10:00:00') /* Banderling Predator */
-     , (0x70C78000, 0x70C7800F, '2005-02-09 10:00:00') /* Banderling Predator */
-     , (0x70C78000, 0x70C78010, '2005-02-09 10:00:00') /* Banderling Predator */
-     , (0x70C78000, 0x70C78011, '2005-02-09 10:00:00') /* Banderling Predator */
-     , (0x70C78000, 0x70C78012, '2005-02-09 10:00:00') /* Banderling Predator */
-     , (0x70C78000, 0x70C78013, '2005-02-09 10:00:00') /* Banderling Savage */;
+VALUES (0x70C78000, 0x70C78001, '2005-02-09 10:00:00') /* Banderling Scalper (23479) */
+     , (0x70C78000, 0x70C78002, '2005-02-09 10:00:00') /* Banderling Scalper (23479) */
+     , (0x70C78000, 0x70C78003, '2005-02-09 10:00:00') /* Banderling Scalper (23479) */
+     , (0x70C78000, 0x70C78004, '2005-02-09 10:00:00') /* Banderling Scalper (23479) */
+     , (0x70C78000, 0x70C78005, '2005-02-09 10:00:00') /* Banderling Scalper (23479) */
+     , (0x70C78000, 0x70C78006, '2005-02-09 10:00:00') /* Banderling Scalper (23479) */
+     , (0x70C78000, 0x70C78007, '2005-02-09 10:00:00') /* Banderling Savage (24276) */
+     , (0x70C78000, 0x70C78008, '2005-02-09 10:00:00') /* Banderling Savage (24276) */
+     , (0x70C78000, 0x70C78009, '2005-02-09 10:00:00') /* Banderling Savage (24276) */
+     , (0x70C78000, 0x70C7800A, '2005-02-09 10:00:00') /* Banderling Savage (24276) */
+     , (0x70C78000, 0x70C7800B, '2005-02-09 10:00:00') /* Banderling Savage (24276) */
+     , (0x70C78000, 0x70C7800C, '2005-02-09 10:00:00') /* Banderling Predator (23478) */
+     , (0x70C78000, 0x70C7800D, '2005-02-09 10:00:00') /* Banderling Predator (23478) */
+     , (0x70C78000, 0x70C7800E, '2005-02-09 10:00:00') /* Banderling Predator (23478) */
+     , (0x70C78000, 0x70C7800F, '2005-02-09 10:00:00') /* Banderling Predator (23478) */
+     , (0x70C78000, 0x70C78010, '2005-02-09 10:00:00') /* Banderling Predator (23478) */
+     , (0x70C78000, 0x70C78011, '2005-02-09 10:00:00') /* Banderling Predator (23478) */
+     , (0x70C78000, 0x70C78012, '2005-02-09 10:00:00') /* Banderling Predator (23478) */
+     , (0x70C78000, 0x70C78013, '2005-02-09 10:00:00') /* Banderling Savage (24276) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x70C78001, 23479, 0x0C780000, 139.567, 152.615, 66.7251, 0.998678, 0, 0, -0.0514106,  True, '2005-02-09 10:00:00'); /* Banderling Scalper */

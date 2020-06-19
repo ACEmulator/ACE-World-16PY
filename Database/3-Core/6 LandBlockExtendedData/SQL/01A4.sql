@@ -105,9 +105,9 @@ VALUES (0x701A4019,  1542, 0x01A4011C, 40, -60, -36, -4.37114E-08, 0, 0, -1, Fal
 /* @teleloc 0x01A4011C [40.000000 -60.000000 -36.000000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x701A4019, 0x701A4016, '2005-02-09 10:00:00') /* Ruby */
-     , (0x701A4019, 0x701A4017, '2005-02-09 10:00:00') /* Yellow Garnet */
-     , (0x701A4019, 0x701A4018, '2005-02-09 10:00:00') /* Green Jade */;
+VALUES (0x701A4019, 0x701A4016, '2005-02-09 10:00:00') /* Ruby (2411) */
+     , (0x701A4019, 0x701A4017, '2005-02-09 10:00:00') /* Yellow Garnet (2400) */
+     , (0x701A4019, 0x701A4018, '2005-02-09 10:00:00') /* Green Jade (2395) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x701A401A,   959, 0x01A4011F, 40, -74.75, -36, 0.707107, 0, 0, -0.707107, False, '2005-02-09 10:00:00'); /* Mite Sentry Generator */
@@ -166,10 +166,10 @@ VALUES (0x701A4027,  1542, 0x01A40130, 40.0381, -126.076, -36, 1, 0, 0, 0, False
 /* @teleloc 0x01A40130 [40.038100 -126.076000 -36.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x701A4027, 0x701A4023, '2005-02-09 10:00:00') /* Cobalt */
-     , (0x701A4027, 0x701A4024, '2005-02-09 10:00:00') /* Gypsum */
-     , (0x701A4027, 0x701A4025, '2005-02-09 10:00:00') /* Powdered Hematite */
-     , (0x701A4027, 0x701A4026, '2005-02-09 10:00:00') /* Powdered Quartz */;
+VALUES (0x701A4027, 0x701A4023, '2005-02-09 10:00:00') /* Cobalt (756) */
+     , (0x701A4027, 0x701A4024, '2005-02-09 10:00:00') /* Gypsum (758) */
+     , (0x701A4027, 0x701A4025, '2005-02-09 10:00:00') /* Powdered Hematite (626) */
+     , (0x701A4027, 0x701A4026, '2005-02-09 10:00:00') /* Powdered Quartz (791) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x701A4028,   960, 0x01A40131, 51.2792, -42.8332, -36, -4.37114E-08, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Mite Squire Generator */
@@ -280,8 +280,8 @@ VALUES (0x701A4042,  1542, 0x01A4014C, 70.0401, -60.0005, -36, -0.707107, 0, 0, 
 /* @teleloc 0x01A4014C [70.040100 -60.000500 -36.000000] -0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x701A4042, 0x701A403B, '2005-02-09 10:00:00') /* Agate */
-     , (0x701A4042, 0x701A403C, '2005-02-09 10:00:00') /* Azurite */;
+VALUES (0x701A4042, 0x701A403B, '2005-02-09 10:00:00') /* Agate (2413) */
+     , (0x701A4042, 0x701A403C, '2005-02-09 10:00:00') /* Azurite (2414) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x701A4043,   959, 0x01A40150, 66.4741, -70.5534, -36, 1, 0, 0, 0, False, '2005-02-09 10:00:00'); /* Mite Sentry Generator */

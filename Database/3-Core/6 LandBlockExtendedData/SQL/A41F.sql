@@ -21,4 +21,4 @@ VALUES (0x7A41F006,  7924, 0xA41F0102, 154.075, 35.3998, 431.205, 0.656285, 0, 0
 /* @teleloc 0xA41F0102 [154.075000 35.399800 431.205000] 0.656285 0.000000 0.000000 -0.754513 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A41F006, 0x7A41F004, '2005-02-09 10:00:00') /* Hoary Armoredillo */;
+VALUES (0x7A41F006, 0x7A41F004, '2005-02-09 10:00:00') /* Hoary Armoredillo (7084) */;

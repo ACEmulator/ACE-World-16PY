@@ -21,22 +21,22 @@ VALUES (0x7634A004,  7923, 0x634A0122, 110.278, -87.414, -41.995, 0, 0, 0, -1, F
 /* @teleloc 0x634A0122 [110.278000 -87.414000 -41.995000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7634A004, 0x7634A000, '2005-02-09 10:00:00') /* Enthralled Idolator */
-     , (0x7634A004, 0x7634A001, '2005-02-09 10:00:00') /* Enthralled Idolator */
-     , (0x7634A004, 0x7634A002, '2005-02-09 10:00:00') /* Enthralled Idolator */
-     , (0x7634A004, 0x7634A003, '2005-02-09 10:00:00') /* Enthralled Idolator */
-     , (0x7634A004, 0x7634A006, '2005-02-09 10:00:00') /* Enthralled Zealot */
-     , (0x7634A004, 0x7634A007, '2005-02-09 10:00:00') /* Enthralled Zealot */
-     , (0x7634A004, 0x7634A008, '2005-02-09 10:00:00') /* Enthralled Zealot */
-     , (0x7634A004, 0x7634A009, '2005-02-09 10:00:00') /* Enthralled Zealot */
-     , (0x7634A004, 0x7634A00B, '2005-02-09 10:00:00') /* Enthralled Zealot */
-     , (0x7634A004, 0x7634A00C, '2005-02-09 10:00:00') /* Enthralled Zealot */
-     , (0x7634A004, 0x7634A00F, '2005-02-09 10:00:00') /* Enthralled Idolator */
-     , (0x7634A004, 0x7634A010, '2005-02-09 10:00:00') /* Enthralled Idolator */
-     , (0x7634A004, 0x7634A011, '2005-02-09 10:00:00') /* Enthralled Idolator */
-     , (0x7634A004, 0x7634A012, '2005-02-09 10:00:00') /* Enthralled Idolator */
-     , (0x7634A004, 0x7634A0E7, '2005-02-09 10:00:00') /* Enthralled Idolator */
-     , (0x7634A004, 0x7634A0E8, '2005-02-09 10:00:00') /* Enthralled Idolator */;
+VALUES (0x7634A004, 0x7634A000, '2005-02-09 10:00:00') /* Enthralled Idolator (27421) */
+     , (0x7634A004, 0x7634A001, '2005-02-09 10:00:00') /* Enthralled Idolator (27421) */
+     , (0x7634A004, 0x7634A002, '2005-02-09 10:00:00') /* Enthralled Idolator (27421) */
+     , (0x7634A004, 0x7634A003, '2005-02-09 10:00:00') /* Enthralled Idolator (27421) */
+     , (0x7634A004, 0x7634A006, '2005-02-09 10:00:00') /* Enthralled Zealot (27423) */
+     , (0x7634A004, 0x7634A007, '2005-02-09 10:00:00') /* Enthralled Zealot (27423) */
+     , (0x7634A004, 0x7634A008, '2005-02-09 10:00:00') /* Enthralled Zealot (27423) */
+     , (0x7634A004, 0x7634A009, '2005-02-09 10:00:00') /* Enthralled Zealot (27423) */
+     , (0x7634A004, 0x7634A00B, '2005-02-09 10:00:00') /* Enthralled Zealot (27423) */
+     , (0x7634A004, 0x7634A00C, '2005-02-09 10:00:00') /* Enthralled Zealot (27423) */
+     , (0x7634A004, 0x7634A00F, '2005-02-09 10:00:00') /* Enthralled Idolator (27421) */
+     , (0x7634A004, 0x7634A010, '2005-02-09 10:00:00') /* Enthralled Idolator (27421) */
+     , (0x7634A004, 0x7634A011, '2005-02-09 10:00:00') /* Enthralled Idolator (27421) */
+     , (0x7634A004, 0x7634A012, '2005-02-09 10:00:00') /* Enthralled Idolator (27421) */
+     , (0x7634A004, 0x7634A0E7, '2005-02-09 10:00:00') /* Enthralled Idolator (27421) */
+     , (0x7634A004, 0x7634A0E8, '2005-02-09 10:00:00') /* Enthralled Idolator (27421) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7634A005, 27431, 0x634A0122, 110, -90, -41.995, 1, 0, 0, 0,  True, '2005-02-09 10:00:00'); /* Homunculus */
@@ -631,187 +631,187 @@ VALUES (0x7634A09A,  7924, 0x634A0294, 110, -90, -29.995, 1, 0, 0, 0, False, '20
 /* @teleloc 0x634A0294 [110.000000 -90.000000 -29.995000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7634A09A, 0x7634A073, '2005-02-09 10:00:00') /* True Believer */
-     , (0x7634A09A, 0x7634A074, '2005-02-09 10:00:00') /* True Believer */
-     , (0x7634A09A, 0x7634A075, '2005-02-09 10:00:00') /* Enthralled Zealot */
-     , (0x7634A09A, 0x7634A076, '2005-02-09 10:00:00') /* Enthralled Idolator */
-     , (0x7634A09A, 0x7634A077, '2005-02-09 10:00:00') /* Enthralled Idolator */
-     , (0x7634A09A, 0x7634A078, '2005-02-09 10:00:00') /* True Believer */
-     , (0x7634A09A, 0x7634A079, '2005-02-09 10:00:00') /* Enthralled Idolator */
-     , (0x7634A09A, 0x7634A07A, '2005-02-09 10:00:00') /* Enthralled Idolator */
-     , (0x7634A09A, 0x7634A07B, '2005-02-09 10:00:00') /* Enthralled Idolator */
-     , (0x7634A09A, 0x7634A07C, '2005-02-09 10:00:00') /* Enthralled Zealot */
-     , (0x7634A09A, 0x7634A07D, '2005-02-09 10:00:00') /* Enthralled Idolator */
-     , (0x7634A09A, 0x7634A07E, '2005-02-09 10:00:00') /* Enthralled Idolator */
-     , (0x7634A09A, 0x7634A07F, '2005-02-09 10:00:00') /* True Believer */
-     , (0x7634A09A, 0x7634A080, '2005-02-09 10:00:00') /* True Believer */
-     , (0x7634A09A, 0x7634A081, '2005-02-09 10:00:00') /* Enthralled Idolator */
-     , (0x7634A09A, 0x7634A082, '2005-02-09 10:00:00') /* Enthralled Idolator */
-     , (0x7634A09A, 0x7634A083, '2005-02-09 10:00:00') /* Enthralled Idolator */
-     , (0x7634A09A, 0x7634A084, '2005-02-09 10:00:00') /* Enthralled Idolator */
-     , (0x7634A09A, 0x7634A085, '2005-02-09 10:00:00') /* True Believer */
-     , (0x7634A09A, 0x7634A086, '2005-02-09 10:00:00') /* True Believer */
-     , (0x7634A09A, 0x7634A087, '2005-02-09 10:00:00') /* Enthralled Idolator */
-     , (0x7634A09A, 0x7634A088, '2005-02-09 10:00:00') /* Enthralled Idolator */
-     , (0x7634A09A, 0x7634A089, '2005-02-09 10:00:00') /* True Believer */
-     , (0x7634A09A, 0x7634A08A, '2005-02-09 10:00:00') /* Enthralled Zealot */
-     , (0x7634A09A, 0x7634A08B, '2005-02-09 10:00:00') /* Enthralled Idolator */
-     , (0x7634A09A, 0x7634A08C, '2005-02-09 10:00:00') /* Enthralled Idolator */
-     , (0x7634A09A, 0x7634A08D, '2005-02-09 10:00:00') /* Enthralled Idolator */
-     , (0x7634A09A, 0x7634A08E, '2005-02-09 10:00:00') /* Enthralled Idolator */
-     , (0x7634A09A, 0x7634A08F, '2005-02-09 10:00:00') /* Enthralled Zealot */
-     , (0x7634A09A, 0x7634A090, '2005-02-09 10:00:00') /* Enthralled Idolator */
-     , (0x7634A09A, 0x7634A091, '2005-02-09 10:00:00') /* Enthralled Idolator */
-     , (0x7634A09A, 0x7634A092, '2005-02-09 10:00:00') /* True Believer */
-     , (0x7634A09A, 0x7634A093, '2005-02-09 10:00:00') /* True Believer */
-     , (0x7634A09A, 0x7634A094, '2005-02-09 10:00:00') /* Enthralled Idolator */
-     , (0x7634A09A, 0x7634A095, '2005-02-09 10:00:00') /* Enthralled Idolator */
-     , (0x7634A09A, 0x7634A096, '2005-02-09 10:00:00') /* Enthralled Idolator */
-     , (0x7634A09A, 0x7634A097, '2005-02-09 10:00:00') /* Enthralled Idolator */
-     , (0x7634A09A, 0x7634A098, '2005-02-09 10:00:00') /* Enthralled Idolator */
-     , (0x7634A09A, 0x7634A099, '2005-02-09 10:00:00') /* Enthralled Idolator */
-     , (0x7634A09A, 0x7634A09C, '2005-02-09 10:00:00') /* Enthralled Idolator */
-     , (0x7634A09A, 0x7634A09D, '2005-02-09 10:00:00') /* Enthralled Idolator */
-     , (0x7634A09A, 0x7634A09E, '2005-02-09 10:00:00') /* Enthralled Idolator */
-     , (0x7634A09A, 0x7634A09F, '2005-02-09 10:00:00') /* Enthralled Idolator */
-     , (0x7634A09A, 0x7634A0A0, '2005-02-09 10:00:00') /* Enthralled Idolator */
-     , (0x7634A09A, 0x7634A0A1, '2005-02-09 10:00:00') /* Enthralled Idolator */
-     , (0x7634A09A, 0x7634A0A2, '2005-02-09 10:00:00') /* Enthralled Idolator */
-     , (0x7634A09A, 0x7634A0A3, '2005-02-09 10:00:00') /* True Believer */
-     , (0x7634A09A, 0x7634A0A4, '2005-02-09 10:00:00') /* Enthralled Idolator */
-     , (0x7634A09A, 0x7634A0A5, '2005-02-09 10:00:00') /* Enthralled Idolator */
-     , (0x7634A09A, 0x7634A0A6, '2005-02-09 10:00:00') /* Enthralled Idolator */
-     , (0x7634A09A, 0x7634A0A7, '2005-02-09 10:00:00') /* True Believer */
-     , (0x7634A09A, 0x7634A0A8, '2005-02-09 10:00:00') /* Enthralled Zealot */
-     , (0x7634A09A, 0x7634A0A9, '2005-02-09 10:00:00') /* Enthralled Idolator */
-     , (0x7634A09A, 0x7634A0AA, '2005-02-09 10:00:00') /* Enthralled Idolator */
-     , (0x7634A09A, 0x7634A0AB, '2005-02-09 10:00:00') /* Enthralled Zealot */
-     , (0x7634A09A, 0x7634A0AC, '2005-02-09 10:00:00') /* Enthralled Idolator */
-     , (0x7634A09A, 0x7634A0AD, '2005-02-09 10:00:00') /* Enthralled Idolator */
-     , (0x7634A09A, 0x7634A0AE, '2005-02-09 10:00:00') /* True Believer */
-     , (0x7634A09A, 0x7634A0AF, '2005-02-09 10:00:00') /* True Believer */
-     , (0x7634A09A, 0x7634A0B0, '2005-02-09 10:00:00') /* True Believer */
-     , (0x7634A09A, 0x7634A0B1, '2005-02-09 10:00:00') /* Enthralled Idolator */
-     , (0x7634A09A, 0x7634A0B2, '2005-02-09 10:00:00') /* Enthralled Idolator */
-     , (0x7634A09A, 0x7634A0B3, '2005-02-09 10:00:00') /* Enthralled Idolator */
-     , (0x7634A09A, 0x7634A0B4, '2005-02-09 10:00:00') /* Enthralled Idolator */
-     , (0x7634A09A, 0x7634A0B5, '2005-02-09 10:00:00') /* Enthralled Idolator */
-     , (0x7634A09A, 0x7634A0B6, '2005-02-09 10:00:00') /* True Believer */
-     , (0x7634A09A, 0x7634A0B7, '2005-02-09 10:00:00') /* True Believer */
-     , (0x7634A09A, 0x7634A0B8, '2005-02-09 10:00:00') /* Enthralled Idolator */
-     , (0x7634A09A, 0x7634A0B9, '2005-02-09 10:00:00') /* Enthralled Idolator */
-     , (0x7634A09A, 0x7634A0BA, '2005-02-09 10:00:00') /* Enthralled Zealot */
-     , (0x7634A09A, 0x7634A0BB, '2005-02-09 10:00:00') /* Enthralled Idolator */
-     , (0x7634A09A, 0x7634A0BC, '2005-02-09 10:00:00') /* True Believer */
-     , (0x7634A09A, 0x7634A0BD, '2005-02-09 10:00:00') /* Enthralled Idolator */
-     , (0x7634A09A, 0x7634A0BE, '2005-02-09 10:00:00') /* Enthralled Idolator */
-     , (0x7634A09A, 0x7634A0BF, '2005-02-09 10:00:00') /* Enthralled Zealot */
-     , (0x7634A09A, 0x7634A0C0, '2005-02-09 10:00:00') /* Enthralled Idolator */
-     , (0x7634A09A, 0x7634A0C1, '2005-02-09 10:00:00') /* Enthralled Idolator */
-     , (0x7634A09A, 0x7634A0C2, '2005-02-09 10:00:00') /* True Believer */
-     , (0x7634A09A, 0x7634A0C3, '2005-02-09 10:00:00') /* True Believer */;
+VALUES (0x7634A09A, 0x7634A073, '2005-02-09 10:00:00') /* True Believer (27422) */
+     , (0x7634A09A, 0x7634A074, '2005-02-09 10:00:00') /* True Believer (27422) */
+     , (0x7634A09A, 0x7634A075, '2005-02-09 10:00:00') /* Enthralled Zealot (27423) */
+     , (0x7634A09A, 0x7634A076, '2005-02-09 10:00:00') /* Enthralled Idolator (27421) */
+     , (0x7634A09A, 0x7634A077, '2005-02-09 10:00:00') /* Enthralled Idolator (27421) */
+     , (0x7634A09A, 0x7634A078, '2005-02-09 10:00:00') /* True Believer (27422) */
+     , (0x7634A09A, 0x7634A079, '2005-02-09 10:00:00') /* Enthralled Idolator (27421) */
+     , (0x7634A09A, 0x7634A07A, '2005-02-09 10:00:00') /* Enthralled Idolator (27421) */
+     , (0x7634A09A, 0x7634A07B, '2005-02-09 10:00:00') /* Enthralled Idolator (27421) */
+     , (0x7634A09A, 0x7634A07C, '2005-02-09 10:00:00') /* Enthralled Zealot (27423) */
+     , (0x7634A09A, 0x7634A07D, '2005-02-09 10:00:00') /* Enthralled Idolator (27421) */
+     , (0x7634A09A, 0x7634A07E, '2005-02-09 10:00:00') /* Enthralled Idolator (27421) */
+     , (0x7634A09A, 0x7634A07F, '2005-02-09 10:00:00') /* True Believer (27422) */
+     , (0x7634A09A, 0x7634A080, '2005-02-09 10:00:00') /* True Believer (27422) */
+     , (0x7634A09A, 0x7634A081, '2005-02-09 10:00:00') /* Enthralled Idolator (27421) */
+     , (0x7634A09A, 0x7634A082, '2005-02-09 10:00:00') /* Enthralled Idolator (27421) */
+     , (0x7634A09A, 0x7634A083, '2005-02-09 10:00:00') /* Enthralled Idolator (27421) */
+     , (0x7634A09A, 0x7634A084, '2005-02-09 10:00:00') /* Enthralled Idolator (27421) */
+     , (0x7634A09A, 0x7634A085, '2005-02-09 10:00:00') /* True Believer (27422) */
+     , (0x7634A09A, 0x7634A086, '2005-02-09 10:00:00') /* True Believer (27422) */
+     , (0x7634A09A, 0x7634A087, '2005-02-09 10:00:00') /* Enthralled Idolator (27421) */
+     , (0x7634A09A, 0x7634A088, '2005-02-09 10:00:00') /* Enthralled Idolator (27421) */
+     , (0x7634A09A, 0x7634A089, '2005-02-09 10:00:00') /* True Believer (27422) */
+     , (0x7634A09A, 0x7634A08A, '2005-02-09 10:00:00') /* Enthralled Zealot (27423) */
+     , (0x7634A09A, 0x7634A08B, '2005-02-09 10:00:00') /* Enthralled Idolator (27421) */
+     , (0x7634A09A, 0x7634A08C, '2005-02-09 10:00:00') /* Enthralled Idolator (27421) */
+     , (0x7634A09A, 0x7634A08D, '2005-02-09 10:00:00') /* Enthralled Idolator (27421) */
+     , (0x7634A09A, 0x7634A08E, '2005-02-09 10:00:00') /* Enthralled Idolator (27421) */
+     , (0x7634A09A, 0x7634A08F, '2005-02-09 10:00:00') /* Enthralled Zealot (27423) */
+     , (0x7634A09A, 0x7634A090, '2005-02-09 10:00:00') /* Enthralled Idolator (27421) */
+     , (0x7634A09A, 0x7634A091, '2005-02-09 10:00:00') /* Enthralled Idolator (27421) */
+     , (0x7634A09A, 0x7634A092, '2005-02-09 10:00:00') /* True Believer (27422) */
+     , (0x7634A09A, 0x7634A093, '2005-02-09 10:00:00') /* True Believer (27422) */
+     , (0x7634A09A, 0x7634A094, '2005-02-09 10:00:00') /* Enthralled Idolator (27421) */
+     , (0x7634A09A, 0x7634A095, '2005-02-09 10:00:00') /* Enthralled Idolator (27421) */
+     , (0x7634A09A, 0x7634A096, '2005-02-09 10:00:00') /* Enthralled Idolator (27421) */
+     , (0x7634A09A, 0x7634A097, '2005-02-09 10:00:00') /* Enthralled Idolator (27421) */
+     , (0x7634A09A, 0x7634A098, '2005-02-09 10:00:00') /* Enthralled Idolator (27421) */
+     , (0x7634A09A, 0x7634A099, '2005-02-09 10:00:00') /* Enthralled Idolator (27421) */
+     , (0x7634A09A, 0x7634A09C, '2005-02-09 10:00:00') /* Enthralled Idolator (27421) */
+     , (0x7634A09A, 0x7634A09D, '2005-02-09 10:00:00') /* Enthralled Idolator (27421) */
+     , (0x7634A09A, 0x7634A09E, '2005-02-09 10:00:00') /* Enthralled Idolator (27421) */
+     , (0x7634A09A, 0x7634A09F, '2005-02-09 10:00:00') /* Enthralled Idolator (27421) */
+     , (0x7634A09A, 0x7634A0A0, '2005-02-09 10:00:00') /* Enthralled Idolator (27421) */
+     , (0x7634A09A, 0x7634A0A1, '2005-02-09 10:00:00') /* Enthralled Idolator (27421) */
+     , (0x7634A09A, 0x7634A0A2, '2005-02-09 10:00:00') /* Enthralled Idolator (27421) */
+     , (0x7634A09A, 0x7634A0A3, '2005-02-09 10:00:00') /* True Believer (27422) */
+     , (0x7634A09A, 0x7634A0A4, '2005-02-09 10:00:00') /* Enthralled Idolator (27421) */
+     , (0x7634A09A, 0x7634A0A5, '2005-02-09 10:00:00') /* Enthralled Idolator (27421) */
+     , (0x7634A09A, 0x7634A0A6, '2005-02-09 10:00:00') /* Enthralled Idolator (27421) */
+     , (0x7634A09A, 0x7634A0A7, '2005-02-09 10:00:00') /* True Believer (27422) */
+     , (0x7634A09A, 0x7634A0A8, '2005-02-09 10:00:00') /* Enthralled Zealot (27423) */
+     , (0x7634A09A, 0x7634A0A9, '2005-02-09 10:00:00') /* Enthralled Idolator (27421) */
+     , (0x7634A09A, 0x7634A0AA, '2005-02-09 10:00:00') /* Enthralled Idolator (27421) */
+     , (0x7634A09A, 0x7634A0AB, '2005-02-09 10:00:00') /* Enthralled Zealot (27423) */
+     , (0x7634A09A, 0x7634A0AC, '2005-02-09 10:00:00') /* Enthralled Idolator (27421) */
+     , (0x7634A09A, 0x7634A0AD, '2005-02-09 10:00:00') /* Enthralled Idolator (27421) */
+     , (0x7634A09A, 0x7634A0AE, '2005-02-09 10:00:00') /* True Believer (27422) */
+     , (0x7634A09A, 0x7634A0AF, '2005-02-09 10:00:00') /* True Believer (27422) */
+     , (0x7634A09A, 0x7634A0B0, '2005-02-09 10:00:00') /* True Believer (27422) */
+     , (0x7634A09A, 0x7634A0B1, '2005-02-09 10:00:00') /* Enthralled Idolator (27421) */
+     , (0x7634A09A, 0x7634A0B2, '2005-02-09 10:00:00') /* Enthralled Idolator (27421) */
+     , (0x7634A09A, 0x7634A0B3, '2005-02-09 10:00:00') /* Enthralled Idolator (27421) */
+     , (0x7634A09A, 0x7634A0B4, '2005-02-09 10:00:00') /* Enthralled Idolator (27421) */
+     , (0x7634A09A, 0x7634A0B5, '2005-02-09 10:00:00') /* Enthralled Idolator (27421) */
+     , (0x7634A09A, 0x7634A0B6, '2005-02-09 10:00:00') /* True Believer (27422) */
+     , (0x7634A09A, 0x7634A0B7, '2005-02-09 10:00:00') /* True Believer (27422) */
+     , (0x7634A09A, 0x7634A0B8, '2005-02-09 10:00:00') /* Enthralled Idolator (27421) */
+     , (0x7634A09A, 0x7634A0B9, '2005-02-09 10:00:00') /* Enthralled Idolator (27421) */
+     , (0x7634A09A, 0x7634A0BA, '2005-02-09 10:00:00') /* Enthralled Zealot (27423) */
+     , (0x7634A09A, 0x7634A0BB, '2005-02-09 10:00:00') /* Enthralled Idolator (27421) */
+     , (0x7634A09A, 0x7634A0BC, '2005-02-09 10:00:00') /* True Believer (27422) */
+     , (0x7634A09A, 0x7634A0BD, '2005-02-09 10:00:00') /* Enthralled Idolator (27421) */
+     , (0x7634A09A, 0x7634A0BE, '2005-02-09 10:00:00') /* Enthralled Idolator (27421) */
+     , (0x7634A09A, 0x7634A0BF, '2005-02-09 10:00:00') /* Enthralled Zealot (27423) */
+     , (0x7634A09A, 0x7634A0C0, '2005-02-09 10:00:00') /* Enthralled Idolator (27421) */
+     , (0x7634A09A, 0x7634A0C1, '2005-02-09 10:00:00') /* Enthralled Idolator (27421) */
+     , (0x7634A09A, 0x7634A0C2, '2005-02-09 10:00:00') /* True Believer (27422) */
+     , (0x7634A09A, 0x7634A0C3, '2005-02-09 10:00:00') /* True Believer (27422) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7634A09B,  7924, 0x634A0294, 111.296, -90, -29.995, 1, 0, 0, 0, False, '2005-02-09 10:00:00'); /* Linkable Monster Generator ( 5 Min.) */
 /* @teleloc 0x634A0294 [111.296000 -90.000000 -29.995000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7634A09B, 0x7634A013, '2005-02-09 10:00:00') /* Enthralled Idolator */
-     , (0x7634A09B, 0x7634A014, '2005-02-09 10:00:00') /* Enthralled Idolator */
-     , (0x7634A09B, 0x7634A015, '2005-02-09 10:00:00') /* True Believer */
-     , (0x7634A09B, 0x7634A016, '2005-02-09 10:00:00') /* Enthralled Zealot */
-     , (0x7634A09B, 0x7634A017, '2005-02-09 10:00:00') /* True Believer */
-     , (0x7634A09B, 0x7634A018, '2005-02-09 10:00:00') /* Enthralled Idolator */
-     , (0x7634A09B, 0x7634A019, '2005-02-09 10:00:00') /* Enthralled Idolator */
-     , (0x7634A09B, 0x7634A01A, '2005-02-09 10:00:00') /* Enthralled Zealot */
-     , (0x7634A09B, 0x7634A01B, '2005-02-09 10:00:00') /* Enthralled Zealot */
-     , (0x7634A09B, 0x7634A01C, '2005-02-09 10:00:00') /* Enthralled Zealot */
-     , (0x7634A09B, 0x7634A01D, '2005-02-09 10:00:00') /* Enthralled Zealot */
-     , (0x7634A09B, 0x7634A01E, '2005-02-09 10:00:00') /* Enthralled Idolator */
-     , (0x7634A09B, 0x7634A01F, '2005-02-09 10:00:00') /* Enthralled Idolator */
-     , (0x7634A09B, 0x7634A020, '2005-02-09 10:00:00') /* Enthralled Idolator */
-     , (0x7634A09B, 0x7634A021, '2005-02-09 10:00:00') /* Enthralled Idolator */
-     , (0x7634A09B, 0x7634A022, '2005-02-09 10:00:00') /* Enthralled Idolator */
-     , (0x7634A09B, 0x7634A023, '2005-02-09 10:00:00') /* Enthralled Idolator */
-     , (0x7634A09B, 0x7634A024, '2005-02-09 10:00:00') /* Enthralled Zealot */
-     , (0x7634A09B, 0x7634A025, '2005-02-09 10:00:00') /* Enthralled Idolator */
-     , (0x7634A09B, 0x7634A026, '2005-02-09 10:00:00') /* Enthralled Idolator */
-     , (0x7634A09B, 0x7634A027, '2005-02-09 10:00:00') /* Enthralled Zealot */
-     , (0x7634A09B, 0x7634A028, '2005-02-09 10:00:00') /* Enthralled Idolator */
-     , (0x7634A09B, 0x7634A029, '2005-02-09 10:00:00') /* Enthralled Idolator */
-     , (0x7634A09B, 0x7634A02A, '2005-02-09 10:00:00') /* Enthralled Idolator */
-     , (0x7634A09B, 0x7634A02B, '2005-02-09 10:00:00') /* Enthralled Idolator */
-     , (0x7634A09B, 0x7634A02C, '2005-02-09 10:00:00') /* Enthralled Idolator */
-     , (0x7634A09B, 0x7634A02D, '2005-02-09 10:00:00') /* Enthralled Idolator */
-     , (0x7634A09B, 0x7634A02E, '2005-02-09 10:00:00') /* Enthralled Zealot */
-     , (0x7634A09B, 0x7634A02F, '2005-02-09 10:00:00') /* Enthralled Idolator */
-     , (0x7634A09B, 0x7634A030, '2005-02-09 10:00:00') /* Enthralled Idolator */
-     , (0x7634A09B, 0x7634A031, '2005-02-09 10:00:00') /* Enthralled Zealot */
-     , (0x7634A09B, 0x7634A032, '2005-02-09 10:00:00') /* Enthralled Zealot */
-     , (0x7634A09B, 0x7634A033, '2005-02-09 10:00:00') /* Enthralled Zealot */
-     , (0x7634A09B, 0x7634A034, '2005-02-09 10:00:00') /* Enthralled Idolator */
-     , (0x7634A09B, 0x7634A035, '2005-02-09 10:00:00') /* Enthralled Idolator */
-     , (0x7634A09B, 0x7634A036, '2005-02-09 10:00:00') /* Enthralled Idolator */
-     , (0x7634A09B, 0x7634A037, '2005-02-09 10:00:00') /* Enthralled Idolator */
-     , (0x7634A09B, 0x7634A038, '2005-02-09 10:00:00') /* Enthralled Zealot */
-     , (0x7634A09B, 0x7634A039, '2005-02-09 10:00:00') /* Enthralled Zealot */
-     , (0x7634A09B, 0x7634A03A, '2005-02-09 10:00:00') /* Enthralled Idolator */
-     , (0x7634A09B, 0x7634A03B, '2005-02-09 10:00:00') /* Enthralled Idolator */
-     , (0x7634A09B, 0x7634A03C, '2005-02-09 10:00:00') /* Enthralled Zealot */
-     , (0x7634A09B, 0x7634A03D, '2005-02-09 10:00:00') /* Enthralled Zealot */
-     , (0x7634A09B, 0x7634A03E, '2005-02-09 10:00:00') /* Enthralled Idolator */
-     , (0x7634A09B, 0x7634A03F, '2005-02-09 10:00:00') /* Enthralled Idolator */
-     , (0x7634A09B, 0x7634A040, '2005-02-09 10:00:00') /* True Believer */
-     , (0x7634A09B, 0x7634A041, '2005-02-09 10:00:00') /* True Believer */
-     , (0x7634A09B, 0x7634A042, '2005-02-09 10:00:00') /* Enthralled Zealot */
-     , (0x7634A09B, 0x7634A043, '2005-02-09 10:00:00') /* Enthralled Zealot */
-     , (0x7634A09B, 0x7634A044, '2005-02-09 10:00:00') /* True Believer */
-     , (0x7634A09B, 0x7634A045, '2005-02-09 10:00:00') /* True Believer */
-     , (0x7634A09B, 0x7634A046, '2005-02-09 10:00:00') /* Enthralled Idolator */
-     , (0x7634A09B, 0x7634A047, '2005-02-09 10:00:00') /* Enthralled Idolator */
-     , (0x7634A09B, 0x7634A048, '2005-02-09 10:00:00') /* Enthralled Zealot */
-     , (0x7634A09B, 0x7634A049, '2005-02-09 10:00:00') /* Enthralled Zealot */
-     , (0x7634A09B, 0x7634A04A, '2005-02-09 10:00:00') /* Enthralled Idolator */
-     , (0x7634A09B, 0x7634A04B, '2005-02-09 10:00:00') /* Enthralled Idolator */
-     , (0x7634A09B, 0x7634A04C, '2005-02-09 10:00:00') /* Enthralled Zealot */
-     , (0x7634A09B, 0x7634A04D, '2005-02-09 10:00:00') /* Enthralled Zealot */
-     , (0x7634A09B, 0x7634A04E, '2005-02-09 10:00:00') /* Enthralled Idolator */
-     , (0x7634A09B, 0x7634A04F, '2005-02-09 10:00:00') /* Enthralled Idolator */
-     , (0x7634A09B, 0x7634A050, '2005-02-09 10:00:00') /* Enthralled Zealot */
-     , (0x7634A09B, 0x7634A051, '2005-02-09 10:00:00') /* Enthralled Idolator */
-     , (0x7634A09B, 0x7634A052, '2005-02-09 10:00:00') /* Enthralled Idolator */
-     , (0x7634A09B, 0x7634A053, '2005-02-09 10:00:00') /* Enthralled Zealot */
-     , (0x7634A09B, 0x7634A054, '2005-02-09 10:00:00') /* Enthralled Zealot */
-     , (0x7634A09B, 0x7634A055, '2005-02-09 10:00:00') /* Enthralled Zealot */
-     , (0x7634A09B, 0x7634A056, '2005-02-09 10:00:00') /* Enthralled Idolator */
-     , (0x7634A09B, 0x7634A057, '2005-02-09 10:00:00') /* Enthralled Idolator */
-     , (0x7634A09B, 0x7634A058, '2005-02-09 10:00:00') /* Enthralled Idolator */
-     , (0x7634A09B, 0x7634A059, '2005-02-09 10:00:00') /* Enthralled Idolator */
-     , (0x7634A09B, 0x7634A05A, '2005-02-09 10:00:00') /* Enthralled Idolator */
-     , (0x7634A09B, 0x7634A05B, '2005-02-09 10:00:00') /* Enthralled Idolator */
-     , (0x7634A09B, 0x7634A05C, '2005-02-09 10:00:00') /* Enthralled Idolator */
-     , (0x7634A09B, 0x7634A05D, '2005-02-09 10:00:00') /* Enthralled Idolator */
-     , (0x7634A09B, 0x7634A05E, '2005-02-09 10:00:00') /* Enthralled Zealot */
-     , (0x7634A09B, 0x7634A05F, '2005-02-09 10:00:00') /* Enthralled Idolator */
-     , (0x7634A09B, 0x7634A060, '2005-02-09 10:00:00') /* Enthralled Zealot */
-     , (0x7634A09B, 0x7634A061, '2005-02-09 10:00:00') /* Enthralled Idolator */
-     , (0x7634A09B, 0x7634A062, '2005-02-09 10:00:00') /* Enthralled Idolator */
-     , (0x7634A09B, 0x7634A063, '2005-02-09 10:00:00') /* Enthralled Idolator */
-     , (0x7634A09B, 0x7634A064, '2005-02-09 10:00:00') /* Enthralled Idolator */
-     , (0x7634A09B, 0x7634A065, '2005-02-09 10:00:00') /* Enthralled Idolator */
-     , (0x7634A09B, 0x7634A066, '2005-02-09 10:00:00') /* Enthralled Idolator */
-     , (0x7634A09B, 0x7634A067, '2005-02-09 10:00:00') /* Enthralled Zealot */
-     , (0x7634A09B, 0x7634A068, '2005-02-09 10:00:00') /* Enthralled Zealot */
-     , (0x7634A09B, 0x7634A069, '2005-02-09 10:00:00') /* Enthralled Idolator */
-     , (0x7634A09B, 0x7634A06A, '2005-02-09 10:00:00') /* Enthralled Zealot */
-     , (0x7634A09B, 0x7634A06B, '2005-02-09 10:00:00') /* Enthralled Zealot */
-     , (0x7634A09B, 0x7634A06C, '2005-02-09 10:00:00') /* Enthralled Idolator */
-     , (0x7634A09B, 0x7634A06D, '2005-02-09 10:00:00') /* Enthralled Idolator */
-     , (0x7634A09B, 0x7634A06E, '2005-02-09 10:00:00') /* True Believer */
-     , (0x7634A09B, 0x7634A06F, '2005-02-09 10:00:00') /* Enthralled Zealot */
-     , (0x7634A09B, 0x7634A070, '2005-02-09 10:00:00') /* True Believer */
-     , (0x7634A09B, 0x7634A071, '2005-02-09 10:00:00') /* Enthralled Idolator */
-     , (0x7634A09B, 0x7634A072, '2005-02-09 10:00:00') /* Enthralled Idolator */;
+VALUES (0x7634A09B, 0x7634A013, '2005-02-09 10:00:00') /* Enthralled Idolator (27421) */
+     , (0x7634A09B, 0x7634A014, '2005-02-09 10:00:00') /* Enthralled Idolator (27421) */
+     , (0x7634A09B, 0x7634A015, '2005-02-09 10:00:00') /* True Believer (27422) */
+     , (0x7634A09B, 0x7634A016, '2005-02-09 10:00:00') /* Enthralled Zealot (27423) */
+     , (0x7634A09B, 0x7634A017, '2005-02-09 10:00:00') /* True Believer (27422) */
+     , (0x7634A09B, 0x7634A018, '2005-02-09 10:00:00') /* Enthralled Idolator (27421) */
+     , (0x7634A09B, 0x7634A019, '2005-02-09 10:00:00') /* Enthralled Idolator (27421) */
+     , (0x7634A09B, 0x7634A01A, '2005-02-09 10:00:00') /* Enthralled Zealot (27423) */
+     , (0x7634A09B, 0x7634A01B, '2005-02-09 10:00:00') /* Enthralled Zealot (27423) */
+     , (0x7634A09B, 0x7634A01C, '2005-02-09 10:00:00') /* Enthralled Zealot (27423) */
+     , (0x7634A09B, 0x7634A01D, '2005-02-09 10:00:00') /* Enthralled Zealot (27423) */
+     , (0x7634A09B, 0x7634A01E, '2005-02-09 10:00:00') /* Enthralled Idolator (27421) */
+     , (0x7634A09B, 0x7634A01F, '2005-02-09 10:00:00') /* Enthralled Idolator (27421) */
+     , (0x7634A09B, 0x7634A020, '2005-02-09 10:00:00') /* Enthralled Idolator (27421) */
+     , (0x7634A09B, 0x7634A021, '2005-02-09 10:00:00') /* Enthralled Idolator (27421) */
+     , (0x7634A09B, 0x7634A022, '2005-02-09 10:00:00') /* Enthralled Idolator (27421) */
+     , (0x7634A09B, 0x7634A023, '2005-02-09 10:00:00') /* Enthralled Idolator (27421) */
+     , (0x7634A09B, 0x7634A024, '2005-02-09 10:00:00') /* Enthralled Zealot (27423) */
+     , (0x7634A09B, 0x7634A025, '2005-02-09 10:00:00') /* Enthralled Idolator (27421) */
+     , (0x7634A09B, 0x7634A026, '2005-02-09 10:00:00') /* Enthralled Idolator (27421) */
+     , (0x7634A09B, 0x7634A027, '2005-02-09 10:00:00') /* Enthralled Zealot (27423) */
+     , (0x7634A09B, 0x7634A028, '2005-02-09 10:00:00') /* Enthralled Idolator (27421) */
+     , (0x7634A09B, 0x7634A029, '2005-02-09 10:00:00') /* Enthralled Idolator (27421) */
+     , (0x7634A09B, 0x7634A02A, '2005-02-09 10:00:00') /* Enthralled Idolator (27421) */
+     , (0x7634A09B, 0x7634A02B, '2005-02-09 10:00:00') /* Enthralled Idolator (27421) */
+     , (0x7634A09B, 0x7634A02C, '2005-02-09 10:00:00') /* Enthralled Idolator (27421) */
+     , (0x7634A09B, 0x7634A02D, '2005-02-09 10:00:00') /* Enthralled Idolator (27421) */
+     , (0x7634A09B, 0x7634A02E, '2005-02-09 10:00:00') /* Enthralled Zealot (27423) */
+     , (0x7634A09B, 0x7634A02F, '2005-02-09 10:00:00') /* Enthralled Idolator (27421) */
+     , (0x7634A09B, 0x7634A030, '2005-02-09 10:00:00') /* Enthralled Idolator (27421) */
+     , (0x7634A09B, 0x7634A031, '2005-02-09 10:00:00') /* Enthralled Zealot (27423) */
+     , (0x7634A09B, 0x7634A032, '2005-02-09 10:00:00') /* Enthralled Zealot (27423) */
+     , (0x7634A09B, 0x7634A033, '2005-02-09 10:00:00') /* Enthralled Zealot (27423) */
+     , (0x7634A09B, 0x7634A034, '2005-02-09 10:00:00') /* Enthralled Idolator (27421) */
+     , (0x7634A09B, 0x7634A035, '2005-02-09 10:00:00') /* Enthralled Idolator (27421) */
+     , (0x7634A09B, 0x7634A036, '2005-02-09 10:00:00') /* Enthralled Idolator (27421) */
+     , (0x7634A09B, 0x7634A037, '2005-02-09 10:00:00') /* Enthralled Idolator (27421) */
+     , (0x7634A09B, 0x7634A038, '2005-02-09 10:00:00') /* Enthralled Zealot (27423) */
+     , (0x7634A09B, 0x7634A039, '2005-02-09 10:00:00') /* Enthralled Zealot (27423) */
+     , (0x7634A09B, 0x7634A03A, '2005-02-09 10:00:00') /* Enthralled Idolator (27421) */
+     , (0x7634A09B, 0x7634A03B, '2005-02-09 10:00:00') /* Enthralled Idolator (27421) */
+     , (0x7634A09B, 0x7634A03C, '2005-02-09 10:00:00') /* Enthralled Zealot (27423) */
+     , (0x7634A09B, 0x7634A03D, '2005-02-09 10:00:00') /* Enthralled Zealot (27423) */
+     , (0x7634A09B, 0x7634A03E, '2005-02-09 10:00:00') /* Enthralled Idolator (27421) */
+     , (0x7634A09B, 0x7634A03F, '2005-02-09 10:00:00') /* Enthralled Idolator (27421) */
+     , (0x7634A09B, 0x7634A040, '2005-02-09 10:00:00') /* True Believer (27422) */
+     , (0x7634A09B, 0x7634A041, '2005-02-09 10:00:00') /* True Believer (27422) */
+     , (0x7634A09B, 0x7634A042, '2005-02-09 10:00:00') /* Enthralled Zealot (27423) */
+     , (0x7634A09B, 0x7634A043, '2005-02-09 10:00:00') /* Enthralled Zealot (27423) */
+     , (0x7634A09B, 0x7634A044, '2005-02-09 10:00:00') /* True Believer (27422) */
+     , (0x7634A09B, 0x7634A045, '2005-02-09 10:00:00') /* True Believer (27422) */
+     , (0x7634A09B, 0x7634A046, '2005-02-09 10:00:00') /* Enthralled Idolator (27421) */
+     , (0x7634A09B, 0x7634A047, '2005-02-09 10:00:00') /* Enthralled Idolator (27421) */
+     , (0x7634A09B, 0x7634A048, '2005-02-09 10:00:00') /* Enthralled Zealot (27423) */
+     , (0x7634A09B, 0x7634A049, '2005-02-09 10:00:00') /* Enthralled Zealot (27423) */
+     , (0x7634A09B, 0x7634A04A, '2005-02-09 10:00:00') /* Enthralled Idolator (27421) */
+     , (0x7634A09B, 0x7634A04B, '2005-02-09 10:00:00') /* Enthralled Idolator (27421) */
+     , (0x7634A09B, 0x7634A04C, '2005-02-09 10:00:00') /* Enthralled Zealot (27423) */
+     , (0x7634A09B, 0x7634A04D, '2005-02-09 10:00:00') /* Enthralled Zealot (27423) */
+     , (0x7634A09B, 0x7634A04E, '2005-02-09 10:00:00') /* Enthralled Idolator (27421) */
+     , (0x7634A09B, 0x7634A04F, '2005-02-09 10:00:00') /* Enthralled Idolator (27421) */
+     , (0x7634A09B, 0x7634A050, '2005-02-09 10:00:00') /* Enthralled Zealot (27423) */
+     , (0x7634A09B, 0x7634A051, '2005-02-09 10:00:00') /* Enthralled Idolator (27421) */
+     , (0x7634A09B, 0x7634A052, '2005-02-09 10:00:00') /* Enthralled Idolator (27421) */
+     , (0x7634A09B, 0x7634A053, '2005-02-09 10:00:00') /* Enthralled Zealot (27423) */
+     , (0x7634A09B, 0x7634A054, '2005-02-09 10:00:00') /* Enthralled Zealot (27423) */
+     , (0x7634A09B, 0x7634A055, '2005-02-09 10:00:00') /* Enthralled Zealot (27423) */
+     , (0x7634A09B, 0x7634A056, '2005-02-09 10:00:00') /* Enthralled Idolator (27421) */
+     , (0x7634A09B, 0x7634A057, '2005-02-09 10:00:00') /* Enthralled Idolator (27421) */
+     , (0x7634A09B, 0x7634A058, '2005-02-09 10:00:00') /* Enthralled Idolator (27421) */
+     , (0x7634A09B, 0x7634A059, '2005-02-09 10:00:00') /* Enthralled Idolator (27421) */
+     , (0x7634A09B, 0x7634A05A, '2005-02-09 10:00:00') /* Enthralled Idolator (27421) */
+     , (0x7634A09B, 0x7634A05B, '2005-02-09 10:00:00') /* Enthralled Idolator (27421) */
+     , (0x7634A09B, 0x7634A05C, '2005-02-09 10:00:00') /* Enthralled Idolator (27421) */
+     , (0x7634A09B, 0x7634A05D, '2005-02-09 10:00:00') /* Enthralled Idolator (27421) */
+     , (0x7634A09B, 0x7634A05E, '2005-02-09 10:00:00') /* Enthralled Zealot (27423) */
+     , (0x7634A09B, 0x7634A05F, '2005-02-09 10:00:00') /* Enthralled Idolator (27421) */
+     , (0x7634A09B, 0x7634A060, '2005-02-09 10:00:00') /* Enthralled Zealot (27423) */
+     , (0x7634A09B, 0x7634A061, '2005-02-09 10:00:00') /* Enthralled Idolator (27421) */
+     , (0x7634A09B, 0x7634A062, '2005-02-09 10:00:00') /* Enthralled Idolator (27421) */
+     , (0x7634A09B, 0x7634A063, '2005-02-09 10:00:00') /* Enthralled Idolator (27421) */
+     , (0x7634A09B, 0x7634A064, '2005-02-09 10:00:00') /* Enthralled Idolator (27421) */
+     , (0x7634A09B, 0x7634A065, '2005-02-09 10:00:00') /* Enthralled Idolator (27421) */
+     , (0x7634A09B, 0x7634A066, '2005-02-09 10:00:00') /* Enthralled Idolator (27421) */
+     , (0x7634A09B, 0x7634A067, '2005-02-09 10:00:00') /* Enthralled Zealot (27423) */
+     , (0x7634A09B, 0x7634A068, '2005-02-09 10:00:00') /* Enthralled Zealot (27423) */
+     , (0x7634A09B, 0x7634A069, '2005-02-09 10:00:00') /* Enthralled Idolator (27421) */
+     , (0x7634A09B, 0x7634A06A, '2005-02-09 10:00:00') /* Enthralled Zealot (27423) */
+     , (0x7634A09B, 0x7634A06B, '2005-02-09 10:00:00') /* Enthralled Zealot (27423) */
+     , (0x7634A09B, 0x7634A06C, '2005-02-09 10:00:00') /* Enthralled Idolator (27421) */
+     , (0x7634A09B, 0x7634A06D, '2005-02-09 10:00:00') /* Enthralled Idolator (27421) */
+     , (0x7634A09B, 0x7634A06E, '2005-02-09 10:00:00') /* True Believer (27422) */
+     , (0x7634A09B, 0x7634A06F, '2005-02-09 10:00:00') /* Enthralled Zealot (27423) */
+     , (0x7634A09B, 0x7634A070, '2005-02-09 10:00:00') /* True Believer (27422) */
+     , (0x7634A09B, 0x7634A071, '2005-02-09 10:00:00') /* Enthralled Idolator (27421) */
+     , (0x7634A09B, 0x7634A072, '2005-02-09 10:00:00') /* Enthralled Idolator (27421) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7634A09C, 27421, 0x634A02A3, 110.103, -123.227, -29.9934, 0.993393, 0, 0, -0.114766,  True, '2005-02-09 10:00:00'); /* Enthralled Idolator */
@@ -1030,12 +1030,12 @@ VALUES (0x7634A0D1, 24129, 0x634A0361, 110, -90, -17.995, 1, 0, 0, 0, False, '20
 /* @teleloc 0x634A0361 [110.000000 -90.000000 -17.995000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7634A0D1, 0x7634A0CD, '2005-02-09 10:00:00') /* Dread Idol */
-     , (0x7634A0D1, 0x7634A0CE, '2005-02-09 10:00:00') /* Dread Idol */
-     , (0x7634A0D1, 0x7634A0CF, '2005-02-09 10:00:00') /* Dread Idol */
-     , (0x7634A0D1, 0x7634A0D0, '2005-02-09 10:00:00') /* Dread Idol */
-     , (0x7634A0D1, 0x7634A0D2, '2005-02-09 10:00:00') /* Enthralled Zealot */
-     , (0x7634A0D1, 0x7634A0D3, '2005-02-09 10:00:00') /* Enthralled Zealot */;
+VALUES (0x7634A0D1, 0x7634A0CD, '2005-02-09 10:00:00') /* Dread Idol (8467) */
+     , (0x7634A0D1, 0x7634A0CE, '2005-02-09 10:00:00') /* Dread Idol (8467) */
+     , (0x7634A0D1, 0x7634A0CF, '2005-02-09 10:00:00') /* Dread Idol (8467) */
+     , (0x7634A0D1, 0x7634A0D0, '2005-02-09 10:00:00') /* Dread Idol (8467) */
+     , (0x7634A0D1, 0x7634A0D2, '2005-02-09 10:00:00') /* Enthralled Zealot (27423) */
+     , (0x7634A0D1, 0x7634A0D3, '2005-02-09 10:00:00') /* Enthralled Zealot (27423) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7634A0D2, 27423, 0x634A0361, 107.716, -87.7706, -17.9923, -0.394656, 0, 0, 0.918829,  True, '2005-02-09 10:00:00'); /* Enthralled Zealot */
@@ -1122,33 +1122,33 @@ VALUES (0x7634A0E6,  7924, 0x634A03D4, 100, -80, 0.005, 1, 0, 0, -4.37114E-08, F
 /* @teleloc 0x634A03D4 [100.000000 -80.000000 0.005000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7634A0E6, 0x7634A0C4, '2005-02-09 10:00:00') /* True Believer */
-     , (0x7634A0E6, 0x7634A0C5, '2005-02-09 10:00:00') /* Enthralled Idolator */
-     , (0x7634A0E6, 0x7634A0C6, '2005-02-09 10:00:00') /* Enthralled Idolator */
-     , (0x7634A0E6, 0x7634A0C7, '2005-02-09 10:00:00') /* Enthralled Idolator */
-     , (0x7634A0E6, 0x7634A0C8, '2005-02-09 10:00:00') /* Enthralled Idolator */
-     , (0x7634A0E6, 0x7634A0C9, '2005-02-09 10:00:00') /* True Believer */
-     , (0x7634A0E6, 0x7634A0CA, '2005-02-09 10:00:00') /* True Believer */
-     , (0x7634A0E6, 0x7634A0CB, '2005-02-09 10:00:00') /* Enthralled Idolator */
-     , (0x7634A0E6, 0x7634A0CC, '2005-02-09 10:00:00') /* Enthralled Idolator */
-     , (0x7634A0E6, 0x7634A0D4, '2005-02-09 10:00:00') /* Enthralled Idolator */
-     , (0x7634A0E6, 0x7634A0D5, '2005-02-09 10:00:00') /* True Believer */
-     , (0x7634A0E6, 0x7634A0D6, '2005-02-09 10:00:00') /* Enthralled Idolator */
-     , (0x7634A0E6, 0x7634A0D7, '2005-02-09 10:00:00') /* Enthralled Idolator */
-     , (0x7634A0E6, 0x7634A0D8, '2005-02-09 10:00:00') /* Enthralled Idolator */
-     , (0x7634A0E6, 0x7634A0D9, '2005-02-09 10:00:00') /* Enthralled Idolator */
-     , (0x7634A0E6, 0x7634A0DA, '2005-02-09 10:00:00') /* Enthralled Idolator */
-     , (0x7634A0E6, 0x7634A0DB, '2005-02-09 10:00:00') /* Enthralled Idolator */
-     , (0x7634A0E6, 0x7634A0DC, '2005-02-09 10:00:00') /* True Believer */
-     , (0x7634A0E6, 0x7634A0DD, '2005-02-09 10:00:00') /* Enthralled Idolator */
-     , (0x7634A0E6, 0x7634A0DE, '2005-02-09 10:00:00') /* Enthralled Idolator */
-     , (0x7634A0E6, 0x7634A0DF, '2005-02-09 10:00:00') /* Enthralled Idolator */
-     , (0x7634A0E6, 0x7634A0E0, '2005-02-09 10:00:00') /* Enthralled Idolator */
-     , (0x7634A0E6, 0x7634A0E1, '2005-02-09 10:00:00') /* Enthralled Idolator */
-     , (0x7634A0E6, 0x7634A0E2, '2005-02-09 10:00:00') /* Enthralled Idolator */
-     , (0x7634A0E6, 0x7634A0E3, '2005-02-09 10:00:00') /* Enthralled Idolator */
-     , (0x7634A0E6, 0x7634A0E4, '2005-02-09 10:00:00') /* Enthralled Idolator */
-     , (0x7634A0E6, 0x7634A0E5, '2005-02-09 10:00:00') /* Enthralled Idolator */;
+VALUES (0x7634A0E6, 0x7634A0C4, '2005-02-09 10:00:00') /* True Believer (27422) */
+     , (0x7634A0E6, 0x7634A0C5, '2005-02-09 10:00:00') /* Enthralled Idolator (27421) */
+     , (0x7634A0E6, 0x7634A0C6, '2005-02-09 10:00:00') /* Enthralled Idolator (27421) */
+     , (0x7634A0E6, 0x7634A0C7, '2005-02-09 10:00:00') /* Enthralled Idolator (27421) */
+     , (0x7634A0E6, 0x7634A0C8, '2005-02-09 10:00:00') /* Enthralled Idolator (27421) */
+     , (0x7634A0E6, 0x7634A0C9, '2005-02-09 10:00:00') /* True Believer (27422) */
+     , (0x7634A0E6, 0x7634A0CA, '2005-02-09 10:00:00') /* True Believer (27422) */
+     , (0x7634A0E6, 0x7634A0CB, '2005-02-09 10:00:00') /* Enthralled Idolator (27421) */
+     , (0x7634A0E6, 0x7634A0CC, '2005-02-09 10:00:00') /* Enthralled Idolator (27421) */
+     , (0x7634A0E6, 0x7634A0D4, '2005-02-09 10:00:00') /* Enthralled Idolator (27421) */
+     , (0x7634A0E6, 0x7634A0D5, '2005-02-09 10:00:00') /* True Believer (27422) */
+     , (0x7634A0E6, 0x7634A0D6, '2005-02-09 10:00:00') /* Enthralled Idolator (27421) */
+     , (0x7634A0E6, 0x7634A0D7, '2005-02-09 10:00:00') /* Enthralled Idolator (27421) */
+     , (0x7634A0E6, 0x7634A0D8, '2005-02-09 10:00:00') /* Enthralled Idolator (27421) */
+     , (0x7634A0E6, 0x7634A0D9, '2005-02-09 10:00:00') /* Enthralled Idolator (27421) */
+     , (0x7634A0E6, 0x7634A0DA, '2005-02-09 10:00:00') /* Enthralled Idolator (27421) */
+     , (0x7634A0E6, 0x7634A0DB, '2005-02-09 10:00:00') /* Enthralled Idolator (27421) */
+     , (0x7634A0E6, 0x7634A0DC, '2005-02-09 10:00:00') /* True Believer (27422) */
+     , (0x7634A0E6, 0x7634A0DD, '2005-02-09 10:00:00') /* Enthralled Idolator (27421) */
+     , (0x7634A0E6, 0x7634A0DE, '2005-02-09 10:00:00') /* Enthralled Idolator (27421) */
+     , (0x7634A0E6, 0x7634A0DF, '2005-02-09 10:00:00') /* Enthralled Idolator (27421) */
+     , (0x7634A0E6, 0x7634A0E0, '2005-02-09 10:00:00') /* Enthralled Idolator (27421) */
+     , (0x7634A0E6, 0x7634A0E1, '2005-02-09 10:00:00') /* Enthralled Idolator (27421) */
+     , (0x7634A0E6, 0x7634A0E2, '2005-02-09 10:00:00') /* Enthralled Idolator (27421) */
+     , (0x7634A0E6, 0x7634A0E3, '2005-02-09 10:00:00') /* Enthralled Idolator (27421) */
+     , (0x7634A0E6, 0x7634A0E4, '2005-02-09 10:00:00') /* Enthralled Idolator (27421) */
+     , (0x7634A0E6, 0x7634A0E5, '2005-02-09 10:00:00') /* Enthralled Idolator (27421) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7634A0E7, 27421, 0x634A0122, 113.467, -87.3024, -41.9923, -0.546327, 0, 0, -0.837572,  True, '2005-02-09 10:00:00'); /* Enthralled Idolator */
@@ -1163,4 +1163,4 @@ VALUES (0x7634A0E9,  5086, 0x634A0122, 110, -90, -41.995, 1, 0, 0, 0, False, '20
 /* @teleloc 0x634A0122 [110.000000 -90.000000 -41.995000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7634A0E9, 0x7634A005, '2005-02-09 10:00:00') /* Homunculus */;
+VALUES (0x7634A0E9, 0x7634A005, '2005-02-09 10:00:00') /* Homunculus (27431) */;

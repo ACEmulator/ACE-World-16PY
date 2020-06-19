@@ -9,9 +9,9 @@ VALUES (0x77BED001,  7923, 0x7BED0000, 53.3689, 48.4334, 170.425, 0.545688, 0, 0
 /* @teleloc 0x7BED0000 [53.368900 48.433400 170.425000] 0.545688 0.000000 0.000000 -0.837988 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x77BED001, 0x77BED005, '2005-02-09 10:00:00') /* Drudge Bloodletter */
-     , (0x77BED001, 0x77BED006, '2005-02-09 10:00:00') /* Drudge Bloodletter */
-     , (0x77BED001, 0x77BED007, '2005-02-09 10:00:00') /* Drudge Bloodletter */;
+VALUES (0x77BED001, 0x77BED005, '2005-02-09 10:00:00') /* Drudge Bloodletter (23480) */
+     , (0x77BED001, 0x77BED006, '2005-02-09 10:00:00') /* Drudge Bloodletter (23480) */
+     , (0x77BED001, 0x77BED007, '2005-02-09 10:00:00') /* Drudge Bloodletter (23480) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x77BED005, 23480, 0x7BED0000, 54.7139, 50.3064, 170.713, 0.213721, 0, 0, -0.976895,  True, '2005-02-09 10:00:00'); /* Drudge Bloodletter */

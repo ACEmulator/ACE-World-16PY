@@ -33,8 +33,8 @@ VALUES (0x76246007, 26553, 0x6246010B, 80.16, -40, -23.995, 0.707107, 0, 0, -0.7
 /* @teleloc 0x6246010B [80.160000 -40.000000 -23.995000] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x76246007, 0x76246006, '2005-02-09 10:00:00') /* Button */
-     , (0x76246007, 0x76246008, '2005-02-09 10:00:00') /* Button */;
+VALUES (0x76246007, 0x76246006, '2005-02-09 10:00:00') /* Button (8420) */
+     , (0x76246007, 0x76246008, '2005-02-09 10:00:00') /* Button (8420) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x76246008,  8420, 0x6246010B, 83.057, -38.4333, -22.5, 1, 0, 0, 0,  True, '2005-02-09 10:00:00'); /* Button */
@@ -65,8 +65,8 @@ VALUES (0x7624600E, 26553, 0x62460115, 80.16, -370, -23.995, 0.707107, 0, 0, -0.
 /* @teleloc 0x62460115 [80.160000 -370.000000 -23.995000] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7624600E, 0x7624600D, '2005-02-09 10:00:00') /* Button */
-     , (0x7624600E, 0x7624600F, '2005-02-09 10:00:00') /* Button */;
+VALUES (0x7624600E, 0x7624600D, '2005-02-09 10:00:00') /* Button (8420) */
+     , (0x7624600E, 0x7624600F, '2005-02-09 10:00:00') /* Button (8420) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7624600F,  8420, 0x62460115, 82.869, -368.44, -22.5, 1, 0, 0, 0,  True, '2005-02-09 10:00:00'); /* Button */
@@ -165,8 +165,8 @@ VALUES (0x76246026, 26553, 0x62460128, 99.84, -20, -23.995, 0.707107, 0, 0, 0.70
 /* @teleloc 0x62460128 [99.840000 -20.000000 -23.995000] 0.707107 0.000000 0.000000 0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x76246026, 0x76246025, '2005-02-09 10:00:00') /* Button */
-     , (0x76246026, 0x76246027, '2005-02-09 10:00:00') /* Button */;
+VALUES (0x76246026, 0x76246025, '2005-02-09 10:00:00') /* Button (8420) */
+     , (0x76246026, 0x76246027, '2005-02-09 10:00:00') /* Button (8420) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x76246027,  8420, 0x62460128, 97.216, -21.557, -22.5, 0, 0, 0, -1,  True, '2005-02-09 10:00:00'); /* Button */
@@ -205,8 +205,8 @@ VALUES (0x7624602F, 26553, 0x62460132, 99.84, -350, -23.995, 0.707107, 0, 0, 0.7
 /* @teleloc 0x62460132 [99.840000 -350.000000 -23.995000] 0.707107 0.000000 0.000000 0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7624602F, 0x7624602E, '2005-02-09 10:00:00') /* Button */
-     , (0x7624602F, 0x76246030, '2005-02-09 10:00:00') /* Button */;
+VALUES (0x7624602F, 0x7624602E, '2005-02-09 10:00:00') /* Button (8420) */
+     , (0x7624602F, 0x76246030, '2005-02-09 10:00:00') /* Button (8420) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x76246030,  8420, 0x62460132, 97.486, -351.567, -22.5, 0, 0, 0, -1,  True, '2005-02-09 10:00:00'); /* Button */
@@ -253,8 +253,8 @@ VALUES (0x7624603A, 26553, 0x62460140, 200.16, -40, -23.995, 0.707107, 0, 0, -0.
 /* @teleloc 0x62460140 [200.160000 -40.000000 -23.995000] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7624603A, 0x76246039, '2005-02-09 10:00:00') /* Button */
-     , (0x7624603A, 0x7624603B, '2005-02-09 10:00:00') /* Button */;
+VALUES (0x7624603A, 0x76246039, '2005-02-09 10:00:00') /* Button (8420) */
+     , (0x7624603A, 0x7624603B, '2005-02-09 10:00:00') /* Button (8420) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7624603B,  8420, 0x62460140, 202.816, -38.455, -22.5, 1, 0, 0, 0,  True, '2005-02-09 10:00:00'); /* Button */
@@ -277,8 +277,8 @@ VALUES (0x7624603F, 26553, 0x62460147, 200.16, -370, -23.995, 0.707107, 0, 0, -0
 /* @teleloc 0x62460147 [200.160000 -370.000000 -23.995000] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7624603F, 0x7624603E, '2005-02-09 10:00:00') /* Button */
-     , (0x7624603F, 0x76246040, '2005-02-09 10:00:00') /* Button */;
+VALUES (0x7624603F, 0x7624603E, '2005-02-09 10:00:00') /* Button (8420) */
+     , (0x7624603F, 0x76246040, '2005-02-09 10:00:00') /* Button (8420) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x76246040,  8420, 0x62460147, 202.858, -368.442, -22.5, 1, 0, 0, 0,  True, '2005-02-09 10:00:00'); /* Button */
@@ -389,8 +389,8 @@ VALUES (0x7624605A, 26553, 0x62460165, 320.16, -40, -23.995, 0.707107, 0, 0, -0.
 /* @teleloc 0x62460165 [320.160000 -40.000000 -23.995000] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7624605A, 0x76246059, '2005-02-09 10:00:00') /* Button */
-     , (0x7624605A, 0x7624605B, '2005-02-09 10:00:00') /* Button */;
+VALUES (0x7624605A, 0x76246059, '2005-02-09 10:00:00') /* Button (8420) */
+     , (0x7624605A, 0x7624605B, '2005-02-09 10:00:00') /* Button (8420) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7624605B,  8420, 0x62460165, 322.884, -38.436, -22.5, 1, 0, 0, 0,  True, '2005-02-09 10:00:00'); /* Button */
@@ -421,8 +421,8 @@ VALUES (0x76246061, 26553, 0x6246016F, 320.16, -370, -23.995, 0.707107, 0, 0, -0
 /* @teleloc 0x6246016F [320.160000 -370.000000 -23.995000] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x76246061, 0x76246060, '2005-02-09 10:00:00') /* Button */
-     , (0x76246061, 0x76246062, '2005-02-09 10:00:00') /* Button */;
+VALUES (0x76246061, 0x76246060, '2005-02-09 10:00:00') /* Button (8420) */
+     , (0x76246061, 0x76246062, '2005-02-09 10:00:00') /* Button (8420) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x76246062,  8420, 0x6246016F, 322.693, -368.439, -22.5, 1, 0, 0, 0,  True, '2005-02-09 10:00:00'); /* Button */
@@ -533,8 +533,8 @@ VALUES (0x7624607C, 26553, 0x62460182, 339.84, -20, -23.995, 0.707107, 0, 0, 0.7
 /* @teleloc 0x62460182 [339.840000 -20.000000 -23.995000] 0.707107 0.000000 0.000000 0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7624607C, 0x7624607B, '2005-02-09 10:00:00') /* Button */
-     , (0x7624607C, 0x7624607D, '2005-02-09 10:00:00') /* Button */;
+VALUES (0x7624607C, 0x7624607B, '2005-02-09 10:00:00') /* Button (8420) */
+     , (0x7624607C, 0x7624607D, '2005-02-09 10:00:00') /* Button (8420) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7624607D,  8420, 0x62460182, 337.093, -21.559, -22.5, 0, 0, 0, -1,  True, '2005-02-09 10:00:00'); /* Button */
@@ -577,8 +577,8 @@ VALUES (0x76246086, 26553, 0x6246018C, 339.84, -350, -23.995, 0.707107, 0, 0, 0.
 /* @teleloc 0x6246018C [339.840000 -350.000000 -23.995000] 0.707107 0.000000 0.000000 0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x76246086, 0x76246085, '2005-02-09 10:00:00') /* Button */
-     , (0x76246086, 0x76246087, '2005-02-09 10:00:00') /* Button */;
+VALUES (0x76246086, 0x76246085, '2005-02-09 10:00:00') /* Button (8420) */
+     , (0x76246086, 0x76246087, '2005-02-09 10:00:00') /* Button (8420) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x76246087,  8420, 0x6246018C, 337.227, -351.545, -22.5, 0, 0, 0, -1,  True, '2005-02-09 10:00:00'); /* Button */
@@ -613,8 +613,8 @@ VALUES (0x7624608E, 26553, 0x6246019A, 440.16, -40, -23.995, 0.707107, 0, 0, -0.
 /* @teleloc 0x6246019A [440.160000 -40.000000 -23.995000] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7624608E, 0x7624608D, '2005-02-09 10:00:00') /* Button */
-     , (0x7624608E, 0x7624608F, '2005-02-09 10:00:00') /* Button */;
+VALUES (0x7624608E, 0x7624608D, '2005-02-09 10:00:00') /* Button (8420) */
+     , (0x7624608E, 0x7624608F, '2005-02-09 10:00:00') /* Button (8420) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7624608F,  8420, 0x6246019A, 442.703, -38.443, -22.5, 1, 0, 0, 0,  True, '2005-02-09 10:00:00'); /* Button */
@@ -637,8 +637,8 @@ VALUES (0x76246093, 26553, 0x624601A1, 440.16, -370, -23.995, 0.707107, 0, 0, -0
 /* @teleloc 0x624601A1 [440.160000 -370.000000 -23.995000] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x76246093, 0x76246092, '2005-02-09 10:00:00') /* Button */
-     , (0x76246093, 0x76246094, '2005-02-09 10:00:00') /* Button */;
+VALUES (0x76246093, 0x76246092, '2005-02-09 10:00:00') /* Button (8420) */
+     , (0x76246093, 0x76246094, '2005-02-09 10:00:00') /* Button (8420) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x76246094,  8420, 0x624601A1, 442.867, -368.437, -22.5, 1, 0, 0, 0,  True, '2005-02-09 10:00:00'); /* Button */
@@ -897,8 +897,8 @@ VALUES (0x762460D3, 26553, 0x624602F4, 80, -69.84, -11.995, 1, 0, 0, -4.37114E-0
 /* @teleloc 0x624602F4 [80.000000 -69.840000 -11.995000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x762460D3, 0x762460D2, '2005-02-09 10:00:00') /* Button */
-     , (0x762460D3, 0x762460D4, '2005-02-09 10:00:00') /* Button */;
+VALUES (0x762460D3, 0x762460D2, '2005-02-09 10:00:00') /* Button (8420) */
+     , (0x762460D3, 0x762460D4, '2005-02-09 10:00:00') /* Button (8420) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x762460D4,  8420, 0x624602F4, 78.441, -67.411, -10.5, -0.707107, 0, 0, -0.707107,  True, '2005-02-09 10:00:00'); /* Button */
@@ -933,8 +933,8 @@ VALUES (0x762460DB, 26553, 0x62460307, 80, -399.84, -11.995, 1, 0, 0, -4.37114E-
 /* @teleloc 0x62460307 [80.000000 -399.840000 -11.995000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x762460DB, 0x762460DA, '2005-02-09 10:00:00') /* Button */
-     , (0x762460DB, 0x762460DC, '2005-02-09 10:00:00') /* Button */;
+VALUES (0x762460DB, 0x762460DA, '2005-02-09 10:00:00') /* Button (8420) */
+     , (0x762460DB, 0x762460DC, '2005-02-09 10:00:00') /* Button (8420) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x762460DC,  8420, 0x62460307, 78.436, -397.695, -10.5, -0.707107, 0, 0, -0.707107,  True, '2005-02-09 10:00:00'); /* Button */
@@ -965,8 +965,8 @@ VALUES (0x762460E3, 26553, 0x62460317, 110, -29.84, -11.995, 1, 0, 0, -4.37114E-
 /* @teleloc 0x62460317 [110.000000 -29.840000 -11.995000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x762460E3, 0x762460E2, '2005-02-09 10:00:00') /* Button */
-     , (0x762460E3, 0x762460E4, '2005-02-09 10:00:00') /* Button */;
+VALUES (0x762460E3, 0x762460E2, '2005-02-09 10:00:00') /* Button (8420) */
+     , (0x762460E3, 0x762460E4, '2005-02-09 10:00:00') /* Button (8420) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x762460E4,  8420, 0x62460317, 108.447, -27.316, -10.5, -0.707107, 0, 0, -0.707107,  True, '2005-02-09 10:00:00'); /* Button */
@@ -997,8 +997,8 @@ VALUES (0x762460EA, 26553, 0x62460327, 110, -359.84, -11.995, 1, 0, 0, -4.37114E
 /* @teleloc 0x62460327 [110.000000 -359.840000 -11.995000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x762460EA, 0x762460E9, '2005-02-09 10:00:00') /* Button */
-     , (0x762460EA, 0x762460EB, '2005-02-09 10:00:00') /* Button */;
+VALUES (0x762460EA, 0x762460E9, '2005-02-09 10:00:00') /* Button (8420) */
+     , (0x762460EA, 0x762460EB, '2005-02-09 10:00:00') /* Button (8420) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x762460EB,  8420, 0x62460327, 108.441, -357.084, -10.5, -0.707107, 0, 0, -0.707107,  True, '2005-02-09 10:00:00'); /* Button */
@@ -1045,8 +1045,8 @@ VALUES (0x762460F5, 26553, 0x6246034D, 120, -69.84, -11.995, 1, 0, 0, -4.37114E-
 /* @teleloc 0x6246034D [120.000000 -69.840000 -11.995000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x762460F5, 0x762460F4, '2005-02-09 10:00:00') /* Button */
-     , (0x762460F5, 0x762460F6, '2005-02-09 10:00:00') /* Button */;
+VALUES (0x762460F5, 0x762460F4, '2005-02-09 10:00:00') /* Button (8420) */
+     , (0x762460F5, 0x762460F6, '2005-02-09 10:00:00') /* Button (8420) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x762460F6,  8420, 0x6246034D, 118.436, -67.563, -10.5, -0.707107, 0, 0, -0.707107,  True, '2005-02-09 10:00:00'); /* Button */
@@ -1089,8 +1089,8 @@ VALUES (0x762460FF, 26553, 0x62460377, 120, -399.84, -11.995, 1, 0, 0, -4.37114E
 /* @teleloc 0x62460377 [120.000000 -399.840000 -11.995000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x762460FF, 0x762460FE, '2005-02-09 10:00:00') /* Button */
-     , (0x762460FF, 0x76246100, '2005-02-09 10:00:00') /* Button */;
+VALUES (0x762460FF, 0x762460FE, '2005-02-09 10:00:00') /* Button (8420) */
+     , (0x762460FF, 0x76246100, '2005-02-09 10:00:00') /* Button (8420) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x76246100,  8420, 0x62460377, 118.446, -397.373, -10.5, -0.707107, 0, 0, -0.707107,  True, '2005-02-09 10:00:00'); /* Button */
@@ -1149,8 +1149,8 @@ VALUES (0x7624610D, 26553, 0x624603A8, 160, -69.84, -11.995, 1, 0, 0, -4.37114E-
 /* @teleloc 0x624603A8 [160.000000 -69.840000 -11.995000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7624610D, 0x7624610C, '2005-02-09 10:00:00') /* Button */
-     , (0x7624610D, 0x7624610E, '2005-02-09 10:00:00') /* Button */;
+VALUES (0x7624610D, 0x7624610C, '2005-02-09 10:00:00') /* Button (8420) */
+     , (0x7624610D, 0x7624610E, '2005-02-09 10:00:00') /* Button (8420) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7624610E,  8420, 0x624603A8, 158.439, -67.295, -10.5, -0.707107, 0, 0, -0.707107,  True, '2005-02-09 10:00:00'); /* Button */
@@ -1189,8 +1189,8 @@ VALUES (0x76246116, 26553, 0x624603BB, 160, -399.84, -11.995, 1, 0, 0, -4.37114E
 /* @teleloc 0x624603BB [160.000000 -399.840000 -11.995000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x76246116, 0x76246115, '2005-02-09 10:00:00') /* Button */
-     , (0x76246116, 0x76246117, '2005-02-09 10:00:00') /* Button */;
+VALUES (0x76246116, 0x76246115, '2005-02-09 10:00:00') /* Button (8420) */
+     , (0x76246116, 0x76246117, '2005-02-09 10:00:00') /* Button (8420) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x76246117,  8420, 0x624603BB, 158.441, -397.333, -10.5, -0.707107, 0, 0, -0.707107,  True, '2005-02-09 10:00:00'); /* Button */
@@ -1257,8 +1257,8 @@ VALUES (0x76246126, 26553, 0x6246041E, 320, -69.84, -11.995, 1, 0, 0, -4.37114E-
 /* @teleloc 0x6246041E [320.000000 -69.840000 -11.995000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x76246126, 0x76246125, '2005-02-09 10:00:00') /* Button */
-     , (0x76246126, 0x76246127, '2005-02-09 10:00:00') /* Button */;
+VALUES (0x76246126, 0x76246125, '2005-02-09 10:00:00') /* Button (8420) */
+     , (0x76246126, 0x76246127, '2005-02-09 10:00:00') /* Button (8420) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x76246127,  8420, 0x6246041E, 318.445, -67.098, -10.5, -0.707107, 0, 0, -0.707107,  True, '2005-02-09 10:00:00'); /* Button */
@@ -1301,8 +1301,8 @@ VALUES (0x76246130, 26553, 0x62460431, 320, -399.84, -11.995, 1, 0, 0, -4.37114E
 /* @teleloc 0x62460431 [320.000000 -399.840000 -11.995000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x76246130, 0x7624612F, '2005-02-09 10:00:00') /* Button */
-     , (0x76246130, 0x76246131, '2005-02-09 10:00:00') /* Button */;
+VALUES (0x76246130, 0x7624612F, '2005-02-09 10:00:00') /* Button (8420) */
+     , (0x76246130, 0x76246131, '2005-02-09 10:00:00') /* Button (8420) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x76246131,  8420, 0x62460431, 321.531, -397.4, -10.5, 0.707107, 0, 0, -0.707107,  True, '2005-02-09 10:00:00'); /* Button */
@@ -1337,8 +1337,8 @@ VALUES (0x76246139, 26553, 0x62460441, 350, -29.84, -11.995, 1, 0, 0, -4.37114E-
 /* @teleloc 0x62460441 [350.000000 -29.840000 -11.995000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x76246139, 0x76246138, '2005-02-09 10:00:00') /* Button */
-     , (0x76246139, 0x7624613A, '2005-02-09 10:00:00') /* Button */;
+VALUES (0x76246139, 0x76246138, '2005-02-09 10:00:00') /* Button (8420) */
+     , (0x76246139, 0x7624613A, '2005-02-09 10:00:00') /* Button (8420) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7624613A,  8420, 0x62460441, 348.439, -27.174, -10.5, -0.707107, 0, 0, -0.707107,  True, '2005-02-09 10:00:00'); /* Button */
@@ -1365,8 +1365,8 @@ VALUES (0x7624613F, 26553, 0x62460451, 350, -359.84, -11.995, 1, 0, 0, -4.37114E
 /* @teleloc 0x62460451 [350.000000 -359.840000 -11.995000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7624613F, 0x7624613E, '2005-02-09 10:00:00') /* Button */
-     , (0x7624613F, 0x76246140, '2005-02-09 10:00:00') /* Button */;
+VALUES (0x7624613F, 0x7624613E, '2005-02-09 10:00:00') /* Button (8420) */
+     , (0x7624613F, 0x76246140, '2005-02-09 10:00:00') /* Button (8420) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x76246140,  8420, 0x62460451, 348.445, -357.311, -10.5, -0.707107, 0, 0, -0.707107,  True, '2005-02-09 10:00:00'); /* Button */
@@ -1421,8 +1421,8 @@ VALUES (0x7624614C, 26553, 0x62460477, 360, -69.84, -11.995, 1, 0, 0, -4.37114E-
 /* @teleloc 0x62460477 [360.000000 -69.840000 -11.995000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7624614C, 0x7624614B, '2005-02-09 10:00:00') /* Button */
-     , (0x7624614C, 0x7624614D, '2005-02-09 10:00:00') /* Button */;
+VALUES (0x7624614C, 0x7624614B, '2005-02-09 10:00:00') /* Button (8420) */
+     , (0x7624614C, 0x7624614D, '2005-02-09 10:00:00') /* Button (8420) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7624614D,  8420, 0x62460477, 358.444, -66.878, -10.5, -0.707107, 0, 0, -0.707107,  True, '2005-02-09 10:00:00'); /* Button */
@@ -1477,8 +1477,8 @@ VALUES (0x76246159, 26553, 0x624604A1, 360, -399.84, -11.995, 1, 0, 0, -4.37114E
 /* @teleloc 0x624604A1 [360.000000 -399.840000 -11.995000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x76246159, 0x76246158, '2005-02-09 10:00:00') /* Button */
-     , (0x76246159, 0x7624615A, '2005-02-09 10:00:00') /* Button */;
+VALUES (0x76246159, 0x76246158, '2005-02-09 10:00:00') /* Button (8420) */
+     , (0x76246159, 0x7624615A, '2005-02-09 10:00:00') /* Button (8420) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7624615A,  8420, 0x624604A1, 358.446, -396.999, -10.5, -0.707107, 0, 0, -0.707107,  True, '2005-02-09 10:00:00'); /* Button */
@@ -1537,8 +1537,8 @@ VALUES (0x76246167, 26553, 0x624604D2, 400, -69.84, -11.995, 1, 0, 0, -4.37114E-
 /* @teleloc 0x624604D2 [400.000000 -69.840000 -11.995000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x76246167, 0x76246166, '2005-02-09 10:00:00') /* Button */
-     , (0x76246167, 0x76246168, '2005-02-09 10:00:00') /* Button */;
+VALUES (0x76246167, 0x76246166, '2005-02-09 10:00:00') /* Button (8420) */
+     , (0x76246167, 0x76246168, '2005-02-09 10:00:00') /* Button (8420) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x76246168,  8420, 0x624604D2, 398.439, -67.032, -10.5, -0.707107, 0, 0, -0.707107,  True, '2005-02-09 10:00:00'); /* Button */
@@ -1581,8 +1581,8 @@ VALUES (0x76246171, 26553, 0x624604E5, 400, -399.84, -11.995, 1, 0, 0, -4.37114E
 /* @teleloc 0x624604E5 [400.000000 -399.840000 -11.995000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x76246171, 0x76246170, '2005-02-09 10:00:00') /* Button */
-     , (0x76246171, 0x76246172, '2005-02-09 10:00:00') /* Button */;
+VALUES (0x76246171, 0x76246170, '2005-02-09 10:00:00') /* Button (8420) */
+     , (0x76246171, 0x76246172, '2005-02-09 10:00:00') /* Button (8420) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x76246172,  8420, 0x624604E5, 401.559, -397.106, -10.5, 0.707107, 0, 0, -0.707107,  True, '2005-02-09 10:00:00'); /* Button */
@@ -1717,17 +1717,17 @@ VALUES (0x76246192,  7923, 0x624605D1, 10, -120, 0.005, 1, 0, 0, 0, False, '2005
 /* @teleloc 0x624605D1 [10.000000 -120.000000 0.005000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x76246192, 0x7624618B, '2005-02-09 10:00:00') /* Fist of Massacre */
-     , (0x76246192, 0x7624618C, '2005-02-09 10:00:00') /* Bladed Bow of Impaling */
-     , (0x76246192, 0x7624618D, '2005-02-09 10:00:00') /* Scroll of Alacrity of the Conclave */
-     , (0x76246192, 0x7624618E, '2005-02-09 10:00:00') /* Scroll of Empowering the Conclave */
-     , (0x76246192, 0x7624618F, '2005-02-09 10:00:00') /* Sarcophagus of High Matriarch, Liazk Itzi */
-     , (0x76246192, 0x76246190, '2005-02-09 10:00:00') /* Scroll of Vivify the Conclave */
-     , (0x76246192, 0x76246191, '2005-02-09 10:00:00') /* Scroll of Speed the Conclave */
-     , (0x76246192, 0x76246193, '2005-02-09 10:00:00') /* Vein-Thirst Kurki */
-     , (0x76246192, 0x76246194, '2005-02-09 10:00:00') /* Vile Scourge */
-     , (0x76246192, 0x76246195, '2005-02-09 10:00:00') /* Scroll of Acumen of the Conclave */
-     , (0x76246192, 0x76246196, '2005-02-09 10:00:00') /* Scroll of Volition of the Conclave */;
+VALUES (0x76246192, 0x7624618B, '2005-02-09 10:00:00') /* Fist of Massacre (27148) */
+     , (0x76246192, 0x7624618C, '2005-02-09 10:00:00') /* Bladed Bow of Impaling (27146) */
+     , (0x76246192, 0x7624618D, '2005-02-09 10:00:00') /* Scroll of Alacrity of the Conclave (27151) */
+     , (0x76246192, 0x7624618E, '2005-02-09 10:00:00') /* Scroll of Empowering the Conclave (27156) */
+     , (0x76246192, 0x7624618F, '2005-02-09 10:00:00') /* Sarcophagus of High Matriarch, Liazk Itzi (27150) */
+     , (0x76246192, 0x76246190, '2005-02-09 10:00:00') /* Scroll of Vivify the Conclave (27152) */
+     , (0x76246192, 0x76246191, '2005-02-09 10:00:00') /* Scroll of Speed the Conclave (27154) */
+     , (0x76246192, 0x76246193, '2005-02-09 10:00:00') /* Vein-Thirst Kurki (27149) */
+     , (0x76246192, 0x76246194, '2005-02-09 10:00:00') /* Vile Scourge (27147) */
+     , (0x76246192, 0x76246195, '2005-02-09 10:00:00') /* Scroll of Acumen of the Conclave (27153) */
+     , (0x76246192, 0x76246196, '2005-02-09 10:00:00') /* Scroll of Volition of the Conclave (27155) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x76246193, 27149, 0x624605D2, 19.324, -100, 0.005, 0.923879, 0, 0, -0.382684,  True, '2005-02-09 10:00:00'); /* Vein-Thirst Kurki */
@@ -1782,8 +1782,8 @@ VALUES (0x7624619F, 26553, 0x62460609, 120, -110.16, 0.005, 0, 0, 0, -1, False, 
 /* @teleloc 0x62460609 [120.000000 -110.160000 0.005000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7624619F, 0x7624619E, '2005-02-09 10:00:00') /* Button */
-     , (0x7624619F, 0x762461A0, '2005-02-09 10:00:00') /* Button */;
+VALUES (0x7624619F, 0x7624619E, '2005-02-09 10:00:00') /* Button (8420) */
+     , (0x7624619F, 0x762461A0, '2005-02-09 10:00:00') /* Button (8420) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x762461A0,  8420, 0x62460609, 118.44, -112.453, 1.5, -0.707107, 0, 0, -0.707107,  True, '2005-02-09 10:00:00'); /* Button */
@@ -1794,93 +1794,93 @@ VALUES (0x762461A1,  7924, 0x6246060C, 120, -120, 0.005, 1, 0, 0, 0, False, '200
 /* @teleloc 0x6246060C [120.000000 -120.000000 0.005000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x762461A1, 0x76246014, '2005-02-09 10:00:00') /* Burun Ruuk Soothsayer */
-     , (0x762461A1, 0x76246015, '2005-02-09 10:00:00') /* Burun Ruuk Soothsayer */
-     , (0x762461A1, 0x76246016, '2005-02-09 10:00:00') /* Burun Ruuk Soothsayer */
-     , (0x762461A1, 0x76246017, '2005-02-09 10:00:00') /* Burun Ruuk Soothsayer */
-     , (0x762461A1, 0x76246018, '2005-02-09 10:00:00') /* Burun Ruuk Soothsayer */
-     , (0x762461A1, 0x76246028, '2005-02-09 10:00:00') /* Burun Ruuk Soothsayer */
-     , (0x762461A1, 0x7624602B, '2005-02-09 10:00:00') /* Burun Ruuk Soothsayer */
-     , (0x762461A1, 0x762460CC, '2005-02-09 10:00:00') /* Burun Ruuk Soothsayer */
-     , (0x762461A1, 0x762460CD, '2005-02-09 10:00:00') /* Burun Ruuk Soothsayer */
-     , (0x762461A1, 0x762460CE, '2005-02-09 10:00:00') /* Burun Ruuk Soothsayer */
-     , (0x762461A1, 0x762460CF, '2005-02-09 10:00:00') /* Burun Ruuk Soothsayer */
-     , (0x762461A1, 0x762460D0, '2005-02-09 10:00:00') /* Burun Ruuk Soothsayer */
-     , (0x762461A1, 0x762460D1, '2005-02-09 10:00:00') /* Burun Ruuk Soothsayer */
-     , (0x762461A1, 0x762460D5, '2005-02-09 10:00:00') /* Burun Ruuk Soothsayer */
-     , (0x762461A1, 0x762460D6, '2005-02-09 10:00:00') /* Burun Ruuk Soothsayer */
-     , (0x762461A1, 0x762460EE, '2005-02-09 10:00:00') /* Burun Ruuk Soothsayer */
-     , (0x762461A1, 0x762460EF, '2005-02-09 10:00:00') /* Burun Ruuk Soothsayer */
-     , (0x762461A1, 0x762460F0, '2005-02-09 10:00:00') /* Burun Ruuk Soothsayer */
-     , (0x762461A1, 0x762460F1, '2005-02-09 10:00:00') /* Burun Ruuk Soothsayer */
-     , (0x762461A1, 0x762460F2, '2005-02-09 10:00:00') /* Burun Ruuk Soothsayer */
-     , (0x762461A1, 0x762460F3, '2005-02-09 10:00:00') /* Burun Ruuk Soothsayer */
-     , (0x762461A1, 0x762460F7, '2005-02-09 10:00:00') /* Burun Ruuk Soothsayer */
-     , (0x762461A1, 0x762460F8, '2005-02-09 10:00:00') /* Burun Ruuk Soothsayer */
-     , (0x762461A1, 0x76246108, '2005-02-09 10:00:00') /* Burun Ruuk Soothsayer */
-     , (0x762461A1, 0x76246109, '2005-02-09 10:00:00') /* Burun Ruuk Soothsayer */
-     , (0x762461A1, 0x7624610A, '2005-02-09 10:00:00') /* Burun Ruuk Soothsayer */
-     , (0x762461A1, 0x7624610B, '2005-02-09 10:00:00') /* Burun Ruuk Soothsayer */
-     , (0x762461A1, 0x7624610F, '2005-02-09 10:00:00') /* Burun Ruuk Soothsayer */
-     , (0x762461A1, 0x76246110, '2005-02-09 10:00:00') /* Burun Ruuk Soothsayer */
-     , (0x762461A1, 0x76246177, '2005-02-09 10:00:00') /* Burun Ruuk Soothsayer */
-     , (0x762461A1, 0x76246178, '2005-02-09 10:00:00') /* Burun Ruuk Soothsayer */
-     , (0x762461A1, 0x7624617C, '2005-02-09 10:00:00') /* Burun Ruuk Soothsayer */
-     , (0x762461A1, 0x7624617D, '2005-02-09 10:00:00') /* Burun Ruuk Soothsayer */
-     , (0x762461A1, 0x76246197, '2005-02-09 10:00:00') /* Burun Ruuk Soothsayer */
-     , (0x762461A1, 0x76246198, '2005-02-09 10:00:00') /* Burun Ruuk Soothsayer */
-     , (0x762461A1, 0x7624619B, '2005-02-09 10:00:00') /* Burun Ruuk Soothsayer */
-     , (0x762461A1, 0x7624619C, '2005-02-09 10:00:00') /* Burun Ruuk Soothsayer */
-     , (0x762461A1, 0x7624619D, '2005-02-09 10:00:00') /* Burun Ruuk Soothsayer */
-     , (0x762461A1, 0x762461A8, '2005-02-09 10:00:00') /* Burun Ruuk Soothsayer */
-     , (0x762461A1, 0x762461AB, '2005-02-09 10:00:00') /* Burun Ruuk Soothsayer */;
+VALUES (0x762461A1, 0x76246014, '2005-02-09 10:00:00') /* Burun Ruuk Soothsayer (26021) */
+     , (0x762461A1, 0x76246015, '2005-02-09 10:00:00') /* Burun Ruuk Soothsayer (26021) */
+     , (0x762461A1, 0x76246016, '2005-02-09 10:00:00') /* Burun Ruuk Soothsayer (26021) */
+     , (0x762461A1, 0x76246017, '2005-02-09 10:00:00') /* Burun Ruuk Soothsayer (26021) */
+     , (0x762461A1, 0x76246018, '2005-02-09 10:00:00') /* Burun Ruuk Soothsayer (26021) */
+     , (0x762461A1, 0x76246028, '2005-02-09 10:00:00') /* Burun Ruuk Soothsayer (26021) */
+     , (0x762461A1, 0x7624602B, '2005-02-09 10:00:00') /* Burun Ruuk Soothsayer (26021) */
+     , (0x762461A1, 0x762460CC, '2005-02-09 10:00:00') /* Burun Ruuk Soothsayer (26021) */
+     , (0x762461A1, 0x762460CD, '2005-02-09 10:00:00') /* Burun Ruuk Soothsayer (26021) */
+     , (0x762461A1, 0x762460CE, '2005-02-09 10:00:00') /* Burun Ruuk Soothsayer (26021) */
+     , (0x762461A1, 0x762460CF, '2005-02-09 10:00:00') /* Burun Ruuk Soothsayer (26021) */
+     , (0x762461A1, 0x762460D0, '2005-02-09 10:00:00') /* Burun Ruuk Soothsayer (26021) */
+     , (0x762461A1, 0x762460D1, '2005-02-09 10:00:00') /* Burun Ruuk Soothsayer (26021) */
+     , (0x762461A1, 0x762460D5, '2005-02-09 10:00:00') /* Burun Ruuk Soothsayer (26021) */
+     , (0x762461A1, 0x762460D6, '2005-02-09 10:00:00') /* Burun Ruuk Soothsayer (26021) */
+     , (0x762461A1, 0x762460EE, '2005-02-09 10:00:00') /* Burun Ruuk Soothsayer (26021) */
+     , (0x762461A1, 0x762460EF, '2005-02-09 10:00:00') /* Burun Ruuk Soothsayer (26021) */
+     , (0x762461A1, 0x762460F0, '2005-02-09 10:00:00') /* Burun Ruuk Soothsayer (26021) */
+     , (0x762461A1, 0x762460F1, '2005-02-09 10:00:00') /* Burun Ruuk Soothsayer (26021) */
+     , (0x762461A1, 0x762460F2, '2005-02-09 10:00:00') /* Burun Ruuk Soothsayer (26021) */
+     , (0x762461A1, 0x762460F3, '2005-02-09 10:00:00') /* Burun Ruuk Soothsayer (26021) */
+     , (0x762461A1, 0x762460F7, '2005-02-09 10:00:00') /* Burun Ruuk Soothsayer (26021) */
+     , (0x762461A1, 0x762460F8, '2005-02-09 10:00:00') /* Burun Ruuk Soothsayer (26021) */
+     , (0x762461A1, 0x76246108, '2005-02-09 10:00:00') /* Burun Ruuk Soothsayer (26021) */
+     , (0x762461A1, 0x76246109, '2005-02-09 10:00:00') /* Burun Ruuk Soothsayer (26021) */
+     , (0x762461A1, 0x7624610A, '2005-02-09 10:00:00') /* Burun Ruuk Soothsayer (26021) */
+     , (0x762461A1, 0x7624610B, '2005-02-09 10:00:00') /* Burun Ruuk Soothsayer (26021) */
+     , (0x762461A1, 0x7624610F, '2005-02-09 10:00:00') /* Burun Ruuk Soothsayer (26021) */
+     , (0x762461A1, 0x76246110, '2005-02-09 10:00:00') /* Burun Ruuk Soothsayer (26021) */
+     , (0x762461A1, 0x76246177, '2005-02-09 10:00:00') /* Burun Ruuk Soothsayer (26021) */
+     , (0x762461A1, 0x76246178, '2005-02-09 10:00:00') /* Burun Ruuk Soothsayer (26021) */
+     , (0x762461A1, 0x7624617C, '2005-02-09 10:00:00') /* Burun Ruuk Soothsayer (26021) */
+     , (0x762461A1, 0x7624617D, '2005-02-09 10:00:00') /* Burun Ruuk Soothsayer (26021) */
+     , (0x762461A1, 0x76246197, '2005-02-09 10:00:00') /* Burun Ruuk Soothsayer (26021) */
+     , (0x762461A1, 0x76246198, '2005-02-09 10:00:00') /* Burun Ruuk Soothsayer (26021) */
+     , (0x762461A1, 0x7624619B, '2005-02-09 10:00:00') /* Burun Ruuk Soothsayer (26021) */
+     , (0x762461A1, 0x7624619C, '2005-02-09 10:00:00') /* Burun Ruuk Soothsayer (26021) */
+     , (0x762461A1, 0x7624619D, '2005-02-09 10:00:00') /* Burun Ruuk Soothsayer (26021) */
+     , (0x762461A1, 0x762461A8, '2005-02-09 10:00:00') /* Burun Ruuk Soothsayer (26021) */
+     , (0x762461A1, 0x762461AB, '2005-02-09 10:00:00') /* Burun Ruuk Soothsayer (26021) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x762461A2,  7924, 0x6246060C, 118.53, -120, 0.005, 1, 0, 0, 0, False, '2005-02-09 10:00:00'); /* Linkable Monster Generator ( 5 Min.) */
 /* @teleloc 0x6246060C [118.530000 -120.000000 0.005000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x762461A2, 0x76246000, '2005-02-09 10:00:00') /* Burun Ruuk Soothsayer */
-     , (0x762461A2, 0x76246001, '2005-02-09 10:00:00') /* Burun Ruuk Soothsayer */
-     , (0x762461A2, 0x76246002, '2005-02-09 10:00:00') /* Burun Ruuk Soothsayer */
-     , (0x762461A2, 0x76246003, '2005-02-09 10:00:00') /* Burun Ruuk Soothsayer */
-     , (0x762461A2, 0x76246004, '2005-02-09 10:00:00') /* Burun Ruuk Soothsayer */
-     , (0x762461A2, 0x76246005, '2005-02-09 10:00:00') /* Burun Ruuk Soothsayer */
-     , (0x762461A2, 0x76246010, '2005-02-09 10:00:00') /* Burun Ruuk Soothsayer */
-     , (0x762461A2, 0x76246011, '2005-02-09 10:00:00') /* Burun Ruuk Soothsayer */
-     , (0x762461A2, 0x76246012, '2005-02-09 10:00:00') /* Burun Ruuk Soothsayer */
-     , (0x762461A2, 0x76246013, '2005-02-09 10:00:00') /* Burun Ruuk Soothsayer */
-     , (0x762461A2, 0x76246022, '2005-02-09 10:00:00') /* Burun Ruuk Soothsayer */
-     , (0x762461A2, 0x76246023, '2005-02-09 10:00:00') /* Burun Ruuk Soothsayer */
-     , (0x762461A2, 0x76246024, '2005-02-09 10:00:00') /* Burun Ruuk Soothsayer */
-     , (0x762461A2, 0x76246029, '2005-02-09 10:00:00') /* Burun Ruuk Soothsayer */
-     , (0x762461A2, 0x7624602A, '2005-02-09 10:00:00') /* Burun Ruuk Soothsayer */
-     , (0x762461A2, 0x76246035, '2005-02-09 10:00:00') /* Burun Ruuk Soothsayer */
-     , (0x762461A2, 0x76246036, '2005-02-09 10:00:00') /* Burun Ruuk Soothsayer */
-     , (0x762461A2, 0x76246037, '2005-02-09 10:00:00') /* Burun Ruuk Soothsayer */
-     , (0x762461A2, 0x76246038, '2005-02-09 10:00:00') /* Burun Ruuk Soothsayer */
-     , (0x762461A2, 0x76246041, '2005-02-09 10:00:00') /* Burun Ruuk Soothsayer */
-     , (0x762461A2, 0x76246042, '2005-02-09 10:00:00') /* Burun Ruuk Soothsayer */
-     , (0x762461A2, 0x76246043, '2005-02-09 10:00:00') /* Burun Ruuk Soothsayer */
-     , (0x762461A2, 0x76246044, '2005-02-09 10:00:00') /* Burun Ruuk Soothsayer */
-     , (0x762461A2, 0x76246045, '2005-02-09 10:00:00') /* Burun Ruuk Soothsayer */
-     , (0x762461A2, 0x7624604C, '2005-02-09 10:00:00') /* Burun Ruuk Soothsayer */
-     , (0x762461A2, 0x7624604D, '2005-02-09 10:00:00') /* Burun Ruuk Soothsayer */
-     , (0x762461A2, 0x7624604E, '2005-02-09 10:00:00') /* Burun Ruuk Soothsayer */
-     , (0x762461A2, 0x76246050, '2005-02-09 10:00:00') /* Burun Ruuk Soothsayer */
-     , (0x762461A2, 0x762460A7, '2005-02-09 10:00:00') /* Burun Ruuk Soothsayer */
-     , (0x762461A2, 0x762460A8, '2005-02-09 10:00:00') /* Burun Ruuk Soothsayer */
-     , (0x762461A2, 0x762460AB, '2005-02-09 10:00:00') /* Burun Ruuk Soothsayer */
-     , (0x762461A2, 0x762460AC, '2005-02-09 10:00:00') /* Burun Ruuk Soothsayer */
-     , (0x762461A2, 0x762460AD, '2005-02-09 10:00:00') /* Burun Ruuk Soothsayer */
-     , (0x762461A2, 0x762460B1, '2005-02-09 10:00:00') /* Burun Ruuk Soothsayer */
-     , (0x762461A2, 0x762460B2, '2005-02-09 10:00:00') /* Burun Ruuk Soothsayer */
-     , (0x762461A2, 0x762460B5, '2005-02-09 10:00:00') /* Burun Ruuk Soothsayer */
-     , (0x762461A2, 0x762460B6, '2005-02-09 10:00:00') /* Burun Ruuk Soothsayer */
-     , (0x762461A2, 0x76246106, '2005-02-09 10:00:00') /* Burun Ruuk Soothsayer */
-     , (0x762461A2, 0x76246107, '2005-02-09 10:00:00') /* Burun Ruuk Soothsayer */
-     , (0x762461A2, 0x762461CA, '2005-02-09 10:00:00') /* Defender of Liazk Itzi's Crypt */
-     , (0x762461A2, 0x762461CB, '2005-02-09 10:00:00') /* Defender of Liazk Itzi's Crypt */;
+VALUES (0x762461A2, 0x76246000, '2005-02-09 10:00:00') /* Burun Ruuk Soothsayer (26021) */
+     , (0x762461A2, 0x76246001, '2005-02-09 10:00:00') /* Burun Ruuk Soothsayer (26021) */
+     , (0x762461A2, 0x76246002, '2005-02-09 10:00:00') /* Burun Ruuk Soothsayer (26021) */
+     , (0x762461A2, 0x76246003, '2005-02-09 10:00:00') /* Burun Ruuk Soothsayer (26021) */
+     , (0x762461A2, 0x76246004, '2005-02-09 10:00:00') /* Burun Ruuk Soothsayer (26021) */
+     , (0x762461A2, 0x76246005, '2005-02-09 10:00:00') /* Burun Ruuk Soothsayer (26021) */
+     , (0x762461A2, 0x76246010, '2005-02-09 10:00:00') /* Burun Ruuk Soothsayer (26021) */
+     , (0x762461A2, 0x76246011, '2005-02-09 10:00:00') /* Burun Ruuk Soothsayer (26021) */
+     , (0x762461A2, 0x76246012, '2005-02-09 10:00:00') /* Burun Ruuk Soothsayer (26021) */
+     , (0x762461A2, 0x76246013, '2005-02-09 10:00:00') /* Burun Ruuk Soothsayer (26021) */
+     , (0x762461A2, 0x76246022, '2005-02-09 10:00:00') /* Burun Ruuk Soothsayer (26021) */
+     , (0x762461A2, 0x76246023, '2005-02-09 10:00:00') /* Burun Ruuk Soothsayer (26021) */
+     , (0x762461A2, 0x76246024, '2005-02-09 10:00:00') /* Burun Ruuk Soothsayer (26021) */
+     , (0x762461A2, 0x76246029, '2005-02-09 10:00:00') /* Burun Ruuk Soothsayer (26021) */
+     , (0x762461A2, 0x7624602A, '2005-02-09 10:00:00') /* Burun Ruuk Soothsayer (26021) */
+     , (0x762461A2, 0x76246035, '2005-02-09 10:00:00') /* Burun Ruuk Soothsayer (26021) */
+     , (0x762461A2, 0x76246036, '2005-02-09 10:00:00') /* Burun Ruuk Soothsayer (26021) */
+     , (0x762461A2, 0x76246037, '2005-02-09 10:00:00') /* Burun Ruuk Soothsayer (26021) */
+     , (0x762461A2, 0x76246038, '2005-02-09 10:00:00') /* Burun Ruuk Soothsayer (26021) */
+     , (0x762461A2, 0x76246041, '2005-02-09 10:00:00') /* Burun Ruuk Soothsayer (26021) */
+     , (0x762461A2, 0x76246042, '2005-02-09 10:00:00') /* Burun Ruuk Soothsayer (26021) */
+     , (0x762461A2, 0x76246043, '2005-02-09 10:00:00') /* Burun Ruuk Soothsayer (26021) */
+     , (0x762461A2, 0x76246044, '2005-02-09 10:00:00') /* Burun Ruuk Soothsayer (26021) */
+     , (0x762461A2, 0x76246045, '2005-02-09 10:00:00') /* Burun Ruuk Soothsayer (26021) */
+     , (0x762461A2, 0x7624604C, '2005-02-09 10:00:00') /* Burun Ruuk Soothsayer (26021) */
+     , (0x762461A2, 0x7624604D, '2005-02-09 10:00:00') /* Burun Ruuk Soothsayer (26021) */
+     , (0x762461A2, 0x7624604E, '2005-02-09 10:00:00') /* Burun Ruuk Soothsayer (26021) */
+     , (0x762461A2, 0x76246050, '2005-02-09 10:00:00') /* Burun Ruuk Soothsayer (26021) */
+     , (0x762461A2, 0x762460A7, '2005-02-09 10:00:00') /* Burun Ruuk Soothsayer (26021) */
+     , (0x762461A2, 0x762460A8, '2005-02-09 10:00:00') /* Burun Ruuk Soothsayer (26021) */
+     , (0x762461A2, 0x762460AB, '2005-02-09 10:00:00') /* Burun Ruuk Soothsayer (26021) */
+     , (0x762461A2, 0x762460AC, '2005-02-09 10:00:00') /* Burun Ruuk Soothsayer (26021) */
+     , (0x762461A2, 0x762460AD, '2005-02-09 10:00:00') /* Burun Ruuk Soothsayer (26021) */
+     , (0x762461A2, 0x762460B1, '2005-02-09 10:00:00') /* Burun Ruuk Soothsayer (26021) */
+     , (0x762461A2, 0x762460B2, '2005-02-09 10:00:00') /* Burun Ruuk Soothsayer (26021) */
+     , (0x762461A2, 0x762460B5, '2005-02-09 10:00:00') /* Burun Ruuk Soothsayer (26021) */
+     , (0x762461A2, 0x762460B6, '2005-02-09 10:00:00') /* Burun Ruuk Soothsayer (26021) */
+     , (0x762461A2, 0x76246106, '2005-02-09 10:00:00') /* Burun Ruuk Soothsayer (26021) */
+     , (0x762461A2, 0x76246107, '2005-02-09 10:00:00') /* Burun Ruuk Soothsayer (26021) */
+     , (0x762461A2, 0x762461CA, '2005-02-09 10:00:00') /* Defender of Liazk Itzi's Crypt (27169) */
+     , (0x762461A2, 0x762461CB, '2005-02-09 10:00:00') /* Defender of Liazk Itzi's Crypt (27169) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x762461A3,  8420, 0x6246061E, 117.105, -437.294, 1.5, -0.707107, 0, 0, -0.707107,  True, '2005-02-09 10:00:00'); /* Button */
@@ -1891,8 +1891,8 @@ VALUES (0x762461A4, 26553, 0x6246061F, 120, -440.16, 0.005, 0, 0, 0, -1, False, 
 /* @teleloc 0x6246061F [120.000000 -440.160000 0.005000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x762461A4, 0x762461A3, '2005-02-09 10:00:00') /* Button */
-     , (0x762461A4, 0x762461A5, '2005-02-09 10:00:00') /* Button */;
+VALUES (0x762461A4, 0x762461A3, '2005-02-09 10:00:00') /* Button (8420) */
+     , (0x762461A4, 0x762461A5, '2005-02-09 10:00:00') /* Button (8420) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x762461A5,  8420, 0x6246061F, 118.458, -442.716, 1.5, -0.707107, 0, 0, -0.707107,  True, '2005-02-09 10:00:00'); /* Button */
@@ -1903,94 +1903,94 @@ VALUES (0x762461A6,  7924, 0x62460622, 120, -450, 0.005, 1, 0, 0, 0, False, '200
 /* @teleloc 0x62460622 [120.000000 -450.000000 0.005000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x762461A6, 0x76246009, '2005-02-09 10:00:00') /* Burun Ruuk Adherent */
-     , (0x762461A6, 0x7624600A, '2005-02-09 10:00:00') /* Burun Ruuk Adherent */
-     , (0x762461A6, 0x7624600B, '2005-02-09 10:00:00') /* Burun Ruuk Adherent */
-     , (0x762461A6, 0x7624600C, '2005-02-09 10:00:00') /* Burun Ruuk Adherent */
-     , (0x762461A6, 0x76246019, '2005-02-09 10:00:00') /* Burun Ruuk Adherent */
-     , (0x762461A6, 0x7624601A, '2005-02-09 10:00:00') /* Burun Ruuk Adherent */
-     , (0x762461A6, 0x7624601B, '2005-02-09 10:00:00') /* Burun Ruuk Adherent */
-     , (0x762461A6, 0x7624601C, '2005-02-09 10:00:00') /* Burun Ruuk Adherent */
-     , (0x762461A6, 0x7624601D, '2005-02-09 10:00:00') /* Burun Ruuk Adherent */
-     , (0x762461A6, 0x7624601E, '2005-02-09 10:00:00') /* Burun Ruuk Adherent */
-     , (0x762461A6, 0x7624601F, '2005-02-09 10:00:00') /* Burun Ruuk Adherent */
-     , (0x762461A6, 0x76246020, '2005-02-09 10:00:00') /* Burun Ruuk Adherent */
-     , (0x762461A6, 0x76246021, '2005-02-09 10:00:00') /* Burun Ruuk Adherent */
-     , (0x762461A6, 0x76246031, '2005-02-09 10:00:00') /* Burun Ruuk Adherent */
-     , (0x762461A6, 0x76246032, '2005-02-09 10:00:00') /* Burun Ruuk Adherent */
-     , (0x762461A6, 0x76246033, '2005-02-09 10:00:00') /* Burun Ruuk Adherent */
-     , (0x762461A6, 0x76246034, '2005-02-09 10:00:00') /* Burun Ruuk Adherent */
-     , (0x762461A6, 0x7624603C, '2005-02-09 10:00:00') /* Burun Ruuk Adherent */
-     , (0x762461A6, 0x7624603D, '2005-02-09 10:00:00') /* Burun Ruuk Adherent */
-     , (0x762461A6, 0x76246046, '2005-02-09 10:00:00') /* Burun Ruuk Adherent */
-     , (0x762461A6, 0x76246047, '2005-02-09 10:00:00') /* Burun Ruuk Adherent */
-     , (0x762461A6, 0x76246048, '2005-02-09 10:00:00') /* Burun Ruuk Adherent */
-     , (0x762461A6, 0x76246049, '2005-02-09 10:00:00') /* Burun Ruuk Adherent */
-     , (0x762461A6, 0x7624604A, '2005-02-09 10:00:00') /* Burun Ruuk Adherent */
-     , (0x762461A6, 0x7624604B, '2005-02-09 10:00:00') /* Burun Ruuk Adherent */
-     , (0x762461A6, 0x7624604F, '2005-02-09 10:00:00') /* Burun Ruuk Adherent */
-     , (0x762461A6, 0x76246051, '2005-02-09 10:00:00') /* Burun Ruuk Adherent */
-     , (0x762461A6, 0x762460D7, '2005-02-09 10:00:00') /* Burun Ruuk Adherent */
-     , (0x762461A6, 0x762460D8, '2005-02-09 10:00:00') /* Burun Ruuk Adherent */
-     , (0x762461A6, 0x762460D9, '2005-02-09 10:00:00') /* Burun Ruuk Adherent */
-     , (0x762461A6, 0x762460E5, '2005-02-09 10:00:00') /* Defender of Liazk Itzi's Crypt */
-     , (0x762461A6, 0x762460FA, '2005-02-09 10:00:00') /* Burun Ruuk Adherent */
-     , (0x762461A6, 0x762460FB, '2005-02-09 10:00:00') /* Burun Ruuk Adherent */
-     , (0x762461A6, 0x762460FC, '2005-02-09 10:00:00') /* Burun Ruuk Adherent */
-     , (0x762461A6, 0x762460FD, '2005-02-09 10:00:00') /* Burun Ruuk Adherent */
-     , (0x762461A6, 0x76246101, '2005-02-09 10:00:00') /* Burun Ruuk Adherent */
-     , (0x762461A6, 0x76246103, '2005-02-09 10:00:00') /* Burun Ruuk Adherent */
-     , (0x762461A6, 0x76246111, '2005-02-09 10:00:00') /* Burun Ruuk Adherent */
-     , (0x762461A6, 0x76246112, '2005-02-09 10:00:00') /* Burun Ruuk Adherent */
-     , (0x762461A6, 0x76246113, '2005-02-09 10:00:00') /* Burun Ruuk Adherent */
-     , (0x762461A6, 0x76246118, '2005-02-09 10:00:00') /* Burun Ruuk Adherent */
-     , (0x762461A6, 0x76246179, '2005-02-09 10:00:00') /* Burun Ruuk Adherent */
-     , (0x762461A6, 0x7624617A, '2005-02-09 10:00:00') /* Burun Ruuk Adherent */
-     , (0x762461A6, 0x7624617B, '2005-02-09 10:00:00') /* Burun Ruuk Adherent */
-     , (0x762461A6, 0x7624617E, '2005-02-09 10:00:00') /* Burun Ruuk Adherent */
-     , (0x762461A6, 0x7624617F, '2005-02-09 10:00:00') /* Burun Ruuk Adherent */
-     , (0x762461A6, 0x76246180, '2005-02-09 10:00:00') /* Burun Ruuk Adherent */
-     , (0x762461A6, 0x76246199, '2005-02-09 10:00:00') /* Burun Ruuk Adherent */
-     , (0x762461A6, 0x7624619A, '2005-02-09 10:00:00') /* Burun Ruuk Adherent */
-     , (0x762461A6, 0x762461A9, '2005-02-09 10:00:00') /* Burun Ruuk Adherent */
-     , (0x762461A6, 0x762461AA, '2005-02-09 10:00:00') /* Burun Ruuk Adherent */;
+VALUES (0x762461A6, 0x76246009, '2005-02-09 10:00:00') /* Burun Ruuk Adherent (26013) */
+     , (0x762461A6, 0x7624600A, '2005-02-09 10:00:00') /* Burun Ruuk Adherent (26013) */
+     , (0x762461A6, 0x7624600B, '2005-02-09 10:00:00') /* Burun Ruuk Adherent (26013) */
+     , (0x762461A6, 0x7624600C, '2005-02-09 10:00:00') /* Burun Ruuk Adherent (26013) */
+     , (0x762461A6, 0x76246019, '2005-02-09 10:00:00') /* Burun Ruuk Adherent (26013) */
+     , (0x762461A6, 0x7624601A, '2005-02-09 10:00:00') /* Burun Ruuk Adherent (26013) */
+     , (0x762461A6, 0x7624601B, '2005-02-09 10:00:00') /* Burun Ruuk Adherent (26013) */
+     , (0x762461A6, 0x7624601C, '2005-02-09 10:00:00') /* Burun Ruuk Adherent (26013) */
+     , (0x762461A6, 0x7624601D, '2005-02-09 10:00:00') /* Burun Ruuk Adherent (26013) */
+     , (0x762461A6, 0x7624601E, '2005-02-09 10:00:00') /* Burun Ruuk Adherent (26013) */
+     , (0x762461A6, 0x7624601F, '2005-02-09 10:00:00') /* Burun Ruuk Adherent (26013) */
+     , (0x762461A6, 0x76246020, '2005-02-09 10:00:00') /* Burun Ruuk Adherent (26013) */
+     , (0x762461A6, 0x76246021, '2005-02-09 10:00:00') /* Burun Ruuk Adherent (26013) */
+     , (0x762461A6, 0x76246031, '2005-02-09 10:00:00') /* Burun Ruuk Adherent (26013) */
+     , (0x762461A6, 0x76246032, '2005-02-09 10:00:00') /* Burun Ruuk Adherent (26013) */
+     , (0x762461A6, 0x76246033, '2005-02-09 10:00:00') /* Burun Ruuk Adherent (26013) */
+     , (0x762461A6, 0x76246034, '2005-02-09 10:00:00') /* Burun Ruuk Adherent (26013) */
+     , (0x762461A6, 0x7624603C, '2005-02-09 10:00:00') /* Burun Ruuk Adherent (26013) */
+     , (0x762461A6, 0x7624603D, '2005-02-09 10:00:00') /* Burun Ruuk Adherent (26013) */
+     , (0x762461A6, 0x76246046, '2005-02-09 10:00:00') /* Burun Ruuk Adherent (26013) */
+     , (0x762461A6, 0x76246047, '2005-02-09 10:00:00') /* Burun Ruuk Adherent (26013) */
+     , (0x762461A6, 0x76246048, '2005-02-09 10:00:00') /* Burun Ruuk Adherent (26013) */
+     , (0x762461A6, 0x76246049, '2005-02-09 10:00:00') /* Burun Ruuk Adherent (26013) */
+     , (0x762461A6, 0x7624604A, '2005-02-09 10:00:00') /* Burun Ruuk Adherent (26013) */
+     , (0x762461A6, 0x7624604B, '2005-02-09 10:00:00') /* Burun Ruuk Adherent (26013) */
+     , (0x762461A6, 0x7624604F, '2005-02-09 10:00:00') /* Burun Ruuk Adherent (26013) */
+     , (0x762461A6, 0x76246051, '2005-02-09 10:00:00') /* Burun Ruuk Adherent (26013) */
+     , (0x762461A6, 0x762460D7, '2005-02-09 10:00:00') /* Burun Ruuk Adherent (26013) */
+     , (0x762461A6, 0x762460D8, '2005-02-09 10:00:00') /* Burun Ruuk Adherent (26013) */
+     , (0x762461A6, 0x762460D9, '2005-02-09 10:00:00') /* Burun Ruuk Adherent (26013) */
+     , (0x762461A6, 0x762460E5, '2005-02-09 10:00:00') /* Defender of Liazk Itzi's Crypt (27169) */
+     , (0x762461A6, 0x762460FA, '2005-02-09 10:00:00') /* Burun Ruuk Adherent (26013) */
+     , (0x762461A6, 0x762460FB, '2005-02-09 10:00:00') /* Burun Ruuk Adherent (26013) */
+     , (0x762461A6, 0x762460FC, '2005-02-09 10:00:00') /* Burun Ruuk Adherent (26013) */
+     , (0x762461A6, 0x762460FD, '2005-02-09 10:00:00') /* Burun Ruuk Adherent (26013) */
+     , (0x762461A6, 0x76246101, '2005-02-09 10:00:00') /* Burun Ruuk Adherent (26013) */
+     , (0x762461A6, 0x76246103, '2005-02-09 10:00:00') /* Burun Ruuk Adherent (26013) */
+     , (0x762461A6, 0x76246111, '2005-02-09 10:00:00') /* Burun Ruuk Adherent (26013) */
+     , (0x762461A6, 0x76246112, '2005-02-09 10:00:00') /* Burun Ruuk Adherent (26013) */
+     , (0x762461A6, 0x76246113, '2005-02-09 10:00:00') /* Burun Ruuk Adherent (26013) */
+     , (0x762461A6, 0x76246118, '2005-02-09 10:00:00') /* Burun Ruuk Adherent (26013) */
+     , (0x762461A6, 0x76246179, '2005-02-09 10:00:00') /* Burun Ruuk Adherent (26013) */
+     , (0x762461A6, 0x7624617A, '2005-02-09 10:00:00') /* Burun Ruuk Adherent (26013) */
+     , (0x762461A6, 0x7624617B, '2005-02-09 10:00:00') /* Burun Ruuk Adherent (26013) */
+     , (0x762461A6, 0x7624617E, '2005-02-09 10:00:00') /* Burun Ruuk Adherent (26013) */
+     , (0x762461A6, 0x7624617F, '2005-02-09 10:00:00') /* Burun Ruuk Adherent (26013) */
+     , (0x762461A6, 0x76246180, '2005-02-09 10:00:00') /* Burun Ruuk Adherent (26013) */
+     , (0x762461A6, 0x76246199, '2005-02-09 10:00:00') /* Burun Ruuk Adherent (26013) */
+     , (0x762461A6, 0x7624619A, '2005-02-09 10:00:00') /* Burun Ruuk Adherent (26013) */
+     , (0x762461A6, 0x762461A9, '2005-02-09 10:00:00') /* Burun Ruuk Adherent (26013) */
+     , (0x762461A6, 0x762461AA, '2005-02-09 10:00:00') /* Burun Ruuk Adherent (26013) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x762461A7,  7924, 0x62460622, 118.457, -450, 0.005, 1, 0, 0, 0, False, '2005-02-09 10:00:00'); /* Linkable Monster Generator ( 5 Min.) */
 /* @teleloc 0x62460622 [118.457000 -450.000000 0.005000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x762461A7, 0x7624602C, '2005-02-09 10:00:00') /* Burun Ruuk Adherent */
-     , (0x762461A7, 0x7624602D, '2005-02-09 10:00:00') /* Burun Ruuk Adherent */
-     , (0x762461A7, 0x762460A9, '2005-02-09 10:00:00') /* Burun Ruuk Adherent */
-     , (0x762461A7, 0x762460AA, '2005-02-09 10:00:00') /* Burun Ruuk Adherent */
-     , (0x762461A7, 0x762460AE, '2005-02-09 10:00:00') /* Burun Ruuk Adherent */
-     , (0x762461A7, 0x762460AF, '2005-02-09 10:00:00') /* Burun Ruuk Adherent */
-     , (0x762461A7, 0x762460B0, '2005-02-09 10:00:00') /* Burun Ruuk Adherent */
-     , (0x762461A7, 0x762460B3, '2005-02-09 10:00:00') /* Burun Ruuk Adherent */
-     , (0x762461A7, 0x762460B4, '2005-02-09 10:00:00') /* Burun Ruuk Adherent */
-     , (0x762461A7, 0x762460B7, '2005-02-09 10:00:00') /* Burun Ruuk Adherent */
-     , (0x762461A7, 0x762460B8, '2005-02-09 10:00:00') /* Burun Ruuk Adherent */
-     , (0x762461A7, 0x762460CA, '2005-02-09 10:00:00') /* Burun Ruuk Adherent */
-     , (0x762461A7, 0x762460CB, '2005-02-09 10:00:00') /* Burun Ruuk Adherent */
-     , (0x762461A7, 0x762460DD, '2005-02-09 10:00:00') /* Burun Ruuk Adherent */
-     , (0x762461A7, 0x762460DE, '2005-02-09 10:00:00') /* Burun Ruuk Adherent */
-     , (0x762461A7, 0x762460DF, '2005-02-09 10:00:00') /* Burun Ruuk Adherent */
-     , (0x762461A7, 0x762460E0, '2005-02-09 10:00:00') /* Burun Ruuk Adherent */
-     , (0x762461A7, 0x762460E6, '2005-02-09 10:00:00') /* Burun Ruuk Adherent */
-     , (0x762461A7, 0x762460E7, '2005-02-09 10:00:00') /* Burun Ruuk Adherent */
-     , (0x762461A7, 0x762460E8, '2005-02-09 10:00:00') /* Burun Ruuk Adherent */
-     , (0x762461A7, 0x762460EC, '2005-02-09 10:00:00') /* Burun Ruuk Adherent */
-     , (0x762461A7, 0x762460ED, '2005-02-09 10:00:00') /* Burun Ruuk Adherent */
-     , (0x762461A7, 0x762460F9, '2005-02-09 10:00:00') /* Burun Ruuk Adherent */
-     , (0x762461A7, 0x76246102, '2005-02-09 10:00:00') /* Burun Ruuk Adherent */
-     , (0x762461A7, 0x76246104, '2005-02-09 10:00:00') /* Burun Ruuk Adherent */
-     , (0x762461A7, 0x76246105, '2005-02-09 10:00:00') /* Burun Ruuk Adherent */
-     , (0x762461A7, 0x76246114, '2005-02-09 10:00:00') /* Burun Ruuk Adherent */
-     , (0x762461A7, 0x76246119, '2005-02-09 10:00:00') /* Burun Ruuk Adherent */
-     , (0x762461A7, 0x7624611A, '2005-02-09 10:00:00') /* Burun Ruuk Adherent */
-     , (0x762461A7, 0x7624611B, '2005-02-09 10:00:00') /* Burun Ruuk Adherent */
-     , (0x762461A7, 0x7624611C, '2005-02-09 10:00:00') /* Burun Ruuk Adherent */;
+VALUES (0x762461A7, 0x7624602C, '2005-02-09 10:00:00') /* Burun Ruuk Adherent (26013) */
+     , (0x762461A7, 0x7624602D, '2005-02-09 10:00:00') /* Burun Ruuk Adherent (26013) */
+     , (0x762461A7, 0x762460A9, '2005-02-09 10:00:00') /* Burun Ruuk Adherent (26013) */
+     , (0x762461A7, 0x762460AA, '2005-02-09 10:00:00') /* Burun Ruuk Adherent (26013) */
+     , (0x762461A7, 0x762460AE, '2005-02-09 10:00:00') /* Burun Ruuk Adherent (26013) */
+     , (0x762461A7, 0x762460AF, '2005-02-09 10:00:00') /* Burun Ruuk Adherent (26013) */
+     , (0x762461A7, 0x762460B0, '2005-02-09 10:00:00') /* Burun Ruuk Adherent (26013) */
+     , (0x762461A7, 0x762460B3, '2005-02-09 10:00:00') /* Burun Ruuk Adherent (26013) */
+     , (0x762461A7, 0x762460B4, '2005-02-09 10:00:00') /* Burun Ruuk Adherent (26013) */
+     , (0x762461A7, 0x762460B7, '2005-02-09 10:00:00') /* Burun Ruuk Adherent (26013) */
+     , (0x762461A7, 0x762460B8, '2005-02-09 10:00:00') /* Burun Ruuk Adherent (26013) */
+     , (0x762461A7, 0x762460CA, '2005-02-09 10:00:00') /* Burun Ruuk Adherent (26013) */
+     , (0x762461A7, 0x762460CB, '2005-02-09 10:00:00') /* Burun Ruuk Adherent (26013) */
+     , (0x762461A7, 0x762460DD, '2005-02-09 10:00:00') /* Burun Ruuk Adherent (26013) */
+     , (0x762461A7, 0x762460DE, '2005-02-09 10:00:00') /* Burun Ruuk Adherent (26013) */
+     , (0x762461A7, 0x762460DF, '2005-02-09 10:00:00') /* Burun Ruuk Adherent (26013) */
+     , (0x762461A7, 0x762460E0, '2005-02-09 10:00:00') /* Burun Ruuk Adherent (26013) */
+     , (0x762461A7, 0x762460E6, '2005-02-09 10:00:00') /* Burun Ruuk Adherent (26013) */
+     , (0x762461A7, 0x762460E7, '2005-02-09 10:00:00') /* Burun Ruuk Adherent (26013) */
+     , (0x762461A7, 0x762460E8, '2005-02-09 10:00:00') /* Burun Ruuk Adherent (26013) */
+     , (0x762461A7, 0x762460EC, '2005-02-09 10:00:00') /* Burun Ruuk Adherent (26013) */
+     , (0x762461A7, 0x762460ED, '2005-02-09 10:00:00') /* Burun Ruuk Adherent (26013) */
+     , (0x762461A7, 0x762460F9, '2005-02-09 10:00:00') /* Burun Ruuk Adherent (26013) */
+     , (0x762461A7, 0x76246102, '2005-02-09 10:00:00') /* Burun Ruuk Adherent (26013) */
+     , (0x762461A7, 0x76246104, '2005-02-09 10:00:00') /* Burun Ruuk Adherent (26013) */
+     , (0x762461A7, 0x76246105, '2005-02-09 10:00:00') /* Burun Ruuk Adherent (26013) */
+     , (0x762461A7, 0x76246114, '2005-02-09 10:00:00') /* Burun Ruuk Adherent (26013) */
+     , (0x762461A7, 0x76246119, '2005-02-09 10:00:00') /* Burun Ruuk Adherent (26013) */
+     , (0x762461A7, 0x7624611A, '2005-02-09 10:00:00') /* Burun Ruuk Adherent (26013) */
+     , (0x762461A7, 0x7624611B, '2005-02-09 10:00:00') /* Burun Ruuk Adherent (26013) */
+     , (0x762461A7, 0x7624611C, '2005-02-09 10:00:00') /* Burun Ruuk Adherent (26013) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x762461A8, 26021, 0x62460626, 130.831, -100.394, 0.04166, -0.793361, 0, 0, 0.608751,  True, '2005-02-09 10:00:00'); /* Burun Ruuk Soothsayer */
@@ -2049,8 +2049,8 @@ VALUES (0x762461B5, 26553, 0x6246067D, 360, -110.16, 0.005, 0, 0, 0, -1, False, 
 /* @teleloc 0x6246067D [360.000000 -110.160000 0.005000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x762461B5, 0x762461B4, '2005-02-09 10:00:00') /* Button */
-     , (0x762461B5, 0x762461B6, '2005-02-09 10:00:00') /* Button */;
+VALUES (0x762461B5, 0x762461B4, '2005-02-09 10:00:00') /* Button (8420) */
+     , (0x762461B5, 0x762461B6, '2005-02-09 10:00:00') /* Button (8420) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x762461B6,  8420, 0x6246067D, 358.435, -112.588, 1.5, -0.707107, 0, 0, -0.707107,  True, '2005-02-09 10:00:00'); /* Button */
@@ -2061,105 +2061,105 @@ VALUES (0x762461B7,  7924, 0x62460680, 360, -120, 0.005, 1, 0, 0, 0, False, '200
 /* @teleloc 0x62460680 [360.000000 -120.000000 0.005000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x762461B7, 0x7624611F, '2005-02-09 10:00:00') /* Burun Ruuk Shaman */
-     , (0x762461B7, 0x76246120, '2005-02-09 10:00:00') /* Burun Ruuk Shaman */
-     , (0x762461B7, 0x76246121, '2005-02-09 10:00:00') /* Burun Ruuk Shaman */
-     , (0x762461B7, 0x76246122, '2005-02-09 10:00:00') /* Burun Ruuk Shaman */
-     , (0x762461B7, 0x76246123, '2005-02-09 10:00:00') /* Burun Ruuk Shaman */
-     , (0x762461B7, 0x76246124, '2005-02-09 10:00:00') /* Burun Ruuk Shaman */
-     , (0x762461B7, 0x76246128, '2005-02-09 10:00:00') /* Burun Ruuk Shaman */
-     , (0x762461B7, 0x76246129, '2005-02-09 10:00:00') /* Burun Ruuk Shaman */
-     , (0x762461B7, 0x76246135, '2005-02-09 10:00:00') /* Burun Ruuk Shaman */
-     , (0x762461B7, 0x76246136, '2005-02-09 10:00:00') /* Burun Ruuk Shaman */
-     , (0x762461B7, 0x76246137, '2005-02-09 10:00:00') /* Burun Ruuk Shaman */
-     , (0x762461B7, 0x76246142, '2005-02-09 10:00:00') /* Burun Ruuk Shaman */
-     , (0x762461B7, 0x76246144, '2005-02-09 10:00:00') /* Burun Ruuk Shaman */
-     , (0x762461B7, 0x76246145, '2005-02-09 10:00:00') /* Burun Ruuk Shaman */
-     , (0x762461B7, 0x76246146, '2005-02-09 10:00:00') /* Burun Ruuk Shaman */
-     , (0x762461B7, 0x76246147, '2005-02-09 10:00:00') /* Burun Ruuk Shaman */
-     , (0x762461B7, 0x76246148, '2005-02-09 10:00:00') /* Burun Ruuk Shaman */
-     , (0x762461B7, 0x76246149, '2005-02-09 10:00:00') /* Burun Ruuk Shaman */
-     , (0x762461B7, 0x7624614A, '2005-02-09 10:00:00') /* Burun Ruuk Shaman */
-     , (0x762461B7, 0x7624614E, '2005-02-09 10:00:00') /* Burun Ruuk Shaman */
-     , (0x762461B7, 0x7624614F, '2005-02-09 10:00:00') /* Burun Ruuk Shaman */
-     , (0x762461B7, 0x76246150, '2005-02-09 10:00:00') /* Burun Ruuk Shaman */
-     , (0x762461B7, 0x76246160, '2005-02-09 10:00:00') /* Burun Ruuk Shaman */
-     , (0x762461B7, 0x76246161, '2005-02-09 10:00:00') /* Burun Ruuk Shaman */
-     , (0x762461B7, 0x76246162, '2005-02-09 10:00:00') /* Burun Ruuk Shaman */
-     , (0x762461B7, 0x76246163, '2005-02-09 10:00:00') /* Burun Ruuk Shaman */
-     , (0x762461B7, 0x76246164, '2005-02-09 10:00:00') /* Burun Ruuk Shaman */
-     , (0x762461B7, 0x76246165, '2005-02-09 10:00:00') /* Burun Ruuk Shaman */
-     , (0x762461B7, 0x76246169, '2005-02-09 10:00:00') /* Burun Ruuk Shaman */
-     , (0x762461B7, 0x7624616A, '2005-02-09 10:00:00') /* Burun Ruuk Shaman */
-     , (0x762461B7, 0x76246181, '2005-02-09 10:00:00') /* Burun Ruuk Shaman */
-     , (0x762461B7, 0x76246182, '2005-02-09 10:00:00') /* Burun Ruuk Shaman */
-     , (0x762461B7, 0x76246183, '2005-02-09 10:00:00') /* Burun Ruuk Shaman */
-     , (0x762461B7, 0x76246188, '2005-02-09 10:00:00') /* Burun Ruuk Shaman */
-     , (0x762461B7, 0x76246189, '2005-02-09 10:00:00') /* Burun Ruuk Shaman */
-     , (0x762461B7, 0x7624618A, '2005-02-09 10:00:00') /* Burun Ruuk Shaman */
-     , (0x762461B7, 0x762461AC, '2005-02-09 10:00:00') /* Burun Ruuk Shaman */
-     , (0x762461B7, 0x762461AF, '2005-02-09 10:00:00') /* Burun Ruuk Shaman */
-     , (0x762461B7, 0x762461B0, '2005-02-09 10:00:00') /* Burun Ruuk Shaman */
-     , (0x762461B7, 0x762461B1, '2005-02-09 10:00:00') /* Burun Ruuk Shaman */
-     , (0x762461B7, 0x762461B2, '2005-02-09 10:00:00') /* Burun Ruuk Shaman */
-     , (0x762461B7, 0x762461B3, '2005-02-09 10:00:00') /* Burun Ruuk Shaman */
-     , (0x762461B7, 0x762461C1, '2005-02-09 10:00:00') /* Burun Ruuk Shaman */
-     , (0x762461B7, 0x762461C2, '2005-02-09 10:00:00') /* Burun Ruuk Shaman */
-     , (0x762461B7, 0x762461C3, '2005-02-09 10:00:00') /* Burun Ruuk Shaman */;
+VALUES (0x762461B7, 0x7624611F, '2005-02-09 10:00:00') /* Burun Ruuk Shaman (26020) */
+     , (0x762461B7, 0x76246120, '2005-02-09 10:00:00') /* Burun Ruuk Shaman (26020) */
+     , (0x762461B7, 0x76246121, '2005-02-09 10:00:00') /* Burun Ruuk Shaman (26020) */
+     , (0x762461B7, 0x76246122, '2005-02-09 10:00:00') /* Burun Ruuk Shaman (26020) */
+     , (0x762461B7, 0x76246123, '2005-02-09 10:00:00') /* Burun Ruuk Shaman (26020) */
+     , (0x762461B7, 0x76246124, '2005-02-09 10:00:00') /* Burun Ruuk Shaman (26020) */
+     , (0x762461B7, 0x76246128, '2005-02-09 10:00:00') /* Burun Ruuk Shaman (26020) */
+     , (0x762461B7, 0x76246129, '2005-02-09 10:00:00') /* Burun Ruuk Shaman (26020) */
+     , (0x762461B7, 0x76246135, '2005-02-09 10:00:00') /* Burun Ruuk Shaman (26020) */
+     , (0x762461B7, 0x76246136, '2005-02-09 10:00:00') /* Burun Ruuk Shaman (26020) */
+     , (0x762461B7, 0x76246137, '2005-02-09 10:00:00') /* Burun Ruuk Shaman (26020) */
+     , (0x762461B7, 0x76246142, '2005-02-09 10:00:00') /* Burun Ruuk Shaman (26020) */
+     , (0x762461B7, 0x76246144, '2005-02-09 10:00:00') /* Burun Ruuk Shaman (26020) */
+     , (0x762461B7, 0x76246145, '2005-02-09 10:00:00') /* Burun Ruuk Shaman (26020) */
+     , (0x762461B7, 0x76246146, '2005-02-09 10:00:00') /* Burun Ruuk Shaman (26020) */
+     , (0x762461B7, 0x76246147, '2005-02-09 10:00:00') /* Burun Ruuk Shaman (26020) */
+     , (0x762461B7, 0x76246148, '2005-02-09 10:00:00') /* Burun Ruuk Shaman (26020) */
+     , (0x762461B7, 0x76246149, '2005-02-09 10:00:00') /* Burun Ruuk Shaman (26020) */
+     , (0x762461B7, 0x7624614A, '2005-02-09 10:00:00') /* Burun Ruuk Shaman (26020) */
+     , (0x762461B7, 0x7624614E, '2005-02-09 10:00:00') /* Burun Ruuk Shaman (26020) */
+     , (0x762461B7, 0x7624614F, '2005-02-09 10:00:00') /* Burun Ruuk Shaman (26020) */
+     , (0x762461B7, 0x76246150, '2005-02-09 10:00:00') /* Burun Ruuk Shaman (26020) */
+     , (0x762461B7, 0x76246160, '2005-02-09 10:00:00') /* Burun Ruuk Shaman (26020) */
+     , (0x762461B7, 0x76246161, '2005-02-09 10:00:00') /* Burun Ruuk Shaman (26020) */
+     , (0x762461B7, 0x76246162, '2005-02-09 10:00:00') /* Burun Ruuk Shaman (26020) */
+     , (0x762461B7, 0x76246163, '2005-02-09 10:00:00') /* Burun Ruuk Shaman (26020) */
+     , (0x762461B7, 0x76246164, '2005-02-09 10:00:00') /* Burun Ruuk Shaman (26020) */
+     , (0x762461B7, 0x76246165, '2005-02-09 10:00:00') /* Burun Ruuk Shaman (26020) */
+     , (0x762461B7, 0x76246169, '2005-02-09 10:00:00') /* Burun Ruuk Shaman (26020) */
+     , (0x762461B7, 0x7624616A, '2005-02-09 10:00:00') /* Burun Ruuk Shaman (26020) */
+     , (0x762461B7, 0x76246181, '2005-02-09 10:00:00') /* Burun Ruuk Shaman (26020) */
+     , (0x762461B7, 0x76246182, '2005-02-09 10:00:00') /* Burun Ruuk Shaman (26020) */
+     , (0x762461B7, 0x76246183, '2005-02-09 10:00:00') /* Burun Ruuk Shaman (26020) */
+     , (0x762461B7, 0x76246188, '2005-02-09 10:00:00') /* Burun Ruuk Shaman (26020) */
+     , (0x762461B7, 0x76246189, '2005-02-09 10:00:00') /* Burun Ruuk Shaman (26020) */
+     , (0x762461B7, 0x7624618A, '2005-02-09 10:00:00') /* Burun Ruuk Shaman (26020) */
+     , (0x762461B7, 0x762461AC, '2005-02-09 10:00:00') /* Burun Ruuk Shaman (26020) */
+     , (0x762461B7, 0x762461AF, '2005-02-09 10:00:00') /* Burun Ruuk Shaman (26020) */
+     , (0x762461B7, 0x762461B0, '2005-02-09 10:00:00') /* Burun Ruuk Shaman (26020) */
+     , (0x762461B7, 0x762461B1, '2005-02-09 10:00:00') /* Burun Ruuk Shaman (26020) */
+     , (0x762461B7, 0x762461B2, '2005-02-09 10:00:00') /* Burun Ruuk Shaman (26020) */
+     , (0x762461B7, 0x762461B3, '2005-02-09 10:00:00') /* Burun Ruuk Shaman (26020) */
+     , (0x762461B7, 0x762461C1, '2005-02-09 10:00:00') /* Burun Ruuk Shaman (26020) */
+     , (0x762461B7, 0x762461C2, '2005-02-09 10:00:00') /* Burun Ruuk Shaman (26020) */
+     , (0x762461B7, 0x762461C3, '2005-02-09 10:00:00') /* Burun Ruuk Shaman (26020) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x762461B8,  7924, 0x62460680, 358.242, -120, 0.005, 1, 0, 0, 0, False, '2005-02-09 10:00:00'); /* Linkable Monster Generator ( 5 Min.) */
 /* @teleloc 0x62460680 [358.242000 -120.000000 0.005000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x762461B8, 0x76246052, '2005-02-09 10:00:00') /* Burun Ruuk Shaman */
-     , (0x762461B8, 0x76246054, '2005-02-09 10:00:00') /* Burun Ruuk Shaman */
-     , (0x762461B8, 0x76246055, '2005-02-09 10:00:00') /* Burun Ruuk Shaman */
-     , (0x762461B8, 0x76246056, '2005-02-09 10:00:00') /* Burun Ruuk Shaman */
-     , (0x762461B8, 0x76246057, '2005-02-09 10:00:00') /* Burun Ruuk Shaman */
-     , (0x762461B8, 0x76246058, '2005-02-09 10:00:00') /* Burun Ruuk Shaman */
-     , (0x762461B8, 0x76246063, '2005-02-09 10:00:00') /* Burun Ruuk Shaman */
-     , (0x762461B8, 0x76246064, '2005-02-09 10:00:00') /* Burun Ruuk Shaman */
-     , (0x762461B8, 0x76246065, '2005-02-09 10:00:00') /* Burun Ruuk Shaman */
-     , (0x762461B8, 0x76246066, '2005-02-09 10:00:00') /* Burun Ruuk Shaman */
-     , (0x762461B8, 0x76246067, '2005-02-09 10:00:00') /* Burun Ruuk Shaman */
-     , (0x762461B8, 0x76246068, '2005-02-09 10:00:00') /* Burun Ruuk Shaman */
-     , (0x762461B8, 0x76246069, '2005-02-09 10:00:00') /* Burun Ruuk Shaman */
-     , (0x762461B8, 0x7624606A, '2005-02-09 10:00:00') /* Burun Ruuk Shaman */
-     , (0x762461B8, 0x7624606B, '2005-02-09 10:00:00') /* Burun Ruuk Shaman */
-     , (0x762461B8, 0x7624606C, '2005-02-09 10:00:00') /* Burun Ruuk Shaman */
-     , (0x762461B8, 0x76246078, '2005-02-09 10:00:00') /* Burun Ruuk Shaman */
-     , (0x762461B8, 0x76246079, '2005-02-09 10:00:00') /* Burun Ruuk Shaman */
-     , (0x762461B8, 0x7624607A, '2005-02-09 10:00:00') /* Burun Ruuk Shaman */
-     , (0x762461B8, 0x7624607E, '2005-02-09 10:00:00') /* Burun Ruuk Shaman */
-     , (0x762461B8, 0x7624607F, '2005-02-09 10:00:00') /* Burun Ruuk Shaman */
-     , (0x762461B8, 0x76246080, '2005-02-09 10:00:00') /* Burun Ruuk Shaman */
-     , (0x762461B8, 0x76246081, '2005-02-09 10:00:00') /* Burun Ruuk Shaman */
-     , (0x762461B8, 0x76246082, '2005-02-09 10:00:00') /* Burun Ruuk Shaman */
-     , (0x762461B8, 0x7624608A, '2005-02-09 10:00:00') /* Burun Ruuk Shaman */
-     , (0x762461B8, 0x7624608B, '2005-02-09 10:00:00') /* Burun Ruuk Shaman */
-     , (0x762461B8, 0x7624608C, '2005-02-09 10:00:00') /* Burun Ruuk Shaman */
-     , (0x762461B8, 0x76246095, '2005-02-09 10:00:00') /* Burun Ruuk Shaman */
-     , (0x762461B8, 0x76246096, '2005-02-09 10:00:00') /* Burun Ruuk Shaman */
-     , (0x762461B8, 0x76246097, '2005-02-09 10:00:00') /* Burun Ruuk Shaman */
-     , (0x762461B8, 0x76246098, '2005-02-09 10:00:00') /* Burun Ruuk Shaman */
-     , (0x762461B8, 0x76246099, '2005-02-09 10:00:00') /* Burun Ruuk Shaman */
-     , (0x762461B8, 0x7624609A, '2005-02-09 10:00:00') /* Burun Ruuk Shaman */
-     , (0x762461B8, 0x762460A0, '2005-02-09 10:00:00') /* Burun Ruuk Shaman */
-     , (0x762461B8, 0x762460A1, '2005-02-09 10:00:00') /* Burun Ruuk Shaman */
-     , (0x762461B8, 0x762460A2, '2005-02-09 10:00:00') /* Burun Ruuk Shaman */
-     , (0x762461B8, 0x762460A3, '2005-02-09 10:00:00') /* Burun Ruuk Shaman */
-     , (0x762461B8, 0x762460A6, '2005-02-09 10:00:00') /* Burun Ruuk Shaman */
-     , (0x762461B8, 0x762460B9, '2005-02-09 10:00:00') /* Burun Ruuk Shaman */
-     , (0x762461B8, 0x762460BA, '2005-02-09 10:00:00') /* Burun Ruuk Shaman */
-     , (0x762461B8, 0x762460BD, '2005-02-09 10:00:00') /* Burun Ruuk Shaman */
-     , (0x762461B8, 0x762460BE, '2005-02-09 10:00:00') /* Burun Ruuk Shaman */
-     , (0x762461B8, 0x762460BF, '2005-02-09 10:00:00') /* Burun Ruuk Shaman */
-     , (0x762461B8, 0x762460C2, '2005-02-09 10:00:00') /* Burun Ruuk Shaman */
-     , (0x762461B8, 0x762460C3, '2005-02-09 10:00:00') /* Burun Ruuk Shaman */
-     , (0x762461B8, 0x762460C6, '2005-02-09 10:00:00') /* Burun Ruuk Shaman */
-     , (0x762461B8, 0x762460C7, '2005-02-09 10:00:00') /* Burun Ruuk Shaman */
-     , (0x762461B8, 0x76246143, '2005-02-09 10:00:00') /* Burun Ruuk Shaman */;
+VALUES (0x762461B8, 0x76246052, '2005-02-09 10:00:00') /* Burun Ruuk Shaman (26020) */
+     , (0x762461B8, 0x76246054, '2005-02-09 10:00:00') /* Burun Ruuk Shaman (26020) */
+     , (0x762461B8, 0x76246055, '2005-02-09 10:00:00') /* Burun Ruuk Shaman (26020) */
+     , (0x762461B8, 0x76246056, '2005-02-09 10:00:00') /* Burun Ruuk Shaman (26020) */
+     , (0x762461B8, 0x76246057, '2005-02-09 10:00:00') /* Burun Ruuk Shaman (26020) */
+     , (0x762461B8, 0x76246058, '2005-02-09 10:00:00') /* Burun Ruuk Shaman (26020) */
+     , (0x762461B8, 0x76246063, '2005-02-09 10:00:00') /* Burun Ruuk Shaman (26020) */
+     , (0x762461B8, 0x76246064, '2005-02-09 10:00:00') /* Burun Ruuk Shaman (26020) */
+     , (0x762461B8, 0x76246065, '2005-02-09 10:00:00') /* Burun Ruuk Shaman (26020) */
+     , (0x762461B8, 0x76246066, '2005-02-09 10:00:00') /* Burun Ruuk Shaman (26020) */
+     , (0x762461B8, 0x76246067, '2005-02-09 10:00:00') /* Burun Ruuk Shaman (26020) */
+     , (0x762461B8, 0x76246068, '2005-02-09 10:00:00') /* Burun Ruuk Shaman (26020) */
+     , (0x762461B8, 0x76246069, '2005-02-09 10:00:00') /* Burun Ruuk Shaman (26020) */
+     , (0x762461B8, 0x7624606A, '2005-02-09 10:00:00') /* Burun Ruuk Shaman (26020) */
+     , (0x762461B8, 0x7624606B, '2005-02-09 10:00:00') /* Burun Ruuk Shaman (26020) */
+     , (0x762461B8, 0x7624606C, '2005-02-09 10:00:00') /* Burun Ruuk Shaman (26020) */
+     , (0x762461B8, 0x76246078, '2005-02-09 10:00:00') /* Burun Ruuk Shaman (26020) */
+     , (0x762461B8, 0x76246079, '2005-02-09 10:00:00') /* Burun Ruuk Shaman (26020) */
+     , (0x762461B8, 0x7624607A, '2005-02-09 10:00:00') /* Burun Ruuk Shaman (26020) */
+     , (0x762461B8, 0x7624607E, '2005-02-09 10:00:00') /* Burun Ruuk Shaman (26020) */
+     , (0x762461B8, 0x7624607F, '2005-02-09 10:00:00') /* Burun Ruuk Shaman (26020) */
+     , (0x762461B8, 0x76246080, '2005-02-09 10:00:00') /* Burun Ruuk Shaman (26020) */
+     , (0x762461B8, 0x76246081, '2005-02-09 10:00:00') /* Burun Ruuk Shaman (26020) */
+     , (0x762461B8, 0x76246082, '2005-02-09 10:00:00') /* Burun Ruuk Shaman (26020) */
+     , (0x762461B8, 0x7624608A, '2005-02-09 10:00:00') /* Burun Ruuk Shaman (26020) */
+     , (0x762461B8, 0x7624608B, '2005-02-09 10:00:00') /* Burun Ruuk Shaman (26020) */
+     , (0x762461B8, 0x7624608C, '2005-02-09 10:00:00') /* Burun Ruuk Shaman (26020) */
+     , (0x762461B8, 0x76246095, '2005-02-09 10:00:00') /* Burun Ruuk Shaman (26020) */
+     , (0x762461B8, 0x76246096, '2005-02-09 10:00:00') /* Burun Ruuk Shaman (26020) */
+     , (0x762461B8, 0x76246097, '2005-02-09 10:00:00') /* Burun Ruuk Shaman (26020) */
+     , (0x762461B8, 0x76246098, '2005-02-09 10:00:00') /* Burun Ruuk Shaman (26020) */
+     , (0x762461B8, 0x76246099, '2005-02-09 10:00:00') /* Burun Ruuk Shaman (26020) */
+     , (0x762461B8, 0x7624609A, '2005-02-09 10:00:00') /* Burun Ruuk Shaman (26020) */
+     , (0x762461B8, 0x762460A0, '2005-02-09 10:00:00') /* Burun Ruuk Shaman (26020) */
+     , (0x762461B8, 0x762460A1, '2005-02-09 10:00:00') /* Burun Ruuk Shaman (26020) */
+     , (0x762461B8, 0x762460A2, '2005-02-09 10:00:00') /* Burun Ruuk Shaman (26020) */
+     , (0x762461B8, 0x762460A3, '2005-02-09 10:00:00') /* Burun Ruuk Shaman (26020) */
+     , (0x762461B8, 0x762460A6, '2005-02-09 10:00:00') /* Burun Ruuk Shaman (26020) */
+     , (0x762461B8, 0x762460B9, '2005-02-09 10:00:00') /* Burun Ruuk Shaman (26020) */
+     , (0x762461B8, 0x762460BA, '2005-02-09 10:00:00') /* Burun Ruuk Shaman (26020) */
+     , (0x762461B8, 0x762460BD, '2005-02-09 10:00:00') /* Burun Ruuk Shaman (26020) */
+     , (0x762461B8, 0x762460BE, '2005-02-09 10:00:00') /* Burun Ruuk Shaman (26020) */
+     , (0x762461B8, 0x762460BF, '2005-02-09 10:00:00') /* Burun Ruuk Shaman (26020) */
+     , (0x762461B8, 0x762460C2, '2005-02-09 10:00:00') /* Burun Ruuk Shaman (26020) */
+     , (0x762461B8, 0x762460C3, '2005-02-09 10:00:00') /* Burun Ruuk Shaman (26020) */
+     , (0x762461B8, 0x762460C6, '2005-02-09 10:00:00') /* Burun Ruuk Shaman (26020) */
+     , (0x762461B8, 0x762460C7, '2005-02-09 10:00:00') /* Burun Ruuk Shaman (26020) */
+     , (0x762461B8, 0x76246143, '2005-02-09 10:00:00') /* Burun Ruuk Shaman (26020) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x762461B9, 26019, 0x62460683, 364.213, -429.572, 0.055, 0.395519, 0, 0, 0.918458,  True, '2005-02-09 10:00:00'); /* Burun Ruuk Seer */
@@ -2182,8 +2182,8 @@ VALUES (0x762461BD, 26553, 0x62460693, 360, -440.16, 0.005, 0, 0, 0, -1, False, 
 /* @teleloc 0x62460693 [360.000000 -440.160000 0.005000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x762461BD, 0x762461BC, '2005-02-09 10:00:00') /* Button */
-     , (0x762461BD, 0x762461BE, '2005-02-09 10:00:00') /* Button */;
+VALUES (0x762461BD, 0x762461BC, '2005-02-09 10:00:00') /* Button (8420) */
+     , (0x762461BD, 0x762461BE, '2005-02-09 10:00:00') /* Button (8420) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x762461BE,  8420, 0x62460693, 358.458, -442.765, 1.5, -0.707107, 0, 0, -0.707107,  True, '2005-02-09 10:00:00'); /* Button */
@@ -2194,94 +2194,94 @@ VALUES (0x762461BF,  7924, 0x62460696, 360, -450, 0.005, 1, 0, 0, 0, False, '200
 /* @teleloc 0x62460696 [360.000000 -450.000000 0.005000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x762461BF, 0x76246053, '2005-02-09 10:00:00') /* Burun Ruuk Seer */
-     , (0x762461BF, 0x7624605C, '2005-02-09 10:00:00') /* Burun Ruuk Seer */
-     , (0x762461BF, 0x7624605D, '2005-02-09 10:00:00') /* Burun Ruuk Seer */
-     , (0x762461BF, 0x7624606D, '2005-02-09 10:00:00') /* Burun Ruuk Seer */
-     , (0x762461BF, 0x7624606E, '2005-02-09 10:00:00') /* Burun Ruuk Seer */
-     , (0x762461BF, 0x7624606F, '2005-02-09 10:00:00') /* Burun Ruuk Seer */
-     , (0x762461BF, 0x76246070, '2005-02-09 10:00:00') /* Burun Ruuk Seer */
-     , (0x762461BF, 0x76246071, '2005-02-09 10:00:00') /* Burun Ruuk Seer */
-     , (0x762461BF, 0x76246072, '2005-02-09 10:00:00') /* Burun Ruuk Seer */
-     , (0x762461BF, 0x76246073, '2005-02-09 10:00:00') /* Burun Ruuk Seer */
-     , (0x762461BF, 0x76246074, '2005-02-09 10:00:00') /* Burun Ruuk Seer */
-     , (0x762461BF, 0x76246075, '2005-02-09 10:00:00') /* Burun Ruuk Seer */
-     , (0x762461BF, 0x76246076, '2005-02-09 10:00:00') /* Burun Ruuk Seer */
-     , (0x762461BF, 0x76246077, '2005-02-09 10:00:00') /* Burun Ruuk Seer */
-     , (0x762461BF, 0x76246088, '2005-02-09 10:00:00') /* Burun Ruuk Seer */
-     , (0x762461BF, 0x7624612B, '2005-02-09 10:00:00') /* Burun Ruuk Seer */
-     , (0x762461BF, 0x7624612C, '2005-02-09 10:00:00') /* Burun Ruuk Seer */
-     , (0x762461BF, 0x76246132, '2005-02-09 10:00:00') /* Burun Ruuk Seer */
-     , (0x762461BF, 0x7624613B, '2005-02-09 10:00:00') /* Defender of Liazk Itzi's Crypt */
-     , (0x762461BF, 0x76246156, '2005-02-09 10:00:00') /* Burun Ruuk Seer */
-     , (0x762461BF, 0x76246157, '2005-02-09 10:00:00') /* Burun Ruuk Seer */
-     , (0x762461BF, 0x7624615B, '2005-02-09 10:00:00') /* Burun Ruuk Seer */
-     , (0x762461BF, 0x7624615C, '2005-02-09 10:00:00') /* Burun Ruuk Seer */
-     , (0x762461BF, 0x7624615D, '2005-02-09 10:00:00') /* Burun Ruuk Seer */
-     , (0x762461BF, 0x7624616B, '2005-02-09 10:00:00') /* Burun Ruuk Seer */
-     , (0x762461BF, 0x7624616E, '2005-02-09 10:00:00') /* Burun Ruuk Seer */
-     , (0x762461BF, 0x7624616F, '2005-02-09 10:00:00') /* Burun Ruuk Seer */
-     , (0x762461BF, 0x76246173, '2005-02-09 10:00:00') /* Burun Ruuk Seer */
-     , (0x762461BF, 0x76246174, '2005-02-09 10:00:00') /* Burun Ruuk Seer */
-     , (0x762461BF, 0x76246184, '2005-02-09 10:00:00') /* Burun Ruuk Seer */
-     , (0x762461BF, 0x76246185, '2005-02-09 10:00:00') /* Burun Ruuk Seer */
-     , (0x762461BF, 0x76246186, '2005-02-09 10:00:00') /* Burun Ruuk Seer */
-     , (0x762461BF, 0x76246187, '2005-02-09 10:00:00') /* Burun Ruuk Seer */
-     , (0x762461BF, 0x762461AD, '2005-02-09 10:00:00') /* Burun Ruuk Seer */
-     , (0x762461BF, 0x762461AE, '2005-02-09 10:00:00') /* Burun Ruuk Seer */
-     , (0x762461BF, 0x762461B9, '2005-02-09 10:00:00') /* Burun Ruuk Seer */
-     , (0x762461BF, 0x762461BA, '2005-02-09 10:00:00') /* Burun Ruuk Seer */
-     , (0x762461BF, 0x762461BB, '2005-02-09 10:00:00') /* Burun Ruuk Seer */
-     , (0x762461BF, 0x762461C4, '2005-02-09 10:00:00') /* Burun Ruuk Seer */
-     , (0x762461BF, 0x762461C5, '2005-02-09 10:00:00') /* Burun Ruuk Seer */;
+VALUES (0x762461BF, 0x76246053, '2005-02-09 10:00:00') /* Burun Ruuk Seer (26019) */
+     , (0x762461BF, 0x7624605C, '2005-02-09 10:00:00') /* Burun Ruuk Seer (26019) */
+     , (0x762461BF, 0x7624605D, '2005-02-09 10:00:00') /* Burun Ruuk Seer (26019) */
+     , (0x762461BF, 0x7624606D, '2005-02-09 10:00:00') /* Burun Ruuk Seer (26019) */
+     , (0x762461BF, 0x7624606E, '2005-02-09 10:00:00') /* Burun Ruuk Seer (26019) */
+     , (0x762461BF, 0x7624606F, '2005-02-09 10:00:00') /* Burun Ruuk Seer (26019) */
+     , (0x762461BF, 0x76246070, '2005-02-09 10:00:00') /* Burun Ruuk Seer (26019) */
+     , (0x762461BF, 0x76246071, '2005-02-09 10:00:00') /* Burun Ruuk Seer (26019) */
+     , (0x762461BF, 0x76246072, '2005-02-09 10:00:00') /* Burun Ruuk Seer (26019) */
+     , (0x762461BF, 0x76246073, '2005-02-09 10:00:00') /* Burun Ruuk Seer (26019) */
+     , (0x762461BF, 0x76246074, '2005-02-09 10:00:00') /* Burun Ruuk Seer (26019) */
+     , (0x762461BF, 0x76246075, '2005-02-09 10:00:00') /* Burun Ruuk Seer (26019) */
+     , (0x762461BF, 0x76246076, '2005-02-09 10:00:00') /* Burun Ruuk Seer (26019) */
+     , (0x762461BF, 0x76246077, '2005-02-09 10:00:00') /* Burun Ruuk Seer (26019) */
+     , (0x762461BF, 0x76246088, '2005-02-09 10:00:00') /* Burun Ruuk Seer (26019) */
+     , (0x762461BF, 0x7624612B, '2005-02-09 10:00:00') /* Burun Ruuk Seer (26019) */
+     , (0x762461BF, 0x7624612C, '2005-02-09 10:00:00') /* Burun Ruuk Seer (26019) */
+     , (0x762461BF, 0x76246132, '2005-02-09 10:00:00') /* Burun Ruuk Seer (26019) */
+     , (0x762461BF, 0x7624613B, '2005-02-09 10:00:00') /* Defender of Liazk Itzi's Crypt (27169) */
+     , (0x762461BF, 0x76246156, '2005-02-09 10:00:00') /* Burun Ruuk Seer (26019) */
+     , (0x762461BF, 0x76246157, '2005-02-09 10:00:00') /* Burun Ruuk Seer (26019) */
+     , (0x762461BF, 0x7624615B, '2005-02-09 10:00:00') /* Burun Ruuk Seer (26019) */
+     , (0x762461BF, 0x7624615C, '2005-02-09 10:00:00') /* Burun Ruuk Seer (26019) */
+     , (0x762461BF, 0x7624615D, '2005-02-09 10:00:00') /* Burun Ruuk Seer (26019) */
+     , (0x762461BF, 0x7624616B, '2005-02-09 10:00:00') /* Burun Ruuk Seer (26019) */
+     , (0x762461BF, 0x7624616E, '2005-02-09 10:00:00') /* Burun Ruuk Seer (26019) */
+     , (0x762461BF, 0x7624616F, '2005-02-09 10:00:00') /* Burun Ruuk Seer (26019) */
+     , (0x762461BF, 0x76246173, '2005-02-09 10:00:00') /* Burun Ruuk Seer (26019) */
+     , (0x762461BF, 0x76246174, '2005-02-09 10:00:00') /* Burun Ruuk Seer (26019) */
+     , (0x762461BF, 0x76246184, '2005-02-09 10:00:00') /* Burun Ruuk Seer (26019) */
+     , (0x762461BF, 0x76246185, '2005-02-09 10:00:00') /* Burun Ruuk Seer (26019) */
+     , (0x762461BF, 0x76246186, '2005-02-09 10:00:00') /* Burun Ruuk Seer (26019) */
+     , (0x762461BF, 0x76246187, '2005-02-09 10:00:00') /* Burun Ruuk Seer (26019) */
+     , (0x762461BF, 0x762461AD, '2005-02-09 10:00:00') /* Burun Ruuk Seer (26019) */
+     , (0x762461BF, 0x762461AE, '2005-02-09 10:00:00') /* Burun Ruuk Seer (26019) */
+     , (0x762461BF, 0x762461B9, '2005-02-09 10:00:00') /* Burun Ruuk Seer (26019) */
+     , (0x762461BF, 0x762461BA, '2005-02-09 10:00:00') /* Burun Ruuk Seer (26019) */
+     , (0x762461BF, 0x762461BB, '2005-02-09 10:00:00') /* Burun Ruuk Seer (26019) */
+     , (0x762461BF, 0x762461C4, '2005-02-09 10:00:00') /* Burun Ruuk Seer (26019) */
+     , (0x762461BF, 0x762461C5, '2005-02-09 10:00:00') /* Burun Ruuk Seer (26019) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x762461C0,  7924, 0x62460696, 358.705, -450, 0.005, 1, 0, 0, 0, False, '2005-02-09 10:00:00'); /* Linkable Monster Generator ( 5 Min.) */
 /* @teleloc 0x62460696 [358.705000 -450.000000 0.005000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x762461C0, 0x7624605E, '2005-02-09 10:00:00') /* Burun Ruuk Seer */
-     , (0x762461C0, 0x7624605F, '2005-02-09 10:00:00') /* Burun Ruuk Seer */
-     , (0x762461C0, 0x76246083, '2005-02-09 10:00:00') /* Burun Ruuk Seer */
-     , (0x762461C0, 0x76246084, '2005-02-09 10:00:00') /* Burun Ruuk Seer */
-     , (0x762461C0, 0x76246089, '2005-02-09 10:00:00') /* Burun Ruuk Seer */
-     , (0x762461C0, 0x76246090, '2005-02-09 10:00:00') /* Burun Ruuk Seer */
-     , (0x762461C0, 0x76246091, '2005-02-09 10:00:00') /* Burun Ruuk Seer */
-     , (0x762461C0, 0x7624609B, '2005-02-09 10:00:00') /* Burun Ruuk Seer */
-     , (0x762461C0, 0x7624609C, '2005-02-09 10:00:00') /* Burun Ruuk Seer */
-     , (0x762461C0, 0x7624609D, '2005-02-09 10:00:00') /* Burun Ruuk Seer */
-     , (0x762461C0, 0x7624609E, '2005-02-09 10:00:00') /* Burun Ruuk Seer */
-     , (0x762461C0, 0x7624609F, '2005-02-09 10:00:00') /* Burun Ruuk Seer */
-     , (0x762461C0, 0x762460A4, '2005-02-09 10:00:00') /* Burun Ruuk Seer */
-     , (0x762461C0, 0x762460A5, '2005-02-09 10:00:00') /* Burun Ruuk Seer */
-     , (0x762461C0, 0x762460BB, '2005-02-09 10:00:00') /* Burun Ruuk Seer */
-     , (0x762461C0, 0x762460BC, '2005-02-09 10:00:00') /* Burun Ruuk Seer */
-     , (0x762461C0, 0x762460C0, '2005-02-09 10:00:00') /* Burun Ruuk Seer */
-     , (0x762461C0, 0x762460C1, '2005-02-09 10:00:00') /* Burun Ruuk Seer */
-     , (0x762461C0, 0x762460C4, '2005-02-09 10:00:00') /* Burun Ruuk Seer */
-     , (0x762461C0, 0x762460C5, '2005-02-09 10:00:00') /* Burun Ruuk Seer */
-     , (0x762461C0, 0x762460C8, '2005-02-09 10:00:00') /* Burun Ruuk Seer */
-     , (0x762461C0, 0x762460C9, '2005-02-09 10:00:00') /* Burun Ruuk Seer */
-     , (0x762461C0, 0x7624611D, '2005-02-09 10:00:00') /* Burun Ruuk Seer */
-     , (0x762461C0, 0x7624611E, '2005-02-09 10:00:00') /* Burun Ruuk Seer */
-     , (0x762461C0, 0x7624612A, '2005-02-09 10:00:00') /* Burun Ruuk Seer */
-     , (0x762461C0, 0x7624612D, '2005-02-09 10:00:00') /* Burun Ruuk Seer */
-     , (0x762461C0, 0x7624612E, '2005-02-09 10:00:00') /* Burun Ruuk Seer */
-     , (0x762461C0, 0x76246133, '2005-02-09 10:00:00') /* Burun Ruuk Seer */
-     , (0x762461C0, 0x7624613C, '2005-02-09 10:00:00') /* Burun Ruuk Seer */
-     , (0x762461C0, 0x7624613D, '2005-02-09 10:00:00') /* Burun Ruuk Seer */
-     , (0x762461C0, 0x76246141, '2005-02-09 10:00:00') /* Burun Ruuk Seer */
-     , (0x762461C0, 0x76246151, '2005-02-09 10:00:00') /* Burun Ruuk Seer */
-     , (0x762461C0, 0x76246152, '2005-02-09 10:00:00') /* Burun Ruuk Seer */
-     , (0x762461C0, 0x76246153, '2005-02-09 10:00:00') /* Burun Ruuk Seer */
-     , (0x762461C0, 0x76246154, '2005-02-09 10:00:00') /* Burun Ruuk Seer */
-     , (0x762461C0, 0x76246155, '2005-02-09 10:00:00') /* Burun Ruuk Seer */
-     , (0x762461C0, 0x7624615E, '2005-02-09 10:00:00') /* Burun Ruuk Seer */
-     , (0x762461C0, 0x7624615F, '2005-02-09 10:00:00') /* Burun Ruuk Seer */
-     , (0x762461C0, 0x7624616C, '2005-02-09 10:00:00') /* Burun Ruuk Seer */
-     , (0x762461C0, 0x7624616D, '2005-02-09 10:00:00') /* Burun Ruuk Seer */
-     , (0x762461C0, 0x76246175, '2005-02-09 10:00:00') /* Burun Ruuk Seer */
-     , (0x762461C0, 0x76246176, '2005-02-09 10:00:00') /* Burun Ruuk Seer */;
+VALUES (0x762461C0, 0x7624605E, '2005-02-09 10:00:00') /* Burun Ruuk Seer (26019) */
+     , (0x762461C0, 0x7624605F, '2005-02-09 10:00:00') /* Burun Ruuk Seer (26019) */
+     , (0x762461C0, 0x76246083, '2005-02-09 10:00:00') /* Burun Ruuk Seer (26019) */
+     , (0x762461C0, 0x76246084, '2005-02-09 10:00:00') /* Burun Ruuk Seer (26019) */
+     , (0x762461C0, 0x76246089, '2005-02-09 10:00:00') /* Burun Ruuk Seer (26019) */
+     , (0x762461C0, 0x76246090, '2005-02-09 10:00:00') /* Burun Ruuk Seer (26019) */
+     , (0x762461C0, 0x76246091, '2005-02-09 10:00:00') /* Burun Ruuk Seer (26019) */
+     , (0x762461C0, 0x7624609B, '2005-02-09 10:00:00') /* Burun Ruuk Seer (26019) */
+     , (0x762461C0, 0x7624609C, '2005-02-09 10:00:00') /* Burun Ruuk Seer (26019) */
+     , (0x762461C0, 0x7624609D, '2005-02-09 10:00:00') /* Burun Ruuk Seer (26019) */
+     , (0x762461C0, 0x7624609E, '2005-02-09 10:00:00') /* Burun Ruuk Seer (26019) */
+     , (0x762461C0, 0x7624609F, '2005-02-09 10:00:00') /* Burun Ruuk Seer (26019) */
+     , (0x762461C0, 0x762460A4, '2005-02-09 10:00:00') /* Burun Ruuk Seer (26019) */
+     , (0x762461C0, 0x762460A5, '2005-02-09 10:00:00') /* Burun Ruuk Seer (26019) */
+     , (0x762461C0, 0x762460BB, '2005-02-09 10:00:00') /* Burun Ruuk Seer (26019) */
+     , (0x762461C0, 0x762460BC, '2005-02-09 10:00:00') /* Burun Ruuk Seer (26019) */
+     , (0x762461C0, 0x762460C0, '2005-02-09 10:00:00') /* Burun Ruuk Seer (26019) */
+     , (0x762461C0, 0x762460C1, '2005-02-09 10:00:00') /* Burun Ruuk Seer (26019) */
+     , (0x762461C0, 0x762460C4, '2005-02-09 10:00:00') /* Burun Ruuk Seer (26019) */
+     , (0x762461C0, 0x762460C5, '2005-02-09 10:00:00') /* Burun Ruuk Seer (26019) */
+     , (0x762461C0, 0x762460C8, '2005-02-09 10:00:00') /* Burun Ruuk Seer (26019) */
+     , (0x762461C0, 0x762460C9, '2005-02-09 10:00:00') /* Burun Ruuk Seer (26019) */
+     , (0x762461C0, 0x7624611D, '2005-02-09 10:00:00') /* Burun Ruuk Seer (26019) */
+     , (0x762461C0, 0x7624611E, '2005-02-09 10:00:00') /* Burun Ruuk Seer (26019) */
+     , (0x762461C0, 0x7624612A, '2005-02-09 10:00:00') /* Burun Ruuk Seer (26019) */
+     , (0x762461C0, 0x7624612D, '2005-02-09 10:00:00') /* Burun Ruuk Seer (26019) */
+     , (0x762461C0, 0x7624612E, '2005-02-09 10:00:00') /* Burun Ruuk Seer (26019) */
+     , (0x762461C0, 0x76246133, '2005-02-09 10:00:00') /* Burun Ruuk Seer (26019) */
+     , (0x762461C0, 0x7624613C, '2005-02-09 10:00:00') /* Burun Ruuk Seer (26019) */
+     , (0x762461C0, 0x7624613D, '2005-02-09 10:00:00') /* Burun Ruuk Seer (26019) */
+     , (0x762461C0, 0x76246141, '2005-02-09 10:00:00') /* Burun Ruuk Seer (26019) */
+     , (0x762461C0, 0x76246151, '2005-02-09 10:00:00') /* Burun Ruuk Seer (26019) */
+     , (0x762461C0, 0x76246152, '2005-02-09 10:00:00') /* Burun Ruuk Seer (26019) */
+     , (0x762461C0, 0x76246153, '2005-02-09 10:00:00') /* Burun Ruuk Seer (26019) */
+     , (0x762461C0, 0x76246154, '2005-02-09 10:00:00') /* Burun Ruuk Seer (26019) */
+     , (0x762461C0, 0x76246155, '2005-02-09 10:00:00') /* Burun Ruuk Seer (26019) */
+     , (0x762461C0, 0x7624615E, '2005-02-09 10:00:00') /* Burun Ruuk Seer (26019) */
+     , (0x762461C0, 0x7624615F, '2005-02-09 10:00:00') /* Burun Ruuk Seer (26019) */
+     , (0x762461C0, 0x7624616C, '2005-02-09 10:00:00') /* Burun Ruuk Seer (26019) */
+     , (0x762461C0, 0x7624616D, '2005-02-09 10:00:00') /* Burun Ruuk Seer (26019) */
+     , (0x762461C0, 0x76246175, '2005-02-09 10:00:00') /* Burun Ruuk Seer (26019) */
+     , (0x762461C0, 0x76246176, '2005-02-09 10:00:00') /* Burun Ruuk Seer (26019) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x762461C1, 26020, 0x6246069A, 369.46, -101.053, 0.044864, 0.462134, 0, 0, 0.88681,  True, '2005-02-09 10:00:00'); /* Burun Ruuk Shaman */

@@ -29,7 +29,7 @@ VALUES (0x702E8006,  7561, 0x02E8010E, 62.5114, -200.052, -11.995, 1, 0, 0, 0, F
 /* @teleloc 0x02E8010E [62.511400 -200.052000 -11.995000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x702E8006, 0x702E8007, '2005-02-09 10:00:00') /* Pressure Plate */;
+VALUES (0x702E8006, 0x702E8007, '2005-02-09 10:00:00') /* Pressure Plate (2131) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x702E8007,  2131, 0x02E8010E, 64, -200, -11.995, -0.707107, 0, 0, -0.707107,  True, '2005-02-09 10:00:00'); /* Pressure Plate */
@@ -52,7 +52,7 @@ VALUES (0x702E800B,  7562, 0x02E80116, 69.2703, -199.985, -11.995, 0.714421, 0, 
 /* @teleloc 0x02E80116 [69.270300 -199.985000 -11.995000] 0.714421 0.000000 0.000000 0.699716 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x702E800B, 0x702E800A, '2005-02-09 10:00:00') /* Pressure Plate */;
+VALUES (0x702E800B, 0x702E800A, '2005-02-09 10:00:00') /* Pressure Plate (2131) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x702E800C,  7554, 0x02E8011F, 93.4402, 1.37484, -11.99, 0.690705, 0, 0, -0.723137,  True, '2005-02-09 10:00:00'); /* Lithos Raider */
@@ -123,31 +123,31 @@ VALUES (0x702E801C,  7923, 0x02E8014A, 190, -190, -11.995, 1, 0, 0, 0, False, '2
 /* @teleloc 0x02E8014A [190.000000 -190.000000 -11.995000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x702E801C, 0x702E800C, '2005-02-09 10:00:00') /* Lithos Raider */
-     , (0x702E801C, 0x702E800D, '2005-02-09 10:00:00') /* Lithos Raider */
-     , (0x702E801C, 0x702E800E, '2005-02-09 10:00:00') /* Lithos Raider */
-     , (0x702E801C, 0x702E8010, '2005-02-09 10:00:00') /* Lithos Raider */
-     , (0x702E801C, 0x702E8011, '2005-02-09 10:00:00') /* Lithos Raider */
-     , (0x702E801C, 0x702E8012, '2005-02-09 10:00:00') /* Lithos Raider */
-     , (0x702E801C, 0x702E8013, '2005-02-09 10:00:00') /* Lithos Raider */
-     , (0x702E801C, 0x702E8014, '2005-02-09 10:00:00') /* Lithos Raider */
-     , (0x702E801C, 0x702E8017, '2005-02-09 10:00:00') /* Lithos Raider */
-     , (0x702E801C, 0x702E8018, '2005-02-09 10:00:00') /* Lithos Raider */
-     , (0x702E801C, 0x702E8019, '2005-02-09 10:00:00') /* Lithos Raider */
-     , (0x702E801C, 0x702E801A, '2005-02-09 10:00:00') /* Lithos Raider */
-     , (0x702E801C, 0x702E801D, '2005-02-09 10:00:00') /* Lithos Raider */
-     , (0x702E801C, 0x702E801E, '2005-02-09 10:00:00') /* Lithos Raider */
-     , (0x702E801C, 0x702E801F, '2005-02-09 10:00:00') /* Lithos Raider */
-     , (0x702E801C, 0x702E8020, '2005-02-09 10:00:00') /* Lithos Raider */
-     , (0x702E801C, 0x702E8021, '2005-02-09 10:00:00') /* Lithos Raider */
-     , (0x702E801C, 0x702E8022, '2005-02-09 10:00:00') /* Lithos Raider */
-     , (0x702E801C, 0x702E8023, '2005-02-09 10:00:00') /* Lithos Raider */
-     , (0x702E801C, 0x702E8024, '2005-02-09 10:00:00') /* Lithos Raider */
-     , (0x702E801C, 0x702E8025, '2005-02-09 10:00:00') /* Lithos Raider */
-     , (0x702E801C, 0x702E8026, '2005-02-09 10:00:00') /* Lithos Raider */
-     , (0x702E801C, 0x702E8027, '2005-02-09 10:00:00') /* Lithos Raider */
-     , (0x702E801C, 0x702E8028, '2005-02-09 10:00:00') /* Lithos Raider */
-     , (0x702E801C, 0x702E802A, '2005-02-09 10:00:00') /* Lithos Raider */;
+VALUES (0x702E801C, 0x702E800C, '2005-02-09 10:00:00') /* Lithos Raider (7554) */
+     , (0x702E801C, 0x702E800D, '2005-02-09 10:00:00') /* Lithos Raider (7554) */
+     , (0x702E801C, 0x702E800E, '2005-02-09 10:00:00') /* Lithos Raider (7554) */
+     , (0x702E801C, 0x702E8010, '2005-02-09 10:00:00') /* Lithos Raider (7554) */
+     , (0x702E801C, 0x702E8011, '2005-02-09 10:00:00') /* Lithos Raider (7554) */
+     , (0x702E801C, 0x702E8012, '2005-02-09 10:00:00') /* Lithos Raider (7554) */
+     , (0x702E801C, 0x702E8013, '2005-02-09 10:00:00') /* Lithos Raider (7554) */
+     , (0x702E801C, 0x702E8014, '2005-02-09 10:00:00') /* Lithos Raider (7554) */
+     , (0x702E801C, 0x702E8017, '2005-02-09 10:00:00') /* Lithos Raider (7554) */
+     , (0x702E801C, 0x702E8018, '2005-02-09 10:00:00') /* Lithos Raider (7554) */
+     , (0x702E801C, 0x702E8019, '2005-02-09 10:00:00') /* Lithos Raider (7554) */
+     , (0x702E801C, 0x702E801A, '2005-02-09 10:00:00') /* Lithos Raider (7554) */
+     , (0x702E801C, 0x702E801D, '2005-02-09 10:00:00') /* Lithos Raider (7554) */
+     , (0x702E801C, 0x702E801E, '2005-02-09 10:00:00') /* Lithos Raider (7554) */
+     , (0x702E801C, 0x702E801F, '2005-02-09 10:00:00') /* Lithos Raider (7554) */
+     , (0x702E801C, 0x702E8020, '2005-02-09 10:00:00') /* Lithos Raider (7554) */
+     , (0x702E801C, 0x702E8021, '2005-02-09 10:00:00') /* Lithos Raider (7554) */
+     , (0x702E801C, 0x702E8022, '2005-02-09 10:00:00') /* Lithos Raider (7554) */
+     , (0x702E801C, 0x702E8023, '2005-02-09 10:00:00') /* Lithos Raider (7554) */
+     , (0x702E801C, 0x702E8024, '2005-02-09 10:00:00') /* Lithos Raider (7554) */
+     , (0x702E801C, 0x702E8025, '2005-02-09 10:00:00') /* Lithos Raider (7554) */
+     , (0x702E801C, 0x702E8026, '2005-02-09 10:00:00') /* Lithos Raider (7554) */
+     , (0x702E801C, 0x702E8027, '2005-02-09 10:00:00') /* Lithos Raider (7554) */
+     , (0x702E801C, 0x702E8028, '2005-02-09 10:00:00') /* Lithos Raider (7554) */
+     , (0x702E801C, 0x702E802A, '2005-02-09 10:00:00') /* Lithos Raider (7554) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x702E801D,  7554, 0x02E8014A, 185.196, -188.334, -11.945, 0.712116, 0, 0, 0.702062,  True, '2005-02-09 10:00:00'); /* Lithos Raider */
@@ -234,7 +234,7 @@ VALUES (0x702E8031,  7561, 0x02E8019C, 81.8178, -276.254, -5.995, 0.99984, 0, 0,
 /* @teleloc 0x02E8019C [81.817800 -276.254000 -5.995000] 0.999840 0.000000 0.000000 0.017861 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x702E8031, 0x702E8030, '2005-02-09 10:00:00') /* Pressure Plate */;
+VALUES (0x702E8031, 0x702E8030, '2005-02-09 10:00:00') /* Pressure Plate (2131) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x702E8032,  7554, 0x02E801A1, 80.8691, -338.649, -5.99, -0.064547, 0, 0, -0.997915,  True, '2005-02-09 10:00:00'); /* Lithos Raider */
@@ -257,7 +257,7 @@ VALUES (0x702E8036,  7561, 0x02E801A4, 79.9987, -357.921, -5.995, 1, 0, 0, 0, Fa
 /* @teleloc 0x02E801A4 [79.998700 -357.921000 -5.995000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x702E8036, 0x702E8035, '2005-02-09 10:00:00') /* Pressure Plate */;
+VALUES (0x702E8036, 0x702E8035, '2005-02-09 10:00:00') /* Pressure Plate (2131) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x702E8037,  7555, 0x02E801B2, 100.424, -291.467, -5.99, 0.024232, 0, 0, -0.999706,  True, '2005-02-09 10:00:00'); /* Obeloth Raider */
@@ -304,7 +304,7 @@ VALUES (0x702E8041,  7562, 0x02E80225, 80, -389.241, 0.005, 1, 0, 0, 0, False, '
 /* @teleloc 0x02E80225 [80.000000 -389.241000 0.005000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x702E8041, 0x702E8042, '2005-02-09 10:00:00') /* Pressure Plate */;
+VALUES (0x702E8041, 0x702E8042, '2005-02-09 10:00:00') /* Pressure Plate (2131) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x702E8042,  2131, 0x02E80225, 80, -390, 0.005, 1, 0, 0, 0,  True, '2005-02-09 10:00:00'); /* Pressure Plate */
@@ -319,53 +319,53 @@ VALUES (0x702E8044,  7562, 0x02E80230, 80, -508.037, 0.005, 1, 0, 0, 0, False, '
 /* @teleloc 0x02E80230 [80.000000 -508.037000 0.005000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x702E8044, 0x702E8043, '2005-02-09 10:00:00') /* Pressure Plate */;
+VALUES (0x702E8044, 0x702E8043, '2005-02-09 10:00:00') /* Pressure Plate (2131) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x702E8045,  3955, 0x02E80237, 80, -540, 0.005, 1, 0, 0, 0, False, '2005-02-09 10:00:00'); /* Linkable Monster Gen (15 min.) */
 /* @teleloc 0x02E80237 [80.000000 -540.000000 0.005000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x702E8045, 0x702E8000, '2005-02-09 10:00:00') /* Lithos Raider */
-     , (0x702E8045, 0x702E8001, '2005-02-09 10:00:00') /* Lithos Raider */
-     , (0x702E8045, 0x702E8002, '2005-02-09 10:00:00') /* Lithos Raider */
-     , (0x702E8045, 0x702E8003, '2005-02-09 10:00:00') /* Lithos Raider */
-     , (0x702E8045, 0x702E8004, '2005-02-09 10:00:00') /* Lithos Raider */
-     , (0x702E8045, 0x702E8005, '2005-02-09 10:00:00') /* Lithos Raider */
-     , (0x702E8045, 0x702E8008, '2005-02-09 10:00:00') /* Lithos Raider */
-     , (0x702E8045, 0x702E8009, '2005-02-09 10:00:00') /* Lithos Raider */
-     , (0x702E8045, 0x702E8015, '2005-02-09 10:00:00') /* Lithos Raider */
-     , (0x702E8045, 0x702E8016, '2005-02-09 10:00:00') /* Lithos Raider */
-     , (0x702E8045, 0x702E802C, '2005-02-09 10:00:00') /* Lithos Raider */
-     , (0x702E8045, 0x702E802D, '2005-02-09 10:00:00') /* Lithos Raider */
-     , (0x702E8045, 0x702E802E, '2005-02-09 10:00:00') /* Lithos Raider */
-     , (0x702E8045, 0x702E802F, '2005-02-09 10:00:00') /* Lithos Raider */
-     , (0x702E8045, 0x702E8032, '2005-02-09 10:00:00') /* Lithos Raider */
-     , (0x702E8045, 0x702E8033, '2005-02-09 10:00:00') /* Obeloth Raider */
-     , (0x702E8045, 0x702E8034, '2005-02-09 10:00:00') /* Obeloth Raider */
-     , (0x702E8045, 0x702E8037, '2005-02-09 10:00:00') /* Obeloth Raider */
-     , (0x702E8045, 0x702E8038, '2005-02-09 10:00:00') /* Obeloth Raider */
-     , (0x702E8045, 0x702E8039, '2005-02-09 10:00:00') /* Obeloth Raider */
-     , (0x702E8045, 0x702E803A, '2005-02-09 10:00:00') /* Obeloth Raider */
-     , (0x702E8045, 0x702E803B, '2005-02-09 10:00:00') /* Obeloth Raider */
-     , (0x702E8045, 0x702E803C, '2005-02-09 10:00:00') /* Obeloth Raider */
-     , (0x702E8045, 0x702E803D, '2005-02-09 10:00:00') /* Obeloth Raider */
-     , (0x702E8045, 0x702E803E, '2005-02-09 10:00:00') /* Obeloth Raider */
-     , (0x702E8045, 0x702E803F, '2005-02-09 10:00:00') /* Obeloth Raider */
-     , (0x702E8045, 0x702E8040, '2005-02-09 10:00:00') /* Obeloth Raider */
-     , (0x702E8045, 0x702E8047, '2005-02-09 10:00:00') /* Lithos Raider */
-     , (0x702E8045, 0x702E8048, '2005-02-09 10:00:00') /* Lithos Raider */
-     , (0x702E8045, 0x702E8049, '2005-02-09 10:00:00') /* Obeloth Raider */
-     , (0x702E8045, 0x702E804A, '2005-02-09 10:00:00') /* Obeloth Raider */
-     , (0x702E8045, 0x702E804B, '2005-02-09 10:00:00') /* Obeloth Raider */
-     , (0x702E8045, 0x702E804C, '2005-02-09 10:00:00') /* Obeloth Raider */
-     , (0x702E8045, 0x702E804D, '2005-02-09 10:00:00') /* Obeloth Raider */
-     , (0x702E8045, 0x702E804E, '2005-02-09 10:00:00') /* Lithos Raider */
-     , (0x702E8045, 0x702E804F, '2005-02-09 10:00:00') /* Lithos Raider */
-     , (0x702E8045, 0x702E8050, '2005-02-09 10:00:00') /* Lithos Raider */
-     , (0x702E8045, 0x702E8051, '2005-02-09 10:00:00') /* Lithos Raider */
-     , (0x702E8045, 0x702E8052, '2005-02-09 10:00:00') /* Obeloth Raider */
-     , (0x702E8045, 0x702E8053, '2005-02-09 10:00:00') /* Obeloth Raider */;
+VALUES (0x702E8045, 0x702E8000, '2005-02-09 10:00:00') /* Lithos Raider (7554) */
+     , (0x702E8045, 0x702E8001, '2005-02-09 10:00:00') /* Lithos Raider (7554) */
+     , (0x702E8045, 0x702E8002, '2005-02-09 10:00:00') /* Lithos Raider (7554) */
+     , (0x702E8045, 0x702E8003, '2005-02-09 10:00:00') /* Lithos Raider (7554) */
+     , (0x702E8045, 0x702E8004, '2005-02-09 10:00:00') /* Lithos Raider (7554) */
+     , (0x702E8045, 0x702E8005, '2005-02-09 10:00:00') /* Lithos Raider (7554) */
+     , (0x702E8045, 0x702E8008, '2005-02-09 10:00:00') /* Lithos Raider (7554) */
+     , (0x702E8045, 0x702E8009, '2005-02-09 10:00:00') /* Lithos Raider (7554) */
+     , (0x702E8045, 0x702E8015, '2005-02-09 10:00:00') /* Lithos Raider (7554) */
+     , (0x702E8045, 0x702E8016, '2005-02-09 10:00:00') /* Lithos Raider (7554) */
+     , (0x702E8045, 0x702E802C, '2005-02-09 10:00:00') /* Lithos Raider (7554) */
+     , (0x702E8045, 0x702E802D, '2005-02-09 10:00:00') /* Lithos Raider (7554) */
+     , (0x702E8045, 0x702E802E, '2005-02-09 10:00:00') /* Lithos Raider (7554) */
+     , (0x702E8045, 0x702E802F, '2005-02-09 10:00:00') /* Lithos Raider (7554) */
+     , (0x702E8045, 0x702E8032, '2005-02-09 10:00:00') /* Lithos Raider (7554) */
+     , (0x702E8045, 0x702E8033, '2005-02-09 10:00:00') /* Obeloth Raider (7555) */
+     , (0x702E8045, 0x702E8034, '2005-02-09 10:00:00') /* Obeloth Raider (7555) */
+     , (0x702E8045, 0x702E8037, '2005-02-09 10:00:00') /* Obeloth Raider (7555) */
+     , (0x702E8045, 0x702E8038, '2005-02-09 10:00:00') /* Obeloth Raider (7555) */
+     , (0x702E8045, 0x702E8039, '2005-02-09 10:00:00') /* Obeloth Raider (7555) */
+     , (0x702E8045, 0x702E803A, '2005-02-09 10:00:00') /* Obeloth Raider (7555) */
+     , (0x702E8045, 0x702E803B, '2005-02-09 10:00:00') /* Obeloth Raider (7555) */
+     , (0x702E8045, 0x702E803C, '2005-02-09 10:00:00') /* Obeloth Raider (7555) */
+     , (0x702E8045, 0x702E803D, '2005-02-09 10:00:00') /* Obeloth Raider (7555) */
+     , (0x702E8045, 0x702E803E, '2005-02-09 10:00:00') /* Obeloth Raider (7555) */
+     , (0x702E8045, 0x702E803F, '2005-02-09 10:00:00') /* Obeloth Raider (7555) */
+     , (0x702E8045, 0x702E8040, '2005-02-09 10:00:00') /* Obeloth Raider (7555) */
+     , (0x702E8045, 0x702E8047, '2005-02-09 10:00:00') /* Lithos Raider (7554) */
+     , (0x702E8045, 0x702E8048, '2005-02-09 10:00:00') /* Lithos Raider (7554) */
+     , (0x702E8045, 0x702E8049, '2005-02-09 10:00:00') /* Obeloth Raider (7555) */
+     , (0x702E8045, 0x702E804A, '2005-02-09 10:00:00') /* Obeloth Raider (7555) */
+     , (0x702E8045, 0x702E804B, '2005-02-09 10:00:00') /* Obeloth Raider (7555) */
+     , (0x702E8045, 0x702E804C, '2005-02-09 10:00:00') /* Obeloth Raider (7555) */
+     , (0x702E8045, 0x702E804D, '2005-02-09 10:00:00') /* Obeloth Raider (7555) */
+     , (0x702E8045, 0x702E804E, '2005-02-09 10:00:00') /* Lithos Raider (7554) */
+     , (0x702E8045, 0x702E804F, '2005-02-09 10:00:00') /* Lithos Raider (7554) */
+     , (0x702E8045, 0x702E8050, '2005-02-09 10:00:00') /* Lithos Raider (7554) */
+     , (0x702E8045, 0x702E8051, '2005-02-09 10:00:00') /* Lithos Raider (7554) */
+     , (0x702E8045, 0x702E8052, '2005-02-09 10:00:00') /* Obeloth Raider (7555) */
+     , (0x702E8045, 0x702E8053, '2005-02-09 10:00:00') /* Obeloth Raider (7555) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x702E8046,  7611, 0x02E80238, 80, -547, 0.005, 1, 0, 0, -4.37114E-08, False, '2005-02-09 10:00:00'); /* Surface Portal */

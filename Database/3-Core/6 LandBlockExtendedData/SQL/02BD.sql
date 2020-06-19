@@ -109,34 +109,34 @@ VALUES (0x702BD01A,  7924, 0x02BD01A0, 39.5755, -52.1526, 12, -0.707107, 0, 0, -
 /* @teleloc 0x02BD01A0 [39.575500 -52.152600 12.000000] -0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x702BD01A, 0x702BD000, '2005-02-09 10:00:00') /* Ulu Sclavus */
-     , (0x702BD01A, 0x702BD001, '2005-02-09 10:00:00') /* Ulu Sclavus */
-     , (0x702BD01A, 0x702BD002, '2005-02-09 10:00:00') /* Lich */
-     , (0x702BD01A, 0x702BD003, '2005-02-09 10:00:00') /* Lich Lord */
-     , (0x702BD01A, 0x702BD004, '2005-02-09 10:00:00') /* Lich */
-     , (0x702BD01A, 0x702BD006, '2005-02-09 10:00:00') /* Faisi Sclavus */
-     , (0x702BD01A, 0x702BD007, '2005-02-09 10:00:00') /* Faisi Sclavus */
-     , (0x702BD01A, 0x702BD008, '2005-02-09 10:00:00') /* Lich Lord */
-     , (0x702BD01A, 0x702BD009, '2005-02-09 10:00:00') /* Ulu Sclavus */
-     , (0x702BD01A, 0x702BD00B, '2005-02-09 10:00:00') /* Faisi Sclavus */
-     , (0x702BD01A, 0x702BD00C, '2005-02-09 10:00:00') /* Ulu Sclavus */
-     , (0x702BD01A, 0x702BD00D, '2005-02-09 10:00:00') /* Lich Lord */
-     , (0x702BD01A, 0x702BD00E, '2005-02-09 10:00:00') /* Lich Lord */
-     , (0x702BD01A, 0x702BD00F, '2005-02-09 10:00:00') /* Ulu Sclavus */
-     , (0x702BD01A, 0x702BD010, '2005-02-09 10:00:00') /* Ulu Sclavus */
-     , (0x702BD01A, 0x702BD011, '2005-02-09 10:00:00') /* Ulu Sclavus */
-     , (0x702BD01A, 0x702BD012, '2005-02-09 10:00:00') /* Ulu Sclavus */
-     , (0x702BD01A, 0x702BD013, '2005-02-09 10:00:00') /* Ulu Sclavus */
-     , (0x702BD01A, 0x702BD015, '2005-02-09 10:00:00') /* Ulu Sclavus */
-     , (0x702BD01A, 0x702BD016, '2005-02-09 10:00:00') /* Ulu Sclavus */
-     , (0x702BD01A, 0x702BD017, '2005-02-09 10:00:00') /* Ulu Sclavus */
-     , (0x702BD01A, 0x702BD018, '2005-02-09 10:00:00') /* Ulu Sclavus */
-     , (0x702BD01A, 0x702BD019, '2005-02-09 10:00:00') /* Ulu Sclavus */;
+VALUES (0x702BD01A, 0x702BD000, '2005-02-09 10:00:00') /* Ulu Sclavus (7110) */
+     , (0x702BD01A, 0x702BD001, '2005-02-09 10:00:00') /* Ulu Sclavus (7110) */
+     , (0x702BD01A, 0x702BD002, '2005-02-09 10:00:00') /* Lich (204) */
+     , (0x702BD01A, 0x702BD003, '2005-02-09 10:00:00') /* Lich Lord (1630) */
+     , (0x702BD01A, 0x702BD004, '2005-02-09 10:00:00') /* Lich (204) */
+     , (0x702BD01A, 0x702BD006, '2005-02-09 10:00:00') /* Faisi Sclavus (7111) */
+     , (0x702BD01A, 0x702BD007, '2005-02-09 10:00:00') /* Faisi Sclavus (7111) */
+     , (0x702BD01A, 0x702BD008, '2005-02-09 10:00:00') /* Lich Lord (1630) */
+     , (0x702BD01A, 0x702BD009, '2005-02-09 10:00:00') /* Ulu Sclavus (7110) */
+     , (0x702BD01A, 0x702BD00B, '2005-02-09 10:00:00') /* Faisi Sclavus (7111) */
+     , (0x702BD01A, 0x702BD00C, '2005-02-09 10:00:00') /* Ulu Sclavus (7110) */
+     , (0x702BD01A, 0x702BD00D, '2005-02-09 10:00:00') /* Lich Lord (1630) */
+     , (0x702BD01A, 0x702BD00E, '2005-02-09 10:00:00') /* Lich Lord (1630) */
+     , (0x702BD01A, 0x702BD00F, '2005-02-09 10:00:00') /* Ulu Sclavus (7110) */
+     , (0x702BD01A, 0x702BD010, '2005-02-09 10:00:00') /* Ulu Sclavus (7110) */
+     , (0x702BD01A, 0x702BD011, '2005-02-09 10:00:00') /* Ulu Sclavus (7110) */
+     , (0x702BD01A, 0x702BD012, '2005-02-09 10:00:00') /* Ulu Sclavus (7110) */
+     , (0x702BD01A, 0x702BD013, '2005-02-09 10:00:00') /* Ulu Sclavus (7110) */
+     , (0x702BD01A, 0x702BD015, '2005-02-09 10:00:00') /* Ulu Sclavus (7110) */
+     , (0x702BD01A, 0x702BD016, '2005-02-09 10:00:00') /* Ulu Sclavus (7110) */
+     , (0x702BD01A, 0x702BD017, '2005-02-09 10:00:00') /* Ulu Sclavus (7110) */
+     , (0x702BD01A, 0x702BD018, '2005-02-09 10:00:00') /* Ulu Sclavus (7110) */
+     , (0x702BD01A, 0x702BD019, '2005-02-09 10:00:00') /* Ulu Sclavus (7110) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x702BD01B,  7925, 0x02BD01A0, 40, -50, 12, -0.707107, 0, 0, -0.707107, False, '2005-02-09 10:00:00'); /* Linkable Monster Generator ( 10 Min.) */
 /* @teleloc 0x02BD01A0 [40.000000 -50.000000 12.000000] -0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x702BD01B, 0x702BD005, '2005-02-09 10:00:00') /* Slithis Eye Stalk */
-     , (0x702BD01B, 0x702BD00A, '2005-02-09 10:00:00') /* Slithayr Eye Stalk */;
+VALUES (0x702BD01B, 0x702BD005, '2005-02-09 10:00:00') /* Slithis Eye Stalk (4258) */
+     , (0x702BD01B, 0x702BD00A, '2005-02-09 10:00:00') /* Slithayr Eye Stalk (4261) */;

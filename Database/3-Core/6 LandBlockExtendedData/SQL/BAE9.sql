@@ -5,11 +5,11 @@ VALUES (0x7BAE9000,  7923, 0xBAE90000, 18.2409, 96.6821, -0.095, -0.784638, 0, 0
 /* @teleloc 0xBAE90000 [18.240900 96.682100 -0.095000] -0.784638 0.000000 0.000000 0.619954 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BAE9000, 0x7BAE9002, '2005-02-09 10:00:00') /* Coral Golem */
-     , (0x7BAE9000, 0x7BAE9003, '2005-02-09 10:00:00') /* Coral Golem */
-     , (0x7BAE9000, 0x7BAE9004, '2005-02-09 10:00:00') /* Coral Golem */
-     , (0x7BAE9000, 0x7BAE9005, '2005-02-09 10:00:00') /* Coral Golem */
-     , (0x7BAE9000, 0x7BAE9006, '2005-02-09 10:00:00') /* Coral Golem */;
+VALUES (0x7BAE9000, 0x7BAE9002, '2005-02-09 10:00:00') /* Coral Golem (7507) */
+     , (0x7BAE9000, 0x7BAE9003, '2005-02-09 10:00:00') /* Coral Golem (7507) */
+     , (0x7BAE9000, 0x7BAE9004, '2005-02-09 10:00:00') /* Coral Golem (7626) */
+     , (0x7BAE9000, 0x7BAE9005, '2005-02-09 10:00:00') /* Coral Golem (7626) */
+     , (0x7BAE9000, 0x7BAE9006, '2005-02-09 10:00:00') /* Coral Golem (7507) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BAE9002,  7507, 0xBAE90000, 2.14586, 96.7066, -0.44, 0.726133, 0, 0, -0.687555,  True, '2005-02-09 10:00:00'); /* Coral Golem */

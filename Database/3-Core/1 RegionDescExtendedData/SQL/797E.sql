@@ -1,5 +1,5 @@
-DELETE FROM `encounter` WHERE `landblock` = 31102;
+DELETE FROM `encounter` WHERE `landblock` = 0x797E;
 
 INSERT INTO `encounter` (`landblock`, `weenie_Class_Id`, `cell_X`, `cell_Y`, `last_Modified`)
-VALUES (31102, 21178, 5, 0, '2005-02-09 10:00:00') /* Low Central Desert Plains Mix Generator */
-     , (31102, 21178, 5, 4, '2005-02-09 10:00:00') /* Low Central Desert Plains Mix Generator */;
+VALUES (0x797E, 21178, 5, 0, '2005-02-09 10:00:00') /* Low Central Desert Plains Mix Generator */
+     , (0x797E, 21178, 5, 4, '2005-02-09 10:00:00') /* Low Central Desert Plains Mix Generator */;

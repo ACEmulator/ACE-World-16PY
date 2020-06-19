@@ -229,15 +229,15 @@ VALUES (0x7BCEE03C,  7924, 0xBCEE0000, 28.7227, 114.038, 164.005, 0.425069, 0, 0
 /* @teleloc 0xBCEE0000 [28.722700 114.038000 164.005000] 0.425069 0.000000 0.000000 -0.905161 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BCEE03C, 0x7BCEE03D, '2005-02-09 10:00:00') /* Hellfire */
-     , (0x7BCEE03C, 0x7BCEE03E, '2005-02-09 10:00:00') /* Hellfire */
-     , (0x7BCEE03C, 0x7BCEE03F, '2005-02-09 10:00:00') /* Hellfire */
-     , (0x7BCEE03C, 0x7BCEE040, '2005-02-09 10:00:00') /* Hellfire */
-     , (0x7BCEE03C, 0x7BCEE041, '2005-02-09 10:00:00') /* Hellfire */
-     , (0x7BCEE03C, 0x7BCEE042, '2005-02-09 10:00:00') /* Hellfire */
-     , (0x7BCEE03C, 0x7BCEE043, '2005-02-09 10:00:00') /* Hellfire */
-     , (0x7BCEE03C, 0x7BCEE044, '2005-02-09 10:00:00') /* Hellfire */
-     , (0x7BCEE03C, 0x7BCEE045, '2005-02-09 10:00:00') /* Hellfire */;
+VALUES (0x7BCEE03C, 0x7BCEE03D, '2005-02-09 10:00:00') /* Hellfire (7093) */
+     , (0x7BCEE03C, 0x7BCEE03E, '2005-02-09 10:00:00') /* Hellfire (7093) */
+     , (0x7BCEE03C, 0x7BCEE03F, '2005-02-09 10:00:00') /* Hellfire (7093) */
+     , (0x7BCEE03C, 0x7BCEE040, '2005-02-09 10:00:00') /* Hellfire (7093) */
+     , (0x7BCEE03C, 0x7BCEE041, '2005-02-09 10:00:00') /* Hellfire (7093) */
+     , (0x7BCEE03C, 0x7BCEE042, '2005-02-09 10:00:00') /* Hellfire (7093) */
+     , (0x7BCEE03C, 0x7BCEE043, '2005-02-09 10:00:00') /* Hellfire (7093) */
+     , (0x7BCEE03C, 0x7BCEE044, '2005-02-09 10:00:00') /* Hellfire (7093) */
+     , (0x7BCEE03C, 0x7BCEE045, '2005-02-09 10:00:00') /* Hellfire (7093) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BCEE03D,  7093, 0xBCEE0000, 26.7451, 108.266, 164.008, -0.999882, 0, 0, 0.0153891,  True, '2005-02-09 10:00:00'); /* Hellfire */

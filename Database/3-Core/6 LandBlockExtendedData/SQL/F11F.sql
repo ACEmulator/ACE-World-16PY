@@ -37,10 +37,10 @@ VALUES (0x7F11F00C,  4219, 0xF11F0100, 19.2238, 18.8164, 12.805, 0.287637, 0, 0,
 /* @teleloc 0xF11F0100 [19.223800 18.816400 12.805000] 0.287637 0.000000 0.000000 0.957740 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7F11F00C, 0x7F11F005, '2005-02-09 10:00:00') /* Rank Moarsman */
-     , (0x7F11F00C, 0x7F11F006, '2005-02-09 10:00:00') /* Rank Moarsman */
-     , (0x7F11F00C, 0x7F11F007, '2005-02-09 10:00:00') /* Rank Moarsman */
-     , (0x7F11F00C, 0x7F11F008, '2005-02-09 10:00:00') /* Fetid Moarsman */
-     , (0x7F11F00C, 0x7F11F009, '2005-02-09 10:00:00') /* Fetid Moarsman */
-     , (0x7F11F00C, 0x7F11F00A, '2005-02-09 10:00:00') /* Fetid Moarsman */
-     , (0x7F11F00C, 0x7F11F00B, '2005-02-09 10:00:00') /* Muculent Moarsman */;
+VALUES (0x7F11F00C, 0x7F11F005, '2005-02-09 10:00:00') /* Rank Moarsman (4246) */
+     , (0x7F11F00C, 0x7F11F006, '2005-02-09 10:00:00') /* Rank Moarsman (4246) */
+     , (0x7F11F00C, 0x7F11F007, '2005-02-09 10:00:00') /* Rank Moarsman (4246) */
+     , (0x7F11F00C, 0x7F11F008, '2005-02-09 10:00:00') /* Fetid Moarsman (27854) */
+     , (0x7F11F00C, 0x7F11F009, '2005-02-09 10:00:00') /* Fetid Moarsman (27854) */
+     , (0x7F11F00C, 0x7F11F00A, '2005-02-09 10:00:00') /* Fetid Moarsman (27854) */
+     , (0x7F11F00C, 0x7F11F00B, '2005-02-09 10:00:00') /* Muculent Moarsman (27858) */;

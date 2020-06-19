@@ -1,4 +1,4 @@
-DELETE FROM `encounter` WHERE `landblock` = 56786;
+DELETE FROM `encounter` WHERE `landblock` = 0xDDD2;
 
 INSERT INTO `encounter` (`landblock`, `weenie_Class_Id`, `cell_X`, `cell_Y`, `last_Modified`)
-VALUES (56786, 23192, 3, 6, '2005-02-09 10:00:00') /* Olthoi High Shore Generator */;
+VALUES (0xDDD2, 23192, 3, 6, '2005-02-09 10:00:00') /* Olthoi High Shore Generator */;

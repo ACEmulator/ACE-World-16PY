@@ -33,15 +33,15 @@ VALUES (0x7A0B500B,  1154, 0xA0B50000, 148.104, 115.99, 76.005, 0.994405, 0, 0, 
 /* @teleloc 0xA0B50000 [148.104000 115.990000 76.005000] 0.994405 0.000000 0.000000 -0.105635 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A0B500B, 0x7A0B5005, '2005-02-09 10:00:00') /* Drudge Prowler */
-     , (0x7A0B500B, 0x7A0B5006, '2005-02-09 10:00:00') /* Drudge Prowler */
-     , (0x7A0B500B, 0x7A0B500F, '2005-02-09 10:00:00') /* Drudge Slave */
-     , (0x7A0B500B, 0x7A0B5010, '2005-02-09 10:00:00') /* Banderling Blade */
-     , (0x7A0B500B, 0x7A0B5011, '2005-02-09 10:00:00') /* Drudge Slave */
-     , (0x7A0B500B, 0x7A0B5012, '2005-02-09 10:00:00') /* Mountain Rat */
-     , (0x7A0B500B, 0x7A0B5013, '2005-02-09 10:00:00') /* Banderling Blade */
-     , (0x7A0B500B, 0x7A0B5014, '2005-02-09 10:00:00') /* Banderling Blade */
-     , (0x7A0B500B, 0x7A0B5015, '2005-02-09 10:00:00') /* Mountain Rat */;
+VALUES (0x7A0B500B, 0x7A0B5005, '2005-02-09 10:00:00') /* Drudge Prowler (192) */
+     , (0x7A0B500B, 0x7A0B5006, '2005-02-09 10:00:00') /* Drudge Prowler (192) */
+     , (0x7A0B500B, 0x7A0B500F, '2005-02-09 10:00:00') /* Drudge Slave (1632) */
+     , (0x7A0B500B, 0x7A0B5010, '2005-02-09 10:00:00') /* Banderling Blade (7332) */
+     , (0x7A0B500B, 0x7A0B5011, '2005-02-09 10:00:00') /* Drudge Slave (1632) */
+     , (0x7A0B500B, 0x7A0B5012, '2005-02-09 10:00:00') /* Mountain Rat (1625) */
+     , (0x7A0B500B, 0x7A0B5013, '2005-02-09 10:00:00') /* Banderling Blade (7332) */
+     , (0x7A0B500B, 0x7A0B5014, '2005-02-09 10:00:00') /* Banderling Blade (7332) */
+     , (0x7A0B500B, 0x7A0B5015, '2005-02-09 10:00:00') /* Mountain Rat (1625) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A0B500F,  1632, 0xA0B50102, 132.071, 109.98, 76.01, 0.427793, 0, 0, -0.903877,  True, '2005-02-09 10:00:00'); /* Drudge Slave */

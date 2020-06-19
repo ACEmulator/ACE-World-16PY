@@ -109,58 +109,58 @@ VALUES (0x7545701C,  7923, 0x545701C4, 159.525, -84.2437, 0.005, 0.779983, 0, 0,
 /* @teleloc 0x545701C4 [159.525000 -84.243700 0.005000] 0.779983 0.000000 0.000000 0.625801 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7545701C, 0x75457000, '2005-02-09 10:00:00') /* Bronze Statue of a Grievver */
-     , (0x7545701C, 0x75457002, '2005-02-09 10:00:00') /* Bronze Statue of a Shadow */
-     , (0x7545701C, 0x75457004, '2005-02-09 10:00:00') /* Bronze Statue of a Grievver */
-     , (0x7545701C, 0x75457007, '2005-02-09 10:00:00') /* Bronze Statue of a Virindi */
-     , (0x7545701C, 0x7545700A, '2005-02-09 10:00:00') /* Bronze Statue of a Grievver */
-     , (0x7545701C, 0x7545700B, '2005-02-09 10:00:00') /* Bronze Statue of a Grievver */
-     , (0x7545701C, 0x7545700C, '2005-02-09 10:00:00') /* Bronze Statue of a Virindi */
-     , (0x7545701C, 0x7545700D, '2005-02-09 10:00:00') /* Bronze Statue of a Virindi */
-     , (0x7545701C, 0x7545700E, '2005-02-09 10:00:00') /* Bronze Statue of a Shadow */
-     , (0x7545701C, 0x7545700F, '2005-02-09 10:00:00') /* Bronze Statue of a Shadow */
-     , (0x7545701C, 0x75457010, '2005-02-09 10:00:00') /* Bronze Statue of a Virindi */
-     , (0x7545701C, 0x75457011, '2005-02-09 10:00:00') /* Bronze Statue of a Grievver */
-     , (0x7545701C, 0x75457012, '2005-02-09 10:00:00') /* Bronze Statue of a Shadow */
-     , (0x7545701C, 0x75457013, '2005-02-09 10:00:00') /* Bronze Statue of a Shadow */
-     , (0x7545701C, 0x75457014, '2005-02-09 10:00:00') /* Bronze Statue of a Virindi */
-     , (0x7545701C, 0x75457015, '2005-02-09 10:00:00') /* Bronze Statue of a Virindi */
-     , (0x7545701C, 0x75457016, '2005-02-09 10:00:00') /* Bronze Statue of a Shadow */
-     , (0x7545701C, 0x75457017, '2005-02-09 10:00:00') /* Bronze Statue of a Grievver */
-     , (0x7545701C, 0x75457018, '2005-02-09 10:00:00') /* Bronze Statue of a Shadow */
-     , (0x7545701C, 0x75457019, '2005-02-09 10:00:00') /* Bronze Statue of a Grievver */
-     , (0x7545701C, 0x7545701A, '2005-02-09 10:00:00') /* Bronze Statue of a Virindi */
-     , (0x7545701C, 0x7545701B, '2005-02-09 10:00:00') /* Bronze Statue of a Shadow */
-     , (0x7545701C, 0x7545701F, '2005-02-09 10:00:00') /* Bronze Statue of a Shadow */
-     , (0x7545701C, 0x75457021, '2005-02-09 10:00:00') /* Bronze Statue of a Shadow */
-     , (0x7545701C, 0x75457027, '2005-02-09 10:00:00') /* Bronze Statue of a Shadow */
-     , (0x7545701C, 0x75457029, '2005-02-09 10:00:00') /* Bronze Statue of a Shadow */
-     , (0x7545701C, 0x7545702A, '2005-02-09 10:00:00') /* Bronze Statue of a Virindi */
-     , (0x7545701C, 0x7545702B, '2005-02-09 10:00:00') /* Bronze Statue of a Shadow */
-     , (0x7545701C, 0x7545702C, '2005-02-09 10:00:00') /* Bronze Statue of a Grievver */
-     , (0x7545701C, 0x7545702D, '2005-02-09 10:00:00') /* Bronze Statue of a Virindi */
-     , (0x7545701C, 0x7545702E, '2005-02-09 10:00:00') /* Bronze Statue of a Virindi */
-     , (0x7545701C, 0x7545702F, '2005-02-09 10:00:00') /* Bronze Statue of a Virindi */
-     , (0x7545701C, 0x75457030, '2005-02-09 10:00:00') /* Bronze Statue of a Virindi */
-     , (0x7545701C, 0x75457031, '2005-02-09 10:00:00') /* Bronze Statue of a Virindi */
-     , (0x7545701C, 0x75457032, '2005-02-09 10:00:00') /* Bronze Statue of a Virindi */
-     , (0x7545701C, 0x75457033, '2005-02-09 10:00:00') /* Bronze Statue of a Virindi */
-     , (0x7545701C, 0x75457034, '2005-02-09 10:00:00') /* Bronze Statue of a Shadow */;
+VALUES (0x7545701C, 0x75457000, '2005-02-09 10:00:00') /* Bronze Statue of a Grievver (19267) */
+     , (0x7545701C, 0x75457002, '2005-02-09 10:00:00') /* Bronze Statue of a Shadow (19270) */
+     , (0x7545701C, 0x75457004, '2005-02-09 10:00:00') /* Bronze Statue of a Grievver (19267) */
+     , (0x7545701C, 0x75457007, '2005-02-09 10:00:00') /* Bronze Statue of a Virindi (19273) */
+     , (0x7545701C, 0x7545700A, '2005-02-09 10:00:00') /* Bronze Statue of a Grievver (19267) */
+     , (0x7545701C, 0x7545700B, '2005-02-09 10:00:00') /* Bronze Statue of a Grievver (19267) */
+     , (0x7545701C, 0x7545700C, '2005-02-09 10:00:00') /* Bronze Statue of a Virindi (19273) */
+     , (0x7545701C, 0x7545700D, '2005-02-09 10:00:00') /* Bronze Statue of a Virindi (19273) */
+     , (0x7545701C, 0x7545700E, '2005-02-09 10:00:00') /* Bronze Statue of a Shadow (19270) */
+     , (0x7545701C, 0x7545700F, '2005-02-09 10:00:00') /* Bronze Statue of a Shadow (19270) */
+     , (0x7545701C, 0x75457010, '2005-02-09 10:00:00') /* Bronze Statue of a Virindi (19273) */
+     , (0x7545701C, 0x75457011, '2005-02-09 10:00:00') /* Bronze Statue of a Grievver (19267) */
+     , (0x7545701C, 0x75457012, '2005-02-09 10:00:00') /* Bronze Statue of a Shadow (19270) */
+     , (0x7545701C, 0x75457013, '2005-02-09 10:00:00') /* Bronze Statue of a Shadow (19270) */
+     , (0x7545701C, 0x75457014, '2005-02-09 10:00:00') /* Bronze Statue of a Virindi (19273) */
+     , (0x7545701C, 0x75457015, '2005-02-09 10:00:00') /* Bronze Statue of a Virindi (19273) */
+     , (0x7545701C, 0x75457016, '2005-02-09 10:00:00') /* Bronze Statue of a Shadow (19270) */
+     , (0x7545701C, 0x75457017, '2005-02-09 10:00:00') /* Bronze Statue of a Grievver (19267) */
+     , (0x7545701C, 0x75457018, '2005-02-09 10:00:00') /* Bronze Statue of a Shadow (19270) */
+     , (0x7545701C, 0x75457019, '2005-02-09 10:00:00') /* Bronze Statue of a Grievver (19267) */
+     , (0x7545701C, 0x7545701A, '2005-02-09 10:00:00') /* Bronze Statue of a Virindi (19273) */
+     , (0x7545701C, 0x7545701B, '2005-02-09 10:00:00') /* Bronze Statue of a Shadow (19270) */
+     , (0x7545701C, 0x7545701F, '2005-02-09 10:00:00') /* Bronze Statue of a Shadow (19270) */
+     , (0x7545701C, 0x75457021, '2005-02-09 10:00:00') /* Bronze Statue of a Shadow (19270) */
+     , (0x7545701C, 0x75457027, '2005-02-09 10:00:00') /* Bronze Statue of a Shadow (19270) */
+     , (0x7545701C, 0x75457029, '2005-02-09 10:00:00') /* Bronze Statue of a Shadow (19270) */
+     , (0x7545701C, 0x7545702A, '2005-02-09 10:00:00') /* Bronze Statue of a Virindi (19273) */
+     , (0x7545701C, 0x7545702B, '2005-02-09 10:00:00') /* Bronze Statue of a Shadow (19270) */
+     , (0x7545701C, 0x7545702C, '2005-02-09 10:00:00') /* Bronze Statue of a Grievver (19267) */
+     , (0x7545701C, 0x7545702D, '2005-02-09 10:00:00') /* Bronze Statue of a Virindi (19273) */
+     , (0x7545701C, 0x7545702E, '2005-02-09 10:00:00') /* Bronze Statue of a Virindi (19273) */
+     , (0x7545701C, 0x7545702F, '2005-02-09 10:00:00') /* Bronze Statue of a Virindi (19273) */
+     , (0x7545701C, 0x75457030, '2005-02-09 10:00:00') /* Bronze Statue of a Virindi (19273) */
+     , (0x7545701C, 0x75457031, '2005-02-09 10:00:00') /* Bronze Statue of a Virindi (19273) */
+     , (0x7545701C, 0x75457032, '2005-02-09 10:00:00') /* Bronze Statue of a Virindi (19273) */
+     , (0x7545701C, 0x75457033, '2005-02-09 10:00:00') /* Bronze Statue of a Virindi (19273) */
+     , (0x7545701C, 0x75457034, '2005-02-09 10:00:00') /* Bronze Statue of a Shadow (19270) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7545701D, 15274, 0x545701C6, 159.505, -96.73, 0.005, 0.670834, 0, 0, 0.741607, False, '2005-02-09 10:00:00'); /* Linkable Monster Gen (1 min.) */
 /* @teleloc 0x545701C6 [159.505000 -96.730000 0.005000] 0.670834 0.000000 0.000000 0.741607 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7545701D, 0x75457001, '2005-02-09 10:00:00') /* Bronze Statue of a Grievver */
-     , (0x7545701D, 0x75457003, '2005-02-09 10:00:00') /* Bronze Statue of a Grievver */
-     , (0x7545701D, 0x75457008, '2005-02-09 10:00:00') /* Bronze Statue of a Grievver */
-     , (0x7545701D, 0x75457009, '2005-02-09 10:00:00') /* Bronze Statue of a Grievver */
-     , (0x7545701D, 0x75457020, '2005-02-09 10:00:00') /* Bronze Statue of a Shadow */
-     , (0x7545701D, 0x75457022, '2005-02-09 10:00:00') /* Bronze Statue of a Shadow */
-     , (0x7545701D, 0x75457025, '2005-02-09 10:00:00') /* Bronze Statue of a Shadow */
-     , (0x7545701D, 0x75457026, '2005-02-09 10:00:00') /* Bronze Statue of a Shadow */
-     , (0x7545701D, 0x75457028, '2005-02-09 10:00:00') /* Bronze Statue of a Shadow */;
+VALUES (0x7545701D, 0x75457001, '2005-02-09 10:00:00') /* Bronze Statue of a Grievver (19267) */
+     , (0x7545701D, 0x75457003, '2005-02-09 10:00:00') /* Bronze Statue of a Grievver (19267) */
+     , (0x7545701D, 0x75457008, '2005-02-09 10:00:00') /* Bronze Statue of a Grievver (19267) */
+     , (0x7545701D, 0x75457009, '2005-02-09 10:00:00') /* Bronze Statue of a Grievver (19267) */
+     , (0x7545701D, 0x75457020, '2005-02-09 10:00:00') /* Bronze Statue of a Shadow (19270) */
+     , (0x7545701D, 0x75457022, '2005-02-09 10:00:00') /* Bronze Statue of a Shadow (19270) */
+     , (0x7545701D, 0x75457025, '2005-02-09 10:00:00') /* Bronze Statue of a Shadow (19270) */
+     , (0x7545701D, 0x75457026, '2005-02-09 10:00:00') /* Bronze Statue of a Shadow (19270) */
+     , (0x7545701D, 0x75457028, '2005-02-09 10:00:00') /* Bronze Statue of a Shadow (19270) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7545701E, 19131, 0x545701C7, 156.356, -109.867, 0.005, 0.714421, 0, 0, -0.699716, False, '2005-02-09 10:00:00'); /* Portal to Fort Tethana */

@@ -5,8 +5,8 @@ VALUES (0x7644A000,  2180, 0x644A0101, 20, -66.9483, -47.995, 1, 0, 0, 0, False,
 /* @teleloc 0x644A0101 [20.000000 -66.948300 -47.995000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7644A000, 0x7644A003, '2005-02-09 10:00:00') /* Pressure Plate */
-     , (0x7644A000, 0x7644A06D, '2005-02-09 10:00:00') /* Lever */;
+VALUES (0x7644A000, 0x7644A003, '2005-02-09 10:00:00') /* Pressure Plate (298) */
+     , (0x7644A000, 0x7644A06D, '2005-02-09 10:00:00') /* Lever (285) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7644A001,  5398, 0x644A0108, 40, -80, -47.995, 1, 0, 0, 0, False, '2005-02-09 10:00:00'); /* Chilling Light Fog */
@@ -33,15 +33,15 @@ VALUES (0x7644A00A,  2180, 0x644A0181, 101.92, -50, -35.995, 0.707107, 0, 0, -0.
 /* @teleloc 0x644A0181 [101.920000 -50.000000 -35.995000] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7644A00A, 0x7644A010, '2005-02-09 10:00:00') /* Lever */;
+VALUES (0x7644A00A, 0x7644A010, '2005-02-09 10:00:00') /* Lever (2609) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7644A00B,  2180, 0x644A018C, 115.248, -50, -35.918, 0.707107, 0, 0, -0.707107, False, '2005-02-09 10:00:00'); /* Door */
 /* @teleloc 0x644A018C [115.248000 -50.000000 -35.918000] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7644A00B, 0x7644A00E, '2005-02-09 10:00:00') /* Lever */
-     , (0x7644A00B, 0x7644A073, '2005-02-09 10:00:00') /* Lever */;
+VALUES (0x7644A00B, 0x7644A00E, '2005-02-09 10:00:00') /* Lever (2609) */
+     , (0x7644A00B, 0x7644A073, '2005-02-09 10:00:00') /* Lever (286) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7644A00E,  2609, 0x644A0197, 140, -30, -35.995, 1, 0, 0, -4.37114E-08,  True, '2005-02-09 10:00:00'); /* Lever */
@@ -52,8 +52,8 @@ VALUES (0x7644A00F,  2179, 0x644A0199, 140, -34.7471, -35.995, 1, 0, 0, -4.37114
 /* @teleloc 0x644A0199 [140.000000 -34.747100 -35.995000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7644A00F, 0x7644A014, '2005-02-09 10:00:00') /* Lever */
-     , (0x7644A00F, 0x7644A076, '2005-02-09 10:00:00') /* Lever */;
+VALUES (0x7644A00F, 0x7644A014, '2005-02-09 10:00:00') /* Lever (2609) */
+     , (0x7644A00F, 0x7644A076, '2005-02-09 10:00:00') /* Lever (286) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7644A010,  2609, 0x644A019C, 140, -70, -35.995, 0, 0, 0, -1,  True, '2005-02-09 10:00:00'); /* Lever */
@@ -64,8 +64,8 @@ VALUES (0x7644A011,  2179, 0x644A019E, 139.998, -65.255, -35.995, 0, 0, 0, -1, F
 /* @teleloc 0x644A019E [139.998000 -65.255000 -35.995000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7644A011, 0x7644A016, '2005-02-09 10:00:00') /* Lever */
-     , (0x7644A011, 0x7644A077, '2005-02-09 10:00:00') /* Lever */;
+VALUES (0x7644A011, 0x7644A016, '2005-02-09 10:00:00') /* Lever (2609) */
+     , (0x7644A011, 0x7644A077, '2005-02-09 10:00:00') /* Lever (286) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7644A013,  5624, 0x644A01C5, 114.735, -50, -29.995, 0.707107, 0, 0, -0.707107, False, '2005-02-09 10:00:00'); /* Door */
@@ -100,8 +100,8 @@ VALUES (0x7644A01A,  2180, 0x644A01E8, 120, -35.2419, -23.995, 1, 0, 0, 0, False
 /* @teleloc 0x644A01E8 [120.000000 -35.241900 -23.995000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7644A01A, 0x7644A019, '2005-02-09 10:00:00') /* Lever */
-     , (0x7644A01A, 0x7644A01B, '2005-02-09 10:00:00') /* Lever */;
+VALUES (0x7644A01A, 0x7644A019, '2005-02-09 10:00:00') /* Lever (286) */
+     , (0x7644A01A, 0x7644A01B, '2005-02-09 10:00:00') /* Lever (286) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7644A01B,   286, 0x644A0201, 139.975, -81.5583, -22.5, 0, 0, 0, -1,  True, '2005-02-09 10:00:00'); /* Lever */
@@ -120,7 +120,7 @@ VALUES (0x7644A01E,  2179, 0x644A0216, 168.091, -40.0013, -23.918, 0.707107, 0, 
 /* @teleloc 0x644A0216 [168.091000 -40.001300 -23.918000] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7644A01E, 0x7644A018, '2005-02-09 10:00:00') /* Lever */;
+VALUES (0x7644A01E, 0x7644A018, '2005-02-09 10:00:00') /* Lever (2609) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7644A01F,   286, 0x644A0226, 43.2578, -35.6051, -16.5, 1, 0, 0, 0,  True, '2005-02-09 10:00:00'); /* Lever */
@@ -179,21 +179,21 @@ VALUES (0x7644A02D,  8548, 0x644A0226, 37.234, -43.789, -17, -0.0106292, 0, 0, -
 /* @teleloc 0x644A0226 [37.234000 -43.789000 -17.000000] -0.010629 0.000000 0.000000 -0.999943 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7644A02D, 0x7644A027, '2005-02-09 10:00:00') /* Lever */;
+VALUES (0x7644A02D, 0x7644A027, '2005-02-09 10:00:00') /* Lever (286) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7644A02F,  7383, 0x644A0226, 38.637, -39.249, -16, -0.707274, 0, 0, -0.70694, False, '2005-02-09 10:00:00'); /* Empyrean magical defense battery */
 /* @teleloc 0x644A0226 [38.637000 -39.249000 -16.000000] -0.707274 0.000000 0.000000 -0.706940 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7644A02F, 0x7644A023, '2005-02-09 10:00:00') /* Lever */;
+VALUES (0x7644A02F, 0x7644A023, '2005-02-09 10:00:00') /* Lever (286) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7644A030,  4077, 0x644A0226, 39.33, -38.653, -16, 0.99989, 0, 0, -0.0148351, False, '2005-02-09 10:00:00'); /* Magic trap */
 /* @teleloc 0x644A0226 [39.330000 -38.653000 -16.000000] 0.999890 0.000000 0.000000 -0.014835 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7644A030, 0x7644A021, '2005-02-09 10:00:00') /* Lever */;
+VALUES (0x7644A030, 0x7644A021, '2005-02-09 10:00:00') /* Lever (286) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7644A032,  2609, 0x644A0229, 37.352, -50, -17.995, 1, 0, 0, 0,  True, '2005-02-09 10:00:00'); /* Lever */
@@ -204,8 +204,8 @@ VALUES (0x7644A033,  2180, 0x644A022B, 44.7439, -49.9956, -17.995, 0.707107, 0, 
 /* @teleloc 0x644A022B [44.743900 -49.995600 -17.995000] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7644A033, 0x7644A024, '2005-02-09 10:00:00') /* Lever */
-     , (0x7644A033, 0x7644A11B, '2005-02-09 10:00:00') /* Lever */;
+VALUES (0x7644A033, 0x7644A024, '2005-02-09 10:00:00') /* Lever (286) */
+     , (0x7644A033, 0x7644A11B, '2005-02-09 10:00:00') /* Lever (286) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7644A034,   854, 0x644A0267, 90, -70, -17.995, 0.707107, 0, 0, -0.707107, False, '2005-02-09 10:00:00'); /* Altar of Bael'Zharon */
@@ -260,15 +260,15 @@ VALUES (0x7644A040,  2180, 0x644A02CF, 54.7476, -60, -17.995, 0.707107, 0, 0, -0
 /* @teleloc 0x644A02CF [54.747600 -60.000000 -17.995000] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7644A040, 0x7644A032, '2005-02-09 10:00:00') /* Lever */
-     , (0x7644A040, 0x7644A11D, '2005-02-09 10:00:00') /* Lever */;
+VALUES (0x7644A040, 0x7644A032, '2005-02-09 10:00:00') /* Lever (2609) */
+     , (0x7644A040, 0x7644A11D, '2005-02-09 10:00:00') /* Lever (286) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7644A041,  2180, 0x644A02D0, 50.0077, -64.7573, -11.995, 1, 0, 0, 0, False, '2005-02-09 10:00:00'); /* Door */
 /* @teleloc 0x644A02D0 [50.007700 -64.757300 -11.995000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7644A041, 0x7644A01F, '2005-02-09 10:00:00') /* Lever */;
+VALUES (0x7644A041, 0x7644A01F, '2005-02-09 10:00:00') /* Lever (286) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7644A042,  5624, 0x644A02E8, 104.742, -60, -11.995, 0.707107, 0, 0, -0.707107, False, '2005-02-09 10:00:00'); /* Door */
@@ -355,7 +355,7 @@ VALUES (0x7644A056,  2180, 0x644A038D, 121.957, -30, 0.005, 0.707107, 0, 0, -0.7
 /* @teleloc 0x644A038D [121.957000 -30.000000 0.005000] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7644A056, 0x7644A06A, '2005-02-09 10:00:00') /* Lever */;
+VALUES (0x7644A056, 0x7644A06A, '2005-02-09 10:00:00') /* Lever (2609) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7644A057,  8419, 0x644A0390, 118.934, -45.6069, 1.5, 1, 0, 0, -0.000375486,  True, '2005-02-09 10:00:00'); /* Button */
@@ -374,8 +374,8 @@ VALUES (0x7644A05A,  2179, 0x644A0395, 134.751, 1.6262E-07, 0.005, 0.707107, 0, 
 /* @teleloc 0x644A0395 [134.751000 0.000000 0.005000] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7644A05A, 0x7644A059, '2005-02-09 10:00:00') /* Lever */
-     , (0x7644A05A, 0x7644A067, '2005-02-09 10:00:00') /* Button */;
+VALUES (0x7644A05A, 0x7644A059, '2005-02-09 10:00:00') /* Lever (286) */
+     , (0x7644A05A, 0x7644A067, '2005-02-09 10:00:00') /* Button (8419) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7644A05B,   286, 0x644A0396, 127.065, -5.60201, 1.5, 0.999981, 0, 0, -0.00612566,  True, '2005-02-09 10:00:00'); /* Lever */
@@ -394,9 +394,9 @@ VALUES (0x7644A05E,  2179, 0x644A0398, 134.732, -9.99028, 0.005, 0.707107, 0, 0,
 /* @teleloc 0x644A0398 [134.732000 -9.990280 0.005000] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7644A05E, 0x7644A058, '2005-02-09 10:00:00') /* Button */
-     , (0x7644A05E, 0x7644A05C, '2005-02-09 10:00:00') /* Lever */
-     , (0x7644A05E, 0x7644A05D, '2005-02-09 10:00:00') /* Lever */;
+VALUES (0x7644A05E, 0x7644A058, '2005-02-09 10:00:00') /* Button (8420) */
+     , (0x7644A05E, 0x7644A05C, '2005-02-09 10:00:00') /* Lever (286) */
+     , (0x7644A05E, 0x7644A05D, '2005-02-09 10:00:00') /* Lever (286) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7644A05F,  8419, 0x644A0399, 133.919, -15.6052, 1.5, 0.999961, 0, 0, -0.00885725,  True, '2005-02-09 10:00:00'); /* Button */
@@ -411,8 +411,8 @@ VALUES (0x7644A061,  2179, 0x644A039B, 134.748, -19.9986, 0.005, 0.707107, 0, 0,
 /* @teleloc 0x644A039B [134.748000 -19.998600 0.005000] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7644A061, 0x7644A060, '2005-02-09 10:00:00') /* Lever */
-     , (0x7644A061, 0x7644A064, '2005-02-09 10:00:00') /* Lever */;
+VALUES (0x7644A061, 0x7644A060, '2005-02-09 10:00:00') /* Lever (286) */
+     , (0x7644A061, 0x7644A064, '2005-02-09 10:00:00') /* Lever (286) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7644A062,  5624, 0x644A03A2, 139.999, -11.4164, 0.005, 1, 0, 0, 0, False, '2005-02-09 10:00:00'); /* Door */
@@ -435,8 +435,8 @@ VALUES (0x7644A066,  2179, 0x644A03B2, 145.261, 0.00133716, 0.005, -0.707107, 0,
 /* @teleloc 0x644A03B2 [145.261000 0.001337 0.005000] -0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7644A066, 0x7644A057, '2005-02-09 10:00:00') /* Button */
-     , (0x7644A066, 0x7644A065, '2005-02-09 10:00:00') /* Lever */;
+VALUES (0x7644A066, 0x7644A057, '2005-02-09 10:00:00') /* Button (8419) */
+     , (0x7644A066, 0x7644A065, '2005-02-09 10:00:00') /* Lever (286) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7644A067,  8419, 0x644A03B3, 153.579, -14.3872, 1.5, 0, 0, 0, -1,  True, '2005-02-09 10:00:00'); /* Button */
@@ -451,8 +451,8 @@ VALUES (0x7644A069,  2179, 0x644A03B5, 145.249, -10.0027, 0.005, -0.707107, 0, 0
 /* @teleloc 0x644A03B5 [145.249000 -10.002700 0.005000] -0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7644A069, 0x7644A05F, '2005-02-09 10:00:00') /* Button */
-     , (0x7644A069, 0x7644A068, '2005-02-09 10:00:00') /* Lever */;
+VALUES (0x7644A069, 0x7644A05F, '2005-02-09 10:00:00') /* Button (8419) */
+     , (0x7644A069, 0x7644A068, '2005-02-09 10:00:00') /* Lever (286) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7644A06A,  2609, 0x644A03B6, 153.982, -20, 0.005, 1, 0, 0, 0,  True, '2005-02-09 10:00:00'); /* Lever */
@@ -467,8 +467,8 @@ VALUES (0x7644A06C,  2179, 0x644A03B8, 145.251, -19.9969, 0.005, -0.707107, 0, 0
 /* @teleloc 0x644A03B8 [145.251000 -19.996900 0.005000] -0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7644A06C, 0x7644A05B, '2005-02-09 10:00:00') /* Lever */
-     , (0x7644A06C, 0x7644A06B, '2005-02-09 10:00:00') /* Lever */;
+VALUES (0x7644A06C, 0x7644A05B, '2005-02-09 10:00:00') /* Lever (286) */
+     , (0x7644A06C, 0x7644A06B, '2005-02-09 10:00:00') /* Lever (286) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7644A06D,   285, 0x644A0100, 23.3774, -64.8881, -47, 0.0197467, 0, 0, -0.999805,  True, '2005-02-09 10:00:00'); /* Lever */
@@ -491,14 +491,14 @@ VALUES (0x7644A071,  7384, 0x644A0226, 41.333, -41.658, -16, -0.0106292, 0, 0, -
 /* @teleloc 0x644A0226 [41.333000 -41.658000 -16.000000] -0.010629 0.000000 0.000000 -0.999943 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7644A071, 0x7644A029, '2005-02-09 10:00:00') /* Lever */;
+VALUES (0x7644A071, 0x7644A029, '2005-02-09 10:00:00') /* Lever (286) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7644A072,  7444, 0x644A0226, 38.655, -40.742, -16, -0.707274, 0, 0, -0.70694, False, '2005-02-09 10:00:00'); /* Flame Trap */
 /* @teleloc 0x644A0226 [38.655000 -40.742000 -16.000000] -0.707274 0.000000 0.000000 -0.706940 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7644A072, 0x7644A026, '2005-02-09 10:00:00') /* Lever */;
+VALUES (0x7644A072, 0x7644A026, '2005-02-09 10:00:00') /* Lever (286) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7644A073,   286, 0x644A0189, 108.866, -51.5645, -34.5, -0.009582, 0, 0, -0.999954,  True, '2005-02-09 10:00:00'); /* Lever */
@@ -821,9 +821,9 @@ VALUES (0x7644A0C2,  7924, 0x644A0266, 90.4319, -63.3358, -16.3392, -0.946064, 0
 /* @teleloc 0x644A0266 [90.431900 -63.335800 -16.339200] -0.946064 0.000000 0.000000 -0.323980 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7644A0C2, 0x7644A0BC, '2005-02-09 10:00:00') /* Rayssid Ibn Alhath */
-     , (0x7644A0C2, 0x7644A0BD, '2005-02-09 10:00:00') /* Rheth Al'Thok */
-     , (0x7644A0C2, 0x7644A0BE, '2005-02-09 10:00:00') /* Tiyol Ibn Yufaj */;
+VALUES (0x7644A0C2, 0x7644A0BC, '2005-02-09 10:00:00') /* Rayssid Ibn Alhath (25967) */
+     , (0x7644A0C2, 0x7644A0BD, '2005-02-09 10:00:00') /* Rheth Al'Thok (25968) */
+     , (0x7644A0C2, 0x7644A0BE, '2005-02-09 10:00:00') /* Tiyol Ibn Yufaj (25969) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7644A0C3,  4254, 0x644A0267, 86.352, -70, -17.995, 0.696707, 0, 0, 0.717356,  True, '2005-02-09 10:00:00'); /* Umbris Shadow */
@@ -1146,167 +1146,167 @@ VALUES (0x7644A113,  3955, 0x644A0390, 117.13, -51.9252, 0.005, -0.927395, 0, 0,
 /* @teleloc 0x644A0390 [117.130000 -51.925200 0.005000] -0.927395 0.000000 0.000000 0.374083 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7644A113, 0x7644A112, '2005-02-09 10:00:00') /* Yalik Ibn Ujsef */;
+VALUES (0x7644A113, 0x7644A112, '2005-02-09 10:00:00') /* Yalik Ibn Ujsef (25974) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7644A114,  7932, 0x644A03AB, 136.31, -46.2243, 0.005, 0.941922, 0, 0, 0.335832, False, '2005-02-09 10:00:00'); /* Linkable Monster Generator ( 4 Min.) */
 /* @teleloc 0x644A03AB [136.310000 -46.224300 0.005000] 0.941922 0.000000 0.000000 0.335832 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7644A114, 0x7644A079, '2005-02-09 10:00:00') /* Crazed Zharalim */
-     , (0x7644A114, 0x7644A07A, '2005-02-09 10:00:00') /* Demented Zharalim */
-     , (0x7644A114, 0x7644A07B, '2005-02-09 10:00:00') /* Crazed Zharalim */
-     , (0x7644A114, 0x7644A07C, '2005-02-09 10:00:00') /* Crazed Zharalim */
-     , (0x7644A114, 0x7644A07D, '2005-02-09 10:00:00') /* Umbris Shadow */
-     , (0x7644A114, 0x7644A07E, '2005-02-09 10:00:00') /* Maddened Zharalim */
-     , (0x7644A114, 0x7644A07F, '2005-02-09 10:00:00') /* Umbris Shadow */
-     , (0x7644A114, 0x7644A080, '2005-02-09 10:00:00') /* Maddened Zharalim */
-     , (0x7644A114, 0x7644A081, '2005-02-09 10:00:00') /* Demented Zharalim */
-     , (0x7644A114, 0x7644A082, '2005-02-09 10:00:00') /* Shadow Lieutenant */
-     , (0x7644A114, 0x7644A083, '2005-02-09 10:00:00') /* Panumbris Shadow */
-     , (0x7644A114, 0x7644A084, '2005-02-09 10:00:00') /* Crazed Zharalim */
-     , (0x7644A114, 0x7644A085, '2005-02-09 10:00:00') /* Maddened Zharalim */
-     , (0x7644A114, 0x7644A086, '2005-02-09 10:00:00') /* Panumbris Shadow */
-     , (0x7644A114, 0x7644A087, '2005-02-09 10:00:00') /* Umbris Shadow */
-     , (0x7644A114, 0x7644A088, '2005-02-09 10:00:00') /* Demented Zharalim */
-     , (0x7644A114, 0x7644A089, '2005-02-09 10:00:00') /* Shadow Lieutenant */
-     , (0x7644A114, 0x7644A08A, '2005-02-09 10:00:00') /* Panumbris Shadow */
-     , (0x7644A114, 0x7644A08B, '2005-02-09 10:00:00') /* Panumbris Shadow */
-     , (0x7644A114, 0x7644A08C, '2005-02-09 10:00:00') /* Panumbris Shadow */
-     , (0x7644A114, 0x7644A08D, '2005-02-09 10:00:00') /* Shadow Lieutenant */
-     , (0x7644A114, 0x7644A08E, '2005-02-09 10:00:00') /* Panumbris Shadow */
-     , (0x7644A114, 0x7644A0AA, '2005-02-09 10:00:00') /* Maddened Zharalim */
-     , (0x7644A114, 0x7644A0AB, '2005-02-09 10:00:00') /* Demented Zharalim */
-     , (0x7644A114, 0x7644A0AC, '2005-02-09 10:00:00') /* Crazed Zharalim */
-     , (0x7644A114, 0x7644A0AD, '2005-02-09 10:00:00') /* Shadow Lieutenant */
-     , (0x7644A114, 0x7644A0AE, '2005-02-09 10:00:00') /* Maddened Zharalim */
-     , (0x7644A114, 0x7644A0AF, '2005-02-09 10:00:00') /* Small Shadow Child */
-     , (0x7644A114, 0x7644A0B0, '2005-02-09 10:00:00') /* Maddened Zharalim */
-     , (0x7644A114, 0x7644A0B4, '2005-02-09 10:00:00') /* Panumbris Shadow */
-     , (0x7644A114, 0x7644A0B5, '2005-02-09 10:00:00') /* Shadow Child */
-     , (0x7644A114, 0x7644A0B6, '2005-02-09 10:00:00') /* Small Shadow Child */
-     , (0x7644A114, 0x7644A0B7, '2005-02-09 10:00:00') /* Small Shadow Child */
-     , (0x7644A114, 0x7644A0B8, '2005-02-09 10:00:00') /* Small Shadow Child */
-     , (0x7644A114, 0x7644A0B9, '2005-02-09 10:00:00') /* Umbris Shadow */
-     , (0x7644A114, 0x7644A0BA, '2005-02-09 10:00:00') /* Small Shadow Child */
-     , (0x7644A114, 0x7644A0BB, '2005-02-09 10:00:00') /* Small Shadow Child */
-     , (0x7644A114, 0x7644A0C0, '2005-02-09 10:00:00') /* Crazed Zharalim */
-     , (0x7644A114, 0x7644A0C1, '2005-02-09 10:00:00') /* Maddened Zharalim */
-     , (0x7644A114, 0x7644A0D1, '2005-02-09 10:00:00') /* Shadow Lieutenant */
-     , (0x7644A114, 0x7644A0D2, '2005-02-09 10:00:00') /* Crazed Zharalim */
-     , (0x7644A114, 0x7644A0D3, '2005-02-09 10:00:00') /* Demented Zharalim */
-     , (0x7644A114, 0x7644A0D4, '2005-02-09 10:00:00') /* Shadow Sprite */
-     , (0x7644A114, 0x7644A0D5, '2005-02-09 10:00:00') /* Shadow Sprite */
-     , (0x7644A114, 0x7644A0D6, '2005-02-09 10:00:00') /* Crazed Zharalim */
-     , (0x7644A114, 0x7644A0D7, '2005-02-09 10:00:00') /* Maddened Zharalim */
-     , (0x7644A114, 0x7644A0D8, '2005-02-09 10:00:00') /* Crazed Zharalim */
-     , (0x7644A114, 0x7644A0F3, '2005-02-09 10:00:00') /* Demented Zharalim */
-     , (0x7644A114, 0x7644A0F4, '2005-02-09 10:00:00') /* Crazed Zharalim */
-     , (0x7644A114, 0x7644A0F5, '2005-02-09 10:00:00') /* Maddened Zharalim */
-     , (0x7644A114, 0x7644A0F6, '2005-02-09 10:00:00') /* Crazed Zharalim */
-     , (0x7644A114, 0x7644A0F7, '2005-02-09 10:00:00') /* Demented Zharalim */
-     , (0x7644A114, 0x7644A0FC, '2005-02-09 10:00:00') /* Maddened Zharalim */
-     , (0x7644A114, 0x7644A0FD, '2005-02-09 10:00:00') /* Maddened Zharalim */
-     , (0x7644A114, 0x7644A0FE, '2005-02-09 10:00:00') /* Maddened Zharalim */
-     , (0x7644A114, 0x7644A0FF, '2005-02-09 10:00:00') /* Demented Zharalim */
-     , (0x7644A114, 0x7644A104, '2005-02-09 10:00:00') /* Crazed Zharalim */
-     , (0x7644A114, 0x7644A105, '2005-02-09 10:00:00') /* Crazed Zharalim */
-     , (0x7644A114, 0x7644A108, '2005-02-09 10:00:00') /* Crazed Zharalim */
-     , (0x7644A114, 0x7644A109, '2005-02-09 10:00:00') /* Demented Zharalim */
-     , (0x7644A114, 0x7644A10A, '2005-02-09 10:00:00') /* Demented Zharalim */
-     , (0x7644A114, 0x7644A10D, '2005-02-09 10:00:00') /* Crazed Zharalim */;
+VALUES (0x7644A114, 0x7644A079, '2005-02-09 10:00:00') /* Crazed Zharalim (25962) */
+     , (0x7644A114, 0x7644A07A, '2005-02-09 10:00:00') /* Demented Zharalim (25964) */
+     , (0x7644A114, 0x7644A07B, '2005-02-09 10:00:00') /* Crazed Zharalim (25961) */
+     , (0x7644A114, 0x7644A07C, '2005-02-09 10:00:00') /* Crazed Zharalim (25961) */
+     , (0x7644A114, 0x7644A07D, '2005-02-09 10:00:00') /* Umbris Shadow (4254) */
+     , (0x7644A114, 0x7644A07E, '2005-02-09 10:00:00') /* Maddened Zharalim (25966) */
+     , (0x7644A114, 0x7644A07F, '2005-02-09 10:00:00') /* Umbris Shadow (4254) */
+     , (0x7644A114, 0x7644A080, '2005-02-09 10:00:00') /* Maddened Zharalim (25965) */
+     , (0x7644A114, 0x7644A081, '2005-02-09 10:00:00') /* Demented Zharalim (25963) */
+     , (0x7644A114, 0x7644A082, '2005-02-09 10:00:00') /* Shadow Lieutenant (1757) */
+     , (0x7644A114, 0x7644A083, '2005-02-09 10:00:00') /* Panumbris Shadow (4253) */
+     , (0x7644A114, 0x7644A084, '2005-02-09 10:00:00') /* Crazed Zharalim (25961) */
+     , (0x7644A114, 0x7644A085, '2005-02-09 10:00:00') /* Maddened Zharalim (25965) */
+     , (0x7644A114, 0x7644A086, '2005-02-09 10:00:00') /* Panumbris Shadow (4253) */
+     , (0x7644A114, 0x7644A087, '2005-02-09 10:00:00') /* Umbris Shadow (4254) */
+     , (0x7644A114, 0x7644A088, '2005-02-09 10:00:00') /* Demented Zharalim (25963) */
+     , (0x7644A114, 0x7644A089, '2005-02-09 10:00:00') /* Shadow Lieutenant (1757) */
+     , (0x7644A114, 0x7644A08A, '2005-02-09 10:00:00') /* Panumbris Shadow (4253) */
+     , (0x7644A114, 0x7644A08B, '2005-02-09 10:00:00') /* Panumbris Shadow (4253) */
+     , (0x7644A114, 0x7644A08C, '2005-02-09 10:00:00') /* Panumbris Shadow (4253) */
+     , (0x7644A114, 0x7644A08D, '2005-02-09 10:00:00') /* Shadow Lieutenant (1757) */
+     , (0x7644A114, 0x7644A08E, '2005-02-09 10:00:00') /* Panumbris Shadow (4253) */
+     , (0x7644A114, 0x7644A0AA, '2005-02-09 10:00:00') /* Maddened Zharalim (25966) */
+     , (0x7644A114, 0x7644A0AB, '2005-02-09 10:00:00') /* Demented Zharalim (25963) */
+     , (0x7644A114, 0x7644A0AC, '2005-02-09 10:00:00') /* Crazed Zharalim (25962) */
+     , (0x7644A114, 0x7644A0AD, '2005-02-09 10:00:00') /* Shadow Lieutenant (1757) */
+     , (0x7644A114, 0x7644A0AE, '2005-02-09 10:00:00') /* Maddened Zharalim (25965) */
+     , (0x7644A114, 0x7644A0AF, '2005-02-09 10:00:00') /* Small Shadow Child (6535) */
+     , (0x7644A114, 0x7644A0B0, '2005-02-09 10:00:00') /* Maddened Zharalim (25966) */
+     , (0x7644A114, 0x7644A0B4, '2005-02-09 10:00:00') /* Panumbris Shadow (4253) */
+     , (0x7644A114, 0x7644A0B5, '2005-02-09 10:00:00') /* Shadow Child (1756) */
+     , (0x7644A114, 0x7644A0B6, '2005-02-09 10:00:00') /* Small Shadow Child (6535) */
+     , (0x7644A114, 0x7644A0B7, '2005-02-09 10:00:00') /* Small Shadow Child (6535) */
+     , (0x7644A114, 0x7644A0B8, '2005-02-09 10:00:00') /* Small Shadow Child (6535) */
+     , (0x7644A114, 0x7644A0B9, '2005-02-09 10:00:00') /* Umbris Shadow (4254) */
+     , (0x7644A114, 0x7644A0BA, '2005-02-09 10:00:00') /* Small Shadow Child (6535) */
+     , (0x7644A114, 0x7644A0BB, '2005-02-09 10:00:00') /* Small Shadow Child (6535) */
+     , (0x7644A114, 0x7644A0C0, '2005-02-09 10:00:00') /* Crazed Zharalim (25961) */
+     , (0x7644A114, 0x7644A0C1, '2005-02-09 10:00:00') /* Maddened Zharalim (25965) */
+     , (0x7644A114, 0x7644A0D1, '2005-02-09 10:00:00') /* Shadow Lieutenant (1757) */
+     , (0x7644A114, 0x7644A0D2, '2005-02-09 10:00:00') /* Crazed Zharalim (25962) */
+     , (0x7644A114, 0x7644A0D3, '2005-02-09 10:00:00') /* Demented Zharalim (25963) */
+     , (0x7644A114, 0x7644A0D4, '2005-02-09 10:00:00') /* Shadow Sprite (6534) */
+     , (0x7644A114, 0x7644A0D5, '2005-02-09 10:00:00') /* Shadow Sprite (6534) */
+     , (0x7644A114, 0x7644A0D6, '2005-02-09 10:00:00') /* Crazed Zharalim (25961) */
+     , (0x7644A114, 0x7644A0D7, '2005-02-09 10:00:00') /* Maddened Zharalim (25966) */
+     , (0x7644A114, 0x7644A0D8, '2005-02-09 10:00:00') /* Crazed Zharalim (25962) */
+     , (0x7644A114, 0x7644A0F3, '2005-02-09 10:00:00') /* Demented Zharalim (25964) */
+     , (0x7644A114, 0x7644A0F4, '2005-02-09 10:00:00') /* Crazed Zharalim (25961) */
+     , (0x7644A114, 0x7644A0F5, '2005-02-09 10:00:00') /* Maddened Zharalim (25966) */
+     , (0x7644A114, 0x7644A0F6, '2005-02-09 10:00:00') /* Crazed Zharalim (25962) */
+     , (0x7644A114, 0x7644A0F7, '2005-02-09 10:00:00') /* Demented Zharalim (25963) */
+     , (0x7644A114, 0x7644A0FC, '2005-02-09 10:00:00') /* Maddened Zharalim (25965) */
+     , (0x7644A114, 0x7644A0FD, '2005-02-09 10:00:00') /* Maddened Zharalim (25965) */
+     , (0x7644A114, 0x7644A0FE, '2005-02-09 10:00:00') /* Maddened Zharalim (25966) */
+     , (0x7644A114, 0x7644A0FF, '2005-02-09 10:00:00') /* Demented Zharalim (25964) */
+     , (0x7644A114, 0x7644A104, '2005-02-09 10:00:00') /* Crazed Zharalim (25962) */
+     , (0x7644A114, 0x7644A105, '2005-02-09 10:00:00') /* Crazed Zharalim (25962) */
+     , (0x7644A114, 0x7644A108, '2005-02-09 10:00:00') /* Crazed Zharalim (25962) */
+     , (0x7644A114, 0x7644A109, '2005-02-09 10:00:00') /* Demented Zharalim (25963) */
+     , (0x7644A114, 0x7644A10A, '2005-02-09 10:00:00') /* Demented Zharalim (25963) */
+     , (0x7644A114, 0x7644A10D, '2005-02-09 10:00:00') /* Crazed Zharalim (25962) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7644A115,  7932, 0x644A03AB, 143.291, -46.8983, 0.005, 0.924901, 0, 0, -0.380209, False, '2005-02-09 10:00:00'); /* Linkable Monster Generator ( 4 Min.) */
 /* @teleloc 0x644A03AB [143.291000 -46.898300 0.005000] 0.924901 0.000000 0.000000 -0.380209 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7644A115, 0x7644A08F, '2005-02-09 10:00:00') /* Shadow Lieutenant */
-     , (0x7644A115, 0x7644A090, '2005-02-09 10:00:00') /* Shadow */
-     , (0x7644A115, 0x7644A091, '2005-02-09 10:00:00') /* Shadow */
-     , (0x7644A115, 0x7644A092, '2005-02-09 10:00:00') /* Shadow */
-     , (0x7644A115, 0x7644A093, '2005-02-09 10:00:00') /* Maddened Zharalim */
-     , (0x7644A115, 0x7644A094, '2005-02-09 10:00:00') /* Crazed Zharalim */
-     , (0x7644A115, 0x7644A095, '2005-02-09 10:00:00') /* Maddened Zharalim */
-     , (0x7644A115, 0x7644A096, '2005-02-09 10:00:00') /* Demented Zharalim */
-     , (0x7644A115, 0x7644A097, '2005-02-09 10:00:00') /* Crazed Zharalim */
-     , (0x7644A115, 0x7644A098, '2005-02-09 10:00:00') /* Maddened Zharalim */
-     , (0x7644A115, 0x7644A099, '2005-02-09 10:00:00') /* Crazed Zharalim */
-     , (0x7644A115, 0x7644A09A, '2005-02-09 10:00:00') /* Demented Zharalim */
-     , (0x7644A115, 0x7644A09B, '2005-02-09 10:00:00') /* Maddened Zharalim */
-     , (0x7644A115, 0x7644A09C, '2005-02-09 10:00:00') /* Crazed Zharalim */
-     , (0x7644A115, 0x7644A09D, '2005-02-09 10:00:00') /* Demented Zharalim */
-     , (0x7644A115, 0x7644A09E, '2005-02-09 10:00:00') /* Demented Zharalim */
-     , (0x7644A115, 0x7644A09F, '2005-02-09 10:00:00') /* Crazed Zharalim */
-     , (0x7644A115, 0x7644A0A0, '2005-02-09 10:00:00') /* Crazed Zharalim */
-     , (0x7644A115, 0x7644A0A1, '2005-02-09 10:00:00') /* Demented Zharalim */
-     , (0x7644A115, 0x7644A0A2, '2005-02-09 10:00:00') /* Maddened Zharalim */
-     , (0x7644A115, 0x7644A0A3, '2005-02-09 10:00:00') /* Maddened Zharalim */
-     , (0x7644A115, 0x7644A0A4, '2005-02-09 10:00:00') /* Crazed Zharalim */
-     , (0x7644A115, 0x7644A0A5, '2005-02-09 10:00:00') /* Demented Zharalim */
-     , (0x7644A115, 0x7644A0A6, '2005-02-09 10:00:00') /* Crazed Zharalim */
-     , (0x7644A115, 0x7644A0A7, '2005-02-09 10:00:00') /* Demented Zharalim */
-     , (0x7644A115, 0x7644A0A8, '2005-02-09 10:00:00') /* Maddened Zharalim */
-     , (0x7644A115, 0x7644A0A9, '2005-02-09 10:00:00') /* Maddened Zharalim */
-     , (0x7644A115, 0x7644A0B1, '2005-02-09 10:00:00') /* Panumbris Shadow */
-     , (0x7644A115, 0x7644A0B2, '2005-02-09 10:00:00') /* Crazed Zharalim */
-     , (0x7644A115, 0x7644A0B3, '2005-02-09 10:00:00') /* Demented Zharalim */
-     , (0x7644A115, 0x7644A0BF, '2005-02-09 10:00:00') /* Shadow Sprite */
-     , (0x7644A115, 0x7644A0C3, '2005-02-09 10:00:00') /* Umbris Shadow */
-     , (0x7644A115, 0x7644A0C4, '2005-02-09 10:00:00') /* Panumbris Shadow */
-     , (0x7644A115, 0x7644A0C5, '2005-02-09 10:00:00') /* Panumbris Shadow */
-     , (0x7644A115, 0x7644A0C6, '2005-02-09 10:00:00') /* Crazed Zharalim */
-     , (0x7644A115, 0x7644A0C7, '2005-02-09 10:00:00') /* Maddened Zharalim */
-     , (0x7644A115, 0x7644A0C8, '2005-02-09 10:00:00') /* Crazed Zharalim */
-     , (0x7644A115, 0x7644A0C9, '2005-02-09 10:00:00') /* Maddened Zharalim */
-     , (0x7644A115, 0x7644A0CA, '2005-02-09 10:00:00') /* Maddened Zharalim */
-     , (0x7644A115, 0x7644A0CB, '2005-02-09 10:00:00') /* Demented Zharalim */
-     , (0x7644A115, 0x7644A0CC, '2005-02-09 10:00:00') /* Maddened Zharalim */
-     , (0x7644A115, 0x7644A0CD, '2005-02-09 10:00:00') /* Demented Zharalim */
-     , (0x7644A115, 0x7644A0CE, '2005-02-09 10:00:00') /* Crazed Zharalim */
-     , (0x7644A115, 0x7644A0CF, '2005-02-09 10:00:00') /* Maddened Zharalim */
-     , (0x7644A115, 0x7644A0D0, '2005-02-09 10:00:00') /* Demented Zharalim */
-     , (0x7644A115, 0x7644A0D9, '2005-02-09 10:00:00') /* Demented Zharalim */
-     , (0x7644A115, 0x7644A0DA, '2005-02-09 10:00:00') /* Crazed Zharalim */
-     , (0x7644A115, 0x7644A0DB, '2005-02-09 10:00:00') /* Crazed Zharalim */
-     , (0x7644A115, 0x7644A0DC, '2005-02-09 10:00:00') /* Demented Zharalim */
-     , (0x7644A115, 0x7644A0DD, '2005-02-09 10:00:00') /* Demented Zharalim */
-     , (0x7644A115, 0x7644A0DF, '2005-02-09 10:00:00') /* Maddened Zharalim */
-     , (0x7644A115, 0x7644A0E0, '2005-02-09 10:00:00') /* Maddened Zharalim */
-     , (0x7644A115, 0x7644A0E1, '2005-02-09 10:00:00') /* Maddened Zharalim */
-     , (0x7644A115, 0x7644A0E2, '2005-02-09 10:00:00') /* Crazed Zharalim */
-     , (0x7644A115, 0x7644A0E3, '2005-02-09 10:00:00') /* Umbris Shadow */
-     , (0x7644A115, 0x7644A0E4, '2005-02-09 10:00:00') /* Panumbris Shadow */
-     , (0x7644A115, 0x7644A0E5, '2005-02-09 10:00:00') /* Demented Zharalim */
-     , (0x7644A115, 0x7644A0E6, '2005-02-09 10:00:00') /* Crazed Zharalim */
-     , (0x7644A115, 0x7644A0E7, '2005-02-09 10:00:00') /* Demented Zharalim */
-     , (0x7644A115, 0x7644A0E8, '2005-02-09 10:00:00') /* Crazed Zharalim */
-     , (0x7644A115, 0x7644A0E9, '2005-02-09 10:00:00') /* Maddened Zharalim */
-     , (0x7644A115, 0x7644A0EA, '2005-02-09 10:00:00') /* Crazed Zharalim */
-     , (0x7644A115, 0x7644A0EB, '2005-02-09 10:00:00') /* Demented Zharalim */
-     , (0x7644A115, 0x7644A0EC, '2005-02-09 10:00:00') /* Crazed Zharalim */
-     , (0x7644A115, 0x7644A0ED, '2005-02-09 10:00:00') /* Crazed Zharalim */
-     , (0x7644A115, 0x7644A0EE, '2005-02-09 10:00:00') /* Maddened Zharalim */
-     , (0x7644A115, 0x7644A0EF, '2005-02-09 10:00:00') /* Demented Zharalim */
-     , (0x7644A115, 0x7644A0F0, '2005-02-09 10:00:00') /* Ghost Wisp */
-     , (0x7644A115, 0x7644A0F1, '2005-02-09 10:00:00') /* Demented Zharalim */
-     , (0x7644A115, 0x7644A0F2, '2005-02-09 10:00:00') /* Crazed Zharalim */
-     , (0x7644A115, 0x7644A0F8, '2005-02-09 10:00:00') /* Demented Zharalim */
-     , (0x7644A115, 0x7644A0F9, '2005-02-09 10:00:00') /* Maddened Zharalim */
-     , (0x7644A115, 0x7644A0FA, '2005-02-09 10:00:00') /* Crazed Zharalim */
-     , (0x7644A115, 0x7644A0FB, '2005-02-09 10:00:00') /* Demented Zharalim */
-     , (0x7644A115, 0x7644A100, '2005-02-09 10:00:00') /* Demented Zharalim */
-     , (0x7644A115, 0x7644A101, '2005-02-09 10:00:00') /* Demented Zharalim */
-     , (0x7644A115, 0x7644A102, '2005-02-09 10:00:00') /* Crazed Zharalim */
-     , (0x7644A115, 0x7644A103, '2005-02-09 10:00:00') /* Maddened Zharalim */
-     , (0x7644A115, 0x7644A106, '2005-02-09 10:00:00') /* Demented Zharalim */
-     , (0x7644A115, 0x7644A107, '2005-02-09 10:00:00') /* Maddened Zharalim */
-     , (0x7644A115, 0x7644A10B, '2005-02-09 10:00:00') /* Demented Zharalim */
-     , (0x7644A115, 0x7644A10C, '2005-02-09 10:00:00') /* Crazed Zharalim */
-     , (0x7644A115, 0x7644A10E, '2005-02-09 10:00:00') /* Maddened Zharalim */
-     , (0x7644A115, 0x7644A10F, '2005-02-09 10:00:00') /* Maddened Zharalim */
-     , (0x7644A115, 0x7644A110, '2005-02-09 10:00:00') /* Maddened Zharalim */
-     , (0x7644A115, 0x7644A111, '2005-02-09 10:00:00') /* Demented Zharalim */;
+VALUES (0x7644A115, 0x7644A08F, '2005-02-09 10:00:00') /* Shadow Lieutenant (1757) */
+     , (0x7644A115, 0x7644A090, '2005-02-09 10:00:00') /* Shadow (1758) */
+     , (0x7644A115, 0x7644A091, '2005-02-09 10:00:00') /* Shadow (1758) */
+     , (0x7644A115, 0x7644A092, '2005-02-09 10:00:00') /* Shadow (1758) */
+     , (0x7644A115, 0x7644A093, '2005-02-09 10:00:00') /* Maddened Zharalim (25965) */
+     , (0x7644A115, 0x7644A094, '2005-02-09 10:00:00') /* Crazed Zharalim (25961) */
+     , (0x7644A115, 0x7644A095, '2005-02-09 10:00:00') /* Maddened Zharalim (25966) */
+     , (0x7644A115, 0x7644A096, '2005-02-09 10:00:00') /* Demented Zharalim (25964) */
+     , (0x7644A115, 0x7644A097, '2005-02-09 10:00:00') /* Crazed Zharalim (25961) */
+     , (0x7644A115, 0x7644A098, '2005-02-09 10:00:00') /* Maddened Zharalim (25966) */
+     , (0x7644A115, 0x7644A099, '2005-02-09 10:00:00') /* Crazed Zharalim (25962) */
+     , (0x7644A115, 0x7644A09A, '2005-02-09 10:00:00') /* Demented Zharalim (25963) */
+     , (0x7644A115, 0x7644A09B, '2005-02-09 10:00:00') /* Maddened Zharalim (25965) */
+     , (0x7644A115, 0x7644A09C, '2005-02-09 10:00:00') /* Crazed Zharalim (25962) */
+     , (0x7644A115, 0x7644A09D, '2005-02-09 10:00:00') /* Demented Zharalim (25964) */
+     , (0x7644A115, 0x7644A09E, '2005-02-09 10:00:00') /* Demented Zharalim (25963) */
+     , (0x7644A115, 0x7644A09F, '2005-02-09 10:00:00') /* Crazed Zharalim (25961) */
+     , (0x7644A115, 0x7644A0A0, '2005-02-09 10:00:00') /* Crazed Zharalim (25961) */
+     , (0x7644A115, 0x7644A0A1, '2005-02-09 10:00:00') /* Demented Zharalim (25963) */
+     , (0x7644A115, 0x7644A0A2, '2005-02-09 10:00:00') /* Maddened Zharalim (25965) */
+     , (0x7644A115, 0x7644A0A3, '2005-02-09 10:00:00') /* Maddened Zharalim (25965) */
+     , (0x7644A115, 0x7644A0A4, '2005-02-09 10:00:00') /* Crazed Zharalim (25962) */
+     , (0x7644A115, 0x7644A0A5, '2005-02-09 10:00:00') /* Demented Zharalim (25964) */
+     , (0x7644A115, 0x7644A0A6, '2005-02-09 10:00:00') /* Crazed Zharalim (25961) */
+     , (0x7644A115, 0x7644A0A7, '2005-02-09 10:00:00') /* Demented Zharalim (25963) */
+     , (0x7644A115, 0x7644A0A8, '2005-02-09 10:00:00') /* Maddened Zharalim (25965) */
+     , (0x7644A115, 0x7644A0A9, '2005-02-09 10:00:00') /* Maddened Zharalim (25966) */
+     , (0x7644A115, 0x7644A0B1, '2005-02-09 10:00:00') /* Panumbris Shadow (4253) */
+     , (0x7644A115, 0x7644A0B2, '2005-02-09 10:00:00') /* Crazed Zharalim (25961) */
+     , (0x7644A115, 0x7644A0B3, '2005-02-09 10:00:00') /* Demented Zharalim (25964) */
+     , (0x7644A115, 0x7644A0BF, '2005-02-09 10:00:00') /* Shadow Sprite (6534) */
+     , (0x7644A115, 0x7644A0C3, '2005-02-09 10:00:00') /* Umbris Shadow (4254) */
+     , (0x7644A115, 0x7644A0C4, '2005-02-09 10:00:00') /* Panumbris Shadow (4253) */
+     , (0x7644A115, 0x7644A0C5, '2005-02-09 10:00:00') /* Panumbris Shadow (4253) */
+     , (0x7644A115, 0x7644A0C6, '2005-02-09 10:00:00') /* Crazed Zharalim (25961) */
+     , (0x7644A115, 0x7644A0C7, '2005-02-09 10:00:00') /* Maddened Zharalim (25966) */
+     , (0x7644A115, 0x7644A0C8, '2005-02-09 10:00:00') /* Crazed Zharalim (25961) */
+     , (0x7644A115, 0x7644A0C9, '2005-02-09 10:00:00') /* Maddened Zharalim (25965) */
+     , (0x7644A115, 0x7644A0CA, '2005-02-09 10:00:00') /* Maddened Zharalim (25966) */
+     , (0x7644A115, 0x7644A0CB, '2005-02-09 10:00:00') /* Demented Zharalim (25964) */
+     , (0x7644A115, 0x7644A0CC, '2005-02-09 10:00:00') /* Maddened Zharalim (25965) */
+     , (0x7644A115, 0x7644A0CD, '2005-02-09 10:00:00') /* Demented Zharalim (25964) */
+     , (0x7644A115, 0x7644A0CE, '2005-02-09 10:00:00') /* Crazed Zharalim (25962) */
+     , (0x7644A115, 0x7644A0CF, '2005-02-09 10:00:00') /* Maddened Zharalim (25965) */
+     , (0x7644A115, 0x7644A0D0, '2005-02-09 10:00:00') /* Demented Zharalim (25963) */
+     , (0x7644A115, 0x7644A0D9, '2005-02-09 10:00:00') /* Demented Zharalim (25964) */
+     , (0x7644A115, 0x7644A0DA, '2005-02-09 10:00:00') /* Crazed Zharalim (25962) */
+     , (0x7644A115, 0x7644A0DB, '2005-02-09 10:00:00') /* Crazed Zharalim (25961) */
+     , (0x7644A115, 0x7644A0DC, '2005-02-09 10:00:00') /* Demented Zharalim (25963) */
+     , (0x7644A115, 0x7644A0DD, '2005-02-09 10:00:00') /* Demented Zharalim (25964) */
+     , (0x7644A115, 0x7644A0DF, '2005-02-09 10:00:00') /* Maddened Zharalim (25966) */
+     , (0x7644A115, 0x7644A0E0, '2005-02-09 10:00:00') /* Maddened Zharalim (25965) */
+     , (0x7644A115, 0x7644A0E1, '2005-02-09 10:00:00') /* Maddened Zharalim (25965) */
+     , (0x7644A115, 0x7644A0E2, '2005-02-09 10:00:00') /* Crazed Zharalim (25962) */
+     , (0x7644A115, 0x7644A0E3, '2005-02-09 10:00:00') /* Umbris Shadow (4254) */
+     , (0x7644A115, 0x7644A0E4, '2005-02-09 10:00:00') /* Panumbris Shadow (4253) */
+     , (0x7644A115, 0x7644A0E5, '2005-02-09 10:00:00') /* Demented Zharalim (25963) */
+     , (0x7644A115, 0x7644A0E6, '2005-02-09 10:00:00') /* Crazed Zharalim (25962) */
+     , (0x7644A115, 0x7644A0E7, '2005-02-09 10:00:00') /* Demented Zharalim (25964) */
+     , (0x7644A115, 0x7644A0E8, '2005-02-09 10:00:00') /* Crazed Zharalim (25962) */
+     , (0x7644A115, 0x7644A0E9, '2005-02-09 10:00:00') /* Maddened Zharalim (25966) */
+     , (0x7644A115, 0x7644A0EA, '2005-02-09 10:00:00') /* Crazed Zharalim (25961) */
+     , (0x7644A115, 0x7644A0EB, '2005-02-09 10:00:00') /* Demented Zharalim (25963) */
+     , (0x7644A115, 0x7644A0EC, '2005-02-09 10:00:00') /* Crazed Zharalim (25961) */
+     , (0x7644A115, 0x7644A0ED, '2005-02-09 10:00:00') /* Crazed Zharalim (25962) */
+     , (0x7644A115, 0x7644A0EE, '2005-02-09 10:00:00') /* Maddened Zharalim (25965) */
+     , (0x7644A115, 0x7644A0EF, '2005-02-09 10:00:00') /* Demented Zharalim (25964) */
+     , (0x7644A115, 0x7644A0F0, '2005-02-09 10:00:00') /* Ghost Wisp (1987) */
+     , (0x7644A115, 0x7644A0F1, '2005-02-09 10:00:00') /* Demented Zharalim (25963) */
+     , (0x7644A115, 0x7644A0F2, '2005-02-09 10:00:00') /* Crazed Zharalim (25961) */
+     , (0x7644A115, 0x7644A0F8, '2005-02-09 10:00:00') /* Demented Zharalim (25963) */
+     , (0x7644A115, 0x7644A0F9, '2005-02-09 10:00:00') /* Maddened Zharalim (25966) */
+     , (0x7644A115, 0x7644A0FA, '2005-02-09 10:00:00') /* Crazed Zharalim (25962) */
+     , (0x7644A115, 0x7644A0FB, '2005-02-09 10:00:00') /* Demented Zharalim (25963) */
+     , (0x7644A115, 0x7644A100, '2005-02-09 10:00:00') /* Demented Zharalim (25964) */
+     , (0x7644A115, 0x7644A101, '2005-02-09 10:00:00') /* Demented Zharalim (25963) */
+     , (0x7644A115, 0x7644A102, '2005-02-09 10:00:00') /* Crazed Zharalim (25962) */
+     , (0x7644A115, 0x7644A103, '2005-02-09 10:00:00') /* Maddened Zharalim (25966) */
+     , (0x7644A115, 0x7644A106, '2005-02-09 10:00:00') /* Demented Zharalim (25963) */
+     , (0x7644A115, 0x7644A107, '2005-02-09 10:00:00') /* Maddened Zharalim (25966) */
+     , (0x7644A115, 0x7644A10B, '2005-02-09 10:00:00') /* Demented Zharalim (25963) */
+     , (0x7644A115, 0x7644A10C, '2005-02-09 10:00:00') /* Crazed Zharalim (25961) */
+     , (0x7644A115, 0x7644A10E, '2005-02-09 10:00:00') /* Maddened Zharalim (25965) */
+     , (0x7644A115, 0x7644A10F, '2005-02-09 10:00:00') /* Maddened Zharalim (25965) */
+     , (0x7644A115, 0x7644A110, '2005-02-09 10:00:00') /* Maddened Zharalim (25966) */
+     , (0x7644A115, 0x7644A111, '2005-02-09 10:00:00') /* Demented Zharalim (25964) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7644A116, 25970, 0x644A03C3, 159.999, -45.243, 0.005, 0, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Sturdy Door */
@@ -1317,7 +1317,7 @@ VALUES (0x7644A117, 15759, 0x644A0194, 131.736, -62.7425, -35.995, 0.338137, 0, 
 /* @teleloc 0x644A0194 [131.736000 -62.742500 -35.995000] 0.338137 0.000000 0.000000 0.941097 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7644A117, 0x7644A118, '2005-02-09 10:00:00') /* Zharalim Foreman's Journal */;
+VALUES (0x7644A117, 0x7644A118, '2005-02-09 10:00:00') /* Zharalim Foreman's Journal (25979) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7644A118, 25979, 0x644A0194, 131.736, -62.7425, -35.921, 0.338137, 0, 0, 0.941097,  True, '2005-02-09 10:00:00'); /* Zharalim Foreman's Journal */
@@ -1332,7 +1332,7 @@ VALUES (0x7644A11A, 15759, 0x644A0276, 99.4089, -48.602, -17.995, 0.980067, 0, 0
 /* @teleloc 0x644A0276 [99.408900 -48.602000 -17.995000] 0.980067 0.000000 0.000000 -0.198669 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7644A11A, 0x7644A119, '2005-02-09 10:00:00') /* Zharalim Master's Journal */;
+VALUES (0x7644A11A, 0x7644A119, '2005-02-09 10:00:00') /* Zharalim Master's Journal (25980) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7644A11B,   286, 0x644A0229, 35.6084, -46.7786, -16.5, -0.707107, 0, 0, -0.707107,  True, '2005-02-09 10:00:00'); /* Lever */

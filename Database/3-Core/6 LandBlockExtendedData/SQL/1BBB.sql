@@ -29,15 +29,15 @@ VALUES (0x71BBB006,  7923, 0x1BBB0000, 130.262, 162.814, 83.3015, 0.828044, 0, 0
 /* @teleloc 0x1BBB0000 [130.262000 162.814000 83.301500] 0.828044 0.000000 0.000000 0.560663 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71BBB006, 0x71BBB000, '2005-02-09 10:00:00') /* Hea Nualuan */
-     , (0x71BBB006, 0x71BBB001, '2005-02-09 10:00:00') /* Hea Itealuan */
-     , (0x71BBB006, 0x71BBB002, '2005-02-09 10:00:00') /* Hea Itealuan */
-     , (0x71BBB006, 0x71BBB003, '2005-02-09 10:00:00') /* Hea Elder Shaman */
-     , (0x71BBB006, 0x71BBB004, '2005-02-09 10:00:00') /* Hea Nualuan */
-     , (0x71BBB006, 0x71BBB005, '2005-02-09 10:00:00') /* Hea Nualuan */
-     , (0x71BBB006, 0x71BBB007, '2005-02-09 10:00:00') /* Olthoi Harvester */
-     , (0x71BBB006, 0x71BBB008, '2005-02-09 10:00:00') /* Olthoi Harvester */
-     , (0x71BBB006, 0x71BBB009, '2005-02-09 10:00:00') /* Olthoi Harvester */;
+VALUES (0x71BBB006, 0x71BBB000, '2005-02-09 10:00:00') /* Hea Nualuan (11520) */
+     , (0x71BBB006, 0x71BBB001, '2005-02-09 10:00:00') /* Hea Itealuan (11519) */
+     , (0x71BBB006, 0x71BBB002, '2005-02-09 10:00:00') /* Hea Itealuan (11519) */
+     , (0x71BBB006, 0x71BBB003, '2005-02-09 10:00:00') /* Hea Elder Shaman (11517) */
+     , (0x71BBB006, 0x71BBB004, '2005-02-09 10:00:00') /* Hea Nualuan (11520) */
+     , (0x71BBB006, 0x71BBB005, '2005-02-09 10:00:00') /* Hea Nualuan (11520) */
+     , (0x71BBB006, 0x71BBB007, '2005-02-09 10:00:00') /* Olthoi Harvester (11480) */
+     , (0x71BBB006, 0x71BBB008, '2005-02-09 10:00:00') /* Olthoi Harvester (11480) */
+     , (0x71BBB006, 0x71BBB009, '2005-02-09 10:00:00') /* Olthoi Harvester (11480) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71BBB007, 11480, 0x1BBB0000, 50.3585, 165.592, 82.0132, 0.69364, 0, 0, 0.720322,  True, '2005-02-09 10:00:00'); /* Olthoi Harvester */

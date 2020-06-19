@@ -41,8 +41,8 @@ VALUES (0x701ED009,  1154, 0x01ED0162, 100, -169.993, -17.9878, -0.707107, 0, 0,
 /* @teleloc 0x01ED0162 [100.000000 -169.993000 -17.987800] -0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x701ED009, 0x701ED007, '2005-02-09 10:00:00') /* Shadow Child */
-     , (0x701ED009, 0x701ED008, '2005-02-09 10:00:00') /* Shadow Child */;
+VALUES (0x701ED009, 0x701ED007, '2005-02-09 10:00:00') /* Shadow Child (1756) */
+     , (0x701ED009, 0x701ED008, '2005-02-09 10:00:00') /* Shadow Child (1756) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x701ED00A,   963, 0x01ED016D, 1.19438, -69.7475, -12, 0.893665, 0, 0, -0.448735, False, '2005-02-09 10:00:00'); /* Brown Rat Generator */
@@ -73,7 +73,7 @@ VALUES (0x701ED010,  4082, 0x01ED0190, 31.4978, -100.703, -10.7026, -0.707107, 0
 /* @teleloc 0x01ED0190 [31.497800 -100.703000 -10.702600] -0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x701ED010, 0x701ED011, '2005-02-09 10:00:00') /* Pressure Plate */;
+VALUES (0x701ED010, 0x701ED011, '2005-02-09 10:00:00') /* Pressure Plate (298) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x701ED011,   298, 0x01ED0193, 31.9778, -99.1403, -12, -0.707107, 0, 0, -0.707107,  True, '2005-02-09 10:00:00'); /* Pressure Plate */
@@ -84,7 +84,7 @@ VALUES (0x701ED012,  4059, 0x01ED0193, 31.8319, -101.015, -9.95638, -0.707107, 0
 /* @teleloc 0x01ED0193 [31.831900 -101.015000 -9.956380] -0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x701ED012, 0x701ED00F, '2005-02-09 10:00:00') /* Pressure Plate */;
+VALUES (0x701ED012, 0x701ED00F, '2005-02-09 10:00:00') /* Pressure Plate (298) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x701ED013,  1619, 0x01ED0195, 27.5069, -112.306, -11.9945, 0.822242, 0, 0, -0.569138,  True, '2005-02-09 10:00:00'); /* Mosswart Shaman */
@@ -99,7 +99,7 @@ VALUES (0x701ED015,  4091, 0x01ED019B, 49.5457, -89.8399, -10.288, 1, 0, 0, 0, F
 /* @teleloc 0x01ED019B [49.545700 -89.839900 -10.288000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x701ED015, 0x701ED016, '2005-02-09 10:00:00') /* Pressure Plate */;
+VALUES (0x701ED015, 0x701ED016, '2005-02-09 10:00:00') /* Pressure Plate (2131) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x701ED016,  2131, 0x01ED019B, 50, -90, -12, 1, 0, 0, 0,  True, '2005-02-09 10:00:00'); /* Pressure Plate */
@@ -142,59 +142,59 @@ VALUES (0x701ED01F,  4057, 0x01ED01A6, 60.4333, -88.6249, -10.3041, -0.707107, 0
 /* @teleloc 0x01ED01A6 [60.433300 -88.624900 -10.304100] -0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x701ED01F, 0x701ED01E, '2005-02-09 10:00:00') /* Pressure Plate */;
+VALUES (0x701ED01F, 0x701ED01E, '2005-02-09 10:00:00') /* Pressure Plate (2131) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x701ED020,  3955, 0x01ED01A8, 60, -110, -12, 1, 0, 0, 0, False, '2005-02-09 10:00:00'); /* Linkable Monster Gen (15 min.) */
 /* @teleloc 0x01ED01A8 [60.000000 -110.000000 -12.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x701ED020, 0x701ED013, '2005-02-09 10:00:00') /* Mosswart Shaman */
-     , (0x701ED020, 0x701ED014, '2005-02-09 10:00:00') /* Mudlurk Mosswart */
-     , (0x701ED020, 0x701ED028, '2005-02-09 10:00:00') /* Mosswart Shaman */
-     , (0x701ED020, 0x701ED03B, '2005-02-09 10:00:00') /* Black Rat */
-     , (0x701ED020, 0x701ED03D, '2005-02-09 10:00:00') /* Black Rat */
-     , (0x701ED020, 0x701ED042, '2005-02-09 10:00:00') /* Mudlurk Mosswart */
-     , (0x701ED020, 0x701ED043, '2005-02-09 10:00:00') /* Mudlurk Mosswart */
-     , (0x701ED020, 0x701ED06A, '2005-02-09 10:00:00') /* Mosswart Shaman */;
+VALUES (0x701ED020, 0x701ED013, '2005-02-09 10:00:00') /* Mosswart Shaman (1619) */
+     , (0x701ED020, 0x701ED014, '2005-02-09 10:00:00') /* Mudlurk Mosswart (211) */
+     , (0x701ED020, 0x701ED028, '2005-02-09 10:00:00') /* Mosswart Shaman (1619) */
+     , (0x701ED020, 0x701ED03B, '2005-02-09 10:00:00') /* Black Rat (218) */
+     , (0x701ED020, 0x701ED03D, '2005-02-09 10:00:00') /* Black Rat (218) */
+     , (0x701ED020, 0x701ED042, '2005-02-09 10:00:00') /* Mudlurk Mosswart (211) */
+     , (0x701ED020, 0x701ED043, '2005-02-09 10:00:00') /* Mudlurk Mosswart (211) */
+     , (0x701ED020, 0x701ED06A, '2005-02-09 10:00:00') /* Mosswart Shaman (1619) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x701ED021,  1154, 0x01ED01A8, 59.1992, -108.801, -12, 1, 0, 0, 0, False, '2005-02-09 10:00:00'); /* Linkable Monster Generator */
 /* @teleloc 0x01ED01A8 [59.199200 -108.801000 -12.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x701ED021, 0x701ED000, '2005-02-09 10:00:00') /* Hunter Shreth */
-     , (0x701ED021, 0x701ED001, '2005-02-09 10:00:00') /* Black Rat */
-     , (0x701ED021, 0x701ED002, '2005-02-09 10:00:00') /* Black Rat */
-     , (0x701ED021, 0x701ED00C, '2005-02-09 10:00:00') /* Blood Shreth */
-     , (0x701ED021, 0x701ED01B, '2005-02-09 10:00:00') /* Mosswart Chief */
-     , (0x701ED021, 0x701ED01C, '2005-02-09 10:00:00') /* Mudlurk Mosswart */
-     , (0x701ED021, 0x701ED01D, '2005-02-09 10:00:00') /* Mosswart Shaman */
-     , (0x701ED021, 0x701ED029, '2005-02-09 10:00:00') /* Mosswart Shaman */
-     , (0x701ED021, 0x701ED044, '2005-02-09 10:00:00') /* Blood Shreth */
-     , (0x701ED021, 0x701ED069, '2005-02-09 10:00:00') /* Mudlurk Mosswart */;
+VALUES (0x701ED021, 0x701ED000, '2005-02-09 10:00:00') /* Hunter Shreth (4111) */
+     , (0x701ED021, 0x701ED001, '2005-02-09 10:00:00') /* Black Rat (218) */
+     , (0x701ED021, 0x701ED002, '2005-02-09 10:00:00') /* Black Rat (218) */
+     , (0x701ED021, 0x701ED00C, '2005-02-09 10:00:00') /* Blood Shreth (4110) */
+     , (0x701ED021, 0x701ED01B, '2005-02-09 10:00:00') /* Mosswart Chief (210) */
+     , (0x701ED021, 0x701ED01C, '2005-02-09 10:00:00') /* Mudlurk Mosswart (211) */
+     , (0x701ED021, 0x701ED01D, '2005-02-09 10:00:00') /* Mosswart Shaman (1619) */
+     , (0x701ED021, 0x701ED029, '2005-02-09 10:00:00') /* Mosswart Shaman (1619) */
+     , (0x701ED021, 0x701ED044, '2005-02-09 10:00:00') /* Blood Shreth (4110) */
+     , (0x701ED021, 0x701ED069, '2005-02-09 10:00:00') /* Mudlurk Mosswart (211) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x701ED022,  3955, 0x01ED01A8, 61.7803, -109.234, -12, 1, 0, 0, 0, False, '2005-02-09 10:00:00'); /* Linkable Monster Gen (15 min.) */
 /* @teleloc 0x01ED01A8 [61.780300 -109.234000 -12.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x701ED022, 0x701ED003, '2005-02-09 10:00:00') /* Hunter Shreth */
-     , (0x701ED022, 0x701ED004, '2005-02-09 10:00:00') /* Hunter Shreth */
-     , (0x701ED022, 0x701ED024, '2005-02-09 10:00:00') /* Black Rat */
-     , (0x701ED022, 0x701ED02D, '2005-02-09 10:00:00') /* Hunter Shreth */
-     , (0x701ED022, 0x701ED02F, '2005-02-09 10:00:00') /* Mudlurk Mosswart */
-     , (0x701ED022, 0x701ED036, '2005-02-09 10:00:00') /* Mudlurk Mosswart */
-     , (0x701ED022, 0x701ED038, '2005-02-09 10:00:00') /* Mosswart Shaman */
-     , (0x701ED022, 0x701ED041, '2005-02-09 10:00:00') /* Mosswart Shaman */;
+VALUES (0x701ED022, 0x701ED003, '2005-02-09 10:00:00') /* Hunter Shreth (4111) */
+     , (0x701ED022, 0x701ED004, '2005-02-09 10:00:00') /* Hunter Shreth (4111) */
+     , (0x701ED022, 0x701ED024, '2005-02-09 10:00:00') /* Black Rat (218) */
+     , (0x701ED022, 0x701ED02D, '2005-02-09 10:00:00') /* Hunter Shreth (4111) */
+     , (0x701ED022, 0x701ED02F, '2005-02-09 10:00:00') /* Mudlurk Mosswart (211) */
+     , (0x701ED022, 0x701ED036, '2005-02-09 10:00:00') /* Mudlurk Mosswart (211) */
+     , (0x701ED022, 0x701ED038, '2005-02-09 10:00:00') /* Mosswart Shaman (1619) */
+     , (0x701ED022, 0x701ED041, '2005-02-09 10:00:00') /* Mosswart Shaman (1619) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x701ED023,  3953, 0x01ED01A8, 60.5107, -108.171, -12, 1, 0, 0, 0, False, '2005-02-09 10:00:00'); /* Linkable Monster Gen (30 min.) */
 /* @teleloc 0x01ED01A8 [60.510700 -108.171000 -12.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x701ED023, 0x701ED006, '2005-02-09 10:00:00') /* Ghost Wisp */
-     , (0x701ED023, 0x701ED02E, '2005-02-09 10:00:00') /* Mudlurk Mosswart */;
+VALUES (0x701ED023, 0x701ED006, '2005-02-09 10:00:00') /* Ghost Wisp (1987) */
+     , (0x701ED023, 0x701ED02E, '2005-02-09 10:00:00') /* Mudlurk Mosswart (211) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x701ED024,   218, 0x01ED01AD, 69.8916, -79.1433, -11.996, -4.37114E-08, 0, 0, -1,  True, '2005-02-09 10:00:00'); /* Black Rat */
@@ -213,9 +213,9 @@ VALUES (0x701ED027,  1542, 0x01ED01B1, 72.0327, -102.003, -12, -0.707107, 0, 0, 
 /* @teleloc 0x01ED01B1 [72.032700 -102.003000 -12.000000] -0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x701ED027, 0x701ED025, '2005-02-09 10:00:00') /* Parchment */
-     , (0x701ED027, 0x701ED026, '2005-02-09 10:00:00') /* Parchment */
-     , (0x701ED027, 0x701ED02A, '2005-02-09 10:00:00') /* Scroll of Endurance Other II */;
+VALUES (0x701ED027, 0x701ED025, '2005-02-09 10:00:00') /* Parchment (365) */
+     , (0x701ED027, 0x701ED026, '2005-02-09 10:00:00') /* Parchment (365) */
+     , (0x701ED027, 0x701ED02A, '2005-02-09 10:00:00') /* Scroll of Endurance Other II (2654) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x701ED028,  1619, 0x01ED01B1, 66.9051, -99.6043, -11.9945, -0.707107, 0, 0, -0.707107,  True, '2005-02-09 10:00:00'); /* Mosswart Shaman */
@@ -238,7 +238,7 @@ VALUES (0x701ED02C,  4049, 0x01ED01B1, 72.8329, -97.3386, -10.8124, -0.707107, 0
 /* @teleloc 0x01ED01B1 [72.832900 -97.338600 -10.812400] -0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x701ED02C, 0x701ED02B, '2005-02-09 10:00:00') /* Pressure Plate */;
+VALUES (0x701ED02C, 0x701ED02B, '2005-02-09 10:00:00') /* Pressure Plate (298) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x701ED02D,  4111, 0x01ED01C6, 90, -110, -11.989, 1, 0, 0, 0,  True, '2005-02-09 10:00:00'); /* Hunter Shreth */
@@ -265,12 +265,12 @@ VALUES (0x701ED032,  7923, 0x01ED0212, 50.9292, -111.226, -6, -4.37114E-08, 0, 0
 /* @teleloc 0x01ED0212 [50.929200 -111.226000 -6.000000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x701ED032, 0x701ED00D, '2005-02-09 10:00:00') /* Hunter Shreth */
-     , (0x701ED032, 0x701ED00E, '2005-02-09 10:00:00') /* Hunter Shreth */
-     , (0x701ED032, 0x701ED030, '2005-02-09 10:00:00') /* Mosswart Shaman */
-     , (0x701ED032, 0x701ED033, '2005-02-09 10:00:00') /* Mosswart Shaman */
-     , (0x701ED032, 0x701ED03E, '2005-02-09 10:00:00') /* Black Rat */
-     , (0x701ED032, 0x701ED045, '2005-02-09 10:00:00') /* Blood Shreth */;
+VALUES (0x701ED032, 0x701ED00D, '2005-02-09 10:00:00') /* Hunter Shreth (4111) */
+     , (0x701ED032, 0x701ED00E, '2005-02-09 10:00:00') /* Hunter Shreth (4111) */
+     , (0x701ED032, 0x701ED030, '2005-02-09 10:00:00') /* Mosswart Shaman (1619) */
+     , (0x701ED032, 0x701ED033, '2005-02-09 10:00:00') /* Mosswart Shaman (1619) */
+     , (0x701ED032, 0x701ED03E, '2005-02-09 10:00:00') /* Black Rat (218) */
+     , (0x701ED032, 0x701ED045, '2005-02-09 10:00:00') /* Blood Shreth (4110) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x701ED033,  1619, 0x01ED0215, 50.0057, -118.312, -5.9945, -0.707107, 0, 0, -0.707107,  True, '2005-02-09 10:00:00'); /* Mosswart Shaman */
@@ -385,16 +385,16 @@ VALUES (0x701ED04E,  3955, 0x01ED0297, 80, -80, 0, -0.707107, 0, 0, -0.707107, F
 /* @teleloc 0x01ED0297 [80.000000 -80.000000 0.000000] -0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x701ED04E, 0x701ED049, '2005-02-09 10:00:00') /* Barker Mosswart */
-     , (0x701ED04E, 0x701ED04A, '2005-02-09 10:00:00') /* Mudlurk Mosswart */
-     , (0x701ED04E, 0x701ED04B, '2005-02-09 10:00:00') /* Mosswart Shaman */
-     , (0x701ED04E, 0x701ED04C, '2005-02-09 10:00:00') /* Barker Mosswart */
-     , (0x701ED04E, 0x701ED04D, '2005-02-09 10:00:00') /* Barker Mosswart */
-     , (0x701ED04E, 0x701ED05D, '2005-02-09 10:00:00') /* Grey Rat */
-     , (0x701ED04E, 0x701ED05E, '2005-02-09 10:00:00') /* Grey Rat */
-     , (0x701ED04E, 0x701ED05F, '2005-02-09 10:00:00') /* Grey Rat */
-     , (0x701ED04E, 0x701ED062, '2005-02-09 10:00:00') /* Mudlurk Mosswart */
-     , (0x701ED04E, 0x701ED068, '2005-02-09 10:00:00') /* Mudlurk Mosswart */;
+VALUES (0x701ED04E, 0x701ED049, '2005-02-09 10:00:00') /* Barker Mosswart (947) */
+     , (0x701ED04E, 0x701ED04A, '2005-02-09 10:00:00') /* Mudlurk Mosswart (211) */
+     , (0x701ED04E, 0x701ED04B, '2005-02-09 10:00:00') /* Mosswart Shaman (1619) */
+     , (0x701ED04E, 0x701ED04C, '2005-02-09 10:00:00') /* Barker Mosswart (947) */
+     , (0x701ED04E, 0x701ED04D, '2005-02-09 10:00:00') /* Barker Mosswart (947) */
+     , (0x701ED04E, 0x701ED05D, '2005-02-09 10:00:00') /* Grey Rat (219) */
+     , (0x701ED04E, 0x701ED05E, '2005-02-09 10:00:00') /* Grey Rat (219) */
+     , (0x701ED04E, 0x701ED05F, '2005-02-09 10:00:00') /* Grey Rat (219) */
+     , (0x701ED04E, 0x701ED062, '2005-02-09 10:00:00') /* Mudlurk Mosswart (211) */
+     , (0x701ED04E, 0x701ED068, '2005-02-09 10:00:00') /* Mudlurk Mosswart (211) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x701ED04F,  1932, 0x01ED0298, 93.9125, -8.2475, 0, -0.707107, 0, 0, 0.707107, False, '2005-02-09 10:00:00'); /* Chest */
@@ -425,10 +425,10 @@ VALUES (0x701ED055,  7923, 0x01ED029E, 91.1717, -28.8556, 0, 1, 0, 0, 0, False, 
 /* @teleloc 0x01ED029E [91.171700 -28.855600 0.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x701ED055, 0x701ED050, '2005-02-09 10:00:00') /* Creeper Mosswart */
-     , (0x701ED055, 0x701ED053, '2005-02-09 10:00:00') /* Creeper Mosswart */
-     , (0x701ED055, 0x701ED054, '2005-02-09 10:00:00') /* Creeper Mosswart */
-     , (0x701ED055, 0x701ED059, '2005-02-09 10:00:00') /* Grey Rat */;
+VALUES (0x701ED055, 0x701ED050, '2005-02-09 10:00:00') /* Creeper Mosswart (8) */
+     , (0x701ED055, 0x701ED053, '2005-02-09 10:00:00') /* Creeper Mosswart (8) */
+     , (0x701ED055, 0x701ED054, '2005-02-09 10:00:00') /* Creeper Mosswart (8) */
+     , (0x701ED055, 0x701ED059, '2005-02-09 10:00:00') /* Grey Rat (219) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x701ED056,   278, 0x01ED02A0, 90, -25.245, 0, 1, 0, 0, 0, False, '2005-02-09 10:00:00'); /* Door */
@@ -491,7 +491,7 @@ VALUES (0x701ED064,  4085, 0x01ED02D6, 36.6647, -63.4433, 8.04638, -0.707107, 0,
 /* @teleloc 0x01ED02D6 [36.664700 -63.443300 8.046380] -0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x701ED064, 0x701ED063, '2005-02-09 10:00:00') /* Pressure Plate */;
+VALUES (0x701ED064, 0x701ED063, '2005-02-09 10:00:00') /* Pressure Plate (2131) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x701ED065,   568, 0x01ED02DB, 35.25, -60, 6, -0.707107, 0, 0, -0.707107, False, '2005-02-09 10:00:00'); /* Door */
@@ -538,8 +538,8 @@ VALUES (0x701ED06F,  3955, 0x01ED030D, 110, -60, 12, 0.707107, 0, 0, -0.707107, 
 /* @teleloc 0x01ED030D [110.000000 -60.000000 12.000000] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x701ED06F, 0x701ED06C, '2005-02-09 10:00:00') /* Grey Rat */
-     , (0x701ED06F, 0x701ED06E, '2005-02-09 10:00:00') /* Grey Rat */;
+VALUES (0x701ED06F, 0x701ED06C, '2005-02-09 10:00:00') /* Grey Rat (219) */
+     , (0x701ED06F, 0x701ED06E, '2005-02-09 10:00:00') /* Grey Rat (219) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x701ED070,   278, 0x01ED0313, 120, -14.75, 12, -4.37114E-08, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Door */
@@ -550,8 +550,8 @@ VALUES (0x701ED071,  3955, 0x01ED0315, 120.772, -28.9057, 12, -0.707107, 0, 0, -
 /* @teleloc 0x01ED0315 [120.772000 -28.905700 12.000000] -0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x701ED071, 0x701ED06B, '2005-02-09 10:00:00') /* Mosswart Feeder */
-     , (0x701ED071, 0x701ED074, '2005-02-09 10:00:00') /* Mosswart Feeder */;
+VALUES (0x701ED071, 0x701ED06B, '2005-02-09 10:00:00') /* Mosswart Feeder (948) */
+     , (0x701ED071, 0x701ED074, '2005-02-09 10:00:00') /* Mosswart Feeder (948) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x701ED072,   278, 0x01ED0316, 120, -35.25, 12, 1, 0, 0, 0, False, '2005-02-09 10:00:00'); /* Door */
@@ -562,10 +562,10 @@ VALUES (0x701ED073,  7923, 0x01ED031D, 120, -60, 12, 1, 0, 0, 0, False, '2005-02
 /* @teleloc 0x01ED031D [120.000000 -60.000000 12.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x701ED073, 0x701ED061, '2005-02-09 10:00:00') /* Creeper Mosswart */
-     , (0x701ED073, 0x701ED075, '2005-02-09 10:00:00') /* Creeper Mosswart */
-     , (0x701ED073, 0x701ED076, '2005-02-09 10:00:00') /* Mosswart Feeder */
-     , (0x701ED073, 0x701ED077, '2005-02-09 10:00:00') /* Mosswart Feeder */;
+VALUES (0x701ED073, 0x701ED061, '2005-02-09 10:00:00') /* Creeper Mosswart (8) */
+     , (0x701ED073, 0x701ED075, '2005-02-09 10:00:00') /* Creeper Mosswart (8) */
+     , (0x701ED073, 0x701ED076, '2005-02-09 10:00:00') /* Mosswart Feeder (948) */
+     , (0x701ED073, 0x701ED077, '2005-02-09 10:00:00') /* Mosswart Feeder (948) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x701ED074,   948, 0x01ED0321, 128.341, -23.658, 12.0055, -0.707107, 0, 0, -0.707107,  True, '2005-02-09 10:00:00'); /* Mosswart Feeder */

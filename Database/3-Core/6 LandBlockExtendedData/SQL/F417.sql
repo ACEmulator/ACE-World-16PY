@@ -13,10 +13,10 @@ VALUES (0x7F417002,  4219, 0xF4170000, 69.9834, 16.1827, 140.005, 0.862696, 0, 0
 /* @teleloc 0xF4170000 [69.983400 16.182700 140.005000] 0.862696 0.000000 0.000000 0.505722 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7F417002, 0x7F417000, '2005-02-09 10:00:00') /* Faisi Sclavus */
-     , (0x7F417002, 0x7F417001, '2005-02-09 10:00:00') /* Faisi Sclavus */
-     , (0x7F417002, 0x7F417003, '2005-02-09 10:00:00') /* Great Skeleton */
-     , (0x7F417002, 0x7F417004, '2005-02-09 10:00:00') /* Great Skeleton */;
+VALUES (0x7F417002, 0x7F417000, '2005-02-09 10:00:00') /* Faisi Sclavus (7111) */
+     , (0x7F417002, 0x7F417001, '2005-02-09 10:00:00') /* Faisi Sclavus (7111) */
+     , (0x7F417002, 0x7F417003, '2005-02-09 10:00:00') /* Great Skeleton (7122) */
+     , (0x7F417002, 0x7F417004, '2005-02-09 10:00:00') /* Great Skeleton (7122) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7F417003,  7122, 0xF4170000, 20.0854, 5.23907, 142.439, 0.149479, 0, 0, -0.988765,  True, '2005-02-09 10:00:00'); /* Great Skeleton */

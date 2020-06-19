@@ -17,9 +17,9 @@ VALUES (0x7CFA0003,  1154, 0xCFA00000, 136.686, 80.2406, 1.30125, 0.218731, 0, 0
 /* @teleloc 0xCFA00000 [136.686000 80.240600 1.301250] 0.218731 0.000000 0.000000 -0.975785 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7CFA0003, 0x7CFA0000, '2005-02-09 10:00:00') /* Azure Gromnie */
-     , (0x7CFA0003, 0x7CFA0001, '2005-02-09 10:00:00') /* Azure Gromnie */
-     , (0x7CFA0003, 0x7CFA0002, '2005-02-09 10:00:00') /* Azure Gromnie */;
+VALUES (0x7CFA0003, 0x7CFA0000, '2005-02-09 10:00:00') /* Azure Gromnie (1612) */
+     , (0x7CFA0003, 0x7CFA0001, '2005-02-09 10:00:00') /* Azure Gromnie (1612) */
+     , (0x7CFA0003, 0x7CFA0002, '2005-02-09 10:00:00') /* Azure Gromnie (1612) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7CFA0004,  1013, 0xCFA0010B, 48.153, 48.548, 1.205, 1, 0, 0, 0, False, '2005-02-09 10:00:00'); /* Portal to Arwic */

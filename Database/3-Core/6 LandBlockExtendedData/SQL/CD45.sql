@@ -25,8 +25,8 @@ VALUES (0x7CD45005,  1154, 0xCD450000, 109.676, 141.961, 77.4894, 0.860937, 0, 0
 /* @teleloc 0xCD450000 [109.676000 141.961000 77.489400] 0.860937 0.000000 0.000000 -0.508712 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7CD45005, 0x7CD45000, '2005-02-09 10:00:00') /* Hunter Shreth */
-     , (0x7CD45005, 0x7CD45001, '2005-02-09 10:00:00') /* Hunter Shreth */
-     , (0x7CD45005, 0x7CD45002, '2005-02-09 10:00:00') /* Hunter Shreth */
-     , (0x7CD45005, 0x7CD45003, '2005-02-09 10:00:00') /* Hunter Shreth */
-     , (0x7CD45005, 0x7CD45004, '2005-02-09 10:00:00') /* Hunter Shreth */;
+VALUES (0x7CD45005, 0x7CD45000, '2005-02-09 10:00:00') /* Hunter Shreth (4111) */
+     , (0x7CD45005, 0x7CD45001, '2005-02-09 10:00:00') /* Hunter Shreth (4111) */
+     , (0x7CD45005, 0x7CD45002, '2005-02-09 10:00:00') /* Hunter Shreth (4111) */
+     , (0x7CD45005, 0x7CD45003, '2005-02-09 10:00:00') /* Hunter Shreth (4111) */
+     , (0x7CD45005, 0x7CD45004, '2005-02-09 10:00:00') /* Hunter Shreth (4111) */;
