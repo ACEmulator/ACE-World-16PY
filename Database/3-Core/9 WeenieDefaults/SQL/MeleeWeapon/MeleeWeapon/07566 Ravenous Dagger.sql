@@ -55,7 +55,7 @@ VALUES (7566,   1,   33556656) /* Setup */
      , (7566,   8,  100668875) /* Icon */
      , (7566,  22,  872415275) /* PhysicsEffectTable */
      , (7566,  36,  234881044) /* MutateFilter */
-     , (7566,  37,          4) /* ItemSkillLimit */;
+     , (7566,  37,          4) /* ItemSkillLimit - Dagger */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (7566,  1994,      2)  /* Aura of Wound Twister */

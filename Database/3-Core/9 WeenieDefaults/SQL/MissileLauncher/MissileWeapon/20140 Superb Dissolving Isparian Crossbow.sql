@@ -59,7 +59,7 @@ VALUES (20140,   1,   33557769) /* Setup */
      , (20140,   7,  268436396) /* ClothingBase */
      , (20140,   8,  100673025) /* Icon */
      , (20140,  22,  872415275) /* PhysicsEffectTable */
-     , (20140,  37,          3) /* ItemSkillLimit */;
+     , (20140,  37,          3) /* ItemSkillLimit - Crossbow */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (20140,   520,      2)  /* Acid Protection Self VI */

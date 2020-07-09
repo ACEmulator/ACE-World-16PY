@@ -53,7 +53,7 @@ VALUES (25843,   1,   33558556) /* Setup */
      , (25843,   7,  268436757) /* ClothingBase */
      , (25843,   8,  100675625) /* Icon */
      , (25843,  22,  872415275) /* PhysicsEffectTable */
-     , (25843,  37,          6) /* ItemSkillLimit */;
+     , (25843,  37,          6) /* ItemSkillLimit - MeleeDefense */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (25843,  2937,      2)  /* Moderate Impregnability */

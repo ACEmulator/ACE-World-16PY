@@ -51,7 +51,7 @@ VALUES (9596,   1,   33557104) /* Setup */
      , (9596,  22,  872415275) /* PhysicsEffectTable */
      , (9596,  30,         88) /* PhysicsScript - Create */
      , (9596,  36,  234881044) /* MutateFilter */
-     , (9596,  37,          1) /* ItemSkillLimit */;
+     , (9596,  37,          1) /* ItemSkillLimit - Axe */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (9596,  1590,      2)  /* Aura of Heart Seeker Self IV */

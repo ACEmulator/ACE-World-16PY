@@ -55,7 +55,7 @@ VALUES (21018,   1,   33557745) /* Setup */
      , (21018,   7,  268436418) /* ClothingBase */
      , (21018,   8,  100673201) /* Icon */
      , (21018,  22,  872415275) /* PhysicsEffectTable */
-     , (21018,  37,         12) /* ItemSkillLimit */;
+     , (21018,  37,         12) /* ItemSkillLimit - ThrownWeapon */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (21018,  1312,      2)  /* Armor Self VI */

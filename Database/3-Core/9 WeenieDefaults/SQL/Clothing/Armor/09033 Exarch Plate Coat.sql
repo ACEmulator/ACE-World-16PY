@@ -49,7 +49,7 @@ VALUES (9033,   1,   33554644) /* Setup */
      , (9033,   7,  268436116) /* ClothingBase */
      , (9033,   8,  100670403) /* Icon */
      , (9033,  22,  872415275) /* PhysicsEffectTable */
-     , (9033,  41,         34) /* ItemSpecializedOnly */;
+     , (9033,  41,         34) /* ItemSpecializedOnly - WarMagic */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (9033,   664,      2)  /* Mana Conversion Mastery Other VI */

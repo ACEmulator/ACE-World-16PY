@@ -54,7 +54,7 @@ VALUES (10875,   1,   33557314) /* Setup */
      , (10875,   8,  100672043) /* Icon */
      , (10875,  22,  872415275) /* PhysicsEffectTable */
      , (10875,  36,  234881044) /* MutateFilter */
-     , (10875,  37,          4) /* ItemSkillLimit */;
+     , (10875,  37,          4) /* ItemSkillLimit - Dagger */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (10875,  1408,      2)  /* Quickness Other VI */

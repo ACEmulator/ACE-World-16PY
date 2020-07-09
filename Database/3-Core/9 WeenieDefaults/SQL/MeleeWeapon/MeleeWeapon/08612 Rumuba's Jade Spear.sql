@@ -51,7 +51,7 @@ VALUES (8612,   1,   33556901) /* Setup */
      , (8612,   7,  268436091) /* ClothingBase */
      , (8612,   8,  100671208) /* Icon */
      , (8612,  22,  872415275) /* PhysicsEffectTable */
-     , (8612,  37,          9) /* ItemSkillLimit */;
+     , (8612,  37,          9) /* ItemSkillLimit - Spear */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (8612,   367,      2)  /* Light Weapon Mastery Other IV */

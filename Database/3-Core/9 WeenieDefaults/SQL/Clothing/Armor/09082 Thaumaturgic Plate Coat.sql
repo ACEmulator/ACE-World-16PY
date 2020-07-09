@@ -50,7 +50,7 @@ VALUES (9082,   1,   33554644) /* Setup */
      , (9082,   7,  268436113) /* ClothingBase */
      , (9082,   8,  100670403) /* Icon */
      , (9082,  22,  872415275) /* PhysicsEffectTable */
-     , (9082,  37,         34) /* ItemSkillLimit */;
+     , (9082,  37,         34) /* ItemSkillLimit - WarMagic */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (9082,   664,      2)  /* Mana Conversion Mastery Other VI */

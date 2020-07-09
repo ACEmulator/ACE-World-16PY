@@ -58,7 +58,7 @@ VALUES (23912,   1,   33558208) /* Setup */
      , (23912,   8,  100671745) /* Icon */
      , (23912,  22,  872415275) /* PhysicsEffectTable */
      , (23912,  30,         88) /* PhysicsScript - Create */
-     , (23912,  37,          4) /* ItemSkillLimit */;
+     , (23912,  37,          4) /* ItemSkillLimit - Dagger */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (23912,  1377,      2)  /* Coordination Self V */

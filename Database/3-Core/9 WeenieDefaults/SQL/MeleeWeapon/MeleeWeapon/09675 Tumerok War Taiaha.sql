@@ -54,7 +54,7 @@ VALUES (9675,   1,   33556972) /* Setup */
      , (9675,   8,  100671371) /* Icon */
      , (9675,  22,  872415275) /* PhysicsEffectTable */
      , (9675,  36,  234881044) /* MutateFilter */
-     , (9675,  37,          9) /* ItemSkillLimit */;
+     , (9675,  37,          9) /* ItemSkillLimit - Spear */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (9675,  1329,      2)  /* Strength Self III */

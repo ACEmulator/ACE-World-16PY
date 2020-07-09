@@ -47,7 +47,7 @@ VALUES (20164,   1,   33557789) /* Setup */
      , (20164,   7,  268436395) /* ClothingBase */
      , (20164,   8,  100672996) /* Icon */
      , (20164,  22,  872415275) /* PhysicsEffectTable */
-     , (20164,  37,         16) /* ItemSkillLimit */;
+     , (20164,  37,         16) /* ItemSkillLimit - ManaConversion */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (20164,   632,      2)  /* War Magic Mastery Self IV */

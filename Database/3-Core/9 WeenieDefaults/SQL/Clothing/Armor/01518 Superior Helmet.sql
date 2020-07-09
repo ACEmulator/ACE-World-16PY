@@ -51,7 +51,7 @@ VALUES (1518,   1,   33554650) /* Setup */
      , (1518,   7,  268435500) /* ClothingBase */
      , (1518,   8,  100667343) /* Icon */
      , (1518,  22,  872415275) /* PhysicsEffectTable */
-     , (1518,  37,          6) /* ItemSkillLimit */;
+     , (1518,  37,          6) /* ItemSkillLimit - MeleeDefense */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (1518,   241,      2)  /* Invulnerability Other III */

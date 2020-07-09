@@ -52,7 +52,7 @@ VALUES (28528,   1,   33558379) /* Setup */
      , (28528,   8,  100674408) /* Icon */
      , (28528,  22,  872415275) /* PhysicsEffectTable */
      , (28528,  30,         88) /* PhysicsScript - Create */
-     , (28528,  37,          1) /* ItemSkillLimit */;
+     , (28528,  37,          1) /* ItemSkillLimit - Axe */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (28528,  1591,      2)  /* Aura of Heart Seeker Self V */

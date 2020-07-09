@@ -53,7 +53,7 @@ VALUES (21430,   1,   33557961) /* Setup */
      , (21430,   3,  536870932) /* SoundTable */
      , (21430,   8,  100673488) /* Icon */
      , (21430,  22,  872415275) /* PhysicsEffectTable */
-     , (21430,  37,          4) /* ItemSkillLimit */;
+     , (21430,  37,          4) /* ItemSkillLimit - Dagger */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (21430,   320,      2)  /* Finesse Weapon Mastery Other V */

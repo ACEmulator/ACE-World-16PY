@@ -51,7 +51,7 @@ VALUES (6228,   1,   33556324) /* Setup */
      , (6228,   7,  268435903) /* ClothingBase */
      , (6228,   8,  100670538) /* Icon */
      , (6228,  22,  872415275) /* PhysicsEffectTable */
-     , (6228,  37,          5) /* ItemSkillLimit */;
+     , (6228,  37,          5) /* ItemSkillLimit - Mace */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (6228,  1032,      2)  /* Cold Protection Self III */

@@ -55,7 +55,7 @@ VALUES (19840,   1,   33557742) /* Setup */
      , (19840,   7,  268436378) /* ClothingBase */
      , (19840,   8,  100673032) /* Icon */
      , (19840,  22,  872415275) /* PhysicsEffectTable */
-     , (19840,  37,          4) /* ItemSkillLimit */;
+     , (19840,  37,          4) /* ItemSkillLimit - Dagger */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (19840,  1069,      2)  /* Lightning Protection Self IV */

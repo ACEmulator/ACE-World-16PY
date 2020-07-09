@@ -57,7 +57,7 @@ VALUES (24599,   1,   33558420) /* Setup */
      , (24599,   6,   67114437) /* PaletteBase */
      , (24599,   8,  100671325) /* Icon */
      , (24599,  22,  872415275) /* PhysicsEffectTable */
-     , (24599,  37,         11) /* ItemSkillLimit */;
+     , (24599,  37,         11) /* ItemSkillLimit - Sword */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (24599,  1311,      2)  /* Armor Self V */

@@ -41,7 +41,7 @@ VALUES (2031,   1,   33558283) /* Setup */
      , (2031,  22,  872415275) /* PhysicsEffectTable */
      , (2031,  27, 1073742049) /* UseUserAnimation - UseMagicWand */
      , (2031,  28,       2742) /* Spell - Flame Arc IV */
-     , (2031,  37,         34) /* ItemSkillLimit */;
+     , (2031,  37,         34) /* ItemSkillLimit - WarMagic */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (2031,   215,      2)  /* Mana Renewal Self IV */

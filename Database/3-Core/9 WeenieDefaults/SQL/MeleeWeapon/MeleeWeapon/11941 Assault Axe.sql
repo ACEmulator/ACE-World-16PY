@@ -54,7 +54,7 @@ VALUES (11941,   1,   33557200) /* Setup */
      , (11941,   8,  100671742) /* Icon */
      , (11941,  22,  872415275) /* PhysicsEffectTable */
      , (11941,  30,         88) /* PhysicsScript - Create */
-     , (11941,  37,          1) /* ItemSkillLimit */;
+     , (11941,  37,          1) /* ItemSkillLimit - Axe */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (11941,  1400,      2)  /* Quickness Self IV */

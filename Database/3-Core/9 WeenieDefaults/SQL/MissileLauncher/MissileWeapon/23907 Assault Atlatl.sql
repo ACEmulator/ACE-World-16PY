@@ -59,7 +59,7 @@ VALUES (23907,   1,   33558205) /* Setup */
      , (23907,   8,  100674081) /* Icon */
      , (23907,  22,  872415275) /* PhysicsEffectTable */
      , (23907,  30,         88) /* PhysicsScript - Create */
-     , (23907,  37,         12) /* ItemSkillLimit */;
+     , (23907,  37,         12) /* ItemSkillLimit - ThrownWeapon */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (23907,  1377,      2)  /* Coordination Self V */

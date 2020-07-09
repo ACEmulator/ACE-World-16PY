@@ -57,7 +57,7 @@ VALUES (24601,   1,   33558420) /* Setup */
      , (24601,   6,   67114437) /* PaletteBase */
      , (24601,   8,  100671325) /* Icon */
      , (24601,  22,  872415275) /* PhysicsEffectTable */
-     , (24601,  37,         11) /* ItemSkillLimit */;
+     , (24601,  37,         11) /* ItemSkillLimit - Sword */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (24601,  1312,      2)  /* Armor Self VI */

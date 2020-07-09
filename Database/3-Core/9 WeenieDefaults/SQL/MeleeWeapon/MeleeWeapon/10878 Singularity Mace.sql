@@ -54,7 +54,7 @@ VALUES (10878,   1,   33557316) /* Setup */
      , (10878,   8,  100672045) /* Icon */
      , (10878,  22,  872415275) /* PhysicsEffectTable */
      , (10878,  36,  234881044) /* MutateFilter */
-     , (10878,  37,          5) /* ItemSkillLimit */;
+     , (10878,  37,          5) /* ItemSkillLimit - Mace */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (10878,  1337,      2)  /* Strength Other VI */

@@ -49,7 +49,7 @@ VALUES (8883,   1,   33555649) /* Setup */
      , (8883,  27, 1073742049) /* UseUserAnimation - UseMagicWand */
      , (8883,  28,       1794) /* Spell - Acid Streak V */
      , (8883,  36,  234881046) /* MutateFilter */
-     , (8883,  37,         34) /* ItemSkillLimit */;
+     , (8883,  37,         34) /* ItemSkillLimit - WarMagic */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (8883,   615,      2)  /* Life Magic Mastery Other V */

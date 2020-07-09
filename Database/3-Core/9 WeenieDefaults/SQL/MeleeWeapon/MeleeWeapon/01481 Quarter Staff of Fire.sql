@@ -47,7 +47,7 @@ VALUES (1481,   1,   33558066) /* Setup */
      , (1481,   7,  268436486) /* ClothingBase */
      , (1481,   8,  100667602) /* Icon */
      , (1481,  22,  872415275) /* PhysicsEffectTable */
-     , (1481,  37,         10) /* ItemSkillLimit */;
+     , (1481,  37,         10) /* ItemSkillLimit - Staff */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (1481,   836,      2)  /* Fire Protection Other III */

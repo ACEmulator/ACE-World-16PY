@@ -48,7 +48,7 @@ VALUES (11997,   1,   33557329) /* Setup */
      , (11997,   8,  100672065) /* Icon */
      , (11997,  22,  872415275) /* PhysicsEffectTable */
      , (11997,  36,  234881044) /* MutateFilter */
-     , (11997,  37,          5) /* ItemSkillLimit */;
+     , (11997,  37,          5) /* ItemSkillLimit - Mace */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (11997,  1035,      2)  /* Cold Protection Self VI */

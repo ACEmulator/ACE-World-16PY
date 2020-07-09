@@ -46,7 +46,7 @@ VALUES (8671,   1,   33556934) /* Setup */
      , (8671,   8,  100671240) /* Icon */
      , (8671,  22,  872415275) /* PhysicsEffectTable */
      , (8671,  27, 1073742049) /* UseUserAnimation - UseMagicWand */
-     , (8671,  37,         16) /* ItemSkillLimit */;
+     , (8671,  37,         16) /* ItemSkillLimit - ManaConversion */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (8671,   168,      2)  /* Regeneration Self IV */

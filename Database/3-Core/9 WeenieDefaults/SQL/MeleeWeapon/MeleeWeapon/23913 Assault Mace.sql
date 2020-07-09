@@ -57,7 +57,7 @@ VALUES (23913,   1,   33557204) /* Setup */
      , (23913,   7,  268436199) /* ClothingBase */
      , (23913,   8,  100671746) /* Icon */
      , (23913,  22,  872415275) /* PhysicsEffectTable */
-     , (23913,  37,          5) /* ItemSkillLimit */;
+     , (23913,  37,          5) /* ItemSkillLimit - Mace */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (23913,  1331,      2)  /* Strength Self V */

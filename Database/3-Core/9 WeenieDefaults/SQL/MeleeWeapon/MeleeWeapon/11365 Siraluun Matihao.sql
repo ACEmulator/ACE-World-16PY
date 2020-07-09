@@ -52,7 +52,7 @@ VALUES (11365,   1,   33557229) /* Setup */
      , (11365,   8,  100671864) /* Icon */
      , (11365,  22,  872415275) /* PhysicsEffectTable */
      , (11365,  36,  234881044) /* MutateFilter */
-     , (11365,  37,         13) /* ItemSkillLimit */;
+     , (11365,  37,         13) /* ItemSkillLimit - UnarmedCombat */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (11365,   440,      2)  /* Light Weapon Mastery Other IV */

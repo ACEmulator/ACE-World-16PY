@@ -57,7 +57,7 @@ VALUES (6728,   1,   33556553) /* Setup */
      , (6728,   8,  100670611) /* Icon */
      , (6728,  22,  872415275) /* PhysicsEffectTable */
      , (6728,  36,  234881044) /* MutateFilter */
-     , (6728,  37,          1) /* ItemSkillLimit */;
+     , (6728,  37,          1) /* ItemSkillLimit - Axe */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (6728,  1096,      2)  /* Fire Protection Other VI */

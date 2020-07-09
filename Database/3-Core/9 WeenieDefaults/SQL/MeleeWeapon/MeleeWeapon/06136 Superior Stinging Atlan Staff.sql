@@ -51,7 +51,7 @@ VALUES (6136,   1,   33556371) /* Setup */
      , (6136,   7,  268435950) /* ClothingBase */
      , (6136,   8,  100670564) /* Icon */
      , (6136,  22,  872415275) /* PhysicsEffectTable */
-     , (6136,  37,         10) /* ItemSkillLimit */;
+     , (6136,  37,         10) /* ItemSkillLimit - Staff */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (6136,   518,      2)  /* Acid Protection Self IV */

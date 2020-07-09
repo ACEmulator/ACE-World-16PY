@@ -43,7 +43,7 @@ VALUES (27898,   1,   33558802) /* Setup */
      , (27898,  22,  872415275) /* PhysicsEffectTable */
      , (27898,  27, 1073742049) /* UseUserAnimation - UseMagicWand */
      , (27898,  28,       1050) /* Spell - Bludgeoning Vulnerability Other III */
-     , (27898,  37,         33) /* ItemSkillLimit */;
+     , (27898,  37,         33) /* ItemSkillLimit - LifeMagic */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (27898,   208,      2)  /* Mana Renewal Other III */

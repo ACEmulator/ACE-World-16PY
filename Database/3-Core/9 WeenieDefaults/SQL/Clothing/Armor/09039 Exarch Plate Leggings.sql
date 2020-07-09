@@ -49,7 +49,7 @@ VALUES (9039,   1,   33554856) /* Setup */
      , (9039,   7,  268436118) /* ClothingBase */
      , (9039,   8,  100670419) /* Icon */
      , (9039,  22,  872415275) /* PhysicsEffectTable */
-     , (9039,  41,         34) /* ItemSpecializedOnly */;
+     , (9039,  41,         34) /* ItemSpecializedOnly - WarMagic */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (9039,   992,      2)  /* Sprint Other V */

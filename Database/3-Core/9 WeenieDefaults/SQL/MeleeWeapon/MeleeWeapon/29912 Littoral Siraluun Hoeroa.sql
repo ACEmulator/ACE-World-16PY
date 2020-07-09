@@ -52,7 +52,7 @@ VALUES (29912,   1,   33559106) /* Setup */
      , (29912,   8,  100677338) /* Icon */
      , (29912,  22,  872415275) /* PhysicsEffectTable */
      , (29912,  36,  234881044) /* MutateFilter */
-     , (29912,  37,         10) /* ItemSkillLimit */;
+     , (29912,  37,         10) /* ItemSkillLimit - Staff */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (29912,   390,      2)  /* Light Weapon Mastery Other III */

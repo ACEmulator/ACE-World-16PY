@@ -39,8 +39,8 @@ VALUES (9491,   1,   33557010) /* Setup */
      , (9491,   8,  100671492) /* Icon */
      , (9491,  22,  872415275) /* PhysicsEffectTable */
      , (9491,  27, 1073742049) /* UseUserAnimation - UseMagicWand */
-     , (9491,  37,         16) /* ItemSkillLimit */
-     , (9491,  41,         16) /* ItemSpecializedOnly */;
+     , (9491,  37,         16) /* ItemSkillLimit - ManaConversion */
+     , (9491,  41,         16) /* ItemSpecializedOnly - ManaConversion */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (9491,   211,      2)  /* Mana Renewal Other VI */

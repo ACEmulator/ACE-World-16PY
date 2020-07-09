@@ -57,7 +57,7 @@ VALUES (20133,   1,   33557730) /* Setup */
      , (20133,   7,  268436396) /* ClothingBase */
      , (20133,   8,  100673020) /* Icon */
      , (20133,  22,  872415275) /* PhysicsEffectTable */
-     , (20133,  37,          3) /* ItemSkillLimit */;
+     , (20133,  37,          3) /* ItemSkillLimit - Crossbow */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (20133,  1604,      2)  /* Aura of Defender Self V */

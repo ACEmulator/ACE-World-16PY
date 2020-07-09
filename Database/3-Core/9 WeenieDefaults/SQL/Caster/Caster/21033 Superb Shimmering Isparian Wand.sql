@@ -47,7 +47,7 @@ VALUES (21033,   1,   33557731) /* Setup */
      , (21033,   7,  268436427) /* ClothingBase */
      , (21033,   8,  100673203) /* Icon */
      , (21033,  22,  872415275) /* PhysicsEffectTable */
-     , (21033,  37,         16) /* ItemSkillLimit */;
+     , (21033,  37,         16) /* ItemSkillLimit - ManaConversion */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (21033,   657,      2)  /* Mana Conversion Mastery Self V */

@@ -48,7 +48,7 @@ VALUES (23543,   1,   33558192) /* Setup */
      , (23543,   3,  536870932) /* SoundTable */
      , (23543,   8,  100674027) /* Icon */
      , (23543,  22,  872415275) /* PhysicsEffectTable */
-     , (23543,  37,         12) /* ItemSkillLimit */;
+     , (23543,  37,         12) /* ItemSkillLimit - ThrownWeapon */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (23543,  1603,      2)  /* Aura of Defender Self IV */

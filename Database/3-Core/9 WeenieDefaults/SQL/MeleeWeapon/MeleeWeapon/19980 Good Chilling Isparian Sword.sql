@@ -55,7 +55,7 @@ VALUES (19980,   1,   33556345) /* Setup */
      , (19980,   7,  268436385) /* ClothingBase */
      , (19980,   8,  100672944) /* Icon */
      , (19980,  22,  872415275) /* PhysicsEffectTable */
-     , (19980,  37,         11) /* ItemSkillLimit */;
+     , (19980,  37,         11) /* ItemSkillLimit - Sword */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (19980,  1033,      2)  /* Cold Protection Self IV */

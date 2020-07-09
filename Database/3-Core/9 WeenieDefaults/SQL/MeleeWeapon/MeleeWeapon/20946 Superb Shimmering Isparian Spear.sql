@@ -57,7 +57,7 @@ VALUES (20946,   1,   33556260) /* Setup */
      , (20946,   7,  268436424) /* ClothingBase */
      , (20946,   8,  100673208) /* Icon */
      , (20946,  22,  872415275) /* PhysicsEffectTable */
-     , (20946,  37,          9) /* ItemSkillLimit */;
+     , (20946,  37,          9) /* ItemSkillLimit - Spear */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (20946,  1312,      2)  /* Armor Self VI */

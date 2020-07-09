@@ -55,7 +55,7 @@ VALUES (9137,   1,   33554732) /* Setup */
      , (9137,   7,  268435762) /* ClothingBase */
      , (9137,   8,  100668835) /* Icon */
      , (9137,  22,  872415275) /* PhysicsEffectTable */
-     , (9137,  37,          3) /* ItemSkillLimit */;
+     , (9137,  37,          3) /* ItemSkillLimit - Crossbow */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (9137,  1381,      2)  /* Coordination Other III */

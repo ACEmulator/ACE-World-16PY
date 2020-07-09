@@ -49,7 +49,7 @@ VALUES (5909,   1,   33554854) /* Setup */
      , (5909,   7,  268435853) /* ClothingBase */
      , (5909,   8,  100670358) /* Icon */
      , (5909,  22,  872415275) /* PhysicsEffectTable */
-     , (5909,  37,         34) /* ItemSkillLimit */;
+     , (5909,  37,         34) /* ItemSkillLimit - WarMagic */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (5909,   571,      2)  /* Creature Enchantment Ineptitude Other III */

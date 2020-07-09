@@ -57,7 +57,7 @@ VALUES (19803,   1,   33556360) /* Setup */
      , (19803,   7,  268436380) /* ClothingBase */
      , (19803,   8,  100672907) /* Icon */
      , (19803,  22,  872415275) /* PhysicsEffectTable */
-     , (19803,  37,         13) /* ItemSkillLimit */;
+     , (19803,  37,         13) /* ItemSkillLimit - UnarmedCombat */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (19803,  1071,      2)  /* Lightning Protection Self VI */

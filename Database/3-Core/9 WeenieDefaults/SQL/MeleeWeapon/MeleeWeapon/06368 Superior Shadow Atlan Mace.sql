@@ -50,7 +50,7 @@ VALUES (6368,   1,   33556323) /* Setup */
      , (6368,   7,  268435902) /* ClothingBase */
      , (6368,   8,  100670543) /* Icon */
      , (6368,  22,  872415275) /* PhysicsEffectTable */
-     , (6368,  37,          5) /* ItemSkillLimit */;
+     , (6368,  37,          5) /* ItemSkillLimit - Mace */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (6368,   265,      2)  /* Defenselessness Other IV */

@@ -53,7 +53,7 @@ VALUES (8526,   1,   33555022) /* Setup */
      , (8526,   8,  100668709) /* Icon */
      , (8526,  22,  872415275) /* PhysicsEffectTable */
      , (8526,  36,  234881044) /* MutateFilter */
-     , (8526,  37,         10) /* ItemSkillLimit */;
+     , (8526,  37,         10) /* ItemSkillLimit - Staff */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (8526,   270,      2)  /* Magic Resistance Other III */

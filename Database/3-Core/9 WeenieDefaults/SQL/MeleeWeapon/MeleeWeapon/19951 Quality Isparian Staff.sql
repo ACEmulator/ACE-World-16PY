@@ -54,7 +54,7 @@ VALUES (19951,   1,   33556261) /* Setup */
      , (19951,   7,  268436384) /* ClothingBase */
      , (19951,   8,  100672935) /* Icon */
      , (19951,  22,  872415275) /* PhysicsEffectTable */
-     , (19951,  37,         10) /* ItemSkillLimit */;
+     , (19951,  37,         10) /* ItemSkillLimit - Staff */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (19951,  1589,      2)  /* Aura of Heart Seeker Self III */

@@ -46,8 +46,8 @@ INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (9490,   1,   33557008) /* Setup */
      , (9490,   8,  100671499) /* Icon */
      , (9490,  22,  872415275) /* PhysicsEffectTable */
-     , (9490,  37,          9) /* ItemSkillLimit */
-     , (9490,  41,          9) /* ItemSpecializedOnly */;
+     , (9490,  37,          9) /* ItemSkillLimit - Spear */
+     , (9490,  41,          9) /* ItemSpecializedOnly - Spear */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (9490,  2387,      2)  /* Determination */

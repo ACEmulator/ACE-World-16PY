@@ -53,7 +53,7 @@ VALUES (21435,   1,   33557958) /* Setup */
      , (21435,   3,  536870932) /* SoundTable */
      , (21435,   8,  100673485) /* Icon */
      , (21435,  22,  872415275) /* PhysicsEffectTable */
-     , (21435,  37,          1) /* ItemSkillLimit */;
+     , (21435,  37,          1) /* ItemSkillLimit - Axe */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (21435,   296,      2)  /* Light Weapon Mastery Other V */

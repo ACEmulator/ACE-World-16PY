@@ -56,7 +56,7 @@ VALUES (6965,   1,   33556600) /* Setup */
      , (6965,   7,  268436002) /* ClothingBase */
      , (6965,   8,  100670670) /* Icon */
      , (6965,  22,  872415275) /* PhysicsEffectTable */
-     , (6965,  37,          2) /* ItemSkillLimit */;
+     , (6965,  37,          2) /* ItemSkillLimit - Bow */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (6965,   464,      2)  /* Missile Weapon Mastery Other IV */

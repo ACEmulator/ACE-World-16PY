@@ -55,7 +55,7 @@ VALUES (19910,   1,   33556335) /* Setup */
      , (19910,   7,  268436383) /* ClothingBase */
      , (19910,   8,  100672931) /* Icon */
      , (19910,  22,  872415275) /* PhysicsEffectTable */
-     , (19910,  37,          9) /* ItemSkillLimit */;
+     , (19910,  37,          9) /* ItemSkillLimit - Spear */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (19910,  1092,      2)  /* Fire Protection Self IV */

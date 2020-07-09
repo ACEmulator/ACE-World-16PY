@@ -39,7 +39,7 @@ VALUES (23611,   1,   33557338) /* Setup */
      , (23611,   8,  100674094) /* Icon */
      , (23611,  22,  872415275) /* PhysicsEffectTable */
      , (23611,  27, 1073742049) /* UseUserAnimation - UseMagicWand */
-     , (23611,  37,         33) /* ItemSkillLimit */;
+     , (23611,  37,         33) /* ItemSkillLimit - LifeMagic */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (23611,   585,      2)  /* Item Enchantment Mastery Self V */

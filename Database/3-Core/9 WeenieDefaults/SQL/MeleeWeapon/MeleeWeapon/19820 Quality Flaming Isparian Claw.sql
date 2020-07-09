@@ -55,7 +55,7 @@ VALUES (19820,   1,   33556321) /* Setup */
      , (19820,   7,  268436380) /* ClothingBase */
      , (19820,   8,  100672911) /* Icon */
      , (19820,  22,  872415275) /* PhysicsEffectTable */
-     , (19820,  37,         13) /* ItemSkillLimit */;
+     , (19820,  37,         13) /* ItemSkillLimit - UnarmedCombat */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (19820,  1092,      2)  /* Fire Protection Self IV */

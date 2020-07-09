@@ -50,7 +50,7 @@ VALUES (8022,   1,   33556767) /* Setup */
      , (8022,  22,  872415275) /* PhysicsEffectTable */
      , (8022,  27, 1073742049) /* UseUserAnimation - UseMagicWand */
      , (8022,  36,  234881046) /* MutateFilter */
-     , (8022,  37,         32) /* ItemSkillLimit */;
+     , (8022,  37,         32) /* ItemSkillLimit - ItemEnchantment */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (8022,   559,      2)  /* Creature Enchantment Mastery Self III */

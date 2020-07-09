@@ -53,7 +53,7 @@ VALUES (10886,   1,   33557321) /* Setup */
      , (10886,   7,  268436239) /* ClothingBase */
      , (10886,   8,  100672604) /* Icon */
      , (10886,  22,  872415275) /* PhysicsEffectTable */
-     , (10886,  37,          3) /* ItemSkillLimit */;
+     , (10886,  37,          3) /* ItemSkillLimit - Crossbow */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (10886,  1616,      2)  /* Aura of Blood Drinker Self VI */;

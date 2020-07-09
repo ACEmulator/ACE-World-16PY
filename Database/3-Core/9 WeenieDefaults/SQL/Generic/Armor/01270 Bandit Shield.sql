@@ -50,7 +50,7 @@ VALUES (1270,   1,   33554786) /* Setup */
      , (1270,   7,  268435607) /* ClothingBase */
      , (1270,   8,  100667361) /* Icon */
      , (1270,  22,  872415275) /* PhysicsEffectTable */
-     , (1270,  37,          6) /* ItemSkillLimit */;
+     , (1270,  37,          6) /* ItemSkillLimit - MeleeDefense */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (1270,   810,      2)  /* Fire Protection Other II */;

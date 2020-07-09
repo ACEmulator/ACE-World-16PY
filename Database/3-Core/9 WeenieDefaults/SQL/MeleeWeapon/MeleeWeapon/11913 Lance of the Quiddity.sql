@@ -47,7 +47,7 @@ VALUES (11913,   1,   33557108) /* Setup */
      , (11913,   8,  100671698) /* Icon */
      , (11913,  22,  872415275) /* PhysicsEffectTable */
      , (11913,  36,  234881044) /* MutateFilter */
-     , (11913,  37,          9) /* ItemSkillLimit */;
+     , (11913,  37,          9) /* ItemSkillLimit - Spear */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (11913,  1591,      2)  /* Aura of Heart Seeker Self V */

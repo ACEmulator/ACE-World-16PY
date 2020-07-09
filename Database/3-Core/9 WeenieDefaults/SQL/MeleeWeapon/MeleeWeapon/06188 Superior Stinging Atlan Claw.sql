@@ -51,7 +51,7 @@ VALUES (6188,   1,   33556318) /* Setup */
      , (6188,   7,  268435897) /* ClothingBase */
      , (6188,   8,  100670534) /* Icon */
      , (6188,  22,  872415275) /* PhysicsEffectTable */
-     , (6188,  37,         13) /* ItemSkillLimit */;
+     , (6188,  37,         13) /* ItemSkillLimit - UnarmedCombat */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (6188,   517,      2)  /* Acid Protection Self III */

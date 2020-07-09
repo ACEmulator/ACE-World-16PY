@@ -54,7 +54,7 @@ VALUES (10765,   1,   33557067) /* Setup */
      , (10765,  22,  872415275) /* PhysicsEffectTable */
      , (10765,  30,         88) /* PhysicsScript - Create */
      , (10765,  36,  234881044) /* MutateFilter */
-     , (10765,  37,          1) /* ItemSkillLimit */;
+     , (10765,  37,          1) /* ItemSkillLimit - Axe */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (10765,   247,      2)  /* Invulnerability Self IV */

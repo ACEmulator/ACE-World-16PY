@@ -49,7 +49,7 @@ VALUES (20159,   1,   33557783) /* Setup */
      , (20159,   7,  268436395) /* ClothingBase */
      , (20159,   8,  100672995) /* Icon */
      , (20159,  22,  872415275) /* PhysicsEffectTable */
-     , (20159,  37,         16) /* ItemSkillLimit */;
+     , (20159,  37,         16) /* ItemSkillLimit - ManaConversion */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (20159,   520,      2)  /* Acid Protection Self VI */

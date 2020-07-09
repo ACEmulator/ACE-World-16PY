@@ -55,7 +55,7 @@ VALUES (22954,   1,   33556553) /* Setup */
      , (22954,   7,  268435986) /* ClothingBase */
      , (22954,   8,  100670611) /* Icon */
      , (22954,  22,  872415275) /* PhysicsEffectTable */
-     , (22954,  37,          1) /* ItemSkillLimit */;
+     , (22954,  37,          1) /* ItemSkillLimit - Axe */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (22954,  1605,      2)  /* Aura of Defender Self VI */;

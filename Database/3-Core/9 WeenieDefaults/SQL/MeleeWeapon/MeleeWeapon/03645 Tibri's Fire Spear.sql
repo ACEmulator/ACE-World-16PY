@@ -46,7 +46,7 @@ VALUES (3645,   1,   33555412) /* Setup */
      , (3645,   6,   67111919) /* PaletteBase */
      , (3645,   8,  100667609) /* Icon */
      , (3645,  22,  872415275) /* PhysicsEffectTable */
-     , (3645,  37,          9) /* ItemSkillLimit */;
+     , (3645,  37,          9) /* ItemSkillLimit - Spear */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (3645,  1091,      2)  /* Fire Protection Self III */

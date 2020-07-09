@@ -43,7 +43,7 @@ VALUES (20152,   1,   33557731) /* Setup */
      , (20152,   3,  536870932) /* SoundTable */
      , (20152,   8,  100672990) /* Icon */
      , (20152,  22,  872415275) /* PhysicsEffectTable */
-     , (20152,  37,         16) /* ItemSkillLimit */;
+     , (20152,  37,         16) /* ItemSkillLimit - ManaConversion */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (20152,   658,      2)  /* Mana Conversion Mastery Self VI */

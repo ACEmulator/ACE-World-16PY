@@ -42,7 +42,7 @@ VALUES (12016,   1,   33557338) /* Setup */
      , (12016,  22,  872415275) /* PhysicsEffectTable */
      , (12016,  27, 1073742049) /* UseUserAnimation - UseMagicWand */
      , (12016,  36,  234881046) /* MutateFilter */
-     , (12016,  37,         33) /* ItemSkillLimit */;
+     , (12016,  37,         33) /* ItemSkillLimit - LifeMagic */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (12016,   585,      2)  /* Item Enchantment Mastery Self V */

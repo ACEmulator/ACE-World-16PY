@@ -56,7 +56,7 @@ VALUES (20047,   1,   33557804) /* Setup */
      , (20047,   7,  268436393) /* ClothingBase */
      , (20047,   8,  100673006) /* Icon */
      , (20047,  22,  872415275) /* PhysicsEffectTable */
-     , (20047,  37,         12) /* ItemSkillLimit */;
+     , (20047,  37,         12) /* ItemSkillLimit - ThrownWeapon */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (20047,  1094,      2)  /* Fire Protection Self VI */

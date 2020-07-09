@@ -58,7 +58,7 @@ VALUES (8031,   1,   33554786) /* Setup */
      , (8031,   7,  268436037) /* ClothingBase */
      , (8031,   8,  100670973) /* Icon */
      , (8031,  22,  872415275) /* PhysicsEffectTable */
-     , (8031,  37,          6) /* ItemSkillLimit */;
+     , (8031,  37,          6) /* ItemSkillLimit - MeleeDefense */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (8031,   248,      2)  /* Invulnerability Self V */

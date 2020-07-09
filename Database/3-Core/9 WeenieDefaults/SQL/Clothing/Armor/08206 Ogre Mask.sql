@@ -53,7 +53,7 @@ VALUES (8206,   1,   33556862) /* Setup */
      , (8206,   7,  268436080) /* ClothingBase */
      , (8206,   8,  100671134) /* Icon */
      , (8206,  22,  872415275) /* PhysicsEffectTable */
-     , (8206,  37,         13) /* ItemSkillLimit */;
+     , (8206,  37,         13) /* ItemSkillLimit - UnarmedCombat */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (8206,   247,      2)  /* Invulnerability Self IV */

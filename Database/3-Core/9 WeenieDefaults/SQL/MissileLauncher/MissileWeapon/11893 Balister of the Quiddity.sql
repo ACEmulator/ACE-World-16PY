@@ -49,7 +49,7 @@ VALUES (11893,   1,   33557112) /* Setup */
      , (11893,   3,  536870932) /* SoundTable */
      , (11893,   8,  100671701) /* Icon */
      , (11893,  22,  872415275) /* PhysicsEffectTable */
-     , (11893,  37,          3) /* ItemSkillLimit */;
+     , (11893,  37,          3) /* ItemSkillLimit - Crossbow */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (11893,  1590,      2)  /* Aura of Heart Seeker Self IV */

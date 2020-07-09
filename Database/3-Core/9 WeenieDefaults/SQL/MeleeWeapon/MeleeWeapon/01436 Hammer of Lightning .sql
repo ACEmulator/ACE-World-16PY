@@ -44,7 +44,7 @@ INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (1436,   1,   33555415) /* Setup */
      , (1436,   8,  100667619) /* Icon */
      , (1436,  22,  872415275) /* PhysicsEffectTable */
-     , (1436,  37,          1) /* ItemSkillLimit */;
+     , (1436,  37,          1) /* ItemSkillLimit - Axe */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (1436,  1069,      2)  /* Lightning Protection Self IV */

@@ -50,7 +50,7 @@ VALUES (11001,   1,   33557228) /* Setup */
      , (11001,   3,  536870932) /* SoundTable */
      , (11001,   8,  100671861) /* Icon */
      , (11001,  22,  872415275) /* PhysicsEffectTable */
-     , (11001,  41,          2) /* ItemSpecializedOnly */;
+     , (11001,  41,          2) /* ItemSpecializedOnly - Bow */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (11001,  1384,      2)  /* Coordination Other VI */

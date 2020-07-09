@@ -49,7 +49,7 @@ VALUES (8852,   1,   33556943) /* Setup */
      , (8852,  22,  872415275) /* PhysicsEffectTable */
      , (8852,  27, 1073742049) /* UseUserAnimation - UseMagicWand */
      , (8852,  36,  234881046) /* MutateFilter */
-     , (8852,  37,         32) /* ItemSkillLimit */;
+     , (8852,  37,         32) /* ItemSkillLimit - ItemEnchantment */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (8852,  2041,      2)  /* Aerlinthe Recall */;

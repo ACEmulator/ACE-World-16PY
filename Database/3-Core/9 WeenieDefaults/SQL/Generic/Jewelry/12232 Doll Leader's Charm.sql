@@ -41,7 +41,7 @@ VALUES (12232,   1,   33554683) /* Setup */
      , (12232,   8,  100672215) /* Icon */
      , (12232,  22,  872415275) /* PhysicsEffectTable */
      , (12232,  36,  234881046) /* MutateFilter */
-     , (12232,  37,         34) /* ItemSkillLimit */;
+     , (12232,  37,         34) /* ItemSkillLimit - WarMagic */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (12232,   632,      2)  /* War Magic Mastery Self IV */

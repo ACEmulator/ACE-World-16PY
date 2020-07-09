@@ -57,7 +57,7 @@ VALUES (23004,   1,   33556553) /* Setup */
      , (23004,   8,  100670611) /* Icon */
      , (23004,  22,  872415275) /* PhysicsEffectTable */
      , (23004,  36,  234881044) /* MutateFilter */
-     , (23004,  37,          1) /* ItemSkillLimit */;
+     , (23004,  37,          1) /* ItemSkillLimit - Axe */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (23004,  1077,      2)  /* Lightning Protection Other VI */;

@@ -51,7 +51,7 @@ VALUES (7460,   1,   33557406) /* Setup */
      , (7460,   7,  268435909) /* ClothingBase */
      , (7460,   8,  100670553) /* Icon */
      , (7460,  22,  872415275) /* PhysicsEffectTable */
-     , (7460,  37,          9) /* ItemSkillLimit */;
+     , (7460,  37,          9) /* ItemSkillLimit - Spear */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (7460,   375,      2)  /* Light Weapon Mastery Self VI */

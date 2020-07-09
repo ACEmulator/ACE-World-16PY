@@ -41,7 +41,7 @@ VALUES (7406,   1,   33554691) /* Setup */
      , (7406,   8,  100670751) /* Icon */
      , (7406,  22,  872415275) /* PhysicsEffectTable */
      , (7406,  36,  234881046) /* MutateFilter */
-     , (7406,  37,         31) /* ItemSkillLimit */;
+     , (7406,  37,         31) /* ItemSkillLimit - CreatureEnchantment */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (7406,   833,      2)  /* Person Attunement Other IV */

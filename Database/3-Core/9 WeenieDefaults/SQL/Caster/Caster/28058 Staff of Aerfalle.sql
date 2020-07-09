@@ -54,7 +54,7 @@ VALUES (28058,   1,   33556630) /* Setup */
      , (28058,  27, 1073742049) /* UseUserAnimation - UseMagicWand */
      , (28058,  28,        130) /* Spell - Acid Volley VI */
      , (28058,  36,  234881046) /* MutateFilter */
-     , (28058,  37,         34) /* ItemSkillLimit */;
+     , (28058,  37,         34) /* ItemSkillLimit - WarMagic */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (28058,   616,      2)  /* Life Magic Mastery Other VI */

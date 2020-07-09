@@ -50,7 +50,7 @@ VALUES (6362,   1,   33556316) /* Setup */
      , (6362,   7,  268435895) /* ClothingBase */
      , (6362,   8,  100670533) /* Icon */
      , (6362,  22,  872415275) /* PhysicsEffectTable */
-     , (6362,  37,         13) /* ItemSkillLimit */;
+     , (6362,  37,         13) /* ItemSkillLimit - UnarmedCombat */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (6362,   265,      2)  /* Defenselessness Other IV */

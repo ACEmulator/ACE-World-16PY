@@ -47,7 +47,7 @@ VALUES (8670,   1,   33556933) /* Setup */
      , (8670,   8,  100671239) /* Icon */
      , (8670,  22,  872415275) /* PhysicsEffectTable */
      , (8670,  27, 1073742049) /* UseUserAnimation - UseMagicWand */
-     , (8670,  37,         16) /* ItemSkillLimit */;
+     , (8670,  37,         16) /* ItemSkillLimit - ManaConversion */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (8670,   216,      2)  /* Mana Renewal Self V */

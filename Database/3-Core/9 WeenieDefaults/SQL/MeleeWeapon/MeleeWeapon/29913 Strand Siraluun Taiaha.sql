@@ -52,7 +52,7 @@ VALUES (29913,   1,   33559107) /* Setup */
      , (29913,   8,  100677333) /* Icon */
      , (29913,  22,  872415275) /* PhysicsEffectTable */
      , (29913,  36,  234881044) /* MutateFilter */
-     , (29913,  37,          9) /* ItemSkillLimit */;
+     , (29913,  37,          9) /* ItemSkillLimit - Spear */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (29913,  1602,      2)  /* Aura of Defender Self III */

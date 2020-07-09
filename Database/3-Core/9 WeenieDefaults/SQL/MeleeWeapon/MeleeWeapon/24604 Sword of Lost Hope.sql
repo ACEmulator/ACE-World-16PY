@@ -57,7 +57,7 @@ VALUES (24604,   1,   33558420) /* Setup */
      , (24604,   6,   67114437) /* PaletteBase */
      , (24604,   8,  100671325) /* Icon */
      , (24604,  22,  872415275) /* PhysicsEffectTable */
-     , (24604,  37,         11) /* ItemSkillLimit */;
+     , (24604,  37,         11) /* ItemSkillLimit - Sword */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (24604,   423,      2)  /* Heavy Weapon Mastery Self VI */

@@ -54,7 +54,7 @@ VALUES (19798,   1,   33556258) /* Setup */
      , (19798,   7,  268436380) /* ClothingBase */
      , (19798,   8,  100672905) /* Icon */
      , (19798,  22,  872415275) /* PhysicsEffectTable */
-     , (19798,  37,         13) /* ItemSkillLimit */;
+     , (19798,  37,         13) /* ItemSkillLimit - UnarmedCombat */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (19798,  1590,      2)  /* Aura of Heart Seeker Self IV */

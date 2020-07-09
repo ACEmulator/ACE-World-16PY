@@ -52,7 +52,7 @@ VALUES (10889,   1,   33557320) /* Setup */
      , (10889,   8,  100672603) /* Icon */
      , (10889,  22,  872415275) /* PhysicsEffectTable */
      , (10889,  36,  234881044) /* MutateFilter */
-     , (10889,  37,         10) /* ItemSkillLimit */;
+     , (10889,  37,         10) /* ItemSkillLimit - Staff */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (10889,  1360,      2)  /* Endurance Other VI */

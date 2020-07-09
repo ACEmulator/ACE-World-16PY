@@ -58,7 +58,7 @@ VALUES (25313,   1,   33558440) /* Setup */
      , (25313,   7,  268436674) /* ClothingBase */
      , (25313,   8,  100674821) /* Icon */
      , (25313,  22,  872415275) /* PhysicsEffectTable */
-     , (25313,  37,         24) /* ItemSkillLimit */;
+     , (25313,  37,         24) /* ItemSkillLimit - Run */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (25313,   987,      2)  /* Sprint Self VI */

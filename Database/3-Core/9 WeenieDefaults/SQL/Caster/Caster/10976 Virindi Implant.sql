@@ -42,7 +42,7 @@ VALUES (10976,   1,   33557223) /* Setup */
      , (10976,  22,  872415275) /* PhysicsEffectTable */
      , (10976,  27, 1073742049) /* UseUserAnimation - UseMagicWand */
      , (10976,  28,       2421) /* Spell - Paralyzing Fear */
-     , (10976,  37,         31) /* ItemSkillLimit */;
+     , (10976,  37,         31) /* ItemSkillLimit - CreatureEnchantment */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (10976,  2475,      2)  /* Torrent */;

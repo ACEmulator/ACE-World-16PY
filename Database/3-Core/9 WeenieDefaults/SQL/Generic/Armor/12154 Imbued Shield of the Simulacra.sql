@@ -53,7 +53,7 @@ VALUES (12154,   1,   33557348) /* Setup */
      , (12154,   7,  268435607) /* ClothingBase */
      , (12154,   8,  100672135) /* Icon */
      , (12154,  22,  872415275) /* PhysicsEffectTable */
-     , (12154,  37,          6) /* ItemSkillLimit */;
+     , (12154,  37,          6) /* ItemSkillLimit - MeleeDefense */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (12154,  1311,      2)  /* Armor Self V */

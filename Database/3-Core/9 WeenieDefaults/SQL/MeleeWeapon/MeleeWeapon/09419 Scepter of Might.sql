@@ -52,7 +52,7 @@ VALUES (9419,   1,   33557013) /* Setup */
      , (9419,   7,  268436169) /* ClothingBase */
      , (9419,   8,  100671509) /* Icon */
      , (9419,  22,  872415275) /* PhysicsEffectTable */
-     , (9419,  37,          6) /* ItemSkillLimit */;
+     , (9419,  37,          6) /* ItemSkillLimit - MeleeDefense */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (9419,  1093,      2)  /* Fire Protection Self V */
