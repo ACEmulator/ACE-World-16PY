@@ -45,7 +45,7 @@ INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (1439,   1,   33555414) /* Setup */
      , (1439,   8,  100672844) /* Icon */
      , (1439,  22,  872415275) /* PhysicsEffectTable */
-     , (1439,  37,          1) /* ItemSkillLimit */;
+     , (1439,  37,          1) /* ItemSkillLimit - Axe */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (1439,    49,      2)  /* Aura of Swift Killer Self I */

@@ -58,7 +58,7 @@ VALUES (21023,   1,   33557729) /* Setup */
      , (21023,   7,  268436420) /* ClothingBase */
      , (21023,   8,  100673205) /* Icon */
      , (21023,  22,  872415275) /* PhysicsEffectTable */
-     , (21023,  37,          2) /* ItemSkillLimit */;
+     , (21023,  37,          2) /* ItemSkillLimit - Bow */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (21023,  1312,      2)  /* Armor Self VI */

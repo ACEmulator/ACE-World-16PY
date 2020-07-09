@@ -48,7 +48,7 @@ VALUES (12029,   1,   33557346) /* Setup */
      , (12029,   8,  100672132) /* Icon */
      , (12029,  22,  872415275) /* PhysicsEffectTable */
      , (12029,  36,  234881044) /* MutateFilter */
-     , (12029,  37,         10) /* ItemSkillLimit */;
+     , (12029,  37,         10) /* ItemSkillLimit - Staff */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (12029,  1310,      2)  /* Armor Self IV */

@@ -50,7 +50,7 @@ VALUES (10791,   1,   33557105) /* Setup */
      , (10791,   8,  100671696) /* Icon */
      , (10791,  22,  872415275) /* PhysicsEffectTable */
      , (10791,  36,  234881044) /* MutateFilter */
-     , (10791,  37,          4) /* ItemSkillLimit */;
+     , (10791,  37,          4) /* ItemSkillLimit - Dagger */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (10791,  1590,      2)  /* Aura of Heart Seeker Self IV */

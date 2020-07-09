@@ -58,7 +58,7 @@ VALUES (20095,   1,   33557754) /* Setup */
      , (20095,   7,  268436394) /* ClothingBase */
      , (20095,   8,  100673015) /* Icon */
      , (20095,  22,  872415275) /* PhysicsEffectTable */
-     , (20095,  37,          2) /* ItemSkillLimit */;
+     , (20095,  37,          2) /* ItemSkillLimit - Bow */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (20095,   520,      2)  /* Acid Protection Self VI */

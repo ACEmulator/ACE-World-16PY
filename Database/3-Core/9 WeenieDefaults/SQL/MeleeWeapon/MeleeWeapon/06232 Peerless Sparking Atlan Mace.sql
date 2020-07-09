@@ -51,7 +51,7 @@ VALUES (6232,   1,   33556327) /* Setup */
      , (6232,   7,  268435906) /* ClothingBase */
      , (6232,   8,  100670541) /* Icon */
      , (6232,  22,  872415275) /* PhysicsEffectTable */
-     , (6232,  37,          5) /* ItemSkillLimit */;
+     , (6232,  37,          5) /* ItemSkillLimit - Mace */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (6232,  1068,      2)  /* Lightning Protection Self III */

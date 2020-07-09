@@ -51,7 +51,7 @@ VALUES (12120,   1,   33557236) /* Setup */
      , (12120,   8,  100672034) /* Icon */
      , (12120,  22,  872415275) /* PhysicsEffectTable */
      , (12120,  36,  234881044) /* MutateFilter */
-     , (12120,  37,          9) /* ItemSkillLimit */;
+     , (12120,  37,          9) /* ItemSkillLimit - Spear */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (12120,  2438,      2)  /* Lesser Rockslide */

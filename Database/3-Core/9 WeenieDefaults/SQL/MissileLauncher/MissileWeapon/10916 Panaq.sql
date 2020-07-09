@@ -52,7 +52,7 @@ VALUES (10916,   1,   33557225) /* Setup */
      , (10916,   3,  536870932) /* SoundTable */
      , (10916,   8,  100674303) /* Icon */
      , (10916,  22,  872415275) /* PhysicsEffectTable */
-     , (10916,  37,          2) /* ItemSkillLimit */;
+     , (10916,  37,          2) /* ItemSkillLimit - Bow */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (10916,  1310,      2)  /* Armor Self IV */

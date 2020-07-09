@@ -51,7 +51,7 @@ VALUES (26009,   1,   33558574) /* Setup */
      , (26009,  22,  872415275) /* PhysicsEffectTable */
      , (26009,  30,         88) /* PhysicsScript - Create */
      , (26009,  36,  234881044) /* MutateFilter */
-     , (26009,  37,          1) /* ItemSkillLimit */;
+     , (26009,  37,          1) /* ItemSkillLimit - Axe */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (26009,  1035,      2)  /* Cold Protection Self VI */

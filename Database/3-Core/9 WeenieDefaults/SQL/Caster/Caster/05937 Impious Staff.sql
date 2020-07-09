@@ -51,4 +51,4 @@ VALUES (5937,   1,   33555022) /* Setup */
      , (5937,  27, 1073742049) /* UseUserAnimation - UseMagicWand */
      , (5937,  28,         91) /* Spell - Force Bolt VI */
      , (5937,  36,  234881046) /* MutateFilter */
-     , (5937,  37,         34) /* ItemSkillLimit */;
+     , (5937,  37,         34) /* ItemSkillLimit - WarMagic */;

@@ -50,7 +50,7 @@ VALUES (1517,   1,   33555416) /* Setup */
      , (1517,   7,  268435610) /* ClothingBase */
      , (1517,   8,  100667360) /* Icon */
      , (1517,  22,  872415275) /* PhysicsEffectTable */
-     , (1517,  37,          7) /* ItemSkillLimit */;
+     , (1517,  37,          7) /* ItemSkillLimit - MissileDefense */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (1517,   810,      2)  /* Fire Protection Other II */

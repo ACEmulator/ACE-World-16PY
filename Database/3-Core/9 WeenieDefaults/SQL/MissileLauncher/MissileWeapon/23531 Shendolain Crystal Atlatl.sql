@@ -53,7 +53,7 @@ VALUES (23531,   1,   33557433) /* Setup */
      , (23531,   7,  268436042) /* ClothingBase */
      , (23531,   8,  100674035) /* Icon */
      , (23531,  22,  872415275) /* PhysicsEffectTable */
-     , (23531,  37,         12) /* ItemSkillLimit */;
+     , (23531,  37,         12) /* ItemSkillLimit - ThrownWeapon */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (23531,   537,      2)  /* Missile Weapon Mastery Other V */

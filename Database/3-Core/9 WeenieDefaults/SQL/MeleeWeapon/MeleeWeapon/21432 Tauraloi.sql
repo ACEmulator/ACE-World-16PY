@@ -53,7 +53,7 @@ VALUES (21432,   1,   33557965) /* Setup */
      , (21432,   3,  536870932) /* SoundTable */
      , (21432,   8,  100673492) /* Icon */
      , (21432,  22,  872415275) /* PhysicsEffectTable */
-     , (21432,  37,          9) /* ItemSkillLimit */;
+     , (21432,  37,          9) /* ItemSkillLimit - Spear */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (21432,   368,      2)  /* Light Weapon Mastery Other V */

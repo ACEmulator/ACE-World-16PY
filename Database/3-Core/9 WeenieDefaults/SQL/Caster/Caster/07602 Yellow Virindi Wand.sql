@@ -44,7 +44,7 @@ VALUES (7602,   1,   33558240) /* Setup */
      , (7602,  22,  872415275) /* PhysicsEffectTable */
      , (7602,  27, 1073742049) /* UseUserAnimation - UseMagicWand */
      , (7602,  28,         85) /* Spell - Flame Bolt VI */
-     , (7602,  37,         34) /* ItemSkillLimit */;
+     , (7602,  37,         34) /* ItemSkillLimit - WarMagic */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (7602,  1094,      2)  /* Fire Protection Self VI */

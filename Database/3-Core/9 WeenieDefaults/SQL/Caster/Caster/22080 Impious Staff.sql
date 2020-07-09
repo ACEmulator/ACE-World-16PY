@@ -50,4 +50,4 @@ VALUES (22080,   1,   33557877) /* Setup */
      , (22080,  22,  872415275) /* PhysicsEffectTable */
      , (22080,  27, 1073742049) /* UseUserAnimation - UseMagicWand */
      , (22080,  28,       2814) /* Spell - Priest's Curse */
-     , (22080,  37,         34) /* ItemSkillLimit */;
+     , (22080,  37,         34) /* ItemSkillLimit - WarMagic */;

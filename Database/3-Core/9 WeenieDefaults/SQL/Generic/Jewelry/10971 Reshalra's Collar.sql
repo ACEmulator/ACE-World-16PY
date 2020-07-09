@@ -39,7 +39,7 @@ VALUES (10971,   1,   33554810) /* Setup */
      , (10971,   8,  100671855) /* Icon */
      , (10971,  22,  872415275) /* PhysicsEffectTable */
      , (10971,  36,  234881046) /* MutateFilter */
-     , (10971,  37,         36) /* ItemSkillLimit */;
+     , (10971,  37,         36) /* ItemSkillLimit - Loyalty */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (10971,   957,      2)  /* Fealty Other VI */

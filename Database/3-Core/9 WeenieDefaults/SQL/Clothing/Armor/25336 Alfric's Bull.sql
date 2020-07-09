@@ -53,7 +53,7 @@ VALUES (25336,   1,   33558447) /* Setup */
      , (25336,   7,  268436678) /* ClothingBase */
      , (25336,   8,  100674870) /* Icon */
      , (25336,  22,  872415275) /* PhysicsEffectTable */
-     , (25336,  37,          4) /* ItemSkillLimit */;
+     , (25336,  37,          4) /* ItemSkillLimit - Dagger */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (25336,   249,      2)  /* Invulnerability Self VI */

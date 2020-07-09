@@ -55,7 +55,7 @@ VALUES (7407,   1,   33556630) /* Setup */
      , (7407,  27, 1073742049) /* UseUserAnimation - UseMagicWand */
      , (7407,  28,       1794) /* Spell - Acid Streak V */
      , (7407,  36,  234881046) /* MutateFilter */
-     , (7407,  37,         34) /* ItemSkillLimit */;
+     , (7407,  37,         34) /* ItemSkillLimit - WarMagic */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (7407,   615,      2)  /* Life Magic Mastery Other V */

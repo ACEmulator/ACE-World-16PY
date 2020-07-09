@@ -55,7 +55,7 @@ VALUES (10883,   1,   33557317) /* Setup */
      , (10883,   8,  100672046) /* Icon */
      , (10883,  22,  872415275) /* PhysicsEffectTable */
      , (10883,  36,  234881044) /* MutateFilter */
-     , (10883,  37,         10) /* ItemSkillLimit */;
+     , (10883,  37,         10) /* ItemSkillLimit - Staff */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (10883,  1360,      2)  /* Endurance Other VI */

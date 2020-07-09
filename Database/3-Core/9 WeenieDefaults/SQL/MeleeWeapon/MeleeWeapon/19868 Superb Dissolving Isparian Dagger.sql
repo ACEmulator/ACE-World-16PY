@@ -57,7 +57,7 @@ VALUES (19868,   1,   33557733) /* Setup */
      , (19868,   7,  268436378) /* ClothingBase */
      , (19868,   8,  100673035) /* Icon */
      , (19868,  22,  872415275) /* PhysicsEffectTable */
-     , (19868,  37,          4) /* ItemSkillLimit */;
+     , (19868,  37,          4) /* ItemSkillLimit - Dagger */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (19868,   520,      2)  /* Acid Protection Self VI */

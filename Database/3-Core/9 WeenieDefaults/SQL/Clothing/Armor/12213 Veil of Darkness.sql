@@ -53,7 +53,7 @@ VALUES (12213,   1,   33557385) /* Setup */
      , (12213,   7,  268436288) /* ClothingBase */
      , (12213,   8,  100672217) /* Icon */
      , (12213,  22,  872415275) /* PhysicsEffectTable */
-     , (12213,  37,         10) /* ItemSkillLimit */;
+     , (12213,  37,         10) /* ItemSkillLimit - Staff */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (12213,   248,      2)  /* Invulnerability Self V */

@@ -50,7 +50,7 @@ VALUES (9086,   1,   33554647) /* Setup */
      , (9086,   7,  268436114) /* ClothingBase */
      , (9086,   8,  100670411) /* Icon */
      , (9086,  22,  872415275) /* PhysicsEffectTable */
-     , (9086,  37,         34) /* ItemSkillLimit */;
+     , (9086,  37,         34) /* ItemSkillLimit - WarMagic */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (9086,   273,      2)  /* Magic Resistance Other VI */

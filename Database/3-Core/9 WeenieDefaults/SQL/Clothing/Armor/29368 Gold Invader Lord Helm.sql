@@ -53,7 +53,7 @@ VALUES (29368,   1,   33556883) /* Setup */
      , (29368,   7,  268436261) /* ClothingBase */
      , (29368,   8,  100672134) /* Icon */
      , (29368,  22,  872415275) /* PhysicsEffectTable */
-     , (29368,  37,          6) /* ItemSkillLimit */;
+     , (29368,  37,          6) /* ItemSkillLimit - MeleeDefense */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (29368,   247,      2)  /* Invulnerability Self IV */

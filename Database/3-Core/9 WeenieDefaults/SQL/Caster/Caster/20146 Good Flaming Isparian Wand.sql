@@ -47,7 +47,7 @@ VALUES (20146,   1,   33557789) /* Setup */
      , (20146,   7,  268436395) /* ClothingBase */
      , (20146,   8,  100672996) /* Icon */
      , (20146,  22,  872415275) /* PhysicsEffectTable */
-     , (20146,  37,         16) /* ItemSkillLimit */;
+     , (20146,  37,         16) /* ItemSkillLimit - ManaConversion */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (20146,   632,      2)  /* War Magic Mastery Self IV */

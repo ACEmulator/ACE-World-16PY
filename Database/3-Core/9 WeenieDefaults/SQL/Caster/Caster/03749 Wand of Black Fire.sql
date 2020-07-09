@@ -44,7 +44,7 @@ VALUES (3749,   1,   33558258) /* Setup */
      , (3749,  22,  872415275) /* PhysicsEffectTable */
      , (3749,  27, 1073742049) /* UseUserAnimation - UseMagicWand */
      , (3749,  28,        145) /* Spell - Flame Volley V */
-     , (3749,  37,         34) /* ItemSkillLimit */;
+     , (3749,  37,         34) /* ItemSkillLimit - WarMagic */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (3749,  1033,      2)  /* Cold Protection Self IV */

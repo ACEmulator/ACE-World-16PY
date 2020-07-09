@@ -53,7 +53,7 @@ VALUES (20043,   1,   33557745) /* Setup */
      , (20043,   7,  268436393) /* ClothingBase */
      , (20043,   8,  100673000) /* Icon */
      , (20043,  22,  872415275) /* PhysicsEffectTable */
-     , (20043,  37,         12) /* ItemSkillLimit */;
+     , (20043,  37,         12) /* ItemSkillLimit - ThrownWeapon */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (20043,  1602,      2)  /* Aura of Defender Self III */

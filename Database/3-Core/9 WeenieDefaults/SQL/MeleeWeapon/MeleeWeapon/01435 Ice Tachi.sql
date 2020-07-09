@@ -48,7 +48,7 @@ VALUES (1435,   1,   33555754) /* Setup */
      , (1435,   7,  268435788) /* ClothingBase */
      , (1435,   8,  100667934) /* Icon */
      , (1435,  22,  872415275) /* PhysicsEffectTable */
-     , (1435,  37,         11) /* ItemSkillLimit */;
+     , (1435,  37,         11) /* ItemSkillLimit - Sword */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (1435,    49,      2)  /* Aura of Swift Killer Self I */

@@ -45,7 +45,7 @@ VALUES (25583,   1,   33558500) /* Setup */
      , (25583,   8,  100675046) /* Icon */
      , (25583,  22,  872415275) /* PhysicsEffectTable */
      , (25583,  27, 1073742049) /* UseUserAnimation - UseMagicWand */
-     , (25583,  37,         34) /* ItemSkillLimit */;
+     , (25583,  37,         34) /* ItemSkillLimit - WarMagic */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (25583,   211,      2)  /* Mana Renewal Other VI */

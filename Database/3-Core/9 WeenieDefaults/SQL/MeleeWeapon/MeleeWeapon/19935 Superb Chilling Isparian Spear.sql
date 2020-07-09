@@ -55,7 +55,7 @@ VALUES (19935,   1,   33556331) /* Setup */
      , (19935,   7,  268436383) /* ClothingBase */
      , (19935,   8,  100672924) /* Icon */
      , (19935,  22,  872415275) /* PhysicsEffectTable */
-     , (19935,  37,          9) /* ItemSkillLimit */;
+     , (19935,  37,          9) /* ItemSkillLimit - Spear */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (19935,  1033,      2)  /* Cold Protection Self IV */

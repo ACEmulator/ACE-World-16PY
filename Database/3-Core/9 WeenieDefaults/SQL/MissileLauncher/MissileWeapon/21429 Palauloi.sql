@@ -55,7 +55,7 @@ VALUES (21429,   1,   33557969) /* Setup */
      , (21429,   3,  536870932) /* SoundTable */
      , (21429,   8,  100673496) /* Icon */
      , (21429,  22,  872415275) /* PhysicsEffectTable */
-     , (21429,  37,          3) /* ItemSkillLimit */;
+     , (21429,  37,          3) /* ItemSkillLimit - Crossbow */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (21429,   489,      2)  /* Missile Weapon Mastery Other V */

@@ -47,7 +47,7 @@ VALUES (23536,   1,   33558184) /* Setup */
      , (23536,   6,   67114156) /* PaletteBase */
      , (23536,   8,  100674031) /* Icon */
      , (23536,  22,  872415275) /* PhysicsEffectTable */
-     , (23536,  37,          4) /* ItemSkillLimit */;
+     , (23536,  37,          4) /* ItemSkillLimit - Dagger */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (23536,  1135,      2)  /* Piercing Protection Self III */

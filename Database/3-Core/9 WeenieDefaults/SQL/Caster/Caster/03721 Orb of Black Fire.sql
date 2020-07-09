@@ -44,7 +44,7 @@ VALUES (3721,   1,   33558249) /* Setup */
      , (3721,  22,  872415275) /* PhysicsEffectTable */
      , (3721,  27, 1073742049) /* UseUserAnimation - UseMagicWand */
      , (3721,  28,        145) /* Spell - Flame Volley V */
-     , (3721,  37,         33) /* ItemSkillLimit */;
+     , (3721,  37,         33) /* ItemSkillLimit - LifeMagic */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (3721,   518,      2)  /* Acid Protection Self IV */

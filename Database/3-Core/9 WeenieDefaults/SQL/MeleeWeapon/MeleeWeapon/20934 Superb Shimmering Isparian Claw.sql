@@ -57,7 +57,7 @@ VALUES (20934,   1,   33556258) /* Setup */
      , (20934,   7,  268436422) /* ClothingBase */
      , (20934,   8,  100673200) /* Icon */
      , (20934,  22,  872415275) /* PhysicsEffectTable */
-     , (20934,  37,         13) /* ItemSkillLimit */;
+     , (20934,  37,         13) /* ItemSkillLimit - UnarmedCombat */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (20934,  1312,      2)  /* Armor Self VI */

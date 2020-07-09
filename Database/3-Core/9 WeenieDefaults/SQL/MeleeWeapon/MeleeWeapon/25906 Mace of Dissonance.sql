@@ -53,7 +53,7 @@ VALUES (25906,   1,   33558559) /* Setup */
      , (25906,   8,  100675636) /* Icon */
      , (25906,  22,  872415275) /* PhysicsEffectTable */
      , (25906,  36,  234881044) /* MutateFilter */
-     , (25906,  37,          5) /* ItemSkillLimit */;
+     , (25906,  37,          5) /* ItemSkillLimit - Mace */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (25906,  1592,      2)  /* Aura of Heart Seeker Self VI */

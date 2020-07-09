@@ -47,7 +47,7 @@ VALUES (27649,   1,   33558745) /* Setup */
      , (27649,   8,  100676534) /* Icon */
      , (27649,  22,  872415275) /* PhysicsEffectTable */
      , (27649,  27, 1073742049) /* UseUserAnimation - UseMagicWand */
-     , (27649,  37,         34) /* ItemSkillLimit */;
+     , (27649,  37,         34) /* ItemSkillLimit - WarMagic */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (27649,   568,      2)  /* Creature Enchantment Mastery Other VI */

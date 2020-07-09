@@ -47,7 +47,7 @@ VALUES (12011,   1,   33557335) /* Setup */
      , (12011,   8,  100672108) /* Icon */
      , (12011,  22,  872415275) /* PhysicsEffectTable */
      , (12011,  36,  234881044) /* MutateFilter */
-     , (12011,  37,         13) /* ItemSkillLimit */;
+     , (12011,  37,         13) /* ItemSkillLimit - UnarmedCombat */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (12011,  1021,      2)  /* Bludgeoning Protection Self IV */

@@ -52,7 +52,7 @@ VALUES (12250,   1,   33557377) /* Setup */
      , (12250,   7,  268436276) /* ClothingBase */
      , (12250,   8,  100672191) /* Icon */
      , (12250,  22,  872415275) /* PhysicsEffectTable */
-     , (12250,  37,          5) /* ItemSkillLimit */;
+     , (12250,  37,          5) /* ItemSkillLimit - Mace */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (12250,   902,      2)  /* Leadership Mastery Self V */

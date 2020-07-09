@@ -43,7 +43,7 @@ VALUES (10705,   1,   33558259) /* Setup */
      , (10705,   8,  100674116) /* Icon */
      , (10705,  22,  872415275) /* PhysicsEffectTable */
      , (10705,  27, 1073742049) /* UseUserAnimation - UseMagicWand */
-     , (10705,  37,         16) /* ItemSkillLimit */;
+     , (10705,  37,         16) /* ItemSkillLimit - ManaConversion */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (10705,  1310,      2)  /* Armor Self IV */

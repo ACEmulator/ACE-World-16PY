@@ -51,7 +51,7 @@ VALUES (7454,   1,   33557400) /* Setup */
      , (7454,   7,  268435888) /* ClothingBase */
      , (7454,   8,  100670523) /* Icon */
      , (7454,  22,  872415275) /* PhysicsEffectTable */
-     , (7454,  37,          4) /* ItemSkillLimit */;
+     , (7454,  37,          4) /* ItemSkillLimit - Dagger */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (7454,   327,      2)  /* Finesse Weapon Mastery Self VI */

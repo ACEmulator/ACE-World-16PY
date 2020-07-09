@@ -50,7 +50,7 @@ VALUES (6358,   1,   33556302) /* Setup */
      , (6358,   7,  268435881) /* ClothingBase */
      , (6358,   8,  100670513) /* Icon */
      , (6358,  22,  872415275) /* PhysicsEffectTable */
-     , (6358,  37,          1) /* ItemSkillLimit */;
+     , (6358,  37,          1) /* ItemSkillLimit - Axe */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (6358,   265,      2)  /* Defenselessness Other IV */

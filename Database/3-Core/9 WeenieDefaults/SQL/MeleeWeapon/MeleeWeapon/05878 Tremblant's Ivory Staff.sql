@@ -60,7 +60,7 @@ VALUES (5878,   1,   33555764) /* Setup */
      , (5878,   8,  100669112) /* Icon */
      , (5878,  22,  872415275) /* PhysicsEffectTable */
      , (5878,  36,  234881044) /* MutateFilter */
-     , (5878,  37,         10) /* ItemSkillLimit */;
+     , (5878,  37,         10) /* ItemSkillLimit - Staff */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (5878,   391,      2)  /* Light Weapon Mastery Other IV */

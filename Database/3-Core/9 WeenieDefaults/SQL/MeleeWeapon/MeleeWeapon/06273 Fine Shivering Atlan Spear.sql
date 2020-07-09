@@ -51,7 +51,7 @@ VALUES (6273,   1,   33556331) /* Setup */
      , (6273,   7,  268435910) /* ClothingBase */
      , (6273,   8,  100670548) /* Icon */
      , (6273,  22,  872415275) /* PhysicsEffectTable */
-     , (6273,  37,          9) /* ItemSkillLimit */;
+     , (6273,  37,          9) /* ItemSkillLimit - Spear */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (6273,  1032,      2)  /* Cold Protection Self III */

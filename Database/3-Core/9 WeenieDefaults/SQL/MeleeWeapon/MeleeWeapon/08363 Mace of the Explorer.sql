@@ -53,7 +53,7 @@ VALUES (8363,   1,   33554746) /* Setup */
      , (8363,   8,  100668955) /* Icon */
      , (8363,  22,  872415275) /* PhysicsEffectTable */
      , (8363,  36,  234881044) /* MutateFilter */
-     , (8363,  37,          5) /* ItemSkillLimit */;
+     , (8363,  37,          5) /* ItemSkillLimit - Mace */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (8363,  1589,      2)  /* Aura of Heart Seeker Self III */

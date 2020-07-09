@@ -61,7 +61,7 @@ VALUES (23911,   1,   33558210) /* Setup */
      , (23911,   8,  100671750) /* Icon */
      , (23911,  22,  872415275) /* PhysicsEffectTable */
      , (23911,  30,         88) /* PhysicsScript - Create */
-     , (23911,  37,          3) /* ItemSkillLimit */;
+     , (23911,  37,          3) /* ItemSkillLimit - Crossbow */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (23911,  1377,      2)  /* Coordination Self V */

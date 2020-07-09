@@ -51,7 +51,7 @@ VALUES (10731,   1,   33557050) /* Setup */
      , (10731,  22,  872415275) /* PhysicsEffectTable */
      , (10731,  27, 1073742049) /* UseUserAnimation - UseMagicWand */
      , (10731,  36,  234881046) /* MutateFilter */
-     , (10731,  37,         16) /* ItemSkillLimit */;
+     , (10731,  37,         16) /* ItemSkillLimit - ManaConversion */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (10731,   585,      2)  /* Item Enchantment Mastery Self V */

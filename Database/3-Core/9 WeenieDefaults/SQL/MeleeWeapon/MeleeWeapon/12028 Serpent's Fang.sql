@@ -47,7 +47,7 @@ VALUES (12028,   1,   33557337) /* Setup */
      , (12028,   3,  536870932) /* SoundTable */
      , (12028,   8,  100672119) /* Icon */
      , (12028,  22,  872415275) /* PhysicsEffectTable */
-     , (12028,  37,          9) /* ItemSkillLimit */;
+     , (12028,  37,          9) /* ItemSkillLimit - Spear */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (12028,   247,      2)  /* Invulnerability Self IV */

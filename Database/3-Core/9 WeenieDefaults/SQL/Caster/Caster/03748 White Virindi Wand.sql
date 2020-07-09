@@ -44,7 +44,7 @@ VALUES (3748,   1,   33558228) /* Setup */
      , (3748,  22,  872415275) /* PhysicsEffectTable */
      , (3748,  27, 1073742049) /* UseUserAnimation - UseMagicWand */
      , (3748,  28,         80) /* Spell - Lightning Bolt VI */
-     , (3748,  37,         34) /* ItemSkillLimit */;
+     , (3748,  37,         34) /* ItemSkillLimit - WarMagic */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (3748,  1071,      2)  /* Lightning Protection Self VI */;

@@ -42,7 +42,7 @@ VALUES (10977,   1,   33557289) /* Setup */
      , (10977,  22,  872415275) /* PhysicsEffectTable */
      , (10977,  27, 1073742049) /* UseUserAnimation - UseMagicWand */
      , (10977,  28,       2419) /* Spell - Panic Attack */
-     , (10977,  37,         31) /* ItemSkillLimit */;
+     , (10977,  37,         31) /* ItemSkillLimit - CreatureEnchantment */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (10977,  2451,      2)  /* Hunter's Acumen */;

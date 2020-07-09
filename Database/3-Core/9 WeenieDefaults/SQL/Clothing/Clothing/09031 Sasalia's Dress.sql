@@ -49,7 +49,7 @@ VALUES (9031,   1,   33554854) /* Setup */
      , (9031,   8,  100670348) /* Icon */
      , (9031,  22,  872415275) /* PhysicsEffectTable */
      , (9031,  36,  234881046) /* MutateFilter */
-     , (9031,  37,         39) /* ItemSkillLimit */;
+     , (9031,  37,         39) /* ItemSkillLimit - Cooking */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (9031,  1713,      2)  /* Cooking Mastery Other V */;

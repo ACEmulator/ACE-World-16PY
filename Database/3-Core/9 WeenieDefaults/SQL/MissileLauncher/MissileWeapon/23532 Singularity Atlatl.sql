@@ -54,7 +54,7 @@ VALUES (23532,   1,   33558193) /* Setup */
      , (23532,   7,  268436238) /* ClothingBase */
      , (23532,   8,  100674026) /* Icon */
      , (23532,  22,  872415275) /* PhysicsEffectTable */
-     , (23532,  37,         12) /* ItemSkillLimit */;
+     , (23532,  37,         12) /* ItemSkillLimit - ThrownWeapon */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (23532,  1616,      2)  /* Aura of Blood Drinker Self VI */;

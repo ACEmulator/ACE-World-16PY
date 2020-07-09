@@ -40,7 +40,7 @@ VALUES (28056,   1,   33554691) /* Setup */
      , (28056,   8,  100670751) /* Icon */
      , (28056,  22,  872415275) /* PhysicsEffectTable */
      , (28056,  36,  234881046) /* MutateFilter */
-     , (28056,  37,         31) /* ItemSkillLimit */;
+     , (28056,  37,         31) /* ItemSkillLimit - CreatureEnchantment */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (28056,   567,      2)  /* Creature Enchantment Mastery Other V */

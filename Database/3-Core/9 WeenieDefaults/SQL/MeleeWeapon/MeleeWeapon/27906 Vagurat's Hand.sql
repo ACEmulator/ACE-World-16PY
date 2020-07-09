@@ -49,7 +49,7 @@ VALUES (27906,   1,   33558801) /* Setup */
      , (27906,   3,  536870932) /* SoundTable */
      , (27906,   8,  100676621) /* Icon */
      , (27906,  22,  872415275) /* PhysicsEffectTable */
-     , (27906,  37,          5) /* ItemSkillLimit */;
+     , (27906,  37,          5) /* ItemSkillLimit - Mace */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (27906,   341,      2)  /* Light Weapon Mastery Other II */

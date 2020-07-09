@@ -52,7 +52,7 @@ VALUES (12030,   1,   33557340) /* Setup */
      , (12030,   8,  100670666) /* Icon */
      , (12030,  22,  872415275) /* PhysicsEffectTable */
      , (12030,  36,  234881044) /* MutateFilter */
-     , (12030,  37,         11) /* ItemSkillLimit */;
+     , (12030,  37,         11) /* ItemSkillLimit - Sword */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (12030,  1094,      2)  /* Fire Protection Self VI */

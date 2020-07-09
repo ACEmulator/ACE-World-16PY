@@ -46,7 +46,7 @@ VALUES (12158,   1,   33557354) /* Setup */
      , (12158,   8,  100672137) /* Icon */
      , (12158,  22,  872415275) /* PhysicsEffectTable */
      , (12158,  27, 1073742049) /* UseUserAnimation - UseMagicWand */
-     , (12158,  37,         16) /* ItemSkillLimit */;
+     , (12158,  37,         16) /* ItemSkillLimit - ManaConversion */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (12158,   658,      2)  /* Mana Conversion Mastery Self VI */

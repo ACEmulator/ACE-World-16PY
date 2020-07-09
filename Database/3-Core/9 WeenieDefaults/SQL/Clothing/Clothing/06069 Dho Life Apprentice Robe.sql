@@ -49,7 +49,7 @@ VALUES (6069,   1,   33554854) /* Setup */
      , (6069,   7,  268435855) /* ClothingBase */
      , (6069,   8,  100670373) /* Icon */
      , (6069,  22,  872415275) /* PhysicsEffectTable */
-     , (6069,  37,         33) /* ItemSkillLimit */;
+     , (6069,  37,         33) /* ItemSkillLimit - LifeMagic */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (6069,   611,      2)  /* Life Magic Mastery Other I */

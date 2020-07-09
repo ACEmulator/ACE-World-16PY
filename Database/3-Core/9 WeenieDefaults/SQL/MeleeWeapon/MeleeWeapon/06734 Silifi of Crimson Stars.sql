@@ -54,7 +54,7 @@ VALUES (6734,   1,   33556553) /* Setup */
      , (6734,   8,  100670611) /* Icon */
      , (6734,  22,  872415275) /* PhysicsEffectTable */
      , (6734,  36,  234881044) /* MutateFilter */
-     , (6734,  37,          1) /* ItemSkillLimit */;
+     , (6734,  37,          1) /* ItemSkillLimit - Axe */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (6734,  1616,      2)  /* Aura of Blood Drinker Self VI */;

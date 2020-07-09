@@ -51,7 +51,7 @@ VALUES (25904,   1,   33558560) /* Setup */
      , (25904,   6,   67111919) /* PaletteBase */
      , (25904,   8,  100675637) /* Icon */
      , (25904,  22,  872415275) /* PhysicsEffectTable */
-     , (25904,  37,          4) /* ItemSkillLimit */;
+     , (25904,  37,          4) /* ItemSkillLimit - Dagger */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (25904,  1592,      2)  /* Aura of Heart Seeker Self VI */

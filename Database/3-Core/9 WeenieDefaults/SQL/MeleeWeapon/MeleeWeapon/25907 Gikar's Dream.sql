@@ -52,7 +52,7 @@ VALUES (25907,   1,   33558562) /* Setup */
      , (25907,   3,  536870932) /* SoundTable */
      , (25907,   8,  100675639) /* Icon */
      , (25907,  22,  872415275) /* PhysicsEffectTable */
-     , (25907,  37,         10) /* ItemSkillLimit */;
+     , (25907,  37,         10) /* ItemSkillLimit - Staff */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (25907,  1592,      2)  /* Aura of Heart Seeker Self VI */

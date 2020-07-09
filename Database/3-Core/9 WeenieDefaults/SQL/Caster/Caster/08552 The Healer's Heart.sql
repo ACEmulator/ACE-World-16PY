@@ -47,7 +47,7 @@ VALUES (8552,   1,   33556909) /* Setup */
      , (8552,  22,  872415275) /* PhysicsEffectTable */
      , (8552,  27, 1073742049) /* UseUserAnimation - UseMagicWand */
      , (8552,  28,       1166) /* Spell - Heal Other VI */
-     , (8552,  37,         33) /* ItemSkillLimit */;
+     , (8552,  37,         33) /* ItemSkillLimit - LifeMagic */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (8552,   170,      2)  /* Regeneration Self VI */

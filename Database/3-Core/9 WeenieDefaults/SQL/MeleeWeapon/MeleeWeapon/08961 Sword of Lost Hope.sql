@@ -56,7 +56,7 @@ VALUES (8961,   1,   33556949) /* Setup */
      , (8961,   7,  268436109) /* ClothingBase */
      , (8961,   8,  100671325) /* Icon */
      , (8961,  22,  872415275) /* PhysicsEffectTable */
-     , (8961,  37,         11) /* ItemSkillLimit */;
+     , (8961,  37,         11) /* ItemSkillLimit - Sword */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (8961,   415,      2)  /* Heavy Weapon Mastery Other IV */

@@ -53,7 +53,7 @@ VALUES (9130,   1,   33556969) /* Setup */
      , (9130,   8,  100671372) /* Icon */
      , (9130,  22,  872415275) /* PhysicsEffectTable */
      , (9130,  36,  234881044) /* MutateFilter */
-     , (9130,  37,         11) /* ItemSkillLimit */;
+     , (9130,  37,         11) /* ItemSkillLimit - Sword */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (9130,  1384,      2)  /* Coordination Other VI */

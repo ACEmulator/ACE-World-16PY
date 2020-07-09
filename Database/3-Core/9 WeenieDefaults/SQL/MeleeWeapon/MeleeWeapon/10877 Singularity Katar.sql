@@ -54,7 +54,7 @@ VALUES (10877,   1,   33557315) /* Setup */
      , (10877,   8,  100672044) /* Icon */
      , (10877,  22,  872415275) /* PhysicsEffectTable */
      , (10877,  36,  234881044) /* MutateFilter */
-     , (10877,  37,         13) /* ItemSkillLimit */;
+     , (10877,  37,         13) /* ItemSkillLimit - UnarmedCombat */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (10877,  1408,      2)  /* Quickness Other VI */

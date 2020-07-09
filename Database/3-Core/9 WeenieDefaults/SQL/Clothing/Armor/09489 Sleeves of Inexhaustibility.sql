@@ -50,8 +50,8 @@ VALUES (9489,   1,   33554655) /* Setup */
      , (9489,   7,  268436163) /* ClothingBase */
      , (9489,   8,  100671484) /* Icon */
      , (9489,  22,  872415275) /* PhysicsEffectTable */
-     , (9489,  37,          1) /* ItemSkillLimit */
-     , (9489,  41,          1) /* ItemSpecializedOnly */;
+     , (9489,  37,          1) /* ItemSkillLimit - Axe */
+     , (9489,  41,          1) /* ItemSpecializedOnly - Axe */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (9489,   295,      2)  /* Light Weapon Mastery Other IV */

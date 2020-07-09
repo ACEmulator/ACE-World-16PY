@@ -56,7 +56,7 @@ VALUES (20039,   1,   33557802) /* Setup */
      , (20039,   7,  268436393) /* ClothingBase */
      , (20039,   8,  100673002) /* Icon */
      , (20039,  22,  872415275) /* PhysicsEffectTable */
-     , (20039,  37,         12) /* ItemSkillLimit */;
+     , (20039,  37,         12) /* ItemSkillLimit - ThrownWeapon */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (20039,  1071,      2)  /* Lightning Protection Self VI */

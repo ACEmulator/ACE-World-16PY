@@ -51,7 +51,7 @@ VALUES (7400,   1,   33556856) /* Setup */
      , (7400,   7,  268436075) /* ClothingBase */
      , (7400,   8,  100667349) /* Icon */
      , (7400,  22,  872415275) /* PhysicsEffectTable */
-     , (7400,  37,         31) /* ItemSkillLimit */;
+     , (7400,  37,         31) /* ItemSkillLimit - CreatureEnchantment */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (7400,   282,      2)  /* Magic Yield Other III */

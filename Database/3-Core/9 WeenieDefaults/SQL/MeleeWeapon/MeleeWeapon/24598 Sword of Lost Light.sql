@@ -50,7 +50,7 @@ VALUES (24598,   1,   33558416) /* Setup */
      , (24598,   3,  536870932) /* SoundTable */
      , (24598,   8,  100674513) /* Icon */
      , (24598,  22,  872415275) /* PhysicsEffectTable */
-     , (24598,  37,         11) /* ItemSkillLimit */;
+     , (24598,  37,         11) /* ItemSkillLimit - Sword */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (24598,  1590,      2)  /* Aura of Heart Seeker Self IV */

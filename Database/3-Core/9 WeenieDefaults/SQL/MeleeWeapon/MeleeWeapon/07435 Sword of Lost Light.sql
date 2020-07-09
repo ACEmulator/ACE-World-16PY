@@ -50,7 +50,7 @@ VALUES (7435,   1,   33555927) /* Setup */
      , (7435,   3,  536870932) /* SoundTable */
      , (7435,   8,  100669772) /* Icon */
      , (7435,  22,  872415275) /* PhysicsEffectTable */
-     , (7435,  37,         11) /* ItemSkillLimit */;
+     , (7435,  37,         11) /* ItemSkillLimit - Sword */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (7435,   415,      2)  /* Heavy Weapon Mastery Other IV */

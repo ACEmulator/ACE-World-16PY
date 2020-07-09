@@ -49,7 +49,7 @@ VALUES (6066,   1,   33554854) /* Setup */
      , (6066,   7,  268435855) /* ClothingBase */
      , (6066,   8,  100670373) /* Icon */
      , (6066,  22,  872415275) /* PhysicsEffectTable */
-     , (6066,  37,         32) /* ItemSkillLimit */;
+     , (6066,  37,         32) /* ItemSkillLimit - ItemEnchantment */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (6066,   587,      2)  /* Item Enchantment Mastery Other I */

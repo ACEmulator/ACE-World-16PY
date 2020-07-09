@@ -58,7 +58,7 @@ VALUES (23916,   1,   33558209) /* Setup */
      , (23916,   8,  100671749) /* Icon */
      , (23916,  22,  872415275) /* PhysicsEffectTable */
      , (23916,  30,         88) /* PhysicsScript - Create */
-     , (23916,  37,         11) /* ItemSkillLimit */;
+     , (23916,  37,         11) /* ItemSkillLimit - Sword */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (23916,  1331,      2)  /* Strength Self V */

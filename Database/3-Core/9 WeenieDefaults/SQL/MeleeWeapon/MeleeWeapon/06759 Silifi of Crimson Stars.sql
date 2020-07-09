@@ -54,7 +54,7 @@ VALUES (6759,   1,   33556553) /* Setup */
      , (6759,   8,  100670611) /* Icon */
      , (6759,  22,  872415275) /* PhysicsEffectTable */
      , (6759,  36,  234881044) /* MutateFilter */
-     , (6759,  37,          1) /* ItemSkillLimit */;
+     , (6759,  37,          1) /* ItemSkillLimit - Axe */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (6759,  1384,      2)  /* Coordination Other VI */

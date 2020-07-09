@@ -55,7 +55,7 @@ VALUES (22991,   1,   33556553) /* Setup */
      , (22991,   7,  268435986) /* ClothingBase */
      , (22991,   8,  100670611) /* Icon */
      , (22991,  22,  872415275) /* PhysicsEffectTable */
-     , (22991,  37,          1) /* ItemSkillLimit */;
+     , (22991,  37,          1) /* ItemSkillLimit - Axe */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (22991,  1384,      2)  /* Coordination Other VI */

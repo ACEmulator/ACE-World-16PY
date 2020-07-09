@@ -43,7 +43,7 @@ VALUES (9064,   1,   33556965) /* Setup */
      , (9064,   8,  100671367) /* Icon */
      , (9064,  22,  872415275) /* PhysicsEffectTable */
      , (9064,  27, 1073742049) /* UseUserAnimation - UseMagicWand */
-     , (9064,  37,         34) /* ItemSkillLimit */;
+     , (9064,  37,         34) /* ItemSkillLimit - WarMagic */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (9064,   634,      2)  /* War Magic Mastery Self VI */

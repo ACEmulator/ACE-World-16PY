@@ -54,7 +54,7 @@ VALUES (28059,   1,   33556630) /* Setup */
      , (28059,  27, 1073742049) /* UseUserAnimation - UseMagicWand */
      , (28059,  28,       2123) /* Spell - Celdiseth's Searing */
      , (28059,  36,  234881046) /* MutateFilter */
-     , (28059,  37,         34) /* ItemSkillLimit */;
+     , (28059,  37,         34) /* ItemSkillLimit - WarMagic */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (28059,   616,      2)  /* Life Magic Mastery Other VI */

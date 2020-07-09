@@ -49,7 +49,7 @@ VALUES (31200,   1,   33554854) /* Setup */
      , (31200,   7,  268435864) /* ClothingBase */
      , (31200,   8,  100670382) /* Icon */
      , (31200,  22,  872415275) /* PhysicsEffectTable */
-     , (31200,  37,         34) /* ItemSkillLimit */;
+     , (31200,  37,         34) /* ItemSkillLimit - WarMagic */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (31200,   635,      2)  /* War Magic Mastery Other I */

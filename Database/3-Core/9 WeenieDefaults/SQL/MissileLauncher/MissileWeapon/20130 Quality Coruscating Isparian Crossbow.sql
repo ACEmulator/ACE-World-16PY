@@ -57,7 +57,7 @@ VALUES (20130,   1,   33557772) /* Setup */
      , (20130,   7,  268436396) /* ClothingBase */
      , (20130,   8,  100673022) /* Icon */
      , (20130,  22,  872415275) /* PhysicsEffectTable */
-     , (20130,  37,          3) /* ItemSkillLimit */;
+     , (20130,  37,          3) /* ItemSkillLimit - Crossbow */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (20130,  1069,      2)  /* Lightning Protection Self IV */

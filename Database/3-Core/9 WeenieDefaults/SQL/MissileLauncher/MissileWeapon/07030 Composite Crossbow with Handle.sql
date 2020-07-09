@@ -56,7 +56,7 @@ VALUES (7030,   1,   33556596) /* Setup */
      , (7030,   7,  268436004) /* ClothingBase */
      , (7030,   8,  100670692) /* Icon */
      , (7030,  22,  872415275) /* PhysicsEffectTable */
-     , (7030,  37,          3) /* ItemSkillLimit */;
+     , (7030,  37,          3) /* ItemSkillLimit - Crossbow */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (7030,   489,      2)  /* Missile Weapon Mastery Other V */

@@ -50,7 +50,7 @@ VALUES (9395,   1,   33557014) /* Setup */
      , (9395,   3,  536870932) /* SoundTable */
      , (9395,   8,  100671513) /* Icon */
      , (9395,  22,  872415275) /* PhysicsEffectTable */
-     , (9395,  37,          6) /* ItemSkillLimit */;
+     , (9395,  37,          6) /* ItemSkillLimit - MeleeDefense */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (9395,   517,      2)  /* Acid Protection Self III */
