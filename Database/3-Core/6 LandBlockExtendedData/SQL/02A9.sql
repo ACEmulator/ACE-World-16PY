@@ -530,15 +530,15 @@ VALUES (0x702A9084,  5624, 0x02A902B0, 80, -124.75, 0, -4.37114E-08, 0, 0, -1, F
 /* @teleloc 0x02A902B0 [80.000000 -124.750000 0.000000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x702A9085,  9076, 0x02A902B1, 78.1066, -130.687, 2.332, -0.382684, 0, 0, -0.923879,  True, '2005-02-09 10:00:00'); /* Sea Blue Kindling Stone */
+VALUES (0x702A9085,  9076, 0x02A902B1, 78.1066, -130.687, 1.15, -0.382684, 0, 0, -0.923879,  True, '2005-02-09 10:00:00'); /* Sea Blue Kindling Stone */
 /* @teleloc 0x02A902B1 [78.106600 -130.687000 2.332000] -0.382684 0.000000 0.000000 -0.923879 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x702A9086,  9077, 0x02A902B1, 81.8391, -130.681, 2.332, 0.382684, 0, 0, -0.923879,  True, '2005-02-09 10:00:00'); /* Sea Grey Kindling Stone */
+VALUES (0x702A9086,  9077, 0x02A902B1, 81.8391, -130.681, 1.15, 0.382684, 0, 0, -0.923879,  True, '2005-02-09 10:00:00'); /* Sea Grey Kindling Stone */
 /* @teleloc 0x02A902B1 [81.839100 -130.681000 2.332000] 0.382684 0.000000 0.000000 -0.923879 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x702A9087,  9078, 0x02A902B1, 80.029, -127.44, 2.332, 1, 0, 0, 0,  True, '2005-02-09 10:00:00'); /* Silver Kindling Stone */
+VALUES (0x702A9087,  9078, 0x02A902B1, 80.029, -127.44, 1.15, 1, 0, 0, 0,  True, '2005-02-09 10:00:00'); /* Silver Kindling Stone */
 /* @teleloc 0x02A902B1 [80.029000 -127.440000 2.332000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
