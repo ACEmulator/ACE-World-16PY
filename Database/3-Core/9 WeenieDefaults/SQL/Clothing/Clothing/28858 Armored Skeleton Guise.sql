@@ -6,10 +6,10 @@ VALUES (28858, 'costumearmoredskeleton', 2, '2005-02-09 10:00:00') /* Clothing *
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (28858,   1,          4) /* ItemType - Clothing */
      , (28858,   3,          4) /* PaletteTemplate - Brown */
-     , (28858,   4,      81664) /* ClothingPriority - OuterwearUpperLegs, OuterwearLowerLegs, OuterwearChest, OuterwearAbdomen, OuterwearUpperArms, OuterwearLowerArms, Feet */
+     , (28858,   4,      130816) /* ClothingPriority - OuterwearUpperLegs, OuterwearLowerLegs, OuterwearChest, OuterwearAbdomen, OuterwearUpperArms, OuterwearLowerArms, Head, Hands, Feet */
      , (28858,   5,       1400) /* EncumbranceVal */
      , (28858,   8,        150) /* Mass */
-     , (28858,   9,      32512) /* ValidLocations - Armor */
+     , (28858,   9,      32545) /* ValidLocations - HeadWear, HandWear, Armor */
      , (28858,  16,          1) /* ItemUseable - No */
      , (28858,  19,       1000) /* Value */
      , (28858,  27,          1) /* ArmorType - Cloth */

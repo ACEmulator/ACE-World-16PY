@@ -6,10 +6,10 @@ VALUES (22024, 'costumemummyhead', 2, '2005-02-09 10:00:00') /* Clothing */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (22024,   1,          2) /* ItemType - Armor */
      , (22024,   3,         46) /* PaletteTemplate - Tan */
-     , (22024,   4,      98048) /* ClothingPriority - OuterwearUpperLegs, OuterwearLowerLegs, OuterwearChest, OuterwearAbdomen, OuterwearUpperArms, OuterwearLowerArms, Head, Feet */
+     , (22024,   4,      130816) /* ClothingPriority - OuterwearUpperLegs, OuterwearLowerLegs, OuterwearChest, OuterwearAbdomen, OuterwearUpperArms, OuterwearLowerArms, Head, Hands, Feet */
      , (22024,   5,       1750) /* EncumbranceVal */
      , (22024,   8,         75) /* Mass */
-     , (22024,   9,      32513) /* ValidLocations - HeadWear, Armor */
+     , (22024,   9,      32545) /* ValidLocations - HeadWear, HandWear, Armor */
      , (22024,  16,          1) /* ItemUseable - No */
      , (22024,  19,         75) /* Value */
      , (22024,  27,          2) /* ArmorType - Leather */

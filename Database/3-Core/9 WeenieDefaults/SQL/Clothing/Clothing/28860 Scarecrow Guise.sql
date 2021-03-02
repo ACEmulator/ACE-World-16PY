@@ -6,10 +6,10 @@ VALUES (28860, 'costumescarecrow', 2, '2005-02-09 10:00:00') /* Clothing */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (28860,   1,          4) /* ItemType - Clothing */
      , (28860,   3,          4) /* PaletteTemplate - Brown */
-     , (28860,   4,      81664) /* ClothingPriority - OuterwearUpperLegs, OuterwearLowerLegs, OuterwearChest, OuterwearAbdomen, OuterwearUpperArms, OuterwearLowerArms, Feet */
+     , (28860,   4,      130816) /* ClothingPriority - OuterwearUpperLegs, OuterwearLowerLegs, OuterwearChest, OuterwearAbdomen, OuterwearUpperArms, OuterwearLowerArms, Head, Hands, Feet */
      , (28860,   5,       1400) /* EncumbranceVal */
      , (28860,   8,        150) /* Mass */
-     , (28860,   9,      32512) /* ValidLocations - Armor */
+     , (28860,   9,      32545) /* ValidLocations - HeadWear, HandWear, Armor */
      , (28860,  16,          1) /* ItemUseable - No */
      , (28860,  19,       1000) /* Value */
      , (28860,  27,          1) /* ArmorType - Cloth */
